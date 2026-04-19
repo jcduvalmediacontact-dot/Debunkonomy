@@ -1,11 +1,19 @@
 {
   "news": [
     {
+      "id": "news-006",
+      "date": "2026-04-23",
+      "type": "texte",
+      "title": "Ivan Illich : Le prophète de la convivialité",
+      "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent en prétendant nous libérer.",
+      "link": "/articles/ivan-illich-portrait.html"
+    },
+    {
       "id": "news-005",
       "date": "2026-04-22",
       "type": "texte",
-      "title": "L'argent naît de la dette, et la dette ne peut jamais être remboursée",
-      "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global. La métaphore des trous révèle pourquoi le système est condamné à une expansion perpétuelle.",
+      "title": "Le mythe de Sisyphe de la dette",
+      "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
       "link": "/articles/creation-monetaire-dette.html"
     },
     {
