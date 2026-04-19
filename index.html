@@ -22,6 +22,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/news-carousel.css">
 
 <style>
 .hero { position: relative; min-height: 100vh; background: var(--ink); color: var(--mint); padding: 160px 40px 120px; overflow: hidden; display: flex; align-items: center; }
@@ -199,6 +200,27 @@
     <span>Éd. Debunk'Onomy<br><span style="opacity: 0.6">Avril 2026</span></span>
     <div class="divider"></div>
     <span style="text-align: right">Jean-Christophe Duval<br><span style="opacity: 0.6">Théoricien de NEMO IMS</span></span>
+  </div>
+</section>
+
+<section class="news-carousel">
+  <div class="news-carousel__inner">
+    <div class="news-carousel__header">
+      <div class="news-carousel__title-group">
+        <div class="news-carousel__eyebrow">Actualités</div>
+        <h2 class="news-carousel__title">Dernières <em>publications</em></h2>
+      </div>
+      <div class="news-carousel__nav">
+        <button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">←</button>
+        <button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">→</button>
+      </div>
+    </div>
+    <div class="news-carousel__track-wrapper">
+      <div class="news-carousel__track">
+        <!-- Les items seront générés dynamiquement par JavaScript -->
+      </div>
+    </div>
+    <div class="news-carousel__dots"></div>
   </div>
 </section>
 
@@ -407,6 +429,8 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 </script>
+
+<script src="assets/news-carousel.js"></script>
 
 </body>
 </html>

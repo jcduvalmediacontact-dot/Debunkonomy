@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vidéos — Debunk'Onomy</title>
+<meta name="description" content="Toutes les vidéos de Debunk'Onomy : conférences, présentations de NEMO IMS, analyses économiques et écologiques.">
+
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+
+<style>
+.archive-hero { background: var(--ink-deep); color: var(--mint); padding: 140px 40px 80px; position: relative; overflow: hidden; }
+.archive-hero::before { content: ""; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.6; mix-blend-mode: overlay; pointer-events: none; }
+.archive-hero__inner { max-width: var(--maxw); margin: 0 auto; position: relative; z-index: 2; }
+.archive-hero__breadcrumb { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mint); opacity: 0.6; margin-bottom: 24px; }
+.archive-hero__breadcrumb a { color: inherit; transition: opacity 0.2s; }
+.archive-hero__breadcrumb a:hover { opacity: 1; }
+.archive-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 360; font-size: clamp(48px, 6vw, 92px); line-height: 0.98; letter-spacing: -0.03em; color: var(--mint); margin-bottom: 20px; }
+.archive-hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--teal); }
+.archive-hero__desc { font-family: var(--ff-serif); font-style: italic; font-size: 20px; line-height: 1.5; color: var(--mint-soft); max-width: 50ch; }
+
+.archive-list { background: var(--cream); padding: 80px 40px 140px; }
+.archive-list__inner { max-width: var(--maxw); margin: 0 auto; }
+.archive-list__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; }
+
+.video-card { background: var(--ink); border-radius: 8px; overflow: hidden; transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1); text-decoration: none; color: inherit; display: block; }
+.video-card:hover { transform: translateY(-6px); }
+.video-card__thumbnail { aspect-ratio: 16/9; background: var(--ink-deep); position: relative; overflow: hidden; }
+.video-card__thumbnail iframe { width: 100%; height: 100%; border: none; }
+.video-card__content { padding: 32px; }
+.video-card__date { font-family: var(--ff-sans); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); margin-bottom: 14px; }
+.video-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 35; font-weight: 420; font-size: 26px; line-height: 1.2; color: var(--mint); margin-bottom: 14px; letter-spacing: -0.015em; }
+.video-card__excerpt { font-size: 15px; line-height: 1.65; color: var(--mint-soft); opacity: 0.88; }
+
+@media (max-width: 768px) {
+  .archive-list__grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="/" class="nav__brand" aria-label="Debunk'Onomy — Accueil">
+    <img src="../assets/logo-tree.png" alt="">
+  </a>
+  <div class="nav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Le Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+  <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="nav__cta">S'abonner</a>
+</nav>
+
+<section class="archive-hero">
+  <div class="archive-hero__inner">
+    <div class="archive-hero__breadcrumb">
+      <a href="/">Accueil</a> / Vidéos
+    </div>
+    <h1 class="archive-hero__title">Toutes les <em>vidéos</em></h1>
+    <p class="archive-hero__desc">Conférences, présentations de NEMO IMS, analyses économiques et écologiques.</p>
+  </div>
+</section>
+
+<section class="archive-list">
+  <div class="archive-list__inner">
+    <div class="archive-list__grid" id="videosGrid">
+      <!-- Les vidéos seront chargées dynamiquement -->
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="../assets/logo-tree.png" alt="Debunk'Onomy">
+      <p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Le Projet</h4>
+      <ul>
+        <li><a href="/manifeste/">Manifeste</a></li>
+        <li><a href="/livre/">Le Livre</a></li>
+        <li><a href="/nemo-ims/">NEMO IMS</a></li>
+        <li><a href="/articles/">Écrits</a></li>
+        <li><a href="/medias/">Médias</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
+        <li><a href="/a-propos/">À propos</a></li>
+        <li><a href="/contact/">Presse &amp; contact</a></li>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span>
+    <span>Think &amp; Move to Degrowth</span>
+  </div>
+</footer>
+
+<script>
+// Charger et afficher toutes les vidéos
+async function loadVideos() {
+  try {
+    const response = await fetch('/news.json');
+    const data = await response.json();
+    
+    // Filtrer uniquement les vidéos et trier par date
+    const videos = data.news
+      .filter(item => item.type === 'video')
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+    const grid = document.getElementById('videosGrid');
+    
+    if (videos.length === 0) {
+      grid.innerHTML = '<p style="text-align: center; color: var(--ink); opacity: 0.6; padding: 60px 0;">Aucune vidéo disponible pour le moment.</p>';
+      return;
+    }
+    
+    grid.innerHTML = videos.map(video => {
+      const date = new Date(video.date).toLocaleDateString('fr-FR', { 
+        day: 'numeric', 
+        month: 'long', 
+        year: 'numeric' 
+      });
+      
+      return `
+        <div class="video-card">
+          <div class="video-card__thumbnail">
+            <iframe 
+              src="https://www.youtube.com/embed/${video.youtubeId}" 
+              title="${video.title}"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+          <div class="video-card__content">
+            <div class="video-card__date">${date}</div>
+            <h3 class="video-card__title">${video.title}</h3>
+            <p class="video-card__excerpt">${video.excerpt}</p>
+          </div>
+        </div>
+      `;
+    }).join('');
+    
+  } catch (error) {
+    console.error('Erreur lors du chargement des vidéos:', error);
+  }
+}
+
+// Charger au chargement de la page
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', loadVideos);
+} else {
+  loadVideos();
+}
+
+// Script de navigation
+const nav = document.getElementById('nav');
+const onScroll = () => {
+  if (window.scrollY > 40) nav.classList.add('scrolled');
+  else nav.classList.remove('scrolled');
+};
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+</script>
+
+</body>
+</html>

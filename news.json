@@ -1,0 +1,30 @@
+{
+  "news": [
+    {
+      "id": "news-003",
+      "date": "2026-04-19",
+      "type": "video",
+      "title": "NEMO IMS : une monnaie pour la régénération planétaire",
+      "excerpt": "Présentation du système monétaire néguentropique et de ses implications pour la transition écologique.",
+      "youtubeId": "dQw4w9WgXcQ",
+      "link": "/videos/nemo-ims-presentation/"
+    },
+    {
+      "id": "news-002",
+      "date": "2026-04-18",
+      "type": "texte",
+      "title": "Les limites du PIB comme indicateur de prospérité",
+      "excerpt": "Analyse critique de l'indicateur central de la croissance économique et de ses angles morts écologiques.",
+      "content": "Texte complet de l'article...",
+      "link": "/articles/limites-pib/"
+    },
+    {
+      "id": "news-001",
+      "date": "2026-04-17",
+      "type": "actu",
+      "title": "Synthèse : nouvelle publication du GIEC sur les scénarios SSP",
+      "excerpt": "Décryptage des derniers scénarios socio-économiques partagés et de leurs implications pour les politiques monétaires.",
+      "link": "/actus/giec-ssp-2026/"
+    }
+  ]
+}
