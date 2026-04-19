@@ -20,11 +20,12 @@
     },
     {
       "id": "news-001",
-      "date": "2026-04-17",
-      "type": "actu",
-      "title": "Synthèse : nouvelle publication du GIEC sur les scénarios SSP",
-      "excerpt": "Décryptage des derniers scénarios socio-économiques partagés et de leurs implications pour les politiques monétaires.",
-      "link": "/actus/giec-ssp-2026/"
+      "date": "2026-04-19",
+      "type": "video",
+      "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
+      "excerpt": "L'argent actuel, créé par la dette avec intérêts, impose une croissance économique perpétuelle et exponentielle pour éviter l'effondrement du système financier.
+Cette exigence de croissance infinie est structurellement incompatible avec la stabilité et le respect des limites planétaires prônés par le Donut.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao"
     }
   ]
 }
