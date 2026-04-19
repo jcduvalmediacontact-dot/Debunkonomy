@@ -1,5 +1,14 @@
 {
   "news": [
+{
+      "id": "news-004",
+      "date": "2026-04-20",
+      "type": "texte",
+      "title": "Septième limite franchie : L'acidification des océans",
+      "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel qui pointe vers la nécessité de réorganiser la création monétaire.",
+      "link": "/articles/septieme-limite-planetaire.html"
+    },
+
     {
       "id": "news-003",
       "date": "2026-04-19",
