@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "news-005",
+      "date": "2026-04-22",
+      "type": "texte",
+      "title": "L'argent naît de la dette, et la dette ne peut jamais être remboursée",
+      "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global. La métaphore des trous révèle pourquoi le système est condamné à une expansion perpétuelle.",
+      "link": "/articles/creation-monetaire-dette.html"
+    },
+    {
       "id": "news-004",
       "date": "2026-04-21",
       "type": "texte",
