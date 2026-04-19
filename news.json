@@ -1,37 +1,36 @@
 {
   "news": [
-{
+    {
       "id": "news-004",
+      "date": "2026-04-21",
+      "type": "texte",
+      "title": "Le PIB ne mesure pas ce que nous croyons",
+      "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
+      "link": "/articles/limites-pib.html"
+    },
+    {
+      "id": "news-003",
       "date": "2026-04-20",
       "type": "texte",
       "title": "Septième limite franchie : L'acidification des océans",
-      "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel qui pointe vers la nécessité de réorganiser la création monétaire.",
+      "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
       "link": "/articles/septieme-limite-planetaire.html"
-    },
-
-    {
-      "id": "news-003",
-      "date": "2026-04-19",
-      "type": "video",
-      "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
-      "excerpt": "L'argent actuel, créé par la dette avec intérêts, impose une croissance économique perpétuelle et exponentielle pour éviter l'effondrement du système financier. Cette exigence de croissance infinie est structurellement incompatible avec la stabilité et le respect des limites planétaires prônés par le Donut.",
-      "youtubeId": "s6Hbfs7pOao",
-      "link": "/videos/#news-003"
     },
     {
       "id": "news-002",
-      "date": "2026-04-18",
-      "type": "texte",
-      "title": "Les limites du PIB comme indicateur de prospérité",
-      "excerpt": "Analyse critique de l'indicateur central de la croissance économique et de ses angles morts écologiques.",
-      "link": "/articles/limites-pib/"
+      "date": "2026-04-19",
+      "type": "video",
+      "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
+      "excerpt": "L'argent actuel impose une croissance perpétuelle incompatible avec les limites planétaires.",
+      "youtubeId": "s6Hbfs7pOao",
+      "link": "/videos/#news-002"
     },
     {
       "id": "news-001",
       "date": "2026-04-17",
       "type": "video",
       "title": "NEMO IMS : une monnaie pour la régénération planétaire",
-      "excerpt": "Présentation du système monétaire néguentropique et de ses implications pour la transition écologique.",
+      "excerpt": "Présentation du système monétaire néguentropique.",
       "youtubeId": "NtQZm9RcpFk",
       "link": "/videos/nemo-ims-presentation/"
     }
