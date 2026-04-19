@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Debunk'Onomy</title>
+<meta name="description" content="Contacter Debunk'Onomy : presse, conférences, échanges intellectuels, demandes professionnelles.">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.cont-hero { background: var(--cream); padding: 100px 28px 60px; }
+.cont-hero__inner { max-width: var(--maxw); margin: 0 auto; }
+.cont-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 30px; }
+.cont-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--teal); opacity: 0.5; }
+.cont-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(48px, 7vw, 96px); line-height: 0.96; letter-spacing: -0.03em; color: var(--ink-deep); margin-bottom: 28px; }
+.cont-hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.cont-hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2vw, 26px); line-height: 1.45; color: var(--ink); max-width: 56ch; }
+
+.cont-grid { background: var(--cream); padding: 60px 28px 120px; }
+.cont-grid__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.cont-card { padding: 50px 40px; background: var(--cream-deep); border-radius: 4px; border: 1px solid rgba(13,46,49,0.1); }
+.cont-card__type { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 20px; }
+.cont-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 35; font-weight: 450; font-size: clamp(26px, 2.8vw, 34px); line-height: 1.15; color: var(--ink-deep); margin-bottom: 18px; letter-spacing: -0.02em; }
+.cont-card__title em { font-style: italic; font-variation-settings: "opsz" 72, "SOFT" 100, "WONK" 1; }
+.cont-card__desc { font-family: var(--ff-display); font-size: 16px; line-height: 1.6; color: var(--ink); margin-bottom: 28px; }
+.cont-card__email { display: inline-flex; align-items: center; gap: 10px; font-family: var(--ff-display); font-size: 18px; color: var(--ink-deep); padding: 14px 22px; background: var(--cream); border-radius: 4px; border: 1px solid rgba(13,46,49,0.15); transition: all 0.3s; text-decoration: none; }
+.cont-card__email:hover { background: var(--ink-deep); color: var(--mint); border-color: var(--ink-deep); }
+.cont-card__email .at { color: var(--teal); }
+
+.cont-card--ink { background: var(--ink-deep); color: var(--mint); }
+.cont-card--ink .cont-card__type { color: var(--mint); opacity: 0.85; }
+.cont-card--ink .cont-card__title { color: var(--mint); }
+.cont-card--ink .cont-card__desc { color: var(--cream); opacity: 0.92; }
+.cont-card--ink .cont-card__email { background: var(--ink); color: var(--mint); border-color: rgba(168,234,234,0.3); }
+.cont-card--ink .cont-card__email:hover { background: var(--mint); color: var(--ink-deep); border-color: var(--mint); }
+.cont-card--ink .cont-card__email .at { color: var(--mint-soft); }
+
+@media (max-width: 720px) {
+  .cont-hero { padding: 60px 22px 40px; }
+  .cont-grid { padding: 30px 22px 80px; }
+  .cont-grid__inner { grid-template-columns: 1fr; }
+  .cont-card { padding: 36px 28px; }
+}
+</style>
+</head>
+<body>
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<section class="cont-hero">
+  <div class="cont-hero__inner">
+    <div class="cont-hero__eyebrow">Contact &amp; presse</div>
+    <h1 class="cont-hero__title">Écrire <em>à Debunk'Onomy</em>.</h1>
+    <p class="cont-hero__lede">Pour toute demande — presse, conférence, recension, échange intellectuel ou professionnel — un seul point d'entrée, traité personnellement.</p>
+  </div>
+</section>
+
+<section class="cont-grid">
+  <div class="cont-grid__inner">
+    <div class="cont-card">
+      <div class="cont-card__type">Contact général</div>
+      <h2 class="cont-card__title">Échanges &amp; <em>questions</em></h2>
+      <p class="cont-card__desc">Pour toute question sur le projet Debunk'Onomy, le livre, la proposition NEMO IMS, ou une discussion intellectuelle. Les messages reçoivent une réponse personnelle dans les meilleurs délais.</p>
+      <a href="mailto:contact@debunkonomy.org" class="cont-card__email">contact<span class="at">@</span>debunkonomy.org</a>
+    </div>
+    <div class="cont-card cont-card--ink">
+      <div class="cont-card__type">Presse · Conférence · Édition</div>
+      <h2 class="cont-card__title">Demandes <em>professionnelles</em></h2>
+      <p class="cont-card__desc">Journalistes, organisateurs de conférence, éditeurs étrangers, plateformes podcast — merci de préciser dans votre message la nature de votre demande, votre média ou organisation, et vos délais de réponse.</p>
+      <a href="mailto:contact@debunkonomy.org?subject=Presse%20%2F%20Conf%C3%A9rence" class="cont-card__email">contact<span class="at">@</span>debunkonomy.org</a>
+    </div>
+    <div class="cont-card">
+      <div class="cont-card__type">Réseaux sociaux</div>
+      <h2 class="cont-card__title">Suivre <em>l'actualité</em></h2>
+      <p class="cont-card__desc">Le Substack centralise les chroniques et notes longues. LinkedIn et Bluesky relaient les actualités courtes, les invitations à des conférences et les débats en cours.</p>
+      <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px;">
+        <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="btn btn--ghost-dark">Substack ↗</a>
+        <a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener" class="btn btn--ghost-dark">LinkedIn ↗</a>
+        <a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener" class="btn btn--ghost-dark">Bluesky ↗</a>
+      </div>
+    </div>
+    <div class="cont-card">
+      <div class="cont-card__type">Le livre</div>
+      <h2 class="cont-card__title">Acquérir <em>L'Économie de l'Équilibre</em></h2>
+      <p class="cont-card__desc">L'ouvrage est disponible directement auprès de l'éditeur via Payhip — paiement sécurisé, livraison rapide.</p>
+      <a href="https://payhip.com/b/tQhNU" target="_blank" rel="noopener" class="cont-card__email">Commander · 19,90 € →</a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+</body></html>

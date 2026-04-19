@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debunk'Onomy — Think &amp; Move to Degrowth</title>
+<meta name="description" content="Debunk'Onomy : déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique, système monétaire NEMO IMS, et l'ouvrage L'Économie de l'Équilibre par Jean-Christophe Duval.">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Debunk'Onomy — Think & Move to Degrowth">
+<meta property="og:description" content="Une recherche, un livre, un système. Un programme de pensée et d'action pour faire entrer la monnaie — et la finance — dans les limites du vivant.">
+<meta property="og:site_name" content="Debunk'Onomy">
+<meta property="og:locale" content="fr_FR">
+
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+
+<style>
+.hero { position: relative; min-height: 100vh; background: var(--ink); color: var(--mint); padding: 160px 40px 120px; overflow: hidden; display: flex; align-items: center; }
+.hero__bg-tree { position: absolute; right: -180px; top: 50%; transform: translateY(-50%); width: 900px; height: 900px; opacity: 0.08; pointer-events: none; }
+.hero__bg-tree img { width: 100%; height: 100%; object-fit: contain; }
+.hero__grain { position: absolute; inset: 0; pointer-events: none; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.55; mix-blend-mode: overlay; }
+.hero__inner { position: relative; z-index: 2; max-width: var(--maxw); margin: 0 auto; width: 100%; }
+.hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--mint-soft); opacity: 0.9; margin-bottom: 40px; }
+.hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--mint); opacity: 0.6; }
+.hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 350; font-size: clamp(56px, 9vw, 156px); line-height: 0.92; letter-spacing: -0.035em; color: var(--mint); max-width: 14ch; }
+.hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2vw, 26px); line-height: 1.45; max-width: 42ch; color: var(--mint-soft); opacity: 0.92; margin-top: 40px; padding-left: 24px; border-left: 1px solid rgba(168, 234, 234, 0.35); }
+.hero__actions { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 48px; }
+.hero__meta { position: absolute; bottom: 40px; left: 40px; right: 40px; z-index: 2; display: flex; justify-content: space-between; align-items: flex-end; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mint-soft); opacity: 0.6; max-width: var(--maxw); margin: 0 auto; }
+.hero__meta .divider { width: 1px; height: 40px; background: var(--mint); opacity: 0.3; }
+
+.manifesto { background: var(--cream); padding: 140px 40px; }
+.manifesto__inner { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: auto 1fr; gap: 60px; align-items: start; }
+.manifesto__label { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding-top: 8px; }
+.manifesto__label::after { content: ""; display: block; width: 60px; height: 1px; background: var(--teal); opacity: 0.4; margin: 18px auto 0; }
+.manifesto__text p { font-family: var(--ff-display); font-variation-settings: "opsz" 60, "SOFT" 50; font-weight: 380; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.35; letter-spacing: -0.015em; color: var(--ink-deep); margin-bottom: 28px; }
+.manifesto__text p:last-of-type { margin-bottom: 0; }
+.manifesto__text em { font-style: italic; font-variation-settings: "opsz" 60, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.manifesto__more { display: inline-flex; align-items: center; gap: 10px; margin-top: 40px; padding-bottom: 4px; border-bottom: 1px solid var(--ink); font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink); transition: opacity 0.2s; }
+.manifesto__more:hover { opacity: 0.6; }
+
+.gaia-quote { background: radial-gradient(ellipse at 50% 30%, rgba(74, 139, 146, 0.22) 0%, transparent 60%), linear-gradient(175deg, #0A2528 0%, var(--ink-deep) 50%, #081F22 100%); padding: 180px 40px; text-align: center; position: relative; overflow: hidden; color: var(--mint); }
+.gaia-quote::before { content: ""; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.5; mix-blend-mode: overlay; pointer-events: none; }
+.gaia-quote__inner { max-width: 1000px; margin: 0 auto; position: relative; z-index: 2; }
+.gaia-quote__eyebrow { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--mint); opacity: 0.55; margin-bottom: 56px; display: inline-flex; align-items: center; gap: 14px; }
+.gaia-quote__eyebrow::before, .gaia-quote__eyebrow::after { content: ""; display: block; width: 40px; height: 1px; background: var(--mint); opacity: 0.5; }
+.gaia-quote__text { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-weight: 350; font-size: clamp(30px, 4.2vw, 58px); line-height: 1.28; letter-spacing: -0.02em; color: var(--mint); }
+.gaia-quote__preamble { display: block; font-family: var(--ff-serif); font-style: italic; font-size: clamp(16px, 1.5vw, 20px); color: var(--mint-soft); opacity: 0.7; letter-spacing: 0.04em; margin-bottom: 28px; font-variation-settings: normal; }
+.gaia-quote__mark { color: var(--teal); font-size: 1.1em; font-style: normal; vertical-align: -0.04em; opacity: 0.85; margin: 0 0.05em; }
+.gaia-quote__context { margin-top: 56px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--mint); opacity: 0.45; }
+
+.book { background: var(--ink-deep); color: var(--cream); padding: 140px 40px; position: relative; overflow: hidden; }
+.book::before { content: "ESSAI"; position: absolute; top: 80px; right: -40px; font-family: var(--ff-display); font-size: 280px; font-weight: 800; color: var(--teal); opacity: 0.12; letter-spacing: -0.04em; pointer-events: none; }
+.book__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1.2fr; gap: 100px; align-items: center; position: relative; z-index: 2; }
+.book__cover { position: relative; max-width: 420px; width: 100%; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.7), 0 20px 40px -10px rgba(0,0,0,0.35); transform: perspective(1200px) rotateY(-6deg) rotateX(2deg); transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1); border-radius: 2px; overflow: hidden; }
+.book__cover:hover { transform: perspective(1200px) rotateY(-3deg) rotateX(1deg) translateY(-6px); }
+.book__cover img { width: 100%; height: auto; display: block; }
+.book__cover::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 18px; background: linear-gradient(to right, rgba(0,0,0,0.25), transparent); pointer-events: none; }
+.book__content { max-width: 560px; }
+.book__eyebrow { display: inline-flex; align-items: center; gap: 12px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--mint); opacity: 0.8; margin-bottom: 32px; }
+.book__eyebrow::before { content: ""; width: 30px; height: 1px; background: var(--mint); opacity: 0.5; }
+.book__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 400; font-size: clamp(40px, 4.5vw, 68px); line-height: 0.98; letter-spacing: -0.025em; color: var(--cream); margin-bottom: 16px; }
+.book__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint); }
+.book__subtitle { font-family: var(--ff-serif); font-style: italic; font-size: 22px; color: var(--mint-soft); margin-bottom: 36px; line-height: 1.3; }
+.book__desc { font-size: 16px; line-height: 1.7; color: var(--cream); opacity: 0.85; margin-bottom: 16px; }
+.book__details { display: flex; gap: 40px; flex-wrap: wrap; margin: 40px 0; padding: 24px 0; border-top: 1px solid rgba(168, 234, 234, 0.2); border-bottom: 1px solid rgba(168, 234, 234, 0.2); }
+.book__detail dt { font-family: var(--ff-sans); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mint); opacity: 0.7; margin-bottom: 6px; }
+.book__detail dd { font-family: var(--ff-display); font-size: 17px; color: var(--cream); }
+
+.metaphor { background: var(--cream); padding: 140px 40px; }
+.metaphor__inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.2fr; gap: 80px; align-items: center; }
+.metaphor__visual { aspect-ratio: 1/1; position: relative; background: radial-gradient(circle at 50% 50%, var(--mint-soft) 0%, var(--cream) 70%); border-radius: 50%; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.metaphor__visual::before { content: ""; position: absolute; inset: -1px; border: 1px dashed rgba(74, 139, 146, 0.4); border-radius: 50%; animation: rotate 80s linear infinite; }
+@keyframes rotate { to { transform: rotate(360deg); } }
+.metaphor__visual-symbol { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 220px; line-height: 1; color: var(--teal); position: relative; z-index: 2; }
+.metaphor__content { max-width: 560px; }
+.metaphor__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(34px, 4vw, 52px); line-height: 1.05; letter-spacing: -0.025em; color: var(--ink-deep); margin-bottom: 28px; }
+.metaphor__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.metaphor__text { font-family: var(--ff-display); font-size: 18px; line-height: 1.65; color: var(--ink); margin-bottom: 18px; }
+.metaphor__text em { font-style: italic; font-variation-settings: "opsz" 18, "SOFT" 80, "WONK" 1; }
+.metaphor__attrib { margin-top: 30px; font-family: var(--ff-serif); font-style: italic; font-size: 15px; color: var(--teal); }
+
+.nemo { background: var(--ink-deep); color: var(--mint); padding: 140px 40px; }
+.nemo__inner { max-width: var(--maxw); margin: 0 auto; }
+.nemo__head { display: grid; grid-template-columns: 1fr 1.3fr; gap: 80px; align-items: end; margin-bottom: 80px; }
+.nemo__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 30; font-weight: 350; font-size: clamp(44px, 5vw, 80px); line-height: 0.96; letter-spacing: -0.025em; color: var(--mint); }
+.nemo__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.nemo__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 1.8vw, 26px); line-height: 1.45; color: var(--mint); max-width: 46ch; opacity: 0.92; }
+.nemo__lede em { color: var(--mint-soft); font-style: normal; }
+.nemo__pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(168, 234, 234, 0.12); margin-bottom: 60px; }
+.pillar { background: var(--ink-deep); padding: 48px 36px; transition: background 0.3s; }
+.pillar:hover { background: var(--ink); }
+.pillar__num { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-style: italic; font-weight: 300; font-size: 64px; line-height: 1; color: var(--mint); margin-bottom: 20px; opacity: 0.85; }
+.pillar__title { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 30; font-weight: 500; font-size: 22px; line-height: 1.2; color: var(--mint); margin-bottom: 14px; letter-spacing: -0.01em; }
+.pillar__text { font-size: 15px; line-height: 1.6; color: var(--cream); opacity: 0.85; }
+.nemo__cta { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 20px; }
+
+.author { background: var(--teal); color: var(--cream); padding: 140px 40px; overflow: hidden; }
+.author__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1fr; gap: 80px; align-items: center; }
+.author__eyebrow { display: inline-flex; align-items: center; gap: 12px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--mint); opacity: 0.9; margin-bottom: 28px; }
+.author__eyebrow::before { content: ""; width: 30px; height: 1px; background: var(--mint); opacity: 0.6; }
+.author__name { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 400; font-size: clamp(48px, 5.5vw, 92px); line-height: 0.95; letter-spacing: -0.025em; color: var(--mint); margin-bottom: 12px; }
+.author__name em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
+.author__role { font-family: var(--ff-serif); font-style: italic; font-size: 22px; color: var(--mint-soft); margin-bottom: 32px; }
+.author__role em { color: var(--mint); }
+.author__bio { font-size: 16px; line-height: 1.7; color: var(--cream); margin-bottom: 18px; max-width: 52ch; }
+.author__links { display: flex; gap: 14px; margin-top: 32px; flex-wrap: wrap; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; }
+.author__links a { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border: 1px solid rgba(244, 237, 224, 0.3); border-radius: 999px; transition: all 0.3s; }
+.author__links a:hover { background: var(--mint); color: var(--ink-deep); border-color: var(--mint); }
+.author__visual { aspect-ratio: 4/5; position: relative; overflow: hidden; border-radius: 2px; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.45); }
+.author__visual-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.author__visual-frame { position: absolute; inset: 20px; border: 1px solid rgba(244, 237, 224, 0.22); pointer-events: none; display: flex; flex-direction: column; justify-content: space-between; padding: 22px 24px; }
+.author__visual-caption-top, .author__visual-caption-bottom { font-family: var(--ff-sans); font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--cream); opacity: 0.85; text-shadow: 0 1px 8px rgba(0,0,0,0.4); }
+.author__visual-caption-bottom { display: flex; justify-content: space-between; align-items: flex-end; }
+.author__visual-caption-bottom em { font-family: var(--ff-serif); font-style: italic; font-size: 13px; letter-spacing: 0.02em; text-transform: none; opacity: 0.9; }
+
+.writings { background: var(--cream); padding: 140px 40px; }
+.writings__inner { max-width: var(--maxw); margin: 0 auto; }
+.writings__head { display: flex; justify-content: space-between; align-items: end; margin-bottom: 60px; padding-bottom: 28px; border-bottom: 1px solid var(--ink-deep); flex-wrap: wrap; gap: 20px; }
+.writings__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 30; font-weight: 350; font-size: clamp(40px, 4.5vw, 68px); line-height: 0.98; letter-spacing: -0.025em; color: var(--ink-deep); }
+.writings__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
+.writings__link { font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink); padding-bottom: 4px; border-bottom: 1px solid var(--ink); transition: opacity 0.2s; }
+.writings__link:hover { opacity: 0.6; }
+.writings__list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
+.article-card { display: block; padding: 36px 32px 36px 0; border-top: 1px solid rgba(13, 46, 49, 0.15); border-right: 1px solid rgba(13, 46, 49, 0.15); transition: background 0.3s; text-decoration: none; color: inherit; }
+.article-card:nth-child(3n) { border-right: none; padding-right: 0; }
+.article-card:hover { background: rgba(168, 234, 234, 0.12); }
+.article-card__date { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); margin-bottom: 16px; }
+.article-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 30; font-weight: 450; font-size: 24px; line-height: 1.2; color: var(--ink-deep); margin-bottom: 14px; letter-spacing: -0.015em; }
+.article-card__excerpt { font-size: 14px; line-height: 1.6; color: var(--ink); opacity: 0.75; margin-bottom: 18px; }
+.article-card__tag { display: inline-block; font-family: var(--ff-sans); font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--rust); }
+.article-card--placeholder { opacity: 0.55; cursor: default; }
+.article-card--placeholder:hover { background: transparent; }
+
+.newsletter { background: var(--ink-deep); color: var(--mint); padding: 140px 40px; position: relative; overflow: hidden; }
+.newsletter__bg { position: absolute; inset: 0; background: radial-gradient(ellipse at 20% 50%, rgba(74, 139, 146, 0.35) 0%, transparent 60%), radial-gradient(ellipse at 85% 30%, rgba(74, 139, 146, 0.2) 0%, transparent 60%); pointer-events: none; }
+.newsletter__inner { max-width: 880px; margin: 0 auto; position: relative; z-index: 2; text-align: center; }
+.newsletter__eyebrow { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--mint); opacity: 0.8; margin-bottom: 24px; }
+.newsletter__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 350; font-size: clamp(40px, 5vw, 72px); line-height: 1.0; letter-spacing: -0.025em; color: var(--mint); margin-bottom: 24px; }
+.newsletter__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.newsletter__text { font-family: var(--ff-serif); font-style: italic; font-size: 20px; color: var(--mint-soft); max-width: 58ch; margin: 0 auto 48px; line-height: 1.5; opacity: 0.9; }
+.newsletter__cta { display: inline-flex; align-items: center; gap: 12px; padding: 18px 36px; background: var(--mint); color: var(--ink-deep); border-radius: 999px; font-family: var(--ff-sans); font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; transition: all 0.3s; }
+.newsletter__cta:hover { background: var(--mint-soft); transform: translateY(-2px); }
+
+@media (max-width: 980px) {
+  .hero { padding: 120px 20px 80px; } .hero__bg-tree { right: -300px; width: 700px; height: 700px; } .hero__meta { display: none; }
+  .manifesto, .gaia-quote, .book, .metaphor, .nemo, .author, .writings, .newsletter { padding: 80px 20px; }
+  .manifesto__inner { grid-template-columns: 1fr; gap: 24px; } .manifesto__label { writing-mode: horizontal-tb; transform: none; } .manifesto__label::after { display: none; }
+  .book__inner { grid-template-columns: 1fr; gap: 60px; } .book__cover { max-width: 300px; margin: 0 auto; transform: none; } .book__cover:hover { transform: translateY(-4px); }
+  .metaphor__inner { grid-template-columns: 1fr; gap: 50px; } .metaphor__visual { max-width: 300px; margin: 0 auto; } .metaphor__visual-symbol { font-size: 160px; }
+  .nemo__head { grid-template-columns: 1fr; gap: 32px; } .nemo__pillars { grid-template-columns: 1fr; }
+  .author__inner { grid-template-columns: 1fr; gap: 50px; } .author__visual { max-width: 420px; margin: 0 auto; }
+  .writings__list { grid-template-columns: 1fr; } .article-card, .article-card:nth-child(3n) { border-right: none; padding-right: 0; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="/" class="nav__brand" aria-label="Debunk'Onomy — Accueil">
+    <img src="assets/logo-tree.png" alt="">
+  </a>
+  <div class="nav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Le Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+  <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="nav__cta">S'abonner</a>
+</nav>
+
+<section class="hero">
+  <div class="hero__grain"></div>
+  <div class="hero__bg-tree"><img src="assets/logo-tree.png" alt=""></div>
+  <div class="hero__inner">
+    <span class="hero__eyebrow reveal d1">Économie écologique · Monnaie · Limites planétaires</span>
+    <h1 class="hero__title reveal d2">Déconstruire l'économie pour <em>reconstruire</em> le monde.</h1>
+    <p class="hero__lede reveal d3">
+      Une recherche, un livre, un système. Un programme de pensée et d'action pour faire
+      entrer la monnaie — et la finance — dans les limites du vivant.
+    </p>
+    <div class="hero__actions reveal d4">
+      <a href="/livre/" class="btn btn--primary">Découvrir le livre <span class="btn__arrow">→</span></a>
+      <a href="/nemo-ims/" class="btn btn--ghost">Explorer NEMO IMS <span class="btn__arrow">→</span></a>
+    </div>
+  </div>
+  <div class="hero__meta">
+    <span>Éd. Debunk'Onomy<br><span style="opacity: 0.6">Avril 2026</span></span>
+    <div class="divider"></div>
+    <span style="text-align: right">Jean-Christophe Duval<br><span style="opacity: 0.6">Théoricien de NEMO IMS</span></span>
+  </div>
+</section>
+
+<section class="manifesto">
+  <div class="manifesto__inner">
+    <div class="manifesto__label">Manifeste</div>
+    <div class="manifesto__text">
+      <p>Nous vivons une époque étrange. Jamais l'humanité n'a produit autant de richesses, jamais elle n'a autant détruit ce qui la fait vivre.</p>
+      <p>Ces catastrophes ne sont pas des accidents. Elles sont le produit <em>structurel</em> d'un système économique fondé sur la dette, la croissance et l'extraction.</p>
+      <p>Le problème n'est pas seulement économique. Il est <em>monétaire</em>.</p>
+      <a href="/manifeste/" class="manifesto__more">Lire le manifeste complet <span>→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="gaia-quote">
+  <div class="gaia-quote__inner">
+    <div class="gaia-quote__eyebrow">Épigraphe</div>
+    <blockquote class="gaia-quote__text">
+      <span class="gaia-quote__preamble">Et Gaïa dit aux hommes :</span>
+      <span class="gaia-quote__mark">«</span> Il est vain de me soigner avec une monnaie que vous puisez au plus profond de mes blessures. <span class="gaia-quote__mark">»</span>
+    </blockquote>
+    <p class="gaia-quote__context">L'Économie de l'Équilibre — épigraphe</p>
+  </div>
+</section>
+
+<section class="book" id="livre">
+  <div class="book__inner">
+    <div class="book__cover">
+      <img src="assets/book-cover.png" alt="L'Économie de l'Équilibre — Jean-Christophe Duval">
+    </div>
+    <div class="book__content">
+      <span class="book__eyebrow">Parution — Avril 2026</span>
+      <h2 class="book__title">L'Économie <em>de l'Équilibre</em></h2>
+      <p class="book__subtitle">Monnaie, finance et limites planétaires.</p>
+      <p class="book__desc">Et si la monnaie n'était pas seulement un outil économique, mais la clé d'un nouvel équilibre entre l'humanité et la planète&nbsp;? Dans un monde en crise, Jean-Christophe Duval propose une refondation radicale&nbsp;: le système <em style="color: var(--mint);">NEMO IMS</em>.</p>
+      <p class="book__desc">Une monnaie qui se crée à mesure de ce qu'elle régénère, et qui se dégrade à mesure de ce qu'elle dégrade — reliée aux flux réels de la biosphère, capable de réconcilier économie et écologie.</p>
+      <dl class="book__details">
+        <div class="book__detail"><dt>Éditeur</dt><dd>Debunk'Onomy</dd></div>
+        <div class="book__detail"><dt>Parution</dt><dd>Avril 2026</dd></div>
+        <div class="book__detail"><dt>Prix</dt><dd>19,90 €</dd></div>
+        <div class="book__detail"><dt>ISBN</dt><dd>979-10-981064-1-5</dd></div>
+      </dl>
+      <div class="hero__actions" style="margin-top: 8px;">
+        <a href="https://payhip.com/b/tQhNU" target="_blank" rel="noopener" class="btn btn--primary">Se procurer le livre <span class="btn__arrow">→</span></a>
+        <a href="/livre/" class="btn btn--ghost">Tout savoir sur l'ouvrage <span class="btn__arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="metaphor">
+  <div class="metaphor__inner">
+    <div class="metaphor__visual"><div class="metaphor__visual-symbol">☯</div></div>
+    <div class="metaphor__content">
+      <h2 class="metaphor__title">Une monnaie qui <em>régénère</em>, une monnaie qui <em>fond</em>.</h2>
+      <p class="metaphor__text">Imaginez un dieu écologiste qui créerait de l'or et le donnerait aux hommes en échange d'activités en faveur du vivant&nbsp;: dépolluer les océans, replanter les forêts, protéger les espèces, garantir la sécurité alimentaire.</p>
+      <p class="metaphor__text">Imaginez aussi que cet or aurait la faculté de <em>fondre</em> lorsque les hommes feraient le commerce de biens préjudiciables à l'environnement — plus l'activité serait dégénérative, plus son revenu se dégraderait.</p>
+      <p class="metaphor__text">Ce dieu n'existe pas. Mais des conventions humaines sont tout à fait envisageables, et la technologie actuelle nous permet de réaliser des choses qui pourraient bien ressembler à ça. C'est précisément l'objet de <em>NEMO IMS</em>.</p>
+      <p class="metaphor__attrib">— Extrait de <em>L'Économie de l'Équilibre</em>, chapitre 1</p>
+    </div>
+  </div>
+</section>
+
+<section class="nemo" id="nemo">
+  <div class="nemo__inner">
+    <div class="nemo__head">
+      <div>
+        <span class="hero__eyebrow" style="margin-bottom: 24px;">Proposition systémique</span>
+        <h2 class="nemo__title">NEMO <em>IMS</em></h2>
+        <p style="font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--mint); opacity: 0.7; margin-top: 12px;">Negentropic Money — International Monetary System</p>
+      </div>
+      <p class="nemo__lede">Un cadre monétaire international où la création de monnaie n'est plus indexée sur la dette, mais sur <em>la régénération mesurable du vivant</em> — sols, forêts, eaux, cycles biogéochimiques, communs.</p>
+    </div>
+    <div class="nemo__pillars">
+      <div class="pillar">
+        <div class="pillar__num">01</div>
+        <h3 class="pillar__title">Une monnaie sans dette</h3>
+        <p class="pillar__text">Émise non plus contre une promesse d'extraction future, mais en contrepartie d'activités régénératives certifiées : reforestation, dépollution, restauration des sols, protection de la biodiversité.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">02</div>
+        <h3 class="pillar__title">Une finance Yin &amp; Yang</h3>
+        <p class="pillar__text">À la finance « yang » des marchés répond une finance « yin » dédiée aux communs planétaires. Deux institutions, deux logiques, un équilibre.</p>
+      </div>
+      <div class="pillar">
+        <div class="pillar__num">03</div>
+        <h3 class="pillar__title">Une fonte pondérée</h3>
+        <p class="pillar__text">Chaque transaction supporte un taux de destruction monétaire variable selon son impact écologique. Une TVA régénérative au cœur de la monnaie elle-même.</p>
+      </div>
+    </div>
+    <div class="nemo__cta">
+      <a href="/nemo-ims/" class="btn btn--primary">Approfondir NEMO IMS <span class="btn__arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="author" id="auteur">
+  <div class="author__inner">
+    <div>
+      <span class="author__eyebrow">L'auteur</span>
+      <h2 class="author__name">Jean-Christophe <em>Duval</em></h2>
+      <p class="author__role">Théoricien et concepteur de NEMO IMS · auteur de <em>L'Économie de l'Équilibre</em>.</p>
+      <p class="author__bio">Jean-Christophe Duval développe, sous l'imprint <em>Debunk'Onomy</em>, un programme de recherche à l'intersection de la théorie monétaire, de l'économie écologique et des limites planétaires.</p>
+      <p class="author__bio">Son travail culmine dans <em>L'Économie de l'Équilibre</em> et la proposition NEMO IMS — une refonte systémique du système monétaire international adossée à la régénération du vivant plutôt qu'à l'expansion de la dette.</p>
+      <p class="author__bio" style="opacity: 0.7; font-style: italic;">« Changer la monnaie, c'est changer le monde. »</p>
+      <div class="author__links">
+        <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack ↗</a>
+        <a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube ↗</a>
+        <a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky ↗</a>
+        <a href="/contact/">Contact ↗</a>
+      </div>
+    </div>
+    <div class="author__visual">
+      <img class="author__visual-img" src="assets/author-portrait.jpg" alt="Portrait de Jean-Christophe Duval">
+      <div class="author__visual-frame">
+        <div class="author__visual-caption-top">Jean-Christophe Duval · Portrait</div>
+        <div class="author__visual-caption-bottom"><span>Debunk'Onomy</span><em>2026</em></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="writings" id="ecrits">
+  <div class="writings__inner">
+    <div class="writings__head">
+      <h2 class="writings__title">Écrits &amp; <em>conférences</em></h2>
+      <a href="/articles/" class="writings__link">Tous les écrits →</a>
+    </div>
+    <div class="writings__list">
+      <a href="/articles/auteur/solow/" class="article-card">
+        <div class="article-card__date">23 décembre 2024</div>
+        <h3 class="article-card__title">Robert Solow, ou les habits économiques conventionnels des théories de la transition</h3>
+        <p class="article-card__excerpt">Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique.</p>
+        <span class="article-card__tag">Critique théorique</span>
+      </a>
+      <div class="article-card article-card--placeholder">
+        <div class="article-card__date">À venir</div>
+        <h3 class="article-card__title">Articles d'auteurs invités</h3>
+        <p class="article-card__excerpt">Cette section accueillera prochainement les contributions d'auteurs invités — chercheurs, économistes, militants — partageant le programme de Debunk'Onomy.</p>
+        <span class="article-card__tag">Invités</span>
+      </div>
+      <div class="article-card article-card--placeholder">
+        <div class="article-card__date">À venir</div>
+        <h3 class="article-card__title">D'autres analyses en préparation</h3>
+        <p class="article-card__excerpt">NEMO IMS face à ses objections, lecture monétaire des limites planétaires, débats avec les écoles hétérodoxes contemporaines…</p>
+        <span class="article-card__tag">À paraître</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter" id="newsletter">
+  <div class="newsletter__bg"></div>
+  <div class="newsletter__inner">
+    <div class="newsletter__eyebrow">— La lettre —</div>
+    <h2 class="newsletter__title">Rejoindre <em>l'atelier</em></h2>
+    <p class="newsletter__text">Recevez les chroniques, notes de travail sur NEMO IMS et analyses critiques de l'actualité monétaire et écologique. Sobre, lente, argumentée.</p>
+    <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="newsletter__cta">S'abonner sur Substack <span class="btn__arrow">→</span></a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="assets/logo-tree.png" alt="Debunk'Onomy">
+      <p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Le Projet</h4>
+      <ul>
+        <li><a href="/manifeste/">Manifeste</a></li>
+        <li><a href="/livre/">Le Livre</a></li>
+        <li><a href="/nemo-ims/">NEMO IMS</a></li>
+        <li><a href="/articles/">Écrits</a></li>
+        <li><a href="/medias/">Médias</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
+        <li><a href="/a-propos/">À propos</a></li>
+        <li><a href="/contact/">Presse &amp; contact</a></li>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span>
+    <span>Think &amp; Move to Degrowth</span>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+  const onScroll = () => {
+    if (window.scrollY > 40) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  };
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+</script>
+
+</body>
+</html>

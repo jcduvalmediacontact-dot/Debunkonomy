@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEMO IMS — Negentropic Money International Monetary System — Debunk'Onomy</title>
+<meta name="description" content="NEMO IMS : un système monétaire international où la création de monnaie est désencastrée de la dette et adossée à la régénération mesurable du vivant.">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="NEMO IMS — Negentropic Money International Monetary System">
+<meta property="og:description" content="Une refondation systémique du système monétaire international, adossée à la régénération du vivant plutôt qu'à l'expansion de la dette.">
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+
+<style>
+.nemo-hero { background: var(--ink-deep); color: var(--mint); padding: 120px 28px 100px; position: relative; overflow: hidden; }
+.nemo-hero__bg { position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 30%, rgba(74,139,146,0.4) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(168,234,234,0.12) 0%, transparent 60%); pointer-events: none; }
+.nemo-hero__inner { max-width: 1100px; margin: 0 auto; position: relative; z-index: 2; }
+.nemo-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--mint); opacity: 0.7; margin-bottom: 36px; }
+.nemo-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--mint); opacity: 0.5; }
+.nemo-hero__acronym { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 30; font-weight: 350; font-size: clamp(80px, 14vw, 200px); line-height: 0.92; letter-spacing: -0.045em; color: var(--mint); margin-bottom: 16px; }
+.nemo-hero__acronym em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.nemo-hero__expand { font-family: var(--ff-sans); font-size: clamp(13px, 1.3vw, 16px); letter-spacing: 0.18em; text-transform: uppercase; color: var(--mint); opacity: 0.7; margin-bottom: 50px; }
+.nemo-hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(22px, 2.2vw, 28px); line-height: 1.45; max-width: 56ch; color: var(--mint-soft); padding-left: 28px; border-left: 1px solid rgba(168,234,234,0.4); }
+.nemo-hero__lede em { color: var(--mint); font-style: normal; font-weight: 600; }
+
+.nemo-section { padding: 120px 28px; }
+.nemo-section--cream { background: var(--cream); color: var(--ink-deep); }
+.nemo-section--ink { background: var(--ink-deep); color: var(--mint); }
+.nemo-section--cream-deep { background: var(--cream-deep); color: var(--ink-deep); }
+.nemo-section--teal { background: var(--teal); color: var(--cream); }
+.nemo-section__inner { max-width: var(--maxw); margin: 0 auto; }
+.nemo-section__inner--narrow { max-width: var(--pagew); margin: 0 auto; }
+
+.section-eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 28px; }
+.section-eyebrow--cream { color: var(--teal); }
+.section-eyebrow--mint { color: var(--mint); opacity: 0.85; }
+.section-eyebrow::before { content: ""; display: block; width: 40px; height: 1px; background: currentColor; opacity: 0.5; }
+
+.section-title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(36px, 5vw, 64px); line-height: 1.0; letter-spacing: -0.025em; margin-bottom: 24px; }
+.section-title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
+
+.section-lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2vw, 24px); line-height: 1.5; max-width: 60ch; opacity: 0.92; margin-bottom: 60px; }
+.section-lede em { font-style: normal; opacity: 0.95; }
+
+/* Diagramme problème vs solution */
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: rgba(13,46,49,0.15); margin-top: 50px; }
+.compare__col { background: var(--cream); padding: 50px 40px; }
+.compare__col--bad { background: var(--cream-deep); }
+.compare__label { font-family: var(--ff-sans); font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--rust); margin-bottom: 18px; }
+.compare__col--good .compare__label { color: var(--ink); }
+.compare__h { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 35; font-weight: 500; font-size: 24px; line-height: 1.2; color: var(--ink-deep); margin-bottom: 24px; letter-spacing: -0.01em; }
+.compare__chain { font-family: var(--ff-display); font-variation-settings: "opsz" 24, "SOFT" 70; font-style: italic; font-size: 17px; line-height: 1.6; color: var(--ink-deep); padding: 18px 22px; background: rgba(255,255,255,0.55); border-left: 3px solid var(--rust); border-radius: 2px; margin-bottom: 20px; }
+.compare__col--good .compare__chain { border-left-color: var(--teal); background: rgba(168,234,234,0.18); }
+.compare__chain strong { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--rust); display: block; margin-bottom: 4px; font-style: normal; font-weight: 600; }
+.compare__col--good .compare__chain strong { color: var(--ink); }
+.compare__concl { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 19px; line-height: 1.5; color: var(--ink); margin-top: 16px; }
+
+/* Piliers de la robustesse */
+.pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 30px; }
+.pillar-card { padding: 0; }
+.pillar-card__num { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-style: italic; font-weight: 300; font-size: 80px; line-height: 1; color: var(--mint); opacity: 0.85; margin-bottom: 16px; }
+.pillar-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 35; font-weight: 500; font-size: 26px; line-height: 1.15; color: var(--mint); margin-bottom: 18px; letter-spacing: -0.015em; }
+.pillar-card__title em { font-style: italic; font-variation-settings: "opsz" 48, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.pillar-card__desc { font-size: 15px; line-height: 1.65; color: var(--cream); opacity: 0.88; }
+
+/* Mécanismes : 3 cartes */
+.mechs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 40px; }
+.mech-card { background: var(--cream); padding: 36px; border-radius: 2px; border: 1px solid rgba(13,46,49,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+.mech-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -20px rgba(13,46,49,0.25); }
+.mech-card__icon { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 56px; line-height: 1; color: var(--teal); margin-bottom: 22px; }
+.mech-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 35; font-weight: 500; font-size: 22px; line-height: 1.2; color: var(--ink-deep); margin-bottom: 14px; letter-spacing: -0.01em; }
+.mech-card__desc { font-size: 14.5px; line-height: 1.65; color: var(--ink); opacity: 0.85; }
+
+/* Yin Yang section */
+.yinyang { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
+.yinyang__visual { aspect-ratio: 1/1; max-width: 420px; margin: 0 auto; position: relative; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at 50% 50%, rgba(168,234,234,0.4) 0%, transparent 70%); border-radius: 50%; }
+.yinyang__symbol { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 280px; line-height: 1; color: var(--ink); }
+.yinyang__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(36px, 4.5vw, 56px); line-height: 1.0; letter-spacing: -0.025em; color: var(--ink-deep); margin-bottom: 24px; }
+.yinyang__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.yinyang__text { font-family: var(--ff-display); font-size: 17px; line-height: 1.65; color: var(--ink); margin-bottom: 18px; }
+.yinyang__text em { font-style: italic; font-variation-settings: "opsz" 17, "SOFT" 80, "WONK" 1; }
+.yy-divider { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px; padding-top: 30px; border-top: 1px solid rgba(13,46,49,0.15); }
+.yy-divider__cell h4 { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--teal); margin-bottom: 10px; }
+.yy-divider__cell p { font-family: var(--ff-display); font-size: 15px; line-height: 1.55; color: var(--ink-deep); }
+
+/* CTA livre */
+.cta-book { background: var(--ink-deep); padding: 100px 28px; text-align: center; color: var(--mint); }
+.cta-book__inner { max-width: 720px; margin: 0 auto; }
+.cta-book__eyebrow { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: var(--mint); opacity: 0.7; margin-bottom: 22px; }
+.cta-book__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(36px, 5vw, 56px); line-height: 1.05; color: var(--mint); margin-bottom: 22px; letter-spacing: -0.025em; }
+.cta-book__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.cta-book__text { font-family: var(--ff-serif); font-style: italic; font-size: 19px; color: var(--mint-soft); margin-bottom: 36px; line-height: 1.5; opacity: 0.92; }
+.cta-book__actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+@media (max-width: 980px) {
+  .nemo-hero { padding: 70px 22px 70px; }
+  .nemo-section, .cta-book { padding: 70px 22px; }
+  .compare, .pillars, .mechs { grid-template-columns: 1fr; gap: 20px; }
+  .yinyang { grid-template-columns: 1fr; gap: 50px; }
+  .yinyang__visual { max-width: 280px; }
+  .yinyang__symbol { font-size: 200px; }
+  .yy-divider { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/" class="current">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<section class="nemo-hero">
+  <div class="nemo-hero__bg"></div>
+  <div class="nemo-hero__inner">
+    <div class="nemo-hero__eyebrow">Proposition systémique · Architecture monétaire</div>
+    <h1 class="nemo-hero__acronym">NEMO <em>IMS</em></h1>
+    <p class="nemo-hero__expand">Negentropic Money — International Monetary System</p>
+    <p class="nemo-hero__lede">Un cadre monétaire international où la création de monnaie n'est plus indexée sur la <em>dette</em>, mais sur la <em>régénération mesurable du vivant</em> — sols, forêts, eaux, cycles biogéochimiques, communs.</p>
+  </div>
+</section>
+
+<!-- DIAGNOSTIC -->
+<section class="nemo-section nemo-section--cream">
+  <div class="nemo-section__inner">
+    <div class="section-eyebrow section-eyebrow--cream">Le diagnostic</div>
+    <h2 class="section-title">Le verrou <em>monétaire</em>.</h2>
+    <p class="section-lede">Notre système monétaire actuel repose sur un mécanisme aussi simple que dévastateur. Les banques commerciales créent la monnaie <em>ex nihilo</em>, en contrepartie d'une dette. Cette dette impose mécaniquement à chaque acteur économique une contrainte de rentabilité immédiate — donc d'extraction.</p>
+
+    <div class="compare">
+      <div class="compare__col compare__col--bad">
+        <div class="compare__label">Système actuel</div>
+        <h3 class="compare__h">Une chaîne logique implacable</h3>
+        <div class="compare__chain"><strong>Étape 1</strong>Monnaie créée par les banques en contrepartie d'une dette.</div>
+        <div class="compare__chain"><strong>Étape 2</strong>La dette impose une contrainte de rentabilité court-terme.</div>
+        <div class="compare__chain"><strong>Étape 3</strong>La rentabilité impose des activités extractives et dégénératives.</div>
+        <p class="compare__concl">Conclusion&nbsp;: il est quasiment impossible d'être rentable sans être extractif ou dégénératif.</p>
+      </div>
+      <div class="compare__col compare__col--good">
+        <div class="compare__label">Avec NEMO IMS</div>
+        <h3 class="compare__h">L'inversion de polarité</h3>
+        <div class="compare__chain"><strong>Étape 1</strong>Monnaie créée sans dette, en contrepartie d'activités régénératives certifiées.</div>
+        <div class="compare__chain"><strong>Étape 2</strong>Détruite progressivement à chaque transaction marchande, selon son impact écologique.</div>
+        <div class="compare__chain"><strong>Étape 3</strong>Ce qui régénère est encouragé. Ce qui dégrade est dissuadé.</div>
+        <p class="compare__concl">Conclusion&nbsp;: réussir économiquement et écologiquement devient enfin possible.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TROIS PILIERS -->
+<section class="nemo-section nemo-section--ink">
+  <div class="nemo-section__inner">
+    <div class="section-eyebrow section-eyebrow--mint">Les trois piliers</div>
+    <h2 class="section-title" style="color: var(--mint);">Les trois piliers fondamentaux <em style="color: var(--mint-soft);">de la robustesse</em>.</h2>
+    <p class="section-lede" style="color: var(--mint-soft);">Ce ne sont pas trois objectifs juxtaposés, mais trois conditions interdépendantes d'un même équilibre — biosphérique, social, monétaire.</p>
+
+    <div class="pillars">
+      <div class="pillar-card">
+        <div class="pillar-card__num">01</div>
+        <h3 class="pillar-card__title">Robustesse <em>écosystémique</em></h3>
+        <p class="pillar-card__desc">Préserver les capacités de charge des écosystèmes — sols, eaux, atmosphère, biodiversité. Ce qui est régénéré aujourd'hui produit les conditions de toutes les économies futures. Sans ce socle, plus rien ne tient.</p>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-card__num">02</div>
+        <h3 class="pillar-card__title">Justice <em>intergénérationnelle</em></h3>
+        <p class="pillar-card__desc">Cesser de transférer aux générations futures la dette écologique de nos confort présents. Une économie de l'équilibre rétablit la symétrie temporelle entre celles et ceux qui prélèvent et celles et ceux qui hériteront du résultat.</p>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-card__num">03</div>
+        <h3 class="pillar-card__title">Souveraineté <em>monétaire collective</em></h3>
+        <p class="pillar-card__desc">Reprendre démocratiquement le contrôle de la création monétaire — aujourd'hui privée à 90&nbsp;%. Une monnaie qui sert le vivant exige des institutions publiques orientées vers la durabilité, et non des banques optimisant le profit.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- YIN YANG -->
+<section class="nemo-section nemo-section--cream-deep">
+  <div class="nemo-section__inner">
+    <div class="yinyang">
+      <div class="yinyang__visual">
+        <div class="yinyang__symbol">☯</div>
+      </div>
+      <div>
+        <div class="section-eyebrow section-eyebrow--cream">Architecture financière</div>
+        <h2 class="yinyang__title">Une finance <em>Yin &amp; Yang</em>.</h2>
+        <p class="yinyang__text">Au lieu d'une finance unique au service de la production marchande, NEMO IMS instaure une <em>double finance</em> — deux institutions, deux logiques, deux temporalités.</p>
+        <p class="yinyang__text">«&nbsp;Une économie sobre n'est pas compatible avec une finance ogre&nbsp;»&nbsp;: pour libérer le vivant, il faut équilibrer le yang productiviste par un yin régénératif.</p>
+        <div class="yy-divider">
+          <div class="yy-divider__cell">
+            <h4>Finance Yang</h4>
+            <p>Marchés traditionnels, entreprises, services. Optimisée pour l'efficience et la rentabilité, dans le respect des cadres éthiques et réglementaires.</p>
+          </div>
+          <div class="yy-divider__cell">
+            <h4>Finance Yin</h4>
+            <p>Préservation et régénération des communs planétaires. Axée non sur le retour financier mais sur le retour <em>sociétal et écologique</em> à long terme.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MÉCANISMES -->
+<section class="nemo-section nemo-section--cream">
+  <div class="nemo-section__inner">
+    <div class="section-eyebrow section-eyebrow--cream">Trois mécanismes</div>
+    <h2 class="section-title">L'architecture <em>opérationnelle</em>.</h2>
+    <p class="section-lede">NEMO IMS n'est pas qu'une intuition philosophique : c'est un système macroprudentiel doté d'instruments concrets, articulés entre eux.</p>
+
+    <div class="mechs">
+      <div class="mech-card">
+        <div class="mech-card__icon">⊕</div>
+        <h3 class="mech-card__title">NEMO Green DTS</h3>
+        <p class="mech-card__desc">Inspirés des Droits de Tirage Spéciaux du FMI, mais entièrement dédiés au financement d'activités régénératives certifiées : reforestation, dépollution, restauration des sols, protection de la biodiversité, sobriété énergétique. Émis sans dette, conditionnés à la réalisation d'objectifs vérifiables.</p>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card__icon">⊖</div>
+        <h3 class="mech-card__title">Fonte monétaire pondérée</h3>
+        <p class="mech-card__desc">Chaque transaction supporte un taux de destruction monétaire variable selon son impact. 0,5 à 1&nbsp;% pour les activités régénératives. Jusqu'à 20&nbsp;% ou davantage pour les activités nuisibles. Une TVA écologique au cœur de la monnaie elle-même.</p>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card__icon">⌬</div>
+        <h3 class="mech-card__title">GAÏA Economic Symposium</h3>
+        <p class="mech-card__desc">Une instance mondiale de gouvernance des communs planétaires. Définit collectivement les labels d'activités régénératives, les taux de fonte, les ratios de robustesse — selon un principe coopératif et non hégémonique.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AVÈNEMENT -->
+<section class="nemo-section nemo-section--cream-deep">
+  <div class="nemo-section__inner nemo-section__inner--narrow">
+    <div class="section-eyebrow section-eyebrow--cream">Trajectoires</div>
+    <h2 class="section-title">Trois <em>chemins</em> possibles.</h2>
+    <p class="section-lede">NEMO IMS n'attend pas un grand soir. Trois scénarios d'avènement coexistent, et peuvent se renforcer mutuellement.</p>
+
+    <div style="display: grid; grid-template-columns: 1fr; gap: 32px; margin-top: 40px;">
+      <div style="display: grid; grid-template-columns: 80px 1fr; gap: 24px; padding: 28px 0; border-top: 1px solid rgba(13,46,49,0.15);">
+        <div style="font-family: var(--ff-display); font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; font-size: 56px; line-height: 1; color: var(--teal);">I</div>
+        <div>
+          <h3 style="font-family: var(--ff-display); font-size: 24px; font-weight: 500; color: var(--ink-deep); margin-bottom: 10px; letter-spacing: -0.01em;">La voie institutionnelle</h3>
+          <p style="font-family: var(--ff-display); font-size: 16px; line-height: 1.6; color: var(--ink);">Réforme des grandes institutions internationales (FMI, BIS, ONU) : élargissement du rôle des DTS, intégration de critères de robustesse écosystémique, refonte des mandats des banques centrales. Voie la plus lente, mais la plus globale.</p>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 80px 1fr; gap: 24px; padding: 28px 0; border-top: 1px solid rgba(13,46,49,0.15);">
+        <div style="font-family: var(--ff-display); font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; font-size: 56px; line-height: 1; color: var(--teal);">II</div>
+        <div>
+          <h3 style="font-family: var(--ff-display); font-size: 24px; font-weight: 500; color: var(--ink-deep); margin-bottom: 10px; letter-spacing: -0.01em;">La coalition pionnière</h3>
+          <p style="font-family: var(--ff-display); font-size: 16px; line-height: 1.6; color: var(--ink);">Un noyau dur d'États (européens, latino-américains, africains) crée entre eux un espace monétaire expérimental fondé sur les principes NEMO IMS. C'est exactement la dynamique qui a présidé à la naissance de la zone euro. <em>L'îlot devient continent</em> — et le continent finit par changer les règles du jeu mondial.</p>
+        </div>
+      </div>
+      <div style="display: grid; grid-template-columns: 80px 1fr; gap: 24px; padding: 28px 0; border-top: 1px solid rgba(13,46,49,0.15); border-bottom: 1px solid rgba(13,46,49,0.15);">
+        <div style="font-family: var(--ff-display); font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; font-size: 56px; line-height: 1; color: var(--teal);">III</div>
+        <div>
+          <h3 style="font-family: var(--ff-display); font-size: 24px; font-weight: 500; color: var(--ink-deep); margin-bottom: 10px; letter-spacing: -0.01em;">La pression démocratique</h3>
+          <p style="font-family: var(--ff-display); font-size: 16px; line-height: 1.6; color: var(--ink);">Mouvements politiques, partis verts radicaux, organisations citoyennes portent la réforme monétaire écologique au cœur du débat public. La pression rend visible et négociable ce qui était jusqu'alors impensable. <em>Ce n'est pas le désespoir qui mène au changement. C'est la colère lucide de ceux qui ont compris, couplée à la vision de ceux qui proposent.</em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA livre -->
+<section class="cta-book">
+  <div class="cta-book__inner">
+    <p class="cta-book__eyebrow">Pour aller plus loin</p>
+    <h2 class="cta-book__title">269 pages pour <em>tout comprendre</em>.</h2>
+    <p class="cta-book__text"><em>L'Économie de l'Équilibre</em> détaille l'architecture complète de NEMO IMS : ses fondements théoriques, ses institutions, ses outils macroprudentiels et les chemins possibles de son avènement.</p>
+    <div class="cta-book__actions">
+      <a href="https://payhip.com/b/tQhNU" target="_blank" rel="noopener" class="btn btn--primary">Se procurer le livre · 19,90 € <span class="btn__arrow">→</span></a>
+      <a href="/livre/" class="btn btn--ghost">Découvrir la fiche livre <span class="btn__arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Écrits — Debunk'Onomy</title>
+<meta name="description" content="Articles, analyses et conférences sur l'économie écologique, la théorie monétaire et NEMO IMS. Par Jean-Christophe Duval et auteurs invités.">
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+
+<style>
+.art-hero { background: var(--cream); padding: 100px 28px 60px; }
+.art-hero__inner { max-width: var(--maxw); margin: 0 auto; }
+.art-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 30px; }
+.art-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--teal); opacity: 0.5; }
+.art-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(48px, 7vw, 96px); line-height: 0.96; letter-spacing: -0.03em; color: var(--ink-deep); margin-bottom: 28px; }
+.art-hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.art-hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2vw, 26px); line-height: 1.45; color: var(--ink); max-width: 56ch; }
+
+.art-section { padding: 80px 28px; background: var(--cream); }
+.art-section--alt { background: var(--cream-deep); }
+.art-section__inner { max-width: var(--maxw); margin: 0 auto; }
+.art-section__head { display: flex; justify-content: space-between; align-items: end; padding-bottom: 24px; border-bottom: 1px solid var(--ink-deep); margin-bottom: 50px; flex-wrap: wrap; gap: 20px; }
+.art-section__title { font-family: var(--ff-display); font-variation-settings: "opsz" 96, "SOFT" 35; font-weight: 400; font-size: clamp(32px, 3.5vw, 48px); line-height: 1.0; letter-spacing: -0.02em; color: var(--ink-deep); display: inline-flex; align-items: baseline; gap: 18px; flex-wrap: wrap; }
+.art-section__title em { font-style: italic; font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.art-section__count { font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); padding: 4px 12px; border: 1px solid var(--teal); border-radius: 999px; }
+.art-section__sub { font-family: var(--ff-serif); font-style: italic; font-size: 17px; color: var(--teal); max-width: 56ch; }
+
+.art-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0; }
+.art-card { display: block; padding: 40px 36px 40px 0; border-top: 1px solid rgba(13,46,49,0.15); border-right: 1px solid rgba(13,46,49,0.15); transition: background 0.3s; text-decoration: none; color: inherit; min-height: 240px; }
+.art-card:nth-child(2n) { border-right: none; padding-right: 0; padding-left: 36px; }
+.art-card:hover { background: rgba(168,234,234,0.15); }
+.art-card__date { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); margin-bottom: 18px; }
+.art-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 60, "SOFT" 30; font-weight: 450; font-size: 26px; line-height: 1.18; color: var(--ink-deep); margin-bottom: 16px; letter-spacing: -0.015em; }
+.art-card__excerpt { font-family: var(--ff-display); font-size: 15px; line-height: 1.6; color: var(--ink); opacity: 0.85; margin-bottom: 18px; }
+.art-card__meta { display: flex; gap: 16px; flex-wrap: wrap; align-items: center; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; }
+.art-card__tag { color: var(--rust); }
+.art-card__read { color: var(--teal); opacity: 0.7; }
+.art-card--placeholder { opacity: 0.5; cursor: default; }
+.art-card--placeholder:hover { background: transparent; }
+
+.art-empty { padding: 70px 40px; background: var(--cream); border: 1px dashed rgba(13,46,49,0.2); border-radius: 4px; text-align: center; }
+.art-empty__icon { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 64px; color: var(--teal); opacity: 0.4; margin-bottom: 20px; line-height: 1; }
+.art-empty__title { font-family: var(--ff-display); font-variation-settings: "opsz" 60, "SOFT" 35; font-weight: 450; font-size: 22px; color: var(--ink-deep); margin-bottom: 14px; letter-spacing: -0.01em; }
+.art-empty__text { font-family: var(--ff-serif); font-style: italic; font-size: 16px; color: var(--ink); opacity: 0.85; max-width: 50ch; margin: 0 auto 22px; line-height: 1.5; }
+
+@media (max-width: 720px) {
+  .art-hero { padding: 60px 22px 40px; }
+  .art-section { padding: 60px 22px; }
+  .art-grid { grid-template-columns: 1fr; }
+  .art-card, .art-card:nth-child(2n) { border-right: none; padding-left: 0; padding-right: 0; }
+  .art-section__title { font-size: 32px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/" class="current">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<section class="art-hero">
+  <div class="art-hero__inner">
+    <div class="art-hero__eyebrow">Articles · Analyses · Conférences</div>
+    <h1 class="art-hero__title">Écrits &amp; <em>contributions</em>.</h1>
+    <p class="art-hero__lede">Les analyses critiques, les notes de travail et les contributions de chercheurs invités qui prolongent et débattent le programme Debunk'Onomy.</p>
+  </div>
+</section>
+
+<!-- ARTICLES DE L'AUTEUR -->
+<section class="art-section">
+  <div class="art-section__inner">
+    <div class="art-section__head">
+      <div>
+        <h2 class="art-section__title">Articles <em>de l'auteur</em></h2>
+        <p class="art-section__sub" style="margin-top: 14px;">Analyses critiques et notes de travail de Jean-Christophe Duval.</p>
+      </div>
+    </div>
+
+    <div class="art-grid">
+      <div class="art-card art-card--placeholder">
+        <div class="art-card__date">À venir</div>
+        <h3 class="art-card__title">Analyses en préparation</h3>
+        <p class="art-card__excerpt">NEMO IMS face à ses objections, lecture monétaire des limites planétaires, débats avec les écoles hétérodoxes contemporaines (MMT, post-keynésianisme, économie écologique)…</p>
+        <div class="art-card__meta">
+          <span class="art-card__tag">À paraître</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ARTICLES INVITÉS -->
+<section class="art-section art-section--alt">
+  <div class="art-section__inner">
+    <div class="art-section__head">
+      <div>
+        <h2 class="art-section__title">Auteurs <em>invités</em> <span class="art-section__count">1 article</span></h2>
+        <p class="art-section__sub" style="margin-top: 14px;">Contributions extérieures qui dialoguent avec le programme Debunk'Onomy.</p>
+      </div>
+    </div>
+
+    <div class="art-grid">
+      <a href="/articles/auteur/solow/" class="art-card">
+        <div class="art-card__date">23 décembre 2024</div>
+        <h3 class="art-card__title">Robert Solow, ou les habits économiques conventionnels des théories de la transition</h3>
+        <p class="art-card__excerpt">Comment l'héritage du «&nbsp;Nobel&nbsp;» d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique. Par Jean Latreille.</p>
+        <div class="art-card__meta">
+          <span class="art-card__tag">Critique théorique</span>
+          <span class="art-card__read">~19 min de lecture</span>
+        </div>
+      </a>
+      <div class="art-card art-card--placeholder">
+        <div class="art-card__date">À venir</div>
+        <h3 class="art-card__title">D'autres contributions invitées</h3>
+        <p class="art-card__excerpt">Cette section accueillera d'autres contributions de chercheurs, économistes et penseurs invités à dialoguer avec le programme Debunk'Onomy.</p>
+        <div class="art-card__meta">
+          <span class="art-card__tag">À paraître</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+
+</body>
+</html>

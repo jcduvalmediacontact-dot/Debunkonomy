@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Médias — Debunk'Onomy</title>
+<meta name="description" content="Vidéos pédagogiques et podcasts sur la décroissance, NEMO IMS et l'économie écologique. Médiathèque Debunk'Onomy.">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.med-hero { background: var(--cream); padding: 100px 28px 60px; }
+.med-hero__inner { max-width: var(--maxw); margin: 0 auto; }
+.med-hero__crumbs { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); margin-bottom: 28px; }
+.med-hero__crumbs a { color: var(--teal); padding-bottom: 2px; border-bottom: 1px solid transparent; transition: border-bottom 0.2s; }
+.med-hero__crumbs a:hover { border-bottom-color: var(--teal); }
+.med-hero__crumbs span { opacity: 0.5; margin: 0 10px; }
+.med-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 28px; }
+.med-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--teal); opacity: 0.5; }
+.med-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(48px, 7vw, 96px); line-height: 0.96; letter-spacing: -0.03em; color: var(--ink-deep); margin-bottom: 28px; }
+.med-hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.med-hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2vw, 26px); line-height: 1.45; color: var(--ink); max-width: 56ch; }
+
+.med-soon { background: var(--cream); padding: 100px 28px 140px; }
+.med-soon__inner { max-width: 720px; margin: 0 auto; padding: 80px 50px; background: var(--cream-deep); border: 1px solid rgba(13,46,49,0.12); border-radius: 4px; text-align: center; }
+.med-soon__icon { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 100px; line-height: 1; color: var(--teal); opacity: 0.55; margin-bottom: 30px; }
+.med-soon__title { font-family: var(--ff-display); font-variation-settings: "opsz" 96, "SOFT" 35; font-weight: 400; font-size: clamp(28px, 3.5vw, 42px); line-height: 1.15; color: var(--ink-deep); margin-bottom: 22px; letter-spacing: -0.02em; }
+.med-soon__title em { font-style: italic; font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.med-soon__text { font-family: var(--ff-serif); font-style: italic; font-size: 19px; color: var(--ink); max-width: 50ch; margin: 0 auto 36px; line-height: 1.55; }
+.med-soon__cta { display: inline-flex; align-items: center; gap: 10px; padding: 16px 30px; background: var(--ink-deep); color: var(--mint); border-radius: 999px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: all 0.3s; }
+.med-soon__cta:hover { background: var(--ink); transform: translateY(-2px); }
+
+/* Section index générale (médias index) */
+.med-cards { background: var(--cream); padding: 60px 28px 120px; }
+.med-cards__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.med-card { background: var(--cream-deep); padding: 60px 50px; border-radius: 4px; transition: transform 0.3s, box-shadow 0.3s; display: block; text-decoration: none; color: inherit; border: 1px solid rgba(13,46,49,0.1); }
+.med-card:hover { transform: translateY(-6px); box-shadow: 0 30px 60px -25px rgba(13,46,49,0.3); }
+.med-card__type { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 24px; }
+.med-card__icon { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 80px; line-height: 1; color: var(--teal); margin-bottom: 24px; }
+.med-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 96, "SOFT" 35; font-weight: 400; font-size: clamp(28px, 3.5vw, 38px); line-height: 1.1; color: var(--ink-deep); margin-bottom: 16px; letter-spacing: -0.02em; }
+.med-card__title em { font-style: italic; font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.med-card__desc { font-family: var(--ff-serif); font-style: italic; font-size: 17px; line-height: 1.55; color: var(--ink); margin-bottom: 26px; opacity: 0.92; }
+.med-card__themes { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
+.med-card__theme { font-family: var(--ff-sans); font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); padding: 5px 12px; background: rgba(74,139,146,0.1); border-radius: 999px; }
+.med-card__cta { display: inline-flex; align-items: center; gap: 8px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink); padding-bottom: 4px; border-bottom: 1px solid var(--ink); }
+
+@media (max-width: 720px) {
+  .med-hero { padding: 60px 22px 40px; }
+  .med-soon { padding: 60px 22px 90px; }
+  .med-soon__inner { padding: 50px 28px; }
+  .med-cards { padding: 30px 22px 80px; }
+  .med-cards__inner { grid-template-columns: 1fr; gap: 24px; }
+  .med-card { padding: 40px 30px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/" class="current">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<section class="med-hero">
+  <div class="med-hero__inner">
+    <div class="med-hero__eyebrow">Médiathèque · Vidéos · Podcasts</div>
+    <h1 class="med-hero__title">Vidéos &amp; <em>podcasts</em>.</h1>
+    <p class="med-hero__lede">Au croisement de la pédagogie et de la conférence, ces médias prolongent l'écrit et donnent à entendre, pas à pas, la pensée Debunk'Onomy.</p>
+  </div>
+</section>
+
+<section class="med-cards">
+  <div class="med-cards__inner">
+    <a href="/medias/videos/" class="med-card">
+      <div class="med-card__type">Format vidéo</div>
+      <div class="med-card__icon">▷</div>
+      <h2 class="med-card__title">Vidéos <em>pédagogiques</em></h2>
+      <p class="med-card__desc">Conférences, explications animées, cours et entretiens vidéo sur la théorie monétaire écologique.</p>
+      <div class="med-card__themes">
+        <span class="med-card__theme">Décroissance</span>
+        <span class="med-card__theme">NEMO IMS</span>
+        <span class="med-card__theme">Économie</span>
+      </div>
+      <span class="med-card__cta">Explorer les vidéos →</span>
+    </a>
+    <a href="/medias/podcasts/" class="med-card">
+      <div class="med-card__type">Format audio</div>
+      <div class="med-card__icon">♫</div>
+      <h2 class="med-card__title">Podcasts &amp; <em>entretiens</em></h2>
+      <p class="med-card__desc">Conversations longues, entretiens d'auteur, débats radiophoniques. Quatre podcasts déjà disponibles sur YouTube.</p>
+      <div class="med-card__themes">
+        <span class="med-card__theme">Décroissance</span>
+        <span class="med-card__theme">NEMO IMS</span>
+        <span class="med-card__theme">Économie</span>
+      </div>
+      <span class="med-card__cta">Explorer les podcasts →</span>
+    </a>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+</body>
+</html>

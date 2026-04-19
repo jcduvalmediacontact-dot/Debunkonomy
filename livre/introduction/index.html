@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Introduction — L'Économie de l'Équilibre — Debunk'Onomy</title>
+<meta name="description" content="L'introduction intégrale de L'Économie de l'Équilibre par Jean-Christophe Duval, en libre accès. Pourquoi changer la monnaie, c'est changer le monde.">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introduction — L'Économie de l'Équilibre">
+<meta property="og:description" content="Pourquoi changer la monnaie, c'est changer le monde. L'introduction du livre de Jean-Christophe Duval, en libre accès.">
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+
+<style>
+.intro-hero { background: var(--cream); padding: 80px 28px 50px; border-bottom: 1px solid rgba(13, 46, 49, 0.1); }
+.intro-hero__inner { max-width: var(--readw); margin: 0 auto; }
+.intro-hero__crumbs { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); margin-bottom: 32px; }
+.intro-hero__crumbs a { color: var(--teal); transition: opacity 0.2s; padding-bottom: 2px; border-bottom: 1px solid transparent; }
+.intro-hero__crumbs a:hover { border-bottom-color: var(--teal); }
+.intro-hero__crumbs span { opacity: 0.5; margin: 0 10px; }
+.intro-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 30px; }
+.intro-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--teal); opacity: 0.5; }
+.intro-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(40px, 6vw, 76px); line-height: 1.0; letter-spacing: -0.025em; color: var(--ink-deep); margin-bottom: 28px; }
+.intro-hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.intro-hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2.2vw, 26px); line-height: 1.45; color: var(--ink); margin-bottom: 32px; }
+.intro-hero__meta { display: flex; gap: 28px; flex-wrap: wrap; padding-top: 24px; border-top: 1px solid rgba(13, 46, 49, 0.15); font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); }
+.intro-hero__meta strong { color: var(--ink-deep); font-weight: 600; }
+
+.intro-body { background: var(--cream); padding: 60px 28px 100px; }
+.intro-body__inner { max-width: var(--readw); margin: 0 auto; }
+.intro-body p { font-family: var(--ff-display); font-variation-settings: "opsz" 16, "SOFT" 55; font-weight: 400; font-size: 19px; line-height: 1.7; color: var(--ink-deep); margin-bottom: 1.5em; }
+.intro-body p em { font-style: italic; font-variation-settings: "opsz" 16, "SOFT" 80, "WONK" 1; color: var(--ink); }
+.intro-body h2 { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 35; font-weight: 450; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.15; letter-spacing: -0.02em; color: var(--ink-deep); margin-top: 2.4em; margin-bottom: 1em; padding-top: 1em; position: relative; }
+.intro-body h2::before { content: ""; position: absolute; top: 0; left: 0; width: 60px; height: 1px; background: var(--teal); opacity: 0.6; }
+.intro-body h3 { font-family: var(--ff-serif); font-style: italic; font-size: 22px; color: var(--ink); margin-top: 2em; margin-bottom: 0.8em; }
+.intro-body p:first-of-type::first-letter { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 30; font-weight: 350; font-size: 5.4em; line-height: 0.85; float: left; padding: 4px 14px 0 0; color: var(--teal); }
+.pullquote { margin: 2.4em -16px; padding: 32px 40px; background: var(--cream-deep); border-left: 4px solid var(--teal); font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 22px; line-height: 1.45; color: var(--ink); }
+.equation { margin: 2em 0; padding: 28px 32px; background: var(--ink-deep); color: var(--mint); text-align: center; font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 20px; line-height: 1.6; border-radius: 2px; }
+.equation strong { color: var(--mint-soft); font-style: normal; font-weight: 600; padding: 0 12px; font-variation-settings: "opsz" 36, "SOFT" 30; }
+.fnote { font-size: 13px; color: var(--teal); vertical-align: super; line-height: 0; margin-left: 2px; }
+
+.end-card { margin-top: 60px; padding: 40px; background: var(--ink-deep); color: var(--mint); border-radius: 2px; text-align: center; }
+.end-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 40; font-weight: 400; font-size: 28px; line-height: 1.2; color: var(--mint); margin-bottom: 14px; letter-spacing: -0.02em; }
+.end-card__title em { font-style: italic; font-variation-settings: "opsz" 72, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.end-card__text { font-family: var(--ff-serif); font-style: italic; font-size: 17px; color: var(--mint-soft); margin-bottom: 26px; opacity: 0.92; line-height: 1.5; }
+.end-card__cta { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: var(--mint); color: var(--ink-deep); border-radius: 999px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: all 0.3s; }
+.end-card__cta:hover { background: var(--mint-soft); transform: translateY(-2px); }
+
+@media (max-width: 720px) {
+  .intro-hero { padding: 50px 22px 30px; }
+  .intro-body { padding: 40px 22px 70px; }
+  .intro-body p { font-size: 17.5px; }
+  .pullquote { margin: 2em 0; padding: 24px 28px; font-size: 19px; }
+  .equation { font-size: 17px; padding: 22px 24px; }
+  .end-card { padding: 30px 22px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/" class="current">Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<section class="intro-hero">
+  <div class="intro-hero__inner">
+    <nav class="intro-hero__crumbs"><a href="/livre/">Le Livre</a><span>›</span>Introduction</nav>
+    <div class="intro-hero__eyebrow">Extrait en libre accès — Introduction générale</div>
+    <h1 class="intro-hero__title">Pourquoi <em>L'Économie de l'Équilibre</em> ?</h1>
+    <p class="intro-hero__lede">L'ouverture du livre, dans son intégralité. Quelques minutes pour comprendre où il vous mènera.</p>
+    <div class="intro-hero__meta">
+      <span><strong>Auteur</strong> · Jean-Christophe Duval</span>
+      <span><strong>Lecture</strong> · ~12 min</span>
+      <span><strong>Extrait du livre</strong> · pp. 5-12</span>
+    </div>
+  </div>
+</section>
+
+<article class="intro-body">
+  <div class="intro-body__inner">
+
+    <p>Nous vivons une époque étrange. Jamais l'humanité n'a produit autant de richesses, jamais elle n'a autant détruit ce qui la fait vivre. Les rapports scientifiques s'accumulent, les alertes se multiplient, les COP se succèdent — et les émissions mondiales de gaz à effet de serre ont pourtant encore battu un record en 2023, atteignant 57,1 GtCO₂e, alors qu'elles devraient chuter de moitié d'ici 2030 pour espérer rester sous la barre des 1,5 °C. La trajectoire actuelle nous conduit vers un réchauffement de 2,6 à 3,1 °C d'ici la fin du siècle, avec son cortège de sécheresses, d'incendies, de migrations forcées et d'effondrement de la biodiversité.</p>
+
+    <p>Ces catastrophes ne sont pas des accidents. Elles sont le produit <em>structurel</em> d'un système économique fondé sur la dette, la croissance et l'extraction. Et tant que ce système restera intact, aucune bonne volonté, aucune innovation technologique, aucune vertu individuelle ne suffira à inverser la trajectoire. On ne répare pas une porcelaine avec un marteau.</p>
+
+    <p>Ce livre part d'un constat simple, mais radical&nbsp;: le problème n'est pas seulement économique. Il est <em>monétaire</em>.</p>
+
+    <p>La monnaie, loin d'être le simple instrument neutre que les manuels d'économie nous décrivent, est le langage invisible du pouvoir. Elle conditionne ce qui existe et ce qui n'existe pas, ce qui est financé et ce qui est condamné à l'invisibilité. Tant qu'elle sera émise selon les mêmes principes — dette financière, rentabilité immédiate, exploitation du réel — elle continuera à détruire les conditions de la vie.</p>
+
+    <p>C'est pourquoi ce livre propose quelque chose de plus profond qu'une réforme fiscale ou une taxe carbone supplémentaire&nbsp;: une refondation complète de notre système monétaire, bancaire et financier, à travers la mise en œuvre du système <em>NEMO IMS</em> — NEgentropic MOney International Monetary System.</p>
+
+    <p>Mais avant de parler de solutions, il faut s'entendre sur un mot. Un mot que beaucoup préfèrent éviter. Un mot pourtant indispensable pour nommer honnêtement ce qui nous attend.</p>
+
+    <h2>Une vérité à nommer&nbsp;: la décroissance</h2>
+
+    <p>Le mot fait peur. Il évoque la privation, le retour en arrière, une forme de régression collective. C'est pourquoi les économistes et les politiques lui préfèrent des euphémismes — «&nbsp;transition&nbsp;», «&nbsp;croissance verte&nbsp;», «&nbsp;sobriété choisie&nbsp;». Ces mots sont plus doux, mais ils entretiennent une illusion dangereuse&nbsp;: celle qu'il serait possible de continuer à croître dans tous les sens tout en préservant les équilibres planétaires. Cette illusion a un nom&nbsp;: l'<em>impossible découplage</em>. Et les données empiriques, année après année, confirment qu'elle ne se réalisera pas.</p>
+
+    <h3>Certaines choses devront décroître.</h3>
+
+    <p>Alors oui, certaines activités — les plus extractives, les plus polluantes, les plus superflues — devront décroître. Non pas parce que nous serions devenus ascètes ou ennemis du progrès, mais parce que la planète sur laquelle nous vivons a des limites physiques réelles, et qu'ignorer ces limites ne les fait pas disparaître.</p>
+
+    <p>Mais voici ce que ce livre veut vous montrer&nbsp;: cette décroissance-là n'est pas un appauvrissement. C'est une libération de la servitude financière, de la course épuisante au PIB, du travail contraint au service de la dette. Car en même temps que certaines activités dégénératives décroîtront, d'autres — essentielles, régénératives, porteuses de sens — pourront enfin être financées et reconnues à leur juste valeur. Dépolluer les océans, reforester, préserver la biodiversité, garantir la sécurité alimentaire, renforcer les services publics, soutenir la recherche fondamentale&nbsp;: voilà des activités que notre système actuel condamne à l'insolvabilité faute de rentabilité immédiate. NEMO IMS propose de changer cette règle du jeu.</p>
+
+    <div class="pullquote">La décroissance que nous défendons ici est sélective, choisie et éclairée. Elle n'est pas la fin du monde — elle est peut-être la condition de sa continuation.</div>
+
+    <p>Et quand nous parlons d'<em>équilibre</em> dans ce livre, il ne s'agit pas de l'équilibre budgétaire des comptables ni de l'équilibre des marchés des néolibéraux. Il s'agit d'un équilibre bien plus fondamental&nbsp;: celui entre les capacités de charge de la planète et les besoins réels de la société humaine. Celui que la théorie du donut de Kate Raworth dessine avec clarté — un espace où l'humanité peut prospérer sans franchir les limites du vivant. C'est cet équilibre-là que nous cherchons à construire.</p>
+
+    <h2>NEMO IMS&nbsp;: changer le moteur de l'économie</h2>
+
+    <p>Notre système monétaire actuel repose sur un mécanisme aussi simple que dévastateur. La monnaie est créée par les banques commerciales lors des opérations de crédit — non pas à partir de dépôts préexistants, mais littéralement <em>ex nihilo</em>, en contrepartie d'une dette. Ce mécanisme impose à chaque acteur économique une contrainte de rentabilité à court terme.</p>
+
+    <p>La chaîne logique est implacable&nbsp;:</p>
+
+    <div class="equation">Dette financière <strong>=</strong> contrainte de rentabilité <strong>=</strong> activités extractives et dégénératives.</div>
+
+    <p>Il est quasiment impossible d'être rentable sans être extractif ou dégénératif. Et les activités les plus rentables sont souvent les plus destructrices&nbsp;: énergies fossiles, spéculation financière, obsolescence programmée, destruction du vivant. La création monétaire actuelle nous condamne structurellement à une économie de croissance perpétuelle, incompatible avec les équilibres planétaires.</p>
+
+    <p>NEMO IMS renverse cette logique. Au lieu d'une monnaie adossée à la dette et aux promesses d'exploitation future, il propose que la création monétaire soit désencastrée de la dette et adossée à la <em>régénération du vivant</em>. De nouvelles institutions seraient habilitées à émettre de la monnaie comme revenu en contrepartie d'activités labellisées de régénérescence des biens communs — dépolluer les océans, reforester, ré-ensauvager, restaurer les sols, protéger la biodiversité, garantir la sécurité alimentaire, soutenir la recherche fondamentale, renforcer les services publics. Ces activités seraient définies par consensus international, en s'appuyant sur les Objectifs de Développement Durable des Nations Unies — à l'exception de l'ODD 8, dont l'impératif de croissance économique continue est précisément ce que nous cherchons à dépasser.</p>
+
+    <p>Avec NEMO IMS, la monnaie cesse d'être une masse statique au service du marché. Elle devient un flux dynamique permanent, disposant d'un début et d'une fin, à l'image des cycles naturels. Créée sans dette au cœur de projets d'intérêt général, elle serait progressivement détruite lors des transactions marchandes par un mécanisme de soustraction monétaire pondéré selon l'impact écologique et social de chaque activité. Plus une activité est dégénérative, plus elle supporte une fonte élevée. Plus elle est régénérative, plus elle est préservée. Ce dispositif, envisagé comme une TVA écologique pondérée selon le principe du pollueur-payeur, permettrait de corriger structurellement les externalités négatives tout en favorisant les activités vertueuses.</p>
+
+    <div class="pullquote">Ce mécanisme rend enfin possible ce que le système actuel interdit structurellement&nbsp;: réussir économiquement tout en réussissant écologiquement.</div>
+
+    <h2>Les vraies questions à se poser</h2>
+
+    <p>Ce livre invite à un changement de perspective radical sur la question monétaire. Il faut oser se demander quelles institutions doivent avoir le pouvoir de créer et de diffuser la monnaie — des banques commerciales obéissant à des logiques financières, ou de nouvelles institutions publiques orientées vers la durabilité à long terme&nbsp;? En contrepartie de quoi cette monnaie doit-elle être créée&nbsp;: d'une dette financière nécessairement extractive, ou d'une activité régénérative non soumise au remboursement&nbsp;? Et surtout&nbsp;: comment maîtriser l'inflation dans un modèle où la monnaie est créée sans dette, et donc sans les mécanismes de reflux bancaire traditionnels&nbsp;?</p>
+
+    <p>Ce sont ces questions, trop rarement posées, que ce livre s'attache à explorer et à résoudre. NEMO IMS considère que la dépendance au marché autorégulateur est une impasse idéologique. L'économie ne se réduit pas à la sphère marchande&nbsp;: elle comprend aussi des domaines non-marchands, essentiels à long terme mais non rentables à court terme — la santé publique, la culture, l'éducation, la recherche, la préservation des communs et de la biodiversité. Ces domaines doivent être financés par des institutions répondant à des critères extra-financiers et de long terme&nbsp;: robustesse systémique, résilience écologique, équité sociale.</p>
+
+    <h2>Pourquoi la microéconomie ne suffira pas&nbsp;?</h2>
+
+    <p>Notre époque croule sous les diagnostics, mais reste désespérément pauvre en traitements efficaces. Pourquoi&nbsp;? Parce que nous persistons à aborder des crises systémiques globales à travers des réponses microéconomiques, comme si l'accumulation d'actes individuels vertueux pouvait renverser un système conçu pour maximiser l'exploitation court-termiste des ressources et du vivant.</p>
+
+    <p>La maximisation du profit individuel par l'activité régénérative est physiquement impossible. Le seul moyen d'inverser cette malédiction consiste à inverser la polarité monétaire. Ce qui oblige à repenser les fondements structurels des banques, de la monnaie et de la finance. La clé de nos problèmes dégénératifs ne se trouve pas dans l'innovation microéconomique. Que l'on maximise 5&nbsp;% ou 15&nbsp;% de rentabilité, on reste dans une logique d'extraction. On optimise à la marge un modèle destructeur sans jamais en remettre en cause les mécanismes fondateurs. Notre véritable besoin ne réside pas dans l'amélioration des mécanismes d'extraction, ou de prétendre que leurs impacts sont nuls ou négligeables, mais dans l'invention de son opposé&nbsp;: la <em>régénérescence</em>. Une activité qui génère 100&nbsp;% de charges à court terme (dans notre système actuel), mais permet la robustesse écosystémique, car ce que l'on régénère aujourd'hui produit des fruits pour demain.</p>
+
+    <div class="pullquote">Il est vain de résoudre un problème de fond avec des micro-ajustements sur la forme.</div>
+
+    <p>Ce n'est donc pas une innovation entrepreneuriale de plus qu'il nous faut, mais une <em>méga-innovation macroéconomique</em>. L'idéologie dominante repose sur des croyances infondées&nbsp;: la neutralité monétaire, l'efficience des marchés, la vertu de l'égoïsme, l'innovation technologique comme mythe fondateur. Ces dogmes entretiennent l'illusion d'une compatibilité entre rentabilité financière et régénération écologique. En réalité, les activités réellement régénératives — sans retour financier immédiat — sont condamnées à l'invisibilité et à l'insolvabilité dans les structures actuelles.</p>
+
+    <div class="pullquote">«&nbsp;Changer la monnaie ne changera pas le monde&nbsp;! Mais changer le monde ne se fera pas sans changer la monnaie&nbsp;!&nbsp;»<br><span style="font-size: 0.7em; opacity: 0.7; font-style: normal; letter-spacing: 0.05em;">— Jézabel Couppey-Soubeyran</span></div>
+
+    <p>Dans ce livre, nous distinguerons clairement la rentabilité microéconomique à court terme de la robustesse macro-systémique à long terme. Ces deux dimensions ne peuvent être financées par les mêmes instruments ni par les mêmes institutions. Nous devons donc inventer de nouveaux mécanismes monétaires, capables de préserver les conditions de la vie sur Terre tout en garantissant la stabilité, la justice et le bien-être.</p>
+
+    <h2>Ce que vous allez trouver dans ce livre</h2>
+
+    <p><em>L'Économie de l'Équilibre</em> n'est pas un livre réservé aux économistes. Il s'adresse à tous ceux qui sentent confusément que quelque chose ne va pas dans notre manière de faire l'économie, sans toujours avoir les outils pour le nommer.</p>
+
+    <p>Nous commencerons par comprendre pourquoi notre système économique actuel est structurellement incapable de résoudre les crises qu'il engendre. Non par malveillance, mais par conception.</p>
+
+    <p>Nous plongerons ensuite dans l'histoire et les mécanismes de la monnaie, ce sujet étrangement absent de nos débats publics alors qu'il conditionne tout le reste. Nous verrons comment la création monétaire par les banques commerciales constitue un accélérateur de croissance qui rend l'extraction non pas un choix, mais une nécessité systémique. Et nous construirons pas à pas l'architecture de NEMO IMS, ses institutions, ses mécanismes, ses outils macroprudentiels comme une alternative cohérente et opérationnelle.</p>
+
+    <p>Ce projet ressemble à un rêve utopique. Mais c'est un projet rationnel et nécessaire. Il ne vise pas à abolir l'économie de marché, mais à l'équilibrer par un pilier symétrique — un yin monétaire régénératif face à notre yang productiviste trop souvent dégénératif. Car l'économie humaine ne peut se maintenir durablement qu'à la condition de respecter les équilibres du monde vivant. NEMO IMS n'est donc pas qu'une simple réforme technique&nbsp;: c'est une <em>révolution pacifique</em>, fondée sur une compréhension nouvelle de la monnaie comme thermodynamique du vivant.</p>
+
+    <div class="end-card">
+      <h2 class="end-card__title">Vous avez lu <em>l'introduction</em>.</h2>
+      <p class="end-card__text">269 pages vous attendent pour explorer en profondeur le diagnostic, l'histoire monétaire, les trois malédictions, l'architecture complète de NEMO IMS et les chemins possibles de son avènement.</p>
+      <a href="https://payhip.com/b/tQhNU" target="_blank" rel="noopener" class="end-card__cta">Se procurer le livre · 19,90 € →</a>
+    </div>
+
+  </div>
+</article>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+
+</body>
+</html>

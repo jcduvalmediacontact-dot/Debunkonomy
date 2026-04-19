@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>À propos — Jean-Christophe Duval — Debunk'Onomy</title>
+<meta name="description" content="Jean-Christophe Duval, chercheur en économie écologique, concepteur du système NEMO IMS et auteur de L'Économie de l'Équilibre. Le projet Debunk'Onomy.">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+.bio-hero { background: var(--teal); color: var(--cream); padding: 100px 28px; }
+.bio-hero__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: center; }
+.bio-hero__visual { aspect-ratio: 4/5; max-width: 380px; width: 100%; position: relative; overflow: hidden; border-radius: 2px; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.4); }
+.bio-hero__visual img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.bio-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--mint); opacity: 0.85; margin-bottom: 28px; }
+.bio-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--mint); opacity: 0.5; }
+.bio-hero__name { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 400; font-size: clamp(48px, 6.5vw, 96px); line-height: 0.95; letter-spacing: -0.03em; color: var(--mint); margin-bottom: 16px; }
+.bio-hero__name em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
+.bio-hero__role { font-family: var(--ff-serif); font-style: italic; font-size: 22px; color: var(--mint-soft); margin-bottom: 30px; line-height: 1.4; }
+.bio-hero__role em { color: var(--mint); font-style: normal; }
+
+.bio-body { background: var(--cream); padding: 100px 28px; }
+.bio-body__inner { max-width: var(--readw); margin: 0 auto; }
+.bio-body p { font-family: var(--ff-display); font-variation-settings: "opsz" 16, "SOFT" 55; font-weight: 400; font-size: 19px; line-height: 1.7; color: var(--ink-deep); margin-bottom: 1.5em; }
+.bio-body p em { font-style: italic; font-variation-settings: "opsz" 16, "SOFT" 80, "WONK" 1; color: var(--ink); }
+.bio-body p.lead { font-variation-settings: "opsz" 36, "SOFT" 50; font-weight: 380; font-size: 23px; line-height: 1.5; color: var(--ink); margin-bottom: 2em; letter-spacing: -0.01em; }
+.bio-body h2 { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 35; font-weight: 450; font-size: clamp(26px, 2.8vw, 34px); line-height: 1.15; letter-spacing: -0.02em; color: var(--ink-deep); margin-top: 2.4em; margin-bottom: 1em; padding-top: 1em; position: relative; }
+.bio-body h2::before { content: ""; position: absolute; top: 0; left: 0; width: 60px; height: 1px; background: var(--teal); opacity: 0.6; }
+.bio-pull { margin: 2.4em -16px; padding: 32px 40px; background: var(--cream-deep); border-left: 4px solid var(--teal); font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 22px; line-height: 1.45; color: var(--ink); }
+
+.bio-links { background: var(--cream-deep); padding: 80px 28px; }
+.bio-links__inner { max-width: var(--pagew); margin: 0 auto; }
+.bio-links__title { font-family: var(--ff-display); font-variation-settings: "opsz" 96, "SOFT" 35; font-weight: 400; font-size: clamp(28px, 3.5vw, 42px); line-height: 1.1; color: var(--ink-deep); margin-bottom: 40px; letter-spacing: -0.02em; text-align: center; }
+.bio-links__title em { font-style: italic; font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1; color: var(--ink); }
+.bio-links__grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
+.bio-link { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 30px 20px; background: var(--cream); border-radius: 4px; transition: transform 0.3s, box-shadow 0.3s; text-decoration: none; color: inherit; border: 1px solid rgba(13,46,49,0.1); text-align: center; }
+.bio-link:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -20px rgba(13,46,49,0.25); }
+.bio-link__icon { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 40px; line-height: 1; color: var(--teal); }
+.bio-link__name { font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-deep); }
+.bio-link__sub { font-family: var(--ff-serif); font-style: italic; font-size: 13px; color: var(--teal); }
+
+@media (max-width: 980px) {
+  .bio-hero { padding: 70px 22px; }
+  .bio-hero__inner { grid-template-columns: 1fr; gap: 50px; }
+  .bio-hero__visual { max-width: 280px; margin: 0 auto; }
+  .bio-body { padding: 60px 22px; }
+  .bio-body p { font-size: 17.5px; }
+  .bio-pull { margin: 2em 0; padding: 24px 28px; font-size: 19px; }
+  .bio-links { padding: 60px 22px; }
+  .bio-links__grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/" class="current">Auteur</a>
+  </div>
+</nav>
+
+<section class="bio-hero">
+  <div class="bio-hero__inner">
+    <div class="bio-hero__visual"><img src="/assets/author-portrait.jpg" alt="Portrait de Jean-Christophe Duval"></div>
+    <div>
+      <div class="bio-hero__eyebrow">L'auteur</div>
+      <h1 class="bio-hero__name">Jean-Christophe <em>Duval</em></h1>
+      <p class="bio-hero__role">Chercheur en économie écologique, concepteur du système <em>NEMO IMS</em> et auteur de <em>L'Économie de l'Équilibre</em>.</p>
+    </div>
+  </div>
+</section>
+
+<article class="bio-body">
+  <div class="bio-body__inner">
+    <p class="lead">Jean-Christophe Duval développe, sous l'imprint <em>Debunk'Onomy</em>, un programme de recherche à l'intersection de la théorie monétaire, de l'économie écologique et des limites planétaires.</p>
+
+    <p>Son travail interroge l'impensé central de la pensée économique contemporaine&nbsp;: la nature même de la monnaie. Là où les manuels la présentent comme un instrument neutre, Debunk'Onomy s'attache à montrer qu'elle est une <em>institution politique</em> — qui décide de ce qui existe et de ce qui n'existe pas, de ce qui est financé et de ce qui est condamné à l'invisibilité.</p>
+
+    <h2>Le programme Debunk'Onomy</h2>
+
+    <p>Le nom est un mot-valise&nbsp;: <em>debunk</em> (déboulonner, démystifier) + <em>economy</em> (économie). L'ambition est explicite : déconstruire les évidences héritées de l'économie dominante — la rareté, la croissance, la neutralité monétaire — pour exposer les fondations idéologiques sur lesquelles elles reposent.</p>
+
+    <p>Mais ce mouvement de critique n'est qu'une moitié du chemin. L'autre moitié — la plus exigeante — consiste à <em>reconstruire</em>. Proposer des architectures monétaires, financières et comptables compatibles avec un monde fini, vivant, et commun. C'est cette seconde phase qui culmine dans la proposition NEMO IMS.</p>
+
+    <h2>NEMO IMS — la proposition systémique</h2>
+
+    <p>NEMO IMS (NEgentropic MOney International Monetary System) est une refonte systémique du système monétaire international. Son principe directeur : désencastrer la création monétaire de la dette, et l'adosser à la régénération mesurable du vivant. Une monnaie créée en amont d'activités régénératives certifiées (reforestation, dépollution, restauration des sols, protection de la biodiversité), et progressivement détruite à chaque transaction marchande selon son impact écologique.</p>
+
+    <p>Cette proposition s'inscrit dans une tradition intellectuelle riche&nbsp;: l'économie écologique de Nicholas Georgescu-Roegen et Herman Daly, la thermodynamique appliquée aux sciences sociales, l'anthropologie monétaire de David Graeber, l'économie du donut de Kate Raworth, les travaux contemporains sur la création monétaire de Gaël Giraud, Jézabel Couppey-Soubeyran ou Alain Grandjean.</p>
+
+    <div class="bio-pull">«&nbsp;Changer la monnaie ne changera pas le monde. Mais changer le monde ne se fera pas sans changer la monnaie.&nbsp;»</div>
+
+    <h2>L'Économie de l'Équilibre</h2>
+
+    <p>Paru en avril 2026 sous l'imprint Debunk'Onomy, <em>L'Économie de l'Équilibre — Monnaie, finance et limites planétaires</em> rassemble en 269 pages l'ensemble du programme&nbsp;: diagnostic du verrou monétaire contemporain, histoire critique de la monnaie, architecture détaillée de NEMO IMS, et trois scénarios possibles de son avènement.</p>
+
+    <p>Le livre s'adresse à tous ceux qui sentent confusément que quelque chose ne va pas dans notre manière de faire l'économie, sans toujours avoir les outils pour le nommer. Sa promesse&nbsp;: rendre intelligibles, à un public non spécialiste, les mécanismes profonds qui rendent notre système économique structurellement incompatible avec la vie sur Terre — et montrer qu'une alternative existe.</p>
+
+    <h2>Une démarche éditoriale</h2>
+
+    <p>Debunk'Onomy n'est pas une institution académique, c'est un projet éditorial indépendant. Le travail de recherche s'accompagne d'une démarche de publication directe — par le livre, le site, la newsletter Substack et les réseaux sociaux — qui assume de s'adresser autant aux chercheurs qu'au grand public, avec la même exigence intellectuelle.</p>
+
+    <p>L'objectif est moins d'occuper une niche que de contribuer à <em>déplacer la fenêtre du dicible</em> sur les questions monétaires et écologiques. Et de faire dialoguer, autour de NEMO IMS, des publics qui ne se rencontrent pas habituellement&nbsp;: économistes hétérodoxes, écologistes, militants de la décroissance, citoyens en quête de cohérence intellectuelle face à la crise planétaire.</p>
+  </div>
+</article>
+
+<section class="bio-links">
+  <div class="bio-links__inner">
+    <h2 class="bio-links__title">Suivre <em>l'atelier</em></h2>
+    <div class="bio-links__grid">
+      <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="bio-link">
+        <div class="bio-link__icon">✉</div>
+        <div class="bio-link__name">Substack</div>
+        <div class="bio-link__sub">Newsletter &amp; chroniques</div>
+      </a>
+      <a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener" class="bio-link">
+        <div class="bio-link__icon">▷</div>
+        <div class="bio-link__name">YouTube</div>
+        <div class="bio-link__sub">Podcasts vidéo</div>
+      </a>
+      <a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener" class="bio-link">
+        <div class="bio-link__icon">in</div>
+        <div class="bio-link__name">LinkedIn</div>
+        <div class="bio-link__sub">Profil professionnel</div>
+      </a>
+      <a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener" class="bio-link">
+        <div class="bio-link__icon">⌖</div>
+        <div class="bio-link__name">Bluesky</div>
+        <div class="bio-link__sub">Notes &amp; échanges</div>
+      </a>
+      <a href="mailto:contact@debunkonomy.org" class="bio-link">
+        <div class="bio-link__icon">@</div>
+        <div class="bio-link__name">Contact</div>
+        <div class="bio-link__sub">contact@debunkonomy.org</div>
+      </a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+</body></html>

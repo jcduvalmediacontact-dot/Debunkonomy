@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Robert Solow, ou les habits économiques conventionnels des théories de la transition — Debunk'Onomy</title>
+<meta name="description" content="Sur l'héritage théorique de Robert Solow et ses résonances troublantes avec les théories contemporaines de la transition écologique. Par Jean Latreille.">
+<meta name="author" content="Jean Latreille">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Robert Solow, ou les habits économiques conventionnels des théories de la transition">
+<meta property="og:description" content="Sur l'héritage théorique de Robert Solow et ses résonances troublantes avec les théories contemporaines de la transition écologique.">
+<meta property="og:site_name" content="Debunk'Onomy">
+<meta property="og:locale" content="fr_FR">
+<meta property="article:author" content="Jean Latreille">
+<meta property="article:published_time" content="2024-12-23">
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="../../../assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../../../assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../../assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../../../assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --ink-deep:    #0D2E31;
+  --ink:         #1C5A60;
+  --teal:        #4A8B92;
+  --mint:        #A8EAEA;
+  --mint-soft:   #C9F0EE;
+  --cream:       #F4EDE0;
+  --cream-deep:  #E8DCC4;
+  --sand:        #D9C9A3;
+  --rust:        #B5553C;
+  --ochre:       #C9933A;
+
+  --ff-display: "Fraunces", "Times New Roman", serif;
+  --ff-serif:   "Instrument Serif", "Times New Roman", serif;
+  --ff-sans:    "Instrument Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --readw: 680px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 14, "SOFT" 50;
+  color: var(--ink-deep);
+  background: var(--cream);
+  line-height: 1.5;
+  overflow-x: hidden;
+  font-feature-settings: "ss01", "cv11", "kern";
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+
+/* ===== ARTICLE NAV (minimal, back to home) ===== */
+.anav {
+  position: sticky; top: 0; z-index: 50;
+  padding: 18px 28px;
+  background: rgba(244, 237, 224, 0.88);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(13, 46, 49, 0.08);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.anav__brand {
+  display: flex; align-items: center; gap: 10px;
+  color: var(--ink-deep);
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 48, "SOFT" 40;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: -0.01em;
+}
+.anav__brand img { height: 32px; width: auto; }
+.anav__brand span { display: inline-block; }
+.anav__crumbs {
+  font-family: var(--ff-sans);
+  font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--teal);
+  display: flex; align-items: center; gap: 10px;
+}
+.anav__crumbs a { transition: color 0.2s; }
+.anav__crumbs a:hover { color: var(--ink-deep); }
+.anav__crumbs .sep { opacity: 0.4; }
+
+/* ===== ARTICLE HEADER ===== */
+.article {
+  background: var(--cream);
+  padding: 80px 28px 120px;
+}
+.article__header {
+  max-width: 820px; margin: 0 auto 80px;
+  text-align: left;
+}
+.article__eyebrow {
+  display: inline-flex; align-items: center; gap: 14px;
+  font-family: var(--ff-sans);
+  font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 32px;
+}
+.article__eyebrow::before {
+  content: ""; display: block; width: 50px; height: 1px; background: var(--teal); opacity: 0.5;
+}
+.article__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 144, "SOFT" 35;
+  font-weight: 350;
+  font-size: clamp(34px, 5vw, 62px);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: var(--ink-deep);
+  margin-bottom: 40px;
+  max-width: 22ch;
+}
+.article__meta {
+  display: flex; flex-wrap: wrap; gap: 24px 36px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(13, 46, 49, 0.15);
+  font-family: var(--ff-sans);
+  font-size: 12px; letter-spacing: 0.08em;
+  color: var(--ink);
+}
+.article__meta > div { display: flex; flex-direction: column; gap: 4px; }
+.article__meta-label {
+  font-size: 10px; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--teal); opacity: 0.85;
+}
+.article__meta-value {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 24;
+  font-weight: 450;
+  font-size: 15px;
+  color: var(--ink-deep);
+  letter-spacing: -0.005em;
+}
+.article__meta-value em {
+  font-style: italic;
+  font-variation-settings: "opsz" 24, "SOFT" 100, "WONK" 1;
+}
+
+/* ===== ARTICLE BODY ===== */
+.article__body {
+  max-width: var(--readw);
+  margin: 0 auto;
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 16, "SOFT" 55;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.65;
+  color: var(--ink-deep);
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+.article__body p {
+  margin-bottom: 1.5em;
+}
+.article__body p.article__lead {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 36, "SOFT" 50;
+  font-weight: 380;
+  font-size: 24px;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: 2em;
+  letter-spacing: -0.015em;
+}
+.article__body p.article__lead::first-letter {
+  /* Optional drop cap - subtle */
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 144, "SOFT" 30;
+  font-weight: 400;
+  font-size: 3.6em;
+  line-height: 0.92;
+  float: left;
+  padding: 0.08em 0.08em 0 0;
+  color: var(--teal);
+  letter-spacing: -0.04em;
+}
+.article__body h2.article__subtitle {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 72, "SOFT" 40;
+  font-weight: 400;
+  font-size: clamp(26px, 2.6vw, 34px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink-deep);
+  margin-top: 2.2em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  position: relative;
+}
+.article__body h2.article__subtitle::before {
+  content: ""; position: absolute; top: 0; left: 0;
+  width: 60px; height: 1px;
+  background: var(--teal); opacity: 0.5;
+}
+.article__body em {
+  font-style: italic;
+  font-variation-settings: "opsz" 16, "SOFT" 80, "WONK" 1;
+}
+.article__body sup.fn-ref {
+  font-size: 0.72em;
+  font-family: var(--ff-sans);
+  font-weight: 600;
+  line-height: 0;
+  vertical-align: super;
+}
+.article__body sup.fn-ref a {
+  color: var(--rust);
+  padding: 0 2px;
+  transition: color 0.2s;
+}
+.article__body sup.fn-ref a:hover {
+  color: var(--ink-deep);
+  text-decoration: underline;
+}
+.article__body sup.fn-ref a:target,
+.article__body sup.fn-ref a[id]:target {
+  background: var(--mint-soft);
+  border-radius: 2px;
+}
+
+/* ===== FOOTNOTES ===== */
+.article__footnotes {
+  max-width: var(--readw);
+  margin: 100px auto 0;
+  padding-top: 40px;
+  border-top: 1px solid rgba(13, 46, 49, 0.2);
+}
+.article__footnotes-title {
+  font-family: var(--ff-sans);
+  font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 28px;
+}
+.article__footnotes ol { list-style: none; counter-reset: fn; }
+.footnote {
+  display: flex;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(13, 46, 49, 0.08);
+  font-family: var(--ff-serif);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.footnote:last-child { border-bottom: none; }
+.footnote__num {
+  flex-shrink: 0;
+  min-width: 28px;
+  font-family: var(--ff-sans);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.04em;
+  color: var(--rust);
+  padding-top: 2px;
+}
+.footnote__text { flex: 1; }
+.footnote__text a { color: var(--ink); text-decoration: underline; text-decoration-color: rgba(28, 90, 96, 0.4); text-underline-offset: 3px; transition: text-decoration-color 0.2s; }
+.footnote__text a:hover { text-decoration-color: var(--ink); }
+.footnote__back {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 0 6px;
+  color: var(--teal) !important;
+  text-decoration: none !important;
+  font-size: 13px;
+  border-radius: 3px;
+  transition: background 0.2s;
+}
+.footnote__back:hover {
+  background: var(--mint-soft);
+  color: var(--ink-deep) !important;
+}
+.footnote:target {
+  background: var(--mint-soft);
+  padding-left: 14px;
+  margin-left: -14px;
+  padding-right: 14px;
+  margin-right: -14px;
+  border-radius: 4px;
+  transition: background 0.6s;
+}
+
+/* ===== ARTICLE FOOTER ===== */
+.article__foot {
+  max-width: var(--readw);
+  margin: 80px auto 0;
+  padding-top: 40px;
+  border-top: 1px solid rgba(13, 46, 49, 0.15);
+}
+.article__signature {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 17px;
+  color: var(--teal);
+  text-align: center;
+}
+
+/* ===== RELATED / RETURN ===== */
+.return {
+  background: var(--ink-deep);
+  padding: 100px 28px;
+  color: var(--mint);
+  text-align: center;
+}
+.return__inner { max-width: 600px; margin: 0 auto; }
+.return__eyebrow {
+  font-family: var(--ff-sans);
+  font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase;
+  color: var(--mint); opacity: 0.6;
+  margin-bottom: 22px;
+}
+.return__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 144, "SOFT" 40;
+  font-weight: 350;
+  font-size: clamp(30px, 3.5vw, 46px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--mint);
+  margin-bottom: 32px;
+}
+.return__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+.return__links {
+  display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+  margin-top: 32px;
+}
+.return__link {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 24px;
+  border: 1px solid var(--mint);
+  color: var(--mint);
+  border-radius: 999px;
+  font-family: var(--ff-sans);
+  font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+  transition: all 0.3s;
+}
+.return__link:hover { background: var(--mint); color: var(--ink-deep); }
+.return__link--primary { background: var(--mint); color: var(--ink-deep); }
+.return__link--primary:hover { background: var(--mint-soft); }
+
+/* ===== MINI FOOTER ===== */
+.footer {
+  background: var(--ink-deep);
+  color: var(--mint-soft);
+  padding: 40px 28px 32px;
+  border-top: 1px solid rgba(168, 234, 234, 0.1);
+}
+.footer__inner {
+  max-width: 1200px; margin: 0 auto;
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 16px;
+  font-family: var(--ff-sans);
+  font-size: 11px; letter-spacing: 0.08em;
+  opacity: 0.6;
+}
+.footer__inner a:hover { color: var(--mint); }
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 720px) {
+  .anav { padding: 14px 18px; }
+  .anav__brand { font-size: 15px; }
+  .anav__brand img { height: 28px; }
+  .anav__crumbs { font-size: 10px; gap: 8px; }
+  .article { padding: 50px 22px 80px; }
+  .article__header { margin-bottom: 50px; }
+  .article__eyebrow { font-size: 10px; margin-bottom: 24px; }
+  .article__title { font-size: clamp(28px, 8vw, 38px); }
+  .article__meta { gap: 18px 24px; }
+  .article__body { font-size: 18px; line-height: 1.62; }
+  .article__body p.article__lead { font-size: 21px; }
+  .article__body p.article__lead::first-letter {
+    font-size: 3em;
+    padding: 0.06em 0.08em 0 0;
+  }
+  .article__footnotes { margin-top: 70px; }
+  .article__foot { margin-top: 60px; }
+  .return { padding: 70px 22px; }
+  .footer__inner { flex-direction: column; text-align: center; }
+}
+@media (max-width: 460px) {
+  .anav__brand span { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- ARTICLE NAV -->
+<nav class="anav">
+  <a href="/" class="anav__brand">
+    <img src="../../../assets/logo-tree.png" alt="">
+    <span>Debunk'Onomy</span>
+  </a>
+  <div class="anav__crumbs">
+    <a href="/">Accueil</a>
+    <span class="sep">/</span>
+    <a href="/articles/">Écrits</a>
+  </div>
+</nav>
+
+<!-- ARTICLE -->
+<article class="article">
+
+  <header class="article__header">
+    <div class="article__eyebrow">Critique · Théorie économique</div>
+    <h1 class="article__title">Robert Solow, ou les habits économiques conventionnels des théories de la transition</h1>
+    <div class="article__meta">
+      <div>
+        <span class="article__meta-label">Auteur</span>
+        <span class="article__meta-value">Jean <em>Latreille</em></span>
+      </div>
+      <div>
+        <span class="article__meta-label">Publication</span>
+        <span class="article__meta-value">23 décembre 2024</span>
+      </div>
+      <div>
+        <span class="article__meta-label">Lecture</span>
+        <span class="article__meta-value">≈ 19 minutes</span>
+      </div>
+      <div>
+        <span class="article__meta-label">Rubrique</span>
+        <span class="article__meta-value"><em>Escronomistes</em></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="article__body">
+        <p class="article__lead">Le 23 décembre 2024 a été l’occasion de marquer le premier anniversaire de la mort de Robert Solow, qui aurait eu cent ans cette même année. Je voudrais profiter de l’occasion pour me pencher d’un peu plus près sur son héritage théorique. Mon objectif est de montrer que le prix « Nobel » d’économie 1987 a diffusé des façons de penser qui ont marqué durablement les esprits très au-delà de son propre courant de pensée. Le cadre d’analyse qu’il a proposé pour poser les conditions d’une croissance soutenable peut nous être encore d’une grande utilité. À tel point que l’on peut trouver dans les conceptions actuelles de la transition écologique et énergétique une proximité troublante avec les raisonnements défendus par ce grand économiste</p>
+        <p>Une fois n’est pas coutume, j’ai pris le temps de traduire en français le texte de l’une de ses interventions, faite en 1992 auprès des membres de l’association Ressources pour le futur, à l’occasion de leur 40e anniversaire<sup class="fn-ref"><a href="#fn-1" id="fnref-1">1</a></sup>. Ce qui m’a conduit vers cette conférence est une citation exacte de Robert Solow, datant d’un article de 1974. La citation qui en est extraite est précisément la suivante : « Le monde peut, dans les faits, se passer des ressources naturelles ». Cette citation avait tout pour attirer mon attention et aiguiser mon sens critique. J’ai voulu en avoir le cœur net. Solow, qui n’était pas un imbécile, quoi qu’on pense de ses analyses théoriques, aurait-il osé sortir une énormité pareille ?</p>
+        <p>C’est dans ce texte de 1992 que j’ai trouvé la meilleure réponse à ma question, et même bien au-delà de mes espérances. Ce texte permet de plonger au cœur de la logique limpide des raisonnements de ce grand économiste. Malgré un humour parfois caustique ou allusif, Robert Solow avait un style simple et efficace qui rend sa lecture relativement accessible, pour peu que l’on dispose d’un bagage minimum en sciences économiques.</p>
+        <h2 class="article__subtitle">L’estimation des ressources naturelles</h2>
+        <p>On trouve dans son intervention de 1992 ce que Solow pensait exactement à propos du rôle des ressources naturelles : « Il faut affirmer que, par nature, la production ne peut avoir lieu sans l’utilisation des ressources naturelles ». « Par nature » est la traduction la plus fidèle de l’expression « It is of the essence ». On ne saurait être plus clair : les ressources naturelles sont essentielles. Mais le diable se cache dans le détail des phrases qui suivent. Solow ajoute : « je supposerai que c’est toujours possible de substituer de plus grands entrants de travail, de capital reproductible et de ressources renouvelables à de plus petits intrants directs d’une ressource donnée ». Y compris d’une ressource naturelle non renouvelable, dirait-on… Cette substitution semble souvent possible selon Solow avec pour seule vraie limite celle qui obsède les économistes : « elle [la substitution] devient de plus en plus coûteuse au fur et à mesure que le processus de substitution se poursuit »<sup class="fn-ref"><a href="#fn-2" id="fnref-2">2</a></sup>.</p>
+        <p>Le premier point à noter est donc que, pour les économistes du bien-être<sup class="fn-ref"><a href="#fn-3" id="fnref-3">3</a></sup>, toutes les substitutions techniques sont envisageables tant que le niveau des prix rend accessibles les nouveaux facteurs de production. Solow a parfaitement compris ce qu’impliquerait l’impossibilité de substituer des ressources à celles qui existent en quantité limitée. Il affirme : « la conclusion pourrait être que cette économie est comme une montre mécanique qu’on ne peut remonter qu’une seule fois : elle n’a qu’un nombre fini de tic-tac, après quoi elle s’arrête ». Solow refuse donc radicalement d’envisager la finitude des ressources. « Dans un tel cas, il n’y a aucun intérêt à parler de soutenabilité parce qu’elle est exclue par hypothèse. Le seul choix serait alors entre une vie courte et heureuse et une vie plus longue et malheureuse ». Pour le dire autrement, si les ressources matérielles nécessaires à la production sont en quantité finie, nous n’avons plus le choix qu’entre vivre encore un peu de temps dans une abondance excessive ou faire durer le plaisir le plus longtemps possible en réduisant radicalement notre consommation de ressources rares. On voit qu’il pose là, très clairement, les termes exacts des analyses de la décroissance, bien qu’il les réfute. Il revendique d’ailleurs « un degré minimal d’optimisme » qui justifierait ses positions. Revendication étonnante de la part d’un scientifique qui, à plusieurs occasions dans le même discours, demande à ce que la théorie de la soutenabilité soit autre chose qu’un « vague engagement émotionnel ». Or, cet optimisme revendiqué n’est pourtant rien d’autre qu’une profession de foi : quelque chose chez Robert Solow refusait de croire que notre monde est bel et bien fini (pas au sens de « terminé », mais plutôt au sens de « limité », même s’il faudra bien en finir avec une certaine forme de civilisation).</p>
+        <p>C’est la première similitude que l’on peut faire entre le chantre des théories de la croissance et ses opposants transitionnistes. Ils partagent un certain optimisme, concernant l’efficacité potentielle du système productiviste. Cet optimiste de Solow transpire en effet dans une autre des hypothèses qu’il formule : pour que la soutenabilité soit possible, « il faut que rien ne soit purement et simplement gaspillé et que la production se réalise de manière efficace ». La parfaite efficacité du système des marchés concurrentiels n’est pas seulement une belle construction théorique ou idéologique. En effet, un système qui gaspillerait des ressources les perdrait définitivement et ne pourrait plus les léguer sous forme de capital productif aux générations suivantes. Adieu la soutenabilité qui sauve le système croissanciste. Ce rêve d’efficacité est un leitmotiv que partagent également les partisans de la transition énergétique. Bien sûr, ils considèrent que le gaspillage des ressources non renouvelables est un scandale écologique mais ils n’ont pas de mots assez durs pour fustiger les pertes énergétiques des systèmes thermo-industriels. En ce sens, ils partagent les rêves d’efficacité productive de tous les économistes.</p>
+        <h2 class="article__subtitle">Du Produit net à la substituabilité intertemporelle des ressources</h2>
+        <p>Afin d’être sûr que l’on ne manque de rien à l’avenir, Solow insiste donc sur la fameuse pirouette de la substituabilité des facteurs de production, un grand classique des modèles de croissance. Elle est au cœur de sa théorie de la soutenabilité. Car, pour lui, les ressources productives sont si abondantes que la seule question est de savoir quelle forme de capital l’humanité va privilégier à un moment donné. On se retrouve alors en terrain connu pour un économiste : il suffit d’arbitrer entre divers choix en s’appuyant sur l’étude des coûts relatifs des différentes formes de capital. Qu’une ressource productive vienne à manquer, son prix relatif augmentera rendant une ressource productive alternative plus attractive financièrement parlant. La question de l’existence d’une telle alternative, de la possibilité même de son existence<sup class="fn-ref"><a href="#fn-4" id="fnref-4">4</a></sup>, ne se pose pas : seul son prix importe.</p>
+        <p>Je passerai sur tout le temps perdu par Solow à rechercher les prix permettant d’estimer les ressources productives environnementales à leur juste prix. Il ne cache pas dans cet article à quel point cet exercice est difficile bien qu’il le considère comme non insurmontable. Cette histoire de détermination des prix et la grande affaire des économistes. Solow reconnaît que « même le cas le plus simple pose des problèmes de mesure redoutables ». Mais « si la mise en œuvre de ces apports théoriques est loin d’être facile, elle ne fait que rendre l’affaire plus intéressante », ajoute-t-il immédiatement. Les économistes sont habitués à affronter de telles difficultés depuis longtemps. Solow rappelle que « la semi-fiction selon laquelle les prix de marché reflètent fidèlement leur rareté (…) est implicite chaque fois que nous utilisons le PIB ordinaire comme mesure du bien-être économique ». Un grand théoricien comme lui ne se laisse pas décourager par ce genre de difficulté méthodologique. De toute façon, il préfère les affronter plutôt que d’envisager de changer de cadre conceptuel.</p>
+        <p>L’estimation du prix des diverses formes de capital naturel mobilisées pour la production pourrait être déduite de la valeur du produit intérieur brut annuel de manière à en déduire un produit net, qu’il nomme Produit National net (PNN). Cette proposition a connu une bonne fortune depuis les années 90 et de nombreux organismes d’évaluation des performances économiques calculent désormais le produit intérieur net environnemental des nations. Les difficultés que posent de tels calculs sont diverses et variées : elles vont bien au-delà du « simple » établissement du prix des ressources. Comme pour les émissions de carbone, il faut remonter les filières productives si l’on veut estimer la consommation de ressources environnementales que les nations font à travers leurs importations de biens bruts ou transformés.</p>
+        <p>Mais, en bon pragmatique, Robert Solow considère que l’établissement d’un niveau de Produit National Net pourrait donner une idée assez juste de la consommation annuelle de ressources. Et c’est là que l’idée de substituabilité revient en force. Il s’agit alors de substituabilité intertemporelle ou intergénérationnelle. Solow définit la soutenabilité comme le fait de ne pas consommer plus de ressources productives au cours d’une génération que l’on offre de moyens d’en produire aux générations futures. Car si l’on ne peut pas, effectivement, produire sans ressources naturelles, la production que l’on en tire est destinée à être soit consommée, soit investie. Et finalement la soutenabilité de son point de vue n’est rien d’autre qu’un retour à la morale de « La cigale et la fourmi » : il faut épargner en prévision des difficultés à venir. Car c’est l’épargne qui finance l’investissement d’un pays, en première approximation.</p>
+        <p>La règle est alors très simple : il ne faut pas consommer plus de ressources que peuvent en produire les capitaux qu’on aura investis et légués aux générations suivantes. Pour prendre un exemple simple, si le PIB est un produit égal à 100, et si l’économie en consomme 70, elle doit investir les 30 restants en s’assurant qu’ils puissent produire dans le futur l’équivalent (<em>a minima</em>) des 70 consommés. Voilà ce qui rendrait la production soutenable jusqu’à la fin des temps.</p>
+        <h2 class="article__subtitle">Des économistes pas si atterrés qu’on pourrait croire</h2>
+        <p>Quelques années après la grande crise financière de 2008, quelques dizaines d’économistes français ont décidé de faire front commun contre les forces du néolibéralisme considérées comme parties prenantes dans l’émergence d’un capitalisme financier débridé et destructeur socialement et écologiquement. Un grand nombre de ces économistes sont des postkeynésiens : ils ont trouvé dans l’effondrement progressif du capitalisme financier l’occasion de réhabiliter un grand nombre de théories keynésiennes. Certains sont également (ou en plus) des économistes institutionnalistes qui portent des conceptions innovantes de la monnaie (ce qui donne lieu à des débats parfois passionnés avec d’autres membres du même collectif). On peut admettre que tous sont des écologistes de cœur et des socialistes soucieux de justice sociale. Or, sans le savoir, la plupart d’entre eux ne font que reproduire les analyses de Solow sous les habits neufs de leur postkeynésianisme.</p>
+        <p>C’est particulièrement clair dans leurs analyses de la dette. Fin 2024, à l’heure où le gouvernement éphémère de Michel Barnier préparait l’austérité budgétaire, Thomas Porcher écumait les médias pour expliquer que la dette n’était pas un problème. Ses arguments se retrouvaient dans la réponse envoyée par Henri Sterdyniak à un post publié le 18 décembre 2024 sur Linkedin à propos de la dette. L’économiste atterré écrivait : « Les générations futures recevront la dette et les titres de la dette. La dette publique n’est pas un fardeau pour elles. Elles recevront le capital physique et le capital humain. Le fardeau, pour elle, c’est la dette écologique ». Cette position (léguer une dette et les moyens de la financer n’est pas un problème en soi) relève de la logique de substitution intergénérationnelle des capitaux : nos successeurs auront moins de capitaux disponibles mais nous leur laissons les facteurs de production permettant de financer cette dette.</p>
+        <p>Ajouter que le seul fardeau est celui de la dette écologique, c’est reconnaître que les générations passées n’ont pas su se retenir de consommer plus de ressources qu’elles ont accumulé de nouvelles formes de capitaux pour les offrir en compensation aux générations présentes. Solow ne disait pas autre chose quand il disait : « La génération de la grande consommation n’a pas été à la hauteur de l’éthique de soutenabilité ». On devrait pourtant trouver chez les économistes atterrés plus de personnes capables de concevoir que certaines ressources détruites ne seront jamais remplacées ou substituées par autre chose. Mais alors, pour eux, l’expression « dette écologique » ne devrait pas être pertinente, puisqu’il est impossible de la rembourser ou de la remplacer par une forme ou une autre de substitution capitalistique.</p>
+        <p>Évidemment le capital peut-être investi sous des formes très diverses, comme le pensait Solow et comme en témoigne la citation de Sterdyniak (« Elles recevront le capital physique et le capital humain »). Il peut l’être en particulier sous la forme de compétences humaines (le capital humain) transmises aux générations futures pour améliorer leurs capacités productives et plus généralement sous la forme de progrès technique qui reste une source essentielle de croissance. S’il reste la mesure de l’ignorance des économistes, selon une formule célèbre de Moses Abramovitz, il n’en reste pas moins que le progrès technique existe, comme le rappelle Solow dans une formule qu’il introduit par une nuance mystérieuse : « …après tout<sup class="fn-ref"><a href="#fn-5" id="fnref-5">5</a></sup>, le progrès technologique existe bel et bien ».</p>
+        <p>Je n’épiloguerais pas sur le fait que le progrès technique reste évidemment le plus grand mystère productif aux yeux des économistes puisqu’ils n’ont toujours pas compris le rôle joué par les diverses formes d’énergie. Celles-ci sont pourtant indiscutablement bien plus que du capital circulant ou des biens intermédiaires, comme les envisagent généralement les économistes. Elles sont, sous toutes leurs formes, les premiers facteurs d’amélioration de l’efficacité productive. Pourtant, Robert Solow était à deux doigts de comprendre qu’il peut exister des formes de capital environnementales essentielles. Ainsi, il écrit : « la plupart des ressources naturelles courantes sont désirables pour ce qu’elles font et non pas pour ce qu’elles sont. Il s’agit de leur capacité à fournir des biens et des services utilisables dont nous avons besoin ». Le voilà presque mûr pour admettre qu’il pourrait exister des facteurs de production irremplaçables : ceux qui « font » des choses que nous ne saurions pas faire aussi efficacement sans eux.</p>
+        <p>Malheureusement, selon lui, seuls certains environnements remarquables ou quelques créations humaines exceptionnelles méritent d’être totalement préservés. Il n’est pas anodin qu’il insiste à deux reprises sur le parc de Yosemite et le mémorial de Lincoln comme exemples de stocks de ressources que tout le monde s’accorde à préserver pour les générations suivantes. À ces exceptions près, dit-il, « il ne s’agit pas de maintenir intact le stock de chaque chose ; les compromis et les substitutions ne sont pas seulement autorisés, ils sont essentiels ». Le rôle des économistes, comme on le sait, se réduit à laisser s’établir les prix auxquels auront lieu de tels échanges, pas à choisir les ressources qui méritent d’être conservées. Le marché ou l’État s’en chargent.</p>
+        <p>Ainsi l’exploitation des ressources minières dans les pays pauvres n’est un problème pour Robert Solow que dans la mesure où ces pays consomment les revenus qu’ils en tirent sans les réinvestir. Que l’on épuise des ressources non renouvelables n’est pas un sujet : il doit exister quelque part des ressources équivalentes. Au pire, si elles n’existent pas encore, nous saurons les découvrir ou les inventer. Ainsi, « Le péché capital n’est pas de faire de l’exploitation minière, c’est de consommer les loyers miniers ». Sous-entendu : de tous les consommer plutôt que d’en investir une partie. Être cigales plutôt que fourmis.</p>
+        <p>Notons que les postkeynésiens partagent cette même obsession pour les investissements productifs. La seule différence entre les bons investisseurs keynésiens et les mauvais investisseurs néoclassiques n’existe que dans la nature des investissements réalisés. Les premiers préfèrent les investissements dans la transition écologique et énergétique aux seuls investissements productifs de richesses diverses (même si Solow n’aurait absolument pas exclu que de tels investissements à destination des générations futures soient des « investissements verts »). Or s’il est vrai que les investissements sont une part essentielle du PIB, tous les investissements quelle que soit leur nature, sont des sources de croissance. Sous leurs airs d’économistes plus éveillés que les autres, il semblerait que les partisans de la transition ne soient que des économistes du bien-être<sup class="fn-ref"><a href="#fn-6" id="fnref-6">6</a></sup> qui s’ignorent, bien qu’ils soient tous dans le déni de l’héritage des cadres conceptuels économiques les plus conventionnels. Au fond, comme le disaient les Inconnus à propos des chasseurs, « le mauvais investisseur, il investit et c’est mal. Alors que le bon investisseur, il investit… et c’est bien ». Investir pour l’avenir, c’est bien. Solow n’a jamais dit autre chose.</p>
+        <p>Les économistes ont pris l’habitude, après lui, de nommer faible la forme de soutenabilité qu’il a théorisée. La soutenabilité est alors dite forte si elle n’entame aucune forme de capital environnemental non renouvelable. Autant dire que cette dernière forme de substituabilité est impossible dans un monde qui ne renonce pas totalement aux fossiles ou aux ressources non renouvelables.</p>
+        <h2 class="article__subtitle">De la substitution des facteurs de production à la substitution des énergies</h2>
+        <p>Mais Solow ne voit pas qu’il existe des ressources plus irremplaçables encore qu’un site touristique remarquable. Et c’est là que l’on peut poser la question de la substituabilité des formes d’énergie. Il est étonnant de constater à quel point le discours transitionniste fait précisément écho aux analyses de Solow. Pour de nombreux promoteurs de la transition énergétique, le stock global de sources d’énergie n’est pas limité. Pour ceux d’entre eux qui voient la planète comme un système ouvert en termes de thermodynamique, il n’y a même aucune limite à l’obtention de ces ressources par les générations futures, à condition de leur léguer les convertisseurs énergétiques en quantité suffisante. Le modèle de Solow est taillé sur mesure pour eux.</p>
+        <p>Pour ceux qui voient la planète comme un système fermé, il est également possible de s’emparer de l’analyse de Solow pour supposer que si l’une des formes de capital énergétique venait à manquer elle serait facilement substituable par une autre. Il suffit de transmettre aux générations futures les savoir-faire pour y parvenir. Ainsi, le nombre de tic-tac n’est pas limité, et l’optimisme faisant foi, on trouvera toujours une forme de capital à exploiter pour convertir une ressource abondante<sup class="fn-ref"><a href="#fn-7" id="fnref-7">7</a></sup> en forme d’énergie. Dans cette optique, la soutenabilité consiste à transmettre aux générations suivantes de quoi satisfaire leurs besoins en s’appuyant sur les biens de production accumulés par les générations présentes. On ne pourrait trouver un renfort théorique plus utile pour justifier le développement des convertisseurs énergétiques décarbonés.</p>
+        <p>Pour conclure sur ces similitudes inattendues entre les théories de la croissance soutenable et les théories de la transition, arrêtons-nous attentivement sur la phrase de conclusion proposée par Robert Solow : « le OUI ou NON se prête à l’impasse et à la confrontation ; le PLUS ou MOINS se prête à des compromis. L’astuce consiste à comprendre »plus-de-quoi«  et »moins-de-quoi« . Une grande partie du courant décroissanciste mainstream est exactement sur la même ligne : nous allons devoir apprendre à réduire certaines consommations ou certaines formes de production pour les remplacer par d’autres. On va faire plus de certaines choses avec moins d’autres choses, pour éviter d’avoir à faire du OUI ou NON, c’est-à-dire à être obligé d’interdire trop d’activités auxquelles nous sommes attachés. C’est sur cet amour du libéralisme et la crainte de l’écologie punitive et liberticide que les transitionnistes et les économistes du bien-être se retrouvent, finalement.</p>
+        <p>Les décroissants historiques, pour leur part, défendent depuis toujours l’idée selon laquelle de nombreux systèmes productifs et technologiques devraient être purement et simplement abandonnés par l’humanité si elle veut avoir une chance de survivre durablement. Ils n’avaient pas été bercés aux théories de la croissance de Solow. Désormais, il reste un espoir partagé par les économistes du bien-être comme par leurs successeurs postkeynésiens : il faut transmettre aux générations futures nos folies technologiques présentes.</p>
+        <p>Comme Solow n’a pas su sortir de son cadre conceptuel « optimiste », il faudra bien que vienne le jour où l’ensemble des économistes, et en particulier ceux qui veulent penser la décroissance, jettent aux orties les outils hérités de deux siècles de pensée économique<sup class="fn-ref"><a href="#fn-8" id="fnref-8">8</a></sup> pour se donner enfin les outils conceptuels qui restent à établir et à consolider pour penser la décroissance, la vraie. Le temps de l’affrontement entre les gentils défenseurs de l’État redistributeur et planificateur contre le méchant marché générateur d’inégalité est totalement révolu. Il faut que vienne le temps du OUI-ou-NON, et pas du PLUS-ou-MOINS. Il faut que vienne le temps du refus<sup class="fn-ref"><a href="#fn-9" id="fnref-9">9</a></sup> de ce qui détruit aveuglément le vivant pour la seule satisfaction et volonté de puissance productiviste des générations présentes, aussi soucieuses soient-elles de partager les fruits de leur enrichissement.</p>
+        <p>On le sait depuis longtemps : on ne change pas un monde failli avec les cadres de pensée hérités de celui-ci. Mais pourra-t-on empêcher les économistes de conserver aveuglément « un degré minimal d’optimisme » ? Car c’est sans doute toujours à ça, au fond, qu’on reconnaît un économiste. Pas à sa lucidité.</p>
+        <h2 class="article__subtitle">Épilogue</h2>
+        <p>Maintenant que nous avons compris quelle était la position de Solow sur la question de la substituabilité, à savoir l’espoir aveugle que nous ne sommes pas condamnés à détruire le monde de façon irréversible, je peux vous expliquer l’origine de la citation qui m’a mis la puce à l’oreille. Dans son article de 1974, Solow essayait de fixer les bases du débat sur la substituabilité (souvent traduite en français par durabilité) :</p>
+        <p>« Comme on peut s’y attendre, le degré de substituabilité est également un facteur clé. S’il est très facile de substituer d’autres facteurs aux ressources naturelles, il n’y a en principe aucun « problème ». Le monde peut, en effet, se passer de ressources naturelles, l’épuisement n’est donc qu’un événement et non une catastrophe. (…) »</p>
+        <p>La citation est extraite de cette première partie de l’hypothèse. Mais celle-ci n’est qu’une première partie de l’alternative entre substituabilité et non-substituabilité. La deuxième partie est la suivante :</p>
+        <p>« Si, d’un autre côté, la production réelle par unité de ressources est effectivement limitée – et ne peut pas dépasser une certaine limite supérieure de productivité qui, elle-même, n’est pas trop éloignée de là où nous en sommes actuellement – alors la catastrophe est inévitable ».</p>
+        <p>Cela confirme ce que nous avons vu précédemment : Solow ne voulait pas croire à la finitude des ressources car elle induirait forcément la mort du système productiviste à plus ou moins long terme. Et Solow se situe explicitement, dans cet article de 1974, quelque part entre l’optimisme cornucopien qui croit qu’il est impossible de manquer de ressources et la certitude qu’on court vers leur épuisement. Il ajoute :</p>
+        <p>« Entre les deux, il existe un large éventail de cas dans lesquels le problème est réel, intéressant et non exclu. Heureusement, le peu de preuves dont nous disposons suggère qu’il existe une grande substituabilité entre les ressources épuisables et les ressources renouvelables ou reproductibles ».</p>
+        <p>Une grande substituabilité, pas une parfaite : les ressources naturelles seront donc toujours essentielles. Par nature. En 1974, il ajoutait que c’était « une question empirique qui pourrait absorber beaucoup plus de travail que ce qui a été fait jusqu’à présent. »</p>
+        <p>Il n’avait pas tort. Car un demi-siècle plus tard, comme j’ai tenté de le montrer, et avec un bon coup de pouce des théoriciens de la transition, on en débat encore.</p>
+        <p>Rendez-vous dans 50 ans, pour ceux qui veulent connaître le fin mot de l’histoire : seul le temps nous dira alors, non pas si les ressources sont totalement épuisées, mais si nous pouvions raisonnablement faire comme si leur prédation croissante n’était pas le véritable problème. Sur ce point, il est très probable que l’optimisme de Solow se révélera avoir été celui d’une génération qui après deux conflits mondiaux meurtriers, a voulu croire que l’on pourrait indéfiniment améliorer le confort matériel de l’humanité.</p>
+  </div>
+
+  <section class="article__footnotes" aria-label="Notes de bas de page">
+    <h2 class="article__footnotes-title">Notes &amp; références</h2>
+    <ol>
+          <li id="fn-1" class="footnote"><span class="footnote__num">1.</span><span class="footnote__text"><em>« An almost practical step toward sustainability »</em>, Robert Solow, 8 octobre 1992. <a href="https://www.sciencedirect.com/science/article/abs/pii/0301420793900014" target="_blank" rel="noopener">sciencedirect.com</a> <a href="#fnref-1" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-2" class="footnote"><span class="footnote__num">2.</span><span class="footnote__text">On notera que s’il y fait souvent référence, Solow ne croit pas à une relation simple (la fameuse règle d’Hotelling) entre la rareté des ressources productives et leur prix. C’est finement observé. Ainsi, il dit dans cette même intervention que « les grandes fluctuations observées du prix du pétrole ne peuvent pas être considérées comme une indication de sa “vraie” valeur ». Jean-Marc Jancovici n’aurait pas mieux dit. <a href="#fnref-2" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-3" class="footnote"><span class="footnote__num">3.</span><span class="footnote__text">Dans son <em>Dictionnaire d’analyse économique</em> (coll. Grands Repères, La Découverte), Bernard Guerrien rappelle que les économistes du bien-être considèrent que les règles de la concurrence parfaite, guidée par les fluctuations des prix, aboutissent à la meilleure répartition possible des ressources économiques. <a href="#fnref-3" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-4" class="footnote"><span class="footnote__num">4.</span><span class="footnote__text">Question inlassablement posée par Vincent Mignerot aux théoriciens de la transition énergétique, sans qu’aucune démonstration sérieuse ne vienne jamais étayer les professions de foi des spécialistes en la matière. <a href="https://www.defienergie.tech/la-science-de-la-transition-raconte-des-histoires/" target="_blank" rel="noopener">defienergie.tech</a> <a href="#fnref-4" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-5" class="footnote"><span class="footnote__num">5.</span><span class="footnote__text">C’est moi qui souligne. <a href="#fnref-5" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-6" class="footnote"><span class="footnote__num">6.</span><span class="footnote__text">J’ai tenté de montrer dans un essai que l’expression « économiste du bien-être » est une sorte de pléonasme : les économistes ne savent faire que des promesses d’amélioration du bien-être et d’enrichissement. Ils se déjugeraient s’ils devaient annoncer « du sang et des larmes ». Cf. <em>Escronomistes ! Ces théories qui abîment le monde</em>, éd. L’Harmattan, 2023, 110 pages. <a href="#fnref-6" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-7" class="footnote"><span class="footnote__num">7.</span><span class="footnote__text">Et « après tout », comme disait Solow à propos du progrès technique, la lumière et le vent ne manquent pas… <a href="#fnref-7" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-8" class="footnote"><span class="footnote__num">8.</span><span class="footnote__text">Dans un article récent, Antoine Missemer, historien de la pensée économique, réclame une sortie des cadres de pensée traditionnels pour penser la transition. Cependant, le seul fait qu’il pose cette transition comme techniquement possible prouve qu’il n’a pas non plus fait le deuil de l’optimisme substituabiliste dominant en économie. Voir « Un imaginaire fossilisé ? Les représentations économiques de l’énergie au défi de la transition bas-carbone ». <a href="https://journals.openedition.org/cahierscfv/575" target="_blank" rel="noopener">journals.openedition.org</a> <a href="#fnref-8" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+          <li id="fn-9" class="footnote"><span class="footnote__num">9.</span><span class="footnote__text">La nature démocratique ou autoritaire de ce refus salutaire sera très probablement la question politique majeure des décennies à venir. <a href="#fnref-9" class="footnote__back" aria-label="Retour au texte">↩</a></span></li>
+    </ol>
+  </section>
+
+  <footer class="article__foot">
+    <p class="article__signature">— Jean Latreille, auteur invité · Debunk'Onomy —</p>
+  </footer>
+
+</article>
+
+<!-- RETURN -->
+<section class="return">
+  <div class="return__inner">
+    <div class="return__eyebrow">Poursuivre</div>
+    <h2 class="return__title">Continuer <em>la traversée</em></h2>
+    <div class="return__links">
+      <a href="/articles/" class="return__link">Tous les écrits</a>
+      <a href="/" class="return__link return__link--primary">Retour à l'accueil →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span>
+    <span>Think &amp; Move to Degrowth</span>
+  </div>
+</footer>
+
+</body>
+</html>
