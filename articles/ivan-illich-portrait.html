@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivan Illich : Le prophète de la convivialité — Debunk'Onomy</title>
+<meta name="description" content="Portrait d'Ivan Illich, penseur de la contre-productivité et architecte intellectuel de la décroissance. Comment ses concepts éclairent les impasses actuelles.">
+
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+
+<style>
+.article-hero { background: linear-gradient(165deg, #2A6A74 0%, var(--teal) 50%, #3A7A84 100%); color: var(--cream); padding: 120px 40px 80px; position: relative; overflow: hidden; }
+.article-hero::before { content: ""; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.4; mix-blend-mode: overlay; }
+.article-hero__inner { max-width: 880px; margin: 0 auto; position: relative; z-index: 2; }
+.article-hero__meta { display: flex; gap: 20px; align-items: center; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--cream); opacity: 0.8; margin-bottom: 28px; }
+.article-hero__meta-divider { width: 1px; height: 14px; background: var(--cream); opacity: 0.4; }
+.article-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 380; font-size: clamp(38px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.025em; color: var(--cream); margin-bottom: 24px; }
+.article-hero__subtitle { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 60; font-weight: 350; font-size: clamp(20px, 2.2vw, 28px); line-height: 1.35; color: var(--cream); opacity: 0.95; }
+
+.article-content { background: var(--cream); padding: 80px 40px 120px; }
+.article-content__inner { max-width: 780px; margin: 0 auto; }
+.article-content__body { font-size: 18px; line-height: 1.75; color: var(--ink); }
+.article-content__body h2 { font-family: var(--ff-display); font-variation-settings: "opsz" 80, "SOFT" 35; font-weight: 450; font-size: 32px; line-height: 1.2; color: var(--ink-deep); margin: 60px 0 24px; letter-spacing: -0.018em; }
+.article-content__body h3 { font-family: var(--ff-display); font-variation-settings: "opsz" 60, "SOFT" 40; font-weight: 420; font-size: 24px; line-height: 1.3; color: var(--ink-deep); margin: 48px 0 20px; }
+.article-content__body p { margin-bottom: 24px; }
+.article-content__body em { font-style: italic; color: var(--teal); }
+.article-content__body strong { font-weight: 600; color: var(--ink-deep); }
+.article-content__body ul, .article-content__body ol { margin: 28px 0; padding-left: 28px; }
+.article-content__body li { margin-bottom: 12px; line-height: 1.7; }
+.article-content__body blockquote { border-left: 3px solid var(--teal); padding-left: 28px; margin: 40px 0; font-family: var(--ff-serif); font-style: italic; font-size: 20px; line-height: 1.6; color: var(--ink); opacity: 0.9; }
+
+.highlight-box { background: rgba(74, 139, 146, 0.08); border-left: 3px solid var(--teal); padding: 28px 32px; margin: 40px 0; border-radius: 4px; }
+.highlight-box p { margin-bottom: 16px; }
+.highlight-box p:last-child { margin-bottom: 0; }
+
+.article-footer { background: var(--ink-deep); color: var(--mint); padding: 60px 40px; text-align: center; }
+.article-footer__inner { max-width: 680px; margin: 0 auto; }
+.article-footer__divider { width: 60px; height: 1px; background: var(--mint); opacity: 0.3; margin: 0 auto 32px; }
+.article-footer__text { font-family: var(--ff-serif); font-style: italic; font-size: 15px; line-height: 1.65; color: var(--mint-soft); opacity: 0.85; margin-bottom: 32px; }
+.article-footer__cta { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; border: 1px solid rgba(168, 234, 234, 0.3); border-radius: 999px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--mint); transition: all 0.3s; text-decoration: none; }
+.article-footer__cta:hover { background: var(--mint); color: var(--ink-deep); border-color: var(--mint); }
+
+@media (max-width: 768px) {
+  .article-hero { padding: 100px 24px 60px; }
+  .article-content { padding: 60px 24px 80px; }
+  .article-content__body h2 { font-size: 28px; margin: 48px 0 20px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="/" class="nav__brand" aria-label="Debunk'Onomy — Accueil">
+    <img src="../assets/logo-tree.png" alt="">
+  </a>
+  <div class="nav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Le Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+  <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="nav__cta">S'abonner</a>
+</nav>
+
+<article class="article-hero">
+  <div class="article-hero__inner">
+    <div class="article-hero__meta">
+      <span>Avril 2026</span>
+      <div class="article-hero__meta-divider"></div>
+      <span>Portrait</span>
+    </div>
+    <h1 class="article-hero__title">Ivan Illich : Le prophète de la convivialité</h1>
+    <p class="article-hero__subtitle">Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent en prétendant nous libérer</p>
+  </div>
+</article>
+
+<section class="article-content">
+  <div class="article-content__inner">
+    <div class="article-content__body">
+      
+      <p>Il existe des penseurs dont l'œuvre prend tout son sens plusieurs décennies après leur mort. Ivan Illich, né en 1926 à Vienne et mort en 2002 à Brême, est de ceux-là.</p>
+
+      <p>Prêtre devenu philosophe, polyglotte cosmopolite, critique radical de la modernité industrielle, Illich a passé sa vie à traquer ce qu'il appelait la "corruption du meilleur" — ce processus par lequel des institutions conçues pour servir l'humanité finissent par l'asservir et produire l'inverse de leurs objectifs initiaux.</p>
+
+      <p>L'école n'enseigne plus, elle scolarise. La médecine ne soigne plus, elle médicalise. Les transports ne permettent plus de bouger, ils créent de la distance obligatoire. L'énergie abondante ne libère pas, elle asservit.</p>
+
+      <p>Cette intuition, qu'Illich a formalisée sous le nom de <em>contre-productivité</em>, est aujourd'hui la clé de voûte intellectuelle du mouvement de la décroissance. Et elle éclaire d'une lumière crue les impasses de notre système monétaire et financier.</p>
+
+      <h2>L'homme-frontière : Une vie d'exil et de résistance</h2>
+
+      <p>La biographie d'Ivan Illich est celle d'un homme sans patrie fixe, dont l'identité multiple a forgé une méfiance instinctive envers les systèmes uniformisateurs.</p>
+
+      <p>Fils d'un ingénieur dalmate catholique et d'une mère issue d'une famille juive séfarade convertie au christianisme, il grandit entre Vienne, Split et l'île de Brač. Polyglotte dès l'enfance — il parle couramment italien, espagnol, français, allemand, croate — il découvre très jeune la richesse de la diversité culturelle.</p>
+
+      <p>Mais l'histoire européenne rattrape cruellement cette famille cosmopolite. En 1942, face aux persécutions nazies, Ivan, ses frères et sa mère doivent fuir l'Autriche pour Florence. Il a seize ans. Ce déracinement forcé marque le début d'une vie d'itinérance intellectuelle.</p>
+
+      <p>À Florence, il participe à la résistance italienne tout en étudiant la cristallographie et l'histologie. Ces disciplines scientifiques, souvent négligées dans les portraits rapides d'Illich, ont exercé une influence profonde sur sa méthode : il conservera toute sa vie une rigueur d'observation quasi microscopique pour analyser les structures sociales.</p>
+
+      <p>Après la guerre, il poursuit des études de théologie et de philosophie à Rome. Destiné à une brillante carrière diplomatique au Vatican — certains le voyaient déjà comme un futur "prince de l'Église" — Illich choisit une voie plus radicale. En 1951, il est ordonné prêtre et dit sa première messe dans les catacombes de Rome, un geste symbolique soulignant son attachement à une Église humble et souterraine.</p>
+
+      <h2>De Manhattan à Cuernavaca : La découverte du choc institutionnel</h2>
+
+      <p>En 1951, Illich part pour les États-Unis. Officiellement pour étudier l'alchimie médiévale à Princeton. Mais la réalité sociale de New York l'interpelle plus que les manuscrits anciens.</p>
+
+      <p>Frappé par la foi profonde des immigrés portoricains, il demande à être affecté dans une paroisse du quartier de Washington Heights. Sous le nom de "John Illich" (Ivan sonnant trop "communiste"), il s'immerge dans le barrio, organise des fêtes populaires, défend la culture portoricaine.</p>
+
+      <p>C'est là qu'il découvre une première forme de violence institutionnelle : la manière dont les services sociaux et les institutions religieuses américaines tentent de "normaliser" et de "professionnaliser" la vie de ces immigrés, détruisant ainsi leurs liens communautaires organiques au profit d'une dépendance aux experts.</p>
+
+      <p>En 1956, nommé vice-recteur de l'université catholique de Porto Rico, il observe une similitude frappante entre l'Église et l'école : deux institutions qui prétendent libérer l'individu mais qui, dans les faits, servent à hiérarchiser la société et à légitimer l'exclusion des plus pauvres.</p>
+
+      <p>En 1960, son refus de cautionner l'ingérence des évêques locaux dans la vie politique conduit à la rupture. Pour Illich, l'Église se trompe de combat : la véritable menace n'est pas le préservatif, mais l'atome et la déshumanisation industrielle.</p>
+
+      <p>Après avoir parcouru l'Amérique du Sud à pied et en bus, Illich fonde en 1961 à Cuernavaca, au Mexique, le Centre Interculturel de Documentation (CIDOC). Ce centre, qui fonctionnera jusqu'en 1976, devient un pôle d'attraction mondial pour la pensée radicale. Hannah Arendt, Paul Goodman, Paulo Freire y séjournent.</p>
+
+      <p>Le CIDOC n'est pas une université classique, mais un lieu de "convivialité" intellectuelle. On y pratique une méthode critique consistant à attaquer les certitudes de la société industrielle en partant de ses propres prémisses pour en démontrer l'absurdité.</p>
+
+      <p>C'est dans ce cadre que sont élaborés ses ouvrages majeurs : <em>Une société sans école</em> (1971), <em>La Convivialité</em> (1973) et <em>Némésis médicale</em> (1975).</p>
+
+      <h2>La contre-productivité : Quand les outils se retournent contre nous</h2>
+
+      <p>Le concept central d'Illich, celui qui innerve toute la réflexion actuelle sur la décroissance, est la <strong>contre-productivité</strong>.</p>
+
+      <p>Illich postule qu'au-delà d'un certain seuil critique, les outils et les institutions industriels produisent l'exact inverse de leur but affiché.</p>
+
+      <p>Ce processus se décompose en deux temps. D'abord, le premier seuil de l'efficacité technique réelle : la médecine réduit la mortalité, l'école alphabétise, la voiture permet de se déplacer plus vite.</p>
+
+      <p>Puis vient le second seuil, celui de la mutation pathologique : l'outil devient un "monopole radical" qui exclut toute alternative non-industrielle et finit par générer plus de nuisances que de bénéfices.</p>
+
+      <p>Ce mécanisme n'est pas un accident de parcours. Il est inscrit dans la logique même de la croissance infinie et de la professionnalisation à outrance. L'institution finit par se prendre pour sa propre fin.</p>
+
+      <h3>L'automobile : L'illusion de la vitesse</h3>
+
+      <p>L'analyse d'Illich sur l'automobile est sans doute son illustration la plus célèbre de la contre-productivité.</p>
+
+      <p>Il démontre que la vitesse apparente des véhicules motorisés est une illusion statistique. Pour calculer la "vitesse réelle" d'une société, il faut prendre en compte non seulement le temps passé sur la route, mais aussi le temps de travail nécessaire pour payer le véhicule, l'essence, l'assurance, l'entretien, les impôts pour les routes et les soins liés aux accidents.</p>
+
+      <p>En appliquant cette méthode à l'Américain moyen des années 1970, Illich parvient à un constat stupéfiant : pour parcourir 10 000 kilomètres par an, l'Américain consacre environ 1 500 heures à sa voiture. Sa vitesse réelle est donc de 6 kilomètres par heure — celle d'un marcheur rapide.</p>
+
+      <p>Mais contrairement au marcheur, l'automobiliste a perdu son autonomie spatiale. Il ne peut plus vivre sans cette machine qui dévore son temps sous prétexte de lui en faire gagner. <strong>La voiture a créé la distance qu'elle seule permet ensuite de franchir</strong>, verrouillant la société dans un monopole radical.</p>
+
+      <h3>L'école : L'usine à conformisme</h3>
+
+      <p>Dans <em>Une société sans école</em> (1971), Illich s'attaque à ce qu'il considère comme la racine de l'aliénation moderne : l'institution scolaire obligatoire.</p>
+
+      <p>Sa critique ne porte pas sur les enseignants, mais sur la structure même de l'école qui confond l'enseignement avec l'apprentissage.</p>
+
+      <p>Selon Illich, l'école remplit trois fonctions occultes et néfastes :</p>
+
+      <p><strong>Le curriculum caché</strong> : L'école apprend d'abord aux enfants qu'ils ont besoin d'être enseignés pour savoir, dévalorisant ainsi l'apprentissage autonome et spontané.</p>
+
+      <p><strong>La légitimation de l'inégalité</strong> : Sous couvert de méritocratie, l'école transforme les privilèges sociaux en "dons" ou en résultats scolaires, faisant porter aux "cancres" la responsabilité de leur propre exclusion.</p>
+
+      <p><strong>Le monopole de l'accès</strong> : L'école s'approprie le droit de distribuer les rôles sociaux par le biais des diplômes, créant une société de castes basée sur la durée de la scolarisation.</p>
+
+      <p>Illich préconise de séparer l'école de l'État, comme on a séparé l'Église de l'État. Il propose de remplacer les écoles par des "réseaux d'apprentissage" : des centres de ressources partagées, des services d'échange de compétences permettant aux personnes souhaitant apprendre quelque chose de rencontrer ceux qui savent le faire.</p>
+
+      <h3>La médecine : L'expropriation de la santé</h3>
+
+      <p>En 1975, avec <em>Némésis médicale</em>, Illich applique sa grille d'analyse au système de santé. Son constat est radical : la médecine industrielle est devenue une menace pour la santé publique.</p>
+
+      <p>Il forge le concept d'<em>iatrogenèse</em> (du grec iatros, médecin, et genesis, origine) pour désigner la production de maladies par le système médical lui-même.</p>
+
+      <p><strong>L'iatrogenèse clinique</strong> : Ce sont les dommages physiques directs (effets secondaires des médicaments, erreurs chirurgicales, infections nosocomiales). Illich souligne que les gains majeurs de santé publique sont dus à l'hygiène et à la nutrition, non aux interventions médicales.</p>
+
+      <p><strong>L'iatrogenèse sociale</strong> : C'est la médicalisation croissante de la vie. Des étapes naturelles de l'existence (grossesse, enfance, vieillesse, ménopause, deuil) sont transformées en pathologies nécessitant une prise en charge professionnelle.</p>
+
+      <p><strong>L'iatrogenèse culturelle</strong> : C'est le stade ultime, où le système médical détruit la capacité de l'individu à faire face à la souffrance, à l'infirmité et à la mort. En promettant d'abolir la douleur et d'étendre la vie indéfiniment, la médecine prive l'homme de son "art de souffrir" et de son "art de mourir".</p>
+
+      <p>Pour Illich, la santé n'est pas un bien que l'on consomme, mais une "autonomie dans l'action", la capacité de s'adapter à son environnement et d'assumer sa propre finitude.</p>
+
+      <div class="highlight-box">
+        <p><strong>La décision d'Illich</strong></p>
+        <p>En 1985, une tumeur apparaît sur sa joue. Illich refuse de la faire opérer. Il choisit de vivre avec elle jusqu'à sa mort en 2002. Cette décision fut l'application concrète de sa philosophie : il refusait que sa mort soit un "accident technique" caché derrière les murs d'un hôpital.</p>
+      </div>
+
+      <h2>La convivialité : L'outil au service de l'homme</h2>
+
+      <p>L'alternative qu'Illich propose à la méga-machine industrielle est la <em>convivialité</em>.</p>
+
+      <p>Il définit une société conviviale comme une société où "l'outil moderne est au service de la personne intégrée à la collectivité, et non au service d'un corps de spécialistes". La convivialité est l'inverse de la productivité industrielle : elle privilégie les valeurs d'usage sur les valeurs d'échange, et l'être sur l'avoir.</p>
+
+      <p>Un outil convivial doit répondre à trois exigences :</p>
+
+      <p><strong>1. Il doit être générateur d'efficience sans dégrader l'autonomie personnelle.</strong> On peut l'utiliser sans être un expert. Le vélo est convivial. L'avion ne l'est pas.</p>
+
+      <p><strong>2. Il ne doit susciter ni esclave ni maître.</strong> Son usage ne dépend pas de l'exploitation d'autrui. Le four à pain artisanal est convivial. La chaîne de production automatisée ne l'est pas.</p>
+
+      <p><strong>3. Il doit élargir le rayon d'action personnelle.</strong> Il donne du pouvoir d'agir au lieu de le confisquer. Le livre est convivial. La plateforme Netflix qui décide pour vous ce que vous allez regarder ne l'est pas.</p>
+
+      <p>Illich n'est pas un luddiste souhaitant revenir à l'âge de pierre. Il accepte la technologie, à condition qu'elle soit soumise à des limites politiques strictes et qu'elle reste à l'échelle humaine.</p>
+
+      <h2>Énergie et équité : La critique de la puissance</h2>
+
+      <p>Dans <em>Énergie et Équité</em> (1973), Illich soutient que le facteur déterminant de la liberté politique n'est pas la source de l'énergie (fossile ou renouvelable), mais sa quantité totale mobilisée par chaque citoyen.</p>
+
+      <p>Il postule qu'au-delà d'un certain seuil de consommation énergétique, une société bascule inévitablement vers la technocratie. Une forte consommation d'énergie exige des infrastructures centralisées, des armées d'experts pour les gérer et une organisation sociale rigide qui détruit la diversité des modes de vie.</p>
+
+      <p>À l'inverse, une politique de basse consommation d'énergie est la condition sine qua non de la démocratie et de l'équité. Elle permet aux individus d'utiliser des outils à leur échelle et de préserver des rapports sociaux basés sur l'autonomie.</p>
+
+      <blockquote>
+        "Au-delà d'un certain seuil de consommation d'énergie, la démocratie devient impossible."
+      </blockquote>
+
+      <h2>Actualité d'Ivan Illich : Des GAFAM à NEMO IMS</h2>
+
+      <p>Au XXIe siècle, la pensée d'Illich connaît un regain de vigueur surprenant.</p>
+
+      <h3>Les monopoles radicaux numériques</h3>
+
+      <p>Ses analyses sur le monopole radical s'appliquent avec une pertinence terrifiante à l'ère numérique. Les plateformes comme Google, Amazon ou Facebook constituent des monopoles radicaux d'un genre nouveau : elles ne se contentent pas de dominer un marché, elles redéfinissent la manière dont nous communiquons, apprenons et percevons la réalité, rendant toute alternative quasiment impossible.</p>
+
+      <h3>L'iatrogenèse cognitive de l'IA</h3>
+
+      <p>L'émergence de l'Intelligence Artificielle générative pose la question de l'iatrogenèse cognitive. Comme l'école qui apprenait à ne plus apprendre par soi-même, ces outils risquent de déposséder l'humain de sa capacité de jugement et de création, le transformant en simple superviseur d'algorithmes opaques.</p>
+
+      <h3>Le mouvement Low-tech</h3>
+
+      <p>Le mouvement des "Low-tech" et de l'auto-construction s'inscrit directement dans la lignée de l'outil convivial. En cherchant à concevoir des objets simples, durables et réparables, ces militants mettent en pratique l'idée d'Illich selon laquelle l'homme doit "avoir besoin d'un outil avec lequel travailler, non d'un outillage qui travaille à sa place".</p>
+
+      <h3>NEMO IMS : Une monnaie conviviale ?</h3>
+
+      <p>La critique d'Illich éclaire également les impasses du système monétaire actuel. L'argent-dette, tel qu'il fonctionne aujourd'hui, est un outil contre-productif par excellence : créé pour faciliter les échanges, il finit par asservir les sociétés à une croissance perpétuelle, détruisant les écosystèmes et l'autonomie des communautés.</p>
+
+      <p>Un système monétaire comme NEMO IMS, qui désencastre la création monétaire de la dette et lie la monnaie à la régénération du vivant, s'inscrit dans la logique de la convivialité : remettre l'outil au service de l'homme et de la communauté du vivant, plutôt qu'au service de l'accumulation infinie du capital.</p>
+
+      <p>La "fonte monétaire" proposée par NEMO IMS peut être vue comme une limite politique imposée à l'outil monétaire pour empêcher qu'il ne franchisse le seuil de contre-productivité — exactement comme Illich recommandait d'imposer des limites à la vitesse, à la consommation d'énergie, ou à la taille des institutions.</p>
+
+      <h2>Conclusion : L'héritage d'un veilleur</h2>
+
+      <p>Ivan Illich n'était ni un prophète de malheur, ni un utopiste déconnecté des réalités. Son œuvre est un cri de ralliement pour tous ceux qui refusent que leur vie soit gérée par des systèmes experts et des machines dévorantes.</p>
+
+      <p>Sa vie, marquée par l'amitié, le dialogue et le refus des honneurs institutionnels, fut le témoignage vivant de sa philosophie.</p>
+
+      <p>Pour le lecteur de la décroissance, Illich laisse une leçon fondamentale : <strong>la véritable révolution ne consiste pas à changer les propriétaires des outils de production, mais à changer la structure même de ces outils pour les rendre conviviaux.</strong></p>
+
+      <p>Il nous invite à redécouvrir la richesse de la pauvreté volontaire et la liberté que procure l'autolimitation.</p>
+
+      <p>Dans un monde qui s'enfonce dans l'impasse de la démesure technologique et financière, le visage d'Ivan Illich — avec sa cicatrice de tumeur assumée comme une marque d'humanité — reste celui d'un veilleur qui nous rappelle que nous sommes encore capables de "modeler nos propres besoins" et de "donner sens au monde" par nos propres moyens.</p>
+
+      <p>La convivialité n'est pas un rêve lointain. C'est une pratique quotidienne de résistance à la contre-productivité. C'est le choix, à chaque instant, de privilégier l'outil qui libère sur celui qui asservit.</p>
+
+      <p>C'est, peut-être, la condition de notre survie collective.</p>
+
+    </div>
+  </div>
+</section>
+
+<section class="article-footer">
+  <div class="article-footer__inner">
+    <div class="article-footer__divider"></div>
+    <p class="article-footer__text">Article publié sur Debunk'Onomy — Déconstruire pour reconstruire l'économie<br>Avril 2026</p>
+    <a href="/" class="article-footer__cta">Retour à l'accueil →</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="../assets/logo-tree.png" alt="Debunk'Onomy">
+      <p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Le Projet</h4>
+      <ul>
+        <li><a href="/manifeste/">Manifeste</a></li>
+        <li><a href="/livre/">Le Livre</a></li>
+        <li><a href="/nemo-ims/">NEMO IMS</a></li>
+        <li><a href="/articles/">Écrits</a></li>
+        <li><a href="/medias/">Médias</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
+        <li><a href="/a-propos/">À propos</a></li>
+        <li><a href="/contact/">Presse &amp; contact</a></li>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span>
+    <span>Think &amp; Move to Degrowth</span>
+  </div>
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+const onScroll = () => {
+  if (window.scrollY > 40) nav.classList.add('scrolled');
+  else nav.classList.remove('scrolled');
+};
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+</script>
+
+</body>
+</html>
