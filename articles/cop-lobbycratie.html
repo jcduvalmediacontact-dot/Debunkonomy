@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pourquoi les COP ne servent à rien — Debunk'Onomy</title>
+<meta name="description" content="Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Analyse de la lobbycratie qui paralyse l'action climatique mondiale.">
+
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon-180.png">
+<meta name="theme-color" content="#1C5A60">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+
+<style>
+.article-hero { background: linear-gradient(165deg, #8B0000 0%, #B22222 50%, #CD5C5C 100%); color: var(--cream); padding: 120px 40px 80px; position: relative; overflow: hidden; }
+.article-hero::before { content: ""; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.4; mix-blend-mode: overlay; }
+.article-hero__inner { max-width: 880px; margin: 0 auto; position: relative; z-index: 2; }
+.article-hero__meta { display: flex; gap: 20px; align-items: center; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--cream); opacity: 0.8; margin-bottom: 28px; }
+.article-hero__meta-divider { width: 1px; height: 14px; background: var(--cream); opacity: 0.4; }
+.article-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 380; font-size: clamp(38px, 5vw, 68px); line-height: 1.05; letter-spacing: -0.025em; color: var(--cream); margin-bottom: 24px; }
+.article-hero__subtitle { font-family: var(--ff-display); font-variation-settings: "opsz" 48, "SOFT" 60; font-weight: 350; font-size: clamp(20px, 2.2vw, 28px); line-height: 1.35; color: var(--cream); opacity: 0.95; }
+
+.article-content { background: var(--cream); padding: 80px 40px 120px; }
+.article-content__inner { max-width: 780px; margin: 0 auto; }
+.article-content__body { font-size: 18px; line-height: 1.75; color: var(--ink); }
+.article-content__body h2 { font-family: var(--ff-display); font-variation-settings: "opsz" 80, "SOFT" 35; font-weight: 450; font-size: 32px; line-height: 1.2; color: var(--ink-deep); margin: 60px 0 24px; letter-spacing: -0.018em; }
+.article-content__body h3 { font-family: var(--ff-display); font-variation-settings: "opsz" 60, "SOFT" 40; font-weight: 420; font-size: 24px; line-height: 1.3; color: var(--ink-deep); margin: 48px 0 20px; }
+.article-content__body p { margin-bottom: 24px; }
+.article-content__body em { font-style: italic; color: var(--teal); }
+.article-content__body strong { font-weight: 600; color: var(--ink-deep); }
+.article-content__body ul, .article-content__body ol { margin: 28px 0; padding-left: 28px; }
+.article-content__body li { margin-bottom: 12px; line-height: 1.7; }
+.article-content__body blockquote { border-left: 3px solid var(--teal); padding-left: 28px; margin: 40px 0; font-family: var(--ff-serif); font-style: italic; font-size: 20px; line-height: 1.6; color: var(--ink); opacity: 0.9; }
+
+.highlight-box { background: rgba(139, 0, 0, 0.08); border-left: 3px solid #B22222; padding: 28px 32px; margin: 40px 0; border-radius: 4px; }
+.highlight-box p { margin-bottom: 16px; }
+.highlight-box p:last-child { margin-bottom: 0; }
+
+.stat-box { background: white; border: 2px solid rgba(139, 0, 0, 0.15); padding: 24px; margin: 32px 0; border-radius: 8px; }
+.stat-box__number { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 30; font-weight: 500; font-size: 56px; color: #B22222; line-height: 1; margin-bottom: 12px; }
+.stat-box__label { font-family: var(--ff-sans); font-size: 14px; letter-spacing: 0.05em; color: var(--ink); opacity: 0.8; }
+
+.article-footer { background: var(--ink-deep); color: var(--mint); padding: 60px 40px; text-align: center; }
+.article-footer__inner { max-width: 680px; margin: 0 auto; }
+.article-footer__divider { width: 60px; height: 1px; background: var(--mint); opacity: 0.3; margin: 0 auto 32px; }
+.article-footer__text { font-family: var(--ff-serif); font-style: italic; font-size: 15px; line-height: 1.65; color: var(--mint-soft); opacity: 0.85; margin-bottom: 32px; }
+.article-footer__cta { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; border: 1px solid rgba(168, 234, 234, 0.3); border-radius: 999px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--mint); transition: all 0.3s; text-decoration: none; }
+.article-footer__cta:hover { background: var(--mint); color: var(--ink-deep); border-color: var(--mint); }
+
+@media (max-width: 768px) {
+  .article-hero { padding: 100px 24px 60px; }
+  .article-content { padding: 60px 24px 80px; }
+  .article-content__body h2 { font-size: 28px; margin: 48px 0 20px; }
+  .stat-box__number { font-size: 42px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a href="/" class="nav__brand" aria-label="Debunk'Onomy — Accueil">
+    <img src="../assets/logo-tree.png" alt="">
+  </a>
+  <div class="nav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Le Livre</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+  <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="nav__cta">S'abonner</a>
+</nav>
+
+<article class="article-hero">
+  <div class="article-hero__inner">
+    <div class="article-hero__meta">
+      <span>Avril 2026</span>
+      <div class="article-hero__meta-divider"></div>
+      <span>Climat & Lobbying</span>
+    </div>
+    <h1 class="article-hero__title">Pourquoi les COP ne servent à rien</h1>
+    <p class="article-hero__subtitle">Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.</p>
+  </div>
+</article>
+
+<section class="article-content">
+  <div class="article-content__inner">
+    <div class="article-content__body">
+      
+      <p>Le paradoxe est sidérant. Plus le consensus scientifique sur l'urgence climatique se durcit, plus l'action politique se dilue. Plus les catastrophes s'accumulent, plus les promesses se vident de leur substance.</p>
+
+      <p>Depuis la première Conférence des Parties (COP) en 1995 à Berlin, nous avons organisé trente sommets mondiaux pour le climat. Trente rendez-vous diplomatiques mobilisant des milliers de délégués, des centaines de millions de dollars, des dizaines de milliers de pages de rapports.</p>
+
+      <p>Résultat : les émissions mondiales de CO₂ ont augmenté de 60 %. Les objectifs de l'Accord de Paris sont devenus inatteignables. Le seuil de +1,5°C sera franchi de manière pérenne d'ici 2029-2030.</p>
+
+      <p>Ce n'est pas un échec. C'est une réussite — pour ceux qui ont tout intérêt à ce que rien ne change.</p>
+
+      <h2>Le consensus empoisonné : Une architecture conçue pour le blocage</h2>
+
+      <p>L'un des secrets les mieux gardés des COP, c'est qu'elles fonctionnent sans règles de procédure formellement adoptées depuis 1995.</p>
+
+      <p>La Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC) fonctionne dans un vide juridique concernant ses mécanismes de vote. Résultat : toutes les décisions de fond doivent être prises par consensus.</p>
+
+      <p>Ce consensus ne signifie pas "accord unanime". Il signifie "absence d'objection déclarée".</p>
+
+      <p>Concrètement, <strong>un seul pays peut paralyser l'ensemble du processus</strong> ou exiger une dilution sémantique telle que le texte final perd tout caractère contraignant.</p>
+
+      <h3>La règle 42 : L'arme de veto invisible</h3>
+
+      <p>Il existe un projet de "règle 42" qui devait définir les modalités de vote à la majorité en dernier recours. Ce projet est resté entre parenthèses depuis trois décennies.</p>
+
+      <p>Lors de la COP1 à Berlin, des pays exportateurs de pétrole comme l'Arabie saoudite et le Koweït, activement conseillés par des lobbies pétroliers américains, ont systématiquement bloqué l'adoption de cette règle.</p>
+
+      <p>Leur objectif était simple : s'assurer qu'aucun pays ne puisse jamais être mis en minorité lors d'un vote sur la réduction des hydrocarbures.</p>
+
+      <p>Résultat : les textes des COP passent systématiquement de "l'obligation" à "l'encouragement", de "l'élimination" (phase-out) à "la réduction" (phase-down), de "les énergies fossiles" à "certaines énergies fossiles non atténuées".</p>
+
+      <div class="stat-box">
+        <div class="stat-box__number">1</div>
+        <div class="stat-box__label">Un seul pays suffit pour paralyser les négociations mondiales sur le climat</div>
+      </div>
+
+      <h2>La lobbycratie : Quand les pollueurs écrivent les règles</h2>
+
+      <p>Le terme "lobbycratie" désigne une dérive de la démocratie où l'influence des groupes de pression privés l'emporte sur le mandat des représentants élus et l'intérêt des citoyens.</p>
+
+      <p>Dans le microcosme des COP, cette lobbycratie s'est professionnalisée à un point tel qu'elle constitue désormais la plus importante délégation présente sur les lieux de négociation.</p>
+
+      <div class="stat-box">
+        <div class="stat-box__number">2 456</div>
+        <div class="stat-box__label">Lobbyistes de l'industrie fossile accrédités à la COP28 de Dubaï (2023) — plus que les 10 pays les plus vulnérables au climat réunis</div>
+      </div>
+
+      <p>À la COP29 de Bakou, environ 1 700 lobbyistes fossiles étaient présents — soit 1 participant sur 6.</p>
+
+      <p>À la COP30 de Belém, plus de 1 600 lobbyistes directement liés aux énergies fossiles ont été identifiés — soit 1 participant sur 25.</p>
+
+      <p>Ces chiffres ne sont pas le fruit du hasard. Ils résultent d'une stratégie délibérée : placer des représentants de l'industrie pétrolière directement au sein des délégations officielles des États.</p>
+
+      <h3>L'exemple français : TotalEnergies dans la délégation</h3>
+
+      <p>Le PDG de TotalEnergies, Patrick Pouyanné, a été accrédité au sein de la délégation française à plusieurs COP.</p>
+
+      <p>Justification du gouvernement : un "dialogue nécessaire" avec les acteurs économiques.</p>
+
+      <p>Réalité : cette proximité permet à l'industrie de s'assurer que les positions nationales sur la sortie des fossiles restent compatibles avec leurs plans d'expansion. TotalEnergies prévoit d'augmenter sa production de 3 % par an jusqu'en 2030.</p>
+
+      <p>Cette infiltration confère aux lobbyistes un accès privilégié aux "zones bleues" (espaces de négociation sécurisés) et aux documents de travail confidentiels auxquels la société civile et les délégués des pays vulnérables n'ont pas accès.</p>
+
+      <h2>Le sabotage sémantique : L'art de vider les mots de leur sens</h2>
+
+      <p>Pour contrer la science sans la nier, la lobbycratie a développé une technique redoutable : le sabotage sémantique.</p>
+
+      <p>L'idée est simple : introduire des termes techniques complexes pour justifier la poursuite de l'extraction pétrolière sous couvert de pragmatisme.</p>
+
+      <h3>Le mythe du "Unabated"</h3>
+
+      <p>Le terme "unabated" (non atténué) est devenu le pivot des blocages récents.</p>
+
+      <p>En insistant pour que seule l'énergie fossile "unabated" soit progressivement éliminée, les lobbies ouvrent la porte au maintien massif du charbon, du pétrole et du gaz, sous réserve d'un hypothétique captage et stockage du carbone (CSC).</p>
+
+      <p>Problème : le CSC est une technologie coûteuse, peu efficace et déployée à une échelle dérisoire. Mais elle permet de construire de nouvelles centrales fossiles "prêtes pour le captage" — qui ne captent rien en pratique.</p>
+
+      <p>Depuis la COP29, l'industrie pétrolière a approuvé près de 250 milliards de dollars pour de nouveaux projets d'exploration, en s'appuyant sur ces flous terminologiques pour justifier leur alignement avec les accords internationaux.</p>
+
+      <h3>De "Phase-out" à "Transitioning away"</h3>
+
+      <p>Autre exemple : le passage de "phase-out" (élimination) à "transitioning away" (s'éloigner progressivement).</p>
+
+      <p>Cette formule plus floue permet d'éviter tout calendrier fixe. On ne s'engage plus à éliminer les fossiles, on s'éloigne "progressivement" — sans jamais préciser de quand ni de combien.</p>
+
+      <p>À Belém (COP30), la mention même des "énergies fossiles" a disparu de plusieurs versions du texte final, illustrant la capacité des lobbyistes à effacer les causes premières du problème des documents de solution.</p>
+
+      <h2>La capture présidentielle : Quand le renard garde le poulailler</h2>
+
+      <p>La légitimité des COP est également entachée par le profil des pays hôtes.</p>
+
+      <p>La désignation successive des Émirats Arabes Unis (COP28), de l'Azerbaïdjan (COP29) et du Brésil (COP30) comme présidents de la conférence climatique a été qualifiée par Transparency International de "capture par les États pétroliers".</p>
+
+      <h3>COP28 : Le PDG d'une compagnie pétrolière préside le sommet climat</h3>
+
+      <p>La COP28 à Dubaï a marqué un tournant inquiétant : le président de la conférence était également le PDG de la compagnie pétrolière nationale ADNOC.</p>
+
+      <p>Des fuites de documents ont révélé que la présidence utilisait les rencontres bilatérales climatiques pour négocier des contrats commerciaux pour le compte de son entreprise pétrolière.</p>
+
+      <p>Cette confusion des genres mine la confiance entre les parties et transforme un sommet mondial pour le bien commun en une plateforme de diplomatie commerciale pour les hydrocarbures.</p>
+
+      <div class="highlight-box">
+        <p><strong>Conflit d'intérêts au sommet de l'État</strong></p>
+        <p>Le président de la COP28 était simultanément PDG d'ADNOC (Abu Dhabi National Oil Company) et utilisait sa position pour négocier des contrats pétroliers lors de réunions climatiques officielles.</p>
+      </div>
+
+      <h3>COP29 : Corruption et répression à Bakou</h3>
+
+      <p>En Azerbaïdjan, les rapports ont souligné les risques de corruption liés à une économie de rente gazière contrôlée par une structure étatique autoritaire.</p>
+
+      <p>L'interdiction des marches pour le climat à Bakou a illustré comment l'influence indue peut s'accompagner d'une répression de la société civile — seule capable de demander des comptes.</p>
+
+      <h2>La guerre de l'information : Greenwashing à échelle industrielle</h2>
+
+      <p>Pour maintenir son emprise, la lobbycratie investit des sommes colossales dans la manipulation de l'opinion publique.</p>
+
+      <div class="stat-box">
+        <div class="stat-box__number">+2 900%</div>
+        <div class="stat-box__label">Augmentation des dépenses publicitaires de Petrobras sur Google Ads au Brésil entre janvier et octobre 2025 (avant la COP30)</div>
+      </div>
+
+      <p>Entre janvier et octobre 2025, les dépenses publicitaires des compagnies pétrolières sur Google Ads ont explosé au Brésil. Saudi Aramco, TotalEnergies et ExxonMobil figurent parmi les plus gros investisseurs mondiaux.</p>
+
+      <p>Ces publicités visent non seulement à améliorer l'image des entreprises, mais aussi à influencer les débats politiques locaux en présentant les hydrocarbures comme indispensables au développement social.</p>
+
+      <p>Google, malgré ses promesses d'interdire les publicités niant le changement climatique, a perçu plus de 23,7 millions de dollars de la part des majors pétrolières pour diffuser ces contenus trompeurs.</p>
+
+      <p>Cette désinformation est particulièrement pernicieuse car elle utilise des algorithmes de ciblage pour atteindre les décideurs et les journalistes durant les périodes clés de négociation.</p>
+
+      <h2>Le blocage financier : L'argent qui n'arrive jamais</h2>
+
+      <p>L'argent est au cœur de la paralysie des COP.</p>
+
+      <p>Les pays du Sud réclament des réparations pour les pertes et dommages subis. Les pays du Nord, sous l'influence de leurs secteurs bancaires et industriels, transforment l'aide climatique en un nouveau mécanisme d'endettement.</p>
+
+      <p>À la COP29 de Bakou, l'adoption d'un nouveau cadre de financement a été jugée décevante par la majorité des pays du Sud. Montant nécessaire estimé : plus de 1 000 milliards de dollars par an. Montant engagé de manière contraignante : proche de zéro.</p>
+
+      <p>De nombreux pays en développement se voient contraints d'exploiter leurs propres ressources fossiles pour rembourser les dettes contractées lors de la transition énergétique.</p>
+
+      <p>Ce système, maintenu par les institutions financières internationales et les lobbies du Nord, empêche toute autonomie énergétique réelle du Sud Global.</p>
+
+      <h2>Le lien avec le système monétaire : La racine du problème</h2>
+
+      <p>Cette paralysie climatique n'est pas déconnectée de la paralysie monétaire et financière que nous avons analysée dans les articles précédents.</p>
+
+      <p>Le système monétaire actuel — où l'argent naît de la dette et où la dette ne peut jamais être remboursée — force une croissance perpétuelle qui rend impossible toute limitation volontaire de l'extraction.</p>
+
+      <p>Les institutions financières qui financent les lobbies fossiles sont les mêmes qui créent la monnaie et exigent un rendement sur le capital. Elles ont un intérêt structurel à ce que rien ne change.</p>
+
+      <p><strong>Tant que la création monétaire restera captive des banques privées et tant que la finance exigera un rendement perpétuel sur le capital, aucune COP ne pourra imposer une limite à l'extraction.</strong></p>
+
+      <p>Un système monétaire comme NEMO IMS, qui désencastre la création monétaire de la dette et lie la monnaie à la régénération du vivant, est une condition nécessaire — bien que non suffisante — pour sortir de cette impasse.</p>
+
+      <p>Car tant que l'argent sera créé pour extraire et que le système financier aura le pouvoir d'écrire les règles, les COP resteront ce qu'elles sont : des théâtres où les pollueurs applaudissent leurs propres promesses vides.</p>
+
+      <h2>Conclusion : Réformer ou abandonner</h2>
+
+      <p>Le constat est brutal : après trente ans de COP, nous sommes sur une trajectoire de +2,6°C à +3°C d'ici la fin du siècle.</p>
+
+      <p>Ce n'est pas un échec par incompétence. C'est une réussite par design.</p>
+
+      <p>La règle du consensus permet aux pétro-États de bloquer toute avancée. La lobbycratie assure que les textes sont rédigés par ceux qui ont intérêt à ce qu'ils ne disent rien. La capture présidentielle garantit que le renard garde le poulailler. Le greenwashing financier maintient l'illusion que quelque chose se passe.</p>
+
+      <p>Pour que les COP servent à quelque chose, il faudrait :</p>
+
+      <p><strong>1. Exclure les lobbies fossiles</strong> — À l'instar de la Convention-cadre de l'OMS pour la lutte antitabac, la CCNUCC doit exclure les acteurs dont les intérêts fondamentaux contredisent l'objectif de +1,5°C.</p>
+
+      <p><strong>2. Abolir la règle du consensus</strong> — Adopter le vote à la majorité qualifiée pour les décisions de mise en œuvre. Le droit de veto individuel doit être supprimé.</p>
+
+      <p><strong>3. Transparence intégrale</strong> — Chaque délégué doit déclarer ses sources de financement et ses liens avec l'industrie extractive.</p>
+
+      <p><strong>4. Réformer le système monétaire</strong> — Tant que l'argent naîtra de la dette et que la finance capturera la décision politique, aucune limite à l'extraction ne sera politiquement possible.</p>
+
+      <p>Si ces réformes ne sont pas mises en œuvre, les COP continueront à servir ce qu'elles servent aujourd'hui : à légitimer l'expansion fossile sous un vernis de diplomatie verte.</p>
+
+      <p>La science exige désormais une diplomatie de la confrontation avec les intérêts privés qui menacent la sécurité humaine globale.</p>
+
+      <p><strong>L'inertie n'est pas une fatalité technique. C'est un choix politique délibéré, financé et orchestré par ceux qui ont tout à gagner à ce que rien ne change.</strong></p>
+
+    </div>
+  </div>
+</section>
+
+<section class="article-footer">
+  <div class="article-footer__inner">
+    <div class="article-footer__divider"></div>
+    <p class="article-footer__text">Article publié sur Debunk'Onomy — Déconstruire pour reconstruire l'économie<br>Avril 2026</p>
+    <a href="/" class="article-footer__cta">Retour à l'accueil →</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <img src="../assets/logo-tree.png" alt="Debunk'Onomy">
+      <p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Le Projet</h4>
+      <ul>
+        <li><a href="/manifeste/">Manifeste</a></li>
+        <li><a href="/livre/">Le Livre</a></li>
+        <li><a href="/nemo-ims/">NEMO IMS</a></li>
+        <li><a href="/articles/">Écrits</a></li>
+        <li><a href="/medias/">Médias</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul>
+    </div>
+    <div class="footer__col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
+        <li><a href="/a-propos/">À propos</a></li>
+        <li><a href="/contact/">Presse &amp; contact</a></li>
+        <li><a href="/mentions-legales/">Mentions légales</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span>
+    <span>Think &amp; Move to Degrowth</span>
+  </div>
+</footer>
+
+<script>
+const nav = document.getElementById('nav');
+const onScroll = () => {
+  if (window.scrollY > 40) nav.classList.add('scrolled');
+  else nav.classList.remove('scrolled');
+};
+window.addEventListener('scroll', onScroll, { passive: true });
+onScroll();
+</script>
+
+</body>
+</html>

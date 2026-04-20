@@ -1,11 +1,19 @@
 {
   "news": [
     {
+      "id": "news-007",
+      "date": "2026-04-24",
+      "type": "texte",
+      "title": "Pourquoi les COP ne servent à rien",
+      "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
+      "link": "/articles/cop-lobbycratie.html"
+    },
+    {
       "id": "news-006",
       "date": "2026-04-23",
       "type": "texte",
       "title": "Ivan Illich : Le prophète de la convivialité",
-      "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent en prétendant nous libérer.",
+      "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
       "link": "/articles/ivan-illich-portrait.html"
     },
     {
