@@ -13,7 +13,6 @@
 <meta property="og:locale" content="fr_FR">
 
 <link rel="stylesheet" href="/assets/news-carousel.css">
-<link rel="stylesheet" href="/assets/video-modal.css">
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
@@ -208,28 +207,17 @@
 </section>
 
 <!-- News Carousel -->
-<!-- News Carousel -->
 <section class="news-carousel">
   <div class="news-carousel__inner">
     <div class="news-carousel__header">
-      <div class="news-carousel__title-group">
-        <div class="news-carousel__eyebrow">Actualités</div>
-        <h2 class="news-carousel__title">Dernières <em>publications</em></h2>
-      </div>
-      <div class="news-carousel__nav">
-        <button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">←</button>
-        <button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">→</button>
-      </div>
+      <h2 class="news-carousel__title">Actualités & Analyses</h2>
+      <p class="news-carousel__subtitle">Dernières publications et réflexions</p>
     </div>
-    <div class="news-carousel__track-wrapper">
-      <div class="news-carousel__track">
-        <!-- Les cartes seront générées par JavaScript -->
-      </div>
+    <div id="news-carousel-grid" class="news-carousel__grid">
+      <!-- Chargé par JavaScript -->
     </div>
-    <div class="news-carousel__dots"></div>
   </div>
 </section>
-
 
 <section class="manifesto">
   <div class="manifesto__inner">
@@ -441,7 +429,6 @@
 </script>
 
 <script src="assets/news-carousel.js"></script>
-<script src="/assets/video-modal.js"></script>
 
 </body>
 </html>
