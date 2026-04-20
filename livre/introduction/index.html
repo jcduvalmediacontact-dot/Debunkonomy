@@ -10,6 +10,9 @@
 <meta property="og:title" content="Introduction — L'Économie de l'Équilibre">
 <meta property="og:description" content="Pourquoi changer la monnaie, c'est changer le monde. L'introduction du livre de Jean-Christophe Duval, en libre accès.">
 
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/livre-intro.css">
+
 <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
@@ -20,50 +23,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 
-<style>
-.intro-hero { background: var(--cream); padding: 80px 28px 50px; border-bottom: 1px solid rgba(13, 46, 49, 0.1); }
-.intro-hero__inner { max-width: var(--readw); margin: 0 auto; }
-.intro-hero__crumbs { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--teal); margin-bottom: 32px; }
-.intro-hero__crumbs a { color: var(--teal); transition: opacity 0.2s; padding-bottom: 2px; border-bottom: 1px solid transparent; }
-.intro-hero__crumbs a:hover { border-bottom-color: var(--teal); }
-.intro-hero__crumbs span { opacity: 0.5; margin: 0 10px; }
-.intro-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); margin-bottom: 30px; }
-.intro-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--teal); opacity: 0.5; }
-.intro-hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 350; font-size: clamp(40px, 6vw, 76px); line-height: 1.0; letter-spacing: -0.025em; color: var(--ink-deep); margin-bottom: 28px; }
-.intro-hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--ink); }
-.intro-hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2.2vw, 26px); line-height: 1.45; color: var(--ink); margin-bottom: 32px; }
-.intro-hero__meta { display: flex; gap: 28px; flex-wrap: wrap; padding-top: 24px; border-top: 1px solid rgba(13, 46, 49, 0.15); font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--teal); }
-.intro-hero__meta strong { color: var(--ink-deep); font-weight: 600; }
 
-.intro-body { background: var(--cream); padding: 60px 28px 100px; }
-.intro-body__inner { max-width: var(--readw); margin: 0 auto; }
-.intro-body p { font-family: var(--ff-display); font-variation-settings: "opsz" 16, "SOFT" 55; font-weight: 400; font-size: 19px; line-height: 1.7; color: var(--ink-deep); margin-bottom: 1.5em; }
-.intro-body p em { font-style: italic; font-variation-settings: "opsz" 16, "SOFT" 80, "WONK" 1; color: var(--ink); }
-.intro-body h2 { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 35; font-weight: 450; font-size: clamp(26px, 2.8vw, 36px); line-height: 1.15; letter-spacing: -0.02em; color: var(--ink-deep); margin-top: 2.4em; margin-bottom: 1em; padding-top: 1em; position: relative; }
-.intro-body h2::before { content: ""; position: absolute; top: 0; left: 0; width: 60px; height: 1px; background: var(--teal); opacity: 0.6; }
-.intro-body h3 { font-family: var(--ff-serif); font-style: italic; font-size: 22px; color: var(--ink); margin-top: 2em; margin-bottom: 0.8em; }
-.intro-body p:first-of-type::first-letter { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 30; font-weight: 350; font-size: 5.4em; line-height: 0.85; float: left; padding: 4px 14px 0 0; color: var(--teal); }
-.pullquote { margin: 2.4em -16px; padding: 32px 40px; background: var(--cream-deep); border-left: 4px solid var(--teal); font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 22px; line-height: 1.45; color: var(--ink); }
-.equation { margin: 2em 0; padding: 28px 32px; background: var(--ink-deep); color: var(--mint); text-align: center; font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 20px; line-height: 1.6; border-radius: 2px; }
-.equation strong { color: var(--mint-soft); font-style: normal; font-weight: 600; padding: 0 12px; font-variation-settings: "opsz" 36, "SOFT" 30; }
-.fnote { font-size: 13px; color: var(--teal); vertical-align: super; line-height: 0; margin-left: 2px; }
-
-.end-card { margin-top: 60px; padding: 40px; background: var(--ink-deep); color: var(--mint); border-radius: 2px; text-align: center; }
-.end-card__title { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 40; font-weight: 400; font-size: 28px; line-height: 1.2; color: var(--mint); margin-bottom: 14px; letter-spacing: -0.02em; }
-.end-card__title em { font-style: italic; font-variation-settings: "opsz" 72, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
-.end-card__text { font-family: var(--ff-serif); font-style: italic; font-size: 17px; color: var(--mint-soft); margin-bottom: 26px; opacity: 0.92; line-height: 1.5; }
-.end-card__cta { display: inline-flex; align-items: center; gap: 10px; padding: 14px 28px; background: var(--mint); color: var(--ink-deep); border-radius: 999px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; transition: all 0.3s; }
-.end-card__cta:hover { background: var(--mint-soft); transform: translateY(-2px); }
-
-@media (max-width: 720px) {
-  .intro-hero { padding: 50px 22px 30px; }
-  .intro-body { padding: 40px 22px 70px; }
-  .intro-body p { font-size: 17.5px; }
-  .pullquote { margin: 2em 0; padding: 24px 28px; font-size: 19px; }
-  .equation { font-size: 17px; padding: 22px 24px; }
-  .end-card { padding: 30px 22px; }
-}
-</style>
 </head>
 <body>
 
