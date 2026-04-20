@@ -1,0 +1,206 @@
+/* Contact / Presse page styles */
+/* S'appuie sur site.css pour le design system */
+
+/* ===== CONTACT HERO ===== */
+.cont-hero {
+  background: var(--cream);
+  padding: 100px 40px 70px;
+  text-align: center;
+  border-bottom: 1px solid rgba(13, 46, 49, 0.1);
+}
+
+.cont-hero__inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cont-hero__eyebrow {
+  font-family: var(--ff-sans);
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--teal);
+  opacity: 0.7;
+  margin-bottom: 28px;
+}
+
+.cont-hero__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 96, "SOFT" 35;
+  font-weight: 450;
+  font-size: clamp(40px, 5vw, 60px);
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  color: var(--ink-deep);
+  margin-bottom: 24px;
+}
+
+.cont-hero__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1;
+  color: var(--teal);
+}
+
+.cont-hero__lede {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 16, "SOFT" 55;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--ink);
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* ===== CONTACT GRID ===== */
+.cont-grid {
+  background: var(--cream-deep);
+  padding: 80px 40px 100px;
+}
+
+.cont-grid__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  gap: 28px;
+}
+
+/* ===== CONTACT CARDS ===== */
+.cont-card {
+  padding: 40px 36px;
+  background: white;
+  border: 1px solid rgba(13, 46, 49, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.cont-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(28, 90, 96, 0.12);
+  border-color: var(--teal);
+}
+
+.cont-card--ink {
+  background: linear-gradient(135deg, var(--ink-deep) 0%, var(--ink) 100%);
+  border-color: transparent;
+  color: var(--mint-soft);
+}
+
+.cont-card--ink:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(13, 46, 49, 0.25);
+}
+
+.cont-card__type {
+  font-family: var(--ff-sans);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--teal);
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.cont-card--ink .cont-card__type {
+  color: var(--mint);
+  opacity: 0.8;
+}
+
+.cont-card__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 60, "SOFT" 35;
+  font-weight: 450;
+  font-size: 28px;
+  line-height: 1.2;
+  color: var(--ink-deep);
+  margin-bottom: 18px;
+  letter-spacing: -0.015em;
+}
+
+.cont-card--ink .cont-card__title {
+  color: var(--mint);
+}
+
+.cont-card__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 60, "SOFT" 90, "WONK" 1;
+  color: var(--teal);
+}
+
+.cont-card--ink .cont-card__title em {
+  color: var(--mint-soft);
+}
+
+.cont-card__desc {
+  font-family: var(--ff-display);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin-bottom: 24px;
+}
+
+.cont-card--ink .cont-card__desc {
+  color: var(--mint-soft);
+  opacity: 0.9;
+}
+
+.cont-card__email {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 36, "SOFT" 40;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--teal);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+  padding-bottom: 2px;
+}
+
+.cont-card__email:hover {
+  border-bottom-color: var(--teal);
+  color: var(--ink-deep);
+}
+
+.cont-card--ink .cont-card__email {
+  color: var(--mint);
+}
+
+.cont-card--ink .cont-card__email:hover {
+  border-bottom-color: var(--mint);
+  color: var(--mint-soft);
+}
+
+.cont-card__email .at {
+  margin: 0 2px;
+  opacity: 0.6;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 980px) {
+  .cont-hero {
+    padding: 70px 28px 50px;
+  }
+
+  .cont-grid {
+    padding: 60px 28px 80px;
+  }
+
+  .cont-grid__inner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .cont-card {
+    padding: 32px 28px;
+  }
+
+  .cont-card__title {
+    font-size: 24px;
+  }
+
+  .cont-card__email {
+    font-size: 18px;
+  }
+}
