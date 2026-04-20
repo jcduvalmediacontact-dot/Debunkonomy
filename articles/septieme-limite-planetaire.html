@@ -17,7 +17,13 @@
 <link rel="stylesheet" href="../assets/site.css">
 
 <style>
-.article-hero { background: linear-gradient(165deg, var(--ink-deep) 0%, #0A2528 100%); color: var(--mint); padding: 120px 40px 80px; position: relative; overflow: hidden; }
+.article-hero { 
+  background: linear-gradient(165deg, #1C5A60 0%, #4A8B92 50%, #6BA5AC 100%); 
+  color: var(--cream); 
+  padding: 120px 40px 80px; 
+  position: relative; 
+  overflow: hidden; 
+}
 .article-hero::before { content: ""; position: absolute; inset: 0; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.6; mix-blend-mode: overlay; }
 .article-hero__inner { max-width: 880px; margin: 0 auto; position: relative; z-index: 2; }
 .article-hero__meta { display: flex; gap: 20px; align-items: center; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--mint); opacity: 0.7; margin-bottom: 28px; }
