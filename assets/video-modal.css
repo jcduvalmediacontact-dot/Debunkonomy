@@ -1,0 +1,131 @@
+/* Modal Vidéo YouTube */
+
+.video-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(28, 90, 96, 0.95);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.video-modal.active {
+  display: flex;
+  opacity: 1;
+}
+
+.video-modal__content {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  background: var(--ink-deep);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  transform: scale(0.9);
+  transition: transform 0.3s ease;
+}
+
+.video-modal.active .video-modal__content {
+  transform: scale(1);
+}
+
+.video-modal__close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid var(--mint);
+  border-radius: 50%;
+  color: var(--mint);
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  z-index: 10;
+}
+
+.video-modal__close:hover {
+  background: var(--mint);
+  color: var(--ink-deep);
+  transform: rotate(90deg);
+}
+
+.video-modal__player {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-modal__player iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-modal__info {
+  padding: 24px 32px;
+  background: var(--ink-deep);
+  border-top: 1px solid rgba(168, 234, 234, 0.1);
+}
+
+.video-modal__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 60, "SOFT" 40;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 1.3;
+  color: var(--mint);
+  margin-bottom: 8px;
+  letter-spacing: -0.015em;
+}
+
+.video-modal__date {
+  font-family: var(--ff-sans);
+  font-size: 13px;
+  color: var(--mint);
+  opacity: 0.7;
+  letter-spacing: 0.05em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .video-modal {
+    padding: 12px;
+  }
+
+  .video-modal__close {
+    top: -45px;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+
+  .video-modal__info {
+    padding: 20px 24px;
+  }
+
+  .video-modal__title {
+    font-size: 20px;
+  }
+}
+
+/* Désactiver le scroll du body quand la modal est ouverte */
+body.modal-open {
+  overflow: hidden;
+}
