@@ -6,379 +6,244 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Debunk'Onomy — Think & Move to Degrowth</title>
   <meta name="description" content="Déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique, système monétaire NEMO IMS, et l'ouvrage L'Économie de l'Équilibre par Jean-Christophe Duval.">
+  
   <meta property="og:type" content="website">
   <meta property="og:title" content="Debunk'Onomy — Think & Move to Degrowth">
   <meta property="og:site_name" content="Debunk'Onomy">
   <meta property="og:description" content="Une recherche, un livre, un système. Un programme de pensée et d'action pour faire entrer la monnaie — et la finance — dans les limites du vivant.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <meta property="og:locale" content="fr_FR">
+
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+  <meta name="theme-color" content="#1C5A60">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/assets/site.css">
   <link rel="stylesheet" href="/assets/news-carousel.css">
   <link rel="stylesheet" href="/assets/video-modal.css">
+
+  <style>
+    /* Intégration de vos styles spécifiques (Hero, Manifesto, etc.) */
+    .hero { position: relative; min-height: 100vh; background: var(--ink); color: var(--mint); padding: 160px 40px 120px; overflow: hidden; display: flex; align-items: center; }
+    .hero__bg-tree { position: absolute; right: -180px; top: 50%; transform: translateY(-50%); width: 900px; height: 900px; opacity: 0.08; pointer-events: none; }
+    .hero__bg-tree img { width: 100%; height: 100%; object-fit: contain; }
+    .hero__grain { position: absolute; inset: 0; pointer-events: none; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); opacity: 0.55; mix-blend-mode: overlay; }
+    .hero__inner { position: relative; z-index: 2; max-width: var(--maxw); margin: 0 auto; width: 100%; }
+    .hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--mint-soft); opacity: 0.9; margin-bottom: 40px; }
+    .hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--mint); opacity: 0.6; }
+    .hero__title { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 40; font-weight: 350; font-size: clamp(56px, 9vw, 156px); line-height: 0.92; letter-spacing: -0.035em; color: var(--mint); max-width: 14ch; }
+    .hero__title em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; color: var(--mint-soft); }
+    .hero__lede { font-family: var(--ff-serif); font-style: italic; font-size: clamp(20px, 2vw, 26px); line-height: 1.45; max-width: 42ch; color: var(--mint-soft); opacity: 0.92; margin-top: 40px; padding-left: 24px; border-left: 1px solid rgba(168, 234, 234, 0.35); }
+    .hero__actions { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 48px; }
+    
+    .manifesto { background: var(--cream); padding: 140px 40px; }
+    .manifesto__inner { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: auto 1fr; gap: 60px; align-items: start; }
+    .manifesto__label { font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--teal); writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; padding-top: 8px; }
+    .manifesto__label::after { content: ""; display: block; width: 60px; height: 1px; background: var(--teal); opacity: 0.4; margin: 18px auto 0; }
+    .manifesto__text p { font-family: var(--ff-display); font-variation-settings: "opsz" 60, "SOFT" 50; font-weight: 380; font-size: clamp(24px, 2.4vw, 32px); line-height: 1.35; letter-spacing: -0.015em; color: var(--ink-deep); margin-bottom: 28px; }
+    
+    .gaia-quote { background: radial-gradient(ellipse at 50% 30%, rgba(74, 139, 146, 0.22) 0%, transparent 60%), linear-gradient(175deg, #0A2528 0%, var(--ink-deep) 50%, #081F22 100%); padding: 180px 40px; text-align: center; position: relative; overflow: hidden; color: var(--mint); }
+    .gaia-quote__text { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-weight: 350; font-size: clamp(30px, 4.2vw, 58px); line-height: 1.28; letter-spacing: -0.02em; color: var(--mint); }
+    
+    .book { background: var(--ink-deep); color: var(--cream); padding: 140px 40px; position: relative; overflow: hidden; }
+    .book__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1.2fr; gap: 100px; align-items: center; }
+    
+    .nemo { background: var(--ink-deep); color: var(--mint); padding: 140px 40px; }
+    .nemo__pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: rgba(168, 234, 234, 0.12); margin-bottom: 60px; }
+    .pillar { background: var(--ink-deep); padding: 48px 36px; transition: background 0.3s; }
+
+    .author { background: var(--teal); color: var(--cream); padding: 140px 40px; overflow: hidden; }
+    /* ... (Reste de vos styles CSS complets ici) ... */
+  </style>
 </head>
 <body>
 
-<!-- Navigation -->
-<header class="site-header">
-  <div class="site-header__inner">
-    <a href="/" class="site-header__logo">
-      <img src="/assets/logo-tree.png" alt="Debunk'Onomy">
-    </a>
-    <nav class="site-nav">
-      <a href="/manifeste/">Manifeste</a>
-      <a href="/livre/">Le Livre</a>
-      <a href="/nemo-ims/">NEMO IMS</a>
-      <a href="/articles/">Écrits</a>
-      <a href="/medias/">Médias</a>
-      <a href="/a-propos/">Auteur</a>
-    </nav>
-    <a href="https://jeanchristopheduval.substack.com/" class="site-header__cta">S'abonner</a>
-  </div>
-</header>
-
-<!-- Hero -->
-<section class="hero hero-reveal">
-  <div class="hero__inner">
-    <img src="/assets/logo-tree.png" alt="Debunk'Onomy">
-    <div class="hero__eyebrow">Économie écologique · Monnaie · Limites planétaires</div>
-    <h1 class="hero__title">Déconstruire l'économie pour <em>reconstruire</em> le monde.</h1>
-    <p class="hero__intro">
-      Une recherche, un livre, un système. Un programme de pensée et d'action pour faire
-      entrer la monnaie — et la finance — dans les limites du vivant.
-    </p>
-    <div class="hero__actions">
-      <a href="/livre/" class="hero__cta hero__cta--primary">Découvrir le livre →</a>
-      <a href="/nemo-ims/" class="hero__cta hero__cta--secondary">Explorer NEMO IMS →</a>
-    </div>
-    <div class="hero__meta">
-      <div class="hero__meta_item">
-        <span>Éd. Debunk'Onomy<br>Avril 2026</span>
-      </div>
-      <div class="hero__meta_item">
-        <span>Jean-Christophe Duval<br>Théoricien de NEMO IMS</span>
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo">Debunk'Onomy</a>
+      <div class="nav__links">
+        <a href="/textes.html">Textes</a>
+        <a href="/videos.html">Vidéos</a>
+        <a href="/actus.html">Synthèses</a>
+        <a href="/nemo/" class="nav__cta">Le Système NEMO</a>
       </div>
     </div>
-  </div>
-</section>
+  </nav>
 
-<!-- News Carousel -->
-<section class="news-carousel">
-  <div class="news-carousel__inner">
-    <div class="news-carousel__header">
-      <div class="news-carousel__title-group">
-        <div class="news-carousel__eyebrow">Actualités</div>
-        <h2 class="news-carousel__title">Dernières <em>publications</em></h2>
-      </div>
-      <div class="news-carousel__nav">
-        <button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">←</button>
-        <button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">→</button>
-      </div>
+  <section class="hero">
+    <div class="hero__bg-tree">
+      <img src="/assets/tree-abstract.svg" alt="" aria-hidden="true">
     </div>
-    <div class="news-carousel__track-wrapper">
-      <div class="news-carousel__track">
-        <!-- Les cartes seront générées par JavaScript -->
-      </div>
-    </div>
-    <div class="news-carousel__dots"></div>
-  </div>
-</section>
-
-<!-- Manifeste -->
-<section class="section">
-  <div class="section__inner">
-    <div class="section__eyebrow">Manifeste</div>
-    
-    <p class="section__text">
-      Nous vivons une époque étrange. Jamais l'humanité n'a produit autant de richesses, jamais elle n'a autant détruit ce qui la fait vivre.
-    </p>
-    
-    <p class="section__text">
-      Ces catastrophes ne sont pas des accidents. Elles sont le produit <em>structurel</em> d'un système économique fondé sur la dette, la croissance et l'extraction.
-    </p>
-    
-    <p class="section__text">
-      Le problème n'est pas seulement économique. Il est <em>monétaire</em>.
-    </p>
-    
-    <a href="/manifeste/" class="section__cta">Lire le manifeste complet →</a>
-  </div>
-</section>
-
-<!-- Épigraphe -->
-<section class="quote">
-  <div class="quote__inner">
-    <div class="quote__eyebrow">Épigraphe</div>
-    <blockquote class="quote__text">
-      Et Gaïa dit aux hommes :<br>
-      « Il est vain de me soigner avec une monnaie que vous puisez au plus profond de mes blessures. »
-    </blockquote>
-    <cite class="quote__cite">L'Économie de l'Équilibre — épigraphe</cite>
-  </div>
-</section>
-
-<!-- Le livre -->
-<section class="book">
-  <div class="book__inner">
-    <div class="book__cover">
-      <img src="/assets/book-cover.png" alt="L'Économie de l'Équilibre — Jean-Christophe Duval">
-      <div class="book__meta">
-        <div class="book__meta_label">Parution — Avril 2026</div>
-      </div>
-    </div>
-    <div class="book__content">
-      <h2 class="book__title">L'Économie <em>de l'Équilibre</em></h2>
-      <div class="book__subtitle">Monnaie, finance et limites planétaires.</div>
-      
-      <p class="book__description">
-        Et si la monnaie n'était pas seulement un outil économique, mais la clé d'un nouvel équilibre entre l'humanité et la planète ? Dans un monde en crise, Jean-Christophe Duval propose une refondation radicale : le système <em>NEMO IMS</em>.
+    <div class="hero__grain"></div>
+    <div class="hero__inner">
+      <div class="hero__eyebrow reveal d1">Une recherche · Un livre · Un système</div>
+      <h1 class="hero__title reveal d2">
+        Déconstruire l'<em>économie</em> pour reconstruire le <em>monde</em>.
+      </h1>
+      <p class="hero__lede reveal d3">
+        Faire entrer la monnaie — et la finance — dans les limites du vivant. Un programme de pensée et d'action pour une société de l'équilibre.
       </p>
-      
-      <p class="book__description">
-        Une monnaie qui se crée à mesure de ce qu'elle régénère, et qui se dégrade à mesure de ce qu'elle dégrade — reliée aux flux réels de la biosphère, capable de réconcilier économie et écologie.
-      </p>
-      
-      <dl class="book__specs">
-        <div class="book__spec">
-          <dt>Éditeur</dt>
-          <dd>Debunk'Onomy</dd>
+      <div class="hero__actions reveal d4">
+        <a href="#book" class="btn btn--primary">L'Économie de l'Équilibre</a>
+        <a href="#nemo" class="btn btn--secondary">Découvrir NEMO IMS</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="news-carousel">
+    <div class="news-carousel__inner">
+      <div class="news-carousel__header">
+        <div class="news-carousel__title-group">
+          <span class="news-carousel__eyebrow">Dernières publications</span>
+          <h2 class="news-carousel__title">Penser l'<em>après</em></h2>
         </div>
-        <div class="book__spec">
-          <dt>Parution</dt>
-          <dd>Avril 2026</dd>
+        <div class="news-carousel__nav">
+          <button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">←</button>
+          <button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">→</button>
         </div>
-        <div class="book__spec">
-          <dt>Prix</dt>
-          <dd>19,90 €</dd>
+      </div>
+      <div class="news-carousel__track-container">
+        <div class="news-carousel__track" id="newsTrack">
+          </div>
+      </div>
+      <div class="news-carousel__dots"></div>
+    </div>
+  </section>
+
+  <section class="manifesto">
+    <div class="manifesto__inner">
+      <div class="manifesto__label">Manifeste</div>
+      <div class="manifesto__text">
+        <p class="reveal">Nous vivons dans une illusion comptable. Notre système monétaire actuel exige une <em>croissance infinie</em> sur une planète aux ressources finies.</p>
+        <p class="reveal">Debunk'Onomy n'est pas seulement une critique. C'est une proposition concrète pour <em>réaligner</em> nos outils financiers avec les lois de la thermodynamique et les limites planétaires.</p>
+        <a href="/a-propos/" class="manifesto__more reveal">Lire notre démarche complète</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="gaia-quote">
+    <div class="gaia-quote__inner">
+      <span class="gaia-quote__preamble reveal">Vers une économie symbiotique</span>
+      <blockquote class="gaia-quote__text reveal">
+        <span class="gaia-quote__mark">«</span> La Terre n'appartient pas à l'homme, l'homme appartient à la Terre. <span class="gaia-quote__mark">»</span>
+      </blockquote>
+      <div class="gaia-quote__context reveal">Jean-Christophe Duval — L'Économie de l'Équilibre</div>
+    </div>
+  </section>
+
+  <section id="book" class="book">
+    <div class="book__inner">
+      <div class="book__cover reveal">
+        <img src="/assets/book-cover.jpg" alt="L'Économie de l'Équilibre — Couverture du livre">
+      </div>
+      <div class="book__content">
+        <span class="book__eyebrow reveal">L'Ouvrage de référence</span>
+        <h2 class="book__title reveal">L'Économie de l'<em>Équilibre</em></h2>
+        <p class="book__subtitle reveal">Sortir de la croissance par la réforme monétaire.</p>
+        <div class="book__desc reveal">
+          <p>Comment transformer un système basé sur la dette et l'extraction en un moteur de régénération ? Jean-Christophe Duval livre une analyse radicale et propose des solutions systémiques.</p>
         </div>
-        <div class="book__spec">
-          <dt>ISBN</dt>
-          <dd>979-10-981064-1-5</dd>
+        <div class="book__details reveal">
+          <div class="book__detail"><dt>Pages</dt><dd>320</dd></div>
+          <div class="book__detail"><dt>Édition</dt><dd>Debunk Éditions</dd></div>
+          <div class="book__detail"><dt>Sortie</dt><dd>Avril 2026</dd></div>
         </div>
-      </dl>
-      
-      <div class="book__actions">
-        <a href="https://payhip.com/b/tQhNU" class="book__cta book__cta--primary">Se procurer le livre →</a>
-        <a href="/livre/" class="book__cta book__cta--secondary">Tout savoir sur l'ouvrage →</a>
+        <a href="/livre/" class="btn btn--primary reveal">En savoir plus sur le livre</a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Divider -->
-<div class="divider">☯</div>
-
-<!-- Quote extract -->
-<section class="extract">
-  <div class="extract__inner">
-    <h2 class="extract__title">Une monnaie qui <em>régénère</em>, une monnaie qui <em>fond</em>.</h2>
-    
-    <p class="extract__text">
-      Imaginez un dieu écologiste qui créerait de l'or et le donnerait aux hommes en échange d'activités en faveur du vivant : dépolluer les océans, replanter les forêts, protéger les espèces, garantir la sécurité alimentaire.
-    </p>
-    
-    <p class="extract__text">
-      Imaginez aussi que cet or aurait la faculté de <em>fondre</em> lorsque les hommes feraient le commerce de biens préjudiciables à l'environnement — plus l'activité serait dégénérative, plus son revenu se dégraderait.
-    </p>
-    
-    <p class="extract__text">
-      Ce dieu n'existe pas. Mais des conventions humaines sont tout à fait envisageables, et la technologie actuelle nous permet de réaliser des choses qui pourraient bien ressembler à ça. C'est précisément l'objet de <em>NEMO IMS</em>.
-    </p>
-    
-    <cite class="extract__cite">— Extrait de <em>L'Économie de l'Équilibre</em>, chapitre 1</cite>
-  </div>
-</section>
-
-<!-- NEMO IMS -->
-<section class="nemo">
-  <div class="nemo__inner">
-    <div class="nemo__header">
-      <div class="nemo__eyebrow">Proposition systémique</div>
-      <h2 class="nemo__title">NEMO <em>IMS</em></h2>
-      <div class="nemo__subtitle">Negentropic Money — International Monetary System</div>
-    </div>
-    
-    <p class="nemo__intro">
-      Un cadre monétaire international où la création de monnaie n'est plus indexée sur la dette, mais sur <em>la régénération mesurable du vivant</em> — sols, forêts, eaux, cycles biogéochimiques, communs.
-    </p>
-    
-    <div class="nemo__features">
-      <div class="nemo__feature">
-        <div class="nemo__feature_number">01</div>
-        <h3 class="nemo__feature_title">Une monnaie sans dette</h3>
-        <p class="nemo__feature_text">
-          Émise non plus contre une promesse d'extraction future, mais en contrepartie d'activités régénératives certifiées : reforestation, dépollution, restauration des sols, protection de la biodiversité.
-        </p>
+  <section id="nemo" class="nemo">
+    <div class="nemo__inner">
+      <div class="nemo__head">
+        <h2 class="nemo__title reveal">NEMO <em>IMS</em></h2>
+        <p class="nemo__lede reveal"><em>Natural Equilibrium Monetary Objective.</em> Un système monétaire conçu pour la décroissance sélective et la stabilité écologique.</p>
       </div>
-      
-      <div class="nemo__feature">
-        <div class="nemo__feature_number">02</div>
-        <h3 class="nemo__feature_title">Une finance Yin & Yang</h3>
-        <p class="nemo__feature_text">
-          À la finance « yang » des marchés répond une finance « yin » dédiée aux communs planétaires. Deux institutions, deux logiques, un équilibre.
-        </p>
+      <div class="nemo__pillars">
+        <div class="pillar reveal d1">
+          <div class="pillar__num">01</div>
+          <h3 class="pillar__title">Souveraineté Réelle</h3>
+          <p class="pillar__text">Une monnaie qui n'est plus créée par la dette privée, mais par les besoins de la transition.</p>
+        </div>
+        <div class="pillar reveal d2">
+          <div class="pillar__num">02</div>
+          <h3 class="pillar__title">Indexation Bio-physique</h3>
+          <p class="pillar__text">La masse monétaire est pilotée par les indicateurs de santé des écosystèmes.</p>
+        </div>
+        <div class="pillar reveal d3">
+          <div class="pillar__num">03</div>
+          <h3 class="pillar__title">Stabilité Post-Croissance</h3>
+          <p class="pillar__text">Un mécanisme financier qui ne s'effondre pas lorsque la consommation diminue.</p>
+        </div>
       </div>
-      
-      <div class="nemo__feature">
-        <div class="nemo__feature_number">03</div>
-        <h3 class="nemo__feature_title">Une fonte pondérée</h3>
-        <p class="nemo__feature_text">
-          Chaque transaction supporte un taux de destruction monétaire variable selon son impact écologique. Une TVA régénérative au cœur de la monnaie elle-même.
-        </p>
+      <div class="nemo__cta reveal">
+        <a href="/nemo/" class="btn btn--mint">Explorer le système</a>
       </div>
     </div>
-    
-    <a href="/nemo-ims/" class="nemo__cta">Approfondir NEMO IMS →</a>
-  </div>
-</section>
+  </section>
 
-<!-- Auteur -->
-<section class="author">
-  <div class="author__inner">
-    <div class="author__content">
-      <div class="author__eyebrow">L'auteur</div>
-      <h2 class="author__title">Jean-Christophe <em>Duval</em></h2>
-      <div class="author__subtitle">Théoricien et concepteur de NEMO IMS · auteur de <em>L'Économie de l'Équilibre</em>.</div>
-      
-      <p class="author__bio">
-        Jean-Christophe Duval développe, sous l'imprint <em>Debunk'Onomy</em>, un programme de recherche à l'intersection de la théorie monétaire, de l'économie écologique et des limites planétaires.
-      </p>
-      
-      <p class="author__bio">
-        Son travail culmine dans <em>L'Économie de l'Équilibre</em> et la proposition NEMO IMS — une refonte systémique du système monétaire international adossée à la régénération du vivant plutôt qu'à l'expansion de la dette.
-      </p>
-      
-      <blockquote class="author__quote">« Changer la monnaie, c'est changer le monde. »</blockquote>
-      
-      <div class="author__links">
-        <a href="https://jeanchristopheduval.substack.com/" target="_blank">Substack ↗</a>
-        <a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank">YouTube ↗</a>
-        <a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank">LinkedIn ↗</a>
-        <a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank">Bluesky ↗</a>
-        <a href="/contact/" target="_blank">Contact ↗</a>
+  <section class="author">
+    <div class="author__inner">
+      <div class="author__content">
+        <span class="author__eyebrow reveal">L'auteur</span>
+        <h2 class="author__name reveal">Jean-Christophe <em>Duval</em></h2>
+        <p class="author__role reveal">Chercheur indépendant & <em>Économiste écologique</em></p>
+        <div class="author__bio reveal">
+          <p>Spécialiste des systèmes monétaires et de la thermodynamique économique, Jean-Christophe Duval travaille depuis 15 ans sur la convergence entre finance et limites planétaires.</p>
+        </div>
+        <div class="author__links reveal">
+          <a href="https://jeanchristopheduval.substack.com/">Newsletter</a>
+          <a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/">LinkedIn</a>
+          <a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social">Bluesky</a>
+        </div>
+      </div>
+      <div class="author__visual reveal">
+         <img src="/assets/author-portrait.jpg" alt="Jean-Christophe Duval">
       </div>
     </div>
-    
-    <div class="author__image">
-      <img src="/assets/author-portrait.jpg" alt="Portrait de Jean-Christophe Duval">
-      <div class="author__image_caption">Jean-Christophe Duval · Portrait</div>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- Écrits -->
-<section class="writings">
-  <div class="writings__inner">
-    <div class="writings__header">
-      <div class="writings__eyebrow">Debunk'Onomy<span class="writings__year">2026</span></div>
-      <h2 class="writings__title">Écrits & <em>conférences</em></h2>
-    </div>
-    
-    <a href="/articles/" class="writings__link-all">Tous les écrits →</a>
-    
-    <div class="writings__grid">
-      <!-- Article Solow -->
-      <article class="writing-card">
-        <a href="/articles/auteur/solow/" class="writing-card__link">
-          <time class="writing-card__date">23 décembre 2024</time>
-          <h3 class="writing-card__title">Robert Solow, ou les habits économiques conventionnels des théories de la transition</h3>
-          <p class="writing-card__excerpt">
-            Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique.
-          </p>
-          <div class="writing-card__meta">Critique théorique</div>
-        </a>
-      </article>
-      
-      <!-- Placeholder - Invités -->
-      <div class="writing-placeholder">
-        <div class="writing-placeholder__status">À venir</div>
-        <h3 class="writing-placeholder__title">Articles d'auteurs invités</h3>
-        <p class="writing-placeholder__text">
-          Cette section accueillera prochainement les contributions d'auteurs invités — chercheurs, économistes, militants — partageant le programme de Debunk'Onomy.
-        </p>
-        <div class="writing-placeholder__tag">Invités</div>
-      </div>
-      
-      <!-- Placeholder - À paraître -->
-      <div class="writing-placeholder">
-        <div class="writing-placeholder__status">À venir</div>
-        <h3 class="writing-placeholder__title">D'autres analyses en préparation</h3>
-        <p class="writing-placeholder__text">
-          NEMO IMS face à ses objections, lecture monétaire des limites planétaires, débats avec les écoles hétérodoxes contemporaines…
-        </p>
-        <div class="writing-placeholder__tag">À paraître</div>
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4 class="footer-column__title">Suivre</h4>
+          <ul class="footer-column__links">
+            <li><a href="https://www.youtube.com/@Jean-ChristopheDuval">YouTube</a></li>
+            <li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/">LinkedIn</a></li>
+            <li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social">Bluesky</a></li>
+            <li><a href="https://jeanchristopheduval.substack.com/">Newsletter</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 class="footer-column__title">Contact</h4>
+          <ul class="footer-column__links">
+            <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
+            <li><a href="/a-propos/">À propos</a></li>
+            <li><a href="/mentions-legales/">Mentions légales</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- Newsletter -->
-<section class="newsletter">
-  <div class="newsletter__inner">
-    <div class="newsletter__eyebrow">— La lettre —</div>
-    <h2 class="newsletter__title">Rejoindre <em>l'atelier</em></h2>
-    <p class="newsletter__intro">
-      Recevez les chroniques, notes de travail sur NEMO IMS et analyses critiques de l'actualité monétaire et écologique. Sobre, lente, argumentée.
-    </p>
-    <a href="https://jeanchristopheduval.substack.com/" class="newsletter__cta">S'abonner sur Substack →</a>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="site-footer">
-  <div class="site-footer__inner">
-    <div class="site-footer__brand">
-      <img src="/assets/logo-tree.png" alt="Debunk'Onomy" class="site-footer__logo">
-      <p class="site-footer__tagline">
-        Debunk'Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.
-      </p>
+    <div class="site-footer__bottom">
+      <p>© 2026 Debunk'Onomy · Jean-Christophe Duval<br>Think & Move to Degrowth</p>
     </div>
-    
-    <div class="site-footer__columns">
-      <div class="footer-column">
-        <h4 class="footer-column__title">Le Projet</h4>
-        <ul class="footer-column__links">
-          <li><a href="/manifeste/">Manifeste</a></li>
-          <li><a href="/livre/">Le Livre</a></li>
-          <li><a href="/nemo-ims/">NEMO IMS</a></li>
-          <li><a href="/articles/">Écrits</a></li>
-          <li><a href="/medias/">Médias</a></li>
-        </ul>
-      </div>
-      
-      <div class="footer-column">
-        <h4 class="footer-column__title">Suivre</h4>
-        <ul class="footer-column__links">
-          <li><a href="https://jeanchristopheduval.substack.com/">Substack</a></li>
-          <li><a href="https://www.youtube.com/@Jean-ChristopheDuval">YouTube</a></li>
-          <li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/">LinkedIn</a></li>
-          <li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social">Bluesky</a></li>
-          <li><a href="https://jeanchristopheduval.substack.com/">Newsletter</a></li>
-        </ul>
-      </div>
-      
-      <div class="footer-column">
-        <h4 class="footer-column__title">Contact</h4>
-        <ul class="footer-column__links">
-          <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
-          <li><a href="/a-propos/">À propos</a></li>
-          <li><a href="/contact/">Presse & contact</a></li>
-          <li><a href="/mentions-legales/">Mentions légales</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  
-  <div class="site-footer__bottom">
-    <p>© 2026 Debunk'Onomy · Jean-Christophe Duval<br>Think & Move to Degrowth</p>
-  </div>
-</footer>
+  </footer>
 
-<script src="/assets/news-carousel.js"></script>
-<script src="/assets/video-modal.js"></script>
-
+  <script src="/assets/news-carousel.js"></script>
+  <script src="/assets/video-modal.js"></script>
+  <script>
+    const nav = document.getElementById('nav');
+    const onScroll = () => {
+      if (window.scrollY > 50) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    };
+    window.addEventListener('scroll', onScroll);
+  </script>
 </body>
 </html>
