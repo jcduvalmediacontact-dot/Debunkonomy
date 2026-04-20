@@ -13,49 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
-<style>
-.bio-hero { background: var(--teal); color: var(--cream); padding: 100px 28px; }
-.bio-hero__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: center; }
-.bio-hero__visual { aspect-ratio: 4/5; max-width: 380px; width: 100%; position: relative; overflow: hidden; border-radius: 2px; box-shadow: 0 30px 60px -20px rgba(0,0,0,0.4); }
-.bio-hero__visual img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.bio-hero__eyebrow { display: inline-flex; align-items: center; gap: 14px; font-family: var(--ff-sans); font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--mint); opacity: 0.85; margin-bottom: 28px; }
-.bio-hero__eyebrow::before { content: ""; display: block; width: 50px; height: 1px; background: var(--mint); opacity: 0.5; }
-.bio-hero__name { font-family: var(--ff-display); font-variation-settings: "opsz" 144, "SOFT" 35; font-weight: 400; font-size: clamp(48px, 6.5vw, 96px); line-height: 0.95; letter-spacing: -0.03em; color: var(--mint); margin-bottom: 16px; }
-.bio-hero__name em { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; }
-.bio-hero__role { font-family: var(--ff-serif); font-style: italic; font-size: 22px; color: var(--mint-soft); margin-bottom: 30px; line-height: 1.4; }
-.bio-hero__role em { color: var(--mint); font-style: normal; }
 
-.bio-body { background: var(--cream); padding: 100px 28px; }
-.bio-body__inner { max-width: var(--readw); margin: 0 auto; }
-.bio-body p { font-family: var(--ff-display); font-variation-settings: "opsz" 16, "SOFT" 55; font-weight: 400; font-size: 19px; line-height: 1.7; color: var(--ink-deep); margin-bottom: 1.5em; }
-.bio-body p em { font-style: italic; font-variation-settings: "opsz" 16, "SOFT" 80, "WONK" 1; color: var(--ink); }
-.bio-body p.lead { font-variation-settings: "opsz" 36, "SOFT" 50; font-weight: 380; font-size: 23px; line-height: 1.5; color: var(--ink); margin-bottom: 2em; letter-spacing: -0.01em; }
-.bio-body h2 { font-family: var(--ff-display); font-variation-settings: "opsz" 72, "SOFT" 35; font-weight: 450; font-size: clamp(26px, 2.8vw, 34px); line-height: 1.15; letter-spacing: -0.02em; color: var(--ink-deep); margin-top: 2.4em; margin-bottom: 1em; padding-top: 1em; position: relative; }
-.bio-body h2::before { content: ""; position: absolute; top: 0; left: 0; width: 60px; height: 1px; background: var(--teal); opacity: 0.6; }
-.bio-pull { margin: 2.4em -16px; padding: 32px 40px; background: var(--cream-deep); border-left: 4px solid var(--teal); font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1; font-size: 22px; line-height: 1.45; color: var(--ink); }
-
-.bio-links { background: var(--cream-deep); padding: 80px 28px; }
-.bio-links__inner { max-width: var(--pagew); margin: 0 auto; }
-.bio-links__title { font-family: var(--ff-display); font-variation-settings: "opsz" 96, "SOFT" 35; font-weight: 400; font-size: clamp(28px, 3.5vw, 42px); line-height: 1.1; color: var(--ink-deep); margin-bottom: 40px; letter-spacing: -0.02em; text-align: center; }
-.bio-links__title em { font-style: italic; font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1; color: var(--ink); }
-.bio-links__grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; }
-.bio-link { display: flex; flex-direction: column; align-items: center; gap: 10px; padding: 30px 20px; background: var(--cream); border-radius: 4px; transition: transform 0.3s, box-shadow 0.3s; text-decoration: none; color: inherit; border: 1px solid rgba(13,46,49,0.1); text-align: center; }
-.bio-link:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -20px rgba(13,46,49,0.25); }
-.bio-link__icon { font-family: var(--ff-display); font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1; font-size: 40px; line-height: 1; color: var(--teal); }
-.bio-link__name { font-family: var(--ff-sans); font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-deep); }
-.bio-link__sub { font-family: var(--ff-serif); font-style: italic; font-size: 13px; color: var(--teal); }
-
-@media (max-width: 980px) {
-  .bio-hero { padding: 70px 22px; }
-  .bio-hero__inner { grid-template-columns: 1fr; gap: 50px; }
-  .bio-hero__visual { max-width: 280px; margin: 0 auto; }
-  .bio-body { padding: 60px 22px; }
-  .bio-body p { font-size: 17.5px; }
-  .bio-pull { margin: 2em 0; padding: 24px 28px; font-size: 19px; }
-  .bio-links { padding: 60px 22px; }
-  .bio-links__grid { grid-template-columns: repeat(2, 1fr); }
-}
-</style>
 </head>
 <body>
 <nav class="inav">
