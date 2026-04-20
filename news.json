@@ -1,62 +1,44 @@
 {
   "news": [
     {
-      "id": "news-007",
-      "date": "2026-04-24",
       "type": "texte",
-      "title": "Pourquoi les COP ne servent à rien",
-      "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
-      "link": "/articles/cop-lobbycratie.html"
+      "date": "2024-12-23",
+      "title": "Robert Solow, ou les habits économiques conventionnels des théories de la transition",
+      "excerpt": "Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique.",
+      "link": "/articles/auteur/solow/",
+      "image": null
     },
     {
-      "id": "news-006",
-      "date": "2026-04-23",
-      "type": "texte",
-      "title": "Ivan Illich : Le prophète de la convivialité",
-      "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
-      "link": "/articles/ivan-illich-portrait.html"
-    },
-    {
-      "id": "news-005",
-      "date": "2026-04-22",
-      "type": "texte",
-      "title": "Le mythe de Sisyphe de la dette",
-      "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
-      "link": "/articles/creation-monetaire-dette.html"
-    },
-    {
-      "id": "news-004",
-      "date": "2026-04-21",
-      "type": "texte",
-      "title": "Le PIB ne mesure pas ce que nous croyons",
-      "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
-      "link": "/articles/limites-pib.html"
-    },
-    {
-      "id": "news-003",
-      "date": "2026-04-20",
-      "type": "texte",
-      "title": "Septième limite franchie : L'acidification des océans",
-      "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
-      "link": "/articles/septieme-limite-planetaire.html"
-    },
-    {
-      "id": "news-002",
-      "date": "2026-04-19",
       "type": "video",
-      "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
-      "excerpt": "L'argent actuel impose une croissance perpétuelle incompatible avec les limites planétaires.",
-      "youtubeId": "s6Hbfs7pOao",
-      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao"
+      "date": "2024-11-15",
+      "title": "NEMO IMS : Introduction au système monétaire pour la décroissance",
+      "excerpt": "Une présentation en vidéo des principes fondamentaux du système NEMO IMS et de son architecture monétaire régénérative.",
+      "link": "https://www.youtube.com/@Jean-ChristopheDuval",
+      "youtubeId": "dQw4w9WgXcQ"
     },
     {
-      "id": "news-001",
-      "date": "2026-04-17",
+      "type": "texte",
+      "date": "2024-10-08",
+      "title": "Limites planétaires et création monétaire : une contradiction structurelle",
+      "excerpt": "Pourquoi le système monétaire actuel est incompatible avec les limites biophysiques de la planète.",
+      "link": "/articles/limites-planetaires/",
+      "image": null
+    },
+    {
       "type": "video",
-      "title": "NEMO IMS : une monnaie pour la régénération planétaire",
-      "excerpt": "Présentation du système monétaire néguentropique.",
-      "youtubeId": "NtQZm9RcpFk",
-      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk"
+      "date": "2024-09-20",
+      "title": "La thermodynamique économique expliquée",
+      "excerpt": "Comment les lois de la thermodynamique s'appliquent aux systèmes économiques et pourquoi elles invalident la croissance infinie.",
+      "link": "https://www.youtube.com/@Jean-ChristopheDuval",
+      "youtubeId": "dQw4w9WgXcQ"
+    },
+    {
+      "type": "texte",
+      "date": "2024-08-12",
+      "title": "Finance et régénération : peut-on transformer la dette en levier écologique ?",
+      "excerpt": "Une analyse des mécanismes financiers qui pourraient soutenir la transition écologique plutôt que l'extraction.",
+      "link": "/articles/finance-regeneration/",
+      "image": null
     }
   ]
 }
