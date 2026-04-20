@@ -1,44 +1,62 @@
 {
   "news": [
     {
+      "id": "news-007",
       "type": "texte",
-      "date": "2024-12-23",
-      "title": "Robert Solow, ou les habits économiques conventionnels des théories de la transition",
-      "excerpt": "Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique.",
-      "link": "/articles/auteur/solow/",
-      "image": null
+      "date": "2026-04-24",
+      "title": "Pourquoi les COP ne servent à rien",
+      "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
+      "link": "/articles/cop-lobbycratie.html"
     },
     {
-      "type": "video",
-      "date": "2026-01-30",
-      "title": "Changer la monnaie, c'est changer le monde !",
-      "excerpt": "Notre monde traverse une crise écologique, économique et sociale sans précédent. Pourtant, on continue de croire que la croissance infinie finira par tout résoudre. Mais cette croyance repose sur une illusion fondamentale : une croissance infinie dans un monde fini est impossible..",
-      "link": "https://www.youtube.com/@Jean-ChristopheDuval",
-      "youtubeId": "NtQZm9RcpFk"
-    },
-    {
+      "id": "news-006",
       "type": "texte",
-      "date": "2024-10-08",
-      "title": "Limites planétaires et création monétaire : une contradiction structurelle",
-      "excerpt": "Pourquoi le système monétaire actuel est incompatible avec les limites biophysiques de la planète.",
-      "link": "/articles/limites-planetaires/",
-      "image": null
+      "date": "2026-04-23",
+      "title": "Ivan Illich : Le prophète de la convivialité",
+      "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
+      "link": "/articles/ivan-illich-portrait.html"
     },
     {
+      "id": "news-005",
+      "type": "texte",
+      "date": "2026-04-22",
+      "title": "Le mythe de Sisyphe de la dette",
+      "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
+      "link": "/articles/creation-monetaire-dette.html"
+    },
+    {
+      "id": "news-004",
+      "type": "texte",
+      "date": "2026-04-21",
+      "title": "Le PIB ne mesure pas ce que nous croyons",
+      "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
+      "link": "/articles/limites-pib.html"
+    },
+    {
+      "id": "news-003",
+      "type": "texte",
+      "date": "2026-04-20",
+      "title": "Septième limite franchie : L'acidification des océans",
+      "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
+      "link": "/articles/septieme-limite-planetaire.html"
+    },
+    {
+      "id": "news-002",
       "type": "video",
-      "date": "2024-09-20",
+      "date": "2026-04-19",
       "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
-      "excerpt": "La théorie du Donut de Kate Raworth est une boussole géniale, mais sans moteur, elle ne peut pas avancer. Découvrez pourquoi notre système monétaire actuel rend la justice sociale et l'écologie structurellement impossibles, et comment "L’économie de l’équilibre" propose enfin le logiciel macroéconomique pour y parvenir.",
-      "link": "https://www.youtube.com/@Jean-ChristopheDuval",
-      "youtubeId": "s6Hbfs7pOao"
+      "excerpt": "L'argent actuel impose une croissance perpétuelle incompatible avec les limites planétaires.",
+      "youtubeId": "s6Hbfs7pOao",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao"
     },
     {
-      "type": "texte",
-      "date": "2024-08-12",
-      "title": "Finance et régénération : peut-on transformer la dette en levier écologique ?",
-      "excerpt": "Une analyse des mécanismes financiers qui pourraient soutenir la transition écologique plutôt que l'extraction.",
-      "link": "/articles/finance-regeneration/",
-      "image": null
+      "id": "news-001",
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS : une monnaie pour la régénération planétaire",
+      "excerpt": "Présentation du système monétaire néguentropique.",
+      "youtubeId": "NtQZm9RcpFk",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk"
     }
   ]
 }
