@@ -8,25 +8,113 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
   <link rel="stylesheet" href="/assets/site.css">
-</head>
-<body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Écrits — Debunk'Onomy</title>
   
-  <!-- Header -->
-  <header class="site-header">
-    <div class="site-header__inner">
-      <a href="/" class="site-header__logo">
-        <img src="/assets/logo-tree.png" alt="Debunk'Onomy">
-        <span class="site-header__logo-text">Debunk'Onomy</span>
-      </a>
-      <nav class="site-nav">
-        <a href="/manifeste/">Manifeste</a>
-        <a href="/livre/">Livre</a>
-        <a href="/nemo-ims/">NEMO IMS</a>
-        <a href="/articles/" class="active">Écrits</a>
-        <a href="/medias/">Médias</a>
-        <a href="/a-propos/">Auteur</a>
-      </nav>
-    </div>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --cream: #F9F7F2;
+      --cream-deep: #F2EFE9;
+      --teal: #1C5A60;
+      --ink: #1C1C1C;
+      --ink-deep: #0D2E31;
+      --maxw: 1200px;
+    }
+
+    body { 
+      background-color: var(--cream); 
+      color: var(--ink); 
+      font-family: 'Instrument Sans', sans-serif; 
+      margin: 0; 
+    }
+
+    /* Hero Section - Harmonisée avec le Manifeste */
+    .hero--sm { 
+      padding: 160px 40px 80px; 
+      text-align: center;
+      background: var(--cream);
+    }
+    .hero__title { 
+      font-family: 'Fraunces', serif; 
+      font-size: clamp(40px, 8vw, 80px); 
+      font-variation-settings: "SOFT" 40;
+      color: var(--ink-deep);
+      margin: 20px 0;
+    }
+    .hero__title em { 
+      font-style: italic; 
+      font-variation-settings: "SOFT" 100, "WONK" 1;
+      color: var(--teal);
+    }
+
+    /* Grille d'articles */
+    .articles-section { padding: 60px 20px; max-width: var(--maxw); margin: 0 auto; }
+    .articles-section__inner { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+      gap: 30px; 
+    }
+
+    /* Cartes "Néo-Brutalist" */
+    .article-card {
+      background: #fff;
+      border: 2px solid var(--ink-deep);
+      padding: 30px;
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+      box-shadow: 6px 6px 0px var(--ink-deep); /* L'effet signature */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .article-card:hover {
+      transform: translate(-4px, -4px);
+      box-shadow: 12px 12px 0px var(--teal);
+      border-color: var(--teal);
+    }
+
+    .article-card__date { 
+      font-size: 12px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.1em; 
+      color: var(--teal); 
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    .article-card__title { 
+      font-family: 'Fraunces', serif; 
+      font-size: 24px; 
+      margin-bottom: 15px; 
+      line-height: 1.2;
+    }
+
+    .article-card__excerpt { 
+      font-size: 15px; 
+      line-height: 1.6; 
+      opacity: 0.8;
+      flex-grow: 1;
+    }
+
+    .article-card__meta-footer {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      font-size: 11px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      color: var(--teal);
+    }
+  </style>
+</head>
   </header>
 
   <!-- Hero -->
