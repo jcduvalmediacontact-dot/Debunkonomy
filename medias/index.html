@@ -5,15 +5,191 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Médias — Debunk'Onomy</title>
 <meta name="description" content="Vidéos pédagogiques et podcasts sur la décroissance, NEMO IMS et l'économie écologique. Médiathèque Debunk'Onomy.">
-<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-<meta name="theme-color" content="#1C5A60">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/video-modal.css">
+<style>
+/* Video grid styles */
+.video-grid-section {
+  background: var(--cream);
+  padding: 80px 40px;
+}
 
+.video-grid-section__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-grid-section__header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.video-grid-section__eyebrow {
+  font-family: var(--ff-sans);
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--teal);
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+
+.video-grid-section__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 80, "SOFT" 35;
+  font-weight: 450;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.1;
+  color: var(--ink-deep);
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.video-grid-section__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 80, "SOFT" 100, "WONK" 1;
+  color: var(--teal);
+}
+
+.video-grid-section__intro {
+  font-family: var(--ff-serif);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink);
+  opacity: 0.85;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 32px;
+}
+
+.video-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(28, 90, 96, 0.15);
+}
+
+.video-card__thumbnail {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 */
+  background: linear-gradient(135deg, rgba(74, 139, 146, 0.1) 0%, rgba(74, 139, 146, 0.05) 100%);
+  overflow: hidden;
+}
+
+.video-card__thumbnail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-card__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+  background: rgba(28, 90, 96, 0.95);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--mint);
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.video-card:hover .video-card__play {
+  background: var(--teal);
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.video-card__content {
+  padding: 24px;
+}
+
+.video-card__lang {
+  display: inline-block;
+  font-family: var(--ff-sans);
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--teal);
+  background: rgba(74, 139, 146, 0.1);
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.video-card__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 60, "SOFT" 40;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 1.3;
+  color: var(--ink-deep);
+  margin-bottom: 12px;
+  letter-spacing: -0.015em;
+}
+
+.video-card__cta {
+  font-family: var(--ff-sans);
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: gap 0.3s;
+}
+
+.video-card:hover .video-card__cta {
+  gap: 10px;
+}
+
+.video-card__cta::after {
+  content: "→";
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .video-grid-section {
+    padding: 60px 24px;
+  }
+  
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+</style>
 </head>
 <body>
 
@@ -37,34 +213,83 @@
   </div>
 </section>
 
-<section class="med-cards">
-  <div class="med-cards__inner">
-    <a href="/medias/videos/" class="med-card">
-      <div class="med-card__type">Format vidéo</div>
-      <div class="med-card__icon">▷</div>
-      <h2 class="med-card__title">Vidéos <em>pédagogiques</em></h2>
-      <p class="med-card__desc">Conférences, explications animées, cours et entretiens vidéo sur la théorie monétaire écologique.</p>
-      <div class="med-card__themes">
-        <span class="med-card__theme">Décroissance</span>
-        <span class="med-card__theme">NEMO IMS</span>
-        <span class="med-card__theme">Économie</span>
-      </div>
-      <span class="med-card__cta">Explorer les vidéos →</span>
-    </a>
-    <a href="/medias/podcasts/" class="med-card">
-      <div class="med-card__type">Format audio</div>
-      <div class="med-card__icon">♫</div>
-      <h2 class="med-card__title">Podcasts &amp; <em>entretiens</em></h2>
-      <p class="med-card__desc">Conversations longues, entretiens d'auteur, débats radiophoniques. Quatre podcasts déjà disponibles sur YouTube.</p>
-      <div class="med-card__themes">
-        <span class="med-card__theme">Décroissance</span>
-        <span class="med-card__theme">NEMO IMS</span>
-        <span class="med-card__theme">Économie</span>
-      </div>
-      <span class="med-card__cta">Explorer les podcasts →</span>
-    </a>
+<section class="video-grid-section">
+  <div class="video-grid-section__inner">
+    <div class="video-grid-section__header">
+      <div class="video-grid-section__eyebrow">Collection vidéo</div>
+      <h2 class="video-grid-section__title">Toutes les <em>vidéos</em></h2>
+      <p class="video-grid-section__intro">Conférences, entretiens et explications vidéo sur NEMO IMS, la théorie du Donut et l'économie écologique.</p>
+    </div>
+    
+    <div class="video-grid">
+      <!-- Vidéo 1 -->
+      <a href="#" class="video-card" data-youtube-id="s6Hbfs7pOao" data-video-title="Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?">
+        <div class="video-card__thumbnail">
+          <img src="https://img.youtube.com/vi/s6Hbfs7pOao/maxresdefault.jpg" alt="Pourquoi le Donut de Kate Raworth est impossible">
+          <div class="video-card__play">▶</div>
+        </div>
+        <div class="video-card__content">
+          <span class="video-card__lang">Français</span>
+          <h3 class="video-card__title">Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?</h3>
+          <div class="video-card__cta">Regarder la vidéo</div>
+        </div>
+      </a>
+
+      <!-- Vidéo 2 -->
+      <a href="#" class="video-card" data-youtube-id="NtQZm9RcpFk" data-video-title="NEMO IMS : une monnaie pour la régénération planétaire">
+        <div class="video-card__thumbnail">
+          <img src="https://img.youtube.com/vi/NtQZm9RcpFk/maxresdefault.jpg" alt="NEMO IMS">
+          <div class="video-card__play">▶</div>
+        </div>
+        <div class="video-card__content">
+          <span class="video-card__lang">Français</span>
+          <h3 class="video-card__title">NEMO IMS : une monnaie pour la régénération planétaire</h3>
+          <div class="video-card__cta">Regarder la vidéo</div>
+        </div>
+      </a>
+
+      <!-- Vidéo 3 -->
+      <a href="#" class="video-card" data-youtube-id="2g3cl1gvvm4" data-video-title="EQUILIBRIUM et la théorie du Donut de Kate Raworth. La voile et le compas ?">
+        <div class="video-card__thumbnail">
+          <img src="https://img.youtube.com/vi/2g3cl1gvvm4/maxresdefault.jpg" alt="EQUILIBRIUM et le Donut">
+          <div class="video-card__play">▶</div>
+        </div>
+        <div class="video-card__content">
+          <span class="video-card__lang">Français</span>
+          <h3 class="video-card__title">EQUILIBRIUM et la théorie du Donut de Kate Raworth. La voile et le compas ?</h3>
+          <div class="video-card__cta">Regarder la vidéo</div>
+        </div>
+      </a>
+
+      <!-- Vidéo 4 -->
+      <a href="#" class="video-card" data-youtube-id="H1sZ6sP6fUg" data-video-title="EQUILIBRIUM and the Donut. The sail and the compass?">
+        <div class="video-card__thumbnail">
+          <img src="https://img.youtube.com/vi/H1sZ6sP6fUg/maxresdefault.jpg" alt="EQUILIBRIUM and the Donut">
+          <div class="video-card__play">▶</div>
+        </div>
+        <div class="video-card__content">
+          <span class="video-card__lang">English</span>
+          <h3 class="video-card__title">EQUILIBRIUM and the Donut. The sail and the compass?</h3>
+          <div class="video-card__cta">Watch video</div>
+        </div>
+      </a>
+
+      <!-- Vidéo 5 -->
+      <a href="#" class="video-card" data-youtube-id="rsa4RcH4RPE" data-video-title="Changing money is changing the world">
+        <div class="video-card__thumbnail">
+          <img src="https://img.youtube.com/vi/rsa4RcH4RPE/maxresdefault.jpg" alt="Changing money is changing the world">
+          <div class="video-card__play">▶</div>
+        </div>
+        <div class="video-card__content">
+          <span class="video-card__lang">English</span>
+          <h3 class="video-card__title">Changing money is changing the world</h3>
+          <div class="video-card__cta">Watch video</div>
+        </div>
+      </a>
+    </div>
   </div>
 </section>
+
 <footer class="footer">
   <div class="footer__inner">
     <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
@@ -75,5 +300,27 @@
   </div>
   <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
 </footer>
+
+<script src="/assets/video-modal.js"></script>
+<script>
+// Adapter le video-modal.js pour les cartes vidéo
+document.addEventListener('click', (e) => {
+  const videoCard = e.target.closest('.video-card');
+  if (videoCard) {
+    e.preventDefault();
+    const youtubeId = videoCard.getAttribute('data-youtube-id');
+    const title = videoCard.getAttribute('data-video-title');
+    
+    // Créer et ouvrir la modal
+    if (window.openVideoModal) {
+      window.openVideoModal(youtubeId, title, '');
+    } else {
+      // Fallback : ouvrir dans un nouvel onglet
+      window.open(`https://www.youtube.com/watch?v=${youtubeId}`, '_blank');
+    }
+  }
+});
+</script>
+
 </body>
 </html>
