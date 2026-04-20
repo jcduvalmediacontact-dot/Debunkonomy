@@ -5,14 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Écrits — Debunk'Onomy</title>
   <meta name="description" content="Articles, analyses critiques et contributions sur l'économie écologique, la monnaie et les limites planétaires.">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16.png">
-  <link rel="stylesheet" href="/assets/site.css">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Écrits — Debunk'Onomy</title>
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
@@ -27,97 +23,152 @@
       --maxw: 1200px;
     }
 
+    * { box-sizing: border-box; }
+
     body { 
       background-color: var(--cream); 
       color: var(--ink); 
       font-family: 'Instrument Sans', sans-serif; 
       margin: 0; 
+      line-height: 1.6;
     }
 
-    /* Hero Section - Harmonisée avec le Manifeste */
+    /* Header / Nav */
+    .site-header {
+      background: var(--ink-deep);
+      color: white;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 2px solid var(--teal);
+    }
+    .site-header__inner {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .site-header__logo { display: flex; align-items: center; text-decoration: none; color: white; gap: 10px; }
+    .site-header__logo img { height: 40px; }
+    .site-header__logo-text { font-family: 'Fraunces', serif; font-weight: bold; font-size: 1.2rem; }
+    .site-nav a { color: white; text-decoration: none; margin-left: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.8; transition: 0.3s; }
+    .site-nav a:hover, .site-nav a.active { opacity: 1; color: var(--teal); }
+
+    /* Hero */
     .hero--sm { 
-      padding: 160px 40px 80px; 
+      padding: 120px 40px 60px; 
       text-align: center;
       background: var(--cream);
+      border-bottom: 1px solid rgba(0,0,0,0.05);
     }
+    .hero__eyebrow { font-size: 12px; text-transform: uppercase; letter-spacing: 0.2em; color: var(--teal); font-weight: 700; margin-bottom: 10px; }
     .hero__title { 
       font-family: 'Fraunces', serif; 
-      font-size: clamp(40px, 8vw, 80px); 
+      font-size: clamp(40px, 6vw, 70px); 
       font-variation-settings: "SOFT" 40;
       color: var(--ink-deep);
-      margin: 20px 0;
+      margin: 0 0 20px 0;
+      line-height: 1;
     }
-    .hero__title em { 
-      font-style: italic; 
-      font-variation-settings: "SOFT" 100, "WONK" 1;
-      color: var(--teal);
-    }
+    .hero__title em { font-style: italic; font-variation-settings: "SOFT" 100, "WONK" 1; color: var(--teal); }
+    .hero__intro { max-width: 700px; margin: 0 auto; font-size: 1.1rem; opacity: 0.8; }
 
-    /* Grille d'articles */
-    .articles-section { padding: 60px 20px; max-width: var(--maxw); margin: 0 auto; }
+    /* Grille et Sections */
+    .articles-section { padding: 80px 20px; max-width: var(--maxw); margin: 0 auto; }
+    .section-title { font-family: 'Fraunces', serif; font-size: 2.5rem; margin-bottom: 10px; color: var(--ink-deep); }
+    .section-title em { font-style: italic; color: var(--teal); }
+    .section-intro { margin-bottom: 40px; opacity: 0.7; font-size: 1.1rem; }
+
     .articles-section__inner { 
       display: grid; 
       grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
-      gap: 30px; 
+      gap: 40px; 
     }
 
-    /* Cartes "Néo-Brutalist" */
+    /* Cartes Néo-Brutalistes */
     .article-card {
       background: #fff;
       border: 2px solid var(--ink-deep);
-      padding: 30px;
+      padding: 35px;
       text-decoration: none;
       color: inherit;
-      transition: all 0.3s ease;
-      box-shadow: 6px 6px 0px var(--ink-deep); /* L'effet signature */
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 8px 8px 0px var(--ink-deep);
       display: flex;
       flex-direction: column;
     }
-
     .article-card:hover {
       transform: translate(-4px, -4px);
       box-shadow: 12px 12px 0px var(--teal);
       border-color: var(--teal);
     }
-
-    .article-card__date { 
-      font-size: 12px; 
-      text-transform: uppercase; 
-      letter-spacing: 0.1em; 
-      color: var(--teal); 
-      font-weight: 700;
-      margin-bottom: 15px;
-    }
-
-    .article-card__title { 
-      font-family: 'Fraunces', serif; 
-      font-size: 24px; 
-      margin-bottom: 15px; 
-      line-height: 1.2;
-    }
-
-    .article-card__excerpt { 
-      font-size: 15px; 
-      line-height: 1.6; 
-      opacity: 0.8;
-      flex-grow: 1;
-    }
-
+    .article-card__date { font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--teal); font-weight: 700; margin-bottom: 20px; display: block; }
+    .article-card__title { font-family: 'Fraunces', serif; font-size: 24px; margin: 0 0 15px 0; line-height: 1.2; color: var(--ink-deep); }
+    .article-card__excerpt { font-size: 15px; opacity: 0.8; flex-grow: 1; margin-bottom: 25px; }
+    
     .article-card__meta-footer {
-      margin-top: 20px;
       padding-top: 20px;
-      border-top: 1px solid rgba(0,0,0,0.05);
-      font-size: 11px;
+      border-top: 1px solid rgba(0,0,0,0.08);
+      font-size: 10px;
       text-transform: uppercase;
+      font-weight: 700;
       display: flex;
       justify-content: space-between;
       color: var(--teal);
+      letter-spacing: 0.05em;
+    }
+
+    /* Placeholders */
+    .placeholder-card {
+      background: var(--cream-deep);
+      border: 2px dashed var(--teal);
+      padding: 35px;
+      opacity: 0.8;
+    }
+    .placeholder-card__status { font-weight: bold; color: var(--teal); text-transform: uppercase; font-size: 11px; margin-bottom: 10px;}
+
+    /* Footer */
+    .site-footer { background: var(--ink-deep); color: white; padding: 80px 40px 40px; margin-top: 100px; }
+    .site-footer__inner { max-width: var(--maxw); margin: 0 auto; display: grid; grid-template-columns: 1fr 2fr; gap: 60px; }
+    .site-footer__columns { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+    .footer-column__title { font-family: 'Fraunces', serif; color: var(--teal); margin-bottom: 20px; }
+    .footer-column__links { list-style: none; padding: 0; }
+    .footer-column__links li { margin-bottom: 10px; }
+    .footer-column__links a { color: white; text-decoration: none; opacity: 0.7; font-size: 14px; }
+    .footer-column__links a:hover { opacity: 1; }
+    .site-footer__bottom { text-align: center; margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 12px; opacity: 0.5; }
+
+    @media (max-width: 900px) {
+      .site-footer__inner { grid-template-columns: 1fr; }
+      .site-footer__columns { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .site-header__inner { flex-direction: column; gap: 15px; }
+      .site-nav a { margin: 0 10px; font-size: 11px; }
     }
   </style>
 </head>
+<body>
+  
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="site-header__logo">
+        <img src="/assets/logo-tree.png" alt="Debunk'Onomy">
+        <span class="site-header__logo-text">Debunk'Onomy</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/manifeste/">Manifeste</a>
+        <a href="/livre/">Livre</a>
+        <a href="/nemo-ims/">NEMO IMS</a>
+        <a href="/articles/" class="active">Écrits</a>
+        <a href="/medias/">Médias</a>
+        <a href="/a-propos/">Auteur</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- Hero -->
   <section class="hero hero--sm">
     <div class="hero__inner">
       <div class="hero__eyebrow">Articles · Analyses · Conférences</div>
@@ -128,183 +179,79 @@
     </div>
   </section>
 
-  <!-- Articles de l'auteur -->
   <section class="articles-section">
     <div class="articles-section__inner">
-      <h2 class="section-title">Articles <em>de l'auteur</em></h2>
-      <p class="section-intro">Analyses critiques et notes de travail de Jean-Christophe Duval.</p>
-
-      <!-- Article 1 - COP -->
       <article class="article-card">
-        <a href="/articles/cop-lobbycratie.html" class="article-card__link">
-          <div class="article-card__meta">
-            <time class="article-card__date">24 avril 2026</time>
-          </div>
+        <a href="/articles/cop-lobbycratie.html" style="text-decoration:none; color:inherit;">
+          <span class="article-card__date">24 avril 2026</span>
           <h3 class="article-card__title">Pourquoi les COP ne servent à rien</h3>
-          <p class="article-card__excerpt">
-            Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.
-          </p>
+          <p class="article-card__excerpt">Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.</p>
           <div class="article-card__meta-footer">
-            <span class="article-card__category">Analyse politique</span>
-            <span class="article-card__reading-time">~12 min de lecture</span>
+            <span>Analyse politique</span>
+            <span>~12 min</span>
           </div>
         </a>
       </article>
 
-      <!-- Article 2 - Illich -->
       <article class="article-card">
-        <a href="/articles/ivan-illich-portrait.html" class="article-card__link">
-          <div class="article-card__meta">
-            <time class="article-card__date">23 avril 2026</time>
-          </div>
+        <a href="/articles/ivan-illich-portrait.html" style="text-decoration:none; color:inherit;">
+          <span class="article-card__date">23 avril 2026</span>
           <h3 class="article-card__title">Ivan Illich : Le prophète de la convivialité</h3>
-          <p class="article-card__excerpt">
-            Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.
-          </p>
+          <p class="article-card__excerpt">Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.</p>
           <div class="article-card__meta-footer">
-            <span class="article-card__category">Portrait intellectuel</span>
-            <span class="article-card__reading-time">~15 min de lecture</span>
+            <span>Portrait intellectuel</span>
+            <span>~15 min</span>
           </div>
         </a>
       </article>
 
-      <!-- Article 3 - Dette -->
       <article class="article-card">
-        <a href="/articles/creation-monetaire-dette.html" class="article-card__link">
-          <div class="article-card__meta">
-            <time class="article-card__date">22 avril 2026</time>
-          </div>
+        <a href="/articles/creation-monetaire-dette.html" style="text-decoration:none; color:inherit;">
+          <span class="article-card__date">22 avril 2026</span>
           <h3 class="article-card__title">Le mythe de Sisyphe de la dette</h3>
-          <p class="article-card__excerpt">
-            Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.
-          </p>
+          <p class="article-card__excerpt">Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.</p>
           <div class="article-card__meta-footer">
-            <span class="article-card__category">Théorie monétaire</span>
-            <span class="article-card__reading-time">~18 min de lecture</span>
+            <span>Théorie monétaire</span>
+            <span>~18 min</span>
           </div>
         </a>
       </article>
 
-      <!-- Article 4 - PIB -->
-      <article class="article-card">
-        <a href="/articles/limites-pib.html" class="article-card__link">
-          <div class="article-card__meta">
-            <time class="article-card__date">21 avril 2026</time>
-          </div>
-          <h3 class="article-card__title">Le PIB ne mesure pas ce que nous croyons</h3>
-          <p class="article-card__excerpt">
-            Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.
-          </p>
-          <div class="article-card__meta-footer">
-            <span class="article-card__category">Critique économique</span>
-            <span class="article-card__reading-time">~14 min de lecture</span>
-          </div>
-        </a>
-      </article>
-
-      <!-- Article 5 - Limites -->
-      <article class="article-card">
-        <a href="/articles/septieme-limite-planetaire.html" class="article-card__link">
-          <div class="article-card__meta">
-            <time class="article-card__date">20 avril 2026</time>
-          </div>
-          <h3 class="article-card__title">Septième limite franchie : L'acidification des océans</h3>
-          <p class="article-card__excerpt">
-            Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.
-          </p>
-          <div class="article-card__meta-footer">
-            <span class="article-card__category">Limites planétaires</span>
-            <span class="article-card__reading-time">~10 min de lecture</span>
-          </div>
-        </a>
-      </article>
-
-      <!-- Placeholder - Analyses en préparation -->
       <div class="placeholder-card">
         <div class="placeholder-card__status">À venir</div>
-        <h3 class="placeholder-card__title">Analyses en préparation</h3>
-        <p class="placeholder-card__text">
-          NEMO IMS face à ses objections, lecture monétaire des limites planétaires, débats avec les écoles hétérodoxes contemporaines (MMT, post-keynésianisme, économie écologique)…
-        </p>
-        <div class="placeholder-card__footer">À paraître</div>
+        <h3 class="article-card__title" style="font-size:20px">Analyses en préparation</h3>
+        <p class="article-card__excerpt">NEMO IMS face à ses objections, lecture monétaire des limites planétaires...</p>
       </div>
-
     </div>
   </section>
 
-  <!-- Auteurs invités -->
-  <section class="articles-section articles-section--alt">
-    <div class="articles-section__inner">
-      <h2 class="section-title">Auteurs <em>invités</em> <span class="section-count">1 article</span></h2>
-      <p class="section-intro">Contributions extérieures qui dialoguent avec le programme Debunk'Onomy.</p>
-
-      <!-- Article invité - Solow -->
-      <article class="article-card">
-        <a href="/articles/auteur/solow/" class="article-card__link">
-          <div class="article-card__meta">
-            <time class="article-card__date">23 décembre 2024</time>
-          </div>
-          <h3 class="article-card__title">Robert Solow, ou les habits économiques conventionnels des théories de la transition</h3>
-          <p class="article-card__excerpt">
-            Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique. Par Jean Latreille.
-          </p>
-          <div class="article-card__meta-footer">
-            <span class="article-card__category">Critique théorique</span>
-            <span class="article-card__reading-time">~19 min de lecture</span>
-          </div>
-        </a>
-      </article>
-
-      <!-- Placeholder - Autres contributions -->
-      <div class="placeholder-card">
-        <div class="placeholder-card__status">À venir</div>
-        <h3 class="placeholder-card__title">D'autres contributions invitées</h3>
-        <p class="placeholder-card__text">
-          Cette section accueillera d'autres contributions de chercheurs, économistes et penseurs invités à dialoguer avec le programme Debunk'Onomy.
-        </p>
-        <div class="placeholder-card__footer">À paraître</div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="site-footer__inner">
       <div class="site-footer__brand">
-        <img src="/assets/logo-tree.png" alt="Debunk'Onomy" class="site-footer__logo">
-        <p class="site-footer__tagline">
-          Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.
-        </p>
+        <img src="/assets/logo-tree.png" alt="Debunk'Onomy" style="height:50px; margin-bottom:20px">
+        <p>Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p>
       </div>
       <div class="site-footer__columns">
         <div class="footer-column">
           <h4 class="footer-column__title">Le Projet</h4>
           <ul class="footer-column__links">
             <li><a href="/manifeste/">Manifeste</a></li>
-            <li><a href="/livre/">Le Livre</a></li>
+            <li><a href="/livre/">Livre</a></li>
             <li><a href="/nemo-ims/">NEMO IMS</a></li>
-            <li><a href="/articles/">Écrits</a></li>
-            <li><a href="/medias/">Médias</a></li>
           </ul>
         </div>
         <div class="footer-column">
           <h4 class="footer-column__title">Suivre</h4>
           <ul class="footer-column__links">
-            <li><a href="https://jeanchristopheduval.substack.com/">Substack</a></li>
-            <li><a href="https://www.youtube.com/@Jean-ChristopheDuval">YouTube</a></li>
-            <li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/">LinkedIn</a></li>
-            <li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social">Bluesky</a></li>
-            <li><a href="https://jeanchristopheduval.substack.com/">Newsletter</a></li>
+            <li><a href="#">Substack</a></li>
+            <li><a href="#">YouTube</a></li>
           </ul>
         </div>
         <div class="footer-column">
           <h4 class="footer-column__title">Contact</h4>
           <ul class="footer-column__links">
-            <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
-            <li><a href="/a-propos/">À propos</a></li>
-            <li><a href="/contact/">Presse & contact</a></li>
-            <li><a href="/mentions-legales/">Mentions légales</a></li>
+            <li><a href="mailto:contact@debunkonomy.org">Email</a></li>
+            <li><a href="/mentions-legales/">Légal</a></li>
           </ul>
         </div>
       </div>
