@@ -210,14 +210,24 @@
 <section class="news-carousel">
   <div class="news-carousel__inner">
     <div class="news-carousel__header">
-      <h2 class="news-carousel__title">Actualités & Analyses</h2>
-      <p class="news-carousel__subtitle">Dernières publications et réflexions</p>
+      <div class="news-carousel__title-group">
+        <div class="news-carousel__eyebrow">Actualités</div>
+        <h2 class="news-carousel__title">Dernières <em>publications</em></h2>
+      </div>
+      <div class="news-carousel__nav">
+        <button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">←</button>
+        <button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">→</button>
+      </div>
     </div>
-    <div id="news-carousel-grid" class="news-carousel__grid">
-      <!-- Chargé par JavaScript -->
+    <div class="news-carousel__track-wrapper">
+      <div class="news-carousel__track">
+        <!-- Les cartes seront générées par JavaScript -->
+      </div>
     </div>
+    <div class="news-carousel__dots"></div>
   </div>
 </section>
+
 
 <section class="manifesto">
   <div class="manifesto__inner">
