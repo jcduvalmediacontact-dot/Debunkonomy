@@ -16,7 +16,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/site.css">
 
-
+<script src="/assets/articles.js" defer></script>
 </head>
 <body>
 
@@ -45,20 +45,13 @@
   <div class="section__inner">
     <div class="section__head">
       <div>
-        <h2 class="section__title">Articles <em>de l'auteur</em></h2>
+        <h2 class="section__title">Articles <em>de l'auteur</em> <span class="section__count" id="articles-auteur-count">5 articles</span></h2>
         <p class="section__sub" style="margin-top: 14px;">Analyses critiques et notes de travail de Jean-Christophe Duval.</p>
       </div>
     </div>
 
-    <div class="card-grid">
-      <div class="card-entry card-entry--placeholder">
-        <div class="card-entry__date">À venir</div>
-        <h3 class="card-entry__title">Analyses en préparation</h3>
-        <p class="card-entry__excerpt">NEMO IMS face à ses objections, lecture monétaire des limites planétaires, débats avec les écoles hétérodoxes contemporaines (MMT, post-keynésianisme, économie écologique)…</p>
-        <div class="card-entry__meta">
-          <span class="card-entry__tag">À paraître</span>
-        </div>
-      </div>
+    <div class="card-grid" id="articles-auteur-grid">
+      <!-- Les articles seront chargés automatiquement par articles.js -->
     </div>
   </div>
 </section>
@@ -68,29 +61,13 @@
   <div class="section__inner">
     <div class="section__head">
       <div>
-        <h2 class="section__title">Auteurs <em>invités</em> <span class="section__count">1 article</span></h2>
+        <h2 class="section__title">Auteurs <em>invités</em> <span class="section__count" id="articles-invites-count">1 article</span></h2>
         <p class="section__sub" style="margin-top: 14px;">Contributions extérieures qui dialoguent avec le programme Debunk'Onomy.</p>
       </div>
     </div>
 
-    <div class="card-grid">
-      <a href="/articles/auteur/solow/" class="card-entry">
-        <div class="card-entry__date">23 décembre 2024</div>
-        <h3 class="card-entry__title">Robert Solow, ou les habits économiques conventionnels des théories de la transition</h3>
-        <p class="card-entry__excerpt">Comment l'héritage du «&nbsp;Nobel&nbsp;» d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique. Par Jean Latreille.</p>
-        <div class="card-entry__meta">
-          <span class="card-entry__tag">Critique théorique</span>
-          <span class="card-entry__read">~19 min de lecture</span>
-        </div>
-      </a>
-      <div class="card-entry card-entry--placeholder">
-        <div class="card-entry__date">À venir</div>
-        <h3 class="card-entry__title">D'autres contributions invitées</h3>
-        <p class="card-entry__excerpt">Cette section accueillera d'autres contributions de chercheurs, économistes et penseurs invités à dialoguer avec le programme Debunk'Onomy.</p>
-        <div class="card-entry__meta">
-          <span class="card-entry__tag">À paraître</span>
-        </div>
-      </div>
+    <div class="card-grid" id="articles-invites-grid">
+      <!-- Les articles seront chargés automatiquement par articles.js -->
     </div>
   </div>
 </section>
