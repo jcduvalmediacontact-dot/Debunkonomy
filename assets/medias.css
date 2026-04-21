@@ -30,7 +30,7 @@
   padding-bottom: 56.25%; /* 16:9 */
   background: linear-gradient(135deg, var(--teal) 0%, var(--mint-soft) 100%);
   overflow: hidden;
-  opacity: 0.08;
+  opacity: 1;
 }
 
 .video-card__thumbnail img {
