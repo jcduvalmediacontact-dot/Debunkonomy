@@ -1,19 +1,12 @@
 {
   "news": [
     {
-      "id": "news-008",
-      "type": "texte",
-      "date": "2025-01-30",
-      "title": "Robert Solow, ou les habits économiques habituels des théories de la transition",
-      "excerpt": "Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique.",
-      "link": "/articles/invites/solow/solow.html"
-    },{
       "id": "news-007",
       "type": "texte",
       "date": "2026-04-24",
       "title": "Pourquoi les COP ne servent à rien",
       "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
-      "link": "/articles/auteur/cop-lobbycratie/cop-lobbycratie.html"
+      "link": "/articles/auteur/cop-lobbycratie/"
     },
     {
       "id": "news-006",
@@ -21,7 +14,7 @@
       "date": "2026-04-23",
       "title": "Ivan Illich : Le prophète de la convivialité",
       "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
-      "link": "/articles/auteur/ivan-illich-portrait/ivan-illich-portrait.html"
+      "link": "/articles/auteur/ivan-illich-portrait/"
     },
     {
       "id": "news-005",
@@ -29,7 +22,7 @@
       "date": "2026-04-22",
       "title": "Le mythe de Sisyphe de la dette",
       "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
-      "link": "/articles/auteur/creation-monetaire-dette/creation-monetaire-dette.html"
+      "link": "/articles/auteur/creation-monetaire-dette/"
     },
     {
       "id": "news-004",
@@ -37,7 +30,7 @@
       "date": "2026-04-21",
       "title": "Le PIB ne mesure pas ce que nous croyons",
       "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
-      "link": "/articles//auteur/limites-pib/limites-pib.html"
+      "link": "/articles/auteur/limites-pib/"
     },
     {
       "id": "news-003",
@@ -45,7 +38,7 @@
       "date": "2026-04-20",
       "title": "Septième limite franchie : L'acidification des océans",
       "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
-      "link": "/articles//auteur/septieme-limite-planetaire/septieme-limite-planetaire.html"
+      "link": "/articles/auteur/septieme-limite-planetaire/"
     },
     {
       "id": "news-002",
