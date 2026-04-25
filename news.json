@@ -1,6 +1,17 @@
 {
   "news": [
+    
+    
+    
     {
+  "id": "news-008",
+  "type": "texte",
+  "date": "2026-04-26",
+  "title": "Finance verte : cette grande illusion qui nous mène au chaos",
+  "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records.",
+  "link": "/articles/auteur/finance-verte-illusion/"
+}
+{
       "id": "news-007",
       "type": "texte",
       "date": "2026-04-24",
