@@ -1,6 +1,15 @@
 {
   "auteur": [
     {
+      "id": "finance-verte-illusion",
+      "date": "2026-04-26",
+      "title": "Finance verte : cette grande illusion qui nous mène au chaos",
+      "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Autopsie d'une imposture systémique.",
+      "link": "/articles/auteur/finance-verte-illusion/",
+      "category": "Finance durable",
+      "readTime": "20 min"
+    },
+    {
       "id": "cop-lobbycratie",
       "date": "2026-04-24",
       "title": "Pourquoi les COP ne servent à rien",
