@@ -1,10 +1,15 @@
-// News Carousel - Version complète avec navigation
+// News Carousel - Version avec support tactile (swipe)
 (function() {
   'use strict';
 
   let currentSlide = 0;
   let newsData = [];
   let cardsPerView = 3;
+  
+  // Variables pour le swipe tactile
+  let touchStartX = 0;
+  let touchEndX = 0;
+  let isDragging = false;
 
   // Formatage de la date
   function formatDate(dateStr) {
@@ -99,6 +104,7 @@
     const offset = -(currentSlide * (cardWidth + gap));
     
     track.style.transform = `translateX(${offset}px)`;
+    track.style.transition = isDragging ? 'none' : 'transform 0.3s ease-out';
 
     // Update buttons
     if (prevBtn) prevBtn.disabled = currentSlide === 0;
@@ -124,6 +130,41 @@
     }
     
     updateCarousel();
+  }
+
+  // ===== GESTION DU SWIPE TACTILE =====
+  function handleTouchStart(e) {
+    touchStartX = e.changedTouches[0].screenX;
+    isDragging = true;
+  }
+
+  function handleTouchMove(e) {
+    if (!isDragging) return;
+    touchEndX = e.changedTouches[0].screenX;
+  }
+
+  function handleTouchEnd() {
+    if (!isDragging) return;
+    isDragging = false;
+    
+    const swipeDistance = touchStartX - touchEndX;
+    const minSwipeDistance = 50; // Distance minimale pour déclencher le swipe (en pixels)
+    
+    if (Math.abs(swipeDistance) > minSwipeDistance) {
+      if (swipeDistance > 0) {
+        // Swipe vers la gauche = suivant
+        navigate('next');
+      } else {
+        // Swipe vers la droite = précédent
+        navigate('prev');
+      }
+    } else {
+      // Pas assez de distance = retour à la position actuelle
+      updateCarousel();
+    }
+    
+    touchStartX = 0;
+    touchEndX = 0;
   }
 
   // Créer les dots
@@ -183,6 +224,11 @@
       createDots();
       updateCarousel();
 
+      // ===== AJOUTER LES EVENT LISTENERS TACTILES =====
+      track.addEventListener('touchstart', handleTouchStart, { passive: true });
+      track.addEventListener('touchmove', handleTouchMove, { passive: true });
+      track.addEventListener('touchend', handleTouchEnd, { passive: true });
+
     } catch (error) {
       console.error('Erreur lors du chargement des news:', error);
       track.innerHTML = '<div class="news-carousel__loading">Erreur lors du chargement des actualités.</div>';
@@ -194,7 +240,7 @@
     updateCardsPerView();
     loadNews();
 
-    // Event listeners
+    // Event listeners pour les boutons
     const prevBtn = document.querySelector('.news-carousel__nav-btn--prev');
     const nextBtn = document.querySelector('.news-carousel__nav-btn--next');
 
