@@ -1,20 +1,11 @@
 {
   "auteur": [
     {
-      "id": "finance-verte-illusion",
-      "date": "2026-04-26",
-      "title": "Finance verte : cette grande illusion qui nous mène au chaos",
-      "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Autopsie d'une imposture systémique.",
-      "link": "/articles/auteur/finance-verte-illusion/",
-      "category": "Finance durable",
-      "readTime": "20 min"
-    },
-    {
       "id": "cop-lobbycratie",
       "date": "2026-04-24",
       "title": "Pourquoi les COP ne servent à rien",
       "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
-      "link": "/articles/auteur/cop-lobbycratie/",
+      "link": "/articles/auteur/cop-lobbycratie/index",
       "category": "Politique climatique",
       "readTime": "12 min"
     },
@@ -23,7 +14,7 @@
       "date": "2026-04-23",
       "title": "Ivan Illich : Le prophète de la convivialité",
       "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
-      "link": "/articles/auteur/ivan-illich-portrait/",
+      "link": "/articles/auteur/ivan-illich-portrait/index",
       "category": "Penseurs",
       "readTime": "15 min"
     },
@@ -32,7 +23,7 @@
       "date": "2026-04-22",
       "title": "Le mythe de Sisyphe de la dette",
       "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
-      "link": "/articles/auteur/creation-monetaire-dette/",
+      "link": "/articles/auteur/creation-monetaire-dette/index",
       "category": "Théorie monétaire",
       "readTime": "18 min"
     },
@@ -41,7 +32,7 @@
       "date": "2026-04-21",
       "title": "Le PIB ne mesure pas ce que nous croyons",
       "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
-      "link": "/articles/auteur/limites-pib/",
+      "link": "/articles/auteur/limites-pib/index",
       "category": "Critique économique",
       "readTime": "14 min"
     },
@@ -50,18 +41,27 @@
       "date": "2026-04-20",
       "title": "Septième limite franchie : L'acidification des océans",
       "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
-      "link": "/articles/auteur/septieme-limite-planetaire/",
+      "link": "/articles/auteur/septieme-limite-planetaire/index",
       "category": "Écologie",
       "readTime": "10 min"
+    }
+    { 
+      "id": "finance-verte-illusion",
+      "date": "2026-04-26",
+      "title": "Finance verte : cette grande illusion qui nous mène au chaos",
+      "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Anatomie d'une imposture systémique.",
+      "link": "/articles/auteur/finance-verte-illusion/index",
+      "category": "Finance durable",
+      "readTime": "20 min"
     }
   ],
   "invites": [
     {
       "id": "solow",
-      "date": "2024-12-23",
+      "date": "2025-01-30",
       "title": "Robert Solow, ou les habits économiques conventionnels des théories de la transition",
       "excerpt": "Comment l'héritage du « Nobel » d'économie 1987 continue de structurer en profondeur les théories contemporaines de la transition écologique.",
-      "link": "/articles/invites/solow/",
+      "link": "/articles/invites/solow/index",
       "category": "Critique théorique",
       "readTime": "19 min",
       "author": "Jean Latreille"

@@ -1236,33 +1236,186 @@ img { max-width: 100%; height: auto; display: block; }
 <!-- NEMO Section -->
 <section class="nemo" id="nemo">
   <div class="nemo__inner">
-    <div class="nemo__header">
-      <div class="nemo__eyebrow">Le système monétaire</div>
-      <h2 class="nemo__title">NEMO <em>IMS</em></h2>
-      <p class="nemo__subtitle">NEgentropic NOney International Monetary System — Un système monétaire conçu pour la robustesse écosystémique.</p>
+    <div class="nemo__intro">
+      <h2 class="nemo__title">NEMO IMS</h2>
+      <h3 class="nemo__subtitle">NEgentropic MOney International Monetary System</h3>
+      <p class="nemo__tagline">Un système monétaire au service de la régénération planétaire</p>
     </div>
-    <div class="nemo__features">
-      <div class="nemo__feature">
-        <div class="nemo__feature-number">01</div>
-        <h3>Souveraineté Réelle</h3>
-        <p>Une monnaie qui n'est plus créée par la dette privée, mais par les besoins de la transition.</p>
-      </div>
-      <div class="nemo__feature">
-        <div class="nemo__feature-number">02</div>
-        <h3>Indexation Bio-physique</h3>
-        <p>La masse monétaire est pilotée par les indicateurs de santé des écosystèmes.</p>
-      </div>
-      <div class="nemo__feature">
-        <div class="nemo__feature-number">03</div>
-        <h3>Stabilité Post-Croissance</h3>
-        <p>Un mécanisme financier qui ne s'effondre pas lorsque la consommation diminue.</p>
-      </div>
+
+    <div class="nemo__pillars">
+      
+      <!-- Pilier 1 - Monnaie régénérative -->
+      <a href="/nemo-ims/monnaie-regenerative/" class="nemo__pillar">
+        <div class="nemo__pillar-number">1</div>
+        <h4 class="nemo__pillar-title">Une monnaie régénérative créée sans contrepartie de dette</h4>
+        <p class="nemo__pillar-text">
+          Le système actuel repose sur une "malédiction" : la monnaie est créée par les banques commerciales en contrepartie d'une dette. Ce mécanisme impose une contrainte de rentabilité à court terme qui pousse inexorablement vers une croissance infinie d'activités extractives et dégénératives.
+        </p>
+        <div class="nemo__pillar-cta">En savoir plus →</div>
+      </a>
+
+      <!-- Pilier 2 - Théorie quantitative -->
+      <a href="/nemo-ims/theorie-quantitative/" class="nemo__pillar">
+        <div class="nemo__pillar-number">2</div>
+        <h4 class="nemo__pillar-title">Une théorie quantitative dynamique de la monnaie (Flux vs Stock)</h4>
+        <p class="nemo__pillar-text">
+          NEMO IMS rompt avec la vision de la monnaie comme un stock statique ou une marchandise rare telle que l'or ou Bitcoin. Elle se définie comme un flux dynamique permanent doté d'un cycle de vie comparable aux cycles naturels.
+        </p>
+        <div class="nemo__pillar-cta">En savoir plus →</div>
+      </a>
+
+      <!-- Pilier 3 - Hégémon monétaire -->
+      <a href="/nemo-ims/hegemon-monetaire/" class="nemo__pillar">
+        <div class="nemo__pillar-number">3</div>
+        <h4 class="nemo__pillar-title">Un nouvel hégémon monétaire pour une coopération internationale</h4>
+        <p class="nemo__pillar-text">
+          L'architecture du commerce mondial actuel force les nations à une compétition extractive pour stabiliser leur balance commerciale et accumuler des devises clés comme le dollar. NEMO IMS propose de remplacer cette guerre économique délétère par une coopération pour la robustesse planétaire.
+        </p>
+        <div class="nemo__pillar-cta">En savoir plus →</div>
+      </a>
+
     </div>
-    <div class="nemo__cta">
-      <a href="/nemo-ims/" class="btn btn--dark">Explorer le système en détail <span class="btn__arrow">→</span></a>
+
+    <div class="nemo__footer">
+      <a href="/nemo-ims/" class="nemo__footer-link">Découvrir NEMO IMS en détail</a>
+      <a href="/livre/" class="nemo__footer-link nemo__footer-link--primary">Lire le livre</a>
     </div>
   </div>
 </section>
+
+<!-- CSS supplémentaire pour les piliers cliquables -->
+<style>
+.nemo__intro {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.nemo__pillars {
+  display: grid;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+.nemo__pillar {
+  display: block;
+  padding: 40px;
+  background: rgba(74, 139, 146, 0.08);
+  border: 1px solid rgba(168, 234, 234, 0.15);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.nemo__pillar:hover {
+  transform: translateY(-4px);
+  background: rgba(74, 139, 146, 0.12);
+  border-color: rgba(168, 234, 234, 0.3);
+}
+
+.nemo__pillar-number {
+  font-family: var(--ff-display);
+  font-size: 48px;
+  font-weight: 300;
+  color: var(--mint);
+  opacity: 0.3;
+  margin-bottom: 16px;
+}
+
+.nemo__pillar-title {
+  font-family: var(--ff-display);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--ink-deep);
+  margin-bottom: 16px;
+  line-height: 1.3;
+  transition: color 0.3s;
+}
+
+.nemo__pillar:hover .nemo__pillar-title {
+  color: var(--teal);
+}
+
+.nemo__pillar-text {
+  font-family: var(--ff-serif);
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--ink);
+  opacity: 0.85;
+}
+
+.nemo__pillar-cta {
+  font-family: var(--ff-sans);
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--teal);
+  opacity: 0.7;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.nemo__pillar:hover .nemo__pillar-cta {
+  opacity: 1;
+  transform: translateX(4px);
+  color: var(--mint);
+}
+
+.nemo__footer {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nemo__footer-link {
+  padding: 14px 28px;
+  border: 1px solid rgba(28, 90, 96, 0.3);
+  border-radius: 999px;
+  font-family: var(--ff-sans);
+  font-size: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.nemo__footer-link:hover {
+  background: var(--ink);
+  color: var(--cream);
+  border-color: var(--ink);
+}
+
+.nemo__footer-link--primary {
+  background: var(--ink);
+  color: var(--cream);
+  border-color: var(--ink);
+}
+
+.nemo__footer-link--primary:hover {
+  background: var(--ink-deep);
+  border-color: var(--ink-deep);
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+  .nemo__pillar {
+    padding: 32px 24px;
+  }
+  
+  .nemo__pillar:hover {
+    transform: none;
+  }
+  
+  .nemo__pillar-number {
+    font-size: 36px;
+  }
+  
+  .nemo__pillar-title {
+    font-size: 18px;
+  }
+}
+</style>
 
 <!-- Author Section -->
 <section class="author" id="auteur">
@@ -1274,7 +1427,7 @@ img { max-width: 100%; height: auto; display: block; }
       <div class="author__eyebrow">L'auteur</div>
       <h2 class="author__name">Jean-Christophe <em>Duval</em></h2>
       <p class="author__role">Chercheur indépendant & Économiste écologique</p>
-      <p class="author__bio">Expert en systèmes monétaires alternatifs, théoricien de la décroissance et de la robustesse écosystémique, Jean-Christophe Duval travaille depuis 11 ans sur la convergence entre finance et limites planétaires.</p>
+      <p class="author__bio">Spécialiste des systèmes monétaires et de la thermodynamique économique, Jean-Christophe Duval travaille depuis 15 ans sur la convergence entre finance et limites planétaires.</p>
       <div class="author__links">
         <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a>
         <a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a>
