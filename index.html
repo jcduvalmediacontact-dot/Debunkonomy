@@ -1292,6 +1292,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .nemo__pillars {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 32px;
   margin-bottom: 60px;
 }
@@ -1399,6 +1400,10 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Responsive */
 @media (max-width: 980px) {
+  .nemo__pillars {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
   .nemo__pillar {
     padding: 32px 24px;
   }
@@ -1413,6 +1418,16 @@ img { max-width: 100%; height: auto; display: block; }
   
   .nemo__pillar-title {
     font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .nemo__pillars {
+    grid-template-columns: 1fr;
+  }
+  
+  .nemo__pillar {
+    padding: 28px 20px;
   }
 }
 </style>
