@@ -1,6 +1,15 @@
 {
   "auteur": [
     {
+      "id": "impossible-decoupage",
+      "date": "2026-04-27",
+      "title": "Records boursiers, planète mourante : pourquoi l'économie qui 'fonctionne' nous tue",
+      "excerpt": "Comment un système peut-il simultanément réussir économiquement et détruire les fondations qui rendent cette réussite possible ? Déconstruction du mythe du découplage absolu et proposition d'une alternative structurelle : NEMO IMS.",
+      "link": "/articles/auteur/impossible-decoupage/",
+      "category": "Économie écologique",
+      "readTime": "22 min"
+    },
+    {
       "id": "finance-verte-illusion",
       "date": "2026-04-26",
       "title": "Finance verte : cette grande illusion qui nous mène au chaos",

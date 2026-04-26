@@ -1,8 +1,21 @@
 {
   "news": [
-    
-    
-    
+    {
+      "id": "news-009",
+      "type": "texte",
+      "date": "2026-04-27",
+      "title": "Records boursiers, planète mourante : pourquoi l'économie qui 'fonctionne' nous tue",
+      "excerpt": "Comment un système peut-il simultanément réussir économiquement et détruire les fondations qui rendent cette réussite possible ? Déconstruction du mythe du découplage absolu.",
+      "link": "/articles/auteur/impossible-decoupage/"
+    },
+    {
+      "id": "news-008",
+      "type": "texte",
+      "date": "2026-04-26",
+      "title": "Finance verte : cette grande illusion qui nous mène au chaos",
+      "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Anatomie d'une imposture systémique.",
+      "link": "/articles/auteur/finance-verte-illusion/"
+    },
     {
       "id": "news-007",
       "type": "texte",
@@ -60,13 +73,6 @@
       "excerpt": "Présentation du système monétaire néguentropique.",
       "youtubeId": "NtQZm9RcpFk",
       "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk"
-    },
-    { "id": "news-008",
-      "type": "texte",
-      "date": "2026-04-26",
-      "title": "Finance verte : cette grande illusion qui nous mène au chaos",
-      "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Anatomie d'une imposture systémique.",
-      "link": "/articles/auteur/finance-verte-illusion/index"
     }
   ]
 }
