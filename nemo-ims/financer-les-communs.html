@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Financer les communs — Deuxième pilier de la robustesse — NEMO IMS</title>
+<meta name="description" content="COP29, recherche précarisée, biodiversité abandonnée : les communs sont structurellement sous-financés. Le deuxième pilier : financer autrement les activités essentielles et régénératives.">
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/nemo.css">
+<style>
+.article-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 40px 100px;
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 14, "SOFT" 45;
+  font-size: 19px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.article-content h2 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 48, "SOFT" 25;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 60px 0 24px;
+  color: var(--ink-deep);
+}
+.article-content h3 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 24, "SOFT" 35;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 40px 0 16px;
+  color: var(--forest);
+}
+.article-content h3 em {
+  font-style: italic;
+  font-variation-settings: "opsz" 24, "SOFT" 60, "WONK" 1;
+}
+.article-content p {
+  margin-bottom: 24px;
+}
+.article-content strong {
+  font-weight: 600;
+  color: var(--ink-deep);
+}
+.article-content em {
+  font-style: italic;
+  font-variation-settings: "opsz" 14, "SOFT" 70, "WONK" 1;
+}
+.article-content a {
+  color: var(--forest);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-nav {
+  background: var(--cream);
+  padding: 24px 40px;
+  border-bottom: 1px solid var(--forest-soft);
+}
+.article-nav__inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.article-nav__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--ff-sans);
+  font-size: 14px;
+  color: var(--ink);
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.article-nav__item:hover {
+  border-color: var(--forest);
+  transform: translateY(-1px);
+}
+.article-nav__item.active {
+  background: var(--forest);
+  color: white;
+}
+.article-nav__num {
+  font-weight: 700;
+  opacity: 0.5;
+}
+.article-nav__item.active .article-nav__num {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/" class="current">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<div class="article-nav">
+  <div class="article-nav__inner">
+    <a href="/nemo-ims/debusquer-le-superflu.html" class="article-nav__item">
+      <span class="article-nav__num">01</span>
+      <span>Débusquer le superflu</span>
+    </a>
+    <a href="/nemo-ims/financer-les-communs.html" class="article-nav__item active">
+      <span class="article-nav__num">02</span>
+      <span>Financer les communs</span>
+    </a>
+    <a href="/nemo-ims/optimiser-essentiel.html" class="article-nav__item">
+      <span class="article-nav__num">03</span>
+      <span>Optimiser l'essentiel</span>
+    </a>
+  </div>
+</div>
+
+<section class="nemo-hero" style="padding: 100px 40px 80px;">
+  <div class="nemo-hero__bg"></div>
+  <div class="nemo-hero__inner">
+    <div class="nemo-hero__eyebrow">Deuxième pilier · Financer</div>
+    <h1 class="nemo-hero__acronym" style="font-size: clamp(36px, 7vw, 72px);">Financer les communs</h1>
+    <p class="nemo-hero__lede">Comment libérer ce qui ne peut avoir de prix</p>
+  </div>
+</section>
+
+<article class="article-content">
+<p><strong>Novembre 2024, Bakou.</strong> La COP29, surnommée la “COP de
+la finance”, s’achève dans la controverse. Après des négociations
+marathons, les pays développés s’engagent à mobiliser 300 milliards de
+dollars par an d’ici 2035 pour l’action climatique dans les pays en
+développement. Les pays du Sud, qui réclamaient 1 300 milliards,
+quittent la salle avec un sentiment d’amère déception. Le secrétaire
+général de l’ONU tempère : “J’espérais un résultat plus ambitieux.”</p>
+<p>La promesse de 2009 — 100 milliards par an dès 2020 — n’a jamais été
+tenue. Quinze ans plus tard, le nouveau chiffre est trois fois
+supérieur, mais sera effectif dans onze ans. Pendant ce temps, l’écart
+de financement pour l’adaptation climatique se creuse : 284 à 339
+milliards de dollars par an sont nécessaires, soit douze à quatorze fois
+les flux actuels.</p>
+<p><strong>Paris, janvier 2025.</strong> Laure, 34 ans, chercheuse en
+neurosciences, enchaîne les CDD post-doctoraux depuis six ans. “Ma
+visibilité professionnelle s’arrête à août 2026, explique-t-elle. C’est
+extrêmement difficile de construire une vie quand on doit changer de
+poste régulièrement.” Cette année, cinq postes permanents au CNRS dans
+sa thématique — pour 95 candidatures. Guillaume, son collègue, a quitté
+la recherche à 34 ans pour devenir infirmier : “Je gagne le même salaire
+en faisant 35 heures par semaine, contre 50 à 60 heures en fin de
+post-doc. La pression était devenue insoutenable.”</p>
+<p>Sans la recherche fondamentale menée pendant des décennies, il n’y
+aurait pas eu de vaccin à ARN messager contre le Covid-19. Mais la
+France, pays de Pasteur, n’a produit aucun vaccin pendant la pandémie.
+Symptôme d’un système de recherche sous-financé où les scientifiques
+vivent en précarité permanente.</p>
+<p><strong>Deux fronts, même diagnostic : les communs planétaires —
+biodiversité, climat, océans, recherche fondamentale, santé publique,
+éducation — sont laissés pour compte.</strong> Non par négligence, mais
+par incompatibilité structurelle : ces activités essentielles ne peuvent
+ni ne doivent être soumises aux logiques du marché. Leur nature les rend
+incompatibles avec la rentabilité à court terme. Pourtant, aucun
+mécanisme de financement n’existe à la hauteur des enjeux. Résultat : on
+négocie pendant quinze ans pour des sommes dérisoires face aux besoins,
+on précarise les chercheurs qui produisent les connaissances vitales, on
+laisse les forêts brûler faute de moyens pour les protéger.</p>
+<p>Le deuxième pilier d’une économie de la robustesse consiste
+précisément à <strong>financer les activités non marchandes,
+essentielles et régénératives autrement que par les mécanismes
+traditionnels de la croissance</strong>. Car tant que ces activités
+dépendront de l’impôt ou de la charité, elles resteront structurellement
+sous-dotées.</p>
+<hr />
+<h3
+id="le-piège-structurel-impôt-ou-marché-les-communs-perdent-toujours"><strong>Le
+piège structurel : impôt ou marché, les communs perdent
+toujours</strong></h3>
+<p>Pourquoi est-il si difficile de financer les communs ? Parce que nous
+sommes pris dans un double étau.</p>
+<h3
+id="loption-1-le-financement-par-limpôt-instable-et-insuffisant"><strong>L’option
+1 : Le financement par l’impôt — instable et insuffisant</strong></h3>
+<p>Les États financent les communs via les recettes fiscales. Mais cette
+méthode rencontre trois limites structurelles :</p>
+<p><strong>La contrainte budgétaire.</strong> Chaque euro alloué à la
+protection des forêts est un euro non disponible pour l’éducation, la
+défense, ou le remboursement de la dette. Les arbitrages budgétaires
+mettent en concurrence des priorités incomparables, et les communs —
+dont les bénéfices sont diffus et à long terme — perdent
+systématiquement face aux urgences politiques immédiates.</p>
+<p><strong>L’instabilité politique.</strong> Les gouvernements changent,
+les priorités aussi. Un programme ambitieux de restauration écologique
+peut être démantelé au prochain changement de majorité. Les
+scientifiques, les gestionnaires de parcs naturels, les équipes de
+dépollution travaillent dans l’incertitude permanente. Impossible de
+planifier à vingt ans avec des budgets votés chaque année.</p>
+<p><strong>L’optimisation fiscale et la concurrence
+internationale.</strong> Les grandes entreprises contournent l’impôt,
+les États se livrent au dumping fiscal pour attirer les investissements.
+Résultat : l’assiette fiscale se réduit pendant que les besoins
+explosent. Entre 2009 et 2024, la promesse de 100 milliards annuels pour
+le climat n’a jamais été tenue — non par manque de volonté affichée,
+mais par manque de mécanismes contraignants et de ressources
+stables.</p>
+<h3
+id="loption-2-le-financement-par-le-marché-incompatible-avec-la-mission"><strong>L’option
+2 : Le financement par le marché — incompatible avec la
+mission</strong></h3>
+<p>L’alternative, c’est le marché. Privatiser, marchandiser,
+rentabiliser. Mais comment rentabiliser la protection d’une forêt
+primaire ? Comment faire du profit avec la recherche fondamentale dont
+les retombées sont imprévisibles et à horizon de plusieurs décennies
+?</p>
+<p><strong>La finance privée cherche le retour sur
+investissement.</strong> Quand elle finance la biodiversité, elle exige
+des “rendements écosystémiques” mesurables à court terme. Quand elle
+finance la recherche, elle privilégie l’innovation commercialisable au
+détriment de la connaissance fondamentale. L’ARN messager a été
+développé grâce à trente ans de recherche publique “inutile” — aucun
+investisseur privé n’aurait financé cela.</p>
+<p><strong>Les biens communs n’ont pas de propriétaire qui capte les
+bénéfices.</strong> Restaurer les sols bénéficie à tous, mais personne
+en particulier ne peut exclure les autres de ces bénéfices et monétiser
+l’accès. C’est précisément ce qui fait d’eux des communs. Les soumettre
+à la logique marchande, c’est soit les détruire (en créant
+artificiellement de la rareté et de l’exclusion), soit échouer à les
+financer.</p>
+<p><strong>Les prêts créent de la dette insoutenable.</strong> À la
+COP29, une critique centrale portait sur la nature des financements : la
+majorité sont des prêts, pas des subventions. Les pays vulnérables
+paient déjà des taux d’intérêt 2 à 4 fois supérieurs à ceux des
+États-Unis, 6 à 12 fois supérieurs à ceux de l’Allemagne. Leur
+endettement climatique les empêche de financer l’adaptation. Le système
+les force à emprunter pour réparer des dégâts qu’ils n’ont pas causés,
+puis les asphyxie avec les intérêts.</p>
+<h3 id="le-diagnostic-une-impasse-systémique"><strong>Le diagnostic :
+une impasse systémique</strong></h3>
+<p>Résumons : - <strong>Par l’impôt</strong> → instabilité, arbitrages
+politiques, ressources insuffisantes. - <strong>Par le marché</strong> →
+incompatibilité avec la nature non rentable des communs, endettement,
+externalisation des bénéfices.</p>
+<p>Résultat : les communs planétaires — air pur, eau douce,
+biodiversité, océans, forêts, recherche fondamentale, éducation, santé
+publique — sont structurellement sous-financés. Non pas parce que
+l’humanité manque d’argent (les États-Unis ont dépensé 75 milliards en
+quatre jours lors du Black Friday 2025), mais parce qu’<strong>aucun
+mécanisme ne permet de mobiliser des ressources à la hauteur des enjeux
+sans passer par les contraintes du budget national ou la rentabilité
+marchande</strong>.</p>
+<hr />
+<h3
+id="le-deuxième-pilier-une-finance-au-service-des-communs-pas-du-profit"><strong>Le
+deuxième pilier : une finance au service des communs, pas du
+profit</strong></h3>
+<p>Face à cette impasse, une économie de la robustesse propose une
+approche radicalement différente : <strong>créer un mécanisme de
+financement mondial dédié spécifiquement aux communs, indépendant des
+contraintes budgétaires nationales et des logiques de
+rentabilité</strong>.</p>
+<h3 id="trois-principes-structurants"><strong>Trois principes
+structurants</strong></h3>
+<p><strong>1. Financement indépendant des budgets nationaux</strong></p>
+<p>Les communs planétaires — climat, biodiversité, océans — dépassent
+les frontières. Leur financement ne peut dépendre de la bonne volonté de
+chaque gouvernement ni des aléas de politiques budgétaires nationales.
+Il faut un mécanisme international, stable, prévisible, à l’échelle des
+enjeux.</p>
+<p><strong>2. Création monétaire conditionnée à la régénération, sans
+dette</strong></p>
+<p>Plutôt que d’emprunter sur les marchés ou de quémander des
+subventions budgétaires, ce financement repose sur la <strong>création
+monétaire directe conditionnée à des objectifs vérifiables</strong> de
+restauration écologique et de préservation des communs. Pas de dette à
+rembourser. Pas d’intérêts qui asphyxient. La monnaie est créée pour
+financer ce qui régénère, point.</p>
+<p><strong>3. Financement à la hauteur des besoins réels</strong></p>
+<p>Pas de négociations politiques pour arracher quelques milliards de
+plus. Le financement est calibré sur les besoins réels identifiés par la
+science : combien faut-il pour restaurer les forêts, dépolluer les
+océans, protéger la biodiversité, financer la recherche fondamentale ?
+C’est cette somme qui est allouée.</p>
+<h3 id="les-domaines-prioritaires"><strong>Les domaines
+prioritaires</strong></h3>
+<p>Ce mécanisme finance spécifiquement :</p>
+<p><strong>Les communs environnementaux</strong> : air pur, eau douce,
+biodiversité, forêts primaires, océans, sols fertiles. Tout ce qui
+constitue le substrat vivant sans lequel aucune économie n’est
+possible.</p>
+<p><strong>La recherche fondamentale</strong> : celle qui ne sera jamais
+rentable à court terme mais produit les connaissances qui transforment
+le monde à long terme. L’ARN messager, Internet, le GPS — toutes ces
+innovations sont nées de recherches fondamentales publiques menées sans
+objectif commercial immédiat.</p>
+<p><strong>L’éducation et la santé publique</strong> : des biens communs
+par excellence, dont les bénéfices diffusent dans toute la société mais
+ne peuvent être marchandisés sans créer d’inégalités massives.</p>
+<p><strong>Les infrastructures critiques</strong> : réseaux d’eau
+potable, systèmes d’assainissement, transport collectif, réseaux
+électriques décarbonés. Essentielles, mais peu rentables si gérées dans
+une logique de profit.</p>
+<p><strong>Principe directeur</strong> : ces activités ne génèrent pas
+nécessairement de profits directs, mais elles sont <strong>absolument
+indispensables au fonctionnement harmonieux d’un écosystème robuste et
+durable</strong>, tant naturel qu’humain.</p>
+<hr />
+<h3
+id="nemo-ims-les-green-dts-une-monnaie-pour-la-régénération"><strong>NEMO
+IMS : les Green DTS, une monnaie pour la régénération</strong></h3>
+<p>C’est précisément ce que propose <strong>NEMO IMS</strong> avec son
+mécanisme central : les <strong>Green DTS</strong> (Green Drawing
+Special Rights, ou Droits de Tirage Spéciaux Verts).</p>
+<h3
+id="inspiration-les-dts-du-fmi-mais-pour-la-régénération"><strong>Inspiration
+: les DTS du FMI, mais pour la régénération</strong></h3>
+<p>Les Droits de Tirage Spéciaux (DTS) existent déjà dans le système
+monétaire international. Créés en 1969, ils permettent au FMI d’émettre
+de la liquidité internationale sans qu’aucun pays n’emprunte ni ne se
+mette en dette. En août 2021, le FMI a émis 650 milliards de dollars de
+DTS pour soutenir les économies frappées par la pandémie. <strong>La
+création monétaire internationale sans dette existe déjà. Elle
+fonctionne.</strong></p>
+<p>Le problème : les DTS servent à stabiliser les économies nationales,
+pas à financer la régénération planétaire. NEMO IMS propose d’étendre ce
+mécanisme avec les <strong>Green DTS</strong>, dédiés exclusivement au
+financement des communs et des activités régénératives.</p>
+<h3 id="comment-ça-marche"><strong>Comment ça marche ?</strong></h3>
+<p><strong>Émission conditionnée</strong> : Les Green DTS ne sont créés
+que pour financer des activités régénératives certifiées. Reforestation
+mesurable. Dépollution vérifiable. Restauration des sols avec
+indicateurs biologiques. Protection effective de la biodiversité.
+Recherche fondamentale en santé ou en sciences du climat. Pas de
+greenwashing, pas de promesses vagues — des objectifs quantifiables, des
+résultats audités.</p>
+<p><strong>Sans dette, sans intérêts</strong> : Contrairement aux prêts
+classiques, les Green DTS ne créent aucune dette à rembourser. La
+monnaie est créée pour servir un objectif, point. Quand une forêt est
+restaurée grâce à des Green DTS, personne ne devra rembourser quoi que
+ce soit. La restauration elle-même est le “retour sur
+investissement”.</p>
+<p><strong>Gouvernance mondiale coopérative</strong> : L’allocation et
+le contrôle des Green DTS relèvent d’une instance internationale — le
+<strong>GAÏA Economic Symposium</strong> dans le cadre NEMO IMS — qui
+définit collectivement les labels d’activités régénératives, les
+montants alloués, et les critères de vérification. Pas d’hégémonie d’un
+pays ou d’un groupe de pays, mais un processus coopératif à l’image de
+l’enjeu : planétaire.</p>
+<h3 id="leffet-de-levier-systémique"><strong>L’effet de levier
+systémique</strong></h3>
+<p>Imaginons : au lieu de négocier pendant quinze ans pour arracher 300
+milliards de dollars par an en 2035, on crée directement 1 300 milliards
+de Green DTS en 2026 — le montant que les pays du Sud réclamaient à la
+COP29.</p>
+<p>Ces 1 300 milliards ne sont pas empruntés. Ils ne créent pas de
+dette. Ils sont alloués à des projets vérifiables : restauration des
+forêts tropicales, transition énergétique des pays en développement,
+protection des récifs coralliens, dépollution des fleuves, financement
+de la recherche climatique et biomédicale.</p>
+<p><strong>Résultat immédiat</strong> : les gouvernements locaux, les
+ONG, les laboratoires de recherche, les gestionnaires d’aires protégées
+peuvent planifier à long terme, recruter des équipes stables, investir
+dans des infrastructures durables. Les chercheurs sortent de la
+précarité. Les forêts sont protégées. Les sols sont régénérés. Les
+énergies fossiles deviennent économiquement obsolètes face à des
+renouvelables massivement financées.</p>
+<p><strong>Résultat systémique</strong> : la création monétaire cesse
+d’être l’apanage des banques privées et de la dette. Elle devient un
+outil au service de la régénération planétaire. L’argent existe pour
+financer ce qui compte vraiment.</p>
+<hr />
+<h3
+id="les-objections-classiques-et-pourquoi-elles-ne-tiennent-pas"><strong>Les
+objections classiques — et pourquoi elles ne tiennent pas</strong></h3>
+<h3 id="ça-va-créer-de-linflation"><strong>“Ça va créer de l’inflation
+!”</strong></h3>
+<p>L’inflation survient quand trop de monnaie chasse trop peu de biens.
+Mais les Green DTS financent précisément la <strong>production de valeur
+écologique réelle</strong> : des forêts restaurées, des sols fertiles,
+de l’air pur, de l’eau potable, des connaissances scientifiques. Ces
+biens augmentent la capacité de charge de la biosphère — donc la
+richesse réelle disponible pour tous.</p>
+<p>Par ailleurs, NEMO IMS équilibre la création monétaire par la
+<strong>fonte monétaire pondérée</strong> : chaque transaction
+dégénérative détruit de la monnaie. Le système est autorégulé : la masse
+monétaire croît quand on régénère, décroît quand on détruit.</p>
+<h3
+id="les-états-ne-voudront-jamais-abandonner-leur-souveraineté-monétaire"><strong>“Les
+États ne voudront jamais abandonner leur souveraineté monétaire
+!”</strong></h3>
+<p>Les États n’abandonnent rien. Les Green DTS complètent les monnaies
+nationales, ils ne les remplacent pas. De la même façon que les DTS du
+FMI coexistent avec le dollar, l’euro, ou le yuan, les Green DTS
+constituent une strate supplémentaire de liquidité internationale dédiée
+à un usage spécifique.</p>
+<p>Surtout : les États ont tout à gagner. Plutôt que de s’endetter pour
+financer la transition écologique ou de ponctionner leurs budgets déjà
+contraints, ils accèdent à une source de financement stable, prévisible,
+et conditionnée à des objectifs qu’ils ont eux-mêmes définis
+collectivement.</p>
+<h3 id="qui-décide-de-ce-qui-est-régénératif-qui-contrôle"><strong>“Qui
+décide de ce qui est régénératif ? Qui contrôle ?”</strong></h3>
+<p>C’est précisément le rôle du <strong>GAÏA Economic Symposium</strong>
+: une instance mondiale de gouvernance coopérative où les États, les
+scientifiques, et les représentants de la société civile définissent
+ensemble les critères de régénération, auditent les projets, ajustent
+les allocations. Transparence totale, gouvernance démocratique, contrôle
+par les pairs.</p>
+<p>Pas d’arbitraire. Pas de greenwashing. Pas de corruption possible :
+les critères sont scientifiques, les résultats mesurables, les audits
+publics.</p>
+<hr />
+<h3 id="conclusion-de-la-charité-à-la-structure"><strong>Conclusion : de
+la charité à la structure</strong></h3>
+<p>Financer les communs par la charité, les subventions instables ou
+l’endettement croissant n’a jamais fonctionné et ne fonctionnera jamais.
+Nous avons quinze ans de promesses climatiques non tenues pour le
+prouver. Nous avons des chercheurs précarisés alors qu’ils produisent
+les connaissances qui sauvent des vies. Nous avons des forêts qui
+brûlent faute de moyens pour les protéger.</p>
+<p>Le problème n’est pas le manque d’argent — l’argent, on peut le
+créer, c’est ce que font les banques commerciales chaque jour pour
+financer la spéculation. Le problème, c’est qu’<strong>aucun mécanisme
+structurel ne permet de créer cet argent pour financer ce qui compte
+vraiment</strong>.</p>
+<p><strong>Le deuxième pilier d’une économie de la robustesse transforme
+cette réalité</strong> : il instaure un mécanisme de création monétaire
+internationale dédié aux communs, indépendant des contraintes
+budgétaires et des logiques de rentabilité. Les Green DTS de NEMO IMS
+matérialisent cette proposition.</p>
+<p>Ce n’est pas utopique. C’est <strong>structurellement
+nécessaire</strong>. Parce que sans financement stable et massif des
+communs planétaires, aucune transition écologique ne sera possible. On
+peut continuer à négocier pendant des décennies pour quelques milliards
+supplémentaires — ou on peut refonder l’architecture monétaire pour
+qu’elle serve enfin ce qui ne peut avoir de prix mais qui a une valeur
+inestimable.</p>
+<p>Le choix est simple : <strong>transformer le système monétaire pour
+qu’il finance la vie, ou regarder la biosphère s’effondrer faute de
+moyens pour la sauver</strong>.</p>
+<hr />
+<p><strong>Pour approfondir :</strong> <em>L’Économie de l’Équilibre —
+Monnaie, Finance et Limites Planétaires</em>, Jean-Christophe Duval,
+Debunk’Onomy, 2026. <a href="https://payhip.com/b/tQhNU">Se procurer le
+livre</a></p>
+</article>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+
+</body>
+</html>

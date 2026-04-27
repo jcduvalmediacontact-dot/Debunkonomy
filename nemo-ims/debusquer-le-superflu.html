@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Débusquer le superflu — Premier pilier de la robustesse — NEMO IMS</title>
+<meta name="description" content="Black Friday, Shein, obsolescence programmée : notre économie produit massivement ce qui détruit. Le premier pilier : débusquer et sanctionner le superflu marchand dégénératif.">
+
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/nemo.css">
+<style>
+.article-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 40px 100px;
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 14, "SOFT" 45;
+  font-size: 19px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.article-content h2 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 48, "SOFT" 25;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 60px 0 24px;
+  color: var(--ink-deep);
+}
+.article-content h3 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 24, "SOFT" 35;
+  font-size: 24px;
+  line-height: 1.3;
+  margin: 40px 0 16px;
+  color: var(--forest);
+}
+.article-content h3 em {
+  font-style: italic;
+  font-variation-settings: "opsz" 24, "SOFT" 60, "WONK" 1;
+}
+.article-content p {
+  margin-bottom: 24px;
+}
+.article-content strong {
+  font-weight: 600;
+  color: var(--ink-deep);
+}
+.article-content em {
+  font-style: italic;
+  font-variation-settings: "opsz" 14, "SOFT" 70, "WONK" 1;
+}
+.article-content a {
+  color: var(--forest);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.article-nav {
+  background: var(--cream);
+  padding: 24px 40px;
+  border-bottom: 1px solid var(--forest-soft);
+}
+.article-nav__inner {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.article-nav__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: var(--ff-sans);
+  font-size: 14px;
+  color: var(--ink);
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.article-nav__item:hover {
+  border-color: var(--forest);
+  transform: translateY(-1px);
+}
+.article-nav__item.active {
+  background: var(--forest);
+  color: white;
+}
+.article-nav__num {
+  font-weight: 700;
+  opacity: 0.5;
+}
+.article-nav__item.active .article-nav__num {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+<nav class="inav">
+  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk'Onomy</span></a>
+  <div class="inav__links">
+    <a href="/manifeste/">Manifeste</a>
+    <a href="/livre/">Livre</a>
+    <a href="/nemo-ims/" class="current">NEMO IMS</a>
+    <a href="/articles/">Écrits</a>
+    <a href="/medias/">Médias</a>
+    <a href="/a-propos/">Auteur</a>
+  </div>
+</nav>
+
+<div class="article-nav">
+  <div class="article-nav__inner">
+    <a href="/nemo-ims/debusquer-le-superflu.html" class="article-nav__item active">
+      <span class="article-nav__num">01</span>
+      <span>Débusquer le superflu</span>
+    </a>
+    <a href="/nemo-ims/financer-les-communs.html" class="article-nav__item">
+      <span class="article-nav__num">02</span>
+      <span>Financer les communs</span>
+    </a>
+    <a href="/nemo-ims/optimiser-essentiel.html" class="article-nav__item">
+      <span class="article-nav__num">03</span>
+      <span>Optimiser l'essentiel</span>
+    </a>
+  </div>
+</div>
+
+<section class="nemo-hero" style="padding: 100px 40px 80px;">
+  <div class="nemo-hero__bg"></div>
+  <div class="nemo-hero__inner">
+    <div class="nemo-hero__eyebrow">Premier pilier · Arrêter</div>
+    <h1 class="nemo-hero__acronym" style="font-size: clamp(36px, 7vw, 72px);">Débusquer le superflu</h1>
+    <p class="nemo-hero__lede">Pourquoi notre économie produit ce qui nous détruit</p>
+  </div>
+</section>
+
+<article class="article-content">
+<p><strong>Novembre 2025.</strong> Les Américains viennent de dépenser
+75 milliards de dollars en quatre jours — Black Friday à Cyber Monday.
+Dans les semaines qui suivent, les déchets ménagers augmenteront de 25
+%, avec 80 % des achats du Black Friday jetés après usage minimal ou
+nul. Au Royaume-Uni, les livraisons du Black Friday génèrent autant
+d’émissions que 435 vols aller-retour Londres-New York. En France, 35
+vêtements sont jetés chaque seconde.</p>
+<p>Pendant ce temps, Shein — l’ultra-fast fashion chinoise devenue géant
+mondial — ajoute jusqu’à 10 000 nouveaux articles par jour sur son site
+et 44 % des Gen Z américains y achètent au moins un article par mois.
+Son empreinte carbone 2023 : 16,7 millions de tonnes de CO₂, le double
+de l’année précédente. Une inspection récente révèle que certains
+produits Temu et Shein contiennent des toxines environnementales
+dépassant les limites autorisées de 4 000 fois.</p>
+<p><strong>Ce n’est pas un bug. C’est le système qui fonctionne
+exactement comme prévu.</strong></p>
+<p>Notre modèle économique ne produit plus pour satisfaire des besoins —
+il produit pour produire. Il fabrique du superflu, le vend à crédit,
+l’emballe dans du plastique, le livre par camion, puis l’incinère ou
+l’enfouit. Et il recommence. Encore et encore. Jusqu’à ce que les
+écosystèmes cèdent.</p>
+<p>Le premier pilier d’une économie de la robustesse consiste
+précisément à <strong>débusquer et sanctionner ce superflu marchand
+dégénératif</strong> — tout ce qui détruit sans apporter de valeur
+réelle. Non pas par vertu morale, mais par nécessité systémique. Parce
+que tant que l’économie sera structurée pour récompenser le gaspillage,
+aucune transition écologique ne sera possible.</p>
+<hr />
+<h3
+id="le-superflu-dégénératif-quatre-visages-dune-même-logique"><strong>Le
+superflu dégénératif : quatre visages d’une même logique</strong></h3>
+<p>Le superflu marchand n’est pas un accident. Il est organisé,
+optimisé, financé. Il prend quatre formes principales, toutes
+interconnectées :</p>
+<h3 id="la-consommation-ostentatoire"><strong>1. La consommation
+ostentatoire</strong></h3>
+<p>Des sacs de luxe à 3 000 euros aux SUV urbains de deux tonnes, la
+consommation ostentatoire transforme la destruction écologique en
+marqueur de statut social. Motivée par la quête d’un prestige illusoire,
+elle détourne des ressources précieuses — métaux rares, eau douce,
+énergie fossile — vers des objets dont la seule fonction est d’exhiber
+un rang.</p>
+<p>Le paradoxe : plus le produit est inutile, plus il signale
+efficacement le statut. Un jet privé n’a aucune utilité fonctionnelle
+qu’un vol commercial ne pourrait remplir — c’est précisément ce qui fait
+sa valeur ostentatoire. Cette économie du signe détruit la biosphère
+pour produire de la distinction.</p>
+<h3 id="lobsolescence-programmée"><strong>2. L’obsolescence
+programmée</strong></h3>
+<p>L’obsolescence programmée est une stratégie industrielle délibérée :
+concevoir des produits dont la durée de vie est artificiellement
+raccourcie pour stimuler la demande. Smartphones qui ralentissent après
+deux ans. Imprimantes dotées de puces comptant les impressions pour
+déclencher une “panne”. Électroménagers dont les pièces détachées
+disparaissent dès la fin de garantie.</p>
+<p>Cette mécanique génère des montagnes de déchets électroniques dont
+seulement 20 % sont correctement recyclés. Le reste finit dans des
+décharges du Sud global, où métaux lourds et toxiques s’infiltrent dans
+les sols et les nappes phréatiques. Au-delà du préjudice
+environnemental, c’est une forme de vol institutionnalisé : on vous vend
+un bien qu’on a délibérément conçu pour ne pas durer.</p>
+<h3 id="la-création-de-besoins-factices"><strong>3. La création de
+besoins factices</strong></h3>
+<p>Le marketing et la publicité ne se contentent pas d’informer — ils
+fabriquent le désir. Ils créent de toutes pièces des besoins qui
+n’existaient pas, transforment des caprices en urgences, et
+conditionnent les populations à considérer l’achat comme solution à
+l’anxiété, à l’ennui, ou à la quête de sens.</p>
+<p>Cette machinerie psychologique détourne l’attention et les ressources
+collectives vers la satisfaction de désirs manufacturés, au détriment
+des besoins réels : logement décent, alimentation saine, éducation de
+qualité, temps libre pour vivre. Le coût d’opportunité est vertigineux —
+combien d’heures de travail humain, combien de tonnes de minerai,
+combien de litres de pétrole gaspillés pour produire ce qui ne servira
+jamais ?</p>
+<h3
+id="la-finance-spéculative-déconnectée-de-léconomie-réelle"><strong>4.
+La finance spéculative déconnectée de l’économie réelle</strong></h3>
+<p>Lorsque la finance devient rentière et spéculative, elle cesse
+d’accompagner la production pour devenir fin en soi. Les capitaux se
+détournent de l’investissement productif et durable pour alimenter des
+bulles : immobilier, cryptomonnaies, produits dérivés complexes.</p>
+<p>Cette finance-casino ne crée aucune valeur tangible. Pire : elle
+détourne des ressources financières qui pourraient financer la
+transition écologique, et encourage les entreprises à privilégier les
+dividendes à court terme plutôt que l’innovation régénérative. Quand
+l’argent rapporte plus d’argent sans passer par la production,
+l’économie devient un jeu à somme négative où la planète paie la
+facture.</p>
+<hr />
+<h3 id="pourquoi-est-ce-structurel-pas-accidentel"><strong>Pourquoi
+est-ce structurel, pas accidentel ?</strong></h3>
+<p>Ces quatre dynamiques ne sont pas des dérives — elles sont
+<strong>inscrites dans la logique même de notre système
+économique</strong> fondé sur la création monétaire par la dette.</p>
+<p>Voici la chaîne causale :</p>
+<ol type="1">
+<li><strong>Les banques créent la monnaie ex nihilo en contrepartie
+d’une dette.</strong></li>
+<li><strong>Cette dette impose une contrainte de rentabilité
+immédiate</strong> — il faut rembourser, avec intérêts.</li>
+<li><strong>La rentabilité immédiate impose des activités
+extractives</strong> — on ne peut pas attendre que les forêts
+repoussent, il faut vendre maintenant.</li>
+<li><strong>Pour maintenir la rentabilité, il faut stimuler la
+demande</strong> — d’où l’obsolescence programmée, la publicité, la
+course au superflu.</li>
+</ol>
+<p><strong>Résultat :</strong> il est structurellement plus rentable de
+détruire que de régénérer. Un jean Shein à 5 euros rapporte plus vite
+qu’un jean durable à 80 euros qui dure dix ans. Une voiture qui tombe en
+panne après trois ans génère plus de PIB qu’une voiture conçue pour
+durer vingt ans.</p>
+<p>Le système n’est pas « mal orienté ». Il est orienté exactement vers
+ce pour quoi il a été conçu : <strong>transformer la dette en
+croissance, et la croissance en extraction</strong>.</p>
+<hr />
+<h3 id="le-premier-pilier-identifier-sanctionner-éradiquer"><strong>Le
+premier pilier : identifier, sanctionner, éradiquer</strong></h3>
+<p>Face à ce constat, une économie de la robustesse impose une
+transformation radicale, structurée autour de trois leviers :</p>
+<h3 id="changements-réglementaires-stricts"><strong>1. Changements
+réglementaires stricts</strong></h3>
+<ul>
+<li><strong>Sanctionner l’obsolescence programmée</strong> :
+interdiction des stratégies délibérées de limitation de durée de vie,
+obligation d’informer sur la durée de vie estimée des produits, droit à
+la réparation inscrit dans la loi.</li>
+<li><strong>Limiter la publicité abusive</strong> : interdiction de la
+publicité pour les produits les plus polluants, encadrement strict du
+marketing ciblant les enfants, taxe proportionnelle au budget
+publicitaire.</li>
+<li><strong>Transparence obligatoire</strong> : affichage de l’empreinte
+écologique complète des produits, traçabilité des chaînes
+d’approvisionnement, publication des analyses de cycle de vie.</li>
+</ul>
+<p>Plusieurs pays ont déjà franchi ce cap. En juin 2025, la France a
+adopté une loi imposant une éco-taxe de 5 euros par article vendu par
+les marques d’ultra-fast fashion, portée à 10 euros d’ici 2030, ainsi
+qu’une interdiction de la publicité pour ces marques.</p>
+<h3
+id="incitations-économiques-pour-les-alternatives-durables"><strong>2.
+Incitations économiques pour les alternatives durables</strong></h3>
+<ul>
+<li><strong>Fiscalité écologique progressive</strong> : taxer les
+produits à obsolescence rapide, subventionner les biens réparables et
+modulaires.</li>
+<li><strong>Valorisation de l’économie de la fonctionnalité</strong> :
+privilégier l’usage sur la possession (location, partage,
+mutualisation).</li>
+<li><strong>Soutien à la réparation</strong> : ateliers de réparation
+subventionnés, formation aux métiers de la réparation, garanties
+étendues obligatoires.</li>
+</ul>
+<p>L’objectif n’est pas de punir la consommation, mais de <strong>rendre
+structurellement plus attractif ce qui dure</strong> que ce qui se
+jette.</p>
+<h3 id="évolution-des-mentalités-et-des-normes-sociales"><strong>3.
+Évolution des mentalités et des normes sociales</strong></h3>
+<p>Aucune réforme réglementaire ne tiendra sans un changement profond
+des représentations collectives. Il faut désacraliser l’accumulation,
+valoriser la sobriété, et redéfinir le statut social autour de critères
+autres que la possession.</p>
+<p>Cela passe par l’éducation, la culture, le débat public — mais aussi
+par la <strong>visibilité d’alternatives crédibles</strong>. Quand la
+consommation responsable devient la norme et non l’exception, quand
+réparer devient plus prestigieux qu’acheter du neuf, le basculement
+s’opère.</p>
+<hr />
+<h3
+id="nemo-ims-une-architecture-monétaire-qui-sanctionne-structurellement-le-superflu"><strong>NEMO
+IMS : une architecture monétaire qui sanctionne structurellement le
+superflu</strong></h3>
+<p>Les leviers réglementaires et fiscaux sont nécessaires. Mais ils ne
+suffisent pas tant que le système monétaire récompense la destruction.
+C’est là qu’intervient <strong>NEMO IMS</strong> (Negentropic Money
+International Monetary System).</p>
+<h3 id="le-mécanisme-la-fonte-monétaire-pondérée"><strong>Le mécanisme :
+la fonte monétaire pondérée</strong></h3>
+<p>Dans le cadre NEMO IMS, chaque transaction supporte un <strong>taux
+de destruction monétaire variable selon son impact écologique</strong>
+:</p>
+<ul>
+<li><strong>0,5 à 1 %</strong> pour les activités régénératives
+(agriculture biologique, réparation, éducation, santé).</li>
+<li><strong>Jusqu’à 20 % ou davantage</strong> pour les activités
+nuisibles (ultra-fast fashion, jets privés, produits à obsolescence
+programmée).</li>
+</ul>
+<p>Concrètement : si vous achetez un jean Shein à 5 euros avec un taux
+de fonte de 15 %, <strong>0,75 euro disparaît de la masse
+monétaire</strong>. Ce n’est pas une taxe redistribuée — c’est de la
+monnaie qui cesse d’exister. L’activité dégénérative détruit
+littéralement sa propre base monétaire.</p>
+<p>À l’inverse, si vous achetez un jean durable produit localement avec
+des matières régénératives, le taux de fonte est minimal (0,5 %).
+<strong>L’activité régénérative préserve la valeur
+monétaire.</strong></p>
+<h3 id="pourquoi-cest-puissant"><strong>Pourquoi c’est
+puissant</strong></h3>
+<p>Ce mécanisme crée une <strong>pression sélective économique</strong>
+qui rend les activités dégénératives structurellement moins rentables,
+sans besoin de surveillance bureaucratique permanente. Le superflu
+devient économiquement toxique — pas par vertu, mais par logique
+comptable.</p>
+<p>Contrairement à une taxe classique, la fonte monétaire ne nécessite
+pas de débat annuel sur les taux ou l’affectation des recettes. Elle
+agit comme un <strong>régulateur automatique</strong> : plus une
+activité dégrade, plus elle détruit de la valeur monétaire, plus elle
+devient coûteuse, plus elle se marginalise.</p>
+<h3 id="la-symétrie-avec-les-green-dts"><strong>La symétrie avec les
+Green DTS</strong></h3>
+<p>Parallèlement, NEMO IMS émet des <strong>Green DTS</strong> (Droits
+de Tirage Spéciaux dédiés aux activités régénératives) sans dette,
+conditionnés à des objectifs écologiques vérifiables : reforestation,
+dépollution, restauration des sols, protection de la biodiversité.</p>
+<p><strong>Le système devient symétrique</strong> : - Ce qui régénère
+<strong>reçoit de la monnaie créée ex nihilo</strong> (Green DTS). - Ce
+qui dégrade <strong>voit sa monnaie détruite progressivement</strong>
+(fonte pondérée).</p>
+<p>L’incitation n’est plus morale. Elle est <strong>structurellement
+inscrite dans l’architecture monétaire elle-même</strong>.</p>
+<hr />
+<h3 id="conclusion-du-constat-à-laction"><strong>Conclusion : du constat
+à l’action</strong></h3>
+<p>Le superflu marchand dégénératif n’est pas un accident de parcours.
+C’est le produit logique d’un système économique où la monnaie est créée
+par la dette, où la dette impose la rentabilité immédiate, et où la
+rentabilité impose l’extraction.</p>
+<p>Tant que cette architecture monétaire perdurera, aucune éco-taxe,
+aucune campagne de sensibilisation, aucun label ne suffira. On pourra
+interdire les pailles en plastique tout en continuant à financer des
+jets privés. On pourra vanter l’économie circulaire tout en produisant
+10 000 nouveaux articles de fast fashion par jour.</p>
+<p><strong>Le premier pilier d’une économie de la robustesse — débusquer
+et sanctionner le superflu — exige donc une transformation
+systémique</strong> : réglementations strictes, incitations économiques
+cohérentes, évolution des mentalités, et surtout, une refonte de
+l’architecture monétaire elle-même.</p>
+<p>NEMO IMS propose précisément cette refonte. En intégrant l’impact
+écologique au cœur même de la création et de la destruction monétaire,
+il rend économiquement viable ce qui est écologiquement souhaitable, et
+économiquement toxique ce qui est écologiquement destructeur.</p>
+<p>Ce n’est pas une utopie. C’est une nécessité structurelle. Parce que
+produire toujours plus de ce qui ne sert à rien tout en détruisant ce
+qui permet de vivre n’est pas seulement absurde — c’est
+insoutenable.</p>
+<p>Le choix est simple : <strong>transformer l’architecture économique,
+ou assister à l’effondrement des écosystèmes qui la rendent
+possible</strong>.</p>
+<hr />
+<p><strong>Pour approfondir :</strong> <em>L’Économie de l’Équilibre —
+Monnaie, Finance et Limites Planétaires</em>, Jean-Christophe Duval,
+Debunk’Onomy, 2026. <a href="https://payhip.com/b/tQhNU">Se procurer le
+livre</a></p>
+</article>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk'Onomy"><p class="footer__brand-text">Debunk'Onomy — déconstruire l'économie pour reconstruire le monde.</p></div>
+    <div class="footer__col"><h4>Le Projet</h4><ul><li><a href="/manifeste/">Manifeste</a></li><li><a href="/livre/">Le Livre</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/articles/">Écrits</a></li><li><a href="/medias/">Médias</a></li></ul></div>
+    <div class="footer__col"><h4>Suivre</h4>
+      <ul><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a></li></ul></div>
+    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+  </div>
+  <div class="footer__bottom"><span>© 2026 Debunk'Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+</footer>
+
+</body>
+</html>

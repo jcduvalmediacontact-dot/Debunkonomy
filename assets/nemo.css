@@ -284,6 +284,59 @@
   opacity: 0.9;
 }
 
+/* Variante cliquable */
+.pillar-card--link {
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.pillar-card--link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--mint);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.pillar-card--link:hover {
+  border-color: var(--mint);
+  background: rgba(168, 234, 234, 0.12);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(168, 234, 234, 0.2);
+}
+
+.pillar-card--link:hover::before {
+  transform: scaleX(1);
+}
+
+.pillar-card--link:hover .pillar-card__num {
+  opacity: 1;
+}
+
+.pillar-card__action {
+  font-family: var(--ff-sans);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--mint);
+  margin-top: 20px;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.pillar-card--link:hover .pillar-card__action {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
 /* ===== YIN YANG ===== */
 .yinyang {
   display: grid;
