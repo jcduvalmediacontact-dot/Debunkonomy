@@ -101,5 +101,5 @@
   </g>
 
   <!-- Légende en bas -->
-  <text class="ts" x="340" y="585" text-anchor="middle" fill="#666666">Un pays ne peut atteindre simultanément que deux des trois objectifs</text>
+  <text x="340" y="585" text-anchor="middle" fill="#D0D0D0" font-size="12px" font-style="italic" font-family="sans-serif">Un pays ne peut atteindre simultanément que deux des trois objectifs</text>
 </svg>

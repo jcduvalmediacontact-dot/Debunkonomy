@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "news-011",
+      "type": "texte",
+      "date": "2026-04-28",
+      "title": "Les dilemmes structurels du système monétaire international",
+      "excerpt": "Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d'un équilibre comptable illusoire.",
+      "link": "/articles/auteur/SMI-2/"
+    },
+    {
       "id": "news-010",
       "type": "texte",
       "date": "2026-04-28",

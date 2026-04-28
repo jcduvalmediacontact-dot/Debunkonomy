@@ -1,6 +1,15 @@
 {
   "auteur": [
     {
+      "id": "smi-dilemmes",
+      "date": "2026-04-28",
+      "title": "Les dilemmes structurels du système monétaire international",
+      "excerpt": "Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d'un équilibre comptable illusoire. Deuxième volet de la série sur le SMI.",
+      "link": "/articles/auteur/SMI-2/",
+      "category": "Système monétaire international",
+      "readTime": "18 min"
+    },
+    {
       "id": "smi-definition",
       "date": "2026-04-28",
       "title": "Qu'est-ce qu'un système monétaire international ?",
