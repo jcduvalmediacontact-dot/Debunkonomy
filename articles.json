@@ -1,6 +1,15 @@
 {
   "auteur": [
     {
+      "id": "smi-definition",
+      "date": "2026-04-28",
+      "title": "Qu'est-ce qu'un système monétaire international ?",
+      "excerpt": "Les fondements, piliers et contraintes qui structurent la finance mondiale — et pourquoi il est urgent de les repenser. Premier volet d'une série sur le SMI et NEMO IMS.",
+      "link": "/articles/auteur/SMI/",
+      "category": "Système monétaire international",
+      "readTime": "15 min"
+    },
+    {
       "id": "impossible-decoupage",
       "date": "2026-04-27",
       "title": "Records boursiers, planète mourante : pourquoi l'économie qui 'fonctionne' nous tue",
