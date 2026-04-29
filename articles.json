@@ -1,6 +1,24 @@
 {
   "auteur": [
     {
+      "id": "smi-nemo-ims-futur",
+      "date": "2026-04-29",
+      "title": "NEMO IMS : Quel système monétaire international pour le futur ?",
+      "excerpt": "Après deux siècles d'échecs monétaires, NEMO IMS propose une rupture radicale : une monnaie internationale adossée à la régénération des écosystèmes plutôt qu'à la dette ou à l'or.",
+      "link": "/articles/auteur/SMI-4/",
+      "category": "Système monétaire international",
+      "readTime": "23 min"
+    },
+    {
+      "id": "smi-histoire-crises",
+      "date": "2026-04-29",
+      "title": "Histoire des crises monétaires internationales",
+      "excerpt": "De l'étalon-or sterling aux guerres de monnaies contemporaines : deux siècles de crises révèlent l'instabilité structurelle des systèmes monétaires internationaux.",
+      "link": "/articles/auteur/SMI-3/",
+      "category": "Système monétaire international",
+      "readTime": "28 min"
+    },
+    {
       "id": "smi-dilemmes",
       "date": "2026-04-28",
       "title": "Les dilemmes structurels du système monétaire international",
