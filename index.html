@@ -1050,6 +1050,111 @@ img { max-width: 100%; height: auto; display: block; }
   opacity: 0.5;
 }
 
+
+.nav__cta {
+  padding: 10px 20px !important;
+  border: 1px solid var(--mint);
+  border-radius: 999px;
+  color: var(--mint);
+}
+.nav__cta:hover {
+  background: var(--mint);
+  color: var(--ink-deep);
+}
+.home-hub {
+  background: var(--cream);
+  padding: 90px 40px;
+}
+.home-hub__inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+.home-hub__head {
+  max-width: 760px;
+  margin-bottom: 42px;
+}
+.home-hub__eyebrow {
+  font-family: var(--ff-sans);
+  font-size: 11px;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 18px;
+}
+.home-hub__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 96, "SOFT" 35;
+  font-weight: 400;
+  font-size: clamp(36px,5vw,70px);
+  line-height: 1;
+  letter-spacing: -.03em;
+  color: var(--ink-deep);
+}
+.home-hub__title em {
+  font-style: italic;
+  color: var(--ink);
+}
+.home-hub__lede {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: clamp(19px,2vw,24px);
+  line-height: 1.45;
+  color: var(--ink);
+  margin-top: 22px;
+}
+.home-routes {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 18px;
+}
+.home-route {
+  display: block;
+  padding: 30px;
+  min-height: 230px;
+  background: rgba(255,255,255,.16);
+  border: 1px solid rgba(13,46,49,.13);
+  transition: transform .25s ease, background .25s ease, border-color .25s ease;
+}
+.home-route:hover {
+  transform: translateY(-4px);
+  background: rgba(168,234,234,.18);
+  border-color: rgba(13,46,49,.28);
+}
+.home-route__num {
+  font-family: var(--ff-sans);
+  font-size: 10px;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  color: var(--teal);
+  margin-bottom: 20px;
+}
+.home-route__title {
+  font-family: var(--ff-display);
+  font-size: 28px;
+  line-height: 1.1;
+  color: var(--ink-deep);
+  margin-bottom: 14px;
+  letter-spacing: -.02em;
+}
+.home-route__text {
+  font-family: var(--ff-display);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink);
+}
+.home-route__cta {
+  margin-top: 22px;
+  font-family: var(--ff-sans);
+  font-size: 11px;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+@media (max-width: 900px) {
+  .home-routes { grid-template-columns: 1fr; }
+  .home-route { min-height: auto; }
+}
+
 /* ========== Responsive ========== */
 @media (max-width: 1024px) {
   .book__inner,
@@ -1079,8 +1184,14 @@ img { max-width: 100%; height: auto; display: block; }
     padding: 16px 24px;
   }
   .nav__links {
-    display: none;
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: calc(100vw - 110px);
+    font-size: 11px;
   }
+  .nav__links a:first-child { display: none; }
   .hero {
     padding: 120px 24px 80px;
   }
@@ -1278,11 +1389,12 @@ img { max-width: 100%; height: auto; display: block; }
     <img src="assets/logo-vignette.png" alt="Debunk'Onomy">
   </a>
   <div class="nav__links">
-    <a href="#manifeste">Manifeste</a>
-    <a href="#livre">Le Livre</a>
-    <a href="#nemo">NEMO IMS</a>
-    <a href="#actualites">Actualités</a>
-    <a href="#auteur">L'Auteur</a>
+    <a href="/commencer-ici/">Commencer ici</a>
+    <a href="/nemo-ims/">NEMO IMS</a>
+    <a href="/articles/">Articles</a>
+    <a href="/medias/">Médias</a>
+    <a href="/livre/">Livre</a>
+    <a href="/newsletter/" class="nav__cta">Newsletter</a>
   </div>
 </nav>
 
@@ -1297,11 +1409,62 @@ img { max-width: 100%; height: auto; display: block; }
     <h1 class="hero__title">Déconstruire l'<em>économie</em> pour reconstruire le <em>monde</em>.</h1>
     <p class="hero__lede">Faire entrer la monnaie — et la finance — dans les limites du vivant. Un programme de pensée et d'action pour une société de l'équilibre.</p>
     <div class="hero__actions">
-      <a href="#livre" class="btn btn--primary">L'Économie de l'Équilibre <span class="btn__arrow">→</span></a>
-      <a href="#nemo" class="btn btn--secondary">Découvrir NEMO IMS</a>
+      <a href="/newsletter/" class="btn btn--primary">Recevoir la lettre Debunk'Onomy <span class="btn__arrow">→</span></a>
+      <a href="/commencer-ici/" class="btn btn--secondary">Commencer ici</a>
+      <a href="/nemo-ims/" class="btn btn--secondary">Découvrir NEMO IMS</a>
     </div>
   </div>
 </section>
+
+<!-- Orientation Hub -->
+<section class="home-hub" id="explorer">
+  <div class="home-hub__inner">
+    <div class="home-hub__head">
+      <div class="home-hub__eyebrow">Explorer Debunk'Onomy</div>
+      <h2 class="home-hub__title">Un seul parcours : <em>comprendre, approfondir, suivre, soutenir</em>.</h2>
+      <p class="home-hub__lede">Le site devient le hub de NEMO IMS : une porte d’entrée claire vers la doctrine, le livre, les articles, les médias et la lettre Substack.</p>
+    </div>
+    <div class="home-routes">
+      <a href="/commencer-ici/" class="home-route">
+        <div class="home-route__num">01 · Entrée</div>
+        <h3 class="home-route__title">Commencer ici</h3>
+        <p class="home-route__text">Comprendre Debunk'Onomy, NEMO IMS et le problème monétaire en moins de dix minutes.</p>
+        <div class="home-route__cta">Suivre le parcours →</div>
+      </a>
+      <a href="/nemo-ims/" class="home-route">
+        <div class="home-route__num">02 · Doctrine</div>
+        <h3 class="home-route__title">NEMO IMS</h3>
+        <p class="home-route__text">La proposition monétaire internationale : création sans dette, DTS verts, fonte pondérée, robustesse écosystémique.</p>
+        <div class="home-route__cta">Découvrir le système →</div>
+      </a>
+      <a href="/articles/" class="home-route">
+        <div class="home-route__num">03 · Bibliothèque</div>
+        <h3 class="home-route__title">Articles</h3>
+        <p class="home-route__text">Textes, analyses, notes de travail et dossiers pour approfondir monnaie, dette, finance et écologie.</p>
+        <div class="home-route__cta">Lire les écrits →</div>
+      </a>
+      <a href="/medias/" class="home-route">
+        <div class="home-route__num">04 · Diffusion</div>
+        <h3 class="home-route__title">Médias</h3>
+        <p class="home-route__text">Vidéos, podcasts et formats courts pour rendre NEMO IMS transmissible et partageable.</p>
+        <div class="home-route__cta">Voir les médias →</div>
+      </a>
+      <a href="/livre/" class="home-route">
+        <div class="home-route__num">05 · Référence</div>
+        <h3 class="home-route__title">Le livre</h3>
+        <p class="home-route__text"><em>L'Économie de l'Équilibre</em> : le manifeste complet de la refondation monétaire et écologique.</p>
+        <div class="home-route__cta">Découvrir le livre →</div>
+      </a>
+      <a href="/newsletter/" class="home-route">
+        <div class="home-route__num">06 · Communauté</div>
+        <h3 class="home-route__title">Newsletter</h3>
+        <p class="home-route__text">Recevoir les nouveaux textes, vidéos, podcasts et notes de doctrine directement via Substack.</p>
+        <div class="home-route__cta">S'abonner →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
 
 <!-- Manifesto Section -->
 <section class="manifesto" id="manifeste">
@@ -1340,14 +1503,16 @@ img { max-width: 100%; height: auto; display: block; }
       <p class="book__desc">Comment transformer un système basé sur la dette et l'extraction en un moteur de régénération ? Jean-Christophe Duval livre une analyse radicale et propose des solutions systémiques.</p>
       <dl class="book__details">
         <div class="book__detail">
+          <dt>Prix</dt>
+          <dd>19,90 €</dd>
         </div>
         <div class="book__detail">
-          <dt>Édition</dt>
-          <dd>Debunk Éditions</dd>
+          <dt>ISBN</dt>
+          <dd>978-2-9598232-0-4</dd>
         </div>
         <div class="book__detail">
-          <dt>Sortie</dt>
-          <dd>Avril 2026</dd>
+          <dt>Éditeur</dt>
+          <dd>Debunk'Onomy</dd>
         </div>
       </dl>
       <a href="/livre/" class="btn btn--primary">En savoir plus sur le livre <span class="btn__arrow">→</span></a>
@@ -1370,7 +1535,33 @@ img { max-width: 100%; height: auto; display: block; }
     </div>
     <div class="news-carousel__track-wrapper">
       <div class="news-carousel__track">
-        <div class="news-carousel__loading">Chargement des actualités...</div>
+        <a href="/articles/auteur/SMI-4/" class="news-card news-card--texte">
+          <div class="news-card__type news-card__type--texte">Article</div>
+          <div class="news-card__content">
+            <div class="news-card__date">29 avr. 2026</div>
+            <h3 class="news-card__title">NEMO IMS : Quel système monétaire international pour le futur ?</h3>
+            <p class="news-card__excerpt">Après deux siècles d&#x27;échecs monétaires, NEMO IMS propose une rupture radicale : une monnaie internationale adossée à la régénération des écosystèmes.</p>
+            <div class="news-card__cta">Lire</div>
+          </div>
+        </a>
+        <a href="/articles/auteur/SMI-3/" class="news-card news-card--texte">
+          <div class="news-card__type news-card__type--texte">Article</div>
+          <div class="news-card__content">
+            <div class="news-card__date">29 avr. 2026</div>
+            <h3 class="news-card__title">Histoire des crises monétaires internationales</h3>
+            <p class="news-card__excerpt">De l&#x27;étalon-or sterling aux guerres de monnaies contemporaines : deux siècles de crises et de reconstructions monétaires inachevées.</p>
+            <div class="news-card__cta">Lire</div>
+          </div>
+        </a>
+        <a href="/articles/auteur/SMI-2/" class="news-card news-card--texte">
+          <div class="news-card__type news-card__type--texte">Article</div>
+          <div class="news-card__content">
+            <div class="news-card__date">28 avr. 2026</div>
+            <h3 class="news-card__title">Les dilemmes structurels du système monétaire international</h3>
+            <p class="news-card__excerpt">Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d&#x27;un équilibre comptable illusoire.</p>
+            <div class="news-card__cta">Lire</div>
+          </div>
+        </a>
       </div>
     </div>
     <div class="news-carousel__dots"></div>
@@ -1437,7 +1628,7 @@ img { max-width: 100%; height: auto; display: block; }
       <div class="author__eyebrow">L'auteur</div>
       <h2 class="author__name">Jean-Christophe <em>Duval</em></h2>
       <p class="author__role">Chercheur indépendant & Économiste écologique</p>
-      <p class="author__bio">Expert en systèmes monétaires alternatifs, théoricien de la décroissance et de la robustesse écosystémique, Jean-Christophe Duval travaille depuis 11 ans sur la convergence entre finance et limites planétaires.</p>
+      <p class="author__bio">Chercheur indépendant en économie écologique, auteur de <em>L'Économie de l'Équilibre</em> et concepteur du système NEMO IMS, Jean-Christophe Duval travaille depuis plus de dix ans sur la convergence entre monnaie, finance et limites planétaires.</p>
       <div class="author__links">
         <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a>
         <a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a>
@@ -1452,9 +1643,9 @@ img { max-width: 100%; height: auto; display: block; }
 <section class="newsletter" id="newsletter">
   <div class="newsletter__inner">
     <div class="newsletter__eyebrow">— La lettre —</div>
-    <h2 class="newsletter__title">Rejoindre <em>l'atelier</em></h2>
-    <p class="newsletter__text">Recevez les chroniques, notes de travail sur NEMO IMS et analyses critiques de l'actualité monétaire et écologique. Sobre, lente, argumentée.</p>
-    <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="newsletter__cta">S'abonner sur Substack <span class="btn__arrow">→</span></a>
+    <h2 class="newsletter__title">Recevoir <em>la lettre Debunk'Onomy</em></h2>
+    <p class="newsletter__text">Chaque semaine : monnaie, dette, finance écologique, limites planétaires et développement de NEMO IMS. La newsletter devient le fil vivant du projet.</p>
+    <a href="/newsletter/" class="newsletter__cta">Découvrir la newsletter <span class="btn__arrow">→</span></a>
   </div>
 </section>
 
@@ -1468,16 +1659,17 @@ img { max-width: 100%; height: auto; display: block; }
     <div class="footer__col">
       <h4>Le Projet</h4>
       <ul>
-        <li><a href="/manifeste/">Manifeste</a></li>
-        <li><a href="/livre/">Le Livre</a></li>
+        <li><a href="/commencer-ici/">Commencer ici</a></li>
         <li><a href="/nemo-ims/">NEMO IMS</a></li>
-        <li><a href="/articles/">Écrits</a></li>
+        <li><a href="/articles/">Articles</a></li>
         <li><a href="/medias/">Médias</a></li>
+        <li><a href="/livre/">Le livre</a></li>
       </ul>
     </div>
     <div class="footer__col">
       <h4>Suivre</h4>
       <ul>
+        <li><a href="/newsletter/">Newsletter</a></li>
         <li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li>
         <li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li>
         <li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li>
@@ -1653,8 +1845,6 @@ onScroll();
     
     if (!track) return;
 
-    track.innerHTML = '<div class="news-carousel__loading">Chargement des actualités...</div>';
-
     try {
       const response = await fetch('/news.json');
       
@@ -1681,7 +1871,7 @@ onScroll();
 
     } catch (error) {
       console.error('Erreur lors du chargement des news:', error);
-      track.innerHTML = '<div class="news-carousel__loading">Erreur lors du chargement des actualités.</div>';
+      if (!track.children.length) track.innerHTML = '<div class="news-carousel__loading">Erreur lors du chargement des actualités.</div>';
     }
   }
 

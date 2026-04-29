@@ -653,3 +653,14 @@
   font-variation-settings: 'opsz' 16, 'SOFT' 80, 'WONK' 1;
 }
 
+
+/* Refonte : résumé pédagogique */
+.nemo-summary {
+  margin: 34px 0 0;
+  padding-left: 1.4em;
+  font-family: var(--ff-display);
+  font-size: clamp(18px,2vw,23px);
+  line-height: 1.55;
+  color: var(--ink);
+}
+.nemo-summary li { margin-bottom: 14px; padding-left: 8px; }
