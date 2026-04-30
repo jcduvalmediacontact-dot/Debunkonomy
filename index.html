@@ -11,6 +11,13 @@
 <meta property="og:description" content="Une recherche, un livre, un système. Un programme de pensée et d'action pour faire entrer la monnaie — et la finance — dans les limites du vivant.">
 <meta property="og:site_name" content="Debunk'Onomy">
 <meta property="og:locale" content="fr_FR">
+<link rel="alternate" hreflang="fr" href="https://debunkonomy.org/">
+<link rel="alternate" hreflang="en" href="https://debunkonomy.org/en/">
+<link rel="alternate" hreflang="es" href="https://debunkonomy.org/es/">
+<link rel="alternate" hreflang="pt" href="https://debunkonomy.org/pt/">
+<link rel="alternate" hreflang="de" href="https://debunkonomy.org/de/">
+<link rel="alternate" hreflang="it" href="https://debunkonomy.org/it/">
+<link rel="alternate" hreflang="ar" href="https://debunkonomy.org/ar/">
 
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
@@ -1379,6 +1386,17 @@ img { max-width: 100%; height: auto; display: block; }
     padding: 28px 20px;
   }
 }
+
+/* ===== MULTILINGUAL EXTENSION (home inline) ===== */
+.lang-switch { position: relative; display: inline-flex; align-items: center; }
+.lang-switch__current { border: 1px solid currentColor; border-radius: 999px; padding: 7px 11px; cursor: pointer; list-style: none; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; }
+.lang-switch__current::-webkit-details-marker { display: none; }
+.lang-switch__menu { position: absolute; right: 0; top: calc(100% + 10px); min-width: 190px; padding: 8px; border-radius: 18px; background: rgba(13,46,49,.96); color: var(--mint); border: 1px solid rgba(168,234,234,.18); box-shadow: 0 18px 40px rgba(13,46,49,.22); display: grid; gap: 4px; z-index: 1000; }
+.lang-switch__menu a { display: flex; justify-content: space-between; gap: 18px; padding: 9px 12px; border-radius: 12px; color: inherit; white-space: nowrap; }
+.lang-switch__menu a:hover { background: rgba(168,234,234,.12); }
+.lang-switch__menu a::after { display: none !important; }
+@media (max-width: 900px) { .nav__links { gap: 12px; flex-wrap: wrap; justify-content: flex-end; } .lang-switch__menu { right: auto; left: 0; } }
+
 </style>
 </head>
 <body>
@@ -1395,6 +1413,7 @@ img { max-width: 100%; height: auto; display: block; }
     <a href="/medias/">Médias</a>
     <a href="/livre/">Livre</a>
     <a href="/newsletter/" class="nav__cta">Newsletter</a>
+    <details class="lang-switch"><summary class="lang-switch__current">FR</summary><div class="lang-switch__menu"><a href="/"><span>Français</span><strong>FR</strong></a><a href="/en/"><span>English</span><strong>EN</strong></a><a href="/es/"><span>Español</span><strong>ES</strong></a><a href="/pt/"><span>Português</span><strong>PT</strong></a><a href="/de/"><span>Deutsch</span><strong>DE</strong></a><a href="/it/"><span>Italiano</span><strong>IT</strong></a><a href="/ar/"><span>العربية</span><strong>AR</strong></a></div></details>
   </div>
 </nav>
 
