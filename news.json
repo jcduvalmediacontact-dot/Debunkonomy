@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "news-014",
+      "type": "texte",
+      "date": "2026-04-30",
+      "title": "Penser la décroissance sans penser la robustesse est un non-sens",
+      "excerpt": "La décroissance morale ne suffit pas si l’architecture monétaire continue d’obliger l’économie à accélérer.",
+      "link": "/articles/auteur/decroissance-robustesse-systeme-monetaire/"
+    },
+    {
       "id": "news-013",
       "type": "texte",
       "date": "2026-04-29",
