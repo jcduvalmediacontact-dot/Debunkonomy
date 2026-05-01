@@ -741,3 +741,325 @@ body { background: var(--cream); }
   .nemo-primer .nemo-top-actions { justify-content: center; }
   .cta-book { padding: 76px 22px; }
 }
+/* ============================================================
+   NEMO IMS — palette froide sans sable
+   Vert profond · gris · bleu-vert canard
+   ============================================================ */
+
+:root {
+  --nemo-deep: #061f1a;
+  --nemo-dark: #0b3028;
+  --nemo-mid: #145246;
+  --nemo-forest: #183f37;
+  --nemo-teal: #1f7a73;
+  --nemo-duck: #2f8f88;
+
+  --nemo-charcoal: #1e2524;
+  --nemo-slate: #2f3a38;
+  --nemo-grey: #d9dfdd;
+  --nemo-light: #f2f5f4;
+  --nemo-white: #f8fbfa;
+
+  --nemo-text: #17211f;
+  --nemo-muted: #6d7a77;
+}
+
+/* Suppression de l’effet sable sur la page NEMO IMS */
+
+body.nemo-page,
+.nemo-page {
+  background: var(--nemo-deep);
+  color: var(--nemo-grey);
+}
+
+/* Header / navigation */
+
+.nemo-page .site-header,
+.nemo-page .nav,
+.nemo-page .nav__inner,
+.nemo-page header {
+  background: rgba(6, 31, 26, 0.98) !important;
+  border-bottom: 1px solid rgba(47, 143, 136, 0.35) !important;
+  color: var(--nemo-grey) !important;
+}
+
+.nemo-page .nav a,
+.nemo-page header a,
+.nemo-page .site-header a {
+  color: var(--nemo-grey) !important;
+}
+
+.nemo-page .nav a:hover,
+.nemo-page header a:hover,
+.nemo-page .site-header a:hover,
+.nemo-page .nav a.is-active {
+  color: var(--nemo-duck) !important;
+}
+
+/* Hero */
+
+.nemo-hero,
+.nemo-page .hero,
+.nemo-page .page-hero {
+  background:
+    radial-gradient(circle at top left, rgba(47, 143, 136, 0.24), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(20, 82, 70, 0.32), transparent 40%),
+    linear-gradient(135deg, #061f1a 0%, #0b3028 48%, #145246 100%) !important;
+  color: var(--nemo-white) !important;
+}
+
+.nemo-hero h1,
+.nemo-hero h2,
+.nemo-hero p,
+.nemo-hero .hero__title,
+.nemo-hero .hero__lead {
+  color: var(--nemo-white) !important;
+}
+
+.nemo-hero .section-eyebrow,
+.nemo-hero__eyebrow,
+.nemo-page .section-eyebrow {
+  color: var(--nemo-duck) !important;
+}
+
+/* Navigation interne */
+
+.nemo-subnav,
+.nemo-anchor-nav,
+.nemo-page .anchor-nav,
+.nemo-page .internal-nav {
+  background: var(--nemo-charcoal) !important;
+  border-top: 1px solid rgba(47, 143, 136, 0.28) !important;
+  border-bottom: 1px solid rgba(47, 143, 136, 0.28) !important;
+}
+
+.nemo-subnav a,
+.nemo-anchor-nav a,
+.nemo-page .anchor-nav a,
+.nemo-page .internal-nav a {
+  color: var(--nemo-grey) !important;
+  border: 1px solid rgba(217, 223, 221, 0.16) !important;
+  background: rgba(242, 245, 244, 0.04) !important;
+}
+
+.nemo-subnav a:hover,
+.nemo-anchor-nav a:hover,
+.nemo-page .anchor-nav a:hover,
+.nemo-page .internal-nav a:hover {
+  background: var(--nemo-duck) !important;
+  color: #ffffff !important;
+  border-color: var(--nemo-duck) !important;
+}
+
+/* Sections sombres */
+
+.nemo-section--dark,
+.nemo-section--deep,
+.nemo-page .section--dark,
+.nemo-page .section--deep {
+  background:
+    radial-gradient(circle at top right, rgba(47, 143, 136, 0.14), transparent 36%),
+    linear-gradient(135deg, var(--nemo-deep) 0%, var(--nemo-dark) 100%) !important;
+  color: var(--nemo-grey) !important;
+}
+
+.nemo-section--dark h2,
+.nemo-section--dark h3,
+.nemo-section--deep h2,
+.nemo-section--deep h3,
+.nemo-page .section--dark h2,
+.nemo-page .section--dark h3 {
+  color: var(--nemo-white) !important;
+}
+
+.nemo-section--dark p,
+.nemo-section--dark li,
+.nemo-section--deep p,
+.nemo-section--deep li,
+.nemo-page .section--dark p,
+.nemo-page .section--dark li {
+  color: var(--nemo-grey) !important;
+}
+
+/* Sections claires : gris froid, jamais sable */
+
+.nemo-section--light,
+.nemo-section--cream,
+.nemo-page .section--light,
+.nemo-page .section--cream {
+  background: var(--nemo-light) !important;
+  color: var(--nemo-text) !important;
+}
+
+.nemo-section--light h2,
+.nemo-section--light h3,
+.nemo-section--cream h2,
+.nemo-section--cream h3,
+.nemo-page .section--light h2,
+.nemo-page .section--light h3,
+.nemo-page .section--cream h2,
+.nemo-page .section--cream h3 {
+  color: var(--nemo-deep) !important;
+}
+
+.nemo-section--light p,
+.nemo-section--light li,
+.nemo-section--cream p,
+.nemo-section--cream li,
+.nemo-page .section--light p,
+.nemo-page .section--light li,
+.nemo-page .section--cream p,
+.nemo-page .section--cream li {
+  color: var(--nemo-slate) !important;
+}
+
+/* Cartes */
+
+.nemo-card,
+.nemo-gateway-card,
+.nemo-concept-card,
+.nemo-page .card,
+.nemo-page .feature-card {
+  background: rgba(242, 245, 244, 0.055) !important;
+  border: 1px solid rgba(47, 143, 136, 0.28) !important;
+  color: var(--nemo-grey) !important;
+  border-radius: 24px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
+}
+
+.nemo-card h3,
+.nemo-gateway-card h3,
+.nemo-concept-card h3,
+.nemo-page .card h3,
+.nemo-page .feature-card h3 {
+  color: var(--nemo-white) !important;
+}
+
+.nemo-card p,
+.nemo-gateway-card p,
+.nemo-concept-card p,
+.nemo-page .card p,
+.nemo-page .feature-card p {
+  color: var(--nemo-grey) !important;
+}
+
+.nemo-card:hover,
+.nemo-gateway-card:hover,
+.nemo-concept-card:hover,
+.nemo-page .card:hover,
+.nemo-page .feature-card:hover {
+  border-color: rgba(47, 143, 136, 0.70) !important;
+  transform: translateY(-3px);
+}
+
+/* Cartes sur fond clair */
+
+.nemo-section--light .nemo-card,
+.nemo-section--light .nemo-gateway-card,
+.nemo-section--light .nemo-concept-card,
+.nemo-section--cream .nemo-card,
+.nemo-section--cream .nemo-gateway-card,
+.nemo-section--cream .nemo-concept-card,
+.nemo-page .section--light .card,
+.nemo-page .section--cream .card {
+  background: #ffffff !important;
+  border: 1px solid rgba(20, 82, 70, 0.16) !important;
+  color: var(--nemo-text) !important;
+  box-shadow: 0 18px 45px rgba(6, 31, 26, 0.10);
+}
+
+.nemo-section--light .nemo-card h3,
+.nemo-section--light .nemo-gateway-card h3,
+.nemo-section--light .nemo-concept-card h3,
+.nemo-section--cream .nemo-card h3,
+.nemo-section--cream .nemo-gateway-card h3,
+.nemo-section--cream .nemo-concept-card h3,
+.nemo-page .section--light .card h3,
+.nemo-page .section--cream .card h3 {
+  color: var(--nemo-deep) !important;
+}
+
+.nemo-section--light .nemo-card p,
+.nemo-section--light .nemo-gateway-card p,
+.nemo-section--light .nemo-concept-card p,
+.nemo-section--cream .nemo-card p,
+.nemo-section--cream .nemo-gateway-card p,
+.nemo-section--cream .nemo-concept-card p,
+.nemo-page .section--light .card p,
+.nemo-page .section--cream .card p {
+  color: var(--nemo-slate) !important;
+}
+
+/* Callouts / citations */
+
+.nemo-manifest,
+.nemo-quote,
+.nemo-callout,
+.nemo-page blockquote {
+  background:
+    linear-gradient(135deg, rgba(6, 31, 26, 0.98), rgba(20, 82, 70, 0.96)) !important;
+  border-left: 4px solid var(--nemo-duck) !important;
+  color: var(--nemo-white) !important;
+}
+
+.nemo-manifest strong,
+.nemo-quote strong,
+.nemo-callout strong,
+.nemo-page blockquote strong {
+  color: var(--nemo-white) !important;
+}
+
+/* Boutons */
+
+.nemo-page .btn--primary,
+.nemo-page .button--primary,
+.nemo-page .cta-primary {
+  background: var(--nemo-duck) !important;
+  color: #ffffff !important;
+  border-color: var(--nemo-duck) !important;
+}
+
+.nemo-page .btn--primary:hover,
+.nemo-page .button--primary:hover,
+.nemo-page .cta-primary:hover {
+  background: var(--nemo-teal) !important;
+  border-color: var(--nemo-teal) !important;
+}
+
+.nemo-page .btn--secondary,
+.nemo-page .btn--ghost,
+.nemo-page .button--secondary {
+  color: var(--nemo-grey) !important;
+  border-color: rgba(47, 143, 136, 0.45) !important;
+  background: rgba(242, 245, 244, 0.04) !important;
+}
+
+.nemo-page .btn--secondary:hover,
+.nemo-page .btn--ghost:hover,
+.nemo-page .button--secondary:hover {
+  color: #ffffff !important;
+  background: rgba(47, 143, 136, 0.22) !important;
+}
+
+/* CTA final */
+
+.nemo-final,
+.nemo-cta,
+.nemo-page .final-cta,
+.nemo-page .cta-section {
+  background:
+    radial-gradient(circle at top left, rgba(47, 143, 136, 0.20), transparent 34%),
+    linear-gradient(135deg, var(--nemo-deep) 0%, var(--nemo-mid) 100%) !important;
+  color: var(--nemo-white) !important;
+}
+
+.nemo-final h2,
+.nemo-final p,
+.nemo-cta h2,
+.nemo-cta p,
+.nemo-page .final-cta h2,
+.nemo-page .final-cta p,
+.nemo-page .cta-section h2,
+.nemo-page .cta-section p {
+  color: var(--nemo-white) !important;
+}
