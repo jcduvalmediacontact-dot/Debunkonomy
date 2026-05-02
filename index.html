@@ -5,13 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Debunk’Onomy — Think & Move to Degrowth</title>
 <meta name="description" content="Debunk’Onomy : déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique, système monétaire NEMO IMS, et l'ouvrage L'Économie de l'Équilibre par Jean-Christophe Duval.">
-
 <meta property="og:type" content="website">
 <meta property="og:title" content="Debunk’Onomy — Think & Move to Degrowth">
 <meta property="og:description" content="Une recherche, un livre, un système. Un programme de pensée et d'action pour faire entrer la monnaie — et la finance — dans les limites du vivant.">
 <meta property="og:site_name" content="Debunk’Onomy">
 <meta property="og:locale" content="fr_FR">
-
 <link rel="canonical" href="https://debunkonomy.org/">
 <link rel="alternate" hreflang="fr" href="https://debunkonomy.org/">
 <link rel="alternate" hreflang="en" href="https://debunkonomy.org/en/">
@@ -21,1378 +19,44 @@
 <link rel="alternate" hreflang="it" href="https://debunkonomy.org/it/">
 <link rel="alternate" hreflang="ar" href="https://debunkonomy.org/ar/">
 <link rel="alternate" hreflang="x-default" href="https://debunkonomy.org/">
-
 <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
 <meta name="theme-color" content="#1C5A60">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/assets/theme.css">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-
-<style>
-/* ========== Variables CSS (du site.css réel) ========== */
-:root {
-  --ink-deep:    #0D2E31;
-  --ink:         #1C5A60;
-  --teal:        #4A8B92;
-  --mint:        #A8EAEA;
-  --mint-soft:   #C9F0EE;
-  --cream:       #f0ece9;
-  --cream-deep:  #eeece9;
-  --sand:        #D9C9A3;
-  --rust:        #40ccb5;
-  --ochre:       #8faebb;
-  
-  --maxw: 1360px;
-  --ff-display: "Fraunces", "Times New Roman", serif;
-  --ff-serif:   "Instrument Serif", "Times New Roman", serif;
-  --ff-sans:    "Instrument Sans", -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-/* ========== Reset & Base ========== */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: var(--ff-sans);
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--ink-deep);
-  background: var(--cream);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
-}
-a { text-decoration: none; color: inherit; }
-img { max-width: 100%; height: auto; display: block; }
-
-/* ========== Navigation ========== */
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  padding: 18px 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgba(28, 90, 96, 0);
-  backdrop-filter: blur(0px);
-  transition: all 0.4s ease;
-}
-.nav.scrolled {
-  background: rgba(13, 46, 49, 0.88);
-  backdrop-filter: blur(14px);
-  padding: 12px 40px;
-  border-bottom: 1px solid rgba(168, 234, 234, 0.12);
-}
-.nav__brand {
-  display: flex;
-  align-items: center;
-  transition: opacity 0.2s;
-}
-.nav__brand:hover { opacity: 0.85; }
-.nav__brand img {
-  height: 54px;
-  width: auto;
-  display: block;
-}
-.nav__links {
-  display: flex;
-  gap: 32px;
-  align-items: center;
-  font-family: var(--ff-sans);
-  font-size: 13px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--mint);
-}
-.nav__links a {
-  position: relative;
-  padding-bottom: 4px;
-  transition: color 0.2s;
-}
-.nav__links a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 1px;
-  width: 0;
-  background: var(--mint);
-  transition: width 0.3s;
-}
-.nav__links a:hover::after { width: 100%; }
-
-.nav__cta {
-  border: 1px solid rgba(168, 234, 234, 0.6);
-  border-radius: 999px;
-  padding: 8px 14px 7px !important;
-  margin-left: 4px;
-}
-.nav__cta::after { display: none; }
-.nav__cta:hover { background: rgba(168, 234, 234, 0.1); }
-.lang-switch {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-}
-.lang-switch__current {
-  border: 1px solid rgba(168, 234, 234, 0.7);
-  border-radius: 999px;
-  padding: 7px 11px;
-  cursor: pointer;
-  list-style: none;
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--mint);
-  line-height: 1;
-}
-.lang-switch__current::-webkit-details-marker { display: none; }
-.lang-switch__menu {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 10px);
-  min-width: 190px;
-  padding: 8px;
-  border-radius: 18px;
-  background: rgba(13, 46, 49, 0.96);
-  color: var(--mint);
-  border: 1px solid rgba(168, 234, 234, 0.18);
-  box-shadow: 0 18px 40px rgba(13, 46, 49, 0.22);
-  display: grid;
-  gap: 4px;
-  z-index: 1001;
-}
-.lang-switch__menu a {
-  display: flex;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 9px 12px;
-  border-radius: 12px;
-  color: inherit;
-  white-space: nowrap;
-  text-transform: none;
-  letter-spacing: 0;
-  font-size: 13px;
-}
-.lang-switch__menu a:hover { background: rgba(168, 234, 234, 0.12); }
-.lang-switch__menu a::after { display: none !important; }
-
-
-/* ========== Hero Section ========== */
-.hero {
-  position: relative;
-  min-height: 100vh;
-  background: var(--ink);
-  color: var(--mint);
-  padding: 160px 40px 120px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-.hero__bg-tree {
-  position: absolute;
-  right: -180px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 900px;
-  height: 900px;
-  opacity: 0.08;
-  pointer-events: none;
-}
-.hero__bg-tree img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  filter: brightness(0) invert(1);
-}
-.hero__grain {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  opacity: 0.55;
-  mix-blend-mode: overlay;
-}
-.hero__inner {
-  position: relative;
-  z-index: 2;
-  max-width: var(--maxw);
-  margin: 0 auto;
-  width: 100%;
-}
-.hero__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-  font-size: 12px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--mint-soft);
-  opacity: 0.9;
-  margin-bottom: 40px;
-}
-.hero__eyebrow::before {
-  content: "";
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: var(--mint);
-  opacity: 0.6;
-}
-.hero__title {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 144, "SOFT" 40;
-  font-weight: 350;
-  font-size: clamp(56px, 9vw, 156px);
-  line-height: 0.92;
-  letter-spacing: -0.035em;
-  color: var(--mint);
-  max-width: 14ch;
-}
-.hero__title em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-  color: var(--mint-soft);
-}
-.hero__lede {
-  font-family: var(--ff-serif);
-  font-style: italic;
-  font-size: clamp(20px, 2vw, 26px);
-  line-height: 1.45;
-  max-width: 42ch;
-  color: var(--mint-soft);
-  opacity: 0.92;
-  margin-top: 40px;
-  padding-left: 24px;
-  border-left: 1px solid rgba(168, 234, 234, 0.35);
-}
-.hero__actions {
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-top: 48px;
-}
-
-/* Boutons */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 16px 32px;
-  font-family: var(--ff-sans);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.btn--primary {
-  background: var(--mint);
-  color: var(--ink);
-}
-.btn--primary:hover {
-  background: var(--mint-soft);
-  transform: translateY(-2px);
-}
-.btn--secondary {
-  background: transparent;
-  color: var(--mint);
-  border: 1px solid var(--mint);
-}
-.btn--secondary:hover {
-  background: rgba(168, 234, 234, 0.1);
-}
-.btn__arrow {
-  font-size: 16px;
-  transition: transform 0.3s ease;
-}
-.btn:hover .btn__arrow {
-  transform: translateX(4px);
-}
-
-/* ========== Manifesto Section ========== */
-.manifesto {
-  background: var(--cream);
-  padding: 140px 40px;
-}
-.manifesto__inner {
-  max-width: 980px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 60px;
-  align-items: start;
-}
-.manifesto__label {
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--teal);
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  white-space: nowrap;
-  padding-top: 8px;
-}
-.manifesto__label::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 1px;
-  background: var(--teal);
-  opacity: 0.4;
-  margin: 18px auto 0;
-}
-.manifesto__text p {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 60, "SOFT" 50;
-  font-weight: 380;
-  font-size: clamp(24px, 2.4vw, 32px);
-  line-height: 1.35;
-  letter-spacing: -0.015em;
-  color: var(--ink-deep);
-  margin-bottom: 28px;
-}
-.manifesto__text p:last-of-type {
-  margin-bottom: 0;
-}
-.manifesto__text em {
-  font-style: italic;
-  font-variation-settings: "opsz" 60, "SOFT" 100, "WONK" 1;
-  color: var(--ink);
-}
-.manifesto__more {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 40px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid var(--ink);
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--ink);
-  transition: opacity 0.2s;
-}
-.manifesto__more:hover {
-  opacity: 0.6;
-}
-
-/* ========== Gaia Quote Section ========== */
-.gaia-quote {
-  background: radial-gradient(ellipse at 50% 30%, rgba(74, 139, 146, 0.22) 0%, transparent 60%), 
-              linear-gradient(175deg, #0A2528 0%, var(--ink-deep) 50%, #081F22 100%);
-  padding: 180px 40px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-  color: var(--mint);
-}
-.gaia-quote::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  opacity: 0.5;
-  mix-blend-mode: overlay;
-  pointer-events: none;
-}
-.gaia-quote__inner {
-  max-width: 1000px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-}
-.gaia-quote__eyebrow {
-  font-size: 11px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.55;
-  margin-bottom: 56px;
-  display: inline-flex;
-  align-items: center;
-  gap: 14px;
-}
-.gaia-quote__eyebrow::before,
-.gaia-quote__eyebrow::after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 1px;
-  background: var(--mint);
-  opacity: 0.5;
-}
-.gaia-quote__text {
-  font-family: var(--ff-display);
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-  font-weight: 350;
-  font-size: clamp(30px, 4.2vw, 58px);
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: var(--mint);
-}
-.gaia-quote__preamble {
-  display: block;
-  font-family: var(--ff-serif);
-  font-style: italic;
-  font-size: clamp(16px, 1.5vw, 20px);
-  color: var(--mint-soft);
-  opacity: 0.7;
-  letter-spacing: 0.04em;
-  margin-bottom: 28px;
-  font-variation-settings: normal;
-}
-.gaia-quote__mark {
-  color: var(--teal);
-  font-size: 1.1em;
-  font-style: normal;
-  vertical-align: -0.04em;
-  opacity: 0.85;
-  margin: 0 0.05em;
-}
-.gaia-quote__context {
-  margin-top: 56px;
-  font-family: var(--ff-sans);
-  font-size: 11px;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.45;
-}
-
-/* ========== Book Section ========== */
-.book {
-  background: var(--ink-deep);
-  color: var(--cream);
-  padding: 140px 40px;
-  position: relative;
-  overflow: hidden;
-}
-.book::before {
-  content: "ESSAI";
-  position: absolute;
-  top: 80px;
-  right: -40px;
-  font-family: var(--ff-display);
-  font-size: 280px;
-  font-weight: 800;
-  color: var(--teal);
-  opacity: 0.12;
-  letter-spacing: -0.04em;
-  pointer-events: none;
-}
-.book__inner {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 100px;
-  align-items: center;
-  position: relative;
-  z-index: 2;
-}
-.book__cover {
-  position: relative;
-  max-width: 420px;
-  width: 100%;
-  box-shadow: 0 30px 60px -20px rgba(0,0,0,0.7), 
-              0 20px 40px -10px rgba(0,0,0,0.35);
-  transform: perspective(1200px) rotateY(-6deg) rotateX(2deg);
-  transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
-  border-radius: 2px;
-  overflow: hidden;
-}
-.book__cover:hover {
-  transform: perspective(1200px) rotateY(-3deg) rotateX(1deg) translateY(-6px);
-}
-.book__cover img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.book__cover::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 18px;
-  background: linear-gradient(to right, rgba(0,0,0,0.25), transparent);
-  pointer-events: none;
-}
-.book__content {
-  max-width: 560px;
-}
-.book__eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.8;
-  margin-bottom: 32px;
-}
-.book__eyebrow::before {
-  content: "";
-  width: 30px;
-  height: 1px;
-  background: var(--mint);
-  opacity: 0.5;
-}
-.book__title {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 144, "SOFT" 40;
-  font-weight: 400;
-  font-size: clamp(40px, 4.5vw, 68px);
-  line-height: 0.98;
-  letter-spacing: -0.025em;
-  color: var(--cream);
-  margin-bottom: 16px;
-}
-.book__title em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-  color: var(--mint);
-}
-.book__subtitle {
-  font-family: var(--ff-serif);
-  font-style: italic;
-  font-size: 22px;
-  color: var(--mint-soft);
-  margin-bottom: 36px;
-  line-height: 1.3;
-}
-.book__desc {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--cream);
-  opacity: 0.85;
-  margin-bottom: 16px;
-}
-.book__details {
-  display: flex;
-  gap: 40px;
-  flex-wrap: wrap;
-  margin: 40px 0;
-  padding: 24px 0;
-  border-top: 1px solid rgba(168, 234, 234, 0.2);
-  border-bottom: 1px solid rgba(168, 234, 234, 0.2);
-}
-.book__detail dt {
-  font-size: 10px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.7;
-  margin-bottom: 6px;
-}
-.book__detail dd {
-  font-family: var(--ff-display);
-  font-size: 17px;
-  color: var(--cream);
-}
-
-/* ========== News Carousel Section ========== */
-.news-carousel {
-  background: var(--ink-deep);
-  padding: 80px 40px;
-  position: relative;
-  overflow: hidden;
-}
-.news-carousel__inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-}
-.news-carousel__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 48px;
-}
-.news-carousel__title-group {
-  flex: 1;
-}
-.news-carousel__eyebrow {
-  font-family: var(--ff-sans);
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.7;
-  margin-bottom: 16px;
-}
-.news-carousel__title {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 80, "SOFT" 35;
-  font-weight: 450;
-  font-size: clamp(32px, 4vw, 48px);
-  line-height: 1.1;
-  color: var(--mint);
-  letter-spacing: -0.02em;
-}
-.news-carousel__title em {
-  font-style: italic;
-  font-variation-settings: "opsz" 80, "SOFT" 100, "WONK" 1;
-  color: var(--mint-soft);
-}
-.news-carousel__nav {
-  display: flex;
-  gap: 12px;
-}
-.news-carousel__nav-btn {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  border: 1px solid rgba(168, 234, 234, 0.3);
-  background: transparent;
-  color: var(--mint);
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.news-carousel__nav-btn:hover:not(:disabled) {
-  background: var(--mint);
-  color: var(--ink-deep);
-  border-color: var(--mint);
-}
-.news-carousel__nav-btn:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
-.news-carousel__track-wrapper {
-  overflow: hidden;
-  position: relative;
-}
-.news-carousel__track {
-  display: flex;
-  gap: 24px;
-  transition: transform 0.5s ease;
-}
-.news-card {
-  flex: 0 0 calc(33.333% - 16px);
-  background: var(--cream);
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
-  text-decoration: none;
-  color: inherit;
-  display: flex;
-  flex-direction: column;
-}
-.news-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(168, 234, 234, 0.2);
-}
-.news-card__image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
-  background: linear-gradient(135deg, rgba(74, 139, 146, 0.1) 0%, rgba(74, 139, 146, 0.05) 100%);
-}
-.news-card__type {
-  padding: 12px 20px;
-  font-family: var(--ff-sans);
-  font-size: 11px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  font-weight: 600;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-}
-.news-card__type--texte {
-  background: linear-gradient(135deg, rgba(74, 139, 146, 0.08) 0%, rgba(74, 139, 146, 0.12) 100%);
-  color: var(--teal);
-}
-.news-card__type--video {
-  background: linear-gradient(135deg, rgba(168, 234, 234, 0.15) 0%, rgba(168, 234, 234, 0.25) 100%);
-  color: var(--teal);
-}
-.news-card__content {
-  padding: 24px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-.news-card__date {
-  font-family: var(--ff-sans);
-  font-size: 12px;
-  color: var(--teal);
-  opacity: 0.7;
-  margin-bottom: 12px;
-  letter-spacing: 0.05em;
-}
-.news-card__title {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 60, "SOFT" 40;
-  font-weight: 450;
-  font-size: 20px;
-  line-height: 1.3;
-  color: var(--ink-deep);
-  margin-bottom: 12px;
-  letter-spacing: -0.015em;
-}
-.news-card__excerpt {
-  font-family: var(--ff-serif);
-  font-size: 15px;
-  line-height: 1.6;
-  color: var(--ink);
-  opacity: 0.85;
-  margin-bottom: 20px;
-  flex: 1;
-}
-.news-card__cta {
-  font-family: var(--ff-sans);
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--teal);
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: gap 0.3s;
-}
-.news-card:hover .news-card__cta {
-  gap: 10px;
-}
-.news-card__cta::after {
-  content: "→";
-  font-size: 14px;
-}
-.news-carousel__dots {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 32px;
-}
-.news-carousel__dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: rgba(168, 234, 234, 0.3);
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s;
-  padding: 0;
-}
-.news-carousel__dot.active {
-  background: var(--mint);
-  width: 32px;
-  border-radius: 5px;
-}
-.news-carousel__dot:hover {
-  background: var(--mint-soft);
-}
-.news-carousel__loading {
-  text-align: center;
-  padding: 60px 20px;
-  font-family: var(--ff-serif);
-  font-style: italic;
-  color: var(--mint);
-  opacity: 0.6;
-}
-
-/* ========== NEMO Section ========== */
-.nemo {
-  background: var(--cream);
-  padding: 140px 40px;
-}
-.nemo__inner {
-  max-width: var(--maxw);
-  margin: 0 auto;
-}
-.nemo__header {
-  text-align: center;
-  margin-bottom: 80px;
-}
-.nemo__eyebrow {
-  font-size: 11px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--teal);
-  margin-bottom: 24px;
-}
-.nemo__title {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 144, "SOFT" 40;
-  font-weight: 400;
-  font-size: clamp(48px, 6vw, 88px);
-  line-height: 0.95;
-  letter-spacing: -0.03em;
-  color: var(--ink);
-  margin-bottom: 28px;
-}
-.nemo__title em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-  color: var(--teal);
-}
-.nemo__subtitle {
-  font-family: var(--ff-serif);
-  font-style: italic;
-  font-size: clamp(18px, 1.8vw, 24px);
-  max-width: 52ch;
-  margin: 0 auto;
-  color: var(--ink);
-  opacity: 0.8;
-  line-height: 1.5;
-}
-.nemo__features {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 40px;
-}
-.nemo__feature {
-  padding: 48px 36px;
-  background: white;
-  border: 1px solid rgba(74, 139, 146, 0.15);
-  transition: all 0.3s ease;
-}
-.nemo__feature:hover {
-  border-color: var(--teal);
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(74, 139, 146, 0.12);
-}
-.nemo__feature-number {
-  font-family: var(--ff-display);
-  font-size: 72px;
-  font-weight: 800;
-  color: var(--teal);
-  opacity: 0.3;
-  line-height: 1;
-  margin-bottom: 20px;
-}
-.nemo__feature h3 {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 72, "SOFT" 50;
-  font-size: 26px;
-  font-weight: 500;
-  color: var(--ink);
-  margin-bottom: 16px;
-  line-height: 1.2;
-}
-.nemo__feature p {
-  font-size: 15px;
-  line-height: 1.7;
-  color: var(--ink);
-  opacity: 0.75;
-}
-.nemo__cta {
-  text-align: center;
-  margin-top: 64px;
-}
-.btn--dark {
-  background: var(--ink);
-  color: var(--mint);
-}
-.btn--dark:hover {
-  background: var(--ink-deep);
-}
-
-/* ========== Author Section ========== */
-.author {
-  background: var(--ink-deep);
-  color: var(--cream);
-  padding: 140px 40px;
-}
-.author__inner {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 100px;
-  align-items: start;
-}
-.author__image {
-  width: 100%;
-  height: auto;
-  filter: grayscale(100%) contrast(1.15);
-  transition: filter 0.5s ease;
-}
-.author__image:hover {
-  filter: grayscale(0%) contrast(1);
-}
-.author__eyebrow {
-  font-size: 11px;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.7;
-  margin-bottom: 24px;
-}
-.author__name {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 144, "SOFT" 40;
-  font-weight: 400;
-  font-size: clamp(40px, 4.5vw, 64px);
-  line-height: 0.98;
-  letter-spacing: -0.025em;
-  color: var(--cream);
-  margin-bottom: 16px;
-}
-.author__name em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-  color: var(--mint-soft);
-}
-.author__role {
-  font-family: var(--ff-serif);
-  font-style: italic;
-  font-size: 20px;
-  color: var(--mint);
-  margin-bottom: 36px;
-}
-.author__bio {
-  font-size: 16px;
-  line-height: 1.7;
-  color: var(--cream);
-  opacity: 0.85;
-  margin-bottom: 40px;
-  max-width: 52ch;
-}
-.author__links {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-.author__links a {
-  padding: 12px 24px;
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: transparent;
-  color: var(--mint);
-  border: 1px solid rgba(168, 234, 234, 0.3);
-  transition: all 0.3s ease;
-}
-.author__links a:hover {
-  background: rgba(168, 234, 234, 0.1);
-  border-color: var(--mint);
-}
-
-/* ========== Newsletter Section ========== */
-.newsletter {
-  background: radial-gradient(ellipse at 50% 50%, rgba(74, 139, 146, 0.18) 0%, transparent 70%), 
-              #2D5A60;
-  color: var(--cream);
-  padding: 120px 40px;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-.newsletter__inner {
-  max-width: 720px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 2;
-}
-.newsletter__eyebrow {
-  font-size: 11px;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--mint);
-  opacity: 0.7;
-  margin-bottom: 24px;
-}
-.newsletter__title {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 144, "SOFT" 40;
-  font-weight: 400;
-  font-size: clamp(40px, 5vw, 64px);
-  line-height: 0.98;
-  letter-spacing: -0.025em;
-  color: var(--cream);
-  margin-bottom: 24px;
-}
-.newsletter__title em {
-  font-style: italic;
-  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
-  color: var(--mint);
-}
-.newsletter__text {
-  font-size: 17px;
-  line-height: 1.6;
-  color: var(--cream);
-  opacity: 0.85;
-  margin-bottom: 40px;
-}
-.newsletter__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-  padding: 18px 40px;
-  background: var(--mint);
-  color: var(--ink);
-  font-family: var(--ff-sans);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transition: all 0.3s ease;
-}
-.newsletter__cta:hover {
-  background: var(--mint-soft);
-  transform: translateY(-2px);
-}
-
-/* ========== Footer ========== */
-.footer {
-  background: var(--ink);
-  color: var(--cream);
-  padding: 80px 40px 40px;
-}
-.footer__inner {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 60px;
-  margin-bottom: 60px;
-}
-.footer__brand {
-  max-width: 320px;
-}
-.footer__brand img {
-  width: 48px;
-  height: auto;
-  margin-bottom: 20px;
-  filter: brightness(0) invert(1);
-  opacity: 0.9;
-}
-.footer__brand-text {
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--cream);
-  opacity: 0.65;
-}
-.footer__col h4 {
-  font-family: var(--ff-display);
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--mint);
-  margin-bottom: 20px;
-}
-.footer__col ul {
-  list-style: none;
-}
-.footer__col li {
-  margin-bottom: 12px;
-}
-.footer__col a {
-  font-size: 14px;
-  color: var(--cream);
-  opacity: 0.7;
-  transition: opacity 0.2s;
-}
-.footer__col a:hover {
-  opacity: 1;
-}
-.footer__bottom {
-  max-width: var(--maxw);
-  margin: 0 auto;
-  padding-top: 40px;
-  border-top: 1px solid rgba(168, 234, 234, 0.15);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 12px;
-  color: var(--cream);
-  opacity: 0.5;
-}
-
-/* ========== Responsive ========== */
-@media (max-width: 1024px) {
-  .book__inner,
-  .author__inner {
-    grid-template-columns: 1fr;
-    gap: 60px;
-    text-align: center;
-  }
-  .book__cover,
-  .author__visual {
-    margin: 0 auto;
-  }
-  .author__bio {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .author__links {
-    justify-content: center;
-  }
-  .news-card {
-    flex: 0 0 calc(50% - 12px);
-  }
-}
-
-@media (max-width: 768px) {
-  .nav {
-    padding: 16px 24px;
-  }
-  .nav {
-    align-items: flex-start;
-    gap: 14px;
-    padding: 14px 18px;
-  }
-  .nav__brand img {
-    height: 42px;
-  }
-  .nav__links {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    font-size: 10px;
-    line-height: 1.2;
-  }
-  .nav__cta {
-    padding: 6px 10px 5px !important;
-  }
-  .lang-switch__current {
-    padding: 6px 9px;
-    font-size: 10px;
-  }
-  .lang-switch__menu {
-    right: auto;
-    left: 0;
-  }
-  .hero {
-    padding: 120px 24px 80px;
-  }
-  .manifesto,
-  .book,
-  .nemo,
-  .author,
-  .newsletter,
-  .news-carousel {
-    padding: 80px 24px;
-  }
-  .manifesto__inner {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .manifesto__label {
-    writing-mode: horizontal-tb;
-    transform: none;
-  }
-  .nemo__features {
-    grid-template-columns: 1fr;
-  }
-  .news-card {
-    flex: 0 0 100%;
-  }
-  .news-carousel__header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
-  }
-  .footer__inner {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    text-align: center;
-  }
-  .footer__bottom {
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-  }
-}
-
-/* ========== CSS Piliers NEMO cliquables ========== */
-.nemo__intro {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.nemo__pillars {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 32px;
-  margin-bottom: 60px;
-}
-
-.nemo__pillar {
-  display: block;
-  padding: 40px;
-  background: rgba(74, 139, 146, 0.08);
-  border: 1px solid rgba(168, 234, 234, 0.15);
-  border-radius: 8px;
-  text-decoration: none;
-  color: inherit;
-  transition: all 0.3s ease;
-  position: relative;
-}
-
-.nemo__pillar:hover {
-  transform: translateY(-4px);
-  background: rgba(74, 139, 146, 0.12);
-  border-color: rgba(168, 234, 234, 0.3);
-}
-
-.nemo__pillar-number {
-  font-family: var(--ff-display);
-  font-size: 48px;
-  font-weight: 300;
-  color: var(--mint);
-  opacity: 0.3;
-  margin-bottom: 16px;
-}
-
-.nemo__pillar-title {
-  font-family: var(--ff-display);
-  font-size: 20px;
-  font-weight: 500;
-  color: var(--ink-deep);
-  margin-bottom: 16px;
-  line-height: 1.3;
-  transition: color 0.3s;
-}
-
-.nemo__pillar:hover .nemo__pillar-title {
-  color: var(--teal);
-}
-
-.nemo__pillar-text {
-  font-family: var(--ff-serif);
-  font-size: 15px;
-  line-height: 1.7;
-  color: var(--ink);
-  opacity: 0.85;
-}
-
-.nemo__pillar-cta {
-  font-family: var(--ff-sans);
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: var(--teal);
-  opacity: 0.7;
-  margin-top: 20px;
-  transition: all 0.3s;
-}
-
-.nemo__pillar:hover .nemo__pillar-cta {
-  opacity: 1;
-  transform: translateX(4px);
-  color: var(--mint);
-}
-
-.nemo__footer {
-  display: flex;
-  gap: 16px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.nemo__footer-link {
-  padding: 14px 28px;
-  border: 1px solid rgba(28, 90, 96, 0.3);
-  border-radius: 999px;
-  font-family: var(--ff-sans);
-  font-size: 12px;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  transition: all 0.3s;
-}
-
-.nemo__footer-link:hover {
-  background: var(--ink);
-  color: var(--cream);
-  border-color: var(--ink);
-}
-
-.nemo__footer-link--primary {
-  background: var(--ink);
-  color: var(--cream);
-  border-color: var(--ink);
-}
-
-.nemo__footer-link--primary:hover {
-  background: var(--ink-deep);
-  border-color: var(--ink-deep);
-}
-
-@media (max-width: 980px) {
-  .nemo__pillars {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .nemo__pillar {
-    padding: 32px 24px;
-  }
-  
-  .nemo__pillar:hover {
-    transform: none;
-  }
-  
-  .nemo__pillar-number {
-    font-size: 36px;
-  }
-  
-  .nemo__pillar-title {
-    font-size: 18px;
-  }
-}
-
-@media (max-width: 640px) {
-  .nemo__pillars {
-    grid-template-columns: 1fr;
-  }
-  
-  .nemo__pillar {
-    padding: 28px 20px;
-  }
-}
+<style>:root{--ink-deep:#0D2E31;--ink:#1C5A60;--teal:#4A8B92;--mint:#A8EAEA;--mint-soft:#C9F0EE;--cream:#f0ece9;--cream-deep:#eeece9;--sand:#D9C9A3;--rust:#40ccb5;--ochre:#8faebb;--maxw:1360px;--ff-display:"Fraunces","Times New Roman",serif;--ff-serif:"Instrument Serif","Times New Roman",serif;--ff-sans:"Instrument Sans",-apple-system,BlinkMacSystemFont,sans-serif}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:var(--ff-sans);font-size:16px;line-height:1.6;color:var(--ink-deep);background:var(--cream);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow-x:hidden}a{text-decoration:none;color:inherit}img{max-width:100%;height:auto;display:block}.nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:18px 40px;display:flex;align-items:center;justify-content:space-between;background:rgba(28,90,96,0);backdrop-filter:blur(0px);transition:all 0.4s ease}.nav.scrolled{background:rgba(13,46,49,0.88);backdrop-filter:blur(14px);padding:12px 40px;border-bottom:1px solid rgba(168,234,234,0.12)}.nav__brand{display:flex;align-items:center;transition:opacity 0.2s}.nav__brand:hover{opacity:0.85}.nav__brand img{height:54px;width:auto;display:block}.nav__links{display:flex;gap:32px;align-items:center;font-family:var(--ff-sans);font-size:13px;letter-spacing:0.04em;text-transform:uppercase;color:var(--mint)}.nav__links a{position:relative;padding-bottom:4px;transition:color 0.2s}.nav__links a::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--mint);transition:width 0.3s}.nav__links a:hover::after{width:100%}.nav__cta{border:1px solid rgba(168,234,234,0.6);border-radius:999px;padding:8px 14px 7px !important;margin-left:4px}.nav__cta::after{display:none}.nav__cta:hover{background:rgba(168,234,234,0.1)}.lang-switch{position:relative;display:inline-flex;align-items:center}.lang-switch__current{border:1px solid rgba(168,234,234,0.7);border-radius:999px;padding:7px 11px;cursor:pointer;list-style:none;font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--mint);line-height:1}.lang-switch__current::-webkit-details-marker{display:none}.lang-switch__menu{position:absolute;right:0;top:calc(100% + 10px);min-width:190px;padding:8px;border-radius:18px;background:rgba(13,46,49,0.96);color:var(--mint);border:1px solid rgba(168,234,234,0.18);box-shadow:0 18px 40px rgba(13,46,49,0.22);display:grid;gap:4px;z-index:1001}.lang-switch__menu a{display:flex;justify-content:space-between;gap:18px;padding:9px 12px;border-radius:12px;color:inherit;white-space:nowrap;text-transform:none;letter-spacing:0;font-size:13px}.lang-switch__menu a:hover{background:rgba(168,234,234,0.12)}.lang-switch__menu a::after{display:none !important}.hero{position:relative;min-height:100vh;background:var(--ink);color:var(--mint);padding:160px 40px 120px;overflow:hidden;display:flex;align-items:center}.hero__bg-tree{position:absolute;right:-180px;top:50%;transform:translateY(-50%);width:900px;height:900px;opacity:0.08;pointer-events:none}.hero__bg-tree img{width:100%;height:100%;object-fit:contain;filter:brightness(0) invert(1)}.hero__grain{position:absolute;inset:0;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:0.55;mix-blend-mode:overlay}.hero__inner{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;width:100%}.hero__eyebrow{display:inline-flex;align-items:center;gap:14px;font-size:12px;letter-spacing:0.25em;text-transform:uppercase;color:var(--mint-soft);opacity:0.9;margin-bottom:40px}.hero__eyebrow::before{content:"";display:block;width:50px;height:1px;background:var(--mint);opacity:0.6}.hero__title{font-family:var(--ff-display);font-variation-settings:"opsz" 144,"SOFT" 40;font-weight:350;font-size:clamp(56px,9vw,156px);line-height:0.92;letter-spacing:-0.035em;color:var(--mint);max-width:14ch}.hero__title em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;color:var(--mint-soft)}.hero__lede{font-family:var(--ff-serif);font-style:italic;font-size:clamp(20px,2vw,26px);line-height:1.45;max-width:42ch;color:var(--mint-soft);opacity:0.92;margin-top:40px;padding-left:24px;border-left:1px solid rgba(168,234,234,0.35)}.hero__actions{display:flex;gap:16px;flex-wrap:wrap;margin-top:48px}.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 32px;font-family:var(--ff-sans);font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;border:none;cursor:pointer;transition:all 0.3s ease}.btn--primary{background:var(--mint);color:var(--ink)}.btn--primary:hover{background:var(--mint-soft);transform:translateY(-2px)}.btn--secondary{background:transparent;color:var(--mint);border:1px solid var(--mint)}.btn--secondary:hover{background:rgba(168,234,234,0.1)}.btn__arrow{font-size:16px;transition:transform 0.3s ease}.btn:hover .btn__arrow{transform:translateX(4px)}.manifesto{background:var(--cream);padding:140px 40px}.manifesto__inner{max-width:980px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:60px;align-items:start}.manifesto__label{font-size:11px;letter-spacing:0.25em;text-transform:uppercase;color:var(--teal);writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;padding-top:8px}.manifesto__label::after{content:"";display:block;width:60px;height:1px;background:var(--teal);opacity:0.4;margin:18px auto 0}.manifesto__text p{font-family:var(--ff-display);font-variation-settings:"opsz" 60,"SOFT" 50;font-weight:380;font-size:clamp(24px,2.4vw,32px);line-height:1.35;letter-spacing:-0.015em;color:var(--ink-deep);margin-bottom:28px}.manifesto__text p:last-of-type{margin-bottom:0}.manifesto__text em{font-style:italic;font-variation-settings:"opsz" 60,"SOFT" 100,"WONK" 1;color:var(--ink)}.manifesto__more{display:inline-flex;align-items:center;gap:10px;margin-top:40px;padding-bottom:4px;border-bottom:1px solid var(--ink);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;color:var(--ink);transition:opacity 0.2s}.manifesto__more:hover{opacity:0.6}.gaia-quote{background:radial-gradient(ellipse at 50% 30%,rgba(74,139,146,0.22) 0%,transparent 60%),linear-gradient(175deg,#0A2528 0%,var(--ink-deep) 50%,#081F22 100%);padding:180px 40px;text-align:center;position:relative;overflow:hidden;color:var(--mint)}.gaia-quote::before{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.05 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");opacity:0.5;mix-blend-mode:overlay;pointer-events:none}.gaia-quote__inner{max-width:1000px;margin:0 auto;position:relative;z-index:2}.gaia-quote__eyebrow{font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:var(--mint);opacity:0.55;margin-bottom:56px;display:inline-flex;align-items:center;gap:14px}.gaia-quote__eyebrow::before,.gaia-quote__eyebrow::after{content:"";display:block;width:40px;height:1px;background:var(--mint);opacity:0.5}.gaia-quote__text{font-family:var(--ff-display);font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;font-weight:350;font-size:clamp(30px,4.2vw,58px);line-height:1.28;letter-spacing:-0.02em;color:var(--mint)}.gaia-quote__preamble{display:block;font-family:var(--ff-serif);font-style:italic;font-size:clamp(16px,1.5vw,20px);color:var(--mint-soft);opacity:0.7;letter-spacing:0.04em;margin-bottom:28px;font-variation-settings:normal}.gaia-quote__mark{color:var(--teal);font-size:1.1em;font-style:normal;vertical-align:-0.04em;opacity:0.85;margin:0 0.05em}.gaia-quote__context{margin-top:56px;font-family:var(--ff-sans);font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:var(--mint);opacity:0.45}.book{background:var(--ink-deep);color:var(--cream);padding:140px 40px;position:relative;overflow:hidden}.book::before{content:"ESSAI";position:absolute;top:80px;right:-40px;font-family:var(--ff-display);font-size:280px;font-weight:800;color:var(--teal);opacity:0.12;letter-spacing:-0.04em;pointer-events:none}.book__inner{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1fr 1.2fr;gap:100px;align-items:center;position:relative;z-index:2}.book__cover{position:relative;max-width:420px;width:100%;box-shadow:0 30px 60px -20px rgba(0,0,0,0.7),0 20px 40px -10px rgba(0,0,0,0.35);transform:perspective(1200px) rotateY(-6deg) rotateX(2deg);transition:transform 0.6s cubic-bezier(0.2,0.8,0.2,1);border-radius:2px;overflow:hidden}.book__cover:hover{transform:perspective(1200px) rotateY(-3deg) rotateX(1deg) translateY(-6px)}.book__cover img{width:100%;height:auto;display:block}.book__cover::after{content:"";position:absolute;left:0;top:0;bottom:0;width:18px;background:linear-gradient(to right,rgba(0,0,0,0.25),transparent);pointer-events:none}.book__content{max-width:560px}.book__eyebrow{display:inline-flex;align-items:center;gap:12px;font-size:11px;letter-spacing:0.25em;text-transform:uppercase;color:var(--mint);opacity:0.8;margin-bottom:32px}.book__eyebrow::before{content:"";width:30px;height:1px;background:var(--mint);opacity:0.5}.book__title{font-family:var(--ff-display);font-variation-settings:"opsz" 144,"SOFT" 40;font-weight:400;font-size:clamp(40px,4.5vw,68px);line-height:0.98;letter-spacing:-0.025em;color:var(--cream);margin-bottom:16px}.book__title em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;color:var(--mint)}.book__subtitle{font-family:var(--ff-serif);font-style:italic;font-size:22px;color:var(--mint-soft);margin-bottom:36px;line-height:1.3}.book__desc{font-size:16px;line-height:1.7;color:var(--cream);opacity:0.85;margin-bottom:16px}.book__details{display:flex;gap:40px;flex-wrap:wrap;margin:40px 0;padding:24px 0;border-top:1px solid rgba(168,234,234,0.2);border-bottom:1px solid rgba(168,234,234,0.2)}.book__detail dt{font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:var(--mint);opacity:0.7;margin-bottom:6px}.book__detail dd{font-family:var(--ff-display);font-size:17px;color:var(--cream)}.news-carousel{background:var(--ink-deep);padding:80px 40px;position:relative;overflow:hidden}.news-carousel__inner{max-width:1200px;margin:0 auto;position:relative}.news-carousel__header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:48px}.news-carousel__title-group{flex:1}.news-carousel__eyebrow{font-family:var(--ff-sans);font-size:11px;letter-spacing:0.25em;text-transform:uppercase;color:var(--mint);opacity:0.7;margin-bottom:16px}.news-carousel__title{font-family:var(--ff-display);font-variation-settings:"opsz" 80,"SOFT" 35;font-weight:450;font-size:clamp(32px,4vw,48px);line-height:1.1;color:var(--mint);letter-spacing:-0.02em}.news-carousel__title em{font-style:italic;font-variation-settings:"opsz" 80,"SOFT" 100,"WONK" 1;color:var(--mint-soft)}.news-carousel__nav{display:flex;gap:12px}.news-carousel__nav-btn{width:48px;height:48px;border-radius:50%;border:1px solid rgba(168,234,234,0.3);background:transparent;color:var(--mint);font-size:20px;cursor:pointer;transition:all 0.3s;display:flex;align-items:center;justify-content:center}.news-carousel__nav-btn:hover:not(:disabled){background:var(--mint);color:var(--ink-deep);border-color:var(--mint)}.news-carousel__nav-btn:disabled{opacity:0.3;cursor:not-allowed}.news-carousel__track-wrapper{overflow:hidden;position:relative}.news-carousel__track{display:flex;gap:24px;transition:transform 0.5s ease}.news-card{flex:0 0 calc(33.333% - 16px);background:var(--cream);border-radius:8px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.3);transition:all 0.3s ease;text-decoration:none;color:inherit;display:flex;flex-direction:column}.news-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(168,234,234,0.2)}.news-card__image{width:100%;height:200px;object-fit:cover;display:block;background:linear-gradient(135deg,rgba(74,139,146,0.1) 0%,rgba(74,139,146,0.05) 100%)}.news-card__type{padding:12px 20px;font-family:var(--ff-sans);font-size:11px;letter-spacing:0.15em;text-transform:uppercase;font-weight:600;border-bottom:1px solid rgba(0,0,0,0.05)}.news-card__type--texte{background:linear-gradient(135deg,rgba(74,139,146,0.08) 0%,rgba(74,139,146,0.12) 100%);color:var(--teal)}.news-card__type--video{background:linear-gradient(135deg,rgba(168,234,234,0.15) 0%,rgba(168,234,234,0.25) 100%);color:var(--teal)}.news-card__content{padding:24px;flex:1;display:flex;flex-direction:column}.news-card__date{font-family:var(--ff-sans);font-size:12px;color:var(--teal);opacity:0.7;margin-bottom:12px;letter-spacing:0.05em}.news-card__title{font-family:var(--ff-display);font-variation-settings:"opsz" 60,"SOFT" 40;font-weight:450;font-size:20px;line-height:1.3;color:var(--ink-deep);margin-bottom:12px;letter-spacing:-0.015em}.news-card__excerpt{font-family:var(--ff-serif);font-size:15px;line-height:1.6;color:var(--ink);opacity:0.85;margin-bottom:20px;flex:1}.news-card__cta{font-family:var(--ff-sans);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal);font-weight:600;display:flex;align-items:center;gap:6px;transition:gap 0.3s}.news-card:hover .news-card__cta{gap:10px}.news-card__cta::after{content:"→";font-size:14px}.news-carousel__dots{display:flex;justify-content:center;gap:12px;margin-top:32px}.news-carousel__dot{width:10px;height:10px;border-radius:50%;background:rgba(168,234,234,0.3);border:none;cursor:pointer;transition:all 0.3s;padding:0}.news-carousel__dot.active{background:var(--mint);width:32px;border-radius:5px}.news-carousel__dot:hover{background:var(--mint-soft)}.news-carousel__loading{text-align:center;padding:60px 20px;font-family:var(--ff-serif);font-style:italic;color:var(--mint);opacity:0.6}.nemo{background:var(--cream);padding:140px 40px}.nemo__inner{max-width:var(--maxw);margin:0 auto}.nemo__header{text-align:center;margin-bottom:80px}.nemo__eyebrow{font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:var(--teal);margin-bottom:24px}.nemo__title{font-family:var(--ff-display);font-variation-settings:"opsz" 144,"SOFT" 40;font-weight:400;font-size:clamp(48px,6vw,88px);line-height:0.95;letter-spacing:-0.03em;color:var(--ink);margin-bottom:28px}.nemo__title em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;color:var(--teal)}.nemo__subtitle{font-family:var(--ff-serif);font-style:italic;font-size:clamp(18px,1.8vw,24px);max-width:52ch;margin:0 auto;color:var(--ink);opacity:0.8;line-height:1.5}.nemo__features{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:40px}.nemo__feature{padding:48px 36px;background:white;border:1px solid rgba(74,139,146,0.15);transition:all 0.3s ease}.nemo__feature:hover{border-color:var(--teal);transform:translateY(-4px);box-shadow:0 12px 24px rgba(74,139,146,0.12)}.nemo__feature-number{font-family:var(--ff-display);font-size:72px;font-weight:800;color:var(--teal);opacity:0.3;line-height:1;margin-bottom:20px}.nemo__feature h3{font-family:var(--ff-display);font-variation-settings:"opsz" 72,"SOFT" 50;font-size:26px;font-weight:500;color:var(--ink);margin-bottom:16px;line-height:1.2}.nemo__feature p{font-size:15px;line-height:1.7;color:var(--ink);opacity:0.75}.nemo__cta{text-align:center;margin-top:64px}.btn--dark{background:var(--ink);color:var(--mint)}.btn--dark:hover{background:var(--ink-deep)}.author{background:var(--ink-deep);color:var(--cream);padding:140px 40px}.author__inner{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:380px 1fr;gap:100px;align-items:start}.author__image{width:100%;height:auto;filter:grayscale(100%) contrast(1.15);transition:filter 0.5s ease}.author__image:hover{filter:grayscale(0%) contrast(1)}.author__eyebrow{font-size:11px;letter-spacing:0.25em;text-transform:uppercase;color:var(--mint);opacity:0.7;margin-bottom:24px}.author__name{font-family:var(--ff-display);font-variation-settings:"opsz" 144,"SOFT" 40;font-weight:400;font-size:clamp(40px,4.5vw,64px);line-height:0.98;letter-spacing:-0.025em;color:var(--cream);margin-bottom:16px}.author__name em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;color:var(--mint-soft)}.author__role{font-family:var(--ff-serif);font-style:italic;font-size:20px;color:var(--mint);margin-bottom:36px}.author__bio{font-size:16px;line-height:1.7;color:var(--cream);opacity:0.85;margin-bottom:40px;max-width:52ch}.author__links{display:flex;gap:12px;flex-wrap:wrap}.author__links a{padding:12px 24px;font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;background:transparent;color:var(--mint);border:1px solid rgba(168,234,234,0.3);transition:all 0.3s ease}.author__links a:hover{background:rgba(168,234,234,0.1);border-color:var(--mint)}.newsletter{background:radial-gradient(ellipse at 50% 50%,rgba(74,139,146,0.18) 0%,transparent 70%),#2D5A60;color:var(--cream);padding:120px 40px;text-align:center;position:relative;overflow:hidden}.newsletter__inner{max-width:720px;margin:0 auto;position:relative;z-index:2}.newsletter__eyebrow{font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:var(--mint);opacity:0.7;margin-bottom:24px}.newsletter__title{font-family:var(--ff-display);font-variation-settings:"opsz" 144,"SOFT" 40;font-weight:400;font-size:clamp(40px,5vw,64px);line-height:0.98;letter-spacing:-0.025em;color:var(--cream);margin-bottom:24px}.newsletter__title em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;color:var(--mint)}.newsletter__text{font-size:17px;line-height:1.6;color:var(--cream);opacity:0.85;margin-bottom:40px}.newsletter__cta{display:inline-flex;align-items:center;gap:12px;padding:18px 40px;background:var(--mint);color:var(--ink);font-family:var(--ff-sans);font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.3s ease}.newsletter__cta:hover{background:var(--mint-soft);transform:translateY(-2px)}.footer{background:var(--ink);color:var(--cream);padding:80px 40px 40px}.footer__inner{max-width:var(--maxw);margin:0 auto;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:60px;margin-bottom:60px}.footer__brand{max-width:320px}.footer__brand img{width:48px;height:auto;margin-bottom:20px;filter:brightness(0) invert(1);opacity:0.9}.footer__brand-text{font-size:14px;line-height:1.6;color:var(--cream);opacity:0.65}.footer__col h4{font-family:var(--ff-display);font-size:16px;font-weight:600;color:var(--mint);margin-bottom:20px}.footer__col ul{list-style:none}.footer__col li{margin-bottom:12px}.footer__col a{font-size:14px;color:var(--cream);opacity:0.7;transition:opacity 0.2s}.footer__col a:hover{opacity:1}.footer__bottom{max-width:var(--maxw);margin:0 auto;padding-top:40px;border-top:1px solid rgba(168,234,234,0.15);display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--cream);opacity:0.5}@media (max-width:1024px){.book__inner,.author__inner{grid-template-columns:1fr;gap:60px;text-align:center}.book__cover,.author__visual{margin:0 auto}.author__bio{margin-left:auto;margin-right:auto}.author__links{justify-content:center}.news-card{flex:0 0 calc(50% - 12px)}}@media (max-width:768px){.nav{padding:16px 24px}.nav{align-items:flex-start;gap:14px;padding:14px 18px}.nav__brand img{height:42px}.nav__links{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:10px;line-height:1.2}.nav__cta{padding:6px 10px 5px !important}.lang-switch__current{padding:6px 9px;font-size:10px}.lang-switch__menu{right:auto;left:0}.hero{padding:120px 24px 80px}.manifesto,.book,.nemo,.author,.newsletter,.news-carousel{padding:80px 24px}.manifesto__inner{grid-template-columns:1fr;gap:40px}.manifesto__label{writing-mode:horizontal-tb;transform:none}.nemo__features{grid-template-columns:1fr}.news-card{flex:0 0 100%}.news-carousel__header{flex-direction:column;align-items:flex-start;gap:24px}.footer__inner{grid-template-columns:1fr;gap:40px;text-align:center}.footer__bottom{flex-direction:column;gap:12px;text-align:center}}.nemo__intro{text-align:center;margin-bottom:60px}.nemo__pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-bottom:60px}.nemo__pillar{display:block;padding:40px;background:rgba(74,139,146,0.08);border:1px solid rgba(168,234,234,0.15);border-radius:8px;text-decoration:none;color:inherit;transition:all 0.3s ease;position:relative}.nemo__pillar:hover{transform:translateY(-4px);background:rgba(74,139,146,0.12);border-color:rgba(168,234,234,0.3)}.nemo__pillar-number{font-family:var(--ff-display);font-size:48px;font-weight:300;color:var(--mint);opacity:0.3;margin-bottom:16px}.nemo__pillar-title{font-family:var(--ff-display);font-size:20px;font-weight:500;color:var(--ink-deep);margin-bottom:16px;line-height:1.3;transition:color 0.3s}.nemo__pillar:hover .nemo__pillar-title{color:var(--teal)}.nemo__pillar-text{font-family:var(--ff-serif);font-size:15px;line-height:1.7;color:var(--ink);opacity:0.85}.nemo__pillar-cta{font-family:var(--ff-sans);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;color:var(--teal);opacity:0.7;margin-top:20px;transition:all 0.3s}.nemo__pillar:hover .nemo__pillar-cta{opacity:1;transform:translateX(4px);color:var(--mint)}.nemo__footer{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}.nemo__footer-link{padding:14px 28px;border:1px solid rgba(28,90,96,0.3);border-radius:999px;font-family:var(--ff-sans);font-size:12px;letter-spacing:0.15em;text-transform:uppercase;transition:all 0.3s}.nemo__footer-link:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}.nemo__footer-link--primary{background:var(--ink);color:var(--cream);border-color:var(--ink)}.nemo__footer-link--primary:hover{background:var(--ink-deep);border-color:var(--ink-deep)}@media (max-width:980px){.nemo__pillars{grid-template-columns:repeat(2,1fr)}.nemo__pillar{padding:32px 24px}.nemo__pillar:hover{transform:none}.nemo__pillar-number{font-size:36px}.nemo__pillar-title{font-size:18px}}@media (max-width:640px){.nemo__pillars{grid-template-columns:1fr}.nemo__pillar{padding:28px 20px}}
 </style>
 <link rel="stylesheet" href="/assets/theme.css">
 </head>
 <body>
-
-<!-- Navigation -->
 <nav class="nav" id="nav">
-  <a href="/" class="nav__brand">
-    <img src="assets/logo-vignette.png" alt="Debunk’Onomy">
-  </a>
-  <div class="nav__links">
-    <a href="/commencer-ici/">Commencer ici</a>
-    <a href="/nemo-ims/">NEMO IMS</a>
-    <a href="/articles/">Articles</a>
-    <a href="/medias/">Médias</a>
-    <a href="/livre/">Livre</a>
-    <a href="/newsletter/" class="nav__cta">Newsletter</a>
-    <details class="lang-switch">
-      <summary class="lang-switch__current">FR</summary>
-      <div class="lang-switch__menu">
-        <a href="/"><span>Français</span><strong>FR</strong></a>
-        <a href="/en/"><span>English</span><strong>EN</strong></a>
-        <a href="/es/"><span>Español</span><strong>ES</strong></a>
-        <a href="/pt/"><span>Português</span><strong>PT</strong></a>
-        <a href="/de/"><span>Deutsch</span><strong>DE</strong></a>
-        <a href="/it/"><span>Italiano</span><strong>IT</strong></a>
-        <a href="/ar/"><span>العربية</span><strong>AR</strong></a>
-      </div>
-    </details>
-  </div>
+<a href="/" class="nav__brand">
+<img src="assets/logo-vignette.png" alt="Debunk’Onomy">
+</a>
+<div class="nav__links">
+<a href="/commencer-ici/">Commencer ici</a>
+<a href="/nemo-ims/">NEMO IMS</a>
+<a href="/articles/">Articles</a>
+<a href="/medias/">Médias</a>
+<a href="/livre/">Livre</a>
+<a href="/newsletter/" class="nav__cta">Newsletter</a>
+<details class="lang-switch">
+<summary class="lang-switch__current">FR</summary>
+<div class="lang-switch__menu">
+<a href="/"><span>Français</span><strong>FR</strong></a>
+<a href="/en/"><span>English</span><strong>EN</strong></a>
+<a href="/es/"><span>Español</span><strong>ES</strong></a>
+<a href="/pt/"><span>Português</span><strong>PT</strong></a>
+<a href="/de/"><span>Deutsch</span><strong>DE</strong></a>
+<a href="/it/"><span>Italiano</span><strong>IT</strong></a>
+<a href="/ar/"><span>العربية</span><strong>AR</strong></a>
+</div>
+</details>
+</div>
 </nav>
-
-<!-- Hero Section -->
 <section class="hero">
   <div class="hero__bg-tree">
     <img src="assets/logo-tree.png" alt="">
@@ -1409,354 +73,319 @@ img { max-width: 100%; height: auto; display: block; }
     </div>
   </div>
 </section>
-
-<!-- Manifesto Section -->
 <section class="manifesto" id="manifeste">
-  <div class="manifesto__inner">
-    <div class="manifesto__label">Penser l'après</div>
-    <div class="manifesto__text">
-      <p>Nous vivons dans une illusion comptable. Notre système monétaire actuel exige une <em>croissance infinie</em> sur une planète aux ressources finies.</p>
-      <p>Debunk’Onomy n'est pas seulement une critique. C'est une proposition concrète pour <em>réaligner</em> nos outils financiers avec les lois de la thermodynamique et les limites planétaires.</p>
-      <a href="/manifeste/" class="manifesto__more">Lire notre démarche complète →</a>
-    </div>
-  </div>
+<div class="manifesto__inner">
+<div class="manifesto__label">Penser l'après</div>
+<div class="manifesto__text">
+<p>Nous vivons dans une illusion comptable. Notre système monétaire actuel exige une <em>croissance infinie</em> sur une planète aux ressources finies.</p>
+<p>Debunk’Onomy n'est pas seulement une critique. C'est une proposition concrète pour <em>réaligner</em> nos outils financiers avec les lois de la thermodynamique et les limites planétaires.</p>
+<a href="/manifeste/" class="manifesto__more">Lire notre démarche complète →</a>
+</div>
+</div>
 </section>
-
-<!-- Gaia Quote Section -->
 <section class="gaia-quote">
-  <div class="gaia-quote__inner">
-    <div class="gaia-quote__eyebrow">Vers une économie en phase avec les limites planétaires</div>
-    <blockquote class="gaia-quote__text">
-      <span class="gaia-quote__preamble">Epigraphe :</span>
-      <span class="gaia-quote__mark">«</span> Et Gaïa dit aux hommes : Il est vain de me soigner avec une monnaie que vous puisez au plus profond de mes blessures ! <span class="gaia-quote__mark">»</span>
-    </blockquote>
-    <cite class="gaia-quote__context">Jean-Christophe Duval — L'Économie de l'Équilibre</cite>
-  </div>
+<div class="gaia-quote__inner">
+<div class="gaia-quote__eyebrow">Vers une économie en phase avec les limites planétaires</div>
+<blockquote class="gaia-quote__text">
+<span class="gaia-quote__preamble">Epigraphe :</span>
+<span class="gaia-quote__mark">«</span> Et Gaïa dit aux hommes : Il est vain de me soigner avec une monnaie que vous puisez au plus profond de mes blessures ! <span class="gaia-quote__mark">»</span>
+</blockquote>
+<cite class="gaia-quote__context">Jean-Christophe Duval — L'Économie de l'Équilibre</cite>
+</div>
 </section>
-
-<!-- Book Section -->
 <section class="book" id="livre">
-  <div class="book__inner">
-    <div class="book__cover">
-      <img src="assets/book-cover.png" alt="L'Économie de l'Équilibre — Couverture">
-    </div>
-    <div class="book__content">
-      <div class="book__eyebrow">L'ouvrage de référence</div>
-      <h2 class="book__title">L'Économie de l'<em>Équilibre</em></h2>
-      <p class="book__subtitle">Sortir de la croissance par la réforme monétaire.</p>
-      <p class="book__desc">Comment transformer un système basé sur la dette et l'extraction en un moteur de régénération ? Jean-Christophe Duval livre une analyse radicale et propose des solutions systémiques.</p>
-      <dl class="book__details">
-        <div class="book__detail">
-        </div>
-        <div class="book__detail">
-          <dt>Édition</dt>
-          <dd>Éditions Debunk’Onomy</dd>
-        </div>
-        <div class="book__detail">
-          <dt>Sortie</dt>
-          <dd>Avril 2026</dd>
-        </div>
-      </dl>
-      <a href="/livre/" class="btn btn--primary">En savoir plus sur le livre <span class="btn__arrow">→</span></a>
-    </div>
-  </div>
+<div class="book__inner">
+<div class="book__cover">
+<img src="assets/book-cover.png" alt="L'Économie de l'Équilibre — Couverture">
+</div>
+<div class="book__content">
+<div class="book__eyebrow">L'ouvrage de référence</div>
+<h2 class="book__title">L'Économie de l'<em>Équilibre</em></h2>
+<p class="book__subtitle">Sortir de la croissance par la réforme monétaire.</p>
+<p class="book__desc">Comment transformer un système basé sur la dette et l'extraction en un moteur de régénération ? Jean-Christophe Duval livre une analyse radicale et propose des solutions systémiques.</p>
+<dl class="book__details">
+<div class="book__detail">
+</div>
+<div class="book__detail">
+<dt>Édition</dt>
+<dd>Éditions Debunk’Onomy</dd>
+</div>
+<div class="book__detail">
+<dt>Sortie</dt>
+<dd>Avril 2026</dd>
+</div>
+</dl>
+<a href="/livre/" class="btn btn--primary">En savoir plus sur le livre <span class="btn__arrow">→</span></a>
+</div>
+</div>
 </section>
-
-<!-- News Carousel Section -->
 <section class="news-carousel" id="actualites">
-  <div class="news-carousel__inner">
-    <div class="news-carousel__header">
-      <div class="news-carousel__title-group">
-        <div class="news-carousel__eyebrow">Dernières publications</div>
-        <h2 class="news-carousel__title">Dernières <em>actualités</em></h2>
-      </div>
-      <div class="news-carousel__nav">
-        <button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">‹</button>
-        <button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">›</button>
-      </div>
-    </div>
-    <div class="news-carousel__track-wrapper">
-      <div class="news-carousel__track">
-        <a class="news-card news-card--texte" href="/nemo-ims/entretien-fondateur/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">1 mai 2026</div>
-            <h3 class="news-card__title">NEMO IMS : monnaie, écologie et essentiel insolvable</h3>
-            <p class="news-card__excerpt">Vingt questions pour comprendre pourquoi la crise écologique est aussi une crise monétaire, et comment NEMO IMS propose de financer ce que le marché ne sait pas sauver.</p>
-            <div class="news-card__cta">Lire l’entretien</div>
-          </div>
-        </a>
-        <a class="news-card news-card--texte" href="/articles/auteur/decroissance-robustesse-systeme-monetaire/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">30 avr. 2026</div>
-            <h3 class="news-card__title">Penser la décroissance sans penser la robustesse est un non-sens</h3>
-            <p class="news-card__excerpt">Pourquoi la décroissance morale et culturelle ne suffit pas sans une architecture monétaire capable de financer la robustesse écologique et sociale.</p>
-            <div class="news-card__cta">Lire l’article</div>
-          </div>
-        </a>
-        <a class="news-card news-card--texte" href="/articles/auteur/SMI-4/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">29 avr. 2026</div>
-            <h3 class="news-card__title">NEMO IMS : Quel système monétaire international pour le futur ?</h3>
-            <p class="news-card__excerpt">Après deux siècles d&#x27;échecs monétaires, NEMO IMS propose une rupture radicale : une monnaie internationale adossée à la régénération des écosystèmes plutôt qu&#x27;à la dette ou à l&#x27;or.</p>
-            <div class="news-card__cta">Lire l’article</div>
-          </div>
-        </a>
-        <a class="news-card news-card--texte" href="/articles/auteur/SMI-3/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">29 avr. 2026</div>
-            <h3 class="news-card__title">Histoire des crises monétaires internationales</h3>
-            <p class="news-card__excerpt">De l&#x27;étalon-or sterling aux guerres de monnaies contemporaines : deux siècles de crises révèlent l&#x27;instabilité structurelle des systèmes monétaires internationaux.</p>
-            <div class="news-card__cta">Lire l’article</div>
-          </div>
-        </a>
-        <a class="news-card news-card--texte" href="/articles/auteur/SMI-2/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">28 avr. 2026</div>
-            <h3 class="news-card__title">Les dilemmes structurels du système monétaire international</h3>
-            <p class="news-card__excerpt">Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d&#x27;un équilibre comptable illusoire. Deuxième volet de la série sur le SMI.</p>
-            <div class="news-card__cta">Lire l’article</div>
-          </div>
-        </a>
-        <a class="news-card news-card--texte" href="/articles/auteur/SMI/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">28 avr. 2026</div>
-            <h3 class="news-card__title">Qu&#x27;est-ce qu&#x27;un système monétaire international ?</h3>
-            <p class="news-card__excerpt">Les fondements, piliers et contraintes qui structurent la finance mondiale — et pourquoi il est urgent de les repenser. Premier volet d&#x27;une série sur le SMI et NEMO IMS.</p>
-            <div class="news-card__cta">Lire l’article</div>
-          </div>
-        </a>
-        <a class="news-card news-card--texte" href="/articles/auteur/impossible-decoupage/">
-          <div class="news-card__type news-card__type--texte">Article</div>
-          <div class="news-card__content">
-            <div class="news-card__date">27 avr. 2026</div>
-            <h3 class="news-card__title">Records boursiers, planète mourante : pourquoi l&#x27;économie qui &#x27;fonctionne&#x27; nous tue</h3>
-            <p class="news-card__excerpt">Comment un système peut-il simultanément réussir économiquement et détruire les fondations qui rendent cette réussite possible ? Déconstruction du mythe du découplage absolu et proposition d&#x27;une alternative structurelle : NEMO IMS.</p>
-            <div class="news-card__cta">Lire l’article</div>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="news-carousel__dots"></div>
-  </div>
+<div class="news-carousel__inner">
+<div class="news-carousel__header">
+<div class="news-carousel__title-group">
+<div class="news-carousel__eyebrow">Dernières publications</div>
+<h2 class="news-carousel__title">Dernières <em>actualités</em></h2>
+</div>
+<div class="news-carousel__nav">
+<button class="news-carousel__nav-btn news-carousel__nav-btn--prev" aria-label="Précédent">‹</button>
+<button class="news-carousel__nav-btn news-carousel__nav-btn--next" aria-label="Suivant">›</button>
+</div>
+</div>
+<div class="news-carousel__track-wrapper">
+<div class="news-carousel__track">
+<a class="news-card news-card--texte" href="/nemo-ims/entretien-fondateur/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">1 mai 2026</div>
+<h3 class="news-card__title">NEMO IMS : monnaie, écologie et essentiel insolvable</h3>
+<p class="news-card__excerpt">Vingt questions pour comprendre pourquoi la crise écologique est aussi une crise monétaire, et comment NEMO IMS propose de financer ce que le marché ne sait pas sauver.</p>
+<div class="news-card__cta">Lire l’entretien</div>
+</div>
+</a>
+<a class="news-card news-card--texte" href="/articles/auteur/decroissance-robustesse-systeme-monetaire/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">30 avr. 2026</div>
+<h3 class="news-card__title">Penser la décroissance sans penser la robustesse est un non-sens</h3>
+<p class="news-card__excerpt">Pourquoi la décroissance morale et culturelle ne suffit pas sans une architecture monétaire capable de financer la robustesse écologique et sociale.</p>
+<div class="news-card__cta">Lire l’article</div>
+</div>
+</a>
+<a class="news-card news-card--texte" href="/articles/auteur/SMI-4/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">29 avr. 2026</div>
+<h3 class="news-card__title">NEMO IMS : Quel système monétaire international pour le futur ?</h3>
+<p class="news-card__excerpt">Après deux siècles d&#x27;échecs monétaires, NEMO IMS propose une rupture radicale : une monnaie internationale adossée à la régénération des écosystèmes plutôt qu&#x27;à la dette ou à l&#x27;or.</p>
+<div class="news-card__cta">Lire l’article</div>
+</div>
+</a>
+<a class="news-card news-card--texte" href="/articles/auteur/SMI-3/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">29 avr. 2026</div>
+<h3 class="news-card__title">Histoire des crises monétaires internationales</h3>
+<p class="news-card__excerpt">De l&#x27;étalon-or sterling aux guerres de monnaies contemporaines : deux siècles de crises révèlent l&#x27;instabilité structurelle des systèmes monétaires internationaux.</p>
+<div class="news-card__cta">Lire l’article</div>
+</div>
+</a>
+<a class="news-card news-card--texte" href="/articles/auteur/SMI-2/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">28 avr. 2026</div>
+<h3 class="news-card__title">Les dilemmes structurels du système monétaire international</h3>
+<p class="news-card__excerpt">Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d&#x27;un équilibre comptable illusoire. Deuxième volet de la série sur le SMI.</p>
+<div class="news-card__cta">Lire l’article</div>
+</div>
+</a>
+<a class="news-card news-card--texte" href="/articles/auteur/SMI/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">28 avr. 2026</div>
+<h3 class="news-card__title">Qu&#x27;est-ce qu&#x27;un système monétaire international ?</h3>
+<p class="news-card__excerpt">Les fondements, piliers et contraintes qui structurent la finance mondiale — et pourquoi il est urgent de les repenser. Premier volet d&#x27;une série sur le SMI et NEMO IMS.</p>
+<div class="news-card__cta">Lire l’article</div>
+</div>
+</a>
+<a class="news-card news-card--texte" href="/articles/auteur/impossible-decoupage/">
+<div class="news-card__type news-card__type--texte">Article</div>
+<div class="news-card__content">
+<div class="news-card__date">27 avr. 2026</div>
+<h3 class="news-card__title">Records boursiers, planète mourante : pourquoi l&#x27;économie qui &#x27;fonctionne&#x27; nous tue</h3>
+<p class="news-card__excerpt">Comment un système peut-il simultanément réussir économiquement et détruire les fondations qui rendent cette réussite possible ? Déconstruction du mythe du découplage absolu et proposition d&#x27;une alternative structurelle : NEMO IMS.</p>
+<div class="news-card__cta">Lire l’article</div>
+</div>
+</a>
+</div>
+</div>
+<div class="news-carousel__dots"></div>
+</div>
 </section>
-
-<!-- NEMO Section -->
 <section class="nemo" id="nemo">
-  <div class="nemo__inner">
-    <div class="nemo__intro">
-      <h2 class="nemo__title">NEMO IMS</h2>
-      <h3 class="nemo__subtitle">NEgentropic MOney International Monetary System</h3>
-      <p class="nemo__tagline">Un système monétaire au service de la régénération planétaire</p>
-    </div>
-
-    <div class="nemo__pillars">
-      
-      <!-- Pilier 1 - Monnaie régénérative -->
-      <a href="/nemo-ims/monnaie-regenerative/" class="nemo__pillar">
-        <div class="nemo__pillar-number">1</div>
-        <h4 class="nemo__pillar-title">Une monnaie régénérative créée sans contrepartie de dette</h4>
-        <p class="nemo__pillar-text">
-          Le système actuel repose sur une "malédiction" : la monnaie est créée par les banques commerciales en contrepartie d'une dette. Ce mécanisme impose une contrainte de rentabilité à court terme qui pousse inexorablement vers une croissance infinie d'activités extractives et dégénératives.
-        </p>
-        <div class="nemo__pillar-cta">En savoir plus →</div>
-      </a>
-
-      <!-- Pilier 2 - Théorie quantitative -->
-      <a href="/nemo-ims/theorie-quantitative/" class="nemo__pillar">
-        <div class="nemo__pillar-number">2</div>
-        <h4 class="nemo__pillar-title">Une théorie quantitative dynamique de la monnaie (Flux vs Stock)</h4>
-        <p class="nemo__pillar-text">
-          NEMO IMS rompt avec la vision de la monnaie comme un stock statique ou une marchandise rare telle que l'or ou Bitcoin. Elle se définie comme un flux dynamique permanent doté d'un cycle de vie comparable aux cycles naturels.
-        </p>
-        <div class="nemo__pillar-cta">En savoir plus →</div>
-      </a>
-
-      <!-- Pilier 3 - Hégémon monétaire -->
-      <a href="/nemo-ims/hegemon-monetaire/" class="nemo__pillar">
-        <div class="nemo__pillar-number">3</div>
-        <h4 class="nemo__pillar-title">Un nouvel hégémon monétaire pour une coopération internationale</h4>
-        <p class="nemo__pillar-text">
-          L'architecture du commerce mondial actuel force les nations à une compétition extractive pour stabiliser leur balance commerciale et accumuler des devises clés comme le dollar. NEMO IMS propose de remplacer cette guerre économique délétère par une coopération pour la robustesse planétaire.
-        </p>
-        <div class="nemo__pillar-cta">En savoir plus →</div>
-      </a>
-
-    </div>
-
-    <div class="nemo__footer">
-      <a href="/nemo-ims/" class="nemo__footer-link">Découvrir NEMO IMS en détail</a>
-      <a href="/nemo-ims/entretien-fondateur/" class="nemo__footer-link">Lire l’entretien fondateur</a>
-      <a href="/livre/" class="nemo__footer-link nemo__footer-link--primary">Lire le livre</a>
-    </div>
-  </div>
+<div class="nemo__inner">
+<div class="nemo__intro">
+<h2 class="nemo__title">NEMO IMS</h2>
+<h3 class="nemo__subtitle">NEgentropic MOney International Monetary System</h3>
+<p class="nemo__tagline">Un système monétaire au service de la régénération planétaire</p>
+</div>
+<div class="nemo__pillars">
+<a href="/nemo-ims/monnaie-regenerative/" class="nemo__pillar">
+<div class="nemo__pillar-number">1</div>
+<h4 class="nemo__pillar-title">Une monnaie régénérative créée sans contrepartie de dette</h4>
+<p class="nemo__pillar-text">
+Le système actuel repose sur une "malédiction" : la monnaie est créée par les banques commerciales en contrepartie d'une dette. Ce mécanisme impose une contrainte de rentabilité à court terme qui pousse inexorablement vers une croissance infinie d'activités extractives et dégénératives.
+</p>
+<div class="nemo__pillar-cta">En savoir plus →</div>
+</a>
+<a href="/nemo-ims/theorie-quantitative/" class="nemo__pillar">
+<div class="nemo__pillar-number">2</div>
+<h4 class="nemo__pillar-title">Une théorie quantitative dynamique de la monnaie (Flux vs Stock)</h4>
+<p class="nemo__pillar-text">
+NEMO IMS rompt avec la vision de la monnaie comme un stock statique ou une marchandise rare telle que l'or ou Bitcoin. Elle se définie comme un flux dynamique permanent doté d'un cycle de vie comparable aux cycles naturels.
+</p>
+<div class="nemo__pillar-cta">En savoir plus →</div>
+</a>
+<a href="/nemo-ims/hegemon-monetaire/" class="nemo__pillar">
+<div class="nemo__pillar-number">3</div>
+<h4 class="nemo__pillar-title">Un nouvel hégémon monétaire pour une coopération internationale</h4>
+<p class="nemo__pillar-text">
+L'architecture du commerce mondial actuel force les nations à une compétition extractive pour stabiliser leur balance commerciale et accumuler des devises clés comme le dollar. NEMO IMS propose de remplacer cette guerre économique délétère par une coopération pour la robustesse planétaire.
+</p>
+<div class="nemo__pillar-cta">En savoir plus →</div>
+</a>
+</div>
+<div class="nemo__footer">
+<a href="/nemo-ims/" class="nemo__footer-link">Découvrir NEMO IMS en détail</a>
+<a href="/nemo-ims/entretien-fondateur/" class="nemo__footer-link">Lire l’entretien fondateur</a>
+<a href="/livre/" class="nemo__footer-link nemo__footer-link--primary">Lire le livre</a>
+</div>
+</div>
 </section>
-
-<!-- Author Section -->
 <section class="author" id="auteur">
-  <div class="author__inner">
-    <div class="author__visual">
-      <img src="assets/author-portrait.jpg" alt="Jean-Christophe Duval" class="author__image">
-    </div>
-    <div class="author__content">
-      <div class="author__eyebrow">L'auteur</div>
-      <h2 class="author__name">Jean-Christophe <em>Duval</em></h2>
-      <p class="author__role">Chercheur indépendant & Économiste écologique</p>
-      <p class="author__bio">Expert en systèmes monétaires alternatifs, théoricien de la décroissance et de la robustesse écosystémique, Jean-Christophe Duval travaille depuis 11 ans sur la convergence entre finance et limites planétaires.</p>
-      <div class="author__links">
-        <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a>
-        <a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a>
-        <a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a>
-      </div>
-    </div>
-  </div>
+<div class="author__inner">
+<div class="author__visual">
+<img src="assets/author-portrait.jpg" alt="Jean-Christophe Duval" class="author__image">
+</div>
+<div class="author__content">
+<div class="author__eyebrow">L'auteur</div>
+<h2 class="author__name">Jean-Christophe <em>Duval</em></h2>
+<p class="author__role">Chercheur indépendant & Économiste écologique</p>
+<p class="author__bio">Expert en systèmes monétaires alternatifs, théoricien de la décroissance et de la robustesse écosystémique, Jean-Christophe Duval travaille depuis 11 ans sur la convergence entre finance et limites planétaires.</p>
+<div class="author__links">
+<a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Newsletter</a>
+<a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a>
+<a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a>
+</div>
+</div>
+</div>
 </section>
-
-<!-- Newsletter Section -->
 <section class="newsletter" id="newsletter">
-  <div class="newsletter__inner">
-    <div class="newsletter__eyebrow">— La lettre —</div>
-    <h2 class="newsletter__title">Rejoindre <em>l'atelier</em></h2>
-    <p class="newsletter__text">Recevez les chroniques, notes de travail sur NEMO IMS et analyses critiques de l'actualité monétaire et écologique. Sobre, lente, argumentée.</p>
-    <a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="newsletter__cta">S'abonner sur Substack <span class="btn__arrow">→</span></a>
-  </div>
+<div class="newsletter__inner">
+<div class="newsletter__eyebrow">— La lettre —</div>
+<h2 class="newsletter__title">Rejoindre <em>l'atelier</em></h2>
+<p class="newsletter__text">Recevez les chroniques, notes de travail sur NEMO IMS et analyses critiques de l'actualité monétaire et écologique. Sobre, lente, argumentée.</p>
+<a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener" class="newsletter__cta">S'abonner sur Substack <span class="btn__arrow">→</span></a>
+</div>
 </section>
-
-<!-- Footer -->
 <footer class="footer">
-  <div class="footer__inner">
-    <div class="footer__brand">
-      <img src="assets/logo-tree.png" alt="Debunk’Onomy">
-      <p class="footer__brand-text">Debunk’Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.</p>
-    </div>
-    <div class="footer__col">
-      <h4>Le Projet</h4>
-      <ul>
-        <li><a href="/commencer-ici/">Commencer ici</a></li>
-        <li><a href="/nemo-ims/">NEMO IMS</a></li>
-        <li><a href="/nemo-ims/entretien-fondateur/">Entretien fondateur</a></li>
-        <li><a href="/articles/">Articles</a></li>
-        <li><a href="/medias/">Médias</a></li>
-        <li><a href="/livre/">Livre</a></li>
-        <li><a href="/newsletter/">Newsletter</a></li>
-      </ul>
-    </div>
-    <div class="footer__col">
-      <h4>Suivre</h4>
-      <ul>
-        <li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li>
-        <li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
-      </ul>
-    </div>
-    <div class="footer__col">
-      <h4>Contact</h4>
-      <ul>
-        <li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
-        <li><a href="/a-propos/">À propos</a></li>
-        <li><a href="/contact/">Presse & contact</a></li>
-        <li><a href="/mentions-legales/">Mentions légales</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer__bottom">
-    <span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span>
-    <span>Think & Move to Degrowth</span>
-  </div>
+<div class="footer__inner">
+<div class="footer__brand">
+<img src="assets/logo-tree.png" alt="Debunk’Onomy">
+<p class="footer__brand-text">Debunk’Onomy — déconstruire l'économie pour reconstruire le monde. Recherche en économie écologique et monétaire, par Jean-Christophe Duval.</p>
+</div>
+<div class="footer__col">
+<h4>Le Projet</h4>
+<ul>
+<li><a href="/commencer-ici/">Commencer ici</a></li>
+<li><a href="/nemo-ims/">NEMO IMS</a></li>
+<li><a href="/nemo-ims/entretien-fondateur/">Entretien fondateur</a></li>
+<li><a href="/articles/">Articles</a></li>
+<li><a href="/medias/">Médias</a></li>
+<li><a href="/livre/">Livre</a></li>
+<li><a href="/newsletter/">Newsletter</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4>Suivre</h4>
+<ul>
+<li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li>
+<li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li>
+<li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li>
+<li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
+</ul>
+</div>
+<div class="footer__col">
+<h4>Contact</h4>
+<ul>
+<li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li>
+<li><a href="/a-propos/">À propos</a></li>
+<li><a href="/contact/">Presse & contact</a></li>
+<li><a href="/mentions-legales/">Mentions légales</a></li>
+</ul>
+</div>
+</div>
+<div class="footer__bottom">
+<span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span>
+<span>Think & Move to Degrowth</span>
+</div>
 </footer>
-
 <script>
 // Navigation scroll behavior
 const nav = document.getElementById('nav');
 const onScroll = () => {
-  if (window.scrollY > 40) nav.classList.add('scrolled');
-  else nav.classList.remove('scrolled');
+if (window.scrollY > 40) nav.classList.add('scrolled');
+else nav.classList.remove('scrolled');
 };
 window.addEventListener('scroll', onScroll, { passive: true });
 onScroll();
-
 // Static News Carousel Script
 (function() {
-  'use strict';
-  let currentSlide = 0;
-  let cardsPerView = 3;
-
-  function updateCardsPerView() {
-    const width = window.innerWidth;
-    if (width < 640) cardsPerView = 1;
-    else if (width < 980) cardsPerView = 2;
-    else cardsPerView = 3;
-  }
-
-  function getCards() {
-    return Array.from(document.querySelectorAll('.news-carousel__track .news-card'));
-  }
-
-  function createDots() {
-    const dotsContainer = document.querySelector('.news-carousel__dots');
-    if (!dotsContainer) return;
-    const maxSlide = Math.max(0, getCards().length - cardsPerView);
-    dotsContainer.innerHTML = '';
-    for (let i = 0; i <= maxSlide; i++) {
-      const dot = document.createElement('button');
-      dot.className = 'news-carousel__dot';
-      dot.setAttribute('aria-label', `Aller à la publication ${i + 1}`);
-      dot.addEventListener('click', () => {
-        currentSlide = i;
-        updateCarousel();
-      });
-      dotsContainer.appendChild(dot);
-    }
-  }
-
-  function updateCarousel() {
-    const track = document.querySelector('.news-carousel__track');
-    const prevBtn = document.querySelector('.news-carousel__nav-btn--prev');
-    const nextBtn = document.querySelector('.news-carousel__nav-btn--next');
-    const dots = document.querySelectorAll('.news-carousel__dot');
-    const cards = getCards();
-    if (!track || !cards.length) return;
-    const cardWidth = cards[0].offsetWidth || 0;
-    const gap = 24;
-    const maxSlide = Math.max(0, cards.length - cardsPerView);
-    currentSlide = Math.min(currentSlide, maxSlide);
-    track.style.transform = `translateX(${-currentSlide * (cardWidth + gap)}px)`;
-    if (prevBtn) prevBtn.disabled = currentSlide === 0;
-    if (nextBtn) nextBtn.disabled = currentSlide >= maxSlide;
-    dots.forEach((dot, index) => dot.classList.toggle('active', index === currentSlide));
-  }
-
-  function navigate(direction) {
-    const maxSlide = Math.max(0, getCards().length - cardsPerView);
-    if (direction === 'next' && currentSlide < maxSlide) currentSlide++;
-    if (direction === 'prev' && currentSlide > 0) currentSlide--;
-    updateCarousel();
-  }
-
-  function init() {
-    updateCardsPerView();
-    createDots();
-    updateCarousel();
-    document.querySelector('.news-carousel__nav-btn--prev')?.addEventListener('click', () => navigate('prev'));
-    document.querySelector('.news-carousel__nav-btn--next')?.addEventListener('click', () => navigate('next'));
-    window.addEventListener('resize', () => {
-      updateCardsPerView();
-      createDots();
-      updateCarousel();
-    });
-  }
-
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
-  else init();
+'use strict';
+let currentSlide = 0;
+let cardsPerView = 3;
+function updateCardsPerView() {
+const width = window.innerWidth;
+if (width < 640) cardsPerView = 1;
+else if (width < 980) cardsPerView = 2;
+else cardsPerView = 3;
+}
+function getCards() {
+return Array.from(document.querySelectorAll('.news-carousel__track .news-card'));
+}
+function createDots() {
+const dotsContainer = document.querySelector('.news-carousel__dots');
+if (!dotsContainer) return;
+const maxSlide = Math.max(0, getCards().length - cardsPerView);
+dotsContainer.innerHTML = '';
+for (let i = 0; i <= maxSlide; i++) {
+const dot = document.createElement('button');
+dot.className = 'news-carousel__dot';
+dot.setAttribute('aria-label', `Aller à la publication ${i + 1}`);
+dot.addEventListener('click', () => {
+currentSlide = i;
+updateCarousel();
+});
+dotsContainer.appendChild(dot);
+}
+}
+function updateCarousel() {
+const track = document.querySelector('.news-carousel__track');
+const prevBtn = document.querySelector('.news-carousel__nav-btn--prev');
+const nextBtn = document.querySelector('.news-carousel__nav-btn--next');
+const dots = document.querySelectorAll('.news-carousel__dot');
+const cards = getCards();
+if (!track || !cards.length) return;
+const cardWidth = cards[0].offsetWidth || 0;
+const gap = 24;
+const maxSlide = Math.max(0, cards.length - cardsPerView);
+currentSlide = Math.min(currentSlide, maxSlide);
+track.style.transform = `translateX(${-currentSlide * (cardWidth + gap)}px)`;
+if (prevBtn) prevBtn.disabled = currentSlide === 0;
+if (nextBtn) nextBtn.disabled = currentSlide >= maxSlide;
+dots.forEach((dot, index) => dot.classList.toggle('active', index === currentSlide));
+}
+function navigate(direction) {
+const maxSlide = Math.max(0, getCards().length - cardsPerView);
+if (direction === 'next' && currentSlide < maxSlide) currentSlide++;
+if (direction === 'prev' && currentSlide > 0) currentSlide--;
+updateCarousel();
+}
+function init() {
+updateCardsPerView();
+createDots();
+updateCarousel();
+document.querySelector('.news-carousel__nav-btn--prev')?.addEventListener('click', () => navigate('prev'));
+document.querySelector('.news-carousel__nav-btn--next')?.addEventListener('click', () => navigate('next'));
+window.addEventListener('resize', () => {
+updateCardsPerView();
+createDots();
+updateCarousel();
+});
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+else init();
 })();
 </script>
-
 </body>
 </html>

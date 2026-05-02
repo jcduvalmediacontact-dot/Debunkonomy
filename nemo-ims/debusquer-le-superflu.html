@@ -5,148 +5,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Débusquer le superflu — Premier pilier de la robustesse — NEMO IMS</title>
 <meta name="description" content="Black Friday, Shein, obsolescence programmée : notre économie produit massivement ce qui détruit. Le premier pilier : débusquer et sanctionner le superflu marchand dégénératif.">
-
 <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon-180.png">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/theme.css">
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="stylesheet" href="/assets/nemo.css">
-<style>
-.article-content {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 60px 40px 100px;
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 14, "SOFT" 45;
-  font-size: 19px;
-  line-height: 1.7;
-  color: var(--ink);
-}
-.article-content h2 {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 48, "SOFT" 25;
-  font-size: 32px;
-  line-height: 1.2;
-  margin: 60px 0 24px;
-  color: var(--ink-deep);
-}
-.article-content h3 {
-  font-family: var(--ff-display);
-  font-variation-settings: "opsz" 24, "SOFT" 35;
-  font-size: 24px;
-  line-height: 1.3;
-  margin: 40px 0 16px;
-  color: var(--forest);
-}
-.article-content h3 em {
-  font-style: italic;
-  font-variation-settings: "opsz" 24, "SOFT" 60, "WONK" 1;
-}
-.article-content p {
-  margin-bottom: 24px;
-}
-.article-content strong {
-  font-weight: 600;
-  color: var(--ink-deep);
-}
-.article-content em {
-  font-style: italic;
-  font-variation-settings: "opsz" 14, "SOFT" 70, "WONK" 1;
-}
-.article-content a {
-  color: var(--forest);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-.article-nav {
-  background: var(--cream);
-  padding: 24px 40px;
-  border-bottom: 1px solid var(--forest-soft);
-}
-.article-nav__inner {
-  max-width: 720px;
-  margin: 0 auto;
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-.article-nav__item {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background: white;
-  border-radius: 6px;
-  text-decoration: none;
-  font-family: var(--ff-sans);
-  font-size: 14px;
-  color: var(--ink);
-  transition: all 0.2s;
-  border: 1px solid transparent;
-}
-.article-nav__item:hover {
-  border-color: var(--forest);
-  transform: translateY(-1px);
-}
-.article-nav__item.active {
-  background: var(--forest);
-  color: white;
-}
-.article-nav__num {
-  font-weight: 700;
-  opacity: 0.5;
-}
-.article-nav__item.active .article-nav__num {
-  opacity: 1;
-}
+<style>.article-content{max-width:720px;margin:0 auto;padding:60px 40px 100px;font-family:var(--ff-display);font-variation-settings:"opsz" 14,"SOFT" 45;font-size:19px;line-height:1.7;color:var(--ink)}.article-content h2{font-family:var(--ff-display);font-variation-settings:"opsz" 48,"SOFT" 25;font-size:32px;line-height:1.2;margin:60px 0 24px;color:var(--ink-deep)}.article-content h3{font-family:var(--ff-display);font-variation-settings:"opsz" 24,"SOFT" 35;font-size:24px;line-height:1.3;margin:40px 0 16px;color:var(--forest)}.article-content h3 em{font-style:italic;font-variation-settings:"opsz" 24,"SOFT" 60,"WONK" 1}.article-content p{margin-bottom:24px}.article-content strong{font-weight:600;color:var(--ink-deep)}.article-content em{font-style:italic;font-variation-settings:"opsz" 14,"SOFT" 70,"WONK" 1}.article-content a{color:var(--forest);text-decoration:underline;text-underline-offset:3px}.article-nav{background:var(--cream);padding:24px 40px;border-bottom:1px solid var(--forest-soft)}.article-nav__inner{max-width:720px;margin:0 auto;display:flex;gap:16px;flex-wrap:wrap}.article-nav__item{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;background:white;border-radius:6px;text-decoration:none;font-family:var(--ff-sans);font-size:14px;color:var(--ink);transition:all 0.2s;border:1px solid transparent}.article-nav__item:hover{border-color:var(--forest);transform:translateY(-1px)}.article-nav__item.active{background:var(--forest);color:white}.article-nav__num{font-weight:700;opacity:0.5}.article-nav__item.active .article-nav__num{opacity:1}
 </style>
 <link rel="stylesheet" href="/assets/theme.css">
 </head>
 <body>
-
 <nav class="inav">
-  <a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk’Onomy</span></a>
-  <div class="inav__links">
-    <a href="/commencer-ici/">Commencer ici</a>
-    <a href="/nemo-ims/" class="current">NEMO IMS</a>
-    <a href="/articles/">Articles</a>
-    <a href="/medias/">Médias</a>
-    <a href="/livre/">Livre</a>
-    <a href="/newsletter/" class="inav__cta">Newsletter</a>
-  </div>
-</nav>
-
-<div class="article-nav">
-  <div class="article-nav__inner">
-    <a href="/nemo-ims/debusquer-le-superflu.html" class="article-nav__item active">
-      <span class="article-nav__num">01</span>
-      <span>Débusquer le superflu</span>
-    </a>
-    <a href="/nemo-ims/financer-les-communs.html" class="article-nav__item">
-      <span class="article-nav__num">02</span>
-      <span>Financer les communs</span>
-    </a>
-    <a href="/nemo-ims/optimiser-essentiel.html" class="article-nav__item">
-      <span class="article-nav__num">03</span>
-      <span>Optimiser l'essentiel</span>
-    </a>
-  </div>
+<a href="/" class="inav__brand"><img src="/assets/logo-tree.png" alt=""><span>Debunk’Onomy</span></a>
+<div class="inav__links">
+<a href="/commencer-ici/">Commencer ici</a>
+<a href="/nemo-ims/" class="current">NEMO IMS</a>
+<a href="/articles/">Articles</a>
+<a href="/medias/">Médias</a>
+<a href="/livre/">Livre</a>
+<a href="/newsletter/" class="inav__cta">Newsletter</a>
 </div>
-
+</nav>
+<div class="article-nav">
+<div class="article-nav__inner">
+<a href="/nemo-ims/debusquer-le-superflu.html" class="article-nav__item active">
+<span class="article-nav__num">01</span>
+<span>Débusquer le superflu</span>
+</a>
+<a href="/nemo-ims/financer-les-communs.html" class="article-nav__item">
+<span class="article-nav__num">02</span>
+<span>Financer les communs</span>
+</a>
+<a href="/nemo-ims/optimiser-essentiel.html" class="article-nav__item">
+<span class="article-nav__num">03</span>
+<span>Optimiser l'essentiel</span>
+</a>
+</div>
+</div>
 <section class="nemo-hero" style="padding: 100px 40px 80px;">
-  <div class="nemo-hero__bg"></div>
-  <div class="nemo-hero__inner">
-    <div class="nemo-hero__eyebrow">Premier pilier · Arrêter</div>
-    <h1 class="nemo-hero__acronym" style="font-size: clamp(36px, 7vw, 72px);">Débusquer le superflu</h1>
-    <p class="nemo-hero__lede">Pourquoi notre économie produit ce qui nous détruit</p>
-  </div>
+<div class="nemo-hero__bg"></div>
+<div class="nemo-hero__inner">
+<div class="nemo-hero__eyebrow">Premier pilier · Arrêter</div>
+<h1 class="nemo-hero__acronym" style="font-size: clamp(36px, 7vw, 72px);">Débusquer le superflu</h1>
+<p class="nemo-hero__lede">Pourquoi notre économie produit ce qui nous détruit</p>
+</div>
 </section>
-
 <article class="article-content">
 <p><strong>Novembre 2025.</strong> Les Américains viennent de dépenser
 75 milliards de dollars en quatre jours — Black Friday à Cyber Monday.
@@ -404,16 +310,14 @@ Monnaie, Finance et Limites Planétaires</em>, Jean-Christophe Duval,
 Debunk’Onomy, 2026. <a href="https://payhip.com/b/tQhNU">Se procurer le
 livre</a></p>
 </article>
-
 <footer class="footer">
-  <div class="footer__inner">
-    <div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk’Onomy"><p class="footer__brand-text">Debunk’Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
-    <div class="footer__col"><h4>Explorer</h4><ul><li><a href="/commencer-ici/">Commencer ici</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/nemo-ims/faq/">FAQ NEMO IMS</a></li><li><a href="/nemo-ims/glossaire/">Glossaire</a></li><li><a href="/livre/">Le livre</a></li></ul></div>
-    <div class="footer__col"><h4>Suivre</h4><ul><li><a href="/newsletter/">Newsletter</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li></ul></div>
-    <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
-  </div>
-  <div class="footer__bottom"><span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
+<div class="footer__inner">
+<div class="footer__brand"><img src="/assets/logo-tree.png" alt="Debunk’Onomy"><p class="footer__brand-text">Debunk’Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
+<div class="footer__col"><h4>Explorer</h4><ul><li><a href="/commencer-ici/">Commencer ici</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/nemo-ims/faq/">FAQ NEMO IMS</a></li><li><a href="/nemo-ims/glossaire/">Glossaire</a></li><li><a href="/livre/">Le livre</a></li></ul></div>
+<div class="footer__col"><h4>Suivre</h4><ul><li><a href="/newsletter/">Newsletter</a></li><li><a href="https://jeanchristopheduval.substack.com/" target="_blank" rel="noopener">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" target="_blank" rel="noopener">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" target="_blank" rel="noopener">Bluesky</a></li></ul></div>
+<div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
+</div>
+<div class="footer__bottom"><span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
 </footer>
-
 </body>
 </html>
