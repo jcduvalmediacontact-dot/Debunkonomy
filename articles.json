@@ -1,6 +1,15 @@
 {
   "auteur": [
     {
+      "id": "architecture-entropie-complexite-couts",
+      "date": "2026-05-02",
+      "title": "L’Architecture de l’entropie",
+      "excerpt": "De Rome aux systèmes financiers contemporains, les civilisations masquent souvent les coûts réels de leur richesse : travailleurs, écosystèmes, générations futures et système nerveux humain finissent par absorber ce que l’économie appelle efficacité.",
+      "link": "/articles/auteur/architecture-entropie-complexite-couts/",
+      "category": "Complexité · Effondrement",
+      "readTime": "18 min"
+    },
+    {
       "id": "decroissance-robustesse-systeme-monetaire",
       "date": "2026-04-30",
       "title": "Penser la décroissance sans penser la robustesse est un non-sens",

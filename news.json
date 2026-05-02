@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "news-015",
+      "type": "texte",
+      "date": "2026-05-02",
+      "title": "L’Architecture de l’entropie",
+      "excerpt": "De Rome aux systèmes financiers contemporains, les civilisations masquent souvent les coûts réels de leur richesse : travailleurs, écosystèmes, générations futures et système nerveux humain finissent par absorber ce que l’économie appelle efficacité.",
+      "link": "/articles/auteur/architecture-entropie-complexite-couts/"
+    },
+    {
       "id": "news-014",
       "type": "texte",
       "date": "2026-04-30",

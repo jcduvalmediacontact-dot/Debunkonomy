@@ -30,6 +30,9 @@ function generateArticles(articles, containerId, type) {
   const container = document.getElementById(containerId);
   if (!container) return;
   
+  // Évite les doublons quand la page contient déjà des cartes statiques en fallback HTML.
+  container.innerHTML = '';
+
   // Trier par date (plus récent en premier)
   const sortedArticles = articles.sort((a, b) => new Date(b.date) - new Date(a.date));
   
