@@ -294,7 +294,7 @@ body { background: var(--cream); }
   gap: 18px;
 }
 
-.nemo-gateway-grid,
+.nemo-gateway-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .pillars { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .nemo-knot-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .nemo-stability-grid,
