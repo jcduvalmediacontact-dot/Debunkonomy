@@ -49,3 +49,7 @@ Articles prioritaires restants pour DE/IT/PT/AR :
 ## Recommandation
 
 Procéder par lots : 3 articles × 4 langues par passe, avec vérification humaine ou relecture IA ciblée par langue.
+
+## Mise à jour 2026-05-02 — allemand
+
+Première passe allemande ajoutée pour les 12 articles qui manquaient encore, avec pages dédiées sous `/de/articles/` et index allemand mis à jour. Une relecture native reste recommandée avant campagne presse internationale.
