@@ -1,0 +1,511 @@
+/* ============================================================
+   DEBUNK'ONOMY — THEME GLOBAL
+   Charte centrale inspirée de NEMO IMS.
+   Modifier prioritairement ce fichier pour changer l'identité
+   visuelle globale du site.
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1. Palette maîtresse
+   ------------------------------------------------------------ */
+:root {
+  /* Couleurs dominantes */
+  --color-deep: #061f1a;
+  --color-dark: #0b3028;
+  --color-mid: #145246;
+  --color-forest: #183f37;
+  --color-teal: #1f7a73;
+  --color-duck: #2f8f88;
+
+  /* Gris et neutres froids */
+  --color-charcoal: #1e2524;
+  --color-slate: #2f3a38;
+  --color-grey: #d9dfdd;
+  --color-light: #f2f5f4;
+  --color-white: #f8fbfa;
+
+  /* Texte */
+  --color-text: #17211f;
+  --color-muted: #6d7a77;
+
+  /* Alias rétrocompatibles avec les anciens CSS */
+  --ink-deep: var(--color-deep);
+  --ink: var(--color-dark);
+  --ink-mid: var(--color-mid);
+  --teal: var(--color-teal);
+  --duck: var(--color-duck);
+  --mint: #9fd8d4;
+  --mint-soft: var(--color-grey);
+  --cream: var(--color-light);
+  --cream-deep: var(--color-grey);
+  --sand: var(--color-grey);
+  --rust: var(--color-duck);
+  --ochre: var(--color-teal);
+
+  /* Effets */
+  --border-soft: rgba(47, 143, 136, 0.22);
+  --border-strong: rgba(47, 143, 136, 0.42);
+  --shadow-soft: 0 24px 70px rgba(6, 31, 26, 0.14);
+  --shadow-strong: 0 28px 90px rgba(6, 31, 26, 0.28);
+
+  /* Rythme */
+  --radius-sm: 14px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --section-pad: clamp(76px, 8vw, 122px);
+}
+
+/* ------------------------------------------------------------
+   2. Base globale
+   ------------------------------------------------------------ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-light);
+  color: var(--color-text);
+}
+
+/* Sélection */
+::selection {
+  background: rgba(47, 143, 136, 0.32);
+  color: var(--color-deep);
+}
+
+/* ------------------------------------------------------------
+   3. Navigation globale
+   ------------------------------------------------------------ */
+.inav,
+.site-header,
+.nav,
+.header,
+.main-nav,
+.site-nav,
+.navbar {
+  background:
+    radial-gradient(circle at top left, rgba(47, 143, 136, 0.10), transparent 36%),
+    linear-gradient(135deg, var(--color-deep) 0%, var(--color-dark) 100%);
+  border-bottom: 1px solid rgba(47, 143, 136, 0.35);
+  color: var(--color-grey);
+}
+
+.inav a,
+.site-header a,
+.nav a,
+.header a,
+.main-nav a,
+.site-nav a,
+.navbar a {
+  color: var(--color-grey);
+}
+
+.inav a:hover,
+.inav a.current,
+.inav a.is-active,
+.site-header a:hover,
+.nav a:hover,
+.nav a.current,
+.nav a.is-active {
+  color: var(--color-duck);
+}
+
+.inav__brand span {
+  color: var(--color-grey);
+}
+
+.inav__cta,
+.nav__cta {
+  background: var(--color-duck);
+  color: #ffffff !important;
+  border-color: var(--color-duck);
+}
+
+.inav__cta:hover,
+.nav__cta:hover {
+  background: var(--color-teal);
+  border-color: var(--color-teal);
+  color: #ffffff !important;
+}
+
+/* Sélecteur de langue */
+.lang-switch__current {
+  color: var(--color-grey);
+}
+
+.lang-switch__menu {
+  background: var(--color-deep);
+  border: 1px solid rgba(47, 143, 136, 0.35);
+  box-shadow: var(--shadow-strong);
+}
+
+.lang-switch__menu a {
+  color: var(--color-grey);
+}
+
+.lang-switch__menu a:hover {
+  background: rgba(47, 143, 136, 0.18);
+  color: var(--color-white);
+}
+
+.lang-switch__menu strong {
+  color: var(--color-duck);
+}
+
+/* ------------------------------------------------------------
+   4. Sections génériques
+   ------------------------------------------------------------ */
+.section--dark,
+.theme-section--dark,
+.hero--dark,
+.cta-section,
+.final-cta {
+  background:
+    radial-gradient(circle at top left, rgba(47, 143, 136, 0.18), transparent 34%),
+    linear-gradient(135deg, var(--color-deep) 0%, var(--color-dark) 52%, var(--color-mid) 100%);
+  color: var(--color-grey);
+}
+
+.section--mid,
+.theme-section--mid {
+  background:
+    radial-gradient(circle at top right, rgba(47, 143, 136, 0.14), transparent 36%),
+    linear-gradient(135deg, var(--color-dark) 0%, var(--color-mid) 100%);
+  color: var(--color-grey);
+}
+
+.section--light,
+.theme-section--light,
+.section--cream,
+.section--cream-deep {
+  background: var(--color-light);
+  color: var(--color-text);
+}
+
+.section--grey,
+.theme-section--grey {
+  background: var(--color-grey);
+  color: var(--color-text);
+}
+
+.section--dark h1,
+.section--dark h2,
+.section--dark h3,
+.theme-section--dark h1,
+.theme-section--dark h2,
+.theme-section--dark h3,
+.hero--dark h1,
+.hero--dark h2,
+.cta-section h2,
+.final-cta h2 {
+  color: var(--color-white);
+}
+
+.section--dark p,
+.section--dark li,
+.theme-section--dark p,
+.theme-section--dark li,
+.hero--dark p,
+.cta-section p,
+.final-cta p {
+  color: var(--color-grey);
+}
+
+.section--light h1,
+.section--light h2,
+.section--light h3,
+.theme-section--light h1,
+.theme-section--light h2,
+.theme-section--light h3,
+.section--cream h1,
+.section--cream h2,
+.section--cream h3,
+.section--cream-deep h1,
+.section--cream-deep h2,
+.section--cream-deep h3 {
+  color: var(--color-deep);
+}
+
+.section--light p,
+.section--light li,
+.theme-section--light p,
+.theme-section--light li,
+.section--cream p,
+.section--cream li,
+.section--cream-deep p,
+.section--cream-deep li {
+  color: var(--color-slate);
+}
+
+/* ------------------------------------------------------------
+   5. Titres, sourcils, citations
+   ------------------------------------------------------------ */
+.section-eyebrow,
+.eyebrow,
+.kicker {
+  color: var(--color-teal);
+}
+
+.section--dark .section-eyebrow,
+.theme-section--dark .section-eyebrow,
+.hero--dark .section-eyebrow,
+.section--dark .eyebrow,
+.theme-section--dark .eyebrow,
+.hero--dark .eyebrow {
+  color: var(--color-duck);
+}
+
+.section-title em,
+.hero-title em,
+.title em {
+  color: var(--color-teal);
+}
+
+.section--dark .section-title em,
+.theme-section--dark .section-title em,
+.hero--dark .hero-title em,
+.hero--dark .title em {
+  color: var(--color-white);
+}
+
+blockquote,
+.manifesto-quote,
+.side-quote,
+.callout,
+.theme-callout {
+  border-left: 4px solid var(--color-duck);
+}
+
+/* ------------------------------------------------------------
+   6. Cartes globales
+   ------------------------------------------------------------ */
+.card,
+.feature-card,
+.route-card,
+.article-card,
+.media-card,
+.book-card,
+.theme-card {
+  background: #ffffff;
+  color: var(--color-text);
+  border: 1px solid rgba(20, 82, 70, 0.16);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+}
+
+.card h3,
+.feature-card h3,
+.route-card h3,
+.article-card h3,
+.media-card h3,
+.book-card h3,
+.theme-card h3 {
+  color: var(--color-deep);
+}
+
+.card p,
+.feature-card p,
+.route-card p,
+.article-card p,
+.media-card p,
+.book-card p,
+.theme-card p {
+  color: var(--color-slate);
+}
+
+.section--dark .card,
+.theme-section--dark .card,
+.section--dark .feature-card,
+.theme-section--dark .feature-card,
+.section--dark .route-card,
+.theme-section--dark .route-card,
+.section--dark .article-card,
+.theme-section--dark .article-card,
+.section--dark .media-card,
+.theme-section--dark .media-card,
+.section--dark .theme-card,
+.theme-section--dark .theme-card {
+  background: rgba(242, 245, 244, 0.055);
+  color: var(--color-grey);
+  border: 1px solid rgba(47, 143, 136, 0.28);
+  box-shadow: var(--shadow-strong);
+}
+
+.section--dark .card h3,
+.theme-section--dark .card h3,
+.section--dark .feature-card h3,
+.theme-section--dark .feature-card h3,
+.section--dark .route-card h3,
+.theme-section--dark .route-card h3,
+.section--dark .article-card h3,
+.theme-section--dark .article-card h3,
+.section--dark .media-card h3,
+.theme-section--dark .media-card h3,
+.section--dark .theme-card h3,
+.theme-section--dark .theme-card h3 {
+  color: var(--color-white);
+}
+
+.section--dark .card p,
+.theme-section--dark .card p,
+.section--dark .feature-card p,
+.theme-section--dark .feature-card p,
+.section--dark .route-card p,
+.theme-section--dark .route-card p,
+.section--dark .article-card p,
+.theme-section--dark .article-card p,
+.section--dark .media-card p,
+.theme-section--dark .media-card p,
+.section--dark .theme-card p,
+.theme-section--dark .theme-card p {
+  color: var(--color-grey);
+}
+
+/* ------------------------------------------------------------
+   7. Boutons
+   ------------------------------------------------------------ */
+.btn,
+.button,
+.cta-button {
+  border-radius: 999px;
+}
+
+.btn--primary,
+.button--primary,
+.cta-primary,
+.btn--solid-dark {
+  background: var(--color-duck);
+  color: #ffffff !important;
+  border-color: var(--color-duck);
+}
+
+.btn--primary:hover,
+.button--primary:hover,
+.cta-primary:hover,
+.btn--solid-dark:hover {
+  background: var(--color-teal);
+  border-color: var(--color-teal);
+  color: #ffffff !important;
+}
+
+.btn--secondary,
+.btn--ghost,
+.button--secondary,
+.btn--ghost-dark {
+  color: var(--color-deep);
+  border-color: rgba(47, 143, 136, 0.45);
+  background: transparent;
+}
+
+.section--dark .btn--secondary,
+.section--dark .btn--ghost,
+.section--dark .button--secondary,
+.section--dark .btn--ghost-dark,
+.theme-section--dark .btn--secondary,
+.theme-section--dark .btn--ghost,
+.theme-section--dark .button--secondary,
+.theme-section--dark .btn--ghost-dark,
+.hero--dark .btn--secondary,
+.hero--dark .btn--ghost {
+  color: var(--color-grey);
+  border-color: rgba(47, 143, 136, 0.45);
+  background: rgba(242, 245, 244, 0.04);
+}
+
+.btn--secondary:hover,
+.btn--ghost:hover,
+.button--secondary:hover,
+.btn--ghost-dark:hover {
+  color: #ffffff !important;
+  background: rgba(47, 143, 136, 0.22);
+  border-color: var(--color-duck);
+}
+
+/* ------------------------------------------------------------
+   8. Footer
+   ------------------------------------------------------------ */
+.footer {
+  background: var(--color-deep);
+  color: var(--color-grey);
+  border-top: 1px solid rgba(47, 143, 136, 0.30);
+}
+
+.footer a {
+  color: var(--color-grey);
+}
+
+.footer a:hover {
+  color: var(--color-duck);
+}
+
+.footer h4 {
+  color: var(--color-white);
+}
+
+.footer__bottom {
+  border-top-color: rgba(47, 143, 136, 0.22);
+  color: rgba(217, 223, 221, 0.78);
+}
+
+/* ------------------------------------------------------------
+   9. Classes utilitaires éditoriales
+   ------------------------------------------------------------ */
+.text-duck { color: var(--color-duck) !important; }
+.text-teal { color: var(--color-teal) !important; }
+.text-deep { color: var(--color-deep) !important; }
+.bg-deep { background: var(--color-deep) !important; color: var(--color-grey); }
+.bg-dark { background: var(--color-dark) !important; color: var(--color-grey); }
+.bg-mid { background: var(--color-mid) !important; color: var(--color-grey); }
+.bg-light { background: var(--color-light) !important; color: var(--color-text); }
+.bg-grey { background: var(--color-grey) !important; color: var(--color-text); }
+
+/* ------------------------------------------------------------
+   10. NEMO IMS : classes spécifiques compatibles
+   ------------------------------------------------------------ */
+body.nemo-page {
+  background: var(--color-deep);
+}
+
+body.nemo-page .inav {
+  background:
+    radial-gradient(circle at top left, rgba(47, 143, 136, 0.10), transparent 36%),
+    linear-gradient(135deg, var(--color-deep) 0%, var(--color-dark) 100%) !important;
+  background-color: var(--color-deep) !important;
+  border-bottom: 1px solid rgba(47, 143, 136, 0.35) !important;
+  box-shadow: 0 14px 36px rgba(6, 31, 26, 0.22) !important;
+}
+
+body.nemo-page .inav__brand,
+body.nemo-page .inav__brand span,
+body.nemo-page .inav__links a,
+body.nemo-page .lang-switch__current {
+  color: var(--color-grey) !important;
+}
+
+body.nemo-page .inav__links a:hover,
+body.nemo-page .inav__links a.current,
+body.nemo-page .inav__brand:hover span,
+body.nemo-page .lang-switch__current:hover {
+  color: var(--color-duck) !important;
+}
+
+body.nemo-page .inav__cta {
+  background: var(--color-duck) !important;
+  color: #ffffff !important;
+  border-color: var(--color-duck) !important;
+}
+
+body.nemo-page .inav__cta:hover {
+  background: var(--color-teal) !important;
+  border-color: var(--color-teal) !important;
+  color: #ffffff !important;
+}
+
+/* ------------------------------------------------------------
+   11. Responsive
+   ------------------------------------------------------------ */
+@media (max-width: 760px) {
+  :root {
+    --section-pad: 72px;
+  }
+}

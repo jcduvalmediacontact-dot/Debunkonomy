@@ -1,0 +1,22 @@
+Debunk'Onomy — theme.css
+
+Un fichier global a été ajouté :
+  assets/theme.css
+
+Il contient la palette centrale du site :
+  --color-deep     vert profond
+  --color-dark     vert profond moyen
+  --color-mid      vert moyen
+  --color-teal     bleu-vert
+  --color-duck     canard
+  --color-charcoal gris foncé
+  --color-slate    gris texte
+  --color-grey     gris clair
+  --color-light    gris très clair
+  --color-white    blanc froid
+
+Toutes les pages HTML ont été reliées à theme.css avant site.css.
+Pour modifier l'identité globale, commence par modifier les variables dans :root.
+
+Les CSS spécifiques existants restent en place. Ils peuvent encore contenir des styles locaux,
+mais theme.css sert désormais de charte globale commune.
