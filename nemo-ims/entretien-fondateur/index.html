@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
 <meta charset="utf-8"/>
@@ -21,8 +22,172 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
 <link href="/assets/site.css" rel="stylesheet"/>
-<link href="/assets/article.css" rel="stylesheet"/><link href="/assets/theme.css" rel="stylesheet"/>
-<style>.article--interview{padding-top:72px}.article--interview .article__header{margin-bottom:48px}.article--interview .article__title{max-width:980px;margin-left:auto;margin-right:auto}.article--interview .article__body{max-width:920px;font-size:18px;line-height:1.75}.article--interview .article__body>p:first-of-type::first-letter{all:unset}.article__toc{max-width:980px;margin:0 auto 46px;padding:clamp(24px,4vw,38px);border:1px solid rgba(168,234,234,0.22);border-radius:28px;background:radial-gradient(circle at top left,rgba(159,216,212,0.12),transparent 34%),rgba(6,31,26,0.38);color:var(--cream);position:relative;z-index:2;box-shadow:0 28px 90px rgba(0,0,0,0.18);backdrop-filter:blur(10px)}.article__toc h2{font-family:var(--ff-display);font-size:clamp(24px,3vw,34px);color:var(--mint-soft);margin:0 0 8px}.article__toc p{font-family:var(--ff-sans);font-size:14px;color:rgba(242,245,244,0.72);margin:0 0 22px}.article__toc ol{columns:2;column-gap:38px;margin:0;padding-left:22px;font-family:var(--ff-sans);font-size:14px;line-height:1.55}.article__toc li{break-inside:avoid;margin:0 0 11px;padding-left:4px}.article__toc a{color:var(--mint-soft);text-decoration:none;border-bottom:1px solid transparent}.article__toc a:hover{color:var(--mint);border-bottom-color:rgba(168,234,234,0.42)}.interview-intro,.interview-conclusion{max-width:760px;margin:0 auto 40px;color:var(--cream)}.interview-intro p,.interview-conclusion p{margin-bottom:24px}.interview-qa{scroll-margin-top:112px;margin:34px auto;padding:clamp(28px,4vw,48px);border:1px solid rgba(168,234,234,0.22);border-radius:30px;background:radial-gradient(circle at top right,rgba(159,216,212,0.10),transparent 32%),rgba(6,31,26,0.34);box-shadow:0 26px 80px rgba(0,0,0,0.16);backdrop-filter:blur(8px)}.interview-qa h2{margin:0;color:var(--mint-soft);font-size:clamp(26px,3vw,38px);line-height:1.18}.interview-qa__label,.interview-answer__label,.interview-conclusion__label{display:block;font-family:var(--ff-sans);font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--mint);margin-bottom:14px;opacity:0.88}.interview-answer{margin-top:28px;padding-top:28px;border-top:1px solid rgba(168,234,234,0.18)}.interview-answer__label{margin-bottom:20px}.interview-answer p,.interview-answer li{color:var(--cream)}.interview-answer blockquote,.interview-conclusion blockquote{margin:34px 0;padding:22px 28px 22px 30px;border-left:3px solid var(--mint);border-radius:0 20px 20px 0;background:rgba(168,234,234,0.07);color:var(--mint-soft);font-size:20px;line-height:1.55}.interview-answer blockquote p,.interview-conclusion blockquote p{margin:0;color:var(--mint-soft)}.interview-conclusion{margin-top:56px;padding:clamp(28px,4vw,48px);border-radius:30px;background:rgba(159,216,212,0.08);border:1px solid rgba(168,234,234,0.20)}.interview-conclusion h2{margin-top:0}.article__backlinks{max-width:760px;margin:54px auto 0;display:flex;gap:14px;flex-wrap:wrap;justify-content:center;position:relative;z-index:2}@media (max-width:760px){.article__toc ol{columns:1}.article--interview .article__body{font-size:17px}.interview-qa{border-radius:24px}.article__toc{border-radius:24px}}
+<link href="/assets/article.css" rel="stylesheet"/><link href="/assets/theme.css?v=20260502-r2" rel="stylesheet"/>
+
+<style>
+  .article--interview {
+    padding-top: 72px;
+  }
+  .article--interview .article__header {
+    margin-bottom: 48px;
+  }
+  .article--interview .article__title {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article--interview .article__body {
+    max-width: 920px;
+    font-size: 18px;
+    line-height: 1.75;
+  }
+  .article--interview .article__body > p:first-of-type::first-letter {
+    all: unset;
+  }
+  .article__toc {
+    max-width: 980px;
+    margin: 0 auto 46px;
+    padding: clamp(24px, 4vw, 38px);
+    border: 1px solid rgba(168, 234, 234, 0.22);
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at top left, rgba(159, 216, 212, 0.12), transparent 34%),
+      rgba(6, 31, 26, 0.38);
+    color: var(--cream);
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 28px 90px rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(10px);
+  }
+  .article__toc h2 {
+    font-family: var(--ff-display);
+    font-size: clamp(24px, 3vw, 34px);
+    color: var(--mint-soft);
+    margin: 0 0 8px;
+  }
+  .article__toc p {
+    font-family: var(--ff-sans);
+    font-size: 14px;
+    color: rgba(242, 245, 244, 0.72);
+    margin: 0 0 22px;
+  }
+  .article__toc ol {
+    columns: 2;
+    column-gap: 38px;
+    margin: 0;
+    padding-left: 22px;
+    font-family: var(--ff-sans);
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .article__toc li {
+    break-inside: avoid;
+    margin: 0 0 11px;
+    padding-left: 4px;
+  }
+  .article__toc a {
+    color: var(--mint-soft);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .article__toc a:hover {
+    color: var(--mint);
+    border-bottom-color: rgba(168, 234, 234, 0.42);
+  }
+  .interview-intro,
+  .interview-conclusion {
+    max-width: 760px;
+    margin: 0 auto 40px;
+    color: var(--cream);
+  }
+  .interview-intro p,
+  .interview-conclusion p {
+    margin-bottom: 24px;
+  }
+  .interview-qa {
+    scroll-margin-top: 112px;
+    margin: 34px auto;
+    padding: clamp(28px, 4vw, 48px);
+    border: 1px solid rgba(168, 234, 234, 0.22);
+    border-radius: 30px;
+    background:
+      radial-gradient(circle at top right, rgba(159, 216, 212, 0.10), transparent 32%),
+      rgba(6, 31, 26, 0.34);
+    box-shadow: 0 26px 80px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(8px);
+  }
+  .interview-qa h2 {
+    margin: 0;
+    color: var(--mint-soft);
+    font-size: clamp(26px, 3vw, 38px);
+    line-height: 1.18;
+  }
+  .interview-qa__label,
+  .interview-answer__label,
+  .interview-conclusion__label {
+    display: block;
+    font-family: var(--ff-sans);
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--mint);
+    margin-bottom: 14px;
+    opacity: 0.88;
+  }
+  .interview-answer {
+    margin-top: 28px;
+    padding-top: 28px;
+    border-top: 1px solid rgba(168, 234, 234, 0.18);
+  }
+  .interview-answer__label {
+    margin-bottom: 20px;
+  }
+  .interview-answer p,
+  .interview-answer li {
+    color: var(--cream);
+  }
+  .interview-answer blockquote,
+  .interview-conclusion blockquote {
+    margin: 34px 0;
+    padding: 22px 28px 22px 30px;
+    border-left: 3px solid var(--mint);
+    border-radius: 0 20px 20px 0;
+    background: rgba(168, 234, 234, 0.07);
+    color: var(--mint-soft);
+    font-size: 20px;
+    line-height: 1.55;
+  }
+  .interview-answer blockquote p,
+  .interview-conclusion blockquote p {
+    margin: 0;
+    color: var(--mint-soft);
+  }
+  .interview-conclusion {
+    margin-top: 56px;
+    padding: clamp(28px, 4vw, 48px);
+    border-radius: 30px;
+    background: rgba(159, 216, 212, 0.08);
+    border: 1px solid rgba(168, 234, 234, 0.20);
+  }
+  .interview-conclusion h2 {
+    margin-top: 0;
+  }
+  .article__backlinks {
+    max-width: 760px;
+    margin: 54px auto 0;
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+  @media (max-width: 760px) {
+    .article__toc ol { columns: 1; }
+    .article--interview .article__body { font-size: 17px; }
+    .interview-qa { border-radius: 24px; }
+    .article__toc { border-radius: 24px; }
+  }
 </style></head>
 <body>
 <nav class="inav">
@@ -83,9 +248,9 @@
 <div class="article-footer__inner">
 <div class="article-footer__divider"></div>
 <p class="article-footer__text">
-Article publié sur Debunk'Onomy<br/>
-1er mai 2026
-</p>
+      Article publié sur Debunk'Onomy<br/>
+      1er mai 2026
+    </p>
 <a class="article-footer__cta" href="/nemo-ims/">Retour à NEMO IMS →</a>
 </div>
 </section>

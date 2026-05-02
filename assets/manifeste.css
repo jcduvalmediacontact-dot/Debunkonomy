@@ -1,1 +1,171 @@
-.manifesto-hero{position:relative;background:linear-gradient(135deg,var(--ink-deep) 0%,var(--ink) 100%);padding:140px 40px 100px;text-align:center;overflow:hidden}.manifesto-hero__grain{position:absolute;top:0;left:0;right:0;bottom:0;background-image:radial-gradient(circle at 20% 50%,rgba(168,234,234,0.05) 0%,transparent 50%),radial-gradient(circle at 80% 80%,rgba(168,234,234,0.04) 0%,transparent 50%);pointer-events:none;opacity:0.6}.manifesto-hero__inner{max-width:900px;margin:0 auto;position:relative;z-index:1}.manifesto-hero__eyebrow{font-family:var(--ff-sans);font-size:11px;letter-spacing:0.28em;text-transform:uppercase;color:var(--mint);opacity:0.7;margin-bottom:40px}.manifesto-hero__title{font-family:var(--ff-display);font-variation-settings:"opsz" 144,"SOFT" 35;font-weight:350;font-size:clamp(42px,6vw,80px);line-height:1.08;letter-spacing:-0.03em;color:var(--mint)}.manifesto-hero__title em{font-style:italic;font-variation-settings:"opsz" 144,"SOFT" 100,"WONK" 1;color:var(--mint-soft)}.mani{background:var(--cream);padding:100px 40px}.mani__inner{max-width:var(--readw);margin:0 auto}.mani__lead{font-family:var(--ff-display);font-variation-settings:"opsz" 24,"SOFT" 50;font-size:26px;line-height:1.5;color:var(--ink-deep);margin-bottom:2em}.mani p{font-family:var(--ff-display);font-variation-settings:"opsz" 16,"SOFT" 55;font-weight:400;font-size:19px;line-height:1.7;color:var(--ink-deep);margin-bottom:1.5em}.mani p em{font-style:italic;font-variation-settings:"opsz" 16,"SOFT" 80,"WONK" 1;color:var(--ink)}.mani h2{font-family:var(--ff-display);font-variation-settings:"opsz" 72,"SOFT" 35;font-weight:450;font-size:clamp(28px,3vw,38px);line-height:1.15;letter-spacing:-0.02em;color:var(--ink-deep);margin-top:2.6em;margin-bottom:1em;padding-top:1.2em;position:relative}.mani h2::before{content:"";position:absolute;top:0;left:0;width:70px;height:1px;background:var(--teal);opacity:0.6}.mani__pullquote{margin:3em 0;padding:44px 48px;background:linear-gradient(135deg,var(--ink-deep) 0%,var(--ink) 100%);color:var(--mint-soft);text-align:center;font-family:var(--ff-display);font-style:italic;font-variation-settings:"opsz" 36,"SOFT" 100,"WONK" 1;font-size:26px;line-height:1.45;border-radius:4px;box-shadow:0 8px 32px rgba(13,46,49,0.15)}.mani__sign{margin-top:4em;padding-top:2.5em;border-top:1px solid rgba(13,46,49,0.15);font-family:var(--ff-serif);font-style:italic;font-size:18px;color:var(--teal);text-align:right}@media (max-width:768px){.manifesto-hero{padding:100px 28px 80px}.mani{padding:70px 28px}.mani__lead{font-size:22px}.mani__pullquote{margin-left:-12px;margin-right:-12px;padding:32px 36px;font-size:22px}.mani__sign{text-align:center;font-size:16px}}
+/* Manifeste page styles */
+/* S'appuie sur site.css pour le design system */
+
+/* ===== MANIFESTO HERO ===== */
+.manifesto-hero {
+  position: relative;
+  background: linear-gradient(135deg, var(--ink-deep) 0%, var(--ink) 100%);
+  padding: 140px 40px 100px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.manifesto-hero__grain {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 20% 50%, rgba(168, 234, 234, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(168, 234, 234, 0.04) 0%, transparent 50%);
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.manifesto-hero__inner {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.manifesto-hero__eyebrow {
+  font-family: var(--ff-sans);
+  font-size: 11px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--mint);
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.manifesto-hero__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 144, "SOFT" 35;
+  font-weight: 350;
+  font-size: clamp(42px, 6vw, 80px);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--mint);
+}
+
+.manifesto-hero__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 144, "SOFT" 100, "WONK" 1;
+  color: var(--mint-soft);
+}
+
+/* ===== MANIFESTO BODY ===== */
+.mani {
+  background: var(--cream);
+  padding: 100px 40px;
+}
+
+.mani__inner {
+  max-width: var(--readw);
+  margin: 0 auto;
+}
+
+.mani__lead {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 24, "SOFT" 50;
+  font-size: 26px;
+  line-height: 1.5;
+  color: var(--ink-deep);
+  margin-bottom: 2em;
+}
+
+.mani p {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 16, "SOFT" 55;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.7;
+  color: var(--ink-deep);
+  margin-bottom: 1.5em;
+}
+
+.mani p em {
+  font-style: italic;
+  font-variation-settings: "opsz" 16, "SOFT" 80, "WONK" 1;
+  color: var(--ink);
+}
+
+.mani h2 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 72, "SOFT" 35;
+  font-weight: 450;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink-deep);
+  margin-top: 2.6em;
+  margin-bottom: 1em;
+  padding-top: 1.2em;
+  position: relative;
+}
+
+.mani h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 1px;
+  background: var(--teal);
+  opacity: 0.6;
+}
+
+.mani__pullquote {
+  margin: 3em 0;
+  padding: 44px 48px;
+  background: linear-gradient(135deg, var(--ink-deep) 0%, var(--ink) 100%);
+  color: var(--mint-soft);
+  text-align: center;
+  font-family: var(--ff-display);
+  font-style: italic;
+  font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1;
+  font-size: 26px;
+  line-height: 1.45;
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgba(13, 46, 49, 0.15);
+}
+
+.mani__sign {
+  margin-top: 4em;
+  padding-top: 2.5em;
+  border-top: 1px solid rgba(13, 46, 49, 0.15);
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--teal);
+  text-align: right;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .manifesto-hero {
+    padding: 100px 28px 80px;
+  }
+
+  .mani {
+    padding: 70px 28px;
+  }
+
+  .mani__lead {
+    font-size: 22px;
+  }
+
+  .mani__pullquote {
+    margin-left: -12px;
+    margin-right: -12px;
+    padding: 32px 36px;
+    font-size: 22px;
+  }
+
+  .mani__sign {
+    text-align: center;
+    font-size: 16px;
+  }
+}
