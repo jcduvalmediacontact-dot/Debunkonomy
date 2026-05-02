@@ -609,79 +609,89 @@ blockquote,
   :root { --section-pad: 72px; }
 }
 
-/* === 2026-05-02 — R4 ARRONDIS CIBLÉS : fenêtres éditoriales, sans tronquer les vignettes ===
-   Correction de la R3 : on ne cible plus les sélecteurs génériques
-   fondés sur les noms de classes.
-   Objectif : arrondir les vrais encadrés/fenêtres éditoriales, notamment
-   la citation Gaïa, sans imposer overflow:hidden aux vignettes d'articles. */
+/* === 2026-05-02 — R5 ARRONDIS PRÉCIS DES ENCARTS DE CITATION ===
+   Correction de la R4 : l’arrondi ne doit pas viser la grande section verte
+   de la page d’accueil, mais la fenêtre blanche qui contient la citation.
+   On cible donc les encarts de texte/citation/callout, sans sélecteurs
+   génériques de vignettes et sans overflow:hidden global. */
 
 :root {
-  --radius-window: 36px;
+  --radius-quote-window: 28px;
 }
 
-/* Grandes fenêtres pleine largeur / sections éditoriales */
+/* La section verte retrouve son comportement de section pleine largeur. */
 .gaia-quote {
-  border-radius: var(--radius-window, 36px) !important;
-  margin: clamp(28px, 4vw, 56px) clamp(16px, 3.5vw, 48px) !important;
-  overflow: hidden;
+  border-radius: 0 !important;
+  margin: 0 !important;
 }
 
-/* Encadrés de texte et panneaux réels — arrondi seulement, pas de masquage forcé */
+/* Fenêtres blanches / encarts éditoriaux : citation Gaïa, blockquotes,
+   pullquotes et callouts. Pas d'overflow forcé : on n'abîme pas les vignettes. */
 :is(
-  .intro-panel,
-  .cta-band,
-  .newsletter-box,
-  .muted-note,
-  .empty-state,
-  .kv-item,
-  .article-footer__inner,
-  .article__body blockquote,
-  .article__body .callout,
-  .article__body .note,
-  .article__body .quote,
+  blockquote,
+  .gaia-quote__text,
+  .manifesto-quote,
+  .side-quote,
+  .callout,
+  .theme-callout,
   .nemo-manifesto-quote,
   .nemo-side-quote,
   .nemo-insight-box,
   .nemo-global-callout,
-  .nemo-flow,
-  .nemo-cycle__step,
   .nemo-quote,
   .nemo-callout,
-  .nemo-page blockquote,
-  .med-soon__inner,
-  .contact-card,
-  .bio-card,
-  .book-card,
-  .livre-card,
-  .manifesto-card,
-  .principle-card,
-  .timeline-card,
-  .stat-card,
+  .article__body blockquote,
+  .article__body .callout,
+  .article__body .note,
+  .article__body .quote,
+  .pullquote,
+  .mani__pullquote,
+  .quote-card,
+  .newsletter-box,
+  .muted-note,
+  .empty-state,
   .highlight-box,
   .alert-box,
-  .stat-box,
-  .cont-card,
-  .soon,
   .equation,
-  .thesis__item,
-  .term,
-  .mani__pullquote,
-  .faq-item,
-  .glossary-item,
-  .glossary-term
+  .intro-panel,
+  .cta-band
 ) {
-  border-radius: var(--radius-lg, 28px) !important;
+  border-radius: var(--radius-quote-window, 28px) !important;
+  background-clip: padding-box;
 }
 
-/* Les vignettes/cartes conservent leur design propre : pas d'overflow global forcé. */
-:is(.article-card, .news-card, .route-card, .media-card, .med-card, .nemo-card, .nemo-gateway-card, .nemo-concept-card, .nemo-knot-card, .feature-card) {
-  border-radius: var(--radius-lg, 28px);
-}
-
+/* Sur mobile, l'arrondi reste visible sans devenir excessif. */
 @media (max-width: 760px) {
-  .gaia-quote {
-    border-radius: 28px !important;
-    margin: 24px 14px !important;
+  :is(
+    blockquote,
+    .gaia-quote__text,
+    .manifesto-quote,
+    .side-quote,
+    .callout,
+    .theme-callout,
+    .nemo-manifesto-quote,
+    .nemo-side-quote,
+    .nemo-insight-box,
+    .nemo-global-callout,
+    .nemo-quote,
+    .nemo-callout,
+    .article__body blockquote,
+    .article__body .callout,
+    .article__body .note,
+    .article__body .quote,
+    .pullquote,
+    .mani__pullquote,
+    .quote-card,
+    .newsletter-box,
+    .muted-note,
+    .empty-state,
+    .highlight-box,
+    .alert-box,
+    .equation,
+    .intro-panel,
+    .cta-band
+  ) {
+    border-radius: 22px !important;
   }
 }
-/* === FIN R4 ARRONDIS CIBLÉS === */
+/* === FIN R5 ARRONDIS PRÉCIS DES ENCARTS DE CITATION === */

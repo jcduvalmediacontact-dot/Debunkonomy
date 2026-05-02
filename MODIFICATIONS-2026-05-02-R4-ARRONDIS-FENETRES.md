@@ -13,7 +13,7 @@ Cette version corrige la R3 qui appliquait des sélecteurs trop larges (`[class*
 - Ajout d’un arrondi ciblé sur la grande fenêtre de citation de la page d’accueil (`.gaia-quote`).
 - Conservation des arrondis des vrais encadrés éditoriaux : newsletter, panneaux, citations, notes, callouts.
 - Respect du design propre des vignettes d’articles, cartes d’actualités et cartes de navigation.
-- Cache-busting CSS mis à jour en `?v=20260502-r4`.
+- Cache-busting CSS mis à jour en `?v=20260502-r5`.
 
 ## Objectif
 
