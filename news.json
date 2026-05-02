@@ -1,14 +1,6 @@
 {
   "news": [
     {
-      "id": "news-015",
-      "type": "texte",
-      "date": "2026-05-01",
-      "title": "NEMO IMS : monnaie, écologie et essentiel insolvable",
-      "excerpt": "Vingt questions pour comprendre la monnaie régénérative, l’essentiel insolvable, le NES et les NEMO Green DTS.",
-      "link": "/nemo-ims/entretien-fondateur/"
-    },
-    {
       "id": "news-014",
       "type": "texte",
       "date": "2026-04-30",

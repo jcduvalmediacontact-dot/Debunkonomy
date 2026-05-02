@@ -196,6 +196,8 @@
       return;
     }
 
+    track.innerHTML = '<div class="news-carousel__loading">Chargement des actualités...</div>';
+
     try {
       const response = await fetch('/news.json');
       
@@ -229,7 +231,7 @@
 
     } catch (error) {
       console.error('Erreur lors du chargement des news:', error);
-      // Conserver les cartes statiques si elles existent.
+      track.innerHTML = '<div class="news-carousel__loading">Erreur lors du chargement des actualités.</div>';
     }
   }
 
