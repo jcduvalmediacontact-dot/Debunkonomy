@@ -1,22 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://debunkonomy.org/</loc></url>
   <url><loc>https://debunkonomy.org/a-propos/</loc></url>
+  <url><loc>https://debunkonomy.org/ar/</loc></url>
+  <url><loc>https://debunkonomy.org/articles/</loc></url>
+  <url><loc>https://debunkonomy.org/commencer-ici/</loc></url>
+  <url><loc>https://debunkonomy.org/contact/</loc></url>
+  <url><loc>https://debunkonomy.org/de/</loc></url>
+  <url><loc>https://debunkonomy.org/en/</loc></url>
+  <url><loc>https://debunkonomy.org/es/</loc></url>
+  <url><loc>https://debunkonomy.org/it/</loc></url>
+  <url><loc>https://debunkonomy.org/livre/</loc></url>
+  <url><loc>https://debunkonomy.org/manifeste/</loc></url>
+  <url><loc>https://debunkonomy.org/medias/</loc></url>
+  <url><loc>https://debunkonomy.org/mentions-legales/</loc></url>
+  <url><loc>https://debunkonomy.org/nemo-ims/</loc></url>
+  <url><loc>https://debunkonomy.org/newsletter/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/</loc></url>
   <url><loc>https://debunkonomy.org/ar/about/</loc></url>
-  <url><loc>https://debunkonomy.org/ar/articles/degrowth-resilience-monetary-system/</loc></url>
   <url><loc>https://debunkonomy.org/ar/articles/</loc></url>
   <url><loc>https://debunkonomy.org/ar/book/</loc></url>
   <url><loc>https://debunkonomy.org/ar/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/ar/</loc></url>
   <url><loc>https://debunkonomy.org/ar/media/</loc></url>
-  <url><loc>https://debunkonomy.org/ar/nemo-ims/faq/</loc></url>
-  <url><loc>https://debunkonomy.org/ar/nemo-ims/glossary/</loc></url>
   <url><loc>https://debunkonomy.org/ar/nemo-ims/</loc></url>
   <url><loc>https://debunkonomy.org/ar/newsletter/</loc></url>
   <url><loc>https://debunkonomy.org/ar/start-here/</loc></url>
-  <url><loc>https://debunkonomy.org/articles/auteur/SMI/</loc></url>
+  <url><loc>https://debunkonomy.org/de/about/</loc></url>
+  <url><loc>https://debunkonomy.org/de/articles/</loc></url>
+  <url><loc>https://debunkonomy.org/de/book/</loc></url>
+  <url><loc>https://debunkonomy.org/de/contact/</loc></url>
+  <url><loc>https://debunkonomy.org/de/media/</loc></url>
+  <url><loc>https://debunkonomy.org/de/nemo-ims/</loc></url>
+  <url><loc>https://debunkonomy.org/de/newsletter/</loc></url>
+  <url><loc>https://debunkonomy.org/de/start-here/</loc></url>
+  <url><loc>https://debunkonomy.org/en/about/</loc></url>
+  <url><loc>https://debunkonomy.org/en/articles/</loc></url>
+  <url><loc>https://debunkonomy.org/en/book/</loc></url>
+  <url><loc>https://debunkonomy.org/en/contact/</loc></url>
+  <url><loc>https://debunkonomy.org/en/media/</loc></url>
+  <url><loc>https://debunkonomy.org/en/nemo-ims/</loc></url>
+  <url><loc>https://debunkonomy.org/en/newsletter/</loc></url>
+  <url><loc>https://debunkonomy.org/en/start-here/</loc></url>
+  <url><loc>https://debunkonomy.org/es/about/</loc></url>
+  <url><loc>https://debunkonomy.org/es/articles/</loc></url>
+  <url><loc>https://debunkonomy.org/es/book/</loc></url>
+  <url><loc>https://debunkonomy.org/es/contact/</loc></url>
+  <url><loc>https://debunkonomy.org/es/media/</loc></url>
+  <url><loc>https://debunkonomy.org/es/nemo-ims/</loc></url>
+  <url><loc>https://debunkonomy.org/es/newsletter/</loc></url>
+  <url><loc>https://debunkonomy.org/es/start-here/</loc></url>
+  <url><loc>https://debunkonomy.org/it/about/</loc></url>
+  <url><loc>https://debunkonomy.org/it/articles/</loc></url>
+  <url><loc>https://debunkonomy.org/it/book/</loc></url>
+  <url><loc>https://debunkonomy.org/it/contact/</loc></url>
+  <url><loc>https://debunkonomy.org/it/media/</loc></url>
+  <url><loc>https://debunkonomy.org/it/nemo-ims/</loc></url>
+  <url><loc>https://debunkonomy.org/it/newsletter/</loc></url>
+  <url><loc>https://debunkonomy.org/it/start-here/</loc></url>
+  <url><loc>https://debunkonomy.org/livre/introduction/</loc></url>
+  <url><loc>https://debunkonomy.org/medias/podcasts/</loc></url>
+  <url><loc>https://debunkonomy.org/medias/videos/</loc></url>
+  <url><loc>https://debunkonomy.org/nemo-ims/faq/</loc></url>
+  <url><loc>https://debunkonomy.org/nemo-ims/glossaire/</loc></url>
+  <url><loc>https://debunkonomy.org/nemo-ims/hegemon-monetaire/</loc></url>
+  <url><loc>https://debunkonomy.org/nemo-ims/monnaie-regenerative/</loc></url>
+  <url><loc>https://debunkonomy.org/nemo-ims/theorie-quantitative/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/about/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/articles/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/book/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/contact/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/media/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/nemo-ims/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/newsletter/</loc></url>
+  <url><loc>https://debunkonomy.org/pt/start-here/</loc></url>
+  <url><loc>https://debunkonomy.org/ar/articles/degrowth-resilience-monetary-system/</loc></url>
+  <url><loc>https://debunkonomy.org/ar/nemo-ims/faq/</loc></url>
+  <url><loc>https://debunkonomy.org/ar/nemo-ims/glossary/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/SMI-2/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/SMI-3/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/SMI-4/</loc></url>
+  <url><loc>https://debunkonomy.org/articles/auteur/SMI/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/cop-lobbycratie/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/creation-monetaire-dette/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/decroissance-robustesse-systeme-monetaire/</loc></url>
@@ -25,29 +88,15 @@
   <url><loc>https://debunkonomy.org/articles/auteur/ivan-illich-portrait/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/limites-pib/</loc></url>
   <url><loc>https://debunkonomy.org/articles/auteur/septieme-limite-planetaire/</loc></url>
-  <url><loc>https://debunkonomy.org/articles/</loc></url>
   <url><loc>https://debunkonomy.org/articles/invites/solow/</loc></url>
-  <url><loc>https://debunkonomy.org/commencer-ici/</loc></url>
-  <url><loc>https://debunkonomy.org/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/de/about/</loc></url>
   <url><loc>https://debunkonomy.org/de/articles/degrowth-robustheit-geldsystem/</loc></url>
-  <url><loc>https://debunkonomy.org/de/articles/</loc></url>
-  <url><loc>https://debunkonomy.org/de/book/</loc></url>
-  <url><loc>https://debunkonomy.org/de/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/de/</loc></url>
-  <url><loc>https://debunkonomy.org/de/media/</loc></url>
   <url><loc>https://debunkonomy.org/de/nemo-ims/faq/</loc></url>
   <url><loc>https://debunkonomy.org/de/nemo-ims/glossary/</loc></url>
-  <url><loc>https://debunkonomy.org/de/nemo-ims/</loc></url>
-  <url><loc>https://debunkonomy.org/de/newsletter/</loc></url>
-  <url><loc>https://debunkonomy.org/de/start-here/</loc></url>
-  <url><loc>https://debunkonomy.org/en/about/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/debt-sisyphus-myth-money-creation/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/degrowth-resilience-monetary-system/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/gdp-does-not-measure-what-we-think/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/green-finance-great-illusion-chaos/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/history-of-international-monetary-crises/</loc></url>
-  <url><loc>https://debunkonomy.org/en/articles/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/ivan-illich-prophet-of-conviviality/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/nemo-ims-international-monetary-system-future/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/robert-solow-conventional-economics-transition-theories/</loc></url>
@@ -56,22 +105,13 @@
   <url><loc>https://debunkonomy.org/en/articles/structural-dilemmas-international-monetary-system/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/what-is-an-international-monetary-system/</loc></url>
   <url><loc>https://debunkonomy.org/en/articles/why-cops-do-not-work/</loc></url>
-  <url><loc>https://debunkonomy.org/en/book/</loc></url>
-  <url><loc>https://debunkonomy.org/en/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/en/</loc></url>
-  <url><loc>https://debunkonomy.org/en/media/</loc></url>
   <url><loc>https://debunkonomy.org/en/nemo-ims/faq/</loc></url>
   <url><loc>https://debunkonomy.org/en/nemo-ims/glossary/</loc></url>
-  <url><loc>https://debunkonomy.org/en/nemo-ims/</loc></url>
-  <url><loc>https://debunkonomy.org/en/newsletter/</loc></url>
-  <url><loc>https://debunkonomy.org/en/start-here/</loc></url>
-  <url><loc>https://debunkonomy.org/es/about/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/decrecimiento-robustez-sistema-monetario/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/deuda-mito-sisifo-creacion-monetaria/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/dilemas-estructurales-sistema-monetario-internacional/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/finanzas-verdes-gran-ilusion-caos/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/historia-crisis-monetarias-internacionales/</loc></url>
-  <url><loc>https://debunkonomy.org/es/articles/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/ivan-illich-profeta-convivialidad/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/nemo-ims-sistema-monetario-internacional-futuro/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/pib-no-mide-lo-que-creemos/</loc></url>
@@ -80,56 +120,12 @@
   <url><loc>https://debunkonomy.org/es/articles/records-bursatiles-planeta-moribundo-desacoplamiento-economico/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/robert-solow-economia-convencional-teorias-transicion/</loc></url>
   <url><loc>https://debunkonomy.org/es/articles/septimo-limite-planetario-acidificacion-oceanos/</loc></url>
-  <url><loc>https://debunkonomy.org/es/book/</loc></url>
-  <url><loc>https://debunkonomy.org/es/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/es/</loc></url>
-  <url><loc>https://debunkonomy.org/es/media/</loc></url>
   <url><loc>https://debunkonomy.org/es/nemo-ims/faq/</loc></url>
   <url><loc>https://debunkonomy.org/es/nemo-ims/glossary/</loc></url>
-  <url><loc>https://debunkonomy.org/es/nemo-ims/</loc></url>
-  <url><loc>https://debunkonomy.org/es/newsletter/</loc></url>
-  <url><loc>https://debunkonomy.org/es/start-here/</loc></url>
-  <url><loc>https://debunkonomy.org/</loc></url>
-  <url><loc>https://debunkonomy.org/it/about/</loc></url>
   <url><loc>https://debunkonomy.org/it/articles/decrescita-robustezza-sistema-monetario/</loc></url>
-  <url><loc>https://debunkonomy.org/it/articles/</loc></url>
-  <url><loc>https://debunkonomy.org/it/book/</loc></url>
-  <url><loc>https://debunkonomy.org/it/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/it/</loc></url>
-  <url><loc>https://debunkonomy.org/it/media/</loc></url>
   <url><loc>https://debunkonomy.org/it/nemo-ims/faq/</loc></url>
   <url><loc>https://debunkonomy.org/it/nemo-ims/glossary/</loc></url>
-  <url><loc>https://debunkonomy.org/it/nemo-ims/</loc></url>
-  <url><loc>https://debunkonomy.org/it/newsletter/</loc></url>
-  <url><loc>https://debunkonomy.org/it/start-here/</loc></url>
-  <url><loc>https://debunkonomy.org/livre/</loc></url>
-  <url><loc>https://debunkonomy.org/livre/introduction/</loc></url>
-  <url><loc>https://debunkonomy.org/manifeste/</loc></url>
-  <url><loc>https://debunkonomy.org/medias/</loc></url>
-  <url><loc>https://debunkonomy.org/medias/podcasts/</loc></url>
-  <url><loc>https://debunkonomy.org/medias/videos/</loc></url>
-  <url><loc>https://debunkonomy.org/mentions-legales/</loc></url>
-  <url><loc>https://debunkonomy.org/nemo-ims/faq/</loc></url>
-  <url><loc>https://debunkonomy.org/nemo-ims/glossaire/</loc></url>
-  <url><loc>https://debunkonomy.org/nemo-ims/hegemon-monetaire/</loc></url>
-  <url><loc>https://debunkonomy.org/nemo-ims/</loc></url>
-  <url><loc>https://debunkonomy.org/nemo-ims/monnaie-regenerative/</loc></url>
-  <url><loc>https://debunkonomy.org/nemo-ims/theorie-quantitative/</loc></url>
-  <url><loc>https://debunkonomy.org/newsletter/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/about/</loc></url>
   <url><loc>https://debunkonomy.org/pt/articles/decrescimento-robustez-sistema-monetario/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/articles/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/book/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/contact/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/media/</loc></url>
   <url><loc>https://debunkonomy.org/pt/nemo-ims/faq/</loc></url>
   <url><loc>https://debunkonomy.org/pt/nemo-ims/glossary/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/nemo-ims/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/newsletter/</loc></url>
-  <url><loc>https://debunkonomy.org/pt/start-here/</loc></url>
-  <url><loc>https://debunkonomy.org/TEMPLATE-ARTICLE.html</loc></url>
-  <url><loc>https://debunkonomy.org/actus.html</loc></url>
-  <url><loc>https://debunkonomy.org/textes.html</loc></url>
-  <url><loc>https://debunkonomy.org/videos.html</loc></url>
 </urlset>

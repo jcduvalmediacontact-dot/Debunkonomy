@@ -2,7 +2,7 @@
 
 ## 🎯 Objectif
 
-Uniformiser tous les articles du site Debunk'Onomy avec :
+Uniformiser tous les articles du site Debunk’Onomy avec :
 - ✅ **Design cohérent** (inspiré de Solow)
 - ✅ **Navigation complète** (menu complet du site)
 - ✅ **CSS externe** (fini le CSS inline)
@@ -61,7 +61,7 @@ Pour chaque article :
 
 #### 2. **Remplis le header**
 ```html
-<title>TITRE — Debunk'Onomy</title>
+<title>TITRE — Debunk’Onomy</title>
 <meta name="description" content="DESCRIPTION">
 
 <!-- Dans l'article -->

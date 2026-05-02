@@ -1,4 +1,4 @@
-Debunk'Onomy — theme.css global unifié
+Debunk’Onomy — theme.css global unifié
 
 Le fichier assets/theme.css a été créé et relié EN DERNIER dans toutes les pages HTML.
 Il devient donc la couche de référence pour l'uniformisation visuelle.
