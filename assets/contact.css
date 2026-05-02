@@ -70,7 +70,7 @@
   padding: 40px 36px;
   background: white;
   border: 1px solid rgba(13, 46, 49, 0.1);
-  border-radius: 8px;
+  border-radius: var(--radius-lg, 28px);
   transition: all 0.3s;
 }
 

@@ -923,7 +923,7 @@ body.nemo-page,
   background: rgba(242, 245, 244, 0.055) !important;
   border: 1px solid rgba(47, 143, 136, 0.28) !important;
   color: var(--nemo-grey) !important;
-  border-radius: 24px;
+  border-radius: var(--radius-lg, 28px);
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.24);
 }
 

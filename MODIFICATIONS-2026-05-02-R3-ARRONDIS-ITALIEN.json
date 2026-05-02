@@ -1,0 +1,26 @@
+{
+  "version": "R3",
+  "date": "2026-05-02",
+  "css": [
+    "assets/theme.css: override fort des arrondis avec :is(...) et !important",
+    "cache-busting CSS sur theme.css et site.css (?v=20260502-r3)"
+  ],
+  "italian_articles_total": 14,
+  "italian_articles": [
+    "/it/articles/architettura-entropia-complessita-costi-reali/",
+    "/it/articles/decrescita-robustezza-sistema-monetario/",
+    "/it/articles/che-cos-e-un-sistema-monetario-internazionale/",
+    "/it/articles/dilemmi-strutturali-sistema-monetario-internazionale/",
+    "/it/articles/storia-crisi-monetarie-internazionali/",
+    "/it/articles/nemo-ims-sistema-monetario-internazionale-futuro/",
+    "/it/articles/debito-mito-sisifo-creazione-monetaria/",
+    "/it/articles/finanza-verde-grande-illusione-caos/",
+    "/it/articles/record-borsa-pianeta-morente-disaccoppiamento-economico/",
+    "/it/articles/ivan-illich-profeta-convivialita/",
+    "/it/articles/pil-non-misura-cio-che-pensiamo/",
+    "/it/articles/perche-le-cop-non-funzionano/",
+    "/it/articles/settimo-limite-planetario-acidificazione-oceani/",
+    "/it/articles/robert-solow-economia-convenzionale-teorie-transizione/"
+  ],
+  "notes": "Traductions italiennes ajoutées comme première passe éditoriale exploitable; relecture native conseillée avant communication institutionnelle."
+}

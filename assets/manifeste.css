@@ -128,7 +128,7 @@
   font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1;
   font-size: 26px;
   line-height: 1.45;
-  border-radius: 4px;
+  border-radius: var(--radius-lg, 28px);
   box-shadow: 0 8px 32px rgba(13, 46, 49, 0.15);
 }
 

@@ -201,7 +201,7 @@
   font-variation-settings: "opsz" 36, "SOFT" 100, "WONK" 1;
   font-size: 20px;
   line-height: 1.6;
-  border-radius: 2px;
+  border-radius: var(--radius-lg, 28px);
 }
 
 .equation strong {

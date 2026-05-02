@@ -30,7 +30,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/assets/theme.css?v=20260502-r2">
+<link rel="stylesheet" href="/assets/theme.css?v=20260502-r3">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 
 <style>
@@ -509,7 +509,7 @@ img { max-width: 100%; height: auto; display: block; }
               0 20px 40px -10px rgba(0,0,0,0.35);
   transform: perspective(1200px) rotateY(-6deg) rotateX(2deg);
   transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
-  border-radius: 2px;
+  border-radius: var(--radius-lg, 28px);
   overflow: hidden;
 }
 .book__cover:hover {
@@ -687,7 +687,7 @@ img { max-width: 100%; height: auto; display: block; }
 .news-card {
   flex: 0 0 calc(33.333% - 16px);
   background: var(--cream);
-  border-radius: 8px;
+  border-radius: var(--radius-lg, 28px);
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
@@ -1233,7 +1233,7 @@ img { max-width: 100%; height: auto; display: block; }
   padding: 40px;
   background: rgba(74, 139, 146, 0.08);
   border: 1px solid rgba(168, 234, 234, 0.15);
-  border-radius: 8px;
+  border-radius: var(--radius-lg, 28px);
   text-decoration: none;
   color: inherit;
   transition: all 0.3s ease;
@@ -1361,7 +1361,7 @@ img { max-width: 100%; height: auto; display: block; }
   }
 }
 </style>
-<link rel="stylesheet" href="/assets/theme.css?v=20260502-r2">
+<link rel="stylesheet" href="/assets/theme.css?v=20260502-r3">
 </head>
 <body>
 
