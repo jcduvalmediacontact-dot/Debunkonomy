@@ -609,113 +609,31 @@ blockquote,
   :root { --section-pad: 72px; }
 }
 
-/* === 2026-05-02 — Arrondis globaux des encadrés Debunk’Onomy ===
-   Applique des coins arrondis cohérents aux cartes, notes, citations,
-   encadrés et blocs visuels sur l’ensemble du site. */
-:where(
-  .route-card,
-  .article-card,
-  .feature-card,
-  .card,
-  .panel,
-  .box,
-  .callout,
-  .quote,
-  .note,
-  .muted-note,
-  .intro-panel,
-  .newsletter-box,
-  .cta-band,
-  .empty-state,
-  .kv-item,
-  .article-footer__inner,
-  .article__body blockquote,
-  .article__body .callout,
-  .article__body .note,
-  .article__body .quote,
-  .nemo-manifesto-quote,
-  .nemo-side-quote,
-  .nemo-insight-box,
-  .nemo-global-callout,
-  .nemo-card,
-  .nemo-gateway-card,
-  .nemo-concept-card,
-  .nemo-knot-card,
-  .nemo-flow,
-  .nemo-cycle__step,
-  .nemo-quote,
-  .nemo-callout,
-  .nemo-page blockquote,
-  .media-card,
-  .bio-card,
-  .contact-card,
-  .book-card,
-  .livre-card,
-  .manifesto-card,
-  .principle-card,
-  .timeline-card,
-  .stat-card,
-  .faq-item,
-  .glossary-item
-) {
-  border-radius: var(--radius-lg, 28px);
+/* === 2026-05-02 — R4 ARRONDIS CIBLÉS : fenêtres éditoriales, sans tronquer les vignettes ===
+   Correction de la R3 : on ne cible plus les sélecteurs génériques
+   fondés sur les noms de classes.
+   Objectif : arrondir les vrais encadrés/fenêtres éditoriales, notamment
+   la citation Gaïa, sans imposer overflow:hidden aux vignettes d'articles. */
+
+:root {
+  --radius-window: 36px;
 }
 
-:where(
-  .route-card,
-  .article-card,
-  .feature-card,
-  .card,
-  .panel,
-  .box,
-  .callout,
-  .quote,
-  .note,
-  .muted-note,
-  .intro-panel,
-  .newsletter-box,
-  .cta-band,
-  .empty-state,
-  .article-footer__inner,
-  .article__body blockquote,
-  .nemo-manifesto-quote,
-  .nemo-side-quote,
-  .nemo-insight-box,
-  .nemo-global-callout,
-  .nemo-card,
-  .nemo-gateway-card,
-  .nemo-concept-card,
-  .nemo-knot-card,
-  .nemo-flow,
-  .nemo-cycle__step,
-  .nemo-page blockquote
-) {
+/* Grandes fenêtres pleine largeur / sections éditoriales */
+.gaia-quote {
+  border-radius: var(--radius-window, 36px) !important;
+  margin: clamp(28px, 4vw, 56px) clamp(16px, 3.5vw, 48px) !important;
   overflow: hidden;
 }
 
-/* === 2026-05-02 — R3 ARRONDIS FORTS : toutes les fenêtres/cartes/encadrés ===
-   Cette règle est volontairement chargée en dernier et utilise !important :
-   elle rétablit les coins arrondis même lorsque d'anciennes règles déclarent
-   border-radius: 2px, 4px ou 8px dans site.css, article.css ou en inline. */
+/* Encadrés de texte et panneaux réels — arrondi seulement, pas de masquage forcé */
 :is(
   .intro-panel,
   .cta-band,
   .newsletter-box,
-  .route-card,
-  .article-card,
-  .feature-card,
-  .card,
-  .panel,
-  .box,
-  .callout,
-  .quote,
-  .note,
   .muted-note,
   .empty-state,
   .kv-item,
-  .faq-item,
-  .glossary-term,
-  .glossary-item,
   .article-footer__inner,
   .article__body blockquote,
   .article__body .callout,
@@ -725,20 +643,14 @@ blockquote,
   .nemo-side-quote,
   .nemo-insight-box,
   .nemo-global-callout,
-  .nemo-card,
-  .nemo-gateway-card,
-  .nemo-concept-card,
-  .nemo-knot-card,
   .nemo-flow,
   .nemo-cycle__step,
   .nemo-quote,
   .nemo-callout,
   .nemo-page blockquote,
-  .media-card,
-  .med-card,
   .med-soon__inner,
-  .bio-card,
   .contact-card,
+  .bio-card,
   .book-card,
   .livre-card,
   .manifesto-card,
@@ -754,79 +666,22 @@ blockquote,
   .thesis__item,
   .term,
   .mani__pullquote,
-  [class*="__card"],
-  [class*="-card"],
-  [class*="__panel"],
-  [class*="-panel"],
-  [class*="__box"],
-  [class*="-box"],
-  [class*="__callout"],
-  [class*="-callout"]
+  .faq-item,
+  .glossary-item,
+  .glossary-term
 ) {
   border-radius: var(--radius-lg, 28px) !important;
 }
 
-:is(
-  .intro-panel,
-  .cta-band,
-  .newsletter-box,
-  .route-card,
-  .article-card,
-  .feature-card,
-  .card,
-  .panel,
-  .box,
-  .callout,
-  .quote,
-  .note,
-  .muted-note,
-  .empty-state,
-  .kv-item,
-  .faq-item,
-  .glossary-term,
-  .glossary-item,
-  .article-footer__inner,
-  .article__body blockquote,
-  .nemo-manifesto-quote,
-  .nemo-side-quote,
-  .nemo-insight-box,
-  .nemo-global-callout,
-  .nemo-card,
-  .nemo-gateway-card,
-  .nemo-concept-card,
-  .nemo-knot-card,
-  .nemo-flow,
-  .nemo-cycle__step,
-  .nemo-page blockquote,
-  .media-card,
-  .med-card,
-  .med-soon__inner,
-  .bio-card,
-  .contact-card,
-  .book-card,
-  .livre-card,
-  .manifesto-card,
-  .principle-card,
-  .timeline-card,
-  .stat-card,
-  .highlight-box,
-  .alert-box,
-  .stat-box,
-  .cont-card,
-  .soon,
-  .equation,
-  .thesis__item,
-  .term,
-  .mani__pullquote,
-  [class*="__card"],
-  [class*="-card"],
-  [class*="__panel"],
-  [class*="-panel"],
-  [class*="__box"],
-  [class*="-box"],
-  [class*="__callout"],
-  [class*="-callout"]
-) {
-  overflow: hidden;
+/* Les vignettes/cartes conservent leur design propre : pas d'overflow global forcé. */
+:is(.article-card, .news-card, .route-card, .media-card, .med-card, .nemo-card, .nemo-gateway-card, .nemo-concept-card, .nemo-knot-card, .feature-card) {
+  border-radius: var(--radius-lg, 28px);
 }
-/* === FIN R3 ARRONDIS FORTS === */
+
+@media (max-width: 760px) {
+  .gaia-quote {
+    border-radius: 28px !important;
+    margin: 24px 14px !important;
+  }
+}
+/* === FIN R4 ARRONDIS CIBLÉS === */
