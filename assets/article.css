@@ -477,3 +477,20 @@
     font-size: 36px;
   }
 }
+
+/* 2026-05-02 — Signature visible des articles */
+.article__signature {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(168, 234, 234, 0.22);
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--mint);
+  text-align: right;
+}
+.article__signature::before {
+  content: "— ";
+  opacity: 0.7;
+}

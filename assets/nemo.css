@@ -1122,3 +1122,14 @@ body.nemo-page .lang-switch__menu a:hover {
 body.nemo-page .lang-switch__menu strong {
   color: #2f8f88 !important;
 }
+/* 2026-05-02 — arrondis spécifiques NEMO IMS */
+.nemo-manifesto-quote,
+.nemo-side-quote,
+.nemo-insight-box,
+.nemo-global-callout,
+.nemo-flow,
+.nemo-cycle__step,
+.nemo-knot-card {
+  border-radius: var(--radius-lg, 28px);
+  overflow: hidden;
+}

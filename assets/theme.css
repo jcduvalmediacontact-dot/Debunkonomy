@@ -608,3 +608,84 @@ blockquote,
 @media (max-width: 760px) {
   :root { --section-pad: 72px; }
 }
+
+/* === 2026-05-02 — Arrondis globaux des encadrés Debunk’Onomy ===
+   Applique des coins arrondis cohérents aux cartes, notes, citations,
+   encadrés et blocs visuels sur l’ensemble du site. */
+:where(
+  .route-card,
+  .article-card,
+  .feature-card,
+  .card,
+  .panel,
+  .box,
+  .callout,
+  .quote,
+  .note,
+  .muted-note,
+  .cta-band,
+  .empty-state,
+  .kv-item,
+  .article-footer__inner,
+  .article__body blockquote,
+  .article__body .callout,
+  .article__body .note,
+  .article__body .quote,
+  .nemo-manifesto-quote,
+  .nemo-side-quote,
+  .nemo-insight-box,
+  .nemo-global-callout,
+  .nemo-card,
+  .nemo-gateway-card,
+  .nemo-concept-card,
+  .nemo-knot-card,
+  .nemo-flow,
+  .nemo-cycle__step,
+  .nemo-quote,
+  .nemo-callout,
+  .nemo-page blockquote,
+  .media-card,
+  .bio-card,
+  .contact-card,
+  .book-card,
+  .livre-card,
+  .manifesto-card,
+  .principle-card,
+  .timeline-card,
+  .stat-card,
+  .faq-item,
+  .glossary-item
+) {
+  border-radius: var(--radius-lg, 28px);
+}
+
+:where(
+  .route-card,
+  .article-card,
+  .feature-card,
+  .card,
+  .panel,
+  .box,
+  .callout,
+  .quote,
+  .note,
+  .muted-note,
+  .cta-band,
+  .empty-state,
+  .article-footer__inner,
+  .article__body blockquote,
+  .nemo-manifesto-quote,
+  .nemo-side-quote,
+  .nemo-insight-box,
+  .nemo-global-callout,
+  .nemo-card,
+  .nemo-gateway-card,
+  .nemo-concept-card,
+  .nemo-knot-card,
+  .nemo-flow,
+  .nemo-cycle__step,
+  .nemo-page blockquote
+) {
+  overflow: hidden;
+}
+
