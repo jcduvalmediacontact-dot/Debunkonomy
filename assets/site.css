@@ -5,16 +5,16 @@
 
 :root {
   /* Couleurs */
-  --ink-deep:    #0D2E31;
-  --ink:         #1C5A60;
-  --teal:        #4A8B92;
-  --mint:        #A8EAEA;
-  --mint-soft:   #C9F0EE;
+  --ink-deep:    var(--color-deep);
+  --ink:         var(--color-dark);
+  --teal:        var(--color-teal);
+  --mint:        var(--mint);
+  --mint-soft:   var(--color-grey);
   --cream:       #cad1d4;
   --cream-deep:  #cbd4d6;
   --sand:        #c5cbd1;
-  --rust:        #40ccb5;
-  --ochre:       #8faebb;
+  --rust:        var(--color-duck);
+  --ochre:       var(--color-teal);
 
   /* Largeurs */
   --maxw: 1360px;
