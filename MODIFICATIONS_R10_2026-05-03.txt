@@ -1,0 +1,33 @@
+R10 — 2026-05-03 — Restructuration NEMO IMS + correction mentions légales
+
+Mentions légales — hébergeur
+- Netlify, Inc. → GitHub, Inc. (88 Colin P. Kelly Jr. Street, pages.github.com)
+
+Page NEMO IMS — restructuration de la cohérence
+
+  4 séparateurs de chapitres
+  La page passe de 14 sections sans hiérarchie visible à 4 parties clairement
+  délimitées par des séparateurs visuels pleine-largeur (fond sombre, numéro
+  en Fraunces italic oversized, label uppercase + titre) :
+    Partie I  — Pourquoi le système actuel détruit le vivant
+               (avant #diagnostic)
+    Partie II — Comment NEMO IMS fonctionne
+               (avant #cycle)
+    Partie III — L'architecture institutionnelle
+               (avant #trois-piliers)
+    Partie IV — Questions, objections et réponses
+               (avant #clarifier)
+
+  Indicateur de chapitre sticky
+  Pastille fixe en bas à droite : apparaît au scroll, affiche "Partie X — Nom"
+  du chapitre courant. Disparaît avant le Partie I (intro libre).
+  Implémentation JS légère (IntersectionObserver via getBoundingClientRect,
+  passive scroll listener).
+
+  Temps de lecture
+  "◷ Lecture complète : environ 12 minutes" dans le hero, sous le lede.
+
+  Typo corrigée
+  "indépendament" → "indépendamment" (dans la section nœud gordien, citation).
+
+Cache CSS → ?v=20260503-r10 sur la page nemo-ims/index.html.

@@ -21,8 +21,8 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
-<link href="/assets/theme.css?v=20260503-r9" rel="stylesheet"/>
-<link href="/assets/site.css?v=20260503-r9" rel="stylesheet"/>
+<link href="/assets/theme.css?v=20260503-r10" rel="stylesheet"/>
+<link href="/assets/site.css?v=20260503-r10" rel="stylesheet"/>
 <link href="/assets/nemo.css" rel="stylesheet"/>
 
 <link rel="canonical" href="https://debunkonomy.org/nemo-ims/">
@@ -57,6 +57,8 @@
 <meta name="twitter:image" content="https://debunkonomy.org/assets/banner.png">
 </head>
 <body class="nemo-page">
+<div class="chapter-tracker" id="chapter-tracker"><div class="chapter-tracker__dot"></div><span class="chapter-tracker__text"><span class="chapter-tracker__label"></span> <span class="chapter-tracker__name"></span></span></div>
+
 <nav class="inav">
 <a class="inav__brand" href="/"><img alt="Debunk'Onomy" src="/assets/logo-tree.png"/><span>Debunk’Onomy</span></a>
 <div class="inav__links">
@@ -76,6 +78,7 @@
 <h1 class="nemo-hero__acronym">NEMO <em>IMS</em></h1>
 <p class="nemo-hero__expand">Negentropic Money — International Monetary System</p>
 <p class="nemo-hero__lede">Un cadre monétaire international où la création de monnaie n'est plus indexée sur la <em>dette</em>, mais sur la <em>régénération mesurable du vivant</em> — sols, forêts, eaux, cycles biogéochimiques, communs.</p>
+<p class="nemo-hero__read-time">Lecture complète : environ 12 minutes</p>
 </div>
 </section>
 <!-- Navigation interne NEMO -->
@@ -139,6 +142,15 @@
 </div>
 </section>
 <!-- DIAGNOSTIC -->
+<div class="chapter-sep" aria-hidden="true">
+  <div class="chapter-sep__inner">
+    <span class="chapter-sep__num">I</span>
+    <div class="chapter-sep__text">
+      <span class="chapter-sep__label">Partie I</span>
+      <span class="chapter-sep__title">Pourquoi le système actuel détruit le vivant</span>
+    </div>
+  </div>
+</div>
 <section class="nemo-section nemo-section--cream" id="diagnostic">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Le diagnostic</div>
@@ -194,7 +206,7 @@
 <p>NEMO IMS vise à financer la régénération sans devoir d’abord détruire avec le marché pour réparer ensuite avec l’impôt.</p>
 </article>
 </div>
-<blockquote class="nemo-side-quote"> Les activités régénératives doivent être financées indépendament de la fiscalité ou de la dette.</blockquote>
+<blockquote class="nemo-side-quote"> Les activités régénératives doivent être financées indépendamment de la fiscalité ou de la dette.</blockquote>
 </div>
 </section>
 <!-- CROISSANCE VERTE -->
@@ -210,6 +222,15 @@
 </div>
 </section>
 <!-- CYCLE NEMO GREEN DTS -->
+<div class="chapter-sep" aria-hidden="true">
+  <div class="chapter-sep__inner">
+    <span class="chapter-sep__num">II</span>
+    <div class="chapter-sep__text">
+      <span class="chapter-sep__label">Partie II</span>
+      <span class="chapter-sep__title">Comment NEMO IMS fonctionne</span>
+    </div>
+  </div>
+</div>
 <section class="nemo-section nemo-section--ink" id="cycle">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--mint">Le mécanisme</div>
@@ -272,6 +293,15 @@
 </div>
 </section>
 <!-- TROIS PILIERS -->
+<div class="chapter-sep" aria-hidden="true">
+  <div class="chapter-sep__inner">
+    <span class="chapter-sep__num">III</span>
+    <div class="chapter-sep__text">
+      <span class="chapter-sep__label">Partie III</span>
+      <span class="chapter-sep__title">L'architecture institutionnelle</span>
+    </div>
+  </div>
+</div>
 <section class="nemo-section nemo-section--cream" id="trois-piliers">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Économie de la robustesse</div>
@@ -369,6 +399,15 @@
 </div>
 </section>
 <!-- CE QUE NEMO EST / N'EST PAS -->
+<div class="chapter-sep" aria-hidden="true">
+  <div class="chapter-sep__inner">
+    <span class="chapter-sep__num">IV</span>
+    <div class="chapter-sep__text">
+      <span class="chapter-sep__label">Partie IV</span>
+      <span class="chapter-sep__title">Questions, objections et réponses</span>
+    </div>
+  </div>
+</div>
 <section class="nemo-section nemo-section--cream" id="clarifier">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Clarifier</div>
@@ -444,5 +483,45 @@
 </div>
 <div class="footer__bottom"><span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
 </footer>
+
+<script>
+// Indicateur de chapitre sticky
+(function(){
+  var chapters = [
+    { id: 'diagnostic',     label: 'Partie I',   name: 'Le Problème' },
+    { id: 'cycle',          label: 'Partie II',  name: 'Le Mécanisme' },
+    { id: 'trois-piliers',  label: 'Partie III', name: "L'Architecture" },
+    { id: 'clarifier',      label: 'Partie IV',  name: 'Questions & Réponses' }
+  ];
+  var tracker = document.getElementById('chapter-tracker');
+  if (!tracker) return;
+  var tLabel = tracker.querySelector('.chapter-tracker__label');
+  var tName  = tracker.querySelector('.chapter-tracker__name');
+  var current = null;
+
+  function update() {
+    var scrollY = window.scrollY + window.innerHeight * 0.4;
+    var active = null;
+    for (var i = chapters.length - 1; i >= 0; i--) {
+      var el = document.getElementById(chapters[i].id);
+      if (el && el.getBoundingClientRect().top + window.scrollY <= scrollY) {
+        active = chapters[i]; break;
+      }
+    }
+    if (active && active !== current) {
+      current = active;
+      tLabel.textContent = active.label + ' —';
+      tName.textContent  = active.name;
+      tracker.classList.add('visible');
+    } else if (!active && current) {
+      current = null;
+      tracker.classList.remove('visible');
+    }
+  }
+  window.addEventListener('scroll', update, {passive:true});
+  update();
+})();
+</script>
+
 </body>
 </html>
