@@ -1,3 +1,4 @@
+/* theme.css — R7 2026-05-03 */
 /* ============================================================
    DEBUNK'ONOMY — THEME GLOBAL UNIFIÉ
    Palette maîtresse inspirée de NEMO IMS.
@@ -623,6 +624,53 @@ blockquote,
 .gaia-quote {
   border-radius: 0 !important;
   margin: 0 !important;
+}
+
+/* Fenêtre Gaïa : sur fond sombre, on veut une carte blanche avec élévation
+   et non un blockquote générique. On surcharge ici les règles globales. */
+.gaia-quote__text {
+  background: #ffffff !important;
+  color: var(--color-deep) !important;
+  border-left: none !important;
+  border-radius: 28px !important;
+  box-shadow:
+    0 24px 80px rgba(0, 0, 0, 0.45),
+    0 6px 20px rgba(0, 0, 0, 0.22),
+    0 0 0 1px rgba(255, 255, 255, 0.08) !important;
+  padding: 56px 68px !important;
+  margin: 0 auto !important;
+  max-width: 900px !important;
+  display: block !important;
+  position: relative !important;
+}
+
+/* Guillemets décoratifs plus imposants dans la Gaïa */
+.gaia-quote__mark {
+  color: var(--color-duck) !important;
+  font-size: 1.15em !important;
+  opacity: 1 !important;
+  font-style: normal !important;
+}
+
+/* "Epigraphe :" → on le rend discret et uppercase au-dessus */
+.gaia-quote__preamble {
+  display: block !important;
+  font-family: var(--ff-sans) !important;
+  font-size: 10px !important;
+  letter-spacing: 0.35em !important;
+  text-transform: uppercase !important;
+  color: var(--color-duck) !important;
+  opacity: 0.75 !important;
+  margin-bottom: 20px !important;
+  font-style: normal !important;
+  font-variation-settings: normal !important;
+}
+
+/* Attribution sous la boîte blanche */
+.gaia-quote__context {
+  color: var(--mint) !important;
+  opacity: 0.65 !important;
+  margin-top: 48px !important;
 }
 
 /* Fenêtres blanches / encarts éditoriaux : citation Gaïa, blockquotes,

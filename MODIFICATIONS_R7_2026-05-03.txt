@@ -25,3 +25,28 @@ Bug 4 — og:locale absent des pages /ar/
   dans toutes les pages arabes.
 
 Note : aucune modification éditoriale, aucun contenu retouché.
+
+─────────────────────────────────────────────
+Corrections design (ajoutées après première livraison R7)
+
+Bug 5 — Blockquotes illisibles dans /nemo-ims/entretien-fondateur/
+- Cause : theme.css force blockquote { background: #ffffff !important }
+  globalement, sans exception pour les pages à fond sombre.
+  Résultat : boîte blanche avec texte couleur `--mint-soft` = #d9dfdd
+  quasiment invisible sur fond blanc.
+- Fix : ajout de !important sur les règles inline de la page entretien-fondateur
+  pour surcharger le global (background teinté mint, texte --mint lisible,
+  bordure gauche accentuée, font-family display italic).
+
+Bug 6 — Citation Gaïa visuellement plate (index.html)
+- Cause : le blockquote .gaia-quote__text reçoit lui aussi
+  background: #ffffff !important mais sans ombre ni relief.
+  Le rendu était une boîte blanche plane sur fond sombre, sans présence.
+- Fix dans theme.css : ajout de règles spécifiques à .gaia-quote__text :
+  · box-shadow triple (élévation forte : 0 24px 80px + 0 6px 20px + ring)
+  · padding généreux (56px 68px)
+  · guillemets .gaia-quote__mark : couleur duck, opacité 100%
+  · preamble "Épigraphe :" : reformaté en capsule uppercase discrète
+  · attribution .gaia-quote__context : teinte mint visible
+
+Cache CSS mis à jour vers ?v=20260503-r7 sur l'ensemble des 189 pages HTML.
