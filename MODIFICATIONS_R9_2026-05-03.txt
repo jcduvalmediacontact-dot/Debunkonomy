@@ -1,0 +1,48 @@
+R9 — 2026-05-03 — Optimisations UX, SEO et partage
+
+Date du livre
+- "Avril 2026" → "Juin 2026" sur les 6 occurrences contextuelles :
+  livre/index.html (eyebrow, og:description, datePublished JSON-LD),
+  index.html (section livre <dd>, JSON-LD Book datePublished 2026-06-01),
+  a-propos/index.html (paragraphe de présentation du livre).
+- Les dates de publication des articles (avril 2026 dans les en-têtes)
+  et les références scientifiques ("Avril 2026 : sept limites franchies")
+  sont conservées intactes.
+
+Twitter/X Card (191 pages)
+- Ajout de twitter:card, twitter:site (@DebunkOnomy), twitter:title,
+  twitter:description et twitter:image sur toutes les pages HTML.
+- Impact : vignette large image et titre corrects sur X / Twitter.
+
+Barre de progression de lecture (15 articles)
+- Fine barre gradient teal/mint en position fixed top:0 sur tous les
+  articles FR et l'entretien fondateur.
+- Mise à jour fluide au scroll (passive listener, transition 0.1s).
+
+Boutons de partage (15 articles)
+- Section "Partager" insérée avant le footer de chaque article :
+  LinkedIn (share-offsite URL), X/Twitter (intent/tweet avec @DebunkOnomy),
+  et bouton "Copier le lien" avec feedback visuel (navigator.clipboard).
+
+Sommaire ancré — Entretien fondateur
+- Navigation <nav class="toc-nav"> générée depuis les 20 balises id="q1"…"q20"
+  déjà présentes dans le HTML.
+- Affichage en 2 colonnes responsive, inséré après l'introduction.
+- Active les Google Sitelinks dès que la page ranque sur son nom.
+
+Articles connexes "À lire aussi" (15 articles)
+- Section 3 cartes générée depuis articles.json, priorité aux articles
+  de même catégorie, complétion avec les plus récents.
+- Cartes avec hover animation, catégorie, titre, temps de lecture.
+
+BreadcrumbList schema (15 articles)
+- Injection JSON-LD BreadcrumbList : Debunk'Onomy → Articles → [Titre].
+- Requis pour l'affichage du fil d'Ariane dans les résultats Google.
+
+Page 404 personnalisée (404.html)
+- Page branded au design Debunk'Onomy : fond sombre dégradé, grand "404"
+  en Fraunces italic transparent, message légèrement humoristique, 4 boutons
+  de navigation vers les sections clés.
+- Compatible GitHub Pages (fichier 404.html à la racine).
+
+Cache CSS → ?v=20260503-r9 sur 191 fichiers HTML.

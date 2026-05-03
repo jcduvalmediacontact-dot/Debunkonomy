@@ -20,8 +20,8 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
 <!-- CSS -->
-<link href="/assets/theme.css?v=20260503-r7" rel="stylesheet"/>
-<link href="/assets/site.css?v=20260503-r7" rel="stylesheet"/>
+<link href="/assets/theme.css?v=20260503-r9" rel="stylesheet"/>
+<link href="/assets/site.css?v=20260503-r9" rel="stylesheet"/>
 <link href="/assets/article.css" rel="stylesheet"/>
 <meta content="Jean-Christophe Duval" property="article:author"/><link href="https://debunkonomy.org/pt/articles/o-que-e-um-sistema-monetario-internacional/" hreflang="pt" rel="alternate"/><link href="https://debunkonomy.org/de/articles/was-ist-ein-internationales-waehrungssystem/" hreflang="de" rel="alternate"/><link href="https://debunkonomy.org/it/articles/che-cos-e-un-sistema-monetario-internazionale/" hreflang="it" rel="alternate"/>
 <link href="https://debunkonomy.org/ar/articles/what-is-an-international-monetary-system/" hreflang="ar" rel="alternate"/><script type="application/ld+json">
@@ -48,8 +48,148 @@
 }
 </script>
 <link rel="alternate" type="application/rss+xml" title="Debunk'Onomy — Publications" href="/feed.xml">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@DebunkOnomy">
+<meta name="twitter:title" content="Debunk'Onomy">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://debunkonomy.org/assets/banner.png">
+<style>
+/* ── Articles connexes ── */
+.related-articles {
+  margin: 0 0 48px;
+  padding: 40px 0 0;
+  border-top: 1px solid rgba(28,90,96,0.12);
+}
+.related-articles__title {
+  font-family: var(--ff-sans, sans-serif);
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--teal, #4A8B92);
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.related-card {
+  display: block;
+  padding: 20px 22px;
+  border: 1px solid rgba(28,90,96,0.14);
+  border-radius: 14px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color .2s, box-shadow .2s, transform .15s;
+  background: var(--cream, #f0ece9);
+}
+.related-card:hover {
+  border-color: var(--teal, #4A8B92);
+  box-shadow: 0 4px 16px rgba(28,90,96,0.1);
+  transform: translateY(-2px);
+}
+.related-card__cat {
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--teal, #4A8B92);
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-family: var(--ff-sans, sans-serif);
+}
+.related-card__title {
+  font-family: var(--ff-serif, serif);
+  font-size: 16px;
+  line-height: 1.4;
+  color: var(--ink-deep, #0D2E31);
+  margin-bottom: 8px;
+}
+.related-card__read {
+  font-size: 12px;
+  color: var(--teal, #4A8B92);
+  font-family: var(--ff-sans, sans-serif);
+}
+
+/* ── Barre de progression de lecture ── */
+#read-progress {
+  position: fixed;
+  top: 0; left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal, #4A8B92), var(--mint, #A8EAEA));
+  z-index: 9999;
+  transition: width 0.1s linear;
+  pointer-events: none;
+}
+/* ── Boutons de partage ── */
+.share-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 48px 0 32px;
+  padding: 24px 0;
+  border-top: 1px solid rgba(28,90,96,0.12);
+  flex-wrap: wrap;
+}
+.share-bar__label {
+  font-family: var(--ff-sans, sans-serif);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--teal, #4A8B92);
+  font-weight: 600;
+  margin-right: 4px;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-family: var(--ff-sans, sans-serif);
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity .18s, transform .15s;
+  cursor: pointer;
+  border: none;
+}
+.share-btn:hover { opacity: .82; transform: translateY(-1px); }
+.share-btn--linkedin { background: #0A66C2; color: #fff; }
+.share-btn--x        { background: #000; color: #fff; }
+.share-btn--copy     { background: var(--cream-deep,#eee); color: var(--ink-deep,#0D2E31); }
+.share-btn--copy.copied { background: #d4edda; color: #155724; }
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Debunk'Onomy",
+      "item": "https://debunkonomy.org/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Articles",
+      "item": "https://debunkonomy.org/articles/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Qu'est-ce qu'un système monétaire international ?",
+      "item": "https://debunkonomy.org/articles/auteur/SMI/"
+    }
+  ]
+}
+</script>
 </head>
 <body>
+<div id="read-progress"></div>
 <!-- Navigation complète -->
 <nav class="inav">
 <a class="inav__brand" href="/"><img alt="Debunk'Onomy" src="/assets/logo-tree.png"/><span>Debunk’Onomy</span></a>
@@ -124,6 +264,38 @@
 <p class="article__signature">Jean-Christophe Duval</p></div>
 </article>
 <!-- Footer article (call to action) -->
+<div class="related-articles">
+  <p class="related-articles__title">À lire aussi</p>
+  <div class="related-grid">
+  <a class="related-card" href="/articles/auteur/SMI-4/">
+    <div class="related-card__cat">Système monétaire international</div>
+    <div class="related-card__title">NEMO IMS : Quel système monétaire international pour le futur ?</div>
+    <div class="related-card__read">23 min →</div>
+  </a>
+  <a class="related-card" href="/articles/auteur/SMI-3/">
+    <div class="related-card__cat">Système monétaire international</div>
+    <div class="related-card__title">Histoire des crises monétaires internationales</div>
+    <div class="related-card__read">28 min →</div>
+  </a>
+  <a class="related-card" href="/articles/auteur/SMI-2/">
+    <div class="related-card__cat">Système monétaire international</div>
+    <div class="related-card__title">Les dilemmes structurels du système monétaire international</div>
+    <div class="related-card__read">18 min →</div>
+  </a>
+  </div>
+</div>
+<div class="share-bar">
+  <span class="share-bar__label">Partager</span>
+  <a class="share-btn share-btn--linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdebunkonomy.org%2Farticles%2Fauteur%2FSMI%2F" target="_blank" rel="noopener">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+    LinkedIn
+  </a>
+  <a class="share-btn share-btn--x" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fdebunkonomy.org%2Farticles%2Fauteur%2FSMI%2F&text=Qu%27est-ce%20qu%27un%20syst%C3%A8me%20mon%C3%A9taire%20international%20%3F&via=DebunkOnomy" target="_blank" rel="noopener">
+    <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    X / Twitter
+  </a>
+  <button class="share-btn share-btn--copy">🔗 Copier le lien</button>
+</div>
 <section class="article-footer">
 <div class="article-footer__inner">
 <div class="article-footer__divider"></div>
@@ -144,5 +316,30 @@
 </div>
 <div class="footer__bottom"><span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
 </footer>
+
+<script>
+(function(){
+  var bar = document.getElementById('read-progress');
+  if (!bar) return;
+  function update(){
+    var d = document.documentElement;
+    var pct = (d.scrollTop || document.body.scrollTop) / ((d.scrollHeight - d.clientHeight) || 1) * 100;
+    bar.style.width = Math.min(pct,100) + '%';
+  }
+  window.addEventListener('scroll', update, {passive:true});
+  update();
+})();
+// Copier le lien
+document.querySelectorAll('.share-btn--copy').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    navigator.clipboard.writeText(window.location.href).then(function(){
+      btn.textContent = '✓ Lien copié';
+      btn.classList.add('copied');
+      setTimeout(function(){ btn.textContent = '🔗 Copier le lien'; btn.classList.remove('copied'); }, 2000);
+    });
+  });
+});
+</script>
+
 </body>
 </html>

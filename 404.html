@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page introuvable — Debunk'Onomy</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+<meta name="theme-color" content="#1C5A60">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/theme.css">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+:root {
+  --ink-deep:#0D2E31;--ink:#1C5A60;--teal:#4A8B92;--mint:#A8EAEA;
+  --cream:#f0ece9;--ff-display:"Fraunces","Times New Roman",serif;
+  --ff-sans:"Instrument Sans",-apple-system,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  font-family:var(--ff-sans);
+  background:linear-gradient(160deg,#0A2528 0%,var(--ink-deep) 60%,#081F22 100%);
+  color:var(--mint);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  min-height:100vh;text-align:center;padding:40px 24px;
+}
+.e404__code {
+  font-family:var(--ff-display);
+  font-size:clamp(80px,18vw,180px);
+  font-weight:300;
+  line-height:1;
+  color:rgba(168,234,234,0.12);
+  letter-spacing:-0.04em;
+  margin-bottom:8px;
+  font-style:italic;
+}
+.e404__title {
+  font-family:var(--ff-display);
+  font-style:italic;
+  font-size:clamp(22px,4vw,36px);
+  font-weight:350;
+  color:var(--mint);
+  margin-bottom:18px;
+}
+.e404__text {
+  font-size:16px;
+  line-height:1.65;
+  color:rgba(168,234,234,0.65);
+  max-width:440px;
+  margin:0 auto 40px;
+}
+.e404__links {
+  display:flex;gap:14px;flex-wrap:wrap;justify-content:center;
+}
+.e404__btn {
+  display:inline-block;
+  padding:11px 22px;
+  border-radius:999px;
+  font-family:var(--ff-sans);
+  font-size:13px;
+  font-weight:500;
+  text-decoration:none;
+  transition:opacity .2s,transform .15s;
+}
+.e404__btn:hover{opacity:.82;transform:translateY(-1px);}
+.e404__btn--solid{background:var(--teal);color:#fff;}
+.e404__btn--ghost{border:1px solid rgba(168,234,234,0.4);color:var(--mint);}
+.e404__logo {
+  position:absolute;top:28px;left:40px;
+  display:flex;align-items:center;gap:10px;
+  text-decoration:none;color:var(--mint);
+  font-size:14px;font-weight:500;opacity:.7;
+}
+.e404__logo img{height:36px;width:auto;}
+</style>
+</head>
+<body>
+<a class="e404__logo" href="/">
+  <img src="/assets/logo-tree.png" alt="Debunk'Onomy">
+  Debunk'Onomy
+</a>
+<div class="e404__code">404</div>
+<h1 class="e404__title">Cette page n'existe pas — ou plus.</h1>
+<p class="e404__text">
+  Peut-être un lien obsolète, une URL mal copiée, ou un article en cours de rédaction.
+  La monnaie dette, elle, sait toujours où elle va. Pas toujours nos URLs.
+</p>
+<div class="e404__links">
+  <a class="e404__btn e404__btn--solid" href="/">← Accueil</a>
+  <a class="e404__btn e404__btn--ghost" href="/articles/">Articles</a>
+  <a class="e404__btn e404__btn--ghost" href="/nemo-ims/">NEMO IMS</a>
+  <a class="e404__btn e404__btn--ghost" href="/commencer-ici/">Commencer ici</a>
+</div>
+</body>
+</html>
