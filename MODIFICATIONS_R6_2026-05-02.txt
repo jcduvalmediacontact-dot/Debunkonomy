@@ -1,0 +1,20 @@
+R6 — 2026-05-02
+
+Corrections visuelles
+- Correction ciblée : la couverture du livre ne reçoit plus d'arrondi CSS.
+- Les sélecteurs corrigés sont limités à .book__cover, .book__cover img, .book-hero__cover et .book-hero__cover img.
+- Les encarts/citations restent arrondis, notamment la fenêtre blanche de la citation Gaïa.
+- Suppression d'effet collatéral : pas de règle globale sur les vignettes ni les images.
+- Cache CSS passé à ?v=20260502-r6 sur les pages HTML.
+
+Traductions arabes
+- Ajout des 12 pages articles arabes manquantes.
+- Conservation des 2 traductions arabes déjà présentes.
+- Mise à jour de /ar/articles/ avec 14 cartes articles.
+- Mise à jour des liens hreflang="ar" dans les pages sœurs FR/EN/ES/PT/DE/IT.
+- Mise à jour des menus de langue vers les URLs arabes spécifiques.
+- Copie des assets nécessaires aux articles arabes avec figure : triangle de Mundell et NEMO Exchange Standard.
+- Mise à jour du sitemap.xml avec les URLs arabes d'articles.
+
+Note
+- Les 12 nouvelles traductions arabes sont une première passe éditoriale exploitable, non une relecture native définitive.

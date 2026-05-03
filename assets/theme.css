@@ -695,3 +695,19 @@ blockquote,
   }
 }
 /* === FIN R5 ARRONDIS PRÉCIS DES ENCARTS DE CITATION === */
+
+
+/* === 2026-05-02 — R6 CORRECTION COUVERTURE LIVRE ===
+   Les arrondis demandés concernent les encarts/citations, pas les couvertures
+   du livre. On neutralise donc précisément les coins arrondis sur la couverture
+   en page d’accueil et sur la page Livre, sans toucher aux fenêtres blanches. */
+.book__cover,
+.book__cover img,
+.book-hero__cover,
+.book-hero__cover img {
+  border-radius: 0 !important;
+}
+.book__cover {
+  overflow: visible !important;
+}
+/* === FIN R6 CORRECTION COUVERTURE LIVRE === */
