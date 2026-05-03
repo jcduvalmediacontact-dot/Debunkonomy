@@ -88,7 +88,8 @@
   font-size: 56px;
   font-weight: 200;
   line-height: 1;
-  color: rgba(168,234,234,0.12);
+  color: rgba(126,234,226,0.34);
+  text-shadow: 0 0 18px rgba(126,234,226,0.08);
   letter-spacing: -0.04em;
   flex-shrink: 0;
   width: 64px;
@@ -135,6 +136,128 @@
   .chapter-sep__inner { padding: 20px; gap: 14px; }
   .chapter-sep__num { font-size: 40px; width: 48px; }
   .chapter-sep__title { font-size: 15px; }
+}
+</style>
+
+<style>
+/* ── R14 : harmonisation claire des blocs NEMO IMS ── */
+body.nemo-page #histoire-monnaie,
+body.nemo-page #banque-planete,
+body.nemo-page #macroprudentiel {
+  background: var(--nemo-light, #f2f5f4) !important;
+  color: var(--nemo-text, #17211f) !important;
+}
+
+body.nemo-page #histoire-monnaie .section-eyebrow,
+body.nemo-page #banque-planete .section-eyebrow,
+body.nemo-page #macroprudentiel .section-eyebrow {
+  color: var(--teal, #4A8B92) !important;
+  opacity: 1 !important;
+}
+
+body.nemo-page #histoire-monnaie .section-title,
+body.nemo-page #banque-planete .section-title,
+body.nemo-page #macroprudentiel .section-title,
+body.nemo-page #histoire-monnaie .section-title--mint,
+body.nemo-page #banque-planete .section-title--mint,
+body.nemo-page #macroprudentiel .section-title--mint {
+  color: var(--ink-deep, #0D2E31) !important;
+}
+
+body.nemo-page #histoire-monnaie .section-title em,
+body.nemo-page #banque-planete .section-title em,
+body.nemo-page #macroprudentiel .section-title em,
+body.nemo-page #histoire-monnaie .section-title--mint em,
+body.nemo-page #banque-planete .section-title--mint em,
+body.nemo-page #macroprudentiel .section-title--mint em {
+  color: var(--teal, #4A8B92) !important;
+}
+
+body.nemo-page #histoire-monnaie .section-lede,
+body.nemo-page #banque-planete .section-lede,
+body.nemo-page #macroprudentiel .section-lede,
+body.nemo-page #histoire-monnaie .section-lede--mint,
+body.nemo-page #banque-planete .section-lede--mint,
+body.nemo-page #macroprudentiel .section-lede--mint {
+  color: var(--ink, #1C5A60) !important;
+}
+
+body.nemo-page #histoire-monnaie .nemo-side-quote,
+body.nemo-page #banque-planete .nemo-side-quote,
+body.nemo-page #macroprudentiel .nemo-side-quote,
+body.nemo-page #histoire-monnaie .nemo-manifesto-quote,
+body.nemo-page #banque-planete .nemo-manifesto-quote,
+body.nemo-page #macroprudentiel .nemo-manifesto-quote,
+body.nemo-page #histoire-monnaie .nemo-global-callout,
+body.nemo-page #banque-planete .nemo-global-callout,
+body.nemo-page #macroprudentiel .nemo-global-callout,
+body.nemo-page #histoire-monnaie .nemo-insight-box,
+body.nemo-page #banque-planete .nemo-insight-box,
+body.nemo-page #macroprudentiel .nemo-insight-box,
+body.nemo-page #histoire-monnaie .nemo-cycle__step,
+body.nemo-page #banque-planete .nemo-cycle__step,
+body.nemo-page #macroprudentiel .nemo-cycle__step,
+body.nemo-page #histoire-monnaie .nemo-stability-grid > div,
+body.nemo-page #banque-planete .nemo-stability-grid > div,
+body.nemo-page #macroprudentiel .nemo-stability-grid > div,
+body.nemo-page #histoire-monnaie .nemo-institution-card,
+body.nemo-page #banque-planete .nemo-institution-card,
+body.nemo-page #macroprudentiel .nemo-institution-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(20, 82, 70, 0.16) !important;
+  color: var(--nemo-text, #17211f) !important;
+  box-shadow: 0 18px 45px rgba(6, 31, 26, 0.10) !important;
+}
+
+body.nemo-page #histoire-monnaie .nemo-side-quote,
+body.nemo-page #banque-planete .nemo-side-quote,
+body.nemo-page #macroprudentiel .nemo-side-quote,
+body.nemo-page #histoire-monnaie .nemo-manifesto-quote,
+body.nemo-page #banque-planete .nemo-manifesto-quote,
+body.nemo-page #macroprudentiel .nemo-manifesto-quote {
+  color: var(--ink-deep, #0D2E31) !important;
+}
+
+body.nemo-page #histoire-monnaie .nemo-global-callout p,
+body.nemo-page #banque-planete .nemo-global-callout p,
+body.nemo-page #macroprudentiel .nemo-global-callout p,
+body.nemo-page #histoire-monnaie .nemo-insight-box p,
+body.nemo-page #banque-planete .nemo-insight-box p,
+body.nemo-page #macroprudentiel .nemo-insight-box p,
+body.nemo-page #histoire-monnaie .nemo-cycle__step p,
+body.nemo-page #banque-planete .nemo-cycle__step p,
+body.nemo-page #macroprudentiel .nemo-cycle__step p,
+body.nemo-page #histoire-monnaie .nemo-stability-grid p,
+body.nemo-page #banque-planete .nemo-stability-grid p,
+body.nemo-page #macroprudentiel .nemo-stability-grid p,
+body.nemo-page #histoire-monnaie .nemo-institution-card p,
+body.nemo-page #banque-planete .nemo-institution-card p,
+body.nemo-page #macroprudentiel .nemo-institution-card p,
+body.nemo-page #histoire-monnaie .nemo-institution-card li,
+body.nemo-page #banque-planete .nemo-institution-card li,
+body.nemo-page #macroprudentiel .nemo-institution-card li {
+  color: var(--nemo-slate, #2f3a38) !important;
+}
+
+body.nemo-page #histoire-monnaie .nemo-cycle__step h3,
+body.nemo-page #banque-planete .nemo-cycle__step h3,
+body.nemo-page #macroprudentiel .nemo-cycle__step h3,
+body.nemo-page #histoire-monnaie .nemo-stability-grid h3,
+body.nemo-page #banque-planete .nemo-stability-grid h3,
+body.nemo-page #macroprudentiel .nemo-stability-grid h3,
+body.nemo-page #histoire-monnaie .nemo-institution-card h3,
+body.nemo-page #banque-planete .nemo-institution-card h3,
+body.nemo-page #macroprudentiel .nemo-institution-card h3 {
+  color: var(--ink-deep, #0D2E31) !important;
+}
+
+body.nemo-page #histoire-monnaie .nemo-cycle__step::before,
+body.nemo-page #banque-planete .nemo-cycle__step::before,
+body.nemo-page #macroprudentiel .nemo-cycle__step::before,
+body.nemo-page #histoire-monnaie .nemo-institution-card__kicker,
+body.nemo-page #banque-planete .nemo-institution-card__kicker,
+body.nemo-page #macroprudentiel .nemo-institution-card__kicker {
+  color: var(--teal, #4A8B92) !important;
 }
 </style>
 </head>
