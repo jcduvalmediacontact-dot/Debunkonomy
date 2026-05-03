@@ -21,8 +21,8 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
-<link href="/assets/theme.css?v=20260503-r10" rel="stylesheet"/>
-<link href="/assets/site.css?v=20260503-r10" rel="stylesheet"/>
+<link href="/assets/theme.css?v=20260503-r11" rel="stylesheet"/>
+<link href="/assets/site.css?v=20260503-r11" rel="stylesheet"/>
 <link href="/assets/nemo.css" rel="stylesheet"/>
 
 <link rel="canonical" href="https://debunkonomy.org/nemo-ims/">
@@ -55,8 +55,92 @@
 <meta name="twitter:title" content="NEMO IMS — Negentropic Money International Monetary System">
 <meta name="twitter:description" content="Une refondation systémique du système monétaire international, adossée à la régénération du vivant plutôt qu'à l'expansion de la dette.">
 <meta name="twitter:image" content="https://debunkonomy.org/assets/banner.png">
+<style>
+/* ── Restructuration R11 ── */
+.nemo-hero__read-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 16px 0 24px;
+  font-family: var(--ff-sans, sans-serif);
+  font-size: 12px;
+  color: rgba(168,234,234,0.5);
+  letter-spacing: 0.06em;
+}
+.chapter-sep {
+  background: var(--ink-deep, #0D2E31);
+  margin: 0;
+  padding: 0;
+}
+.chapter-sep__inner {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 28px 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-top: 1px solid rgba(168,234,234,0.10);
+}
+.chapter-sep__num {
+  font-family: var(--ff-display, "Fraunces", serif);
+  font-style: italic;
+  font-size: 56px;
+  font-weight: 200;
+  line-height: 1;
+  color: rgba(168,234,234,0.12);
+  letter-spacing: -0.04em;
+  flex-shrink: 0;
+  width: 64px;
+}
+.chapter-sep__text { display: flex; flex-direction: column; gap: 3px; }
+.chapter-sep__label {
+  font-family: var(--ff-sans, sans-serif);
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--teal, #4A8B92);
+  font-weight: 600;
+}
+.chapter-sep__title {
+  font-family: var(--ff-display, "Fraunces", serif);
+  font-size: clamp(16px, 2vw, 22px);
+  font-weight: 350;
+  color: var(--mint, #A8EAEA);
+  font-style: italic;
+  line-height: 1.2;
+}
+/* Tracker sticky */
+.chapter-tracker {
+  position: fixed; bottom: 24px; right: 24px;
+  background: rgba(13,46,49,0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(168,234,234,0.18);
+  border-radius: 999px;
+  padding: 8px 16px 8px 12px;
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--ff-sans, sans-serif);
+  font-size: 12px; color: var(--mint, #A8EAEA);
+  z-index: 888; opacity: 0; transform: translateY(8px);
+  transition: opacity .3s, transform .3s; pointer-events: none;
+}
+.chapter-tracker.visible { opacity: 1; transform: translateY(0); }
+.chapter-tracker__dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--teal, #4A8B92); flex-shrink: 0;
+}
+.chapter-tracker__text { color: rgba(168,234,234,0.75); }
+.chapter-tracker__name { color: var(--mint, #A8EAEA); font-weight: 500; }
+@media (max-width: 600px) {
+  .chapter-sep__inner { padding: 20px; gap: 14px; }
+  .chapter-sep__num { font-size: 40px; width: 48px; }
+  .chapter-sep__title { font-size: 15px; }
+}
+</style>
 </head>
 <body class="nemo-page">
+<div class="chapter-tracker" id="chapter-tracker"><div class="chapter-tracker__dot"></div><span class="chapter-tracker__text"><span class="chapter-tracker__label"></span> <span class="chapter-tracker__name"></span></span></div>
+
 <div class="chapter-tracker" id="chapter-tracker"><div class="chapter-tracker__dot"></div><span class="chapter-tracker__text"><span class="chapter-tracker__label"></span> <span class="chapter-tracker__name"></span></span></div>
 
 <nav class="inav">
@@ -85,16 +169,17 @@
 <nav aria-label="Parcours NEMO IMS" class="nemo-path">
 <div class="nemo-path__inner">
 <a href="#definition">Définition</a>
-<a href="#diagnostic">Diagnostic</a>
-<a href="#cycle">Cycle monétaire</a>
-<a href="#yin-yang">Finance Yin/Yang</a>
-<a href="#trois-piliers">Robustesse</a>
+<a href="#diagnostic">I · Problème</a>
+<a href="#cycle">II · Mécanisme</a>
+<a href="#trois-piliers">III · Architecture</a>
 <a href="#institutions">Institutions</a>
+<a href="#clarifier">IV · Réponses</a>
 <a href="/nemo-ims/entretien-fondateur/">Entretien</a>
-<a href="#objections">FAQ</a>
+<a href="/nemo-ims/faq/">FAQ</a>
 </div>
 </nav>
 <!-- NEMO CORE SUMMARY -->
+
 <section class="nemo-section nemo-section--cream nemo-primer" id="definition">
 <div class="nemo-section__inner nemo-section__inner--narrow">
 <div class="section-eyebrow section-eyebrow--cream">NEMO IMS en une phrase</div>
@@ -108,7 +193,6 @@
 </div>
 </div>
 </section>
-<!-- NAVIGATION CARTES -->
 <section class="nemo-section nemo-section--cream nemo-gateways" id="approfondir">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Approfondir</div>
@@ -141,19 +225,19 @@
 </div>
 </div>
 </section>
-<!-- DIAGNOSTIC -->
+
 <div class="chapter-sep" aria-hidden="true">
   <div class="chapter-sep__inner">
     <span class="chapter-sep__num">I</span>
     <div class="chapter-sep__text">
       <span class="chapter-sep__label">Partie I</span>
-      <span class="chapter-sep__title">Pourquoi le système actuel détruit le vivant</span>
+      <span class="chapter-sep__title">Pourquoi le système monétaire actuel détruit le vivant</span>
     </div>
   </div>
 </div>
 <section class="nemo-section nemo-section--cream" id="diagnostic">
 <div class="nemo-section__inner">
-<div class="section-eyebrow section-eyebrow--cream">Le diagnostic</div>
+<div class="section-eyebrow section-eyebrow--cream">I · Le diagnostic</div>
 <h2 class="section-title">Le problème n’est pas seulement économique. <em>Il est monétaire</em>.</h2>
 <p class="section-lede">Le système actuel ne détruit pas le vivant par accident. Il le fait par conception : la monnaie naît principalement du crédit, donc d’une dette, et cette dette impose aux acteurs économiques une contrainte de rentabilité, de croissance et de solvabilité permanente.</p>
 <div class="nemo-flow-compare">
@@ -186,8 +270,7 @@
 </div>
 </div>
 </section>
-<!-- IMPOT DETTE -->
-<section class="nemo-section nemo-section--cream-deep" id="impot-dette">
+<section class="nemo-section nemo-section--cream" id="impot-dette">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Le nœud gordien</div>
 <h2 class="section-title">Pourquoi financer les activités régénératives par l’impôt et la dette <em>est un non-sens ?</em>.</h2>
@@ -209,7 +292,6 @@
 <blockquote class="nemo-side-quote"> Les activités régénératives doivent être financées indépendamment de la fiscalité ou de la dette.</blockquote>
 </div>
 </section>
-<!-- CROISSANCE VERTE -->
 <section class="nemo-section nemo-section--cream" id="croissance-verte">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Décroissance sélective</div>
@@ -221,7 +303,17 @@
 </div>
 </div>
 </section>
-<!-- CYCLE NEMO GREEN DTS -->
+<section class="nemo-section nemo-section--cream-deep" id="dilemmes">
+<div class="nemo-section__inner">
+<div class="section-eyebrow section-eyebrow--cream">Dilemmes systémiques</div>
+<h2 class="section-title">Un grand casse-tête où chaque problème <em>verrouille les autres</em>.</h2>
+<p class="section-lede">NEMO IMS ne prétend pas résoudre un seul problème isolé. Il tente de déverrouiller plusieurs contradictions imbriquées : financer la régénération sans dépendre de la destruction, réduire les activités dégénératives sans effondrer le social, sortir de la compétition extractive sans désorganiser les échanges.</p>
+<div class="nemo-dilemma-grid">
+<span>Dette</span><span>Inflation</span><span>Chômage</span><span>Crise du sens</span><span>Dépendance au dollar</span><span>Contrainte extérieure</span><span>Financement des communs</span><span>Commerce extractif</span><span>Transition insolvabilisée</span>
+</div>
+</div>
+</section>
+
 <div class="chapter-sep" aria-hidden="true">
   <div class="chapter-sep__inner">
     <span class="chapter-sep__num">II</span>
@@ -233,7 +325,7 @@
 </div>
 <section class="nemo-section nemo-section--ink" id="cycle">
 <div class="nemo-section__inner">
-<div class="section-eyebrow section-eyebrow--mint">Le mécanisme</div>
+<div class="section-eyebrow section-eyebrow--mint">II · Le mécanisme</div>
 <h2 class="section-title section-title--mint">Le parcours d’un <em>NEMO Green DTS</em>.</h2>
 <p class="section-lede section-lede--mint">NEMO IMS fonctionne comme un cycle : la monnaie apparaît là où le vivant est régénéré, puis disparaît progressivement dans la sphère marchande selon la qualité écologique et sociale des transactions.</p>
 <div class="nemo-cycle">
@@ -246,7 +338,6 @@
 </div>
 </div>
 </section>
-<!-- FONTE -->
 <section class="nemo-section nemo-section--cream" id="fonte">
 <div class="nemo-section__inner nemo-section__inner--narrow">
 <div class="section-eyebrow section-eyebrow--cream">Fonte monétaire</div>
@@ -258,7 +349,6 @@
 </div>
 </div>
 </section>
-<!-- YIN YANG -->
 <section class="nemo-section nemo-section--ink" id="finance-yin-yang">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--mint">Finance Yin / Finance Yang</div>
@@ -292,19 +382,19 @@
 <blockquote class="nemo-side-quote">Une économie sobre n’est pas compatible avec une finance ogre.</blockquote>
 </div>
 </section>
-<!-- TROIS PILIERS -->
+
 <div class="chapter-sep" aria-hidden="true">
   <div class="chapter-sep__inner">
     <span class="chapter-sep__num">III</span>
     <div class="chapter-sep__text">
       <span class="chapter-sep__label">Partie III</span>
-      <span class="chapter-sep__title">L'architecture institutionnelle</span>
+      <span class="chapter-sep__title">L'architecture institutionnelle et la stabilité</span>
     </div>
   </div>
 </div>
 <section class="nemo-section nemo-section--cream" id="trois-piliers">
 <div class="nemo-section__inner">
-<div class="section-eyebrow section-eyebrow--cream">Économie de la robustesse</div>
+<div class="section-eyebrow section-eyebrow--cream">III · Architecture</div>
 <h2 class="section-title">Les trois piliers fondamentaux <em>de la robustesse</em>.</h2>
 <p class="section-lede">La décroissance n’est pas un effondrement subi : elle doit devenir une stratégie de robustesse. Cette stratégie repose sur trois piliers complémentaires.</p>
 <div class="pillars">
@@ -330,7 +420,6 @@
 <blockquote class="nemo-side-quote">Tout ce qui est essentiel n’est pas forcément rentable. Tout ce qui est rentable n’est pas forcément essentiel.</blockquote>
 </div>
 </section>
-<!-- INSTITUTIONS -->
 <section class="nemo-section nemo-section--cream-deep" id="institutions">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Institutions</div>
@@ -362,19 +451,17 @@
 </div>
 </div>
 </section>
-<!-- DILEMMES -->
-<section class="nemo-section nemo-section--cream" id="dilemmes">
-<div class="nemo-section__inner">
-<div class="section-eyebrow section-eyebrow--cream">Dilemmes systémiques</div>
-<h2 class="section-title">Un grand casse-tête où chaque problème <em>verrouille les autres</em>.</h2>
-<p class="section-lede">NEMO IMS ne prétend pas résoudre un seul problème isolé. Il tente de déverrouiller plusieurs contradictions imbriquées : financer la régénération sans dépendre de la destruction, réduire les activités dégénératives sans effondrer le social, sortir de la compétition extractive sans désorganiser les échanges.</p>
-<div class="nemo-dilemma-grid">
-<span>Dette</span><span>Inflation</span><span>Chômage</span><span>Crise du sens</span><span>Dépendance au dollar</span><span>Contrainte extérieure</span><span>Financement des communs</span><span>Commerce extractif</span><span>Transition insolvabilisée</span>
+<section class="nemo-section nemo-section--ink" id="international">
+<div class="nemo-section__inner nemo-section__inner--narrow">
+<div class="section-eyebrow section-eyebrow--mint">Dimension internationale</div>
+<h2 class="section-title section-title--mint">NEMO IMS n’est pas une réforme nationale : <em>c’est une proposition d’architecture monétaire mondiale pour l'organisation de la robustesse</em>.</h2>
+<p class="section-lede section-lede--mint">La crise écologique, la dette, les déséquilibres commerciaux, les devises clés et la compétition extractive ne peuvent pas être résolus pays par pays. NEMO IMS s’adresse aux États, aux banques centrales, aux institutions internationales, aux entreprises, aux territoires, aux chercheurs et aux citoyens qui comprennent que le problème se joue à l’échelle du système.</p>
+<div class="nemo-global-callout">
+<p>Le but n’est pas de remplacer un hégémon monétaire par un autre. Le but est de sortir de la logique même de l’hégémonie monétaire.</p>
 </div>
 </div>
 </section>
-<!-- MACROPRUDENTIEL -->
-<section class="nemo-section nemo-section--cream-deep" id="macroprudentiel">
+<section class="nemo-section nemo-section--cream" id="macroprudentiel">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Stabilité</div>
 <h2 class="section-title">Créer sans dette n’est possible que si l’on sait <em>détruire, orienter et réguler</em>.</h2>
@@ -387,18 +474,7 @@
 </div>
 </div>
 </section>
-<!-- INTERNATIONAL -->
-<section class="nemo-section nemo-section--ink" id="international">
-<div class="nemo-section__inner nemo-section__inner--narrow">
-<div class="section-eyebrow section-eyebrow--mint">Dimension internationale</div>
-<h2 class="section-title section-title--mint">NEMO IMS n’est pas une réforme nationale : <em>c’est une proposition d’architecture monétaire mondiale pour l'organisation de la robustesse</em>.</h2>
-<p class="section-lede section-lede--mint">La crise écologique, la dette, les déséquilibres commerciaux, les devises clés et la compétition extractive ne peuvent pas être résolus pays par pays. NEMO IMS s’adresse aux États, aux banques centrales, aux institutions internationales, aux entreprises, aux territoires, aux chercheurs et aux citoyens qui comprennent que le problème se joue à l’échelle du système.</p>
-<div class="nemo-global-callout">
-<p>Le but n’est pas de remplacer un hégémon monétaire par un autre. Le but est de sortir de la logique même de l’hégémonie monétaire.</p>
-</div>
-</div>
-</section>
-<!-- CE QUE NEMO EST / N'EST PAS -->
+
 <div class="chapter-sep" aria-hidden="true">
   <div class="chapter-sep__inner">
     <span class="chapter-sep__num">IV</span>
@@ -410,7 +486,7 @@
 </div>
 <section class="nemo-section nemo-section--cream" id="clarifier">
 <div class="nemo-section__inner">
-<div class="section-eyebrow section-eyebrow--cream">Clarifier</div>
+<div class="section-eyebrow section-eyebrow--cream">IV · Clarifier</div>
 <h2 class="section-title">Ce que NEMO IMS <em>n’est pas</em> — et ce qu’il est.</h2>
 <div class="nemo-is-grid">
 <div class="nemo-is-card nemo-is-card--no">
@@ -440,7 +516,6 @@
 </div>
 </div>
 </section>
-<!-- OBJECTIONS -->
 <section class="nemo-section nemo-section--cream-deep" id="objections">
 <div class="nemo-section__inner">
 <div class="section-eyebrow section-eyebrow--cream">Objections rapides</div>
@@ -460,7 +535,6 @@
 </div>
 </div>
 </section>
-<!-- CTA livre -->
 <section class="cta-book">
 <div class="cta-book__inner">
 <p class="cta-book__eyebrow">Pour aller plus loin</p>
@@ -474,6 +548,7 @@
 </div>
 </div>
 </section>
+
 <footer class="footer">
 <div class="footer__inner">
 <div class="footer__brand"><img alt="Debunk’Onomy" src="/assets/logo-tree.png"/><p class="footer__brand-text">Debunk’Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
