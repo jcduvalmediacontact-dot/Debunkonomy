@@ -1,0 +1,27 @@
+R7 — 2026-05-03
+
+Corrections techniques automatisées
+
+Bug 1 — Doublon theme.css (150 pages → 0)
+- Suppression du double appel à /assets/theme.css dans le <head>
+  sur l'ensemble des pages de toutes les langues (FR, EN, ES, PT, DE, IT, AR).
+- Les pages FR racine avaient le doublon en bas du <head> (après un bloc <style>).
+- Les pages DE/IT/AR/EN/ES/PT l'avaient en position consécutive à site.css.
+- Impact : économie d'une requête CSS par page view, suppression d'un vecteur
+  de conflit de cascade potentiel.
+
+Bug 2 — Titre homepage arabe redondant
+- Correction de <title>Debunk'Onomy — Debunk'Onomy</title>
+  → <title>Debunk'Onomy — فكّر وتحرّك نحو تراجع النمو</title>
+- Idem pour og:title.
+- Fichier concerné : /ar/index.html uniquement.
+
+Bug 3 — Balises canonical absentes des pages /ar/
+- Ajout de <link rel="canonical" href="https://debunkonomy.org/ar/..."/>
+  dans les 25 pages arabes (index, book, nemo-ims, articles/*, etc.).
+
+Bug 4 — og:locale absent des pages /ar/
+- Ajout de <meta content="ar_AR" property="og:locale"/>
+  dans toutes les pages arabes.
+
+Note : aucune modification éditoriale, aucun contenu retouché.
