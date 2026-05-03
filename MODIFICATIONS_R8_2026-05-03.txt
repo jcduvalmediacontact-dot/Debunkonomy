@@ -1,0 +1,39 @@
+R8 — 2026-05-03 — Optimisations SEO & performance
+
+og:image (190 pages)
+- Ajout de <meta property="og:image"> sur l'ensemble des 190 pages HTML
+  (FR, EN, ES, PT, DE, IT, AR) qui en étaient dépourvues.
+- Pages livre/* → /assets/book-cover.png
+- Toutes les autres pages → /assets/banner.png
+- Ajout simultané de og:image:alt, og:image:width (1200) et og:image:height (630).
+- Impact : vignette image sur tous les partages LinkedIn, Twitter/X, iMessage.
+
+og:url (22 pages)
+- Ajout de og:url dérivé de la balise canonical sur les pages qui en étaient
+  dépourvues, pour cohérence du graph Open Graph.
+
+JSON-LD schema.org (18 pages)
+- Homepage : graph @context avec WebSite + Person (Jean-Christophe Duval) + Book.
+- /livre/ : Book (titre, auteur, éditeur, date, prix, ISBN).
+- /a-propos/ : Person (avec sameAs LinkedIn, Bluesky, Substack).
+- /nemo-ims/ : WebPage (description, auteur, isPartOf WebSite).
+- 14 articles FR : Article (headline, datePublished, description, image, auteur).
+- Impact : rich results Google, meilleure indexation, Knowledge Panel potentiel.
+
+RSS feed (/feed.xml)
+- Génération d'un flux RSS 2.0 complet depuis news.json (16 items).
+- Inclut titre, lien, description, date RFC 822, catégorie type.
+- Balise <atom:link self> conforme au standard Atom.
+- Lien <link rel="alternate" RSS> ajouté dans le <head> des 41 pages FR.
+- Impact : syndication agrégateurs, lecteurs RSS, journalistes, chercheurs.
+
+Alt text (172 pages)
+- Correction de alt="" → alt="Debunk'Onomy" sur tous les logos logo-tree.png
+  dans les navbars et footers (pages toutes langues confondues).
+
+Preload (homepage)
+- Ajout de <link rel="preload" as="image" href="/assets/logo-tree.png">
+  sur la homepage pour accélérer le rendu du logo nav.
+
+Note : font-display=swap était déjà présent dans l'URL Google Fonts — aucune
+modification nécessaire sur ce point.
