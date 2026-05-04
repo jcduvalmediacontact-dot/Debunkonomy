@@ -1,20 +1,20 @@
 {
   "news": [
     {
+      "id": "news-016",
+      "type": "texte",
+      "date": "2026-05-04",
+      "title": "La croissance infinie est impossible",
+      "excerpt": "Pourquoi aucune économie matérielle ne peut croître indéfiniment dans un monde fini : découplage impossible, pics de production, métaux critiques, eau, sable, phosphore, sols et limites planétaires.",
+      "link": "/articles/auteur/croissance-infinie-impossible/"
+    },
+    {
       "id": "news-015",
       "type": "texte",
       "date": "2026-05-02",
       "title": "L’Architecture de l’entropie",
       "excerpt": "De Rome aux systèmes financiers contemporains, les civilisations masquent souvent les coûts réels de leur richesse : travailleurs, écosystèmes, générations futures et système nerveux humain finissent par absorber ce que l’économie appelle efficacité.",
       "link": "/articles/auteur/architecture-entropie-complexite-couts/"
-    },
-    {
-      "id": "news-016",
-      "type": "texte",
-      "date": "2026-05-01",
-      "title": "NEMO IMS : monnaie, écologie et essentiel insolvable",
-      "excerpt": "Vingt questions pour comprendre pourquoi la crise écologique est aussi une crise monétaire, et comment NEMO IMS propose de financer ce que le marché ne sait pas sauver.",
-      "link": "/nemo-ims/entretien-fondateur/"
     },
     {
       "id": "news-014",
