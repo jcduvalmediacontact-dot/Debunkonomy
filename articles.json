@@ -1,6 +1,15 @@
 {
   "auteur": [
     {
+      "id": "croissance-infinie-impossible",
+      "date": "2026-05-04",
+      "title": "La croissance infinie est impossible",
+      "excerpt": "Pourquoi aucune économie matérielle ne peut croître indéfiniment dans un monde fini : découplage impossible, pics de production, métaux critiques, eau, sable, phosphore, sols et limites planétaires.",
+      "link": "/articles/auteur/croissance-infinie-impossible/",
+      "category": "Économie écologique",
+      "readTime": "24 min"
+    },
+    {
       "id": "architecture-entropie-complexite-couts",
       "date": "2026-05-02",
       "title": "L’Architecture de l’entropie",
