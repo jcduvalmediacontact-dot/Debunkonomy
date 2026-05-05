@@ -24,337 +24,7 @@
 <link href="/assets/favicon.ico" rel="icon" type="image/x-icon">
 <link href="/assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="/assets/favicon-180.png" rel="apple-touch-icon" sizes="180x180">
-<meta content="#1C5A60" name="theme-color">
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
-<link href="/assets/site.css?v=20260503-r9" rel="stylesheet"/>
-<link href="/assets/article.css" rel="stylesheet"/><link href="/assets/theme.css?v=20260503-r9" rel="stylesheet"/>
-<style>
-/* ── Sommaire entretien ── */
-.toc-nav {
-  background: rgba(74,139,146,0.07);
-  border: 1px solid rgba(74,139,146,0.20);
-  border-radius: 18px;
-  padding: 28px 32px;
-  margin: 0 0 48px;
-  max-width: 760px;
-}
-.toc-nav__title {
-  font-family: var(--ff-sans,sans-serif);
-  font-size: 11px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--mint,#A8EAEA);
-  font-weight: 600;
-  margin-bottom: 18px;
-  opacity: .85;
-}
-.toc-nav__list {
-  list-style: none;
-  padding: 0; margin: 0;
-  columns: 2;
-  column-gap: 24px;
-}
-@media (max-width: 600px) { .toc-nav__list { columns: 1; } }
-.toc-nav__list li { margin-bottom: 10px; break-inside: avoid; }
-.toc-nav__list a {
-  font-family: var(--ff-sans,sans-serif);
-  font-size: 13px;
-  color: var(--mint,#A8EAEA);
-  text-decoration: none;
-  opacity: .75;
-  transition: opacity .18s;
-  line-height: 1.4;
-  display: block;
-}
-.toc-nav__list a:hover { opacity: 1; text-decoration: underline; }
-.toc-nav__list a strong {
-  display: inline-block;
-  min-width: 28px;
-  color: var(--teal,#4A8B92);
-  font-weight: 700;
-  font-size: 11px;
-}
-
-/* ── Articles connexes ── */
-.related-articles {
-  margin: 0 0 48px;
-  padding: 40px 0 0;
-  border-top: 1px solid rgba(28,90,96,0.12);
-}
-.related-articles__title {
-  font-family: var(--ff-sans, sans-serif);
-  font-size: 11px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--teal, #4A8B92);
-  font-weight: 600;
-  margin-bottom: 24px;
-}
-.related-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 16px;
-}
-.related-card {
-  display: block;
-  padding: 20px 22px;
-  border: 1px solid rgba(28,90,96,0.14);
-  border-radius: 14px;
-  text-decoration: none;
-  color: inherit;
-  transition: border-color .2s, box-shadow .2s, transform .15s;
-  background: var(--cream, #f0ece9);
-}
-.related-card:hover {
-  border-color: var(--teal, #4A8B92);
-  box-shadow: 0 4px 16px rgba(28,90,96,0.1);
-  transform: translateY(-2px);
-}
-.related-card__cat {
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--teal, #4A8B92);
-  font-weight: 600;
-  margin-bottom: 8px;
-  font-family: var(--ff-sans, sans-serif);
-}
-.related-card__title {
-  font-family: var(--ff-serif, serif);
-  font-size: 16px;
-  line-height: 1.4;
-  color: var(--ink-deep, #0D2E31);
-  margin-bottom: 8px;
-}
-.related-card__read {
-  font-size: 12px;
-  color: var(--teal, #4A8B92);
-  font-family: var(--ff-sans, sans-serif);
-}
-
-/* ── Barre de progression de lecture ── */
-#read-progress {
-  position: fixed;
-  top: 0; left: 0;
-  width: 0%;
-  height: 3px;
-  background: linear-gradient(90deg, var(--teal, #4A8B92), var(--mint, #A8EAEA));
-  z-index: 9999;
-  transition: width 0.1s linear;
-  pointer-events: none;
-}
-/* ── Boutons de partage ── */
-.share-bar {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 48px 0 32px;
-  padding: 24px 0;
-  border-top: 1px solid rgba(28,90,96,0.12);
-  flex-wrap: wrap;
-}
-.share-bar__label {
-  font-family: var(--ff-sans, sans-serif);
-  font-size: 12px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--teal, #4A8B92);
-  font-weight: 600;
-  margin-right: 4px;
-}
-.share-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 9px 16px;
-  border-radius: 999px;
-  font-size: 13px;
-  font-family: var(--ff-sans, sans-serif);
-  font-weight: 500;
-  text-decoration: none;
-  transition: opacity .18s, transform .15s;
-  cursor: pointer;
-  border: none;
-}
-.share-btn:hover { opacity: .82; transform: translateY(-1px); }
-.share-btn--linkedin { background: #0A66C2; color: #fff; }
-.share-btn--x        { background: #000; color: #fff; }
-.share-btn--copy     { background: var(--cream-deep,#eee); color: var(--ink-deep,#0D2E31); }
-.share-btn--copy.copied { background: #d4edda; color: #155724; }
-
-  .article--interview {
-    padding-top: 72px;
-  }
-  .article--interview .article__header {
-    margin-bottom: 48px;
-  }
-  .article--interview .article__title {
-    max-width: 980px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .article--interview .article__body {
-    max-width: 920px;
-    font-size: 18px;
-    line-height: 1.75;
-  }
-  .article--interview .article__body > p:first-of-type::first-letter {
-    all: unset;
-  }
-  .article__toc {
-    max-width: 980px;
-    margin: 0 auto 46px;
-    padding: clamp(24px, 4vw, 38px);
-    border: 1px solid rgba(168, 234, 234, 0.22);
-    border-radius: 28px;
-    background:
-      radial-gradient(circle at top left, rgba(159, 216, 212, 0.12), transparent 34%),
-      rgba(6, 31, 26, 0.38);
-    color: var(--cream);
-    position: relative;
-    z-index: 2;
-    box-shadow: 0 28px 90px rgba(0, 0, 0, 0.18);
-    backdrop-filter: blur(10px);
-  }
-  .article__toc h2 {
-    font-family: var(--ff-display);
-    font-size: clamp(24px, 3vw, 34px);
-    color: var(--mint-soft);
-    margin: 0 0 8px;
-  }
-  .article__toc p {
-    font-family: var(--ff-sans);
-    font-size: 14px;
-    color: rgba(242, 245, 244, 0.72);
-    margin: 0 0 22px;
-  }
-  .article__toc ol {
-    columns: 2;
-    column-gap: 38px;
-    margin: 0;
-    padding-left: 22px;
-    font-family: var(--ff-sans);
-    font-size: 14px;
-    line-height: 1.55;
-  }
-  .article__toc li {
-    break-inside: avoid;
-    margin: 0 0 11px;
-    padding-left: 4px;
-  }
-  .article__toc a {
-    color: var(--mint-soft);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
-  .article__toc a:hover {
-    color: var(--mint);
-    border-bottom-color: rgba(168, 234, 234, 0.42);
-  }
-  .interview-intro,
-  .interview-conclusion {
-    max-width: 760px;
-    margin: 0 auto 40px;
-    color: var(--cream);
-  }
-  .interview-intro p,
-  .interview-conclusion p {
-    margin-bottom: 24px;
-  }
-  .interview-qa {
-    scroll-margin-top: 112px;
-    margin: 34px auto;
-    padding: clamp(28px, 4vw, 48px);
-    border: 1px solid rgba(168, 234, 234, 0.22);
-    border-radius: 30px;
-    background:
-      radial-gradient(circle at top right, rgba(159, 216, 212, 0.10), transparent 32%),
-      rgba(6, 31, 26, 0.34);
-    box-shadow: 0 26px 80px rgba(0, 0, 0, 0.16);
-    backdrop-filter: blur(8px);
-  }
-  .interview-qa h2 {
-    margin: 0;
-    color: var(--mint-soft);
-    font-size: clamp(26px, 3vw, 38px);
-    line-height: 1.18;
-  }
-  .interview-qa__label,
-  .interview-answer__label,
-  .interview-conclusion__label {
-    display: block;
-    font-family: var(--ff-sans);
-    font-size: 11px;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--mint);
-    margin-bottom: 14px;
-    opacity: 0.88;
-  }
-  .interview-answer {
-    margin-top: 28px;
-    padding-top: 28px;
-    border-top: 1px solid rgba(168, 234, 234, 0.18);
-  }
-  .interview-answer__label {
-    margin-bottom: 20px;
-  }
-  .interview-answer p,
-  .interview-answer li {
-    color: var(--cream);
-  }
-  .interview-answer blockquote,
-  .interview-conclusion blockquote {
-    margin: 40px 0 !important;
-    padding: 28px 32px 28px 36px !important;
-    border-left: 4px solid var(--mint) !important;
-    border-radius: 0 20px 20px 0 !important;
-    background: rgba(168, 234, 234, 0.10) !important;
-    color: var(--mint) !important;
-    font-size: 20px;
-    line-height: 1.6;
-    font-style: italic;
-    font-family: var(--ff-display);
-    box-shadow: inset 0 0 0 1px rgba(168, 234, 234, 0.12);
-  }
-  .interview-answer blockquote p,
-  .interview-conclusion blockquote p {
-    margin: 0;
-    color: var(--mint) !important;
-    font-style: italic;
-    font-family: var(--ff-display);
-    font-size: 20px;
-    line-height: 1.6;
-  }
-  .interview-conclusion {
-    margin-top: 56px;
-    padding: clamp(28px, 4vw, 48px);
-    border-radius: 30px;
-    background: rgba(159, 216, 212, 0.08);
-    border: 1px solid rgba(168, 234, 234, 0.20);
-  }
-  .interview-conclusion h2 {
-    margin-top: 0;
-  }
-  .article__backlinks {
-    max-width: 760px;
-    margin: 54px auto 0;
-    display: flex;
-    gap: 14px;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    z-index: 2;
-  }
-  @media (max-width: 760px) {
-    .article__toc ol { columns: 1; }
-    .article--interview .article__body { font-size: 17px; }
-    .interview-qa { border-radius: 24px; }
-    .article__toc { border-radius: 24px; }
-  }
-</style><script type="application/ld+json">
+<meta content="#1C5A60" name="theme-color"><script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
@@ -409,18 +79,23 @@
   ]
 }
 </script>
-</meta></link></link></link></meta></meta><link href="https://debunkonomy.org/nemo-ims/entretien-fondateur/" hreflang="fr" rel="alternate"/><link href="https://debunkonomy.org/en/nemo-ims/founder-interview/" hreflang="en" rel="alternate"/><link href="https://debunkonomy.org/es/nemo-ims/founder-interview/" hreflang="es" rel="alternate"/><link href="https://debunkonomy.org/pt/nemo-ims/founder-interview/" hreflang="pt" rel="alternate"/><link href="https://debunkonomy.org/de/nemo-ims/founder-interview/" hreflang="de" rel="alternate"/><link href="https://debunkonomy.org/it/nemo-ims/founder-interview/" hreflang="it" rel="alternate"/><link href="https://debunkonomy.org/ar/nemo-ims/founder-interview/" hreflang="ar" rel="alternate"/><link href="https://debunkonomy.org/nemo-ims/entretien-fondateur/" hreflang="x-default" rel="alternate"/></head>
+</meta></link></link></link></meta></meta><link href="https://debunkonomy.org/nemo-ims/entretien-fondateur/" hreflang="fr" rel="alternate"/><link href="https://debunkonomy.org/en/nemo-ims/founder-interview/" hreflang="en" rel="alternate"/><link href="https://debunkonomy.org/es/nemo-ims/founder-interview/" hreflang="es" rel="alternate"/><link href="https://debunkonomy.org/pt/nemo-ims/founder-interview/" hreflang="pt" rel="alternate"/><link href="https://debunkonomy.org/de/nemo-ims/founder-interview/" hreflang="de" rel="alternate"/><link href="https://debunkonomy.org/it/nemo-ims/founder-interview/" hreflang="it" rel="alternate"/><link href="https://debunkonomy.org/ar/nemo-ims/founder-interview/" hreflang="ar" rel="alternate"/><link href="https://debunkonomy.org/nemo-ims/entretien-fondateur/" hreflang="x-default" rel="alternate"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/debunkonomy.css">
+</head>
 <body>
 <div id="read-progress"></div>
-<nav class="inav">
-<a class="inav__brand" href="/"><img alt="Debunk'Onomy" src="/assets/logo-tree.png"/><span>Debunk'Onomy</span></a>
-<div class="inav__links">
+<nav class="nav" id="nav">
+<a class="nav__brand" href="/"><img alt="Debunk'Onomy" src="/assets/logo-vignette.png"/><span>Debunk'Onomy</span></a>
+<div class="nav__links">
 <a href="/commencer-ici/">Commencer ici</a>
 <a class="current" href="/nemo-ims/">NEMO IMS</a>
 <a href="/articles/">Articles</a>
 <a href="/medias/">Médias</a>
 <a href="/livre/">Livre</a>
-<a class="inav__cta" href="/newsletter/">Newsletter</a>
+<a class="nav__cta" href="/newsletter/">Newsletter</a>
 <details class="lang-switch"><summary class="lang-switch__current">FR</summary><div class="lang-switch__menu"><a href="/nemo-ims/entretien-fondateur/"><span>Français</span><strong>FR</strong></a><a href="/en/nemo-ims/founder-interview/"><span>English</span><strong>EN</strong></a><a href="/es/nemo-ims/founder-interview/"><span>Español</span><strong>ES</strong></a><a href="/pt/nemo-ims/founder-interview/"><span>Português</span><strong>PT</strong></a><a href="/de/nemo-ims/founder-interview/"><span>Deutsch</span><strong>DE</strong></a><a href="/it/nemo-ims/founder-interview/"><span>Italiano</span><strong>IT</strong></a><a href="/ar/nemo-ims/founder-interview/"><span>العربية</span><strong>AR</strong></a></div></details></div>
 </nav>
 <article class="article article--interview">
@@ -536,7 +211,7 @@
 </section>
 <footer class="footer">
 <div class="footer__inner">
-<div class="footer__brand"><img alt="Debunk'Onomy" src="/assets/logo-tree.png"/><p class="footer__brand-text">Debunk'Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
+<div class="footer__brand"><img alt="Debunk'Onomy" src="/assets/logo-vignette.png"/><p class="footer__brand-text">Debunk'Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
 <div class="footer__col"><h4>Explorer</h4><ul><li><a href="/commencer-ici/">Commencer ici</a></li><li><a href="/nemo-ims/">NEMO IMS</a></li><li><a href="/nemo-ims/entretien-fondateur/">Entretien fondateur</a></li><li><a href="/nemo-ims/faq/">FAQ NEMO IMS</a></li><li><a href="/nemo-ims/glossaire/">Glossaire</a></li><li><a href="/livre/">Le livre</a></li></ul></div>
 <div class="footer__col"><h4>Suivre</h4><ul><li><a href="/newsletter/">Newsletter</a></li><li><a href="https://jeanchristopheduval.substack.com/" rel="noopener" target="_blank">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" rel="noopener" target="_blank">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" rel="noopener" target="_blank">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" rel="noopener" target="_blank">Bluesky</a></li></ul></div>
 <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Mentions légales</a></li></ul></div>
@@ -565,6 +240,31 @@ document.querySelectorAll('.share-btn--copy').forEach(function(btn){
     });
   });
 });
+</script>
+<script>
+(function(){
+  var nav = document.getElementById('nav');
+  if (!nav) return;
+  function onScroll(){
+    if (window.scrollY > 40) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+})();
+</script>
+<script>
+(function(){
+  var bar = document.getElementById('read-progress');
+  if (!bar) return;
+  function updateProgress(){
+    var s = document.documentElement.scrollTop || document.body.scrollTop;
+    var h = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    bar.style.width = (h > 0 ? (s / h * 100) : 0) + '%';
+  }
+  window.addEventListener('scroll', updateProgress, { passive: true });
+  updateProgress();
+})();
 </script>
 </body>
 </html>

@@ -17,14 +17,7 @@
 <link href="/assets/favicon.ico" rel="icon" type="image/x-icon"/>
 <link href="/assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
 <link href="/assets/favicon-180.png" rel="apple-touch-icon" sizes="180x180"/>
-<meta content="#061f1a" name="theme-color">
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&amp;family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet"/>
-<link href="/assets/theme.css?v=20260503-r11" rel="stylesheet"/>
-<link href="/assets/site.css?v=20260503-r11" rel="stylesheet"/>
-<link href="/assets/nemo.css" rel="stylesheet"/>
-<link href="https://debunkonomy.org/en/nemo-ims/" rel="canonical"/>
+<meta content="#061f1a" name="theme-color"><link href="https://debunkonomy.org/en/nemo-ims/" rel="canonical"/>
 <link href="https://debunkonomy.org/nemo-ims/" hreflang="fr" rel="alternate"/>
 <link href="https://debunkonomy.org/en/nemo-ims/" hreflang="en" rel="alternate"/>
 <link href="https://debunkonomy.org/es/nemo-ims/" hreflang="es" rel="alternate"/>
@@ -52,328 +45,26 @@
 <meta content="NEMO IMS — The 10 chapters of The Economy of Equilibrium" name="twitter:title"/>
 <meta content="A clear synthesis of NEMO IMS in ten blocks inspired by The Economy of Equilibrium: create money as it regenerates, withdraw it as it degrades." name="twitter:description"/>
 <meta content="https://debunkonomy.org/assets/banner.png" name="twitter:image"/>
-<style>
-/* ── Restructuration R11 ── */
-.nemo-hero__read-time {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin: 16px 0 24px;
-  font-family: var(--ff-sans, sans-serif);
-  font-size: 12px;
-  color: rgba(168,234,234,0.5);
-  letter-spacing: 0.06em;
-}
-.chapter-sep {
-  background: var(--ink-deep, #0D2E31);
-  margin: 0;
-  padding: 0;
-}
-.chapter-sep__inner {
-  width: 100%;
-  max-width: 1360px;
-  margin: 0 auto;
-  padding: 28px 40px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  border-top: 1px solid rgba(168,234,234,0.10);
-}
-.chapter-sep__num {
-  font-family: var(--ff-display, "Fraunces", serif);
-  font-style: italic;
-  font-size: 56px;
-  font-weight: 200;
-  line-height: 1;
-  color: rgba(126,234,226,0.34);
-  text-shadow: 0 0 18px rgba(126,234,226,0.08);
-  letter-spacing: -0.04em;
-  flex-shrink: 0;
-  width: 64px;
-}
-.chapter-sep__text { display: flex; flex-direction: column; gap: 3px; }
-.chapter-sep__label {
-  font-family: var(--ff-sans, sans-serif);
-  font-size: 10px;
-  letter-spacing: 0.28em;
-  text-transform: uppercase;
-  color: var(--teal, #4A8B92);
-  font-weight: 600;
-}
-.chapter-sep__title {
-  font-family: var(--ff-display, "Fraunces", serif);
-  font-size: clamp(16px, 2vw, 22px);
-  font-weight: 350;
-  color: var(--mint, #A8EAEA);
-  font-style: italic;
-  line-height: 1.2;
-}
-/* Tracker sticky */
-.chapter-tracker {
-  position: fixed; bottom: 24px; right: 24px;
-  background: rgba(13,46,49,0.92);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(168,234,234,0.18);
-  border-radius: 999px;
-  padding: 8px 16px 8px 12px;
-  display: flex; align-items: center; gap: 8px;
-  font-family: var(--ff-sans, sans-serif);
-  font-size: 12px; color: var(--mint, #A8EAEA);
-  z-index: 888; opacity: 0; transform: translateY(8px);
-  transition: opacity .3s, transform .3s; pointer-events: none;
-}
-.chapter-tracker.visible { opacity: 1; transform: translateY(0); }
-.chapter-tracker__dot {
-  width: 6px; height: 6px; border-radius: 50%;
-  background: var(--teal, #4A8B92); flex-shrink: 0;
-}
-.chapter-tracker__text { color: rgba(168,234,234,0.75); }
-.chapter-tracker__name { color: var(--mint, #A8EAEA); font-weight: 500; }
-@media (max-width: 600px) {
-  .chapter-sep__inner { padding: 20px; gap: 14px; }
-  .chapter-sep__num { font-size: 40px; width: 48px; }
-  .chapter-sep__title { font-size: 15px; }
-}
-</style>
-<style>
-/* ── R14 : harmonisation claire des blocs NEMO IMS ── */
-body.nemo-page #histoire-monnaie,
-body.nemo-page #banque-planete,
-body.nemo-page #macroprudentiel {
-  background: var(--nemo-light, #f2f5f4) !important;
-  color: var(--nemo-text, #17211f) !important;
-}
 
-body.nemo-page #histoire-monnaie .section-eyebrow,
-body.nemo-page #banque-planete .section-eyebrow,
-body.nemo-page #macroprudentiel .section-eyebrow {
-  color: var(--teal, #4A8B92) !important;
-  opacity: 1 !important;
-}
 
-body.nemo-page #histoire-monnaie .section-title,
-body.nemo-page #banque-planete .section-title,
-body.nemo-page #macroprudentiel .section-title,
-body.nemo-page #histoire-monnaie .section-title--mint,
-body.nemo-page #banque-planete .section-title--mint,
-body.nemo-page #macroprudentiel .section-title--mint {
-  color: var(--ink-deep, #0D2E31) !important;
-}
 
-body.nemo-page #histoire-monnaie .section-title em,
-body.nemo-page #banque-planete .section-title em,
-body.nemo-page #macroprudentiel .section-title em,
-body.nemo-page #histoire-monnaie .section-title--mint em,
-body.nemo-page #banque-planete .section-title--mint em,
-body.nemo-page #macroprudentiel .section-title--mint em {
-  color: var(--teal, #4A8B92) !important;
-}
-
-body.nemo-page #histoire-monnaie .section-lede,
-body.nemo-page #banque-planete .section-lede,
-body.nemo-page #macroprudentiel .section-lede,
-body.nemo-page #histoire-monnaie .section-lede--mint,
-body.nemo-page #banque-planete .section-lede--mint,
-body.nemo-page #macroprudentiel .section-lede--mint {
-  color: var(--ink, #1C5A60) !important;
-}
-
-body.nemo-page #histoire-monnaie .nemo-side-quote,
-body.nemo-page #banque-planete .nemo-side-quote,
-body.nemo-page #macroprudentiel .nemo-side-quote,
-body.nemo-page #histoire-monnaie .nemo-manifesto-quote,
-body.nemo-page #banque-planete .nemo-manifesto-quote,
-body.nemo-page #macroprudentiel .nemo-manifesto-quote,
-body.nemo-page #histoire-monnaie .nemo-global-callout,
-body.nemo-page #banque-planete .nemo-global-callout,
-body.nemo-page #macroprudentiel .nemo-global-callout,
-body.nemo-page #histoire-monnaie .nemo-insight-box,
-body.nemo-page #banque-planete .nemo-insight-box,
-body.nemo-page #macroprudentiel .nemo-insight-box,
-body.nemo-page #histoire-monnaie .nemo-cycle__step,
-body.nemo-page #banque-planete .nemo-cycle__step,
-body.nemo-page #macroprudentiel .nemo-cycle__step,
-body.nemo-page #histoire-monnaie .nemo-stability-grid > div,
-body.nemo-page #banque-planete .nemo-stability-grid > div,
-body.nemo-page #macroprudentiel .nemo-stability-grid > div,
-body.nemo-page #histoire-monnaie .nemo-institution-card,
-body.nemo-page #banque-planete .nemo-institution-card,
-body.nemo-page #macroprudentiel .nemo-institution-card {
-  background: #ffffff !important;
-  border: 1px solid rgba(20, 82, 70, 0.16) !important;
-  color: var(--nemo-text, #17211f) !important;
-  box-shadow: 0 18px 45px rgba(6, 31, 26, 0.10) !important;
-}
-
-body.nemo-page #histoire-monnaie .nemo-side-quote,
-body.nemo-page #banque-planete .nemo-side-quote,
-body.nemo-page #macroprudentiel .nemo-side-quote,
-body.nemo-page #histoire-monnaie .nemo-manifesto-quote,
-body.nemo-page #banque-planete .nemo-manifesto-quote,
-body.nemo-page #macroprudentiel .nemo-manifesto-quote {
-  color: var(--ink-deep, #0D2E31) !important;
-}
-
-body.nemo-page #histoire-monnaie .nemo-global-callout p,
-body.nemo-page #banque-planete .nemo-global-callout p,
-body.nemo-page #macroprudentiel .nemo-global-callout p,
-body.nemo-page #histoire-monnaie .nemo-insight-box p,
-body.nemo-page #banque-planete .nemo-insight-box p,
-body.nemo-page #macroprudentiel .nemo-insight-box p,
-body.nemo-page #histoire-monnaie .nemo-cycle__step p,
-body.nemo-page #banque-planete .nemo-cycle__step p,
-body.nemo-page #macroprudentiel .nemo-cycle__step p,
-body.nemo-page #histoire-monnaie .nemo-stability-grid p,
-body.nemo-page #banque-planete .nemo-stability-grid p,
-body.nemo-page #macroprudentiel .nemo-stability-grid p,
-body.nemo-page #histoire-monnaie .nemo-institution-card p,
-body.nemo-page #banque-planete .nemo-institution-card p,
-body.nemo-page #macroprudentiel .nemo-institution-card p,
-body.nemo-page #histoire-monnaie .nemo-institution-card li,
-body.nemo-page #banque-planete .nemo-institution-card li,
-body.nemo-page #macroprudentiel .nemo-institution-card li {
-  color: var(--nemo-slate, #2f3a38) !important;
-}
-
-body.nemo-page #histoire-monnaie .nemo-cycle__step h3,
-body.nemo-page #banque-planete .nemo-cycle__step h3,
-body.nemo-page #macroprudentiel .nemo-cycle__step h3,
-body.nemo-page #histoire-monnaie .nemo-stability-grid h3,
-body.nemo-page #banque-planete .nemo-stability-grid h3,
-body.nemo-page #macroprudentiel .nemo-stability-grid h3,
-body.nemo-page #histoire-monnaie .nemo-institution-card h3,
-body.nemo-page #banque-planete .nemo-institution-card h3,
-body.nemo-page #macroprudentiel .nemo-institution-card h3 {
-  color: var(--ink-deep, #0D2E31) !important;
-}
-
-body.nemo-page #histoire-monnaie .nemo-cycle__step::before,
-body.nemo-page #banque-planete .nemo-cycle__step::before,
-body.nemo-page #macroprudentiel .nemo-cycle__step::before,
-body.nemo-page #histoire-monnaie .nemo-institution-card__kicker,
-body.nemo-page #banque-planete .nemo-institution-card__kicker,
-body.nemo-page #macroprudentiel .nemo-institution-card__kicker {
-  color: var(--teal, #4A8B92) !important;
-}
-</style>
-<style>
-/* R15 — accords doctrinaux uniques NEMO IMS */
-.nemo-doctrine-card {
-  max-width: 980px;
-  margin: 0 auto;
-}
-.nemo-doctrine-card .section-title {
-  max-width: 1040px;
-  margin-bottom: 26px;
-}
-.nemo-doctrine-card .section-lede {
-  max-width: 920px;
-  margin-bottom: 34px;
-}
-.nemo-accordion {
-  border: 1px solid rgba(20, 82, 70, 0.16);
-  background: rgba(255,255,255,.36);
-  border-radius: var(--radius-lg, 28px);
-  box-shadow: 0 18px 45px rgba(6, 31, 26, 0.08);
-  overflow: hidden;
-}
-.nemo-section--ink .nemo-accordion {
-  background: #ffffff;
-  color: var(--nemo-text, #17211f);
-  border-color: rgba(20, 82, 70, 0.16);
-}
-.nemo-accordion summary {
-  list-style: none;
-  cursor: pointer;
-  padding: 24px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  font-family: var(--ff-sans);
-  font-size: 12px;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: var(--teal, #4A8B92);
-  font-weight: 700;
-}
-.nemo-accordion summary::-webkit-details-marker { display: none; }
-.nemo-accordion__icon {
-  display: inline-grid;
-  place-items: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 999px;
-  border: 1px solid rgba(20, 82, 70, .22);
-  color: var(--ink-deep, #0D2E31);
-  font-size: 18px;
-  line-height: 1;
-  transition: transform .25s ease;
-  flex: 0 0 auto;
-}
-.nemo-accordion[open] .nemo-accordion__icon { transform: rotate(45deg); }
-.nemo-accordion__content {
-  padding: 0 30px 34px;
-  max-width: 860px;
-}
-.nemo-accordion__content p {
-  font-family: var(--ff-display);
-  font-size: clamp(17px, 1.35vw, 20px);
-  line-height: 1.72;
-  color: var(--ink, #1C5A60);
-  margin: 0 0 22px;
-}
-.nemo-section--ink .nemo-accordion__content p,
-.nemo-section--ink .nemo-accordion summary {
-  color: var(--ink, #1C5A60) !important;
-}
-.nemo-accordion__content p:first-child {
-  font-family: var(--ff-serif);
-  font-style: italic;
-  font-size: clamp(22px, 2vw, 30px);
-  line-height: 1.3;
-  color: var(--ink-deep, #0D2E31) !important;
-  margin-top: 8px;
-  margin-bottom: 28px;
-}
-.nemo-figure {
-  margin: 34px 0;
-  padding: 18px;
-  background: rgba(242,245,244,.82);
-  border: 1px solid rgba(20,82,70,.14);
-  border-radius: var(--radius-lg, 28px);
-  box-shadow: 0 18px 45px rgba(6,31,26,.08);
-}
-.nemo-figure img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: calc(var(--radius-lg, 28px) - 8px);
-}
-.nemo-figure figcaption {
-  margin-top: 14px;
-  font-family: var(--ff-sans);
-  font-size: 12px;
-  line-height: 1.5;
-  color: var(--nemo-muted, #6d7a77);
-}
-@media (max-width: 760px) {
-  .nemo-accordion summary { padding: 20px 22px; }
-  .nemo-accordion__content { padding: 0 22px 28px; }
-}
-</style>
-</meta></head>
+</meta>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/debunkonomy.css">
+</head>
 <body class="nemo-page">
 <div class="chapter-tracker" id="chapter-tracker"><div class="chapter-tracker__dot"></div><span class="chapter-tracker__text"><span class="chapter-tracker__label"></span> <span class="chapter-tracker__name"></span></span></div>
-<nav class="inav">
-<a class="inav__brand" href="/"><img alt="Debunk'Onomy" src="/assets/logo-tree.png"/><span>Debunk’Onomy</span></a>
-<div class="inav__links">
+<nav class="nav" id="nav">
+<a class="nav__brand" href="/"><img alt="Debunk'Onomy" src="/assets/logo-vignette.png"/><span>Debunk’Onomy</span></a>
+<div class="nav__links">
 <a href="/en/start-here/">Start here</a>
 <a class="current" href="/en/nemo-ims/">NEMO IMS</a>
 <a href="/en/articles/">Articles</a>
 <a href="/en/media/">Media</a>
 <a href="/en/book/">Book</a>
-<a class="inav__cta" href="/en/newsletter/">Newsletter</a>
+<a class="nav__cta" href="/en/newsletter/">Newsletter</a>
 <details class="lang-switch"><summary class="lang-switch__current">EN</summary><div class="lang-switch__menu"><a href="/nemo-ims/"><span>Français</span><strong>FR</strong></a><a href="/en/nemo-ims/"><span>English</span><strong>EN</strong></a><a href="/es/nemo-ims/"><span>Español</span><strong>ES</strong></a><a href="/pt/nemo-ims/"><span>Português</span><strong>PT</strong></a><a href="/de/nemo-ims/"><span>Deutsch</span><strong>DE</strong></a><a href="/it/nemo-ims/"><span>Italiano</span><strong>IT</strong></a><a href="/ar/nemo-ims/"><span>العربية</span><strong>AR</strong></a></div></details>
 </div>
 </nav>
@@ -737,7 +428,7 @@ body.nemo-page #macroprudentiel .nemo-institution-card__kicker {
 </section>
 <footer class="footer">
 <div class="footer__inner">
-<div class="footer__brand"><img alt="Debunk’Onomy" src="/assets/logo-tree.png"/><p class="footer__brand-text">Debunk’Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
+<div class="footer__brand"><img alt="Debunk’Onomy" src="/assets/logo-vignette.png"/><p class="footer__brand-text">Debunk’Onomy — le hub éditorial de NEMO IMS : monnaie, finance, limites planétaires et robustesse sociale.</p></div>
 <div class="footer__col"><h4>Explorer</h4><ul><li><a href="/en/start-here/">Start here</a></li><li><a href="/en/nemo-ims/">NEMO IMS</a></li><li><a href="/en/nemo-ims/founder-interview/">Founding interview</a></li><li><a href="/en/nemo-ims/faq/">FAQ NEMO IMS</a></li><li><a href="/en/nemo-ims/glossary/">Glossary</a></li><li><a href="/en/book/">The book</a></li></ul></div>
 <div class="footer__col"><h4>Suivre</h4><ul><li><a href="/newsletter/">Newsletter</a></li><li><a href="https://jeanchristopheduval.substack.com/" rel="noopener" target="_blank">Substack</a></li><li><a href="https://www.youtube.com/@Jean-ChristopheDuval" rel="noopener" target="_blank">YouTube</a></li><li><a href="https://www.linkedin.com/in/jean-christophe-duval-4ab27110b/" rel="noopener" target="_blank">LinkedIn</a></li><li><a href="https://bsky.app/profile/jc-duval-nemo-ims.bsky.social" rel="noopener" target="_blank">Bluesky</a></li></ul></div>
 <div class="footer__col"><h4>Contact</h4><ul><li><a href="mailto:contact@debunkonomy.org">contact@debunkonomy.org</a></li><li><a href="/a-propos/">À propos</a></li><li><a href="/contact/">Presse &amp; contact</a></li><li><a href="/mentions-legales/">Legal notice</a></li></ul></div>
@@ -787,6 +478,18 @@ body.nemo-page #macroprudentiel .nemo-institution-card__kicker {
   }
   window.addEventListener('scroll', update, {passive:true});
   update();
+})();
+</script>
+<script>
+(function(){
+  var nav = document.getElementById('nav');
+  if (!nav) return;
+  function onScroll(){
+    if (window.scrollY > 40) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
 })();
 </script>
 </body>
