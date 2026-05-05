@@ -1,6 +1,14 @@
 {
   "news": [
     {
+      "id": "news-017",
+      "type": "texte",
+      "date": "2026-05-05",
+      "title": "La destruction comme doctrine",
+      "excerpt": "Pourquoi l’obsolescence programmée n’est pas un simple scandale industriel, mais le symptôme d’un système économique qui transforme la durée en ennemi du profit.",
+      "link": "/articles/auteur/obsolescence-programmee-financiarisation-temps-vole/"
+    },
+    {
       "id": "news-016",
       "type": "texte",
       "date": "2026-05-04",

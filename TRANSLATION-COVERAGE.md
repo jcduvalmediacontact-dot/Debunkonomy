@@ -53,3 +53,18 @@ Procéder par lots : 3 articles × 4 langues par passe, avec vérification humai
 ## Mise à jour 2026-05-02 — allemand
 
 Première passe allemande ajoutée pour les 12 articles qui manquaient encore, avec pages dédiées sous `/de/articles/` et index allemand mis à jour. Une relecture native reste recommandée avant campagne presse internationale.
+
+## Mise à jour 2026-05-05 — obsolescence programmée
+
+Nouvel article intégré et traduit dans les 7 langues du site : **La destruction comme doctrine : obsolescence programmée, financiarisation et le temps volé**.
+
+Pages créées :
+- FR : `/articles/auteur/obsolescence-programmee-financiarisation-temps-vole/`
+- EN : `/en/articles/planned-obsolescence-financialization-stolen-time/`
+- ES : `/es/articles/obsolescencia-programada-financiarizacion-tiempo-robado/`
+- PT : `/pt/articles/obsolescencia-programada-financeirizacao-tempo-roubado/`
+- DE : `/de/articles/geplante-obsoleszenz-finanzialisierung-gestohlene-zeit/`
+- IT : `/it/articles/obsolescenza-programmata-finanziarizzazione-tempo-rubato/`
+- AR : `/ar/articles/planned-obsolescence-financialization-stolen-time/`
+
+Fichiers mis à jour : `articles.json`, `news.json`, `feed.xml`, `sitemap.xml` et index `/articles/` + index linguistiques.
