@@ -2437,8 +2437,88 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 }
 .mentions-page p { font-size: 16px; line-height: 1.72; color: var(--ink); margin-bottom: 1.2em; }
 .mentions-page a { color: var(--teal); text-decoration: underline; }
-.ml-body { background: var(--cream); padding: var(--section-pad) 40px; }
-.ml-body p { font-size: 16px; line-height: 1.72; color: var(--ink); }
+/* ---- Mentions légales ---- */
+.ml-hero {
+  background:
+    radial-gradient(ellipse at 30% 100%, rgba(74,139,146,0.14) 0%, transparent 50%),
+    linear-gradient(160deg, var(--ink-deep) 0%, var(--ink) 100%);
+  padding: 100px 40px 72px;
+  color: var(--mint);
+  position: relative;
+  overflow: hidden;
+}
+.ml-hero::after {
+  content: "";
+  position: absolute; inset: 0;
+  background-image: var(--grain);
+  opacity: 0.38; mix-blend-mode: overlay; pointer-events: none;
+}
+.ml-hero__inner {
+  max-width: var(--readw);
+  margin: 0 auto;
+  position: relative; z-index: 2;
+}
+.ml-hero__eyebrow {
+  font-size: 10px; letter-spacing: 0.30em; text-transform: uppercase;
+  color: var(--mint); opacity: 0.55; margin-bottom: 20px;
+  display: flex; align-items: center; gap: 12px;
+}
+.ml-hero__eyebrow::before {
+  content: ""; width: 30px; height: 1px;
+  background: var(--mint); opacity: 0.5;
+}
+.ml-hero__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 96, "SOFT" 35;
+  font-weight: 380;
+  font-size: clamp(40px, 5vw, 66px);
+  line-height: 1.0; letter-spacing: -0.03em;
+  color: var(--mint); margin-bottom: 20px;
+}
+.ml-hero__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 96, "SOFT" 100, "WONK" 1;
+  color: var(--mint-soft);
+}
+.ml-hero__updated {
+  font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--mint); opacity: 0.38;
+}
+/* Corps mentions légales */
+.ml-body {
+  background: var(--cream);
+  padding: 80px 40px 100px;
+}
+.ml-body__inner {
+  max-width: var(--readw);
+  margin: 0 auto;
+}
+.ml-body h2 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 48, "SOFT" 45;
+  font-weight: 500;
+  font-size: clamp(18px, 2vw, 24px);
+  line-height: 1.2; letter-spacing: -0.015em;
+  color: var(--ink-deep);
+  margin-top: 48px; margin-bottom: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(74,139,146,0.15);
+}
+.ml-body h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+.ml-body p {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 16, "SOFT" 55;
+  font-size: 16px; line-height: 1.78;
+  color: var(--ink); margin-bottom: 1em;
+}
+.ml-body strong { color: var(--ink-deep); font-weight: 600; }
+.ml-body em { font-style: italic; color: var(--ink); }
+.ml-body a { color: var(--teal); text-decoration: underline; transition: opacity 0.2s; }
+.ml-body a:hover { opacity: 0.7; }
+@media (max-width: 768px) {
+  .ml-hero { padding: 80px 24px 56px; }
+  .ml-body { padding: 56px 24px 80px; }
+}
 
 /* ----------------------------------------------------------------
    30. CHAPITRE SÉPARATEUR (NEMO IMS)
@@ -2709,8 +2789,29 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   margin-bottom: 20px; font-style: italic;
 }
 .article--interview .article__toc ol {
-  columns: 2; column-gap: 40px;
-  margin-left: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 0;
+  margin-left: 0;
+  list-style: none;
+  counter-reset: toc-counter;
+}
+.article--interview .article__toc li {
+  counter-increment: toc-counter;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.article--interview .article__toc li::before {
+  content: counter(toc-counter, decimal-leading-zero);
+  font-family: var(--ff-sans);
+  font-size: 10px; font-weight: 700;
+  color: var(--teal); opacity: 0.6;
+  flex-shrink: 0;
+  min-width: 22px;
+  letter-spacing: 0.05em;
 }
 .article--interview .article__toc li {
   margin-bottom: 8px;
@@ -3013,7 +3114,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 /* ---- Responsive interview ---- */
 @media (max-width: 768px) {
   .article--interview .article__header { padding: 80px 24px 56px; }
-  .article--interview .article__toc ol { columns: 1; }
+  .article--interview .article__toc ol { grid-template-columns: 1fr; }
   .interview-intro, .interview-qa, .interview-conclusion { padding-left: 24px; padding-right: 24px; }
   .interview-answer { padding-left: 18px; }
   .toc-nav { padding: 28px 24px; }

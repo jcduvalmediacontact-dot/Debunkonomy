@@ -23,6 +23,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/debunkonomy.css">
+<!-- force-scrolled --><script>
+(function(){
+  var nav = document.getElementById('nav');
+  if (nav) nav.classList.add('scrolled');
+})();
+</script>
 </head>
 <body>
 <nav class="nav" id="nav">
@@ -94,16 +100,5 @@
   </div>
   <div class="footer__bottom"><span>© 2026 Debunk’Onomy · Jean-Christophe Duval</span><span>Think &amp; Move to Degrowth</span></div>
 </footer>
-<script>
-(function(){
-  var nav = document.getElementById('nav');
-  if (!nav) return;
-  function onScroll(){
-    if (window.scrollY > 40) nav.classList.add('scrolled');
-    else nav.classList.remove('scrolled');
-  }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  onScroll();
-})();
-</script>
+
 </body></html>
