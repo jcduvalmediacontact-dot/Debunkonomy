@@ -14,9 +14,9 @@
   --teal:       #4A8B92;
   --mint:       #A8EAEA;
   --mint-soft:  #C9F0EE;
-  --cream:      #f0ece9;
-  --cream-deep: #e8e4e1;
-  --sand:       #D9C9A3;
+  --cream:      #a2b0b3;
+  --cream-deep: #8e959c;
+  --sand:       #62696d;
 
   /* Aliases pour la compatibilité avec les composants existants */
   --color-deep:    #0D2E31;
