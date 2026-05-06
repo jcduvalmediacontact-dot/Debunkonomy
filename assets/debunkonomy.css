@@ -3122,3 +3122,454 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   .article__backlinks, .share-bar { padding: 32px 24px; }
   .interview-qa h2 > span:last-child { font-size: 20px; }
 }
+
+/* ================================================================
+   AJOUTS — FAQ ACCORDÉON + PAGE LIVRE
+   ================================================================ */
+
+/* ----------------------------------------------------------------
+   FAQ — ACCORDÉON
+   ---------------------------------------------------------------- */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(168,234,234,0.14);
+  margin-bottom: 56px;
+}
+.faq-item {
+  border-bottom: 1px solid rgba(168,234,234,0.14);
+}
+.faq-item__q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 26px 0;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 40, "SOFT" 20;
+  font-size: clamp(15px, 1.5vw, 18px);
+  font-weight: 450;
+  letter-spacing: -0.01em;
+  color: var(--mint);
+  line-height: 1.3;
+  transition: color 0.2s;
+  user-select: none;
+}
+.faq-item__q::-webkit-details-marker { display: none; }
+.faq-item__q::marker { display: none; }
+.faq-item__q::after {
+  content: "+";
+  flex-shrink: 0;
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--teal);
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(74,139,146,0.30);
+  border-radius: 50%;
+  transition: transform 0.28s ease, border-color 0.2s, color 0.2s;
+  line-height: 1;
+}
+.faq-item[open] > .faq-item__q {
+  color: var(--mint);
+}
+.faq-item[open] > .faq-item__q::after {
+  transform: rotate(45deg);
+  border-color: var(--mint);
+  color: var(--mint);
+}
+.faq-item__q:hover { color: var(--mint); }
+.faq-item__q:hover::after { border-color: rgba(168,234,234,0.5); }
+.faq-item__a {
+  padding-bottom: 28px;
+  padding-right: 56px;
+  animation: faqOpen 0.22s ease;
+}
+.faq-item__a p {
+  font-size: 15px;
+  line-height: 1.72;
+  color: rgba(168,234,234,0.65);
+  max-width: 680px;
+}
+@keyframes faqOpen {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@media (max-width: 640px) {
+  .faq-item__a { padding-right: 0; }
+}
+
+/* ----------------------------------------------------------------
+   PAGE LIVRE — SOMMAIRE DÉTAILLÉ (.livre-toc)
+   ---------------------------------------------------------------- */
+.livre-toc {
+  background: var(--ink);
+  padding: var(--section-pad) 40px;
+  border-top: 1px solid rgba(168,234,234,0.08);
+}
+.livre-toc .toc__inner {
+  max-width: var(--pagew);
+  margin: 0 auto;
+}
+.livre-toc .toc__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 80, "SOFT" 35;
+  font-weight: 450;
+  font-size: clamp(28px, 3vw, 44px);
+  letter-spacing: -0.02em;
+  color: var(--mint);
+  margin-bottom: 10px;
+  text-transform: none;
+  opacity: 1;
+}
+.livre-toc .toc__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 80, "SOFT" 100, "WONK" 1;
+  color: var(--mint-soft);
+}
+.livre-toc .toc__lede {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 17px;
+  color: rgba(168,234,234,0.55);
+  margin-bottom: 56px;
+}
+/* Rows */
+.livre-toc .chapter {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 32px;
+  align-items: start;
+  padding: 36px 0;
+  border-bottom: 1px solid rgba(168,234,234,0.08);
+  background: none;
+}
+.livre-toc .chapter:first-of-type {
+  border-top: 1px solid rgba(168,234,234,0.08);
+}
+.livre-toc .chapter__num {
+  font-family: var(--ff-display);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  opacity: 0.7;
+  padding-top: 4px;
+  line-height: 1.4;
+}
+.livre-toc .chapter__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 40, "SOFT" 20;
+  font-weight: 450;
+  font-size: clamp(17px, 1.8vw, 21px);
+  color: var(--mint);
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
+.livre-toc .chapter__title em {
+  font-style: italic;
+  color: var(--mint-soft);
+}
+.livre-toc .chapter__desc {
+  font-size: 14px;
+  line-height: 1.68;
+  color: rgba(168,234,234,0.6);
+  max-width: 640px;
+  margin-bottom: 10px;
+}
+.livre-toc .chapter__sub {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: rgba(74,139,146,0.65);
+  font-family: var(--ff-sans);
+}
+@media (max-width: 640px) {
+  .livre-toc .chapter {
+    grid-template-columns: 52px 1fr;
+    gap: 16px;
+    padding: 28px 0;
+  }
+  .livre-toc { padding: 60px 24px; }
+}
+
+/* ----------------------------------------------------------------
+   PAGE LIVRE — GLOSSAIRE
+   ---------------------------------------------------------------- */
+.glossary {
+  background: var(--ink-deep);
+  padding: var(--section-pad) 40px;
+}
+.glossary__inner {
+  max-width: var(--pagew);
+  margin: 0 auto;
+}
+.glossary__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 80, "SOFT" 35;
+  font-weight: 450;
+  font-size: clamp(26px, 2.8vw, 42px);
+  letter-spacing: -0.02em;
+  color: var(--mint);
+  margin-bottom: 10px;
+}
+.glossary__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 80, "SOFT" 100, "WONK" 1;
+  color: var(--mint-soft);
+}
+.glossary__lede {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(168,234,234,0.50);
+  margin-bottom: 48px;
+}
+.glossary__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.term {
+  background: rgba(168,234,234,0.035);
+  border: 1px solid rgba(168,234,234,0.10);
+  padding: 28px 26px;
+  transition: background 0.2s, border-color 0.2s;
+}
+.term:hover {
+  background: rgba(168,234,234,0.06);
+  border-color: rgba(168,234,234,0.18);
+}
+.term__name {
+  font-family: var(--ff-display);
+  font-weight: 550;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--mint);
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(74,139,146,0.22);
+  padding-bottom: 10px;
+}
+.term__def {
+  font-size: 13px;
+  line-height: 1.65;
+  color: rgba(168,234,234,0.55);
+}
+.term__def em { color: rgba(168,234,234,0.75); font-style: italic; }
+@media (max-width: 900px) {
+  .glossary__list { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  .glossary__list { grid-template-columns: 1fr; }
+  .glossary { padding: 60px 24px; }
+}
+
+/* ----------------------------------------------------------------
+   PAGE LIVRE — CTA ACHAT (.cta-buy)
+   ---------------------------------------------------------------- */
+.cta-buy {
+  background:
+    radial-gradient(ellipse at 30% 50%, rgba(74,139,146,0.22) 0%, transparent 60%),
+    var(--ink-deep);
+  padding: 100px 40px;
+  text-align: center;
+  border-top: 1px solid rgba(168,234,234,0.08);
+}
+.cta-buy__inner { max-width: 680px; margin: 0 auto; }
+.cta-buy__title {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 80, "SOFT" 50;
+  font-weight: 450;
+  font-size: clamp(28px, 4vw, 52px);
+  letter-spacing: -0.025em;
+  color: var(--mint);
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.cta-buy__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 80, "SOFT" 100, "WONK" 1;
+  color: var(--mint-soft);
+}
+.cta-buy__text {
+  font-family: var(--ff-serif);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.55;
+  color: rgba(168,234,234,0.60);
+  margin-bottom: 44px;
+}
+.cta-buy__actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .cta-buy { padding: 72px 24px; }
+  .cta-buy__actions { flex-direction: column; align-items: center; }
+}
+
+/* ----------------------------------------------------------------
+   PAGE LIVRE — AMÉLIORATION QUOTES
+   ---------------------------------------------------------------- */
+.quotes__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.quote-card {
+  margin: 0;
+  background: white;
+  border: none;
+  border-left: 3px solid var(--teal);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 28px 28px 24px;
+}
+@media (max-width: 768px) {
+  .quotes__list { grid-template-columns: 1fr; }
+  .quotes { padding: 60px 24px; }
+  .thesis { padding: 60px 24px; }
+}
+
+/* Italiques pour titre sections livre */
+.quotes__title em, .thesis__title em {
+  font-style: italic;
+  font-variation-settings: "opsz" 80, "SOFT" 100, "WONK" 1;
+  color: var(--ink);
+  opacity: 0.65;
+}
+
+/* ================================================================
+   CORRECTIONS v12 — FAQ contraste, glossaire standalone, tracker
+   ================================================================ */
+
+/* ----------------------------------------------------------------
+   FAQ — CORRECTION COULEURS (fond .page = crème → texte foncé)
+   ---------------------------------------------------------------- */
+.faq-list {
+  border-top-color: rgba(74,139,146,0.18);
+  margin-bottom: 56px;
+}
+.faq-item {
+  border-bottom-color: rgba(74,139,146,0.14);
+  background: none;
+}
+.faq-item__q {
+  color: var(--ink-deep);
+  font-variation-settings: "opsz" 40, "SOFT" 30;
+}
+.faq-item__q::after {
+  color: var(--teal);
+  border-color: rgba(74,139,146,0.30);
+}
+.faq-item[open] > .faq-item__q {
+  color: var(--teal);
+}
+.faq-item[open] > .faq-item__q::after {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+.faq-item__q:hover {
+  color: var(--teal);
+}
+.faq-item__a p {
+  color: var(--ink);
+  opacity: 0.82;
+}
+
+/* ----------------------------------------------------------------
+   GLOSSAIRE STANDALONE — .glossary-grid / .glossary-term
+   (fond .page = crème → cartes blanches, texte foncé)
+   ---------------------------------------------------------------- */
+.glossary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 48px;
+}
+.glossary-term {
+  background: #ffffff;
+  border: 1px solid rgba(74,139,146,0.14);
+  border-top: 3px solid var(--teal);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  padding: 24px 22px 22px;
+  transition: box-shadow 0.2s, border-top-color 0.2s;
+}
+.glossary-term:hover {
+  box-shadow: 0 4px 20px rgba(13,46,49,0.09);
+  border-top-color: var(--ink-deep);
+}
+.glossary-term h2 {
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 24, "SOFT" 20;
+  font-weight: 550;
+  font-size: 15px;
+  color: var(--ink-deep);
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(74,139,146,0.12);
+}
+.glossary-term p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink);
+  opacity: 0.75;
+}
+@media (max-width: 900px) {
+  .glossary-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 560px) {
+  .glossary-grid { grid-template-columns: 1fr; }
+}
+
+/* ----------------------------------------------------------------
+   CHAPTER TRACKER — correction overflow (long textes DE/PT/etc.)
+   ---------------------------------------------------------------- */
+.chapter-tracker {
+  max-width: 260px;
+}
+.chapter-tracker__dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  opacity: 0.6;
+  flex-shrink: 0;
+  align-self: flex-end;
+  margin-bottom: 2px;
+}
+.chapter-tracker__text {
+  text-align: right;
+  max-width: 240px;
+}
+.chapter-tracker__label {
+  display: block;
+  font-family: var(--ff-sans);
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--teal);
+  opacity: 0.55;
+  margin-bottom: 3px;
+}
+.chapter-tracker__name {
+  display: block;
+  font-family: var(--ff-display);
+  font-variation-settings: "opsz" 14, "SOFT" 40;
+  font-size: 11px;
+  font-weight: 450;
+  color: var(--mint);
+  opacity: 0.65;
+  line-height: 1.4;
+  /* Pas de truncate — on laisse wrapper sur 2 lignes max */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
