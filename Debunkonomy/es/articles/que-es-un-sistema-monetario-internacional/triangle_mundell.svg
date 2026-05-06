@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+<title id="title">Triangle de Mundell</title>
+<desc id="desc">Trinidad imposible: tipo de cambio fijo, movilidad de capitales y política monetaria autónoma.</desc>
+<style>
+  .line{fill:none;stroke:#1C5A60;stroke-width:6;stroke-linejoin:round}
+  .node{fill:#C9F0EE;stroke:#0D2E31;stroke-width:3}
+  .txt{font-family:Arial, sans-serif;fill:#0D2E31;font-size:28px;font-weight:700;text-anchor:middle}
+  .sub{font-family:Arial, sans-serif;fill:#1C5A60;font-size:20px;text-anchor:middle}
+</style>
+<rect width="900" height="620" fill="#cad1d4"/>
+<path class="line" d="M450 80 L120 520 L780 520 Z"/>
+<circle class="node" cx="450" cy="80" r="58"/>
+<circle class="node" cx="120" cy="520" r="58"/>
+<circle class="node" cx="780" cy="520" r="58"/>
+<text class="txt" x="450" y="72">Taux de</text><text class="txt" x="450" y="103">change fijo</text>
+<text class="txt" x="120" y="508">Mobilité</text><text class="txt" x="120" y="539">des capitales</text>
+<text class="txt" x="780" y="508">Política</text><text class="txt" x="780" y="539">monetaria</text>
+<text class="sub" x="450" y="335">Trinité impossible</text>
+<text class="sub" x="450" y="362">un país solo puede elegir dos objetivos de tres</text>
+</svg>
