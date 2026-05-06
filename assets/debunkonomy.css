@@ -912,8 +912,12 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .nemo__cta { text-align: center; margin-top: 64px; }
 .nemo__pillars { display: grid; gap: 32px; }
 .nemo__pillar {
-  display: grid; grid-template-columns: auto 1fr;
-  gap: 36px; align-items: start;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto auto;
+  column-gap: 36px;
+  row-gap: 0;
+  align-items: start;
   padding: 40px 0;
   border-bottom: 1px solid rgba(74,139,146,0.18);
   text-decoration: none; color: inherit;
@@ -923,19 +927,44 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 .nemo__pillar-number {
   font-family: var(--ff-display); font-size: 56px; font-weight: 800;
   color: var(--teal); opacity: 0.25; line-height: 1;
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  padding-top: 4px;
 }
 .nemo__pillar-title {
   font-family: var(--ff-display);
   font-variation-settings: "opsz" 72, "SOFT" 45;
   font-size: clamp(20px, 2vw, 28px); font-weight: 500;
   color: var(--ink); margin-bottom: 12px; line-height: 1.2;
+  grid-column: 2;
+  grid-row: 1;
 }
-.nemo__pillar-text { font-size: 15px; line-height: 1.7; color: var(--ink); opacity: 0.75; }
+.nemo__pillar-text {
+  font-size: 15px; line-height: 1.7; color: var(--ink); opacity: 0.75;
+  grid-column: 2;
+  grid-row: 2;
+}
 .nemo__pillar-cta {
   display: inline-block; margin-top: 12px;
   font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
   color: var(--teal); font-weight: 600;
+  grid-column: 2;
+  grid-row: 3;
 }
+/* RTL (Arabic) — number on right, content on left */
+[dir="rtl"] .nemo__pillar {
+  grid-template-columns: 1fr auto;
+}
+[dir="rtl"] .nemo__pillar-number {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
+[dir="rtl"] .nemo__pillar-title,
+[dir="rtl"] .nemo__pillar-text,
+[dir="rtl"] .nemo__pillar-cta {
+  grid-column: 1;
+}
+[dir="rtl"] .nemo__pillar:hover { transform: translateX(-6px); }
 .nemo__tagline {
   font-family: var(--ff-serif); font-style: italic;
   font-size: clamp(16px, 1.6vw, 20px); line-height: 1.55;
