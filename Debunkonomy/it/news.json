@@ -1,0 +1,81 @@
+{
+    "news": [
+        {
+            "type": "texte",
+            "date": "2026-05-08",
+            "title": "Perché la moneta bancaria è degenerativa?",
+            "excerpt": "Tre maledizioni strutturali, una metafora che funziona e NEMO IMS: come l'architettura monetaria condiziona la distruzione dei sistemi viventi.",
+            "link": "/it/articles/perche-la-moneta-bancaria-e-degenerativa/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-07",
+            "title": "L'impostura della transizione energetica",
+            "excerpt": "Jean-Baptiste Fressoz mostra che i sistemi energetici si accumulano invece di sostituirsi — una sfida radicale alla crescita verde.",
+            "link": "/it/articles/transizione-energetica-impostura-decrescita/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-06",
+            "title": "Termodinamica ed economia",
+            "excerpt": "Perché ogni crescita economica è una combustione — e come NEMO IMS propone di ancorare il denaro alla rigenerazione del mondo vivente.",
+            "link": "/it/articles/termodinamica-entropia-mondo-vivente/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-05",
+            "title": "La distruzione come dottrina",
+            "excerpt": "Perché l'obsolescenza programmata non è solo uno scandalo industriale, ma il sintomo di un sistema che trasforma la durabilità nel nemico del profitto.",
+            "link": "/it/articles/obsolescenza-programmata-finanziarizzazione-tempo-rubato/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-04",
+            "title": "La crescita infinita è impossibile",
+            "excerpt": "Perché nessuna economia materiale può crescere indefinitamente in un mondo finito.",
+            "link": "/it/articles/crescita-infinita-impossibile/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-02",
+            "title": "L'architettura dell'entropia",
+            "excerpt": "Da Roma ai sistemi finanziari contemporanei, le civiltà spesso nascondono i costi reali della loro ricchezza.",
+            "link": "/it/articles/architettura-entropia-complessita-costi-reali/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-01",
+            "title": "NEMO IMS: moneta, ecologia e l'essenziale insolvente",
+            "excerpt": "Venti domande per capire perché la crisi ecologica è anche una crisi monetaria.",
+            "link": "/it/nemo-ims/founder-interview/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-30",
+            "title": "Pensare la decrescita senza pensare la robustezza non ha senso",
+            "excerpt": "Perché la decrescita morale non basta se l'architettura monetaria continua a costringere l'economia ad accelerare.",
+            "link": "/it/articles/decrescita-robustezza-sistema-monetario/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-29",
+            "title": "NEMO IMS: quale sistema monetario internazionale per il futuro?",
+            "excerpt": "Dopo due secoli di fallimenti monetari, NEMO IMS propone una rottura radicale.",
+            "link": "/it/articles/nemo-ims-sistema-monetario-internazionale-futuro/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-27",
+            "title": "Record di borsa, pianeta morente",
+            "excerpt": "Come può un sistema avere successo economico e distruggere contemporaneamente le basi che rendono possibile quel successo?",
+            "link": "/it/articles/record-borsa-pianeta-morente-disaccoppiamento-economico/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-24",
+            "title": "Perché le COP non funzionano",
+            "excerpt": "Trent'anni di vertici climatici, migliaia di lobbisti fossili ed emissioni in aumento: il problema è strutturale.",
+            "link": "/it/articles/perche-le-cop-non-funzionano/"
+        }
+    ]
+}
