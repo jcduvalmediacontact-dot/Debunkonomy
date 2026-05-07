@@ -69,7 +69,18 @@
 
     const cta = document.createElement('div');
     cta.className = 'news-card__cta';
-    cta.textContent = item.type === 'video' ? 'Regarder' : 'Lire l\'article';
+    const lang = document.documentElement.lang || 'fr';
+    const ctaLabels = {
+      fr: { texte: "Lire l'article", video: 'Regarder' },
+      en: { texte: 'Read the article', video: 'Watch' },
+      de: { texte: 'Artikel lesen', video: 'Ansehen' },
+      es: { texte: 'Leer el artículo', video: 'Ver' },
+      it: { texte: "Leggi l'articolo", video: 'Guarda' },
+      pt: { texte: 'Ler o artigo', video: 'Assistir' },
+      ar: { texte: 'اقرأ المقال', video: 'شاهد' },
+    };
+    const labels = ctaLabels[lang] || ctaLabels.fr;
+    cta.textContent = item.type === 'video' ? labels.video : labels.texte;
 
     content.appendChild(date);
     content.appendChild(title);
@@ -199,10 +210,14 @@
     track.innerHTML = '<div class="news-carousel__loading">Chargement des actualités...</div>';
 
     try {
-      const response = await fetch('/news.json');
+      // Detect language from html[lang] attribute, load per-language JSON
+      const lang = document.documentElement.lang || 'fr';
+      const jsonUrl = (lang === 'fr') ? '/news.json' : '/' + lang + '/news.json';
+
+      const response = await fetch(jsonUrl);
       
       if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+        throw new Error('HTTP error! status: ' + response.status);
       }
 
       const data = await response.json();
@@ -212,7 +227,10 @@
         return;
       }
 
-      newsData = data.news.sort((a, b) => new Date(b.date) - new Date(a.date));
+      // Sort by date and keep only the 10 most recent
+      newsData = data.news
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .slice(0, 10);
 
       // Créer les cartes
       track.innerHTML = '';

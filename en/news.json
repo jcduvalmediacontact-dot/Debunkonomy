@@ -1,0 +1,74 @@
+{
+  "news": [
+    {
+      "type": "texte",
+      "date": "2026-05-07",
+      "title": "The Imposture of the Energy Transition",
+      "excerpt": "Jean-Baptiste Fressoz shows that energy systems accumulate rather than replace each other — a radical challenge to green growth.",
+      "link": "/en/articles/energy-transition-imposture-degrowth/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-06",
+      "title": "Thermodynamics and Economics",
+      "excerpt": "Why every economic growth is a combustion — and how NEMO IMS proposes anchoring money in the regeneration of the living world.",
+      "link": "/en/articles/thermodynamics-entropy-living-world/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-05",
+      "title": "Destruction as Doctrine",
+      "excerpt": "Why planned obsolescence is not merely an industrial scandal, but a symptom of a system that turns durability into the enemy of profit.",
+      "link": "/en/articles/planned-obsolescence-financialization-stolen-time/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-04",
+      "title": "Infinite Growth Is Impossible",
+      "excerpt": "Why no material economy can grow indefinitely in a finite world: impossible decoupling, production peaks, critical metals and planetary boundaries.",
+      "link": "/en/articles/infinite-growth-is-impossible/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-02",
+      "title": "The Architecture of Entropy",
+      "excerpt": "From Rome to contemporary financial systems, civilizations often hide the real costs of their wealth.",
+      "link": "/en/articles/architecture-of-entropy-complexity-real-costs/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-01",
+      "title": "NEMO IMS: Money, Ecology and the Insolvent Essential",
+      "excerpt": "Twenty questions to understand why the ecological crisis is also a monetary crisis.",
+      "link": "/en/nemo-ims/founder-interview/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-30",
+      "title": "Thinking Degrowth Without Thinking Robustness Is Nonsense",
+      "excerpt": "Why moral degrowth is not enough if the monetary architecture keeps forcing the economy to accelerate.",
+      "link": "/en/articles/degrowth-resilience-monetary-system/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-29",
+      "title": "NEMO IMS: What International Monetary System for the Future?",
+      "excerpt": "After two centuries of monetary failures, NEMO IMS proposes a radical break: a currency backed by ecosystem regeneration.",
+      "link": "/en/articles/nemo-ims-international-monetary-system-future/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-27",
+      "title": "Stock Market Records, Dying Planet",
+      "excerpt": "How can a system simultaneously succeed economically and destroy the very foundations that make that success possible?",
+      "link": "/en/articles/stock-market-records-dying-planet-economic-decoupling/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-24",
+      "title": "Why COPs Do Not Work",
+      "excerpt": "Thirty years of climate summits, thousands of fossil lobbyists and rising emissions: the problem is structural, not diplomatic.",
+      "link": "/en/articles/why-cops-do-not-work/"
+    }
+  ]
+}
