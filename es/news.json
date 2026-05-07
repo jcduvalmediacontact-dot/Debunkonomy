@@ -1,74 +1,81 @@
 {
-  "news": [
-    {
-      "type": "texte",
-      "date": "2026-05-07",
-      "title": "La impostura de la transición energética",
-      "excerpt": "Jean-Baptiste Fressoz demuestra que los sistemas energéticos se acumulan en vez de sustituirse — un desafío radical para el crecimiento verde.",
-      "link": "/es/articles/transicion-energetica-impostura-decrecimiento/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-06",
-      "title": "Termodinámica y economía",
-      "excerpt": "Por qué todo crecimiento económico es una combustión — y cómo NEMO IMS propone anclar el dinero en la regeneración del mundo vivo.",
-      "link": "/es/articles/termodinamica-entropia-mundo-vivo/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-05",
-      "title": "La destrucción como doctrina",
-      "excerpt": "Por qué la obsolescencia programada no es solo un escándalo industrial, sino el síntoma de un sistema que convierte la durabilidad en enemigo del beneficio.",
-      "link": "/es/articles/obsolescencia-programada-financiarizacion-tiempo-robado/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-04",
-      "title": "El crecimiento infinito es imposible",
-      "excerpt": "Por qué ninguna economía material puede crecer indefinidamente en un mundo finito.",
-      "link": "/es/articles/crecimiento-infinito-imposible/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-02",
-      "title": "La arquitectura de la entropía",
-      "excerpt": "De Roma a los sistemas financieros contemporáneos, las civilizaciones a menudo ocultan los costes reales de su riqueza.",
-      "link": "/es/articles/arquitectura-entropia-complejidad-costes-reales/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-01",
-      "title": "NEMO IMS: dinero, ecología y lo esencial insolvente",
-      "excerpt": "Veinte preguntas para entender por qué la crisis ecológica es también una crisis monetaria.",
-      "link": "/es/nemo-ims/founder-interview/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-30",
-      "title": "Pensar el decrecimiento sin pensar la robustez no tiene sentido",
-      "excerpt": "Por qué el decrecimiento moral no basta si la arquitectura monetaria sigue obligando a la economía a acelerar.",
-      "link": "/es/articles/decrecimiento-robustez-sistema-monetario/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-29",
-      "title": "NEMO IMS: ¿Qué sistema monetario internacional para el futuro?",
-      "excerpt": "Tras dos siglos de fracasos monetarios, NEMO IMS propone una ruptura radical.",
-      "link": "/es/articles/nemo-ims-sistema-monetario-internacional-futuro/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-27",
-      "title": "Récords bursátiles, planeta moribundo",
-      "excerpt": "¿Cómo puede un sistema tener éxito económico y destruir simultáneamente las bases que hacen posible ese éxito?",
-      "link": "/es/articles/records-bursatiles-planeta-moribundo-desacoplamiento-economico/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-24",
-      "title": "Por qué las COP no sirven de nada",
-      "excerpt": "Treinta años de cumbres climáticas, miles de lobistas fósiles y emisiones en alza: el problema es estructural.",
-      "link": "/es/articles/por-que-las-cop-no-funcionan/"
-    }
-  ]
+    "news": [
+        {
+            "type": "texte",
+            "date": "2026-05-08",
+            "title": "¿Por qué la moneda bancaria es degenerativa?",
+            "excerpt": "Tres maldiciones estructurales, una metáfora que funciona y NEMO IMS: cómo la arquitectura monetaria condiciona la destrucción de los sistemas vivos.",
+            "link": "/es/articles/por-que-la-moneda-bancaria-es-degenerativa/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-07",
+            "title": "La impostura de la transición energética",
+            "excerpt": "Jean-Baptiste Fressoz demuestra que los sistemas energéticos se acumulan en vez de sustituirse — un desafío radical para el crecimiento verde.",
+            "link": "/es/articles/transicion-energetica-impostura-decrecimiento/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-06",
+            "title": "Termodinámica y economía",
+            "excerpt": "Por qué todo crecimiento económico es una combustión — y cómo NEMO IMS propone anclar el dinero en la regeneración del mundo vivo.",
+            "link": "/es/articles/termodinamica-entropia-mundo-vivo/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-05",
+            "title": "La destrucción como doctrina",
+            "excerpt": "Por qué la obsolescencia programada no es solo un escándalo industrial, sino el síntoma de un sistema que convierte la durabilidad en enemigo del beneficio.",
+            "link": "/es/articles/obsolescencia-programada-financiarizacion-tiempo-robado/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-04",
+            "title": "El crecimiento infinito es imposible",
+            "excerpt": "Por qué ninguna economía material puede crecer indefinidamente en un mundo finito.",
+            "link": "/es/articles/crecimiento-infinito-imposible/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-02",
+            "title": "La arquitectura de la entropía",
+            "excerpt": "De Roma a los sistemas financieros contemporáneos, las civilizaciones a menudo ocultan los costes reales de su riqueza.",
+            "link": "/es/articles/arquitectura-entropia-complejidad-costes-reales/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-01",
+            "title": "NEMO IMS: dinero, ecología y lo esencial insolvente",
+            "excerpt": "Veinte preguntas para entender por qué la crisis ecológica es también una crisis monetaria.",
+            "link": "/es/nemo-ims/founder-interview/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-30",
+            "title": "Pensar el decrecimiento sin pensar la robustez no tiene sentido",
+            "excerpt": "Por qué el decrecimiento moral no basta si la arquitectura monetaria sigue obligando a la economía a acelerar.",
+            "link": "/es/articles/decrecimiento-robustez-sistema-monetario/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-29",
+            "title": "NEMO IMS: ¿Qué sistema monetario internacional para el futuro?",
+            "excerpt": "Tras dos siglos de fracasos monetarios, NEMO IMS propone una ruptura radical.",
+            "link": "/es/articles/nemo-ims-sistema-monetario-internacional-futuro/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-27",
+            "title": "Récords bursátiles, planeta moribundo",
+            "excerpt": "¿Cómo puede un sistema tener éxito económico y destruir simultáneamente las bases que hacen posible ese éxito?",
+            "link": "/es/articles/records-bursatiles-planeta-moribundo-desacoplamiento-economico/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-24",
+            "title": "Por qué las COP no sirven de nada",
+            "excerpt": "Treinta años de cumbres climáticas, miles de lobistas fósiles y emisiones en alza: el problema es estructural.",
+            "link": "/es/articles/por-que-las-cop-no-funcionan/"
+        }
+    ]
 }

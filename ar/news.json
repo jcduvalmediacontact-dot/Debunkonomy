@@ -1,74 +1,81 @@
 {
-  "news": [
-    {
-      "type": "texte",
-      "date": "2026-05-07",
-      "title": "زيف الانتقال الطاقوي",
-      "excerpt": "يُثبت جان-باتيست فريسو أن أنظمة الطاقة تتراكم ولا تحلّ محلّ بعضها — تحدٍّ جذري للنمو الأخضر.",
-      "link": "/ar/articles/energy-transition-imposture-degrowth/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-06",
-      "title": "الديناميكا الحرارية والاقتصاد",
-      "excerpt": "لماذا كل نمو اقتصادي هو احتراق — وكيف يقترح NEMO IMS ربط النقود بتجديد الحياة.",
-      "link": "/ar/articles/thermodynamics-entropy-living-world/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-05",
-      "title": "التدمير كعقيدة",
-      "excerpt": "لماذا التقادم المبرمج ليس مجرد فضيحة صناعية بل عرضٌ لنظام يجعل المتانة عدوّ الربح.",
-      "link": "/ar/articles/planned-obsolescence-financialization-stolen-time/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-04",
-      "title": "النمو اللانهائي مستحيل",
-      "excerpt": "لماذا لا يمكن لأي اقتصاد مادي أن ينمو إلى ما لا نهاية في عالم محدود الموارد.",
-      "link": "/ar/articles/infinite-growth-is-impossible/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-02",
-      "title": "هندسة الإنتروبيا",
-      "excerpt": "من روما إلى الأنظمة المالية المعاصرة، كثيراً ما تُخفي الحضارات التكاليف الحقيقية لثروتها.",
-      "link": "/ar/articles/architecture-entropy-complexity-real-costs/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-05-01",
-      "title": "NEMO IMS: نقود وبيئة وضرورة مُعسِرة",
-      "excerpt": "عشرون سؤالاً لفهم سبب كون الأزمة البيئية أزمةً نقدية أيضاً.",
-      "link": "/ar/nemo-ims/founder-interview/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-30",
-      "title": "التفكير في تقليص النمو دون متانة لا معنى له",
-      "excerpt": "لماذا لا يكفي تقليص النمو الأخلاقي إذا ظل الهيكل النقدي يُلزم الاقتصاد بالتسارع.",
-      "link": "/ar/articles/degrowth-resilience-monetary-system/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-29",
-      "title": "NEMO IMS: أي نظام نقدي دولي للمستقبل؟",
-      "excerpt": "بعد قرنين من الإخفاقات النقدية، يقترح NEMO IMS قطيعةً جذرية.",
-      "link": "/ar/articles/nemo-ims-international-monetary-system-future/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-27",
-      "title": "أرقام قياسية في البورصة، كوكب يحتضر",
-      "excerpt": "كيف يمكن لنظام أن ينجح اقتصادياً ويُدمّر في آنٍ واحد الأسس التي تجعل هذا النجاح ممكناً؟",
-      "link": "/ar/articles/stock-market-records-dying-planet-economic-decoupling/"
-    },
-    {
-      "type": "texte",
-      "date": "2026-04-24",
-      "title": "لماذا لا تعمل مؤتمرات المناخ COP؟",
-      "excerpt": "ثلاثون عاماً من قمم المناخ، الآلاف من لوبيات الوقود الأحفوري، والانبعاثات ترتفع: المشكلة هيكلية.",
-      "link": "/ar/articles/why-cops-do-not-work/"
-    }
-  ]
+    "news": [
+        {
+            "type": "texte",
+            "date": "2026-05-08",
+            "title": "لماذا النقود المصرفية تدهورية؟",
+            "excerpt": "ثلاث لعنات هيكلية واستعارة ناجعة و NEMO IMS: كيف تشترط البنية النقدية تدمير الأنظمة الحية.",
+            "link": "/ar/articles/why-banking-money-is-degenerative/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-07",
+            "title": "زيف الانتقال الطاقوي",
+            "excerpt": "يُثبت جان-باتيست فريسو أن أنظمة الطاقة تتراكم ولا تحلّ محلّ بعضها — تحدٍّ جذري للنمو الأخضر.",
+            "link": "/ar/articles/energy-transition-imposture-degrowth/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-06",
+            "title": "الديناميكا الحرارية والاقتصاد",
+            "excerpt": "لماذا كل نمو اقتصادي هو احتراق — وكيف يقترح NEMO IMS ربط النقود بتجديد الحياة.",
+            "link": "/ar/articles/thermodynamics-entropy-living-world/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-05",
+            "title": "التدمير كعقيدة",
+            "excerpt": "لماذا التقادم المبرمج ليس مجرد فضيحة صناعية بل عرضٌ لنظام يجعل المتانة عدوّ الربح.",
+            "link": "/ar/articles/planned-obsolescence-financialization-stolen-time/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-04",
+            "title": "النمو اللانهائي مستحيل",
+            "excerpt": "لماذا لا يمكن لأي اقتصاد مادي أن ينمو إلى ما لا نهاية في عالم محدود الموارد.",
+            "link": "/ar/articles/infinite-growth-is-impossible/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-02",
+            "title": "هندسة الإنتروبيا",
+            "excerpt": "من روما إلى الأنظمة المالية المعاصرة، كثيراً ما تُخفي الحضارات التكاليف الحقيقية لثروتها.",
+            "link": "/ar/articles/architecture-entropy-complexity-real-costs/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-05-01",
+            "title": "NEMO IMS: نقود وبيئة وضرورة مُعسِرة",
+            "excerpt": "عشرون سؤالاً لفهم سبب كون الأزمة البيئية أزمةً نقدية أيضاً.",
+            "link": "/ar/nemo-ims/founder-interview/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-30",
+            "title": "التفكير في تقليص النمو دون متانة لا معنى له",
+            "excerpt": "لماذا لا يكفي تقليص النمو الأخلاقي إذا ظل الهيكل النقدي يُلزم الاقتصاد بالتسارع.",
+            "link": "/ar/articles/degrowth-resilience-monetary-system/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-29",
+            "title": "NEMO IMS: أي نظام نقدي دولي للمستقبل؟",
+            "excerpt": "بعد قرنين من الإخفاقات النقدية، يقترح NEMO IMS قطيعةً جذرية.",
+            "link": "/ar/articles/nemo-ims-international-monetary-system-future/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-27",
+            "title": "أرقام قياسية في البورصة، كوكب يحتضر",
+            "excerpt": "كيف يمكن لنظام أن ينجح اقتصادياً ويُدمّر في آنٍ واحد الأسس التي تجعل هذا النجاح ممكناً؟",
+            "link": "/ar/articles/stock-market-records-dying-planet-economic-decoupling/"
+        },
+        {
+            "type": "texte",
+            "date": "2026-04-24",
+            "title": "لماذا لا تعمل مؤتمرات المناخ COP؟",
+            "excerpt": "ثلاثون عاماً من قمم المناخ، الآلاف من لوبيات الوقود الأحفوري، والانبعاثات ترتفع: المشكلة هيكلية.",
+            "link": "/ar/articles/why-cops-do-not-work/"
+        }
+    ]
 }
