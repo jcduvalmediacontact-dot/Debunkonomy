@@ -1,153 +1,160 @@
 {
-    "news": [
-        {
-            "type": "texte",
-            "date": "2026-05-08",
-            "title": "Pourquoi la monnaie bancaire est dégénérative ?",
-            "excerpt": "Trois malédictions structurelles, une métaphore qui roule et NEMO IMS : comment l'architecture monétaire conditionne la destruction du vivant.",
-            "link": "/articles/auteur/monnaie-bancaire-degenerative/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-07",
-            "title": "L'imposture de la transition énergétique",
-            "excerpt": "Pourquoi les énergies ne se substituent pas — elles s'accumulent. Et pourquoi cela rend la croissance verte physiquement impossible.",
-            "link": "/articles/auteur/transition-energetique-imposture-decroissance/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-06",
-            "title": "Thermodynamique et économie : pourquoi la croissance détruit l'ordre du vivant",
-            "excerpt": "De l'entropie à la néguentropie : pourquoi toute croissance économique est une combustion, et comment NEMO IMS propose d'ancrer la monnaie dans la régénération ",
-            "link": "/articles/auteur/thermodynamique-entropie-vivant/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-05",
-            "title": "La destruction comme doctrine",
-            "excerpt": "Pourquoi l’obsolescence programmée n’est pas un simple scandale industriel, mais le symptôme d’un système économique qui transforme la durée en ennemi du profit",
-            "link": "/articles/auteur/obsolescence-programmee-financiarisation-temps-vole/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-04",
-            "title": "La croissance infinie est impossible",
-            "excerpt": "Pourquoi aucune économie matérielle ne peut croître indéfiniment dans un monde fini : découplage impossible, pics de production, métaux critiques, eau, sable, p",
-            "link": "/articles/auteur/croissance-infinie-impossible/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-02",
-            "title": "L’Architecture de l’entropie",
-            "excerpt": "De Rome aux systèmes financiers contemporains, les civilisations masquent souvent les coûts réels de leur richesse : travailleurs, écosystèmes, générations futu",
-            "link": "/articles/auteur/architecture-entropie-complexite-couts/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-01",
-            "title": "NEMO IMS : monnaie, écologie et essentiel insolvable",
-            "excerpt": "Vingt questions pour comprendre pourquoi la crise écologique est aussi une crise monétaire, et comment NEMO IMS propose de financer ce que le marché ne sait pas",
-            "link": "/nemo-ims/entretien-fondateur/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-30",
-            "title": "Penser la décroissance sans penser la robustesse est un non-sens",
-            "excerpt": "La décroissance morale ne suffit pas si l’architecture monétaire continue d’obliger l’économie à accélérer.",
-            "link": "/articles/auteur/decroissance-robustesse-systeme-monetaire/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-29",
-            "title": "NEMO IMS : Quel système monétaire international pour le futur ?",
-            "excerpt": "Après deux siècles d'échecs monétaires, NEMO IMS propose une rupture radicale : une monnaie internationale adossée à la régénération des écosystèmes.",
-            "link": "/articles/auteur/SMI-4/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-29",
-            "title": "Histoire des crises monétaires internationales",
-            "excerpt": "De l'étalon-or sterling aux guerres de monnaies contemporaines : deux siècles de crises et de reconstructions monétaires inachevées.",
-            "link": "/articles/auteur/SMI-3/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-28",
-            "title": "Les dilemmes structurels du système monétaire international",
-            "excerpt": "Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d'un équilibre comptable illusoire.",
-            "link": "/articles/auteur/SMI-2/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-28",
-            "title": "Qu'est-ce qu'un système monétaire international ?",
-            "excerpt": "Les fondements, piliers et contraintes qui structurent la finance mondiale — et pourquoi il est urgent de les repenser. Premier volet d'une série sur le SMI et ",
-            "link": "/articles/auteur/SMI/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-27",
-            "title": "Records boursiers, planète mourante : pourquoi l'économie qui 'fonctionne' nous tue",
-            "excerpt": "Comment un système peut-il simultanément réussir économiquement et détruire les fondations qui rendent cette réussite possible ? Déconstruction du mythe du déco",
-            "link": "/articles/auteur/impossible-decoupage/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-26",
-            "title": "Finance verte : cette grande illusion qui nous mène au chaos",
-            "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Anatomie d'une imposture systémique.",
-            "link": "/articles/auteur/finance-verte-illusion/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-24",
-            "title": "Pourquoi les COP ne servent à rien",
-            "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
-            "link": "/articles/auteur/cop-lobbycratie/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-23",
-            "title": "Ivan Illich : Le prophète de la convivialité",
-            "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
-            "link": "/articles/auteur/ivan-illich-portrait/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-22",
-            "title": "Le mythe de Sisyphe de la dette",
-            "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
-            "link": "/articles/auteur/creation-monetaire-dette/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-21",
-            "title": "Le PIB ne mesure pas ce que nous croyons",
-            "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
-            "link": "/articles/auteur/limites-pib/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-20",
-            "title": "Septième limite franchie : L'acidification des océans",
-            "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
-            "link": "/articles/auteur/septieme-limite-planetaire/"
-        },
-        {
-            "type": "video",
-            "date": "2026-04-19",
-            "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
-            "excerpt": "L'argent actuel impose une croissance perpétuelle incompatible avec les limites planétaires.",
-            "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
-            "youtubeId": "s6Hbfs7pOao"
-        },
-        {
-            "type": "video",
-            "date": "2026-04-17",
-            "title": "NEMO IMS : une monnaie pour la régénération planétaire",
-            "excerpt": "Présentation du système monétaire néguentropique.",
-            "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
-            "youtubeId": "NtQZm9RcpFk"
-        }
-    ]
+  "news": [
+    {
+      "type": "texte",
+      "date": "2026-05-08",
+      "title": "La Terre Paye les Intérêts",
+      "excerpt": "Comment l'argent-dette transforme la planète en caution : trois malédictions, un nœud gordien, et NEMO IMS comme seul horizon systémique.",
+      "link": "/articles/auteur/la-terre-paye-les-interets/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-08",
+      "title": "Pourquoi la monnaie bancaire est dégénérative ?",
+      "excerpt": "Trois malédictions structurelles, une métaphore qui roule et NEMO IMS : comment l'architecture monétaire conditionne la destruction du vivant.",
+      "link": "/articles/auteur/monnaie-bancaire-degenerative/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-07",
+      "title": "L'imposture de la transition énergétique",
+      "excerpt": "Pourquoi les énergies ne se substituent pas — elles s'accumulent. Et pourquoi cela rend la croissance verte physiquement impossible.",
+      "link": "/articles/auteur/transition-energetique-imposture-decroissance/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-06",
+      "title": "Thermodynamique et économie : pourquoi la croissance détruit l'ordre du vivant",
+      "excerpt": "De l'entropie à la néguentropie : pourquoi toute croissance économique est une combustion, et comment NEMO IMS propose d'ancrer la monnaie dans la régénération ",
+      "link": "/articles/auteur/thermodynamique-entropie-vivant/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-05",
+      "title": "La destruction comme doctrine",
+      "excerpt": "Pourquoi l’obsolescence programmée n’est pas un simple scandale industriel, mais le symptôme d’un système économique qui transforme la durée en ennemi du profit",
+      "link": "/articles/auteur/obsolescence-programmee-financiarisation-temps-vole/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-04",
+      "title": "La croissance infinie est impossible",
+      "excerpt": "Pourquoi aucune économie matérielle ne peut croître indéfiniment dans un monde fini : découplage impossible, pics de production, métaux critiques, eau, sable, p",
+      "link": "/articles/auteur/croissance-infinie-impossible/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-02",
+      "title": "L’Architecture de l’entropie",
+      "excerpt": "De Rome aux systèmes financiers contemporains, les civilisations masquent souvent les coûts réels de leur richesse : travailleurs, écosystèmes, générations futu",
+      "link": "/articles/auteur/architecture-entropie-complexite-couts/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-01",
+      "title": "NEMO IMS : monnaie, écologie et essentiel insolvable",
+      "excerpt": "Vingt questions pour comprendre pourquoi la crise écologique est aussi une crise monétaire, et comment NEMO IMS propose de financer ce que le marché ne sait pas",
+      "link": "/nemo-ims/entretien-fondateur/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-30",
+      "title": "Penser la décroissance sans penser la robustesse est un non-sens",
+      "excerpt": "La décroissance morale ne suffit pas si l’architecture monétaire continue d’obliger l’économie à accélérer.",
+      "link": "/articles/auteur/decroissance-robustesse-systeme-monetaire/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-29",
+      "title": "NEMO IMS : Quel système monétaire international pour le futur ?",
+      "excerpt": "Après deux siècles d'échecs monétaires, NEMO IMS propose une rupture radicale : une monnaie internationale adossée à la régénération des écosystèmes.",
+      "link": "/articles/auteur/SMI-4/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-29",
+      "title": "Histoire des crises monétaires internationales",
+      "excerpt": "De l'étalon-or sterling aux guerres de monnaies contemporaines : deux siècles de crises et de reconstructions monétaires inachevées.",
+      "link": "/articles/auteur/SMI-3/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-28",
+      "title": "Les dilemmes structurels du système monétaire international",
+      "excerpt": "Du paradoxe de Triffin au mythe de Sisyphe extractiviste — comment le SMI contraint les nations à détruire le vivant au nom d'un équilibre comptable illusoire.",
+      "link": "/articles/auteur/SMI-2/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-28",
+      "title": "Qu'est-ce qu'un système monétaire international ?",
+      "excerpt": "Les fondements, piliers et contraintes qui structurent la finance mondiale — et pourquoi il est urgent de les repenser. Premier volet d'une série sur le SMI et ",
+      "link": "/articles/auteur/SMI/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-27",
+      "title": "Records boursiers, planète mourante : pourquoi l'économie qui 'fonctionne' nous tue",
+      "excerpt": "Comment un système peut-il simultanément réussir économiquement et détruire les fondations qui rendent cette réussite possible ? Déconstruction du mythe du déco",
+      "link": "/articles/auteur/impossible-decoupage/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-26",
+      "title": "Finance verte : cette grande illusion qui nous mène au chaos",
+      "excerpt": "Pendant que les actifs ESG explosent et que la finance se repeint en vert, les émissions mondiales battent des records. Anatomie d'une imposture systémique.",
+      "link": "/articles/auteur/finance-verte-illusion/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-24",
+      "title": "Pourquoi les COP ne servent à rien",
+      "excerpt": "Trente ans de sommets climatiques, 2456 lobbyistes fossiles à Dubaï, et des émissions qui explosent. Autopsie d'une paralysie organisée.",
+      "link": "/articles/auteur/cop-lobbycratie/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-23",
+      "title": "Ivan Illich : Le prophète de la convivialité",
+      "excerpt": "Portrait du penseur de la contre-productivité. Comment un prêtre viennois exilé a démasqué les institutions qui nous asservissent.",
+      "link": "/articles/auteur/ivan-illich-portrait/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-22",
+      "title": "Le mythe de Sisyphe de la dette",
+      "excerpt": "Comprendre la création monétaire ex nihilo et l'impossibilité mathématique du désendettement global.",
+      "link": "/articles/auteur/creation-monetaire-dette/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-21",
+      "title": "Le PIB ne mesure pas ce que nous croyons",
+      "excerpt": "Analyse des angles morts écologiques et sociaux de l'indicateur central de nos économies.",
+      "link": "/articles/auteur/limites-pib/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-20",
+      "title": "Septième limite franchie : L'acidification des océans",
+      "excerpt": "Sept limites planétaires sur neuf sont franchies. Un diagnostic sans appel.",
+      "link": "/articles/auteur/septieme-limite-planetaire/"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-19",
+      "title": "Pourquoi le Donut de Kate Raworth est impossible avec notre monnaie actuelle ?",
+      "excerpt": "L'argent actuel impose une croissance perpétuelle incompatible avec les limites planétaires.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
+      "youtubeId": "s6Hbfs7pOao"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS : une monnaie pour la régénération planétaire",
+      "excerpt": "Présentation du système monétaire néguentropique.",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
+      "youtubeId": "NtQZm9RcpFk"
+    }
+  ]
 }

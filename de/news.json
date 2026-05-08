@@ -1,81 +1,88 @@
 {
-    "news": [
-        {
-            "type": "texte",
-            "date": "2026-05-08",
-            "title": "Warum ist Bankgeld degenerativ?",
-            "excerpt": "Drei strukturelle Flüche, eine treffende Metapher und NEMO IMS: Wie Geldarchitektur die Zerstörung lebender Systeme bedingt.",
-            "link": "/de/articles/warum-bankgeld-degenerativ-ist/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-07",
-            "title": "Die Impostur der Energiewende",
-            "excerpt": "Jean-Baptiste Fressoz zeigt, dass Energiesysteme sich akkumulieren statt ersetzen — eine radikale Herausforderung für das grüne Wachstum.",
-            "link": "/de/articles/energiewende-impostur-degrowth/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-06",
-            "title": "Thermodynamik und Wirtschaft",
-            "excerpt": "Warum jedes Wirtschaftswachstum eine Verbrennung ist — und wie NEMO IMS vorschlägt, Geld in der Regeneration der Lebenswelt zu verankern.",
-            "link": "/de/articles/thermodynamik-entropie-lebendige-welt/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-05",
-            "title": "Zerstörung als Doktrin",
-            "excerpt": "Warum geplante Obsoleszenz nicht nur ein industrieller Skandal ist, sondern ein Symptom eines Systems, das Langlebigkeit zum Feind des Gewinns macht.",
-            "link": "/de/articles/geplante-obsoleszenz-finanzialisierung-gestohlene-zeit/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-04",
-            "title": "Unendliches Wachstum ist unmöglich",
-            "excerpt": "Warum keine materielle Wirtschaft in einer endlichen Welt unbegrenzt wachsen kann.",
-            "link": "/de/articles/unendliches-wachstum-unmoeglich/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-02",
-            "title": "Die Architektur der Entropie",
-            "excerpt": "Von Rom bis zu den modernen Finanzsystemen verbergen Zivilisationen oft die wahren Kosten ihres Reichtums.",
-            "link": "/de/articles/architektur-der-entropie-komplexitaet-reale-kosten/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-05-01",
-            "title": "NEMO IMS: Geld, Ökologie und das insolvente Wesentliche",
-            "excerpt": "Zwanzig Fragen, um zu verstehen, warum die ökologische Krise auch eine Währungskrise ist.",
-            "link": "/de/nemo-ims/founder-interview/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-30",
-            "title": "Degrowth ohne Robustheit ist sinnlos",
-            "excerpt": "Warum moralischer Degrowth nicht ausreicht, wenn die Währungsarchitektur die Wirtschaft weiterhin zur Beschleunigung zwingt.",
-            "link": "/de/articles/degrowth-robustheit-geldsystem/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-29",
-            "title": "NEMO IMS: Welches internationale Währungssystem für die Zukunft?",
-            "excerpt": "Nach zwei Jahrhunderten monetärer Misserfolge schlägt NEMO IMS einen radikalen Bruch vor.",
-            "link": "/de/articles/nemo-ims-internationales-waehrungssystem-zukunft/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-27",
-            "title": "Börsenrekorde, sterbender Planet",
-            "excerpt": "Wie kann ein System gleichzeitig wirtschaftlich erfolgreich sein und die Grundlagen zerstören, die diesen Erfolg ermöglichen?",
-            "link": "/de/articles/boersenrekorde-sterbender-planet-wirtschaftliche-entkopplung/"
-        },
-        {
-            "type": "texte",
-            "date": "2026-04-24",
-            "title": "Warum die COP nicht funktionieren",
-            "excerpt": "Dreißig Jahre Klimagipfel, tausende fossile Lobbyisten und steigende Emissionen: das Problem ist strukturell.",
-            "link": "/de/articles/warum-cops-nicht-funktionieren/"
-        }
-    ]
+  "news": [
+    {
+      "type": "texte",
+      "date": "2026-05-08",
+      "title": "Die Erde Zahlt Zuerst",
+      "excerpt": "Wie Schuldengeld den Planeten zur Sicherheit macht: drei Flüche, ein Gordischer Knoten und NEMO IMS.",
+      "link": "/de/articles/die-erde-zahlt-zuerst-schuldengeldfalle/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-08",
+      "title": "Warum ist Bankgeld degenerativ?",
+      "excerpt": "Drei strukturelle Flüche, eine treffende Metapher und NEMO IMS: Wie Geldarchitektur die Zerstörung lebender Systeme bedingt.",
+      "link": "/de/articles/warum-bankgeld-degenerativ-ist/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-07",
+      "title": "Die Impostur der Energiewende",
+      "excerpt": "Jean-Baptiste Fressoz zeigt, dass Energiesysteme sich akkumulieren statt ersetzen — eine radikale Herausforderung für das grüne Wachstum.",
+      "link": "/de/articles/energiewende-impostur-degrowth/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-06",
+      "title": "Thermodynamik und Wirtschaft",
+      "excerpt": "Warum jedes Wirtschaftswachstum eine Verbrennung ist — und wie NEMO IMS vorschlägt, Geld in der Regeneration der Lebenswelt zu verankern.",
+      "link": "/de/articles/thermodynamik-entropie-lebendige-welt/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-05",
+      "title": "Zerstörung als Doktrin",
+      "excerpt": "Warum geplante Obsoleszenz nicht nur ein industrieller Skandal ist, sondern ein Symptom eines Systems, das Langlebigkeit zum Feind des Gewinns macht.",
+      "link": "/de/articles/geplante-obsoleszenz-finanzialisierung-gestohlene-zeit/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-04",
+      "title": "Unendliches Wachstum ist unmöglich",
+      "excerpt": "Warum keine materielle Wirtschaft in einer endlichen Welt unbegrenzt wachsen kann.",
+      "link": "/de/articles/unendliches-wachstum-unmoeglich/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-02",
+      "title": "Die Architektur der Entropie",
+      "excerpt": "Von Rom bis zu den modernen Finanzsystemen verbergen Zivilisationen oft die wahren Kosten ihres Reichtums.",
+      "link": "/de/articles/architektur-der-entropie-komplexitaet-reale-kosten/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-01",
+      "title": "NEMO IMS: Geld, Ökologie und das insolvente Wesentliche",
+      "excerpt": "Zwanzig Fragen, um zu verstehen, warum die ökologische Krise auch eine Währungskrise ist.",
+      "link": "/de/nemo-ims/founder-interview/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-30",
+      "title": "Degrowth ohne Robustheit ist sinnlos",
+      "excerpt": "Warum moralischer Degrowth nicht ausreicht, wenn die Währungsarchitektur die Wirtschaft weiterhin zur Beschleunigung zwingt.",
+      "link": "/de/articles/degrowth-robustheit-geldsystem/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-29",
+      "title": "NEMO IMS: Welches internationale Währungssystem für die Zukunft?",
+      "excerpt": "Nach zwei Jahrhunderten monetärer Misserfolge schlägt NEMO IMS einen radikalen Bruch vor.",
+      "link": "/de/articles/nemo-ims-internationales-waehrungssystem-zukunft/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-27",
+      "title": "Börsenrekorde, sterbender Planet",
+      "excerpt": "Wie kann ein System gleichzeitig wirtschaftlich erfolgreich sein und die Grundlagen zerstören, die diesen Erfolg ermöglichen?",
+      "link": "/de/articles/boersenrekorde-sterbender-planet-wirtschaftliche-entkopplung/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-24",
+      "title": "Warum die COP nicht funktionieren",
+      "excerpt": "Dreißig Jahre Klimagipfel, tausende fossile Lobbyisten und steigende Emissionen: das Problem ist strukturell.",
+      "link": "/de/articles/warum-cops-nicht-funktionieren/"
+    }
+  ]
 }
