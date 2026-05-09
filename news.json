@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-05-09",
+      "title": "Pourquoi et comment ne plus craindre la décroissance",
+      "excerpt": "La décroissance n'est pas une récession déguisée. Déconstruire les peurs légitimes et pointer l'impensé monétaire qui bloque tout.",
+      "link": "/articles/auteur/pourquoi-ne-plus-craindre-la-decroissance/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-08",
       "title": "La Terre Paye les Intérêts",
       "excerpt": "Comment l'argent-dette transforme la planète en caution : trois malédictions, un nœud gordien, et NEMO IMS comme seul horizon systémique.",

@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "type": "text",
+      "date": "2026-05-09",
+      "title": "Warum die Angst vor Degrowth unbegründet ist — und was wir wirklich brauchen",
+      "excerpt": "Degrowth ist keine verschleierte Rezession. Die Ängste abbauen und den monetären blinden Fleck benennen, der alles blockiert.",
+      "link": "/de/articles/warum-degrowth-nicht-fuerchten/"
+    },
+    {
       "type": "texte",
       "date": "2026-05-08",
       "title": "Die Erde Zahlt Zuerst",

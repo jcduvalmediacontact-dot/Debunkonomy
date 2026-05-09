@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "type": "texto",
+      "date": "2026-05-09",
+      "title": "Por que não temer o decrescimento — e o que realmente nos falta",
+      "excerpt": "O decrescimento não é uma recessão disfarçada. Desmontar os medos legítimos e nomear o ponto cego monetário que bloqueia tudo.",
+      "link": "/pt/articles/por-que-nao-temer-o-decrescimento/"
+    },
+    {
       "type": "texte",
       "date": "2026-05-08",
       "title": "A Terra Paga Primeiro",

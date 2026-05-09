@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "type": "testo",
+      "date": "2026-05-09",
+      "title": "Perché non temere la decrescita — e cosa ci manca davvero",
+      "excerpt": "La decrescita non è una recessione mascherata. Smontare le paure legittime e nominare il punto cieco monetario che blocca tutto.",
+      "link": "/it/articles/perche-non-temere-la-decrescita/"
+    },
+    {
       "type": "texte",
       "date": "2026-05-08",
       "title": "La Terra Paga per Prima",
