@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-10",
+      "title": "El Dinero que te Ocultan: Endógeno, Exógeno y los Dos Callejones Sin Salida",
+      "excerpt": "¿Es el dinero una mercancía escasa o una deuda elástica? Dos sistemas, dos callejones, un planeta finito.",
+      "link": "/es/articles/dinero-endogeno-exogeno-dos-callejones/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-09",
       "title": "Por qué no temer el decrecimiento — y lo que realmente nos falta",
       "excerpt": "El decrecimiento no es una recesión disfrazada. Desmantelar los miedos legítimos y nombrar el punto ciego monetario que lo bloquea todo.",

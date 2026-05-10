@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-05-10",
+      "title": "La Monnaie que l'on vous cache : endogène, exogène, et les deux impasses",
+      "excerpt": "La monnaie est-elle une marchandise rare ou une dette élastique ? Deux systèmes, deux impasses, une planète finie.",
+      "link": "/articles/auteur/monnaie-endogene-exogene-deux-impasses/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-09",
       "title": "Pourquoi et comment ne plus craindre la décroissance",
       "excerpt": "La décroissance n'est pas une récession déguisée. Déconstruire les peurs légitimes et pointer l'impensé monétaire qui bloque tout.",

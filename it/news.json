@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-10",
+      "title": "Il Denaro che Vi Nascondono: Endogeno, Esogeno e i Due Vicoli Ciechi",
+      "excerpt": "Il denaro è una merce scarsa o un debito elastico? Due sistemi, due vicoli ciechi, un pianeta finito.",
+      "link": "/it/articles/moneta-endogena-esogena-due-vicoli-ciechi/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-09",
       "title": "Perché non temere la decrescita — e cosa ci manca davvero",
       "excerpt": "La decrescita non è una recessione mascherata. Smontare le paure legittime e nominare il punto cieco monetario che blocca tutto.",

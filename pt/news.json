@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-10",
+      "title": "O Dinheiro que Escondem de Você: Endógeno, Exógeno e os Dois Becos Sem Saída",
+      "excerpt": "O dinheiro é uma mercadoria escassa ou uma dívida elástica? Dois sistemas, dois becos, um planeta finito.",
+      "link": "/pt/articles/moeda-endogena-exogena-dois-becos-sem-saida/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-09",
       "title": "Por que não temer o decrescimento — e o que realmente nos falta",
       "excerpt": "O decrescimento não é uma recessão disfarçada. Desmontar os medos legítimos e nomear o ponto cego monetário que bloqueia tudo.",
