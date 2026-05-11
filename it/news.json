@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-11",
+      "title": "Il disaccoppiamento… impossibile o no?",
+      "excerpt": "Crescita verde, disaccoppiamento assoluto, paradosso di Jevons: perché la promessa di crescere senza distruggere è un ossimoro biofisico.",
+      "link": "/it/articles/disaccoppiamento-impossibile-o-no/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-10",
       "title": "Il Denaro che Vi Nascondono: Endogeno, Esogeno e i Due Vicoli Ciechi",
       "excerpt": "Il denaro è una merce scarsa o un debito elastico? Due sistemi, due vicoli ciechi, un pianeta finito.",

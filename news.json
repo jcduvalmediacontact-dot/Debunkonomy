@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-05-11",
+      "title": "Le découplage... impossible ou pas ?",
+      "excerpt": "Croissance verte, découplage absolu, paradoxe de Jevons : pourquoi la promesse de croître sans détruire est un oxymore biophysique.",
+      "link": "/articles/auteur/le-decouplage-impossible-ou-pas/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-10",
       "title": "La Monnaie que l'on vous cache : endogène, exogène, et les deux impasses",
       "excerpt": "La monnaie est-elle une marchandise rare ou une dette élastique ? Deux systèmes, deux impasses, une planète finie.",

@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-11",
+      "title": "O desacoplamento… impossível ou não?",
+      "excerpt": "Crescimento verde, desacoplamento absoluto, paradoxo de Jevons: por que crescer sem destruir é um oxímoro biofísico.",
+      "link": "/pt/articles/desacoplamento-impossivel-ou-nao/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-10",
       "title": "O Dinheiro que Escondem de Você: Endógeno, Exógeno e os Dois Becos Sem Saída",
       "excerpt": "O dinheiro é uma mercadoria escassa ou uma dívida elástica? Dois sistemas, dois becos, um planeta finito.",

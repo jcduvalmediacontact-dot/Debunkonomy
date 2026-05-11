@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-11",
+      "title": "Decoupling… Impossible or Not?",
+      "excerpt": "Green growth, absolute decoupling, Jevons paradox: why the promise of growing without destroying is a biophysical oxymoron.",
+      "link": "/en/articles/decoupling-impossible-or-not/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-10",
       "title": "The Money They Hide From You: Endogenous, Exogenous, and Two Dead Ends",
       "excerpt": "Is money a scarce commodity or an elastic debt? Two systems, two dead ends, one finite planet.",

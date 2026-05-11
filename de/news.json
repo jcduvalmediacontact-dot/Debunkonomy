@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-11",
+      "title": "Entkopplung… unmöglich oder nicht?",
+      "excerpt": "Grünes Wachstum, absolute Entkopplung, Jevons-Paradoxon: Warum das Versprechen, ohne Zerstörung zu wachsen, ein Oxymoron ist.",
+      "link": "/de/articles/entkopplung-unmoeglich-oder-nicht/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-10",
       "title": "Das Geld, das man Ihnen verschweigt: Endogen, Exogen und die zwei Sackgassen",
       "excerpt": "Ist Geld eine knappe Ware oder eine elastische Schuld? Zwei Systeme, zwei Sackgassen, ein endlicher Planet.",

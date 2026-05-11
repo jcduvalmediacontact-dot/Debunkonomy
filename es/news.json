@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-11",
+      "title": "El desacoplamiento… ¿imposible o no?",
+      "excerpt": "Crecimiento verde, desacoplamiento absoluto, paradoja de Jevons: por qué crecer sin destruir es un oxímoron biofísico.",
+      "link": "/es/articles/desacoplamiento-imposible-o-no/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-10",
       "title": "El Dinero que te Ocultan: Endógeno, Exógeno y los Dos Callejones Sin Salida",
       "excerpt": "¿Es el dinero una mercancía escasa o una deuda elástica? Dos sistemas, dos callejones, un planeta finito.",
