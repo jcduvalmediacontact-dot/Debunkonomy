@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-12",
+      "title": "E se domani il sistema dollaro collassasse?",
+      "excerpt": "Bitcoin, BRICS, MMT o NEMO IMS: un confronto sistemico delle alternative monetarie globali.",
+      "link": "/it/articles/se-il-dollaro-collassasse-domani-bitcoin-brics-mmt-nemo-ims/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-11",
       "title": "Il disaccoppiamento… impossibile o no?",
       "excerpt": "Crescita verde, disaccoppiamento assoluto, paradosso di Jevons: perché la promessa di crescere senza distruggere è un ossimoro biofisico.",

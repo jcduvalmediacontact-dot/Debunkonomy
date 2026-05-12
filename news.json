@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-05-12",
+      "title": "Et si demain le système dollar s'effondrait ?",
+      "excerpt": "Bitcoin, BRICS, MMT ou NEMO IMS : un comparatif systémique des alternatives monétaires mondiales.",
+      "link": "/articles/auteur/si-demain-le-dollar-seffondrait-bitcoin-brics-mmt-nemo-ims/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-11",
       "title": "Le découplage... impossible ou pas ?",
       "excerpt": "Croissance verte, découplage absolu, paradoxe de Jevons : pourquoi la promesse de croître sans détruire est un oxymore biophysique.",
