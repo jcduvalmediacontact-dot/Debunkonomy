@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-12",
+      "title": "E se amanhã o sistema dólar colapsasse?",
+      "excerpt": "Bitcoin, BRICS, MMT ou NEMO IMS: uma comparação sistémica das alternativas monetárias globais.",
+      "link": "/pt/articles/se-o-dolar-colapsasse-amanha-bitcoin-brics-mmt-nemo-ims/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-11",
       "title": "O desacoplamento… impossível ou não?",
       "excerpt": "Crescimento verde, desacoplamento absoluto, paradoxo de Jevons: por que crescer sem destruir é um oxímoro biofísico.",
