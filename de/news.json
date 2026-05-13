@@ -99,6 +99,27 @@
       "link": "/de/articles/nemo-ims-internationales-waehrungssystem-zukunft/"
     },
     {
+      "type": "text",
+      "date": "2026-04-29",
+      "title": "Geschichte internationaler Währungskrisen",
+      "excerpt": "",
+      "link": "/de/articles/geschichte-internationaler-waehrungskrisen/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-28",
+      "title": "Die strukturellen Dilemmata des internationalen Währungssystems",
+      "excerpt": "",
+      "link": "/de/articles/strukturelle-dilemmata-internationales-waehrungssystem/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-28",
+      "title": "Was ist ein internationales Währungssystem?",
+      "excerpt": "",
+      "link": "/de/articles/was-ist-ein-internationales-waehrungssystem/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-27",
       "title": "Börsenrekorde, sterbender Planet",
@@ -106,11 +127,62 @@
       "link": "/de/articles/boersenrekorde-sterbender-planet-wirtschaftliche-entkopplung/"
     },
     {
+      "type": "text",
+      "date": "2026-04-26",
+      "title": "Grüne Finanz: die große Illusion, die uns ins Chaos führt",
+      "excerpt": "",
+      "link": "/de/articles/gruene-finanz-grosse-illusion-chaos/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-24",
       "title": "Warum die COP nicht funktionieren",
       "excerpt": "Dreißig Jahre Klimagipfel, tausende fossile Lobbyisten und steigende Emissionen: das Problem ist strukturell.",
       "link": "/de/articles/warum-cops-nicht-funktionieren/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-23",
+      "title": "Ivan Illich: der Prophet der Konvivialität",
+      "excerpt": "",
+      "link": "/de/articles/ivan-illich-prophet-der-konvivialitaet/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-22",
+      "title": "Der Mythos des Sisyphos der Schulden",
+      "excerpt": "",
+      "link": "/de/articles/schulden-sisyphus-geldschoepfung/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-21",
+      "title": "Das BIP misst nicht, was wir zu messen glauben",
+      "excerpt": "",
+      "link": "/de/articles/bip-misst-nicht-was-wir-glauben/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-20",
+      "title": "Eine siebte planetare Grenze überschritten: die Versauerung der Ozeane",
+      "excerpt": "",
+      "link": "/de/articles/siebte-planetare-grenze-ozeanversauerung/"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-19",
+      "title": "Warum Kate Raworths Donut mit unserem aktuellen Geld unmöglich ist",
+      "excerpt": "Das aktuelle Geld erzwingt strukturell ein dauerhaftes Wachstum, das mit den planetaren Grenzen unvereinbar ist.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
+      "youtubeId": "s6Hbfs7pOao"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS: eine Währung für die planetare Regeneration",
+      "excerpt": "Vorstellung des neguentropischen Währungssystems.",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
+      "youtubeId": "NtQZm9RcpFk"
     }
   ]
 }

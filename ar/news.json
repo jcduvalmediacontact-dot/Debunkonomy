@@ -99,6 +99,27 @@
       "link": "/ar/articles/nemo-ims-international-monetary-system-future/"
     },
     {
+      "type": "نص",
+      "date": "2026-04-29",
+      "title": "تاريخ الأزمات النقدية الدولية",
+      "excerpt": "",
+      "link": "/ar/articles/history-of-international-monetary-crises/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-28",
+      "title": "المعضلات البنيوية للنظام النقدي الدولي",
+      "excerpt": "",
+      "link": "/ar/articles/structural-dilemmas-international-monetary-system/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-28",
+      "title": "ما هو النظام النقدي الدولي؟",
+      "excerpt": "",
+      "link": "/ar/articles/what-is-an-international-monetary-system/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-27",
       "title": "أرقام قياسية في البورصة، كوكب يحتضر",
@@ -106,11 +127,62 @@
       "link": "/ar/articles/stock-market-records-dying-planet-economic-decoupling/"
     },
     {
+      "type": "نص",
+      "date": "2026-04-26",
+      "title": "التمويل الأخضر: الوهم الكبير الذي يقودنا إلى الفوضى",
+      "excerpt": "",
+      "link": "/ar/articles/green-finance-great-illusion-chaos/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-24",
       "title": "لماذا لا تعمل مؤتمرات المناخ COP؟",
       "excerpt": "ثلاثون عاماً من قمم المناخ، الآلاف من لوبيات الوقود الأحفوري، والانبعاثات ترتفع: المشكلة هيكلية.",
       "link": "/ar/articles/why-cops-do-not-work/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-23",
+      "title": "إيفان إيليتش: نبيّ التعايشية",
+      "excerpt": "",
+      "link": "/ar/articles/ivan-illich-prophet-of-conviviality/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-22",
+      "title": "أسطورة سيزيف والدين: عندما يولد النقد من القرض",
+      "excerpt": "",
+      "link": "/ar/articles/debt-sisyphus-myth-money-creation/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-21",
+      "title": "الناتج المحلي الإجمالي لا يقيس ما نعتقد أنه يقيسه",
+      "excerpt": "",
+      "link": "/ar/articles/gdp-does-not-measure-what-we-think/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-20",
+      "title": "تجاوز حد كوكبي سابع: تحمّض المحيطات",
+      "excerpt": "",
+      "link": "/ar/articles/seventh-planetary-boundary-ocean-acidification/"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-19",
+      "title": "لماذا دائرة كيت راورث مستحيلة مع نقودنا الحالية؟",
+      "excerpt": "النقود الحالية تفرض هيكلياً نمواً دائماً يتعارض مع الحدود الكوكبية.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
+      "youtubeId": "s6Hbfs7pOao"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS: عملة من أجل التجدد الكوكبي",
+      "excerpt": "عرض تقديمي للنظام النقدي السلبي الإنتروبي.",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
+      "youtubeId": "NtQZm9RcpFk"
     }
   ]
 }

@@ -99,6 +99,27 @@
       "link": "/es/articles/nemo-ims-sistema-monetario-internacional-futuro/"
     },
     {
+      "type": "texto",
+      "date": "2026-04-29",
+      "title": "Historia de las crisis monetarias internacionales",
+      "excerpt": "",
+      "link": "/es/articles/historia-crisis-monetarias-internacionales/"
+    },
+    {
+      "type": "texto",
+      "date": "2026-04-28",
+      "title": "Los dilemas estructurales del sistema monetario internacional",
+      "excerpt": "",
+      "link": "/es/articles/dilemas-estructurales-sistema-monetario-internacional/"
+    },
+    {
+      "type": "texto",
+      "date": "2026-04-28",
+      "title": "¿Qué es un sistema monetario internacional?",
+      "excerpt": "",
+      "link": "/es/articles/que-es-un-sistema-monetario-internacional/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-27",
       "title": "Récords bursátiles, planeta moribundo",
@@ -106,11 +127,62 @@
       "link": "/es/articles/records-bursatiles-planeta-moribundo-desacoplamiento-economico/"
     },
     {
+      "type": "texto",
+      "date": "2026-04-26",
+      "title": "Las finanzas verdes: la gran ilusión del caos",
+      "excerpt": "",
+      "link": "/es/articles/finanzas-verdes-gran-ilusion-caos/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-24",
       "title": "Por qué las COP no sirven de nada",
       "excerpt": "Treinta años de cumbres climáticas, miles de lobistas fósiles y emisiones en alza: el problema es estructural.",
       "link": "/es/articles/por-que-las-cop-no-funcionan/"
+    },
+    {
+      "type": "texto",
+      "date": "2026-04-23",
+      "title": "Ivan Illich, profeta de la convivialidad",
+      "excerpt": "",
+      "link": "/es/articles/ivan-illich-profeta-convivialidad/"
+    },
+    {
+      "type": "texto",
+      "date": "2026-04-22",
+      "title": "La deuda, o el mito de Sísifo de la creación monetaria",
+      "excerpt": "",
+      "link": "/es/articles/deuda-mito-sisifo-creacion-monetaria/"
+    },
+    {
+      "type": "texto",
+      "date": "2026-04-21",
+      "title": "El PIB no mide lo que creemos",
+      "excerpt": "",
+      "link": "/es/articles/pib-no-mide-lo-que-creemos/"
+    },
+    {
+      "type": "texto",
+      "date": "2026-04-20",
+      "title": "El séptimo límite planetario: la acidificación de los océanos",
+      "excerpt": "",
+      "link": "/es/articles/septimo-limite-planetario-acidificacion-oceanos/"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-19",
+      "title": "Por qué el Donut de Kate Raworth es imposible con nuestra moneda actual",
+      "excerpt": "El dinero actual impone un crecimiento perpetuo incompatible con los límites planetarios.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
+      "youtubeId": "s6Hbfs7pOao"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS: una moneda para la regeneración planetaria",
+      "excerpt": "Presentación del sistema monetario neguentrópico.",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
+      "youtubeId": "NtQZm9RcpFk"
     }
   ]
 }

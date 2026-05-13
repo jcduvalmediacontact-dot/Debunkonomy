@@ -99,6 +99,27 @@
       "link": "/en/articles/nemo-ims-international-monetary-system-future/"
     },
     {
+      "type": "text",
+      "date": "2026-04-29",
+      "title": "A History of International Monetary Crises",
+      "excerpt": "",
+      "link": "/en/articles/history-of-international-monetary-crises/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-28",
+      "title": "The Structural Dilemmas of the International Monetary System",
+      "excerpt": "",
+      "link": "/en/articles/structural-dilemmas-international-monetary-system/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-28",
+      "title": "What Is an International Monetary System?",
+      "excerpt": "",
+      "link": "/en/articles/what-is-an-international-monetary-system/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-27",
       "title": "Stock Market Records, Dying Planet",
@@ -106,11 +127,62 @@
       "link": "/en/articles/stock-market-records-dying-planet-economic-decoupling/"
     },
     {
+      "type": "text",
+      "date": "2026-04-26",
+      "title": "Green Finance: The Great Illusion Leading Us Toward Chaos",
+      "excerpt": "",
+      "link": "/en/articles/green-finance-great-illusion-chaos/"
+    },
+    {
       "type": "texte",
       "date": "2026-04-24",
       "title": "Why COPs Do Not Work",
       "excerpt": "Thirty years of climate summits, thousands of fossil lobbyists and rising emissions: the problem is structural, not diplomatic.",
       "link": "/en/articles/why-cops-do-not-work/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-23",
+      "title": "Ivan Illich: The Prophet of Conviviality",
+      "excerpt": "",
+      "link": "/en/articles/ivan-illich-prophet-of-conviviality/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-22",
+      "title": "The Myth of Sisyphus of Debt",
+      "excerpt": "",
+      "link": "/en/articles/debt-sisyphus-myth-money-creation/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-21",
+      "title": "GDP Does Not Measure What We Think It Measures",
+      "excerpt": "",
+      "link": "/en/articles/gdp-does-not-measure-what-we-think/"
+    },
+    {
+      "type": "text",
+      "date": "2026-04-20",
+      "title": "A Seventh Planetary Boundary Crossed: Ocean Acidification",
+      "excerpt": "",
+      "link": "/en/articles/seventh-planetary-boundary-ocean-acidification/"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-19",
+      "title": "Why Kate Raworth's Doughnut Is Impossible With Our Current Money",
+      "excerpt": "Current money structurally imposes perpetual growth incompatible with planetary limits.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
+      "youtubeId": "s6Hbfs7pOao"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS: A Currency for Planetary Regeneration",
+      "excerpt": "Presentation of the neguentropic monetary system.",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
+      "youtubeId": "NtQZm9RcpFk"
     }
   ]
 }
