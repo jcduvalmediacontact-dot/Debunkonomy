@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-13",
+      "title": "La policrisi del 2026 segnerà la fine di un sistema?",
+      "excerpt": "La meccanica interna di un sistema monetario progettato per un'estrazione infinita in una biosfera con limiti ormai visibili.",
+      "link": "/it/articles/policrisi-2026-esito-logico-sistema-monetario/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-12",
       "title": "E se domani il sistema dollaro collassasse?",
       "excerpt": "Bitcoin, BRICS, MMT o NEMO IMS: un confronto sistemico delle alternative monetarie globali.",
