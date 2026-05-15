@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-15",
+      "title": "The Tragedy of Horizons",
+      "excerpt": "Extractivism produces short-term private profits. Regeneration produces diffuse, long-term civilizational benefits.",
+      "link": "/en/articles/tragedy-of-horizons/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-13",
       "title": "Will the 2026 Polycrisis Mark the End of a System?",
       "excerpt": "The internal mechanics of a monetary system designed for infinite extraction in a biosphere with now-visible limits.",

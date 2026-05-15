@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-15",
+      "title": "Die Tragödie der Horizonte",
+      "excerpt": "Extraktivismus erzeugt kurzfristige private Gewinne. Regeneration erzeugt diffuse zivilisatorische Vorteile.",
+      "link": "/de/articles/tragedie-der-horizonte/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-13",
       "title": "Wird die Polykrise 2026 das Ende eines Systems markieren?",
       "excerpt": "Die innere Mechanik eines Währungssystems, das für unendliche Extraktion in einer Biosphäre mit nun sichtbaren Grenzen entworfen wurde.",

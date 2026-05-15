@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-15",
+      "title": "La Tragedia degli Orizzonti",
+      "excerpt": "L'estrattivismo produce profitti privati a breve termine. La rigenerazione produce benefici civilizzatori diffusi.",
+      "link": "/it/articles/tragedia-degli-orizzonti/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-13",
       "title": "La policrisi del 2026 segnerà la fine di un sistema?",
       "excerpt": "La meccanica interna di un sistema monetario progettato per un'estrazione infinita in una biosfera con limiti ormai visibili.",

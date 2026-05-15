@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-15",
+      "title": "A Tragédia dos Horizontes",
+      "excerpt": "O extrativismo produz lucros privados de curto prazo. A regeneração produz benefícios civilizacionais difusos.",
+      "link": "/pt/articles/tragedia-dos-horizontes/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-13",
       "title": "A policrise de 2026 marcará o fim de um sistema?",
       "excerpt": "A mecânica interna de um sistema monetário concebido para uma extração infinita numa biosfera com limites agora visíveis.",
