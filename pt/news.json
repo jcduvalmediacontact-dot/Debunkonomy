@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-16",
+      "title": "Microeconomia, macroeconomia e pensamento macro-sistémico",
+      "excerpt": "A microeconomia observa as peças. A macroeconomia observa o tabuleiro. Mas ninguém olha para como está a mesa.",
+      "link": "/pt/articles/microeconomia-macroeconomia-macro-sistemica/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-15",
       "title": "A Tragédia dos Horizontes",
       "excerpt": "O extrativismo produz lucros privados de curto prazo. A regeneração produz benefícios civilizacionais difusos.",

@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-16",
+      "title": "Microeconomics, Macroeconomics and Macro-systemic Thinking",
+      "excerpt": "Microeconomics observes the pieces. Macroeconomics observes the board. But nobody looks at how the table is doing.",
+      "link": "/en/articles/microeconomics-macroeconomics-macro-systemic/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-15",
       "title": "The Tragedy of Horizons",
       "excerpt": "Extractivism produces short-term private profits. Regeneration produces diffuse, long-term civilizational benefits.",

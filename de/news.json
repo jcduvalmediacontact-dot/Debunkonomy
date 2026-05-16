@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-16",
+      "title": "Mikroökonomie, Makroökonomie und makro-systemisches Denken",
+      "excerpt": "Die Mikroökonomie beobachtet die Figuren. Die Makroökonomie beobachtet das Spielbrett. Aber niemand sieht nach, wie es dem Tisch geht.",
+      "link": "/de/articles/mikrooekonomie-makrooekonomie-makro-systemisch/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-15",
       "title": "Die Tragödie der Horizonte",
       "excerpt": "Extraktivismus erzeugt kurzfristige private Gewinne. Regeneration erzeugt diffuse zivilisatorische Vorteile.",
