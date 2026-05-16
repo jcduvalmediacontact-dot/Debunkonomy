@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-16",
+      "title": "Microeconomia, macroeconomia e pensiero macro-sistemico",
+      "excerpt": "La microeconomia osserva i pezzi. La macroeconomia osserva la scacchiera. Ma nessuno guarda come sta il tavolo.",
+      "link": "/it/articles/microeconomia-macroeconomia-macro-sistemica/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-15",
       "title": "La Tragedia degli Orizzonti",
       "excerpt": "L'estrattivismo produce profitti privati a breve termine. La rigenerazione produce benefici civilizzatori diffusi.",

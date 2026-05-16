@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-16",
+      "title": "Microeconomía, macroeconomía y pensamiento macro-sistémico",
+      "excerpt": "La microeconomía observa las piezas. La macroeconomía observa el tablero. Pero nadie mira cómo está la mesa.",
+      "link": "/es/articles/microeconomia-macroeconomia-macro-sistemica/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-15",
       "title": "La Tragedia de los Horizontes",
       "excerpt": "El extractivismo produce beneficios privados a corto plazo. La regeneración produce beneficios civilizacionales difusos.",
