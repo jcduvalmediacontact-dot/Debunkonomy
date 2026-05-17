@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-05-17",
+      "title": "La monnaie, l'angle mort des écologistes",
+      "excerpt": "Tant que les écologistes négligeront la question monétaire, la nature perdra.",
+      "link": "/articles/auteur/monnaie-angle-mort-ecologistes/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-16",
       "title": "Microéconomie, macroéconomie et macro-systémique",
       "excerpt": "La microéconomie observe les pièces. La macroéconomie observe le plateau. Mais personne ne regarde comment va la table.",

@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-17",
+      "title": "El dinero, el punto ciego de los ecologistas",
+      "excerpt": "Mientras los ecologistas descuiden la cuestión monetaria, la naturaleza perderá.",
+      "link": "/es/articles/dinero-punto-ciego-ecologistas/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-16",
       "title": "Microeconomía, macroeconomía y pensamiento macro-sistémico",
       "excerpt": "La microeconomía observa las piezas. La macroeconomía observa el tablero. Pero nadie mira cómo está la mesa.",
