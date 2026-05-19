@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-19",
+      "title": "Eine neue Philosophie des Werts",
+      "excerpt": "Alles Gold der Welt wird dich nicht ernähren auf einem zerstörten Planeten. Warum wir die Werthierarchie umgekehrt haben.",
+      "link": "/de/articles/neue-philosophie-des-werts/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-17",
       "title": "Geld: der blinde Fleck der Ökologisten",
       "excerpt": "Solange Ökologisten die Geldfrage vernachlässigen, wird die Natur verlieren.",

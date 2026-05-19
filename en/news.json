@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-19",
+      "title": "A New Philosophy of Value",
+      "excerpt": "Owning all the gold in the world will not feed you on a ruined planet. Why we have inverted the hierarchy of values.",
+      "link": "/en/articles/a-new-philosophy-of-value/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-17",
       "title": "Money: the Blind Spot of Ecologists",
       "excerpt": "As long as ecologists neglect the monetary question, nature will lose.",

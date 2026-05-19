@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-19",
+      "title": "Una nueva filosofía del valor",
+      "excerpt": "Poseer todo el oro del mundo no te alimentará en un planeta destruido. Por qué hemos invertido la jerarquía de valores.",
+      "link": "/es/articles/nueva-filosofia-del-valor/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-17",
       "title": "El dinero, el punto ciego de los ecologistas",
       "excerpt": "Mientras los ecologistas descuiden la cuestión monetaria, la naturaleza perderá.",
