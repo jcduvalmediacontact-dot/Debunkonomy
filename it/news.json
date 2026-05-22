@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-22",
+      "title": "Discorso sulla servitù finanziaria",
+      "excerpt": "Il debito è una servitù perfezionata. Il denaro è una creazione sociale. Capire è il primo atto di resistenza.",
+      "link": "/it/articles/discorso-sulla-servitu-finanziaria/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-19",
       "title": "Una nuova filosofia del valore",
       "excerpt": "Possedere tutto l'oro del mondo non ti nutrirà su un pianeta distrutto. Perché abbiamo invertito la gerarchia dei valori.",

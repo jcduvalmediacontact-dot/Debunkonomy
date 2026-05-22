@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-22",
+      "title": "Discurso sobre la servidumbre financiera",
+      "excerpt": "La deuda es una esclavitud perfeccionada. El dinero es una creación social. Comprender es el primer acto de resistencia.",
+      "link": "/es/articles/discurso-sobre-la-servidumbre-financiera/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-19",
       "title": "Una nueva filosofía del valor",
       "excerpt": "Poseer todo el oro del mundo no te alimentará en un planeta destruido. Por qué hemos invertido la jerarquía de valores.",

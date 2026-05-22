@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-22",
+      "title": "Discurso sobre a Servidão Financeira",
+      "excerpt": "A dívida é uma escravidão aperfeiçoada. O dinheiro é uma criação social. Compreender é o primeiro ato de resistência.",
+      "link": "/pt/articles/discurso-sobre-a-servidao-financeira/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-19",
       "title": "Uma nova filosofia do valor",
       "excerpt": "Possuir todo o ouro do mundo não te alimentará num planeta destruído. Por que invertemos a hierarquia dos valores.",
