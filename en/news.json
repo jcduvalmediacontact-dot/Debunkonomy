@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-25",
+      "title": "The Age of Bullshitnovation, or Capitalism at the Hour of Its Absurd",
+      "excerpt": "A philosophical critique of an economy that no longer knows what to invent to justify its existence.",
+      "link": "/en/articles/bullshitnovation-capitalism-age-of-absurd/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-22",
       "title": "The Discourse of Financial Servitude",
       "excerpt": "Debt is perfected servitude. Money is a social creation. Understanding is the first act of resistance.",

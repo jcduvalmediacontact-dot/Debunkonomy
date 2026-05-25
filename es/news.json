@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-25",
+      "title": "La era de la bullshitnovación o el capitalismo en la hora de su absurdo",
+      "excerpt": "Crítica filosófica de una economía que ya no sabe qué inventar para justificar su razón de ser.",
+      "link": "/es/articles/bullshitnovacion-capitalismo-era-absurdo/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-22",
       "title": "Discurso sobre la servidumbre financiera",
       "excerpt": "La deuda es una esclavitud perfeccionada. El dinero es una creación social. Comprender es el primer acto de resistencia.",

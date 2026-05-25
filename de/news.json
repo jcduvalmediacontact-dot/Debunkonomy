@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-05-25",
+      "title": "Das Zeitalter der Bullshitnovation oder der Kapitalismus in der Stunde seines Absurden",
+      "excerpt": "Eine philosophische Kritik einer Wirtschaft, die nicht mehr weiß, was sie erfinden soll.",
+      "link": "/de/articles/bullshitnovation-kapitalismus-zeitalter-absurden/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-22",
       "title": "Diskurs über finanzielle Knechtschaft",
       "excerpt": "Schulden sind verfeinerte Knechtschaft. Geld ist eine gesellschaftliche Schöpfung. Verstehen ist der erste Akt des Widerstands.",

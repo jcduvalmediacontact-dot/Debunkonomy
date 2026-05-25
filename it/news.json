@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-25",
+      "title": "L'era della bullshitinovazione o il capitalismo nell'ora del suo assurdo",
+      "excerpt": "Una critica filosofica di un'economia che non sa più cosa inventare per giustificare la propria ragione d'essere.",
+      "link": "/it/articles/bullshitnovazione-capitalismo-era-assurdo/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-22",
       "title": "Discorso sulla servitù finanziaria",
       "excerpt": "Il debito è una servitù perfezionata. Il denaro è una creazione sociale. Capire è il primo atto di resistenza.",
