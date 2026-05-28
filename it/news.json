@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-05-28",
+      "title": "L'impotenza della microeconomia di fronte alla macro-sistemica",
+      "excerpt": "Alla microeconomia non mancano le soluzioni. Le manca il giusto livello di intervento. Finché il sistema monetario rimarrà intatto, qualsiasi transizione ecologica resterà marginale.",
+      "link": "/it/articles/impotenza-microeconomia-macro-sistemica/"
+    },
+    {
+      "type": "testo",
       "date": "2026-05-25",
       "title": "L'era della bullshitinovazione o il capitalismo nell'ora del suo assurdo",
       "excerpt": "Una critica filosofica di un'economia che non sa più cosa inventare per giustificare la propria ragione d'essere.",
