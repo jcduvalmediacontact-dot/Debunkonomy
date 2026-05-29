@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-05-29",
+      "title": "Économie et thermodynamique : pourquoi détruire est-il toujours plus rentable ?",
+      "excerpt": "Haute entropie = haute marge. Régénératif = insolvabilité. Une loi d'architecture monétaire.",
+      "link": "/articles/auteur/economie-thermodynamique-detruire-reparer/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-28",
       "title": "L'impuissance de la micro-économie face à la macro-systémique",
       "excerpt": "La micro-économie ne manque pas de solutions. Elle manque du bon niveau d'intervention. Tant que le système monétaire reste intact, toute transition écologique demeurera marginale.",

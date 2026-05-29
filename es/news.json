@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-05-29",
+      "title": "Economía y termodinámica: ¿por qué destruir es siempre más rentable?",
+      "excerpt": "Alta entropía = alto margen. Regenerativo = insolvencia. Una ley de arquitectura monetaria.",
+      "link": "/es/articles/economia-termodinamica-destruir-mas-rentable/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-28",
       "title": "La impotencia de la microeconomía frente a la macro-sistémica",
       "excerpt": "A la microeconomía no le faltan soluciones. Le falta el nivel de intervención adecuado. Mientras el sistema monetario permanezca intacto, cualquier transición ecológica seguirá siendo marginal.",
