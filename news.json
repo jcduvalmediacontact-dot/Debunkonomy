@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-06-01",
+      "title": "Le paradoxe de Jevons : l'efficacité accélère la destruction",
+      "excerpt": "Efficacité technologique, effet rebond, mythe du découplage vert et réforme monétaire NEMO IMS.",
+      "link": "/articles/auteur/jevons-efficacite-acceleration-destruction/"
+    },
+    {
+      "type": "texte",
       "date": "2026-05-29",
       "title": "Économie et thermodynamique : pourquoi détruire est-il toujours plus rentable ?",
       "excerpt": "Haute entropie = haute marge. Régénératif = insolvabilité. Une loi d'architecture monétaire.",

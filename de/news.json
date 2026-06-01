@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-06-01",
+      "title": "Das Jevons-Paradoxon: Effizienz beschleunigt die Zerstörung",
+      "excerpt": "Technologische Effizienz, Rebound-Effekt, Mythos der grünen Entkopplung und Geldreform NEMO IMS.",
+      "link": "/de/articles/jevons-paradoxon-effizienz-beschleunigt-zerstoerung/"
+    },
+    {
+      "type": "text",
       "date": "2026-05-29",
       "title": "Wirtschaft & Thermodynamik: Warum ist Zerstören immer rentabler?",
       "excerpt": "Hohe Entropie = hohe Marge. Regenerativ = Insolvenz. Ein Gesetz der Geldarchitektur.",
