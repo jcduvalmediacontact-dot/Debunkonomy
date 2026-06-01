@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-06-01",
+      "title": "La paradoja de Jevons: la eficiencia acelera la destrucción",
+      "excerpt": "Eficiencia tecnológica, efecto rebote, mito del desacoplamiento verde y reforma monetaria NEMO IMS.",
+      "link": "/es/articles/paradoja-jevons-eficiencia-acelera-destruccion/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-29",
       "title": "Economía y termodinámica: ¿por qué destruir es siempre más rentable?",
       "excerpt": "Alta entropía = alto margen. Regenerativo = insolvencia. Una ley de arquitectura monetaria.",

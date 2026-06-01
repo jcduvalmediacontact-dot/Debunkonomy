@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-06-01",
+      "title": "O paradoxo de Jevons: a eficiência acelera a destruição",
+      "excerpt": "Eficiência tecnológica, efeito ricochete, mito do desacoplamento verde e reforma monetária NEMO IMS.",
+      "link": "/pt/articles/paradoxo-jevons-eficiencia-acelera-destruicao/"
+    },
+    {
+      "type": "texto",
       "date": "2026-05-29",
       "title": "Economia e termodinâmica: por que destruir é sempre mais rentável?",
       "excerpt": "Alta entropia = margem alta. Regenerativo = insolvência. Uma lei de arquitetura monetária.",
