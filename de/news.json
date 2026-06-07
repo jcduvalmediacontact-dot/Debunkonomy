@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-06-07",
+      "title": "Die Biosphäre: Der blinde Fleck des Welthandels",
+      "excerpt": "Der größte blinde Fleck des Welthandels: die Biosphäre als ultimativer Zahler. Wechselkursasymmetrie",
+      "link": "/de/articles/biosphaere-blinder-fleck-welthandel/"
+    },
+    {
+      "type": "text",
       "date": "2026-06-01",
       "title": "Das Jevons-Paradoxon: Effizienz beschleunigt die Zerstörung",
       "excerpt": "Technologische Effizienz, Rebound-Effekt, Mythos der grünen Entkopplung und Geldreform NEMO IMS.",

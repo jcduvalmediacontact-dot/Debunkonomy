@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-06-07",
+      "title": "La biosphère, angle mort du commerce international",
+      "excerpt": "Le plus grand angle mort du commerce international : la biosphère comme payeur de premier ressort. A",
+      "link": "/articles/auteur/biosphere-angle-mort-commerce-international/"
+    },
+    {
+      "type": "texte",
       "date": "2026-06-01",
       "title": "Le paradoxe de Jevons : l'efficacité accélère la destruction",
       "excerpt": "Efficacité technologique, effet rebond, mythe du découplage vert et réforme monétaire NEMO IMS.",

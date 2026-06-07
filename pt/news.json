@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-06-07",
+      "title": "A biosfera, o ponto cego do comércio internacional",
+      "excerpt": "O maior ponto cego do comércio internacional: a biosfera como pagador de primeiro recurso. Assimetri",
+      "link": "/pt/articles/biosfera-ponto-cego-comercio-internacional/"
+    },
+    {
+      "type": "texto",
       "date": "2026-06-01",
       "title": "O paradoxo de Jevons: a eficiência acelera a destruição",
       "excerpt": "Eficiência tecnológica, efeito ricochete, mito do desacoplamento verde e reforma monetária NEMO IMS.",

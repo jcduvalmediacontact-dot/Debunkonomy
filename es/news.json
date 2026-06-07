@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-06-07",
+      "title": "La biosfera, el punto ciego del comercio internacional",
+      "excerpt": "El mayor punto ciego del comercio internacional: la biosfera como pagador de primer recurso. Asimetr",
+      "link": "/es/articles/biosfera-punto-ciego-comercio-internacional/"
+    },
+    {
+      "type": "texto",
       "date": "2026-06-01",
       "title": "La paradoja de Jevons: la eficiencia acelera la destrucción",
       "excerpt": "Eficiencia tecnológica, efecto rebote, mito del desacoplamiento verde y reforma monetaria NEMO IMS.",
