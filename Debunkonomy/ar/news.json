@@ -1,0 +1,272 @@
+{
+  "news": [
+    {
+      "type": "نص",
+      "date": "2026-06-14",
+      "title": "بعد النيوليبرالية: لماذا يحتاج العالم إلى نظام نقدي دولي جديد",
+      "excerpt": "ميلانوفيتش يشخّص نهاية النيوليبرالية. النقطة العمياء: النظام النقدي نفسه.",
+      "link": "/ar/articles/after-neoliberalism-new-monetary-system/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-06-07",
+      "title": "المحيط الحيوي: النقطة العمياء في التجارة الدولية",
+      "excerpt": "أكبر نقطة عمياء في التجارة الدولية: المحيط الحيوي بوصفه الدافع الأول والأخير. تحليل التفاوتات في أسو",
+      "link": "/ar/articles/biosphere-blind-spot-international-trade/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-06-01",
+      "title": "مفارقة جيفونز: الكفاءة تُسرّع التدمير",
+      "excerpt": "الكفاءة التكنولوجية وأثر الارتداد وأسطورة فك الارتباط الأخضر والإصلاح النقدي NEMO IMS.",
+      "link": "/ar/articles/jevons-paradox-efficiency-accelerates-destruction/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-29",
+      "title": "الاقتصاد والديناميكا الحرارية: لماذا التدمير دائماً أكثر ربحاً؟",
+      "excerpt": "الإنتروبيا العالية = هامش مرتفع. التجديدي = إعسار. قانون معماري نقدي.",
+      "link": "/ar/articles/economics-thermodynamics-why-destroying-pays/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-28",
+      "title": "عجز الاقتصاد الجزئي أمام الاقتصاد الكلي النظامي",
+      "excerpt": "لا يفتقر الاقتصاد الجزئي إلى الحلول، بل يفتقر إلى المستوى الصحيح للتدخل. ما دام النظام النقدي سليماً، ستظل أي انتقال بيئي هامشياً.",
+      "link": "/ar/articles/powerlessness-microeconomics-macro-systemic/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-25",
+      "title": "عصر الـ\"بولشيتنوفيشن\" أو الرأسمالية في ساعة عبثها",
+      "excerpt": "نقد فلسفي لاقتصاد لم يعد يعرف ماذا يخترع لتبرير وجوده.",
+      "link": "/ar/articles/bullshitnovation-capitalism-age-of-absurd/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-22",
+      "title": "خطاب العبودية المالية",
+      "excerpt": "الدَّين عبودية مُتقنة. النقود خلق اجتماعي. الفهم هو أول فعل مقاومة.",
+      "link": "/ar/articles/discourse-on-financial-servitude/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-19",
+      "title": "فلسفة جديدة للقيمة",
+      "excerpt": "امتلاك كل ذهب العالم لن يُطعمك على كوكب مدمَّر. لماذا انقلبنا في هرمية القيم.",
+      "link": "/ar/articles/a-new-philosophy-of-value/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-17",
+      "title": "المال، النقطة العمياء للبيئيين",
+      "excerpt": "طالما أهمل البيئيون المسألة النقدية، ستخسر الطبيعة.",
+      "link": "/ar/articles/money-blind-spot-ecologists/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-16",
+      "title": "الاقتصاد الجزئي والكلي والتفكير الكلي-النظامي",
+      "excerpt": "الاقتصاد الجزئي يراقب القطع. الاقتصاد الكلي يراقب الرقعة. لكن لا أحد ينظر إلى حال الطاولة.",
+      "link": "/ar/articles/microeconomics-macroeconomics-macro-systemic/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-15",
+      "title": "مأساة الآفاق",
+      "excerpt": "الاستخراجية تنتج أرباحاً خاصة قصيرة الأمد. التجديد ينتج فوائد حضارية منتشرة طويلة الأمد.",
+      "link": "/ar/articles/tragedy-of-horizons/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-13",
+      "title": "هل ستُعلن أزمة 2026 المركّبة نهاية نظام ؟",
+      "excerpt": "الآلية الداخلية لنظام نقدي صُمِّم للاستخراج اللانهائي في محيط حيوي بلغت حدوده.",
+      "link": "/ar/articles/polycrisis-2026-logical-outcome-monetary-system/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-12",
+      "title": "ماذا لو انهار نظام الدولار غداً؟",
+      "excerpt": "بيتكوين، بريكس، MMT أو NEMO IMS: مقارنة منهجية لبدائل النظام النقدي العالمي.",
+      "link": "/ar/articles/if-the-dollar-collapsed-tomorrow-bitcoin-brics-mmt-nemo-ims/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-11",
+      "title": "فك الارتباط… مستحيل أم لا؟",
+      "excerpt": "النمو الأخضر، فك الارتباط المطلق، مفارقة جيفونز: لماذا وعد النمو دون تدمير تناقض بيوفيزيائي.",
+      "link": "/ar/articles/decoupling-impossible-or-not/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-10",
+      "title": "النقود التي يُخفونها عنك: العملة الداخلية، الخارجية، ومأزقا النظام",
+      "excerpt": "هل النقود سلعة نادرة أم دَين مرن؟ نظامان، مأزقان، كوكب محدود.",
+      "link": "/ar/articles/endogenous-exogenous-money-two-dead-ends/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-05-09",
+      "title": "لماذا الخوف من تراجع النمو لا أساس له — وما الذي يغيب حقاً",
+      "excerpt": "تراجع النمو ليس ركوداً مقنّعاً. تفكيك المخاوف المشروعة وتسمية النقطة العمياء النقدية التي تعيق كل شيء.",
+      "link": "/ar/articles/why-fear-of-degrowth-is-unfounded/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-08",
+      "title": "الأرض تدفع أولاً",
+      "excerpt": "كيف تحوّل نقود الديون الكوكبَ إلى ضامن: ثلاث لعنات وعقدة غوردية و NEMO IMS.",
+      "link": "/ar/articles/earth-pays-first-the-debt-money-trap/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-08",
+      "title": "لماذا النقود المصرفية تدهورية؟",
+      "excerpt": "ثلاث لعنات هيكلية واستعارة ناجعة و NEMO IMS: كيف تشترط البنية النقدية تدمير الأنظمة الحية.",
+      "link": "/ar/articles/why-banking-money-is-degenerative/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-07",
+      "title": "زيف الانتقال الطاقوي",
+      "excerpt": "يُثبت جان-باتيست فريسو أن أنظمة الطاقة تتراكم ولا تحلّ محلّ بعضها — تحدٍّ جذري للنمو الأخضر.",
+      "link": "/ar/articles/energy-transition-imposture-degrowth/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-06",
+      "title": "الديناميكا الحرارية والاقتصاد",
+      "excerpt": "لماذا كل نمو اقتصادي هو احتراق — وكيف يقترح NEMO IMS ربط النقود بتجديد الحياة.",
+      "link": "/ar/articles/thermodynamics-entropy-living-world/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-05",
+      "title": "التدمير كعقيدة",
+      "excerpt": "لماذا التقادم المبرمج ليس مجرد فضيحة صناعية بل عرضٌ لنظام يجعل المتانة عدوّ الربح.",
+      "link": "/ar/articles/planned-obsolescence-financialization-stolen-time/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-04",
+      "title": "النمو اللانهائي مستحيل",
+      "excerpt": "لماذا لا يمكن لأي اقتصاد مادي أن ينمو إلى ما لا نهاية في عالم محدود الموارد.",
+      "link": "/ar/articles/infinite-growth-is-impossible/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-02",
+      "title": "هندسة الإنتروبيا",
+      "excerpt": "من روما إلى الأنظمة المالية المعاصرة، كثيراً ما تُخفي الحضارات التكاليف الحقيقية لثروتها.",
+      "link": "/ar/articles/architecture-entropy-complexity-real-costs/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-05-01",
+      "title": "NEMO IMS: نقود وبيئة وضرورة مُعسِرة",
+      "excerpt": "عشرون سؤالاً لفهم سبب كون الأزمة البيئية أزمةً نقدية أيضاً.",
+      "link": "/ar/nemo-ims/founder-interview/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-30",
+      "title": "التفكير في تقليص النمو دون متانة لا معنى له",
+      "excerpt": "لماذا لا يكفي تقليص النمو الأخلاقي إذا ظل الهيكل النقدي يُلزم الاقتصاد بالتسارع.",
+      "link": "/ar/articles/degrowth-resilience-monetary-system/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-29",
+      "title": "NEMO IMS: أي نظام نقدي دولي للمستقبل؟",
+      "excerpt": "بعد قرنين من الإخفاقات النقدية، يقترح NEMO IMS قطيعةً جذرية.",
+      "link": "/ar/articles/nemo-ims-international-monetary-system-future/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-29",
+      "title": "تاريخ الأزمات النقدية الدولية",
+      "excerpt": "",
+      "link": "/ar/articles/history-of-international-monetary-crises/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-28",
+      "title": "المعضلات البنيوية للنظام النقدي الدولي",
+      "excerpt": "",
+      "link": "/ar/articles/structural-dilemmas-international-monetary-system/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-28",
+      "title": "ما هو النظام النقدي الدولي؟",
+      "excerpt": "",
+      "link": "/ar/articles/what-is-an-international-monetary-system/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-27",
+      "title": "أرقام قياسية في البورصة، كوكب يحتضر",
+      "excerpt": "كيف يمكن لنظام أن ينجح اقتصادياً ويُدمّر في آنٍ واحد الأسس التي تجعل هذا النجاح ممكناً؟",
+      "link": "/ar/articles/stock-market-records-dying-planet-economic-decoupling/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-26",
+      "title": "التمويل الأخضر: الوهم الكبير الذي يقودنا إلى الفوضى",
+      "excerpt": "",
+      "link": "/ar/articles/green-finance-great-illusion-chaos/"
+    },
+    {
+      "type": "texte",
+      "date": "2026-04-24",
+      "title": "لماذا لا تعمل مؤتمرات المناخ COP؟",
+      "excerpt": "ثلاثون عاماً من قمم المناخ، الآلاف من لوبيات الوقود الأحفوري، والانبعاثات ترتفع: المشكلة هيكلية.",
+      "link": "/ar/articles/why-cops-do-not-work/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-23",
+      "title": "إيفان إيليتش: نبيّ التعايشية",
+      "excerpt": "",
+      "link": "/ar/articles/ivan-illich-prophet-of-conviviality/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-22",
+      "title": "أسطورة سيزيف والدين: عندما يولد النقد من القرض",
+      "excerpt": "",
+      "link": "/ar/articles/debt-sisyphus-myth-money-creation/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-21",
+      "title": "الناتج المحلي الإجمالي لا يقيس ما نعتقد أنه يقيسه",
+      "excerpt": "",
+      "link": "/ar/articles/gdp-does-not-measure-what-we-think/"
+    },
+    {
+      "type": "نص",
+      "date": "2026-04-20",
+      "title": "تجاوز حد كوكبي سابع: تحمّض المحيطات",
+      "excerpt": "",
+      "link": "/ar/articles/seventh-planetary-boundary-ocean-acidification/"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-19",
+      "title": "لماذا دائرة كيت راورث مستحيلة مع نقودنا الحالية؟",
+      "excerpt": "النقود الحالية تفرض هيكلياً نمواً دائماً يتعارض مع الحدود الكوكبية.",
+      "link": "https://www.youtube.com/watch?v=s6Hbfs7pOao",
+      "youtubeId": "s6Hbfs7pOao"
+    },
+    {
+      "type": "video",
+      "date": "2026-04-17",
+      "title": "NEMO IMS: عملة من أجل التجدد الكوكبي",
+      "excerpt": "عرض تقديمي للنظام النقدي السلبي الإنتروبي.",
+      "link": "https://www.youtube.com/watch?v=NtQZm9RcpFk",
+      "youtubeId": "NtQZm9RcpFk"
+    }
+  ]
+}
