@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-06-16",
+      "title": "La monnaie comme architecte invisible de nos comportements",
+      "excerpt": "Les règles récompensent la prédation. Changeons les règles.",
+      "link": "/articles/auteur/monnaie-architecte-invisible-comportements/"
+    },
+    {
+      "type": "texte",
       "date": "2026-06-14",
       "title": "Après le néolibéralisme : pourquoi le monde a besoin d'un nouveau système monétaire international",
       "excerpt": "Milanovic diagnostique la fin du néolibéralisme. L'angle mort : le système monétaire lui-même.",

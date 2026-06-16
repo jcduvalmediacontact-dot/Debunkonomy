@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-06-16",
+      "title": "Il denaro come architetto invisibile dei nostri comportamenti",
+      "excerpt": "Le società ottengono i comportamenti che le loro istituzioni premiano.",
+      "link": "/it/articles/denaro-architetto-invisibile-comportamenti/"
+    },
+    {
+      "type": "testo",
       "date": "2026-06-14",
       "title": "Dopo il neoliberalismo: perché il mondo ha bisogno di un nuovo sistema monetario internazionale",
       "excerpt": "Milanovic diagnostica la fine del neoliberalismo. Il punto cieco: il sistema monetario stesso.",
