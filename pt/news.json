@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-06-23",
+      "title": "O segredo mais bem guardado do capitalismo: o dinheiro",
+      "excerpt": "O verdadeiro motor do capitalismo não é sua ideologia — é sua arquitetura monetária.",
+      "link": "/pt/articles/segredo-capitalismo-moeda-fabrica-comportamentos/"
+    },
+    {
+      "type": "texto",
       "date": "2026-06-16",
       "title": "O dinheiro como arquiteto invisível dos nossos comportamentos",
       "excerpt": "As sociedades obtêm os comportamentos que as suas instituições recompensam.",

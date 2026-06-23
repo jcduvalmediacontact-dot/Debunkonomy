@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-06-23",
+      "title": "Le secret le mieux gardé du capitalisme : la monnaie",
+      "excerpt": "Le vrai moteur du capitalisme n'est pas son idéologie — c'est son architecture monétaire.",
+      "link": "/articles/auteur/secret-capitalisme-monnaie-comportements/"
+    },
+    {
+      "type": "texte",
       "date": "2026-06-16",
       "title": "La monnaie comme architecte invisible de nos comportements",
       "excerpt": "Les règles récompensent la prédation. Changeons les règles.",

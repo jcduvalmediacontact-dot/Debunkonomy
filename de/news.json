@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-06-23",
+      "title": "Das bestgehütete Geheimnis des Kapitalismus: das Geld",
+      "excerpt": "Der eigentliche Motor des Kapitalismus ist nicht seine Ideologie, sondern seine Währungsarchitektur.",
+      "link": "/de/articles/geheimnis-kapitalismus-geld-verhaltensweisen/"
+    },
+    {
+      "type": "text",
       "date": "2026-06-16",
       "title": "Geld als unsichtbarer Architekt unserer Verhaltensweisen",
       "excerpt": "Gesellschaften erhalten die Verhaltensweisen, die ihre Institutionen belohnen.",
