@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-06-28",
+      "title": "Qu'est-ce que l'essentiel insolvable, et comment le financer ?",
+      "excerpt": "Pourquoi notre monnaie finance la liquidation du monde et non son entretien.",
+      "link": "/articles/auteur/essentiel-insolvable-comment-le-financer/"
+    },
+    {
+      "type": "texte",
       "date": "2026-06-23",
       "title": "Le secret le mieux gardé du capitalisme : la monnaie",
       "excerpt": "Le vrai moteur du capitalisme n'est pas son idéologie — c'est son architecture monétaire.",

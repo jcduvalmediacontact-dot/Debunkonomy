@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-06-28",
+      "title": "O que é o essencial insolvente e como financiá-lo?",
+      "excerpt": "Porque a nossa moeda financia a liquidação do mundo e não a sua manutenção.",
+      "link": "/pt/articles/essencial-insolvente-como-financia-lo/"
+    },
+    {
+      "type": "texto",
       "date": "2026-06-23",
       "title": "O segredo mais bem guardado do capitalismo: o dinheiro",
       "excerpt": "O verdadeiro motor do capitalismo não é sua ideologia — é sua arquitetura monetária.",

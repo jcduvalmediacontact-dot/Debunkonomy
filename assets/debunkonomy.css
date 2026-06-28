@@ -3602,3 +3602,29 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+
+/* ── Théorème — encadré formel ───────────────────────────── */
+.theorem {
+  margin: 40px 0;
+  padding: 26px 32px 30px;
+  background: rgba(168,234,234,0.06);
+  border: 1px solid rgba(168,234,234,0.26);
+  border-top: 3px solid var(--teal);
+  border-radius: var(--radius-md);
+}
+.theorem__label {
+  display: block;
+  font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--teal); font-weight: 600;
+  margin-bottom: 14px;
+}
+.theorem__text {
+  display: block;
+  font-family: var(--ff-display); font-style: italic;
+  font-variation-settings: "opsz" 34, "SOFT" 100, "WONK" 1;
+  font-size: clamp(18px, 1.9vw, 23px); line-height: 1.5;
+  color: var(--mint);
+}
+[dir="rtl"] .theorem { border-top: 3px solid var(--teal); }
+[dir="rtl"] .theorem__text { font-style: normal; }
