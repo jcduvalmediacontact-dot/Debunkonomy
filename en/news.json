@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-07-01",
+      "title": "Monetary architectures of the 21st century",
+      "excerpt": "New series: what should money serve? The CEAM, a shared analytical framework.",
+      "link": "/en/articles/what-should-money-serve-in-the-21st-century/"
+    },
+    {
+      "type": "text",
       "date": "2026-06-28",
       "title": "What is the insolvable essential, and how can we finance it?",
       "excerpt": "Why our money funds the liquidation of the world, not its upkeep.",

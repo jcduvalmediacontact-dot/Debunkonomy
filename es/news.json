@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-07-01",
+      "title": "Las arquitecturas monetarias del siglo XXI",
+      "excerpt": "Nueva serie: ¿para qué debe servir una moneda? El CEAM, un marco de análisis común.",
+      "link": "/es/articles/para-que-debe-servir-una-moneda-en-el-siglo-xxi/"
+    },
+    {
+      "type": "texto",
       "date": "2026-06-28",
       "title": "¿Qué es lo esencial insolvente y cómo financiarlo?",
       "excerpt": "Por qué nuestra moneda financia la liquidación del mundo y no su mantenimiento.",

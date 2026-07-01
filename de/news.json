@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-07-01",
+      "title": "Die Geldarchitekturen des 21. Jahrhunderts",
+      "excerpt": "Neue Serie: Wozu soll Geld dienen? Der CEAM, ein gemeinsamer Analyserahmen.",
+      "link": "/de/articles/wozu-soll-geld-im-21-jahrhundert-dienen/"
+    },
+    {
+      "type": "text",
       "date": "2026-06-28",
       "title": "Was ist das unfinanzierbare Wesentliche – und wie lässt es sich finanzieren?",
       "excerpt": "Warum unser Geld die Liquidierung der Welt finanziert und nicht ihre Erhaltung.",

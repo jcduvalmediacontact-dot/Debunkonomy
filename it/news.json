@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "testo",
+      "date": "2026-07-01",
+      "title": "Le architetture monetarie del XXI secolo",
+      "excerpt": "Nuova serie: a cosa deve servire una moneta? Il CEAM, un quadro di analisi comune.",
+      "link": "/it/articles/a-cosa-deve-servire-una-moneta-nel-xxi-secolo/"
+    },
+    {
+      "type": "testo",
       "date": "2026-06-28",
       "title": "Che cos'è l'essenziale insolvibile e come finanziarlo?",
       "excerpt": "Perché la nostra moneta finanzia la liquidazione del mondo e non la sua manutenzione.",

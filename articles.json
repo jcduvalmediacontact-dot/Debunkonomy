@@ -1,6 +1,14 @@
 {
   "auteur": [
     {
+      "date": "2026-07-01",
+      "title": "Les architectures monétaires du XXIe siècle",
+      "excerpt": "Le texte fondateur d'une nouvelle série qui évalue chaque architecture monétaire selon un même cadre d'analyse : le CEAM.",
+      "link": "/articles/auteur/a-quoi-doit-servir-une-monnaie-au-xxie-siecle/",
+      "category": "Méthodologie · Économie monétaire · Séries",
+      "readTime": "3 min"
+    },
+    {
       "date": "2026-06-28",
       "title": "Qu'est-ce que l'essentiel insolvable, et comment le financer ?",
       "excerpt": "L'essentiel est vital mais « insolvable ». Anatomie d'un verrou monétaire à quatre serrures — et comment NEMO IMS le lève.",
