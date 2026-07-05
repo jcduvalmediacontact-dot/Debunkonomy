@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "text",
+      "date": "2026-07-05",
+      "title": "What if Europe finally stopped trying to catch up with China?",
+      "excerpt": "What if the real answer to China wasn't running faster, but changing the game?",
+      "link": "/en/articles/what-if-europe-stopped-trying-to-catch-up-with-china/"
+    },
+    {
+      "type": "text",
       "date": "2026-07-01",
       "title": "Monetary architectures of the 21st century",
       "excerpt": "New series: what should money serve? The CEAM, a shared analytical framework.",

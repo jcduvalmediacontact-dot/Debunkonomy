@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texto",
+      "date": "2026-07-05",
+      "title": "¿Y si Europa dejara por fin de querer alcanzar a China?",
+      "excerpt": "¿Y si la verdadera respuesta a China no fuera correr más rápido, sino cambiar de juego?",
+      "link": "/es/articles/y-si-europa-dejara-de-querer-alcanzar-a-china/"
+    },
+    {
+      "type": "texto",
       "date": "2026-07-01",
       "title": "Las arquitecturas monetarias del siglo XXI",
       "excerpt": "Nueva serie: ¿para qué debe servir una moneda? El CEAM, un marco de análisis común.",

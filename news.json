@@ -2,6 +2,13 @@
   "news": [
     {
       "type": "texte",
+      "date": "2026-07-05",
+      "title": "Et si l'Europe cessait enfin de vouloir rattraper la Chine ?",
+      "excerpt": "Et si la vraie réponse à la Chine n'était pas de courir plus vite, mais de changer de jeu ?",
+      "link": "/articles/auteur/et-si-leurope-cessait-de-vouloir-rattraper-la-chine/"
+    },
+    {
+      "type": "texte",
       "date": "2026-07-01",
       "title": "Les architectures monétaires du XXIe siècle",
       "excerpt": "Nouvelle série : à quoi doit servir une monnaie ? Le CEAM, un cadre d'analyse commun.",
