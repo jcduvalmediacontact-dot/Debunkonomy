@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "date": "2026-07-13",
+      "type": "texto",
+      "title": "Trabajo, finanzas, crecimiento — La Santa Trinidad del capitalismo",
+      "excerpt": "¿Y si el trabajo, las finanzas y el crecimiento no fueran más que medios tomados por fines?",
+      "link": "/es/articles/la-santa-trinidad-del-capitalismo/"
+    },
+    {
       "type": "texto",
       "date": "2026-07-05",
       "title": "¿Y si Europa dejara por fin de querer alcanzar a China?",
