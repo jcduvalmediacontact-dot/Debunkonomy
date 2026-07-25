@@ -83,18 +83,20 @@ ar/news.json
 
 ## 3. Checklist article invité
 
-Différences par rapport à un article auteur :
+Les invités disposent d'un **espace nommé par auteur** : `invites/{auteur-slug}/`, ce qui permet de regrouper plusieurs contributions d'un même auteur. Différences par rapport à un article auteur :
 
 | Élément | Article auteur | Article invité |
 |---|---|---|
-| Chemin FR | `articles/auteur/{slug}/` | `articles/invites/{slug}/` |
-| Traductions | 6 langues complètes | Non traduit (FR + lien EN uniquement) |
-| `articles.json` | Tableau `auteur` | Tableau `invites` |
-| Champ author | Absent | `"author": "Prénom Nom"` |
-| Carte listing | `data-article-id` optionnel | Sans `data-article-id` |
+| Chemin FR | `articles/auteur/{slug}/` | `articles/invites/{auteur-slug}/{slug}/` |
+| Chemin autres langues | `{lang}/articles/{slug}/` | `{lang}/articles/invites/{auteur-slug}/{slug}/` |
+| Traductions | 6 langues complètes | Optionnelles (ex. Latreille : 7 langues) |
+| `articles.json` | Tableau `auteur` | Tableau `invites`, avec `"author": "Prénom Nom"` |
+| Carte listing | `data-article-id` = slug FR | idem — `data-article-id` = slug FR, partagé entre langues |
+| Photo d'entête | `assets/authors/jc-duval.jpg` | `assets/authors/{auteur-slug}.jpg` |
 
-**Total article invité : 1 HTML + 1 listing FR + articles.json + news.json = 4 fichiers**  
-(les pages listing des autres langues ne listent pas les articles invités)
+`{auteur-slug}` en minuscules-tirets (ex. `jean-latreille`, `renaud-vignes`).
+
+**Déplacer / renommer un invité** : créer le nouveau dossier, y déplacer l'`index.html`, mettre à jour `hreflang` + JSON-LD + listings + `articles.json` + `sitemap.xml`, puis laisser à l'ancien emplacement une **page de redirection** (`meta refresh` + `rel=canonical` + `noindex,follow`).
 
 ---
 
@@ -105,6 +107,7 @@ Différences par rapport à un article auteur :
 Copier la structure d'un article existant récent et adapter :
 
 **Dans le `<head>` :**
+- **Tag GA4 (obligatoire, toutes pages)** : le bloc `gtag.js` (ID `G-JNT8XB1XBV`) est placé **juste après `<head>`**, avant tout le reste. Seules les pages de redirection en sont dispensées.
 - `<title>` : Titre de l'article — Debunk'Onomy
 - `<meta name="description">` : Extrait de 150-160 caractères
 - `<link rel="canonical">` : URL complète de la version FR
