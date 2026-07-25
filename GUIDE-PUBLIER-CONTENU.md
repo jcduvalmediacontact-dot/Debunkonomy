@@ -128,13 +128,28 @@ Copier la structure d'un article existant récent et adapter :
   </div>
   <h1 class="article__title">{Titre}</h1>
   <p class="article__subtitle">{Sous-titre / accroche}</p>
-  <p class="article__byline">Jean-Christophe Duval</p>
+  <!-- Carte auteur : photo N&B ronde + signature (OBLIGATOIRE) -->
+  <div class="article__author">
+    <img class="article__author-photo" src="/assets/authors/{slug-auteur}.jpg"
+         alt="{Nom auteur}" width="76" height="76" loading="lazy"/>
+    <p class="article__byline">{Nom auteur}</p>
+  </div>
 </header>
 <div class="article__body">
   <!-- Corps : <p>, <h2>, <h3>, <ul>, <strong>, <em> -->
   <p class="article__signature">Jean-Christophe Duval</p>
 </div>
 ```
+
+**Registre des auteurs (photos d'entête) :** une vignette N&B carrée dans `assets/authors/`, servie ronde par le CSS (`.article__author-photo`). Le `{slug-auteur}` se déduit du byline :
+
+| Byline | Fichier |
+|---|---|
+| Jean-Christophe Duval (ou variante `By` / `Par` / `بقلم` / arabe) | `assets/authors/jc-duval.jpg` |
+| Jean Latreille | `assets/authors/jean-latreille.jpg` |
+| Renaud Vignes | `assets/authors/renaud-vignes.jpg` |
+
+Nouvel auteur → ajouter `assets/authors/{slug}.jpg` (240×240, niveaux de gris, recadrage carré centré) et compléter cette table. La carte auteur figure sur **toutes les langues**, à l'identique (le byline reste dans la langue de la page).
 
 **Après `</article>` :**
 1. `.related-articles` — 3 articles liés (cartes `.related-card`)
@@ -283,7 +298,7 @@ Structure à insérer en **première position** du tableau `news` :
   ├── #read-progress
   ├── <nav.nav> (logo + liens + lang-switch)
   ├── <article.article>
-  │    ├── <header.article__header> (meta + h1 + subtitle + byline)
+  │    ├── <header.article__header> (meta + h1 + subtitle + carte auteur : photo N&B + byline)
   │    └── <div.article__body> (corps + .article__signature)
   ├── <div.related-articles> (3 × .related-card)
   ├── <div.share-bar> (LinkedIn + X + copy)
