@@ -337,7 +337,7 @@
       "readTime": "15 min"
     }
   ],
-  "invites": [
+  "invites": [{"date": "2026-07-25", "title": "L’alignement des incitations économiques sur l’intégrité environnementale", "excerpt": "Réaligner les incitations économiques sur l’intégrité environnementale, condition nécessaire d’une réindustrialisation soutenable.", "link": "/articles/invites/renaud-vignes/incitations-integrite-environnementale/", "category": "Bioéconomie · Réindustrialisation", "author": "Renaud Vignes", "readTime": "18 min"}, 
     {
       "date": "2026-04-15",
       "title": "Robert Solow et les théories de transition",
