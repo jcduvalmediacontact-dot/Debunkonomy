@@ -1,0 +1,455 @@
+<!-- DEBUNK'ONOMY ASSISTANT WIDGET v1.0
+     Widget flottant coin bas droit - Explication NEMO IMS & Économie de l'Équilibre
+     Copier-coller ce code à la fin du <body> de n'importe quelle page debunkonomy.org
+-->
+
+<div style="font-family: var(--font-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    .debunk-chat-widget-root {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 9999;
+      font-family: inherit;
+    }
+    
+    .debunk-chat-button {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #1C5A60;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(28, 90, 96, 0.3);
+      transition: all 0.3s ease;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .debunk-chat-button:hover {
+      background: #0f3d43;
+      transform: scale(1.1);
+    }
+    
+    .debunk-chat-button.open {
+      display: none;
+    }
+    
+    .debunk-chat-window {
+      position: fixed;
+      bottom: 100px;
+      right: 24px;
+      width: 420px;
+      max-height: 620px;
+      background: var(--surface-2, white);
+      border: 0.5px solid var(--border, #e0e0e0);
+      border-radius: 12px;
+      display: none;
+      flex-direction: column;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      z-index: 10000;
+    }
+    
+    .debunk-chat-window.open {
+      display: flex;
+    }
+    
+    .debunk-chat-header {
+      padding: 16px;
+      border-bottom: 0.5px solid var(--border, #e0e0e0);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #1C5A60;
+      color: white;
+      border-radius: 12px 12px 0 0;
+    }
+    
+    .debunk-chat-header h3 {
+      font-size: 15px;
+      font-weight: 500;
+      margin: 0;
+    }
+    
+    .debunk-close-btn {
+      background: none;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      color: rgba(255,255,255,0.8);
+      padding: 0;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .debunk-chat-messages {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .debunk-message {
+      display: flex;
+      gap: 8px;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    
+    .debunk-message.user {
+      justify-content: flex-end;
+    }
+    
+    .debunk-message.assistant {
+      justify-content: flex-start;
+    }
+    
+    .debunk-message-bubble {
+      max-width: 85%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      word-wrap: break-word;
+    }
+    
+    .debunk-message.user .debunk-message-bubble {
+      background: #1C5A60;
+      color: white;
+    }
+    
+    .debunk-message.assistant .debunk-message-bubble {
+      background: var(--surface-1, #f9f9f9);
+      color: var(--text-primary, #333);
+      border: 0.5px solid var(--border, #e0e0e0);
+    }
+    
+    .debunk-chat-input-area {
+      padding: 12px 16px;
+      border-top: 0.5px solid var(--border, #e0e0e0);
+      display: flex;
+      gap: 8px;
+    }
+    
+    .debunk-chat-input-area input {
+      flex: 1;
+      padding: 8px 12px;
+      border: 0.5px solid var(--border, #e0e0e0);
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: inherit;
+      background: var(--surface-2, white);
+      color: var(--text-primary, #333);
+    }
+    
+    .debunk-chat-input-area input:focus {
+      outline: none;
+      border-color: #1C5A60;
+      box-shadow: 0 0 0 2px rgba(28, 90, 96, 0.1);
+    }
+    
+    .debunk-send-btn {
+      width: 34px;
+      height: 34px;
+      border: 0.5px solid #1C5A60;
+      background: white;
+      color: #1C5A60;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+    
+    .debunk-send-btn:hover {
+      background: #1C5A60;
+      color: white;
+    }
+    
+    .debunk-empty-state {
+      text-align: center;
+      padding: 20px 12px;
+      color: var(--text-secondary, #666);
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    
+    .debunk-empty-state em {
+      display: block;
+      margin-top: 8px;
+      font-size: 11px;
+      color: var(--text-muted, #999);
+    }
+    
+    .debunk-typing-indicator {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+    }
+    
+    .debunk-typing-dot {
+      width: 6px;
+      height: 6px;
+      background: #1C5A60;
+      border-radius: 50%;
+      animation: debunk-typing 1.4s infinite;
+    }
+    
+    .debunk-typing-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+    
+    .debunk-typing-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+    
+    @keyframes debunk-typing {
+      0%, 60%, 100% { opacity: 0.3; }
+      30% { opacity: 1; }
+    }
+
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      .debunk-chat-window {
+        background: var(--surface-2, #1a1a1a);
+      }
+      .debunk-message.assistant .debunk-message-bubble {
+        background: var(--surface-1, #2d2d2d);
+        color: var(--text-primary, #f0f0f0);
+      }
+      .debunk-chat-input-area input {
+        background: var(--surface-2, #1a1a1a);
+        color: var(--text-primary, #f0f0f0);
+      }
+    }
+  </style>
+
+  <div class="debunk-chat-widget-root" id="debunk-chat-widget-root">
+    <button class="debunk-chat-button" id="debunk-chat-button" title="Poser une question">?</button>
+    
+    <div class="debunk-chat-window" id="debunk-chat-window">
+      <div class="debunk-chat-header">
+        <h3>Debunk'Onomy Assistant</h3>
+        <button class="debunk-close-btn" id="debunk-close-btn" title="Fermer">✕</button>
+      </div>
+      
+      <div class="debunk-chat-messages" id="debunk-chat-messages">
+        <div class="debunk-empty-state">
+          Posez vos questions sur NEMO IMS, l'économie de l'équilibre, la régénération et la transition écologique.
+          <em>Exemples : « Qu'est-ce que NEMO IMS ? », « Pourquoi la croissance verte est impossible ? »</em>
+        </div>
+      </div>
+      
+      <div class="debunk-chat-input-area">
+        <input 
+          type="text" 
+          id="debunk-user-input" 
+          placeholder="Votre question..."
+          autocomplete="off"
+        />
+        <button class="debunk-send-btn" id="debunk-send-btn" title="Envoyer">→</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      const chatButton = document.getElementById('debunk-chat-button');
+      const closeBtn = document.getElementById('debunk-close-btn');
+      const chatWindow = document.getElementById('debunk-chat-window');
+      const chatMessages = document.getElementById('debunk-chat-messages');
+      const userInput = document.getElementById('debunk-user-input');
+      const sendBtn = document.getElementById('debunk-send-btn');
+      
+      let isOpen = false;
+      
+      chatButton.addEventListener('click', () => {
+        isOpen = true;
+        chatWindow.classList.add('open');
+        chatButton.style.display = 'none';
+        userInput.focus();
+      });
+      
+      closeBtn.addEventListener('click', () => {
+        isOpen = false;
+        chatWindow.classList.remove('open');
+        chatButton.style.display = 'flex';
+      });
+      
+      const knowledgeBase = {
+        nemo_ims: {
+          keywords: ['nemo ims', 'nemo', 'negentropic'],
+          response: "NEMO IMS (NEgentropic MOney International Monetary System) est un système monétaire régénératif qui rompt avec le paradigme de la croissance infinie. Au lieu de créer la monnaie par la dette (ce qui impose une rentabilité à court terme), NEMO IMS propose que la monnaie soit créée sans dette en contrepartie d'activités régénératives — reforester, dépolluer, protéger la biodiversité, financer la recherche fondamentale.\n\nSon principe central est la « finance Yin/Yang » : le circuit Yang conserve les banques et le marché pour les activités rentables ; le circuit Yin finance les communs et la régénération essentiels mais non rentables."
+        },
+        economie_equilibre: {
+          keywords: ['économie équilibre', 'économie de l\'équilibre', 'robustesse'],
+          response: "L'économie de l'équilibre abandonne l'objectif de croissance infinie au profit de la robustesse : maintenir les sociétés humaines dans un espace compatible à la fois avec leurs besoins fondamentaux et avec les capacités de la biosphère.\n\nElle repose sur trois piliers :\n1) Débusquer et sanctionner le superflu marchand dégénératif (consommation ostentatoire, obsolescence programmée).\n2) Financer les activités non marchandes essentielles et régénératives (santé, éducation, biodiversité).\n3) Optimiser la production des biens essentiels pour minimiser leur impact écologique."
+        },
+        monnaie: {
+          keywords: ['monnaie', 'création monétaire', 'banques', 'dette'],
+          response: "La monnaie n'est pas un simple instrument technique — c'est un fait social total qui organise les possibilités économiques. Elle détermine ce qui peut être financé et selon quelles contraintes.\n\nNotre système crée 90% de la monnaie par la dette (banques commerciales). Cela impose : Dette → Contrainte de rentabilité → Activités extractives et dégénératives.\n\nNEMO IMS change cette règle : la monnaie devient un flux dynamique créé pour la régénération, détruit selon l'impact écologique, aligné sur les cycles naturels."
+        },
+        decroissance: {
+          keywords: ['décroissance', 'post-croissance', 'degrowth'],
+          response: "La décroissance n'est pas une idéologie — c'est une nécessité mécanique : certaines activités (les plus extractives, polluantes, superflues) doivent décroître parce que la planète a des limites réelles.\n\nMais cette décroissance libère de la servitude financière et crée l'espace pour que croissent les vrais besoins : santé, éducation, préservation des communs, recherche fondamentale, bien-être réel.\n\nLa vraie question : « Comment organiser l'économie pour que ce qui doit croître croisse, ce qui doit décroître décroisse, et ce qui doit être préservé soit préservé ? »"
+        },
+        regeneration: {
+          keywords: ['régénération', 'régénérer', 'réparer', 'reforester', 'communs'],
+          response: "La régénération est l'opposé de l'extraction. Ce n'est pas simplement arrêter de détruire, mais restaurer activement les communs : reforester, dépolluer les océans, protéger la biodiversité, restaurer les sols, garantir la sécurité alimentaire, financer la santé publique.\n\nLe problème : ces activités n'ont pas de rentabilité financière immédiate, donc elles sont sous-financées. NEMO IMS change le jeu en créant de la monnaie directement pour financer la régénération."
+        },
+        finance_yin_yang: {
+          keywords: ['finance yin', 'yin yang', 'circuits'],
+          response: "La finance Yin/Yang est le cœur de NEMO IMS.\n\nFinance YANG : Banques traditionnelles pour les activités marchandes rentables, optimisées pour l'efficience.\n\nFinance YIN : Finance complémentaire pour la régénération des communs (biodiversité, écosystèmes, services publics). Elle cherche le retour écologique et social à long terme, mesuré en robustesse systémique.\n\nCes deux circuits coexistent et s'équilibrent, créant une économie à la fois efficace marchande ET régénératrice écologiquement."
+        },
+        croissance_verte: {
+          keywords: ['croissance verte', 'green', 'découplage', 'decoupling'],
+          response: "La croissance verte est un mythe. Le découplage absolu et global (croissance économique tandis que l'impact écologique recule) n'a jamais été observé spontanément dans une économie de marché.\n\nIl existe des découplages relatifs (intensité écologique par PIB baisse) mais l'empreinte totale croît. Il existe des découplages territoriaux illusoires (une nation exporte sa pollution vers d'autres).\n\nMais le découplage absolu durable ? Thermodynamiquement impossible sous la croissance infinie. NEMO IMS change d'architecture monétaire pour le rendre possible."
+        },
+        financer_transition: {
+          keywords: ['financer', 'financement', 'transition', 'fiscalité', 'impôt'],
+          response: "Financer la régénération par l'impôt ou la dette est un non-sens circulaire : on détruit d'abord pour gagner les moyens de réparer, piégé où la réparation dépend financièrement de la dégradation.\n\nNEMO IMS casse ce cercle : au lieu de taxer davantage ou s'endetter, il crée de la monnaie directement en contrepartie d'activités régénératives. Pas de dette à rembourser. Pas de croissance extractive nécessaire pour financer les réparations.\n\nC'est la seule solution réaliste : refondation monétaire qui rend la régénération possible sans destruction."
+        },
+        inflation: {
+          keywords: ['inflation', 'prix', 'source monétaire'],
+          response: "Question clé : comment éviter l'inflation si on crée de la monnaie sans dette ?\n\nNEMO IMS le résout par une théorie quantitative dynamique : la monnaie est créée pour la régénération, circule dans l'économie, puis est progressivement détruite lors des transactions marchandes par une « fonte » pondérée selon l'impact écologique.\n\nPlus une activité est dégénérative, plus elle supporte une fonte monétaire élevée. Cela régule l'inflation automatiquement tout en réorientant l'économie vers les activités vertueuses."
+        },
+        superflu: {
+          keywords: ['superflu', 'ostentatoire', 'obsolescence', 'marketing'],
+          response: "Le premier pilier de l'économie de l'équilibre identifie et sanctionne le superflu marchand dégénératif :\n\n• Consommation ostentatoire : motivée par le statut illusoire, gaspille des ressources précieuses en produits de luxe inutiles.\n• Obsolescence programmée : les fabricants conçoivent volontairement des produits dont la durée de vie est raccourcie.\n• Marketing manipulateur : crée des besoins et des problèmes factices pour augmenter les ventes.\n• Finance spéculative : détourne les capitaux vers des bulles sans créer de valeur réelle.\n\nCes activités doivent être progressivement sanctionnées, tandis que les alternatives durables et réparables doivent être encouragées."
+        },
+        fast_fashion: {
+          keywords: ['fast fashion', 'mode', 'textile', 'vêtement'],
+          response: "La fast fashion incarne le productivisme absurde : elle a doublé la consommation de vêtements en 15 ans.\n\nL'impact :\n• Un jean nécessite 7 500 litres d'eau — ce qu'une personne boit en 7 ans.\n• Le coton couvre 3% des terres agricoles mais consomme 16% des insecticides mondiaux.\n• Le textile émet 1,2 milliard de tonnes de CO2/an — plus que les vols internationaux ET le trafic maritime combinés.\n• Moins de 1% des vêtements sont recyclés ; le reste brûlé ou enfoui.\n\nExemple parfait où le plus nuisible mène la danse, forçant les concurrents à des logiques encore plus extractives."
+        },
+        agriculture: {
+          keywords: ['agriculture', 'agro-industrie', 'pesticide', 'sols'],
+          response: "L'agriculture industrielle illustre l'auto-cannibalisme : depuis 1970, la production a triplé (succès apparent) mais au prix d'une dégradation systémique de ses propres écosystèmes.\n\nLes coûts réels :\n• Érosion : menace la plus grave pesant sur les sols. Coût en Europe : 1,25 milliard d'euros/an en pertes.\n• Biodiversité : monocultures et pesticides tuent les pollinisateurs — créant un cercle vicieux d'encore plus dépendance chimique.\n• Eau : agriculture prélève 70% de l'eau douce mondiale, épuisant les nappes phréatiques.\n• 75% de la surface agricole mondiale dédiée à l'élevage intensif.\n\nLe modèle se cannibalise : rentabilité à court terme détruit sa base de production à long terme."
+        },
+        contrainte_exterieure: {
+          keywords: ['contrainte extérieure', 'commerce', 'balance', 'globalisation'],
+          response: "La contrainte extérieure est un dilemme implacable de la globalisation : toute nation compétitionne sur les prix, la rapidité, l'efficacité, ou elle perd ses parts de marché.\n\nSi une nation augmente les coûts de production pour respecter l'environnement et les droits sociaux, elle vend plus cher — et perd face aux nations qui font le choix inverse.\n\nRésultat : « Le plus nuisible mène la danse. » Les autres sont contraintes de suivre ou de s'effondrer.\n\nC'est pourquoi NEMO IMS insiste sur une solution systémique mondiale : réunir les nations pour remplacer la compétition extractive par une coopération pour la robustesse planétaire."
+        },
+        chomage: {
+          keywords: ['chômage', 'emploi', 'robotisation', 'automation'],
+          response: "Le chômage structurel résulte de deux dynamiques contradictoires :\n\nSecteur marchand : management maximise les profits en remplaçant humains par machines dès que possible. Résultat : destruction d'emplois, baisse des salaires, réduction du pouvoir d'achat.\n\nSecteur non-marchand/public : besoins énormes (éducation, santé, services) mais budgets qui se contractent à chaque austérité.\n\nLa contradiction : Comment des gens sans emploi achèteront-ils les marchandises produites par les machines ?\n\nNEMO IMS résout ce paradoxe : finance Yin finance directement les services publics, la régénération et l'emploi essentiel sans dépendre de la rentabilité marchande."
+        },
+        crise_sens: {
+          keywords: ['crise sens', 'grande démission', 'absurde', 'bullshit'],
+          response: "La crise de sens est un symptôme inédit : les gens démissionnent car ils trouvent leurs emplois absurdes et nuisibles.\n\nC'est le produit du capitalisme financiarisé : face à l'absence de véritables innovations, on produit des gadgets inutiles, des faux besoins, des solutions à des problèmes fabriqués.\n\nRésultat : une « bullshitification » de l'économie où chacun ressent qu'il contribue à un système prédateur plutôt qu'à quelque chose de pertinent.\n\nNEMO IMS change le jeu : en finançant la régénération, l'éducation, la santé publique, il crée des espaces où le travail a du sens et contribue réellement à la robustesse du monde."
+        },
+        smartphone: {
+          keywords: ['smartphone', 'téléphone', 'électronique', 'ewaste'],
+          response: "Le smartphone symbolise la « dématérialisation » illusoire du numérique.\n\nRéalité :\n• Un téléphone < 200g nécessite 44 kg de matières premières.\n• 80% de l'empreinte carbone est générée AVANT sa première utilisation (extraction + fabrication).\n• Extraction de cobalt (RDC), lithium (Andes), terres rares — liées à conflits armés et travail des enfants.\n• Le monde produit 54 millions de tonnes de déchets électroniques/an. Moins de 15% correctement recyclés.\n• Le reste finit dans des décharges à ciel ouvert en Afrique et Asie, où les travailleurs brûlent les composants dans des conditions désastreuses.\n\nLe recyclage ne résout rien : c'est du « décyclage » qui dégrade la qualité à chaque passage. Il est souvent plus rentable d'extraire de nouvelles matières premières."
+        },
+        limites_planetaires: {
+          keywords: ['limites planétaires', 'planetary boundaries', 'limites'],
+          response: "Les limites planétaires sont des seuils biophysiques réels au-delà desquels les systèmes terrestres se dégradent de manière irréversible.\n\nCinq sont déjà dépassées :\n• Changement climatique : 1,1°C, trajectoire vers 2,6-3,1°C d'ici 2100\n• Perte de biodiversité : nous sommes en extinction de masse (taux 10-100× naturel)\n• Cycle biogéochimique (azote/phosphore) : agriculture industrielle\n• Utilisation des terres : 40% de la surface terrestre transformée\n• Pollution chimique : accumulation irréversible de polluants persistants\n\nNEMO IMS n'est pas un « choix éthique » — c'est une nécessité mécanique pour rester dans cet espace de sécurité."
+        },
+        cout_reparation: {
+          keywords: ['coût reparation', 'cost of repair', 'coûts'],
+          response: "Les coûts de réparation écologique sont gigantesques — bien au-delà des budgets publics traditionnels.\n\nDépollution des océans : trilliards. Reforestation mondiale : centaines de milliards/an. Restauration des sols : décennies d'investissement. Transition énergétique : dizaines de trilliards.\n\nLe système actuel ne peut jamais financer ça par l'impôt ou la dette, car :\n1) L'impôt dépend de la croissance économique (qui génère la pollution).\n2) La dette crée une obligation de rendement financier, forçant à poursuivre l'extraction.\n3) Les délais politiques (4-5 ans) sont incompatibles avec la transition (décennies).\n\nNEMO IMS change la source de financement elle-même : création monétaire sans dette, destroyée selon l'impact écologique."
+        },
+        default: {
+          keywords: [],
+          response: "Bonne question. Les thèmes que je couvre bien : NEMO IMS, l'économie de l'équilibre, la monnaie, la décroissance, la régénération, la finance Yin/Yang, le découplage, les dilemmes de la globalisation, le chômage, les cas d'étude, les limites planétaires.\n\nN'hésitez pas à reformuler ou poser une question plus précise. Vous pouvez aussi consulter le livre « L'Économie de l'Équilibre » sur debunkonomy.org pour explorer plus profondément."
+        }
+      };
+      
+      const findResponse = (question) => {
+        const q = question.toLowerCase();
+        
+        for (const [key, data] of Object.entries(knowledgeBase)) {
+          if (key === 'default') continue;
+          
+          for (const keyword of data.keywords) {
+            if (q.includes(keyword.toLowerCase())) {
+              return data.response;
+            }
+          }
+        }
+        
+        return knowledgeBase.default.response;
+      };
+      
+      const addMessage = (text, isUser) => {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `debunk-message ${isUser ? 'user' : 'assistant'}`;
+        
+        const bubble = document.createElement('div');
+        bubble.className = 'debunk-message-bubble';
+        bubble.textContent = text;
+        
+        messageDiv.appendChild(bubble);
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      };
+      
+      const showTyping = () => {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = 'debunk-message assistant';
+        messageDiv.id = 'debunk-typing-message';
+        
+        const bubble = document.createElement('div');
+        bubble.className = 'debunk-message-bubble';
+        
+        for (let i = 0; i < 3; i++) {
+          const dot = document.createElement('div');
+          dot.className = 'debunk-typing-dot';
+          bubble.appendChild(dot);
+        }
+        
+        const typingDiv = document.createElement('div');
+        typingDiv.className = 'debunk-typing-indicator';
+        typingDiv.appendChild(bubble);
+        
+        messageDiv.appendChild(typingDiv);
+        chatMessages.appendChild(messageDiv);
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      };
+      
+      const removeTyping = () => {
+        const typing = document.getElementById('debunk-typing-message');
+        if (typing) typing.remove();
+      };
+      
+      const sendMessage = () => {
+        const text = userInput.value.trim();
+        if (!text) return;
+        
+        const emptyState = chatMessages.querySelector('.debunk-empty-state');
+        if (emptyState) emptyState.remove();
+        
+        addMessage(text, true);
+        userInput.value = '';
+        
+        showTyping();
+        
+        setTimeout(() => {
+          removeTyping();
+          const response = findResponse(text);
+          addMessage(response, false);
+        }, 600);
+      };
+      
+      sendBtn.addEventListener('click', sendMessage);
+      userInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          sendMessage();
+        }
+      });
+    })();
+  </script>
+</div>
