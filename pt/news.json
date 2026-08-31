@@ -1,5 +1,6 @@
 {
-  "news": [{"date": "2026-07-25", "type": "texto", "title": "Alinhar os incentivos económicos com a integridade ambiental", "excerpt": "Realinhar os incentivos económicos com a integridade ambiental: condição necessária de uma reindustrialização sustentável.", "link": "/pt/articles/invites/renaud-vignes/alinhar-incentivos-economicos-integridade-ambiental/"}, 
+  "news": [
+    {"type": "texto", "date": "2026-08-31", "title": "Neobancos verdes: o impasse estrutural da moeda-dívida", "excerpt": "O esverdeamento bancário desloca fluxos. Não muda a arquitetura monetária.", "link": "/pt/articles/neobancos-verdes-impasse-moeda-divida/"},{"date": "2026-07-25", "type": "texto", "title": "Alinhar os incentivos económicos com a integridade ambiental", "excerpt": "Realinhar os incentivos económicos com a integridade ambiental: condição necessária de uma reindustrialização sustentável.", "link": "/pt/articles/invites/renaud-vignes/alinhar-incentivos-economicos-integridade-ambiental/"}, 
     {
       "date": "2026-07-13",
       "type": "texto",

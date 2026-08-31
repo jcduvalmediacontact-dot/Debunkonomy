@@ -1,5 +1,6 @@
 {
-  "news": [{"date": "2026-07-25", "type": "texto", "title": "Alinear los incentivos económicos con la integridad ambiental", "excerpt": "Realinear los incentivos económicos con la integridad ambiental: condición necesaria de una reindustrialización sostenible.", "link": "/es/articles/invites/renaud-vignes/alinear-incentivos-economicos-integridad-ambiental/"}, 
+  "news": [
+    {"type": "texto", "date": "2026-08-31", "title": "Neobancos verdes: el callejón sin salida estructural del dinero-deuda", "excerpt": "El verdeo bancario desplaza flujos. No cambia la arquitectura monetaria.", "link": "/es/articles/neobancos-verdes-callejon-moneda-deuda/"},{"date": "2026-07-25", "type": "texto", "title": "Alinear los incentivos económicos con la integridad ambiental", "excerpt": "Realinear los incentivos económicos con la integridad ambiental: condición necesaria de una reindustrialización sostenible.", "link": "/es/articles/invites/renaud-vignes/alinear-incentivos-economicos-integridad-ambiental/"}, 
     {
       "date": "2026-07-13",
       "type": "texto",

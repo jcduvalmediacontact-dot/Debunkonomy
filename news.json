@@ -1,5 +1,6 @@
 {
-  "news": [{"date": "2026-07-25", "type": "texte", "title": "L’alignement des incitations économiques sur l’intégrité environnementale", "excerpt": "Réaligner les incitations économiques sur l’intégrité environnementale, condition nécessaire d’une réindustrialisation soutenable.", "link": "/articles/invites/renaud-vignes/incitations-integrite-environnementale/"}, 
+  "news": [
+    {"type": "texte", "date": "2026-08-31", "title": "Néobanques vertes : l’impasse structurelle de la monnaie-dette", "excerpt": "Le verdissement bancaire déplace des flux. Il ne change pas l’architecture monétaire.", "link": "/articles/auteur/neobanques-vertes-impasse-monnaie-dette/"},{"date": "2026-07-25", "type": "texte", "title": "L’alignement des incitations économiques sur l’intégrité environnementale", "excerpt": "Réaligner les incitations économiques sur l’intégrité environnementale, condition nécessaire d’une réindustrialisation soutenable.", "link": "/articles/invites/renaud-vignes/incitations-integrite-environnementale/"}, 
     {
       "date": "2026-07-13",
       "type": "texte",
