@@ -1,5 +1,6 @@
 {
-  "news": [{"date": "2026-07-25", "type": "testo", "title": "Allineare gli incentivi economici all’integrità ambientale", "excerpt": "Riallineare gli incentivi economici all’integrità ambientale: condizione necessaria di una reindustrializzazione sostenibile.", "link": "/it/articles/invites/renaud-vignes/allineare-incentivi-economici-integrita-ambientale/"}, 
+  "news": [
+    {"type": "testo", "date": "2026-08-31", "title": "Neobanche verdi: il vicolo cieco strutturale della moneta-debito", "excerpt": "Il rinverdimento bancario sposta flussi. Non cambia l’architettura monetaria.", "link": "/it/articles/neobanche-verdi-vicolo-cieco-moneta-debito/"},{"date": "2026-07-25", "type": "testo", "title": "Allineare gli incentivi economici all’integrità ambientale", "excerpt": "Riallineare gli incentivi economici all’integrità ambientale: condizione necessaria di una reindustrializzazione sostenibile.", "link": "/it/articles/invites/renaud-vignes/allineare-incentivi-economici-integrita-ambientale/"}, 
     {
       "date": "2026-07-13",
       "type": "testo",
