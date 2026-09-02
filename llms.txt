@@ -1,0 +1,30 @@
+# Debunk'Onomy
+
+> Debunk'Onomy analyse les liens entre économie, monnaie, énergie, environnement et limites planétaires, et présente des propositions de transformation systémique.
+
+Les contenus sont publiés en français et traduits en anglais, espagnol, portugais, allemand, italien et arabe.
+
+## Pages principales
+
+- [Accueil](https://debunkonomy.org/): Présentation générale de Debunk'Onomy et publications récentes.
+- [Commencer ici](https://debunkonomy.org/commencer-ici/): Introduction aux principaux thèmes et idées du site.
+- [Manifeste](https://debunkonomy.org/manifeste/): Principes et orientation intellectuelle de Debunk'Onomy.
+- [Articles en français](https://debunkonomy.org/articles/): Articles de fond dans leur version française.
+- [Livre](https://debunkonomy.org/livre/): Présentation du livre consacré à l'économie de l'équilibre.
+- [NEMO IMS](https://debunkonomy.org/nemo-ims/): Proposition relative au système monétaire international.
+
+## Articles dans les autres langues
+
+- [English articles](https://debunkonomy.org/en/articles/): Articles in English.
+- [Artículos en español](https://debunkonomy.org/es/articles/): Artículos en español.
+- [Artigos em português](https://debunkonomy.org/pt/articles/): Artigos em português.
+- [Artikel auf Deutsch](https://debunkonomy.org/de/articles/): Artikel auf Deutsch.
+- [Articoli in italiano](https://debunkonomy.org/it/articles/): Articoli in italiano.
+- [المقالات بالعربية](https://debunkonomy.org/ar/articles/): مقالات باللغة العربية.
+
+## Ressources éditoriales
+
+- [Actualités](https://debunkonomy.org/actus.html): Actualités et publications récentes.
+- [Médias](https://debunkonomy.org/medias/): Interventions et ressources médiatiques.
+- [Flux RSS](https://debunkonomy.org/feed.xml): Flux des publications.
+- [Plan du site](https://debunkonomy.org/sitemap.xml): Liste complète des pages indexables.
