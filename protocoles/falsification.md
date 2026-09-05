@@ -950,6 +950,23 @@ de Keynes en juillet 1944.
 
 ## F7 — Le pilotage
 
+**ÉLARGI le 2026-09-05, après L11.C10.** F7 a été écrit pour porter sur le MODE
+DE FIXATION des taux — barème automatique par formule publiée, ou pilotage
+discrétionnaire annuel. **Il porte identiquement sur la TRAJECTOIRE DE MISE EN
+PLACE**, que l'auteur a demandée le même jour. Les trois résultats jouent dans
+les deux cas et dans le même sens : une trajectoire annoncée est anticipée
+(Lucas), c'est une promesse exposée à la révision au moment où la pression pour
+reporter est maximale (Kydland-Prescott), et son effet sur les procédés arrive
+avec des délais longs et variables (Friedman).
+
+**Ce que cet élargissement change à la priorité d'acquisition.** Lucas 1976,
+Kydland-Prescott 1977 et Friedman 1968 en sont à leur TROISIÈME emploi par le
+corpus sans avoir été ouverts, et ils commandent désormais DEUX questions
+distinctes du Livre 11, dont une instruction explicite de l'auteur. **Les trois
+sont libres en ligne.** Le corpus les tient pour l'acquisition la plus rentable
+du dossier après l'arrêt de 2022, et il enregistre que F7 ne peut pas être
+éprouvé tant qu'ils ne sont pas lus.
+
 **Condition d'échec :** que le dispositif ne puisse être calibré ni par une
 règle automatique — parce qu'aucune formule ne suit une assiette dont la
 composition se déforme —, ni par un ajustement discrétionnaire périodique —

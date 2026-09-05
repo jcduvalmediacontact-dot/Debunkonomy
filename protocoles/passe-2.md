@@ -766,3 +766,317 @@ propositions comparables — le rapport du chiffre d'affaires cumulé à la vale
 finale — est à produire, et elle existe sous des formes voisines dans les
 comptabilités nationales. Renvoi au Livre 13.
 
+### A11 — Le niveau de la valeur par défaut — OUVERT le 2026-09-05
+
+**Origine : L11.C06**, qui instruit la seule sortie connue à l'objection de la
+connaissance dispersée. Si l'empreinte cumulée est une grandeur que personne ne
+détient, le centre n'a pas besoin de savoir : il lui faut une **valeur par
+défaut** que celui qui sait mieux puisse faire réviser. **Le niveau auquel on
+place ce défaut n'est pas un réglage technique. C'est la décision politique
+centrale du dispositif, et elle est habituellement traitée comme un détail
+d'exécution.**
+
+| Niveau du défaut | Qui documente | Ce que devient l'instrument |
+|---|---|---|
+| **Clément** (performance moyenne ou favorable) | personne — le gain ne paie pas la démarche | le défaut devient la valeur universelle, la modulation s'éteint, l'instrument **perçoit sans orienter** |
+| **Punitif** (performance la plus défavorable observée) | tous ceux qui font mieux, c'est-à-dire presque tous | la modulation vit, l'instrument **oriente** — et fait payer le plein tarif à qui ne peut pas prouver |
+
+**Ce que l'arbitrage demande vraiment.** Non pas « quel niveau », mais **quelle
+part de l'efficacité on accepte de perdre pour ne pas frapper celui qui ne peut
+pas prouver.** Car le défaut punitif ne frappe pas qui pollue le plus : il
+frappe **qui ne peut pas documenter** — petit producteur, filière informelle,
+économie sans appareil statistique.
+
+**Où la réponse se lit, et ce n'est pas dans le barème.** Elle se lit dans le
+**coût et le délai de la procédure de révision**. Une table sévère avec une
+procédure gratuite et rapide est exigeante mais équitable ; la même table avec
+une procédure coûteuse frappe les petits. **Le taux est identique dans les deux
+cas** — et c'est ce qui rend cette régressivité plus dangereuse qu'une
+régressivité de taux : elle est invisible dans le document qu'on discute.
+
+**Ce que A11 impose à la rédaction du reste du livre.** Un barème est trois
+objets : une **table par défaut**, une **procédure de révision**, une **charge
+de la preuve**. Le livre n'écrit que le premier, et c'est le deuxième qui
+commande l'incidence. **On ne publie donc pas un barème, on publie un triplet**,
+et le Livre 13 ne peut pas chiffrer le premier sans le second.
+
+**Une récurrence que le corpus relève sans encore l'expliquer.** C'est la
+troisième fois dans ce livre qu'un mécanisme unique porte l'effet recherché ET
+son contraire, sans qu'aucun réglage ne les sépare : l'effet de position
+(L11.C03 § 5), la cascade (L11.C05 § 4), le niveau du défaut (L11.C06 § 2).
+**Trois occurrences suggèrent une propriété générale plutôt que trois défauts
+locaux.** À nommer avant la fin de la passe 1.
+
+**Ce qui bloque A11.** Le règlement pris pour modèle n'a pas été ouvert. Tant
+qu'on ignore sur quelle population de référence sa valeur par défaut est
+établie et ce que coûte sa procédure de révision, l'arbitrage se pose sans son
+seul précédent. **À instruire après acquisition, pas avant.**
+
+### A12 — Le nœud de prélèvement du demurrage — OUVERT le 2026-09-05
+
+**Origine : L11.C07**, qui solde trois renvois laissés ouverts par L1.C21 § 6,
+L11.C02 § 4 et L11.C04 § 5. Le second ressort du reflux doit prélever quelque
+part, et **aucune des trois positions possibles n'est bonne**.
+
+| Nœud | Cible juste | Praticable en droit | Assiette tenable |
+|---|---|---|---|
+| **Encaisses consolidées par bénéficiaire effectif** — position du livre | **oui** | **non** — obstacle de droit, non d'administration | oui |
+| **Réserves bancaires à la banque centrale** — position des voisins, 0,1 % mensuel | **non** — frappe les banques, pas les thésauriseurs | oui | oui |
+| **Comptes, sans consolidation** | oui | oui | **non** — le fractionnement la vide |
+
+**Aucune ligne n'a trois oui.** Le choix n'est donc pas un réglage à optimiser :
+c'est un arbitrage entre trois défauts, et il appartient à l'auteur.
+
+**Ce qui pourrait rouvrir la première ligne, et c'est la vérification la plus
+rentable du dossier.** Le corpus fait dire à l'arrêt de 2022 que la
+consolidation par bénéficiaire effectif est fermée. **Si l'arrêt ne vise que
+l'ACCÈS DU GRAND PUBLIC au registre — et non la tenue d'un registre accessible
+aux seules autorités fiscales — alors le nœud du livre redevient praticable et
+A12 se règle tout seul.** Une lecture de l'arrêt suffit à le savoir. **À faire
+avant de trancher.**
+
+**Une piste construite par le corpus sur la troisième ligne**, donnée pour ce
+qu'elle est — non instruite. Le fractionnement n'est pas gratuit : ouvrir et
+tenir des comptes multiples coûte des frais et de l'attention. Or l'objet du
+second ressort n'est pas de percevoir mais de **rendre la thésaurisation
+coûteuse**. Sous cette lecture, un demurrage par compte atteint partiellement
+son but même sans rien collecter. **Trois raisons qu'elle ne vaille rien**, à
+éprouver dans cet ordre : le coût du fractionnement peut être négligeable, il
+est régressif, et ce qui est payé en frais bancaires ne détruit aucune monnaie —
+donc F1 reste entier.
+
+**Ce que A12 change au compte des objectifs (A9).** L11.C07 § 5 établit que la
+compensation contracyclique entre les deux ressorts — présentée par L1.C21 § 5
+comme la vertu principale de l'architecture — **défaille dans l'état pour lequel
+elle est conçue** : le moment où la thésaurisation appelle le demurrage est
+celui où son assiette est la plus mobile. **L'objectif de contracyclicité (O4)
+perd donc son instrument dans l'état qui le motive**, et le compte de A9, déjà
+en défaut de deux, se dégrade d'autant.
+
+**Convergence à porter au dossier de P49.** La restriction de la mobilité des
+capitaux ferme **deux** fuites indépendantes : celle du triangle
+d'incompatibilité (L1.C26 § 4) et celle du demurrage (L1.C21 § 6). Les deux
+chapitres proposaient la même mesure sans voir qu'ils désignaient la même chose.
+**L'arbitrage de P49 ne porte donc plus seulement sur le change : il décide
+aussi si le second ressort tient.**
+
+### A13 — Le périmètre des dérogations au demurrage — OUVERT le 2026-09-05
+
+**Origine : instruction de conception de l'auteur**, adressée au corpus le
+2026-09-05 après lecture de L11.C07 : « Il faudra cependant envisager des
+mécanismes de dérogations. Je ne souhaite pas que des gens soient soumis au
+demurrage s'ils placent leur argent sur des plans épargne logement écologiques
+ou des maisons à énergie positive par exemple. » Instruite en L11.C08.
+
+**L'arbitrage porte sur le PÉRIMÈTRE, non sur le principe.** Le corpus tient
+l'instruction pour fondée et porte à son crédit un apport de conception : une
+dérogation transforme le demurrage d'une **peine** en un **prix du refus
+d'investir** dans ce que le système veut financer. Un instrument qui prétend
+orienter doit offrir la direction qu'il recommande.
+
+**Point préalable, et il évite une disposition inutile.** Les deux exemples de
+l'instruction ne relèvent pas du même instrument. **Acheter un logement à
+énergie positive est une transaction** — l'argent a circulé, le demurrage n'a
+jamais eu prise. Cela relève du barème du PREMIER ressort, où un tel bien
+devrait déjà être au taux le plus bas ; **s'il faut une dérogation pour l'y
+mettre, c'est que le barème ne fonctionne pas.** Seul le plan d'épargne, qui
+demeure une encaisse, appelle une dérogation au demurrage.
+
+**Ce que la dérogation coûte, et il faut l'avoir en tête pour arbitrer.** Une
+dérogation est **un substitut créé par décret**. Les deux premiers substituts
+que Keynes nomme dans l'objection qui borne le demurrage sont « monnaie de
+banque, créances à vue » — la forme même d'un plan d'épargne. Et le raisonnement
+se referme quel que soit le support : **liquide**, il est un substitut parfait
+et l'assiette disparaît ; **immobilisé**, il déplace la thésaurisation au lieu
+de la défaire. **Le bénéfice ne peut donc pas être la circulation : il ne peut
+être que l'affectation.**
+
+**La bande dans laquelle la dérogation tient, et elle se calcule.**
+
+| Capacité d'absorption des placements éligibles | Effet |
+|---|---|
+| très inférieure au stock d'encaisses au-dessus du seuil | **sans danger et sans effet** — une exemption que presque personne ne peut utiliser |
+| comparable ou supérieure | **l'assiette du second ressort disparaît** — le bouclage volumétrique n'est plus assuré (L11.C04 § 4) |
+
+Les deux grandeurs existent — statistiques de patrimoine financier d'un côté,
+encours et capacités des filières éligibles de l'autre. **Elles n'ont jamais été
+rapprochées, et tant qu'elles ne le sont pas on ignore si la dérogation demandée
+est inoffensive ou si elle supprime l'instrument.** Renvoi au Livre 13.
+
+**Deux effets structurels à porter à l'arbitrage.** La dérogation **transfère
+l'assiette du second ressort au barème de qualification** : une seule table
+gouvernerait alors les deux extrémités du circuit, ce qui entre par l'émission
+et ce qui échappe au reflux. Et elle crée **une prime monétaire chiffrable à
+l'obtention du label** (P37), sur la partie du barème la plus difficile à
+établir, puisqu'elle exige de tracer l'emploi des fonds collectés — l'obstacle
+métrologique de L11.C05 déplacé de la chaîne de production vers la chaîne de
+financement.
+
+**Ce qui bloque A13 en amont.** L1.C21 § 3 a relevé que le livre exclut de
+l'assiette du premier ressort les « flux purement financiers » tout en y incluant
+les acquisitions d'actifs, sans concilier les deux énoncés. **Un plan d'épargne
+tombe exactement dans cet interstice.** Cette ambiguïté doit être levée avant que
+le régime de la dérogation puisse être arrêté.
+
+### MIS DE CÔTÉ — la récurrence des effets appariés — RELEVÉ le 2026-09-05
+
+**Mis de côté à la demande de l'auteur le 2026-09-05**, pour ne pas être nommé
+trop tôt. Consigné ici pour ne pas être perdu, et à reprendre quand la passe 1
+du Livre 11 sera plus avancée.
+
+**Le constat.** Quatre fois dans le Livre 11, **un même curseur produit l'effet
+recherché ET son contraire**, dans la même proportion, sans qu'aucun réglage ne
+les sépare.
+
+| Où | Le curseur | L'effet voulu | Son contraire |
+|---|---|---|---|
+| L11.C03 § 5 | le taux sur le dégénératif | décourager l'usage | sur les biens de position, le prix EST l'attribut recherché |
+| L11.C05 § 4 | le taux par paiement | pénaliser les chaînes longues | primer l'intégration verticale |
+| L11.C06 § 2 | le niveau du défaut | faire documenter, donc moduler | faire payer qui ne peut pas prouver |
+| L11.C08 § 6 | l'étendue de la dérogation | orienter l'épargne vers le régénératif | vider l'assiette du reflux |
+| L11.C10 § 6 | la durée de la trajectoire | laisser le temps de transformer | profiter d'abord à qui peut investir pendant qu'elle court |
+
+**Le seul élément d'analyse acquis à ce stade**, apporté par la quatrième
+occurrence : dans les quatre cas, **l'effet contraire porte sur l'assiette ou
+sur l'incidence, jamais sur l'effet direct.** L'instrument fait bien ce qu'on
+lui demande ; ce qui se dégrade est ce sur quoi il s'appuie, ou qui le supporte.
+
+**Pourquoi ne pas nommer tout de suite.** Quatre occurrences dans un seul livre
+peuvent tenir à la manière dont ce livre est écrit plutôt qu'à une propriété du
+dispositif. **Le test est de chercher la même forme ailleurs** — au Livre 2 sur
+les instruments macroprudentiels, au Livre 13 au moment du chiffrage. Si elle
+n'y apparaît pas, c'est un artefact de méthode ; si elle y apparaît, c'est un
+résultat, et il faudra alors le nommer et l'expliquer.
+
+**Ce que le corpus s'interdit en attendant** : traiter les quatre cas comme
+quatre défauts locaux à corriger séparément, ce qui reviendrait à nier la
+récurrence sans l'avoir éprouvée.
+
+### A14 — Les corrections d'incidence — OUVERT le 2026-09-05
+
+**Origine : L11.C09**, qui pose une question absente du livre et du Cahier — non
+pas combien retirer, mais **sur qui le retrait pèse.** Le mot incidence n'y
+figure nulle part.
+
+**Le constat, obtenu par convergence de quatre chapitres et non par une
+objection extérieure.** La cascade favorise les ensembles **intégrés** ; la
+valeur par défaut favorise ceux qui savent **documenter** ; la consolidation par
+bénéficiaire effectif favorise ceux qui disposent de **structures** ; la
+dérogation favorise ceux qui disposent d'un **conseil**. Aucun de ces quatre
+mécanismes n'a été choisi pour cela, et chacun résout un problème réel et
+distinct. **C'est un effet d'accumulation, et les effets d'accumulation ne se
+voient pas dans l'examen pièce à pièce.**
+
+**Ce qui rend l'arbitrage nécessaire, et urgent.** Les quatre biais sont
+**procéduraux et jamais tarifaires** : ils dépendent du nombre de transactions,
+du coût d'une procédure, d'un régime juridique, de l'accès au conseil.
+**Aucune correction par les taux ne les atteint.** On peut baisser tous les
+taux — les quatre biais demeurent identiques. C'est pourquoi ils sont invisibles
+dans un tableau de taux, qui est le seul document que le dispositif publie.
+
+**Les quatre corrections connues, à écrire dans le dispositif et non à renvoyer
+à sa mise en œuvre :**
+
+| Biais | Correction connue | Statut |
+|---|---|---|
+| Cascade | assiette sur la consommation finale | **déjà retenue par le livre** — il n'est pas exposé |
+| Valeur par défaut | procédure de révision **gratuite et rapide** | à écrire (A11) |
+| Consolidation | seuil pour les **personnes morales**, qui manque entièrement | **manque de conception**, pas un paramètre |
+| Dérogation | accès **automatique** plutôt que déclaratif | à écrire (A13) |
+
+**Ce que l'arbitrage ne peut pas trancher, et qui n'est pas de son ressort.** Il
+manque **deux nombres**, et ils ne se comblent pas par un arbitrage mais par une
+lecture : **l'élasticité de l'empreinte au revenu**, qui décide du signe de
+l'incidence du premier ressort ; et **la composition du patrimoine par décile**,
+qui décide si le demurrage atteint le sommet ou le milieu. Les deux existent,
+aucun n'a été cherché, **et ils décident ensemble de la nature politique du
+dispositif.**
+
+### A15 — La forme de la trajectoire — TRANCHÉ le 2026-09-05
+
+**Origine : instruction de conception de l'auteur** du 2026-09-05 : « Il convient,
+je pense, d'appuyer l'idée d'une progressivité de la mise en place de ces
+dispositifs. De sorte que les industries aient le temps de remettre en question
+leurs processus pour le rendre moins impactants. » Instruite en L11.C10.
+
+**Le principe n'est pas en cause, et le corpus le porte au crédit de l'auteur.**
+Un instrument qui prétend déclencher un investissement de transformation doit
+laisser le temps de l'amortissement, faute de quoi il **perçoit sans orienter**.
+La progressivité est donc une condition de fonctionnement, pas un adoucissement —
+et elle rejoint le « tâtonnement » que Tinbergen prescrit lorsque les
+conditions-limites ne peuvent être satisfaites.
+
+**Ce que l'arbitrage doit trancher est la FORME, et il y en a trois.**
+
+| Forme | Crédibilité | Prévisibilité pour l'investisseur | Exposition à Lucas |
+|---|---|---|---|
+| **Calendrier de dates** | faible — un report est une décision, et l'échéance est le moment où la pression est maximale | forte | maximale — fenêtre datée, donc exploitable |
+| **Formule publiée** | moyenne — écrite d'avance, mais révisable | moyenne | forte |
+| **Indexation sur une observation** — le taux monte quand le substitut est effectivement disponible | **forte** — reporter suppose de nier un fait, non de prendre une décision | **faible** | atténuée — la fenêtre n'est plus datée |
+
+**Ce que le corpus recommande sans trancher.** La troisième forme, pour une
+raison de cohérence interne et non de préférence : L11.C06 § 3 a établi que la
+carte des classes du barème **est** la carte des substitutions praticables. Une
+trajectoire indexée sur la disponibilité du substitut en est le prolongement
+direct — *le taux monte quand la substitution devient possible, c'est-à-dire
+quand la classe devient utile.*
+
+**Ce que cette recommandation coûte, et il faut l'énoncer.** On échange **une
+prévisibilité qui n'est pas crédible contre une crédibilité qui n'est pas
+prévisible**, et rien n'établit que le second terme vaille mieux. Et la question
+de gouvernance ne disparaît pas : elle se déplace de la date vers le constat —
+qui déclare un substitut disponible déclenche la hausse. **A4 la reçoit.**
+
+**Un point qui corrige une intuition, et il n'est pas favorable.** On attend
+d'une trajectoire longue qu'elle protège les petits. **Elle profite d'abord à
+ceux qui peuvent investir pendant qu'elle court** — capital et capacité de
+prévision. La petite entreprise affronte le même taux final avec moins de moyens
+d'étaler. **La durée seule ne rend pas la progressivité équitable**, et une
+trajectoire différenciée selon la capacité d'investissement est à instruire, ce
+qui ajoute une dimension au barème.
+
+**Ce qui bloque A15.** Lucas 1976, Kydland-Prescott 1977 et Friedman 1968 portent
+l'argument du chapitre et **aucun n'a été ouvert**, à leur troisième emploi. Les
+trois sont libres en ligne. Voir ci-dessous, F7.
+
+**TRANCHÉ LE JOUR MÊME PAR L'AUTEUR.** Texte de l'arbitrage : « *Le taux monte
+quand le substitut est effectivement disponible — capacité et prix constatés —
+et non à une date fixée d'avance.* **OUI !** » **La troisième forme est
+retenue.**
+
+**CE QUE L'ARBITRAGE OUVRE, et il faut l'instruire avant toute rédaction du
+barème.**
+
+**1. Le défaut propre de la forme retenue, et il est lourd.** Une trajectoire qui
+monte lorsque le substitut apparaît **ne monte jamais là où aucun substitut
+n'apparaît**. Les secteurs les plus verrouillés — ceux dont les procédés n'ont
+pas d'alternative connue — sont exemptés par construction et indéfiniment. Or ce
+sont ceux qu'il faudrait atteindre en premier. **On a troqué une trajectoire qui
+FORCE la technique contre une trajectoire qui la SUIT**, et gagné en crédibilité
+ce qu'on a perdu en capacité d'entraînement.
+
+**Réparation proposée, non tranchée, et cohérente avec A8.** Là où aucun
+substitut n'existe, l'instrument qui agit n'est pas le reflux : **c'est
+l'émission.** Financer le développement de l'alternative relève du barème de
+qualification — exactement comme L11.C03 § 4 a établi que l'abondance des
+essentiels relevait de la qualification et non d'un taux. **Le reflux suit la
+technique ; l'émission la provoque.** C'est la deuxième fois que A8 fournit la
+réparation d'un défaut apparu ailleurs. Prix de cette réparation : elle charge le
+barème de qualification d'une fonction de plus, et suppose qu'un financement
+suffise à faire apparaître une technique — ce que le Livre 5 devra instruire.
+
+**2. Ce que « disponible » veut dire.** L'arbitrage dit « capacité et prix
+constatés » et ne fixe pas les seuils. Un substitut vendu au triple du prix est
+techniquement disponible et économiquement absent. **Il faut donc deux seuils** :
+une part de capacité, et un rapport de prix — et ces deux seuils sont eux-mêmes
+un barème.
+
+**3. Qui constate.** La question de gouvernance ne disparaît pas, elle se
+déplace de la date vers le constat : **qui déclare un substitut disponible
+déclenche la hausse.** A4 la reçoit, et elle n'est plus hypothétique.
+
+**4. Ce que l'arbitrage ne fait pas.** Il ne vérifie aucune des trois sources non
+ouvertes sur lesquelles le chapitre repose, et il ne supprime pas le constat que
+**la durée seule ne rend pas la progressivité équitable** — une trajectoire
+longue profite d'abord à qui peut investir pendant qu'elle court.
+
