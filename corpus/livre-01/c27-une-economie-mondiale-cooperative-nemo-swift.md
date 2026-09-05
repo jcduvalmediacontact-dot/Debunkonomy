@@ -1,0 +1,186 @@
+---
+chapitre: L1.C27
+titre: "Une économie mondiale coopérative — NEMO SWIFT"
+livre: 1
+langue: fr
+licence: CC-BY-SA-4.0
+type: chapitre
+statut: brouillon
+revision_de_fond: 2026-09-04
+autorite: preparatoire
+citable: false
+regime: conception
+sources_primaires:
+  - ref: S1
+    nature: theorie
+    reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre « Le commerce international avec NEMO IMS », section « Le dilemme du passager clandestin et la masse critique ». Trois leviers structurels destinés à rendre la défection irrationnelle : (1) l'accès exclusif à la rente régénérative, les NEMO Green Allocation — que le livre nomme « NEMO Green SDR » — étant « strictement réservés aux pays membres » ; (2) l'exclusion de l'infrastructure NEMO SWIFT, le non-membre restant « condamné aux frictions de l'ancien monde : obligation de maintenir des réserves de change coûteuses » ; (3) l'ajustement aux frontières, sous trois principes — équivalence stricte (« le prélèvement perçu à la frontière est rigoureusement identique à la fonte que le produit aurait supportée s'il avait été fabriqué dans la zone NEMO »), neutralité anticoloniale (recettes « déposées sur un compte sous séquestre » et « reversées au pays exportateur non membre, à la condition expresse qu'il les affecte à la transition écologique de son propre territoire »), et règles d'origine avec « traçabilité intégrale de l'empreinte »"
+    date_verification: 2026-09-04
+  - ref: S2
+    nature: theorie
+    reference: "J.-C. Duval, même ouvrage, même section, sous-partie « Pouvoir de marché et seuil d'activation ». CONCESSION EXPLICITE DE L'AUTEUR : « il convient donc de le reconnaître franchement : NEMO IMS comporte un seuil d'activation en dessous duquel il ne fonctionne pas ». Ordre de grandeur avancé : l'Union européenne « représente environ 15 % des importations mondiales », et « une coalition réunissant environ le double de ce poids commercial disposerait d'une capacité d'entraînement décisive sur les flux mondiaux » ; au-delà du point de bascule, « un grand exportateur ne peut plus se passer d'un débouché qui concentre plus d'un tiers de la consommation mondiale ». Le chiffre est obtenu par comparaison avec le mécanisme d'ajustement carbone aux frontières de l'Union, non par un calcul"
+    date_verification: 2026-09-04
+  - ref: S3
+    nature: theorie
+    reference: "J.-C. Duval, même ouvrage — ÉNONCÉ DÉCISIF pour ce chapitre, qui répond à la question laissée ouverte en L1.C26 § 7 : « Les nations obtiendront leur liquidité dans le cadre d'activités régénératives et seront invitées à les utiliser dans le commerce de biens et services faiblement préjudiciables » (section « Sortir de la compétition pour adopter la coopération ») ; et « ce sont les émissions de NEMO Green SDR dédiés aux financements d'activités de régénérescence et préservation des communs qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » (section « Fixation systémique des taux de change »). Également relevé, section « Un référentiel de change basé sur l'impact » : le livre annonce la « création d'un nouvel hégémon de commerce international », alors que l'hégémonie figure parmi les sept dilemmes qu'il dénonce (L1.C24 § 1)"
+    date_verification: 2026-09-04
+  - ref: S4
+    nature: theorie
+    reference: "T. Feyzioglu, V. Swaroop, M. Zhu, « A Panel Data Analysis of the Fungibility of Foreign Aid », The World Bank Economic Review, 12(1), p. 29-58, 1998 — « Aid is fungible in three out of five sectors examined. Developing-country governments receiving earmarked concessionary loans for agriculture, education, and energy reduce their own resources going to these sectors and use them elsewhere. » DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 § 5 (P19, face budgétaire) ; employée ici contre la clause de neutralité anticoloniale, qui est une affectation sous condition adressée à un gouvernement souverain"
+    date_verification: 2026-09-04
+  - ref: S5
+    nature: theorie
+    reference: "S. Barrett, « Self-Enforcing International Environmental Agreements », Oxford Economic Papers, 46, p. 878-894, 1994 — résultat central de la littérature sur les accords environnementaux internationaux : un accord auto-exécutoire réunit soit beaucoup de participants pour un gain collectif faible, soit un gain élevé pour un très petit nombre de participants ; la coopération large et ambitieuse n'est pas un équilibre en l'absence de sanction. RÉSERVE : référence non ouverte de première main dans cette passe"
+    date_verification: 2026-09-04
+  - ref: S6
+    nature: theorie
+    reference: "W. Nordhaus, « Climate Clubs: Overcoming Free-Riding in International Climate Policy », American Economic Review, 105(4), p. 1339-1370, 2015 — formalisation d'un club dont les membres appliquent une norme commune et frappent les importations des non-membres d'un tarif uniforme ; l'auteur montre qu'un club stable de large adhésion exige un tarif d'un ordre de grandeur déterminé, et calcule cet ordre de grandeur par simulation. IMPORTANT POUR CE CHAPITRE : c'est la formalisation existante la plus proche du dispositif du livre, et elle fournit la méthode qui permettrait de DÉRIVER le seuil que [S2] se contente d'affirmer. RÉSERVE : référence non ouverte de première main"
+    url: "https://doi.org/10.1257/aer.15000001"
+    date_verification: 2026-09-04
+  - ref: S7
+    nature: normatif
+    reference: "Règlement (UE) 2023/956 du Parlement européen et du Conseil du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières — instrument auquel [S2] compare explicitement le dispositif. Champ d'application sectoriel restreint (ciment, fer et acier, aluminium, engrais, électricité, hydrogène), période transitoire de déclaration ouverte le 1er octobre 2023. RÉSERVE : texte non ouvert dans cette passe ; champ et calendrier à confirmer sur EUR-Lex avant tout emploi hors corpus. Le point retenu ici ne dépend pas du détail : l'instrument comparé est SECTORIEL, celui du livre est universel"
+    date_verification: 2026-09-04
+  - ref: S8
+    nature: theorie
+    reference: "A. P. Thirlwall, « The Balance of Payments Constraint as an Explanation of International Growth Rate Differences », Banca Nazionale del Lavoro Quarterly Review, 128, p. 45-53, 1979 — le plafond de croissance de long terme est déterminé par le rapport des élasticités-revenu des exportations et des importations. Déjà versée au dossier en L1.C24 et L1.C26 (P43). RÉSERVE : référence de première main non ouverte"
+    date_verification: 2026-09-04
+  - ref: S9
+    nature: theorie
+    reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, 2009 — une politique unique adoptée à la seule échelle mondiale est peu susceptible d'engendrer la confiance nécessaire à l'action collective ; argument en faveur d'une organisation à plusieurs échelles. DÉJÀ VERSÉE AU DOSSIER en L1.C22 § 2 (P19b, arbitrage A4)"
+    date_verification: 2026-09-04
+verifications_en_attente:
+  # ── Méthode ────────────────────────────────────────────────────────────────
+  # Chapitre du livre lu intégralement avant rédaction ; bibliothèque de
+  # l'auteur consultée avant tout sourçage externe. Aucun rapport tiers
+  # sollicité. Le chapitre 8 du livre ayant déjà alimenté L1.C25 et L1.C26, le
+  # partage a été fait explicitement : C25 prend la chronologie et les dilemmes,
+  # C26 le référentiel et le mécanisme de règlement, C27 l'adhésion, les
+  # frontières et le bouclage extérieur.
+  #
+  # Plan directeur consulté : « Livre 1 | 27 | Une économie mondiale
+  # coopérative — NEMO SWIFT ». Rang et intitulé confirmés, et confirmés une
+  # seconde fois par le renvoi du Cahier Technique E11 (« présentée à
+  # l'épisode 27 »).
+  #
+  - "Barrett 1994 et Nordhaus 2015 de première main [S5], [S6]. Le § 5 leur
+     fait porter à la fois l'objection au seuil affirmé et la méthode qui
+     permettrait de le dériver. Aucune n'a été ouverte. À porter en priorité 1
+     de `protocoles/sources-a-ouvrir.md` : Nordhaus est la formalisation
+     existante la plus proche du dispositif, et le corpus ne l'avait pas
+     rencontrée avant ce chapitre."
+  - "Part des importations mondiales de la coalition envisagée. Le § 5 établit
+     que le seuil d'activation impose une contrainte vérifiable sur la
+     COMPOSITION de la coalition, et non seulement sur son nombre. Il faut
+     calculer la part des importations mondiales d'une vingtaine de pays du
+     bloc BRICS élargi, d'Afrique subsaharienne, d'Amérique latine et d'Asie du
+     Sud-Est — la coalition que le livre nomme — et la comparer au tiers qu'il
+     exige. Le corpus soutient que le seuil ne peut être atteint sans quelques
+     grandes économies importatrices, ce qui contraindrait fortement le
+     scénario ; il ne l'a pas calculé et ne l'affirme donc pas."
+  - "Compatibilité de l'ajustement aux frontières avec le droit du commerce
+     international. Le livre affirme que l'équivalence stricte « garantit sa
+     conformité aux règles du commerce international » [S1]. L'affirmation
+     n'est pas instruite, et la compatibilité du seul instrument comparable est
+     contestée. Un avis de droit est requis — même exigence que pour F4."
+  - "Traçabilité de l'empreinte cumulée aux frontières. L1.C21 § 2 a établi que
+     l'infrastructure de mesure de l'empreinte cumulée n'existe pas à
+     l'intérieur. Le § 4 relève qu'elle serait ici exigée de chaînes situées
+     hors de la zone, chez des acteurs sans incitation à coopérer à la mesure.
+     Il faut établir si un dispositif existant y parvient, ne serait-ce qu'à
+     l'échelle d'un secteur."
+  - "Élasticité de la demande de communs certifiés. Le § 6 établit que
+     l'équilibre extérieur d'un pays dépendrait du volume de communs qu'il peut
+     faire certifier, et donc du barème voté au centre. Il faut savoir ce que
+     ce barème détermine réellement : à quel rythme un pays peut accroître ses
+     recettes certifiées, et si ce rythme est borné par la nature disponible,
+     par la capacité d'audit, ou par une décision de volume."
+  - "Régime transitoire pour une économie écologiquement épuisée. Le § 6 relève
+     qu'un pays ayant déjà détruit ses fonds naturels dispose de la voie de la
+     restauration, mais que celle-ci est lente et capitalistique alors que le
+     besoin de liquidité extérieure est immédiat. Composer avec P35."
+resume: "Ce chapitre examine ce qui fait tenir ensemble une zone monétaire volontaire, et il répond à la question que le chapitre précédent avait laissée ouverte. Il retient d'abord que la page du livre sur le passager clandestin est la meilleure de son argumentation institutionnelle : elle pose l'objection dans sa forme forte, y répond par trois leviers structurels plutôt que par des appels à la vertu, et concède explicitement un seuil d'activation en dessous duquel le dispositif ne fonctionne pas. Le chapitre établit ensuite quatre résultats. Le premier corrige une propriété que le corpus avait créditée trop largement : la suppression des réserves de change ne vaut que pour le commerce interne à la zone, le commerce avec les non-membres continuant d'exiger un règlement conventionnel, de sorte que le gain est proportionnel à la part du commerce intrazone. Le deuxième est que la clause de neutralité anticoloniale, qui restitue au pays non membre les recettes prélevées à sa frontière sous condition d'affectation, est défaite par une source déjà versée au dossier du corpus : les transferts affectés adressés à des gouvernements souverains sont fongibles, de sorte que la condition n'est pas exécutoire et que le levier peut s'inverser en subvention à la non-adhésion. Le troisième est que le seuil d'activation est affirmé et non dérivé, alors qu'une littérature existante — les clubs climatiques — fournit précisément la méthode pour le calculer, et impose au passage une contrainte vérifiable sur la composition de la coalition et non seulement sur son nombre. Le quatrième est le plus lourd : en faisant dépendre le rééquilibrage des économies nationales des émissions régénératives, le dispositif fait dépendre l'équilibre extérieur de chaque pays du volume de communs qu'il peut faire certifier, donc du barème voté au centre. C'est un mécanisme de transfert réel et important vers les pays riches en nature, ce qui est l'argument social le plus fort du livre ; c'est aussi la concentration de pouvoir la plus considérable du dispositif, puisqu'une assemblée mondiale y détermine la balance des paiements de chacun."
+concepts: [seuil_d_activation, referentiel_de_change, qualification_regenerative, systeme_monetaire_et_financier, creation_monetaire, degeneratif]
+renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26]
+---
+
+# Une économie mondiale coopérative — NEMO SWIFT
+
+::etat:: Ce chapitre examine ce qui ferait tenir ensemble une zone monétaire à laquelle les États adhèrent volontairement, et il répond à la question que L1.C26 § 7 avait laissée ouverte : si le règlement du commerce reporte les déséquilibres sur la masse monétaire nationale, qu'est-ce qui empêche un pays durablement déficitaire de se vider. Le livre y répond, et sa réponse engage davantage que le mécanisme monétaire.
+
+## 1. Ce que le livre pose, et pourquoi c'est bien posé
+
+::etat:: Le livre formule contre son propre dispositif l'objection du bien public mondial dans sa forme forte, et il faut lui en donner acte : « si NEMO IMS repose sur l'adhésion souveraine des nations, une question se pose : pourquoi un État renoncerait-il à rester en dehors du système ? En apparence, la défection est la stratégie la plus rationnelle » [S1]. Il détaille ensuite ce que gagne le non-participant : il conserve ses devises clés, garde l'accès aux capitaux internationaux, ne supporte aucun reflux transactionnel sur ses exportations, continue d'extraire sans restriction, et bénéficie gratuitement des externalités positives financées par les autres.
+
+::etat:: **Le livre ne répond pas par un appel à la vertu**, et il l'écrit : « NEMO IMS ne répond pas à cette objection par des vœux pieux ou des appels à la vertu, mais par trois leviers structurels qui rendent la défection irrationnelle sur le plan économique » [S1]. Le corpus relève que c'est la démarche correcte. L'objection du passager clandestin ne se traite pas par la morale, elle se traite en modifiant les gains de la défection.
+
+::hypothese:: Le corpus doit ajouter ce que la littérature établit sur ce type de dispositif, parce que cela fixe la difficulté réelle. Un accord environnemental international auto-exécutoire réunit soit beaucoup de participants pour un gain collectif faible, soit un gain élevé pour un très petit nombre : la coopération à la fois large et ambitieuse n'est pas un équilibre en l'absence de sanction [S5]. **Le dispositif du livre est une tentative d'échapper à ce résultat, et la voie qu'il emprunte — restreindre l'accès à un bien de club et frapper les importations des non-membres — est exactement celle que la littérature a identifiée** [S6]. Ce n'est donc pas une invention isolée : c'est une proposition qui a un nom, une formalisation existante, et des résultats connus. Le § 5 en tire une conséquence qui coûte au livre et lui donne en même temps un outil.
+
+## 2. Levier 1 — la rente régénérative, et à qui elle parle
+
+::etat:: Le premier levier est une incitation positive : l'accès aux NEMO Green Allocation est « strictement réservé aux pays membres », de sorte qu'« un non-participant ne perçoit absolument rien pour ses services écosystémiques ni pour ses efforts de préservation » [S1]. Le livre en tire que, pour les pays du Sud global ou les nations dépositaires de réserves biologiques majeures, la non-adhésion revient à renoncer à un canal de revenus souverains.
+
+::etat:: L'argument est valide, et sa force est mesurable : **elle est proportionnelle à ce que le pays a de certifiable**. Un pays doté de forêts, de zones humides, de littoraux et de bassins encore fonctionnels a beaucoup à gagner ; un pays dont les fonds naturels sont déjà dégradés a peu à percevoir, donc peu à perdre en restant dehors.
+
+::hypothese:: Le corpus doit relever la conséquence, parce qu'elle est structurelle et non conjoncturelle. **La force du levier varie en sens inverse de l'urgence à faire changer le pays.** Les économies dont le comportement pèse le plus lourd sur les limites planétaires sont les économies industrialisées à fonds naturels entamés : ce sont précisément celles auxquelles le premier levier parle le moins. Le livre construit son incitation la plus forte à destination des pays dont l'adhésion est la moins décisive pour l'effet recherché. Cela ne condamne pas le levier — le § 4 montre que le troisième vise l'autre population — mais interdit de le présenter comme suffisant.
+
+## 3. Levier 2 — l'exclusion de l'infrastructure, et une correction que le corpus se doit à lui-même
+
+::etat:: Le deuxième levier tient à l'efficacité du commerce : un pays non membre « ne peut pas utiliser la plateforme de conversion à parité fixe. Il reste condamné aux frictions de l'ancien monde : obligation de maintenir des réserves de change coûteuses, exposition aux chocs monétaires et volatilité des taux flottants » [S1].
+
+::etat:: Le corpus doit corriger ici une propriété qu'il a créditée trop largement la veille. L1.C26 § 2 a retenu la suppression des réserves de change comme l'apport le plus net du dispositif, sans poser la question du périmètre. Or **le mécanisme de règlement suppose que les deux parties soient membres** : il détruit la monnaie de l'importateur et crée celle de l'exportateur, ce qui exige que les deux banques centrales participent. Un membre qui importe d'un non-membre ne peut pas détruire une monnaie que le vendeur n'accepte pas de voir créée chez lui en contrepartie. Ce commerce doit donc être réglé conventionnellement, c'est-à-dire avec des devises détenues.
+
+::etat:: **La suppression des réserves de change n'est donc pas une propriété du dispositif : c'est une propriété du commerce intrazone.** Le gain est proportionnel à la part des échanges d'un pays réalisée avec d'autres membres, et il n'est total qu'à adhésion universelle. Le corpus rectifie en conséquence l'énoncé de L1.C26 § 2, qui reste vrai mais devait être borné.
+
+::hypothese:: Cette correction joue toutefois dans les deux sens, et il serait malhonnête de ne retenir que la part défavorable. Puisque le gain croît avec le nombre de membres, **le levier possède un effet de réseau positif** : chaque adhésion augmente la valeur de l'adhésion pour les suivants. C'est exactement la dynamique dont un dispositif à seuil a besoin, et elle est réelle. Ce que le corpus retient est que le levier est **faible au début et fort à la fin** — donc qu'il ne peut pas servir à amorcer, seulement à consolider. Le levier qui doit amorcer est le troisième.
+
+## 4. Levier 3 — l'ajustement aux frontières, et la clause qui se retourne
+
+::etat:: Le troisième levier neutralise l'avantage du dumping écologique : tout bien importé d'un pays non membre supporte, à son entrée, « une fonte transactionnelle calculée par l'Office de Certification sur la base de son empreinte écologique cumulée », sous trois principes de conception [S1].
+
+::etat:: **L'équivalence stricte** est bien conçue et le corpus la retient : le prélèvement est « rigoureusement identique à la fonte que le produit aurait supportée s'il avait été fabriqué dans la zone NEMO », de sorte que le mécanisme « n'interdit pas l'accès au marché : il annule le gain financier du dumping écologique » [S1]. C'est la formulation qui expose le moins l'instrument à l'accusation de protectionnisme, et elle est délibérée.
+
+::etat:: **La neutralité anticoloniale** est en revanche défaite par une source que le corpus détient déjà. Le livre prévoit que les recettes n'abondent pas les budgets des membres mais sont « déposées sur un compte sous séquestre géré par le Conseil Monétaire Mondial et reversées au pays exportateur non membre, à la condition expresse qu'il les affecte à la transition écologique de son propre territoire » [S1]. C'est une affectation sous condition adressée à un gouvernement souverain — exactement le dispositif dont la littérature établit qu'il ne tient pas : les gouvernements bénéficiaires d'un financement affecté réduisent leurs propres ressources sur le secteur visé et les emploient ailleurs, la fongibilité étant constatée dans trois des cinq secteurs examinés [S4]. Le corpus a déjà retenu ce résultat contre le dispositif en L1.C22 § 5 (P19). **Il vaut ici avec la même force, et contre une clause que le livre présente comme sa garantie d'équité.**
+
+::hypothese:: La conséquence est plus grave qu'une clause inopérante, et il faut la dire. Si la condition d'affectation n'est pas exécutoire, le non-membre récupère les recettes sans contrepartie réelle. Le différentiel entre adhérer et ne pas adhérer, sur ce levier, se réduit alors à la forme du versement — direct en NEMO Green Allocation pour le membre, restitué après séquestre pour le non-membre — et non à son montant. **Le levier destiné à rendre la défection coûteuse peut ainsi s'inverser en subvention à la non-adhésion** : le non-membre continue de produire sans contrainte, vend dans la zone, et se voit restituer le prélèvement. Le corpus n'affirme pas que cette inversion se produirait ; il établit que la clause telle qu'elle est écrite ne l'empêche pas.
+
+::etat:: **Les règles d'origine** appellent enfin une objection déjà instruite. Le livre exige « la traçabilité intégrale de l'empreinte », l'empreinte suivant le bien « tout au long de son cycle de production, indépendamment du dernier lieu de transformation » [S1]. Or L1.C21 § 2 a établi que l'infrastructure de mesure de l'empreinte cumulée n'existe pas — l'infrastructure de perception existe, celle de mesure non. **Ce qui est ici demandé est strictement plus difficile** : la mesure porterait sur des chaînes situées hors de la zone, chez des acteurs qui n'ont aucune incitation à coopérer à leur propre taxation, et dont les États ne sont pas parties à l'accord. L'objection n'est pas nouvelle ; sa forme frontalière est plus lourde que sa forme domestique, et le livre ne la distingue pas.
+
+## 5. Le seuil d'activation — une concession honnête, un chiffre non dérivé
+
+::etat:: Le livre reconnaît franchement une limite que la plupart des propositions comparables passent sous silence : « il convient donc de le reconnaître franchement : NEMO IMS comporte un seuil d'activation en dessous duquel il ne fonctionne pas » [S2]. Il ajoute que le passage de l'îlot au continent « n'est pas un miracle spontané : c'est la conséquence mécanique du franchissement de ce seuil de pouvoir de marché ». **Le corpus retient cette concession comme un point de sérieux**, et note qu'elle est cohérente avec le résultat théorique du § 1 : un dispositif de club ne fonctionne qu'au-delà d'une taille critique.
+
+::etat:: Le chiffre avancé n'est cependant pas dérivé. Le livre observe que l'Union européenne représente environ 15 % des importations mondiales et que son mécanisme d'ajustement carbone influence déjà les arbitrages de ses partenaires ; il en conclut qu'« une coalition réunissant environ le double de ce poids commercial disposerait d'une capacité d'entraînement décisive » [S2]. **Le facteur deux est une analogie, non un calcul**, et l'analogie transporte les propriétés d'un instrument **sectoriel** — le mécanisme comparé s'applique à une liste restreinte de produits [S7] — vers un instrument **universel** qui frapperait toutes les importations selon leur empreinte cumulée. Rien n'établit que le pouvoir d'entraînement se transpose à l'identique.
+
+::hypothese:: Le corpus relève que la méthode manquante existe. La littérature des clubs climatiques a formalisé exactement ce dispositif — une norme commune appliquée par les membres, un prélèvement sur les importations des non-membres — et elle en dérive par simulation la condition de stabilité, c'est-à-dire le niveau de prélèvement et la taille de club nécessaires pour qu'aucun membre n'ait intérêt à sortir [S6]. **Le seuil que le livre affirme peut donc être calculé, et il devrait l'être.** C'est un point où le corpus peut être utile au projet plutôt qu'à sa réfutation : l'instrument existe, il n'a pas été rencontré, et il transforme une intuition en grandeur mesurable (P51).
+
+::hypothese:: Une conséquence doit être tirée immédiatement, parce qu'elle contraint le scénario de la coalition de pionniers auquel le livre confie sa stratégie d'adoption (L1.C25 § 3, arbitrage A6). **Le seuil porte sur une part des importations mondiales, donc sur une composition de coalition et non seulement sur un nombre de pays.** Une coalition d'une vingtaine d'États du Sud global peut être nombreuse, représenter une part considérable de la population, des ressources et de la biodiversité mondiales, et rester très en deçà du tiers des importations mondiales — les importations étant concentrées dans un petit nombre de grandes économies. Le corpus soutient que le seuil ne peut être atteint sans quelques-unes d'entre elles ; **il ne l'a pas calculé et ne l'affirme donc pas**, mais il enregistre que le calcul est simple, qu'il est décisif pour le scénario, et qu'il n'a pas été fait.
+
+## 6. Ce qui rééquilibre les économies : la nature certifiable
+
+::etat:: L1.C26 § 7 avait laissé une question ouverte : si le déséquilibre commercial se reporte intégralement sur la masse monétaire nationale, à parité fixe et sans correcteur, qu'est-ce qui empêche un pays durablement déficitaire de se contracter sans terme. Le livre répond, en deux endroits et sans ambiguïté. « Les nations obtiendront leur liquidité dans le cadre d'activités régénératives » ; et « ce sont les émissions de NEMO Green SDR [...] qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » [S3].
+
+::etat:: **L'équilibre extérieur d'un pays dépendrait donc du volume de communs qu'il peut faire certifier.** Le corpus doit en tirer trois conséquences, et la première est favorable.
+
+::etat:: **C'est un mécanisme de transfert réel, et c'est l'argument social le plus fort du livre.** Un pays riche en fonds naturels fonctionnels et faiblement industrialisé dispose, dans ce dispositif, d'une source de liquidité extérieure indépendante de sa capacité à exporter des marchandises. Cela vaut mieux que le régime actuel pour cette catégorie de pays, et le corpus l'accorde sans réserve : le dispositif rémunère ce que le système existant ne compte pas, et il le rémunère au bénéfice de ceux qui en supportent aujourd'hui le coût sans contrepartie. **C'est la réponse la plus solide du livre à l'objection extractiviste**, parce qu'elle fournit une alternative à l'exportation de ressources plutôt qu'une exhortation à s'en abstenir.
+
+::hypothese:: **La contrainte extérieure n'est pas levée pour autant : elle change d'assiette.** Un pays doit toujours acquérir de quoi financer ses importations ; ce qu'il exporte cesse d'être des marchandises pour devenir des services écosystémiques certifiés. Le plafond déterminé par le rapport des élasticités [S8] n'est pas supprimé, il est reconstruit sur une autre dotation — et cette dotation, la nature encore fonctionnelle, est distribuée entre les pays de façon au moins aussi inégale que les dotations actuelles. Le corpus a écarté en L1.C24 § 3 l'idée que changer l'actif de règlement atteignait le plafond de croissance ; il constate ici que le livre emprunte un autre canal, réel celui-là — fournir des devises par l'émission plutôt que par l'exportation —, mais que ce canal a lui-même une capacité, et qu'elle est bornée par la nature disponible.
+
+::hypothese:: **La troisième conséquence est la plus lourde, et elle n'avait été relevée nulle part.** Le volume que chaque pays peut faire certifier ne dépend pas d'un marché : il dépend du barème d'activités éligibles et de leur valorisation, arrêté par l'Assemblée des Communs (L1.C18 § 4). Il en résulte que **le barème voté au centre détermine la balance des paiements de chaque pays.** Ce n'est plus la même objection que celle de la connaissance dispersée ou de l'indicateur pris pour cible, quoiqu'elle compose avec elles (P19b, P25, F3) : celles-là portaient sur la qualité de l'allocation ; celle-ci porte sur le fait qu'une assemblée mondiale déciderait de la solvabilité extérieure de ses membres. **C'est la concentration de pouvoir la plus considérable du dispositif**, et elle est obtenue par composition de deux mécanismes que le livre présente séparément : la parité fixe qui ferme le canal du change (L1.C26 § 4) et la certification qui ouvre le canal du financement. Le corpus ne l'avait pas vue parce qu'il n'avait pas lu les deux ensemble. Elle donne à l'arbitrage A4 — détermination centrale ou polycentrique [S9] — un enjeu supérieur à celui qui lui était assigné.
+
+::hypothese:: Une difficulté de transition doit enfin être signalée, et elle compose avec P35. Un pays dont les fonds naturels sont déjà détruits n'est pas sans recours : la restauration figure parmi les activités éligibles, et il peut donc être payé pour réparer. Mais la restauration est lente et capitalistique, alors que le besoin de liquidité extérieure est immédiat et continu. **Le dispositif rémunère un stock que ce pays n'a plus, et un flux qu'il mettra des décennies à reconstituer**, pendant lesquelles sa masse monétaire se contracte au rythme de son déficit commercial. Le régime transitoire, dont L1.C23 § 3 avait déjà établi qu'il décidait de la viabilité politique de l'ensemble, se pose ici sous sa forme la plus dure.
+
+## 7. La souveraineté du référentiel, question bien posée et non résolue
+
+::etat:: Le livre pose lui-même la question de la légitimité, dans les termes exacts où elle se pose : « si l'unité de compte NEMO Exchange Standard n'est la devise d'aucune nation, d'où peut bien provenir la souveraineté qui lui confère sa légitimité ? » [S1]. Il y répond en invoquant une « souveraineté internationale » incarnée par le GAÏA Economic Symposium, qui « transcende la notion traditionnelle centrée sur l'autorité exclusive des États ».
+
+::hypothese:: Le corpus doit distinguer deux questions que cette réponse réunit. La légitimité de l'**institution** a été traitée en L1.C18 : quatre chambres à pouvoirs séparés, tutelle duale, règle interdisant que celui qui définit ce qui compte décide aussi de ce qu'on émet. C'est une réponse institutionnelle réelle. La légitimité du **référentiel** est une autre question, et elle reste entière : ce qui fixe les taux n'est pas dit (L1.C26 § 3), et le § 6 vient d'établir que la valorisation des communs certifiés détermine l'équilibre extérieur de chacun. **La souveraineté en cause n'est donc pas symbolique : elle est la capacité de décider, pour autrui, de ce qu'il pourra importer.** La section du livre est une déclaration d'intention là où il faudrait une procédure.
+
+::etat:: Le corpus relève enfin, sans en faire une objection de fond, que le livre annonce ailleurs la « création d'un nouvel hégémon de commerce international » [S3], alors que l'hégémonie figure parmi les sept dilemmes qu'il dénonce (L1.C24 § 1). L'emploi est probablement rhétorique et vise l'idée d'un étalon dominant plutôt que d'une domination. Il n'en reste pas moins qu'un texte qui dénonce une hégémonie et annonce la sienne offre une prise gratuite, et que le mot devrait être changé.
+
+## 8. Portée
+
+::etat:: Ce chapitre a retenu que la page du livre sur le passager clandestin est la meilleure de son argumentation institutionnelle : l'objection y est posée dans sa forme forte, traitée par des leviers structurels et non par des appels à la vertu, et assortie d'une concession explicite sur le seuil en dessous duquel rien ne fonctionne. Il a rattaché la démarche à une littérature existante que le corpus n'avait pas rencontrée, et qui la valide comme voie sans en garantir l'issue.
+
+::etat:: Il a établi quatre résultats. **Il a corrigé le corpus lui-même** : la suppression des réserves de change, créditée en L1.C26 § 2 comme l'apport le plus net du dispositif, ne vaut que pour le commerce intrazone et croît avec l'adhésion. **Il a établi que la clause de neutralité anticoloniale ne tient pas**, une source déjà versée au dossier montrant que les affectations sous condition adressées à des gouvernements souverains sont fongibles — et que le levier peut, par là, s'inverser en subvention à la non-adhésion. **Il a établi que le seuil d'activation est affirmé et non dérivé**, alors qu'une méthode existe pour le calculer, et qu'il impose au scénario de la coalition une contrainte de composition, non seulement de nombre.
+
+::hypothese:: **Le quatrième résultat est le plus lourd et il est ambivalent.** En faisant du financement régénératif l'instrument de rééquilibrage des économies nationales, le livre répond effectivement à la question laissée ouverte par L1.C26, et il y répond par un mécanisme de transfert réel vers les pays riches en nature — c'est son argument social le plus fort, et le corpus l'accorde. Mais la même réponse fait dépendre l'équilibre extérieur de chaque pays d'un barème voté par une assemblée mondiale. **Une institution non élue déciderait de la balance des paiements de ses membres**, ce qu'aucun chapitre n'avait relevé parce qu'il fallait pour cela lire ensemble la parité fixe et la certification. Le corpus n'en conclut pas que le dispositif est illégitime ; il conclut que **l'arbitrage entre détermination centrale et détermination polycentrique (A4) n'est plus une question d'efficacité allocative, mais la question qui décide de la souveraineté économique des membres** (P52).

@@ -1,0 +1,198 @@
+---
+chapitre: L1.C26
+titre: "Le NEMO Exchange Standard"
+livre: 1
+langue: fr
+licence: CC-BY-SA-4.0
+type: chapitre
+statut: brouillon
+revision_de_fond: 2026-09-04
+autorite: preparatoire
+citable: false
+regime: conception
+sources_primaires:
+  - ref: S1
+    nature: theorie
+    reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre « Le commerce international avec NEMO IMS », sections « Métaphore de la toile d'araignée monétaire », « Détermination des taux de change fixes », « Fonctionnement du NEMO SWIFT » et « Fixation systémique des taux de change ». Énoncés retenus : le NES est « un référentiel de comptabilité universel, autour duquel toutes les devises du monde se convertiront directement entre elles » ; « le NES n'est pas une monnaie, mais simplement un référentiel comptable » ; règle de conversion — MONTANT EN DEVISE B = Montant en Devise A / TAUX Devise A × TAUX Devise B ; « l'importateur paie dans sa monnaie nationale. Cette somme est détruite par NEMO SWIFT » et « l'exportateur reçoit dans sa propre monnaie nationale. Cette somme est créée ex nihilo par NEMO SWIFT ». Table de cotation indirecte, base 1 NES = 1 USD, janvier 2026 : 0,86 EUR, 0,75 GBP, 0,80 CHF, 1,39 CAD, 1,50 AUD, 6,97 CNY, 158,00 JPY"
+    date_verification: 2026-09-04
+  - ref: S2
+    nature: theorie
+    reference: "J.-C. Duval, même ouvrage, même chapitre — ÉNONCÉ DÉCISIF que ce chapitre met à l'épreuve : « NEMO IMS neutralise les dilemmes exposés par le triangle d'incompatibilité de Mundell. Si les taux de change sont fixes avec NEMO IMS, les nations recouvrent toute la latitude de leurs politiques monétaires, ainsi que la libre circulation des capitaux. » Aucun mécanisme n'est donné à l'appui. Le même passage déclare le dispositif « inspiré de l'étalon Or/sterling du 19e siècle ». Autres énoncés testés : « Fin des déséquilibres commerciaux chroniques » ; « À terme, la solution NEMO IMS vise à lisser cette parité de sorte que la valeur du travail, du mérite et du pouvoir d'achat converge entre toutes les nations » ; les taux sont dits « fixes par conception » puis « fixes mais ajustables », et leurs modalités « restent à discuter », l'auteur évoquant « une photo à un instant T »"
+    date_verification: 2026-09-04
+  - ref: S3
+    nature: theorie
+    reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 — triangle d'incompatibilité : un pays ne peut pas tenir simultanément un taux de change fixe, la mobilité parfaite des capitaux et une politique monétaire autonome. RÉSERVE : références non ouvertes de première main ; la bibliothèque de l'auteur contient deux notes de vulgarisation sur le triangle, non les articles originaux. Le résultat est déjà versé au dossier en L1.C19 § 6 et L1.C24 § 1"
+    date_verification: 2026-09-04
+  - ref: S4
+    nature: theorie
+    reference: "P. Mehrling, notes de cours du cours The Economics of Money and Banking, Barnard College — bibliothèque de l'auteur. Deux éléments employés ici : la contrainte de règlement, « the requirement that deficit countries find a way to settle with surplus countries », qui discipline le pays déficitaire sans qu'aucune volonté ne s'exerce ; et, leçon 14, la description du mécanisme d'ajustement sous étalon-or, où la discipline s'exerce par les paiements et où l'ajustement porte sur la masse monétaire interne du pays déficitaire"
+    date_verification: 2026-09-04
+  - ref: S5
+    nature: theorie
+    reference: "B. Balassa, « The Purchasing-Power Parity Doctrine: A Reappraisal », Journal of Political Economy, 72(6), p. 584-596, 1964 ; P. A. Samuelson, « Theoretical Notes on Trade Problems », Review of Economics and Statistics, 46(2), p. 145-154, 1964 — les écarts durables à la parité de pouvoir d'achat s'expliquent par des différentiels de productivité entre biens échangeables et non échangeables, non par un défaut de fixation du taux nominal. RÉSERVE : références non ouvertes de première main dans cette passe"
+    date_verification: 2026-09-04
+  - ref: S6
+    nature: theorie
+    reference: "J.-C. Duval, Cahier technique, épisode 11 « De la coopération entre banques centrales à la gouvernance monétaire mondiale » — le NEMO Exchange Standard y est décrit comme « un pur nombre notionnel qui sert d'unité de référence pour les taux de change entre monnaies nationales. Il ne remplace aucune monnaie. » AVERTISSEMENT : épisode du Livre 2 portant des états antérieurs de la conception (protocoles/passe-2.md § 3 quater)"
+    date_verification: 2026-09-04
+  - ref: S7
+    nature: theorie
+    reference: "H. Rey, « Dilemma not Trilemma: The Global Financial Cycle and Monetary Policy Independence », Jackson Hole Economic Policy Symposium, Federal Reserve Bank of Kansas City, 2013 — thèse selon laquelle, sous mobilité parfaite des capitaux, le cycle financier mondial prive les économies d'autonomie monétaire QUEL QUE SOIT le régime de change : le trilemme se réduit à un dilemme entre mobilité des capitaux et autonomie monétaire. RÉSERVE : référence non ouverte de première main. Employée ici comme nuance défavorable au régime actuel autant qu'au dispositif — elle n'établit pas que le dispositif échappe au triangle"
+    date_verification: 2026-09-04
+  - ref: S8
+    nature: theorie
+    reference: "A. P. Thirlwall, « The Balance of Payments Constraint as an Explanation of International Growth Rate Differences », Banca Nazionale del Lavoro Quarterly Review, 128, p. 45-53, 1979 — plafond de croissance de long terme déterminé par le rapport des élasticités-revenu des exportations et des importations. Déjà versée au dossier en L1.C24 sous la même référence (P43). RÉSERVE : référence de première main non ouverte"
+    date_verification: 2026-09-04
+  - ref: S9
+    nature: theorie
+    reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar, Oxford University Press, 2011 — OUVERT DE PREMIÈRE MAIN le 2026-09-04, ouvrage procuré par l'auteur. PRÉCÉDENT RETENU ICI : la tentative de créer un marché privé de droits de tirage spéciaux. « In 1981 the IMF sought to jump-start the market by reducing the number of currencies making up the SDR from sixteen to five », le panier de seize étant jugé trop difficile à comprendre. L'échec et son mécanisme : « The first private entity issuing an SDR bond or deposit incurred extra costs as a result of the instrument's illiquidity. The first private SDR, by definition, was not traded in a broad and deep market. Purchasers required additional compensation to hold it. And since liquid markets in claims denominated in national currencies already existed, private SDRs traded at a disadvantage. » Et le cercle d'amorçage : « Central banks will find it attractive to hold SDRs only when a significant fraction of trade is invoiced and settled in SDRs. They will find it attractive to do so if and when private lending and borrowing take place in that unit »"
+    date_verification: 2026-09-04
+verifications_en_attente:
+  # ── Méthode ────────────────────────────────────────────────────────────────
+  # Le chapitre du livre a été lu intégralement avant rédaction (sections
+  # « Métaphore de la toile d'araignée monétaire » à « Une souveraineté
+  # internationale pour les communs planétaires »), et la bibliothèque de
+  # l'auteur consultée avant tout sourçage externe. Aucun rapport tiers n'a été
+  # sollicité.
+  #
+  # Plan directeur consulté : « Livre 1 | 26 | Le NEMO Exchange Standard ».
+  # Rang et intitulé confirmés, et confirmés une seconde fois par le renvoi du
+  # Cahier Technique E11 (« le NES, présenté à l'épisode 26 »).
+  #
+  - "MUNDELL 1963 OUVERT DE PREMIÈRE MAIN le 2026-09-05, tirage JSTOR procuré
+     par l'auteur, et dépouillé en L11.C04. **L'objection de ce chapitre tient,
+     mécanisme compris** : sous parité fixe et mobilité parfaite, « la banque
+     centrale n'a pas davantage de pouvoir sur la masse monétaire ». Deux points
+     à reporter ici en passe 2 : le modèle suppose des salaires nominaux fixes et
+     un niveau des prix constant, donc il porte sur le REVENU et non sur
+     l'inflation ; et il suppose un petit pays preneur du taux mondial, ce que le
+     dispositif ne veut pas être. **FLEMING 1962 MANQUE TOUJOURS**, et le résultat
+     porte conjointement les deux noms.
+     ANCIENNE FORMULATION — Mundell 1963 et Fleming 1962 de première main [S3]. L'objection bloquante
+     de ce chapitre repose sur ce résultat, et la bibliothèque n'en contient que
+     des notes de vulgarisation. Une objection bloquante ne doit pas reposer sur
+     une source non ouverte — inscrit en priorité 1 de
+     `protocoles/sources-a-ouvrir.md`."
+  - "Rey 2013 de première main [S7]. La nuance qu'elle porte est importante
+     pour la justice du traitement : si l'autonomie monétaire est déjà perdue
+     sous changes flottants, alors le coût imputé au dispositif au § 4 doit
+     être mesuré par rapport à ce qui existe, non par rapport à un idéal."
+  - "Balassa et Samuelson de première main [S5], qui portent la réfutation de
+     la promesse de convergence des pouvoirs d'achat au § 5."
+  - "Comment les taux initiaux seraient-ils fixés ? Le § 3 relève que le livre
+     donne deux réponses incompatibles — des critères écologiques et sociaux,
+     ou « une photo à un instant T ». Aucune n'est instruite. Il faut établir
+     ce qu'une fixation par critères écologiques signifierait techniquement :
+     quel prix relatif entre deux monnaies un critère de robustesse détermine,
+     et par quelle opération."
+  - "Quelle procédure de révision ? Les taux sont dits « fixes par conception »
+     puis « fixes mais ajustables ». Si ajustables, il faut la procédure, son
+     rythme, son autorité et ses critères — et le § 6 établit que ces questions
+     sont les mêmes que celles du pilotage des taux de reflux (F7, P48)."
+  - "Le régime des flux de capitaux. Le § 4 montre que la question décide de
+     tout, et le livre ne la traite pas : NEMO SWIFT traite-t-il les seuls
+     règlements commerciaux, ou tout transfert transfrontalier ? L1.C21
+     mentionne un contrôle des capitaux ; [S2] revendique leur libre
+     circulation. Les deux ne peuvent pas être vrais."
+  - "Ordre de grandeur des variations de masse monétaire induites. Le § 4
+     établit que le solde commercial se déverse intégralement sur la masse
+     monétaire nationale. Un chiffrage sur des soldes courants observés —
+     rapportés aux agrégats monétaires des pays concernés — dirait si l'effet
+     est marginal ou dirimant. Le corpus soutient qu'il est massif ; il ne l'a
+     pas calculé."
+resume: "Ce chapitre examine le référentiel de change que le livre propose et le mécanisme de règlement qui l'accompagne. Il restitue d'abord ce que le dispositif fait réellement : le NES n'est pas une monnaie mais un pivot de conversion, et NEMO SWIFT ne convertit pas les devises, il détruit la monnaie de l'importateur dans son économie et crée celle de l'exportateur dans la sienne. Le chapitre retient deux propriétés favorables et solides — la neutralité monétaire globale du mécanisme, la destruction et la création s'équilibrant exactement au pivot, et la suppression des réserves de change, qui est un gain réel et important pour les pays qui en supportent aujourd'hui le coût. Il établit ensuite trois résultats défavorables. Le premier est bloquant : le livre affirme en une phrase que le dispositif neutralise le triangle d'incompatibilité de Mundell et permet de tenir simultanément les changes fixes, l'autonomie monétaire et la mobilité des capitaux, sans donner aucun mécanisme ; or le dispositif ne neutralise pas le triangle, il en occupe un sommet — les changes fixes tiennent, la mobilité des capitaux peut être maintenue, et c'est l'autonomie monétaire qui est perdue, exactement comme sous l'étalon-or dont le livre se réclame. Le deuxième est que la fin des déséquilibres commerciaux chroniques n'est pas obtenue : le solde commercial n'est plus absorbé par les réserves ni par le taux de change, il se déverse intégralement sur la masse monétaire nationale, de sorte qu'un pays durablement déficitaire voit sa monnaie interne se contracter sans mécanisme correcteur. Le troisième est que la convergence des pouvoirs d'achat annoncée ne suit pas de la fixation des taux nominaux. Le chapitre conclut que le mécanisme est cohérent et mieux construit qu'il n'y paraît, mais que la phrase par laquelle le livre écarte l'objection la plus classique de la théorie des changes est la seule du chapitre qui ne soit pas argumentée."
+concepts: [referentiel_de_change, devise_cle, hierarchie_monetaire, systeme_monetaire_et_financier, creation_monetaire, reflux_monetaire]
+renvois: [L1.C05, L1.C07, L1.C19, L1.C20, L1.C21, L1.C24, L1.C25]
+---
+
+# Le NEMO Exchange Standard
+
+::etat:: Ce chapitre examine le référentiel de change que le livre propose et le mécanisme de règlement qui l'accompagne. Il retient deux propriétés favorables que le corpus n'avait pas relevées, et il établit une objection bloquante : le livre écarte le triangle d'incompatibilité de Mundell par une affirmation d'une phrase, sans mécanisme, alors que le dispositif n'y échappe pas — il en occupe un sommet, et le sommet qu'il occupe coûte l'autonomie monétaire.
+
+## 1. Ce que le dispositif fait réellement
+
+::etat:: Le NES est défini comme « un référentiel de comptabilité universel, autour duquel toutes les devises du monde se convertiront directement entre elles » [S1]. Le livre insiste : « le NES n'est pas une monnaie, mais simplement un référentiel comptable » [S1], et le Cahier Technique le nomme « un pur nombre notionnel [...]. Il ne remplace aucune monnaie » [S6]. Chaque devise nationale est reliée au pivot par un taux fixe, selon l'image d'une toile dont le centre est immobile. Une conversion est une règle de trois : on divise par le taux de la devise de départ, on multiplie par celui de la devise d'arrivée.
+
+::etat:: Le mécanisme de règlement est en revanche plus radical que ne le suggère le mot « conversion », et le corpus doit l'énoncer exactement parce que tout le chapitre en dépend. **L'importateur paie dans sa monnaie nationale, et cette somme est détruite ; l'exportateur reçoit dans sa monnaie nationale, et cette somme est créée ex nihilo** [S1]. Le livre en donne deux illustrations chiffrées. Une entreprise suisse importe pour 2 457 CHF du Royaume-Uni : « 2 457 CHF sont détruits dans l'économie suisse. 2 303,44 GBP sont créés dans l'économie britannique. » Un importateur japonais achète du vin français pour 10 000 € : 1 837 209,78 JPY « sont reçus par NEMO SWIFT et immédiatement détruits au sein de l'économie japonaise. Simultanément, 10 000 EUR sont créés ex nihilo et crédités sur le compte de l'exportateur français » [S1].
+
+::etat:: Il faut relever ce que cela n'est pas. **Ce n'est pas un change.** Dans une opération de change, la monnaie de l'importateur n'est pas détruite : elle change de mains et se retrouve détenue par quelqu'un qui souhaite en disposer ; les deux masses monétaires nationales sont inchangées, seule la répartition des détenteurs varie. Ici, aucune contrepartie ne détient la monnaie payée, parce qu'elle n'existe plus. **Le dispositif ne fait pas circuler la monnaie entre espaces monétaires : il en supprime d'un côté et en fabrique de l'autre.** C'est une architecture différente, et non une simplification de l'existante.
+
+::hypothese:: Le corpus doit noter que le livre lui-même n'insiste pas sur ce point, qu'il présente sous le vocabulaire de la conversion et de la « symétrie comptable absolue » [S1]. La symétrie est réelle, comme le § 2 va l'établir. Mais elle est une symétrie **entre deux espaces monétaires distincts**, et non à l'intérieur de chacun — ce qui est précisément ce que les § 3 et 4 examinent.
+
+## 2. Deux propriétés favorables, et elles sont solides
+
+::etat:: **La neutralité monétaire globale.** Le mécanisme ne crée pas de monnaie nette à l'échelle mondiale. La somme détruite et la somme créée sont égales une fois exprimées au pivot : 2 457 CHF divisés par 0,80 donnent 3 071,25 NES, et 3 071,25 NES multipliés par 0,75 donnent 2 303,44 GBP [S1]. Le règlement du commerce international n'ajoute donc rien à la masse monétaire mondiale, et n'en retire rien. C'est une propriété réelle, obtenue par construction, et elle répond à une question que tout dispositif de ce genre doit affronter : qui finance la liquidité du commerce international. La réponse du livre est qu'il n'y a rien à financer.
+
+::hypothese:: Le corpus doit toutefois enregistrer une conséquence de cette propriété que la calibration n'avait pas comptée. **Le commerce devient un second canal de création monétaire nationale, distinct de l'émission régénérative.** Le problème de calibration ouvert depuis L1.C17 — égaliser l'émission et le reflux (P18, F1) — était posé sur le seul canal du GAÏA Economic Symposium. Il faut désormais y ajouter, pour chaque pays, un terme égal à son solde commercial. Globalement ces termes s'annulent ; nationalement, non. **Aucun chapitre du corpus n'avait relevé ce terme, et il n'apparaît ni dans le livre ni dans le Cahier.**
+
+::etat:: **La suppression des réserves de change.** Le livre écrit que « les économies nationales ne sont plus étranglées par la nécessité de maintenir des réserves de change » [S1], et sur ce point précis le corpus le suit sans réserve. Un pays qui règle ses importations en détruisant sa propre monnaie n'a besoin d'aucune devise étrangère, donc d'aucun stock de précaution. Le gain n'est pas symbolique : l'accumulation de réserves est un coût réel, supporté principalement par les économies émergentes, qui immobilisent des ressources dans des actifs à faible rendement libellés dans la monnaie d'un tiers. **C'est l'apport le plus net du dispositif, et il est obtenu sans institution supplémentaire.**
+
+::etat:: **CORRECTION APPORTÉE LE MÊME JOUR, EN DÉFRICHANT L1.C27 § 3.** Cet énoncé était trop large et doit être borné. Le mécanisme suppose que les deux parties soient membres, puisqu'il exige que les deux banques centrales participent à la destruction et à la création. Un membre qui importe d'un non-membre ne peut pas détruire une monnaie que le vendeur n'accepte pas de voir créée chez lui en contrepartie : ce commerce doit être réglé conventionnellement, donc avec des devises détenues. **La suppression des réserves de change n'est pas une propriété du dispositif, c'est une propriété du commerce intrazone** — le gain est proportionnel à la part des échanges réalisée avec d'autres membres, et n'est total qu'à adhésion universelle. La correction joue dans les deux sens : puisque le gain croît avec le nombre de membres, la propriété produit un effet de réseau qui sert exactement la dynamique dont un dispositif à seuil a besoin (L1.C27 § 3, § 5).
+
+::hypothese:: Ce gain doit être rapproché de ce que L1.C24 § 3 avait établi. La contrainte de règlement — devoir se procurer l'actif que les autres acceptent pour solder en fin de période — n'est pas abolie par le dispositif : elle est **transformée**. L'importateur n'a plus à acquérir de devise étrangère, mais il doit toujours disposer de sa propre monnaie, et celle-ci est détruite à la sortie. Ce que le § 4 examine est ce que cette transformation coûte.
+
+## 3. Ce qui fixe les taux n'est pas dit, et le livre donne deux réponses incompatibles
+
+::etat:: Le livre présente le NES comme « un étalon, neutre et non-national, dont la valeur n'est pas fixée par les marchés mais par des critères écologiques et sociaux » [S2]. Quelques lignes plus loin, il écrit que « les modalités de cette fixité des taux de change restent à discuter, mais on peut imaginer une "prise de photo à un instant T" » [S2]. Les deux énoncés ne peuvent pas être vrais ensemble. Un taux déterminé par des critères écologiques et sociaux n'est pas un taux de marché photographié ; un taux photographié à un instant donné est exactement un taux de marché, figé.
+
+::etat:: La table de cotation publiée tranche de fait en faveur du second : elle donne, pour base « 1 NES = 1 USD, janvier 2026 », les parités 0,86 EUR, 0,75 GBP, 0,80 CHF, 6,97 CNY, 158,00 JPY [S1] — c'est-à-dire les cours de change du marché à cette date. **Le référentiel présenté comme non déterminé par les marchés est initialisé à partir des cours de marché, et son unité est arrimée au dollar**, dont le chapitre précédent du livre entend précisément défaire la position (L1.C24). Le livre ajoute que cette parité est retenue « pour des questions de commodité » et n'implique pas un adossement ; le corpus l'admet, et relève que la commodité en question consiste à prendre pour référence la monnaie que l'on veut détrôner.
+
+::etat:: **Un précédent documenté existe, et il coupe dans les deux sens.** Une tentative de faire vivre une unité de compte supranationale a déjà eu lieu : le Fonds monétaire international a cherché en 1981 à amorcer un marché privé de droits de tirage spéciaux, réduisant à cette fin le panier de seize monnaies à cinq parce que seize le rendaient trop difficile à comprendre [S9]. L'entreprise a échoué, et le mécanisme de l'échec est instructif : « the first private entity issuing an SDR bond or deposit incurred extra costs as a result of the instrument's illiquidity [...] and since liquid markets in claims denominated in national currencies already existed, private SDRs traded at a disadvantage » [S9]. Le premier utilisateur supportait seul le coût de l'illiquidité, et personne n'avait donc intérêt à être le premier.
+
+::hypothese:: **Le dispositif du livre échappe à ce mécanisme, et il faut le porter à son crédit.** Le NES n'est pas un instrument que des acteurs privés choisiraient d'émettre ou de détenir : il n'est jamais détenu, il n'est pas négocié, et son emploi n'est pas facultatif puisque tout règlement international passe par lui (L1.C26 § 1). **Le cercle d'amorçage qui a tué le marché privé de droits de tirage — on ne l'adopte que si d'autres l'ont adopté — ne se referme pas ici**, parce que l'adoption ne résulte pas d'un arbitrage individuel mais d'une règle. C'est un avantage réel de la conception, et le corpus ne l'avait pas identifié.
+
+::hypothese:: Le prix de cet avantage doit être énoncé dans la même phrase : il est obtenu **par la contrainte**. Là où le droit de tirage devait convaincre, le NES s'impose. L'objection se déplace donc entièrement du terrain de la viabilité économique vers celui de l'adhésion politique — c'est-à-dire vers L1.C27, et vers le seuil d'activation que le livre reconnaît lui-même indispensable.
+
+::hypothese:: L'objection sur la fixation initiale des taux n'est pas rhétorique pour autant, et il faut dire ce qu'elle coûte. Une photographie fige **la structure des prix relatifs telle qu'elle résulte de l'histoire économique**, y compris de la position acquise par les pays dont la monnaie s'est appréciée en exportant, c'est-à-dire, selon le diagnostic du livre lui-même, en extrayant [S2]. Le dispositif graverait ainsi dans le marbre la distribution qu'il dénonce. Il n'est pas neutre de figer : figer est une décision distributive, et elle est irréversible tant qu'aucune procédure de révision n'est écrite.
+
+::etat:: **UNE TROISIÈME RÉPONSE A ÉTÉ TROUVÉE LE MÊME JOUR, en défrichant L1.C28.** Le livre écrit ailleurs, sur la révision des parités : « les révisions seraient probablement soumises à des critères objectifs et transparents, potentiellement basés sur des indicateurs économiques clés tels que l'inflation, la croissance du PIB, ou la balance commerciale de chaque nation » (L1.C28 § 6). Le conditionnel est de l'auteur et l'énoncé est une conjecture, mais c'est le **seul endroit de l'ouvrage où un critère de révision est nommé**. Les trois réponses — critères écologiques et sociaux, photographie d'un instant, indicateurs macroéconomiques classiques — sont incompatibles deux à deux, et la troisième contredit le plus directement l'orientation d'ensemble puisqu'elle indexe le prix relatif des monnaies sur la croissance du produit intérieur brut.
+
+::etat:: Or la procédure de révision n'est écrite dans aucun des trois cas. Le livre qualifie les taux de « fixes par conception », puis de « fixes mais ajustables », puis de « fixes, mais révisables » [S1], [S2], sans dire par qui, à quel rythme, ni selon quels critères. **C'est exactement la question que L1.C21 § 6 a rencontrée sur les taux de reflux**, et elle appelle la même analyse : une parité révisable par décision périodique est exposée aux comportements d'anticipation, une parité révisable par formule ne l'est pas. Le § 6 y revient.
+
+## 4. Le triangle d'incompatibilité n'est pas neutralisé — objection bloquante
+
+::etat:: Le livre écrit : « NEMO IMS neutralise les dilemmes exposés par le triangle d'incompatibilité de Mundell. Si les taux de change sont fixes avec NEMO IMS, les nations recouvrent toute la latitude de leurs politiques monétaires, ainsi que la libre circulation des capitaux » [S2]. **C'est une revendication des trois sommets à la fois, et elle est donnée sans aucun mécanisme.** C'est la seule proposition de ce chapitre du livre qui ne soit pas argumentée, et c'est la plus lourde.
+
+::etat:: Le triangle est un résultat démontré, non une opinion : un pays ne peut tenir simultanément un taux de change fixe, la mobilité parfaite des capitaux et une politique monétaire autonome [S3]. Le corpus le tient déjà pour établi, il l'a repris sans réserve en L1.C24 § 1, et il l'a déjà opposé au dispositif en L1.C19 § 6. Le mécanisme en est simple : si le taux domestique s'écarte du taux étranger, les capitaux se déplacent, et la banque centrale doit intervenir pour défendre la parité, ce qui défait la politique qu'elle voulait mener.
+
+::hypothese:: Il faut examiner sérieusement si le dispositif y échappe, parce qu'il modifie une pièce du raisonnement — et le corpus doit reconnaître d'abord ce qu'il obtient réellement. **La parité, ici, ne peut pas être brisée.** Elle n'est pas un prix de marché défendu par des interventions et des réserves : c'est une règle administrative que NEMO SWIFT applique. Il n'y a pas de marché des changes où attaquer la parité, pas de réserve à épuiser, donc pas de crise de change au sens classique. Cette part de la revendication est fondée, et elle est un acquis véritable : le dispositif rend impossible le type d'épisode qui a défait le système monétaire européen en 1992 ou les ancrages asiatiques en 1997.
+
+::etat:: Mais l'ajustement ne disparaît pas pour autant : il change de variable, et c'est là que le raisonnement du livre s'interrompt. Si les capitaux circulent librement et que le taux domestique d'un pays devient plus attractif, les capitaux entrent — et sous ce dispositif, entrer signifie **détruire la monnaie du pays de départ et créer celle du pays d'arrivée**. Rien ne borne le mouvement, puisqu'aucune parité ne cède et qu'aucune réserve ne s'épuise. **La masse monétaire du pays de départ se contracte, celle du pays d'arrivée s'étend, et aucune banque centrale nationale ne contrôle plus la quantité de monnaie dans son économie.** C'est la définition même de la perte d'autonomie monétaire.
+
+::etat:: Le corpus conclut donc, et l'énoncé est bloquant. **Le dispositif ne neutralise pas le triangle : il en occupe un sommet.** Il obtient les changes fixes et il peut obtenir la mobilité des capitaux ; ce qu'il paie est l'autonomie monétaire nationale. L'ajustement ne porte plus sur le taux de change ni sur les réserves — il porte sur la masse monétaire interne.
+
+::etat:: Le livre fournit lui-même la confirmation de cette lecture, sans la relever. Il écrit que le mécanisme est « inspiré de l'étalon Or/sterling du 19e siècle » [S2]. Or l'étalon-or est le cas canonique de ce sacrifice : la discipline s'y exerce par les paiements, et l'ajustement porte sur la masse monétaire interne du pays déficitaire [S4]. **Le livre revendique les trois sommets en se réclamant du régime historique qui n'en tenait que deux, et qui abandonnait précisément celui que le livre prétend conserver.**
+
+::hypothese:: Une issue existe et le corpus doit la nommer, parce qu'elle est cohérente : **restreindre la mobilité des capitaux**. Un dispositif qui traiterait les seuls règlements commerciaux, et non tout transfert transfrontalier, occuperait le sommet « changes fixes et autonomie monétaire », qui est un choix défendable et historiquement pratiqué — c'est celui de Bretton Woods. L1.C21 mentionne du reste un contrôle des capitaux au titre de la fermeture des issues du demurrage. **Mais alors la phrase du livre est fausse sur son troisième terme**, et il faut l'écrire ainsi plutôt que de revendiquer les trois. Le corpus enregistre que le livre doit choisir, et que les deux choix sont tenables ; ce qui n'est pas tenable est de n'en faire aucun.
+
+::hypothese:: Une nuance doit être apportée en faveur du dispositif, et l'omettre serait injuste. Une partie de la littérature soutient que, sous mobilité parfaite des capitaux, l'autonomie monétaire est déjà perdue quel que soit le régime de change, le cycle financier mondial imposant ses conditions aux économies périphériques : le trilemme se réduirait à un dilemme entre mobilité des capitaux et autonomie [S7]. Si cette thèse est exacte, **le coût imputé au dispositif au titre de l'autonomie perdue doit être mesuré par rapport à ce qui existe et non par rapport à un idéal**, et il est alors plus faible qu'il n'y paraît. Cela n'établit pas que le dispositif échappe au triangle ; cela établit que le régime actuel n'y échappe pas davantage.
+
+## 5. Les déséquilibres commerciaux ne sont pas supprimés — leur incidence est déplacée
+
+::etat:: Le livre annonce la « fin des déséquilibres commerciaux chroniques », au motif que « les économies nationales ne sont plus étranglées par la nécessité de maintenir des réserves de change » [S1]. Le corpus doit distinguer deux choses que cette phrase réunit. Il est exact que la contrainte de réserves disparaît. Il ne suit pas que les déséquilibres disparaissent, ni qu'ils cessent de peser.
+
+::etat:: Le mécanisme établit au contraire une équivalence stricte : sur une période donnée, la variation de la masse monétaire d'un pays imputable au commerce **est égale à son solde commercial**, converti au pivot. Un pays qui importe plus qu'il n'exporte détruit plus de monnaie qu'il n'en crée, et sa masse monétaire interne se contracte d'autant. Un pays excédentaire voit la sienne s'étendre. Le déséquilibre n'est ni corrigé ni absorbé : **il est intégralement reporté sur la quantité de monnaie en circulation dans chaque économie.**
+
+::hypothese:: Ce que cela produit doit être énoncé sans ménagement, parce que c'est le point où le dispositif rencontre le diagnostic du corpus. Sous changes flottants, un déficit déprécie la monnaie, ce qui renchérit les importations et abaisse le prix des exportations : un mécanisme correcteur existe, brutal et critiqué, mais il existe. Sous le dispositif, **la parité ne bouge pas, donc ce canal est fermé**, et la seule variable qui s'ajuste est la masse monétaire interne. Un pays durablement déficitaire subit donc une contraction monétaire continue, sans terme et sans correcteur automatique. C'est le mécanisme d'ajustement de l'étalon-or, dépouillé du seul élément qui le rendait auto-correcteur : sous étalon-or, la contraction monétaire faisait baisser les prix internes et restaurait la compétitivité par le change réel. Ici la déflation interne reste le seul canal, et rien ne garantit qu'elle suffise.
+
+::etat:: Il faut ajouter que le corpus a déjà établi pourquoi ce canal est faible. Le plafond de croissance d'un pays est déterminé par le rapport des élasticités-revenu de ses exportations et de ses importations, et non par le prix relatif de sa monnaie [S8] — c'est la distinction posée en L1.C24 § 3 et enregistrée en P43. **Un pays dont la structure d'échanges le rend structurellement déficitaire le restera sous le dispositif**, et le dispositif convertira ce déficit en contraction monétaire permanente. La contrainte extérieure n'est donc pas levée pour lui : elle prend une forme nouvelle, et cette forme est plus rigide que la précédente, puisqu'elle ne comporte ni ajustement de change, ni prêteur en dernier ressort, ni ligne d'échange, ni recours au Fonds monétaire international.
+
+::hypothese:: Le corpus doit énoncer la conséquence pour la thèse générale du livre, et elle est sévère. L1.C25 § 4 a établi que le plan de Keynes a perdu à Bretton Woods sur la disposition qui aurait pénalisé les excédents, c'est-à-dire sur la correction de l'asymétrie entre pays déficitaires et excédentaires. **Le dispositif examiné ici ne corrige pas cette asymétrie : il la reconduit**, et sous une forme automatique. Le pays excédentaire accumule de la monnaie sans contrepartie ni pénalité ; le pays déficitaire se contracte sans recours. Une proposition qui se réclame de l'esprit de Bretton Woods retient le mécanisme que Keynes voulait corriger, et non la correction qu'il proposait.
+
+## 6. Ce que la convergence des pouvoirs d'achat ne peut pas être
+
+::etat:: Le livre écrit que « ce qui importe n'est plus un chiffre abstrait, mais la parité des pouvoirs d'achats relatifs entre les pays », et qu'« à terme, la solution NEMO IMS vise à lisser cette parité de sorte que la valeur du travail, du mérite et du pouvoir d'achat converge entre toutes les nations » [S2].
+
+::etat:: L'objectif est légitime ; le mécanisme annoncé ne le produit pas. Les écarts durables à la parité de pouvoir d'achat ne proviennent pas d'un défaut de fixation du taux nominal : ils s'expliquent par des différentiels de productivité entre secteurs échangeables et non échangeables, qui font que le niveau général des prix est structurellement plus élevé dans les pays à productivité élevée [S5]. **Fixer le taux nominal ne fait pas converger les pouvoirs d'achat réels ; cela supprime seulement la variable qui enregistrait l'écart.** L'écart demeure et se manifeste alors dans les prix et les salaires internes.
+
+::hypothese:: Le corpus doit être précis sur ce qu'il conteste. Il ne conteste pas qu'un régime de changes fixes puisse réduire une volatilité nuisible, ni que la spéculation sur les devises impose des coûts réels aux économies qui la subissent — le livre a raison sur ces deux points. Il conteste que **la fixation des taux nominaux constitue un instrument de convergence des niveaux de vie**. Ce n'en est pas un, et présenter une propriété comptable comme un mécanisme de justice distributive expose la proposition à une réfutation facile sur un terrain où elle n'avait pas besoin de s'avancer.
+
+## 7. Portée
+
+::etat:: Ce chapitre a établi ce que le dispositif fait, et la description était nécessaire parce que le vocabulaire du livre la masque : NEMO SWIFT ne convertit pas des devises, il détruit la monnaie de l'importateur et crée celle de l'exportateur. Il a retenu deux propriétés favorables et solides — la neutralité monétaire globale, obtenue par construction, et la suppression des réserves de change, qui est un gain réel et important, notamment pour les économies qui en supportent aujourd'hui le coût. Il a relevé au passage un terme que la calibration n'avait jamais compté : le solde commercial est, pour chaque pays, un second canal de création ou de destruction monétaire, distinct de l'émission régénérative.
+
+::etat:: Il a établi trois résultats défavorables. **Le premier est bloquant** : la phrase par laquelle le livre écarte le triangle d'incompatibilité est la seule non argumentée du chapitre, et elle est fausse. Le dispositif n'échappe pas au triangle, il en occupe un sommet — les changes fixes tiennent, et tiennent mieux que sous un ancrage classique puisqu'aucune parité ne peut être attaquée ; ce qui est perdu est l'autonomie monétaire, exactement comme sous l'étalon-or dont le livre se réclame. Le deuxième est que les déséquilibres commerciaux ne sont pas supprimés mais reportés sur la masse monétaire nationale, sans correcteur, et que cette forme est plus rigide que celle qu'elle remplace. Le troisième est que la convergence des pouvoirs d'achat ne suit pas de la fixation des taux nominaux.
+
+::hypothese:: Le corpus ne conclut pas que le dispositif est inopérant. Il conclut que **le livre revendique trois propriétés dont deux sont acquises et une est impossible**, et que la manière de le corriger est connue : écrire quel sommet du triangle le dispositif abandonne. Deux réponses sont tenables — restreindre la mobilité des capitaux et conserver l'autonomie monétaire, ou l'admettre perdue et en tirer les conséquences institutionnelles. Aucune n'est écrite. **La proposition réelle est plus étroite que son annonce, et elle serait plus solide énoncée ainsi** (P49, P50).
+
+::hypothese:: Ce chapitre laisse ouverte la question qu'il a fait apparaître et que le suivant devra traiter : si l'ajustement porte désormais sur la masse monétaire nationale, **qu'est-ce qui empêche un pays durablement déficitaire de se vider ?** Le livre répond que ce sont les émissions régénératives qui « rééquilibreront et stabiliseront les économies nationales » [S2]. Cette réponse fait dépendre l'équilibre extérieur d'un pays de la quantité de communs qu'il peut faire certifier — ce qui est une thèse forte, entièrement non instruite, et qui appartient à L1.C27.
