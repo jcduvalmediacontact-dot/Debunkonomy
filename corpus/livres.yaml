@@ -1,0 +1,596 @@
+# Registre des livres du corpus
+#
+# ── INCIDENT D'OUTILLAGE — 2026-09-05 ────────────────────────────────────────
+#
+# La migration lexicale « fonte » → « reflux » du 2026-09-05 employait un
+# masque pour protéger les citations. Les masques s'imbriquaient et la
+# restauration était à sens unique : CINQ chaînes entre guillemets de ce
+# fichier ont été perdues, toutes dans des commentaires. Elles ont été
+# rétablies le jour même. Quatre le sont à l'identique, sur des sources
+# vérifiables — le titre de la feuille du Drive, le principe directeur du
+# plan, le mot « barème », et la citation du chapitre 7 sur la dépollution
+# des océans. La cinquième — le nom de la partie du Livre 7 à laquelle
+# rattacher l'aléa moral — est une RECONSTRUCTION PAR DÉDUCTION à partir de
+# la fonction du Livre 7 au plan directeur, et elle est signalée comme telle
+# à l'endroit où elle figure. Si le nom exact était autre, la corriger.
+#
+# ── CE QUE CETTE COLLECTION EST ──────────────────────────────────────────────
+#
+# Le corpus intellectuel fondateur de Debunk'Onomy. Il a un objet unique et
+# vérifiable : établir la RECEVABILITÉ du système NEMO IMS — soumettre la thèse
+# à ce qui pourrait la défaire, et publier le résultat que l'épreuve donne,
+# favorable ou non.
+#
+# Les textes sources sont ce qu'ils sont, quelle qu'ait été leur destination
+# première. Le corpus ne les adapte pas : il les éprouve.
+#
+# ── AUTORITÉ ────────────────────────────────────────────────────────────────
+#
+# Ce fichier est la projection, dans le corpus, du PLAN DIRECTEUR tenu par
+# l'auteur (feuille « PLAN DIRECTEUR — CORPUS GPT — Debunk'Onomy », Drive).
+# Le plan fait autorité sur le périmètre, les intitulés et les statuts ; ce
+# fichier fait autorité sur ce que le script contrôle. En cas d'écart, le plan
+# tranche et ce fichier est corrigé — jamais l'inverse.
+#
+# Principe directeur repris du plan, applicable à tout livre :
+#   « Aucune architecture proposée n'est considérée comme adoptée avant
+#   recherche Deep Research, contre-plan contradictoire de Claude, choix de
+#   Jean-Christophe Duval, consolidation et arbitrage final. »
+#
+# Un livre déclaré ici, et lui seul, peut être employé dans le champ `livre`
+# d'un chapitre. Un `livre` absent de ce registre bloque la publication, comme
+# un concept absent de `vocabulaire.yaml`.
+#
+# ── CE QUE SONT LES LIVRES ANNEXES ── arbitré par l'auteur le 2026-09-04 ───
+#
+# Le Livre 1 est le socle. TOUS LES AUTRES LIVRES EN SONT DES APPROFONDISSEMENTS
+# EXHAUSTIFS. Chacun prend une thématique traversée par le Livre 1 et rassemble,
+# sur cette thématique, l'état des théories, des pratiques, des pensées et des
+# paradigmes existants.
+#
+# Leur fonction est INSTRUMENTALE, et c'est ce qui les distingue d'ouvrages
+# autonomes : ils constituent la matière des PASSES SUIVANTES du Livre 1. On ne
+# les écrit pas pour eux-mêmes, on les écrit pour disposer de quoi répondre.
+#
+# Quatre conséquences, qui commandent la conduite du travail.
+#
+# 1. AUCUN RISQUE DE DOUBLON avec le Livre 1, et la question ne se pose pas.
+#    Le Livre 1 traite une thématique au niveau où sa démonstration l'exige ;
+#    le livre annexe la traite exhaustivement. Le Livre 3 ne refait donc pas
+#    L1.C24 à L1.C27 : il approfondit ce qu'ils ont ouvert.
+#
+# 2. LE REGISTRE DES PROMESSES EST LA TABLE DE ROUTAGE entre le Livre 1 et les
+#    annexes. Une promesse ouverte dans le Livre 1 désigne le livre qui doit
+#    fournir de quoi la solder. Un livre annexe qui ne solderait aucune
+#    promesse serait sans emploi ; une promesse qu'aucun livre ne vise signale
+#    soit un livre manquant, soit une thématique non couverte.
+#
+# 3. LE CRITÈRE DE QUALITÉ N'EST PAS LE MÊME. Un chapitre du Livre 1 s'évalue
+#    sur la validité de ce qu'il établit. Un chapitre de livre annexe s'évalue
+#    sur la COMPLÉTUDE du canon rassemblé et la FIDÉLITÉ des positions
+#    restituées — y compris celles qui contredisent NEMO IMS, qui sont
+#    précisément ce qu'on vient y chercher. Une position mal restituée est un
+#    défaut plus grave qu'une position absente, parce qu'elle contamine les
+#    passes suivantes.
+#
+# 4. LA RÈGLE DE MÉTHODE DEVIENT CENTRALE. Ces livres sont des revues de
+#    littérature : lire la fiche, se défier de la synthèse. Au 2026-09-04, six
+#    cas sont recensés où une source secondaire a induit le corpus en erreur,
+#    dont un compte rendu publié dans une revue à comité de lecture
+#    (protocoles/falsification.md). À l'échelle d'une revue exhaustive, cette
+#    erreur s'industrialise.
+#
+# ── DEUX ESPÈCES DE LIVRE ANNEXE ── arbitré le 2026-09-05 ─────────────
+#
+# Cet axe est distinct du champ `regime` d'un chapitre, qui dit si le chapitre
+# parle du monde existant ou du dispositif proposé. Celui-ci dit autre chose :
+# **le livre a-t-il un texte à restituer, ou doit-il produire son objet ?**
+#
+# LIVRE DE RESTITUTION — un texte existe et fait autorité : un ouvrage de
+# l'auteur, un épisode du Cahier, un corpus de littérature, un texte de droit.
+# Le livre le lit, le restitue et l'éprouve. C'est le cas du Livre 1 (l'ouvrage),
+# du 2 et du 4 (les Cahiers), du 6, du 8, du 16, du 17, du 18 (la littérature),
+# du 20 (le droit positif). La discipline y est connue : lire la fiche, se
+# défier de la synthèse, et ne jamais faire dire à la source plus qu'elle ne dit.
+#
+# LIVRE DE CONCEPTION — aucun texte ne préexiste. Le livre doit produire l'objet.
+# C'est le cas du **Livre 11** (le Cahier ne prononce jamais le mot « barème » :
+# zéro occurrence sur douze épisodes), du **13** et du **19**. Le **7** et le
+# **5** sont mixtes : l'ouvrage donne les quatre chambres et les trois scénarios,
+# le développement reste à concevoir.
+#
+# CE QUI DISCIPLINE UN LIVRE DE CONCEPTION, à défaut d'autorité de la source.
+#
+# 1. LES CONTRAINTES DÉJÀ ÉTABLIES tiennent lieu de source. Un livre de
+#    conception n'écrit pas sur une page blanche : il est borné par les
+#    résultats que les autres livres ont acquis, et ces résultats INTERDISENT
+#    des réponses. Pour le 11 : l'érosion de l'assiette par le succès, le compte
+#    des objectifs et des instruments, le triangle prix stable / offre
+#    contrainte / rationnement.
+#
+# 2. LE TEST DE FIN DE PASSE : **le dispositif est-il devenu plus falsifiable,
+#    ou moins ?** Une passe qui le rend plus séduisant sans le rendre plus
+#    réfutable est une passe ratée. C'est la seule garde qu'un livre de
+#    conception ait contre lui-même, et elle doit être appliquée explicitement.
+#
+# 3. LES PASSES SONT COUPLÉES, non autonomes. Un livre de conception dépend des
+#    acquis d'autres livres pour avancer, et ne converge pas seul. Le 11 attend
+#    des ordres de grandeur du 13, la question de l'échelle du 7, le cadre
+#    macroprudentiel du 2, et les précédents du 16. Une boucle courte — maquette
+#    grossière — est à prévoir dès le départ quand deux livres se bloquent
+#    mutuellement, comme le 11 et le 13.
+#
+# 4. L'ISSUE NÉGATIVE RESTE DISPONIBLE ET DOIT ÊTRE NOMMÉE À L'OUVERTURE. Un
+#    livre de conception peut aboutir à **documenter pourquoi son objet ne peut
+#    pas s'écrire**. C'est un résultat, non un échec, et il faut l'avoir prévu
+#    plutôt que le découvrir : si la fenêtre de paramètres viables est vide,
+#    F1 se déclenche et le Livre 11 change d'objet.
+#
+# ── LA RÈGLE QUI PROTÈGE TOUT LE RESTE ───────────────────────────────────────
+#
+# Le numéro d'un livre est un MATRICULE, pas un rang.
+#
+# Il porte l'identifiant des chapitres (`L7.C03`) et donc leur URL publique,
+# que la convention § 3 déclare stable et définitive.
+#
+#   1. On AJOUTE toujours à la fin. On n'insère jamais entre deux matricules.
+#   2. On ne renumérote jamais. Renuméroter casserait toutes les URL publiées
+#      et tous les `renvois` du corpus.
+#   3. Un matricule PEUT être réservé à l'avance pour un livre envisagé — le
+#      plan directeur le fait des livres 8 à 18 — à une condition stricte :
+#      un matricule réservé est BRÛLÉ même si le livre n'est jamais écrit.
+#      Il n'est pas rendu au stock, il n'est jamais réattribué à un autre
+#      livre. Un livre abandonné laisse un trou dans la numérotation ; c'est
+#      le prix, et il est nul.
+#   4. L'ordre de lecture et le sens ne sont donc PAS portés par le numéro.
+#      Ils sont portés par `collection` et `motifs`, qui ne portent aucune URL.
+#   5. La même règle vaut pour les NUMÉROS DE CHAPITRE (convention § 3). Le
+#      nombre de chapitres n'est pas figé : `chapitres_annonces` est une
+#      estimation courante, jamais une cible, et un livre qui en compte plus
+#      que prévu n'est pas en défaut.
+#
+# ── CE QUI BOUGE, CE QUI NE BOUGE PAS ────────────────────────────────────────
+#
+#   NE BOUGE JAMAIS   `livre` — le matricule, parce qu'il porte les URL.
+#
+#   BOUGE LIBREMENT   tout le reste. Titres, collections, motifs, statuts,
+#                     notes, et jusqu'aux noms des collections. Aucun de ces
+#                     champs ne porte d'identifiant : les changer ne casse
+#                     rien, nulle part.
+#
+# Le sens d'un livre est ce qu'on comprend le moins bien au début et ce qu'on
+# révise le plus. Il fallait donc qu'il vive dans les champs jetables, jamais
+# dans le numéro. Le script applique la même règle : il ne bloque que sur un
+# `livre` inconnu, jamais sur les collections, motifs ou statuts, qui sont
+# matière d'arbitrage éditorial.
+#
+# ── LES DEUX AXES ────────────────────────────────────────────────────────────
+#
+# `collection` — la manière d'écrire. UNE valeur par livre.
+#     tronc                 démonstration adressée au lecteur non spécialiste
+#     cahier-technique      ingénierie du dispositif, lecteur averti
+#     cahier-humaniste      histoire intellectuelle, philosophie, anthropologie
+#     cahier-disciplinaire  verrous propres à un champ de savoir
+#     cahier-comparatif     inventaire et comparaison d'existants
+#
+# `motifs` — pourquoi ce livre existe. PLUSIEURS par livre, de trois types :
+#     rouage      un sous-système de NEMO que le livre spécifie
+#     discipline  un champ de savoir dont il traite les verrous
+#     objection   une promesse de protocoles/registre-des-promesses.md que le
+#                 livre est chargé de solder
+#
+# Une promesse non soldée qui ne figure dans les motifs d'aucun livre est une
+# promesse que personne n'a prise en charge.
+#
+# ── STATUTS ─────────────────────────────────────────────────────────────────
+#
+# Vocabulaire repris du plan directeur. Décrit l'état de la MATIÈRE, non celui
+# du corpus (le statut d'un chapitre est dans son en-tête) :
+#     acquis          matière complète, conversion corpus requise
+#     defrichage      conversion et défrichage en cours dans le corpus
+#     maquette        architecture proposée en épisodes, non adoptée
+#     hypothese       parties et chapitres proposés, à valider à trois voix
+#     exploratoire    périmètre retenu, nombre de chapitres à déterminer
+#     candidat        livre à cadrer, architecture non adoptée
+#     verifie         tous les chapitres du livre sont au statut `verifie`
+#
+# `methode` signale un protocole éditorial propre, distinct de la boucle de
+# production de la convention § 11.
+
+livres:
+
+  - livre: 0
+    titre: "Le livre 0 — couche de réponse transversale"
+    collection: tronc
+    motifs:
+      - "rouage — accès au corpus par la question plutôt que par le plan"
+    fonction: >
+      Interface entre le fichier llms.txt et le contenu du site : la couche par
+      laquelle une machine ou un lecteur entre dans le corpus par la question
+      plutôt que par le plan
+    statut: hypothese
+    chapitres_annonces: null
+    note: >
+      Arbitré le 2026-09-04 : le Livre 0 se réalise À LA FIN des premières
+      passes du corpus, jamais avant. C'est ce qui le distingue de tout le
+      reste — il ne peut pas s'écrire tant que les chapitres qu'il indexe
+      bougent encore.
+
+      Sa fonction est d'être le lien d'interface entre le `llms.txt` et le
+      contenu du site : le point d'entrée par lequel une machine trouve la
+      réponse, puis le chapitre qui la démontre. C'est donc lui qui relie enfin
+      le corpus au site historique, écart signalé dans CLAUDE.md et non résolu
+      à ce jour.
+
+      La convention § 6 en fixe déjà la forme : chaque entrée répond brièvement
+      à une question, renvoie au chapitre qui démontre, et doit tenir debout
+      seule. Elle prévoit une écriture au fil de l'eau, dès qu'un livre est
+      vérifié — à concilier avec la réalisation en fin de passes, qui est la
+      règle arbitrée. Absent du plan directeur : à y inscrire.
+
+  - livre: 1
+    titre: "Monnaie, finance et limites planétaires"
+    collection: tronc
+    fonction: "Socle général : diagnostic, monnaie, NEMO IMS et horizon de transformation"
+    motifs:
+      - "objection — contracte P1 à P19c ; c'est le livre qui ouvre les dettes"
+    statut: defrichage
+    chapitres_annonces: 30
+    chapitres_acquis: 30
+    source: "L'économie de l'équilibre. Monnaie, finance et limites planétaires (Debunk'Onomy, 2026)"
+
+  - livre: 2
+    titre: "Recommandations macro-prudentielles dans NEMO IMS"
+    collection: cahier-technique
+    fonction: "Passer de la stabilité financière à une macroprudence régénérative"
+    motifs:
+      - "rouage — emboîtement systémique, contrôle qualitatif du crédit, reflux monétaire actif"
+      - "discipline — régulation prudentielle"
+      - "objection — P3, P8, P18 (calibration), P19c (ancrage des anticipations)"
+    statut: acquis
+    chapitres_annonces: 12
+    chapitres_acquis: 12
+    source: >
+      Chapitre 9 du livre, « Recommandations macroprudentielles NEMO IMS »
+      (p. 185-212), et les douze chapitres rédigés.
+    note: >
+      PÉRIMÈTRE À TRANCHER. Le chapitre 9 du livre porte la matière de ce livre,
+      mais aussi celle de L1.C20 (émission sans dette) et de L1.C21 (reflux collectif) :
+      régulation à deux ressorts, reflux transactionnel, demurrage sur encaisses
+      oisives, réponse à Rueff et à Keynes, blocage de la fuite par le « NEMO
+      SWIFT ». C'est là que se trouve la réponse à P18, que L1.C17, L1.C18 et
+      L1.C19 ont tous renvoyée plus loin. Décider ce que le Livre 1 expose et ce
+      qu'il renvoie ici, sous peine de redite ou de contradiction entre les deux
+      livres. Inscrit au registre de passe 2.
+
+  - livre: 3
+    titre: "Dilemmes du système monétaire international et leur résolution dans NEMO IMS"
+    collection: cahier-technique
+    fonction: >
+      Retracer les systèmes monétaires, leurs mécanismes, leurs dilemmes et
+      leurs crises, puis éprouver les réponses proposées par NEMO IMS
+    motifs:
+      - "rouage — articulation avec le système monétaire international"
+      - "discipline — économie monétaire internationale"
+      - "objection — P13"
+    statut: maquette
+    chapitres_annonces: 6
+    chapitres_acquis: 0
+    methode: "protocole propre — plan directeur, contre-plan contradictoire, versions maîtresses, audits de clôture"
+    architecture: >
+      Valider la maquette provisoire en six épisodes ; préciser le périmètre
+      historique antérieur à l'étalon-or et réserver l'étude institutionnelle
+      détaillée des banques centrales au Livre 10.
+    note: "Un seul chapitre rédigé à ce jour (L3.E01, version 1.1 candidate)."
+
+  - livre: 4
+    titre: "Les Cahiers Humanistes"
+    collection: cahier-humaniste
+    fonction: "Interroger la morale du travail, l'émancipation et les fondements anthropologiques"
+    motifs:
+      - "discipline — histoire intellectuelle du travail et de sa valeur"
+    statut: acquis
+    chapitres_annonces: 11
+    chapitres_acquis: 11
+    note: >
+      Weber, Lafargue et Russell, Arendt, Simone Weil, Castel, Gorz, Ellul et
+      Illich, Bob Black et Graeber, Federici et Fraser, Foucault et Han,
+      Tainter et Suzman.
+
+  - livre: 5
+    titre: "Trajectoires et transitions"
+    collection: cahier-technique
+    fonction: >
+      Comparer les voies d'entrée de NEMO IMS, organiser sa transition
+      sectorielle et institutionnelle et tester ses alternatives dans
+      différents scénarios
+    motifs:
+      - "rouage — conditions d'instauration et d'adoption effective de NEMO IMS"
+      - "discipline — économie politique du changement institutionnel"
+      - "objection — aucune promesse du registre ne couvre l'adoption : le corpus établit qu'un dispositif est concevable, jamais comment on y vient"
+    statut: hypothese
+    chapitres_annonces: 36
+    chapitres_acquis: 0
+    architecture: >
+      Trente-six chapitres en six parties comparant six voies d'entrée :
+      multilatérale, coalition pilote, régionale, infrastructure volontaire,
+      fenêtre de crise, concurrence des alternatives.
+    note: >
+      Arbitré le 2026-09-04 : la formulation du plan l'emporte. On écrit
+      « fenêtre de crise », non « effondrement » ni « révolution ». Ces voies
+      s'analysent comme des scénarios, avec leurs conditions, leurs
+      probabilités et leurs coûts humains — jamais comme des espérances. Un
+      corpus qui paraîtrait compter sur l'effondrement perdrait la recevabilité
+      qu'il cherche, et la perdrait auprès des lecteurs qu'il vise en premier.
+      Contrainte de rédaction opposable à tout chapitre de ce livre.
+
+  - livre: 6
+    titre: "Droits de la nature et des écosystèmes — débunker les verrous juridiques de l'ordre extractif"
+    collection: cahier-disciplinaire
+    fonction: "Identifier et lever les verrous juridiques de l'ordre extractif"
+    motifs:
+      - "discipline — droit : personnalité juridique des entités naturelles, verrous de l'ordre extractif"
+      - "objection — P17 : représenter une entité sans volonté par définition statutaire de son intérêt"
+    statut: acquis
+    chapitres_annonces: 21
+    chapitres_acquis: 14
+    methode: "protocole propre — protocole éditorial, versions maîtresses, dossier de recherche, archives"
+    architecture: "Valider définitivement les épisodes 12 à 21."
+    note: >
+      Onze épisodes maîtres sans réserve, trois validés sous réserve, sept
+      rédigés non validés. Recoupe directement L1.C18 § 2 : Équateur 2008,
+      Atrato 2016, Te Awa Tupua 2017. C'est le livre qui doit établir ce que
+      L1.C18 ne fait qu'énoncer — et le seul qui puisse porter l'obstacle des
+      traités relevé en L1.C18 § 6, si l'on ne lui donne pas de livre propre.
+
+  - livre: 7
+    titre: "Missions, fonctionnement et organisation du GAÏA Economic Symposium"
+    collection: cahier-technique
+    fonction: >
+      Établir la constitution institutionnelle du GAÏA Economic Symposium :
+      légitimité, représentation, organes, décisions, financement, contrôles
+      et articulation
+    motifs:
+      - "rouage — le GES : quatre chambres séparées, qualification, calibration"
+      - "discipline — gouvernance des autorités non élues"
+      - "objection — P15 (légitimité, versant autorisation), P16 (régime des services), P19b (connaissance dispersée)"
+    statut: hypothese
+    chapitres_annonces: 36
+    chapitres_acquis: 0
+    source: >
+      L'économie de l'équilibre, chapitre 7 « Le GAÏA Economic Symposium »
+      (p. 131-156). Le dossier Drive du livre 7 est vide.
+    architecture: >
+      Trente-six chapitres en six parties : fondation et mandat ; membres et
+      représentation ; organes et expertise ; décision, financement et action ;
+      intégrité, contrôle et recours ; relations extérieures, transition et
+      révision.
+    note: >
+      Les six parties recouvrent exactement ce que L1.C18 laisse ouvert :
+      « fondation et mandat » porte l'autorisation démocratique (P15),
+      « décision, financement et action » porte la calibration (P18),
+      « intégrité, contrôle et recours » porte la capture et le double rôle
+      de l'État.
+
+  - livre: 8
+    titre: "Théories économiques — écoles, controverses et angles morts"
+    collection: cahier-comparatif
+    fonction: >
+      Comparer les grandes traditions économiques mondiales par controverses,
+      auteurs repères, apports, angles morts et confrontation à NEMO IMS
+    motifs:
+      - "discipline — histoire de la pensée économique"
+      - "objection — P19b : la connaissance dispersée (Hayek) relève de ce livre"
+    statut: exploratoire
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 9
+    titre: "Atlas comparé des économies du monde"
+    collection: cahier-comparatif
+    fonction: >
+      Constituer des fiches nationales comparables et actualisables, puis
+      produire des synthèses régionales et une matrice d'adaptation à NEMO IMS
+    motifs:
+      - "discipline — économie comparée"
+      - "rouage — conditions d'adaptation nationale du dispositif"
+    statut: exploratoire
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 10
+    titre: "Monnaies, banques, finance et banques centrales dans le monde"
+    collection: cahier-comparatif
+    fonction: >
+      Comparer les architectures monétaires, bancaires et financières
+      mondiales, puis établir pour chacune les conditions d'articulation avec
+      NEMO IMS
+    motifs:
+      - "discipline — institutions monétaires et bancaires comparées"
+      - "objection — obstacle de droit positif relevé en L1.C18 § 6 (art. 123 et 130 TFUE)"
+    statut: exploratoire
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      Le Livre 3 lui réserve l'étude institutionnelle détaillée des banques
+      centrales. C'est donc ici que se tranche la question de savoir si le
+      Conseil Monétaire Mondial est compatible avec l'indépendance des banques
+      centrales, ou s'il exige une révision des traités.
+
+  - livre: 11
+    titre: "Ingénierie des barèmes : reflux, qualification, périmètre et pondérations"
+    collection: cahier-technique
+    fonction: "Établir la règle de pondération — écrite — des cinq barèmes que le dispositif substitue à des mécanismes de marché, et délimiter le périmètre financé"
+    motifs:
+      - "rouage — reflux collectif : reflux transactionnel et prélèvement pondéré sur les transactions"
+      - "objection — P3, P4, P18 : la promesse la plus lourde du corpus"
+    statut: defrichage
+    chapitres_annonces: 25
+    chapitres_acquis: 5
+    note: >
+      ÉLARGI le 2026-09-05, arbitrage de l'auteur. L'arbitrage A8 a établi que
+      cinq questions traitées séparément n'en font qu'une : qui pondère, selon
+      quelle règle, et cette règle est-elle écrite. Barème de qualification,
+      taux de reflux, parités du change, valorisation des communs, pondération
+      du tableau de bord — plus le périmètre, puisque décider ce qui qualifie
+      est décider ce qui est financé. Priorité 1 du plan : ce livre bloque le
+      Livre 13, car on ne calibre pas un dispositif dont les barèmes ne sont
+      pas définis.
+      LIVRE DE CONCEPTION au sens du préambule : aucune source ne préexiste.
+      Le Cahier Technique ne prononce jamais le mot « barème » — zéro
+      occurrence sur douze épisodes — et E06 § 6 pose lui-même les questions
+      de ce livre en déclarant ne pas y répondre. Frontière avec le Livre 2 :
+      le 2 établit ce que le reflux transactionnel FAIT dans l'architecture macroprudentielle,
+      le 11 établit COMMENT ON FIXE LES TAUX et sur quelle assiette.
+      Les 25 chapitres sont une estimation de passe 1, jamais une cible.
+
+  - livre: 12
+    titre: "Comment réaliser les ODD avec NEMO IMS ?"
+    collection: cahier-comparatif
+    fonction: >
+      Évaluer ce que NEMO IMS peut faciliter pour chaque objectif de
+      développement durable, ses limites et les politiques complémentaires
+      nécessaires
+    motifs:
+      - "discipline — politiques de développement"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 13
+    titre: "Méthodes, données, scénarios et simulateur NEMO IMS"
+    collection: cahier-technique
+    fonction: >
+      Documenter les hypothèses, données, modèles, scénarios, tests de
+      sensibilité et limites du simulateur
+    motifs:
+      - "rouage — quantification et test du dispositif"
+      - "objection — P4, P18 : un simulateur est ce qui permettrait d'éprouver la calibration"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 14
+    titre: "Gouverner la preuve : méthodes, vérification et traçabilité"
+    collection: cahier-disciplinaire
+    fonction: >
+      Rendre publique, reproductible et contestable la méthode de
+      vérification, de provenance et de révision du corpus
+    motifs:
+      - "discipline — épistémologie documentaire et méthode de vérification"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      Ce livre porte sur le corpus lui-même. La convention, les protocoles
+      d'audit et de sourçage, le registre des promesses et ce registre en sont
+      la matière première.
+
+  - livre: 15
+    titre: "Fraudes, corruptions et architectures de la triche"
+    collection: cahier-disciplinaire
+    fonction: >
+      Recenser les architectures de fraude connues, détecter les formes
+      émergentes et éprouver en permanence NEMO IMS et ses contrôleurs
+    motifs:
+      - "discipline — économie de la fraude et de la capture"
+      - "objection — capture du régulateur, falsification des relevés de terrain, double rôle de l'État : limites assumées en L1.C18 § 5"
+    statut: exploratoire
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 16
+    titre: "Typologie comparée des systèmes et alternatives monétaires"
+    collection: cahier-comparatif
+    fonction: >
+      Comparer les architectures monétaires selon une grille explicite et
+      situer NEMO IMS parmi les solutions existantes ou proposées
+    motifs:
+      - "discipline — monnaies souveraines, crédit bancaire, monnaies-marchandises, monnaies locales et libres, cryptoactifs, stablecoins, MNBC, unités de compensation, projets supranationaux"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 17
+    titre: "Après la croissance : décroissance, post-croissance et prospérité sans croissance"
+    collection: cahier-comparatif
+    fonction: >
+      Comparer les théories et expériences de l'après-croissance, du Bonheur
+      national brut à la décroissance, puis tester leur concrétisation
+      institutionnelle
+    motifs:
+      - "discipline — théories de l'après-croissance et indicateurs au-delà du PIB"
+      - "objection — P9 : sortir de l'exigence de croissance de l'encours sans contraction"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+
+  - livre: 18
+    titre: "Comptabilités écologiques, sociales et biophysiques"
+    collection: cahier-disciplinaire
+    fonction: >
+      Comparer les méthodes qui rendent visibles les dépendances, destructions
+      et régénérations écologiques et sociales, puis les articuler à NEMO IMS
+    motifs:
+      - "discipline — comptabilité : CARE-TDL, comptabilité nationale au-delà du PIB, flux physiques, biodiversité, audit"
+      - "objection — L1.C09 : le lexique comptable comme règle de l'architecture invisible"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      C'est aussi ici que se traite la comptabilité écosystémique nationale
+      dont dépend toute l'allocation de L1.C18 § 5 : si le solde national ne
+      peut pas être calculé avec une incertitude compatible avec un versement,
+      le mécanisme ne fonctionne pas.
+
+# ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
+#
+# Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du
+# registre ne figurent dans les motifs d'aucun livre, adopté ou candidat.
+#
+# 1. L'ANCRAGE FISCAL (P5, et cinquième problème de L1.C17 § 5).
+#    Sans acceptation en règlement d'obligations envers des États — au premier
+#    chef l'impôt —, la monnaie émise n'a pas de pouvoir libératoire général et
+#    reste un bon d'achat conditionnel. Le Livre 3 traite le système monétaire
+#    international, le Livre 7 le financement du GES ; aucun ne traite la
+#    souveraineté fiscale elle-même. À rattacher à l'un d'eux, ou à créer.
+#
+# 2. L'ALÉA MORAL ET L'ÉVICTION (P19).
+#    Une émission gratuite pour les activités régénératives peut conduire États
+#    et acteurs privés à retirer les financements qu'ils y consacraient.
+#    CORRECTION du 2026-09-04 : contrairement à ce qui était écrit ici, le livre
+#    NOMME cette objection au chapitre 7 — « ce n'est pas parce que l'on dépollue les océans que cela
+#    donne le droit de les polluer constamment ». Il la nomme sans la résoudre : aucun mécanisme
+#    n'est proposé pour empêcher que la réparabilité financée relâche la
+#    prévention. Le manque n'est donc pas l'absence de conscience du problème,
+#    mais l'absence de dispositif. À traiter en L1.C19 ou au Livre 7.
+#
+# ── ARBITRAGE REPORTÉ (2026-09-04) ──────────────────────────────────────────
+#
+# Les deux manques ci-dessus sont CONSTATÉS et VALIDÉS comme tels. Leur
+# résolution — livre propre ou rattachement — est explicitement reportée aux
+# passes suivantes. Ce n'est pas une question en attente de réponse : c'est une
+# décision différée. Ne pas la reposer ; la reprendre en passe 2.
+#
+# L'analyse est consignée ici pour que la passe 2 n'ait pas à la refaire :
+#
+#   ANCRAGE FISCAL — trois options examinées.
+#     · Livre propre : donne la place de traiter la souveraineté fiscale
+#       nationale, que ni L3 ni L7 ne couvrent. C'était la recommandation.
+#     · Rattacher à L3 : cohérent si la question est d'abord celle de
+#       l'articulation entre monnaies ; mais L3 est cadré sur six épisodes et
+#       sur l'international, quand la souveraineté fiscale est nationale.
+#     · Rattacher à L7 : cohérent si c'est au GES d'obtenir l'acceptation
+#       fiscale ; mais L7 porte déjà 36 chapitres et P15, P16, P19b.
+#
+#   ALÉA MORAL ET ÉVICTION — trois options examinées.
+#     · Rattacher à L7, partie « financement » [texte reconstruit, cf. note en tête] : c'est une
+#       question d'articulation entre le financement du GES et les financements
+#       existants. C'était la recommandation — un chapitre, pas un champ.
+#     · Rattacher à L13 : l'éviction est un effet quantitatif, testable par
+#       simulation plutôt qu'argumentable ; mais le simulateur n'existe pas.
+#     · Livre propre : surdimensionne une objection réelle mais bornée.
+#
+# Rappel de la règle 3 : si l'un de ces manques devient un livre, il prend le
+# matricule 19 ou suivant. Jamais un numéro laissé libre par un candidat
+# abandonné.

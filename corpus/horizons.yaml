@@ -1,0 +1,21 @@
+# Valeurs par défaut, à ajuster à mesure que l'expérience s'accumule.
+normatif:
+  mode: revue
+  horizon: 1a
+  motif: "Vérifier que le texte est toujours en vigueur, non sa date."
+jurisprudence:
+  mode: revue
+  horizon: 1a
+  motif: "Vérifier l'absence d'appel, de révision ou de renversement."
+donnees:
+  mode: date
+  horizon: 1a
+  motif: "Séries révisées ; horizon à déroger source par source."
+actualite:
+  mode: date
+  horizon: 9m
+  motif: "Fait rapporté durable, mais état de la situation vite périmé."
+theorie:
+  mode: date
+  horizon: aucun
+  motif: "Travaux stabilisés ; revérifier sur controverse signalée."

@@ -1,0 +1,18 @@
+# Rapports d'audit contradictoire et de recherche documentaire.
+# Décision de l'auteur du 2026-09-04 : ils restent HORS DÉPÔT.
+# Le dépôt est public et sert debunkonomy.org ; ces rapports listent les erreurs
+# corrigées et les objections non résolues du corpus avant arbitrage.
+# Archive de référence : Drive, Corpus GPT / SAUVEGARDE CORPUS / audits-et-recherches
+# Voir protocoles/passe-2.md § 1.
+audits-et-recherches/
+protocoles/audits/
+protocoles/audits-et-recherches/
+*-audit.md
+*-deep-research.md
+# Exception : le protocole generique est un MODELE a coller, pas un rapport.
+# CLAUDE.md le declare faisant autorite ; le motif d exclusion ne le vise pas.
+!protocoles/sourcage-deep-research.md
+
+# Sauvegardes locales et archives
+Sauvegarde*/
+*.zip
