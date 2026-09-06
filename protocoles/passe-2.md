@@ -576,6 +576,13 @@ substitut : c'est une directive, la donnée étant ce constat. **L11.C06 § 4** 
 établi qu'un barème est trois objets dont le premier est une table : **ce
 premier objet est une directive, non une table.**
 
+**CONDITIONNÉ LE 2026-09-06 PAR L11.C20, et il faut le dire ici parce que ce
+paragraphe promettait trop.** La directive ne répond à A7 **que si son propre
+amendement est réglé** — c'est la quatrième exigence de L11.C12, restée vide
+jusqu'au 2026-09-06 et portée en **A23**. Une directive réécrite à volonté
+n'oppose rien de plus qu'une table au pilotage discrétionnaire. **A7 est donc
+réglé en forme et suspendu à A23 en pratique.**
+
 **Conséquence de rédaction, et elle vaut pour tout le Livre 11 :** publier des
 nombres, c'est publier le résultat d'une directive pour un état des données
 donné. **Ce qui doit être publié et discuté est la directive.** Un barème qui ne
@@ -1813,6 +1820,94 @@ est pas une et ne peut pas l'être** : ce n'est pas une fonction des données, c
 une adjudication. **La forme directive répond à la question du BARÈME, non à celle
 du DISPOSITIF** — et L11.C06 § 4 avait raison plus tôt : un barème est trois
 objets, et **seul le premier est une directive.**
+
+
+### A23 — La procédure d'amendement de la directive — OUVERT le 2026-09-06
+
+**Origine : L11.C20.** **C'est la quatrième exigence que L11.C12 avait posée sans
+la remplir** — une directive doit contenir « sa propre procédure d'amendement,
+faute de quoi elle n'est qu'un pilotage discrétionnaire muni d'étapes ». Trois
+des quatre ont été instruites ; **celle-ci porte tout l'appareil et elle était
+vide.** Sans elle, **A7, A19, A20 et A21 sont des choix de forme sans mode
+d'emploi**, et la réponse apportée à A7 par la directive ne vaut pas mieux qu'une
+table.
+
+**Ce que l'arbitrage doit trancher en premier : séparer deux objets que le
+dispositif confond.**
+
+| | L'objet | Ce qui change | Qui décide |
+|---|---|---|---|
+| **La variation** | la fonction lit des données nouvelles | **le taux** | **personne** — c'est un calcul |
+| **L'amendement** | la fonction est réécrite | **la règle** | une autorité, par décision |
+
+Le dispositif annonce un « ajustement annuel des taux » **sans dire lequel des
+deux il désigne**. **Présenter un amendement comme une variation est une
+soustraction au contrôle**, et c'est le mode d'échec le plus probable de la forme
+directive.
+
+**LE CRITÈRE QUI LES SÉPARE EST EXÉCUTABLE, et c'est l'apport principal.**
+
+> **Une variation est reproductible par un tiers ; un amendement ne l'est pas.**
+
+Fonction publiée plus données publiées : n'importe qui recalcule et retrouve le
+nombre. **Un écart entre le taux annoncé et le taux recalculé est la signature
+d'un amendement non déclaré**, détectable avec une feuille de calcul et sans
+accès aux délibérations. **Second test exécutable du Livre 11**, après le critère
+d'échec terminal de Tinbergen (L11.C03). **Il impose une exigence d'archivage** :
+publier la fonction ne suffit pas, il faut publier **les données dans l'état exact
+où la fonction les a lues**, horodatées — sans quoi le test tombe. C'est la
+disposition la moins coûteuse du dispositif.
+
+**Ce que l'arbitrage doit trancher en second : la rétroactivité, et aucune branche
+n'est gratuite.** Rétroagir en alourdissant détruit la propriété pour laquelle la
+directive a été choisie. Ne pas rétroagir crée une **prime à l'ancienneté** :
+l'installation ancienne et plus dégénérative garde son classement favorable et
+paie moins que celle qui la remplacerait — **le barème punit ce qu'il voulait
+encourager**. RÉSERVE : le corpus impute cet effet à l'attribution fondée sur les
+positions acquises **sans l'avoir vérifié sur source**.
+
+**Et l'auteur a déjà réglé ce point sur un barème, sans que personne ne le
+relève.** A15 indexe la hausse sur la disponibilité **constatée** du substitut :
+**un changement déclenché par un fait public ne surprend personne**, donc la
+rétroactivité ne se pose pas dans les mêmes termes. **Troisième bénéfice de cet
+arbitrage**, après la crédibilité et le coût du report. **Il ne couvre pas les
+amendements de doctrine — qui sont ceux qui alourdissent.**
+
+**RÈGLE DE CONCEPTION PROPOSÉE PAR LE CORPUS, marquée comme proposition et non
+comme résultat.** Deux exigences établies s'opposent : la crédibilité demande de
+ne pas réécrire (L11.C10, L11.C12), la révisabilité est plus nécessaire là où
+l'objet est irréversible (L11.C16 § 6). **La sortie n'est pas dans le rythme,
+elle est dans la fonction.**
+
+> **La fréquence d'amendement admissible est inverse de l'irréversibilité de ce
+> que le barème commande ; et ce qu'on retire en fréquence doit être rendu en
+> conditionnalité.**
+
+Une fonction qui prévoit le cas n'a pas besoin d'être amendée quand il survient —
+d'où l'intérêt de lui faire lire les conditions-limites, qui sont des inégalités
+ne mordant que lorsqu'elles sont menacées. **Conséquence inattendue :
+l'exigence est maximale sur la valorisation, là où la matière est minimale.**
+
+**Une convergence à enregistrer, et c'est une impasse.** L11.C19 § 7 a établi que
+le recours contre une valorisation n'a pas de forme — juger une valeur, c'est la
+refaire. **L'amendement d'une valorisation rencontre la même impasse par l'autre
+côté** : l'enveloppe étant plafonnée, tout amendement qui relève une valeur en
+abaisse d'autres en termes réels, donc **c'est un transfert entre membres**, comme
+une révision de parité. **Sur D2, le recours et l'amendement sont deux noms de la
+même décision**, et cette décision est celle que P52 déclare illégitime sans
+organe légitimé — soit A16, toujours sans matière.
+
+**QUATRIÈME OCCURRENCE DU CONFLIT EFFICACITÉ / LÉGITIMITÉ, ET LE CORPUS CHANGE
+LE STATUT DE L'OBSERVATION.** Une directive **sans terme** se pérennise par
+inertie — ne rien faire suffit à la maintenir. Une directive **à terme fixe**
+force l'amendement à être une décision active et détruit la crédibilité, chacun
+anticipant la renégociation. **Après A17, A20 et A21, c'est la quatrième
+occurrence par un quatrième chemin indépendant.** Le corpus cesse de les traiter
+comme des difficultés locales : **c'est une propriété de gouverner par barème.**
+
+**EXIGENCE DE RÉDACTION QUI EN DÉCOULE, et elle vaut pour tous les arbitrages de
+barème à venir :** **chacun doit énoncer de quel côté il paie — efficacité ou
+légitimité — et le corpus refusera tout arbitrage qui prétend ne pas payer.**
 
 ---
 
