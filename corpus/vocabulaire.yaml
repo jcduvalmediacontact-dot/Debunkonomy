@@ -479,3 +479,32 @@
                biens sont vraisemblablement ceux dont l'empreinte par unité de
                dépense est la plus élevée."
   premiere_occurrence: L11.C03
+
+- terme: valorisation_des_communs
+  libelle: "Valorisation des communs"
+  definition: "Décision qui fixe combien un acte régénératif certifié vaut en
+               allocations émises. Distincte de la qualification, qui décide de
+               l'éligibilité sans dire combien de monnaie créer. Le corpus la
+               tient pour la décision D2 au sens de L11.C11, domicile de la
+               promesse bloquante P52, et établit qu'elle se décompose en deux
+               grandeurs de statut opposé : le NIVEAU, contraint par la
+               condition de bouclage et donc décidé par personne, et la
+               STRUCTURE — la valeur relative des actes entre eux —, qui est
+               l'objet du barème et, à enveloppe plafonnée, un partage."
+  premiere_occurrence: L11.C16
+
+- terme: polycentricite
+  libelle: "Polycentricité"
+  definition: "Organisation dans laquelle une décision collective est prise
+               simultanément à plusieurs échelles emboîtées plutôt que par une
+               unité unique. Le corpus l'emploie comme la seule réponse
+               constituée à l'objection de la connaissance dispersée, et retient
+               d'Ostrom deux arguments indépendants : une politique adoptée à la
+               seule échelle mondiale engendre difficilement la confiance
+               nécessaire à l'action collective, et recommander une unité
+               gouvernementale unique pour résoudre un problème d'action
+               collective mondiale est intrinsèquement faible en raison même des
+               comportements de passager clandestin. L11.C16 établit qu'elle
+               s'applique au constat et non à la fixation des valeurs, où le
+               résultat de Mundell l'interdit."
+  premiere_occurrence: L11.C16

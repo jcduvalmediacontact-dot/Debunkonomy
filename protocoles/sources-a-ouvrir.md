@@ -153,7 +153,7 @@ telle quelle dans Google Scholar ou dans un catalogue de librairie.
 |---|---|---|
 | **7** | `Thirlwall Balance of Payments Constraint 1979 Banca Nazionale del Lavoro Quarterly Review 128` | Souvent libre sur le site de la *PSL Quarterly Review*, qui a succédé à la BNL — essayer là d'abord |
 | **8** | `Despres Kindleberger Salant The dollar and world liquidity The Economist 5 February 1966` | Archives de *The Economist*, p. 526-529 |
-| **—** | `Balassa Purchasing-Power Parity Doctrine Reappraisal 1964` et `Samuelson Theoretical Notes on Trade Problems 1964` | Portent la réfutation de la convergence des pouvoirs d'achat (L1.C26 § 6) |
+| **2** | `Balassa Purchasing-Power Parity Doctrine Reappraisal 1964` et `Samuelson Theoretical Notes on Trade Problems 1964` | Portent la réfutation de la convergence des pouvoirs d'achat (L1.C26 § 6). **MONTÉES DE `—` A 2 LE 2026-09-06.** L11.C15 propose d'indexer la révision des parités sur un observable et l'écart de productivité entre secteurs exposés et abrités est la grandeur qui s'impose : ces deux textes la portent. **Le corpus ne peut pas spécifier la donnée d'une directive de parité avant de les avoir lus** (A19) |
 | **15** | `Ulanowicz Goerner Lietaer Gomez Quantifying sustainability Ecological Complexity 2009` | Elsevier |
 | **16** | `Feyzioglu Swaroop Zhu Panel Data Analysis Fungibility of Foreign Aid 1998` | World Bank Economic Review |
 

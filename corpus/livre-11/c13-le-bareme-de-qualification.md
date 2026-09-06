@@ -1,0 +1,178 @@
+---
+chapitre: L11.C13
+titre: "Le barème de qualification"
+livre: 11
+langue: fr
+licence: CC-BY-SA-4.0
+type: chapitre
+statut: brouillon
+revision_de_fond: 2026-09-06
+autorite: preparatoire
+citable: false
+regime: conception
+sources_primaires:
+  - ref: S1
+    nature: theorie
+    reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026 — le GAÏA Economic Symposium certifie les activités régénératives et l'Assemblée des Communs en arrête la valorisation ; l'émission suit la certification. Versé au dossier en L1.C18 et L1.C20, où le corpus a relevé que la procédure d'établissement, de révision et de contestation du barème n'est décrite nulle part (promesses P19b et P25). C'est le seul barème du dispositif qui CRÉE un flux au lieu d'en répartir un"
+    date_verification: 2026-09-04
+  - ref: S2
+    nature: theorie
+    reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06, dépouillé en L11.C03. Points retenus ici. L'interdépendance : « the values of the instrument variables are dependent, generally speaking, on ALL the targets set and cannot be considered in isolation » (ch. IV), ce qui fait des cinq barèmes un seul chantier par propriété du problème et non par recommandation de méthode. Les conditions-limites comptent comme objectifs et ne mordent que menacées (ch. III et V). Et le facteur de coût administratif : entre deux mesures dont l'une « hits a large number of people and may therefore be costly » et l'autre « affects few and therefore is less costly », on choisit la seconde (ch. X)"
+    date_verification: 2026-09-06
+  - ref: S3
+    nature: theorie
+    reference: "F. A. Hayek, « The Use of Knowledge in Society », American Economic Review, 35(4), 1945, et sa forme populaire chez L. E. Read, « I, Pencil », 1958 — connaissance dispersée : l'information pertinente n'est ni centralisée ni centralisable. Fonde la promesse P19b, que le registre qualifie d'OBJECTION LA PLUS FORTE ADRESSÉE AU DISPOSITIF : un barème d'impacts fixé par une assemblée mondiale est un prix administré, il ne renseigne pas sur les coûts d'opportunité locaux, et rien ne garantit qu'il oriente l'effort là où il produit le plus. RÉSERVE : NI L'UN NI L'AUTRE OUVERT de première main. Versé au dossier par l'auteur du dispositif lui-même le 2026-09-05, et instruit en L11.C05 § 6 sur l'autre barème"
+    date_verification: 2026-09-05
+  - ref: S4
+    nature: theorie
+    reference: "Loi de Goodhart — lorsqu'une mesure devient une cible, elle cesse d'être une bonne mesure. Fonde la promesse P25 : conditionner la création monétaire au constat d'une performance écologique incite à optimiser l'indicateur plutôt que l'effet, et ce n'est pas la fraude mais l'ajustement légal des pratiques à ce que le barème récompense. RÉSERVE : formulation reprise du registre des promesses, source primaire NON OUVERTE. Compose avec le biais de sélection (P16) et avec la manipulation des scénarios de référence"
+    date_verification: 2026-09-04
+  - ref: S5
+    nature: normatif
+    reference: "Mécanisme d'ajustement carbone aux frontières de l'Union européenne — valeur par défaut assignée sans connaître la chaîne, révisable par le producteur qui documente. Versé en L11.C05 [S7] et L11.C06 [S1]. RÉSERVE LOURDE : règlement NON OUVERT ; le § 6 du présent chapitre établit que sa transposition au barème de qualification n'est PAS symétrique de celle qui vaut pour le reflux"
+    date_verification: 2026-09-05
+  - ref: S6
+    nature: theorie
+    reference: "G. J. Stigler, Bell Journal of Economics 2(1), 1971 ; A. O. Krueger, American Economic Review 64(3), 1974 — capture du régulateur et recherche de rente. Déjà au dossier sous P37. RÉSERVE : non ouverts. L11.C08 § 4 a établi que la dérogation au demurrage donne au label une prime MONÉTAIRE chiffrable et non plus seulement réputationnelle"
+    date_verification: 2026-09-04
+verifications_en_attente:
+  # ── Méthode ────────────────────────────────────────────────────────────────
+  # PREMIER CHAPITRE SUR LE VERSANT ÉMISSION. Douze chapitres du Livre 11
+  # portaient sur le reflux ; celui-ci ouvre l'autre moitié, et il l'ouvre
+  # parce que trois chapitres y ont poussé du travail sans qu'aucun ne l'ait
+  # instruit : l'abondance des essentiels (L11.C03 § 7), les secteurs sans
+  # substitut (L11.C10 § 6), et la base même du demurrage dès lors qu'une
+  # dérogation la définit (L11.C08 § 4).
+  #
+  # LE CHAPITRE N'INSTRUIT PAS LA VALORISATION, qui est P52 et qui est
+  # bloquante. Il établit où elle se loge, ce qu'elle décide, et pourquoi elle
+  # ne peut pas être traitée séparément du reste. Le corpus ne dispose d'aucune
+  # métrologie de la régénération et ne prétend pas en construire une.
+  #
+  - "LA MÉTROLOGIE DE LA RÉGÉNÉRATION, et c'est le manque central. Le § 4
+     soutient que mesurer un bien fait est d'une autre nature que mesurer un
+     mal, et que la seconde a des instruments imparfaits là où la première n'en
+     a presque aucun. **Le corpus l'affirme sans l'avoir établi** : il faudrait
+     recenser ce qui existe — comptabilité écologique CARE-TDL, indices de
+     biodiversité, protocoles de restauration — et dire ce que chacun mesure.
+     Renvoi au Livre 18, et c'est un préalable et non un complément."
+  - "GOODHART [S4], dont le corpus n'a que la formulation reçue par son propre
+     registre. Le § 5 en fait l'objection principale de ce barème. **Il faut la
+     source, et surtout la littérature d'évaluation** : les dispositifs de
+     paiement pour services environnementaux et les marchés de compensation
+     ont produit des décennies d'observations sur exactement ce mécanisme, et
+     le corpus n'en a ouvert aucune."
+  - "HAYEK 1945 [S3], toujours non ouvert, alors que P19b est qualifiée dans le
+     registre d'objection la plus forte adressée au dispositif et qu'elle est
+     désormais trouvée DEUX FOIS par deux chemins — sur l'assiette du reflux
+     en L11.C05 § 6, sur la qualification ici. Le corpus emploie une objection
+     centrale sans avoir lu le texte qui la porte."
+  - "L'alternative nommée par le registre sous P19b et L1.C22 § 2 : la
+     littérature des communs oppose à la détermination centrale une
+     organisation polycentrique. **Le corpus ne l'a pas instruite**, et elle
+     est la seule réponse constituée à l'objection qu'il tient pour la plus
+     forte. Ostrom est au canon du Livre 8 et n'a pas été ouverte."
+  - "OUVERTE — l'asymétrie des erreurs du § 3. Le corpus soutient qu'une
+     sur-qualification crée de la monnaie sans contrepartie tandis qu'une
+     sous-qualification laisse l'essentiel non financé, et que ces deux erreurs
+     n'ont ni la même visibilité ni le même délai de détection. **C'est une
+     conjecture** sur la détectabilité, et elle commande la manière dont le
+     barème doit être calibré. Portée en arbitrage A17."
+resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."
+concepts: [qualification_regenerative, bareme, creation_monetaire, additionnalite, degeneratif, essentiel_insolvable]
+renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12]
+---
+
+# Le barème de qualification
+
+::etat:: Ce chapitre ouvre le versant émission du Livre 11. Douze chapitres ont porté sur le reflux ; celui-ci porte sur ce qui décide **ce qui est financé**. Il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'ait instruit.
+
+## 1. Pourquoi ce barème vient en premier, et non en dernier
+
+::etat:: **Trois questions lui ont été renvoyées, et elles viennent de trois chapitres qui ne se cherchaient pas.** L11.C03 § 7 a établi que **l'abondance des produits essentiels** n'est atteignable par aucun taux et relève de la qualification. L11.C10 § 6 a établi que **les secteurs sans substitut** échappent par construction à la trajectoire indexée, et que l'instrument qui les atteint est l'émission et non le reflux. L11.C08 § 4 a établi que dès lors qu'une **dérogation au demurrage** se définit par la qualification, **une seule table gouverne les deux extrémités du circuit** — ce qui entre par l'émission et ce qui échappe au reflux.
+
+::hypothese:: **Le barème de qualification n'est donc pas le cinquième d'une liste : c'est celui vers lequel les autres renvoient leurs impasses.** Le corpus l'a traité en dernier parce que le Livre 11 s'est ouvert sur le reflux ; c'est un ordre de rédaction, non un ordre de dépendance.
+
+## 2. Ce qu'il crée, au lieu de ce qu'il répartit
+
+::etat:: **La différence avec les quatre autres barèmes est de nature et non de degré.** Le barème de reflux, celui du demurrage, les parités et la pondération du tableau de bord **répartissent** — ils distribuent une charge, un droit ou un poids sur une assiette qui existe indépendamment d'eux. **Le barème de qualification crée le flux.** Avant lui, il n'y a pas d'émission ; la certification est ce qui la déclenche [S1].
+
+::hypothese:: **Il en résulte une asymétrie des erreurs que le corpus n'avait pas relevée, et elle commande le calibrage.**
+
+| | L'erreur | Ce qu'elle produit | Quand on s'en aperçoit |
+|---|---|---|---|
+| **Sur-qualifier** | on certifie ce qui ne régénère pas | **de la monnaie émise sans contrepartie réelle** — l'objection de Rueff que L1.C21 existe pour écarter | tard, et par l'effet agrégé |
+| **Sous-qualifier** | on refuse ce qui régénère | **l'essentiel demeure non financé** — soit l'échec du but poursuivi | jamais, faute de contrefactuel |
+
+::hypothese:: **Les deux fautes ne sont pas symétriques dans leur détectabilité, et c'est ce qui rend le calibrage difficile.** La sur-qualification finit par se voir, parce que la monnaie émise circule et que l'effet promis manque. **La sous-qualification ne se voit pas** : le projet non certifié n'existe pas, et rien ne signale son absence. **Un barème calibré sur ce qu'on peut observer sera donc systématiquement trop strict** — et il le sera d'autant plus que l'autorité redoute davantage l'erreur visible. Le corpus marque que c'est une **conjecture sur la détectabilité**, non un résultat, et la porte en arbitrage A17.
+
+## 3. Les quatre décisions, et le domicile de P52
+
+::etat:: L11.C11 a établi qu'arrêter un barème est quatre décisions de natures différentes. **Appliquées à la qualification, elles se lisent ainsi.**
+
+| | La décision | Ici |
+|---|---|---|
+| **D1** | fixer la **méthode** | qu'est-ce qui compte comme régénératif, et sur quels états mesurés |
+| **D2** | fixer les **valeurs** | **combien un acte régénératif donné vaut en allocations** |
+| **D3** | **constater** | cet acteur l'a-t-il fait, et à quelle hauteur |
+| **D4** | trancher un **recours** | contestation d'une certification refusée ou d'une valorisation |
+
+::etat:: **D2 est exactement l'objet de la promesse bloquante P52.** L1.C27 § 6 a établi que l'équilibre extérieur d'un pays dépendrait du volume de communs qu'il peut faire certifier, et donc que **la valorisation décide de la solvabilité extérieure des membres**. L11.C11 avait isolé le nœud — la contrainte tirée de Mundell exige des valeurs uniformes, P52 objecte que des valeurs uniformes décident de la souveraineté — sans dire où il se logeait. **Il se loge ici.**
+
+::hypothese:: **Cela ajoute une raison de ne pas traiter ce barème séparément.** Tinbergen établit que « the values of the instrument variables are dependent, generally speaking, **on all the targets set and cannot be considered in isolation** » [S2] — ce qui fait de A8 une propriété du problème et non une recommandation de méthode. **Le barème de qualification en est la démonstration la plus nette** : il porte O6, l'abondance des essentiels ; il porte les secteurs sans substitut ; il définit l'assiette du demurrage par la dérogation ; et il décide de l'équilibre extérieur. **Quatre fonctions qui appartiennent nominalement à quatre autres chapitres.**
+
+## 4. La métrologie ne se transpose pas : mesurer un bien n'est pas mesurer un mal
+
+::etat:: L11.C05 § 6 et L11.C06 ont établi l'obstacle métrologique du barème de reflux — l'empreinte cumulée d'un bien est une grandeur que personne ne détient — et la sortie : une valeur par défaut révisable [S5]. **Le corpus doit établir ici que le problème n'est pas le même, et qu'il est plus dur.**
+
+::hypothese:: **Mesurer combien une activité nuit dispose d'instruments imparfaits mais existants.** Les émissions se comptent, les prélèvements d'eau se mesurent, les rejets se dosent. **Mesurer combien une activité régénère n'a presque aucun instrument.** Restaurer un sol, une zone humide, une population, ce n'est pas soustraire une quantité : c'est modifier la trajectoire d'un système vivant, sur des délais qui excèdent les cycles budgétaires, et dont l'état de référence est lui-même contesté.
+
+::hypothese:: **Le corpus affirme cela sans l'avoir établi, et il le marque.** Il faudrait recenser ce qui existe — comptabilité écologique, indices de biodiversité, protocoles de restauration — et dire ce que chacun mesure réellement. C'est un préalable, non un complément, et il relève du Livre 18. **Tant qu'il n'est pas fait, D1 n'a pas d'objet.**
+
+::hypothese:: **Une conséquence immédiate pour la promesse d'additionnalité.** Certifier suppose d'établir que l'acte régénératif n'aurait pas eu lieu sans l'émission. Cela demande un **contrefactuel**, c'est-à-dire une grandeur qui n'existe pas et qui doit être construite — et L11.C10 a établi que l'anticipation d'un dispositif annoncé déforme les comportements avant qu'il n'existe. **Le contrefactuel est donc déformé par l'annonce même du barème qu'il doit servir à calibrer.**
+
+## 5. Goodhart, et pourquoi il frappe plus fort ici
+
+::etat:: **P25 tient l'objection, et elle est spécifique à ce barème** [S4]. Conditionner la création monétaire au constat d'une performance écologique **incite à optimiser l'indicateur plutôt que l'effet**. Et le registre précise ce qui la rend redoutable : « ce n'est pas la fraude, c'est **l'ajustement légal des pratiques à ce que le barème récompense** ».
+
+::hypothese:: **Elle frappe plus fort ici que sur le barème de reflux, pour trois raisons que le corpus énonce.** La récompense est **directe** : sur le reflux, bien se comporter évite une charge ; ici, être certifié **produit de la monnaie**. L'écart entre l'indicateur et l'effet est **plus grand**, puisque le § 4 vient d'établir qu'il n'existe pas de métrologie établie de la régénération — **on optimise donc contre un indicateur dont on sait déjà qu'il est un proxy grossier**. Et la détection est **plus lente**, par l'asymétrie du § 2.
+
+::hypothese:: **Le registre nomme trois remèdes et le corpus les reprend sans les trancher** : révision périodique des barèmes, indicateurs non annonçables à l'avance, ou audit contradictoire des pratiques et non des seuls résultats. **Les deux premiers entrent en conflit direct avec ce que le Livre 11 vient d'établir.** L11.C12 exige qu'un barème soit une **directive publiée** ; un indicateur non annonçable à l'avance est l'inverse d'une directive. **On ne peut pas à la fois publier la fonction et cacher l'indicateur.** Le corpus n'a pas de sortie et le dit : c'est un conflit entre deux exigences qu'il tient toutes deux pour fondées, et il est à trancher.
+
+## 6. La valeur par défaut change de face
+
+::etat:: L11.C06 a établi la sortie métrologique du reflux : un défaut punitif fait documenter tous ceux qui font mieux, la modulation vit, **et le plein tarif frappe qui ne peut pas prouver**. Le corpus a tenu ce coût pour le prix de l'efficacité.
+
+::hypothese:: **Transposé à la qualification, le mécanisme est le même et sa face est inversée.** Le défaut y est « non qualifié », et le producteur documente pour qualifier — c'est le fonctionnement de tout label. **Mais qui ne peut pas documenter n'est pas surtaxé : il est exclu du financement.**
+
+::hypothese:: **C'est le même biais de concentration, sur le versant émission, et le corpus le tient pour plus lourd.** Être surtaxé quand on est petit est une charge ; **être exclu d'un financement destiné à l'essentiel insolvable quand on est petit est une privation** — et le dispositif vise précisément ceux que le marché ne finance pas. L11.C09 avait établi que quatre mécanismes indépendants favorisent les acteurs intégrés, documentés, structurés et conseillés. **En voici un cinquième, et c'est le premier qui distribue un avantage plutôt qu'une charge.**
+
+::hypothese:: **Et le motif administratif de Tinbergen l'aggrave plutôt qu'il ne l'excuse.** Entre deux mesures dont l'une « hits a large number of people and may therefore be costly » et l'autre « affects few and therefore is less costly », l'efficacité recommande la seconde [S2]. **Certifier peu d'acteurs, grands et documentés, coûte moins cher que d'en certifier beaucoup.** Le biais n'est donc pas un défaut d'exécution : c'est ce que l'efficacité administrative conseille, et le corriger suppose de payer délibérément un surcoût — ce que A14 avait déjà établi pour le reflux, et qui vaut ici avec plus de force.
+
+## 7. La connaissance dispersée, trouvée deux fois
+
+::etat:: **P19b est qualifiée par le registre d'objection la plus forte adressée au dispositif** [S3] : un barème d'impacts fixé par une assemblée mondiale est un prix administré, il ne renseigne pas sur les coûts d'opportunité locaux, et rien ne garantit qu'il oriente l'effort là où il produit le plus.
+
+::hypothese:: **Le corpus relève qu'il l'a maintenant rencontrée deux fois, par deux chemins indépendants, sur les deux barèmes.** En L11.C05 § 6, sur l'assiette du reflux, versée par l'auteur du dispositif lui-même sous la forme du crayon dont personne ne connaît la généalogie. Ici, sur la qualification, où elle figurait au registre depuis L1.C18 sans avoir été instruite. **Deux barèmes, deux formulations, une seule objection** — et c'est un argument de plus pour A8 : si la même difficulté se présente aux deux extrémités du circuit, elle n'est pas propre à un instrument.
+
+::hypothese:: **La sortie trouvée pour le reflux ne vaut pas ici.** Contre le crayon, le corpus a opposé la valeur par défaut : le centre n'a pas besoin de savoir, il lui faut un défaut défendable et une procédure. **Cela répond à l'impossibilité de MESURER, non à l'impossibilité d'ALLOUER.** P19b ne dit pas que le centre ignore l'empreinte : elle dit qu'il ignore **où l'effort produit le plus**, ce qu'aucune valeur par défaut ne lui apprendra. **L'objection reste entière sur ce barème.**
+
+::etat:: **Une alternative est nommée au registre et le corpus ne l'a pas instruite** : la littérature des communs oppose à la détermination centrale une organisation polycentrique (P19b, L1.C22 § 2). C'est la seule réponse constituée à l'objection que le corpus tient pour la plus forte.
+
+::etat:: **CORRIGÉ le 2026-09-06, en instruisant L11.C16.** Ce paragraphe portait qu'« Ostrom figure au canon du Livre 8 sans avoir été ouverte ». **C'était faux** : *Governing the Commons* (1990) et « A Polycentric Approach for Coping with Climate Change » (2009) portent l'une et l'autre une `date_verification`, la seconde avec citations littérales (L1.C22 [S4] et [S5]). Ce qui manque n'est pas la lecture mais **le dépouillement des huit principes organisateurs face à la décision D2**, que L11.C16 § 5 a demandé. **Neuvième autocorrection du corpus.**
+
+## 8. Portée
+
+::etat:: **Le barème de qualification n'est pas le cinquième d'une liste : c'est celui vers lequel les autres renvoient leurs impasses.** Il porte l'abondance des essentiels, les secteurs sans substitut, l'assiette du demurrage par la dérogation, et l'équilibre extérieur des membres.
+
+::hypothese:: **Il crée un flux au lieu d'en répartir un, et les erreurs y sont asymétriques.** Sur-qualifier produit de la monnaie sans contrepartie et finit par se voir ; sous-qualifier laisse l'essentiel non financé et ne se voit jamais. **Un barème calibré sur ce qui s'observe sera donc trop strict**, d'autant plus que l'autorité redoutera l'erreur visible. Arbitrage A17.
+
+::etat:: **P52 se loge dans sa deuxième décision.** Le nœud que L11.C11 avait isolé — valeurs uniformes exigées par la mobilité des capitaux, valeurs uniformes décidant de la souveraineté — a ici son domicile.
+
+::hypothese:: **L'obstacle métrologique ne se transpose pas : il s'aggrave.** Mesurer combien une activité nuit dispose d'instruments imparfaits ; mesurer combien elle régénère n'en a presque aucun. Et l'additionnalité exige un contrefactuel que l'annonce du barème déforme.
+
+::hypothese:: **Goodhart frappe plus fort ici**, parce que la récompense est directe, l'indicateur plus grossier et la détection plus lente. **Et deux des trois remèdes nommés au registre entrent en conflit avec l'exigence de directive publiée établie en L11.C12** — on ne peut pas à la fois publier la fonction et cacher l'indicateur. Le corpus n'a pas de sortie et ne la simule pas.
+
+::hypothese:: **La valeur par défaut change de face et le biais s'alourdit.** Qui ne peut pas documenter n'est pas surtaxé : il est exclu d'un financement destiné à ceux que le marché ne finance pas. **Cinquième occurrence du biais de concentration, et la première qui porte sur un avantage plutôt que sur une charge.**
+
+::etat:: **Et l'objection de la connaissance dispersée a été trouvée deux fois, par deux chemins, sur les deux barèmes.** La sortie découverte pour le reflux ne vaut pas ici : elle répond à l'impossibilité de mesurer, non à celle d'allouer. **L'objection que le registre tient pour la plus forte reste entière**, et la seule réponse constituée qu'on lui connaisse — l'organisation polycentrique des communs — n'a jamais été instruite.

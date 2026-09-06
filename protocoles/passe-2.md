@@ -607,7 +607,7 @@ d'une souplesse devant l'imprévu. Le coût de la règle est réel et doit être
 énoncé : elle est rigide, et une formule mal spécifiée est plus difficile à
 corriger qu'une décision annuelle. Voir P48.
 
-### A8 — Les cinq barèmes sont un seul chantier — RELEVÉ le 2026-09-04
+### A8 — Les cinq barèmes sont un seul chantier — RENDU le 2026-09-06 par L11.C17
 
 **Constat obtenu par récurrence, en défrichant L1.C28.** La même question
 revient sous cinq formes que le corpus a traitées séparément, et elle est à
@@ -641,6 +641,42 @@ locales.
 Recommandation du corpus, non tranchée : traiter le chantier des barèmes comme
 un objet unique, et lui consacrer un chapitre ou un livre dédié plutôt que de
 le laisser réparti en cinq promesses.
+
+---
+
+**RENDU le 2026-09-06 par L11.C17, après instruction des cinq lieux. CONFIRMÉ
+SUR SA THÈSE, CORRIGÉ SUR SON DÉCOMPTE, ET DÉMONTRÉ AU LIEU D'ÊTRE CONJECTURÉ.**
+
+**Ce qui est corrigé.** Les cinq lieux ne sont pas cinq objets de même nature.
+**Le tableau de bord n'est pas un barème : c'est l'entrée commune des autres**
+(L11.C14). **La valorisation des communs n'est pas un barème distinct : c'est la
+décision D2 du barème de qualification** (L11.C13 § 3, L11.C16). **Il reste
+trois barèmes et une entrée** — et la correction renforce A8 au lieu de le
+démentir : la ressemblance dont il tirait sa conjecture était en partie une
+identité. **Reste ouvert de savoir si le prélèvement transactionnel et le
+demurrage font un barème ou deux** : trois si c'est un, quatre si ce sont deux.
+
+**Ce qui est démontré.** A8 tenait par récurrence, ce qui n'établit rien : cinq
+lacunes peuvent se ressembler sans communiquer. **Trois voies indépendantes
+établissent maintenant l'interdépendance** — par citation (Tinbergen, L11.C13
+§ 3), par récurrence (P19b aux deux extrémités du circuit, L11.C05 § 6 et
+L11.C13 § 7), et **par déduction** (l'égalité de bouclage lie la structure de la
+valorisation au taux de reflux, L11.C16 § 3). **La troisième n'a besoin d'aucune
+autorité extérieure : elle se lit dans une égalité que le dispositif pose
+lui-même.**
+
+**La réponse commune existe et porte un nom : la directive** (L11.C12). Elle
+règle A7 — la directive EST la forme de la règle —, elle donne son nom à ce que
+l'auteur a tranché en A15, et elle passe l'épreuve des trois barèmes. **Son coût
+n'est pas commun** : il croît avec l'irréversibilité de ce que le barème
+commande, et il est maximal sur la valorisation.
+
+**Ce que le rendu laisse au chantier, et qui lui appartient en propre :** A5, le
+périmètre financé, non instruit ; **le seuil d'exemption pour les personnes
+morales, qui manque entièrement et qu'aucun chapitre n'avait relevé** ; et la
+matière de A16, dont les trois précédents ne sont toujours pas ouverts.
+
+**A8 est rendu. Le chantier n'est pas clos.**
 
 ### A9 — Le classement des objectifs du reflux — OUVERT le 2026-09-05
 
@@ -1368,6 +1404,87 @@ des gouverneurs de la BCE.
 représentation qui ne reconduise pas le poids économique.** Les traiter
 séparément produirait deux réponses possiblement incohérentes.
 
+### A17 — Le calibrage du barème de qualification face à l'asymétrie des erreurs — OUVERT le 2026-09-06
+
+**Origine : L11.C13**, premier chapitre du Livre 11 sur le versant émission. Le
+barème de qualification ne répartit pas une charge : **il crée le flux.** Il en
+résulte une asymétrie que le corpus n'avait pas relevée.
+
+| L'erreur | Ce qu'elle produit | Quand on s'en aperçoit |
+|---|---|---|
+| **Sur-qualifier** | de la monnaie émise **sans contrepartie réelle** — l'objection de Rueff que L1.C21 existe pour écarter | tard, par l'effet agrégé |
+| **Sous-qualifier** | **l'essentiel demeure non financé** — l'échec du but poursuivi | **jamais**, faute de contrefactuel |
+
+**Ce que l'arbitrage doit trancher.** Les deux fautes n'ont pas la même
+détectabilité. La sur-qualification finit par se voir : la monnaie circule et
+l'effet promis manque. **La sous-qualification ne se voit pas** — le projet non
+certifié n'existe pas, et rien ne signale son absence. **Un barème calibré sur
+ce qui s'observe sera donc systématiquement trop strict**, d'autant plus que
+l'autorité redoutera l'erreur visible. Faut-il corriger ce biais, et par quoi ?
+
+**Ce qui rend l'arbitrage difficile, et qu'il faut avoir en tête.** Corriger vers
+la sur-qualification, c'est accepter d'émettre parfois contre rien — donc
+affaiblir la réponse à Rueff, qui est la raison d'être du reflux. Ne pas
+corriger, c'est accepter que le dispositif finance moins que ce qu'il pourrait,
+**et sans jamais savoir de combien.**
+
+**Ce que le corpus ne peut pas encore instruire.** L'additionnalité suppose un
+contrefactuel — établir que l'acte n'aurait pas eu lieu sans l'émission —, or
+L11.C10 a établi que l'annonce d'un dispositif déforme les comportements avant
+qu'il n'existe. **Le contrefactuel est déformé par l'annonce du barème qu'il doit
+servir à calibrer.**
+
+**Un conflit d'exigences à trancher en même temps.** Le registre nomme trois
+remèdes à l'objection de Goodhart (P25) : révision périodique, **indicateurs non
+annonçables à l'avance**, ou audit contradictoire des pratiques. **Le deuxième
+contredit frontalement L11.C12**, qui exige qu'un barème soit une directive
+publiée. **On ne peut pas à la fois publier la fonction et cacher l'indicateur.**
+Le corpus tient les deux exigences pour fondées et n'a pas de sortie.
+
+### A18 — Le statut des six familles du tableau de bord — OUVERT le 2026-09-06
+
+**Origine : L11.C14.** Depuis que L11.C12 a établi qu'un barème est une
+**directive** — une fonction des données observées —, le tableau de bord cesse
+d'être le cinquième barème pour devenir **l'entrée des quatre autres**. Il est
+donc antérieur, alors que le plan du livre le plaçait en dernier.
+
+**Ce que l'arbitrage doit trancher : le statut de chaque famille.** Tinbergen
+sépare les DONNÉES — « external to the economic complex considered [...] as far
+as not under the command of the authority » — des VARIABLES-OBJECTIFS. **Une
+directive lit les premières.** Appliquée aux six familles, la distinction les
+coupe en deux :
+
+| Famille | Statut proposé par le corpus |
+|---|---|
+| biosphérique | **objectif** — le dispositif existe pour l'améliorer |
+| sociale | **objectif** — finalité explicite de l'auteur |
+| économique réelle | mixte |
+| financière | mixte |
+| monétaire | **condition** au sens du ch. II — expression technique d'une politique saine |
+| internationale | **donnée**, sauf à couverture complète |
+
+**Pourquoi cela ne peut pas attendre.** Faire lire à une directive ce qu'elle est
+censée produire est **une boucle de rétroaction, non une règle de politique** —
+ce qui peut être un bon dispositif, mais auquel les résultats de L11.C12 sur la
+falsifiabilité et la crédibilité ne se transportent pas sans examen.
+
+**Et le compte de L11.C03 en dépend.** Si les familles COMMANDENT, elles sont des
+cibles et non des indicateurs, et **le compte des objectifs s'aggrave d'autant.**
+De combien ? Le corpus ne le sait pas : il faut savoir lesquelles le dispositif
+entend **améliorer** et lesquelles il se contente d'**observer**. **A18 est donc
+préalable au compte et non consécutif.**
+
+**Ce que l'arbitrage doit trancher en second.** Publier la règle d'agrégation, ou
+renoncer à commander. Un indice composite assumant ses pondérations et un tableau
+de bord qui informe sans commander sont **l'un et l'autre tenables** ; ne choisir
+ni l'un ni l'autre ne l'est pas — et c'est la position actuelle.
+
+**Le cas qui doit être traité en premier par la règle, parce que le dispositif le
+produit lui-même.** Le succès sur la famille biosphérique contracte l'assiette
+dégénérative et dégrade la famille monétaire (L1.C21 § 6, F1). **La seule règle
+énoncée par le Cahier prescrit quoi faire quand la biosphère va mal et se tait
+sur le moment où le bouclage se défait parce qu'elle va bien.**
+
 **Une règle que le chapitre énonce et qui ne dépend d'aucun arbitrage.** Si la
 trajectoire est indexée sur un constat (A15), **ce constat doit être aussi
 public et aussi contestable que la table elle-même.** D3 est la décision la plus
@@ -1377,3 +1494,175 @@ c'est repousser la hausse sans avoir à la contester.* **Un barème publié ados
 à des constats opaques n'est pas une règle : c'est un pilotage discrétionnaire
 déguisé, et il tombe sous F7 par la porte de service.**
 
+
+
+### A19 — Le critère de révision des parités du référentiel — OUVERT le 2026-09-06
+
+**Origine : L11.C15.** Troisième des cinq barèmes de A8. L1.C26 § 3 avait laissé
+la procédure de révision vide ; L1.C28 § 6 a relevé sous P54 le seul critère que
+l'ouvrage nomme. **Trois réponses incompatibles figurent désormais au dossier**,
+et la position actuelle du dispositif est la seule des trois qui ne soit pas un
+objet de conception.
+
+| | La réponse | D'où elle vient | Ce qu'elle fait de la parité |
+|---|---|---|---|
+| **1** | fixe, non révisable — « fixes par conception » | L1.C26 | une **constante** |
+| **2** | révisable, sans procédure — « restent à discuter » | L1.C26 § 3 | une **décision** |
+| **3** | révisable sur critères, dont **la croissance du PIB** | L1.C28 § 6, P54 | une **fonction** |
+
+**Ce que l'arbitrage doit trancher en premier : une constante ou une directive.**
+L11.C12 a établi qu'un barème est l'un ou l'autre — il n'y a pas de troisième
+forme. La réponse 2 n'en est donc pas une : c'est l'absence de forme. **La
+constante est parfaitement tenable** — maximalement crédible, et L1.C26 a porté
+au crédit du dispositif qu'aucune parité ne peut être attaquée faute de marché
+où l'attaquer — **au prix de ne jamais absorber un déséquilibre réel**, que le
+solde commercial déverse alors intégralement sur la masse monétaire interne
+(P50).
+
+**Le point le plus net, et il ne vient d'aucune objection extérieure.** Le seul
+critère de révision que l'ouvrage nomme est **la croissance du produit intérieur
+brut** — dans un livre dont L1.C28, « Au-delà du PIB », est tout entier consacré
+à établir que cet agrégat ne mesure pas ce qui compte. Le conditionnel est de
+l'auteur et l'énoncé est prospectif ; **mais c'est le seul critère nommé de tout
+l'ouvrage, et une conjecture qui reste seule finit par tenir lieu de position.**
+
+**La sortie proposée par P54 tient, mais restreinte par A18.** Prendre les
+critères dans le tableau de bord reste juste — sauf que L11.C14 vient d'établir
+que la moitié de ses familles sont des **objectifs**, non des données. Indexer la
+parité sur la famille biosphérique ferait lire à une directive ce qu'elle est
+censée produire. **Seules les familles qui échappent au commandement de
+l'autorité peuvent servir d'entrée** : l'internationale, et la part subie des
+familles économique réelle et financière. Cela ramène très près des critères
+classiques d'ajustement d'un change fixe, ce qui est un renseignement en soi.
+**A19 est donc postérieur à A18.**
+
+**Ce que l'arbitrage doit trancher en second : qui supporte la révision.**
+L'arbitrage du 2026-09-05 a établi que le Symposium détient des avoirs en
+monnaies nationales (L11.C01). **Une révision de parité les revalorise : c'est un
+transfert, et personne n'a dit qui le supporte.** Trois réponses, qui ne se
+valent pas — le Symposium l'absorbe, et ses fonds propres déjà négatifs entre
+émission et reflux s'en trouvent chargés (L11.C02 § 2) ; le membre l'absorbe, et
+la révision devient une sanction ; ou l'on répartit, et il faut une clé, qui est
+P31 sous un autre nom. **Une révision dont on ignore qui la paie sera reportée.**
+
+**Le mécanisme, lui, est déjà connu du corpus.** Une parité « fixe mais
+ajustable » promet un ajustement que l'autorité aura intérêt à différer
+précisément lorsqu'il deviendra nécessaire — c'est l'incohérence temporelle que
+L11.C10 § 2 a traitée sur la trajectoire. **Le dispositif hérite donc, sur les
+parités, du problème qu'il a résolu ailleurs.**
+
+**La forme de sortie est celle que l'auteur a lui-même retenue en A15.**
+*Révision déclenchée par un écart constaté franchissant un seuil publié* est une
+directive au sens strict, elle échappe au reproche de la réponse 2, et elle rend
+le report coûteux — différer supposerait de nier un fait plutôt que d'arbitrer
+une opportunité. C'est chez Tinbergen le troisième remède reconnu à l'incertitude.
+**Elle coûte ce que coûtait A15 : on échange une prévisibilité non crédible
+contre une crédibilité non prévisible**, et un exportateur a besoin de la
+première pour investir. Le corpus ne prétend pas que le second terme vaille mieux.
+
+**Ce qui bloque la spécification.** L'observable qui s'impose est l'écart de
+productivité entre secteurs exposés et abrités (Balassa 1964, Samuelson 1964,
+versés en L1.C26 § 6). **Ces deux textes ne sont pas ouverts**, et le corpus
+refuse de spécifier une donnée de directive sur une littérature qu'il n'a pas
+lue. Portés en acquisition.
+
+**Et une source manque sur le précédent.** L11.C15 § 6 affirme qu'un régime fixe
+mais ajustable a déjà échoué par report politique de l'ajustement. **Le corpus le
+tient de sa culture générale**, alors qu'il dispose de Keynes CW XXV et
+d'Eichengreen, tous deux acquis. Rien n'en doit sortir hors corpus avant lecture.
+
+
+### A20 — La valorisation des communs, et ce qu'elle décide vraiment — OUVERT le 2026-09-06
+
+**Origine : L11.C16.** Dernier des cinq barèmes de A8, **seul porteur d'une
+promesse bloquante** (P52). L11.C11 § 4 avait isolé le nœud, L11.C13 § 3 l'avait
+domicilié en **D2 — fixer les valeurs** ; le chapitre l'instruit. **Il compose
+avec A4 et A16 sans s'y réduire**, et il durcit P52 au lieu de l'alléger.
+
+**Ce que le corpus n'avait pas vu, et qui change la question.** Le NIVEAU de la
+valorisation n'est pas une décision : la condition de bouclage le lie au produit
+du reflux, lui-même borné par B1 — au-delà d'un taux compris entre −0,5 % et
+−1 %, l'évitement devient massif. **L'Assemblée des Communs ne décide donc pas
+combien de monnaie existe : elle décide comment se partage une enveloppe
+plafonnée.**
+
+| | Ce qui est décidé | Par qui, ou par quoi |
+|---|---|---|
+| **Le niveau** | contraint par le bouclage, borné par B1 | ni l'Assemblée, ni personne |
+| **La structure** | décidé — c'est **D2**, domicile de P52 | l'Assemblée des Communs |
+
+**Et cela aggrave P52.** À plafond atteint, la valorisation est un **partage à
+somme quasi nulle entre membres** : relever la valeur d'un acte abaisse en termes
+réels tout ce que le barème ne relève pas. **Ce n'est plus seulement qu'une
+institution non élue décide de la solvabilité extérieure de ses membres — elle la
+décide aux dépens les uns des autres.** La nuance qui limite le résultat : la
+somme n'est nulle qu'à saturation. **Mais la thèse du dispositif est que
+l'essentiel insolvable est immense (L1.C15) : la saturation est l'état visé, non
+le cas extrême.**
+
+**Ce que l'arbitrage doit trancher en premier : le couple, pas la table.** La
+même table doit ORDONNER les actes selon leur mérite écologique et BOUCLER un
+volume monétaire — un instrument, deux objectifs, ce que la règle du compte
+interdit. **Le couple ne se ferme qu'avec le taux de reflux**, qui commande
+l'autre membre de l'égalité. **A8 est ainsi démontré une troisième fois, et pour
+la première fois par déduction** : l'interdépendance se lit dans l'égalité de
+bouclage, elle n'a plus besoin d'être invoquée.
+
+**Ce que l'option polycentrique fait, et ce qu'elle ne fait pas.** L1.C22 § 2
+avait enregistré la sortie — norme votée au centre, qualification instruite à
+l'échelle d'emploi, émission centrale. **Rapportée aux quatre décisions, elle
+rend D3 local et laisse D2 central**, c'est-à-dire qu'elle ne touche pas le
+domicile du nœud. **Et la polycentricité est interdite sur D2** par le résultat
+que L11.C04 § 6 tire de Mundell : un barème modulé nationalement recrée la
+contrainte qu'un barème global annule. Conjoint au second argument d'Ostrom — une
+unité gouvernementale unique est « inherently weak because of free-rider
+problems » —, cela donne une alternative dont les deux branches sont mauvaises :
+**uniforme il est arbitraire, non uniforme il est arbitré.**
+
+**Ce que l'arbitrage doit trancher en second : la révisabilité.** La forme
+directive (L11.C12) s'applique — voter la FONCTION plutôt que la table. Elle
+supprime la surface d'influence annuelle que L11.C11 § 6 identifiait comme la
+plus dangereuse et rend le favoritisme coûteux. **Mais elle concentre la question
+de souveraineté dans un acte unique** : une fonction choisie une fois détermine
+la balance des paiements de chaque membre pour toute sa durée de vie. **Et
+l'exigence de révisabilité est ici plus forte que sur les quatre autres barèmes**
+— une fonction mauvaise sur un taux de reflux se corrige à la révision suivante,
+une fonction mauvaise sur la valorisation prive durablement un membre de sa
+capacité d'importer — **alors même que la crédibilité y demande l'inverse.**
+
+**Un point sans arbitrage possible : il n'existe pas de valeur par défaut
+défendable sur ce barème.** Un défaut bas ferme le canal d'émission — nul ne
+restaure à perte ; un défaut haut EST la sur-qualification, l'erreur dont
+L11.C13 § 2 établit qu'on ne s'aperçoit que tard. **La sortie métrologique de
+L11.C06 n'est pas disponible ici**, et c'est la troisième fois que les deux
+versants du circuit refusent de se transporter — après l'inversion de la
+métrologie et le changement de face du défaut. **Le corpus enregistre que la
+symétrie émission/reflux, que le dispositif présente comme son architecture, ne
+vaut pas au niveau des instruments.**
+
+**Douzième condition-limite versée à L11.C03 § 5.** **B12 — la valorisation d'un
+acte ne peut descendre sous le coût de le réaliser.** Inégalité au sens de
+Tinbergen : elle mord dès que l'enveloppe se resserre, donc dans l'état de
+saturation qui est l'état visé. Six des douze ne mordent que sous tension.
+
+**Un chiffrage que le corpus nomme et ne fait pas.** Enveloppe plafonnée et
+valeur unitaire plancher donnent **un nombre maximal d'actes finançables par
+an**, à comparer à l'ampleur de l'essentiel insolvable (L1.C15). Personne n'a
+comparé les deux grandeurs. Relève de F1, classe (d).
+
+**Et deux promesses jamais instruites composent, ce que P52 demandait
+explicitement.** P35 — la restauration est lente et capitalistique quand le
+besoin de liquidité est immédiat — et P50 — sous parité fixe, le déséquilibre
+commercial se déverse intégralement sur la masse monétaire interne. **Composées :
+la contraction arrive au règlement du solde ; le recours exige un capital que la
+contraction vient de retirer et produit son effet après des années.** C'est le
+mécanisme de Friedman sur un TROISIÈME instrument, par une voie entièrement
+distincte — non plus le délai de transmission monétaire, mais le délai
+biologique. **Le corpus marque qu'il tient ce délai pour évident sans l'avoir
+établi sur aucune source.**
+
+**Enfin P43 limite la face favorable.** La contrainte extérieure n'est pas levée
+mais **rebasée** sur la nature encore fonctionnelle, dotation au moins aussi
+inégalement distribuée que les actuelles. Le transfert vers les pays riches en
+fonds naturels est réel ; **il ne bénéficie pas aux pays pauvres en fonds
+naturels**, souvent les mêmes que ceux que le dispositif entend servir.
