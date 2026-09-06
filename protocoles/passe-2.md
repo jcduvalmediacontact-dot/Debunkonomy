@@ -1909,6 +1909,91 @@ comme des difficultés locales : **c'est une propriété de gouverner par barèm
 barème à venir :** **chacun doit énoncer de quel côté il paie — efficacité ou
 légitimité — et le corpus refusera tout arbitrage qui prétend ne pas payer.**
 
+
+### A24 — L'architecture de la perception — OUVERT le 2026-09-06
+
+**Origine : L11.C21.** La chaîne par laquelle le produit du reflux va du payeur à
+l'institution émettrice **n'a jamais été instruite** : le corpus avait retenu
+comme solide l'argument selon lequel « le mécanisme de perception existe sous la
+forme de la taxe sur la valeur ajoutée », et **aucun chapitre n'avait demandé qui
+perçoit, à qui le produit va, dans quel délai, ni qui contrôle celui qui
+perçoit.** Ni le livre ni le Cahier ne répondent.
+
+**Pourquoi la question existe maintenant et n'existait pas avant.** L'arbitrage de
+l'auteur du 2026-09-05 a retenu la **lecture B** : le produit n'est pas éteint au
+paiement, **il arrive quelque part et y demeure.** Sous la lecture écartée il n'y
+avait ni chaîne, ni délai, ni destinataire.
+
+**CE QUE L'ARBITRAGE DOIT SAVOIR EN PREMIER : l'argument de praticabilité est
+plus faible que le corpus ne l'avait retenu.** La machinerie de la taxe sur la
+valeur ajoutée existe et se transporte — déclaration, autoliquidation, contrôle,
+contentieux. **Son motif ne se transporte pas.** Sous ce régime, l'administration
+perçoit **pour l'État dont elle relève** : le produit alimente son budget, le
+contrôle sert son intérêt. **Ici, elle percevrait pour une institution
+supranationale, sur une somme qui quitte son économie.** Le corpus ne retire pas
+l'argument ; il en réduit la portée.
+
+**Et l'effet redouté n'est pas un refus, ce qui le rend difficile à traiter.** Un
+État qui refuse de percevoir est visible et sanctionnable. **Un État qui perçoit
+sans zèle ne l'est pas** : effectifs de contrôle, priorités d'audit, rythme des
+relances — tout cela relève de son administration intérieure et **aucun engagement
+ne le mesure.**
+
+**UNE FIGURE NOUVELLE DANS LE DOSSIER, et rien ne la traite.** L1.C27 tient le
+passager clandestin pour un non-membre profitant d'un bien collectif, et le
+dispositif y répond par le prélèvement aux frontières et le seuil d'activation
+(P51). **Le passager clandestin interne échappe aux deux** : il est dans le club,
+il applique le barème, et il perçoit à quatre-vingts pour cent.
+
+**L'argument d'Ostrom change de place.** L11.C16 § 5 l'employait sur la fixation
+des valeurs. **Il porte avec plus de force sur la perception** : sur les valeurs,
+il dit que l'organe central décidera mal ; **sur la perception, il dit qu'il ne
+sera pas obéi** — « inherently weak because of **free-rider problems** », ce qui
+est son sens propre.
+
+**Ce que l'arbitrage doit trancher : trois architectures.**
+
+| | L'architecture | Ce qu'elle règle | Ce qu'elle coûte |
+|---|---|---|---|
+| **1** | administrations nationales, remise à l'institution | machinerie existante, coût marginal faible | **le motif ne se transporte pas**, et le contrôle n'a pas d'organe |
+| **2** | **les banques, au règlement** | le flotteur disparaît presque | **change l'assiette** — c'est le prélèvement par paiement, qui frappe le chiffre d'affaires cumulé (L11.C05 § 2). Sort du champ : relève de A10 |
+| **3** | **organe propre** | alignement parfait, le percepteur est le bénéficiaire | **c'est une administration fiscale mondiale**, et L11.C01 § 6 a établi que le dispositif y tend déjà |
+
+**UN MÉCANISME D'ALIGNEMENT EXISTE DANS UN RÉGIME VOISIN, NON OUVERT.** L'Union
+européenne fait percevoir ses ressources propres par les administrations
+nationales **en leur laissant un pourcentage au titre des frais de perception** —
+c'est-à-dire en rendant le percepteur intéressé au produit. **C'est exactement la
+réponse au défaut de motif**, et le corpus refuse de la détailler avant lecture.
+**Portée en acquisition, priorité 2.**
+
+**TROISIÈME DÉLAI DU DISPOSITIF, trouvé par une voie indépendante des deux
+autres.** Entre l'acquittement et la remise, la monnaie n'a pas reflué : **le
+reflux effectif est décalé du reflux comptabilisé**, et le bouclage est donc
+vérifié sur deux flux qui ne coïncident pas dans le temps. Après le délai de
+transmission monétaire (L11.C10, sur Friedman) et le délai biologique de la
+restauration (L11.C16 § 8). **Aucun des trois n'a été cherché ; les trois ont été
+trouvés en instruisant autre chose.** Le corpus note que **les délais sont la
+difficulté structurelle du dispositif**, qu'un chapitre les traitant ensemble
+aurait sa place, et que **le troisième est le seul réglable par décision** — la
+périodicité de remise est un paramètre.
+
+**TREIZIÈME CONDITION-LIMITE, versée à l'inventaire de L11.C03 § 5.**
+
+> **B13 — le délai entre perception et remise ne peut excéder la période sur
+> laquelle le bouclage est vérifié.**
+
+Elle mord **sous tension** : un percepteur dont l'économie se contracte a toutes
+les raisons de retarder une remise qui sort de chez lui, **donc elle est maximale
+au moment où le bouclage est le plus sollicité.** Sept des treize ne mordent que
+sous tension.
+
+**De quel côté cet arbitrage paie**, par l'exigence de rédaction posée en A23 :
+l'architecture 1 paie en **efficacité** — elle perçoit moins bien — ; l'architecture
+3 paie en **légitimité** — elle concentre. Il n'y a pas de branche gratuite.
+
+**Ce qui remonte au Livre 7 :** qui perçoit. **Ce qui n'a de domicile nulle
+part :** qui contrôle le percepteur.
+
 ---
 
 ## Le balayage rétrospectif — ce qu'une passe rend aux passes antérieures

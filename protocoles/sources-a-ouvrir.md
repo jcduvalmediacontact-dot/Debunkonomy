@@ -138,6 +138,7 @@ telle quelle dans Google Scholar ou dans un catalogue de librairie.
 | **1** | `Nordhaus Climate Clubs American Economic Review 2015` | Page personnelle de l'auteur ; version de travail Cowles souvent libre |
 | **1** | `Barrett Self-Enforcing International Environmental Agreements 1994` | Oxford Economic Papers — essayer les dépôts institutionnels |
 | **2** | `Carré Couppey-Soubeyran Coordination politique monétaire macroprudentielle DSGE Revue économique 2015` | cairn.info |
+| **2 — NOUVEAU 2026-09-06** | **Régime des ressources propres de l'Union européenne** : décision (UE, Euratom) 2020/2053 et le pourcentage retenu par les États au titre des **frais de perception** | EUR-Lex. **C'est exactement le mécanisme d'alignement que L11.C21 § 4 identifie comme manquant** — rendre le percepteur intéressé au produit qu'il collecte pour un tiers. Décide A24 |
 | **3** | `Veblen The Theory of the Leisure Class 1899` | Domaine public — Gutenberg, archive.org |
 | **—** | `Rey Dilemma not Trilemma Jackson Hole 2013` | Site de la Réserve fédérale de Kansas City |
 | **1** | `Peters Traitement comptable annulation dette publique banque centrale Institut Rousseau 2021` | institut-rousseau.fr |
