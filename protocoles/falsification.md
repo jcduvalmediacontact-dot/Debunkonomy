@@ -67,6 +67,34 @@ prouvent rien :
 
 ## F1 — La calibration
 
+**QUALIFIÉ LE 2026-09-06, sur le chapitre IX de Tinbergen, ouvert de première
+main.** F1 exige un chiffrage du bouclage. Tinbergen classe les propositions de
+**changement de la structure du système monétaire** dans une catégorie propre,
+la classe (d), et écrit que « the scientific treatment of problems of qualitative
+policy **meets with great difficulties**, especially so if these policies belong
+to groups (d) and (e) », parce que « our empirical quantitative knowledge of
+human behaviour under different structural conditions is **so restricted** ». Il
+conclut que « **empirical research into each of the points (b) — (e) is still
+almost completely lacking** ».
+
+**Ce que cela change à F1, et il faut le dire dans les deux sens.** L'absence de
+chiffrage n'est pas un défaut propre à ce dispositif : **c'est l'état documenté
+du champ pour toute proposition de sa classe**, y compris celles des voisins qui
+chiffrent — leurs nombres portent sur des instruments de classe (b), non sur le
+changement de structure lui-même. **Exiger de ce dispositif ce qu'aucune
+proposition de sa classe n'a jamais produit serait une exigence mal dirigée.**
+
+**Mais F1 n'est pas levé pour autant, et le corpus refuse la dispense.**
+Tinbergen désigne cette absence comme « an **urgent need** » de recherche, non
+comme une excuse. Et il assortit son constat d'un avertissement qui vise ce
+dossier autant que ses voisins : « **most of the literature pretending to solve
+these vital problems is not free from severe speculation and bias** ». **F1 est
+donc maintenu, et sa forme est précisée** : il ne demande plus un chiffrage
+complet — il demande que le dispositif produise, sur son propre bouclage, le
+type de recherche empirique dont Tinbergen constate l'absence. La méthode existe
+et elle est au dossier : intervalles de variation, résolution aux bornes
+(ch. VII § 4).
+
 **Condition d'échec :** qu'aucun couple de paramètres (taux d'émission, taux de
 reflux transactionnel) ne satisfasse simultanément les deux contraintes — un volume d'émission
 suffisant pour financer la régénération à l'échelle où elle est nécessaire, et
@@ -966,6 +994,44 @@ distinctes du Livre 11, dont une instruction explicite de l'auteur. **Les trois
 sont libres en ligne.** Le corpus les tient pour l'acquisition la plus rentable
 du dossier après l'arrêt de 2022, et il enregistre que F7 ne peut pas être
 éprouvé tant qu'ils ne sont pas lus.
+
+**REPESÉ LE 2026-09-05 AU SOIR, après versement de quatre sources procurées par
+l'auteur. LES TROIS JAMBES DE F7 NE PÈSENT PLUS LE MÊME POIDS**, et le corpus
+doit le dire parce que la révision joue en partie contre lui.
+
+| Jambe | Ce que le corpus en disait | Ce qu'elle vaut après lecture |
+|---|---|---|
+| **Lucas 1976** — l'assiette se déforme par anticipation du barème annoncé | la plus forte des trois | **AFFAIBLIE.** Logiquement incontestée — ses contradicteurs eux-mêmes la concèdent — mais son **importance empirique** a été testée et rejetée dans les années 1980 |
+| **Friedman 1968** — délais longs et variables | la moins spectaculaire | **RENFORCÉE, et changée de nature.** Ce n'est pas un retard, c'est une **inversion de signe** : une politique contracyclique à délais longs devient procyclique |
+| **Kydland-Prescott 1977** — incohérence temporelle | fondait F7 et P48 | **CONFIRMÉE au second degré**, mécanisme compris. L'article de 1977 reste à ouvrir |
+
+**Sur Lucas, le détail, parce qu'il compte.** Fischer (1983) : « The general point
+made by the critique is correct [...] That the point has been important
+**empirically**, however, is something that should have been demonstrated rather
+than asserted. » Blinder (1988), sur trois décennies d'autorégressions : aucune
+preuve d'un déplacement des coefficients. Blanchard (1984), sur le changement de
+régime de Volcker — **une politique annoncée, brutale et crue, soit le meilleur
+cas naturel disponible** — : « little evidence of a direct effect of the policy
+change on the Phillips curve ». Source : Goutsmedt, Pinzón-Fuchs, Renault et
+Sergi (2017), versée en L11.C10 [S9].
+
+**Ce que le corpus en conclut, contre lui-même.** Il ne peut plus soutenir que
+l'effet d'anticipation sera **grand**. Il peut soutenir qu'il existe en principe
+et que son ampleur est inconnue. **La jambe Lucas de F7 passe donc de résultat
+établi à possibilité non mesurée.**
+
+**Ce qu'il refuse de conclure, pour ne pas surcorriger.** Ces tests portent sur
+des courbes de Phillips ; la prédiction du corpus porte sur le **calendrier
+d'investissement d'une entreprise devant une échéance réglementaire annoncée**.
+Ce n'est pas la même question. **Ce qui trancherait est ailleurs** : les ruées
+documentées avant changement de taxe, avant date d'interdiction, avant
+durcissement de norme. Le corpus n'en a ouvert aucune. **Nouvelle priorité
+d'acquisition, et elle remplace en partie Lucas 1976 lui-même.**
+
+**Un avertissement de méthode que le corpus s'applique.** Blinder, dans la même
+source : « All you have to do in this country right now is scream mindlessly,
+*Lucas critique !* and the conversation ends. » **Le corpus a invoqué Lucas trois
+fois sans l'avoir lu.** Le reproche porte sur sa propre pratique.
 
 **Condition d'échec :** que le dispositif ne puisse être calibré ni par une
 règle automatique — parce qu'aucune formule ne suit une assiette dont la

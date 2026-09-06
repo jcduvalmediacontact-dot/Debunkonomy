@@ -560,6 +560,29 @@ Voir P45, P46, P47 au registre des promesses.
 
 ### A7 — Règle automatique ou pilotage discrétionnaire — RELEVÉ le 2026-09-04
 
+**PRÉCISÉ LE 2026-09-06, sur le chapitre IV de Tinbergen, ouvert de première
+main. LA « RÈGLE » A UNE FORME, ET ELLE A UN NOM.** Une fois les cibles fixées,
+les valeurs des instruments restent fonctions des **données**, qui changent :
+« the values of the instrument variables are **dependent on those of the
+data** [...] **In this form we shall call these equations "DIRECTIVES FOR
+ECONOMIC POLICY" since they indicate how the political parameters have to be
+varied in relation to the changing data.** »
+
+**Un barème réglé n'est donc pas une table de taux : c'est une directive**, de la
+forme *taux = f(données observées)*. Trois questions du corpus se rejoignent
+là. **A7** opposait règle et pilotage : la directive est la forme de la règle.
+**A15**, tranché par l'auteur, indexe le taux sur la disponibilité constatée du
+substitut : c'est une directive, la donnée étant ce constat. **L11.C06 § 4** a
+établi qu'un barème est trois objets dont le premier est une table : **ce
+premier objet est une directive, non une table.**
+
+**Conséquence de rédaction, et elle vaut pour tout le Livre 11 :** publier des
+nombres, c'est publier le résultat d'une directive pour un état des données
+donné. **Ce qui doit être publié et discuté est la directive.** Un barème qui ne
+publie que ses nombres cache ce qui les produit, et rend indiscutable ce qui
+devrait l'être.
+
+
 **Origine.** Session de travail du 2026-09-04, où l'auteur décrit le pilotage
 envisagé : ajuster les taux de reflux à l'année, avec l'appui de statisticiens,
 d'économistes et de mathématiciens, pour que l'émission égale le reflux.
@@ -660,6 +683,127 @@ intervalle qui dérive.
 **Ce que l'arbitrage demande à l'auteur**, sous la forme d'un tableau à quatre
 colonnes : pour chaque objectif, l'instrument affecté, le statut — **ferme** ou
 **souple** —, et le comportement en cas de conflit avec un autre objectif.
+
+**CORRIGÉ DEUX FOIS LE 2026-09-05, SUR LE TEXTE DE TINBERGEN.** L'auteur a
+procuré l'ouvrage intégral dans la journée ; les chapitres V, VI puis II ont été
+lus. **Le corpus s'est trompé, puis a sur-corrigé, et voici l'état final.**
+
+**Deux notions distinctes portent chez Tinbergen des noms presque identiques**,
+et le compte rendu français les avait fondues. Les ***target conditions*** (ch. V)
+sont **des relations entre les valeurs cibles**, au nombre de t = n − n′. Les
+***conditional targets*** (ch. II) sont **une catégorie d'objectifs**, « as an
+expression of a lower or higher degree of priority that may, under certain
+conditions, be attributed to the various targets ». **Le classement que A9
+demandait est donc bien chez Tinbergen** — le corpus l'avait nié à tort en
+milieu de journée — **et il s'y ajoute une contrainte que A9 ignorait.**
+
+**LA RÈGLE OPÉRATOIRE, ch. VI § 1, et c'est ce qui donne son sens au
+classement.** Quand la solution viole une condition-limite : « **To start with we
+shall, of course, only give up CONDITIONAL targets.** Instead we shall add one or
+more boundary conditions, and it seems the most natural procedure to add those
+particular boundary conditions that were, with the previous set-up of the
+problem, violated. » **Classer un objectif comme conditionnel, c'est désigner
+d'avance ce qu'on abandonnera.**
+
+**LE MODE D'ÉCHEC TERMINAL, que le corpus n'avait pas.** « There is, however, no
+guarantee that the new solution will be acceptable. **If the number of violated
+boundary conditions surpasses the number of conditional targets**, it may also be
+impossible to reformulate the problem beforehand [...] The case may therefore
+present itself that **no solution to our policy problem, however restricted by
+the elimination of conditional targets, exists.** » **C'est un risque réel pour
+ce dispositif**, qui accumule les conditions-limites — légalité de la
+consolidation, étanchéité du périmètre, non-régressivité, prix des essentiels,
+protection des petits producteurs. **Si elles sont plus nombreuses que les
+objectifs qu'on accepte d'abandonner, il n'y a pas de politique.**
+
+**LA MÉTHODE, quand les conditions-limites mordent.** « Generally speaking the
+number of possibilities is large and it is, as a rule, difficult if not
+impossible to study them or detect them in a systematic way. **It is by trial and
+error, albeit perhaps by a somewhat systematicised trial and error method, that
+we have to proceed.** » Le tâtonnement n'est donc pas un pis-aller de concepteur
+paresseux : **c'est la seule méthode disponible dans le cas où se trouve le
+dispositif**, ce qui conforte l'instruction de progressivité de l'auteur (A15).
+
+**LA MÉTHODE POUR CHIFFRER SANS AVOIR LES NOMBRES, ch. VII § 4, lue le
+2026-09-06. C'est le versement le plus utile de tout le dépouillement.**
+
+Le corpus répète depuis L11.C02 qu'il n'a **aucune borne empirique** : trois
+facteurs au rendement du reflux, aucun connu. Il en tirait qu'aucun chiffrage
+n'était possible. **Tinbergen établit que c'est faux, et donne le procédé.**
+
+« As to the consequences of possible errors in the numerical values assumed for
+the coefficients, **a simple practical procedure is to indicate VARIATION
+INTERVALS for these coefficients and to solve the problems for different extreme
+values of these coefficients.** » Il le fait sur son propre exemple — six jeux de
+coefficients extrêmes — et constate que la solution pour un instrument varie de
+−0,037 à −0,039, « **evidently the variance in ξ₀ is very small in this
+particular case** », tandis que pour un autre instrument « the variance [...] is
+larger ».
+
+**Ce que cela change pour le Livre 13, et c'est considérable.** On ne cherche
+pas les valeurs vraies des trois facteurs : **on pose un intervalle plausible
+pour chacun, on résout aux bornes, et on regarde lesquels des résultats sont
+robustes.** Un résultat identique aux six coins de l'intervalle est acquis même
+si aucun facteur n'est connu. Un résultat qui change de signe entre deux coins
+désigne exactement la grandeur qu'il faut aller mesurer. **Le chiffrage cesse
+d'être bloqué par l'ignorance : l'ignorance devient l'objet du calcul.**
+
+**Deux garde-fous que Tinbergen ajoute et que le corpus retient.**
+*Contre la fausse précision* : « one would not write more decimal places for the
+values [of the instruments] than for those of [the target] and therefore avoid
+such suggestions of false accuracy ». *Contre la linéarité indue*, avec un test
+qu'il attribue à Frisch : si le coefficient du terme du premier degré est du
+même ordre que la variation visée de l'objectif, le terme du second degré est du
+même ordre que le premier et **l'approximation linéaire est très inexacte** —
+« this may easily be tested ». Règle générale : l'ordre de grandeur des
+coefficients de la solution **doit être supérieur** à celui des objectifs et des
+données. **Le corpus tenait la linéarité pour une réserve sans test ; il a le
+test.**
+
+**UNE CATÉGORIE QUE LE COMPTE DE L11.C03 IGNORAIT.** Tinbergen distingue des
+grandeurs introduites « in the form of **conditions** [...] since they are **not
+in themselves elements of well-being but rather technical expressions of a
+"sound policy"** » — son exemple étant le solde de la balance des paiements.
+**Le bouclage volumétrique (O5) est de cette espèce**, et la collision O1 contre
+O5 relevée en L11.C03 § 4 n'oppose donc pas deux objectifs de même rang : elle
+oppose **un objectif de bien-être à une condition de solidité**.
+
+*Ce que le corpus avait compris.* « Objectifs-conditions » désignerait des
+objectifs à préserver en priorité — donc un classement, ferme contre souple.
+
+*Ce que Tinbergen écrit.* Les **target conditions** sont **des relations que les
+valeurs cibles doivent satisfaire** : « the values to be chosen for the target
+values have to satisfy these conditions if the problem of policy is to be
+soluble at all. **Targets are not free then** ; had they been chosen otherwise,
+they would have been *incompatible* among themselves and their set would be
+*inconsistent* » (ch. V, § 3). Leur nombre est **t = n − n′**, l'excédent
+d'objectifs sur les instruments.
+
+**Ce que A9 demande devient donc plus précis, et plus exigeant qu'un
+classement.** Non pas « quels objectifs sont fermes », mais : **quelles
+relations les valeurs visées doivent-elles satisfaire pour que l'ensemble soit
+seulement soluble ?** Deux objectifs de plus que d'instruments, c'est deux
+relations entre les valeurs. Choisir les valeurs sans elles ne donne pas une
+politique difficile : **cela donne un ensemble inconsistant.**
+
+**ET LE COMPTE EST PLUS DÉFAVORABLE QUE CELUI DE L11.C03.** Tinbergen établit
+que **les conditions-limites entrent dans le compte des objectifs** : « the
+addition of these boundary conditions [...] means in fact that **we add one or
+two conditions and hence have 5 or 6 targets against 4 instruments** », et
+« boundary conditions play **a much more important rôle than is often
+believed** ». Or le corpus traitait comme des contraintes extérieures au compte
+l'étanchéité du périmètre (P29), la légalité de la consolidation (L1.C21 § 6)
+et le refus de frapper qui ne peut pas prouver (A11). **Ce sont des objectifs de
+plus.** Travail préalable à A9, et il est mécanique : **dresser la liste
+complète des conditions-limites du dispositif**, puis recompter.
+
+**UN RÉSULTAT FAVORABLE, du même chapitre.** Tinbergen ne dit pas seulement
+qu'il faut ajouter des instruments : il dit que l'analyse d'une incompatibilité
+peut **en faire apparaître un**. Et son exemple travaillé est celui du
+dispositif — deux objectifs contradictoires exigeant l'un un taux bas, l'autre
+un taux élevé, et la sortie est « **conceiving a variable tax rate** which need
+not be a high rate then ». **Un barème modulé n'est donc pas un contournement
+de la règle de comptage : c'est le remède que son auteur recommande.**
 
 **PRÉCISÉ le 2026-09-05, sur sources procurées le jour même.** Trois apports
 modifient la forme de l'arbitrage sans en changer l'objet.
@@ -807,6 +951,33 @@ son contraire, sans qu'aucun réglage ne les sépare : l'effet de position
 **Trois occurrences suggèrent une propriété générale plutôt que trois défauts
 locaux.** À nommer avant la fin de la passe 1.
 
+**AJOUT DU 2026-09-06, chapitre X de Tinbergen, et il éclaire le biais sans
+l'excuser.** Parmi les facteurs **techniques** qui façonnent à bon droit une
+mesure, Tinbergen range « the **costs** of their realisation, the **delays** to
+be expected or the **number of subjects to be affected** », avec l'exemple :
+entre deux mesures dont l'une « **hits a large number of people and may
+therefore be costly** » et l'autre « affects few and therefore is less costly »,
+on choisit la seconde — les taxes ou allocations portant sur des biens
+« produced in **few, but large establishments** ».
+
+**C'est la justification administrative de la valeur par défaut, et c'est aussi
+le mécanisme du biais que L11.C09 a trouvé.** Frapper peu d'acteurs, grands et
+documentés, coûte moins à administrer que d'en atteindre beaucoup. **Le biais de
+concentration n'est donc pas un oubli : c'est ce que l'efficacité administrative
+recommande.** Cela change la nature de la correction demandée en A14 : il ne
+s'agit pas de réparer une négligence, **il s'agit de payer délibérément un
+surcoût administratif pour atteindre ceux que l'efficacité conseille
+d'ignorer.** C'est un arbitrage politique et il doit être présenté comme tel.
+
+**Tinbergen nomme aussi la situation du corpus.** Parmi les facteurs « of a more
+doubtful nature » il place le **manque de données** : « it often means that
+**rather arbitrary decisions have to be taken instead of decisions that are
+based on economic principles**. Economies effected by the government are often
+for lack of better data distributed **proportionally** over a number of items ;
+or **intuitive methods** are applied to estimate priority. » **Une valeur par
+défaut est cela même** — et le dispositif doit l'assumer comme une décision
+arbitraire assumée, non la présenter comme une mesure.
+
 **Ce qui bloque A11.** Le règlement pris pour modèle n'a pas été ouvert. Tant
 qu'on ignore sur quelle population de référence sa valeur par défaut est
 établie et ce que coûte sa procédure de révision, l'arbitrage se pose sans son
@@ -826,6 +997,25 @@ part, et **aucune des trois positions possibles n'est bonne**.
 
 **Aucune ligne n'a trois oui.** Le choix n'est donc pas un réglage à optimiser :
 c'est un arbitrage entre trois défauts, et il appartient à l'auteur.
+
+**UNE REQUALIFICATION QUE LE CORPUS SE DOIT, versée le 2026-09-06 sur le
+chapitre X de Tinbergen.** Le corpus a traité l'obstacle juridique comme **une
+gêne à contourner**, et il a cherché le nœud de prélèvement qui l'évite.
+Tinbergen range ce genre de facteur parmi ceux qui co-déterminent la politique
+**à bon droit** : « a sound policy has to satisfy certain **principles** [...]
+laid down in the constitution or in the laws : **equality of all citizens in
+questions of jurisdiction generally**, and to quote an economic example, in
+taxes », et « an example of a purely **juridical** factor that will often be the
+determinant [...] is the necessity to **respect contracts or agreements**,
+national as well as international ».
+
+**Ce n'est donc pas un obstacle, c'est une condition-limite légitime** — et
+L11.C03 a établi le même jour, sur le chapitre V, que **les conditions-limites
+comptent comme des objectifs**. Deux conséquences. **A12 ne se règle pas en
+trouvant l'astuce qui évite le droit** : un contournement doit être défendable
+au même titre que le barème lui-même. Et **le nœud « réserves bancaires » cesse
+d'être neutre** : il n'évite pas seulement une difficulté administrative, il
+évite une exigence d'égalité devant l'impôt, ce qui est un choix à énoncer.
 
 **Ce qui pourrait rouvrir la première ligne, et c'est la vérification la plus
 rentable du dossier.** Le corpus fait dire à l'arrêt de 2022 que la
@@ -940,6 +1130,23 @@ les sépare.
 occurrence : dans les quatre cas, **l'effet contraire porte sur l'assiette ou
 sur l'incidence, jamais sur l'effet direct.** L'instrument fait bien ce qu'on
 lui demande ; ce qui se dégrade est ce sur quoi il s'appuie, ou qui le supporte.
+
+**SIXIÈME OCCURRENCE, versée le 2026-09-06 sur le chapitre IX de Tinbergen, et
+elle porte sur le remède lui-même.** Le chapitre V prescrit d'ajouter des
+instruments pour lever une incompatibilité. Le chapitre IX établit ce que cela
+coûte : « policies with a **small** number of instruments tend to use
+**overall-instruments of an objective nature**, judging each individual case on
+the basis of well-defined objective criteria. Policies with a **large** number of
+instruments will tend to **detailed controls and to discriminatory treatment of
+individual cases**. »
+
+**Le curseur est ici le nombre d'instruments.** L'augmenter lève
+l'incompatibilité du comptage — effet recherché — et pousse le dispositif vers
+le contrôle détaillé et le traitement discriminatoire au cas par cas — effet
+contraire, et c'est exactement ce que F7 condamne sous le nom de pilotage
+discrétionnaire. **Le remède au déficit d'instruments aggrave le problème de la
+règle contre le pilote.** Sixième occurrence, et la première qui frappe une
+solution plutôt qu'un instrument.
 
 **Pourquoi ne pas nommer tout de suite.** Quatre occurrences dans un seul livre
 peuvent tenir à la manière dont ce livre est écrit plutôt qu'à une propriété du
@@ -1079,4 +1286,94 @@ déclenche la hausse.** A4 la reçoit, et elle n'est plus hypothétique.
 ouvertes sur lesquelles le chapitre repose, et il ne supprime pas le constat que
 **la durée seule ne rend pas la progressivité équitable** — une trajectoire
 longue profite d'abord à qui peut investir pendant qu'elle court.
+
+**5. CONFORTÉ LE 2026-09-06, sur le chapitre X de Tinbergen.** L'arbitrage rendu
+par l'auteur n'est pas une invention : **il figure dans la typologie reçue des
+remèdes à l'incertitude.** Tinbergen en énumère trois — « uncertainty sometimes
+is removed by (a) **choosing some average** [...] or (b) **WAITING FOR SOME
+IMPORTANT DECISIVE FACTOR THAT IS AS YET UNKNOWN**, or (c) the application of the
+**rule of simplicity** (e.g. taking an integer number for a price to be fixed by
+government if the relevant interval is only known approximately) ».
+
+**(b) est exactement la trajectoire indexée** : on n'arrête pas la date, on
+attend le facteur décisif — la disponibilité du substitut. L'auteur a retrouvé
+seul l'une des trois voies que la théorie nomme.
+
+**Et (c) répond à deux questions ouvertes du livre.** La règle de simplicité —
+prendre un nombre entier quand l'intervalle n'est connu qu'approximativement —
+est la réponse au « combien de classes » de A10 et de L11.C06 § 3, et le pendant
+du refus de la fausse précision du chapitre VII. **Elle a un second motif, qui
+n'est pas épistémique mais politique** : parmi les facteurs qui influencent la
+politique **à tort**, Tinbergen range « **the aversion of the complex** : many
+officials [...] dislike to accept somewhat more complicated reasonings or the
+results of calculations even if from the scientific point of view they are
+decidedly better than the rules of thumb often accepted before ». **Un barème
+plus juste mais plus complexe peut être rejeté pour cette seule raison. La
+simplicité n'est pas qu'une hygiène : c'est une condition d'adoption**, et le
+corpus ne l'avait inscrite nulle part.
+
+### A16 — La légitimation de l'organe qui arrête les valeurs — OUVERT le 2026-09-05
+
+**Origine : L11.C11**, qui rassemble les questions que quatre chapitres avaient
+poussées vers A4 et montre qu'elles ne portent pas sur le même objet.
+
+**LA DÉCOMPOSITION, et c'est l'apport qui dissout le caractère binaire de A4.**
+Arrêter un barème n'est pas une décision mais **quatre**, de natures
+différentes, qui n'appellent pas la même institution.
+
+| | L'acte | Nature | Rythme |
+|---|---|---|---|
+| **D1** | Fixer la **méthode** | règle | rare, quasi constitutionnel |
+| **D2** | Fixer les **valeurs** | norme | périodique |
+| **D3** | **Constater** qu'un substitut est disponible | fait | continu, sectoriel |
+| **D4** | **Trancher un recours** | juridiction | au cas par cas |
+
+**Le livre n'en distingue aucune**, et c'est ce qui rendait A4 insoluble tant
+qu'il était posé comme un choix d'échelle.
+
+**CE QUE LA DÉCOMPOSITION RÈGLE.** La contrainte tirée de Mundell — le rendement
+doit être uniforme sur le périmètre, sinon l'écart est arbitré — **ne porte que
+sur D2**. D'où une réponse à A4 que ni l'une ni l'autre de ses branches ne
+portait : **valeurs centralisées, constats et recours décentralisés.** C'est le
+principe d'affectation appliqué à la gouvernance elle-même. *(Réserve : la
+contrainte est transposée d'un résultat sur les taux d'intérêt ; elle vaut pour
+le demurrage, elle n'est pas établie pour le prélèvement sur les transactions —
+il se pourrait donc que seul le second ressort doive être uniforme. L11.C04 a
+été précisé en conséquence.)*
+
+**CE QUE LA DÉCOMPOSITION N'ÉLIMINE PAS, et c'est l'objet de A16.** P52 vise
+**exactement la même décision que Mundell, en sens contraire** :
+
+> **Les valeurs doivent être uniformes** — sinon l'écart est arbitré et le
+> dispositif se vide.
+> **Des valeurs uniformes décident de la souveraineté** — et aucune légitimité
+> ne les fonde.
+
+**Deux issues, et deux seulement.** Légitimer l'organe qui arrête les valeurs —
+c'est A16. Ou rompre le lien entre le barème et l'équilibre extérieur établi en
+L1.C27 — **ce qui sacrifierait la face favorable de P52**, c'est-à-dire la
+meilleure réponse du livre à l'objection extractiviste. La seconde issue coûte
+plus cher qu'il n'y paraît.
+
+**CE QUE LE CORPUS A POUR RÉPONDRE : rien, et son seul précédent est
+décourageant.** L'allocation de DTS de 2021 a réparti l'équivalent de 650
+milliards de dollars au prorata des quotes-parts, dont **environ 3,3 % aux pays
+à faible revenu** (P31). C'est le seul organe mondial existant qui arrête une
+clé chiffrée, et sa clé produit l'inverse du but poursuivi. **Trois précédents
+publics restent à ouvrir** : quotes-parts du Fonds et leur révision, règle d'une
+voix par membre à l'OMC et ce qu'elle produit en pratique, rotation du conseil
+des gouverneurs de la BCE.
+
+**À TRAITER AVEC P31.** Les deux demandent la même chose : **une règle de
+représentation qui ne reconduise pas le poids économique.** Les traiter
+séparément produirait deux réponses possiblement incohérentes.
+
+**Une règle que le chapitre énonce et qui ne dépend d'aucun arbitrage.** Si la
+trajectoire est indexée sur un constat (A15), **ce constat doit être aussi
+public et aussi contestable que la table elle-même.** D3 est la décision la plus
+exposée à la capture — technique, sectorielle, répétée, et de conséquence
+monétaire immédiate : *déclarer qu'un substitut n'est pas encore disponible,
+c'est repousser la hausse sans avoir à la contester.* **Un barème publié adossé
+à des constats opaques n'est pas une règle : c'est un pilotage discrétionnaire
+déguisé, et il tombe sous F7 par la porte de service.**
 
