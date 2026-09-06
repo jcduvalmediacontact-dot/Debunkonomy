@@ -47,7 +47,8 @@ en déplaçant la ligne, non en la dédoublant.
 | **9** | Atlas comparé des économies du monde | **0** | **0** | **0** | **nulle** |
 | **10** | Monnaies, banques et banques centrales dans le monde | **0** | **0** | **0** | **nulle** |
 | **4** | Les Cahiers Humanistes | **0** | **0** | **0** | **nulle** |
-| — | **ORPHELINS** | **1** | **F4** | — | — |
+| **20** | Droit international public, monétaire et commercial | 0 | **F4** | — | **à établir** |
+| — | **ORPHELINS** | **1** | — | — | — |
 
 ---
 
@@ -274,11 +275,33 @@ l'institution qui l'arrête. P32, P33, P57 et A5 passent au Livre 7. Le 12 (ODD)
 l'approche par les objectifs, ce qui n'est pas le même objet, et reste un
 concours secondaire.
 
-### F4 — Le droit monétaire et commercial
+### ~~F4 — Le droit monétaire et commercial~~ — ROUTÉ VERS LE LIVRE 20
 
-Articles 123 et 130 du traité, statuts des banques centrales, conformité de
-l'ajustement aux frontières au droit du commerce international. Le 6 est le
-droit **de la nature**.
+**DÉCISION DE L'AUTEUR, 2026-09-06** : « il faut produire un livre sur le droit
+international public et son éventuelle évolution avec NEMO IMS ». **Le Livre 20
+est déclaré**, et F4 cesse d'être le seul falsifieur du corpus sans livre.
+
+**Ce que la décision élargit.** Le corpus proposait ce matricule depuis
+`plan-directeur-propose.md` sous un objet plus étroit — le droit monétaire et
+commercial de la réforme. **L'auteur y ajoute le droit international public et
+son évolution**, ce qui change la nature du livre : il ne s'agit plus seulement
+de vérifier la conformité d'un dispositif à un droit donné, **mais d'instruire
+ce que ce droit devrait devenir.**
+
+**Trois blocs, tels que les chapitres antérieurs les ont fait apparaître.**
+**L'existence** — traité constitutif, personnalité juridique d'une organisation
+émettrice, immunités, régime des différends : L7.C01 et L7.C03 établissent que
+le corpus **n'a aucune source** dans ce champ. **L'interdiction** — articles 123
+et 130, statuts des banques centrales et du Fonds, voies de révision : L1.C18
+§ 6 déclare ce point **à trancher avant tout exposé du mécanisme d'émission**.
+**La conformité** — l'ajustement aux frontières au regard du droit du commerce
+international, ouvert par L1.C27 § 4 et repris par L11.C24.
+
+**Une charge qui vient d'ailleurs et que la table doit enregistrer.** L7.C10 § 5
+a établi que la capture des instituts statistiques passe par la mise en cause
+personnelle, et que **l'immunité légale des cadres techniques** reste absente du
+dispositif. C'est une question de droit international public : elle revient au
+Livre 20, non au Livre 7.
 
 ---
 

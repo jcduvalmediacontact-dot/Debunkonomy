@@ -370,9 +370,9 @@ livres:
       - "discipline — gouvernance des autorités non élues"
       - "objection — P15 (légitimité, versant autorisation), P16 (régime des services), P19b (connaissance dispersée)"
       - "périmètre — P32, P33, P57 et A5, ROUTÉS ICI le 2026-09-06 par arbitrage de l'auteur : ce que le dispositif finance relève de l'institution qui l'arrête"
-    statut: hypothese
-    chapitres_annonces: 36
-    chapitres_acquis: 12
+    statut: defrichage
+    chapitres_annonces: 22
+    chapitres_acquis: 22
     source: >
       L'économie de l'équilibre, chapitre 7 « Le GAÏA Economic Symposium »
       (p. 131-156). Le dossier Drive du livre 7 est vide.
@@ -648,6 +648,45 @@ livres:
       dont dépend toute l'allocation de L1.C18 § 5 : si le solde national ne
       peut pas être calculé avec une incertitude compatible avec un versement,
       le mécanisme ne fonctionne pas.
+
+  - livre: 20
+    titre: "Droit international public, droit monétaire et commercial de la réforme"
+    collection: cahier-disciplinaire
+    fonction: >
+      Établir sous quel régime juridique NEMO IMS peut exister, ce que le droit
+      positif lui interdit aujourd'hui, et par quelles voies ce droit devrait
+      évoluer pour le rendre possible — la question n'étant pas seulement la
+      conformité du dispositif au droit, mais l'évolution du droit avec lui
+    motifs:
+      - "falsifieur — F4, seul falsifieur du corpus sans livre depuis l'établissement de la table de routage"
+      - "objection — L1.C27 § 4 : le livre affirme que l'équivalence stricte « garantit sa conformité aux règles du commerce international », et l'affirmation n'est pas instruite"
+      - "verrou — articles 123 et 130 du traité sur le fonctionnement de l'Union européenne, que L1.C18 § 6 déclare à trancher AVANT tout exposé du mécanisme d'émission"
+      - "manque — L7.C01 et L7.C03 : le corpus ne tient AUCUNE source de droit international public, et c'est une lacune de nature différente de celles du Livre 11, qui étaient économiques"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      OUVERT LE 2026-09-06 SUR DÉCISION DE L'AUTEUR. Le corpus proposait déjà ce
+      matricule depuis protocoles/plan-directeur-propose.md, sous un objet plus
+      étroit — « Droit monétaire et commercial de la réforme ». L'auteur a
+      élargi : « un livre sur le droit international public et son éventuelle
+      évolution avec NEMO IMS ». L'élargissement est retenu et il change la
+      nature du livre : il ne s'agit plus seulement de vérifier la conformité
+      d'un dispositif à un droit donné, mais d'instruire ce que ce droit devrait
+      devenir. Le Livre 6 traite le droit DE LA NATURE ; le droit international
+      public, monétaire et commercial est un corpus distinct, avec ses sources
+      et ses juridictions.
+      TROIS BLOCS À INSTRUIRE, tels que les chapitres antérieurs les ont fait
+      apparaître. L'EXISTENCE : traité constitutif, personnalité juridique d'une
+      organisation émettrice, immunités, régime des différends — L7.C01 et
+      L7.C03 établissent que le corpus n'a rien. L'INTERDICTION : articles 123
+      et 130, statuts des banques centrales et du Fonds, voies de révision.
+      LA CONFORMITÉ : l'ajustement aux frontières au regard du droit du commerce
+      international, question ouverte par L1.C27 § 4 et reprise par L11.C24.
+      LE LIVRE 19 RESTE PROPOSÉ ET NON DÉCLARÉ — comptabilité monétaire de
+      l'émission sans dette, P55 et P56. Son matricule n'est pas brûlé par la
+      présente déclaration : les matricules ne se réattribuent pas, et 19
+      demeure disponible pour l'objet auquel la proposition le destine.
 
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #

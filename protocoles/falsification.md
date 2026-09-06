@@ -1117,6 +1117,42 @@ source ouverte**, alors qu'il dispose de Keynes *CW* XXV et d'Eichengreen, tous
 deux acquis et dépouillés sur d'autres points. **C'est une piste pour F6, pas
 une donnée**, et rien n'en doit sortir hors corpus avant vérification.
 
+---
+
+### CORRECTION DU 2026-09-06 — LA VOIE DE SORTIE DE F6 N'EST PLUS DOCUMENTÉE
+
+**Gourinchas et Rey 2005 a été OUVERT par téléchargement direct, et il ne
+contient pas le résultat que le corpus lui attribuait depuis trois emplois.**
+
+**Ce que le corpus en disait** : le devoir exorbitant, par lequel l'émetteur de
+réserve est assureur du monde et supporte des pertes en capital massives en
+crise — **fondant la seule stratégie d'adoption plus solide que l'attente d'une
+fenêtre** : identifier le moment où la charge excède l'avantage.
+
+**Ce que l'article dit** : « We find strong evidence of a sizeable **excess
+return of gross assets over gross liabilities** [...] mainly due to a "**return
+discount**" [...] a "**composition effect**": the US tends to **borrow short and
+lend long**. » Le pays du centre **gagne** à sa position ; l'article décrit un
+passage « from a World Banker into a **World Venture Capitalist** ». **Recherche
+sur le texte intégral : « insurance » n'y figure aucune fois**, non plus que
+« exorbitant duty » ou « world insurer ».
+
+**Conséquence pour F6.** La condition d'échec exige qu'aucun mécanisme ne soit
+identifié par lequel la position du créancier lui deviendrait assez coûteuse
+pour qu'il s'en retire. **Le seul mécanisme que le corpus tenait repose sur une
+source qui établit l'inverse** : l'avantage est réel, mesuré, et il a **augmenté
+après l'effondrement du système de changes fixes**. **F6 n'a donc plus de voie
+de sortie documentée.**
+
+**Ce qui reste possible.** Le résultat existe probablement — il appartient à un
+travail postérieur des mêmes auteurs, **que le corpus ne détient pas et n'a
+jamais cherché**. Porté en acquisition, priorité 1.
+
+**Le mécanisme de l'erreur, parce qu'il est instructif.** Trois emplois, zéro
+ouverture, et une attribution faite **sur un titre** : « exorbitant privilege »
+figure dans le titre de 2005, « exorbitant duty » dans celui d'un autre travail.
+**La proximité des titres a suffi.** Quinzième autocorrection du corpus.
+
 ## F7 — Le pilotage
 
 **ÉLARGI le 2026-09-05, après L11.C10.** F7 a été écrit pour porter sur le MODE
