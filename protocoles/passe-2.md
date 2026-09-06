@@ -2770,3 +2770,162 @@ démarrage — financeur identifié, contribution plafonnée, **droits éteints 
 date fixée d'avance**, sur le modèle du délai d'entrée en vigueur versé par
 L8.C31 § 6. Le but n'est pas d'empêcher que le financeur ait du pouvoir, ce qui
 est inévitable, **mais que ce pouvoir soit borné dans le temps.**
+
+
+---
+
+### Balayage n° 5 — passe 1 du Livre 20 sur tout ce qu'il touche
+
+**Livre 20 ouvert et clos le 2026-09-06, vingt-trois chapitres, six instruments
+ouverts par téléchargement direct le même jour.** Le balayage porte sur les
+Livres 1, 7, 8 et 11, et il rend plus qu'il ne prend — ce qui n'était arrivé à
+aucun des quatre balayages précédents.
+
+| Ce que le balayage produit | Combien | Lesquelles |
+| --- | --- | --- |
+| Promesses ou affirmations **fermées** | 2 | L1.C27 § 4 (l'équivalence stricte EST le texte) ; L1.C18 § 6 (le verrou est tranché, après coup et partiellement) |
+| Constructions du corpus **corrigées par un texte en vigueur** | 3 | L7.C06 (la double majorité existe depuis 1944) ; L7.C09 (une addition suffit là où le corpus posait une racine carrée) ; L7.C05 (une liste de pouvoirs réservés fait mieux que quatre chambres) |
+| Blancs **comblés par un mécanisme éprouvé** | 4 | L11.C15 (porteur d'une révision de parité) ; L11.C25 (certificateur doublement indépendant) ; L7.C11 (financement de la phase de constitution) ; L7.C12 (première marche de la séquence) |
+| Demandes routées ici et **NON résolues** | 1 | L7.C10 § 5 — l'immunité des cadres techniques : trois textes, trois techniques, **le même angle mort** |
+| Objections **aggravées** | 2 | La qualification juridique de l'unité émise ; l'instabilité de toute sanctuarisation |
+
+**LE RÉSULTAT QUI COMMANDE LE RESTE, ET IL EST FAVORABLE.** Les verrous
+procéduraux sont **faibles**. L'article 20 des statuts du SEBC — logé dans la
+liste que l'article 106 § 6 du traité rend modifiable à la majorité qualifiée
+**sans avis conforme du Parlement** — autorise le conseil des gouverneurs à
+décider **aux deux tiers** de « such other operational methods of monetary
+control as it sees fit ». La seule réserve tient en trois mots : « **respecting
+Article 2** ». **Le mur est une porte, avec une serrure, et la serrure est la
+hiérarchie des objectifs.** Tout ce que le corpus doit obtenir dans l'ordre
+juridique européen tient en un point, et ce point n'est ni la prohibition du
+financement monétaire, ni le monopole d'émission, ni la lourdeur des traités.
+
+**CE QUE CELA IMPOSE AU CORPUS EN RETOUR.** L20.C03 a établi que le mandat étroit
+applique une théorie que le corpus tient pour valide ailleurs. **On ne peut pas
+demander l'égalisation des rangs sans fournir, pour l'objectif écologique, une
+règle aussi contraignante qu'une cible d'inflation.** Le corpus a produit cette
+règle — les barèmes du Livre 11 — **et ne l'a jamais revendiquée sous cet
+angle.** C'est un travail de présentation, pas de conception, et il est à faire.
+
+**CE QUE LE BALAYAGE REND À LA DERNIÈRE SECTION DE CE FICHIER.** L'arbitrage sur
+le financement du démarrage se terminait sur ce qu'il devait « encore couvrir » :
+une règle propre à la phase de démarrage, **financeur identifié, contribution
+plafonnée, droits éteints à une date fixée d'avance**. Le mécanisme existe et il
+est plus simple que ce que le corpus cherchait. **Statuts du Fonds, article XX
+§ 2 (d)** : chaque gouvernement signataire verse **un cent-millième** de sa
+souscription totale, le dépositaire le conserve sur un compte spécial, le
+transmet à l'institution à sa première réunion — **et le restitue si l'accord
+n'est pas en vigueur à une date écrite dans le traité.** Contribution plafonnée
+par construction (proportionnelle à la souscription future), financeur identifié
+(tous les signataires), **droits éteints par la restitution.** Le financeur
+n'acquiert rien parce qu'il n'avance presque rien : le montant sert aux frais
+administratifs, pas au capital. **P52 et la crainte du financeur unique tombent
+si le démarrage est financé ainsi.**
+
+**CE QUE LE BALAYAGE NE FAIT PAS, ET IL FAUT LE DIRE.** Il n'annote aucun
+chapitre des Livres 1, 7, 8 et 11. Les correspondances ci-dessus sont
+enregistrées ici et **dans les chapitres du Livre 20 seulement** ; les chapitres
+visés continuent de porter leur état antérieur. **C'est la charge de la passe
+suivante**, et elle est lourde : six chapitres du Livre 7 et trois du Livre 11
+sont touchés.
+
+**DEUX AVERTISSEMENTS À PORTER PLUS HAUT QUE CE FICHIER.**
+
+**Premier — aucune sanctuarisation observée n'a tenu.** L20.C17 : l'article
+311 § 6 de la convention de 1982 interdit d'amender le principe du patrimoine
+commun **et** d'être partie à tout accord y dérogeant ; l'article 309 interdit
+les réserves. **Trois verrous coordonnés, contournés en douze ans** par un accord
+de 1994 qui ne s'appelle pas un amendement — il s'appelle un accord
+d'application — et qui dispose qu'en cas d'incompatibilité **ses dispositions
+l'emportent.** Motif écrit au préambule : les approches de marché, et le
+ralliement de ceux qui refusaient d'adhérer. **La clause n'a pas été violée : on
+a changé ce à quoi le principe se combine.** L7.C13 fait de la sanctuarisation la
+condition sine qua non de l'émergence des unités ; elle est réalisable, **elle
+n'est pas stable**, et le motif du contournement est exactement celui qu'un
+dispositif mondial invoquerait.
+
+**Second — le corpus tient trois textes fondateurs sans la transaction qui les a
+rendus applicables.** Statuts du Fonds de 1944 (avant 1969 et 1978), régime des
+fonds marins de 1982 (avant l'accord de 1994), traité européen d'avant Lisbonne.
+**Pour un seul des trois la transaction a été trouvée — et elle a inversé la
+conclusion du chapitre.** Il n'y a donc aucune raison de supposer que les deux
+autres seraient anodins. **Les chercher est prioritaire sur toute nouvelle
+lecture.**
+
+---
+
+## Arbitrage A30 — la qualification juridique de l'unité émise, et le corpus n'en a aucune
+
+**2026-09-06, à l'issue de la passe 1 du Livre 20.**
+
+**Ce que le livre a établi.** L20.C02 : la prohibition du financement monétaire
+vise trois opérations — le découvert, le crédit sous toute autre forme, et
+l'acquisition directe d'un instrument de dette auprès d'un émetteur public.
+**Une unité qui n'est le crédit de personne ne tombe sous aucun des trois**,
+puisqu'il n'y a pas d'instrument de dette. Lue littéralement, la prohibition ne
+l'atteint pas.
+
+**Et l'objection ne disparaît pas : elle se déplace.** Elle passe de « ce que la
+banque centrale a le droit de faire » à « **ce que l'unité émise est en
+droit** » — titre de créance, réserve, instrument sui generis, moyen de
+paiement. **Le corpus n'a jamais qualifié juridiquement l'unité NEMO, en
+soixante-dix-huit chapitres.**
+
+**Pourquoi cela ne peut plus attendre.** Trois chapitres du Livre 20 butent sur
+cette absence. L20.C02 ne peut pas dire si la prohibition s'applique. L20.C05 ne
+peut pas dire ce que vaut une unité sans cours légal — **elle ne libère pas le
+débiteur, donc elle ne circule que par consentement**, et le corpus ne tient
+aucun régime de monnaie complémentaire. L20.C11 ne peut pas dire si l'immunité
+fiscale des titres émis par une institution internationale la couvre.
+
+**Ce que l'arbitrage doit trancher, et c'est une décision de fond, pas de
+rédaction.** L'unité est-elle (i) un titre de créance sur l'institution
+émettrice — auquel cas elle est une dette, et L1.C20 tombe ; (ii) un avoir de
+réserve créé ex nihilo et alloué, sur le modèle du droit de tirage spécial —
+auquel cas le précédent existe et il faut l'ouvrir ; (iii) un instrument sui
+generis créé par le traité — auquel cas le traité doit le définir, et personne
+ne peut le qualifier avant lui. **Le corpus penche pour (ii) et ne détient pas
+l'amendement de 1969 qui a créé les droits de tirage spéciaux.** Acquisition
+prioritaire.
+
+---
+
+## Arbitrage A31 — la protection interne des cadres techniques n'a aucune solution documentée
+
+**2026-09-06, à l'issue de la passe 1 du Livre 20.**
+
+**L7.C10 § 5 avait routé vers le Livre 20 l'immunité légale des cadres techniques
+pour leurs avis méthodologiques**, après avoir établi deux vecteurs de capture —
+la poursuite pénale (INDEC, ELSTAT) et le budget — et jugé le second plus
+difficile à fermer.
+
+**Le Livre 20 a ouvert trois textes qui traitent la question, et les trois ferment
+le même vecteur.**
+
+- **Article 107 du traité européen** : interdit de solliciter ou d'accepter des
+  instructions. Vise **les organes de décision**, non le personnel technique.
+- **Article IX section 8 des statuts du Fonds** : immunité de procédure pour les
+  actes accomplis en qualité officielle — « **except when the Fund waives this
+  immunity** ». **L'immunité appartient à l'institution**, qui peut la lever.
+- **Article XII section 4 (c) des mêmes statuts** : devoir de loyauté dû « **entirely
+  to the Fund and to no other authority** », et obligation faite aux États de
+  **s'abstenir de toute tentative d'influence**. Technique supérieure aux deux
+  précédentes — elle vise le personnel, et elle porte sur le puissant — **et elle
+  aggrave le second vecteur** : le paragraphe (b) confie au directeur général
+  « the organization, appointment and dismissal of the staff ». **Résister à un
+  État est fidélité ; résister à sa hiérarchie est manquement.**
+
+**RÉSULTAT : trois techniques, un même angle mort.** Toute protection dirigée
+vers l'extérieur laisse l'institution seule juge de ce qu'elle fait à
+l'intérieur. **La demande de L7.C10 § 5 sort du Livre 20 DÉPLACÉE ET NON
+RÉSOLUE**, et le corpus refuse de la porter comme satisfaite.
+
+**Une seule piste, et elle n'est pas transportable.** L'article 36.2 des statuts
+du SEBC donne compétence à une cour extérieure pour les litiges entre
+l'institution et ses agents. **Cela suppose une juridiction acceptée par tous les
+membres** — ce qui distingue un ordre juridique intégré d'une organisation
+conventionnelle, et le dispositif du corpus est conventionnel.
+
+**CE QUI RESTE À CHERCHER** : le statut de la fonction publique internationale et
+la jurisprudence des tribunaux administratifs internationaux. **C'est le corps de
+règles qui répondrait à la question, et il n'est pas au dossier.**

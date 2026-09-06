@@ -316,6 +316,79 @@ portent sur le financement monétaire et l'indépendance ; **cela établit qu'un
 barème d'impacts à valeur juridique existe dans l'ordre juridique même que ce
 falsifieur vise.** À verser à l'avis de droit quand il sera demandé.
 
+---
+
+### BALAYAGE N° 5, 2026-09-06 — F4 EST INSTRUIT, ET LA CONDITION D'ÉCHEC N'EST PAS REMPLIE
+
+**Le Livre 20 a été ouvert et clos le 2026-09-06 pour ce falsifieur**, seul du
+corpus à n'avoir aucun livre. Six instruments ont été ouverts par téléchargement
+direct. **F4 est le premier falsifieur du corpus à passer d'une attente d'avis
+de droit à une instruction sur textes.**
+
+**LA CONDITION D'ÉCHEC EXIGE DEUX CHOSES : qu'aucun montage ne permette au
+dispositif d'opérer sans révision des traités, ET qu'aucune voie de révision ne
+soit ouverte. LES DEUX SONT DÉMENTIES SUR LE TEXTE.**
+
+**Premier terme — un montage existe, et il est plus léger que le corpus ne le
+croyait.** L'article 106 § 6 du traité de Maastricht rend une liste d'articles
+des statuts modifiable **à la majorité qualifiée, sans avis conforme du
+Parlement.** L'article 20 des statuts, qui figure dans cette liste, autorise le
+conseil des gouverneurs à décider **à la majorité des deux tiers des voix
+exprimées** de « such other operational methods of monetary control **as it sees
+fit** ». **Aucune révision de traité, aucune ratification nationale, aucun
+Parlement.** L20.C06.
+
+**Deuxième terme — une voie de révision est ouverte, et elle est double.** Outre
+la voie ci-dessus, l'article 109 § 3 permet de conclure, **à la majorité
+qualifiée**, un accord sur le « régime monétaire ou de change » avec une ou
+plusieurs **organisations internationales** — et « **les accords conclus au titre
+du présent paragraphe sont contraignants pour les institutions de la Communauté,
+la BCE et les États membres** ». L20.C07.
+
+**LA PROHIBITION ELLE-MÊME EST PLUS ÉTROITE QUE LE FALSIFIEUR NE LA DÉCRIT.**
+L'article 104 (numérotation Maastricht ; 101 sous Amsterdam ; 123 sous Lisbonne)
+vise **trois opérations, toutes de crédit** : le découvert, le crédit sous toute
+autre forme, et l'acquisition **directe** d'un instrument de dette auprès d'un
+émetteur public. **Une unité qui n'est le crédit de personne ne tombe sous aucune
+des trois.** L20.C02.
+
+**MAIS LE FALSIFIEUR NE TOMBE PAS — IL SE DÉPLACE, ET IL FAUT LE RÉÉCRIRE.**
+Trois réserves, dans l'ordre de gravité.
+
+**(1) Le verrou réel est de fond, pas de procédure.** L'article 20 des statuts
+n'ouvre sa faculté que « **respecting Article 2** » — l'objectif principal de
+stabilité des prix, et le principe d'une économie de marché ouverte « favouring
+an **efficient allocation of resources** ». **Toute la difficulté juridique
+européenne se concentre là**, et nulle part ailleurs. L20.C03.
+
+**(2) Le corpus ne sait pas qualifier l'unité qu'il émet.** Dès que la
+prohibition littérale est écartée, l'objection porte sur ce que l'unité **est en
+droit**, et **soixante-dix-huit chapitres n'en donnent aucune qualification.**
+Voir l'arbitrage A30. **Tant que ce point n'est pas tranché, la lecture littérale
+de l'article 104 n'est pas opposable.**
+
+**(3) Le paragraphe 2 du même article retourne l'avantage.** Il excepte les
+établissements publics de crédit **traités comme les privés** : le critère du
+traité n'est donc pas la nature publique du destinataire, **c'est l'égalité de
+traitement.** Or la différenciation — qualifier certains projets et pas d'autres —
+**est le principe même du dispositif**, non son accident. Sous ce critère,
+l'obstacle est plus sérieux que sous la lettre du § 1.
+
+**RÉSERVES D'ÉDITION, ET ELLES SONT LOURDES.** Le corpus tient le traité dans sa
+version **de Maastricht** et les statuts dans leur version **d'Amsterdam**. **La
+version Lisbonne — celle que L1.C18 § 6 nomme — n'a pas été ouverte.** Aucune
+jurisprudence sur ces articles n'est au dossier, et **la portée réelle d'une
+prohibition se lit dans ce qu'une juridiction a laissé passer.** Enfin, la
+prohibition instruite est **européenne**, et le dispositif est mondial : les
+statuts d'aucune autre banque centrale ne sont ouverts.
+
+**RÉÉCRITURE PROPOSÉE DE LA CONDITION D'ÉCHEC**, à arbitrer : *qu'aucune
+qualification juridique de l'unité émise ne permette de la soustraire à la
+prohibition du financement monétaire, ou que la hiérarchie des objectifs
+assignée aux autorités monétaires ne puisse être égalisée par aucune voie.*
+**La seconde branche est celle qui décide désormais**, et le corpus n'a rien qui
+dise à quel prix politique elle s'obtient.
+
 ## F5 — L'antériorité
 
 **INSTRUMENT EXTERNE TROUVÉ le 2026-09-04.** Ce falsifieur devait être instruit

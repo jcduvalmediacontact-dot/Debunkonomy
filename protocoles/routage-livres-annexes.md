@@ -448,3 +448,60 @@ l'excuse de l'impossibilité ; il ne lui a pas fait son travail.**
 **Tenue de cette section.** Une ligne s'y ajoute quand un chapitre produit un
 résultat qu'un AUTRE livre devra reprendre — non quand il en attend un. Les
 attentes vivent dans la table de routage ; les acquis vivent ici.
+
+
+---
+
+### Couplage — ce que la passe 1 du Livre 20 rend aux Livres 1, 7 et 11
+
+**2026-09-06.** Le Livre 20 a été ouvert et clos le même jour, sur six
+instruments juridiques ouverts par téléchargement direct. **Il rend plus qu'il ne
+prend**, ce qui n'était arrivé à aucune passe antérieure. Les chapitres visés
+**ne sont pas encore annotés** : c'est la charge de la passe suivante.
+
+**AU LIVRE 1 — deux affirmations fermées.**
+
+| Ce que le Livre 1 affirmait | Ce que le Livre 20 établit | Où |
+|---|---|---|
+| L1.C27 § 4 : l'équivalence stricte « garantit sa conformité aux règles du commerce international » — **jamais instruit** | **L'affirmation est exacte, et l'équivalence n'est pas conforme au texte : ELLE EST LE TEXTE.** GATT art. III § 2 : les importations ne doivent pas supporter de charges « in excess of those applied [...] to like domestic products ». **Elle devient une contrainte chiffrable** : la charge à la frontière ne doit pas excéder la charge intérieure | L20.C19 |
+| L1.C18 § 6 : la question des articles du traité est « à trancher AVANT tout exposé du mécanisme d'émission » | **Tranchée, après coup et partiellement.** La prohibition vise trois opérations de crédit, pas l'émission ; **le verrou réel est la hiérarchie des objectifs**, et lui seul | L20.C02, L20.C03 |
+
+**AU LIVRE 7 — trois constructions corrigées par un texte en vigueur, deux blancs comblés, une demande NON résolue.**
+
+| Ce que le Livre 7 tenait | Ce que le Livre 20 établit | Où |
+|---|---|---|
+| L7.C06 institue une double majorité, présentée comme une construction | **Elle existe depuis 1944** — art. XVII (a) des statuts du Fonds : trois cinquièmes des membres, quatre cinquièmes des voix. **Et elle est plus exigeante que chacun de ses deux critères pris seul** | L20.C09 |
+| L7.C09 corrige L7.C06 par la loi de la racine carrée de Penrose | **Une troisième solution existe et elle est négociable** : 250 voix de base + une par tranche de quote-part. Même propriété qualitative, obtenue par une **addition** — on marchande un entier, pas un exposant. **Faiblesse : écrite en valeur absolue, elle s'érode par la seule croissance des quotes-parts** — piste la plus vraisemblable pour le 3,3 % de L7.C02 | L20.C10 |
+| L7.C05 bâtit quatre chambres pour quatre décisions, et **D2 n'est attribuée à aucune** | **Une liste de pouvoirs non délégables fait mieux et sans créer d'organe** (art. XII § 2 (b)). Et elle **répond à D2 par qualification** : la valorisation est un partage borné par le produit, donc elle relève de « determine the distribution of the net income », **qui ne se délègue pas** | L20.C12 |
+| L7.C11 : le financement du symposium, arbitré par l'auteur sur le produit du reflux collectif — **produit qui n'existe pas encore au démarrage** | **Le mécanisme d'amorçage existe** : art. XX § 2 (d), un cent-millième de la souscription future, versé au dépositaire, **restitué si le système n'est pas en vigueur à une date écrite dans le traité.** Contribution plafonnée, financeur identifié, droits éteints | L20.C13 |
+| L7.C12 cherche un point de démarrage sans en trouver la première marche | **Seuil exprimé en PART DES CONTRIBUTIONS (65 %), plus une DATE PLANCHER et une date butoir.** La date plancher empêche le système d'entrer en vigueur au moment où le groupe des signataires est le plus étroit | L20.C13 |
+| L7.C10 § 5 route ici **l'immunité des cadres techniques** | **NON RÉSOLUE.** Trois textes, trois techniques, **le même angle mort** : toute protection est dirigée vers l'extérieur et laisse l'institution seule juge de son intérieur. L'immunité de l'art. IX § 8 **appartient au Fonds, qui peut la lever** ; le devoir de loyauté de l'art. XII § 4 (c) **est dû à l'institution qui nomme et révoque** | L20.C11, L20.C15, arbitrage A31 |
+| L7.C13 : la sanctuarisation juridique est **la condition sine qua non** de l'émergence des unités | **Elle existe** (art. 311 § 6 de la convention de 1982, à trois registres) **et elle n'a pas tenu douze ans** : contournée par un accord d'application se déclarant prioritaire, **sans être violée** | L20.C17 |
+| L7.C17 § 5 : l'équivalence égalise sans stabiliser, la sanction stabilise et devient contestable — et ce choix décide de P51 | **L'argument de stabilité tombe.** Une sanction contestable ne vit que sous dérogation, et une dérogation OMC **est datée, conditionnelle et réexaminée chaque année.** Elle ne stabilise rien | L20.C18 |
+
+**AU LIVRE 11 — deux blancs comblés, deux contraintes nouvelles.**
+
+| Ce que le Livre 11 tenait | Ce que le Livre 20 établit | Où |
+|---|---|---|
+| L11.C15 : une révision de parité est **un transfert sans porteur désigné** | **Le porteur est celui qui révise.** Art. IV § 8 : la valeur des avoirs de l'institution est maintenue, et le membre qui dévalue **lui verse la différence en sa propre monnaie.** Comblé pour la part patrimoniale, **pas pour les tiers.** S'y ajoute une procédure **graduée** : zone franche à 10 %, objection sous **72 heures**, puis examen | L20.C08 |
+| L11.C25 construit un contrôle sans traiter la fiabilité d'une attestation délivrée là où l'on a intérêt au chiffre | **Le règlement d'ajustement carbone y répond** : certification par une personne **indépendante du déclarant ET des autorités du pays d'origine**, et déduction de « tout rabais ou toute autre forme de compensation » reçu par ailleurs. **Coût : suppose un tiers certificateur qui n'existe pas partout** | L20.C20 |
+| L11.C24 pose un barème aux frontières | **Deux contraintes nouvelles.** (1) La charge à la frontière **ne doit pas excéder** la charge intérieure sur le produit similaire — borne jamais posée. (2) **Les exemptions intérieures doivent être supprimées à mesure que l'ajustement se déploie**, sinon l'ajustement surtaxe l'importation | L20.C19, L20.C20 |
+| L11 construit des barèmes plutôt qu'un marché, sur des motifs économiques | **Un motif purement juridique existe et le corpus ne l'avait pas** : un marché de certificats produit des prix différents selon les pays, **donc un risque de discrimination.** Premier argument non économique en faveur du barème | L20.C20 |
+| L11.C25 n'énumère pas les données publiées | **L'absence d'énumération est un vice en soi.** Un régime qui publie des données définies par « au moins » ne répond pas à l'exigence de clarté et de précision. Critère de remplacement fourni : **l'intérêt légitime** | L20.C21 |
+
+**CE QUE LE LIVRE 20 DEMANDE EN RETOUR — et c'est peu, parce qu'il n'a rien à
+attendre d'un livre non écrit.**
+
+1. **Que le Livre 11 revendique ses barèmes comme l'équivalent fonctionnel d'une
+   cible d'inflation.** L20.C03 a établi qu'on ne peut pas demander l'égalisation
+   du rang des objectifs sans fournir, pour l'objectif écologique, une règle
+   aussi contraignante. **Le corpus l'a produite et ne l'a jamais présentée
+   ainsi.** Travail de présentation, pas de conception.
+2. **Que le Livre 1 ou le Livre 7 qualifie juridiquement l'unité émise.** Voir
+   l'arbitrage A30. **Aucun chapitre du Livre 20 ne peut conclure sans elle.**
+3. **Que le Livre 6 soit consulté avant la passe 2 du Livre 20.** Il porte le
+   droit DE LA NATURE, quatorze épisodes acquis sur le Drive, **jamais
+   consultés** — et L20.C16 vient d'établir que le régime du patrimoine commun
+   de l'humanité est le corpus juridique le plus proche de ce que L7.C13
+   demande. **Les deux livres travaillent sur des matières voisines sans se
+   parler.**

@@ -367,3 +367,43 @@ la déclare vérifiée mais **aucun PDF n'est sur le Drive**. **Kahneman** ou
 | **5** | **Georgescu-Roegen 1971** | il fonde `entropie`, et c'est **la tradition dont le dispositif relève** |
 
 **Trois des cinq sont gratuits et téléchargeables ce soir.**
+
+
+---
+
+# Acquisitions du 2026-09-06 — passe 1 du Livre 20 (droit international public)
+
+**Toutes ouvertes par téléchargement direct, sous la règle levée par l'auteur le
+même jour.** Elles vivent dans `G:\Mon Drive\PDF DIVERS\Livres Monnaie\Sources
+telechargees 2026-09-06\`.
+
+| Instrument | Édition tenue | Réserve déclarée |
+|---|---|---|
+| **Traité sur l'Union européenne**, Maastricht, JO C 191 du 29.7.1992 | texte **originel** | la prohibition du financement monétaire y porte le n° **104**, l'indépendance le n° **107** ; **la version Lisbonne (123, 130) N'EST PAS OUVERTE** |
+| **Statuts du SEBC et de la BCE** | version **Amsterdam**, ECB Compendium 2002 | mêmes règles sous les n° **101** et **108** ; **zéro occurrence de « rotation »** — la rotation date de la révision de 2003 |
+| **Statuts du Fonds monétaire international** | **1944**, Final Act de Bretton Woods, US Government Printing Office | **avant les amendements de 1969 (DTS) et 1978 (abandon des parités)** — le régime de l'article IV instruit en L20.C08 n'est plus en vigueur |
+| **Accord instituant l'OMC**, Marrakech 1994 | accord-cadre seul | **aucune annexe** ; le GATT de 1994, juridiquement distinct de celui de 1947, n'est pas tenu |
+| **GATT 1947**, texte consolidé publié par l'OMC | 1947 consolidé | articles I, III et XX **supposés repris à l'identique** dans le GATT de 1994, **sans vérification** |
+| **Convention sur le droit de la mer**, 1982, UNTS vol. 1833 | UNTS | **numérisation à couche OCR INÉGALE** : art. 136, 137, 176, 178, 179, 309, 310, 311 propres ; **art. 140 (partage des bénéfices) et 160 (pouvoirs de l'Assemblée) DÉGRADÉS** — aucun passage dégradé n'est cité |
+| **Accord de 1994 sur l'application de la partie XI**, UNTS vol. 1836 | UNTS | **annexe non dépouillée**, alors qu'elle « forme partie intégrante » et porte les modifications de fond |
+| **Règlement (UE) 2023/956** (ajustement carbone aux frontières) | consolidé | **les deux règlements d'exécution détenus ne sont pas dépouillés** — ils portent la méthode de calcul des émissions intrinsèques |
+| **CJUE, gr. ch., 22.11.2022, C-37/20 et C-601/20** | Recueil | seule décision de justice du corpus ; **la directive qu'elle censure est détenue et non dépouillée** |
+
+## Priorité 1 après cette passe — et l'ordre n'est pas discutable
+
+| | Le texte | Pourquoi |
+|---|---|---|
+| **1** | **Convention de Vienne sur le droit des traités, 1969** | **réclamée par ONZE chapitres du Livre 20.** Elle porte la formation, l'interprétation, la modification et l'extinction — l'outillage de la moitié du livre. **Publique et gratuite.** Rien d'autre ne se lit utilement avant elle |
+| **2** | **Amendement de 1969 aux statuts du Fonds** (droits de tirage spéciaux) | il porte **le seul précédent d'un avoir de réserve créé ex nihilo et alloué**, et c'est la qualification vers laquelle penche l'arbitrage A30. **Sans lui, le corpus ne peut pas qualifier l'unité NEMO** |
+| **3** | **Deuxième amendement de 1978** (abandon des parités) | **le corpus instruit en L20.C08 un régime abandonné SANS SAVOIR POURQUOI.** C'est l'exemple même de ce que la règle d'ouverture directe est faite d'empêcher |
+| **4** | **Version consolidée du TFUE** (art. 123, 127, 128, 130) | le corpus tient **deux états antérieurs** d'un texte dont il affirme lire le troisième |
+| **5** | **Un rapport de l'organe d'appel de l'OMC sur l'article XX** | **la question centrale du bloc « conformité » — deux produits identiques fabriqués autrement sont-ils « similaires » — ne se tranche pas par le texte.** Le corpus tient le texte et zéro décision |
+| **6** | **Statut de la fonction publique internationale** et jurisprudence des tribunaux administratifs internationaux | **seul corps de règles susceptible de répondre à l'arbitrage A31** — la protection d'un cadre technique contre sa propre institution |
+| **7** | **Protocole sur les privilèges et immunités de l'Union** | l'article 40 des statuts du SEBC y renvoie et ne dit rien par lui-même : **le corpus tient le renvoi, pas la règle** |
+
+**CE QUE CETTE PASSE A DÉMONTRÉ SUR LA MÉTHODE, ET IL FAUT LE RETENIR.** Trois
+textes fondateurs ont été tenus **sans la transaction qui les a rendus
+applicables**. Pour un seul des trois la transaction a été trouvée — l'accord de
+1994 — **et elle a inversé la conclusion du chapitre en cours de rédaction**.
+**Chercher la transaction fait désormais partie du jugement d'édition**, au même
+titre que vérifier le volume et la pagination.
