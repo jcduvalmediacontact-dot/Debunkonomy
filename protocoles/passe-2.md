@@ -2681,3 +2681,92 @@ aucun n'était cherché : deux conventions de numérotation coexistent dans le
 registre des promesses ; et `controle.py` calcule une empreinte sur
 `date_verification` qu'il ne compare jamais. **Le second est le plus grave et
 il appelle une décision de l'auteur.**
+
+
+### A29 — Le financement du Symposium — TRANCHÉ le 2026-09-06, UNE SOUS-FORME OUVERTE
+
+**Arbitrage de l'auteur, rendu en réponse au constat de L7.C10 § 5** — le livre
+ne décrit nulle part le financement de l'institution. **Le surplus du reflux
+collectif finance le GAÏA Economic Symposium.**
+
+**Ce qu'il active.** La TROISIÈME FORME que L11.C01 § 5 avait nommée et mise de
+côté : « le reflux s'annule pour la part qui correspond à des allocations
+effectivement émises, **et alimente un fonds pour la part qui excède** ». Elle
+était écartée pour un motif de méthode — on ne définit pas une exception avant
+la règle — et le régime de base a été tranché le 2026-09-05 (lecture B).
+**L'ordre a été respecté.**
+
+**Ce qu'il résout.** L7.C10 § 5 avait établi que la capture documentée des
+instituts statistiques passe par le BUDGET — INDEC 2007-2015, ELSTAT et les
+poursuites contre A. Georgiou. **Aucun État ne votant le budget, aucun ne peut
+affamer l'institution.** L'exigence de L1.C18 § 6 — « une dotation pluriannuelle
+sanctuarisée, soustraite au vote budgétaire annuel » — est satisfaite **par une
+voie que le corpus n'avait pas envisagée** : non par une règle qui protège la
+dotation, mais **en supprimant l'acte qui pourrait la menacer.** Plus solide que
+ce qui était demandé. **L'immunité légale des cadres techniques reste absente**,
+et c'est le second vecteur de capture — celui du cas grec.
+
+**Ce qu'il crée : une TROISIÈME forme de conflit d'intérêts.** L'organe qui fixe
+le barème des impacts est financé par le produit de ce barème. **Moins grave que
+les deux autres** — la séparation des pouvoirs mord ici, l'Assemblée ne percevant
+ni ne dépensant, et l'incitation pousse dans le sens de la thèse. **Ce qui reste
+est que l'incitation pousse au barème le plus PRODUCTIF DE RECETTES, non au plus
+juste** : au-delà de la borne B1 les recettes chutent par évitement, donc
+l'institution a intérêt au taux qui maximise le produit — **et ce n'est pas le
+taux qui maximise l'effet écologique.**
+
+**Ce qu'il oblige le corpus à corriger.** L11.C16 § 2 posait que le niveau de
+l'émission est lié au produit du reflux. **Si le bouclage est une ÉGALITÉ, il n'y
+a pas de surplus.** Financer l'institution sur le surplus exige donc que le
+reflux excède structurellement l'émission : le niveau devient « le produit du
+reflux **diminué des coûts institutionnels** ». **L'enveloppe qui finance les
+communs est amputée du coût de l'institution qui la distribue** — et L11.C16 § 4
+a établi que cette enveloppe est plafonnée et le partage à somme quasi nulle.
+**Aucun ordre de grandeur n'est au dossier.**
+
+**CE QUI RESTE À TRANCHER, et cela décide de tout.**
+
+| | Le financement est | Ce que cela donne |
+|---|---|---|
+| **En tête** | prélevé avant le calcul de l'enveloppe | budget **stable** ; l'institution servie la première, les communs après |
+| **En résidu** | ce qui reste après émission | budget **volatil**, et nul si le bouclage est exact |
+
+**En résidu, le budget se comprime exactement quand il faut le plus agir** : en
+crise la fuite est maximale (L11.C07) et la demande de financement régénératif
+ne baisse pas. **Cela annulerait le gain.** L'arbitrage ne résout complètement
+l'objection de L7.C10 **que sous la première sous-forme.** Question posée à
+l'auteur en L7.C11 § 5.
+
+**PRÉCISION DE L'AUTEUR LE MÊME JOUR : « il faudra certes un point de
+démarrage ».** Instruite en L7.C12, et elle RESTREINT la portée de A29.
+
+**La protection est réelle et DIFFÉRÉE.** Pendant la phase de démarrage il n'y a
+pas de surplus, donc pas d'autofinancement, **donc il y a un financeur** — et le
+vecteur de capture que A29 élimine est entièrement ouvert.
+
+**Et cette phase n'est pas neutre : c'est celle où se fixent D1, D2 et D3**, soit
+trois des quatre décisions, dont celle qui porte P52. L11.C16 § 6 a établi qu'une
+fonction de valorisation choisie une fois détermine la balance des paiements d'un
+membre pour sa durée de vie. **Le premier barème est celui qui compte le plus, et
+c'est celui qui sera arrêté sous financement extérieur.** L'institution est donc
+**protégée du financeur quand ses décisions ont le moins de portée, et exposée
+quand elles en ont le plus.**
+
+**Le précédent est net et ne demande aucune transposition.** Dans les statuts du
+Fonds, ouverts le même jour, le poids de vote est fonction de la QUOTE-PART,
+c'est-à-dire de la souscription initiale : **celui qui finance le démarrage
+obtient durablement le pouvoir.** Composé avec F6 — la disposition qui contraint
+le créancier est celle qui saute —, cela donne que **le créancier du lancement
+écrit la règle et s'en sert d'abord pour ne pas se contraindre.**
+
+**AUCUNE DES TROIS FORMES D'AMORÇAGE N'EST NEUTRE.** La souscription des membres
+fondateurs installe une clé fondée sur l'apport, **qui contredit la règle de vote
+du livre** — personne n'avait vu que les deux se contraignent. L'émission
+d'amorçage **rouvre P55 pour toute la durée du démarrage**, aucune recette
+n'existant en face. La dotation d'un tiers concentre le risque au pire endroit.
+
+**CE QUE L'ARBITRAGE DOIT ENCORE COUVRIR** : une règle propre à la phase de
+démarrage — financeur identifié, contribution plafonnée, **droits éteints à une
+date fixée d'avance**, sur le modèle du délai d'entrée en vigueur versé par
+L8.C31 § 6. Le but n'est pas d'empêcher que le financeur ait du pouvoir, ce qui
+est inévitable, **mais que ce pouvoir soit borné dans le temps.**
