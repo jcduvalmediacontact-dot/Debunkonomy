@@ -13,8 +13,13 @@ un livre qui n'en solderait aucune serait sans emploi.**
 Cette table applique ce critère aux 59 promesses, 7 falsifieurs et 8 arbitrages
 ouverts par la première passe.
 
-**Statut : proposition, non arbitrage.** L'affectation est un jugement du
-corpus, pas une décision de l'auteur. Chaque promesse reçoit **un livre
+**Statut : proposition, non arbitrage** — À UNE EXCEPTION PRÈS. L'affectation
+est un jugement du corpus, pas une décision de l'auteur. **Une ligne fait
+exception depuis le 2026-09-06 : le périmètre financé est routé vers le Livre 7
+par arbitrage explicite de l'auteur**, et se lit donc au même titre qu'une
+décision, non comme une proposition. Le motif énoncé vaut au-delà de la ligne :
+« *tous les livres sont interconnectés entre eux* » — une question routée
+ailleurs n'est pas une lacune du livre qui la rencontre. Chaque promesse reçoit **un livre
 principal**, afin que la charge soit comptable ; les concours secondaires sont
 notés mais ne comptent pas dans le total. Un désaccord sur une ligne se règle
 en déplaçant la ligne, non en la dédoublant.
@@ -27,7 +32,7 @@ en déplaçant la ligne, non en la dédoublant.
 |---|---|---|---|---|---|
 | **13** | Méthodes, données, scénarios et simulateur | 8 | **F1** | — | **lourde** |
 | **3** | Dilemmes du SMI et leur résolution | **11** | **F6** | — | **lourde** |
-| **7** | GAÏA Economic Symposium | **10** | **F3** | A2, A4 | **lourde** |
+| **7** | GAÏA Economic Symposium | **13** | **F3** | A2, A4, **A5** | **lourde** |
 | **11** | Ingénierie du reflux transactionnel et des prélèvements | 7 | **F7** | A3, A7 | **lourde** |
 | **8** | Théories économiques — écoles et controverses | 5 | — | — | moyenne |
 | **2** | Recommandations macro-prudentielles | 4 | — | — | moyenne |
@@ -42,7 +47,7 @@ en déplaçant la ligne, non en la dédoublant.
 | **9** | Atlas comparé des économies du monde | **0** | **0** | **0** | **nulle** |
 | **10** | Monnaies, banques et banques centrales dans le monde | **0** | **0** | **0** | **nulle** |
 | **4** | Les Cahiers Humanistes | **0** | **0** | **0** | **nulle** |
-| — | **ORPHELINS** | **4** | **F4** | **A5, A8** | — |
+| — | **ORPHELINS** | **1** | **F4** | — | — |
 
 ---
 
@@ -111,8 +116,21 @@ Le 6 traite le droit **de la nature**. Le droit **monétaire et commercial**
 | P31 | La clé de répartition |
 | **P52** | **BLOQUANTE** — le barème voté au centre déterminerait la balance des paiements |
 | **F3** | Connaissance dispersée et indicateur pris pour cible |
+| P32 | Le périmètre est indéterminé |
+| P33 | Le critère cesse de tenir dans le régime des services |
+| P57 | Le récit public tranche plus large que la conception |
 | **A2** | Qui émet : le GES ou les banques centrales nationales |
 | **A4** | Centralisation ou polycentricité |
+| **A5** | **Le périmètre financé — ROUTÉ ICI le 2026-09-06, arbitrage de l'auteur** |
+
+**Le périmètre est entré ici le 2026-09-06 et il n'était nulle part.** Il figurait
+aux orphelins depuis l'établissement de la table. L'auteur l'a routé vers ce
+livre au motif que la question relève de l'institution qui l'arrête, et non de
+l'ingénierie qui l'applique. **Conséquence à porter au dossier :** L11.C13 § 3 a
+établi que *décider ce qui qualifie est décider ce qui est financé* — le Livre 11
+et le Livre 7 se partagent donc une même décision, et **le rendu de A8 par
+L11.C17 est conditionnel à un livre qui compte zéro chapitre acquis et dont le
+dossier Drive est vide.**
 
 ### Livre 8 — Théories économiques *(exploratoire)*
 
@@ -216,28 +234,34 @@ sous laquelle la proposition n'est pas une redécouverte.
 
 ## Les orphelins
 
-### A8 — Le chantier des barèmes *(bloque le Livre 13)*
+### ~~A8 — Le chantier des barèmes~~ — SORTI DES ORPHELINS
 
-Cinq promesses, une seule question : **qui pondère, selon quelle règle, et
-cette règle est-elle écrite.** P19b et P25 (qualification), P48 (taux de
-reflux transactionnel), P54 (parités), P52 (valorisation des communs), P53 (tableau de bord).
-Le Livre 11 n'en couvre qu'une par son intitulé actuel.
+**RÉSOLU EN DEUX TEMPS.** Le 2026-09-05, l'auteur a tranché la première issue :
+le Livre 11 est élargi de « ingénierie de la fonte monétaire » à « ingénierie
+des barèmes ». Le 2026-09-06, **A8 a été rendu par L11.C17** après instruction
+des cinq lieux.
 
-**Deux issues :** élargir le 11 de « ingénierie de la fonte monétaire » à
-« ingénierie des barèmes », ou ouvrir un matricule.
+**Ce que le rendu corrige à cette table.** Les cinq lieux ne sont pas cinq
+objets : le tableau de bord n'est pas un barème mais l'entrée des autres
+(L11.C14), et la valorisation des communs n'est pas un barème distinct mais la
+décision D2 du barème de qualification (L11.C13 § 3, L11.C16). **Il reste trois
+barèmes et une entrée** — reste ouvert de savoir si le prélèvement transactionnel
+et le demurrage font un barème ou deux. **P52 conserve son domicile au Livre 7**,
+la table ayant raison sur ce point : le nœud est une question d'organe, pas de
+table.
 
-### La contrepartie comptable monétaire — P55, P56
+### La contrepartie comptable monétaire — P55 *(P56 a un domicile au Livre 11)*
 
 Le bilan du GAÏA Economic Symposium. Le 18 est la comptabilité **écologique**
 (CARE-TDL), le 2 est la macroprudence. Aucun livre ne porte la comptabilité
 **monétaire** de l'émetteur. C'est le troisième objet du chemin critique.
 
-### Le périmètre — P32, P33, P57, et A5
+### ~~Le périmètre — P32, P33, P57, et A5~~ — ROUTÉ VERS LE LIVRE 7
 
-Ce que le dispositif finance. P32 (le périmètre est indéterminé), P33 (le
-critère cesse de tenir dans le régime des services), P57 (le récit public
-tranche plus large que la conception), A5 (le périmètre financé). Le 12 (ODD)
-l'approche par les objectifs, ce qui n'est pas le même objet.
+**ARBITRAGE DE L'AUTEUR, 2026-09-06.** Ce que le dispositif finance relève de
+l'institution qui l'arrête. P32, P33, P57 et A5 passent au Livre 7. Le 12 (ODD)
+l'approche par les objectifs, ce qui n'est pas le même objet, et reste un
+concours secondaire.
 
 ### F4 — Le droit monétaire et commercial
 
@@ -267,3 +291,58 @@ l'assumer, soit leur assigner une charge.
 **L'ordre d'ouverture que la table impose.** A8 d'abord, parce qu'il bloque le
 13 et disperse cinq promesses. Puis le 3 et le 7, qui portent le reste. Le 13
 ne peut pas commencer avant A8.
+
+
+---
+
+## Ce qu'une passe transmet à la suivante — les couplages entre livres
+
+**Établi le 2026-09-06, sur un principe énoncé par l'auteur.** Cette table
+répondait jusqu'ici à une seule question — *quel livre doit fournir de quoi
+solder telle promesse* — et elle ne voyait donc les relations entre livres que
+sous la forme d'une **dette**. Il en résultait une erreur d'appréciation, commise
+par le corpus le jour même : avoir présenté la dépendance de L11.C17 envers le
+Livre 7 comme une réserve sur le rendu de A8.
+
+**Le principe qui la corrige.** « *Tous les livres sont interconnectés entre eux
+— c'est pour cette raison que ce travail requiert plusieurs passes. Chaque passe
+se sert de la précédente pour engendrer la cohérence future du corpus.* »
+J.-C. Duval, 2026-09-06.
+
+**Ce qu'il change à la lecture de cette table.** Une question routée vers un
+livre non écrit **n'est pas une lacune : c'est un couplage**, et un couplage se
+solde à la passe suivante, pas à celle qui le découvre. Un rendu de passe 1 qui
+dépend d'un livre à zéro chapitre est **le régime normal du corpus**, non son
+défaut. Ce qui serait un défaut, c'est de ne pas enregistrer ce que la passe qui
+découvre le couplage a déjà produit pour celle qui le soldera.
+
+**D'où la section qui suit, et son sens de lecture.** Cette table dit ce qu'un
+livre DOIT ; la suivante dit ce qu'un livre A DÉJÀ PRODUIT pour un autre. Les
+deux sens existent, et le second est souvent le plus chargé.
+
+### Livre 11 → Livre 7 — acquis de la passe 1, à reprendre tel quel
+
+**Le sens le plus chargé est celui-ci, et le corpus l'avait pris à l'envers.** Le
+Livre 11 ne dépend pas seulement du Livre 7 : **il a produit l'essentiel de ce
+sur quoi le Livre 7 devra se construire**, et le Livre 7 s'écrira sur ces acquis
+plutôt que de les redécouvrir.
+
+| # | Acquis | Où | Ce qu'il impose au Livre 7 |
+|---|---|---|---|
+| **1** | **Arrêter un barème est quatre décisions** — D1 méthode, D2 valeurs, D3 constat, D4 recours | L11.C11 § 2 | La constitution du GES ne se conçoit pas sur « le Symposium décide » : **quatre décisions de natures différentes appellent quatre régimes**, et rien n'oblige le même organe à les porter toutes |
+| **2** | **P52 vise D2, et elle seule** | L11.C13 § 3 | La promesse bloquante que cette table domicilie au Livre 7 a désormais une adresse exacte. Elle ne dit rien contre une méthode commune, ni contre des constats locaux, ni contre un recours indépendant |
+| **3** | **La polycentricité est praticable sur D3 et interdite sur D2** | L11.C16 § 5, d'après L11.C04 § 6 | **A4 est partiellement tranché sans que le Livre 7 ait à le rouvrir** : un barème modulé nationalement recrée la contrainte qu'un barème global annule |
+| **4** | **Le niveau de la valorisation n'est pas une décision du GES** — le bouclage le lie au produit du reflux, borné | L11.C16 § 2 | **Le mandat à légitimer est plus étroit que le livre ne le suggère** : le GES arbitre un partage, il ne décide pas un volume. Ce qui change ce que « légitimer l'organe » doit légitimer |
+| **5** | **Ce que le GES vote est une directive, non une table** | L11.C12, L11.C17 § 4 | Un Livre 7 qui organiserait un vote annuel sur des tables **concevrait le mauvais objet**. Le vote porte sur la fonction ; les nombres en sont le résultat |
+| **6** | **La surface de capture la plus exposée est D3, non D2** | L11.C11 § 6 | On surveillera les valeurs parce qu'elles sont chiffrées et publiées. **Le constat est technique, sectoriel, répété et de conséquence monétaire immédiate** — c'est là qu'il faut le contrôle |
+| **7** | **Le seul précédent tenu est décourageant** | L11.C11 § 5 | L'allocation de droits de tirage de 2021 a réparti au prorata des quotes-parts, dont 3,3 % aux pays à faible revenu. **Une clé légitimée par le poids économique produit l'inverse du but poursuivi** |
+| **8** | **Efficacité et légitimité s'opposent, et le conflit se paie ici** | L11.C17 § 7 | Un indicateur non annonçable résiste à Goodhart et échappe au contrôle ; une fonction irrévisable est crédible et enferme. **Le Livre 11 a nommé le prix, le Livre 7 doit le payer d'un côté ou de l'autre** |
+| **9** | **Décider ce qui qualifie est décider ce qui est financé** | L11.C13 § 3 | **A5 ne se solde pas sans D1.** Le périmètre routé ici et le barème de qualification sont une seule décision vue de deux endroits |
+
+**Ce que le Livre 7 doit en retour, et qui reste dû :** A5 et le périmètre
+(P32, P33, P57), la matière de A16 — dont les trois précédents ne sont toujours
+pas ouverts —, et la part de A4 que le point 3 ne tranche pas.
+
+**Tenue de cette section.** Une ligne s'y ajoute quand un chapitre produit un
+résultat qu'un AUTRE livre devra reprendre — non quand il en attend un. Les
+attentes vivent dans la table de routage ; les acquis vivent ici.

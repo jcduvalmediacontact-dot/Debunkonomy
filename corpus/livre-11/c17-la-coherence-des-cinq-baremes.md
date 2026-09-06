@@ -42,6 +42,13 @@ verifications_en_attente:
   # LE CHAPITRE PORTE UN RÉSULTAT FAVORABLE AU DISPOSITIF, et le corpus le dit
   # sans le tempérer, par la même règle qui lui interdit de flatter : § 6.
   #
+  # CORRIGÉ LE JOUR MÊME, § 8. Le chapitre avait présenté la dépendance envers
+  # le Livre 7 comme une RÉSERVE sur le rendu de A8, au motif que ce livre
+  # compte zéro chapitre acquis. C'était traiter comme un défaut le régime
+  # normal du corpus : chaque passe se sert de la précédente, et un couplage
+  # découvert en passe 1 se solde en passe 2. DIXIÈME AUTOCORRECTION — et la
+  # première qui porte sur la MÉTHODE et non sur un contenu.
+  #
   - "LE STATUT DU DEMURRAGE DANS LA TAXINOMIE N'EST PAS TRANCHÉ. Le § 2 réduit
      les cinq lieux à trois barèmes et une entrée. **Il laisse ouvert de savoir
      si le prélèvement transactionnel et le demurrage relèvent d'un barème ou de
@@ -50,10 +57,14 @@ verifications_en_attente:
      échoue dans l'état pour lequel il est conçu. **Le corpus ne tranche pas et
      signale que la réduction en dépend** : trois barèmes si c'est un, quatre
      si ce sont deux."
-  - "A5 — LE PÉRIMÈTRE FINANCÉ — N'A PAS ÉTÉ INSTRUIT PAR LE LIVRE 11, alors que
-     L11.C13 § 3 établit que décider ce qui qualifie est décider ce qui est
-     financé. **Le chantier des barèmes est donc rendu avec une pièce manquante
-     qui lui appartient.**"
+  - "A5 — LE PÉRIMÈTRE FINANCÉ — EST ROUTÉ VERS LE LIVRE 7 par arbitrage de
+     l'auteur du 2026-09-06 : ce que le dispositif finance relève de
+     l'institution qui l'arrête, non de l'ingénierie qui l'applique. **Ce n'est
+     donc pas une lacune du Livre 11 mais une dépendance**, et le § 8 en tire la
+     conséquence : L11.C13 § 3 ayant établi que décider ce qui qualifie est
+     décider ce qui est financé, **les deux livres se partagent une même
+     décision, et le rendu de A8 est conditionnel à un livre qui compte zéro
+     chapitre acquis.**"
   - "LE SEUIL D'EXEMPTION POUR LES PERSONNES MORALES MANQUE ENTIÈREMENT. Le
      livre indexe un seuil sur le revenu médian pour les personnes physiques
      (condition-limite B6) ; **rien n'existe pour les personnes morales**, alors
@@ -165,7 +176,11 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C27, L1.C28, L11.C03, L11.C05, L11.
 
 ::etat:: **Trois pièces manquent, et elles appartiennent au chantier.**
 
-::etat:: **A5, le périmètre financé, n'a pas été instruit** — alors que L11.C13 § 3 établit que décider ce qui qualifie est décider ce qui est financé. Le chantier est rendu avec un trou qui lui appartient en propre.
+::etat:: **A5, le périmètre financé, est routé vers le Livre 7** — arbitrage de l'auteur du 2026-09-06 : ce que le dispositif finance relève de l'institution qui l'arrête, non de l'ingénierie qui l'applique. **Le corpus enregistre le motif général qui l'accompagne** — *tous les livres sont interconnectés entre eux* —, dont il suit qu'une question routée ailleurs n'est pas une lacune du livre qui la rencontre.
+
+::etat:: **Le corpus corrige ici une appréciation qu'il avait portée le jour même, et l'erreur était de méthode.** Il avait présenté la dépendance envers le Livre 7 comme une réserve sur le rendu de A8, au motif que ce livre compte zéro chapitre acquis. **C'était traiter comme un défaut ce qui est le régime normal du corpus** : chaque passe se sert de la précédente, et un couplage découvert en passe 1 se solde en passe 2, non par celle qui le découvre. **Dixième autocorrection.**
+
+::hypothese:: **Ce qui reste vrai, et qui est autre chose qu'une réserve.** L11.C13 § 3 a établi que **décider ce qui qualifie est décider ce qui est financé** : les deux livres ne se partagent pas deux questions voisines, ils se partagent **une seule décision**, vue de l'organe par l'un et de la table par l'autre. **Le couplage est donc à double sens, et le sens le plus chargé n'est pas celui que le corpus avait vu.** Le Livre 11 ne dépend pas seulement du Livre 7 : **il a produit neuf acquis que le Livre 7 devra reprendre** plutôt que redécouvrir — la décomposition en quatre décisions, l'adresse exacte de P52, la part de A4 que Mundell tranche, l'étroitesse du mandat à légitimer, la forme directive de ce qui est voté, la surface de capture réelle, le seul précédent tenu, le prix du conflit entre efficacité et légitimité, et l'entrée du périmètre par la qualification. **Ils sont versés au protocole de routage, section des couplages.**
 
 ::etat:: **Le seuil d'exemption pour les personnes morales manque entièrement.** Le livre indexe un seuil sur le revenu médian pour les personnes physiques — c'est la condition-limite B6. **Rien n'existe pour les personnes morales**, alors que L11.C09 a établi quatre biais d'incidence favorisant les acteurs intégrés, documentés, structurés et conseillés, et que L11.C13 § 6 en a établi un cinquième. **Aucun chapitre ne l'avait relevé avant celui-ci.**
 
@@ -183,4 +198,4 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C27, L1.C28, L11.C03, L11.C05, L11.
 
 ::hypothese:: **Quatre contradictions internes recensées, deux non résolues, et elles ont la même structure** : ce qui rend le barème efficace détruit ce qui le rend légitime. **Ce n'est pas un défaut du dispositif, c'est le prix de gouverner par barème**, et l'arbitrage devra le payer explicitement.
 
-::etat:: **Trois pièces manquent au chantier** : le périmètre financé (A5), le seuil d'exemption pour les personnes morales — jamais relevé avant ce chapitre —, et la matière de A16. **Le chantier est rendu, il n'est pas clos.**
+::etat:: **Une pièce manque au chantier en propre** — le seuil d'exemption pour les personnes morales, jamais relevé avant ce chapitre. **Deux sont couplées au Livre 7** : le périmètre financé (A5), routé là par arbitrage de l'auteur, et la matière de A16. **Un couplage n'est pas une lacune** : le Livre 11 a produit pour le Livre 7 neuf acquis qui le dispensent de les redécouvrir, et c'est ce que la passe suivante reprendra. **Le chantier est rendu à sa passe ; il sera rouvert à la suivante, et c'est ainsi qu'il est conçu.**

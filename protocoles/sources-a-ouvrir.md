@@ -165,8 +165,11 @@ toutes gratuites, dans cet ordre :
 1. **Mundell 1963 + Fleming 1962** — l'objection bloquante P49, et le corpus
    n'a que des notes de vulgarisation. **Y joindre Mundell 1962**, le principe
    d'affectation, dont L11.C03 § 6 dépend : trois textes, un seul geste.
-2. **Kydland-Prescott 1977** — F7, P48 et P34b, employé deux fois sans avoir
-   été ouvert.
+2. **Kydland-Prescott 1977** — F7, P48 et le point (b) de P34. **TROIS emplois
+   au 2026-09-06, et non deux** : le balayage n 1 a relevé le troisième, en
+   L11.C10, sur le report de la trajectoire. **Une source dont la charge
+   probatoire augmente a chaque emploi est plus urgente qu'une source neuve.**
+   Il faut une version TEXTE : le tirage acquis est un scan sans couche.
 3. **Gourinchas & Rey 2005** — la seule voie de sortie de F6, trois emplois,
    zéro ouverture.
 4. **Nordhaus 2015** — la méthode qui permettrait de dériver le seuil

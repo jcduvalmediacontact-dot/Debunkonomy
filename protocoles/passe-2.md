@@ -1666,3 +1666,82 @@ mais **rebasée** sur la nature encore fonctionnelle, dotation au moins aussi
 inégalement distribuée que les actuelles. Le transfert vers les pays riches en
 fonds naturels est réel ; **il ne bénéficie pas aux pays pauvres en fonds
 naturels**, souvent les mêmes que ceux que le dispositif entend servir.
+
+
+---
+
+## Le balayage rétrospectif — ce qu'une passe rend aux passes antérieures
+
+**Établi le 2026-09-06, et c'est le premier.** Le corpus disposait d'un mécanisme
+pour enregistrer ce qu'une passe REPORTE — ce fichier — et d'un autre pour
+enregistrer ce qu'un livre DOIT à un autre — la table de routage. **Il n'avait
+rien pour enregistrer ce qu'une passe REND à celles qui l'ont précédée**, alors
+que c'est la raison d'être de la méthode : *chaque passe se sert de la précédente
+pour répondre aux blancs des passes antérieures* (J.-C. Duval, 2026-09-06).
+
+**La règle qui en découle, et elle est désormais de tenue obligatoire.** Quand
+une passe se termine sur un livre, **on balaie les promesses des passes
+antérieures que ce livre a touchées**, et l'on inscrit le résultat dans la
+colonne « Soldée par » du registre — jamais dans un fichier séparé, qui
+divergerait. Le balayage n'est pas facultatif : sans lui, un travail qui répond à
+un blanc laisse ce blanc ouvert au registre, et la passe suivante le rouvre.
+
+### Balayage n° 1 — passe 1 du Livre 11 sur les promesses du Livre 1
+
+**Périmètre : 18 promesses touchées par les dix-sept chapitres du Livre 11.**
+Trois avaient été traitées au fil de l'eau (P52, P53, P54) ; **les quinze autres
+ont été balayées le 2026-09-06** et leur colonne est renseignée.
+
+**LE RÉSULTAT D'ENSEMBLE, ET IL FAUT LE DIRE DANS CE SENS : la passe n'a pas
+réduit le dossier, elle l'a durci.**
+
+| Ce que le balayage produit | Combien | Lesquelles |
+|---|---|---|
+| **Soldée** | **0** | — |
+| **Soldée sur une moitié** | 1 | P29 — le mécanisme de la borne est acquis, l'étanchéité non |
+| **Aggravée ou élargie** | 6 | P16, P25, P31, P37, P43, P49 |
+| **Déplacée sans être résolue** | 3 | P19b, P52, P55 |
+| **Instruite, avec une méthode qu'elle n'avait pas** | 3 | P18, P48, P50 |
+| **Instruite par composition** | 2 | P34, P35 |
+| **Reliée à une autre, calcul toujours dû** | 1 | P51 |
+| **Instruite, non soldée** | 2 | P53, P54 |
+
+**Aucune promesse n'est soldée, et une seule l'est à moitié.** Le corpus
+enregistre ce résultat comme tel : dix-sept chapitres d'instruction, quatre
+sources primaires ouvertes de première main, et **le dossier des objections est
+plus lourd qu'avant, non plus léger.** C'est ce qu'on attend d'une passe qui
+travaille — mais c'est aussi un renseignement sur le dispositif, et il ne doit
+pas être présenté autrement.
+
+**Ce que le balayage a trouvé et que personne ne cherchait — deux défauts de
+tenue du corpus lui-même.**
+
+**1. Deux conventions de numérotation coexistent dans le registre.** « P19b » et
+« P19c » sont des promesses distinctes, avec leur propre ligne. « P34b » désigne
+le POINT (b) de la ligne P34 et n'a pas de ligne. **Les deux notations sont
+identiques à l'œil**, et le corpus a cherché une ligne P34b qui n'existe pas.
+Signalé dans la colonne de P34 ; **non renuméroté**, la renumérotation d'un
+identifiant employé dans cinq fichiers étant une migration scriptée et non une
+correction de passage.
+
+**2. Une dette qui croît avec l'usage.** Kydland-Prescott 1977 fonde le falsifieur
+F7, la promesse P48 et le point (b) de P34 — **et le corpus s'en sert maintenant
+une troisième fois, en L11.C10, sans l'avoir jamais lu.** Le tirage acquis est un
+scan sans couche de texte. La liste d'acquisition portait « employé deux fois » :
+c'est trois. **Une source dont la charge probatoire augmente à chaque emploi est
+plus urgente qu'une source neuve**, et le corpus ne l'avait pas hiérarchisée
+ainsi.
+
+### Ce qui reste à balayer
+
+**Le balayage n° 1 ne couvre que les promesses.** Trois gisements de blancs
+antérieurs n'ont pas été balayés et le seront à la passe suivante :
+
+- **les `verifications_en_attente` des trente chapitres du Livre 1** — le Livre 11
+  a ouvert Tinbergen, Mundell et dépouillé Ostrom ; plusieurs vérifications du
+  Livre 1 en dépendent sans le savoir ;
+- **les falsifieurs** — F1 et F7 ont été requalifiés en cours de route
+  (`falsification.md`), mais F2 à F6 n'ont pas été relus à la lumière du Livre 11 ;
+- **le Livre 2**, dont les douze épisodes sont acquis et qui porte la macroprudence
+  — L11.C03 § 6 a établi que la doctrine de la séparation n'est pas unanime, ce
+  qui touche directement son objet.
