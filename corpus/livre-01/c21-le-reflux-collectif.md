@@ -73,18 +73,35 @@ sources_primaires:
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-492, 1977 — une autorité libre de réviser son plan à chaque période obtient un résultat inférieur à celle qui se lie par une règle annoncée, parce que les agents anticipent la révision. DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 pour le comportement des États (P34b) ; employée ici pour la première fois contre l'instrument du dispositif lui-même. RÉSERVE : référence non ouverte de première main"
     date_verification: 2026-09-04
 verifications_en_attente:
-  - "Friedman, Lucas et Kydland-Prescott de première main [S13], [S14], [S15].
-     Les trois références portent le § sur le mode de fixation des paramètres,
-     et aucune n'a été ouverte dans cette passe. Elles sont canoniques et leur
-     teneur n'est pas douteuse, mais le corpus ne fonde pas une objection au
-     dispositif sur des références non ouvertes — c'est la règle appliquée
-     depuis la leçon de méthode du 2026-09-04."
-  - "Existe-t-il un barème automatique éprouvé ? L'objection du § 6 se conclut
-     sur une réponse — la règle plutôt que le pilote — qui n'est pour l'instant
-     qu'un principe. Il faut établir si un dispositif fiscal ou monétaire
-     existant ajuste un barème d'impacts par formule publiée, et ce que cette
-     formule prend en argument. Sans cela, la réponse déplace la difficulté
-     vers la conception de la formule."
+  - "iedman, Lucas et Kydland-Prescott de première main [S13], [S14], [S15].
+     Les trois références portent le § sur le mode de fixation des
+     paramètres, et aucune n'a été ouverte dans cette passe. Elles sont
+     canoniques et leur teneur n'est pas douteuse, mais le corpus ne fonde
+     pas une objection au dispositif sur des références non ouvertes — c'est
+     la règle appliquée depuis la leçon de méthode du 2026-09-04. **BALAYAGE
+     N 2, 2026-09-06 — ETAT DES TROIS.** **Lucas 1976 : REQUALIFIE** sans
+     avoir ete ouvert, par Goutsmedt et al. 2017, lu : l'importance EMPIRIQUE
+     de la critique est contestee par Blinder, Fischer et Blanchard, et F7 a
+     ete repondere en consequence — Lucas affaibli, Friedman renforce.
+     **Friedman 1968 : toujours pas ouvert.** **Kydland-Prescott 1977 :
+     toujours pas ouvert, et employe une troisieme fois** en L11.C10 ; le
+     tirage acquis est un scan sans couche de texte. La regle du 2026-09-04
+     tient : aucune objection n'est fondee sur une reference non ouverte."
+  - "iste-t-il un barème automatique éprouvé ? L'objection du § 6 se conclut
+     sur une réponse — la règle plutôt que le pilote — qui n'est pour
+     l'instant qu'un principe. Il faut établir si un dispositif fiscal ou
+     monétaire existant ajuste un barème d'impacts par formule publiée, et ce
+     que cette formule prend en argument. Sans cela, la réponse déplace la
+     difficulté vers la conception de la formule. **BALAYAGE N 2, 2026-09-06
+     — LA FORME EST TROUVEE, LE PRECEDENT AUSSI.** L11.C12 etablit, sur le
+     chapitre IV de Tinbergen ouvert de premiere main, qu'un bareme regle est
+     une **DIRECTIVE** — *taux = f(donnees observees)* — ce qui repond
+     exactement a « ce que cette formule prend en argument » : les donnees,
+     au sens strict de ce qui echappe au commandement de l'autorite. **Et un
+     precedent reel existe** : les valeurs par defaut du mecanisme
+     d'ajustement carbone aux frontieres, versees en L11.C06. **Ce qui reste
+     ouvert est plus etroit** : aucun dispositif connu n'ajuste par formule
+     publiee un bareme d'IMPACTS a l'echelle universelle."
   - "Ordre de grandeur des délais de réponse de l'assiette. L'argument selon
      lequel la composition des échanges répond plus lentement qu'un volume est
      plausible et non mesuré. Un chiffre — durée de vie des équipements, délai
@@ -132,12 +149,21 @@ verifications_en_attente:
      Trancher exige un modèle quantifié avec tests de sensibilité — objet du
      Livre 13. Tant qu'il n'existe pas, la proposition n'est pas réfutée mais
      elle n'est pas non plus établie."
-  - "OUVERT — Élasticité de l'assiette. Un reflux transactionnel lourd sur les transactions
-     dégénératives réduit ces transactions ; c'est son objet, mais cela contracte
-     l'assiette qui finance le reflux. Le dispositif est donc conçu pour se
-     priver de ses propres recettes à mesure qu'il réussit. Le livre ne traite
-     pas ce point ; le Cahier ne le traite pas davantage. À établir : ce qui
-     prend le relais lorsque l'assiette dégénérative s'érode."
+  - "VERT — Élasticité de l'assiette. Un reflux transactionnel lourd sur les
+     transactions dégénératives réduit ces transactions ; c'est son objet,
+     mais cela contracte l'assiette qui finance le reflux. Le dispositif est
+     donc conçu pour se priver de ses propres recettes à mesure qu'il
+     réussit. Le livre ne traite pas ce point ; le Cahier ne le traite pas
+     davantage. À établir : ce qui prend le relais lorsque l'assiette
+     dégénérative s'érode. **BALAYAGE N 2, 2026-09-06 — LA QUESTION A UNE
+     CONSEQUENCE QUE LE CHAPITRE NE VOYAIT PAS.** L11.C16 § 2 etablit que le
+     produit du reflux PLAFONNE l'enveloppe d'emission. La contraction de
+     l'assiette ne prive donc pas seulement le dispositif de ses recettes :
+     **elle reduit ce qu'il peut financer**, et a saturation la valorisation
+     devient un partage a somme quasi nulle entre membres (L11.C16 § 4).
+     C'est la quatrieme contradiction interne recensee par L11.C17 § 7 — et
+     la seule qui s'y resolve favorablement, le bouclage rendant le biais
+     detectable en agregat."
   - "OUVERT — Effets de la taxation des transactions sur la liquidité. La
      littérature sur les taxes sur les transactions financières documente des
      effets sur les écarts de cotation et la volatilité [S8]. L'assiette retenue
@@ -264,8 +290,12 @@ verifications_en_attente:
   - "COHÉRENCE — Régime conception. Descriptions en ::etat::, propositions du
      livre en ::norme::, inférences critiques en ::hypothese::."
   # ── Renvois ────────────────────────────────────────────────────────────────
-  - "Renvoi à ajouter vers le Livre 11 (ingénierie des dispositifs de reflux transactionnels et des
-     prélèvements) et le Livre 13 (simulateur) quand ils existeront"
+  - "nvoi à ajouter vers le Livre 11 (ingénierie des dispositifs de reflux
+     transactionnels et des prélèvements) et le Livre 13 (simulateur) quand
+     ils existeront **BALAYAGE N 2, 2026-09-06 : LE LIVRE 11 EXISTE**, dix-
+     sept chapitres. Renvois a poser vers L11.C05 (assiette), L11.C06 (valeur
+     par defaut), L11.C07 (demurrage), L11.C09 (incidence) et L11.C12
+     (directive). Le Livre 13 reste a ouvrir."
 resume: "Ce chapitre expose le mécanisme de destruction monétaire sans lequel l'émission sans dette est indéfendable, et mesure ce qu'il établit. Le dispositif comporte deux instruments de sens opposé, que le corpus distingue désormais par deux noms. Le reflux transactionnel frappe l'échange : elle s'applique à la consommation finale et aux acquisitions d'actifs, modulée selon l'empreinte cumulée du bien, et elle est assise sur une base que les comptabilités nationales mesurent déjà. Le demurrage frappe la détention : il prélève sur les encaisses inactives au-delà d'un seuil indexé sur le revenu médian. Le chapitre montre pourquoi il en faut deux et non un — chacun répond à une objection que l'autre ne couvre pas, celle de Rueff au moment de la dépense et celle de Keynes au moment de l'immobilisation — et pourquoi leurs assiettes se compensent au fil du cycle, celle du premier se contractant précisément quand celle du second s'élargit. Il montre aussi que les issues de contournement sont fermées par construction, le reflux transactionnel s'appliquant aussi aux acquisitions d'actifs. Il écarte en revanche la reformulation de l'équation quantitative que le livre propose, qui n'ajoute rien à un mécanisme qui se défend seul. Et il établit que le calibrage n'existe pas : le cahier technique nomme six indicateurs de pilotage et déclare le seuil d'alerte à définir. Il établit enfin que le mode de fixation des paramètres n'avait pas été examiné : ce que le livre et le cahier décrivent est un pilotage discrétionnaire annuel, forme sur laquelle portent deux résultats établis — les délais longs et variables de la politique monétaire, et la déformation de l'assiette par anticipation du barème annoncé. Les deux convergent vers une règle automatique plutôt qu'un pilote, arbitrage que le livre n'a pas énoncé avoir tranché. Le chapitre écarte au passage la lecture qui verrait dans le rétrécissement de l'assiette une extinction élégante : le dispositif ne s'éteint que d'un côté, l'émission n'ayant aucune raison de décroître, et ce déséquilibre est précisément la configuration que Rueff décrit. Le chapitre conclut donc que l'objection inflationniste est adressée et non résolue, et il énonce ce qu'il faudrait pour trancher."
 concepts: [reflux_transactionnel, demurrage, monnaie_fondante, reflux_monetaire, creation_monetaire, degeneratif, qualification_regenerative, regle_contre_discretion]
 renvois: [L1.C08, L1.C10, L1.C11, L1.C17, L1.C18, L1.C19, L1.C20]

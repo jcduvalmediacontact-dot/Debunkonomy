@@ -243,8 +243,12 @@ verifications_en_attente:
   # ── Renvois ───────────────────────────────────────────────────────────────
   - "Renvois à ajouter vers L1.C20 (émission sans dette) et L1.C21 (reflux collectif)
      quand ils existeront"
-  - "Renvoi à ajouter vers le Livre 11, qui portera l'ingénierie des dispositifs de reflux transactionnels et
-     des prélèvements"
+  - "nvoi à ajouter vers le Livre 11, qui portera l'ingénierie des
+     dispositifs de reflux transactionnels et des prélèvements **BALAYAGE N
+     2, 2026-09-06 : LE LIVRE 11 EXISTE** — dix-sept chapitres, arbitrage A8
+     rendu par L11.C17. Le renvoi est desormais actionnable, et il vaut en
+     particulier vers L11.C12 (la directive) pour la regle de modulation que
+     ce chapitre releve comme non specifiee."
 resume: "Ce chapitre expose l'articulation que le livre propose entre la finance marchande existante et le financement de la régénération. Il commence par écarter une formulation du texte source : il ne s'agit pas de deux monnaies ni de deux circuits étanches, mais de deux orientations d'une seule et même monnaie, décidées par deux institutions appliquant des critères différents — l'émission de crédit par les banques commerciales selon la solvabilité, l'émission sans dette par les banques centrales sur qualification d'une activité régénérative. Le chapitre établit pourquoi la part marchande est maintenue plutôt que remplacée, et pourquoi le paradoxe que le livre énonce — ce dont tous ont besoin et que personne n'a intérêt à payer — est la définition même d'un bien de consommation collective, ce qui oblige à dire en quoi la réponse par l'impôt ne suffit pas. Il montre ensuite que la séparation n'existe qu'au point de création : à la dépense, l'unité émise est indiscernable et circule dans le circuit marchand, si bien que la régulation mutuelle des deux orientations reste affirmée sans être spécifiée. Il énonce enfin trois problèmes ouverts : le triangle d'incompatibilité qu'une conversion à taux fixe rencontre, l'aléa moral que le livre nomme sans le traiter, et le statut comptable de la contrepartie à l'actif des banques centrales."
 concepts: [creation_monetaire, reflux_monetaire, essentiel_insolvable, solvabilite_anticipee, qualification_regenerative, degeneratif, robustesse]
 renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18]

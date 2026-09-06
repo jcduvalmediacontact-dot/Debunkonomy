@@ -1732,7 +1732,7 @@ c'est trois. **Une source dont la charge probatoire augmente à chaque emploi es
 plus urgente qu'une source neuve**, et le corpus ne l'avait pas hiérarchisée
 ainsi.
 
-### Ce qui reste à balayer
+### Ce qui restait à balayer après le n° 1
 
 **Le balayage n° 1 ne couvre que les promesses.** Trois gisements de blancs
 antérieurs n'ont pas été balayés et le seront à la passe suivante :
@@ -1745,3 +1745,77 @@ antérieurs n'ont pas été balayés et le seront à la passe suivante :
 - **le Livre 2**, dont les douze épisodes sont acquis et qui porte la macroprudence
   — L11.C03 § 6 a établi que la doctrine de la séparation n'est pas unanime, ce
   qui touche directement son objet.
+
+### Balayage n° 2 — passe 1 du Livre 11 sur les `verifications_en_attente` du Livre 1
+
+**Périmètre mesuré : 459 entrées de vérification dans les trente chapitres du
+Livre 1**, dont **51 touchées** par un objet du Livre 11 — Tinbergen, Mundell,
+Ostrom, Hayek, Kydland-Prescott, Friedman, Lucas, Goodhart, ou l'un des mots du
+chantier des barèmes. **Quinze ont été renseignées le 2026-09-06**, celles où la
+passe 1 du Livre 11 rend l'entrée **fausse**, **périmée** ou **répondue**. Les
+trente-six autres sont des concordances de vocabulaire sans apport.
+
+**Ce que le balayage a corrigé, et il faut le dire en premier : une entrée était
+devenue fausse.** L1.C18 portait sur la connaissance dispersée que « **aucun
+chapitre ne la traite encore** ». Deux la traitent — L11.C05 § 6, où l'objection
+est versée par l'auteur lui-même sous la forme du crayon, et L11.C13 § 7 — et
+L11.C16 § 5 la localise sur la décision D2. **Une objection que le corpus tient
+pour la plus forte du dossier était portée comme non traitée alors qu'elle
+l'était deux fois.**
+
+**Ce que le balayage a débloqué.** Six entrées disaient « renvoi à ajouter vers
+le Livre 11 **quand il existera** ». Il existe : dix-sept chapitres, A8 rendu.
+Trois d'entre elles sont désormais actionnables et nomment leurs cibles.
+
+**Ce que le balayage a répondu — les huit entrées de fond.**
+
+| Chapitre | L'entrée demandait | Ce que le Livre 11 rend |
+|---|---|---|
+| L1.C18 | la formule d'équilibre dérivée | elle n'est pas exposée, mais sa **structure** l'est : le niveau est contraint, seule la structure est décidée (C16 § 2) |
+| L1.C21 | Friedman, Lucas, Kydland-Prescott non ouverts | **Lucas requalifié** sans être ouvert (Goutsmedt et al. 2017, lu) ; les deux autres toujours pas, et K-P employé une troisième fois |
+| L1.C21 | existe-t-il un barème automatique éprouvé ? | **la forme existe** — la directive (C12) — **et un précédent réel** : les valeurs par défaut du CBAM (C06). Ce qui reste ouvert est plus étroit |
+| L1.C21 | élasticité de l'assiette | la contraction ne prive pas seulement de recettes : **elle réduit ce qui peut être financé** (C16 § 2 et § 4) |
+| L1.C22 | l'option « norme au centre, qualification locale » | **partiellement tranchée, et pas dans le sens espéré** : elle laisse D2 centrale, et Mundell y interdit la polycentricité (C16 § 5) |
+| L1.C23 | la contradiction robustesse / centralisation | **A4 est partiellement tranché** sans que ce chapitre l'ait su |
+| L1.C26 | quelle procédure de révision des parités ? | **instruit par C15** : trois réponses incompatibles, dont la croissance du PIB ; et la forme est tranchée — constante ou directive |
+| L1.C27 | ce que le barème détermine réellement | **une quatrième borne, jamais nommée** : le produit du reflux (C16 § 2) |
+| L1.C28 | piloter sur un tableau de bord non agrégé | **la question a changé d'objet** : le tableau est l'entrée des barèmes, et la moitié de ses familles sont des objectifs (C14, A18) |
+| L1.C29 | le demurrage peut-il gager l'émission ? | **le corpus retire sa qualification de « voie la moins coûteuse »** : trois nœuds, aucun bon, et sa vertu contracyclique échoue quand on en a besoin (C07) |
+
+**Une seule qualification est retirée**, et c'est celle de L1.C29 : le demurrage
+n'est pas la voie de sortie la moins coûteuse. **Aucune entrée n'est close.**
+
+### Ce que le balayage n° 2 a trouvé dans l'instrument de contrôle
+
+**`controle.py` calcule deux empreintes et n'en compare qu'une.** L'empreinte
+**éditoriale** porte sur le corps et le résumé ; c'est elle qui déclenche la
+demande d'arbitrage « fond ou éditorial ». L'empreinte **métadonnées** porte sur
+tout le reste de l'en-tête — donc sur `sources_primaires`, `date_verification`,
+`statut`, `citable`, `concepts`, `renvois`. **Elle est calculée, stockée dans
+`.etat-corpus.json`, et jamais relue** : `ancien.get("metadonnees")` n'apparaît
+nulle part.
+
+**Conséquence, et elle porte sur le champ le plus sensible du corpus.** Une
+modification de `date_verification` passe sans aucun signal. Or c'est le champ
+que la règle fondatrice protège — *ne jamais écrire une `date_verification`
+avant qu'un humain ait ouvert la source*. **L'empreinte qui permettrait de
+détecter une altération existe et n'est pas branchée.**
+
+**Le corpus ne corrige pas de lui-même.** `controle.py` est l'autorité, et la
+convention § 15 exige une migration scriptée et un incrément du journal des
+révisions pour toute modification du schéma ou de son contrôle. **Signalé à
+l'auteur le 2026-09-06 ; décision à rendre.** Effet de bord favorable à noter :
+c'est parce que l'empreinte métadonnées n'est pas comparée que les quinze
+entrées ci-dessus ont pu être renseignées sans que quinze chapitres du Livre 1
+voient leur `revision_de_fond` bougée — ce qui est le bon classement, le dossier
+de vérification étant matière de travail et non assertion du chapitre.
+
+### Ce qui reste à balayer
+
+- **les falsifieurs F2 à F6**, jamais relus à la lumière du Livre 11 — F1 et F7
+  l'ont été en cours de route ;
+- **le Livre 2**, dont les douze épisodes sont acquis et qui porte la
+  macroprudence : L11.C03 § 6 a établi que la doctrine de la séparation n'est pas
+  unanime, ce qui touche directement son objet ;
+- **les trente-six concordances sans apport** du présent balayage : elles n'ont
+  pas été relues une à une, seulement écartées sur lecture rapide.

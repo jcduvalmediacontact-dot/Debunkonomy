@@ -88,12 +88,22 @@ verifications_en_attente:
      hors de la zone, chez des acteurs sans incitation à coopérer à la mesure.
      Il faut établir si un dispositif existant y parvient, ne serait-ce qu'à
      l'échelle d'un secteur."
-  - "Élasticité de la demande de communs certifiés. Le § 6 établit que
-     l'équilibre extérieur d'un pays dépendrait du volume de communs qu'il peut
-     faire certifier, et donc du barème voté au centre. Il faut savoir ce que
-     ce barème détermine réellement : à quel rythme un pays peut accroître ses
-     recettes certifiées, et si ce rythme est borné par la nature disponible,
-     par la capacité d'audit, ou par une décision de volume."
+  - "asticité de la demande de communs certifiés. Le § 6 établit que
+     l'équilibre extérieur d'un pays dépendrait du volume de communs qu'il
+     peut faire certifier, et donc du barème voté au centre. Il faut savoir
+     ce que ce barème détermine réellement : à quel rythme un pays peut
+     accroître ses recettes certifiées, et si ce rythme est borné par la
+     nature disponible, par la capacité d'audit, ou par une décision de
+     volume. **BALAYAGE N 2, 2026-09-06 — LA TROISIEME BRANCHE EST LA BONNE,
+     ET ELLE EST ETABLIE.** La question demandait si le rythme est borne par
+     la nature disponible, par la capacite d'audit ou par une decision de
+     volume. **C'est une quatrieme borne, que le chapitre ne nommait pas** :
+     L11.C16 § 2 etablit que le volume est plafonne par le PRODUIT DU REFLUX,
+     lui-meme borne par la condition-limite B1 — donc ni par la nature, ni
+     par l'audit, ni par une decision. **L'Assemblee ne decide pas combien de
+     monnaie existe : elle decide un partage sous enveloppe plafonnee**, et
+     P52 s'en trouve durcie. Sur le rythme, L11.C16 § 8 ajoute que le delai
+     biologique de la restauration excede celui du desequilibre a corriger."
   - "Régime transitoire pour une économie écologiquement épuisée. Le § 6 relève
      qu'un pays ayant déjà détruit ses fonds naturels dispose de la voie de la
      restauration, mais que celle-ci est lente et capitalistique alors que le

@@ -85,10 +85,19 @@ verifications_en_attente:
      ce qu'une fixation par critères écologiques signifierait techniquement :
      quel prix relatif entre deux monnaies un critère de robustesse détermine,
      et par quelle opération."
-  - "Quelle procédure de révision ? Les taux sont dits « fixes par conception »
+  - "elle procédure de révision ? Les taux sont dits « fixes par conception »
      puis « fixes mais ajustables ». Si ajustables, il faut la procédure, son
-     rythme, son autorité et ses critères — et le § 6 établit que ces questions
-     sont les mêmes que celles du pilotage des taux de reflux (F7, P48)."
+     rythme, son autorité et ses critères — et le § 6 établit que ces
+     questions sont les mêmes que celles du pilotage des taux de reflux (F7,
+     P48). **BALAYAGE N 2, 2026-09-06 — INSTRUIT PAR L11.C15.** Trois
+     reponses incompatibles figurent au dossier, et la troisieme n'avait pas
+     ete relevee ici : L1.C28 § 6, sous P54, nomme **la croissance du produit
+     interieur brut** parmi les criteres de revision — dans le chapitre meme
+     intitule « Au-dela du PIB ». **Et la forme est tranchee** : une parite
+     est un bareme, donc une CONSTANTE ou une DIRECTIVE ; « ajustable sans
+     procedure » n'est pas une troisieme forme mais l'absence de forme, et
+     c'est la position actuelle. S'y ajoute qu'une revision de parite est un
+     TRANSFERT dont personne n'a dit qui le supporte. Arbitrage A19."
   - "Le régime des flux de capitaux. Le § 4 montre que la question décide de
      tout, et le livre ne la traite pas : NEMO SWIFT traite-t-il les seuls
      règlements commerciaux, ou tout transfert transfrontalier ? L1.C21

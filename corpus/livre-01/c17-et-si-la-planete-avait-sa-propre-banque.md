@@ -107,7 +107,11 @@ verifications_en_attente:
   - "COHÉRENCE — Le § 4 reprend l'analyse thermodynamique de L1.C03 et L1.C15 § 3 sans y ajouter."
   # — Renvois —
   - "Renvoi à ajouter vers L1.C18 (« Le GAÏA Economic Symposium ») quand il existera"
-  - "Renvois à ajouter vers L1.C19 (finance Yin/Yang), L1.C20 (monnaie sans dette), L1.C21 (reflux collectif), L1.C22 (financer les communs) quand ils existeront"
+  - "nvois à ajouter vers L1.C19 (finance Yin/Yang), L1.C20 (monnaie sans
+     dette), L1.C21 (reflux collectif), L1.C22 (financer les communs) quand
+     ils existeront **BALAYAGE N 2, 2026-09-06 : ces chapitres existent
+     tous.** Renvoi a ajouter en outre vers le Livre 11, qui compte dix-sept
+     chapitres et porte l'ingenierie des baremes."
 resume: "Ce chapitre ouvre la seconde partie du livre en posant une question plutôt qu'en démontrant une thèse : selon quel critère la monnaie nouvelle est-elle créée, et ce critère pourrait-il tenir compte de l'état documenté des fonds naturels ? Il écarte trois manières illégitimes d'y répondre — l'analogie historique, qui ne prouve rien ; l'hypothèse Gaïa dans sa version forte, réfutée faute de sélection possible à l'échelle planétaire, et remplacée par la persistance différentielle des configurations stabilisantes ; et l'emploi de « néguentropique » comme si une monnaie avait des propriétés physiques, alors que ce qu'une émission peut financer est l'entretien de structures dissipatives captant le flux solaire, sans s'affranchir de la dissipation de la matière. Il énonce enfin les fonctions d'une institution monétaire mandatée pour la biosphère, en posant que l'émission et le reflux forment un mécanisme unique — une émission sans destruction calibrée distribue un pouvoir d'achat net et est inflationniste — et en listant les cinq problèmes non résolus dont dépend la suite : légitimité, qualification, calibration, ancrage, aléa moral."
 concepts: [creation_monetaire, reflux_monetaire, essentiel_insolvable, degeneratif, limites_planetaires, entropie, robustesse]
 renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C15, L1.C16]

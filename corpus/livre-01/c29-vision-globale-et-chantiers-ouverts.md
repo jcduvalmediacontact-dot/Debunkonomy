@@ -71,11 +71,21 @@ verifications_en_attente:
      l'horizon d'amortissement ; si elle se contracte en vingt ans, elle ne
      l'est pas. C'est la même mesure que celle demandée en L1.C21 et elle
      décide ici de la portée de l'objection."
-  - "Le demurrage peut-il gager l'émission ? Le § 5 relève que le second
+  - " demurrage peut-il gager l'émission ? Le § 5 relève que le second
      ressort a une assiette qui ne dépend pas de la composition des échanges,
-     et pourrait donc fournir une créance non érodée. Ni le livre ni le Cahier
-     ne l'écrivent : la créance est adossée aux seules dispositifs de reflux transactionnels.
-     À instruire — c'est la voie de sortie la moins coûteuse."
+     et pourrait donc fournir une créance non érodée. Ni le livre ni le
+     Cahier ne l'écrivent : la créance est adossée aux seules dispositifs de
+     reflux transactionnels. À instruire — c'est la voie de sortie la moins
+     coûteuse. **BALAYAGE N 2, 2026-09-06 — LA VOIE DE SORTIE EST PLUS
+     COUTEUSE QU'ANNONCE, et le corpus retire ici sa qualification de « moins
+     couteuse ».** L11.C07 etablit que le demurrage a trois noeuds de
+     prelevement possibles et **qu'aucun n'est bon**, et que sa vertu
+     contracyclique echoue dans l'etat meme pour lequel elle est concue.
+     L11.C04 ajoute que sa borne superieure releve du resultat d'arbitrage de
+     Mundell, ouvert de premiere main : au-dela, la fuite vers les substituts
+     est massive — c'est la condition-limite B1. **L'assiette est bien
+     independante de la composition des echanges ; elle n'est pas
+     independante du taux.**"
   - "Y a-t-il un précédent d'émission gagée sur un flux fiscal futur ? Le § 4
      soutient qu'un État ne porte pas ses recettes futures à l'actif de son
      bilan. Il faut vérifier ce point sur les cadres de comptabilité publique

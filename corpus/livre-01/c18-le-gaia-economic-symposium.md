@@ -157,12 +157,21 @@ verifications_en_attente:
      double majorité [S9 pour le modèle] est une règle de décision, non un titre
      démocratique. P15 reste partiellement ouverte."
   # ── Problèmes ouverts que la suite doit résoudre ────────────────────────────
-  - "OUVERT — Connaissance dispersée [S10] : qualifier centralement ce qui
-     régénère se heurte à l'argument de Hayek. Le livre y répond partiellement en
-     mesurant des états physiques plutôt qu'en planifiant des activités, mais
-     mesurer un état ne renseigne pas sur les coûts d'opportunité locaux. C'est
-     l'objection la plus forte adressée au dispositif ; aucun chapitre ne la
-     traite encore."
+  - "VERT — Connaissance dispersée [S10] : qualifier centralement ce qui
+     régénère se heurte à l'argument de Hayek. Le livre y répond
+     partiellement en mesurant des états physiques plutôt qu'en planifiant
+     des activités, mais mesurer un état ne renseigne pas sur les coûts
+     d'opportunité locaux. C'est l'objection la plus forte adressée au
+     dispositif ; aucun chapitre ne la traite encore. **BALAYAGE N 2,
+     2026-09-06 : LA DERNIERE PHRASE EST DEVENUE FAUSSE.** Deux chapitres la
+     traitent desormais, par deux chemins independants — L11.C05 § 6, sur
+     l'assiette du reflux, ou l'objection est versee par l'auteur lui-meme
+     sous la forme du crayon dont personne ne connait la genealogie, et
+     L11.C13 § 7, sur la qualification. **Et L11.C16 § 5 la localise** : la
+     polycentricite est praticable sur le CONSTAT (D3) et interdite sur les
+     VALEURS (D2) par le resultat de Mundell. L'objection n'est pas levee —
+     elle porte desormais sur une decision et une seule, et sur celle-la elle
+     reste entiere."
   - "OUVERT — Incohérence temporelle et dominance budgétaire [S11] : confier un
      levier d'émission à une architecture dédiée à un objectif sectoriel peut
      désancrer les anticipations. Le livre y répond par la composition du Conseil
@@ -174,11 +183,18 @@ verifications_en_attente:
   - "OUVERT — Obstacle de droit positif [S8] : voir § 6. Trois cas à distinguer
      selon le statut du bénéficiaire et le caractère contraignant ou non des
      décisions du Conseil Monétaire. À trancher avant L1.C20."
-  - "OUVERT — La « formule d'équilibre dérivée » qui fixe le volume annuel maximal
-     et le taux plancher de reflux est nommée par le livre, non exposée dans ce
-     chapitre. Tant qu'elle n'est pas ouverte, P18 n'est pas soldée : le chapitre
-     établit qu'un organe est chargé de la calibration, non que la calibration
-     fonctionne."
+  - "VERT — La « formule d'équilibre dérivée » qui fixe le volume annuel
+     maximal et le taux plancher de reflux est nommée par le livre, non
+     exposée dans ce chapitre. Tant qu'elle n'est pas ouverte, P18 n'est pas
+     soldée : le chapitre établit qu'un organe est chargé de la calibration,
+     non que la calibration fonctionne. **BALAYAGE N 2, 2026-09-06.** La
+     formule n'est toujours pas exposee, mais le Livre 11 en a etabli la
+     STRUCTURE : L11.C16 § 2 montre que le NIVEAU n'est pas une decision — le
+     bouclage le lie au produit du reflux, borne par la condition-limite B1 —
+     et que seule la STRUCTURE est arretee. **La calibration n'est donc pas
+     un nombre mais deux grandeurs de statut oppose.** S'y ajoute L11.C17 § 6
+     : une sous-emission systematique devient DETECTABLE en agregat. P18
+     n'est pas soldee ; elle a une methode."
   # ── Rapport documentaire du 2026-09-04 : ce qu'il a établi ─────────────────
   - "CORRIGÉ — Double majorité : le livre en fait « le seul mécanisme qui protège
      simultanément les petits et les nombreux ». C'est faux. Nice tassait

@@ -205,11 +205,20 @@ verifications_en_attente:
   - "OUVERT — L'additionnalité budgétaire. Aucun chiffre du livre n'est un
      chiffre net. La clause d'effort maintenu, qui est le remède connu, ramène
      le dispositif à une négociation avec les États."
-  - "OUVERT — La qualification centralisée. La littérature des communs oppose
-     à la détermination centrale une organisation polycentrique. Le corpus
+  - "VERT — La qualification centralisée. La littérature des communs oppose à
+     la détermination centrale une organisation polycentrique. Le corpus
      enregistre l'option — qualification instruite à l'échelle d'usage, norme
      votée au centre — sans la trancher : elle abaisse l'objection de la
-     connaissance dispersée (P19b) et relève celle de la capture locale."
+     connaissance dispersée (P19b) et relève celle de la capture locale.
+     **BALAYAGE N 2, 2026-09-06 — L'OPTION EST PARTIELLEMENT TRANCHEE, ET PAS
+     DANS LE SENS ESPERE.** Rapportee aux quatre decisions de L11.C11, elle
+     rend le CONSTAT (D3) local et laisse les VALEURS (D2) centrales — or
+     L11.C13 § 3 a etabli que D2 est le domicile de la promesse bloquante
+     P52. **L'option ne touche donc pas le noeud.** Et L11.C16 § 5 etablit
+     qu'elle ne le peut pas : le resultat de Mundell interdit la
+     polycentricite sur D2, un bareme module nationalement recreant la
+     contrainte qu'un bareme global annule. **Uniforme il est arbitraire, non
+     uniforme il est arbitre.**"
   - "REPORTÉ — La sanctuarisation juridique des communs, que le livre pose en
      condition sine qua non (L1.C19 § 5), relève du Livre 6. Le corpus note
      seulement ici que la difficulté du préalable n'est pas inférieure à celle

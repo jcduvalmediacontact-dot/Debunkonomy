@@ -225,11 +225,17 @@ verifications_en_attente:
      littérature en donne le principe, non l'ordre de grandeur pour une économie
      entière."
   # ── Problèmes ouverts ──────────────────────────────────────────────────────
-  - "OUVERT — La contradiction du § 5. Le dispositif se réclame de la robustesse
-     et présente une architecture centralisée sur les trois plans où la
-     littérature de la robustesse recommande l'inverse. C'est la seconde fois
-     que cette objection paraît, par une voie indépendante de la première
-     (L1.C22 § 2, polycentricité). À trancher en A4."
+  - "VERT — La contradiction du § 5. Le dispositif se réclame de la
+     robustesse et présente une architecture centralisée sur les trois plans
+     où la littérature de la robustesse recommande l'inverse. C'est la
+     seconde fois que cette objection paraît, par une voie indépendante de la
+     première (L1.C22 § 2, polycentricité). À trancher en A4. **BALAYAGE N 2,
+     2026-09-06 : A4 EST PARTIELLEMENT TRANCHE, sans que ce chapitre l'ait
+     su.** L11.C16 § 5 etablit que la polycentricite est praticable sur la
+     decision de CONSTAT et interdite sur celle des VALEURS, par le resultat
+     de Mundell ouvert de premiere main. **L'arbitrage ne porte donc plus sur
+     un degre de centralisation mais sur une decision identifiee**, et la
+     contradiction relevee ici se resserre d'autant."
   - "OUVERT — Le volume émissible en transition. Il est borné par les capacités physiques réellement disponibles, non par l'équilibre entre émission et destruction. Aucun taux de reflux ne relâche cette borne. Savoir quels facteurs sont partagés entre secteurs contractés et secteurs financés est une question de composition sectorielle, jamais posée."
   - "OUVERT — L'ordonnancement. Réduire avant que la capacité régénérative
      existe produit du chômage et un retour de bâton politique ; la construire

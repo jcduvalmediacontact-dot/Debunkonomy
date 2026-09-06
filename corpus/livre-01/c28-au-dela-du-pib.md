@@ -60,13 +60,19 @@ verifications_en_attente:
      `protocoles/sources-a-ouvrir.md` — le rapport est librement accessible."
   - "Raworth de première main [S6]. Le donut est invoqué par le livre comme
      boussole, et le corpus s'en sert depuis L1.C04 sans l'avoir ouvert."
-  - "Existe-t-il un dispositif qui pilote des instruments monétaires sur un
-     tableau de bord non agrégé ? Le § 4 établit qu'un tableau de bord n'arbitre
-     pas et qu'une règle d'agrégation implicite est énoncée sans être formulée.
-     Il faut chercher un précédent : une banque centrale ou une autorité
-     macroprudentielle qui module ses instruments sur plusieurs familles
-     d'indicateurs sans indice composite, et la manière dont elle traite les
-     conflits entre familles."
+  - "iste-t-il un dispositif qui pilote des instruments monétaires sur un
+     tableau de bord non agrégé ? Le § 4 établit qu'un tableau de bord
+     n'arbitre pas et qu'une règle d'agrégation implicite est énoncée sans
+     être formulée. Il faut chercher un précédent : une banque centrale ou
+     une autorité macroprudentielle qui module ses instruments sur plusieurs
+     familles d'indicateurs sans indice composite, et la manière dont elle
+     traite les conflits entre familles. **BALAYAGE N 2, 2026-09-06 — LA
+     QUESTION A CHANGE D'OBJET.** L11.C14 etablit que le tableau de bord
+     n'est pas le cinquieme bareme mais **l'ENTREE des autres**, donc
+     anterieur et non terminal. Chercher un precedent de pilotage sur tableau
+     de bord non agrege reste utile ; **mais la difficulte principale est
+     ailleurs** : la moitie des six familles sont des OBJECTIFS et non des
+     donnees, et une directive lit des donnees. Arbitrage A18."
   - "Les indicateurs Herfindahl-Hirschman étendus aux chaînes
      d'approvisionnement [S4]. L'expression est employée sans référence. Il
      faut établir si une telle extension est constituée dans la littérature ou
@@ -77,11 +83,18 @@ verifications_en_attente:
      composite à neuf domaines et trente-trois indicateurs, dont la
      construction et les pondérations ont été discutées. Employer le BNB comme
      référence favorable suppose d'avoir examiné ces critiques."
-  - "Le tableau de bord répond-il à la question du chapitre ? Le § 6 établit
+  - " tableau de bord répond-il à la question du chapitre ? Le § 6 établit
      que les six familles ne comportent aucun substitut à ce que le produit
      intérieur brut mesure, et le corpus n'a pas cherché si le livre ou le
-     Cahier en proposent un ailleurs. Vérification à faire sur les onze autres
-     épisodes avant de clore ce point."
+     Cahier en proposent un ailleurs. Vérification à faire sur les onze
+     autres épisodes avant de clore ce point. **BALAYAGE N 2, 2026-09-06.**
+     La verification sur les onze autres episodes n'a pas ete faite. **Mais
+     L11.C14 a etabli un resultat qui la precede** : les six familles ne sont
+     pas homogenes — biospherique et sociale sont des objectifs, monetaire
+     est une condition au sens de Tinbergen, internationale est une donnee
+     sauf a couverture complete. **Savoir ce que le tableau SUBSTITUE au
+     produit interieur brut suppose d'abord de savoir ce que chaque famille
+     EST.** A18 est donc prealable a ce point."
 resume: "Ce chapitre examine ce que la proposition met à la place du produit intérieur brut. Il restitue d'abord la critique que le livre lui adresse — un indicateur qui compte positivement des productions superflues ou nuisibles, et qui ignore les fondations dont dépend ce qu'il mesure — et il l'accorde, en relevant qu'elle est largement partagée et qu'elle n'est donc pas ce qui distingue la proposition. Il distingue ensuite trois objets que le livre et le Cahier Technique emploient sans les séparer : le donut comme boussole normative, le Bonheur National Brut comme indice composite de référence, et le tableau de bord macroprudentiel en six familles d'indicateurs qui constitue la contribution propre du dispositif. Il établit quatre résultats. Le premier est que ce tableau de bord, qui pilote des instruments monétaires, n'arbitre pas : la littérature à laquelle il appartient a établi que le choix entre un indice composite et un ensemble d'indicateurs est un arbitrage entre la capacité de trancher et l'aveu que les pondérations sont normatives, et le Cahier énonce une règle d'agrégation implicite sans jamais la formuler. Le deuxième est que la famille censée mesurer la robustesse de l'économie réelle ne mesure qu'une des trois propriétés que le corpus a retenues sous ce nom, la diversité, en laissant de côté la redondance et la modularité. Le troisième est que conditionner des instruments monétaires à des indicateurs publiés étend au tableau de bord entier l'objection de l'indicateur pris pour cible, déjà ouverte contre le barème de qualification. Le quatrième est une contradiction interne que le titre du chapitre rend visible : le seul endroit de l'ouvrage où un critère de révision des parités du référentiel de change est nommé propose de l'indexer, entre autres, sur la croissance du produit intérieur brut."
 concepts: [indicateur_de_progres, robustesse, limites_planetaires, plafond_ecologique, plancher_social, qualification_regenerative]
 renvois: [L1.C03, L1.C04, L1.C18, L1.C22, L1.C23, L1.C26, L1.C27]
