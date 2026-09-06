@@ -38,7 +38,18 @@ un livre court, et la réponse change tout le positionnement du projet.
 
 ## Trois modifications de périmètre proposées
 
-### 1. Élargir le Livre 11
+### 1. ~~Élargir le Livre 11~~ — ACCEPTÉE le 2026-09-05, arbitrage de l'auteur
+
+**ÉTAT AU 2026-09-06.** L'élargissement est fait, le livre compte **dix-huit
+chapitres**, et **A8 a été rendu par L11.C17**. Deux corrections à porter à ce
+qui suit. **Il n'y avait pas cinq barèmes mais trois, plus une entrée** : le
+tableau de bord n'est pas un barème mais l'entrée des autres (L11.C14), et la
+valorisation des communs est la décision D2 du barème de qualification
+(L11.C13 § 3, L11.C16). **Et A5, le périmètre, est routé vers le Livre 7** par
+arbitrage de l'auteur du 2026-09-06 : il ne figure plus dans la charge du 11.
+Le rattachement énoncé ci-dessous reste exact — décider ce qui qualifie EST
+décider ce qui est financé — mais il se lit désormais comme un **couplage entre
+deux livres**, non comme une charge d'un seul.
 
 **Intitulé actuel :** « Ingénierie de la fonte monétaire et des prélèvements
 transactionnels ».
@@ -57,7 +68,14 @@ Ouvrir un livre distinct pour les barèmes laisserait au 11 la seul reflux trans
 c'est-à-dire un des cinq — et reproduirait exactement la dispersion qu'A8
 diagnostique. L'élargissement est préférable à la création.
 
-**Charge après élargissement :** 12 promesses, F7, A3, A5, A7, A8.
+~~**Charge après élargissement :** 12 promesses, F7, A3, A5, A7, A8.~~
+
+**CHARGE RÉELLE AU 2026-09-06**, après dix-huit chapitres. **Rendus** : A8, et
+A15 tranché par l'auteur. **Réglés en forme** : A7, par la directive (L11.C12).
+**Routé ailleurs** : A5, vers le Livre 7. **Ouverts par le livre lui-même** :
+A9 à A14, A16 à A21 — soit **treize arbitrages là où la table en prévoyait
+cinq.** Le livre n'a pas soldé sa charge : **il l'a instruite et augmentée**,
+ce qui est le résultat attendu d'une passe 1 et doit être lu comme tel.
 
 ### 2. Ouvrir le Livre 19 — Comptabilité monétaire de l'émission sans dette
 

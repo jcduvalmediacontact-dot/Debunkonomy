@@ -30,7 +30,7 @@ en déplaçant la ligne, non en la dédoublant.
 
 | Livre | Titre | Promesses | Falsifieurs | Arbitrages | Charge |
 |---|---|---|---|---|---|
-| **13** | Méthodes, données, scénarios et simulateur | 8 | **F1** | — | **lourde** |
+| **13** | Méthodes, données, scénarios et simulateur | 8 | **F1** | — | **lourde** — *débloqué en partie le 2026-09-06* |
 | **3** | Dilemmes du SMI et leur résolution | **11** | **F6** | — | **lourde** |
 | **7** | GAÏA Economic Symposium | **13** | **F3** | A2, A4, **A5** | **lourde** |
 | **11** | Ingénierie du reflux transactionnel et des prélèvements | 7 | **F7** | A3, A7 | **lourde** |
@@ -184,8 +184,19 @@ barèmes (A8), qui n'a pas de livre.
 | P38 | La robustesse perçue est consommée |
 | **F1** | **La calibration** — le point dur du dossier |
 
-**Ce livre est bloqué par A8.** On ne calibre pas un dispositif dont les
-barèmes ne sont pas définis, et cinq d'entre eux ne le sont pas.
+~~**Ce livre est bloqué par A8.** On ne calibre pas un dispositif dont les
+barèmes ne sont pas définis, et cinq d'entre eux ne le sont pas.~~
+
+**DÉBLOQUÉ EN PARTIE le 2026-09-06 — A8 est rendu par L11.C17.** Et il n'y avait
+pas cinq barèmes mais **trois, plus une entrée** : le tableau de bord n'est pas
+un barème, et la valorisation est la décision D2 du barème de qualification.
+**Ce qui est établi, ce sont les FORMES ; ce qui ne l'est pas, ce sont les
+VALEURS** — D2 reste ouverte sur les trois (A19, A20, A21), et deux de ces
+arbitrages remontent au Livre 7. **Le Livre 13 peut être conçu, non exécuté.**
+Voir la section des couplages : huit acquis et un bon de commande de six
+chiffrages. **L'acquis principal renverse une position du corpus** — le chiffrage
+était tenu pour impossible faute d'élasticités ; la méthode par intervalles de
+variation de Tinbergen le rend faisable aujourd'hui, aux bornes.
 
 ### Livre 14 — Gouverner la preuve *(candidat)*
 
@@ -366,6 +377,50 @@ Livre 11 lui remet, et annote les quatre promesses que la table lui attribue.
 **Ce que le Livre 2 doit en retour :** P23 et P26, dont la table dit que la
 réponse est trouvée en L2.E09 ; P28, dont la piste y est trouvée ; et P36, en
 concours avec le 9.
+
+### Livre 11 → Livre 13 — le déblocage, et ce qu'il porte exactement
+
+**C'EST LA RAISON D'ÊTRE DU LIVRE 11.** La table portait : *« Ce livre est bloqué
+par A8. On ne calibre pas un dispositif dont les barèmes ne sont pas définis, et
+cinq d'entre eux ne le sont pas. »* **A8 est rendu le 2026-09-06 par L11.C17.**
+
+**Le déblocage est réel et il est partiel, et le corpus dit lequel.** Ce qui est
+établi, ce sont les **formes** — trois barèmes et une entrée, la directive comme
+forme commune, les quatre décisions, les douze conditions-limites. **Ce qui ne
+l'est pas, ce sont les valeurs** : la décision D2 reste ouverte sur les trois
+barèmes (A19, A20, A21) et deux d'entre elles remontent au Livre 7. **Le Livre 13
+peut donc être CONÇU ; il ne peut pas encore être EXÉCUTÉ.** C'est un changement
+d'état, pas une levée.
+
+**L'acquis principal renverse une position que le corpus tenait depuis
+l'ouverture du dossier.**
+
+| # | Acquis | Où | Ce qu'il impose au Livre 13 |
+|---|---|---|---|
+| **1** | **LE CHIFFRAGE EST POSSIBLE, et le corpus retire l'affirmation contraire** | L11.C03, sur Tinbergen ch. VII | Le corpus tenait F1 et P18 pour non chiffrables faute d'élasticités. Tinbergen donne la méthode : **indiquer des INTERVALLES DE VARIATION pour les coefficients et résoudre aux valeurs extrêmes**, plutôt qu'attendre la valeur vraie. **Un simulateur qui résout aux bornes est réalisable aujourd'hui** ; un simulateur qui attend l'estimation ne le sera jamais, F1 relevant de la classe (d) où « empirical research [...] is still almost completely lacking » |
+| **2** | **DEUX MESURES D'EFFICACITÉ, ET ELLES PEUVENT DIFFÉRER DE SIGNE** | L11.C03 [S1], Tinbergen ch. VII | L'effet d'un instrument se mesure de deux façons non identiques — les autres instruments tenus constants, ou les autres cibles tenues constantes — et Tinbergen écrit que « **both order of magnitude and algebraic sign are different in a number of cases** ». **Un simulateur qui ne publie qu'une des deux mesures peut publier le mauvais signe.** C'est l'avertissement méthodologique de premier ordre du couplage |
+| **3** | **LE COMPTE SE FAIT PAR ÉTAGE, et le déficit est localisé** | L11.C03 | Étage du **volume** : trois objectifs contre trois instruments — **cas normal**. Étage de la **structure** : deux contre un — **c'est là qu'est le déficit**. Un simulateur qui agrège les deux étages **ne verra ni le cas normal ni le déficit** |
+| **4** | **DOUZE CONDITIONS-LIMITES, DONT SIX NE MORDENT QUE SOUS TENSION** | L11.C03 § 5, L11.C16 § 7 | Elles **comptent comme des objectifs** dès qu'elles sont menacées. **Un simulateur qui ne les modélise pas simule le cas facile** — or le compte est au pire quand le dispositif est le plus sollicité. **Et Tinbergen donne le critère d'échec terminal** : si le nombre de conditions-limites violées dépasse le nombre d'instruments, aucune solution n'existe. **C'est un test exécutable, et c'est le plus utile du couplage** |
+| **5** | **L'ENVELOPPE A UN PLAFOND, ET IL N'EST PAS LIBRE** | L11.C16 § 2 | Le volume émis est lié au produit du reflux, lui-même borné par **B1** — au-delà d'un taux compris entre −0,5 % et −1 %, l'évitement devient massif. **L'émission n'est pas une variable de commande du simulateur : c'est une variable liée** |
+| **6** | **UN OBSERVABLE DE DIAGNOSTIC** | L11.C17 § 6 | Une sous-qualification systématique produit un **déficit d'émission contre une capacité de reflux constatée**, agrégat observable et comparable d'une année à l'autre. **C'est la sortie la plus informative que le simulateur puisse produire**, et elle porte aussi le prix d'un seuil d'exemption (L11.C18 § 6) |
+| **7** | **CE QUI EST SIMULÉ EST UNE DIRECTIVE, PAS UNE TABLE** | L11.C12, L11.C14 | Le simulateur modélise *taux = f(données)*, non un barème figé. **Et l'entrée est le tableau de bord**, dont la moitié des familles sont des OBJECTIFS et non des données (A18). **Les y injecter comme entrées produit une boucle de rétroaction, non une règle de politique** — un autre système que celui décrit |
+| **8** | **LE CORPUS N'A AUCUNE BORNE EMPIRIQUE SUR LE TAUX** | L11.C05 § 3 | Le 0,5 % employé jusqu'au 2026-09-05 est un taux **sur les paiements** ; l'assiette du livre est la **consommation finale**. Le corpus avait importé un nombre d'un instrument vers un autre. **Le facteur de conversion est le rapport du chiffre d'affaires cumulé à la valeur finale**, et c'est la première grandeur que le Livre 13 doit produire |
+
+**LES SIX CHIFFRAGES QUE LE LIVRE 11 A NOMMÉS ET N'A PAS FAITS.** C'est le bon de
+commande du Livre 13, et aucun n'est hors de portée.
+
+| # | La grandeur | D'où | Ce qu'elle décide |
+|---|---|---|---|
+| 1 | rapport **chiffre d'affaires cumulé ÷ valeur finale** | L11.C05 § 3 | rend les deux propositions comparables ; sans elle, aucune borne sur le taux |
+| 2 | **plafond de l'enveloppe** et nombre maximal d'actes finançables par an | L11.C16 § 3, § 7 | à comparer à l'ampleur de l'essentiel insolvable (L1.C15) — personne n'a comparé les deux grandeurs |
+| 3 | **soldes courants rapportés aux agrégats monétaires nationaux** | P50 | dit si le canal non compté est marginal ou dirimant ; le corpus le soutient massif sans l'avoir calculé |
+| 4 | **seuil d'activation** par la littérature des clubs climatiques | P51 | et la composition de la coalition, décisive pour A6 |
+| 5 | **distribution des encaisses par classe de patrimoine** | L11.C09 § 3, L11.C18 | décide si le demurrage atteint le milieu et manque le sommet — **hypothèse vraisemblable et non vérifiée dont dépend tout L11.C18 § 5** |
+| 6 | **délai et intensité capitalistique de la restauration** | L11.C16 § 8 | décide si le correcteur de déséquilibre extérieur opère à l'échelle de temps du problème |
+
+**Ce que le Livre 13 doit en retour :** P18 et F1, qui restent bloquantes, et les
+sept autres promesses que cette table lui attribue. **Le Livre 11 lui a retiré
+l'excuse de l'impossibilité ; il ne lui a pas fait son travail.**
 
 **Tenue de cette section.** Une ligne s'y ajoute quand un chapitre produit un
 résultat qu'un AUTRE livre devra reprendre — non quand il en attend un. Les

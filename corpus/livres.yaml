@@ -494,6 +494,23 @@ livres:
     statut: candidat
     chapitres_annonces: null
     chapitres_acquis: 0
+    note: >
+      DEBLOQUE EN PARTIE le 2026-09-06. Ce livre etait bloque par A8 — on ne
+      calibre pas un dispositif dont les baremes ne sont pas definis. A8 est
+      rendu par L11.C17, et il n'y avait pas cinq baremes mais trois plus une
+      entree. CE QUI EST ETABLI, CE SONT LES FORMES ; CE QUI NE L'EST PAS, CE
+      SONT LES VALEURS : la decision D2 reste ouverte sur les trois (A19, A20,
+      A21) et deux de ces arbitrages remontent au Livre 7. Le Livre 13 peut donc
+      etre CONCU, non EXECUTE.
+      ET LE CORPUS RETIRE UNE POSITION QU'IL TENAIT DEPUIS L'OUVERTURE DU
+      DOSSIER : le chiffrage n'est pas impossible. Il le tenait pour tel faute
+      d'elasticites ; Tinbergen (ch. VII) donne la methode — indiquer des
+      intervalles de variation pour les coefficients et resoudre aux valeurs
+      extremes, plutot qu'attendre la valeur vraie. Un simulateur qui resout aux
+      bornes est realisable aujourd'hui ; un simulateur qui attend l'estimation
+      ne le sera jamais, F1 relevant de la classe (d).
+      Huit acquis et un bon de commande de six chiffrages sont verses a la
+      section des couplages de protocoles/routage-livres-annexes.md.
 
   - livre: 14
     titre: "Gouverner la preuve : méthodes, vérification et traçabilité"
