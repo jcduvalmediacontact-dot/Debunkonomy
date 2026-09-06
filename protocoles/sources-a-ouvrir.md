@@ -129,7 +129,7 @@ telle quelle dans Google Scholar ou dans un catalogue de librairie.
 |---|---|---|
 | **2** | `Kydland Prescott Rules Rather Than Discretion 1977 Journal of Political Economy` | Largement miroité sur des pages de cours |
 | **3** | `Lucas Econometric Policy Evaluation A Critique 1976` | Idem |
-| **4** | `Friedman The Role of Monetary Policy American Economic Review 1968` | Idem |
+| **2 — MONTÉE DE 4 À 2 LE 2026-09-06** | `Friedman The Role of Monetary Policy American Economic Review 1968` | Largement miroité sur des pages de cours. **L11.C22 repose sur ce texte plus que tout autre chapitre** et il n'est toujours pas ouvert : employé depuis L1.C21 § 6 sur sa seule notoriété, il fonde P48, F7 et désormais tout le raisonnement sur la corrélation des cinq délais. **Même mécanisme que Kydland-Prescott** — une source dont la charge probatoire augmente à chaque emploi est plus urgente qu'une source neuve |
 | **6** | `Gourinchas Rey From World Banker to World Venture Capitalist` | nber.org/papers/w11563 ; version libre sur la page personnelle de H. Rey |
 | **11** | `Bordo Humpage Schwartz Evolution of the Federal Reserve Swap Lines 1962` | Version libre : document de travail 14-14 de la Réserve fédérale de Cleveland |
 | ~~**1**~~ | ~~`Mundell Capital Mobility and Stabilization Policy 1963`~~ | **ACQUIS ET LU INTÉGRALEMENT le 2026-09-05** (tirage JSTOR). Dépouillé en L11.C04 : confirme P49 mécanisme compris, fournit le mécanisme de la borne du demurrage, révèle une seconde fuite par le compte financier, et lie P49 à P51. Ne plus chercher |

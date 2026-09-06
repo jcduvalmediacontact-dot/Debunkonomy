@@ -1994,6 +1994,87 @@ l'architecture 1 paie en **efficacité** — elle perçoit moins bien — ; l'ar
 **Ce qui remonte au Livre 7 :** qui perçoit. **Ce qui n'a de domicile nulle
 part :** qui contrôle le percepteur.
 
+
+### A25 — Le traitement des délais — OUVERT le 2026-09-06
+
+**Origine : L11.C22, chapitre réclamé par le corpus lui-même** en L11.C21 § 3.
+**En le préparant, le corpus a trouvé cinq délais là où il en avait nommé
+trois.** Deux étaient établis depuis plusieurs chapitres **sans avoir jamais été
+nommés comme des délais** — le constat de qualification, rangé comme surface de
+capture (L11.C13, L11.C11 § 6), et le recours, rangé comme paramètre d'incidence
+(L11.C19 § 3). **C'est un effet de classement**, le même qui avait fait compter
+cinq barèmes là où il y en a trois.
+
+| # | Le délai | Entre quoi et quoi | Réglable ? |
+|---|---|---|---|
+| **D₁** | transmission monétaire | modification d'un taux et effet sur les comportements | **non** |
+| **D₂** | **constat de qualification** | l'acte régénératif et sa reconnaissance | partiellement — coûte de l'argent public |
+| **D₃** | restauration écologique | l'acte financé et son effet mesurable | **non** — propriété du monde vivant |
+| **D₄** | recouvrement administratif | l'acquittement et le reflux effectif | **oui — seule marge franche** |
+| **D₅** | **recours** | la valeur appliquée et la valeur juste | partiellement — délai borné, et c'est une garantie qui a un prix |
+
+**Ils occupent des segments distincts, donc ils sont EN SÉRIE.** Le délai de
+bouclage est leur somme, **et personne ne l'a additionnée** — le corpus non plus,
+faute d'ordres de grandeur. **Vérifier une égalité entre deux flux dont les
+horloges diffèrent de plusieurs segments n'est pas la vérifier.**
+
+**CE QUE L'ARBITRAGE DOIT SAVOIR : ils ne sont pas indépendants.** Chacun
+s'allonge sous tension par un mécanisme propre — variabilité de la transmission
+(Friedman), contraction des moyens administratifs, raréfaction du capital quand
+la restauration est capitalistique, rétention du percepteur (**B13**),
+engorgement du contentieux. **Le délai total est donc maximal au moment précis où
+la correction est le plus nécessaire.** Ce n'est pas un défaut de réglage :
+**c'est une propriété de composition, et elle va toujours dans le même sens.**
+DÉDUITE, NON OBSERVÉE — testable sur données publiées pour D₄ et D₅.
+
+**Et cela confirme, par une voie distincte, un résultat obtenu ailleurs.**
+L11.C03 établit que **le compte est au plus mauvais sous tension**, sept des
+treize conditions-limites ne mordant que dans cet état. **Les délais et le compte
+se dégradent au même moment et pour des raisons différentes.**
+
+**CONSÉQUENCE SUR O4, ET C'EST LA QUATRIÈME FOIS.** Un objectif contracyclique
+suppose que la correction arrive pendant la phase qu'elle corrige. **Un instrument
+dont le retard croît avec l'urgence est procyclique par retard.** Le corpus y
+arrive maintenant par quatre voies : L11.C07 (la vertu contracyclique du demurrage
+échoue dans l'état pour lequel elle est conçue), L11.C10 (la correction
+discrétionnaire agit sur un état déjà changé), L11.C16 § 8 (le correcteur du
+déséquilibre extérieur est plus lent que le déséquilibre), et le présent chapitre.
+**O4 est le plus exposé des six objectifs, aucun chapitre ne l'a instruit de
+front, et il mériterait le sien.**
+
+**CE QUE LA DIRECTIVE FAIT, ET C'EST MOINS QU'IL N'Y PARAÎT.** Le circuit comporte
+un sixième segment — le **délai de décision**, entre le moment où les données
+justifient un changement et celui où l'autorité le décide. **La directive supprime
+celui-là et lui seul** : elle ne raccourcit ni la transmission, ni le constat, ni
+la restauration, ni le recouvrement, ni le recours. **Elle répond à un sixième du
+problème.** SECONDE LIMITATION posée à ce résultat, après L11.C19 § 8 qui
+établissait que le recours n'est pas une directive.
+
+**A15 en est le cas le mieux réussi**, et pour une raison précise : indexer sur la
+disponibilité **constatée** ne supprime pas seulement la délibération, **cela fait
+coïncider le déclencheur avec l'observation**. C'est le maximum qu'une directive
+puisse faire sur les délais ; les quatre autres segments demeurent.
+
+**CE QUE L'ARBITRAGE DOIT TRANCHER.** Quatre des cinq échappent au réglage. **La
+seule marge franche est la périodicité de remise (D₄), et c'est vraisemblablement
+le plus petit des cinq** — A25 ne peut donc pas être rendu séparément de **A24**.
+La stratégie disponible n'est pas de raccourcir mais **de faire porter à la
+fonction ce que le délai empêche de corriger à temps** — lire des données
+**avancées** plutôt que constatées, ce que L11.C20 § 6 proposait déjà pour
+l'amendement. **Cela déplace le problème vers la qualité des indicateurs avancés,
+dont le corpus ne sait rien, et vers A18**, qui établit que la moitié des familles
+du tableau de bord ne sont pas des données.
+
+**De quel côté cet arbitrage paie**, par l'exigence de A23 : raccourcir D₂ et D₅
+coûte de l'**efficacité administrative** ; les laisser longs coûte de la
+**légitimité**, puisque L11.C19 § 3 a établi que le délai trie comme le coût.
+
+**UNE DETTE DE SOURCE, ET ELLE CROÎT.** Ce chapitre repose sur Friedman 1968 plus
+que tout autre, **et Friedman 1968 n'est pas ouvert** — employé depuis L1.C21 § 6
+sur sa notoriété. C'est le même mécanisme que pour Kydland-Prescott, relevé au
+balayage n° 1 : **une source dont la charge probatoire augmente à chaque emploi
+est plus urgente qu'une source neuve.** Priorité relevée.
+
 ---
 
 ## Le balayage rétrospectif — ce qu'une passe rend aux passes antérieures
