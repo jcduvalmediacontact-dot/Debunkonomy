@@ -2075,6 +2075,278 @@ sur sa notoriété. C'est le même mécanisme que pour Kydland-Prescott, relevé
 balayage n° 1 : **une source dont la charge probatoire augmente à chaque emploi
 est plus urgente qu'une source neuve.** Priorité relevée.
 
+
+### A26 — De quel cycle O4 parle, et ce que devient l'enveloppe en bas de cycle — OUVERT le 2026-09-06
+
+**Origine : L11.C23, second chapitre écrit sur commande interne** — L11.C22 § 4
+avait relevé que quatre chapitres ont trouvé O4 fragile en instruisant autre
+chose, qu'aucun ne l'avait examiné de front, et qu'« il mériterait le sien ».
+**A26 est préalable au compte de L11.C03**, comme A18 : deux arbitrages sur six
+objectifs conditionnent désormais le décompte.
+
+**UN RÉSULTAT FAVORABLE QUE LE CORPUS N'AVAIT JAMAIS ÉNONCÉ EN VINGT-DEUX
+CHAPITRES.** L'assiette du premier ressort étant faite de transactions, **le
+prélèvement transactionnel est un stabilisateur automatique** : il prélève
+davantage en haut de cycle **sans qu'aucune autorité ne le décide**, et
+vraisemblablement plus que proportionnellement, les transactions les plus taxées
+— biens durables, énergie, transport, construction — étant réputées les plus
+cycliques. **L'élasticité n'est pas mesurée** ; elle existe par branche dans les
+comptabilités nationales et est versée au bon de commande du Livre 13.
+
+**Ce que cela fait à la thèse du corpus sur la directive.** L11.C22 § 5 a établi
+qu'une directive supprime **le délai de décision et lui seul** — un sixième du
+circuit. **L'automaticité fait mieux : elle supprime la décision.** Ni diagnostic,
+ni délibération, ni annonce, ni anticipation d'un report. **C'est le seul
+mécanisme du dispositif auquel ni Lucas ni Kydland-Prescott ne s'appliquent.**
+
+**LE REVERS SORT DE LA MÊME PROPRIÉTÉ, ET IL EST PLUS LOURD.** La condition de
+bouclage liant le volume émissible au produit du reflux (L11.C16 § 2), **le cycle
+du reflux devient le cycle de l'émission.**
+
+> **Le dispositif est automatiquement contracyclique sur son versant reflux et
+> automatiquement procyclique sur son versant émission. C'est le bouclage
+> lui-même qui transmet le cycle de l'un à l'autre.**
+
+**Aucun taux ne le corrige** : l'émission dépend du reflux et non l'inverse, donc
+relâcher le reflux en bas de cycle réduit l'enveloppe une seconde fois. **Et cela
+heurte la fonction assignée au dispositif** : un dispositif dont la capacité de
+financement se contracte avec l'économie **ne finance pas l'essentiel insolvable
+au moment où il est le plus insolvable** — au moment, précisément, où les
+capacités physiques que P35 déclare contraintes sont disponibles.
+
+**LA SEULE SORTIE CONNUE ROUVRE UNE PROMESSE BLOQUANTE.** Vérifier le bouclage
+sur une période **plus longue que le cycle** rétablit la contracyclicité de
+l'émission — mais émettre au-delà du reflux encaissé, **c'est émettre contre un
+reflux futur**, soit la construction que **P55** déclare intenable, la créance
+portant sur une assiette que le dispositif existe pour contracter. **Plus le
+lissage est efficace contre le cycle, plus la créance qu'il suppose est fragile.**
+La lecture B retenue par l'auteur ne règle pas ce point : elle change le registre
+de P55, elle ne le résout pas.
+
+**CE QUE L'ARBITRAGE DOIT TRANCHER EN PREMIER : de quel cycle O4 parle.**
+
+| | Le cycle | Ce que « contracyclique » y voudrait dire |
+|---|---|---|
+| **économique** | activité, emploi, prix | durcir en expansion, relâcher en récession |
+| **biosphérique** | pression sur les limites physiques | durcir quand la pression croît — **pas au même moment** |
+
+**Les deux ne coïncident que si la pression écologique suit l'activité, et le
+corpus a établi le contraire** : le succès sur la famille biosphérique contracte
+l'assiette dégénérative et dégrade la famille monétaire (L1.C21 § 6, F1). **Tel
+qu'il est énoncé, O4 est une direction sans référent** — donc pas encore un
+objectif au sens du compte. **S'il se dédouble, le compte s'aggrave ; s'il se
+résout en un seul cycle, il faut dire lequel et assumer l'autre.**
+
+**Ce que l'arbitrage doit trancher en second : la priorité.** « Corréler à la
+politique macroprudentielle » ne dit ni le sens, ni le décalage, ni **lequel des
+deux instruments cède en cas de conflit.** Engone Mve fournit la règle manquante
+sous la forme d'une position constituée — en cas de conflit d'objectifs,
+« **priority is given to a single objective** ». Versée, non tranchée.
+
+**Et l'argument du pôle de l'intégration porte ici.** Les instruments
+macroprudentiels, « **because they are more targeted, are easily circumvented** ».
+**Un prélèvement modulé par barème est ciblé au sens exact de cette phrase**, et
+sa contracyclicité suppose que l'assiette ne se déplace pas quand on la durcit —
+ce que **B1** dit qu'elle fait. **Durcir en haut de cycle est le moment où
+l'assiette est la plus mobile.**
+
+**QUATORZIÈME CONDITION-LIMITE, versée à L11.C03 § 5.**
+
+> **B14 — la période sur laquelle le bouclage est vérifié ne peut être plus
+> courte que le cycle, sans quoi le bouclage transmet le cycle à l'émission.**
+
+Elle ne s'introduit pas tant que l'économie est stable et **devient active dès
+qu'un retournement survient.** Elle compose avec **B13**, les deux portant sur la
+même horloge. **Huit des quatorze ne mordent que sous tension.**
+
+**De quel côté cet arbitrage paie**, par l'exigence de A23 : lisser paie en
+**légitimité** — la créance suppose ce que P55 conteste ; ne pas lisser paie en
+**efficacité** — le dispositif finance le moins quand il faudrait le plus. **Il
+n'y a pas de branche gratuite, et celle-ci est la plus chère du Livre 11.**
+
+
+### A27 — La forme du barème aux frontières — OUVERT le 2026-09-06
+
+**Origine : L11.C24.** Le dispositif est une coalition, **donc son barème a une
+frontière, et aucun chapitre n'avait écrit ce qui s'y passe.** Trois résultats du
+corpus s'y rapportaient sans avoir jamais été réunis : la contrainte est fonction
+de ce qui demeure dehors (L11.C04 § 6, sur Mundell), le seuil d'activation est
+affirmé et non dérivé (P51), les valeurs par défaut ont un précédent opérant
+(L11.C06).
+
+**Ce que l'arbitrage doit savoir en premier : le mécanisme de la valeur par
+défaut ne se transporte pas à la frontière.** À l'intérieur, le producteur
+documente **parce qu'il est dans le régime** — la charge le frappe de toute façon
+et documenter la réduit. **À l'extérieur, il n'y est pas.** Documenter n'a
+d'intérêt que si le marché de la coalition vaut le coût de la démarche.
+
+> **La question cesse d'être « le défaut est-il assez punitif ? » et devient
+> « le marché est-il assez grand ? »** — et le corpus confondait les deux.
+
+Un défaut très punitif appliqué par une coalition petite ne fait pas documenter :
+**il fait renoncer au marché.**
+
+**APPORT PROPRE : LE SEUIL D'ACTIVATION A UN JUMEAU MICROÉCONOMIQUE, jamais
+énoncé.** P51 le pose au niveau des pays ; **il existe aussi au niveau des
+entreprises.**
+
+> **Un exportateur ne documente son empreinte que si la part de son chiffre
+> d'affaires exposée au marché de la coalition excède le coût de conformité.**
+
+**Et ce coût est largement fixe** — comptabilité de flux, données de
+fournisseurs, vérification varient peu avec le volume. **Un seuil fondé sur un
+coût fixe rapporté à un chiffre d'affaires exclut les petits, mécaniquement.**
+
+**SEPTIÈME BIAIS DE CONCENTRATION, et le premier qui joue ENTRE PAYS.** Le grand
+exportateur documente, obtient le taux modulé et entre ; **le petit exportateur
+d'un pays pauvre paie le défaut punitif ou renonce.** Après les quatre biais
+procéduraux (L11.C09), l'exclusion du financement (L11.C13 § 6) et le biais
+d'apprentissage (L11.C19 § 6). **Il s'ajoute à P43** — la contrainte extérieure
+rebasée sur la nature encore fonctionnelle : **deux mécanismes indépendants
+désavantagent les mêmes pays**, et le second est purement administratif.
+
+**Correction connue, et elle coûte** : valeurs par défaut sectorielles et
+régionales favorables aux petits exportateurs, ou prise en charge de la
+certification. **Troisième occurrence du motif administratif de Tinbergen** —
+la mesure qui « affects few » coûte moins cher, donc corriger suppose de payer
+délibérément un surcoût. Après A14 et L11.C13 § 6.
+
+**LA LACUNE PRINCIPALE, ET ELLE EST PLUS GRAVE ICI QU'AILLEURS.** Le règlement
+(UE) 2023/956 et ses actes d'exécution sur les valeurs par défaut sont **le seul
+précédent opérant d'un barème d'impacts appliqué hors du régime qui l'édicte**.
+Ils sont en priorité 1 depuis L11.C06 et **ne sont pas ouverts** ; le corpus
+raisonne de seconde main. **Ils décideraient A11 et A27.**
+
+**Et l'analogie qui a servi à chiffrer le seuil est doublement favorable au
+dispositif.** P51 avait relevé qu'elle transporte les propriétés d'un instrument
+**sectoriel** vers un instrument **universel**. Le corpus en ajoute une seconde
+raison : **un mécanisme sectoriel porte sur des biens dont l'empreinte est déjà
+mesurée par les industriels concernés**, ce qui n'est pas le cas d'un instrument
+universel.
+
+**LA RÉCIPROCITÉ EST UN QUATRIÈME CAS QUE RIEN NE TRAITE**, et il faut le
+distinguer des trois autres : F6 porte sur l'adoption contre le créancier, P51
+sur le passager clandestin **externe**, L11.C21 § 5 sur le passager clandestin
+**interne**. **La riposte est un non-membre qui applique son propre barème aux
+exportations de la coalition.** Le résultat de Mundell donne la forme de l'issue :
+la contrainte étant fonction de ce qui reste dehors, **une guerre de barèmes est
+une compétition sur la taille des blocs**, et le mécanisme d'escalade est **le
+même que le mécanisme d'adoption**. Renseignement, non garantie. Compose avec F4,
+dont les pièces décisives ne sont pas ouvertes non plus.
+
+**CE QUE L'ARBITRAGE AJOUTE À A6, ET QUI N'AVAIT PAS ÉTÉ FORMULÉ.** Trois
+résultats convergent : tout est plus facile quand la coalition est déjà grande.
+**Mais la difficulté n'est pas seulement politique, elle est métrologique.** Une
+petite coalition n'obtient pas les données qui lui permettraient de moduler, donc
+elle applique des défauts punitifs à presque tout, **donc son barème perçoit sans
+orienter** — soit le mode d'échec que A11 nomme, atteint ici **par le dehors et
+non par le dedans**. **Il faut donc à la stratégie d'adoption un SECOND seuil,
+jamais estimé : celui à partir duquel les exportateurs documentent.** Rien ne dit
+qu'il coïncide avec le premier.
+
+**De quel côté cet arbitrage paie**, par l'exigence de A23 : un défaut punitif
+uniforme paie en **légitimité** — il exclut les petits exportateurs des pays
+pauvres ; des défauts modulés par taille et par région paient en **efficacité** —
+ils coûtent l'administration que la valeur par défaut existait pour éviter.
+
+
+### A28 — L'architecture du contrôle et le pouvoir de sanction — OUVERT le 2026-09-06
+
+**Origine : L11.C25, dernier chapitre annoncé du Livre 11.** Il réunit **trois
+lacunes que le corpus avait trouvées séparément** en instruisant trois choses
+différentes, et qui sont **trois maillons du même circuit** : le déclarant
+(L11.C06 — l'empreinte est autodéclarée, qui la vérifie ?), le certificateur
+(L11.C11 § 6 — la décision la plus capturable, qui l'audite ?), le percepteur
+(L11.C21 § 5 — *« la question n'a de domicile dans aucun livre du plan »*).
+
+**Ce que la réunion dit et qu'aucune ne disait seule.** Le dispositif a déplacé
+la charge de la mesure vers ceux qui en tirent avantage — c'est l'économie de
+L11.C06 et ce qui le rend administrable. **Déplacer la mesure sans déplacer la
+vérification laisse le circuit entier sur la parole de ceux qu'il taxe et de ceux
+qu'il finance.**
+
+**APPORT PROPRE, ET C'EST LE PLUS LOURD : LE RECOURS EST UN CORRECTEUR
+UNILATÉRAL.** Celui qui est classé plus dégénératif qu'il n'est conteste ; **celui
+qui est classé moins dégénératif se tait.** Le recours corrige donc les
+surestimations et **jamais les sous-estimations**.
+
+> **Un barème doté d'un recours et privé de contrôle dérive vers le bas, et il y
+> dérive d'autant plus vite qu'il apprend mieux.**
+
+Cela **durcit** le sixième biais de L11.C19 § 6 au lieu de le répéter : le barème
+apprend **là où** l'on conteste **et dans le sens où** l'on conteste. Les deux se
+composent — **précis, bas, et précis surtout pour ceux qui ont les moyens.** Et
+c'est encore une propriété que l'analogie de la taxe sur la valeur ajoutée ne
+transporte pas, après le motif de la perception (L11.C21 § 4) : **sous ce régime,
+l'administration contrôle parce que le produit lui revient.**
+
+**PREMIÈRE LIMITE POSÉE AU SEUL RÉSULTAT FAVORABLE DU CHANTIER.** L11.C17 § 6
+établissait que le bouclage rend détectable en agrégat la sous-qualification
+systématique. **Il détecte un déficit ; il ne dit pas d'où il vient.** Trois
+causes ont la même signature : **le dispositif réussit** (les transactions
+dégénératives reculent — F1), **l'économie se contracte** (L11.C23 § 4), **on
+perçoit mal** (le présent chapitre). **Le résultat tient mais il est aveugle au
+sens de l'écart** ; le tableau de bord sépare les deux premières, **la troisième
+ne se distingue que par vérification.**
+
+**Ce que l'arbitrage doit trancher : trois objets de natures différentes.**
+
+| | Contrôler qui | Nature | Difficulté propre |
+|---|---|---|---|
+| **1** | le **déclarant** | technique | **c'est ce que la valeur par défaut existait pour éviter** |
+| **2** | le **certificateur** | technique et sectorielle | **la compétence requise est dans le secteur contrôlé** — capture réglementaire ordinaire, sur la décision la plus exposée |
+| **3** | le **percepteur** | administrative — **c'est un État** | aucune forme connue n'existe sans **pouvoir de sanction** |
+
+**L'ARGUMENT D'OSTROM TROUVE ICI SON OBJET PROPRE.** Employé sur les valeurs
+(L11.C16 § 5), déplacé sur la perception (L11.C21 § 5), il porte en réalité sur
+**le pouvoir** : « inherently weak because of **free-rider problems** ». **Une
+unité centrale sans sanction n'est pas faible parce qu'elle décide mal : elle est
+faible parce que rien n'oblige à lui obéir.**
+
+**ET LA SEULE SANCTION DISPONIBLE EST DÉMESURÉE.** Réduire les allocations d'un
+membre défaillant revient à **le priver de son équilibre extérieur** — P52 et
+L1.C27 § 6 ayant établi que la valorisation le détermine. **Un instrument
+démesuré ne s'emploie pas** : c'est le mécanisme de report rencontré sur les
+parités (L11.C15 § 6). **La sanction existante est inutilisable, et il n'y en a
+pas d'autre.**
+
+**LE CONTRÔLE DÉFAIT L'ÉCONOMIE QUI RENDAIT LE DISPOSITIF ADMINISTRABLE.**
+Contrôler, c'est mesurer au centre — donc refaire ce que le dispositif avait
+délégué. **Il y a un optimum et personne ne l'a cherché.** La forme connue est le
+contrôle par échantillon, dissuasif seulement si le produit de la probabilité de
+détection par la sanction excède le gain — **ce qui suppose une sanction**, soit
+ce dont le paragraphe précédent établit l'absence.
+
+**QUATRIÈME EMPLOI DU MOTIF ADMINISTRATIF DE TINBERGEN, ET LE PREMIER COMME
+EXPLICATION.** Entre une mesure qui « hits a large number of people » et une qui
+« affects few », l'efficacité recommande la seconde. **Cela explique pourquoi les
+sept biais de concentration existent** : ce ne sont pas des négligences, **c'est
+ce que le contrôle bon marché produit.** Le corpus enregistre que **sa propre
+critique de ces biais revient à demander un contrôle cher**, et qu'il doit le
+dire au lieu de réclamer les deux.
+
+**QUINZIÈME CONDITION-LIMITE, et c'est celle qui explique les autres.**
+
+> **B15 — le coût du contrôle ne peut excéder le produit qu'il protège.**
+
+Elle ne mord pas sur les gros dossiers et **elle mord sur les petits** — soit
+exactement la structure des sept biais. **Active en permanence sur la queue de la
+distribution**, et elle s'aggrave à mesure que le dispositif s'étend vers les
+petits acteurs, c'est-à-dire vers ceux qu'il vise.
+
+**LE COMPTE FINAL DES OBJETS MANQUANTS.** L11.C06 § 4 avait établi qu'un barème
+est **trois objets** — une table, une procédure, une charge de la preuve. Le
+Livre 11 en a ajouté trois : **un tribunal** (A22), **un contrôleur** et **une
+sanction** (A28). **Le dispositif en publie un.**
+
+**De quel côté cet arbitrage paie**, par l'exigence de A23 : contrôler peu paie
+en **légitimité** — le barème dérive vers le bas et les biais s'installent ;
+contrôler beaucoup paie en **efficacité** — on refait au centre la mesure qu'on
+avait déléguée, et c'est l'économie du dispositif qui disparaît.
+
+**Ce qui remonte au Livre 7 :** qui contrôle. **Ce qui n'a de domicile nulle
+part :** avec quelle sanction.
+
 ---
 
 ## Le balayage rétrospectif — ce qu'une passe rend aux passes antérieures

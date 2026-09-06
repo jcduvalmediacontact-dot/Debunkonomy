@@ -72,7 +72,7 @@ verifications_en_attente:
      méthode par intervalles de variation (ch. VII) permet de résoudre aux
      bornes plutôt que d'attendre la valeur vraie."
   - "L'INVENTAIRE DU § 5 est incomplet par construction, et c'est son statut.
-     Le corpus y recense treize conditions-limites à partir de ce qu'il a
+     Le corpus y recense quinze conditions-limites à partir de ce qu'il a
      lui-même établi. Rien ne garantit l'exhaustivité, et Tinbergen relève que
      « boundary conditions play a much more important rôle than is often
      believed ». **Toute condition-limite ajoutée aggrave le compte** :
@@ -130,7 +130,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 | O1 | Le niveau général des prix | prix, agrégé | intervalle |
 | O2 | Le prix relatif des activités dégénératives | prix, relatif | direction |
 | O3 | La stabilité du prix des produits essentiels | prix, sectoriel | intervalle étroit |
-| O4 | La contracyclicité, corrélée au macroprudentiel | dynamique | direction |
+| O4 | La contracyclicité, corrélée au macroprudentiel | dynamique | direction — **et A26 établit le 2026-09-06 que ce n'est pas encore un objectif** : contracyclique suppose un cycle nommé, et le dispositif en a deux qui divergent |
 | O5 | Le bouclage volumétrique | quantité de monnaie | **condition**, voir ci-dessous |
 | O6 | L'abondance des produits essentiels | quantité de biens | direction |
 
@@ -148,7 +148,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 
 ## 5. Inventaire des conditions-limites du dispositif
 
-::hypothese:: **Treize recensées — B12 et B13 versées le 2026-09-06 par L11.C16 et L11.C21. La liste est incomplète par construction** — c'est son statut, non son défaut — et chaque chapitre suivant doit dire s'il en découvre une, **puisque toute addition aggrave le compte.**
+::hypothese:: **Quinze recensées — B12 à B15 versées le 2026-09-06 par L11.C16, L11.C21, L11.C23 et L11.C25. La liste est incomplète par construction** — c'est son statut, non son défaut — et chaque chapitre suivant doit dire s'il en découvre une, **puisque toute addition aggrave le compte.**
 
 | # | Condition-limite | D'où elle vient | Quand elle mord |
 |---|---|---|---|
@@ -165,6 +165,8 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 | B11 | La capacité d'absorption des placements régénératifs borne la dérogation | L11.C08 § 3 | **sous tension** |
 | B12 | La valorisation d'un acte régénératif ne peut descendre sous le coût de le réaliser — sans quoi le canal d'émission se ferme | L11.C16 § 7, arbitrage A20 | **sous tension** — elle mord dès que l'enveloppe se resserre |
 | B13 | Le délai entre perception et remise ne peut excéder la période sur laquelle le bouclage est vérifié | L11.C21 § 7, arbitrage A24 | **sous tension** — un percepteur dont l'économie se contracte retarde ce qui sort de chez lui |
+| B14 | La période sur laquelle le bouclage est vérifié ne peut être plus courte que le cycle — sans quoi le bouclage transmet le cycle à l'émission | L11.C23 § 5, arbitrage A26 | **sous tension** — elle devient active dès qu'un retournement survient |
+| B15 | Le coût du contrôle ne peut excéder le produit qu'il protège | L11.C25 § 7, arbitrage A28 | **en permanence sur la queue de la distribution** — et elle **explique les sept biais de concentration** au lieu de les déplorer |
 
 ::hypothese:: **Cinq mordent sous tension, et trois d'entre elles se déclenchent au même moment.** La fuite vers les substituts (B1), la mise en cause de l'équilibre social (B3) et l'épuisement de ce qui tient lieu de réserves (B4) sont toutes trois maximales en crise. **Le déficit d'instruments est donc au pire exactement quand le dispositif est le plus sollicité.** Le corpus marque que la simultanéité est une **conjecture sur la corrélation de leurs déclenchements**, non un résultat établi.
 
@@ -239,7 +241,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 
 ::etat:: **Le compte ne passe pas, et il ne passe pas de peu** — mais il se lit par étage, et le déficit se loge à l'étage de la structure, non à celui du volume.
 
-::etat:: **Les conditions-limites comptent, et elles varient.** Treize recensées, sept ne mordant que sous tension, trois se déclenchant au même moment. **Le déficit est au pire quand le dispositif est le plus sollicité**, ce que deux autres chapitres ont trouvé indépendamment. Et Tinbergen nomme le cas où plus aucune solution n'existe.
+::etat:: **Les conditions-limites comptent, et elles varient.** Quinze recensées, huit ne mordant que sous tension, trois se déclenchant au même moment. **Le déficit est au pire quand le dispositif est le plus sollicité**, ce que deux autres chapitres ont trouvé indépendamment. Et Tinbergen nomme le cas où plus aucune solution n'existe.
 
 ::hypothese:: **La première réparation est une affectation** — l'abondance des essentiels relève de la qualification, non du reflux. **Et le remède que Tinbergen prescrit ensuite est celui que le dispositif emploie déjà** : un taux variable, qui est sa sortie travaillée contre l'incompatibilité de deux objectifs.
 
