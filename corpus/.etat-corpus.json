@@ -231,7 +231,12 @@
   },
   "L11.C17": {
     "editoriale": "fb3112b59470b8e4",
-    "metadonnees": "d2b3fe1496d17d0f",
+    "metadonnees": "c462cdef319f7abf",
+    "revision_de_fond": "2026-09-06"
+  },
+  "L11.C18": {
+    "editoriale": "f1b8cb5f224ec503",
+    "metadonnees": "835e26ff2718dd16",
     "revision_de_fond": "2026-09-06"
   }
 }

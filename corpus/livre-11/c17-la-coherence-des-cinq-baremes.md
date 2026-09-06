@@ -65,12 +65,13 @@ verifications_en_attente:
      décider ce qui est financé, **les deux livres se partagent une même
      décision, et le rendu de A8 est conditionnel à un livre qui compte zéro
      chapitre acquis.**"
-  - "LE SEUIL D'EXEMPTION POUR LES PERSONNES MORALES MANQUE ENTIÈREMENT. Le
-     livre indexe un seuil sur le revenu médian pour les personnes physiques
-     (condition-limite B6) ; **rien n'existe pour les personnes morales**, alors
-     que L11.C09 a établi quatre biais d'incidence favorisant les acteurs
-     intégrés et L11.C13 § 6 un cinquième. Aucun chapitre ne l'a relevé avant
-     celui-ci."
+  - "LE SEUIL D'EXEMPTION POUR LES PERSONNES MORALES — RELEVÉ ICI, INSTRUIT LE
+     JOUR MÊME par L11.C18, arbitrage A21. Le livre indexe un seuil sur le revenu
+     médian pour les personnes physiques (condition-limite B6) et **rien
+     n'existe pour les personnes morales**, alors que L11.C09 a établi quatre
+     biais d'incidence favorisant les acteurs intégrés et L11.C13 § 6 un
+     cinquième. **Le chantier n'a donc plus de pièce manquante en propre** ; il
+     en garde deux couplées au Livre 7 — A5 et la matière de A16."
   - "A16 RESTE SANS MATIÈRE. La légitimation de l'organe qui arrête les valeurs
      est la question vers laquelle deux des trois barèmes renvoient leur nœud, et
      **les trois précédents nommés par L11.C11 § 5 ne sont toujours pas ouverts**

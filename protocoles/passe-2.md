@@ -1224,7 +1224,7 @@ dans un tableau de taux, qui est le seul document que le dispositif publie.
 |---|---|---|
 | Cascade | assiette sur la consommation finale | **déjà retenue par le livre** — il n'est pas exposé |
 | Valeur par défaut | procédure de révision **gratuite et rapide** | à écrire (A11) |
-| Consolidation | seuil pour les **personnes morales**, qui manque entièrement | **manque de conception**, pas un paramètre |
+| Consolidation | seuil pour les **personnes morales**, qui manque entièrement | ~~**manque de conception**, pas un paramètre~~ — **INSTRUIT le 2026-09-06 par L11.C18, arbitrage A21.** Quatre formes comparées ; la franchise est la seule sans effet de seuil et la plus coûteuse en assiette. **Résultat inattendu** : le reproche de fragmentation ne tient pas ici, B2 rendant l'échappatoire déjà gratuite et illimitée — le seuil la borne et la tarife. **Résultat défavorable** : il creuse l'assiette par le bas sans la reconstituer par le haut. La forme est au Livre 11, **le montant est une décision D2** |
 | Dérogation | accès **automatique** plutôt que déclaratif | à écrire (A13) |
 
 **Ce que l'arbitrage ne peut pas trancher, et qui n'est pas de son ressort.** Il
@@ -1667,6 +1667,77 @@ inégalement distribuée que les actuelles. Le transfert vers les pays riches en
 fonds naturels est réel ; **il ne bénéficie pas aux pays pauvres en fonds
 naturels**, souvent les mêmes que ceux que le dispositif entend servir.
 
+
+
+### A21 — La forme du seuil d'exemption pour les personnes morales — OUVERT le 2026-09-06
+
+**Origine : L11.C18.** Dernière pièce que le chantier des barèmes gardait en
+propre après le routage du périmètre vers le Livre 7. **A21 prolonge A14 sans s'y
+réduire** : A14 demande SI l'on corrige l'incidence, **A21 demande PAR QUELLE
+FORME** — et A14 classait déjà ce seuil comme « manque de conception, pas un
+paramètre ».
+
+**Ce qui est établi avant l'arbitrage, et qu'il n'a pas à rouvrir.**
+
+**La question porte sur le prélèvement sur les ENCAISSES**, non sur le
+prélèvement transactionnel : l'assiette du livre est la consommation finale, où
+la personne morale est collectrice et non redevable — sauf sur les acquisitions
+d'actifs. **Le corpus consigne qu'il avait d'abord raisonné à l'envers**, et
+qu'un chapitre entier en aurait été faux.
+
+**Le seul seuil que le livre spécifie est déjà une directive** — indexé sur le
+revenu médian. **L'auteur a donc choisi la forme directive avant que le corpus ne
+la nomme, et deux fois plutôt qu'une**, l'autre étant A15. Fait favorable, versé
+au même titre que les autres. Réserve : c'est la plus facile des directives, sa
+donnée étant un agrégat public produit par un tiers.
+
+**Le reproche classique ne tient pas ici, et c'est un résultat inattendu.** On
+objecte d'ordinaire qu'un seuil incite à la scission. **Mais la condition-limite
+B2 — la consolidation par bénéficiaire effectif est juridiquement impossible —
+rend l'assiette réelle « par compte »**, de sorte que répartir ses encaisses
+échappe **déjà** au prélèvement, sans borne et sans tarif. **Le seuil n'introduit
+pas l'échappatoire : il la borne et la chiffre.** Si B2 tombait — registre
+consolidé des détentions, transfrontalières comprises —, l'objection
+redeviendrait valide.
+
+**Ce que l'arbitrage doit trancher en premier : la forme.**
+
+| | La forme | Sans effet de seuil ? | Coût en assiette |
+|---|---|---|---|
+| **1** | pas de seuil | oui | nul — mais **régressif par le coût de conformité** |
+| **2** | seuil en niveau | **non** | modéré |
+| **3** | **franchise** — les premiers *X* pour tous | **oui, la seule** | **le plus élevé** — proportionnel au NOMBRE de personnes morales |
+| **4** | seuil indexé sur une grandeur d'exploitation | non, mais lissable | inconnu — la donnée n'est pas ouverte |
+
+**Ce que l'arbitrage doit savoir en le tranchant : la correction se paie en
+financement régénératif.** L11.C16 § 2 a établi que le produit du reflux plafonne
+l'enveloppe d'émission. **Exempter réduit l'assiette, donc l'enveloppe, donc ce
+qui peut être financé.** C'est le premier arbitrage du corpus dont **les deux
+termes sont de même nature** — une quantité d'assiette contre une quantité
+d'émission — et dont le coût est **observable** : L11.C17 § 6 établit que le
+déficit d'émission est détectable en agrégat, de sorte qu'un seul chiffre porte
+le prix du seuil et le contrôle du barème de qualification.
+
+**Ce que l'arbitrage ne peut pas régler, et le corpus le dit.** Le seuil ne
+corrige pas un défaut d'assiette. Si l'hypothèse de L11.C09 § 3 est exacte — le
+demurrage atteint le milieu et manque le sommet, les grandes fortunes détenant
+des actifs et non des encaisses —, **exempter les personnes morales creuse
+l'assiette par le bas sans la reconstituer par le haut** et resserre l'incidence
+sur la zone médiane déjà atteinte à tort. **La sortie est dans A12, le nœud de
+prélèvement, pas dans A21.** RÉSERVE : cette hypothèse n'est toujours pas
+vérifiée, la donnée existant dans les enquêtes patrimoine sans avoir été ouverte.
+
+**Troisième occurrence du conflit efficacité / légitimité recensé par L11.C17
+§ 7.** Publier la fonction du seuil rend son optimisation triviale ; ne pas la
+publier, ce n'est plus une règle. **Mais ce cas-ci est moins grave que les deux
+autres**, et il faut le dire : l'optimisation d'un seuil est **bornée par
+construction** — on ne gagne pas plus que le montant exempté — quand celle d'un
+indicateur de qualification ne l'est pas (A17). **C'est un argument pour
+publier.**
+
+**Ce qui remonte au Livre 7.** Le **niveau** du seuil est un arbitrage
+distributif, donc une décision de type **D2** au sens de L11.C11. Le Livre 11
+établit la forme ; **il n'arrête pas le montant.**
 
 ---
 
