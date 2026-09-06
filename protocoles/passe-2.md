@@ -2929,3 +2929,97 @@ conventionnelle, et le dispositif du corpus est conventionnel.
 **CE QUI RESTE À CHERCHER** : le statut de la fonction publique internationale et
 la jurisprudence des tribunaux administratifs internationaux. **C'est le corps de
 règles qui répondrait à la question, et il n'est pas au dossier.**
+
+---
+
+## Arbitrage A32 — le régime de change est la PARITÉ FIXE, et le triangle est respecté et non contourné
+
+**2026-09-06. Arbitrage de l'auteur, rendu le jour où le corpus a relevé la divergence.**
+
+**La divergence.** L2.C18 a établi que le livre et le Cahier Technique
+énonçaient **deux régimes de change différents**. Le livre, chapitre 8 : « le
+taux de change entre devises **demeure fixe par conception** », d'où « les
+nations recouvrent toute la latitude de leurs politiques monétaires, **ainsi
+que la libre circulation des capitaux** ». Le Cahier, épisode 11 : le triangle
+« est contourné puisque le référentiel fixe une référence stable **sans exiger
+la fixité des parités bilatérales** ». La divergence traversait même l'épisode
+11, qui pose « parité fixe libellée en NES » au paragraphe de l'exécution.
+
+**L'ARBITRAGE : « PARITÉ FIXE ! »** L'énoncé du **livre** l'emporte.
+**Conséquences immédiates.** L11.C04 — *les instruments du reflux sous parité
+fixe* — **conserve sa prémisse et n'est pas à reprendre**. C'est **l'épisode 11
+du Cahier qui est à corriger**, sur la phrase du triangle.
+
+**CE QUE L'ARBITRAGE A PRODUIT, ET QUE LE CORPUS N'ATTENDAIT PAS.** En rendant
+la question précise — comment tenir la fixité sans nier le théorème —, il a
+conduit à chercher le mécanisme, et **le mécanisme est dans le chapitre 9 du
+livre**, que le corpus avait extrait sans le lire sur ce point : « [...]
+**contrôle des capitaux** exposés au chapitre 8. **La fuite vers les actifs
+spéculatifs ou polluants est interceptée par le premier ressort**, puisque la
+fonte transactionnelle s'applique également à **l'acquisition d'actifs** :
+acheter un bien à fort impact pour échapper au demurrage entraîne une perte
+immédiate et bien supérieure. **Il ne reste donc qu'une issue : les actifs
+réels domestiques à faible impact.** »
+
+**LE DISPOSITIF A DONC UN CONTRÔLE DES CAPITAUX, ET IL NE LE NOMME PAS AINSI
+LÀ OÙ IL PARLE DU TRIANGLE.** Le contrôle n'est pas administratif — nulle
+autorisation préalable, nulle interdiction — **il est économique** : la sortie
+reste licite et devient coûteuse.
+
+**RÉSULTAT : LE TRIANGLE N'EST PAS CONTOURNÉ, IL EST RESPECTÉ.** Le dispositif
+prend **fixité des parités + autonomie monétaire**, et paie par **une mobilité
+des capitaux restreinte**. C'est **le coin de Bretton Woods**, et c'est une
+position défendable — infiniment plus solide que la prétention à tenir les
+trois sommets, qui exigerait de réfuter un théorème et n'en fournit pas le
+moyen.
+
+**PRÉCÉDENT EXPRÈS, ouvert le même jour.** Statuts du Fonds de 1944, **article
+VI section 3** : « **Members may exercise such controls as are necessary to
+regulate international capital movements**, but no member may exercise these
+controls in a manner which will **restrict payments for current transactions**
+or which will unduly delay transfers of funds in settlement of commitments. »
+Et **section 1 (a)** : le Fonds pouvait **demander** à un membre d'exercer de
+tels contrôles, à peine d'inéligibilité. **Le contrôle des capitaux n'est pas
+une tolérance : c'est un droit écrit dans le traité qui organisait les parités
+fixes.**
+
+**CE QUE L'ARBITRAGE EXIGE À SON TOUR — contrainte nouvelle pour le Livre 11.**
+L'article VI assortit ce droit d'une limite : les contrôles **ne doivent pas
+restreindre les paiements des transactions courantes**. Or la fonte
+transactionnelle frappe **les transactions**, sans que L11.C05 ait jamais
+distingué celles qui sont **en capital** de celles qui sont **courantes**. Un
+prélèvement sur l'acquisition d'un actif est un contrôle des capitaux, licite ;
+**un prélèvement sur le paiement d'une importation est une restriction des
+transactions courantes**, que le même article interdit — et L20.C19 a montré
+que le droit du commerce pose une contrainte parallèle sur les charges à la
+frontière.
+
+**À FAIRE EN PASSE 2, et c'est chiffrable :** séparer, dans l'assiette du
+reflux transactionnel, les transactions en capital des paiements courants. **La
+définition des seconds est fournie par l'article XIX (i) des mêmes statuts, que
+le corpus détient et n'a pas employé** — il y énumère les paiements dus au
+titre du commerce extérieur, les intérêts et revenus d'investissement, les
+amortissements d'un montant modéré, et les envois de famille modérés.
+
+---
+
+## Arbitrage A33 — le nombre de chapitres d'un livre n'est pas contraignant
+
+**2026-09-06. Arbitrage de l'auteur : « Le nombre n'est pas fixé. »**
+
+**La question.** `corpus/livres.yaml` annonçait **douze** chapitres pour le
+Livre 2 — les douze épisodes du Cahier Technique —, et la passe 1 en a produit
+**vingt**, en ajoutant huit chapitres de doctrine que le Cahier ne cite pas. Le
+corpus a signalé l'écart plutôt que de le résoudre, la règle voulant que le
+plan directeur tranche et que le registre soit corrigé, jamais l'inverse.
+
+**L'ARBITRAGE.** Le compte annoncé **n'est pas contraignant**.
+`chapitres_annonces` passe à `null` pour le Livre 2.
+
+**PORTÉE GÉNÉRALE, à appliquer aux autres livres.** Le Livre 11 avait déjà
+dépassé son annonce, et le registre l'avait enregistré comme une anomalie.
+**Sous cet arbitrage, ce n'en est plus une.** Le champ `chapitres_annonces`
+cesse d'être une contrainte de conception : **il est une estimation, et la
+matière décide.** Ce qui reste contraignant est le **matricule** du livre, que
+la convention interdit de réattribuer, d'insérer ou de renuméroter — et cette
+règle-là n'est pas touchée.

@@ -23,16 +23,33 @@ sources_primaires:
     nature: theorie
     reference: "*Cahier Technique*, épisode 11 — l'articulation internationale : « Les NGDTS émis par le GAÏA Economic Symposium sont À PARITÉ ÉGALE AU TAUX NES. Les banques centrales nationales assurent l'exécution de ces droits de tirage — sur transmission [...] elles procèdent à L'ÉMISSION DE LA MONNAIE NATIONALE CORRESPONDANTE au bénéfice du prestataire retenu par appel d'offre, à PARITÉ FIXE libellée en NES. » Et les deux autres dispositifs : le système de règlement dédié, et une gouvernance macroprudentielle mondiale intégrée « articulant coordination technique, surveillance des communs mondiaux et arbitrage des conflits »"
     date_verification: 2026-09-06
+  - ref: S5
+    nature: theorie
+    reference: "J.-C. Duval, ARBITRAGE DU 2026-09-06, en réponse à la divergence relevée par ce chapitre : « **PARITÉ FIXE !** » — l'énoncé du livre l'emporte sur celui du Cahier. Et sur le compte des chapitres : « **Le nombre n'est pas fixé.** » Les deux arbitrages sont reportés à `corpus/livres.yaml` et à `protocoles/passe-2.md` (A32)"
+    date_verification: 2026-09-06
+  - ref: S6
+    nature: theorie
+    reference: "J.-C. Duval, *L'économie de l'équilibre*, **chapitre 9** — la pièce qui manquait au raisonnement, et qui se trouvait dans le chapitre suivant : « [...] **CONTRÔLE DES CAPITAUX** exposés au chapitre 8. **LA FUITE VERS LES ACTIFS SPÉCULATIFS OU POLLUANTS EST INTERCEPTÉE PAR LE PREMIER RESSORT**, puisque la fonte transactionnelle s'applique également à L'ACQUISITION D'ACTIFS : acheter un bien à fort impact pour échapper au demurrage entraîne une perte immédiate et bien supérieure. **IL NE RESTE DONC QU'UNE ISSUE : LES ACTIFS RÉELS DOMESTIQUES À FAIBLE IMPACT.** » **OUVERT le 2026-09-06**"
+    date_verification: 2026-09-06
+  - ref: S7
+    nature: normatif
+    reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE VI, SECTION 3, « CONTROLS OF CAPITAL TRANSFERS »** : « **Members MAY EXERCISE SUCH CONTROLS AS ARE NECESSARY TO REGULATE INTERNATIONAL CAPITAL MOVEMENTS**, but no member may exercise these controls in a manner which will **RESTRICT PAYMENTS FOR CURRENT TRANSACTIONS** or which will unduly delay transfers of funds in settlement of commitments. » **SECTION 1 (a)** : un membre ne peut faire un usage net des ressources du Fonds pour couvrir « a large or sustained outflow of capital », et le Fonds peut lui demander « **to exercise controls** » à peine d'inéligibilité. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (voir L20.C08 pour la réserve d'édition)"
+    date_verification: 2026-09-06
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L2.C11, qui verse l'aveu des auteurs du rapport sur les risques climatiques : les initiatives des banques centrales « WILL NOT BE SUFFICIENT ON THEIR OWN [...] requires UNPRECEDENTED COLLECTIVE ACTION AND COORDINATION EFFORTS » ; L2.C07, qui verse le plaidoyer de T. Padoa-Schioppa contre la règle du consensus dans les comités de supervision et « POUR DES DÉCISIONS COMMUNES PRISES À LA MAJORITÉ SI NÉCESSAIRE ET S'IMPOSANT À TOUS » ; L20.C13, qui établit que dans les trois traités ouverts l'entrée est coûteuse et la sortie libre"
     date_verification: 2026-09-06
 verifications_en_attente:
-  # ── LA DIVERGENCE DE CE CHAPITRE EST À ARBITRER PAR L'AUTEUR ─────────────
-  # Le livre et le Cahier énoncent DEUX RÉGIMES DE CHANGE DIFFÉRENTS. Le
-  # corpus ne tranche pas : `corpus/livres.yaml` désigne pour ce livre DEUX
-  # sources — le chapitre 9 du livre ET les douze épisodes — sans dire
-  # laquelle prime en cas d'écart. Signalé à l'auteur.
+  # ── ARBITRAGE RENDU LE 2026-09-06 : « PARITÉ FIXE ! » ────────────────────
+  # La divergence relevée par ce chapitre a été tranchée le jour même par
+  # l'auteur, EN FAVEUR DE L'ÉNONCÉ DU LIVRE. L'énoncé du Cahier (épisode 11,
+  # « sans exiger la fixité des parités bilatérales ») est donc celui qui
+  # doit être corrigé, et L11.C04 conserve sa prémisse.
+  #
+  # CE QUE L'ARBITRAGE A PRODUIT, ET LE CORPUS NE L'ATTENDAIT PAS : il rend
+  # la question précise, et la réponse était dans le chapitre 9 du livre.
+  # LE DISPOSITIF NE CONTOURNE PAS LE TRIANGLE — IL LE RESPECTE, en payant
+  # par la mobilité des capitaux. Voir sections 2 et 3.
   #
   - "AUCUN TRAVAIL SUR LES RÉGIMES DE CHANGE N'EST OUVERT POUR CE CHAPITRE.
      Le corpus tient Mundell 1962 (affectation) et Mundell 1963 (mobilité des
@@ -46,7 +63,7 @@ verifications_en_attente:
      référentiel et l'articulation des droits de tirage ; **le deuxième
      dispositif n'est lu que par son nom**, alors qu'il porte le blocage de
      la fuite de capitaux et donc l'un des trois sommets du triangle."
-resume: "Ce chapitre traite le dixième déplacement et il y trouve une divergence entre le livre et le cahier technique sur le mécanisme le plus central du dispositif, celle du régime de change. Le livre écrit trois fois que les taux de change sont fixes par conception et en déduit que les nations recouvrent la latitude de leurs politiques monétaires et la libre circulation des capitaux. Le cahier écrit que le référentiel fixe une référence stable sans exiger la fixité des parités bilatérales. Ces deux énoncés ne décrivent pas le même système et ils n'ont pas le même sort face au triangle d'incompatibilité. Sous le premier, les trois sommets sont revendiqués simultanément, ce qui est exactement ce que le théorème nie, et l'affirmer ne le neutralise pas. Sous le second, la contrainte est desserrée parce qu'on a renoncé à la fixité, mais alors le référentiel est une unité de compte et non un régime de change, et le mot contourner ne convient plus. Le chapitre ne tranche pas, parce que le registre des livres désigne pour ce livre deux sources sans dire laquelle prime. Il relève ensuite que le déplacement dispose de deux appuis institutionnels qu'il n'exploite pas, l'un déclarant que les banques centrales ne suffiront pas seules et qu'une coordination sans précédent est requise, l'autre plaidant contre la règle du consensus dans les comités internationaux. Il rappelle enfin que les trois traités ouverts au Livre 20 organisent tous la même asymétrie, entrée coûteuse et sortie libre, qu'un dispositif de club ne peut pas se permettre."
+resume: "Ce chapitre traite le dixième déplacement. Il y relève une divergence entre le livre et le cahier technique sur le mécanisme le plus central du dispositif, celle du régime de change : le livre écrit trois fois que les taux sont fixes par conception, le cahier écrit que le référentiel opère sans exiger la fixité des parités bilatérales. L'auteur a tranché le jour même en faveur du livre, et le chapitre enregistre ce que l'arbitrage produit, qui n'était pas attendu. Sous parités fixes, les trois sommets du triangle d'incompatibilité sont revendiqués ensemble, ce que le théorème nie, et le chapitre 8 ne fournit aucun mécanisme. Le chapitre 9 en fournit un, et le corpus ne l'avait pas vu : le livre y décrit un contrôle des capitaux, non administratif mais économique, la fonte transactionnelle s'appliquant à l'acquisition d'actifs, de sorte que la fuite reste licite et devient coûteuse. Le triangle n'est donc pas contourné, il est respecté, et le dispositif occupe le coin de Bretton Woods, fixité et autonomie monétaire payées par une mobilité des capitaux restreinte. Le chapitre établit que ce coin a un précédent exprès, l'article VI des statuts du Fonds de 1944 autorisant nommément les contrôles nécessaires à la régulation des mouvements internationaux de capitaux, et il en tire une contrainte de conception que le Livre 11 n'a jamais posée, puisque le même article interdit que ces contrôles restreignent les paiements des transactions courantes. L'assiette de la fonte doit donc séparer les transactions en capital des paiements courants, et la définition des seconds figure dans un texte que le corpus détient."
 concepts: [referentiel_de_change, devise_cle, hierarchie_monetaire, etalon_de_change_or, polycentricite, creation_monetaire]
 renvois: [L1.C24, L1.C25, L1.C26, L1.C27, L2.C07, L2.C11, L2.C16, L2.C17, L7.C06, L11.C04, L11.C15, L20.C07, L20.C13]
 ---
@@ -63,17 +80,33 @@ renvois: [L1.C24, L1.C25, L1.C26, L1.C27, L2.C07, L2.C11, L2.C16, L2.C17, L7.C06
 
 ::etat:: **Ces deux énoncés ne décrivent pas le même système.** L'un fixe les parités bilatérales, l'autre déclare expressément ne pas les exiger.
 
-## 2. Les deux n'ont pas le même sort
+## 2. L'arbitrage, et ce qu'il rend possible
 
-::hypothese:: **Sous l'énoncé du livre, les trois sommets sont revendiqués simultanément** — parités fixes, autonomie monétaire, mobilité des capitaux. **C'est exactement ce que le triangle d'incompatibilité nie**, et l'affirmer ne le neutralise pas : **il faudrait montrer par quel mécanisme la contrainte cesse d'opérer**, et le passage n'en fournit aucun. Il ajoute d'ailleurs que « les modalités de cette fixité restent à discuter », ce qui est l'aveu que le mécanisme n'est pas décrit.
+::etat:: **L'auteur a tranché le 2026-09-06, le jour même où le corpus a relevé la divergence** [S5] : « **Parité fixe !** » **L'énoncé du livre l'emporte.** L'épisode 11 du Cahier est donc celui qui doit être corrigé, et **L11.C04 conserve sa prémisse.**
 
-::hypothese:: **Sous l'énoncé du Cahier, la contrainte est desserrée pour une raison simple : on a renoncé à un sommet.** Si les parités bilatérales ne sont pas fixes, **il n'y a rien à contourner** — on a choisi le coin flottant, et le référentiel fournit un numéraire commun. **C'est cohérent, c'est faisable, et ce n'est pas un contournement du triangle : c'est son application.**
+::hypothese:: **Le corpus enregistre que l'arbitrage retient l'énoncé le plus ambitieux des deux, et il le dit avant de dire ce que cela permet.** Sous parités fixes, les trois sommets sont revendiqués ensemble — fixité, autonomie monétaire, mobilité des capitaux — **et c'est exactement ce que le triangle d'incompatibilité nie.** Un dispositif qui « neutralise » un théorème doit fournir le mécanisme par lequel la contrainte cesse d'opérer. **Le chapitre 8 n'en fournit aucun.**
 
-::hypothese:: **Le corpus enregistre que le second énoncé est le plus défendable et le moins ambitieux.** Une unité de compte commune supprime le passage par une monnaie dominante intermédiaire — **ce qui est un gain réel** et ce qui répond au dilemme de Triffin — **sans rien dire des parités.** Le premier énoncé promet davantage et ne fournit pas le mécanisme.
+::etat:: **LE CHAPITRE 9 EN FOURNIT UN, ET LE CORPUS NE L'AVAIT PAS VU** [S6]. Le livre y parle du « **contrôle des capitaux** exposés au chapitre 8 » : « **La fuite vers les actifs spéculatifs ou polluants est interceptée par le premier ressort**, puisque la fonte transactionnelle s'applique également à **l'acquisition d'actifs** : acheter un bien à fort impact pour échapper au demurrage entraîne une perte immédiate et bien supérieure. **Il ne reste donc qu'une issue : les actifs réels domestiques à faible impact.** »
 
-::etat:: **Le corpus ne tranche pas la divergence, et il dit pourquoi.** `corpus/livres.yaml` désigne pour ce livre **deux sources** — le chapitre 9 du livre **et** les douze épisodes — **sans dire laquelle prime en cas d'écart.** L'arbitrage appartient à l'auteur.
+::hypothese:: **Le dispositif a donc un contrôle des capitaux, et il ne le nomme pas comme tel dans sa présentation du triangle.** Le mécanisme n'est pas administratif — nulle autorisation préalable, nulle interdiction — **il est économique** : la sortie reste licite et devient coûteuse, et le coût est celui de la fonte appliquée à l'acquisition d'actifs.
 
-::hypothese:: **Il signale ce que l'arbitrage engage, parce que ce n'est pas mince.** L11.C04 est intitulé « les instruments du reflux **sous parité fixe** » : **tout un chapitre du Livre 11 travaille sous l'hypothèse du livre.** Si l'énoncé du Cahier prévaut, **cette prémisse tombe et le chapitre est à reprendre.**
+::hypothese:: **Il en résulte que le triangle n'est pas contourné : il est RESPECTÉ, et le dispositif occupe un coin.** Fixité des parités **plus** autonomie monétaire, payées par **une mobilité des capitaux restreinte**. C'est le coin de Bretton Woods, et **c'est une position parfaitement défendable** — infiniment plus que la prétention à tenir les trois sommets.
+
+::etat:: **Le corpus corrige donc en conséquence la formulation du livre plutôt que sa conception.** La phrase « les nations recouvrent toute la latitude de leurs politiques monétaires, **ainsi que la libre circulation des capitaux** » **est contredite par le chapitre suivant du même ouvrage.** C'est la troisième divergence interne au dossier relevée par ce livre, **et la seule qui se résolve à l'avantage du dispositif.**
+
+## 3. Le précédent existe, et il est exprès
+
+::etat:: **Statuts du Fonds de 1944, article VI section 3** [S7] : « **Members may exercise such controls as are necessary to regulate international capital movements**, but no member may exercise these controls in a manner which will **restrict payments for current transactions** or which will unduly delay transfers of funds in settlement of commitments. »
+
+::hypothese:: **Le contrôle des capitaux n'est donc pas une tolérance : c'est un droit expressément reconnu par le traité qui organisait les parités fixes.** Le système auquel le dispositif ressemble le plus **avait prévu ce que le dispositif fait**, et l'avait écrit dans son article premier sur les mouvements de capitaux.
+
+::etat:: **Et l'article VI section 1 va plus loin** [S7] : le Fonds pouvait **demander** à un membre d'exercer des contrôles, à peine de le déclarer inéligible à ses ressources.
+
+::hypothese:: **Le corpus tire de là le résultat le plus utile de ce chapitre, et il est double.** D'une part, **le dispositif cesse d'avoir à réfuter un théorème** : il choisit un coin, ce coin a un traité, et ce traité l'autorise nommément. D'autre part — **et c'est une contrainte de conception que L11 n'a jamais posée** — l'article VI assortit ce droit d'**une limite précise** : les contrôles ne doivent pas **restreindre les paiements des transactions courantes.**
+
+::hypothese:: **Cette limite mord directement sur l'assiette de la fonte transactionnelle.** Un prélèvement qui frappe l'acquisition d'actifs est un contrôle des mouvements de capitaux, licite sous l'article VI ; **un prélèvement qui frappe le paiement d'une importation est une restriction des transactions courantes**, que le même article interdit. **L11.C05 a construit l'assiette du reflux transactionnel sans jamais distinguer les deux**, et L20.C19 a montré que le droit du commerce pose une contrainte parallèle sur les charges à la frontière.
+
+::hypothese:: **Le corpus verse donc une exigence chiffrable au Livre 11 : l'assiette de la fonte doit séparer les transactions en capital des paiements courants**, et la définition des secondes est fournie par le même traité — l'article XIX (i) des statuts de 1944 énumère ce qu'on entend par « payments for current transactions ». **Le corpus détient ce texte et ne l'a pas employé.**
 
 ## 3. Une tension interne au Cahier lui-même
 
@@ -99,11 +132,15 @@ renvois: [L1.C24, L1.C25, L1.C26, L1.C27, L2.C07, L2.C11, L2.C16, L2.C17, L7.C06
 
 ## 6. Portée
 
-::etat:: **Le livre et le Cahier énoncent deux régimes de change différents** : fixité par conception d'un côté, référence stable sans fixité des parités bilatérales de l'autre.
+::etat:: **Le livre et le Cahier énonçaient deux régimes de change différents. L'auteur a tranché le jour même : PARITÉ FIXE.** L'énoncé du Cahier est celui qui doit être corrigé, et **L11.C04 conserve sa prémisse.**
 
-::hypothese:: **Sous le premier, les trois sommets du triangle sont revendiqués ensemble, ce que le théorème nie, et aucun mécanisme n'est fourni.** Sous le second, **il n'y a rien à contourner** — on a renoncé à un sommet, et le référentiel est un numéraire commun. **Le second est le plus défendable et le moins ambitieux.**
+::hypothese:: **L'arbitrage rend la question précise, et la réponse était dans le chapitre suivant du livre.** Le chapitre 9 décrit **un contrôle des capitaux** — non administratif mais économique, la fonte s'appliquant à l'acquisition d'actifs. **Le triangle n'est donc pas contourné : il est respecté**, et le dispositif occupe **le coin de Bretton Woods** — fixité et autonomie monétaire, payées par une mobilité des capitaux restreinte. **C'est une position défendable, et infiniment plus solide que la prétention à tenir les trois sommets.**
 
-::etat:: **Le corpus ne tranche pas : le registre désigne deux sources sans dire laquelle prime.** **Et l'arbitrage engage L11.C04**, dont le titre même travaille sous parité fixe.
+::etat:: **Le coin a un précédent exprès** : l'article VI des statuts de 1944 autorise nommément « such controls as are necessary to regulate international capital movements ». **Le dispositif cesse d'avoir à réfuter un théorème.**
+
+::hypothese:: **Et le même article pose une contrainte que le Livre 11 n'a jamais posée** : ces contrôles ne doivent pas **restreindre les paiements des transactions courantes.** **L'assiette de la fonte doit donc séparer les transactions en capital des paiements courants** — et la définition des seconds figure à l'article XIX (i) du même texte, que le corpus détient et n'a pas employé.
+
+::etat:: **Troisième divergence interne au dossier relevée par ce livre, et la seule qui se résolve à l'avantage du dispositif** : la phrase du chapitre 8 sur « la libre circulation des capitaux » est contredite par le chapitre 9 du même ouvrage.
 
 ::hypothese:: **La divergence traverse l'épisode 11 lui-même** — parité fixe à l'exécution, absence de fixité au triangle — **ce qui suggère une formulation non arrêtée plutôt que deux thèses.**
 

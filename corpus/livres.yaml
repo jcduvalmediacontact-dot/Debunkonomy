@@ -248,7 +248,7 @@ livres:
       - "discipline — régulation prudentielle"
       - "objection — P3, P8, P18 (calibration), P19c (ancrage des anticipations)"
     statut: en-cours
-    chapitres_annonces: 12
+    chapitres_annonces: null
     chapitres_acquis: 20
     source: >
       Chapitre 9 du livre, « Recommandations macroprudentielles NEMO IMS »
@@ -258,11 +258,25 @@ livres:
       L'AUTEUR : « les concepts macro prudentiels actuels et les confronter à
       la macro prudence NEMO IMS. Réfère toi aux OUVRAGES de Michel Aglietta,
       Dominique Plihon, et quelques autres. »
-      ÉCART DE COMPTE À ARBITRER PAR L'AUTEUR. Le registre annonce DOUZE
-      chapitres, qui sont les douze ÉPISODES du Cahier ; le corpus en produit
-      VINGT, parce qu'il ajoute huit chapitres de doctrine que le Cahier ne
-      cite pas. Le plan directeur tranche et ce fichier est corrigé, jamais
-      l'inverse : l'écart est SIGNALÉ, non résolu.
+      ÉCART DE COMPTE ARBITRÉ LE 2026-09-06 : « LE NOMBRE N'EST PAS FIXÉ. »
+      Le registre annonçait douze chapitres, qui étaient les douze ÉPISODES du
+      Cahier ; le corpus en a produit vingt, ajoutant huit chapitres de
+      doctrine que le Cahier ne cite pas. L'auteur ayant tranché que le compte
+      n'est pas contraignant, `chapitres_annonces` passe à `null` — le plan
+      tranche, le registre est corrigé.
+      ARBITRAGE A32 DU MÊME JOUR : « PARITÉ FIXE ! » L'énoncé du LIVRE
+      l'emporte sur celui du Cahier (ép. 11). L11.C04 conserve sa prémisse ;
+      c'est l'épisode 11 qui est à corriger. CE QUE L'ARBITRAGE A PRODUIT,
+      et le corpus ne l'attendait pas : le chapitre 9 du livre décrit un
+      CONTRÔLE DES CAPITAUX — non administratif mais économique, la fonte
+      s'appliquant à l'acquisition d'actifs. LE TRIANGLE DE MUNDELL N'EST DONC
+      PAS CONTOURNÉ : IL EST RESPECTÉ, et le dispositif occupe LE COIN DE
+      BRETTON WOODS. Précédent exprès : art. VI § 3 des statuts du Fonds de
+      1944, qui autorise nommément « such controls as are necessary to
+      regulate international capital movements ». CONTRAINTE NOUVELLE POUR LE
+      LIVRE 11 : le même article interdit que ces contrôles RESTREIGNENT LES
+      PAIEMENTS DES TRANSACTIONS COURANTES — l'assiette de la fonte doit donc
+      séparer capital et courant, définition à l'art. XIX (i) du même texte.
       LA MATIÈRE ÉTAIT ACQUISE DEPUIS L'ORIGINE ET N'AVAIT JAMAIS ÉTÉ OUVERTE.
       Douze épisodes, 428 626 caractères, sur le Drive ; le corpus n'en citait
       qu'un seul, L2.E09, et de seconde main. Extraits et lus le 2026-09-06,
@@ -413,12 +427,54 @@ livres:
     motifs:
       - "discipline — droit : personnalité juridique des entités naturelles, verrous de l'ordre extractif"
       - "objection — P17 : représenter une entité sans volonté par définition statutaire de son intérêt"
-    statut: acquis
-    chapitres_annonces: 21
-    chapitres_acquis: 14
+    statut: en-cours
+    chapitres_annonces: null
+    chapitres_acquis: 4
     methode: "protocole propre — protocole éditorial, versions maîtresses, dossier de recherche, archives"
     architecture: "Valider définitivement les épisodes 12 à 21."
     note: >
+      PASSE 1 OUVERTE LE 2026-09-06 : QUATRE CHAPITRES, ET LA SITUATION EST
+      INÉDITE DANS LE CORPUS. La matière arrive AVEC SON PROPRE APPAREIL DE
+      CONTRÔLE — protocole éditorial v06, registre transversal v04 (quarante-
+      six entrées), checklists en fichiers séparés, état de clôture de
+      session. 771 368 caractères copiés depuis le Drive.
+      CET APPAREIL EST PLUS STRICT QUE CELUI DU CORPUS SUR TROIS POINTS, et
+      les quatre chapitres écrits sont ceux qui les versent. (1) LA DISCIPLINE
+      DES CINQ DONNÉES (A.1) : pour toute affaire, distinguer le montant
+      réclamé, accordé, les intérêts, l'état des recours et la somme
+      effectivement payée — « le récit ne doit jamais fondre ces cinq strates
+      en un chiffre unique ». LE CORPUS NE DÉTIENT AUCUN CHIFFRE CONFORME :
+      ses grandeurs sont toutes en valeur unique. (2) SIX ÉTATS DE CERTITUDE
+      AU LIEU DE TROIS (B.1) — fait documenté, allégation d'une partie,
+      conclusion d'un tribunal, inférence de l'auteur, position normative,
+      plus LE POINT NON ÉTABLI : « ne jamais le convertir en négation [...]
+      une étude associative ou un article général ne peuvent jamais établir
+      une exhaustivité négative ». LE CORPUS CONFOND INFÉRENCE ET POSITION
+      NORMATIVE sous `::hypothese::` — or un verdict porte sur des inférences,
+      jamais sur des positions normatives. (3) DATATION OBLIGATOIRE des
+      données évolutives, « actuellement » et « à ce jour » proscrits.
+      RÉSULTAT LE PLUS IMPORTANT POUR TOUT LE CORPUS (L6.C04) : l'état de
+      clôture recense TREIZE FAITS JURIDIQUES ÉTABLIS FAUX dans les rapports
+      de défrichage commandés à des modèles externes — décision de justice
+      inexistante, SENS DE TROIS ARRÊTS INVERSÉ, étude ministérielle fabriquée
+      à partir de billets de blog commerciaux, procédure infructueuse racontée
+      comme aboutie, quatre erreurs sur une seule ligne. Trois traits communs :
+      ce ne sont pas des approximations mais DES OBJETS CONSTRUITS ; elles
+      portent sur CE QUI REND UN FAIT CITABLE (numéro, juridiction, année,
+      partie, article, sens, issue) ; AUCUNE N'EST DÉTECTABLE PAR LA LECTURE.
+      D'où la règle F.6, plus stricte que celle du corpus : « un rapport de
+      défrichage n'est jamais cité comme source — ni en primaire, ni en
+      secondaire, ni en bibliographie ». ET UN DISPOSITIF QUI A CORRIGÉ :
+      exiger la source primaire entre parenthèses après chaque mention « sûr »
+      — une contrainte de FORME, non une consigne de fond.
+      LEÇON SYMÉTRIQUE, versée par l'auteur : « CONTREDIRE UNE AFFIRMATION
+      EXIGE LE MÊME NIVEAU DE PREUVE QUE L'AFFIRMER » — une affirmation exacte
+      ayant été écartée à tort sur un commentaire secondaire.
+      PREMIÈRE ACQUISITION : LE REGISTRE TRANSVERSAL v04, qui vit en document
+      Google et n'est pas ouvert. C'est l'appareil de vérité du livre, et un
+      bloc de dix-neuf entrées attend d'y être collé.
+      DIX ÉPISODES SUR VINGT ET UN NE SONT PAS AU MÊME NIVEAU DE VALIDATION —
+      sept non validés (15 à 21), trois sous réserve nommée (12, 13, 14).
       Onze épisodes maîtres sans réserve, trois validés sous réserve, sept
       rédigés non validés. Recoupe directement L1.C18 § 2 : Équateur 2008,
       Atrato 2016, Te Awa Tupua 2017. C'est le livre qui doit établir ce que
