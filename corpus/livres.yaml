@@ -406,9 +406,64 @@ livres:
     motifs:
       - "discipline — histoire de la pensée économique"
       - "objection — P19b : la connaissance dispersée (Hayek) relève de ce livre"
-    statut: exploratoire
-    chapitres_annonces: null
-    chapitres_acquis: 0
+    statut: defrichage
+    chapitres_annonces: 41
+    chapitres_acquis: 41
+    chapitres_annonces_propose: 36
+    architecture: >
+      PROPOSITION DU CORPUS, NON FIXEE — ce registre est la projection du plan
+      directeur de l'auteur et c'est au plan de trancher. PLAN COMPLET EN
+      protocoles/plan-livre-08-propose.md, etabli le 2026-09-06 sur instruction
+      de l'auteur : couvrir la pensee economique de Cantillon et Turgot
+      jusqu'aux dernieres avancees, nombre de chapitres extensible, construit
+      avec recherche web.
+      TRENTE-SIX CHAPITRES EN SIX PARTIES, colonne vertebrale CHRONOLOGIQUE et
+      controverse par chapitre — les deux se reconcilient : la chronologie donne
+      l'ordre, chaque chapitre porte le desaccord que sa periode a ouvert, et
+      une troisieme rubrique dit ce que NEMO IMS en herite, lui doit ou
+      contredit. I. Avant la discipline (C02-C06) ; II. L'economie politique
+      classique (C07-C12) ; III. Les critiques du XIXe (C13-C16) ; IV. La
+      revolution marginaliste (C17-C21) ; V. Le siecle keynesien (C22-C27) ;
+      VI. Le present (C28-C36).
+      CINQ CHAPITRES SONT ECRIVABLES IMMEDIATEMENT sur des sources deja
+      ouvertes : C24 (Tinbergen, Mundell), C23 (Keynes CW XXV, Eichengreen),
+      C25 (Hayek), C29 (Ostrom), C27 partiellement (Goutsmedt et al.).
+      LE COUT D'ACQUISITION EST INCOMPARABLEMENT PLUS FAIBLE QUE CELUI DU
+      LIVRE 11 : les quatre premieres parties reposent sur des textes du domaine
+      public, tous accessibles. L'obstacle n'est pas l'acces, c'est le temps de
+      lecture.
+      PROCEDER PAR CONTROVERSES et non par ecoles : une ecole se classe, une
+      controverse se teste. Comparer par ecoles inviterait a ranger NEMO IMS parmi les
+      heterodoxes ou les post-keynesiens, ce qui ne dit rien de ce qui
+      fonctionne dans le dispositif et offre a ses contradicteurs une
+      refutation par etiquette. Trois controverses sont deja instruites de fait
+      par le Livre 11, avec leurs sources ouvertes : regle contre discretion
+      (Tinbergen, Lucas affaibli, Friedman renforce) ; separation contre
+      integration en macroprudence (Engone Mve) ; determination centrale contre
+      polycentricite (Hayek, Ostrom, Mundell). BIAIS DE SELECTION DECLARE : ce
+      sont celles que le Livre 11 a rencontrees, non celles que la discipline
+      tiendrait pour principales. D'autres doivent entrer -- neutralite
+      monetaire, nature de la monnaie, endogeneite du credit.
+    note: >
+      OUVERT le 2026-09-06 sur decision de l'auteur, qui en a formule l'objet
+      ainsi : comparer la theorie macroeconomique standard avec celle
+      preconisee par NEMO IMS. Le corpus a signale que cette formulation
+      correspondait a la fonction enregistree de ce livre et non a celle du
+      Livre 2, lequel compte deja douze episodes acquis sur la macroprudence
+      et vit hors du depot ; l'auteur a tranche pour le 8.
+      L8.C01 NE COMPARE RIEN : il etablit que le premier terme de la
+      comparaison n'est pas donne. Deux fois le corpus a cherche la doctrine et
+      trouve un desaccord -- macroprudence et portee empirique de la critique
+      de Lucas -- et les deux fois le desaccord portait sur la portee EMPIRIQUE
+      et non sur la validite logique. Il en tire une autocritique : trois
+      emplois du corpus restent a reexaminer (P48, L11.C10, L11.C22), tous
+      adosses a Friedman ou Kydland-Prescott, dont aucun n'est ouvert.
+      RESULTAT FAVORABLE AU DISPOSITIF, source : Tinbergen range le changement
+      de structure monetaire en classe (d), ou la recherche empirique est
+      declaree presque inexistante. Sur le quantitatif, il n'existe pas de
+      theorie standard a lui opposer ; sur le qualitatif, elle s'applique
+      pleinement -- et c'est de la que vient l'essentiel de ce que le Livre 11
+      a etabli contre lui.
 
   - livre: 9
     titre: "Atlas comparé des économies du monde"
@@ -450,8 +505,17 @@ livres:
       - "rouage — reflux collectif : reflux transactionnel et prélèvement pondéré sur les transactions"
       - "objection — P3, P4, P18 : la promesse la plus lourde du corpus"
     statut: defrichage
-    chapitres_annonces: 25
-    chapitres_acquis: 25
+    chapitres_annonces: 26
+    chapitres_acquis: 26
+    ecart_signale: >
+      2026-09-06 — LE LIVRE DEPASSE SON ANNONCE. Vingt-six chapitres acquis
+      pour vingt-cinq annonces. Le vingt-sixieme, L11.C26, rend le livre au
+      terme de sa premiere passe : il ne verse aucun resultat neuf et reunit
+      quatre structures majeures qui n'etaient consolidees nulle part — les
+      sept biais de concentration, les quinze conditions-limites, les cinq
+      delais, les six objets qu'un bareme exige. CE REGISTRE EST LA PROJECTION
+      DU PLAN DIRECTEUR DE L'AUTEUR : c'est au plan de trancher, non au corpus.
+      Signale, non corrige.
     note: >
       ÉLARGI le 2026-09-05, arbitrage de l'auteur. L'arbitrage A8 a établi que
       cinq questions traitées séparément n'en font qu'une : qui pondère, selon

@@ -1144,7 +1144,7 @@ doit le dire parce que la révision joue en partie contre lui.
 |---|---|---|
 | **Lucas 1976** — l'assiette se déforme par anticipation du barème annoncé | la plus forte des trois | **AFFAIBLIE.** Logiquement incontestée — ses contradicteurs eux-mêmes la concèdent — mais son **importance empirique** a été testée et rejetée dans les années 1980 |
 | **Friedman 1968** — délais longs et variables | la moins spectaculaire | **RENFORCÉE, et changée de nature.** Ce n'est pas un retard, c'est une **inversion de signe** : une politique contracyclique à délais longs devient procyclique |
-| **Kydland-Prescott 1977** — incohérence temporelle | fondait F7 et P48 | **CONFIRMÉE au second degré**, mécanisme compris. L'article de 1977 reste à ouvrir |
+| **Kydland-Prescott 1977** — incohérence temporelle | fondait F7 et P48 | **OUVERTE DE PREMIÈRE MAIN le 2026-09-06.** Confirmée, et elle apporte quatre choses que le corpus n'avait pas — voir ci-dessous |
 
 **Sur Lucas, le détail, parce qu'il compte.** Fischer (1983) : « The general point
 made by the critique is correct [...] That the point has been important
@@ -1161,6 +1161,20 @@ l'effet d'anticipation sera **grand**. Il peut soutenir qu'il existe en principe
 et que son ampleur est inconnue. **La jambe Lucas de F7 passe donc de résultat
 établi à possibilité non mesurée.**
 
+> **CETTE CONCLUSION EST ANNULÉE LE 2026-09-06, APRÈS OUVERTURE DE LUCAS 1976.**
+> Elle était trop forte, et pour une raison que seule la source primaire pouvait
+> révéler : **l'auteur borne lui-même son résultat, et la borne tombe exactement
+> là où les tests ont porté.** « For the question of the short-term forecasting,
+> or tracking ability of econometric models, we have seen that this conclusion is
+> of **only occasional significance**. For issues involving **policy evaluation**,
+> in contrast, **it is fundamental**. » Les tests de Fischer, Blinder et Blanchard
+> portaient sur la stabilité des paramètres et la prévision — le domaine concédé.
+> **Ils ne portaient pas sur l'évaluation d'une politique nouvelle**, qui est le
+> domaine revendiqué, et qui est celui du dispositif. **La jambe Lucas est donc
+> RÉTABLIE dans son domaine propre**, et le corpus enregistre que sa correction
+> hâtive était aussi mal fondée que l'invocation qu'elle corrigeait. Onzième
+> autocorrection, et la première qui en annule une précédente. Voir L8.C31 § 4.
+
 **Ce qu'il refuse de conclure, pour ne pas surcorriger.** Ces tests portent sur
 des courbes de Phillips ; la prédiction du corpus porte sur le **calendrier
 d'investissement d'une entreprise devant une échéance réglementaire annoncée**.
@@ -1173,6 +1187,95 @@ d'acquisition, et elle remplace en partie Lucas 1976 lui-même.**
 source : « All you have to do in this country right now is scream mindlessly,
 *Lucas critique !* and the conversation ends. » **Le corpus a invoqué Lucas trois
 fois sans l'avoir lu.** Le reproche porte sur sa propre pratique.
+
+---
+
+### KYDLAND-PRESCOTT OUVERT LE 2026-09-06 — quatre apports, et le premier corrige le corpus
+
+**Source ouverte par téléchargement direct** : *Journal of Political Economy*,
+vol. 85, n° 3, juin 1977, p. **473-492** (tirage JSTOR, texte complet, sections I
+à VII et appendice). **Correction de pagination** : la liste d'acquisition
+écrivait « p. 473-91 ».
+
+**1. LES DEUX JAMBES SONT INDÉPENDANTES, ET LES AUTEURS LE DISENT.** « In effect
+this is an argument for rules rather than discretion, but, **unlike Friedman's
+(1948) argument, it does not depend upon ignorance of the timing and magnitude of
+the effects of policy**. » **Le corpus tenait pour son propre jugement le fait de
+ne pas compter deux fois le même argument ; les auteurs l'établissent.** F7 ne
+double-compte pas : ses jambes Friedman et Kydland-Prescott portent sur des
+choses distinctes.
+
+**2. L'OBJECTION EST PLUS ROBUSTE QUE LE CORPUS NE L'ESPÉRAIT, ET LA PORTE DE
+SORTIE EST FERMÉE D'AVANCE.** On pouvait croire qu'un barème mondial serait trop
+complexe pour être anticipé. Les auteurs bornent l'exigence : « This does not
+imply that policy is perfectly predicted [...] **All that is needed for our
+argument is that agents have some knowledge of how policymakers' decisions will
+change as a result of changing economic conditions.** » **Une connaissance
+partielle suffit**, et l'exemple donné — « agents may expect tax rates to be
+lowered in recessions and increased in booms » — est exactement la structure d'un
+barème contracyclique.
+
+**3. LA PROCYCLICITÉ ARRIVE PAR UN TROISIÈME CHEMIN.** Le corpus l'avait
+rencontrée par les délais (Friedman) et par l'échec du demurrage en crise
+(L11.C07). Les auteurs la trouvent par l'itération estimation/politique : « we
+found for some not implausible structures that this iterative procedure does not
+converge, and, instead, **stabilization efforts have the perverse effect of
+contributing to economic instability** » ; et en conclusion, « active
+stabilization effects did, for some distributed lag expenditure schedules,
+contribute to economic instability **and even make a stable economy unstable** ».
+
+**4. LEUR PRÉALABLE EST CELUI DE TINBERGEN, ET C'EST UNE CONVERGENCE DE PREMIÈRE
+MAIN.** « The structures considered are far from a tested theory of economic
+fluctuations, **something which is needed before policy evaluation is
+undertaken**. The implication of this analysis is that, until we have such a
+theory, **active stabilization may very well be dangerous and it is best that it
+not be attempted**. » **Deux sources primaires indépendantes disent que la
+connaissance empirique requise n'existe pas** — Tinbergen sur la classe (d),
+Kydland-Prescott ici. Cela renforce F1 et interdit au dispositif d'invoquer l'une
+pour se dispenser de l'autre.
+
+**ET UN MOTIF QUE LE CORPUS AVAIT MAL ATTRIBUÉ.** « The reason that they should
+not have discretion is **not that they are stupid or evil** but, rather, that
+discretion implies selecting the decision which is best, given the current
+situation. » L'objection vaut contre une autorité honnête et compétente —
+**exactement la propriété que le corpus avait relevée chez Hayek** (L8.C29 § 2),
+et qu'il n'avait pas relevée ici.
+
+---
+
+### LUCAS OUVERT LE 2026-09-06 — et deux résultats jouent POUR le dispositif
+
+**Source ouverte par téléchargement direct**, Carnegie-Rochester Conference
+Series on Public Policy, vol. 1, 1976, p. 19-46. **RÉSERVE D'ÉDITION** : la
+couche de texte est une reconnaissance optique fautive — le titre sort en
+« ECONOMETRIC POEICY EVALUATION ». Citations normalisées, à recollationner.
+
+**1. LA BORNE QUE L'AUTEUR POSE, et elle annule la repesée de la veille** : voir
+l'encadré ci-dessus. Le domaine concédé est la prévision, le domaine revendiqué
+est l'évaluation d'une politique nouvelle. **Le dispositif relève du second.**
+
+**2. NI LUCAS NI KYDLAND-PRESCOTT NE PRÉTENDENT QUE LA RÈGLE BAT LA DISCRÉTION.**
+« There seems to be **no theoretical argument ruling out the possibility** that
+[...] delegating economic decision-making authority to some individual or group
+might not lead to superior [...] economic performance [...] The point is rather
+that **this possibility cannot in principle be substantiated empirically**. »
+**F7 ne peut donc pas être formulé comme « la règle est supérieure »** : il porte
+sur ce qui est démontrable, non sur ce qui est meilleur.
+
+**3. LES DEUX AUTEURS ARGUMENTENT POUR LA PUBLICATION, ce qui déséquilibre A17.**
+Kydland-Prescott : « it is probably preferable that selected rules be **simple and
+easily understood, so it is obvious when a policymaker deviates from the
+policy** ». Lucas, en dernière phrase : « policy makers, if they wish to forecast
+the response of citizens, **must take the latter into their confidence**. This
+conclusion [...] seems to accord well with **a preference for democratic decision
+making**. » **Le remède à Goodhart demande des indicateurs non annonçables ; les
+deux sources que le corpus employait contre le dispositif se rangent du côté de
+la publication.** Le conflit A17 n'est pas résolu, **il cesse d'être symétrique**.
+
+**4. CINQUIÈME EXIGENCE VERSÉE À LA DIRECTIVE.** L11.C12 en posait quatre. La
+cinquième est **la lisibilité comme condition de contrôle** : une règle doit être
+assez simple pour que la déviation SE VOIE. Une directive exacte mais illisible
+satisfait la publication et manque son effet.
 
 **Condition d'échec :** que le dispositif ne puisse être calibré ni par une
 règle automatique — parce qu'aucune formule ne suit une assiette dont la

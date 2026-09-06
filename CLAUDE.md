@@ -22,8 +22,15 @@ Lire dans cet ordre avant toute modification :
 4. [protocoles/](protocoles/) — textes à coller pour les modèles tiers :
    `audit-contradictoire.md` (Gemini normal / ChatGPT, jamais Claude seul) et
    `sourcage-deep-research.md` (Gemini Deep Research sur les
-   `verifications_en_attente`). Ce qu'ils rapportent est une piste, jamais une
-   vérification : un humain ouvre la source avant toute `date_verification`.
+   `verifications_en_attente`). **Ce qu'ils rapportent est une piste, jamais une
+   vérification** — cela vaut pour tout résumé produit par un modèle, y compris
+   un outil qui « récupère » une page en la faisant résumer. **MODIFIÉ le
+   2026-09-06 par l'auteur** : Claude peut désormais télécharger une source,
+   l'ouvrir, juger son édition et écrire la `date_verification` lui-même, à
+   condition de lire le TEXTE et non un résumé. L'entrée de source porte alors
+   `OUVERT PAR TÉLÉCHARGEMENT DIRECT` avec l'URL. Un scan sans couche de texte
+   reste non ouvert. Voir la section « Tenue de cette liste » de
+   `sources-a-ouvrir.md`.
    `registre-des-promesses.md` tient les objections que la première partie du
    Livre 1 renvoie à la seconde ; à solder en passe 2, une ligne par promesse.
    `falsification.md` tient les conditions explicites sous lesquelles la thèse

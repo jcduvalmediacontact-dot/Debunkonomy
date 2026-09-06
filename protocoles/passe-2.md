@@ -1034,12 +1034,62 @@ part, et **aucune des trois positions possibles n'est bonne**.
 
 | Nœud | Cible juste | Praticable en droit | Assiette tenable |
 |---|---|---|---|
-| **Encaisses consolidées par bénéficiaire effectif** — position du livre | **oui** | **non** — obstacle de droit, non d'administration | oui |
+| **Encaisses consolidées par bénéficiaire effectif** — position du livre | **oui** | **À ÉTABLIR** — corrigé le 2026-09-06, ce n'était pas « non » | oui |
 | **Réserves bancaires à la banque centrale** — position des voisins, 0,1 % mensuel | **non** — frappe les banques, pas les thésauriseurs | oui | oui |
 | **Comptes, sans consolidation** | oui | oui | **non** — le fractionnement la vide |
 
 **Aucune ligne n'a trois oui.** Le choix n'est donc pas un réglage à optimiser :
 c'est un arbitrage entre trois défauts, et il appartient à l'auteur.
+
+---
+
+**LA PRÉMISSE JURIDIQUE DE CET ARBITRAGE ÉTAIT FAUSSE. CORRIGÉE LE 2026-09-06,
+L'ARRÊT AYANT ÉTÉ OUVERT DE PREMIÈRE MAIN** — CJUE, grande chambre, 22 novembre
+2022, affaires jointes C-37/20 et C-601/20, ECLI:EU:C:2022:912, texte intégral.
+**Douzième autocorrection du corpus, et la première appuyée sur une source
+juridique lue.**
+
+**Ce que le corpus soutenait.** Que la consolidation des soldes par bénéficiaire
+effectif se heurte à « un obstacle **de droit** et non d'administration », parce
+que « la forme la moins intrusive » du registre aurait été jugée
+disproportionnée.
+
+**Ce que l'arrêt dit.** Est invalide le seul article 30 § 5, premier alinéa,
+sous c), en ce qu'il rend les informations accessibles « **dans tous les cas à
+tout membre du grand public** ». **Le registre n'est pas invalidé.** Le point 84
+affirme au contraire que ces informations « doivent être accessibles, **dans
+tous les cas, aux autorités compétentes** et aux cellules de renseignement
+financier, **sans aucune restriction** ». Et le point 85 qualifie le régime
+antérieur à 2018 — accès des autorités et des personnes justifiant d'un intérêt
+légitime — de **considérablement moins attentatoire**, c'est-à-dire exactement
+l'inverse de ce que le corpus lui faisait dire.
+
+**Conséquence pour A12 : l'obstacle n'est pas là où le corpus le mettait.** Une
+autorité qui consolide n'est pas devant une interdiction ; ce qui est interdit
+est de **publier** la consolidation, ce dont aucun prélèvement n'a besoin.
+
+**Ce que la correction ne donne PAS, et le corpus le marque aussitôt.** Le
+registre porte sur les bénéficiaires effectifs de **sociétés et autres entités
+juridiques** ; **il ne recense pas les encaisses d'une personne physique
+réparties entre ses comptes.** Consolider des SOLDES relève d'autres instruments
+— registres nationaux de comptes bancaires, échange automatique d'informations —
+**que l'arrêt ne traite pas**. Le corpus n'a donc pas établi que la
+consolidation des encaisses est licite : il a établi qu'il invoquait **le
+mauvais obstacle**, et il doit maintenant instruire le bon.
+
+**ET L'ARRÊT FOURNIT LE TEST QUI REMPLACE L'INTERDICTION.** Point 64 : les
+limitations « s'opèrent dans les limites du **strict nécessaire** », et lorsqu'un
+choix s'offre « entre plusieurs mesures appropriées à la satisfaction des
+objectifs », il faut retenir **la moins intrusive**. **Cela retourne l'arbitrage
+A12 au lieu de le trancher** : le troisième nœud — prélèvement par compte, sans
+consolidation — **est** une mesure moins intrusive. Retenir le premier nœud
+suppose donc de démontrer que le troisième ne suffit pas, c'est-à-dire de
+**chiffrer la fuite par fractionnement**. **A12 devient une question mesurable
+là où le corpus la croyait fermée par principe.**
+
+**Nouvelle acquisition qui en découle** : les registres nationaux de comptes
+bancaires — leur base juridique, leur périmètre, et qui y accède. C'est là que
+se trouve le vrai obstacle, s'il existe.
 
 **UNE REQUALIFICATION QUE LE CORPUS SE DOIT, versée le 2026-09-06 sur le
 chapitre X de Tinbergen.** Le corpus a traité l'obstacle juridique comme **une

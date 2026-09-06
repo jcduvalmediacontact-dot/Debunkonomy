@@ -153,7 +153,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 | # | Condition-limite | D'où elle vient | Quand elle mord |
 |---|---|---|---|
 | B1 | Le taux ne peut excéder la borne au-delà de laquelle la substitution devient massive — « tax rates must not exceed certain limits because otherwise the tendency to **evasion** will become too strong » [S1] | P29, borne observée entre −0,5 % et −1 % ; mécanisme établi en L11.C07 § 2 | **sous tension** — la fuite est maximale en crise |
-| B2 | L'assiette du demurrage ne peut être consolidée par bénéficiaire effectif | L1.C21 § 6, obstacle de droit | **en permanence** |
+| B2 | La consolidation de l'assiette du demurrage doit satisfaire un test de **stricte nécessité** — et non, comme le portait cette ligne jusqu'au 2026-09-06, être tenue pour interdite | CJUE 22 nov. 2022, C-37/20 et C-601/20, **ouvert de première main** ; correction en L11.C07 § 2 et A12 | **en permanence**, mais comme exigence de preuve et non comme interdiction |
 | B3 | L'incidence ne doit pas frapper qui ne peut pas prouver — « certain proportionalities between the sacrifices of different social groups » [S1] | L11.C06 § 2, L11.C09, arbitrage A14 | **en permanence**, et davantage sous tension |
 | B4 | Ce qui joue le rôle des réserves ne peut être épuisé — « the limits set to real activity by certain **financial situations** » [S1] | L11.C04 § 4, les deux fuites | **sous tension** |
 | B5 | Les prix des produits essentiels ne doivent pas monter | instruction de l'auteur [S3] | **sous tension** |
