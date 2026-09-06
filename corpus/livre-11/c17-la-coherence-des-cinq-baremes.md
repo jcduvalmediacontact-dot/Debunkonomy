@@ -130,6 +130,8 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C27, L1.C28, L11.C03, L11.C05, L11.
 
 ::hypothese:: **Et la forme se vérifie sur les trois barèmes, ce qui n'était pas acquis.** Sur le reflux, A15 en donne le précédent. Sur les parités, L11.C15 établit qu'il n'existe que deux formes — constante ou directive — et que la position actuelle du dispositif n'en est ni l'une ni l'autre. Sur la qualification, L11.C16 § 6 établit que voter la fonction plutôt que la table supprime la surface d'influence annuelle et rend le favoritisme coûteux. **La réponse commune n'est donc pas une commodité de rédaction : elle passe l'épreuve des trois cas.**
 
+::etat:: **LIMITE POSÉE LE JOUR MÊME PAR L11.C19 § 8, et le corpus l'inscrit ici parce que ce paragraphe énonçait trop largement.** La forme directive répond à la question du **barème** ; elle ne répond pas à celle du **dispositif**. **Le recours n'est pas une directive et ne peut pas l'être** — ce n'est pas une fonction des données observées, c'est une adjudication. L11.C06 § 4 avait raison plus tôt : un barème est **trois objets** — une table, une procédure, une charge de la preuve — et **seul le premier est une directive.**
+
 ::hypothese:: **Ce qu'elle coûte est le même sur les trois, et le corpus refuse de le minorer.** On échange une prévisibilité non crédible contre une crédibilité non prévisible. **Sur un taux, cela se corrige à la révision suivante ; sur une parité, cela expose l'exportateur ; sur la valorisation, cela prive durablement un membre de sa capacité d'importer** (L11.C16 § 6). **La forme est commune, son coût ne l'est pas** — et A8 ne l'avait pas prévu.
 
 ## 5. Ce qui refuse de se transporter, et toujours dans le même sens

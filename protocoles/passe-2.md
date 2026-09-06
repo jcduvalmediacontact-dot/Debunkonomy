@@ -1223,7 +1223,7 @@ dans un tableau de taux, qui est le seul document que le dispositif publie.
 | Biais | Correction connue | Statut |
 |---|---|---|
 | Cascade | assiette sur la consommation finale | **déjà retenue par le livre** — il n'est pas exposé |
-| Valeur par défaut | procédure de révision **gratuite et rapide** | à écrire (A11) |
+| Valeur par défaut | procédure de révision **gratuite et rapide** | à écrire (A11) — **FORME INSTRUITE le 2026-09-06 par L11.C19, arbitrage A22** : trois garanties déduites, et le contentieux se révèle être **le mécanisme d'apprentissage du barème** — assorti d'un **sixième biais** qui se compose avec le temps |
 | Consolidation | seuil pour les **personnes morales**, qui manque entièrement | ~~**manque de conception**, pas un paramètre~~ — **INSTRUIT le 2026-09-06 par L11.C18, arbitrage A21.** Quatre formes comparées ; la franchise est la seule sans effet de seuil et la plus coûteuse en assiette. **Résultat inattendu** : le reproche de fragmentation ne tient pas ici, B2 rendant l'échappatoire déjà gratuite et illimitée — le seuil la borne et la tarife. **Résultat défavorable** : il creuse l'assiette par le bas sans la reconstituer par le haut. La forme est au Livre 11, **le montant est une décision D2** |
 | Dérogation | accès **automatique** plutôt que déclaratif | à écrire (A13) |
 
@@ -1738,6 +1738,81 @@ publier.**
 **Ce qui remonte au Livre 7.** Le **niveau** du seuil est un arbitrage
 distributif, donc une décision de type **D2** au sens de L11.C11. Le Livre 11
 établit la forme ; **il n'arrête pas le montant.**
+
+
+### A22 — L'architecture du recours — OUVERT le 2026-09-06
+
+**Origine : L11.C19.** **D4 était la seule des quatre décisions d'un barème
+qu'aucun chapitre n'avait instruite.** L11.C06 § 5 avait pourtant écrit que le
+dispositif « a besoin d'une table, d'une procédure et d'un tribunal » ; le corpus
+n'avait écrit que les deux premiers. **Le silence du livre est intégral** : ni
+organe, ni procédure, ni délai, ni charge de la preuve.
+
+**A22 n'est pas un chantier de plus : c'est la pièce dont trois arbitrages
+attendent la forme.** A11 demande une procédure de révision gratuite et rapide —
+c'est la correction nommée du biais de documentation. A13 suppose qu'une
+dérogation refusée puisse être contestée. **A14 en dépend entièrement** : les
+quatre biais d'incidence étant procéduraux et jamais tarifaires, **la procédure
+est le seul lieu où ils se corrigent.**
+
+**Ce que l'arbitrage doit trancher en premier : les trois garanties.** Le corpus
+les déduit de la cohérence interne du dispositif et marque qu'il n'a ouvert aucun
+régime de contentieux existant.
+
+| | La garantie | Pourquoi elle n'est pas négociable |
+|---|---|---|
+| **1** | **indépendance** de celui qui perçoit | la valeur contestée n'est pas un montant dû mais un **classement**, et le même organe qui classe fixe l'assiette de son produit |
+| **2** | **gratuité** ou quasi-gratuité | un recours payant **reproduit exactement le biais qu'il corrige** — le coût d'accès trie comme le coût de documentation |
+| **3** | **délai borné et opposable**, avec **décision implicite favorable** à l'expiration | ce qui décide n'est pas le bon droit mais la capacité à porter l'écart pendant l'instance : **dix-huit mois sont une formalité pour qui a de la trésorerie et un refus pour qui n'en a pas** |
+
+**Ce que l'arbitrage doit trancher en second : un tribunal ou quatre.** « Le
+recours » recouvre **quatre objets de natures différentes** — une valeur par
+défaut appliquée (technique et métrologique) ; un refus de qualification
+(application d'une norme) ; une valorisation arrêtée (**distributive, c'est D2
+appliquée, donc P52**) ; un refus de dérogation (administrative). **Le troisième
+n'a pas de forme évidente et c'est le plus lourd** : juger une valeur, c'est la
+refaire. **Le recours sur D2 est soit impossible, soit une seconde chambre de
+décision déguisée.** Le corpus n'a pas de sortie et le dit.
+
+**UN RÉSULTAT FAVORABLE QUE LE CORPUS N'ATTENDAIT PAS, et qui change le statut du
+contentieux.** La valeur par défaut existe pour déplacer le coût de la mesure du
+centre vers celui qui en tire avantage. **Il s'ensuit que chaque valeur contestée
+puis révisée est une mesure que quelqu'un a payée et qui entre dans le barème.**
+Le contentieux **produit la métrologie que F2 déclare manquante** : le recours
+n'est pas un coût du système, **c'est son mécanisme d'apprentissage**, et le seul
+dont il dispose. Cela **renforce la branche punitive de A11** — un défaut clément
+n'engendre aucun contentieux, donc aucun apprentissage.
+
+**ET SON REVERS, QUI EST UN SIXIÈME BIAIS DE CONCENTRATION — le premier qui se
+compose avec le temps.** Ceux qui contestent sont ceux que L11.C09 a nommés :
+intégrés, documentés, structurés, conseillés. **La métrologie acquise reproduit
+donc la structure de qui a les moyens de contester.** Le barème devient précis là
+où les requérants sont équipés et **reste grossier là où personne ne conteste** —
+c'est-à-dire dans les secteurs que le dispositif vise. **Et le défaut grossier est
+punitif** : ces secteurs paient indéfiniment un plein tarif dont personne ne
+démontrera qu'il est faux. **C'est aussi le seul biais qui s'aggrave quand le
+dispositif fonctionne bien**, puisqu'il se nourrit du contentieux. La correction
+connue — instruire d'office la révision des classes sans contentieux — revient à
+**dépenser au centre la mesure qu'on avait voulu déplacer**, et le motif
+administratif de Tinbergen dit que personne ne l'entreprendra pour ceux qui ne se
+plaignent pas.
+
+**Ce que le recours ne couvre pas, et ce qui le complète.** Il ne corrige que les
+erreurs dont quelqu'un se plaint, et L11.C13 § 2 a établi que la plus grave n'a
+pas de plaignant — **le projet non certifié n'existe pas.** L11.C17 § 6 fournit
+l'autre moitié : le bouclage rend détectable en agrégat la sous-qualification
+systématique. **Le recours et le bouclage couvrent deux populations disjointes et
+aucun ne remplace l'autre.**
+
+**Ce qui remonte au Livre 7 :** **qui juge.** C'est D4, donc une question
+d'organe, comme le niveau du seuil (A21) et comme les valeurs elles-mêmes.
+
+**UNE LIMITE POSÉE À UN RÉSULTAT ANTÉRIEUR.** L11.C17 § 4 établissait que la
+réponse commune aux barèmes existe et se nomme **directive**. **Le recours n'en
+est pas une et ne peut pas l'être** : ce n'est pas une fonction des données, c'est
+une adjudication. **La forme directive répond à la question du BARÈME, non à celle
+du DISPOSITIF** — et L11.C06 § 4 avait raison plus tôt : un barème est trois
+objets, et **seul le premier est une directive.**
 
 ---
 
