@@ -166,6 +166,50 @@ qu'il est conçu — sans l'être nécessairement à une version dégradée qui
 n'allouerait que sur les fonds bien mesurés (couvert forestier, hydrologie de
 surface).
 
+**BALAYAGE N° 3, 2026-09-06 — LA PASSE 1 DU LIVRE 11 DURCIT F2 SUR TROIS
+POINTS ET L'ADOUCIT SUR UN.**
+
+**1. La métrologie s'inverse, et ce falsifieur est écrit du mauvais côté.**
+L11.C13 § 4 établit que mesurer combien une activité NUIT dispose d'instruments
+imparfaits mais existants — les émissions se comptent, les prélèvements d'eau se
+mesurent, les rejets se dosent —, tandis que **mesurer combien une activité
+RÉGÉNÈRE n'a presque aucun instrument** : restaurer un sol ou une population,
+c'est modifier la trajectoire d'un système vivant, sur des délais qui excèdent
+les cycles budgétaires, et dont l'état de référence est lui-même contesté. F2
+est énoncé sur « l'état écosystémique national » en général ; **il est plus dur
+sur le versant émission que sa propre formulation ne le laisse voir.**
+
+**2. Un second canal d'échec, indépendant de l'instrumentation.** L11.C13 § 4
+établit que certifier suppose d'établir qu'un acte n'aurait pas eu lieu sans
+l'émission — donc un **contrefactuel** —, et L11.C10 que l'annonce d'un
+dispositif déforme les comportements avant qu'il n'existe. **Le contrefactuel
+est déformé par l'annonce même du barème qu'il doit servir à calibrer.** Aucune
+amélioration de la comptabilité écosystémique ne corrige cela : **le test que ce
+falsifieur se donne — la trajectoire des incertitudes sur dix ans — ne l'atteint
+pas.**
+
+**3. La sortie que F2 se donne à lui-même a un coût qu'il ne chiffrait pas.**
+« Une version dégradée qui n'allouerait que sur les fonds bien mesurés » est
+exactement le cinquième biais de concentration établi par L11.C13 § 6 : qui ne
+peut pas documenter n'est pas surtaxé, **il est exclu du financement**. Et le
+motif administratif de Tinbergen le recommande plutôt qu'il ne l'excuse —
+certifier peu d'acteurs, grands et documentés, coûte moins cher. **La sortie
+existe et elle sacrifie ceux que le dispositif vise.** S'y ajoute L11.C16 § 7 :
+sur la valorisation, **il n'existe pas de valeur par défaut défendable** — un
+défaut bas ferme le canal, un défaut haut EST la sur-qualification. La sortie
+métrologique trouvée pour le reflux (L11.C06) ne s'y transporte pas.
+
+**4. Un contrepoids, et le corpus le donne au même titre.** L11.C17 § 6 établit
+que la condition de bouclage rend **détectable en agrégat** l'erreur de
+sous-qualification, que L11.C13 § 2 disait invisible faute de contrefactuel.
+Cela ne mesure pas mieux ; **cela ferme une boucle de contrôle que F2 supposait
+absente.** Le contrefactuel individuel reste indisponible.
+
+**Et une frontière à tenir :** L11.C13 § 7 établit que **F2 et F3 sont des
+problèmes différents.** Une métrologie parfaite ne réglerait pas l'allocation —
+la valeur par défaut répond à l'impossibilité de MESURER, non à celle
+d'ALLOUER.
+
 ## F3 — La connaissance dispersée et l'indicateur pris pour cible
 
 **Condition d'échec :** que la qualification centralisée produise
@@ -201,6 +245,48 @@ reconnaître l'objection sans y répondre n'est plus une position tenable : une
 réponse existe dans la littérature voisine, et ne pas la discuter serait un
 choix, non une lacune.
 
+**BALAYAGE N° 3, 2026-09-06 — L'ALTERNATIVE CONSTITUÉE EST PARTIELLEMENT
+ÉCARTÉE, ET LE REMÈDE ATTERRIT SUR LA DÉCISION LA PLUS CAPTURABLE.**
+
+**1. « Ni adoptée ni écartée » n'est plus exact.** L'option enregistrée
+ci-dessus — norme votée au centre, qualification instruite à l'échelle d'usage
+— se lit désormais sur les quatre décisions de L11.C11 : elle rend le **CONSTAT
+(D3)** local, laisse la **MÉTHODE (D1)** centrale, et **ne touche pas les
+VALEURS (D2)**, qui sont le domicile de la promesse bloquante P52 (L11.C13 § 3).
+**Et elle ne le peut pas** : L11.C16 § 5 établit, sur le résultat de Mundell
+ouvert de première main, qu'un barème modulé nationalement recrée la contrainte
+qu'un barème global annule. **La polycentricité est praticable sur D3 et
+interdite sur D2.** L'objection de Hayek est donc localisée sur une décision et
+une seule — et sur celle-là elle reste entière : *uniforme il est arbitraire,
+non uniforme il est arbitré.*
+
+**2. Le remède déplace le risque au lieu de le réduire, et le corpus doit le
+dire.** L11.C11 § 6 établit que la surface d'influence la plus exposée n'est pas
+celle des valeurs — chiffrées, publiées, surveillées — mais **celle du
+constat** : technique donc peu lisible, sectorielle donc traitée par des gens du
+secteur, répétée donc jamais un événement, et de conséquence monétaire
+immédiate. **Or c'est précisément le constat que l'option polycentrique
+localise.** Abaisser F3 en localisant D3 revient à porter la décision la plus
+capturable à l'échelle où la capture est la plus facile. Ce n'est pas un
+argument contre l'option ; c'est le prix qu'elle porte et qu'il faut inscrire au
+même endroit qu'elle.
+
+**3. L'espace de test de ce falsifieur a rétréci.** F3 demandait l'existence
+d'un mécanisme qui borne l'ajustement des pratiques au barème et en nommait
+trois : **révision non annonçable**, audit des pratiques, ou autre. **Le premier
+est désormais exclu par le corpus lui-même** : L11.C12 exige qu'un barème soit
+une DIRECTIVE PUBLIÉE, et l'on ne peut pas à la fois publier la fonction et
+cacher l'indicateur (L11.C13 § 5, arbitrage A17). **Un des trois remèdes nommés
+est incompatible avec une exigence que le corpus tient pour fondée**, et le
+conflit n'est pas résolu.
+
+**4. Goodhart frappe plus fort qu'écrit ici.** L11.C13 § 5 établit trois raisons
+spécifiques au barème de qualification : la récompense est DIRECTE — être
+certifié produit de la monnaie, là où bien se comporter évite seulement une
+charge ; l'écart indicateur/effet est PLUS GRAND, puisqu'il n'existe pas de
+métrologie de la régénération ; et la détection est PLUS LENTE, par l'asymétrie
+des erreurs.
+
 ## F4 — L'obstacle de droit positif
 
 **Condition d'échec :** qu'aucun montage ne permette au dispositif d'opérer sans
@@ -215,6 +301,20 @@ faisant émettre le GES et exécuter les banques centrales — il ne le lève pa
 **Ce qui trancherait :** un avis de droit sérieux. Si la révision est requise et
 qu'elle exige l'unanimité de vingt-sept États, la proposition reste un exercice
 de conception — ce qui n'est pas rien, mais n'est pas un projet.
+
+**BALAYAGE N° 3, 2026-09-06 — NON TOUCHÉ PAR LE LIVRE 11, ET LE CORPUS LE DIT
+PLUTÔT QUE DE MEUBLER.** Les deux pièces qui décideraient ce falsifieur sont en
+priorité 1 d'acquisition et **aucune n'est ouverte** : l'arrêt de la Cour de
+justice de novembre 2022 (affaires jointes C-37/20 et C-601/20) et le règlement
+(UE) 2023/956 avec ses actes d'exécution sur les valeurs par défaut.
+
+**Une seule donnée nouvelle, et elle est modeste.** L11.C06 verse au dossier le
+mécanisme d'ajustement carbone aux frontières comme **barème d'impacts
+administré opérant en droit de l'Union** — valeurs par défaut publiées,
+révisables, opposables. Cela ne lève ni l'article 123 ni l'article 130, qui
+portent sur le financement monétaire et l'indépendance ; **cela établit qu'un
+barème d'impacts à valeur juridique existe dans l'ordre juridique même que ce
+falsifieur vise.** À verser à l'avis de droit quand il sera demandé.
 
 ## F5 — L'antériorité
 
@@ -901,6 +1001,22 @@ Le chiffre d'échelle rétracté au point 4 ci-dessus **n'est donc toujours pas
 vérifiable** : *Une monnaie écologique* n'est pas dans la bibliothèque. Il
 reste la tâche la plus rentable du dossier.
 
+**BALAYAGE N° 3, 2026-09-06 — LES TROIS ANTÉRIORITÉS ONT MAINTENANT UNE GRILLE
+DE LECTURE, QU'ELLES N'AVAIENT PAS.** F5 exige d'être éprouvé contre elles
+nommément ; le Livre 11 fournit de quoi le faire, et chacune répond à une
+question ouverte du corpus.
+
+| L'antériorité | Ce que le Livre 11 permet d'y chercher |
+|---|---|
+| **Chiemgauer** — un reflux transactionnel qui fonctionne réellement | L11.C07 établit que le demurrage a **trois nœuds de prélèvement et qu'aucun n'est bon**, et la condition-limite **B2** que son assiette ne peut être consolidée par bénéficiaire effectif. **Le Chiemgauer opère à l'échelle où B2 ne mord pas.** L'antériorité prouve donc que le mécanisme marche, ET elle indique pourquoi il marche là et pas à l'échelle visée. Les deux faits comptent |
+| **VECTOR** — taux de conversion en un vecteur principal, structurellement le NEMO Exchange Standard | **La question de A19, sur un dispositif qui existe** : comment VECTOR révise-t-il ses taux de conversion ? Constante, ou directive ? Si c'est une directive, quelles données lit-elle ? **C'est le seul endroit du dossier où la question des parités peut être posée à un dispositif réel** |
+| **Qualified Money / FIN4** — monnaie multi-dimensionnelle qualifiée | À lire comme une décomposition **D1/D2/D3/D4** (L11.C11) : qui fixe la méthode, qui fixe les valeurs, qui constate, qui tranche un recours. **Et surtout : y a-t-il une valeur par défaut, et de quel côté penche-t-elle ?** — la question dont L11.C16 § 7 établit qu'elle n'a pas de bonne réponse |
+
+**Ce que le balayage ne fait pas.** Il n'ouvre aucune de ces trois fiches. Il
+établit que **le corpus sait désormais quoi y chercher**, ce qui n'était pas le
+cas le 2026-09-04 : F5 devait être éprouvé « nommément plutôt que dans
+l'abstrait », et il lui manquait la grille pour cela.
+
 ## F6 — L’adoption contre le créancier
 
 **Condition d’échec :** qu’aucun cas historique n’atteste l’adoption d’un
@@ -975,6 +1091,31 @@ s’appuie pas sur ce qu’elle croit** : elle invoque Bretton Woods en retenant
 précédent la préparation et en omettant l’issue. Tant que F6 n’est pas traité,
 être prêt reste nécessaire et non suffisant — ce qui est exactement la situation
 de Keynes en juillet 1944.
+
+**BALAYAGE N° 3, 2026-09-06 — F6 EST AGGRAVÉ PAR UNE VOIE QUE CE FALSIFIEUR
+N'AVAIT PAS, ET IL FAUT L'ÉNONCER.**
+
+**Ce falsifieur suppose un adversaire ; le Livre 11 en donne plusieurs.** F6 est
+construit sur le créancier dominant : *la disposition qui contraint le créancier
+est la disposition qui saute.* **L11.C16 § 2 et § 4 établissent que la
+valorisation des communs se décide sous enveloppe plafonnée** — le bouclage lie
+le volume émis au produit du reflux, lui-même borné par B1 — de sorte qu'à
+saturation, **relever la valeur d'un acte abaisse en termes réels ce que
+recevront les autres membres.** Il ne s'agit plus d'obtenir d'un seul acteur
+qu'il renonce à une position : **chaque membre a une raison de contester la
+clé**, et cette clé est P31, que le corpus tient pour non écrite. Le durcissement
+du 2026-09-04 établissait que le seuil de tolérance du créancier à toute
+contrainte est très bas ; **celui-ci établit que le nombre de parties ayant une
+raison de refuser est plus grand que F6 ne le supposait.**
+
+**Un précédent utile, mais non sourcé, et le corpus le marque comme tel.**
+L11.C15 § 6 soutient qu'un régime de parités « fixes mais ajustables » a déjà
+échoué parce que l'ajustement était politiquement coûteux et donc reporté
+jusqu'à la crise — même mécanisme d'incohérence temporelle que L11.C10 traite
+sur la trajectoire. **Le corpus tient cela de sa culture générale et non d'une
+source ouverte**, alors qu'il dispose de Keynes *CW* XXV et d'Eichengreen, tous
+deux acquis et dépouillés sur d'autres points. **C'est une piste pour F6, pas
+une donnée**, et rien n'en doit sortir hors corpus avant vérification.
 
 ## F7 — Le pilotage
 

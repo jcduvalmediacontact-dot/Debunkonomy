@@ -1810,7 +1810,7 @@ entrées ci-dessus ont pu être renseignées sans que quinze chapitres du Livre 
 voient leur `revision_de_fond` bougée — ce qui est le bon classement, le dossier
 de vérification étant matière de travail et non assertion du chapitre.
 
-### Ce qui reste à balayer
+### Ce qui restait à balayer après le n° 2
 
 - **les falsifieurs F2 à F6**, jamais relus à la lumière du Livre 11 — F1 et F7
   l'ont été en cours de route ;
@@ -1819,3 +1819,47 @@ de vérification étant matière de travail et non assertion du chapitre.
   unanime, ce qui touche directement son objet ;
 - **les trente-six concordances sans apport** du présent balayage : elles n'ont
   pas été relues une à une, seulement écartées sur lecture rapide.
+
+### Balayage n° 3 — passe 1 du Livre 11 sur les falsifieurs F2 à F6
+
+**Périmètre : les cinq falsifieurs jamais relus à la lumière du Livre 11.** F1 et
+F7 l'avaient été en cours de route — F1 qualifié en classe (d) de Tinbergen, F7
+élargi à la trajectoire puis repondéré. **Les cinq autres sont annotés le
+2026-09-06 dans `falsification.md`.**
+
+**Aucun falsifieur n'est levé. Trois sont durcis, un est localisé, un est
+inchangé.**
+
+| | Ce que la passe 1 du Livre 11 lui fait |
+|---|---|
+| **F2** — métrologie | **DURCI SUR TROIS POINTS, ADOUCI SUR UN.** Le falsifieur est écrit du mauvais côté : mesurer un mal a des instruments imparfaits mais existants, mesurer un bien n'en a presque aucun. Un second canal d'échec apparaît, **indépendant de l'instrumentation** — le contrefactuel d'additionnalité est déformé par l'annonce du barème —, et **le test que F2 se donne ne l'atteint pas.** La sortie qu'il se donne — n'allouer que sur les fonds bien mesurés — **est le cinquième biais de concentration**, et l'efficacité administrative la recommande. Adouci par L11.C17 § 6 : le bouclage ferme une boucle de contrôle que F2 supposait absente |
+| **F3** — connaissance dispersée et Goodhart | **LOCALISÉ, ET SON ESPACE DE TEST A RÉTRÉCI.** « Ni adoptée ni écartée » n'est plus exact : l'option polycentrique laisse D2 centrale et **Mundell l'y interdit**. Elle localise D3 — **soit la décision que L11.C11 § 6 identifie comme la plus capturable.** Et **un des trois remèdes que F3 nommait est exclu par le corpus lui-même** : la révision non annonçable contredit l'exigence de directive publiée (A17, non résolu) |
+| **F4** — droit positif | **INCHANGÉ, et le corpus le dit plutôt que de meubler.** Les deux pièces qui le décideraient — arrêt CJUE de novembre 2022, règlement CBAM et actes d'exécution — sont en priorité 1 et **aucune n'est ouverte**. Une seule donnée nouvelle, modeste : le CBAM est un barème d'impacts administré **opérant dans l'ordre juridique même que F4 vise** |
+| **F5** — antériorité | **LES TROIS ANTÉRIORITÉS ONT UNE GRILLE DE LECTURE**, qu'elles n'avaient pas. Chiemgauer : il opère à l'échelle où la condition-limite B2 ne mord pas — **l'antériorité prouve que le mécanisme marche ET indique pourquoi il ne transporte pas.** VECTOR : **le seul endroit du dossier où A19 peut être posé à un dispositif réel.** FIN4 : à lire comme une décomposition D1/D2/D3/D4, et surtout — y a-t-il une valeur par défaut, et de quel côté penche-t-elle ? |
+| **F6** — adoption contre le créancier | **AGGRAVÉ PAR UNE VOIE NOUVELLE.** F6 suppose UN adversaire ; l'enveloppe plafonnée en donne plusieurs. À saturation, la valorisation est un partage à somme quasi nulle : **chaque membre a une raison de contester la clé**, et cette clé est P31, non écrite. Le durcissement du 2026-09-04 établissait que le seuil de tolérance du créancier est très bas ; celui-ci établit que **le nombre de parties ayant une raison de refuser est plus grand que F6 ne le supposait** |
+
+**Ce que le balayage n° 3 apporte de plus utile, et ce n'est pas un durcissement.**
+F5 exigeait depuis le 2026-09-04 d'être éprouvé contre ses trois antériorités
+« **nommément plutôt que dans l'abstrait** », et il lui manquait la grille pour
+cela. **Le Livre 11 la fournit** : les quatre décisions, la condition-limite B2,
+la dichotomie constante/directive, la question de la valeur par défaut. Les trois
+fiches ne sont toujours pas ouvertes — **mais le corpus sait désormais quoi y
+chercher**, ce qui rend l'ouverture rentable.
+
+**Une piste versée sous réserve explicite.** L11.C15 § 6 apporte à F6 le
+précédent des parités « fixes mais ajustables » de Bretton Woods, dont
+l'ajustement politiquement coûteux était reporté jusqu'à la crise. **Le corpus
+tient ce point de sa culture générale et non d'une source ouverte**, alors qu'il
+dispose de Keynes *CW* XXV et d'Eichengreen. C'est une piste pour F6, pas une
+donnée.
+
+### Ce qui reste à balayer après le n° 3
+
+- **le Livre 2**, dont les douze épisodes sont acquis et qui porte la
+  macroprudence : L11.C03 § 6 a établi, sur Engone Mve 2022, que la doctrine de
+  la séparation **n'est pas unanime** — pôle de la séparation contre pôle de
+  l'intégration — et que l'étude porte sur un régime de change fixe, celui du
+  dispositif. **C'est le dernier gisement identifié**, et le seul qui touche un
+  livre déjà acquis ;
+- **les trente-six concordances sans apport** du balayage n° 2, écartées sur
+  lecture rapide et jamais relues une à une.
