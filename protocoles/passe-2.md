@@ -1853,7 +1853,7 @@ tient ce point de sa culture générale et non d'une source ouverte**, alors qu'
 dispose de Keynes *CW* XXV et d'Eichengreen. C'est une piste pour F6, pas une
 donnée.
 
-### Ce qui reste à balayer après le n° 3
+### Ce qui restait à balayer après le n° 3
 
 - **le Livre 2**, dont les douze épisodes sont acquis et qui porte la
   macroprudence : L11.C03 § 6 a établi, sur Engone Mve 2022, que la doctrine de
@@ -1863,3 +1863,92 @@ donnée.
   livre déjà acquis ;
 - **les trente-six concordances sans apport** du balayage n° 2, écartées sur
   lecture rapide et jamais relues une à une.
+
+### Balayage n° 4 — passe 1 du Livre 11 sur le Livre 2 (macroprudence)
+
+**Le Livre 2 n'est pas dans le dépôt.** Ses douze épisodes sont acquis et vivent
+hors du corpus ; seul L2.E09 y est cité, dix-sept fois. **Le balayage ne peut
+donc pas annoter ses chapitres** — il verse huit acquis à la section des
+couplages et annote les quatre promesses que la table de routage lui attribue.
+**Le corpus enregistre au passage qu'il ne peut pas balayer un livre qu'il ne
+détient pas**, ce qui vaut aussi pour les Livres 3 à 10 et 12 à 18.
+
+**L'acquis principal touche l'objet même de ce livre, et il est défavorable.**
+
+**La doctrine macroprudentielle n'est pas unanime**, et un livre de
+recommandations macroprudentielles ne peut pas écrire la séparation comme un
+acquis. Engone Mve 2022, ouvert le 2026-09-05, établit deux pôles — séparation
+(Svensson, Bernanke, Beau et al.) contre intégration (Adrian-Shin, Mishkin,
+Eichengreen et al., au motif que les instruments macroprudentiels « **because
+they are more targeted, are easily circumvented** ») — plus une position
+conditionnelle.
+
+**Et le corpus peut désormais aller plus loin que constater le désaccord.** Le
+pôle de la séparation se fonde explicitement sur « **Tinbergen's consistency
+rule (1952) and Mundell's rule of efficient instrument allocation** » — soit les
+deux textes que la passe 1 du Livre 11 a ouverts intégralement. Il en résulte
+deux réserves que le corpus tient de première main :
+
+- L11.C03 § 9 établit que le cadre de Tinbergen est bâti pour ses classes (a) et
+  (b), et **range le changement de structure monétaire en classe (d)**, où
+  « our empirical quantitative knowledge of human behaviour under different
+  structural conditions is **so restricted** » ;
+- Tinbergen assortit l'affectation un-pour-un d'une réserve explicite : elle
+  suppose « **a very special structure** ».
+
+**Les deux fondements de la doctrine que ce livre applique sont qualifiés dans le
+texte même dont ils sortent.** Ce n'est pas une réfutation de la séparation ;
+c'est que le Livre 2 devra la choisir plutôt que la supposer, et dire pourquoi.
+
+**Un point favorable, et rare.** L'estimation d'Engone Mve porte sur un **régime
+de change fixe**, celui du dispositif. **La source la plus proche de l'objet du
+Livre 2 est aussi la plus proche de sa configuration**, ce qui n'arrive presque
+jamais dans ce dossier et doit être exploité.
+
+**Trois autres acquis, versés à la section des couplages.** L'instrument
+contracyclique du dispositif — le demurrage — **échoue dans l'état pour lequel
+il est conçu** (L11.C07), de sorte que le complément macroprudentiel cesse d'être
+un complément et devient le seul porteur de O4. La seule règle de modulation
+énoncée par le Cahier **ne traite pas le cas que le dispositif produit lui-même**
+— le succès biosphérique contracte l'assiette et dégrade la famille monétaire.
+Et la règle de modulation, étant une directive dont le tableau de bord est
+l'entrée, **hérite de A18 avant d'être écrite** : la moitié des familles sont des
+objectifs, non des données.
+
+**Les quatre promesses attribuées au Livre 2 sont annotées.** P23 et P26 voient
+leur réserve s'alourdir — les fonds propres du Symposium supporteraient en outre
+la perte d'une révision de parité, et le volume émis n'est pas une grandeur
+libre. **P28 est celle qui gagne le plus** : la « piste trouvée » est devenue une
+doctrine complète (L11.C06) assortie d'un avertissement (L11.C13 § 6, L11.C16
+§ 7) — le défaut change de face sur le versant émission, et sur la valorisation
+il n'existe pas. **P36 a désormais son mécanisme de première main** : Mundell,
+plus le canal non compté de P50, plus le délai de L11.C16 § 8.
+
+### Fin de la série des balayages, et ce qu'elle a produit
+
+**Quatre balayages en un jour, sur les quatre gisements identifiés.** Le
+mécanisme n'existait pas le matin même ; il est né du principe énoncé par
+l'auteur — *chaque passe se sert de la précédente pour répondre aux blancs des
+passes antérieures*.
+
+| | Objet | Volume | Résultat |
+|---|---|---|---|
+| **n° 1** | les promesses du Livre 1 | 18 touchées, 15 renseignées | **aucune soldée**, une à moitié, six aggravées |
+| **n° 2** | les `verifications_en_attente` du Livre 1 | 459 entrées, 51 touchées, 15 renseignées | **une entrée était devenue fausse**, une qualification retirée |
+| **n° 3** | les falsifieurs F2 à F6 | 5 annotés | **aucun levé**, trois durcis, un localisé |
+| **n° 4** | le Livre 2 | 8 acquis versés, 4 promesses annotées | **la doctrine appliquée n'est pas unanime** |
+
+**Ce que la série établit, et il faut le dire dans ce sens : le corpus n'a rien
+fermé.** Dix-sept chapitres d'instruction, quatre sources primaires ouvertes de
+première main, quatre balayages — **et le dossier des objections est plus lourd
+qu'au matin.** Une seule fermeture partielle (P29, dont la borne empirique a
+maintenant son mécanisme) et une seule qualification retirée (le demurrage n'est
+pas la voie de sortie la moins coûteuse). C'est ce qu'on attend d'une passe qui
+travaille ; **c'est aussi un renseignement sur le dispositif, et il ne doit pas
+être présenté autrement.**
+
+**Deux défauts de tenue du corpus lui-même ont été trouvés en chemin**, et
+aucun n'était cherché : deux conventions de numérotation coexistent dans le
+registre des promesses ; et `controle.py` calcule une empreinte sur
+`date_verification` qu'il ne compare jamais. **Le second est le plus grave et
+il appelle une décision de l'auteur.**

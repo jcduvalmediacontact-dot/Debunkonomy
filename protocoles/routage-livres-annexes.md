@@ -53,14 +53,14 @@ en déplaçant la ligne, non en la dédoublant.
 
 ## Le routage, promesse par promesse
 
-### Livre 2 — Recommandations macro-prudentielles *(acquis, 12 épisodes)*
+### Livre 2 — Recommandations macro-prudentielles *(acquis, 12 épisodes — HORS DÉPÔT)*
 
 | # | Objet | Note |
 |---|---|---|
-| P23 | Bouclage du circuit — RÉPONSE TROUVÉE en L2.E09 | à solder, sous réserve de P55 |
-| P26 | Contribution à la valeur nette — RÉPONSE PROBABLE en L2.E09 | **compromise par P55** |
-| P28 | Règle par défaut pénalisante pour les activités non qualifiées | piste trouvée |
-| P36 | Chocs asymétriques et perte d'ajustement local | concours du 9 |
+| P23 | Bouclage du circuit — RÉPONSE TROUVÉE en L2.E09 | à solder, sous réserve de P55. **BALAYAGE N° 4, 2026-09-06** : la réserve s'alourdit. L11.C01 et L11.C02 établissent que sous la lecture B, P55 change de registre sans se régler ; **L11.C16 § 4 ajoute que les fonds propres du Symposium, déjà négatifs entre émission et reflux, supporteraient en outre la perte d'une révision de parité** si c'est lui qui l'absorbe (L11.C15 § 5) |
+| P26 | Contribution à la valeur nette — RÉPONSE PROBABLE en L2.E09 | **compromise par P55**. **BALAYAGE N° 4, 2026-09-06** : et par L11.C16 § 2, qui établit que **le volume émis n'est pas une grandeur libre** — le bouclage le lie au produit du reflux, borné par B1. Une contribution à la valeur nette se mesure sous plafond, non sur un flux ouvert |
+| P28 | Règle par défaut pénalisante pour les activités non qualifiées | piste trouvée. **BALAYAGE N° 4, 2026-09-06 — LA PISTE EST DEVENUE UNE DOCTRINE, ET ELLE PORTE UN AVERTISSEMENT.** L11.C06 établit qu'un défaut punitif fait documenter tous ceux qui font mieux, que la modulation vit, et que **le plein tarif frappe qui ne peut pas prouver**. **Mais L11.C13 § 6 établit que la face s'inverse sur le versant émission** : là, le défaut n'est pas une surtaxe, c'est une **exclusion du financement** — cinquième biais de concentration. Et L11.C16 § 7 : **sur la valorisation, il n'existe pas de défaut défendable du tout** |
+| P36 | Chocs asymétriques et perte d'ajustement local | concours du 9. **BALAYAGE N° 4, 2026-09-06 — LE MÉCANISME EST ÉTABLI DE PREMIÈRE MAIN.** L11.C04, sur Mundell 1963 ouvert intégralement : sous parité fixe et mobilité des capitaux, la banque centrale nationale perd le contrôle de la quantité de monnaie. Et **P50 en donne le canal non compté** : le déséquilibre commercial ne s'absorbe ni par les réserves ni par le change, **il se déverse intégralement sur la masse monétaire interne**. L11.C16 § 8 ajoute que le correcteur proposé — la certification de restauration — opère **plus lentement que le choc qu'il doit corriger** |
 
 ### Livre 3 — Dilemmes du SMI *(maquette, 6 chapitres annoncés)*
 
@@ -342,6 +342,30 @@ plutôt que de les redécouvrir.
 **Ce que le Livre 7 doit en retour, et qui reste dû :** A5 et le périmètre
 (P32, P33, P57), la matière de A16 — dont les trois précédents ne sont toujours
 pas ouverts —, et la part de A4 que le point 3 ne tranche pas.
+
+### Livre 11 → Livre 2 — acquis de la passe 1, à reprendre tel quel
+
+**LE LIVRE 2 N'EST PAS DANS LE DÉPÔT.** Ses douze épisodes sont acquis et vivent
+hors du corpus ; seul L2.E09 y est cité, dix-sept fois. **Le balayage n° 4 ne
+peut donc pas annoter ses chapitres** — il verse ici ce que la passe 1 du
+Livre 11 lui remet, et annote les quatre promesses que la table lui attribue.
+
+**L'acquis principal touche l'objet même de ce livre, et il est défavorable.**
+
+| # | Acquis | Où | Ce qu'il impose au Livre 2 |
+|---|---|---|---|
+| **1** | **La doctrine macroprudentielle n'est pas unanime** — deux pôles et une position conditionnelle | L11.C03 § 6, sur Engone Mve 2022, ouvert | Séparation (Svensson, Bernanke, Beau et al.) contre intégration (Adrian-Shin, Mishkin, Eichengreen et al.), ces derniers au motif que les instruments macroprudentiels « **because they are more targeted, are easily circumvented** ». **Un livre de recommandations macroprudentielles ne peut pas écrire la séparation comme un acquis** |
+| **2** | **Et les deux piliers de la séparation portent des réserves que le corpus tient de première main** | L11.C03 § 9, L11.C11 | Le pôle de la séparation se fonde explicitement sur « **Tinbergen's consistency rule (1952) and Mundell's rule of efficient instrument allocation** ». Or L11.C03 § 9 établit que le cadre de Tinbergen est bâti pour ses classes (a) et (b), et **range le changement de structure monétaire en classe (d)**, où « our empirical quantitative knowledge [...] is so restricted » ; et Tinbergen assortit l'affectation un-pour-un d'une réserve explicite — elle suppose « **a very special structure** ». **Les deux fondements de la doctrine que ce livre applique sont qualifiés dans le texte même dont ils sortent** |
+| **3** | **L'estimation d'Engone Mve porte sur un RÉGIME DE CHANGE FIXE** | L11.C03 [S8] | C'est le régime du dispositif. **La source la plus proche de l'objet du Livre 2 est aussi la plus proche de sa configuration**, ce qui est rare et doit être exploité |
+| **4** | **La position conditionnelle donne une règle d'arbitrage** | L11.C03 [S8] | « in the event of a conflict of objectives, **priority is given to a single objective** ». **C'est exactement ce que le tableau de bord du dispositif ne dit pas** (P53, A18) : il demande à six familles de commander sans règle d'agrégation |
+| **5** | **L'instrument contracyclique du dispositif échoue là où on en a besoin** | L11.C07 | La vertu contracyclique du demurrage **échoue dans l'état pour lequel elle est conçue**. O4 — la contracyclicité corrélée au macroprudentiel — repose donc sur un instrument défaillant sous tension, et **le complément macroprudentiel n'est plus un complément : il devient le seul porteur** |
+| **6** | **Le cas que la seule règle énoncée ne traite pas** | L11.C14, P53, F1 | Le succès sur la famille biosphérique contracte l'assiette dégénérative et dégrade la famille monétaire. **La règle du Cahier prescrit quoi faire quand la biosphère va mal et se tait sur le moment où le bouclage se défait parce qu'elle va bien** |
+| **7** | **Deux conditions-limites relèvent de ce livre** | L11.C03 § 5 | **B1** — le taux ne peut excéder la borne au-delà de laquelle l'évitement devient massif, entre −0,5 % et −1 %, et elle mord SOUS TENSION ; **B4** — ce qui joue le rôle des réserves ne peut être épuisé, et elle mord aussi sous tension |
+| **8** | **La forme de ce qui module les instruments** | L11.C12, L11.C14 | Les instruments macroprudentiels sont modulés sur le tableau de bord : **c'est donc une directive, et le tableau en est l'ENTRÉE**. Or la moitié de ses familles sont des OBJECTIFS et non des données (A18) — **la règle de modulation du Livre 2 hérite du problème avant d'être écrite** |
+
+**Ce que le Livre 2 doit en retour :** P23 et P26, dont la table dit que la
+réponse est trouvée en L2.E09 ; P28, dont la piste y est trouvée ; et P36, en
+concours avec le 9.
 
 **Tenue de cette section.** Une ligne s'y ajoute quand un chapitre produit un
 résultat qu'un AUTRE livre devra reprendre — non quand il en attend un. Les
