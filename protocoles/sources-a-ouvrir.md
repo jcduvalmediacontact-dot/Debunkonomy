@@ -857,3 +857,24 @@ règle ordinaire, non l'exception, **et la compétence, non la pratique**.
 | **4** | **Règles comptables de la BRI et du FMI** | **seules règles d'ORGANISATIONS INTERNATIONALES** — le dispositif ressemble plus à elles qu'à une banque centrale nationale |
 | **5** | **Banque du Japon, Banque populaire de Chine, Banque nationale suisse** | trois cadres détenant des actifs qu'aucun des deux instruits n'admettrait, **actions cotées notamment** |
 | **6** | **Histoire des réformes de subventions dommageables** | **seule acquisition qui lèverait F10**, et elle ne relève d'aucun livre ouvert |
+
+## Ouverture du 2026-09-07 — le mandat fiscal des Nations unies, ouverture du Livre 23
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **Nations unies, A/79/333, 30 août 2024** — rapport du Comité spécial, portant en annexe I **le mandat pour une convention-cadre sur la coopération internationale en matière fiscale**, français, 33 pages | `documents.un.org/api/symbol/access?s=A/79/333&l=fr&t=pdf` | `libre` (document officiel des Nations unies) | **DEUX RÉSULTATS OPPOSÉS.** **DÉFAVORABLE, principe 9 b)** : les mesures doivent « **prendre en compte le droit souverain de chaque État Membre de décider de ses politiques et pratiques fiscales** » — **la convention organise une COOPÉRATION et ne crée AUCUNE COMPÉTENCE DE LEVER**, de sorte que le précédent cherché n'en est pas un. **FAVORABLE, § 40** : mandat adopté par **110 voix contre 8**, après le rejet de **quatre amendements des pays développés** à des majorités voisines de deux contre un — **contre-exemple au schéma de F6**. **Versé à L23.C02, à F6, à L1.C25 et à L11.C21** |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** **LE MANDAT N'EST PAS LA CONVENTION.** Ce
+document fixe ce que la convention-cadre **devrait** contenir. **Le texte négocié
+n'est pas ouvert** : les projets de convention et de protocoles cités par le
+secrétariat — **A/AC.298/CRP.32, CRP.33 et CRP.34** — ne sont pas tenus. **Et la
+règle de décision de la future convention n'est pas fixée par ce document**, son
+§ 13 renvoyant aux « procédures applicables à la modification » sans les établir
+— **or c'est elle qui décidera de l'armement au sens de F8.**
+
+**À ACQUÉRIR POUR LE LIVRE 23, PAR ORDRE.** **(1)** **A/AC.298/CRP.32**, projet de
+convention-cadre — et sa règle de décision. **(2)** Un instrument sur les
+**bénéficiaires effectifs** et ses difficultés d'application. **(3)** Un ordre de
+grandeur des **flux financiers illicites**, que le mandat nomme sans chiffrer.
+**(4)** Le régime des **ressources propres** de l'Union et de ses **frais de
+perception** — seule réponse disponible au défaut d'alignement de L11.C21.

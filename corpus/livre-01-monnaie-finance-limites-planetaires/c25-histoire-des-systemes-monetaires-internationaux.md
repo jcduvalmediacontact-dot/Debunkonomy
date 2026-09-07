@@ -251,3 +251,17 @@ renvois: [L1.C05, L1.C08, L1.C09, L1.C19, L1.C20, L1.C22, L1.C23, L1.C24]
 ::hypothese:: **Le corpus enregistre que l'échange est défavorable et refuse de le compter comme un gain.** **Il troque un précédent défavorable contre une absence de précédent** : aucun cas d'adoption d'une **couche monétaire additionnelle** n'est instruit — ni comment une telle couche s'installe, ni si un créancier dominant la combat ou l'ignore. **« Ce test ne s'applique pas » n'est pas « ce test est passé ».**
 
 ::etat:: **Recherche à conduire en passe 2, et elle est nommée** : un cas historique d'installation d'une couche monétaire s'ajoutant à un système qui continue, avec la réaction de l'émetteur dominant du moment. **Le corpus n'en tient aucun.**
+
+## BALAYAGE DU LIVRE 23 — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture du mandat des Nations unies pour une convention-cadre fiscale.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Un quatrième cas contredit le schéma tiré par ce chapitre, et le corpus le porte sans l'atténuer** [L23.C02]. Ce chapitre a établi sur trois épisodes que « **la disposition qui contraint le créancier est la disposition qui saute** ».
+
+::etat:: **Nations unies, A/79/333, 30 août 2024** — mandat pour une convention-cadre sur la coopération fiscale internationale. **Adopté par 110 voix contre 8**, avec 44 abstentions, **après le rejet de quatre amendements des pays développés** — 103 contre 50, 103 contre 46, 106 contre 48, et 103 contre 49 sur un amendement présenté « au nom de l'Union européenne et de ses États membres ». **Ont voté pour ces amendements rejetés** : Allemagne, Australie, Canada, États-Unis, France, Israël, Italie, Japon, Luxembourg, Pays-Bas, Royaume-Uni, Suisse.
+
+::hypothese:: **La disposition qui contraint le créancier n'a PAS sauté**, et les économies où résident les capitaux **ont été battues quatre fois à des majorités voisines de deux contre un.**
+
+::hypothese:: **Le corpus enregistre le mécanisme, et il ajoute une condition au schéma plutôt que de le détruire.** **Une assemblée universelle vote par tête, et le poids économique n'y donne aucune voix supplémentaire.** **Les trois épisodes tenus par ce chapitre se sont tous joués dans des enceintes où la contribution pesait.** **LE SCHÉMA VAUT LÀ OÙ LE POIDS ÉCONOMIQUE PÈSE SUR LA DÉCISION, NON LÀ OÙ LA PROCÉDURE COMPTE LES ÉTATS.**
+
+::etat:: **Borné immédiatement** : **l'adoption n'est pas l'application**, et les huit opposants comme les quarante-quatre abstentionnistes sont ceux dont les administrations devraient appliquer. **Un vote perdu ne se transforme pas en refus, il se transforme en lenteur.**

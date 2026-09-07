@@ -1556,6 +1556,51 @@ n'en tient aucun, et c'est désormais le manque décisif de F6. **(2)** De quoi
 écrire la seconde phase : ce que l'émetteur en place fait à une couche qui
 grandit, et à quel coût pour lui.
 
+### BALAYAGE DU LIVRE 23, 2026-09-07 — UN CONTRE-EXEMPLE, ET LA CONDITION SOUS LAQUELLE IL VAUT
+
+**F6 repose sur un schéma tiré de trois épisodes par L1.C25** : « **la disposition
+qui contraint le créancier est la disposition qui saute** ». **Un quatrième cas,
+non monétaire, contredit ce schéma**, et le corpus le porte sans l'atténuer.
+
+**LE CAS.** Nations unies, **A/79/333, 30 août 2024**, mandat pour une
+convention-cadre sur la coopération internationale en matière fiscale, instruit en
+L23.C02. **Le mandat a été adopté par 110 VOIX CONTRE 8**, avec 44 abstentions.
+**Et quatre amendements présentés par les pays développés avaient été rejetés
+avant cela** — 103 contre 50 ; 103 contre 46 sur un amendement du Canada, de
+l'Australie et de la Nouvelle-Zélande, la Suisse coauteure ; 106 contre 48 ; et
+103 contre 49 sur un amendement de la Hongrie **« au nom de l'Union européenne et
+de ses États membres »**. **Ont voté pour ces amendements rejetés** : Allemagne,
+Australie, Canada, États-Unis, France, Israël, Italie, Japon, Luxembourg,
+Pays-Bas, Royaume-Uni, Suisse.
+
+**LA DISPOSITION QUI CONTRAINT LE CRÉANCIER N'A PAS SAUTÉ.** Les économies où
+résident les capitaux et les sièges des multinationales **ont été battues quatre
+fois, à des majorités voisines de deux contre un.**
+
+**LE MÉCANISME EST IDENTIFIABLE, ET IL BORNE LE RÉSULTAT.** **Une assemblée
+universelle vote par tête, et le poids économique n'y donne aucune voix
+supplémentaire.** **Les trois épisodes de L1.C25 se sont tous joués dans des
+enceintes où la contribution pesait** — conférences monétaires, négociations de
+plan, décision unilatérale d'un émetteur pivot. **LE NOMBRE BAT LE POIDS LÀ OÙ LA
+PROCÉDURE COMPTE LES ÉTATS, ET NULLE PART AILLEURS.**
+
+**CE QUE F6 DEVIENT.** Sa première branche demandait qu'**aucun cas historique**
+n'atteste l'adoption d'un régime contre l'intérêt du créancier dominant. **Elle
+était déjà déplacée** par L5.C10, les trois épisodes portant sur une substitution
+et le dispositif s'ajoutant. **Elle reçoit ici un cas positif dans une enceinte à
+voix égales**, ce qui **ajoute une condition opératoire au schéma plutôt que de
+le détruire** : *le schéma de L1.C25 vaut dans les enceintes où le poids économique
+pèse sur la décision, non dans celles qui comptent les États.* **C'est un acquis
+pour la voie multilatérale de L5.C04, et il est étroit.**
+
+**CE QUE LE CAS NE PROUVE PAS, ET LE CORPUS LE BORNE IMMÉDIATEMENT.** **L'adoption
+n'est pas l'application.** Les huit opposants et les quarante-quatre
+abstentionnistes **sont précisément ceux dont les administrations devraient
+percevoir**, et **L11.C21 a établi le mode d'échec correspondant** : « un État qui
+perçoit sans zèle » n'est ni visible ni sanctionnable. **UN VOTE PERDU NE SE
+TRANSFORME PAS EN REFUS : IL SE TRANSFORME EN LENTEUR.** **Et le texte négocié
+n'est pas ouvert** — le corpus instruit un mandat, non un instrument.
+
 ## F7 — Le pilotage
 
 **ÉLARGI le 2026-09-05, après L11.C10.** F7 a été écrit pour porter sur le MODE

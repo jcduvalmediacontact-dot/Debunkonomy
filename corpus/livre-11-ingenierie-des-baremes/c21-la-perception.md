@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -164,3 +164,15 @@ renvois: [L1.C21, L11.C01, L11.C02, L11.C03, L11.C05, L11.C09, L11.C10, L11.C16,
 ::hypothese:: **La question du contrôle du percepteur n'a de domicile dans aucun livre du plan**, et c'est la plus lourde des trois. **L'argument d'Ostrom porte ici avec plus de force que là où le corpus l'avait placé** : sur les valeurs, il dit que l'organe central décidera mal ; **sur la perception, il dit qu'il ne sera pas obéi** — et c'est son sens propre. **Le passager clandestin du dispositif n'est pas le pays qui refuse d'adhérer : c'est le membre qui adhère et perçoit mollement**, figure que rien dans le dossier ne traite.
 
 ::hypothese:: **Trois architectures comparées**, dont la deuxième change l'assiette et sort du chapitre, et la troisième fait du dispositif une administration fiscale mondiale. **Un mécanisme d'alignement existe dans un régime voisin non ouvert** — les frais de perception retenus par les États sur les ressources propres de l'Union — et c'est exactement la réponse au défaut de motif. **Treizième condition-limite versée**, B13, et elle mord sous tension. Arbitrage A24.
+
+## BALAYAGE DU LIVRE 23 — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture du mandat des Nations unies pour une convention-cadre fiscale.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le résultat de ce chapitre reçoit une confirmation institutionnelle qu'il n'avait pas** [L23.C02]. **Le mandat des Nations unies pour une convention-cadre fiscale, A/79/333, pose en principe 9 b) que les mesures doivent « prendre en compte LE DROIT SOUVERAIN DE CHAQUE ÉTAT MEMBRE DE DÉCIDER DE SES POLITIQUES ET PRATIQUES FISCALES ».**
+
+::hypothese:: **L'instrument le plus avancé de coopération fiscale mondiale organise une COOPÉRATION et ne crée AUCUNE COMPÉTENCE DE LEVER.** **La perception reste donc nationale, et le défaut d'alignement établi ici n'est pas réparé par cette voie : il y est CONFIRMÉ DANS SA STRUCTURE.**
+
+::etat:: **Et le mode d'échec décrit ici trouve un cas.** Le mandat a été adopté **contre huit voix et malgré quarante-quatre abstentions**, et **les opposants sont précisément les États dont les administrations devraient appliquer.** **« Un État qui perçoit sans zèle » n'est ni visible ni sanctionnable** — **un vote perdu ne se transforme pas en refus, il se transforme en lenteur.**
+
+::etat:: **Une piste tenue par ce chapitre reste la seule réponse disponible et elle n'est pas instruite** : les **frais de perception** que l'Union laisse aux administrations nationales sur ses ressources propres, « c'est-à-dire en rendant le percepteur intéressé au produit ».
