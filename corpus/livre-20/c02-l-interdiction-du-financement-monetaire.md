@@ -165,3 +165,15 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 ::hypothese:: **Tout dépend donc d'une seule question, et elle n'est pas juridique** : **le débiteur de la dette collective relève-t-il du secteur public ?** **Si oui, crédit prohibé de plein droit, et aucune ingénierie de l'unité n'y change rien. Si non, la prohibition ne l'atteint pas du tout.** **Arbitrage A35 ouvert : c'est à l'auteur de trancher.**
 
 ::etat:: **Deux exceptions du règlement sont hors de portée** : gestion des réserves de change (art. 2), crédit **intrajournalier** sans prolongation possible (art. 4). **Tolérances techniques, non marges de conception.**
+
+## BALAYAGE DE L'ARBITRAGE A35 — 2026-09-07
+
+::etat:: **Annotation portée après l'arbitrage A35, rendu par l'auteur.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'échappatoire de ce chapitre est RÉTABLIE par l'arbitrage A35, et sur un motif meilleur que le sien** [L10.C06]. L'auteur a arrêté le 2026-09-07 que **« c'est la société entière qui porte cette dette »**, refluée par des fontes graduées selon l'impact de la consommation.
+
+::hypothese:: **La société entière n'est aucune des institutions énumérées à l'article 3 du règlement (CE) n° 3603/93.** **La définition-balai de l'article premier § 1 b) iii) ne l'atteint donc pas** — non parce qu'elle serait mal rédigée, **mais parce qu'il n'y a pas de créance sur le secteur public.**
+
+::etat:: **Le motif de ce chapitre est corrigé en conséquence.** Il invoquait **l'absence d'instrument de dette**, ce que la définition-balai avait montré insuffisant. **L'obstacle réel n'est pas l'absence d'INSTRUMENT : c'est L'ABSENCE DE DÉBITEUR.** **Une opération ne produit pas de créance sur le secteur public lorsqu'elle ne produit de créance sur personne.**
+
+::hypothese:: **Mais le problème n'a pas disparu, il a changé de côté.** **Une fonte graduée levée sur les agents est un PRÉLÈVEMENT OBLIGATOIRE**, qui suppose une compétence fiscale et donc un titulaire. **Ce chapitre établissait ce que le droit interdit à l'émetteur ; il ne dit rien de ce qui autorise le PRÉLEVEUR.** **Le corpus ne tient ni traité fiscal, ni compétence déléguée, ni précédent mondial.**

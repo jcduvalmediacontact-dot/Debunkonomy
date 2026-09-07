@@ -3339,6 +3339,72 @@ L'INSTITUTION envers ses membres, ou une obligation portée par LES BÉNÉFICIAI
 DE L'ÉMISSION eux-mêmes ?* **Les trois réponses produisent trois dispositifs
 différents, et une seule sort du champ de l'article 123.**
 
+### A35 ARBITRÉ LE 2026-09-07 (nuit) — LA SOCIÉTÉ ENTIÈRE, ET LE DISPOSITIF CHANGE DE BRANCHE DU DROIT
+
+**RÉPONSE DE L'AUTEUR, citée intégralement en L10.C06 [S1].** « L'idée de dette
+collective **s'oppose au concept de dette individuelle** et n'est pas liée aux
+mêmes mécanismes d'émission monétaire [...] **La monnaie à vocation régénérative
+ne peut pas suivre ce même concept, car LA RENTABILITÉ N'EST PAS COMPATIBLE AVEC
+LA RÉGÉNÉRATION (essentiel insolvable).** [...] il faut donc envisager des
+**dispositifs de reflux alternatif**. **Et c'est la société entière qui porte
+cette dette.** [...] La consommation de biens et services à fort impact implique
+des reflux (fontes) **graduellement plus forts**. »
+
+**LE SECOND TERME EST RETENU. TROIS CONSÉQUENCES, DONT DEUX N'ÉTAIENT PAS PRÉVUES.**
+
+**(1) L'OBSTACLE JURIDIQUE EST LEVÉ, ET SUR UN MOTIF MEILLEUR QUE CELUI DU
+CORPUS.** La société entière n'est aucune des institutions énumérées à l'article 3
+du règlement 3603/93. **La définition-balai ne l'atteint pas, parce qu'il n'y a
+pas de créance sur le secteur public.** **L'échappatoire de L20.C02 est rétablie :
+l'obstacle réel n'était pas l'absence d'INSTRUMENT, c'était L'ABSENCE DE
+DÉBITEUR.** **L10.C02 à C05 gardent leur valeur d'instruction et perdent leur
+portée d'objection.**
+
+**(2) LA MÊME PROPRIÉTÉ REFERME LA QUESTION COMPTABLE, ET UNE NORME VISE LE CAS
+NOMMÉMENT.** Sans débiteur, aucune créance ; et l'article 6 de l'orientation
+BCE/2016/34 exige **le transfert à l'entité de l'essentiel des risques et
+avantages**. Reste la voie du **flux futur de fontes** — **IPSAS 47 § 18 l'exclut
+par un exemple qui est exactement le cas** : « Transactions or events **expected to
+occur in the future do not in themselves give rise to assets** — for example,
+**AN INTENTION TO LEVY TAXATION IS NOT A PAST EVENT** that gives rise to an asset
+in the form of a claim against a taxpayer. » **Le fait générateur n'aura lieu
+qu'à la consommation.** **ON NE PEUT PAS SIMULTANÉMENT N'AVOIR AUCUN DÉBITEUR —
+pour échapper à l'article 123 — ET DÉTENIR UNE CRÉANCE RECONNAISSABLE.**
+
+**(3) LE DISPOSITIF CHANGE DE BRANCHE DU DROIT, ET C'EST LE RÉSULTAT PRINCIPAL.**
+Une émission sans débiteur, recouvrée par un prélèvement gradué sur l'impact,
+**n'est pas une opération de crédit : c'est une DÉPENSE PUBLIQUE dont la ressource
+est un PRÉLÈVEMENT** — charge à l'émission, produit au reflux, ce que décrivent
+précisément IPSAS 48 et IPSAS 47. **Le dispositif y gagne un régime comptable
+cohérent, au prix de cesser d'être adossé.** Cela **explique** pourquoi la
+rentabilité n'a pas à être compatible avec la régénération — une dépense
+publique n'a pas de taux de rendement — et pourquoi le reflux est alternatif —
+un impôt n'est pas un remboursement.
+
+**CE QUE L'ARBITRAGE OUVRE, ET C'EST LA NOUVELLE QUESTION LA PLUS URGENTE DU
+CORPUS.** **Une fonte graduée selon l'impact, levée sur les agents, est un
+PRÉLÈVEMENT OBLIGATOIRE.** **Un prélèvement suppose une compétence fiscale, et une
+compétence suppose un titulaire.** **Le corpus n'a jamais dit QUI LÈVE LA FONTE NI
+DE QUEL TITRE**, et ne tient ni traité fiscal, ni compétence déléguée, ni
+précédent d'un prélèvement levé à l'échelle mondiale. **Le problème du secteur
+public n'a pas disparu : il a changé de côté du bilan, passant de l'actif au
+prélèvement.**
+
+**PRÉCISION DE FORMULE, PORTÉE SANS OBJECTION.** L'auteur écrit que la société
+entière porte la dette, et que **le choix est donné aux agents**. Si la charge est
+modulée par la décision de chacun, **la dette est collective PAR SA CAUSE et
+individuelle PAR SON INCIDENCE** — c'est la structure d'un impôt pigouvien, dont
+l'assiette est un comportement et le motif un dommage commun. **La formule
+décrit le motif, non le porteur.** **L11.C09 reçoit la question de savoir qui
+paie effectivement, répercussion comprise** — et **L1.C15 ayant établi que
+l'essentiel est insolvable, il faut vérifier que l'assiette ne le reproduit pas.**
+
+**CE QUE L'ARBITRAGE NE TRANCHE PAS.** **Il porte sur l'actif** — de qui l'unité
+est la créance — **et ne dit rien du passif.** Si l'unité n'est la dette de
+personne en particulier, **est-elle une dette de l'émetteur ?** Un billet figure
+au passif d'une banque centrale ; **le corpus n'a jamais dit ce que l'unité est au
+passif, et A30 ne l'a pas tranché non plus.**
+
 **NE PAS TRANCHER A UN COÛT, ET IL EST DÉSORMAIS CHIFFRABLE EN CHAPITRES.** Quatre
 chapitres du Livre 10 raisonnent sur des cas de figure faute de cette décision ;
 L20.C02 tient une échappatoire défaite ; L18.C06 avait déjà déclaré que le corpus

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -160,3 +160,15 @@ renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08]
 ::hypothese:: **Les quatre biais sont procéduraux et jamais tarifaires**, de sorte qu'aucune correction par les taux ne les atteint. C'est pourquoi ils sont invisibles dans un tableau de taux, qui est le seul document que le dispositif publie.
 
 ::hypothese:: **Le verdict provisoire est sévère et il n'est pas fatal.** Un dispositif conçu contre la concentration financière favoriserait les acteurs concentrés. Chacun des quatre mécanismes a une correction connue, et toutes sont procédurales — donc à écrire dans le dispositif, non à renvoyer à sa mise en œuvre. Arbitrage A14. Et il manque deux nombres, que personne n'a cherchés, qui décident ensemble de la nature politique de l'ensemble.
+
+## BALAYAGE DE L'ARBITRAGE A35 — 2026-09-07
+
+::etat:: **Annotation portée après l'arbitrage A35, rendu par l'auteur.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'arbitrage A35 renvoie à ce chapitre une question qu'il n'avait pas posée sous cette forme** [L10.C06]. L'auteur a arrêté le 2026-09-07 que **« c'est la société entière qui porte cette dette »**, et aussitôt que **« le choix est donné aux agents »**, la fonte étant **« graduellement plus forte »** selon l'impact de la consommation.
+
+::hypothese:: **Le corpus enregistre une précision, et il la porte sans en faire une objection.** **Si la charge est modulée par la décision de chacun, la dette est collective PAR SA CAUSE et individuelle PAR SON INCIDENCE.** **Ce n'est pas une contradiction : c'est la structure d'un impôt pigouvien**, dont l'assiette est un comportement et le motif un dommage commun. **Mais la formule « portée par l'ensemble de la société » décrit le MOTIF, non le PORTEUR.**
+
+::etat:: **La question rendue à ce chapitre est donc précise** : **qui paie effectivement une fonte graduée sur l'impact, une fois la répercussion prise en compte ?** Ce chapitre avait déjà relevé qu'une structure de taux imposant plus lourdement l'achat d'un bien que la transaction financière **a une conséquence distributive non discutée par ses auteurs**.
+
+::hypothese:: **Et une vérification s'impose, parce que le motif invoqué par l'arbitrage est un résultat du corpus.** **L1.C15 a établi que l'essentiel est insolvable** ; A35 s'en réclame pour écarter la rentabilité. **Il faut donc vérifier que l'assiette de la fonte ne reproduit pas l'insolvabilité qu'elle invoque** — une gradation sur l'impact frappe d'autant plus qu'on ne peut pas choisir, et **A34 a établi qu'un barème qui dit vrai exclut ceux qui ne peuvent pas payer.**

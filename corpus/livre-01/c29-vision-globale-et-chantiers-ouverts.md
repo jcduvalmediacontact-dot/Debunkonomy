@@ -231,3 +231,17 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 ::etat:: **Et c'est la même question que L18.C06 avait posée depuis la comptabilité** — « le corpus n'a jamais dit **quelle entité comptable porterait l'écriture** ». **Deux livres qui ne se parlaient pas ont buté sur un seul silence de conception.**
 
 ::etat:: **Une précision favorable, portée ici** [L10.C04]. La prohibition a une **portée personnelle** : elle vise les autorités et organismes publics. **Une émission au bénéfice d'acteurs privés conduisant une activité qualifiée n'entre pas dans son champ**, et L10.C03 avait trop dit en soutenant que la certitude du dispositif était prohibée en elle-même.
+
+## BALAYAGE DE L'ARBITRAGE A35 — 2026-09-07
+
+::etat:: **Annotation portée après l'arbitrage A35, rendu par l'auteur.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **A35 est arbitré, et il débloque A30 sur un point tout en en ouvrant un autre** [L10.C06]. L'auteur a arrêté que **la dette est portée par l'ensemble de la société**, le motif étant que **« la rentabilité n'est pas compatible avec la régénération (essentiel insolvable) »**, et le reflux passant par des fontes graduées selon l'impact.
+
+::etat:: **CE QUI EST LEVÉ** : l'obstacle de l'article 123 TFUE, faute de créance sur le secteur public. **CE QUI EST CONFIRMÉ** : l'absence d'actif. Sans débiteur, aucune créance ; et **IPSAS 47 § 18 exclut le flux futur de fontes par un exemple qui vise le cas** — « **an intention to levy taxation is not a past event** that gives rise to an asset ».
+
+::hypothese:: **Le corpus enregistre que les deux exigences sont contradictoires : on ne peut pas simultanément n'avoir aucun débiteur et détenir une créance reconnaissable.** **A30 restait bloquant sur un point non juridique — ce qui garantit la dette collective s'érode quand le dispositif réussit. A35 ne le lève pas : il établit qu'il n'y a rien à éroder, parce qu'il n'y a pas de garantie.**
+
+::hypothese:: **ET LE DISPOSITIF CHANGE DE BRANCHE DU DROIT.** Une émission sans débiteur, recouvrée par un prélèvement gradué, **est une DÉPENSE PUBLIQUE dont la ressource est un PRÉLÈVEMENT** — charge à l'émission, produit au reflux. **Régime comptable cohérent, au prix de cesser d'être adossé.**
+
+::etat:: **Question ouverte par l'arbitrage, et elle est la plus urgente du corpus** : **qui lève la fonte, et de quel titre ?** **Et le passif reste entier** : si l'unité n'est la dette de personne en particulier, est-elle une dette de l'émetteur ?
