@@ -389,6 +389,53 @@ assignée aux autorités monétaires ne puisse être égalisée par aucune voie.
 **La seconde branche est celle qui décide désormais**, et le corpus n'a rien qui
 dise à quel prix politique elle s'obtient.
 
+### F4 bis — la seconde face de l'obstacle : le dispositif est légal, et il est tarifé
+
+**POSÉ LE 2026-09-07, en défrichant L6.C12. VÉRIFIÉ AVANT D'ÊTRE ÉCRIT** :
+l'arbitrage d'investissement n'apparaissait nulle part dans ce fichier — ni
+« investisseur », ni « Charte de l'énergie », ni « TCE ». **F4 portait sur la
+PERMISSION** — les articles 123 et 130 du traité, et la question de savoir si un
+montage permet au dispositif d'opérer sans révision. **F4 bis porte sur le PRIX**,
+et il se pose lorsque F4 est franchi.
+
+**LA SITUATION QU'IL VISE.** Le dispositif est adopté, il est licite, ses remèdes
+sont armés — et **les détenteurs d'actifs dégénératifs situés à l'étranger
+disposent d'une voie de recours contre l'État qui l'applique**, fondée sur un
+traité de protection des investissements. **Rien n'est illégal ; tout est
+facturé.**
+
+**CE QUE L6.C12 VERSE, ET QUI REND LA QUESTION SÉRIEUSE.**
+
+| | Le fait | Ce qu'il fait à la thèse |
+|---|---|---|
+| **1** | **Vingt ans de protection résiduelle après retrait** (art. 47 § 3 TCE) | **Sortir du traité ne suffit pas**, et la durée du verrou est de l'ordre de la durée du problème climatique |
+| **2** | **Plus de 2 500 traités bilatéraux d'investissement** en vigueur (CNUCED, consultée le 26 août 2026) | l'obstacle **n'est pas propre à l'énergie ni à l'Europe** ; il est la texture ordinaire du droit international des investissements |
+| **3** | Une créance née d'une politique publique **est monétisable, assurable, cessible** | **le litige devient un actif**, et sa valeur suit la probabilité que l'État perde. **Il existe donc un intérêt financier constitué à ce que la politique soit attaquée** |
+| **4** | Une compensation versée **par décision administrative, hors de tout arbitrage** | **l'effet précède la procédure** ; un compte des sentences ne mesure pas la contrainte |
+
+**CONDITION D'ÉCHEC.** F4 bis est vérifié si, le dispositif étant supposé
+juridiquement adoptable, **le coût attendu des recours d'investisseurs déclenchés
+par ses barèmes excède le bénéfice qu'il produit**, et qu'aucune des trois voies
+connues ne le réduit : **retrait avec neutralisation de la clause de survie**
+— dont l'accord *inter se* européen est le seul précédent, incomplet et daté —
+**exclusion conventionnelle du dispositif du champ des traités
+d'investissement**, ou **compensation assumée et budgétée.**
+
+**CE QUE F4 BIS N'ÉTABLIT PAS, ET LE CORPUS DOIT LE DIRE.** Aucune des grandeurs
+disponibles ne permet de le trancher aujourd'hui. Le compte des affaires est
+**un plancher d'affaires CONNUES**, arrêté au 1er décembre 2023. L'exposition
+chiffrée est **une modélisation, qualifiée d'inférence, qu'il est interdit de
+présenter comme une facture**. Et le cas le plus cité **s'est terminé par une
+annulation intégrale**, sur un motif de procédure. **Le corpus tient donc un
+mécanisme documenté et un ordre de grandeur non établi**, ce qui suffit à poser
+le falsifieur et non à le vérifier.
+
+**RAPPORT AUX AUTRES.** Distinct de **F4**, qui demande si le dispositif est
+permis. Distinct de **F8**, qui demande si ses propres remèdes mordent. **F4 bis
+demande ce qu'il en coûte à un État de l'appliquer face à des tiers armés d'un
+autre traité** — et c'est la seule des trois questions dont la réponse ne dépend
+pas de la rédaction du dispositif.
+
 ## F5 — L'antériorité
 
 **INSTRUMENT EXTERNE TROUVÉ le 2026-09-04.** Ce falsifieur devait être instruit
