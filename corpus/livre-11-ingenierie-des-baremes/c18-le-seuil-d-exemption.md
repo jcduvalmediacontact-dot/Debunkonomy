@@ -197,3 +197,15 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 ::hypothese:: **Un prélèvement à incidence régressive n'est pas interdit — IL DOIT ÊTRE JUSTIFIÉ, ET JUSTIFIÉ APRÈS DEMONSTRATION DU PLEIN EMPLOI DES AUTRES RESSOURCES.** **Le droit place donc la fonte transactionnelle APRÈS les instruments qui pèsent sur ceux qui peuvent payer, et non avant eux.** **Le seuil d'exemption cesse d'être un réglage pour devenir UNE ÉTAPE OBLIGÉE D'UN RAISONNEMENT JURIDIQUE.**
 
 ::etat:: **ET UN NOYAU DUR EXISTE, OPPOSABLE SANS CONSIDÉRATION DE RICHESSE. § 10** : « a **MINIMUM CORE OBLIGATION** to ensure the satisfaction of, at the very least, **minimum essential levels of each of the rights** is incumbent upon **EVERY** State party », un État où « any significant number of individuals is deprived of essential foodstuffs [...] basic shelter and housing, or [...] the most basic forms of education » manquant **prima facie** à ses obligations. **Le bord inférieur du couloir n'est pas mou.**
+
+## BALAYAGE DU LIVRE 25, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C04, qui ouvre le règlement instituant le Fonds social pour le climat de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE CRITÈRE QUE CE CHAPITRE CHERCHAIT EXISTE EN DROIT POSITIF, ET CE N'EST PAS LE REVENU** [L25.C04]. **Règlement (UE) 2023/955, définition du « ménage vulnérable »** : les ménages en précarité énergétique **ou** ceux à faible revenu et à revenu intermédiaire inférieur « qui sont **sensiblement touchés par les effets sur les prix** [...] **et QUI NE DISPOSENT PAS DES MOYENS NÉCESSAIRES POUR RÉNOVER LE BÂTIMENT QU'ILS OCCUPENT** ».
+
+::hypothese:: **LE CRITÈRE EST LE REVENU ET L'INCAPACITÉ D'AGIR SUR LA CAUSE.** **Un seuil fondé sur le seul revenu exempte des ménages qui pourraient répondre au signal et n'exempte pas des ménages qui ne le peuvent pas** — un propriétaire modeste d'un logement rénovable et un locataire modeste d'une passoire ne sont pas dans la même situation devant le même prix. **Ce chapitre doit être repris sur ce fondement.**
+
+::etat:: **DEUX RÈGLES DE CONCEPTION QUE LE CORPUS N'AVAIT PAS. Article 8 § 2** : l'aide directe au revenu est « **temporaire et diminue au fil du temps** », limitée à l'incidence directe, conditionnée à la présence d'investissements dans le plan, **et plafonnée à 37,5 % des coûts totaux estimés**. **LA COMPENSATION NE DOIT PAS DEVENIR UNE RENTE : ELLE DOIT FINANCER LA CAPACITÉ DE SORTIR DU SIGNAL.**
+
+::hypothese:: **Et le prélèvement finance sa propre compensation** — le Fonds est alimenté par les recettes de mise aux enchères du dispositif de prix lui-même, **65 milliards d'euros au maximum pour 2026-2032**. **DEUX BORNES** : l'enveloppe tombe à **54,6 milliards** si le dispositif de prix est reporté à 2028 ; **et LE PRÉLÈVEMENT EST PERMANENT TANDIS QUE LA COMPENSATION EST BORNÉE À SEPT ANS**, le règlement qualifiant lui-même son financement d'« exceptionnel et temporaire ».

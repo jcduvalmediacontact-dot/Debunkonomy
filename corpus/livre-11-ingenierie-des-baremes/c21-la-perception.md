@@ -192,3 +192,13 @@ renvois: [L1.C21, L11.C01, L11.C02, L11.C03, L11.C05, L11.C09, L11.C10, L11.C16,
 ::etat:: **Le corpus borne néanmoins l'objection** : **entre 10 et 25 pour cent, l'intéressement n'a jamais été supprimé.** **Ce qui se négocie est LE NIVEAU, non LE PRINCIPE** — un instrument fondateur qui inscrirait le principe laisserait au marchandage une amplitude, non une existence.
 
 ::etat:: **Non ouvert, et c'est ce qui dirait si l'alignement suffit** : le règlement relatif aux **modalités de mise à disposition** des ressources propres, qui porte comptabilité, délais, intérêts de retard **et contrôles de la Commission**.
+
+## BALAYAGE DU LIVRE 25, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C04, qui ouvre le règlement instituant le Fonds social pour le climat de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UNE TECHNIQUE DE PERCEPTION ET D'AFFECTATION EST DISPONIBLE, ET ELLE EST EN VIGUEUR** [L25.C04]. **Règlement (UE) 2023/955, considérant 30** : le Fonds est « **exceptionnellement et temporairement financé par les recettes tirées de la mise aux enchères** » de quotas, lesquelles constituent des « **recettes affectées externes** ». **Article 10 § 1** : « un montant maximal de **65 000 000 000 EUR** en prix courants pour la période allant du **1er janvier 2026 au 31 décembre 2032** ».
+
+::hypothese:: **LE PRÉLÈVEMENT FINANCE SA PROPRE COMPENSATION, PAR AFFECTATION D'UNE PART DE SON PRODUIT.** **Les deux montants co-varient dans le bon sens** : quand le prix mord davantage, il rapporte davantage, donc il compense davantage. **C'est la réponse institutionnelle à A34 que le corpus cherchait.**
+
+::etat:: **CLÉ DE RÉPARTITION EFFECTIVE, ET C'EST LA SEULE QUE LE CORPUS TIENNE** (annexe II) : **Pologne 17,60 % soit 11,4 milliards ; Roumanie 9,25 % soit 6,0 ; Hongrie 4,33 % ; Slovaquie 2,35 % ; Portugal 1,88 %** — contre **Pays-Bas 1,11 %, Autriche 0,89 %, Suède 0,62 %, Finlande 0,54 %, Malte 0,07 %**. **LA VULNÉRABILITÉ AU SIGNAL-PRIX N'EST PAS ALIGNÉE SUR LE CLIVAGE NORD-SUD : elle a une géographie INTERNE À UN BLOC RICHE.** **Le corpus ne tient pas la formule qui produit ces parts, et c'est une acquisition à portée** — alors que L24.C01 et L24.C02 laissaient ouverte exactement cette question.

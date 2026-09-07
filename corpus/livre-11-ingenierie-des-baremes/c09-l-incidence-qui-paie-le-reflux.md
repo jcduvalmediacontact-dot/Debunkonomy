@@ -200,3 +200,13 @@ renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08]
 ::etat:: **L'INCIDENCE QUE CE CHAPITRE ÉTUDIE DEVIENT, DANS CERTAINS CAS, UNE QUESTION DE DROIT** [L25.C01]. **L22.C02** a établi que l'assiette de consommation finale laisse échapper l'épargne et **frappe donc proportionnellement plus ceux qui dépensent tout ce qu'ils reçoivent.** **Le Pacte de 1966 protège le niveau de vie suffisant, l'alimentation et le logement, et son article 4 n'admet de limitation que par la loi, compatible avec la nature du droit, et pour le bien-être général dans une société démocratique.**
 
 ::hypothese:: **L'incidence régressive d'un reflux transactionnel n'est donc pas seulement un défaut de conception à corriger : c'est un motif d'opposabilité** dans les États parties. **Le corpus enregistre que la question « qui paie le reflux » a désormais une réponse partielle en droit : pas ceux dont cela entamerait les moyens de subsistance.**
+
+## BALAYAGE DU LIVRE 25, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C04, qui ouvre le règlement instituant le Fonds social pour le climat de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'INCIDENCE PEUT SE TRAITER PAR LE DROIT PLUTÔT QUE PAR L'ESPÉRANCE, ET UN RÈGLEMENT LE FAIT** [L25.C04]. **Règlement (UE) 2023/955, article 9 § 2** : « Les États membres prévoient **les dispositions légales et contractuelles nécessaires pour garantir que L'INTÉGRALITÉ DU BÉNÉFICE EST TRANSFÉRÉE** aux ménages vulnérables, aux microentreprises vulnérables ou aux usagers vulnérables des transports. »
+
+::hypothese:: **Ce chapitre établit que l'incidence d'un prélèvement ne se lit pas sur celui qui le verse, et que le bénéfice d'une aide ne se lit pas sur celui qui la reçoit.** **Le règlement n'espère pas que le bénéfice passe : IL OBLIGE À L'ASSURER PAR CONTRAT.** **C'est une technique, et le corpus n'en avait aucune.**
+
+::etat:: **Le considérant 11 énonce l'incidence que ce chapitre cherchait à caractériser** : la hausse des prix affecte « **de manière disproportionnée** » les ménages « **qui consacrent une grande partie de leurs revenus à l'énergie et aux transports** », qui « **n'ont pas accès à des solutions [...] alternatives et abordables** » et qui « **pourraient ne pas disposer des moyens financiers pour investir** ». **RÉSERVE : le règlement AFFIRME cette incidence, il ne la CHIFFRE pas, et le corpus n'a ouvert aucune étude qui le fasse.**
