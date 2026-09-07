@@ -612,3 +612,61 @@ et l'*IPBES Nexus Assessment*, tous deux en 403.
 résolue, l'empreinte, le nombre de pages et une note de réserve écrite avant
 l'usage**. La note de réserve est ce qui manque le plus au corpus : elle dit ce
 que la source **ne** prouve **pas**, et l'auteur l'a écrite pour chacune.
+
+# Ouverture du 2026-09-07 (soir) — bloc L18, comptabilités
+
+## Ouvert par téléchargement direct
+
+| Source | URL résolue | Ce qu'elle a établi |
+|---|---|---|
+| **Directive (UE) 2022/2464 du 14 décembre 2022 (CSRD)**, JO L 322/15, texte français | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022L2464` | **ARTICLE 19 BIS § 1** : double matérialité en termes opérants — incidences de l'entreprise sur les questions de durabilité ET manière dont elles influent sur elle. **§ 2 a) iii)** : plans de compatibilité 1,5 °C, plans financiers connexes. **§ 2 b)** : objectifs **absolus** GES 2030 et 2050, et déclaration sur les **preuves scientifiques concluantes**. **ET L'ARRÊT EST PRÉCIS** : information dans **le rapport de gestion**, assurance **LIMITÉE**, et opinion d'audit sur le rapport de gestion rendue **à l'exclusion des exigences de l'article 19 bis**. Versé à **L18.C01 § 5** |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** La CSRD est un instrument de **publication**,
+non de reconnaissance comptable. Elle n'établit rien sur le bilan, et le corpus
+ne doit pas la citer comme une norme d'évaluation. **Les ESRS — règlement
+délégué (UE) 2023/2772 — ne sont pas ouverts**, alors que ce sont eux qui
+portent le contenu technique de l'article 19 bis. **Ni le régime dit *omnibus*
+de révision de la directive, postérieur, n'est instruit** : le corpus ne sait
+pas si le périmètre décrit ici est encore celui qui s'applique.
+
+## Instruites ce jour dans le stock déjà acquis
+
+| Source | Ce qu'elle a changé |
+|---|---|
+| **IPSAS 48, *Transfer Expenses*** (non instruite jusqu'ici) | **ELLE DÉCRIT LITTÉRALEMENT L'OPÉRATION DU DISPOSITIF** — fournir un actif à une autre entité « **without directly receiving any good, service, or other asset in return** ». **§ 18(a)** provision selon IPSAS 19, **§ 18(b)** comptabilisation « when the entity **ceases to control** the resources », **§ 20** mesure « at the **carrying amount** of the transferred resources ». **LES DEUX BRANCHES DONNENT UNE CHARGE** — le § 18 ne règle que la date, jamais la nature |
+| **IPSAS 51 § 12, relu en entier** | **LE REPLI VERS L'ANNEXE EST CONDITIONNÉ AU CONTRÔLE**, et le corpus l'avait lu comme un repli général. Le § 12 ne traite que le défaut du critère **10(c)**, la mesure fiable. **Si c'est le contrôle qui manque, il n'y a rien à porter en annexe.** **BC3** : des répondants indiquent qu'« il peut être difficile pour **quelque entité que ce soit** de démontrer un contrôle », et que le cas favorable ne se rencontrera que « **dans des circonstances très limitées** » |
+| **Cadre conceptuel IPSASB § 5.12** | **QUATRE INDICATEURS DE CONTRÔLE**, et la passe 1 du Livre 6 les contredit un par un — propriété juridique, capacité de refuser l'accès, moyens d'assurer l'usage, **droit opposable** au potentiel de service |
+
+## Acquisition demandée à l'auteur — CARE/TDL, et elle bloque la comparaison
+
+**MOTIF.** L'auteur a fixé le 2026-09-07 le périmètre du Livre 18 : comptabilité
+conventionnelle **comparée à CARE/TDL, CSRD, comptabilité multicapitaux**.
+**Le corpus tient le versant normatif et aucun modèle alternatif.**
+
+**ÉCHEC D'ACQUISITION, DÉCLARÉ.** Les quatre textes ci-dessous sont en dépôt
+**ouvert** sur HAL, et leurs URL de fichier ont été résolues par l'API
+`api.archives-ouvertes.fr`. **Le téléchargement a échoué sur une épreuve
+anti-robot (Anubis, preuve de travail), QUI N'A PAS ÉTÉ CONTOURNÉE** —
+conformément à la règle que le corpus s'est donnée. Le même jour, EUR-Lex a
+opposé un pare-feu AWS WAF en `curl` ; **la page a en revanche été servie
+normalement au navigateur, sans épreuve**, et c'est ainsi que la CSRD a été lue.
+
+| N° | Référence exacte | Identifiant HAL |
+|---|---|---|
+| **1** | **A. Rambaud & J. Richard**, *The “Triple Depreciation Line” (TDL) accounting model and its application to the Human Capital*, 2016 | `hal-01260004` |
+| **2** | **A. Rambaud**, *How accounting can reformulate the debate on the Natural Capital and help to implement its ecological approach*, 2015 | `halshs-01260060` |
+| **3** | **A. Rambaud & J. Richard**, *Towards a finance that CARES*, 2015 | `halshs-01260075` |
+| **4** | **C. Feger, H. Levrel & A. Rambaud**, « Trois méthodes comptables pour mettre les problèmes écologiques au cœur de la chose publique », *Revue française d'administration publique*, 2022 | `hal-03977774` |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** Ces textes sont ceux des **promoteurs** du
+modèle. Ils établissent ce que CARE/TDL **propose**, jamais qu'il soit adopté,
+opposable ou éprouvé. **Le corpus devra chercher séparément une critique du
+modèle** — faute de quoi il comparera une norme en vigueur à une proposition,
+ce qui n'est pas une comparaison. La référence n° 4, publiée en revue
+d'administration publique, est la plus proche de l'objet du corpus puisqu'elle
+porte sur **la chose publique** et non sur l'entreprise.
+
+**AUSSI À FOURNIR, SI DISPONIBLE** : une pièce sur la **comptabilité
+multicapitaux**, que l'auteur a nommée et dont **la bibliothèque ne tient
+rien** — le classement par mots-clés a produit des faux positifs, « care »
+attrapant l'éthique du care, conformément à la réserve de méthode du jour.
