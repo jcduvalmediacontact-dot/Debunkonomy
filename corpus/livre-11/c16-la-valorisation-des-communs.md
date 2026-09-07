@@ -226,3 +226,15 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 ::etat:: **Ce qui manque est le lien avec l'émetteur** : le bénéficiaire nommé par la loi italienne est **la collectivité locale des ayants droit**, non une institution émettrice tierce. **Aucune source ne relie les deux**, et c'est ce qui bloque la neuvième condition proposée par L18.C06.
 
 ::etat:: **S'y ajoute une contrainte de mesure** [L18.C02] : le SEEA valorise en **valeur d'échange**, dont le § 8.15 dit qu'elle « **doit refléter le contexte institutionnel courant** » et reflète « **diverses imperfections de marché** ». **Une valorisation de commun ainsi mesurée est libellée dans les prix du régime que le dispositif conteste**, et **le § 8.10 la rend systématiquement inférieure**, surplus du consommateur et valeurs de non-usage étant exclus.
+
+## BALAYAGE DU LIVRE 18, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'instruction de CARE/TDL et d'AfME.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une troisième construction s'ajoute aux deux moitiés tenues par ce chapitre, et elle ne passe par aucun titre** [L18.C07]. **CARE/TDL** porte le capital naturel **au PASSIF**, en dette de capital à conserver, et ne place à l'actif qu'un **coût d'usage** amorti — avec la mention expresse : « **pas de propriété de l'homme et de la nature** ».
+
+::hypothese:: **Le corpus enregistre que la valorisation d'un commun n'exige donc pas qu'on le possède, ni même qu'on puisse en exclure autrui.** **Elle exige un seuil de préservation défini scientifiquement et un budget de maintien** — la fiche RUPTUR : le coût du plan d'actions « constitue alors **une dette (passif) qui ne s'annulera qu'une fois l'objectif atteint** ».
+
+::hypothese:: **Et le signe s'inverse par rapport à ce que le corpus escomptait.** **Régénérer n'y produit pas une valeur mobilisable : cela éteint une dette antérieure.** **La nature y est un créancier, non une garantie.**
+
+::etat:: **Maturité classée FAIBLE par un comité de praticiens**, validation « par un comité scientifique » et non par un commissaire aux comptes, **modèle conçu pour la firme** — rien n'établit sa transposition à une institution émettrice.

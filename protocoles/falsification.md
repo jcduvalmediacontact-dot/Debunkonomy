@@ -1971,6 +1971,68 @@ droit positif. Il ne dit pas que la reconnaissance soit impossible. **Il dit
 qu'elle exige un TITRE, et que le corpus n'en tient aucun au bénéfice de
 l'émetteur.**
 
+### RÉVISION DU 2026-09-07 (SOIR) — F9 ÉTAIT TROP FORTE, ET DEUX MODÈLES LA RÉFUTENT
+
+**F9 a été posée quelques heures plus tôt sur LE TITRE.** L'auteur a fourni le
+même jour trois pièces qui **réfutent l'exigence** : Richard, *Dix thèses sur une
+nouvelle comptabilité écologique*, 2019 ; RUPTUR, *Aller vers la comptabilité en
+triple capital*, 2022 ; Fernandez, Feger & Rambaud, *From the ecosystem to the
+organization*, 2021. **Instruites en L18.C07 et L18.C08.**
+
+**CE QUI RÉFUTE L'EXIGENCE DE TITRE.** **CARE/TDL** porte les capitaux naturel et
+humain **AU PASSIF**, en dette de capital à conserver, et ne place à l'actif qu'un
+**coût d'usage** amorti — avec la mention expresse, dans le bilan de Richard :
+**« pas de propriété de l'homme et de la nature »**. **AfME** (Feger & Mermet)
+constitue **un collectif d'acteurs autour d'une entité de préoccupation commune**,
+sans que quiconque en soit titulaire. **Une comptabilité écologique peut donc se
+tenir SANS PROPRIÉTÉ ET SANS EXCLUSION** — et la première branche de F9, telle
+qu'elle était rédigée, tombe comme condition nécessaire.
+
+**F9 RÉÉCRITE.** *Qu'aucun référentiel comptable applicable à l'institution
+émettrice ne permette de représenter la régénération autrement que par une charge
+— soit parce que le référentiel applicable exige un ACTIF CONTRÔLÉ, soit parce
+qu'AUCUNE ENTITÉ COMPTABLE ne peut porter l'écriture au périmètre où la
+régénération se produit.*
+
+**CE QUE LA RÉVISION CONSERVE.** **La branche « actif contrôlé » tient contre tous
+les référentiels instruits** : IPSAS 47 § 19 exclut le bien public accessible à
+tous, **et réguler ne vaut pas contrôler**. Ce qui tombe est l'affirmation que le
+titre était la seule voie.
+
+**CE QUE LA RÉVISION AJOUTE, ET C'EST PLUS EXIGEANT.** La seconde branche demande
+**quelle entité comptable porterait l'écriture** — l'institution émettrice, le
+collectif des États membres, ou une entité *ad hoc* par écosystème. **Le corpus
+ne l'a jamais dit.** AfME suppose un collectif constitué, un objet de
+préoccupation partagé et une référence commune sur les pressions ; **le corpus
+n'a aucun des trois.**
+
+**UN RÉSULTAT DÉFAVORABLE VIENT AVEC LA RÉVISION, ET IL VISE LE BARÈME.** Le
+concepteur de CARE écarte expressément le prix : **« Rien à voir avec le cas du
+fameux prix du carbone : une invention des économistes »**, et **« il y a donc ici
+autant de “coûts carbone” que d'entreprises et PAS DE MARCHÉ MONDIAL BASÉ SUR UN
+PRIX DU CARBONE »**. Son motif est de fond : « on ne règle pas les problèmes
+environnementaux avec des valeurs de marchés intégrant des normes de rentabilité
+du CF ». **Le modèle le plus proche des intentions du corpus est celui qui
+contredit L11.C13**, et AfME confie à **une négociation locale** ce que le barème
+veut remplacer par un signal mondial. **La position du barème doit être
+argumentée contre eux, non supposée compatible avec eux.**
+
+**ET LE SIGNE DE LA CONTREPARTIE S'INVERSE.** Chez CARE, **la nature est un
+créancier et non une garantie** : régénérer **éteint une dette** au lieu de
+produire un actif mobilisable — la fiche RUPTUR l'écrit, la dette « ne s'annulera
+qu'une fois l'objectif atteint ». **Résonance avec A30**, qui adosse l'unité à une
+dette collective ; **le corpus la relève et ne prétend pas que ce soit la même
+dette** — celle de CARE est décentralisée, propre à chaque entité, et éteinte par
+son propre effort.
+
+**RÉSERVE SUR LES PIÈCES.** Les articles scientifiques restent non ouverts :
+hal-01260004, halshs-01260060, halshs-01260075, hal-03977774. **Une thèse exposée
+en diapositives n'est pas une thèse démontrée**, la fiche RUPTUR émane d'une
+association qui promeut la démarche, et **aucune critique académique de CARE n'est
+instruite**. Maturité classée **FAIBLE** par ce même comité de praticiens, LIFTS
+**TRÈS FAIBLE**, validation « par un comité scientifique » et non par un
+commissaire aux comptes.
+
 **RÉSERVE DE PORTÉE, ET ELLE EST SÉRIEUSE.** Tout ce qui précède est conditionnel
 à la troisième condition d'A30, **qui n'a pas avancé** : rien n'établit que
 l'institution émettrice relève de la comptabilité publique internationale. **Si

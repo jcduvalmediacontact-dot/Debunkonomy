@@ -202,3 +202,17 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::etat:: **Un apport favorable vient en revanche du SEEA** [L18.C02]. Son **§ 8.3** nomme parmi les usages de la valorisation « **CALIBRATING the application of monetary environmental policy instruments such as environmental markets and environmental TAXES AND SUBSIDIES** », et « recognizing expenditure as **an investment rather than a cost** ».
 
 ::hypothese:: **Le corpus enregistre que le SEEA sert ce chapitre mieux qu'il ne sert le bouclage comptable.** **Calibrer un barème demande des grandeurs relatives ; porter un actif au bilan demande une mesure fiable au sens du § 11 d'IPSAS 51.** **L'instrument est explicitement conçu pour la première.**
+
+## BALAYAGE DU LIVRE 18, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'instruction de CARE/TDL et d'AfME.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le modèle comptable le plus proche des intentions du corpus écarte expressément l'instrument de ce chapitre** [L18.C07]. **Jacques Richard**, concepteur de CARE/TDL, ancien membre de l'Autorité des Normes Comptables : « **Rien à voir avec le cas du fameux prix du carbone : une invention des économistes** », et « **il y a donc ici autant de “coûts carbone” que d'entreprises et PAS DE MARCHÉ MONDIAL BASÉ SUR UN PRIX DU CARBONE** ».
+
+::etat:: **Son motif n'est pas une préférence de méthode** : « On ne règle pas les problèmes environnementaux avec **des valeurs de marchés intégrant des normes de rentabilité du CF** ». **La solution qu'il oppose est un budget de maintien PROPRE À CHAQUE ENTITÉ**, calé sur les normes du GIEC, inscrit au passif et amorti.
+
+::hypothese:: **Le corpus enregistre que c'est une contradiction frontale, et qu'elle porte sur ce qu'il tient pour son cœur.** **C'est l'objection que le corpus adresse au SEEA, retournée contre le barème** — un prix, fût-il administré, reste une grandeur commune formée dans un système que le capital financier gouverne.
+
+::etat:: **Et le second modèle va dans le même sens par une autre voie** [L18.C08]. **AfME** confie la répartition des coûts à une **négociation entre acteurs** — « the allocation is **always a topic of negotiation** within the collective » — **c'est-à-dire précisément ce que le barème veut remplacer par un signal.**
+
+::etat:: **Le corpus ne tranche pas ici. Il enregistre que la position du barème doit être ARGUMENTÉE contre ces deux modèles, et non supposée compatible avec eux.**

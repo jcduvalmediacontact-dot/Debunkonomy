@@ -670,3 +670,24 @@ porte sur **la chose publique** et non sur l'entreprise.
 multicapitaux**, que l'auteur a nommée et dont **la bibliothèque ne tient
 rien** — le classement par mots-clés a produit des faux positifs, « care »
 attrapant l'éthique du care, conformément à la réserve de méthode du jour.
+
+## Ouverture du 2026-09-07 (soir) — CARE/TDL et AfME, fournis par l'auteur
+
+**L'ÉCHEC D'ACQUISITION DU MATIN EST LEVÉ AUTREMENT.** Les quatre articles de HAL
+restent inaccessibles — épreuve anti-robot non contournée. **L'auteur a fourni
+trois pièces qui portent le modèle**, rangées au Drive dans
+`Livres Monnaie\Sources telechargees 2026-09-07`.
+
+| Source | Ce qu'elle a établi |
+|---|---|
+| **J. Richard, *Dix thèses sur une nouvelle comptabilité écologique*, 22 novembre 2019** — Paris-Dauphine, expert-comptable, **ancien membre de l'Autorité des Normes Comptables** | **LE MÉCANISME DE CARE/TDL PAR SON CONCEPTEUR.** Capitaux naturel et humain **au PASSIF en dette de capital**, **coût d'usage** à l'actif, amorti — « **pas de propriété de l'homme et de la nature** ». Évaluation en **coût de maintien**, **pas de juste valeur**, **pas d'actualisation des dommages futurs**. Et sur les GES : « **autant de “coûts carbone” que d'entreprises et pas de marché mondial basé sur un prix du carbone** ». **Versé à L18.C07** |
+| **RUPTUR, *Aller vers la comptabilité en triple capital — 6 méthodes décryptées*, 2022** — comité technique de praticiens, **non les promoteurs** | **CLASSEMENT COMPARATIF DE SIX MÉTHODES.** CARE : monétarisation « OUI. **Valeur de maintien des capitaux inscrits au passif, budget de l'action à l'actif** », **maturité FAIBLE**, validation « par un comité scientifique » ; la dette « **ne s'annulera qu'une fois l'objectif atteint** ». LIFTS : budget en **grandeur physique**, « **une dette est créée si le budget est dépassé** », **maturité TRÈS FAIBLE**. **Versé à L18.C07** |
+| **Fernandez, Feger & Rambaud, *From the ecosystem to the organization*, 25 janvier 2021** | **AfME, LE SEUL MODÈLE AU PÉRIMÈTRE COLLECTIF** — « the sole accounting model [...] **within the collective perimeters** », pour « **collective action in managing an ecological entity or issue of their concern** ». **Trois niveaux de comptes**, dont un compte de **pressions partagé publiquement** servant de référence commune. **Et l'aveu** : la répartition « **is always a topic of negotiation** », et « **in the absence of national and regional targets and recognized ecological thresholds, who gets to decide** what pressures do the collective record ? ». **Versé à L18.C08** |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE, ET ELLE VAUT POUR LES TROIS.** **Une thèse exposée
+en diapositives n'est pas une thèse démontrée.** Les deux premières pièces
+émanent du modèle ou de ses promoteurs ; la troisième est un **résumé de mémoire
+de master** dont le cas d'application est **fictif et déclaré tel**. **Aucune
+critique académique de CARE n'est instruite**, et **aucune application réelle
+d'AfME n'est tenue.** Les articles scientifiques restent demandés :
+`hal-01260004`, `halshs-01260060`, `halshs-01260075`, `hal-03977774`.

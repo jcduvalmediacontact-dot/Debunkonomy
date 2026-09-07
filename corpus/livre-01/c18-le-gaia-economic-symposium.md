@@ -409,3 +409,15 @@ Le troisième chiffre le coût du régime. Les dépenses d'instruction et de con
 ::hypothese:: **Le test est simple, et il sépare les deux modes.** **À mesure parfaite — incertitude nulle — l'obstacle du § 8.15 subsiste intact.** **Ce chapitre a établi que la marge d'erreur dépasse le signal ; le Livre 18 établit que, même sans marge d'erreur, l'unité de compte serait la mauvaise.**
 
 ::etat:: **Et le SEEA exclut par périmètre** : § 8.10, les valeurs comptables « **exclude consumer surplus** » et sont « **lower** owing to the exclusion of **non-use values** » ; § 1.9, la mesure des bénéfices sociaux plus larges « **exceeds the scope of SEEA EA** ». **C'est la version comptable de l'essentiel insolvable.**
+
+## BALAYAGE DU LIVRE 18, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'instruction de CARE/TDL et d'AfME.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La question laissée ouverte au § 5 est posée dans les mêmes termes par les spécialistes de la comptabilité écologique, et laissée ouverte par eux** [L18.C08]. **Fernandez, Feger & Rambaud, 2021** : « **in the absence of national and regional targets and recognized ecological thresholds, WHO GETS TO DECIDE what pressures do the collective record in their account ?** Would it be possible to negotiate this issue among themselves ? »
+
+::etat:: **Et la répartition des coûts y est déclarée négociée, non calculée** : « the allocation is **always a topic of negotiation** within the collective », les critères cités à défaut d'unité d'œuvre étant la **capacité financière** des acteurs, les efforts déjà supportés et **leurs responsabilités dans les pressions**.
+
+::hypothese:: **Le corpus enregistre que sa difficulté est celle de la discipline, et n'en tire aucun réconfort.** **Un problème partagé n'est pas un problème résolu**, et **le dispositif est le seul des deux à vouloir en tirer une décision monétaire binaire.**
+
+::etat:: **Un acquis positif s'y ajoute** : le **premier niveau de comptes d'AfME** — comptes de pressions **partagés publiquement entre les acteurs et servant de référence commune** — **est la métrologie partagée dont dépend l'allocation de ce chapitre**, et le corpus ignorait qu'elle existât comme objet comptable plutôt que comme instrument statistique.
