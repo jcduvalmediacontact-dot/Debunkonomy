@@ -39,16 +39,31 @@ sources_primaires:
     nature: normatif
     reference: "*Registre*, **entrées 1, 2, 5 et 6**. *Retrait* : « Le retrait de l'Union européenne et d'Euratom a pris effet à la fin de juin 2025 : la Commission retient le 28 juin, **la base des traités du Conseil indique le 27 juin** » — **DISCORDANCE DOCUMENTÉE**. *États restants* : « Au 29 août 2026 [...] **seize États membres de l'Union encore parties** [...] La page de la Commission consultée à cette date en indiquait toutefois encore dix-sept » — **seconde discordance**. *Sortie européenne* : l'accord **inter se** sur l'interprétation du TCE, approuvé par la **décision (UE) 2025/1904 du 10 septembre 2025** ; « Le texte désigne comme parties potentielles vingt-six États membres et l'Union européenne ; **la Hongrie n'y figure pas.** » **POINT NON RÉSOLU** : les dates de signature, d'entrée en vigueur et d'effet à l'égard de la France sont conservées des audits antérieurs avec la mention « **référence du dépositaire non retrouvée lors du contrôle du 29 août 2026** ». *Amendements du 3 décembre 2024* : **cinq niveaux d'applicabilité à ne pas confondre**, l'entrée en vigueur définitive n'étant pas acquise"
     date_verification: 2026-09-07
+  - ref: S11
+    nature: normatif
+    reference: "**Décision (UE) 2025/1904 du Parlement européen et du Conseil du 10 septembre 2025**, JO L, 2025/1904, texte de l'accord *inter se* en annexe. **PDF DU JOURNAL OFFICIEL FOURNI PAR L'AUTEUR LE 2026-09-07 et lu.** **CONSTAT DE L'UNION SUR L'INEXÉCUTION, considérant 2** : « **Malgré l'arrêt Komstroy, les tribunaux arbitraux ont continué de se déclarer compétents et de rendre des sentences dans des procédures d'arbitrage intra-UE** qui sont censées être fondées sur l'article 26, paragraphe 2, point c), du traité ». **TECHNIQUE RETENUE PAR L'ACCORD, et ce n'est pas une modification** : les parties « réaffirment, par souci de clarté, qu'elles partagent la communauté de vues selon laquelle [...] **l'article 47, paragraphe 3, du traité sur la Charte de l'énergie ne s'étend, et NE SAURAIT AVOIR ÉTÉ ÉTENDU À AUCUN MOMENT**, à de telles procédures » — d'où il suit qu'il « **ne peut pas AVOIR PRODUIT d'effets juridiques dans les relations intra-UE** » pour les retraits antérieurs, et n'en produirait pas pour les retraits ultérieurs. **ENTRÉE EN VIGUEUR** : trente jours après réception du deuxième instrument de ratification"
+    date_verification: 2026-09-07
+  - ref: S10
+    nature: normatif
+    reference: "**Traité sur la Charte de l'énergie, Lisbonne, 17 décembre 1994 — TEXTE AUTHENTIQUE. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** : *Recueil des Traités des Nations Unies*, **volume 2080, n° 36116, p. 95**, enregistré par le Portugal le 30 septembre 1999, entré en vigueur le 16 avril 1998 ; textes authentiques anglais, français, allemand, italien, russe et espagnol. **ARTICLE 47 — WITHDRAWAL, lu intégralement.** § 1 : « At any time **after five years** from the date on which this Treaty has entered into force for a Contracting Party, that Contracting Party may give written notification to the Depositary of its withdrawal ». § 2 : « Any such withdrawal shall take effect upon the expiry of **one year** after the date of the receipt of the notification ». § 3 : « **The provisions of this Treaty shall continue to apply to Investments made** [...] as of the date when that Contracting Party's withdrawal from the Treaty takes effect **for a period of 20 years from such date.** » **ET UNE SECONDE CLAUSE DE SURVIE, que le registre ne portait pas** — pour l'application provisoire : les obligations relatives aux investissements faits pendant celle-ci « **shall nevertheless remain in effect with respect to those Investments for twenty years following the effective date of termination** »"
+    date_verification: 2026-09-07
+  - ref: S9
+    nature: normatif
+    reference: "**Convention de Vienne sur le droit des traités, 23 mai 1969. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** — texte français publié par la Commission du droit international, `https://legal.un.org/ilc/texts/instruments/french/conventions/1_1_1969.pdf`, 69 584 caractères extraits, articles 31, 41 et 62 lus. **PREMIÈRE OUVERTURE DE CE TEXTE PAR LE CORPUS, alors que ONZE CHAPITRES DU LIVRE 20 le réclamaient.** **Art. 41** : « Deux ou plusieurs parties à un traité multilatéral peuvent conclure un accord ayant pour objet de modifier le traité **dans leurs relations mutuelles seulement** : a) Si la possibilité d'une telle modification est prévue par le traité ; ou b) Si la modification en question n'est pas interdite par le traité, **à condition qu'elle : i) Ne porte atteinte ni à la jouissance par les autres parties des droits qu'elles tiennent du traité ni à l'exécution de leurs obligations ; et ii) NE PORTE PAS SUR UNE DISPOSITION À LAQUELLE IL NE PEUT ÊTRE DÉROGÉ SANS QU'IL Y AIT INCOMPATIBILITÉ AVEC LA RÉALISATION EFFECTIVE DE L'OBJET ET DU BUT DU TRAITÉ pris dans son ensemble.** » Le § 2 impose en outre **la notification aux autres parties**"
+    date_verification: 2026-09-07
   - ref: S8
     nature: theorie
     reference: "**L6 — ÉPISODES 01 et 02, v3.2 et v1.3. OUVERTS LE 2026-09-07.** Épisode 02 : « un traité qui protège les investissements existants contre les évolutions législatives futures est **un traité qui protège LE PASSÉ CONTRE L'AVENIR** » ; et « La question n'est plus celle de la disparition du TCE, mais celle de **la coexistence de deux régimes juridiques divergents pour un même objet** ». Épisode 01, **et c'est une inférence de l'auteur, signalée comme telle ici** : « cette hésitation même — **cette autocensure préventive** — pèse plus lourd, dans la marche des choses, que les rares condamnations qui la nourrissent »"
     date_verification: 2026-09-07
 verifications_en_attente:
-  - "AUCUNE SOURCE PRIMAIRE DE CE CHAPITRE N'A ÉTÉ OUVERTE — ni l'article 47
-     § 3 du TCE, ni la décision d'annulation du 2 juin 2025, ni la lettre du
-     ministre néerlandais du 18 septembre 2023, ni la décision (UE) 2025/1904,
-     ni les statistiques du Secrétariat. **Le TCE et la décision de l'Union
-     sont publics et gratuits**, la seconde portant un identifiant ELI."
+  - "UNE SEULE SOURCE PRIMAIRE A ÉTÉ OUVERTE — la Convention de Vienne, le
+     2026-09-07. **N'ONT PAS ÉTÉ OUVERTS** : l'article 47 § 3 du TCE, la
+     décision d'annulation du 2 juin 2025, la lettre du ministre néerlandais
+     du 18 septembre 2023, la décision (UE) 2025/1904 et les statistiques du
+     Secrétariat. **Le texte du TCE et la décision de l'Union ont été
+     recherchés le 2026-09-07 sans succès** — quatre chemins en 404 pour le
+     premier, trois réponses vides pour la seconde. **Le corpus appuie son
+     résultat principal sur une clause qu'il n'a pas lue.**"
   - "LE POIDS RELATIF DE L'AUTOCENSURE N'EST PAS ÉTABLI. L'épisode 01 avance
      que l'hésitation préventive pèse **plus lourd que les condamnations qui
      la nourrissent**. **C'est une inférence de l'auteur, et le corpus ne
@@ -83,6 +98,16 @@ renvois: [L1.C09, L1.C25, L6.C01, L6.C02, L6.C03, L6.C06, L6.C08, L7.C13, L11.C2
 ## 1. Vingt ans
 
 ::etat:: **L'article 47 § 3 du traité sur la Charte de l'énergie — instrument multilatéral de protection des investissements signé en 1994 — prévoit une protection des investissements antérieurs pendant vingt ans après le retrait** [S1]. Le registre le qualifie de fait vérifié ; **sa portée intra-européenne est contestée.**
+
+::etat:: **LE TEXTE AUTHENTIQUE A ÉTÉ OUVERT LE 2026-09-07** [S10] — Recueil des Traités des Nations Unies, volume 2080, n° 36116 — **et il confirme le registre en ajoutant trois choses que celui-ci ne portait pas.**
+
+::etat:: **Un.** Le retrait n'est pas possible avant **cinq ans** : « At any time **after five years** from the date on which this Treaty has entered into force for a Contracting Party » (§ 1). **Deux.** Il prend effet **un an** après réception de la notification (§ 2). **Trois.** Les vingt ans courent **à compter de cette prise d'effet** (§ 3).
+
+::hypothese:: **Le compte réel n'est donc pas vingt ans, et le corpus corrige sa propre formulation.** De la notification à l'extinction complète : **vingt et un ans.** De l'entrée en vigueur pour une partie à la première notification possible, cinq de plus. **Le verrou est un cliquet à trois crans, et un seul des trois était connu du corpus.**
+
+::etat:: **ET LE TEXTE PORTE UNE SECONDE CLAUSE DE SURVIE, que le registre ne mentionne pas** [S10]. Elle vise **l'application provisoire** : les investissements faits pendant celle-ci demeurent protégés « **for twenty years following the effective date of termination** ».
+
+::hypothese:: **Le corpus enregistre que c'est la plus dure des deux, parce qu'elle ne suppose aucune ratification.** Un État qui a seulement signé, appliqué le traité à titre provisoire, puis mis fin à cette application, **reste tenu vingt ans sur les investissements reçus entre-temps.** **La protection ne dérive donc pas du consentement définitif** — elle dérive du fait d'avoir laissé entrer l'investissement.
 
 ::etat:: **La dissymétrie est nommée par l'épisode** [S2] : « Ratifier un traité prend le temps d'une procédure institutionnelle nationale — souvent quelques mois, parfois quelques années. **En sortir pleinement peut prendre vingt ans.** »
 
@@ -154,7 +179,21 @@ renvois: [L1.C09, L1.C25, L6.C01, L6.C02, L6.C03, L6.C06, L6.C08, L7.C13, L11.C2
 
 ::hypothese:: **Le corpus enregistre la formule de l'épisode 02, qui décrit l'état atteint** [S8] : « La question n'est plus celle de la disparition du traité, mais celle de **la coexistence de deux régimes juridiques divergents pour un même objet.** »
 
-::hypothese:: **Et il en tire ce qui le concerne.** L20.C18 avait établi qu'une dérogation commerciale est datée, conditionnelle et réexaminée. **Ici, la sortie d'un traité produit non pas une extinction mais un dédoublement** — deux régimes coexistants, une clause de survie qui court, et deux institutions de l'Union qui ne s'accordent ni sur la date ni sur le compte.
+::etat:: **AJOUT DU 2026-09-07 — LA CONVENTION DE VIENNE A ÉTÉ OUVERTE, ET ELLE DONNE À CETTE SORTIE SON RÉGIME ET SA FRAGILITÉ** [S9]. L'accord *inter se* relève de **l'article 41**, qui autorise deux ou plusieurs parties à modifier un traité multilatéral **dans leurs seules relations mutuelles** — mais à deux conditions cumulatives lorsque le traité ne prévoit pas cette faculté.
+
+::etat:: **La seconde condition est la difficile** : la modification ne doit pas porter « sur une disposition à laquelle il ne peut être dérogé **sans qu'il y ait incompatibilité avec la réalisation effective de l'objet et du but du traité pris dans son ensemble** ». Le § 2 impose de surcroît **la notification aux autres parties.**
+
+::hypothese:: **Le corpus enregistre la difficulté, et elle est de première grandeur pour la voie de sortie.** L'objet et le but du traité sur la Charte de l'énergie **sont la protection des investissements** ; l'accord *inter se* écarte précisément l'arbitrage entre parties européennes. **Un tribunal arbitral saisi par un investisseur d'un État tiers pourrait donc soutenir que la condition ii) n'est pas remplie** — et c'est lui qui statuerait sur sa propre compétence.
+
+::etat:: **LA DÉCISION A ÉTÉ LUE LE 2026-09-07, ET ELLE CONFIRME CETTE FRAGILITÉ PAR UNE SOURCE OFFICIELLE** [S11]. Son considérant 2 constate que « **malgré l'arrêt Komstroy, les tribunaux arbitraux ont continué de se déclarer compétents et de rendre des sentences dans des procédures d'arbitrage intra-UE** ».
+
+::etat:: **Et la technique retenue n'est pas une modification du traité : c'est une interprétation rétroactive.** Les parties « réaffirment [...] que l'article 47, paragraphe 3 [...] **ne s'étend, et ne saurait avoir été étendu à aucun moment**, à de telles procédures », d'où il suit qu'il « **ne peut pas avoir produit d'effets juridiques** » dans les relations intra-européennes, **y compris pour les retraits antérieurs à l'accord** [S11].
+
+::hypothese:: **Le corpus enregistre le choix de qualification, et il est habile.** Se dire **interprète** plutôt que **modificateur** évite le contrôle de l'article 41 — on ne modifie rien, on déclare ce que le traité a toujours voulu dire. **Mais c'est une déclaration entre certaines parties seulement**, et l'article 31 § 3 (a) de la Convention de Vienne ne donne d'effet interprétatif privilégié qu'à « tout accord ultérieur intervenu **entre les parties** ».
+
+::hypothese:: **Le corpus ne tranche pas et n'a pas les moyens de le faire** : aucune décision arbitrale sur la portée de cet accord n'est ouverte, et la question relève d'une appréciation que les arbitres se réservent. **Il enregistre que la voie de sortie européenne repose sur une qualification dont la validité dépend de ceux-là mêmes qu'elle vise à écarter — et que ces mêmes tribunaux ont déjà, de l'aveu de l'Union, refusé de tirer les conséquences d'un arrêt de la Cour de justice.**
+
+::hypothese:: **Et il en tire ce qui le concerne.** L20.C18 avait établi qu'une dérogation commerciale est datée, conditionnelle et réexaminée. **Ici, la sortie d'un traité produit non pas une extinction mais un dédoublement** — deux régimes coexistants, une clause de survie qui court, une base conventionnelle contestable, et deux institutions de l'Union qui ne s'accordent ni sur la date ni sur le compte.
 
 ## 9. Ce que le chapitre ne peut pas établir
 

@@ -444,3 +444,33 @@ part ailleurs** : l'ordre juridique primaire des communautés originaires, la
 décisions qui l'ont amputée. **Ouvrir la loi et ouvrir sa version consolidée ne
 sont pas la même opération** — la seconde seule dit ce qui est en vigueur. Elle
 prend le même temps.
+
+---
+
+# Passe de sourçage du 2026-09-07 — deux acquisitions sur cinq, et un refus
+
+**Cinq textes visés, tous publics et gratuits.** Deux obtenus et lus, trois hors
+d'atteinte. **Le résultat est rapporté tel quel** : la passe n'a pas fait ce
+qu'elle annonçait.
+
+## Obtenus et lus
+
+| Texte | Édition tenue | Ce que l'ouverture a produit |
+|---|---|---|
+| **Convention de Vienne sur le droit des traités, 23 mai 1969** | texte français de la Commission du droit international, `https://legal.un.org/ilc/texts/instruments/french/conventions/1_1_1969.pdf`, 69 584 caractères extraits | **PREMIÈRE OUVERTURE, alors que ONZE CHAPITRES DU LIVRE 20 la réclamaient depuis le 2026-09-06.** Articles 31, 41 et 62 lus. **L'art. 41 fonde l'accord *inter se* européen ET en donne la fragilité** : hors faculté prévue par le traité, la modification ne doit pas porter sur une disposition « à laquelle il ne peut être dérogé sans qu'il y ait incompatibilité avec la réalisation effective de l'objet et du but du traité » — or l'objet du TCE est la protection des investissements. Versé en L6.C12. **L'art. 62, changement fondamental de circonstances, n'est pas encore employé** |
+| **Conseil constitutionnel, n° 2019-823 QPC du 31 janvier 2020** | `https://www.conseil-constitutionnel.fr/decision/2020/2019823QPC.htm`, texte intégral | **Le registre est confirmé au mot près, et deux éléments s'y ajoutent.** (1) Le préambule de la Charte, cité par la décision, énonce que les choix du présent « ne doivent pas compromettre la capacité **des générations futures et des autres peuples** » — **second ancrage de droit positif pour l'engagement intergénérationnel**, après le texte italien, et celui-ci vise aussi les autres peuples. (2) **L'intensité du contrôle est restreinte** : le Conseil vérifie que la conciliation « n'est pas manifestement déséquilibrée ». **L'objectif de valeur constitutionnelle AUTORISE le législateur, il ne l'oblige pas.** Versé en L6.C10 |
+
+## Non obtenus, et pourquoi
+
+| Texte | Ce qui s'est passé | Suite |
+|---|---|---|
+| **Corte costituzionale, sentenza n° 119 de 2023** | le site sert une **page de détection de bots (Radware Captcha)**. **AUCUNE TENTATIVE DE CONTOURNEMENT N'A ÉTÉ FAITE ET AUCUNE NE SERA FAITE** | à récupérer par un autre canal — recueil papier, base doctrinale, ou consultation humaine. **Reste la lecture la plus rentable du dossier** : les motifs commandent la façon dont NEMO peut faire peser une charge sur une propriété privée |
+| **Décision (UE) 2025/1904 du 10 septembre 2025** | EUR-Lex répond **202 avec un corps vide** sur trois formes d'URL (ELI, CELEX, OJ) | à retenter ; le texte de l'accord *inter se* figure en annexe et porte les dates que le registre déclare non retrouvées |
+| **Traité sur la Charte de l'énergie, art. 47 § 3** | **404 sur quatre chemins** du Secrétariat de la Charte | l'URL exacte n'est pas connue du corpus. **L6.C12 appuie son résultat principal sur une clause qu'il n'a pas lue** |
+
+**CE QUE CETTE PASSE ENSEIGNE, et il faut le retenir avant la suivante.** Trois
+sources sur cinq ont échoué **pour des raisons d'accès, non de disponibilité** —
+toutes sont publiques. **Le facteur limitant du sourçage n'est plus la règle
+d'ouverture ni le coût : c'est de connaître l'adresse exacte du texte.** Une
+liste d'URL vérifiées vaudrait, pour les passes suivantes, plus qu'une liste de
+titres.

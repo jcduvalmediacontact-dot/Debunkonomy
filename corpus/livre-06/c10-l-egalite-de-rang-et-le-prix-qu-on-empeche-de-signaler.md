@@ -31,16 +31,21 @@ sources_primaires:
     nature: theorie
     reference: "Même entrée — **CONTRE-INDICATION ET RÈGLE DE RÉDACTION DÉCISIVE, respectées ici mot pour mot.** « La première édition des travaux de l'**observatoire de l'assurance des risques climatiques** conclut que **l'assurance habitation demeure accessible sur l'ensemble du territoire étudié**. Ses auteurs reconnaissent que, **pour des raisons tenant au droit de la concurrence, l'étude N'INTÈGRE NI LES PRIX DES CONTRATS NI LA SURPRIME.** » **RÈGLE** : « **Ne jamais écrire que des biens sont devenus inassurables en France.** Écrire que **l'accès formel est maintenu selon le seul relevé institutionnel disponible**, que ce relevé **exclut de son périmètre les prix et les franchises**, et que **C'EST PAR LES PRIX ET LES FRANCHISES QUE L'INASSURABILITÉ SE MANIFESTE. LA DÉMONSTRATION TIENT DANS CET ÉCART.** » **POINT NON ÉTABLI** : « Le chiffre d'environ **1,7 million de personnes sans assurance habitation, soit 2,5 % des occupants de résidences principales, circule SANS SOURCE PRIMAIRE IDENTIFIÉE.** »"
     date_verification: 2026-09-07
+  - ref: S7
+    nature: jurisprudence
+    reference: "**Conseil constitutionnel, décision n° 2019-823 QPC du 31 janvier 2020, *Union des industries de la protection des plantes*. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** — `https://www.conseil-constitutionnel.fr/decision/2020/2019823QPC.htm`, texte intégral lu. **LE REGISTRE EST CONFIRMÉ AU MOT PRÈS** : « Il en découle que la protection de l'environnement, patrimoine commun des êtres humains, **constitue un objectif de valeur constitutionnelle** » ; « **Il appartient au législateur d'assurer la conciliation des objectifs précités avec l'exercice de la liberté d'entreprendre** » ; « **À ce titre, le législateur est fondé à tenir compte des effets que les activités exercées en France peuvent porter à l'environnement à l'étranger.** » **DEUX ÉLÉMENTS QUE LE REGISTRE NE PORTAIT PAS.** (1) **Le préambule de la Charte, cité par la décision**, énonce que « la préservation de l'environnement doit être recherchée **AU MÊME TITRE QUE LES AUTRES INTÉRÊTS FONDAMENTAUX DE LA NATION** » et que « les choix destinés à répondre aux besoins du présent **ne doivent pas compromettre la capacité DES GÉNÉRATIONS FUTURES ET DES AUTRES PEUPLES** à satisfaire leurs propres besoins ». (2) **L'INTENSITÉ DU CONTRÔLE** : le Conseil juge que le législateur « a assuré une conciliation **QUI N'EST PAS MANIFESTEMENT DÉSÉQUILIBRÉE** » — il ne pèse pas lui-même, il vérifie l'absence de déséquilibre manifeste"
+    date_verification: 2026-09-07
   - ref: S6
     nature: theorie
     reference: "Le corpus lui-même — **L20.C03**, qui établit que le verrou européen n'est pas la prohibition du financement monétaire mais **la hiérarchie des objectifs** ; **L1.C21**, qui construit un reflux transactionnel **modulé sur l'impact** ; **L1.C06**, qui pose l'essentiel insolvable ; et **L6.C03**, qui pose le sixième état — **le point non établi ne se convertit jamais en négation**"
     date_verification: 2026-09-07
 verifications_en_attente:
-  - "NI LA DÉCISION DE 2020 NI CELLE DE 2013 N'ONT ÉTÉ LUES. Le registre les
-     tient pour vérifiées sur la décision publiée et son commentaire officiel,
-     **mais le corpus bâtit ici un argument de RANG**, et un rang se lit dans
-     les considérants. **Les deux textes sont gratuits sur le site du Conseil
-     constitutionnel.**"
+  - "LA DÉCISION DE 2020 A ÉTÉ OUVERTE LE 2026-09-07 et le registre est
+     confirmé au mot près ; **la décision n° 2013-346 QPC du 11 octobre 2013
+     ne l'a pas été.** L'antériorité — la protection de l'environnement comme
+     *but d'intérêt général* — repose donc encore sur le registre, alors que
+     **c'est l'écart entre les deux qualifications qui porte tout le
+     chapitre.** Texte gratuit sur le site du Conseil."
   - "LA PORTÉE DE L'ÉGALITÉ DE RANG N'EST PAS MESURÉE. Le corpus ne tient
      **aucune décision postérieure** appliquant cet objectif, ni dans un sens
      ni dans l'autre. **Un rang qui n'a jamais fait pencher une balance
@@ -78,7 +83,15 @@ renvois: [L1.C02, L1.C06, L1.C21, L1.C23, L6.C02, L6.C03, L6.C07, L11.C03, L11.C
 
 ::hypothese:: **Et c'est, en droit national, la figure dont L20.C03 avait établi qu'elle était le verrou réel.** Ce chapitre avait montré que la prohibition du financement monétaire ne vise que trois opérations de crédit, **et que le véritable obstacle est la hiérarchie des objectifs** — un objectif principal, les autres subordonnés. **Voici une juridiction constitutionnelle qui, dans son propre ordre, met deux exigences au même rang.** Le corpus tient donc un précédent de la seule opération qu'il demande.
 
-::etat:: **Il ne tient pas sa portée** : aucune décision postérieure appliquant cet objectif n'est ouverte. **Un rang qui n'a jamais fait pencher une balance documentée est un rang dont l'effet reste à établir.**
+::etat:: **PRÉCISION DU 2026-09-07, APRÈS OUVERTURE DE LA DÉCISION, ET ELLE BORNE LE RÉSULTAT** [S7]. L'égalité de **rang** est acquise ; **l'intensité du contrôle ne l'est pas.** Le Conseil ne pèse pas lui-même les deux exigences : il juge que le législateur « a assuré une conciliation **qui n'est pas manifestement déséquilibrée** ». **C'est un contrôle restreint**, et il laisse au législateur une marge que le rang égal ne réduit pas.
+
+::hypothese:: **Le corpus enregistre la conséquence, qui joue dans les deux sens.** L'objectif de valeur constitutionnelle **n'oblige pas le législateur à protéger l'environnement** ; il l'**autorise** à le faire au prix d'atteintes qui, sans lui, auraient été censurées. **C'est un permis, pas une injonction** — et un dispositif qui compterait sur ce rang pour être imposé au législateur se tromperait d'instrument.
+
+::etat:: **ET LE PRÉAMBULE, CITÉ PAR LA DÉCISION, PORTE CE QUE LE CORPUS CHERCHAIT AILLEURS** [S7] : « la préservation de l'environnement doit être recherchée **au même titre que les autres intérêts fondamentaux de la Nation** », et « les choix destinés à répondre aux besoins du présent **ne doivent pas compromettre la capacité des générations futures ET DES AUTRES PEUPLES** à satisfaire leurs propres besoins ».
+
+::hypothese:: **C'est un second ancrage de droit positif pour l'engagement intergénérationnel**, après la « comproprietà inter-generazionale » italienne de L6.C06 — et celui-ci ajoute **les autres peuples**, ce que le texte italien ne fait pas. **L1.C17 et L1.C22 disposent donc désormais de deux textes en vigueur, dans deux ordres juridiques, dont l'un est de rang constitutionnel.**
+
+::etat:: **Le corpus ne tient toujours pas la portée de cet objectif** : aucune décision postérieure l'appliquant n'est ouverte. **Un rang qui n'a jamais fait pencher une balance documentée est un rang dont l'effet reste à établir.**
 
 ## 2. Les effets à l'étranger, et le corpus n'avait aucun appui
 
