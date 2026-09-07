@@ -245,3 +245,9 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 ::hypothese:: **ET LE DISPOSITIF CHANGE DE BRANCHE DU DROIT.** Une émission sans débiteur, recouvrée par un prélèvement gradué, **est une DÉPENSE PUBLIQUE dont la ressource est un PRÉLÈVEMENT** — charge à l'émission, produit au reflux. **Régime comptable cohérent, au prix de cesser d'être adossé.**
 
 ::etat:: **Question ouverte par l'arbitrage, et elle est la plus urgente du corpus** : **qui lève la fonte, et de quel titre ?** **Et le passif reste entier** : si l'unité n'est la dette de personne en particulier, est-elle une dette de l'émetteur ?
+
+::etat:: **CORRECTION DU 2026-09-07 (nuit), SUR REVUE CONTRADICTOIRE — deux énoncés ci-dessus étaient trop forts.** **« CE QUI EST LEVÉ » devient conditionnel** : A35 décrit l'incidence économique de la charge, non son porteur en droit, et **une charge collective peut être juridiquement portée par une entité**. **Si** une entité garantit, rembourse, convertit ou compense l'unité, **le test de l'article 123 doit être refait.**
+
+::etat:: **Et « le dispositif change de branche du droit » n'est qu'UNE BRANCHE SUR SIX.** L'arbre de qualification de la fonte, posé en L10.C06 : **impôt, contribution affectée, redevance, frais de réseau, RÈGLE MONÉTAIRE, obligation conventionnelle**, départagées par huit critères dont le corpus ne tient aucun. **Ni IPSAS 48 ni IPSAS 47 n'imposent la qualification de dépense publique.**
+
+::etat:: **CE QUI SUBSISTE SANS RÉSERVE** : IPSAS 47 § 18 exclut le flux futur de fontes de l'actif — « **an intention to levy taxation is not a past event** ». **Et les cinq objets à verrouiller avant toute conclusion** : l'unité, le débiteur, le passif, le prélèvement, les écritures inter-entités.

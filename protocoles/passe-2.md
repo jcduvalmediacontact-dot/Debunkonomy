@@ -3352,6 +3352,40 @@ des reflux (fontes) **graduellement plus forts**. »
 
 **LE SECOND TERME EST RETENU. TROIS CONSÉQUENCES, DONT DEUX N'ÉTAIENT PAS PRÉVUES.**
 
+**CORRECTION DU 2026-09-07 (nuit), SUR REVUE CONTRADICTOIRE — À LIRE AVANT LES
+TROIS CONSÉQUENCES CI-DESSOUS.** **La conséquence (1) était trop forte et devient
+conditionnelle ; la conséquence (3) n'est qu'une branche parmi six.**
+
+**SUR (1).** « Aucun débiteur individuel identifié » et « aucune obligation
+juridiquement opposable à une entité » **sont deux propositions différentes**.
+Une charge collective peut être portée en droit par une personne publique, une
+organisation internationale, un fonds, une communauté d'États, ou par les membres
+au titre d'une obligation commune. **A35 décrit L'INCIDENCE ÉCONOMIQUE de la
+charge ; il ne dit pas qui l'assume EN DROIT.** **Conclusion exacte** : *si* les
+textes constitutifs ne créent aucune créance opposable à une entité du secteur
+public, la branche sort du champ ; *si* une entité garantit, rembourse, convertit
+ou compense l'unité, **le test de l'article 123 doit être refait**. **AUCUNE
+CONCLUSION SUR L'ARTICLE 123 NE DOIT ÊTRE PROPAGÉE** avant qu'une **fiche de
+spécification de l'unité** soit écrite — droits du détenteur, obligations de
+l'émetteur, règle de conversion, extinction, détenteurs autorisés, sort en cas de
+sortie d'un membre.
+
+**SUR (3).** Ni IPSAS 48 ni IPSAS 47 n'imposent la qualification de dépense
+publique. Leur application suppose d'identifier **la ressource remise, le contrôle
+antérieur, le bénéficiaire, l'existence d'un accord contraignant et le référentiel
+applicable** — le corpus n'en tient aucun. **Et la fonte n'est pas automatiquement
+un prélèvement obligatoire** : l'arbre de qualification posé en L10.C06 compte
+**six branches** — impôt, contribution affectée, redevance, **frais de réseau**,
+**règle monétaire**, obligation conventionnelle — et **huit critères** les
+départagent. **La branche « règle monétaire » n'exige aucune compétence fiscale**,
+mais exige que l'unité soit celle de l'émetteur, **ce qui ramène à la question du
+passif que A35 laisse ouverte.**
+
+**CE QUI SUBSISTE SANS RÉSERVE.** La conséquence (2) — IPSAS 47 § 18 exclut le
+flux futur de fontes de l'actif, « an intention to levy taxation is not a past
+event ». Et la question ouverte : **qui lève la fonte, et de quel titre**, quelle
+que soit la branche retenue.
+
 **(1) L'OBSTACLE JURIDIQUE EST LEVÉ, ET SUR UN MOTIF MEILLEUR QUE CELUI DU
 CORPUS.** La société entière n'est aucune des institutions énumérées à l'article 3
 du règlement 3603/93. **La définition-balai ne l'atteint pas, parce qu'il n'y a
@@ -3410,3 +3444,41 @@ chapitres du Livre 10 raisonnent sur des cas de figure faute de cette décision 
 L20.C02 tient une échappatoire défaite ; L18.C06 avait déjà déclaré que le corpus
 « n'a jamais dit quelle entité comptable porterait l'écriture ». **C'est la même
 question, rencontrée par deux livres qui ne se parlaient pas.**
+
+## RÈGLE DE MÉTHODE ACQUISE LE 2026-09-07 (nuit) — LE PAS DE TROP
+
+**ÉNONCÉ.** *Le corpus passe trop vite de l'énoncé conceptuel ou politique à la
+qualification juridique ou comptable. Entre « la société porte cette dette » et
+« il n'existe aucun débiteur en droit », il y a un pas ; entre « une fonte graduée
+sur l'impact » et « un prélèvement obligatoire », il y en a un autre. Ce pas doit
+être écrit, et il doit être étayé.*
+
+**COMMENT ELLE A ÉTÉ ACQUISE.** Une revue contradictoire extérieure, le 2026-09-07,
+a relevé **six erreurs en une soirée** : trois qualifications trop rapides
+(L10.C06), une confusion de catégories (L18.C05), et **deux erreurs comptables**
+— une analogie fausse sur l'achat de titre par une banque centrale (L11.C02) et
+la partie double présentée comme une loi de conservation mondiale (L18.C05).
+
+**CE QUI REND LA LEÇON UTILE PLUTÔT QUE MORTIFIANTE.** **Quatre des six corrections
+jouent EN FAVEUR du dispositif.** Le corpus s'était donné pour règle de ne jamais
+flatter ; **il a dérivé vers la faute symétrique, la sévérité hâtive**, qui n'est
+pas plus rigoureuse. **Conclure trop vite contre une thèse n'est pas plus honnête
+que conclure trop vite pour elle : c'est le même défaut de démonstration.**
+
+**CE QU'IL FAUT FAIRE, CONCRÈTEMENT.** **(1)** Quand un chapitre passe d'un plan à
+un autre — politique vers juridique, conceptuel vers comptable — **le marquer et
+le justifier**, jamais l'enchainer. **(2)** Devant une qualification, **poser
+l'arbre des branches possibles et les critères qui les départagent AVANT de
+choisir**. **(3)** Ne jamais employer un terme technique — « commun », « bien
+public », « dette », « prélèvement » — **sans dire lequel des sens on retient**.
+**(4)** Vérifier une écriture comptable **avant** de s'en servir comme analogie.
+
+**CINQ OBJETS À VERROUILLER AVANT DE CONCLURE, ordre de travail retenu.**
+**L'UNITÉ** — fiche de spécification : droits du détenteur, obligations de
+l'émetteur, conversion, extinction, détenteurs autorisés, sortie d'un membre.
+**LE DÉBITEUR** — qui, s'il en est un, porte l'obligation en droit. **LE PASSIF**
+— ce que l'unité est au passif de l'émetteur. **LE PRÉLÈVEMENT** — quelle branche
+de l'arbre, quelle autorité, quelle voie d'adoption. **LES ÉCRITURES
+INTER-ENTITÉS** — trois jeux complets et séparés : émetteur, banque centrale
+nationale, bénéficiaire, avec les branches destruction, accumulation et fonds
+propres négatifs assumés.

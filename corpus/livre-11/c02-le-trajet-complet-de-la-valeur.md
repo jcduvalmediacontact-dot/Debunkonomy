@@ -82,7 +82,11 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
 
 ::etat:: Le Cahier Technique expose les écritures [S2], et l'arbitrage les confirme en y ajoutant la comptabilité en miroir.
 
-::etat:: **Au Symposium.** L'émission d'allocations s'inscrit au passif. À l'actif, rien encore : le reflux n'a pas commencé. **Les fonds propres deviennent donc négatifs du montant émis.** Ce n'est pas un défaut de conception, c'est la position ordinaire d'un émetteur au moment où il émet — une banque centrale qui achète un titre voit son passif croître avant que le titre ne rapporte.
+::etat:: **Au Symposium.** L'émission d'allocations s'inscrit au passif. À l'actif, rien encore : le reflux n'a pas commencé. **Les fonds propres deviennent donc négatifs du montant émis.**
+
+::etat:: **CORRECTION DE FOND DU 2026-09-07, SUR REVUE CONTRADICTOIRE.** Ce chapitre présentait ce résultat comme « la position ordinaire d'un émetteur au moment où il émet », en l'appuyant sur une analogie **qui est fausse** : « une banque centrale qui achète un titre voit son passif croître avant que le titre ne rapporte ». **Lorsqu'une banque centrale achète un titre, L'ACTIF ACQUIS ET LE PASSIF MONÉTAIRE AUGMENTENT SIMULTANÉMENT ; ses fonds propres ne baissent pas du montant émis.** Un rendement ultérieur décevant peut affecter le résultat, **mais l'achat ne crée à lui seul aucune perte.**
+
+::hypothese:: **Le corpus enregistre que la correction ne détruit pas l'écriture décrite, elle lui retire sa justification, et c'est plus grave.** **L'écriture du Symposium reste celle-ci** — passif créé, rien à l'actif, fonds propres négatifs du montant émis. **Mais elle n'est PAS la position ordinaire d'un émetteur : elle en est l'opposé.** **Un émetteur ordinaire acquiert en émettant ; celui-ci donne en émettant.** **Ce que le chapitre présentait comme une banalité comptable est la singularité même du dispositif**, et c'est ce que L18.C01 a retrouvé par une autre voie en établissant qu'IPSAS 48 traite un tel transfert **en charge**.
 
 ::etat:: **À la banque centrale nationale.** Les allocations entrent à l'actif comme actif transitoire ; la monnaie nationale émise au bénéfice du prestataire sort au passif [S2]. L'écriture est équilibrée.
 

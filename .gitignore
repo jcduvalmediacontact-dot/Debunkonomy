@@ -16,3 +16,6 @@ protocoles/audits-et-recherches/
 # Sauvegardes locales et archives
 Sauvegarde*/
 *.zip
+
+# verrous LibreOffice
+.~lock.*#

@@ -2090,6 +2090,26 @@ nouvelle comptabilité écologique*, 2019 ; RUPTUR, *Aller vers la comptabilité
 triple capital*, 2022 ; Fernandez, Feger & Rambaud, *From the ecosystem to the
 organization*, 2021. **Instruites en L18.C07 et L18.C08.**
 
+**CORRECTION DU 2026-09-07 (nuit), SUR REVUE CONTRADICTOIRE.** F9 s'appuyait
+notamment sur L18.C05, qui concluait que « ce qui fait qu'une chose est un commun
+est ce qui l'empêche d'être l'actif de quiconque ». **Cette généralisation est
+retirée.** IPSAS 47 § 19 vise **les biens publics EN ACCÈS UNIVERSEL** — « those
+public goods that **ALL entities** have access to and benefit from » — **et non les
+communs**. **Un commun au sens d'Ostrom est délimité et exclusif envers les
+non-membres : il POSSÈDE la capacité de restreindre que la norme exige.**
+
+**CE QUE LA CORRECTION FAIT À F9.** Elle en **rétrécit l'assiette** sans le
+supprimer. **La branche « actif contrôlé » tient pleinement pour les objets EN
+ACCÈS OUVERT** — atmosphère, haute mer, climat stable — **et ce sont ceux que le
+dispositif vise en premier.** **Pour un commun délimité, elle devient une question
+de TITRE posée OBJET PAR OBJET** : la capacité de restreindre appartient à la
+communauté des ayants droit, non à une institution émettrice tierce. **Cinq objets
+étaient confondus sous un seul mot** — bien public en accès universel, ressource
+commune d'Ostrom, bien en propriété collective, droit d'usage d'une communauté
+délimitée, actif naturel contrôlé — **et le corpus doit construire la matrice
+objet / titulaire / régime d'accès / contrôle / unité comptable / mesure avant de
+réappliquer F9.**
+
 **CE QUI RÉFUTE L'EXIGENCE DE TITRE.** **CARE/TDL** porte les capitaux naturel et
 humain **AU PASSIF**, en dette de capital à conserver, et ne place à l'actif qu'un
 **coût d'usage** amorti — avec la mention expresse, dans le bilan de Richard :

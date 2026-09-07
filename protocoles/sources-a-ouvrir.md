@@ -763,3 +763,46 @@ qu'il le soit resté sans changement. **C'est la première vérification à fair
 13 b) de l'annexe IV** — le régime des provisions. **(5)** **BCE, test de
 résistance climatique** — **déjà dans la bibliothèque de l'auteur, non ouvert.**
 **(6)** Règles comptables de la BRI et du FMI.
+
+## RÈGLE DE DROITS D'USAGE — posée le 2026-09-07 (nuit), sur revue contradictoire
+
+**TOUTE ENTRÉE DE SOURCE DOIT DÉSORMAIS PORTER SON RÉGIME DE DROITS**, au même
+titre que sa date de vérification. **Trois valeurs suffisent** : `libre` —
+domaine public, licence ouverte, ou texte officiel librement reproductible ;
+`citation_seule` — courts extraits justifiés et paraphrase, **pas de reproduction
+ni d'ingestion automatisée** ; `a_verifier`.
+
+**CAS QUI A MOTIVÉ LA RÈGLE.** Le recueil **IPSAS 2026** porte une restriction
+explicite : la permission de copier « **does not extend to the use of this
+publication for TRAINING OR OPERATING ARTIFICIAL INTELLIGENCE SYSTEMS** without
+prior written permission from IFAC », hors usage individuel non commercial. **Les
+cinq PDF IPSAS relèvent donc de `citation_seule`.**
+
+**CE QUE CELA AUTORISE ET CE QUE CELA INTERDIT.** **Autorisé** : lire, instruire,
+**citer précisément et brièvement en attribuant**, paraphraser, construire le
+raisonnement du corpus dessus. **Interdit sans autorisation écrite** : reproduire
+le document dans le dépôt, le servir comme pièce d'un moteur de réponse public,
+**ou l'ingérer dans un index automatisé destiné à alimenter un système**.
+
+**CONSÉQUENCE POUR LE DÉPÔT, À VÉRIFIER AVANT TOUTE PUBLICATION.** Les chapitres
+qui citent ces normes le font par **extraits courts, attribués, à fin de
+critique**. **Aucun PDF IPSAS n'est ni ne doit être versé au dépôt** — ils
+résident dans la bibliothèque privée de l'auteur, au Drive. **À revérifier avant
+la première publication publique d'un chapitre du Livre 18 ou du Livre 10.**
+
+**LES AUTRES SOURCES DU LOT** — PFMI de la BRI, *Money creation* de la Banque
+d'Angleterre, SEEA des Nations unies, rapports du PNUE, Dafermos et al., textes de
+l'Union sur EUR-Lex, arrêts de la Cour — **sont `libre` ou très vraisemblablement
+libres**, et le corpus les traite comme tels sans avoir vérifié chaque notice.
+**Marqué `a_verifier` pour le lot, avant publication.**
+
+## Acquisition du 2026-09-07 (nuit) — une pièce nouvelle
+
+| Source | Pages | Droits | État |
+|---|---:|---|---|
+| **PNUE, *State of Finance for Nature 2026*** | 107 | `a_verifier` | **ACQUISE, NON INSTRUITE.** Flux favorables et défavorables à la nature, **besoins d'investissement**, données principales de 2023. **C'est la première source susceptible de donner au corpus UN ORDRE DE GRANDEUR DU VOLUME D'ÉMISSION** — grandeur qu'il n'a jamais tenue, et dont L11 a besoin pour toute calibration |
+
+**Les dix autres pièces du lot fourni le 2026-09-07 étaient déjà au Drive et sont
+instruites ou en cours** : PFMI, BoE, SEEA, *Global Resources Outlook*, cadre
+conceptuel IPSASB, IPSAS 47, 48, 51, RPG 1. **Dafermos et al. 2016 reste non
+instruit** — clé de voûte annoncée du Livre 13.
