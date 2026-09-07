@@ -474,3 +474,92 @@ toutes sont publiques. **Le facteur limitant du sourçage n'est plus la règle
 d'ouverture ni le coût : c'est de connaître l'adresse exacte du texte.** Une
 liste d'URL vérifiées vaudrait, pour les passes suivantes, plus qu'une liste de
 titres.
+
+---
+
+# Inventaire de la bibliothèque par matricule — 2026-09-07
+
+**LA BIBLIOTHÈQUE EST ACCESSIBLE DEPUIS UNE SESSION** : `E:\Debunk'Onomy GPT`,
+**1 001 fichiers** (.pdf, .epub, .odt, .doc). Elle n'avait jamais été inventoriée
+que pour dix-sept pièces nommées ; elle ne l'avait jamais été **par livre
+destinataire**.
+
+**RÉSULTAT, ET IL EST NÉGATIF** : classement par mots-clés sur les noms de
+fichiers — **96 fichiers rattachables aux dix livres à ouvrir, 905 non
+classés.** L'échantillonnage des non classés montre pourquoi : **c'est un fonds
+de sciences humaines et d'histoire de la pensée** — Bourdieu, Durkheim,
+Malinowski, Popper, Ricardo, Say, Marx, Bergson, anthropologie, sociologie de la
+déviance, psychologie. **C'est le fonds de lecture du Livre 1 et du Livre 4, pas
+un fonds de sources pour les livres monétaires et méthodologiques.**
+
+**CONSÉQUENCE À ASSUMER POUR LA PASSE 1 : les dix livres restants seront écrits
+SANS BIBLIOTHÈQUE DE SOURCES.** Ils seront donc lourds en `::hypothese::` et en
+réserves déclarées. **Ce n'est pas un défaut de rigueur, c'est un état de
+fait qui doit être écrit dans chaque chapitre concerné.**
+
+## Ce que l'inventaire rattache, par matricule
+
+| Matricule | Fichiers | Lecture |
+|---|---|---|
+| **L10** monnaies, banques, banques centrales | **42** | le seul livre réellement doté |
+| **L3** dilemmes du système monétaire international | **14** | dont **deux textes sur le triangle de Mundell**, jamais ouverts alors que l'arbitrage A32 en dépend |
+| **L16** typologie des alternatives monétaires | **13** | dont **Irving Fisher, *100 % Money*** — deux exemplaires |
+| **L17** après la croissance | **11** | |
+| **L5** trajectoires et transitions | 5 | |
+| **L13** méthodes, données, simulateur | 5 | |
+| **L14** gouverner la preuve | 3 | dont **Popper, *The Logic of Scientific Discovery*** |
+| **L15** fraudes et corruptions | 3 | |
+| **L18** comptabilités écologiques | 3 | |
+| **L9** atlas comparé | 3 | |
+| **L12** ODD | 2 | |
+
+**RÉSERVE SUR LA MÉTHODE** : le classement porte sur **les noms de fichiers**,
+non sur leur contenu. Il indique où chercher, **il n'établit pas qu'une pièce
+serve** — ni qu'une pièce non classée ne serve pas.
+
+## Deux trouvailles qui valent d'être nommées
+
+**Popper, *The Logic of Scientific Discovery*.** Le corpus tient un protocole de
+falsification à huit falsifieurs **et n'a jamais confronté sa méthode au texte
+qui la fonde.** Ce n'est pas une citation manquante, **c'est un contrôle de la
+méthode qui n'a pas été fait.**
+
+**Irving Fisher, *100 % Money*.** Le précédent historique le plus proche d'une
+émission dissociée du crédit bancaire, et le corpus ne le tient nulle part.
+Destination L16, mais il touche P13 — l'objection routée au Livre 3.
+
+## Un texte de promotion, dépouillé froidement — ce qu'on en prend, ce qu'on laisse
+
+**`L'Impératif de Sortie des Systèmes à Devises Clés vers le Standard de Change
+NEMO.pdf`**, présent dans la bibliothèque. **L'auteur l'a qualifié le
+2026-09-07 : c'est de la rhétorique pour un texte de promotion**, et il a
+demandé qu'on en tire froidement ce qu'il y a de concret.
+
+**STATUT ARRÊTÉ** : le document parle de l'auteur à la troisième personne,
+conclut que « le monde n'a plus le choix » et que le standard NEMO « est la
+seule voie », **et ne porte aucune référence.** **AUCUNE DE SES AFFIRMATIONS
+N'EST REPRISE COMME FAIT.** Ses chiffres — indice dollar, or à 4 600 dollars
+l'once, dette mondiale au-delà de 240 000 milliards, inflation américaine,
+volume mBridge de 55,5 milliards, nomination de Kevin Warsh en mai 2026 —
+**sont non sourcés et ne sont pas employés.**
+
+**CE QU'IL POINTE ET QUI EXISTE — trois objets, versés comme PISTES À VÉRIFIER,
+non comme faits.**
+
+| | L'objet | Pourquoi il vaut d'être ouvert |
+|---|---|---|
+| **1** | **L'UNIT**, instrument de règlement numérique de gros du bloc BRICS+, « ancré par un panier composé à 40 % d'or physique et à 60 % de monnaies des membres », **non destiné à l'usage domestique** | **C'est l'analogue existant le plus proche du dispositif, et il diffère sur le point que le corpus tient pour décisif.** L1.C24 : « la capacité de règlement est le critère qui sépare un référentiel de comparaison d'une devise clé » — **l'UNIT RÈGLE.** Et le vocabulaire distingue le référentiel de change « d'un panier de devises, **dont la valeur dérive de ses composantes** » — **l'UNIT EST UN PANIER.** Un concurrent qui tranche dans l'autre sens sur les deux critères éclaire la conception du corpus par contraste. **Destination L3** |
+| **2** | **mBridge**, plateforme de règlement transfrontalier coordonnée par plusieurs banques centrales, sur monnaies numériques de banque centrale de gros et registres distribués | **Il sépare la question du RAIL de celle de l'UNITÉ.** Une infrastructure de règlement se construit sans créer de numéraire nouveau — ce que ni L1.C27 ni L7 n'ont envisagé. **Conséquence pour le seuil d'activation : une coalition peut commencer par un rail plutôt que par une monnaie.** **Destination L3 et L7** |
+| **3** | **La menace de droits de douane visant les États cherchant à s'affranchir du dollar** | **Le mécanisme, indépendamment de la véracité de l'épisode rapporté, est celui qui manquait à L1.C27 : l'émetteur en place PEUT TARIFER LA SORTIE.** Le seuil d'activation d'une coalition ne dépend donc pas seulement de son poids économique, **mais du coût que le sortant peut lui infliger.** C'est **F4 bis appliqué à l'adhésion et non à l'exploitation.** **Destination L3 et L5** |
+
+**CE QU'IL FAUT OUVRIR POUR LES TROIS** : les publications de la Banque des
+règlements internationaux sur mBridge ; toute documentation primaire sur
+l'UNIT — la composition du panier et le caractère « de gros » sont les deux
+points à vérifier en priorité ; et, pour le troisième, **aucune source n'est
+nécessaire au mécanisme**, seulement à l'épisode.
+
+**RÈGLE TIRÉE DE CE DÉPOUILLEMENT, et elle vaut pour les autres pièces du même
+genre.** **Un texte de promotion n'est pas sans valeur : il est sans autorité.**
+Ce qu'il nomme peut être ouvert ailleurs ; ce qu'il conclut ne s'emprunte pas.
+**Le tri se fait sur la nature de l'énoncé — un nom d'institution ou de
+dispositif est une adresse, une conclusion est un jugement.**
