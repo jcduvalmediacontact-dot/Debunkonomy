@@ -167,3 +167,15 @@ renvois: [L1.C20, L1.C27, L3.C05, L3.C09, L5.C01, L5.C02, L5.C03, L5.C04, L5.C05
 ::hypothese:: **La source décrit un mécanisme SANS DÉCIDEUR** : des portefeuilles qui se recouvrent, des pertes corrélées, des ventes simultanées. **La réaction d'un tel secteur à un déplacement de flux ne serait pas une opposition ; ce serait une PROPAGATION.** **Et l'on ne négocie pas avec une propagation.**
 
 ::etat:: **Trois précédents sont cités par la source** — turbulence de mars 2020, défaillance d'Archegos en 2021, dislocation du marché des obligations d'État britanniques en septembre 2022. **Le corpus les enregistre comme cas à ouvrir, et n'en tient aucun.**
+
+## BALAYAGE DU LIVRE 22, SIXIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C06, qui ouvre le règlement créant les deux indices de référence climatiques de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE TROISIÈME TERME DE L'OBJECTION EST VERSÉ, ET IL LA DÉPLACE ENTIÈREMENT** [L22.C06]. Ce chapitre demandait **qui réagirait** à un déplacement de flux ; L22.C01 a établi que **la réaction serait une propagation et non une opposition** ; **L22.C06 établit que, pour la part des encours qui suit un indice, LA DÉCISION D'ALLOCATION N'EST PRISE PAR PERSONNE — elle est APPLIQUÉE par une règle de sélection et de pondération.**
+
+::etat:: **Preuve par le droit** : **règlement (UE) 2019/2089**, dont les motifs énoncent que l'objectif est de « **RÉORIENTER LES FLUX DE CAPITAUX** » [cons. 6] et de « **CANALISER LES FLUX DE CAPITAUX** » [cons. 8], et que « **la qualité et l'intégrité des indices** [...] **influent sur le bon fonctionnement du marché intérieur** » [cons. 10]. **Un législateur qui veut réorienter des capitaux LÉGIFÈRE SUR LA RÈGLE DE COMPOSITION D'UN INDICE, et non sur le comportement des investisseurs.**
+
+::hypothese:: **UNE RÈGLE NE SE NÉGOCIE PAS : ELLE SE MODIFIE.** **Il n'y a personne à convaincre, et donc personne à affronter non plus.** L'objection « qui s'y opposera » devient « **qui écrit la règle et selon quelle procédure** » — question plus technique, plus lente, **et sans adversaire désigné**. **Cela déplace l'effort du dispositif d'un terrain où il est faible vers un terrain où il ne s'est jamais présenté.**
+
+::etat:: **MANQUE DÉCLARÉ : la PART des encours mondiaux effectivement allouée par une règle plutôt que par une décision n'est pas tenue**, et c'est elle qui décide de la portée du résultat.

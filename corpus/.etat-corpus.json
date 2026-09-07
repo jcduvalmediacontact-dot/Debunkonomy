@@ -492,7 +492,7 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L5.C09": {
-    "editoriale": "5007fed4e9877e5e",
+    "editoriale": "1699f158ed3297e1",
     "metadonnees": "ccf077c31c3793f1",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1080,7 +1080,7 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C13": {
-    "editoriale": "08a448406f897d13",
+    "editoriale": "d2b6eddf354de6d9",
     "metadonnees": "8037519e951d1068",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1194,7 +1194,7 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L14.C01": {
-    "editoriale": "3c0e34aaad0f464c",
+    "editoriale": "978197cc6ff753b1",
     "metadonnees": "9e2ce18cd13639dc",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1484,6 +1484,12 @@
   "L22.C05": {
     "editoriale": "db3d750b276f06f4",
     "metadonnees": "623c52418830cec7",
+    "revision_de_fond": "2026-09-07",
+    "qualification": "fond, déclarée le 2026-09-07"
+  },
+  "L22.C06": {
+    "editoriale": "ab302090de3d735c",
+    "metadonnees": "924bcd834f47212f",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
   },

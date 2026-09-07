@@ -53,3 +53,13 @@ renvois: []
 ::etat:: **Le matricule 14 est permanent.** Il ne se réattribue pas, ne s'insère pas et ne se renumérote pas, même si ce livre n'est jamais écrit (convention § 3).
 
 ::etat:: **Le registre n'est qu'une projection du plan directeur de l'auteur.** **En cas d'écart, le plan tranche et le registre est corrigé, jamais l'inverse.** Ce qui précède est donc rapporté sous réserve du plan.
+
+## BALAYAGE DU LIVRE 22, SIXIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C06, qui ouvre le règlement créant les deux indices de référence climatiques de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UNE TENSION EXACTEMENT DE CE LIVRE, POSÉE SUR UN OBJET PRIVÉ** [L22.C06]. **Règlement (UE) 2019/2089, annexe III** : l'administrateur d'un indice climatique de l'Union « **formalise, documente et REND PUBLIQUE toute méthodologie** » — liste des composantes, « **facteurs de sélection et de pondération** », **« critères appliqués pour EXCLURE des actifs ou des entreprises »**, trajectoire de décarbonation, type et source des données d'émissions.
+
+::hypothese:: **La même phrase réserve le secret d'affaires** : tout cela « **tout en garantissant la confidentialité et la protection des savoir-faire et des informations commerciales non divulgués** ». **LA RÈGLE QUI DÉCIDE DE L'ALLOCATION EST DONC PUBLIQUE DANS SON PRINCIPE ET PROTÉGÉE DANS SA PARTIE DÉCISIVE.**
+
+::etat:: **C'est la question de ce livre — gouverner la preuve — appliquée à un objet dont le détenteur est privé et dont l'effet est public.** **Le corpus enregistre que la publicité de méthode et la protection du savoir-faire coexistent ici dans UNE SEULE PHRASE, sans que le texte dise où passe la limite.**
