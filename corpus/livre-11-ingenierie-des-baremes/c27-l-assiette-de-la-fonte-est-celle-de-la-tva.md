@@ -108,3 +108,13 @@ renvois: [L1.C21, L1.C27, L2.C16, L11.C02, L11.C05, L11.C09, L11.C21, L11.C24, L
 ::hypothese:: **D'où le point le plus lourd : toute l'orientation de la production repose sur la pondération par l'empreinte cumulée, donc sur la MESURE.** Le dispositif ne peut pas être plus fiable que sa mesure d'empreinte, **et rien d'autre ne compense.**
 
 ::hypothese:: **Deux conséquences pour des chapitres écrits.** Le taux négatif **n'appartient à aucun régime fiscal que le corpus détienne** — instrument sans modèle. Et appliqué au national sans l'être à l'importation équivalente, **c'est une discrimination chiffrable** au regard des deux critères versés par le Livre 20.
+
+## BALAYAGE DU LIVRE 22 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 22, après établissement sur pièce du poids du secteur financier non bancaire.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'ASSIETTE ÉTABLIE ICI NE RATTRAPE PAS CE QUE LE NŒUD DES RÉSERVES LAISSE ÉCHAPPER** [L22.C01]. Ce chapitre établit que l'assiette de la fonte est celle de la taxe sur la valeur ajoutée, **c'est-à-dire la CONSOMMATION FINALE**.
+
+::hypothese:: **Les actifs financiers ne sont pas de la consommation finale.** **Un fonds qui accroît ses encours de dix milliards ne consomme rien au sens de cette assiette**, et n'entre ni dans celle-ci ni dans le nœud des réserves. **Le corpus enregistre une EXCLUSION DE PÉRIMÈTRE À DEUX VERROUS**, portant sur **256,8 milliers de milliards de dollars, soit 51,0 % des actifs financiers mondiaux** à fin 2024.
+
+::etat:: **Deux des trois instruments de reflux conçus par le corpus ne peuvent donc pas atteindre la moitié des actifs financiers mondiaux**, et **ni le livre ni le corpus ne l'avaient relevé.** **Un troisième instrument existe peut-être ; le corpus n'en tient aucun.**

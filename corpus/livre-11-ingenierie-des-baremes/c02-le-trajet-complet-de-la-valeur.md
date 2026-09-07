@@ -213,3 +213,15 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
 ::etat:: **La créance reste perpétuelle ; ce que la désignation ajoute est que LES TRANSFERTS DÉJÀ FAITS NE SE DÉFONT PAS.** **C'est peu, et c'est le minimum sans lequel aucune banque centrale n'entrerait** — sans désignation, une banque centrale ayant renvoyé des allocations vers un émetteur ensuite liquidé n'a aucune protection particulière contre le liquidateur.
 
 ::hypothese:: **Le dispositif a donc besoin de la désignation NON POUR SA PROPRE SÉCURITÉ, MAIS POUR ÊTRE ACCEPTABLE À SES CONTREPARTIES** — qui sont exactement les institutions qu'il doit convaincre d'adhérer.
+
+## BALAYAGE DU LIVRE 22 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 22, après établissement sur pièce du poids du secteur financier non bancaire.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE NŒUD DE PERCEPTION RETENU AU § 4 EXEMPTE PAR CONSTRUCTION LA MOITIÉ DU SYSTÈME FINANCIER** [L22.C01]. **Conseil de stabilité financière, exercice de suivi mondial 2025, données au 31 décembre 2024** : actifs financiers mondiaux **503,7** milliers de milliards de dollars, dont banques centrales **34,1**, banques **191,3**, institutions financières publiques **21,5**, **et SECTEUR NON BANCAIRE 256,8 — SOIT 51,0 %**, en croissance de 9,4 %, « **growing at DOUBLE THE PACE OF THE BANKING SECTOR** ».
+
+::hypothese:: **Ce § 4 retenait comme nœud le plus praticable les réserves bancaires déposées à la banque centrale.** **Or L21.C03 § 3 a établi que les banques centrales n'ouvrent pas de comptes aux entités non bancaires.** **UN PRÉLÈVEMENT SUR LES RÉSERVES EXEMPTE DONC TOUTE ENTITÉ SANS COMPTE DE BANQUE CENTRALE — c'est-à-dire les 256,8.** **Le nœud le plus praticable est celui qui laisse échapper la moitié du système financier.**
+
+::etat:: **Le corpus n'en tire pas un manque à percevoir chiffré** — il faudrait l'assiette effective, le taux et la part donnant lieu à fait générateur, et il n'a aucun des trois. **Il en tire une exclusion de périmètre établie.**
+
+::hypothese:: **CONTREPOIDS PORTÉ DANS LE MÊME MOUVEMENT.** **La fonte n'a jamais eu pour objet de taxer la finance** ; exempter les actifs financiers peut être une cohérence plutôt qu'une faille. **Mais alors le dispositif doit renoncer à l'argument du rééquilibrage entre la finance et l'économie réelle** [L1.C19] : **un instrument qui ne touche pas 51 % des actifs financiers ne rééquilibre rien de ce côté-là.**

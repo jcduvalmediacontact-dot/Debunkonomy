@@ -1751,9 +1751,9 @@ livres:
       - "discipline — gestion d'actifs, fonds de pension, assureurs, fonds souverains, fonds monétaires, fonds spéculatifs, capital-investissement, crédit privé"
       - "manque — le corpus raisonne sur les banques et les États, et n'a jamais instruit l'acteur qui détient environ la moitié des actifs financiers mondiaux"
       - "objection — L5.C09 : la protection de l'entrée expire quand la couche déplace des flux, et le corpus ne sait pas qui réagirait ni comment"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     architecture: >
       Périmètre proposé par l'auteur : gestion active, passive et indicielle ;
       séparation entre propriétaire économique et gestionnaire ; agences de
@@ -1779,6 +1779,41 @@ livres:
       de dollars fin 2024. Trois references d'entree nommees : FSB, suivi mondial
       2025 ; FSB, vulnerabilites du credit prive 2026 ; OCDE, Pension Markets in
       Focus 2025.
+      OUVERT LE 2026-09-07 PAR L22.C01, qui remplace l'amorce. LES ORDRES DE
+      GRANDEUR DE L'AUTEUR SONT ETABLIS SUR PIECE par le rapport de suivi
+      mondial 2025 du Conseil de stabilite financiere, telecharge et lu, donnees
+      au 31 decembre 2024 : ACTIFS FINANCIERS MONDIAUX 503,7 MILLIERS DE
+      MILLIARDS DE DOLLARS -- banques centrales 34,1 (6,8 %), banques 191,3
+      (38,0 %), institutions financieres publiques 21,5 (4,3 %), SECTEUR NON
+      BANCAIRE 256,8, SOIT 51,0 %, en croissance de 9,4 %, "growing at DOUBLE
+      THE PACE OF THE BANKING SECTOR". Mesure etroite 76,3, soit 15,4 %.
+      RESULTAT QUI JUSTIFIE LE LIVRE, ET IL EST DIRIGE CONTRE LE CORPUS
+      LUI-MEME. La source definit ce secteur NEGATIVEMENT -- "all financial
+      institutions that are NOT central banks, banks, or public financial
+      institutions". Or TOUS LES INSTRUMENTS QUE LE CORPUS A INSTRUITS
+      s'adressent aux trois categories exclues : Bale oblige les banques, les
+      PFMI les infrastructures, la prohibition du financement monetaire et le
+      Federal Reserve Act des banques centrales, la directive 98/26/CE des
+      systemes designes dont les participants sont par definition fermee des
+      etablissements de credit ou des organismes publics. AUCUN N'ATTEINT LE
+      SECTEUR QUI DETIENT 51 % DES ACTIFS FINANCIERS MONDIAUX. Le corpus a
+      oppose au dispositif, pendant vingt et un livres, des contraintes portant
+      sur MOINS DE LA MOITIE du systeme financier, sans jamais le dire.
+      CONSEQUENCE DE CONCEPTION, ET ELLE EST L'OBJECTION PRINCIPALE DU
+      CHAPITRE : le noeud de perception retenu en L11.C02 -- les reserves
+      deposees a la banque centrale -- EXEMPTE PAR CONSTRUCTION TOUTE ENTITE
+      SANS COMPTE DE BANQUE CENTRALE, et L11.C27 etablit que l'autre assiette
+      est la CONSOMMATION FINALE, dont les actifs financiers ne relevent pas.
+      EXCLUSION DE PERIMETRE A DEUX VERROUS. Contrepoids porte : la fonte n'a
+      jamais eu pour objet de taxer la finance -- mais alors le dispositif doit
+      renoncer a l'argument du reequilibrage entre finance et economie reelle.
+      CANAUX DE REACTION : la source decrit un mecanisme SANS DECIDEUR --
+      portefeuilles qui se recouvrent, pertes de valorisation correlees, ventes
+      simultanees. LA REACTION NE SERAIT PAS UNE OPPOSITION MAIS UNE
+      PROPAGATION, et l'on ne negocie pas avec une propagation. Correction de
+      L5.C09, qui demandait "qui reagirait".
+      REGLE DE TRAITEMENT DE L'AUTEUR TENUE : aucune firme n'est nommee ; la
+      concentration est rapportee dans les termes de la source.
 
   - livre: 23
     titre: "Fiscalité mondiale, finance offshore et opacité"

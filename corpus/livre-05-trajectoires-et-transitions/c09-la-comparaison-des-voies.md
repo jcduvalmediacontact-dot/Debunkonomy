@@ -155,3 +155,15 @@ renvois: [L1.C20, L1.C27, L3.C05, L3.C09, L5.C01, L5.C02, L5.C03, L5.C04, L5.C05
 ::hypothese:: **Le corpus enregistre que les deux mécanismes de croissance n'ont pas le même prix.** **Croître par PALIERS — principe 19, dont ce chapitre a fait le mécanisme d'entrée — est bon marché** : le participant indirect accède par un direct, sans base juridique nouvelle. **Croître par LIENS entre infrastructures exige une base juridique nouvelle dans toutes les juridictions du lien.**
 
 ::etat:: **S'y ajoute le principe 7** : ressources liquides « **in ALL relevant currencies** » pour régler le jour même. **L'exigence est CUMULATIVE : plus le réseau s'étend, plus les réserves à immobiliser croissent** — **l'extension augmente le coût de liquidité au lieu de le diluer.**
+
+## BALAYAGE DU LIVRE 22 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 22, après établissement sur pièce du poids du secteur financier non bancaire.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'OBJECTION QUE CE CHAPITRE POSAIT REÇOIT LA FORME DE SA RÉPONSE, ET LA QUESTION ÉTAIT MAL POSÉE** [L22.C01]. Ce chapitre demandait **qui réagirait** à un déplacement de flux, **comme si la réaction était une décision.**
+
+::etat:: **Conseil de stabilité financière, exercice de suivi mondial 2025** : les expositions communes exposent banques et non-banques à des « **CORRELATED VALUATION LOSSES and liquidity strains, potentially increasing the risk of SHOCK AMPLIFICATION across sectors and borders, IF INSTITUTIONS ARE SELLING ASSETS SIMULTANEOUSLY** ». Et l'interconnexion « **is often concentrated, with a small number of large NBFI counterparties and dealer banks dominating** », créant des « **critical nodes** ».
+
+::hypothese:: **La source décrit un mécanisme SANS DÉCIDEUR** : des portefeuilles qui se recouvrent, des pertes corrélées, des ventes simultanées. **La réaction d'un tel secteur à un déplacement de flux ne serait pas une opposition ; ce serait une PROPAGATION.** **Et l'on ne négocie pas avec une propagation.**
+
+::etat:: **Trois précédents sont cités par la source** — turbulence de mars 2020, défaillance d'Archegos en 2021, dislocation du marché des obligations d'État britanniques en septembre 2022. **Le corpus les enregistre comme cas à ouvrir, et n'en tient aucun.**
