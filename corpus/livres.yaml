@@ -1521,7 +1521,7 @@ livres:
       - "objection — L5.C09 : l'infrastructure fournit le rail de la séquence d'entrée, et le corpus ne sait pas où l'unité s'y logerait"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 1
+    chapitres_acquis: 2
     architecture: >
       Douze chapitres proposés par l'auteur : message, paiement, compensation et
       règlement comme quatre opérations distinctes ; monnaie de banque
@@ -1564,6 +1564,27 @@ livres:
       contrepartie homogene.
       RESERVE CENTRALE : la qualification de l'emetteur comme infrastructure
       n'est pas etablie, et tout le chapitre lui est conditionnel.
+      L21.C02 : trois principes de plus -- 7, 12 et 20 -- portant le total a
+      QUATORZE SUR VINGT-QUATRE. LE PRINCIPE 12 FRAPPE LE POINT FAIBLE : le
+      reglement definitif d'une obligation doit intervenir SI ET SEULEMENT SI
+      celui de l'obligation liee intervient aussi ; or L3.C09 etablit que
+      l'unite NE REGLE PAS, donc toute operation utile suppose un echange contre
+      une monnaie qui regle, ET CET ECHANGE DOIT ETRE CONDITIONNEL DANS LES DEUX
+      SENS. Le dispositif a besoin d'un MECANISME DE REGLEMENT CONTRE UNE AUTRE
+      VALEUR, objet distinct du rail, jamais nomme.
+      LE PRINCIPE 7 PRODUIT UNE CONSEQUENCE IRONIQUE : une infrastructure
+      transportant une unite non immediatement convertible devrait detenir des
+      liquidites DANS LES MONNAIES MEMES QUE LE DISPOSITIF ENTEND CONCURRENCER,
+      et l'exigence est CUMULATIVE -- l'extension du reseau AUGMENTE le cout de
+      liquidite au lieu de le diluer.
+      LE PRINCIPE 20 REND LA CONTRAINTE JURIDIQUE MULTIPLICATIVE : croitre par
+      PALIERS est bon marche, croitre par LIENS exige une base juridique
+      nouvelle dans toutes les juridictions du lien.
+      POINT FAVORABLE PORTE : ces trois exigences portent sur LES CONDITIONS DE
+      CIRCULATION et non sur la conception de l'unite -- aucune ne demande ce
+      qu'elle vaut ni ce qui la gage. Ce sont des exigences d'exploitation, ET
+      ELLES S'ACHETENT. A compter comme un COUT, non comme un obstacle -- mais
+      le corpus n'en a chiffre aucun.
 
   - livre: 22
     titre: "Le pouvoir de la finance non bancaire"

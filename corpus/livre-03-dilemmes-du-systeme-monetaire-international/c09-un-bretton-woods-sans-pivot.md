@@ -121,3 +121,13 @@ renvois: [L1.C24, L1.C25, L1.C26, L3.C02, L3.C03, L3.C04, L3.C06, L3.C07, L11.C0
 ::etat:: **Troisième occurrence — F6 ne se lève pas** [L5.C10]. **Aucun des quatre chemins d'entrée n'identifie de mécanisme rendant coûteuse la position du créancier dominant**, pour la même raison : une couche qui ne retire rien à personne ne rend coûteuse la position de personne.
 
 ::hypothese:: **Le corpus enregistre que ces trois résultats sont un seul fait vu trois fois, et que le périmètre étroit établi ici en est la cause commune.** **Il est un coût en régime permanent, un avantage à l'entrée, et le motif pour lequel la seconde branche de F6 tient intacte.**
+
+## BALAYAGE DU LIVRE 21, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après instruction des principes 7, 12 et 20 du standard des infrastructures de marché.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le résultat de ce chapitre — l'unité NE RÈGLE PAS et le dispositif s'ajoute — rencontre un principe qui en tire une exigence** [L21.C02]. **PFMI, principe 12** : une infrastructure réglant des échanges de valeur doit « **eliminate principal risk** by ensuring that the final settlement of one obligation occurs **IF AND ONLY IF** the final settlement of the linked obligation also occurs ».
+
+::hypothese:: **Si l'unité ne règle pas, toute opération utile suppose à un moment UN ÉCHANGE CONTRE UNE MONNAIE QUI RÈGLE.** **Et cet échange doit être conditionnel DANS LES DEUX SENS, techniquement et simultanément** — livrer sans recevoir expose au risque en principal, c'est-à-dire à la perte du montant entier.
+
+::etat:: **Le dispositif a donc besoin d'un MÉCANISME DE RÈGLEMENT CONTRE UNE AUTRE VALEUR, objet distinct du rail, et le corpus ne l'a jamais nommé.**

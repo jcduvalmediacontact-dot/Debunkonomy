@@ -145,3 +145,13 @@ renvois: [L1.C20, L1.C27, L3.C05, L3.C09, L5.C01, L5.C02, L5.C03, L5.C04, L5.C05
 ::hypothese:: **La grille ne pose pas la question qui domine les trois autres.** Ses trois questions portent sur l'adoption, aucune sur ce qui est adopté. **Le principe 9 subordonne le tout à la contrepartie comptable de l'unité** — arbitrée le 2026-09-07, non close. **Quatre voies ont été instruites vers une destination dont la qualification n'est pas arrêtée.**
 
 ::etat:: **La contrainte arrêtée par l'auteur exigeait des probabilités et des coûts humains. Aucun chapitre du livre n'en produit.** **Le corpus l'enregistre comme un manquement et non comme une réserve** : les coûts d'échec comparés sont institutionnels et financiers, **la voie régionale est la seule des quatre où l'échec atteint des habitants plutôt que des promoteurs**, et **l'omission joue dans un sens — elle rend la comparaison plus favorable que la comparaison due.**
+
+## BALAYAGE DU LIVRE 21, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après instruction des principes 7, 12 et 20 du standard des infrastructures de marché.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La séquence d'entrée reçoit un coût d'extension que ce chapitre n'avait pas** [L21.C02]. **PFMI, principe 20** : tout lien entre infrastructures exige « **a well-founded legal basis, IN ALL RELEVANT JURISDICTIONS** » — **c'est le principe 1 reproduit à chaque connexion.**
+
+::hypothese:: **Le corpus enregistre que les deux mécanismes de croissance n'ont pas le même prix.** **Croître par PALIERS — principe 19, dont ce chapitre a fait le mécanisme d'entrée — est bon marché** : le participant indirect accède par un direct, sans base juridique nouvelle. **Croître par LIENS entre infrastructures exige une base juridique nouvelle dans toutes les juridictions du lien.**
+
+::etat:: **S'y ajoute le principe 7** : ressources liquides « **in ALL relevant currencies** » pour régler le jour même. **L'exigence est CUMULATIVE : plus le réseau s'étend, plus les réserves à immobiliser croissent** — **l'extension augmente le coût de liquidité au lieu de le diluer.**
