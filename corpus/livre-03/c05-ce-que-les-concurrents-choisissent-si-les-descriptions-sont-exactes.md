@@ -110,3 +110,15 @@ renvois: [L1.C24, L1.C26, L1.C27, L3.C01, L3.C02, L3.C04, L7.C12]
 ::hypothese:: **D'où une question stratégique jamais posée : une unité peut-elle circuler sur une infrastructure qu'elle n'a pas construite ?** Deux voies s'ouvrent — construire le rail d'abord, ou emprunter un rail existant **et se placer sous la gouvernance de ceux qui l'ont bâti.** **Le corpus les pose et n'en instruit aucune : c'est matière du Livre 5.**
 
 ::etat:: **Aucun volume n'est tenu** — ni transactions, ni montants, ni participants. **Le corpus ne peut donc pas dire si ces objets sont des dispositifs opérants ou des annonces.**
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La séparation du rail et de l'unité reçoit son prix, mesuré sur source normative** [L5.C02] [L5.C09]. **Principe 1 des *Principles for financial market infrastructures*** : l'infrastructure doit disposer d'une base juridique « well-founded, clear, transparent, and enforceable [...] **IN ALL RELEVANT JURISDICTIONS** ».
+
+::hypothese:: **Le corpus enregistre que l'avantage énoncé ici se réduit sans disparaître.** « Une monnaie doit être acceptée pour valoir, un rail doit seulement être joignable » — **mais joignable est binaire par juridiction, là où l'acceptation d'une monnaie est graduelle et réversible.** **La géographie de l'entrée est celle des droits, non celle des intérêts.**
+
+::etat:: **Un mécanisme de croissance s'ajoute, tiré du principe 19** : la **participation en paliers** — des participants directs peu nombreux, des participants indirects qui accèdent par les premiers. **Le premier entrant n'a pas besoin d'entraîner tout le monde : il a besoin d'être joignable par ceux qui viendront ensuite.**
+
+::hypothese:: **Et L5.C09 a tiré de ce chapitre une attribution qu'il ne portait pas** : dans la séquence d'entrée, **l'infrastructure fournit le rail, la coalition fournit l'émission, la région fournit le périmètre de vérification.** **Ces trois voies ne sont pas des alternatives.**

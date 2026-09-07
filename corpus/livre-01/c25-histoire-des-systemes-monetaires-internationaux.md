@@ -239,3 +239,15 @@ renvois: [L1.C05, L1.C08, L1.C09, L1.C19, L1.C20, L1.C22, L1.C23, L1.C24]
 ::etat:: **ET LA SOURCE SIGNALE UNE LACUNE DU CORPUS** : elle écrit que 1944 instaure **« un SECOND étalon de change-or »**. **Le corpus ne tient rien du premier**, et c'est le périmètre historique antérieur que le plan directeur demandait de préciser.
 
 ::hypothese:: **La fenêtre de réforme trouve enfin son application, et elle est défavorable** [L3.C04]. Ce chapitre pose que l'issue « dépend de la position des créanciers au moment où elle s'ouvre plutôt que de la qualité des projets disponibles ». **Les créanciers, au moment où le nouveau dilemme de Triffin mordrait, seront les émetteurs des autres monnaies nationales** — ceux que la solution multipolaire sert directement. **La fenêtre attendue n'est pas celle du dispositif.**
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Ce que ce chapitre établit sert de première branche à F6, et le Livre 5 en déplace le test sans le passer** [L5.C10]. **Les trois épisodes tenus ici — 1871, 1944, 1971 — portent tous sur une SUBSTITUTION**, un régime qui en remplace un autre.
+
+::etat:: **Or L3.C09 a établi que le dispositif ne remplace pas le système existant : il s'y ajoute.** **La première branche de F6 cesse donc d'être le test approprié**, et le Livre 5 l'enregistre.
+
+::hypothese:: **Le corpus enregistre que l'échange est défavorable et refuse de le compter comme un gain.** **Il troque un précédent défavorable contre une absence de précédent** : aucun cas d'adoption d'une **couche monétaire additionnelle** n'est instruit — ni comment une telle couche s'installe, ni si un créancier dominant la combat ou l'ignore. **« Ce test ne s'applique pas » n'est pas « ce test est passé ».**
+
+::etat:: **Recherche à conduire en passe 2, et elle est nommée** : un cas historique d'installation d'une couche monétaire s'ajoutant à un système qui continue, avec la réaction de l'émetteur dominant du moment. **Le corpus n'en tient aucun.**

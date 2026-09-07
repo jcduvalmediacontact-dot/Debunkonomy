@@ -1349,6 +1349,58 @@ d'appui, non un plaidoyer — et le corpus tient à la distinction.
 London Business School. Le corpus en tient désormais **la thèse restituée et
 attribuée par ses auteurs**, non le texte.
 
+### BALAYAGE DU LIVRE 5, 2026-09-07 — F6 EST DÉPLACÉE SUR UNE BRANCHE, INTACTE SUR L'AUTRE
+
+**Le Livre 5 est le livre de l'adoption ; F6 est la condition qui porte sur
+elle. La passe 1 du livre est close à dix chapitres, et voici ce qu'elle rend à
+cette condition.** Le résultat est en L5.C10.
+
+**PREMIÈRE BRANCHE — DÉPLACÉE, ET LE CORPUS REFUSE DE COMPTER LE DÉPLACEMENT
+COMME UN GAIN.** Les trois épisodes tenus par L1.C25 — 1871, 1944, 1971 —
+portent tous sur une **substitution** : un régime qui en remplace un autre. Or
+L3.C09 a établi que le dispositif **ne remplace pas le système existant, il s'y
+ajoute**. La branche cesse donc d'être le test approprié. **Mais l'échange est
+défavorable : le corpus troque un précédent défavorable contre une absence de
+précédent**, aucun cas d'adoption d'une **couche monétaire additionnelle**
+n'étant instruit. **« Ce test ne s'applique pas » n'est pas « ce test est
+passé ».**
+
+**SECONDE BRANCHE — INTACTE, ET LE LIVRE 5 EN A FOURNI LE MOTIF AU LIEU DE LA
+CONTREDIRE.** La branche demande qu'un mécanisme soit identifié par lequel la
+position du créancier dominant lui deviendrait assez coûteuse pour qu'il s'en
+retire. **Aucun des quatre chemins d'entrée instruits n'en identifie un**, et
+la raison n'est pas une lacune de l'instruction : **c'est la conséquence de la
+meilleure trouvaille du livre.** L5.C03 a établi que l'adhésion ne demande de
+renoncer à rien, d'où la disparition du fait générateur de la menace tarifaire
+— **avantage d'entrée réel.** Mais **une couche qui ne retire rien à personne
+ne rend coûteuse la position de personne.** **La propriété qui protège l'entrée
+est exactement celle qui épargne le créancier.**
+
+**OÙ SE TROUVE LA SORTIE, ET POURQUOI LE CORPUS NE PEUT PAS L'EMPRUNTER.** Elle
+est dans la **seconde phase** — celle où la couche épaissit et où l'adhésion
+commence à déplacer des flux. **C'est là, et seulement là, que la position du
+créancier pourrait devenir coûteuse**, puisque ce jour-là la sortie existe et
+devient tarifable. **Aucun chapitre du corpus ne décrit cette phase** : ni ce
+que l'émetteur en place peut alors faire, ni ce que cela lui coûte, ni à quel
+niveau de pénétration le basculement se produit. L20.C13 tient les portes du
+dispositif — entrée en vigueur, adhésion, retrait — **non la réaction de ce qui
+l'entoure.**
+
+**ÉTAT DE F6 AU 2026-09-07, APRÈS LE LIVRE 5.** La condition d'échec **n'est pas
+remplie**, puisqu'elle exige la conjonction des deux branches et que la première
+n'est plus le bon test. **Elle n'est pas non plus levée**, et le corpus qualifie
+l'objection : **DÉPLACÉE sur la première branche, NON TRAITÉE sur la seconde —
+écartée sur aucune.** Le gain du livre est ailleurs, et il est réel : **il a
+converti « aucune voie » en « quatre voies, dont une dominée et trois
+composables ».**
+
+**DEUX ACQUISITIONS QUE CE RÉSULTAT REND PRIORITAIRES.** **(1)** Un cas
+historique d'installation d'une **couche monétaire s'ajoutant** à un système
+qui continue, avec la réaction de l'émetteur dominant du moment — le corpus
+n'en tient aucun, et c'est désormais le manque décisif de F6. **(2)** De quoi
+écrire la seconde phase : ce que l'émetteur en place fait à une couche qui
+grandit, et à quel coût pour lui.
+
 ## F7 — Le pilotage
 
 **ÉLARGI le 2026-09-05, après L11.C10.** F7 a été écrit pour porter sur le MODE
@@ -1767,6 +1819,54 @@ article — le registre du Livre 6 le déclare. **Les quatre limites sont connue
 par leur restitution, non par leur rédaction**, et une clause de sauvegarde se
 juge sur ses mots. F8 est posé sur cette base et **doit être repesé après lecture
 du texte**, qui est public et gratuit.
+
+### ÉLARGISSEMENT DU 2026-09-07, PAR LE LIVRE 5 — F8 PORTE SUR UN SECOND OBJET
+
+**F8 a été posé pour les barèmes.** Le Livre 5 a rencontré le même mécanisme sur
+un objet que le test ne visait pas : **la base juridique d'une infrastructure.**
+Le résultat est en L5.C09 § 3, et l'élargissement est proposé en L5.C10 § 4.
+
+**LE FAIT GÉNÉRATEUR.** Le principe 1 des *Principles for financial market
+infrastructures* (BRI–OICV, avril 2012) exige de l'infrastructure une base
+juridique « well-founded, clear, transparent, and enforceable [...] **in all
+relevant jurisdictions** ». Cette opposabilité s'obtient de deux manières :
+**par un instrument multilatéral, ou par autant de procédures internes que de
+juridictions concernées.** Le corpus ne sait pas laquelle coûte le moins.
+
+**LE PREMIER CHEMIN HÉRITE DU MODE D'ÉCHEC DE LA VOIE MULTILATÉRALE**, établi
+en L5.C04 : l'adversaire ne s'oppose pas au texte, **il en négocie les remèdes.**
+Appliqué à une base juridique d'infrastructure, cela donne un texte qui
+reconnaît le rail et lui retire ses remèdes — **un rail qui paraît opposable
+et ne l'est pas.** Les trois étages s'y transposent sans forcer : champ défini
+par conditions cumulatives, aucune autorité tenue de vérifier la conformité
+d'une juridiction, aucune conséquence attachée au manquement.
+
+**POURQUOI LE TROISIÈME ÉTAGE EST PLUS DANGEREUX ICI QUE SUR UN BARÈME — un
+rail est un investissement.** **Une base juridique refusée arrête la dépense ;
+une base juridique désarmée l'autorise**, et ne se découvre qu'au premier
+litige, **c'est-à-dire une fois le capital engagé.** **C'est le pire cas parce
+qu'il est indiscernable du bon**, et L6.C09 avait déjà établi qu'une obligation
+privée de remèdes produit le même résultat que son absence — avec, en plus, la
+croyance qu'elle existe.
+
+**LA PARADE EST DU CÔTÉ DU SECOND CHEMIN, ET LE CORPUS NE PEUT PAS LA CHIFFRER.**
+Une opposabilité acquise juridiction par juridiction **échoue de façon visible** :
+une juridiction manquante se constate, là où un remède désarmé ne se découvre
+qu'à l'usage. **Plus lente, certainement plus lisible.** Ni sa durée ni son
+coût ne sont instruits.
+
+**LE TEST DE F8 EST DONC OPPOSABLE À DEUX FAMILLES D'OBJETS** : **(a)** les
+barèmes et qualifications du dispositif, formulation d'origine ; **(b)** **tout
+instrument dont le dispositif tire son opposabilité** — base juridique d'une
+infrastructure, reconnaissance d'une unité, statut d'un participant. **La
+seconde famille n'avait pas été vue, et elle est celle où le désarmement coûte
+du capital avant d'être détecté.**
+
+**RÉSERVE.** Les *Principles for financial market infrastructures* ont été
+ouverts et sept principes sur vingt-quatre sont instruits. **L'élargissement
+repose sur le principe 1 lu dans son texte** ; les modalités d'obtention de
+l'opposabilité, elles, **ne sont étayées par aucune source** — c'est une
+déduction du corpus.
 
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.

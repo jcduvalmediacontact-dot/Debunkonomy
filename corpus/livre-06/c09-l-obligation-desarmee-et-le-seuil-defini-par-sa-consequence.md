@@ -161,3 +161,15 @@ renvois: [L1.C18, L6.C01, L6.C02, L6.C06, L6.C08, L11.C16, L11.C24, L11.C29, L20
 ::etat:: **L'exécution est demeurée longtemps incomplète, et c'est le troisième cas du livre.** **L'objet manquant est le même que dans le premier : la délimitation foncière.** Un droit sur un territoire sans limites tracées n'a pas d'assiette, **et aucune juridiction ne trace de limites à la place d'un État.**
 
 ::etat:: **Ni le traité ni les deux arrêts n'ont été lus dans leur texte**, et **aucun chiffre n'est tenu** — ni brevets concernés, ni projets soumis à consentement. **La discipline des cinq données de L6.C02 n'est satisfaite par aucun des deux régimes.**
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le désarmement instruit ici s'applique à un second objet, découvert par le Livre 5** [L5.C09] [L5.C10]. **F8 a été posé le 2026-09-07 pour les barèmes** ; le Livre 5 l'a rencontré sur **la base juridique d'une infrastructure.**
+
+::etat:: **Le principe 1 des *Principles for financial market infrastructures* exige une base juridique opposable « in all relevant jurisdictions ».** **Obtenue par un instrument désarmé, elle produit un rail qui paraît opposable et ne l'est pas** — les trois étages s'y transposent : champ défini par conditions cumulatives, aucune autorité tenue de vérifier, aucune conséquence attachée au manquement.
+
+::hypothese:: **Le corpus enregistre que le troisième étage y est plus dangereux qu'ailleurs, parce qu'un rail est un investissement.** **Une base juridique refusée arrête la dépense ; une base juridique désarmée l'autorise**, et ne se découvre qu'au premier litige — **une fois le capital engagé.** **C'est le pire cas parce qu'il est indiscernable du bon.**
+
+::hypothese:: **Une parade existe, du côté de l'autre chemin, et le corpus ne peut pas la chiffrer.** Une opposabilité acquise **juridiction par juridiction échoue de façon visible** : une juridiction manquante se constate. **Plus lente, certainement plus lisible** — mais ni sa durée ni son coût ne sont instruits.

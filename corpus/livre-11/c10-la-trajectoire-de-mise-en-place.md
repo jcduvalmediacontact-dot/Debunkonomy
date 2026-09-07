@@ -236,3 +236,17 @@ renvois: [L1.C21, L1.C23, L1.C27, L11.C03, L11.C05, L11.C06, L11.C09]
 ::hypothese:: **Et elle se paie.** Elle est imprévisible là où l'investissement veut de la prévisibilité ; elle déplace la question de gouvernance de la date vers le constat ; et **une trajectoire longue profite d'abord à qui peut investir pendant qu'elle court.** La durée seule ne rend pas la progressivité équitable. Arbitrage A15.
 
 ::etat:: **Trois des cinq sources de ce chapitre ne sont pas ouvertes, et ce sont les trois qui portent son argument.** Lucas, Kydland-Prescott et Friedman en sont à leur troisième emploi sans lecture. Ils sont libres. Le corpus considère désormais leur acquisition comme la plus rentable du dossier après l'arrêt de 2022.
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **La sortie retenue par l'auteur le 2026-09-05 est la troisième occurrence d'une même figure, et le corpus l'enregistre comme un patron** [L5.C08]. **Indexer une obligation sur un état observable plutôt que sur une date évite d'avoir à choisir entre l'échéance intenable et le report négocié.**
+
+::etat:: **Les trois occurrences.** Ici, la montée du taux indexée sur **la disponibilité effective du substitut**. **L6.C07** : un bail côtier dont la durée est fonction de **l'état des connaissances sur le recul du trait de côte**. **L3.C07** : le rachat de l'article V **indexé sur la reconstitution des réserves du débiteur.**
+
+::hypothese:: **Le coût nommé dans ce chapitre est structurel et non paramétrique, et le Livre 5 le confirme** [L5.C08]. **Ce n'est pas un réglage trop prudent : c'est la conséquence exacte de l'indexation.** Une règle qui suit la technique ne la force pas — **ce qui la rend crédible, et inopérante là où la technique ne bouge pas.**
+
+::hypothese:: **Et la réparation proposée ici — émettre là où le reflux ne mord pas — transforme le problème plutôt qu'elle ne le résout** [L5.C08]. **Un secteur sans substitut n'a pas besoin d'un financement pour changer : il a besoin d'un substitut à financer.** **La question se déplace vers la recherche et vers des délais que le dispositif ne contrôle pas.**
+
+::etat:: **Deux contraintes établies ailleurs frappent ici et n'y avaient jamais été rapportées** [L5.C08]. **L6.C08** : le droit minier **détache le sous-sol du sol**, de sorte qu'un barème adossé à la propriété **n'atteint pas l'extraction.** **Arbitrage A34** : le barème **exclut ceux qui ne peuvent pas payer, là où le signal doit être le plus fort.**

@@ -107,3 +107,17 @@ renvois: [L1.C24, L1.C25, L1.C26, L3.C02, L3.C03, L3.C04, L3.C06, L3.C07, L11.C0
 ::hypothese:: **D'où ce que le corpus n'avait jamais écrit : LE DISPOSITIF NE REMPLACE PAS LE SYSTÈME EXISTANT, IL S'Y AJOUTE.** Il fournirait un pivot de conversion et un régime de qualification ; **il ne fournirait pas ce dont les banques centrales se servent quand elles ont peur.**
 
 ::etat:: **Triffin 1961 n'est pas ouvert**, et affirmer qu'on désamorce un mécanisme suppose d'en tenir l'énoncé. **Aucune donnée sur la composition des réserves mondiales n'est tenue**, et le corpus n'a pas instruit ce qui fait qu'un actif devient un actif de réserve.
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Le résultat de ce chapitre est d'une portée plus large que celle qui lui était attribuée, et le Livre 5 l'a rencontré trois fois** [L5.C03] [L5.C09] [L5.C10]. « Le dispositif ne remplace pas le système existant : il s'y ajoute » **commande toute l'analyse de l'adoption.**
+
+::etat:: **Première occurrence — avantage à l'entrée** [L5.C03]. L'adhésion ne demandant de renoncer à rien, **la menace tarifaire perd son fait générateur** : il n'y a pas de sortie à tarifer.
+
+::etat:: **Deuxième occurrence — absence de bénéfice à l'entrée** [L5.C03]. Une adhésion qui ne retire rien **ne rapporte rien tant que la couche est mince.**
+
+::etat:: **Troisième occurrence — F6 ne se lève pas** [L5.C10]. **Aucun des quatre chemins d'entrée n'identifie de mécanisme rendant coûteuse la position du créancier dominant**, pour la même raison : une couche qui ne retire rien à personne ne rend coûteuse la position de personne.
+
+::hypothese:: **Le corpus enregistre que ces trois résultats sont un seul fait vu trois fois, et que le périmètre étroit établi ici en est la cause commune.** **Il est un coût en régime permanent, un avantage à l'entrée, et le motif pour lequel la seconde branche de F6 tient intacte.**

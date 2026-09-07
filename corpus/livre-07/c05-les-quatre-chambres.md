@@ -132,3 +132,15 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L7.C04, L11.C11, L11.C13, L11.
 ::hypothese:: **Le dispositif doit donc dire qui fournit la liquidité à un membre en difficulté, sur quelles conditions, et qui décide.** **L1.C23 rappelle que la robustesse est l'absorption de perturbations NON ANTICIPÉES** : la réponse ne peut donc pas être une liste de cas prévus.
 
 ::etat:: **Un précédent complet existe et il a été ouvert** [L3.C07] : article V des statuts du Fonds de 1944. **Il ne prête pas, il échange** ; il borne l'exposition par deux nombres — vingt-cinq pour cent du quota par an, deux cents pour cent au total ; **il déclenche sur déclaration et contrôle après** ; il gradue la sanction en quatre degrés ; **et il dénoue sur la reconstitution des réserves du débiteur, non sur une date.**
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Une distinction que le Livre 5 a dû faire pour lever une contradiction interne du corpus, et elle porte sur la répartition des compétences** [L5.C05]. **FIXER une valeur reste central ; VÉRIFIER qu'elle est appliquée gagne à être régional.**
+
+::etat:: **Le motif est tiré du trilemme, énoncé pour un État** : le contrôle des capitaux n'est pas un choix de conception de l'institution mais **une obligation pesant sur chaque membre, laquelle se vérifie chez lui et non au centre.** **Une région est le niveau où cette vérification est possible, parce que les voisins en subissent les effets.**
+
+::etat:: **Cela s'accorde avec L6.C08** : l'échelon local peut **constater et administrer**, il ne peut pas **créer le titre.** **Déduction du corpus, appuyée par aucune source.**
+
+::hypothese:: **Conséquence pour ce chapitre, non instruite ici.** **Si la vérification est régionale, la structure des chambres n'épuise pas la question de la compétence** : il manque un échelon qui ne délibère pas mais constate. **Le corpus n'a pas décidé si cet échelon est une chambre, un organe subordonné, ou une fonction déléguée aux membres.**

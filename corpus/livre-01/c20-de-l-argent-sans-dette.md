@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -339,3 +339,13 @@ Le chapitre ne décrit ni les taux, ni les assiettes, ni le calibrage de la dest
 ::etat:: Il a établi aussi ce qui n'est pas résolu. La contrepartie comptable reçoit un traitement plus honnête que celui qu'il remplace — une réduction transitoire des fonds propres plutôt qu'un actif inventé — mais ses deux appuis théoriques ont une portée moindre qu'annoncé : la monnaie créée par une autorité publique conserve, dans la littérature invoquée, une contrepartie à l'actif, et la tolérance aux fonds propres négatifs est conditionnée à des revenus futurs ou à une garantie de recapitalisation qu'une émission sans dette ne produit pas d'elle-même. Le mécanisme qui reconstitue ces fonds propres n'est pas spécifié, et sa spécification engage la nature juridique du reflux. L'écriture au passif suppose un accès au bilan de la banque centrale que le droit monétaire ne prévoit pas pour un bénéficiaire non bancaire. Trois objections restent ouvertes : l'indicateur pris pour cible, la distorsion des prix relatifs, la contrainte extérieure.
 
 ::hypothese:: Tout converge donc vers le même point, et c'est le troisième chapitre consécutif à y converger : la proposition tient ou tombe sur le mécanisme de destruction. Le chapitre suivant l'expose.
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Un standard normatif pose une exigence sur l'unité, et le corpus ne la tenait pas** [L5.C02] [L5.C09]. **Principe 9 des *Principles for financial market infrastructures* (BRI–OICV, avril 2012)** : une infrastructure « should conduct its money settlements **in central bank money where practical and available** » ; à défaut, l'actif de règlement doit présenter « **little or no credit or liquidity risk** ».
+
+::etat:: **Conséquence pour ce chapitre.** Une unité sans dette n'a pas seulement à être concevable : **pour circuler sur une infrastructure conforme, elle doit satisfaire un test de risque de crédit et de liquidité portant sur sa contrepartie.** **Le test est extérieur au corpus et il est écrit.**
+
+::hypothese:: **Le corpus enregistre que ce test n'est pas tranché par l'arbitrage A30.** Celui-ci a fixé la contrepartie — dette collective, reflux collectif — **sans dire si elle satisfait « little or no credit or liquidity risk »**, question de fait et non de conception. **L5.C09 en a tiré que la comparaison des voies d'entrée est subordonnée à cette qualification**, une voie pouvant être parcourue jusqu'au bout et livrer un rail qui transporte la monnaie des autres.

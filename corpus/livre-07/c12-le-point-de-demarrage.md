@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -122,3 +122,15 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L11.C0
 ::hypothese:: **Aucune des trois formes de financement d'amorçage n'est neutre.** La souscription installe une clé fondée sur l'apport, **qui contredit la règle de vote du livre** — et personne n'avait vu que les deux se contraignent. L'émission d'amorçage **rouvre P55 pour toute la durée du démarrage**. La dotation d'un tiers concentre le risque au pire endroit.
 
 ::etat:: **Le chapitre demande une chose : que la phase de démarrage ait sa propre règle**, avec un financeur identifié, une contribution plafonnée et des droits éteints à une date fixée d'avance.
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le mécanisme que ce chapitre cherchait est trouvé, et il vient d'un standard normatif** [L5.C02] [L5.C09]. **Principe 19 des *Principles for financial market infrastructures*** : l'infrastructure « should identify, monitor, and manage the material risks [...] arising from **tiered participation arrangements** ».
+
+::etat:: **La première marche est donc la participation en paliers.** Des participants **directs**, peu nombreux et exposés aux exigences ; des participants **indirects**, qui accèdent par les premiers.
+
+::hypothese:: **Et le premier entrant obtient quelque chose, ce qui n'est le cas dans aucune autre voie** : **une position d'intermédiaire**, les suivants passant par lui. **Gain réel et indépendant du succès du dispositif** — **seule voie examinée par le Livre 5 qui en offre un.**
+
+::etat:: **Trois limites accompagnent l'apport.** **Le principe 19 exige en contrepartie la gestion des risques nés des paliers**, et le corpus n'a instruit ni le principe 4 sur le risque de crédit, ni le 7 sur la liquidité, ni le 13 sur la défaillance d'un participant. **Le seuil d'activation est un solde et non une somme** [L5.C01]. **Et l'échec de cette voie coûte à des tiers** : une infrastructure qui défaille est un incident systémique, ce qui ne lui donne pas le même statut politique qu'une voie dont l'échec ne coûte qu'à ses promoteurs.

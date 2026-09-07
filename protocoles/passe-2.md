@@ -3215,3 +3215,45 @@ qu'il a révélé** : les couplages tenaient déjà tout — le retard n'était 
 la découverte mais dans le portage. **La leçon pour les onze livres à venir est
 que le portage doit suivre la clôture immédiatement**, faute de quoi il devient
 un chantier au lieu d'être une écriture.
+
+## Balayage rétrospectif de la passe 1 du Livre 5 — exécuté le 2026-09-07
+
+**LA RÈGLE ACQUISE À LA CLÔTURE DU LIVRE 6 EST APPLIQUÉE** : le portage suit la
+clôture immédiatement. **Aucune dette de balayage n'est ouverte cette fois.**
+
+**DIX CHAPITRES ANNOTÉS**, hors Livre 5, chacun recevant ce que la passe 1 du
+Livre 5 lui rend. Chaque annotation porte l'en-tête « BALAYAGE DU LIVRE 5 » et
+déclare que **ce qui est versé n'a pas été instruit dans le chapitre d'accueil
+et ne modifie pas ce qui précède** : c'est un dépôt pour la passe 2.
+
+| Chapitre | Ce qu'il reçoit |
+|---|---|
+| **L1.C20** | **un test normatif extérieur sur l'unité** — principe 9, « little or no credit or liquidity risk » ; **A30 a fixé la contrepartie sans dire si elle le satisfait** |
+| **L1.C25** | **ses trois épisodes portent sur une SUBSTITUTION**, le dispositif s'ajoute ; la première branche de F6 est déplacée — **contre une absence de précédent** |
+| **L1.C27** | **le seuil est un solde, pas une somme** ; et **les trois leviers de club opèrent par soustraction**, ce qui ne vaut plus quand le dispositif s'ajoute ; la densité du commerce interne est un paramètre du seuil |
+| **L3.C05** | **le prix de « joignable »** — opposabilité binaire par juridiction ; **la participation en paliers** ; et les trois voies ne sont pas des alternatives mais des pièces |
+| **L3.C09** | **son résultat commande toute l'analyse de l'adoption** — avantage d'entrée, absence de bénéfice, **et motif pour lequel la seconde branche de F6 tient** : un seul fait vu trois fois |
+| **L6.C09** | **F8 s'applique à un second objet : la base juridique d'un rail** — une base désarmée **autorise la dépense** au lieu de l'arrêter |
+| **L7.C05** | **fixer reste central, vérifier gagne à être régional** — il manque un échelon qui ne délibère pas mais constate, et sa forme n'est pas décidée |
+| **L7.C12** | **le mécanisme cherché est trouvé** — participation en paliers, principe 19 ; **le premier entrant gagne une position d'intermédiaire**, seul gain d'entrée indépendant du succès |
+| **L11.C10** | **troisième occurrence d'un patron** — obligation indexée sur un état observable ; **le coût est structurel** ; et **la réparation transforme le problème** |
+| **L20.C13** | **il tient les portes, non la réaction de ce qui les entoure** ; la protection expire quand la couche déplace des flux, **et rien ne couvre ce moment** |
+
+**CE QUE LE BALAYAGE A PORTÉ AUX PROTOCOLES.** **F6** reçoit l'état que le Livre 5
+lui laisse — première branche déplacée, seconde intacte et **expliquée par le
+livre lui-même**. **F8** reçoit un élargissement à une seconde famille d'objets :
+tout instrument dont le dispositif tire son opposabilité.
+
+**CE QU'IL A RÉVÉLÉ, ET C'EST UN RÉSULTAT ET NON UNE TÂCHE.** **Le meilleur
+acquis du livre et son échec devant F6 sont le même fait.** L'adhésion qui ne
+retire rien protège l'entrée et épargne le créancier. **Le corpus n'a donc pas
+à chercher une meilleure voie d'entrée : il a à écrire la seconde phase**, celle
+où la couche épaissit — **et c'est le seul endroit où F6 peut se lever.**
+
+**CE QUE LE BALAYAGE N'A PAS FAIT.** Il n'a estimé **aucun coût humain** et
+**aucune probabilité**, alors que la contrainte arrêtée par l'auteur le
+2026-09-04 les exigeait et que L5.C01 l'avait déclarée opposable à chaque
+chapitre du livre. **L5.C09 l'enregistre comme un manquement et non comme une
+réserve**, et relève que **l'omission joue dans un sens** : elle allège les
+quatre voies, et le plus celle qui touche des habitants. **À solder en passe 2,
+faute de quoi la contrainte n'est pas une contrainte mais une intention.**

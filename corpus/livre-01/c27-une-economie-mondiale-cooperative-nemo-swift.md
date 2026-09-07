@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -194,3 +194,19 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26]
 ::etat:: Il a établi quatre résultats. **Il a corrigé le corpus lui-même** : la suppression des réserves de change, créditée en L1.C26 § 2 comme l'apport le plus net du dispositif, ne vaut que pour le commerce intrazone et croît avec l'adhésion. **Il a établi que la clause de neutralité anticoloniale ne tient pas**, une source déjà versée au dossier montrant que les affectations sous condition adressées à des gouvernements souverains sont fongibles — et que le levier peut, par là, s'inverser en subvention à la non-adhésion. **Il a établi que le seuil d'activation est affirmé et non dérivé**, alors qu'une méthode existe pour le calculer, et qu'il impose au scénario de la coalition une contrainte de composition, non seulement de nombre.
 
 ::hypothese:: **Le quatrième résultat est le plus lourd et il est ambivalent.** En faisant du financement régénératif l'instrument de rééquilibrage des économies nationales, le livre répond effectivement à la question laissée ouverte par L1.C26, et il y répond par un mécanisme de transfert réel vers les pays riches en nature — c'est son argument social le plus fort, et le corpus l'accorde. Mais la même réponse fait dépendre l'équilibre extérieur de chaque pays d'un barème voté par une assemblée mondiale. **Une institution non élue déciderait de la balance des paiements de ses membres**, ce qu'aucun chapitre n'avait relevé parce qu'il fallait pour cela lire ensemble la parité fixe et la certification. Le corpus n'en conclut pas que le dispositif est illégitime ; il conclut que **l'arbitrage entre détermination centrale et détermination polycentrique (A4) n'est plus une question d'efficacité allocative, mais la question qui décide de la souveraineté économique des membres** (P52).
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le seuil d'activation reçoit deux corrections du Livre 5, et la seconde porte sur les leviers** [L5.C01] [L5.C03] [L5.C09].
+
+::etat:: **Première correction — le seuil est un solde, pas une somme.** **L'émetteur en place peut tarifer la sortie**, mécanisme versé le 2026-09-07 par dépouillement d'une pièce sans autorité. Ce chapitre raisonne sur ce que la coalition apporte ; **il faut raisonner aussi sur ce que le départ retire et sur ce que le sortant peut faire payer.**
+
+::etat:: **Seconde correction — les trois leviers de club supposent un non-membre privé de ce qu'il aurait eu autrement.** « Accès réservé à un bien, exclusion d'une infrastructure, prélèvement aux frontières » : **les trois opèrent par soustraction.** **Or L3.C09 a établi que le dispositif s'ajoute au lieu de remplacer**, de sorte qu'il ne soustrait rien à personne.
+
+::hypothese:: **Le corpus enregistre la conséquence, établie en L5.C03 et confirmée en L5.C09.** **La question du passager clandestin change de nature** : elle cesse d'être une question de défection pour devenir une question d'intérêt à entrer — « pourquoi maintenant plutôt que plus tard ». **Les trois leviers répondent à la première question et à aucun degré à la seconde.**
+
+::hypothese:: **Et la même propriété protège l'entrée et l'annule.** L'adhésion ne retirant rien, **elle n'expose à aucune représaille et ne rapporte rien** : c'est un seul fait vu deux fois. **La protection expire le jour où la couche déplace des flux**, et **aucun chapitre du corpus ne décrit cette seconde phase.**
+
+::etat:: **Un troisième apport, favorable** [L5.C05] : le seuil portant sur la **composition**, il est **plus vite atteint dans un espace où les membres commercent déjà entre eux.** **La densité du commerce interne est donc un paramètre du seuil**, et ce chapitre ne le tient pas.

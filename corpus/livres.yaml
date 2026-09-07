@@ -503,13 +503,17 @@ livres:
       - "rouage — conditions d'instauration et d'adoption effective de NEMO IMS"
       - "discipline — économie politique du changement institutionnel"
       - "objection — aucune promesse du registre ne couvre l'adoption : le corpus établit qu'un dispositif est concevable, jamais comment on y vient"
-    statut: hypothese
-    chapitres_annonces: 36
-    chapitres_acquis: 0
+    statut: en-cours
+    chapitres_annonces: null
+    chapitres_acquis: 10
     architecture: >
-      Trente-six chapitres en six parties comparant six voies d'entrée :
-      multilatérale, coalition pilote, régionale, infrastructure volontaire,
-      fenêtre de crise, concurrence des alternatives.
+      PASSE 1 CLOSE LE 2026-09-07 À DIX CHAPITRES. L'architecture annoncée
+      — trente-six chapitres en six parties, une par voie — n'a pas survécu à
+      l'instruction : deux des six voies ne sont pas des voies, et trois des
+      quatre restantes ne sont pas des alternatives mais des pièces qui se
+      composent. `chapitres_annonces` passe à null par application de
+      l'arbitrage A33. Six chapitres d'instruction, un de transition
+      sectorielle, un de comparaison, un de portée, un d'ouverture.
     note: >
       Arbitré le 2026-09-04 : la formulation du plan l'emporte. On écrit
       « fenêtre de crise », non « effondrement » ni « révolution ». Ces voies
@@ -518,6 +522,31 @@ livres:
       corpus qui paraîtrait compter sur l'effondrement perdrait la recevabilité
       qu'il cherche, et la perdrait auprès des lecteurs qu'il vise en premier.
       Contrainte de rédaction opposable à tout chapitre de ce livre.
+
+      CLOSE LE 2026-09-07, ET LE RÉSULTAT EST MIXTE — à lire avant de rouvrir
+      le livre. ACQUIS : « aucune voie » est devenu « quatre voies, dont une
+      dominée et trois composables » — l'infrastructure fournit le rail, la
+      coalition l'émission, la région le périmètre de vérification ; le
+      mécanisme de croissance qui manquait à L7.C12 est trouvé (participation
+      en paliers) ; un mode d'échec est nommé (le désarmement) ; et la
+      transition sectorielle est traitée pour la première fois.
+      NON ACQUIS : F6 n'est pas levée — déplacée sur sa première branche,
+      NON TRAITÉE sur la seconde, écartée sur aucune. Le motif est le meilleur
+      résultat du livre retourné : une couche qui ne retire rien à personne
+      n'expose à aucune représaille ET ne rend coûteuse la position de
+      personne. La sortie est dans une SECONDE PHASE — celle où la couche
+      épaissit et déplace des flux — qu'aucun chapitre du corpus n'écrit.
+      MANQUEMENT DÉCLARÉ : la contrainte de rédaction ci-dessus exigeait des
+      probabilités et des coûts humains. Aucun chapitre du livre n'en produit,
+      et L5.C09 l'enregistre comme un manquement, non comme une réserve —
+      l'omission allège les quatre voies, et le plus la voie régionale, seule
+      des quatre où l'échec atteint des habitants plutôt que des promoteurs.
+      MANQUE DÉCISIF POUR LA PASSE 2 : aucun précédent d'entrée n'est
+      instruit, et aucun cas d'installation d'une couche monétaire additionnelle
+      — le corpus a comparé quatre voies sans tenir un seul cas.
+      La transition INSTITUTIONNELLE, nommée par la fonction ci-dessus au même
+      titre que la sectorielle, n'est pas traitée : le corpus ne tient aucune
+      source sur la transformation d'administrations existantes.
 
   - livre: 6
     titre: "Droits de la nature et des écosystèmes — débunker les verrous juridiques de l'ordre extractif"

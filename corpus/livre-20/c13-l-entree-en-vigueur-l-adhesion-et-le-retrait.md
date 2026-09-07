@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -100,3 +100,15 @@ renvois: [L7.C11, L7.C12, L7.C16, L7.C17, L7.C19, L11.C18, L20.C01, L20.C06, L20
 ::etat:: **La sortie est libre : immédiate dans un texte, six mois dans l'autre, sans motif ni contrepartie.** Le retrait forcé, lui, est gradué, contradictoire et soumis à double majorité.
 
 ::hypothese:: **Les trois textes organisent la même asymétrie — entrée coûteuse, sortie libre — et c'est celle qu'un dispositif de club ne peut pas se permettre**, puisque sa valeur croît avec le nombre. **Le corpus n'a pas de solution, et il constate que trois traités en vigueur n'en ont pas non plus.**
+
+## BALAYAGE DU LIVRE 5 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 5.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Ce chapitre tient les portes du dispositif, et le Livre 5 établit qu'il ne tient pas ce qui les entoure** [L5.C09] [L5.C10]. Entrée en vigueur, adhésion, retrait : **un traité règle ce que ses parties se doivent, il ne règle pas ce qu'un tiers puissant leur fait.**
+
+::hypothese:: **Le manque est datable, et c'est ce qui le rend traitable.** Trois voies d'entrée sur quatre bénéficient d'une protection à l'entrée — l'adhésion ne demandant aucune sortie, **la menace tarifaire n'a pas de fait générateur.** **Cette protection expire exactement le jour où une adhésion déplace des flux**, puisque ce jour-là elle crée le fait générateur qui manquait.
+
+::etat:: **Aucun chapitre du corpus ne décrit cette seconde phase**, ni ce que l'émetteur en place peut alors faire, ni ce que cela lui coûte, **ni à quel niveau de pénétration le basculement se produit.**
+
+::hypothese:: **Ce que ce chapitre pourrait porter en passe 2, et le corpus ne le décide pas ici.** Le mécanisme d'amorçage qu'il tient déjà — contribution plafonnée, financeur identifié, droits éteints, **date plancher qui interdit de démarrer trop petit** — protège les premiers entrants **contre le risque que la coalition reste minuscule.** **Il ne protège contre rien du côté où elle grandit.**
