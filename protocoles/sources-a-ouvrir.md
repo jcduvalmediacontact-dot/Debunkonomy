@@ -502,7 +502,7 @@ fait qui doit être écrit dans chaque chapitre concerné.**
 | Matricule | Fichiers | Lecture |
 |---|---|---|
 | **L10** monnaies, banques, banques centrales | **42** | le seul livre réellement doté |
-| **L3** dilemmes du système monétaire international | **14** | dont **deux textes sur le triangle de Mundell**, jamais ouverts alors que l'arbitrage A32 en dépend |
+| **L3** dilemmes du système monétaire international | **14 annoncés, QUATRE RÉELS** | **le compte de 14 était gonflé par des faux positifs** — « change » attrapait « échanges », « Smith » attrapait Adam Smith. **Vérifié le 2026-09-07** : deux exposés pédagogiques sur le triangle de Mundell (ouverts, ce ne sont PAS les articles de Mundell ni de Fleming), la fiche *ABC de l'économie* de la Banque de France sur le système monétaire international (ouverte), et `Régime de change.pdf` (3 661 caractères, non instruit). **RECTIFICATION DE MÉTHODE : un classement par mots-clés sur des noms de fichiers SURESTIME, et il faut ouvrir pour compter.** Les autres comptes de ce tableau sont vraisemblablement gonflés dans les mêmes proportions |
 | **L16** typologie des alternatives monétaires | **13** | dont **Irving Fisher, *100 % Money*** — deux exemplaires |
 | **L17** après la croissance | **11** | |
 | **L5** trajectoires et transitions | 5 | |
