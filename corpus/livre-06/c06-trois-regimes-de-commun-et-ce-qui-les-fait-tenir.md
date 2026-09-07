@@ -155,7 +155,9 @@ renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.
 
 ::etat:: **Première décision de conformité, décembre 2025** : la Cour constate « qu'aucune des sommes n'a été versée, qu'aucune délimitation ni aucun titrage n'a été opéré », et ordonne de « prendre des mesures immédiates ». **Au 30 août 2026, aucune mesure d'exécution n'était documentée.**
 
-::hypothese:: **Neuf ans, et tout ce qui pouvait être fait juridiquement l'a été.** La violation est jugée, le préjudice chiffré, les mesures ordonnées, l'inexécution constatée par une procédure dédiée — **et la décision de conformité n'a d'autre contenu qu'une nouvelle injonction.**
+::etat:: **CORRECTION DU 2026-09-07 SUR L'ANCRAGE DE LA DURÉE.** Ce chapitre écrivait « neuf ans entre la saisine et rien ». **L'ancrage était faux** : neuf ans séparent l'arrêt au fond de 2017 de l'état d'exécution constaté au 30 août 2026, **et la saisine est antérieure** — la requête porte le numéro 006/2012. **Le décompte depuis la saisine est donc de quatorze ans**, et l'épisode 17 du livre écrit « quinze ans, trois décisions favorables, et pas un shilling versé ». **Le corpus retient les deux bornes séparément et ne tranche pas le compte de l'épisode, faute d'avoir lu les arrêts.**
+
+::hypothese:: **Neuf ans depuis l'arrêt au fond, et tout ce qui pouvait être fait juridiquement l'a été.** La violation est jugée, le préjudice chiffré, les mesures ordonnées, l'inexécution constatée par une procédure dédiée — **et la décision de conformité n'a d'autre contenu qu'une nouvelle injonction.**
 
 ::hypothese:: **C'est ce que L11.C29 a établi sur un tout autre terrain** : un seuil sans barème devient un plancher, **une injonction sans conséquence datée devient une opinion.**
 
