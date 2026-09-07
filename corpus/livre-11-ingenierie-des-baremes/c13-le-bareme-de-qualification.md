@@ -300,3 +300,15 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **LA TAXONOMIE QUALIFIE L'ACTIVITÉ ; LES INDICES DE RÉFÉRENCE DE L'UNION QUALIFIENT L'ALLOCATION.** **Même technique : une définition, des normes minimales par acte délégué, et UNE DÉNOMINATION PROTÉGÉE.** **Le corpus tenait le premier étage sans savoir que le second existait.**
 
 ::etat:: **LEÇON PRISE SUR F3, ET ELLE EST INSTITUTIONNELLE.** Le législateur constate que, laissé au marché, l'étiquetage a dérivé — des indices « assortis de **divers degrés d'ambition** » se présentaient sous le même nom [cons. 11], et l'objectif affiché est « **la prévention de l'ÉCOBLANCHIMENT** » [cons. 9]. **Sa réponse n'a pas été de renoncer à l'indicateur, mais de RÉSERVER LE NOM ET DE FIXER UN PLANCHER.** **F3 ne se traite donc pas en cherchant un indicateur inattaquable ; il se traite en protégeant la dénomination.**
+
+## BALAYAGE DU LIVRE 24 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 24, après lecture directe de l'actualisation 2023 du cadre des limites planétaires.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **CE BARÈME REÇOIT ENFIN UNE ÉCHELLE, ET IL EN REÇOIT NEUF** [L24.C01]. **Richardson et al., Science Advances, 2023** — neuf variables de contrôle, avec pour chacune la valeur hologcène de référence, la limite, le seuil de haut risque et la valeur actuelle. **EST RÉGÉNÉRATIVE UNE ACTIVITÉ QUI RAPPROCHE UNE VARIABLE DE CONTRÔLE DE SA LIMITE.** **La graduation que L22.C04 déclarait manquante a une échelle.**
+
+::hypothese:: **MAIS ELLE EN A NEUF, ET C'EST L'OBJECTION PRINCIPALE.** **Les neuf variables sont exprimées dans neuf unités sans aucune commune mesure** — ppm, W m⁻², extinctions par million d'espèces-années, pourcentage de production primaire, unités Dobson, saturation en aragonite, téragrammes de phosphore et d'azote, pourcentages de surface. **IL N'EXISTE AUCUN TAUX DE CHANGE ENTRE ELLES.** **Ce barème doit produire un MONTANT, donc un scalaire, à partir d'un vecteur à neuf composantes sans métrique commune.**
+
+::hypothese:: **TROIS ISSUES, ET LE CORPUS NE TRANCHE PAS.** **Émettre par dimension** — neuf allocations non convertibles, ce qui détruit la fongibilité qui fait une monnaie. **Émettre sur une seule dimension** — le carbone, ce que fait déjà le marché. **Ou émettre sur une agrégation ASSUMÉE COMME POLITIQUE ET NON SCIENTIFIQUE.** **Seule la troisième est praticable, et son prix est que la clé d'agrégation devient une décision explicite, révisable et attaquable — CE CHAPITRE DEVRA PORTER CETTE MENTION.**
+
+::etat:: **ET LA RÈGLE DES GAINS NETS EST CONFIRMÉE PAR LA PHYSIQUE.** La production primaire nécessaire aux sociétés futures doit être produite en supplément de la ligne de base holocène, « **not including the NPP generated for biology-based carbon sinks** ». **Un gain affecté à compenser autre chose n'en est pas un** — même règle qu'en L22.C04, établie par une autre voie.

@@ -152,3 +152,13 @@ renvois: [L1.C09, L1.C29, L5.C02, L5.C09, L5.C10, L6.C08, L6.C09, L6.C13, L11.C1
 ::hypothese:: **Le corpus enregistre que c'est l'inverse de ce qu'il escomptait en ouvrant IPSAS 51, et il ne présente pas l'obstacle comme franchi.** **Un dispositif qui reconnaîtrait s'écarterait des deux référentiels disponibles au lieu de s'y adosser** — ce qui reste possible, et se paie en recevabilité auprès des lecteurs que le corpus vise en premier.
 
 ::etat:: **CARE/TDL et la comptabilité multicapitaux ne sont pas ouverts**, alors que l'auteur les a nommés comme termes de comparaison centraux. **Ce livre ne tient à ce jour aucun modèle alternatif, et la comparaison annoncée n'est pas faite.**
+
+## BALAYAGE DU LIVRE 24 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 24, après lecture directe de l'actualisation 2023 du cadre des limites planétaires.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE LIVRE QUI DIT CE QU'IL FAUT MAINTENIR EST OUVERT, ET IL PRÉCÈDE CELUI-CI DANS LA CHAÎNE** [L24.C01]. L'auteur a arrêté la chaîne le 2026-09-07 : **L26 établit les contraintes physiques, L24 détermine les conditions et seuils à maintenir, L18 organise leur mesure.**
+
+::hypothese:: **CE QUE L24.C01 VERSE À CE LIVRE EST UNE LIMITE DE PRINCIPE À TOUTE COMPTABILITÉ AGRÉGÉE.** **Les neuf variables de contrôle n'ont aucune unité commune, et le cadre ne comporte NI TOTAL, NI INDICE COMPOSITE, NI PONDÉRATION.** **La normalisation graphique qui les rend lisibles ensemble n'est pas une commensurabilité**, et le corpus se l'interdit.
+
+::etat:: **Conséquence pour ce chapitre** : la question qu'il posait — le repli n'est pas l'annexe, c'est le compte de résultat — **reçoit une précision. Il n'y a pas UN compte de résultat écologique : il y en a neuf, et rien ne les additionne.** **Toute présentation en une ligne est une décision, non une mesure.**

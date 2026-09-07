@@ -2557,3 +2557,54 @@ forte** — un droit réel inhérent qui suit le fonds, opposable à tous, survi
 à la vente forcée. **Le droit positif de la qualification se contente de la plus
 faible : un contrat.** **La voie contractuelle est ouverte, elle est moins
 protectrice, et elle suffit à qualifier** — elle ne suffira pas à comptabiliser.
+
+## F13 — L'incommensurabilité
+
+**PROPOSÉ LE 2026-09-07 par L24.C01, à l'ouverture du Livre 24, après lecture
+directe de l'actualisation 2023 du cadre des limites planétaires. NON ARBITRÉ.**
+
+**CONDITION D'ÉCHEC PROPOSÉE.** *Qu'il n'existe aucune unité commune entre les
+dimensions de la régénération — climat, diversité génétique, production
+primaire, ozone, acidification, phosphore, azote, forêts, eau, aérosols, entités
+nouvelles — et qu'aucune agrégation scientifiquement fondée ne permette de les
+réduire à un nombre. Alors une émission monétaire PROPORTIONNÉE à la
+régénération est impossible à fonder autrement que par une convention politique
+assumée, et le dispositif ne peut pas soutenir que le montant émis MESURE quoi
+que ce soit.*
+
+**CE QUI L'ÉTABLIT.** **Richardson et al., « Earth beyond six of nine planetary
+boundaries », Science Advances, 2023, tableau 1** : neuf variables de contrôle,
+**neuf unités** — parties par million, watts par mètre carré, extinctions par
+million d'espèces-années, pourcentage de production primaire, unités Dobson,
+état de saturation en aragonite, téragrammes de phosphore et d'azote par an,
+pourcentages de surface, différence d'épaisseur optique, pourcentage de
+substances non testées. **Le cadre ne comporte NI TOTAL, NI INDICE COMPOSITE, NI
+PONDÉRATION.** **Payer pour du carbone ne rend pas d'azote.**
+
+**POURQUOI CE N'EST PAS F2.** **F2 porte sur l'incertitude de MESURE : on chiffre
+mal.** **F13 porte sur l'absence d'OBJET DE L'AGRÉGATION : même parfaitement
+mesurées, les neuf grandeurs ne s'additionnent pas.** **F13 subsisterait à
+mesure parfaite**, comme F9 subsiste à mesure parfaite sur un autre terrain.
+
+**POURQUOI CE N'EST PAS UNE OBJECTION MORALE.** Le corpus ne pose aucun principe
+de non-marchandisation. **Il constate qu'une compensation suppose une
+équivalence, qu'une équivalence suppose une unité commune, et qu'il n'y en a
+pas.** **C'est une propriété du système décrit, pas un jugement de valeur.**
+
+**CE QUI LE LÈVERAIT, ET LES TROIS VOIES COÛTENT.** *Émettre PAR DIMENSION —
+neuf allocations non convertibles entre elles, ce qui détruit la fongibilité qui
+fait une monnaie. Émettre sur UNE SEULE dimension — le carbone, ce que fait déjà
+le marché, avec les conséquences que le corpus tient. Ou émettre sur une
+agrégation ASSUMÉE COMME POLITIQUE, révisable et attaquable, et renoncer à la
+présenter comme un fait scientifique.*
+
+**LE CAS TYPE DU SEUIL NON COMPENSABLE EST FOURNI PAR LE CADRE LUI-MÊME.** La
+limite des entités nouvelles est fixée à **zéro** — part des substances de
+synthèse rejetées « without adequate safety testing ». **Aucun montant ne rend
+testée rétroactivement une molécule déjà rejetée : le dommage n'est pas un stock
+qu'on rétablit, c'est un acte qu'on ne défait pas.**
+
+**RÉSERVE QUI BORNE F13.** **Le corpus tient UN CADRE, PAS UN CONSENSUS** : il
+n'a ouvert aucune critique publiée de ces neuf limites. **F13 ne devient un
+falsifieur que si l'auteur l'arbitre, et il gagnerait à attendre l'acquisition
+de rang 1 du Livre 24.**

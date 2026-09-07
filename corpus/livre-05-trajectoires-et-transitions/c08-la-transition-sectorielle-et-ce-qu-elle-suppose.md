@@ -120,3 +120,11 @@ renvois: [L1.C06, L1.C21, L5.C01, L6.C08, L11.C06, L11.C10, L11.C13]
 ::hypothese:: **La conséquence est circulaire et elle dépasse ce que ce chapitre avait nommé.** Il soutenait que l'indexation « exempte par construction les secteurs les plus verrouillés » ; **le corpus ajoute que LE DÉVERROUILLAGE LUI-MÊME PASSE PAR UN SECTEUR EXEMPTÉ.** **Ce n'est plus seulement que le signal ne monte pas là où il faudrait : c'est que la condition de sa montée se produit hors de sa portée.**
 
 ::etat:: **Ordres de grandeur versés** : l'extraction et la transformation des matières portent « **over 55 per cent** » des émissions mondiales, « **more than 60 per cent** » avec le changement d'usage des sols ; l'usage de matières a triplé en cinquante ans et croît de « **more than 2.3 per cent per year** » ; l'extraction pourrait passer de **100 à 160 milliards de tonnes** d'ici 2060.
+
+## BALAYAGE DU LIVRE 24 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 24, après lecture directe de l'actualisation 2023 du cadre des limites planétaires.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LES CATÉGORIES SUR LESQUELLES CE CHAPITRE RAISONNAIT SONT REMPLIES** [L24.C01]. **Neuf processus, leurs variables de contrôle, leurs limites et leurs valeurs actuelles** sont désormais tenus par le corpus : climat (350 ppm pour limite, **417** aujourd'hui), diversité génétique (**>100** extinctions par million d'espèces-années contre 10), intégrité fonctionnelle (**30 %** d'appropriation de la production primaire contre 10), phosphore (**22,6** Tg/an contre 11), azote (**190** contre 62), forêts (**60 %** contre 75), eau bleue (**18,2 %** contre 10,2), eau verte (**15,8 %** contre 11,1). **SIX DES NEUF LIMITES SONT DÉPASSÉES.**
+
+::hypothese:: **Ce chapitre peut désormais dire de quoi il parle**, et il doit être relu à cette lumière en passe 2. **Réserve portée avec le contenu : le corpus tient UN CADRE, PAS UN CONSENSUS**, n'ayant ouvert aucune critique publiée de ces neuf limites.

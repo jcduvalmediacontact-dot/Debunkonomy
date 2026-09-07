@@ -2226,9 +2226,9 @@ livres:
       - "discipline — climat, biodiversité, eau, sols, cycles de l'azote et du phosphore, énergie, minerais, alimentation, dépendances matérielles"
       - "manque — L18 explique COMMENT MESURER ; aucun livre ne dit CE QU'IL FAUT MAINTENIR, et L5.C08 raisonne sur des catégories vides"
       - "objection — L18.C04 : la transition exige plus de trois milliards de tonnes de minéraux, et le corpus ne tient aucune nomenclature d'activités"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     note: >
       FRONTIERE AVEC LE LIVRE 18, POSEE PAR L'AUTEUR : la comptabilite
       ecologique du Livre 18 explique COMMENT MESURER ; le Livre 24 etablit CE
@@ -2245,6 +2245,51 @@ livres:
       SEUILS A MAINTENIR, puis L18 ORGANISE LEUR MESURE. Le numero n'est pas un
       rang : la chaine est logique, l'ordre de declaration est chronologique, et
       les deux ne coincident pas.
+      OUVERT LE 2026-09-07 PAR L24.C01, qui remplace l'amorce et ouvre par
+      telechargement direct l'actualisation 2023 du cadre des limites
+      planetaires (Richardson et al., Science Advances, eadh2458). DROITS :
+      CC BY-NC 4.0, INCOMPATIBLE AVEC LA LICENCE DU CORPUS -- regime
+      citation_seule, comme les documents IPSAS. La source est citee avec
+      attribution et NE SERA PAS VERSEE AU DEPOT.
+      LE SOCLE EST POSE : neuf variables de controle, avec valeur holocene,
+      limite, seuil de haut risque et valeur actuelle. SIX DES NEUF LIMITES SONT
+      DEPASSEES. Climat 417 ppm contre 350 ; diversite genetique plus de 100
+      extinctions par million d'especes-annees contre 10 ; appropriation de la
+      production primaire 30 % contre 10 ; phosphore 22,6 Tg/an contre 11 ;
+      azote 190 contre 62 ; forets 60 % contre 75 ; eau bleue 18,2 % contre
+      10,2 ; eau verte 15,8 % contre 11,1. Entites nouvelles : LIMITE ZERO.
+      REPONSE A LA QUESTION QUE L'AUTEUR A PLACEE EN TETE DU LIVRE -- quels
+      seuils ne peuvent pas etre compenses financierement -- ET ELLE EST
+      METROLOGIQUE, NON MORALE. LES NEUF VARIABLES SONT EXPRIMEES DANS NEUF
+      UNITES SANS AUCUNE COMMUNE MESURE, et le cadre ne comporte ni total, ni
+      indice composite, ni ponderation. IL N'EXISTE AUCUN TAUX DE CHANGE ENTRE
+      CES DIMENSIONS. Payer pour du carbone ne rend pas d'azote. Une
+      compensation suppose une equivalence, une equivalence suppose une unite
+      commune, IL N'Y EN A PAS.
+      CONSEQUENCE POUR LE DISPOSITIF : IL EMET UN SCALAIRE CONTRE UN VECTEUR.
+      Toute emission proportionnee a "la regeneration" suppose une agregation
+      que la science refuse de faire -- ET C'EST PLUS PROFOND QUE F2, qui dit
+      qu'on mesure mal, la ou ceci dit qu'il n'y a rien vers quoi agreger. F13,
+      L'INCOMMENSURABILITE, est propose a l'auteur sur ce fondement.
+      CAS TYPE DU SEUIL NON COMPENSABLE, FOURNI PAR LE CADRE : les entites
+      nouvelles, limite ZERO. Aucun montant ne rend testee retroactivement une
+      molecule deja rejetee.
+      TROIS APPORTS FAVORABLES, ET ILS SONT CONSIDERABLES. UNE DEFINITION
+      QUANTITATIVE DE "REGENERATIF" que L11.C13 n'avait pas : est regenerative
+      une activite qui rapproche une variable de controle de sa limite. LA
+      RAISON D'ETRE PHYSIQUE DU DISPOSITIF EST ECRITE DANS LA SOURCE : "The NPP
+      required to support future societies must [...] increasingly be generated
+      through ADDITIONAL PRODUCTION OF NPP above the Holocene baseline." ET LA
+      REGLE DES GAINS NETS EST CONFIRMEE PAR LA PHYSIQUE, la meme phrase
+      excluant la production affectee aux puits de carbone.
+      EXIGENCE DE RIGUEUR RETENUE CONTRE LE REGISTRE DRAMATIQUE : "boundary
+      positions do not demarcate or predict singular threshold shifts" -- une
+      limite n'est pas un point de rupture, c'est un point de precaution, et la
+      zone au-dela est une "zone of INCREASING RISK".
+      RESERVE PRINCIPALE ET ACQUISITION DE RANG 1 : LE CORPUS TIENT UN CADRE,
+      PAS UN CONSENSUS. Aucune critique publiee de ces neuf limites n'est
+      ouverte. Et LES MATERIAUX N'Y SONT PAS -- le socle reste incomplet, la
+      source qui le complete etant au Drive.
   - livre: 25
     titre: "Répartition, besoins essentiels et justice sociale"
     collection: cahier-disciplinaire
