@@ -200,3 +200,17 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 ::hypothese:: **Règle de conception pour ce chapitre : une valorisation robuste n'a pas besoin d'immobiliser le bien.** Elle a besoin d'être **un droit réel opposable à tous dont l'existence ne dépende pas d'une inscription.** L'immobilisation est le contraire de la solidité — **un supplément vulnérable parce qu'inutile.**
 
 ::etat:: **ET SON COÛT EST NOMMÉ** : un commun opposable pèse sur des propriétaires réels, **et c'est là qu'il sera attaqué.**
+
+---
+
+## RÉVISION DU 2026-09-07 — BLOC COMPTABLE
+
+::etat:: **Sources ouvertes le 2026-09-07, fournies par l'auteur et rangées au Drive** : **cadre conceptuel IPSASB, édition 2023** ; **IPSAS 51, *Tangible Natural Resources Held for Conservation*** ; **SEEA — *Ecosystem Accounting*** des Nations unies. **Réserve d'applicabilité portée par l'auteur dans son manifeste et reprise ici : « référentiel de comptabilité publique — son applicabilité à chaque entité de NEMO doit être établie ».**
+
+::etat:: **UNE NORME COMPTABLE EXISTE POUR L'OBJET DE CE CHAPITRE, et le corpus ne la tenait pas.** **IPSAS 51, *Tangible Natural Resources Held for Conservation*** — une ressource naturelle **détenue pour sa conservation** est reconnue à l'actif « if, and only if : (a) It is probable that **service potential** associated with the resource will flow to the entity ; (b) The entity **controls** [la ressource] as a result of past events ; and (c) [elle] **can be measured reliably** ».
+
+::hypothese:: **Trois conséquences pour ce chapitre.** **Un** — la valorisation d'un commun conservé **n'est pas un objet comptable inédit** : elle a une norme, et cette norme admet le potentiel de service sans flux de trésorerie. **Deux** — **le critère bloquant n'est pas la nature du bénéfice mais LA MESURE**, § 12 prévoyant qu'à défaut la ressource est portée en annexe et non au bilan. **Trois** — **le critère du CONTRÔLE est celui qui vise ce chapitre**, et le Livre 6 a établi que le titulaire d'un commun est rarement celui qui le valorise.
+
+::etat:: **Et le candidat à la mesure est ouvert** : le **SEEA — *Ecosystem Accounting*** des Nations unies, « integrated statistical framework for organizing biophysical information on ecosystems, **measuring ecosystem services**, tracking changes in ecosystem extent and condition, **valuing ecosystem services and assets** ».
+
+::hypothese:: **Le corpus enregistre que la chaîne est complète en droit et ouverte en fait.** La norme dit **quand** une ressource conservée devient un actif ; le SEEA fournit **par quoi** on la mesure. **Ce qui manque n'est plus un cadre, c'est l'établissement du contrôle et la qualité des données** — et la note d'acquisition de l'auteur le dit : « une méthode comptable **ne garantit ni la qualité des données locales ni la non-substituabilité écologique** ».

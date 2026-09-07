@@ -1587,6 +1587,28 @@ le livre a choisi le pilotage sans énoncer qu'il choisissait (P48, A7).
   dans un monde où la dégradation se poursuit ; il ne le referme pas dans le
   monde que le dispositif cherche à produire. Voir P55 et P56 pour les deux
   réparations possibles.
+  **RÉVISION DU 2026-09-07, APRÈS OUVERTURE D'IPSAS 51 — UNE TROISIÈME
+  CONTREPARTIE EST DOCUMENTÉE, ET ELLE N'A PAS LA PROPRIÉTÉ QUI FONDAIT LE
+  RETRAIT.** La norme *Tangible Natural Resources Held for Conservation*
+  (manuel 2026) prévoit qu'une ressource naturelle détenue pour sa conservation
+  **est reconnue à l'actif si et seulement si** : « (a) It is probable that
+  **service potential** associated with the resource will flow to the entity ;
+  (b) The entity **controls** the tangible natural resource held for
+  conservation as a result of past events ; and (c) [elle] **can be measured
+  reliably** ». **Si la contrepartie est la ressource conservée elle-même et non
+  une créance sur les fontes futures, alors elle ne s'érode pas quand le
+  dispositif réussit : ELLE S'APPRÉCIE.** Les deux hypothèses opposées sur
+  l'avenir cessent alors de porter sur le même passif.
+  **CE QUE CETTE RÉVISION NE LÈVE PAS, ET LE CORPUS NE REND PAS LE CRÉDIT.**
+  Trois conditions restent à établir, et aucune n'est acquise. **LE CONTRÔLE** :
+  la ressource conservée se trouve sur le territoire d'un tiers, et le Livre 6
+  a établi qu'un commun opposable pèse sur des propriétaires réels — l'entité
+  émettrice ne contrôle rien. **LA MESURE** : la norme en fait le critère
+  bloquant, et prévoit qu'à défaut la ressource est **portée en annexe et non
+  au bilan** (§ 12). **L'APPLICABILITÉ** : le référentiel est celui de la
+  comptabilité publique, et rien n'établit que l'institution émettrice en
+  relève. **Le crédit reste retiré ; ce qui change est que la contradiction
+  n'est plus structurelle mais conditionnelle.**
 - **Le livre concède Rueff** au point exact où la concession coûte le plus. Une
   thèse qui accorde son objection la plus dangereuse n'est pas une thèse
   complaisante.
@@ -1725,6 +1747,20 @@ nommer, pour ce barème, une conséquence datée du manquement qui atteigne le
 droit acquis.** **Ce n'est pas une objection extérieure : c'est un défaut de
 rédaction, et il se corrige en rédigeant.** Mais tant qu'il n'est pas corrigé,
 la thèse tient un dispositif dont l'effet n'est pas établi.
+
+**RÉVISION DU 2026-09-07 SUR LE DEUXIÈME ÉTAGE.** Le corpus écrit à trois
+endroits qu'« il n'existe pas de métrologie de la régénération », et il ne peut
+plus l'écrire ainsi. **Le *System of Environmental-Economic Accounting —
+Ecosystem Accounting* des Nations unies a été ouvert le 2026-09-07** : c'est un
+« **integrated statistical framework** for organizing biophysical information on
+ecosystems, **measuring ecosystem services**, tracking changes in ecosystem
+extent and condition, **valuing ecosystem services and assets** ». **Le corpus
+doit désormais dire POURQUOI ce qui existe ne suffit pas, au lieu de dire qu'il
+n'y a rien** — et la note d'acquisition de l'auteur porte déjà la piste : « une
+méthode comptable ne garantit ni la qualité des données locales ni la
+non-substituabilité écologique ». **La différence est décisive pour F8 : une
+vérification qui n'est imposée à personne n'est pas la même chose qu'une
+vérification qui n'existe pas.**
 
 **RÉSERVE, ET ELLE EST DE MÉTHODE.** Le traité n'a pas été lu article par
 article — le registre du Livre 6 le déclare. **Les quatre limites sont connues

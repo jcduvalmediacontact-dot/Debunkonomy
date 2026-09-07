@@ -2952,6 +2952,42 @@ GARANTIT.** La dette collective à laquelle l'émission est adossée **a une ass
 qui s'érode par le succès même du dispositif.** Réparations possibles renvoyées à
 **P55 et P56**.
 
+### A30 — RÉVISION DU 2026-09-07, APRÈS OUVERTURE DU BLOC COMPTABLE
+
+**LE BLOCAGE RÉSIDUEL ÉTAIT COMPTABLE, ET LE CORPUS L'INSTRUISAIT SUR LE MAUVAIS
+RÉFÉRENTIEL.** Le vocabulaire posait qu'« un actif doit être une ressource
+contrôlée par l'émetteur dont des avantages futurs sont attendus POUR LUI ».
+**C'est le test du secteur privé.** Le cadre conceptuel IPSASB, ouvert le
+2026-09-07, énonce autre chose : **un actif est « a resource presently
+controlled by the entity as a result of past events »**, une ressource étant
+**« a right to either SERVICE POTENTIAL or the capability to generate economic
+benefits »**, et le potentiel de service permettant d'atteindre les objectifs de
+l'entité **« without necessarily generating net cash inflows »**.
+
+**CONSÉQUENCE : L'OBJECTION QUE LE CORPUS S'OPPOSAIT À LUI-MÊME N'EST PAS LE
+TEST APPLICABLE.** Une émission dont la contrepartie n'engendre aucun flux de
+trésorerie pour l'émetteur **n'est pas, par ce seul fait, sans contrepartie
+recevable.**
+
+**ET UNE TROISIÈME CONTREPARTIE APPARAÎT, versée à `falsification.md`.** IPSAS 51
+reconnaît à l'actif **une ressource naturelle détenue pour sa conservation**, à
+trois conditions cumulatives — potentiel de service probable, **contrôle** par
+l'entité, **mesure fiable**. **Si la contrepartie est la ressource conservée et
+non une créance sur les fontes futures, elle ne s'érode pas quand le dispositif
+réussit : elle s'apprécie.**
+
+**TROIS CONDITIONS RESTENT À ÉTABLIR, ET AUCUNE N'EST ACQUISE.** **Le contrôle** —
+la ressource est sur le territoire d'un tiers, et le Livre 6 a établi qu'un
+commun opposable pèse sur des propriétaires réels. **La mesure** — critère
+bloquant de la norme, à défaut duquel la ressource est portée **en annexe et non
+au bilan** ; le SEEA des Nations unies est le candidat, et il est ouvert.
+**L'applicabilité** — rien n'établit que l'institution émettrice relève de la
+comptabilité publique.
+
+**A30 EST DONC DÉBLOQUÉ SUR LE DROIT ET SUR LA NORME, ET IL RESTE OUVERT SUR
+TROIS FAITS.** Ce ne sont plus des questions de conception mais **des questions
+de vérification**, ce qui change leur nature.
+
 **ÉTAT DE A30 APRÈS CET ARBITRAGE.** **Il cesse d'être une question ouverte et
 devient une question de rédaction** — (iii) comme véhicule, (iv) comme contenu,
 (ii) à lire pour sa mécanique. **Il reste bloquant sur un seul point, et il n'est

@@ -127,3 +127,15 @@ Ces quatre conséquences ne démontrent pas qu'une modification du régime d'ém
 ::etat:: **RÉSERVE PORTÉE PAR LE REGISTRE DU LIVRE 6** : ce verrou est une **pratique notariale, non une règle légale explicite**, et aucune décision judiciaire ne l'a tranché.
 
 ::hypothese:: **ET UNE SORTIE EXISTE, versée en L6.C06 après lecture de l'arrêt italien n° 119 de 2023.** Les usages civiques italiens ne se heurtent pas au créancier : leur opposabilité « opera a prescindere dal rispetto di oneri pubblicitari » et survit à la vente forcée. **La différence est de nature : une charge inscrite vient après le créancier et lui demande permission ; une charge inhérente au fonds était là avant et ne la demande pas.** **Le corpus ne peut pas obtenir par convention ce que l'antériorité donne.**
+
+---
+
+## RÉVISION DU 2026-09-07 — SOURCE DE BANQUE CENTRALE
+
+::etat:: **Ce chapitre est confirmé par une source de banque centrale que le corpus ne détenait pas** : McLeay, Radia et Thomas, « **Money creation in the modern economy** », *Bank of England Quarterly Bulletin*, 2014 Q1. « **Whenever a bank makes a loan, it simultaneously creates a matching deposit in the borrower's bank account, thereby creating new money.** » Et : « banks do not act simply as intermediaries, lending out deposits that savers place with them, **nor do they 'multiply up' central bank money** ».
+
+::etat:: **ET UNE PHRASE VISE DIRECTEMENT LA PROMESSE P23, dont le corpus tenait la réponse pour probable** : « **Just as taking out a new loan creates money, the repayment of bank loans DESTROYS money.** »
+
+::hypothese:: **Le corpus enregistre l'asymétrie que cela révèle, et elle n'est pas à son avantage.** Dans le régime de crédit, **le remboursement détruit** — la symétrie création/destruction y est exacte. Or l'arbitrage du 2026-09-05 pose que le reflux du dispositif « **n'est PAS une annulation** » et que la monnaie « **quitte la circulation sans être détruite** ».
+
+::hypothese:: **Les deux régimes ne sont donc pas symétriques, et le dispositif est le moins symétrique des deux.** Le régime qu'il critique **ferme son circuit** ; le sien **déplace un encours vers l'actif d'une institution.** **Ce n'est pas une objection nouvelle — c'est P23 et P26 — mais le corpus disposait de l'énoncé sans en tenir la source, et la source est une banque centrale.**

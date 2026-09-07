@@ -426,10 +426,22 @@
                de crédit, cette contrepartie est une créance sur un débiteur
                identifié. Le corpus emploie ce terme pour la question, restée
                ouverte, de ce qui figure à l'actif lorsque l'émission ne crée
-               aucune dette : un actif doit être une ressource contrôlée par
-               l'émetteur dont des avantages futurs sont attendus pour lui,
-               condition qu'une prestation déjà rendue à un tiers ne remplit
-               pas."
+               aucune dette. CORRIGÉ LE 2026-09-07, APRÈS OUVERTURE DU CADRE
+               CONCEPTUEL IPSASB (édition 2023) : la définition antérieure —
+               « un actif doit être une ressource contrôlée par l'émetteur dont
+               des avantages futurs sont attendus POUR LUI, condition qu'une
+               prestation déjà rendue à un tiers ne remplit pas » — APPLIQUAIT
+               LE TEST DU SECTEUR PRIVÉ À UNE ENTITÉ PUBLIQUE, et le référentiel
+               public le rejette expressément. § 5.6 : « An asset is a resource
+               presently controlled by the entity as a result of past events » ;
+               § 5.6A : « A resource is a right to either SERVICE POTENTIAL or
+               the capability to generate economic benefits, or a right to
+               both » ; § 5.8 : « Service potential [...] enables an entity to
+               achieve its objectives WITHOUT NECESSARILY GENERATING NET CASH
+               INFLOWS ». Le test applicable comporte donc DEUX conditions et
+               non celle qu'employait le corpus : un DROIT, et un CONTRÔLE
+               PRÉSENT résultant d'événements passés. La production
+               d'avantages économiques pour l'entité n'en est pas une."
   premiere_occurrence: L1.C29
 
 - terme: reflux_collectif

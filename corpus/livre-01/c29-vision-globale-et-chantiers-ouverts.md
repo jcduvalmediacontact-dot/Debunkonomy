@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -171,3 +171,23 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 ::etat:: Il a retiré en conséquence un élément de la liste de ce qui avait résisté, et il a localisé la difficulté en un point unique du dispositif — le bilan du GAÏA Economic Symposium —, le reste de l'architecture comptable étant sans objection.
 
 ::hypothese:: Il a proposé deux réparations que ni le livre ni le Cahier ne formulent, et la seconde est peu coûteuse : adosser la créance au demurrage autant qu'aux dispositifs de reflux transactionnels, dont l'assiette ne s'érode pas avec le succès écologique ; ou renoncer à démontrer la clôture et assumer des fonds propres négatifs, ce qui est tenable pour un émetteur mais suppose d'établir que le GES en est un, ce qu'il n'est pas au sens strict. **Le corpus ne tranche pas entre les deux ; il constate que la question a des issues, et que l'auteur avait raison de la déclarer ouverte plutôt que résolue.**
+
+---
+
+## RÉVISION DU 2026-09-07 — BLOC COMPTABLE
+
+::etat:: **Sources ouvertes le 2026-09-07, fournies par l'auteur et rangées au Drive** : **cadre conceptuel IPSASB, édition 2023** ; **IPSAS 51, *Tangible Natural Resources Held for Conservation*** ; **SEEA — *Ecosystem Accounting*** des Nations unies. **Réserve d'applicabilité portée par l'auteur dans son manifeste et reprise ici : « référentiel de comptabilité publique — son applicabilité à chaque entité de NEMO doit être établie ».**
+
+::etat:: **CE CHAPITRE INSTRUISAIT LA QUESTION SUR LE MAUVAIS RÉFÉRENTIEL, et le corpus le corrige.** Il posait qu'« un actif doit être une ressource contrôlée par l'émetteur **dont des avantages futurs sont attendus pour lui**, condition qu'une prestation déjà rendue à un tiers ne remplit pas ». **C'est le test du secteur privé.**
+
+::etat:: **Le cadre conceptuel de la comptabilité publique énonce autre chose.** § 5.6 : « An asset is **a resource presently controlled by the entity as a result of past events** ». § 5.6A : « A resource is **a right to either SERVICE POTENTIAL or the capability to generate economic benefits**, or a right to both ». § 5.8 : « Service potential is the capability of a resource to provide services that contribute to achieving the entity's objectives. Service potential enables an entity to achieve its objectives **WITHOUT NECESSARILY GENERATING NET CASH INFLOWS**. »
+
+::etat:: **Et le référentiel dit pourquoi il diffère** (§ 14) : « In the public sector, **the primary reason for holding property, plant, and equipment and other assets is for their service potential rather than their ability to generate cash flows.** »
+
+::hypothese:: **Le test applicable comporte donc deux conditions, et la production d'avantages économiques pour l'entité n'en est pas une** : **un DROIT**, et **un CONTRÔLE PRÉSENT résultant d'événements passés.** **L'objection que ce chapitre s'opposait à lui-même n'est pas le test applicable** — une contrepartie qui n'engendre aucun flux de trésorerie pour l'émetteur n'est pas, par ce seul fait, irrecevable.
+
+::hypothese:: **Mais le test de remplacement est exigeant sur un point que ce chapitre n'avait pas examiné : LE CONTRÔLE.** Une prestation régénérative accomplie sur le fonds d'un tiers **n'est contrôlée par personne d'autre que ce tiers**, et le Livre 6 a établi qu'un commun opposable pèse sur des propriétaires réels. **Le chapitre échangeait une difficulté contre une autre, et la seconde n'est pas plus facile.**
+
+::etat:: **UNE TROISIÈME CONTREPARTIE EST DOCUMENTÉE.** IPSAS 51 reconnaît à l'actif **une ressource naturelle détenue pour sa conservation**, « if, and only if : (a) It is probable that **service potential** associated with the resource will flow to the entity ; (b) The entity **controls** the tangible natural resource [...] as a result of past events ; and (c) [elle] **can be measured reliably** ». À défaut du seul critère (c), § 12 : la ressource est **portée en annexe et non au bilan**.
+
+::hypothese:: **Si la contrepartie est la ressource conservée et non une créance sur les fontes futures, alors elle ne s'érode pas quand le dispositif réussit : elle s'apprécie.** **C'est la sortie que `falsification.md` cherchait sous P55 et P56** — et elle reste conditionnée au contrôle, à la mesure et à l'applicabilité du référentiel, dont aucune n'est acquise.

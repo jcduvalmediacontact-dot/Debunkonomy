@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -176,3 +176,17 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **La valeur par défaut change de face et le biais s'alourdit.** Qui ne peut pas documenter n'est pas surtaxé : il est exclu d'un financement destiné à ceux que le marché ne finance pas. **Cinquième occurrence du biais de concentration, et la première qui porte sur un avantage plutôt que sur une charge.**
 
 ::etat:: **Et l'objection de la connaissance dispersée a été trouvée deux fois, par deux chemins, sur les deux barèmes.** La sortie découverte pour le reflux ne vaut pas ici : elle répond à l'impossibilité de mesurer, non à celle d'allouer. **L'objection que le registre tient pour la plus forte reste entière**, et la seule réponse constituée qu'on lui connaisse — l'organisation polycentrique des communs — n'a jamais été instruite.
+
+---
+
+## RÉVISION DU 2026-09-07 — BLOC COMPTABLE
+
+::etat:: **Sources ouvertes le 2026-09-07, fournies par l'auteur et rangées au Drive** : **cadre conceptuel IPSASB, édition 2023** ; **IPSAS 51, *Tangible Natural Resources Held for Conservation*** ; **SEEA — *Ecosystem Accounting*** des Nations unies. **Réserve d'applicabilité portée par l'auteur dans son manifeste et reprise ici : « référentiel de comptabilité publique — son applicabilité à chaque entité de NEMO doit être établie ».**
+
+::etat:: **CE CHAPITRE ÉCRIT QU'« IL N'EXISTE PAS DE MÉTROLOGIE DE LA RÉGÉNÉRATION », ET LE CORPUS NE PEUT PLUS L'ÉCRIRE AINSI.** Le **SEEA — *Ecosystem Accounting*** des Nations unies a été ouvert le 2026-09-07 : c'est un « **integrated statistical framework** for organizing biophysical information on ecosystems, **measuring ecosystem services**, tracking changes in **ecosystem extent and condition**, **valuing ecosystem services and assets** ».
+
+::hypothese:: **Ce que cela change pour l'objection de Goodhart instruite ici, et ce que cela ne change pas.** **L'une des trois raisons pour lesquelles elle frappe plus fort sur la qualification — « l'écart indicateur/effet est plus grand puisqu'il n'existe pas de métrologie de la régénération » — doit être réécrite.** Il en existe une, elle est internationale, et elle organise l'étendue, la condition et les services.
+
+::hypothese:: **Mais l'objection ne tombe pas, elle se déplace, et le corpus doit le dire précisément.** **Une métrologie qui existe n'est pas une métrologie qui est imposée** — c'est le deuxième étage de F8. Et la réserve versée par l'auteur avec la source vaut objection à instruire : « une méthode comptable **ne garantit ni la qualité des données locales ni la non-substituabilité écologique** ». **La seconde est décisive** : un cadre qui permet de substituer une condition écosystémique à une autre **rend l'indicateur optimisable, ce qui est exactement Goodhart.**
+
+::etat:: **Le corpus ne tient du SEEA que sa description de lui-même.** Il n'a instruit ni ses comptes, ni ses méthodes d'évaluation, ni ses règles d'agrégation — **et c'est sur ces règles que se jouerait la substituabilité.**

@@ -288,3 +288,15 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23]
 ::hypothese:: **D'où l'énoncé que le corpus n'avait jamais écrit : LE DISPOSITIF NE REMPLACE PAS LE SYSTÈME EXISTANT, IL S'Y AJOUTE.** Il fournirait un pivot de conversion et un régime de qualification ; **il ne fournirait pas ce dont les banques centrales se servent quand elles ont peur.**
 
 ::hypothese:: **Et les déterminants énoncés ici — « la taille et la croissance de l'économie émettrice » — portent une conséquence non tirée** [L3.C04]. **Le statut de réserve est un prix décerné à la croissance** ; en l'absence de découplage mondial absolu (L1.C12), **concourir pour ce statut, c'est concourir en croissance.** **Le lien est INCITATIF, non quantitatif** — la réserve du vocabulaire contre l'argument « plus de monnaie, plus d'extraction » est portée. **Une solution multipolaire à monnaies nationales ne supprime donc pas l'incitation : elle la distribue.**
+
+---
+
+## RÉVISION DU 2026-09-07 — RÈGLEMENT DÉFINITIF
+
+::etat:: **Le critère central de ce chapitre — « la capacité de règlement est le critère qui sépare un référentiel de comparaison d'une devise clé » — était employé sans définition technique. Elle est ouverte.** *Principles for financial market infrastructures*, Banque des règlements internationaux et OICV, avril 2012, **principe 8, « Settlement finality »** : « An FMI should provide **clear and certain final settlement, at a minimum by the end of the value date.** »
+
+::hypothese:: **Le corpus enregistre que « régler » a donc un contenu opérationnel et daté, et non seulement juridique.** Le critère de ce chapitre ne demande pas qu'une unité soit *acceptée* : il demande qu'elle produise **un règlement définitif, clair et certain, dans un délai borné.** **C'est une exigence d'infrastructure autant que de droit.**
+
+::hypothese:: **Et cela précise ce que L3.C05 avait ouvert.** Si le rail et l'unité se séparent, **c'est le rail qui porte la finalité du règlement** — de sorte qu'une unité peut être conçue pour ne pas régler, mais **une infrastructure ne peut pas être conçue pour ne pas rendre définitif.** **Le corpus n'a jamais instruit ce que le dispositif exige de son infrastructure**, et le principe 8 est le premier des critères qu'elle devrait satisfaire.
+
+::etat:: **Le corpus ne tient du PFMI que ce principe.** Les vingt-trois autres — gouvernance, liquidité, continuité opérationnelle — **ne sont pas instruits**, alors que le manifeste d'acquisition les désigne comme l'objet de la source.

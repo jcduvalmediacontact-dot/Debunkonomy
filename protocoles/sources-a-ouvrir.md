@@ -563,3 +563,52 @@ genre.** **Un texte de promotion n'est pas sans valeur : il est sans autorité.*
 Ce qu'il nomme peut être ouvert ailleurs ; ce qu'il conclut ne s'emprunte pas.
 **Le tri se fait sur la nature de l'énoncé — un nom d'institution ou de
 dispositif est une adresse, une conclusion est un jugement.**
+
+---
+
+# Acquisition du 2026-09-07 — bloc comptable, infrastructure et métrologie
+
+**ONZE PIÈCES FOURNIES PAR L'AUTEUR AVEC UN MANIFESTE**, rangées au Drive dans
+`Livres Monnaie\Sources telechargees 2026-09-07`, 29 Mo. **Le manifeste porte
+pour chaque pièce l'URL résolue, le nombre de pages, l'empreinte SHA-256 et une
+NOTE DE RÉSERVE** — pratique que le corpus adopte et qu'il n'appliquait pas.
+
+## Ce que l'ouverture a corrigé le jour même
+
+| Source | Ce qu'elle a changé |
+|---|---|
+| **Cadre conceptuel IPSASB, éd. 2023** | **LE CORPUS APPLIQUAIT LE TEST DU SECTEUR PRIVÉ À UNE ENTITÉ PUBLIQUE.** § 5.6 : un actif est « **a resource presently controlled by the entity as a result of past events** » ; § 5.6A : une ressource est « **a right to either SERVICE POTENTIAL or the capability to generate economic benefits** » ; § 5.8 : le potentiel de service permet d'atteindre les objectifs « **without necessarily generating net cash inflows** ». **`contrepartie_comptable` corrigé au vocabulaire ; L1.C29 révisé ; A30 débloqué sur la norme** |
+| **IPSAS 51, ressources naturelles détenues pour conservation** | **UNE TROISIÈME CONTREPARTIE, ET ELLE NE S'ÉRODE PAS.** Reconnaissance « if, and only if » : potentiel de service probable, **contrôle**, **mesure fiable** ; à défaut du seul troisième critère, **portée en annexe et non au bilan** (§ 12). **Si la contrepartie est la ressource conservée, elle s'apprécie quand le dispositif réussit** — révision portée à `falsification.md` sur le crédit retiré du 2026-09-04, **sans que le crédit soit rendu** |
+| **SEEA — *Ecosystem Accounting*, ONU** | **LE CORPUS NE PEUT PLUS ÉCRIRE QU'IL N'EXISTE PAS DE MÉTROLOGIE DE LA RÉGÉNÉRATION.** Cadre statistique intégré mesurant étendue, condition, services, et **valorisant services et actifs écosystémiques**. **F8 et L11.C13 révisés** : une métrologie qui existe n'est pas une métrologie qui est imposée, **et l'objection se déplace vers la substituabilité** |
+| **BIS, *Principles for financial market infrastructures*, 2012** | **LE CRITÈRE CENTRAL DE L1.C24 AVAIT UN CONTENU TECHNIQUE QUE LE CORPUS NE TENAIT PAS.** Principe 8 : « clear and certain **final settlement**, at a minimum by the end of the value date ». **Régler est une exigence d'infrastructure autant que de droit**, et **une unité peut être conçue pour ne pas régler, une infrastructure ne peut pas être conçue pour ne pas rendre définitif** |
+| **BoE, *Money creation in the modern economy*, 2014** | **CONFIRME L1.C07 PAR UNE BANQUE CENTRALE**, et vise P23 : « **Just as taking out a new loan creates money, the repayment of bank loans DESTROYS money.** » **Le régime de crédit ferme son circuit ; le dispositif déplace un encours vers l'actif d'une institution.** Le corpus tenait l'énoncé sans la source |
+
+## Restent ouvertes dans ce lot
+
+**Dafermos, Nikolaidi et Galanis 2016** — modèle *stock-flow-fund* écologique
+calibré sur données mondiales, 2015-2115. **Clé de voûte du Livre 13**, non
+instruite. Réserve du manifeste : « version de travail hébergée par la Banque
+d'Angleterre, **à distinguer d'un article final et d'une validation de NEMO** ».
+
+**IPSAS 47 (produits) et IPSAS 48 (charges de transfert)** — le traitement du
+reflux et celui d'une émission au bénéfice d'un tiers. **Non instruites.**
+
+**RPG 1 (soutenabilité à long terme)** et **PNUE, *Global Resources Outlook
+2024*** — Livres 13, 17 et 18. **Non instruites.**
+
+**Les vingt-trois autres principes du PFMI** — gouvernance, liquidité,
+continuité opérationnelle — alors que **c'est l'objet même de la source** selon
+le manifeste.
+
+## Trois échecs de téléchargement enregistrés par le manifeste, et deux comptent
+
+**Statuts du FMI, édition 2020 en français** — HTTP 403. **C'est ce qui donnerait
+les amendements de 1969 et 1978**, lacune que le Livre 3 déclare quatre fois.
+**Versions consolidées du TUE et du TFUE** — réponse non-PDF ; réclamées par le
+Livre 20 depuis le 2026-09-06. S'y ajoutent *State of Finance for Nature 2026*
+et l'*IPBES Nexus Assessment*, tous deux en 403.
+
+**RÈGLE ADOPTÉE DE CE MANIFESTE.** Toute acquisition future porte **l'URL
+résolue, l'empreinte, le nombre de pages et une note de réserve écrite avant
+l'usage**. La note de réserve est ce qui manque le plus au corpus : elle dit ce
+que la source **ne** prouve **pas**, et l'auteur l'a écrite pour chacune.
