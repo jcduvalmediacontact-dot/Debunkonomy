@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -184,3 +184,19 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 ::hypothese:: **Il n'existe pas de valeur par défaut défendable sur ce barème** : un défaut bas ferme le canal, un défaut haut est la sur-qualification. La sortie métrologique de L11.C06 n'y est pas disponible. **Douzième condition-limite versée** — B12, la valorisation ne peut descendre sous le coût de réaliser l'acte — et elle mord quand l'enveloppe se resserre, confirmant que le compte est au plus mauvais sous tension. **Elle produit un nombre que personne n'a calculé** : le maximum d'actes finançables par an, à comparer à l'ampleur de l'essentiel insolvable.
 
 ::hypothese:: **Et le mécanisme que le livre oppose au déséquilibre extérieur opère plus lentement que le déséquilibre.** La contraction monétaire arrive au règlement du solde ; la restauration exige un capital que la contraction retire et produit son effet après des années. **C'est le mécanisme de Friedman sur un troisième instrument, par une voie entièrement distincte.** Arbitrage A20.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La figure existe en droit positif, et le corpus ne l'avait pas** [L6.C06]. **Loi italienne n° 168 du 20 novembre 2017, article 2 § 1**, lue dans son texte consolidé le 2026-09-07 : la République « tutela e **VALORIZZA** i beni di collettivo godimento » comme « fonte di risorse rinnovabili da valorizzare ed utilizzare **a beneficio delle collettività locali degli aventi diritto** ». **Partage borné, bénéficiaire nommé — et ce n'est pas l'État.**
+
+::etat:: **S'y ajoute l'article 1er § 1**, qui qualifie le patrimoine naturel géré par le domaine collectif de « **comproprietà inter-generazionale** », et reconnaît les domaines collectifs comme « **ordinamento giuridico primario delle comunità originarie** ».
+
+::hypothese:: **CE QUI FAIT TENIR CE RÉGIME N'EST PAS L'INALIÉNABILITÉ**, et l'arrêt n° 119 de 2023 de la Cour constitutionnelle l'a jugé en retranchant celle-ci pour les terres privées **au motif qu'elle ne servait à rien** : les usages civiques ont l'inhérence, le *ius sequelae* et l'opposabilité *erga omnes*, **suivent le fonds quel qu'en soit le propriétaire, survivent à la vente forcée et s'imposent sans publicité.**
+
+::hypothese:: **Règle de conception pour ce chapitre : une valorisation robuste n'a pas besoin d'immobiliser le bien.** Elle a besoin d'être **un droit réel opposable à tous dont l'existence ne dépende pas d'une inscription.** L'immobilisation est le contraire de la solidité — **un supplément vulnérable parce qu'inutile.**
+
+::etat:: **ET SON COÛT EST NOMMÉ** : un commun opposable pèse sur des propriétaires réels, **et c'est là qu'il sera attaqué.**

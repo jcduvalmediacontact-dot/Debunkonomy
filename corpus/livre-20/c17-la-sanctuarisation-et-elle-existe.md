@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -126,3 +126,17 @@ renvois: [L1.C17, L1.C18, L7.C13, L7.C19, L7.C20, L11.C20, L20.C01, L20.C06, L20
 ::hypothese:: **La clause n'a pas été violée : elle a été contournée par la qualification.** L'instrument ne s'appelle pas un amendement, il s'appelle un accord d'application — **on ne touche pas au principe, on change ce à quoi il se combine.** Motif énoncé au préambule : les approches de marché, et le ralliement de ceux qui refusaient d'adhérer.
 
 ::hypothese:: **Conséquence pour L7.C13, et le corpus ne l'adoucit pas.** Le seul précédent documenté de sanctuarisation a cédé au bout de douze ans, **sur le point même qu'il protégeait**, et pour le motif exact qu'un dispositif mondial invoquerait. **La condition sine qua non que le livre source pose est réalisable, et elle n'est pas stable.**
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La question laissée ouverte par ce chapitre est répondue** [L6.C12], et **la technique qui résiste protège l'investisseur.** Article 47 du traité sur la Charte de l'énergie, **texte authentique lu le 2026-09-07** : retrait impossible **avant cinq ans**, effet **un an** après notification, **vingt ans à compter de cette prise d'effet — soit vingt et un ans, cliquet à trois crans.** Et **une seconde clause de survie** couvre l'application provisoire, **sans aucune ratification.**
+
+::hypothese:: **Pourquoi celle-là tient et pas celle de 1982** : les trois registres de 1982 relevaient d'un texte unique et sont tombés ensemble. **La technique qui survit est celle dont les verrous ne relèvent pas du même texte** [L6.C06] — en Italie, le verrou de propriété a été amputé en 2023 **et la contrainte paysagère, due à un autre code, a survécu**, la loi la maintenant expressément « anche in caso di liquidazione degli usi civici ».
+
+::hypothese:: **ET LE COÛT EST À ASSUMER** : un mécanisme qui rend une décision résistante à sa révision **est indifférent au sens de cette décision.** Il protège le passé contre l'avenir, quel que soit le passé.
+
+::etat:: **La voie de sortie européenne existe et elle est fragile** [L6.C12]. L'accord *inter se* approuvé par la décision (UE) 2025/1904 se qualifie d'**interprétation** et non de modification — ce qui évite le contrôle de l'article 41 de la Convention de Vienne — **mais son considérant 2 constate que « malgré l'arrêt Komstroy, les tribunaux arbitraux ont continué de se déclarer compétents et de rendre des sentences ».**

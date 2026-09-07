@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -170,3 +170,17 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 ::hypothese:: **Le contrôle défait l'économie qui rendait le dispositif administrable**, et il y a un optimum que personne n'a cherché. **Quinzième condition-limite : le coût du contrôle ne peut excéder le produit qu'il protège** — elle mord sur les petits dossiers, **ce qui explique les sept biais de concentration au lieu de les déplorer.** Le corpus enregistre que sa propre critique de ces biais revient à demander un contrôle cher.
 
 ::etat:: **Et le compte final des objets manquants.** L11.C06 § 4 avait établi qu'un barème est **trois objets** — une table, une procédure, une charge de la preuve. Le Livre 11 en a ajouté trois : **un tribunal** (L11.C19), **un contrôleur** et **une sanction** (le présent chapitre). **Le dispositif en publie un.** Arbitrage A28.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Un cas que ce chapitre ne traite pas** [L6.C13] : **l'entité contrôlée change de mains pendant que la procédure court.** Dans un contentieux documenté, la filiale poursuivie a été cédée par sa société mère, l'opération étant achevée le 13 mars 2025, le procès au fond étant fixé à mars 2027.
+
+::hypothese:: **Le périmètre du groupe est une variable que le défendeur contrôle et que le demandeur subit.** Un dispositif de contrôle assis sur des attestations de tiers **suppose une contrepartie stable, et rien ne garantit qu'elle le soit.**
+
+::etat:: **S'y ajoute un mouvement législatif observé en cours** [L6.C13] : le régime européen harmonisé de responsabilité civile de la directive (UE) 2024/1760 a été **supprimé par la directive (UE) 2026/470 avant même sa transposition**, tandis que **l'outil probatoire de son article 29 a été maintenu** — le juge peut toujours ordonner la communication des pièces sous le contrôle de la société.
+
+::hypothese:: **Ce qui a été retiré avait un débiteur nommé ; ce qui a survécu n'a de coût que si quelqu'un l'exerce.** **Un contrôle qui repose sur une faculté offerte à un tiers n'a pas la même robustesse qu'une obligation pesant sur le contrôlé.**

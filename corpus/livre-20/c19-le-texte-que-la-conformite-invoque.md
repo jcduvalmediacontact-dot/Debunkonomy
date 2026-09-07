@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -108,3 +108,15 @@ renvois: [L1.C27, L7.C17, L11.C24, L20.C01, L20.C18, L20.C20, L20.C22]
 ::etat:: **Et tout dépend d'un mot que le texte ne définit pas** — le produit similaire. Deux produits identiques fabriqués autrement le sont-ils ? **La question est centrale, elle se tranche par la jurisprudence, et le corpus n'en tient aucune.**
 
 ::hypothese:: **Le chapeau laisse une ouverture** — la discrimination prohibée est celle qui s'exerce entre pays où les mêmes conditions prévalent. **Piste, non résultat** : c'est une lecture littérale, et le corpus s'est interdit d'en tirer des conclusions au deuxième chapitre de ce livre.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Un appui de droit interne pour l'extraterritorialité, et sa limite** [L6.C10]. **Conseil constitutionnel, n° 2019-823 QPC, texte lu le 2026-09-07** : « le législateur est fondé à tenir compte des effets que les activités exercées en France peuvent porter à l'environnement **à l'étranger** » — le Conseil précisant que le législateur fait obstacle à ce que des entreprises établies en France participent à la vente de tels produits « partout dans le monde et donc, **indirectement**, aux atteintes qui peuvent en résulter ».
+
+::etat:: **LA LIMITE EST NETTE** : l'énoncé regarde au-delà de la frontière **la conséquence d'un acte accompli EN DEÇÀ.** Il ne dit rien de l'opération inverse — réglementer, depuis un territoire, un acte accompli à l'étranger — **qui est celle de l'ajustement aux frontières. Le précédent est réel et il ne couvre pas le cas du corpus.**
+
+::etat:: **Et le préambule de la Charte de l'environnement, cité par la décision, porte une clause que le corpus n'avait pas** : les choix du présent « ne doivent pas compromettre la capacité **des générations futures ET DES AUTRES PEUPLES** à satisfaire leurs propres besoins ». **Second ancrage de droit positif pour l'engagement intergénérationnel**, après la « comproprietà inter-generazionale » italienne — **et celui-ci vise aussi les autres peuples.**

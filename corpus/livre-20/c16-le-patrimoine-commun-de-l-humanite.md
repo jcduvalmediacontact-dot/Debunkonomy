@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -95,3 +95,17 @@ renvois: [L1.C17, L1.C22, L7.C05, L7.C13, L11.C16, L20.C01, L20.C11, L20.C17, L2
 ::hypothese:: **L'institution gardienne est décrite** — personnalité internationale, immunités énumérées, et un mandat défini par le compte pour lequel elle agit. **La formule « pour le compte de l'humanité » place le titulaire des droits hors de l'assemblée qui décide** : réponse en droit au conflit d'intérêts de L7.C04, et non en fait.
 
 ::etat:: **Deux manques graves.** L'accord de 1994 qui a rendu ce régime applicable n'est pas au dossier — **la même erreur que L20.C08, commise sciemment le même jour** —, et la numérisation rend illisibles le partage des bénéfices et les pouvoirs de l'Assemblée.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le manque que ce chapitre déclarait est comblé** [L6.C06] — il ne généralise plus depuis un seul cas minéral. **Trois autres régimes entrent au corpus**, dont un ouvert sur son texte : la **loi italienne n° 168 du 20 novembre 2017**, consolidé lu le 2026-09-07.
+
+::etat:: **La catégorie juridique cherchée existe et elle est plus complète que celle de 1982** : article 3 § 3, « inalienabilità, indivisibilità, inusucapibilità e perpetua destinazione agro-silvo-pastorale », **avec le verbe *resta*** — la loi ne crée pas le régime, elle constate qu'il continue. Six catégories de terres, **plus les corps d'eau.**
+
+::hypothese:: **Mais ce n'est pas l'inaliénabilité qui la fait tenir**, et la Cour constitutionnelle l'a jugé en 2023 en la retranchant pour les terres privées **parce qu'elle ne servait à rien** : les usages civiques ont **l'inhérence, le *ius sequelae* et l'opposabilité *erga omnes***, suivent le fonds quel qu'en soit le propriétaire, **survivent à la vente forcée et s'imposent sans formalité de publicité.**
+
+::hypothese:: **Règle qui remplace celle du bloc : un commun tient non parce qu'on interdit de vendre, mais parce qu'un droit réel inhérent suit le fonds.** Et **une servitude n'est pas un commun** — « le commun attache un droit d'usage à une appartenance ; la servitude attache une charge à un fonds ; l'un crée des sujets, l'autre grève des objets ».

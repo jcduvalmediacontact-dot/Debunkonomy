@@ -128,3 +128,17 @@ renvois: [L2.C08, L2.C14, L2.C21, L2.C22, L7.C19, L8.C31, L11.C18, L11.C19, L11.
 ::hypothese:: **Quatre exigences entrent au Livre 11 — et la première est la plus coûteuse.** Un fonds a un solde ; **une biosphère n'en a pas.** Le Livre 11 ne peut pas construire une gradation **tant qu'il n'a pas dit ce qu'elle minimise.**
 
 ::etat:: **Le corpus tient le texte, non son application, ni ses valeurs, ni aucun équivalent environnemental.**
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'opération inverse a été observée en droit positif, et elle est datée** [L6.C13]. La directive (UE) 2026/470 a ramené le plafond des sanctions **d'un MINIMUM de cinq pour cent à un MAXIMUM de trois pour cent** du chiffre d'affaires net mondial.
+
+::hypothese:: **Ce n'est pas une baisse de calibration mais un changement de nature.** **Un minimum contraint l'autorité** — elle doit sanctionner au moins à ce niveau, et son inaction est un manquement. **Un maximum contraint le sanctionné** — l'autorité peut descendre jusqu'à zéro sans rien violer. **Ils ne portent pas sur la même personne.**
+
+::hypothese:: **Conséquence pour ce chapitre : un barème exprimé en maximum ne produit aucune obligation pour celui qui l'applique.** Le corpus doit écrire ses taux **en plancher**, ou nommer la conséquence du fait de rester en dessous.
+
+::hypothese:: **Deux techniques symétriques versées par le Livre 6, et elles complètent la dérogation qui expire** [L6.C06]. En Italie, une dérogation **définitive mais seulement partielle** : sortie possible sur transformation irréversible antérieure à 1985, échange à « superficie e valore ambientale equivalenti », **et contrainte paysagère maintenue sur les terres libérées.** **Deux façons d'empêcher qu'une dérogation solde la contrainte.**

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -191,3 +191,17 @@ Le chapitre a formulé quatre règles : l'octroi de la monnaie nouvelle appartie
 ::hypothese:: Comme toute grammaire, celle-ci a été écrite. Elle est humaine, historiquement située, et donc réécrivable — non par décret, mais par un travail sur les règles elles-mêmes, sur ceux qui les écrivent, sur ce qu'elles permettent de dire, et sans doute par des institutions nouvelles capables de porter des règles différentes. Ce chantier occupe la seconde moitié du livre.
 
 Avant d'y entrer, une question s'impose : des tentatives existent-elles déjà, dans l'histoire ou dans l'actualité, de parler la monnaie autrement — des monnaies conçues selon d'autres règles, expérimentées à petite échelle, parfois avec succès, parfois dans le drame ? C'est l'objet du chapitre suivant.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Une cinquième application de l'autorité d'octroi, sur un objet que ce chapitre n'avait pas prévu** [L6.C12]. **Ce qui devient finançable est LE LITIGE lui-même.** Dans un arbitrage d'investissement documenté, les droits économiques liés à une sentence non définitive ont été **monétisés**, une avance versée contre tranches conditionnelles, et **le risque d'annulation assuré**.
+
+::hypothese:: **Une créance née d'une décision de politique écologique devient donc un actif financier avant d'être un droit acquis, et sa valeur suit la probabilité que l'État perde.** Il existe par là **un intérêt financier constitué à ce que la politique soit attaquée.**
+
+::hypothese:: **Le corpus signale que c'est une extension du concept de fausse richesse de L1.C02, non son application directe** : la contrepartie n'y est pas un dommage physique, **c'est une politique empêchée.**
+
+::hypothese:: **S'y ajoute le résultat de L6.C07 versé à L1.C07** : le créancier décide aussi de ce qui peut être protégé. **Deux règles jamais énoncées, et ce chapitre n'en comptait que quatre.**

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -436,3 +436,17 @@ renvois: [L1.C08, L1.C10, L1.C11, L1.C17, L1.C18, L1.C19, L1.C20]
 ::hypothese:: Mais l'examen a fait apparaître autre chose, et le corpus doit le dire nettement : **trois questions se posent en amont du calibrage et ne se règlent par aucun paramètre.** Le statut des créances financières domestiques, qui décide si l'objection de Keynes est reçue ou non. L'assiette du reflux transactionnel, qui suppose une traçabilité de l'empreinte cumulée dont l'infrastructure n'existe pas. Et la consolidation des encaisses, dont la forme la moins intrusive a déjà été jugée disproportionnée. Ces trois-là relèvent de la conception, du droit et de l'instrumentation, non du réglage. Les trancher est un préalable au modèle quantifié, non une suite.
 
 ::etat:: Le trancher exige ensuite un modèle avec ses hypothèses, ses données et ses tests de sensibilité — c'est l'objet annoncé d'un cahier ultérieur, et c'est là que la proposition sera jugée.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Une contrainte que ce chapitre n'a jamais formulée, versée en arbitrage A34** [L6.C10]. **Un barème qui fait dire au prix la vérité écologique exclut ceux qui ne peuvent pas la payer**, et l'exclusion est maximale là où le signal doit être le plus fort. Ce chapitre raisonne sur l'orientation des comportements — **jamais sur l'agent qui ne peut pas payer et n'a pas de choix à modifier.**
+
+::etat:: **Le droit français a tranché ce dilemme en 1982, dans l'autre sens, et PAR LA LOI** : le régime d'indemnisation des catastrophes naturelles repose sur une **surprime uniforme NON INDEXÉE SUR LE RISQUE**, réassurée publiquement — **un prix que la loi empêche délibérément de signaler**, parce qu'un prix indexé rendrait la couverture inaccessible là où elle est le plus nécessaire.
+
+::hypothese:: **Asymétrie interne relevée et inexpliquée** : le demurrage comporte un seuil d'exemption indexé, **le reflux transactionnel n'en comporte aucun**, et rien dans le corpus ne justifie la différence.
+
+::hypothese:: **Et le SENS de l'effet d'anticipation n'est pas acquis**, correction portée à L11.C10 le même jour : l'assiette frappant l'acquisition **et** l'activité ultérieure, avancer un achat dégénératif expose à des années de prélèvement sur l'exploitation. **Épreuve E1 sous F7.**

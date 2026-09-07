@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -167,3 +167,13 @@ La deuxième porte sur le découplage : quand bien même le crédit serait orien
 Le chapitre a établi ce qu'est une malédiction monétaire — un piège structurel, non une faute — et décrit la première : la monnaie nouvelle n'entre en existence qu'à travers un filtre conçu pour des prêts remboursables, qui laisse passer ce qui promet une recette et rejette ce qui régénère sans en produire ; ce qui ne rembourse pas ne peut être financé qu'en redistribuant de la monnaie existante, en aval du filtre et sans permanence. Il a donné les ordres de grandeur en distinguant les échelles, et montré pourquoi la régulation, la taxonomie, la tarification des externalités et le budget déplacent le filtre sans le lever.
 
 Le chapitre n'a pas démontré que la trajectoire du monde se réduise à ce mécanisme, ni qu'un autre circuit d'émission soit praticable : le premier point exige les deux chapitres suivants, le second la seconde partie du livre.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **La troisième malédiction s'énonce en droit des biens, sur un cas** [L6.C07]. Réparer la dette écologique exige d'attacher une charge à un bien ; **la charge déprécie le gage ; et le gage a un titulaire qui a le droit de dire non.** Aucun des trois maillons ne suppose de faute.
+
+::hypothese:: **Le corpus enregistre que la malédiction n'est donc pas seulement macroéconomique : elle a une forme contractuelle, observable acte par acte**, dans le bureau d'un notaire vérifiant l'absence d'inscription hypothécaire.

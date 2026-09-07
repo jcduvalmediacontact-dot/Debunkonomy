@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -100,3 +100,15 @@ renvois: [L7.C07, L7.C13, L7.C14, L7.C19, L11.C19, L11.C25, L20.C01, L20.C03, L2
 ::hypothese:: **La cinquième fonction de L7.C13 n'est pas absente : elle s'exerce par défaut**, à travers les décisions d'interprétation. **Le droit se produira sans avoir été attribué**, ce qui est le contraire de ce que le livre source demande.
 
 ::etat:: **Aucun arrêt sur un acte de politique monétaire n'est ouvert**, alors que ce contentieux porte sur la frontière entre politique monétaire et politique économique — **c'est-à-dire sur la question de L20.C03.** Manque le plus lourd du bloc « interdiction ».
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Le degré supérieur est documenté, et il ne suffit pas** [L6.C06]. Ce chapitre tient l'absence de juge extérieur pour le maillon manquant. **Dans l'affaire ogiek, une juridiction extérieure existe** : elle a jugé au fond en 2017, chiffré les réparations en 2022, ordonné délimitation et titrage, **puis constaté formellement l'inexécution le 4 décembre 2025** — et la décision de conformité n'a d'autre contenu **qu'une nouvelle injonction.** Rien d'exécuté au 30 août 2026.
+
+::hypothese:: **Le juge n'était pas le maillon manquant.** Trois cas du Livre 6 le montrent, et **l'objet manquant est le même dans deux d'entre eux : la délimitation foncière.** Un droit sur un territoire dont les limites ne sont pas tracées **n'a pas d'assiette, et aucune juridiction ne trace de limites à la place d'un État.**
+
+::etat:: **UN QUATRIÈME CAS DIFFÈRE ET IL FAUT LE DISTINGUER** [L6.C13] : dix ans entre les faits et un jugement de responsabilité, plus de six cent mille demandeurs, **aucun montant fixé**, la phase du préjudice individuel n'étant pas attendue avant 2029 selon le défendeur. **Ni inexécution ni mauvaise volonté : la durée propre d'une procédure de masse. Un droit lent produit le même résultat qu'un droit inexécuté.**

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -113,3 +113,17 @@ De la description du § 2 découlent, sans étapes supplémentaires, quatre cons
 **Quatre.** La politique monétaire, au sens du débat public, ne porte que sur une fraction du pouvoir monétaire réel. Les taux directeurs, les opérations d'*open market*, l'assouplissement quantitatif, la politique de bilan de la Banque centrale modifient les conditions d'accès à la liquidité et le coût du crédit — donc influent, indirectement, sur les décisions de crédit des banques commerciales. Ils ne décident pas de la composition sectorielle du crédit accordé. Le débat public sur la monnaie porte ainsi sur les paramètres généraux d'un pouvoir dont l'exercice sectoriel reste hors du débat.
 
 Ces quatre conséquences ne démontrent pas qu'une modification du régime d'émission monétaire soit possible, souhaitable ou suffisante. Elles délimitent ce que toute proposition sérieuse en matière d'orientation de l'économie doit prendre en compte : le levier monétaire principal est aujourd'hui hors du champ de la décision publique, non pour des raisons techniques, mais par l'effet direct de la manière dont la monnaie est créée. Les chapitres suivants examinent ce que cette contrainte engendre — à commencer par l'effet de la dette sur les trajectoires économiques — et ce que différents dispositifs modifieraient s'ils étaient introduits.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Le créancier ne décide pas seulement de ce qui se finance : il décide de ce qui peut être PROTÉGÉ** [L6.C07]. L'obligation réelle environnementale du droit français — article L. 132-3 du code de l'environnement, charge écologique attachée au bien jusqu'à quatre-vingt-dix-neuf ans — **est subordonnée en pratique à l'accord du créancier hypothécaire, qui n'a pas intérêt à consentir puisque la charge déprécie l'assiette de sa sûreté.**
+
+::hypothese:: **Le mécanisme est propre et sans mauvaise foi** : la sûreté est un droit acquis, la dépréciation est réelle, le refus est rationnel. **La solvabilité anticipée qu'établit ce chapitre a donc une portée que ce chapitre n'énonce pas** — elle filtre non seulement les projets, mais les engagements de conservation.
+
+::etat:: **RÉSERVE PORTÉE PAR LE REGISTRE DU LIVRE 6** : ce verrou est une **pratique notariale, non une règle légale explicite**, et aucune décision judiciaire ne l'a tranché.
+
+::hypothese:: **ET UNE SORTIE EXISTE, versée en L6.C06 après lecture de l'arrêt italien n° 119 de 2023.** Les usages civiques italiens ne se heurtent pas au créancier : leur opposabilité « opera a prescindere dal rispetto di oneri pubblicitari » et survit à la vente forcée. **La différence est de nature : une charge inscrite vient après le créancier et lui demande permission ; une charge inhérente au fonds était là avant et ne la demande pas.** **Le corpus ne peut pas obtenir par convention ce que l'antériorité donne.**

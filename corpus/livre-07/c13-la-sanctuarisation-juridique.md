@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -105,3 +105,19 @@ renvois: [L1.C18, L1.C22, L1.C27, L7.C01, L7.C05, L7.C11, L7.C12, L11.C13, L11.C
 ::hypothese:: **Cela renforce le dispositif — il fonde sa valeur sur un titre au lieu de l'imposer — et cela déplace sa difficulté d'adoption** du terrain de la coalition commerciale vers celui du droit conventionnel, où l'unanimité est fréquente. **C'est le préalable sur lequel le dispositif a le moins de prise.**
 
 ::etat:: **Et le corpus découvre pour la troisième fois aujourd'hui une matière qu'il détenait sans l'avoir consultée** : le Livre 6, quatorze épisodes acquis, qui porte exactement le droit que cette cinquième fonction doit produire.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La question de ce chapitre est répondue, et la réponse est inconfortable** [L6.C12]. Une technique juridique résiste à un rapport de forces qui change : **la clause de survie.** Article 47 du traité sur la Charte de l'énergie, **lu dans le texte authentique** (Recueil des Traités de l'ONU, vol. 2080, n° 36116) — retrait impossible **avant cinq ans**, effet **un an** après notification, **vingt ans à compter de cette prise d'effet.** **Vingt et un ans depuis la notification, cliquet à trois crans.**
+
+::etat:: **Et une seconde clause de survie couvre l'APPLICATION PROVISOIRE** : vingt ans après sa fin, **sans aucune ratification.** La protection ne dérive pas du consentement définitif — **elle dérive du fait d'avoir laissé entrer l'investissement.**
+
+::hypothese:: **Ce chapitre ne peut donc plus demander une sanctuarisation sans écrire ce qu'elle coûte.** **Un mécanisme qui rend une décision résistante à sa révision est indifférent au sens de cette décision** : il protège le passé contre l'avenir, quel que soit le passé. **La sanctuarisation demandée ici armera aussi ceux qui viendront après.**
+
+::hypothese:: **Deuxième occurrence de la même symétrie**, après la technique de fermeture instruite en L6.C08 — validée constitutionnellement en 2025 et **construite pour accélérer une extraction.** Les deux outils que le corpus voudrait reprendre existent, fonctionnent, **et servent aujourd'hui la direction inverse de la sienne. Aucun ne porte de valeur propre.**
+
+::hypothese:: **Et ce que ce chapitre demande n'est peut-être pas un commun** [L6.C06]. L'arrêt italien n° 119 de 2023 établit qu'un commun tient **non parce qu'on interdit de vendre le fonds, mais parce qu'un droit réel inhérent, opposable erga omnes et indifférent à la publicité, le suit.** L'immobilisation est **un supplément vulnérable parce qu'inutile** — et une sanctuarisation qui ne créerait pas d'ayants droit serait **une servitude, non un commun.**

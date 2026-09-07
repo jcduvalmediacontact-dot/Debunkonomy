@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -248,3 +248,13 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 ::hypothese:: **L'effet de position rend le signe de l'instrument indéterminé** sur le segment qui concentre l'empreinte, et l'instrument qui y répondrait — quota, norme, plafond — appartient à une famille que le dispositif a choisi de ne pas prendre sans le dire.
 
 ::etat:: **Le dispositif est de classe (d), et le cadre employé ici est fait pour les classes (a) et (b).** Le comptage garde sa valeur de constat interne et perd celle de verdict. **Ce n'est pas une dispense** : Tinbergen désigne l'absence de recherche empirique sur cette classe comme un besoin urgent, et son avertissement sur la spéculation vaut pour ce dossier autant que pour ses voisins.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Un instrument existant fait l'inverse de ce que ce chapitre suppose, et par la loi** [L6.C10]. Le régime français des catastrophes naturelles, depuis 1982, repose sur une **surprime uniforme non indexée sur le risque**, adossée aux contrats d'habitation et réassurée publiquement. **C'est un prix auquel le législateur a retiré sa fonction de signal**, au motif qu'un prix indexé rendrait la couverture inaccessible là où elle est le plus nécessaire.
+
+::hypothese:: **L'affectation des instruments aux objectifs suppose donc un préalable que ce chapitre ne pose pas : que le signal soit l'instrument approprié.** Sur un marché où le signal exclut, **il est l'instrument d'un autre objectif que celui qu'on lui assigne.** Voir l'arbitrage A34.

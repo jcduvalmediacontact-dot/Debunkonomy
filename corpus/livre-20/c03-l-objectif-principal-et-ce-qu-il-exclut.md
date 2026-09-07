@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -90,3 +90,17 @@ renvois: [L1.C01, L1.C18, L1.C20, L7.C03, L8.C12, L8.C34, L11.C16, L20.C01, L20.
 ::hypothese:: **La conséquence la plus lourde est de méthode, et elle est à la charge du corpus** : le mandat étroit applique une théorie que le corpus tient pour valide ailleurs. **Il ne peut demander son élargissement qu'en fournissant, pour l'objectif écologique, une règle aussi contraignante que la cible d'inflation** — c'est-à-dire en revendiquant les barèmes du Livre 11 comme l'équivalent fonctionnel d'une cible, ce qu'il n'a jamais fait.
 
 ::etat:: **L'article auquel le renvoi conduit n'a pas été lu, et aucun mandat non européen n'est au dossier.**
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'égalisation de rang que ce chapitre déclare manquante existe en droit national, et elle est datée** [L6.C10]. **Conseil constitutionnel, n° 2019-823 QPC du 31 janvier 2020, texte lu le 2026-09-07** : la protection de l'environnement, « patrimoine commun des êtres humains », **constitue un objectif de valeur constitutionnelle**, et « il appartient au législateur d'assurer la conciliation de ces objectifs avec l'exercice de la liberté d'entreprendre ». **Antériorité datée de 2013**, où elle n'était qu'un *but d'intérêt général*.
+
+::hypothese:: **L'apport est ce passage, et c'est un déplacement de la CHARGE, non un renforcement du DEGRÉ.** Un but d'intérêt général excuse une atteinte ; un objectif de valeur constitutionnelle **entre dans la balance à égalité de rang.**
+
+::etat:: **MAIS L'INTENSITÉ DU CONTRÔLE EST RESTREINTE, et le corpus le porte** : le Conseil ne pèse pas lui-même, il vérifie que la conciliation « **n'est pas manifestement déséquilibrée** ».
+
+::hypothese:: **L'objectif de valeur constitutionnelle AUTORISE le législateur à protéger l'environnement ; il ne l'y OBLIGE PAS.** Un dispositif qui compterait sur ce rang pour s'imposer au législateur se tromperait d'instrument. **Et sa portée n'est pas mesurée** — aucune décision d'application n'est ouverte.

@@ -41,6 +41,37 @@
 # d'un chapitre. Un `livre` absent de ce registre bloque la publication, comme
 # un concept absent de `vocabulaire.yaml`.
 #
+# ── FORMAT DE LA PASSE 1 ── arbitré par l'auteur le 2026-09-07 ─────────────
+#
+# FENÊTRE DE DEUX SEMAINES POUR PRODUIRE TOUS LES LIVRES DE LA PREMIÈRE PASSE.
+# Onze matricules restaient à ouvrir au 2026-09-07 — 3, 5, 9, 10, 12 à 18 —
+# tous avec titre et fonction déclarés. Le Livre 0 s'écrit en dernier.
+#
+# ARITHMÉTIQUE QUI COMMANDE LE FORMAT : onze livres en quatorze jours, soit
+# DIX À DOUZE CHAPITRES PAR LIVRE. Les livres déjà écrits — 22, 23, 29, 30,
+# 41 chapitres — NE SONT PAS LA NORME À ÉGALER : ils ont été faits sans
+# échéance. Ce qui baisse est le NOMBRE, non la rigueur : qualifications,
+# réserves déclarées, règles de rédaction des registres et discipline des
+# cinq données restent opposables à chaque chapitre.
+#
+# Reprise de l'instruction de l'auteur du 2026-09-05 : « quitte à ne pas être
+# parfaite. On y verra plus clair. Ce sont les passes futures qui répondront
+# aux questions et aux blancs. »
+#
+# ── DIVERGENCE REGISTRE / DÉPÔT SIGNALÉE LE 2026-09-07, NON TRANCHÉE ───────
+#
+# Le LIVRE 4, « Les Cahiers Humanistes », est déclaré ici au statut `acquis`
+# avec ONZE chapitres — Weber, Lafargue et Russell, Arendt, Simone Weil,
+# Castel, Gorz, Ellul et Illich, Black et Graeber, Federici et Fraser,
+# Foucault et Han, Tainter et Suzman. LE DOSSIER `corpus/livre-04/` N'EXISTE
+# PAS. Le script compte 180 chapitres, ce registre en déclare 191 : l'écart
+# est exactement le Livre 4.
+#
+# Deux lectures possibles, et le corpus ne tranche pas : soit les onze
+# chapitres existent hors du dépôt et n'ont jamais été convertis, soit le
+# compte est une projection du plan qui n'a pas été écrite. LA CONVENTION DIT
+# QUE LE PLAN TRANCHE — question posée à l'auteur le 2026-09-07.
+#
 # ── CE QUE SONT LES LIVRES ANNEXES ── arbitré par l'auteur le 2026-09-04 ───
 #
 # Le Livre 1 est le socle. TOUS LES AUTRES LIVRES EN SONT DES APPROFONDISSEMENTS
@@ -429,7 +460,7 @@ livres:
       - "objection — P17 : représenter une entité sans volonté par définition statutaire de son intérêt"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 12
+    chapitres_acquis: 13
     methode: "protocole propre — protocole éditorial, versions maîtresses, dossier de recherche, archives"
     architecture: "Valider définitivement les épisodes 12 à 21."
     note: >

@@ -3069,3 +3069,42 @@ cherche.**
 texte n'a pas été lu**, non plus que le rapport de 2024 ni l'exercice
 prudentiel de décembre 2024 qui en projettent la tension. **L'arbitrage porte
 sur une figure, non sur un chiffre.**
+
+---
+
+## Balayage rétrospectif de la passe 1 du Livre 6 — exécuté le 2026-09-07
+
+**QUATRE PASSES DE DETTE SOLDÉES D'UN COUP**, sur décision de l'auteur : le
+balayage se fait **à la clôture de la passe**, non à la fin du corpus. Motif
+retenu — avec onze livres encore à ouvrir, **le graphe des renvois deviendrait
+trop dense pour être balayé** si l'annotation était différée.
+
+**SEIZE CHAPITRES ANNOTÉS**, hors Livre 6, chacun recevant ce que la passe 1 du
+Livre 6 lui rend. Chaque annotation porte l'en-tête « BALAYAGE DU LIVRE 6 » et
+déclare que **ce qui est versé n'a pas été instruit dans le chapitre d'accueil
+et ne modifie pas ce qui précède** : c'est un dépôt pour la passe 2.
+
+| Chapitre | Ce qu'il reçoit |
+|---|---|
+| **L1.C07** | le créancier hypothécaire décide **de ce qui peut être protégé**, pas seulement de ce qui se finance — et la sortie italienne : une charge inhérente ne demande pas sa permission |
+| **L1.C09** | **cinquième règle jamais énoncée : ce qui devient finançable est LE LITIGE**, monétisé, avancé, assuré contre l'annulation |
+| **L1.C11** | la troisième malédiction **s'énonce en droit des biens**, acte par acte, sans faute d'aucune partie |
+| **L1.C21** | **arbitrage A34** — le barème qui dit vrai exclut ; le régime de 1982 a tranché l'inverse par la loi ; et **le signe de l'effet d'anticipation n'est pas acquis** |
+| **L7.C13** | la sanctuarisation demandée **armera aussi ceux qui viendront après**, et ce qu'elle produirait serait **une servitude, non un commun** |
+| **L11.C03** | un instrument existant **retire au prix sa fonction de signal, par la loi** — l'affectation suppose un préalable non posé |
+| **L11.C16** | la **valorisation à bénéficiaire nommé** existe en droit positif ; et **ce n'est pas l'inaliénabilité qui fait tenir un commun** |
+| **L11.C24** | appui **et limite** de l'extraterritorialité ; **le seuil défini par sa conséquence** et son coût |
+| **L11.C25** | **la filiale cédée pendant l'instance** ; et l'outil probatoire qui survit au régime qui l'entourait |
+| **L11.C29** | **un plancher converti en plafond** : changement de nature, non de calibration ; deux techniques de dérogation bornée |
+| **L20.C03** | l'égalisation de rang **existe** en droit national — **mais le contrôle est restreint : elle autorise, elle n'oblige pas** |
+| **L20.C12** | **la réciproque** : ce que le traité ne pose pas, aucun échelon inférieur ne le posera valablement |
+| **L20.C14** | **le juge n'était pas le maillon manquant** — et un quatrième cas où c'est la lenteur, non l'inexécution |
+| **L20.C16** | le manque déclaré est **comblé** ; et la règle qui remplace celle du bloc |
+| **L20.C17** | **la question est répondue et la technique protège l'investisseur** — vingt et un ans, cliquet à trois crans |
+| **L20.C19** | l'appui extraterritorial et **sa limite exacte** ; le préambule visant **les autres peuples** |
+
+**CE QUE LE BALAYAGE A COÛTÉ** : une exécution, sans arbitrage nouveau. **Ce
+qu'il a révélé** : les couplages tenaient déjà tout — le retard n'était pas dans
+la découverte mais dans le portage. **La leçon pour les onze livres à venir est
+que le portage doit suivre la clôture immédiatement**, faute de quoi il devient
+un chantier au lieu d'être une écriture.

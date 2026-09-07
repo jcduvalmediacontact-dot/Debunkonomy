@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -136,3 +136,17 @@ renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, 
 ::hypothese:: **La réciprocité est un quatrième cas que rien ne traite** — distinct de l'adoption contre le créancier, du passager clandestin externe et du passager clandestin interne. **Le mécanisme d'escalade y est le même que le mécanisme d'adoption**, ce qui est un renseignement et non une garantie.
 
 ::hypothese:: **Tout est plus facile quand la coalition est déjà grande, et la difficulté n'est pas seulement politique : elle est métrologique.** Une petite coalition n'obtient pas les données qui lui permettraient de moduler, **donc son barème perçoit sans orienter** — le mode d'échec de A11, atteint par le dehors. **Il faut donc à la stratégie d'adoption un second seuil, jamais estimé : celui à partir duquel les exportateurs documentent.** Arbitrage A27.
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Un appui de droit positif pour l'extraterritorialité, et sa limite** [L6.C10]. **Conseil constitutionnel, décision n° 2019-823 QPC du 31 janvier 2020, lue dans son texte le 2026-09-07** : « le législateur est fondé à tenir compte des effets que les activités exercées en France peuvent porter à l'environnement **à l'étranger** ».
+
+::etat:: **LA LIMITE EST NETTE ET LE CORPUS LA PORTE** : l'énoncé regarde au-delà de la frontière **la conséquence d'un acte accompli EN DEÇÀ** — il ne dit rien de l'inverse. **Le cas de l'ajustement aux frontières, qui vise un acte accompli à l'étranger, n'est pas couvert.**
+
+::hypothese:: **Une option de conception non considérée par ce chapitre** [L6.C09] : **le seuil défini par sa CONSÉQUENCE** et non par une quantité mesurée. La Cour interaméricaine exige le **consentement**, et non la simple consultation, lorsqu'un projet est « susceptible de mettre en péril la subsistance physique, culturelle ou économique » d'une communauté. **Un tel seuil ne se contourne pas par le fractionnement, puisque c'est l'effet qui le déclenche.**
+
+::hypothese:: **COÛT NOMMÉ** : la mesure passe à l'amont, d'où l'exigence d'**études d'impact préalables** — qu'il faut que quelqu'un paie et qu'un tiers croie.

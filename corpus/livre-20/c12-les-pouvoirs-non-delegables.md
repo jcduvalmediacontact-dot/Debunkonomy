@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -85,3 +85,15 @@ renvois: [L7.C05, L7.C06, L7.C07, L7.C11, L7.C14, L11.C16, L11.C20, L20.C01, L20
 ::hypothese:: **Elle fournit une réponse à D2 par qualification plutôt que par attribution** : la valorisation des communs étant un partage borné par le produit, elle relève de la catégorie « distribution du revenu net », **qui ne se délègue pas.**
 
 ::hypothese:: **Deux dispositions en atténuent la portée** : cinq directeurs nommés par les cinq plus grosses quotes-parts, et l'obligation d'exprimer en bloc toutes les voix d'un directeur. **Restreindre la délégation ne corrige pas une composition, et l'agrégation forcée efface le désaccord des représentés.**
+
+---
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **La réciproque de ce chapitre, et elle contraint la rédaction du traité** [L6.C08]. **Ce que le traité ne pose pas lui-même, aucun échelon inférieur ne le posera valablement à sa place.** Une ordonnance communale reconnaissant des droits aux écosystèmes a été invalidée en 2015 **sur la compétence et non sur le fond** — « les motifs ne sont pas constitutionnels » — la même décision jugeant que la loi pétrolière ne préemptait pas l'ordonnance.
+
+::hypothese:: **Les régimes de commun qui tiennent ont tous été posés au niveau compétent** : loi nationale italienne, loi nationale néo-zélandaise, décret d'État. **Celui qui est tombé a été posé en dessous.** **Un commun mondial que le traité se contenterait d'encourager n'existerait nulle part.**
+
+::hypothese:: **Et la place qui reste à l'échelon local est réelle** [L6.C09] : la Cour interaméricaine exige que la consultation adopte « des formes **compatibles avec les structures décisionnelles de la communauté** ». **Poser le titre au niveau compétent, en régler la forme au niveau concerné.**
