@@ -983,3 +983,21 @@ auteurs, ou un dépôt qui ne pose pas de vérification.
 **les deux sources ouvertes ci-dessus partagent plusieurs auteurs et un même
 programme de recherche.** **Le corpus tient deux étages d'une même école et
 aucune contradiction**, et il doit le dire chaque fois qu'il s'en sert.
+
+### DEMANDE ADRESSÉE À L'AUTEUR — 2026-09-07 : trois pièces derrière une vérification anti-robot
+
+**LE CORPUS NE CONTOURNE PAS UNE DÉTECTION DE ROBOT.** Règle tenue le 2026-09-06
+contre un pare-feu applicatif (EUR-Lex par ligne de commande) et contre une
+preuve de travail (HAL) ; tenue **trois fois de plus dans la nuit du 2026-09-07**.
+**Ces trois pièces sont accessibles à un humain avec un navigateur ordinaire, et
+elles manquent au corpus.**
+
+| Pièce | Où | Ce qu'elle trancherait | Rang |
+|---|---|---|---|
+| **Cour internationale de justice, avis consultatif du 23 juillet 2025, « Obligations des États en matière de changement climatique »** — fichier `187-20250723-adv-01-00-fr.pdf` | `icj-cij.org/case/187/advisory-opinions` | **Un dommage climatique engage-t-il une responsabilité, et avec quelles conséquences juridiques ?** **C'est la question centrale de L25.C03**, laissée ouverte faute de cette pièce. Elle pèse aussi sur le Livre 20 et sur A35 | **1** |
+| **Décision 1/CP.21 accompagnant l'Accord de Paris**, document `FCCC/CP/2015/10/Add.1` | `unfccc.int` | **Ce que la décision ajoute ou retranche à l'article 8 sur les pertes et préjudices.** **L25.C03 établit ce que l'article CONTIENT et refuse de rapporter ce qu'il n'a pas lu** | **2** |
+| **F. Biermann et R. E. Kim, « The Boundaries of the Planetary Boundary Framework: A Critical Appraisal », Annual Review of Environment and Resources 45, 2020** | dépôt institutionnel de l'université d'Utrecht | **La seule critique publiée du cadre des limites planétaires que le corpus ait identifiée.** **Sans elle, le Livre 24 tient DEUX ÉTAGES D'UNE MÊME ÉCOLE et aucune contradiction** | **3** |
+
+**MÉTHODE POUR LE VERSEMENT** : déposer les fichiers dans le dossier des sources
+de l'auteur au Drive, comme le 2026-09-07 pour les pièces fiscales. **Le corpus
+les ouvrira par lecture directe et datera lui-même la vérification.**

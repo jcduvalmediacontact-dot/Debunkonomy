@@ -2682,3 +2682,31 @@ hypothèses, ni ses intervalles.** **Il s'interdit de les traiter comme des
 faits.** **ET L'ACQUISITION QUI LÈVERAIT F10 RESTE LA MÊME, NON FAITE** : la
 réforme des subventions dommageables, que le rapport nomme comme premier
 obstacle. **Ce chapitre en augmente l'urgence.**
+
+### F13 — TROISIÈME RÉGIME, AJOUTÉ LE 2026-09-07 PAR L25.C03
+
+**Le corpus tenait deux régimes après la restriction de L24.C02. UN TRAITÉ EN
+IMPOSE UN TROISIÈME.**
+
+**CE QUI L'ÉTABLIT.** **Accord de Paris, article 8 § 4** range parmi les domaines
+de coopération « les phénomènes susceptibles de causer des **pertes et
+préjudices IRRÉVERSIBLES ET PERMANENTS** » et « **LES PERTES AUTRES
+QU'ÉCONOMIQUES** ».
+
+**LES TROIS RÉGIMES.** **Entre dimensions du système Terre** : aucune conversion
+possible, faute d'unité commune — **c'est F13.** **Pour un dommage ÉCONOMIQUE
+subi par des personnes** : conversion possible, en une unité commune, et déclarée
+nécessaire par la source de L24.C02. **Pour les pertes AUTRES QU'ÉCONOMIQUES** :
+**le droit les nomme comme catégorie distincte SANS les convertir**, et le corpus
+n'a rien à proposer.
+
+**CE QUE LE TROISIÈME RÉGIME COÛTE AU DISPOSITIF.** **Une unité monétaire unique
+ne peut pas être l'instrument de tout ce qui doit être réparé**, parce qu'une
+partie de ce qui est perdu n'a pas de prix. **Et ce n'est pas le corpus qui le
+décide : c'est un traité qui l'énumère.**
+
+**RÉSERVE.** **Le corpus n'a pas ouvert la décision qui accompagne l'Accord**, ni
+l'avis consultatif de la Cour internationale de justice du 23 juillet 2025 —
+**deux sites protégés par une vérification anti-robot, que le corpus ne
+contourne pas.** **Ces deux pièces pourraient modifier ce troisième régime, et
+elles sont demandées à l'auteur.**

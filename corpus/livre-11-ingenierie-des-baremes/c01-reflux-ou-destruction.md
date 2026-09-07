@@ -206,3 +206,13 @@ renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29]
 ::etat:: **CE QUI SURVIT MALGRÉ TOUT, ET IL FAUT LE DIRE : L21.C04.** Le coût en fonds propres bancaires **ne dépend pas de la nature de l'unité** — il naît de ce que la banque centrale crédite des réserves à la banque d'un prestataire, **et ces réserves sont de la monnaie nationale ordinaire.** **Trois de capital de première catégorie par cent d'unités en circulation est le seul résultat inconditionnel du livre.**
 
 ::hypothese:: **LE PRIX DU SOULAGEMENT EST ÉNONCÉ EN L21.C05 § 6, ET IL TOUCHE LA REVENDICATION CENTRALE.** **Ce qui exempte le dispositif des contraintes d'infrastructure est exactement ce qui le prive du titre de monnaie.** La qualification vit hors du circuit de paiement ; **la fonte ne peut frapper que de la monnaie nationale, donc par une compétence fiscale nationale** (A36) ; **et le dispositif devient une émission nationale coordonnée assortie d'un registre**, non une conception monétaire. **F12 est proposé à l'auteur sur ce fondement.**
+
+## BALAYAGE DU LIVRE 25, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C03, qui ouvre l'Accord de Paris tel que l'Union l'a publié.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LA BIFURCATION EXPOSÉE ICI REÇOIT UN PRÉCÉDENT CONVENTIONNEL** [L25.C03]. **Accord de Paris, article 9 § 4** : les ressources d'adaptation doivent être « **d'origine PUBLIQUE et SOUS FORME DE DONS** ». **Le droit positif connait donc un versement définitif, sans créance en regard, pour un objet écologique.**
+
+::hypothese:: **Ce que cela ne règle PAS, et c'est précisément la question de ce chapitre : le traité oblige à FOURNIR, il ne dit pas D'OÙ LA RESSOURCE VIENT.** **Il ne crée aucune ressource ; il en impose la fourniture à partir de budgets existants.** **La bifurcation reflux ou destruction reste donc entière** — le précédent porte sur la FORME du versement, non sur son FINANCEMENT.
+
+::etat:: **ET SUR LA RÉPARATION, LE MÊME TRAITÉ NE DONNE RIEN.** **Article 8** : « reconnaissent la nécessité », « devraient », « **dans le cadre de la coopération et de la facilitation** » — **aucune responsabilité, aucune indemnisation, aucun montant, aucun débiteur désigné.** **Le passage de l'obligatoire au facultatif se fait exactement au moment où l'on passe de l'aide à la réparation.**

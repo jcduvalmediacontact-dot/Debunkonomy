@@ -361,3 +361,15 @@ Le chapitre ne décrit ni les taux, ni les assiettes, ni le calibrage de la dest
 ::hypothese:: **Le corpus enregistre que ce n'est pas une objection technique de plus mais l'énoncé comptable de la partie double**, et que **deux issues seulement s'offrent à ce chapitre.** **Ou bien le dispositif PRODUIT L'ACTIF** — ressource conservée, contrôlée, mesurée — **et l'écriture se boucle sans dette.** **Ou bien il assume de S'ÉCARTER DU RÉFÉRENTIEL, et doit dire au nom de quoi.**
 
 ::etat:: **Réserve de périmètre, déclarée** : le corpus ne sait pas si émetteur et bénéficiaires relèveraient d'une même entité consolidée. **À défaut, la symétrie ne s'annule dans aucun compte** — le constat tient, sa portée change.
+
+## BALAYAGE DU LIVRE 25, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C03, qui ouvre l'Accord de Paris tel que l'Union l'a publié.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UN PRÉCÉDENT DE DROIT POSITIF EXISTE POUR LA STRUCTURE DÉCRITE ICI, ET LE CORPUS NE LE TENAIT PAS** [L25.C03]. **Accord de Paris, article 9 § 1** : « **Les pays développés Parties FOURNISSENT des ressources financières pour venir en aide aux pays en développement Parties** aux fins tant de l'atténuation que de l'adaptation ». **§ 4** : l'accroissement doit tenir compte de « **la nécessité de prévoir des ressources d'origine PUBLIQUE et SOUS FORME DE DONS pour l'adaptation** ».
+
+::hypothese:: **La rédaction n'est pas hortative, et le contraste interne le prouve** : le § 2 dit que les autres Parties « **sont invitées** » à fournir « **à titre volontaire** », le § 3 emploie « **devraient** ». **Trois registres dans trois paragraphes successifs, et le premier est le seul impératif.**
+
+::etat:: **DONNER SANS CRÉANCE, POUR UN OBJET ÉCOLOGIQUE, ENTRE ÉTATS, SUR FONDS PUBLICS : CELA EXISTE EN DROIT.** **Ce chapitre décrivait cette structure comme la singularité du dispositif ; elle est déjà une obligation conventionnelle.**
+
+::hypothese:: **Conséquence sur la justification du dispositif, et elle est considérable.** **Il n'a pas à établir QU'IL FAUT DONNER — le traité l'établit.** **Il doit établir qu'il DONNE MIEUX, PLUS, OU PLUS SÛREMENT que ce qui existe**, et c'est une tout autre démonstration. **Réserve** : l'article 9 oblige à FOURNIR et ne dit pas D'OÙ VIENNENT les ressources — **c'est exactement l'espace que le dispositif prétend occuper.**
