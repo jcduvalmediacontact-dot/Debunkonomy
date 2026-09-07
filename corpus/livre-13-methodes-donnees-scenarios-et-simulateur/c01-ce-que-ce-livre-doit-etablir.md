@@ -55,3 +55,13 @@ renvois: []
 ::etat:: **Le matricule 13 est permanent.** Il ne se réattribue pas, ne s'insère pas et ne se renumérote pas, même si ce livre n'est jamais écrit (convention § 3).
 
 ::etat:: **Le registre n'est qu'une projection du plan directeur de l'auteur.** **En cas d'écart, le plan tranche et le registre est corrigé, jamais l'inverse.** Ce qui précède est donc rapporté sous réserve du plan.
+
+## BALAYAGE DU LIVRE 22, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C04, qui ouvre les critères techniques en vigueur pour la conservation et la restauration des habitats, des écosystèmes et des espèces.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UN FAIT DE CLASSIFICATION PÈSE SUR CE LIVRE, ET IL N'ÉTAIT PAS ATTENDU** [L22.C04]. **Règlement délégué (UE) 2023/2486, annexe IV, section 1.1** : les activités de conservation et de restauration des habitats, des écosystèmes et des espèces « **ne relèvent d'AUCUN CODE NACE SPÉCIFIQUE** », relevant seulement en partie du code R91.04 et de la classe 6 de la classification des activités de protection de l'environnement.
+
+::hypothese:: **L'ACTIVITÉ QUE LE DISPOSITIF VEUT PAYER N'EST PAS UNE CATÉGORIE STATISTIQUE.** **On ne peut pas extraire d'une comptabilité nationale un agrégat qui n'y a pas de code** — or **le dimensionnement de l'émission suppose de savoir combien d'activité qualifiable existe**, et c'est ce livre qui doit le dire.
+
+::etat:: **Second apport, méthodologique** : le barème en vigueur **ne mesure pas, il certifie un procédé** — état initial documenté, plan décennal, audit tiers, garantie de permanence. **Un tel dispositif produit des DOSSIERS, non des séries.** **Le simulateur que ce livre doit construire ne pourra donc pas s'alimenter à la source de la qualification**, et il lui faudra une autre voie.

@@ -2522,3 +2522,38 @@ est déjà une exigence de droit positif pour le barème existant.**
 l'architecture du barème, pas ses seuils** : les actes délégués portant les
 critères d'examen technique ne sont pas ouverts. **C'est là que se trouverait la
 réponse complète à F2, et c'est l'acquisition de rang 1 du Livre 11.**
+
+### F9 — RESTRICTION DU 2026-09-07, PAR L22.C04 : la qualification et la comptabilité n'exigent pas la même chose
+
+**F9 demande si une construction juridique attache à l'institution émettrice, sur
+la ressource régénérée, un droit lui permettant D'EXCLURE OU DE RESTREINDRE
+l'accès d'autrui. L22.C04 a ouvert le barème de qualification en vigueur pour
+cette activité même, et il demande AUTRE CHOSE.**
+
+**CE QUE LE BARÈME DEMANDE.** **Règlement délégué (UE) 2023/2486, annexe IV,
+section 1.1, point 5 — GARANTIE DE PERMANENCE**, par **trois voies
+alternatives** : la zone est **classée en aire protégée** (classification de
+l'UICN, site Natura 2000, ou autre mesure de conservation efficace par zone) ;
+**ou** elle est destinée à la restauration dans **un plan réglementaire
+d'utilisation des terres approuvé par les autorités** ; **ou** elle « **fait
+l'objet d'un ACCORD CONTRACTUEL PUBLIC OU PRIVÉ permettant de garantir la
+réalisation et le maintien des objectifs de conservation** ».
+
+**AUCUNE DES TROIS N'EST LA PROPRIÉTÉ. UN SIMPLE CONTRAT SUFFIT.**
+
+**LA RESTRICTION APPORTÉE À F9, ET ELLE NE LE LÈVE PAS.** **La QUALIFICATION
+d'une activité régénérative n'exige aucun droit réel : elle exige une garantie
+de durée.** **La COMPTABILISATION d'un actif, elle, exige un contrôle qui
+ressemble à la propriété** — IPSAS 47 § 19 et son test d'exclusion. **Le corpus
+avait confondu les deux exigences sous une seule question.**
+
+**F9 EST DONC RESTREINT À SON TERRAIN, QUI EST COMPTABLE.** *Le dispositif peut
+QUALIFIER sans posséder ; il ne peut pas COMPTABILISER sans contrôler.* **C'est
+exactement la tenaille de L18.C01** : l'activité est qualifiable, et le transfert
+reste une charge.
+
+**ÉCART À VERSER AU LIVRE 6 ET À L11.C16.** **L6.C06 tenait la solution la plus
+forte** — un droit réel inhérent qui suit le fonds, opposable à tous, survivant
+à la vente forcée. **Le droit positif de la qualification se contente de la plus
+faible : un contrat.** **La voie contractuelle est ouverte, elle est moins
+protectrice, et elle suffit à qualifier** — elle ne suffira pas à comptabiliser.

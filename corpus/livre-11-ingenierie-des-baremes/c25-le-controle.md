@@ -208,3 +208,15 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 ::etat:: **La seule voie compatible que le corpus tienne déjà est celle de L20.C20** — **certification par un tiers indépendant du déclarant ET des autorités du pays d'origine.** **Elle ne passe pas par la publicité** : elle substitue **un vérificateur qualifié** à **un public indéterminé**. **Et elle suppose un tiers certificateur qui n'existe pas partout.**
 
 ::etat:: **Ce chapitre doit donc trancher entre deux architectures de contrôle, et il ne l'a pas fait** : **la publicité**, restreinte par cet arrêt dans l'Union ; **ou la certification qualifiée**, qui suppose un corps de vérificateurs à constituer et dont L11.C25 n'a pas fixé les obligations de contrôle.
+
+## BALAYAGE DU LIVRE 22, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C04, qui ouvre les critères techniques en vigueur pour la conservation et la restauration des habitats, des écosystèmes et des espèces.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE CONTRÔLE DONT CE CHAPITRE FAIT TOUT DÉPENDRE A UNE FORME EN VIGUEUR, ET UNE LISTE** [L22.C04]. **Règlement délégué (UE) 2023/2486, annexe IV, section 1.1, points 3 et 4.** Le dossier exige : **cartographie des habitats**, **inventaire des espèces avec tailles de population**, **plan à onze rubriques sur dix ans avec objectifs intermédiaires**, **programme de suivi à indicateurs**, **audit tiers au démarrage puis au moins tous les dix ans**, **rapport d'audit PUBLIÉ**, certificateur **sans conflit d'intérêts** et n'ayant participé ni à l'élaboration ni à la mise en œuvre.
+
+::hypothese:: **C'est là que se loge le vrai coût de la qualification, et le corpus ne l'a jamais estimé.** **Conséquence défavorable : un dossier de cette lourdeur fixe une TAILLE MINIMALE DE PROJET QUALIFIABLE**, en dessous de laquelle le coût du dossier excède le montant émis — **ce qui exclut les petits opérateurs, et donc vraisemblablement ceux du Sud.**
+
+::etat:: **Conséquence favorable, et le texte la prévoit lui-même** : « **Dans un souci de réduction des coûts, les audits peuvent être réalisés SIMULTANÉMENT à tout processus de certification relatif aux forêts, à l'utilisation des terres, à la biodiversité, au climat** ». **Le législateur a vu la difficulté et a ouvert la mutualisation.**
+
+::etat:: **ACQUISITION DÉCLARÉE : des données de coût de certification environnementale.** **C'est le facteur qui décide de la taille minimale d'un projet qualifiable**, donc de qui peut entrer dans le dispositif.
