@@ -216,3 +216,15 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::etat:: **Et le second modèle va dans le même sens par une autre voie** [L18.C08]. **AfME** confie la répartition des coûts à une **négociation entre acteurs** — « the allocation is **always a topic of negotiation** within the collective » — **c'est-à-dire précisément ce que le barème veut remplacer par un signal.**
 
 ::etat:: **Le corpus ne tranche pas ici. Il enregistre que la position du barème doit être ARGUMENTÉE contre ces deux modèles, et non supposée compatible avec eux.**
+
+## BALAYAGE DU LIVRE 10 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 10.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une jurisprudence atteint la propriété même qui fait fonctionner le barème** [L10.C03]. **CJUE, grande chambre, *Weiss e.a.*, C-493/17, point 110** : l'intervention est incompatible avec l'article 123 TFUE si les opérateurs « **avaient la certitude** » du rachat, dans des conditions leur permettant d'agir « **de facto, comme des intermédiaires** ». **Point 112** : ce qui est toléré est d'« **anticiper, dans une certaine mesure** ».
+
+::hypothese:: **Le corpus enregistre que la qualité principale du barème est la certitude, et que c'est elle qui est visée.** **Une activité qualifiée SERA financée** — c'est ce qui rend le barème crédible et ce qui fait qu'un acteur engage une dépense de transformation. **Retirer la certitude, c'est retirer l'incitation ; la conserver, c'est produire l'état de fait prohibé.** **Ce n'est pas un défaut de rédaction : c'est ce qu'on demande à une règle contre la discrétion.**
+
+::etat:: **Et une garantie retenue par la Cour est frontalement incompatible avec ce chapitre** : la publication restreinte à des **informations agrégées**, « à l'exclusion de toute indication » individuelle. **L'opacité protège contre le contournement de la prohibition ; la TRAÇABILITÉ protège contre la fraude à la qualification.** **Le dispositif ne peut pas avoir les deux, et ce chapitre repose sur la seconde.**
+
+::hypothese:: **Une sortie est nommée et non tenue** : dans le programme examiné l'intermédiaire **transporte** un titre, tandis que celui qui obtient la qualification **a dû conduire l'activité** — il produit la contrepartie au lieu de la transporter. **Conjecture sur un raisonnement judiciaire, non résultat.** **Porté au protocole sous F4 ter.**

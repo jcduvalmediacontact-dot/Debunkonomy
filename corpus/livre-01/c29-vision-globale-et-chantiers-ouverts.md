@@ -205,3 +205,17 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 ::hypothese:: **LE CONTRÔLE A CHANGÉ DE NATURE, et c'est ce que ce chapitre doit enregistrer.** A30 le classait parmi des « questions de vérification ». **IPSAS 47 § 19 en fait autre chose** : la capacité d'exclure ou de réguler l'accès « **distinguishes an entity's assets FROM THOSE PUBLIC GOODS that all entities have access to and benefit from** ». **Le contrôle n'est pas un fait à prouver : c'est une propriété que le commun, par définition, n'a pas.**
 
 ::etat:: **Et le même paragraphe ferme la voie de contournement** : un rôle régulateur « **does not necessarily mean** that such regulated items meet the definition of an asset ». **Qualifier des activités par un barème ne vaut pas contrôle.**
+
+## BALAYAGE DU LIVRE 10 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 10.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La troisième condition d'A30 reçoit sa première instruction, et le résultat est mixte** [L10.C01] [L10.C02] [L10.C03].
+
+::etat:: **DÉFAVORABLE.** L'orientation BCE/2016/34, article 6, subordonne la comptabilisation à trois conditions **cumulatives** dont un **gain ou perte ÉCONOMIQUE futur** et le **transfert à l'entité de l'essentiel des risques et avantages** — **aucune branche de potentiel de service.** **Le test que le corpus croyait avoir abandonné à tort le matin même est, pour une banque centrale, celui qui s'applique**, et il est **plus strict qu'IPSAS**. S'y ajoute une **prudence asymétrique** : les plus-values latentes ne vont pas au compte de résultat, les moins-values y vont — **la réussite du dispositif ne se verrait pas dans les comptes de son émetteur, son échec s'y verrait.**
+
+::etat:: **FAVORABLE.** L'annexe IV réserve **l'évaluation AU COÛT** aux titres de créance détenus à des fins de politique monétaire, **obligatoirement pour les non négociables.** **Une dette collective y trouve une case, sans exposition au prix de marché ni à l'asymétrie de prudence.** **C'est la meilleure nouvelle que ce référentiel ait donnée au corpus.**
+
+::hypothese:: **ET LA CASE FAVORABLE EST SOUS CONDITION JURIDIQUE.** Elle exige un instrument de dette, **dont l'absence fondait l'échappatoire de L20.C02.** **A30 restait bloquant sur un point non juridique — ce qui garantit la dette collective s'érode quand le dispositif réussit. Il en reçoit un second, juridique.**
+
+::etat:: **Ce que le corpus doit désormais défendre a changé de nature.** Non plus sa légalité — L20.C02 tient la lettre — **mais la compatibilité de son MÉCANISME avec ce que la prohibition protège.** **Porté au protocole sous F4 ter.**

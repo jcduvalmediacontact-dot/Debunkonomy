@@ -135,3 +135,17 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 ::etat:: **Conséquence pour la qualification de l'unité** : si l'émission ne trouve pas d'actif reconnaissable, **IPSAS 48 la traite en charge** — les deux branches de son § 18 ne différant que par la date. **La qualification juridique de l'unité et sa qualification comptable ne sont donc pas indépendantes**, et le corpus les traitait séparément.
 
 ::etat:: **Réserve** : rien n'établit que l'institution émettrice relève de la comptabilité publique internationale. **Tout ce qui précède est conditionnel à cette troisième condition d'A30, qui n'a pas avancé.**
+
+## BALAYAGE DU LIVRE 10 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 10.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'échappatoire retenue par ce chapitre entre en tenaille avec une règle comptable, et le corpus tenait les deux pour acquises** [L10.C02]. Ce chapitre se dégage de la prohibition parce qu'« une unité qui n'est le crédit de personne ne tombe sous aucun des trois, **puisqu'il n'y a pas d'instrument de dette** ».
+
+::etat:: **Or l'annexe IV de l'orientation BCE/2016/34 réserve l'évaluation AU COÛT** — seul moyen d'échapper au prix de marché — **aux TITRES DE CRÉANCE détenus à des fins de politique monétaire**, les non négociables l'étant obligatoirement.
+
+::hypothese:: **Le corpus enregistre la tenaille.** **La voie comptable qui fonctionne exige l'instrument de dette dont l'absence fondait la voie juridique.** **Prendre le poste 7.1, c'est créer l'objet que l'article 123 prohibe ; l'éviter, c'est retomber sur le prix de marché.** **Et l'arbitrage A30, en adossant l'unité à une DETTE COLLECTIVE, a choisi le côté qui rend la voie comptable praticable et la voie juridique problématique.**
+
+::etat:: **La sortie par le marché secondaire est instruite en L10.C03, et elle déplace la tenaille au lieu de la résoudre.** Le programme validé par la Cour porte sur des titres **NÉGOCIABLES** ; l'évaluation obligatoire au coût vise les titres **NON NÉGOCIABLES**. **Trois configurations restent à examiner, aucune acquise.**
+
+::hypothese:: **Et le motif de la prohibition, tel que la Cour l'énonce, vise ce que le dispositif produit** : ne pas soustraire les États à « **l'incitation à conduire une politique budgétaire saine** ». **Un reflux collectif desserre par construction l'incitation qui pèse sur le débiteur individuel.** **La lecture littérale de ce chapitre reste exacte ; elle ne suffit plus.**

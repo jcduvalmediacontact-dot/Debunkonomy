@@ -720,3 +720,25 @@ renvoie pour toutes les dérogations à la valorisation de marché.
 pour le Livre 3**, et dans les mêmes proportions : la réserve de méthode du
 2026-09-07 est confirmée une seconde fois. **Les autres comptes de ce tableau
 doivent être tenus pour gonflés tant qu'ils ne sont pas vérifiés pièce à pièce.**
+
+## Ouverture du 2026-09-07 (nuit, suite) — annexe IV et jurisprudence de la Cour
+
+| Source | URL résolue | Ce qu'elle a établi |
+|---|---|---|
+| **Orientation BCE/2016/34, ANNEXE IV**, « Composition et règles de valorisation du bilan » | même document que ci-dessus | **LA DÉROGATION AU PRIX DE MARCHÉ EXISTE.** **Poste d'actif 7.1**, titres détenus à des fins de politique monétaire : **non négociables au COÛT**, obligatoirement ; négociables au coût **si la dépréciation est couverte par une provision au poste de passif 13 b)**. **Poste 11.2**, immobilisations : terrains et immeubles **au coût moins amortissement**, 25 ans, plancher 10 000 EUR, règle **« Recommandé »**. **Versé à L10.C02** |
+| **CJUE, grande chambre, 11 décembre 2018, *Weiss e.a.*, C-493/17**, ECLI:EU:C:2018:1000 | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62017CJ0493` | **LE CRITÈRE DE LA CERTITUDE.** **Point 110** : incompatible si les opérateurs **« avaient la certitude »** du rachat et pouvaient agir **« de facto, comme des intermédiaires »** ; **point 112**, ce qui est toléré est d'« anticiper, dans une certaine mesure ». **Point 107** : la prohibition protège **« l'incitation à conduire une politique budgétaire saine »**. **Point 108** : les garanties **dépendent des caractéristiques propres du programme**. Garanties concrètes : **fenêtre négative**, **limites par émission et par émetteur**, **publication agrégée**. **Versé à L10.C03 et à F4 ter** |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** ***Gauweiler* (C-62/14) n'est pas ouvert**,
+alors que *Weiss* s'y réfère à chaque étape : **le corpus tient la doctrine par
+le second arrêt qui la reprend, non par le premier qui l'établit.** La décision
+2015/774 n'est pas ouverte, ni la durée exacte de la fenêtre négative, fixée par
+des lignes directrices non publiées au Journal officiel. **Et le corpus transpose
+depuis un programme de politique monétaire vers un objet écologique**, alors que
+le point 108 dit que les garanties dépendent du programme considéré.
+
+**À ACQUÉRIR, PAR ORDRE.** **(1)** *Gauweiler*, C-62/14. **(2)** Décision (UE)
+2015/774, articles 3, 4 et 5. **(3)** Poste de passif 13 b) de l'annexe IV — le
+régime des provisions, dont dépend le traitement au coût des titres négociables.
+**(4)** Règles comptables de la BRI et du FMI, le corpus généralisant depuis un
+seul système. **(5)** BCE, test de résistance climatique — **déjà dans la
+bibliothèque de l'auteur, non ouvert.**

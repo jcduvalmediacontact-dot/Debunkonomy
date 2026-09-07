@@ -480,6 +480,75 @@ demande ce qu'il en coûte à un État de l'appliquer face à des tiers armés d
 autre traité** — et c'est la seule des trois questions dont la réponse ne dépend
 pas de la rédaction du dispositif.
 
+### F4 ter — LA TROISIÈME FACE : LE DISPOSITIF EST LÉGAL, ET CE QUI LE FAIT MARCHER NE L'EST PAS
+
+**POSÉ LE 2026-09-07 (nuit), en ouvrant le Livre 10.** F4 portait sur l'obstacle
+de droit positif, et la condition d'échec n'était pas remplie. F4 bis a ajouté la
+seconde face : le dispositif est légal, **et il est tarifé**. **F4 ter en ajoute
+une troisième, et elle ne vise ni la légalité ni le coût : elle vise LE MÉCANISME.**
+
+**CE QUI L'ÉTABLIT.** **CJUE, grande chambre, 11 décembre 2018, *Weiss e.a.*,
+C-493/17**, ouvert par téléchargement direct et instruit en L10.C03. **Point 110**
+: l'intervention d'une banque centrale sur le marché secondaire « serait
+**incompatible avec l'article 123, paragraphe 1, TFUE** si les opérateurs [...]
+**AVAIENT LA CERTITUDE** que le SEBC va procéder au rachat de ces obligations dans
+un délai et dans des conditions permettant à ces opérateurs **d'agir, DE FACTO,
+COMME DES INTERMÉDIAIRES DU SEBC** ». **Point 112** : ce qui est toléré est
+d'« **anticiper, dans une certaine mesure** » — **le prévisible est admis, le
+certain est interdit.**
+
+**LE TEST.** *Un dispositif du corpus tombe sous F4 ter si la propriété qui le
+rend efficace est celle que la règle applicable prohibe — de sorte qu'il ne peut
+être rendu conforme qu'en étant privé de son effet.*
+
+**POURQUOI IL VISE LE DISPOSITIF EN PARTICULIER.** **Le dispositif repose sur une
+certitude, et c'est sa qualité principale : une activité qualifiée SERA
+financée.** C'est ce qui rend le barème crédible et ce qui fait qu'un acteur
+engage une dépense de transformation. **Retirer la certitude, c'est retirer
+l'incitation ; la conserver, c'est produire l'état de fait que le point 110
+déclare incompatible.** **Ce n'est pas un défaut de rédaction : c'est ce qu'on
+demande à une règle contre la discrétion. Le corpus a voulu une règle, et la
+règle produit la certitude.**
+
+**ET LES GARANTIES CONCRÈTES VONT TOUTES DANS LE MAUVAIS SENS.** La Cour retient
+trois techniques, **et les trois sont des techniques de DILUTION** : la
+**« période de fenêtre négative »**, qui interdit le rachat immédiatement après
+l'émission ; les **limites de détention par émission et par émetteur**, dont il
+résulte que « seule une minorité » peut être acquise ; et la **publication
+restreinte à des informations agrégées**. **Le dispositif a besoin de l'inverse
+— rapide, intégral, traçable.** **La troisième est frontalement incompatible** :
+l'opacité protège contre le contournement, **la traçabilité protège contre la
+fraude à la qualification**, et L11.C13 fait reposer tout le mécanisme sur la
+seconde.
+
+**UNE SORTIE EST NOMMÉE ET NON TENUE.** Dans le programme examiné, l'intermédiaire
+**transporte** un titre ; dans le dispositif, celui qui obtient la qualification
+**a dû conduire l'activité qualifiée** — il ne transporte rien, il produit la
+contrepartie. **Si la Cour retenait cette différence, le point 110 ne mordrait
+pas.** **Aucune source ne l'établit** : c'est une conjecture sur un raisonnement
+judiciaire, non un résultat.
+
+**UN SECOND POINT DE COLLISION, DE FOND.** Le **point 107** donne la raison d'être
+de la prohibition : ne pas « soustraire les États membres concernés à
+**l'incitation à conduire une politique budgétaire saine** ». **L'arbitrage A30 a
+arrêté que le reflux est COLLECTIF**, et un reflux collectif desserre par
+construction l'incitation qui pèse sur le débiteur individuel. **Réponse
+disponible et non tenue** : le déclencheur du dispositif est une qualification
+d'activité, étrangère à la position budgétaire.
+
+**CE QUE F4 ter NE DIT PAS.** Il ne dit pas que le dispositif soit illégal —
+L20.C02 tient l'inverse sur la lettre. Il ne dit pas que la Cour trancherait
+ainsi : **le point 108 énonce que les garanties « dépendent des caractéristiques
+propres du programme considéré »**, et le corpus transpose depuis un programme de
+politique monétaire vers un objet écologique. **Il dit que le corpus doit
+désormais défendre non pas sa légalité, mais LA COMPATIBILITÉ DE SON MÉCANISME
+AVEC CE QUE LA PROHIBITION PROTÈGE** — et qu'il ne l'a jamais fait.
+
+**RÉSERVE DE PÉRIMÈTRE.** *Gauweiler* (C-62/14) n'est pas ouvert, la décision
+2015/774 non plus, **et rien n'établit que le droit de l'Union régisse le
+dispositif.** Le corpus l'instruit parce qu'il est accessible et que L20.C02 s'y
+est placé.
+
 ## F5 — L'antériorité
 
 **INSTRUMENT EXTERNE TROUVÉ le 2026-09-04.** Ce falsifieur devait être instruit
