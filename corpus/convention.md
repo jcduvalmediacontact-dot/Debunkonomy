@@ -55,16 +55,25 @@ Aucun champ de ce schéma n'atteste la justesse d'un chapitre. Un chapitre
 corpus/
   livres.yaml
   vocabulaire.yaml
-  livre-00/
+  livre-00-<libellé>/
     c01-....md
-  livre-01/
+  livre-01-monnaie-finance-limites-planetaires/
     c01-....md
-  livre-06/
+  livre-06-droits-de-la-nature-et-des-ecosystemes/
     c05-environnement-sous-condition.md
 ```
 
 Un fichier par chapitre. L'éclatement en plusieurs fichiers reste possible (§ 6)
 mais n'est pas le cas normal.
+
+**Nom du dossier de livre — forme arrêtée le 2026-09-07 (r10).** `livre-NN-<libellé>`,
+où `NN` est **le matricule sur deux chiffres** et `<libellé>` un raccourci du titre
+en minuscules sans accents. **Le matricule reste en tête et seul il identifie** :
+le libellé n'est qu'une aide de lecture et **peut être corrigé si le titre change**,
+la règle du § 3 ne portant que sur le numéro. **Le contrôle ne lit que le champ
+`chapitre:` des en-têtes et globe `livre-*/`** : aucun outil ne dépend du libellé.
+Les dossiers de livres non ouverts n'existent pas tant qu'aucun chapitre n'est
+écrit.
 
 ---
 
@@ -587,6 +596,15 @@ Points ouverts, à trancher hors routine :
 ---
 
 ## 15. Journal des révisions
+
+**Révision 10 — 7 septembre 2026.** Les dossiers de livres portent désormais leur
+intitulé après le matricule (§ 2), sur demande de l'auteur, pour la lisibilité de
+l'arborescence. **Migration scriptée par `git mv` sur les douze dossiers
+existants ; aucun contenu modifié, aucun matricule touché, aucun identifiant de
+chapitre changé.** Le contrôle globe `livre-*/` et lit le champ `chapitre:` : il
+passe sans modification. **Le matricule demeure seul identifiant** — le libellé
+est une aide de lecture, corrigeable, et la règle du § 3 ne porte que sur le
+numéro.
 
 | Rév. | Date | Objet | Migration |
 |---|---|---|---|

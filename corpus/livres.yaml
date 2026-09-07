@@ -62,7 +62,7 @@
 #
 # Le script comptait 180 chapitres et ce registre en déclarait 191 : l'écart
 # était exactement le LIVRE 4, « Les Cahiers Humanistes », déclaré au statut
-# `acquis` avec onze chapitres sans que `corpus/livre-04/` existe.
+# `acquis` avec onze chapitres sans que `corpus/livre-04-les-cahiers-humanistes/` existe.
 #
 # LE REGISTRE AVAIT RAISON. Les onze épisodes existaient hors du dépôt, en
 # `.odt`, et n'avaient jamais été convertis. Convertis le 2026-09-07 par
