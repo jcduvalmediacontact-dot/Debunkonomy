@@ -1008,13 +1008,13 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C01": {
-    "editoriale": "73f05470ea8ce075",
-    "metadonnees": "479dfd74770e48c2",
-    "revision_de_fond": "2026-09-05",
+    "editoriale": "2a7d645b75053772",
+    "metadonnees": "b1b067db2c90a5f1",
+    "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C02": {
-    "editoriale": "8e94ae2e7115af84",
+    "editoriale": "0306b1b2978a1af8",
     "metadonnees": "a6701770a9d83f9d",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1068,9 +1068,9 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C11": {
-    "editoriale": "fd1a924b31d2b785",
-    "metadonnees": "04b6ab9ec5b9c37e",
-    "revision_de_fond": "2026-09-06",
+    "editoriale": "46efa504bdb02f28",
+    "metadonnees": "06d01f1611dbc0eb",
+    "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C12": {
@@ -1080,7 +1080,7 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C13": {
-    "editoriale": "7c9fb4417f129c7b",
+    "editoriale": "870292fbc6c3fb3e",
     "metadonnees": "8037519e951d1068",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1140,9 +1140,9 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C23": {
-    "editoriale": "28a39ca4c9cb45cd",
-    "metadonnees": "6bb1f2790f6ba0ac",
-    "revision_de_fond": "2026-09-06",
+    "editoriale": "5b15d0ecb4b62c06",
+    "metadonnees": "b8730f99011fae46",
+    "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C24": {
@@ -1424,6 +1424,12 @@
   "L21.C02": {
     "editoriale": "e10a31bdfdfd04b5",
     "metadonnees": "fb2831839c6819b1",
+    "revision_de_fond": "2026-09-07",
+    "qualification": "fond, déclarée le 2026-09-07"
+  },
+  "L21.C03": {
+    "editoriale": "50398c2d448ac844",
+    "metadonnees": "2fe9477d8095bea2",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
   },

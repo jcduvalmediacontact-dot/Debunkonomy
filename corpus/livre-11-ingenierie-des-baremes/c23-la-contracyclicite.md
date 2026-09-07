@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -158,3 +158,13 @@ renvois: [L1.C15, L1.C21, L1.C29, L11.C01, L11.C02, L11.C03, L11.C07, L11.C10, L
 ::hypothese:: **Quatorzième condition-limite** — B14, la période de vérification du bouclage ne peut être plus courte que le cycle. **Huit des quatorze ne mordent que sous tension.**
 
 ::hypothese:: **Et O4 n'est pas encore un objectif** : contracyclique suppose un cycle nommé, le dispositif en a deux qui ne coïncident pas, et le corpus a lui-même établi qu'ils divergent — le succès biosphérique contracte l'assiette. **A26 est préalable au compte de L11.C03**, comme A18. **Deux arbitrages sur six objectifs conditionnent désormais le décompte.**
+
+## BALAYAGE DU LIVRE 21, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L21.C03, qui écrit les écritures d'une opération complète entité par entité.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La contracyclicité organisée ici entre en tension avec une exigence que le corpus vient d'instruire** [L21.C03]. **PFMI, principe 3, considération clé 4** : préparer un plan de « **recovery or orderly wind-down** » ; **principe 23** : publier les règles.
+
+::hypothese:: **La fonte est le plan de liquidation ordonnée du dispositif** — résultat favorable, et le corpus ne le cherchait pas. **Mais un plan de liquidation est un engagement : il s'annonce et il se tient.** **Un barème qu'on ajuste selon le cycle ne peut pas simultanément valoir engagement de liquidation.**
+
+::hypothese:: **La tension n'est pas insoluble, et le corpus indique où elle se dénouerait** : en séparant **un plancher de fonte irrévocable, publié, qui vaut plan de liquidation**, d'**une part variable contracyclique qui s'y ajoute**. **Ce chapitre n'a pas fait cette séparation**, et sans elle l'instrument ne peut pas servir aux deux usages.

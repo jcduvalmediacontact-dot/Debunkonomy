@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -173,3 +173,13 @@ renvois: [L1.C18, L1.C22, L1.C26, L1.C27, L11.C04, L11.C06, L11.C08, L11.C10]
 ::etat:: **Sur la légitimation, le corpus n'a rien**, et son seul précédent est décourageant : la clé au prorata des quotes-parts a envoyé 3,3 % d'une allocation mondiale aux pays à faible revenu. Trois précédents publics restent à ouvrir. Arbitrage A16, à traiter avec P31, qui demande la même chose.
 
 ::hypothese:: **Et la décomposition crée quatre surfaces de capture.** La plus exposée est le constat — technique, sectoriel, répété, et de conséquence monétaire immédiate. D'où la règle que le chapitre énonce : **un constat qui commande un taux doit être aussi public et aussi contestable que le taux lui-même**, faute de quoi le barème réglé n'est qu'un pilotage discrétionnaire entré par la porte de service.
+
+## BALAYAGE DU LIVRE 21, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L21.C03, qui écrit les écritures d'une opération complète entité par entité.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une contrainte externe pèse sur la discrétion que ce chapitre organise** [L21.C03]. **PFMI, principe 3, considération clé 4** : toute infrastructure doit préparer des plans de « **recovery or ORDERLY WIND-DOWN** », contenant « a description of the measures needed to implement the key strategies » ; **et le principe 23 exige que les règles soient publiées.**
+
+::hypothese:: **Le dispositif possède ce plan par construction, et c'est un acquis favorable : la fonte EST la liquidation ordonnée.** Il suffit d'arrêter d'émettre et de laisser le barème finir. **Aucune monnaie ordinaire ne peut en dire autant**, son extinction supposant un échange, donc un payeur, donc une ressource.
+
+::hypothese:: **Mais l'acquis a un prix qui frappe ce chapitre.** **Un barème de fonte qui sert d'engagement de liquidation doit être annoncé à l'avance et tenu.** **Un barème arrêté par une autorité, révisable selon la conjoncture, ne peut pas servir d'engagement.** **Le dispositif doit choisir**, et le corpus enregistre qu'il ne l'a pas fait. Voir L11.C23, qui porte la même contrainte par l'autre bout.

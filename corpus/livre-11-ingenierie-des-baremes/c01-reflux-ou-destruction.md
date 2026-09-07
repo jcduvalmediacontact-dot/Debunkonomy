@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -180,3 +180,17 @@ renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29]
 ::hypothese:: **Il rend cohérente une seconde décision du même jour**, probablement sans que le lien ait été vu. En régime permanent, si les avoirs accumulés financent l'émission suivante, l'émission n'est plus sans dette : elle est financée par un prélèvement. L'abandon de l'appellation « monnaie sans dette » au profit de « monnaie de banque centrale à finalités extra-financières », arbitré le même jour, **était donc nécessaire et non cosmétique** — le nouveau nom ne dit rien de la dette, et c'est exactement ce qu'il faut.
 
 ::hypothese:: **Il ouvre l'embranchement suivant, qui est à l'intérieur de la lecture retenue.** L'arbitrage dit qui perçoit ; il ne dit pas ce que le Symposium fait de ce qu'il perçoit. Trois emplois donnent trois dispositifs : **dépenser** ces avoirs pour financer l'émission suivante, et c'est un budget ; les **conserver**, et le Symposium constitue un fonds souverain libellé en monnaies nationales, c'est-à-dire une créance sur les économies membres ; les **redistribuer**, et c'est un mécanisme de transfert. Le corpus n'a pas de préférence à exprimer ; il constate que **le statut « sans dette » de l'émission dépend de cette réponse**, et que le Livre 19 n'a de raison d'être que sous la première.
+
+## BALAYAGE DU LIVRE 21, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L21.C03, qui écrit les écritures d'une opération complète entité par entité.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le circuit exposé ici compte UNE ENTITÉ DE PLUS que ce que ce chapitre écrit** [L21.C03]. Le Cahier fait sortir « **la monnaie nationale émise au bénéfice du prestataire** » au passif de la banque centrale nationale. **Or un passif monétaire de banque centrale n'existe que sous deux formes : le billet, et le solde d'un compte ouvert dans ses livres. Les banques centrales n'ouvrent pas de comptes aux entreprises ordinaires.**
+
+::hypothese:: **Trois issues, et elles ne se valent pas.** Ou bien la banque centrale ouvre effectivement ce compte, et **le dispositif présuppose une monnaie numérique de banque centrale DE DÉTAIL sans l'avoir jamais nommée** ; ou bien l'unité est un instrument au porteur, ce que le § 3 de ce chapitre exclut lui-même ; **ou bien la route ordinaire s'applique** — la banque centrale crédite les réserves de LA BANQUE DU PRESTATAIRE, qui crédite le dépôt. **Le circuit compte alors QUATRE bilans et non trois.**
+
+::etat:: **Le corpus n'avait jamais placé la banque commerciale dans le circuit d'émission.** Elle figure dans tout le Livre 1 comme créatrice de monnaie de crédit, **jamais comme maillon de l'émission sans dette** — et ni ce chapitre ni L11.C02, qui sont les deux exposés du bouclage, ne la nomment.
+
+::hypothese:: **DIVERGENCE ENTRE CE CHAPITRE ET L11.C02 SUR LA PREMIÈRE ÉCRITURE, ET LE CORPUS LA TRANCHE.** Ce chapitre porte deux actifs au Symposium face au passif émis — certificat de qualification, créance sur les fontes futures — donc **un bilan équilibré** ; L11.C02 porte « à l'actif, rien encore », donc **des fonds propres négatifs**. **Les deux lectures ne peuvent pas être vraies ensemble.** L21.C03 tranche pour L11.C02 : **un certificat qui n'est le droit d'obtenir rien de personne, et une créance sur un débiteur que A35 dissout, ne sont pas des actifs.**
+
+::etat:: **Conséquence sur la revendication de continuité comptable de la source** — « NEMO IMS n'invente pas une comptabilité radicalement nouvelle » : **elle tombe dès la première écriture, avant tout régime permanent.** La partie double n'est pas violée ; **c'est le sens des postes qui l'est.**

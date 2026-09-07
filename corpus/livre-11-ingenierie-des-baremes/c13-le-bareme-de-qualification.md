@@ -252,3 +252,13 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **Ce principe n'entre pas en contradiction avec l'exigence d'agrégation relevée en L10.C03.** **La Cour de justice y exigeait l'agrégation des informations sur LES TITRES DÉTENUS**, comme garantie contre le contournement d'une prohibition ; **le principe 23 exige la publicité DES RÈGLES ET DES PROCÉDURES.** **PUBLIER CE QU'ON FAIT N'EST PAS PUBLIER CE QU'ON DÉTIENT.**
 
 ::hypothese:: **Conséquence favorable pour ce chapitre.** **La traçabilité dont il fait dépendre la lutte contre la fraude à la qualification porte sur DES RÈGLES ET DES ACTES**, non nécessairement sur l'identité des détenteurs. **Elle échappe donc en partie à l'obstacle de L23.C04**, qui vise la publicité de données personnelles — **en partie seulement, la qualification d'une activité désignant souvent celui qui la conduit.**
+
+## BALAYAGE DU LIVRE 21, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L21.C03, qui écrit les écritures d'une opération complète entité par entité.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une charge se déplace vers ce chapitre, et il faut la nommer** [L21.C03]. **PFMI, principe 22** : l'infrastructure doit « **use, or at a minimum ACCOMMODATE**, relevant internationally accepted communication procedures and standards », que la note 3.22.3 décrit comme « standardised messaging formats and reference data standards **for identifying FINANCIAL INSTRUMENTS AND COUNTERPARTIES** ».
+
+::hypothese:: **La qualification régénérative n'est ni un instrument ni une contrepartie.** Ce n'est pas une propriété de l'instrument — **la monnaie versée est de la monnaie nationale ordinaire, indiscernable** (L11.C01 § 3) — **ni une propriété de la contrepartie**, le même prestataire pouvant recevoir un paiement qualifié et un paiement ordinaire le même jour.
+
+::hypothese:: **Donc la qualification ne voyage pas dans le message : elle vit dans un registre séparé, dont le paiement ne porte qu'une référence.** **Ce n'est pas une objection** — c'est ainsi que fonctionne toute traçabilité fiscale. **Mais la solidité du dispositif ne dépend alors pas du rail : elle dépend de CE REGISTRE**, donc de ce chapitre et du contrôle de L11.C25. **Résultat favorable au Livre 21, exigeant pour celui-ci.**

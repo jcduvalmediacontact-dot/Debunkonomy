@@ -917,3 +917,22 @@ Commission** — **et c'est lui qui dirait si l'alignement suffit.** **Aucune do
 d'efficacité de perception n'est tenue** : ni taux de recouvrement par État, ni
 redressements, ni contentieux. Le corpus **constate que l'incitation existe ; il ne
 peut pas dire qu'elle produit l'effet qu'on lui prête.**
+
+### Acquisitions ouvertes par L21.C03 — 2026-09-07
+
+**Le chapitre a écrit les écritures d'une opération complète et il a dû s'arrêter
+quatre fois.** Ces quatre acquisitions sont listées dans l'ordre où elles
+décident du chapitre.
+
+| Rang | À ouvrir | Ce qu'elle tranche | Droits attendus |
+|---|---|---|---|
+| **1** | **Comité de Bâle, cadre du ratio de levier (norme LEV du cadre consolidé)**, et la question précise du **sort des réserves de banque centrale dans la mesure d'exposition**, exclusions temporaires de 2020 comprises | **Si les réserves entrent au dénominateur, le coût en fonds propres du dispositif est porté par LES BANQUES DES PRESTATAIRES**, à proportion des montants émis, sans qu'on le leur ait demandé. **Le § 4 de L21.C03 n'est pas opposable tant que ce texte n'est pas ouvert** | `libre` — BRI |
+| **2** | **Conditions d'éligibilité aux comptes de règlement d'au moins DEUX banques centrales** (orientation BCE sur TARGET ; conditions d'accès aux comptes de la Réserve fédérale) **et état des projets de monnaie numérique de banque centrale DE DÉTAIL** | **Le pivot du chapitre.** Le corpus tient pour notoire qu'une banque centrale n'ouvre pas de compte à une entreprise ordinaire ; **il ne l'a pas établi sur pièce**, et une monnaie de détail changerait le résultat | `libre` attendu |
+| **3** | **Directive 98/26/CE consolidée, caractère définitif du règlement**, articles 3 et 5 | **Le principe 8 renvoie à un moment défini par le droit** (note 86). **Le corpus ne peut pas dire où le trajet franchirait ce moment ni ce qui resterait révocable** | `libre` — EUR-Lex |
+| **4** | **ISO 20022** — existe-t-il un champ de finalité ou d'objet économique, et qu'admet-il ? | **Si un tel champ existe, la qualification peut voyager dans le message** et la charge ne se déplace pas entièrement sur le registre de L11.C13 | `a_verifier` — norme payante, catalogue de messages public |
+
+**RÈGLE RAPPELÉE.** L21.C03 marque explicitement le passage entre ce que la
+partie double établit seule — le bilan de la banque du prestataire croît des
+deux côtés à fonds propres inchangés, fait d'écriture — **et ce qu'une
+qualification prudentielle y ajouterait, qui demande le texte ci-dessus.**
+C'est l'application de la règle de méthode « LE PAS DE TROP ».

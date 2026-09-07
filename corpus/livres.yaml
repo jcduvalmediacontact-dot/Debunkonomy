@@ -1521,7 +1521,7 @@ livres:
       - "objection — L5.C09 : l'infrastructure fournit le rail de la séquence d'entrée, et le corpus ne sait pas où l'unité s'y logerait"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 2
+    chapitres_acquis: 3
     architecture: >
       Douze chapitres proposés par l'auteur : message, paiement, compensation et
       règlement comme quatre opérations distinctes ; monnaie de banque
@@ -1565,7 +1565,42 @@ livres:
       RESERVE CENTRALE : la qualification de l'emetteur comme infrastructure
       n'est pas etablie, et tout le chapitre lui est conditionnel.
       L21.C02 : trois principes de plus -- 7, 12 et 20 -- portant le total a
-      QUATORZE SUR VINGT-QUATRE. LE PRINCIPE 12 FRAPPE LE POINT FAIBLE : le
+      QUATORZE SUR VINGT-QUATRE.
+      L21.C03 SOLDE LA RESERVE PRINCIPALE DES DEUX PREMIERS CHAPITRES : il ecrit
+      les ecritures d'une operation complete, entite par entite, et instruit
+      QUATRE PRINCIPES DE PLUS -- 3, 8, 13 et 22 -- portant le total a DIX-HUIT
+      SUR VINGT-QUATRE.
+      RESULTAT NON CHERCHE : LE CIRCUIT COMPTE QUATRE BILANS ET NON TROIS. Le
+      Cahier fait sortir la monnaie nationale au passif de la banque centrale au
+      benefice du prestataire ; or une banque centrale n'ouvre pas de compte a
+      une entreprise ordinaire. Il faut donc LA BANQUE DU PRESTATAIRE, que le
+      corpus n'avait jamais placee dans le circuit d'emission -- ou bien une
+      MONNAIE NUMERIQUE DE BANQUE CENTRALE DE DETAIL, que le dispositif
+      presupposerait sans l'avoir nommee.
+      DIVERGENCE TRANCHEE CONTRE LA SOURCE : le Cahier porte deux actifs au
+      Symposium face au passif emis, L11.C02 n'en porte aucun. Le corpus tient
+      L11.C02 -- un certificat qui n'est le droit d'obtenir rien de personne et
+      une creance sur un debiteur que A35 dissout ne sont pas des actifs. LA
+      REVENDICATION DE CONTINUITE COMPTABLE TOMBE DES LA PREMIERE ECRITURE.
+      PRINCIPE 8 : le caractere definitif est acquis GRATUITEMENT sur la jambe
+      qui paie le prestataire, et IMPOSSIBLE sur la jambe qui lie l'emetteur a
+      la banque centrale, faute de date de valeur.
+      PRINCIPE 13 : les procedures de defaillance sont INAPPLICABLES -- non
+      violees -- au risque central du dispositif, tous leurs outils supposant
+      une position a deboucler qu'un service consomme par le monde n'est pas.
+      La question revient donc a LA QUALIFICATION DE L'ENSEMBLE.
+      DEUX ACQUIS FAVORABLES. Principe 22 : les normes de communication
+      existent et il suffit de les accommoder -- avec la consequence que la
+      qualification voyage HORS du message, dans un registre separe, ce qui
+      deplace la charge sur L11.C13 et L11.C25. Principe 3 : LE DISPOSITIF
+      POSSEDE UN PLAN DE LIQUIDATION ORDONNEE PAR CONSTRUCTION, ET C'EST LA
+      FONTE -- resultat que le corpus ne cherchait pas. Son prix est le
+      renoncement a la discretion sur le bareme, puisqu'un plan de liquidation
+      s'annonce et se tient (L11.C11, L11.C23).
+      ACQUISITION DE RANG 1 : le cadre du ratio de levier de Bale III et le sort
+      des reserves de banque centrale dans la mesure d'exposition -- le corpus
+      pose sans l'etablir que le cout en fonds propres du dispositif serait
+      porte par les banques des prestataires. LE PRINCIPE 12 FRAPPE LE POINT FAIBLE : le
       reglement definitif d'une obligation doit intervenir SI ET SEULEMENT SI
       celui de l'obligation liee intervient aussi ; or L3.C09 etablit que
       l'unite NE REGLE PAS, donc toute operation utile suppose un echange contre
