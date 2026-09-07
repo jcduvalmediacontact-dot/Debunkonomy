@@ -31,6 +31,10 @@ sources_primaires:
     nature: jurisprudence
     reference: "Même source, **entrée 63, « L'affaire Ogiek et la première décision de conformité de la Cour africaine »** — arrêt au fond du **26 mai 2017** : le Kenya a violé les droits du peuple ogiek, « retenant que **les Ogiek ne peuvent être tenus responsables de la dégradation de la forêt et que la conservation ne saurait justifier leur expulsion** ». Arrêt sur les réparations du **23 juin 2022** : 57 850 000 shillings kenyans au titre du préjudice matériel, 100 000 000 au titre du préjudice moral, **et ordre de délimitation et de titrage des terres**. **PREMIÈRE DÉCISION DE CONFORMITÉ, 4 décembre 2025** : la Cour constate « **qu'aucune des sommes n'a été versée, qu'aucune délimitation ni aucun titrage n'a été opéré** », et ordonne « de prendre des mesures immédiates et d'agir sans délai ». **ÉTAT D'EXÉCUTION** — « **Au 30 août 2026, aucune mesure d'exécution n'était documentée par les sources disponibles.** » Les textes des arrêts n'ont pas été lus"
     date_verification: 2026-09-07
+  - ref: S7
+    nature: theorie
+    reference: "**L6 — ÉPISODE 18, « Les communs peuvent-ils devenir une catégorie juridique ? », v1.0 du 31 août 2026, première rédaction non validée. OUVERT LE 2026-09-07, APRÈS RÉDACTION DE CE CHAPITRE.** Il porte la distinction que ce chapitre n'avait pas faite : « **Le commun attache un droit d'usage à une APPARTENANCE ; la servitude attache une charge à un FONDS. L'un crée des SUJETS, l'autre grève des OBJETS.** » Et il en tire que l'obligation réelle environnementale « n'est pas un commun », pour une raison structurelle : « Elle produit un engagement, non une communauté. Personne n'y devient ayant droit par le seul fait d'habiter le lieu. **Il n'y a ni assemblée, ni règle de décision, ni transmission d'une qualité d'usager.** » **L'épisode ne porte pas l'arrêt n° 119 de 2023** : il décrit le point comme « un débat jurisprudentiel nourri »"
+    date_verification: 2026-09-07
   - ref: S6
     nature: theorie
     reference: "Le corpus lui-même — **L20.C16**, qui déclarait : « Aucun autre régime de commun n'est ouvert [...] le corpus généralise depuis un seul cas, et ce cas porte sur des ressources minérales » ; **L20.C17**, qui établit que la sanctuarisation de 1982 a cédé en douze ans sans être violée ; **L20.C14**, qui établit qu'une institution conventionnelle interprète son propre traité sans juge extérieur ; et **L11.C29**, qui établit qu'un seuil sans barème de sanctions devient un plancher, et que la pièce décisive est la dérogation qui expire"
@@ -55,6 +59,21 @@ verifications_en_attente:
   - "AUCUN TRAVAIL DE DROIT COMPARÉ SUR LA PROPRIÉTÉ COLLECTIVE N'EST OUVERT.
      Le chapitre rapproche trois régimes de trois ordres juridiques sans
      rapport. **Le rapprochement est du corpus, pas des sources.**"
+  - "DEUX TEXTES FRANÇAIS OUVERTS N'ONT PAS ÉTÉ INSTRUITS, et l'épisode 18 les
+     porte : **l'article 714 du code civil** — « il est des choses qui
+     n'appartiennent à personne et dont l'usage est commun à tous » — et
+     **l'article L. 110-1 du code de l'environnement**, qui qualifie les
+     espaces et milieux naturels de **patrimoine commun de la nation**.
+     L'épisode relève qu'**aucune décision n'en fait le fondement autonome
+     d'un droit de gestion collective**, et n'en tire aucune négation.
+     **Deux formules ouvertes, et deux siècles de non-usage.**"
+  - "LES AUTRES INSTITUTIONS COLLECTIVES FRANÇAISES NE SONT PAS INSTRUITES —
+     associations foncières pastorales, indivisions forcées et perpétuelles,
+     associations syndicales de propriétaires dont les charges **grèvent les
+     immeubles d'un périmètre et se transmettent aux acquéreurs successifs**.
+     L'épisode 18 les énumère en déclarant que **leur régime n'a pas été
+     vérifié**, et le corpus reprend l'énumération sous la même réserve."
+
 resume: "Ce chapitre comble le manque que le Livre 20 avait déclaré en clôturant son bloc sur les communs, à savoir qu'il généralisait depuis un seul cas portant sur des ressources minérales. Le registre du Livre 6 en verse trois autres. Le premier a été ouvert sur son texte, et le texte dit plus et autre chose que le registre. La loi italienne de 2017 reconnaît les domaines collectifs comme un ordre juridique primaire de communautés antérieures à l'État, qualifie leur patrimoine de copropriété intergénérationnelle, et maintient un régime d'inaliénabilité, d'indivisibilité, d'impossibilité d'usucapion et de destination perpétuelle. Mais la Cour constitutionnelle, en juin 2023, a déclaré ce régime inconstitutionnel en tant qu'il n'excluait pas les terres appartenant à des propriétaires privés, c'est-à-dire exactement la part qui pesait sur eux. Le registre annonçait un débat sur ce point ; il n'en portait pas l'issue. Ce qui a survécu à l'amputation est d'une autre nature : une contrainte paysagère, imposée par un autre code, que la loi maintient sur les terres même en cas de liquidation des usages civiques. Le deuxième régime est français : une décision de 2026 juge qu'une disposition de 1959 n'avait pas été abrogée, avec pour conséquence que chaque fusion de communes opérée entre 1959 et 2013 a créé de plein droit une section dont l'existence subsiste faute d'acte d'extinction, sans que nul ne sache combien ni sur quelles surfaces. Le troisième est africain : une cour a jugé en 2017, chiffré en 2022, ordonné la délimitation, puis constaté en décembre 2025 qu'aucune somme n'avait été versée. Le chapitre en tire que ce qui fait tenir un commun n'est ni la force de sa déclaration ni le rang de la juridiction qui le reconnaît, mais que l'inaction joue pour lui, et que la charge qu'il impose soit gagée sur autre chose qu'un droit de propriété privé."
 concepts: [communs, valorisation_des_communs, polycentricite, limites_planetaires, robustesse, dette_ecologique]
 renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.C14, L20.C16, L20.C17]
@@ -150,6 +169,12 @@ renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.
 
 ::hypothese:: **La règle de rédaction du registre reste vraie et se précise** : un commun opposable pèse sur des propriétaires réels, **et c'est là qu'il sera attaqué.** La technique qui survit à l'attaque n'est pas le verrou de propriété, **c'est la servitude d'usage adossée à un autre corps de règles** — qui, en Italie, est expressément maintenue même quand le droit collectif s'éteint.
 
+::etat:: **CORRECTION DU 2026-09-07, portée par l'épisode 18 du livre, ouvert après la rédaction de ce chapitre** [S7]. Ce chapitre a traité la servitude comme la forme survivante DU COMMUN. **C'est une confusion de genres, et l'épisode la défait** : « **Le commun attache un droit d'usage à une appartenance ; la servitude attache une charge à un fonds. L'un crée des sujets, l'autre grève des objets.** »
+
+::hypothese:: **La conclusion du chapitre doit donc être resserrée, et elle en sort plus négative.** Ce qui a survécu à l'amputation de 2023 **n'est pas le commun sous une autre forme : c'est autre chose.** La contrainte paysagère grève des fonds ; elle ne fait naître aucun ayant droit, aucune assemblée, aucune règle de décision. **Elle protège le milieu et elle ne constitue pas de communauté.**
+
+::hypothese:: **Le corpus enregistre que c'est la version dure du résultat.** Si la seule pièce qui résiste au contrôle constitutionnel est celle qui ne crée pas de sujets, alors **ce qui tient dans un régime de commun est précisément la part qui n'en est pas un** — et L7.C13, qui demande une sanctuarisation, obtiendrait une servitude là où il demande un commun.
+
 ## 8. Portée
 
 ::etat:: **Trois régimes entrent au corpus, et le manque déclaré par L20.C16 est comblé** — il ne généralise plus depuis un seul cas minéral. **Un des trois a été ouvert sur son texte** ; les deux autres restent au degré du registre.
@@ -159,6 +184,8 @@ renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.
 ::etat:: **Le régime d'inaliénabilité, d'indivisibilité, d'imprescriptibilité et de destination perpétuelle est confirmé au mot près — et il a été amputé en 2023** de la part qui grevait les propriétaires privés. **Le registre annonçait le débat ; il n'en portait pas l'issue.**
 
 ::hypothese:: **Ce qui a survécu à l'amputation est d'une autre nature, et c'est le résultat principal du chapitre** : une contrainte paysagère, due à un autre code, **expressément maintenue même en cas de liquidation du droit collectif.** **Une sanctuarisation tient si ses verrous ne relèvent pas du même texte** — ce que la sanctuarisation de 1982, examinée en L20.C17, ne faisait pas.
+
+::etat:: **ET « D'UNE AUTRE NATURE » SE DIT AU SENS FORT, correction du 2026-09-07** [S7]. Ce n'est pas une variante du commun : **une servitude grève un fonds, un commun attache un droit d'usage à une appartenance.** La première crée des objets grevés, le second des sujets titulaires. **Ce qui a résisté au contrôle constitutionnel est la part du dispositif qui ne constitue aucune communauté.**
 
 ::hypothese:: **Le régime français enseigne que l'inertie peut jouer pour le commun** : ce qui naît de plein droit ne meurt que par acte formel. **C'est la symétrie de L11.C29**, et la seule technique du chapitre qui ne dépende d'aucun rapport de forces.
 
