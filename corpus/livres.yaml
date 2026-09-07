@@ -1593,9 +1593,9 @@ livres:
       - "arbitrage — A35 : la fonte est levée sur les agents, et le corpus n'a jamais dit QUI LA LÈVE NI DE QUEL TITRE"
       - "manque — l'ANCRAGE FISCAL, constaté et reporté par arbitrage le 2026-09-04, dont ce livre est la résolution : le registre avait retenu le livre propre comme recommandation"
       - "objection — L10.C06 pose un arbre de qualification à six branches et huit critères, et le corpus n'en tient aucun"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     architecture: >
       Quinze chapitres proposés par l'auteur : impôt, taxe, contribution,
       redevance, frais de réseau et règle monétaire ; souveraineté fiscale et
@@ -1626,6 +1626,34 @@ livres:
       montre comment une competence fiscale se construit a l'echelle mondiale.
       Seconde reference : les travaux OCDE et Forum mondial sur les beneficiaires
       effectifs et leurs difficultes persistantes.
+      OUVERT LE 2026-09-07 PAR L23.C01, qui remplace l'amorce. FRONTIERE FIXEE
+      ET A TENIR : le Livre 11 demande COMMENT ON PERCOIT, le Livre 20 demande
+      SI LE TRAITE LE PERMET, le Livre 23 demande AU NOM DE QUOI ON EST FONDE A
+      ETABLIR L'OBLIGATION -- et si l'assiette est atteignable. LA SECONDE
+      MOITIE N'EST PORTEE PAR PERSONNE, et c'est le contenu reellement neuf :
+      une assiette peut etre juridiquement irreprochable et FACTUELLEMENT VIDE.
+      DEUX RESULTATS DEJA ACQUIS FIXENT LA DIFFICULTE, ET ILS SONT DEFAVORABLES.
+      L11.C21 : le mecanisme de perception se transporte, LE MOTIF NE SE
+      TRANSPORTE PAS -- l'alignement d'interets qui fait tenir la TVA est ce que
+      le dispositif retire. Et le mode d'echec n'est pas le refus mais LA
+      PERCEPTION SANS ZELE, qui n'est ni visible ni sanctionnable. Le probleme
+      n'est donc pas d'obtenir le droit de lever, C'EST D'OBTENIR QUE QUELQU'UN
+      AIT INTERET A LEVER EFFECTIVEMENT.
+      UN RESULTAT FAVORABLE EST PORTE : L20.C20 etablit que le reglement
+      d'ajustement aux frontieres ecarte un marche de certificats POUR UN MOTIF
+      JURIDIQUE de non-discrimination -- premier argument NON ECONOMIQUE en
+      faveur d'un bareme que le corpus ait rencontre, et il vient d'un texte en
+      vigueur.
+      QUATRE QUESTIONS OPPOSABLES AUX SIX BRANCHES DE QUALIFICATION : au nom de
+      quoi ; par qui et avec quel interet a bien percevoir ; sur quelle assiette
+      REELLEMENT ATTEIGNABLE ; et POURQUOI LEVER PLUTOT QUE SUPPRIMER, cette
+      derniere imposee par F10.
+      UNE BRANCHE ECHAPPE A CE LIVRE : si l'unite est celle de l'emetteur, la
+      fonte peut n'etre qu'une REGLE MONETAIRE sans competence fiscale. Le Livre
+      19 porte cette question, ET CE LIVRE NE PEUT PAS CONCLURE AVANT LUI.
+      FONDS DOCUMENTAIRE VIDE : aucune source fiscale ouverte, aucune donnee sur
+      l'evasion tenue. Le chapitre d'ouverture pose une grille sur un fonds vide,
+      et il le declare.
 
   - livre: 24
     titre: "Les conditions matérielles de la vie"
