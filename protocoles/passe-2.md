@@ -3023,3 +3023,49 @@ cesse d'être une contrainte de conception : **il est une estimation, et la
 matière décide.** Ce qui reste contraignant est le **matricule** du livre, que
 la convention interdit de réattribuer, d'insérer ou de renuméroter — et cette
 règle-là n'est pas touchée.
+
+## Arbitrage A34 — le barème qui dit vrai exclut, et le corpus ne l'a jamais traité
+
+**POSÉ LE 2026-09-07, en défrichant L6.C10.** Le dispositif module ses
+prélèvements sur l'impact : L1.C21 construit un reflux transactionnel dont le
+taux suit l'empreinte, L11.C24 pose un barème aux frontières, L11.C03 affecte
+chaque instrument à l'objectif sur lequel il agit le plus directement. **Toute
+cette construction repose sur une idée unique — faire dire au prix la vérité
+écologique.**
+
+**LE CORPUS N'A JAMAIS INSTRUIT QUI CE SIGNAL EXCLUT.** L1.C21 et L11.C24
+raisonnent sur l'orientation des comportements ; ils supposent que l'agent
+confronté au prix modifie son choix. **Ils ne traitent pas l'agent qui ne peut
+pas payer le prix et qui n'a pas de choix à modifier.**
+
+**LE DROIT FRANÇAIS A TRANCHÉ CE DILEMME, DANS L'AUTRE SENS, ET PAR LA LOI.**
+Le régime d'indemnisation des catastrophes naturelles repose depuis 1982 sur
+une **surprime uniforme non indexée sur le risque**, adossée aux contrats
+d'habitation et réassurée publiquement. **Une prime indexée sur le risque
+rendrait l'assurance inaccessible là où elle est le plus nécessaire** : le
+législateur a donc retiré au prix sa fonction de signal, sur ce marché-là, et
+assumé de faire porter l'écart par la solidarité nationale. **C'est un choix
+explicite, ancien de quarante-quatre ans, et il vise exactement la propriété que
+le dispositif recherche.**
+
+**CE QUE LE CORPUS DOIT TRANCHER, ET CE N'EST PAS À LUI DE LE FAIRE.**
+
+| | La question | Ce qu'elle engage |
+|---|---|---|
+| **1** | **Le dispositif comporte-t-il une franchise, un seuil d'exemption ou un abattement selon la capacité contributive ?** | Le demurrage en a un — « au-delà d'un seuil d'exemption indexé », dit le vocabulaire. **Le reflux transactionnel n'en a aucun**, et rien n'explique cette asymétrie entre les deux instruments du reflux collectif |
+| **2** | **Ou bien l'exclusion est-elle assumée, et compensée en aval** par une allocation, un transfert ou une gratuité d'accès ? | Alors le dispositif comporte **deux mécanismes de sens opposé**, et la question de leur bouclage se pose comme celle de L11.C01 § 4 |
+| **3** | **Ou bien certains biens sortent-ils de l'assiette** parce qu'ils sont des essentiels au sens de L1.C06 ? | Alors il faut une **liste**, donc un barème de plus, et l'arbitrage A8 sur le chantier unique des barèmes s'élargit |
+
+**CE QUE L'ARBITRAGE N'EST PAS.** Ce n'est pas l'objection distributive
+classique — « les taxes écologiques sont régressives » — que le corpus peut
+traiter par le rendement. **C'est plus étroit et plus dur : sur les biens dont
+l'empreinte est la plus élevée, le signal doit être fort pour agir, et c'est là
+qu'il exclut le plus.** L'effet Veblen, déjà versé en L11.C03, dit que sur les
+biens de position le renchérissement n'a pas de signe établi ; **A34 dit qu'aux
+autres extrémités de l'échelle, il en a un et qu'il n'est pas celui qu'on
+cherche.**
+
+**RÉSERVE.** Le régime de 1982 est connu par le registre du Livre 6 et **son
+texte n'a pas été lu**, non plus que le rapport de 2024 ni l'exercice
+prudentiel de décembre 2024 qui en projettent la tension. **L'arbitrage porte
+sur une figure, non sur un chiffre.**
