@@ -189,3 +189,15 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
 ::hypothese:: **Contrepoids porté dans le même mouvement** : toute expansion du bilan d'une banque centrale produit le même effet, et les achats d'actifs des quinze dernières années l'ont fait à une échelle sans commune mesure. **L'objection porte donc sur un coût et un calibrage, non sur une impossibilité.**
 
 ::etat:: **Et le § 3 reçoit son nom normatif.** La « créance perpétuelle, sans échéance et sans mécanisme de règlement » qu'il décrit est, dans le vocabulaire du **PFMI principe 8**, une obligation **sans date de valeur** : « final settlement, **at a minimum by the end of the value date** ». **Le caractère définitif est acquis gratuitement sur la jambe qui paie le prestataire, et il est impossible sur la jambe qui lie l'émetteur à la banque centrale.**
+
+## BALAYAGE DU LIVRE 21, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C04, qui ferme l'acquisition sur le ratio de levier de Bâle par lecture directe du texte.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'HYPOTHÈSE POSÉE PAR L'ANNOTATION PRÉCÉDENTE EST VÉRIFIÉE, ET DANS LE SENS DÉFAVORABLE** [L21.C04]. **Cadre consolidé de Bâle, LEV30.8** : « **Banks must include ALL BALANCE SHEET ASSETS in their leverage ratio exposure measure** » — **aucune exception pour les réserves de banque centrale.** **LEV20.7** : « **Banks must meet a 3% leverage ratio minimum requirement AT ALL TIMES** », en capital de première catégorie [LEV20.4]. **Et la version d'origine de 2014, fouillée intégralement, ne mentionne PAS UNE SEULE FOIS les banques centrales**, tout en écrivant que « **netting of loans and deposits is NOT ALLOWED** ».
+
+::hypothese:: **Donc l'exigence de fonds propres que l'émetteur ne peut pas satisfaire [L21.C01] ne disparaît pas : elle SE DÉPLACE vers les banques des prestataires.** **Trois de capital de première catégorie par cent d'unités en circulation** — **première grandeur d'ordre que le corpus obtienne du côté de l'émission, et c'est un RATIO, donc il croît à la vitesse de l'ambition.**
+
+::etat:: **La seule dérogation se referme sur elle-même.** **LEV30.7** autorise une exemption **temporaire**, en **circonstances macroéconomiques exceptionnelles**, pour **faciliter la politique monétaire** — **et impose à la juridiction qui l'utilise d'augmenter le minimum « COMMENSURATELY to offset the impact ».** **Elle relocalise le coût, elle ne le supprime pas.**
+
+::hypothese:: **PORTÉE BORNÉE, ET IL FAUT LA DIRE.** **CRE20.7 pondère à 0 % les expositions sur les banques centrales** : les réserves ne consomment **aucun** capital pondéré. **Le levier est la seule contrainte qui les atteigne, et il ne mord que pour les banques déjà à leur limite.** **Le coût est réel, non uniforme, et il frappe les plus grandes** — celles qui portent en outre le coussin de LEV40.

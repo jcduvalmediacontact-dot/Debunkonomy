@@ -183,3 +183,13 @@ renvois: [L1.C21, L1.C26, L11.C02, L11.C03, L11.C04, L11.C05, L11.C06]
 ::etat:: **Et c'est ce chapitre qui porte la limite décisive.** **Une décote ne frappe que L'ENCOURS DÉTENU**, tandis que la gradation selon l'impact voulue par l'arbitrage A35 **suppose de frapper LA TRANSACTION**. **Une décote sur encours ne peut pas être graduée selon l'impact** ; **elle ne peut l'être que par la durée de détention.**
 
 ::etat:: **S'y ajoute ce que ce chapitre avait déjà établi** — la fuite vers un substitut est maximale en crise — **et un agent qui convertit immédiatement échappe à une décote sur encours.** **Arbitrage A36 ouvert : la fonte frappe-t-elle l'encours ou la transaction ?**
+
+## BALAYAGE DU LIVRE 21, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C04, qui ferme l'acquisition sur le ratio de levier de Bâle par lecture directe du texte.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une variable inattendue commande le nœud que ce chapitre expose** [L21.C04]. **Le capital bancaire immobilisé par le dispositif vaut 3 % de l'ENCOURS de réserves qu'il crée** — non de son flux d'émission — **et cet encours vaut le flux multiplié par LA DURÉE MOYENNE AVANT REFLUX.** Les réserves créées ne s'éteignent que lorsque le reflux les ramène à la banque centrale ; **quand le prestataire dépense, elles changent de banque, elles ne disparaîssent pas.**
+
+::hypothese:: **LA VITESSE DE LA FONTE N'EST DONC PAS SEULEMENT UN RÉGLAGE ÉCOLOGIQUE ET ANTI-THÉSAURISATION : C'EST LE PARAMÈTRE QUI DÉCIDE DE CE QUE LE DISPOSITIF COÛTE AU SYSTÈME BANCAIRE.** **Une fonte rapide libère de la capacité de levier ; une fonte lente immobilise du capital bancaire proportionnellement plus longtemps.**
+
+::hypothese:: **C'est un argument POUR une fonte rapide, et le corpus ne l'avait jamais rencontré par cette voie.** **Il contredit d'autres exigences** — L11.C09 sur l'incidence, L21.C03 sur le barème qui vaut plan de liquidation et ne peut donc pas s'ajuster. **Le corpus enregistre une variable de plus dans un arbitrage déjà surdéterminé, et interdit désormais de traiter ce barème comme un réglage local.**

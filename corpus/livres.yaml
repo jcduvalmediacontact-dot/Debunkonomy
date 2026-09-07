@@ -1521,7 +1521,7 @@ livres:
       - "objection — L5.C09 : l'infrastructure fournit le rail de la séquence d'entrée, et le corpus ne sait pas où l'unité s'y logerait"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 3
+    chapitres_acquis: 4
     architecture: >
       Douze chapitres proposés par l'auteur : message, paiement, compensation et
       règlement comme quatre opérations distinctes ; monnaie de banque
@@ -1600,7 +1600,35 @@ livres:
       ACQUISITION DE RANG 1 : le cadre du ratio de levier de Bale III et le sort
       des reserves de banque centrale dans la mesure d'exposition -- le corpus
       pose sans l'etablir que le cout en fonds propres du dispositif serait
-      porte par les banques des prestataires. LE PRINCIPE 12 FRAPPE LE POINT FAIBLE : le
+      porte par les banques des prestataires.
+      L21.C04 FERME CETTE ACQUISITION PAR LECTURE DIRECTE DU CADRE CONSOLIDE DE
+      BALE, ET LA FERME CONTRE LE DISPOSITIF. LEV30.8 : "Banks must include ALL
+      BALANCE SHEET ASSETS in their leverage ratio exposure measure". LEV20.7 :
+      minimum de 3 % en capital de premiere categorie, "AT ALL TIMES". Et la
+      version d'origine de 2014, fouillee integralement, NE MENTIONNE PAS UNE
+      SEULE FOIS LES BANQUES CENTRALES, tout en ecrivant que "netting of loans
+      and deposits is NOT ALLOWED".
+      LA SEULE DEROGATION SE REFERME SUR ELLE-MEME. LEV30.7 autorise une
+      exemption TEMPORAIRE, en CIRCONSTANCES MACROECONOMIQUES EXCEPTIONNELLES,
+      pour FACILITER LA POLITIQUE MONETAIRE -- trois conditions dont le
+      dispositif ne remplit aucune -- et impose a la juridiction qui l'utilise
+      d'augmenter le minimum "COMMENSURATELY to offset the impact". Elle
+      RELOCALISE le cout, elle ne le supprime pas.
+      PREMIERE GRANDEUR D'ORDRE DU COTE DE L'EMISSION, ET C'EST UN RATIO DONC IL
+      CROIT A LA VITESSE DE L'AMBITION : TROIS DE FONDS PROPRES BANCAIRES DE
+      PREMIERE CATEGORIE PAR CENT D'UNITES EN CIRCULATION.
+      PORTEE BORNEE, ET LE CHAPITRE LA DIT : CRE20.7 pondere a 0 % les
+      expositions sur les banques centrales, donc les reserves ne consomment
+      AUCUN capital pondere et le levier est la seule contrainte qui les
+      atteigne -- il ne mord que pour les banques deja a leur limite, c'est-a-
+      dire les plus grandes, qui portent en outre le coussin de LEV40. LE
+      DISPOSITIF SERAIT LE PLUS COUTEUX A HEBERGER POUR EXACTEMENT LES
+      INSTITUTIONS DONT IL AURAIT BESOIN.
+      RESULTAT DE CONCEPTION NON CHERCHE : le capital immobilise vaut 3 % de
+      l'ENCOURS, et l'encours vaut le flux multiplie par la duree avant reflux.
+      LA VITESSE DE LA FONTE COMMANDE DONC LA CHARGE IMPOSEE AU SYSTEME
+      BANCAIRE -- argument pour une fonte rapide, direction que le corpus
+      n'avait jamais empruntee, et qui contredit L11.C09 et L21.C03. LE PRINCIPE 12 FRAPPE LE POINT FAIBLE : le
       reglement definitif d'une obligation doit intervenir SI ET SEULEMENT SI
       celui de l'obligation liee intervient aussi ; or L3.C09 etablit que
       l'unite NE REGLE PAS, donc toute operation utile suppose un echange contre

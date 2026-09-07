@@ -936,3 +936,28 @@ partie double établit seule — le bilan de la banque du prestataire croît des
 deux côtés à fonds propres inchangés, fait d'écriture — **et ce qu'une
 qualification prudentielle y ajouterait, qui demande le texte ci-dessus.**
 C'est l'application de la règle de méthode « LE PAS DE TROP ».
+
+### Complément du 2026-09-07 — le ratio de levier, acquisition de rang 1 **FERMÉE**
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **Comité de Bâle, cadre consolidé, norme LEV**, chapitres LEV20, LEV30, LEV40, en vigueur au 01/01/2023 | `bis.org/basel_framework/chapter/LEV/20.htm`, `/30.htm`, `/40.htm` | `libre` — BRI, citation avec mention de la source | **LEV30.8** : « **Banks must include ALL BALANCE SHEET ASSETS in their leverage ratio exposure measure** » — **aucune exception de principe pour les réserves de banque centrale.** **LEV20.7** : « **a 3% leverage ratio minimum requirement AT ALL TIMES** », en capital de première catégorie [LEV20.4]. **LEV20.1** : le ratio est un « **non-risk-based BACKSTOP measure** ». **LEV40.2** : coussin des banques systémiques mondiales à **50 %** de leur exigence d'absorption des pertes. **Versé à L21.C04, L11.C02, L11.C07, L11.C09** |
+| **Même cadre, LEV30.7** — la dérogation | idem | `libre` | **ELLE SE REFERME SUR ELLE-MÊME.** Exemption **temporaire**, en **circonstances macroéconomiques exceptionnelles**, « **to facilitate the implementation of MONETARY POLICIES** » — **et la juridiction qui l'applique « MUST ALSO INCREASE THE CALIBRATION of the minimum leverage ratio requirement COMMENSURATELY to offset the impact ».** **Le coût est relocalisé, non supprimé**, et le ratio sans exemption doit rester publié |
+| **Même cadre, norme CRE, CRE20.7 et CRE20.8** | `bis.org/basel_framework/chapter/CRE/20.htm` | `libre` | **LA PRÉCISION QUI BORNE L'OBJECTION.** Expositions sur les États **et leurs banques centrales** pondérées à **0 %** (AAA à AA–), discrétion nationale pour la monnaie domestique. **Les réserves ne consomment aucun capital pondéré : le levier est la SEULE contrainte qui les atteigne, et il ne mord que pour les banques déjà à leur limite** |
+| **Comité de Bâle, bcbs270, janvier 2014** — version d'origine | `bis.org/publ/bcbs270.pdf` — **OUVERT PAR TÉLÉCHARGEMENT DIRECT** | `libre` | **FAIT ÉTABLI PAR RECHERCHE PLEIN TEXTE SUR LE DOCUMENT ENTIER : l'expression « central bank » N'Y FIGURE PAS UNE SEULE FOIS** — seule occurrence de « central » : « central counterparty ». **§ 15** : tous les actifs de bilan inclus. **§ 12** : « **netting of loans and deposits is NOT ALLOWED** ». **§ 7** : minimum de 3 %. **Le cadre d'origine ne comportait aucune exception ; celle de LEV30.7 est postérieure** |
+
+**ACQUISITIONS OUVERTES PAR CE CHAPITRE, DANS L'ORDRE.**
+
+1. **La distribution des ratios de levier des grandes banques** — exercices de
+   suivi de Bâle III publiés par le Comité. **Le coût n'est réel que pour les
+   banques dont le levier est mordant, et le corpus ne sait pas combien elles
+   sont.**
+2. **Les deux ratios de liquidité, NSF30 et LCR40** — facteur de financement
+   stable requis des réserves de banque centrale, taux de sortie des dépôts
+   d'entreprises. **Le corpus se garde de supposer que l'effet y serait
+   défavorable : l'inverse est au moins aussi plausible.**
+3. **Les transpositions nationales** — règlement européen sur les exigences de
+   fonds propres, et la règle américaine du *supplementary leverage ratio*,
+   **dont l'exclusion temporaire de 2020 et son extinction en 2021 sont le
+   précédent le plus proche.**
+

@@ -172,3 +172,13 @@ renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08]
 ::etat:: **La question rendue à ce chapitre est donc précise** : **qui paie effectivement une fonte graduée sur l'impact, une fois la répercussion prise en compte ?** Ce chapitre avait déjà relevé qu'une structure de taux imposant plus lourdement l'achat d'un bien que la transaction financière **a une conséquence distributive non discutée par ses auteurs**.
 
 ::hypothese:: **Et une vérification s'impose, parce que le motif invoqué par l'arbitrage est un résultat du corpus.** **L1.C15 a établi que l'essentiel est insolvable** ; A35 s'en réclame pour écarter la rentabilité. **Il faut donc vérifier que l'assiette de la fonte ne reproduit pas l'insolvabilité qu'elle invoque** — une gradation sur l'impact frappe d'autant plus qu'on ne peut pas choisir, et **A34 a établi qu'un barème qui dit vrai exclut ceux qui ne peuvent pas payer.**
+
+## BALAYAGE DU LIVRE 21, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C04, qui ferme l'acquisition sur le ratio de levier de Bâle par lecture directe du texte.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une incidence de plus apparaît, et ce chapitre ne l'avait pas** [L21.C04]. **Le dispositif impose une charge en capital aux BANQUES DES PRESTATAIRES**, à hauteur de 3 % de l'encours de réserves créées [LEV20.7, LEV30.8] — **charge qu'aucune étape du dispositif ne leur demande d'accepter et qu'aucun barème ne compense.**
+
+::hypothese:: **La question propre à ce chapitre se pose donc à nouveau, un cran plus haut.** **Une banque à sa limite de levier répercute, absorbe, ou refuse.** **Répercuter** signifie facturer le dépôt du prestataire, donc **prélever sur le paiement régénératif lui-même** ; **absorber** signifie lever du capital pour un service non demandé ; **refuser** signifie que le prestataire ne trouve pas de banque, ou n'en trouve qu'une petite. **Aucun des trois n'est le comportement visé**, et c'est exactement la structure que ce chapitre avait établie pour le prélèvement sur les réserves.
+
+::hypothese:: **Réserve qui limite la portée** : les réserves étant pondérées à 0 % [CRE20.7], **une banque dont la contrainte mordante est le ratio pondéré héberge ces dépôts gratuitement.** **L'incidence ne se produit que chez les banques déjà contraintes par le levier — les plus grandes.**
