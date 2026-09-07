@@ -2640,3 +2640,45 @@ de la vulnérabilité, indemnisation d'un dommage déjà subi. **LE CORPUS N'A A
 BARÈME DE RÉPARATION**, et l'objet lui échappe entièrement. **A35 y conduisait
 sans qu'il le voie** : la société entière porte la dette, **et une partie de
 cette dette est déjà échue.**
+
+### F10 — RENFORCEMENT DU 2026-09-07, PAR L24.C03 : la voie de la demande est chiffrée, et par une source qui n'est pas hostile
+
+**F10 demande si l'objectif pourrait être atteint autrement. L24.C03 ouvre une
+source qui chiffre cet « autrement », et le corpus doit le porter contre le
+dispositif plutôt que le contourner.**
+
+**CE QUE LA SOURCE ÉTABLIT.** **PNUE, « Global Resources Outlook 2024 »** :
+« **We REJECT the assumption that meeting essential human needs should be
+resource-intensive.** » **CHIFFRES À L'HORIZON 2060, PAR RAPPORT AUX TENDANCES
+ACTUELLES.** **Mobilité** : réduire le besoin de mobilité et l'assurer par le
+partage et les modes actifs réduit les stocks matériels de **50 %**, la demande
+d'énergie de **50 %**, les émissions de **60 %**. **Bâtiment** : quartiers
+compacts, contenu recyclé et allongement de la durée de vie réduisent les stocks
+de matériaux de **25 %**, entraînant **30 %** d'énergie et **30 %** d'émissions
+en moins. **Alimentation** : −**5 %** de terre nécessaire.
+
+**AUCUNE DE CES MESURES NE DEMANDE UNE MONNAIE NOUVELLE.** **C'est la forme la
+plus documentée que F10 ait reçue.**
+
+**MAIS LA MÊME SOURCE DIT POURQUOI CES MESURES NE SONT PAS PRISES, ET CELA
+DÉPLACE F10 PLUTÔT QUE DE LE CONFIRMER SIMPLEMENT.** Obstacles énumérés :
+« **Harmful subsidies being the norm** » ; « **Financialization of the commodity
+markets, which drives unsustainable resource extraction** » ; « Business models
+do not account for resource use-related risks » ; « **Concentration of
+decision-making power in business conglomerates** ». **Et le rapport appelle à
+« reflecting the true costs of resources in the structure of the economy » et au
+« redirecting of finance ».**
+
+**FORME DÉPLACÉE DE F10.** *La question n'est plus « une monnaie nouvelle
+est-elle nécessaire » mais « qu'est-ce qui débloque des mesures dont
+l'efficacité est établie et que personne ne prend ». Si la réponse est
+« la réforme des subventions dommageables et la réorientation de la finance »,
+alors le dispositif doit établir qu'il fait l'une ou l'autre MIEUX que les
+instruments existants — et non qu'il est nécessaire.*
+
+**RÉSERVE QUI BORNE CE RENFORCEMENT.** **Les gains chiffrés sont des SORTIES DE
+MODÈLE à l'horizon 2060, et le corpus n'a ouvert ni le modèle, ni ses
+hypothèses, ni ses intervalles.** **Il s'interdit de les traiter comme des
+faits.** **ET L'ACQUISITION QUI LÈVERAIT F10 RESTE LA MÊME, NON FAITE** : la
+réforme des subventions dommageables, que le rapport nomme comme premier
+obstacle. **Ce chapitre en augmente l'urgence.**

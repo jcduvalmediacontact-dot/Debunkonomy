@@ -113,3 +113,13 @@ renvois: [L1.C02, L1.C03, L1.C04, L5.C08, L6.C08, L11.C10, L11.C24, L18.C01, L18
 ::etat:: **Les pays à haut revenu utilisent six fois plus de matières par habitant, produisent dix fois plus d'impacts climatiques par habitant, et DÉPLACENT leurs impacts vers tous les autres groupes de revenu par le commerce.** **La proximité géographique ne coïncide donc pas avec la proximité des effets** — point versé au balayage, qui touche l'argument régional de L5.C05.
 
 ::etat:: **Les chiffres proviennent des messages clés et du résumé, non des chapitres de méthode : le corpus tient des ordres de grandeur et aucune incertitude.** **Et il ne tient toujours pas de nomenclature d'activités** — quatre systèmes ne sont pas des secteurs, **et L5.C08 reste sans moyen de désigner un secteur comme verrouillé.**
+
+## BALAYAGE DU LIVRE 24, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L24.C03, qui instruit la matière et vérifie sur pièce le chiffre des minéraux de la transition.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE CHIFFRE QUE CE CHAPITRE PORTAIT EST VÉRIFIÉ SUR PIÈCE** [L24.C03]. **PNUE, « Global Resources Outlook 2024 », lu dans le texte** : « To stay below a 2 °C temperature rise by 2050, we will need **over three billion tonnes of energy transition minerals and metals** for wind power, solar and more. »
+
+::hypothese:: **ET LA PHRASE SUIVANTE AJOUTE UNE TENAILLE QUE LE CORPUS N'AVAIT PAS** : « **Aiming for 1.5 °C TO MAXIMIZE CLIMATE JUSTICE would mean EVEN GREATER DEMAND.** » **Viser la limite juste plutôt que la limite sûre — ce que L24.C02 établit comme l'exigence d'un dispositif qui se réclame de la justice — AUGMENTE la demande de minéraux.** **La justice climatique coûte de la matière, et le corpus ne peut pas présenter les deux objectifs comme convergents sans le dire.**
+
+::etat:: **CONTEXTE VERSÉ : l'extraction et la transformation des ressources matérielles comptent pour « over 55 per cent of greenhouse gas emissions » et « 40 per cent of particulate matter health related impacts »** ; avec le changement d'usage des terres, les impacts climatiques dépassent **60 %**. **La biomasse compte pour plus de 90 % de la perte de biodiversité et du stress hydrique liés à l'usage des terres.** **Usage total : de 100 à 160 milliards de tonnes d'ici 2060 sans action.**

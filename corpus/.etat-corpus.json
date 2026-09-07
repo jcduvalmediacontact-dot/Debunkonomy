@@ -1080,7 +1080,7 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L11.C13": {
-    "editoriale": "21bd9b5da7550c82",
+    "editoriale": "e7855beb763fad29",
     "metadonnees": "8037519e951d1068",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1236,7 +1236,7 @@
     "qualification": "fond, déclarée le 2026-09-07"
   },
   "L18.C04": {
-    "editoriale": "fa1bb143a841c29c",
+    "editoriale": "5b1e8f749b91e685",
     "metadonnees": "fb32e0f8ad84e646",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
@@ -1550,6 +1550,12 @@
   "L24.C02": {
     "editoriale": "327ac3ec9d3b4cbb",
     "metadonnees": "fd747dfef88b5d7d",
+    "revision_de_fond": "2026-09-07",
+    "qualification": "fond, déclarée le 2026-09-07"
+  },
+  "L24.C03": {
+    "editoriale": "d8af9b67c0988295",
+    "metadonnees": "008707346a97de4d",
     "revision_de_fond": "2026-09-07",
     "qualification": "fond, déclarée le 2026-09-07"
   },

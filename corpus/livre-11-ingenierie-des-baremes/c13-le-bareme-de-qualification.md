@@ -326,3 +326,15 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **Et cela rejoint A35 par un chemin physique** : l'arbitrage disait que la société entière porte la dette ; **la source dit qu'une partie de cette dette est déjà échue et ne se rembourse pas en restaurant un écosystème** — elle se rembourse en transférant des moyens à ceux qui subissent, **ce qui est un objet du Livre 25 et non de celui-ci.**
 
 ::etat:: **DEUX PRÉCISIONS FAVORABLES.** Les limites justes et sûres **COÏNCIDENT** pour l'eau de surface, l'eau souterraine, l'intégrité fonctionnelle, l'aire des écosystèmes naturels, le phosphore et l'azote — **la justice n'ajoute une contrainte que là où le dommage humain précède la déstabilisation.** **Et plusieurs limites sont SOUS-GLOBALES** — 20 % d'altération des débits « in ALL rivers globally » — **ce qui rejoint exactement l'architecture par zone du barème ouvert en L22.C04 : description initiale, plan de gestion, audit.**
+
+## BALAYAGE DU LIVRE 24, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L24.C03, qui instruit la matière et vérifie sur pièce le chiffre des minéraux de la transition.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UNE ASSIETTE APPARAÎT POUR LE REFLUX, ET AUCUNE ÉCHELLE POUR L'ÉMISSION** [L24.C03]. **PNUE, « Global Resources Outlook 2024 »** : l'extraction et la transformation des ressources matérielles déterminent **plus de 55 % des émissions de gaz à effet de serre**, **40 % des effets sanitaires des particules**, et la biomasse seule **plus de 90 % de la perte de biodiversité et du stress hydrique liés aux terres.**
+
+::hypothese:: **LES NEUF DIMENSIONS N'ONT AUCUNE UNITÉ COMMUNE — F13 tient — MAIS ELLES ONT UN DÉTERMINANT COMMUN, ET IL SE COMPTE EN TONNES.** **L'absence d'unité commune n'implique pas l'absence de levier commun** : on ne convertit pas de l'azote en carbone, on peut agir sur ce qui produit les deux.
+
+::hypothese:: **CONSÉQUENCE POUR CE BARÈME, ET ELLE EST ASYMÉTRIQUE.** **Une fonte graduée par l'INTENSITÉ MATÉRIELLE de la consommation a désormais un fondement physique** — ce que A35 suggérait sans le fonder. **Mais réduire un tonnage n'est pas restaurer un milieu : la matière mesure une PRESSION, pas une RÉGÉNÉRATION.** **Le reflux trouve son assiette ; l'émission ne trouve pas la sienne.**
+
+::etat:: **RÈGLE « LE PAS DE TROP » : la matière est un DÉTERMINANT, non une MESURE.** Un pied matériel agrège des tonnes dont les effets diffèrent d'un ordre de grandeur — la source l'établit elle-même en attribuant **28 %** des impacts climatiques à la biomasse et **17 %** aux minéraux et métaux réunis. **Acquisition déclarée : ce que vaut une tonne agrégée, et par quoi la pondérer.**
