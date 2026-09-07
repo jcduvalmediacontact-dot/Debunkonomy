@@ -1544,5 +1544,71 @@ le livre a choisi le pilotage sans énoncer qu'il choisissait (P48, A7).
   thèse qui accorde son objection la plus dangereuse n'est pas une thèse
   complaisante.
 
+## F8 — Le désarmement
+
+**POSÉ LE 2026-09-07, en défrichant L6.C09.** Les sept falsifieurs précédents
+portent sur ce que le dispositif **prétend faire** — calibrer, mesurer, tenir
+devant le droit positif, revendiquer une antériorité, emporter l'adoption,
+piloter. **F8 porte sur autre chose : sur ce qu'il resterait du dispositif si
+tout le reste tenait.**
+
+Il naît d'un cas et non d'une théorie. Le traité de l'Organisation mondiale de
+la propriété intellectuelle du 24 mai 2024 crée une obligation authentique, au
+bénéfice d'un destinataire nommé, **après vingt-cinq ans de négociation et par
+consensus** — puis lui retire ses remèdes, à trois endroits différents du texte.
+**Aucune de ces trois opérations n'est une exception : ce sont des choix de
+rédaction, et chacun se défend seul.**
+
+**LES TROIS ÉTAGES DU DÉSARMEMENT — et le test est leur conjonction.**
+
+| | L'opération | Où elle se loge | Ce qu'elle produit |
+|---|---|---|---|
+| **1** | **Le déclencheur exige plusieurs conditions CUMULATIVES** | dans la définition du champ | une exonération qui ne dit pas son nom : ce qui ne satisfait pas les deux branches sort du champ **sans qu'aucune exception ait été écrite** |
+| **2** | **La vérification n'est imposée à personne** | dans les obligations des autorités | la déclaration inexacte **ne rencontre aucun contrôle**, et l'obligation devient déclarative |
+| **3** | **Le manquement n'emporte aucune conséquence sur le droit acquis** | dans les remèdes | l'obligation subsiste **et ne mord sur rien** |
+
+**LE TROISIÈME ÉTAGE EST LE PLUS INSTRUCTIF PARCE QU'IL EST RÉDIGÉ PAR L'EFFET
+ET NON PAR LE MOYEN.** Le traité ne dresse pas la liste des sanctions
+interdites : il protège contre « tout remède qui invaliderait ou rendrait
+inopposables les droits conférés ». **Une clause écrite par son effet ferme
+d'avance les remèdes que personne n'a encore imaginés** — c'est la technique
+exactement inverse de celle que L11.C29 réclame, où le défaut est automatique et
+daté.
+
+**LE TEST, ET IL S'APPLIQUE CHAPITRE PAR CHAPITRE.** *Un dispositif du corpus
+est désarmé si les trois conditions sont réunies : son déclencheur exige
+plusieurs conditions cumulatives, sa vérification n'est imposée à personne, et
+son manquement n'emporte aucune conséquence sur le droit acquis.* **Si un barème
+de NEMO IMS satisfait les trois, il est ce traité — quelles que soient par
+ailleurs ses vertus de calibration.**
+
+**CE QUE F8 NE DIT PAS, et il faut le border.** Il ne dit pas qu'un cumul de
+conditions est vicieux : une qualification a besoin d'être précise, et L1.C18
+tient la qualification régénérative pour une décision à critères. Il ne dit pas
+qu'une possibilité de rectifier est un vice : elle est de droit élémentaire. **Il
+dit que les trois ensemble suppriment l'obligation en la laissant écrite**, et
+qu'aucune des trois, prise seule, ne le laisse voir.
+
+**POURQUOI F8 EST DANGEREUX POUR LE CORPUS EN PARTICULIER.** Le dispositif
+qualifie des activités par des critères multiples, confie la certification à des
+tiers dont L11.C25 n'a pas fixé les obligations de contrôle, et **n'a jamais
+écrit ce qu'il advient d'une qualification obtenue à tort** — L11.C29 l'a établi
+en constatant que vingt-huit chapitres traitaient des niveaux et zéro des
+sanctions. **Les trois étages sont donc, à ce jour, l'état par défaut du corpus,
+et non un risque lointain.**
+
+**CONDITION D'ÉCHEC.** F8 est vérifié si, à la clôture des passes, un barème du
+dispositif réunit les trois étages **et que le corpus n'est pas en mesure de
+nommer, pour ce barème, une conséquence datée du manquement qui atteigne le
+droit acquis.** **Ce n'est pas une objection extérieure : c'est un défaut de
+rédaction, et il se corrige en rédigeant.** Mais tant qu'il n'est pas corrigé,
+la thèse tient un dispositif dont l'effet n'est pas établi.
+
+**RÉSERVE, ET ELLE EST DE MÉTHODE.** Le traité n'a pas été lu article par
+article — le registre du Livre 6 le déclare. **Les quatre limites sont connues
+par leur restitution, non par leur rédaction**, et une clause de sauvegarde se
+juge sur ses mots. F8 est posé sur cette base et **doit être repesé après lecture
+du texte**, qui est public et gratuit.
+
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.
