@@ -225,3 +225,17 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
 ::etat:: **Le corpus n'en tire pas un manque à percevoir chiffré** — il faudrait l'assiette effective, le taux et la part donnant lieu à fait générateur, et il n'a aucun des trois. **Il en tire une exclusion de périmètre établie.**
 
 ::hypothese:: **CONTREPOIDS PORTÉ DANS LE MÊME MOUVEMENT.** **La fonte n'a jamais eu pour objet de taxer la finance** ; exempter les actifs financiers peut être une cohérence plutôt qu'une faille. **Mais alors le dispositif doit renoncer à l'argument du rééquilibrage entre la finance et l'économie réelle** [L1.C19] : **un instrument qui ne touche pas 51 % des actifs financiers ne rééquilibre rien de ce côté-là.**
+
+## BALAYAGE DU LIVRE 22, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L22.C02, qui compose trois résultats déjà acquis du corpus.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UN TERME MANQUAIT À LA FORMULE DU § 5, ET IL EST NOMMÉ** [L22.C02]. Ce chapitre écrivait : rendement du reflux transactionnel = volume des paiements × part restant dans l'assiette × taux moyen pondéré. **Le premier terme cachait le suivant.**
+
+::hypothese:: **« Le volume des paiements » n'est pas une donnée indépendante de l'émission : c'est LE NOMBRE DE FOIS OÙ LA MONNAIE ÉMISE REPASSE PAR UNE TRANSACTION TAXABLE AVANT DE SE DÉPOSER.** **Reflux cumulé sur une émission = montant émis × NOMBRE MOYEN DE PASSAGES TAXABLES × taux moyen.** **Et ce nombre est décidé par le comportement d'épargne des bénéficiaires successifs, non par le dispositif.**
+
+::etat:: **LE REFLUX SUIT LA DÉPENSE, PAS LA MONNAIE. Ce qui sédimente échappe** — épargner, c'est acquérir un actif financier, ce qui n'est pas une consommation finale, dans aucun pays et sans qu'il y ait là ni faille ni contournement. **Et l'actif se loge majoritairement dans le secteur que L22.C01 a établi hors de portée des deux nœuds.**
+
+::hypothese:: **C'est la formulation la plus dure de F1 que le corpus ait écrite** : **si le nombre moyen de passages taxables est inférieur à l'inverse du taux, le reflux ne couvre pas l'émission** — **et aucun réglage du barème ne compense un comportement d'épargne**, sauf à porter le taux à des niveaux que L11.C09 et L11.C18 rendent intenables.
+
+::etat:: **LA BOUCLE DU § 4 EST SERRÉE, ET ELLE SE REFERME SUR CE CHAPITRE.** Un troisième instrument atteindrait ce qui échappe — **un prélèvement sur les encours détenus hors du système bancaire** — **mais il suppose de SAVOIR QUI DÉTIENT, ce que le repli sur les réserves servait précisément à éviter.** **La commodité du premier instrument et l'impuissance du troisième ont la même cause.**

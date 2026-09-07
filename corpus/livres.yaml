@@ -1753,7 +1753,7 @@ livres:
       - "objection — L5.C09 : la protection de l'entrée expire quand la couche déplace des flux, et le corpus ne sait pas qui réagirait ni comment"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 1
+    chapitres_acquis: 2
     architecture: >
       Périmètre proposé par l'auteur : gestion active, passive et indicielle ;
       séparation entre propriétaire économique et gestionnaire ; agences de
@@ -1814,6 +1814,38 @@ livres:
       L5.C09, qui demandait "qui reagirait".
       REGLE DE TRAITEMENT DE L'AUTEUR TENUE : aucune firme n'est nommee ; la
       concentration est rapportee dans les termes de la source.
+      L22.C02 N'OUVRE AUCUNE SOURCE NOUVELLE : IL COMPOSE TROIS RESULTATS DEJA
+      ACQUIS ET LE PRODUIT EST UNE OBJECTION QUE LE CORPUS N'AVAIT PAS VUE. Ce
+      qui circule est de la monnaie nationale ordinaire (L11.C01). L'assiette de
+      la fonte est la consommation finale (L11.C27), l'autre noeud etant les
+      reserves (L11.C02). Le secteur qui detient 51 % des actifs financiers n'a
+      ni compte de banque centrale ni consommation finale (L22.C01).
+      RESULTAT : LE REFLUX SUIT LA DEPENSE, PAS LA MONNAIE. La monnaie emise est
+      frappee TANT QU'ELLE EST DEPENSEE et cesse de l'etre des qu'elle est
+      EPARGNEE -- epargner, c'est acquerir un actif financier, ce qui n'est une
+      consommation finale dans aucun pays, sans faille ni contournement. CE QUI
+      SEDIMENTE EST SORTI DES DEUX ASSIETTES.
+      UN TERME MANQUAIT A LA FORMULE DE L11.C02 par. 5, ET IL EST NOMME : LE
+      NOMBRE DE PASSAGES TAXABLES AVANT SEDIMENTATION. Reflux cumule sur une
+      emission = montant emis x nombre moyen de passages taxables x taux moyen.
+      Ce nombre est decide par le comportement d'epargne des beneficiaires
+      successifs, NON PAR LE DISPOSITIF. C'est la formulation la plus dure de F1
+      que le corpus ait ecrite, et F1 est renforce en consequence.
+      ASYMETRIE GEOGRAPHIQUE ETABLIE SUR PIECE : "Banks represented 58.6% of
+      total financial assets in EMEs, while they represented 32.4% in AEs". LA
+      PART DE LA RICHESSE QUI ECHAPPE A UN PRELEVEMENT SUR LES RESERVES EST
+      NETTEMENT PLUS GRANDE DANS LES ECONOMIES AVANCEES -- ce n'est pas une
+      intention, c'est une propriete de l'assiette, et elle va contre
+      l'intention declaree du dispositif. Deux reserves la bornent.
+      TROISIEME INSTRUMENT NOMME SANS ETRE INSTRUIT : un prelevement sur les
+      encours detenus hors du systeme bancaire. IL SUPPOSE DE SAVOIR QUI DETIENT
+      -- ce que le repli sur les reserves servait precisement a eviter. LA
+      COMMODITE DU PREMIER INSTRUMENT ET L'IMPUISSANCE DU TROISIEME ONT LA MEME
+      CAUSE.
+      CONTREPOIDS FRANC : toute taxe sur la consommation presente cette fuite.
+      Ce qui est propre au dispositif est que L'INSTRUMENT NE DOIT PAS RAPPORTER
+      MAIS BOUCLER. La fuite est ordinaire ; la consequence de la fuite ne l'est
+      pas.
 
   - livre: 23
     titre: "Fiscalité mondiale, finance offshore et opacité"

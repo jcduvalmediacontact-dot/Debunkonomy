@@ -2448,3 +2448,46 @@ l'UNITÉ vers le CIRCUIT, et demande de réécrire ce que le livre promet.*
 
 **LE CORPUS ENREGISTRE QUE LES DEUX SORTIES ONT UN COÛT ET QU'AUCUNE N'EST
 GRATUITE**, ce qui est la marque d'un falsifieur utile.
+
+### F1 — RENFORCEMENT DU 2026-09-07, PAR L22.C02 : le terme qui manquait à l'équation
+
+**F1 demande si le reflux couvre l'émission. Le corpus tenait la question pour
+CALCULABLE depuis L11.C02 § 5, sous la forme d'un produit à trois termes.
+L22.C02 établit qu'il en manquait un, et que c'est celui que le dispositif ne
+commande pas.**
+
+**LE TERME MANQUANT.** « Le volume des paiements » n'est pas indépendant de
+l'émission : **c'est le nombre de fois où la monnaie émise repasse par une
+transaction taxable AVANT DE SE DÉPOSER DANS UN ACTIF FINANCIER.**
+
+**LA FORME CORRIGÉE, POUR L'ÉMISSION PROPRE DU DISPOSITIF.** *Reflux cumulé sur
+une émission = montant émis × nombre moyen de passages taxables × taux moyen.*
+
+**POURQUOI C'EST LA FORMULATION LA PLUS DURE DE F1.** **Épargner, c'est acquérir
+un actif financier, ce qui n'est pas une consommation finale** — dans aucun pays,
+et sans faille ni contournement. **Et l'actif acquis se loge majoritairement dans
+le secteur non bancaire, qui détient 51,0 % des actifs financiers mondiaux et
+n'a ni compte de banque centrale ni consommation finale** [L22.C01]. **La monnaie
+émise puis épargnée est SORTIE DES DEUX ASSIETTES.**
+
+**CE QUE CELA COÛTE.** **Si le nombre moyen de passages taxables est inférieur à
+l'inverse du taux, le reflux ne couvre pas l'émission.** **Et aucun réglage du
+barème ne compense un comportement d'épargne**, sauf à porter le taux à des
+niveaux que L11.C09 et L11.C18 rendent distributivement et politiquement
+intenables.
+
+**CE QUI LE LÈVERAIT.** *Établir, par zone monétaire, le nombre moyen de passages
+taxables d'une unité émise — c'est-à-dire la propension à épargner des
+bénéficiaires successifs et la part de cette épargne qui se loge hors du bilan
+bancaire. Ou instruire un TROISIÈME INSTRUMENT frappant les encours détenus hors
+du système bancaire — dont L22.C02 § 5 établit qu'il exige d'identifier les
+détenteurs, c'est-à-dire exactement ce que le repli sur les réserves servait à
+éviter.*
+
+**LE CONTREPOIDS EST PORTÉ ET IL EST FRANC.** **Toute taxe assise sur la
+consommation présente cette fuite**, et personne n'en conclut qu'elle ne
+fonctionne pas. **Ce qui est propre au dispositif est la fonction demandée à
+l'instrument : une taxe ordinaire doit RAPPORTER, le reflux doit BOUCLER.** **Un
+impôt qui rend moins que prévu creuse un déficit ; un reflux qui rend moins que
+l'émission laisse en circulation une monnaie non résorbée.** **La fuite est
+ordinaire ; la conséquence de la fuite ne l'est pas.**

@@ -220,3 +220,13 @@ renvois: [L1.C18, L1.C21, L1.C23, L11.C02, L11.C03, L11.C04]
 ::hypothese:: **Le corpus enregistre que le choix d'assiette n'est pas un réglage mais une qualification.** **Frapper la transaction, c'est établir un prélèvement** — avec la compétence fiscale, le percepteur, l'assiette à reconstituer et les quatre obstacles du Livre 23. **Frapper l'encours, c'est édicter une règle monétaire** — sans aucun de ces obstacles, **mais sans pouvoir graduer selon l'impact.**
 
 ::etat:: **Ce chapitre avait relevé que la proposition voisine impose plus lourdement l'achat d'un bien que la transaction financière, conséquence distributive non discutée par ses auteurs.** **La question devient plus large : c'est le CHOIX MÊME de l'assiette transactionnelle qui emporte le régime juridique du dispositif.** **Arbitrage A36 ouvert.**
+
+## BALAYAGE DU LIVRE 22, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L22.C02, qui compose trois résultats déjà acquis du corpus.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'ASSIETTE ÉTABLIE ICI FUIT PAR UN CÔTÉ QUE CE CHAPITRE N'EXAMINAIT PAS** [L22.C02]. **Le reflux transactionnel frappe la dépense ; il ne frappe pas la monnaie.** **Une unité monétaire émise et immédiatement épargnée ne produit AUCUN reflux**, l'acquisition d'un actif financier n'étant pas une consommation finale.
+
+::hypothese:: **Le paramètre décisif n'est donc pas seulement le TAUX et l'ASSIETTE, mais LE NOMBRE DE PASSAGES TAXABLES avant sédimentation** — grandeur qui dépend du comportement d'épargne des bénéficiaires successifs et **qu'aucun réglage du barème ne commande.**
+
+::etat:: **ASYMÉTRIE GÉOGRAPHIQUE ÉTABLIE SUR PIÈCE** [Conseil de stabilité financière, 2025] : « **Banks represented 58.6% of total financial assets in EMEs, while they represented 32.4% in AEs.** » **La part de la richesse qui échappe à un prélèvement assis sur les réserves est nettement plus grande dans les économies avancées.** **Ce n'est pas une intention, c'est une propriété de l'assiette** — et elle va contre l'intention déclarée du dispositif. **Deux réserves la bornent** : le corpus ne sait pas où l'émission atterrirait, et l'agrégat « économies avancées » recouvre des structures très différentes.
