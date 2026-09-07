@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -159,13 +159,19 @@ renvois: [L1.C21, L1.C23, L1.C27, L11.C03, L11.C05, L11.C06, L11.C09]
 
 ## 3. La fenêtre d'anticipation, et elle joue contre le dispositif
 
-::hypothese:: Voici ce que produit une trajectoire annoncée, et c'est mécanique. **Si le taux sur le dégénératif doit monter, alors aujourd'hui il est moins cher qu'il ne le sera jamais.**
+::hypothese:: Voici ce que produit une trajectoire annoncée. **Si le taux sur le dégénératif doit monter, alors aujourd'hui il est moins cher qu'il ne le sera jamais.**
 
-::hypothese:: Un agent rationnel avance donc ce qu'il peut avancer : l'équipement à remplacer est remplacé maintenant par un équipement encore dégénératif mais bon marché, l'usine qu'on hésitait à construire est construite avant l'échéance, le stock qu'on constituera est constitué tôt. **La trajectoire produit une accélération de ce qu'elle veut décourager, avant de le décourager.**
+::hypothese:: Un agent rationnel avance donc ce qu'il peut avancer : l'équipement à remplacer est remplacé maintenant par un équipement encore dégénératif mais bon marché, l'usine qu'on hésitait à construire est construite avant l'échéance, le stock qu'on constituera est constitué tôt. **La trajectoire produirait alors une accélération de ce qu'elle veut décourager, avant de le décourager.**
+
+::etat:: **CORRECTION DU 2026-09-07, sur relecture contradictoire, et elle porte sur un mot.** Ce paragraphe écrivait « et c'est mécanique ». **Ce ne l'est pas, et la raison tient à l'assiette que le corpus s'est lui-même donnée.** L11.C05, L11.C27 et L11.C28 ont établi que le reflux frappe **l'acquisition d'actifs ET les transactions ultérieures**. Un agent qui avance l'achat d'un équipement dégénératif **échappe au prélèvement futur sur l'acquisition et s'expose à des années de prélèvement sur l'exploitation** — dont le taux, précisément, doit monter.
+
+::hypothese:: **La direction de l'effet n'est donc pas déduite du calendrier : elle dépend d'un calcul.** Elle se joue entre l'économie faite sur l'acquisition, la **durée de vie** de l'équipement et sa **reconvertibilité**, le profil de la trajectoire, **la crédibilité de celle-ci** — objet de la section 4 — et la **disponibilité d'une alternative finançable.** **Le corpus doit tenir les deux branches : la ruée avant échéance est un scénario, le renoncement anticipé en est un autre**, et rien dans l'annonce seule ne dit lequel domine.
+
+::hypothese:: **Cela change le statut de la section, non son intérêt.** Elle ne décrit plus un effet attendu **mais une indétermination**, et une indétermination se lève par une épreuve plutôt que par un raisonnement. **L'épreuve E1, versée sous F7, est écrite pour cela.**
 
 ::hypothese:: **Et l'effet se compose mal avec ce que le corpus tient déjà.** L'assiette est ainsi gonflée tôt et déprimée tard — le reflux rapporte quand on n'en a pas besoin et manque quand il faudrait qu'il porte. **C'est le décalage de phase que F1 redoutait, produit cette fois non par le succès de l'instrument mais par son annonce.**
 
-::hypothese:: Le corpus insiste sur le statut de ce paragraphe : **c'est une prédiction, et elle est testable.** Les échéances annoncées de prix du carbone, d'interdictions sectorielles et de normes d'émission ont produit des observations sur exactement ce point. Le corpus n'en a ouvert aucune. **Il ne peut donc pas dire si l'effet est marginal ou dirimant, et il refuse de trancher sans l'avoir regardé.**
+::hypothese:: Le corpus insiste sur le statut de ce paragraphe : **c'est une prédiction, elle est testable, ET SON SIGNE N'EST PAS ACQUIS.** Les échéances annoncées de prix du carbone, d'interdictions sectorielles et de normes d'émission ont produit des observations sur exactement ce point. Le corpus n'en a ouvert aucune. **Il ne peut donc dire ni si l'effet est marginal ou dirimant, ni dans quel sens il joue, et il refuse de trancher sans l'avoir regardé.**
 
 ## 4. La crédibilité fait tout, et un calendrier ne la produit pas
 

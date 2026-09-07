@@ -1544,6 +1544,81 @@ le livre a choisi le pilotage sans énoncer qu'il choisissait (P48, A7).
   thèse qui accorde son objection la plus dangereuse n'est pas une thèse
   complaisante.
 
+### Épreuve E1 — la direction de l'anticipation, et elle n'est pas déduite du calendrier
+
+**POSÉE LE 2026-09-07, sur relecture contradictoire de L11.C10 § 3.** Ce
+paragraphe écrivait que la ruée avant échéance est « mécanique ». **Elle ne
+l'est pas** : l'assiette du dispositif frappant **l'acquisition d'actifs ET
+l'activité ultérieure** (L11.C05, L11.C27, L11.C28), avancer l'achat d'un
+équipement dégénératif fait échapper au prélèvement futur sur l'acquisition
+**et expose à des années de prélèvement sur l'exploitation, dont le taux
+monte.** **La direction dépend d'un calcul, non du calendrier.**
+
+**TROIS MOMENTS À NE PAS CONFONDRE**, et le corpus les confondait : **l'annonce
+de la règle**, **la décision économique**, **le prélèvement**. F7 porte sur la
+crédibilité de l'annonce ; E1 porte sur ce que la décision fait de l'annonce.
+
+**PROTOCOLE.** Comparer **deux investissements remplissant la même fonction**,
+de coûts initiaux et d'impacts différents. Expliciter quatre jeux de
+paramètres :
+
+| | Paramètre | Pourquoi il décide |
+|---|---|---|
+| **1** | Prélèvements **sur l'acquisition** et **sur l'activité ultérieure**, séparément | c'est le partage qui donne son signe à l'effet ; une assiette portant sur la seule acquisition produit la ruée, une assiette portant aussi sur l'exploitation peut la renverser |
+| **2** | **Durée de vie** de l'équipement et **possibilités de reconversion** | une durée courte ou une reconversion praticable réduit l'exposition future et rend la ruée rationnelle ; l'inverse la pénalise |
+| **3** | **Trajectoire du barème et sa crédibilité** | jonction avec F7 : une échéance que chacun s'attend à voir repoussée ne produit ni ruée ni renoncement |
+| **4** | **Disponibilité et financement de l'alternative** | jonction avec L11.C10 § 6 : là où aucun substitut n'existe, l'agent n'a pas de troisième option et le calcul se réduit |
+
+**Observer dans quelles conditions les acteurs avancent l'investissement
+dommageable, choisissent l'alternative, ou attendent.** **Le critère écologique
+et l'horizon sont fixés AVANT le calcul** — faute de quoi l'épreuve se juge
+elle-même.
+
+**CE QUE E1 EST, ET CE QU'ELLE N'EST PAS.** Un échec établirait **une limite de
+la version testée**, non l'échec de la thèse : c'est une épreuve rattachée à F7,
+pas un falsifieur autonome. **Pour le devenir, il faudrait montrer quelle
+condition NÉCESSAIRE de NEMO IMS elle éprouve, et ce qu'elle ajoute à F7 — qui
+porte sur la crédibilité — et à F8 — qui porte sur les remèdes.** Le corpus ne
+l'a pas montré et ne crée donc pas de falsifieur nouveau.
+
+**SOURCE OUVERTE PAR TÉLÉCHARGEMENT DIRECT LE 2026-09-07, ET ELLE PORTE SUR LE
+SIGNE.** Claus Brand, Günter Coenen, John Hutchinson et Arthur Saint Guilhem,
+« The macroeconomic implications of the transition to a low-carbon economy »,
+*ECB Economic Bulletin*, Issue 5/2023 —
+`https://www.ecb.europa.eu/press/economic-bulletin/articles/2023/html/ecb.ebart202305_01~a6ff071a65.en.html`.
+Texte HTML téléchargé et lu ; source signalée par la relecture contradictoire.
+
+**CE QUE LE TEXTE DIT, VERBATIM** : « On the real side, carbon tax-induced
+increases in energy prices dampen domestic demand by lowering real household
+incomes and corporate profits. **The more these effects are anticipated via
+forward-looking expectations, the more these will lead to a FRONTLOADED FALL IN
+CONSUMPTION AND INVESTMENT.** Similarly, these may lead to **a frontloaded
+increase in prices set by firms in anticipation of higher energy costs.** »
+
+**CE QUE CELA FAIT À L11.C10 § 3, ET C'EST DÉFAVORABLE À SA RÉDACTION
+ANTÉRIEURE.** Ce paragraphe tenait pour mécanique que l'anticipation d'une
+hausse **avance l'achat dégénératif**. **Le seul exercice institutionnel que le
+corpus ait ouvert sur ce point conclut à l'inverse dans sa configuration** :
+plus l'anticipation est forte, **plus la baisse de l'investissement est
+avancée.** La ruée n'est donc pas le résultat attendu par défaut.
+
+**TROIS RÉSERVES, ET ELLES INTERDISENT DE TRANSPOSER.** (1) **Le prélèvement
+modélisé porte sur l'ÉNERGIE, donc sur un COÛT D'EXPLOITATION** — pas sur
+l'acquisition d'un actif. C'est exactement la configuration où la théorie
+prédit le renoncement anticipé, et elle ne dit rien de la configuration
+inverse. **Elle confirme donc que l'assiette donne son signe à l'effet, ce qui
+est le point de E1, et ne tranche pas le cas du dispositif**, dont l'assiette
+frappe les deux. (2) **Ce sont des résultats de MODÈLES**, non des observations :
+le texte parle d'une « suite of models » et précise « This is the case in models
+featuring forward-looking households ». **Un résultat de modèle n'établit pas un
+fait.** (3) Le scénario est un **prix du carbone** dans le cadre européen, non un
+reflux transactionnel modulé sur l'empreinte.
+
+**CE QUE LE CORPUS EN RETIENT** : le signe de l'effet d'anticipation **a été
+étudié institutionnellement**, il **dépend de l'assiette et de l'horizon**, et
+**il n'est pas celui que L11.C10 § 3 supposait** dans la seule configuration
+documentée. E1 reste à conduire ; **elle a maintenant un point de comparaison.**
+
 ## F8 — Le désarmement
 
 **POSÉ LE 2026-09-07, en défrichant L6.C09.** Les sept falsifieurs précédents
