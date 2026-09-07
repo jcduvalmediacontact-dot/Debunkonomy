@@ -2400,3 +2400,51 @@ teste.**
 
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.
+
+## F12 — L'indiscernabilité
+
+**PROPOSÉ LE 2026-09-07 par L21.C05, après ouverture des règles de la première
+infrastructure existante que le corpus tienne. NON ARBITRÉ : il touche la
+revendication centrale du livre, et l'auteur seul peut le poser.**
+
+**CONDITION D'ÉCHEC PROPOSÉE.** *Que tout ce qui circule effectivement sous le
+dispositif soit de la monnaie nationale ordinaire et indiscernable ; que la
+qualification régénérative vive intégralement hors du circuit de paiement, dans
+un registre séparé dont le paiement ne porte qu'une référence ; et que la fonte
+ne puisse s'appliquer qu'à de la monnaie nationale, par une compétence fiscale
+nationale. Si les trois tiennent, le dispositif NE MET PAS À L'ÉPREUVE la thèse
+du livre — qu'une monnaie peut être conçue autrement — il l'ÉVITE, en obtenant
+l'effet recherché sans le mécanisme revendiqué.*
+
+**CE QUI L'ÉTABLIT, ET C'EST LE CORPUS LUI-MÊME.** **L11.C01 § 3**, sous le
+régime arbitré par l'auteur le 2026-09-05 : « **l'allocation NE CIRCULE JAMAIS.**
+Elle vit exclusivement entre le Symposium et les banques centrales nationales.
+Le prestataire est payé en monnaie nationale et n'en détient aucune. Ce qui
+circule dans l'économie [...] est de la **MONNAIE NATIONALE ORDINAIRE,
+INDISCERNABLE DE TOUTE AUTRE.** » **L21.C03 § 7** : la qualification n'est ni un
+instrument ni une contrepartie au sens des normes de messagerie, **donc elle ne
+voyage pas dans le paiement.** **L21.C05 § 4** : aucune monnaie nouvelle ne
+demandant à entrer, **les règles d'admission d'une infrastructure de règlement
+ne sont pas opposables au dispositif.**
+
+**POURQUOI CE N'EST PAS F10.** **F10 dit que le résultat pourrait être obtenu
+autrement** — par la réforme des subventions dommageables, notamment. **F12 dit
+que le dispositif L'OBTIENT DÉJÀ AUTREMENT QUE PAR CE QU'IL ANNONCE.** Les deux
+peuvent tenir ensemble et ils ne se recouvrent pas.
+
+**POURQUOI CE N'EST PAS UNE OBJECTION PRATIQUE.** **Un dispositif qui marche sans
+être une monnaie reste un dispositif qui marche.** F12 n'attaque ni son
+efficacité, ni sa légalité, ni son financement. **Il attaque la description que
+le livre en donne** — son titre, sa thèse, et la place qu'il revendique dans
+l'histoire monétaire. **C'est pourquoi il est proposé et non posé.**
+
+**CE QUI LE LEVERAIT.** *Soit établir que l'allocation circule effectivement
+au-delà du couple émetteur / banques centrales — ce qui rouvre alors
+intégralement le Livre 21 et ses dix critères d'admission. Soit établir que
+l'émission d'une monnaie nationale sur instruction d'une institution mondiale,
+avec reflux remontant vers elle, est en elle-même une conception monétaire
+nouvelle indépendamment de ce qui circule — ce qui déplace la revendication de
+l'UNITÉ vers le CIRCUIT, et demande de réécrire ce que le livre promet.*
+
+**LE CORPUS ENREGISTRE QUE LES DEUX SORTIES ONT UN COÛT ET QU'AUCUNE N'EST
+GRATUITE**, ce qui est la marque d'un falsifieur utile.

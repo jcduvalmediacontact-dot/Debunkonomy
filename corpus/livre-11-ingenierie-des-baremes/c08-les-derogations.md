@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -155,3 +155,15 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07]
 ::hypothese:: **Elle transfère l'assiette du second ressort au barème de qualification**, de sorte qu'une seule table gouvernerait les deux extrémités du circuit — et elle crée une prime monétaire chiffrable à l'obtention du label, sur la partie du barème la plus difficile à établir, puisqu'elle exige de tracer l'emploi des fonds collectés.
 
 ::hypothese:: **Et elle apporte quelque chose de réel, que rien de ce qui précède ne diminue.** Elle transforme le demurrage d'une peine en un prix du refus d'investir. Elle répond à une objection de justice non résolue. Et elle ramène le second ressort dans la logique déclarée du dispositif : un instrument qui prétend orienter doit offrir la direction qu'il recommande. **C'est un apport de conception, et le corpus le porte au crédit de l'auteur.** Arbitrage A13 : le périmètre, non le principe.
+
+## BALAYAGE DU LIVRE 21, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C05, qui ouvre la première infrastructure existante que le corpus tienne.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une exemption d'un genre nouveau est demandée à ce chapitre, et elle ne vient pas de l'écologie** [L21.C05]. **Règle 3.1.2 (b) de l'infrastructure mondiale de règlement des changes** : une monnaie ne devient éligible que si au moins **trois institutions** se disent prêtes à agir comme **fournisseurs de liquidité**.
+
+::hypothese:: **Un fournisseur de liquidité détient un stock ; la fonte fait de la détention une perte calculée.** **La fonction demandée est rendue perdante par le dessein même de l'unité** — propriété qu'aucune autre exigence instruite ne possédait, les autres étant des coûts qui s'achètent.
+
+::hypothese:: **La sortie passe par ce chapitre : rémunérer le teneur de marché au moins au taux de la fonte, c'est-à-dire EXEMPTER SES STOCKS.** **Mais exempter une catégorie de détenteurs POUR CAUSE DE FONCTION FINANCIÈRE est un motif que ce chapitre n'a pas prévu**, et que L11.C18 devrait borner. **Le corpus verse la question sans la trancher, et note qu'elle rouvre celle de savoir qui décide d'une exemption et sur quel critère** (L11.C11).
+
+::etat:: **RÉSERVE DE PORTÉE** : sous le régime arbitré, l'unité ne circule pas et aucune monnaie nouvelle ne demande à entrer — **la question ne se pose que dans la branche où l'unité circulerait.**

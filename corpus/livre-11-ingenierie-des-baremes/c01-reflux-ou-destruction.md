@@ -194,3 +194,15 @@ renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29]
 ::hypothese:: **DIVERGENCE ENTRE CE CHAPITRE ET L11.C02 SUR LA PREMIÈRE ÉCRITURE, ET LE CORPUS LA TRANCHE.** Ce chapitre porte deux actifs au Symposium face au passif émis — certificat de qualification, créance sur les fontes futures — donc **un bilan équilibré** ; L11.C02 porte « à l'actif, rien encore », donc **des fonds propres négatifs**. **Les deux lectures ne peuvent pas être vraies ensemble.** L21.C03 tranche pour L11.C02 : **un certificat qui n'est le droit d'obtenir rien de personne, et une créance sur un débiteur que A35 dissout, ne sont pas des actifs.**
 
 ::etat:: **Conséquence sur la revendication de continuité comptable de la source** — « NEMO IMS n'invente pas une comptabilité radicalement nouvelle » : **elle tombe dès la première écriture, avant tout régime permanent.** La partie double n'est pas violée ; **c'est le sens des postes qui l'est.**
+
+## BALAYAGE DU LIVRE 21, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C05, qui ouvre la première infrastructure existante que le corpus tienne.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE § 3 DE CE CHAPITRE EST LE PLUS PROTECTEUR DU DISPOSITIF, ET LE CORPUS NE L'AVAIT PAS VU** [L21.C05]. « L'allocation ne circule jamais [...] ce qui circule dans l'économie [...] est de la **monnaie nationale ordinaire, indiscernable de toute autre** ». **Cette phrase exempte le dispositif de l'essentiel du Livre 21.**
+
+::hypothese:: **Les règles d'admission d'une monnaie à l'infrastructure mondiale de règlement des changes ne lui sont pas opposables**, puisqu'aucune monnaie nouvelle ne demande à entrer. **Les principes 7, 12, 15 et 20 instruits en L21.C01 et L21.C02 tombent comme objections** et ne subsistent que comme contraintes de la branche où l'unité circulerait.
+
+::etat:: **CE QUI SURVIT MALGRÉ TOUT, ET IL FAUT LE DIRE : L21.C04.** Le coût en fonds propres bancaires **ne dépend pas de la nature de l'unité** — il naît de ce que la banque centrale crédite des réserves à la banque d'un prestataire, **et ces réserves sont de la monnaie nationale ordinaire.** **Trois de capital de première catégorie par cent d'unités en circulation est le seul résultat inconditionnel du livre.**
+
+::hypothese:: **LE PRIX DU SOULAGEMENT EST ÉNONCÉ EN L21.C05 § 6, ET IL TOUCHE LA REVENDICATION CENTRALE.** **Ce qui exempte le dispositif des contraintes d'infrastructure est exactement ce qui le prive du titre de monnaie.** La qualification vit hors du circuit de paiement ; **la fonte ne peut frapper que de la monnaie nationale, donc par une compétence fiscale nationale** (A36) ; **et le dispositif devient une émission nationale coordonnée assortie d'un registre**, non une conception monétaire. **F12 est proposé à l'auteur sur ce fondement.**

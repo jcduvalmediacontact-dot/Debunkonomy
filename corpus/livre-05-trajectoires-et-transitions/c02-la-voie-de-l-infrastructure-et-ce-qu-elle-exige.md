@@ -131,3 +131,17 @@ renvois: [L1.C24, L1.C27, L3.C05, L3.C09, L5.C01, L7.C12, L20.C13]
 ::etat:: **Et une exigence non rencontrée apparaît : les LIMITES DE CONCENTRATION.** **Même un collatéral excellent ne se détient pas sans limite** — **or le dispositif suppose une contrepartie homogène.**
 
 ::etat:: **Le manque principal subsiste** : **aucune infrastructure existante n'est ouverte**, ni coût, ni délai, ni volume d'équilibre, **treize principes restant non instruits.**
+
+## BALAYAGE DU LIVRE 21, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C05, qui ouvre la première infrastructure existante que le corpus tienne.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LA RÉSERVE QUE CE CHAPITRE DÉCLARE DEPUIS SON ÉCRITURE EST PARTIELLEMENT SOLDÉE** [L21.C05]. **Une infrastructure existante est enfin ouverte** : les règles publiques de l'infrastructure mondiale de règlement des opérations de change, téléchargées et lues. **Le corpus peut désormais opposer des CRITÈRES, non plus des principes.**
+
+::etat:: **Règle 3.1.2 : DIX CONDITIONS CUMULATIVES**, le conseil ne pouvant désigner une monnaie que si elle les satisfait « **EACH** ». **Deux sont fermées PAR DÉFINITION à un émetteur non étatique** : le critère (h) exige un compte spécial chez « **the relevant Central Bank** », défini au glossaire comme « **the central monetary authority OF THE COUNTRY THAT ISSUES such Eligible Currency** » ; **le critère (g)** apprécie « **the stability of the banking system and RULE OF LAW APPLICABLE IN THE JURISDICTION OF SUCH CURRENCY** » **et la VOLATILITÉ HISTORIQUE**, qu'une unité neuve n'a pas.
+
+::hypothese:: **Le critère (e) referme le seuil d'activation** : il faut « **adequate RISK REDUCTION [...] TO JUSTIFY THE INVESTMENTS** », donc du volume — **et l'entrée est ce qui donnerait le volume.** **Le critère (a) met la porte entre les mains des occupants** : l'admission suppose « **a written request by TWO OR MORE CLS GROUP HOLDINGS SHAREHOLDERS** ».
+
+::etat:: **CONFIRMATION FAVORABLE DE CE CHAPITRE, ET IL FAUT LA COMPTER.** La participation en paliers que ce chapitre tenait pour une porte d'entrée **existe réellement et à grande échelle** : « **over 75** » membres de règlement pour « **over 38,000 more** » utilisateurs indirects. **Un pour cinq cents.**
+
+::hypothese:: **MAIS TOUT CECI EST CONDITIONNEL, ET L21.C05 ÉTABLIT QUE LA CONDITION N'EST PAS REMPLIE.** **Sous le régime arbitré le 2026-09-05, l'allocation NE CIRCULE PAS** [L11.C01 § 3] : ce qui circule est de la monnaie nationale ordinaire, **déjà éligible.** **Aucune monnaie nouvelle ne demande à entrer, donc aucun des dix critères n'est opposable.** **L'alternative que ce chapitre pose reste vraie pour la branche où l'unité circule ; elle ne l'est pas pour le dispositif tel qu'il est arbitré.**
