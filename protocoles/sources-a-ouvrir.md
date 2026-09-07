@@ -1001,3 +1001,98 @@ elles manquent au corpus.**
 **MÉTHODE POUR LE VERSEMENT** : déposer les fichiers dans le dossier des sources
 de l'auteur au Drive, comme le 2026-09-07 pour les pièces fiscales. **Le corpus
 les ouvrira par lecture directe et datera lui-même la vérification.**
+
+
+# Ouverture du 2026-09-08 — le Livre 26, six sources, dont quatre libres
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**R. U. Ayres, « The Second Law, The Fourth Law, Recycling and Limits to
+Growth », INSEAD Working Paper 98/38/EPS/CMER, mai 1998, 10 pages** —
+`flora.insead.edu/fichiersti_wp/inseadwp1998/98-38.pdf`. **Version de travail de
+l'article publié en 1999 dans *Ecological Economics*.** **DROITS : document
+de travail déposé par l'institution sur son propre serveur, sans licence
+explicite — `citation_seule`.** Ouvert pour **L26.C01**, équations
+comprises.
+
+**U.S. Geological Survey, *Mineral Commodity Summaries 2026*, février 2026,
+233 pages, DOI 10.3133/mcs2026** — `pubs.usgs.gov/periodicals/mcs2026/`.
+**DROITS : œuvre d'une agence fédérale des États-Unis, domaine
+public — `libre`.** Ouvert pour **L26.C02**, appendice C compris.
+
+**D. J. Murphy, M. Raugei, M. Carbajales-Dale et B. Rubio Estrada, « Energy
+Return on Investment of Major Energy Carriers: Review and Harmonization »,
+*Sustainability* 14, 7098, 2022** — `radar.brookes.ac.uk`. **DROITS : CC BY
+4.0 — `libre`.** Ouvert pour **L26.C03**.
+
+**C. de Castro et I. Capellán-Pérez, « Standard, Point of Use, and
+Extended Energy Return on Energy Invested (EROI) [...] », *Energies* 13, 3036,
+2020, 43 pages** — `res.mdpi.com`. **DROITS : CC BY 4.0 — `libre`.**
+Ouvert pour **L26.C03**. **NOTE D'ACCÈS** : la page de téléchargement de
+l'éditeur répond par un refus à une requête en ligne de commande ;
+**le dépôt direct de l'éditeur, `res.mdpi.com/d_attachment/...`, sert le
+même fichier sans obstacle.** **Aucune vérification anti-robot n'a
+été contournée** : il s'agit d'un chemin de service alternatif du
+même éditeur, pour un article sous licence libre.
+
+**P. E. Brockway, S. Sorrell, G. Semieniuk, M. K. Heun et V. Court, « Energy
+efficiency and economy-wide rebound effects: A review of the evidence and its
+implications », *Renewable and Sustainable Energy Reviews* 141, 110781, 2021**
+— `eprints.whiterose.ac.uk/id/eprint/171952`. **DROITS : CC BY —
+`libre`.** Ouvert pour **L26.C04**.
+
+**Energy Institute, *Statistical Review of World Energy 2026*, version de
+synthèse, ISSN 2978-0950** — `energyinst.org`. **DROITS : l'éditeur
+écrit « Publishers are welcome to QUOTE from the Review provided that they
+ATTRIBUTE the source [...]. For extensive reproduction of Review data, PERMISSION
+MUST BE OBTAINED » — `citation_seule`, citation autorisée, aucune
+reproduction étendue, rien n'est versé au dépôt.** Ouvert pour
+**L26.C05**.
+
+## Ce que cette journée change dans la composition du stock
+
+**QUATRE DES SIX SOURCES SONT SOUS LICENCE LIBRE**, contre deux sur deux en
+`citation_seule` pour les sources principales du Livre 24. **La littérature de
+l'économie biophysique et de l'analyse énergétique publie
+majoritairement en accès ouvert**, ce qui rend ce champ nettement plus
+accessible au corpus que le droit ou la comptabilité normative. **C'est un
+fait d'acquisition à retenir pour la suite du Livre 26.**
+
+## Acquisitions de rang 1 qui restent ouvertes sur le Livre 26
+
+**N. GEORGESCU-ROEGEN LUI-MÊME, ET C'EST LA PLUS IMPORTANTE.** `The Entropy
+Law and the Economic Process`, Harvard University Press, 1971. **Le corpus a
+ouvert la RÉFUTATION de sa thèse sans avoir jamais lu la thèse.** **Il
+tient donc la critique sans l'original, ce qui est le symétrique exact de sa
+situation antérieure et n'est pas meilleur.** **Aucune défense de la
+« quatrième loi » n'est ouverte non plus** — Bianciardi, Tiezzi et Ulgiati
+(1993), et la réponse de l'auteur à ses critiques. **L8.C34 avait
+qualifié ce manque de « lacune la plus grave du livre » ; il l'est
+resté.**
+
+**P. E. BROCKWAY, A. OWEN, L. I. BRAND-CORREA ET L. HARDT (2019),** *Nature
+Energy* 4, p. 612-621. **C'est l'estimation mondiale du rendement
+énergétique des fossiles que LES DEUX SOURCES DE L26.C03 INVOQUENT,
+CHACUNE À SON PROFIT.** **Le corpus ne la connaît qu'à travers l'une
+d'elles, qui la reformule dans sa propre nomenclature.** **Un chiffre
+rapporté par un tiers n'est pas un chiffre ouvert**, et celui-ci porte la
+comparaison centrale du chapitre. Les données associées sont déposées
+au dépôt de recherche de l'université de Leeds.
+
+**LES SÉRIES LONGUES, ET DEUX RÉSULTATS EN DÉPENDENT.** **F14 repose sur
+une seule année** et le comportement des réserves **sur un seul minerai**.
+Les tables complètes existent dans les deux cas — tableur annexe de
+l'Energy Institute, et séries historiques de l'USGS depuis 1900 (Data Series
+140). **C'est l'acquisition la plus rentable qui reste sur ce livre, et elle ne
+demande aucune permission.**
+
+## Une contestation dont le corpus n'a PAS ouvert le texte
+
+**Le groupe de recherche auteur de l'une des deux sources de L26.C03 a
+publié une note reprochant à l'autre d'avoir écarté son étude de
+sa revue.** **LE CORPUS N'EN TIENT QU'UN RÉSUMÉ PRODUIT PAR UN OUTIL, CE QUI
+NE VAUT PAS OUVERTURE** — règle du 2026-09-06. **Aucune des affirmations de
+cette note n'est tenue par L26.C03.** Ce qui est tenu, et qui suffit, est un
+fait publié par la revue elle-même : **113 études trouvées, 31
+retenues.** **À ouvrir si l'auteur juge la question de l'exclusion
+pertinente pour l'arbitrage A39.**
