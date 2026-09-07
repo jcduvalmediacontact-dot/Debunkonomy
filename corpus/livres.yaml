@@ -2744,7 +2744,7 @@ livres:
       - "falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 1
+    chapitres_acquis: 2
     note: >
       FRONTIERE AVEC LES LIVRES 18 ET 24, A TENIR. Le Livre 18 explique COMMENT
       MESURER ; le Livre 24 etablit CE QUI DOIT ETRE MAINTENU ; le Livre 26
@@ -2806,6 +2806,45 @@ livres:
       CONTRE L'AUTEUR.
       COMMANDE RECUE D'UN AUTRE LIVRE : L24.C05 renvoie ici l'etablissement des
       STOCKS, la tranche biophysique ne tenant que des flux.
+      L26.C02 REPOND A CETTE COMMANDE PAR LA NEGATIVE, ET LA NEGATIVE EST LE
+      RESULTAT. Source ouverte : USGS, Mineral Commodity Summaries 2026,
+      fevrier 2026, domaine public, regime libre. UNE RESERVE N'EST PAS UNE
+      QUANTITE PHYSIQUE : c'est "that part of the reserve base that could be
+      ECONOMICALLY extracted or produced AT THE TIME OF DETERMINATION", "A
+      WORKING INVENTORY OF MINING COMPANIES' SUPPLIES" dont l'ampleur depend du
+      "cost of drilling, taxes, PRICE of the mineral commodity being mined, and
+      THE DEMAND FOR IT" ; la classification est "NECESSARILY ARBITRARY" ; et le
+      compilateur "DOES NOT DIRECTLY MEASURE reserves or resources".
+      LA SOURCE ADMINISTRE ELLE-MEME LA DEMONSTRATION SUR LE CUIVRE : reserves
+      1970 de 280 millions de tonnes, 712 MILLIONS DE TONNES EXTRAITES DEPUIS,
+      reserves 2024 de 980 MILLIONS DE TONNES -- "MORE THAN 3.5 TIMES THOSE IN
+      1970, despite the depletion by mining of much more than the 1970 estimated
+      reserves". LE MONDE A EXTRAIT DEUX FOIS ET DEMIE SES RESERVES DE 1970 ET
+      EN DETIENT TROIS FOIS ET DEMIE DAVANTAGE. Rapport reserves sur production
+      : environ 43 ans, et IL N'A PAS BAISSE EN UN DEMI-SIECLE.
+      LA CONTRAINTE RESTE UNE CONTRAINTE DE DEBIT ET LE LIVRE 26 NE PEUT PAS LA
+      CONVERTIR. Ce n'est pas un defaut d'acquisition : c'est une propriete de
+      l'objet, et le corpus doit cesser de renvoyer la question.
+      DEUX CONSEQUENCES, DONT UN PIEGE. La rarete physique ne fournit AUCUN
+      SIGNAL au bareme -- il doit se caler sur des debits et des etats, jamais
+      sur des soldes. Et UN BAREME INDEXE SUR LA RARETE MESUREE SE RETOURNERAIT
+      CONTRE SON PROPRE EFFET : la reserve croit avec le prix, donc un
+      instrument qui rencherit une ressource AUGMENTE LA RESERVE DECLAREE, donc
+      relache sa propre contrainte. CIRCULARITE NON RELEVEE JUSQU'ICI ; L11.C24
+      devra verifier qu'il n'y tombe pas.
+      CONVERGENCE ENTRE DEUX SOURCES OUVERTES LE MEME JOUR ET QUI NE SE CITENT
+      PAS. L'appendice range parmi les approvisionnements futurs "material that
+      will be RECYCLED FROM CURRENT IN-USE STOCKS of minerals or FROM MINERALS
+      IN WASTE DISPOSAL SITES" -- exactement le reservoir inactif etabli la
+      veille par L26.C01. ET NI L'UN NI L'AUTRE N'EST COMPTE : la publication
+      qui recense plus de quatre-vingt-dix minerais ne publie ni encours en
+      service ni encours au rebut. LE SEUL STOCK QUE LA PHYSIQUE DESIGNE COMME
+      PERTINENT EST LE SEUL QUE PERSONNE NE TOTALISE.
+      RESERVES : un seul minerai instruit, le resultat portant sur la NATURE de
+      la donnee et non sur la TRAJECTOIRE ; aucune contradiction ouverte, alors
+      que la litterature du pic d'extraction attaquerait ce chapitre la ou il
+      est le plus confortable pour le corpus ; et qualite de la donnee declaree
+      faible par le compilateur lui-meme.
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du

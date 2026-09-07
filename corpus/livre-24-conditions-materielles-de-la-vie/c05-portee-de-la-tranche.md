@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -22,10 +22,20 @@ verifications_en_attente:
      corpus ait identifiée est hébergée derrière une vérification anti-robot
      qu'il ne contourne pas**, et elle est demandée à l'auteur. **Tant qu'elle
      n'est pas ouverte, chaque emploi de ces limites doit porter la mention.**"
-  - "**AUCUNE DONNÉE DE STOCK.** La tranche tient des FLUX — extraction annuelle,
-     recharge annuelle, excédents annuels — **et aucune donnée de réserves.**
-     **La contrainte physique y reste une contrainte de DÉBIT et non
-     d'ÉPUISEMENT**, et c'est le Livre 26 qui devra l'établir."
+  - "**AUCUNE DONNÉE DE STOCK — ET LA RÉPONSE EST REVENUE NÉGATIVE LE 2026-09-08.**
+     La tranche tient des FLUX et aucune donnée de réserves, et elle avait
+     renvoyé au Livre 26 le soin d'établir le stock. **L26.C02 a ouvert la seule
+     série mondiale qui existe et établi que L'OBJET DEMANDÉ N'A PAS CETTE
+     FORME** : une réserve est « that part of the reserve base that could be
+     ECONOMICALLY extracted [...] AT THE TIME OF DETERMINATION », « a working
+     inventory of mining companies' supplies » indexé sur le prix et la demande.
+     **La source administre elle-même la démonstration sur le cuivre : le monde a
+     extrait deux fois et demie ses réserves de 1970 et en détient trois fois et
+     demie davantage.** **LA CONTRAINTE RESTE DONC UNE CONTRAINTE DE DÉBIT, ET CE
+     N'EST PAS FAUTE D'ACQUISITION : AUCUNE ACQUISITION NE LA CONVERTIRA.** **Le
+     renvoi est soldé ; ce qui reste à chercher est l'encours EN SERVICE et AU
+     REBUT, que la même source désigne comme approvisionnement futur sans le
+     totaliser."
   - "**LA CLÉ DE RÉPARTITION N'EXISTE NULLE PART.** L24.C04 établit qu'un budget
      mondial n'est même pas partageable pour huit dimensions sur neuf ; **et
      L25.C05 établit que le droit différencie sans calculer.** **Le corpus tient
@@ -37,7 +47,7 @@ verifications_en_attente:
      d'elle la même journée sont entièrement juridiques."
 resume: "Ce chapitre clôt la première tranche du livre à cinq chapitres et en donne le verdict. La tranche a ouvert trois sources de première main et elle a rempli les deux fonctions que l'auteur avait assignées au livre. Elle établit ce qui doit être maintenu, par neuf variables de contrôle assorties de leur limite, de leur valeur de référence et de leur valeur actuelle, dont six sont dépassées. Et elle répond à la question des seuils non compensables, non par un principe moral mais par une propriété du système décrit, puisque les neuf variables sont exprimées dans neuf unités sans commune mesure et que le cadre ne comporte ni total ni pondération. Elle ajoute trois résultats que le corpus n'attendait pas. Le premier est que la limite juste est plus stricte que la limite sûre pour le climat et les aérosols, ce qui signifie qu'un dispositif se réclamant de la justice ne peut pas se calibrer sur la seule sécurité planétaire. Le deuxième est que les neuf dimensions, faute d'unité commune, ont néanmoins un déterminant commun qui se compte en tonnes, de sorte que le reflux trouve une assiette là où l'émission ne trouve pas d'échelle. Le troisième est qu'un budget mondial n'est pas partageable pour huit dimensions sur neuf, l'agrégat pouvant être tenu pendant que la limite est violée, ce qui oblige le dispositif à émettre sous contrainte de lieu."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, decouplage, qualification_regenerative, entropie]
-renvois: [L11.C13, L11.C24, L18.C01, L22.C04, L24.C01, L24.C02, L24.C03, L24.C04, L25.C05, L26.C01]
+renvois: [L11.C13, L11.C24, L18.C01, L22.C04, L24.C01, L24.C02, L24.C03, L24.C04, L25.C05, L26.C01, L26.C02]
 ---
 
 # Portée de la tranche
@@ -88,7 +98,9 @@ renvois: [L11.C13, L11.C24, L18.C01, L22.C04, L24.C01, L24.C02, L24.C03, L24.C04
 
 ::etat:: **L'ACQUISITION DE RANG 1 N'EST TOUJOURS PAS FAITE, ET LE RISQUE EST DÉCLARÉ.** **Les deux sources principales partagent plusieurs auteurs et un même programme de recherche.** **Le corpus tient deux étages d'une même école et aucune contradiction**, et il doit le dire chaque fois qu'il s'en sert.
 
-::etat:: **Aucune donnée de STOCK.** La tranche tient des flux — extraction, recharge, excédents — **et aucune réserve.** **La contrainte physique y reste une contrainte de débit et non d'épuisement, et c'est le Livre 26 qui devra l'établir.**
+::etat:: **Aucune donnée de STOCK.** La tranche tient des flux — extraction, recharge, excédents — **et aucune réserve.** **La contrainte physique y reste une contrainte de débit et non d'épuisement**, et ce chapitre en renvoyait l'établissement au Livre 26.
+
+::etat:: **LE RENVOI EST SOLDÉ LE 2026-09-08, ET LA RÉPONSE EST NÉGATIVE.** **L26.C02 a ouvert la seule série mondiale de stocks minéraux qui existe et établi que l'objet demandé n'a pas la forme sous laquelle il était demandé** : une réserve est une grandeur économique datée, « a working inventory of mining companies' supplies », indexée sur le prix et sur la demande, dont le compilateur écrit qu'il ne la mesure pas et que sa classification est « necessarily arbitrary ». **Le monde a extrait deux fois et demie ses réserves de cuivre de 1970 et en détient trois fois et demie davantage.** **LA CONTRAINTE RESTE UNE CONTRAINTE DE DÉBIT, ET AUCUNE ACQUISITION NE LA CONVERTIRA — ce n'était pas un manque, c'était une propriété de l'objet.**
 
 ::etat:: **Aucun régime juridique des ressources n'est ouvert** — ni pour l'eau, ni pour les sols, ni pour les minerais. **La tranche est entièrement scientifique et statistique, alors que les quatre livres écrits autour d'elle la même journée sont entièrement juridiques.** **C'est un déséquilibre à corriger, et il est déclaré.**
 
