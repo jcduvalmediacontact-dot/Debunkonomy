@@ -41,7 +41,7 @@ verifications_en_attente:
      « pour chacune une formulation canonique, une date de validité, une
      qualification et un déclencheur de révision » — c'est-à-dire l'appareil
      de vérité du livre. **Première acquisition.**"
-  - "UN BLOC DE FUSION DE DIX-NEUF ENTRÉES (45 à 63) ATTEND D'ÊTRE COLLÉ dans
+  - "UN BLOC DE FUSION DE DIX-SEPT ENTRÉES, NUMÉROTÉES 45 À 63, ATTEND D'ÊTRE COLLÉ dans
      ce registre, selon l'état de clôture. **Le corpus travaillerait donc, même
      s'il ouvrait le registre, sur une version incomplète**, et il doit le
      dire à chaque emploi."
