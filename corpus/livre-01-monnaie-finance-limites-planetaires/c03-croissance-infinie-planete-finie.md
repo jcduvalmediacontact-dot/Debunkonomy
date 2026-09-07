@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -58,7 +58,7 @@ verifications_en_attente:
   - "Cas des pays présentant un découplage absolu : mesurer la part expliquée par le déplacement des émissions vers les importations, en comptabilité par la consommation"
   # — Attributions et statuts —
   - "S3 — Fressoz : reformuler « a démontré » en « défend la thèse que », et rechercher les discussions critiques de cet ouvrage"
-  - "S2 — Georgescu-Roegen : identifier les critiques adressées à l'application du second principe à l'économie, notamment sur le statut de la Terre comme système ouvert et sur la « quatrième loi »"
+  - "**S2 — SOLDÉE EN PARTIE LE 2026-09-08.** La demande était d'identifier les critiques adressées à l'application du second principe à l'économie, **notamment sur le statut de la Terre comme système ouvert et sur la « quatrième loi »**. **L26.C01 a ouvert l'une d'elles** : la « quatrième loi » n'a aucun statut en physique, et le recyclage intégral est compatible avec le second principe sous condition de flux d'exergie. **CE CHAPITRE-CI N'EST PAS TOUCHÉ PAR LA CORRECTION** : son § 4 délimitait la portée de l'argument et opposait déjà l'objection du système non isolé. **C'est L1.C17 § 4 qui avait franchi le pas et qui est corrigé.** **CE QUI RESTE DÛ** : le texte de Georgescu-Roegen lui-même, et une défense de la thèse — le corpus ne tient que la critique."
   - "Kate Raworth, économie du donut : date de la première formulation (2012) et de l'ouvrage (2017)"
   # — Renvois —
   - "Renvoi à ajouter vers L1.C02 (progression conjointe) : ce chapitre fournit l'une des deux épreuves qui y sont annoncées"
@@ -68,7 +68,7 @@ verifications_en_attente:
   - "COHÉRENCE — reprendre L1.C02 après ce chapitre : l'épreuve du découplage y est annoncée, son résultat doit y être reporté"
 resume: "Le découplage entre croissance économique et empreinte physique est promis depuis les années 1970. Ce chapitre distingue le découplage relatif — baisse de l'intensité matérielle par unité produite — du découplage absolu, qui exige une baisse des volumes totaux à un rythme compatible avec les limites planétaires. Il expose trois arguments avancés pour expliquer que le second ne soit pas observé au niveau mondial : l'accumulation historique des sources d'énergie plutôt que leur substitution, l'effet rebond, et la production d'entropie dans les transformations réelles. Il en délimite la portée. Le chapitre n'établit pas qu'une croissance économique perpétuelle soit impossible : il établit qu'une croissance perpétuelle du volume physique produit l'est, et que la question de la valeur ajoutée reste empirique."
 concepts: [decouplage, effet_rebond, entropie, sobriete]
-renvois: []
+renvois: [L26.C01]
 ---
 
 # Une croissance infinie peut-elle exister sur une planète finie ?

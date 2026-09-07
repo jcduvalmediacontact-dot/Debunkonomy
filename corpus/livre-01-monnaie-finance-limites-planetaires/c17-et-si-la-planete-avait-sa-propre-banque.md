@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -89,7 +89,7 @@ verifications_en_attente:
   # — Objections acceptées comme limites, mentionnées dans le texte —
   - "LIMITE — Précision des mesures : l'affirmation d'une précision « comparable » à celle des indicateurs macroéconomiques est retirée. Les incertitudes sur la biodiversité, les stocks de carbone des sols ou l'érosion sont d'un autre ordre que celles de l'indice des prix. Le chapitre dit seulement que ces états sont mesurés et suivis."
   - "LIMITE — Effet de second tour : le pouvoir d'achat versé aux travailleurs et fournisseurs d'activités régénératives se dépense dans l'économie ordinaire, à forte intensité matérielle [S13]. Une émission fléchée vers la régénération accroît donc aussi, indirectement, des prélèvements physiques. Mentionné en § 4 ; la quantification relève des chapitres sur les dispositifs de reflux transactionnels."
-  - "LIMITE — Entropie matérielle : Georgescu-Roegen soutient que la Terre est ouverte à l'énergie mais close pour la matière, et qu'aucun flux solaire ne compense indéfiniment la dissipation des matières concentrées [S6]. Une émission conditionnée à l'entretien de structures dissipatives ne s'affranchit donc pas de cette contrainte."
+  - "**LIMITE — ENTROPIE MATÉRIELLE : CETTE ENTRÉE EST CORRIGÉE LE 2026-09-08 CONTRE UNE SOURCE OUVERTE.** Elle énonçait qu'aucun flux solaire ne compense indéfiniment la dissipation des matières concentrées. **L26.C01 a ouvert la réfutation publiée de cette thèse ; l'énoncé est retiré.** **La contrainte subsiste sous deux formes chiffrables et non sous forme d'impossibilité : un flux d'exergie à fournir, et un stock de matière inactive à immobiliser, dont le modèle ouvert donne la taille `Mi/Ma = we/d`.** **CE QUI RESTE À VÉRIFIER EST DÉSORMAIS UNE GRANDEUR ET NON UN PRINCIPE** : ce que l'entretien de structures dissipatives coûte en énergie utile, et ce que le dispositif fait du stock immobilisé qu'il ne comptabilise nulle part."
   # — Problèmes ouverts que la suite doit résoudre (inscrits au registre des promesses) —
   - "OUVERT — Légitimité : les conditions de délégation d'un pouvoir à une autorité non élue [S8] — mandat statutaire étroit, objectifs mesurables fixés par des élus, redevabilité parlementaire, révocabilité, publicité des décisions — et l'interdiction de cumuler la décision d'allocation et la décision d'émission. L1.C18 devra y répondre."
   - "OUVERT — Qualification : le biais de sélection des dispositifs de paiement pour services environnementaux, qui enrôlent les surfaces les moins menacées parce qu'elles coûtent moins cher [S11] (L1.C15 § 4)."
@@ -114,7 +114,7 @@ verifications_en_attente:
      chapitres et porte l'ingenierie des baremes."
 resume: "Ce chapitre ouvre la seconde partie du livre en posant une question plutôt qu'en démontrant une thèse : selon quel critère la monnaie nouvelle est-elle créée, et ce critère pourrait-il tenir compte de l'état documenté des fonds naturels ? Il écarte trois manières illégitimes d'y répondre — l'analogie historique, qui ne prouve rien ; l'hypothèse Gaïa dans sa version forte, réfutée faute de sélection possible à l'échelle planétaire, et remplacée par la persistance différentielle des configurations stabilisantes ; et l'emploi de « néguentropique » comme si une monnaie avait des propriétés physiques, alors que ce qu'une émission peut financer est l'entretien de structures dissipatives captant le flux solaire, sans s'affranchir de la dissipation de la matière. Il énonce enfin les fonctions d'une institution monétaire mandatée pour la biosphère, en posant que l'émission et le reflux forment un mécanisme unique — une émission sans destruction calibrée distribue un pouvoir d'achat net et est inflationniste — et en listant les cinq problèmes non résolus dont dépend la suite : légitimité, qualification, calibration, ancrage, aléa moral."
 concepts: [creation_monetaire, reflux_monetaire, essentiel_insolvable, degeneratif, limites_planetaires, entropie, robustesse]
-renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C15, L1.C16]
+renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C15, L1.C16, L26.C01]
 ---
 
 # Et si la planète avait sa propre banque ?
@@ -161,7 +161,11 @@ Le sigle NEMO développe *Negentropic Money* [S1]. Le terme est technique et exi
 
 ::etat:: Aucune monnaie n'a de propriété thermodynamique : une monnaie est une écriture. Et rien n'échappe au second principe : tout processus réel produit de l'entropie au total. Ce que la physique autorise à dire est autre chose. Un écosystème est une structure dissipative, au sens que Prigogine a formalisé [S5] : un système ouvert qui maintient localement un ordre improbable en captant un flux d'énergie — ici le rayonnement solaire — et en exportant de l'entropie vers son environnement. Le terme « négentropie » vient de Schrödinger, qui l'employait pour décrire ce dont un organisme se nourrit pour retarder sa désorganisation, en précisant lui-même qu'il aurait pu parler d'énergie libre [S6].
 
-::etat:: Georgescu-Roegen y oppose une limite décisive, et le corpus la retient : la Terre est ouverte à l'énergie mais close pour la matière. Aucun flux solaire ne compense indéfiniment la dissipation des matières concentrées, et le recyclage complet est impossible [S6] (L1.C03).
+::etat:: **CORRIGÉ LE 2026-09-08 CONTRE UNE SOURCE OUVERTE. Ce paragraphe adoptait la « quatrième loi » de Georgescu-Roegen, et cette adoption était fautive.** Le corpus écrivait qu'il « retient » que « le recyclage complet est impossible ». **L26.C01 a ouvert la réfutation publiée de cette thèse : « the “fourth law” has no status in physics », et une économie de recyclage intégral est « perfectly consistent with the second law of thermodynamics, provided only that a sufficient exergy flux is available from outside the system ».** **L'énoncé est retiré.**
+
+::etat:: **CE QUI SUBSISTE APRÈS CORRECTION, ET C'EST UN DÉPLACEMENT.** La Terre est bien ouverte à l'énergie et close pour la matière — **ce fait n'est pas en cause et n'a jamais été contesté.** Ce qui tombe est l'inférence qu'on en tirait. **La contrainte physique change de nature : elle devient un flux d'exergie à fournir et un stock de matière inactive à immobiliser, l'un et l'autre chiffrables** (L26.C01). **Une émission conditionnée à l'entretien de structures dissipatives ne s'affranchit donc pas d'une contrainte physique — mais ce n'est pas celle que ce chapitre avait nommée.**
+
+::etat:: **ET LE CORPUS N'A PAS OUVERT LA DÉFENSE.** La réfutation est interne au champ qu'elle corrige ; ni le texte de Georgescu-Roegen, ni sa réponse à ses critiques ne sont ouverts. **Le résultat est acquis contre le corpus, il ne l'est pas contre l'auteur** (L26.C01).
 
 ::hypothese:: L'expression « monnaie néguentropique » doit donc s'entendre au sens suivant, et non autrement : une monnaie dont l'émission est conditionnée à l'entretien ou à la reconstitution de structures dissipatives — sols vivants, forêts, milieux humides, communautés biologiques — qui captent le flux solaire et maintiennent un ordre local. L'opposition qui structure la proposition n'est pas entre une monnaie qui créerait de l'ordre et une monnaie qui en détruirait ; elle est entre une émission conditionnée à la liquidation de stocks constitués et une émission conditionnée à leur maintien (L1.C15 § 3).
 

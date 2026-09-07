@@ -2742,9 +2742,9 @@ livres:
       - "objection — L18.C04 : aucune preuve de découplage absolu généralisé n'est observée, et le corpus ne sait pas si l'obstacle est économique ou THERMODYNAMIQUE"
       - "objection — `effet_rebond` et `jevons_monetaire` sont au vocabulaire ; le corpus les invoque sans tenir l'argument physique qui les fonde"
       - "falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     note: >
       FRONTIERE AVEC LES LIVRES 18 ET 24, A TENIR. Le Livre 18 explique COMMENT
       MESURER ; le Livre 24 etablit CE QUI DOIT ETRE MAINTENU ; le Livre 26
@@ -2768,6 +2768,44 @@ livres:
       SEUILS A MAINTENIR, puis L18 ORGANISE LEUR MESURE. Le numero n'est pas un
       rang : la chaine est logique, l'ordre de declaration est chronologique, et
       les deux ne coincident pas.
+      OUVERT LE 2026-09-08, ET LE PREMIER CHAPITRE COÛTE AU CORPUS UNE
+      PROPOSITION QU'IL TENAIT. L26.C01 remplace l'amorce et ouvre R. U. Ayres,
+      INSEAD Working Paper 98/38, mai 1998, regime citation_seule. RESULTAT :
+      "the fourth law has no status in physics", et une economie de recyclage
+      integral est "PERFECTLY CONSISTENT with the second law of thermodynamics,
+      provided only that a sufficient exergy flux is available from outside the
+      system". L'ENONCE DE L1.C17 PARAGRAPHE 4 -- "le corpus retient que LE
+      RECYCLAGE COMPLET EST IMPOSSIBLE" -- EST FAUX ET A ETE RETIRE LE JOUR
+      MEME. L1.C03 n'avait pas a l'etre : il delimitait deja la portee de
+      l'argument. LE CORPUS ETAIT PRUDENT LA OU IL EXPOSAIT L'ARGUMENT ET
+      IMPRUDENT LA OU IL S'EN SERVAIT.
+      CE QUI SUBSISTE EST UN DEPLACEMENT ET NON UNE SUPPRESSION. La source
+      maintient qu'un reservoir de matiere inactive est necessaire, qu'il ne
+      peut pas etre vide et qu'il est "likely to be VERY LARGE in mass terms" ;
+      sa taille vaut Mi/Ma = we/d, et d ne peut pas etre nul. LA CONTRAINTE
+      PHYSIQUE CHANGE DE NATURE : un FLUX D'EXERGIE a fournir et un STOCK
+      IMMOBILISE a detenir, l'un et l'autre chiffrables.
+      F11 EST RESTREINT LE JOUR DE L'OUVERTURE DU LIVRE QUI DOIT LE TESTER. Sa
+      branche MATIERE tombe comme impossibilite -- son propre bornage numero 3
+      distingue l'impossible du couteux, et la source range la dissipation
+      materielle du cote du couteux. Sa branche ENERGIE reste seule en charge et
+      DEVIENT POUR LA PREMIERE FOIS CHIFFRABLE. Et UNE TROISIEME BRANCHE EST
+      PROPOSEE, NON ARBITREE : LE STOCK IMMOBILISE, qui n'est ni une
+      impossibilite ni un cout energetique.
+      LE CORPUS ACCEPTE LA PHYSIQUE DE CETTE SOURCE ET REFUSE SON ECONOMIE.
+      Ayres n'oppose qu'une des six propositions de Georgescu-Roegen, celle
+      selon laquelle la production est intrinsequement materielle, au motif
+      qu'il n'y a "no definable upper limit to the service output of a given
+      material product, thanks to the possibility of dematerialization" : c'est
+      un decouplage absolu sans borne, que L18.C04 declare non observe et que
+      L24.C03 contredit par la mesure.
+      RESERVE MAJEURE : LE CORPUS TIENT LA CRITIQUE SANS TENIR L'ORIGINAL, ce
+      qui est le symetrique exact de sa situation anterieure et n'est pas
+      meilleur. Ni Georgescu-Roegen ni aucune defense de la quatrieme loi ne
+      sont ouverts. LE RESULTAT EST ACQUIS CONTRE LE CORPUS, IL NE L'EST PAS
+      CONTRE L'AUTEUR.
+      COMMANDE RECUE D'UN AUTRE LIVRE : L24.C05 renvoie ici l'etablissement des
+      STOCKS, la tranche biophysique ne tenant que des flux.
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du

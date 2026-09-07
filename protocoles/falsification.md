@@ -2398,6 +2398,69 @@ il relève du **Livre 26**, ouvert le même jour et **dont aucun chapitre n'est
 instruit**. **Le corpus a nommé la condition avant d'avoir la discipline qui la
 teste.**
 
+### F11 restreint le 2026-09-08 par L26.C01, et la restriction est lourde
+
+**LE LIVRE 26 A OUVERT SA PREMIÈRE SOURCE, ET ELLE TOUCHE F11 AVANT TOUTE
+AUTRE CHOSE.** R. U. Ayres, INSEAD Working Paper 98/38, mai 1998 : « **the
+“fourth law” has no status in physics** », et une économie de recyclage
+intégral est « **perfectly consistent with the second law of thermodynamics,
+provided only that a sufficient exergy flux is available from outside the
+system** ».
+
+**PREMIÈRE RESTRICTION — LA BRANCHE MATÉRIELLE TOMBE COMME
+IMPOSSIBILITÉ.** La condition d'échec de F11 énumère quatre
+fondements possibles, dont « **disponibilité matière** ». **Ce fondement
+ne peut plus être invoqué comme une impossibilité de principe**, et
+c'est le bornage n° 3 de F11 lui-même qui commande le résultat : il
+« ne confond pas L'IMPOSSIBLE et LE COÛTEUX ». **La source ouverte range la
+dissipation matérielle du côté du coûteux. F11 ne se
+déclenchera pas par la matière seule.**
+
+**DEUXIÈME RESTRICTION — LA BRANCHE ÉNERGÉTIQUE RESTE SEULE EN
+CHARGE, ET ELLE DEVIENT CHIFFRABLE.** Si l'exergie commande la concentration,
+alors elle commande la disponibilité matière, et **toute la question
+physique se ramène à une comparaison de flux d'énergie utile.**
+C'est un gain net pour le falsifieur : **il cesse d'être une question de
+principe et devient une question de grandeur.** Le modèle en donne la forme :
+`Ca/Ci = exp(X/(b·Ra) − a/b)` — **le rapport de concentration
+atteignable croît comme l'exponentielle du flux d'exergie par unité de
+ressource active**, ce qui se lit dans les deux sens : rien n'est interdit, et le
+coût énergétique de la concentration explose bien avant toute
+limite.
+
+**TROISIÈME MOUVEMENT — UNE BRANCHE NOUVELLE EST PROPOSÉE, QUE F11
+NE PORTAIT PAS : LE STOCK IMMOBILISÉ. NON ARBITRÉE.** La même source
+maintient que « **it is not possible for all of the critical resource to be
+utilized actively and also recycled in a steady state system. There must be one
+(or more) inactive reservoirs or “wastebaskets” for high entropy wastes** », et
+que ce réservoir « **is likely to be VERY LARGE in mass terms** ». Sa taille
+à l'état stationnaire vaut `Mi/Ma = we/d`, et `d` ne peut pas être
+nul — « **thanks to the second law of thermodynamics, depreciation cannot be
+zero** ». **Ce n'est ni une impossibilité, ni un coût
+énergétique : c'est une IMMOBILISATION PERMANENTE de matière hors
+d'usage**, dont le corpus ne sait pas si le dispositif la finance, l'ignore ou la
+reporte. **Elle est proposée comme troisième branche de F11 et n'est pas
+arbitrée.**
+
+**CE QUE LA RESTRICTION NE FAIT PAS, ET IL FAUT LE DIRE.** **Elle n'affaiblit pas
+F11 : elle le rend testable.** Un falsifieur qui pouvait se déclencher sur
+une impossibilité de principe était invoquable sans mesure ; celui-ci
+exige un chiffre. **Et le corpus n'a pas ouvert de défense de la thèse
+réfutée** — ni le texte de Georgescu-Roegen, ni sa réponse
+à ses critiques. **La restriction est acquise contre le corpus, elle n'est
+pas acquise contre l'auteur.**
+
+**ET UNE ASYMÉTRIE EST VERSÉE AU PASSIF DE LA SOURCE.** Ayres accorde
+cinq propositions sur six à Georgescu-Roegen et n'en conteste qu'une : que
+« production is inherently material-intensive ». Sa raison — « **there is no
+definable upper limit to the service output of a given material product, thanks
+to the possibility of dematerialization** » — **est un découplage absolu
+sans borne, que L18.C04 déclare non observé et que L24.C03 contredit par
+la mesure.** **Le corpus accepte la physique de cette source et refuse son
+économie**, et il enregistre que la dissymétrie est délibérée :
+la première est démontrée par un modèle explicite, la seconde
+est affirmée sans mesure.
+
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.
 
