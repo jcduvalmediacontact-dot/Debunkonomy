@@ -878,3 +878,15 @@ convention-cadre — et sa règle de décision. **(2)** Un instrument sur les
 grandeur des **flux financiers illicites**, que le mandat nomme sans chiffrer.
 **(4)** Le régime des **ressources propres** de l'Union et de ses **frais de
 perception** — seule réponse disponible au défaut d'alignement de L11.C21.
+
+### Complément du 2026-09-07 — le projet zéro de convention
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **Nations unies, A/AC.298/CRP.32, 21 juillet 2026** — *Co-Lead's Zero Draft of UN Framework Convention on International Tax Cooperation* | `financing.desa.un.org/sites/default/files/2026-07/A_AC.298_CRP.32...pdf` | `libre` | **F8 APPLIQUÉ À UNE NÉGOCIATION EN COURS.** Trois étages réunis — obligations « shall cooperate / shall explore », vérification **auto-administrée** (art. 15), conciliation qui ne lie pas (art. 21) — **ET POURTANT L'ARTICLE 25 INTERDIT TOUTE RÉSERVE**, disposition la plus armée rencontrée dans un instrument multilatéral. **Art. 2 b)** reprend la souveraineté fiscale **dans le texte opérant**. **Deux chiffres décisifs sont des CROCHETS VIDES** : « [ ] majority vote » (art. 19) et « [number to be determined] » (art. 26). **Versé à L23.C03, à F8, à L6.C09, L11.C25 et L20.C13** |
+
+**RÉSERVE.** **UN PROJET N'EST PAS UN TEXTE ADOPTÉ** : projet zéro d'un
+co-président, ni négocié ni adopté. **Les protocoles CRP.33 et CRP.34 ne sont pas
+tenus**, alors que l'article 20 leur renvoie le soin de « mettre en œuvre ou
+préciser » la convention — **c'est peut-être là que se logent les obligations de
+résultat.** **L'annexe 1 sur la conciliation n'est pas ouverte.**

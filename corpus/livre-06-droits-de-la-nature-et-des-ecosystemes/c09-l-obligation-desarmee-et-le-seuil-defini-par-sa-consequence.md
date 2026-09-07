@@ -173,3 +173,15 @@ renvois: [L1.C18, L6.C01, L6.C02, L6.C06, L6.C08, L11.C16, L11.C24, L11.C29, L20
 ::hypothese:: **Le corpus enregistre que le troisième étage y est plus dangereux qu'ailleurs, parce qu'un rail est un investissement.** **Une base juridique refusée arrête la dépense ; une base juridique désarmée l'autorise**, et ne se découvre qu'au premier litige — **une fois le capital engagé.** **C'est le pire cas parce qu'il est indiscernable du bon.**
 
 ::hypothese:: **Une parade existe, du côté de l'autre chemin, et le corpus ne peut pas la chiffrer.** Une opposabilité acquise **juridiction par juridiction échoue de façon visible** : une juridiction manquante se constate. **Plus lente, certainement plus lisible** — mais ni sa durée ni son coût ne sont instruits.
+
+## BALAYAGE DU LIVRE 23, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture du projet zéro de convention-cadre fiscale des Nations unies.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une disposition contraire au désarmement instruit ici est trouvée, et elle tient en une ligne** [L23.C03]. **Projet zéro de convention-cadre fiscale des Nations unies, A/AC.298/CRP.32 du 21 juillet 2026, article 25** : « **No reservations may be made to this Convention.** »
+
+::hypothese:: **Le corpus enregistre que c'est la disposition la plus armée qu'il ait rencontrée dans un instrument multilatéral.** **La réserve est le moyen ordinaire par lequel un État signe sans s'obliger** : elle permet d'adhérer en retirant ce qui gêne, **sans supporter le coût politique d'un refus**. L'interdire ferme la voie de désarmement la plus employée.
+
+::hypothese:: **Et cela corrige une association que le corpus avait faite sans l'écrire.** Ce chapitre a établi un désarmement par trois étages sur un instrument dont les obligations étaient vidées ; **le projet examiné réunit les trois mêmes étages ET FERME L'ADHÉSION SANS RÉSERVE.** **Les deux axes sont indépendants** — faiblesse des obligations de fond et stricte des conditions d'adhésion.
+
+::etat:: **Contrepartie** : l'article 27 autorise le retrait deux ans après l'entrée en vigueur. **Ce qu'on ne peut pas amputer, on peut le quitter — mais le quitter est visible, là où une réserve ne l'est pas.**

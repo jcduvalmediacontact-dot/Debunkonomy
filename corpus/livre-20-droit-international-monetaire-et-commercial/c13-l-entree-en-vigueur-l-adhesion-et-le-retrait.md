@@ -112,3 +112,15 @@ renvois: [L7.C11, L7.C12, L7.C16, L7.C17, L7.C19, L11.C18, L20.C01, L20.C06, L20
 ::etat:: **Aucun chapitre du corpus ne décrit cette seconde phase**, ni ce que l'émetteur en place peut alors faire, ni ce que cela lui coûte, **ni à quel niveau de pénétration le basculement se produit.**
 
 ::hypothese:: **Ce que ce chapitre pourrait porter en passe 2, et le corpus ne le décide pas ici.** Le mécanisme d'amorçage qu'il tient déjà — contribution plafonnée, financeur identifié, droits éteints, **date plancher qui interdit de démarrer trop petit** — protège les premiers entrants **contre le risque que la coalition reste minuscule.** **Il ne protège contre rien du côté où elle grandit.**
+
+## BALAYAGE DU LIVRE 23, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture du projet zéro de convention-cadre fiscale des Nations unies.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une architecture d'entrée et de sortie est ouverte, et elle est plus récente que celles que ce chapitre tient** [L23.C03]. **Projet zéro de convention-cadre fiscale des Nations unies, A/AC.298/CRP.32, 21 juillet 2026.**
+
+::etat:: **Article 25** : « **No reservations may be made to this Convention.** » **Article 26** : entrée en vigueur au quatre-vingt-dixième jour après le dépôt du « **[number to be determined]** » instrument. **Article 27** : retrait possible **deux ans** après l'entrée en vigueur pour l'État concerné, effectif **un an** après notification. **Article 19 § 3** : amendements par consensus, et à défaut par « **[ ] majority vote** ».
+
+::hypothese:: **Le corpus enregistre que ce chapitre tenait l'entrée en vigueur, l'adhésion et le retrait, et qu'il ne tenait pas LES RÉSERVES.** **C'est pourtant par elles qu'un État adhère sans s'obliger**, et le modèle trouvé ici les interdit en une ligne — **disposition transposable à coût de rédaction nul.**
+
+::etat:: **Et les deux seuils qui décideraient sont des crochets vides** : majorité d'amendement, et nombre de ratifications. **Ce chapitre avait établi avec les statuts de 1944 un mécanisme d'amorçage complet, dont une date plancher « qui interdit de démarrer trop petit ».** **Le projet onusien n'a ni l'un ni l'autre à ce jour**, et le corpus tient donc, sur ce point, **un modèle plus complet que la négociation en cours.**

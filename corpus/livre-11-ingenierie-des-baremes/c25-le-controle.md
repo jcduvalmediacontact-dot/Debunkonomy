@@ -184,3 +184,15 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 ::etat:: **S'y ajoute un mouvement législatif observé en cours** [L6.C13] : le régime européen harmonisé de responsabilité civile de la directive (UE) 2024/1760 a été **supprimé par la directive (UE) 2026/470 avant même sa transposition**, tandis que **l'outil probatoire de son article 29 a été maintenu** — le juge peut toujours ordonner la communication des pièces sous le contrôle de la société.
 
 ::hypothese:: **Ce qui a été retiré avait un débiteur nommé ; ce qui a survécu n'a de coût que si quelqu'un l'exerce.** **Un contrôle qui repose sur une faculté offerte à un tiers n'a pas la même robustesse qu'une obligation pesant sur le contrôlé.**
+
+## BALAYAGE DU LIVRE 23, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture du projet zéro de convention-cadre fiscale des Nations unies.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le point commun de tous les instruments instruits par le corpus est désormais identifiable, et ce chapitre doit le porter** [L23.C03]. **Projet zéro de convention-cadre fiscale, article 15, *Review and Verification*** : « **Each State Party shall MONITOR ITS OWN policies** and practical measures », et fournit à la Conférence les informations « **as required by the Conference of the States Parties** » — **laquelle est composée des mêmes États**. Le § 3 ajoute que le processus de revue « **shall be established by** » cette Conférence.
+
+::hypothese:: **La vérification n'y est pas absente : elle est AUTO-ADMINISTRÉE.** **Et c'est le point commun de trois instruments sans rapport entre eux** — celui-ci, la perception nationale de L11.C21, et le traité désarmé de L6.C09. **DANS LES TROIS CAS, CELUI QUI DOIT APPLIQUER EST CELUI QUI DÉCLARE.**
+
+::etat:: **Le corpus n'a jamais rencontré un instrument où UN TIERS vérifie.** **Or le dispositif repose sur une qualification vérifiable, et ce chapitre porte le contrôle** : **il faudra dire par qui**, et la réponse ne peut pas être « par celui qui bénéficie de la qualification » ni « par l'État qui l'a accordée ».
+
+::etat:: **Un précédent contraire existe et il est tenu ailleurs** : L20.C20 a établi que le règlement d'ajustement aux frontières exige **la certification par un tiers indépendant du déclarant ET des autorités du pays d'origine.** **C'est le seul cas rencontré, et il suppose un tiers certificateur qui n'existe pas partout.**

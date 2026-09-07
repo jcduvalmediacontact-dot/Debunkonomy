@@ -2014,6 +2014,53 @@ non-substituabilité écologique ». **La différence est décisive pour F8 : un
 vérification qui n'est imposée à personne n'est pas la même chose qu'une
 vérification qui n'existe pas.**
 
+### CORRECTION DU 2026-09-07 — F8 DÉCRIT UNE TECHNIQUE, PAS UNE FATALITÉ
+
+**Le test a été appliqué pour la première fois à UN INSTRUMENT EN COURS DE
+NÉGOCIATION** — le projet zéro de convention-cadre fiscale des Nations unies,
+A/AC.298/CRP.32 du 21 juillet 2026, instruit en L23.C03. **Le résultat n'est pas
+celui que le corpus attendait, et il corrige une association implicite.**
+
+**LES TROIS ÉTAGES SONT RÉUNIS, ET POURTANT LE TEXTE N'EST PAS DÉSARMÉ.**
+**Premier étage** : les engagements sont en **obligations de comportement** —
+« shall cooperate », « shall share general information », « **shall EXPLORE**
+coordinated approaches » — et **la clause de souveraineté est réinsérée AU MILIEU
+DE L'OBLIGATION**, non reléguée aux principes. **Deuxième étage** : la vérification
+n'est pas absente, **elle est AUTO-ADMINISTRÉE** — « each State Party shall
+**monitor its own** policies », et le processus de revue « shall be established by
+the Conference of the States Parties », composée des mêmes États. **Troisième
+étage** : les parties « shall **endeavour** to settle », et à défaut le différend
+va à **conciliation, qui ne lie pas** ; aucune sanction, aucun retrait de bénéfice.
+
+**ET POURTANT.** **Article 25 : « No reservations may be made to this
+Convention. »** **La réserve est le moyen ordinaire par lequel un État signe sans
+s'obliger** — elle permet d'adhérer en retirant ce qui gêne, sans supporter le
+coût politique d'un refus. **L'interdire ferme, en une ligne, la voie de
+désarmement la plus employée**, et c'est la disposition la plus armée que le corpus
+ait rencontrée dans un instrument multilatéral.
+
+**CE QUE F8 DOIT DÉSORMAIS PORTER.** **Un instrument peut être FAIBLE SUR SES
+OBLIGATIONS DE FOND ET STRICT SUR SES CONDITIONS D'ADHÉSION** : les deux axes sont
+indépendants, **et le corpus les avait implicitement liés.** Le test des trois
+étages reste exact ; **ce qui est retiré est l'attente qu'un texte les réunissant
+soit sans force sur tout autre plan.**
+
+**CONTREPARTIE PORTÉE** : l'article 27 autorise le **retrait** deux ans après
+l'entrée en vigueur. **Ce qu'on ne peut pas amputer, on peut le quitter — mais le
+quitter est VISIBLE, là où une réserve ne l'est pas.** **La sortie coûte
+politiquement ce que la réserve permettait d'économiser.**
+
+**ET DEUX CHIFFRES DÉCIDERONT, QUI SONT AUJOURD'HUI DES CROCHETS VIDES** : le seuil
+de majorité pour amender (« **[ ] majority vote** », art. 19 § 3) et le nombre de
+ratifications requises (« **[number to be determined]** », art. 26). **La question
+de l'armement n'est pas éludée : elle est explicitement différée et VISIBLE COMME
+TELLE dans le texte.** — honnêteté de rédaction que le corpus n'avait pas
+rencontrée, et **critère à surveiller sur le texte final.**
+
+**ACQUIS TRANSPOSABLE, À COÛT DE RÉDACTION NUL** : si le dispositif adopte un
+instrument, **interdire les réserves ferme la voie de désarmement la plus
+employée**. Le corpus n'avait aucune disposition de ce genre à proposer.
+
 **RÉSERVE, ET ELLE EST DE MÉTHODE.** Le traité n'a pas été lu article par
 article — le registre du Livre 6 le déclare. **Les quatre limites sont connues
 par leur restitution, non par leur rédaction**, et une clause de sauvegarde se
