@@ -162,3 +162,15 @@ renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, 
 ::hypothese:: **Conséquence directe : un barème aux frontières ressemble à la ressource traditionnelle et APPELLE UNE RÉTENTION**, là où un reflux transactionnel assis sur des flux déjà enregistrés n'appelle pas le même mécanisme. **Le corpus ne peut pas transposer l'intéressement uniformément à ses instruments.**
 
 ::etat:: **Et un précédent est versé pour lui-même** : la troisième ressource propre est assise sur **0,80 EUR par kilogramme de déchets d'emballages plastiques non recyclés**, avec réductions forfaitaires pour certains États. **C'est une ressource propre fondée sur UNE GRANDEUR PHYSIQUE ET UN CRITÈRE ENVIRONNEMENTAL, et le corpus n'en tenait aucun exemple.**
+
+## BALAYAGE DU LIVRE 24, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L24.C04, qui relit deux sources déjà ouvertes et y trouve que l'agrégat mondial peut être tenu pendant que la limite est violée.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **CE CHAPITRE DEVIENT SENSIBLEMENT PLUS DIFFICILE, ET LE CORPUS LE DÉCLARE SANS LE REPRENDRE** [L24.C04]. **Un ajustement aux frontières fondé sur un PRIX UNIQUE de l'impact incorporé suppose que l'impact soit FONGIBLE DANS L'ESPACE.**
+
+::hypothese:: **L24.C04 établit qu'il ne l'est pas, pour huit des neuf dimensions.** Une amélioration de débit sur un fleuve ne compense pas une dégradation sur un autre ; un aquifère rechargé ne compense pas un aquifère surexploité à mille kilomètres ; **une forêt tempérée restaurée ne compense pas une forêt tropicale détruite — le cadre leur donne d'ailleurs des limites différentes, 50 % contre 85 %.**
+
+::etat:: **L'EXCEPTION EST LE CLIMAT, ET ELLE EST DÉCISIVE POUR CE CHAPITRE.** **Une tonne de dioxyde de carbone a le même effet quel que soit le lieu d'émission** : le budget climatique est authentiquement fongible dans l'espace, **et c'est pourquoi un ajustement aux frontières fondé sur le carbone est concevable alors qu'un ajustement fondé sur l'eau ou sur les nutriments ne l'est pas au même titre.**
+
+::hypothese:: **Ce chapitre doit donc être repris en distinguant les dimensions**, et non en étendant au reste la logique qui vaut pour le carbone. **Le corpus enregistre la difficulté et ne la traite pas ici.**

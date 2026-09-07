@@ -348,3 +348,15 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **QUATRE FOIS, LE DROIT REFUSE LE NOMBRE ET LE REMPLACE PAR UNE PROCÉDURE, UN CONSTAT, UNE JUXTAPOSITION OU UN PRINCIPE.** **Et quatre fois, ce barème a besoin d'un nombre** : un montant à émettre, un taux de fonte, une clé de répartition, une pondération entre dimensions.
 
 ::etat:: **Ce n'est ni une objection ni une excuse : c'est la localisation de ce que le dispositif doit produire seul.** **LE DROIT LUI DONNE LES CATÉGORIES, IL NE LUI DONNERA JAMAIS LES CHIFFRES.** **Borne portée avec la régularité** : elle vaut pour la répartition d'un effort mondial entre souverainetés, **et le droit chiffre ailleurs** — 3 % de ratio de levier, 37,5 % de plafond d'aide, 65 milliards d'enveloppe.
+
+## BALAYAGE DU LIVRE 24, QUATRIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L24.C04, qui relit deux sources déjà ouvertes et y trouve que l'agrégat mondial peut être tenu pendant que la limite est violée.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **CE BARÈME DOIT ÉMETTRE SOUS CONTRAINTE DE LIEU, ET NON SEULEMENT SOUS CONTRAINTE DE MONTANT** [L24.C04]. **Rockström, Gupta, Qin, Lade et al., Nature 619, 2023** : « Meeting the global ESB sums to a global alteration budget of **7 630 km³ per year** [...] **Globally aggregated river flow alterations are CURRENTLY LESS THAN THIS FIGURE ; HOWEVER, WE ARE OUTSIDE THE GLOBAL ESB** because the subglobal safe ESB is **only met for 66 % of land area** and **less than half of the global population**. » **Même constat sur les nappes** : somme des recharges tenue, **47 % des bassins en déclin.**
+
+::hypothese:: **UN BUDGET MONDIAL N'EST PAS UNE QUANTITÉ PARTAGEABLE : c'est la somme arithmétique d'une CONJONCTION DE CONTRAINTES LOCALES, et cette somme peut être tenue pendant que la conjonction est violée.** **Le chiffre est une conséquence, pas une règle.**
+
+::hypothese:: **Conséquence directe : un euro versé pour restaurer un bassin en excédent ne vaut pas un euro versé pour un bassin en déficit** — non parce qu'il produit moins, **mais parce qu'il ne produit rien au regard de la limite**. **Verser un montant FONGIBLE contre un effet NON FONGIBLE ferait du dispositif un INSTRUMENT DE DÉPLACEMENT DES DOMMAGES.**
+
+::etat:: **TROIS EXIGENCES POSÉES ET NON RÉSOLUES.** La qualification doit **porter la localisation** — ce que le barème en vigueur fait déjà, exigeant la description cartographiée d'une zone [L22.C04]. **La priorité doit aller aux lieux où la limite est franchie**, ce qui suppose des données sous-globales que le corpus ne tient pas. **Et l'émission ne peut pas être arbitrée par le seul coût** — **c'est le contraire d'un raisonnement d'efficacité, et il faut le dire** : un instrument financier ordinaire cherche le meilleur effet par euro ; celui-ci doit chercher l'effet **AU BON ENDROIT**, même plus cher.

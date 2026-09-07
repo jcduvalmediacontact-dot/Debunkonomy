@@ -2710,3 +2710,46 @@ l'avis consultatif de la Cour internationale de justice du 23 juillet 2025 —
 **deux sites protégés par une vérification anti-robot, que le corpus ne
 contourne pas.** **Ces deux pièces pourraient modifier ce troisième régime, et
 elles sont demandées à l'auteur.**
+
+### F13 — SECONDE FACE, SPATIALE, AJOUTÉE LE 2026-09-07 PAR L24.C04
+
+**F13 énonce qu'il n'existe aucune unité commune ENTRE LES DIMENSIONS du système
+Terre. L24.C04 établit qu'il n'en existe pas non plus ENTRE LES LIEUX, pour huit
+d'entre elles.**
+
+**CE QUI L'ÉTABLIT, ET C'EST UNE PHRASE QUE DEUX CHAPITRES AVAIENT LAISSÉE
+PASSER.** **Rockström, Gupta, Qin, Lade et al., Nature 619, 2023** : « Meeting
+the global ESB sums to **a global alteration budget of 7 630 km³ per year** [...]
+**Globally aggregated river flow alterations are CURRENTLY LESS THAN THIS
+FIGURE ; HOWEVER, WE ARE OUTSIDE THE GLOBAL ESB** because the subglobal safe ESB
+is **only met for 66 % of land area** and **less than half of the global
+population**. » **L'AGRÉGAT MONDIAL EST DANS LE BUDGET, ET LE MONDE EST HORS DE
+LA LIMITE.** **Sur les nappes : somme des recharges tenue, 47 % des bassins en
+déclin.**
+
+**LA FORMULATION DE LA SECONDE FACE.** *Qu'une amélioration en un lieu ne
+compense pas une dégradation en un autre, parce que la limite est une CONJONCTION
+DE CONTRAINTES LOCALES dont la somme n'a de sens que descriptif. Alors une
+émission monétaire FONGIBLE versée contre un effet NON FONGIBLE devient un
+instrument de DÉPLACEMENT DES DOMMAGES : on paie la restauration là où elle est
+bon marché, et l'on ne répare pas là où le seuil est franchi.*
+
+**L'EXCEPTION EST NOMMÉE, ET ELLE EST DÉCISIVE.** **Une tonne de dioxyde de
+carbone a le même effet quel que soit le lieu d'émission.** **Le budget
+climatique est authentiquement fongible dans l'espace, et c'est la raison pour
+laquelle un marché mondial y est concevable alors qu'il ne l'est pas ailleurs.**
+**F13 seconde face porte sur les huit autres dimensions**, et le corpus refuse de
+surgénéraliser.
+
+**CE QUI LA LÈVERAIT.** *Établir une règle de LIEU dans le barème — qualification
+portant la localisation, priorité aux lieux où la limite est franchie, et
+renoncement à arbitrer l'émission par le seul coût. Le droit positif en donne la
+forme réduite : le barème écologique en vigueur exclut la compensation et
+n'admet que les GAINS NETS [L22.C04]. Mais l'exclusion de la compensation NE DIT
+RIEN DU LIEU, et il faudrait une règle de lieu.*
+
+**CE QUE CELA COÛTE, ET IL FAUT LE DIRE.** **C'est le contraire d'un raisonnement
+d'efficacité.** **Un instrument financier ordinaire cherche le meilleur effet par
+euro ; celui-ci doit chercher l'effet AU BON ENDROIT, même s'il y coûte plus
+cher.** **Et cela complique sérieusement L11.C24**, dont l'ajustement aux
+frontières suppose un prix unique de l'impact.

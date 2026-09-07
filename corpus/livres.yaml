@@ -2228,7 +2228,7 @@ livres:
       - "objection — L18.C04 : la transition exige plus de trois milliards de tonnes de minéraux, et le corpus ne tient aucune nomenclature d'activités"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 3
+    chapitres_acquis: 4
     note: >
       FRONTIERE AVEC LE LIVRE 18, POSEE PAR L'AUTEUR : la comptabilite
       ecologique du Livre 18 explique COMMENT MESURER ; le Livre 24 etablit CE
@@ -2384,6 +2384,48 @@ livres:
       ouvert ni le modele ni ses hypotheses ; le pied materiel agrege des tonnes
       d'effets tres inegaux ; aucune donnee de STOCK n'est tenue, seulement des
       flux, et c'est le Livre 26 qui devra les etablir.
+      L24.C04 N'OUVRE AUCUNE SOURCE NOUVELLE : IL RELIT CELLES DE L24.C01 ET
+      L24.C02 ET Y TROUVE UN RESULTAT QUE CES DEUX CHAPITRES AVAIENT LAISSE
+      PASSER. "Meeting the global ESB sums to a global alteration budget of
+      7 630 km3 per year [...] GLOBALLY AGGREGATED RIVER FLOW ALTERATIONS ARE
+      CURRENTLY LESS THAN THIS FIGURE ; HOWEVER, WE ARE OUTSIDE THE GLOBAL ESB
+      because the subglobal safe ESB is only met for 66 % of land area and less
+      than half of the global population." L'AGREGAT MONDIAL EST DANS LE BUDGET,
+      ET LE MONDE EST HORS DE LA LIMITE. Meme constat sur les nappes : somme des
+      recharges (16 000 km3/an) tenue, 47 % DES BASSINS EN DECLIN.
+      UN BUDGET MONDIAL N'EST PAS UNE QUANTITE PARTAGEABLE : c'est la somme
+      arithmetique d'une CONJONCTION DE CONTRAINTES LOCALES, et cette somme peut
+      etre tenue pendant que la conjonction est violee. LE CHIFFRE EST UNE
+      CONSEQUENCE, PAS UNE REGLE. Sous un budget, un excedent quelque part
+      finance un deficit ailleurs ; sous une conjonction, il ne finance rien.
+      LE MEME TRAIT RELU DANS LA SOURCE DE L24.C01 : le phosphore est "a global
+      average, but REGIONAL DISTRIBUTION IS CRITICAL FOR IMPACTS" ; l'azote agit
+      comme une "valve" mondiale mais "regional distribution [...] is critical" ;
+      et la limite des forets est "a weighted average of the three individual
+      BIOME boundaries" -- tropical 85 %, tempere 50 %, boreal 85 %. Les limites
+      sures et justes supposent en outre "the REDISTRIBUTION of nutrients from
+      OVER-FERTILIZED to UNDER-FERTILIZED regions" -- un deplacement physique,
+      non une compensation comptable.
+      F13 RECOIT UNE SECONDE FACE, SPATIALE. Pour huit des neuf dimensions, UNE
+      AMELIORATION EN UN LIEU NE COMPENSE PAS UNE DEGRADATION EN UN AUTRE.
+      L'EXCEPTION EST LE CLIMAT -- une tonne a le meme effet partout -- et c'est
+      pourquoi un marche mondial y est concevable et pas ailleurs. Le corpus
+      refuse de surgeneraliser.
+      CONSEQUENCE POUR LE DISPOSITIF : IL DOIT EMETTRE SOUS CONTRAINTE DE LIEU,
+      ET NON SEULEMENT SOUS CONTRAINTE DE MONTANT. Verser un montant FONGIBLE
+      contre un effet NON FONGIBLE en ferait un INSTRUMENT DE DEPLACEMENT DES
+      DOMMAGES : on paie la restauration la ou elle est bon marche, et l'on ne
+      repare pas la ou le seuil est franchi. Trois exigences posees et non
+      resolues : la qualification doit porter la localisation ; la priorite doit
+      aller aux lieux ou la limite est franchie ; et l'emission ne peut pas etre
+      arbitree par le seul cout -- CE QUI EST LE CONTRAIRE D'UN RAISONNEMENT
+      D'EFFICACITE.
+      ET CELA COMPLIQUE SERIEUSEMENT L11.C24 : un ajustement aux frontieres
+      fonde sur un PRIX UNIQUE de l'impact suppose exactement la fongibilite que
+      ce chapitre ecarte.
+      ACQUISITION DE RANG 1 DU CHAPITRE : aucun regime juridique de l'eau n'est
+      ouvert, ni les conventions sur les cours d'eau transfrontaliers, alors
+      qu'un plafond hydrique se respecte bassin par bassin.
   - livre: 25
     titre: "Répartition, besoins essentiels et justice sociale"
     collection: cahier-disciplinaire
