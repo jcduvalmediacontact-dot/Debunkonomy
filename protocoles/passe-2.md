@@ -3785,3 +3785,47 @@ donne les chiffres et pas les catégories.** **Le dispositif a besoin des deux
 ensemble, et aucune discipline ne les lui fournit ensemble.** **Ce qui manque au
 milieu n'est ni une acquisition ni une lecture : c'est une décision, et elle
 n'appartient à aucune source.**
+
+
+## PRÉCISION PROPOSÉE — `jevons_monetaire`, dont le vocabulaire appelle lui-même la confirmation
+
+**PROPOSÉE LE 2026-09-08 PAR L26.C04. LE VOCABULAIRE N'EST PAS MODIFIÉ :
+c'est une décision de l'auteur.** La définition en vigueur porte la mention
+« nom provisoire (celui du livre), à confirmer en passe 2 ».
+
+**CE QUE LE CHAPITRE APPORTE.** Le corpus tenait `effet_rebond` au vocabulaire
+depuis L1.C03 et `jevons_monetaire` depuis L1.C12 **sans avoir jamais ouvert
+l'argument qui les fonde**. La revue de référence est désormais ouverte :
+trente-trois études, moyennes de **58 %** et **71 %** selon la famille de
+méthodes, conclusion **« economy-wide rebound effects erode MORE THAN HALF of
+the energy savings from improved energy efficiency »**.
+
+**CE QU'ELLE NE FONDE PAS, ET C'EST L'ESSENTIEL.** **Cette littérature mesure
+ce qui arrive quand un service énergétique devient MOINS CHER. Le dispositif
+ne rend rien moins cher : il ÉMET.** **Le transfert de l'efficacité à
+l'allocation est une inférence du corpus, pas une lecture.**
+`jevons_monetaire` **reste une analogie.**
+
+**LA PRÉCISION PROPOSÉE, QUI NE CHANGE NI LE NOM NI LA PORTÉE.** Le
+mécanisme transférable est **l'effet de revenu**, et il prend sous le
+dispositif une forme **plus défavorable que sous une politique d'efficacité,
+pour une raison de comptabilité et non de degré** : sous l'efficacité, le
+revenu dépensé est LIBÉRÉ par une économie physique déjà
+réalisée et le rebond en REPREND une part ; **sous le dispositif, le pouvoir
+d'achat est ÉMIS — il ne reprend rien, IL S'AJOUTE.** Énoncé
+opératoire : **« une émission fléchée engendre une dépense NON
+fléchée dont l'intensité matérielle est celle de l'économie
+ordinaire »** — ce qui n'est pas l'argument quantitatif « plus de monnaie, plus
+d'extraction » que la définition en vigueur écarte déjà explicitement.
+
+**ET UNE LIMITE DE CONCEPTION QUI EN DÉCOULE, À VERSER OÙ L'AUTEUR
+jugera.** **Un barème qualifie une activité financée ; il ne qualifie pas
+la dépense de ceux qui reçoivent le paiement.** **Aucun instrument de
+qualification n'atteint le second tour** : contre cet effet, le dispositif ne
+dispose que d'instruments de NIVEAU — reflux et fonte — jamais d'instruments
+de COMPOSITION.
+
+**CE QUI MANQUE POUR TRANCHER : UN CHIFFRE.** Que la dépense induite reprenne
+dix pour cent ou cent dix pour cent du gain **décide de tout**, et rien dans le
+corpus ne permet de le dire. **Seul le simulateur du Livre 13 pourrait le
+produire, et il n'existe pas.**

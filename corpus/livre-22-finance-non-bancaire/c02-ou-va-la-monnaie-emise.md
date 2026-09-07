@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -55,9 +55,17 @@ verifications_en_attente:
      RAPPORTER. **Le corpus n'a ouvert aucune donnée de rendement effectif d'une
      taxe sur la valeur ajoutée**, alors que L11.C27 en fait son modèle
      d'assiette."
+  - "**LE NOMBRE DE PASSAGES TAXABLES AVANT SÉDIMENTATION REÇOIT UNE SECONDE
+     FACE LE 2026-09-08, ET ELLE JOUE EN SENS CONTRAIRE.** L26.C04 établit que
+     **chaque passage est aussi une occasion de dépense à intensité matérielle
+     ordinaire**, c'est-à-dire une occasion d'effet rebond de revenu. **Le même
+     paramètre commande donc le rendement du reflux ET l'ampleur de l'effet
+     induit, en sens opposés : allonger la chaîne améliore le premier et aggrave
+     le second.** **Aucun chapitre n'a arbitré ce compromis, et il ne peut pas
+     l'être sans chiffrage."
 resume: "Ce chapitre compose trois résultats déjà acquis du corpus et en tire une conséquence que ni le livre ni le corpus n'avaient posée. Ce qui circule sous le dispositif est de la monnaie nationale ordinaire. L'assiette de la fonte est celle de la taxe sur la valeur ajoutée, donc la consommation finale. Et le secteur qui détient la majorité des actifs financiers mondiaux n'a ni compte de banque centrale ni consommation finale. Il en résulte que la monnaie émise n'est frappée que tant qu'elle est dépensée, et qu'elle cesse de l'être dès qu'elle est épargnée, puisque l'épargne devient un actif financier et sort des deux assiettes. Le rendement du reflux dépend donc du nombre de passages taxables que la monnaie émise effectue avant de se déposer dans un actif financier, et ce terme manquait à la formule que le corpus avait écrite. Le chapitre l'ajoute et refuse de le calculer, faute des données que seul un autre livre pourra fournir. Il établit ensuite une asymétrie géographique documentée par la source, les banques ne représentant qu'un tiers des actifs financiers dans les économies avancées contre près de six dixièmes dans les économies émergentes, de sorte que la part de la richesse qui échappe à un prélèvement assis sur les réserves est nettement plus grande au Nord. Il nomme enfin le troisième instrument que le corpus n'a jamais instruit, un prélèvement sur les encours détenus hors du système bancaire, et il établit que l'obstacle qui le bloque est exactement celui qui avait fait replier le corpus sur les réserves."
 concepts: [reflux_transactionnel, reflux_collectif, demurrage, monnaie_endogene, architecture_invisible, hierarchie_monetaire]
-renvois: [L1.C19, L5.C09, L11.C02, L11.C05, L11.C09, L11.C27, L21.C03, L22.C01, L23.C04]
+renvois: [L1.C19, L5.C09, L11.C02, L11.C05, L11.C09, L11.C27, L21.C03, L22.C01, L23.C04, L26.C04]
 ---
 
 # Où va la monnaie émise, et pourquoi le reflux ne l'y suit pas
