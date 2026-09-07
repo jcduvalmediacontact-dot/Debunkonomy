@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -163,3 +163,17 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
 ::etat:: **Le nœud du prélèvement est un choix de conception à part entière.** La proposition voisine la plus proche frappe les réserves bancaires là où le dispositif frappe les encaisses, ce qui lève l'obstacle de droit relevé en L1.C21 § 6 — au prix d'un déplacement de cible que le chapitre du demurrage devra trancher.
 
 ::hypothese:: **Et le rendement du reflux se calcule.** Ce n'est plus une question ouverte au sens vague : c'est un produit à trois termes, et le corpus peut désormais dire lesquels. C'est le progrès que ce chapitre revendique — non d'avoir répondu, mais d'avoir rendu la question calculable. **Le chapitre avait ajouté qu'un des trois termes était connu ; L11.C05 a établi que non, le seul chiffre disponible portant sur une autre assiette.**
+
+## BALAYAGE DU LIVRE 21 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 21, après instruction de quatre principes supplémentaires du standard des infrastructures de marché.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'écriture établie ici entre en collision frontale avec un principe normatif, et le corpus ne l'avait pas vu** [L21.C01]. **PFMI, PRINCIPE 15, RISQUE D'ENTREPRISE GÉNÉRAL** : une infrastructure doit « **hold sufficient LIQUID NET ASSETS FUNDED BY EQUITY** to cover potential general business losses **so that it can continue operations and services AS A GOING CONCERN** », et ces actifs doivent être financés par « **common stock, disclosed reserves, or other retained earnings** ».
+
+::hypothese:: **Le principe exige des fonds propres POSITIFS ET LIQUIDES ; ce chapitre établit des fonds propres NÉGATIFS du montant émis.** **Une entité qui émet en donnant ne peut pas satisfaire un principe conçu pour une entité qui absorbe ses pertes sur son capital.**
+
+::etat:: **La correction du 2026-09-07 avait retiré l'analogie qui présentait ce résultat comme la position ordinaire d'un émetteur.** **Ce chapitre reçoit ici la conséquence normative de cette correction** : ce n'était pas ordinaire, **et un standard international en vigueur l'interdit** à qui veut être une infrastructure.
+
+::hypothese:: **Une issue existe, jamais écrite par le corpus : SÉPARER L'ÉMETTEUR DE L'INFRASTRUCTURE.** **Rien n'oblige l'institution qui émet à être celle qui exploite le rail.** **Mais ce qui rend l'infrastructure conforme est ce qui la rend indifférente à l'unité qu'elle transporte** — donc capable de porter la monnaie des autres.
+
+::etat:: **Et le principe 15 exige en outre un plan de LIQUIDATION ORDONNÉE VIABLE.** **Le corpus n'a jamais écrit ce qu'il advient des unités en circulation si l'émetteur ou le rail s'arrête.**

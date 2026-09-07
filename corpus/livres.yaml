@@ -1519,9 +1519,9 @@ livres:
       - "discipline — infrastructures de marché : messagerie, compensation, règlement, dépositaires, contreparties centrales"
       - "manque — L5.C02 a instruit SEPT des vingt-quatre principes du PFMI et le corpus n'a ouvert aucune infrastructure existante : ni coût, ni délai, ni volume d'équilibre"
       - "objection — L5.C09 : l'infrastructure fournit le rail de la séquence d'entrée, et le corpus ne sait pas où l'unité s'y logerait"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     architecture: >
       Douze chapitres proposés par l'auteur : message, paiement, compensation et
       règlement comme quatre opérations distinctes ; monnaie de banque
@@ -1541,6 +1541,29 @@ livres:
       reglement et contreparties centrales forment des infrastructures critiques
       DISTINCTES. Source d'entree deja au Drive : BIS-PFMI-2012.pdf, dont dix-sept
       principes restent non instruits.
+      OUVERT LE 2026-09-07 PAR L21.C01, qui remplace l'amorce et instruit QUATRE
+      PRINCIPES DE PLUS -- 4, 5, 15 et 16 -- portant le total a onze sur
+      vingt-quatre.
+      RESULTAT PRINCIPAL, ET IL EST UNE COLLISION FRONTALE. LE PRINCIPE 15 exige
+      de toute infrastructure qu'elle detienne des "liquid net assets FUNDED BY
+      EQUITY" suffisants pour poursuivre son activite EN CONTINUITE
+      D'EXPLOITATION et pour financer UNE LIQUIDATION ORDONNEE. Or L11.C02
+      etablit des FONDS PROPRES NEGATIFS DU MONTANT EMIS, et la correction du
+      meme jour a retire l'analogie qui presentait ce resultat comme ordinaire.
+      UNE ENTITE QUI EMET EN DONNANT NE SATISFAIT PAS UN PRINCIPE CONCU POUR UNE
+      ENTITE QUI ABSORBE SES PERTES SUR SON CAPITAL.
+      ISSUE JAMAIS ECRITE PAR LE CORPUS : SEPARER L'EMETTEUR DE L'INFRASTRUCTURE
+      -- avec son cout, puisque CE QUI REND L'INFRASTRUCTURE CONFORME EST CE QUI
+      LA REND INDIFFERENTE A L'UNITE QU'ELLE TRANSPORTE.
+      SECOND RESULTAT : le test de risque minimal que le corpus croyait propre a
+      l'actif de reglement EST LA REGLE GENERALE DU TEXTE -- principes 4, 5, 9 et
+      16 l'appliquent aux expositions, au collateral, au reglement et aux
+      investissements. IL N'EXISTE AUCUNE POCHE DU BILAN D'UNE INFRASTRUCTURE OU
+      LOGER UN ACTIF DONT LA VALEUR DEPEND D'UN ETAT ECOLOGIQUE. Et le principe 5
+      ajoute LES LIMITES DE CONCENTRATION, alors que le dispositif suppose une
+      contrepartie homogene.
+      RESERVE CENTRALE : la qualification de l'emetteur comme infrastructure
+      n'est pas etablie, et tout le chapitre lui est conditionnel.
 
   - livre: 22
     titre: "Le pouvoir de la finance non bancaire"

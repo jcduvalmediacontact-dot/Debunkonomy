@@ -117,3 +117,17 @@ renvois: [L1.C24, L1.C27, L3.C05, L3.C09, L5.C01, L7.C12, L20.C13]
 ::etat:: **Et l'échec coûte à des tiers.** La gouvernance doit soutenir « la stabilité du système financier au sens large » : **une infrastructure qui défaille est un incident systémique**, ce qui ne donne pas à cette voie le même statut politique qu'une voie dont l'échec ne coûte qu'à ses promoteurs.
 
 ::etat:: **Aucune infrastructure existante n'est instruite** — ni coût, ni délai, ni volume d'équilibre. **Le corpus soutient qu'une infrastructure est une première marche sans savoir ce qu'elle coûte à gravir.**
+
+## BALAYAGE DU LIVRE 21 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 21, après instruction de quatre principes supplémentaires du standard des infrastructures de marché.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le manque que ce chapitre déclarait est partiellement comblé, et il l'est défavorablement** [L21.C01]. Ce chapitre avait instruit **sept principes sur vingt-quatre** ; **quatre autres sont ouverts**, et **le test de risque minimal qu'il tenait pour propre à l'actif de règlement est LA RÈGLE GÉNÉRALE DU TEXTE.**
+
+::etat:: **Principe 16** : les investissements de l'infrastructure doivent porter sur des instruments à « **minimal credit, market, and liquidity risks** ». **Principe 5** : le collatéral doit présenter « **low credit, liquidity, and market risks** », avec « **appropriately conservative haircuts and CONCENTRATION LIMITS** ». **Principe 4** : couvrir l'exposition à chaque participant « **FULLY with a high degree of confidence** ».
+
+::hypothese:: **Le corpus enregistre qu'il n'existe AUCUNE POCHE du bilan d'une infrastructure où loger un actif dont la valeur dépend d'un état écologique.** **Règlement, investissement, collatéral, exposition : les quatre subissent le même test.**
+
+::etat:: **Et une exigence non rencontrée apparaît : les LIMITES DE CONCENTRATION.** **Même un collatéral excellent ne se détient pas sans limite** — **or le dispositif suppose une contrepartie homogène.**
+
+::etat:: **Le manque principal subsiste** : **aucune infrastructure existante n'est ouverte**, ni coût, ni délai, ni volume d'équilibre, **treize principes restant non instruits.**

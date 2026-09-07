@@ -242,3 +242,13 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::etat:: **Les deux atténuations écartées par le point 86 sont celles que le corpus aurait proposées** : conditionner l'accès à **une inscription en ligne**, et prévoir des **dérogations en circonstances exceptionnelles**, ne démontrent « **ni une pondération équilibrée ni l'existence de garanties suffisantes** ». **Une publicité ne se rend pas proportionnée par des garanties procédurales légères.**
 
 ::hypothese:: **La voie qui reste est nommée et elle a un coût** : l'accès n'est pas fermé, **il est déplacé vers la QUALITÉ DE CELUI QUI CONSULTE.** Un régime d'intérêt légitime démontré reste concevable, **mais il transforme la vérification PUBLIQUE en vérification AUTORISÉE — et le corpus devrait dire qui autorise.**
+
+## BALAYAGE DU LIVRE 21 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 21, après instruction de quatre principes supplémentaires du standard des infrastructures de marché.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une distinction est versée qui écarte une fausse tension** [L21.C01]. **PFMI, principe 23** : « **All relevant rules and key procedures should be publicly disclosed** », et l'infrastructure doit permettre aux participants de comprendre « the risks, fees, and other material costs ».
+
+::hypothese:: **Ce principe n'entre pas en contradiction avec l'exigence d'agrégation relevée en L10.C03.** **La Cour de justice y exigeait l'agrégation des informations sur LES TITRES DÉTENUS**, comme garantie contre le contournement d'une prohibition ; **le principe 23 exige la publicité DES RÈGLES ET DES PROCÉDURES.** **PUBLIER CE QU'ON FAIT N'EST PAS PUBLIER CE QU'ON DÉTIENT.**
+
+::hypothese:: **Conséquence favorable pour ce chapitre.** **La traçabilité dont il fait dépendre la lutte contre la fraude à la qualification porte sur DES RÈGLES ET DES ACTES**, non nécessairement sur l'identité des détenteurs. **Elle échappe donc en partie à l'obstacle de L23.C04**, qui vise la publicité de données personnelles — **en partie seulement, la qualification d'une activité désignant souvent celui qui la conduit.**
