@@ -132,3 +132,15 @@ renvois: [L1.C15, L1.C20, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L11.C05, L
 ::hypothese:: **Précision de formule, portée sans objection** : la dette est collective **par sa cause** et individuelle **par son incidence**, la fonte étant modulée par la décision de chacun. **C'est la structure d'un impôt pigouvien.** **L11.C09 reçoit la question de savoir qui paie effectivement**, une fois la répercussion prise en compte.
 
 ::etat:: **L'arbitrage porte sur l'actif et laisse le passif entier** : si l'unité n'est la dette de personne en particulier, **est-elle une dette de l'émetteur ?** **Le corpus ne l'a jamais dit, et A30 ne l'a pas tranché.**
+
+## BALAYAGE DU LIVRE 23, CINQUIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'application de l'arbre de qualification à la fonte.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'arbre posé par ce chapitre a été emprunté, et QUATRE BRANCHES SUR SIX TOMBENT** [L23.C06]. **La redevance** — la fonte croît avec le dommage causé à des tiers, donc **celui qui paie le plus nuit le plus** ; aucune construction ne rend cela proportionnel à un service rendu au payeur. **Les frais de réseau** — s'y soustraire signifierait **sortir de l'économie monétaire**. **L'obligation conventionnelle** — un agent qui utilise une monnaie **n'a rien souscrit** ; la branche reste ouverte entre États, **fermée à l'égard des agents**.
+
+::etat:: **Une précision est versée sur le mot « choix » de l'arbitrage A35** : il porte sur **la composition** de la consommation, **non sur l'adhésion** au mécanisme. **On choisit ce qu'on achète, on ne choisit pas d'y être soumis** — et c'est la seconde propriété qui départage les branches.
+
+::hypothese:: **Restent l'IMPÔT AFFECTÉ et la RÈGLE MONÉTAIRE, et ce chapitre avait raison de relever que la seconde est la plus favorable.** **Elle évite les quatre obstacles instruits au Livre 23**, parce qu'**une décote ne prélève rien sur un patrimoine extérieur : elle modifie la valeur d'un instrument que l'émetteur a créé.**
+
+::etat:: **Mais une difficulté de mécanique apparaît, que ce chapitre n'avait pas vue** : **une décote ne frappe que l'ENCOURS ; la gradation selon l'impact suppose de frapper LA TRANSACTION.** **La branche la plus favorable juridiquement est la moins compatible avec la mécanique arbitrée.** **Arbitrage A36 ouvert.**

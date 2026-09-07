@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -171,3 +171,15 @@ renvois: [L1.C21, L1.C26, L11.C02, L11.C03, L11.C04, L11.C05, L11.C06]
 ::hypothese:: **Et la vertu principale que le Livre 1 revendique pour l'architecture défaille dans l'état pour lequel elle est conçue.** Le moment où la thésaurisation appelle le demurrage est celui où son assiette est la plus mobile. Ce n'est plus une conjecture sur les comportements, c'est une conséquence de l'arbitrage de rendement — et l'objectif de contracyclicité perd son instrument précisément dans l'état qui le motive.
 
 ::hypothese:: **Une seule mesure fermerait les deux fuites** — celle du demurrage et celle du triangle. Deux chapitres du Livre 1 la proposaient séparément sans voir qu'ils désignaient la même chose. L'arbitrage de P49 ne porte donc plus seulement sur le change : il décide aussi si le second ressort tient.
+
+## BALAYAGE DU LIVRE 23, CINQUIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'application de l'arbre de qualification à la fonte.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La qualification juridique du demurrage reçoit un enjeu qu'elle n'avait pas** [L23.C06]. **L'arbre de qualification appliqué à la fonte laisse deux branches, et la seconde est LA RÈGLE MONÉTAIRE** — une décote appliquée à l'encours par l'émetteur, **relevant de la compétence monétaire et non fiscale**, comme un taux négatif sur les réserves.
+
+::hypothese:: **Le corpus enregistre que cette branche évite TOUS les obstacles instruits au Livre 23** : pas de compétence fiscale à constituer, pas d'administration à intéresser, pas d'assiette à reconstituer chez des tiers opaques, pas de budget. **Le motif est que la décote ne prélève rien sur un patrimoine extérieur — elle modifie la valeur d'un instrument que l'émetteur a lui-même créé.**
+
+::etat:: **Et c'est ce chapitre qui porte la limite décisive.** **Une décote ne frappe que L'ENCOURS DÉTENU**, tandis que la gradation selon l'impact voulue par l'arbitrage A35 **suppose de frapper LA TRANSACTION**. **Une décote sur encours ne peut pas être graduée selon l'impact** ; **elle ne peut l'être que par la durée de détention.**
+
+::etat:: **S'y ajoute ce que ce chapitre avait déjà établi** — la fuite vers un substitut est maximale en crise — **et un agent qui convertit immédiatement échappe à une décote sur encours.** **Arbitrage A36 ouvert : la fonte frappe-t-elle l'encours ou la transaction ?**

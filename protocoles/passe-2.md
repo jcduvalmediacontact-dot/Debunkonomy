@@ -3482,3 +3482,68 @@ de l'arbre, quelle autorité, quelle voie d'adoption. **LES ÉCRITURES
 INTER-ENTITÉS** — trois jeux complets et séparés : émetteur, banque centrale
 nationale, bénéficiaire, avec les branches destruction, accumulation et fonds
 propres négatifs assumés.
+
+## Arbitrage A36 — LA FONTE EST-ELLE UN PRÉLÈVEMENT OU UNE DÉCOTE ? Le choix décide de la nature du dispositif
+
+**OUVERT LE 2026-09-07, à l'issue de L23.C06**, qui a emprunté pour la première
+fois l'arbre de qualification posé par L10.C06. **Ce n'est pas une question de
+droit : c'est une question de conception, et elle revient à l'auteur.**
+
+**CE QUI EST ÉTABLI.** L'arbre comptait **six branches**. **Quatre tombent**, et sur
+des critères simples. **La redevance** — la fonte croît avec le dommage causé à des
+tiers, donc **celui qui paie le plus NUIT le plus, il ne reçoit pas le plus**.
+**Les frais de réseau** — s'y soustraire signifierait **sortir de l'économie
+monétaire**, et un choix qui coûte de cesser d'acheter n'est pas contractuel.
+**L'obligation conventionnelle** — un agent qui utilise une monnaie **n'a rien
+souscrit** ; la branche reste ouverte entre ÉTATS, elle est fermée à l'égard des
+AGENTS, que A35 désigne comme payeurs. **Restent DEUX branches.**
+
+**L'ALTERNATIVE, ET LES DEUX TERMES NE DIFFÈRENT PAS PAR LEUR EFFET ÉCONOMIQUE.**
+Un prélèvement gradué et une décote graduée **peuvent produire le même signal de
+prix** ; **ils ne s'obtiennent pas au même endroit ni du même monde.**
+
+| | **BRANCHE FISCALE** — contribution affectée | **BRANCHE MONÉTAIRE** — règle de décote |
+|---|---|---|
+| **Autorité** | compétence des États | compétence de l'émetteur |
+| **Voie d'adoption** | traité fiscal, compétence déléguée ou harmonisation | décision de politique monétaire |
+| **Percepteur** | administrations nationales | **aucun** |
+| **Obstacles instruits au Livre 23** | **les quatre** — souveraineté préservée par le mandat onusien, défaut d'alignement du percepteur, correctif qui est lui-même une variable de négociation, vérification restreinte par les droits fondamentaux | **aucun** |
+| **Obstacle propre** | **F10 y frappe le plus fort** : un accord fiscal mondial servirait aussi bien à supprimer 2 000 milliards de subventions, quand l'écart n'est que de 351 | **la question du passif**, qu'A30 et A35 laissent ouverte et **que le Livre 19 porte** |
+
+**POURQUOI LA BRANCHE MONÉTAIRE ÉCHAPPE À TOUT, et le corpus le dit aussi nettement
+que les objections.** **Une décote ne prélève rien sur un patrimoine extérieur :
+elle modifie la valeur d'un instrument que l'émetteur a lui-même créé.** **Ce
+n'est pas une créance sur l'agent, c'est une propriété de l'unité qu'il détient.**
+Pas de compétence fiscale, pas de percepteur, pas d'assiette à reconstituer chez
+des tiers opaques, pas de budget.
+
+**ET POURQUOI ELLE NE SUFFIT PAS EN L'ÉTAT.** **Une décote ne frappe que l'ENCOURS
+détenu.** **La gradation selon l'impact suppose de frapper LA TRANSACTION.** **Une
+décote sur transaction ressemble à un prélèvement ; une décote sur encours ne peut
+pas être graduée selon l'impact.** **LA BRANCHE LA PLUS FAVORABLE JURIDIQUEMENT EST
+LA MOINS COMPATIBLE AVEC LA MÉCANIQUE ARBITRÉE EN A35.** S'y ajoute qu'un agent qui
+convertit immédiatement échappe à une décote sur encours.
+
+**CE QUE L'ARBITRAGE DOIT TRANCHER, EN UNE PHRASE.** *La fonte frappe-t-elle
+L'ENCOURS détenu — auquel cas elle est une règle monétaire, ne demande aucune
+compétence fiscale, et ne peut être graduée que par la durée de détention — ou LA
+TRANSACTION — auquel cas elle peut être graduée selon l'impact, et demande une
+compétence de lever que le droit international ne crée nulle part à ce jour ?*
+
+**UNE TROISIÈME VOIE EXISTE PEUT-ÊTRE ET LE CORPUS NE LA TIENT PAS** : **un
+dispositif à DEUX ÉTAGES**, décote sur encours par règle monétaire pour la partie
+qui ne demande aucune compétence, **et** contribution graduée sur transaction pour
+la partie qui exige le signal d'impact. **Le corpus n'a instruit aucun instrument
+hybride de ce genre**, et la combinaison hériterait des obstacles de la seconde pour
+sa seconde moitié.
+
+**CE QUE L'AUTEUR A DÉJÀ DIT ET QUI ORIENTE.** **A35 décrit des fontes
+« graduellement plus fortes » selon l'impact de la consommation** — ce qui pointe
+vers la transaction, donc vers la branche fiscale. **A30 décrivait une unité
+adossée** — ce qui pointait vers la branche monétaire. **Les deux arbitrages
+n'orientent pas du même côté**, et c'est ce qui rend celui-ci nécessaire.
+
+**NE PAS TRANCHER A UN COÛT DÉSORMAIS CHIFFRABLE.** Six chapitres du Livre 23
+raisonnent sur une qualification indéterminée ; **le Livre 19 ne peut pas commencer
+sans savoir si l'unité porte une décote** ; et **L11 ne peut pas calibrer un
+instrument dont il ignore s'il porte sur un stock ou sur un flux.**

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -210,3 +210,13 @@ renvois: [L1.C18, L1.C21, L1.C23, L11.C02, L11.C03, L11.C04]
 ::hypothese:: **L'arbitrage de l'assiette est donc entre une base observable qui mesure la mauvaise grandeur et une base juste qui n'est pas mesurable.** Il commande tout le reste du livre, puisqu'un barème ne se règle que sur une assiette arrêtée, et il n'a jamais été posé. Arbitrage A10.
 
 ::hypothese:: **Et la structure de taux de la proposition la plus proche est calibrée sur la mobilité et non sur l'impact.** C'est rationnel chez elle, qui ne prétend pas moduler sur l'empreinte ; ce ne le serait pas chez un dispositif qui en fait son principe. L'écart entre le barème annoncé et le barème praticable devra être publié, faute de quoi il sera découvert.
+
+## BALAYAGE DU LIVRE 23, CINQUIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'application de l'arbre de qualification à la fonte.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'assiette du reflux transactionnel devient l'objet d'un arbitrage** [L23.C06]. L'arbre de qualification appliqué à la fonte laisse **deux branches**, et **elles se distinguent précisément par l'assiette** : **la règle monétaire frappe L'ENCOURS**, **la contribution affectée frappe LA TRANSACTION**.
+
+::hypothese:: **Le corpus enregistre que le choix d'assiette n'est pas un réglage mais une qualification.** **Frapper la transaction, c'est établir un prélèvement** — avec la compétence fiscale, le percepteur, l'assiette à reconstituer et les quatre obstacles du Livre 23. **Frapper l'encours, c'est édicter une règle monétaire** — sans aucun de ces obstacles, **mais sans pouvoir graduer selon l'impact.**
+
+::etat:: **Ce chapitre avait relevé que la proposition voisine impose plus lourdement l'achat d'un bien que la transaction financière, conséquence distributive non discutée par ses auteurs.** **La question devient plus large : c'est le CHOIX MÊME de l'assiette transactionnelle qui emporte le régime juridique du dispositif.** **Arbitrage A36 ouvert.**
