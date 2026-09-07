@@ -58,19 +58,27 @@
 # parfaite. On y verra plus clair. Ce sont les passes futures qui répondront
 # aux questions et aux blancs. »
 #
-# ── DIVERGENCE REGISTRE / DÉPÔT SIGNALÉE LE 2026-09-07, NON TRANCHÉE ───────
+# ── DIVERGENCE REGISTRE / DÉPÔT DU 2026-09-07 : RÉSOLUE LE JOUR MÊME ───────
 #
-# Le LIVRE 4, « Les Cahiers Humanistes », est déclaré ici au statut `acquis`
-# avec ONZE chapitres — Weber, Lafargue et Russell, Arendt, Simone Weil,
-# Castel, Gorz, Ellul et Illich, Black et Graeber, Federici et Fraser,
-# Foucault et Han, Tainter et Suzman. LE DOSSIER `corpus/livre-04/` N'EXISTE
-# PAS. Le script compte 180 chapitres, ce registre en déclare 191 : l'écart
-# est exactement le Livre 4.
+# Le script comptait 180 chapitres et ce registre en déclarait 191 : l'écart
+# était exactement le LIVRE 4, « Les Cahiers Humanistes », déclaré au statut
+# `acquis` avec onze chapitres sans que `corpus/livre-04/` existe.
 #
-# Deux lectures possibles, et le corpus ne tranche pas : soit les onze
-# chapitres existent hors du dépôt et n'ont jamais été convertis, soit le
-# compte est une projection du plan qui n'a pas été écrite. LA CONVENTION DIT
-# QUE LE PLAN TRANCHE — question posée à l'auteur le 2026-09-07.
+# LE REGISTRE AVAIT RAISON. Les onze épisodes existaient hors du dépôt, en
+# `.odt`, et n'avaient jamais été convertis. Convertis le 2026-09-07 par
+# `corpus/convertir.py` — squelettes à en-tête minimal valide, corps inséré,
+# `regime: descriptif`, `citable: false`. **Le script compte désormais 191.**
+#
+# NOTE DE MATRICULE, et elle vaut règle. Le dossier source de l'auteur porte
+# le label « LIVRE 03 ». L'auteur a confirmé le 2026-09-07 que **le numéro a
+# changé et que ce n'est plus le livre 3** : le label est ancien, le matricule
+# des Cahiers Humanistes est 4, et aucune réattribution n'a été faite. Le
+# matricule 3 reste celui des dilemmes du système monétaire international.
+#
+# CE QUI RESTE À FAIRE SUR CES ONZE CHAPITRES, et le convertisseur le déclare
+# lui-même : `resume`, `sources_primaires`, `concepts`, `renvois` et balises
+# de régime sont des jugements que le script ne rend pas. Les chapitres sont
+# valides et non instruits.
 #
 # ── CE QUE SONT LES LIVRES ANNEXES ── arbitré par l'auteur le 2026-09-04 ───
 #
@@ -423,6 +431,20 @@ livres:
       Weber, Lafargue et Russell, Arendt, Simone Weil, Castel, Gorz, Ellul et
       Illich, Bob Black et Graeber, Federici et Fraser, Foucault et Han,
       Tainter et Suzman.
+      VERSÉS AU DÉPÔT LE 2026-09-07. Les onze épisodes existaient en `.odt`
+      hors du dépôt et n'avaient jamais été convertis — c'est ce qui expliquait
+      l'écart de onze chapitres entre le script et ce registre. Conversion par
+      `corpus/convertir.py`, environ 250 000 caractères au total.
+      ÉTAT RÉEL : squelettes valides, CORPS INTÉGRAL INSÉRÉ, en-tête minimal.
+      `resume`, `sources_primaires`, `concepts`, `renvois` et balises de régime
+      RESTENT À ÉTABLIR — le convertisseur ne rend pas ces jugements, par
+      respect de la convention § 1. **Ne pas compter ces onze chapitres comme
+      instruits.** Ils sont acquis en texte, non en appareil.
+      RECOUPEMENT DÉJÀ VISIBLE AVEC LE CORPUS : l'épisode 8 porte
+      « bullshitnovation », concept du vocabulaire dont L1.C16 est la première
+      occurrence ; l'épisode 11 porte Tainter, dont L1.C23 emploie la thèse
+      d'effondrement par complexité. La passe 2 devra établir qui, du Livre 1
+      ou de ce livre, tient l'énoncé de référence.
 
   - livre: 5
     titre: "Trajectoires et transitions"
