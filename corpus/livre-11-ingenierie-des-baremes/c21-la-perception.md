@@ -176,3 +176,19 @@ renvois: [L1.C21, L11.C01, L11.C02, L11.C03, L11.C05, L11.C09, L11.C10, L11.C16,
 ::etat:: **Et le mode d'échec décrit ici trouve un cas.** Le mandat a été adopté **contre huit voix et malgré quarante-quatre abstentions**, et **les opposants sont précisément les États dont les administrations devraient appliquer.** **« Un État qui perçoit sans zèle » n'est ni visible ni sanctionnable** — **un vote perdu ne se transforme pas en refus, il se transforme en lenteur.**
 
 ::etat:: **Une piste tenue par ce chapitre reste la seule réponse disponible et elle n'est pas instruite** : les **frais de perception** que l'Union laisse aux administrations nationales sur ses ressources propres, « c'est-à-dire en rendant le percepteur intéressé au produit ».
+
+## BALAYAGE DU LIVRE 23, QUATRIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de la décision du Conseil relative au système des ressources propres de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La piste que ce chapitre avait nommée sans l'ouvrir est ouverte** [L23.C05]. **Décision (UE, Euratom) 2020/2053 du Conseil du 14 décembre 2020, considérant 10** : « Les États membres devraient retenir, **à titre de frais de perception, 25 %** des montants des ressources propres traditionnelles qu'ils ont perçus. »
+
+::hypothese:: **Le mécanisme d'alignement existe donc EN VIGUEUR, et sa propriété décisive est que l'intérêt croît avec LE RECOUVREMENT, non avec l'assiette déclarée.** **Un État qui contrôle mieux encaisse davantage pour lui-même** — c'est exactement ce qui manquait au dispositif, où l'administration percevrait sans rien retirer.
+
+::etat:: **MAIS LA SÉRIE HISTORIQUE, PORTÉE PAR LE TEXTE LUI-MÊME, LIMITE L'ACQUIS** : **10 %** avant le 28 février 2001, **25 %** de 2001 à 2014, **20 %** de 2014 à 2021, **25 %** ensuite. **Et le considérant qui énonce le taux NE LE MOTIVE PAR AUCUN CALCUL DE COÛT.**
+
+::hypothese:: **Un taux qui double, redescend d'un cinquième puis remonte n'est pas la compensation d'une dépense mesurée : c'est UNE VARIABLE DE NÉGOCIATION BUDGÉTAIRE.** **Le mécanisme d'alignement existe, et son paramètre est l'objet du marchandage qu'il devait neutraliser.** **Entre deux négociations, rien n'empêche de percevoir sans zèle** — ce que ce chapitre a établi comme invisible.
+
+::etat:: **Le corpus borne néanmoins l'objection** : **entre 10 et 25 pour cent, l'intéressement n'a jamais été supprimé.** **Ce qui se négocie est LE NIVEAU, non LE PRINCIPE** — un instrument fondateur qui inscrirait le principe laisserait au marchandage une amplitude, non une existence.
+
+::etat:: **Non ouvert, et c'est ce qui dirait si l'alignement suffit** : le règlement relatif aux **modalités de mise à disposition** des ressources propres, qui porte comptabilité, délais, intérêts de retard **et contrôles de la Commission**.

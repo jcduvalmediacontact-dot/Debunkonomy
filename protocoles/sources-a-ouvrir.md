@@ -904,3 +904,16 @@ aujourd'hui ni si un accès **pour intérêt légitime** a été rétabli. **Et 
 ne statue que sur le droit de l'Union et la Charte** — aucun régime hors d'Europe
 n'est tenu. **Acquisition prioritaire : la directive de 2024 et son régime
 d'accès.**
+
+### Complément du 2026-09-07 — les ressources propres de l'Union
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **Décision (UE, Euratom) 2020/2053 du Conseil du 14 décembre 2020, système des ressources propres**, JO L 424/1 | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020D2053` | `libre` | **LE MÉCANISME D'ALIGNEMENT EXISTE.** Considérant 10 : les États retiennent **25 % à titre de frais de perception** sur les ressources propres traditionnelles — le percepteur est **intéressé au recouvrement, non à l'assiette déclarée**. **MAIS LA SÉRIE HISTORIQUE EST DANS LE TEXTE** : 10 %, puis 25 %, puis 20 %, puis 25 % — **variable de négociation, non compensation d'un coût mesuré**, et **le considérant ne la motive pas**. **Art. 2 § 1** : la rétention ne porte QUE sur les ressources traditionnelles ; le taux d'appel de 0,30 % sur la TVA et celui de **0,80 EUR/kg de déchets plastiques non recyclés** n'en donnent aucun — **on intéresse celui qui CONTRÔLE, non celui qui CALCULE**. **Versé à L23.C05, L11.C21 et L11.C24** |
+
+**RÉSERVE.** **Le règlement d'application n'est pas ouvert** — modalités de mise à
+disposition, comptabilité, délais, intérêts de retard **et contrôles de la
+Commission** — **et c'est lui qui dirait si l'alignement suffit.** **Aucune donnée
+d'efficacité de perception n'est tenue** : ni taux de recouvrement par État, ni
+redressements, ni contentieux. Le corpus **constate que l'incitation existe ; il ne
+peut pas dire qu'elle produit l'effet qu'on lui prête.**

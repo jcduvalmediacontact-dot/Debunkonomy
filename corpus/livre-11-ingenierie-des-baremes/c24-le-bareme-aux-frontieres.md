@@ -150,3 +150,15 @@ renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, 
 ::hypothese:: **Une option de conception non considérée par ce chapitre** [L6.C09] : **le seuil défini par sa CONSÉQUENCE** et non par une quantité mesurée. La Cour interaméricaine exige le **consentement**, et non la simple consultation, lorsqu'un projet est « susceptible de mettre en péril la subsistance physique, culturelle ou économique » d'une communauté. **Un tel seuil ne se contourne pas par le fractionnement, puisque c'est l'effet qui le déclenche.**
 
 ::hypothese:: **COÛT NOMMÉ** : la mesure passe à l'amont, d'où l'exigence d'**études d'impact préalables** — qu'il faut que quelqu'un paie et qu'un tiers croie.
+
+## BALAYAGE DU LIVRE 23, QUATRIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de la décision du Conseil relative au système des ressources propres de l'Union.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une distinction est versée à ce chapitre, et elle le sépare des autres instruments du dispositif** [L23.C05]. **Décision (UE, Euratom) 2020/2053, article 2 § 1** : les **frais de perception de 25 %** ne portent QUE sur les ressources propres **traditionnelles** — droits de douane et prélèvements sur les échanges avec les pays tiers. **Ni le taux d'appel de 0,30 % sur l'assiette de la taxe sur la valeur ajoutée, ni celui de 0,80 EUR par kilogramme de déchets d'emballages plastiques non recyclés n'en donnent.**
+
+::hypothese:: **Le corpus enregistre le motif, qu'il n'avait pas vu.** **La ressource traditionnelle suppose UN ACTE DE CONTRÔLE à la frontière** — vérifier une marchandise, la classer, liquider un droit. **Les deux autres SE CALCULENT sur des agrégats déjà établis à d'autres fins.** **ON INTÉRESSE CELUI QUI DOIT CONTRÔLER, ON N'INTÉRESSE PAS CELUI QUI DOIT CALCULER.**
+
+::hypothese:: **Conséquence directe : un barème aux frontières ressemble à la ressource traditionnelle et APPELLE UNE RÉTENTION**, là où un reflux transactionnel assis sur des flux déjà enregistrés n'appelle pas le même mécanisme. **Le corpus ne peut pas transposer l'intéressement uniformément à ses instruments.**
+
+::etat:: **Et un précédent est versé pour lui-même** : la troisième ressource propre est assise sur **0,80 EUR par kilogramme de déchets d'emballages plastiques non recyclés**, avec réductions forfaitaires pour certains États. **C'est une ressource propre fondée sur UNE GRANDEUR PHYSIQUE ET UN CRITÈRE ENVIRONNEMENTAL, et le corpus n'en tenait aucun exemple.**
