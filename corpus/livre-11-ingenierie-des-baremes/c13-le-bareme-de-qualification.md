@@ -262,3 +262,19 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **La qualification régénérative n'est ni un instrument ni une contrepartie.** Ce n'est pas une propriété de l'instrument — **la monnaie versée est de la monnaie nationale ordinaire, indiscernable** (L11.C01 § 3) — **ni une propriété de la contrepartie**, le même prestataire pouvant recevoir un paiement qualifié et un paiement ordinaire le même jour.
 
 ::hypothese:: **Donc la qualification ne voyage pas dans le message : elle vit dans un registre séparé, dont le paiement ne porte qu'une référence.** **Ce n'est pas une objection** — c'est ainsi que fonctionne toute traçabilité fiscale. **Mais la solidité du dispositif ne dépend alors pas du rail : elle dépend de CE REGISTRE**, donc de ce chapitre et du contrôle de L11.C25. **Résultat favorable au Livre 21, exigeant pour celui-ci.**
+
+## BALAYAGE DU LIVRE 22, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C03, qui ouvre le barème de qualification en vigueur en droit positif.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE BARÈME QUE CE CHAPITRE CONÇOIT EXISTE DÉJÀ EN DROIT POSITIF, SUR LE MÊME OBJET, ET LE CORPUS NE L'AVAIT PAS LU** [L22.C03]. **Règlement (UE) 2020/852, article 9 f)** : la « **protection et restauration de la biodiversité et des écosystèmes** » est l'un des six objectifs environnementaux reconnus, et **l'article 15** en précise la contribution substantielle. **L'objet que le corpus croyait devoir inventer est déjà nommé et défini** — point d'appui, non objection.
+
+::etat:: **SA STRUCTURE A QUATRE CONDITIONS CUMULATIVES ; CELLE DE CE CHAPITRE N'EN A QU'UNE.** **Article 3** : contribution substantielle **a)** ; **absence de préjudice important à AUCUN des six objectifs b)** ; **garanties minimales c)** ; **critères d'examen technique d)**.
+
+::hypothese:: **PREMIÈRE PIÈCE MANQUANTE, ET C'EST LA PLUS GRAVE.** **Article 17** : le préjudice important s'apprécie « **compte tenu du CYCLE DE VIE** ». **Sans ce test, un barème fondé sur la seule contribution paie ce qui régénère d'un côté et détruit de l'autre** — une plantation qui assèche une nappe, une installation posée sur un habitat. **Et l'omission est PLUS grave ici que dans le règlement : celui-ci décide d'un LABEL, ce barème décide d'une ÉMISSION MONÉTAIRE.** **Le test le plus exigeant devrait être du côté où la conséquence est la plus lourde ; il est du côté où elle est la plus légère.**
+
+::hypothese:: **DEUXIÈME PIÈCE MANQUANTE, ET ELLE EST SOCIALE.** **Article 18** : alignement sur **les principes directeurs de l'OCDE**, **ceux des Nations unies sur les entreprises et les droits de l'homme**, **les huit conventions fondamentales de l'OIT** et **la Charte internationale des droits de l'homme**. **Rien ici n'empêche de qualifier un projet de restauration conduit en violation du droit du travail ou sur des terres prises à leurs occupants.** **Le patron est fourni : renvoyer à des instruments existants plutôt qu'écrire un chapitre social nouveau.** Versé aussi au Livre 25.
+
+::hypothese:: **TROISIÈME PIÈCE : les onze exigences de l'article 19**, dont **k)** — les critères « sont **faciles à utiliser** et [...] **facilitent la vérification de leur respect** », contrainte que ce chapitre n'a jamais formulée alors que L11.C25 fait tout dépendre du contrôle — et **j)**, l'égalité de traitement au sein d'un secteur « **afin d'éviter toute distorsion de concurrence** », **que ce barème ne peut pas satisfaire puisqu'il distorde PAR DESSEIN.**
+
+::etat:: **ACQUISITION DE RANG 1 DÉCLARÉE : les actes délégués portant les critères d'examen technique, c'est-à-dire LES SEUILS RÉELS.** Le corpus tient l'architecture du barème existant ; **il ne tient aucun de ses seuils.**

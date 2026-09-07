@@ -2491,3 +2491,34 @@ l'instrument : une taxe ordinaire doit RAPPORTER, le reflux doit BOUCLER.** **Un
 impôt qui rend moins que prévu creuse un déficit ; un reflux qui rend moins que
 l'émission laisse en circulation une monnaie non résorbée.** **La fuite est
 ordinaire ; la conséquence de la fuite ne l'est pas.**
+
+### F2 — NUANCE DU 2026-09-07, PAR L22.C03 : le législateur concède le repli qualitatif
+
+**F2 porte sur l'incertitude de mesure. L22.C03 a ouvert le barème de
+qualification en vigueur en droit positif, et y trouve une concession que le
+corpus doit porter EN FAVEUR du dispositif.**
+
+**CE QUE LE TEXTE CONCÈDE.** **Règlement (UE) 2020/852, article 19, point c)** :
+les critères d'examen technique « **sont quantitatifs et comprennent des seuils
+DANS LA MESURE DU POSSIBLE et, À DÉFAUT, SONT QUALITATIFS** ».
+
+**CE QUE CELA CHANGE, ET CE QUE CELA NE CHANGE PAS.** **Sur le sujet même où le
+corpus place F2, le législateur européen admet que la quantification n'est pas
+toujours atteignable et prévoit le repli.** **La lecture la plus dure de F2 —
+celle qui exigerait un seuil chiffré partout avant toute qualification — NE
+SURVIT PAS À CETTE CONCESSION** : un barème en vigueur, adossé à un appareil
+scientifique et institutionnel considérable, ne s'y tient pas lui-même.
+
+**F2 LUI-MÊME SURVIT INTÉGRALEMENT.** L'incertitude de mesure demeure ; ce qui
+tombe est l'exigence de sa forme la plus rigide. **Et le même article 19 ajoute
+deux contraintes qui PÈSENT sur le dispositif** : les critères sont fondés « sur
+des éléments scientifiques concluants et le principe de précaution » [f], **et
+ils tiennent compte « du risque de créer des INCITATIONS CONTRADICTOIRES à
+l'investissement durable » [i]** — **c'est-à-dire F3 inscrit dans un
+règlement.** **Le corpus enregistre que l'objection qu'il oppose au dispositif
+est déjà une exigence de droit positif pour le barème existant.**
+
+**RÉSERVE QUI LIMITE LA PORTÉE DE CETTE NUANCE.** **Le corpus tient
+l'architecture du barème, pas ses seuils** : les actes délégués portant les
+critères d'examen technique ne sont pas ouverts. **C'est là que se trouverait la
+réponse complète à F2, et c'est l'acquisition de rang 1 du Livre 11.**

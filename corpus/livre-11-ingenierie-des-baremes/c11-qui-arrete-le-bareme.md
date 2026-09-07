@@ -193,3 +193,13 @@ renvois: [L1.C18, L1.C22, L1.C26, L1.C27, L11.C04, L11.C06, L11.C08, L11.C10]
 ::hypothese:: **LA PROTECTION N'EST PAS UN DROIT : C'EST UNE DÉCISION.** Aucune conformité ne l'ouvre automatiquement. **Et les « règles de fonctionnement » d'un système d'émission incluraient LE BARÈME DE FONTE, la clé de qualification, les conditions du reflux et les droits des banques centrales sur les allocations qu'elles portent.**
 
 ::hypothese:: **C'est donc le point de contrôle le plus concret que le corpus ait rencontré : le moment où UN SUPERVISEUR NATIONAL JUGERAIT LA CONCEPTION ENTIÈRE DU DISPOSITIF**, et non ses seuls aspects techniques. **Ce chapitre demandait qui arrête le barème ; voici une autorité qui, sans l'arrêter, peut refuser de protéger le système qui l'applique.**
+
+## BALAYAGE DU LIVRE 22, TROISIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C03, qui ouvre le barème de qualification en vigueur en droit positif.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LA QUESTION DE CE CHAPITRE A UNE RÉPONSE EXISTANTE, ET ELLE EST EN VIGUEUR** [L22.C03]. **Règlement (UE) 2020/852, article 20** : la Commission crée une **plateforme sur la finance durable**, composée « **dans un souci d'équilibre** » de cinq groupes — institutions publiques (agence de l'environnement, autorités de surveillance, banque et fonds européens d'investissement, **et agence des droits fondamentaux**) ; experts du secteur privé financier et non financier, **et experts comptables** ; **experts de la société civile**, domaines « de l'environnement, des affaires sociales, du travail et de la gouvernance » ; experts nommés à titre personnel ; **et experts académiques**, « y compris [...] au niveau mondial ».
+
+::hypothese:: **LA PLATEFORME NE DÉCIDE PAS : ELLE CONSEILLE.** Elle conseille sur les critères, **« analyse l'incidence des critères sous l'angle des coûts et des avantages potentiels de leur application »**, conseille sur « la facilité d'utilisation » **et sur « la nécessité éventuelle de modifier le présent règlement ».
+
+::etat:: **PARTAGE ENREGISTRÉ : un organe pluraliste instruit, une autorité politique arrête, ET LE RÈGLEMENT LUI-MÊME PEUT ÊTRE REMIS EN CAUSE PAR L'ORGANE QUI L'INSTRUIT.** **C'est une architecture que ce chapitre n'avait pas envisagée, et elle est disponible.** **La présence de l'agence des droits fondamentaux dans un organe technique environnemental** confirme que le lien entre qualification écologique et garanties sociales y est institutionnel, non décoratif.
