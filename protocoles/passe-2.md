@@ -3678,3 +3678,40 @@ qui oriente vers l'exemption.
 sans savoir si le dispositif prélève sur l'épargne retraite** ; **et F1 reste
 ouvert dans sa formulation la plus dure** (L22.C02), puisque le seul instrument
 capable de fermer la fuite est celui dont l'assiette est ici en question.
+
+## Règle de méthode — « LE DROIT DONNE LES CATÉGORIES, PAS LES CHIFFRES »
+
+**VERSÉE LE 2026-09-07 par L25.C05, après l'ouverture de quatre corps de règles
+dans la même journée.**
+
+**CE QUI L'ÉTABLIT.** **Le barème écologique en vigueur NE MESURE PAS la
+régénération : il CERTIFIE UN PROCÉDÉ** — état initial documenté, plan
+décennal, audit tiers, garantie de permanence, **aucun seuil chiffré** [L22.C04].
+**Le noyau dur des droits économiques et sociaux N'EST PAS CHIFFRÉ : il se
+CONSTATE** par privation observée, et se sanctionne par un renversement de la
+charge de la preuve [L25.C02]. **Le cadre des limites planétaires N'AGRÈGE PAS :
+il juxtapose neuf variables sans total, sans indice composite et sans
+pondération** [L24.C01]. **Le droit climatique NE RÉPARTIT PAS : il DIFFÉRENCIE**,
+par l'équité, les responsabilités communes mais différenciées et les capacités
+respectives, **sans dire de combien** [L25.C05].
+
+**LA RÈGLE.** *Sur la répartition d'un effort mondial entre souverainetés, le
+droit fournit des CATÉGORIES, des PROCÉDURES et des CHARGES DE PREUVE ; il ne
+fournit pas de nombres. Le corpus doit donc cesser d'espérer trouver dans un
+texte le montant, le taux, la clé ou la pondération dont le dispositif a besoin,
+et établir explicitement, chaque fois qu'il en produit un, QUE C'EST UNE
+DÉCISION ET NON UNE LECTURE.*
+
+**CE QUE LA RÈGLE NE DIT PAS, ET LA BORNE EST IMPORTANTE.** **Le droit chiffre
+ailleurs, et le corpus en tient quatre exemples de la même journée** : un ratio
+de levier de **3 %** [L21.C04], un plafond d'aide directe de **37,5 %** et une
+enveloppe de **65 milliards d'euros** [L25.C04], des seuils de décarbonation
+renvoyés à des actes délégués [L22.C06]. **La régularité vaut là où il faut
+répartir entre États souverains un effort dont personne n'a la mesure ; elle ne
+vaut pas pour le droit en général.**
+
+**CONSÉQUENCE PRATIQUE POUR LA PASSE 2.** **Chaque fois qu'un chapitre avance un
+nombre, il doit dire s'il le LIT dans une source ou s'il le DÉCIDE.** **Et
+lorsqu'il le décide, il doit porter la mention que L24.C01 a déjà exigée pour la
+clé d'agrégation : décision politique explicite, révisable et attaquable, qui ne
+peut pas être présentée comme un fait scientifique.**

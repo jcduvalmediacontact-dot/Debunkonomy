@@ -338,3 +338,13 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **CONSÉQUENCE POUR CE BARÈME, ET ELLE EST ASYMÉTRIQUE.** **Une fonte graduée par l'INTENSITÉ MATÉRIELLE de la consommation a désormais un fondement physique** — ce que A35 suggérait sans le fonder. **Mais réduire un tonnage n'est pas restaurer un milieu : la matière mesure une PRESSION, pas une RÉGÉNÉRATION.** **Le reflux trouve son assiette ; l'émission ne trouve pas la sienne.**
 
 ::etat:: **RÈGLE « LE PAS DE TROP » : la matière est un DÉTERMINANT, non une MESURE.** Un pied matériel agrège des tonnes dont les effets diffèrent d'un ordre de grandeur — la source l'établit elle-même en attribuant **28 %** des impacts climatiques à la biomasse et **17 %** aux minéraux et métaux réunis. **Acquisition déclarée : ce que vaut une tonne agrégée, et par quoi la pondérer.**
+
+## BALAYAGE DU LIVRE 25, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C05, qui ouvre les articles de l'Accord de Paris gouvernant l'équité, la différenciation et la conditionnalité.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UNE RÉGULARITÉ SUR QUATRE CORPS DE RÈGLES, ET ELLE LOCALISE EXACTEMENT CE QUE CE BARÈME DOIT PRODUIRE EN PROPRE** [L25.C05]. **Le barème écologique en vigueur NE MESURE PAS : il certifie un procédé** [L22.C04]. **Le noyau dur des droits économiques et sociaux N'EST PAS CHIFFRÉ : il se constate par privation** [L25.C02]. **Le cadre des limites planétaires N'AGRÈGE PAS : il juxtapose neuf variables sans total ni pondération** [L24.C01]. **Et le droit climatique NE RÉPARTIT PAS : il différencie par l'équité, les responsabilités et les capacités, sans dire de combien** [Accord de Paris, art. 2 § 2 et 4 § 3].
+
+::hypothese:: **QUATRE FOIS, LE DROIT REFUSE LE NOMBRE ET LE REMPLACE PAR UNE PROCÉDURE, UN CONSTAT, UNE JUXTAPOSITION OU UN PRINCIPE.** **Et quatre fois, ce barème a besoin d'un nombre** : un montant à émettre, un taux de fonte, une clé de répartition, une pondération entre dimensions.
+
+::etat:: **Ce n'est ni une objection ni une excuse : c'est la localisation de ce que le dispositif doit produire seul.** **LE DROIT LUI DONNE LES CATÉGORIES, IL NE LUI DONNERA JAMAIS LES CHIFFRES.** **Borne portée avec la régularité** : elle vaut pour la répartition d'un effort mondial entre souverainetés, **et le droit chiffre ailleurs** — 3 % de ratio de levier, 37,5 % de plafond d'aide, 65 milliards d'enveloppe.

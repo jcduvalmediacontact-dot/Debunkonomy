@@ -128,3 +128,13 @@ renvois: [L1.C15, L5.C09, L11.C13, L14.C01, L22.C01, L22.C02, L22.C03, L22.C05]
 ::etat:: **Sa borne est nette et le corpus la pose en même temps que le levier.** **Un indice réoriente entre émetteurs cotés ; l'objet du dispositif n'en est pas un.** **L'indice atteint les 51 % et pas l'objet — il peut retirer du capital au dégénératif, non en donner au régénératif.**
 
 ::hypothese:: **Et une leçon de méthode est prise sur F3.** **Le législateur, confronté à des étiquettes de qualité inégale sous un même nom, n'a pas renoncé à l'indicateur : il a protégé la dénomination et fixé un plancher.** **Le corpus posait F3 comme un problème épistémique ; il existe une réponse institutionnelle, et elle est en vigueur.**
+
+## BALAYAGE DU LIVRE 25, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L25.C05, qui ouvre les articles de l'Accord de Paris gouvernant l'équité, la différenciation et la conditionnalité.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE LEVIER TROUVÉ DANS CE CHAPITRE A UN FONDEMENT CONVENTIONNEL, ET LE CORPUS NE LE SAVAIT PAS** [L25.C05]. **Accord de Paris, article 2 § 1 c)** : l'Accord vise à renforcer la riposte mondiale notamment en « **rendant LES FLUX FINANCIERS COMPATIBLES avec un profil d'évolution vers un développement à faible émission de gaz à effet de serre et résilient aux changements climatiques** ».
+
+::hypothese:: **LA RÉORIENTATION DES FLUX FINANCIERS EST UN OBJECTIF DE L'ACCORD, AU MÊME RANG QUE LA LIMITATION DE TEMPÉRATURE.** Ce chapitre établissait que le législateur européen agit sur la règle de composition des indices plutôt que sur le comportement des investisseurs ; **il agit ainsi en application d'un objectif conventionnel exprès.** **Le législateur ne fait pas seulement ce qu'il peut : il fait ce qu'un traité lui assigne.**
+
+::etat:: **Conséquence pour le dispositif** : le levier indiciel n'est pas une trouvaille de circonstance. **Il est l'instrument d'un objectif que 190 et quelques États ont ratifié**, et le dossier que le corpus sait produire y trouve son destinataire.
