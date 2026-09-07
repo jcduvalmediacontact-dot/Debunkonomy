@@ -1493,9 +1493,9 @@ livres:
       - "écart de registre corrigé le 2026-09-07 — le matricule est réservé PAR LE PLAN DIRECTEUR et manquait à cette projection ; convention § 3, le plan tranche"
       - "arbitrage — A30 et A35 laissent ouvert ce que l'unité est AU PASSIF, et deux livres y ont buté : L10.C06 et L18.C06"
       - "objection — L11.C02 : l'écriture du Symposium laisse les fonds propres négatifs du montant émis, et l'analogie qui la justifiait était fausse"
-    statut: reserve
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     note: >
       MATRICULE DÉCLARÉ LE 2026-09-07, ET C'EST UNE CORRECTION D'ECART, NON UNE
       CREATION. Le plan directeur reserve ce numero a la comptabilite monetaire
@@ -1507,6 +1507,55 @@ livres:
       d'ecritures completes et separes -- emetteur, banque centrale nationale,
       beneficiaire -- avec les branches destruction, accumulation et fonds
       propres negatifs assumes. Sans lui, ni A30 ni A35 ne peuvent se clore.
+      OUVERT LE 2026-09-08. L19.C01 remplace l'amorce et ouvre le SYSTEM OF
+      NATIONAL ACCOUNTS 2008 -- publication conjointe de la Commission
+      europeenne, du FMI, de l'OCDE, des Nations unies et de la Banque mondiale,
+      719 pages, lue dans le texte, regime a_verifier.
+      QUATRE ENONCES QUI COMMANDENT LE LIVRE. UN PASSIF SUPPOSE DEUX PARTIES :
+      "a liability is established when one unit (THE DEBTOR) is obliged [...] to
+      provide a payment or series of payments to another unit (THE CREDITOR)",
+      et la creance correspondante est INCONDITIONNELLE. IL N'EXISTE AUCUN
+      PASSIF NON FINANCIER : "there are NO NON-FINANCIAL LIABILITIES recognized
+      in the SNA" -- ce qui ferme d'avance l'echappatoire d'une obligation
+      ecologique tenue pour un passif. L'EXCEPTION EST UNIQUE ET CE N'EST PAS
+      UNE MONNAIE : "gold bullion held as a reserve asset is THE ONLY financial
+      asset with NO CORRESPONDING LIABILITY". ET LA MONNAIE FIDUCIAIRE EST UN
+      PASSIF A LA VALEUR FACIALE : "notes and coins are treated as LIABILITIES
+      AT FULL FACE VALUE", le cout de fabrication etant "NOT NETTED against the
+      receipts from issuing the currency" -- IL N'Y A DONC AUCUN BENEFICE A
+      L'EMISSION DANS LES COMPTES NATIONAUX.
+      ET UNE CATEGORIE QUE LE CORPUS N'AVAIT PAS VUE : LE PASSIF CONSTRUCTIF.
+      "A liability may be established NOT BY CONTRACT but by long and
+      well-recognized custom [...] the creditor has A VALID EXPECTATION OF
+      PAYMENT, despite the lack of a legally binding contract." C'EST LA SEULE
+      PORTE PAR LAQUELLE UNE EMISSION SANS DETTE ENTRE DANS LA NOMENCLATURE SANS
+      ETRE RECLASSEE, et elle n'est pas gratuite : elle dispense du CONTRAT, non
+      de la DETTE.
+      RESULTAT SUR LE LEXIQUE AVANT LA CONCEPTION. "SANS DETTE" RECOUVRE DEUX
+      PROPOSITIONS QUE LE CORPUS CONFONDAIT SOUS UN SEUL MOT. Que l'unite ne
+      soit la creance de PERSONNE EN PARTICULIER -- tenable, et la norme lui
+      offre une categorie. Que l'unite ne soit LE PASSIF DE PERSONNE -- beaucoup
+      plus difficile, la norme ne connaissant qu'un seul actif financier sans
+      passif et ce n'est pas une monnaie. LE CORPUS DOIT DIRE LAQUELLE DES DEUX
+      IL SOUTIENT ET NE PEUT PLUS EMPLOYER L'EXPRESSION SANS PRECISER.
+      CE QUE LE CHAPITRE RELEVE DANS LE CORPUS : L10.C06 paragraphe 5 ecrivait
+      deja "le corpus n'a jamais dit ce que l'unite est au passif, et A30 ne l'a
+      pas tranche non plus" ; et L21.C03 A ECRIT LES QUATRE JEUX D'ECRITURES
+      SANS NOMMER L'INSTRUMENT -- il a dit OU l'unite s'inscrit, pas CE QU'ELLE
+      EST.
+      GRILLE FIXEE A CINQ QUESTIONS : existe-t-il un precedent d'institution
+      internationale creant une unite allouee sans contrepartie prealable ; qui
+      est le creancier si c'est la societe entiere ; les fonds propres negatifs
+      sont-ils un probleme comptable ou prudentiel ; que fait la banque centrale
+      nationale de l'"actif transitoire" que L21.C03 a repris sans referentiel ;
+      et le reflux est-il une EXTINCTION DE PASSIF ou une RECETTE.
+      RESERVES : le SNA est une norme STATISTIQUE et non un referentiel de
+      comptes d'entite -- il dit comment un instrument est CLASSE, pas comment
+      l'emetteur l'INSCRIT, et confondre les deux serait le pas de trop ; aucun
+      referentiel de banque centrale n'est relu a cette lumiere ; et LA VERSION
+      2025 DE LA NORME N'EST PAS OUVERTE, acquisition de rang 1 -- une norme
+      revisee peut deplacer l'enonce sur lequel ce livre s'appuie, ET CELLE DE
+      2008 A PRECISEMENT DEPLACE CELLE DE 1993.
 
   - livre: 21
     titre: "La plomberie financière mondiale"
