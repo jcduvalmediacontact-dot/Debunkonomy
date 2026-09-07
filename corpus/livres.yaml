@@ -1671,6 +1671,40 @@ livres:
       aussi la question renvoyee a L11.C09 par l'arbitrage A35 : QUI PAIE
       EFFECTIVEMENT une fonte graduee, repercussion comprise.
 
+  - livre: 26
+    titre: "Thermodynamique, énergie et processus économique"
+    collection: cahier-disciplinaire
+    fonction: >
+      Établir ce que les lois de la thermodynamique imposent à un processus
+      économique, et ce qu'elles interdisent à toute conception monétaire qui
+      prétend régénérer — la question n'étant pas ce que le dispositif coûte,
+      mais ce que l'énergie et la matière rendent possible
+    motifs:
+      - "manque — `entropie` figure au vocabulaire depuis la première occurrence L1.C03 et AUCUN LIVRE NE LE PORTE ; le concept est employé dans six chapitres du Livre 1 et un du Livre 2, sans instruction"
+      - "discipline — économie biophysique : Georgescu-Roegen, analyse énergétique, retour énergétique sur investissement, exergie, dissipation"
+      - "objection — L18.C04 : aucune preuve de découplage absolu généralisé n'est observée, et le corpus ne sait pas si l'obstacle est économique ou THERMODYNAMIQUE"
+      - "objection — `effet_rebond` et `jevons_monetaire` sont au vocabulaire ; le corpus les invoque sans tenir l'argument physique qui les fonde"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      FRONTIERE AVEC LES LIVRES 18 ET 24, A TENIR. Le Livre 18 explique COMMENT
+      MESURER ; le Livre 24 etablit CE QUI DOIT ETRE MAINTENU ; le Livre 26
+      etablit CE QUE LES LOIS PHYSIQUES RENDENT POSSIBLE. Metrologie, norme de
+      substance, et contrainte physique sont trois choses distinctes, et le
+      corpus les a jusqu'ici confondues sous le mot "limites".
+      POURQUOI CE LIVRE EST DANGEREUX POUR LE DISPOSITIF, et c'est son interet.
+      Le corpus tient que le probleme est un defaut d'ORIENTATION DES FLUX
+      MONETAIRES -- L18.C09 vient d'en donner la mesure, 7 300 milliards contre
+      220. SI L'OBSTACLE EST THERMODYNAMIQUE ET NON MONETAIRE, alors reorienter
+      les flux ne suffit pas, et le dispositif traite un symptome. C'est une
+      condition d'echec d'une nature que les dix falsifieurs existants ne
+      couvrent pas : ils portent sur ce que le dispositif peut faire et sur son
+      utilite marginale, aucun sur CE QUE LA PHYSIQUE AUTORISE.
+      A INSTRUIRE EN PRIORITE : la these de Georgescu-Roegen, que le corpus cite
+      quatre fois dans L1.C03 SANS L'AVOIR OUVERTE.
+
+
 
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
@@ -1732,5 +1766,5 @@ livres:
 # reportés, sans changement.
 #
 # Rappel de la règle 3 : les livres nouveaux prennent le matricule suivant —
-# 21 et au-delà depuis le 2026-09-07. Jamais un numéro laissé libre par un
+# 21 et au-delà depuis le 2026-09-07 ; 27 est le prochain libre. Jamais un numéro laissé libre par un
 # candidat abandonné, jamais un numéro réservé par le plan directeur.
