@@ -228,3 +228,17 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::etat:: **Et une garantie retenue par la Cour est frontalement incompatible avec ce chapitre** : la publication restreinte à des **informations agrégées**, « à l'exclusion de toute indication » individuelle. **L'opacité protège contre le contournement de la prohibition ; la TRAÇABILITÉ protège contre la fraude à la qualification.** **Le dispositif ne peut pas avoir les deux, et ce chapitre repose sur la seconde.**
 
 ::hypothese:: **Une sortie est nommée et non tenue** : dans le programme examiné l'intermédiaire **transporte** un titre, tandis que celui qui obtient la qualification **a dû conduire l'activité** — il produit la contrepartie au lieu de la transporter. **Conjecture sur un raisonnement judiciaire, non résultat.** **Porté au protocole sous F4 ter.**
+
+## BALAYAGE DU LIVRE 23, TROISIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de l'arrêt du 22 novembre 2022 sur les registres de bénéficiaires effectifs.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La traçabilité dont ce chapitre fait dépendre la lutte contre la fraude à la qualification rencontre une limite de DROITS FONDAMENTAUX** [L23.C04]. **CJUE, grande chambre, 22 novembre 2022, affaires jointes C-37/20 et C-601/20** : est **invalide** l'obligation faite aux États membres de rendre les informations sur les bénéficiaires effectifs « **accessibles dans tous les cas à tout membre du grand public** », cet accès constituant « **une ingérence grave** » aux articles 7 et 8 de la Charte.
+
+::etat:: **Et le motif vise une propriété, non une maladresse.** **Point 42** : il est « **INHÉRENT** à une telle mise à disposition du grand public » que l'information devienne accessible à « **un nombre potentiellement illimité de personnes** », dont certaines poursuivent « **des raisons étrangères à l'objectif poursuivi** ».
+
+::hypothese:: **Le corpus enregistre que TOUTE PUBLICITÉ PRODUIT L'ACCÈS DE QUI N'A PAS LE MOTIF**, et qu'il ne peut donc pas traiter ce résultat comme réparable par une meilleure rédaction.
+
+::etat:: **Les deux atténuations écartées par le point 86 sont celles que le corpus aurait proposées** : conditionner l'accès à **une inscription en ligne**, et prévoir des **dérogations en circonstances exceptionnelles**, ne démontrent « **ni une pondération équilibrée ni l'existence de garanties suffisantes** ». **Une publicité ne se rend pas proportionnée par des garanties procédurales légères.**
+
+::hypothese:: **La voie qui reste est nommée et elle a un coût** : l'accès n'est pas fermé, **il est déplacé vers la QUALITÉ DE CELUI QUI CONSULTE.** Un régime d'intérêt légitime démontré reste concevable, **mais il transforme la vérification PUBLIQUE en vérification AUTORISÉE — et le corpus devrait dire qui autorise.**

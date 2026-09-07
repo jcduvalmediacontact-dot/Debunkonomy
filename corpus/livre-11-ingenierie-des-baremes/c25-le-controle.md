@@ -196,3 +196,15 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 ::etat:: **Le corpus n'a jamais rencontré un instrument où UN TIERS vérifie.** **Or le dispositif repose sur une qualification vérifiable, et ce chapitre porte le contrôle** : **il faudra dire par qui**, et la réponse ne peut pas être « par celui qui bénéficie de la qualification » ni « par l'État qui l'a accordée ».
 
 ::etat:: **Un précédent contraire existe et il est tenu ailleurs** : L20.C20 a établi que le règlement d'ajustement aux frontières exige **la certification par un tiers indépendant du déclarant ET des autorités du pays d'origine.** **C'est le seul cas rencontré, et il suppose un tiers certificateur qui n'existe pas partout.**
+
+## BALAYAGE DU LIVRE 23, TROISIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de l'arrêt du 22 novembre 2022 sur les registres de bénéficiaires effectifs.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le remède à l'auto-administration est restreint par un arrêt, et c'est la seconde annotation du jour à ce chapitre** [L23.C04]. **CJUE, 22 novembre 2022, C-37/20 et C-601/20** : l'accès du grand public aux informations sur les bénéficiaires effectifs est **invalidé**, comme « ingérence grave » aux articles 7 et 8 de la Charte.
+
+::hypothese:: **Le corpus enregistre la difficulté dans son ordre exact.** L23.C03 a établi que dans tous les instruments instruits **« celui qui doit appliquer est celui qui déclare »**. **Le remède naturel à cette auto-administration est LE REGARD DE TIERS.** **Et cet arrêt restreint le regard de tiers.** **Le corpus perd le remède au moment où il en identifie le besoin.**
+
+::etat:: **La seule voie compatible que le corpus tienne déjà est celle de L20.C20** — **certification par un tiers indépendant du déclarant ET des autorités du pays d'origine.** **Elle ne passe pas par la publicité** : elle substitue **un vérificateur qualifié** à **un public indéterminé**. **Et elle suppose un tiers certificateur qui n'existe pas partout.**
+
+::etat:: **Ce chapitre doit donc trancher entre deux architectures de contrôle, et il ne l'a pas fait** : **la publicité**, restreinte par cet arrêt dans l'Union ; **ou la certification qualifiée**, qui suppose un corps de vérificateurs à constituer et dont L11.C25 n'a pas fixé les obligations de contrôle.

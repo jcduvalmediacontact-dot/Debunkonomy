@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -107,3 +107,13 @@ renvois: [L1.C27, L7.C17, L11.C21, L11.C24, L11.C25, L20.C01, L20.C18, L20.C19, 
 ::hypothese:: **Le règlement renonce délibérément à un marché de certificats pour un motif juridique** : un marché produit des prix différents selon les pays, donc un risque de discrimination. **Premier argument non économique en faveur d'un barème que le corpus ait rencontré.**
 
 ::hypothese:: **Le club existe, avec seuil, condition et révocation — et sa condition d'entrée est juridique, non physique.** P51 n'a jamais envisagé cette forme.
+
+## BALAYAGE DU LIVRE 23, TROISIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de l'arrêt du 22 novembre 2022 sur les registres de bénéficiaires effectifs.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le mécanisme de certification retenu par ce chapitre devient la seule voie compatible avec un arrêt postérieur** [L23.C04]. **CJUE, grande chambre, 22 novembre 2022, C-37/20 et C-601/20** : l'accès du grand public aux informations sur les bénéficiaires effectifs est **invalidé**, le point 42 relevant qu'il est « **inhérent** » à une telle publicité que l'information atteigne « un nombre potentiellement illimité de personnes ».
+
+::hypothese:: **Le corpus enregistre que la troisième condition versée par ce chapitre prend une importance qu'elle n'avait pas.** La déduction du prix payé à l'origine y est subordonnée à **« la certification par un tiers indépendant du déclarant et des autorités du pays d'origine »**. **C'est LE SEUL MÉCANISME DE VÉRIFICATION PAR UN TIERS que le corpus tienne**, et **il ne passe pas par la publicité** — donc il échappe au motif de l'arrêt.
+
+::etat:: **Sa limite, déjà relevée ici, devient le point dur** : **il suppose un tiers certificateur « qui n'existe pas partout ».** **Le corpus tient donc une architecture de contrôle compatible avec les droits fondamentaux ET dépourvue d'opérateurs.**

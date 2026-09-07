@@ -890,3 +890,17 @@ co-président, ni négocié ni adopté. **Les protocoles CRP.33 et CRP.34 ne son
 tenus**, alors que l'article 20 leur renvoie le soin de « mettre en œuvre ou
 préciser » la convention — **c'est peut-être là que se logent les obligations de
 résultat.** **L'annexe 1 sur la conciliation n'est pas ouverte.**
+
+### Complément du 2026-09-07 — les bénéficiaires effectifs
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **CJUE, grande chambre, 22 novembre 2022, *WM et Sovim SA*, C-37/20 et C-601/20**, ECLI:EU:C:2022:912 | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62020CJ0037` | `libre` | **LA TRANSPARENCE QUE LE CORPUS SUPPOSAIT A ÉTÉ INVALIDÉE.** Est **invalide** l'obligation de rendre les informations sur les bénéficiaires effectifs « accessibles **dans tous les cas à tout membre du grand public** » — « **ingérence grave** » aux art. 7 et 8 de la Charte (pt 44). **Motif de PROPRIÉTÉ, non de rédaction** : il est « **inhérent** » à une telle publicité que l'information atteigne « un nombre potentiellement illimité de personnes » (pt 42). **Atténuations écartées** (pt 86) : inscription en ligne et dérogations exceptionnelles ne démontrent « ni une pondération équilibrée ni l'existence de garanties suffisantes ». **Versé à L23.C04, L11.C13, L11.C25 et L20.C20** |
+
+**RÉSERVE.** **Le corpus tient une INVALIDATION, NON L'ÉTAT DU DROIT.** Une
+directive de 2024 sur la lutte contre le blanchiment, postérieure à cet arrêt,
+**n'est pas ouverte** : le corpus ne sait pas quel régime d'accès s'applique
+aujourd'hui ni si un accès **pour intérêt légitime** a été rétabli. **Et l'arrêt
+ne statue que sur le droit de l'Union et la Charte** — aucun régime hors d'Europe
+n'est tenu. **Acquisition prioritaire : la directive de 2024 et son régime
+d'accès.**
