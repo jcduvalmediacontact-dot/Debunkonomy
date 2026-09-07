@@ -2461,6 +2461,49 @@ la mesure.** **Le corpus accepte la physique de cette source et refuse son
 la première est démontrée par un modèle explicite, la seconde
 est affirmée sans mesure.
 
+### F11 déclaré INDÉCIDABLE le 2026-09-08 par L26.C03, et c'est le pire état possible
+
+**LE JOUR MÊME OÙ SA BRANCHE ÉNERGÉTIQUE EST DEVENUE SEULE EN CHARGE, LE
+CORPUS EST ALLÉ CHERCHER LE CHIFFRE. IL EN A TROUVÉ DEUX.**
+
+**SOUS MURPHY ET AL. 2022** (CC BY, ouverte) : les carburants fossiles, une fois
+comptée toute la chaîne jusqu'au point d'usage, sont « **well below 10** »,
+le pétrole plafonnant à **8,7** ; l'électricité hydraulique, éolienne
+et photovoltaïque est « **all at or above 10** ». **LA CONDITION D'ÉCHEC DE
+F11 NE TIENT PAS** : les substituts rendent davantage que ce qu'ils remplacent.
+
+**SOUS DE CASTRO ET CAPELLÁN-PÉREZ 2020** (CC BY, ouverte) : au périmètre
+du système entier, l'éolien terrestre vaut **2,9**, l'éolien en mer
+**2,3**, le photovoltaïque **1,8**, le solaire à concentration **moins de
+1**, seule la grande hydroélectricité tenant **6,5** — et ces niveaux sont
+« **currently BELOW those of fossil fuel-fired electricity** ». **LA QUESTION DE
+LA SUFFISANCE REDEVIENT OUVERTE.**
+
+**ET LE DÉSACCORD NE SE TRANCHE PAS PAR UNE MESURE.** **Au périmètre
+standard, les deux sources s'accordent.** Le renversement tient entièrement
+à l'endroit où l'on ferme le système, et cet endroit est une convention
+déclarée par chaque équipe. **F11 est donc déclenché sous une
+frontière et écarté sous l'autre.**
+
+**POURQUOI C'EST PIRE QU'UN RÉSULTAT DÉFAVORABLE.** **Un falsifieur
+indécidable n'interdit rien et n'autorise rien** : il cesse de faire son travail.
+Il ne peut plus être invoqué contre le dispositif, et il ne peut pas non
+plus être écarté comme traité. **Le corpus ne peut pas le laisser
+ainsi**, et **A39 est posé pour cette seule raison** : trancher la frontière,
+non pour obtenir le résultat qu'on préfère, mais pour que le falsifieur
+redevienne opposable.
+
+**UNE QUATRIÈME BRANCHE EST PROPOSÉE, ET C'EST LA PLUS DIRECTE DE TOUTES
+POUR CE DISPOSITIF : LE PIÈGE ÉNERGÉTIQUE. NON ARBITRÉE.** « **The fast
+penetration of renewables can lead to a situation of “energy trap”, i.e., A
+REDUCTION IN THE DISCRETIONARY ENERGY ARRIVING TO SOCIETY simultaneously with
+the INCREASE in the consumption of primary energy** ». **Les installations
+exigent leur énergie d'avance et ne la rendent qu'ensuite.** **Le dispositif a
+précisément vocation à financer cette phase**, et L11.C10, qui fixe la
+trajectoire de mise en place, **n'a jamais été confronté à cette
+possibilité**. **Ce n'est pas une objection à la transition : c'est une
+objection à SA VITESSE, et le corpus n'a aucune position sur la vitesse.**
+
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.
 

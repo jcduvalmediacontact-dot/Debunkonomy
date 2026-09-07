@@ -3715,3 +3715,73 @@ nombre, il doit dire s'il le LIT dans une source ou s'il le DÉCIDE.** **Et
 lorsqu'il le décide, il doit porter la mention que L24.C01 a déjà exigée pour la
 clé d'agrégation : décision politique explicite, révisable et attaquable, qui ne
 peut pas être présentée comme un fait scientifique.**
+
+
+## Arbitrage A39 — À QUELLE FRONTIÈRE LE CORPUS CALCULE-T-IL UN RENDEMENT ÉNERGÉTIQUE ?
+
+**POSÉ LE 2026-09-08 PAR L26.C03, APRÈS OUVERTURE DES DEUX HARMONISATIONS
+MONDIALES PUBLIÉES DU RENDEMENT ÉNERGÉTIQUE NET.** **NON ARBITRÉ.**
+
+**LE FAIT QUI OBLIGE À TRANCHER.** Deux équipes, disposant des mêmes
+données, publient sur les mêmes technologies des rapports qui varient d'un
+facteur voisin de quatre. **Murphy et al. 2022** : l'électricité hydraulique,
+éolienne et photovoltaïque est « **all at or above 10** », les carburants
+fossiles au point d'usage « **well below 10** », le pétrole plafonnant à
+**8,7** quand bien même son rendement au puits vaudrait mille. **De Castro et
+Capellán-Pérez 2020** : au périmètre du système entier, seule la
+grande hydroélectricité dépasse six, l'éolien terrestre vaut **2,9**,
+l'éolien en mer **2,3**, le photovoltaïque **1,8**, le solaire à
+concentration **moins de 1** — et « **very likely, the global average EROIext
+levels of variable RES are currently BELOW those of fossil fuel-fired
+electricity** ».
+
+**ET LE DÉSACCORD N'EST PAS EMPIRIQUE.** **Au périmètre standard, les deux
+sources s'accordent** — « EROIst levels found fall within the respective
+literature ranges ». **Le renversement vient entièrement d'une convention
+déclarée** : « in this work we assume that the indirect investments of RES
+represent **at least 100 %** of the total direct energy investments estimated ».
+**Doubler le dénominateur divise le rapport par deux.** L'une ferme le
+système au point d'usage, l'autre au niveau du système complet, et chacune
+dit pourquoi.
+
+**LA QUESTION POSÉE À L'AUTEUR.** *À quelle frontière le corpus
+calcule-t-il un rendement énergétique lorsqu'il évalue la faisabilité
+du dispositif ?*
+
+**PROPOSITION DU CORPUS : LA FRONTIÈRE LA PLUS LARGE DISPONIBLE**, pour une
+raison qui n'est pas physique mais logique. **Un dispositif d'émission finance
+des investissements indirects — réseaux, stockage, remplacement — et ce
+sont précisément ceux que le périmètre étroit exclut.** Évaluer un
+instrument financier au périmètre qui exclut ce qu'il finance serait
+incohérent. **CE CHOIX EST DÉFAVORABLE AU DISPOSITIF, ET C'EST UNE RAISON DE
+PLUS DE LE FAIRE TRANCHER PLUTÔT QUE DE LE SUPPOSER.**
+
+**CE QUE L'ARBITRAGE COMMANDE, QUEL QU'IL SOIT.** F11 est aujourd'hui
+**indécidable** : déclenché sous une frontière, écarté sous l'autre.
+**Un falsifieur indécidable est pire qu'un falsifieur défavorable, parce qu'il
+n'interdit rien et n'autorise rien.** L'arbitrage de A39 est la seule chose qui
+le remette au travail.
+
+**ET IL COMMANDE AUSSI UNE DISCIPLINE D'ÉCRITURE, DÈS MAINTENANT ET SANS
+ATTENDRE LA DÉCISION.** **Aucun chapitre ne peut citer un rendement
+énergétique sans nommer la frontière à laquelle il est calculé**, et
+**aucun ne peut comparer deux valeurs calculées à des frontières
+différentes.**
+
+## RÈGLE DE MÉTHODE — « LA PHYSIQUE DONNE DES CHIFFRES, PAS LA FRONTIÈRE »
+
+**VERSÉE LE 2026-09-08 PAR L26.C03.** **Elle est le symétrique exact de la
+règle versée la veille sur quatre corps de règles juridiques.**
+
+**LA RÈGLE.** *Sur les grandeurs physiques dont le dispositif a besoin, la
+science fournit des NOMBRES ; elle ne fournit pas la FRONTIÈRE du système
+à laquelle ils sont calculés, et cette frontière décide du nombre. Le
+corpus doit donc, chaque fois qu'il avance une grandeur physique, DÉCLARER LE
+PÉRIMÈTRE, et ne jamais comparer deux grandeurs qui n'en partagent pas.*
+
+**LES DEUX RÈGLES ENSEMBLE, ET C'EST LE RÉSULTAT LE PLUS GÊNANT DES DEUX
+JOURNÉES.** **Le droit donne les catégories et pas les chiffres. La physique
+donne les chiffres et pas les catégories.** **Le dispositif a besoin des deux
+ensemble, et aucune discipline ne les lui fournit ensemble.** **Ce qui manque au
+milieu n'est ni une acquisition ni une lecture : c'est une décision, et elle
+n'appartient à aucune source.**

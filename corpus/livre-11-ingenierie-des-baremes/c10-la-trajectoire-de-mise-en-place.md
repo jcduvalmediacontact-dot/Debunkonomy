@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -112,9 +112,20 @@ verifications_en_attente:
      elle se déplace de la date vers le constat : qui déclare un substitut
      disponible déclenche la hausse. A4 la reçoit, et elle cesse d'être
      hypothétique."
+  - "**LE PIÈGE ÉNERGÉTIQUE, VERSÉ LE 2026-09-08 PAR L26.C03, ET CE CHAPITRE
+     N'Y A JAMAIS ÉTÉ CONFRONTÉ.** Une source ouverte établit que « **the fast
+     penetration of renewables can lead to a situation of “ENERGY TRAP”, i.e., a
+     REDUCTION IN THE DISCRETIONARY ENERGY ARRIVING TO SOCIETY simultaneously
+     with the INCREASE in the consumption of primary energy** » : les
+     installations exigent leur énergie d'avance et ne la rendent qu'ensuite.
+     **Le dispositif a précisément vocation à financer cette phase, et la
+     trajectoire fixée ici ne comporte aucune contrainte d'énergie nette.**
+     **CE N'EST PAS UNE OBJECTION À LA TRANSITION : C'EST UNE OBJECTION À SA
+     VITESSE**, et le corpus n'a aucune position sur la vitesse. **À reprendre
+     avec F11, dont c'est la quatrième branche proposée.**"
 resume: "Ce chapitre instruit une instruction de conception de l'auteur : que la mise en place des dispositifs soit progressive, afin que les industries aient le temps de transformer leurs procédés. Le corpus tient l'instruction pour fondée et dit pourquoi — un instrument qui prétend déclencher un investissement doit laisser le temps de l'amortissement, faute de quoi il perçoit sans orienter, ce qui est exactement le contraire de ce que l'auteur lui demande. Il établit ensuite que cette instruction réveille les trois résultats que le falsifieur F7 tenait en réserve, et qu'elle les réveille ensemble. La critique de Lucas dit qu'une trajectoire annoncée est anticipée, ce qui crée une période où l'activité dégénérative est moins chère qu'elle ne le sera jamais et où il faut s'attendre à une accélération avant échéance. Le résultat de Kydland et Prescott dit qu'une trajectoire est une promesse sur la politique future, exposée à la révision au moment précis où la pression pour reporter est maximale, et qu'une échéance que chacun s'attend à voir repoussée ne produit aucun ajustement. Les délais de Friedman disent que l'effet sur les procédés arrive tard et de manière variable. Le chapitre en tire que le falsifieur F7, écrit pour porter sur le mode de fixation des taux, porte identiquement sur la trajectoire, et que la crédibilité fait tout — or un calendrier ne produit pas sa propre crédibilité. Il propose une sortie, que l'auteur a retenue le jour même : indexer la montée du taux non sur une date mais sur une observation, la disponibilité effective du substitut, ce qui rend le report coûteux puisqu'il faut alors nier un fait plutôt que prendre une décision, et ce qui est cohérent avec le résultat de L11.C06 selon lequel la carte des classes est la carte des substitutions praticables. Il énonce enfin ce que cette forme coûte, et le principal coût n'apparaît qu'une fois le choix arrêté : une trajectoire indexée sur la disponibilité du substitut ne monte jamais là où aucun substitut n'apparaît, de sorte qu'elle exempte par construction les secteurs les plus verrouillés, qui sont ceux qu'il faudrait atteindre en premier. La forme retenue suit la technique là où la forme rejetée la forçait. Le corpus propose une réparation cohérente avec le reste du dispositif — là où aucun substitut n'existe, l'instrument qui agit n'est pas le reflux mais l'émission — et il relève qu'une trajectoire longue profite d'abord à qui peut investir pendant qu'elle court."
 concepts: [bareme, regle_contre_discretion, degeneratif, reflux_transactionnel, qualification_regenerative, affectation_des_instruments]
-renvois: [L1.C21, L1.C23, L1.C27, L11.C03, L11.C05, L11.C06, L11.C09]
+renvois: [L1.C21, L1.C23, L1.C27, L11.C03, L11.C05, L11.C06, L11.C09, L26.C03]
 ---
 
 # La trajectoire de mise en place

@@ -2744,7 +2744,7 @@ livres:
       - "falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 2
+    chapitres_acquis: 3
     note: >
       FRONTIERE AVEC LES LIVRES 18 ET 24, A TENIR. Le Livre 18 explique COMMENT
       MESURER ; le Livre 24 etablit CE QUI DOIT ETRE MAINTENU ; le Livre 26
@@ -2845,6 +2845,52 @@ livres:
       que la litterature du pic d'extraction attaquerait ce chapitre la ou il
       est le plus confortable pour le corpus ; et qualite de la donnee declaree
       faible par le compilateur lui-meme.
+      L26.C03 VA CHERCHER LE CHIFFRE DE LA BRANCHE ENERGETIQUE DE F11 ET EN
+      TROUVE DEUX. Deux sources ouvertes, toutes deux CC BY, regime libre.
+      MURPHY ET AL. 2022 (Sustainability, revue et harmonisation, 113 etudes
+      trouvees et 31 RETENUES) : les carburants fossiles au point d'usage sont
+      "well below 10", le petrole plafonnant a 8,7 "EVEN IF CRUDE OIL WERE
+      MEASURED TO HAVE AN EROI OF 1000 OR MORE AT THE POINT OF EXTRACTION" ;
+      l'electricite hydraulique, eolienne et photovoltaique est "all at or above
+      10". DE CASTRO ET CAPELLAN-PEREZ 2020 (Energies) : au perimetre du systeme
+      entier, eolien terrestre 2,9, eolien en mer 2,3, photovoltaique 1,8,
+      solaire a concentration MOINS DE 1, seule la grande hydroelectricite
+      tenant 6,5 -- et ces niveaux sont "currently BELOW those of fossil
+      fuel-fired electricity".
+      LE DESACCORD N'EST PAS EMPIRIQUE. AU PERIMETRE STANDARD LES DEUX SOURCES
+      S'ACCORDENT. Le renversement tient entierement a une convention declaree :
+      "in this work we assume that the indirect investments of RES represent AT
+      LEAST 100 % of the total direct energy investments estimated". DOUBLER LE
+      DENOMINATEUR DIVISE LE RAPPORT PAR DEUX.
+      REGLE DE METHODE VERSEE : LA PHYSIQUE DONNE DES CHIFFRES, PAS LA
+      FRONTIERE -- ET LA FRONTIERE DECIDE DU CHIFFRE. Symetrique exact de la
+      regle versee la veille sur le droit. LES DEUX ENSEMBLE : le droit donne
+      les categories et pas les chiffres, la physique donne les chiffres et pas
+      les categories, ET AUCUNE DISCIPLINE NE LES FOURNIT ENSEMBLE.
+      F11 EST DECLARE INDECIDABLE, ce qui est PIRE qu'un resultat defavorable :
+      un falsifieur indecidable n'interdit rien et n'autorise rien. A39 EST POSE
+      pour cette seule raison -- a quelle frontiere le corpus calcule-t-il un
+      rendement energetique ? Proposition du corpus : LA PLUS LARGE DISPONIBLE,
+      parce qu'un dispositif d'emission finance justement les investissements
+      indirects que le perimetre etroit exclut ; CE CHOIX EST DEFAVORABLE AU
+      DISPOSITIF, RAISON DE PLUS DE LE FAIRE TRANCHER.
+      DEUX RESULTATS LATERAUX. Le rendement energetique EST UNE GRANDEUR LOCALE
+      -- photovoltaique de 0,6 a 2,8 selon le pays, "in other countries, such as
+      Finland or UK, we find an EROIext <= 1:1" -- ce qui ETEND A L'ENERGIE la
+      contrainte de lieu etablie par L24.C04 sur l'eau et les sols, et donne a
+      L11.C24 sa seconde complication en deux jours, independante de la
+      premiere. Et LE PIEGE ENERGETIQUE, quatrieme branche proposee de F11 :
+      "the fast penetration of renewables can lead to a situation of ENERGY
+      TRAP", reduction de l'energie discretionnaire arrivant a la societe
+      pendant que croit la consommation primaire. LE DISPOSITIF A PRECISEMENT
+      VOCATION A FINANCER CETTE PHASE, et L11.C10 n'y a jamais ete confronte.
+      CE N'EST PAS UNE OBJECTION A LA TRANSITION MAIS A SA VITESSE.
+      RESERVES : Brockway et al. 2019 n'est pas ouvert alors qu'il porte la
+      comparaison centrale, connu seulement a travers S2 ; la contestation
+      publiee par le groupe auteur de S2 contre son exclusion de la revue S1
+      n'est pas ouverte non plus, le corpus n'en tenant qu'un resume d'outil,
+      CE QUI NE VAUT PAS OUVERTURE ; et aucun flux d'exergie disponible n'est
+      tenu -- le chapitre tient des RAPPORTS, pas des QUANTITES.
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du
