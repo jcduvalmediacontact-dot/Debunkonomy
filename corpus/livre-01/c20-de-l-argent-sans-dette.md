@@ -349,3 +349,15 @@ Le chapitre ne décrit ni les taux, ni les assiettes, ni le calibrage de la dest
 ::etat:: **Conséquence pour ce chapitre.** Une unité sans dette n'a pas seulement à être concevable : **pour circuler sur une infrastructure conforme, elle doit satisfaire un test de risque de crédit et de liquidité portant sur sa contrepartie.** **Le test est extérieur au corpus et il est écrit.**
 
 ::hypothese:: **Le corpus enregistre que ce test n'est pas tranché par l'arbitrage A30.** Celui-ci a fixé la contrepartie — dette collective, reflux collectif — **sans dire si elle satisfait « little or no credit or liquidity risk »**, question de fait et non de conception. **L5.C09 en a tiré que la comparaison des voies d'entrée est subordonnée à cette qualification**, une voie pouvant être parcourue jusqu'au bout et livrer un rail qui transporte la monnaie des autres.
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Deux normes se referment sur le même fait, et le corpus ne tenait ni l'une ni l'autre** [L18.C01] [L18.C05]. **IPSAS 48 § 18(b)**, côté émetteur : la charge est comptabilisée « **when the entity ceases to control the resources** », mesurée (§ 20) « at the **carrying amount** of the transferred resources ». **IPSAS 47 § 18**, côté bénéficiaire : l'entrée devient un actif « **if it presently controls the resources** [...] and the value **can be measured reliably** ».
+
+::hypothese:: **La charnière est le déplacement du contrôle, et elle est datée du même instant.** **Ce que l'un cesse de contrôler, l'autre commence à le contrôler — et l'opération ne crée rien : elle déplace.**
+
+::hypothese:: **Le corpus enregistre que ce n'est pas une objection technique de plus mais l'énoncé comptable de la partie double**, et que **deux issues seulement s'offrent à ce chapitre.** **Ou bien le dispositif PRODUIT L'ACTIF** — ressource conservée, contrôlée, mesurée — **et l'écriture se boucle sans dette.** **Ou bien il assume de S'ÉCARTER DU RÉFÉRENTIEL, et doit dire au nom de quoi.**
+
+::etat:: **Réserve de périmètre, déclarée** : le corpus ne sait pas si émetteur et bénéficiaires relèveraient d'une même entité consolidée. **À défaut, la symétrie ne s'annule dans aucun compte** — le constat tient, sa portée change.

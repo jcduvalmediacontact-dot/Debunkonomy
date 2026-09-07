@@ -3257,3 +3257,47 @@ chapitre du livre. **L5.C09 l'enregistre comme un manquement et non comme une
 réserve**, et relève que **l'omission joue dans un sens** : elle allège les
 quatre voies, et le plus celle qui touche des habitants. **À solder en passe 2,
 faute de quoi la contrainte n'est pas une contrainte mais une intention.**
+
+## Balayage de la première tranche du Livre 18 — exécuté le 2026-09-07
+
+**CE BALAYAGE NE SUIT PAS UNE CLÔTURE DE PASSE, ET C'EST DÉLIBÉRÉ.** La passe 1
+du Livre 18 **reste ouverte** : CARE/TDL et la comptabilité multicapitaux, que
+l'auteur a nommés le 2026-09-07 comme termes de comparaison centraux, **ne sont
+pas ouverts** — téléchargement échoué sur une épreuve anti-robot non contournée,
+PDF demandés à l'auteur. **Le portage est néanmoins exécuté maintenant**, par
+application de la leçon tirée du Livre 6 : ce qui est acquis contredit ou
+corrige dès aujourd'hui des chapitres de cinq livres, **et différer le portage
+en ferait un chantier au lieu d'une écriture.**
+
+**ONZE CHAPITRES ANNOTÉS**, hors Livre 18, sous l'en-tête « BALAYAGE DU LIVRE 18 ».
+
+| Chapitre | Ce qu'il reçoit |
+|---|---|
+| **L1.C09** | **le gradient des quatre instruments** — charge, annexe, rapport de gestion, rapport facultatif ; et **l'arrêt devant le bilan a été DÉCIDÉ en octobre 2008**, après consultation |
+| **L1.C18** | son § 5 **confirmé sur source primaire** ; et **un second mode d'échec que F2 ne capture pas** — à mesure parfaite, l'unité de compte reste la mauvaise |
+| **L1.C20** | **la partie double** — charge chez l'émetteur et produit chez le bénéficiaire se déclenchent au même fait ; **produire l'actif ou assumer de s'écarter du référentiel** |
+| **L1.C29** | **les trois conditions d'A30 n'ont plus le même sort** — applicabilité immobile, mesure échouée par structure, **contrôle devenu exclusion de définition** |
+| **L5.C05** | **les impacts matériels sont déplacés hors de la région par le commerce** — la proximité géographique ne coïncide pas avec la proximité des effets |
+| **L5.C08** | le rapport qu'il déclarait non instruit l'est ; **le substitut vient du sous-sol, hors de portée du barème** — **le déverrouillage passe par un secteur exempté** |
+| **L6.C06** | **le droit réel inhérent EST la « capacité de restreindre » que la norme comptable réclame** ; et la question qui lui est renvoyée |
+| **L6.C08** | **plus de trois milliards de tonnes de minéraux de transition** — le détachement du sous-sol ne vise pas un cas marginal mais la voie de sortie |
+| **L11.C13** | **réguler ne vaut pas contrôler** — la voie « nous encadrons » est fermée par le texte ; **et le SEEA sert la calibration du barème** |
+| **L11.C16** | **la valorisation à bénéficiaire nommé est l'une des deux moitiés de la sortie de F9** ; et la valeur d'échange la rend systématiquement inférieure |
+| **L20.C02** | **qualification juridique et qualification comptable de l'unité ne sont pas indépendantes**, et le corpus les traitait séparément |
+
+**CE QUE LE BALAYAGE A PORTÉ AUX PROTOCOLES.** **F2** reçoit sa confirmation sur
+source primaire **et son rétrécissement** : il porte sur le seuil d'allocation,
+non sur le bilan. **F9 EST POSÉ** — le titre, et non la mesure.
+
+**CE QU'IL A RÉVÉLÉ.** **Le corpus cherchait une mesure ; l'obstacle était un
+titre.** Cinq chapitres ont été écrits en supposant que la difficulté était
+d'évaluation, et la norme dit que **la capacité d'exclure distingue l'actif du
+bien public accessible à tous** — c'est-à-dire que **la propriété définitoire du
+commun est celle qui l'exclut du bilan.** **Le Livre 18 renvoie donc sa question
+au Livre 6**, et non à la statistique.
+
+**CE QU'IL N'A PAS FAIT.** La comparaison que le plan annonce — comptabilité
+conventionnelle contre CARE/TDL et comptabilités multicapitaux — **n'est pas
+commencée.** Le livre tient le versant des normes en vigueur **et aucun modèle
+concurrent**, ce qui rend son verdict provisoire : **un modèle alternatif est
+précisément une proposition de réécrire ce que ce balayage vient de constater.**

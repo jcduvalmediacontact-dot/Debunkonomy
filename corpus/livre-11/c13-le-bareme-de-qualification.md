@@ -190,3 +190,15 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **Mais l'objection ne tombe pas, elle se déplace, et le corpus doit le dire précisément.** **Une métrologie qui existe n'est pas une métrologie qui est imposée** — c'est le deuxième étage de F8. Et la réserve versée par l'auteur avec la source vaut objection à instruire : « une méthode comptable **ne garantit ni la qualité des données locales ni la non-substituabilité écologique** ». **La seconde est décisive** : un cadre qui permet de substituer une condition écosystémique à une autre **rend l'indicateur optimisable, ce qui est exactement Goodhart.**
 
 ::etat:: **Le corpus ne tient du SEEA que sa description de lui-même.** Il n'a instruit ni ses comptes, ni ses méthodes d'évaluation, ni ses règles d'agrégation — **et c'est sur ces règles que se jouerait la substituabilité.**
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une norme atteint directement la technique de ce chapitre** [L18.C05]. **IPSAS 47 § 19** : dans le secteur public, les gouvernements exercent un rôle régulateur sur certaines activités — « **This regulatory role DOES NOT NECESSARILY MEAN that such regulated items meet the definition of an asset of the government**, or satisfy the criteria for recognition ».
+
+::hypothese:: **Le corpus enregistre que qualifier et réguler une activité NE FAIT PAS de son objet un actif du régulateur.** **La voie « nous ne possédons pas, mais nous encadrons » est fermée par le texte**, et le corpus ne l'avait pas écartée.
+
+::etat:: **Un apport favorable vient en revanche du SEEA** [L18.C02]. Son **§ 8.3** nomme parmi les usages de la valorisation « **CALIBRATING the application of monetary environmental policy instruments such as environmental markets and environmental TAXES AND SUBSIDIES** », et « recognizing expenditure as **an investment rather than a cost** ».
+
+::hypothese:: **Le corpus enregistre que le SEEA sert ce chapitre mieux qu'il ne sert le bouclage comptable.** **Calibrer un barème demande des grandeurs relatives ; porter un actif au bilan demande une mesure fiable au sens du § 11 d'IPSAS 51.** **L'instrument est explicitement conçu pour la première.**

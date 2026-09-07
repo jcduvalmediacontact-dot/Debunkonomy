@@ -103,3 +103,13 @@ renvois: [L3.C02, L3.C06, L3.C09, L5.C01, L5.C03, L5.C04, L6.C08, L11.C16]
 ::hypothese:: **Elle hérite du défaut de L5.C03 — l'adhésion ne rapporte rien tant que la couche est mince — et le commerce interne l'atténue sans le supprimer.** **Elle ajoute le sien : deux régions dotées chacune de son dispositif ne forment pas un dispositif mondial, et la question de la parité entre elles se pose alors comme celle que le Livre 3 a instruite entre États.** **Le corpus n'a rien sur ce point.**
 
 ::etat:: **Et l'échec y coûte ce que ni l'infrastructure ni le traité ne coûtent** : des institutions communes discréditées. **Une infrastructure inachevée n'a pas d'histoire ; une région en a une.**
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une donnée affaiblit l'argument de proximité de ce chapitre, sans le renverser** [L18.C04]. **PNUE, *Global Resources Outlook 2024*** : les pays à haut revenu utilisent « **six times more materials per capita** » et sont responsables de « **ten times more climate impacts per capita** » que les pays à bas revenu ; et « **through global trade, high-income countries DISPLACE environmental impacts to all other income country groups** ».
+
+::hypothese:: **Le corpus enregistre que la proximité géographique ne coïncide pas avec la proximité des effets.** Ce chapitre soutenait que la vérification gagne à être régionale **parce que les voisins subissent les effets** ; la source établit que **les effets matériels sont déplacés hors de la région par le commerce.**
+
+::hypothese:: **L'argument n'est pas renversé, et le corpus dit pourquoi** : il portait sur **le contrôle des capitaux**, dont les effets se propagent bien par le voisinage monétaire et commercial immédiat, **et non sur les flux matériels**, qui se déplacent à l'échelle des chaînes mondiales. **Mais un dispositif dont la vérification est régionale vérifierait au mauvais niveau ce qui relève de la matière.**

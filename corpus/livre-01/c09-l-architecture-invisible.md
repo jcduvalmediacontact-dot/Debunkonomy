@@ -205,3 +205,15 @@ Avant d'y entrer, une question s'impose : des tentatives existent-elles déjà, 
 ::hypothese:: **Le corpus signale que c'est une extension du concept de fausse richesse de L1.C02, non son application directe** : la contrepartie n'y est pas un dommage physique, **c'est une politique empêchée.**
 
 ::hypothese:: **S'y ajoute le résultat de L6.C07 versé à L1.C07** : le créancier décide aussi de ce qui peut être protégé. **Deux règles jamais énoncées, et ce chapitre n'en comptait que quatre.**
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Ce chapitre énonce que le lexique comptable est la règle de l'architecture invisible ; la première tranche du Livre 18 le documente sur quatre instruments** [L18.C01] [L18.C03]. **Ils forment un gradient** : **charge** (IPSAS 48, norme obligatoire) — **annexe** (IPSAS 51 § 12, conditionnée au contrôle) — **rapport de gestion** (CSRD art. 19 bis, assurance limitée, hors opinion d'audit) — **rapport facultatif** (RPG 1, conformité non requise).
+
+::hypothese:: **Le corpus enregistre la forme du gradient : plus l'objet mesuré s'éloigne de ce qui se vend, plus l'instrument qui l'accueille est faible.** **Et le résultat est asymétrique — le seul degré qui produise un enregistrement comptable produit UNE CHARGE ; les trois autres produisent du texte.**
+
+::etat:: **S'y ajoute un fait historique, tiré de la base des conclusions de RPG 1** [L18.C03]. **En octobre 2008, l'IPSASB a décidé de ne pas faire une norme de la soutenabilité de long terme**, une large majorité de répondants convenant que « the financial statements **cannot convey sufficient information** to users about the long-term financial implications », **et beaucoup préférant « guidelines rather than requirements ».**
+
+::hypothese:: **Conséquence pour l'argument de ce chapitre, et elle le durcit tout en le déplaçant.** **L'architecture n'est pas invisible par inadvertance : sur ce point précis, elle a été arrêtée là délibérément, après consultation, par les destinataires de la norme.** **Une objection contre une incapacité se traite par une méthode ; une objection contre un choix se traite par un argument** — et le corpus n'en a pas encore produit.

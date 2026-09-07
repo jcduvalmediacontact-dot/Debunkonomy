@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -397,3 +397,15 @@ Le troisième chiffre le coût du régime. Les dépenses d'instruction et de con
 ::hypothese:: Ces obstacles ne sont pas de même nature. Le premier est théorique et non résolu. Le deuxième dépend d'une formule que le livre nomme sans l'exposer ici, et qui décidera si P18 peut être soldée. Le troisième est constitutionnel et appelle le Livre 7. Le quatrième relève du droit positif : il ne se résout ni par la conception ni par l'architecture, mais par une décision politique explicite dont le livre doit dire qu'elle est requise.
 
 ::etat:: Le chapitre suivant expose l'articulation entre le circuit marchand existant et le circuit que le GES mandaterait — ce que le livre appelle la finance à deux circuits.
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le § 5 de ce chapitre est confirmé sur source primaire, et sur un point qu'il tenait de seconde main** [L18.C02]. **SEEA § 1.68** : « Sections A to C comprise **the international statistical standard** [...] **Section D describes internationally recognized statistical PRINCIPLES AND RECOMMENDATIONS** for the monetary valuation. » **§ 1.59** : la valorisation monétaire est « **not a mandatory component** ». **§ 1.67** : la couverture « **will not be complete** ».
+
+::hypothese:: **Mais la tranche apporte un second mode d'échec, que ce chapitre ne tient pas et que F2 ne capture pas.** **SEEA § 8.15** : les prix employés « **should reflect the current institutional context**, that is, the current market structures and associated legal or regulatory arrangements », et « **likely reflect the presence of various market imperfections** ». **Une contrepartie mesurée ainsi est libellée dans les prix du régime que le dispositif conteste.**
+
+::hypothese:: **Le test est simple, et il sépare les deux modes.** **À mesure parfaite — incertitude nulle — l'obstacle du § 8.15 subsiste intact.** **Ce chapitre a établi que la marge d'erreur dépasse le signal ; le Livre 18 établit que, même sans marge d'erreur, l'unité de compte serait la mauvaise.**
+
+::etat:: **Et le SEEA exclut par périmètre** : § 8.10, les valeurs comptables « **exclude consumer surplus** » et sont « **lower** owing to the exclusion of **non-use values** » ; § 1.9, la mesure des bénéfices sociaux plus larges « **exceeds the scope of SEEA EA** ». **C'est la version comptable de l'essentiel insolvable.**

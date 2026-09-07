@@ -210,6 +210,50 @@ problèmes différents.** Une métrologie parfaite ne réglerait pas l'allocatio
 la valeur par défaut répond à l'impossibilité de MESURER, non à celle
 d'ALLOUER.
 
+### BALAYAGE DU LIVRE 18, 2026-09-07 — F2 EST CONFIRMÉ SUR SOURCE PRIMAIRE, ET IL NE COUVRE PAS TOUT
+
+**CONFIRMATION.** Ce que F2 tenait de seconde main est vérifié sur le texte du
+SEEA, ouvert par téléchargement direct et instruit paragraphe par paragraphe
+(L18.C02). **§ 1.68** : « Sections A to C comprise **the international
+statistical standard** [...] **Section D describes internationally recognized
+statistical PRINCIPLES AND RECOMMENDATIONS** for the monetary valuation of
+ecosystem services and assets. » **§ 1.59** : la valorisation monétaire est
+« **not a mandatory component** ». **§ 1.67** : la couverture « **will not be
+complete**, particularly in the initial stages ». **La scission que F2 décrivait
+est écrite dans l'instrument lui-même.**
+
+**MAIS F2 NE CAPTURE PAS L'OBSTACLE PRINCIPAL, ET LE TEST QUI LE MONTRE EST
+SIMPLE.** F2 porte sur une **incertitude supérieure au signal**. **Supposons la
+mesure parfaite** — incertitude nulle, chaque hectare régénéré chiffré sans
+marge. **Deux obstacles subsistent intacts.**
+
+**PREMIER — L'UNITÉ DE COMPTE.** SEEA **§ 8.15** : les prix employés « should
+**reflect the current institutional context**, that is, the current market
+structures and associated legal or regulatory arrangements », et « **likely
+reflect the presence of various market imperfections** ». **Une contrepartie de
+régénération mesurée ainsi est libellée dans les prix du régime que le
+dispositif conteste**, et **sa valeur changerait si le dispositif réussissait**,
+pour un motif étranger à l'état de la ressource. S'y ajoute le **§ 8.10** : les
+valeurs comptables « exclude consumer surplus » et sont « **lower** owing to the
+exclusion of **non-use values** », et le **§ 1.9**, la mesure des bénéfices
+sociaux plus larges « **exceeds the scope** of SEEA EA ».
+
+**SECOND — LE TITRE**, qui fait l'objet de F9 ci-dessous.
+
+**CE QUE F2 DEVIENT.** Il reste exact et il rétrécit : **il porte sur la
+possibilité de fonder un SEUIL D'ALLOCATION sur une mesure**, ce qui est bien la
+question de L1.C18 § 5. **Il ne porte pas sur la possibilité de porter une
+contrepartie au bilan**, qui est une autre question et qui a désormais sa
+condition propre.
+
+**UN APPORT FAVORABLE, ET IL FAUT LE PORTER.** SEEA **§ 8.3** nomme parmi les
+usages de la valorisation « **calibrating the application of monetary
+environmental policy instruments such as environmental markets and environmental
+taxes and subsidies** » et « recognizing expenditure as **an investment rather
+than a cost** ». **Le SEEA sert donc la calibration du barème (L11.C13) mieux
+qu'il ne sert le bouclage comptable** — grandeurs relatives d'un côté, mesure
+fiable au sens du § 11 d'IPSAS 51 de l'autre.
+
 ## F3 — La connaissance dispersée et l'indicateur pris pour cible
 
 **Condition d'échec :** que la qualification centralisée produise
@@ -1867,6 +1911,72 @@ ouverts et sept principes sur vingt-quatre sont instruits. **L'élargissement
 repose sur le principe 1 lu dans son texte** ; les modalités d'obtention de
 l'opposabilité, elles, **ne sont étayées par aucune source** — c'est une
 déduction du corpus.
+
+## F9 — Le titre
+
+**POSÉ LE 2026-09-07, à la clôture de la première tranche du Livre 18. Proposé
+en L18.C06, porté ici.**
+
+**CONDITION D'ÉCHEC.** *Qu'aucune construction juridique n'attache à
+l'institution émettrice, sur la ressource régénérée, un droit lui permettant
+d'exclure ou de restreindre l'accès d'autrui à ses bénéfices — et qu'aucun
+référentiel comptable applicable ne reconnaisse d'actif à défaut d'un tel droit.
+Si les deux tiennent, l'émission régénérative n'a pas de contrepartie
+reconnaissable et se comptabilise en charge, de sorte que le dispositif appauvrit
+son émetteur dans ses comptes à chaque fois qu'il agit.*
+
+**POURQUOI CE N'EST PAS F2.** F2 porte sur l'incertitude de mesure. **F9
+subsisterait à mesure parfaite** : il ne dit pas qu'on ne sait pas chiffrer la
+ressource, il dit qu'on ne sait pas à qui elle appartient au sens où la norme
+l'entend.
+
+**CE QUI L'ÉTABLIT, ET C'EST UNE EXCLUSION DE DÉFINITION.** **IPSAS 47 § 19** :
+« **The ability to EXCLUDE OR REGULATE THE ACCESS of others to the benefits of an
+asset is an ESSENTIAL ELEMENT OF CONTROL that DISTINGUISHES an entity's assets
+FROM THOSE PUBLIC GOODS THAT ALL ENTITIES HAVE ACCESS TO AND BENEFIT FROM.** »
+**Ce qui fait qu'une chose est un commun est exactement ce qui l'empêche d'être
+l'actif de quiconque.** L'obstacle n'est donc pas de preuve : **le corpus
+demandait à la norme de reconnaître comme actif ce qu'elle définit par
+opposition à l'actif.**
+
+**LA VOIE DE CONTOURNEMENT EST FERMÉE PAR LE MÊME PARAGRAPHE.** Un rôle
+régulateur « **does not necessarily mean** that such regulated items meet the
+definition of an asset of the government ». **Qualifier des activités par un
+barème ne vaut pas contrôle** — ce que le corpus n'avait pas écarté.
+
+**CE QU'IL EN COÛTE SI F9 TIENT.** IPSAS 48 § 18 et § 20 : un transfert consenti
+sans rien recevoir en retour donne **une charge**, mesurée à la valeur comptable
+des ressources transférées, ses deux branches ne différant que par la date.
+**L'effet est cumulatif** : l'actif net de l'émetteur diminue à chaque opération,
+quel que soit l'effet écologique obtenu.
+
+**LA SORTIE EST NOMMÉE, ET LE CORPUS EN TIENT LES DEUX MOITIÉS SANS LE LIEN.**
+**L6.C06** : un droit réel **inhérent qui suit le fonds** — *inerenza*, *ius
+sequelae*, **opposabilité erga omnes**, survivant à la vente forcée — **c'est une
+capacité de restreindre.** **L11.C16** : une valorisation à **bénéficiaire
+nommé**, loi italienne n° 168 du 20 novembre 2017, « a beneficio delle
+collettività locali degli aventi diritto », sur un patrimoine qualifié de
+**comproprietà inter-generazionale**. **Ce qui manque est le rattachement** : le
+titulaire est la collectivité des ayants droit, **l'émetteur est une institution
+tierce**, et aucune source ne relie les deux.
+
+**FORMULATION DE LA QUESTION QUI LÈVE F9** : *à quel titre une institution
+émettrice serait-elle titulaire d'un droit réel sur un fonds qu'elle ne possède
+pas ?* **C'est une question de droit des biens, adressée au Livre 6.** **F9 se
+lève par un montage juridique, non par une meilleure statistique.**
+
+**CE QUE F9 NE DIT PAS, et il faut le border.** Il ne dit pas qu'un commun ne
+peut pas être valorisé — L11.C16 tient une valorisation à bénéficiaire nommé en
+droit positif. Il ne dit pas que la reconnaissance soit impossible. **Il dit
+qu'elle exige un TITRE, et que le corpus n'en tient aucun au bénéfice de
+l'émetteur.**
+
+**RÉSERVE DE PORTÉE, ET ELLE EST SÉRIEUSE.** Tout ce qui précède est conditionnel
+à la troisième condition d'A30, **qui n'a pas avancé** : rien n'établit que
+l'institution émettrice relève de la comptabilité publique internationale. **Si
+elle n'en relève pas, F9 doit être repesé sur le référentiel qui s'applique
+réellement** — banque centrale ou organisation internationale — **et le corpus
+n'en tient aucun.**
 
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.

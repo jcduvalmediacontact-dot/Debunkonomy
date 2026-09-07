@@ -214,3 +214,15 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 ::etat:: **Et le candidat à la mesure est ouvert** : le **SEEA — *Ecosystem Accounting*** des Nations unies, « integrated statistical framework for organizing biophysical information on ecosystems, **measuring ecosystem services**, tracking changes in ecosystem extent and condition, **valuing ecosystem services and assets** ».
 
 ::hypothese:: **Le corpus enregistre que la chaîne est complète en droit et ouverte en fait.** La norme dit **quand** une ressource conservée devient un actif ; le SEEA fournit **par quoi** on la mesure. **Ce qui manque n'est plus un cadre, c'est l'établissement du contrôle et la qualité des données** — et la note d'acquisition de l'auteur le dit : « une méthode comptable **ne garantit ni la qualité des données locales ni la non-substituabilité écologique** ».
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La figure établie ici devient l'une des deux moitiés d'une sortie comptable, et le corpus ne l'avait pas vue ainsi** [L18.C05] [L18.C06]. **IPSAS 47 § 19** subordonne le statut d'actif à « **the ability to exclude or regulate the access of others** », faute de quoi l'objet est un bien public **exclu par définition** de l'actif de quiconque.
+
+::hypothese:: **La valorisation à bénéficiaire nommé tenue par ce chapitre fournit le titulaire ; L6.C06 fournit le droit opposable qui suit le fonds.** **Ensemble, ce sont les deux éléments que la norme comptable réclame.**
+
+::etat:: **Ce qui manque est le lien avec l'émetteur** : le bénéficiaire nommé par la loi italienne est **la collectivité locale des ayants droit**, non une institution émettrice tierce. **Aucune source ne relie les deux**, et c'est ce qui bloque la neuvième condition proposée par L18.C06.
+
+::etat:: **S'y ajoute une contrainte de mesure** [L18.C02] : le SEEA valorise en **valeur d'échange**, dont le § 8.15 dit qu'elle « **doit refléter le contexte institutionnel courant** » et reflète « **diverses imperfections de marché** ». **Une valorisation de commun ainsi mesurée est libellée dans les prix du régime que le dispositif conteste**, et **le § 8.10 la rend systématiquement inférieure**, surplus du consommateur et valeurs de non-usage étant exclus.

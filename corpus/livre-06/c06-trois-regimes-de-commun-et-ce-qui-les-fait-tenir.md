@@ -234,3 +234,15 @@ renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.
 ::etat:: **Le cas africain montre que le juge n'était pas le maillon manquant.** Tout a été jugé, chiffré, ordonné, et l'inexécution constatée — **la décision de conformité n'a d'autre contenu qu'une nouvelle injonction.**
 
 ::etat:: **Les motifs de l'arrêt n° 119 de 2023 n'ont pas été lus**, et ce sont eux qui diraient pourquoi la Cour a retranché. **C'est la lecture la plus rentable qui reste ouverte sur ce chapitre.** **Et l'ampleur du régime français est inconnue**, ce qui décide de tout ce qu'on peut en tirer.
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le résultat de ce chapitre reçoit un emploi qu'il n'avait pas, et il est comptable** [L18.C05] [L18.C06]. **IPSAS 47 § 19** : « The ability to **exclude or regulate the access** of others to the benefits of an asset is an **essential element of control** that distinguishes an entity's assets **from those public goods that all entities have access to and benefit from**. »
+
+::hypothese:: **Le corpus enregistre que le droit réel inhérent établi ici EST une capacité de restreindre.** *Inerenza*, *ius sequelae*, **opposabilité erga omnes**, survie à la vente forcée, effet « a prescindere dal rispetto di oneri pubblicitari » : **c'est exactement la matière que la norme comptable réclame**, et le corpus ne l'avait pas rapprochée d'elle.
+
+::etat:: **Et L11.C16 tient la seconde moitié** : la loi italienne n° 168 du 20 novembre 2017 valorise ces ressources « **a beneficio delle collettività locali degli aventi diritto** » — **bénéficiaire nommé, distinct de l'État** — sur un patrimoine qualifié de **comproprietà inter-generazionale**.
+
+::hypothese:: **Ce qui manque est le rattachement, et c'est la question que le Livre 18 renvoie à celui-ci.** **Le titulaire est la collectivité des ayants droit ; l'émetteur est une institution tierce, et aucune source ne relie les deux.** **À quel titre une institution émettrice serait-elle titulaire d'un droit réel sur un fonds qu'elle ne possède pas ?** **C'est une question de droit des biens, posée à ce livre.**

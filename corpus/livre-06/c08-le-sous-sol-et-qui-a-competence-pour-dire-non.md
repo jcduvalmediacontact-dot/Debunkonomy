@@ -146,3 +146,13 @@ renvois: [L1.C18, L6.C01, L6.C05, L6.C06, L6.C07, L11.C16, L11.C29, L20.C12, L20
 ::hypothese:: **D'où la règle du chapitre : la question n'est pas si un écosystème peut avoir des droits, mais quel niveau a compétence pour les lui donner.** Les trois régimes qui tiennent ont été posés au niveau compétent ; celui qui est tombé a été posé en dessous. **Ce que le traité ne pose pas lui-même, aucun échelon inférieur ne le posera valablement à sa place.**
 
 ::etat:: **Aucun des textes n'a été lu**, tous sont publics et gratuits, **et le compte des ordonnances de réforme du code minier n'est pas établi** — le corpus décrit une architecture dont il ne connaît pas l'état des textes.
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le résultat de ce chapitre reçoit une grandeur physique qui en fixe l'enjeu** [L18.C04]. **PNUE, *Global Resources Outlook 2024*** : « To stay below a 2 °C temperature rise by 2050, we will need **over three billion tonnes of energy transition minerals and metals** for wind power, solar and more. »
+
+::hypothese:: **Le corpus enregistre que la détachement du sous-sol établi ici ne concerne donc pas un cas marginal, mais la voie de sortie elle-même.** **Les matériaux de la transition viennent du sous-sol, et c'est précisément l'endroit où « définir un périmètre suffit à neutraliser une technique de commun fondée sur la propriété, sans rien abroger ».**
+
+::etat:: **S'y ajoute que l'extraction et la transformation des matières portent « over 55 per cent » des émissions mondiales** — **plus de la moitié du problème se trouve du côté que le droit détache du sol.**

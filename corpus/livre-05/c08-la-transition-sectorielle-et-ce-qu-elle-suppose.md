@@ -106,3 +106,17 @@ renvois: [L1.C06, L1.C21, L5.C01, L6.C08, L11.C06, L11.C10, L11.C13]
 ::hypothese:: **Deux contraintes établies ailleurs frappent ici, et n'y avaient jamais été rapportées.** **Le droit minier détachant le sous-sol du sol, un barème adossé à la propriété n'atteint pas l'extraction** — le secteur dont la transition importe le plus est hors de portée de l'instrument. **Et A34 devient opérationnel : un secteur dont les acteurs ne peuvent pas payer le signal ne se transforme pas, IL SORT** — et sortir n'est pas se transformer.
 
 ::etat:: **Aucune donnée sectorielle n'est tenue, et la lacune est particulière : la règle indexe le taux sur une OBSERVATION, et le corpus n'a désigné ni observateur, ni méthode, ni périodicité** — là où L11.C13 a établi que Goodhart frappe le plus fort.
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le *Global Resources Outlook 2024*, que ce chapitre déclarait acquis et non instruit, l'est désormais** [L18.C04]. Il ne fournit pas la nomenclature d'activités qui manquait — il donne **quatre SYSTÈMES**, bâti, mobilité, alimentation, énergie, portant ensemble « **about 90 per cent of global material demand** ». **Le corpus ne peut toujours pas désigner un secteur comme verrouillé.**
+
+::etat:: **Mais il fournit autre chose, et cela frappe la thèse de ce chapitre** [L18.C04]. « To stay below a 2 °C temperature rise by 2050, we will need **over three billion tonnes of ENERGY TRANSITION MINERALS AND METALS** for wind power, solar and more. »
+
+::hypothese:: **Le corpus enregistre le couplage avec L6.C08, et il aggrave le défaut nommé ici.** **La trajectoire est indexée sur la disponibilité du substitut ; le substitut est fait de minéraux et de métaux ; ceux-ci viennent du sous-sol ; et le droit minier détache le sous-sol du sol, le propriétaire n'ayant aucun droit d'opposition.** **Le substitut vient donc du lieu exact où un barème adossé à la propriété ne mord pas.**
+
+::hypothese:: **La conséquence est circulaire et elle dépasse ce que ce chapitre avait nommé.** Il soutenait que l'indexation « exempte par construction les secteurs les plus verrouillés » ; **le corpus ajoute que LE DÉVERROUILLAGE LUI-MÊME PASSE PAR UN SECTEUR EXEMPTÉ.** **Ce n'est plus seulement que le signal ne monte pas là où il faudrait : c'est que la condition de sa montée se produit hors de sa portée.**
+
+::etat:: **Ordres de grandeur versés** : l'extraction et la transformation des matières portent « **over 55 per cent** » des émissions mondiales, « **more than 60 per cent** » avec le changement d'usage des sols ; l'usage de matières a triplé en cinquante ans et croît de « **more than 2.3 per cent per year** » ; l'extraction pourrait passer de **100 à 160 milliards de tonnes** d'ici 2060.

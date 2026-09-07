@@ -191,3 +191,17 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 ::etat:: **UNE TROISIÈME CONTREPARTIE EST DOCUMENTÉE.** IPSAS 51 reconnaît à l'actif **une ressource naturelle détenue pour sa conservation**, « if, and only if : (a) It is probable that **service potential** associated with the resource will flow to the entity ; (b) The entity **controls** the tangible natural resource [...] as a result of past events ; and (c) [elle] **can be measured reliably** ». À défaut du seul critère (c), § 12 : la ressource est **portée en annexe et non au bilan**.
 
 ::hypothese:: **Si la contrepartie est la ressource conservée et non une créance sur les fontes futures, alors elle ne s'érode pas quand le dispositif réussit : elle s'apprécie.** **C'est la sortie que `falsification.md` cherchait sous P55 et P56** — et elle reste conditionnée au contrôle, à la mesure et à l'applicabilité du référentiel, dont aucune n'est acquise.
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Les trois conditions laissées ouvertes par l'arbitrage A30 n'ont plus le même sort** [L18.C06].
+
+::etat:: **L'APPLICABILITÉ n'a pas avancé d'un pas** — rien n'établit que l'institution émettrice relève de la comptabilité publique, **et tout le raisonnement du Livre 18 lui est conditionnel.**
+
+::etat:: **LA MESURE a échoué par la structure de l'instrument disponible** : valorisation monétaire non normalisée, non obligatoire, de couverture annoncée incomplète, **et libellée dans un référentiel de prix qui enregistre l'ordre institutionnel courant.**
+
+::hypothese:: **LE CONTRÔLE A CHANGÉ DE NATURE, et c'est ce que ce chapitre doit enregistrer.** A30 le classait parmi des « questions de vérification ». **IPSAS 47 § 19 en fait autre chose** : la capacité d'exclure ou de réguler l'accès « **distinguishes an entity's assets FROM THOSE PUBLIC GOODS that all entities have access to and benefit from** ». **Le contrôle n'est pas un fait à prouver : c'est une propriété que le commun, par définition, n'a pas.**
+
+::etat:: **Et le même paragraphe ferme la voie de contournement** : un rôle régulateur « **does not necessarily mean** that such regulated items meet the definition of an asset ». **Qualifier des activités par un barème ne vaut pas contrôle.**

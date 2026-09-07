@@ -123,3 +123,15 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 ::etat:: **CE QUI RESTE BLOQUANT N'EST PLUS JURIDIQUE, et le corpus l'avait déjà enregistré.** Deux points. **Un** : l'arbitrage du 2026-09-05 pose que le reflux « n'est PAS une annulation » et que « la monnaie quitte la circulation **sans être détruite** » — **la dette collective n'est donc pas éteinte mais transférée à l'actif de l'institution**, et une unité gagée sur un flux qu'on encaisse n'est pas le même objet qu'une unité gagée sur une dette qu'on solde. **Deux** : `falsification.md` a retiré le 2026-09-04 un crédit accordé, au motif que la créance portée à l'actif est un droit « sur l'assiette même que le dispositif a pour mission de faire disparaître » — **plus le certificat dit vrai, moins la créance vaut.**
 
 ::etat:: **Arbitrage complet en `protocoles/passe-2.md`, section A30. Réparations renvoyées à P55 et P56.**
+
+## BALAYAGE DU LIVRE 18 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La question que ce chapitre renvoyait à A30 a changé de nature du côté comptable** [L18.C05] [L18.C06]. Ce n'est pas une avancée sur la prohibition du financement monétaire, **et cela ne modifie rien à ce que ce chapitre établit** — c'est versé pour que la passe 2 ne repose pas la question dans les mêmes termes.
+
+::hypothese:: **A30 classait le contrôle parmi trois « questions de vérification ».** **IPSAS 47 § 19 en fait une exclusion de définition** : la capacité d'exclure ou de réguler l'accès **distingue l'actif d'une entité du bien public accessible à tous.** **Ce qui fait qu'une chose est un commun est ce qui l'empêche d'être l'actif de quiconque.**
+
+::etat:: **Conséquence pour la qualification de l'unité** : si l'émission ne trouve pas d'actif reconnaissable, **IPSAS 48 la traite en charge** — les deux branches de son § 18 ne différant que par la date. **La qualification juridique de l'unité et sa qualification comptable ne sont donc pas indépendantes**, et le corpus les traitait séparément.
+
+::etat:: **Réserve** : rien n'établit que l'institution émettrice relève de la comptabilité publique internationale. **Tout ce qui précède est conditionnel à cette troisième condition d'A30, qui n'a pas avancé.**
