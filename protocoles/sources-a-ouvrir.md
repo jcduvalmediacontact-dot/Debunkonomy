@@ -829,3 +829,31 @@ fondées sur la nature.
 sur quelle période, avec quels résultats, **et par quels mécanismes ont-elles été
 défaites**. **C'est la seule acquisition qui permettrait au corpus de répondre au
 concurrent le moins coûteux**, et elle ne relève d'aucun livre ouvert.
+
+## Ouverture du 2026-09-07 — deuxième cadre de banque centrale
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **12 U.S. Code § 355** — codification du **§ 14(b) du Federal Reserve Act** (23 décembre 1913, 38 Stat. 264, amendé) | `law.cornell.edu/uscode/text/12/355` | `libre` | **UNE HABILITATION LIMITATIVE, ET NON UN TEST.** La liste énumère ce qu'une banque de réserve **a le pouvoir** d'acheter : obligations des États-Unis et de leurs agences, titres de collectivités à **six mois** au plus, obligations de gouvernements étrangers. **Ce qui n'y figure pas est hors de son pouvoir** — une contrepartie écologique en est exclue **avant toute question comptable**. **ET LA LISTE CONTIENT LA FIGURE DE LA FONTE** : titres « **issued in anticipation of the collection of taxes or in anticipation of the receipt of ASSURED REVENUES** » — **bornés à six mois, à un seul pays, et à des recettes ASSURÉES**. **Versé à L10.C07** |
+
+**CE QUE CETTE OUVERTURE CORRIGE.** Le corpus **généralisait depuis le cadre le plus
+permissif ET le plus facile à modifier**. L'Eurosystème contraint par un test de
+comptabilisation et une prohibition ; le système fédéral par une liste. **Une
+règle comptable se modifie par le normalisateur ; une habilitation légale se
+modifie par le législateur.**
+
+**RÉSERVE.** Le **régime d'exception** du droit fédéral — section 13(3), « unusual
+and exigent circumstances », employée en 2008 et en 2020 — **n'est pas instruit**,
+alors que **c'est là que les innovations de bilan ont eu lieu**. Le corpus tient la
+règle ordinaire, non l'exception, **et la compétence, non la pratique**.
+
+## Priorités du Livre 10 après cette ouverture
+
+| N° | Cible | Motif |
+|---|---|---|
+| **1** | **Statuts du FMI, articles XV, XVIII et XX**, et **manuel BPM6** | **le test le plus net dont le corpus dispose et qu'il n'a pas employé** : le critère élargi de 2016, « **principal OU intérêt** », qui a rendu le DTS débiteur. **Il porte exactement sur ce qu'A35 laisse ouvert — ce que l'unité est AU PASSIF — et il ne dépend ni du droit de l'Union, ni du référentiel comptable applicable** |
+| **2** | **Banque d'Angleterre, indemnité du Trésor sur le dispositif d'achats** | **architecture de partage des pertes entre banque centrale et autorité budgétaire**, que le corpus ne tient nulle part et qui répondrait à la prudence asymétrique de L10.C01 |
+| **3** | **Federal Reserve Act, section 13(3)** | le régime d'exception, où les innovations de bilan ont eu lieu |
+| **4** | **Règles comptables de la BRI et du FMI** | **seules règles d'ORGANISATIONS INTERNATIONALES** — le dispositif ressemble plus à elles qu'à une banque centrale nationale |
+| **5** | **Banque du Japon, Banque populaire de Chine, Banque nationale suisse** | trois cadres détenant des actifs qu'aucun des deux instruits n'admettrait, **actions cotées notamment** |
+| **6** | **Histoire des réformes de subventions dommageables** | **seule acquisition qui lèverait F10**, et elle ne relève d'aucun livre ouvert |

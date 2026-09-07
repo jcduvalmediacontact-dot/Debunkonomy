@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -351,3 +351,15 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21]
 ::hypothese:: Aucun des cinq falsifieurs du corpus n'est déclenché par ce chapitre. Mais deux d'entre eux se resserrent. Celui qui porte sur le calibrage se resserre parce que la grandeur à calibrer est désormais moins bien délimitée qu'on ne le pensait — le périmètre est ouvert et l'effet est net d'une réaction non mesurée. Celui qui porte sur la connaissance dispersée se resserre parce que l'objection dispose maintenant d'une alternative constituée, ce qui rend moins tenable la position consistant à la reconnaître sans y répondre.
 
 ::etat:: Le chapitre a enfin déplacé, sans la solder, la promesse ouverte depuis L1.C17 § 5 sur l'aléa moral. Sa face préventive avait été traitée ailleurs ; sa face budgétaire est ici nommée, documentée et laissée sans dispositif. Une objection nommée n'est pas une objection réglée, et le corpus n'écrira pas le contraire.
+
+## BALAYAGE DU LIVRE 10 — 2026-09-07 (suite)
+
+::etat:: **Annotation portée après l'ouverture du deuxième cadre de banque centrale.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Le test que ce chapitre a produit contre lui-même est le plus net dont le corpus dispose, ET IL NE L'A PAS EMPLOYÉ DEPUIS** [L10.C07]. Ce chapitre a accepté que **le DTS EST une dette sous BPM6** et retiré l'affirmation qu'une émission internationale sans dette aurait déjà eu lieu. **Sa conséquence inverse** : le critère qui a rendu le DTS débiteur est **une définition élargie en 2016 — principal OU intérêt — et l'unité du dispositif ne le satisfait pas.**
+
+::etat:: **Ce critère porte exactement sur la question qu'A35 laisse ouverte** et que L10.C06 a déclarée non tranchée : **ce que l'unité est AU PASSIF de l'émetteur.** **C'est un test extérieur, statistique et vérifiable**, et **il ne dépend ni du droit de l'Union, ni du référentiel comptable applicable** — les deux points sur lesquels le Livre 10 a buté toute la journée.
+
+::etat:: **Il n'est pas appliqué, faute de sources** : ni les statuts du Fonds ni le manuel BPM6 ne sont ouverts. **Le corpus tient le critère par le chapitre qui l'a rapporté, non par le texte qui l'établit.** **Porté au rang 1 des priorités du Livre 10.**
+
+::hypothese:: **Et une figure voisine apparaît dans un droit qui n'a rien à voir** [L10.C07]. Le § 14(b) du Federal Reserve Act admet à l'actif d'une banque de réserve des titres « **issued in anticipation of the collection of taxes or in anticipation of the receipt of assured revenues** » — **la structure même de l'arbitrage A35, bornée à six mois, à un seul pays, et à des recettes ASSURÉES.** **Le corpus tient donc un précédent réel et étroit, là où il n'en avait aucun.**
