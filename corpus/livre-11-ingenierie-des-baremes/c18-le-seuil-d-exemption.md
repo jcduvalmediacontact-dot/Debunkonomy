@@ -187,3 +187,13 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 ::hypothese:: **Un prélèvement qui réduirait l'accès des plus pauvres à une nourriture, un vêtement ou un logement suffisants MET EN CAUSE UN DROIT PROTÉGÉ.** Il doit alors satisfaire le test de l'**article 4** : être « **determined by law** », « **compatible with the nature of these rights** », et justifié « **solely for the purpose of promoting the general welfare in a democratic society** ».
 
 ::etat:: **ET UNE BORNE QUE MÊME CE TEST NE FRANCHIT PAS. Article 1 § 2** : « **In NO CASE may a people be deprived of ITS OWN MEANS OF SUBSISTENCE.** » **Clause placée avant tout le reste, rédigée sans exception, et qui ne dit pas « sauf nécessité écologique ».**
+
+## BALAYAGE DU LIVRE 25, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L25.C02, qui ouvre l'observation générale n° 3 du Comité des droits économiques, sociaux et culturels.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UN ORDRE D'EMPLOI DES INSTRUMENTS APPARAÎT, ET LE CORPUS N'EN AVAIT AUCUN** [L25.C02]. **Observation générale n° 3, § 9** : « **ANY DELIBERATELY RETROGRESSIVE MEASURES [...] would require THE MOST CAREFUL CONSIDERATION and would need to be FULLY JUSTIFIED** by reference to the totality of the rights [...] **AND IN THE CONTEXT OF THE FULL USE OF THE MAXIMUM AVAILABLE RESOURCES.** »
+
+::hypothese:: **Un prélèvement à incidence régressive n'est pas interdit — IL DOIT ÊTRE JUSTIFIÉ, ET JUSTIFIÉ APRÈS DEMONSTRATION DU PLEIN EMPLOI DES AUTRES RESSOURCES.** **Le droit place donc la fonte transactionnelle APRÈS les instruments qui pèsent sur ceux qui peuvent payer, et non avant eux.** **Le seuil d'exemption cesse d'être un réglage pour devenir UNE ÉTAPE OBLIGÉE D'UN RAISONNEMENT JURIDIQUE.**
+
+::etat:: **ET UN NOYAU DUR EXISTE, OPPOSABLE SANS CONSIDÉRATION DE RICHESSE. § 10** : « a **MINIMUM CORE OBLIGATION** to ensure the satisfaction of, at the very least, **minimum essential levels of each of the rights** is incumbent upon **EVERY** State party », un État où « any significant number of individuals is deprived of essential foodstuffs [...] basic shelter and housing, or [...] the most basic forms of education » manquant **prima facie** à ses obligations. **Le bord inférieur du couloir n'est pas mou.**

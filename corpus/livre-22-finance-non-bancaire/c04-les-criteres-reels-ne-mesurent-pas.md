@@ -143,3 +143,13 @@ renvois: [L6.C06, L11.C13, L11.C16, L11.C25, L13.C01, L14.C01, L18.C06, L22.C03]
 ::hypothese:: **F9 est restreint à son terrain comptable.** **La qualification se contente d'une garantie de permanence obtenue par classement, par plan ou PAR CONTRAT ; la comptabilisation exige un contrôle qui ressemble à la propriété.** **Le corpus avait confondu les deux exigences sous une seule question.**
 
 ::etat:: **Ce que le chapitre ne fait pas.** Il n'ouvre ni les appendices A et B, qui portent deux des critères d'absence de préjudice, ni les autres annexes, ni les autres activités. **Il ne chiffre pas le coût du dossier**, alors qu'il vient d'établir que c'est le facteur décisif. **Et il ne dispose d'aucune donnée d'application** : le corpus ignore combien d'activités ont été qualifiées sous cette section, donc si ce barème fonctionne ou s'il est resté lettre morte.
+
+## BALAYAGE DU LIVRE 25, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L25.C02, qui ouvre l'observation générale n° 3 du Comité des droits économiques, sociaux et culturels.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE PROCÉDÉ QUE CE CHAPITRE A RELÉVÉ SE RÉPÈTE SUR L'AUTRE BORD DU COULOIR** [L25.C02]. Ce chapitre a établi que le barème écologique en vigueur **ne mesure pas la régénération : il certifie un procédé** — état initial documenté, plan décennal, audit tiers, garantie de permanence.
+
+::hypothese:: **L'observation générale n° 3 ne chiffre pas davantage le plancher social : elle procède PAR CONSTAT DE PRIVATION** — « any significant number of individuals **deprived of** essential foodstuffs [...] » — **et par renversement de la charge de la preuve.** **Dans les deux cas, le droit refuse de fixer un nombre là où le nombre serait contestable, et il le remplace par UNE PROCÉDURE.**
+
+::etat:: **La leçon pour le dispositif est la même des deux côtés, et c'est celle que ce chapitre nommait « la graduation ».** **Le dispositif doit produire UN MONTANT ; il demande donc aux deux bords du couloir une précision QUE NI L'UN NI L'AUTRE NE FOURNIT.**
