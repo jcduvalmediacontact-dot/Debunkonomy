@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -120,3 +120,15 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L7.C04, L11.C11, L11.C13, L11.
 ::hypothese:: **Et c'est cette correspondance qui fait apparaître le manque : D2, fixer ce que vaut un acte régénératif certifié, n'est attribuée à aucune chambre dans le chapitre 7.** C'est la décision qui porte la promesse bloquante et qui, à enveloppe plafonnée, répartit entre membres. **Une compétence non attribuée revient à celui qui peut la prendre.**
 
 ::etat:: **La réserve est immédiate et le corpus la porte en tête** : les chapitres 8 et 9 du livre, annoncés comme la suite de cet exposé, **ne sont pas ouverts.**
+
+---
+
+## BALAYAGE DU LIVRE 3 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 3.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Une fonction manque à l'architecture, et elle est la contrepartie du coin de change que le dispositif occupe** [L3.C06]. Les quatre chambres instituées ici **décident ; aucune ne prête.** Or un membre à parité fixe **ne peut ni dévaluer pour absorber un choc ni recevoir des capitaux pour le financer** — les deux instruments d'ajustement que les autres régimes laissent ouverts sont fermés par construction.
+
+::hypothese:: **Le dispositif doit donc dire qui fournit la liquidité à un membre en difficulté, sur quelles conditions, et qui décide.** **L1.C23 rappelle que la robustesse est l'absorption de perturbations NON ANTICIPÉES** : la réponse ne peut donc pas être une liste de cas prévus.
+
+::etat:: **Un précédent complet existe et il a été ouvert** [L3.C07] : article V des statuts du Fonds de 1944. **Il ne prête pas, il échange** ; il borne l'exposition par deux nombres — vingt-cinq pour cent du quota par an, deux cents pour cent au total ; **il déclenche sur déclaration et contrôle après** ; il gradue la sanction en quatre degrés ; **et il dénoue sur la reconstitution des réserves du débiteur, non sur une date.**

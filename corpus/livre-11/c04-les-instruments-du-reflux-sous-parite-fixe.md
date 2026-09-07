@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-05
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -184,3 +184,15 @@ renvois: [L1.C19, L1.C21, L1.C24, L1.C26, L1.C27, L11.C01, L11.C02, L11.C03]
 ::hypothese:: **Le résultat le plus lourd est le second.** Sous parité fixe et capitaux mobiles, la monnaie émise en contrepartie d'une activité certifiée fuit par le compte financier au rythme de l'émission, s'ajoutant à la fuite commerciale déjà identifiée. Le reflux cesse alors d'être un instrument de réglage pour devenir la condition qui retient l'émission dans l'économie qui l'a reçue.
 
 ::hypothese:: **Le résultat le plus utile est le dernier.** La contrainte est fonction de ce qui demeure hors du système. Elle s'annule à couverture complète, se restreint par le contrôle des capitaux, et **disparaît à l'intérieur d'un barème arrêté globalement** — tandis qu'un barème modulé nationalement la recrée. Le corpus tient là son premier argument structurel pour la centralisation, et il rappelle que P52 en tient un, aussi lourd, en sens contraire.
+
+---
+
+## BALAYAGE DU LIVRE 3 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 3.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Le trilemme est énoncé POUR UN ÉTAT, et le corpus ne l'avait pas vu** [L3.C02]. Si chaque membre tient une parité fixe et conserve sa politique monétaire, **chaque membre se trouve individuellement dans le cas** et doit renoncer à la libre mobilité des capitaux.
+
+::hypothese:: **Le contrôle des capitaux n'est donc pas un choix de conception de l'institution : c'est UNE OBLIGATION PESANT SUR CHAQUE PARTICIPANT.** Ce n'est pas la même chose — **un instrument que l'institution manie s'écrit dans ses statuts ; une obligation qui pèse sur chaque membre s'écrit dans les siens, et se vérifie chez lui.**
+
+::etat:: **Trois questions en découlent, qu'aucun chapitre du corpus ne traite.** **Par quelle autorité et sur quel territoire** le reflux sur l'acquisition d'actifs est-il perçu, et que se passe-t-il pour un membre qui ne le perçoit pas ? **Que devient un membre qui déroge** — le trilemme dit qu'il perdra parité ou autonomie, et le dispositif ne peut pas être indifférent à celui des deux qu'il perd ? **Et l'unité elle-même est-elle visée par le trilemme**, n'étant la monnaie d'aucun État ?

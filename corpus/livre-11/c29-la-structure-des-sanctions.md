@@ -142,3 +142,17 @@ renvois: [L2.C08, L2.C14, L2.C21, L2.C22, L7.C19, L8.C31, L11.C18, L11.C19, L11.
 ::hypothese:: **Conséquence pour ce chapitre : un barème exprimé en maximum ne produit aucune obligation pour celui qui l'applique.** Le corpus doit écrire ses taux **en plancher**, ou nommer la conséquence du fait de rester en dessous.
 
 ::hypothese:: **Deux techniques symétriques versées par le Livre 6, et elles complètent la dérogation qui expire** [L6.C06]. En Italie, une dérogation **définitive mais seulement partielle** : sortie possible sur transformation irréversible antérieure à 1985, échange à « superficie e valore ambientale equivalenti », **et contrainte paysagère maintenue sur les terres libérées.** **Deux façons d'empêcher qu'une dérogation solde la contrainte.**
+
+---
+
+## BALAYAGE DU LIVRE 3 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 3.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La structure cherchée dans le droit prudentiel américain existait dans un traité monétaire de 1944 que le corpus détenait** [L3.C07]. **Article V, section 5 des statuts du Fonds**, quatre degrés conditionnés l'un par l'autre : **rapport motivé** exposant la position du Fonds, **délai de réponse imparti**, **limitation** de l'usage des ressources, puis **inéligibilité après préavis raisonnable.**
+
+::etat:: **Et la section 4 y ajoute une technique de dérogation que le corpus n'avait pas** : discrétionnaire, **gageable** sur or, argent ou titres, et accordée « **especially in the case of members with a record of avoiding large or continuous use of the Fund's resources** ».
+
+::hypothese:: **C'est le complément exact du résultat de ce chapitre.** Ici, **une dérogation qui EXPIRE** fait revenir le défaut par l'inaction ; là, **une dérogation qui SE MÉRITE** fait de la modération un actif. **Deux façons d'empêcher qu'une dérogation soit gratuite — l'une par le temps, l'autre par la réputation.**
+
+::etat:: **Aucune pratique n'est tenue** : le corpus ignore combien de fois une dérogation a été accordée ou une inéligibilité prononcée.

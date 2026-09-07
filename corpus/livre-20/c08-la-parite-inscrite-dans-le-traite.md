@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -114,3 +114,15 @@ renvois: [L1.C25, L1.C26, L1.C28, L7.C02, L7.C20, L11.C15, L11.C17, L20.C01, L20
 ::etat:: **Le porteur du transfert est désigné : c'est celui qui révise**, et il compense l'institution à hauteur exacte. **Le blanc de L11.C15 est comblé pour la part patrimoniale, et pas pour les tiers.**
 
 ::hypothese:: **Et la révision générale du référentiel est verrouillée trois fois**, dont un veto des grands détenteurs. **Le seul précédent disponible rend impraticable l'opération que le dispositif suppose faisable.**
+
+---
+
+## BALAYAGE DU LIVRE 3 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 3.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La date approximative de la péremption du régime instruit ici est établie** [L3.C03], et l'instrument qui l'a opérée ne l'est toujours pas. **1971** pour la fin de la convertibilité, **1973** pour la disparition des changes fixes, **1976** pour le flottement entériné. **Le corpus ne détient ni l'amendement de 1969 ni celui de 1978.**
+
+::etat:: **Et l'article V des statuts a été ouvert le 2026-09-07** [L3.C07], comblant une lacune que le Livre 20 n'avait pas relevée : ses vingt-trois chapitres citaient les articles I, II, III, IV, IX, XII, XVII, XIX et XX, **l'article V n'y apparaissant qu'une fois et par renvoi.**
+
+::hypothese:: **Le régime de parité instruit ici était donc la deuxième jambe d'un trépied, et le corpus n'en avait vu que deux sur trois** [L3.C06]. **Parité, contrôle des capitaux, ET FINANCEMENT DE SECOURS.** Un membre à parité fixe **ne peut ni dévaluer ni emprunter à l'étranger** : les deux instruments d'ajustement que les autres coins laissent ouverts **sont fermés par construction.** **Le Fonds n'était pas un ornement institutionnel : c'était la contrepartie du coin.**

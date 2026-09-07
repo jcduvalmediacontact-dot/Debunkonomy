@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -225,3 +225,17 @@ renvois: [L1.C05, L1.C08, L1.C09, L1.C19, L1.C20, L1.C22, L1.C23, L1.C24]
 ::hypothese:: Le corpus ne conclut pas que le dispositif ne peut pas être adopté. Il conclut que **la stratégie d'adoption exposée par le livre n'est pas fondée sur ce qu'elle croit** : elle prend appui sur Bretton Woods en retenant du précédent la préparation et en omettant l'issue. Une stratégie fondée sur le devoir exorbitant [S9] et sur la réversibilité attestée des positions dominantes [S10] serait plus solide, parce qu'elle nomme un mécanisme au lieu d'espérer un moment. Elle reste à écrire.
 
 ::hypothese:: Ce chapitre laisse ouverte la question qu'il a fait apparaître et qu'aucun chapitre n'a traitée : **par quel mécanisme le pays dont la position est visée pourrait-il accepter, ou ne pas pouvoir empêcher, la réforme ?** Le scénario de la coalition de pionniers en propose un — contourner plutôt que convaincre — et il devra être examiné pour lui-même, avec le seuil de pouvoir de marché que le livre reconnaît lui-même indispensable.
+
+---
+
+## BALAYAGE DU LIVRE 3 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 3.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La chronologie est versée, et elle confirme l'énoncé de ce chapitre** [L3.C03]. Source : fiche *ABC de l'économie* de la Banque de France. **1971** — le dollar cesse d'être convertible en or. **1973** — « le système de changes fixes mondial disparaît définitivement ». **1976** — accords de la Jamaïque, flottement entériné et rôle légal de l'or abandonné.
+
+::hypothese:: **Deux ruptures et non une, séparées de deux ans** — ce qui vérifie la propriété que ce chapitre isolait : **le pivot est le seul à devoir régler en or et le seul à pouvoir mettre fin à cette obligation.** Il l'a fait le premier, et le système a mis deux ans à en tirer les conséquences.
+
+::etat:: **ET LA SOURCE SIGNALE UNE LACUNE DU CORPUS** : elle écrit que 1944 instaure **« un SECOND étalon de change-or »**. **Le corpus ne tient rien du premier**, et c'est le périmètre historique antérieur que le plan directeur demandait de préciser.
+
+::hypothese:: **La fenêtre de réforme trouve enfin son application, et elle est défavorable** [L3.C04]. Ce chapitre pose que l'issue « dépend de la position des créanciers au moment où elle s'ouvre plutôt que de la qualité des projets disponibles ». **Les créanciers, au moment où le nouveau dilemme de Triffin mordrait, seront les émetteurs des autres monnaies nationales** — ceux que la solution multipolaire sert directement. **La fenêtre attendue n'est pas celle du dispositif.**

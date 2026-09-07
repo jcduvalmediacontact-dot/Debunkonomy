@@ -408,15 +408,61 @@ livres:
       - "rouage — articulation avec le système monétaire international"
       - "discipline — économie monétaire internationale"
       - "objection — P13"
-    statut: maquette
-    chapitres_annonces: 6
-    chapitres_acquis: 0
+    statut: en-cours
+    chapitres_annonces: null
+    chapitres_acquis: 10
     methode: "protocole propre — plan directeur, contre-plan contradictoire, versions maîtresses, audits de clôture"
     architecture: >
       Valider la maquette provisoire en six épisodes ; préciser le périmètre
       historique antérieur à l'étalon-or et réserver l'étude institutionnelle
       détaillée des banques centrales au Livre 10.
-    note: "Un seul chapitre rédigé à ce jour (L3.E01, version 1.1 candidate)."
+    note: >
+      PASSE 1 CLOSE LE 2026-09-07, DIX CHAPITRES, au format arrêté le même jour.
+      `chapitres_annonces` passe de 6 à null : le compte n'est pas contraignant
+      (arbitrage A33). ÉCRITE SANS BIBLIOTHÈQUE — l'inventaire du 2026-09-07 ne
+      rattache à ce livre que QUATRE fichiers réels sur mille un.
+      APPAREIL RÉEL : DEUX sources primaires (statuts du FMI de 1944, art. IV, V
+      et VI § 3), TROIS secondaires (fiche ABC de l'économie de la Banque de
+      France ; deux exposés pédagogiques sur le triangle, QUI NE SONT NI MUNDELL
+      NI FLEMING), UN article (Gourinchas-Rey-Sauzet 2019, par F6), et UNE PIÈCE
+      SANS AUTORITÉ employée comme piste et jamais comme fait.
+      CE QUE LE LIVRE ÉTABLIT. Le dispositif occupe le coin du triangle
+      d'incompatibilité et ne le contourne pas ; ET LE TRILEMME EST ÉNONCÉ POUR
+      UN ÉTAT, donc le contrôle des capitaux N'EST PAS UN CHOIX DE CONCEPTION DE
+      L'INSTITUTION MAIS UNE OBLIGATION PESANT SUR CHAQUE MEMBRE. Le monde a
+      quitté ce coin EN DEUX RUPTURES (1971, 1973) : ce qui fut abandonné n'est
+      pas l'autonomie monétaire MAIS LA PARITÉ. Le régime de 1944 avait TROIS
+      JAMBES et le corpus en avait instruit DEUX — la troisième est le
+      financement de secours, indispensable dans ce coin précisément parce qu'un
+      membre à parité fixe NE PEUT NI DÉVALUER NI EMPRUNTER.
+      CE QUE LE LIVRE DÉFAIT. La stratégie d'adoption tenue pour la plus solide :
+      privilège et devoir exorbitants sont LES DEUX TERMES D'UN CONTRAT
+      D'ASSURANCE TARIFÉ. Et, sur objections de l'auteur, la solution multipolaire
+      NE SUPPRIME PAS L'INCITATION EXTRACTIVE, ELLE LA DISTRIBUE — le statut de
+      réserve étant un prix décerné à la taille et à la croissance, le lien étant
+      INCITATIF et non quantitatif. Enfin le Fonds de 1944 NE PRÊTAIT PAS, IL
+      ÉCHANGEAIT.
+      CE QUE LE LIVRE APPORTE : six éléments de conception tirés de l'article V,
+      dont UN PLAFOND QUANTITATIF QUI SE SUBSTITUE AU FILTRE DE SOLVABILITÉ — un
+      filtre sélectionne, un plafond borne. P13 est établie FONDÉE sur le bilan
+      de l'institution avant que la parade soit cherchée.
+      RÉSULTAT JAMAIS ÉNONCÉ : sur son architecture internationale, le dispositif
+      est UNE RECONSTRUCTION DU RÉGIME DE 1944 SANS PIVOT NATIONAL — sept
+      éléments empruntés à un seul traité. L'absence de pivot désamorce le
+      dilemme de Triffin À MOITIÉ : si l'unité ne règle pas, elle ne peut pas
+      être un actif de réserve, et la boucle se poursuit HORS du dispositif. LE
+      DISPOSITIF NE REMPLACE PAS LE SYSTÈME EXISTANT, IL S'Y AJOUTE.
+      SEPT TEXTES FONDATEURS NON OUVERTS, aucun dans la bibliothèque : Mundell
+      1963 et Fleming 1962 (dont dépend A32), Triffin 1961 (dont dépend le
+      diagnostic), Kareken-Wallace (qui pourrait faire tomber la solution
+      multipolaire), Farhi et al. 2011 et Eichengreen 2011, le plan Keynes de
+      1943, et les DEUX AMENDEMENTS de 1969 et 1978. Le périmètre historique
+      antérieur à l'étalon-or reste non fixé, ET LA SEULE SOURCE OUVERTE SIGNALE
+      QU'IL MANQUE QUELQUE CHOSE — 1944 y instaure « un SECOND étalon de
+      change-or ». AUCUNE GRANDEUR N'EST TENUE dans tout le livre.
+      VÉRIFICATION LA PLUS RENTABLE, TOUJOURS OUVERTE : l'ordre des opérations de
+      1971-1976. Si la mobilité des capitaux a PRÉCÉDÉ l'abandon des parités,
+      l'objection historique au coin que le dispositif occupe TOMBE.
 
   - livre: 4
     titre: "Les Cahiers Humanistes"

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -276,3 +276,15 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23]
 ::etat:: Un fait mesuré s'ajoute enfin, et il est défavorable au titre. Entre le début des années 2010 et avril 2022, la part du dollar dans les opérations de change est passée de 84,9 % à 88 % [S2], [S12] — sur une période qui a pourtant vu la crise des dettes souveraines européennes, l'internationalisation annoncée du renminbi et l'usage répété de sanctions financières.
 
 ::hypothese:: Le corpus n'établit donc pas que le dollar ne peut pas durer. Il établit que sa position repose sur une infrastructure privée que la proposition ne touche pas, et que le scénario le plus documenté — l'érosion vers la multipolarité — ne produirait aucun des effets recherchés. C'est de là, et non d'un effondrement annoncé, que la proposition doit tirer sa justification.
+
+---
+
+## BALAYAGE DU LIVRE 3 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 3.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **Le critère de règlement décide plus que ce chapitre ne le prévoyait** [L3.C09]. **Si l'unité ne règle pas, elle ne peut pas être un actif de réserve** — un actif de réserve servant précisément à payer ce qu'on ne peut plus payer autrement. **Les membres continueraient donc d'accumuler des monnaies nationales pour s'auto-assurer, et la boucle de Triffin se poursuivrait HORS du dispositif.**
+
+::hypothese:: **D'où l'énoncé que le corpus n'avait jamais écrit : LE DISPOSITIF NE REMPLACE PAS LE SYSTÈME EXISTANT, IL S'Y AJOUTE.** Il fournirait un pivot de conversion et un régime de qualification ; **il ne fournirait pas ce dont les banques centrales se servent quand elles ont peur.**
+
+::hypothese:: **Et les déterminants énoncés ici — « la taille et la croissance de l'économie émettrice » — portent une conséquence non tirée** [L3.C04]. **Le statut de réserve est un prix décerné à la croissance** ; en l'absence de découplage mondial absolu (L1.C12), **concourir pour ce statut, c'est concourir en croissance.** **Le lien est INCITATIF, non quantitatif** — la réserve du vocabulaire contre l'argument « plus de monnaie, plus d'extraction » est portée. **Une solution multipolaire à monnaies nationales ne supprime donc pas l'incitation : elle la distribue.**
