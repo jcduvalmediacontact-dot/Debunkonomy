@@ -2859,3 +2859,68 @@ d'efficacité.** **Un instrument financier ordinaire cherche le meilleur effet p
 euro ; celui-ci doit chercher l'effet AU BON ENDROIT, même s'il y coûte plus
 cher.** **Et cela complique sérieusement L11.C24**, dont l'ajustement aux
 frontières suppose un prix unique de l'impact.
+
+
+## F14 — L'additivité structurelle
+
+**PROPOSÉ LE 2026-09-08 PAR L26.C05, après ouverture de la publication
+statistique annuelle de référence sur l'énergie mondiale. NON ARBITRÉ.**
+**Il touche la théorie du changement du dispositif, et l'auteur seul peut le
+poser.**
+
+**CONDITION D'ÉCHEC PROPOSÉE.** *Qu'un instrument qui ÉMET du pouvoir
+d'achat ne puisse produire, par construction, que de l'ADDITION de capacité et
+jamais de la SUBSTITUTION ; qu'aucun de ses instruments — émission
+qualifiée, reflux, fonte — ne désigne un actif à fermer ; et que le
+résultat recherché exige une fermeture. Si les trois tiennent, le dispositif
+n'est pas mal calibré : IL EST INCOMPLET D'UNE MANIÈRE QUI NE SE CORRIGE PAS
+EN LE CALIBRANT MIEUX.*
+
+**CE QUI LE DISTINGUE DE F10 ET DE F11, ET L'ÉTAGEMENT EST LE MÊME QUE
+CELUI DÉJÀ POSÉ.** F10 demande si un AUTRE instrument suffirait à moindre
+coût. F11 demande si l'objet est atteignable par quelque instrument que ce
+soit. **F14 demande si CET instrument-ci peut produire CE type d'effet-là.**
+**Il n'oppose pas un concurrent : il oppose un COMPLÉMENT OBLIGATOIRE**, ce qui
+est plus gênant, parce qu'un concurrent se compare quand un complément
+manquant se constate.
+
+**CE QUI L'APPUIE, ET C'EST UNE OBSERVATION, NON UN ARGUMENT.** Energy
+Institute, *Statistical Review of World Energy 2026* : « **renewables were the
+largest source of TES growth FOR THE FIRST TIME OUTSIDE OF A RECESSION** » —
+et, dans la même page, « **fossil fuels CONTINUED TO EXPAND IN ABSOLUTE TERMS
+and retained their dominant position, accounting for 86 % of TES** » ; « **ALL
+SOURCES OF ENERGY SUPPLY, GLOBALLY, SAW INCREASES IN 2025** ». **L'année où
+la capacité nouvelle a été financée en quantité sans précédent,
+AUCUNE CAPACITÉ ANCIENNE N'A ÉTÉ RETIRÉE.**
+
+**POURQUOI IL VISE CE CORPUS EN PARTICULIER.** **La théorie du changement du
+dispositif est une théorie D'ALLOCATION** — L18.C09 en donne la mesure, 7 300
+milliards de flux dommageables contre 220. **Réorienter des flux financiers ne
+met aucune installation à l'arrêt.** **Le reflux et la fonte sont des
+instruments de NIVEAU : ils règlent la quantité de monnaie en circulation,
+ils ne désignent aucun actif à fermer.** **C'est exactement la limite que
+L26.C04 a rencontrée sur le second tour de la dépense** : le dispositif
+dispose d'instruments de NIVEAU et d'aucun instrument de COMPOSITION.
+
+**CE QUE F14 NE DIT PAS, ET LE BORNAGE EST NÉCESSAIRE.**
+
+**(1) Il ne dit pas que l'addition est inutile.** Ajouter de la capacité
+régénérative produit un effet réel, et le corpus n'a aucune raison de le
+nier. **Il dit que l'addition ne produit pas la fermeture, et que le résultat
+visé en exige une.**
+
+**(2) Il ne dit pas qu'un dispositif monétaire ne pourrait JAMAIS fermer.**
+Une conditionnalité négative — refuser l'accès au régime à qui
+n'arrête pas — est concevable et n'est instruite nulle part. **La condition
+d'échec porte sur le dispositif TEL QU'IL EST CONÇU, non sur ce qu'il
+pourrait devenir.**
+
+**(3) Il ne repose pas sur une série.** **Une seule année est tenue**, et la
+proposition porte sur une tendance. **C'est la faiblesse la plus immédiate de
+ce falsifieur proposé, et elle est réparable : les tables longues existent et
+n'ont pas été ouvertes.**
+
+**CE QUI LE RÉFUTERAIT.** Une série longue montrant que l'ajout de capacité
+décarbonée s'accompagne, avec un décalage, d'un retrait de capacité
+fossile. **Ou un mécanisme de fermeture intégré au dispositif, qui reste
+à concevoir.** **Aucun des deux n'est tenu.**

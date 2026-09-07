@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -39,9 +39,19 @@ verifications_en_attente:
      viserait le même périmètre**, et son objet — la régénération des communs
      impactés par l'extraction — n'est pas identique aux solutions fondées sur
      la nature."
+  - "**UNE OBSERVATION EST OPPOSÉE À L'ARGUMENT DE RÉORIENTATION LE 2026-09-08, ET
+     ELLE N'EST PAS UN CONTRE-ARGUMENT MAIS UN FAIT.** L'écart de 7 300 contre
+     220 milliards fonde une théorie du changement par L'ALLOCATION. **L26.C05
+     établit que l'année où le renouvelable est devenu, pour la première fois hors
+     récession, la première source de croissance de l'approvisionnement énergétique
+     mondial, TOUTES LES SOURCES ONT AUGMENTÉ** — « all sources of energy supply,
+     globally, saw increases in 2025 », les fossiles conservant 86 % du total.
+     **RÉORIENTER DES FLUX FINANCIERS NE MET AUCUNE INSTALLATION À L'ARRÊT.** **F14 est
+     proposé sur ce fondement**, et ce chapitre devra dire si son écart mesure une
+     insuffisance d'allocation ou une insuffisance D'INSTRUMENT."
 resume: "Ce chapitre instruit le rapport des Nations unies sur l'état du financement de la nature, fourni le jour même, et il verse au corpus l'ordre de grandeur qu'il n'avait jamais tenu. Les flux directement dommageables à la nature ont atteint sept mille trois cents milliards de dollars en 2023, tandis que les investissements dans les solutions fondées sur la nature s'élevaient à deux cent vingt milliards, soit un rapport de plus de trente contre un, et le besoin identifié pour tenir les engagements des conventions de Rio porte cet investissement à cinq cent soixante et onze milliards en 2030. Le chapitre en tire d'abord un résultat favorable, puisque l'écart à combler est d'environ trois cent cinquante milliards par an, grandeur modeste au regard des flux contraires et que le corpus peut désormais nommer. Il établit ensuite l'objection principale, qui est que le rapport propose lui-même une solution moins coûteuse et institutionnellement disponible, à savoir la suppression et la réaffectation des subventions dommageables, lesquelles dépassent deux mille milliards par an, relèvent déjà de la compétence budgétaire des États et couvriraient l'écart en en réorientant un sixième. Le corpus doit donc expliquer pourquoi construire une institution monétaire nouvelle plutôt que cesser de payer pour la destruction, et il ne tient pas les données historiques qui étayeraient sa meilleure réponse, celle de la réversibilité politique des réformes budgétaires. Le chapitre relève enfin que les flux publics vers la nature sont huit fois supérieurs aux flux privés, ce qui restreint en pratique la branche que la correction du même jour avait ouverte sur la portée personnelle de la prohibition du financement monétaire."
 concepts: [essentiel_insolvable, valorisation_des_communs, externalisation, additionnalite, fausse_richesse, degeneratif]
-renvois: [L1.C15, L1.C18, L5.C07, L10.C04, L10.C06, L11.C03, L11.C13, L18.C01, L18.C04, L18.C06]
+renvois: [L1.C15, L1.C18, L5.C07, L10.C04, L10.C06, L11.C03, L11.C13, L18.C01, L18.C04, L18.C06, L26.C05]
 ---
 
 # L'ordre de grandeur, et le concurrent qu'il désigne
