@@ -149,3 +149,19 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 ::etat:: **La sortie par le marché secondaire est instruite en L10.C03, et elle déplace la tenaille au lieu de la résoudre.** Le programme validé par la Cour porte sur des titres **NÉGOCIABLES** ; l'évaluation obligatoire au coût vise les titres **NON NÉGOCIABLES**. **Trois configurations restent à examiner, aucune acquise.**
 
 ::hypothese:: **Et le motif de la prohibition, tel que la Cour l'énonce, vise ce que le dispositif produit** : ne pas soustraire les États à « **l'incitation à conduire une politique budgétaire saine** ». **Un reflux collectif desserre par construction l'incitation qui pèse sur le débiteur individuel.** **La lecture littérale de ce chapitre reste exacte ; elle ne suffit plus.**
+
+## BALAYAGE DU LIVRE 10, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de *Gauweiler* et du règlement (CE) n° 3603/93.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'échappatoire de ce chapitre est défaite par le texte d'application de la prohibition, et le corpus le dit sans détour** [L10.C05]. Elle tenait à une absence : « une unité qui n'est le crédit de personne ne tombe sous aucun des trois, **puisqu'il n'y a pas d'instrument de dette** ».
+
+::etat:: **Règlement (CE) n° 3603/93 du Conseil du 13 décembre 1993**, visé par *Gauweiler* au point 101, **article premier § 1 b)** : « autre type de crédit » comprend « **ii) tout financement d'obligations du secteur public à l'égard de tiers** ; **iii) [...] toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par UNE CRÉANCE SUR CELUI-CI** ».
+
+::hypothese:: **La troisième branche n'exige AUCUN INSTRUMENT : elle vise l'opération et son résultat.** **La lecture littérale de ce chapitre reste exacte sur le traité et devient insuffisante** — le corpus lisait la disposition **sans son instrument d'application**, alors que la Cour s'y réfère.
+
+::etat:: **Et la portée personnelle est fixée** [L10.C04]. *Gauweiler* **point 94** : la prohibition vise les crédits **« aux autorités et aux organismes publics »** et l'acquisition **« directement, auprès d'eux »** d'instruments de **leur** dette. **Article 3 du règlement** : le secteur public inclut « les autres organismes ou **entreprises publics** ».
+
+::hypothese:: **Tout dépend donc d'une seule question, et elle n'est pas juridique** : **le débiteur de la dette collective relève-t-il du secteur public ?** **Si oui, crédit prohibé de plein droit, et aucune ingénierie de l'unité n'y change rien. Si non, la prohibition ne l'atteint pas du tout.** **Arbitrage A35 ouvert : c'est à l'auteur de trancher.**
+
+::etat:: **Deux exceptions du règlement sont hors de portée** : gestion des réserves de change (art. 2), crédit **intrajournalier** sans prolongation possible (art. 4). **Tolérances techniques, non marges de conception.**

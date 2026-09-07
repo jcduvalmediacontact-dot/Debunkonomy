@@ -156,3 +156,15 @@ renvois: [L2.C08, L2.C14, L2.C21, L2.C22, L7.C19, L8.C31, L11.C18, L11.C19, L11.
 ::hypothese:: **C'est le complément exact du résultat de ce chapitre.** Ici, **une dérogation qui EXPIRE** fait revenir le défaut par l'inaction ; là, **une dérogation qui SE MÉRITE** fait de la modération un actif. **Deux façons d'empêcher qu'une dérogation soit gratuite — l'une par le temps, l'autre par la réputation.**
 
 ::etat:: **Aucune pratique n'est tenue** : le corpus ignore combien de fois une dérogation a été accordée ou une inéligibilité prononcée.
+
+## BALAYAGE DU LIVRE 10, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de *Gauweiler* et du règlement (CE) n° 3603/93.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La technique de rédaction que ce chapitre réclame est celle qu'emploie l'instrument le plus contraignant rencontré par le corpus** [L10.C05]. **Règlement (CE) n° 3603/93, article premier § 1 b) iii)** : « autre type de crédit » = **« toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par une créance sur celui-ci »**.
+
+::hypothese:: **Le corpus enregistre que c'est une rédaction PAR L'EFFET, et que F8 avait identifié la même technique en sens inverse.** F8 relevait qu'une clause écrite par son effet « **ferme d'avance les remèdes que personne n'a encore imaginés** » ; ici, **elle ferme d'avance les CONTOURNEMENTS que personne n'a encore imaginés.**
+
+::hypothese:: **Conséquence pour ce chapitre, et elle est favorable.** **La technique est NEUTRE, et seul importe le camp qui s'en sert.** **Une sanction écrite par son effet plutôt que par l'énumération de ses moyens est un instrument éprouvé, employé par le droit de l'Union pour armer une prohibition centrale** — le corpus n'a donc pas à justifier ce choix comme une innovation. **À rapprocher de l'exigence de ce chapitre : défaut automatique et daté.**
+
+::etat:: **Le corpus corrige en conséquence une lecture implicite de F8** : la rédaction par l'effet n'est pas un indice de mauvaise foi. **F8 vise la CONJONCTION de trois étages, non la technique du troisième prise isolément**, et son propre texte le bornait déjà.

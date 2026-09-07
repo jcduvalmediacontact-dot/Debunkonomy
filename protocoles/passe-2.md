@@ -3301,3 +3301,46 @@ conventionnelle contre CARE/TDL et comptabilités multicapitaux — **n'est pas
 commencée.** Le livre tient le versant des normes en vigueur **et aucun modèle
 concurrent**, ce qui rend son verdict provisoire : **un modèle alternatif est
 précisément une proposition de réécrire ce que ce balayage vient de constater.**
+
+## Arbitrage A35 — QUI PORTE LA DETTE COLLECTIVE ? La question qui commande tout le reste
+
+**OUVERT LE 2026-09-07 (nuit), à l'issue de la première tranche du Livre 10.**
+**Ce n'est pas une question de droit : c'est une question de conception, et elle
+revient à l'auteur.**
+
+**CE QUI EST ARRÊTÉ.** A30, le 2026-09-07 : « **La banque centrale émet la monnaie
+à but régénératif adossée à une dette collective ; son mécanisme de reflux est
+collectif.** » **Le corpus n'a nulle part dit DE QUI cette dette est la dette.**
+
+**POURQUOI CELA NE PEUT PLUS ATTENDRE.** **Règlement (CE) n° 3603/93, article
+premier § 1 b) iii)** : « autre type de crédit » = **« toute opération avec le
+secteur public qui se traduit ou est susceptible de se traduire par une créance
+sur celui-ci »**. **Article 3** : le secteur public comprend « les institutions ou
+organes de la Communauté, les administrations centrales, les autorités régionales
+ou locales, les autres autorités publiques et **les autres organismes ou
+entreprises publics** ».
+
+**L'ALTERNATIVE EST BINAIRE, ET AUCUNE INGÉNIERIE DE L'UNITÉ NE LA DÉPLACE.**
+
+| Terme | Conséquence |
+|---|---|
+| **Le débiteur relève du secteur public** — États membres, institution commune détenue par eux, entreprise publique | **Crédit prohibé de plein droit.** La troisième branche n'exige aucun instrument : elle vise **l'opération et son résultat**. La forme de la monnaie devient indifférente, et l'échappatoire de L20.C02 est sans objet |
+| **Le débiteur n'en relève pas** | **La prohibition ne l'atteint pas du tout**, et quatre chapitres du Livre 10 deviennent sans objet sur ce point. **Mais il reste à dire QUI, hors du secteur public, porte une dette collective mondiale** — le corpus n'en a aucune idée, et c'est peut-être plus difficile que le problème qu'on résout |
+
+**CE QUE LE CORPUS PEUT DIRE, ET C'EST PEU.** L1.C27 fait reposer le seuil
+d'activation sur une **coalition d'États** ; L20.C13 tient un mécanisme
+d'amorçage par **contributions d'États** ; L7 organise une institution
+internationale. **Tout ce que le corpus a écrit oriente vers le premier terme**,
+c'est-à-dire vers celui qui déclenche la prohibition.
+
+**CE QUE L'ARBITRAGE DOIT TRANCHER, EN UNE PHRASE.** *La dette collective est-elle
+une dette DES ÉTATS MEMBRES envers l'institution émettrice, une dette DE
+L'INSTITUTION envers ses membres, ou une obligation portée par LES BÉNÉFICIAIRES
+DE L'ÉMISSION eux-mêmes ?* **Les trois réponses produisent trois dispositifs
+différents, et une seule sort du champ de l'article 123.**
+
+**NE PAS TRANCHER A UN COÛT, ET IL EST DÉSORMAIS CHIFFRABLE EN CHAPITRES.** Quatre
+chapitres du Livre 10 raisonnent sur des cas de figure faute de cette décision ;
+L20.C02 tient une échappatoire défaite ; L18.C06 avait déjà déclaré que le corpus
+« n'a jamais dit quelle entité comptable porterait l'écriture ». **C'est la même
+question, rencontrée par deux livres qui ne se parlaient pas.**

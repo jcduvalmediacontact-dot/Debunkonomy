@@ -219,3 +219,15 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 ::hypothese:: **ET LA CASE FAVORABLE EST SOUS CONDITION JURIDIQUE.** Elle exige un instrument de dette, **dont l'absence fondait l'échappatoire de L20.C02.** **A30 restait bloquant sur un point non juridique — ce qui garantit la dette collective s'érode quand le dispositif réussit. Il en reçoit un second, juridique.**
 
 ::etat:: **Ce que le corpus doit désormais défendre a changé de nature.** Non plus sa légalité — L20.C02 tient la lettre — **mais la compatibilité de son MÉCANISME avec ce que la prohibition protège.** **Porté au protocole sous F4 ter.**
+
+## BALAYAGE DU LIVRE 10, SECONDE TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'ouverture de *Gauweiler* et du règlement (CE) n° 3603/93.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La troisième condition d'A30 reçoit sa suite, et elle se réduit à une question de conception** [L10.C04] [L10.C05]. **Règlement (CE) n° 3603/93, article premier § 1 b) iii)** : « autre type de crédit » = « **toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par une créance sur celui-ci** » — **aucun instrument n'est exigé.**
+
+::hypothese:: **A30 avait arrêté l'adossement à une dette collective sans dire de qui elle est la dette, et ce silence est devenu bloquant.** **Si le débiteur relève du secteur public, l'opération est un crédit prohibé de plein droit ; sinon, la prohibition ne l'atteint pas du tout.** **Arbitrage A35 ouvert.**
+
+::etat:: **Et c'est la même question que L18.C06 avait posée depuis la comptabilité** — « le corpus n'a jamais dit **quelle entité comptable porterait l'écriture** ». **Deux livres qui ne se parlaient pas ont buté sur un seul silence de conception.**
+
+::etat:: **Une précision favorable, portée ici** [L10.C04]. La prohibition a une **portée personnelle** : elle vise les autorités et organismes publics. **Une émission au bénéfice d'acteurs privés conduisant une activité qualifiée n'entre pas dans son champ**, et L10.C03 avait trop dit en soutenant que la certitude du dispositif était prohibée en elle-même.

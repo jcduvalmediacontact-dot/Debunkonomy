@@ -742,3 +742,24 @@ régime des provisions, dont dépend le traitement au coût des titres négociab
 **(4)** Règles comptables de la BRI et du FMI, le corpus généralisant depuis un
 seul système. **(5)** BCE, test de résistance climatique — **déjà dans la
 bibliothèque de l'auteur, non ouvert.**
+
+## Ouverture du 2026-09-07 (nuit, fin) — l'arrêt fondateur et le règlement de définitions
+
+| Source | URL résolue | Ce qu'elle a établi |
+|---|---|---|
+| **CJUE, grande chambre, 16 juin 2015, *Gauweiler e.a.*, C-62/14** | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62014CJ0062` | **PORTÉE PERSONNELLE, point 94** : la prohibition vise les crédits « **aux autorités et aux organismes publics** » et l'acquisition « **directement, auprès d'eux** » d'instruments de **leur** dette. **CORRIGE L10.C03, qui avait trop dit.** **Point 100, objet protégé, plus précis que dans *Weiss*** : éviter qu'un financement monétaire des déficits **ou un accès privilégié des autorités publiques aux marchés financiers** ne conduise à « un endettement excessif ou à des déficits excessifs ». **Point 95** : le rachat **aux créanciers** d'un État reste licite en principe. **Point 96** : l'article 18 § 1 du protocole vise les titres **NÉGOCIABLES**. **Versé à L10.C04** |
+| **Règlement (CE) n° 3603/93 du Conseil du 13 décembre 1993** — définitions nécessaires à l'application des interdictions, JO L 332 | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:31993R3603` | **LA DÉFINITION-BALAI, art. 1 § 1 b) iii)** : « autre type de crédit » = « **toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par une créance sur celui-ci** » — **AUCUN INSTRUMENT N'EST EXIGÉ**, et l'échappatoire de L20.C02 tombe. **b) ii)** : « tout financement d'obligations du secteur public à l'égard de tiers ». **Art. 3** : le secteur public inclut « les autres organismes ou **entreprises publics** ». **Art. 2** : achats de titres négociables hors acquisition directe **uniquement pour la gestion des réserves de change**. **Art. 4** : crédits **intrajournaliers** sans prolongation possible. **Considérants** : les créances **non négociables** sur le secteur public sont un héritage **à convertir en titres négociables à conditions de marché**. **Versé à L10.C05 et à l'arbitrage A35** |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** **Le règlement date de 1993 et vise des articles
+renumérotés** ; le corpus n'a pas vérifié s'il a été modifié depuis, ni s'il
+existe une version consolidée. **Il en tient le texte d'origine, tel que
+*Gauweiler* le vise en 2015** — ce qui établit qu'il était alors en vigueur, non
+qu'il le soit resté sans changement. **C'est la première vérification à faire.**
+
+**RESTENT À ACQUÉRIR, PAR ORDRE.** **(1)** **Version consolidée du règlement
+3603/93**, et l'article 104 § 2 du traité que sa troisième branche réserve.
+**(2)** ***Pringle*, C-370/12**, d'où le point 94 tire la portée personnelle.
+**(3)** **Décision (UE) 2015/774**, articles 3, 4 et 5. **(4)** **Poste de passif
+13 b) de l'annexe IV** — le régime des provisions. **(5)** **BCE, test de
+résistance climatique** — **déjà dans la bibliothèque de l'auteur, non ouvert.**
+**(6)** Règles comptables de la BRI et du FMI.

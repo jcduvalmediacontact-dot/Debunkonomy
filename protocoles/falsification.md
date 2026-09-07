@@ -544,10 +544,52 @@ politique monétaire vers un objet écologique. **Il dit que le corpus doit
 désormais défendre non pas sa légalité, mais LA COMPATIBILITÉ DE SON MÉCANISME
 AVEC CE QUE LA PROHIBITION PROTÈGE** — et qu'il ne l'a jamais fait.
 
-**RÉSERVE DE PÉRIMÈTRE.** *Gauweiler* (C-62/14) n'est pas ouvert, la décision
-2015/774 non plus, **et rien n'établit que le droit de l'Union régisse le
-dispositif.** Le corpus l'instruit parce qu'il est accessible et que L20.C02 s'y
-est placé.
+**RÉVISION DU 2026-09-07 (nuit, suite) — F4 ter ÉTAIT TROP LARGE, ET IL SE
+DÉPLACE.** *Gauweiler* (C-62/14) et le règlement (CE) n° 3603/93 ont été ouverts
+le soir même, après la pose ci-dessus. **Trois corrections en sortent.**
+
+**PREMIÈRE — LA PROHIBITION A UNE PORTÉE PERSONNELLE, ET F4 ter RAISONNAIT COMME
+SI ELLE ÉTAIT GÉNÉRALE.** *Gauweiler*, **point 94** : l'article 123 § 1 interdit
+d'accorder crédits **« aux autorités et aux organismes publics »** et d'acquérir
+**« directement, auprès d'eux »** des instruments de **leur** dette. **Un acteur
+privé conduisant une activité qualifiée n'en est pas un.**
+
+**DEUXIÈME — LE CRITÈRE DE LA CERTITUDE DÉCRIT UNE CHAÎNE, ET LE DISPOSITIF NE LA
+COMPORTE PAS NÉCESSAIREMENT.** *Gauweiler* **point 104** : des opérateurs
+acquièrent **sur le marché primaire auprès d'un émetteur public**, avec la
+certitude du rachat, et agissent ainsi **« de facto, comme des intermédiaires »**.
+**Celui qui obtient une émission parce qu'il a conduit une activité qualifiée n'a
+rien acheté à un émetteur public et ne revend rien.** **La formule « la certitude
+qui fait marcher le dispositif est celle que la Cour interdit » est donc rectifiée
+: la certitude est prohibée LORSQUE LE BÉNÉFICIAIRE DE LA CHAÎNE EST UNE AUTORITÉ
+OU UN ORGANISME PUBLIC — elle ne l'est pas en elle-même.**
+
+**TROISIÈME — ET L'OBJECTION NE DISPARAÎT PAS, ELLE CHANGE DE CÔTÉ DU BILAN.**
+**Ce n'est pas la distribution de l'émission qui heurte l'article 123, c'est LA
+CONTREPARTIE que l'émetteur inscrit à son actif.** Le règlement (CE) n° 3603/93,
+**article premier § 1 b) iii)**, définit « autre type de crédit » comme **« toute
+opération avec le secteur public qui se traduit ou est susceptible de se traduire
+par une créance sur celui-ci »** — **aucun instrument n'est exigé**, et
+l'échappatoire de L20.C02, qui tenait à l'absence d'instrument de dette, tombe.
+**Article 3** : le « secteur public » inclut « les autres organismes ou
+**entreprises publics** ».
+
+**ÉTAT DE F4 ter APRÈS RÉVISION.** **Le test reste valable et son application se
+réduit à UNE QUESTION D'ARCHITECTURE, non de droit** : *le débiteur de la dette
+collective relève-t-il du secteur public ?* **Si oui, l'opération est un crédit
+prohibé de plein droit et aucune ingénierie de l'unité n'y change rien. Si non, la
+prohibition ne l'atteint pas du tout.** **A30 a arrêté l'adossement à une dette
+collective sans dire de qui elle est la dette : c'est ce silence, et non le droit
+de l'Union, qui empêche de conclure.** **Arbitrage A35 ouvert.**
+
+**CE QUI SUBSISTE SANS RÉSERVE.** L'incompatibilité entre **l'opacité agrégée**
+que la Cour retient comme garantie et **la traçabilité** dont L11.C13 fait
+dépendre la lutte contre la fraude à la qualification. **Celle-là ne dépend
+d'aucune qualification du débiteur.**
+
+**RÉSERVE DE PÉRIMÈTRE.** La décision 2015/774 n'est pas ouverte, *Pringle* non
+plus, **et rien n'établit que le droit de l'Union régisse le dispositif.** Le
+corpus l'instruit parce qu'il est accessible et que L20.C02 s'y est placé.
 
 ## F5 — L'antériorité
 
