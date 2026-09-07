@@ -3598,3 +3598,32 @@ déplacent la difficulté plutôt qu'elles ne la suppriment** — vers la
 ratification, vers la gouvernance pondérée, vers la perte de protection, ou vers
 l'héritage d'un mandat étranger. **Et il enregistre que ne pas trancher revient
 à laisser le Livre 20 et le Livre 21 raisonner sur un sujet indéterminé.**
+
+## Règle de méthode — « LIRE LE CORPUS AVANT D'OUVRIR LA NORME »
+
+**VERSÉE LE 2026-09-07 par L21.C07, à la clôture de la première tranche du
+Livre 21, et elle naît d'une autocritique.**
+
+**CE QUI S'EST PASSÉ.** Le Livre 21 a opposé le standard des infrastructures de
+marché au dispositif **pendant quatre chapitres**, en supposant que son unité
+circulait et devait être réglée. **La phrase qui renverse le livre était écrite
+depuis le 2026-09-05, dans L11.C01 § 3** : « l'allocation ne circule jamais [...]
+ce qui circule dans l'économie est de la monnaie nationale ordinaire,
+indiscernable de toute autre ». **Elle n'a été prise au sérieux qu'au cinquième
+chapitre.**
+
+**LA RÈGLE.** *Avant d'opposer un standard externe au dispositif, établir ce que
+l'architecture arbitrée exige réellement, et déclarer explicitement à quelle
+branche l'objection s'applique. Une objection qui ne dit pas de quelle branche
+elle parle n'est pas une objection : c'est un décor.*
+
+**POURQUOI ELLE N'EST PAS UNE ÉVIDENCE.** Le corpus a plusieurs branches ouvertes
+en permanence — A30 et ses quatre branches, A35, A36, et désormais A37. **Une
+objection peut être juste sous une branche et sans objet sous une autre**, et le
+défaut de mention fait passer la seconde pour la première. **C'est la faute
+symétrique de celle que la revue contradictoire du 2026-09-07 a sanctionnée** :
+non plus la sévérité hâtive, mais **la sévérité hors sujet**.
+
+**CE QU'ELLE COÛTE, ET IL FAUT LE DIRE.** Elle allonge chaque chapitre d'une
+déclaration de branche. **Le corpus la retient quand même, parce que la
+constatation de L21.C05 lui a coûté quatre chapitres de portée mal déclarée.**
