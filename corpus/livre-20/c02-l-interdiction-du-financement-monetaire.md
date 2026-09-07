@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -107,3 +107,19 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 ::hypothese:: **Et le paragraphe 2 retourne l'avantage** : le critère du traité est l'égalité de traitement, et **la différenciation est le principe même du dispositif**, non son accident.
 
 ::etat:: **Le corpus ne détient ni le texte en vigueur, ni sa jurisprudence, ni son équivalent hors d'Europe.** L1.C18 § 6 exigeait que ce point soit tranché avant l'exposé du mécanisme ; **il est tranché après, et partiellement.**
+
+---
+
+## A30 ARBITRÉ PAR L'AUTEUR — 2026-09-07
+
+::etat:: **Ce chapitre déclarait que l'objection se déplaçait « sur un terrain où le corpus n'a rien — la qualification juridique de l'unité émise ». L'auteur a tranché le 2026-09-07, et ce chapitre peut désormais conclure.**
+
+::etat:: **Qualification retenue, verbatim** : « La banque centrale émet la monnaie à but régénératif **adossée à une dette collective** ; son mécanisme de reflux est collectif et se fait par des prélèvements sur les transactions. **Ces reflux diffèrent des mécanismes traditionnels de reflux particuliers où l'agent rembourse son crédit.** »
+
+::hypothese:: **La branche mortelle est écartée.** L'unité n'est pas **un titre de créance sur l'institution émettrice** : la dette court dans l'autre sens et son débiteur est collectif. **L1.C20 ne tombe pas**, et la lecture littérale de ce chapitre — une unité qui n'est le crédit de personne ne tombe sous aucune des trois opérations prohibées — **se trouve confirmée plutôt que déplacée.**
+
+::hypothese:: **Le véhicule et le contenu sont distingués** : l'unité serait **un instrument sui generis créé par le traité** (branche iii), **défini comme adossé à une dette collective à reflux collectif** (branche iv). L6.C06 a établi qu'une catégorie irréductible aux types existants fonctionne **pourvu qu'on puisse nommer ses traits.**
+
+::etat:: **CE QUI RESTE BLOQUANT N'EST PLUS JURIDIQUE, et le corpus l'avait déjà enregistré.** Deux points. **Un** : l'arbitrage du 2026-09-05 pose que le reflux « n'est PAS une annulation » et que « la monnaie quitte la circulation **sans être détruite** » — **la dette collective n'est donc pas éteinte mais transférée à l'actif de l'institution**, et une unité gagée sur un flux qu'on encaisse n'est pas le même objet qu'une unité gagée sur une dette qu'on solde. **Deux** : `falsification.md` a retiré le 2026-09-04 un crédit accordé, au motif que la créance portée à l'actif est un droit « sur l'assiette même que le dispositif a pour mission de faire disparaître » — **plus le certificat dit vrai, moins la créance vaut.**
+
+::etat:: **Arbitrage complet en `protocoles/passe-2.md`, section A30. Réparations renvoyées à P55 et P56.**

@@ -2888,6 +2888,77 @@ ne peut le qualifier avant lui. **Le corpus penche pour (ii) et ne détient pas
 l'amendement de 1969 qui a créé les droits de tirage spéciaux.** Acquisition
 prioritaire.
 
+### A30 — ARBITRÉ PAR L'AUTEUR LE 2026-09-07, et une quatrième branche apparaît
+
+**CE QUE L'AUTEUR A TRANCHÉ, verbatim** : « La banque centrale émet la monnaie à
+but régénératif **adossée à une dette collective** ; son mécanisme de reflux est
+collectif et se fait par des prélèvements (fontes) sur les transactions. **Ces
+reflux diffèrent des mécanismes traditionnels de reflux particuliers où l'agent
+rembourse son crédit.** Ce dispositif répond à une critique où la "monnaie sans
+dette" serait une monnaie permanente et donc, inflationniste. » Sur (ii) : « On
+peut l'étudier et s'en inspirer **si c'est pertinent**. » Sur (iii) : « **C'est
+envisageable.** »
+
+**CE QUE CELA RÈGLE — LA BRANCHE (i) TOMBE, ET PROPREMENT.** Elle demandait si
+l'unité est un titre de créance **sur l'institution émettrice**, c'est-à-dire une
+créance que le porteur détiendrait contre l'émetteur. **La réponse est que la
+dette court dans l'autre sens et qu'elle est collective** : l'émission est
+adossée à une dette collective, dont l'extinction ne passe pas par un débiteur
+nommé mais par des prélèvements sur les transactions. **L1.C20 ne tombe pas.**
+
+**ET LA FORMULATION DE L'AUTEUR EST PLUS FORTE QUE CELLE DU VOCABULAIRE.**
+`reflux_collectif` énonce que « l'extinction ne dépend d'**aucun débiteur
+nommé** » ; l'auteur dit « **adossée à une dette collective** ». **Ce n'est pas
+la même chose : la seconde nomme un débiteur, il est simplement pluriel.** À
+répercuter sur le vocabulaire en passe 2.
+
+**QUATRIÈME BRANCHE, ET C'EST LA POSITION DU CORPUS :** *(iv) unité adossée à une
+dette collective, à reflux collectif.* **Elle n'exclut pas (iii) — elle la
+remplit.** L'auteur juge (iii) envisageable ; **(iii) est le véhicule, (iv) est
+le contenu**, et le traité définirait l'unité comme adossée à une dette
+collective à reflux collectif. **L6.C06 a montré qu'une catégorie irréductible
+aux types existants fonctionne** pourvu qu'on puisse nommer ses traits —
+inhérence, opposabilité, indifférence à la publicité.
+
+**SUR (ii), UNE RÉSERVE DE PERTINENCE À PORTER AVANT D'OUVRIR L'AMENDEMENT DE
+1969.** Un droit de tirage spécial **règle entre membres** ; L1.C26 pose que le
+référentiel de change « n'est ni détenu, ni échangé, ni accepté en règlement ».
+**On peut donc s'inspirer de sa MÉCANIQUE D'ALLOCATION sans emprunter sa
+NATURE**, et c'est la lecture du texte qui le dira. Acquisition toujours
+prioritaire, motif changé.
+
+**DEUX POINTS OÙ LA RÉPONSE BUTE, TOUS DEUX DÉJÀ ENREGISTRÉS PAR LE CORPUS, ET
+AUCUN N'EST JURIDIQUE.**
+
+**Le premier est comptable, et il vient d'un arbitrage de l'auteur lui-même.**
+`reflux_transactionnel`, arbitrage du 2026-09-05 : « ce reflux **n'est PAS une
+annulation** [...] **La monnaie quitte donc la circulation sans être détruite.** »
+**Si le reflux ne détruit pas, la dette collective n'est pas éteinte : elle est
+transférée à l'actif de l'institution.** Cohérent avec P26 et L2.E09 — la
+contrepartie est « une créance sur les fontes futures ». **Mais alors l'unité
+n'est pas gagée sur une dette qu'on solde, elle est gagée sur un flux qu'on
+encaisse**, et ce n'est pas le même objet juridique. **À trancher.**
+
+**Le second est celui que `falsification.md` a enregistré le 2026-09-04 en
+RETIRANT un crédit qu'il avait accordé**, et c'est le plus dur : « La créance
+portée à l'actif du GES est un droit sur le produit futur d'un prélèvement assis
+sur les transactions dégénératives — **c'est-à-dire sur l'assiette même que le
+dispositif a pour mission de faire disparaître.** Les deux contreparties du même
+passif reposent sur des hypothèses opposées quant à l'avenir [...] **Plus le
+certificat dit vrai, moins la créance vaut.** »
+
+**CE N'EST PAS UNE OBJECTION À LA QUALIFICATION : C'EST UNE OBJECTION À CE QUI LA
+GARANTIT.** La dette collective à laquelle l'émission est adossée **a une assiette
+qui s'érode par le succès même du dispositif.** Réparations possibles renvoyées à
+**P55 et P56**.
+
+**ÉTAT DE A30 APRÈS CET ARBITRAGE.** **Il cesse d'être une question ouverte et
+devient une question de rédaction** — (iii) comme véhicule, (iv) comme contenu,
+(ii) à lire pour sa mécanique. **Il reste bloquant sur un seul point, et il n'est
+pas juridique** : ce qui garantit la dette collective s'érode quand le dispositif
+réussit. **L20.C02 peut désormais conclure ; L1.C29 et le bouclage ne le peuvent
+pas.**
+
 ---
 
 ## Arbitrage A31 — la protection interne des cadres techniques n'a aucune solution documentée
