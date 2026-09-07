@@ -1476,6 +1476,202 @@ livres:
       présente déclaration : les matricules ne se réattribuent pas, et 19
       demeure disponible pour l'objet auquel la proposition le destine.
 
+  - livre: 19
+    titre: "Comptabilité monétaire de l'émission sans dette"
+    collection: cahier-technique
+    fonction: >
+      Établir les écritures complètes d'une émission sans dette — chez
+      l'émetteur, chez la banque centrale nationale, chez le bénéficiaire — et
+      dire ce que l'unité est à l'actif comme au passif de chacun
+    motifs:
+      - "écart de registre corrigé le 2026-09-07 — le matricule est réservé PAR LE PLAN DIRECTEUR et manquait à cette projection ; convention § 3, le plan tranche"
+      - "arbitrage — A30 et A35 laissent ouvert ce que l'unité est AU PASSIF, et deux livres y ont buté : L10.C06 et L18.C06"
+      - "objection — L11.C02 : l'écriture du Symposium laisse les fonds propres négatifs du montant émis, et l'analogie qui la justifiait était fausse"
+    statut: reserve
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      MATRICULE DÉCLARÉ LE 2026-09-07, ET C'EST UNE CORRECTION D'ECART, NON UNE
+      CREATION. Le plan directeur reserve ce numero a la comptabilite monetaire
+      de l'emission sans dette ; la presente projection ne le portait pas, et un
+      commentaire de fin de fichier presumait meme le numero libre. La regle du
+      paragraphe 3 impose que le plan tranche : le registre est corrige.
+      CE LIVRE PORTE CE QUE LA REVUE CONTRADICTOIRE DU 2026-09-07 A DESIGNE
+      COMME LE TROISIEME DES CINQ OBJETS A VERROUILLER : le passif. Trois jeux
+      d'ecritures completes et separes -- emetteur, banque centrale nationale,
+      beneficiaire -- avec les branches destruction, accumulation et fonds
+      propres negatifs assumes. Sans lui, ni A30 ni A35 ne peuvent se clore.
+
+  - livre: 21
+    titre: "La plomberie financière mondiale"
+    collection: cahier-disciplinaire
+    fonction: >
+      Comprendre comment les paiements, titres, garanties et devises circulent
+      réellement — par quels bilans et quelles infrastructures une transaction
+      mondiale devient-elle définitive
+    motifs:
+      - "discipline — infrastructures de marché : messagerie, compensation, règlement, dépositaires, contreparties centrales"
+      - "manque — L5.C02 a instruit SEPT des vingt-quatre principes du PFMI et le corpus n'a ouvert aucune infrastructure existante : ni coût, ni délai, ni volume d'équilibre"
+      - "objection — L5.C09 : l'infrastructure fournit le rail de la séquence d'entrée, et le corpus ne sait pas où l'unité s'y logerait"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    architecture: >
+      Douze chapitres proposés par l'auteur : message, paiement, compensation et
+      règlement comme quatre opérations distinctes ; monnaie de banque
+      commerciale et monnaie de banque centrale ; banques correspondantes et
+      paiements transfrontaliers ; SWIFT, messagerie, pouvoir de connexion et
+      sanctions ; CLS et le règlement des opérations de change ; Clearstream,
+      Euroclear et les dépositaires centraux ; chambres de compensation et
+      contreparties centrales ; pension livrée et financement garanti ;
+      collatéral, décotes, appels de marge et réutilisation ; dépositaires
+      globaux et chaînes de propriété ; concentration, panne, cyberattaque et
+      continuité ; et où l'unité se logerait exactement dans cette plomberie.
+    note: >
+      FRONTIERE AVEC LE LIVRE 10, POSEE PAR L'AUTEUR ET A TENIR : le Livre 10
+      compare les systemes bancaires et les banques centrales NATIONAUX ; le
+      Livre 21 etudie LES RESEAUX TRANSNATIONAUX QUI LES RELIENT. Les PFMI de la
+      BRI confirment que systemes de paiement, depositaires, systemes de
+      reglement et contreparties centrales forment des infrastructures critiques
+      DISTINCTES. Source d'entree deja au Drive : BIS-PFMI-2012.pdf, dont dix-sept
+      principes restent non instruits.
+
+  - livre: 22
+    titre: "Le pouvoir de la finance non bancaire"
+    collection: cahier-disciplinaire
+    fonction: >
+      Étudier ceux qui allouent le capital hors du crédit bancaire classique —
+      qui décide de l'allocation du capital lorsqu'il ne s'agit plus
+      principalement des banques
+    motifs:
+      - "discipline — gestion d'actifs, fonds de pension, assureurs, fonds souverains, fonds monétaires, fonds spéculatifs, capital-investissement, crédit privé"
+      - "manque — le corpus raisonne sur les banques et les États, et n'a jamais instruit l'acteur qui détient environ la moitié des actifs financiers mondiaux"
+      - "objection — L5.C09 : la protection de l'entrée expire quand la couche déplace des flux, et le corpus ne sait pas qui réagirait ni comment"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    architecture: >
+      Périmètre proposé par l'auteur : gestion active, passive et indicielle ;
+      séparation entre propriétaire économique et gestionnaire ; agences de
+      conseil en vote et gouvernance actionnariale ; fonds de pension et
+      obligations de rendement ; assureurs et engagements de long terme ; fonds
+      monétaires et quasi-monnaie ; fonds spéculatifs, levier et dérivés ;
+      capital-investissement et crédit privé ; titrisation et véhicules hors
+      bilan ; liens entre banques et finance non bancaire ; appels de marge,
+      ventes forcées et risques systémiques ; finance verte, politique de vote
+      et écoblanchiment ; et réaction de ces acteurs à l'unité et à des fontes
+      différenciées.
+    note: >
+      REGLE DE TRAITEMENT POSEE PAR L'AUTEUR ET A TENIR : les gestionnaires
+      dominants figurent comme ETUDES DE CAS, jamais comme sujet du livre.
+      Construire le livre autour d'un nom personnaliserait un mecanisme
+      structurel et exposerait le corpus au soupcon de recit conspirationniste.
+      LA QUESTION EST : QUI DECIDE DE L'ALLOCATION DU CAPITAL QUAND CE NE SONT
+      PLUS PRINCIPALEMENT LES BANQUES.
+      ORDRES DE GRANDEUR FOURNIS PAR L'AUTEUR, NON VERIFIES PAR LE CORPUS : ce
+      secteur represente environ la moitie des actifs financiers mondiaux
+      recenses par le Conseil de stabilite financiere, et les seuls dispositifs
+      de retraite capitalises des pays de l'OCDE representaient 69 800 milliards
+      de dollars fin 2024. Trois references d'entree nommees : FSB, suivi mondial
+      2025 ; FSB, vulnerabilites du credit prive 2026 ; OCDE, Pension Markets in
+      Focus 2025.
+
+  - livre: 23
+    titre: "Fiscalité mondiale, finance offshore et opacité"
+    collection: cahier-disciplinaire
+    fonction: >
+      Examiner qui peut lever le reflux et comment les capitaux peuvent
+      l'éviter — au nom de quelle compétence, avec quels moyens de contrôle, et
+      contre quels mécanismes de contournement
+    motifs:
+      - "arbitrage — A35 : la fonte est levée sur les agents, et le corpus n'a jamais dit QUI LA LÈVE NI DE QUEL TITRE"
+      - "manque — l'ANCRAGE FISCAL, constaté et reporté par arbitrage le 2026-09-04, dont ce livre est la résolution : le registre avait retenu le livre propre comme recommandation"
+      - "objection — L10.C06 pose un arbre de qualification à six branches et huit critères, et le corpus n'en tient aucun"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    architecture: >
+      Quinze chapitres proposés par l'auteur : impôt, taxe, contribution,
+      redevance, frais de réseau et règle monétaire ; souveraineté fiscale et
+      consentement au prélèvement ; ressources propres des organisations
+      internationales ; douanes, prélèvements frontaliers et mécanisme carbone ;
+      conventions fiscales et répartition du droit d'imposer ; prix de transfert
+      et déplacement des bénéfices ; paradis fiscaux et juridictions de secret ;
+      sociétés écrans, trusts et véhicules spéciaux ; bénéficiaires effectifs ;
+      échange automatique d'informations ; blanchiment et flux illicites ;
+      arbitrage réglementaire et concurrence fiscale ; incidence, qui supporte
+      finalement le prélèvement ; convention fiscale des Nations unies en
+      négociation ; et application à la fonte avec ses possibilités de
+      contournement.
+    note: >
+      PREMIER DE L'ORDRE DE PRIORITE ARRETE PAR L'AUTEUR -- 23, 21, 22, 24, 25 --
+      PARCE QU'IL TRANCHE LA DIFFICULTE OUVERTE LE 2026-09-07. L'arbitrage A35 a
+      etabli que la societe entiere porte la dette et que le reflux passe par des
+      fontes graduees ; L10.C06 a montre que la qualification de ce prelevement
+      n'est pas acquise et a pose un arbre a six branches ; ET LE PROBLEME DU
+      SECTEUR PUBLIC, chasse du cote de l'actif, EST REVENU DU COTE DU
+      PRELEVEMENT. Ce livre porte le quatrieme des cinq objets a verrouiller.
+      CE LIVRE RESOUT UN ARBITRAGE REPORTE. Le manque "ancrage fiscal" avait ete
+      constate le 2026-09-04, trois options examinees -- livre propre, rattachement
+      a L3, rattachement a L7 -- et LE LIVRE PROPRE ETAIT LA RECOMMANDATION. La
+      decision differee est prise.
+      PRECEDENT INSTITUTIONNEL NOMME PAR L'AUTEUR : la convention-cadre fiscale
+      en negociation aux Nations unies, particulierement pertinente puisqu'elle
+      montre comment une competence fiscale se construit a l'echelle mondiale.
+      Seconde reference : les travaux OCDE et Forum mondial sur les beneficiaires
+      effectifs et leurs difficultes persistantes.
+
+  - livre: 24
+    titre: "Les conditions matérielles de la vie"
+    collection: cahier-disciplinaire
+    fonction: >
+      Donner au corpus son socle biophysique complet — établir CE QUI DOIT ÊTRE
+      MAINTENU et QUELS SEUILS NE PEUVENT PAS ÊTRE COMPENSÉS FINANCIÈREMENT
+    motifs:
+      - "discipline — climat, biodiversité, eau, sols, cycles de l'azote et du phosphore, énergie, minerais, alimentation, dépendances matérielles"
+      - "manque — L18 explique COMMENT MESURER ; aucun livre ne dit CE QU'IL FAUT MAINTENIR, et L5.C08 raisonne sur des catégories vides"
+      - "objection — L18.C04 : la transition exige plus de trois milliards de tonnes de minéraux, et le corpus ne tient aucune nomenclature d'activités"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      FRONTIERE AVEC LE LIVRE 18, POSEE PAR L'AUTEUR : la comptabilite
+      ecologique du Livre 18 explique COMMENT MESURER ; le Livre 24 etablit CE
+      QUI DOIT ETRE MAINTENU ET QUELS SEUILS NE PEUVENT PAS ETRE COMPENSES
+      FINANCIEREMENT. C'est la difference entre une metrologie et une norme de
+      substance -- et le corpus a passe une journee sur la premiere sans jamais
+      poser la seconde.
+      SOURCES DEJA AU DRIVE ET NON INSTRUITES : PNUE Global Resources Outlook
+      2024, instruit en partie ; SEEA, chapitres 9 a 11 non instruits.
+
+  - livre: 25
+    titre: "Répartition, besoins essentiels et justice sociale"
+    collection: cahier-disciplinaire
+    fonction: >
+      Tester qui paie réellement le dispositif et qui reçoit ses bénéfices —
+      ménages, revenus, patrimoine, accès aux besoins essentiels, services
+      publics, inégalités territoriales, travail de soin, acceptabilité
+      politique
+    motifs:
+      - "objection — L11.C09 a découvert la question de l'incidence sans pouvoir la traiter, et A35 la rend décisive : la fonte est modulée par la décision de chacun"
+      - "arbitrage — A34 : un barème qui dit vrai EXCLUT CEUX QUI NE PEUVENT PAS PAYER, et l'exclusion est maximale là où le signal doit être le plus fort"
+      - "manque — L5.C09 a enregistré comme un MANQUEMENT que la contrainte de rédaction exigeait des coûts humains et qu'aucun chapitre n'en produit"
+    statut: candidat
+    chapitres_annonces: null
+    chapitres_acquis: 0
+    note: >
+      MOTIF ARRETE PAR L'AUTEUR, ET IL EST UNE CONDITION D'ECHEC : un systeme
+      peut etre ECOLOGIQUEMENT COHERENT ET DEVENIR POLITIQUEMENT IMPOSSIBLE s'il
+      frappe les personnes qui n'ont pas la possibilite de modifier leur
+      consommation. C'est exactement ce que A34 a etabli et que L1.C15 nomme
+      l'essentiel insolvable.
+      CE LIVRE PORTE LA DETTE DECLAREE PAR L5.C09 : la contrainte de redaction
+      arretee le 2026-09-04 exigeait des COUTS HUMAINS, et aucun chapitre du
+      Livre 5 n'en a produit -- manquement enregistre, non reserve. Il porte
+      aussi la question renvoyee a L11.C09 par l'arbitrage A35 : QUI PAIE
+      EFFECTIVEMENT une fonte graduee, repercussion comprise.
+
+
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du
@@ -1524,6 +1720,17 @@ livres:
 #       simulation plutôt qu'argumentable ; mais le simulateur n'existe pas.
 #     · Livre propre : surdimensionne une objection réelle mais bornée.
 #
-# Rappel de la règle 3 : si l'un de ces manques devient un livre, il prend le
-# matricule 19 ou suivant. Jamais un numéro laissé libre par un candidat
-# abandonné.
+# CORRIGÉ LE 2026-09-07 — CE RAPPEL PRÉSUMAIT LE MATRICULE 19 LIBRE, ET IL NE
+# L'ÉTAIT PAS. Le plan directeur le réserve à « Comptabilité monétaire de
+# l'émission sans dette » ; cette projection ne le portait pas. Écart corrigé
+# par déclaration du matricule ci-dessus, conformément à la règle du § 3 :
+# EN CAS D'ÉCART, LE PLAN TRANCHE ET LE REGISTRE EST CORRIGÉ, JAMAIS L'INVERSE.
+#
+# ET L'UN DES DEUX MANQUES CI-DESSUS EST RÉSOLU. L'« ancrage fiscal » devient
+# le LIVRE 23, ouvert le 2026-09-07 — ce qui était la recommandation consignée
+# ci-dessus. La décision différée est prise. L'ALÉA MORAL ET L'ÉVICTION restent
+# reportés, sans changement.
+#
+# Rappel de la règle 3 : les livres nouveaux prennent le matricule suivant —
+# 21 et au-delà depuis le 2026-09-07. Jamais un numéro laissé libre par un
+# candidat abandonné, jamais un numéro réservé par le plan directeur.
