@@ -691,3 +691,32 @@ de master** dont le cas d'application est **fictif et déclaré tel**. **Aucune
 critique académique de CARE n'est instruite**, et **aucune application réelle
 d'AfME n'est tenue.** Les articles scientifiques restent demandés :
 `hal-01260004`, `halshs-01260060`, `halshs-01260075`, `hal-03977774`.
+
+## Ouverture du 2026-09-07 (nuit) — le référentiel de banque centrale, ouverture du Livre 10
+
+| Source | URL résolue | Ce qu'elle a établi |
+|---|---|---|
+| **Orientation (UE) 2016/2249 de la BCE du 3 novembre 2016, cadre juridique des procédures comptables et d'information financière dans le SEBC (BCE/2016/34)**, JO L 347/37 | `eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32016O0034` | **ELLE RÉPOND À LA TROISIÈME CONDITION D'A30, ET DANS LE MAUVAIS SENS.** **Art. 6**, trois conditions **cumulatives** : gain ou perte **ÉCONOMIQUE** futur pour l'entité déclarante ; **transfert à celle-ci de l'essentiel des risques et avantages** ; mesure fiable. **AUCUNE BRANCHE DE POTENTIEL DE SERVICE** — le test du secteur privé, que le corpus croyait avoir abandonné à tort le matin même, est pour une banque centrale **celui qui s'applique**, et il est **plus strict qu'IPSAS**. **Art. 9** : valorisation **aux prix courants du marché**, ce qui réintroduit l'objection de L18.C02. **Art. 3, prudence ASYMÉTRIQUE** : plus-values latentes **hors** compte de résultat, moins-values latentes **dedans** — l'avantage attendu d'IPSAS 51 tombe. **Art. 8** : provision décidée par la BCN sur « estimation motivée », **liste de risques sans mention écologique**. **Versé à L10.C01** |
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** **Cette orientation lie l'Eurosystème, pas le
+dispositif.** Elle est retenue comme **le référentiel de banque centrale le plus
+proche et le plus accessible**, non comme un référentiel dont l'applicabilité
+serait établie. **L'annexe IV n'est pas instruite**, alors que l'article 9 y
+renvoie pour toutes les dérogations à la valorisation de marché.
+
+## À acquérir en priorité pour le Livre 10
+
+| N° | Cible | Motif |
+|---|---|---|
+| **1** | **Annexe IV de l'orientation BCE/2016/34** | les **dérogations** à la valorisation aux prix de marché — le corpus tient le principe et non ses exceptions |
+| **2** | **Règles comptables de la BRI et du FMI** | le corpus **généralise depuis un seul système** ; une institution monétaire internationale ressemble plus à celles-là qu'à une BCN |
+| **3** | **BCE, test de résistance climatique à l'échelle de l'économie** — **déjà dans la bibliothèque de l'auteur, NON OUVERT** | si le risque climatique est reconnu comme composante du **risque de crédit**, l'article 8 s'ouvre par cette porte et non par une porte nouvelle |
+| **4** | **Statuts du SEBC, art. 12.1, 14.3, 26.4** — visés par l'orientation | ils fondent la compétence comptable de la BCE, et le corpus ne les tient pas |
+
+**RECTIFICATION D'INVENTAIRE, 2026-09-07.** Le classement par mots-clés annonçait
+**quarante-deux pièces** pour le Livre 10, « **le seul livre réellement doté** ».
+**Vérification faite, le fonds réel se réduit à des fiches de vulgarisation de
+« La finance pour tous » et à un document de la BCE.** **Même surestimation que
+pour le Livre 3**, et dans les mêmes proportions : la réserve de méthode du
+2026-09-07 est confirmée une seconde fois. **Les autres comptes de ce tableau
+doivent être tenus pour gonflés tant qu'ils ne sont pas vérifiés pièce à pièce.**
