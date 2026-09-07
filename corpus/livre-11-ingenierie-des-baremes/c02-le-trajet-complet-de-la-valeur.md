@@ -201,3 +201,15 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
 ::etat:: **La seule dérogation se referme sur elle-même.** **LEV30.7** autorise une exemption **temporaire**, en **circonstances macroéconomiques exceptionnelles**, pour **faciliter la politique monétaire** — **et impose à la juridiction qui l'utilise d'augmenter le minimum « COMMENSURATELY to offset the impact ».** **Elle relocalise le coût, elle ne le supprime pas.**
 
 ::hypothese:: **PORTÉE BORNÉE, ET IL FAUT LA DIRE.** **CRE20.7 pondère à 0 % les expositions sur les banques centrales** : les réserves ne consomment **aucun** capital pondéré. **Le levier est la seule contrainte qui les atteigne, et il ne mord que pour les banques déjà à leur limite.** **Le coût est réel, non uniforme, et il frappe les plus grandes** — celles qui portent en outre le coussin de LEV40.
+
+## BALAYAGE DU LIVRE 21, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C06, qui ouvre la directive de 1998 sur le caractère définitif du règlement.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Ce que la protection ajoute à la créance perpétuelle du § 3, et ce qu'elle n'y ajoute pas** [L21.C06]. **Directive 98/26/CE, article 3 § 1** : les ordres de transfert « produisent leurs effets en droit et, **même en cas de procédure d'insolvabilité à l'encontre d'un participant, sont opposables aux tiers** » s'ils ont été introduits avant l'ouverture.
+
+::hypothese:: **Le besoin de protection est ASYMÉTRIQUE, et l'asymétrie est défavorable.** **Une banque centrale émettrice de sa propre monnaie ne fait pas défaut dans cette monnaie** ; **le seul participant susceptible de faire défaut est l'institution émettrice.** **Donc la partie que la désignation protégerait est LA BANQUE CENTRALE NATIONALE, et le risque couvert est LE DÉFAUT DU SYMPOSIUM.**
+
+::etat:: **La créance reste perpétuelle ; ce que la désignation ajoute est que LES TRANSFERTS DÉJÀ FAITS NE SE DÉFONT PAS.** **C'est peu, et c'est le minimum sans lequel aucune banque centrale n'entrerait** — sans désignation, une banque centrale ayant renvoyé des allocations vers un émetteur ensuite liquidé n'a aucune protection particulière contre le liquidateur.
+
+::hypothese:: **Le dispositif a donc besoin de la désignation NON POUR SA PROPRE SÉCURITÉ, MAIS POUR ÊTRE ACCEPTABLE À SES CONTREPARTIES** — qui sont exactement les institutions qu'il doit convaincre d'adhérer.

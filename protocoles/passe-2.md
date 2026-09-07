@@ -3547,3 +3547,54 @@ n'orientent pas du même côté**, et c'est ce qui rend celui-ci nécessaire.
 raisonnent sur une qualification indéterminée ; **le Livre 19 ne peut pas commencer
 sans savoir si l'unité porte une décote** ; et **L11 ne peut pas calibrer un
 instrument dont il ignore s'il porte sur un stock ou sur un flux.**
+
+## Arbitrage A37 — QUELLE EST LA FORME JURIDIQUE DE L'INSTITUTION ÉMETTRICE ? Un texte vient d'en faire une condition d'existence
+
+**POSÉ LE 2026-09-07 par L21.C06, après ouverture de la directive 98/26/CE.
+ADRESSÉ À L'AUTEUR. Le corpus ne peut pas y répondre : c'est une décision de
+conception, et personne ne l'a jamais prise par écrit.**
+
+**CE QUI REND LA QUESTION INÉVITABLE MAINTENANT.** **Article 2 b) de la
+directive** : est une « institution », donc un participant possible à un
+système bénéficiant de la protection du caractère définitif, **un établissement
+de crédit**, **une entreprise d'investissement**, « **un organisme public, ou une
+entreprise contrôlée opérant sous garantie de l'État** », ou une entreprise
+établie hors de la Communauté dont les fonctions correspondent aux premières.
+**La liste est fermée.**
+
+**L'ÉMETTEUR N'Y ENTRE QUE PAR LA PORTE DE L'« ORGANISME PUBLIC ».** Et le
+corpus ne sait pas s'il y entrerait, **parce qu'il n'a jamais dit ce qu'est
+l'institution émettrice**.
+
+**QUATRE FORMES SONT CONCEVABLES, ET ELLES NE DONNENT PAS LE MÊME DISPOSITIF.**
+
+1. **Organisation internationale créée par traité.** Argument sérieux pour la
+   qualité d'organisme public ; immunités et personnalité juridique
+   internationale ; **mais un traité se négocie et se ratifie**, ce que le
+   Livre 20 chiffre en années, et **le Livre 23 a établi sur un cas réel ce que
+   coûte une négociation multilatérale en cours.**
+2. **Institution financière internationale adossée à des États actionnaires**,
+   sur le modèle des banques de développement. **Capital appelé, gouvernance
+   pondérée** — donc L20.C10 s'applique, et la question du vote revient.
+3. **Fondation ou association de droit national.** **Rapide à constituer, et
+   sans aucun argument** pour la qualité d'organisme public. **La jambe
+   émetteur / banques centrales ne serait alors pas protégeable**, et
+   L21.C06 § 5 dit ce que cela coûte.
+4. **Filiale ou département d'une institution existante** — banque des
+   règlements internationaux, institution multilatérale. **Hérite d'une
+   personnalité et d'un réseau de comptes** ; **hérite aussi de sa gouvernance
+   et de ses mandats**, ce qui est exactement ce que le dispositif cherche à
+   contourner.
+
+**CE QUE LA RÉPONSE COMMANDE, ET C'EST PLUS QUE L21.C06.** Elle décide **de la
+protection du caractère définitif** ; **de la qualification de l'émetteur comme
+infrastructure**, que L21.C01 tenait pour non établie et dont tout le chapitre
+dépendait ; **de la capacité à ouvrir des comptes chez les banques centrales**,
+dont L21.C03 a fait le pivot du circuit ; **et de l'application ou non des
+régimes d'immunité**, que le corpus n'a jamais instruits.
+
+**LE CORPUS N'EXPRIME PAS DE PRÉFÉRENCE.** Il constate que **les quatre formes
+déplacent la difficulté plutôt qu'elles ne la suppriment** — vers la
+ratification, vers la gouvernance pondérée, vers la perte de protection, ou vers
+l'héritage d'un mandat étranger. **Et il enregistre que ne pas trancher revient
+à laisser le Livre 20 et le Livre 21 raisonner sur un sujet indéterminé.**

@@ -183,3 +183,13 @@ renvois: [L1.C18, L1.C22, L1.C26, L1.C27, L11.C04, L11.C06, L11.C08, L11.C10]
 ::hypothese:: **Le dispositif possède ce plan par construction, et c'est un acquis favorable : la fonte EST la liquidation ordonnée.** Il suffit d'arrêter d'émettre et de laisser le barème finir. **Aucune monnaie ordinaire ne peut en dire autant**, son extinction supposant un échange, donc un payeur, donc une ressource.
 
 ::hypothese:: **Mais l'acquis a un prix qui frappe ce chapitre.** **Un barème de fonte qui sert d'engagement de liquidation doit être annoncé à l'avance et tenu.** **Un barème arrêté par une autorité, révisable selon la conjoncture, ne peut pas servir d'engagement.** **Le dispositif doit choisir**, et le corpus enregistre qu'il ne l'a pas fait. Voir L11.C23, qui porte la même contrainte par l'autre bout.
+
+## BALAYAGE DU LIVRE 21, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C06, qui ouvre la directive de 1998 sur le caractère définitif du règlement.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Une autorité apparaît qui n'arrête pas le barème et peut refuser de protéger le système qui l'applique** [L21.C06]. **Directive 98/26/CE, article 2 a)** : un accord n'est un système protégé que s'il est « **désigné [...] en tant que système et notifié à la Commission par l'État membre dont la législation est applicable, APRÈS QUE CET ÉTAT MEMBRE S'EST ASSURÉ DU CARACTÈRE ADÉQUAT DES RÈGLES DE FONCTIONNEMENT DU SYSTÈME** ».
+
+::hypothese:: **LA PROTECTION N'EST PAS UN DROIT : C'EST UNE DÉCISION.** Aucune conformité ne l'ouvre automatiquement. **Et les « règles de fonctionnement » d'un système d'émission incluraient LE BARÈME DE FONTE, la clé de qualification, les conditions du reflux et les droits des banques centrales sur les allocations qu'elles portent.**
+
+::hypothese:: **C'est donc le point de contrôle le plus concret que le corpus ait rencontré : le moment où UN SUPERVISEUR NATIONAL JUGERAIT LA CONCEPTION ENTIÈRE DU DISPOSITIF**, et non ses seuls aspects techniques. **Ce chapitre demandait qui arrête le barème ; voici une autorité qui, sans l'arrêter, peut refuser de protéger le système qui l'applique.**

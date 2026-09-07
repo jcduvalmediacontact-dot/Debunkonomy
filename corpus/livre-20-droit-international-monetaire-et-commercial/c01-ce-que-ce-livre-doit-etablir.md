@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -106,3 +106,13 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C01, L7.C03, L7.C13, L7.C17, L7.C21, L11.C2
 ::etat:: **Trois blocs, venus de trois livres, et aucun instruit là où il est né** : l'existence, l'interdiction — que L1.C18 déclarait à trancher **avant** tout exposé du mécanisme —, et la conformité, dont L7.C17 a établi qu'elle décide du seuil d'activation.
 
 ::etat:: **Neuf textes et aucune doctrine.** Le corpus peut dire ce qu'un texte dispose ; **il ne peut pas dire ce qu'il produit**, et il s'interdit ici l'analogie qui l'a trompé deux fois aujourd'hui.
+
+## BALAYAGE DU LIVRE 21, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L21.C06, qui ouvre la directive de 1998 sur le caractère définitif du règlement.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UNE PIÈCE MANQUANTE DU CORPUS EST RÉVÉLÉE PAR UN TEXTE, ET ELLE RELÈVE DE CE LIVRE** [L21.C06]. **Directive 98/26/CE, article 2 b)** : est une « institution », donc un participant possible à un système protégé, **un établissement de crédit**, **une entreprise d'investissement**, « **un ORGANISME PUBLIC, ou une entreprise contrôlée opérant sous garantie de l'État** », ou une entreprise établie hors de la Communauté aux fonctions correspondantes. **LA LISTE EST FERMÉE.**
+
+::hypothese:: **L'institution émettrice n'y entre que par une seule porte, celle de l'« organisme public »** — **et le corpus ne sait pas si elle y entrerait, PARCE QU'IL N'A JAMAIS DIT CE QU'ELLE EST.** Ni le livre, ni les Cahiers, ni aucun arbitrage ne disent si le Symposium serait **une organisation internationale créée par traité, une institution financière internationale adossée à des États, une fondation de droit national, ou une association.** **Une organisation intergouvernementale a un argument sérieux ; une fondation privée n'en a aucun.**
+
+::hypothese:: **Ce n'est pas un détail administratif, et le corpus l'avait traité comme tel.** **La forme juridique de l'émetteur commande sa capacité à être partie à un système protégé, donc la sécurité juridique de toute la jambe qui porte l'émission.** **A37 est posé à l'auteur sur ce fondement, et ce livre ne peut pas se poursuivre loin sans la réponse.**
