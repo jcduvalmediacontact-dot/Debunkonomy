@@ -1226,6 +1226,82 @@ ouverture, et une attribution faite **sur un titre** : « exorbitant privilege �
 figure dans le titre de 2005, « exorbitant duty » dans celui d'un autre travail.
 **La proximité des titres a suffi.** Quinzième autocorrection du corpus.
 
+
+---
+
+### CORRECTION DU 2026-09-07 — LE RÉSULTAT EST RETROUVÉ, ET IL NE FOURNIT PAS LA SORTIE ATTENDUE
+
+**L'auteur a fourni le 2026-09-07 la synthèse des mêmes auteurs** — P.-O. Gourinchas,
+H. Rey, M. Sauzet, « The International Monetary and Financial System », *Annual
+Review of Economics*, 11, 2019, p. 859-893, **ouverte le jour même**. La
+correction de la veille est confirmée exacte : le devoir exorbitant appartient à
+**Gourinchas, Rey & Govillot 2017**, document de travail que le corpus **ne
+détient toujours pas**.
+
+**LE MÉCANISME, VERBATIM.** « These excess returns in normal times are, however,
+associated with **net wealth transfers to the rest of world in global crisis
+times** [...] These wealth transfers reflect **the provision of insurance by the
+hegemon** to the rest of the world in times of global turmoil, a process that
+Gourinchas et al. (2017) call **exorbitant duty**. » Et la phrase qui décide :
+« the United States is the world insurer, and **the exorbitant privilege is an
+insurance fee being paid in normal times in exchange for an insurance transfer —
+the exorbitant duty — being implemented in global crisis times.** »
+
+**CE QUE CELA FAIT À F6, ET C'EST DÉFAVORABLE.** Le devoir exorbitant **n'est pas
+un coût net** : c'est la jambe de crise d'un contrat d'assurance **dont la jambe
+de temps calme est une prime que l'hégémon encaisse.** Privilège et devoir ne
+sont pas deux forces opposées dont on attendrait que la seconde l'emporte —
+**ce sont les deux termes d'un même échange, et il est prix.**
+
+**La stratégie que le corpus tenait pour la seule plus solide que l'attente d'une
+fenêtre tombe donc pour une raison plus profonde que l'absence de source.**
+« Identifier le moment où la charge excède l'avantage » suppose que les deux
+varient indépendamment. **Ils ne varient pas indépendamment.** Un assureur dont
+les sinistres augmentent ne renonce pas à assurer : **il relève la prime** — et
+le modèle prévoit exactement cela, puisque le privilège se mesure en excédent de
+rendement sur la position extérieure nette.
+
+**SEIZIÈME AUTOCORRECTION, ET ELLE PORTE SUR LA QUINZIÈME.** La quinzième disait :
+le résultat existe ailleurs, F6 n'a plus de sortie documentée. La seizième dit :
+**le résultat existe, il a été retrouvé, et il ne fournit pas la sortie qu'on en
+attendait.** Ouvrir la source aurait corrigé l'attribution ; **il fallait la lire
+pour corriger le raisonnement.**
+
+### UNE SORTIE EXISTE, DANS LE MÊME TEXTE, ET ELLE EST MEILLEURE
+
+**Section 6, « The New Triffin Dilemma », et conclusion** : « as dollar liquidity
+is omnipresent in international markets, it becomes increasingly obvious, **with
+the decline of the relative size of the United States in the world economy, that
+a new Triffin dilemma may emerge.** »
+
+**Le dilemme, restitué d'après Triffin 1961** : ou bien l'émetteur fournit assez
+d'avoirs de réserve et accumule des engagements que sa contrepartie ne couvre
+plus, ce qui ruine la confiance ; ou bien il limite sa fourniture, et le monde
+connaît **« a shortage of reserve assets, which would impede international
+transactions »**.
+
+**POURQUOI C'EST UNE MEILLEURE SORTIE.** Elle est **structurelle** — elle ne
+demande à l'hégémon de décider de rien. Elle est **datée par une tendance
+observable** — la part relative de l'économie du centre. Et elle **ne dépend
+d'aucun calcul coût-avantage**, que le mécanisme d'assurance vient d'invalider.
+
+**TROIS RÉSERVES, ET ELLES SONT SÉRIEUSES.** Les auteurs écrivent **« may
+emerge »** : c'est un pronostic, non un constat. **La solution qu'ils citent
+n'est pas celle du dispositif** — Farhi et al. 2011 et Eichengreen 2011 proposent
+un **système multipolaire à plusieurs monnaies de réserve nationales**, non un
+numéraire non national. **Et L11 a établi que la polycentricité est interdite sur
+D2**, ce qui rend cette solution difficilement compatible avec le dispositif.
+
+**ÉTAT DE F6 AU 2026-09-07 : la condition d'échec n'est pas remplie, et la voie
+de sortie ne mène pas où le dispositif va.** Le nouveau dilemme de Triffin
+fragilise l'ordre existant ; **il ne recommande pas NEMO IMS.** C'est un point
+d'appui, non un plaidoyer — et le corpus tient à la distinction.
+
+**ACQUISITION QUI RESTE PRIORITAIRE** : Gourinchas, Rey & Govillot 2017,
+*Exorbitant privilege and exorbitant duty*, document de travail Berkeley /
+London Business School. Le corpus en tient désormais **la thèse restituée et
+attribuée par ses auteurs**, non le texte.
+
 ## F7 — Le pilotage
 
 **ÉLARGI le 2026-09-05, après L11.C10.** F7 a été écrit pour porter sur le MODE

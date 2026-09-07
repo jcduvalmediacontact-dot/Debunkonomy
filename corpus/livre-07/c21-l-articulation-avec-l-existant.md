@@ -15,6 +15,14 @@ sources_primaires:
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 135 et 150-152 — OUVERT le 2026-09-06. Le Conseil Monétaire « RÉUNIT LES REPRÉSENTANTS DES BANQUES CENTRALES PARTICIPANTES », choix « délibéré » reposant sur l'élargissement du mandat de ces institutions et sur un argument de crédibilité. Et la mission de « traduire cette vision en CADRES JURIDIQUES INTERNATIONAUX CONTRAIGNANTS ». Et la fonction de laboratoire, réunissant « scientifiques, décideurs politiques, entreprises engagées, et représentants de la société civile »"
     date_verification: 2026-09-06
+  - ref: S4
+    nature: theorie
+    reference: "P.-O. Gourinchas, H. Rey, M. Sauzet, « The International Monetary and Financial System », *Annual Review of Economics*, 11, 2019, p. 859-893. **FOURNI PAR L'AUTEUR ET OUVERT LE 2026-09-07** (129 462 caractères de couche texte). **LE RÉSULTAT QUE LE CORPUS CHERCHAIT DEPUIS TROIS EMPLOIS Y EST, ET IL EST ATTRIBUÉ** : « These excess returns in normal times are, however, associated with NET WEALTH TRANSFERS TO THE REST OF WORLD IN GLOBAL CRISIS TIMES, when the value of US safe assets appreciate, while risky asset prices plummet. These wealth transfers reflect THE PROVISION OF INSURANCE BY THE HEGEMON to the rest of the world in times of global turmoil, a process that **Gourinchas et al. (2017) call EXORBITANT DUTY**. » Et la formulation qui décide : « the United States is the world insurer, and **THE EXORBITANT PRIVILEGE IS AN INSURANCE FEE BEING PAID IN NORMAL TIMES IN EXCHANGE FOR AN INSURANCE TRANSFER — THE EXORBITANT DUTY — BEING IMPLEMENTED IN GLOBAL CRISIS TIMES** via the structure of the external portfolio of the United States. » La référence complète est donnée en bibliographie : **Gourinchas P-O, Rey H, Govillot N. 2017. *Exorbitant privilege and exorbitant duty*. Work. Pap., Univ. Calif., Berkeley / London Bus. School** — WORKING PAPER, que le corpus ne détient toujours pas"
+    date_verification: 2026-09-07
+  - ref: S5
+    nature: theorie
+    reference: "Même source, **section 6, « THE NEW TRIFFIN DILEMMA »**, et conclusion — « as dollar liquidity is omnipresent in international markets, it becomes increasingly obvious, **WITH THE DECLINE OF THE RELATIVE SIZE OF THE UNITED STATES IN THE WORLD ECONOMY, THAT A NEW TRIFFIN DILEMMA MAY EMERGE**. One solution, proposed by several authors, such as Farhi et al. (2011) and Eichengreen (2011), is **THE EMERGENCE OF A MORE MULTIPOLAR INTERNATIONAL MONETARY AND FINANCIAL SYSTEM** where multiple [émetteurs] ». Le dilemme originel y est restitué d'après Triffin 1961 : ou bien l'émetteur fournit assez d'avoirs de réserve et accumule des engagements sans contrepartie, ce qui ruine la confiance, ou bien il limite sa fourniture et le monde connaît « **a shortage of reserve assets, which would impede international transactions** ». **OUVERT le 2026-09-07**"
+    date_verification: 2026-09-07
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L7.C08, le frein conservateur : le dispositif emploie sans le nommer le mécanisme du banquier central conservateur, et la seule chambre dont la clé de représentation n'est pas énoncée est le Conseil Monétaire. Et L7.C13 : la sanctuarisation juridique est déclarée CONDITION SINE QUA NON de l'émergence des unités, ce qui subordonne le dispositif à une transformation juridique préalable. Et P.-O. Gourinchas, H. Rey, « From World Banker to World Venture Capitalist », NBER WP 11563, 2005 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 : « We find strong evidence of a sizeable EXCESS RETURN of gross assets over gross liabilities [...] mainly due to a RETURN DISCOUNT [...] a COMPOSITION EFFECT : the US tends to borrow short and lend long. » CETTE SOURCE N'EST PAS CELLE QUE LE CORPUS CROYAIT CITER : elle établit le PRIVILÈGE et non le devoir exorbitant, et le mot « insurance » n'y figure aucune fois. Voir § 6"
@@ -101,7 +109,35 @@ renvois: [L1.C24, L1.C25, L1.C26, L7.C08, L7.C13, L7.C17, L7.C19, L11.C04, L11.C
 
 ::hypothese:: **Le résultat que le corpus emploie existe probablement — il n'est pas dans ce texte.** Il appartient à un travail postérieur des mêmes auteurs, que le corpus **ne détient pas** et n'a jamais cherché.
 
-::hypothese:: **Conséquence, et elle est lourde.** La seule stratégie d'adoption que le corpus tenait pour plus solide que l'attente d'une fenêtre — **identifier le moment où la charge excède l'avantage** — repose sur une source qui établit **que l'avantage est réel, mesuré et croissant**. **F6 n'a plus de voie de sortie documentée.** Elle peut exister ; le corpus ne la tient pas.
+---
+
+### CORRECTION DU 2026-09-07 — LE RÉSULTAT EST RETROUVÉ, ET IL RUINE LA STRATÉGIE QU'ON EN TIRAIT
+
+::etat:: **L'auteur a fourni le 2026-09-07 la synthèse des mêmes auteurs** [S4] — Gourinchas, Rey et Sauzet, *Annual Review of Economics*, 2019 —, **et le devoir exorbitant y est, attribué et daté.** L'autocorrection de la veille est confirmée exacte : le résultat appartient bien à **Gourinchas, Rey et Govillot 2017**, un document de travail que le corpus **ne détient toujours pas**.
+
+::etat:: **Le mécanisme, verbatim** [S4] : les excédents de rendement en temps calme « are [...] associated with **net wealth transfers to the rest of world in global crisis times** [...] These wealth transfers reflect **the provision of insurance by the hegemon** to the rest of the world in times of global turmoil, a process that Gourinchas et al. (2017) call **exorbitant duty**. »
+
+::etat:: **ET LA PHRASE QUI DÉCIDE** [S4] : « the United States is the world insurer, and **the exorbitant privilege is an insurance fee being paid in normal times in exchange for an insurance transfer — the exorbitant duty — being implemented in global crisis times.** »
+
+::hypothese:: **Le corpus doit donc corriger sa correction, et dans le sens défavorable. Le devoir exorbitant N'EST PAS UN COÛT NET.** C'est **la jambe de crise d'un contrat d'assurance dont la jambe de temps calme est une prime que l'hégémon ENCAISSE.** Privilège et devoir ne sont pas deux forces opposées dont on attendrait que la seconde l'emporte : **ce sont les deux termes d'un même échange, et il est prix.**
+
+::hypothese:: **Il en résulte que la stratégie d'adoption tombe pour une raison plus profonde que l'absence de source.** « Identifier le moment où la charge excède l'avantage » suppose que les deux varient indépendamment. **Ils ne varient pas indépendamment : l'avantage EST la rémunération de la charge.** Un assureur dont les sinistres augmentent ne renonce pas à assurer — **il relève la prime**, et le modèle prévoit exactement cela puisque le privilège se mesure en excédent de rendement. **La stratégie ne manquait pas de source : elle reposait sur une erreur de lecture du mécanisme.**
+
+::hypothese:: **Le corpus enregistre que c'est sa SEIZIÈME autocorrection, et qu'elle porte sur la précédente.** La quinzième disait : le résultat existe ailleurs, F6 n'a plus de sortie documentée. **La seizième dit : le résultat existe, il a été retrouvé, et il ne fournit pas la sortie qu'on en attendait.** Ouvrir la source aurait corrigé l'attribution ; **il fallait la lire pour corriger le raisonnement.**
+
+### ET UNE SORTIE EXISTE, DANS LE MÊME TEXTE, MEILLEURE QUE CELLE QU'ON CHERCHAIT
+
+::etat:: **Section 6 et conclusion** [S5] : « with **the decline of the relative size of the United States in the world economy**, [...] **a new Triffin dilemma may emerge.** »
+
+::etat:: **Le dilemme, restitué d'après Triffin 1961** [S5] : ou bien l'émetteur fournit assez d'avoirs de réserve et accumule des engagements que sa contrepartie ne couvre plus, ce qui ruine la confiance ; **ou bien il limite sa fourniture, et le monde connaît « a shortage of reserve assets, which would impede international transactions ».**
+
+::hypothese:: **C'est une meilleure sortie que celle que le corpus cherchait, et pour trois raisons.** Elle est **structurelle** — elle ne demande à l'hégémon de décider de rien. Elle est **datée par une tendance observable** — la part relative de l'économie du centre. Et elle **ne dépend pas d'un calcul coût-avantage** que le mécanisme d'assurance vient d'invalider.
+
+::hypothese:: **Le corpus en pose aussitôt les trois réserves, parce qu'elles sont sérieuses.** Les auteurs écrivent **« may emerge »** — c'est un pronostic, non un constat. **La solution qu'ils citent n'est pas celle du dispositif** : Farhi et al. 2011 et Eichengreen 2011 proposent **un système multipolaire à plusieurs monnaies de réserve nationales**, non un numéraire non national comme le NEMO Exchange Standard. **Et L11 a établi que la polycentricité est interdite sur D2**, ce qui rend la solution de la littérature difficilement compatible avec le dispositif.
+
+::hypothese:: **Le corpus retient donc que F6 a une sortie documentée, qu'elle est meilleure que l'espérée, et qu'elle mène ailleurs.** Le dilemme fragilise l'ordre existant ; **il ne recommande pas le dispositif.** C'est un point d'appui, non un plaidoyer.
+
+---
 
 ::hypothese:: **Le corpus enregistre le mécanisme de l'erreur, parce qu'il est instructif.** Trois emplois, zéro ouverture, et une attribution faite sur un titre : « exorbitant privilege » figure dans le titre de 2005, « exorbitant duty » dans celui d'un autre travail. **La proximité des titres a suffi.** C'est exactement ce que la règle d'ouverture directe adoptée le même jour est faite d'empêcher — **et il a fallu ouvrir la source pour s'en apercevoir.**
 

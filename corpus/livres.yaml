@@ -628,8 +628,8 @@ livres:
       - "rouage — reflux collectif : reflux transactionnel et prélèvement pondéré sur les transactions"
       - "objection — P3, P4, P18 : la promesse la plus lourde du corpus"
     statut: defrichage
-    chapitres_annonces: 26
-    chapitres_acquis: 26
+    chapitres_annonces: null
+    chapitres_acquis: 28
     ecart_signale: >
       2026-09-06 — LE LIVRE DEPASSE SON ANNONCE. Vingt-six chapitres acquis
       pour vingt-cinq annonces. Le vingt-sixieme, L11.C26, rend le livre au
