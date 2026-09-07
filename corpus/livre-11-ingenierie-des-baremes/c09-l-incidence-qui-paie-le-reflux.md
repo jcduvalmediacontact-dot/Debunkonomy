@@ -182,3 +182,13 @@ renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08]
 ::hypothese:: **La question propre à ce chapitre se pose donc à nouveau, un cran plus haut.** **Une banque à sa limite de levier répercute, absorbe, ou refuse.** **Répercuter** signifie facturer le dépôt du prestataire, donc **prélever sur le paiement régénératif lui-même** ; **absorber** signifie lever du capital pour un service non demandé ; **refuser** signifie que le prestataire ne trouve pas de banque, ou n'en trouve qu'une petite. **Aucun des trois n'est le comportement visé**, et c'est exactement la structure que ce chapitre avait établie pour le prélèvement sur les réserves.
 
 ::hypothese:: **Réserve qui limite la portée** : les réserves étant pondérées à 0 % [CRE20.7], **une banque dont la contrainte mordante est le ratio pondéré héberge ces dépôts gratuitement.** **L'incidence ne se produit que chez les banques déjà contraintes par le levier — les plus grandes.**
+
+## BALAYAGE DU LIVRE 22, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C05, qui instruit le troisième instrument de reflux par son assiette la plus grande.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UNE INCIDENCE D'UN TYPE QUE CE CHAPITRE N'A PAS EXAMINÉ : CERTAINE, INDIVIDUELLE ET DIFFÉRÉE** [L22.C05]. **OCDE, « Pension Markets in Focus 2025 »** : les régimes à prestations définies, où l'employeur « **GUARANTEE future benefits** », ne pèsent plus que **31,9 % des actifs de retraite à fin 2024, contre 39,7 % dix ans plus tôt** — et le mouvement « **is ongoing** ».
+
+::hypothese:: **Dans un régime garanti, une perte sur les actifs est absorbée par le garant. Dans un régime à cotisations définies, IL N'Y A PAS DE GARANT : la perte est intégralement supportée par le futur retraité.** **Un prélèvement sur les encours de retraite frappe donc, pour plus des deux tiers des actifs, DES INDIVIDUS SANS AUCUN TAMPON — et la part sans tampon augmente chaque année.**
+
+::etat:: **C'est le CONTRAIRE de ce que ce chapitre a établi pour les autres instruments**, où l'incidence était incertaine, dispersée et susceptible d'être absorbée par un intermédiaire. **Le seul instrument capable de fermer la fuite du reflux est celui dont l'incidence est la plus directe et la moins amortie.**

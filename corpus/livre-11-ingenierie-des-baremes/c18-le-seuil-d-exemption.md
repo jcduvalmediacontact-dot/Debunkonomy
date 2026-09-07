@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-07
 autorite: preparatoire
 citable: false
 regime: conception
@@ -167,3 +167,13 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 ::hypothese:: **Et la correction se paie en financement régénératif** : exempter réduit l'assiette, donc l'enveloppe, donc ce qui peut être financé. **Les deux termes de l'arbitrage sont pour la première fois de même nature**, et le coût est lisible dans l'agrégat qui sert déjà au contrôle du barème de qualification.
 
 ::hypothese:: **Quatre formes possibles, dont une seule sans effet de seuil — la franchise —, qui est aussi la plus coûteuse.** Et **un troisième cas du conflit entre efficacité et légitimité** : publier la fonction du seuil rend son optimisation triviale. **Il est moins grave que les deux autres**, l'optimisation d'un seuil étant bornée par le montant exempté quand celle d'un indicateur de qualification ne l'est pas — ce qui est un argument pour publier. Arbitrage A21.
+
+## BALAYAGE DU LIVRE 22, CINQUIÈME — 2026-09-07
+
+::etat:: **Annotation portée après L22.C05, qui instruit le troisième instrument de reflux par son assiette la plus grande.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **UN SEUIL D'EXEMPTION EST DEMANDÉ À CE CHAPITRE SUR UN OBJET QU'IL N'AVAIT PAS PRÉVU : UN STOCK** [L22.C05]. **OCDE** : **69 800 milliards de dollars** d'actifs affectés à la retraite dans l'OCDE à fin 2024, dont 63 100 gérés par des prestataires et 6 700 en fonds de réserve publics ; **2 900 hors OCDE**.
+
+::hypothese:: **DILEMME POSÉ ET NON TRANCHÉ.** **Frapper** rend le troisième instrument efficace — assiette la plus grande hors banques, concentrée au Nord, **et déjà mesurée**, ce qui lève l'obstacle d'identification — **au prix de pénaliser la seule forme d'épargne que les sociétés ont délibérément organisée pour un besoin essentiel.** **Exempter** est cohérent avec la règle de ce chapitre — la retraite est un besoin essentiel — **mais vide l'instrument de sa partie la mieux mesurée**, ne laissant que celle qui pose le problème d'identification.
+
+::hypothese:: **TROISIÈME VOIE INDIQUÉE, NON INSTRUITE : exempter en dessous d'un seuil PAR PERSONNE et frapper au-dessus** — c'est la structure de ce chapitre appliquée à UN STOCK et non à UN FLUX. **Elle demande la consolidation des encours par détenteur**, dont le corpus tient déjà, depuis la correction du 2026-09-06, **que l'obstacle n'y est pas une interdiction mais un appareil.**

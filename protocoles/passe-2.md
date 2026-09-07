@@ -3627,3 +3627,54 @@ non plus la sévérité hâtive, mais **la sévérité hors sujet**.
 **CE QU'ELLE COÛTE, ET IL FAUT LE DIRE.** Elle allonge chaque chapitre d'une
 déclaration de branche. **Le corpus la retient quand même, parce que la
 constatation de L21.C05 lui a coûté quatre chapitres de portée mal déclarée.**
+
+## Arbitrage A38 — L'ÉPARGNE RETRAITE EST-ELLE DE LA THÉSAURISATION ? Les deux réponses coûtent
+
+**POSÉ LE 2026-09-07 par L22.C05, après ouverture de « Pension Markets in
+Focus 2025 » de l'OCDE. ADRESSÉ À L'AUTEUR : c'est une décision de justice
+distributive, et le corpus n'exprime pas de préférence.**
+
+**CE QUI REND LA QUESTION INÉVITABLE MAINTENANT.** **L22.C02 § 5** a établi que
+les deux instruments de reflux conçus par le corpus — prélèvement sur les
+réserves, assiette de consommation finale — **n'atteignent pas les 51 % des
+actifs financiers mondiaux détenus hors des banques**, et qu'un **troisième
+instrument** serait nécessaire : un prélèvement sur les encours détenus hors du
+système bancaire. **Sa plus grande assiette disponible est l'épargne
+retraite** : **69 800 milliards de dollars dans l'OCDE à fin 2024**, plus 2 900
+hors OCDE.
+
+**LA QUESTION.** *Le demurrage vise à décourager la thésaurisation (L11.C07).
+L'épargne retraite est une thésaurisation ORGANISÉE PAR LA LOI et VOULUE PAR LA
+SOCIÉTÉ. Le dispositif la traite-t-il comme telle ?*
+
+**PREMIÈRE BRANCHE — LA FRAPPER.** **L'instrument devient efficace** : assiette
+la plus grande hors banques ; **concentrée à plus de 70 % en Amérique du Nord**,
+donc corrigeant l'asymétrie géographique que L22.C02 § 4 reprochait aux deux
+autres ; **et déjà mesurée, déclarée, auditée et publiée**, ce qui lève
+l'obstacle d'identification. **LE PRIX** : plus des deux tiers des actifs sont
+désormais dans des régimes **sans garant** — 31,9 % seulement à prestations
+définies à fin 2024, contre 39,7 % dix ans plus tôt — **de sorte que la perte
+est supportée directement par le futur retraité, sans aucun tampon.**
+
+**SECONDE BRANCHE — L'EXEMPTER.** **Cohérent avec L11.C18**, qui borne les
+exemptions par la nature essentielle du besoin couvert. **LE PRIX** :
+**l'exemption vide l'instrument de sa partie la mieux mesurée et la plus facile
+à atteindre**, ne laissant que celle qui pose précisément le problème
+d'identification des détenteurs.
+
+**TROISIÈME VOIE, INDIQUÉE ET NON INSTRUITE.** **Un seuil par personne** —
+exemption en dessous, prélèvement au-dessus. C'est la structure de L11.C18
+appliquée à un STOCK. **Elle demande la consolidation des encours par
+détenteur**, dont le corpus tient déjà que l'obstacle n'est pas une interdiction
+mais un appareil (correction du 2026-09-06, L23.C04).
+
+**CE QUE L'AUTEUR A DÉJÀ DIT ET QUI ORIENTE.** **A35** décrit des fontes
+« graduellement plus fortes » selon **l'impact de la consommation** — ce qui
+vise le flux, non le stock, et **n'oriente donc pas cet arbitrage.** **L1.C15**
+tient l'essentiel pour insolvable, et la retraite est un besoin essentiel — ce
+qui oriente vers l'exemption.
+
+**NE PAS TRANCHER A UN COÛT.** **Le Livre 25 ne peut pas écrire sa répartition
+sans savoir si le dispositif prélève sur l'épargne retraite** ; **et F1 reste
+ouvert dans sa formulation la plus dure** (L22.C02), puisque le seul instrument
+capable de fermer la fuite est celui dont l'assiette est ici en question.
