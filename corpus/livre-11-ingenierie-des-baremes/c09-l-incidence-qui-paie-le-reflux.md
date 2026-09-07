@@ -192,3 +192,11 @@ renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08]
 ::hypothese:: **Dans un régime garanti, une perte sur les actifs est absorbée par le garant. Dans un régime à cotisations définies, IL N'Y A PAS DE GARANT : la perte est intégralement supportée par le futur retraité.** **Un prélèvement sur les encours de retraite frappe donc, pour plus des deux tiers des actifs, DES INDIVIDUS SANS AUCUN TAMPON — et la part sans tampon augmente chaque année.**
 
 ::etat:: **C'est le CONTRAIRE de ce que ce chapitre a établi pour les autres instruments**, où l'incidence était incertaine, dispersée et susceptible d'être absorbée par un intermédiaire. **Le seul instrument capable de fermer la fuite du reflux est celui dont l'incidence est la plus directe et la moins amortie.**
+
+## BALAYAGE DU LIVRE 25 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 25, après lecture directe du Pacte international relatif aux droits économiques, sociaux et culturels.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **L'INCIDENCE QUE CE CHAPITRE ÉTUDIE DEVIENT, DANS CERTAINS CAS, UNE QUESTION DE DROIT** [L25.C01]. **L22.C02** a établi que l'assiette de consommation finale laisse échapper l'épargne et **frappe donc proportionnellement plus ceux qui dépensent tout ce qu'ils reçoivent.** **Le Pacte de 1966 protège le niveau de vie suffisant, l'alimentation et le logement, et son article 4 n'admet de limitation que par la loi, compatible avec la nature du droit, et pour le bien-être général dans une société démocratique.**
+
+::hypothese:: **L'incidence régressive d'un reflux transactionnel n'est donc pas seulement un défaut de conception à corriger : c'est un motif d'opposabilité** dans les États parties. **Le corpus enregistre que la question « qui paie le reflux » a désormais une réponse partielle en droit : pas ceux dont cela entamerait les moyens de subsistance.**

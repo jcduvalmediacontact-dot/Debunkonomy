@@ -177,3 +177,13 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 ::hypothese:: **DILEMME POSÉ ET NON TRANCHÉ.** **Frapper** rend le troisième instrument efficace — assiette la plus grande hors banques, concentrée au Nord, **et déjà mesurée**, ce qui lève l'obstacle d'identification — **au prix de pénaliser la seule forme d'épargne que les sociétés ont délibérément organisée pour un besoin essentiel.** **Exempter** est cohérent avec la règle de ce chapitre — la retraite est un besoin essentiel — **mais vide l'instrument de sa partie la mieux mesurée**, ne laissant que celle qui pose le problème d'identification.
 
 ::hypothese:: **TROISIÈME VOIE INDIQUÉE, NON INSTRUITE : exempter en dessous d'un seuil PAR PERSONNE et frapper au-dessus** — c'est la structure de ce chapitre appliquée à UN STOCK et non à UN FLUX. **Elle demande la consolidation des encours par détenteur**, dont le corpus tient déjà, depuis la correction du 2026-09-06, **que l'obstacle n'y est pas une interdiction mais un appareil.**
+
+## BALAYAGE DU LIVRE 25 — 2026-09-07
+
+::etat:: **Annotation portée à l'ouverture du Livre 25, après lecture directe du Pacte international relatif aux droits économiques, sociaux et culturels.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **LE SEUIL D'EXEMPTION QUE CE CHAPITRE ORGANISE N'EST PAS UNE BONNE PRATIQUE : DANS LES ÉTATS PARTIES, C'EST UNE CONDITION DE LICÉITÉ** [L25.C01]. **Pacte international relatif aux droits économiques, sociaux et culturels, en vigueur depuis le 3 janvier 1976, article 11 § 1** : « the right of everyone to **an adequate standard of living** [...] **including adequate food, clothing and housing** ».
+
+::hypothese:: **Un prélèvement qui réduirait l'accès des plus pauvres à une nourriture, un vêtement ou un logement suffisants MET EN CAUSE UN DROIT PROTÉGÉ.** Il doit alors satisfaire le test de l'**article 4** : être « **determined by law** », « **compatible with the nature of these rights** », et justifié « **solely for the purpose of promoting the general welfare in a democratic society** ».
+
+::etat:: **ET UNE BORNE QUE MÊME CE TEST NE FRANCHIT PAS. Article 1 § 2** : « **In NO CASE may a people be deprived of ITS OWN MEANS OF SUBSISTENCE.** » **Clause placée avant tout le reste, rédigée sans exception, et qui ne dit pas « sauf nécessité écologique ».**
