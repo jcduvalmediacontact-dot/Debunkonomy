@@ -1394,7 +1394,13 @@ livres:
       dont dépend toute l'allocation de L1.C18 § 5 : si le solde national ne
       peut pas être calculé avec une incertitude compatible avec un versement,
       le mécanisme ne fonctionne pas.
-
+      CHAINE DES TROIS LIVRES BIOPHYSIQUES, ARRETEE PAR L'AUTEUR LE 2026-09-07 ET
+      INSCRITE SANS TOUCHER AUX NUMEROS -- convention paragraphe 3, l'ordre et le
+      sens se changent dans collection et motifs, jamais par renumerotation :
+      L26 ETABLIT LES CONTRAINTES PHYSIQUES, puis L24 DETERMINE LES CONDITIONS ET
+      SEUILS A MAINTENIR, puis L18 ORGANISE LEUR MESURE. Le numero n'est pas un
+      rang : la chaine est logique, l'ordre de declaration est chronologique, et
+      les deux ne coincident pas.
   - livre: 20
     titre: "Droit international public, droit monétaire et commercial de la réforme"
     collection: cahier-disciplinaire
@@ -1643,7 +1649,13 @@ livres:
       poser la seconde.
       SOURCES DEJA AU DRIVE ET NON INSTRUITES : PNUE Global Resources Outlook
       2024, instruit en partie ; SEEA, chapitres 9 a 11 non instruits.
-
+      CHAINE DES TROIS LIVRES BIOPHYSIQUES, ARRETEE PAR L'AUTEUR LE 2026-09-07 ET
+      INSCRITE SANS TOUCHER AUX NUMEROS -- convention paragraphe 3, l'ordre et le
+      sens se changent dans collection et motifs, jamais par renumerotation :
+      L26 ETABLIT LES CONTRAINTES PHYSIQUES, puis L24 DETERMINE LES CONDITIONS ET
+      SEUILS A MAINTENIR, puis L18 ORGANISE LEUR MESURE. Le numero n'est pas un
+      rang : la chaine est logique, l'ordre de declaration est chronologique, et
+      les deux ne coincident pas.
   - livre: 25
     titre: "Répartition, besoins essentiels et justice sociale"
     collection: cahier-disciplinaire
@@ -1684,6 +1696,7 @@ livres:
       - "discipline — économie biophysique : Georgescu-Roegen, analyse énergétique, retour énergétique sur investissement, exergie, dissipation"
       - "objection — L18.C04 : aucune preuve de découplage absolu généralisé n'est observée, et le corpus ne sait pas si l'obstacle est économique ou THERMODYNAMIQUE"
       - "objection — `effet_rebond` et `jevons_monetaire` sont au vocabulaire ; le corpus les invoque sans tenir l'argument physique qui les fonde"
+      - "falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter"
     statut: candidat
     chapitres_annonces: null
     chapitres_acquis: 0
@@ -1703,9 +1716,13 @@ livres:
       utilite marginale, aucun sur CE QUE LA PHYSIQUE AUTORISE.
       A INSTRUIRE EN PRIORITE : la these de Georgescu-Roegen, que le corpus cite
       quatre fois dans L1.C03 SANS L'AVOIR OUVERTE.
-
-
-
+      CHAINE DES TROIS LIVRES BIOPHYSIQUES, ARRETEE PAR L'AUTEUR LE 2026-09-07 ET
+      INSCRITE SANS TOUCHER AUX NUMEROS -- convention paragraphe 3, l'ordre et le
+      sens se changent dans collection et motifs, jamais par renumerotation :
+      L26 ETABLIT LES CONTRAINTES PHYSIQUES, puis L24 DETERMINE LES CONDITIONS ET
+      SEUILS A MAINTENIR, puis L18 ORGANISE LEUR MESURE. Le numero n'est pas un
+      rang : la chaine est logique, l'ordre de declaration est chronologique, et
+      les deux ne coincident pas.
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du

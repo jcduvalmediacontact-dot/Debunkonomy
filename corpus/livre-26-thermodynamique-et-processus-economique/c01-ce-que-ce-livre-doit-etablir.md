@@ -13,7 +13,7 @@ regime: descriptif
 sources_primaires:
   - ref: S1
     nature: theorie
-    reference: "**`corpus/livres.yaml`, matricule 26** — projection du plan directeur de l'auteur. **Titre** : Thermodynamique, énergie et processus économique. **Collection** : cahier-disciplinaire. **Statut du livre** : candidat. **Fonction assignée** : Établir ce que les lois de la thermodynamique imposent à un processus économique, et ce qu'elles interdisent à toute conception monétaire qui prétend régénérer — la question n'étant pas ce que le dispositif coûte, mais ce que l'énergie et la matière rendent possible. **Motifs** : **manque — `entropie` figure au vocabulaire depuis la première occurrence L1.C03 et AUCUN LIVRE NE LE PORTE ; le concept est employé dans six chapitres du Livre 1 et un du Livre 2, sans instruction** ; **discipline — économie biophysique : Georgescu-Roegen, analyse énergétique, retour énergétique sur investissement, exergie, dissipation** ; **objection — L18.C04 : aucune preuve de découplage absolu généralisé n'est observée, et le corpus ne sait pas si l'obstacle est économique ou THERMODYNAMIQUE** ; **objection — `effet_rebond` et `jevons_monetaire` sont au vocabulaire ; le corpus les invoque sans tenir l'argument physique qui les fonde**"
+    reference: "**`corpus/livres.yaml`, matricule 26** — projection du plan directeur de l'auteur. **Titre** : Thermodynamique, énergie et processus économique. **Collection** : cahier-disciplinaire. **Statut du livre** : candidat. **Fonction assignée** : Établir ce que les lois de la thermodynamique imposent à un processus économique, et ce qu'elles interdisent à toute conception monétaire qui prétend régénérer — la question n'étant pas ce que le dispositif coûte, mais ce que l'énergie et la matière rendent possible. **Motifs** : **manque — `entropie` figure au vocabulaire depuis la première occurrence L1.C03 et AUCUN LIVRE NE LE PORTE ; le concept est employé dans six chapitres du Livre 1 et un du Livre 2, sans instruction** ; **discipline — économie biophysique : Georgescu-Roegen, analyse énergétique, retour énergétique sur investissement, exergie, dissipation** ; **objection — L18.C04 : aucune preuve de découplage absolu généralisé n'est observée, et le corpus ne sait pas si l'obstacle est économique ou THERMODYNAMIQUE** ; **objection — `effet_rebond` et `jevons_monetaire` sont au vocabulaire ; le corpus les invoque sans tenir l'argument physique qui les fonde** ; **falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter**"
     date_verification: 2026-09-07
 verifications_en_attente:
   - "AUCUNE SOURCE N'EST OUVERTE POUR CE LIVRE, et aucun chapitre n'est écrit.
@@ -47,6 +47,8 @@ renvois: []
 ::etat:: **Motif inscrit au registre** : objection — L18.C04 : aucune preuve de découplage absolu généralisé n'est observée, et le corpus ne sait pas si l'obstacle est économique ou THERMODYNAMIQUE.
 
 ::etat:: **Motif inscrit au registre** : objection — `effet_rebond` et `jevons_monetaire` sont au vocabulaire ; le corpus les invoque sans tenir l'argument physique qui les fonde.
+
+::etat:: **Motif inscrit au registre** : falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter.
 
 ## 2. Ce que ce chapitre n'est pas
 

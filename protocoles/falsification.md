@@ -2230,5 +2230,81 @@ comptables, le droit monétaire ou la métrologie **rend le dispositif plus soli
 sans le rendre plus nécessaire**. **F10 se réfute par une comparaison d'instruments,
 et le corpus n'en a conduit aucune.**
 
+## F11 — La contrainte physique
+
+**POSÉ LE 2026-09-07 (nuit), SUR ARBITRAGE DE L'AUTEUR**, à la déclaration du
+matricule 26. **L'auteur en a fixé la proposition** : *si une contrainte physique
+interdit le résultat attendu, une meilleure orientation monétaire ne peut pas, à
+elle seule, la lever.*
+
+**CE QUI LE DISTINGUE DES DIX AUTRES, ET IL FAUT LE POSER D'ABORD.** F1 à F9
+demandent si le dispositif **peut** fonctionner — calibrer, mesurer, tenir devant
+le droit, emporter l'adoption, piloter, résister au désarmement, trouver un titre.
+**F10 demande s'il est nécessaire**, un autre instrument pouvant suffire à moindre
+coût. **F11 demande si L'OBJET LUI-MÊME EST ATTEIGNABLE**, par quelque instrument
+d'allocation que ce soit. **Les trois questions sont étagées** : le dispositif
+peut-il agir, faut-il qu'il agisse, **et l'action visée est-elle possible.**
+
+**CONDITION D'ÉCHEC.** *Qu'une contrainte physique — bilan énergétique net,
+disponibilité matière, production d'entropie, taux de régénération biologique —
+rende inatteignable le résultat que le dispositif vise, quelle que soit
+l'orientation des flux monétaires. Si elle tient, le dispositif ne se trompe ni
+d'intensité ni d'instrument : IL SE TROMPE D'OBJET, et aucune réforme monétaire ne
+le corrige.*
+
+**POURQUOI IL VISE CE CORPUS EN PARTICULIER.** **La théorie du changement du
+dispositif est une théorie D'ALLOCATION** : le problème serait que l'argent va dans
+le mauvais sens, et L18.C09 vient d'en donner la mesure — **7 300 milliards de
+flux dommageables contre 220 milliards vers la nature, rapport de plus de 30
+pour 1.** **Si la contrainte mordante est physique et non allocative, ce diagnostic
+est faux à la racine**, et tout ce que le corpus a établi sur les normes
+comptables, le droit monétaire et la métrologie **resterait exact et deviendrait
+sans emploi.**
+
+**CE QUE F11 NE DIT PAS, ET LE BORNAGE EST ESSENTIEL.**
+
+**(1) Il ne dit pas que la monnaie serait indifférente.** Une limite physique sur
+un total **ne rend pas l'allocation indifférente : elle la rend PLUS
+conséquente**, puisque ce qui est pris à un usage n'est plus disponible pour un
+autre. **Une contrainte de quantité renforce l'argument de l'orientation ; elle en
+détruit seulement la SUFFISANCE.**
+
+**(2) Il ne dit pas que la contrainte est mordante** — c'est précisément ce qui
+reste à établir, et le corpus **n'en tient aucun élément**.
+
+**(3) Il ne confond pas L'IMPOSSIBLE et LE COÛTEUX.** Un procédé à rendement
+énergétique défavorable n'est pas interdit par la thermodynamique : il est cher.
+**F11 ne se déclenche que sur une impossibilité ou sur un coût énergétique
+supérieur au gain visé**, non sur une difficulté.
+
+**(4) Il ne réfute pas le diagnostic écologique du corpus.** Si la contrainte est
+mordante, **la thèse de la sobriété et des limites planétaires en sort renforcée**
+— c'est **l'instrument monétaire** qui devient second devant une contrainte de
+quantité, non l'analyse du monde. **F11 vise la suffisance de l'outil, pas la
+justesse du constat.**
+
+**CE QUI L'ÉTABLIRAIT OU LE RÉFUTERAIT, ET C'EST UN PROGRAMME EMPIRIQUE.** Le
+retour énergétique net des substituts sur lesquels L11.C10 indexe sa trajectoire ;
+**les besoins matière par unité de capacité régénérative** ; les taux de
+régénération biologique comparés aux taux de prélèvement ; **et la question
+décisive : l'écart de 351 milliards par an établi en L18.C09 correspond-il à une
+quantité d'énergie et de matière physiquement disponible ?** **Le corpus n'a
+jamais posé cette question sous forme physique.**
+
+**DEUX FAITS QUE LE CORPUS TIENT DÉJÀ ET QUI POINTENT VERS F11 SANS LE TRANCHER.**
+**L18.C04** : « there has so far been **no evidence of widespread absolute
+decoupling at the global level** » — **et le corpus ne sait pas si l'obstacle est
+économique ou thermodynamique.** **Et la transition exige « over three billion
+tonnes of energy transition minerals and metals »**, quantité dont le corpus n'a
+jamais vérifié la disponibilité physique.
+
+**POURQUOI F11 EST DANGEREUX D'UNE MANIÈRE PROPRE.** **Comme F10, il ne se réfute
+par aucun des travaux menés jusqu'ici** — mieux instruire le droit ou la
+comptabilité ne dit rien de ce que l'énergie autorise. **Mais là où F10 se réfute
+par une comparaison d'instruments, F11 se réfute par des grandeurs physiques**, et
+il relève du **Livre 26**, ouvert le même jour et **dont aucun chapitre n'est
+instruit**. **Le corpus a nommé la condition avant d'avoir la discipline qui la
+teste.**
+
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.

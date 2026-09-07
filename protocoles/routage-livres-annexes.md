@@ -244,6 +244,39 @@ sous laquelle la proposition n'est pas une redécouverte.
 
 ---
 
+## Trois falsifieurs posés le 2026-09-07, et leur routage
+
+**F9, F10 et F11 ont été posés le même jour.** Les deux derniers ont une propriété
+que les neuf précédents n'avaient pas, et cette table doit la porter : **ils ne se
+réfutent par aucun des travaux menés jusqu'ici.**
+
+| Falsifieur | Ce qu'il demande | Livre qui le porte | État du livre |
+|---|---|---|---|
+| **F9 — LE TITRE** | à quel titre une institution émettrice serait-elle titulaire d'un droit sur un fonds qu'elle ne possède pas | **L18**, avec renvoi à **L6** pour le droit des biens | **ouvert**, neuf chapitres |
+| **F10 — LA SUPERFLUITÉ** | ce que le dispositif apporte qu'un instrument déjà disponible n'apporte pas | **L23**, fiscalité et prélèvement ; et **L5**, concurrence des alternatives | **amorce seule** |
+| **F11 — LA CONTRAINTE PHYSIQUE** | si l'objet visé est atteignable, par quelque instrument d'allocation que ce soit | **L26**, thermodynamique | **amorce seule** |
+
+**CE QUE CETTE LIGNE RÉVÈLE, ET IL FAUT L'ÉCRIRE.** **Les deux falsifieurs les plus
+récents sont portés par des livres dont aucun chapitre n'est instruit.** Le corpus
+a **nommé deux conditions d'échec avant d'avoir les disciplines qui les testent**
+— ce qui est préférable à l'inverse, mais laisse **deux falsifieurs sans instance
+où plaider.**
+
+**ET LES TROIS QUESTIONS SONT ÉTAGÉES, non concurrentes.** **F1 à F9** : le
+dispositif **peut-il** agir. **F10** : **faut-il** qu'il agisse, un autre
+instrument pouvant suffire. **F11** : **l'action visée est-elle possible**, quelle
+que soit l'allocation. **Un dispositif peut passer les neuf premiers et tomber sur
+l'un des deux derniers**, et c'est le cas d'échec que le corpus n'avait pas
+prévu — **réussir la conception et se tromper d'objet.**
+
+**LA CHAÎNE BIOPHYSIQUE, arrêtée par l'auteur le 2026-09-07** : **L26 établit les
+contraintes physiques → L24 détermine les conditions et seuils à maintenir → L18
+organise leur mesure.** **Le numéro n'est pas un rang** : la chaîne est logique,
+l'ordre de déclaration est chronologique, et les deux ne coïncident pas
+(convention § 3).
+
+---
+
 ## Les orphelins
 
 ### ~~A8 — Le chantier des barèmes~~ — SORTI DES ORPHELINS
