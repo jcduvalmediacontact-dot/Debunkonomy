@@ -505,3 +505,74 @@ attendre d'un livre non écrit.**
    de l'humanité est le corpus juridique le plus proche de ce que L7.C13
    demande. **Les deux livres travaillent sur des matières voisines sans se
    parler.**
+
+---
+
+### Couplage — ce que le Livre 6 rend aux Livres 1, 11 et 20
+
+**2026-09-07.** Le couplage précédent se fermait sur une demande : « **Que le
+Livre 6 soit consulté avant la passe 2 du Livre 20** […] les deux livres
+travaillent sur des matières voisines sans se parler. » **L6.C06 y répond le
+lendemain**, depuis trois entrées du registre transversal. Les chapitres du
+Livre 20 visés **ne sont pas encore annotés** : charge de la passe suivante.
+
+| Ce que le Livre 20 tenait | Ce que le Livre 6 établit | Où |
+|---|---|---|
+| L20.C16 déclarait son propre manque : « **aucun autre régime de commun n'est ouvert** […] le corpus généralise depuis **un seul cas**, et ce cas porte sur des **ressources minérales**, non sur une capacité de charge » | **Trois autres régimes entrent au corpus, et le manque est comblé.** Aucun ne porte sur des minéraux : deux portent sur des terres, un sur une forêt | L6.C06 |
+| L20.C16 cherchait une **catégorie juridique** du commun hors droit de la mer | **La loi italienne n° 168 du 20 novembre 2017 en fournit une plus complète que celle de 1982**, et elle a été **ouverte sur son texte** : inaliénabilité, **indivisibilité, inusucapibilité et destination perpétuelle** (art. 3 § 3, verbe **« resta »** — la loi ne crée pas le régime, elle constate qu'il continue). Là où le régime des fonds marins interdit de vendre, celui-ci interdit **de partager, de laisser prescrire et de changer l'usage**, sur six catégories de terres **plus les corps d'eau**. **RÉSERVE, et elle est du texte** : la Cour constitutionnelle, arrêt n° 119 des 11 mai-15 juin 2023, **a déclaré cet article inconstitutionnel en tant qu'il n'excluait pas les terres de propriétaires privés** | L6.C06 § 1, § 2 |
+| L20.C17 avait établi qu'une sanctuarisation à trois registres **n'avait pas tenu douze ans**, et laissait ouverte la question : quelle technique juridique résiste à un rapport de forces qui change ? | **Une réponse, et elle ne passe pas par une clause d'intangibilité : CELLE DONT LES VERROUS NE RELÈVENT PAS DU MÊME TEXTE.** Les trois registres de 1982 tenaient d'un texte unique et sont tombés ensemble. En Italie, le verrou de propriété a été **amputé en 2023** ; **la contrainte PAYSAGÈRE, due à un autre code** (art. 142 § 1 h du d.lgs. 42/2004), **a survécu — et la loi la maintient expressément « anche in caso di liquidazione degli usi civici »**, c'est-à-dire au-delà de l'extinction du droit qu'elle accompagne | L6.C06 § 3 |
+| L20.C14 établissait qu'une institution conventionnelle interprète son propre traité **sans juge extérieur**, et le corpus tenait ce défaut pour le maillon manquant | **Le degré supérieur est documenté, et il ne suffit pas.** Dans l'affaire Ogiek, une juridiction extérieure existe, elle a jugé (2017), chiffré (2022), ordonné délimitation et titrage, puis **constaté l'inexécution par une procédure dédiée** (4 décembre 2025) — et la décision de conformité n'a d'autre contenu **qu'une nouvelle injonction**. Rien d'exécuté au 30 août 2026. **Le juge n'était pas le maillon manquant** | L6.C06 § 4 |
+
+**AU LIVRE 11 — une symétrie, et elle vaut règle de conception.**
+
+| Ce que le Livre 11 tenait | Ce que le Livre 6 établit | Où |
+|---|---|---|
+| L11.C29 établit qu'un seuil sans barème de sanctions devient un plancher, et que la pièce décisive est **la dérogation qui expire** : le défaut se rétablit par l'inaction | **Le mécanisme inverse est documenté en droit des biens, et il produit le même effet.** Une disposition de 1959 créait des sections de commune **de plein droit** ; leur extinction exige **un acte formel** que personne n'a pris. **Ce qui naît sans décision ne meurt que par décision** — et l'inertie joue alors pour le commun. **Dans les deux cas, la conception place l'inertie du bon côté**, et c'est peut-être la seule technique qui ne dépende d'aucun rapport de forces | L6.C06 § 3 |
+| L11.C16 établit que la valorisation des communs est **un partage borné par le produit** | **La figure existe en droit positif et le corpus ne l'avait pas** : art. 2 § 1, la République « tutela e **VALORIZZA** » ces biens comme « fonte di risorse rinnovabili da valorizzare ed utilizzare **a beneficio delle collettività locali degli aventi diritto** » — partage borné, **bénéficiaire nommé, et ce n'est pas l'État.** S'y ajoute l'art. 1er § 1, qui qualifie le patrimoine naturel de « **comproprietà inter-generazionale** » | L6.C06 § 1 |
+| L11 fait peser des charges sans avoir instruit **sur qui elles mordent juridiquement** | **LE COÛT EST NOMMÉ PAR LE REGISTRE ET MESURÉ PAR LE TEXTE.** Règle impérative : « un commun opposable est un commun qui **pèse sur des propriétaires réels** ». Le cas italien dit ce qui arrive quand il pèse : **la juridiction constitutionnelle coupe exactement la part qui grevait des propriétaires privés** (2023), et laisse intacte celle qui grève des biens publics ou collectifs. **Six ans.** Toute charge que le corpus ferait porter à un commun sur un droit de propriété privé existant doit être construite en anticipant ce contrôle | L6.C06 § 2 |
+| L11.C29 tient la dérogation qui expire pour la pièce décisive | **Une seconde façon d'empêcher qu'une dérogation solde la contrainte** : art. 3 §§ 8-bis à 8-quater — sortie possible mais **définitive et seulement partielle**, sur transformation irréversible **antérieure à une loi de 1985** (date-butoir qui interdit de fabriquer le fait générateur après coup), échange à « superficie e **valore ambientale equivalenti** », **et contrainte paysagère maintenue sur les terres libérées.** Précédent de rédaction pour les barèmes à équivalence | L6.C06 § 4 |
+
+**AU LIVRE 1 — une application de deux chapitres, qu'aucun des deux n'avait vue.**
+
+| Ce que le Livre 1 tenait | Ce que le Livre 6 établit | Où |
+|---|---|---|
+| L1.C07 : le crédit s'octroie sur **solvabilité anticipée** ; L1.C09 : l'autorité d'octroi du crédit est **la première des règles jamais énoncées** de l'architecture invisible | **Le créancier ne décide pas seulement de ce qui se finance : IL DÉCIDE DE CE QUI PEUT ÊTRE PROTÉGÉ.** L'obligation réelle environnementale (art. L. 132-3 c. env., jusqu'à 99 ans, charge attachée au bien) est **subordonnée à l'accord du créancier hypothécaire**, « lequel n'a pas intérêt à y consentir puisque **la charge déprécie l'assiette de sa sûreté** ». **Le mécanisme est propre : la sûreté est un droit acquis, la dépréciation est réelle, le refus est rationnel** | L6.C07 § 2 |
+| L1.C11 énonce la troisième malédiction en termes macroéconomiques | **Elle s'énonce ici en droit des biens, sur un cas** : réparer la dette écologique exige une charge, la charge déprécie le gage, **et le gage a un titulaire qui a le droit de dire non** | L6.C07 § 2 |
+| Le corpus n'a **aucun instrument dont le terme soit écrit par une variable physique** | **Le bail réel d'adaptation à l'érosion côtière** (ord. n° 2022-489, art. L. 321-18 à L. 321-33 c. env.) : durée « **en fonction de l'état des connaissances quant à l'évolution prévisible du recul du trait de côte** », **résiliation de plein droit** au constat que la sécurité ne peut plus être assurée, renaturation finale **aux frais du preneur**, ordre public déclaré — **et il ne demande l'accord de personne.** Son objet est pourtant **un retrait**, non une conservation | L6.C07 § 4 |
+| Le corpus suppose le contrôle constitutionnel neutre entre agir et laisser faire | **Il ne l'est pas, et deux ordres juridiques le disent.** Conseil constitutionnel 2018 : l'expropriation ayant « pour objet principal de priver le propriétaire de son bien », **ne pas y procéder ne prive de rien** — le propriétaire emporté par la mer n'a pas de grief. Corte costituzionale 2023 : le propriétaire **à qui l'on impose une charge** en a un. **Le contrôle mord sur l'acte, pas sur le fait** ; **un mécanisme qui laisse faire est constitutionnellement plus tranquille qu'un mécanisme qui contraint** | L6.C07 § 5, L6.C06 § 2 |
+
+**RÈGLE DE CONCEPTION TIRÉE DE LA COMPARAISON DES DEUX TIERS, et elle vaut pour
+tout le corpus.** Le preneur à bail rural, **à qui la loi a écrit une
+procédure**, détient un veto **borné** : deux mois, silence valant acceptation,
+refus motivé. Le créancier hypothécaire, **sur lequel la loi s'est tue**, détient
+un veto **sans limite** : ni délai, ni présomption, ni motivation. **UNE
+PROCÉDURE ÉCRITE BORNE UN VETO ; UN SILENCE DE LA LOI LE REND ILLIMITÉ.** C'est
+la symétrie de L11.C29 sur les dérogations — **ce qui n'est pas borné par écrit
+s'installe.**
+
+**CE QUE LE LIVRE 6 DEMANDE EN RETOUR — et c'est un point de fait, pas une
+conception.**
+
+1. **Combien, et sur quelles surfaces.** Le registre porte le point à établir en
+   toutes lettres : « nombre de fusions concernées et surfaces en cause ».
+   **Le corpus ne peut pas dire si le régime français est marginal ou massif**,
+   et cela décide de tout ce qu'on peut en tirer. Aucun autre chiffre du
+   couplage n'est aussi peu coûteux à obtenir.
+2. **Les MOTIFS de l'arrêt n° 119 de 2023.** Le dispositif est acquis, cité
+   entre guillemets par le consolidé officiel ; **les motifs sont inconnus, et
+   ce sont eux qui diraient POURQUOI la Cour a retranché** — absence
+   d'indemnité, absence de limite temporelle, ou imprécision de la catégorie.
+   **Le corpus ne peut pas construire sa propre parade tant qu'il l'ignore.**
+   C'est la lecture la plus rentable qui reste ouverte sur ce bloc.
+3. **UNE DÉCISION JUDICIAIRE SUR L'ACCORD DU CRÉANCIER HYPOTHÉCAIRE.** Le
+   résultat le plus lourd de conséquence pour le Livre 1 repose sur une
+   **pratique notariale**, que le registre qualifie expressément de « non règle
+   légale explicite ». **Si un juge jugeait le contraire, la conclusion
+   tomberait.** Le registre porte ce point à pinner, avec les travaux du
+   118e congrès des notaires sur la nature juridique de l'obligation.
+4. **La décision française et les arrêts ogiek n'ont pas été lus**, et le
+   registre le déclare pour chacun. **La loi italienne, elle, l'a été le
+   2026-09-07 — et l'ouverture a corrigé l'entrée du registre sur son point
+   décisif.** C'est le premier cas du corpus où une source ouverte corrige
+   l'appareil de vérité du Livre 6 lui-même ; l'entrée 59 est à compléter par
+   l'auteur, le registre étant son document.

@@ -44,7 +44,7 @@ et L11.C03 § 6 a été récrit contre ce que le corpus avait écrit le matin.
 
 | ~~**ACQUIS 2026-09-05**~~ | ~~**J. Tinbergen, _On the Theory of Economic Policy_, 1952**~~ | **OBTENU INTÉGRALEMENT ET OUVERT le 2026-09-05**, procuré par l'auteur — treize fichiers, deuxième édition, dix chapitres. **Chapitre V lu page à page** : il a corrigé une lecture fautive du corpus sur les « target conditions », établi que les **conditions-limites comptent comme des objectifs** — donc que le compte de L11.C03 était trop indulgent —, et fourni un **résultat favorable au dispositif** : l'exemple travaillé de Tinbergen contre une incompatibilité est un **taux variable**, soit la structure même du barème modulé. **Restent à lire : chapitre II** (classes de variables, objectifs conditionnels) **et chapitre VI** (complications créées par les conditions-limites), vers lequel le chapitre V renvoie expressément | acquis, classé dans « Livres Monnaie » |
 | **NOUVEAU 2026-09-05** | **Règlement (UE) 2023/956 instituant un mécanisme d'ajustement carbone aux frontières**, et ses actes d'exécution sur les **valeurs par défaut** | **L11.C06 TOUT ENTIER, et L11.C05 § 6.** C'est la seule sortie connue à l'objection de la connaissance dispersée — assigner une empreinte à un bien sans connaître sa chaîne — et **le corpus l'a instruite sans avoir ouvert le texte**. Trois points à établir : sur quelle population de référence la valeur par défaut est fixée, quelle procédure permet de la faire réviser, et **ce que cette procédure coûte au demandeur** — ce dernier point décide seul du caractère régressif de l'instrument, et l'arbitrage A11 ne peut pas être rendu sans lui | EUR-Lex, libre |
-| **NOUVEAU 2026-09-05** | **A. Peters, « Traitement comptable d'une annulation de la dette publique détenue par une banque centrale », Institut Rousseau, avril 2021** | **P55 et le Livre 19** — la contrepartie comptable d'une émission sans dette, traitée par un praticien du bilan de banque centrale. Le corpus cherche un tel document depuis L1.C29 et n'en avait aucun | libre, en ligne |
+| **NOUVEAU 2026-09-05** | **A. Peters, « Traitement comptable d'une annulation de la dette publique détenue par une banque centrale », Institut Rousseau, avril 2021** | **P55 et le Livre 19** — la contrepartie comptable d'une émission sans dette, traitée sous l'angle du bilan de banque centrale. Le corpus cherche un tel document depuis L1.C29 et n'en avait aucun | libre, en ligne |
 
 ## Priorité 2 — ce qui porte une objection déjà écrite contre le livre
 
@@ -407,3 +407,40 @@ applicables**. Pour un seul des trois la transaction a été trouvée — l'acco
 1994 — **et elle a inversé la conclusion du chapitre en cours de rédaction**.
 **Chercher la transaction fait désormais partie du jugement d'édition**, au même
 titre que vérifier le volume et la pagination.
+
+---
+
+# Acquisition du 2026-09-07 — passe 1 du Livre 6 (communs)
+
+**Une seule pièce, et elle a corrigé le registre transversal du Livre 6.**
+
+| Instrument | Édition tenue | Réserve déclarée |
+|---|---|---|
+| **Legge 20 novembre 2017, n. 168, *Norme in materia di domini collettivi*** | **texte consolidé Akoma Ntoso de Normattiva**, version en vigueur au 2026-09-07, dernière mise à jour de l'acte au 30 décembre 2025 — `https://www.normattiva.it/do/atto/caricaAKN?dataGU=20171128&codiceRedaz=17G00181` | **les trois articles ont été lus intégralement**, notes et mises à jour comprises. **L'arrêt n° 119 de 2023 n'est connu que par son dispositif**, reproduit entre guillemets par le consolidé : **les motifs n'ont pas été lus** |
+
+**CE QUE L'OUVERTURE A PRODUIT, ET C'EST UN PRÉCÉDENT.** Le registre transversal
+v04 — l'appareil de vérité du Livre 6, plus strict que celui du corpus — portait
+l'entrée 59 avec la réserve « le texte de la loi n'a pas été lu », et
+**annonçait comme un débat en cours ce qui était tranché depuis 2023** : la Cour
+constitutionnelle a déclaré l'article 3 § 3 inconstitutionnel **en tant qu'il
+n'excluait pas les terres de propriétaires privés**. La réserve était honnête, et
+**c'est précisément elle qui portait le point décisif.**
+
+**Trois énoncés que le registre ne portait pas et que le corpus n'avait nulle
+part ailleurs** : l'ordre juridique primaire des communautés originaires, la
+**copropriété intergénérationnelle** du patrimoine naturel, et la
+**valorisation** au bénéfice nommé des collectivités locales des ayants droit.
+
+## Priorité 1 après cette passe
+
+| | Le texte | Pourquoi |
+|---|---|---|
+| **1** | **Corte costituzionale, sentenza 11 maggio–15 giugno 2023, n. 119** — *Gazzetta Ufficiale* 1ª s.s. du 21 juin 2023, n° 25 ; texte gratuit sur `cortecostituzionale.it` | **le dispositif est acquis, les MOTIFS sont inconnus** — et ce sont eux qui disent POURQUOI la Cour a retranché : absence d'indemnité, absence de limite temporelle, ou imprécision de la catégorie. **Le corpus ne peut pas construire sa parade tant qu'il l'ignore**, et la question vaut pour toute charge que NEMO IMS ferait porter à un commun sur un droit de propriété privé |
+| **2** | **Conseil d'État, 3 avril 2026, *Association Section de Rignat et autres*, n° 495625** | le registre porte deux points à établir que le corpus ne peut pas trancher sans le texte : **nombre de fusions concernées et surfaces en cause.** Tant qu'ils manquent, **le corpus ignore si le régime est marginal ou massif** — ce qui décide de tout ce qu'on peut en tirer |
+| **3** | **Cour africaine des droits de l'homme et des peuples, requête 006/2012** — arrêt au fond du 26 mai 2017, réparations du 23 juin 2022, **décision de conformité du 4 décembre 2025** | la troisième est la seule des trois qui soit inédite dans le corpus : **une juridiction internationale qui constate formellement l'inexécution de son propre arrêt.** Le corpus en tire une conclusion forte — le juge n'était pas le maillon manquant — **sur un résumé de registre** |
+| **4** | **Corte costituzionale, arrêts n° 113 et n° 178 de 2018, n° 71 de 2020** | le registre les donne pour la consécration du régime, et **le corpus ignore dans quel sens la jurisprudence s'est déplacée entre 2018 et 2023** — revirement ou ajustement |
+
+**RÈGLE CONFIRMÉE PAR CETTE PASSE.** Le consolidé officiel d'une loi porte les
+décisions qui l'ont amputée. **Ouvrir la loi et ouvrir sa version consolidée ne
+sont pas la même opération** — la seconde seule dit ce qui est en vigueur. Elle
+prend le même temps.
