@@ -72,8 +72,28 @@ en minuscules sans accents. **Le matricule reste en tête et seul il identifie**
 le libellé n'est qu'une aide de lecture et **peut être corrigé si le titre change**,
 la règle du § 3 ne portant que sur le numéro. **Le contrôle ne lit que le champ
 `chapitre:` des en-têtes et globe `livre-*/`** : aucun outil ne dépend du libellé.
-Les dossiers de livres non ouverts n'existent pas tant qu'aucun chapitre n'est
-écrit.
+
+**Tous les matricules déclarés ont un dossier, et tout dossier a un chapitre —
+arrêté le 2026-09-07 (r11).** Y compris les livres dont rien n'est écrit :
+l'arborescence porte la collection entière. **Git ne suit pas les dossiers
+vides**, et un marqueur en `.md` dépourvu de champ `chapitre:` **bloquerait le
+contrôle**, qui globe `livre-*/*.md`. Chaque dossier sans chapitre reçoit donc
+un **CHAPITRE D'AMORCE**, valide au regard du schéma.
+
+**Régime du chapitre d'amorce.** Il porte toujours le matricule `C01` et le titre
+« Ce que ce livre doit établir ». Il **rapporte** l'entrée du registre — titre,
+collection, statut, fonction, motifs, architecture proposée — et **n'instruit
+rien** : `regime: descriptif`, `concepts: []`, `renvois: []`, et ses
+`verifications_en_attente` déclarent qu'aucune source n'est ouverte. **Il ne verse
+aucun résultat au corpus et AUCUN AUTRE CHAPITRE NE DOIT LE CITER.** Son corps
+s'ouvre sur la mention `**AMORCE.`, qui permet aux outils de le distinguer d'un
+chapitre instruit.
+
+**Il est REMPLACÉ, non complété.** Tous les livres ouverts commencent par un
+chapitre « Ce que ce livre doit établir » qui instruit la fonction, la confronte
+aux acquis des autres livres et fixe la grille du livre. **Ouvrir un livre, c'est
+écrire ce chapitre-là à la place de l'amorce**, et `chapitres_acquis` reste à
+zéro tant que l'amorce n'a pas été remplacée.
 
 ---
 
@@ -596,6 +616,18 @@ Points ouverts, à trancher hors routine :
 ---
 
 ## 15. Journal des révisions
+
+**Révision 11 — 7 septembre 2026.** Tous les matricules déclarés ont un dossier,
+et tout dossier a un chapitre (§ 2), sur demande de l'auteur. **Cette révision
+CORRIGE la révision 10 du même jour**, qui énonçait l'inverse — « les dossiers de
+livres non ouverts n'existent pas tant qu'aucun chapitre n'est écrit ».
+**Quatorze dossiers créés, quatorze CHAPITRES D'AMORCE déposés**, dont le régime
+est fixé au § 2 : descriptif, sans concept ni renvoi, non citable, **remplacé et
+non complété** à l'ouverture du livre. Un marqueur `.md` sans champ `chapitre:`
+aurait bloqué le contrôle ; un marqueur non `.md` n'aurait pas fait du dossier un
+livre. **Aucun contenu de chapitre existant n'est touché** ; le contrôle passe sur
+241 chapitres, dont 14 d'amorce. **`chapitres_acquis` reste à zéro pour ces
+quatorze livres** : une amorce n'est pas un acquis.
 
 **Révision 10 — 7 septembre 2026.** Les dossiers de livres portent désormais leur
 intitulé après le matricule (§ 2), sur demande de l'auteur, pour la lisibilité de
