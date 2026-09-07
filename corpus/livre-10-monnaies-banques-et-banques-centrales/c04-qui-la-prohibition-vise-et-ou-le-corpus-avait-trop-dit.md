@@ -105,3 +105,15 @@ renvois: [L1.C20, L1.C27, L1.C29, L10.C01, L10.C02, L10.C03, L11.C13, L20.C02]
 ::etat:: **Deux éléments favorables** : le rachat aux **créanciers** d'un État reste licite en principe ; et l'intervention est autorisée pour les titres **négociables**. **Cette seconde mention referme ce que L10.C02 avait entrouvert : la case comptable la plus favorable, réservée aux NON négociables, est celle que le droit atteint le plus directement.**
 
 ::etat:: **Le règlement (CE) n° 3603/93 n'est pas ouvert**, alors qu'il porte **les définitions** de « découvert », d'« autre type de crédit » et d'« organisme public ». **C'est lui qui dirait qui est couvert et ce qui compte comme crédit — acquisition la plus urgente de ce livre, devant toutes les autres.** ***Pringle* n'est pas ouvert non plus.**
+
+## BALAYAGE DU LIVRE 18, TROISIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'instruction du *State of Finance for Nature 2026*.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La branche que ce chapitre a ouverte en droit est étroite en fait, et une donnée le montre** [L18.C09]. Ce chapitre a établi que la prohibition de l'article 123 a une **portée personnelle** — autorités et organismes publics — de sorte qu'une émission au bénéfice **d'acteurs privés** conduisant une activité qualifiée n'entre pas dans son champ.
+
+::etat:: **PNUE, *State of Finance for Nature 2026*** : « **Public finance flows to nature-based solutions are EIGHT TIMES BIGGER than private finance flows** » — 190 milliards de dépense publique domestique contre **23,4 milliards** de financement privé en 2023.
+
+::hypothese:: **Le corpus enregistre que la branche existe en droit et ne peut pas porter le dispositif à elle seule.** **Un dispositif qui n'émettrait qu'au bénéfice d'acteurs privés, pour rester hors du champ de l'article 123, se placerait sur le segment qui représente aujourd'hui UN NEUVIÈME des flux.** **Le corpus doit choisir entre l'échappatoire juridique et l'échelle.**
+
+::etat:: **Et la composition du privé est instructive** : compensations biodiversité **plus de 7 milliards** — premier poste — puis chaînes certifiées, obligations et fonds, marchés carbone. **Le premier poste est la compensation, dont L1.C18 § 5 a traité l'objection et que le dispositif dit ne pas être.**

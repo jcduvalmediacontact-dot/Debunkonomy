@@ -800,9 +800,32 @@ libres**, et le corpus les traite comme tels sans avoir vérifié chaque notice.
 
 | Source | Pages | Droits | État |
 |---|---:|---|---|
-| **PNUE, *State of Finance for Nature 2026*** | 107 | `a_verifier` | **ACQUISE, NON INSTRUITE.** Flux favorables et défavorables à la nature, **besoins d'investissement**, données principales de 2023. **C'est la première source susceptible de donner au corpus UN ORDRE DE GRANDEUR DU VOLUME D'ÉMISSION** — grandeur qu'il n'a jamais tenue, et dont L11 a besoin pour toute calibration |
+| **PNUE, *State of Finance for Nature 2026*** | 107 | `a_verifier` | **INSTRUITE LE 2026-09-07 (nuit), versée à L18.C09 et à F10.** Flux favorables et défavorables à la nature, **besoins d'investissement**, données principales de 2023. **C'est la première source susceptible de donner au corpus UN ORDRE DE GRANDEUR DU VOLUME D'ÉMISSION** — grandeur qu'il n'a jamais tenue, et dont L11 a besoin pour toute calibration |
 
 **Les dix autres pièces du lot fourni le 2026-09-07 étaient déjà au Drive et sont
 instruites ou en cours** : PFMI, BoE, SEEA, *Global Resources Outlook*, cadre
 conceptuel IPSASB, IPSAS 47, 48, 51, RPG 1. **Dafermos et al. 2016 reste non
 instruit** — clé de voûte annoncée du Livre 13.
+
+**CE QU'ELLE A ÉTABLI — année 2023, dollars réels 2024.** « In 2023, **finance
+directly harmful to nature reached US$7.3 TRILLION**, while investments in
+nature-based solutions amounted to **only US$220 BILLION — a ratio of more than
+30:1** » ; besoin porté à **571 milliards en 2030** pour les conventions de Rio ;
+**subventions dommageables supérieures à 2 000 milliards par an** ; et « **public
+finance flows to nature-based solutions are EIGHT TIMES BIGGER than private** ».
+**ÉCART À COMBLER : environ 351 milliards par an**, première cible chiffrée dont
+le corpus dispose pour calibrer.
+
+**RÉSERVE ÉCRITE AVANT L'USAGE.** Les montants **reposent sur des sources tierces
+non ouvertes** — IISD-OCDE 2025, OCDE 2024a, Refinitiv/LSEG, ENCORE 2024. **Le
+corpus tient un ordre de grandeur RAPPORTÉ, non une mesure vérifiée**, et **ne
+connaît ni le périmètre exact de « harmful », ni la méthode d'agrégation**. Le
+besoin de 571 milliards est rapporté **aux engagements des conventions de Rio, non
+aux objectifs du dispositif**, dont l'objet n'est pas identique aux solutions
+fondées sur la nature.
+
+**ACQUISITION QUE CE RAPPORT REND PRIORITAIRE, ET ELLE COMMANDE F10.**
+**L'histoire des réformes de subventions dommageables** — combien de tentatives,
+sur quelle période, avec quels résultats, **et par quels mécanismes ont-elles été
+défaites**. **C'est la seule acquisition qui permettrait au corpus de répondre au
+concurrent le moins coûteux**, et elle ne relève d'aucun livre ouvert.

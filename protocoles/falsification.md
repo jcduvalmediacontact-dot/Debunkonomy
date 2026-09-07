@@ -2171,5 +2171,64 @@ elle n'en relève pas, F9 doit être repesé sur le référentiel qui s'applique
 réellement** — banque centrale ou organisation internationale — **et le corpus
 n'en tient aucun.**
 
+## F10 — La superfluité
+
+**POSÉ LE 2026-09-07 (nuit), en instruisant le *State of Finance for Nature 2026*
+du PNUE. Instruit en L18.C09.**
+
+**POURQUOI CETTE CONDITION MANQUAIT.** Les neuf falsifieurs précédents demandent
+si le dispositif **peut** fonctionner — calibrer, mesurer, tenir devant le droit,
+se distinguer, emporter l'adoption, piloter, résister au désarmement, trouver un
+titre. **Aucun ne demande s'il est NÉCESSAIRE.** Le corpus a passé une journée
+entière à éprouver la faisabilité sans jamais éprouver l'utilité marginale.
+
+**CONDITION D'ÉCHEC.** *Qu'un instrument déjà disponible en droit positif, ne
+demandant ni institution nouvelle, ni traité, ni unité monétaire, suffise à
+atteindre l'objectif que le dispositif se donne, pour un coût institutionnel
+inférieur — et que le corpus ne puisse pas établir ce que le dispositif apporte en
+plus. Si les deux tiennent, le dispositif n'échoue pas : il est superflu, ce qui
+est un verdict négatif d'une autre nature et non moins grave.*
+
+**LE CAS QUI L'ÉTABLIT, ET IL EST ARITHMÉTIQUE.** PNUE, *State of Finance for
+Nature 2026*, année 2023. **Flux directement dommageables à la nature :
+7 300 milliards de dollars.** **Investissements dans les solutions fondées sur la
+nature : 220 milliards.** **Besoin pour tenir les engagements des conventions de
+Rio : 571 milliards en 2030** — soit **un écart d'environ 351 milliards par an**.
+Et **les subventions dommageables à l'environnement dépassent à elles seules
+2 000 milliards par an**. **Réorienter UN SIXIÈME de ces subventions couvre
+l'écart.** Ce sont **déjà des deniers publics, déjà votés, déjà sous compétence
+budgétaire nationale** : **aucune institution nouvelle, aucun traité, aucune
+unité, aucun barème mondial ne sont requis.** Le rapport le propose lui-même :
+« **cutting harmful subsidies** [...] can unlock resources ».
+
+**CE QUE LE CORPUS DOIT ÉTABLIR POUR LEVER F10.** Non pas que le dispositif
+fonctionne — c'est l'objet des autres falsifieurs — **mais CE QU'IL FAIT QUE LA
+RÉFORME DES SUBVENTIONS NE FAIT PAS.**
+
+**LA RÉPONSE DISPONIBLE, ET ELLE N'EST PAS SOUTENUE.** **Une subvention se supprime
+par un vote et se rétablit par le vote suivant.** Un mécanisme dont le déclencheur
+est **une qualification d'activité**, non un arbitrage budgétaire annuel, **échappe
+à cette réversibilité** — c'est l'argument de la règle contre la discrétion, que
+le corpus tient déjà. **Indice à l'appui** : ces subventions persistent au-delà de
+2 000 milliards **alors qu'elles sont dénoncées depuis des décennies**, ce qui
+montre que **la disponibilité juridique d'un levier n'emporte pas son emploi**.
+**Ce n'est pas une preuve.** **Le corpus ne tient AUCUNE donnée sur l'histoire des
+réformes de subventions** — combien de tentatives, sur quelle période, défaites par
+quels mécanismes. **C'est l'acquisition qui lèverait F10, et elle est nommée.**
+
+**CE QUE F10 NE DIT PAS.** Il ne dit pas que la réforme des subventions réussirait
+— rien ne l'établit non plus. Il ne dit pas que les deux instruments s'excluent :
+le rapport les présente comme **complémentaires**, et le dispositif pourrait être
+l'instrument de **la seconde moitié** du mouvement, l'augmentation, là où la
+réforme budgétaire porte **la première**, la suppression. **Il dit que le corpus
+n'a jamais écrit cette articulation, et qu'un projet qui ne dit pas ce qu'il
+apporte de plus qu'un levier existant ne se défend pas.**
+
+**POURQUOI F10 EST PARTICULIÈREMENT DANGEREUX POUR CE CORPUS.** Parce qu'il ne se
+réfute par **aucun des travaux menés jusqu'ici**. Instruire mieux les normes
+comptables, le droit monétaire ou la métrologie **rend le dispositif plus solide
+sans le rendre plus nécessaire**. **F10 se réfute par une comparaison d'instruments,
+et le corpus n'en a conduit aucune.**
+
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.

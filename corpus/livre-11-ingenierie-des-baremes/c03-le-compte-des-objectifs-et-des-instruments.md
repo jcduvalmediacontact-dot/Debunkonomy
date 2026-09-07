@@ -258,3 +258,15 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 ::hypothese:: **Un instrument existant fait l'inverse de ce que ce chapitre suppose, et par la loi** [L6.C10]. Le régime français des catastrophes naturelles, depuis 1982, repose sur une **surprime uniforme non indexée sur le risque**, adossée aux contrats d'habitation et réassurée publiquement. **C'est un prix auquel le législateur a retiré sa fonction de signal**, au motif qu'un prix indexé rendrait la couverture inaccessible là où elle est le plus nécessaire.
 
 ::hypothese:: **L'affectation des instruments aux objectifs suppose donc un préalable que ce chapitre ne pose pas : que le signal soit l'instrument approprié.** Sur un marché où le signal exclut, **il est l'instrument d'un autre objectif que celui qu'on lui assigne.** Voir l'arbitrage A34.
+
+## BALAYAGE DU LIVRE 18, TROISIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'instruction du *State of Finance for Nature 2026*.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **Le corpus tient enfin une cible chiffrée, et ce chapitre en avait besoin pour toute calibration** [L18.C09]. **PNUE, *State of Finance for Nature 2026*, année 2023** : investissements dans les solutions fondées sur la nature **220 milliards de dollars** ; besoin porté à **571 milliards en 2030** pour tenir les engagements des conventions de Rio ; **écart à combler d'environ 351 milliards par an**.
+
+::etat:: **Et l'échelle du contraire** : **7 300 milliards de flux directement dommageables à la nature**, soit un rapport de **plus de 30 pour 1** ; **plus de 2 000 milliards de subventions dommageables** par an à elles seules.
+
+::hypothese:: **Le corpus enregistre que l'écart à combler représente moins de cinq pour cent des flux contraires.** **Le problème n'est pas que l'argent manque : c'est qu'il va dans l'autre sens à une échelle trente fois supérieure.** **Ce chapitre soutenait cette thèse sans la mesurer.**
+
+::etat:: **Réserve** : ces montants reposent sur des sources tierces non ouvertes — IISD-OCDE, OCDE, Refinitiv/LSEG, ENCORE. **Ordre de grandeur rapporté, non mesure vérifiée**, et **le périmètre de « harmful » n'est pas connu du corpus.** **Et le besoin de 571 milliards est rapporté aux conventions de Rio, non aux objectifs du dispositif.**

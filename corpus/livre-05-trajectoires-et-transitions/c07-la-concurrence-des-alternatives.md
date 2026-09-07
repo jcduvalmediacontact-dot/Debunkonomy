@@ -99,3 +99,15 @@ renvois: [L1.C24, L1.C26, L3.C04, L3.C05, L3.C09, L5.C01, L5.C02, L5.C06, L20.C0
 ::hypothese:: **D'où la décision que le corpus n'a jamais prise : L'EMPORTER ou SE SUPERPOSER.** **Tous les résultats du jour pointent vers la seconde**, et la superposition n'est pas un repli — c'est ce que la conception implique. **Mais elle a un coût non mesuré : une couche qui se superpose tient sa capacité d'agir de ceux sur qui elle se pose, et qui peuvent la lui retirer.**
 
 ::etat:: **Les monnaies complémentaires et locales ne sont pas instruites**, alors que L20.C05 les a déclarées « le précédent le plus proche du statut que l'unité du dispositif occuperait au départ ». **Une concurrence d'alternatives instruite sans les alternatives les plus proches n'est pas instruite.**
+
+## BALAYAGE DU LIVRE 18, TROISIÈME TRANCHE — 2026-09-07
+
+::etat:: **Annotation portée après l'instruction du *State of Finance for Nature 2026*.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **La concurrence des alternatives reçoit sa forme la plus concrète, et elle n'est pas un projet monétaire rival** [L18.C09]. **PNUE, *State of Finance for Nature 2026*** : les subventions dommageables à l'environnement **dépassent 2 000 milliards de dollars par an**, quand l'écart à combler pour les solutions fondées sur la nature est d'environ **351 milliards par an**.
+
+::hypothese:: **Réorienter un sixième de ces subventions couvre l'écart.** **Ce sont déjà des deniers publics, déjà votés, déjà sous compétence budgétaire** : **aucune institution nouvelle, aucun traité, aucune unité, aucun barème mondial ne sont requis.** Le rapport le propose lui-même comme premier levier.
+
+::hypothese:: **Le corpus enregistre que ce chapitre avait posé la bonne règle et ne l'avait pas appliquée à ce concurrent-là.** Il énonce que « le corpus doit **argumenter sa position au lieu de la supposer évidente** », mais l'appliquait à des architectures monétaires rivales. **Le concurrent le plus sérieux n'est pas une autre monnaie : c'est LA RÉFORME BUDGÉTAIRE ORDINAIRE.**
+
+::etat:: **Versé au protocole sous F10 — LA SUPERFLUITÉ**, condition d'échec posée le même jour : *qu'un instrument déjà disponible suffise, pour un coût institutionnel inférieur, et que le corpus ne puisse pas établir ce que le dispositif apporte en plus.*
