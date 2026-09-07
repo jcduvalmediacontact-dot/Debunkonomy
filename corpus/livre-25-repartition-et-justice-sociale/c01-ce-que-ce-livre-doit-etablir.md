@@ -57,3 +57,17 @@ renvois: []
 ::etat:: **Le matricule 25 est permanent.** Il ne se réattribue pas, ne s'insère pas et ne se renumérote pas, même si ce livre n'est jamais écrit (convention § 3).
 
 ::etat:: **Le registre n'est qu'une projection du plan directeur de l'auteur.** **En cas d'écart, le plan tranche et le registre est corrigé, jamais l'inverse.** Ce qui précède est donc rapporté sous réserve du plan.
+
+## BALAYAGE DU LIVRE 24, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L24.C02, qui ouvre les limites du système Terre sûres ET JUSTES.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **CE LIVRE REÇOIT SA FIGURE ET SON MANQUE** [L24.C02]. **Rockström, Gupta, Qin, Lade et al., Nature 619, 2023** : « A foundation that enables **minimum access to water, food, energy and infrastructure for all humans** alongside a safe and just ESB **ceiling** of maximum allowed human pressure [...] could constitute a safe and just **‘CORRIDOR’ over time** ».
+
+::etat:: **LE PLAFOND EST DÉSORMAIS TENU, QUANTIFIÉ, POUR HUIT DOMAINES** (L24.C01 et L24.C02). **LE PLANCHER NE L'EST PAS** — les auteurs le nomment sans le quantifier ici. **Ce livre ne pourra pas dire ce qu'une répartition juste doit garantir tant que le corpus n'aura pas ouvert ce qui quantifie ce plancher.**
+
+::hypothese:: **TROIS CRITÈRES DE JUSTICE SONT VERSÉS À CE LIVRE, ET ILS SONT OPÉRATIONNELS PLUTÔT QUE PHILOSOPHIQUES** : **interespèces**, adossée à la stabilité du système ; **intergénérationnelle**, entre passées et présentes puis présentes et futures ; **intragénérationnelle**, entre pays, communautés et individus. **Et le dommage significatif est défini** : « loss of lives, livelihoods or incomes; displacement; loss of food, water or nutritional security; and chronic disease, injury or malnutrition », **avec un fondement juridique explicite** — « minimizing significant harm is a **cornerstone of national and international law and corrective justice** ».
+
+::etat:: **ET LA DISPROPORTION QUE CE LIVRE DOIT ÉTABLIR EST DÉJÀ DOCUMENTÉE EN UNE PHRASE** : « **85 % of the world population is currently exposed to PM2.5 concentrations beyond this boundary** », exposition estimée causer « **4.2 million deaths annually**, with **vulnerable groups being affected disproportionately more WHILE POLLUTING LESS** ». **Le corpus ne tenait cette proposition qu'en énoncé ; il la tient désormais chiffrée.**
+
+::hypothese:: **OBJET PROPRE À CE LIVRE, RÉVÉLÉ PAR L24.C02 : LA RÉPARATION.** La limite juste du climat est déjà franchie et son retour « may not be achievable in the foreseeable future » ; **des adaptations et des compensations deviennent nécessaires.** **Ce n'est pas de la régénération, et aucun barème du corpus ne le couvre.**

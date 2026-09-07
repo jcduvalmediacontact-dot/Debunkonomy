@@ -2608,3 +2608,35 @@ qu'on rétablit, c'est un acte qu'on ne défait pas.**
 n'a ouvert aucune critique publiée de ces neuf limites. **F13 ne devient un
 falsifieur que si l'auteur l'arbitre, et il gagnerait à attendre l'acquisition
 de rang 1 du Livre 24.**
+
+### F13 — RESTRICTION DU 2026-09-07, LE JOUR MÊME DE SA PROPOSITION, PAR L24.C02
+
+**F13 soutient qu'il n'existe aucun taux de change entre les dimensions du
+système Terre. C'EST EXACT, ET LE CORPUS L'A ÉNONCÉ TROP LARGEMENT.**
+
+**CE QUI OBLIGE À RESTREINDRE.** **Rockström, Gupta, Qin, Lade et al., « Safe
+and just Earth system boundaries », Nature 619, 2023**, à propos de la limite
+juste du climat, déjà franchie : « Since returning within this boundary **may
+not be achievable in the foreseeable future, ADAPTATIONS AND COMPENSATIONS to
+reduce sensitivity to harm and vulnerability WILL BE NECESSARY.** »
+
+**LA DISTINCTION QUE LE CORPUS CONFONDAIT.** **La compensation ENTRE DIMENSIONS
+DU SYSTÈME TERRE est impossible** — payer pour du carbone ne rend pas d'azote,
+et c'est F13. **La compensation D'UN DOMMAGE SUBI PAR DES PERSONNES est
+possible, elle se compte dans une unité commune, et la source la déclare
+NÉCESSAIRE.** **Ce n'est pas la même opération : la première prétend rétablir un
+état du monde, la seconde indemnise une perte de moyens d'existence.**
+
+**F13 EST DONC RESTREINT À LA COMPENSATION ENTRE DIMENSIONS PHYSIQUES, ET À ELLE
+SEULE.** *Qu'il n'existe aucune unité commune entre les dimensions du système
+Terre, de sorte qu'une émission monétaire PROPORTIONNÉE À LA RÉGÉNÉRATION ne
+puisse être fondée que par une convention politique assumée. F13 NE DIT RIEN de
+l'indemnisation d'un préjudice humain, qui relève d'une autre opération et d'une
+autre unité.*
+
+**CONSÉQUENCE QUI DÉPASSE F13 ET QUI VISE LE BARÈME.** **L11.C13 qualifie ce qui
+RÉGÈNE.** **Une part de ce qu'il faut financer RÉPARE** — adaptation, réduction
+de la vulnérabilité, indemnisation d'un dommage déjà subi. **LE CORPUS N'A AUCUN
+BARÈME DE RÉPARATION**, et l'objet lui échappe entièrement. **A35 y conduisait
+sans qu'il le voie** : la société entière porte la dette, **et une partie de
+cette dette est déjà échue.**

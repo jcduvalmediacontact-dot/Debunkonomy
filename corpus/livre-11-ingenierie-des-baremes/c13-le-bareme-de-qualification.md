@@ -312,3 +312,17 @@ renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L1
 ::hypothese:: **TROIS ISSUES, ET LE CORPUS NE TRANCHE PAS.** **Émettre par dimension** — neuf allocations non convertibles, ce qui détruit la fongibilité qui fait une monnaie. **Émettre sur une seule dimension** — le carbone, ce que fait déjà le marché. **Ou émettre sur une agrégation ASSUMÉE COMME POLITIQUE ET NON SCIENTIFIQUE.** **Seule la troisième est praticable, et son prix est que la clé d'agrégation devient une décision explicite, révisable et attaquable — CE CHAPITRE DEVRA PORTER CETTE MENTION.**
 
 ::etat:: **ET LA RÈGLE DES GAINS NETS EST CONFIRMÉE PAR LA PHYSIQUE.** La production primaire nécessaire aux sociétés futures doit être produite en supplément de la ligne de base holocène, « **not including the NPP generated for biology-based carbon sinks** ». **Un gain affecté à compenser autre chose n'en est pas un** — même règle qu'en L22.C04, établie par une autre voie.
+
+## BALAYAGE DU LIVRE 24, SUITE — 2026-09-07
+
+::etat:: **Annotation portée après L24.C02, qui ouvre les limites du système Terre sûres ET JUSTES.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::etat:: **CE BARÈME DOIT DIRE SUR QUELLE LIMITE IL SE CALIBRE, ET LA RÉPONSE N'EST PAS INDIFFÉRENTE** [L24.C02]. **Rockström, Gupta, Qin, Lade et al., « Safe and just Earth system boundaries », Nature 619, 2023** : chaque domaine reçoit une limite **sûre** et une limite **juste**, et « **the STRICTER of the safe or just boundaries sets the integrated safe and just ESB** ».
+
+::hypothese:: **Pour le climat, la limite sûre est 1,5 °C et la limite juste « AT OR BELOW 1.0 °C ».** À 1,5 °C, « more than **200 million people**, disproportionately those already vulnerable, poor and marginalized [...] could be exposed to unprecedented mean annual temperatures, and more than **500 million** [...] to long-term sea-level rise ». **UN DISPOSITIF QUI SE JUSTIFIE PAR LA JUSTICE ET SE CALIBRE SUR LA SÉCURITÉ MANQUE SON PROPRE MOTIF D'UN DEMI-DEGRÉ**, et ce demi-degré est chiffré.
+
+::etat:: **UN OBJET ENTIER MANQUE À CE BARÈME, ET LA SOURCE LE NOMME.** « Since returning within this boundary **may not be achievable in the foreseeable future, ADAPTATIONS AND COMPENSATIONS to reduce sensitivity to harm and vulnerability WILL BE NECESSARY.** » **Ce barème qualifie ce qui RÉGÈNE ; une part de ce qu'il faut financer RÉPARE** — adaptation, réduction de la vulnérabilité, indemnisation d'un dommage déjà subi. **Le corpus n'a AUCUN barème de réparation.**
+
+::hypothese:: **Et cela rejoint A35 par un chemin physique** : l'arbitrage disait que la société entière porte la dette ; **la source dit qu'une partie de cette dette est déjà échue et ne se rembourse pas en restaurant un écosystème** — elle se rembourse en transférant des moyens à ceux qui subissent, **ce qui est un objet du Livre 25 et non de celui-ci.**
+
+::etat:: **DEUX PRÉCISIONS FAVORABLES.** Les limites justes et sûres **COÏNCIDENT** pour l'eau de surface, l'eau souterraine, l'intégrité fonctionnelle, l'aire des écosystèmes naturels, le phosphore et l'azote — **la justice n'ajoute une contrainte que là où le dommage humain précède la déstabilisation.** **Et plusieurs limites sont SOUS-GLOBALES** — 20 % d'altération des débits « in ALL rivers globally » — **ce qui rejoint exactement l'architecture par zone du barème ouvert en L22.C04 : description initiale, plan de gestion, audit.**

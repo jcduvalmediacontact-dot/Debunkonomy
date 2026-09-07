@@ -961,3 +961,25 @@ C'est l'application de la règle de méthode « LE PAS DE TROP ».
    **dont l'exclusion temporaire de 2020 et son extinction en 2021 sont le
    précédent le plus proche.**
 
+### Complément du 2026-09-07 — le socle biophysique, et UNE TENTATIVE QUI A ÉCHOUÉ
+
+| Source | URL résolue | Droits | Ce qu'elle a établi |
+|---|---|---|---|
+| **K. Richardson, W. Steffen, W. Lucht et al., « Earth beyond six of nine planetary boundaries », Science Advances 9, eadh2458, 13 septembre 2023** | `science.org/doi/pdf/10.1126/sciadv.adh2458` — **OUVERT PAR TÉLÉCHARGEMENT DIRECT** | **`citation_seule`** — CC BY-NC 4.0, **incompatible avec la licence CC-BY-SA du corpus** : cité avec attribution, **jamais versé au dépôt** | **Neuf variables de contrôle, leurs limites et leurs valeurs actuelles. SIX DES NEUF LIMITES SONT DÉPASSÉES.** **Et les neuf unités n'ont AUCUNE COMMUNE MESURE**, le cadre ne comportant ni total, ni indice composite, ni pondération. **Versé à L24.C01, L11.C13, L18.C01, L5.C08 ; fonde F13** |
+| **J. Rockström, J. Gupta, D. Qin, S. J. Lade et al., « Safe and just Earth system boundaries », Nature 619, p. 102-111, 6 juillet 2023** | `nature.com/articles/s41586-023-06083-8.pdf` — **OUVERT PAR TÉLÉCHARGEMENT DIRECT** | **`libre`** — CC BY 4.0, **compatible** | **Deux limites par domaine, sûre et juste, « the STRICTER [...] sets the integrated safe and just ESB ». POUR LE CLIMAT ET LES AÉROSOLS, LA LIMITE JUSTE EST PLUS STRICTE** — 1,0 °C contre 1,5 °C. **SEPT DES HUIT limites globales sont déjà franchies.** **Et « adaptations and compensations [...] will be necessary », ce qui restreint F13.** **Versé à L24.C02, L11.C13, L25.C01** |
+
+**TENTATIVE QUI A ÉCHOUÉ, ET LE CORPUS LA DÉCLARE PLUTÔT QUE DE LA TAIRE.**
+**F. Biermann et R. E. Kim, « The Boundaries of the Planetary Boundary Framework:
+A Critical Appraisal », Annual Review of Environment and Resources 45, 2020** —
+**acquisition de rang 1 du Livre 24**, parce que le corpus tient un cadre et
+aucune critique de ce cadre. **L'éditeur ne sert pas le texte intégral ; le
+dépôt institutionnel qui l'héberge est PROTÉGÉ PAR UNE VÉRIFICATION ANTI-ROBOT.**
+**LE CORPUS NE CONTOURNE PAS UNE DÉTECTION DE ROBOT** — règle tenue le 2026-09-06
+contre un pare-feu applicatif et contre une preuve de travail. **L'ACQUISITION
+RESTE OUVERTE** : à obtenir par une bibliothèque, un tirage à part demandé aux
+auteurs, ou un dépôt qui ne pose pas de vérification.
+
+**RISQUE MÉTHODOLOGIQUE À PORTER TANT QUE CETTE ACQUISITION N'EST PAS FAITE** :
+**les deux sources ouvertes ci-dessus partagent plusieurs auteurs et un même
+programme de recherche.** **Le corpus tient deux étages d'une même école et
+aucune contradiction**, et il doit le dire chaque fois qu'il s'en sert.
