@@ -1175,3 +1175,87 @@ autorisation écrite. **Il est chez l'auteur, dans son Drive privé, et il ne
 doit JAMAIS être versé au dépôt.** **C'est pourtant lui qui dirait
 comment l'émetteur inscrit l'unité dans SES PROPRES états financiers —
 c'est-à-dire la question que la tranche a dû laisser entière.**
+
+
+# Ouverture du 2026-09-08 (nuit, suite) — le Livre 17, cinq sources et une tranche à charge
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**H. Haberl, D. Wiedenhofer, D. Virág, G. Kalt, B. Plank, P. Brockway et al.,
+« A systematic review of the evidence on decoupling of GDP, resource use and GHG
+emissions, part II », *Environmental Research Letters* 15, 065003, 2020** —
+`eprints.whiterose.ac.uk`. **DROITS : CC BY 3.0 — `libre`.** 835 articles.
+Ouverte pour **L17.C01**.
+
+**T. Parrique, J. Barth, F. Briens, C. Kerschner, A. Kraus-Polk, A. Kuokkanen et
+J. H. Spangenberg, *Decoupling Debunked*, European Environmental Bureau, 2019**
+— `eeb.org`. **DROITS : aucune mention de licence relevée —
+`a_verifier`.** Ouverte pour **L17.C02**.
+
+**L. T. Keyßer et M. Lenzen, « 1.5 °C degrowth scenarios suggest the need for
+new mitigation pathways », *Nature Communications* 12, 2676, 2021** —
+`nature.com`. **DROITS : libre accès Creative Commons — `libre`.** Ouverte
+pour **L17.C03**.
+
+***Well-being of Future Generations (Wales) Act 2015*, anaw 2, 56 pages** —
+`legislation.gov.uk`. **DROITS : le document porte « © Crown copyright 2015 » et
+aucune mention de licence n'a été relevée dans ses pages —
+`a_verifier`.** Ouverte pour **L17.C04**.
+
+**J. E. Stiglitz, A. Sen et J.-P. Fitoussi, *Report by the Commission on the
+Measurement of Economic Performance and Social Progress*, 2009, 291 pages** —
+`ec.europa.eu/eurostat`. **DROITS : aucune mention de licence relevée —
+`a_verifier`.** Ouverte pour **L17.C05**.
+
+## Ce que cette tranche a de défavorable dans sa composition, et il faut le dire
+
+**TROIS SOURCES SUR CINQ SONT EN `a_verifier` — la proportion la plus
+défavorable des quatre tranches ouvertes cette semaine** (Livre 24 : deux sur
+trois en `citation_seule` ; Livre 26 : quatre sur six en `libre` ; Livre 19 : une
+seule source, en `a_verifier`). **Le traitement prudent est appliqué partout :
+citation avec attribution, aucun versement au dépôt, aucune reproduction de
+tableau ou de figure.**
+
+**ET LES CINQ SOURCES TIRENT DANS LE MÊME SENS.** **Aucune position adverse
+n'est ouverte** : ni l'école de la croissance verte face à *Decoupling
+Debunked*, ni l'école de la soutenabilité FAIBLE face à F13, ni une
+trajectoire du groupe d'experts face à Keyßer et Lenzen. **Deux d'entre elles
+partagent en outre un auteur avec la revue sur le rebond ouverte en L26.C04.**
+**LE CORPUS A CONSTRUIT UNE TRANCHE À CHARGE, ET C'EST ÉCRIT DANS CHACUN DE
+SES CHAPITRES.**
+
+## Acquisitions de rang 1 qui restent ouvertes sur le Livre 17
+
+**UN TEXTE DE L'ÉCOLE DE LA SOUTENABILITÉ FAIBLE, ET C'EST LA PLUS URGENTE.**
+L17.C05 a établi que **F13 est l'adhésion à la position FORTE**, opposition
+constituée à la position faible — celle qui tient que « **good performance
+in some dimensions can compensate for low performance in others** ». **Le corpus
+prend parti dans une controverse dont il n'a lu AUCUN DES DEUX CAMPS.** **Tant
+qu'il ne l'a pas fait, F13 est une préférence et non un résultat.**
+
+**UNE RÉPONSE À *DECOUPLING DEBUNKED*.** Le rapport ouvert est édité par
+une organisation de plaidoyer, il défend une thèse, et **il renverse lui-même
+la charge de la preuve**. **Les réponses de l'école de la croissance verte
+existent et ne sont pas ouvertes.**
+
+**LE BILAN D'APPLICATION DE LA LOI GALLOISE, ET IL EST PUBLIC.** Rapports du
+commissaire aux générations futures, examens de l'auditeur général,
+rapports annuels des corps publics. **Une loi en vigueur depuis dix ans a produit
+une matière que le corpus n'a pas regardée** : L17.C04 tient le TEXTE et rien
+de ses EFFETS. **Acquisition modeste et décisive.**
+
+**LE TRAVAIL DONT L'ASYMÉTRIE « MOU / DUR » EST TIRÉE.** Keyßer et
+Lenzen reprennent d'un autre travail l'énoncé selon lequel « political
+feasibility is softer than socio-technical feasibility ». **C'est l'énoncé qui
+porte le résultat le plus défavorable de la tranche**, versé à F6, **et
+l'objection est posée SOUS CONDITION D'OUVERTURE de ce travail.**
+
+**UNE SUITE AU RAPPORT DE 2009.** Sa recommandation 11 dit elle-même « **under
+the current state of the art** » — **une réserve datée de seize ans**. Un
+rapport de suivi des mêmes auteurs existe et n'est pas ouvert. **Une position
+sur l'état de l'art de 2009 ne peut pas être opposée telle quelle.**
+
+**LE BONHEUR NATIONAL BRUT, NOMMÉ DANS LA FONCTION ASSIGNÉE AU LIVRE.** Il
+n'est pas ouvert, ni aucune autre concrétisation institutionnelle —
+Nouvelle-Zélande, Écosse, Islande. **Le corpus tient UN cas et rien n'établit
+que ce qu'il en tire vaut au-delà.**
