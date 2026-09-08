@@ -17,15 +17,16 @@ sources_primaires:
     date_verification: 2026-09-08
   - ref: S2
     nature: donnees
-    reference: "**S. Sorrell, *The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency*, UK Energy Research Centre, octobre 2007, ISBN 1-903144-0-35.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE DOCUMENT — le régime reste `a_verifier`**, c'est-à-dire citation courte avec attribution et aucun versement du fichier au dépôt. **C'est le rapport fondateur du champ. Son auteur unique est ÉGALEMENT L'UN DES AUTEURS de la revue de 2021 sur laquelle L26.C04 s'appuie — ce qui fonde une réserve d'indépendance, et RIEN DE PLUS : les deux textes n'ont ni la même équipe, ni le même périmètre, ni des quantités comparables.**"
+    reference: "**S. Sorrell, *The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency*, UK Energy Research Centre, octobre 2007, ISBN 1-903144-0-35.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE DOCUMENT — le régime reste `a_verifier`**, c'est-à-dire citation courte avec attribution et aucun versement du fichier au dépôt. **C'est le rapport fondateur du champ. Son auteur unique est ÉGALEMENT L'UN DES AUTEURS de la revue de 2021 sur laquelle L26.C04 s'appuie — ce qui fonde une DÉPENDANCE PARTIELLE entre les deux travaux, et rien de plus : ils n'ont ni la même équipe, ni le même périmètre, ni des quantités comparables.**"
     date_verification: 2026-09-08
 verifications_en_attente:
   - "**LES TROIS SOURCES DE REBOND QUE LE CORPUS TIENT NE SONT PAS
      INDÉPENDANTES.** L'auteur unique du rapport de 2007 figure parmi les
      auteurs de la revue de 2021 ouverte par L26.C04. **Le corpus doit donc compter
      ses sources PAR AUTEURS ET NON PAR RÉFÉRENCES : deux travaux partageant un auteur
-     ne valent pas deux confirmations séparées.** **Cela ne permet EN REVANCHE AUCUNE
-     conclusion sur une révision ni sur une trajectoire d'estimation.** **La
+     ne valent pas deux confirmations pleinement indépendantes.** **La dépendance est
+     PARTIELLE et non totale — les périmètres, les méthodes et les équipes diffèrent —
+     de sorte que leur convergence se PONDÈRE et ne s'annule pas.** **La
      troisième source est un ministère qui recense la littérature sans produire
      d'estimation propre.** **ACQUISITION DE RANG 1 : un travail contradictoire
      écrit hors de ce groupe.**"
@@ -71,13 +72,11 @@ renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08]
 
 ::etat:: **L26.C04 s'appuie sur une revue de 2021 qui conclut à plus de la moitié**, avec des moyennes de 58 % et 71 %.
 
-::etat:: **UNE PREMIÈRE RÉDACTION DE CE CHAPITRE CONCLUAIT À UNE RÉVISION D'UN FACTEUR VOISIN DE CINQ PAR UNE MÊME ÉQUIPE. LES DEUX AFFIRMATIONS SONT RETIRÉES LE 2026-09-08 PAR L'AUTEUR, ET ELLES ÉTAIENT FAUSSES POUR DEUX RAISONS DISTINCTES.**
+::etat:: **CES DEUX QUANTITÉS NE SONT PAS COMPARABLES, ET AUCUNE ÉVOLUTION NE PEUT ÊTRE DÉDUITE DE LEUR RAPPROCHEMENT.** *« Au moins 10 % »* est une **BORNE INFÉRIEURE** ; 58 % et 71 % sont des **MOYENNES**, portant en outre sur des périmètres différents. **Une borne inférieure de 10 % est compatible avec une moyenne de 71 %** : les deux énoncés peuvent être exacts en même temps, et leur écart n'est pas une révision.
 
-::etat:: **PREMIÈRE RAISON : LES DEUX QUANTITÉS NE SONT PAS DE MÊME NATURE.** *« Au moins 10 % »* est une **BORNE INFÉRIEURE** ; 58 % et 71 % sont des **MOYENNES**, portant en outre sur des périmètres différents. **On ne calcule pas un rapport entre une borne inférieure et une moyenne** : une borne inférieure de 10 % est compatible avec une moyenne de 71 %, et les deux énoncés peuvent être exacts en même temps sans qu'aucune révision ait eu lieu.
+::etat:: **CE QUI PEUT ÊTRE ÉTABLI EST PLUS ÉTROIT.** Le rapport de 2007 est signé d'un seul auteur, la revue de 2021 en compte plusieurs, **et un auteur est commun aux deux textes.** **Cela fonde une DÉPENDANCE PARTIELLE** : les deux travaux ne sont pas deux observations indépendantes, **mais ils restent deux travaux distincts, avec des périmètres, des méthodes et des équipes différents.** **Le corpus doit donc pondérer leur convergence, non l'annuler.**
 
-::etat:: **SECONDE RAISON : IL N'Y A PAS « UNE MÊME ÉQUIPE ».** Le rapport de 2007 est signé d'un seul auteur ; la revue de 2021 en compte plusieurs. **Ce qu'on peut établir est plus étroit et suffit** : **UN AUTEUR EST COMMUN AUX DEUX TEXTES.**
-
-::hypothese:: **Ce qui subsiste, et il faut s'y tenir.** **Une réserve d'indépendance, et elle est réelle** : deux travaux partageant un auteur ne valent pas deux confirmations séparées, et le corpus doit compter ses sources par auteurs et non par références. **Mais aucune conclusion sur une révision, aucun facteur, aucune trajectoire.** **La règle de méthode versée par ce chapitre est donc double** : vérifier les auteurs avant de compter deux sources, **et vérifier la nature des quantités avant de les comparer.** **La seconde est celle sur laquelle ce chapitre a lui-même fauté.**
+::hypothese:: **La règle de méthode versée par ce chapitre est double.** **Vérifier les auteurs avant de compter deux sources comme deux confirmations indépendantes.** **Et vérifier la nature des quantités avant de les comparer** — une borne n'est pas une moyenne, et un périmètre n'est pas un autre.
 
 ## 3. Le retour de flamme : pas une règle, mais un précédent qui vise le dispositif
 
@@ -103,4 +102,4 @@ renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08]
 
 ::etat:: **Conséquence sur le calendrier.** Le rapport de 2026 constate que la base disponible reste mince — **dix-sept études, dont quatre des cinq britanniques publiées entre 2007 et 2012** — et appelle à *« further research »*. **Le corpus enregistre donc que dix-neuf ans après le rapport fondateur, le champ n'a pas beaucoup de mesures nouvelles à opposer à ses propres modèles.**
 
-::hypothese:: **Ce que cela change à la position du corpus, et ce n'est pas favorable.** **Le corpus ne peut pas invoquer le rebond comme un fait quantifié contre l'efficacité, ni le minorer.** **Il peut établir une seule chose, et elle suffit** : toutes les méthodes, tous les périmètres et toutes les époques donnent un rebond **positif**, et aucune ne donne zéro. **La question n'est donc jamais de savoir S'IL FAUT en tenir compte, mais de combien** — et sur ce « de combien », le corpus n'a pas de réponse et la littérature ne lui en propose pas une, elle lui en propose trois.
+::hypothese:: **Ce que cela change à la position du corpus, et ce n'est pas favorable.** **Le corpus ne peut pas invoquer le rebond comme un fait quantifié contre l'efficacité, ni le minorer.** **Ce qu'il peut établir est borné à ce que la source recense** : **les dix-sept études retenues par ce rapport donnent TOUTES un rebond positif, et aucune ne donne zéro** — quelles que soient les trois familles de méthodes employées. **Ce n'est pas une loi sur toutes les méthodes, tous les périmètres et toutes les époques**, et le corpus ne l'écrira pas ainsi. **Mais c'est assez pour que la question ne soit pas de savoir S'IL FAUT en tenir compte, seulement DE COMBIEN** — et sur ce « de combien », la littérature ne propose pas une réponse mais trois.

@@ -1592,8 +1592,9 @@ DEUX PROPOSITIONS SONT COMPATIBLES.** L'une traite du **recyclage d'un stock
 constant** sous apport d'exergie, l'autre d'une **croissance permanente** butant
 sur un plancher d'intensité. **Rien dans l'une n'interdit l'autre, et le
 corpus l'avait correctement compris dans L26.C01 avant de reconstruire la
-contradiction.** **La conjonction est plus contraignante qu'un désaccord ne
-l'aurait été : elle laisse le régime permanent comme seule échappatoire.**
+contradiction.** **Le régime permanent est le seul état qui satisfasse les deux
+propositions étudiées — sans que cela suffise à en faire la seule possibilité réelle,
+le modèle de Ward étant conditionnel.**
 
 **ACQUISITIONS DE RANG 1 QUI EN DÉCOULENT.** Une **réplication du
 modèle de 2016 sur une économie NON EXTRACTIVE** — la

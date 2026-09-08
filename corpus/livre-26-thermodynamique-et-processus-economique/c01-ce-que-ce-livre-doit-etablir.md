@@ -61,7 +61,7 @@ verifications_en_attente:
      CHAPITRE NE PEUT DONC JAMAIS ÊTRE INVOQUÉ POUR SOUTENIR QU'UN SYSTÈME MATÉRIEL
      PEUT CROÎTRE** — il soutient exactement le contraire de ce qu'une lecture rapide
      lui ferait dire."
-  - "**CORRIGÉ LE 2026-09-08 PAR L'AUTEUR — IL N'Y A PAS DE CONTRADICTION, MAIS UNE RÉPARTITION DES CAS. Une première version de cette entrée annonçait que la source de ce chapitre était contredite par une autre source du
+  - "**UNE SECONDE SOURCE DU
      MÊME LIVRE, OUVERTE PAR L26.C10 — ET LE CORPUS NE TRANCHE PAS.** Ce chapitre
      s'appuie sur une source soutenant qu'un recyclage complet reste compatible avec
      la seconde loi POURVU QU'UN FLUX D'EXERGIE SUFFISANT SOIT DISPONIBLE, et il a

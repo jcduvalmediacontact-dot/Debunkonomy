@@ -133,16 +133,17 @@ verifications_en_attente:
      intensité physique, le rapport impact sur produit baisse SANS QU'AUCUNE GRANDEUR
      PHYSIQUE N'AIT BOUGÉ. **Ce n'est pas une accusation de tromperie — mais l'indicateur
      NE FAIT PAS LA DIFFÉRENCE entre une régénération réelle et un gonflement du
-     dénominateur monétaire.** **CORRIGÉ LE 2026-09-08 PAR L'AUTEUR : L'EXIGENCE D'UN
-     DÉNOMINATEUR PHYSIQUE EST RETIRÉE**, car elle supprimerait la notion même de
-     découplage économique, défini comme la relation entre une pression
-     environnementale et une VARIABLE ÉCONOMIQUE. **RÈGLE RETENUE À LA PLACE, ET ELLE
-     EST PLUS EXIGEANTE : publier SIMULTANÉMENT la PRESSION PHYSIQUE ABSOLUE, l'EMPREINTE
-     IMPORTÉE et le RATIO pression sur activité.** **Aucune des trois ne suffit seule** :
-     la pression absolue rend visible une hausse que le ratio masquerait, l'empreinte
-     importée rend visible un déplacement, et le ratio conserve la question
-     économique au lieu de l'abolir. **Leur publication conjointe interdit de choisir
-     celle qui arrange.** **Et l'application au dispositif du mécanisme de
+     dénominateur monétaire.** **RÈGLE DE PUBLICATION ARRÊTÉE LE 2026-09-08 :
+     publier SIMULTANÉMENT la PRESSION PHYSIQUE ABSOLUE, l'EMPREINTE IMPORTÉE et le
+     RATIO pression sur activité.** **La première est un TABLEAU MULTIDIMENSIONNEL** —
+     climat, matières, eau, sols, biodiversité, pollutions — **sans quoi une
+     amélioration sur une pression masque un report vers une autre.** **Aucune des
+     trois ne suffit seule** : la pression absolue rend visible une hausse que le ratio
+     masquerait, l'empreinte importée rend visible un déplacement géographique, et le
+     ratio conserve la question économique au lieu de l'abolir. **Un indicateur à deux
+     termes physiques ne conviendrait pas** : il mesurerait un rendement technique et
+     non un découplage, celui-ci se définissant comme la relation entre une pression
+     et une VARIABLE ÉCONOMIQUE. **Et l'application au dispositif du mécanisme de
      financiarisation reste À ÉTABLIR : une émission est une transaction financière et
      n'entre pas dans le produit intérieur brut — la chaîne comptable manque.**"
 resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."

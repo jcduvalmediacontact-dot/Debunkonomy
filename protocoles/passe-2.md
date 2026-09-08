@@ -4245,8 +4245,12 @@ quelle intensité physique associée.
 avec plancher d'intensité. **Les deux propositions peuvent être vraies
 ensemble.** **Le corpus l'avait correctement compris dans L26.C01 avant de
 reconstruire la contradiction dans L26.C10.** **Et le résultat vrai est plus
-défavorable que la fausse controverse** : la conjonction laisse le régime
-permanent comme seule échappatoire.
+défavorable que la fausse controverse** : **le régime permanent est le seul état
+qui satisfasse les deux propositions étudiées.** **Cela ne suffit pas à en faire la
+seule possibilité réelle pour le dispositif** — le modèle de Ward est conditionnel à un
+pays, un scénario, un plancher argumenté et une classe de ressources supposées non
+substituables. **Ce qui est acquis est plus étroit : le corpus ne peut plus invoquer le
+résultat de L26.C01 pour soutenir une croissance matérielle.**
 
 **(3) LES DEUX CHIFFRES DE REBOND NE SONT PAS COMPARABLES.** « Au moins 10 % »
 est une **borne inférieure** ; 58 % et 71 % sont des **moyennes** sur d'autres
@@ -4266,3 +4270,37 @@ n'est pas une moyenne, un plafond n'est pas une valeur, un périmètre n'est
 pas un autre. **C'est la règle sur laquelle le corpus a fauté deux fois le
 même jour, après avoir passé la journée à établir que les
 conventions décident des chiffres.**
+
+
+## Règle éditoriale versée le 2026-09-08 — OÙ VIT L'HISTORIQUE D'UNE CORRECTION
+
+**LE CORPUS CANONIQUE EXPOSE L'ÉTAT CORRIGÉ, ET LUI SEUL. L'historique d'une
+correction vit dans git et dans ce fichier.**
+
+**LE MOTIF EST DANS LE § 10 DE LA CONVENTION.** Celui-ci pose qu'une IA
+n'extrait que quelques passages et que **chacun doit tenir debout seul**. **Une
+formulation fautive conservée dans un chapitre pour être aussitôt
+rétractée ne tient PAS debout seule** : extraite hors de sa
+rétractation, elle réactive l'affirmation fausse, et elle la réactive
+avec l'autorité du corpus. **La chaîne « X, mais c'est faux » se
+coupe toujours au « mais ».**
+
+**LA DISTINCTION QUI COMMANDE, ET ELLE N'EST PAS UNE NUANCE.**
+
+**(1) LA CORRECTION DE RÉDACTION SORT DU CHAPITRE.** Un brouillon a
+écrit ce qu'une source n'établissait pas, et la phrase est remplacée
+par l'énoncé juste. **Rien n'est perdu** : git porte le texte, ce fichier
+porte le motif. **C'est le cas de L26.C08, C09 et C10 le 2026-09-08.**
+
+**(2) LA RÉTRACTATION CONTRE UNE SOURCE RESTE DANS LE CHAPITRE.** Le corpus
+avait AFFIRMÉ une proposition, une source ouverte l'a réfutée, et
+**le fait que le corpus l'ait affirmée est lui-même un résultat** :
+il dit ce que le dispositif tenait pour acquis sans l'avoir vérifié.
+**C'est le cas de L1.C17 § 4 contre Ayres**, et cela ne se retire pas. **Un
+corpus qui effacerait ses rétractations de fond cesserait d'être
+contradictoire.**
+
+**LE CRITÈRE PRATIQUE.** **L'erreur a-t-elle été tenue par le corpus, ou
+seulement écrite dans un brouillon du jour ?** Tenue → elle reste, avec sa
+réfutation. Écrite et corrigée avant d'avoir rien versé → elle
+sort, et son motif vient ici.
