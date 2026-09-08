@@ -37,9 +37,23 @@ verifications_en_attente:
      rôle « **may change in the future** ». **Un résultat adossé à une
      classification en cours de révision est un résultat daté**, et le corpus
      doit le rouvrir à la prochaine édition."
+  - "**LA DETTE DÉCLARÉE PAR CE CHAPITRE EST SOLDÉE LE 2026-09-08 PAR L19.C09, ET
+     LE RÉSULTAT N'EST PAS CELUI QU'IL ANNONÇAIT.** Ce chapitre écrivait que les
+     chapitres C02 à C06 n'avaient pas été relus contre la révision et que le
+     corpus « ne peut pas affirmer que la tranche tient ». **LA RELECTURE EST
+     FAITE, appui principal par appui principal, LES DEUX ÉDITIONS OUVERTES EN
+     TEXTE ET COMPARÉES DIRECTEMENT.** **QUATRE APPUIS TIENNENT** — l'or comme
+     seule exception (C01), la non-reconnaissance de la répudiation (C03), l'actif
+     comme report de valeur (C04), et les deux appuis de C06, l'exception unique
+     de la banque centrale et la résidence propre des organisations internationales.
+     **DEUX ONT BOUGÉ, EN SENS CONTRAIRE** : la définition de l'unité
+     institutionnelle est assouplie sur le passif (C05), et **la formule du
+     créancier collectif a disparu du traitement des droits de tirage spéciaux
+     (C02)**. **CE QUI RESTE DÛ : les renvois SECONDAIRES de chaque chapitre ne
+     sont pas contrôlés, et un appui par chapitre ne vérifie pas un chapitre.**"
 resume: "Ce chapitre ouvre la révision de 2025 du système de comptes nationaux, que la tranche entière du dix-neuvième livre réclamait puisqu'elle avait été écrite sur l'édition de 2008. Il vérifie d'abord que le résultat central de cette tranche survit, la révision maintenant que les actifs financiers se composent des créances financières et de l'or en lingots détenu comme actif de réserve, de sorte que l'or demeure le seul actif financier dépourvu de passif correspondant. Il établit ensuite que la révision affronte pour la première fois le cas dont le corpus avait besoin, celui d'un actif sans passif de contrepartie conçu pour servir de moyen d'échange, et que sa réponse tient en trois énoncés. Un tel actif n'est pas un actif financier mais un actif non financier non produit, et le motif en est exactement que le passif de contrepartie ne peut pas être établi. Les achats de biens et de services effectués avec lui sont en conséquence traités comme des opérations de troc. Et la norme énumère quatre conditions sous lesquelles un tel actif pourrait devenir de la monnaie et être enregistré comme actif financier, qui sont l'autorisation par un gouvernement, l'acceptation générale comme moyen de paiement y compris pour l'acquittement des impôts, la fonction d'unité de compte et l'usage répandu comme moyen d'échange. Le chapitre relève que ces quatre conditions sont institutionnelles et non comptables, et que la seconde renvoie directement à la compétence fiscale dont le troisième chapitre du livre avait fait dépendre la nature du reflux. Il déclare enfin que l'allocation du dispositif ne circulant jamais, la question du troc ne se pose pas pour elle en l'état, mais que le raisonnement de la norme sur l'absence de passif de contrepartie la vise néanmoins au bilan de qui la reçoit."
 concepts: [creation_monetaire, contrepartie_comptable, monnaie_comme_registre]
-renvois: [L11.C01, L16.C04, L18.C10, L19.C01, L19.C02, L19.C03, L19.C07, L21.C08, L26.C10]
+renvois: [L11.C01, L16.C04, L18.C10, L19.C01, L19.C02, L19.C03, L19.C07, L21.C08, L26.C10, L19.C09]
 ---
 
 # Payer sans passif, c'est troquer

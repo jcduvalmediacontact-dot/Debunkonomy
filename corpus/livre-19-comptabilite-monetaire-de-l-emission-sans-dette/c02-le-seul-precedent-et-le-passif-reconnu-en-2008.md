@@ -71,9 +71,27 @@ verifications_en_attente:
      et dont la créance porte sur les participants collectivement. **Et il porte
      l'avertissement que ce chapitre a établi : son passif n'a été reconnu qu'après
      quinze ans de non-reconnaissance.**"
+  - "**CE CHAPITRE A ÉTÉ RELU CONTRE LA RÉVISION 2025 LE 2026-09-08 PAR L19.C09, ET
+     SON APPUI A BOUGÉ EN DEUX SENS.** **RENFORCEMENT :** l'édition 2008
+     reconnaissait le passif dans une ANNEXE DES CHANGEMENTS (§ A3.118) ; **la
+     révision l'énonce dans le corps du texte ET EN DONNE LE MOTIF** — « **the
+     allocation of SDRs is recorded as the INCURRENCE OF A LIABILITY of the
+     member receiving them (because of a REQUIREMENT TO REPAY the allocation in
+     certain circumstances, and also because INTEREST ACCRUES)** » [§ 12.50].
+     **PERTE :** les formules « **assets with matching liabilities** », « **claims
+     on the participants COLLECTIVELY and not on the IMF** » [§ 11.49] et « **the
+     rest of the world REPRESENTING THE PARTICIPANTS COLLECTIVELY** » [§ 11.48]
+     **SONT INTROUVABLES DANS LA RÉVISION.** Elle écrit à la place que les avoirs
+     sont des « **unconditional rights to obtain foreign exchange or other reserve
+     assets FROM OTHER IMF MEMBERS** » [§ 25.142]. **LE CRÉANCIER COLLECTIF EST
+     DEVENU DES MEMBRES IDENTIFIÉS.** **CONSÉQUENCE POUR CE CHAPITRE : le seul
+     précédent reste un précédent DE PASSIF RECONNU, il n'est plus un précédent
+     DE CRÉANCIER COLLECTIF** — et c'est le second trait qui le rendait analogue
+     au dispositif. **Le titre de ce chapitre, qui date le passif de 2008, doit
+     être revu : le passif n'est plus daté de 2008, il est en vigueur.**"
 resume: "Ce chapitre répond à la première question de la grille du livre en établissant qu'un précédent existe, qu'il fonctionne depuis un demi-siècle et que la norme statistique mondiale a dû trancher exactement la question que le corpus laissait ouverte. Une institution internationale crée des unités, les alloue à ses participants sans contrepartie préalable, et ces unités donnent à leur détenteur un droit assuré et inconditionnel d'obtenir des devises. La norme les classe comme des avoirs assortis de passifs correspondants, mais elle précise que la créance porte sur les participants pris collectivement et non sur l'institution émettrice. Ce traitement est récent, et le chapitre relève que c'est un changement délibéré, l'annexe des révisions portant l'intitulé selon lequel un passif en droits de tirage spéciaux est désormais reconnu, ce qui signifie que la version antérieure de la norme n'en reconnaissait pas. Le corpus en tire trois résultats. Le premier est que la construction que son propre arbitrage avait retenue, selon laquelle la collectivité porte la dette, est écrite dans une norme statistique mondiale depuis deux mille huit, ce qu'il ignorait. Le deuxième est que l'émetteur n'étant pas le débiteur, le problème des fonds propres négatifs de l'émetteur ne se pose pas sous ce traitement, ce qui déplace une objection que deux chapitres tenaient pour acquise. Le troisième est le prix de ces deux premiers, puisque la norme range explicitement l'instrument parmi les instruments de dette et que l'allocation porte intérêt, cet intérêt se compensant exactement à l'échelle du système tant que personne ne se sert de son allocation, et devenant une charge nette dès qu'un participant en dispose."
 concepts: [contrepartie_comptable, reflux_collectif, hierarchie_monetaire, creation_monetaire, devise_cle]
-renvois: [L3.C09, L10.C06, L11.C01, L11.C02, L19.C01, L20.C09, L21.C01, L21.C03, L21.C05, L19.C06]
+renvois: [L3.C09, L10.C06, L11.C01, L11.C02, L19.C01, L20.C09, L21.C01, L21.C03, L21.C05, L19.C06, L19.C09]
 ---
 
 # Le seul précédent, et le passif lui a été reconnu en 2008

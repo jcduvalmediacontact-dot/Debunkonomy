@@ -1948,3 +1948,47 @@ les deux textes sont sous abonnement.
 
 **Un article de revue sur les méprises relatives à la valorisation** :
 serveur de l'éditeur refusant le téléchargement direct. Échec ordinaire.
+
+
+## Le 2026-09-08 — LA PREMIÈRE RELECTURE D'UNE TRANCHE CONTRE UNE ÉDITION NOUVELLE
+
+**Les deux éditions du *System of National Accounts* — 2008 et la révision
+2025 — étaient l'une et l'autre ouvertes en texte.** **L19.C09 les a comparées
+directement**, appui principal par appui principal, sur les six premiers
+chapitres du Livre 19. **C'est la première relecture d'une tranche contre une
+édition nouvelle de sa source dans l'histoire du corpus.**
+
+**CE QU'ELLE A COÛTÉ : six recherches ciblées dans deux documents de plusieurs
+milliers de pages, et une comparaison mot à mot.** **CE QU'ELLE A RAPPORTÉ :
+quatre appuis confirmés, un assouplissement de la définition de l'unité
+institutionnelle, et LA DISPARITION DE LA FORMULE DU CRÉANCIER COLLECTIF dans
+le traitement des droits de tirage spéciaux** — laquelle retire au seul
+précédent du Livre 19 le trait qui le rendait analogue au dispositif.
+
+**ET UNE RÈGLE EN SORT, POUR LE LIVRE 14 : LA RÉVISION RENUMÉROTE.** § 4.2
+devient § 5.2, § 11.8 devient § 12.8, § 22.151 devient § 30.152. **Un renvoi
+qui ne porte que le numéro de paragraphe, sans la formule citée, NE SE RETROUVE
+PAS dans l'édition suivante.** **La discipline qui impose de citer la formule
+ET le numéro n'est donc pas un ornement : c'est ce qui rend une vérification
+ultérieure possible.**
+
+### Acquisition résiduelle : LES NOTES DE MISE À JOUR DE LA RÉVISION
+
+**Le corpus constate deux changements de rédaction et n'en connaît pas le motif
+déclaré.** Les groupes qui ont préparé la révision publient des notes
+expliquant les changements retenus, avec leurs justifications.
+
+**À OBTENIR : la note portant sur le traitement des droits de tirage spéciaux
+(disparition de la formule du créancier collectif) et celle portant sur la
+définition de l'unité institutionnelle (« typically able to incur
+liabilities »).** **RANG : élevé pour le Livre 19** — tant qu'elles ne sont
+pas lues, l'interprétation donnée par L19.C09 de la disparition du créancier
+collectif **reste une lecture du TEXTE, non une lecture de l'INTENTION**.
+
+### Réserve de méthode à porter à toute relecture d'édition
+
+**Les disparitions sont établies PAR RECHERCHE DE CHAÎNES, et une recherche
+n'établit l'absence que des chaînes cherchées.** Une reformulation portant la
+même règle dans d'autres mots ne serait pas détectée. **Et l'extraction de
+l'édition 2008 provient d'une mise en page à deux colonnes qui ENTRELACE les
+paragraphes : la PRÉSENCE d'une formule y est fiable, son ABSENCE l'est moins.**

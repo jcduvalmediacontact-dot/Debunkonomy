@@ -59,9 +59,20 @@ verifications_en_attente:
      CORPUS CROYAIT INDÉPENDANTS** — la nature du reflux et le statut monétaire de
      l'unité. **Et les quatre conditions sont institutionnelles, aucune n'est
      comptable.**"
+  - "**APPUI PRINCIPAL RELU CONTRE LA RÉVISION 2025 LE 2026-09-08 PAR L19.C09 :
+     IL TIENT.** Les deux éditions écrivent : « **Unilateral cancellation of a financial
+     claim by a debtor (DEBT REPUDIATION) is not recognized in the SNA** » — la
+     révision ajoutant seulement « **sequence of economic accounts** », formule
+     qu'elle substitue partout au sigle seul. **La règle reparaît à l'identique
+     sur la restructuration de dette** (§ 26.108 en 2008), où « **debt
+     reorganization** » devient « **debt restructuring** » et BPM6 devient BPM7.
+     **RÉSERVE : UN APPUI N'EST PAS UN CHAPITRE.** Les renvois SECONDAIRES de ce
+     chapitre à la norme n'ont pas été recontrôlés, et **la révision RENUMÉROTE** :
+     un renvoi qui ne porte que le numéro, sans la formule citée, ne se retrouve
+     pas."
 resume: "Ce chapitre répond à la cinquième question de la grille du livre et tranche par la même occasion une bifurcation que le livre onze avait instruite sans la trancher, celle qui oppose un reflux compris comme destruction monétaire et un reflux compris comme ressource de l'émetteur. Il établit d'abord que la norme statistique mondiale offre trois classements possibles à un prélèvement, le transfert, l'extinction d'une créance et la disparition économique, et que les trois n'ont ni les mêmes conditions ni les mêmes conséquences. Il montre ensuite que ce qui décide entre eux n'est pas le mécanisme mais le moment où celui-ci est écrit. Une variation de principal inscrite dans les termes de l'instrument est enregistrée comme un intérêt, c'est-à-dire comme un revenu de la propriété, tandis qu'une réduction décidée après coup par le débiteur est une répudiation unilatérale que la norme refuse de reconnaître comme une transaction et qui n'apparaît ni au compte de capital ni au compte financier. Le corpus en tire trois résultats. Le premier est que la préférence pour la règle contre la discrétion, qui était jusqu'ici une question de crédibilité, devient une question de classement, un prélèvement discrétionnaire n'étant pas enregistrable. Le deuxième est qu'une décote inscrite dans les termes est un intérêt de signe négatif, de sorte que l'expression sans intérêt tombe comme l'expression sans dette était tombée au premier chapitre du livre. Le troisième est une alternative dont les deux branches se paient, puisque si l'unité est le passif de l'émetteur celui-ci a des fonds propres négatifs mais peut prélever sur sa propre dette sans aucune compétence fiscale, et que si elle ne l'est pas il n'a pas de fonds propres négatifs mais ne peut plus prélever sans une compétence fiscale qu'il n'a pas."
 concepts: [monnaie_fondante, demurrage, reflux_monetaire, reflux_transactionnel, regle_contre_discretion, contrepartie_comptable]
-renvois: [L10.C06, L11.C01, L11.C02, L11.C05, L11.C07, L11.C27, L19.C01, L19.C02, L21.C01, L19.C08]
+renvois: [L10.C06, L11.C01, L11.C02, L11.C05, L11.C07, L11.C27, L19.C01, L19.C02, L21.C01, L19.C08, L19.C09]
 ---
 
 # Le reflux est un intérêt négatif, ou une répudiation — et c'est le moment qui décide

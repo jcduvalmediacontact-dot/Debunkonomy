@@ -42,9 +42,21 @@ verifications_en_attente:
      inférence**, et le corpus ne tient aucun élément sur ce que les
      organisations internationales publient volontairement ni sur qui les
      contrôle. **Routé vers L7 et L14, non instruit ici.**"
+  - "**APPUI PRINCIPAL RELU CONTRE LA RÉVISION 2025 LE 2026-09-08 PAR L19.C09 :
+     IL TIENT.** **C'ÉTAIT LE POINT SUR LEQUEL LE CORPUS S'ATTENDAIT À UNE PERTE, ET IL
+     N'Y EN A PAS.** La valeur nette « **could be positive or negative** » est
+     maintenue mot pour mot. Les organisations internationales sont toujours
+     « **resident in AN ECONOMIC TERRITORY OF THEIR OWN** ». **Et l'exception
+     unique subsiste, § 22.151 devenant § 30.152** : « **it is THE SINGLE
+     EXCEPTION to the rule that a unit whose output is non-market is not to be
+     classified as a corporation** ». **Seul l'adverbe « primarily » est tombé.**
+     **RÉSERVE : UN APPUI N'EST PAS UN CHAPITRE.** Les renvois SECONDAIRES de ce
+     chapitre à la norme n'ont pas été recontrôlés, et **la révision RENUMÉROTE** :
+     un renvoi qui ne porte que le numéro, sans la formule citée, ne se retrouve
+     pas."
 resume: "Ce chapitre répond à la troisième question de la grille et commence par montrer qu'elle mélangeait trois registres que le corpus traitait comme un seul. Sur le registre comptable, la réponse est franche et elle est favorable, la norme statistique mondiale écrivant en toutes lettres qu'une valeur nette peut être positive ou négative, de sorte que des fonds propres négatifs sont représentables et ne constituent aucune anomalie de mesure. Sur le registre prudentiel, la réponse est conditionnée, puisque les règles que le corpus oppose au dispositif ne s'appliquent qu'à des entités qualifiées et que savoir si l'institution émettrice en est une revient une quatrième fois à la question de son statut, qui n'est pas arbitrée. Sur le registre statutaire, que personne n'avait nommé, la réponse est ouverte, une situation nette négative mettant en cause l'actionnaire, la distribution et la continuité d'exploitation plutôt qu'une règle de supervision. Le chapitre établit ensuite un fait de classement que le corpus ignorait et qui déplace tout le reste, à savoir que les organisations internationales sont réputées résidentes d'un territoire économique propre et non de l'économie où elles se trouvent, de sorte que le bilan de l'institution émettrice n'entre dans les comptes de personne. Il en tire une hypothèse qui corrige sa propre lecture du deuxième chapitre du livre, celle selon laquelle la créance portée sur les participants collectivement pourrait être moins une doctrine sur qui doit qu'une conséquence de la règle de résidence, et il conclut que l'invisibilité obtenue n'est pas une solution mais une absence de contrôle."
 concepts: [contrepartie_comptable, solvabilite_anticipee, architecture_invisible, hierarchie_monetaire, robustesse]
-renvois: [L1.C07, L7.C06, L14.C01, L19.C01, L19.C02, L19.C03, L19.C04, L21.C01, L21.C04]
+renvois: [L1.C07, L7.C06, L14.C01, L19.C01, L19.C02, L19.C03, L19.C04, L21.C01, L21.C04, L19.C09]
 ---
 
 # Les fonds propres négatifs, et l'institution qui n'apparaît dans les comptes de personne

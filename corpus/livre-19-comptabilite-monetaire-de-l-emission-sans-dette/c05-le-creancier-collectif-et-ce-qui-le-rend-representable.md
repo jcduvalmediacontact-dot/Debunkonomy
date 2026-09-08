@@ -54,9 +54,27 @@ verifications_en_attente:
      livre qui doit produire le chiffre.** **Une contrainte s'ajoute ici** : le
      simulateur ne peut pas être écrit avant A37, puisque la forme juridique de
      l'émetteur décide des bilans que le modèle doit tenir."
+  - "**RÉVISION DE FOND À FAIRE, ÉTABLIE LE 2026-09-08 PAR L19.C09 : CE CHAPITRE A
+     RAISON ET N'A PLUS D'OBJET.** **Son raisonnement est CONFIRMÉ par la
+     rédaction même de la révision 2025** : là où l'édition 2008 faisait des
+     droits de tirage spéciaux une « **claim on the participants COLLECTIVELY** »,
+     **la révision écrit un droit d'obtenir des avoirs « FROM OTHER IMF MEMBERS »**
+     — elle a opéré elle-même la résolution du collectif en unités identifiées que
+     ce chapitre soutenait être nécessaire. **MAIS SA MATIÈRE A DISPARU** : il
+     travaille sur une formule qui n'est plus dans la norme en vigueur.
+     **SECONDE OBSERVATION, ET ELLE JOUE EN SENS INVERSE :** la définition de
+     l'unité institutionnelle est ASSOUPLIE — « **incurring liabilities** » [§ 4.2,
+     2008] devient « **TYPICALLY ABLE TO INCUR liabilities** » [§ 5.2, 2025].
+     **Le passif n'est plus un trait constitutif mais typique**, ce qui allège à
+     la marge une exigence que ce chapitre invoquait. **LE RÉSULTAT PRINCIPAL
+     TIENT NÉANMOINS**, car il repose sur « **in its own right** », maintenu
+     intact : **un collectif n'est pas davantage une unité institutionnelle en
+     2025 qu'en 2008.** **CE QUE LA RÉVISION DE FOND DOIT FAIRE : réécrire le
+     chapitre sur la norme EN VIGUEUR, et traiter l'édition 2008 comme un état
+     antérieur dont la correction confirme l'analyse.**"
 resume: "Ce chapitre répond à la deuxième question de la grille du livre en établissant qu'un débiteur collectif n'existe pas dans la norme statistique mondiale, et en montrant que le corpus tient pourtant déjà, sans l'avoir vu, ce qui rend sa construction représentable. La norme définit une unité institutionnelle comme une entité capable, en son propre nom, de détenir des actifs et de contracter des obligations, et elle exige d'un passif qu'il oppose deux unités nommées, le débiteur et le créancier, la créance étant inconditionnelle. Une société prise comme totalité ne satisfait à aucune de ces conditions. Le précédent ouvert au deuxième chapitre du livre paraît pourtant y contrevenir, puisque la créance y porte sur les participants pris collectivement. Le chapitre montre que la contradiction n'est qu'apparente, parce que chaque participant y est lui-même une unité institutionnelle individuellement obligée pour sa propre part, le collectif n'étant qu'une agrégation et non une entité. Il en déduit ce que le dispositif doit satisfaire, puis établit que la réponse est déjà dans le corpus, le chapitre précédent ayant montré qu'une fonte inscrite dans les termes est un intérêt dû par le détenteur. Le débiteur n'est donc pas la société mais le détenteur, à proportion de ce qu'il détient. Trois conséquences en découlent que le corpus n'avait pas tirées, dont la principale est que le point sur lequel un arbitrage antérieur restait bloqué reçoit enfin un mécanisme, puisque l'assiette qui garantit la dette est précisément celle que le succès du dispositif réduit."
 concepts: [reflux_collectif, contrepartie_comptable, demurrage, monnaie_fondante, hierarchie_monetaire]
-renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01, L25.C05, L13.C01]
+renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01, L25.C05, L13.C01, L19.C09]
 ---
 
 # Un débiteur collectif n'existe pas — sauf comme somme de débiteurs identifiés

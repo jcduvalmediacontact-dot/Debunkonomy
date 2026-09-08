@@ -4575,3 +4575,38 @@ type d'erreur qu'il ne voit pas non plus : la redécouverte fautive d'une chose
 déjà établie ailleurs dans le corpus.** **Aucun mécanisme ne relie un
 chapitre neuf aux acquis des chapitres anciens sur le même objet**, sinon la
 mémoire du rédacteur — et c'est à verser à la grille du Livre 14.
+
+
+## RÉVISION DE FOND À FAIRE — L19.C05, établie le 2026-09-08 par L19.C09
+
+**Ce n'est pas une correction à propager mais un chapitre à réécrire, et le
+motif est inhabituel : LE CHAPITRE A RAISON ET N'A PLUS D'OBJET.**
+
+**L19.C05 établit qu'un collectif n'est pas une unité institutionnelle, et donc
+qu'un créancier collectif doit se résoudre en unités identifiées.** Il
+travaillait sur la formule de l'édition 2008 du *System of National Accounts*,
+qui faisait des droits de tirage spéciaux une « **claim on the participants
+collectively and not on the IMF** ».
+
+**LA RÉVISION 2025 A OPÉRÉ ELLE-MÊME CETTE RÉSOLUTION** : elle écrit
+désormais un droit d'obtenir des avoirs de réserve « **from other IMF
+members** ». **Le raisonnement du chapitre est donc CONFIRMÉ par la rédaction
+du normalisateur — et sa MATIÈRE a disparu de la norme en vigueur.**
+
+**CE QUE LA RÉVISION DE FOND DOIT FAIRE.** Réécrire le chapitre sur la norme
+EN VIGUEUR, et traiter la formule de 2008 comme **un état antérieur dont la
+correction confirme l'analyse** — ce qui est un appui plus fort que celui dont
+le chapitre disposait, non plus faible. **Porter aussi l'assouplissement de la
+définition de l'unité institutionnelle**, qui joue en sens inverse et doit être
+déclaré comme tel : « incurring liabilities » (§ 4.2, 2008) devient
+« **typically able to incur liabilities** » (§ 5.2, 2025). **Le résultat
+principal tient néanmoins, car il repose sur « in its own right », maintenu
+intact.**
+
+**CONSÉQUENCE POUR L19.C02, À TRAITER DANS LA MÊME PASSE.** Son titre — « le
+seul précédent et le passif reconnu **en 2008** » — est dépassé :
+**le passif n'est plus daté de 2008, il est en vigueur, et la révision en donne
+désormais le MOTIF** (obligation de remboursement conditionnelle, intérêt qui
+court). **Le précédent est donc renforcé quant au passif et dissous quant au
+créancier collectif** — et c'est le second trait qui le rendait analogue au
+dispositif.

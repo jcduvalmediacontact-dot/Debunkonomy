@@ -44,9 +44,18 @@ verifications_en_attente:
      expositions d'une banque centrale à un émetteur supranational**, et il ne
      peut donc rien conclure sur les limites, la pondération ou les garanties
      exigibles."
+  - "**APPUI PRINCIPAL RELU CONTRE LA RÉVISION 2025 LE 2026-09-08 PAR L19.C09 :
+     IL TIENT.** **§ 3.30 devient § 4.5 et § 4.98** : « **It is a means of CARRYING
+     FORWARD VALUE from one accounting period to another** » — identique.
+     **Deux retouches sans portée** : *entity* devient *item*, et *benefit*
+     devient *economic benefit*.
+     **RÉSERVE : UN APPUI N'EST PAS UN CHAPITRE.** Les renvois SECONDAIRES de ce
+     chapitre à la norme n'ont pas été recontrôlés, et **la révision RENUMÉROTE** :
+     un renvoi qui ne porte que le numéro, sans la formule citée, ne se retrouve
+     pas."
 resume: "Ce chapitre répond à la quatrième question de la grille du livre, celle du poste que la banque centrale nationale inscrit à son actif lorsqu'elle convertit une allocation en monnaie nationale. Le Cahier technique de l'auteur nomme ce poste un actif transitoire, un chapitre du livre vingt et un l'a repris tel quel en relevant qu'aucun référentiel ne l'appuie, et la norme statistique mondiale ne connaît pas cette catégorie. Le chapitre montre d'abord que la définition même de l'actif exclut ce qui ne franchit aucune clôture, puisqu'un actif y est défini comme un moyen de reporter de la valeur d'une période comptable à une autre. Il examine ensuite les trois cases dans lesquelles ce poste pourrait entrer et en ferme deux. Un actif financier exige une contrepartie au passif de quelqu'un, la seule exception admise étant un métal détenu en réserve, ce qui oblige à désigner un débiteur, et il n'en existe que deux candidats, l'institution émettrice ou la collectivité des participants. Un actif non financier de la catégorie des contrats et licences suppose que l'accord restreigne l'usage ou l'offre d'un produit, ce qu'un certificat qui atteste un service rendu ne fait pas. Reste la troisième case, qui est l'absence d'actif, et le chapitre établit qu'elle ne supprime pas le problème mais le déplace, la banque centrale nationale portant alors les fonds propres négatifs à la place de l'institution émettrice. La bifurcation ouverte par les deux chapitres précédents apparaît donc une troisième fois, sur un troisième bilan, et aucun des trois ne permet de la contourner."
 concepts: [contrepartie_comptable, hierarchie_monetaire, creation_monetaire, monnaie_comme_registre, solvabilite_anticipee]
-renvois: [L1.C07, L10.C06, L10.C07, L11.C01, L11.C02, L19.C01, L19.C02, L19.C03, L21.C03]
+renvois: [L1.C07, L10.C06, L10.C07, L11.C01, L11.C02, L19.C01, L19.C02, L19.C03, L21.C03, L19.C09]
 ---
 
 # L'actif transitoire n'existe pas, et le problème change de bilan
