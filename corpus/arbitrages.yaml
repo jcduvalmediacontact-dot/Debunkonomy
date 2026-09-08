@@ -127,7 +127,19 @@ arbitrages:
     objet: "Le barème aux frontières ou la réponse à l'objection de fuite"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Le corpus ne peut pas garder les deux."
+    note: >
+      Le corpus ne peut pas garder les deux.
+      DÉPLACÉ LE 2026-09-08 PAR L24.C06, ET DANS UN SENS QUI AGGRAVE. La fuite
+      n'est pas seulement un risque de contournement par les acteurs : elle est
+      une PROPRIÉTÉ de toute limite définie sur un périmètre plus petit que le
+      système. « Merely assessing the protection of a regional safe operating
+      space might set incentives to export ecological degradation to other
+      countries, effectively threatening the preservation of planetary
+      boundaries. » La seule réponse rapportée — une étude sur la Suisse, qui
+      note que la moitié de l'impact de la consommation nationale a lieu à
+      l'étranger — passe par une HYPOTHÈSE ÉTHIQUE EXPLICITE de droits
+      environnementaux égaux par personne. Autrement dit par une décision qui
+      n'est pas scientifique.
 
   - id: A41
     objet: "Le mot « entropie » est-il éprouvé ou métaphorique"
@@ -278,13 +290,23 @@ falsifieurs:
       ET N'EST PAS ARBITRÉE.
     acquisition_bloquante: >
       L'ACQUISITION QUE LA RÉSERVE DE F13 RÉCLAMAIT DEPUIS LE 2026-09-07 EST
-      NOMMÉE LE 2026-09-08 PAR L18.C21, ET ELLE N'EST PAS FAITE : la critique
-      publiée des neuf limites planétaires existe — BIERMANN ET KIM, 2020, revue
-      d'études contestant le CHOIX des neuf fonctions retenues (pourquoi
-      celles-là et non d'autres) et l'EMPLACEMENT des limites elles-mêmes. Une
-      critique d'équité est également nommée, portant l'absence de dimension de
-      justice sociale. RANG 1 : c'est elle qui lèvera ou confirmera la réserve
-      « un cadre, pas un consensus ».
+      NOMMÉE ET FAITE LE 2026-09-08 : Biermann et Kim, 2020, revue de synthèse,
+      OUVERTE ET LUE (L24.C06). LA RÉSERVE « UN CADRE, PAS UN CONSENSUS » EST
+      LEVÉE DANS SA FORME — le corpus tient un état du débat — MAIS CE QU'IL
+      TIENT EST L'EXISTENCE DES CRITIQUES, NON LEUR VALIDITÉ PRÉSENTE : la revue
+      est de 2020, le cadre a été révisé en 2023, et le corpus possède sans
+      l'avoir ouverte l'édition 2025 de la mise à jour annuelle.
+      CE QUE LA CRITIQUE ÉTABLIT ET QUI TOUCHE F13 : une limite n'est PAS un
+      seuil — la mise à jour de 2015 l'écrit — et plusieurs processus retenus
+      sont sous-globaux, non systémiques et agrégés, sans comportement à seuil
+      démontré. Les variables de la biosphère sont déclarées PROVISOIRES par le
+      cadre lui-même. La valeur d'une limite incorpore donc un DEGRÉ DE PRUDENCE
+      qui est une décision, non une mesure.
+      ET UN RÉSULTAT CITÉ SERT À LA FOIS LA THÈSE ET LE FALSIFIEUR : le mélange
+      énergétique de moindre coût atteignant deux degrés aux États-Unis franchit
+      cinq limites sur huit. Réussir sur le carbone n'est pas réussir — ce qui
+      soutient la multidimensionnalité du dispositif ET renforce F13, puisque la
+      raison d'exiger plusieurs dimensions est qu'elles ne se compensent pas.
       ET UNE MISE À JOUR ANNUELLE EXISTE, QUE LE CORPUS IGNORAIT : le PLANETARY
       HEALTH CHECK, initiative conduite par l'institut de Potsdam et l'auteur
       principal du cadre d'origine, dont l'édition INAUGURALE de 2024 confirme
@@ -366,6 +388,46 @@ pieces_de_conception_manquantes:
       de recalibrage procédant par petits pas ne produit pas des effets
       proportionnels. Chiffrage daté (1990), local (Pays-Bas), borné par sa
       source comme une BORNE SUPÉRIEURE.
+      LE TYPE B EST DOCUMENTÉ PAR AVANCE LE 2026-09-08 PAR L24.C06, ET PAR LA
+      SOURCE ELLE-MÊME. Les variables de contrôle de la biosphère sont déclarées
+      « interim control variables until more appropriate ones are developed » par
+      la mise à jour de 2015 du cadre. Un barème ne peut pas être plus ferme que
+      sa variable : la dérive de convention de mesure n'est donc pas un risque à
+      anticiper, c'est une échéance annoncée. La règle de recalibrage du type B
+      doit être écrite AVANT que la variable change, et non après.
+
+  - id: DESCENTE-D-ECHELLE
+    objet: "La qualification régénérative est-elle une descente d'échelle des limites planétaires"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: >
+      OUVERTE LE 2026-09-08 PAR L24.C06, ET ELLE VISE LA CONSTRUCTION MÊME DU
+      DISPOSITIF. La mise à jour de 2015 du cadre écrit qu'il n'a PAS ÉTÉ CONÇU
+      pour être « downscaled » ni « disaggregated to smaller levels », en raison
+      de l'interdépendance des processus. Une tentative pionnière de partage de
+      charge conclut qu'un tel partage est « neither feasible nor desirable ».
+      Une application régionale a dû LAISSER LE CLIMAT DE CÔTÉ, faute de pouvoir
+      le gérer à cette échelle.
+      OR UN BARÈME QUI QUALIFIE UN ACTE, UN ACTEUR OU UN PRODUIT EST UNE
+      DESCENTE D'ÉCHELLE, ET C'EST LA PLUS RAIDE : le corpus ne descend ni au
+      pays ni à la région, mais À LA TRANSACTION.
+      CETTE DESCENTE EXISTE DANS LA LITTÉRATURE, ELLE EST MASSIVE, ET ELLE EST
+      DÉCLARÉE NON RÉSOLUE. Les travaux couplant limites planétaires et analyse
+      de cycle de vie — cosmétiques, habillement, entreprises, pêche — forment
+      une part importante de toute la littérature du domaine, mais « technical
+      and theoretical challenges are still large », et il est appelé plus de
+      recherche « if we want to model the impact on ALLOCATION OF AND
+      ENTITLEMENT TO the safe operating space ». CETTE PHRASE DÉCRIT LE
+      DISPOSITIF, ET ELLE LE DÉCRIT COMME UN PROBLÈME OUVERT.
+      À TRANCHER PAR L'AUTEUR : le dispositif est-il une telle descente, et si
+      oui, que répond-il à ce que la littérature déclare ouvert ?
+    acquisition_bloquante: >
+      Les méthodes couplant limites planétaires et analyse de cycle de vie, à
+      commencer par celle que Ryberg et al. discutent pour l'allocation de
+      l'espace de fonctionnement sûr. À rapprocher de la consommation matérielle
+      pondérée par l'impact environnemental (van der Voet, Best), inscrite par
+      L18.C19 : les deux littératures visent le même objet et le corpus n'en a
+      ouvert aucune.
 
   - id: CRITERE-L25
     objet: "Qui sélectionne, selon quel critère, par quelle autorité"
@@ -409,6 +471,24 @@ pieces_de_conception_manquantes:
       beneficial outcomes which go beyond a consequential threshold » — ne
       s'oppose pas à l'analyse économique, elle la borne. QUATRIÈME PRÉSENTATION
       DE LA MÊME ISSUE, PREMIÈRE AVEC UNE FORMULATION.
+      CONVERGENCE ÉTABLIE LE 2026-09-08 PAR L24.C06 : la littérature de
+      gouvernance du système terrestre pose la MÊME question dans les MÊMES
+      termes — « who is deciding on the precise values of boundaries that are to
+      be protected ? » — et identifie l'enjeu comme un déplacement de
+      responsabilité et de pouvoir politique DU DÉCIDEUR VERS L'EXPERT. Le degré
+      d'aversion au risque qu'une limite incorpore ne relève pas, selon ces
+      critiques, des sciences de la nature ; le terme employé est « global
+      expertocracy ». DEUX LITTÉRATURES INDÉPENDANTES DISENT DONC QUE LE SEUIL
+      N'EST PAS SCIENTIFIQUE. Le corpus ne peut plus présenter son barème comme
+      la traduction d'un fait naturel, quelle que soit la qualité de la science
+      qu'il cite.
+      DÉFAUT DE LÉGITIMITÉ DOCUMENTÉ : pas un seul chercheur du Sud parmi les
+      auteurs de 2009 ; la forme institutionnelle récente n'est légitimée ni par
+      les Nations unies ni par les pays en développement, et son réseau de
+      soutien comprend une facilité liée à la Banque mondiale et le forum
+      économique mondial. À porter partout où le corpus invoque ce cadre.
+      NON LU, RANG 2 : la section « Implications for Governance » de la même
+      revue, la plus longue, qui porte les propositions institutionnelles.
 
   - id: PARTAGE-SOURCE-PUITS
     objet: "De quel côté de l'économie la qualification régénérative mord-elle"
