@@ -36,9 +36,19 @@ verifications_en_attente:
      la cible 17.15, et ce qu'il mesure effectivement.**"
   - "**CENT SOIXANTE-SEPT CIBLES RESTENT ENTIÈRES.** Ce chapitre en lit deux de
      plus que L12.C02. La grille fixée par L12.C01 n'est toujours pas entamée."
+  - "**TROISIÈME OCCURRENCE DE LA MÊME FORME, ÉTABLIE LE MÊME JOUR PAR L20.C25, ET
+     CELLE-CI EST DANS UN TRAITÉ CONTRAIGNANT.** Ce chapitre a établi que le cadre
+     onusien protège l'autorité nationale par une cible tout en la subordonnant
+     par une clause. **L20.C24 a montré que le retrait du Fonds est unilatéral et
+     immédiat. Et la Banque ne peut emprunter ni garantir « ONLY WITH THE APPROVAL
+     of the member in whose markets the funds are raised AND the member in whose
+     currency the loan is denominated ».** **DANS CES TROIS TEXTES, LA
+     SUPRANATIONALITÉ N'EST JAMAIS UNE AUTONOMIE : C'EST UNE COMPÉTENCE EXERCÉE
+     SOUS CONDITION DE CONSENTEMENT.** **Et ici la condition n'est pas politique
+     mais juridique — c'est un traité, non une résolution.**"
 resume: "Ce chapitre lit la version française officielle de la résolution fondant les objectifs de développement durable, que le chapitre précédent avait inscrite comme acquisition résiduelle faute d'avoir lu autre chose que l'anglais. La vérification confirme la lettre de tous les libellés que le corpus citait, y compris le verbe dissocier employé par la cible portant sur la dégradation environnementale et la clause de différenciation prévoyant que les pays développés montrent l'exemple. Elle apporte surtout deux éléments que le chapitre précédent n'avait pas vus, et ils jouent en sens contraire. Le premier renforce son résultat, puisque le respect de la marge de manœuvre nationale n'est pas seulement affirmé dans la partie déclaratoire et dans le dispositif de suivi, mais constitue une cible en propre du dix-septième objectif, c'est-à-dire la forme la plus engageante que ce cadre connaisse. Le second le qualifie, puisque deux fois le texte subordonne cette marge de manœuvre au respect des règles et engagements internationaux pertinents, ce qui ménage précisément la voie par laquelle un engagement international pourrait venir la borner. Le chapitre relève enfin que les deux versions rendent différemment cette même clause, la version française employant à un endroit une formule d'observation et à l'autre une formule d'attention, là où l'anglais emploie deux fois la même exigence de conformité. Il en tire que le corpus, qui cite en français, citait jusqu'ici une contrainte plus faible que celle que porte la version anglaise, sans le savoir."
 concepts: [polycentricite, plancher_social, bareme]
-renvois: [L7.C22, L12.C01, L12.C02, L20.C01, L25.C01]
+renvois: [L7.C22, L12.C01, L12.C02, L20.C01, L25.C01, L20.C25]
 ---
 
 # La marge de manœuvre est une cible, et elle a une clause

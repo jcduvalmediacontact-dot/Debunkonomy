@@ -2223,3 +2223,45 @@ couvrir. **C'est précisément la question que le corpus pose au barème.**
 par L18.C13 (50 méthodes, 72/11/6 % d'échelle, 4 % de justice, 56 % de refus de
 la métrique unique) **viennent d'un « Valuation Atlas » et d'une revue
 systématique déposés séparément, que le corpus n'a pas ouverts.**
+
+
+## Ouvert le 2026-09-08 — LES ACCORDS DE BRETTON WOODS, PAR LE RECUEIL DES TRAITÉS
+
+**Statuts du FONDS MONÉTAIRE INTERNATIONAL et statuts de la BANQUE INTERNATIONALE
+POUR LA RECONSTRUCTION ET LE DÉVELOPPEMENT**, signés à Washington le 27 décembre
+1945, **enregistrés ensemble sous le n° 20 du *Recueil des traités* des Nations
+unies, volume 2** — **OUVERTS ET LUS dans le texte** pour **L20.C24** et
+**L20.C25**. Versions anglaise et française en regard.
+
+**C'ÉTAIT L'ACQUISITION DE RANG 1 POUR A37, ET ELLE A ÉTÉ REFUSÉE PAR LE SITE DE
+L'INSTITUTION** (mur anti-robot déclaré et non franchi). **LA RÈGLE INSCRITE LE
+2026-09-07 A PAYÉ : pour un traité, PASSER PAR LE VOLUME UNTS plutôt que par le
+site de l'institution** — `treaties.un.org/doc/Publication/UNTS/Volume%20NNNN/
+vNNNN.pdf`, ici le volume 2.
+
+**ET UNE NÉGLIGENCE EST À CONSIGNER : LES DEUX TRAITÉS SONT DANS LE MÊME FICHIER,
+SOUS LE MÊME NUMÉRO.** L20.C24 n'a lu que le premier et a conclu que le précédent
+le plus proche était doté intégralement. **L20.C25 a lu le second et a dû
+corriger : l'institution qui ÉMET est capitalisée à 2 % en monnaie forte.**
+**RÈGLE : quand un volume porte plusieurs instruments sous un numéro
+d'enregistrement unique, LES LIRE TOUS AVANT DE CONCLURE.**
+
+### Acquisitions que ces deux chapitres inscrivent
+
+**RANG 1 — LE TEXTE CONSOLIDÉ EN VIGUEUR DES DEUX TRAITÉS, et la liste datée des
+amendements.** **Test qui établit l'écart : « special drawing » n'apparaît PAS
+UNE SEULE FOIS dans le texte de 1945.** **Aucune disposition citée par L20.C24 ni
+L20.C25 n'est le droit actuel avant collationnement.**
+
+**RANG 1 — LA TRANCHE DE 80 % A-T-ELLE JAMAIS ÉTÉ APPELÉE ?** Le corpus tient le
+mécanisme dans le traité et ignore s'il a été actionné. **Une garantie jamais
+appelée et une garantie éprouvée ne valent pas la même chose**, et cela décide de
+ce que L20.C25 vaut pour le dispositif.
+
+**RANG 2 — LE SORT DE LA PART APPELABLE ET DES ENGAGEMENTS D'UN MEMBRE QUI SE
+RETIRE**, dans l'un et l'autre traité. **C'est la question que L20.C24 a laissée
+ouverte et que L20.C25 n'a pas fermée.**
+
+**RANG 2 — L'ACCORD DE RELATION AVEC LES NATIONS UNIES et les conventions
+générales sur les privilèges et immunités des institutions spécialisées**, qui
+complètent le régime de l'article IX des statuts du Fonds.

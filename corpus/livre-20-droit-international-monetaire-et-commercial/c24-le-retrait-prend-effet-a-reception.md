@@ -35,14 +35,27 @@ verifications_en_attente:
      partager la fonction, et l'inverse.** **Aucune conclusion sur ce que le
      dispositif DOIT être n'est tirée ici.**"
   - "**LE VOLUME LU CONTIENT AUSSI LES STATUTS DE LA BANQUE INTERNATIONALE POUR LA
-     RECONSTRUCTION ET LE DÉVELOPPEMENT**, sous le même numéro d'enregistrement,
-     **et ils ne sont pas lus.** Or c'est l'institution qui ÉMET des titres, là où
-     le Fonds gère des quotes-parts. **ACQUISITION : les articles correspondants
-     de la Banque**, qui pourraient être un analogue plus proche du dispositif que
-     le Fonds."
+     RECONSTRUCTION ET LE DÉVELOPPEMENT**, sous le même numéro d'enregistrement.
+     **Ils ont été lus le même jour par L20.C25, et ils corrigent ce chapitre** —
+     voir l'entrée suivante. **RÈGLE QUE CETTE NÉGLIGENCE ÉTABLIT : quand un
+     volume porte PLUSIEURS instruments sous un numéro d'enregistrement unique,
+     LES LIRE TOUS AVANT DE CONCLURE.** **Ce chapitre a conclu sur « le précédent
+     le plus proche » en n'ayant lu que le premier des deux.**"
+  - "**L'ACQUISITION INSCRITE PAR CE CHAPITRE EST FAITE LE MÊME JOUR PAR L20.C25,
+     ET ELLE CORRIGE SA CONCLUSION SUR LE CAPITAL.** Ce chapitre a écrit que « le
+     précédent le plus proche fonctionne à l'inverse » du dispositif, la
+     souscription au Fonds étant payée intégralement. **C'EST EXACT DU FONDS, ET
+     LE FONDS N'ÉMET PAS.** **La Banque, qui emprunte sur les marchés et garantit
+     des prêts, N'EST PAS DOTÉE INTÉGRALEMENT** : sa souscription se divise en
+     **20 % versés ou appelables pour ses opérations et 80 % appelables
+     UNIQUEMENT pour honorer ses propres obligations** ; et sur les vingt premiers
+     pour cent, **DEUX seulement sont payables en or ou en dollars**, les
+     dix-huit autres l'étant dans la monnaie du membre au moment de l'appel.
+     **LA CONCLUSION EXACTE EST DONC PLUS ÉTROITE : l'institution qui GÈRE DES
+     QUOTES-PARTS est dotée intégralement ; celle qui ÉMET ne l'est pas.**"
 resume: "Ce chapitre ouvre les statuts du Fonds monétaire international dans leur texte original de mille neuf cent quarante-cinq, tel qu'enregistré au Recueil des traités des Nations unies, après que le site de l'institution eut opposé un mur anti-robot. Il établit d'abord que ce texte n'est pas le droit en vigueur, par un test que le lecteur peut refaire, puisque l'expression désignant les droits de tirage spéciaux n'y apparaît pas une seule fois alors que ces droits existent depuis le premier amendement. Il lit ensuite quatre traits de forme que l'arbitrage sur la forme institutionnelle du dispositif tient pour ouverts. La composition est ouverte aux gouvernements d'autres pays selon les termes que l'institution prescrit. Le capital prend la forme de quotes-parts, la souscription de chaque membre étant égale à sa quote-part et payable intégralement, révisée tous les cinq ans, aucune quote-part ne pouvant changer sans le consentement du membre concerné. Les immunités sont étendues, l'institution jouissant de la personnalité juridique pleine, de l'immunité de toute forme de procédure judiciaire sauf renonciation expresse, de l'immunité de toute taxation, de l'inviolabilité de ses archives, et de la liberté de ses avoirs à l'égard de toute restriction, réglementation, contrôle ou moratoire de quelque nature. Le retrait enfin est unilatéral et immédiat, tout membre pouvant se retirer à tout moment par notification écrite, le retrait prenant effet à la date de réception de cette notification. Le chapitre tire de ce dernier trait la conséquence la plus lourde pour le dispositif, à savoir qu'un reflux collectif adossé à une appartenance dont la sortie est immédiate n'est pas opposable à celui qui sort."
 concepts: [creation_monetaire, contrepartie_comptable, robustesse, polycentricite, reflux_collectif]
-renvois: [L11.C13, L19.C02, L19.C05, L20.C01, L21.C08, L25.C01]
+renvois: [L11.C13, L19.C02, L19.C05, L20.C01, L21.C08, L25.C01, L20.C25]
 ---
 
 # Le retrait prend effet à réception

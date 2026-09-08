@@ -86,9 +86,26 @@ verifications_en_attente:
      chapitre à la norme n'ont pas été recontrôlés, et **la révision RENUMÉROTE** :
      un renvoi qui ne porte que le numéro, sans la formule citée, ne se retrouve
      pas."
+  - "**UNE TROISIÈME FORME EST ÉTABLIE LE 2026-09-08 PAR L20.C25, ET LE CORPUS
+     RAISONNAIT JUSQU'ICI SUR UNE OPPOSITION BINAIRE.** Ce livre oppose
+     l'engagement DOTÉ à l'ÉMISSION SANS CONTREPARTIE. **Les statuts de la Banque
+     internationale pour la reconstruction et le développement occupent le
+     milieu : L'ENGAGEMENT CONDITIONNEL.** La part appelable **n'est ni du capital
+     versé ni rien** — c'est une obligation exigible sous une condition nommée,
+     que la Banque doive honorer ses propres engagements. **Ce qui rassure ses
+     prêteurs n'est pas ce qu'elle détient, c'est CE QU'ELLE PEUT APPELER.**
+     **MAIS CELA NE SAUVE PAS L'ÉMISSION SANS DETTE, ET IL FAUT LE DIRE NET :** la
+     part appelable RESTE UN ENGAGEMENT DES MEMBRES, et la limitation de
+     responsabilité « to the unpaid portion » suppose qu'elle existe. **La
+     structure ne supprime pas la contrepartie : elle la RETARDE et la CONDITIONNE.**
+     **CE QUE LE CORPUS GAGNE EST PLUS MODESTE ET PLUS UTILE : la contrepartie n'a
+     pas à être VERSÉE pour être RÉELLE**, et la question posée au dispositif se
+     déplace — non plus « peut-on émettre sans contrepartie ? » mais « **quelle
+     est la condition, qui la porte, et que se passe-t-il quand elle se
+     réalise ?** »"
 resume: "Ce chapitre remplace l'amorce du matricule 19 et ouvre le livre que le registre désigne comme portant le troisième des cinq objets à verrouiller, à savoir le passif. Il commence par relever que le corpus a écrit lui-même, dans un chapitre du livre dix, qu'il n'avait jamais dit ce que l'unité est au passif, et que l'arbitrage qui devait le trancher ne l'a pas tranché. Il constate ensuite qu'un chapitre du livre vingt et un a écrit les quatre jeux d'écritures du circuit complet sans jamais nommer l'instrument, c'est-à-dire en disant où l'unité s'inscrit sans dire ce qu'elle est. Il ouvre alors la norme statistique mondiale et en tire quatre énoncés qui commandent la suite. Un passif y suppose un débiteur obligé et un créancier, la créance correspondante étant inconditionnelle. Il n'existe qu'un seul actif financier sans passif en regard, et ce n'est pas une monnaie mais un métal détenu en réserve. La monnaie fiduciaire y est un passif à la valeur faciale, le coût de sa fabrication n'étant pas compensé avec le produit de son émission. Et la norme connaît une catégorie que le corpus n'avait pas vue, celle du passif établi non par contrat mais par une attente légitime de paiement, qu'elle nomme passif constructif. Le chapitre en déduit que la revendication d'une émission sans dette recouvre deux propositions distinctes que le corpus confondait sous un seul mot, l'absence de créancier contractuel et l'absence de passif, et que la seconde est beaucoup plus difficile à soutenir que la première."
 concepts: [contrepartie_comptable, creation_monetaire, monnaie_comme_registre, hierarchie_monetaire, reflux_collectif]
-renvois: [L1.C07, L10.C01, L10.C06, L11.C01, L11.C02, L18.C06, L21.C01, L21.C03, L16.C04, L19.C08, L19.C09]
+renvois: [L1.C07, L10.C01, L10.C06, L11.C01, L11.C02, L18.C06, L21.C01, L21.C03, L16.C04, L19.C08, L19.C09, L20.C25]
 ---
 
 # Ce que ce livre doit établir

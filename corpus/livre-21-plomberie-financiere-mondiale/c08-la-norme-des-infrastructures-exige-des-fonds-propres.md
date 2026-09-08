@@ -43,9 +43,21 @@ verifications_en_attente:
      L'INSTITUTION SOIT DOTÉE.** **Le corpus tient désormais deux occurrences et
      aucune contraire** — et le dispositif propose d'émettre sans contrepartie
      souscrite."
+  - "**L'EXIGENCE DE DOTATION EST NUANCÉE LE MÊME JOUR PAR L20.C25, ET LA NUANCE
+     COMPTE.** Ce chapitre et L20.C24 établissaient que deux corps de règles
+     exigent une institution DOTÉE. **La Banque internationale pour la
+     reconstruction et le développement montre une troisième voie : 2 % versés en
+     monnaie forte, 98 % en engagement appelable.** **UNE INSTITUTION QUI EMPRUNTE
+     SUR LES MARCHÉS PEUT DONC FONCTIONNER SUR UNE BASE DE TRÉSORERIE MINCE, À
+     CONDITION QUE LE RESTE SOIT PROMIS PAR DES ÉTATS.** **CE QUE CELA NE DIT
+     PAS :** si le principe 15 de la norme des infrastructures — actifs liquides
+     nets **financés par des fonds propres** — se satisferait d'un capital
+     appelable. **Ce sont deux exigences de nature différente, et le corpus ne les
+     confond pas** : la norme parle de liquidité disponible, le traité d'une
+     garantie mobilisable. **À INSTRUIRE.**"
 resume: "Ce chapitre ouvre la norme internationale qui régit les infrastructures de marchés financiers et la confronte à ce que le corpus a établi de la couche de règlement du dispositif. Il commence par borner sa propre portée, puisque la norme vise les systèmes de paiement d'importance systémique et que personne n'a établi que le dispositif en soit un, de sorte que le chapitre instruit ce qui s'appliquerait dans cette hypothèse. Il relève d'abord un point favorable, la norme demandant que les règlements en monnaie s'effectuent en monnaie de banque centrale lorsque cela est praticable, ce que l'architecture du dispositif satisfait puisque son allocation ne circule qu'entre l'émetteur et les banques centrales nationales. Il établit ensuite trois exigences que le dispositif ne satisfait pas en l'état. La première est celle d'une base juridique solide, claire, transparente et opposable dans toutes les juridictions concernées, alors que la forme juridique de l'émetteur reste indécise et qu'un arbitrage en attente en dépend. La deuxième, et c'est la plus dure, est l'obligation de détenir des actifs liquides nets financés par des fonds propres, suffisants pour absorber des pertes d'exploitation et pour permettre un redressement ou une liquidation ordonnée, alors que le dix-neuvième livre a établi que l'émetteur pourrait présenter des fonds propres négatifs selon la branche retenue du même arbitrage. La troisième est celle d'un règlement définitif clair et certain, dont le corpus n'a jamais fixé le moment. Le chapitre conclut que ces exigences font de l'arbitrage sur la forme juridique de l'émetteur un point qui décide désormais d'une cinquième chose."
 concepts: [contrepartie_comptable, robustesse, hierarchie_monetaire]
-renvois: [L16.C04, L19.C01, L19.C03, L19.C06, L19.C07, L21.C03, L21.C05, L21.C07, L20.C24]
+renvois: [L16.C04, L19.C01, L19.C03, L19.C06, L19.C07, L21.C03, L21.C05, L21.C07, L20.C24, L20.C25]
 ---
 
 # La norme des infrastructures exige des fonds propres
