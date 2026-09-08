@@ -1,9 +1,13 @@
 # Registre des arbitrages et des falsifieurs — état lisible par le contrôle
 #
 # CRÉÉ LE 2026-09-08 SUR DEMANDE DE L'AUTEUR. Motif : le contrôle annonçait
-# « zéro décision en attente » alors que douze arbitrages et falsifieurs sont
-# ouverts. Cette indication était exacte et trompeuse : elle ne porte que sur
-# les empreintes éditoriales, et ne voit pas les décisions écrites en prose.
+# « zéro décision en attente » alors que le corpus compte, au 2026-09-08,
+# 4 points ARBITRÉS et 26 OUVERTS OU ORIENTÉS. Cette indication était exacte
+# et trompeuse : elle ne porte que sur les empreintes éditoriales, et ne voit
+# pas les décisions écrites en prose.
+#
+# LE COMPTE FAIT FOI DANS LE RAPPORT DU CONTRÔLE, PAS DANS CET EN-TÊTE : ne
+# pas recopier ici un chiffre qui se périmera au premier arbitrage.
 #
 # CE FICHIER EST UNE PROJECTION, comme livres.yaml l'est du plan directeur.
 # LES TEXTES FONT FOI : protocoles/passe-2.md pour les arbitrages,
@@ -74,7 +78,13 @@ arbitrages:
       sont ouverts (L20.C24, L20.C25) et répondent sur quatre traits de forme —
       composition, capital, immunités, retrait. RESTENT OUVERTS : le choix de
       la forme elle-même, et le texte CONSOLIDÉ en vigueur n'est pas lu.
-    acquisition_bloquante: "Statuts consolidés du FMI et de la BIRD, en vigueur."
+    acquisition_bloquante: >
+      L'ANNEXE J des statuts du FMI, à laquelle l'article XXVI renvoie pour le
+      règlement des comptes à défaut d'accord ; et l'ARTICLE II SECTION 5 (ii)
+      des statuts de la BIRD, auquel l'article VI renvoie pour les appels de
+      capital. Les articles XXVI et VI eux-mêmes sont ouverts et lus depuis le
+      2026-09-08 (L20.C24) ; le corpus tient les articles qui RENVOIENT, non
+      les textes AUXQUELS ils renvoient.
 
   - id: A38
     objet: "L'épargne retraite est-elle de la thésaurisation"
@@ -162,6 +172,11 @@ falsifieurs:
     statut: ouvert
     tranche_par: non-tranche
     note: "L18.C15 établit qu'une cible internationale visant le même diagnostic a échoué ; le motif de l'échec décide de ce que F10 devient, et il n'est pas instruit."
+    acquisition_bloquante: >
+      Le MOTIF de l'échec de la cible visant à supprimer les incitations
+      dommageables : défaut de contrainte, défaut de moyens, ou opposition
+      d'intérêts organisés. Les trois réponses conduisent à des conclusions
+      OPPOSÉES pour le dispositif.
   - id: F11
     objet: "La contrainte physique"
     statut: conditionnel
@@ -211,6 +226,12 @@ pieces_de_conception_manquantes:
       CINQUIÈME POINT NON TRANCHÉ, ET IL EST DE DROIT : le sort des engagements
       pris sous l'ancien calibrage. Quatre branches exclusives, dont celle que
       le FMI pratique — rien ne change sans le consentement de l'intéressé.
+    acquisition_bloquante: >
+      La révision des tarifs d'achat de l'électricité renouvelable en Europe et
+      le sort des engagements pris sous l'ancien tarif — précédent le plus
+      proche du cinquième point. ET la version PUBLIÉE de 2018 du modèle dont
+      est tirée l'occurrence n° 4 : tant qu'elle n'est pas comparée, le
+      décompte de six occurrences n'est pas démontré.
 
   - id: CRITERE-L25
     objet: "Qui sélectionne, selon quel critère, par quelle autorité"
@@ -230,3 +251,8 @@ pieces_de_conception_manquantes:
       AUCUNE n'attaque la grandeur écologique elle-même. Reste sans source :
       la capture du régulateur, seule limite de L1.C18 § 5 que le corpus n'a
       documentée d'aucune manière.
+    acquisition_bloquante: >
+      Une architecture documentée de CAPTURE DU RÉGULATEUR — distincte du
+      conflit d'intérêts du certificateur, qui lui est tenu (L15.C04). Un
+      certificateur payé par ceux qu'il note est en conflit ; un régulateur
+      capturé est retourné.

@@ -4535,11 +4535,15 @@ binaire.** **La position retenue est une quatrième, et elle n'était pas dans
 l'énoncé.** **Un arbitrage dont aucune branche ne contient la réponse est
 un arbitrage mal posé**, et le corpus l'enregistre à sa charge.
 
-**CE QUE CELA CHANGE POUR LES DEUX CIBLES.** **8.1 n'est pas contestée dans son
-CONTENU pour les pays les moins avancés** — **une croissance ciblée des
-capacités et services essentiels y reste nécessaire, pouvant exiger localement
-et temporairement l'augmentation de certains stocks et flux matériels** ; **c'est
-sa formulation en AGRÉGAT qui est écartée.** **Et 8.4 CESSE D'ÊTRE SA VARIABLE
+**CE QUE CELA CHANGE POUR LES DEUX CIBLES.** **LA FINALITÉ DE DÉVELOPPEMENT DES PAYS LES MOINS
+AVANCÉS EST RETENUE ; LA PRESCRIPTION D'UN TAUX DE CROISSANCE AGRÉGÉ DU PRODUIT
+INTÉRIEUR BRUT COMME CIBLE EST REJETÉE** — formulation arrêtée par l'auteur le
+2026-09-08. **La formule antérieure — « 8.1 n'est pas contestée dans son CONTENU » —
+était ambiguë : le contenu explicite de 8.1 EST la croissance agrégée et le seuil
+de 7 %.** **Ce qui est retenu est la FIN ; ce qui est rejeté est le TAUX AGRÉGÉ
+PRIS POUR CIBLE.** **Une croissance ciblée des capacités et services essentiels y
+reste nécessaire, pouvant exiger localement et temporairement l'augmentation
+de certains stocks et flux matériels.** **Et 8.4 CESSE D'ÊTRE SA VARIABLE
 DE PILOTAGE DIRECTE, MAIS RESTE UN CRITÈRE DE VALIDATION EX POST DES EFFETS
 PHYSIQUES AGRÉGÉS** — le dispositif ne pilote pas sur le couplage mais sur la
 position d'une activité dans un couloir, **et il doit néanmoins être jugé sur le

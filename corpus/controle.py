@@ -163,21 +163,79 @@ def charger_livres():
     return {e["livre"]: e for e in entrees if isinstance(e, dict) and "livre" in e}
 
 
+STATUTS_ARBITRAGE = {"ouvert", "oriente", "arbitre", "conditionnel"}
+TRANCHE_PAR = {"auteur", "corpus", "non-tranche"}
+SECTIONS_ARBITRAGE = ("arbitrages", "falsifieurs",
+                      "pieces_de_conception_manquantes")
+
+
 def charger_arbitrages():
     """Registre des arbitrages et falsifieurs ouverts.
 
-    LECTURE SEULE, SANS BLOCAGE. Ce registre est une projection : les textes
-    de `protocoles/` font foi, et en cas d'ecart c'est le registre qui est
-    corrige. Le controle le RAPPORTE pour que « zero decision en attente »
-    cesse de donner une image trompeuse de l'etat du corpus.
+    Ce registre est une projection : les textes de `protocoles/` font foi,
+    et en cas d'ecart c'est le registre qui est corrige, jamais l'inverse.
+
+    UNE ABSENCE OU UNE ERREUR DE LECTURE BLOQUE. Motif : un registre qui
+    disparait en silence rendrait au controle l'image trompeuse qu'il a
+    precisement pour objet de corriger.
     """
     chemin = RACINE / "arbitrages.yaml"
     if not chemin.exists():
+        bloque("arbitrages.yaml", "registre des arbitrages absent")
         return None
     try:
-        return yaml.safe_load(chemin.read_text(encoding="utf-8")) or None
-    except Exception:
+        registre = yaml.safe_load(chemin.read_text(encoding="utf-8"))
+    except Exception as erreur:
+        bloque("arbitrages.yaml", f"registre illisible : {erreur}")
         return None
+    if not isinstance(registre, dict):
+        bloque("arbitrages.yaml", "registre vide ou mal forme")
+        return None
+
+    vus = {}
+    for cle in SECTIONS_ARBITRAGE:
+        entrees = registre.get(cle)
+        if entrees is None:
+            bloque("arbitrages.yaml", f"section « {cle} » absente")
+            continue
+        if not isinstance(entrees, list):
+            bloque("arbitrages.yaml", f"section « {cle} » n'est pas une liste")
+            continue
+        for rang, e in enumerate(entrees, 1):
+            ou = f"{cle}[{rang}]"
+            if not isinstance(e, dict):
+                bloque("arbitrages.yaml", f"{ou} : entree mal formee")
+                continue
+            ident = e.get("id")
+            for champ in ("id", "objet", "statut", "tranche_par"):
+                if not e.get(champ):
+                    bloque("arbitrages.yaml",
+                           f"{ou} ({ident}) : champ « {champ} » manquant")
+            if ident:
+                if ident in vus:
+                    bloque("arbitrages.yaml",
+                           f"identifiant duplique : « {ident} » "
+                           f"({vus[ident]} et {ou})")
+                else:
+                    vus[ident] = ou
+            statut = e.get("statut")
+            if statut and statut not in STATUTS_ARBITRAGE:
+                bloque("arbitrages.yaml",
+                       f"{ou} ({ident}) : statut « {statut} » hors liste "
+                       f"{sorted(STATUTS_ARBITRAGE)}")
+            tp = e.get("tranche_par")
+            if tp and tp not in TRANCHE_PAR:
+                bloque("arbitrages.yaml",
+                       f"{ou} ({ident}) : tranche_par « {tp} » hors liste "
+                       f"{sorted(TRANCHE_PAR)}")
+            if statut == "arbitre" and tp == "non-tranche":
+                bloque("arbitrages.yaml",
+                       f"{ou} ({ident}) : declare « arbitre » sans qui a tranche")
+            if statut != "arbitre" and tp == "auteur" and not e.get("note"):
+                alerte("arbitrages.yaml",
+                       f"{ident} : oriente par l'auteur sans note disant "
+                       f"ce qui reste ouvert")
+    return registre
 
 
 def charger_horizons():
@@ -412,6 +470,8 @@ def main():
     for terme in sorted(set(vocabulaire) - concepts_employes):
         alerte("vocabulaire.yaml", f"concept déclaré et employé nulle part : « {terme} »")
 
+    registre = charger_arbitrages()
+
     # Rapport
     largeur = 78
     print("=" * largeur)
@@ -429,7 +489,6 @@ def main():
         for fichier, message in entrees:
             print(f"  {fichier}\n      {message}")
 
-    registre = charger_arbitrages()
     if registre:
         ouverts = []
         for cle, libelle in (("arbitrages", "arbitrage"),

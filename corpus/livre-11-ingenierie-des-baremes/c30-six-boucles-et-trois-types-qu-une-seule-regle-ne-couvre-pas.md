@@ -1,6 +1,6 @@
 ---
 chapitre: L11.C30
-titre: "Six boucles, et trois types qu'une seule règle ne couvre pas"
+titre: "Cinq boucles acquises, une réservée, et trois types"
 livre: 11
 langue: fr
 licence: CC-BY-SA-4.0
@@ -13,7 +13,7 @@ regime: conception
 sources_primaires:
   - ref: S1
     nature: theorie
-    reference: "**Le corpus lui-même — les six occurrences relevées par L19.C05, L11 (reflux transactionnel), L26.C08, L13.C01, L26.C11 et L26.C12, L18.C12 et L18.C15.** **CE CHAPITRE N'OUVRE AUCUNE SOURCE EXTERNE ET NE PRÉTEND PAS LE FAIRE.** **C'est un chapitre de CONCEPTION**, écrit en exécution de la pièce manquante déclarée en passe 2 : *« une PIÈCE DE CONCEPTION MANQUANTE, à écrire une fois pour les quatre cas : la règle de recalibrage du dispositif. Elle relève du Livre 11 pour les barèmes et du Livre 13 pour son épreuve, et elle n'existe dans aucun des deux. »* **Les six occurrences sont chacune adossées à une source ouverte par le chapitre qui l'a relevée ; ce chapitre ne les rouvre pas et renvoie à elles.**"
+    reference: "**Le corpus lui-même — CINQ occurrences ACQUISES (L19.C05 ; L11, reflux transactionnel ; L26.C08 ; L26.C11 et L26.C12 ; L18.C12 et L18.C15) ET UNE RÉSERVÉE (L13.C01).** **La sixième est lue dans un DOCUMENT DE TRAVAIL de 2016 dont la version publiée de 2018 n'est pas ouverte : elle n'est pas acquise, et le décompte de six n'est pas démontré.** **CE CHAPITRE N'OUVRE AUCUNE SOURCE EXTERNE ET NE PRÉTEND PAS LE FAIRE.** **C'est un chapitre de CONCEPTION**, écrit en exécution de la pièce manquante déclarée en passe 2 : *« une PIÈCE DE CONCEPTION MANQUANTE, à écrire une fois pour les quatre cas : la règle de recalibrage du dispositif. Elle relève du Livre 11 pour les barèmes et du Livre 13 pour son épreuve, et elle n'existe dans aucun des deux. »* **Les six occurrences sont chacune adossées à une source ouverte par le chapitre qui l'a relevée ; ce chapitre ne les rouvre pas et renvoie à elles.**"
     date_verification: 2026-09-08
 verifications_en_attente:
   - "**CE CHAPITRE N'ÉCRIT PAS LA RÈGLE DE RECALIBRAGE, ET C'EST DÉLIBÉRÉ.** Il
@@ -29,7 +29,7 @@ verifications_en_attente:
      se lire comme un type A si l'on considère que l'assiette est le rendement
      lui-même. **À SOUMETTRE À L'AUDIT CONTRADICTOIRE, en demandant explicitement
      si la typologie tient.**"
-  - "**AUCUNE DES SIX BOUCLES N'EST CHIFFRÉE POUR LE DISPOSITIF.** Le corpus sait
+  - "**AUCUNE DES BOUCLES N'EST CHIFFRÉE POUR LE DISPOSITIF.** Le corpus sait
      que chacune existe dans sa littérature d'origine ; **il ne connaît l'ampleur
      d'aucune sur le dispositif**, ni son délai, ni son seuil de déclenchement.
      **Une règle de recalibrage sans ordre de grandeur ne dit pas à quelle
@@ -84,16 +84,16 @@ verifications_en_attente:
      motivations, établi par L18.C15 sur une source intergouvernementale — **donc
      ni la typologie ni la conclusion sur l'impossibilité de calibrer le type C ne
      tombent.** **ACQUISITION DE RANG 1 : la version publiée de 2018.**"
-resume: "Ce chapitre exécute la première moitié d'une pièce de conception que le corpus avait déclarée manquante, à savoir la règle de recalibrage du dispositif. Il recense d'abord les six occurrences aujourd'hui tenues d'une même forme, où le dispositif agit sur une grandeur dont il dépend. La base qui garantit la dette est l'encours, que le succès érode. L'assiette du reflux diminue à mesure que les transactions dommageables disparaissent. Un barème calibré sur la conversion électrique devient faux à mesure que le réseau se décarbone. L'incitation à investir diminue quand les dommages diminuent. Le rendement exergétique agrégé d'un pays se dilue à mesure que ce pays s'enrichit, parce que la composition des usages se déplace vers des usages moins efficaces. Et une incitation monétaire déplace les motivations qui soutenaient l'activité qu'elle récompense, dans un sens que la littérature ne sait pas prédire. Le chapitre établit ensuite que ces six occurrences ne sont pas de même nature et qu'une règle unique ne peut pas les couvrir. Il distingue trois types, selon que la boucle érode l'assiette de l'instrument, fait dériver une convention de mesure, ou modifie le comportement de ceux que l'instrument vise. Il montre que les trois diffèrent par leur observabilité, par le fait que leur sens soit connu ou non, et par le remède qu'ils appellent, le troisième type étant le seul dont aucune règle de calibrage ne peut venir à bout puisqu'il n'est ni observable à l'avance ni de sens déterminé. Il énumère enfin les cinq éléments que chaque règle devra contenir et signale que le cinquième, le sort des engagements pris sous l'ancien calibrage, est une question de droits que le corpus ne doit pas trancher seul."
+resume: "Ce chapitre exécute la première moitié d'une pièce de conception que le corpus avait déclarée manquante, à savoir la règle de recalibrage du dispositif. Il recense d'abord cinq occurrences acquises d'une même forme, et une sixième réservée parce qu'elle est lue dans un document de travail dont la version publiée n'est pas ouverte, où le dispositif agit sur une grandeur dont il dépend. La base qui garantit la dette est l'encours, que le succès érode. L'assiette du reflux diminue à mesure que les transactions dommageables disparaissent. Un barème calibré sur la conversion électrique devient faux à mesure que le réseau se décarbone. L'incitation à investir diminue quand les dommages diminuent. Le rendement exergétique agrégé d'un pays se dilue à mesure que ce pays s'enrichit, parce que la composition des usages se déplace vers des usages moins efficaces. Et une incitation monétaire déplace les motivations qui soutenaient l'activité qu'elle récompense, dans un sens que la littérature ne sait pas prédire. Le chapitre établit ensuite que ces six occurrences ne sont pas de même nature et qu'une règle unique ne peut pas les couvrir. Il distingue trois types, selon que la boucle érode l'assiette de l'instrument, fait dériver une convention de mesure, ou modifie le comportement de ceux que l'instrument vise. Il montre que les trois diffèrent par leur observabilité, par le fait que leur sens soit connu ou non, et par le remède qu'ils appellent, le troisième type étant le seul dont aucune règle de calibrage ne peut venir à bout puisqu'il n'est ni observable à l'avance ni de sens déterminé. Il énumère enfin les cinq éléments que chaque règle devra contenir et signale que le cinquième, le sort des engagements pris sous l'ancien calibrage, est une question de droits que le corpus ne doit pas trancher seul."
 concepts: [bareme, qualification_regenerative, regle_contre_discretion, robustesse, additionnalite]
 renvois: [L11.C13, L13.C01, L18.C12, L18.C15, L19.C05, L26.C04, L26.C08, L26.C11, L26.C12, L20.C24, L15.C01, L18.C17]
 ---
 
-# Six boucles, et trois types qu'une seule règle ne couvre pas
+# Cinq boucles acquises, une réservée, et trois types qu'une seule règle ne couvre pas
 
-::etat:: **La passe 2 a déclaré une pièce de conception manquante** : *« la règle de recalibrage du dispositif [...] relève du Livre 11 pour les barèmes et du Livre 13 pour son épreuve, et elle n'existe dans aucun des deux. »* **Elle était déclarée pour quatre cas. Le corpus en tient six.** **Ce chapitre fait la moitié du travail : il établit qu'il faut TROIS règles et non une, et dit ce que chacune doit contenir. Il n'écrit aucune des trois.**
+::etat:: **La passe 2 a déclaré une pièce de conception manquante** : *« la règle de recalibrage du dispositif [...] relève du Livre 11 pour les barèmes et du Livre 13 pour son épreuve, et elle n'existe dans aucun des deux. »* **Elle était déclarée pour quatre cas. LE CORPUS EN TIENT CINQ D'ACQUISES ET UNE DE RÉSERVÉE.** **Ce chapitre fait la moitié du travail : il établit qu'il faut TROIS règles et non une, et dit ce que chacune doit contenir. Il n'écrit aucune des trois.**
 
-## 1. Les six occurrences, et d'où elles viennent
+## 1. Cinq occurrences acquises, une réservée
 
 ::etat:: **(1) L'ENCOURS QUI GARANTIT LA DETTE** [L19.C05]. La base qui garantit l'engagement est l'encours lui-même, **que le succès du dispositif érode.**
 
@@ -101,7 +101,7 @@ renvois: [L11.C13, L13.C01, L18.C12, L18.C15, L19.C05, L26.C04, L26.C08, L26.C11
 
 ::etat:: **(3) LA CONVENTION DE CONVERSION ÉLECTRIQUE** [L26.C08]. **Un barème calibré aujourd'hui devient faux à mesure que le réseau se décarbone** — le même kilowattheure ne vaut pas la même chose d'une année à l'autre.
 
-::etat:: **(4) L'INCITATION À INVESTIR** [L13.C01]. *« Lower damages provide **less incentives** for the materialisation of green investment projects »* — **le succès réduit le motif du succès**, et le modèle qui l'établit le produit à l'intérieur de lui-même.
+::hypothese:: **(4) L'INCITATION À INVESTIR — RÉSERVÉE, NON ACQUISE** [L13.C01]. **Lue dans le document de travail de 2016 ; la version publiée de 2018 n'est pas ouverte.** **Elle n'entre pas dans le décompte tant que la comparaison n'est pas faite.** *« Lower damages provide **less incentives** for the materialisation of green investment projects »* — **le succès réduit le motif du succès**, et le modèle qui l'établit le produit à l'intérieur de lui-même.
 
 ::etat:: **(5) LA DILUTION D'EFFICACITÉ** [L26.C11, L26.C12]. **Le rendement exergétique agrégé d'un pays stagne ou baisse à mesure qu'il s'enrichit**, parce que la composition des usages se déplace vers l'automobile, l'électricité résidentielle et la chaleur à basse température. **Deux économies matures sur deux le montrent, et la source de premier rang conclut que le rendement agrégé « is no longer rising in either US or UK ».**
 
