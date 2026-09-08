@@ -2924,3 +2924,47 @@ n'ont pas été ouvertes.**
 décarbonée s'accompagne, avec un décalage, d'un retrait de capacité
 fossile. **Ou un mécanisme de fermeture intégré au dispositif, qui reste
 à concevoir.** **Aucun des deux n'est tenu.**
+
+
+## F7 — CE QUE L19.C03 LUI AJOUTE LE 2026-09-08 : LA RÈGLE N'EST PLUS SEULEMENT UNE QUESTION DE CRÉDIBILITÉ
+
+**F7 porte sur LE MODE DE FIXATION des taux — règle ou pilotage — et il
+était jusqu'ici une question de CRÉDIBILITÉ** : un émetteur qui peut
+changer son taux à volonté n'est pas cru, et les anticipations défont ce
+que l'instrument fait.
+
+**L19.C03 LUI AJOUTE UNE RAISON D'UN AUTRE ORDRE, ET ELLE NE DÉPEND D'AUCUNE
+ANTICIPATION.** La norme statistique mondiale distingue deux cas et les traite de
+manière incompatible. **Une variation de principal INSCRITE DANS LES TERMES de
+l'instrument est enregistrée comme un INTÉRÊT** — « the payment owing to
+indexation should be recorded as INTEREST (property income) over the life of the
+security ». **Une réduction DÉCIDÉE APRÈS COUP par le débiteur est une
+répudiation** — « the UNILATERAL REPUDIATION OF DEBT BY A DEBTOR is also not a
+transaction and IS NOT RECOGNIZED IN THE SNA ». **Et la raison en est
+donnée** : « because there is NO MUTUAL AGREEMENT between the parties ».
+
+**UN PRÉLÈVEMENT DISCRÉTIONNAIRE N'EST DONC PAS SEULEMENT PEU CRÉDIBLE :
+IL N'EST PAS ENREGISTRABLE.** Il n'apparaît ni au compte de capital ni au compte
+financier, et la seule voie qui lui reste suppose **que le détenteur accepte**,
+c'est-à-dire consente à ce qu'on lui retire.
+
+**CONSÉQUENCE POUR LE DISPOSITIF, ET ELLE EST OPÉRATOIRE.** **Le taux de fonte
+doit être inscrit dans les termes de l'unité AVANT son émission**, ou
+l'opération ne figure pas dans les comptes. **La préférence pour la
+règle cesse d'être un choix de gouvernance et devient une CONDITION DE
+REPRÉSENTABILITÉ.**
+
+**CE QUE CELA NE FAIT PAS À F7, ET IL FAUT LE DIRE.** **Cela ne le réfute
+pas et ne l'écarte pas** : F7 demande si le dispositif peut TENIR une règle
+devant la pression politique, et ce chapitre ne dit rien de cette pression. **Il
+retire seulement au pilotage discrétionnaire son statut d'option praticable :
+ce n'était pas une alternative coûteuse, c'est une alternative
+inenregistrable.** **La question ouverte reste entière — elle est seulement
+mieux posée.**
+
+**UNE RÉSERVE, ET ELLE EST SÉRIEUSE.** La norme prévoit que si le
+créancier ACCEPTE l'abandon, celui-ci est enregistré au compte des autres
+changements de volume des deux parties. **Un détenteur qui adhère
+volontairement au régime accepte-t-il par avance ?** **La question est juridique
+et le corpus ne l'a pas ouverte** ; elle pourrait rouvrir la branche que ce
+résultat ferme.

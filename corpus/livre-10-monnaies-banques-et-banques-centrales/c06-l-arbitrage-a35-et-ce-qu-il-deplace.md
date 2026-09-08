@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -38,9 +38,22 @@ verifications_en_attente:
      n'est la dette de personne en particulier, **est-elle une dette de
      l'émetteur ?** Le corpus n'a jamais dit ce que l'unité est **au passif**,
      et l'arbitrage porte sur l'actif."
+  - "**LA QUESTION DU PASSIF LAISSÉE OUVERTE ICI REÇOIT SA RÉPONSE LE 2026-09-08, ET
+     ELLE EST CONDITIONNELLE.** Ce chapitre écrivait que la branche la plus
+     favorable — une décote appliquée par l'émetteur à sa propre unité, qui
+     n'exige aucune compétence fiscale — « exige que l'unité soit sienne, ce qui
+     ramène à la question du passif ». **Le Livre 19 l'a ouverte.** **SI L'UNITÉ EST
+     LE PASSIF DE L'ÉMETTEUR, LA BRANCHE FAVORABLE S'OUVRE** : la fonte est un
+     intérêt négatif sur sa propre dette et ne demande aucun pouvoir fiscal.
+     **MAIS L'ÉMETTEUR PORTE ALORS DES FONDS PROPRES NÉGATIFS du montant émis**, ce
+     que L21.C01 oppose au principe exigeant l'inverse. **SI L'UNITÉ N'EST PAS SON
+     PASSIF** — traitement ouvert par L19.C02, où la créance porte sur les
+     participants collectivement — **il n'a pas de fonds propres négatifs, mais la
+     décote redevient un transfert exigeant une compétence fiscale.** **AUCUNE
+     COMBINAISON N'EST FAVORABLE, ET C'EST A37 QUI DÉCIDE.**"
 resume: "Ce chapitre enregistre l'arbitrage rendu par l'auteur sur la question ouverte au chapitre précédent, celle de savoir qui porte la dette collective, et il en tire trois conséquences dont deux étaient inattendues. L'auteur répond que la dette est portée par l'ensemble de la société, qu'elle ne suit pas le mécanisme de la dette individuelle puisque la rentabilité n'est pas compatible avec la régénération, et que son reflux passe par des fontes graduées selon l'impact de la consommation, le choix étant laissé aux agents. La première conséquence est favorable et elle lève l'obstacle qui bloquait quatre chapitres, puisqu'une dette portée par la société entière n'est pas une créance sur le secteur public, de sorte que la définition-balai du règlement ne l'atteint pas. Le chapitre relève que l'échappatoire du vingtième livre se trouve ainsi rétablie, mais sur un motif meilleur que celui qu'elle invoquait, l'obstacle n'étant pas l'absence d'instrument mais l'absence de débiteur. La deuxième conséquence est défavorable et elle est textuelle, puisque la norme sur les produits énonce qu'une intention de lever un prélèvement n'est pas un événement passé donnant naissance à un actif, de sorte que le flux futur de fontes ne peut pas figurer à l'actif de l'émetteur. La troisième est structurelle, l'arbitrage faisant sortir le dispositif du droit du financement monétaire pour le faire entrer dans une architecture fiscale, ce qui déplace la question du secteur public de l'actif vers le prélèvement et fait apparaître une compétence que le corpus n'a jamais établie."
 concepts: [reflux_collectif, contrepartie_comptable, essentiel_insolvable, monnaie_fondante, demurrage, reflux_transactionnel, degeneratif]
-renvois: [L1.C15, L1.C20, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L11.C05, L11.C07, L11.C09, L18.C01, L18.C05, L20.C02]
+renvois: [L1.C15, L1.C20, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L11.C05, L11.C07, L11.C09, L18.C01, L18.C05, L20.C02, L19.C03]
 ---
 
 # L'arbitrage A35, et ce qu'il déplace

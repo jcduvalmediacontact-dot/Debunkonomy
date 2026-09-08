@@ -1495,7 +1495,7 @@ livres:
       - "objection — L11.C02 : l'écriture du Symposium laisse les fonds propres négatifs du montant émis, et l'analogie qui la justifiait était fausse"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 2
+    chapitres_acquis: 3
     note: >
       MATRICULE DÉCLARÉ LE 2026-09-07, ET C'EST UNE CORRECTION D'ECART, NON UNE
       CREATION. Le plan directeur reserve ce numero a la comptabilite monetaire
@@ -1616,6 +1616,51 @@ livres:
       le manuel de balance des paiements n'a pas ete ouvert, deux telechargements
       ayant echoue sur une page d'erreur -- AUCUNE DETECTION DE ROBOT N'EST EN
       CAUSE, c'est un echec d'acquisition ordinaire.
+      L19.C03 REPOND A LA QUESTION 5 ET TRANCHE DU MEME COUP LA BIFURCATION QUE
+      L11.C01 AVAIT INSTRUITE SANS LA TRANCHER. La norme offre TROIS classements
+      a un prelevement : le TRANSFERT ("without receiving from the latter any
+      good, service or asset in return as a direct counterpart"), l'EXTINCTION
+      ("financial assets are extinguished WHEN THE DEBTOR HAS FULFILLED the
+      financial obligation"), et la DISPARITION ECONOMIQUE ("to allow certain
+      assets to enter and leave the SNA OTHER THAN BY TRANSACTIONS"). LES TROIS
+      NE SONT PAS INTERCHANGEABLES -- le premier fait une ressource, le deuxieme
+      ne fait rien pour personne mais reduit un passif, le troisieme detruit sans
+      profiter -- ET "REFLUX" DESIGNE INDIFFEREMMENT LES TROIS DANS LE CORPUS.
+      CE QUI TRANCHE N'EST PAS LE MECANISME MAIS LE MOMENT. Une variation de
+      principal INSCRITE DANS LES TERMES est un INTERET : "the payment owing to
+      indexation should be recorded as INTEREST (property income)". Une reduction
+      DECIDEE APRES COUP est une repudiation : "the UNILATERAL REPUDIATION OF
+      DEBT BY A DEBTOR is also not a transaction and IS NOT RECOGNIZED IN THE
+      SNA", et la raison est donnee -- "because there is NO MUTUAL AGREEMENT
+      between the parties". Le contre-exemple confirme : une remise de dette est
+      enregistrable PARCE QU'ELLE EST CONVENUE, "via A CONTRACTUAL ARRANGEMENT
+      with the debtor".
+      TROIS RESULTATS. F7 CHANGE DE NATURE : un prelevement discretionnaire n'est
+      pas seulement peu credible, IL N'EST PAS ENREGISTRABLE, et la preference
+      pour la regle devient une CONDITION DE REPRESENTABILITE. "SANS INTERET"
+      TOMBE COMME "SANS DETTE" ETAIT TOMBE EN L19.C01 : une unite qui fond selon
+      une regle ecrite est, sous la norme, UNE UNITE PORTANT INTERET DE SIGNE
+      NEGATIF -- deuxieme correction de lexique en trois chapitres, et de la meme
+      espece, ce que la norme retire n'etant pas le mecanisme mais LE MOT.
+      ET UNE ALTERNATIVE DONT LES DEUX BRANCHES SE PAIENT. SI L'UNITE EST LE
+      PASSIF DE L'EMETTEUR : fonds propres negatifs, MAIS la fonte est un interet
+      negatif sur SA PROPRE DETTE et n'exige AUCUNE competence fiscale -- c'est
+      exactement la branche que L10.C06 jugeait "la plus favorable" et qu'il ne
+      pouvait pas ouvrir. SI ELLE NE L'EST PAS (traitement de L19.C02) : pas de
+      fonds propres negatifs, MAIS la fonte redevient un transfert exigeant une
+      competence fiscale que le dispositif n'a pas. LE CORPUS NE PEUT PAS PRENDRE
+      LES DEUX AVANTAGES, ET C'EST A37 QUI DECIDE. A37 devient en deux chapitres
+      LA QUESTION LA PLUS CHERE DU CORPUS : elle decide des fonds propres ET de
+      la competence necessaire au reflux.
+      RESERVES : l'extension aux unites monetaires d'une regle enoncee pour des
+      TITRES DE DETTE INDEXES est une inference du corpus, plausible et NON LUE ;
+      les deux ressorts du reflux ne sont PAS DE MEME NATURE sous la norme -- le
+      demurrage porte sur la DETENTION et releve du revenu de la propriete, le
+      reflux transactionnel porte sur l'ECHANGE et releve du transfert -- et seul
+      le premier est instruit ; aucun referentiel de comptes d'entite n'est
+      ouvert, le resultat portant sur la REPRESENTABILITE et non sur
+      l'AUDITABILITE ; et LE CAS OU LE DETENTEUR ACCEPTE n'est pas instruit,
+      alors qu'il pourrait rouvrir la branche que ce chapitre ferme.
 
   - livre: 21
     titre: "La plomberie financière mondiale"
