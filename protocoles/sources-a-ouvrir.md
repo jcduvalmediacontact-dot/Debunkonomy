@@ -2079,3 +2079,76 @@ source avance que la performance des instruments de marché a été « **in
 general, below the high expectations** » — **sans référence à cet endroit du
 texte**, alors que c'est l'énoncé le plus directement transposable au dispositif.
 **Le corpus ne peut pas s'en servir en l'état.**
+
+
+## Ouvert le 2026-09-08 — LA VERSION FRANÇAISE OFFICIELLE, ET LIRE L'ORIGINAL NE SUFFIT PAS
+
+**Résolution A/RES/70/1, version française officielle, 44 pages** — acquise et
+**ouverte le jour même** pour **L12.C03**. **C'était l'acquisition résiduelle
+inscrite par L12.C02.**
+
+**CE QUE LA VÉRIFICATION A CONFIRMÉ :** la lettre des deux cibles et de la clause
+de différenciation. **Le français officiel emploie bien « dissocier » et porte
+bien « les pays développés montrant l'exemple en la matière ».**
+
+**CE QU'ELLE A COÛTÉ AU CORPUS, ET C'EST LA LEÇON.** **L12.C02 avait conclu que
+« la règle qui impose de lire l'original vient de payer pour la première fois ».
+CE CHAPITRE MONTRE QUE LIRE L'ORIGINAL NE SUFFIT PAS.** Le corpus avait lu un
+original — l'anglais — et il lui manquait **une cible (17.15)**, **une clause
+répétée deux fois** qui subordonne la marge de manœuvre nationale aux
+engagements internationaux, **et un écart de rédaction entre les deux versions
+qu'il emploie.** **Un énoncé du corps de L12.C02 était inexact et a été
+remplacé.**
+
+**RÈGLE POUR LE LIVRE 14 : QUAND UN TEXTE FAIT FOI EN PLUSIEURS LANGUES ET QUE LE
+CORPUS CITE DANS L'UNE ET LIT DANS UNE AUTRE, L'ÉCART N'EST PAS UNE COQUILLE DE
+TRADUCTION — C'EST UNE DIFFÉRENCE ENTRE DEUX TEXTES AUTHENTIQUES.** Il doit être
+cherché, non supposé absent. **Exemple vérifié :** l'anglais écrit deux fois
+« **while remaining consistent with** relevant international rules and
+commitments » ; le français écrit « **continuant d'observer** » au paragraphe 21
+et « **sans perdre de vue** » au paragraphe 63. **Deux formules de force
+différente pour une seule formule anglaise.**
+
+### Acquisitions résiduelles sur cette résolution
+
+**LES QUATRE AUTRES VERSIONS AUTHENTIQUES** (arabe, chinois, espagnol, russe).
+Rang faible, mais l'écart relevé ci-dessus montre que ce n'est pas nul.
+
+**LE CADRE MONDIAL D'INDICATEURS POUR LA CIBLE 17.15.** Le corpus a lu la cible et
+**ne sait pas par quel indicateur elle est suivie ni ce que les examens nationaux
+en rapportent.**
+
+## Acquisitions du 2026-09-08 (troisième salve) — obtenues
+
+**BROCKWAY, BARRETT, FOXON, STEINBERGER (2014), « Divergence of Trends in US and
+UK Aggregate Exergy Efficiencies 1960-2010 », *Environmental Science &
+Technology*** — obtenue depuis le dépôt institutionnel White Rose,
+**non encore ouverte**. **DROITS : l'article est CC BY chez l'éditeur** (à
+confirmer sur l'exemplaire déposé). **C'EST L'ACQUISITION DE RANG 1 DE L26.C11 :
+elle porte la STAGNATION du rendement exergétique américain, aujourd'hui citée de
+seconde main, et F11 NE PEUT PAS ÊTRE ARBITRÉ TANT QU'ELLE N'EST PAS LUE.**
+
+**IPBES (2022), évaluation méthodologique des DIVERSES VALEURS ET DE LA
+VALORISATION DE LA NATURE — Résumé à l'intention des décideurs, ET chapitre 3
+« The potential of valuation » (170 pages)** — obtenues depuis Zenodo,
+**non encore ouvertes**. **DROITS : CC BY 4.0, déclaré sur le dépôt — `libre`,
+au sens de réutilisable sous les conditions indiquées.** **C'ÉTAIT L'ACQUISITION
+DE RANG 1 DE L18.C12 : le contre-catalogue autorisé d'un barème à métrique
+unique**, produit par une institution intergouvernementale et non par un courant.
+
+## Refusées dans cette salve — MURS ANTI-ROBOT DÉCLARÉS ET NON FRANCHIS
+
+**Brockway et al. 2017**, « Energy Rebound as a Potential Threat to a Low-Carbon
+Future » (*Energies*, **CC BY**) : refusé chez l'éditeur (« Access Denied »),
+chez le dépôt de Sussex, et sur deux hôtes de Figshare. **L'article est
+LIBREMENT RÉUTILISABLE ET LE CORPUS NE PEUT PAS L'OBTENIR.**
+
+**Brockway et al. 2021**, « Energy efficiency and economy-wide rebound effects: a
+review of the evidence » (*Renewable and Sustainable Energy Reviews*, **CC BY**) :
+ScienceDirect répond par un captcha Akamai ; HAL répond « Making sure you're not
+a bot! » ; le dépôt de la SOAS répond 403 ; celui de Bordeaux répond 404.
+**MÊME CONSTAT : LIBRE DE DROITS, INACCESSIBLE.**
+
+**CES DEUX TEXTES SONT PRÉCISÉMENT CEUX QUI SITUENT LE REBOND SUR LA FRONTIÈRE
+EXERGÉTIQUE**, c'est-à-dire à la jonction que L26.C11 a ouverte entre le
+mécanisme économique et le mécanisme de composition. **À DEMANDER À L'AUTEUR.**

@@ -32,9 +32,23 @@ verifications_en_attente:
      partie déclaratoire et de suivi de la résolution, plus un objectif. **Cent
      soixante-neuf cibles restent entières**, et la grille fixée par L12.C01
      n'est pas entamée."
-resume: "Ce chapitre ouvre le texte officiel du cadre des objectifs de développement durable, que le chapitre précédent avait déclaré ne pas tenir, et il en tire une vérification et un résultat. La vérification confirme au fond les deux libellés que le chapitre précédent citait d'après une reproduction, à savoir la cible chiffrée de croissance dans les pays les moins avancés et la cible portant sur la dégradation, dont le texte officiel montre qu'elle emploie explicitement le verbe découpler. Mais elle relève aussi que la reproduction lue jusque-là avait omis la clause finale de cette seconde cible, laquelle prévoit que les pays développés montrent la voie, c'est-à-dire une clause de différenciation. Le chapitre établit ensuite que cette différenciation n'est pas incidente mais structurante, la résolution réaffirmant le principe des responsabilités communes mais différenciées et mentionnant les pays développés dans plus de quarante passages. Il établit surtout que le cadre repose sur trois principes de gouvernance qui se renforcent, à savoir l'appropriation nationale des stratégies, la responsabilité première de chaque pays pour son propre développement, et le caractère volontaire et conduit par les pays du dispositif de suivi et d'examen, lequel doit respecter l'espace politique et les priorités de chacun. Il en tire que le principe organisateur du cadre est la décision nationale, tandis que celui du dispositif est une qualification supranationale, et que la revendication d'accélérer ce cadre doit donc dire comment elle s'accommode de ce que le cadre confie aux États. Il note enfin que cette tension rejoint par un autre chemin la commande que l'arbitrage sur la doctrine sélective avait adressée au livre de la répartition."
+  - "**LA RÉSERVE RÉSIDUELLE DE CE CHAPITRE EST LEVÉE LE 2026-09-08 PAR L12.C03, ET
+     LA VÉRIFICATION A COÛTÉ À CE CHAPITRE.** La version française officielle est
+     ouverte. **LA LETTRE EST CONFIRMÉE** sur les deux cibles et sur la clause de
+     différenciation : le texte français emploie bien « **dissocier** » et porte
+     bien « **les pays développés montrant l'exemple en la matière** ».
+     **MAIS DEUX ÉLÉMENTS MANQUAIENT.** **(1) RENFORÇANT :** le respect de la marge
+     de manœuvre nationale est **une CIBLE, 17.15**, non une simple déclaration.
+     **(2) LIMITANT, ET LE CORPS DE CE CHAPITRE A ÉTÉ CORRIGÉ EN CONSÉQUENCE :** deux
+     fois le texte subordonne cette marge aux « **relevant international rules and
+     commitments** ». **L'énoncé selon lequel le cadre « ne prévoit pas » le
+     déplacement d'autorité ÉTAIT INEXACT et a été remplacé.** **ET LES DEUX
+     VERSIONS DIVERGENT SUR LA FORCE DE CETTE CLAUSE** : l'anglais écrit deux fois
+     « remaining consistent with », le français écrit « continuant d'observer » au
+     paragraphe 21 et « **sans perdre de vue** » au paragraphe 63."
+resume: "Ce chapitre ouvre le texte officiel du cadre des objectifs de développement durable, que le chapitre précédent avait déclaré ne pas tenir, et il en tire une vérification et un résultat. La vérification confirme au fond les deux libellés que le chapitre précédent citait d'après une reproduction, à savoir la cible chiffrée de croissance dans les pays les moins avancés et la cible portant sur la dégradation, dont le texte officiel montre qu'elle emploie explicitement le verbe découpler. Mais elle relève aussi que la reproduction lue jusque-là avait omis la clause finale de cette seconde cible, laquelle prévoit que les pays développés montrent la voie, c'est-à-dire une clause de différenciation. Le chapitre établit ensuite que cette différenciation n'est pas incidente mais structurante, la résolution réaffirmant le principe des responsabilités communes mais différenciées et mentionnant les pays développés dans plus de quarante passages. Il établit surtout que le cadre repose sur trois principes de gouvernance qui se renforcent, à savoir l'appropriation nationale des stratégies, la responsabilité première de chaque pays pour son propre développement, et le caractère volontaire et conduit par les pays du dispositif de suivi et d'examen, lequel doit respecter l'espace politique et les priorités de chacun. Il en tire que le principe organisateur du cadre est la décision nationale, tandis que celui du dispositif est une qualification supranationale, et que la revendication d'accélérer ce cadre doit donc dire comment elle s'accommode de ce que le cadre confie aux États. Ce résultat a été resserré le même jour par le chapitre suivant, qui a lu la version française officielle et y a trouvé deux choses que celui-ci n'avait pas vues. La première le renforce, le respect de la marge de manœuvre nationale constituant une cible en propre du dix-septième objectif. La seconde le limite, le texte subordonnant deux fois cette marge au respect des règles et engagements internationaux pertinents, en sorte qu'une qualification supranationale n'entre pas en contradiction de principe avec le cadre mais devrait être elle-même un tel engagement. Il note enfin que cette tension rejoint par un autre chemin la commande que l'arbitrage sur la doctrine sélective avait adressée au livre de la répartition."
 concepts: [polycentricite, plancher_social, bareme]
-renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01]
+renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01, L12.C03]
 ---
 
 # Le cadre est volontaire et national, et le dispositif est supranational
@@ -67,7 +81,7 @@ renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01]
 
 ## 4. Mais le cadre confie la décision aux États, et c'est là que la tension est
 
-::etat:: **Trois énoncés de la résolution se renforcent, et ils portent tous sur QUI décide** [S1].
+::etat:: **QUATRE énoncés de la résolution se renforcent, et ils portent tous sur QUI décide** [S1]. **Le quatrième a été trouvé le 2026-09-08 par L12.C03 et c'est le plus fort : le respect de la marge de manœuvre nationale est UNE CIBLE EN PROPRE, la cible 17.15**, et non seulement une déclaration.
 
 ::etat:: **Appropriation nationale**, paragraphe 63 : *« **Cohesive NATIONALLY OWNED sustainable development strategies**, supported by integrated national financing frameworks, will be at the heart of our efforts. We reiterate that **EACH COUNTRY HAS PRIMARY RESPONSIBILITY for its own economic and social development**. »*
 
@@ -75,9 +89,13 @@ renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01]
 
 ::etat:: **Et espace politique préservé**, paragraphe 74 : les examens *« will be **voluntary and country-led**, will take into account different national realities, capacities and levels of development and **will RESPECT POLICY SPACE AND PRIORITIES** »*, l'appropriation nationale étant déclarée *« key to achieving sustainable development »*.
 
+::norme:: **Et une CIBLE, 17.15**, lue le 2026-09-08 par L12.C03 dans la version française officielle : « **Respecter la marge de manœuvre et l'autorité de chaque pays** en ce qui concerne l'élaboration et l'application des politiques d'élimination de la pauvreté et de développement durable. » **C'est la forme la plus engageante que ce cadre connaisse.**
+
+::norme:: **MAIS DEUX FOIS LE TEXTE ASSORTIT CETTE MARGE D'UNE RÉSERVE, ET LE CHAPITRE NE L'AVAIT PAS LUE.** Paragraphes 21 et 63 : la marge de manœuvre est respectée « **while remaining consistent with relevant international rules and commitments** ». **LE CADRE PRÉVOIT DONC LUI-MÊME LA SUBORDINATION DE LA DÉCISION NATIONALE À DES ENGAGEMENTS INTERNATIONAUX.**
+
 ::hypothese:: **Le principe organisateur du cadre est donc la DÉCISION NATIONALE**, et il l'est trois fois : dans la responsabilité, dans le suivi, dans le respect de l'espace politique. **Le principe organisateur du dispositif est une QUALIFICATION SUPRANATIONALE** — une institution émettrice décide quelles activités sont qualifiables, et alloue en conséquence.
 
-::etat:: **Ce n'est pas une impossibilité et le chapitre ne le prétend pas.** Une résolution de l'Assemblée générale n'est pas contraignante ; elle ne peut ni autoriser ni interdire. **Ce qui est établi est une incohérence de REVENDICATION** : **le dispositif ne peut pas se dire accélérateur d'un cadre dont le principe de gouvernance est l'inverse du sien, sans dire comment il s'en accommode.**
+::etat:: **Ce n'est pas une impossibilité et le chapitre ne le prétend pas.** Une résolution de l'Assemblée générale n'est pas contraignante ; elle ne peut ni autoriser ni interdire. **CE QUI EST ÉTABLI A ÉTÉ RESSERRÉ LE 2026-09-08 PAR L12.C03, ET DANS UN SENS MOINS FAVORABLE À CE CHAPITRE.** **Le cadre ne pose pas la décision nationale comme un absolu** : il la pose **sous réserve des règles et engagements internationaux pertinents**, et il le fait deux fois. **Une qualification supranationale n'entre donc pas en contradiction de principe avec le cadre : elle entrerait PAR CETTE RÉSERVE.** **Ce qui reste établi est plus étroit et plus exact : le dispositif devrait ÊTRE un tel engagement international, et le dire.** **Il ne peut pas invoquer le cadre en s'exemptant de la forme que le cadre exige.**
 
 ## 5. Où cela mène, et ce n'est pas un endroit neuf
 
@@ -85,7 +103,7 @@ renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01]
 
 ::etat:: **Trois chapitres du corpus convergent donc sur le même point sans s'être cherchés.** **L7.C22** avait établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs. **L25.C01** a reçu le 2026-09-08 la commande du critère de sélection et de son autorité. **Et ce chapitre montre que le cadre lui-même a déjà tranché la question dans l'autre sens.**
 
-::hypothese:: **Le corpus ne peut pas conclure de là que le dispositif a tort.** **Il peut conclure que le dispositif propose un déplacement d'autorité que le cadre qu'il invoque ne prévoit pas** — et qu'un tel déplacement se défend, mais ne s'omet pas.
+::hypothese:: **Le corpus ne peut pas conclure de là que le dispositif a tort.** **Il peut conclure que le dispositif propose un déplacement d'autorité que le cadre SUBORDONNE À UNE CONDITION DE FORME** — celle d'être un engagement international pertinent. **La première rédaction de ce passage disait que le cadre « ne prévoit pas » ce déplacement : c'était INEXACT, et L12.C03 l'a corrigé le 2026-09-08 en lisant la clause des paragraphes 21 et 63.** **Un tel déplacement se défend donc, et il se défend MIEUX que ce chapitre ne le supposait — mais il ne s'omet pas.**
 
 ## 6. Ce que ce chapitre n'établit pas
 

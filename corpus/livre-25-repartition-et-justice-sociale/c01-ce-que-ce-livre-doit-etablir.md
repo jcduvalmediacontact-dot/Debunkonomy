@@ -123,9 +123,20 @@ verifications_en_attente:
      bénéfice allant « **primarily landowners and rural elites** ». **ALLOUER
      CONTRE UNE QUALIFICATION, C'EST ALLOUER À QUI DÉTIENT CE QUI EST
      QUALIFIABLE**, et ce livre doit dire ce qu'il en fait."
+  - "**LA COMMANDE EST PRÉCISÉE — ET NON SEULEMENT RENFORCÉE — LE 2026-09-08 PAR
+     L12.C03.** L12.C02 avait établi que le cadre confie la décision aux États.
+     **La version française officielle montre que cette décision est une CIBLE
+     (17.15) — « Respecter la marge de manœuvre et l'autorité de chaque pays » —
+     ET QU'ELLE EST ASSORTIE D'UNE RÉSERVE**, deux fois : la marge de manœuvre vaut
+     « while remaining consistent with relevant international rules and
+     commitments ». **CE QUE CELA CHANGE POUR CE LIVRE : la question n'est plus
+     seulement QUI SÉLECTIONNE, mais SOUS QUELLE FORME une sélection supranationale
+     peut se présenter pour être reçue par un cadre qui protège l'autorité
+     nationale par une cible ET qui la subordonne par une clause.** **Le cadre
+     indique la porte : être un engagement international pertinent.**"
 resume: "Ce chapitre ouvre le livre en établissant que le plancher social dont le corpus manquait n'est pas un choix de modélisation à faire mais une obligation juridique en vigueur depuis 1976. Le pacte international relatif aux droits économiques, sociaux et culturels est ouvert et lu dans son texte, et il énumère le contenu de ce plancher, à savoir un niveau de vie suffisant incluant la nourriture, l'habillement et le logement, le droit d'être à l'abri de la faim, le meilleur état de santé physique et mentale possible, la sécurité sociale, l'éducation et le travail. Le chapitre en tire quatre résultats. Le premier est une asymétrie de nature entre les deux bords du couloir que le livre précédent avait nommé, car le plafond écologique est un niveau tandis que le plancher social est une trajectoire, l'obligation étant de réalisation progressive au maximum des ressources disponibles. Le deuxième est que cette formule constitue la charnière que le dispositif cherchait, puisqu'un dispositif qui crée des ressources modifie ce que les ressources disponibles d'un État désignent, et que la question devient alors juridique et non seulement économique. Le troisième est que le pacte fournit une règle de répartition explicite pour un besoin essentiel, celle d'une distribution équitable des ressources alimentaires mondiales en fonction des besoins. Le quatrième est que la clause de limitation du pacte est opposable à l'instrument même que le dispositif emploie, puisqu'un prélèvement qui réduirait l'accès des plus pauvres à une nourriture ou à un logement suffisants met en cause un droit protégé et doit satisfaire un test de proportionnalité."
 concepts: [plancher_social, plafond_ecologique, essentiel_insolvable, dette_ecologique, communs, solvabilite_anticipee]
-renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02, L26.C11, L18.C12]
+renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02, L26.C11, L18.C12, L12.C03]
 ---
 
 # Ce que ce livre doit établir
