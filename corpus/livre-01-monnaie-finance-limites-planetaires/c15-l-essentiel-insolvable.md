@@ -129,9 +129,23 @@ verifications_en_attente:
      transactionnel équivalent** pour leur entretien, **et elle énonce ce qui la
      réfuterait**. **Le concept `essentiel_insolvable` n'est donc pas affaibli : il
      cesse de reposer sur un mot que le corpus n'a jamais mesuré.**"
+  - "**LA PROPOSITION REFORMULÉE CE JOUR REÇOIT LE MÊME JOUR UNE CONFIRMATION
+     STRUCTURELLE, ET ELLE VIENT DES COMPTES — 2026-09-08, par L18.C10.** La norme
+     statistique internationale de comptabilité des écosystèmes **charge la
+     dégradation en COÛT** dans une séquence de revenu ajustée, **et ne crédite
+     pas l'amélioration en REVENU** : celle-ci est portée au compte d'actif, et la
+     norme précise que de telles entrées « **are NOT CONSIDERED PART OF INCOME in
+     a national accounting context** ». **L'asymétrie que ce chapitre déduisait
+     d'un argument physique se lit directement dans la structure des comptes**, et
+     comme un traitement délibéré. **LA PORTÉE EST BORNÉE DE DEUX FAÇONS** : la
+     norme n'établit pas que l'entretien soit INSOLVABLE — il peut être payé,
+     c'est même l'objet du service acheté — **mais que son bénéfice NE REMONTE PAS
+     dans les agrégats de la période** ; et l'asymétrie est de TEMPS, l'actif
+     amélioré produisant des services futurs qui, eux, entrent en revenu dans les
+     comptes étendus."
 resume: "La solvabilité n'est pas la valeur : c'est un filtre à quatre conditions cumulatives — la valeur doit se traduire en flux monétaire, ce flux doit être capté par celui qui finance, il doit survenir dans l'horizon du crédit, et il doit survivre à l'actualisation. Ce chapitre établit que les activités qui entretiennent les conditions de la vie échouent presque toujours sur plusieurs de ces conditions à la fois, non par oubli mais par construction. Il traite l'objection décisive — l'emprunt d'État crée bien de la monnaie et finance l'insolvable — en montrant que le filtre ne disparaît pas alors, mais change de porteur : c'est l'État qui devient l'emprunteur jugé sur sa solvabilité future, et le volume ainsi finançable est plafonné par ce jugement. Il propose une explication physique partielle de la sélection, en délimite la portée, et montre pourquoi les cinq remèdes usuels — prix de la nature, finance verte, impôt, dette publique, subventions — se heurtent au même filtre : le verrou n'est pas dans les activités, il est dans le filtre."
 concepts: [essentiel_insolvable, solvabilite_anticipee, degeneratif, malediction_monetaire, creation_monetaire, entropie]
-renvois: [L1.C01, L1.C03, L1.C06, L1.C09, L1.C10, L1.C11, L1.C13]
+renvois: [L1.C01, L1.C03, L1.C06, L1.C09, L1.C10, L1.C11, L1.C13, L18.C10]
 ---
 
 # L'essentiel insolvable

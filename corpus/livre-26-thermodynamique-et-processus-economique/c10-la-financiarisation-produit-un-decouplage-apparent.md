@@ -46,9 +46,27 @@ verifications_en_attente:
      personne n'a tracée. **ACQUISITION DE RANG 1**, au même titre que la
      réplication du modèle sur une économie non extractive et qu'une évaluation
      indépendante du plancher d'intensité."
+  - "**LA DETTE COMPTABLE DE CE CHAPITRE EST PAYÉE POUR SA MOITIÉ ÉCOLOGIQUE LE
+     2026-09-08 PAR L18.C10.** La norme statistique internationale adoptée en 2021
+     pour la comptabilité des écosystèmes répartit une opération de restauration
+     sur **TROIS EMPLACEMENTS** : le service acheté est une **production
+     ordinaire** et entre dans les agrégats de production ; l'amélioration de
+     l'écosystème est portée au **compte d'actif**, sous une ligne symétrique de
+     la dégradation ; et la **séquence des comptes de revenu** soustrait la
+     dégradation sans rien ajouter pour l'amélioration. **La norme l'énonce
+     elle-même** : ces variations de valeur d'actif « **are NOT CONSIDERED PART OF
+     INCOME in a national accounting context** ». **CONSÉQUENCE POUR CE CHAPITRE :
+     un rapport de pression sur activité calculé sur les agrégats courants
+     enregistre LE PAIEMENT ET PAS LE RÉSULTAT — non par un vice du dispositif,
+     mais par une PROPRIÉTÉ DE LA STRUCTURE DES COMPTES qui vaut pour tout
+     financement de restauration.** **Cela confirme par la voie comptable la
+     règle des trois publications, et interdit d'employer le ratio seul.** **LA
+     MOITIÉ MONÉTAIRE DE LA DETTE RESTE DUE** : le traitement de l'émission relève
+     du système de comptes nationaux, dont le corpus tient l'édition 2008 et non
+     la révision 2025."
 resume: "Ce chapitre ouvre la moitié manquante de la revue systématique du découplage ainsi qu'un modèle concluant à l'impossibilité d'un découplage permanent, et il en tire trois résultats. Le premier est méthodologique et de même forme que ceux des deux chapitres précédents : la revue établit que la très grande majorité des huit cent trente-cinq études empiriques du champ aborde la question d'un point de vue statistique et économétrique en ne reconnaissant guère les principes thermodynamiques, si bien que la composition méthodologique du champ décide de ce qui est regardé, comme la frontière décidait du rendement énergétique et la méthode du coefficient de rebond. Le deuxième est que le modèle ouvert ici ne contredit pas la source sur laquelle le premier chapitre du livre s'était appuyé, puisque l'une traite du recyclage d'un stock constant en régime permanent et l'autre d'une croissance permanente butant sur un plancher d'intensité, deux propositions qui peuvent être vraies ensemble ; le chapitre en tire que le régime permanent est le seul état satisfaisant les deux propositions étudiées, sans que cela permette d'en faire la seule possibilité réelle pour le dispositif, le modèle étant conditionnel à un pays, à un scénario, à un plancher argumenté et à une classe de ressources supposées non substituables dont la liste n'est établie nulle part. Le troisième porte sur les trois mécanismes qui produisent une apparence de découplage, dont la financiarisation de composantes du produit intérieur brut, et le chapitre établit que le corpus ne peut pas appliquer ce mécanisme au dispositif faute de savoir par quelle rubrique comptable l'activité qualifiée entrerait dans le produit, une émission monétaire étant une transaction financière qui n'entre pas dans la production. Il établit enfin qu'un indicateur à deux termes physiques ne conviendrait pas, puisqu'il supprimerait la notion même de découplage économique, et il retient à la place une règle de publication simultanée de la pression physique absolue, de l'empreinte importée et du ratio de pression sur activité, en précisant que la première de ces trois grandeurs doit être un tableau multidimensionnel couvrant climat, matières, eau, sols, biodiversité et pollutions, faute de quoi la règle laisserait une amélioration sur une pression en masquer une autre."
 concepts: [decouplage, fausse_richesse, jevons_monetaire, indicateur_de_progres]
-renvois: [L1.C03, L11.C13, L17.C01, L17.C05, L24.C03, L26.C01, L26.C03, L26.C06, L26.C08, L26.C09]
+renvois: [L1.C03, L11.C13, L17.C01, L17.C05, L24.C03, L26.C01, L26.C03, L26.C06, L26.C08, L26.C09, L18.C10]
 ---
 
 # La financiarisation produit un découplage apparent

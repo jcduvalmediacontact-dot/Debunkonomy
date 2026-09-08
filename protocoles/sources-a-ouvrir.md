@@ -1657,3 +1657,46 @@ l'`additionnalite` reste un mot.**
 sensibilité de l'activité régénérative offerte au signal de
 l'allocation. **Le modèle ouvert déclare que son équivalent commande le
 résultat ; le corpus n'a ni la mesure ni le nom du sien.**
+
+
+# Ouverture du 2026-09-08 (soirée) — LA NORME QUI RÉPOND À LA QUESTION COMPTABLE
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**Nations unies, Union européenne, FAO, FMI, OCDE, PNUE et Banque mondiale,
+*System of Environmental-Economic Accounting — Ecosystem Accounting*,
+ST/ESA/STAT/SER.F/124, 2024** — pièce du dossier NEMO. **DROITS :
+« Copyright © 2024 [...] All rights reserved worldwide », mention lue dans
+le document — `citation_seule`.** Ouvert pour **L18.C10**.
+
+**CE N'EST PAS UNE THÉORIE MAIS UNE NORME** : adoptée par la Commission de
+statistique des Nations unies en mars 2021 comme **norme statistique
+internationale**. **`nature: normatif`.**
+
+## CE QU'ELLE RÈGLE, ET C'EST LA DETTE DE L26.C10
+
+**Trois emplacements pour une opération de restauration** : le service
+acheté est une production ordinaire ; l'amélioration de l'écosystème
+est portée au compte d'actif ; **et la séquence des comptes de revenu
+soustrait la dégradation SANS RIEN AJOUTER pour l'amélioration.** La norme
+l'écrit : ces entrées « **are NOT CONSIDERED PART OF INCOME in a national
+accounting context** ».
+
+## ACQUISITIONS DE RANG 1 QUI EN DÉCOULENT
+
+**LA RÉVISION 2025 DU SYSTÈME DE COMPTES NATIONAUX**, pour la moitié
+MONÉTAIRE de la question — le traitement de l'émission elle-même.
+**C'est la même acquisition que celle déclarée par le Livre 19, et elle
+est maintenant réclamée par deux livres.**
+
+**UNE CRITIQUE DE LA VALORISATION MONÉTAIRE DES SERVICES ÉCOSYSTÉMIQUES.**
+**Le corpus tient une norme sans son adversaire** — le défaut qui lui a
+déjà coûté deux rétractations. **Et l'adversaire est ici
+particulièrement identifiable** : la valorisation en valeurs d'échange est
+contestée par le courant même dont F13 se réclame. **Cette acquisition
+sert donc deux falsifieurs à la fois.**
+
+**DES SÉRIES, ET LA NORME AVERTIT QU'IL N'Y EN A GUÈRE.** Plus de trente-quatre
+pays compilaient des comptes écosystémiques **sur une base
+expérimentale** à l'adoption. **Même situation que celle relevée par
+L22.C04 : le cadre existe, la donnée ne suit pas.**

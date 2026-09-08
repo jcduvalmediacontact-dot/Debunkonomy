@@ -146,9 +146,21 @@ verifications_en_attente:
      et une VARIABLE ÉCONOMIQUE. **Et l'application au dispositif du mécanisme de
      financiarisation reste À ÉTABLIR : une émission est une transaction financière et
      n'entre pas dans le produit intérieur brut — la chaîne comptable manque.**"
+  - "**UNE SIXIÈME EXIGENCE EST VERSÉE LE 2026-09-08 PAR L18.C10, ET ELLE PORTE
+     SUR LE CHOIX DES COMPTES.** La norme de comptabilité des écosystèmes offre
+     **TROIS LECTURES DE LA MÊME OPÉRATION** : les agrégats de production
+     courants, où seul le service acheté apparaît ; la séquence ajustée de la
+     dégradation, où la dégradation est soustraite mais l'amélioration non
+     ajoutée ; et le compte d'actif, où l'amélioration a sa ligne mais n'est pas
+     du revenu. **LES TROIS DONNENT DES RÉPONSES DIFFÉRENTES SUR LA MÊME
+     RESTAURATION.** **Un barème qui prétend mesurer un résultat doit donc dire
+     DANS QUELS COMPTES il le mesure**, et le corpus n'en a désigné aucun. **C'est
+     la même forme que A39 pour la frontière énergétique et que L26.C09 pour la
+     méthode du rebond : la convention décide du chiffre, et elle doit être
+     déclarée.**"
 resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."
 concepts: [qualification_regenerative, bareme, creation_monetaire, additionnalite, degeneratif, essentiel_insolvable]
-renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10]
+renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10, L18.C10]
 ---
 
 # Le barème de qualification
