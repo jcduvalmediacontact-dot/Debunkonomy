@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -79,9 +79,17 @@ verifications_en_attente:
   - "OUVERTE — les corrections d'incidence, qui sont procédurales et non
      tarifaires. Le § 6 les énumère sans les instruire. Portées en arbitrage
      A14."
+  - "**LES DEUX RESSORTS DU REFLUX NE DÉSIGNENT PAS LE MÊME DÉBITEUR, ET CE
+     CHAPITRE NE L'A PAS POSÉ.** Versé le 2026-09-08 par L19.C05. **Le demurrage
+     frappe celui qui DÉTIENT** — il est, sous la norme, un intérêt dû par le détenteur
+     à proportion de sa position [L19.C03]. **Le reflux transactionnel frappe celui
+     qui TRANSACTE.** **Ce ne sont ni les mêmes personnes, ni la même assiette, ni la
+     même nature comptable** — revenu de la propriété d'un côté, transfert de l'autre.
+     **L'incidence instruite ici doit donc être reprise instrument par instrument**, et
+     non pour « le reflux » pris comme un tout."
 resume: "Ce chapitre pose une question que ni le livre ni le Cahier ne posent : qui supporte le reflux. Le dispositif raisonne en volumes — combien retirer — et jamais en incidence. Le chapitre consolide d'abord ce que quatre chapitres du Livre 11 ont trouvé séparément et par des chemins indépendants : la cascade favorise les ensembles intégrés, la valeur par défaut favorise ceux qui savent documenter, la consolidation par bénéficiaire effectif favorise ceux qui disposent de structures, la dérogation favorise ceux qui disposent d'un conseil. Quatre biais, une seule direction. Il établit ensuite que l'incidence du premier ressort n'est pas déterminée a priori : un prélèvement sur la consommation finale est régressif par nature, mais il est ici modulé sur l'empreinte, de sorte que le signe net dépend d'une seule grandeur — l'élasticité de l'empreinte au revenu — que le corpus n'a pas et qui est disponible. Il établit pour le second ressort une hypothèse plus inquiétante et non vérifiée : le demurrage frappe les encaisses, or les grandes fortunes détiennent peu d'encaisses et beaucoup d'actifs, tandis que les patrimoines moyens détiennent l'inverse ; l'instrument atteindrait donc le milieu plutôt que le sommet, et la dérogation aggraverait cet effet puisque l'accès aux produits exemptés suppose un conseil. Il relève que les quatre biais sont tous de nature procédurale et jamais tarifaire, ce qui a une conséquence pratique décisive : aucune correction par les taux ne les atteint. Il conclut que le dispositif, conçu contre la concentration du pouvoir financier, favoriserait dans sa forme actuelle les acteurs concentrés — non par contradiction de principe, mais par accumulation de mécanismes dont aucun n'a été choisi pour cela."
 concepts: [reflux_collectif, reflux_transactionnel, demurrage, bareme, degeneratif, qualification_regenerative]
-renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08]
+renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L19.C05]
 ---
 
 # L'incidence — qui paie le reflux

@@ -3869,3 +3869,58 @@ DÉTRUIT.** **Un transfert laisse l'encours inchangé ; une destruction le
 réduit — et le corpus n'a jamais comparé les deux.** À verser où
 l'auteur jugera : c'est une question de calibrage du reflux, pas de sa
 légitimité.
+
+
+## A30 — LE POINT BLOQUANT REÇOIT SON MÉCANISME LE 2026-09-08, ET IL EST SIMPLE
+
+**A30 était débloqué sur le droit et sur la norme, et restait bloquant sur
+un seul point, non juridique** : *ce qui garantit la dette collective s'érode
+quand le dispositif réussit.* **Le corpus savait que quelque chose
+s'érodait ; il ne savait pas quoi, ni par quel canal.** **L19.C05 le dit.**
+
+**PREMIER PAS — UN DÉBITEUR COLLECTIF N'EXISTE PAS.** La norme définit
+une unité institutionnelle comme « **an economic entity that is capable, IN
+ITS OWN RIGHT, of owning assets, INCURRING LIABILITIES** » [§ 4.2], et exige
+d'un passif qu'il oppose **deux unités nommées**. **« La société
+entière » ne signe pas, ne paie pas, ne peut être ni poursuivie ni
+libérée.** **Prise à la lettre, la formule de A35 ne désigne aucun
+débiteur.**
+
+**DEUXIÈME PAS — CE QUI SAUVE LA CONSTRUCTION.** Le précédent ouvert par
+L19.C02 fait porter la créance « on the participants COLLECTIVELY », **et cela
+fonctionne parce que chaque participant est lui-même une unité,
+individuellement obligée pour sa propre part** : « interest PAID BY
+participants holding MORE than their allocation exactly matches the interest
+OWING TO participants holding LESS ». **Le « collectivement » est une
+AGRÉGATION, pas une entité.** **Un débiteur collectif comme TOTALITÉ
+n'est pas représentable ; comme SOMME DE DÉBITEURS IDENTIFIÉS, il l'est
+parfaitement — et ce n'est pas une version affaiblie du premier, c'est autre
+chose.**
+
+**TROISIÈME PAS — LE CORPUS TENAIT DÉJÀ LA RÉPONSE.** L19.C03 a
+établi qu'une fonte inscrite dans les termes est un **INTÉRÊT dû par le
+détenteur**. **LE DÉBITEUR N'EST DONC PAS LA SOCIÉTÉ : C'EST LE
+DÉTENTEUR, À PROPORTION DE CE QU'IL DÉTIENT.**
+
+**ET L'ÉROSION SUIT IMMÉDIATEMENT.** **L'assiette qui garantit la dette est
+l'encours détenu.** Or le dispositif vise à faire circuler la monnaie
+plutôt qu'à la faire dormir — c'est la raison d'être du demurrage, que
+L11.C07 justifie par l'objection de la thésaurisation. **Plus il réussit,
+moins il y a d'encaisses oisives ; moins il y a d'encaisses, plus l'assiette est
+étroite.** **CE QUI GARANTIT LA DETTE COLLECTIVE S'ÉRODE QUAND LE DISPOSITIF
+RÉUSSIT PARCE QUE LA GARANTIE EST L'ENCOURS ET QUE LE SUCCÈS LE RÉDUIT.**
+
+**CE QUE CELA CHANGE À L'ÉTAT DE A30, ET IL FAUT être précis.** **Le point
+n'est pas levé : il est EXPLIQUÉ.** Une objection qui a un mécanisme est
+attaquable — on peut mesurer l'élasticité, calibrer, compenser par l'autre
+ressort. **Une objection sans mécanisme ne l'était pas.** **Ce qui manque
+désormais est un chiffrage, et seul le simulateur du Livre 13 pourrait le
+produire — il n'existe pas.**
+
+**ET DEUX CONSÉQUENCES LATÉRALES, DONT UNE FAVORABLE.** **La répartition de
+la charge ne suit aucun critère politique : elle suit la DÉTENTION** — le
+Livre 25 cherchait une clé que le droit ne donne pas, et il en existe une que
+personne n'a choisie. **Et qui ne détient rien ne doit rien** : la dette n'est
+collective qu'en ce qu'aucun débiteur n'est désigné à l'avance, **nul
+n'étant engagé sans avoir reçu.** **Le corpus ne l'avait pas
+énoncé.**

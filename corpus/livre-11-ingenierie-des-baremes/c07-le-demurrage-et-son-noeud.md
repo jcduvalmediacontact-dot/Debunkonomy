@@ -84,9 +84,19 @@ verifications_en_attente:
      détenteur ». **Et la condition de représentabilité est que le taux soit INSCRIT
      DANS LES TERMES AVANT L'ÉMISSION** — un prélèvement discrétionnaire n'est pas
      enregistrable."
+  - "**UN CRITÈRE DE PLUS SUR LE NŒUD DE PRÉLÈVEMENT, VERSÉ LE 2026-09-08.** Ce
+     chapitre trouve trois positions et juge qu'aucune n'est bonne. **L19.C05 y
+     ajoute une condition de REPRÉSENTABILITÉ et non de commodité** : pour qu'une
+     dette collective existe au sens de la norme, **l'obligation doit s'attacher à une
+     POSITION MESURABLE D'UNITÉS IDENTIFIABLES**, une « société » n'étant pas une
+     unité institutionnelle « capable, IN ITS OWN RIGHT, of incurring
+     liabilities ». **Seul un nœud qui identifie un détenteur et mesure sa position
+     produit une dette représentable.** **Frapper les réserves bancaires déplace donc
+     le DÉBITEUR vers les banques, et le corpus devrait alors écrire que CE SONT
+     ELLES qui portent la dette collective — ce qu'il n'a jamais écrit.**"
 resume: "Ce chapitre solde trois renvois que le corpus avait laissés ouverts sur le second ressort du reflux. Il rappelle d'abord pourquoi cet instrument est nécessaire et non décoratif : il répond à l'objection de la thésaurisation, que le prélèvement sur les transactions laisse entièrement passer. Il établit ensuite que la borne empirique observée sur les taux négatifs a désormais un mécanisme, et que ce mécanisme est celui de l'arbitrage de rendement — un prélèvement sur la détention étant un rendement négatif, il tombe sous le résultat de Mundell, de sorte que le demurrage est le plus étroitement borné des instruments du dispositif et non le plus disponible. Il instruit ensuite le choix du nœud de prélèvement, laissé ouvert par L11.C02, et trouve trois positions dont aucune n'est bonne : frapper les encaisses des détenteurs vise la bonne cible mais suppose une consolidation par bénéficiaire effectif que le droit paraît interdire ; frapper les réserves bancaires est légal et déjà mesuré mais déplace l'incidence vers les banques ; frapper les comptes sans consolidation laisse le fractionnement vider l'assiette. Le corpus construit sur cette dernière position une piste que personne n'a proposée, où l'effet recherché n'est plus la perception mais le coût imposé au fractionnement, et il énonce la grandeur qui décidera de sa valeur. Il établit enfin le résultat le plus lourd, obtenu en composant deux acquis du corpus plutôt qu'en important une objection : la compensation contracyclique entre les deux ressorts, que le Livre 1 présente comme la vertu principale de l'architecture, défaille précisément dans l'état pour lequel elle est conçue, puisque le moment où la thésaurisation appelle le demurrage est aussi celui où la fuite vers les substituts est la plus tentante. Il relève pour finir qu'une seule mesure — la restriction de la mobilité des capitaux — fermerait à la fois cette fuite et celle que le triangle d'incompatibilité ouvre."
 concepts: [demurrage, reflux_collectif, reflux_transactionnel, bareme, affectation_des_instruments, referentiel_de_change]
-renvois: [L1.C21, L1.C26, L11.C02, L11.C03, L11.C04, L11.C05, L11.C06, L19.C03]
+renvois: [L1.C21, L1.C26, L11.C02, L11.C03, L11.C04, L11.C05, L11.C06, L19.C03, L19.C05]
 ---
 
 # Le demurrage et son nœud de prélèvement

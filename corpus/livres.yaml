@@ -1495,7 +1495,7 @@ livres:
       - "objection — L11.C02 : l'écriture du Symposium laisse les fonds propres négatifs du montant émis, et l'analogie qui la justifiait était fausse"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 4
+    chapitres_acquis: 5
     note: >
       MATRICULE DÉCLARÉ LE 2026-09-07, ET C'EST UNE CORRECTION D'ECART, NON UNE
       CREATION. Le plan directeur reserve ce numero a la comptabilite monetaire
@@ -1710,6 +1710,55 @@ livres:
       RETIENT, LES DEUX NE COUTANT PAS LA MEME CHOSE ; et rien n'etablit qu'une
       banque centrale puisse porter a son actif une creance sur un DEBITEUR
       COLLECTIF NON IDENTIFIE, ce que le traitement de L19.C02 supposerait.
+      L19.C05 REPOND A LA QUESTION 2 ET DEBLOQUE LE DERNIER POINT DE A30. UN
+      DEBITEUR COLLECTIF N'EXISTE PAS DANS LA NORME : une unite institutionnelle
+      est "an economic entity that is capable, IN ITS OWN RIGHT, of owning
+      assets, INCURRING LIABILITIES", et un passif oppose DEUX UNITES NOMMEES. "LA
+      SOCIETE ENTIERE" NE SIGNE PAS, NE PAIE PAS, NE PEUT ETRE NI POURSUIVIE NI
+      LIBEREE -- prise a la lettre, la formule de A35 NE DESIGNE AUCUN DEBITEUR.
+      CE QUI SAUVE LA CONSTRUCTION. Le precedent fait porter la creance "on the
+      participants COLLECTIVELY", et cela fonctionne parce que CHAQUE PARTICIPANT
+      EST LUI-MEME UNE UNITE, individuellement obligee pour sa propre part --
+      "interest PAID BY participants holding MORE than their allocation exactly
+      matches the interest OWING TO participants holding LESS". LE
+      "COLLECTIVEMENT" EST UNE AGREGATION, PAS UNE ENTITE. Un debiteur collectif
+      comme TOTALITE n'est pas representable ; comme SOMME DE DEBITEURS
+      IDENTIFIES, il l'est parfaitement, ET CE N'EST PAS UNE VERSION AFFAIBLIE DU
+      PREMIER MAIS AUTRE CHOSE.
+      ET LE CORPUS TENAIT DEJA LA REPONSE SANS L'AVOIR VUE. L19.C03 a etabli
+      qu'une fonte inscrite dans les termes est un INTERET DU PAR LE DETENTEUR. LE
+      DEBITEUR N'EST DONC PAS LA SOCIETE : C'EST LE DETENTEUR, A PROPORTION DE CE
+      QU'IL DETIENT. Chaque detenteur est une unite institutionnelle, chacun est
+      oblige pour sa part, et la somme de ces obligations EST la dette collective.
+      LE POINT BLOQUANT DE A30 RECOIT SON MECANISME, ET IL EST SIMPLE. L'assiette
+      qui garantit la dette EST L'ENCOURS DETENU. Or le dispositif vise a faire
+      CIRCULER la monnaie plutot qu'a la faire dormir -- c'est la raison d'etre du
+      demurrage. PLUS IL REUSSIT, MOINS IL Y A D'ENCAISSES OISIVES ; MOINS IL Y A
+      D'ENCAISSES, PLUS L'ASSIETTE EST ETROITE. CE QUI GARANTIT LA DETTE
+      COLLECTIVE S'ERODE QUAND LE DISPOSITIF REUSSIT PARCE QUE LA GARANTIE EST
+      L'ENCOURS ET QUE LE SUCCES LE REDUIT. Le point n'est pas leve : IL EST
+      EXPLIQUE -- et une objection qui a un mecanisme est attaquable quand une
+      objection sans mecanisme ne l'etait pas.
+      DEUX CONSEQUENCES LATERALES, DONT UNE FAVORABLE. LA REPARTITION DE LA CHARGE
+      NE SUIT AUCUN CRITERE POLITIQUE : ELLE SUIT LA DETENTION -- le Livre 25
+      cherchait une cle que le droit ne donne pas, et il en existe une QUE
+      PERSONNE N'A CHOISIE. Et QUI NE DETIENT RIEN NE DOIT RIEN : la dette n'est
+      collective qu'en ce qu'aucun debiteur n'est designe a l'avance, NUL N'ETANT
+      ENGAGE SANS AVOIR RECU -- le corpus ne l'avait pas enonce.
+      ET UN CRITERE NOUVEAU SUR LE NOEUD DE PRELEVEMENT : seul un noeud qui
+      IDENTIFIE UN DETENTEUR ET MESURE SA POSITION produit une dette
+      representable. FRAPPER LES RESERVES BANCAIRES DEPLACE DONC LE DEBITEUR VERS
+      LES BANQUES, et le corpus devrait alors ecrire que CE SONT ELLES qui portent
+      la dette collective -- ce qu'il n'a jamais ecrit.
+      RESERVES : les statuts du precedent ne sont pas ouverts, l'obligation
+      individuelle etant INFEREE d'un flux d'interet observable et non lue ;
+      l'identite entre detenteur et debiteur n'est etablie que SOUS LA BRANCHE DU
+      DEMURRAGE, le reflux transactionnel frappant celui qui TRANSACTE et non
+      celui qui DETIENT -- deux ressorts, deux debiteurs, deux natures comptables,
+      et L11.C09 n'est pas relu a cette lumiere ; l'erosion est DECRITE ET NON
+      MESUREE, seul le simulateur du Livre 13 pouvant la chiffrer et il n'existe
+      pas ; et AUCUNE CONSEQUENCE DISTRIBUTIVE N'EST TIREE, le corpus ne tenant
+      aucune donnee sur la distribution des encaisses.
 
   - livre: 21
     titre: "La plomberie financière mondiale"
