@@ -3074,3 +3074,40 @@ résultat mesuré** : les auteurs la reprennent d'un autre travail que le corpus
 n'a pas ouvert. **L'objection est posée SOUS CONDITION D'OUVERTURE DE CE
 TRAVAIL, et elle ne peut pas être opposée au dispositif avant.** **C'est une
 acquisition de rang 1 pour F6.**
+
+
+## F14 — UNE EXTENSION DE SON OBJET EST PROPOSÉE LE 2026-09-08 PAR L17.C04. NON ARBITRÉE.
+
+**F14 vise le dispositif** : qu'un instrument qui émet ne puisse produire que
+de l'ADDITION et jamais de la SUBSTITUTION. **L17.C04 suggère que l'objet
+pourrait être plus large, et il faut dire sur quoi.**
+
+**TROIS INSTITUTIONS EXAMINÉES EN TROIS JOURS PRODUISENT DE L'ORIENTATION SANS
+PRODUIRE DE FERMETURE.** **Le barème écologique européen** [L22.C04] :
+il qualifie, exclut la compensation, n'admet que les gains nets — **et il ne
+retire aucune autorisation.** **La loi galloise sur le bien-être des
+générations futures** [L17.C04] : sept objectifs légaux dont la
+définition de la prospérité intègre « **the limits of the global
+environment** », un commissaire, des indicateurs, un audit — **et sa seule
+obligation inconditionnelle est de PUBLIER SES RAISONS.** **Le dispositif
+lui-même** [L26.C05] : émission qualifiée, reflux, fonte — **et aucun
+actif désigné à fermer.**
+
+**TROIS CONCEPTEURS DIFFÉRENTS, TROIS FINS DIFFÉRENTES, TROIS JURIDICTIONS
+DIFFÉRENTES, ET LE MÊME MANQUE.** **L'hypothèse proposée est donc que
+l'absence d'instrument de composition n'est peut-être PAS un défaut de
+conception du dispositif, mais UN TRAIT DE LA FORME « INCITATION » ELLE-MÊME.**
+
+**CE QUE CETTE EXTENSION CHANGERAIT, ET C'EST AMBIGU.** **Elle atténue le
+reproche adressé au dispositif** — il ne serait pas plus mal conçu que les
+autres instruments de sa famille. **Et elle aggrave la conséquence** — si
+aucune incitation ne ferme, alors la fermeture ne viendra jamais d'une incitation,
+et il faut un instrument d'une AUTRE NATURE, que ni le corpus ni les trois cas
+examinés ne tiennent.
+
+**CE QUI L'ÉTABLIRAIT OU LA RÉFUTERAIT.** **Un seul contre-exemple suffirait
+à la réfuter** : un dispositif incitatif qui produise effectivement le
+retrait d'une capacité existante. **Les mécanismes de rachat pour destruction
+— quotas, licences de pêche, capacités de production — en sont des
+candidats évidents, et AUCUN N'EST OUVERT PAR LE CORPUS.** **C'est
+l'acquisition qui déciderait, et elle est modeste.**

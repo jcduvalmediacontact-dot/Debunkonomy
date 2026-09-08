@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -66,9 +66,21 @@ verifications_en_attente:
      fait** : il faudrait, pour chaque condition-limite, dire ce que la
      directive prescrit lorsqu'elle devient active. C'est un travail
      mécanique et il n'a pas été entrepris."
+  - "**UN CAS EN VIGUEUR MONTRE CE QU'UN RÉGIME D'OBLIGATION PUBLIÉE PRODUIT.** Versé
+     le 2026-09-08 par L17.C04. Une loi qui inscrit sept objectifs de bien-être, crée
+     un commissaire, des indicateurs nationaux et des examens d'auditeur général **se
+     résout en une seule obligation dure : PUBLIER SES RAISONS** — un corps public
+     doit suivre les recommandations « unless [...] IT DECIDES ON AN ALTERNATIVE
+     COURSE OF ACTION », sans aucune condition à cette échappatoire. **LA
+     DIFFÉRENCE AVEC LE DISPOSITIF EST DÉCISIVE ET ELLE LUI EST FAVORABLE** : là-bas la
+     publication est la SANCTION — on publie parce qu'on n'a pas fait ; **ici la
+     qualification est la CONDITION D'UN PAIEMENT — on ne reçoit rien si l'on ne
+     qualifie pas.** **Un régime qui conditionne un VERSEMENT n'a pas la faiblesse
+     d'un régime qui conditionne une EXPLICATION**, et ce chapitre peut désormais le
+     dire sur pièce."
 resume: "Ce chapitre établit la forme que doit prendre un barème publié, et il la tire d'un terme que Tinbergen définit et que le corpus ne possédait pas : une directive. Une fois les cibles fixées, les valeurs des instruments demeurent fonctions des données observées, qui changent ; l'équation qui exprime cette dépendance est la directive, et c'est elle, non ses résultats numériques, qui constitue la règle. Le chapitre montre que cette forme réunit trois questions que le Livre 11 traitait séparément : l'arbitrage entre règle et pilotage discrétionnaire, qui cherchait une forme sans la nommer ; l'arbitrage rendu par l'auteur sur la trajectoire, qui indexe le taux sur la disponibilité constatée du substitut et qui est une directive sans le savoir ; et le premier des trois objets du barème identifiés antérieurement, que le corpus appelait une table et qui est une fonction. Il établit ensuite ce qu'une directive doit contenir pour en être une — les données qu'elle lit et qui les constate, la fonction, son domaine de validité, et sa propre procédure d'amendement, faute de quoi elle n'est qu'un pilotage discrétionnaire muni d'étapes supplémentaires. Il refait le triplet du barème sur cette base. Il relève que publier une directive expose le modèle causal qui la sous-tend, ce qui la rend attaquable sur le fond plutôt que négociable sur le chiffre, et il tient cette exposition pour un avantage au regard du critère que le corpus s'est donné : une directive est falsifiable, une table ne l'est pas. Il énonce enfin la limite qui borne tout le chapitre — une directive se dérive d'un modèle structurel, le dispositif n'en a pas, et ce chapitre établit donc une forme et non un contenu."
 concepts: [bareme, regle_contre_discretion, affectation_des_instruments, reflux_collectif, qualification_regenerative]
-renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C09, L11.C10, L11.C11]
+renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C09, L11.C10, L11.C11, L17.C04]
 ---
 
 # La directive

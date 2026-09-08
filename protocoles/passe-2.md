@@ -3924,3 +3924,43 @@ personne n'a choisie. **Et qui ne détient rien ne doit rien** : la dette n'est
 collective qu'en ce qu'aucun débiteur n'est désigné à l'avance, **nul
 n'étant engagé sans avoir reçu.** **Le corpus ne l'avait pas
 énoncé.**
+
+
+## PRÉCISION DE LA RÈGLE « LE DROIT DONNE LES CATÉGORIES, PAS LES CHIFFRES » — versée le 2026-09-08 par L17.C04
+
+**La règle versée le 2026-09-07 énonce que, sur la répartition d'un effort
+mondial, le droit fournit des CATÉGORIES, des PROCÉDURES et des CHARGES DE
+PREUVE, et pas de nombres.** **L17.C04 y ajoute une précision de même nature,
+tirée d'un cas et non d'une série.**
+
+**LA PRÉCISION.** *Quand le droit institutionnalise un objectif de long terme,
+il oblige à S'EXPLIQUER, non à RÉUSSIR. La sanction du manquement n'est ni
+la nullité de la décision ni une pénalité : c'est la publicité de la
+raison.*
+
+**LE CAS.** Une loi en vigueur depuis dix ans inscrit sept objectifs de
+bien-être, dont la définition de la prospérité mentionne « **the limits of
+the global environment** », crée un commissaire aux générations futures, des
+indicateurs nationaux, un rapport de tendances longues et des examens de
+l'auditeur général. **Son obligation centrale est que le corps public « must
+act in a manner which SEEKS TO ENSURE » — obligation de moyens, écrite comme
+telle.** **Et son unique obligation inconditionnelle est que « a public body MUST
+PUBLISH its response [...] the response MUST INCLUDE THE BODY'S REASONS ».** Les
+recommandations du commissaire se suivent « unless [...] **IT DECIDES ON AN
+ALTERNATIVE COURSE OF ACTION** » — **une échappatoire sans aucune
+condition.**
+
+**CE QUE LA PRÉCISION N'EST PAS.** **Elle n'est pas une règle générale et
+le corpus ne la pose pas comme telle : UN SEUL CAS EST OUVERT.** Elle demande
+à être éprouvée sur les autres — Bonheur national brut,
+Nouvelle-Zélande, Écosse, Islande — **dont aucun n'est ouvert.** **Et elle
+n'établit pas que cette forme était la seule disponible** : qu'un
+législateur ait choisi l'obligation de s'expliquer n'établit pas qu'il ne
+pouvait pas choisir l'obligation de résultat. **Le corpus tient un choix, non
+une nécessité.**
+
+**CONSÉQUENCE PRATIQUE.** **Chaque fois que le corpus s'appuiera sur une
+institution existante pour soutenir qu'un objectif est « porté par le droit
+», il devra dire CE QUE LE MANQUEMENT COÛTE.** **Si la réponse est « une
+explication publiée », l'appui existe et il est faible — et le dire n'est pas
+dénigrer l'institution, c'est mesurer l'appui.**
