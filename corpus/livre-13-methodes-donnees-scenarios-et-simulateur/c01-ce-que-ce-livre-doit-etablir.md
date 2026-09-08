@@ -50,9 +50,19 @@ verifications_en_attente:
      de L26.C10 ; et il ne résout pas l'absence de code d'activité relevée par
      L22.C04. **Le corpus a donc un patron, et cinq exigences que le patron ne
      remplit pas.**"
+  - "**LE RÉSULTAT D'INSUFFISANCE ÉTABLI PAR CE CHAPITRE EST REJOINT PAR UN
+     SECOND CHEMIN LE 2026-09-08, PAR L12.C01.** Ce chapitre a établi, d'après un
+     modèle stock-flux-fonds, qu'un instrument monétaire à fin écologique ne
+     suffit pas seul et que « **many other types of environmental policies need to
+     be implemented IN CONJUNCTION** ». **La fonction que le registre assigne au
+     Livre 12 concède la même chose d'avance**, puisqu'elle demande d'identifier
+     « **ses limites et les politiques complémentaires nécessaires** ». **Un
+     modèle et le plan directeur disent donc la même chose par deux chemins sans
+     rapport** — ce qui renforce le résultat sans le démontrer davantage, la
+     concession du registre n'étant pas une mesure."
 resume: "Ce chapitre remplace l'amorce déposée le 7 septembre 2026 et ouvre le livre que le corpus déclare bloquant depuis plusieurs semaines, celui qui doit fournir le simulateur du dispositif. Il commence par relever ce que les autres livres ont déposé sur ce matricule, à savoir cinq commandes qui se terminent toutes sur la même phrase, selon laquelle un chiffrage nécessaire existe seulement si un simulateur existe, ce qui n'est pas le cas. Il ouvre ensuite de première main un modèle macroéconomique écologique de type stock-flux-fonds, qui appartient exactement à la famille recommandée par le chapitre trente-sept du huitième livre et qui procède d'une synthèse entre la modélisation à cohérence de stocks et de flux et l'apparat flux-fonds du fondateur de la bioéconomie, ouvert la veille par le vingt-sixième livre. Il en tire quatre résultats. Le premier est que la famille de modèles dont le dispositif a besoin existe, qu'elle a déjà été appliquée à un instrument monétaire poursuivant une fin écologique, et que ce précédent est le plus proche que le corpus possède d'un test de sa propre thèse. Le deuxième est que ce précédent conclut à l'insuffisance de l'instrument monétaire pris seul, puisque le programme simulé réduit l'instabilité financière mais ne parvient pas à empêcher un réchauffement supérieur à trois degrés et demi, ses auteurs concluant que d'autres politiques doivent être mises en oeuvre conjointement. Le troisième est que le modèle fait apparaître deux boucles qui atténuent le bénéfice du programme, dont l'une réduit l'incitation à investir dans le vert à mesure que les dommages diminuent, ce qui constitue une quatrième occurrence d'une forme que le corpus a déjà rencontrée trois fois et selon laquelle le succès érode sa propre base. Le quatrième est qu'un unique paramètre de comportement commande l'efficacité du programme, et que le corpus ne possède ni la mesure ni même le nom de son équivalent. Le chapitre fixe enfin la grille du livre en huit questions et rappelle les cinq contraintes de conception que les autres livres lui ont déjà imposées."
 concepts: [creation_monetaire, bareme, additionnalite, effet_rebond]
-renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L26.C04, L26.C07, L26.C08, L26.C09, L26.C10]
+renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L26.C04, L26.C07, L26.C08, L26.C09, L26.C10, L12.C01]
 ---
 
 # Ce que ce livre doit établir

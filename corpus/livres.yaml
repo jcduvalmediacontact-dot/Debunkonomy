@@ -1223,10 +1223,54 @@ livres:
       nécessaires
     motifs:
       - "discipline — politiques de développement"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
 
+    note: >
+      OUVERT LE 2026-09-08 PAR L12.C01, QUI REMPLACE L'AMORCE. Trois sources :
+      le rapport officiel de suivi 2025 (citation_seule), une reproduction des
+      169 cibles en francais (citation_seule, ET CE N'EST PAS LE TEXTE OFFICIEL
+      -- la resolution A/RES/70/1 reste a ouvrir), et le registre.
+      L'ETAT DU CADRE, PAR SON PROPRE RAPPORT DE SUIVI. Sur 169 cibles, 139
+      seulement ont pu etre evaluees. Parmi elles : 18 % en bonne voie, 17 % en
+      progres moderes -- soit 35 % DE PROGRES ADEQUAT ; 48 % de progres
+      insuffisant ; ET 18 % QUI ONT REGRESSE sous le niveau de 2015. "Only 35 per
+      cent of SDG targets are on track or making moderate progress. Nearly half
+      are moving too slowly and, alarmingly, 18 per cent are IN REVERSE." CELA
+      REND LA REVENDICATION DU DISPOSITIF PLUS UTILE ET PLUS DIFFICILE A ETABLIR
+      : accelerer ce qui recule n'est pas accelerer, c'est renverser, et le
+      corpus n'a jamais distingue les deux.
+      TRENTE CIBLES NE SE MESURENT PAS, faute de donnees mondiales. TROISIEME
+      OCCURRENCE DE LA MEME FORME, apres L22.C04 (l'activite qualifiable n'a
+      aucun code d'activite) et L18.C10 (la norme ecosystemique est adoptee et
+      peu appliquee).
+      LA TENSION INTERNE DU CADRE, ET ELLE VISE LE CORPUS AU CENTRE. L'objectif 8
+      promeut "une croissance economique soutenue" et sa CIBLE 8.1 est chiffree :
+      "un taux de croissance annuelle du produit interieur brut d'AU MOINS 7 %
+      dans les pays les moins avances". Sa CIBLE 8.4 demande l'inverse du meme
+      mouvement : "s'attacher a ce que la croissance economique n'entraine plus
+      la degradation de l'environnement". LE CADRE CONTIENT DONC UNE CIBLE DE
+      CROISSANCE CHIFFREE ET UNE CIBLE DE DECOUPLAGE NON CHIFFREE -- et le corpus
+      a etabli ailleurs que la seconde NE SE LAISSE PAS MESURER, la frontiere
+      decidant du rendement energetique, la methode du coefficient de rebond, et
+      la composition du champ de ce qui est regarde.
+      A42 EST POSE : QUE FAIT LE DISPOSITIF DE LA CIBLE 8.1 ? Trois positions,
+      une seule intenable -- accelerer aussi 8.1, ce qui contredit la description
+      de L17.C03 selon laquelle le dispositif ENTREPREND DE RETIRER A LA
+      CROISSANCE SA NECESSITE ; l'ecarter et le declarer, ce qui n'est plus
+      "accelerer les ODD" ; ou NE RIEN DIRE, qui est la position actuelle.
+      GRILLE DU LIVRE EN SEPT QUESTIONS : ce qu'accelerer veut dire cible par
+      cible ; que faire de 8.1 ; ce que le dispositif produit contre ce qu'il
+      facilite ; QUELLES CIBLES IL PEUT DEGRADER, question qu'aucun chapitre du
+      corpus n'a posee ; comment le constater ; quelles politiques
+      complementaires ; et le contrefactuel, meme question que celle declaree la
+      plus difficile par L13.C01.
+      RESERVES : aucun objectif n'est instruit ; LE TEXTE OFFICIEL DU CADRE N'EST
+      PAS OUVERT et aucun libelle cite n'est citable avant verification contre la
+      resolution ; et le corpus tient DEUX DOCUMENTS DU MEME EMETTEUR -- un cadre
+      onusien et son propre rapport de suivi -- sans aucune critique externe,
+      meme defaut que celui ayant coute deux retractations.
   - livre: 13
     titre: "Méthodes, données, scénarios et simulateur NEMO IMS"
     collection: cahier-technique

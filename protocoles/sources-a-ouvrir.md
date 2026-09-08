@@ -1700,3 +1700,45 @@ sert donc deux falsifieurs à la fois.**
 pays compilaient des comptes écosystémiques **sur une base
 expérimentale** à l'adoption. **Même situation que celle relevée par
 L22.C04 : le cadre existe, la donnée ne suit pas.**
+
+
+# Ouverture du 2026-09-08 (nuit) — LE LIVRE 12, ET UNE RÉSERVE D'ÉDITION QUI COMPTE
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**Nations unies, DAES, *The Sustainable Development Goals Report 2025*, révision
+d'août 2025** — bibliothèque institutionnelle de l'auteur. **DROITS :
+« Requests to reproduce excerpts or to photocopy should be addressed to the
+Copyright Clearance Center », mention lue dans le document —
+`citation_seule`.** **C'est le rapport annuel officiel de suivi**, préparé en
+réponse au paragraphe 83 de la résolution 70/1. Ouvert pour **L12.C01**.
+
+**Les 17 objectifs et leurs 169 cibles**, reproduction en français publiée par
+Pacte mondial Réseau France, juillet 2024. **DROITS : « © 2024 Pacte mondial
+Réseau France » — `citation_seule`.** Ouvert pour **L12.C01**.
+
+## RÉSERVE D'ÉDITION, ET LE CORPUS DOIT LA PORTER
+
+**CE N'EST PAS LE TEXTE OFFICIEL.** L'autorité est la **résolution
+A/RES/70/1** de l'Assemblée générale ; **le corpus lit une reproduction
+en français par un réseau national.** **AUCUN LIBELLÉ CITÉ DANS L12.C01
+N'EST CITABLE AVANT VÉRIFICATION CONTRE LA RÉSOLUTION.** **C'est la
+première acquisition de rang 1 du Livre 12, et elle est facile : le texte est
+public.**
+
+## CE QUE LE CORPUS TIENT ET CE QU'IL LUI MANQUE SUR CE CADRE
+
+**IL TIENT DEUX DOCUMENTS DU MÊME ÉMETTEUR** — un cadre onusien et le
+rapport onusien qui l'évalue. **Aucune critique externe n'est ouverte**, alors
+qu'il en existe de nourries sur la mesurabilité des cibles, sur leur
+cohérence interne et sur leur gouvernance. **Même défaut que celui qui a
+déjà coûté deux rétractations au corpus, et il est ici
+particulièrement visible : un cadre ne peut pas être son propre
+contradicteur.**
+
+**ACQUISITIONS DE RANG 1.** La résolution A/RES/70/1. **Une critique
+argumentée de la cohérence interne du cadre** — la tension entre la cible
+8.1 et les objectifs environnementaux est trop évidente pour n'avoir pas
+été traitée dans la littérature. **Et le rapport de suivi européen
+2026**, qui est dans la bibliothèque de l'auteur et donnerait un second
+émetteur.

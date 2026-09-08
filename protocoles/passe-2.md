@@ -4344,3 +4344,56 @@ ni autorité compétente pour la conduire, ni critère de déclenchement.**
 CONCEPTION MANQUANTE**, à écrire une fois pour les quatre cas : **la règle
 de recalibrage du dispositif.** **Elle relève du Livre 11 pour les barèmes et
 du Livre 13 pour son épreuve**, et elle n'existe dans aucun des deux.
+
+
+## Arbitrage A42 — QUE FAIT LE DISPOSITIF DE LA CIBLE 8.1 ? Le cadre qu'il prétend accélérer prescrit la croissance
+
+**POSÉ LE 2026-09-08 PAR L12.C01, APRÈS OUVERTURE DU CADRE DES OBJECTIFS DE
+DÉVELOPPEMENT DURABLE ET DE SON RAPPORT DE SUIVI.** **NON ARBITRÉ.**
+
+**LE FAIT QUI OBLIGE À TRANCHER.** L'objectif 8 s'intitule « **Promouvoir une
+croissance économique soutenue, partagée et durable** », et sa première
+cible est chiffrée : « **un taux de croissance annuelle du produit
+intérieur brut d'AU MOINS 7 % dans les pays les moins avancés** ». **Sa
+quatrième cible demande l'inverse du même mouvement** : « s'attacher à
+ce que **la croissance économique n'entraîne plus la dégradation de
+l'environnement** ».
+
+**ET LE DISPOSITIF SE RÉCLAME D'ACCÉLÉRER CE CADRE.**
+
+**CE QUI REND LA QUESTION INÉVITABLE.** **L17.C03 a donné la première
+description positive du dispositif** : il n'est pas une stratégie de
+trajectoire, **il ENTREPREND DE RETIRER À LA CROISSANCE SA NÉCESSITÉ**. **La
+cible 8.1 est précisément une inscription de cette nécessité dans un
+texte adopté par les Nations unies.**
+
+**LES TROIS POSITIONS, ET UNE SEULE EST INTENABLE.**
+
+**(1) ACCÉLÉRER AUSSI 8.1.** Le dispositif finance alors de la croissance du
+produit dans les pays les moins avancés. **C'est défendable** — le Livre 25
+instruit les motifs de justice qui fondent cette cible — **mais cela contredit
+la description de L17.C03**, et le corpus devrait alors réécrire ce qu'il
+dit de lui-même.
+
+**(2) L'ÉCARTER, ET LE DÉCLARER.** Le dispositif accélère le cadre en
+en excluant une cible. **C'est également défendable** — un cadre s'amende
+— **mais ce n'est plus « accélérer les ODD »**, et la revendication
+doit être reformulée partout où elle figure.
+
+**(3) NE RIEN DIRE. C'EST LA POSITION ACTUELLE, ET C'EST LA SEULE QUI SOIT
+INTENABLE**, parce qu'elle laisse le corpus revendiquer une accélération
+dont il n'a pas lu le contenu.
+
+**CE QUE L'AUTEUR A DÉJÀ DIT ET QUI ORIENTE.** A32 a tranché en faveur de
+l'énoncé du livre contre celui du Cahier lorsque les deux divergeaient.
+**Ici, la divergence n'est pas interne au corpus : elle est entre le corpus et un
+texte extérieur qu'il invoque.** **Aucune décision antérieure ne
+s'applique.**
+
+**UNE DIFFICULTÉ SUPPLÉMENTAIRE, ET ELLE N'EST PAS ARBITRABLE.** La cible
+8.4 — que la croissance n'entraîne plus la dégradation — **est une cible
+dont l'atteinte ne se constate pas avec les instruments que le corpus a
+instruits** : la frontière décide du rendement énergétique [L26.C08],
+la méthode décide du coefficient de rebond [L26.C09], la composition du champ
+décide de ce qui est regardé [L26.C10]. **Quelle que soit la position
+retenue sur 8.1, 8.4 restera non vérifiable.**
