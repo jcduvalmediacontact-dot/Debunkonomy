@@ -37,20 +37,21 @@ verifications_en_attente:
      La question 4 de la grille — « tester leur concrétisation institutionnelle »
      — reste entière. **Ce chapitre reste dans les modèles et les textes**, comme
      les deux précédents."
-  - "**LA DESCRIPTION POSITIVE DONNÉE PAR CE CHAPITRE RENCONTRE UN TEXTE ADOPTÉ
-     QUI LA CONTRARIE — 2026-09-08, par L12.C01.** Ce chapitre établit que le
-     dispositif **entreprend de retirer à la croissance sa nécessité**. **La cible
-     8.1 des objectifs de développement durable inscrit cette nécessité dans un
-     texte des Nations unies** : « **un taux de croissance annuelle du produit
-     intérieur brut d'AU MOINS 7 % dans les pays les moins avancés** ». **Le
-     dispositif se réclame par ailleurs d'accélérer ce cadre.** **TROIS POSITIONS
-     SONT POSSIBLES ET UNE SEULE EST INTENABLE** : accélérer aussi 8.1, ce qui
-     contredit la description de ce chapitre ; l'écarter et le déclarer, ce qui
-     n'est plus « accélérer les ODD » ; ou ne rien dire, qui est la position
-     actuelle. **A42 est posé sur ce point.** **Ce n'est pas une contradiction
-     fatale — un cadre s'amende, et une cible de croissance dans les pays les
-     moins avancés a des motifs de justice que le Livre 25 instruit — mais c'est
-     une position à tenir, et le corpus ne l'a jamais tenue.**"
+  - "**LA DESCRIPTION POSITIVE DONNÉE PAR CE CHAPITRE EST PRÉCISÉE PAR
+     L'ARBITRAGE A42 DU 2026-09-08.** Ce chapitre établit que le dispositif
+     **entreprend de retirer à la croissance sa nécessité**. **L'arbitrage
+     précise dans quel sens** : le dispositif poursuit une **CROISSANCE ET UNE
+     DÉCROISSANCE SÉLECTIVES** — croissance des activités nécessaires au plancher
+     social, décroissance de celles qui provoquent les dépassements ou dont
+     l'utilité sociale ne justifie pas les dommages, maintien ou transformation
+     des autres — **la sélection s'opérant par activité, territoire et période.**
+     **CE QUE CELA CORRIGE DANS LA LECTURE DE CE CHAPITRE** : retirer à la
+     croissance sa nécessité **ne signifie pas viser sa diminution**. **Le
+     mouvement du produit est un résultat possible de la transformation, pas son
+     objectif**, et **une croissance matérielle ciblée reste possible et souvent
+     nécessaire dans les pays les moins avancés.** **La comparaison avec la
+     sobriété, qui demande aux États de renoncer à la croissance, s'en trouve
+     resserrée : les deux ne portent pas sur le même objet.**"
 resume: "Ce chapitre répond à la cinquième question de la grille, qui est le cœur du livre, et il y répond par une réponse conditionnelle assortie d'un résultat défavorable que le corpus n'attendait pas. Il ouvre une modélisation comparée des trajectoires climatiques compatibles avec un réchauffement d'un degré et demi, qui montre que les trajectoires de décroissance réduisent fortement les risques techniques des trajectoires fondées sur la technologie, en particulier la dépendance à un découplage élevé, aux émissions négatives à grande échelle et à un déploiement renouvelable sans précédent, mais qu'elles laissent entier un obstacle politique que la source qualifie de considérable. Cette source nomme le verrou dans les termes exacts où la promesse la plus ancienne du corpus le pose, à savoir la nécessité de surmonter les impératifs de croissance des systèmes existants. Le chapitre en tire la première formulation positive de la place du dispositif dans ce champ, puisqu'il ne demande pas aux États de renoncer à la croissance mais entreprend de retirer à celle-ci sa nécessité, ce qui vise le même verrou par un autre côté. Il en tire ensuite le prix, qui est double. Le dispositif ne réduit rien et ajoute du pouvoir d'achat, de sorte que sa compatibilité avec la sobriété n'est pas acquise mais conditionnelle à un chiffrage que personne ne tient. Et surtout, la source établit que la faisabilité politique est plus molle que la faisabilité socio-technique, ce dont il résulte qu'un dispositif qui déplace la difficulté du politique vers l'ingénierie institutionnelle échange du mou contre du dur."
 concepts: [sobriete, decouplage, robustesse, fenetre_de_reforme, effet_rebond]
 renvois: [L1.C08, L1.C12, L11.C10, L17.C01, L17.C02, L18.C04, L24.C02, L26.C03, L26.C05, L12.C01]
