@@ -2406,3 +2406,45 @@ table des matières et des notes, **et le corps narratif était vide**. **Il fau
 **CONSÉQUENCE POUR LE CORPUS : une source peut être OUVERTE POUR SA PROSE ET FERMÉE
 POUR SES QUANTITÉS**, et le chapitre qui l'emploie doit le déclarer dans son entrée
 de source. **L15.C04 est le premier chapitre à le faire.**
+
+
+## Acquises le 2026-09-08 au soir — OBTENUES ET NON OUVERTES
+
+**Ces pièces sont dans `Documents/Codex/2026-09-08/acquisitions-claude/`. Elles ne
+sont PAS ouvertes : aucun chapitre ne s'en réclame, et aucune ne porte de
+`date_verification`.** **Elles sont acquises pour que la passe suivante puisse les
+lire sans les chercher.**
+
+**LE RAPPORT PHARE DE LA RICHESSE DES NATIONS, ÉDITION 2024** — *The Changing
+Wealth of Nations: Revisiting the Measurement of Comprehensive Wealth*, 2024,
+obtenu du dépôt de la Banque mondiale par son interface DSpace. **C'ÉTAIT
+L'ACQUISITION DE RANG 1 DE L18.C14**, qui n'avait que le rapport technique
+préparatoire sur l'eau et déclarait ignorer ce que l'édition phare avait retenu.
+**Elle est dédiée à la mémoire de Kirk Hamilton, ce qui situe immédiatement la
+filiation** — c'est l'école de la comptabilité de la richesse, soit le camp adverse
+de F13.
+
+**LES SIX CHAPITRES DE L'ÉVALUATION IPBES SUR LES VALEURS SONT DÉSORMAIS COMPLETS.**
+Les chapitres 3 et 4 ont été ouverts le jour même par L18.C13 et L18.C15 ; **les
+chapitres 1, 2, 5 et 6 sont acquis et non lus.** **Le chapitre 6 — « Policy options
+and capacity development to operationalize the inclusion of diverse values » — est
+celui qui intéresse le plus directement le dispositif**, puisqu'il porte sur la mise
+en œuvre de la valorisation plurielle dans la décision publique.
+
+**RÉSERVE DE DROITS, INCHANGÉE ET APPLICABLE À TOUS : la notice Zenodo annonce
+CC BY 4.0, le document relié annonce un usage non commercial seulement.** Le corpus
+retient ce qu'il LIT.
+
+**NOTE TECHNIQUE : Zenodo répond par intermittence en 504 sur les gros fichiers.**
+Deux chapitres ont échoué au premier essai et abouti au second, **par le chemin
+direct `/api/records/<id>/files/<nom>/content` plutôt que par le lien `self` de la
+notice.** À retenir.
+
+### Ce qui reste refusé après la passe du soir
+
+**Le résumé aux décideurs de l'IPBES EN ANGLAIS** : seules les versions japonaise et
+allemande ont été trouvées sur Zenodo. **Non résolu.**
+
+**Hartwick 1977, Pearce & Atkinson 1993, Neumayer, Dietz & Neumayer, Solow 1974
+publié, Brockway 2017 et 2021** : murs déclarés et non franchis. **La liste remise
+à l'auteur tient.**
