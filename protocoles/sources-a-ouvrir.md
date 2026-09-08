@@ -1259,3 +1259,62 @@ sur l'état de l'art de 2009 ne peut pas être opposée telle quelle.**
 n'est pas ouvert, ni aucune autre concrétisation institutionnelle —
 Nouvelle-Zélande, Écosse, Islande. **Le corpus tient UN cas et rien n'établit
 que ce qu'il en tire vaut au-delà.**
+
+
+# Ouverture du 2026-09-08 (nuit, fin) — le Livre 16, l'ancêtre du dispositif
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**S. Gesell, *The Natural Economic Order*, trad. Philip Pye (original allemand
+1916)** — `naturalmoney.org`. **DROITS : l'auteur est mort en 1930 et
+l'original est dans le domaine public ; LE STATUT DE LA TRADUCTION ANGLAISE N'EST
+PAS ÉTABLI par le document, qui ne porte aucune mention de licence —
+`a_verifier`.** **Ouverte pour L16.C01 (partie monnaie) et L16.C02 (partie
+terre).** **Le corpus citait cet auteur depuis L1.C08 en ayant écrit dans le
+même chapitre : « S11 (Gesell 1916) : ouvrages non ouverts ».**
+
+**I. Fisher (assisté de H. R. L. Cohrssen et H. W. Fisher), *Stamp Scrip*,
+Adelphi Company, New York, 1933, chapitres IV à VII** — transcription HTML
+hébergée par `userpage.fu-berlin.de`. **DROITS : ouvrage de 1933, domaine
+public aux États-Unis ; MAIS LE CORPUS A LU UNE TRANSCRIPTION ET NON UN
+FAC-SIMILÉ — `a_verifier`.** Ouverte pour **L16.C03**.
+
+**Banque centrale européenne, *Report on a digital euro*, octobre 2020** —
+`ecb.europa.eu`. **DROITS : « Reproduction for EDUCATIONAL AND NON-COMMERCIAL
+purposes is permitted provided that the source is acknowledged » — la clause
+non commerciale est incompatible avec la licence du corpus. RÉGIME :
+`citation_seule`.** Ouverte pour **L16.C04**.
+
+## Une note d'accès, et elle n'est pas un refus
+
+**Le serveur de la Banque des règlements internationaux a répondu par une
+page HTML à deux tentatives de téléchargement direct du rapport de 2020 sur
+les principes fondamentaux des monnaies numériques de banque centrale, et la
+navigation vers la page de la publication a échoué.** **AUCUNE
+VÉRIFICATION ANTI-ROBOT N'EST EN CAUSE : c'est un échec d'acquisition
+ordinaire.** Le corpus a ouvert à la place le rapport de la banque centrale
+européenne, qui traite la même question du point de vue d'un émetteur.
+**Le rapport de la Banque des règlements internationaux reste à
+acquérir.**
+
+## Acquisitions de rang 1 qui restent ouvertes sur le Livre 16
+
+**CINQ DES NEUF FAMILLES QUE LE REGISTRE DEMANDE, ET LA PLUS URGENTE EST LA
+DERNIÈRE.** Cryptoactifs, stablecoins, monnaies-marchandises, unités de
+compensation, **et PROJETS SUPRANATIONAUX.** **Le dispositif EST un projet
+supranational, et le corpus n'en a comparé aucun autre** — ni l'unité de
+compte proposée à Bretton Woods, ni aucun projet régional. **C'est la
+comparaison qui déciderait de sa place, et elle n'existe pas.**
+
+**UNE CRITIQUE, POUR CHACUNE DES TROIS SOURCES.** **Les trois sont soit l'auteur
+d'une conception, soit son promoteur, soit l'émetteur d'un projet parlant de
+lui-même.** **La tranche ne tient aucun adversaire.** À ouvrir : les
+objections à la nationalisation du sol ; une contre-expertise de
+l'expérience de 1932 ; le débat sur la désintérmediation bancaire, la vie
+privée et la programmabilité.
+
+**LE FAC-SIMILÉ DE L'OUVRAGE DE 1933, ET LA SUITE DU PROJET DE 2020.** Le
+premier existe et n'est pas ouvert ; le second a connu depuis une phase
+d'investigation, une phase de préparation et une proposition législative,
+**dont aucun texte n'est ouvert** — les paramètres retenus ici ont pu être
+abandonnés ou modifiés.
