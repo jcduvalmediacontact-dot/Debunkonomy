@@ -1776,3 +1776,71 @@ occurrence en deux jours d'une norme sans son adversaire.**
 système de paiement d'importance systémique.** **Tant que ce n'est pas fait,
 le corpus ne sait pas quelles règles lui sont opposables**, et il instruit des
 normes qui ne le lient peut-être pas.
+
+
+# Acquisitions du 2026-09-08 (nuit) — QUATRE PIÈCES OBTENUES, DEUX MURS DÉCLARÉS
+
+**Téléchargements menés sur autorisation expresse de l'auteur.** Les
+fichiers sont déposés dans `Documents/Codex/2026-09-08/acquisitions-claude/`
+— **hors dépôt**, conformément à la règle qui interdit d'y verser
+les sources. **AUCUNE N'EST ENCORE OUVERTE : elles sont acquises, non lues.**
+
+## Obtenues
+
+**1. Résolution A/RES/70/1 de l'Assemblée générale des Nations unies**,
+« Transforming our world: the 2030 Agenda for Sustainable Development »,
+adoptée le 25 septembre 2015. **En-tête vérifié par extraction.**
+**C'ÉTAIT L'ACQUISITION DE RANG 1 DU LIVRE 12** : L12.C01 lit une reproduction
+par un réseau national, **et aucun libellé cité n'y est citable avant
+vérification contre ce texte.**
+
+**2. *System of National Accounts 2025*, version pour endossement par la
+Commission de statistique**, 15,6 Mo, table des matières vérifiée.
+**C'EST L'ACQUISITION RÉCLAMÉE PAR DEUX LIVRES** — le Livre 19, dont toute
+la tranche repose sur l'édition 2008, et le Livre 18, pour la moitié
+monétaire de la chaîne comptable laissée ouverte par L18.C10.
+
+**3. Banque mondiale, *The Changing Wealth of Nations: Measuring Sustainable
+Development in the New Millennium*, 2011**, 148 p. **DROITS : « The material in
+this publication is copyrighted », renvoi au Copyright Clearance Center —
+`citation_seule`, mention lue dans le document.** **C'EST LE CORPUS ADVERSE DE
+F13, VERSANT INSTITUTIONNEL, ET CELUI QUE L'AUTEUR A DÉSIGNÉ COMME LE PLUS
+DANGEREUX** : non pas une thèse, **mais une comptabilité en vigueur qui
+agrège le capital naturel aux autres formes de capital.** Elle tient une
+**richesse totale** et une **épargne nette ajustée** — l'indicateur de
+soutenabilité faible mis en œuvre à l'échelle mondiale — avec un
+encadré intitulé « Adjusted Net Saving and Missing Capital ».
+
+**4. Banque mondiale, rapport technique 2024, « Adding Water to the Changing
+Wealth of Nations »**, 61 p. **Plus étroit** : c'est l'ajout de l'eau aux
+comptes, non l'exposé doctrinal. Droits à vérifier dans le détail.
+
+## Refusées, et le corpus ne les contourne pas
+
+**LES STATUTS DU FONDS MONÉTAIRE INTERNATIONAL.** Le serveur répond
+**403 Forbidden** depuis un réseau de bordure, page « Access Denied » avec
+référence d'erreur. **MUR ANTI-ROBOT, NON FRANCHI.** Seul le liminaire de dix
+pages a été obtenu par une bibliothèque électronique, **et il porte
+lui-même « Not for Redistribution ».** **L'acquisition reste due, et elle
+est devenue la plus rentable depuis l'orientation donnée sur A37.**
+
+**DIETZ ET NEUMAYER, « Weak and strong sustainability in the SEEA ».**
+**C'ÉTAIT LA PIÈCE IDÉALE** — l'auteur du camp adverse de F13 écrivant
+sur la norme même que L18.C10 a ouverte la veille. Le dépôt
+institutionnel oppose **un contrôle automatisé de navigateur** sur les deux
+adresses essayées, dont celle que le serveur donne lui-même en redirection.
+**MUR ANTI-ROBOT, NON FRANCHI.**
+
+**UN ÉCHEC ORDINAIRE, SANS MUR.** Une note de synthèse sur les deux
+paradigmes, hébergée sur un site onusien, **a été déplacée** : le
+serveur renvoie sa page d'accueil. **Ce n'est pas un refus, c'est une adresse
+périmée.**
+
+## État du corpus adverse de F13 après cette séance
+
+**Le versant INSTITUTIONNEL est acquis** — la comptabilité de la richesse et
+son indicateur. **Le versant THÉORIQUE ne l'est pas** : Solow, Hartwick, Pearce
+et Atkinson, Neumayer restent à obtenir, et les trois derniers sont
+édités commercialement. **Le corpus peut donc opposer à F13 UNE PRATIQUE,
+PAS ENCORE UNE THÉORIE** — ce qui est plus que rien et moins qu'une
+controverse.
