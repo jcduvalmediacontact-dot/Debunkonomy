@@ -1898,3 +1898,53 @@ que deux de ses appuis tiennent, et ignore combien il en compte.**
 actifs sans passif de contrepartie est **inscrite au programme de recherche**, et
 leur rôle « may change in the future ». **À rouvrir à la prochaine
 édition.**
+
+
+## Ouvert le 2026-09-08 — LE TEXTE OFFICIEL DU CADRE, ET CE QUE LA VÉRIFICATION A COÛTÉ
+
+**Résolution A/RES/70/1**, version anglaise — acquise et **ouverte le jour
+même** pour **L12.C02**. **Régime `a_verifier`** : aucune mention de droits
+lue dans le document ; le corpus s'en tient à la citation courte avec
+attribution.
+
+**CE QUE LA VÉRIFICATION A RAPPORTÉ, ET C'EST LA PREMIÈRE FOIS QUE LA
+RÈGLE D'ÉDITION PAIE.** **Deux libellés confirmés au fond.** **Un
+libellé TRONQUÉ dans la reproduction** : la cible 8.4 se termine par
+« **with developed countries taking the lead** », clause absente de la
+reproduction lue jusque-là — **et cette clause changeait le sens de la cible.**
+**Et trois paragraphes de gouvernance** que le corpus n'aurait jamais trouvés
+dans une liste de cibles : appropriation nationale, responsabilité première
+de chaque pays, suivi **volontaire** respectant l'espace politique.
+
+**ACQUISITION RÉSIDUELLE : LA VERSION FRANÇAISE DE LA RÉSOLUTION.** Elle
+fait également foi, et le corpus cite en français. **Les libellés de
+L12.C01 sont donc vérifiés quant au FOND contre l'anglais, non quant à la
+LETTRE contre le français officiel.**
+
+## Acquisitions du 2026-09-08 (seconde salve)
+
+**P. E. Brockway, J. R. Barrett, T. J. Foxon et J. K. Steinberger, « How peaking
+of exergy efficiency may lead to rising energy demand », communication BIEE**
+— obtenue, **non encore ouverte**. **C'est la comptabilité en EXERGIE UTILE
+que L26.C08 réclamait pour sa quatrième frontière, le service final.**
+Réserve : c'est une communication de conférence, non une revue.
+
+**J. Martin-Ortega, P. Novo, E. Gomez-Baggethun et al., « Ecosystem services and
+the commodification of nature », chapitre 27 du *Routledge Handbook of
+Commodification*, 2023** — obtenue en **MANUSCRIT ACCEPTÉ** déposé en
+archive institutionnelle, **non encore ouverte**. **DROITS : « all rights
+reserved », téléchargement pour étude privée — `citation_seule`,
+et ce n'est PAS la version de référence.** **C'est la critique de la
+valorisation monétaire que L18.C10 réclamait.** **Réserve à porter :
+cette critique est du CAMP DE F13, non de son camp adverse** — elle complète
+la controverse sur les NORMES, elle n'ajoute pas d'adversaire à F13.
+
+## Refusées dans cette salve
+
+**Hartwick 1977 et Solow 1974**, via un archivage académique : réponse
+« **Client Challenge** ». **MUR ANTI-ROBOT, NON FRANCHI.** **Le versant
+théorique fondateur du camp adverse de F13 reste inaccessible au corpus**, et
+les deux textes sont sous abonnement.
+
+**Un article de revue sur les méprises relatives à la valorisation** :
+serveur de l'éditeur refusant le téléchargement direct. Échec ordinaire.

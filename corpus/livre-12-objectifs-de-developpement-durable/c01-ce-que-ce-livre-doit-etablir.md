@@ -63,9 +63,22 @@ verifications_en_attente:
      que la croissance n'entraîne plus la dégradation — cesse d'être la question
      du dispositif, qui ne pilote pas sur le couplage mais sur la position d'une
      activité dans un couloir.**"
+  - "**LA RÉSERVE D'ÉDITION DÉCLARÉE PAR CE CHAPITRE EST LEVÉE LE 2026-09-08 PAR
+     L12.C02, ET LA VÉRIFICATION A PRODUIT UN RÉSULTAT.** Le texte officiel de la
+     résolution est ouvert. **Les deux libellés cités ici sont confirmés au fond**
+     — la cible chiffrée de croissance dans les pays les moins avancés, et
+     l'intitulé de l'objectif. **Le texte officiel est même plus net sur la
+     seconde cible** : il emploie le verbe « **DECOUPLE** » là où la reproduction
+     paraphrasait. **MAIS LA REPRODUCTION AVAIT TRONQUÉ CETTE CIBLE** : sa clause
+     finale, « **with DEVELOPED COUNTRIES TAKING THE LEAD** », était absente. **La
+     tension entre 8.1 et 8.4 relevée par ce chapitre est donc moins une
+     contradiction qu'une RÉPARTITION** — l'effort de découplage est assigné
+     d'abord aux pays développés, l'objectif de croissance aux pays les moins
+     avancés. **RÉSERVE RÉSIDUELLE : le corpus a lu la version ANGLAISE ; les
+     libellés français sont vérifiés quant au fond, non quant à la lettre.**"
 resume: "Ce chapitre remplace l'amorce et ouvre le livre chargé d'évaluer ce que le dispositif peut faciliter pour chaque objectif de développement durable. Il établit d'abord ce que le cadre est réellement, à savoir dix-sept objectifs déclinés en cent soixante-neuf cibles hétérogènes, dont certaines sont des résultats et d'autres des moyens de mise en oeuvre. Il rapporte ensuite le constat du rapport officiel de suivi de deux mille vingt-cinq, selon lequel trente-cinq pour cent seulement des cibles évaluables montrent un progrès adéquat, quarante-huit pour cent un progrès insuffisant et dix-huit pour cent une régression sous le niveau de deux mille quinze, trente cibles sur cent soixante-neuf n'ayant pu être évaluées faute de données mondiales. Il en tire que le cadre que le dispositif prétend accélérer est lui-même en échec sur la majorité de ses cibles, ce qui rend la promesse d'accélération à la fois plus utile et plus exigeante à démontrer. Il établit surtout une tension interne au cadre qui vise directement le corpus, puisque le huitième objectif promeut une croissance économique soutenue et fixe une cible chiffrée d'au moins sept pour cent de croissance annuelle du produit intérieur brut dans les pays les moins avancés, tandis qu'une autre cible du même objectif demande que la croissance économique n'entraîne plus la dégradation de l'environnement. Le corpus a établi ailleurs que cette seconde cible ne se laisse pas mesurer, la frontière décidant du rendement énergétique et la méthode du coefficient de rebond. Le chapitre enregistre enfin la position arbitrée du dispositif sur ce point, qui n'est ni l'accélération de la cible de croissance ni son rejet, mais une croissance et une décroissance sélectives opérées par activité, par territoire et par période, à l'intérieur d'un couloir borné par le plancher social et les plafonds écologiques, le mouvement du produit intérieur brut n'étant alors qu'un résultat possible et non un objectif. Il en tire que la cible chiffrée n'est pas contestée dans son contenu pour les pays les moins avancés, où une croissance matérielle ciblée reste nécessaire, mais dans sa formulation en agrégat, et que la cible de découplage cesse d'être la question du dispositif. Il fixe pour finir la grille du livre en sept questions."
 concepts: [indicateur_de_progres, plancher_social, additionnalite, bareme]
-renvois: [L11.C13, L13.C01, L17.C01, L17.C03, L18.C10, L22.C04, L24.C01, L25.C01, L26.C10]
+renvois: [L11.C13, L13.C01, L17.C01, L17.C03, L18.C10, L22.C04, L24.C01, L25.C01, L26.C10, L12.C02]
 ---
 
 # Ce que ce livre doit établir

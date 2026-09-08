@@ -80,9 +80,22 @@ verifications_en_attente:
      répartition avant d'être une décision technique** — et c'est ce livre qui en
      instruit les critères. **La commande porte donc sur le CRITÈRE DE SÉLECTION
      et son AUTORITÉ, non sur un substitut à la croissance.**"
+  - "**LA COMMANDE REÇUE LE 2026-09-08 EST RENFORCÉE LE MÊME JOUR PAR L12.C02, ET
+     ELLE VIENT CETTE FOIS DU CADRE LUI-MÊME.** La commande porte sur **le critère
+     de sélection et son autorité**. **La résolution qui fonde les objectifs de
+     développement durable a déjà tranché la question pour ce qui la concerne** :
+     les stratégies sont « **NATIONALLY OWNED** », « **each country has PRIMARY
+     RESPONSIBILITY for its own economic and social development** », et le
+     dispositif de suivi est « **VOLUNTARY** », « **country-led** », devant
+     « **RESPECT POLICY SPACE AND PRIORITIES** ». **LE PRINCIPE ORGANISATEUR DU
+     CADRE EST LA DÉCISION NATIONALE ; CELUI DU DISPOSITIF EST UNE QUALIFICATION
+     SUPRANATIONALE.** **Ce n'est pas une impossibilité — une résolution de
+     l'Assemblée générale n'est pas contraignante — mais c'est un déplacement
+     d'autorité que le cadre invoqué ne prévoit pas**, et ce livre doit dire à
+     quelles conditions il se défend."
 resume: "Ce chapitre ouvre le livre en établissant que le plancher social dont le corpus manquait n'est pas un choix de modélisation à faire mais une obligation juridique en vigueur depuis 1976. Le pacte international relatif aux droits économiques, sociaux et culturels est ouvert et lu dans son texte, et il énumère le contenu de ce plancher, à savoir un niveau de vie suffisant incluant la nourriture, l'habillement et le logement, le droit d'être à l'abri de la faim, le meilleur état de santé physique et mentale possible, la sécurité sociale, l'éducation et le travail. Le chapitre en tire quatre résultats. Le premier est une asymétrie de nature entre les deux bords du couloir que le livre précédent avait nommé, car le plafond écologique est un niveau tandis que le plancher social est une trajectoire, l'obligation étant de réalisation progressive au maximum des ressources disponibles. Le deuxième est que cette formule constitue la charnière que le dispositif cherchait, puisqu'un dispositif qui crée des ressources modifie ce que les ressources disponibles d'un État désignent, et que la question devient alors juridique et non seulement économique. Le troisième est que le pacte fournit une règle de répartition explicite pour un besoin essentiel, celle d'une distribution équitable des ressources alimentaires mondiales en fonction des besoins. Le quatrième est que la clause de limitation du pacte est opposable à l'instrument même que le dispositif emploie, puisqu'un prélèvement qui réduirait l'accès des plus pauvres à une nourriture ou à un logement suffisants met en cause un droit protégé et doit satisfaire un test de proportionnalité."
 concepts: [plancher_social, plafond_ecologique, essentiel_insolvable, dette_ecologique, communs, solvabilite_anticipee]
-renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03]
+renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02]
 ---
 
 # Ce que ce livre doit établir
