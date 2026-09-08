@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -59,6 +59,17 @@ verifications_en_attente:
      dans leurs effets — phosphore, azote, aérosols, eau. **Le corpus ne sait
      pas comment une limite globale s'alloue entre pays**, et c'est la question
      que le dispositif devra trancher pour émettre."
+  - "**L'ÉTAT RAPPORTÉ ICI EST CELUI DE 2023, ET IL EST DÉPASSÉ DEPUIS LE
+     2026-09-08 PAR L24.C07.** Le bilan annuel publié par l'institut qui porte
+     cette science compte désormais **SEPT limites franchies sur neuf** :
+     **l'ACIDIFICATION DES OCÉANS**, que la source lue ici disait « en
+     approche », est évaluée comme transgressée **pour la première fois**.
+     **CE CHAPITRE N'EST PAS FAUX** — il rapporte exactement ce que disait la
+     révision de 2023 — **mais aucun de ses chiffres d'état ne doit être cité
+     comme l'état présent.** **ET LA CAUSE DU BASCULEMENT N'EST PAS SEULEMENT LE
+     MONDE** : la même année a vu, pour cette limite, une nouvelle ligne de base
+     et une limite RESSERRÉE. **Le corpus ne peut pas démêler, sur ce qu'il a
+     lu, la part du monde et la part de la convention.**"
 resume: "Ce chapitre ouvre le livre en établissant ce qu'il doit établir, à savoir ce qui doit être maintenu, et il le fait par la source la plus citée sur ce point, l'actualisation de 2023 du cadre des limites planétaires, téléchargée et lue dans son texte. Il donne les neuf processus, leurs variables de contrôle, la valeur de la limite, la valeur holocène de référence et la valeur actuelle, et il enregistre que six des neuf limites sont dépassées. Il en tire trois résultats. Le premier est la réponse à la question que l'auteur a placée en tête du livre, celle de savoir quels seuils ne peuvent pas être compensés financièrement, et cette réponse ne tient pas à la morale mais à la métrologie, car les neuf variables de contrôle sont exprimées dans neuf unités sans aucune commune mesure, de sorte qu'il n'existe aucun taux de change entre elles et que payer pour du carbone ne rend pas d'azote. Le deuxième est que le dispositif émet une unité scalaire contre une régénération vectorielle, ce qui rend toute émission proportionnée à la régénération dépendante d'une agrégation que la science refuse de faire. Le troisième est favorable et le chapitre le porte comme tel, puisque le cadre fournit enfin une définition quantitative de ce que régénérer veut dire, à savoir rapprocher une variable de contrôle de sa limite, et puisqu'il énonce que la production primaire nette nécessaire aux sociétés futures devra être produite en supplément de la ligne de base holocène, ce qui est exactement l'objet du dispositif."
 concepts: [limites_planetaires, plafond_ecologique, entropie, decouplage, degeneratif, qualification_regenerative, essentiel_insolvable]
 renvois: [L1.C15, L5.C08, L11.C13, L18.C01, L18.C04, L22.C04, L26.C01]
