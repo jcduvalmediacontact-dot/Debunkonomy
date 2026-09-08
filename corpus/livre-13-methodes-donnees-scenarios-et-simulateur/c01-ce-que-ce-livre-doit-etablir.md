@@ -74,6 +74,21 @@ verifications_en_attente:
      scénarios calibrés à l'avance**, puisqu'on ne calibre pas sur un effet dont on
      ignore le sens. **Il exige un dispositif de MESURE EX POST, que ce livre doit
      spécifier et qui n'existe pas.**"
+  - "**QUATRE CORRECTIONS DE L'AUTEUR, 2026-09-08, APPLIQUÉES DANS LE CORPS.**
+     **(a)** le programme d'achat d'obligations vertes est **un instrument VOISIN,
+     non de la MÊME ESPÈCE** : il ACHÈTE des titres et agit par le rendement
+     obligataire, là où le dispositif ALLOUE contre une qualification. **Son
+     résultat est un avertissement, pas un précédent.** **(b)** « le seul modèle
+     existant » devient **« le seul modèle que le corpus tienne »** — la formule
+     confondait l'état DU CHAMP et l'état DES ACQUISITIONS. **(c)** « le simulateur
+     ne peut pas être écrit avant A37 » **est retiré : le simulateur peut modéliser
+     PLUSIEURS BRANCHES d'A37 et CONTRIBUER À LE TRANCHER.** Ce qui subsiste est une
+     contrainte de structure : **la forme juridique de l'émetteur doit être un
+     PARAMÈTRE du modèle, non une hypothèse figée.** **(d)** les deux boucles sont
+     tirées du **DOCUMENT DE TRAVAIL de 2016** ; **une version publiée a paru en 2018
+     et n'est pas ouverte** — aucune des deux boucles n'est acquise avant
+     confrontation, **ce qui touche L11.C30, qui en range une parmi les six
+     occurrences fondant une pièce de conception.** **ACQUISITION DE RANG 1.**"
 resume: "Ce chapitre remplace l'amorce déposée le 7 septembre 2026 et ouvre le livre que le corpus déclare bloquant depuis plusieurs semaines, celui qui doit fournir le simulateur du dispositif. Il commence par relever ce que les autres livres ont déposé sur ce matricule, à savoir cinq commandes qui se terminent toutes sur la même phrase, selon laquelle un chiffrage nécessaire existe seulement si un simulateur existe, ce qui n'est pas le cas. Il ouvre ensuite de première main un modèle macroéconomique écologique de type stock-flux-fonds, qui appartient exactement à la famille recommandée par le chapitre trente-sept du huitième livre et qui procède d'une synthèse entre la modélisation à cohérence de stocks et de flux et l'apparat flux-fonds du fondateur de la bioéconomie, ouvert la veille par le vingt-sixième livre. Il en tire quatre résultats. Le premier est que la famille de modèles dont le dispositif a besoin existe, qu'elle a déjà été appliquée à un instrument monétaire poursuivant une fin écologique, et que ce précédent est le plus proche que le corpus possède d'un test de sa propre thèse. Le deuxième est que ce précédent conclut à l'insuffisance de l'instrument monétaire pris seul, puisque le programme simulé réduit l'instabilité financière mais ne parvient pas à empêcher un réchauffement supérieur à trois degrés et demi, ses auteurs concluant que d'autres politiques doivent être mises en oeuvre conjointement. Le troisième est que le modèle fait apparaître deux boucles qui atténuent le bénéfice du programme, dont l'une réduit l'incitation à investir dans le vert à mesure que les dommages diminuent, ce qui constitue une quatrième occurrence d'une forme que le corpus a déjà rencontrée trois fois et selon laquelle le succès érode sa propre base. Le quatrième est qu'un unique paramètre de comportement commande l'efficacité du programme, et que le corpus ne possède ni la mesure ni même le nom de son équivalent. Le chapitre fixe enfin la grille du livre en huit questions et rappelle les cinq contraintes de conception que les autres livres lui ont déjà imposées."
 concepts: [creation_monetaire, bareme, additionnalite, effet_rebond]
 renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L26.C04, L26.C07, L26.C08, L26.C09, L26.C10, L12.C01, L11.C30]
@@ -101,17 +116,19 @@ renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L2
 
 ::hypothese:: **C'est la première fois que le corpus trouve chez cet auteur quelque chose qu'il peut reprendre sans excéder ce qu'il a écrit.**
 
-## 3. Ce que le précédent établit sur un instrument de la même espèce
+## 3. Ce que le précédent établit sur un instrument VOISIN
 
-::etat:: **Le modèle simule un programme d'achat d'obligations vertes par les banques centrales**, à hauteur de 20 % de l'encours à partir de 2020 [S2]. **C'est un instrument monétaire poursuivant une fin écologique** — la même espèce que le dispositif, sinon le même genre.
+::etat:: **Le modèle simule un programme d'achat d'obligations vertes par les banques centrales**, à hauteur de 20 % de l'encours à partir de 2020 [S2]. **C'est un instrument monétaire poursuivant une fin écologique** — **UN INSTRUMENT VOISIN DU DISPOSITIF, NON DE LA MÊME ESPÈCE** ; la formule « même espèce », employée d'abord par ce chapitre, est corrigée le 2026-09-08 sur arbitrage de l'auteur. **Les différences sont de construction et non de degré : ce modèle ACHÈTE des titres sur un marché secondaire et agit par le RENDEMENT OBLIGATAIRE ; le dispositif ALLOUE une unité émise contre une qualification et ne passe par aucun rendement.** **Le résultat de ce modèle est donc un AVERTISSEMENT, non un précédent.**
 
 ::etat:: **Le résultat sur la stabilité financière est favorable.** Le programme *« increases profitability and reduces the burden of debt, the default rate and the bank leverage compared with the baseline »*.
 
 ::etat:: **Le résultat sur la fin écologique ne l'est pas.** *« In our simulations green QE CANNOT BY ITSELF PREVENT A SUBSTANTIAL RISE IN ATMOSPHERIC TEMPERATURE : even with the optimistic value of β₂, global warming is still HIGHER THAN 3.5 °C at the end of the century. »* La conclusion des auteurs est explicite : *« many other types of environmental policies need to be implemented IN CONJUNCTION WITH a green QE programme »*.
 
-::hypothese:: **C'est le test le plus proche que le corpus possède de sa propre thèse, et il conclut à l'INSUFFISANCE de l'instrument monétaire pris seul.** **Le dispositif n'est pas réfuté par ce résultat** — il est d'une autre construction, il alloue au lieu d'acheter, et il ne passe pas par un rendement obligataire. **Mais le corpus ne peut plus soutenir qu'une réorientation monétaire suffise sans produire un modèle qui le montre**, alors que le seul modèle existant de la bonne famille conclut le contraire pour un instrument voisin.
+::hypothese:: **C'est le test le plus proche que le corpus possède de sa propre thèse, et il conclut à l'INSUFFISANCE de l'instrument monétaire pris seul.** **Le dispositif n'est pas réfuté par ce résultat** — il est d'une autre construction, il alloue au lieu d'acheter, et il ne passe pas par un rendement obligataire. **Mais le corpus ne peut plus soutenir qu'une réorientation monétaire suffise sans produire un modèle qui le montre**, alors que **LE SEUL MODÈLE QUE LE CORPUS TIENNE** conclut le contraire pour un instrument voisin. **La formule « le seul modèle existant », employée d'abord par ce chapitre, est corrigée le 2026-09-08 : elle confondait l'état DU CHAMP avec l'état DES ACQUISITIONS DU CORPUS.** **La famille des modèles à cohérence de stocks et de flux compte d'autres membres, et le corpus n'en a ouvert aucun.**
 
 ## 4. Les deux boucles qui atténuent le résultat, et la quatrième occurrence d'une forme connue
+
+::etat:: **RÉSERVE D'ÉDITION VERSÉE LE 2026-09-08 SUR ARBITRAGE DE L'AUTEUR, ET ELLE COMMANDE TOUTE CETTE SECTION.** **Les deux boucles rapportées ci-dessous sont tirées du DOCUMENT DE TRAVAIL de 2016.** **Une version publiée a paru en 2018, et le corpus ne l'a pas ouverte.** **Or ce corpus a établi le même jour, par L19.C09 et L26.C12, qu'une révision peut déplacer un résultat et qu'un document de travail peut différer de l'article paru.** **AUCUNE DES DEUX BOUCLES N'EST DONC ACQUISE TANT QUE LA CONFRONTATION N'EST PAS FAITE**, et cela vaut en particulier pour la seconde, que L11.C30 a rangée parmi les six occurrences fondant une pièce de conception. **ACQUISITION DE RANG 1 : la version publiée de 2018.**
 
 ::etat:: **Le modèle fait apparaître deux canaux par lesquels le bénéfice du programme s'atténue** [S2].
 
@@ -151,7 +168,7 @@ renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L2
 
 ::etat:: **1. Quelle famille de modèles, et pourquoi.** La réponse est provisoirement acquise — cohérence stocks-flux augmentée d'un apparat flux-fonds — **mais elle n'a jamais été confrontée à une famille concurrente par le corpus.**
 
-::etat:: **2. Quels secteurs et quels bilans.** Émetteur, banques centrales nationales, banques commerciales, entreprises, ménages, reste du monde. **L19 a établi que la forme juridique de l'émetteur décide de quatre choses ; le simulateur ne peut pas être écrit avant A37.**
+::etat:: **2. Quels secteurs et quels bilans.** Émetteur, banques centrales nationales, banques commerciales, entreprises, ménages, reste du monde. **L19 a établi que la forme juridique de l'émetteur décide de quatre choses.** **CE CHAPITRE EN AVAIT CONCLU QUE LE SIMULATEUR NE POUVAIT PAS ÊTRE ÉCRIT AVANT A37 : LA CONCLUSION EST RETIRÉE LE 2026-09-08 SUR ARBITRAGE DE L'AUTEUR, ET ELLE INVERSAIT L'ORDRE UTILE.** **Le simulateur peut MODÉLISER PLUSIEURS BRANCHES D'A37 et comparer leurs conséquences — c'est même l'un des rares moyens de CONTRIBUER À TRANCHER A37 plutôt que d'en dépendre.** **Ce qui est exact est plus étroit : le simulateur ne peut pas être écrit POUR UNE SEULE FORME tant qu'A37 n'est pas tranché ; il doit être écrit POUR PLUSIEURS.** **Et cela impose une contrainte de structure, non un délai : la forme juridique de l'émetteur doit être un PARAMÈTRE du modèle, non une hypothèse figée dans son écriture.**
 
 ::etat:: **3. Quelle comptabilité physique en regard.** Énergie, matières, eau, sols, biodiversité, pollutions — **le tableau multidimensionnel exigé par L26.C10**, et non un poste unique.
 
@@ -171,4 +188,4 @@ renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L2
 
 ::etat:: **Il n'a ouvert qu'une source, et elle est de régime `a_verifier`.** Aucune famille concurrente n'est instruite, aucune critique de la modélisation à cohérence de stocks et de flux n'est ouverte, **et le corpus tient donc ici la même situation que celle qui lui a coûté deux rétractations : une école sans son adversaire.**
 
-::hypothese:: **Le livre s'ouvre sur un résultat qui n'arrange pas le dispositif, et c'est la meilleure façon de l'ouvrir.** **Le seul modèle existant de la bonne famille, appliqué à un instrument monétaire de fin écologique, conclut que l'instrument aide la stabilité financière et NE SUFFIT PAS à la fin qu'il poursuit.** **Le Livre 13 ne sera pas l'outil qui démontre le dispositif : il sera l'outil qui dit à quelles conditions le dispositif pourrait être démontré, et sous quelles hypothèses il échoue.**
+::hypothese:: **Le livre s'ouvre sur un résultat qui n'arrange pas le dispositif, et c'est la meilleure façon de l'ouvrir.** **Le seul modèle QUE LE CORPUS TIENNE, appliqué à un instrument monétaire VOISIN, conclut que l'instrument aide la stabilité financière et NE SUFFIT PAS à la fin qu'il poursuit.** **Le Livre 13 ne sera pas l'outil qui démontre le dispositif : il sera l'outil qui dit à quelles conditions le dispositif pourrait être démontré, et sous quelles hypothèses il échoue.**

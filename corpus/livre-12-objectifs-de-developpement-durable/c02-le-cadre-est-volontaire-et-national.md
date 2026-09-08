@@ -46,6 +46,14 @@ verifications_en_attente:
      VERSIONS DIVERGENT SUR LA FORCE DE CETTE CLAUSE** : l'anglais écrit deux fois
      « remaining consistent with », le français écrit « continuant d'observer » au
      paragraphe 21 et « **sans perdre de vue** » au paragraphe 63."
+  - "**CORRECTION DE L'AUTEUR, 2026-09-08 : LA CLAUSE « LES PAYS DÉVELOPPÉS MONTRANT
+     L'EXEMPLE » N'EXEMPTE PAS LES AUTRES PAYS.** Ce chapitre avait conclu que 8.1 et
+     8.4 « ne visent pas les mêmes pays ». **C'ÉTAIT INEXACT : LA CIBLE 8.4 RESTE
+     MONDIALE**, la clause attribuant une responsabilité PREMIÈRE et non une
+     compétence EXCLUSIVE. **Le corps est corrigé.** **Ce qui subsiste : une
+     différenciation de RYTHME ET DE CHARGE à l'intérieur d'un objectif commun — et
+     la tension demeure pour le dispositif, un pays le moins avancé restant tenu de
+     8.4 tout en poursuivant 8.1.**"
 resume: "Ce chapitre ouvre le texte officiel du cadre des objectifs de développement durable, que le chapitre précédent avait déclaré ne pas tenir, et il en tire une vérification et un résultat. La vérification confirme au fond les deux libellés que le chapitre précédent citait d'après une reproduction, à savoir la cible chiffrée de croissance dans les pays les moins avancés et la cible portant sur la dégradation, dont le texte officiel montre qu'elle emploie explicitement le verbe découpler. Mais elle relève aussi que la reproduction lue jusque-là avait omis la clause finale de cette seconde cible, laquelle prévoit que les pays développés montrent la voie, c'est-à-dire une clause de différenciation. Le chapitre établit ensuite que cette différenciation n'est pas incidente mais structurante, la résolution réaffirmant le principe des responsabilités communes mais différenciées et mentionnant les pays développés dans plus de quarante passages. Il établit surtout que le cadre repose sur trois principes de gouvernance qui se renforcent, à savoir l'appropriation nationale des stratégies, la responsabilité première de chaque pays pour son propre développement, et le caractère volontaire et conduit par les pays du dispositif de suivi et d'examen, lequel doit respecter l'espace politique et les priorités de chacun. Il en tire que le principe organisateur du cadre est la décision nationale, tandis que celui du dispositif est une qualification supranationale, et que la revendication d'accélérer ce cadre doit donc dire comment elle s'accommode de ce que le cadre confie aux États. Ce résultat a été resserré le même jour par le chapitre suivant, qui a lu la version française officielle et y a trouvé deux choses que celui-ci n'avait pas vues. La première le renforce, le respect de la marge de manœuvre nationale constituant une cible en propre du dix-septième objectif. La seconde le limite, le texte subordonnant deux fois cette marge au respect des règles et engagements internationaux pertinents, en sorte qu'une qualification supranationale n'entre pas en contradiction de principe avec le cadre mais devrait être elle-même un tel engagement. Il note enfin que cette tension rejoint par un autre chemin la commande que l'arbitrage sur la doctrine sélective avait adressée au livre de la répartition."
 concepts: [polycentricite, plancher_social, bareme]
 renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01, L12.C03]
@@ -67,7 +75,11 @@ renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01, L12.C03]
 
 ::etat:: **La cible 8.4 se termine par une clause que la reproduction lue jusqu'ici ne portait pas** : *« [...] in accordance with the 10-Year Framework of Programmes on Sustainable Consumption and Production, **with DEVELOPED COUNTRIES TAKING THE LEAD**. »*
 
-::hypothese:: **C'est une clause de différenciation, et son absence changeait le sens de la cible.** Lue sans elle, 8.4 s'adresse à tous également. **Lue avec elle, elle assigne l'effort de découplage d'abord aux pays développés** — pendant que 8.1 assigne un objectif de croissance aux pays les moins avancés. **Les deux cibles ne visent donc pas les mêmes pays**, et la tension que L12.C01 avait relevée entre elles est moins une contradiction qu'une **répartition**.
+::hypothese:: **C'est une clause de différenciation, et son absence changeait le sens de la cible.** **Elle assigne aux pays développés un RÔLE MOTEUR dans l'effort de découplage.**
+
+::etat:: **MAIS ELLE N'EXEMPTE PERSONNE, ET CE CHAPITRE AVAIT ÉCRIT LE CONTRAIRE — CORRIGÉ LE 2026-09-08 SUR ARBITRAGE DE L'AUTEUR.** Il avait conclu que « les deux cibles ne visent pas les mêmes pays ». **C'est inexact : LA CIBLE 8.4 RESTE MONDIALE.** **« Montrer l'exemple » attribue une responsabilité PREMIÈRE, non une compétence EXCLUSIVE**, et rien dans le libellé ne dispense les autres pays de l'objectif.
+
+::hypothese:: **Ce qui subsiste de la lecture de ce chapitre est donc plus faible et plus exact : la tension entre 8.1 et 8.4 n'est ni une contradiction ni une répartition entre deux groupes de pays, mais UNE DIFFÉRENCIATION DE RYTHME ET DE CHARGE À L'INTÉRIEUR D'UN OBJECTIF COMMUN.** **Elle reste une tension pour le dispositif** — un pays le moins avancé reste tenu de 8.4 tout en poursuivant 8.1.
 
 ::etat:: **C'est exactement ce que la règle d'édition du corpus sert à éviter**, et c'est la première fois qu'elle produit un résultat. **Une reproduction fidèle sur deux libellés en avait tronqué un troisième**, et la partie manquante portait la différenciation.
 

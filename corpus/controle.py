@@ -163,6 +163,23 @@ def charger_livres():
     return {e["livre"]: e for e in entrees if isinstance(e, dict) and "livre" in e}
 
 
+def charger_arbitrages():
+    """Registre des arbitrages et falsifieurs ouverts.
+
+    LECTURE SEULE, SANS BLOCAGE. Ce registre est une projection : les textes
+    de `protocoles/` font foi, et en cas d'ecart c'est le registre qui est
+    corrige. Le controle le RAPPORTE pour que « zero decision en attente »
+    cesse de donner une image trompeuse de l'etat du corpus.
+    """
+    chemin = RACINE / "arbitrages.yaml"
+    if not chemin.exists():
+        return None
+    try:
+        return yaml.safe_load(chemin.read_text(encoding="utf-8")) or None
+    except Exception:
+        return None
+
+
 def charger_horizons():
     if not HORIZONS.exists():
         return HORIZONS_DEFAUT
@@ -411,6 +428,36 @@ def main():
             print("  (aucune)")
         for fichier, message in entrees:
             print(f"  {fichier}\n      {message}")
+
+    registre = charger_arbitrages()
+    if registre:
+        ouverts = []
+        for cle, libelle in (("arbitrages", "arbitrage"),
+                             ("falsifieurs", "falsifieur"),
+                             ("pieces_de_conception_manquantes", "conception")):
+            for e in registre.get(cle) or []:
+                if e.get("statut") != "arbitre":
+                    ouverts.append((libelle, e))
+        titre = "ARBITRAGES ET FALSIFIEURS OUVERTS — le corpus ne conclut pas"
+        print("")
+        print(f"{titre}  [{len(ouverts)}]")
+        print("-" * largeur)
+        print("  (registre corpus/arbitrages.yaml — les protocoles font foi)")
+        for libelle, e in ouverts:
+            marque_acq = "!" if e.get("acquisition_bloquante") else " "
+            print(f"  {marque_acq} {str(e.get('id')):<16} {str(e.get('statut')):<12} {libelle}")
+            print(f"      {e.get('objet')}")
+            if e.get("acquisition_bloquante"):
+                acq = " ".join(str(e["acquisition_bloquante"]).split())
+                print(f"      ACQUISITION BLOQUANTE : {acq[:140]}")
+        arbitres = sum(1 for cle in ("arbitrages", "falsifieurs",
+                                     "pieces_de_conception_manquantes")
+                       for e in (registre.get(cle) or [])
+                       if e.get("statut") == "arbitre")
+        print("")
+        print(f"  {arbitres} arbitré(s) ; {len(ouverts)} ouvert(s) ou orienté(s).")
+        print("  RAPPEL : « décisions en attente » ci-dessus ne porte QUE sur les")
+        print("  empreintes éditoriales, et ne dit rien de ces points-ci.")
 
     if maj_etat and blocages:
         print("\nÉtat non enregistré : des blocages subsistent.")

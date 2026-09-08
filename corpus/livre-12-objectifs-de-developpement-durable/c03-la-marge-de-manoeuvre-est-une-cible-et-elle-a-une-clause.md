@@ -34,8 +34,12 @@ verifications_en_attente:
      sait pas comment elle est suivie, par quel indicateur, ni ce que les examens
      nationaux en rapportent. **Acquisition : le cadre mondial d'indicateurs pour
      la cible 17.15, et ce qu'il mesure effectivement.**"
-  - "**CENT SOIXANTE-SEPT CIBLES RESTENT ENTIÈRES.** Ce chapitre en lit deux de
-     plus que L12.C02. La grille fixée par L12.C01 n'est toujours pas entamée."
+  - "**CENT SOIXANTE-SIX CIBLES RESTENT ENTIÈRES — COMPTE CORRIGÉ LE 2026-09-08
+     SUR CORRECTION DE L'AUTEUR.** Ce chapitre n'ajoute qu'**UNE** cible, 17.15,
+     aux deux déjà lues par L12.C02 (8.1 et 8.4). **TROIS cibles sont donc lues
+     sur 169, et 166 restent entières.** Le chapitre précédent portait « deux de
+     plus » et « 167 » : **les deux chiffres étaient faux.** La grille fixée par
+     L12.C01 n'est toujours pas entamée."
   - "**TROISIÈME OCCURRENCE DE LA MÊME FORME, ÉTABLIE LE MÊME JOUR PAR L20.C25, ET
      CELLE-CI EST DANS UN TRAITÉ CONTRAIGNANT.** Ce chapitre a établi que le cadre
      onusien protège l'autorité nationale par une cible tout en la subordonnant

@@ -4536,11 +4536,26 @@ l'énoncé.** **Un arbitrage dont aucune branche ne contient la réponse est
 un arbitrage mal posé**, et le corpus l'enregistre à sa charge.
 
 **CE QUE CELA CHANGE POUR LES DEUX CIBLES.** **8.1 n'est pas contestée dans son
-CONTENU pour les pays les moins avancés** — une croissance matérielle
-ciblée y reste nécessaire ; **c'est sa formulation en AGRÉGAT qui est
-écartée.** **Et 8.4 cesse d'être la question du dispositif**, qui ne
-pilote pas sur le couplage entre croissance et dégradation mais sur la position
-d'une activité dans un couloir.
+CONTENU pour les pays les moins avancés** — **une croissance ciblée des
+capacités et services essentiels y reste nécessaire, pouvant exiger localement
+et temporairement l'augmentation de certains stocks et flux matériels** ; **c'est
+sa formulation en AGRÉGAT qui est écartée.** **Et 8.4 CESSE D'ÊTRE SA VARIABLE
+DE PILOTAGE DIRECTE, MAIS RESTE UN CRITÈRE DE VALIDATION EX POST DES EFFETS
+PHYSIQUES AGRÉGÉS** — le dispositif ne pilote pas sur le couplage mais sur la
+position d'une activité dans un couloir, **et il doit néanmoins être jugé sur le
+couplage, un barème pouvant qualifier correctement chaque activité et échouer
+globalement par addition, rebond ou déplacement.**
+
+**CORRECTIONS DE L'AUTEUR DU 2026-09-08, VERSÉES À A42.** **(a)** la formule
+« croissance matérielle ciblée » est remplacée ci-dessus : le débit matériel n'est
+pas la finalité. **(b)** **LA SÉLECTIVITÉ N'EST PAS UNE FAMILLE SANS PRÉCÉDENT** —
+la décroissance contemporaine préconise couramment la réduction des productions
+destructrices et l'expansion des services essentiels, et certaines conceptions de
+la croissance verte décrivent aussi une croissance sectorielle différenciée. **La
+singularité éventuelle du dispositif est son MÉCANISME MONÉTAIRE, son COULOIR
+social et écologique et son AUTORITÉ DE QUALIFICATION — non l'idée de
+sélectionner.** **ACQUISITION : aucun chapitre n'a comparé ce mécanisme à ceux que
+ces courants proposent.**
 
 **LA COMMANDE AU LIVRE 25 SE RESSERRE ET DEVIENT PLUS DURE.** Elle ne porte plus
 sur un substitut à la croissance — la doctrine y répond. **Elle porte sur

@@ -1,0 +1,232 @@
+# Registre des arbitrages et des falsifieurs — état lisible par le contrôle
+#
+# CRÉÉ LE 2026-09-08 SUR DEMANDE DE L'AUTEUR. Motif : le contrôle annonçait
+# « zéro décision en attente » alors que douze arbitrages et falsifieurs sont
+# ouverts. Cette indication était exacte et trompeuse : elle ne porte que sur
+# les empreintes éditoriales, et ne voit pas les décisions écrites en prose.
+#
+# CE FICHIER EST UNE PROJECTION, comme livres.yaml l'est du plan directeur.
+# LES TEXTES FONT FOI : protocoles/passe-2.md pour les arbitrages,
+# protocoles/falsification.md pour les falsifieurs. EN CAS D'ÉCART, LE TEXTE
+# TRANCHE ET CE REGISTRE EST CORRIGÉ, JAMAIS L'INVERSE.
+#
+# statut : ouvert | oriente | arbitre | conditionnel
+#   ouvert       — posé, aucune réponse retenue
+#   oriente      — une direction est arrêtée, des termes restent à trancher
+#   arbitre      — tranché par l'auteur ; la date et la teneur sont dans le texte
+#   conditionnel — ne se déclenche que sous une condition qui n'est pas établie
+#
+# tranche_par : auteur | corpus | non-tranche
+#   RÈGLE : le corpus PROPOSE, l'auteur TRANCHE. Une reformulation écrite par
+#   le corpus reste `non-tranche` tant que l'auteur ne l'a pas reprise.
+
+revision: 1
+etabli_le: 2026-09-08
+
+arbitrages:
+  - id: A30
+    objet: "Qualification juridique de l'unité émise"
+    statut: oriente
+    tranche_par: auteur
+    note: "Un mécanisme lui est versé le 2026-09-08 ; le point bloquant est levé, la qualification ne l'est pas."
+
+  - id: A31
+    objet: "Protection interne des cadres techniques"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Aucune solution documentée."
+
+  - id: A32
+    objet: "Régime de change"
+    statut: arbitre
+    tranche_par: auteur
+    note: "Parité fixe ; le triangle d'incompatibilité est respecté et non contourné."
+
+  - id: A33
+    objet: "Le nombre de chapitres d'un livre n'est pas contraignant"
+    statut: arbitre
+    tranche_par: auteur
+
+  - id: A34
+    objet: "Le barème qui dit vrai exclut"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Posé et jamais traité."
+
+  - id: A35
+    objet: "Qui porte la dette collective"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Commande le reste ; L19 devait la clore et ne l'a pas close."
+
+  - id: A36
+    objet: "La fonte est-elle un prélèvement ou une décote"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Le choix décide de la nature du dispositif."
+
+  - id: A37
+    objet: "Forme juridique de l'institution émettrice"
+    statut: oriente
+    tranche_par: auteur
+    note: >
+      Rang institutionnel donné par l'auteur. Les statuts du FMI et de la BIRD
+      sont ouverts (L20.C24, L20.C25) et répondent sur quatre traits de forme —
+      composition, capital, immunités, retrait. RESTENT OUVERTS : le choix de
+      la forme elle-même, et le texte CONSOLIDÉ en vigueur n'est pas lu.
+    acquisition_bloquante: "Statuts consolidés du FMI et de la BIRD, en vigueur."
+
+  - id: A38
+    objet: "L'épargne retraite est-elle de la thésaurisation"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Les deux réponses coûtent."
+
+  - id: A39
+    objet: "À quelle frontière le corpus calcule un rendement énergétique"
+    statut: oriente
+    tranche_par: auteur
+    note: >
+      Arbitré le 2026-09-08 DANS LA FORME et non dans la valeur : pas de
+      coefficient unique, analyse de sensibilité et conventions publiées.
+      Les quatre frontières sont couvertes ; L26.C12 établit qu'à frontière
+      ÉGALE les estimations vont du simple au double. RESTE OUVERTE : la
+      valeur, et la composition des frontières est interdite en l'état.
+
+  - id: A40
+    objet: "Le barème aux frontières ou la réponse à l'objection de fuite"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Le corpus ne peut pas garder les deux."
+
+  - id: A41
+    objet: "Le mot « entropie » est-il éprouvé ou métaphorique"
+    statut: arbitre
+    tranche_par: auteur
+    note: "Arbitré le 2026-09-08 : cinq conditions de déclaration, application rétrospective."
+
+  - id: A42
+    objet: "Que fait le dispositif de la cible 8.1"
+    statut: arbitre
+    tranche_par: auteur
+    note: >
+      Croissance, décroissance, maintien ou transformation SÉLECTIFS, par
+      activité, territoire et période ; le produit est un résultat possible,
+      non un objectif. Corrigé le 2026-09-08 sur quatre points : 8.4 reste
+      mondiale ; 8.4 reste un critère de validation ex post ; la sélectivité
+      n'est pas une famille sans précédent ; « croissance matérielle ciblée »
+      est remplacé.
+
+falsifieurs:
+  - id: F1
+    objet: "La calibration"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F2
+    objet: "La métrologie"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F3
+    objet: "La connaissance dispersée et l'indicateur pris pour cible"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F4
+    objet: "L'obstacle de droit positif"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F5
+    objet: "L'antériorité"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F6
+    objet: "L'adoption contre le créancier"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Une objection lui est versée le 2026-09-08 par L17.C03."
+  - id: F7
+    objet: "Le pilotage"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "L19.C03 lui ajoute le 2026-09-08 que la règle n'est plus seulement une question de crédibilité."
+  - id: F8
+    objet: "Le désarmement"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F9
+    objet: "Le titre"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Révisée par L18.C08."
+  - id: F10
+    objet: "La superfluité"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "L18.C15 établit qu'une cible internationale visant le même diagnostic a échoué ; le motif de l'échec décide de ce que F10 devient, et il n'est pas instruit."
+  - id: F11
+    objet: "La contrainte physique"
+    statut: conditionnel
+    tranche_par: non-tranche
+    note: >
+      Branche matérielle écartée comme impossibilité (L26.C01). Branche
+      énergétique seule en charge et chiffrable. Ne se déclenche pas sur le
+      rendement du service final — c'est un coût, non une impossibilité —
+      mais perd sa réfutation la plus commode. Les auteurs de L26.C12 posent
+      le falsifieur dans sa forme exacte sans le trancher.
+    acquisition_bloquante: "Série de rendements exergétiques agrégés postérieure à 2010."
+  - id: F12
+    objet: "L'indiscernabilité"
+    statut: ouvert
+    tranche_par: non-tranche
+  - id: F13
+    objet: "L'incommensurabilité — la soutenabilité faible"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: >
+      NE PAS FERMER (auteur, 2026-09-08). L'accusation de dissimulation échoue
+      TROIS fois : l'adversaire déclare l'hypothèse (L18.C11, L18.C14, L18.C16).
+      Solow nomme la condition, la qualifie de conjecture et publie son
+      alternative — en dessous de l'unité, consommation soutenable NULLE.
+      Une mesure adjacente existe (L18.C17) : 0,64 à court terme, intervalle
+      entièrement sous le seuil. UNE REFORMULATION EST PROPOSÉE PAR LE CORPUS
+      ET N'EST PAS ARBITRÉE.
+    acquisition_bloquante: >
+      Estimation de l'élasticité de substitution portant sur LES RESSOURCES en
+      général, spécification comparable à Solow, postérieure à 2006. Et le
+      versant théorique du camp adverse : Hartwick, Pearce & Atkinson, Neumayer.
+  - id: F14
+    objet: "L'additivité structurelle"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: "Une EXTENSION de son objet est proposée le 2026-09-08 par L17.C04. NON ARBITRÉE."
+
+pieces_de_conception_manquantes:
+  - id: RECALIBRAGE
+    objet: "La règle de recalibrage du dispositif"
+    statut: oriente
+    tranche_par: non-tranche
+    note: >
+      Structurée par L11.C30 : il en faut TROIS et non une, selon le type de
+      boucle — érosion d'assiette, dérive de convention, réponse à l'instrument.
+      Le TYPE C ne se calibre pas à l'avance et appelle une mesure ex post.
+      CINQUIÈME POINT NON TRANCHÉ, ET IL EST DE DROIT : le sort des engagements
+      pris sous l'ancien calibrage. Quatre branches exclusives, dont celle que
+      le FMI pratique — rien ne change sans le consentement de l'intéressé.
+
+  - id: CRITERE-L25
+    objet: "Qui sélectionne, selon quel critère, par quelle autorité"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: >
+      Neuf voies indépendantes y mènent (L25.C07), et cinq mécanismes désignent
+      le même perdant : celui dont la pratique n'entre pas dans la grille.
+      Le corridor est chiffrable en agrégat et VIDE EN COMPOSITION.
+
+  - id: MODELE-ADVERSAIRE
+    objet: "Qui gagne quoi à falsifier une qualification régénérative"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: >
+      Réclamé par L15.C01. Quatre architectures documentées (L15.C01 à C04) et
+      AUCUNE n'attaque la grandeur écologique elle-même. Reste sans source :
+      la capture du régulateur, seule limite de L1.C18 § 5 que le corpus n'a
+      documentée d'aucune manière.

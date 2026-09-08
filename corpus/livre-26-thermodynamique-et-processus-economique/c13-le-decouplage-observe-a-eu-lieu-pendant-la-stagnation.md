@@ -1,6 +1,6 @@
 ---
 chapitre: L26.C13
-titre: "Le découplage observé a eu lieu pendant la stagnation"
+titre: "Le découplage ABSOLU a eu lieu pendant la stagnation"
 livre: 26
 langue: fr
 licence: CC-BY-SA-4.0
@@ -38,12 +38,20 @@ verifications_en_attente:
      2018.** Ni les autres gaz, ni les autres régions, ni la période postérieure.
      **Et le corpus n'a pas vérifié si ce document de travail a paru depuis en
      revue**, ni si ses chiffres y sont les mêmes."
-resume: "Ce chapitre ouvre une étude que l'auteur détenait dans sa bibliothèque sous un nom de fichier numérique et que le corpus n'avait jamais ouverte, portant sur le lien entre produit intérieur brut et émissions territoriales de dioxyde de carbone dans l'Union européenne entre mille neuf cent quatre-vingt-dix et deux mille dix-huit, prolongé par simulation jusqu'en deux mille trente. Il déclare d'emblée que l'un des auteurs est un tenant notoire de la décroissance et que la source appartient donc au camp du corpus, ce qui impose plus de sévérité et non moins. La série se divise en trois phases dont la comparaison porte le résultat. Pendant la première, de mille neuf cent quatre-vingt-dix à deux mille six, la croissance fut forte et la baisse des émissions presque nulle. Pendant la deuxième, de deux mille sept à deux mille quatorze, l'économie étant quasi stagnante, les émissions baissèrent nettement. Pendant la troisième, à partir de deux mille quinze, la croissance revint à son rythme antérieur et les émissions cessèrent de baisser. La décomposition attribue cette configuration à quatre facteurs, le produit par habitant et la population poussant les émissions à la hausse, l'intensité énergétique et le contenu carbone les tirant à la baisse, les deux groupes se compensant presque exactement pendant la première phase. Les simulations établissent que seuls des scénarios de contraction du produit intérieur brut comprise entre un et deux pour cent par an atteignent la cible européenne de réduction, et qu'atteindre cette cible en croissance supposerait d'accélérer la décarbonation d'un facteur compris entre un virgule neuf et sept virgule cinq. Le chapitre soumet ensuite cette source à trois objections que le corpus lui doit, portant sur la frontière territoriale des émissions, sur le statut comptable et non causal de la méthode de décomposition, et sur le fait qu'une extrapolation de taux historiques exclut par construction la rupture qu'un dispositif se propose de produire."
+  - "**PRÉCISION DE L'AUTEUR, 2026-09-08 : LE CHAPITRE CONFONDAIT DEUX DÉCOUPLAGES.**
+     **Un produit en hausse avec des émissions stables EST UN DÉCOUPLAGE RELATIF, et
+     il se poursuit.** **Ce qui disparaît au retour de la croissance est le
+     DÉCOUPLAGE ABSOLU**, c'est-à-dire la baisse des émissions en niveau. **Titre et
+     corps corrigés.** **La distinction joue dans les deux sens : un découplage
+     relatif ne suffit à aucun plafond puisque les émissions continuent de
+     s'accumuler ; mais la troisième phase ne montre pas un RECOUPLAGE, seulement la
+     disparition du découplage absolu.**"
+resume: "Ce chapitre ouvre une étude que l'auteur détenait dans sa bibliothèque sous un nom de fichier numérique et que le corpus n'avait jamais ouverte, portant sur le lien entre produit intérieur brut et émissions territoriales de dioxyde de carbone dans l'Union européenne entre mille neuf cent quatre-vingt-dix et deux mille dix-huit, prolongé par simulation jusqu'en deux mille trente. Il déclare d'emblée que l'un des auteurs est un tenant notoire de la décroissance et que la source appartient donc au camp du corpus, ce qui impose plus de sévérité et non moins. La série se divise en trois phases dont la comparaison porte le résultat. Pendant la première, de mille neuf cent quatre-vingt-dix à deux mille six, la croissance fut forte et la baisse des émissions presque nulle. Pendant la deuxième, de deux mille sept à deux mille quatorze, l'économie étant quasi stagnante, les émissions baissèrent nettement. Pendant la troisième, à partir de deux mille quinze, la croissance revint à son rythme antérieur et les émissions cessèrent de baisser en niveau, ce qui met fin au découplage absolu sans mettre fin au découplage relatif. La décomposition attribue cette configuration à quatre facteurs, le produit par habitant et la population poussant les émissions à la hausse, l'intensité énergétique et le contenu carbone les tirant à la baisse, les deux groupes se compensant presque exactement pendant la première phase. Les simulations établissent que seuls des scénarios de contraction du produit intérieur brut comprise entre un et deux pour cent par an atteignent la cible européenne de réduction, et qu'atteindre cette cible en croissance supposerait d'accélérer la décarbonation d'un facteur compris entre un virgule neuf et sept virgule cinq. Le chapitre soumet ensuite cette source à trois objections que le corpus lui doit, portant sur la frontière territoriale des émissions, sur le statut comptable et non causal de la méthode de décomposition, et sur le fait qu'une extrapolation de taux historiques exclut par construction la rupture qu'un dispositif se propose de produire."
 concepts: [decouplage, externalisation, sobriete, limites_planetaires, fausse_richesse]
 renvois: [L11.C13, L12.C01, L12.C02, L17.C01, L25.C01, L26.C04, L26.C09, L26.C10, L26.C11, L26.C12]
 ---
 
-# Le découplage observé a eu lieu pendant la stagnation
+# Le découplage ABSOLU a eu lieu pendant la stagnation
 
 ::etat:: **Ce chapitre ouvre une source que l'auteur détenait et que le corpus n'avait jamais lue** [S1]. Elle figurait dans sa bibliothèque **sous un nom de fichier purement numérique**, et n'a été identifiée qu'en ouvrant les quatre fichiers opaques de la collection. **Le corpus enregistre l'incident : une bibliothèque de plus de mille pièces contient ce qu'aucun index ne signale.**
 
@@ -59,7 +67,11 @@ renvois: [L11.C13, L12.C01, L12.C02, L17.C01, L25.C01, L26.C04, L26.C09, L26.C10
 
 ::etat:: **Troisième phase, à partir de 2015** : *« the rates of economic growth **went back up to pre-2007 levels** and so did emissions, which **stabilized at +0.2% per year** on average »*.
 
-::hypothese:: **La troisième phase est le résultat, et non la deuxième.** **Une baisse pendant une stagnation peut s'expliquer par la stagnation. Ce qui est décisif est ce qui s'est passé QUAND LA CROISSANCE EST REVENUE : la baisse a cessé.** **Le découplage observé n'a pas survécu au retour de la croissance** — et c'est une observation, non une théorie.
+::hypothese:: **La troisième phase est le résultat, et non la deuxième.** **Une baisse pendant une stagnation peut s'expliquer par la stagnation. Ce qui est décisif est ce qui s'est passé QUAND LA CROISSANCE EST REVENUE : la baisse a cessé.**
+
+::etat:: **ET IL FAUT DIRE DE QUEL DÉCOUPLAGE IL S'AGIT — PRÉCISION APPORTÉE LE 2026-09-08 SUR CORRECTION DE L'AUTEUR.** **Un produit en hausse avec des émissions stables EST UN DÉCOUPLAGE RELATIF, et il se poursuit.** **CE QUI DISPARAÎT AU RETOUR DE LA CROISSANCE EST LE DÉCOUPLAGE ABSOLU** — la baisse des émissions en niveau. **Le chapitre ne portait pas cette distinction et il la porte désormais partout : c'est le découplage ABSOLU qui n'a pas survécu.**
+
+::hypothese:: **La distinction n'est pas de vocabulaire, et elle joue contre la lecture pessimiste comme contre l'autre.** **Contre l'optimiste : un découplage relatif ne suffit à aucun plafond, puisque les émissions continuent de s'accumuler.** **Contre le pessimiste : la troisième phase ne montre pas un RECOUPLAGE, elle montre la disparition du découplage ABSOLU** — l'intensité continuait de s'améliorer, insuffisamment.
 
 ::etat:: **Et les auteurs avertissent contre la moyenne** : le taux moyen sur toute la période *« is deceiving because it covers **three wildly different speeds** »*. **Le corpus retient l'avertissement : un taux moyen de découplage sur trente ans ne dit rien de la capacité à découpler.**
 

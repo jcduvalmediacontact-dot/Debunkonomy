@@ -74,6 +74,16 @@ verifications_en_attente:
      révisé TROP RAREMENT dérive.** **Le corpus ne peut pas fixer la cadence, mais
      il sait désormais qu'elle est bornée par en bas** — et c'est le premier
      élément chiffré dont dispose cette pièce de conception."
+  - "**UNE DES SIX OCCURRENCES EST FRAGILISÉE LE 2026-09-08 SUR ARBITRAGE DE
+     L'AUTEUR.** **L'occurrence n° 4 — l'incitation à investir qui décroît avec les
+     dommages — est tirée du DOCUMENT DE TRAVAIL de 2016 dont L13.C01 s'appuie.**
+     **Une version publiée a paru en 2018 et n'est pas ouverte.** **Tant que la
+     confrontation n'est pas faite, cette occurrence n'est PAS ACQUISE**, et la
+     typologie repose sur cinq occurrences fermes et une réservée. **CE QUE CELA NE
+     CHANGE PAS : le TYPE C garde son autre occurrence** — le déplacement des
+     motivations, établi par L18.C15 sur une source intergouvernementale — **donc
+     ni la typologie ni la conclusion sur l'impossibilité de calibrer le type C ne
+     tombent.** **ACQUISITION DE RANG 1 : la version publiée de 2018.**"
 resume: "Ce chapitre exécute la première moitié d'une pièce de conception que le corpus avait déclarée manquante, à savoir la règle de recalibrage du dispositif. Il recense d'abord les six occurrences aujourd'hui tenues d'une même forme, où le dispositif agit sur une grandeur dont il dépend. La base qui garantit la dette est l'encours, que le succès érode. L'assiette du reflux diminue à mesure que les transactions dommageables disparaissent. Un barème calibré sur la conversion électrique devient faux à mesure que le réseau se décarbone. L'incitation à investir diminue quand les dommages diminuent. Le rendement exergétique agrégé d'un pays se dilue à mesure que ce pays s'enrichit, parce que la composition des usages se déplace vers des usages moins efficaces. Et une incitation monétaire déplace les motivations qui soutenaient l'activité qu'elle récompense, dans un sens que la littérature ne sait pas prédire. Le chapitre établit ensuite que ces six occurrences ne sont pas de même nature et qu'une règle unique ne peut pas les couvrir. Il distingue trois types, selon que la boucle érode l'assiette de l'instrument, fait dériver une convention de mesure, ou modifie le comportement de ceux que l'instrument vise. Il montre que les trois diffèrent par leur observabilité, par le fait que leur sens soit connu ou non, et par le remède qu'ils appellent, le troisième type étant le seul dont aucune règle de calibrage ne peut venir à bout puisqu'il n'est ni observable à l'avance ni de sens déterminé. Il énumère enfin les cinq éléments que chaque règle devra contenir et signale que le cinquième, le sort des engagements pris sous l'ancien calibrage, est une question de droits que le corpus ne doit pas trancher seul."
 concepts: [bareme, qualification_regenerative, regle_contre_discretion, robustesse, additionnalite]
 renvois: [L11.C13, L13.C01, L18.C12, L18.C15, L19.C05, L26.C04, L26.C08, L26.C11, L26.C12, L20.C24, L15.C01, L18.C17]
