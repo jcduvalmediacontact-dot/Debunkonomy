@@ -46,9 +46,19 @@ verifications_en_attente:
      les besoins essentiels ne sont pas couverts, il perpétue ce qu'il trouve.
      **CE N'EST PAS UNE OBJECTION DU CORPUS : C'EST L'AUTEUR DE LA POSITION ADVERSE
      QUI L'ÉCRIT, EN LA NOMMANT UNE DIFFICULTÉ IMPORTANTE DE SON PROPRE CRITÈRE.**"
+  - "**NEUVIÈME VOIE, ET ELLE VIENT D'UNE SOURCE DU CAMP DU CORPUS — ÉTABLIE LE
+     2026-09-08 PAR L26.C13.** Une décomposition du découplage européen établit que
+     la cible de réduction n'est atteinte, aux taux de décarbonation observés, que
+     par une **contraction du produit intérieur brut comprise entre −1 % et −2 %
+     par an**. **C'est le premier élément CHIFFRÉ dont le corpus dispose sur
+     l'ordre de grandeur du corridor.** **MAIS IL EST VIDE EN COMPOSITION, ET
+     C'EST LÀ QUE CE LIVRE EST CONVOQUÉ :** une contraction agrégée de 1 % obtenue
+     en supprimant l'essentiel n'est pas la même chose qu'une contraction de 1 %
+     obtenue en supprimant le superflu, **et la méthode ne les distingue pas.**
+     **CE QUI MANQUE N'EST DONC PAS LE TAUX, C'EST LE CRITÈRE.**"
 resume: "Ce chapitre n'ouvre aucune source et assemble sept constats versés le même jour à la commande de ce livre par des chapitres qui ne se cherchaient pas. Il établit que ces sept voies indépendantes aboutissent au même endroit. Le premier constat est que le critère effectivement retenu par les dispositifs existants les plus proches n'est pas écologique mais économique, le niveau des paiements pour services écosystémiques étant fixé politiquement et principalement d'après le coût d'opportunité, c'est-à-dire le prix de la renonciation du détenteur. Le deuxième est que la justice n'est considérée que dans une valorisation sur vingt-cinq. Le troisième est que la capacité de mesure manque le plus là où les besoins sont le moins couverts. Le quatrième est que les dispositifs conçus à l'échelle internationale et non adaptés au contexte local excluent les pratiques locales et accroissent les inégalités. Le cinquième est que le coût de la preuve exclut par la taille. Le sixième est que les usages qui dégradent le rendement énergétique d'un pays sont ceux qui accompagnent la sortie de la pauvreté. Le septième est que dans les trois textes internationaux ouverts, la supranationalité n'est jamais une autonomie mais une compétence exercée sous condition de consentement national. Le chapitre en tire que le perdant est le même dans cinq de ces sept constats, à savoir celui dont la pratique n'entre pas dans la grille, et que la commande adressée à ce livre ne porte donc pas seulement sur un critère à choisir mais sur une asymétrie à corriger. Il expose enfin la réponse la plus sérieuse que le dispositif puisse opposer, à savoir qu'un barème publié et uniforme diffère d'un critère négocié au cas par cas, et déclare que le corpus n'a rien contre cette réponse et qu'aucun chapitre ne l'a éprouvée."
 concepts: [plancher_social, essentiel_insolvable, bareme, communs, polycentricite, dette_ecologique]
-renvois: [L11.C13, L11.C30, L12.C02, L12.C03, L18.C12, L18.C13, L18.C15, L20.C24, L20.C25, L25.C01, L26.C11, L18.C16]
+renvois: [L11.C13, L11.C30, L12.C02, L12.C03, L18.C12, L18.C13, L18.C15, L20.C24, L20.C25, L25.C01, L26.C11, L18.C16, L26.C13]
 ---
 
 # Le critère effectif n'est pas écologique

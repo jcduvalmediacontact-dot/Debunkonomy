@@ -68,9 +68,20 @@ verifications_en_attente:
      **LE POSSIBLE TECHNIQUE N'EST PAS L'EFFECTIF ÉCONOMIQUE**, dit d'un côté par
      la comptabilité exergétique et de l'autre par l'économétrie de la production.
      **Avec L26.C09 sur le rebond, cela fait TROIS VOIES INDÉPENDANTES.**"
+  - "**UNE RÉSERVE DE MÉTHODE EST VERSÉE LE 2026-09-08 PAR L26.C13, ET ELLE VISE LA
+     DÉCOMPOSITION QUE CE CHAPITRE EMPLOIE.** **La décomposition LMDI est une
+     IDENTITÉ COMPTABLE, non un modèle causal** : elle attribue une variation à des
+     facteurs par construction algébrique, **elle n'établit pas ce qui a causé
+     quoi**. **Ce chapitre et L26.C12 doivent donc rapporter des ATTRIBUTIONS et
+     non des causalités** — la dilution d'efficacité est un terme de décomposition
+     dont le signe est mesuré, non un mécanisme dont l'action serait établie.
+     **ET UNE CONVERGENCE EST À PORTER À L'ACTIF : la même méthode, appliquée aux
+     émissions européennes, trouve la même structure** — un gain technique réel
+     annulé par un effet d'échelle, les facteurs à la hausse et à la baisse se
+     compensant presque exactement sur 1990-2006."
 resume: "Ce chapitre ouvre la quatrième frontière que le chapitre huit de ce livre déclarait manquante, celle du service final, mesurée en travail utile par une comptabilité en exergie. Il en tire d'abord un ordre de grandeur, à savoir que le rendement exergétique agrégé d'une économie entière se situe autour de onze pour cent aux États-Unis, quinze au Royaume-Uni et douze en Chine, ce qui signifie que près de neuf dixièmes de l'exergie primaire sont dissipés avant que le service ne soit rendu. Il retient ensuite un résultat plus important que cet ordre de grandeur, à savoir que le rendement agrégé d'un pays peut stagner ou baisser alors même que chaque appareil pris séparément s'améliore, parce que la composition des usages se déplace vers des usages moins efficaces à mesure que le pays s'enrichit. Les auteurs nomment ce phénomène dilution d'efficacité et le mesurent par décomposition, trouvant pour les deux économies matures un facteur structurel inférieur à un. Le chapitre montre que ce mécanisme est indépendant de l'effet rebond économique établi ailleurs dans ce livre, puisqu'il ne suppose aucun changement de comportement en réponse à une baisse de prix, et qu'il s'y ajoute au lieu de s'y substituer. Il en tire trois conséquences pour le dispositif. La première est qu'un barème adossé à un rendement énergétique doit dire à quelle frontière il se place, l'écart entre frontières étant d'un ordre de grandeur. La deuxième est que le développement lui-même dilue l'efficacité, ce qui contrarie toute doctrine supposant que les gains s'accumulent. La troisième est que les auteurs déclarent eux-mêmes que les politiques d'efficacité au niveau des appareils peuvent être mal placées si le rendement national stagne. Il déclare enfin que la composition des quatre frontières n'est pas faite, les rendements ne s'enchaînant pas par simple produit. Les valeurs américaines et britanniques y étaient d'abord citées de seconde main ; l'article de revue qui les porte a été ouvert le même jour par le chapitre suivant, qui les précise et les renforce, et seules les valeurs chinoises restent portées par cette communication."
 concepts: [bareme, qualification_regenerative, decouplage]
-renvois: [L11.C13, L17.C01, L25.C01, L26.C01, L26.C03, L26.C04, L26.C08, L26.C09, L26.C10, L26.C12, L18.C17]
+renvois: [L11.C13, L17.C01, L25.C01, L26.C01, L26.C03, L26.C04, L26.C08, L26.C09, L26.C10, L26.C12, L18.C17, L26.C13]
 ---
 
 # L'efficacité agrégée baisse pendant que chaque appareil s'améliore
