@@ -3252,3 +3252,63 @@ qu'aucun chapitre n'ait ouvert.**
 au sens fixé par L26.C08 : éprouvable dès que frontière, convention et
 plage seront publiées sur un cas, **et elles ne le sont sur aucun.** **La
 révision retire un appui qui n'en était pas un ; elle n'en ajoute pas.**
+
+
+## F13 — RENCONTRE SON PREMIER ADVERSAIRE LE 2026-09-08, PAR L18.C11. REFORMULATION PROPOSÉE, NON ARBITRÉE.
+
+**C'EST LA PREMIÈRE FOIS QU'UN FALSIFIEUR DU CORPUS EST CONFRONTÉ À UN TEXTE
+DU CAMP QU'IL VISE.** L17.C05 avait établi que F13 était **une adhésion et
+non une découverte** ; l'auteur avait nommé le corpus adverse à constituer ;
+**la première pièce en est ouverte.**
+
+**CE QUE L'ADVERSAIRE DIT, ET IL LE DIT DE LUI-MÊME.** Sa comptabilité
+consacre une section à la substituabilité. « **Comprehensive wealth
+accounting combines all forms of wealth into a single measure that assumes A VERY
+HIGH DEGREE OF SUBSTITUTABILITY among different forms of capital.** » Puis :
+« **Such a measure DOES NOT CONVEY the very real limits to substitutability,
+impending thresholds for natural capital, or possible irreversibilities and
+catastrophic events.** » Puis : « **Given the poor state of many of the
+world's ecosystems, these are serious concerns.** »
+
+**ET IL CONCÈDE L'ASYMÉTRIE QUE LA SOUTENABILITÉ FORTE INVOQUE.** Le capital
+naturel « **differs in key ways** » ; son potentiel de substitution est
+« **often limited** » ; ses pertes peuvent être irréversibles ;
+« **the danger of irreversible change is FAR LESS** » pour le capital produit,
+qui « **can usually be replaced** ».
+
+**CONSÉQUENCE POUR F13, ET ELLE EST DOUBLE.**
+
+**F13 N'EST PAS RÉFUTÉ** : la source ne montre pas que des dimensions
+hétérogènes soient commensurables. Elle montre qu'on peut construire un
+agrégat **en déclarant ce qu'il suppose**.
+
+**F13 N'EST PAS CONFIRMÉ** : il tient l'agrégation pour illégitime, **et la
+source la pratique légitimement en la bornant.**
+
+**LA FORMULATION ACTUELLE EST DONC TROP FORTE.** **Reformulation proposée, et
+elle n'est pas arbitrée** : *un agrégat monétaire de dimensions
+hétérogènes ne peut porter aucune conclusion à lui seul, parce qu'il ne
+restitue ni les seuils, ni les irréversibilités, ni les limites à la
+substitution — et c'est l'émetteur de l'agrégat qui l'écrit.* **Ce que le
+corpus ne pourrait plus soutenir sous cette forme : que l'agrégation soit en
+elle-même une faute.**
+
+**LE RÉSULTAT LE PLUS INATTENDU, ET IL VAUT MIEUX QU'UNE VICTOIRE.** La source
+adverse invoque la commission de 2009 pour recommander la richesse globale comme
+« **one useful indicator** » — **un parmi d'autres, jamais seul.** **C'est,
+mot pour mot, la forme de la règle des trois publications que le corpus a
+arrêtée le même jour par un tout autre chemin.** **Les deux camps
+arrivent à la même règle d'EMPLOI en partant de positions opposées sur
+la COMMENSURABILITÉ.**
+
+**CE QUI RESTE DÛ.** **Le versant théorique du camp adverse n'est pas ouvert**
+— Solow, Hartwick, Pearce et Atkinson, Neumayer. La règle de Hartwick n'est
+lue ici que **sous sa forme appliquée**. **Et une tentative d'acquisition du
+texte de Neumayer portant sur la norme écosystémique a échoué le
+2026-09-08 contre un contrôle automatisé, non franchi.**
+
+**UNE LEÇON SUR LA CONDUITE DU CORPUS, ET ELLE EST DÉSAGRÉABLE.** **Le
+corpus avait construit F13 en supposant un présupposé caché. Il ne
+l'était pas.** **C'est ce qui arrive quand on tient une position depuis un seul
+camp** — et le corpus avait déclaré ce défaut quatre fois avant de le
+vérifier ici.

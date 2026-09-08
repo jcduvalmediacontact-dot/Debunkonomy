@@ -53,9 +53,23 @@ verifications_en_attente:
      valeur d'existence est hors de son champ. **Le corpus reçoit donc l'appareil
      de stocks qu'il demandait, ET il reçoit avec lui l'agrégation monétaire que
      F13 refuse.** **C'est une tension et non une réponse.**"
+  - "**LE CONSTAT DE CE CHAPITRE EST VÉRIFIÉ ET DÉPASSÉ LE 2026-09-08 PAR
+     L18.C11.** Ce chapitre avait établi que **F13 est une adhésion à une école et
+     non une découverte du corpus**, celui-ci n'ayant lu aucun des deux camps.
+     **Le premier texte du camp adverse est désormais ouvert** — une comptabilité
+     de la richesse en vigueur, publiée pour cent quarante-six pays. **ET ELLE
+     S'EST RÉVÉLÉE PLUS HONNÊTE QUE LE CORPUS NE L'AVAIT SUPPOSÉ.** Elle consacre
+     une section à la substituabilité, écrit que son agrégat « **assumes A VERY
+     HIGH DEGREE OF SUBSTITUTABILITY** » et qu'il « **DOES NOT CONVEY the very
+     real limits to substitutability, impending thresholds for natural capital, or
+     possible irreversibilities** ». **Le présupposé que le corpus croyait mettre
+     au jour était déclaré par son auteur.** **Et la même source invoque la
+     commission de 2009 que CE chapitre avait ouverte** pour recommander la
+     richesse globale comme « **ONE useful indicator** » — un parmi d'autres,
+     jamais seul."
 resume: "Ce chapitre répond à la troisième question de la grille, la seule que les quatre précédents avaient laissée entière, en ouvrant le rapport de commission qui a fondé le mouvement des indicateurs au-delà du produit intérieur brut. Il établit d'abord que la question était mal posée, puisque la Commission ne recommande aucun indicateur unique de remplacement mais un tableau de bord, et qu'elle exige que l'évaluation de la soutenabilité soit tenue séparée de la mesure du bien-être présent. L'image qu'elle emploie pour justifier cette séparation est la même que celle que le corpus a construite par un autre chemin trois jours plus tôt, puisqu'un compteur qui additionnerait en un seul nombre la vitesse d'un véhicule et le carburant restant ne serait d'aucune aide au conducteur. Le chapitre relève ensuite que la distinction entre soutenabilité faible et soutenabilité forte, que le rapport expose, donne un nom à la position que le corpus tient depuis son falsifieur treize sans avoir jamais su qu'elle en avait un. Il établit que la Commission limite explicitement l'index monétaire aux aspects économiques et renvoie l'environnement à des indicateurs physiques séparés, faute de prix de marché pertinents, ce qui atteint pour la troisième fois en trois jours l'hypothèse d'un prix unique de l'impact. Il termine par le prix de cette position, que la Commission énonce elle-même, à savoir la perte du chiffre unique qui a fait le succès du produit intérieur brut, alors que le dispositif doit produire un montant."
 concepts: [indicateur_de_progres, bareme, limites_planetaires, sobriete, robustesse]
-renvois: [L11.C13, L11.C24, L17.C01, L18.C01, L18.C04, L24.C01, L24.C05, L25.C05, L26.C02, L18.C10]
+renvois: [L11.C13, L11.C24, L17.C01, L18.C01, L18.C04, L24.C01, L24.C05, L25.C05, L26.C02, L18.C10, L18.C11]
 ---
 
 # Le tableau de bord et le chiffre unique — ce que le corpus perd en refusant d'agréger

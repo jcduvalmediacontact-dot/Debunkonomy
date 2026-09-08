@@ -1844,3 +1844,31 @@ et Atkinson, Neumayer restent à obtenir, et les trois derniers sont
 édités commercialement. **Le corpus peut donc opposer à F13 UNE PRATIQUE,
 PAS ENCORE UNE THÉORIE** — ce qui est plus que rien et moins qu'une
 controverse.
+
+
+## Ouvert le 2026-09-08 (fin) — LE PREMIER ADVERSAIRE D'UN FALSIFIEUR
+
+**Banque mondiale, *The Changing Wealth of Nations*, 2011** — acquis le jour
+même, **ouvert et lu dans le texte**. `citation_seule`. Ouvert pour
+**L18.C11**.
+
+**C'EST LA PREMIÈRE FOIS QU'UN FALSIFIEUR DU CORPUS EST CONFRONTÉ À UN
+TEXTE DU CAMP QU'IL VISE.** **Et l'adversaire s'est révélé plus honnête
+que le corpus ne l'avait supposé** : il déclare son hypothèse de
+substituabilité, énonce ce que son agrégat ne rend pas, concède
+l'asymétrie du capital naturel, et recommande de tenir sa mesure comme **un
+indicateur parmi d'autres**.
+
+**CE QUI RESTE À OUVRIR SUR F13, ET LE VERSANT MANQUANT EST THÉORIQUE.**
+Solow, Hartwick, Pearce et Atkinson, Neumayer. **La règle de Hartwick n'est
+lue ici que sous sa forme APPLIQUÉE**, dans un contrefactuel calculé pour des
+pays riches en ressources. **Les trois derniers auteurs sont édités
+commercialement, et la tentative d'acquisition du texte de Neumayer sur la norme
+écosystémique a échoué contre un contrôle automatisé non
+franchi** — c'est la pièce à demander à l'auteur en priorité.
+
+**ET LES ÉDITIONS POSTÉRIEURES DE CETTE COMPTABILITÉ RESTENT À LIRE.**
+Le rapport technique de 2024 est acquis et non ouvert ; les éditions
+intermédiaires ne sont pas tenues. **Les énoncés de méthode cités
+par L18.C11 doivent être reverifiés contre l'édition courante avant tout
+usage citable.**
