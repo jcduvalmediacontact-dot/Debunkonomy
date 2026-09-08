@@ -14,31 +14,37 @@ sources_primaires:
   - ref: S1
     nature: donnees
     url: "https://reproducibility.worldbank.org/index.php/catalog/194"
-    reference: "**Banque mondiale, *The Changing Wealth of Nations 2024 — Revisiting the Measurement of Comprehensive Wealth*, 208 pages, © 2024 Banque internationale pour la reconstruction et le développement.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** : liminaires, mentions de droits, et RÉSUMÉ EXÉCUTIF lu intégralement dans ses sections sur le périmètre des actifs, les tendances mondiales et les moteurs de ces tendances ; **les huit chapitres du corps NON LUS.** **C'EST LA CINQUIÈME ÉDITION**, et les données couvrent 1995 à 2020 pour 151 pays. **ACQUISITION FAITE LE 2026-09-08 AU SOIR ET RESTÉE FERMÉE JUSQU'À CETTE NUIT ; L18.C22 l'a inscrite en rang 1 quelques heures plus tôt.** **DROITS : le texte porte que l'œuvre peut être reproduite, en tout ou partie, À DES FINS NON COMMERCIALES, avec attribution complète.** **RÉGIME RETENU : `citation_seule`** — la clause non commerciale est incompatible avec la licence de partage à l'identique du corpus."
+    reference: "**Banque mondiale, *The Changing Wealth of Nations 2024 — Revisiting the Measurement of Comprehensive Wealth*, 208 pages, © 2024 Banque internationale pour la reconstruction et le développement.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** : liminaires, mentions de droits, et le RÉSUMÉ EXÉCUTIF lu intégralement dans ses sections sur le périmètre des actifs, les tendances mondiales et les moteurs de ces tendances ; **les passages du CHAPITRE 2 sur l'indice de volume et du CHAPITRE 3 sur l'interprétation des variations SONT ÉGALEMENT LUS** ; le reste des huit chapitres du corps NON LU. **C'EST LA CINQUIÈME ÉDITION**, et les données couvrent 1995 à 2020 pour 151 pays. **ACQUISITION FAITE LE 2026-09-08 AU SOIR ET RESTÉE FERMÉE JUSQU'À CETTE NUIT ; L18.C22 l'a inscrite en rang 1 quelques heures plus tôt.** **DROITS : le texte porte que l'œuvre peut être reproduite, en tout ou partie, À DES FINS NON COMMERCIALES, avec attribution complète.** **RÉGIME RETENU : `citation_seule`** — la clause non commerciale est incompatible avec la licence de partage à l'identique du corpus."
     date_verification: 2026-09-08
   - ref: S2
     nature: theorie
     reference: "**Eric Neumayer, *Weak versus Strong Sustainability*, cinquième révision, chapitre 5**, ouvert et lu le 2026-09-08 par L18.C22. **Rappelé ici pour les seuls chiffres qu'il rapporte de L'ÉDITION PRÉCÉDENTE de la même source**, soit la variation de la richesse par habitant de 1995 à 2018 d'après la Banque mondiale, 2021. **C'est la comparaison entre les deux éditions qui fait l'objet du § 3.**"
     date_verification: 2026-09-08
 verifications_en_attente:
-  - "**LE CORPUS N'A LU QUE LE RÉSUMÉ EXÉCUTIF**, soit une quinzaine de pages sur
-     deux cent huit. **Les huit chapitres du corps portent la méthode, les
-     comptes par actif et les études de cas** ; aucun n'est ouvert. **Aucun
-     chiffre rapporté ici ne peut être opposé à une objection portant sur sa
-     PRODUCTION.** **ACQUISITION DE RANG 1, SUR LE DISQUE : le chapitre 2, « How
-     the World Bank Measures Comprehensive Wealth », et le chapitre 4 sur le
-     capital naturel renouvelable.**"
-  - "**LA COMPARAISON ENTRE LES DEUX ÉDITIONS EST FAITE À TRAVERS UN TIERS, ET
-     C'EST UNE FAIBLESSE À DÉCLARER.** Les chiffres de l'édition de 2021 sont
-     lus dans l'ouvrage qui les rapporte [S2], **non dans l'édition de 2021
-     elle-même, que le corpus ne détient pas.** **Les périodes diffèrent
-     également** — 1995-2018 contre 1995-2020 — **et les agrégats ne sont pas
-     construits de la même façon**, l'édition récente employant un indice de
-     volume enchaîné là où la précédente employait un déflateur de prix.
-     **CE QUE LE CORPUS PEUT DIRE EST QUE LE SIGNE RAPPORTÉ A CHANGÉ ; ce qu'il
-     ne peut pas encore dire est quelle part revient à la méthode et quelle part
-     au monde.** **ACQUISITION : l'édition de 2021, pour une comparaison de
-     première main.**"
+  - "**LE CORPUS A LU LE RÉSUMÉ EXÉCUTIF ET DEUX PASSAGES DU CORPS**, soit une
+     vingtaine de pages sur deux cent huit. **Le chapitre 2 n'est ouvert que sur
+     l'indice de volume, et le chapitre 3 que sur l'interprétation des
+     variations.** **Ne sont pas lus : le reste de la méthode, les comptes par
+     actif, et les études de cas.** **Aucun chiffre rapporté ici ne peut être
+     opposé à une objection portant sur sa PRODUCTION.** **ACQUISITION DE RANG 1,
+     SUR LE DISQUE : le chapitre 4 sur le capital naturel renouvelable, qui porte
+     le résultat le plus lourd de ce chapitre.**"
+  - "**LA COMPARAISON ENTRE LES DEUX ÉDITIONS PASSE PAR UN TIERS POUR LES
+     CHIFFRES, ET PAR LE RAPPORT LUI-MÊME POUR LA MÉTHODE.** Les chiffres de
+     l'édition de 2021 sont lus dans l'ouvrage qui les rapporte [S2] ; **la
+     description de la méthode antérieure est lue DANS LE RAPPORT DE 2024**, qui
+     écrit que les valeurs réelles y étaient obtenues en appliquant un déflateur
+     du produit intérieur brut aux valeurs nominales d'actifs. **Le corpus tient
+     donc de première main que les deux éditions ne mesurent pas la même
+     chose.** **CE QU'IL NE TIENT PAS : la part exacte du renversement
+     imputable à la méthode.** Aucune décomposition n'est publiée dans ce qu'il
+     a lu, et il n'en propose aucune. **ACQUISITION, DÉSORMAIS DE RANG 2 : les
+     séries de l'édition de 2021, pour une comparaison de première main.**"
+  - "**LE RAPPORT NE MET PAS EN GARDE CONTRE LA COMPARAISON DES ÉDITIONS, ET LE
+     CORPUS N'A PAS TROUVÉ CET AVERTISSEMENT DANS CE QU'IL A LU.** Il est
+     possible qu'il figure dans un chapitre non ouvert ou dans la documentation
+     technique du dépôt de reproductibilité. **Le corpus déclare l'ABSENCE
+     CONSTATÉE dans son périmètre de lecture, et non l'absence tout court.**"
   - "**LE RAPPORT DÉCLARE LUI-MÊME QUE SON CAPITAL NATUREL RENOUVELABLE EST
      SOUS-ESTIMÉ**, les limites de données et de concepts bornant la capacité à
      le mesurer et à le valoriser. **Le corpus ne doit donc pas traiter le
@@ -51,7 +57,7 @@ verifications_en_attente:
      complète de ce qui est exclu, ni les critères d'inclusion des services
      écosystémiques retenus.** **Le chapitre 2, non lu, la donne
      vraisemblablement.**"
-resume: "Ce chapitre ouvre le rapport phare de la Banque mondiale sur la richesse des nations, dans son édition de deux mille vingt-quatre, que le corpus détenait depuis la veille sans l'avoir ouvert et que le chapitre précédent avait inscrit en rang un. Il en tire quatre résultats. Le premier tient au périmètre des actifs, qui exclut expressément l'atmosphère, la haute mer et les gisements que l'on ne peut pas extraire économiquement à ce jour, en sorte que la dimension la plus franchie du cadre des limites planétaires ne correspond à aucun actif dans la comptabilité de la richesse des nations. Le deuxième est que le capital naturel renouvelable par habitant a reculé de plus d'un cinquième depuis mille neuf cent quatre-vingt-quinze, le rapport ajoutant que ce recul est vraisemblablement sous-estimé, les stocks de poissons marins perdant plus de quarante-cinq pour cent de leur valeur et les reculs atteignant environ quarante pour cent en Afrique subsaharienne comme au Moyen-Orient et en Afrique du Nord, tandis que le capital naturel non renouvelable recule légèrement, que le capital produit progresse de quarante-sept pour cent et le capital humain de neuf pour cent. Le troisième, et c'est le plus lourd, est que le signe rapporté pour le capital naturel s'est inversé entre deux éditions du même programme, la précédente ayant donné une hausse de vingt-six pour cent sur une période presque identique, l'édition récente ayant remplacé le déflateur de prix par un indice de volume enchaîné, ce que le corpus enregistre comme un cas de dérive de convention de mesure survenu chez celui-là même dont il conteste le paradigme. Le quatrième est que la part du capital naturel dans la richesse mesurée est de huit pour cent, le capital humain en faisant soixante et le capital produit trente-deux. Le chapitre relève enfin que le rapport déclare lui-même la non-décroissance de la richesse par habitant comme une exigence minimale et non suffisante, que vingt-sept pays sur cent cinquante et un reculent ou stagnent, et que les pays à faible revenu restent sous un pour cent de la richesse mondiale depuis mille neuf cent quatre-vingt-quinze."
+resume: "Ce chapitre ouvre le rapport phare de la Banque mondiale sur la richesse des nations, dans son édition de deux mille vingt-quatre, que le corpus détenait depuis la veille sans l'avoir ouvert et que le chapitre précédent avait inscrit en rang un. Il en tire quatre résultats. Le premier tient au périmètre des actifs, qui exclut expressément l'atmosphère, la haute mer et les gisements que l'on ne peut pas extraire économiquement à ce jour, en sorte que la dimension la plus franchie du cadre des limites planétaires ne correspond à aucun actif dans la comptabilité de la richesse des nations. Le deuxième est que le capital naturel renouvelable par habitant a reculé de plus d'un cinquième depuis mille neuf cent quatre-vingt-quinze, le rapport ajoutant que ce recul est vraisemblablement sous-estimé, les stocks de poissons marins perdant plus de quarante-cinq pour cent de leur valeur et les reculs atteignant environ quarante pour cent en Afrique subsaharienne comme au Moyen-Orient et en Afrique du Nord, tandis que le capital naturel non renouvelable recule légèrement, que le capital produit progresse de quarante-sept pour cent et le capital humain de neuf pour cent. Le troisième, et c'est le plus lourd, est que le signe rapporté pour le capital naturel s'est inversé entre deux éditions du même programme, la précédente ayant donné une hausse de vingt-six pour cent sur une période presque identique, l'édition récente ayant remplacé par un indice de volume enchaîné ce qui était auparavant une valeur nominale d'actif déflatée par un indice général de prix, en sorte que les deux éditions ne mesurent pas la même chose et que le renversement s'explique pour l'essentiel par le changement d'objet, ce qui rend le fait plus instructif et non moins, puisque la comptabilité de référence de la soutenabilité faible a présenté pendant un quart de siècle comme une hausse du capital naturel ce qui était pour une part indéterminée une hausse des prix des ressources. Le quatrième est que la part du capital naturel dans la richesse mesurée est de huit pour cent, le capital humain en faisant soixante et le capital produit trente-deux. Le chapitre relève enfin que le rapport déclare lui-même la non-décroissance de la richesse par habitant comme une exigence minimale et non suffisante, que vingt-sept pays sur cent cinquante et un reculent ou stagnent, et que les pays à faible revenu restent sous un pour cent de la richesse mondiale depuis mille neuf cent quatre-vingt-quinze."
 concepts: [contrepartie_comptable, fausse_richesse, indicateur_de_progres, essentiel_insolvable, valorisation_des_communs]
 renvois: [L18.C19, L18.C22, L24.C07, L19.C09, L11.C30, L20.C25, L12.C01]
 ---
@@ -90,7 +96,17 @@ renvois: [L18.C19, L18.C22, L24.C07, L19.C09, L11.C30, L20.C25, L12.C01]
 
 ::hypothese:: **C'EST UNE DÉRIVE DE CONVENTION DE MESURE, ET ELLE SURVIENT CHEZ L'ADVERSAIRE.** L11.C30 a nommé le type B — un barème calibré sur une convention devient faux quand la convention change. **Le corpus l'avait documenté sur le cadre des limites planétaires** [L24.C07]. **Il le documente ici sur la comptabilité de la richesse des nations.** **Les deux systèmes de mesure sur lesquels le dispositif pourrait s'appuyer révisent leurs conventions, et l'une de ces révisions a INVERSÉ UN SIGNE.**
 
-::hypothese:: **ET IL FAUT DIRE CE QUE LE CORPUS NE PEUT PAS ENCORE DÉMÊLER.** **La part du changement qui revient à la méthode et la part qui revient au monde ne sont pas séparées par ce qu'il a lu.** Le passage d'un déflateur de prix à un indice de volume déplace précisément l'objet mesuré — **d'une valeur vers une quantité pondérée** — et c'est exactement la distinction que L18.C22 avait déclarée décisive. **Il est donc PLAUSIBLE que l'inversion vienne pour l'essentiel de la méthode ; le corpus ne l'établit pas, et il ne l'écrira pas avant d'avoir ouvert le chapitre de méthode.**
+::etat:: **LE CHAPITRE DE MÉTHODE RÉPOND, ET LES DEUX ÉDITIONS NE MESURENT PAS LA MÊME CHOSE** [S1, chapitre 2]. **Auparavant** : *« the real values of assets were derived by **applying a GDP deflator to nominal asset values** and overall comprehensive wealth was simply the sum of the real values of each asset type »*. **Désormais** : un indice de volume enchaîné par catégorie d'actif, dont le rapport précise que les taux de croissance *« cannot simply be added together »* — ce qu'il présente lui-même comme **un inconvénient** par rapport aux éditions précédentes.
+
+::etat:: **Et le chapitre 3 dit ce que la nouvelle mesure suit** [S1] : *« Different to previous editions, changes in real wealth per capita [...] are now driven by changes in the **physical volumes** (for example, a country's fossil fuel reserves, fish stocks, or labor force) **and relative price changes**, reflecting changes in the relative scarcity of the stocks being measured, changes in the availability of potential substitutes or complements, or institutional and policy changes. »*
+
+::hypothese:: **LA RÉSERVE EST LEVÉE, ET LE RÉSULTAT EST PLUS NET QUE PRÉVU.** **L'ancienne mesure était une VALEUR NOMINALE D'ACTIF DÉFLATÉE PAR UN INDICE GÉNÉRAL DE PRIX.** Elle montait dès lors que la valeur d'un stock naturel montait plus vite que le niveau général des prix — **ce que fait un prix de matière première dans une phase de hausse, à stock physique inchangé ou décroissant.** **La nouvelle mesure suit des VOLUMES PHYSIQUES pondérés par leur importance économique.** **Le renversement de signe s'explique donc pour l'essentiel par le changement d'objet, et non par un renversement du monde.**
+
+::hypothese:: **CE QUI REND LE FAIT PLUS INSTRUCTIF, ET NON MOINS.** **Pendant vingt-cinq ans, la comptabilité de référence de la soutenabilité faible a présenté comme une hausse du capital naturel ce qui était, pour une part indéterminée, une hausse des PRIX des ressources.** **Un dispositif qui adosserait une émission à une telle grandeur émettrait contre un mouvement de prix en croyant émettre contre une régénération.**
+
+::etat:: **Un exemple documenté d'écart entre les deux éditions figure sur un poste** [S1] : les éditions précédentes estimaient la valeur des aires protégées **en supposant que leur meilleur usage alternatif était agricole**, ce qui, écrit le rapport, *« likely overstated the value of many protected areas »*. **L'estimation actuelle est déclarée comme une borne inférieure.**
+
+::etat:: **RÉSERVE QUI SUBSISTE ET QUI EST DÉCISIVE : LE RAPPORT NE MET PAS EN GARDE CONTRE LA COMPARAISON DES ÉDITIONS.** Le corpus n'a trouvé, dans ce qu'il a lu, aucun avertissement invitant le lecteur à ne pas rapprocher les séries de 2021 et de 2024. **Un lecteur pressé conclurait donc à un effondrement du capital naturel entre deux publications, là où il y a surtout un changement d'instrument.**
 
 ::hypothese:: **RÈGLE QUE CE POINT AJOUTE À CELLE DE L19.C09.** Ce chapitre-là avait établi qu'une révision de norme comptable peut déplacer un résultat. **Celui-ci établit qu'une révision peut en INVERSER LE SIGNE, et que l'institution la présente comme un alignement sur les meilleures pratiques — ce qu'elle est vraisemblablement.** **Une amélioration de méthode n'est pas une nouvelle du monde, et un corpus qui cite un chiffre de comptabilité doit donner l'édition, la période ET la convention.**
 
