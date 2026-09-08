@@ -4659,3 +4659,36 @@ pas envisagé, et il est structurel, non comportemental.**
 partie seulement, **stockage** — poste décisif puisque l'intermittence le
 commande —, réseau, maintenance, **démantelèment**. **Aucune valeur n'est retenue
 pour aucune technologie.**
+
+
+## A37 — le précédent le plus proche est trouvé le 2026-09-08, et il s'arrête où le dispositif commence
+
+**L18.C12 a établi ce que sont EN PRATIQUE les paiements pour services
+écosystémiques**, c'est-à-dire la famille d'instruments la plus proche du
+dispositif : « the **vast majority** [...] are **run by states** under public
+regulation frameworks. Funds are typically **collected through taxes** and the
+level of payments is **politically set**, mainly based on **opportunity costs** or
+negotiations with concerned stakeholders. » Beaucoup fonctionnent comme des
+« green rural subsidies ».
+
+**TROIS CONSÉQUENCES POUR L'ARBITRAGE, ET ELLES NE VONT PAS DANS LE MÊME SENS.**
+
+**(1) FAVORABLE.** La famille la plus proche n'est **pas un marché** mais une
+allocation publique à prix administré. **Le dispositif n'est donc pas une
+anomalie dans son genre**, et l'objection « c'est du marché » ne tient pas
+d'office — y compris lorsqu'elle vient de la critique écologique, dont ce texte
+rapporte qu'elle est contestée sur ce point par d'autres chercheurs.
+
+**(2) DÉFAVORABLE, SUR LE CRITÈRE.** Ces dispositifs fixent leur niveau
+**politiquement, principalement sur le COÛT D'OPPORTUNITÉ** — ce que le
+bénéficiaire renonce à gagner, **non ce que la nature vaut**. C'est la réponse
+empirique à la question que L25.C01 tient ouverte, **et elle n'est pas
+écologique**.
+
+**(3) ET C'EST CELLE QUI ISOLE LE DISPOSITIF.** Les paiements existants sont
+financés **PAR L'IMPÔT**. **Le dispositif ne l'est pas : il alloue une unité
+émise.** **LE PRÉCÉDENT LE PLUS PROCHE S'ARRÊTE DONC EXACTEMENT LÀ OÙ COMMENCE
+CE QUE LE DISPOSITIF A DE PROPRE.** A37 gagne un analogue pour la FONCTION et
+n'en gagne aucun pour la FORME DE L'ÉMISSION — ce qui laisse entières les
+questions de forme financière, de capital, d'adhésion et de retrait, et
+d'immunité.

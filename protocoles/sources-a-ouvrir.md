@@ -2035,3 +2035,47 @@ l'arbitrage ne peut pas porter sur une chaîne complète.
 PAUVRE.** Or les usages qui diluent le rendement sont ceux qui accompagnent la
 sortie de la pauvreté. **À obtenir : une comptabilité en travail utile portant
 sur un pays à besoins essentiels non couverts.**
+
+
+## Ouvert le 2026-09-08 — LA CRITIQUE DE LA VALORISATION, ET CE QU'ELLE N'EST PAS
+
+**Martin-Ortega, Novo, Gómez-Baggethun, Muradian, Harte et Mesa-Jurado,
+« Ecosystem services and the commodification of nature », chapitre 27 du
+*Routledge Handbook of Commodification*, 2023** — **OUVERTE ET LUE dans le
+texte** pour **L18.C12**. **C'était l'acquisition de rang 1 inscrite par
+L18.C10.**
+
+**DROITS : `citation_seule`.** Le dépôt indique « protected by copyright, with
+**all rights reserved** », téléchargement et impression permis « **for private
+study** ». **ET CE N'EST PAS LA VERSION DE RÉFÉRENCE** : c'est le **manuscrit
+accepté** déposé en archive institutionnelle. **Aucune citation retenue ne doit
+être publiée sans contrôle contre l'ouvrage paru.**
+
+**CE QU'ELLE N'A PAS APPORTÉ, ET C'EST LE POINT LE PLUS IMPORTANT À RETENIR :
+AUCUN ADVERSAIRE À F13.** Ses auteurs sont des économistes écologiques — le camp
+du corpus. **Le corpus adverse de F13 reste à constituer en entier.**
+
+**CE QU'ELLE A APPORTÉ : UN ADVERSAIRE AU DISPOSITIF, par une voie non
+instrumentée** — quatre objections adressées à la valorisation monétaire comme
+FORME d'instrument, dont aucune ne se corrige en améliorant le barème.
+
+### Acquisitions que ce chapitre inscrit
+
+**RANG 1 — L'ÉVALUATION DES VALEURS DE L'IPBES (2022).** Citée et non ouverte.
+Elle recense **plus de cinquante méthodes de valorisation** et distingue valeurs
+**instrumentales, relationnelles et intrinsèques**, avec des indicateurs
+biophysiques, monétaires et socioculturels. **C'EST LE CONTRE-CATALOGUE AUTORISÉ
+D'UN BARÈME À MÉTRIQUE UNIQUE**, et il est produit par une institution
+intergouvernementale, non par un courant.
+
+**RANG 2 — LA DÉFENSE DES PAIEMENTS POUR SERVICES ÉCOSYSTÉMIQUES PAR SES
+PARTISANS.** Le corpus n'a **qu'un côté de la controverse**. La source rapporte
+des contradicteurs — la mise en propriété n'implique pas la privatisation, la
+valorisation n'a pas à viser la rentabilité, cette lecture néglige l'action des
+populations locales — **mais ils sont rapportés par leurs contradicteurs.**
+
+**RANG 3 — UNE ÉVALUATION EMPIRIQUE DE LA PERFORMANCE.** La conclusion de la
+source avance que la performance des instruments de marché a été « **in
+general, below the high expectations** » — **sans référence à cet endroit du
+texte**, alors que c'est l'énoncé le plus directement transposable au dispositif.
+**Le corpus ne peut pas s'en servir en l'état.**

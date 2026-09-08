@@ -2900,6 +2900,35 @@ cher.** **Et cela complique sérieusement L11.C24**, dont l'ajustement aux
 frontières suppose un prix unique de l'impact.
 
 
+### F13 — MISE EN GARDE INSCRITE LE 2026-09-08 PAR L18.C12 : UNE SOURCE QUI RESSEMBLE À UN ADVERSAIRE ET N'EN EST PAS UN
+
+**LE CORPUS A OUVERT CE JOUR UNE CRITIQUE NOURRIE DE LA VALORISATION MONÉTAIRE DE
+LA NATURE, ET ELLE NE COMPTE PAS POUR F13.** Martin-Ortega, Novo,
+Gómez-Baggethun, Muradian, Harte et Mesa-Jurado, chapitre 27 du *Routledge
+Handbook of Commodification* (2023).
+
+**POURQUOI ELLE NE COMPTE PAS, ET IL FAUT QUE CE SOIT ÉCRIT ICI POUR QU'ON NE S'Y
+TROMPE PAS PLUS TARD.** **F13 porte sur la SOUTENABILITÉ FAIBLE** — la thèse
+que le capital produit peut se substituer au capital naturel. **Ces auteurs sont
+des économistes écologiques.** Leur reproche à la valorisation monétaire est
+qu'elle en fait **TROP**, pas trop peu : ils lui reprochent précisément de
+transmettre l'idée d'un substitut équivalent. **C'est le camp du corpus, et une
+source du camp du corpus ne peut pas servir de contradicteur au corpus.**
+
+**CE QUI RESTE DONC ENTIER.** **Le corpus adverse de F13 — Solow, Hartwick,
+Pearce et Atkinson, Neumayer, et les travaux de comptabilité de la richesse de la
+Banque mondiale — RESTE À CONSTITUER**, et deux de ces textes sont à ce jour
+derrière un mur anti-robot déclaré et non franchi. **F13 N'EST PAS OUVERT D'UN
+CONTRADICTEUR SUPPLÉMENTAIRE CE JOUR.** Le seul acquis reste L18.C11, où un
+document de la Banque mondiale déclare lui-même l'hypothèse de substituabilité.
+
+**MAIS UNE OBJECTION NOUVELLE EN SORT, ET ELLE VISE LE DISPOSITIF, NON F13.** Si
+attribuer une valeur d'échange **transmet** la substituabilité indépendamment de
+ce qu'on postule, alors **un barème la fait entrer PAR SA FORME**, là où F13
+reproche aux adversaires du corpus de la faire entrer par leur doctrine. **Le
+corpus ne tranche pas cette objection ; il enregistre qu'elle est posée, qu'elle
+vient de son propre camp, et qu'aucun chapitre n'y répond.**
+
 ## F14 — L'additivité structurelle
 
 **PROPOSÉ LE 2026-09-08 PAR L26.C05, après ouverture de la publication

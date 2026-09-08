@@ -170,9 +170,25 @@ verifications_en_attente:
      esthétiques des paysages non comptés, biens publics mal représentés, aires
      protégées valorisées à une **borne inférieure** — **dont une dont la source
      dit ignorer la valeur : la biodiversité.**"
+  - "**QUATRE OBJECTIONS ADRESSÉES AU BARÈME COMME FORME D'INSTRUMENT, ÉTABLIES LE
+     2026-09-08 PAR L18.C12, ET AUCUNE NE SE CORRIGE EN AMÉLIORANT LE BARÈME.**
+     **Un barème qui qualifie des activités régénératives et alloue contre elles
+     une unité émise EST, QUANT À SA FORME, UN INSTRUMENT DE VALORISATION
+     MONÉTAIRE DE LA NATURE** — et la littérature qui critique de tels
+     instruments est celle du camp même du corpus. **(1) BIAIS DE VISIBILITÉ :**
+     un barème finance ce qu'il sait mesurer ; ce qu'il ne sait pas mesurer ne lui
+     est pas sous-financé, il lui est INVISIBLE. **(2) ÉVICTION DES MOTIFS
+     MORAUX :** payer pour régénérer peut convertir un devoir en contrat, et un
+     contrat cesse quand le paiement cesse. **(3) TRANSMISSION DE LA
+     SUBSTITUABILITÉ :** attribuer une valeur d'échange transmet l'idée d'un
+     substitut équivalent — **le barème ferait alors entrer par sa FORME
+     l'hypothèse que F13 reproche aux adversaires du corpus.** **(4) EFFET DE
+     RÉPARTITION :** allouer contre une qualification, c'est allouer à qui détient
+     ce qui est qualifiable. **AUCUN CHAPITRE DE CE LIVRE NE TRAITE CES QUATRE
+     POINTS.**"
 resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."
 concepts: [qualification_regenerative, bareme, creation_monetaire, additionnalite, degeneratif, essentiel_insolvable]
-renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10, L18.C10, L18.C11]
+renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10, L18.C10, L18.C11, L18.C12]
 ---
 
 # Le barème de qualification
