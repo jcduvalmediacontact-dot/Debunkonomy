@@ -148,9 +148,22 @@ verifications_en_attente:
      PARTOUT ; ELLE EST LE MOINS DISPONIBLE LÀ OÙ LES BESOINS ESSENTIELS SONT LES
      MOINS COUVERTS.** **Ce livre doit dire ce qu'il advient d'un pays que le
      barème ne sait pas mesurer.**"
+  - "**LES SEPT RENFORTS REÇUS LE 2026-09-08 SONT ASSEMBLÉS LE MÊME JOUR PAR
+     L25.C07, ET ILS CONVERGENT.** **Cinq mécanismes différents désignent LE MÊME
+     PERDANT** : le biais de visibilité écarte ce qui n'est pas mesurable, l'échelle
+     internationale écarte ce qui n'est pas standard, le coût de la preuve écarte
+     ce qui est petit, l'inégalité de mesure écarte ce qui est pauvre, et le coût
+     d'opportunité sert d'abord qui détient. **LA COMMANDE NE PORTE DONC PAS
+     SEULEMENT SUR UN CRITÈRE À CHOISIR MAIS SUR UNE ASYMÉTRIE À CORRIGER**, et
+     cette asymétrie ne vient pas d'un mauvais critère : **elle vient de ce qu'un
+     critère, quel qu'il soit, doit être PROUVÉ par celui qui le revendique.**
+     **ET LA MEILLEURE OBJECTION EST EXPOSÉE : un barème PUBLIÉ ET UNIFORME diffère
+     d'un critère négocié au cas par cas, et pourrait être le remède. Le corpus
+     n'a rien contre cette réponse** — mais trois des sept constats ne sont pas
+     des effets de la négociation et survivraient à un barème publié."
 resume: "Ce chapitre ouvre le livre en établissant que le plancher social dont le corpus manquait n'est pas un choix de modélisation à faire mais une obligation juridique en vigueur depuis 1976. Le pacte international relatif aux droits économiques, sociaux et culturels est ouvert et lu dans son texte, et il énumère le contenu de ce plancher, à savoir un niveau de vie suffisant incluant la nourriture, l'habillement et le logement, le droit d'être à l'abri de la faim, le meilleur état de santé physique et mentale possible, la sécurité sociale, l'éducation et le travail. Le chapitre en tire quatre résultats. Le premier est une asymétrie de nature entre les deux bords du couloir que le livre précédent avait nommé, car le plafond écologique est un niveau tandis que le plancher social est une trajectoire, l'obligation étant de réalisation progressive au maximum des ressources disponibles. Le deuxième est que cette formule constitue la charnière que le dispositif cherchait, puisqu'un dispositif qui crée des ressources modifie ce que les ressources disponibles d'un État désignent, et que la question devient alors juridique et non seulement économique. Le troisième est que le pacte fournit une règle de répartition explicite pour un besoin essentiel, celle d'une distribution équitable des ressources alimentaires mondiales en fonction des besoins. Le quatrième est que la clause de limitation du pacte est opposable à l'instrument même que le dispositif emploie, puisqu'un prélèvement qui réduirait l'accès des plus pauvres à une nourriture ou à un logement suffisants met en cause un droit protégé et doit satisfaire un test de proportionnalité."
 concepts: [plancher_social, plafond_ecologique, essentiel_insolvable, dette_ecologique, communs, solvabilite_anticipee]
-renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02, L26.C11, L18.C12, L12.C03, L18.C13]
+renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02, L26.C11, L18.C12, L12.C03, L18.C13, L25.C07]
 ---
 
 # Ce que ce livre doit établir

@@ -214,9 +214,21 @@ verifications_en_attente:
      trade-offs among competing goals cannot be avoided** ». **Le dispositif
      suppose qu'une qualification écologique puisse l'emporter sur l'avantage
      marchand ; la source dit que c'est l'inverse qui se produit ordinairement.**"
+  - "**UNE RÉPONSE POSSIBLE AUX QUATRE OBJECTIONS EST FORMULÉE LE 2026-09-08 PAR
+     L25.C07, ET ELLE APPELLE UNE VÉRIFICATION QUE CE LIVRE DOIT FAIRE.** Les
+     dispositifs sur lesquels reposent les objections versées ici ont un critère
+     **NÉGOCIÉ AU CAS PAR CAS**. **L'objection sérieuse du dispositif est qu'un
+     barème PUBLIÉ, UNIFORME ET OPPOSABLE en serait le remède** : celui qui n'a
+     pas de pouvoir de négociation gagne à ce que le critère soit écrit d'avance.
+     **CE QUE CETTE RÉPONSE NE COUVRE PAS, ET CE LIVRE DOIT LE DIRE : trois
+     mécanismes ne sont PAS des effets de la négociation** — le biais de
+     visibilité, le coût fixe de la preuve, et l'inégalité de la capacité de
+     mesure. **Ils survivraient intégralement à un barème publié.**
+     **ACQUISITION INSCRITE : un instrument à critère publié et uniforme dont on
+     puisse mesurer les effets de répartition.**"
 resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."
 concepts: [qualification_regenerative, bareme, creation_monetaire, additionnalite, degeneratif, essentiel_insolvable]
-renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10, L18.C10, L18.C11, L18.C12, L18.C13, L18.C15]
+renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10, L18.C10, L18.C11, L18.C12, L18.C13, L18.C15, L25.C07]
 ---
 
 # Le barème de qualification
