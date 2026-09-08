@@ -6,52 +6,115 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
-regime: descriptif
+regime: hybride
 sources_primaires:
   - ref: S1
+    nature: donnees
+    reference: "**Thales A. P. West, Sven Wunder, Erin O. Sills, Jan Börner, Sami W. Rifai, Alexandra N. Neidermeier, Gabriel Frey et Andreas Kontoleon, « Action needed to make carbon offsets from tropical forest conservation work for climate change mitigation ».** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt institutionnel de l'université de Cambridge, lu dans le texte. **MANUSCRIT D'AUTEUR déposé en archive, non la version de référence.** **DROITS : la notice du dépôt annonce CC BY ; LE DOCUMENT NE PORTE AUCUNE MENTION DE DROITS. En application de la règle établie le jour même, le corpus retient ce qu'il LIT et non ce que la notice annonce — régime `a_verifier`, citation courte avec attribution.** **Méthode : 26 sites de projets, six pays, trois continents, contrôles synthétiques.**"
+    date_verification: 2026-09-08
+  - ref: S2
     nature: theorie
-    reference: "**`corpus/livres.yaml`, matricule 15** — projection du plan directeur de l'auteur. **Titre** : Fraudes, corruptions et architectures de la triche. **Collection** : cahier-disciplinaire. **Statut du livre** : exploratoire. **Fonction assignée** : Recenser les architectures de fraude connues, détecter les formes émergentes et éprouver en permanence NEMO IMS et ses contrôleurs. **Motifs** : **discipline — économie de la fraude et de la capture** ; **objection — capture du régulateur, falsification des relevés de terrain, double rôle de l'État : limites assumées en L1.C18 § 5**"
-    date_verification: 2026-09-07
+    reference: "**Le corpus lui-même — L1.C18 § 5, « Le régime probatoire et son point aveugle ».** **Ce chapitre ne rouvre aucune des sources de L1.C18** et renvoie à elles : les quatre constats empiriques qu'il rapporte (contrefactuels appariés, essai contrôlé randomisé ougandais, coûts du régime probatoire, état de la comptabilité écosystémique) sont adossés aux sources ouvertes par ce chapitre-là. **C'est L1.C18 qui a déclaré les TROIS LIMITES que le présent livre est chargé de reprendre.**"
+    date_verification: 2026-09-08
 verifications_en_attente:
-  - "AUCUNE SOURCE N'EST OUVERTE POUR CE LIVRE, et aucun chapitre n'est écrit.
-     **Ce chapitre est une AMORCE** : il enregistre ce que le registre assigne au
-     matricule 15 et ne l'instruit pas. **Il ne verse aucun résultat au corpus
-     et ne doit être cité par aucun autre chapitre.**"
-  - "CE CHAPITRE SERA REMPLACÉ, NON COMPLÉTÉ. Tous les livres ouverts du corpus
-     commencent par un chapitre « Ce que ce livre doit établir » qui instruit la
-     fonction, confronte le mandat aux acquis des autres livres et fixe la grille
-     du livre. **Écrire ce livre, c'est écrire ce chapitre-là à la place de
-     celui-ci.**"
-resume: "Ce chapitre est une amorce déposée le 7 septembre 2026 pour que le dossier du matricule 15 existe dans l'arborescence avant qu'aucun chapitre ne soit écrit. Il n'instruit rien et ne verse aucun résultat au corpus. Il enregistre seulement ce que le registre des livres assigne à ce matricule, c'est-à-dire son titre, sa collection, son statut, la fonction que le plan directeur lui donne et les motifs qui ont justifié sa déclaration, afin qu'un lecteur ouvrant ce dossier sache ce que le livre doit porter et sache aussi que rien n'en est fait. Il rappelle que le matricule est permanent et ne se réattribue ni ne se renumérote, que le registre n'est qu'une projection du plan directeur de l'auteur et que le plan tranche en cas d'écart. Il déclare enfin qu'il sera remplacé et non complété, puisque tous les livres ouverts du corpus s'ouvrent par un chapitre qui instruit la fonction du livre, la confronte aux acquis des autres livres et fixe la grille des questions que le livre entend faire subir à son objet."
-concepts: []
-renvois: []
+  - "**CE LIVRE N'A AUCUNE SOURCE SUR LA FRAUDE ELLE-MÊME.** Il ouvre une étude sur
+     l'INTÉGRITÉ d'un dispositif de crédits, ce qui n'est pas la même chose : les
+     auteurs concluent à une **surestimation méthodologique**, non à une fraude, et
+     écrivent que les promoteurs ont pu surestimer **« (unintentionally) »**.
+     **LE CORPUS NE DOIT PAS PRÉSENTER CE RÉSULTAT COMME UNE FRAUDE**, et ce
+     chapitre ne le fait pas. **ACQUISITION DE RANG 1 : la littérature sur les
+     architectures de fraude documentées — fraude carrousel sur les quotas
+     d'émission, falsification de relevés de terrain, capture de certificateur.**"
+  - "**AUCUN MODÈLE D'ADVERSAIRE N'EXISTE DANS LE CORPUS, ET CE LIVRE NE PEUT PAS
+     COMMENCER SANS LUI.** Toute architecture de fraude suppose quelqu'un qui
+     gagne quelque chose. **Le corpus n'a jamais établi QUI gagne QUOI à falsifier
+     une qualification régénérative**, ni comment ce gain diffère entre le régime
+     des états physiques et celui des audits de moyens. **C'est le premier travail
+     du livre, et il n'est pas fait.**"
+  - "**LES COÛTS DU RÉGIME PROBATOIRE SONT REPRIS DE L1.C18 ET NON REVÉRIFIÉS.**
+     Les fourchettes citées — 18 % à 30 %, puis 4 % à 10 %, jusqu'à 25 % de
+     l'annuité — proviennent d'une source ouverte par ce chapitre-là. **Le présent
+     livre les emploie pour un usage que L1.C18 ne leur donnait pas** — en faire un
+     PARAMÈTRE DE FRAUDE et non une ligne budgétaire — **et cet emploi est une
+     inférence du corpus.**"
+  - "**LE MANUSCRIT LU N'EST PAS LA VERSION DE RÉFÉRENCE**, et le corpus n'a pas
+     ouvert les tableaux supplémentaires auxquels le texte renvoie pour les
+     chiffres de crédits émis. **Collationnement obligatoire avant tout usage
+     citable des proportions.**"
+resume: "Ce chapitre ouvre le livre chargé de recenser les architectures de fraude, de détecter les formes émergentes et d'éprouver en permanence le dispositif et ses contrôleurs, et il commence par une correction de cadrage que le corpus doit à sa propre documentation. L'examen de vingt-six projets de déforestation évitée sur trois continents, par contrôles synthétiques, établit que la plupart n'ont pas réduit significativement la déforestation et que, pour ceux qui l'ont fait, les réductions furent nettement inférieures aux montants revendiqués, un vingtième environ des crédits attendus correspondant à une réduction additionnelle. Or les auteurs attribuent cet écart à la construction des scénarios de référence et non à une destruction dissimulée, et ils précisent que la surestimation a pu être involontaire. Le chapitre en tire que la vulnérabilité dominante du dispositif le plus proche ne réside pas dans le terrain mais dans le cadre de comparaison. Il établit ensuite que le dispositif examiné par ce corpus a répondu à cette vulnérabilité en abandonnant le contrefactuel au profit d'états physiques constatés, et que cette réponse est juste mais déplace la surface d'attaque au lieu de la réduire, puisqu'elle la reporte sur le capteur, sur le relevé de terrain que le livre premier déclarait lui-même exposé à la falsification locale, et sur une incertitude de mesure que ce même livre chiffre entre vingt et cinquante pour cent. Il montre que le second régime probatoire, celui des activités sociales évaluées sur des moyens, ramène la capacité documentaire comme critère discriminant. Il propose enfin de traiter le coût du contrôle comme un paramètre de fraude et non comme une ligne budgétaire, et déclare que le livre ne peut pas commencer sans un modèle d'adversaire que le corpus n'a jamais construit."
+concepts: [additionnalite, qualification_regenerative, bareme, regle_contre_discretion, robustesse]
+renvois: [L1.C18, L11.C13, L11.C30, L18.C10, L18.C13, L18.C15, L25.C07]
 ---
 
 # Ce que ce livre doit établir
 
-::etat:: **AMORCE. Aucun chapitre de ce livre n'est écrit, et aucune source n'est ouverte pour lui.** Ce chapitre existe pour que le dossier du matricule 15 figure dans l'arborescence, **et il n'instruit rien.**
+::etat:: **Ce livre a une fonction déclarée au registre** : recenser les architectures de fraude connues, détecter les formes émergentes, **et éprouver en permanence le dispositif ET SES CONTRÔLEURS.** **Il a aussi un motif nommé** : les limites que L1.C18 § 5 a **assumées** — mesure asymétrique exposée à la falsification locale, régimes probatoires bifurqués, et **un État à la fois audité et bénéficiaire.**
 
-## 1. Ce que le registre assigne à ce matricule
+::etat:: **Il commence par une correction de cadrage, et le corpus la doit à sa propre documentation.**
 
-::etat:: **Titre** : Fraudes, corruptions et architectures de la triche. **Collection** : cahier-disciplinaire. **Statut du livre** : exploratoire [S1].
+## 1. La fraude n'est pas où le livre la cherchait
 
-::etat:: **Fonction** [S1] : Recenser les architectures de fraude connues, détecter les formes émergentes et éprouver en permanence NEMO IMS et ses contrôleurs
+::etat:: **Vingt-six sites de projets de déforestation évitée, six pays, trois continents, méthode des contrôles synthétiques** [S1]. **Le résultat** : *« **most projects have not significantly reduced deforestation**. For projects that did, **reductions were substantially lower than claimed**. »*
 
-::etat:: **Motif inscrit au registre** : discipline — économie de la fraude et de la capture.
+::etat:: **Et l'ordre de grandeur est donné.** Sur environ **89 millions** de crédits attendus d'après les estimations *ex ante* des projets, **60,2 millions (68 %)** proviendraient de projets n'ayant pas réduit la déforestation, et **seuls 5,4 millions — 6,1 % — seraient associés à une réduction additionnelle** [S1]. Dix-huit projets avaient émis **62 millions de crédits** ; **au moins 14,6 millions (24 %) avaient déjà été utilisés** pour compenser des émissions.
 
-::etat:: **Motif inscrit au registre** : objection — capture du régulateur, falsification des relevés de terrain, double rôle de l'État : limites assumées en L1.C18 § 5.
+::etat:: **MAIS LA CAUSE N'EST PAS CELLE QU'ON ATTENDAIT, ET LES AUTEURS LA NOMMENT** : l'écart *« reflects **differences between the project ex-ante baselines and ex-post counterfactuals** based on observed deforestation in control areas »*. **Ce n'est pas du couvert détruit en cachette : c'est un SCÉNARIO DE RÉFÉRENCE mal construit.**
 
-## 2. Ce que ce chapitre n'est pas
+::etat:: **Et il faut ajouter ce que les auteurs ajoutent, sous peine de fausser leur résultat : ils écrivent que les promoteurs ont pu surestimer les pressions futures « (UNINTENTIONALLY) ».** **Ce livre ouvre donc sur une étude d'INTÉGRITÉ, non de fraude.** **Le corpus ne doit pas confondre les deux, et ce chapitre ne les confond pas.**
 
-::etat:: **Il ne verse aucun résultat au corpus et ne doit être cité par aucun autre chapitre.** Son régime est **descriptif** : il rapporte une entrée de registre, il n'établit rien sur le dispositif.
+::hypothese:: **Ce qui en ressort est plus dérangeant qu'une fraude, et c'est la proposition fondatrice de ce livre.** **Un dispositif peut produire massivement de la fausse qualification SANS QUE PERSONNE NE TRICHE** — par le seul choix d'un cadre de comparaison. **Une architecture de la triche n'a donc pas besoin de tricheur : il lui suffit d'un paramètre que personne n'est chargé de contester.**
 
-::etat:: **Il sera REMPLACÉ, non complété.** Tous les livres ouverts commencent par un chapitre « Ce que ce livre doit établir » qui **instruit** la fonction, la confronte aux acquis des autres livres et **fixe la grille du livre**. Écrire ce livre, c'est écrire ce chapitre-là à la place de celui-ci.
+## 2. Ce que le dispositif a fait de cette vulnérabilité, et ce que ça lui a coûté
 
-## 3. Deux règles qui valent déjà
+::etat:: **L1.C18 a abandonné le contrefactuel** [S2], qualifié de *fiction invérifiable*, **au profit d'états physiques constatés** : hectares maintenus ou régénérés, carbone du sol par sondage, qualité de l'eau et de l'air, populations d'espèces.
 
-::etat:: **Le matricule 15 est permanent.** Il ne se réattribue pas, ne s'insère pas et ne se renumérote pas, même si ce livre n'est jamais écrit (convention § 3).
+::hypothese:: **La réponse est juste, et elle vise exactement la vulnérabilité que S1 documente.** **Le corpus doit l'inscrire à l'actif du dispositif : sur ce point précis, il a raison contre le marché du carbone, et il a raison AVANT que l'étude ne paraisse.**
 
-::etat:: **Le registre n'est qu'une projection du plan directeur de l'auteur.** **En cas d'écart, le plan tranche et le registre est corrigé, jamais l'inverse.** Ce qui précède est donc rapporté sous réserve du plan.
+::hypothese:: **Mais la surface d'attaque est DÉPLACÉE, non réduite, et L1.C18 le dit lui-même sans en tirer la conséquence.** Trois reports :
+
+::etat:: **(1) SUR LE RELEVÉ DE TERRAIN.** *« la santé biologique des sols et la biodiversité sous canopée échappent aux capteurs orbitaux et exigent des relevés de terrain, coûteux et **exposés à la falsification locale** »* [S2]. **Le livre premier a écrit le mot, et il l'a écrit comme une limite assumée. C'est ici un objet d'étude.**
+
+::etat:: **(2) SUR L'INCERTITUDE DE MESURE.** Les marges relevées sur les indices synthétiques d'état écologique oscillent **entre 20 % et 50 %** [S2]. **Une bande d'erreur de cet ordre n'est pas seulement un problème de fiabilité : c'est un ESPACE. Ce qui se loge dans la marge d'erreur ne se distingue pas d'une variation réelle.**
+
+::etat:: **(3) SUR LE COÛT DU CONTRÔLE.** 18 % à 30 % des budgets en instruction les premières années, 4 % à 10 % en vérification annuelle récurrente, **et jusqu'à 25 % de l'annuité quand le protocole exige ce que le satellite ne fournit pas** [S2].
+
+::hypothese:: **Ce troisième point doit changer de statut, et c'est la proposition de méthode de ce livre : LE COÛT DU CONTRÔLE EST UN PARAMÈTRE DE FRAUDE, NON UNE LIGNE BUDGÉTAIRE.** **Un contrôle qui absorbe le quart du versement sera économisé** — par le payeur qui allège le protocole, ou par le payé qui n'appelle pas l'expert. **Et les deux ont le même intérêt à ce qu'il ne vienne pas.** **C'est la collusion que L1.C18 croyait avoir supprimée en supprimant l'acheteur privé : elle ne disparaît pas, elle change de motif — non plus le profit, mais l'économie de procédure.**
+
+## 3. Le second régime est plus exposé, et le corpus l'a déjà écrit
+
+::etat:: **L1.C18 assume deux régimes probatoires** [S2]. Les communs écologiques s'évaluent par **états physiques**. Les activités sociales — éducation, soin, accompagnement, cohésion — relèvent d'**audits de moyens**, de ratios d'encadrement et de certification de statut.
+
+::hypothese:: **Le second est un régime DOCUMENTAIRE, et c'est le régime le plus anciennement fraudé de tous.** On ne falsifie pas une canopée vue du ciel ; on falsifie un ratio d'encadrement, une pièce justificative, un statut.
+
+::etat:: **Et le corpus a déjà tiré la conséquence, sans la ranger ici.** L1.C18 conclut que le biais de sélection est éliminé du côté des états physiques et **subsiste du côté des services** : *« P16 est soldée pour la forêt, non pour l'aidante »* [S2]. **L18.C15 l'a retrouvé par une autre voie** : le coût de la certification et de la transparence pèse le plus lourdement sur les plus petits.
+
+::hypothese:: **Le livre doit donc porter DEUX architectures et non une**, et elles n'ont ni les mêmes acteurs, ni les mêmes gains, ni les mêmes contrôleurs. **Traiter la fraude du dispositif comme un objet unique serait la première erreur.**
+
+## 4. L'État audité et bénéficiaire
+
+::etat:: **L1.C18 nomme le conflit et déclare le traiter** par trois moyens : indépendance de l'Office, publication intégrale des données, saisine de la Chambre par la société civile [S2].
+
+::hypothese:: **Ce livre doit éprouver ces trois moyens, et il ne peut pas les tenir pour acquis parce qu'ils sont écrits.** **L18.C15 a établi, au niveau de preuve le plus élevé, que les rapports de pouvoir déterminent « what types of knowledge are given credence ».** **Un Office indépendant qui mesure ce que l'État lui donne à mesurer n'est indépendant que de la décision, pas de la donnée.**
+
+## 5. Ce que le livre doit établir
+
+::etat:: **PREMIÈREMENT, UN MODÈLE D'ADVERSAIRE, ET IL N'EXISTE PAS.** **Qui gagne quoi à falsifier une qualification régénérative ?** Le gain diffère selon le régime : dans les états physiques, il porte sur **une surface et une durée** ; dans les audits de moyens, sur **une éligibilité**. **Tant que ce modèle n'est pas écrit, le livre ne peut rien recenser : il ne saurait pas quoi chercher.**
+
+::etat:: **DEUXIÈMEMENT, LA CARTE DES POINTS DE FALSIFICATION**, régime par régime : capteur, interpolation, classification, relevé de terrain, pièce justificative, statut. **Et pour chacun : qui l'établit, qui le contrôle, qui peut le contester.**
+
+::etat:: **TROISIÈMEMENT, LE SEUIL À PARTIR DUQUEL LE CONTRÔLE NE VAUT PLUS SON COÛT.** **C'est une question chiffrable et le corpus a les ordres de grandeur ; il ne les a jamais croisés avec le montant des allocations.**
+
+::etat:: **QUATRIÈMEMENT, LES ARCHITECTURES DÉJÀ DOCUMENTÉES**, que le corpus n'a pas ouvertes : fraude carrousel sur les quotas d'émission, capture de certificateur, falsification de relevés. **Acquisition de rang 1.**
+
+::hypothese:: **CINQUIÈMEMENT, ET C'EST LA QUESTION QUE CE LIVRE POSE AU DISPOSITIF PLUTÔT QU'À SES FRAUDEURS : que se passe-t-il quand la fraude est DÉCOUVERTE APRÈS COUP ?** L1.C18 prévoit une restitution ordonnable. **Mais l'unité émise a circulé.** **Restituer une allocation indue suppose de reprendre une monnaie qui a déjà servi** — et **L11.C30 a établi que le corpus n'a aucune règle sur le sort des engagements pris sous un calibrage devenu faux.** **C'est le même trou, vu depuis la fraude.**
+
+## 6. Ce que ce chapitre n'établit pas
+
+::etat:: **Il n'ouvre aucune source sur la fraude elle-même**, et l'étude qu'il ouvre porte sur l'intégrité méthodologique d'un dispositif, ses auteurs écartant explicitement l'intention.
+
+::etat:: **Il reprend de L1.C18 quatre constats sans les revérifier**, et **il emploie les coûts du régime probatoire pour un usage que ce chapitre ne leur donnait pas** — en faire un paramètre de fraude. **C'est une inférence du corpus.**
+
+::etat:: **Et il lit un manuscrit d'auteur, dont la notice de dépôt annonce une licence que le document ne porte pas.** **Collationnement obligatoire, et les tableaux supplémentaires qui portent les chiffres de crédits émis ne sont pas ouverts.**

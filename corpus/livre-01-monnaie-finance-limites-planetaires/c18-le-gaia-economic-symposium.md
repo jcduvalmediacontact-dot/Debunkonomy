@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -271,9 +271,25 @@ verifications_en_attente:
      dette), L1.C21 (reflux collectif) quand ils existeront"
   - "Renvoi à ajouter vers le Livre 7, qui portera les statuts organiques et les
      protocoles de vote détaillés du GES"
+  - "**LES TROIS LIMITES ASSUMÉES PAR LE § 5 SONT REPRISES LE 2026-09-08 PAR
+     L15.C01, QUI OUVRE LE LIVRE CHARGÉ DE LES ÉPROUVER — ET IL COMMENCE PAR
+     CONFIRMER CE CHAPITRE.** Une étude par contrôles synthétiques sur **26 sites,
+     six pays, trois continents** établit que la plupart des projets de
+     déforestation évitée n'ont pas réduit significativement la déforestation, et
+     que **seuls 5,4 millions de crédits sur 89 millions attendus — 6,1 % —
+     seraient associés à une réduction additionnelle**. **L'ABANDON DU CONTREFACTUEL
+     DÉCIDÉ PAR CE CHAPITRE EST DONC VALIDÉ PAR UNE SOURCE DE PREMIER RANG, ET IL
+     L'A ÉTÉ AVANT ELLE.** **MAIS L15.C01 ÉTABLIT QUE LA SURFACE D'ATTAQUE EST
+     DÉPLACÉE, NON RÉDUITE** : elle se reporte sur le relevé de terrain que ce
+     chapitre déclare lui-même « exposé à la falsification locale », sur la bande
+     d'incertitude de 20 à 50 % qu'il chiffre, et sur le coût du contrôle.
+     **ET IL PROPOSE DE CHANGER LE STATUT DE CE DERNIER : le coût du contrôle est
+     un PARAMÈTRE DE FRAUDE, non une ligne budgétaire** — un contrôle qui absorbe
+     le quart du versement sera économisé, et le payeur comme le payé ont le même
+     intérêt à ce que l'expert ne vienne pas."
 resume: "Ce chapitre présente l'institution que le livre propose en réponse au premier des cinq problèmes ouverts en L1.C17 : la légitimité. Il corrige d'abord l'affirmation selon laquelle aucune institution ne représenterait le vivant — des conventions environnementales contraignantes existent, et la personnalité juridique d'entités naturelles est reconnue en Équateur, en Colombie et en Nouvelle-Zélande ; ce qui manque est plus étroit, aucune n'a de mandat monétaire. Les deux précédents de tutelle enseignent comment représenter ce qui n'a pas de volonté : l'intérêt de l'entité est défini par le texte qui l'institue, et porté par une tutelle duale — ce qui n'abolit pas la relation d'agence mais l'encadre. Le chapitre expose ensuite l'architecture que le livre substitue à sa conception initiale : quatre chambres à pouvoirs séparés et étanches — Assemblée des Communs, Office de Certification et d'Audit, Conseil Monétaire Mondial, Chambre de Recours et d'Équité — sous la règle que celui qui définit ce qui compte n'est jamais celui qui décide combien on émet. Cette séparation satisfait la condition qui interdit à une autorité non élue de cumuler choix distributifs et pouvoir d'émission. Le régime probatoire abandonne l'additionnalité contrefactuelle au profit d'états physiques mesurés, consolidés à l'échelle nationale et rémunérés par rente de maintien. Restent quatre problèmes non résolus : la connaissance dispersée, l'ancrage des anticipations, le privilège budgétaire parlementaire, et l'interdiction faite aux banques centrales de l'Union d'accepter des instructions d'un autre organisme."
 concepts: [creation_monetaire, essentiel_insolvable, qualification_regenerative, reflux_monetaire, robustesse, degeneratif]
-renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17]
+renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L15.C01]
 ---
 
 # Le GAÏA Economic Symposium

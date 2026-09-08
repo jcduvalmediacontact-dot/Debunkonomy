@@ -1443,9 +1443,9 @@ livres:
     motifs:
       - "discipline — économie de la fraude et de la capture"
       - "objection — capture du régulateur, falsification des relevés de terrain, double rôle de l'État : limites assumées en L1.C18 § 5"
-    statut: exploratoire
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
 
   - livre: 16
     titre: "Typologie comparée des systèmes et alternatives monétaires"

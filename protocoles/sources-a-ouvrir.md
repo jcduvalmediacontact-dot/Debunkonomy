@@ -2323,3 +2323,60 @@ MÊME THÈSE CHEZ CELUI QUI L'APPLIQUE.** Un document de travail, une reprise ta
 ou l'énoncé de la règle par l'institution qui s'en sert **valent citation à
 condition d'être déclarés pour ce qu'ils sont** : **un substitut n'est pas le
 texte, et le corpus doit écrire lequel il a lu.**
+
+
+## Ouvert le 2026-09-08 — LE LIVRE 15 EST OUVERT, ET SA PREMIÈRE SOURCE N'EST PAS SUR LA FRAUDE
+
+**West, Wunder, Sills, Börner, Rifai, Neidermeier, Frey et Kontoleon, « Action
+needed to make carbon offsets from tropical forest conservation work for climate
+change mitigation »** — **OUVERTE ET LUE** pour **L15.C01**, depuis le dépôt
+institutionnel de l'université de Cambridge. **26 sites, six pays, trois
+continents, contrôles synthétiques.**
+
+**DROITS — ET C'EST LA DEUXIÈME FOIS EN UNE JOURNÉE : la notice du dépôt annonce
+CC BY, LE DOCUMENT NE PORTE AUCUNE MENTION.** Régime `a_verifier`. **La règle
+établie le matin sur l'IPBES s'applique : le régime de droits se lit dans le
+document, jamais dans la notice.** **Et c'est un MANUSCRIT D'AUTEUR**, non la
+version de référence ; **les tableaux supplémentaires portant les chiffres de
+crédits émis ne sont pas ouverts.**
+
+**CE QU'ELLE APPORTE :** seuls **5,4 millions de crédits sur 89 millions attendus
+— 6,1 %** — seraient associés à une réduction additionnelle ; 18 projets avaient
+émis 62 millions de crédits dont 14,6 millions déjà utilisés. **Et la cause est
+LE SCÉNARIO DE RÉFÉRENCE, non une destruction dissimulée.**
+
+**RÉSERVE DE QUALIFICATION, ET ELLE EST DÉCISIVE POUR CE LIVRE : CE N'EST PAS UNE
+ÉTUDE DE FRAUDE.** Les auteurs concluent à une surestimation méthodologique et
+écrivent que les promoteurs ont pu surestimer « **(unintentionally)** ».
+**Le corpus ne doit pas présenter ce résultat comme une fraude.**
+
+### Acquisitions que le Livre 15 inscrit
+
+**RANG 1 — LES ARCHITECTURES DE FRAUDE RÉELLEMENT DOCUMENTÉES.** Le livre n'a
+**aucune** source sur son objet propre. À obtenir : **la fraude carrousel sur les
+quotas d'émission européens** (2008-2009), **la capture de certificateur**, et
+**la falsification de relevés de terrain**. **La première intéresse doublement le
+corpus, L11.C27 ayant établi que l'assiette de la fonte est celle de la TVA.**
+
+**RANG 1 — UN MODÈLE D'ADVERSAIRE, ET CE N'EST PAS UNE ACQUISITION MAIS UN
+TRAVAIL.** Le corpus n'a jamais établi **qui gagne quoi à falsifier une
+qualification régénérative**, ni comment le gain diffère entre le régime des états
+physiques et celui des audits de moyens. **Tant qu'il n'est pas écrit, le livre ne
+peut rien recenser : il ne saurait pas quoi chercher.**
+
+## État des matricules non commencés au 2026-09-08
+
+**L15 EST OUVERT** ce jour : l'amorce du 7 septembre est remplacée, le registre
+passe à un chapitre et le statut du livre à `en-cours`.
+
+**L09 — Atlas comparé des économies du monde — RESTE À L'AMORCE.** Sa fonction
+est de constituer **des fiches nationales comparables et actualisables**, puis des
+synthèses régionales et **une matrice d'adaptation du dispositif**. **C'est un
+livre de DONNÉES, non d'argument** : l'ouvrir suppose d'abord de décider quelles
+séries le corpus tient pour comparables — et le corpus vient d'établir en
+L18.C13 et L26.C12 que **la comparabilité internationale est précisément ce qui
+manque**. **À arbitrer avant d'écrire.**
+
+**L00 — NE DOIT PAS ÊTRE ÉCRIT.** Arbitrage du 2026-09-04 : le Livre 0 se réalise
+**à LA FIN des premières passes, jamais avant**, parce qu'il indexe des chapitres
+qui bougent encore. **Respecté.**
