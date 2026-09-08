@@ -55,9 +55,23 @@ verifications_en_attente:
      DOCUMENTS SONT TECHNIQUES.** **Le corpus n'a pas vérifié si ces réserves
      survivent dans les communiqués et les résumés aux décideurs — or c'est là que
      le chiffre agit.**"
+  - "**CE CHAPITRE A OUVERT UN DOCUMENT ET N'EN A LU QU'UNE PAGE, ET C'EST ÉTABLI LE
+     MÊME JOUR PAR L18.C16.** Il est allé chercher dans le rapport de 2011 **un
+     aveu de substituabilité** — qu'il a trouvé — **et a laissé dans le même
+     document TROIS PIÈCES qu'il cherchait ailleurs** : **(1)** l'énoncé de la règle
+     de Hartwick, attribué « Hartwick 1977 ; Solow 1986 », avec la définition entre
+     tirets — « **consumption can be maintained — THE DEFINITION OF SUSTAINABLE
+     DEVELOPMENT** » ; **(2)** une section entière qui TESTE l'application de la
+     règle, avec contrefactuel chiffré sur cinq pays et le constat que « **many
+     resource-rich developing countries do not reinvest the rents** » ; **(3)** la
+     définition opératoire de **l'épargne nette ajustée**, qui est l'indicateur de
+     Pearce et Atkinson calculé pour chaque économie. **DÉFAUT DE LECTURE, NON DE
+     PROCÉDURE.** **RÈGLE : quand un document est ouvert POUR UN MOTIF, ce qu'il
+     contient d'autre n'est pas lu, et le corpus ne le sait pas** — même forme que
+     la négligence que L20.C24 a dû s'appliquer le même jour."
 resume: "Ce chapitre ouvre le premier adversaire réel qu'un falsifieur du corpus ait jamais eu, à savoir la comptabilité de la richesse publiée par une institution mondiale, qui agrège le capital naturel aux autres formes de capital et produit un indicateur d'épargne ajustée. Il établit que cette comptabilité ne dissimule pas l'hypothèse que le falsifieur de l'incommensurabilité lui reproche, mais qu'elle la déclare dans une section qui porte ce titre, en écrivant que la combinaison de toutes les formes de richesse en une mesure unique suppose un très haut degré de substituabilité et que cette mesure ne rend compte ni des limites très réelles à la substituabilité, ni des seuils qui menacent le capital naturel, ni des irréversibilités possibles. Il établit ensuite que la même source distingue le capital naturel des autres formes, en relevant que son potentiel de substitution est souvent limité et que ses pertes peuvent être irréversibles, tandis qu'un capital produit détruit peut ordinairement être remplacé. Il relève que les biens publics et la biodiversité y sont mal représentés, que les aires protégées y sont valorisées à une borne inférieure faute de mieux, et que la valeur de la biodiversité y est déclarée inconnue. Il en tire que le désaccord entre les deux camps ne porte pas sur la possibilité d'agréger mais sur ce qu'un agrégat autorise à conclure, ce qui déplace le falsifieur au lieu de le confirmer ou de le réfuter. Il note enfin que la source recommande de tenir cet agrégat comme un indicateur parmi d'autres et non comme le seul, position structurellement identique à la règle de publication simultanée que le corpus a arrêtée la veille par un tout autre chemin."
 concepts: [valorisation_des_communs, indicateur_de_progres, fausse_richesse]
-renvois: [L11.C13, L12.C01, L17.C05, L18.C01, L18.C10, L24.C05, L26.C10, L18.C12, L18.C14]
+renvois: [L11.C13, L12.C01, L17.C05, L18.C01, L18.C10, L24.C05, L26.C10, L18.C12, L18.C14, L18.C16]
 ---
 
 # L'adversaire déclare l'hypothèse qu'on lui reproche

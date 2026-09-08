@@ -2265,3 +2265,61 @@ ouverte et que L20.C25 n'a pas fermée.**
 **RANG 2 — L'ACCORD DE RELATION AVEC LES NATIONS UNIES et les conventions
 générales sur les privilèges et immunités des institutions spécialisées**, qui
 complètent le régime de l'article IX des statuts du Fonds.
+
+
+## Le 2026-09-08 au soir — SUBSTITUTIONS LIBRES AU CORPUS ADVERSE DE F13
+
+**L'auteur a demandé de chercher des substitutions gratuites aux textes
+inaccessibles. En voici trois, et LA MEILLEURE ÉTAIT DÉJÀ DANS LES ACQUISITIONS DU
+CORPUS.**
+
+**SOLOW — OBTENU, ET C'EST SON PROPRE TEXTE.** *Intergenerational Equity and
+Exhaustible Resources*, **MIT Department of Economics Working Paper n° 103,
+février 1973**, 42 pages, scan à couche de texte lisible. **Obtenu de DSpace@MIT
+via l'API REST** après refus de l'éditeur. **RÉSERVE : document de travail, non
+l'article publié de 1974 — et c'est UNE NOTE DE BAS DE PAGE qui porte le résultat
+le plus lourd, précisément ce qui varie entre versions.**
+
+**HARTWICK 1977 — SUBSTITUÉ PAR CWON 2011, QUE LE CORPUS DÉTENAIT DÉJÀ.** Le
+rapport énonce la règle, l'attribue « Hartwick 1977 ; Solow 1986 », la définit
+— « **consumption can be maintained — the definition of sustainable
+development** » — et la TESTE, avec contrefactuel chiffré sur cinq pays.
+**L18.C11 avait ouvert ce document et n'avait lu que l'aveu de substituabilité.**
+
+**PEARCE & ATKINSON 1993 — SUBSTITUÉ PAR L'ÉPARGNE NETTE AJUSTÉE**, définie et
+calculée par économie dans le même rapport. **Le corpus tient l'INSTRUMENT sans
+l'ARTICLE.**
+
+**NEUMAYER — AUCUNE SUBSTITUTION TROUVÉE.** Sa contribution propre est **la
+taxonomie faible/forte**, que F13 emploie pour se poser. **Aucune source libre ne
+la porte de sa main.** **ACQUISITION MAINTENUE, et c'est un manque STRUCTUREL.**
+
+### ACQUISITION DE RANG 1 QUI PRIME DÉSORMAIS SUR TOUT LE LIVRE 18
+
+**LES ESTIMATIONS EMPIRIQUES DE L'ÉLASTICITÉ DE SUBSTITUTION entre ressources
+naturelles et capital.** **Solow établit qu'au-dessous de l'unité la consommation
+soutenable est NULLE**, et qualifie l'hypothèse contraire de « educated guess at
+the moment » — **en 1973**. **C'est la grandeur qui décide de F13, et le corpus
+n'a rien lu dessus.**
+
+### HÔTES : CE QUI RÉPOND ET CE QUI REFUSE, AU 2026-09-08
+
+**RÉPONDENT** — et ce sont des API, non des pages : **Zenodo**
+(`zenodo.org/api/records?q=...&sort=bestmatch`), **le Recueil des traités des
+Nations unies** (`treaties.un.org/doc/Publication/UNTS/Volume%20N/vN.pdf`),
+**DSpace 7 par son API REST** (`/server/api/discover/search/objects` puis
+`/core/items/<uuid>/bundles` puis `/core/bundles/<uuid>/bitstreams`) — vérifié sur
+**MIT** et sur **Queen's** —, **White Rose**, **documents.un.org**, **OpenAlex**.
+
+**REFUSENT** : Wiley (Cloudflare), **LSE researchonline ET eprints.lse** (Cloudflare,
+trois tentatives), **ageconsearch.umn.edu** (202 vide, y compris sur fichier direct),
+Figshare (202/403), MDPI, ScienceDirect, HAL, ACS, SOAS, Oskar-Bordeaux (404).
+**Semantic Scholar répond 429 — THROTTLÉ, NON BLOQUÉ : retentable.**
+
+### RÈGLE DE MÉTHODE QUE CETTE PASSE ÉTABLIT
+
+**AVANT DE DÉCLARER UN TEXTE INACCESSIBLE, CHERCHER LE MÊME AUTEUR AILLEURS ET LA
+MÊME THÈSE CHEZ CELUI QUI L'APPLIQUE.** Un document de travail, une reprise tardive,
+ou l'énoncé de la règle par l'institution qui s'en sert **valent citation à
+condition d'être déclarés pour ce qu'ils sont** : **un substitut n'est pas le
+texte, et le corpus doit écrire lequel il a lu.**

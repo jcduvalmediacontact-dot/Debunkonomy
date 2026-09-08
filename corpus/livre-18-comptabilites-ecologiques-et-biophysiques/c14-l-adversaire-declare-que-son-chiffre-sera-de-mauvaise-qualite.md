@@ -26,12 +26,18 @@ verifications_en_attente:
      ÉVALUE**, ni les modèles hydrologiques mondiaux, ni la méta-analyse dont il
      dit que les prix seraient tirés. **Il rapporte le jugement de la Banque
      mondiale SUR sa propre littérature, non ce que cette littérature contient.**"
-  - "**LE CORPUS NE TIENT TOUJOURS PAS LE VERSANT THÉORIQUE DU CAMP ADVERSE DE
-     F13.** Solow, Hartwick, Pearce et Atkinson, Neumayer : **aucun n'est ouvert.**
-     Pearce et Atkinson 1993 est déclaré fermé par les registres d'accès libre ;
-     Dietz et Neumayer sur la comptabilité écosystémique est derrière un mur
-     anti-robot **déclaré et non franchi le 2026-09-08**. **F13 tient désormais
-     DEUX pièces de la PRATIQUE du camp adverse et AUCUNE de sa THÉORIE.**"
+  - "**LE VERSANT THÉORIQUE EST OUVERT POUR UN AUTEUR SUR QUATRE, DEPUIS LE
+     2026-09-08 AU SOIR.** **SOLOW est ouvert** (MIT WP 103, 1973, par L18.C16),
+     obtenu du dépôt institutionnel du MIT après refus de l'éditeur. **RESTENT
+     FERMÉS :** Hartwick 1977 (mur anti-robot) — le corpus n'en tient que **la
+     règle telle que la Banque mondiale l'énonce** ; Pearce et Atkinson 1993
+     (**déclaré fermé** par les registres d'accès libre) — le corpus n'en tient que
+     **l'indicateur opérationnalisé sous le nom d'épargne nette ajustée** ;
+     Neumayer, **qui porte la taxonomie faible/forte et dont aucune source libre ne
+     l'énonce de sa main** ; et Dietz et Neumayer sur la comptabilité
+     écosystémique, **mur Cloudflare déclaré et non franchi après trois
+     tentatives**. **LE CORPUS PEUT DONC JUGER LA RÈGLE ET L'INDICATEUR, ET LE
+     RAISONNEMENT DE SOLOW SEUL.**"
   - "**LA CANDEUR RELEVÉE ICI N'EST PAS MESURÉE.** Le chapitre observe que
      l'adversaire déclare ses limites plus nettement que le corpus ne le supposait,
      et que c'est la deuxième fois. **DEUX OCCURRENCES NE SONT PAS UNE TENDANCE**,
@@ -39,9 +45,20 @@ verifications_en_attente:
      présenterait ses résultats sans ces réserves — **notamment ses communiqués et
      ses résumés à l'intention des décideurs, où la réserve pourrait ne pas
      survivre.** **À VÉRIFIER, et c'est la vérification qui déciderait.**"
+  - "**LE BILAN DRESSÉ PAR CE CHAPITRE EST CORRIGÉ DANS SON CORPS LE MÊME JOUR PAR
+     L18.C16.** Il écrivait que F13 ne tenait **aucune pièce de la THÉORIE** du camp
+     adverse. **Le document de travail de Solow (MIT WP 103, 1973) a été ouvert le
+     soir même**, obtenu du dépôt institutionnel du MIT après refus de l'éditeur.
+     **ET IL DIT PLUS QUE CE CHAPITRE N'ESPÉRAIT :** Solow nomme la condition de son
+     résultat — une élasticité de substitution **non inférieure à l'unité** — la
+     qualifie de « **the educated guess at the moment** », et écrit qu'en dessous
+     « **the only level of aggregate consumption maintainable for infinite time is
+     ZERO** ». **LA CANDEUR RELEVÉE PAR CE CHAPITRE EST DONC UNE TROISIÈME
+     OCCURRENCE, ET LA PLUS FORTE** — et elle affaiblit d'autant l'accusation de
+     dissimulation que F13 porte."
 resume: "Ce chapitre ouvre une pièce du corpus adverse que l'auteur avait nommé pour le falsifieur portant sur la soutenabilité faible, à savoir les travaux de comptabilité de la richesse de la Banque mondiale, dans leur rapport technique de deux mille vingt-quatre consacré à l'ajout de l'eau. Il en tire six énoncés, tous formulés par l'institution elle-même. Le premier est la thèse adverse énoncée sans détour, la série établissant la richesse globale comme une mesure de la soutenabilité. Le deuxième est que le coût de la dépletion et de la dégradation de l'eau n'est reconnu dans les estimations de richesse nationale d'aucun pays. Le troisième est que ni le bilan de la comptabilité nationale ni les comptes de richesse actuels ne donnent une image complète du capital naturel et de sa dépletion. Le quatrième est que sur trois méthodes de valorisation examinées, deux sont déclarées non réalisables et la troisième produira probablement des estimations de mauvaise qualité, tout en masquant les variations d'un lieu à l'autre. Le cinquième est que le prix de marché de l'eau est inutilisable parce que l'eau est un bien essentiel dont le prix est presque toujours subventionné et dont les fournisseurs sont des entreprises publiques qui ne cherchent pas le profit. Le sixième est que ces actifs possèdent une valeur intrinsèque au-delà des considérations monétaires. Le chapitre en tire que le falsifieur reçoit une seconde pièce de la pratique du camp adverse et toujours aucune de sa théorie, et il relève que pour la deuxième fois l'adversaire ouvert par le corpus déclare ses limites plus nettement que le corpus ne le supposait, ce qui est un fait sur la méthode du corpus autant que sur son adversaire."
 concepts: [essentiel_insolvable, valorisation_des_communs, indicateur_de_progres, fausse_richesse, communs]
-renvois: [L11.C13, L18.C05, L18.C10, L18.C11, L18.C12, L18.C13, L25.C01]
+renvois: [L11.C13, L18.C05, L18.C10, L18.C11, L18.C12, L18.C13, L25.C01, L18.C16]
 ---
 
 # L'adversaire déclare que son chiffre sera de mauvaise qualité
@@ -76,9 +93,9 @@ renvois: [L11.C13, L18.C05, L18.C10, L18.C11, L18.C12, L18.C13, L25.C01]
 
 ## 4. Ce que cela apporte à F13, et ce que cela n'apporte pas
 
-::etat:: **F13 tient désormais DEUX pièces de la PRATIQUE du camp adverse** — CWON 2011 par L18.C11, ce rapport technique ici — **et AUCUNE de sa THÉORIE.** Solow, Hartwick, Pearce et Atkinson, Neumayer : **aucun n'est ouvert.** **Pearce et Atkinson 1993 est déclaré fermé par les registres d'accès libre ; Dietz et Neumayer sur la comptabilité écosystémique est derrière un mur anti-robot, déclaré et non franchi le 2026-09-08.**
+::etat:: **F13 tient DEUX pièces de la PRATIQUE du camp adverse** — CWON 2011 par L18.C11, ce rapport technique ici — **et, DEPUIS LE MÊME JOUR, UNE PIÈCE DE SA THÉORIE : le document de travail de Solow (1973), ouvert par L18.C16.** **L'énoncé « aucune de sa théorie » que portait ce chapitre était exact à l'heure où il a été écrit et ne l'est plus.** **Restent fermés le raisonnement de Hartwick, celui de Pearce et Atkinson, et la taxonomie de Neumayer.** Solow, Hartwick, Pearce et Atkinson, Neumayer : **aucun n'est ouvert.** **Pearce et Atkinson 1993 est déclaré fermé par les registres d'accès libre ; Dietz et Neumayer sur la comptabilité écosystémique est derrière un mur anti-robot, déclaré et non franchi le 2026-09-08.**
 
-::hypothese:: **Et il faut dire ce que cela signifie pour l'arbitrage de F13 : le falsifieur ne peut toujours pas être tranché.** **Une pratique qui déclare ses limites n'est pas une théorie qui les défend.** **Le corpus sait comment le camp adverse OPÈRE et ignore comment il se JUSTIFIE** — or F13 porte sur une thèse, non sur une pratique.
+::hypothese:: **Et il faut dire ce que cela signifie pour l'arbitrage de F13 : le falsifieur ne peut toujours pas être tranché, MAIS LA RAISON A CHANGÉ LE MÊME JOUR.** Ce chapitre soutenait qu'une pratique qui déclare ses limites n'est pas une théorie qui les défend. **L18.C16 a ouvert la théorie, et elle déclare ses limites plus nettement encore : Solow nomme la condition de son résultat, la qualifie de « educated guess », et écrit qu'en dessous de l'unité la consommation soutenable est NULLE.** **F13 ne bute donc plus sur un manque de sources : il bute sur UNE GRANDEUR QUE PERSONNE ICI N'A MESURÉE.** **Le corpus sait comment le camp adverse OPÈRE et ignore comment il se JUSTIFIE** — or F13 porte sur une thèse, non sur une pratique.
 
 ## 5. Deux confirmations, dont une qui vient d'un quatrième camp
 

@@ -3016,6 +3016,61 @@ la même institution — or c'est là que le chiffre agit.** **Tant que cette
 comparaison n'est pas faite, la candeur constatée porte sur UN GENRE DE DOCUMENT,
 non sur une institution.**
 
+### F13 — L'ACCUSATION DE DISSIMULATION TOMBE UNE TROISIÈME FOIS LE 2026-09-08, ET LE FALSIFIEUR CHANGE DE NATURE. REFORMULATION PROPOSÉE, NON ARBITRÉE.
+
+**LE VERSANT THÉORIQUE DU CAMP ADVERSE EST OUVERT POUR LA PREMIÈRE FOIS**, par
+substitution libre : **Solow, MIT Working Paper n° 103, février 1973**, obtenu du
+dépôt du MIT après refus de l'éditeur (L18.C16). **RÉSERVE : document de travail,
+non l'article publié de 1974.**
+
+**CE QUE SOLOW ÉCRIT LUI-MÊME, ET C'EST PLUS QUE CE QUE F13 LUI REPROCHE DE
+TAIRE.**
+- **La condition est nommée :** sa conclusion « depends on the presumption that the
+  **elasticity of substitution** between natural resources and labor-and-capital-goods
+  **is no less than unity** ».
+- **Son statut est déclaré :** « which would certainly be **the EDUCATED GUESS at
+  the moment** » — une conjecture, non une mesure.
+- **Et l'alternative est publiée :** si le produit moyen des ressources est borné,
+  « **the only level of aggregate consumption maintainable for infinite time is
+  ZERO** ». Sa note 13 ferme les deux côtés : au-dessus de l'unité les ressources
+  ne sont pas indispensables, en dessous le produit moyen est borné, **« so only
+  the Cobb-Douglas remains ».**
+
+**TROISIÈME ÉCHEC DE L'ACCUSATION DE DISSIMULATION.** L18.C11 : la Banque mondiale
+écrit « assumes a very high degree of substitutability ». L18.C14 : elle annonce
+que son estimation sera de mauvaise qualité. **L18.C16 : le fondateur de la
+position nomme la condition, la qualifie de conjecture et publie son alternative.**
+**F13 NE PEUT PLUS PORTER SUR CE QUI EST CACHÉ.**
+
+**REFORMULATION PROPOSÉE — ET ELLE N'EST PAS ARBITRÉE, ELLE RELÈVE DE L'AUTEUR.**
+*Que l'élasticité de substitution entre ressources naturelles d'une part et travail
+et biens capitaux d'autre part soit INFÉRIEURE À L'UNITÉ ; auquel cas, de l'aveu de
+Solow, le niveau de consommation agrégée soutenable pour un temps infini est nul,
+et toute comptabilité de patrimoine fondée sur le maintien de la consommation
+mesure une grandeur qui n'existe pas.*
+
+**CE QUE CETTE REFORMULATION GAGNE :** F13 cesse d'être une querelle de doctrine et
+devient **UNE QUESTION EMPIRIQUE À UN PARAMÈTRE**, réfutable dans les deux sens.
+**CE QU'ELLE COÛTE :** le corpus doit produire ou citer une estimation de cette
+élasticité, **et il n'en a AUCUNE**.
+
+**ACQUISITION DE RANG 1, ET ELLE PRIME DÉSORMAIS SUR TOUTES LES AUTRES DE CE
+FALSIFIEUR : les estimations empiriques de l'élasticité de substitution entre
+ressources naturelles et capital.** Solow la disait « educated guess » en 1973 ;
+**cinquante-trois ans ont passé et le corpus n'a rien lu.**
+
+**ÉTAT DU CORPUS ADVERSE AU SOIR DU 2026-09-08.**
+- **THÉORIE :** Solow **ouvert** (document de travail). Hartwick, Pearce et
+  Atkinson, Neumayer **fermés**.
+- **SUBSTITUTIONS TENUES :** la **règle de Hartwick** telle que la Banque mondiale
+  l'énonce — « consumption can be maintained — **THE DEFINITION OF SUSTAINABLE
+  DEVELOPMENT** » — et **l'indicateur de Pearce et Atkinson** opérationnalisé en
+  épargne nette ajustée. **Le corpus juge la RÈGLE et l'INDICATEUR, non les
+  RAISONNEMENTS.**
+- **PRATIQUE :** deux pièces (L18.C11, L18.C14).
+- **MANQUE STRUCTUREL :** **Neumayer porte la taxonomie faible/forte que F13 emploie
+  pour se poser, et le corpus ne l'a jamais lue de sa main.**
+
 ## F14 — L'additivité structurelle
 
 **PROPOSÉ LE 2026-09-08 PAR L26.C05, après ouverture de la publication
