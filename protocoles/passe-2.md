@@ -4928,3 +4928,39 @@ auquel l'article VI renvoie pour les appels de capital. **(3) Les statuts
 CONSOLIDÉS COMPLETS des deux institutions**, dont le corpus ne tient qu'un article
 chacun. **Le corpus tient les articles qui RENVOIENT, non les textes AUXQUELS ils
 renvoient.**
+
+## Règle de citation versée le 2026-09-08 — UN CHIFFRE DE COMPTABILITÉ SE CITE AVEC SON ÉDITION
+
+**LE CAS QUI L'ÉTABLIT, ET IL S'EST PRODUIT DANS LA MÊME NUIT.** L18.C22 a
+rapporté, d'après un ouvrage tiers, que la comptabilité de la richesse des
+nations faisait croître le capital naturel par habitant de 26 % entre 1995 et
+2018, et il a opposé ce chiffre au constat que sept limites planétaires sur neuf
+sont franchies. **Quelques heures plus tard, L18.C23 a ouvert de première main
+l'édition en vigueur de cette comptabilité : elle donne un RECUL de plus de 20 %
+du capital naturel renouvelable par habitant sur 1995-2020.**
+
+**CE QUI A CHANGÉ N'EST PAS SEULEMENT LA PÉRIODE.** L'édition récente calcule ses
+mesures réelles au moyen d'un **indice de volume enchaîné** au lieu d'un
+**déflateur fondé sur les prix**, et l'institution présente ce changement comme
+un alignement sur les meilleures pratiques internationales — ce qu'il est
+vraisemblablement. **Une amélioration de méthode n'est pas une nouvelle du
+monde.**
+
+**RÈGLE.** **Un chiffre de comptabilité ne se cite jamais sans son ÉDITION, sa
+PÉRIODE et sa CONVENTION.** Et lorsqu'un chiffre est repris d'un ouvrage tiers,
+**le corpus doit dire de quelle édition ce tiers le tenait**, faute de quoi il
+présente comme la position d'une institution ce qui n'est que son état à une
+date.
+
+**CE QUI A ÉTÉ CORRIGÉ DANS L18.C22.** Le titre du chapitre et celui de sa
+section 2, qui affirmaient que deux comptabilités décrivent deux mondes ; le
+résumé ; et le corps, qui expose désormais la PROPRIÉTÉ — une valeur peut monter
+quand la quantité descend — sans l'adosser à un chiffre périmé. **Le fichier a
+été renommé, l'identifiant L18.C22 conservé.** **Ce qui subsiste intact du
+chapitre est le désaccord entre la Banque mondiale et le Programme des Nations
+unies, dont la corrélation rapportée est de 0,144, et la leçon de l'indice bâti
+pour conclure.**
+
+**LA RÈGLE PRÉCÉDENTE EST CONFIRMÉE ET ÉTENDUE.** L19.C09 avait établi qu'une
+révision de norme comptable peut DÉPLACER un résultat. **Ce cas établit qu'elle
+peut en INVERSER LE SIGNE.**

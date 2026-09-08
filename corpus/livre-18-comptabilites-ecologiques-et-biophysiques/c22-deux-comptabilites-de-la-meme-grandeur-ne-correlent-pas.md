@@ -1,6 +1,6 @@
 ---
 chapitre: L18.C22
-titre: "Deux comptabilités officielles décrivent deux mondes, et l'indice bâti pour conclure a perdu"
+titre: "Deux comptabilités de la même grandeur ne corrèlent pas, et l'indice bâti pour conclure a perdu"
 livre: 18
 langue: fr
 licence: CC-BY-SA-4.0
@@ -43,12 +43,19 @@ verifications_en_attente:
      par des choix méthodologiques qu'il documente, non une preuve d'intention.**
      **Ce que le corpus retient est la LEÇON DE STRUCTURE — des hypothèses
      peuvent garantir une conclusion — et non le procès d'intention.**"
-resume: "Ce chapitre ouvre le chapitre du traité de référence consacré à la mesure de la soutenabilité faible, et il en tire quatre résultats dont deux visent le corpus. Le premier est que deux comptabilités officielles de la même grandeur décrivent deux mondes, la Banque mondiale estimant que la richesse par habitant du monde a crû de quarante-quatre pour cent entre mille neuf cent quatre-vingt-quinze et deux mille dix-huit, tandis que le Programme des Nations unies pour l'environnement trouve une croissance de deux virgule trois pour cent sur une période presque identique, l'écart atteignant cent trente-neuf contre un pour la région de l'Asie de l'Est et du Pacifique, et une étude de deux mille vingt-quatre rapportant entre les deux mesures une corrélation de zéro virgule cent quarante-quatre. Le deuxième est que la comptabilité de la Banque mondiale fait croître de vingt-six pour cent la valeur du capital naturel par habitant du monde, dans la même période où le cadre des limites planétaires en déclare sept franchies sur neuf, en sorte que deux systèmes de comptes également officiels donnent du même monde des descriptions inverses. Le troisième est que la règle d'allocation d'un dommage transfrontière n'a pas de réponse simple, l'auteur écrivant que ce n'est pas une question de comptabilité mais de responsabilité, et qu'à défaut d'accord international on obtient soit un double compte soit aucun compte. Le quatrième, et c'est le plus utile au corpus, est qu'un indice concurrent bâti par le camp de la soutenabilité forte a perdu sa crédibilité parce que ses hypothèses garantissaient sa conclusion, un facteur d'escalade des coûts et l'accumulation des dommages y créant artificiellement l'effet de seuil que ses auteurs voulaient montrer, et l'un de ses inventeurs ayant lui-même écrit que l'existence d'un indice numérique de bien-être est une invitation permanente au sophisme de la concrétude mal placée."
+  - "**LES CHIFFRES DE L'ÉDITION DE 2021 SONT TENUS COMME UN ÉTAT DATÉ, NON
+     COMME LA POSITION DE LA BANQUE MONDIALE.** L'édition en vigueur est celle
+     de 2024, ouverte de première main le 2026-09-08 par L18.C23, et elle donne
+     un RECUL du capital naturel renouvelable par habitant là où la précédente
+     donnait une hausse du capital naturel. **La méthode a changé entre les
+     deux.** **Aucun chiffre de comptabilité ne doit être cité dans le corpus
+     sans son ÉDITION, sa PÉRIODE et sa CONVENTION.**"
+resume: "Ce chapitre ouvre le chapitre du traité de référence consacré à la mesure de la soutenabilité faible, et il en tire quatre résultats dont deux visent le corpus. Le premier est que deux comptabilités officielles de la même grandeur décrivent deux mondes, la Banque mondiale estimant que la richesse par habitant du monde a crû de quarante-quatre pour cent entre mille neuf cent quatre-vingt-quinze et deux mille dix-huit, tandis que le Programme des Nations unies pour l'environnement trouve une croissance de deux virgule trois pour cent sur une période presque identique, l'écart atteignant cent trente-neuf contre un pour la région de l'Asie de l'Est et du Pacifique, et une étude de deux mille vingt-quatre rapportant entre les deux mesures une corrélation de zéro virgule cent quarante-quatre. Le deuxième est qu'une comptabilité en valeur du capital naturel peut monter pendant que la grandeur physique descend, l'édition de deux mille vingt et un des comptes de la Banque mondiale ayant donné une hausse de vingt-six pour cent du capital naturel par habitant, chiffre que l'édition en vigueur ne confirme pas puisqu'elle donne un recul, la méthode ayant changé entre les deux, en sorte que ce qui subsiste n'est pas le chiffre mais la propriété qu'il illustrait, et que le choix entre mesurer une valeur et mesurer une quantité est exactement celui qu'une institution de comptes vient de trancher dans ses propres livres. Le troisième est que la règle d'allocation d'un dommage transfrontière n'a pas de réponse simple, l'auteur écrivant que ce n'est pas une question de comptabilité mais de responsabilité, et qu'à défaut d'accord international on obtient soit un double compte soit aucun compte. Le quatrième, et c'est le plus utile au corpus, est qu'un indice concurrent bâti par le camp de la soutenabilité forte a perdu sa crédibilité parce que ses hypothèses garantissaient sa conclusion, un facteur d'escalade des coûts et l'accumulation des dommages y créant artificiellement l'effet de seuil que ses auteurs voulaient montrer, et l'un de ses inventeurs ayant lui-même écrit que l'existence d'un indice numérique de bien-être est une invitation permanente au sophisme de la concrétude mal placée."
 concepts: [indicateur_de_progres, fausse_richesse, bareme, contrepartie_comptable, decouplage]
 renvois: [L18.C18, L18.C19, L18.C20, L18.C21, L24.C07, L11.C30, L19.C09, L12.C01]
 ---
 
-# Deux comptabilités officielles décrivent deux mondes, et l'indice bâti pour conclure a perdu
+# Deux comptabilités de la même grandeur ne corrèlent pas, et l'indice bâti pour conclure a perdu
 
 ::etat:: **La soutenabilité faible se mesure en principe sans difficulté** [S1] : on regarde comment varie la valeur du stock de capital total par habitant. **Deux institutions le font** — la Banque mondiale, sous le nom de richesse des nations, et le Programme des Nations unies pour l'environnement, sous celui de richesse inclusive.
 
@@ -66,15 +73,15 @@ renvois: [L18.C18, L18.C19, L18.C20, L18.C21, L24.C07, L11.C30, L19.C09, L12.C01
 
 ::hypothese:: **LE CORPUS RETIENT LE DÉSACCORD, PAS L'ARBITRAGE.** **Ce qui est établi est que deux mesures institutionnelles de la même grandeur, produites par deux organisations internationales, divergent au point de ne presque pas corréler.** **Que l'une soit meilleure que l'autre est le jugement d'un auteur, et le corpus ne l'adopte pas.** **Ce qui compte pour lui est que la soutenabilité faible, présentée comme mesurable, ne l'est pas de façon reproductible.**
 
-## 2. Le capital naturel augmente de vingt-six pour cent pendant que sept limites sont franchies
+## 2. Une valeur peut monter quand la quantité descend, et le chiffre qui l'illustrait a changé d'édition
 
-::etat:: **Le tableau que l'auteur rapporte donne la décomposition mondiale, 1995-2018** [S1, d'après la Banque mondiale, 2021] : **total +44 %, capital produit +38 %, capital humain +49 %, ET CAPITAL NATUREL +26 %.**
+::etat:: **Le tableau que l'auteur rapporte est celui de l'ÉDITION DE 2021 des comptes de la Banque mondiale, pour 1995-2018** [S1] : **total +44 %, capital produit +38 %, capital humain +49 %, capital naturel +26 %** ; l'Afrique subsaharienne étant la seule région dont le capital naturel par habitant recule, à −36 %.
 
-::etat:: **La seule région dont le capital naturel par habitant recule est l'Afrique subsaharienne, à −36 %**, avec un total néanmoins positif à +19 % [S1]. **L'Asie du Sud affiche +149 % de capital naturel par habitant, et les pays à faible revenu +72 %.**
+::etat:: **CES CHIFFRES NE SONT PLUS CEUX DE L'ÉDITION EN VIGUEUR, ET LE CORPUS L'A VÉRIFIÉ DE PREMIÈRE MAIN.** L'édition de 2024, ouverte par L18.C23, donne pour 1995-2020 **un RECUL de plus de 20 % du capital naturel renouvelable par habitant** et un léger recul du non renouvelable. **La méthode a changé entre les deux éditions** — indice de volume enchaîné au lieu de déflateur de prix. **Le corpus tient les chiffres de 2021 comme un état daté, et non comme la position de la Banque mondiale.**
 
-::hypothese:: **DEUX SYSTÈMES DE COMPTES ÉGALEMENT OFFICIELS DONNENT DU MÊME MONDE DEUX DESCRIPTIONS INVERSES.** **D'un côté, la valeur du capital naturel par habitant augmente d'un quart en vingt-trois ans.** **De l'autre, sept des neuf limites planétaires sont franchies et le niveau de transgression a augmenté pour toutes celles qui l'étaient déjà** [L24.C07, L24.C01]. **Ce n'est pas une contradiction logique** — une valeur monétaire peut croître pendant qu'une quantité physique se dégrade, par les prix, par la découverte de réserves, par la substitution comptable. **C'est précisément pour cela que c'en est une démonstration.**
+::hypothese:: **CE QUI SUBSISTE EST UNE PROPRIÉTÉ, ET ELLE VAUT INDÉPENDAMMENT DU CHIFFRE.** **Une comptabilité en VALEUR du capital naturel peut monter pendant que la grandeur physique descend** — par les prix, par la découverte de réserves, par la substitution comptable. **Un dispositif qui adosserait son émission à une valeur, et non à une quantité, hériterait de cette propriété.** **Le corpus doit vérifier que sa qualification régénérative porte sur des grandeurs physiques et non sur des valeurs, et le déclarer.**
 
-::hypothese:: **CE QUE CELA ÉTABLIT POUR LE DISPOSITIF EST UNE CONTRAINTE DE FORME.** **Une comptabilité en VALEUR du capital naturel peut monter pendant que la grandeur physique descend.** **Un dispositif qui adosserait son émission à une valeur, et non à une quantité, hériterait de cette propriété.** **Le corpus doit vérifier que sa qualification régénérative porte sur des grandeurs physiques et non sur des valeurs — et le déclarer.**
+::hypothese:: **ET LE PASSAGE D'UNE ÉDITION À L'AUTRE MONTRE QUE LE CHOIX ENTRE VALEUR ET QUANTITÉ EST EXACTEMENT CE QUI A ÉTÉ MODIFIÉ.** L'édition récente pondère des variations d'actifs PHYSIQUES par leur importance économique, là où la précédente déflatait des valeurs. **La distinction que ce chapitre pose comme une contrainte de conception est celle qu'une institution de comptes vient de trancher dans ses propres livres.**
 
 ## 3. La règle d'allocation d'un dommage transfrontière n'a pas de réponse simple
 
