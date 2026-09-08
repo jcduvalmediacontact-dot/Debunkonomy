@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -25,9 +25,20 @@ verifications_en_attente:
      fonction, confronte le mandat aux acquis des autres livres et fixe la grille
      du livre. **Écrire ce livre, c'est écrire ce chapitre-là à la place de
      celui-ci.**"
+  - "**UNE COMMANDE EST ADRESSÉE À CE LIVRE LE 2026-09-08, ET ELLE VIENT D'UN FAIT DE
+     CLASSEMENT.** L19.C06 établit que les organisations internationales sont
+     « resident in AN ECONOMIC TERRITORY OF THEIR OWN », de sorte que **le bilan de
+     l'institution émettrice N'ENTRE DANS LES COMPTES DE PERSONNE** — ni du pays où
+     elle siège, ni d'aucun membre. **Aucune statistique publique ne fera donc
+     apparaître son déficit, et aucune règle nationale ne s'y appliquera de ce fait.**
+     **CE N'EST PAS UNE PROTECTION, C'EST UNE ABSENCE DE CONTRÔLE.** **Le dispositif ne
+     peut pas se réclamer à la fois de l'invisibilité statistique et de la
+     redevabilité : s'il veut la seconde, il doit la PRODUIRE LUI-MÊME** — publication
+     volontaire, audit externe, règle inscrite aux statuts — **parce que le système
+     statistique mondial ne la produira pas pour lui.**"
 resume: "Ce chapitre est une amorce déposée le 7 septembre 2026 pour que le dossier du matricule 14 existe dans l'arborescence avant qu'aucun chapitre ne soit écrit. Il n'instruit rien et ne verse aucun résultat au corpus. Il enregistre seulement ce que le registre des livres assigne à ce matricule, c'est-à-dire son titre, sa collection, son statut, la fonction que le plan directeur lui donne et les motifs qui ont justifié sa déclaration, afin qu'un lecteur ouvrant ce dossier sache ce que le livre doit porter et sache aussi que rien n'en est fait. Il rappelle que le matricule est permanent et ne se réattribue ni ne se renumérote, que le registre n'est qu'une projection du plan directeur de l'auteur et que le plan tranche en cas d'écart. Il déclare enfin qu'il sera remplacé et non complété, puisque tous les livres ouverts du corpus s'ouvrent par un chapitre qui instruit la fonction du livre, la confronte aux acquis des autres livres et fixe la grille des questions que le livre entend faire subir à son objet."
 concepts: []
-renvois: []
+renvois: [L19.C06]
 ---
 
 # Ce que ce livre doit établir

@@ -50,9 +50,17 @@ verifications_en_attente:
      ce qu'il n'est pas. **L'objection tient donc, sous condition de statut
      institutionnel — c'est-à-dire SOUS A37, posé le 2026-09-07 et non
      arbitré.**"
+  - "**LE CHAMP D'APPLICATION DES RÈGLES OPPOSÉES AU DISPOSITIF N'EST PAS OUVERT, ET
+     C'EST POURTANT LA QUESTION.** Versé le 2026-09-08 par L19.C06. Le corpus tient
+     le principe 15 par ce chapitre et le ratio de levier par L21.C04. **Ces règles
+     ne s'appliquent pas à qui que ce soit : elles s'appliquent à DES ENTITÉS
+     QUALIFIÉES** — une infrastructure désignée, un établissement agréé. **Aucun texte
+     établissant ce champ n'a été lu.** **Tant qu'il ne l'est pas, l'objection
+     prudentielle ne peut être ni opposée ni écartée : elle est EN SUSPENS, ce qui
+     n'est pas la même chose qu'être réfutée.** **Acquisition de rang 1 du Livre 21.**"
 resume: "Ce chapitre ouvre le vingt et unième livre en tenant la frontière que l'auteur a posée, le dixième livre comparant les systèmes nationaux et celui-ci étudiant les réseaux transnationaux qui les relient, et il commence par instruire quatre des dix-sept principes que le corpus détenait sans les avoir lus. Le premier d'entre eux entre en collision directe avec une écriture que le corpus venait de corriger. Le principe relatif au risque d'entreprise général exige d'une infrastructure qu'elle détienne des actifs nets liquides financés par des fonds propres, en quantité suffisante pour poursuivre son activité en continuité d'exploitation si des pertes surviennent, et pour financer un rétablissement ou une liquidation ordonnée. Or le onzième livre établit que l'émission d'allocations laisse les fonds propres négatifs du montant émis, et la correction du même jour a retiré l'analogie qui présentait ce résultat comme ordinaire. Une entité qui émet en donnant ne peut donc pas satisfaire un principe qui exige des fonds propres positifs et liquides, sauf à séparer l'émetteur de l'infrastructure, ce qui est possible mais que le corpus n'a jamais dit. Le chapitre instruit ensuite trois autres principes qui appliquent au collatéral, aux investissements et à l'exposition de crédit le même test de risque minimal que le principe déjà connu appliquait à l'actif de règlement, et il en conclut que ce test n'est pas une exigence isolée mais la règle générale du texte. Il fixe enfin trois questions opposables à toute infrastructure qui porterait l'unité."
 concepts: [contrepartie_comptable, creation_monetaire, hierarchie_monetaire, monnaie_comme_registre, seuil_d_activation]
-renvois: [L1.C20, L5.C02, L5.C09, L10.C01, L10.C02, L11.C02, L18.C01, L21.C01, L19.C02]
+renvois: [L1.C20, L5.C02, L5.C09, L10.C01, L10.C02, L11.C02, L18.C01, L21.C01, L19.C02, L19.C06]
 ---
 
 # Ce que ce livre doit établir, et le principe qui exige des fonds propres

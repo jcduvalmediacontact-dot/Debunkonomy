@@ -1495,7 +1495,7 @@ livres:
       - "objection — L11.C02 : l'écriture du Symposium laisse les fonds propres négatifs du montant émis, et l'analogie qui la justifiait était fausse"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 5
+    chapitres_acquis: 6
     note: >
       MATRICULE DÉCLARÉ LE 2026-09-07, ET C'EST UNE CORRECTION D'ECART, NON UNE
       CREATION. Le plan directeur reserve ce numero a la comptabilite monetaire
@@ -1759,6 +1759,63 @@ livres:
       MESUREE, seul le simulateur du Livre 13 pouvant la chiffrer et il n'existe
       pas ; et AUCUNE CONSEQUENCE DISTRIBUTIVE N'EST TIREE, le corpus ne tenant
       aucune donnee sur la distribution des encaisses.
+      L19.C06 REPOND A LA QUESTION 3 EN LA SCINDANT : ELLE MELANGEAIT TROIS
+      REGISTRES QUE LE CORPUS TRAITAIT COMME UN SEUL.
+      REGISTRE COMPTABLE : REGLE, ET FAVORABLE. La norme ecrit qu'une entite "is
+      seen to have A NET WORTH (WHICH COULD BE POSITIVE OR NEGATIVE)". DES FONDS
+      PROPRES NEGATIFS SONT REPRESENTABLES, ce n'est ni une anomalie ni une
+      infraction, et aucun ajustement n'est requis.
+      REGISTRE PRUDENTIEL : OUVERT ET CONDITIONNE POUR LA QUATRIEME FOIS. Le
+      principe 15 et le ratio de levier ne s'appliquent pas a qui que ce soit
+      mais A DES ENTITES QUALIFIEES, et savoir si l'emetteur en est une EST A37.
+      QUATRIEME FOIS EN CINQ CHAPITRES QUE A37 DECIDE -- il decide qui porte le
+      passif (C02), si le reflux exige une competence fiscale (C03), quel bilan
+      porte le deficit (C04), et si l'objection prudentielle s'applique (C06). CE
+      N'EST PLUS UNE QUESTION OUVERTE PARMI D'AUTRES : C'EST LE NOEUD DE TOUT LE
+      LIVRE. Et le corpus enregistre qu'AUCUN TEXTE ETABLISSANT LE CHAMP
+      D'APPLICATION DE CES REGLES N'EST OUVERT, de sorte que l'objection est EN
+      SUSPENS -- ce qui n'est pas la meme chose qu'etre refutee.
+      REGISTRE STATUTAIRE : OUVERT, ET PERSONNE NE L'AVAIT NOMME. Une situation
+      nette negative met en cause UN ACTIONNAIRE, UNE REGLE DE DISTRIBUTION ET UNE
+      CONTINUITE D'EXPLOITATION, non un superviseur. C'EST LE SEUL DES TROIS
+      REGISTRES OU LE DISPOSITIF DISPOSE D'UN DEGRE DE LIBERTE, tant que
+      l'institution reste a creer.
+      ET UN FAIT DE CLASSEMENT QUE LE CORPUS IGNORAIT. "For purposes of the SNA,
+      international organizations are treated as units that are RESIDENT IN THE
+      REST OF THE WORLD" ; elles sont "resident in AN ECONOMIC TERRITORY OF THEIR
+      OWN and not of the economy in which they are physically located" ; et il
+      serait "IN PRINCIPLE possible [...] to compile A FULL SET OF ACCOUNTS FOR
+      THEM" -- une possibilite de principe qu'on prend la peine d'enoncer est une
+      pratique qui n'a pas lieu. LE BILAN DE L'EMETTEUR N'ENTRE DANS LES COMPTES
+      DE PERSONNE, ni du pays ou il siege ni d'aucun membre, ET SES FONDS PROPRES
+      NEGATIFS NE FIGURENT DANS AUCUN COMPTE NATIONAL. Cela eclaire aussi
+      l'exception du paragraphe 22.151 : la norme ne classe un producteur non
+      marchand parmi les societes que dans UN SEUL CAS NOMME, LA BANQUE CENTRALE.
+      UNE CORRECTION DE CE QUE CE LIVRE A ECRIT LE JOUR MEME. L19.C02 lisait
+      "claims on the participants collectively and not on the IMF" comme une
+      DOCTRINE sur qui porte la dette. SI LE DEBITEUR EST HORS DE TOUTE ECONOMIE,
+      AUCUN COMPTE NATIONAL NE PEUT PORTER LE PASSIF -- ET LES COMPTES DOIVENT
+      POURTANT BOUCLER. Assigner la creance aux participants pourrait donc etre UN
+      ARTEFACT DE RESIDENCE et non une these sur la dette. Le corpus ne peut pas
+      trancher, la source enoncant le traitement sans le motiver, MAIS IL NE PEUT
+      PLUS INVOQUER CE PRECEDENT COMME UNE VALIDATION DE A35 SANS PORTER CETTE
+      RESERVE.
+      CE QUE L'INVISIBILITE DONNE ET CE QU'ELLE COUTE. Elle donne qu'aucune
+      statistique publique ne fera apparaitre le deficit et qu'aucune regle
+      nationale ne s'y appliquera de ce fait -- avantage reel. ELLE COUTE PLUS
+      LOURD : une institution dont le bilan n'entre dans aucun compte national
+      N'EST SURVEILLEE PAR AUCUNE STATISTIQUE PUBLIQUE. CE N'EST PAS UNE
+      PROTECTION, C'EST UNE ABSENCE DE CONTROLE -- et le corpus a passe un livre
+      entier, le 14, a soutenir que la preuve doit etre gouvernee. LE DISPOSITIF
+      NE PEUT PAS SE RECLAMER A LA FOIS DE L'INVISIBILITE STATISTIQUE ET DE LA
+      REDEVABILITE : s'il veut la seconde, IL DOIT LA PRODUIRE LUI-MEME.
+      RESERVES : l'explication par la residence est UNE HYPOTHESE DU CORPUS,
+      marquee comme telle, et elle demanderait les travaux preparatoires de la
+      revision de 2008, non ouverts ; aucune regle prudentielle n'est ouverte
+      dans le chapitre, de sorte que le champ d'application reste inconnu ; le
+      registre statutaire est NOMME ET NON INSTRUIT ; et l'invisibilite
+      statistique est ETABLIE quand ses consequences sur la surveillance sont UNE
+      INFERENCE -- routee vers L7 et L14, non instruite ici.
 
   - livre: 21
     titre: "La plomberie financière mondiale"

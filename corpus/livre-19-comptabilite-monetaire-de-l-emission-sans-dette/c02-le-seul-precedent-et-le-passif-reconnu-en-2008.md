@@ -45,9 +45,22 @@ verifications_en_attente:
      privé.** **Rien de ce qui est établi ici ne vaut au-delà du cercle des
      autorités monétaires**, et l'extension à un détenteur privé est une
      conception, non une lecture."
+  - "**RÉSERVE PORTÉE LE JOUR MÊME PAR L19.C06, ET ELLE ATTEINT LE RÉSULTAT
+     CENTRAL DE CE CHAPITRE.** Ce chapitre lit « claims on the participants
+     collectively and not on the IMF » comme une DOCTRINE sur qui porte la dette, et
+     en tire que la construction de A35 est représentable. **L19.C06 établit que
+     les organisations internationales sont « resident in AN ECONOMIC TERRITORY OF
+     THEIR OWN », donc que le bilan de l'émetteur n'entre dans AUCUN compte
+     national.** **Si le débiteur est hors de toute économie, aucun compte ne peut
+     porter le passif — et les comptes doivent pourtant boucler.** **Assigner la
+     créance aux participants pourrait donc être un ARTEFACT DE RÉSIDENCE et non une
+     thèse sur la dette.** **La source énonce le traitement sans le motiver et les
+     travaux préparatoires ne sont pas ouverts : le corpus ne peut pas trancher.**
+     **Mais il ne peut plus invoquer ce précédent comme une validation de A35 sans
+     porter cette réserve.**"
 resume: "Ce chapitre répond à la première question de la grille du livre en établissant qu'un précédent existe, qu'il fonctionne depuis un demi-siècle et que la norme statistique mondiale a dû trancher exactement la question que le corpus laissait ouverte. Une institution internationale crée des unités, les alloue à ses participants sans contrepartie préalable, et ces unités donnent à leur détenteur un droit assuré et inconditionnel d'obtenir des devises. La norme les classe comme des avoirs assortis de passifs correspondants, mais elle précise que la créance porte sur les participants pris collectivement et non sur l'institution émettrice. Ce traitement est récent, et le chapitre relève que c'est un changement délibéré, l'annexe des révisions portant l'intitulé selon lequel un passif en droits de tirage spéciaux est désormais reconnu, ce qui signifie que la version antérieure de la norme n'en reconnaissait pas. Le corpus en tire trois résultats. Le premier est que la construction que son propre arbitrage avait retenue, selon laquelle la collectivité porte la dette, est écrite dans une norme statistique mondiale depuis deux mille huit, ce qu'il ignorait. Le deuxième est que l'émetteur n'étant pas le débiteur, le problème des fonds propres négatifs de l'émetteur ne se pose pas sous ce traitement, ce qui déplace une objection que deux chapitres tenaient pour acquise. Le troisième est le prix de ces deux premiers, puisque la norme range explicitement l'instrument parmi les instruments de dette et que l'allocation porte intérêt, cet intérêt se compensant exactement à l'échelle du système tant que personne ne se sert de son allocation, et devenant une charge nette dès qu'un participant en dispose."
 concepts: [contrepartie_comptable, reflux_collectif, hierarchie_monetaire, creation_monetaire, devise_cle]
-renvois: [L3.C09, L10.C06, L11.C01, L11.C02, L19.C01, L20.C09, L21.C01, L21.C03, L21.C05]
+renvois: [L3.C09, L10.C06, L11.C01, L11.C02, L19.C01, L20.C09, L21.C01, L21.C03, L21.C05, L19.C06]
 ---
 
 # Le seul précédent, et le passif lui a été reconnu en 2008
