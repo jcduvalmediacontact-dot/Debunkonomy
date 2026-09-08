@@ -44,9 +44,19 @@ verifications_en_attente:
      distribuée**, ni si la charge qui en résulte est progressive ou
      régressive. **Le corpus ne tient aucune donnée sur la distribution des
      encaisses**, et c'est une acquisition qui relève du Livre 25."
+  - "**LA COMMANDE ADRESSÉE PAR CE CHAPITRE AU LIVRE 13 EST DÉSORMAIS PORTÉE
+     PAR UN LIVRE OUVERT, ET ELLE N'EST PAS PAYÉE POUR AUTANT — 2026-09-08, par
+     L13.C01.** Ce chapitre conclut qu'un chiffrage est nécessaire et que **seul
+     le simulateur du Livre 13 pourrait le produire**. **Le Livre 13 est ouvert ;
+     le simulateur n'existe toujours pas.** **Ce que le corpus a gagné est
+     précis et limité** : la famille de modèles est identifiée et un exemplaire
+     est lu, **et cinq contraintes de conception sont désormais inscrites dans le
+     livre qui doit produire le chiffre.** **Une contrainte s'ajoute ici** : le
+     simulateur ne peut pas être écrit avant A37, puisque la forme juridique de
+     l'émetteur décide des bilans que le modèle doit tenir."
 resume: "Ce chapitre répond à la deuxième question de la grille du livre en établissant qu'un débiteur collectif n'existe pas dans la norme statistique mondiale, et en montrant que le corpus tient pourtant déjà, sans l'avoir vu, ce qui rend sa construction représentable. La norme définit une unité institutionnelle comme une entité capable, en son propre nom, de détenir des actifs et de contracter des obligations, et elle exige d'un passif qu'il oppose deux unités nommées, le débiteur et le créancier, la créance étant inconditionnelle. Une société prise comme totalité ne satisfait à aucune de ces conditions. Le précédent ouvert au deuxième chapitre du livre paraît pourtant y contrevenir, puisque la créance y porte sur les participants pris collectivement. Le chapitre montre que la contradiction n'est qu'apparente, parce que chaque participant y est lui-même une unité institutionnelle individuellement obligée pour sa propre part, le collectif n'étant qu'une agrégation et non une entité. Il en déduit ce que le dispositif doit satisfaire, puis établit que la réponse est déjà dans le corpus, le chapitre précédent ayant montré qu'une fonte inscrite dans les termes est un intérêt dû par le détenteur. Le débiteur n'est donc pas la société mais le détenteur, à proportion de ce qu'il détient. Trois conséquences en découlent que le corpus n'avait pas tirées, dont la principale est que le point sur lequel un arbitrage antérieur restait bloqué reçoit enfin un mécanisme, puisque l'assiette qui garantit la dette est précisément celle que le succès du dispositif réduit."
 concepts: [reflux_collectif, contrepartie_comptable, demurrage, monnaie_fondante, hierarchie_monetaire]
-renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01, L25.C05]
+renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01, L25.C05, L13.C01]
 ---
 
 # Un débiteur collectif n'existe pas — sauf comme somme de débiteurs identifiés

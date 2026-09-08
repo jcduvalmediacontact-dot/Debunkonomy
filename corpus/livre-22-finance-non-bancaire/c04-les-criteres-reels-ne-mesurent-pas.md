@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -59,6 +59,14 @@ verifications_en_attente:
      sous cette section depuis son entrée en vigueur ? Le corpus ne le sait
      pas, et **c'est la question qui dirait si ce barème fonctionne ou s'il est
      resté lettre morte.**"
+  - "**LA CONTRAINTE POSÉE PAR CE CHAPITRE EST INSCRITE AU LIVRE 13 LE
+     2026-09-08, PAR L13.C01, ET ELLE Y DEVIENT LA CINQUIÈME EXIGENCE DE
+     CONCEPTION.** Ce chapitre a établi que les activités de conservation et de
+     restauration **« ne relèvent d'AUCUN CODE NACE SPÉCIFIQUE »**, et que le
+     barème en vigueur **certifie un procédé au lieu de mesurer**, produisant des
+     dossiers et non des séries. **L13.C01 en tire que le simulateur NE POURRA
+     PAS S'ALIMENTER À LA SOURCE DE LA QUALIFICATION**, et qu'il lui faudra une
+     autre voie — laquelle n'est pas trouvée."
 resume: "Ce chapitre ferme l'acquisition que le précédent avait déclarée en rang un, et le résultat est un renversement de la manière dont le corpus posait sa question de mesure. Les critères techniques en vigueur pour l'activité même que le dispositif entend qualifier, la conservation et la restauration des habitats, des écosystèmes et des espèces, sont ouverts et lus. Ils ne contiennent aucun seuil chiffré. Ils exigent quatre choses, toutes procédurales, une description détaillée et cartographiée de l'état écologique initial, un plan de gestion à onze rubriques actualisé au moins tous les dix ans, une vérification par un organisme tiers indépendant au démarrage puis au moins tous les dix ans avec publication du rapport, et une garantie de permanence obtenue par classement en aire protégée, par plan réglementaire d'utilisation des terres ou par accord contractuel public ou privé. Le corpus en tire que la question de la mesure est déplacée et non résolue, et que le déplacement a un prix qu'il peut désormais nommer, le coût du dossier et de son audit, qu'il n'a jamais estimé. Il en tire ensuite une pièce manquante décisive pour son propre barème, l'exclusion explicite de la compensation, le texte n'admettant que les gains nets. Il relève enfin que la garantie de permanence s'obtient sans propriété, par trois voies dont un simple contrat, ce qui précise le falsifieur sur le titre en montrant que la qualification et la comptabilité n'exigent pas la même chose."
 concepts: [qualification_regenerative, bareme, additionnalite, communs, valorisation_des_communs, indicateur_de_progres]
 renvois: [L6.C06, L11.C13, L11.C16, L11.C25, L13.C01, L14.C01, L18.C06, L22.C03]

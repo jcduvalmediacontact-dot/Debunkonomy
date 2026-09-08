@@ -1611,3 +1611,49 @@ comme sur le rebond, le corpus tient UN GROUPE DE RECHERCHE ET NON UN
 CONSENSUS.** **C'est la troisième fois en une journée que la
 vérification des auteurs modifie le statut d'un résultat ; la règle
 retenue le 2026-09-08 est confirmée.**
+
+
+# Ouverture du 2026-09-08 — LE LIVRE 13, ET LE MODÈLE QUI EXISTAIT DÉJÀ
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**Y. Dafermos, M. Nikolaidi et G. Galanis, « Climate change, financial stability
+and monetary policy », version d'octobre 2016** — pièce du dossier NEMO
+constitué par l'auteur le 2026-09-07. **DROITS : AUCUNE MENTION DE LICENCE
+N'EST PORTÉE PAR CE DOCUMENT DE TRAVAIL — régime `a_verifier` maintenu
+après lecture.** Ouvert pour **L13.C01**.
+
+**C'EST LA FAMILLE QUE L8.C37 AVAIT RECOMMANDÉE SANS SAVOIR QU'UN EXEMPLAIRE
+EXISTAIT** — un modèle macroéconomique écologique stock-flux-fonds,
+« **a novel synthesis of the stock-flow consistent approach** » et de
+l'apparat flux-fonds. **Le corpus avait donc le bon diagnostic méthodologique
+et ignorait qu'il était déjà réalisé.**
+
+## CE QUE CETTE OUVERTURE APPREND SUR L'USAGE DU FONDS, ET C'EST LA QUATRIÈME LEÇON EN DEUX JOURS
+
+**Le fichier était dans le dossier NEMO depuis le 2026-09-07, et le corpus a
+écrit L8.C37 en recommandant sa famille sans l'ouvrir.** **RÈGLE RETENUE :
+avant de déclarer qu'une méthode manque, vérifier qu'elle n'est pas
+déjà dans le fonds.** **Le facteur limitant n'est plus l'acquisition : c'est
+l'INVENTAIRE.**
+
+## ACQUISITIONS DE RANG 1 QUI EN DÉCOULENT POUR LE LIVRE 13
+
+**UNE FAMILLE CONCURRENTE, ET C'EST LA PLUS URGENTE.** Le corpus tient une seule
+famille de modèles et aucune critique de celle-ci. **C'est exactement le
+défaut qui lui a coûté deux rétractations** : une école sans son
+adversaire. À ouvrir : une critique publiée de la modélisation à
+cohérence de stocks et de flux, et au moins une famille rivale instruite.
+
+**LE MODÈLE FONDATEUR DE LA FAMILLE**, dont la pièce ouverte ici n'est
+qu'une application — le corpus tient une utilisation, pas la construction.
+
+**LA LITTÉRATURE DU CONTREFACTUEL.** **C'est la question la plus difficile de
+la grille du Livre 13 et aucune source du fonds ne la traite** : comment
+établir ce qui aurait eu lieu sans le dispositif. **Sans elle,
+l'`additionnalite` reste un mot.**
+
+**UNE SÉRIE OU UNE MÉTHODE POUR LE PARAMÈTRE QUI MANQUE** — la
+sensibilité de l'activité régénérative offerte au signal de
+l'allocation. **Le modèle ouvert déclare que son équivalent commande le
+résultat ; le corpus n'a ni la mesure ni le nom du sien.**

@@ -4304,3 +4304,43 @@ contradictoire.**
 seulement écrite dans un brouillon du jour ?** Tenue → elle reste, avec sa
 réfutation. Écrite et corrigée avant d'avoir rien versé → elle
 sort, et son motif vient ici.
+
+
+## Forme structurelle nommée le 2026-09-08 — LE SUCCÈS ÉRODE SA PROPRE BASE
+
+**Quatre occurrences indépendantes, trouvées dans quatre livres, sur quatre
+grandeurs différentes. Ce n'est plus une coïncidence : c'est une propriété
+de forme, et le corpus la nomme.**
+
+**(1) A30, par L19.C05.** La base qui garantit la dette collective est l'encours
+en circulation, **que le reflux réduit à mesure qu'il fonctionne.**
+
+**(2) LE REFLUX TRANSACTIONNEL.** Son assiette est la transaction dommageable,
+**qui disparaît si le dispositif réussit** — or les besoins
+régénératifs, eux, ne disparaissent pas.
+
+**(3) LA CONVENTION DE CONVERSION ÉLECTRIQUE, par L26.C08.** Le facteur qui
+convertit l'électricité en énergie primaire dépend de la composition du
+réseau. **Un barème calibré aujourd'hui devient faux à mesure que la
+transition avance.**
+
+**(4) L'INCITATION ELLE-MÊME, par L13.C01.** Dans le modèle stock-flux-fonds
+ouvert, des dommages plus faibles donnent « **LESS INCENTIVES for the
+materialisation of green investment projects** ». **Le succès réduit le
+motif du succès**, et l'effet est produit à l'intérieur du modèle, non
+ajouté après coup.
+
+**L'ÉNONCÉ GÉNÉRAL.** **Un dispositif qui agit sur une grandeur dont il
+dépend produit mécaniquement une boucle de ce type.** **Ce n'est pas un
+défaut de conception : c'est une propriété de la classe d'instruments à
+laquelle le dispositif appartient**, et les instruments fiscaux comportementaux
+la connaissent déjà — une taxe qui réussit vide son assiette.
+
+**CE QUE LE CORPUS N'A PAS, ET QUI EST LE MÊME DANS LES QUATRE CAS.** **AUCUN
+MÉCANISME DE RECALIBRAGE.** **Ni règle de révision, ni périodicité,
+ni autorité compétente pour la conduire, ni critère de déclenchement.**
+
+**CE QUE CELA APPELLE, ET CE N'EST PAS UN ARBITRAGE DE PLUS.** **Une PIÈCE DE
+CONCEPTION MANQUANTE**, à écrire une fois pour les quatre cas : **la règle
+de recalibrage du dispositif.** **Elle relève du Livre 11 pour les barèmes et
+du Livre 13 pour son épreuve**, et elle n'existe dans aucun des deux.

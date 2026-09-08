@@ -1236,11 +1236,60 @@ livres:
     motifs:
       - "rouage — quantification et test du dispositif"
       - "objection — P4, P18 : un simulateur est ce qui permettrait d'éprouver la calibration"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     note: >
-      DEBLOQUE EN PARTIE le 2026-09-06. Ce livre etait bloque par A8 — on ne
+      OUVERT LE 2026-09-08 PAR L13.C01, QUI REMPLACE L'AMORCE. CINQ CHAPITRES DE
+      QUATRE LIVRES SE TERMINAIENT SUR LA MEME PHRASE : le chiffrage qui deciderait
+      n'existe que si un simulateur existe, et il n'existe pas.
+      SOURCE OUVERTE : un modele macroeconomique ecologique STOCK-FLUX-FONDS (2016,
+      a_verifier, aucune mention de licence dans le document). C'EST EXACTEMENT LA
+      FAMILLE QUE L8.C37 AVAIT RECOMMANDEE SANS SAVOIR QU'UN EXEMPLAIRE EXISTAIT, et
+      elle procede d'une synthese entre la coherence stocks-flux et l'apparat
+      FLUX-FONDS du fondateur ouvert la veille par L26.C07 -- premiere chose que le
+      corpus peut heriter de cet auteur sans exceder ce qu'il a ecrit : UN APPAREIL
+      DE COMPTABILITE, NON UN LEVIER.
+      LE PRECEDENT PORTE SUR UN INSTRUMENT DE LA MEME ESPECE -- un achat d'obligations
+      vertes par les banques centrales -- ET SON VERDICT EST L'INSUFFISANCE. Il ameliore
+      la stabilite financiere, mais "green QE CANNOT BY ITSELF PREVENT A SUBSTANTIAL
+      RISE IN ATMOSPHERIC TEMPERATURE : even with the optimistic value, global warming
+      is still HIGHER THAN 3.5 C at the end of the century", et ses auteurs concluent
+      que d'autres politiques doivent etre mises en oeuvre CONJOINTEMENT. LE DISPOSITIF
+      N'EST PAS REFUTE PAR CE RESULTAT -- il alloue au lieu d'acheter et ne passe pas
+      par un rendement obligataire -- MAIS LE CORPUS NE PEUT PLUS SOUTENIR QU'UNE
+      REORIENTATION MONETAIRE SUFFISE SANS PRODUIRE UN MODELE QUI LE MONTRE.
+      DEUX BOUCLES ATTENUANTES APPARAISSENT DANS LE MODELE. Des dommages plus faibles
+      laissent l'activite croitre plus vite, donc pressent les emissions a la hausse --
+      LE REBOND Y EST ENDOGENE. Et des dommages plus faibles donnent "LESS INCENTIVES
+      for the materialisation of green investment projects" -- LE SUCCES REDUIT LE
+      MOTIF DU SUCCES. C'est la QUATRIEME OCCURRENCE d'une meme forme, apres A30, le
+      reflux transactionnel et la convention de conversion electrique : UN DISPOSITIF
+      QUI AGIT SUR UNE GRANDEUR DONT IL DEPEND PRODUIT MECANIQUEMENT UNE BOUCLE DE CE
+      TYPE, et le corpus n'a aucun mecanisme de recalibrage.
+      UN PARAMETRE DE COMPORTEMENT COMMANDE LE RESULTAT, et les auteurs le declarent
+      puis publient deux jeux de resultats au lieu d'en choisir un. LE DISPOSITIF A UN
+      PARAMETRE DE MEME FONCTION -- la sensibilite de l'activite regenerative offerte au
+      signal de l'allocation -- ET LE CORPUS NE L'A NI MESURE NI NOMME.
+      CINQ CONTRAINTES DE CONCEPTION SONT DESORMAIS INSCRITES DANS CE LIVRE, ecrites
+      par cinq chapitres avant qu'il ait un seul chapitre : montrer son propre echec
+      (L8.C37) ; aucun coefficient energetique unique mais frontiere, convention et
+      plage (L26.C08) ; declarer la methode de tout coefficient de rebond (L26.C09) ;
+      dire par quelle rubrique l'activite qualifiee entre dans le produit (L26.C10) ;
+      et traiter l'absence de code d'activite (L22.C04). AUCUNE N'EST SATISFAITE PAR LE
+      MODELE OUVERT : le corpus tient un patron et cinq exigences que le patron ne
+      remplit pas.
+      GRILLE DU LIVRE EN HUIT QUESTIONS : famille de modeles ; secteurs et bilans --
+      ET LE SIMULATEUR NE PEUT PAS ETRE ECRIT AVANT A37 ; comptabilite physique
+      multidimensionnelle ; parametres de comportement et lesquels sont mesures ;
+      contrefactuel -- la question la plus difficile, qu'aucune source ouverte ne traite ;
+      scenarios et sensibilite ; tests d'echec ; limites declarees.
+      RESERVES : aucun modele n'est construit et aucun chiffre n'en sort ; le modele
+      ouvert n'est PAS un modele du dispositif, seule sa STRUCTURE se transporte ; sa
+      calibration repose sur un espace de parametres que ses auteurs declarent
+      insuffisamment explore ; et AUCUNE FAMILLE CONCURRENTE N'EST INSTRUITE -- meme
+      defaut qu'aux deux tranches qui ont coute deux retractations au corpus.
+      ETAT ANTERIEUR : DEBLOQUE EN PARTIE le 2026-09-06. Ce livre etait bloque par A8 — on ne
       calibre pas un dispositif dont les baremes ne sont pas definis. A8 est
       rendu par L11.C17, et il n'y avait pas cinq baremes mais trois plus une
       entree. CE QUI EST ETABLI, CE SONT LES FORMES ; CE QUI NE L'EST PAS, CE
