@@ -2925,6 +2925,44 @@ décarbonée s'accompagne, avec un décalage, d'un retrait de capacité
 fossile. **Ou un mécanisme de fermeture intégré au dispositif, qui reste
 à concevoir.** **Aucun des deux n'est tenu.**
 
+### F14 reçoit une confirmation extérieure le 2026-09-08, et elle ne vient pas d'une source hostile
+
+**L17.C01 a ouvert la revue systématique de référence sur le
+découplage** — Haberl, Wiedenhofer, Virág, Kalt, Plank, Brockway et al.,
+*Environmental Research Letters* 2020, **835 articles évalués par les
+pairs**, CC BY 3.0.
+
+**SA CONCLUSION** : « **large rapid absolute reductions of resource use and GHG
+emissions CANNOT BE ACHIEVED THROUGH OBSERVED DECOUPLING RATES, hence decoupling
+needs to be COMPLEMENTED BY SUFFICIENCY-ORIENTED STRATEGIES AND STRICT
+ENFORCEMENT OF ABSOLUTE REDUCTION TARGETS** ».
+
+**ET LA LISTE DES INSTRUMENTS QU'ELLE NOMME EST CELLE QUE L26.C05 AVAIT
+DÉCLARÉE MANQUANTE, MOT POUR MOT** : « **moratoria on resource extraction and
+new infrastructures** (e.g. coal power plants, highways, airports), **bans on
+harmful activities** (e.g. fracking, coal mining), the reduction of working hours
+and redistributive taxation, **INSTEAD OF JUST PUTTING A PRICE ON RESOURCES AND
+EMISSIONS** ».
+
+**MORATOIRES. INTERDICTIONS. FERMETURES.** **Le corpus avait produit cette liste
+par un autre chemin, à partir d'une statistique énergétique annuelle ; il
+la retrouve ici dans une revue de 835 articles.** **Le dispositif appartient à
+la famille que cette phrase désigne comme insuffisante — « instead of JUST
+putting a price ».**
+
+**CE QUE CELA FAIT À F14, ET IL FAUT être exact.** **Cela répare sa
+faiblesse la plus immédiate** — F14 reposait sur une seule année de
+données, et il repose désormais aussi sur une revue systématique. **Cela ne
+l'arbitre pas** : F14 reste proposé et non arbitré, et la revue ne dit rien
+d'un instrument monétaire d'émission, dont elle ne traite pas.
+
+**ET LA MÊME REVUE PORTE UNE NUANCE QUE LE CORPUS ENREGISTRE PLUTÔT QUE DE
+LA TAIRE** : « **even energy sufficiency actions may be associated with REBOUND
+EFFECTS and negative spillovers** ». **La sobriété n'échappe pas au
+rebond** — l'objection de L26.C04 ne vise donc pas le seul dispositif, et F14
+ne désigne pas un remède exempt de l'objection qui frappe le remède qu'il
+critique.
+
 
 ## F7 — CE QUE L19.C03 LUI AJOUTE LE 2026-09-08 : LA RÈGLE N'EST PLUS SEULEMENT UNE QUESTION DE CRÉDIBILITÉ
 

@@ -1308,10 +1308,69 @@ livres:
     motifs:
       - "discipline — théories de l'après-croissance et indicateurs au-delà du PIB"
       - "objection — P9 : sortir de l'exigence de croissance de l'encours sans contraction"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
 
+    note: >
+      OUVERT LE 2026-09-08. L17.C01 remplace l'amorce et ouvre la revue
+      systematique de reference sur le decouplage -- Haberl, Wiedenhofer, Virag,
+      Kalt, Plank, Brockway et al., Environmental Research Letters 2020, 835
+      ARTICLES EVALUES PAR LES PAIRS, CC BY 3.0, regime libre.
+      CE QUE LA REVUE ETABLIT. Le decouplage RELATIF est frequent pour les
+      matieres et les gaz a effet de serre "BUT NOT FOR USEFUL EXERGY" ; et
+      l'energie primaire ne se decouple "LARGELY TO THE EXTENT to which the
+      conversion of primary energy to useful exergy is improved" -- ce qui
+      rejoint le deplacement etabli par L26.C01 et L26.C03, ou l'exergie
+      commande. Le decouplage ABSOLU de longue duree est RARE, et il s'affaiblit
+      des qu'on compte ce qui est importe ("WEAKLIER" sur les emissions de
+      consommation). CONCLUSION SANS AMBIGUITE : "large rapid absolute
+      reductions [...] CANNOT BE ACHIEVED THROUGH OBSERVED DECOUPLING RATES,
+      hence decoupling needs to be COMPLEMENTED BY SUFFICIENCY-ORIENTED
+      STRATEGIES AND STRICT ENFORCEMENT OF ABSOLUTE REDUCTION TARGETS".
+      OU LE DISPOSITIF SE RANGE : NULLE PART. La taxonomie du champ compte trois
+      classes -- green growth, degrowth, others. LE DISPOSITIF N'ENTRE DANS
+      AUCUNE DES DEUX PREMIERES : il ne soutient pas que le decouplage suffit, et
+      L18.C04 le lui interdit ; il ne donne aucune priorite a la reduction du
+      produit, ET IL EMET. LA TAXONOMIE N'A PAS DE CASE POUR UN INSTRUMENT
+      D'ALLOCATION -- ce n'est pas une critique du dispositif mais un fait sur la
+      litterature, qui classe des STRATEGIES et non des INSTRUMENTS. Il en
+      resulte que LE DISPOSITIF SE RECLAME D'UNE TRADITION QUI NE LE
+      RECONNAITRAIT PAS COMME SIEN, et qu'il devra soit revendiquer la troisieme
+      case soit etablir qu'un instrument d'allocation est une strategie d'un
+      genre distinct -- ce qui est un travail, pas une declaration.
+      F14 RECOIT UNE CONFIRMATION EXTERNE, ET ELLE NE VIENT PAS D'UNE SOURCE
+      HOSTILE. La revue nomme les instruments necessaires : "moratoria on
+      resource extraction and new infrastructures", "bans on harmful
+      activities", "INSTEAD OF JUST PUTTING A PRICE ON RESOURCES AND EMISSIONS".
+      MORATOIRES, INTERDICTIONS, FERMETURES -- MOT POUR MOT LA LISTE QUE L26.C05
+      AVAIT DECLAREE MANQUANTE, produite par un autre chemin a partir d'une
+      statistique energetique. Cela repare la faiblesse la plus immediate de F14,
+      qui reposait sur une seule annee ; CELA NE L'ARBITRE PAS.
+      ET UN RESULTAT FAVORABLE, DIT SANS LE MINORER. La revue nomme l'obstacle
+      principal a la sobriete : "states have so far REFRAINED from strategies of
+      sufficiency as these may contradict their claimed STRUCTURAL DEPENDENCE ON
+      ECONOMIC GROWTH for the generation of TAX REVENUE". C'EST EXACTEMENT
+      L'OBSTACLE QUE LE DISPOSITIF PRETEND DESSERRER, ET P9 RECOIT ICI L'ENONCE
+      DE SON VERROU. Ce que cela donne : la question de P9 est la bonne question.
+      Ce que cela ne donne pas : que le dispositif la desserre reste
+      entierement a demontrer.
+      GRILLE FIXEE A CINQ QUESTIONS, dont la cinquieme est le coeur du livre et
+      n'a jamais ete posee frontalement : LA SOBRIETE EST-ELLE COMPATIBLE AVEC
+      UNE EMISSION ? Le dispositif ajoute du pouvoir d'achat ; la sobriete
+      demande de reduire la production et la consommation.
+      RESERVES : AUCUN AUTEUR DU CHAMP N'EST OUVERT -- ni Daly, ni Jackson, ni
+      Kallis, ni Hickel, ni Parrique, ni aucun texte du Bonheur national brut ;
+      le corpus ouvre UNE REVUE qui classe et resume, et non le champ lui-meme,
+      DONC IL TIENT LA CARTE ET NON LE TERRAIN, et L26.C01 a montre l'avant-veille
+      ce que coute de tenir la critique sans l'original. Le premier motif du
+      registre -- indicateurs au-dela du PIB -- n'est pas touche, ni les
+      experiences que la fonction assignee appelle "concretisation
+      institutionnelle". La source ouverte est UN MANUSCRIT ACCEPTE et non la
+      version de record. Et AUCUNE CRITIQUE DE CETTE REVUE N'EST OUVERTE, alors
+      qu'elle partage un auteur avec la revue sur le rebond ouverte en L26.C04 --
+      MEME RISQUE QUE CELUI DECLARE PAR L24.C05 POUR LES LIMITES PLANETAIRES, ET
+      PAS MIEUX TRAITE.
   - livre: 18
     titre: "Comptabilités écologiques, sociales et biophysiques"
     collection: cahier-disciplinaire
