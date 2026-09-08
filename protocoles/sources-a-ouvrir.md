@@ -1584,12 +1584,16 @@ pièce L26-03. **DROITS : « Document License: CC BY », mention lue dans le
 document. `libre`.** **C'est la moitié manquante de la revue dont L17.C01
 n'avait ouvert que la partie II.** Ouvert pour **L26.C10**.
 
-## UNE CONTRADICTION INTERNE AU FONDS, ET LE CORPUS NE LA TRANCHE PAS
+## CE QUI AVAIT ÉTÉ PRIS POUR UNE CONTRADICTION INTERNE AU FONDS N'EN EST PAS UNE
 
-**La pièce L26-02 contredit frontalement la source de L26.C01** sur la
-substituabilité des ressources essentielles. **Les deux textes ne se citent
-pas.** **Le corpus enregistre une controverse ouverte et déclare ne pas
-pouvoir la trancher**, faute de mesure.
+**Une première rédaction annonçait que la pièce L26-02 contredisait
+frontalement la source de L26.C01. **CORRIGÉ LE 2026-09-08 PAR L'AUTEUR : LES
+DEUX PROPOSITIONS SONT COMPATIBLES.** L'une traite du **recyclage d'un stock
+constant** sous apport d'exergie, l'autre d'une **croissance permanente** butant
+sur un plancher d'intensité. **Rien dans l'une n'interdit l'autre, et le
+corpus l'avait correctement compris dans L26.C01 avant de reconstruire la
+contradiction.** **La conjonction est plus contraignante qu'un désaccord ne
+l'aurait été : elle laisse le régime permanent comme seule échappatoire.**
 
 **ACQUISITIONS DE RANG 1 QUI EN DÉCOULENT.** Une **réplication du
 modèle de 2016 sur une économie NON EXTRACTIVE** — la

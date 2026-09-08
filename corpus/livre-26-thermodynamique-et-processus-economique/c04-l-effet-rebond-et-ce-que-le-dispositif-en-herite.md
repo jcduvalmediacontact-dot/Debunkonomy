@@ -40,19 +40,23 @@ verifications_en_attente:
      partie et que L22.C02 en a établi le trajet. **Ce chapitre établit que
      l'objection a un nom et une littérature ; il n'établit pas son ampleur, et
      c'est un chiffrage que seul le simulateur du Livre 13 pourrait produire.**"
-  - "**LA SOURCE DE CE CHAPITRE EST REPLACÉE DANS SA SÉRIE LE 2026-09-08 PAR
+  - "**CORRIGÉ LE 2026-09-08 PAR L'AUTEUR. UNE PREMIÈRE VERSION DE CETTE ENTRÉE CONCLUAIT À UNE RÉVISION D'UN FACTEUR CINQ PAR UNE MÊME ÉQUIPE : LES DEUX AFFIRMATIONS SONT RETIRÉES. La source de ce chapitre est replacée dans son champ par
      L26.C09, ET LE RÉSULTAT EN SORT AFFAIBLI DANS SON STATUT, NON DANS SON SENS.**
      Ce chapitre s'appuie sur une revue de 2021 concluant que le rebond érode plus de
      la moitié des économies attendues. **Le rapport fondateur du champ, publié en
      2007, concluait à un rebond économique « AT LEAST 10 % and often higher », et à un
      rebond direct « LESS THAN 30 % » sur les usages domestiques et le transport.**
-     **L'estimation a donc été révisée d'un facteur voisin de CINQ — ET L'AUTEUR DE 2007
-     EST CO-AUTEUR DE LA REVUE DE 2021.** **Ce n'est pas une confirmation
-     indépendante : c'est une même équipe qui s'est corrigée à la hausse en quatorze
-     ans.** **Cela se lit dans les deux sens** — une équipe qui relève une estimation basse
-     qu'elle avait elle-même défendue n'est pas suspecte de biais de confirmation ;
-     **mais une révision n'est pas une réplication, et ce chapitre présente comme acquis
-     LE DERNIER ÉTAT D'UNE ESTIMATION MOBILE PRODUITE PAR UN SEUL GROUPE.**"
+     **CES DEUX QUANTITÉS NE SONT PAS COMPARABLES ET AUCUNE RÉVISION N'EN EST
+     DÉDUCTIBLE.** « Au moins 10 % » est une **BORNE INFÉRIEURE** ; 58 % et 71 % sont
+     des **MOYENNES**, portant en outre sur d'autres périmètres. **Une borne
+     inférieure de 10 % est compatible avec une moyenne de 71 % : les deux énoncés
+     peuvent être exacts en même temps sans qu'aucune correction ait eu lieu.**
+     **CE QUI SUBSISTE EST UNE RÉSERVE D'INDÉPENDANCE, ET ELLE EST RÉELLE** : l'auteur
+     unique du rapport de 2007 figure parmi les auteurs de la revue de 2021, **et le
+     corpus doit compter ses sources PAR AUTEURS ET NON PAR RÉFÉRENCES.** **Deux règles
+     de méthode en découlent** : vérifier les auteurs avant de compter deux confirmations,
+     **et vérifier la nature des quantités avant de les comparer** — la seconde étant
+     celle sur laquelle le corpus a lui-même fauté ici."
 resume: "Ce chapitre ouvre la revue de référence des effets rebond à l'échelle de l'économie entière et rapporte que trente-trois études, malgré des méthodes très différentes, convergent sur un ordre de grandeur situé au-dessus de la moitié des économies d'énergie attendues d'une amélioration d'efficacité, avec une moyenne de cinquante-huit pour cent pour les études d'équilibre général et de soixante et onze pour cent pour les autres, et des estimations qui dépassent parfois cent pour cent. Il relève aussi que les modèles employés pour produire les scénarios énergétiques mondiaux n'en tiennent pratiquement aucun compte, de sorte que ces scénarios sous-estiment vraisemblablement la croissance future de la demande. Le corpus tenait l'effet rebond au vocabulaire depuis son premier livre sans avoir jamais lu l'argument qui le fonde, et ce chapitre acquitte cette dette. Mais il établit surtout que la dette n'est acquittée que pour moitié, parce que la littérature mesure ce qui arrive quand un service énergétique devient moins cher, et que le dispositif n'est pas une politique d'efficacité. Il montre alors que le dispositif hérite du mécanisme le plus documenté de la revue, l'effet de revenu, dans une forme aggravée, puisque le pouvoir d'achat qu'il verse n'est pas une économie rendue disponible mais une addition, de sorte qu'il subit la reprise sans avoir produit l'économie qu'elle reprend. Il conclut en restreignant ce que le corpus peut tirer de cette littérature, le transfert de l'efficacité à l'allocation restant une inférence et non une lecture."
 concepts: [effet_rebond, jevons_monetaire, decouplage, sobriete, entropie, reflux_transactionnel]
 renvois: [L1.C03, L1.C12, L1.C17, L11.C10, L13.C01, L18.C04, L22.C02, L24.C03, L26.C01, L26.C03, L26.C09]

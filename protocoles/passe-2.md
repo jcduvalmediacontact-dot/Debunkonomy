@@ -4192,3 +4192,77 @@ précisément là que la cinquième condition est obligatoire.
 l'entrée `entropie` du vocabulaire contrôlé. **Le vocabulaire bloquant la
 publication, la règle devient opposable à TOUT CHAPITRE FUTUR sans qu'aucun
 chapitre existant soit touché.**
+
+
+### A41 — PRÉCISÉ LE 2026-09-08, LE JOUR MÊME DE SON ARBITRAGE : LA RÈGLE ÉTAIT TROP LARGE
+
+**CE QUI ÉTAIT MAL FORMULÉ.** L'entrée portée au vocabulaire exigeait
+les cinq conditions **pour tout emploi au sens physique**. **Or l'inventaire
+établi le même jour dispensait déjà, dans sa classe B, les
+énoncés explicatifs ou de portée qui ne soutiennent aucune
+déduction.** **Le vocabulaire était donc plus strict que l'inventaire qui
+l'appliquait, et il aurait bloqué des passages que l'inventaire déclarait
+licites** — dont celui de L1.C03 § 4 qui REFUSE à l'argument entropique le
+pouvoir de trancher le découplage.
+
+**LA RÈGLE CORRIGÉE.** **Les cinq conditions s'appliquent AUX SEULS EMPLOIS
+QUI SERVENT UNE CONCLUSION causale, institutionnelle ou normative.** **Sont
+dispensés** les énoncés explicatifs ou de portée qui ne soutiennent
+aucune déduction — exposé d'un principe, restriction d'une inférence,
+réfutation d'un argument — **ainsi que les mentions rapportant la position
+d'un tiers.** **Ces emplois restent tenus de NOMMER LA FRONTIÈRE DU
+SYSTÈME quand elle porte l'argument**, ce que deux passages de L1.C03 ne font
+pas.
+
+**CE QUE LA CORRECTION NE CHANGE PAS.** **Les six emplois de classe D restent
+à réécrire**, et l'ordre de traitement est inchangé : l'entrée
+de vocabulaire, puis le quatrième fondement de F11, puis L1.C15.
+**L'inventaire des 73 occurrences n'est pas modifié : il était juste, et
+c'est le vocabulaire qui débordait.**
+
+---
+
+## Correction du 2026-09-08 — TROIS CONCLUSIONS EXCESSIVES RETIRÉES DE L26.C09 ET L26.C10
+
+**L'auteur a relu les deux chapitres le jour de leur rédaction et y a
+identifié quatre excès de conclusion, tous dans le même sens : une
+inférence tirée au-delà de ce que la source établissait.** **Ils
+sont corrigés à l'endroit où ils se trouvaient, et non
+dissimulés.**
+
+**(1) L'ÉMISSION NE PRODUIT PAS MÉCANIQUEMENT DU PRODUIT INTÉRIEUR BRUT.**
+L26.C10 concluait que le dispositif fabrique « par construction » le
+découplage illusoire par financiarisation. **La norme statistique définit le
+produit comme le résultat d'une PRODUCTION et range l'émission parmi les
+TRANSACTIONS FINANCIÈRES, qui n'y entrent pas.** **La source parle de la
+financiarisation de COMPOSANTES du produit, non de la création
+monétaire.** **Conclusion retirée ; une DETTE COMPTABLE est versée au
+Livre 19 à la place** — par quel agrégat, sous quelle rubrique, avec
+quelle intensité physique associée.
+
+**(2) AYRES ET WARD NE SE CONTREDISENT PAS.** L'un traite du recyclage d'un
+**stock constant** avec apport d'exergie ; l'autre d'une **croissance permanente**
+avec plancher d'intensité. **Les deux propositions peuvent être vraies
+ensemble.** **Le corpus l'avait correctement compris dans L26.C01 avant de
+reconstruire la contradiction dans L26.C10.** **Et le résultat vrai est plus
+défavorable que la fausse controverse** : la conjonction laisse le régime
+permanent comme seule échappatoire.
+
+**(3) LES DEUX CHIFFRES DE REBOND NE SONT PAS COMPARABLES.** « Au moins 10 % »
+est une **borne inférieure** ; 58 % et 71 % sont des **moyennes** sur d'autres
+périmètres. **Aucun facteur de révision n'en est déductible**, et
+il n'y a pas « une même équipe » mais **un auteur commun**. **Ce qui
+subsiste est une réserve d'indépendance.**
+
+**(4) EXIGER DEUX TERMES PHYSIQUES SUPPRIME LE DÉCOUPLAGE ÉCONOMIQUE.**
+Celui-ci se définit comme la relation entre une pression environnementale et
+une **variable économique**. **Règle retenue à la place : publier
+SIMULTANÉMENT la pression physique absolue, l'empreinte importée et le
+ratio pression sur activité.**
+
+**RÈGLE DE MÉTHODE QUI EN SORT, ET ELLE VAUT POUR TOUT LE CORPUS.**
+**VÉRIFIER LA NATURE DES QUANTITÉS AVANT DE LES COMPARER** — une borne
+n'est pas une moyenne, un plafond n'est pas une valeur, un périmètre n'est
+pas un autre. **C'est la règle sur laquelle le corpus a fauté deux fois le
+même jour, après avoir passé la journée à établir que les
+conventions décident des chiffres.**

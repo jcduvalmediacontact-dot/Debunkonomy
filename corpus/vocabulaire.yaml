@@ -57,18 +57,26 @@
 - terme: entropie
   libelle: "Entropie"
   definition: "Grandeur thermodynamique qui décrit la dispersion de l'énergie et dont la production est non négative dans les transformations réelles d'un système isolé.
-               CONDITIONS D'EMPLOI, arbitrage A41 du 2026-09-08 : au sens
-               PHYSIQUE, le passage doit préciser la grandeur étudiée,
-               son unité ou son indicateur, la frontière du système,
-               la méthode de mesure ou de calcul, et le résultat
-               empirique susceptible de réfuter l'affirmation. À
-               défaut, le terme doit être explicitement qualifié de
-               MÉTAPHORE et NE PEUT SOUTENIR AUCUNE DÉDUCTION causale,
-               institutionnelle ou normative. Les emplois qui ne sont ni
-               mesurés ni déclarés métaphoriques sont
-               supprimés ou remplacés par un terme autonome : flux
+               CONDITIONS D'EMPLOI, arbitrage A41 du 2026-09-08, PRÉCISÉ
+               LE MÊME JOUR. Elles s'appliquent AUX SEULS EMPLOIS QUI
+               SERVENT UNE CONCLUSION causale, institutionnelle ou
+               normative. Un tel emploi doit préciser la grandeur
+               étudiée, son unité ou son indicateur, la frontière du
+               système, la méthode de mesure ou de calcul, et le
+               résultat empirique susceptible de réfuter l'affirmation.
+               À défaut, le terme doit être explicitement qualifié de
+               MÉTAPHORE et ne peut alors soutenir aucune déduction ;
+               s'il n'est ni mesuré ni déclaré métaphorique, il est
+               supprimé ou remplacé par un terme autonome : flux
                matériel, dissipation, exergie, énergie utile,
-               irréversibilité, dégradation, perte."
+               irréversibilité, dégradation, perte.
+               SONT DISPENSÉS DES CINQ CONDITIONS les énoncés
+               explicatifs ou de portée qui NE SOUTIENNENT AUCUNE
+               DÉDUCTION — exposé d'un principe, restriction d'une
+               inférence, réfutation d'un argument — ainsi que les
+               mentions rapportant la position d'un tiers. Ces emplois
+               restent tenus de NOMMER LA FRONTIÈRE DU SYSTÈME quand
+               elle porte l'argument."
   premiere_occurrence: L1.C03
 
 - terme: sobriete

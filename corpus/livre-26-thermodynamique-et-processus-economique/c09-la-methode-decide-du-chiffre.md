@@ -17,13 +17,15 @@ sources_primaires:
     date_verification: 2026-09-08
   - ref: S2
     nature: donnees
-    reference: "**S. Sorrell, *The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency*, UK Energy Research Centre, octobre 2007, ISBN 1-903144-0-35.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE DOCUMENT — le régime reste `a_verifier`**, c'est-à-dire citation courte avec attribution et aucun versement du fichier au dépôt. **C'est le rapport fondateur du champ, et son auteur est CO-AUTEUR DE LA REVUE DE 2021 sur laquelle L26.C04 s'appuie.**"
+    reference: "**S. Sorrell, *The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency*, UK Energy Research Centre, octobre 2007, ISBN 1-903144-0-35.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE DOCUMENT — le régime reste `a_verifier`**, c'est-à-dire citation courte avec attribution et aucun versement du fichier au dépôt. **C'est le rapport fondateur du champ. Son auteur unique est ÉGALEMENT L'UN DES AUTEURS de la revue de 2021 sur laquelle L26.C04 s'appuie — ce qui fonde une réserve d'indépendance, et RIEN DE PLUS : les deux textes n'ont ni la même équipe, ni le même périmètre, ni des quantités comparables.**"
     date_verification: 2026-09-08
 verifications_en_attente:
   - "**LES TROIS SOURCES DE REBOND QUE LE CORPUS TIENT NE SONT PAS
-     INDÉPENDANTES.** L'auteur du rapport de 2007 est co-auteur de la revue de
-     2021 ouverte par L26.C04. **Le corpus tient donc DEUX POSITIONS D'UNE MÊME
-     ÉQUIPE À QUATORZE ANS D'INTERVALLE, et non deux confirmations.** **La
+     INDÉPENDANTES.** L'auteur unique du rapport de 2007 figure parmi les
+     auteurs de la revue de 2021 ouverte par L26.C04. **Le corpus doit donc compter
+     ses sources PAR AUTEURS ET NON PAR RÉFÉRENCES : deux travaux partageant un auteur
+     ne valent pas deux confirmations séparées.** **Cela ne permet EN REVANCHE AUCUNE
+     conclusion sur une révision ni sur une trajectoire d'estimation.** **La
      troisième source est un ministère qui recense la littérature sans produire
      d'estimation propre.** **ACQUISITION DE RANG 1 : un travail contradictoire
      écrit hors de ce groupe.**"
@@ -40,7 +42,7 @@ verifications_en_attente:
      MONÉTAIRE**, et L26.C04 a établi que le mécanisme y est de forme
      différente. **Le corpus transporte donc un ordre de grandeur, pas un
      résultat.**"
-resume: "Ce chapitre établit que l'effet rebond ne se laisse pas davantage réduire à un nombre que le rendement énergétique net, et que la raison en est de même nature. Le rapport ministériel de 2026 classe les études par famille méthodologique et donne pour chacune une fourchette : les modèles d'équilibre général calculable produisent des rebonds de dix-huit à cent trente-quatre pour cent, les modèles macroéconométriques de un à vingt-cinq pour cent, et les analyses économétriques de vingt à plus de deux cents pour cent. Ces trois familles se recouvrent à peine, et la source attribue l'écart au périmètre du rebond évalué et aux hypothèses de chaque méthode. Le chapitre en tire que le corpus tient désormais deux résultats de même forme, la frontière décidant du chiffre pour le rendement énergétique et la méthode le décidant pour le rebond, et que dans les deux cas ce qui est publié comme une mesure est une convention. Il confronte ensuite le rapport fondateur de deux mille sept, qui concluait à un rebond économique d'au moins dix pour cent, à la revue de deux mille vingt et un déjà ouverte, qui conclut à plus de la moitié, en relevant que ces deux textes ont un auteur commun et qu'il s'agit donc d'une révision par la même équipe et non d'une confirmation indépendante. Il enregistre enfin le résultat qui touche le dispositif le plus directement, à savoir que toutes les études recensées observent une relation positive entre amélioration de l'efficacité, produit intérieur brut de long terme et production sectorielle, et il verse comme contrainte de conception qu'un coefficient de rebond doive déclarer sa méthode comme un rendement énergétique doit déclarer sa frontière."
+resume: "Ce chapitre établit que l'effet rebond ne se laisse pas davantage réduire à un nombre que le rendement énergétique net, et que la raison en est de même nature. Le rapport ministériel de 2026 classe les études par famille méthodologique et donne pour chacune une fourchette : les modèles d'équilibre général calculable produisent des rebonds de dix-huit à cent trente-quatre pour cent, les modèles macroéconométriques de un à vingt-cinq pour cent, et les analyses économétriques de vingt à plus de deux cents pour cent. Ces trois familles se recouvrent à peine, et la source attribue l'écart au périmètre du rebond évalué et aux hypothèses de chaque méthode. Le chapitre en tire que le corpus tient désormais deux résultats de même forme, la frontière décidant du chiffre pour le rendement énergétique et la méthode le décidant pour le rebond, et que dans les deux cas ce qui est publié comme une mesure est une convention. Il confronte ensuite le rapport fondateur de deux mille sept, qui concluait à un rebond économique d'au moins dix pour cent, à la revue de deux mille vingt et un déjà ouverte, qui conclut à plus de la moitié, et il établit que CES DEUX CHIFFRES NE SONT PAS COMPARABLES, le premier étant une borne inférieure et les seconds des moyennes portant sur d'autres périmètres, de sorte qu'aucune révision ne peut en être déduite ; ce qui subsiste est une réserve d'indépendance, un auteur étant commun aux deux textes. Il enregistre enfin le résultat qui touche le dispositif le plus directement, à savoir que toutes les études recensées observent une relation positive entre amélioration de l'efficacité, produit intérieur brut de long terme et production sectorielle, et il verse comme contrainte de conception qu'un coefficient de rebond doive déclarer sa méthode comme un rendement énergétique doit déclarer sa frontière."
 concepts: [effet_rebond, jevons_monetaire, decouplage, bareme]
 renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08]
 ---
@@ -61,17 +63,21 @@ renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08]
 
 ::etat:: **La même source donne, pour l'efficacité MATÉRIELLE, un écart de même forme mais adossé au niveau d'observation** : les études macroéconomiques indiquent *« up to 77 % in high-demand elasticity sectors like automotive »*, tandis que les effets micro et méso sont *« smaller and less varied, often around 10 % for industries like cement or steel »*.
 
-## 2. Ce que le rapport fondateur disait, et de combien il a été révisé
+## 2. Ce que le rapport fondateur disait, et pourquoi on ne peut pas le comparer au chiffre récent
 
 ::etat:: Le rapport fondateur du champ, publié en 2007, concluait avec prudence [S2]. *« The evidence does NOT suggest that improvements in energy efficiency ROUTINELY lead to economy-wide increases in energy consumption. At the same time the evidence suggests that economy-wide rebound effects will be AT LEAST 10 % and often higher. »*
 
 ::etat:: **Sur les usages domestiques et le transport individuel, il était plus précis encore** : le rebond direct est *« likely to be LESS THAN 30 % and may be closer to 10 % for transport »*, si bien que les améliorations d'efficacité *« should therefore achieve 70 % OR MORE of the reduction in energy consumption projected using engineering principles »*.
 
-::etat:: **L26.C04 s'appuie sur une revue de 2021 qui conclut à plus de la moitié**, avec des moyennes de 58 % et 71 %. **Entre les deux textes, l'estimation a été révisée d'un facteur voisin de cinq.**
+::etat:: **L26.C04 s'appuie sur une revue de 2021 qui conclut à plus de la moitié**, avec des moyennes de 58 % et 71 %.
 
-::etat:: **ET CE N'EST PAS UNE CONTROVERSE ENTRE DEUX ÉCOLES : L'AUTEUR DU RAPPORT DE 2007 EST CO-AUTEUR DE LA REVUE DE 2021.** **Le corpus ne tient donc pas deux confirmations indépendantes, mais UNE MÊME ÉQUIPE QUI S'EST CORRIGÉE À LA HAUSSE EN QUATORZE ANS.**
+::etat:: **UNE PREMIÈRE RÉDACTION DE CE CHAPITRE CONCLUAIT À UNE RÉVISION D'UN FACTEUR VOISIN DE CINQ PAR UNE MÊME ÉQUIPE. LES DEUX AFFIRMATIONS SONT RETIRÉES LE 2026-09-08 PAR L'AUTEUR, ET ELLES ÉTAIENT FAUSSES POUR DEUX RAISONS DISTINCTES.**
 
-::hypothese:: **Cela se lit dans les deux sens, et le corpus doit écrire les deux.** **En faveur du chiffre récent** : une équipe qui a longtemps défendu une estimation basse l'a relevée à mesure que les preuves s'accumulaient, ce qui est le contraire d'un biais de confirmation. **Contre son usage par le corpus** : une révision n'est pas une réplication, **et L26.C04 présente un résultat comme acquis alors qu'il est le dernier état d'une estimation mobile produite par un seul groupe.**
+::etat:: **PREMIÈRE RAISON : LES DEUX QUANTITÉS NE SONT PAS DE MÊME NATURE.** *« Au moins 10 % »* est une **BORNE INFÉRIEURE** ; 58 % et 71 % sont des **MOYENNES**, portant en outre sur des périmètres différents. **On ne calcule pas un rapport entre une borne inférieure et une moyenne** : une borne inférieure de 10 % est compatible avec une moyenne de 71 %, et les deux énoncés peuvent être exacts en même temps sans qu'aucune révision ait eu lieu.
+
+::etat:: **SECONDE RAISON : IL N'Y A PAS « UNE MÊME ÉQUIPE ».** Le rapport de 2007 est signé d'un seul auteur ; la revue de 2021 en compte plusieurs. **Ce qu'on peut établir est plus étroit et suffit** : **UN AUTEUR EST COMMUN AUX DEUX TEXTES.**
+
+::hypothese:: **Ce qui subsiste, et il faut s'y tenir.** **Une réserve d'indépendance, et elle est réelle** : deux travaux partageant un auteur ne valent pas deux confirmations séparées, et le corpus doit compter ses sources par auteurs et non par références. **Mais aucune conclusion sur une révision, aucun facteur, aucune trajectoire.** **La règle de méthode versée par ce chapitre est donc double** : vérifier les auteurs avant de compter deux sources, **et vérifier la nature des quantités avant de les comparer.** **La seconde est celle sur laquelle ce chapitre a lui-même fauté.**
 
 ## 3. Le retour de flamme : pas une règle, mais un précédent qui vise le dispositif
 
