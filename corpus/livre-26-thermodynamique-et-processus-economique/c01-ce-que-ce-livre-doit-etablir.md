@@ -127,7 +127,7 @@ renvois: [L1.C03, L1.C15, L1.C17, L8.C13, L8.C34, L11.C13, L18.C04, L24.C03, L24
 
 ## 4. Ce que cela fait à F11, et la restriction est immédiate
 
-::etat:: **F11 — la contrainte physique — a été posé le 2026-09-07 sur arbitrage de l'auteur, dans les termes suivants : qu'une contrainte physique rende inatteignable le résultat visé, quelle que soit l'orientation des flux monétaires.** Sa condition d'échec énumère quatre fondements possibles : bilan énergétique net, disponibilité matière, production d'entropie, taux de régénération biologique.
+::etat:: **F11 — la contrainte physique — a été posé le 2026-09-07 sur arbitrage de l'auteur, dans les termes suivants : qu'une contrainte physique rende inatteignable le résultat visé, quelle que soit l'orientation des flux monétaires.** Sa condition d'échec énumère quatre fondements possibles : bilan énergétique net, disponibilité matière, **irréversibilité mesurée à une frontière déclarée** — formulation arrêtée le 2026-09-08 en application de A41, un fondement de falsifieur devant être mesurable pour falsifier quoi que ce soit — et taux de régénération biologique.
 
 ::hypothese:: **LE FONDEMENT « DISPONIBILITÉ MATIÈRE » NE PEUT PLUS ÊTRE INVOQUÉ COMME UNE IMPOSSIBILITÉ DE PRINCIPE.** Il subsiste comme une question de coût, et le falsifieur lui-même l'avait borné : « **il ne confond pas L'IMPOSSIBLE et LE COÛTEUX** ». **La source ouverte range la dissipation matérielle du côté du coûteux.** **F11 ne se déclenchera donc pas par la matière seule.**
 

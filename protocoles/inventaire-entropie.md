@@ -195,3 +195,48 @@ règle opposable au futur sans rien réécrire. **(2) Le fondement de F11**, par
 qu'un falsifieur est ce qui doit pouvoir trancher. **(3) L1.C15**, dont la
 réécriture est substantielle mais dont la proposition survit — et en sort
 vérifiable.
+
+
+---
+
+# ÉTAT D'AVANCEMENT AU 2026-09-08 (soirée) — QUATRE DES SIX EMPLOIS DE CLASSE D SONT TRAITÉS
+
+**L'ordre de traitement recommandé par cet inventaire a été suivi.**
+
+**(1) L'ENTRÉE DE VOCABULAIRE — FAITE.** Les conditions d'emploi y sont
+portées, restreintes le même jour aux seuls emplois servant une conclusion
+causale, institutionnelle ou normative. **La règle est opposable à tout
+chapitre futur sans qu'aucun chapitre existant ait été touché.**
+
+**(2) D4 — LE FONDEMENT DE F11 — FAIT.** « Production d'entropie » est
+remplacé par « **irréversibilité mesurée à une frontière
+déclarée** », dans `falsification.md` et dans L26.C01. **Motif : un
+falsifieur est l'endroit où la cinquième condition est OBLIGATOIRE, et un
+fondement non mesurable ne falsifie rien.** **Les trois autres fondements
+survivent**, dont deux ont été instruits depuis.
+
+**(3) D1 À D3 — L1.C15 — FAIT, ET LA PROPOSITION EN SORT PLUS FORTE.** La
+chaîne entropique est remplacée par des termes autonomes : la
+création monétaire est **gagée sur une dissipation de stocks**, et
+l'entretien de ces stocks **n'engendre aucun flux transactionnel
+équivalent**. **Le chapitre énonce désormais ce qui le réfuterait** —
+une classe de transactions de volume monétaire comparable dont la contrepartie
+serait un entretien plutôt qu'un prélèvement. **`essentiel_insolvable`
+n'est pas affaibli : il cesse de reposer sur un mot que le corpus n'a jamais
+mesuré.**
+
+## Ce qui reste
+
+**D5 ET D6 — LES DEUX EMPLOIS INSTITUTIONNELS DU LIVRE 2.** Ils citent le
+Cahier et sont donc formellement de classe E. **Le traitement retenu reste celui
+que l'inventaire proposait** : conserver la citation, **ne jamais reprendre
+l'adjectif hors guillemets dans une phrase du corpus**. **Aucune modification
+n'est requise tant que cette règle est tenue** ; une vérification s'impose
+si un chapitre futur reprend le terme à son compte.
+
+**LES DEUX EMPLOIS DE CLASSE B DE L1.C03 QUI NE NOMMENT PAS LEUR
+FRONTIÈRE.** La règle corrigée les dispense des cinq conditions mais
+**leur impose de nommer la frontière du système quand elle porte
+l'argument** — or c'est précisément le cas dans ce paragraphe, où
+l'opposition Terre isolée / Terre ouverte au flux solaire fait tout le
+travail. **À traiter à la prochaine reprise de L1.C03.**

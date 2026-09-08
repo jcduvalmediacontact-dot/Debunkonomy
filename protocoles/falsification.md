@@ -2337,8 +2337,9 @@ coût. **F11 demande si L'OBJET LUI-MÊME EST ATTEIGNABLE**, par quelque instrum
 d'allocation que ce soit. **Les trois questions sont étagées** : le dispositif
 peut-il agir, faut-il qu'il agisse, **et l'action visée est-elle possible.**
 
-**CONDITION D'ÉCHEC.** *Qu'une contrainte physique — bilan énergétique net,
-disponibilité matière, production d'entropie, taux de régénération biologique —
+**CONDITION D'ÉCHEC — RÉVISÉE LE 2026-09-08 EN APPLICATION DE A41.** *Qu'une
+contrainte physique — bilan énergétique net, disponibilité matière,
+irréversibilité mesurée à une frontière déclarée, taux de régénération biologique —
 rende inatteignable le résultat que le dispositif vise, quelle que soit
 l'orientation des flux monétaires. Si elle tient, le dispositif ne se trompe ni
 d'intensité ni d'instrument : IL SE TROMPE D'OBJET, et aucune réforme monétaire ne
@@ -3221,3 +3222,33 @@ mondiale, qui AGRÈGE le capital naturel avec les autres formes de capital.**
 **TANT QUE CETTE LISTE N'EST PAS OUVERTE, LE CORPUS DOIT ÉCRIRE QUE F13 EST UNE
 POSITION ET NON UN RÉSULTAT.** **Un troisième document du même camp ne
 transforme pas une adhésion en découverte.**
+
+
+### F11 — SON TROISIÈME FONDEMENT EST REMPLACÉ LE 2026-09-08, EN APPLICATION DE A41
+
+**CE QUI EST RETIRÉ.** Le fondement « **production d'entropie** », qui
+figurait dans la condition d'échec depuis la pose du falsifieur.
+
+**LE MOTIF, ET IL EST DE PRINCIPE.** **Un falsifieur est l'endroit où la
+cinquième condition de A41 — un résultat empirique susceptible de
+réfuter — est OBLIGATOIRE et non facultative.** Or ce fondement n'était
+adossé à aucune grandeur mesurée, aucune unité, aucune frontière
+et aucune méthode. **Un fondement de falsifieur non mesurable ne falsifie
+rien** : il donne au falsifieur l'apparence d'une prise sans lui en donner une.
+
+**CE QUI LE REMPLACE.** « **Irréversibilité mesurée à une
+frontière déclarée** ». **Le terme est autonome** au sens de A41 —
+il ne co-opte pas le vocabulaire de la thermodynamique — **et il porte en
+lui-même l'exigence de frontière** que A39 a rendue obligatoire pour toute
+grandeur énergétique du corpus.
+
+**CE QUE LA RÉVISION NE CHANGE PAS.** **Les trois autres fondements survivent
+intacts**, et deux d'entre eux ont été instruits depuis : le bilan
+énergétique net par L26.C03 et L26.C08, la disponibilité matière par
+L26.C02. **Le taux de régénération biologique reste le seul des quatre
+qu'aucun chapitre n'ait ouvert.**
+
+**ET F11 NE REDEVIENT PAS DÉCIDABLE POUR AUTANT.** Il reste **conditionnel**
+au sens fixé par L26.C08 : éprouvable dès que frontière, convention et
+plage seront publiées sur un cas, **et elles ne le sont sur aucun.** **La
+révision retire un appui qui n'en était pas un ; elle n'en ajoute pas.**

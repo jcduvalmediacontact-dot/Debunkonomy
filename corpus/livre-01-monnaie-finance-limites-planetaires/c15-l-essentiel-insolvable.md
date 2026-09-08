@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -117,6 +117,18 @@ verifications_en_attente:
   # — Renvois —
   - "Renvoi à ajouter vers L1.C16 (« L'ère de la bullshitnovation ») quand il existera"
   - "Renvoi à ajouter vers L1.C17 (seconde partie du livre) quand il existera"
+  - "**LA PROPOSITION CENTRALE DE CE CHAPITRE EST REFORMULÉE LE 2026-09-08 EN
+     APPLICATION DE A41, ET ELLE EN SORT VÉRIFIABLE.** Elle était énoncée en
+     termes entropiques — la création monétaire « couplée à la production d'entropie », et
+     l'entretien de la « basse entropie » structurellement privé de financement.
+     **C'était une DÉDUCTION INSTITUTIONNELLE tirée d'un terme physique dont aucune des
+     cinq conditions de A41 n'était remplie** — ni grandeur mesurée, ni unité, ni frontière,
+     ni méthode, ni résultat réfutable — et l'inventaire du 2026-09-08 l'avait
+     classée comme le cas principal de classe D. **LA PROPOSITION SURVIT ENTIÈREMENT** :
+     elle porte désormais sur une **dissipation de stocks** et sur l'absence de **flux
+     transactionnel équivalent** pour leur entretien, **et elle énonce ce qui la
+     réfuterait**. **Le concept `essentiel_insolvable` n'est donc pas affaibli : il
+     cesse de reposer sur un mot que le corpus n'a jamais mesuré.**"
 resume: "La solvabilité n'est pas la valeur : c'est un filtre à quatre conditions cumulatives — la valeur doit se traduire en flux monétaire, ce flux doit être capté par celui qui finance, il doit survenir dans l'horizon du crédit, et il doit survivre à l'actualisation. Ce chapitre établit que les activités qui entretiennent les conditions de la vie échouent presque toujours sur plusieurs de ces conditions à la fois, non par oubli mais par construction. Il traite l'objection décisive — l'emprunt d'État crée bien de la monnaie et finance l'insolvable — en montrant que le filtre ne disparaît pas alors, mais change de porteur : c'est l'État qui devient l'emprunteur jugé sur sa solvabilité future, et le volume ainsi finançable est plafonné par ce jugement. Il propose une explication physique partielle de la sélection, en délimite la portée, et montre pourquoi les cinq remèdes usuels — prix de la nature, finance verte, impôt, dette publique, subventions — se heurtent au même filtre : le verrou n'est pas dans les activités, il est dans le filtre."
 concepts: [essentiel_insolvable, solvabilite_anticipee, degeneratif, malediction_monetaire, creation_monetaire, entropie]
 renvois: [L1.C01, L1.C03, L1.C06, L1.C09, L1.C10, L1.C11, L1.C13]
@@ -160,11 +172,11 @@ La délimitation compte autant que la proposition. Ce chapitre ne dit pas que ce
 
 Pourquoi ce filtre sélectionne-t-il si régulièrement les activités qui dégradent plutôt que celles qui entretiennent ? Le corpus propose une explication d'ordre physique, dont il faut immédiatement dire qu'elle est partielle.
 
-::etat:: Un flux monétaire naît d'une transaction, et une part structurante des transactions porte sur des biens issus d'une transformation de matière et d'énergie. Or transformer, au sens physique, c'est dégrader : convertir un stock ordonné, de basse entropie, en produits dissipés et en déchets de haute entropie. Un gisement, une forêt ancienne, une nappe, une réserve fossile sont des stocks constitués sur des durées géologiques ou biologiques ; les exploiter, c'est les liquider, et cette liquidation produit dans le même mouvement des marchandises vendables. Georgescu-Roegen en a fait la démonstration systématique [S6] ; Soddy l'avait pressenti dès 1926 en opposant la richesse réelle, soumise à la thermodynamique, et la richesse virtuelle qui croît selon les mathématiques de l'intérêt [S7] (L1.C03, L1.C08 § 3) ; Daly en a tiré des propositions politiques dès 1977 [S8].
+::etat:: Un flux monétaire naît d'une transaction, et une part structurante des transactions porte sur des biens issus d'une transformation de matière et d'énergie. Or transformer, au sens physique, c'est dégrader : **convertir un stock concentré en produits dispersés et en déchets**, c'est-à-dire faire passer une quantité de matière d'un état où elle est exploitable à un état où elle ne l'est plus sans un nouvel apport d'énergie. Un gisement, une forêt ancienne, une nappe, une réserve fossile sont des stocks constitués sur des durées géologiques ou biologiques ; les exploiter, c'est les liquider, et cette liquidation produit dans le même mouvement des marchandises vendables. Georgescu-Roegen en a fait la démonstration systématique [S6] ; Soddy l'avait pressenti dès 1926 en opposant la richesse réelle, soumise à la thermodynamique, et la richesse virtuelle qui croît selon les mathématiques de l'intérêt [S7] (L1.C03, L1.C08 § 3) ; Daly en a tiré des propositions politiques dès 1977 [S8].
 
 ::etat:: L'entretien, lui, ne liquide rien. Un sol régénéré reste un sol ; une forêt préservée reste une forêt. La valeur créée prend la forme d'un maintien — d'une dégradation qui n'a pas eu lieu. Or un effondrement évité ne produit aucune recette et n'apparaît dans aucun compte.
 
-::hypothese:: Le corpus en tire ceci, et pas davantage : dans la mesure où les flux monétaires proviennent de la transformation de matière et d'énergie, la création monétaire est couplée à la production d'entropie, et l'entretien de la basse entropie en est structurellement privé. (*Image : l'essentiel insolvable est l'ombre monétaire du second principe.*) La proposition ne vaut pas universellement : une prestation de conseil, un logiciel, un enseignement facturé produisent des flux à faible intensité matérielle — ils reposent sur une infrastructure qui en consomme, mais leur solvabilité ne tient pas à une liquidation de stock. L1.C12 examine ce que la part immatérielle change au découplage. La signature thermodynamique explique une tendance forte, non une loi sans exception.
+::hypothese:: Le corpus en tire ceci, et pas davantage : **dans la mesure où les flux monétaires proviennent de la transformation de matière et d'énergie, la création monétaire est GAGÉE SUR UNE DISSIPATION DE STOCKS, tandis que l'entretien de ces mêmes stocks n'engendre AUCUN FLUX TRANSACTIONNEL ÉQUIVALENT.** **La proposition porte ainsi sur des FLUX et des STOCKS, qui se comptent** : elle serait réfutée par la mise en évidence d'une classe de transactions dont le volume monétaire serait comparable et dont la contrepartie serait un entretien de stock plutôt qu'un prélèvement. (*Image : l'essentiel insolvable est l'ombre monétaire de l'irréversibilité.*) La proposition ne vaut pas universellement : une prestation de conseil, un logiciel, un enseignement facturé produisent des flux à faible intensité matérielle — ils reposent sur une infrastructure qui en consomme, mais leur solvabilité ne tient pas à une liquidation de stock. L1.C12 examine ce que la part immatérielle change au découplage. La signature thermodynamique explique une tendance forte, non une loi sans exception.
 
 ## 4. Pourquoi les remèdes usuels ne suffisent pas
 
