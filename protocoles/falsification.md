@@ -3032,3 +3032,45 @@ changements de volume des deux parties. **Un détenteur qui adhère
 volontairement au régime accepte-t-il par avance ?** **La question est juridique
 et le corpus ne l'a pas ouverte** ; elle pourrait rouvrir la branche que ce
 résultat ferme.
+
+
+## F6 — UNE OBJECTION LUI EST VERSÉE LE 2026-09-08 PAR L17.C03, ET ELLE VIENT DE L'AILE LA PLUS RADICALE DU PROJET ÉCOLOGIQUE
+
+**F6 porte sur l'adoption.** **L17.C03 lui verse une objection d'une forme que le
+corpus n'avait jamais rencontrée**, et qui ne vient d'aucun adversaire du
+projet.
+
+**L'ÉNONCÉ DE LA SOURCE.** Keyßer et Lenzen, *Nature Communications* 2021,
+modélisation comparée des trajectoires à 1,5 °C : « **political feasibility
+is SOFTER THAN SOCIO-TECHNICAL FEASIBILITY, with high actor motivation
+potentially compensating for low action capacity and social change being complex,
+non-linear and essentially UNPREDICTABLE** ». **Les auteurs en tirent un argument
+POUR la décroissance** : ses obstacles sont politiques, donc mous, donc
+franchissables par un mouvement social ; ceux des trajectoires technologiques sont
+physiques et industriels, donc durs.
+
+**APPLIQUÉ AU DISPOSITIF, LE MÊME ARGUMENT SE RETOURNE.** **Le dispositif fait
+exactement le mouvement inverse de la décroissance : il demande MOINS de
+renoncement politique et PLUS d'ingénierie institutionnelle.** Une institution
+émettrice, un barème de qualification, un reflux à deux ressorts, une
+infrastructure de mesure, un traité — **et le Livre 19 vient d'établir que
+la seule question de statut de l'émetteur en commande quatre autres.**
+
+**SI L'ASYMÉTRIE TIENT, LE DISPOSITIF ÉCHANGE DU MOU CONTRE DU DUR.** **Il
+troque un obstacle réputé franchissable par la mobilisation contre un
+ensemble d'obstacles de construction, de coordination et de droit, dont aucun ne
+se franchit par la motivation.**
+
+**CE QUE CETTE OBJECTION N'EST PAS, ET LE BORNAGE EST NÉCESSAIRE.** **Elle ne
+dit pas que le dispositif est plus difficile à adopter** — elle dit qu'il
+déplace la difficulté vers un registre où la motivation ne compense rien.
+**Elle ne dit pas non plus que la décroissance est plus facile** : la même
+source qualifie son obstacle politique de « tremendous ». **Elle dit que les deux
+difficultés ne sont pas DE MÊME NATURE, et que le corpus n'avait jamais
+comparé les natures.**
+
+**RÈGLE « LE PAS DE TROP ».** **L'asymétrie est une CITATION et non un
+résultat mesuré** : les auteurs la reprennent d'un autre travail que le corpus
+n'a pas ouvert. **L'objection est posée SOUS CONDITION D'OUVERTURE DE CE
+TRAVAIL, et elle ne peut pas être opposée au dispositif avant.** **C'est une
+acquisition de rang 1 pour F6.**

@@ -44,9 +44,18 @@ verifications_en_attente:
      rend le corpus dépendant d'un même groupe pour deux résultats
      structurants. **C'est le même risque que celui déclaré par L24.C05 pour les
      limites planétaires, et il n'est pas mieux traité ici.**"
+  - "**LA QUESTION 2 DE LA GRILLE REÇOIT SA RÉPONSE LE JOUR MÊME PAR L17.C03.** Ce
+     chapitre établit que le dispositif n'entre dans aucune des deux premières
+     cases de la taxonomie du champ **sans pouvoir dire pourquoi**. **La raison est
+     que ce n'est pas une STRATÉGIE DE TRAJECTOIRE mais une opération sur LA
+     CONTRAINTE qui rend la trajectoire obligatoire** : la sobriété demande aux États
+     de renoncer à la croissance, **le dispositif entreprend de retirer à la
+     croissance sa NÉCESSITÉ.** **Deux opérations différentes visant le même verrou
+     par deux côtés opposés.** **Le corpus revendique donc la troisième case et peut dire
+     pourquoi** — ce qui le situe sans établir qu'il fonctionne."
 resume: "Ce chapitre remplace l'amorce du matricule 17 et ouvre le livre par la revue systématique de référence sur le découplage, qui synthétise huit cent trente-cinq articles évalués par les pairs. Il commence par relever que le corpus emploie depuis son premier livre un vocabulaire d'après-croissance sans avoir jamais ouvert un seul auteur de ce champ, et qu'une promesse portant sur la sortie de la contrainte de croissance de l'encours n'a jamais reçu de réponse. La revue établit qu'un découplage relatif est fréquent pour les matières et les gaz à effet de serre mais qu'il ne l'est pas pour l'exergie utile, que le découplage absolu de longue durée est rare, et surtout que les rythmes observés ne permettent pas d'atteindre les réductions absolues requises, de sorte que le découplage doit être complété par des stratégies de sobriété et par l'application stricte d'objectifs de réduction absolue. Le chapitre en tire trois résultats. Le premier est que la taxonomie du champ, qui range les travaux en croissance verte, décroissance et autres, n'offre aucune case au dispositif, lequel n'affirme pas que le découplage suffit et ne donne pas non plus la priorité à la réduction sur la croissance du produit. Le deuxième est que la liste des instruments que cette littérature juge nécessaires est très exactement celle que le corpus a déclarée manquante l'avant-veille, moratoires, interdictions et fermetures, la revue précisant qu'ils doivent venir au lieu de la seule tarification. Le troisième est favorable et le chapitre le dit sans le minorer, puisque la revue nomme comme obstacle principal à la sobriété la dépendance structurelle des États à la croissance pour leurs recettes fiscales, qui est précisément l'obstacle que le dispositif prétend desserrer."
 concepts: [decouplage, sobriete, effet_rebond, limites_planetaires, indicateur_de_progres, degeneratif]
-renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06]
+renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06, L17.C03]
 ---
 
 # Ce que ce livre doit établir
