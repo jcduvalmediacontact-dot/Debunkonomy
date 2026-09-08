@@ -43,9 +43,21 @@ verifications_en_attente:
      MONÉTAIRE**, et L26.C04 a établi que le mécanisme y est de forme
      différente. **Le corpus transporte donc un ordre de grandeur, pas un
      résultat.**"
+  - "**LE RÉSULTAT DE CE CHAPITRE EST RETROUVÉ PAR UNE VOIE PHYSIQUE LE 2026-09-08
+     PAR L26.C11, ET C'EST UNE CONVERGENCE, NON UNE RÉPÉTITION.** Ce chapitre
+     établit, à partir de la littérature ÉCONOMÉTRIQUE, que toutes les méthodes
+     trouvent une relation positive entre efficacité et activité. **L26.C11
+     établit, à partir d'une comptabilité PHYSIQUE en exergie, qu'un mécanisme
+     distinct — la dilution par composition — reprend une part des gains sans
+     passer par aucun prix.** **LES DEUX RÉSULTATS NE SE DÉDUISENT PAS L'UN DE
+     L'AUTRE et ne se recouvrent pas** : le premier est un comportement, le second
+     une structure. **Ils s'ajoutent.** **ET LES AUTEURS DE LA SOURCE PHYSIQUE
+     DÉCLARENT EUX-MÊMES CONTRE LEUR PROPRE CAMP** que « **the focus on
+     MICRO-EFFICIENCY POLICIES MAY BE MISPLACED if aggregate national scale exergy
+     efficiency stagnates** »."
 resume: "Ce chapitre établit que l'effet rebond ne se laisse pas davantage réduire à un nombre que le rendement énergétique net, et que la raison en est de même nature. Le rapport ministériel de 2026 classe les études par famille méthodologique et donne pour chacune une fourchette : les modèles d'équilibre général calculable produisent des rebonds de dix-huit à cent trente-quatre pour cent, les modèles macroéconométriques de un à vingt-cinq pour cent, et les analyses économétriques de vingt à plus de deux cents pour cent. Ces trois familles se recouvrent à peine, et la source attribue l'écart au périmètre du rebond évalué et aux hypothèses de chaque méthode. Le chapitre en tire que le corpus tient désormais deux résultats de même forme, la frontière décidant du chiffre pour le rendement énergétique et la méthode le décidant pour le rebond, et que dans les deux cas ce qui est publié comme une mesure est une convention. Il confronte ensuite le rapport fondateur de deux mille sept, qui concluait à un rebond économique d'au moins dix pour cent, à la revue de deux mille vingt et un déjà ouverte, qui conclut à plus de la moitié, et il établit que CES DEUX CHIFFRES NE SONT PAS COMPARABLES, le premier étant une borne inférieure et les seconds des moyennes portant sur d'autres périmètres, de sorte qu'aucune révision ne peut en être déduite ; ce qui subsiste est une réserve d'indépendance, un auteur étant commun aux deux textes. Il enregistre enfin le résultat qui touche le dispositif le plus directement, à savoir que toutes les études recensées observent une relation positive entre amélioration de l'efficacité, produit intérieur brut de long terme et production sectorielle, et il verse comme contrainte de conception qu'un coefficient de rebond doive déclarer sa méthode comme un rendement énergétique doit déclarer sa frontière."
 concepts: [effet_rebond, jevons_monetaire, decouplage, bareme]
-renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08]
+renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08, L26.C11]
 ---
 
 # La méthode décide du chiffre

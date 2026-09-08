@@ -4610,3 +4610,52 @@ désormais le MOTIF** (obligation de remboursement conditionnelle, intérêt qui
 court). **Le précédent est donc renforcé quant au passif et dissous quant au
 créancier collectif** — et c'est le second trait qui le rendait analogue au
 dispositif.
+
+
+## A39 — la quatrième frontière est ouverte le 2026-09-08, et l'écart est d'un ordre de grandeur
+
+**L'AUTEUR A POSÉ QUE A39 ET F11 NE POURRAIENT ÊTRE CLOS PAR UN COEFFICIENT
+UNIQUE, ET QU'IL FAUDRAIT UNE ANALYSE DE SENSIBILITÉ ET LA PUBLICATION DES
+CONVENTIONS DE CALCUL. LA QUATRIÈME FRONTIÈRE CONFIRME CETTE EXIGENCE ET LA
+CHIFFRE.**
+
+**ÉTAT DES QUATRE FRONTIÈRES DEMANDÉES.**
+
+- **Extraction** — couverte (L26.C08) : taux de retour énergétique maximal en
+  supposant l'extraction infinie, pétrole 8,7, gaz 5,6, charbon 10, éthanol de
+  maïs 1,6, granulés de bois 1,6.
+- **Énergie livrée** — couverte (L26.C08) : gaz de schiste passant de 83 à 5,2 ;
+  copeaux 32 contre granulés 1,6 ; facteurs de conversion 0,3 et 0,7.
+- **Point d'usage** — couverte (L26.C08), et c'est là que les deux sources
+  s'arrêtaient.
+- **SERVICE FINAL** — **OUVERTE LE 2026-09-08 PAR L26.C11** : rendement
+  exergétique agrégé national de **11 % à 15 %** dans trois pays.
+
+**CE QUE CELA ÉTABLIT POUR L'ARBITRAGE : L'ÉCART ENTRE LA PREMIÈRE ET LA
+QUATRIÈME FRONTIÈRE EST D'UN ORDRE DE GRANDEUR.** **Un barème adossé à « un »
+rendement énergétique ne dit rien tant qu'il n'a pas dit À QUELLE FRONTIÈRE il se
+place.**
+
+**CE QUI RESTE INTERDIT, ET LE CORPUS S'EST INTERDIT DE LE FAIRE.** **Les quatre
+frontières NE SE COMPOSENT PAS PAR MULTIPLICATION** : elles ne portent ni sur les
+mêmes périmètres, ni sur les mêmes années, ni sur les mêmes pays, ni sur les
+mêmes vecteurs, et certaines se recouvrent partiellement. **Une chaîne composée
+serait une construction du corpus, non un résultat de source — et elle serait
+exactement le coefficient unique que l'arbitrage refuse.**
+
+**ACQUISITION QUE L'ARBITRAGE APPELLE DÉSORMAIS : une étude qui compose
+explicitement plusieurs frontières SUR UN PÉRIMÈTRE UNIQUE**, ou à défaut la
+déclaration que le corpus n'en dispose pas et que la sensibilité ne peut donc
+pas être calculée sur une chaîne complète.
+
+**ET UN FAIT NOUVEAU QUE A39 DOIT PORTER : LA DILUTION D'EFFICACITÉ.** Le
+rendement agrégé d'un pays peut stagner **alors que chaque appareil s'améliore**,
+par déplacement de la composition des usages. **Un barème calibré sur des
+rendements d'appareils dériverait donc du résultat national sans qu'aucun de ses
+paramètres ne soit faux.** **C'est un mode de décalibrage que l'arbitrage n'avait
+pas envisagé, et il est structurel, non comportemental.**
+
+**RESTENT NON COUVERTS, ET L26.C08 LES AVAIT DÉJÀ DÉCLARÉS :** transformation en
+partie seulement, **stockage** — poste décisif puisque l'intermittence le
+commande —, réseau, maintenance, **démantelèment**. **Aucune valeur n'est retenue
+pour aucune technologie.**

@@ -2508,6 +2508,44 @@ objection à SA VITESSE, et le corpus n'a aucune position sur la vitesse.**
 Ces cinq points ne prouvent pas que NEMO IMS fonctionne. Ils établissent que
 l'échec, s'il vient, ne viendra pas des raisons faciles.
 
+### F11 — la branche énergétique reçoit sa quatrième frontière le 2026-09-08 par L26.C11
+
+**LA DEUXIÈME RESTRICTION AVAIT LAISSÉ LA BRANCHE ÉNERGÉTIQUE SEULE EN CHARGE, EN
+LA DÉCLARANT « CHIFFRABLE ». ELLE VIENT D'ÊTRE CHIFFRÉE À SA FRONTIÈRE LA PLUS
+ÉLOIGNÉE.** Au service final, mesuré en travail utile par une comptabilité en
+exergie, **le rendement agrégé d'une économie nationale entière est de l'ordre de
+11 % aux États-Unis, 15 % au Royaume-Uni et 12 % en Chine.**
+
+**CE QUE CELA FAIT À F11, ET IL FAUT LE DIRE DANS LES DEUX SENS.**
+
+**(1) CELA NE DÉCLENCHE PAS F11, ET LE BORNAGE N° 3 COMMANDE ENCORE.** Un
+rendement de 12 % n'est pas une impossibilité : c'est un coût. **Il reste huit
+fois plus d'exergie primaire à mobiliser que de service rendu, ce qui est cher,
+non interdit.** **F11 ne se déclenche pas par le rendement du service final.**
+
+**(2) MAIS CELA DÉTRUIT UNE VOIE DE RÉFUTATION DE F11, ET C'EST LÀ QUE LE
+RÉSULTAT MORD.** La réfutation la plus disponible du falsifieur était que les
+gains d'efficacité relâchent la contrainte physique au fil du temps. **La source
+établit que le rendement agrégé d'un pays peut STAGNER ALORS QUE CHAQUE APPAREIL
+S'AMÉLIORE** — le rendement américain passe de 10 % à 11 % en quarante ans —
+**parce que la composition des usages se déplace vers des usages moins efficaces
+à mesure que le pays s'enrichit.** **La réfutation par l'efficacité future n'est
+donc pas acquise : elle doit désormais montrer que le gain technique l'emporte
+sur la dilution structurelle, ce que deux économies matures sur deux ne montrent
+pas** (facteur structurel global 0,91 et 0,90, inférieur à 1 dans les deux cas).
+
+**(3) ET LE FALSIFIEUR REÇOIT UNE CONDITION DE CLÔTURE QU'IL N'AVAIT PAS.** F11
+ne pourra être écarté par un argument d'efficacité **que si cet argument porte
+sur le rendement AGRÉGÉ À UNE FRONTIÈRE DÉCLARÉE, et non sur des rendements
+d'appareils.** **Un gain au niveau de la tâche ne vaut pas un gain au niveau du
+pays, et la source le démontre sur trois pays.**
+
+**RÉSERVE, ET ELLE PORTE SUR LE CHIFFRE LE PLUS LOURD :** les valeurs américaines
+et britanniques sont **rapportées de seconde main** par cette communication
+d'après un travail antérieur que le corpus n'a pas ouvert. **La stagnation
+américaine est une donnée citée, non une donnée lue.** **F11 ne peut pas être
+arbitré sur cette base.**
+
 ## F12 — L'indiscernabilité
 
 **PROPOSÉ LE 2026-09-07 par L21.C05, après ouverture des règles de la première

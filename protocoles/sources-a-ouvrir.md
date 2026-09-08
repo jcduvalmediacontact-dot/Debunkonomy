@@ -1992,3 +1992,46 @@ n'établit l'absence que des chaînes cherchées.** Une reformulation portant la
 même règle dans d'autres mots ne serait pas détectée. **Et l'extraction de
 l'édition 2008 provient d'une mise en page à deux colonnes qui ENTRELACE les
 paragraphes : la PRÉSENCE d'une formule y est fiable, son ABSENCE l'est moins.**
+
+
+## Ouvert le 2026-09-08 — LA QUATRIÈME FRONTIÈRE, ET SON ACQUISITION RÉSIDUELLE
+
+**Brockway, Barrett, Foxon et Steinberger (université de Leeds), « How peaking of
+exergy efficiency may lead to rising energy demand… », communication BIEE** —
+**OUVERTE ET LUE dans le texte** pour **L26.C11**. **Régime `a_verifier`** :
+aucune mention de droits n'est lue dans le document.
+
+**CE QU'ELLE A APPORTÉ :** la quatrième frontière que L26.C08 déclarait
+manquante — **le service final, mesuré en travail utile** — avec un rendement
+exergétique agrégé national de 11 à 15 %, **et un mécanisme que le corpus ne
+tenait pas : la dilution d'efficacité**, où le rendement agrégé stagne alors que
+chaque appareil s'améliore.
+
+**RÉSERVE DE RANG, DÉCLARÉE ET NON MINIMISÉE : C'EST UNE COMMUNICATION DE
+CONFÉRENCE, NON UN ARTICLE DE REVUE À COMITÉ DE LECTURE.** **À vérifier :
+l'existence d'une version publiée en revue, et si elle existe, si ses chiffres
+sont les mêmes.** Le corpus doit citer la version de référence.
+
+### ACQUISITION DE RANG 1 POUR L26.C11 : BROCKWAY ET AL. 2014 (ÉTATS-UNIS ET ROYAUME-UNI)
+
+**Le résultat le plus lourd du chapitre — la STAGNATION du rendement agrégé
+américain, 10 % à 11 % en quarante ans — est RAPPORTÉ DE SECONDE MAIN** par la
+communication ouverte, d'après un travail antérieur des mêmes auteurs que le
+corpus n'a pas ouvert. **Tant que ce travail n'est pas lu, la stagnation
+américaine est une donnée citée, non une donnée lue — et F11 ne peut pas être
+arbitré sur cette base.**
+
+### ACQUISITION APPELÉE PAR A39 : UNE COMPOSITION DE FRONTIÈRES SUR PÉRIMÈTRE UNIQUE
+
+Le corpus dispose des quatre frontières **séparément**, sur des périmètres,
+années, pays et vecteurs différents. **Il s'est interdit de les multiplier.**
+**À obtenir : une étude qui compose explicitement plusieurs frontières sur un
+périmètre unique**, faute de quoi l'analyse de sensibilité exigée par
+l'arbitrage ne peut pas porter sur une chaîne complète.
+
+### LACUNE GÉOGRAPHIQUE À COMBLER, ET ELLE VISE LE LIVRE 25
+
+**Trois pays, tous à revenu élevé ou en industrialisation rapide. AUCUN PAYS
+PAUVRE.** Or les usages qui diluent le rendement sont ceux qui accompagnent la
+sortie de la pauvreté. **À obtenir : une comptabilité en travail utile portant
+sur un pays à besoins essentiels non couverts.**

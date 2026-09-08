@@ -42,9 +42,22 @@ verifications_en_attente:
      lieu.** Les auteurs avaient eux-mêmes averti que **« the uncertainty for the
      exact date is large »**. **Le corpus enregistre l'échec de l'extrapolation
      comme un résultat, pas comme une coquille.**"
+  - "**LA QUATRIÈME FRONTIÈRE DÉCLARÉE MANQUANTE PAR CE CHAPITRE EST OUVERTE LE
+     2026-09-08 PAR L26.C11, ET ELLE REND UN ORDRE DE GRANDEUR.** Le service
+     final, mesuré en TRAVAIL UTILE par une comptabilité en EXERGIE : le rendement
+     exergétique agrégé d'une économie nationale entière est de l'ordre de **11 %
+     aux États-Unis, 15 % au Royaume-Uni, 12 % en Chine** — **soit près de neuf
+     dixièmes de l'exergie primaire dissipés AVANT que le service ne soit rendu.**
+     **L'ÉCART ENTRE LA FRONTIÈRE DU POINT D'USAGE ET CELLE DU SERVICE FINAL EST
+     DONC D'UN ORDRE DE GRANDEUR**, ce qui confirme par le bas ce que ce chapitre
+     établissait par le haut. **MAIS LA COMPOSITION DES QUATRE FRONTIÈRES N'EST
+     PAS FAITE ET NE DOIT PAS L'ÊTRE PAR MULTIPLICATION** : périmètres, années,
+     pays et vecteurs diffèrent, et certains se recouvrent. **Les trois autres
+     manques déclarés par ce chapitre — stockage, démantèlement, valeur retenue
+     par technologie — RESTENT ENTIERS.**"
 resume: "Ce chapitre répond dans sa forme à l'arbitrage rendu sur la frontière de calcul du rendement énergétique net, en construisant l'échelle de frontières demandée plutôt qu'un coefficient unique. Il établit d'abord, à partir du tableau d'harmonisation d'une revue de 2022, que la chaîne postérieure à l'extraction suffit à elle seule à plafonner le rendement livré, puisque ce tableau donne pour chaque combustible le rendement maximal atteignable à chaque étape en supposant un rendement infini à l'extraction, et que ce plafond vaut moins de neuf pour le pétrole et moins de deux pour les granulés de bois. Il en tire que la qualité du gisement ne suffit plus à déterminer le résultat, puisque la transformation, le transport et la distribution imposent un plafond indépendant d'elle, sans que l'énergie dépensée à l'extraction cesse pour autant d'abaisser le rendement réel en dessous de ce plafond. Il montre ensuite que le même écart se retrouve dans les chiffres réels, un gaz de schiste passant de quatre-vingt-trois à l'extraction à cinq au point d'usage, et que la seule convention de conversion vers l'électricité primaire déplace tous les classements, ce pour quoi les auteurs publient deux jeux de résultats et non un. Il ouvre enfin la revue historique écrite par l'inventeur du concept, qui donne une baisse séculaire non monotone, une dispersion de deux ordres de grandeur pour le nucléaire attribuée aux frontières de système, un écart systématique entre études conceptuelles et études d'exploitation pour l'éolien, et surtout un jugement de l'auteur sur sa propre grandeur, à savoir que les travaux disponibles relèvent souvent du plaidoyer et que les décisions se prennent sur une base analytique très maigre. Le chapitre conclut que le falsifieur physique cesse d'être indécidable sans devenir décidable, puisqu'il devient conditionnel à la publication des conventions et d'une plage de sensibilité, et il verse cette exigence comme contrainte de conception sur le barème et sur le simulateur."
 concepts: [bareme, qualification_regenerative, decouplage]
-renvois: [L1.C17, L8.C37, L11.C13, L17.C01, L24.C05, L26.C01, L26.C03, L26.C06, L26.C07]
+renvois: [L1.C17, L8.C37, L11.C13, L17.C01, L24.C05, L26.C01, L26.C03, L26.C06, L26.C07, L26.C11]
 ---
 
 # Même un puits gratuit ne donne pas dix

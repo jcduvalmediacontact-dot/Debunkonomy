@@ -93,9 +93,24 @@ verifications_en_attente:
      l'Assemblée générale n'est pas contraignante — mais c'est un déplacement
      d'autorité que le cadre invoqué ne prévoit pas**, et ce livre doit dire à
      quelles conditions il se défend."
+  - "**LA COMMANDE REÇOIT SA FORME PHYSIQUE LE 2026-09-08 PAR L26.C11, ET C'EST
+     LA TROISIÈME FOIS EN UN JOUR QU'ELLE EST RENFORCÉE PAR UNE VOIE
+     INDÉPENDANTE.** Une comptabilité en exergie établit que **les usages qui
+     DILUENT le rendement énergétique d'un pays sont ceux qui accompagnent la
+     sortie de la pauvreté** : report modal vers l'automobile, électricité
+     résidentielle, chaleur résidentielle à basse température. **Ce ne sont pas
+     des activités marginales : ce sont les usages du confort domestique.**
+     **LA QUESTION — qui sélectionne, selon quel critère, dans un pays dont les
+     besoins essentiels ne sont pas couverts — DEVIENT DONC AUSSI UNE QUESTION
+     PHYSIQUE** : les besoins essentiels, une fois couverts, se couvrent par des
+     usages à faible rendement exergétique. **Le corpus ne peut pas conclure de là
+     qu'il faut les refuser. Il constate que l'arbitrage est là, et qu'aucun
+     chapitre ne le tient.** **RÉSERVE : le corpus ne dispose d'AUCUN PAYS PAUVRE
+     dans cette littérature** — trois pays, tous à revenu élevé ou en
+     industrialisation rapide."
 resume: "Ce chapitre ouvre le livre en établissant que le plancher social dont le corpus manquait n'est pas un choix de modélisation à faire mais une obligation juridique en vigueur depuis 1976. Le pacte international relatif aux droits économiques, sociaux et culturels est ouvert et lu dans son texte, et il énumère le contenu de ce plancher, à savoir un niveau de vie suffisant incluant la nourriture, l'habillement et le logement, le droit d'être à l'abri de la faim, le meilleur état de santé physique et mentale possible, la sécurité sociale, l'éducation et le travail. Le chapitre en tire quatre résultats. Le premier est une asymétrie de nature entre les deux bords du couloir que le livre précédent avait nommé, car le plafond écologique est un niveau tandis que le plancher social est une trajectoire, l'obligation étant de réalisation progressive au maximum des ressources disponibles. Le deuxième est que cette formule constitue la charnière que le dispositif cherchait, puisqu'un dispositif qui crée des ressources modifie ce que les ressources disponibles d'un État désignent, et que la question devient alors juridique et non seulement économique. Le troisième est que le pacte fournit une règle de répartition explicite pour un besoin essentiel, celle d'une distribution équitable des ressources alimentaires mondiales en fonction des besoins. Le quatrième est que la clause de limitation du pacte est opposable à l'instrument même que le dispositif emploie, puisqu'un prélèvement qui réduirait l'accès des plus pauvres à une nourriture ou à un logement suffisants met en cause un droit protégé et doit satisfaire un test de proportionnalité."
 concepts: [plancher_social, plafond_ecologique, essentiel_insolvable, dette_ecologique, communs, solvabilite_anticipee]
-renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02]
+renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03, L12.C02, L26.C11]
 ---
 
 # Ce que ce livre doit établir

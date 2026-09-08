@@ -68,9 +68,24 @@ verifications_en_attente:
      for the materialisation of green investment projects** ». **Le corpus tient
      là sa quatrième occurrence d'une même forme — le succès érode sa propre
      base — et le chiffrage demandé par ce chapitre reste dû.**"
+  - "**UN SECOND MÉCANISME, INDÉPENDANT DE L'EFFET REBOND ET QUI S'Y AJOUTE, EST
+     ÉTABLI LE 2026-09-08 PAR L26.C11.** **L'effet rebond est ÉCONOMIQUE** :
+     l'efficacité abaisse le coût du service, la demande augmente, une part du
+     gain est reprise. **LA DILUTION D'EFFICACITÉ EST UN MÉCANISME DE
+     COMPOSITION** : le rendement exergétique agrégé d'un pays peut stagner ou
+     baisser **alors que chaque appareil pris séparément s'améliore**, parce que
+     la part des usages peu efficaces augmente — automobile, électricité
+     résidentielle, chaleur à basse température. **ELLE NE SUPPOSE AUCUN
+     CHANGEMENT DE COMPORTEMENT EN RÉPONSE À UN PRIX.** Mesurée par décomposition,
+     elle donne pour deux économies matures un facteur structurel **inférieur à 1
+     (0,91 et 0,90)** alors que le rendement par tâche progresse (1,56 et 1,28).
+     **CONSÉQUENCE POUR CE CHAPITRE : les deux mécanismes sont ADDITIFS et le
+     corpus ne peut pas traiter l'un comme une version de l'autre.** **Un
+     dispositif qui aurait neutralisé le rebond économique — par le prix, le quota
+     ou le barème — N'AURAIT RIEN FAIT CONTRE LA DILUTION.**"
 resume: "Ce chapitre ouvre la revue de référence des effets rebond à l'échelle de l'économie entière et rapporte que trente-trois études, malgré des méthodes très différentes, convergent sur un ordre de grandeur situé au-dessus de la moitié des économies d'énergie attendues d'une amélioration d'efficacité, avec une moyenne de cinquante-huit pour cent pour les études d'équilibre général et de soixante et onze pour cent pour les autres, et des estimations qui dépassent parfois cent pour cent. Il relève aussi que les modèles employés pour produire les scénarios énergétiques mondiaux n'en tiennent pratiquement aucun compte, de sorte que ces scénarios sous-estiment vraisemblablement la croissance future de la demande. Le corpus tenait l'effet rebond au vocabulaire depuis son premier livre sans avoir jamais lu l'argument qui le fonde, et ce chapitre acquitte cette dette. Mais il établit surtout que la dette n'est acquittée que pour moitié, parce que la littérature mesure ce qui arrive quand un service énergétique devient moins cher, et que le dispositif n'est pas une politique d'efficacité. Il montre alors que le dispositif hérite du mécanisme le plus documenté de la revue, l'effet de revenu, dans une forme aggravée, puisque le pouvoir d'achat qu'il verse n'est pas une économie rendue disponible mais une addition, de sorte qu'il subit la reprise sans avoir produit l'économie qu'elle reprend. Il conclut en restreignant ce que le corpus peut tirer de cette littérature, le transfert de l'efficacité à l'allocation restant une inférence et non une lecture."
 concepts: [effet_rebond, jevons_monetaire, decouplage, sobriete, entropie, reflux_transactionnel]
-renvois: [L1.C03, L1.C12, L1.C17, L11.C10, L13.C01, L18.C04, L22.C02, L24.C03, L26.C01, L26.C03, L26.C09]
+renvois: [L1.C03, L1.C12, L1.C17, L11.C10, L13.C01, L18.C04, L22.C02, L24.C03, L26.C01, L26.C03, L26.C09, L26.C11]
 ---
 
 # L'effet rebond, et ce que le dispositif en hérite sans être une politique d'efficacité

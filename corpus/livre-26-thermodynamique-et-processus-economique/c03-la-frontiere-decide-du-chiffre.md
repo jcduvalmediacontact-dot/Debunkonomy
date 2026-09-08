@@ -59,9 +59,15 @@ verifications_en_attente:
      dans son ampleur** : un gaz de schiste passe de **83 à l'extraction à 5,2 au
      point d'usage**. **Et la source fonde elle-même l'arbitrage** : « **it is
      unreasonable to expect to arrive at a SINGLE VALUE** »."
+  - "**LA QUATRIÈME FRONTIÈRE EST CHIFFRÉE LE 2026-09-08 PAR L26.C11, ET ELLE
+     DONNE À CE CHAPITRE SON ÉCART LE PLUS LARGE.** Au service final, mesuré en
+     travail utile par comptabilité en exergie, **le rendement agrégé d'une
+     économie nationale est de l'ordre de 11 à 15 %.** **L'écart avec la frontière
+     du point d'usage est d'UN ORDRE DE GRANDEUR** — ce que ce chapitre soutenait
+     en général reçoit ici sa mesure la plus forte."
 resume: "Ce chapitre ouvre les deux harmonisations mondiales publiées du rendement énergétique net et constate qu'elles se contredisent d'un facteur voisin de quatre sur les mêmes technologies, ce qui rend la branche énergétique du falsifieur onze chiffrable sans la rendre décidable. La première conclut que les carburants fossiles, une fois comptée toute la chaîne qui va du gisement au point d'usage, tombent tous sous dix, le pétrole plafonnant à huit virgule sept quand bien même son rendement au puits vaudrait mille, tandis que l'électricité hydraulique, éolienne et photovoltaïque se tient au-dessus de dix. La seconde conclut qu'au périmètre du système entier, seule la grande hydroélectricité dépasse six, l'éolien terrestre valant deux virgule neuf, l'éolien en mer deux virgule trois, le photovoltaïque un virgule huit et le solaire à concentration moins de un. Le chapitre montre que ces deux résultats ne divergent pas sur la mesure, puisque au périmètre standard ils s'accordent, mais sur l'endroit où l'on ferme le système, et que cet endroit relève d'une convention déclarée et non d'une observation. Il en tire une règle de méthode et une conséquence pour le falsifieur, qui ne peut être ni déclenché ni écarté et qui exige donc de l'auteur une décision de périmètre. Il verse enfin deux résultats latéraux qui touchent le dispositif directement, le premier étant que le rendement énergétique est une grandeur locale variant du simple au quintuple selon le pays pour une même technologie, ce qui étend à l'énergie la contrainte de lieu établie sur l'eau et les sols, le second étant que la phase de transition elle-même peut réduire l'énergie disponible à la société pendant qu'augmente la consommation d'énergie primaire, phase que le dispositif a précisément vocation à financer."
 concepts: [entropie, decouplage, sobriete, limites_planetaires, robustesse, bareme]
-renvois: [L11.C10, L11.C13, L11.C24, L18.C04, L18.C09, L24.C03, L24.C04, L26.C01, L26.C02, L26.C08]
+renvois: [L11.C10, L11.C13, L11.C24, L18.C04, L18.C09, L24.C03, L24.C04, L26.C01, L26.C02, L26.C08, L26.C11]
 ---
 
 # La frontière décide du chiffre
