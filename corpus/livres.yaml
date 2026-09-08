@@ -3765,7 +3765,7 @@ livres:
       - "falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 8
+    chapitres_acquis: 9
     note: >
       FRONTIERE AVEC LES LIVRES 18 ET 24, A TENIR. Le Livre 18 explique COMMENT
       MESURER ; le Livre 24 etablit CE QUI DOIT ETRE MAINTENU ; le Livre 26
@@ -4191,6 +4191,53 @@ livres:
       en fait le poste decisif. Et le DEMANTELEMENT n'est present que comme
       mention, la source precisant elle-meme que "not all studies include the
       same scope of analysis".
+      L26.C09 ETEND LE RESULTAT DE L26.C03 A UNE SECONDE GRANDEUR : LA FRONTIERE
+      DECIDE DU RENDEMENT ENERGETIQUE, LA METHODE DECIDE DU COEFFICIENT DE
+      REBOND. Deux sources : un rapport ministeriel britannique de 2026 (libre,
+      Open Government Licence v3.0 lue dans le document) et le rapport fondateur
+      du champ de 2007 (aucune mention de licence dans le document -- reste
+      a_verifier).
+      TROIS FAMILLES DE METHODES, TROIS FOURCHETTES QUI SE RECOUVRENT A PEINE :
+      equilibre general calculable 18-134 %, macroeconometrique 1-25 %,
+      econometrique 20 a plus de 200 % -- ET TOUTES LES ETUDES TROUVENT UN EFFET
+      POSITIF. La source attribue l'ecart au perimetre evalue et aux hypotheses
+      de modelisation, NON AUX FAITS. Sur l'efficacite materielle, meme forme :
+      jusqu'a 77 % dans les secteurs a forte elasticite comme l'automobile,
+      environ 10 % au niveau micro et meso pour le ciment ou l'acier. UN CHIFFRE
+      PRIS ENTRE 1 % ET PLUS DE 200 % SANS NOMMER SA METHODE N'EST PAS UNE
+      INFORMATION.
+      ET LE CORPUS APPREND QUE SA SOURCE DE 2021 N'EST PAS INDEPENDANTE. Le
+      rapport de 2007 concluait a un rebond economique "AT LEAST 10 % and often
+      higher", et a un rebond direct "LESS THAN 30 %" sur les usages domestiques
+      et le transport. La revue de 2021 sur laquelle L26.C04 s'appuie conclut a
+      plus de la moitie. REVISION D'UN FACTEUR VOISIN DE CINQ -- ET L'AUTEUR DE
+      2007 EST CO-AUTEUR DE 2021. Ce n'est pas une confirmation independante mais
+      UNE MEME EQUIPE QUI S'EST CORRIGEE A LA HAUSSE EN QUATORZE ANS. Cela se lit
+      dans les deux sens, et le corpus ecrit les deux.
+      LE RETOUR DE FLAMME N'EST PAS UNE REGLE MAIS LE PRECEDENT VISE LE
+      DISPOSITIF. Le rapport de 2007 refuse d'en faire une fatalite -- "no a
+      priori reason to believe that backfire is an INEVITABLE outcome" -- mais
+      enregistre un cas historique pour les technologies PENETRANTES, machines a
+      vapeur et moteurs electriques. OR LE DISPOSITIF NE FINANCE PAS UNE
+      TECHNOLOGIE : IL FINANCE UNE QUALIFICATION APPLICABLE A TOUS LES SECTEURS A
+      LA FOIS, ce qui est par construction la forme d'une technologie penetrante.
+      LE RESULTAT LE PLUS DIRECT TIENT EN UNE PHRASE : "All studies observed a
+      POSITIVE relationship between energy efficiency improvements, long-run GDP
+      and industry sector output." C'EST JEVONS_MONETAIRE ECRIT PAR UN MINISTERE
+      ET SANS LE MOT -- financer l'efficacite, c'est financer de la croissance de
+      production, non comme effet pervers occasionnel mais comme regularite de
+      l'ensemble des etudes retenues. Une nuance de localisation attenue le point
+      sans l'annuler : le rebond semble se produire SURTOUT A L'INTERIEUR DU
+      SECTEUR INDUSTRIEL plutot que dans l'economie large, ce qui le rendrait
+      ciblable par un instrument sectoriel -- QUE LE DISPOSITIF NE POSSEDE PAS.
+      RESERVES DECLAREES : LES TROIS SOURCES DE REBOND DU CORPUS NE SONT PAS
+      INDEPENDANTES, deux ayant un auteur commun et la troisieme etant un
+      recensement sans estimation propre ; LA BASE EST MINCE -- dix-sept etudes,
+      dont quatre des cinq britanniques publiees entre 2007 et 2012, dix-neuf ans
+      apres le rapport fondateur ; ET AUCUNE MESURE EX POST N'EXISTE SUR CE QUE
+      LE DISPOSITIF FINANCERAIT, toutes les estimations portant sur des
+      ameliorations obtenues par le prix, la reglementation ou la technique et
+      non par une emission monetaire.
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du

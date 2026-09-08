@@ -1519,3 +1519,49 @@ of analysis »**.
 rendement de 1:1 **« as soon as about 2022 »** ; nous sommes en 2026 et cela
 n'a pas eu lieu. **Le corpus a besoin d'une série récente, non d'une
 extrapolation de plus.**
+
+
+# Ouverture du 2026-09-08 (suite) — LE REBOND, ET UNE SOURCE QUI N'ÉTAIT PAS CELLE QU'ON CROYAIT
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**Department for Energy Security and Net Zero (Royaume-Uni), *Industrial Energy
+and Resource Efficiency Rebound Effects*, 2026, 118 p.** — pièce L26-07.
+**DROITS : « © Crown copyright 2026. This publication is licensed under the
+terms of the OPEN GOVERNMENT LICENCE v3.0 except where otherwise stated »,
+mention lue dans le document. `libre`**, au sens arrêté ce jour :
+réutilisable sous les conditions indiquées. Ouvert pour **L26.C09**.
+
+**S. Sorrell, *The Rebound Effect*, UK Energy Research Centre, octobre 2007** —
+pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE
+DOCUMENT.** **Le régime `a_verifier` du manifeste est donc CONFIRMÉ par
+lecture, et non levé** — citation courte avec attribution, aucun versement.
+Ouvert pour **L26.C09**.
+
+## UN DÉFAUT D'INDÉPENDANCE EST DÉCOUVERT DANS LE FONDS LUI-MÊME
+
+**L'auteur du rapport de 2007 est CO-AUTEUR de la revue de 2021** que L26.C04
+avait ouverte et sur laquelle il fonde son résultat principal. **Les trois
+sources de rebond du corpus se réduisent donc à DEUX POSITIONS D'UNE
+MÊME ÉQUIPE À QUATORZE ANS D'INTERVALLE, plus un recensement
+ministériel sans estimation propre.**
+
+**C'EST UNE LEÇON SUR L'USAGE DU FONDS, ET ELLE VAUT AU-DELÀ DU REBOND.**
+**Un dossier documentaire bien construit peut donner l'impression de la
+convergence là où il n'y a qu'une école.** **La matrice de couverture
+porte « bien couvert et contradictoire » sur cette ligne** — la
+contradiction existe bien, mais **elle est INTERNE à une équipe et non
+entre équipes.** **RÈGLE RETENUE : vérifier les auteurs avant de
+compter deux sources comme deux confirmations.**
+
+**ACQUISITION DE RANG 1 : un travail sur le rebond écrit hors de ce groupe.**
+
+## CE QUE L26.C09 A DEMANDÉ ET QUE LE FONDS NE CONTIENT PAS
+
+**AUCUNE MESURE EX POST D'UNE AMÉLIORATION D'EFFICACITÉ FINANCÉE PAR UNE
+ÉMISSION MONÉTAIRE.** Toutes les estimations disponibles portent sur des
+améliorations obtenues par le prix, la réglementation ou la technique.
+**L26.C04 a établi que le mécanisme diffère sous le dispositif — le
+revenu y est ÉMIS et non LIBÉRÉ — de sorte que le corpus transporte un
+ORDRE DE GRANDEUR et non un résultat.** **C'est le chiffrage que seul le
+simulateur du Livre 13 pourrait produire, et il n'existe pas.**
