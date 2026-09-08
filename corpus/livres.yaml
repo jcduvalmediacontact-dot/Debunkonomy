@@ -1358,11 +1358,63 @@ livres:
       vérification, de provenance et de révision du corpus
     motifs:
       - "discipline — épistémologie documentaire et méthode de vérification"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
     note: >
-      Ce livre porte sur le corpus lui-même. La convention, les protocoles
+      OUVERT LE 2026-09-08 PAR L14.C01, QUI REMPLACE L'AMORCE. CE LIVRE NE PORTE PAS
+      SUR LE DISPOSITIF MAIS SUR LA MACHINE QUI L'INSTRUIT.
+      L'APPAREIL MESURE : convention en revision r11, script de controle bloquant,
+      vocabulaire controle de cinquante concepts, cinq protocoles. PRODUCTION AU
+      2026-09-08 : 294 chapitres, 117 ouvertures de source par telechargement
+      direct, 69 regimes de droits declares (21 libre, 19 citation_seule, 29
+      a_verifier), 14 falsifieurs, 42 arbitrages, 57 promesses, et environ 1450
+      entrees de verification en attente.
+      LE RESULTAT LE PLUS DUR TIENT EN TROIS NOMBRES. Sur 294 chapitres : 285 en
+      brouillon, 9 en audit_contradictoire, ZERO EN VERIFIE. 294 sur 294 en
+      autorite preparatoire. 294 sur 294 en citable: false. LE CORPUS N'A JAMAIS
+      FRANCHI SON PROPRE GOULOT D'ETRANGLEMENT, PAS UNE SEULE FOIS. Le controle en
+      mode publication refuse les 294 chapitres, ET IL A RAISON DE LES REFUSER --
+      c'est le dispositif volontaire de la convention. MAIS UN GOULOT QUE RIEN N'A
+      JAMAIS TRAVERSE N'EST PAS UN GOULOT, C'EST UN MUR : le corpus ne sait pas si
+      sa procedure FONCTIONNE, seulement qu'elle n'a jamais ete executee jusqu'au
+      bout.
+      CE QUE L'APPAREIL DETECTE ET CE A QUOI IL EST AVEUGLE. La machine bloque
+      l'ABSENCE, la NON-CONFORMITE et l'INCONNU. La journee du 2026-09-08 fournit
+      un cas d'essai concluant : QUATRE EXCES DE CONCLUSION y ont ete produits,
+      tous de meme forme -- une inference tiree au-dela de ce que la source
+      etablissait. LES QUATRE ONT ETE DETECTES PAR L'AUTEUR, AUCUN PAR LE SCRIPT,
+      et deux figuraient dans des chapitres que le controle structurel avait
+      acceptes sans reserve. L'APPAREIL EST CONSTRUIT POUR LA DETECTION DU MANQUE
+      ET IL EST AVEUGLE A L'EXCES -- propriete de sa nature, un script lisant une
+      structure et non un raisonnement. CE QU'IL FAUT EN TIRER N'EST PAS QU'IL
+      FAUT UN MEILLEUR SCRIPT : c'est que la seule instance capable de detecter
+      l'exces est une LECTURE CONTRADICTOIRE, et que le corpus n'en a qu'une --
+      l'auteur, qui est aussi le commanditaire.
+      TROIS REGLES DE METHODE ONT ETE VERSEES LE MEME JOUR, CHACUNE APRES UNE
+      FAUTE : verifier la nature des quantites avant de les comparer ; compter les
+      sources par auteurs et non par references ; verifier qu'une methode n'est
+      pas deja dans le fonds avant de la declarer manquante. AUCUNE N'EST
+      AUTOMATISABLE, et c'est ce qui definit le programme du livre.
+      CE QUE L'APPAREIL FAIT BIEN ET QU'IL FAUT COMPTER AUSSI : la discipline des
+      droits fonctionne et se mesure ; la regle de l'ouverture directe a produit
+      117 ouvertures datees et les echecs d'acquisition ont ete declares sans etre
+      maquilles ; et trois fautes de fond ont ete detectees par la regle de
+      premiere main, non par le script.
+      GRILLE EN HUIT QUESTIONS : faire passer UN chapitre a travers toute la
+      procedure et enregistrer ce qui casse ; le partage entre ce qu'un controle
+      automatique peut porter et ce qu'il ne peut pas ; L'INDEPENDANCE DU
+      CONTROLEUR ; ce qui rend un chapitre CITABLE, que le corpus ne dit nulle
+      part ; le statut des modeles tiers, regle eprouvee trois fois et ecrite dans
+      aucune convention ; la PEREMPTION, sans aucune regle de revalidation ; la
+      reproductibilite ; et la CONTESTABILITE, mot le plus exigeant de la fonction
+      assignee, pour laquelle aucune voie n'existe.
+      RESERVES : le chapitre mesure un appareil et n'evalue pas ce qu'il produit,
+      AUCUN ECHANTILLON N'AYANT ETE RELU CONTRE SES SOURCES PAR UN TIERS ; les
+      comptages sont dates et perissables ; et AUCUNE SOURCE EXTERIEURE SUR LA
+      GOUVERNANCE DE LA PREUVE N'EST OUVERTE, ce qui reproduit exactement le
+      defaut que ce livre devrait detecter.
+      ETAT ANTERIEUR : Ce livre porte sur le corpus lui-même. La convention, les protocoles
       d'audit et de sourçage, le registre des promesses et ce registre en sont
       la matière première.
 
