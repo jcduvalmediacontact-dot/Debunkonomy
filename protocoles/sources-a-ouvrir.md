@@ -1096,3 +1096,82 @@ cette note n'est tenue par L26.C03.** Ce qui est tenu, et qui suffit, est un
 fait publié par la revue elle-même : **113 études trouvées, 31
 retenues.** **À ouvrir si l'auteur juge la question de l'exclusion
 pertinente pour l'arbitrage A39.**
+
+
+# Ouverture du 2026-09-08 (nuit) — le Livre 19, une seule source pour sept chapitres
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**Commission européenne, Fonds monétaire international, OCDE, Nations unies et
+Banque mondiale, *System of National Accounts 2008*, 719 pages** —
+`unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf`. **DROITS : publication
+conjointe de cinq organisations internationales, diffusée en accès libre par
+la division statistique des Nations unies. AUCUNE MENTION DE LICENCE N'A ÉTÉ
+RELEVÉE dans les pages ouvertes — RÉGIME `a_verifier`.** **Traitement
+prudent retenu** : citation avec attribution, **aucun versement au dépôt,
+aucune reproduction de tableau.** Ouverte pour **L19.C01 à L19.C06**.
+
+## Ce que cette ouverture a de particulier, et il faut le dire
+
+**UNE SEULE SOURCE POUR SIX CHAPITRES D'INSTRUCTION.** **C'est la faiblesse
+principale de la tranche et le corpus l'a déclarée dans chacun de ses
+chapitres.** **Aucune contradiction n'est possible dans ces conditions** : le
+corpus n'a confronté cette norme à aucune autre. **Les tranches des Livres
+24 et 26 tenaient chacune plusieurs sources ; celle-ci n'en tient qu'une.**
+
+**ET LA SOURCE N'EST PAS DU GENRE QUE LE LIVRE DEMANDAIT.** Le registre du
+matricule 19 demande **les écritures complètes d'une émission sans
+dette**, c'est-à-dire un travail de comptabilité d'entité. **Une norme
+statistique dit comment un instrument est CLASSÉ dans les comptes d'une
+économie ; elle ne dit pas comment l'émetteur l'INSCRIT dans ses propres
+états financiers.** **Toute la tranche porte donc sur la
+REPRÉSENTABILITÉ, aucune ligne sur l'AUDITABILITÉ.**
+
+## Acquisitions de rang 1 qui restent ouvertes sur le Livre 19
+
+**LA RÉVISION DE 2025 DE LA MÊME NORME, ET C'EST LA PLUS URGENTE DU LIVRE.**
+Une révision du système de comptes nationaux a été adoptée en 2025 et
+n'est pas ouverte. **La tranche établit elle-même pourquoi c'est grave** :
+L19.C02 montre que la révision de 2008 a retiré, sur ce point précis, le
+traitement sur lequel une émission sans passif aurait pu s'appuyer —
+l'annexe des révisions porte l'intitulé « **LIABILITY IN SPECIAL DRAWING
+RIGHTS RECOGNIZED** ». **UNE NORME QUI A DÉJÀ CHANGÉ D'AVIS UNE FOIS SUR CE
+POINT PEUT EN CHANGER ENCORE**, et six chapitres reposent sur la version
+périmée.
+
+**LE MANUEL DE BALANCE DES PAIEMENTS DU FONDS, SIXIÈME ÉDITION.** Il traite
+la même question du point de vue du compte extérieur et pourrait nuancer le
+traitement retenu. **Deux téléchargements ont échoué sur une page
+d'erreur du serveur de l'institution.** **AUCUNE DÉTECTION DE ROBOT N'EST EN
+CAUSE : c'est un échec d'acquisition ordinaire**, à reprendre par une autre
+adresse.
+
+**LES STATUTS DU FONDS.** Le corpus tient le traitement STATISTIQUE de
+l'instrument pris pour précédent et **ignore son régime JURIDIQUE** — qui
+décide d'une allocation, à quelle majorité, **selon quelle clé**, et ce
+que l'obligation de reconstitution recouvre. **L20.C09 avait déjà
+enregistré ce manque** en relevant que l'amendement créant cet instrument
+est l'un des deux cas d'application que le corpus instruit sans les avoir lus.
+
+**LES DEUX RÉFÉRENTIELS DE BANQUE CENTRALE OUVERTS LE 2026-09-07, À RELIRE.**
+**Le corpus a déclaré TROIS FOIS en trois chapitres qu'aucun référentiel
+de banque centrale n'était ouvert dans ce livre, sans y remédier.** **Le jeu
+d'écritures de la banque centrale nationale reste appuyé sur le seul Cahier
+technique de l'auteur.** **Ce n'est pas une acquisition : c'est une relecture, et
+elle ne coûte rien.**
+
+**LE CHAMP D'APPLICATION DES RÈGLES PRUDENTIELLES, QUI RELÈVE DU LIVRE 21.**
+Le corpus oppose au dispositif le principe 15 et un ratio de levier **sans avoir
+lu à QUELLES ENTITÉS ces règles s'appliquent.** **Tant que ce champ n'est
+pas lu, l'objection prudentielle ne peut être ni opposée ni
+écartée.**
+
+## Une pièce que le corpus ne peut pas acquérir et qui n'est pas perdue
+
+**LE RÉFÉRENTIEL COMPTABLE DU SECTEUR PUBLIC est en régime
+`citation_seule`** : sa notice interdit la reproduction et l'usage pour
+l'entraînement ou l'exploitation de systèmes d'intelligence artificielle sans
+autorisation écrite. **Il est chez l'auteur, dans son Drive privé, et il ne
+doit JAMAIS être versé au dépôt.** **C'est pourtant lui qui dirait
+comment l'émetteur inscrit l'unité dans SES PROPRES états financiers —
+c'est-à-dire la question que la tranche a dû laisser entière.**
