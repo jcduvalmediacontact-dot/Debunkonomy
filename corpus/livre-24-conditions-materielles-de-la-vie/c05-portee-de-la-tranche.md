@@ -45,9 +45,18 @@ verifications_en_attente:
      pour les sols, ni pour les minerais. **La tranche est entièrement
      scientifique et statistique**, alors que les quatre livres écrits autour
      d'elle la même journée sont entièrement juridiques."
+  - "**L'ÉNONCÉ « MÉTROLOGIQUE ET NON MORALE, ET C'EST CE QUI LA REND SOLIDE » EST
+     TEMPÉRÉ LE 2026-09-08 PAR L17.C05.** La solidité invoquée tenait à ce que la
+     position paraissait tirée des données. **Elle est en réalité une position
+     THÉORIQUE DISPUTÉE ET NOMMÉE** : c'est la SOUTENABILITÉ FORTE, opposée depuis
+     longtemps à la soutenabilité FAIBLE, qui tient que « **good performance in some
+     dimensions can compensate for low performance in others** ». **Neuf unités
+     hétérogènes n'INTERDISENT pas d'agréger : elles obligent à CHOISIR une clé, et
+     le refus de choisir est lui-même un choix.** **Le corpus n'a lu aucun texte des
+     deux écoles**, et F13 est amendé en conséquence au protocole."
 resume: "Ce chapitre clôt la première tranche du livre à cinq chapitres et en donne le verdict. La tranche a ouvert trois sources de première main et elle a rempli les deux fonctions que l'auteur avait assignées au livre. Elle établit ce qui doit être maintenu, par neuf variables de contrôle assorties de leur limite, de leur valeur de référence et de leur valeur actuelle, dont six sont dépassées. Et elle répond à la question des seuils non compensables, non par un principe moral mais par une propriété du système décrit, puisque les neuf variables sont exprimées dans neuf unités sans commune mesure et que le cadre ne comporte ni total ni pondération. Elle ajoute trois résultats que le corpus n'attendait pas. Le premier est que la limite juste est plus stricte que la limite sûre pour le climat et les aérosols, ce qui signifie qu'un dispositif se réclamant de la justice ne peut pas se calibrer sur la seule sécurité planétaire. Le deuxième est que les neuf dimensions, faute d'unité commune, ont néanmoins un déterminant commun qui se compte en tonnes, de sorte que le reflux trouve une assiette là où l'émission ne trouve pas d'échelle. Le troisième est qu'un budget mondial n'est pas partageable pour huit dimensions sur neuf, l'agrégat pouvant être tenu pendant que la limite est violée, ce qui oblige le dispositif à émettre sous contrainte de lieu."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, decouplage, qualification_regenerative, entropie]
-renvois: [L11.C13, L11.C24, L18.C01, L22.C04, L24.C01, L24.C02, L24.C03, L24.C04, L25.C05, L26.C01, L26.C02]
+renvois: [L11.C13, L11.C24, L18.C01, L22.C04, L24.C01, L24.C02, L24.C03, L24.C04, L25.C05, L26.C01, L26.C02, L17.C05]
 ---
 
 # Portée de la tranche

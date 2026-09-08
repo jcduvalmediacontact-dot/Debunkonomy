@@ -69,9 +69,20 @@ verifications_en_attente:
      sur le COÛT DE L'OBTENIR.** **Un ajustement aux frontières assis sur un
      prix unique suppose donc deux fongibilités, et le corpus vient d'en écarter
      les deux.**"
+  - "**TROISIÈME COMPLICATION EN TROIS JOURS, PAR UN TROISIÈME CHEMIN INDÉPENDANT.**
+     Versée le 2026-09-08 par L17.C05. Le rapport qui a fondé le mouvement des
+     indicateurs au-delà du produit intérieur brut borne explicitement l'index
+     monétaire : il « **should remain essentially focused on ECONOMIC ASPECTS of
+     sustainability** », l'environnement relevant d'« **a separate follow-up based on
+     a well-chosen set of PHYSICAL INDICATORS** ». **La raison est technique et non
+     doctrinale** : l'agrégation bute « **due to the LACK OF RELEVANT MARKET PRICES**
+     » pour la plupart des actifs naturels. **Ce chapitre fonde son ajustement sur un
+     PRIX UNIQUE DE L'IMPACT ; L24.C04 lui a retiré la fongibilité de l'EFFET,
+     L26.C03 celle du COÛT, et celui-ci lui retire l'EXISTENCE MÊME D'UN PRIX pour
+     l'essentiel de ce qu'il doit tarifer.**"
 resume: "Ce chapitre instruit ce qu'aucun n'avait réuni : le dispositif étant une coalition, son barème a une frontière, et rien n'a été écrit sur ce qui s'y passe. Il rappelle d'abord le résultat qui commande la question — la contrainte que subit le dispositif est fonction de ce qui demeure hors de lui, de sorte que le barème aux frontières est l'instrument qui décide de cette part. Il établit ensuite que le mécanisme trouvé pour l'intérieur ne se transporte pas : la valeur par défaut fonctionne parce que celui qui fait mieux a intérêt à le documenter, or un producteur situé hors du régime n'a cet intérêt que si le marché de la coalition vaut le coût de conformité. Il en tire un résultat que le corpus n'avait jamais énoncé : le seuil d'activation, que le livre pose au niveau des pays, possède un jumeau au niveau des entreprises, et ce second seuil exclut les petits exportateurs des pays pauvres du bénéfice de la modulation. C'est un septième biais de concentration, et le premier qui joue entre pays plutôt qu'à l'intérieur d'un pays. Il établit que la réciprocité est le mode de conflit propre à ce dispositif, qu'aucun chapitre ne l'a traité, et que le dossier n'a sur ce point que des objections d'adoption qui ne le couvrent pas. Il montre enfin que la difficulté décroît avec la taille de la coalition, ce qui place le dispositif devant le problème classique d'amorçage, et que le seul précédent opérant est un règlement que le corpus n'a toujours pas ouvert."
 concepts: [seuil_d_activation, bareme, degeneratif, reflux_transactionnel, referentiel_de_change, essentiel_insolvable, affectation_des_instruments]
-renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, L11.C17, L11.C19, L11.C21, L26.C03]
+renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, L11.C17, L11.C19, L11.C21, L26.C03, L17.C05]
 ---
 
 # Le barème aux frontières

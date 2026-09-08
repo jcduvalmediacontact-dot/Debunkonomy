@@ -3111,3 +3111,49 @@ retrait d'une capacité existante. **Les mécanismes de rachat pour destruction
 — quotas, licences de pêche, capacités de production — en sont des
 candidats évidents, et AUCUN N'EST OUVERT PAR LE CORPUS.** **C'est
 l'acquisition qui déciderait, et elle est modeste.**
+
+
+## F13 — AMENDEMENT DU 2026-09-08 PAR L17.C05 : CE N'EST PAS UNE DÉCOUVERTE DU CORPUS, C'EST UNE ADHÉSION À UNE ÉCOLE
+
+**F13 a été posé le 2026-09-07 par L24.C01, à partir de neuf variables de
+contrôle exprimées dans neuf unités sans commune mesure, et le corpus l'a
+tenu pour un résultat tiré des données.** **L17.C05 établit qu'il
+tranche, sans le savoir, une controverse constituée, ancienne et nommée.**
+
+**LA DISTINCTION, TELLE QUE LE RAPPORT L'ÉCRIT** [Stiglitz, Sen et Fitoussi
+2009, § 134] : « **the “WEAK” approach to sustainability considers that GOOD
+PERFORMANCE IN SOME DIMENSIONS CAN COMPENSATE FOR LOW PERFORMANCE IN OTHERS. This
+allows a global assessment of sustainability using monodimensional indices. The
+“STRONG” approach argues that sustainability requires SEPARATELY MAINTAINING the
+quantity or quality of many different environmental items** ».
+
+**F13 EST LA POSITION DE SOUTENABILITÉ FORTE, ET ELLE PORTE CE NOM DEPUIS AU
+MOINS 2009.**
+
+**CE QUE CET AMENDEMENT CHANGE, ET IL FAUT être précis.** **Il ne réfute pas
+F13** : la position forte est défendable, elle est défendue, et une commission
+officielle en tire des recommandations. **Il change le STATUT de F13.** Un
+falsifieur posé en ignorant qu'il prend parti dans une controverse n'est pas au
+même endroit qu'un falsifieur posé en la connaissant. **F13 n'est pas une
+découverte du corpus : c'est une ADHÉSION**, et le corpus doit désormais
+soit l'assumer comme telle, soit établir pourquoi il préfère cette école
+à l'autre. **IL N'A LU NI L'UNE NI L'AUTRE.**
+
+**ET UN ÉNONCÉ DU CORPUS DOIT ÊTRE TEMPÉRÉ.** L24.C05 écrit que « la
+réponse est métrologique et non morale, **et c'est ce qui la rend solide** ».
+**La solidité invoquée tenait à ce que la position paraissait tirée des
+données ; elle est en réalité une position THÉORIQUE DISPUTÉE que les
+données n'imposent pas.** **Neuf unités hétérogènes n'interdisent pas
+d'agréger : elles obligent à CHOISIR une clé, et le refus de choisir est
+lui-même un choix.**
+
+**CE QUI RÉFUTERAIT F13, ET C'EST DÉSORMAIS FORMULABLE.** **Non pas une mesure,
+mais une démonstration que la position faible est mieux fondée** — c'est-à-dire
+qu'il existe un taux de substitution défendable entre les dimensions. **Le corpus
+n'a ouvert aucun texte de cette école, et c'est l'acquisition de rang 1 de F13.**
+
+**CE QUE LA COMMISSION APPORTE À L'APPUI DE F13, ET QUI RESTE ACQUIS.** L'image
+du § 36 : « **when driving a car, A METER THAT ADDED UP IN ONE SINGLE NUMBER THE
+CURRENT SPEED OF THE VEHICLE AND THE REMAINING LEVEL OF GASOLINE WOULD NOT BE OF
+ANY HELP TO THE DRIVER** ». **Et la recommandation 12, qui renvoie l'environnement
+à « A SEPARATE FOLLOW-UP BASED ON A WELL-CHOSEN SET OF PHYSICAL INDICATORS ».**

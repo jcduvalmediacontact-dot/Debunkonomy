@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -54,9 +54,21 @@ verifications_en_attente:
   - "LE SEEA EST OUVERT MAIS NON INSTRUIT PARAGRAPHE PAR PARAGRAPHE, et c'est
      lui le candidat au critère de mesure fiable. **RPG 1 et le *Global
      Resources Outlook 2024* sont acquis et non instruits.**"
+  - "**UNE COMMANDE FERMÉE PAR LA NÉGATIVE SE ROUVRE ICI SOUS UNE AUTRE FORME, LE
+     2026-09-08.** L24.C05 avait renvoyé au Livre 26 l'établissement des STOCKS ;
+     L26.C02 a répondu par la négative en établissant qu'une réserve minérale n'est
+     pas un stock physique mais un inventaire économique daté. **La question
+     paraissait close. ELLE NE L'EST PAS.** **L17.C05 a ouvert la recommandation qui
+     exige que les composantes d'un tableau de bord de soutenabilité soient
+     « INTERPRETABLE AS VARIATIONS OF SOME UNDERLYING STOCKS ».** **Ce que cette
+     recommandation demande n'est pas une réserve exploitable : c'est un STOCK AU SENS
+     DES COMPTES** — capital naturel, surface forestière, biomasse, aquifère — dont
+     on suit la VARIATION. **L26.C02 a réfuté les réserves ; il n'a rien dit des stocks
+     comptables, et le corpus n'en tient aucun.** **Routé ici, où sont les
+     comptabilités.**"
 resume: "Ce chapitre ouvre le dix-huitième livre et dit ce qu'il doit établir, en partant de la fonction que le plan directeur lui assigne et de l'objection qu'il inscrit, celle du lexique comptable comme règle de l'architecture invisible. Il établit d'abord que ce livre n'est pas un livre de méthode parmi d'autres mais celui dont dépend la question restée ouverte après l'arbitrage du sixième septembre, puisque le standard international des infrastructures de marché subordonne la circulation de l'unité à la nature de sa contrepartie. Il montre ensuite que les trois normes publiques ouvertes le même jour ne disent pas ce que le corpus avait retenu. La reconnaissance d'une ressource naturelle conservée exige trois conditions cumulatives dont le contrôle, et le repli vers l'annexe que le corpus tenait pour acquis est lui-même conditionné au contrôle, de sorte qu'il n'est pas disponible lorsque le contrôle manque. Une norme non instruite jusqu'ici, celle des charges de transfert, fournit alors le traitement applicable, et il est défavorable, puisqu'un transfert consenti sans recevoir en retour se comptabilise en charge, mesurée à la valeur comptable des ressources transférées, au moment où l'entité cesse d'en avoir le contrôle. Le chapitre soutient que la question comptable ne se résout donc pas en comptabilité mais en droit des biens, et il oppose aux quatre indicateurs de contrôle du cadre conceptuel les résultats que le sixième livre a établis, lesquels les contredisent un par un. Il relève enfin que la directive européenne sur la publication d'informations en matière de durabilité, qui est l'instrument le plus exigeant en vigueur, loge l'information dans le rapport de gestion sous assurance limitée et l'exclut expressément de l'opinion d'audit sur les comptes, de sorte que deux systèmes normatifs indépendants convergent vers la même réponse, publier plutôt que reconnaître."
 concepts: [contrepartie_comptable, valorisation_des_communs, communs, essentiel_insolvable, qualification_regenerative, architecture_invisible]
-renvois: [L1.C09, L1.C29, L5.C02, L5.C09, L5.C10, L6.C08, L6.C09, L6.C13, L11.C13, L11.C16, L20.C02]
+renvois: [L1.C09, L1.C29, L5.C02, L5.C09, L5.C10, L6.C08, L6.C09, L6.C13, L11.C13, L11.C16, L20.C02, L17.C05]
 ---
 
 # Ce que ce livre doit établir, et le repli n'est pas l'annexe
