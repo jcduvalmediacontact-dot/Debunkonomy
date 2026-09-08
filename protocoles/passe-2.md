@@ -4860,3 +4860,71 @@ où le Fonds gère des quotes-parts, **et elle pourrait être un analogue plus p
 du dispositif que le Fonds lui-même.** **(3) L'accord de relation avec les Nations
 unies et les conventions générales sur les privilèges et immunités**, qui
 complètent le régime de l'article IX.
+
+
+## A37 — CORRECTION JURIDIQUE DE L'AUTEUR, 2026-09-08 : LA SECTION PORTE LE RÉGIME
+
+**CECI EST L'HISTORIQUE D'UNE CORRECTION DE RÉDACTION**, au sens du cas (1) de la
+règle « Où vit l'historique d'une correction » versée le même jour. **Le chapitre
+L20.C24 expose l'état corrigé et lui seul ; le motif est ici.**
+
+**CE QUI S'EST PASSÉ.** L'article VI des statuts de la Banque internationale pour
+la reconstruction et le développement a été ouvert et lu en entier le 2026-09-08,
+dans sa version portant la mention « as amended effective June 27, 2012 ». **Le
+chapitre en a tiré trois conclusions, dont deux que le texte ne porte pas.**
+
+**PREMIÈRE ERREUR — LA RÉTENTION.** Le chapitre a présenté la section 4 (c) (i)
+comme « une garantie de fait » de la part appelable. **Le texte dit l'inverse** :
+*« No amount shall be withheld on account of the liability of the government
+resulting from its subscription for shares under Article II, Section 5 (ii). »*
+**La rétention garantit la dette du sortant COMME EMPRUNTEUR OU GARANT, et le
+traité en exclut expressément la responsabilité de souscription.** Le délai de six
+mois de la même section est une disposition distincte, qui porte sur le paiement
+des parts et joue *« in any event »* — **ce n'est pas une sûreté.**
+
+**SECONDE ERREUR — LE DOMAINE DE LA SECTION 5 (c).** Le chapitre a versé au régime
+du retrait la disposition selon laquelle la responsabilité des membres pour les
+souscriptions non appelées se prolonge jusqu'à extinction de toutes les créances.
+**Cette disposition est dans la SECTION 5, qui traite de la SUSPENSION PERMANENTE
+DES OPÉRATIONS DE LA BANQUE.** Elle n'atteint un sortant que par la section 4 (d),
+et seulement si la Banque suspend définitivement ses opérations **dans les six
+mois** de sa sortie.
+
+**FORMULES RETIRÉES.** « Le texte le dit trois fois » et « une survivance de
+responsabilité assortie d'une rétention et d'un délai ». **Elles additionnaient
+comme trois confirmations d'une même règle ce que le traité distingue en
+mécanismes de portées différentes.**
+
+**RÈGLE DE MÉTHODE VERSÉE — LA SECTION PORTE LE RÉGIME.** Le corpus s'était donné
+le 2026-09-08 la règle de lire **tous les instruments d'un même volume** avant de
+conclure, puis celle de lire **l'article entier**. **Aucune des deux ne suffit.**
+**Une disposition tient son domaine de la SECTION qui la porte**, et deux
+dispositions voisines par leur objet peuvent relever de régimes qui ne se
+rencontrent pas. **À vérifier avant toute citation d'un instrument conventionnel.**
+
+**CE QUI RESTE ACQUIS, ET C'EST UNE CONTRAINTE DE CONCEPTION.** Le capital
+appelable survit au retrait [section 4 (c) (iv)], **borné à l'état constaté à la
+date où le prix de rachat des parts est arrêté**, et **sans sûreté** — le traité
+garantit la dette d'emprunteur dans la même phrase où il refuse de garantir
+celle-là. **Le seul précédent que le corpus tienne d'un engagement de capital
+survivant à la sortie est donc un engagement NON GAGÉ.** Un reflux adossé à une
+appartenance ne peut pas compter sur une sûreté que le modèle le plus proche a
+refusé d'organiser.
+
+**CORRECTION D'UNE ENTRÉE ANTÉRIEURE DE CE FICHIER.** La section « A37 — le
+précédent le plus proche est trouvé le 2026-09-08 » se termine sur la phrase
+suivante : « UN REFLUX COLLECTIF ADOSSÉ À UNE APPARTENANCE DONT LA SORTIE EST
+IMMÉDIATE N'EST PAS OPPOSABLE À CELUI QUI SORT. » **CETTE CONCLUSION EST RETIRÉE
+DEPUIS LE 2026-09-08** : elle était tirée du texte de 1945 alors que le chapitre
+avait lui-même déclaré ce texte périmé. **Les textes en vigueur disent le
+contraire** — le retrait met fin à l'appartenance, non aux obligations nées d'elle.
+**La même entrée inscrit les statuts de la Banque comme « non lus » : l'article VI
+l'est depuis le 2026-09-08, le reste ne l'est pas.**
+
+**ACQUISITIONS QUI RESTENT, ET ELLES SONT PRÉCISES.** **(1) L'ANNEXE J des statuts
+du Fonds**, à laquelle l'article XXVI renvoie pour le règlement des comptes à
+défaut d'accord. **(2) L'ARTICLE II SECTION 5 (ii) des statuts de la Banque**,
+auquel l'article VI renvoie pour les appels de capital. **(3) Les statuts
+CONSOLIDÉS COMPLETS des deux institutions**, dont le corpus ne tient qu'un article
+chacun. **Le corpus tient les articles qui RENVOIENT, non les textes AUXQUELS ils
+renvoient.**

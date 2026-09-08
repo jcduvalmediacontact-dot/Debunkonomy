@@ -35,7 +35,23 @@ if hasattr(sys.stdout, "reconfigure"):
 try:
     import yaml
 except ImportError:
-    sys.exit("PyYAML manquant. Installer avec : pip install pyyaml")
+    sys.exit(
+        "PyYAML manquant. Installer avec : pip install pyyaml\n"
+        "Interpreteur utilise : " + sys.executable
+    )
+
+# PyYAML peut etre PRESENT et MAL RESOLU : installation partielle, paquet
+# homonyme, ou module masque par un fichier yaml.py du repertoire courant.
+# L'ImportError ci-dessus ne voit pas ce cas ; le diagnostic qui suit si.
+if not hasattr(yaml, "safe_load"):
+    sys.exit(
+        "PyYAML mal resolu : le module importe n'expose pas safe_load.\n"
+        "  module     : " + getattr(yaml, "__file__", "(sans fichier)")
+        + "\n  interprete : " + sys.executable
+        + "\nCauses frequentes : un fichier yaml.py dans le repertoire\n"
+        "courant, ou le paquet 'yaml' installe au lieu de 'pyyaml'.\n"
+        "Verifier avec : python -c \"import yaml; print(yaml.__file__)\""
+    )
 
 RACINE = Path(__file__).resolve().parent
 VOCABULAIRE = RACINE / "vocabulaire.yaml"
