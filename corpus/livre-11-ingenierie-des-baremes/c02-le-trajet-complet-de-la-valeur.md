@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -69,9 +69,18 @@ verifications_en_attente:
      cette substitution coûte : l'incidence n'est pas la même, et la question
      de savoir si les banques la répercutent, l'absorbent ou la contournent
      décide de l'effet réel."
+  - "**LA PRÉMISSE DES FONDS PROPRES NÉGATIFS N'EST PAS LA SEULE REPRÉSENTATION
+     POSSIBLE, ET LE CORPUS L'APPREND LE 2026-09-08.** Ce chapitre porte « à l'actif,
+     rien encore », donc des fonds propres négatifs du montant émis, et L21.C03 a
+     tranché en ce sens contre le Cahier technique. **L19.C02 établit qu'il existe un
+     traitement normatif où le passif n'est PAS chez l'émetteur mais chez les
+     bénéficiaires COLLECTIVEMENT**, et que ce traitement est celui du seul
+     précédent mondial existant. **Le tranchage de L21.C03 a été fait sans
+     référentiel et doit être repris.** **À reprendre avec A37 : c'est le statut de
+     l'émetteur qui décide, et il n'est pas arbitré.**"
 resume: "Ce chapitre trace le circuit complet de la valeur dans le régime que l'auteur a retenu le 2026-09-05 : une coalition à deux étages où l'institution mondiale émet des allocations que les banques centrales nationales convertissent en monnaie, et où le reflux remonte jusqu'à elle et y demeure. Il établit d'abord les écritures aux trois étages, puis suit ce qui s'accumule dans le temps. Il en tire quatre résultats. Le premier est que l'institution émettrice opère nécessairement en fonds propres négatifs entre l'émission et le reflux. LE CHAPITRE PRÉSENTAIT CE RÉSULTAT COMME LE RÉGIME ORDINAIRE D'UN ÉMETTEUR ; LA REVUE CONTRADICTOIRE DU 2026-09-07 A ÉTABLI QUE C'EST FAUX, une banque centrale qui achète un titre voyant son actif et son passif croître simultanément. L'écriture demeure, sa justification tombe : un émetteur ordinaire acquiert en émettant, celui-ci donne en émettant, et c'est la singularité même du dispositif. Le Livre 21 en a tiré la conséquence normative — le principe 15 du standard des infrastructures de marché exige des fonds propres positifs et liquides. Le deuxième est ce que porte réellement une banque centrale nationale : une créance perpétuelle, sans échéance ni mécanisme de règlement, sur une institution extérieure à son système. Le corpus propose une analogie avec les soldes intra-européens pour établir que la chose est praticable et politiquement explosive, et il la donne pour ce qu'elle est, une analogie non vérifiée. Le troisième porte sur le point du circuit où le reflux est prélevé : la proposition voisine la plus proche frappe les réserves bancaires déposées à la banque centrale plutôt que les encaisses des détenteurs, ce qui contourne l'obstacle de droit sur lequel le demurrage du dispositif a buté, au prix d'une incidence différente. Le quatrième est que le rendement du reflux se calcule et que personne ne l'a calculé. Le chapitre soutenait qu'un des trois facteurs était connu, le taux, que les voisins donnent à 0,5 % ; L11.C05 a établi le 2026-09-05 que ce taux porte sur une assiette différente — chaque paiement, et non la consommation finale — de sorte qu'aucun des trois facteurs n'est connu et que le corpus ne dispose d'aucune borne empirique."
 concepts: [contrepartie_comptable, reflux_collectif, reflux_transactionnel, demurrage, creation_monetaire]
-renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01]
+renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01, L19.C02]
 ---
 
 # Le trajet complet de la valeur

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -39,9 +39,20 @@ verifications_en_attente:
      n'établit** : une institution qui émet n'est pas nécessairement une
      infrastructure de marché au sens de ce texte. **Le raisonnement est
      conditionnel**, et la condition n'est pas instruite."
+  - "**L'OBJECTION DES FONDS PROPRES NÉGATIFS EST CONDITIONNÉE LE 2026-09-08, ET NON
+     LEVÉE.** L19.C02 a ouvert le seul précédent mondial d'une institution
+     internationale qui crée une unité et l'alloue sans contrepartie, et la norme
+     statistique y écrit que la créance porte sur les participants collectivement
+     « **AND NOT ON THE IMF** ». **Sous ce traitement, l'émetteur n'inscrit AUCUN
+     passif de ce chef et n'a donc pas de fonds propres négatifs.** **Le corpus n'a
+     PAS établi que ce traitement s'applique au dispositif** : il faudrait que
+     l'émetteur soit un émetteur d'avoirs de réserve entre autorités monétaires,
+     ce qu'il n'est pas. **L'objection tient donc, sous condition de statut
+     institutionnel — c'est-à-dire SOUS A37, posé le 2026-09-07 et non
+     arbitré.**"
 resume: "Ce chapitre ouvre le vingt et unième livre en tenant la frontière que l'auteur a posée, le dixième livre comparant les systèmes nationaux et celui-ci étudiant les réseaux transnationaux qui les relient, et il commence par instruire quatre des dix-sept principes que le corpus détenait sans les avoir lus. Le premier d'entre eux entre en collision directe avec une écriture que le corpus venait de corriger. Le principe relatif au risque d'entreprise général exige d'une infrastructure qu'elle détienne des actifs nets liquides financés par des fonds propres, en quantité suffisante pour poursuivre son activité en continuité d'exploitation si des pertes surviennent, et pour financer un rétablissement ou une liquidation ordonnée. Or le onzième livre établit que l'émission d'allocations laisse les fonds propres négatifs du montant émis, et la correction du même jour a retiré l'analogie qui présentait ce résultat comme ordinaire. Une entité qui émet en donnant ne peut donc pas satisfaire un principe qui exige des fonds propres positifs et liquides, sauf à séparer l'émetteur de l'infrastructure, ce qui est possible mais que le corpus n'a jamais dit. Le chapitre instruit ensuite trois autres principes qui appliquent au collatéral, aux investissements et à l'exposition de crédit le même test de risque minimal que le principe déjà connu appliquait à l'actif de règlement, et il en conclut que ce test n'est pas une exigence isolée mais la règle générale du texte. Il fixe enfin trois questions opposables à toute infrastructure qui porterait l'unité."
 concepts: [contrepartie_comptable, creation_monetaire, hierarchie_monetaire, monnaie_comme_registre, seuil_d_activation]
-renvois: [L1.C20, L5.C02, L5.C09, L10.C01, L10.C02, L11.C02, L18.C01, L21.C01]
+renvois: [L1.C20, L5.C02, L5.C09, L10.C01, L10.C02, L11.C02, L18.C01, L21.C01, L19.C02]
 ---
 
 # Ce que ce livre doit établir, et le principe qui exige des fonds propres

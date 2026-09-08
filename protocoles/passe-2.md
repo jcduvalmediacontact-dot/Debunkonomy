@@ -3829,3 +3829,43 @@ de COMPOSITION.
 dix pour cent ou cent dix pour cent du gain **décide de tout**, et rien dans le
 corpus ne permet de le dire. **Seul le simulateur du Livre 13 pourrait le
 produire, et il n'existe pas.**
+
+
+## A30 ET A37 — CE QUE LE PRÉCÉDENT OUVERT LE 2026-09-08 LEUR APPORTE
+
+**L19.C02 a ouvert le traitement normatif du seul instrument mondial qu'une
+institution internationale crée et alloue à ses participants sans
+contrepartie préalable.** Ce qui suit ne tranche ni A30 ni A37 : **cela leur
+fournit une pièce, et il faut dire exactement laquelle.**
+
+**CE QUE CELA APPORTE À A30.** L'arbitrage restait bloquant sur un point non
+juridique : *ce qui garantit la dette collective s'érode quand le dispositif
+réussit*. **La norme statistique mondiale écrit depuis 2008 que la
+créance porte « ON THE PARTICIPANTS COLLECTIVELY AND NOT ON THE IMF ».** **La
+construction retenue par A35 — la société entière porte la dette —
+est donc REPRÉSENTABLE, ce qui n'allait pas de soi et que rien n'établissait.**
+**Elle n'est pas pour autant ÉPROUVÉE** : le système qui la porte n'a
+jamais été soumis à l'érosion que A30 redoute. **Le point bloquant
+reste bloquant ; il n'est plus isolé.**
+
+**CE QUE CELA APPORTE À A37, ET C'EST PLUS LOURD.** A37 demande la forme
+juridique de l'institution émettrice. **Ce précédent transforme cette
+question en question DE MONTANT.** Sous le traitement ouvert, **l'émetteur
+n'inscrit aucun passif et n'a donc pas de fonds propres négatifs** — ce qui
+fait tomber l'objection que L21.C01 tenait pour acquise et que L11.C02 et
+L21.C03 avaient établie. **Mais ce traitement suppose un émetteur d'avoirs
+de réserve entre autorités monétaires**, et le dispositif verse à des
+prestataires privés. **A37 ne décide donc plus seulement d'un régime de
+protection : IL DÉCIDE SI LE DISPOSITIF A OU N'A PAS DE FONDS PROPRES
+NÉGATIFS.** **C'est la question la plus coûteuse encore ouverte du corpus.**
+
+**ET UNE QUESTION NOUVELLE EST POSÉE, QUI N'APPARTIENT À AUCUN ARBITRAGE
+EXISTANT.** Le précédent fait payer l'USAGE et non la DÉTENTION : « SDRs
+attract interest [...] as interest PAID BY participants holding MORE than their
+allocation EXACTLY MATCHES the interest OWING TO participants holding LESS ».
+**C'est la structure du reflux collectif, par l'autre face.** **Mais ici le
+prélèvement est un TRANSFERT entre participants, tandis que la fonte
+DÉTRUIT.** **Un transfert laisse l'encours inchangé ; une destruction le
+réduit — et le corpus n'a jamais comparé les deux.** À verser où
+l'auteur jugera : c'est une question de calibrage du reflux, pas de sa
+légitimité.
