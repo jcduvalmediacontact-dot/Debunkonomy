@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -36,9 +36,22 @@ verifications_en_attente:
      l'ouverture de ses comptes."
   - "**F12 EST PROPOSÉ ET NON ARBITRÉ**, et il touche la revendication centrale
      du livre plutôt que le fonctionnement du dispositif."
+  - "**LA TRANCHE EST ROUVERTE LE 2026-09-08 PAR L21.C08, QUI OUVRE LA NORME
+     INTERNATIONALE DES INFRASTRUCTURES DE MARCHÉS FINANCIERS.** **UN POINT DE
+     CONFORMITÉ, ET IL EST RÉEL** : le principe 9 demande que les règlements
+     s'effectuent « **in CENTRAL BANK MONEY where practical and available** », ce
+     que l'architecture satisfait par construction puisque l'allocation ne circule
+     qu'entre l'émetteur et les banques centrales nationales. **TROIS EXIGENCES
+     NON SATISFAITES** : la base juridique opposable dans toutes les juridictions
+     concernées ; **les actifs liquides financés par des FONDS PROPRES, qui
+     heurtent de front le résultat de L19.C06** ; et le **moment du règlement
+     définitif**, que le corpus n'a jamais fixé alors qu'il commande la
+     révocabilité d'une allocation et la nature du reflux. **Et l'absence de
+     régime de liquidation ordonnée, que ce chapitre avait déjà relevée, devient
+     ici un manquement à une norme et non plus seulement une lacune.**"
 resume: "Ce chapitre clôt la première tranche du livre et il en donne le verdict, qui n'est pas celui que ses quatre premiers chapitres laissaient attendre. La tranche a instruit dix-huit des vingt-quatre principes du standard des infrastructures de marché, ouvert une infrastructure existante et deux instruments juridiques, et écrit les écritures d'une opération complète. Elle avait commencé par des collisions frontales et elle finit par un tri. Le résultat principal est que la plupart des objections du livre sont conditionnelles à une hypothèse que l'architecture arbitrée écarte, puisque l'allocation ne circule pas et que ce qui circule est de la monnaie nationale ordinaire déjà admise partout. Le chapitre énumère alors ce qui subsiste. Un coût inconditionnel, égal à trois pour cent de l'encours en fonds propres bancaires de première catégorie, qui ne dépend pas de la nature de l'unité. Un guichet concret, la désignation comme système, où un superviseur national jugerait les règles de fonctionnement du dispositif, barème de fonte compris. Une pièce manquante, la forme juridique de l'institution émettrice, que personne n'a jamais écrite et qui commande le reste. Et une exigence qui frappe la conception plutôt que l'exploitation, celle de fournisseurs de liquidité que la fonte rend structurellement perdants. Le chapitre termine par une autocritique de méthode, en constatant que le corpus a opposé une norme externe pendant quatre chapitres avant de relire ce que sa propre architecture exigeait, et il en tire une règle pour les livres suivants."
 concepts: [seuil_d_activation, contrepartie_comptable, hierarchie_monetaire, monnaie_comme_registre]
-renvois: [L5.C02, L10.C06, L11.C01, L11.C02, L20.C01, L21.C01, L21.C02, L21.C03, L21.C04, L21.C05, L21.C06]
+renvois: [L5.C02, L10.C06, L11.C01, L11.C02, L20.C01, L21.C01, L21.C02, L21.C03, L21.C04, L21.C05, L21.C06, L21.C08]
 ---
 
 # Portée de la tranche

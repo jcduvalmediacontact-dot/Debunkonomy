@@ -41,9 +41,25 @@ verifications_en_attente:
      n'ont pas été relus à cette lumière. **Le deuxième jeu d'écritures du
      circuit — celui de la banque centrale nationale — reste donc appuyé sur le
      seul Cahier technique de l'auteur.**"
+  - "**A37 DÉCIDE UNE CINQUIÈME FOIS, ET LA CINQUIÈME VIENT D'UNE NORME
+     EXTÉRIEURE — 2026-09-08, par L21.C08.** Ce chapitre établissait que
+     l'arbitrage sur la forme juridique de l'émetteur décide de quatre objets. **La
+     norme internationale des infrastructures de marchés financiers en ajoute un
+     cinquième, et il est frontal.** **Principe 15** : une infrastructure doit
+     « **hold sufficient LIQUID NET ASSETS FUNDED BY EQUITY to cover potential
+     general business losses so that it can continue operations as A GOING
+     CONCERN** », et ces actifs doivent à tout moment suffire à « **a RECOVERY OR
+     ORDERLY WIND-DOWN of critical operations** ». **Or L19.C06 a établi que
+     l'émetteur peut présenter des FONDS PROPRES NÉGATIFS selon la branche
+     retenue.** **Ce n'est pas une difficulté de calibrage : c'est une condition
+     d'existence sous cette norme.** **S'y ajoute le principe 1**, qui exige une
+     base juridique « **well-founded, clear, transparent, and enforceable [...] IN
+     ALL RELEVANT JURISDICTIONS** » — soit autant de juridictions que de membres
+     d'une coalition. **RÉSERVE : l'applicabilité de cette norme au dispositif
+     n'est pas établie, personne n'ayant qualifié sa couche de règlement.**"
 resume: "Ce chapitre clôt la première tranche du livre à sept chapitres et en donne le verdict. La tranche a ouvert une seule source de première main, la norme statistique mondiale des comptes nationaux, et l'a lue de bout en bout sur les cinq questions que le premier chapitre avait fixées. Toutes reçoivent une réponse, et aucune n'est celle que le corpus attendait. Il existe un précédent, mais son passif lui a été reconnu après avoir été nié, de sorte qu'il ne peut pas servir à soutenir qu'une émission sans passif est représentable. Un débiteur collectif n'existe pas comme totalité mais existe comme somme de débiteurs identifiés, et le corpus tenait déjà sans le voir ce qui rend sa construction représentable. Les fonds propres négatifs ne sont pas un problème comptable, la norme les prévoyant explicitement, mais ils relèvent de deux autres registres dont un que personne n'avait nommé. Le poste que le corpus inscrivait à l'actif de la banque centrale nationale n'existe pas dans la nomenclature, et son absence déplace le déficit vers le bilan le plus difficile à modifier. Et le reflux est un intérêt s'il est écrit avant l'émission, une répudiation s'il est décidé après. Le résultat d'ensemble tient en deux propositions. La première est lexicale et elle coûte deux mots au corpus, puisque sans dette et sans intérêt recouvrent chacun deux propositions qu'il confondait. La seconde est structurelle et elle commande la suite, puisque la même question de statut décide quatre fois de suite, sur quatre objets que le corpus croyait indépendants."
 concepts: [contrepartie_comptable, reflux_collectif, monnaie_fondante, hierarchie_monetaire, architecture_invisible, creation_monetaire]
-renvois: [L10.C06, L11.C01, L11.C02, L11.C07, L19.C01, L19.C02, L19.C03, L19.C04, L19.C05, L19.C06, L21.C01, L21.C03]
+renvois: [L10.C06, L11.C01, L11.C02, L11.C07, L19.C01, L19.C02, L19.C03, L19.C04, L19.C05, L19.C06, L21.C01, L21.C03, L21.C08]
 ---
 
 # Portée de la tranche

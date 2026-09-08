@@ -1742,3 +1742,37 @@ argumentée de la cohérence interne du cadre** — la tension entre la cible
 été traitée dans la littérature. **Et le rapport de suivi européen
 2026**, qui est dans la bibliothèque de l'auteur et donnerait un second
 émetteur.
+
+
+# Ouverture du 2026-09-08 (nuit, fin) — LA NORME DES INFRASTRUCTURES, ET UN POINT DE CONFORMITÉ
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**CPSS et IOSCO, *Principles for financial market infrastructures*, avril 2012** —
+pièce du dossier NEMO. **DROITS : « All rights reserved. BRIEF EXCERPTS MAY BE
+REPRODUCED OR TRANSLATED PROVIDED THE SOURCE IS [cité] », mention lue dans le
+document — `citation_seule`, la mention autorisant expressément la citation
+courte avec attribution.** Ouvert pour **L21.C08**.
+
+**C'est la seconde fois en une journée qu'une pièce du dossier NEMO répond
+à une question que le corpus tenait pour ouverte** — après le modèle
+stock-flux-fonds pour le Livre 13. **La leçon déjà tirée se
+confirme : le facteur limitant est l'INVENTAIRE, non l'acquisition.**
+
+## ACQUISITIONS DE RANG 1 QUI EN DÉCOULENT
+
+**LES MISES À JOUR POSTÉRIEURES À 2012.** Le corpus tient un texte de
+2012 et **aucun des travaux qui ont suivi** sur les infrastructures
+transfrontalières, les monnaies numériques de banque centrale et la
+cyber-résilience. **La question transfrontalière étant précisément
+celle du dispositif, cette acquisition est urgente.**
+
+**UNE CRITIQUE DE CETTE NORME.** Le corpus tient le texte de deux comités
+internationaux sur les infrastructures qu'ils régulent. **Quatrième
+occurrence en deux jours d'une norme sans son adversaire.**
+
+**ET UNE QUALIFICATION JURIDIQUE, QUI N'EST PAS UNE SOURCE MAIS UN TRAVAIL.**
+**Personne n'a établi si la couche de règlement du dispositif est un
+système de paiement d'importance systémique.** **Tant que ce n'est pas fait,
+le corpus ne sait pas quelles règles lui sont opposables**, et il instruit des
+normes qui ne le lient peut-être pas.

@@ -2687,7 +2687,7 @@ livres:
       - "objection — L5.C09 : l'infrastructure fournit le rail de la séquence d'entrée, et le corpus ne sait pas où l'unité s'y logerait"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 7
+    chapitres_acquis: 8
     architecture: >
       Douze chapitres proposés par l'auteur : message, paiement, compensation et
       règlement comme quatre opérations distinctes ; monnaie de banque
