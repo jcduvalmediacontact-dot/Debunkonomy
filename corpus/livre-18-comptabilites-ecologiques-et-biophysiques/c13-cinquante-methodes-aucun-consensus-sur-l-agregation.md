@@ -48,9 +48,21 @@ verifications_en_attente:
      défaut est relevé sur **la méta-analyse dont les prix seraient tirés**,
      « **the geographic distribution of studies is uneven** ». **Deux sources
      indépendantes, sur deux intrants différents du même calcul.**"
+  - "**L'ACQUISITION DE RANG 2 INSCRITE PAR CE CHAPITRE EST FAITE LE MÊME JOUR PAR
+     L18.C15 : LE CHAPITRE 4 EST OUVERT.** Il porte quatre constats adverses au
+     dispositif, tous avec leur niveau de confiance déclaré. **(1) BIEN ÉTABLI :**
+     « **market values commonly prevail where economic trade-offs among competing
+     goals cannot be avoided** ». **(2)** les dispositifs « **designed at
+     international scales and not adapted to the local context** » peuvent
+     **exclure les pratiques locales et accroître les inégalités**. **(3)** le coût
+     de la certification et de la transparence pèse le plus lourdement sur les
+     **plus petits**. **(4) BIEN ÉTABLI :** les cibles internationales de
+     biodiversité ont progressé dans le périmètre d'un ministère et échoué là où
+     elles exigeaient une réorientation intersectorielle. **RESTENT FERMÉS : les
+     chapitres 1, 2, 5 et 6, et le résumé aux décideurs EN ANGLAIS.**"
 resume: "Ce chapitre ouvre le catalogue des méthodes de valorisation de la nature établi par la plateforme intergouvernementale compétente, que le chapitre précédent avait inscrit comme acquisition de premier rang parce qu'il constitue le contre-catalogue autorisé d'un barème à métrique unique. Il en tire cinq résultats. Le premier est que plus de cinquante méthodes distinctes existent, issues de disciplines aussi diverses que l'anthropologie, la biologie, l'économie, la géographie, la psychologie et la sociologie, et qu'elles se rangent en quatre familles selon qu'elles observent la nature, recueillent des déclarations, observent des comportements ou intègrent plusieurs sources. Le deuxième est que la comptabilité écosystémique des Nations unies, sur laquelle un chapitre antérieur de ce livre s'appuyait, y figure comme une méthode d'intégration parmi d'autres, ce qui la relativise sans la contredire. Le troisième porte sur l'agrégation et il est le plus lourd, la plateforme établissant qu'aucun consensus n'existe sur les bonnes pratiques d'agrégation, alors même que l'agrégation est centrale et que la procédure la plus répandue reste la simple somme des valeurs individuelles. Le quatrième porte sur l'échelle, puisque soixante-douze pour cent des valorisations se font en deçà du niveau national et six pour cent seulement au-dessus, c'est-à-dire à l'échelle où le dispositif prétend opérer. Le cinquième porte sur la justice, considérée dans quatre pour cent des valorisations recensées. Le chapitre relève enfin que la majorité des valorisations refuse en pratique de ramener les valeurs à une métrique commune et conserve des indicateurs biophysiques, monétaires et socioculturels distincts."
 concepts: [valorisation_des_communs, bareme, indicateur_de_progres, essentiel_insolvable, polycentricite]
-renvois: [L7.C22, L11.C13, L18.C02, L18.C09, L18.C10, L18.C11, L18.C12, L25.C01, L18.C14]
+renvois: [L7.C22, L11.C13, L18.C02, L18.C09, L18.C10, L18.C11, L18.C12, L25.C01, L18.C14, L18.C15]
 ---
 
 # Cinquante méthodes, aucun consensus sur l'agrégation

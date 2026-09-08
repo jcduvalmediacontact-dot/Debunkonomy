@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -46,9 +46,17 @@ verifications_en_attente:
   - "OUVERTS AU RENDU : A16 (légitimation), A29 sous-forme (financement en tête
      ou en résidu), et la tension entre le chapitre 5 et le chapitre 7 du livre
      source sur le mode de détermination de la valeur."
+  - "**LA DIFFICULTÉ ÉTABLIE PAR CE CHAPITRE REÇOIT SON OBJET PRÉCIS LE 2026-09-08
+     PAR L18.C15.** L'évaluation intergouvernementale établit, au niveau bien
+     établi, que les rapports de pouvoir « **determine WHAT TYPES OF KNOWLEDGE ARE
+     GIVEN CREDENCE** in the decision-making process, influencing **whether and how
+     certain values are expressed and made legible to decision-makers** ».
+     **CE N'EST DONC PAS SEULEMENT QUI DÉCIDE : C'EST QUI DÉCIDE DE CE QUI COMPTE
+     COMME MESURE.** **Un barème est une réponse à cette seconde question, et le
+     dispositif ne dit ni qui l'écrit, ni qui peut le contester.**"
 resume: "Ce chapitre rend le Livre 7 au terme de sa première passe. Il ne verse aucun résultat neuf : il réunit ce que vingt et un chapitres ont produit, parce que quatre régularités n'apparaissent qu'à l'échelle du livre. Il établit d'abord un fait de méthode que le rendu doit porter au même titre que les résultats : les quatre premiers chapitres ont été écrits sans ouvrir le chapitre du livre source, et les quatre suivants sans relire le chapitre du corpus qui l'avait déjà dépouillé, ce qui a produit deux autocorrections et une troisième sur une source mal attribuée. Il établit ensuite que le livre source est plus solide que le corpus ne le croyait, quatre de ses dispositifs ayant été retrouvés indépendamment par le Livre 11 et deux exigences que le corpus déclarait absentes s'y trouvant effectivement. Il établit à l'inverse que deux compétences énoncées par le livre ne sont attribuées à aucune de ses chambres, la valorisation et la production de cadres juridiques contraignants, et que trois mécanismes bien conçus y sont cantonnés à des domaines trop étroits. Il expose la difficulté centrale que ce livre isole et qu'aucune séparation des pouvoirs ne traite, à savoir que ceux qui votent le partage en sont les bénéficiaires, et il recense les six lacunes que la passe laisse. Il conclut que ce livre ne conditionne pas le dispositif mais le fonde, puisque la valeur y est instituée et non mesurée."
 concepts: [polycentricite, valorisation_des_communs, qualification_regenerative, bareme, regle_contre_discretion, affectation_des_instruments]
-renvois: [L1.C18, L1.C27, L7.C01, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12, L7.C13, L7.C17, L7.C20, L7.C21, L11.C11, L11.C16, L11.C17]
+renvois: [L1.C18, L1.C27, L7.C01, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12, L7.C13, L7.C17, L7.C20, L7.C21, L11.C11, L11.C16, L11.C17, L18.C15]
 ---
 
 # La portée du Livre 7

@@ -49,9 +49,25 @@ verifications_en_attente:
      **RÉORIENTER DES FLUX FINANCIERS NE MET AUCUNE INSTALLATION À L'ARRÊT.** **F14 est
      proposé sur ce fondement**, et ce chapitre devra dire si son écart mesure une
      insuffisance d'allocation ou une insuffisance D'INSTRUMENT."
+  - "**LE DIAGNOSTIC ÉTABLI PAR CE CHAPITRE A DÉJÀ ÉTÉ POSÉ COMME CIBLE
+     INTERNATIONALE, ET LA CIBLE N'A PAS ABOUTI — ÉTABLI LE 2026-09-08 PAR
+     L18.C15.** Ce chapitre établit l'écart entre flux dommageables et flux
+     favorables à la nature. **L'évaluation intergouvernementale rapporte qu'une
+     cible visant à supprimer les incitations économiques dommageables existait et
+     que « these incentives STILL PROVIDE MIXED MESSAGES to natural resource users
+     in many countries »**, les « **compliance mechanisms beyond good intentions**
+     » étant « **still lacking** » — niveau déclaré : bien établi. **ET LE PROFIL
+     D'ÉCHEC EST INSTRUCTIF :** la progression a été plus forte pour les cibles
+     relevant du périmètre d'un ministère de l'environnement que pour celles
+     exigeant une « **cross-sectoral cooperation and co-investment** » — dont
+     précisément la réduction des subventions dommageables. **LE PROBLÈME QUE LE
+     DISPOSITIF VEUT RÉSOUDRE N'EST DONC PAS INAPERÇU : IL A ÉTÉ VISÉ ET MANQUÉ.**
+     **À INSTRUIRE, ET C'EST DÉCISIF : POURQUOI** — défaut de contrainte, défaut de
+     moyens, ou opposition d'intérêts organisés. **Les trois réponses conduisent à
+     des conclusions opposées pour le dispositif.**"
 resume: "Ce chapitre instruit le rapport des Nations unies sur l'état du financement de la nature, fourni le jour même, et il verse au corpus l'ordre de grandeur qu'il n'avait jamais tenu. Les flux directement dommageables à la nature ont atteint sept mille trois cents milliards de dollars en 2023, tandis que les investissements dans les solutions fondées sur la nature s'élevaient à deux cent vingt milliards, soit un rapport de plus de trente contre un, et le besoin identifié pour tenir les engagements des conventions de Rio porte cet investissement à cinq cent soixante et onze milliards en 2030. Le chapitre en tire d'abord un résultat favorable, puisque l'écart à combler est d'environ trois cent cinquante milliards par an, grandeur modeste au regard des flux contraires et que le corpus peut désormais nommer. Il établit ensuite l'objection principale, qui est que le rapport propose lui-même une solution moins coûteuse et institutionnellement disponible, à savoir la suppression et la réaffectation des subventions dommageables, lesquelles dépassent deux mille milliards par an, relèvent déjà de la compétence budgétaire des États et couvriraient l'écart en en réorientant un sixième. Le corpus doit donc expliquer pourquoi construire une institution monétaire nouvelle plutôt que cesser de payer pour la destruction, et il ne tient pas les données historiques qui étayeraient sa meilleure réponse, celle de la réversibilité politique des réformes budgétaires. Le chapitre relève enfin que les flux publics vers la nature sont huit fois supérieurs aux flux privés, ce qui restreint en pratique la branche que la correction du même jour avait ouverte sur la portée personnelle de la prohibition du financement monétaire."
 concepts: [essentiel_insolvable, valorisation_des_communs, externalisation, additionnalite, fausse_richesse, degeneratif]
-renvois: [L1.C15, L1.C18, L5.C07, L10.C04, L10.C06, L11.C03, L11.C13, L18.C01, L18.C04, L18.C06, L26.C05]
+renvois: [L1.C15, L1.C18, L5.C07, L10.C04, L10.C06, L11.C03, L11.C13, L18.C01, L18.C04, L18.C06, L26.C05, L18.C15]
 ---
 
 # L'ordre de grandeur, et le concurrent qu'il désigne
