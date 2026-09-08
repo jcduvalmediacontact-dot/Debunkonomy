@@ -4009,3 +4009,41 @@ mouvements de capitaux ni les registres de bénéficiaires effectifs que le
 corpus a rencontrés au Livre 23. **Mais cette voie n'est ouverte par personne,
 et la seule réponse dont le corpus dispose aujourd'hui est celle-ci, avec son
 prix.**
+
+### A40 — LA TROISIÈME VOIE EXISTE, ELLE A ÉTÉ APPLIQUÉE, ET ELLE N'EST PAS GRATUITE (2026-09-08, quelques heures après la pose)
+
+**L16.C03 a ouvert le rapport de première main sur la seule application que le
+corpus connaisse.** **La fuite y était traitée SANS réforme foncière, PAR
+UN PRIX DE SORTIE.**
+
+**LE MÉCANISME, DANS LE TEXTE** : « **there was to be NO FINAL REDEMPTION ; but
+every holder of the scrip was to have the privilege of redeeming it at the town
+treasury or at the local banks AT ANY TIME ; but for such redemption A SERVICE
+CHARGE OF TWO PER CENT had to be paid. As the stamp was only 1 per cent, the
+disadvantages of redemption at 2 per cent were, at any given moment, GREATER than
+the probable disadvantages of going on at 1 per cent. Redemption, therefore, was
+not likely to hurt the circulation of the scrip** ».
+
+**LA FUITE N'EST PAS EMPÊCHÉE : ELLE EST RENDUE PLUS CHÈRE QUE LE
+SÉJOUR.** Sortir coûte deux ; rester coûte un. **Le porteur qui veut fuir le
+peut à tout instant, et il n'y a aucun intérêt.**
+
+**A40 A DONC TROIS BRANCHES ET NON DEUX.** **(1) Garder le barème aux
+frontières et n'avoir aucune réponse à la fuite. (2) Prendre la réforme
+foncière et perdre le barème. (3) TARIFER LA SORTIE AU-DESSUS DU COÛT DE
+DÉTENTION**, ce qui ne demande ni nationalisation du sol ni abolition des droits
+de douane.
+
+**MAIS LA TROISIÈME N'EST PAS GRATUITE, ET SON PRIX TOUCHE LE POINT LE PLUS
+INCERTAIN DU DOSSIER.** **Elle exige un GUICHET DE RACHAT** — donc que
+l'émetteur détienne de quoi racheter. **La commune tenait un fonds de garantie
+à la caisse d'épargne locale.** **Le Livre 19 a passé sept chapitres à
+établir que l'actif de l'émetteur est le point le plus incertain du corpus** :
+L11.C02 y porte « à l'actif, rien encore », L21.C03 a tranché en ce sens,
+et L19.C06 a établi que trois registres distincts commandent la question.
+**UN ÉMETTEUR SANS ACTIF NE PEUT PAS OFFRIR UN RACHAT.**
+
+**CE QUE CELA CHANGE À L'ARBITRAGE.** **La troisième branche déplace la
+question de la fuite vers la question de l'actif** — c'est-à-dire vers A37, qui
+décide déjà de quatre autres choses. **Le corpus ne gagne donc pas une
+sortie facile : il gagne une quatrième raison de trancher A37.**

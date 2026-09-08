@@ -99,9 +99,21 @@ verifications_en_attente:
      si les prix baissent et qu'aucune activité n'est qualifiée, l'une commande
      d'émettre et l'autre l'interdit. **Le corpus hérite le ressort de reflux SANS
      HÉRITER LA RÈGLE D'ÉMISSION, alors que l'auteur les tenait ensemble.**"
+  - "**LE PRÉCÉDENT INVOQUÉ AU § 6 EST INSTRUIT LE 2026-09-08 PAR L16.C03, ET SES
+     RÉSULTATS SONT PLUS MODESTES QUE LA LÉGENDE.** Un rapport de première main de
+     1933 donne : émission de **32 000 schillings, environ 4 500 dollars**, dont « **only
+     about 1/3 of the issue or less was kept in circulation** » ; taux de **1 % PAR
+     MOIS** et non 5,2 % l'an ; travaux publics de 100 000 schillings ; et surtout
+     « **permanent jobs were given to FROM 30 TO 50 of the 1500 unemployed** » —
+     **DEUX À TROIS POUR CENT.** **L'échelle est celle d'une commune de 4 300
+     habitants sur quelques mois, et rien n'y est extrapolable.** **La qualité de la
+     preuve est faible** : chiffres issus du rapport du maire à son gouvernement
+     régional, rotation de vingt fois par mois **déclarée par le maire et rapportée en
+     troisième main**, aucune contre-expertise ouverte. **L'exemple ne peut plus être
+     invoqué sans ces chiffres.**"
 resume: "Dans un régime où la monnaie naît d'un crédit bancaire et disparaît à son remboursement, une économie stationnaire endettée est théoriquement possible si l'encours de dette est stable et si les revenus d'intérêts sont intégralement redépensés. La contrainte de croissance apparaît dès que ces deux conditions cèdent : lorsque l'encours croît, parce que le crédit n'est accordé que contre des revenus futurs, et lorsque les créanciers accumulent plutôt qu'ils ne dépensent. Ce chapitre pose cette contrainte avec ses conditions, en suit la traduction physique — sous réserve des canaux de l'inflation et de la croissance immatérielle — et montre pourquoi le désendettement massif, le financement d'une transformation sans croissance et la sortie de la course à la productivité sont structurellement difficiles sans modification du régime d'émission. Il distingue enfin la monnaie endogène, créée par le crédit, d'une monnaie émise sans dette par une autorité publique, dont l'histoire fournit des cas."
 concepts: [creation_monetaire, monnaie_endogene, monnaie_fondante, reflux_monetaire, solvabilite_anticipee, systeme_monetaire_et_financier, decouplage]
-renvois: [L1.C01, L1.C03, L1.C05, L1.C07, L16.C01]
+renvois: [L1.C01, L1.C03, L1.C05, L1.C07, L16.C01, L16.C03]
 ---
 
 # Pourquoi la dette change tout
