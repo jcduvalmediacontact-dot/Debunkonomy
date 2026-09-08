@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -55,6 +55,17 @@ verifications_en_attente:
      juridique ; **il n'apporte aucun chiffre sur la distribution des revenus,
      des patrimoines ou de l'accès aux besoins essentiels.** **Il ne peut donc
      pas dire de combien le plancher est manqué, ni où.**"
+  - "**UNE COMMANDE EST ADRESSÉE À CE LIVRE LE 2026-09-08 PAR L'ARBITRAGE A42,
+     ET ELLE PORTE L'OBJECTION LA PLUS SÉRIEUSE À UNE POSITION QUE L'AUTEUR VIENT
+     DE PRENDRE.** Le dispositif est arbitré en désaccord avec l'idée de
+     croissance, même prétendument verte. **Or la cible 8.1 des objectifs de
+     développement durable — un taux de croissance du produit intérieur brut d'au
+     moins 7 % dans LES PAYS LES MOINS AVANCÉS — a des motifs de justice, et ce
+     livre les instruit.** **REFUSER UN OBJECTIF DE CROISSANCE POUR LES PAYS LES
+     PLUS PAUVRES OBLIGE À DIRE CE QU'ON LEUR DONNE À LA PLACE**, et le corpus ne
+     le dit nulle part. **Tant que cette commande n'est pas honorée, la position
+     est tenable en principe et indéfendable en pratique.** **C'est la commande la
+     plus lourde que ce livre ait reçue.**"
 resume: "Ce chapitre ouvre le livre en établissant que le plancher social dont le corpus manquait n'est pas un choix de modélisation à faire mais une obligation juridique en vigueur depuis 1976. Le pacte international relatif aux droits économiques, sociaux et culturels est ouvert et lu dans son texte, et il énumère le contenu de ce plancher, à savoir un niveau de vie suffisant incluant la nourriture, l'habillement et le logement, le droit d'être à l'abri de la faim, le meilleur état de santé physique et mentale possible, la sécurité sociale, l'éducation et le travail. Le chapitre en tire quatre résultats. Le premier est une asymétrie de nature entre les deux bords du couloir que le livre précédent avait nommé, car le plafond écologique est un niveau tandis que le plancher social est une trajectoire, l'obligation étant de réalisation progressive au maximum des ressources disponibles. Le deuxième est que cette formule constitue la charnière que le dispositif cherchait, puisqu'un dispositif qui crée des ressources modifie ce que les ressources disponibles d'un État désignent, et que la question devient alors juridique et non seulement économique. Le troisième est que le pacte fournit une règle de répartition explicite pour un besoin essentiel, celle d'une distribution équitable des ressources alimentaires mondiales en fonction des besoins. Le quatrième est que la clause de limitation du pacte est opposable à l'instrument même que le dispositif emploie, puisqu'un prélèvement qui réduirait l'accès des plus pauvres à une nourriture ou à un logement suffisants met en cause un droit protégé et doit satisfaire un test de proportionnalité."
 concepts: [plancher_social, plafond_ecologique, essentiel_insolvable, dette_ecologique, communs, solvabilite_anticipee]
 renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03]

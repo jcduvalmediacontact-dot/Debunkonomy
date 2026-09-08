@@ -4397,3 +4397,112 @@ instruits** : la frontière décide du rendement énergétique [L26.C08],
 la méthode décide du coefficient de rebond [L26.C09], la composition du champ
 décide de ce qui est regardé [L26.C10]. **Quelle que soit la position
 retenue sur 8.1, 8.4 restera non vérifiable.**
+
+
+### A42 — ARBITRÉ LE 2026-09-08 PAR L'AUTEUR, LE JOUR MÊME DE SA POSITION
+
+**LA DÉCISION.** **Le dispositif est en DÉSACCORD avec l'idée de
+croissance, MÊME PRÉTENDUMENT VERTE.** Il n'accélère donc pas la cible
+8.1, et il ne se contente pas de l'écarter : **il en conteste le principe.**
+
+**C'EST LA BRANCHE (2), ET C'EST PLUS QUE LA BRANCHE (2).** L'arbitrage
+proposé offrait d'écarter la cible en le déclarant. **L'auteur va au-delà
+: le désaccord porte sur la croissance elle-même et non sur une cible.**
+
+---
+
+**CE QUI SUIT N'EST PAS LA DÉCISION DE L'AUTEUR MAIS CE QUE LE CORPUS EN
+DÉRIVE.** Les trois conséquences ci-dessous sont des résultats de
+lecture, et deux d'entre elles créent des dettes.
+
+**PREMIÈRE CONSÉQUENCE — LA PORTÉE EXCÈDE LA CIBLE 8.1, ET IL FAUT LE
+DIRE.** La cible **8.4** demande que « la croissance économique n'entraîne
+plus la dégradation de l'environnement ». **C'est la définition même de
+la croissance verte.** **Si le dispositif est en désaccord avec la croissance
+verte, il conteste aussi la PRÉMISSE de 8.4**, et non seulement la cible 8.1.
+**Ce n'est donc pas une cible qui sort du périmètre, c'est l'objectif 8 dans
+son principe.** **Le corpus enregistre cette extension et la soumet à l'auteur
+: elle découle de sa décision, elle n'y était pas énoncée.**
+
+**DEUXIÈME CONSÉQUENCE — LE CORPUS PEUT ENFIN SE SITUER, ET C'EST UN
+GAIN.** L17.C01 avait établi que **le dispositif n'entre dans aucune case de la
+taxonomie du champ dont il se réclame** — ni croissance verte, ni
+décroissance. **La décision le place**, et en deux temps. **Sur le
+DIAGNOSTIC, il rejoint la décroissance** : la croissance, même verte, est
+refusée. **Sur la MÉTHODE, il s'en sépare**, et L17.C03 avait déjà
+dit comment — la sobriété demande aux États de renoncer à la
+croissance, **le dispositif entreprend de retirer à la croissance sa
+nécessité.** **Le corpus tient donc désormais une position localisable :
+le diagnostic de la décroissance, sans sa méthode.** **L17.C01 est à
+reprendre sur ce point.**
+
+**TROISIÈME CONSÉQUENCE — UNE DETTE, ET C'EST LA PLUS DURE.** **La cible
+8.1 vise LES PAYS LES MOINS AVANCÉS, et elle a des motifs de justice que le
+Livre 25 instruit.** **Refuser un objectif de croissance pour les pays les plus
+pauvres oblige à dire ce qu'on leur donne à la place.** **C'est l'objection
+la plus sérieuse à la position retenue, et le corpus ne la tient pas.**
+**COMMANDE AU LIVRE 25** : établir ce que le dispositif propose aux pays les
+moins avancés en lieu et place d'une croissance du produit. **Tant que cette
+commande n'est pas honorée, la position est tenable en principe et
+indéfendable en pratique.**
+
+**PORTÉE DE LA REFORMULATION, ET ELLE EST PLUS ÉTROITE QU'ON POUVAIT LE
+CRAINDRE.** **La revendication n'est presque pas propagée dans le corpus** :
+elle vit principalement **dans le titre même du matricule 12 — « Comment
+réaliser les ODD avec NEMO IMS ? » — qui présuppose la réalisation et
+non la contestation.** **Le registre étant la projection du plan directeur, LE
+PLAN TRANCHE ET LE REGISTRE EST CORRIGÉ, JAMAIS L'INVERSE** (convention § 3)
+: **le corpus signale la tension et ne touche pas au titre.** **La reformulation
+porte donc sur les documents hors corpus — livre, cahier, site — que le
+corpus ne peut pas modifier.**
+
+---
+
+### A37 — NON ARBITRÉ LE 2026-09-08, MAIS UNE ORIENTATION EST DONNÉE
+
+**CE QUE L'AUTEUR A DIT.** La question reste à trancher. **L'institution
+émettrice se situe au même niveau juridique que des institutions mondiales
+telles que l'Organisation des Nations unies, l'Organisation mondiale du commerce
+ou l'UNESCO.**
+
+**CE QUE CELA RÈGLE : LE RANG.** Les trois institutions nommées sont des
+**organisations internationales créées par traité**. **L'orientation
+désigne donc la branche 1 sans la choisir formellement**, et elle écarte de
+fait la branche 3 — fondation ou association de droit national — qui
+n'offrait aucun argument pour la qualité d'organisme public.
+
+**CE QUE CELA NE RÈGLE PAS, ET C'EST PRÉCISÉMENT CE QUE L21.C08 A RENDU
+CRITIQUE : LA FORME FINANCIÈRE.** **Aucune des trois institutions nommées
+n'est un émetteur.** Aucune ne crée de monnaie, aucune ne porte de passif
+monétaire, aucune ne tient un bilan soumis à une exigence de fonds propres.
+**L'analogie fixe le rang et laisse entière la nature.**
+
+**ET LE CORPUS TIENT DÉJÀ UN MEILLEUR PRÉCÉDENT QUE LES TROIS NOMMÉS.**
+L19.C02 a ouvert le cas des droits de tirage spéciaux : **une institution du
+même rang, créée par traité, MAIS DOTÉE D'UNE FONCTION MONÉTAIRE**,
+qui alloue sans contrepartie et dont la créance porte sur les participants
+collectivement. **C'est l'analogue pertinent, et il porte un avertissement : son
+passif n'a été reconnu qu'après quinze ans de non-reconnaissance.**
+
+**UN POINT QUE L'ORIENTATION APPORTE SANS LE VOULOIR, ET IL EST DÉFAVORABLE.**
+**On quitte l'UNESCO.** Des États l'ont fait, et y sont revenus. **Une
+organisation créée par traité SE QUITTE** — or le corpus n'a **aucun
+régime de retrait, de liquidation ni de succession**, et la norme des
+infrastructures exige à tout moment de quoi assurer « **a recovery or orderly
+wind-down of critical operations** » [L21.C08]. **L'orientation rend donc cette
+lacune plus urgente, pas moins.**
+
+**CE QUI RESTE À TRANCHER, PRÉCISÉMENT.** **Non plus le rang, mais quatre
+choses** : la **fonction monétaire** — l'institution émet-elle en son nom
+propre ou opère-t-elle pour le compte des banques centrales membres ; le
+**capital** et son mode d'appel, que le principe 15 exige en fonds propres ; le
+**régime d'adhésion et de retrait** ; et le **régime d'immunité**, que le
+corpus n'a jamais instruit.
+
+**ACQUISITION DE RANG 1 QUI EN DÉCOULE, ET ELLE EST PRÉCISE.** **Les statuts
+d'une institution internationale DOTÉE D'UNE FONCTION MONÉTAIRE**, non ceux
+d'une organisation technique. **Le corpus a déjà déclaré cette
+acquisition sous un autre nom** — les statuts du Fonds monétaire
+international figurent dans ses acquisitions de rang 1 depuis le 2026-09-07 et ne
+sont toujours pas ouverts. **L'orientation de l'auteur en fait la plus rentable
+des acquisitions ouvertes.**

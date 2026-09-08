@@ -38,6 +38,23 @@ verifications_en_attente:
      ni celle de leur gouvernance ne sont ouvertes. **Le corpus tient un cadre
      officiel et son propre rapport de suivi, c'est-à-dire deux documents du même
      émetteur.** **Même défaut que celui qui lui a coûté deux rétractations.**"
+  - "**A42, POSÉ PAR CE CHAPITRE, EST ARBITRÉ LE JOUR MÊME PAR L'AUTEUR : LE
+     DISPOSITIF EST EN DÉSACCORD AVEC L'IDÉE DE CROISSANCE, MÊME PRÉTENDUMENT
+     VERTE.** C'est la branche (2) et davantage : **le dispositif ne se contente
+     pas d'écarter la cible 8.1, il en conteste le principe.** **TROIS
+     CONSÉQUENCES SONT DÉRIVÉES PAR LE CORPUS ET NON ÉNONCÉES PAR L'AUTEUR.**
+     **(1) La portée excède 8.1** : la cible 8.4 demande que la croissance
+     n'entraîne plus la dégradation, ce qui est la définition de la croissance
+     verte — **le désaccord porte donc sur l'objectif 8 dans son principe.**
+     **(2) Le corpus peut enfin se situer** : il rejoint la décroissance sur le
+     DIAGNOSTIC et s'en sépare sur la MÉTHODE, ce qui lève le « aucune case » de
+     L17.C01. **(3) UNE DETTE, ET C'EST LA PLUS DURE** : la cible 8.1 vise les
+     pays les moins avancés et a des motifs de justice que le Livre 25 instruit —
+     **refuser un objectif de croissance pour les plus pauvres oblige à dire ce
+     qu'on leur donne à la place, et le corpus ne le dit pas.** **Enfin, le titre
+     du matricule 12 présuppose la réalisation et non la contestation ; le
+     registre étant la projection du plan directeur, la tension est signalée et le
+     titre n'est pas touché.**"
 resume: "Ce chapitre remplace l'amorce et ouvre le livre chargé d'évaluer ce que le dispositif peut faciliter pour chaque objectif de développement durable. Il établit d'abord ce que le cadre est réellement, à savoir dix-sept objectifs déclinés en cent soixante-neuf cibles hétérogènes, dont certaines sont des résultats et d'autres des moyens de mise en oeuvre. Il rapporte ensuite le constat du rapport officiel de suivi de deux mille vingt-cinq, selon lequel trente-cinq pour cent seulement des cibles évaluables montrent un progrès adéquat, quarante-huit pour cent un progrès insuffisant et dix-huit pour cent une régression sous le niveau de deux mille quinze, trente cibles sur cent soixante-neuf n'ayant pu être évaluées faute de données mondiales. Il en tire que le cadre que le dispositif prétend accélérer est lui-même en échec sur la majorité de ses cibles, ce qui rend la promesse d'accélération à la fois plus utile et plus exigeante à démontrer. Il établit surtout une tension interne au cadre qui vise directement le corpus, puisque le huitième objectif promeut une croissance économique soutenue et fixe une cible chiffrée d'au moins sept pour cent de croissance annuelle du produit intérieur brut dans les pays les moins avancés, tandis qu'une autre cible du même objectif demande que la croissance économique n'entraîne plus la dégradation de l'environnement. Le corpus a établi ailleurs que cette seconde cible ne se laisse pas mesurer, la frontière décidant du rendement énergétique et la méthode du coefficient de rebond. Le chapitre conclut que le dispositif ne peut pas se dire accélérateur du cadre sans dire ce qu'il fait de la cible de croissance, et il fixe la grille du livre en sept questions."
 concepts: [indicateur_de_progres, plancher_social, additionnalite, bareme]
 renvois: [L11.C13, L13.C01, L17.C01, L17.C03, L18.C10, L22.C04, L24.C01, L25.C01, L26.C10]

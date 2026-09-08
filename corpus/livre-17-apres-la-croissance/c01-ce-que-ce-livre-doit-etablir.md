@@ -65,9 +65,22 @@ verifications_en_attente:
      PRÉTEND REGARDER.** **Réserve d'indépendance : les deux parties partagent leur
      équipe, et l'un de ses membres co-signe la revue de rebond de 2021 — le corpus
      tient un groupe de recherche, non un consensus.**"
+  - "**LE RÉSULTAT « AUCUNE CASE » DE CE CHAPITRE EST LEVÉ LE 2026-09-08 PAR
+     L'ARBITRAGE A42, ET LE CORPUS PEUT ENFIN SE SITUER.** Ce chapitre avait
+     établi que le dispositif n'entrait dans aucune case de la taxonomie —
+     ni croissance verte, ni décroissance. **L'auteur ayant arbitré que le
+     dispositif est en désaccord avec l'idée de croissance, MÊME PRÉTENDUMENT
+     VERTE, la position devient localisable en deux temps.** **Sur le DIAGNOSTIC,
+     il rejoint la décroissance** : la croissance verte est refusée, donc la
+     première branche de la taxonomie est écartée par décision et non par défaut.
+     **Sur la MÉTHODE, il s'en sépare**, et L17.C03 avait déjà dit comment — la
+     sobriété demande aux États de renoncer à la croissance, le dispositif
+     entreprend de retirer à la croissance sa nécessité. **LE CORPUS TIENT DONC
+     UNE POSITION : LE DIAGNOSTIC DE LA DÉCROISSANCE, SANS SA MÉTHODE.** **Ce
+     chapitre est à reprendre sur ce point, la taxonomie n'étant plus muette.**"
 resume: "Ce chapitre remplace l'amorce du matricule 17 et ouvre le livre par la revue systématique de référence sur le découplage, qui synthétise huit cent trente-cinq articles évalués par les pairs. Il commence par relever que le corpus emploie depuis son premier livre un vocabulaire d'après-croissance sans avoir jamais ouvert un seul auteur de ce champ, et qu'une promesse portant sur la sortie de la contrainte de croissance de l'encours n'a jamais reçu de réponse. La revue établit qu'un découplage relatif est fréquent pour les matières et les gaz à effet de serre mais qu'il ne l'est pas pour l'exergie utile, que le découplage absolu de longue durée est rare, et surtout que les rythmes observés ne permettent pas d'atteindre les réductions absolues requises, de sorte que le découplage doit être complété par des stratégies de sobriété et par l'application stricte d'objectifs de réduction absolue. Le chapitre en tire trois résultats. Le premier est que la taxonomie du champ, qui range les travaux en croissance verte, décroissance et autres, n'offre aucune case au dispositif, lequel n'affirme pas que le découplage suffit et ne donne pas non plus la priorité à la réduction sur la croissance du produit. Le deuxième est que la liste des instruments que cette littérature juge nécessaires est très exactement celle que le corpus a déclarée manquante l'avant-veille, moratoires, interdictions et fermetures, la revue précisant qu'ils doivent venir au lieu de la seule tarification. Le troisième est favorable et le chapitre le dit sans le minorer, puisque la revue nomme comme obstacle principal à la sobriété la dépendance structurelle des États à la croissance pour leurs recettes fiscales, qui est précisément l'obstacle que le dispositif prétend desserrer."
 concepts: [decouplage, sobriete, effet_rebond, limites_planetaires, indicateur_de_progres, degeneratif]
-renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06, L17.C03, L26.C10]
+renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06, L17.C03, L26.C10, L12.C01]
 ---
 
 # Ce que ce livre doit établir
