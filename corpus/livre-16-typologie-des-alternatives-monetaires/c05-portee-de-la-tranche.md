@@ -40,9 +40,20 @@ verifications_en_attente:
      corpus les tient pour quatre architectures. **Rien n'établit que ces six
      colonnes soient les bonnes** ni qu'elles suffisent : elles sont sorties de
      ce que les sources disaient, non d'une théorie de la comparaison."
+  - "**LE RÉSULTAT CENTRAL DE CE CHAPITRE REÇOIT SA FORME SYMÉTRIQUE LE 2026-09-08,
+     PAR L26.C07, ET DANS UNE AUTRE TRADITION.** Ce chapitre établissait que le corpus
+     **emprunte par morceaux et laisse chaque fois la pièce qui tenait l'ensemble** : il
+     prend le ressort de reflux et laisse la règle d'émission, la monnaie et laisse la
+     terre. **L26.C07 trouve le défaut inverse chez le fondateur de la tradition
+     entropique : le corpus PREND UN DIAGNOSTIC ET AJOUTE UN INSTRUMENT QUE L'AUTEUR
+     AVAIT EXCLU.** **Dans un cas il retranche, dans l'autre il ajoute — et dans les
+     deux la filiation est invoquée pour hériter de propriétés qui ne viennent pas avec
+     elle.** **La règle vaut désormais pour les deux livres** : une filiation autorise à
+     reprendre ce qu'un auteur a écrit ; **elle n'autorise jamais à se prévaloir de son
+     autorité pour ce qu'il n'a pas écrit, et encore moins pour ce qu'il a refusé.**"
 resume: "Ce chapitre clôt la première tranche du livre à cinq chapitres et en donne le verdict. La tranche a ouvert trois sources de première main, dont celle dont le dispositif tire son second ressort de reflux et que le corpus citait depuis son premier livre en ayant écrit qu'il ne l'avait pas ouverte. Elle produit un résultat central et trois résultats latéraux. Le résultat central est que le corpus emprunte à cette tradition par morceaux, et que ce qu'il laisse est chaque fois ce qui rendait l'ensemble cohérent. Il prend le ressort de reflux sans la règle d'émission qui l'accompagnait, alors que celle-ci commandait la quantité par un indice de prix et non par une qualification. Il prend la monnaie sans la réforme foncière, alors que celle-ci fermait le refuge que la première ouvre, et que l'auteur les proposait simultanément. Les trois résultats latéraux sont que le même mécanisme a reçu trois motifs différents en un siècle, ce qui établit qu'il est indifférent à la fin qu'on lui donne et interdit d'en hériter les propriétés ; que la seule application connue a réglé la question de la fuite par un prix de sortie supérieur au coût de détention, ce qui ouvre à un arbitrage une troisième branche dont le prix retombe sur la question de l'actif de l'émetteur ; et qu'une banque centrale écrit aujourd'hui, à propos de son propre instrument futur, à la fois la spécification d'une fonte et l'obligation d'acquérir des actifs en face. La tranche s'achève sur une grille de six colonnes où le dispositif est la seule des quatre architectures dont trois colonnes sont vides."
 concepts: [monnaie_fondante, demurrage, hierarchie_monetaire, contrepartie_comptable, creation_monetaire, regle_contre_discretion]
-renvois: [L1.C08, L1.C10, L11.C01, L11.C07, L11.C24, L16.C01, L16.C02, L16.C03, L16.C04, L19.C01, L19.C03, L21.C03]
+renvois: [L1.C08, L1.C10, L11.C01, L11.C07, L11.C24, L16.C01, L16.C02, L16.C03, L16.C04, L19.C01, L19.C03, L21.C03, L26.C07]
 ---
 
 # Portée de la tranche

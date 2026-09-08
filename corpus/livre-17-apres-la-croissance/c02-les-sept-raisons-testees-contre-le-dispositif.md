@@ -36,9 +36,20 @@ verifications_en_attente:
      régénératifs. **Aucun chapitre du corpus ne tient l'intensité matérielle
      d'un service de régénération**, et L26.C06 avait déjà déclaré cette question
      non ouverte."
+  - "**LA RESTRICTION POSÉE PAR CE CHAPITRE SE RESSERRE LE 2026-09-08, PAR L26.C07.**
+     Ce chapitre établissait que le résultat de L26.C01 — la physique n'interdit pas le
+     recyclage complet — **ne vaut que pour un ÉTAT STATIONNAIRE**. **Le fondateur de la
+     tradition attaque l'état stationnaire lui-même** et le range parmi les mythes :
+     **« The proponents of salvation through the stationary state must admit that such
+     a state can have only A FINITE DURATION »**, un monde à population stationnaire étant
+     **« CONTINUALLY FORCED TO CHANGE its technology as well as its mode of life in
+     response to the INEVITABLE DECREASE OF RESOURCE ACCESSIBILITY »**. **Le corpus
+     n'est pas tenu de le suivre — c'est une thèse contestée — mais il ne peut plus
+     présenter l'état stationnaire comme un refuge acquis dans la tradition dont il se
+     réclame.**"
 resume: "Ce chapitre ouvre le texte de position que la revue systématique désigne comme la référence de la sobriété, et il soumet le dispositif aux sept raisons que ce texte oppose au découplage. Le résultat n'est uniforme sur aucune. Une seule reçoit une réponse partielle du dispositif, celle du déplacement de problème, parce que la qualification multidimensionnelle et l'incommensurabilité déjà établies par le corpus visent exactement ce mécanisme. Deux reçoivent un instrument nommé mais non construit, le déplacement des coûts par le commerce et la contrainte de lieu. Une est aggravée par le dispositif, celle du rebond, pour la raison de comptabilité que le livre vingt-six a établie. Deux ne sont pas touchées du tout, dont la plus dangereuse pour un dispositif qui finance des services, puisque le texte soutient qu'une économie de services ne peut exister que par-dessus une économie matérielle et non à sa place. Et la sixième est, mot pour mot, le falsifieur que le corpus a proposé l'avant-veille en établissant qu'un instrument qui ajoute sans pouvoir retirer ne déplace rien. Le chapitre relève enfin une précision que le corpus avait failli manquer, à savoir que la limite du recyclage énoncée ici et le résultat contraire établi par le livre vingt-six ne se contredisent pas, l'un portant sur une économie en expansion et l'autre sur un état stationnaire."
 concepts: [decouplage, effet_rebond, sobriete, qualification_regenerative, externalisation, degeneratif]
-renvois: [L11.C13, L11.C24, L17.C01, L18.C04, L24.C01, L24.C04, L26.C01, L26.C02, L26.C04, L26.C05]
+renvois: [L11.C13, L11.C24, L17.C01, L18.C04, L24.C01, L24.C04, L26.C01, L26.C02, L26.C04, L26.C05, L26.C07]
 ---
 
 # Les sept raisons, testées une par une contre le dispositif

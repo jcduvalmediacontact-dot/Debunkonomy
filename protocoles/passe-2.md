@@ -4047,3 +4047,81 @@ et L19.C06 a établi que trois registres distincts commandent la question.
 question de la fuite vers la question de l'actif** — c'est-à-dire vers A37, qui
 décide déjà de quatre autres choses. **Le corpus ne gagne donc pas une
 sortie facile : il gagne une quatrième raison de trancher A37.**
+
+
+## Arbitrage A41 — LE MOT « ENTROPIE » EST-IL ÉPROUVÉ OU MÉTAPHORIQUE ? Une source somme le corpus de choisir
+
+**POSÉ LE 2026-09-08 PAR L26.C07, APRÈS OUVERTURE D'UNE CRITIQUE
+INTERDISCIPLINAIRE ÉCRITE PAR UN THERMODYNAMICIEN ET UN ÉCONOMISTE.**
+**NON ARBITRÉ.**
+
+**LE FAIT QUI OBLIGE À TRANCHER.** La source conclut en cinq points
+numérotés, dont deux visent directement l'usage que le corpus fait de ces
+notions. **(iv)** les apports thermodynamiques au processus économique et
+à la rareté des ressources sont « **simply ANALOGUES OR METAPHORS OF
+REALITY** ». **(v)** ces apports « **should therefore be EMPIRICALLY TESTED
+AGAINST THE REAL WORLD** ». Et la recommandation est explicite : « **a NEW
+VOCABULARY for ecological economics is needed that STANDS ON ITS OWN ; one that
+evolves a unique terminology, RATHER THAN CO-OPT THAT OF THERMODYNAMICS** »,
+le vocabulaire emprunté pouvant « **MISLEAD AS MUCH AS ENLIGHTEN** »
+hors des systèmes énergétiques.
+
+**LE NOM TECHNIQUE DU DÉFAUT EXISTE, ET IL EST CITÉ PAR LA SOURCE.**
+L'**entropie vulgaire** désigne « **the generic, but vague or ill-defined,
+application of entropy to various kinds of disorder** ». **C'est l'emploi du
+mot hors du domaine où il est défini.**
+
+**CE QUE LE CORPUS FAIT AUJOURD'HUI.** Le concept `entropie` figure au
+vocabulaire contrôlé et sert dans plusieurs livres à désigner une
+dégradation qui **n'est mesurée en joules nulle part dans le corpus**. La
+tranche du Livre 26 l'a confirmé en creux : elle tient des rapports et des
+observations, **elle ne tient aucune quantité absolue**.
+
+**LES DEUX BRANCHES, ET AUCUNE N'EST GRATUITE.**
+
+**(1) ÉPROUVER.** Le corpus assume l'emploi au sens strict et produit, là
+où il l'emploie, la mesure qui le justifie — un flux d'exergie, un
+rendement, une quantité. **Prix : c'est un chantier de données que le
+Livre 26 a déclaré ne pas avoir mené, et que seul le Livre 13
+pourrait outiller. Il n'existe pas.**
+
+**(2) DÉCLARER MÉTAPHORIQUE.** Le corpus applique au mot le patron des
+métaphores restituables déjà prévu par la convention, et le
+signale à chaque emploi. **Prix : le mot cesse alors de porter aucune
+démonstration**, et tout passage qui s'appuyait sur lui pour conclure doit
+être réécrit ou retiré. **C'est une migration à mener sur
+plusieurs livres.**
+
+**CE QUI N'EST PAS UNE BRANCHE.** Garder le mot au sens strict sans le mesurer.
+**C'est l'état actuel, et c'est précisément ce que la source
+nomme.**
+
+**CE QUE L'AUTEUR A DÉJÀ DIT ET QUI ORIENTE.** La convention prévoit
+déjà le patron `(*Image : ...*)` pour les métaphores restituables,
+**ce qui rend la branche (2) techniquement disponible sans changement de
+schéma**. Aucune décision antérieure ne porte sur ce mot.
+
+---
+
+## Règle de méthode versée le 2026-09-08 par L26.C07 — CE QU'UNE FILIATION AUTORISE
+
+**Une filiation autorise à reprendre ce qu'un auteur a écrit. ELLE
+N'AUTORISE JAMAIS À SE PRÉVALOIR DE SON AUTORITÉ POUR CE QU'IL N'A PAS
+ÉCRIT, ET ENCORE MOINS POUR CE QU'IL A REFUSÉ.**
+
+**La règle naît de deux constats de forme opposée, trouvés à
+un jour d'intervalle dans deux traditions différentes.** **L16.C05** : le
+corpus prend un instrument et **laisse la règle qui le gouvernait** — le
+ressort de reflux sans la règle d'émission, la monnaie sans la terre.
+**L26.C07** : le corpus prend un diagnostic et **ajoute un instrument que
+l'auteur avait exclu** — le levier monétaire, quand le programme du
+fondateur compte huit points dont aucun n'est monétaire et qu'il écarte
+expressément le mécanisme de prix.
+
+**Dans un cas le corpus retranche, dans l'autre il ajoute. Le défaut est le
+même : LA FILIATION EST INVOQUÉE POUR HÉRITER DE PROPRIÉTÉS QUI
+NE VIENNENT PAS AVEC ELLE.**
+
+**Ce que la règle n'interdit pas.** Argumenter contre un auteur dont on
+reprend le diagnostic est licite. **Ce qu'elle impose est de l'écrire ainsi**,
+et non de présenter comme un héritage ce qui est une divergence.

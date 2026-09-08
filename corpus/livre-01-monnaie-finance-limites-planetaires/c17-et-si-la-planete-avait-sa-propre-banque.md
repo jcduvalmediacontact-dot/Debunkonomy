@@ -112,9 +112,19 @@ verifications_en_attente:
      ils existeront **BALAYAGE N 2, 2026-09-06 : ces chapitres existent
      tous.** Renvoi a ajouter en outre vers le Livre 11, qui compte dix-sept
      chapitres et porte l'ingenierie des baremes."
+  - "**LA RÉTRACTATION DU § 4 REÇOIT UNE SECONDE AUTORITÉ INDÉPENDANTE LE 2026-09-08,
+     PAR L26.C07.** La proposition retirée l'avait été sur une seule source. **Une critique
+     écrite conjointement par un thermodynamicien et un économiste juge que la quatrième
+     loi « REPRESENTS DUBIOUS PHYSICS, LET ALONE ECONOMICS »**, et conclut que **« it is
+     ENERGY (OR EXERGY) AND NOT MATTER … that ultimately provides the resource
+     constraints on production »**. **La dispersion des matériaux vient des procédés
+     d'usinage, non d'un gradient analogue à celui de la chaleur.** **Le corpus tient donc
+     DEUX confirmations pour une rétractation faite sur une seule.** **Les mêmes auteurs
+     ajoutent que l'insistance du fondateur sur les limites physiques du recyclage a
+     préfiguré des idées utiles — il n'est pas réfuté en bloc.**"
 resume: "Ce chapitre ouvre la seconde partie du livre en posant une question plutôt qu'en démontrant une thèse : selon quel critère la monnaie nouvelle est-elle créée, et ce critère pourrait-il tenir compte de l'état documenté des fonds naturels ? Il écarte trois manières illégitimes d'y répondre — l'analogie historique, qui ne prouve rien ; l'hypothèse Gaïa dans sa version forte, réfutée faute de sélection possible à l'échelle planétaire, et remplacée par la persistance différentielle des configurations stabilisantes ; et l'emploi de « néguentropique » comme si une monnaie avait des propriétés physiques, alors que ce qu'une émission peut financer est l'entretien de structures dissipatives captant le flux solaire, sans s'affranchir de la dissipation de la matière. Il énonce enfin les fonctions d'une institution monétaire mandatée pour la biosphère, en posant que l'émission et le reflux forment un mécanisme unique — une émission sans destruction calibrée distribue un pouvoir d'achat net et est inflationniste — et en listant les cinq problèmes non résolus dont dépend la suite : légitimité, qualification, calibration, ancrage, aléa moral."
 concepts: [creation_monetaire, reflux_monetaire, essentiel_insolvable, degeneratif, limites_planetaires, entropie, robustesse]
-renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C15, L1.C16, L26.C01, L26.C04]
+renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C15, L1.C16, L26.C01, L26.C04, L26.C07]
 ---
 
 # Et si la planète avait sa propre banque ?

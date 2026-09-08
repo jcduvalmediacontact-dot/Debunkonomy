@@ -39,9 +39,21 @@ verifications_en_attente:
      proposée et non arbitrée. **Et la quatrième branche de F11**, le piège
      énergétique, proposée et non arbitrée. **Le corpus a produit ici plus de
      questions arbitrables que de réponses, et il l'écrit.**"
+  - "**LA PREMIÈRE DÉCLARATION DE CE CHAPITRE EST SOLDÉE LE 2026-09-08 PAR L26.C07,
+     ET LA TRANCHE SE ROUVRE.** Ce chapitre écrivait qu'aucun auteur de la tradition
+     n'était ouvert et que le corpus tenait **la critique sans l'original**. **L26.C07
+     ouvre l'original ET une seconde critique.** **TROIS RÉSULTATS, ET AUCUN N'EST
+     FAVORABLE.** Le programme d'action du fondateur compte **HUIT POINTS DONT AUCUN
+     N'EST MONÉTAIRE**. Il écarte le mécanisme de prix — le marché ne peut protéger
+     les générations futures **« even if we would try to set the prices “right” »**
+     — **et ne lui substitue aucun instrument mais une rééducation.** Et la critique
+     interdisciplinaire tient les emplois économiques de la thermodynamique pour **« simply
+     ANALOGUES OR METAPHORS OF REALITY »**, à éprouver empiriquement. **UN SEUL APPORT
+     FAVORABLE** : la quatrième loi est jugée **« dubious physics »** par une seconde
+     autorité indépendante, ce qui confirme la rétractation de L1.C17."
 resume: "Ce chapitre clôt la première tranche du livre à six chapitres et en donne le verdict. La tranche a ouvert six sources de première main dont quatre sous licence libre, et elle a rempli la fonction assignée au livre d'une manière que personne n'avait prévue, puisque le danger n'est pas venu de là où il était attendu. Le livre avait été déclaré dangereux pour le dispositif parce qu'il pouvait établir qu'une contrainte physique rend inatteignable le résultat visé. Or aucune des sources ouvertes n'établit une telle contrainte. La quatrième loi de la thermodynamique invoquée par le corpus n'existe pas, les réserves croissent quand on y puise, et l'approvisionnement énergétique mondial augmente sur tous les vecteurs à la fois. La physique n'interdit pas le résultat visé, ce qui répond à la question que le registre posait en premier et qui est le seul acquis franc de la tranche. Mais deux résultats sont apparus qui ne portent pas sur la physique et qui touchent le dispositif plus directement que ne l'aurait fait une limite matérielle. Le premier est que le rendement énergétique net ne se laisse pas mesurer sans une convention de périmètre qui décide du résultat, de sorte que le falsifieur physique est aujourd'hui indécidable, ce qui est pire qu'un résultat défavorable. Le second est que le dispositif ne dispose que d'instruments de niveau et d'aucun instrument de composition, si bien qu'il ajoute de la capacité sans pouvoir en retirer et qu'il subit une reprise de dépense sans pouvoir la qualifier. La tranche s'achève donc sur un corpus allégé d'un appui physique qu'il croyait tenir et chargé de deux objections qui portent sur la forme de son instrument."
 concepts: [entropie, decouplage, effet_rebond, limites_planetaires, sobriete, affectation_des_instruments]
-renvois: [L1.C03, L1.C17, L8.C34, L11.C10, L11.C13, L11.C24, L18.C04, L18.C09, L22.C02, L24.C05, L26.C01, L26.C02, L26.C03, L26.C04, L26.C05]
+renvois: [L1.C03, L1.C17, L8.C34, L11.C10, L11.C13, L11.C24, L18.C04, L18.C09, L22.C02, L24.C05, L26.C01, L26.C02, L26.C03, L26.C04, L26.C05, L26.C07]
 ---
 
 # Portée de la tranche

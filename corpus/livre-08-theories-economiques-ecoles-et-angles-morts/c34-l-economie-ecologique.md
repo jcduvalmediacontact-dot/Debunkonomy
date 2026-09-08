@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -40,9 +40,19 @@ verifications_en_attente:
   - "LE LIVRE 18 DU CORPUS — comptabilités écologiques et biophysiques — COMPTE
      ZÉRO CHAPITRE ACQUIS, alors qu'il porte F2. Couplage à verser au protocole
      de routage."
+  - "**LA « LACUNE LA PLUS GRAVE DU LIVRE » QUE CE CHAPITRE NOMMAIT EST PAYÉE LE
+     2026-09-08 PAR L26.C07.** Le corpus se réclamait d'une tradition sans avoir ouvert
+     aucun de ses auteurs. **Le texte de synthèse du fondateur est désormais lu de
+     première main**, en régime `citation_seule`. **CE QU'IL CONTIENT NE SOUTIENT PAS LE
+     DISPOSITIF** : un programme d'action en huit points dont **aucun n'est monétaire**,
+     un refus explicite du mécanisme de prix, et la phrase **« cost consists in essence
+     of LOW ENTROPY, NOT OF MONEY »**. **L'ouvrage de 1971 reste non ouvert, et la
+     formulation explicite de la quatrième loi, postérieure, non plus — le corpus tient
+     l'auteur par un texte de synthèse, ce qui est mieux que rien et moins qu'une
+     lecture.**"
 resume: "Ce chapitre est la fiche la plus grave du livre, et le corpus l'écrit comme un constat de manque plutôt que comme une instruction. Il porte la tradition dont le dispositif procède directement, celle qui fournirait le fondement physique de sa thèse, et aucune de ses sources n'est ouverte. Trois chapitres antérieurs du répertoire renvoient explicitement à celui-ci pour une réponse qu'il ne peut pas donner. Il situe la thèse en cause, selon laquelle l'économie n'est pas un circuit fermé mais un sous-système ouvert traversé par un flux de matière et d'énergie prélevé sur une biosphère finie et restitué sous forme dégradée, de sorte que le débit de ce flux est la grandeur pertinente et qu'aucune organisation des échanges ne l'abolit. Il établit ce que cette thèse apporte au dispositif, à savoir le fondement physique qui manque à tous les chapitres précédents, la limite y étant une propriété du monde et non une hypothèse de modèle. Il établit ce que le corpus perd à ne pas l'avoir ouverte, et l'énumère : la défense contre le précédent malthusien, le statut de ses propres plafonds, la mesure que son falsifieur écologique exige, et la réponse à la question de savoir pourquoi ses limites ne se déplaceraient pas comme se sont déplacées celles qui l'ont précédé. Il conclut que le dispositif repose sur une tradition qu'il n'a pas lue, ce qui est la situation la plus exposée du corpus tout entier."
 concepts: [entropie, limites_planetaires, plafond_ecologique, decouplage, effet_rebond, sobriete]
-renvois: [L1.C01, L1.C15, L8.C01, L8.C08, L8.C13, L8.C15, L8.C39, L11.C13]
+renvois: [L1.C01, L1.C15, L8.C01, L8.C08, L8.C13, L8.C15, L8.C39, L11.C13, L26.C07]
 ---
 
 # Georgescu-Roegen, Daly : l'économie est-elle un système ouvert dans une biosphère finie

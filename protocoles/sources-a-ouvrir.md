@@ -1318,3 +1318,95 @@ premier existe et n'est pas ouvert ; le second a connu depuis une phase
 d'investigation, une phase de préparation et une proposition législative,
 **dont aucun texte n'est ouvert** — les paramètres retenus ici ont pu être
 abandonnés ou modifiés.
+
+
+# Ouverture du 2026-09-08 — LE DOSSIER DOCUMENTAIRE DE L'AUTEUR, ET CE QUE LE CORPUS N'Y PRENDRA PAS
+
+**L'auteur a remis le 2026-09-08 un dossier constitué le 2026-09-07 :
+41 PDF indexés pour les Livres 24, 25 et 26, accompagnés d'un manifeste de
+droits, d'une matrice de couverture et d'un registre de preuves ; plus onze PDF
+réunis séparément pour le corpus NEMO.** **C'est le premier fonds
+documenté dont le corpus dispose, et il change le facteur limitant : ce
+n'était plus l'URL exacte, c'est désormais le temps de lecture.**
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**N. Georgescu-Roegen, « Energy and Economic Myths », *Southern Economic
+Journal*, 41(3), janvier 1975, p. 347-381** — pièce L26-01. **DROITS :
+diffusion par archivage sous conditions d'utilisation, aucune licence de
+rediffusion portée par le document — `citation_seule`.** Ouvert pour
+**L26.C07**. **C'est l'auteur dont le corpus se réclamait depuis L1.C03 sans
+l'avoir jamais lu, et dont L8.C34 nommait l'absence « la lacune la plus grave
+du livre ».**
+
+**G. P. Hammond et A. B. Winnett, « The Influence of Thermodynamic Ideas on
+Ecological Economics: An Interdisciplinary Critique », *Sustainability* 1(4),
+2009, p. 1195-1225** — pièce L26-12. **DROITS : la mention est portée
+par le document lui-même — « distributed under the terms and conditions
+of the Creative Commons Attribution license » (CC BY 3.0). RÉGIME :
+`libre`, VÉRIFIÉ DANS LE DOCUMENT ET NON DÉDUIT DU REGISTRE.** Ouvert
+pour **L26.C07**.
+
+## CE QUE LE CORPUS N'OUVRIRA PAS, ET LA RAISON EST ÉCRITE PAR LA SOURCE
+
+**LES CINQ PUBLICATIONS IPSASB/IFAC DU DOSSIER NEMO RESTENT FERMÉES** —
+cadre conceptuel 2023, IPSAS 47, IPSAS 48, IPSAS 51, RPG 1. **Le document
+d'accompagnement du dossier l'écrit lui-même** : ces publications
+« indiquent qu'une autorisation écrite est requise pour les reproduire, les
+stocker, les transmettre **ou les utiliser pour entraîner ou faire
+fonctionner des systèmes d'IA**, sauf usage individuel non commercial ».
+
+**Faire lire ces fichiers à un modèle est exactement l'usage que la
+mention exclut.** **L'usage individuel non commercial est celui de l'auteur : si
+l'auteur les lit et transmet ses notes, le corpus travaille sur ses notes.**
+**Ce n'est pas un échec d'acquisition et ce n'est pas un mur anti-robot :
+c'est une restriction lue et respectée.**
+
+## RÉSERVE SUR LE REGISTRE DES DROITS DU DOSSIER, ET ELLE VAUT POUR TOUT LE FONDS
+
+**Le manifeste indique lui-même que les régimes proviennent d'un
+« repérage automatique des mentions de droits ».** **Une mention `libre`
+portée par ce registre est donc UNE ALLÉGATION À VÉRIFIER, et non un
+fait établi.** **RÈGLE RETENUE : le corpus ne retient `libre` qu'après
+avoir lu la mention DANS LE DOCUMENT** — c'est ce qui a été fait pour
+la pièce L26-12.
+
+**Deux mentions paraissent douteuses en l'état et sont traitées en
+`citation_seule` jusqu'à lecture.** **L24-10**, *Global Critical Minerals
+Outlook 2026* de l'Agence internationale de l'énergie, porté `libre` :
+les publications de cette agence sont normalement sous licence restrictive.
+**L24-09**, le rapport mondial sur la mise en valeur des ressources en eau,
+porté `libre` : à confirmer.
+
+## CE QUE LE DOSSIER DÉBLOQUE, ET QUI ÉTAIT DÉCLARÉ MANQUANT
+
+**Acquisitions de rang 1 désormais disponibles et non encore ouvertes.**
+**L26-03** — la partie I de la revue systématique du découplage, dont
+le corpus n'avait ouvert que la partie II. **L26-06 et L26-07** — deux
+évaluations du rebond, dont la matrice du dossier dit elle-même qu'elles
+sont « contradictoires ». **L26-08 et L26-09** — deux revues
+d'harmonisation du rendement énergétique net, **qui portent directement
+sur A39 et donc sur l'indécidabilité de F11**. **L26-11 et le
+référentiel de comptabilité des écosystèmes** — pour le
+Livre 18, où L17.C05 a rouvert la question du stock. **Le modèle
+stock-flux-fonds de Dafermos et al. 2016** — **c'est la famille de
+modèles que L8.C37 désignait comme point de départ du Livre 13**, et
+le corpus en tient désormais un exemplaire.
+
+## CE QUE LE DOSSIER NE DÉBLOQUE PAS, ET IL FAUT LE DIRE
+
+**Aucune des trois pièces demandées à l'auteur ne s'y trouve** : l'avis
+consultatif de la Cour internationale de justice du 23 juillet 2025, la
+décision 1/CP.21, et Biermann & Kim 2020. **La révision 2025 du
+Système de comptes nationaux non plus**, alors que le Livre 19 entier repose
+sur l'édition 2008. **Et le fonds ne contient aucun texte de
+soutenabilité faible**, sans quoi F13 reste une adhésion et non un
+résultat.
+
+**UNE OBSERVATION DE STRUCTURE, ET ELLE VAUT AVERTISSEMENT.** La matrice de
+couverture du dossier porte « Couvert » sur presque toutes ses lignes, et
+définit ce mot comme « suffisant pour rédiger un premier chapitre
+sourcé ». **« Couvert » est donc une propriété
+DOCUMENTAIRE et non une propriété CONTRADICTOIRE : cela ne dit pas qu'une
+objection est traitée.** **Le mot ne doit jamais migrer dans le corpus sous la
+forme « traité ».**
