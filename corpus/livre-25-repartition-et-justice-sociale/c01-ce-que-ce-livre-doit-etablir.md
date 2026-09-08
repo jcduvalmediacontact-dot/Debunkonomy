@@ -55,17 +55,31 @@ verifications_en_attente:
      juridique ; **il n'apporte aucun chiffre sur la distribution des revenus,
      des patrimoines ou de l'accès aux besoins essentiels.** **Il ne peut donc
      pas dire de combien le plancher est manqué, ni où.**"
-  - "**UNE COMMANDE EST ADRESSÉE À CE LIVRE LE 2026-09-08 PAR L'ARBITRAGE A42,
-     ET ELLE PORTE L'OBJECTION LA PLUS SÉRIEUSE À UNE POSITION QUE L'AUTEUR VIENT
-     DE PRENDRE.** Le dispositif est arbitré en désaccord avec l'idée de
-     croissance, même prétendument verte. **Or la cible 8.1 des objectifs de
-     développement durable — un taux de croissance du produit intérieur brut d'au
-     moins 7 % dans LES PAYS LES MOINS AVANCÉS — a des motifs de justice, et ce
-     livre les instruit.** **REFUSER UN OBJECTIF DE CROISSANCE POUR LES PAYS LES
-     PLUS PAUVRES OBLIGE À DIRE CE QU'ON LEUR DONNE À LA PLACE**, et le corpus ne
-     le dit nulle part. **Tant que cette commande n'est pas honorée, la position
-     est tenable en principe et indéfendable en pratique.** **C'est la commande la
-     plus lourde que ce livre ait reçue.**"
+  - "**A42 EST ARBITRÉ LE 2026-09-08 : LA POSITION DU DISPOSITIF EST CELLE D'UNE
+     CROISSANCE ET D'UNE DÉCROISSANCE SÉLECTIVES.** **Le dispositif ne poursuit ni
+     la croissance générale du produit intérieur brut ni sa diminution
+     générale.** Il cherche **la CROISSANCE des activités nécessaires à
+     l'atteinte des besoins essentiels et du plancher social** ; **la DÉCROISSANCE
+     des activités qui provoquent les dépassements écologiques ou dont l'utilité
+     sociale ne justifie pas les dommages** ; **et le MAINTIEN OU LA
+     TRANSFORMATION des activités compatibles avec les deux bornes.** **La
+     sélection s'effectue PAR ACTIVITÉ, TERRITOIRE ET PÉRIODE.** Elle peut donc
+     produire une hausse du produit là où les besoins essentiels restent
+     insatisfaits et une contraction de certaines productions dans les économies
+     en dépassement. **LE MOUVEMENT DU PRODUIT EST UN RÉSULTAT POSSIBLE DE LA
+     TRANSFORMATION, PAS SON OBJECTIF.** **Pour les pays les moins avancés, une
+     croissance matérielle ciblée reste possible et souvent nécessaire.**
+     **CE QUE CELA CHANGE À LA COMMANDE ADRESSÉE À CE LIVRE, ET ELLE SE
+     RESSERRE.** La question n'est plus « que donne-t-on aux pays les plus
+     pauvres à la place de la croissance ? » — **la doctrine y répond : une
+     croissance matérielle ciblée reste possible et souvent nécessaire.** **CE
+     QUI SUBSISTE EST PLUS ÉTROIT ET PLUS DUR : QUI SÉLECTIONNE, ET SELON QUEL
+     CRITÈRE ?** La sélection s'opère par activité, territoire et période. **Dans
+     un pays dont les besoins essentiels ne sont pas couverts, décider quelles
+     activités croissent et lesquelles décroissent est une décision de
+     répartition avant d'être une décision technique** — et c'est ce livre qui en
+     instruit les critères. **La commande porte donc sur le CRITÈRE DE SÉLECTION
+     et son AUTORITÉ, non sur un substitut à la croissance.**"
 resume: "Ce chapitre ouvre le livre en établissant que le plancher social dont le corpus manquait n'est pas un choix de modélisation à faire mais une obligation juridique en vigueur depuis 1976. Le pacte international relatif aux droits économiques, sociaux et culturels est ouvert et lu dans son texte, et il énumère le contenu de ce plancher, à savoir un niveau de vie suffisant incluant la nourriture, l'habillement et le logement, le droit d'être à l'abri de la faim, le meilleur état de santé physique et mentale possible, la sécurité sociale, l'éducation et le travail. Le chapitre en tire quatre résultats. Le premier est une asymétrie de nature entre les deux bords du couloir que le livre précédent avait nommé, car le plafond écologique est un niveau tandis que le plancher social est une trajectoire, l'obligation étant de réalisation progressive au maximum des ressources disponibles. Le deuxième est que cette formule constitue la charnière que le dispositif cherchait, puisqu'un dispositif qui crée des ressources modifie ce que les ressources disponibles d'un État désignent, et que la question devient alors juridique et non seulement économique. Le troisième est que le pacte fournit une règle de répartition explicite pour un besoin essentiel, celle d'une distribution équitable des ressources alimentaires mondiales en fonction des besoins. Le quatrième est que la clause de limitation du pacte est opposable à l'instrument même que le dispositif emploie, puisqu'un prélèvement qui réduirait l'accès des plus pauvres à une nourriture ou à un logement suffisants met en cause un droit protégé et doit satisfaire un test de proportionnalité."
 concepts: [plancher_social, plafond_ecologique, essentiel_insolvable, dette_ecologique, communs, solvabilite_anticipee]
 renvois: [L1.C15, L11.C09, L11.C18, L12.C01, L24.C01, L24.C02, L24.C03]

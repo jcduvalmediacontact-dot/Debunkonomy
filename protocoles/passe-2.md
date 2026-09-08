@@ -4506,3 +4506,72 @@ acquisition sous un autre nom** — les statuts du Fonds monétaire
 international figurent dans ses acquisitions de rang 1 depuis le 2026-09-07 et ne
 sont toujours pas ouverts. **L'orientation de l'auteur en fait la plus rentable
 des acquisitions ouvertes.**
+
+
+### A42 — CORRECTION DE DOCTRINE DU 2026-09-08 : LA DÉRIVATION DU CORPUS ÉTAIT FAUSSE
+
+**CE QUE LE CORPUS AVAIT DÉRIVÉ ET QUI EST RETIRÉ.** Il avait conclu que le
+dispositif « rejoint la décroissance sur le diagnostic et s'en sépare sur
+la méthode », et que la cible 8.1 était contestée dans son principe.
+**Les deux étaient faux.**
+
+**LA DOCTRINE, DANS LES TERMES DE L'AUTEUR.** **La position du dispositif est
+celle d'une CROISSANCE ET D'UNE DÉCROISSANCE SÉLECTIVES.** Il ne poursuit ni
+la croissance générale du produit intérieur brut ni sa diminution
+générale. Il cherche **la croissance des activités nécessaires à
+l'atteinte des besoins essentiels et du plancher social** ; **la décroissance
+des activités qui provoquent les dépassements écologiques ou dont
+l'utilité sociale ne justifie pas les dommages** ; **le maintien ou la
+transformation des activités compatibles avec les deux bornes.** **La
+sélection s'effectue par ACTIVITÉ, TERRITOIRE ET PÉRIODE.** **Le mouvement
+du produit est un résultat possible de la transformation, pas son objectif.**
+**Pour les pays les moins avancés, une croissance matérielle ciblée reste
+possible et souvent nécessaire.**
+
+**LE DÉFAUT ÉTAIT DANS LA QUESTION AVANT D'ÊTRE DANS LA RÉPONSE.** Les
+trois branches proposées par l'arbitrage — accélérer 8.1, l'écarter,
+se taire — **supposaient toutes que le rapport au produit agrégé soit
+binaire.** **La position retenue est une quatrième, et elle n'était pas dans
+l'énoncé.** **Un arbitrage dont aucune branche ne contient la réponse est
+un arbitrage mal posé**, et le corpus l'enregistre à sa charge.
+
+**CE QUE CELA CHANGE POUR LES DEUX CIBLES.** **8.1 n'est pas contestée dans son
+CONTENU pour les pays les moins avancés** — une croissance matérielle
+ciblée y reste nécessaire ; **c'est sa formulation en AGRÉGAT qui est
+écartée.** **Et 8.4 cesse d'être la question du dispositif**, qui ne
+pilote pas sur le couplage entre croissance et dégradation mais sur la position
+d'une activité dans un couloir.
+
+**LA COMMANDE AU LIVRE 25 SE RESSERRE ET DEVIENT PLUS DURE.** Elle ne porte plus
+sur un substitut à la croissance — la doctrine y répond. **Elle porte sur
+LE CRITÈRE DE SÉLECTION ET SON AUTORITÉ** : dans un pays dont les besoins
+essentiels ne sont pas couverts, **décider quelles activités croissent et
+lesquelles décroissent est une décision de répartition avant d'être une
+décision technique.**
+
+---
+
+## Règle de méthode — DEUXIÈME OCCURRENCE DE « LIRE LE CORPUS AVANT D'OUVRIR LA NORME », SOUS UNE FORME NOUVELLE
+
+**LA RÈGLE EXISTE DEPUIS LE 2026-09-07**, versée par L21.C07 : avant d'opposer
+un standard externe au dispositif, établir ce que l'architecture arbitrée
+exige réellement. **Elle vient d'être enfreinte une seconde fois, autrement.**
+
+**CE QUI S'EST PASSÉ.** Pour situer le dispositif, le corpus est allé chercher
+une case dans la taxonomie d'une littérature externe — croissance verte,
+décroissance — **et il a conclu que le dispositif rejoignait l'une d'elles.**
+**Or la position était écrite dans le corpus depuis L1.C04** : `plancher_social`
+et `plafond_ecologique` figurent au vocabulaire contrôlé depuis ce chapitre,
+**et le couloir qu'ils définissent EST la position.**
+
+**LA RÈGLE S'ÉTEND DONC.** *Avant de situer le dispositif dans une taxonomie
+externe, établir ce que le corpus dit déjà de lui-même.* **Ce n'est pas
+la taxonomie qui manquait d'une case pour le dispositif : c'est le corpus qui
+avait la sienne et ne l'a pas relue.**
+
+**CE QUE CELA CONFIRME SUR L'APPAREIL.** L14.C01 a établi que **le contrôle
+détecte l'absence et reste aveugle à l'excès**. **Voici un troisième
+type d'erreur qu'il ne voit pas non plus : la redécouverte fautive d'une chose
+déjà établie ailleurs dans le corpus.** **Aucun mécanisme ne relie un
+chapitre neuf aux acquis des chapitres anciens sur le même objet**, sinon la
+mémoire du rédacteur — et c'est à verser à la grille du Livre 14.

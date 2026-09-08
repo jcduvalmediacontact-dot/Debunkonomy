@@ -65,19 +65,32 @@ verifications_en_attente:
      PRÉTEND REGARDER.** **Réserve d'indépendance : les deux parties partagent leur
      équipe, et l'un de ses membres co-signe la revue de rebond de 2021 — le corpus
      tient un groupe de recherche, non un consensus.**"
-  - "**LE RÉSULTAT « AUCUNE CASE » DE CE CHAPITRE EST LEVÉ LE 2026-09-08 PAR
-     L'ARBITRAGE A42, ET LE CORPUS PEUT ENFIN SE SITUER.** Ce chapitre avait
-     établi que le dispositif n'entrait dans aucune case de la taxonomie —
-     ni croissance verte, ni décroissance. **L'auteur ayant arbitré que le
-     dispositif est en désaccord avec l'idée de croissance, MÊME PRÉTENDUMENT
-     VERTE, la position devient localisable en deux temps.** **Sur le DIAGNOSTIC,
-     il rejoint la décroissance** : la croissance verte est refusée, donc la
-     première branche de la taxonomie est écartée par décision et non par défaut.
-     **Sur la MÉTHODE, il s'en sépare**, et L17.C03 avait déjà dit comment — la
-     sobriété demande aux États de renoncer à la croissance, le dispositif
-     entreprend de retirer à la croissance sa nécessité. **LE CORPUS TIENT DONC
-     UNE POSITION : LE DIAGNOSTIC DE LA DÉCROISSANCE, SANS SA MÉTHODE.** **Ce
-     chapitre est à reprendre sur ce point, la taxonomie n'étant plus muette.**"
+  - "**A42 EST ARBITRÉ LE 2026-09-08 : LA POSITION DU DISPOSITIF EST CELLE D'UNE
+     CROISSANCE ET D'UNE DÉCROISSANCE SÉLECTIVES.** **Le dispositif ne poursuit ni
+     la croissance générale du produit intérieur brut ni sa diminution
+     générale.** Il cherche **la CROISSANCE des activités nécessaires à
+     l'atteinte des besoins essentiels et du plancher social** ; **la DÉCROISSANCE
+     des activités qui provoquent les dépassements écologiques ou dont l'utilité
+     sociale ne justifie pas les dommages** ; **et le MAINTIEN OU LA
+     TRANSFORMATION des activités compatibles avec les deux bornes.** **La
+     sélection s'effectue PAR ACTIVITÉ, TERRITOIRE ET PÉRIODE.** Elle peut donc
+     produire une hausse du produit là où les besoins essentiels restent
+     insatisfaits et une contraction de certaines productions dans les économies
+     en dépassement. **LE MOUVEMENT DU PRODUIT EST UN RÉSULTAT POSSIBLE DE LA
+     TRANSFORMATION, PAS SON OBJECTIF.** **Pour les pays les moins avancés, une
+     croissance matérielle ciblée reste possible et souvent nécessaire.**
+     **CE QUE CELA FAIT AU RÉSULTAT « AUCUNE CASE » DE CE CHAPITRE.** **Il n'est
+     pas levé en rejoignant la décroissance** : la position n'est ni la
+     croissance verte, ni la décroissance, **et elle n'est pas non plus un
+     mélange des deux.** **C'est une TROISIÈME position** — organiser une
+     croissance et une décroissance sélectives **à l'intérieur d'un couloir
+     défini par le plancher social et les plafonds écologiques.** **ET CETTE
+     POSITION EST DANS LE CORPUS DEPUIS L1.C04** : `plancher_social` et
+     `plafond_ecologique` figurent au vocabulaire contrôlé depuis ce chapitre.
+     **Ce que la taxonomie du champ ne contenait pas, le corpus le contenait** —
+     et le résultat de ce chapitre doit être reformulé en conséquence : **ce
+     n'est pas le dispositif qui manque de case, c'est la taxonomie qui manque
+     d'une case que le corpus occupe.**"
 resume: "Ce chapitre remplace l'amorce du matricule 17 et ouvre le livre par la revue systématique de référence sur le découplage, qui synthétise huit cent trente-cinq articles évalués par les pairs. Il commence par relever que le corpus emploie depuis son premier livre un vocabulaire d'après-croissance sans avoir jamais ouvert un seul auteur de ce champ, et qu'une promesse portant sur la sortie de la contrainte de croissance de l'encours n'a jamais reçu de réponse. La revue établit qu'un découplage relatif est fréquent pour les matières et les gaz à effet de serre mais qu'il ne l'est pas pour l'exergie utile, que le découplage absolu de longue durée est rare, et surtout que les rythmes observés ne permettent pas d'atteindre les réductions absolues requises, de sorte que le découplage doit être complété par des stratégies de sobriété et par l'application stricte d'objectifs de réduction absolue. Le chapitre en tire trois résultats. Le premier est que la taxonomie du champ, qui range les travaux en croissance verte, décroissance et autres, n'offre aucune case au dispositif, lequel n'affirme pas que le découplage suffit et ne donne pas non plus la priorité à la réduction sur la croissance du produit. Le deuxième est que la liste des instruments que cette littérature juge nécessaires est très exactement celle que le corpus a déclarée manquante l'avant-veille, moratoires, interdictions et fermetures, la revue précisant qu'ils doivent venir au lieu de la seule tarification. Le troisième est favorable et le chapitre le dit sans le minorer, puisque la revue nomme comme obstacle principal à la sobriété la dépendance structurelle des États à la croissance pour leurs recettes fiscales, qui est précisément l'obstacle que le dispositif prétend desserrer."
 concepts: [decouplage, sobriete, effet_rebond, limites_planetaires, indicateur_de_progres, degeneratif]
 renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06, L17.C03, L26.C10, L12.C01]
