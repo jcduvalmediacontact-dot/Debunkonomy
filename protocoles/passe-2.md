@@ -3964,3 +3964,48 @@ institution existante pour soutenir qu'un objectif est « porté par le droit
 », il devra dire CE QUE LE MANQUEMENT COÛTE.** **Si la réponse est « une
 explication publiée », l'appui existe et il est faible — et le dire n'est pas
 dénigrer l'institution, c'est mesurer l'appui.**
+
+
+## Arbitrage A40 — LE BARÈME AUX FRONTIÈRES OU LA RÉPONSE À L'OBJECTION DE FUITE : LE CORPUS NE PEUT PAS GARDER LES DEUX
+
+**POSÉ LE 2026-09-08 PAR L16.C02, APRÈS OUVERTURE DU TEXTE DONT LE DISPOSITIF
+TIRE SON SECOND RESSORT DE REFLUX. NON ARBITRÉ.**
+
+**LE FAIT QUI OBLIGE À TRANCHER.** **L1.C10 porte depuis sa rédaction que
+l'objection de fuite devant une monnaie fondante trouve sa réponse dans la
+réforme foncière de l'auteur, « non traitée ici ».** L16.C02 l'a
+traitée. **La réponse consiste à supprimer la terre comme objet de
+propriété** — nationalisation intégrale, indemnisation totale, location
+par enchères mondiales, rente redistribuée aux mères selon le nombre de
+leurs jeunes enfants.
+
+**ET LES DEUX RÉFORMES SONT INSÉPARABLES DANS LA CONCEPTION** : « **we
+propose to introduce the money reform SIMULTANEOUSLY WITH THE NATIONALISATION OF
+THE LAND** ». **La première finance la seconde — la baisse du taux
+d'intérêt éteint la dette de nationalisation « in less than 20 years » —
+et la seconde ferme le refuge que la première ouvrirait.**
+
+**LA CONTRADICTION.** La même réforme énonce que « **no private individual,
+NO STATE, no society may retain any kind of privileges over the land** », qu'« il
+n'y a **NO RIGHTS OF NATIONS, NO PREROGATIVES OF SOVEREIGNTY** » sur la terre, et
+que « **NO NATION HAS THE RIGHT TO ERECT BOUNDARIES AND TO LEVY IMPORT-DUTIES** »,
+d'où « **UNIVERSAL FREE-TRADE and COMPLETE ELIMINATION OF ALL TARIFF
+BOUNDARIES** ». **L11.C24 CONSTRUIT UN BARÈME AUX FRONTIÈRES.**
+
+**LA QUESTION POSÉE À L'AUTEUR.** *Le corpus garde-t-il le barème aux
+frontières, en assumant de n'avoir aucune réponse à l'objection de fuite ?
+Ou prend-il la réponse, en abandonnant l'instrument que L11.C24 construit ?*
+
+**CE QUE LE CORPUS PEUT DIRE, ET IL NE PEUT PAS DIRE PLUS.** **Il ne peut pas
+garder les deux.** **Et il ne le savait pas** : L11.C24 a reçu trois
+complications en trois jours — fongibilité de l'effet [L24.C04], fongibilité
+du coût [L26.C03], existence d'un prix [L17.C05] — **et celle-ci n'est pas
+une complication, c'est une INCOMPATIBILITÉ.**
+
+**UNE TROISIÈME VOIE EXISTE PEUT-ÊTRE ET N'EST PAS INSTRUITE.** **La réponse
+à la fuite pourrait être cherchée ailleurs que dans la réforme
+foncière**, l'auteur de 1916 n'ayant pas connu les instruments de contrôle des
+mouvements de capitaux ni les registres de bénéficiaires effectifs que le
+corpus a rencontrés au Livre 23. **Mais cette voie n'est ouverte par personne,
+et la seule réponse dont le corpus dispose aujourd'hui est celle-ci, avec son
+prix.**

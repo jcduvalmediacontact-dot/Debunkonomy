@@ -165,9 +165,20 @@ verifications_en_attente:
      dispositif emploie l'instrument pour une fin autre que celle qui l'a fait
      concevoir, et il ne peut plus se réclamer de cette filiation sans le
      préciser.**"
+  - "**LA RÉPONSE À L'OBJECTION DE FUITE EST OUVERTE LE 2026-09-08 PAR L16.C02, ET SON
+     PRIX EST ÉNORME.** L'auteur y répond en SUPPRIMANT LA TERRE COMME OBJET DE
+     PROPRIÉTÉ : nationalisation intégrale, indemnisation totale en titres publics,
+     puis location « by way of PUBLIC AUCTION in which EVERY INHABITANT OF THE GLOBE,
+     without exception, can compete », la rente étant redistribuée mensuellement
+     « in equal shares TO MOTHERS according to the number of their young children ».
+     **C'est une réponse STRUCTURELLE et non incitative : on ne dissuade pas la fuite
+     vers la terre, ON SUPPRIME LE REFUGE.** **ET LES DEUX RÉFORMES SONT INSÉPARABLES
+     DANS LA CONCEPTION** — « we propose to introduce the money reform SIMULTANEOUSLY
+     WITH THE NATIONALISATION OF THE LAND ». **Le corpus ne peut donc pas prendre la
+     monnaie fondante seule et tenir cette objection pour répondue.**"
 resume: "D'autres conventions monétaires ont été tentées, et certaines fonctionnent encore. Ce chapitre en fait l'inventaire en trois catégories : des expériences — les certificats fondants de Wörgl en 1932-1933, interdits par la Haute Cour administrative d'Autriche au nom du monopole d'émission ; le Wirtschaftsring suisse, actif depuis 1934 sous statut bancaire ; les monnaies locales complémentaires — ; des théories qui proposent de refondre le régime d'émission — Gesell, Soddy, l'économie écologique, le bancor de Keynes, la théorie monétaire moderne — ; et des expérimentations venues des banques centrales — assouplissement quantitatif, monnaies numériques de banque centrale, propositions de création monétaire écologique. Chaque cas est présenté avec ses limites connues : effet de taxe sur l'encaisse et fuite vers d'autres réserves de valeur pour la monnaie fondante, ancre fiscale pour les monnaies locales, risque inflationniste pour la création sans contrepartie. Rapportées aux quatre règles de l'architecture invisible, ces alternatives n'en touchent chacune qu'une. Le chapitre en conclut qu'une autre monnaie est techniquement possible, et pose le cahier des charges d'une refonte portant sur les quatre règles à la fois, acceptation fiscale comprise."
 concepts: [creation_monetaire, monnaie_endogene, monnaie_fondante, solvabilite_anticipee, architecture_invisible, monnaie_comme_registre]
-renvois: [L1.C05, L1.C08, L1.C09, L16.C01]
+renvois: [L1.C05, L1.C08, L1.C09, L16.C01, L16.C02]
 ---
 
 # Une monnaie peut-elle être conçue autrement ?
