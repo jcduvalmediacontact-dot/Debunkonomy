@@ -21,15 +21,25 @@ sources_primaires:
     url: "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-VI"
     reference: "**Mêmes statuts, ARTICLE VI**, ouvert et lu le 2026-09-08 par L20.C24. **Rappelé ici pour la seule section 4 (c) (iv), qui maintient l'ancien membre tenu des appels au titre de l'article II section 5 (ii).**"
     date_verification: 2026-09-08
+  - ref: S3
+    nature: normatif
+    url: "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-IV"
+    reference: "**Mêmes statuts, ARTICLE IV « Operations », TEXTE PORTANT LA MENTION « as amended effective June 27, 2012 ».** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. **Sections 1 et 2 lues.** **C'EST L'ACQUISITION QUE CE CHAPITRE AVAIT INSCRITE LE JOUR MÊME EN CONSTATANT QU'IL NE POUVAIT PAS DIRE À QUOI LA PART APPELABLE EST AFFECTÉE.** **Elle est faite dans l'heure, au même hôte.**"
+    date_verification: 2026-09-08
 verifications_en_attente:
-  - "**LE CORPUS N'A PAS LU L'ARTICLE IV SECTION 1 (a) (ii) ET (iii), AUQUEL LA
-     SECTION 5 (ii) RENVOIE POUR DÉFINIR CE QUI PEUT DÉCLENCHER UN APPEL.** C'est
-     la même faute de structure que celle nommée par L20.C24 : **le corpus tient
-     l'article qui RENVOIE, non le texte AUQUEL il renvoie.** **La portée exacte
-     de l'affectation dépend de ce que ces deux alinéas couvrent**, et le
-     chapitre ne peut donc dire que l'appel est affecté aux obligations de la
-     Banque, sans pouvoir dire lesquelles précisément. **ACQUISITION DE RANG 1,
-     ET ELLE EST À UNE URL DU MÊME HÔTE, QUI RÉPOND.**"
+  - "**L'ARTICLE IV EST LU DANS SES SECTIONS 1 ET 2, ET LE RESTE NE L'EST PAS**
+     [S3]. Le corpus tient donc ce qui DÉCLENCHE un appel et l'ordre
+     d'épuisement des ressources ; **il ne tient pas les sections 3 à 10**, qui
+     portent notamment les conditions de prêt, les réserves et la limite
+     d'engagement. **La section 6, à laquelle la section 1 (a) (i) renvoie pour
+     les réserves, n'est pas lue.**"
+  - "**LE CORPUS NE SAIT PAS SI UN APPEL AU TITRE DE LA SECTION 5 (ii) A JAMAIS
+     ÉTÉ FAIT, ET CETTE QUESTION DÉCIDE DE CE QUE LA PROMESSE VAUT.** Un
+     mécanisme jamais déclenché en quatre-vingts ans peut être une garantie
+     efficace — parce qu'elle n'a jamais eu à jouer — **ou une clause morte.**
+     **Les deux lectures sont ouvertes et le traité ne les départage pas.**
+     **ACQUISITION : l'historique des appels de capital de la Banque, s'il est
+     publié.**"
   - "**L'ANNEXE J DES STATUTS DU FONDS RESTE INACCESSIBLE, ET LE CONSTAT EST
      DÉSORMAIS PRÉCIS.** L'édition consolidée servie par la bibliothèque
      électronique du Fonds comporte TRENTE ET UN chapitres — les trente et un
@@ -44,7 +54,7 @@ verifications_en_attente:
      mille actions de cent mille dollars — **assortis d'un appel de note dont le
      texte n'est pas servi.** **Le corpus retient la STRUCTURE de la division du
      capital, qu'il lit ; il ne retient aucun MONTANT.**"
-resume: "Ce chapitre ouvre l'article deux des statuts de la Banque internationale pour la reconstruction et le développement dans sa version en vigueur, celle qui porte la mention d'amendement au vingt-sept juin deux mille douze. Il clôt ainsi la moitié de l'acquisition que l'arbitrage sur la forme juridique de l'institution émettrice tenait pour bloquante, l'article six renvoyant à l'article deux section cinq pour les appels de capital sans que le corpus eût lu ce dernier. Il en tire quatre règles que le corpus ne possédait pas. La première est que la part appelable est affectée, la section cinq disposant que les quatre cinquièmes non versés ne sont appelables que lorsque cela est requis pour honorer des obligations de la Banque nées de deux alinéas déterminés de son article quatre, en sorte que cette part ne peut être mobilisée ni pour les opérations ordinaires ni pour des pertes en général. La deuxième est que la responsabilité est plafonnée, la section six disposant que la responsabilité sur les actions est limitée à la portion non versée de leur prix d'émission, ce qui borne la survivance d'obligation que le chapitre vingt-quatre du même livre avait établie pour le membre sortant. La troisième est que les appels sont uniformes sur toutes les actions, aucune sélection de débiteur n'étant possible. La quatrième est que la monnaie de l'appel suit celle de l'obligation à honorer, le membre pouvant s'acquitter en or, en dollars des États-Unis ou dans la monnaie requise pour éteindre l'obligation en cause. Le chapitre relève enfin que le texte en vigueur conserve la division originelle en deux dixièmes et huit dixièmes, dont deux centièmes seulement payables en or ou en dollars, et qu'il libelle toujours le capital en dollars du poids et du titre en vigueur au premier juillet mille neuf cent quarante-quatre, sans que le corpus puisse dire si les montants inscrits sont à jour, la note appelée sur ce point n'étant pas servie."
+resume: "Ce chapitre ouvre l'article deux des statuts de la Banque internationale pour la reconstruction et le développement dans sa version en vigueur, celle qui porte la mention d'amendement au vingt-sept juin deux mille douze. Il clôt ainsi la moitié de l'acquisition que l'arbitrage sur la forme juridique de l'institution émettrice tenait pour bloquante, l'article six renvoyant à l'article deux section cinq pour les appels de capital sans que le corpus eût lu ce dernier. Il en tire quatre règles que le corpus ne possédait pas. La première est que la part appelable est affectée et adressée, la section cinq disposant que les quatre cinquièmes non versés ne sont appelables que lorsque cela est requis pour honorer des obligations nées de deux alinéas déterminés de l'article quatre, lesquels désignent les emprunts propres de la Banque et ses garanties de prêts consentis par des investisseurs privés, à l'exclusion de ses prêts sur fonds propres, en sorte que le bénéficiaire de cette promesse est le créancier de marché et non l'emprunteur. Le même article organise un ordre d'épuisement, l'accord que chaque membre doit donner à l'emploi de sa monnaie cessant d'être requis une fois que la totalité du capital souscrit a été appelée, et cessant au bénéfice des mêmes créanciers. La deuxième est que la responsabilité est plafonnée, la section six disposant que la responsabilité sur les actions est limitée à la portion non versée de leur prix d'émission, ce qui borne la survivance d'obligation que le chapitre vingt-quatre du même livre avait établie pour le membre sortant. La troisième est que les appels sont uniformes sur toutes les actions, aucune sélection de débiteur n'étant possible. La quatrième est que la monnaie de l'appel suit celle de l'obligation à honorer, le membre pouvant s'acquitter en or, en dollars des États-Unis ou dans la monnaie requise pour éteindre l'obligation en cause. Le chapitre relève enfin que le texte en vigueur conserve la division originelle en deux dixièmes et huit dixièmes, dont deux centièmes seulement payables en or ou en dollars, et qu'il libelle toujours le capital en dollars du poids et du titre en vigueur au premier juillet mille neuf cent quarante-quatre, sans que le corpus puisse dire si les montants inscrits sont à jour, la note appelée sur ce point n'étant pas servie."
 concepts: [contrepartie_comptable, creation_monetaire, reflux_collectif, etalon_de_change_or, robustesse]
 renvois: [L19.C05, L20.C24, L20.C25, L21.C08, L11.C13]
 ---
@@ -55,13 +65,25 @@ renvois: [L19.C05, L20.C24, L20.C25, L21.C08, L11.C13]
 
 ::etat:: **L20.C25 avait établi la division du capital sur le TEXTE DE 1945, en portant la réserve que ce n'était pas le droit en vigueur.** **Cette réserve est levée : la division est la même dans le texte en vigueur**, et ce chapitre-ci ajoute quatre règles que le précédent n'avait pas relevées.
 
-## 1. La part appelable est AFFECTÉE
+## 1. La part appelable est AFFECTÉE, et elle est adressée au créancier de marché
 
 ::norme:: **Article II, section 5** [S1] : *« The subscription of each member shall be divided into two parts as follows : (i) **twenty percent** shall be paid or subject to call under Section 7 (i) of this Article **as needed by the Bank for its operations** ; (ii) **the remaining eighty percent shall be subject to call by the Bank ONLY WHEN REQUIRED TO MEET OBLIGATIONS OF THE BANK created under Article IV, Sections 1 (a) (ii) and (iii)**. »*
 
 ::etat:: **Les quatre cinquièmes appelables ne sont donc pas une réserve générale.** **Ils sont affectés à un objet nommé** : honorer des obligations de la Banque nées de deux alinéas déterminés. **Ils ne peuvent être mobilisés ni pour les opérations ordinaires — qui relèvent du premier cinquième — ni pour des pertes en général.**
 
 ::hypothese:: **C'EST UNE DISTINCTION QUE LE CORPUS N'AVAIT PAS, ET ELLE PORTE SUR LA NATURE DE LA PROMESSE.** L20.C25 avait établi que l'institution qui ÉMET n'est pas dotée intégralement, et que sa souscription se divise en une part versée et une part promise. **Ce chapitre-ci établit que la part promise est GAGÉE SUR UN OBJET.** **Une promesse affectée n'est pas la même chose qu'une promesse disponible** : elle est plus crédible pour le créancier visé, et inutilisable pour tout le reste.
+
+::norme:: **Et l'article IV, section 1 (a), nomme les deux alinéas** [S3] : **(ii)** prêts directs *« out of funds raised in the market of a member, or otherwise **borrowed by the Bank** »* ; **(iii)** *« by **guaranteeing** in whole or in part loans made by **private investors** through the usual investment channels »*.
+
+::etat:: **LA PART APPELABLE NE GARANTIT DONC QUE CE QUE LA BANQUE DOIT AU MARCHÉ.** **Ses emprunts propres, et ses garanties de prêts privés.** **Elle ne garantit PAS ses prêts sur fonds propres** — ceux-là relèvent de l'alinéa (i), financé par le capital versé, le surplus et les réserves, **et l'alinéa (i) n'est pas dans le renvoi de la section 5 (ii).**
+
+::hypothese:: **LA PROMESSE EST DONC ADRESSÉE, ET NON SEULEMENT AFFECTÉE.** **Le bénéficiaire de la part appelable est le créancier obligataire et le bénéficiaire de garantie, non l'emprunteur.** **L'institution qui ÉMET adosse sa signature à une promesse des États, et elle réserve cette promesse à ceux qui lui prêtent.** **Celui à qui elle prête n'en bénéficie pas.**
+
+::etat:: **L'article IV organise en outre un ORDRE D'ÉPUISEMENT, et il lève un veto** [S3, section 2 (a) et (b)]. Les monnaies versées au titre de l'article II section 7 (i) ne peuvent normalement être prêtées **qu'avec l'accord, cas par cas, du membre dont la monnaie est en cause.** **Mais *« if necessary, AFTER THE BANK'S SUBSCRIBED CAPITAL HAS BEEN ENTIRELY CALLED, such currencies shall, WITHOUT RESTRICTION by the members whose currencies are offered, be used or exchanged »*** pour honorer les paiements contractuels dus sur les emprunts propres de la Banque ou sur les prêts qu'elle garantit.
+
+::hypothese:: **LE VETO DU MEMBRE SUR SA PROPRE MONNAIE TOMBE QUAND TOUT LE CAPITAL A ÉTÉ APPELÉ.** **C'est une cascade dessinée** : tant que la situation est ordinaire, chaque État garde la main sur l'usage de sa monnaie ; **une fois l'appel total franchi, cette main est retirée par le traité lui-même**, et au bénéfice des mêmes créanciers de marché.
+
+::hypothese:: **LE CORPUS CHERCHAIT COMMENT UN ENGAGEMENT COLLECTIF PEUT ÊTRE RENDU EXIGIBLE SANS AUTORITÉ CENTRALE. EN VOICI UN MÉCANISME COMPLET.** **Une promesse proportionnelle, affectée à un objet, adressée à un créancier, plafonnée, uniforme, dont la monnaie suit l'obligation, et assortie d'un seuil au-delà duquel les réserves nationales de veto s'éteignent.** **Le dispositif n'a rien de cela, et L19.C05 avait laissé la question ouverte.**
 
 ## 2. La responsabilité est PLAFONNÉE
 
