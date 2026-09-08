@@ -60,9 +60,23 @@ verifications_en_attente:
      modèle et le plan directeur disent donc la même chose par deux chemins sans
      rapport** — ce qui renforce le résultat sans le démontrer davantage, la
      concession du registre n'étant pas une mesure."
+  - "**LA QUATRIÈME OCCURRENCE RELEVÉE PAR CE CHAPITRE EST DEVENUE LA SIXIÈME LE
+     2026-09-08, ET L11.C30 A ÉTABLI QU'ELLES NE SONT PAS DE MÊME NATURE.** **Deux
+     occurrences nouvelles :** la **DILUTION D'EFFICACITÉ** (L26.C11, L26.C12) —
+     le rendement exergétique agrégé d'un pays stagne à mesure qu'il s'enrichit,
+     par déplacement de la composition des usages — et **LE DÉPLACEMENT DES
+     MOTIVATIONS** (L18.C12 corrigé par L18.C15). **ET LA TYPOLOGIE CHANGE CE QUE
+     CE LIVRE DOIT ÉPROUVER.** L11.C30 range les six en trois types : **érosion
+     d'assiette** (sens connu, grandeur observable dans les comptes du dispositif),
+     **dérive de convention** (sens variable, grandeur observable de l'extérieur),
+     et **réponse à l'instrument** (ni le sens ni l'ampleur connus à l'avance).
+     **CONSÉQUENCE DIRECTE POUR CE LIVRE : le type C ne s'éprouve pas par
+     scénarios calibrés à l'avance**, puisqu'on ne calibre pas sur un effet dont on
+     ignore le sens. **Il exige un dispositif de MESURE EX POST, que ce livre doit
+     spécifier et qui n'existe pas.**"
 resume: "Ce chapitre remplace l'amorce déposée le 7 septembre 2026 et ouvre le livre que le corpus déclare bloquant depuis plusieurs semaines, celui qui doit fournir le simulateur du dispositif. Il commence par relever ce que les autres livres ont déposé sur ce matricule, à savoir cinq commandes qui se terminent toutes sur la même phrase, selon laquelle un chiffrage nécessaire existe seulement si un simulateur existe, ce qui n'est pas le cas. Il ouvre ensuite de première main un modèle macroéconomique écologique de type stock-flux-fonds, qui appartient exactement à la famille recommandée par le chapitre trente-sept du huitième livre et qui procède d'une synthèse entre la modélisation à cohérence de stocks et de flux et l'apparat flux-fonds du fondateur de la bioéconomie, ouvert la veille par le vingt-sixième livre. Il en tire quatre résultats. Le premier est que la famille de modèles dont le dispositif a besoin existe, qu'elle a déjà été appliquée à un instrument monétaire poursuivant une fin écologique, et que ce précédent est le plus proche que le corpus possède d'un test de sa propre thèse. Le deuxième est que ce précédent conclut à l'insuffisance de l'instrument monétaire pris seul, puisque le programme simulé réduit l'instabilité financière mais ne parvient pas à empêcher un réchauffement supérieur à trois degrés et demi, ses auteurs concluant que d'autres politiques doivent être mises en oeuvre conjointement. Le troisième est que le modèle fait apparaître deux boucles qui atténuent le bénéfice du programme, dont l'une réduit l'incitation à investir dans le vert à mesure que les dommages diminuent, ce qui constitue une quatrième occurrence d'une forme que le corpus a déjà rencontrée trois fois et selon laquelle le succès érode sa propre base. Le quatrième est qu'un unique paramètre de comportement commande l'efficacité du programme, et que le corpus ne possède ni la mesure ni même le nom de son équivalent. Le chapitre fixe enfin la grille du livre en huit questions et rappelle les cinq contraintes de conception que les autres livres lui ont déjà imposées."
 concepts: [creation_monetaire, bareme, additionnalite, effet_rebond]
-renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L26.C04, L26.C07, L26.C08, L26.C09, L26.C10, L12.C01]
+renvois: [L1.C21, L8.C34, L8.C37, L8.C40, L11.C13, L17.C03, L19.C05, L22.C04, L26.C04, L26.C07, L26.C08, L26.C09, L26.C10, L12.C01, L11.C30]
 ---
 
 # Ce que ce livre doit établir

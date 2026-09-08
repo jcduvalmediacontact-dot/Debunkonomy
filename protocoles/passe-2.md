@@ -4740,3 +4740,54 @@ pour le Royaume-Uni de 1960 une valeur de **10 %** dans une publication et de
 « **the reasons for differences to their later results cannot be determined** ».
 **Une valeur publiée peut changer d'un tiers sans que le motif soit reconstituable
 par un lecteur attentif.**
+
+
+## La pièce de conception manquante — MOITIÉ FAITE LE 2026-09-08 PAR L11.C30
+
+**LA PASSE 2 AVAIT DÉCLARÉ : « une PIÈCE DE CONCEPTION MANQUANTE, à écrire une
+fois pour les quatre cas : la règle de recalibrage du dispositif. »** **Elle est
+structurée, elle n'est pas écrite — et le premier résultat est qu'IL EN FAUT
+TROIS, NON UNE.**
+
+**LES CAS SONT SIX, ET NON QUATRE.** Aux quatre déjà tenus s'ajoutent **la
+DILUTION D'EFFICACITÉ** (L26.C11, L26.C12) et **le DÉPLACEMENT DES MOTIVATIONS**
+(L18.C12 corrigé par L18.C15).
+
+**TROIS TYPES, ET LE RANGEMENT CHANGE LE REMÈDE.**
+- **TYPE A — ÉROSION D'ASSIETTE** (encours garantissant la dette ; assiette du
+  reflux). **Sens connu, grandeur observable dans les comptes du dispositif.**
+  **Remède : une règle de révision avec seuil et périodicité.** Cas déjà traité
+  ailleurs par les instruments fiscaux comportementaux.
+- **TYPE B — DÉRIVE DE CONVENTION** (conversion électrique ; dilution
+  d'efficacité). **Le coefficient ne s'use pas : il mesure correctement une
+  réalité qui n'est plus la même. Sens variable, grandeur observable de
+  l'extérieur.** **A39 impose déjà de PUBLIER la convention ; RIEN N'IMPOSE DE LA
+  REFAIRE, ni ne dit quand.** **C'est le manque le plus facile à combler.**
+- **TYPE C — RÉPONSE À L'INSTRUMENT** (incitation à investir ; déplacement des
+  motivations). **Ni le sens ni l'ampleur ne sont connus à l'avance.** **AUCUNE
+  RÈGLE DE CALIBRAGE PRÉALABLE NE PEUT LE COUVRIR.** **Il appelle un DISPOSITIF
+  DE MESURE EX POST et une capacité d'arrêt, que le corpus n'a pas.**
+
+**CE QUE CHAQUE RÈGLE DOIT CONTENIR, ET LE CINQUIÈME POINT EST UN ARBITRAGE DE
+L'AUTEUR.** (1) un critère de déclenchement chiffré — sans seuil, la révision est
+discrétionnaire ; (2) une périodicité minimale indépendante du seuil ; (3) une
+autorité compétente **distincte de celle qui émet** ; (4) la publication de
+l'ancienne convention, de la nouvelle **et du motif** ; **(5) LE SORT DES
+ENGAGEMENTS PRIS SOUS L'ANCIEN CALIBRAGE.**
+
+**LE CINQUIÈME EST UNE QUESTION DE DROITS, NON DE TECHNIQUE, ET LE CORPUS NE L'A
+PAS TRANCHÉE.** Trois branches, exclusives : **rétroactivité** (cohérent,
+imprévisible pour ceux qui s'engagent) ; **non-rétroactivité** (prévisible,
+accumule des positions calibrées sur des conventions périmées) ; **extinction
+progressive** (praticable, exige une comptabilité par millésime que rien dans
+l'architecture arbitrée ne prévoit). **À ARBITRER.**
+
+**ACQUISITION DE RANG 1 QUE CETTE PIÈCE APPELLE, ET ELLE EST DOCUMENTÉE :** la
+révision des **tarifs d'achat de l'électricité renouvelable** en Europe, et **ce
+qu'il est advenu des engagements pris sous l'ancien tarif** — parfois tranché
+devant les tribunaux. **C'est le précédent le plus proche du cinquième point.**
+
+**À SOUMETTRE À L'AUDIT CONTRADICTOIRE EN POSANT LA QUESTION EXPLICITEMENT : la
+typologie en trois types tient-elle ?** Le rangement de la dilution d'efficacité
+est contestable — elle se lirait comme un type A si l'on tenait le rendement
+lui-même pour l'assiette.

@@ -37,9 +37,18 @@ verifications_en_attente:
      INSTRUIRE : pourquoi elle a échoué** — défaut de contrainte, défaut de
      moyens, ou opposition d'intérêts. **Le corpus n'en sait rien, et la réponse
      décide de ce que F10 devient.**"
+  - "**LE RÉSULTAT DE CE CHAPITRE EST CLASSÉ LE MÊME JOUR PAR L11.C30, ET IL Y
+     TIENT LA PLACE LA PLUS INCOMMODE.** Le déplacement des motivations est une
+     **RÉPONSE À L'INSTRUMENT** : ni le sens ni l'ampleur ne sont connus à
+     l'avance. **AUCUNE RÈGLE DE CALIBRAGE PRÉALABLE NE PEUT LE COUVRIR** — on ne
+     calibre pas d'avance sur un effet dont on ignore le sens. **Ce type n'appelle
+     donc pas une règle de recalibrage mais un DISPOSITIF DE MESURE EX POST**,
+     c'est-à-dire l'obligation d'observer ce que l'instrument fait aux motivations
+     qu'il rencontre, et de pouvoir s'arrêter. **Le corpus n'a ni cette
+     obligation ni l'instrument qui la remplirait.**"
 resume: "Ce chapitre ouvre le chapitre de l'évaluation intergouvernementale consacré à ce que deviennent les valorisations dans la décision, que le chapitre précédent avait inscrit comme acquisition parce que le catalogue des méthodes déclarait explicitement ne pas couvrir cette question. Il en tire d'abord une correction de ce que le corpus avait écrit deux chapitres plus tôt, à savoir que l'incitation monétaire éroderait les motivations morales. La source établit que l'effet existe mais qu'il est bidirectionnel, les incitations pouvant renforcer aussi bien qu'évincer la motivation existante, et surtout que la littérature a une capacité prédictive limitée quant au sens dans lequel il jouera. Le chapitre soutient que cette indétermination est plus embarrassante pour un barème qu'un effet négatif connu, puisqu'un barème doit être conçu à l'avance. Il retient ensuite quatre constats adverses. Le premier est que les valeurs de marché l'emportent ordinairement lorsqu'un arbitrage économique entre objectifs concurrents ne peut être évité. Le deuxième est que les dispositifs conçus à l'échelle internationale et non adaptés au contexte local peuvent exclure les pratiques locales de gestion et accroître les inégalités entre parties prenantes. Le troisième est que le coût de la certification et des mécanismes de transparence pèse le plus lourdement sur les plus petits. Le quatrième porte sur un précédent, les cibles internationales de biodiversité ayant progressé là où elles relevaient d'un ministère de l'environnement et échoué là où elles exigeaient une réorientation intersectorielle, la cible visant à supprimer les incitations économiques dommageables n'ayant pas abouti. Le chapitre note que ce dernier constat touche le diagnostic même du corpus sans le réfuter, et qu'il faut savoir pourquoi cette cible a échoué avant d'en tirer quoi que ce soit."
 concepts: [valorisation_des_communs, bareme, qualification_regenerative, essentiel_insolvable, additionnalite]
-renvois: [L7.C22, L11.C13, L18.C09, L18.C10, L18.C12, L18.C13, L18.C14, L25.C01]
+renvois: [L7.C22, L11.C13, L18.C09, L18.C10, L18.C12, L18.C13, L18.C14, L25.C01, L11.C30]
 ---
 
 # L'incitation déplace la motivation, et personne ne sait dans quel sens
