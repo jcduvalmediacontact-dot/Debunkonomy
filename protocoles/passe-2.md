@@ -4692,3 +4692,51 @@ CE QUE LE DISPOSITIF A DE PROPRE.** A37 gagne un analogue pour la FONCTION et
 n'en gagne aucun pour la FORME DE L'ÉMISSION — ce qui laisse entières les
 questions de forme financière, de capital, d'adhésion et de retrait, et
 d'immunité.
+
+
+## A39 — la dispersion de méthode est chiffrée le 2026-09-08, et elle vaut UN FACTEUR DEUX À FRONTIÈRE ÉGALE
+
+**L'AUTEUR A EXIGÉ UNE ANALYSE DE SENSIBILITÉ ET LA PUBLICATION DES CONVENTIONS DE
+CALCUL. L26.C12 MONTRE QUE CE N'EST PAS UNE PRÉCAUTION DE MÉTHODE : C'EST LA SEULE
+CHOSE QUI REND LES CHIFFRES COMPARABLES.**
+
+**LE FAIT.** À frontière **égale** — le rendement exergétique agrégé d'une
+économie nationale — les estimations publiées du rendement **des États-Unis en
+1970** valent **22 %** chez un auteur et **11 %** chez un autre. **Du simple au
+double, même pays, même année, même grandeur.** Autres écarts documentés :
+États-Unis 1960, 8 % contre 11 % ; États-Unis 2010, 14 % contre 11 %.
+
+**ET LES MOTIFS SONT DES CONVENTIONS, NON DES DÉSACCORDS EMPIRIQUES.** Apport
+alimentaire attribué au travail musculaire (dont le rendement est d'environ 2 %) ;
+rendements retenus pour les véhicules (22 % contre 13 %) ; température de service
+de la chaleur industrielle (20 % contre 10 %) ; allocation entre chaleur haute et
+basse température. **ET SURTOUT, UNE CONVENTION QUI COUVRE À ELLE SEULE UN FACTEUR
+D'ENVIRON DIX : le facteur de conversion des renouvelables, pris entre 0,07 et 0,13
+par les analyses exergétiques et ÉGAL À 1,00 par l'Agence internationale de
+l'énergie.**
+
+**LA RÈGLE QUE A39 DOIT PORTER, ET ELLE EST PLUS EXIGEANTE QUE CE QUI ÉTAIT
+INSCRIT.** Publier le chiffre ne suffit pas. **Publier la frontière NE SUFFIT PAS
+NON PLUS.** Il faut publier :
+1. **les facteurs de conversion PAR VECTEUR** — celui des renouvelables suffisant
+   à lui seul à déplacer le résultat d'un ordre de grandeur ;
+2. **l'allocation retenue entre classes d'usage** — chaleur, force motrice,
+   travail musculaire, électricité ;
+3. **les rendements par tâche**, et non le seul agrégé.
+
+**Deux barèmes qui déclareraient la même frontière et le même indicateur
+pourraient encore différer DU SIMPLE AU DOUBLE.**
+
+**ET UN PIÈGE DE LECTURE QUE A39 DOIT NOMMER : L'ACCORD SUR LE TOTAL PEUT MASQUER
+LE DÉSACCORD SUR TOUTES LES COMPOSANTES.** Deux études s'accordent sur le
+rendement britannique de 2000 **par COMPENSATION** : chaleur 12 % contre 17 % et
+électricité 14 % contre 20 % d'un côté, force motrice 19 % contre 14 % et moindre
+allocation au travail musculaire de l'autre. **Un corpus qui ne lirait que les
+totaux publiés conclurait à un consensus qui n'existe pas.**
+
+**ET UN FAIT SUR LA TRAÇABILITÉ, QUI VAUT AVERTISSEMENT.** Une même équipe donne
+pour le Royaume-Uni de 1960 une valeur de **10 %** dans une publication et de
+**8 %** dans une publication ultérieure, et la source qui le rapporte écrit que
+« **the reasons for differences to their later results cannot be determined** ».
+**Une valeur publiée peut changer d'un tiers sans que le motif soit reconstituable
+par un lecteur attentif.**

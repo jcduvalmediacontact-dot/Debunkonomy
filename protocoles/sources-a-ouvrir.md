@@ -2152,3 +2152,38 @@ a bot! » ; le dépôt de la SOAS répond 403 ; celui de Bordeaux répond 404.
 **CES DEUX TEXTES SONT PRÉCISÉMENT CEUX QUI SITUENT LE REBOND SUR LA FRONTIÈRE
 EXERGÉTIQUE**, c'est-à-dire à la jonction que L26.C11 a ouverte entre le
 mécanisme économique et le mécanisme de composition. **À DEMANDER À L'AUTEUR.**
+
+
+## Ouvert le 2026-09-08 — BROCKWAY ET AL. 2014, ET CE QUE LA DISPERSION DE MÉTHODE COÛTE
+
+**Brockway, Barrett, Foxon et Steinberger, « Divergence of Trends in US and UK
+Aggregate Exergy Efficiencies 1960−2010 », *Environmental Science & Technology*,
+2014, 48, 9874−9881** — **OUVERT ET LU dans le texte** pour **L26.C12**, depuis
+le dépôt White Rose. **DROITS : le document porte « Terms of Use CC-BY » —
+régime `libre`.** **C'ÉTAIT L'ACQUISITION DE RANG 1 DE L26.C11, ET ELLE DÉBLOQUE
+L'ARBITRAGE DE F11 SUR CE POINT.**
+
+**CE QU'ELLE A APPORTÉ AU-DELÀ DE CE QU'ON LUI DEMANDAIT.** On lui demandait de
+confirmer une valeur citée de seconde main. **Elle l'a confirmée et précisée** —
+période 1960−2010, Royaume-Uni partant de 9 % et non de 11 %. **Elle a surtout
+apporté LA DISPERSION DE MÉTHODE, chiffrée : du simple au double à frontière
+égale**, avec ses motifs déclarés, dont un facteur de conversion des renouvelables
+allant de 0,07 à 1,00 selon la source. **C'est ce dont A39 avait besoin et que le
+corpus ne savait pas où trouver.**
+
+### Acquisitions que ce chapitre inscrit
+
+**RANG 1 — UNE SÉRIE ACTUALISÉE APRÈS 2010.** Les données s'arrêtent en 2010 et
+le corpus les lit en 2026. **Seize années manquent**, et la part de l'électricité
+comme celle des renouvelables ont changé. **Aucun emploi prospectif de ces valeurs
+n'est admissible avant.**
+
+**RANG 2 — LES CINQ ÉTUDES DONT LE CORPUS RAPPORTE LES ÉCARTS.** Reistad, Ayres
+et Warr, Laitner, Serrenho, Hammond et Stapleton. **Elles sont rapportées PAR LEUR
+CONTRADICTEUR**, dans une section qui a intérêt à justifier ses propres choix.
+**Le corpus tient qu'il existe une dispersion et ne peut pas arbitrer entre les
+valeurs.**
+
+**RANG 3 — L'ANALYSE CHINOISE EN REVUE.** L26.C11 s'appuie pour la Chine sur une
+communication de conférence. **Le travail antérieur sur les États-Unis et le
+Royaume-Uni a bien paru en revue ; l'analyse chinoise N'A PAS ÉTÉ RETROUVÉE.**

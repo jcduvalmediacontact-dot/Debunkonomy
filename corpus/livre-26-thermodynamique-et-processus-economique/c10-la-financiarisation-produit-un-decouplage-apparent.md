@@ -64,9 +64,17 @@ verifications_en_attente:
      MOITIÉ MONÉTAIRE DE LA DETTE RESTE DUE** : le traitement de l'émission relève
      du système de comptes nationaux, dont le corpus tient l'édition 2008 et non
      la révision 2025."
+  - "**L'HYPOTHÈSE D'EXTERNALISATION ÉTABLIE PAR CE CHAPITRE SUR LES FLUX MATÉRIELS
+     EST REPOSÉE SUR L'EXERGIE LE 2026-09-08 PAR L26.C12, ET ELLE L'EST PAR DES
+     AUTEURS QUI NE LA CHERCHAIENT PAS.** Constatant que le rendement exergétique
+     agrégé stagne aux États-Unis et plafonne au Royaume-Uni, ils demandent :
+     « **are higher efficiency processes “OFFSHORED” through exergy trade flow, in
+     a similar way to carbon emissions?** » **C'EST LA MÊME QUESTION, SUR UNE AUTRE
+     GRANDEUR, ET ELLE EST OUVERTE DANS LES DEUX CAS.** **Ni la source ni le corpus
+     ne la tranchent.**"
 resume: "Ce chapitre ouvre la moitié manquante de la revue systématique du découplage ainsi qu'un modèle concluant à l'impossibilité d'un découplage permanent, et il en tire trois résultats. Le premier est méthodologique et de même forme que ceux des deux chapitres précédents : la revue établit que la très grande majorité des huit cent trente-cinq études empiriques du champ aborde la question d'un point de vue statistique et économétrique en ne reconnaissant guère les principes thermodynamiques, si bien que la composition méthodologique du champ décide de ce qui est regardé, comme la frontière décidait du rendement énergétique et la méthode du coefficient de rebond. Le deuxième est que le modèle ouvert ici ne contredit pas la source sur laquelle le premier chapitre du livre s'était appuyé, puisque l'une traite du recyclage d'un stock constant en régime permanent et l'autre d'une croissance permanente butant sur un plancher d'intensité, deux propositions qui peuvent être vraies ensemble ; le chapitre en tire que le régime permanent est le seul état satisfaisant les deux propositions étudiées, sans que cela permette d'en faire la seule possibilité réelle pour le dispositif, le modèle étant conditionnel à un pays, à un scénario, à un plancher argumenté et à une classe de ressources supposées non substituables dont la liste n'est établie nulle part. Le troisième porte sur les trois mécanismes qui produisent une apparence de découplage, dont la financiarisation de composantes du produit intérieur brut, et le chapitre établit que le corpus ne peut pas appliquer ce mécanisme au dispositif faute de savoir par quelle rubrique comptable l'activité qualifiée entrerait dans le produit, une émission monétaire étant une transaction financière qui n'entre pas dans la production. Il établit enfin qu'un indicateur à deux termes physiques ne conviendrait pas, puisqu'il supprimerait la notion même de découplage économique, et il retient à la place une règle de publication simultanée de la pression physique absolue, de l'empreinte importée et du ratio de pression sur activité, en précisant que la première de ces trois grandeurs doit être un tableau multidimensionnel couvrant climat, matières, eau, sols, biodiversité et pollutions, faute de quoi la règle laisserait une amélioration sur une pression en masquer une autre."
 concepts: [decouplage, fausse_richesse, jevons_monetaire, indicateur_de_progres]
-renvois: [L1.C03, L11.C13, L17.C01, L17.C05, L24.C03, L26.C01, L26.C03, L26.C06, L26.C08, L26.C09, L18.C10]
+renvois: [L1.C03, L11.C13, L17.C01, L17.C05, L24.C03, L26.C01, L26.C03, L26.C06, L26.C08, L26.C09, L18.C10, L26.C12]
 ---
 
 # La financiarisation produit un découplage apparent

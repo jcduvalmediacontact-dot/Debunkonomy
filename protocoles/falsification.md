@@ -2546,6 +2546,51 @@ d'après un travail antérieur que le corpus n'a pas ouvert. **La stagnation
 américaine est une donnée citée, non une donnée lue.** **F11 ne peut pas être
 arbitré sur cette base.**
 
+### F11 — la source de premier rang est ouverte le 2026-09-08, et ce sont LES AUTEURS qui posent le falsifieur
+
+**L26.C11 AVAIT ÉTABLI SUR UNE COMMUNICATION DE CONFÉRENCE QUE LA RÉFUTATION DE
+F11 PAR L'EFFICACITÉ FUTURE N'EST PAS ACQUISE, ET LA MISE EN GARDE PRÉCISAIT QUE
+F11 NE POUVAIT PAS ÊTRE ARBITRÉ SUR CETTE BASE.** **L'article de revue est ouvert
+par L26.C12** (*Environmental Science & Technology*, 2014, **CC-BY**). **Le
+résultat tient désormais sur une source de premier rang, et il est plus fort.**
+
+**(1) CE QUI EST CONFIRMÉ ET RENFORCÉ.** Rendement exergétique agrégé américain
+**stable autour de 11 % de 1960 à 2010** ; britannique de **9 % à 15 %**, **mais
+plafonnant vers 2000** pour la chaleur et l'électricité, comme aux États-Unis. Les
+auteurs concluent que le rendement agrégé « **is no longer rising in either US or
+UK, despite implementing various energy efficiency measures in industry,
+residential and transport sectors** ». **Et une limite physique est nommée :
+« approaching ASYMPTOTIC DEVICE EFFICIENCY LIMITS »** — les rendements de
+chaudière passant de 70 % vers une limite « somewhere over 90% ».
+
+**(2) LE FALSIFIEUR EST POSÉ PAR LA SOURCE, DANS SA FORME EXACTE.** Les auteurs
+demandent : « **if this exergy efficiency stagnation continues, would any future
+growth in useful work come WHOLLY FROM PRIMARY EXERGY (ENERGY) SUPPLY?** » **C'est
+F11, mot pour mot, et il n'est pas posé par le corpus mais par des chercheurs du
+domaine.** **Il reste sans réponse chez eux comme ici.**
+
+**(3) CE QUE CELA NE FAIT TOUJOURS PAS, ET LE BORNAGE N° 3 COMMANDE ENCORE.** Si
+la réponse était oui, tout service supplémentaire se paierait intégralement en
+énergie primaire supplémentaire. **Ce serait un COÛT, non une impossibilité. F11
+NE SE DÉCLENCHE PAS.** **Ce qui est acquis est plus étroit : le falsifieur perd sa
+réfutation la plus commode**, celle qui compte sur les gains d'efficacité futurs
+pour relâcher la contrainte.
+
+**(4) ET UNE CONDITION DE CLÔTURE EST CONFIRMÉE SUR SOURCE DE PREMIER RANG.** F11
+ne pourra être écarté par un argument d'efficacité **que si cet argument porte
+sur le rendement AGRÉGÉ, à une frontière déclarée ET À CONVENTIONS DE
+CONVERSION PUBLIÉES.** **Un gain au niveau de la tâche ne vaut pas un gain au
+niveau du pays** — deux économies matures sur deux le démontrent. **Et à
+frontière égale, les estimations publiées varient du SIMPLE AU DOUBLE selon les
+conventions retenues** (22 % contre 11 % pour les États-Unis de 1970), ce qui
+interdit d'arbitrer F11 sur un chiffre dont les conventions ne seraient pas
+déclarées.
+
+**RÉSERVE MAINTENUE :** les données s'arrêtent en **2010** et sont lues en 2026.
+**Seize années manquent**, au cours desquelles la part de l'électricité et celle
+des renouvelables ont changé dans les deux pays. **Une série actualisée est à
+acquérir avant tout arbitrage prospectif de F11.**
+
 ## F12 — L'indiscernabilité
 
 **PROPOSÉ LE 2026-09-07 par L21.C05, après ouverture des règles de la première

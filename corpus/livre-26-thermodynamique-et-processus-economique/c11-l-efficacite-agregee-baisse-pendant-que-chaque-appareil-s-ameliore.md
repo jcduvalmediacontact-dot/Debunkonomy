@@ -13,21 +13,24 @@ regime: hybride
 sources_primaires:
   - ref: S1
     nature: donnees
-    reference: "**Paul E. Brockway, John R. Barrett, Timothy J. Foxon et Julia K. Steinberger (université de Leeds), « How peaking of exergy efficiency may lead to rising energy demand in OECD countries and an underestimate of non-OECD energy consumption growth », communication à une conférence de la British Institute of Energy Economics.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, treize pages hors références. **DROITS : AUCUNE MENTION DE DROITS N'EST LUE DANS LE DOCUMENT — régime `a_verifier`, citation courte avec attribution.** **C'EST LA QUATRIÈME FRONTIÈRE QUE L26.C08 DÉCLARAIT MANQUANTE : le service final, mesuré en travail utile.** **RÉSERVE DE RANG À DÉCLARER D'EMBLÉE : c'est une COMMUNICATION DE CONFÉRENCE, non un article de revue à comité de lecture.** **SECONDE RÉSERVE : les valeurs américaines et britanniques citées ici sont RAPPORTÉES PAR CE TEXTE d'après Brockway et al. 2014, que le corpus n'a pas ouvert — c'est une citation de seconde main, et elle est signalée comme telle à chaque emploi.**"
+    reference: "**Paul E. Brockway, John R. Barrett, Timothy J. Foxon et Julia K. Steinberger (université de Leeds), « How peaking of exergy efficiency may lead to rising energy demand in OECD countries and an underestimate of non-OECD energy consumption growth », communication à une conférence de la British Institute of Energy Economics.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, treize pages hors références. **DROITS : AUCUNE MENTION DE DROITS N'EST LUE DANS LE DOCUMENT — régime `a_verifier`, citation courte avec attribution.** **C'EST LA QUATRIÈME FRONTIÈRE QUE L26.C08 DÉCLARAIT MANQUANTE : le service final, mesuré en travail utile.** **RÉSERVE DE RANG À DÉCLARER D'EMBLÉE : c'est une COMMUNICATION DE CONFÉRENCE, non un article de revue à comité de lecture.** **SECONDE RÉSERVE, LEVÉE LE 2026-09-08 : les valeurs américaines et britanniques étaient rapportées par ce texte d'après Brockway et al. 2014. CET ARTICLE DE REVUE A ÉTÉ OUVERT LE JOUR MÊME PAR L26.C12, et c'est lui qui fait désormais foi pour les États-Unis et le Royaume-Uni** — la présente communication ne servant plus que pour la Chine et pour le cadre méthodologique."
     date_verification: 2026-09-08
 verifications_en_attente:
-  - "**LES VALEURS AMÉRICAINES ET BRITANNIQUES SONT DE SECONDE MAIN.** Le rendement
-     exergétique agrégé des États-Unis (10 % à 11 %) et du Royaume-Uni (11 % à
-     15 %) est **rapporté par cette communication d'après Brockway et al. 2014**,
-     que le corpus n'a pas ouvert. **Or ce sont ces deux valeurs qui portent le
-     résultat le plus lourd du chapitre** — la stagnation d'une économie mature.
-     **ACQUISITION DE RANG 1 POUR CE CHAPITRE : Brockway et al. 2014 sur les
-     États-Unis et le Royaume-Uni.** Tant qu'elle n'est pas faite, la stagnation
-     américaine est une donnée citée, non une donnée lue."
-  - "**C'EST UNE COMMUNICATION DE CONFÉRENCE, ET LE CORPUS NE SAIT PAS SI ELLE A
-     ÉTÉ PUBLIÉE ENSUITE EN REVUE.** **À vérifier** : l'existence d'une version
-     à comité de lecture, et si elle existe, **si ses chiffres sont les mêmes**.
-     Le corpus doit citer la version de référence, non celle qu'il a trouvée."
+  - "**ACQUISITION DE RANG 1 FAITE LE 2026-09-08 : LES VALEURS AMÉRICAINES ET
+     BRITANNIQUES NE SONT PLUS DE SECONDE MAIN.** Brockway et al. 2014 est ouvert
+     par L26.C12. **La stagnation américaine est désormais une donnée LUE**, et le
+     corps de ce chapitre expose les valeurs de l'article de revue. **CE QUI RESTE
+     DE SECONDE MAIN DANS CE CHAPITRE : rien sur les États-Unis ni sur le
+     Royaume-Uni. Les valeurs CHINOISES restent celles de cette communication**,
+     et le corpus n'a ouvert aucun article de revue les portant."
+  - "**C'EST UNE COMMUNICATION DE CONFÉRENCE, ET SON STATUT EST PARTIELLEMENT
+     ÉCLAIRCI LE 2026-09-08.** Le travail ANTÉRIEUR sur les États-Unis et le
+     Royaume-Uni a bien paru en revue à comité de lecture (L26.C12), **mais LA
+     PRÉSENTE ÉTUDE SUR LA CHINE — qui est l'apport propre de cette communication
+     — N'A PAS ÉTÉ RETROUVÉE EN REVUE.** **À vérifier : l'existence d'une version
+     publiée de l'analyse chinoise, et si elle existe, si ses chiffres sont les
+     mêmes.** **Les valeurs chinoises restent donc portées par une source de rang
+     inférieur.**"
   - "**LE CHAPITRE NE FRANCHIT PAS LE PAS DE LA MULTIPLICATION DES QUATRE
      FRONTIÈRES, ET C'EST DÉLIBÉRÉ.** Les rendements des quatre frontières ne
      s'enchaînent PAS par simple produit : ils ne portent pas sur les mêmes
@@ -42,9 +45,22 @@ verifications_en_attente:
      instruit. **Le corpus dispose de trois pays, tous à revenu élevé ou en
      industrialisation rapide, et d'aucun pays pauvre.** **La dilution d'efficacité
      y jouerait-elle dans le même sens ? Le corpus ne le sait pas.**"
-resume: "Ce chapitre ouvre la quatrième frontière que le chapitre huit de ce livre déclarait manquante, celle du service final, mesurée en travail utile par une comptabilité en exergie. Il en tire d'abord un ordre de grandeur, à savoir que le rendement exergétique agrégé d'une économie entière se situe autour de onze pour cent aux États-Unis, quinze au Royaume-Uni et douze en Chine, ce qui signifie que près de neuf dixièmes de l'exergie primaire sont dissipés avant que le service ne soit rendu. Il retient ensuite un résultat plus important que cet ordre de grandeur, à savoir que le rendement agrégé d'un pays peut stagner ou baisser alors même que chaque appareil pris séparément s'améliore, parce que la composition des usages se déplace vers des usages moins efficaces à mesure que le pays s'enrichit. Les auteurs nomment ce phénomène dilution d'efficacité et le mesurent par décomposition, trouvant pour les deux économies matures un facteur structurel inférieur à un. Le chapitre montre que ce mécanisme est indépendant de l'effet rebond économique établi ailleurs dans ce livre, puisqu'il ne suppose aucun changement de comportement en réponse à une baisse de prix, et qu'il s'y ajoute au lieu de s'y substituer. Il en tire trois conséquences pour le dispositif. La première est qu'un barème adossé à un rendement énergétique doit dire à quelle frontière il se place, l'écart entre frontières étant d'un ordre de grandeur. La deuxième est que le développement lui-même dilue l'efficacité, ce qui contrarie toute doctrine supposant que les gains s'accumulent. La troisième est que les auteurs déclarent eux-mêmes que les politiques d'efficacité au niveau des appareils peuvent être mal placées si le rendement national stagne. Il déclare enfin que les valeurs américaines et britanniques sont citées de seconde main et que la composition des quatre frontières n'est pas faite."
+  - "**LES VALEURS AMÉRICAINES ET BRITANNIQUES NE SONT PLUS DE SECONDE MAIN : L26.C12
+     A OUVERT L'ARTICLE DE REVUE LE 2026-09-08, ET LE CORPS DE CE CHAPITRE A ÉTÉ
+     CORRIGÉ EN CONSÉQUENCE.** **CE QUI CHANGE :** la période de référence est
+     1960−2010 et non 1971−2010, et le rendement britannique y part de **9 %** et
+     non de 11 %. **Les deux séries sont compatibles** — elles ne partent pas de la
+     même année. **CE QUI SE RENFORCE :** l'article dit plus que la communication.
+     **Le Royaume-Uni A LUI AUSSI VU SES RENDEMENTS DE CHALEUR ET D'ÉLECTRICITÉ
+     PLAFONNER VERS 2000** ; la climatisation américaine est passée de **10 % à 20 %
+     de l'usage final d'électricité** ; et les auteurs concluent que le rendement
+     agrégé « **is no longer rising in either US or UK, despite implementing various
+     energy efficiency measures** ». **CE QUE CE CHAPITRE N'AVAIT PAS VU :
+     LA DISPERSION DE MÉTHODE**, du simple au double sur la même économie la même
+     année — voir L26.C12."
+resume: "Ce chapitre ouvre la quatrième frontière que le chapitre huit de ce livre déclarait manquante, celle du service final, mesurée en travail utile par une comptabilité en exergie. Il en tire d'abord un ordre de grandeur, à savoir que le rendement exergétique agrégé d'une économie entière se situe autour de onze pour cent aux États-Unis, quinze au Royaume-Uni et douze en Chine, ce qui signifie que près de neuf dixièmes de l'exergie primaire sont dissipés avant que le service ne soit rendu. Il retient ensuite un résultat plus important que cet ordre de grandeur, à savoir que le rendement agrégé d'un pays peut stagner ou baisser alors même que chaque appareil pris séparément s'améliore, parce que la composition des usages se déplace vers des usages moins efficaces à mesure que le pays s'enrichit. Les auteurs nomment ce phénomène dilution d'efficacité et le mesurent par décomposition, trouvant pour les deux économies matures un facteur structurel inférieur à un. Le chapitre montre que ce mécanisme est indépendant de l'effet rebond économique établi ailleurs dans ce livre, puisqu'il ne suppose aucun changement de comportement en réponse à une baisse de prix, et qu'il s'y ajoute au lieu de s'y substituer. Il en tire trois conséquences pour le dispositif. La première est qu'un barème adossé à un rendement énergétique doit dire à quelle frontière il se place, l'écart entre frontières étant d'un ordre de grandeur. La deuxième est que le développement lui-même dilue l'efficacité, ce qui contrarie toute doctrine supposant que les gains s'accumulent. La troisième est que les auteurs déclarent eux-mêmes que les politiques d'efficacité au niveau des appareils peuvent être mal placées si le rendement national stagne. Il déclare enfin que la composition des quatre frontières n'est pas faite, les rendements ne s'enchaînant pas par simple produit. Les valeurs américaines et britanniques y étaient d'abord citées de seconde main ; l'article de revue qui les porte a été ouvert le même jour par le chapitre suivant, qui les précise et les renforce, et seules les valeurs chinoises restent portées par cette communication."
 concepts: [bareme, qualification_regenerative, decouplage]
-renvois: [L11.C13, L17.C01, L25.C01, L26.C01, L26.C03, L26.C04, L26.C08, L26.C09, L26.C10]
+renvois: [L11.C13, L17.C01, L25.C01, L26.C01, L26.C03, L26.C04, L26.C08, L26.C09, L26.C10, L26.C12]
 ---
 
 # L'efficacité agrégée baisse pendant que chaque appareil s'améliore
@@ -65,9 +81,9 @@ renvois: [L11.C13, L17.C01, L25.C01, L26.C01, L26.C03, L26.C04, L26.C08, L26.C09
 
 ## 2. L'ordre de grandeur : neuf dixièmes sont dissipés avant le service
 
-::etat:: **Chine : 5 % en 1971, 12 % en 2010** [S1]. **États-Unis : 10 % à 11 % ; Royaume-Uni : 11 % à 15 %** — **ces deux dernières valeurs étant RAPPORTÉES par cette communication d'après un travail antérieur que le corpus n'a pas ouvert.**
+::etat:: **Chine : 5 % en 1971, 12 % en 2010** [S1]. **États-Unis et Royaume-Uni : la source de premier rang a été OUVERTE LE 2026-09-08 PAR L26.C12, et c'est elle qui fait désormais foi** — **rendement américain stable autour de 11 %, rendement britannique passant de 9 % à 15 %, sur 1960−2010.** **Les valeurs rapportées ici par la communication (10 % à 11 % et 11 % à 15 %) portaient sur 1971−2010 : les deux séries sont compatibles, elles ne partent pas de la même année.** **LA RÉSERVE DE SECONDE MAIN DÉCLARÉE PAR CE CHAPITRE EST DONC LEVÉE.**
 
-::hypothese:: **Ce que cela dit du service final : environ 88 % de l'exergie primaire d'une économie mature est dissipée avant qu'un service soit rendu.** **L'écart avec la frontière du point d'usage est d'un ordre de grandeur**, et c'est exactement ce que L26.C03 a établi de façon générale : **la frontière décide du chiffre.**
+::hypothese:: **Ce que cela dit du service final : environ 85 à 90 % de l'exergie primaire d'une économie mature est dissipée avant qu'un service soit rendu.** **ET CET INTERVALLE EST LUI-MÊME CONVENTIONNEL : L26.C12 a établi qu'une estimation publiée du rendement américain de 1970 vaut 22 % là où la source de premier rang retient 11 %, soit DU SIMPLE AU DOUBLE pour la même économie la même année.** **L'écart avec la frontière du point d'usage est d'un ordre de grandeur**, et c'est exactement ce que L26.C03 a établi de façon générale : **la frontière décide du chiffre.**
 
 ::etat:: **Et le travail musculaire, que la comptabilité en exergie compte comme les autres, rend environ 2 %** [S1] — ce qui explique une part de la progression chinoise : **son recul, de composante majeure en 1971 à moins de 10 % des entrées en 2010, relève la moyenne sans qu'aucun appareil ne se soit amélioré.**
 
