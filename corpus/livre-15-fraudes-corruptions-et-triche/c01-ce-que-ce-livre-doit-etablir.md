@@ -55,9 +55,21 @@ verifications_en_attente:
      **CE QUI RESTE DONC ENTIER : la fraude MÉTROLOGIQUE** — capture de
      certificateur, falsification de relevés — **qui est celle que le motif de
      registre de ce livre nommait, et dont le corpus n'a toujours aucune source.**"
+  - "**LA TROISIÈME ARCHITECTURE EST OUVERTE LE MÊME JOUR PAR L15.C03, ET LE MODÈLE
+     D'ADVERSAIRE RÉCLAMÉ PAR CE CHAPITRE PREND UNE FORME QUE LE CORPUS N'ATTENDAIT
+     PAS.** Trois architectures sont tenues — **la ligne de base** (fausse
+     qualification sans tricheur), **la fiscalité du transfert** (tricheurs
+     n'ayant pas touché à l'objet protégé), **et la mesure** (l'objet mesuré se
+     comporte autrement pendant la mesure). **DANS AUCUN DES TROIS CAS
+     L'ADVERSAIRE N'ATTAQUE LA GRANDEUR ÉCOLOGIQUE ELLE-MÊME** : il attaque le
+     cadre qui la compare, la fiscalité qui la transfère, ou le moment où on la
+     regarde. **LE CORPUS PROTÉGEAIT LA MESURE ; LES TROIS FRAUDES DOCUMENTÉES
+     PASSENT À CÔTÉ D'ELLE.** **RESTE ENTIER LE TROISIÈME TERME DU MOTIF DE
+     REGISTRE : LA CAPTURE DU RÉGULATEUR**, seule limite de L1.C18 § 5 que le
+     corpus n'a documentée d'aucune manière."
 resume: "Ce chapitre ouvre le livre chargé de recenser les architectures de fraude, de détecter les formes émergentes et d'éprouver en permanence le dispositif et ses contrôleurs, et il commence par une correction de cadrage que le corpus doit à sa propre documentation. L'examen de vingt-six projets de déforestation évitée sur trois continents, par contrôles synthétiques, établit que la plupart n'ont pas réduit significativement la déforestation et que, pour ceux qui l'ont fait, les réductions furent nettement inférieures aux montants revendiqués, un vingtième environ des crédits attendus correspondant à une réduction additionnelle. Or les auteurs attribuent cet écart à la construction des scénarios de référence et non à une destruction dissimulée, et ils précisent que la surestimation a pu être involontaire. Le chapitre en tire que la vulnérabilité dominante du dispositif le plus proche ne réside pas dans le terrain mais dans le cadre de comparaison. Il établit ensuite que le dispositif examiné par ce corpus a répondu à cette vulnérabilité en abandonnant le contrefactuel au profit d'états physiques constatés, et que cette réponse est juste mais déplace la surface d'attaque au lieu de la réduire, puisqu'elle la reporte sur le capteur, sur le relevé de terrain que le livre premier déclarait lui-même exposé à la falsification locale, et sur une incertitude de mesure que ce même livre chiffre entre vingt et cinquante pour cent. Il montre que le second régime probatoire, celui des activités sociales évaluées sur des moyens, ramène la capacité documentaire comme critère discriminant. Il propose enfin de traiter le coût du contrôle comme un paramètre de fraude et non comme une ligne budgétaire, et déclare que le livre ne peut pas commencer sans un modèle d'adversaire que le corpus n'a jamais construit."
 concepts: [additionnalite, qualification_regenerative, bareme, regle_contre_discretion, robustesse]
-renvois: [L1.C18, L11.C13, L11.C30, L18.C10, L18.C13, L18.C15, L25.C07, L15.C02]
+renvois: [L1.C18, L11.C13, L11.C30, L18.C10, L18.C13, L18.C15, L25.C07, L15.C02, L15.C03]
 ---
 
 # Ce que ce livre doit établir

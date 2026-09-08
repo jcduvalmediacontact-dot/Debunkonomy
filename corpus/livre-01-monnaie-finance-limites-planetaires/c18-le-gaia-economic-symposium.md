@@ -287,9 +287,26 @@ verifications_en_attente:
      un PARAMÈTRE DE FRAUDE, non une ligne budgétaire** — un contrôle qui absorbe
      le quart du versement sera économisé, et le payeur comme le payé ont le même
      intérêt à ce que l'expert ne vienne pas."
+  - "**UN PRINCIPE DE CONCEPTION EST VERSÉ AU RÉGIME PROBATOIRE LE 2026-09-08 PAR
+     L15.C03, ET IL COÛTE.** Un dispositif de contournement installé dans des
+     véhicules **détectait que le véhicule subissait un essai et modifiait alors le
+     fonctionnement du système de dépollution** ; les émissions réelles étaient
+     supérieures d'un **facteur 10 à 40** à la norme, sur six millésimes.
+     **L'ESSAI DE CERTIFICATION ÉTAIT PASSÉ HONNÊTEMENT : c'est la relation entre
+     l'état MESURÉ et l'état ORDINAIRE qui était truquée.** **CE QUI SE TRANSPORTE
+     ICI N'EST PAS LE MÉCANISME — on ne programme pas une forêt — MAIS LA
+     STRUCTURE DE L'INCITATION : dès qu'un contrôle est IDENTIFIABLE, il devient une
+     situation particulière, et c'est la situation qui est optimisée.** **Or les
+     relevés de terrain ont une date, et la rente de maintien est conditionnée à un
+     constat PÉRIODIQUE.** **PRINCIPE : le contrôle doit être pour partie
+     INDISCERNABLE du fonctionnement ordinaire** — la fraude a été trouvée par des
+     mesures HORS PROTOCOLE, non par un protocole amélioré. **ET IL ENTRE EN
+     COLLISION AVEC LE COÛT QUE CE CHAPITRE CHIFFRE : un contrôle inopiné coûte
+     PLUS.** **Un dispositif qui ne budgète pas le surcoût de l'imprévisibilité
+     fera, par simple gestion, le choix du contrôle annonçable.**"
 resume: "Ce chapitre présente l'institution que le livre propose en réponse au premier des cinq problèmes ouverts en L1.C17 : la légitimité. Il corrige d'abord l'affirmation selon laquelle aucune institution ne représenterait le vivant — des conventions environnementales contraignantes existent, et la personnalité juridique d'entités naturelles est reconnue en Équateur, en Colombie et en Nouvelle-Zélande ; ce qui manque est plus étroit, aucune n'a de mandat monétaire. Les deux précédents de tutelle enseignent comment représenter ce qui n'a pas de volonté : l'intérêt de l'entité est défini par le texte qui l'institue, et porté par une tutelle duale — ce qui n'abolit pas la relation d'agence mais l'encadre. Le chapitre expose ensuite l'architecture que le livre substitue à sa conception initiale : quatre chambres à pouvoirs séparés et étanches — Assemblée des Communs, Office de Certification et d'Audit, Conseil Monétaire Mondial, Chambre de Recours et d'Équité — sous la règle que celui qui définit ce qui compte n'est jamais celui qui décide combien on émet. Cette séparation satisfait la condition qui interdit à une autorité non élue de cumuler choix distributifs et pouvoir d'émission. Le régime probatoire abandonne l'additionnalité contrefactuelle au profit d'états physiques mesurés, consolidés à l'échelle nationale et rémunérés par rente de maintien. Restent quatre problèmes non résolus : la connaissance dispersée, l'ancrage des anticipations, le privilège budgétaire parlementaire, et l'interdiction faite aux banques centrales de l'Union d'accepter des instructions d'un autre organisme."
 concepts: [creation_monetaire, essentiel_insolvable, qualification_regenerative, reflux_monetaire, robustesse, degeneratif]
-renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L15.C01]
+renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L15.C01, L15.C03]
 ---
 
 # Le GAÏA Economic Symposium
