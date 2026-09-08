@@ -3071,6 +3071,50 @@ ressources naturelles et capital.** Solow la disait « educated guess » en 1973
 - **MANQUE STRUCTUREL :** **Neumayer porte la taxonomie faible/forte que F13 emploie
   pour se poser, et le corpus ne l'a jamais lue de sa main.**
 
+### F13 — LA GRANDEUR REÇOIT UN ORDRE DE GRANDEUR LE 2026-09-08 AU SOIR. TOUJOURS NON ARBITRÉ.
+
+**LA REFORMULATION PROPOSÉE QUELQUES HEURES PLUS TÔT FAISAIT DE F13 UNE QUESTION
+EMPIRIQUE À UN PARAMÈTRE, EN NOTANT QUE LE CORPUS N'AVAIT AUCUNE MESURE. IL EN A
+UNE, ADJACENTE.**
+
+**Méta-analyse de régression sur les estimations publiées de substitution
+CAPITAL-ÉNERGIE** (L18.C17). Élasticités de substitution idiéal-typiques :
+
+| Horizon | Élasticité | Intervalle à 95 % | Face au seuil de Solow |
+|---|---|---|---|
+| Court terme | **0,64** | 0,40 – 0,89 | **contredite, intervalle entièrement sous 1** |
+| Moyen terme | **0,89** | 0,64 – 1,14 | indécidée |
+| Long terme | **1,21** | 0,70 – 1,73 | indécidée |
+
+**CE QUE LE CORPUS PEUT ÉCRIRE :** *la présomption sur laquelle repose la position
+adverse n'est pas confirmée par la meilleure synthèse disponible de la grandeur la
+plus voisine ; elle est contredite à l'horizon où la mesure est la plus serrée et
+indécidée aux autres.*
+
+**CE QU'IL NE PEUT PAS ÉCRIRE : que la soutenabilité faible est réfutée.** Trois
+écarts l'interdisent et ils sont déclarés à chaque emploi : **capital-ÉNERGIE
+n'est pas capital-RESSOURCES** ; **une élasticité de Morishima n'est pas le sigma
+d'une fonction à élasticité constante** ; **un long terme économétrique n'est pas
+l'horizon infini de Solow**.
+
+**F13 RESTE DONC NON ARBITRÉ, ET C'EST LE BON ÉTAT.** **Mais il a changé deux fois
+en une journée :** le matin il n'avait aucune pièce de théorie adverse ; le soir il
+a **la théorie** (Solow, document de travail) **et une mesure adjacente** dont
+l'ordre de grandeur ne soutient pas la présomption.
+
+**ACQUISITION DE RANG 1, INCHANGÉE DANS SON RANG ET PRÉCISÉE DANS SON OBJET : une
+estimation portant sur LES RESSOURCES EN GÉNÉRAL, dans une spécification comparable
+à celle de Solow, et POSTÉRIEURE À 2006.**
+
+**ET UN AVERTISSEMENT QUE LA SOURCE S'ADRESSE À ELLE-MÊME, QUE F13 DOIT PORTER :**
+les auteurs établissent que **les hypothèses des études primaires — rendements
+d'échelle, progrès technique, séparabilité — DÉTERMINENT le résultat de l'étude
+primaire.** **C'est le même constat que L26.C12 sur les rendements exergétiques :
+la méthode décide du chiffre. Ici, la méta-méthode décide aussi.** **Un falsifieur
+adossé à une grandeur dont la mesure dépend de la spécification ne se clôt pas par
+un chiffre : il se clôt par une plage et des conventions publiées** — exactement ce
+que A39 exige déjà pour le rendement énergétique.
+
 ## F14 — L'additivité structurelle
 
 **PROPOSÉ LE 2026-09-08 PAR L26.C05, après ouverture de la publication

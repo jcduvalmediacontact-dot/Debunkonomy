@@ -34,16 +34,30 @@ verifications_en_attente:
   - "**NEUMAYER RESTE ABSENT, ET C'EST LUI QUI PORTE LA TAXONOMIE.** La distinction
      soutenabilité faible / forte est ce que le corpus emploie pour poser F13, et
      **aucune source libre ne la porte de sa main.** **ACQUISITION MAINTENUE.**"
-  - "**LE CORPUS NE SAIT PAS CE QUE VAUT AUJOURD'HUI LA CONJECTURE DE SOLOW.** Il
-     déclare en 1973 que l'élasticité de substitution au moins unitaire est « the
-     educated guess at the moment ». **Cinquante-trois ans ont passé. Le corpus
-     n'a ouvert AUCUNE estimation empirique de cette élasticité**, ni de 1973 ni
-     d'aujourd'hui. **C'est LA question qui décide de F13, et elle est
-     entièrement ouverte.** **ACQUISITION DE RANG 1, et elle prime sur toutes les
-     autres de ce livre.**"
+  - "**L'ÉTAT DE LA CONJECTURE DE SOLOW EST INSTRUIT LE MÊME SOIR PAR L18.C17, ET
+     IL RESTE INCOMPLET.** Une méta-analyse de la substitution **capital-énergie**
+     est ouverte : 0,64 à court terme, 0,89 à moyen, 1,21 à long. **La présomption
+     est contredite à court terme et indécidée ailleurs.** **MAIS CE N'EST PAS LA
+     GRANDEUR DE SOLOW** — énergie et non ressources, Morishima et non sigma d'une
+     CES, horizons finis et non infini. **CE QUI RESTE DONC À ACQUÉRIR, ET C'EST
+     TOUJOURS LE RANG 1 DE CE LIVRE : une estimation portant sur les RESSOURCES en
+     général, dans une spécification comparable à celle de Solow, et postérieure à
+     2006.**"
+  - "**L'ACQUISITION DE RANG 1 INSCRITE PAR CE CHAPITRE EST FAITE LE MÊME SOIR PAR
+     L18.C17, ET LA MESURE NE SOUTIENT PAS LA PRÉSOMPTION.** Méta-analyse de
+     régression sur les estimations publiées de substitution **capital-énergie** :
+     élasticité de substitution **0,64 à court terme** (intervalle 0,40–0,89,
+     **entièrement inférieur à l'unité**), **0,89 à moyen terme** (0,64–1,14),
+     **1,21 à long terme** (0,70–1,73). **La présomption de Solow — non
+     inférieure à l'unité — est CONTREDITE à l'horizon où la mesure est la plus
+     serrée, et INDÉCIDÉE aux deux autres.** **RÉSERVE QUI COMMANDE TOUT :
+     capital-ÉNERGIE n'est pas capital-RESSOURCES, une élasticité de Morishima
+     n'est pas le sigma d'une CES, et un long terme économétrique n'est pas
+     l'infini.** **Le corpus n'a PAS mesuré la condition de Solow : il a ouvert la
+     mesure la plus voisine qui existe.**"
 resume: "Ce chapitre verse dans le falsifieur portant sur la soutenabilité faible des substitutions libres aux textes que le corpus ne peut pas obtenir, et il déclare d'emblée ce que ces substitutions ne remplacent pas. Il ouvre d'abord le document de travail par lequel Solow a établi en mille neuf cent soixante-treize la position adverse, obtenu du dépôt institutionnel de son université. Il en tire trois énoncés que l'auteur écrit lui-même. Le premier est que sa conclusion, selon laquelle l'introduction de ressources épuisables ne renverse pas les principes de base, repose sur la présomption que l'élasticité de substitution entre les ressources naturelles d'une part et le travail et les biens capitaux d'autre part n'est pas inférieure à l'unité, présomption qu'il qualifie de conjecture éclairée du moment. Le deuxième est que si le produit moyen des ressources est borné, le seul niveau de consommation agrégée soutenable pour un temps infini est zéro. Le troisième est que la fonction de production qu'il retient est la seule de sa famille qui convienne, puisque au-dessus de l'unité les ressources ne sont pas indispensables et en dessous le produit moyen est borné. Le chapitre en tire que la position adverse est posée sur une condition étroite dont son auteur nomme l'alternative, et que l'accusation de dissimulation portée par le falsifieur échoue une troisième fois, plus nettement encore que les deux précédentes. Il verse ensuite la règle de Hartwick telle que la Banque mondiale l'énonce, définissant le développement durable comme le maintien de la consommation, et l'indicateur de Pearce et Atkinson tel qu'elle le calcule sous le nom d'épargne nette ajustée. Il relève enfin que le chapitre onze de ce livre avait ouvert ce rapport sans en lire le noyau théorique, et que Solow déclare de son propre critère qu'il perpétue la pauvreté lorsque le capital initial est insuffisant."
 concepts: [essentiel_insolvable, indicateur_de_progres, valorisation_des_communs, fausse_richesse, plancher_social]
-renvois: [L11.C13, L18.C05, L18.C10, L18.C11, L18.C12, L18.C13, L18.C14, L25.C01, L25.C07, L26.C01]
+renvois: [L11.C13, L18.C05, L18.C10, L18.C11, L18.C12, L18.C13, L18.C14, L25.C01, L25.C07, L26.C01, L18.C17]
 ---
 
 # L'hypothèse est déclarée, et son alternative est zéro
