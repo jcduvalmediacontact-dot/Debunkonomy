@@ -141,6 +141,21 @@ arbitrages:
       l'adversaire. CE QUE CELA NE DONNE PAS : savoir qualifier la menace,
       qui reste la difficulté du barème. Le désaccord porte sur ce qu'on fait
       ensuite, non sur ce constat.
+      SECOND APPUI LE 2026-09-08 PAR L18.C20, ET IL PORTE SUR LE GESTE MÊME
+      D'A42. L'auteur du traité déclare adopter une vue AGNOSTIQUE sur la
+      croissance et se concentrer directement sur les problèmes
+      environnementaux, écartant la décroissance comme prescription : « environ-
+      mental pollution is 'the enemy', not economic growth », et viser la
+      croissance pour obtenir un résultat environnemental serait une erreur,
+      moins de croissance pouvant être la CONSÉQUENCE de politiques strictes.
+      C'est le geste d'A42, énoncé hors du corpus.
+      ET IL PORTE UN AVERTISSEMENT POLITIQUE À NE PAS PERDRE : le même auteur
+      juge la persuasion des décideurs sur la décroissance « simply hopeless and
+      a political non-starter ». SI LE DISPOSITIF EST LU COMME UNE PRESCRIPTION
+      DE DÉCROISSANCE, IL HÉRITE DE CE VERDICT, quelle que soit la justesse de
+      sa construction. La distinction entre agir sur la grandeur écologique et
+      prescrire un niveau de produit est donc une condition de recevabilité, non
+      seulement une exactitude.
 
 falsifieurs:
   - id: F1
@@ -264,8 +279,27 @@ falsifieurs:
       À CETTE DÉFINITION, et le traité en donne deux. LE CORPUS N'A JAMAIS
       DÉCLARÉ LAQUELLE IL RETIENT : ce choix décide de la possibilité même du
       barème, et il appartient à l'auteur.
-      RESTE À OUVRIR, DÉJÀ SUR LE DISQUE : le chapitre 3, qui porte l'argument
-      de non-falsifiabilité.
+      LE CHAPITRE 3 EST OUVERT LE 2026-09-08 (L18.C20), ET IL CHANGE CE QU'UNE
+      ACQUISITION PEUT PROMETTRE. La non-falsifiabilité n'est pas une lacune de
+      connaissance mais une impossibilité de principe : l'optimisme des
+      ressources tient en QUATRE propositions dont il suffit qu'UNE SEULE vaille
+      à un moment quelconque de l'avenir, et l'objet du litige porte sur des
+      techniques NON ENCORE INVENTÉES. L'auteur écrit qu'il serait « a mistake to
+      believe that more research could solve the dispute ». CONSÉQUENCE POUR CE
+      REGISTRE : aucune acquisition ne lèvera ce point, et le corpus doit cesser
+      d'en inscrire dans cet espoir. L'estimation d'élasticité ci-dessous garde
+      sa valeur de MESURE ; elle n'a aucune valeur de TRANCHE.
+      ET LES DEUX NON-FALSIFIABILITÉS NE SONT PAS DE MÊME NATURE. Celle du camp
+      adverse tient à une conjecture invérifiable sur l'avenir. Celle du corpus
+      tient à ce que sa position est NORMATIVE — un droit des générations
+      futures — et l'auteur écrit qu'« as a normative position, it is
+      non-refutable ». Un énoncé normatif n'a pas à être falsifiable pour être
+      légitime : il a à être ASSUMÉ comme normatif. C'EST LA TROISIÈME FOIS QUE
+      CETTE ISSUE SE PRÉSENTE, ET ELLE N'EST PAS PRISE.
+      RÉSERVE QUI BORNE : l'auteur écrit que les preuves de préférences
+      quasi lexicographiques envers le capital naturel sont « rather shaky » et
+      que la majorité des individus a des préférences compatibles avec la
+      substitution. LE CORPUS NE PEUT PAS INVOQUER LES PRÉFÉRENCES OBSERVÉES.
       ACQUISITIONS NOUVELLES, INSCRITES PAR L18.C19 : Usubiaga-Liaño et Ekins
       2021a, qui porte la construction de l'indice de soutenabilité
       environnementale forte — le barème existant le plus proche ; et van der
@@ -342,6 +376,28 @@ pieces_de_conception_manquantes:
       LE CORPUS N'A JAMAIS TRANCHÉ CE PARTAGE. Il a construit une
       qualification régénérative sans dire de quel côté elle mord. À trancher
       avec A42 et CRITERE-L25.
+      LE CHAMP EST RÉDUIT LE 2026-09-08 PAR L18.C20, ET LA BRANCHE SOURCE EST
+      RÉPONDUE — CONTRE LA POSITION QUE LE DISPOSITIF SUPPOSE. « All the
+      available evidence so far therefore seems to strongly support the
+      substitutability assumption of WS with respect to natural capital as an
+      input to the production of goods and services. » Dix-sept matières non
+      énergétiques recensées : rapport ressources sur production supérieur au
+      siècle pour la plupart, supérieur au millénaire pour plusieurs. Sur les
+      hydrocarbures, la conclusion est retournée — le danger cité est qu'il y en
+      ait « far too much [...] for the climate to tolerate », non qu'il en
+      manque. Sur l'alimentation, la question est déplacée vers la répartition
+      intra-générationnelle.
+      CE POINT EST DÉSORMAIS LE PLUS URGENT DU CORPUS. Si la qualification mord
+      du côté SOURCE, le dispositif contredit l'état des preuves que
+      l'adversaire ET son examinateur tiennent pour établies. Si elle mord du
+      côté PUITS, le même examinateur le soutient.
+      RÉSERVE : les réserves sont une grandeur ÉCONOMIQUE, non physique, et la
+      source le déclare — surdéclaration des exportateurs, et rapport réserves
+      sur production supposant à tort une extraction constante jusqu'à
+      épuisement. Ce qui est établi est que les réserves ont plus que suivi la
+      production JUSQU'ICI. L'abondance établie est une abondance de STOCK, non
+      une innocuité de PRÉLÈVEMENT : l'auteur écarte explicitement de son champ
+      les dommages causés par l'extraction.
 
   - id: MODELE-ADVERSAIRE
     objet: "Qui gagne quoi à falsifier une qualification régénérative"

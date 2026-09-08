@@ -3620,3 +3620,55 @@ soutenabilité faible comme une croyance.** **Ce qui distingue les deux n'est do
 pas leur statut épistémique mais l'ASYMÉTRIE DES CONSÉQUENCES EN CAS D'ERREUR —
 et cet argument-là, le corpus ne l'a pas encore construit.** **C'est une pièce à
 écrire, et elle est de rang 1.**
+
+
+### F13 — CE QU'AUCUNE ACQUISITION NE LÈVERA, ÉTABLI LE 2026-09-08 PAR L18.C20
+
+**LE CHAPITRE QUI PORTE L'ARGUMENT DE NON-FALSIFIABILITÉ EST OUVERT, ET IL
+CHANGE CE QUE LE CORPUS PEUT ESPÉRER D'UNE ACQUISITION.**
+
+**L'ARGUMENT N'EST PAS UN MANQUE DE DONNÉES.** L'optimisme des ressources tient
+en quatre propositions — substitution par une autre ressource, rôle des prix,
+substitution par le capital produit, progrès technique — **et il suffit qu'UNE
+SEULE vaille à un moment quelconque de l'avenir.** Aucune n'a pu être réfutée ;
+aucune ne peut être tenue pour acquise. **L'objet du litige porte sur des
+techniques NON ENCORE INVENTÉES**, et l'auteur écrit qu'il serait *« a mistake to
+believe that more research could solve the dispute »*.
+
+**RÈGLE QUE CELA IMPOSE AU REGISTRE DES ACQUISITIONS.** **Une lacune de
+connaissance se comble ; une impossibilité de principe ne se comble pas.** **Le
+corpus doit cesser d'inscrire des acquisitions dans l'espoir de trancher la
+substituabilité.** L'estimation d'élasticité que F13 réclame garde toute sa
+valeur de MESURE — elle dit ce qu'on observe — **et n'a aucune valeur de
+TRANCHE.**
+
+**LES DEUX NON-FALSIFIABILITÉS NE SONT PAS DE MÊME NATURE, ET L18.C18 NE L'AVAIT
+PAS VU.** **Celle du camp adverse tient à une conjecture invérifiable sur
+l'avenir.** **Celle du corpus tient à ce que sa position est NORMATIVE** : les
+tenants de la soutenabilité forte posent la non-substituabilité comme *« an
+inviolable right of future generations to be free from long-term environmental
+degradation »*, et l'auteur conclut : *« As a normative position, it is
+non-refutable, however. »*
+
+**ET CELA OUVRE UNE ISSUE.** **Un énoncé normatif n'a pas à être falsifiable pour
+être légitime — il a à être ASSUMÉ comme normatif.** **Le corpus perd le droit de
+présenter la non-substituabilité comme un fait établi ; il ne perd pas le droit
+de la poser comme une règle qu'il défend.** **C'est la même issue que F13 laisse
+ouverte pour la pondération du barème, et c'est la TROISIÈME fois qu'elle se
+présente par un chemin différent. Elle n'est toujours pas prise par l'auteur.**
+
+**RÉSERVE QUI BORNE CETTE ISSUE, ET ELLE COÛTE.** L'auteur écrit que les preuves
+censées montrer qu'une minorité substantielle d'individus a des préférences quasi
+lexicographiques envers le capital naturel sont *« rather shaky »*, **et que la
+majorité des individus semble avoir des préférences compatibles avec l'hypothèse
+de substitution.** **Le corpus ne peut donc pas invoquer les préférences
+observées à l'appui de sa position** : il doit assumer de poser une règle contre
+une majorité de préférences, ce qui est une position tenable mais qu'il faut
+énoncer.
+
+**CE QUE LE MÊME CHAPITRE DONNE AU CORPUS, ET C'EST À PORTER AU CRÉDIT.**
+L'objection de croissance verte est écartée par ce même examinateur : *«
+environmental improvements are driven first and foremost by policy choices. They
+are not the inevitable side or collateral benefit of economic growth. »* **Un
+dispositif qui agit par une règle, et non en espérant un effet de revenu, est du
+côté que cette conclusion soutient.**
