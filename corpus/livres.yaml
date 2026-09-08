@@ -1296,7 +1296,7 @@ livres:
       - "discipline — monnaies souveraines, crédit bancaire, monnaies-marchandises, monnaies locales et libres, cryptoactifs, stablecoins, MNBC, unités de compensation, projets supranationaux"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 3
+    chapitres_acquis: 4
 
     note: >
       OUVERT LE 2026-09-08. L16.C01 remplace l'amorce et ouvre LE TEXTE DONT LE
@@ -1478,6 +1478,71 @@ livres:
       partisan qui publie un manuel pour propager l'instrument ; et L'ECHELLE
       INTERDIT TOUTE EXTRAPOLATION -- 4 300 habitants, environ 4 500 dollars dont
       un tiers en circulation, quelques mois.
+      L16.C04 PAIE UNE DETTE QUE LE CORPUS AVAIT DECLAREE SANS LA PAYER : le
+      debat sur la monnaie numerique de banque centrale de detail, dont L21.C03
+      avait etabli que le dispositif l'herite tout entier. Source ouverte : BCE,
+      Report on a digital euro, octobre 2020, regime citation_seule -- l'editeur
+      autorise la reproduction educative et NON COMMERCIALE, ce qui est
+      incompatible avec la licence du corpus.
+      LA FONTE EST ECRITE COMME UNE SPECIFICATION DE CONCEPTION. Exigence 8 :
+      l'instrument "should be an attractive means of payment, but SHOULD BE
+      DESIGNED SO AS TO AVOID ITS USE AS A FORM OF INVESTMENT and the associated
+      risk of LARGE SHIFTS FROM PRIVATE MONEY (for example bank deposits) TO
+      DIGITAL EURO". Deux moyens envisages : "REMUNERATING DIGITAL EURO HOLDINGS
+      AT A VARIABLE RATE OVER TIME, possibly using A TIERED REMUNERATION SYSTEM,
+      or by LIMITING THE QUANTITY". UNE REMUNERATION VARIABLE QUI DECOURAGE LA
+      DETENTION EST UNE FONTE, QUEL QUE SOIT LE NOM QU'ON LUI DONNE -- et le
+      corpus la tient ici pour la deuxieme zone monetaire du monde.
+      TROISIEME MOTIF EN QUATRE CHAPITRES POUR LE MEME MECANISME : justice dans
+      l'echange chez le concepteur, emploi local dans l'application, PROTECTION DU
+      SECTEUR BANCAIRE ici, regeneration sous le dispositif. L'INSTRUMENT EST
+      INDIFFERENT A LA FIN QU'ON LUI DONNE -- bonne nouvelle pour son transport,
+      RAISON DE PLUS DE NE PAS HERITER DES PROPRIETES QU'ON LUI PRETE AILLEURS. Et
+      une difference de degre : ici l'objectif n'est pas de faire circuler mais
+      D'EMPECHER QUE L'INSTRUMENT ATTIRE TROP -- LE DISPOSITIF N'A JAMAIS ENVISAGE
+      QUE SON UNITE SOIT TROP ATTRACTIVE.
+      LA CONTREPARTIE A L'ACTIF EST EXIGEE PAR L'EMETTEUR LUI-MEME : "to the
+      extent that it increases the size of the balance sheet, THE EUROSYSTEM WOULD
+      NEED TO ACQUIRE ASSETS (loans or securities) TO BE HELD AGAINST DIGITAL
+      EURO". C'EST LE RESULTAT DU LIVRE 19, ECRIT PAR UNE BANQUE CENTRALE A PROPOS
+      DE SON PROPRE INSTRUMENT FUTUR -- deux autorites independantes sur le meme
+      point. Et le rappel sur le seigneuriage est utile : le revenu d'emission
+      nait de l'ECART entre remuneration des actifs et des passifs, "the rate is
+      zero for banknotes" -- UNE UNITE QUI FOND PORTE UN TAUX DE PASSIF NEGATIF,
+      DONC ELARGIT CET ECART, ce qui est la proposition de L19.C03 en termes de
+      banque centrale.
+      LE PERIMETRE RECOIT UNE REPONSE DE CONCEPTION. Exigence 13 : conditions
+      specifiques d'acces pour les non-residents, sous forme de "LIMITS ON OR
+      ADEQUATE REMUNERATION POLICIES". La ou l'application de 1932 avait SUBI le
+      refus de la poste et du chemin de fer, le projet de 2020 REGLE le probleme.
+      Et la condition qui le rend possible est nommee : "anonymity may have to be
+      RULED OUT [...] in order to limit the scope of users". IDENTIFIER LE
+      DETENTEUR EST LA CONDITION DE PLAFONNER SA DETENTION -- meme exigence que
+      L19.C05 avait tiree de la definition de l'unite institutionnelle, PAR DEUX
+      CHEMINS ENTIEREMENT DIFFERENTS. LE PRIX EST LA VIE PRIVEE, il est explicite,
+      ET LE DISPOSITIF NE L'A JAMAIS CHIFFRE.
+      LA GRILLE COMMENCE A MONTRER QUELQUE CHOSE. Quatre architectures ouvertes,
+      six colonnes : LE TAUX (5,2 % par conception, 12 % en application, variable
+      et a paliers en projet, NON FIXE sous le dispositif) ; LA REGLE D'EMISSION
+      (indice de prix, depense publique locale, politique monetaire, qualification
+      regenerative) ; LA CONTREPARTIE A L'ACTIF (non traitee, fonds de garantie,
+      ACQUISITION EXIGEE, AUCUNE) ; LA SORTIE (supprimee par la reforme fonciere,
+      tarifee a 2 %, plafonnee et modulee, NON TRAITEE) ; LE PERIMETRE (mondial
+      par principe, subi, regle par residence, coalition) ; ET LE MOTIF (justice
+      dans l'echange, emploi local, protection bancaire, regeneration). LE
+      DISPOSITIF EST LA SEULE DES QUATRE DONT TROIS COLONNES SUR SIX SONT VIDES --
+      ce n'est pas un jugement, c'est l'etat d'une conception inachevee, ET LA
+      GRILLE DIT EXACTEMENT OU.
+      RESERVES : le corpus tient un rapport de 2020 ET RIEN DE CE QUI A SUIVI --
+      phase d'investigation, phase de preparation, proposition legislative ; les
+      parametres envisages ont pu etre abandonnes ou modifies, ACQUISITION DE RANG
+      1 ET ELLE EST PUBLIQUE. Le chapitre NE COMPARE PAS DEUX INSTRUMENTS DE MEME
+      NATURE et le declare : ce qui se transporte est LE MECANISME, PAS LE REGIME.
+      Aucune critique du projet n'est ouverte alors que le debat sur la
+      desintermediation, la vie privee et la programmabilite est nourri --
+      LE CORPUS TIENT LE DOCUMENT D'UN EMETTEUR SUR SON PROPRE PROJET. Et la
+      grille est ESQUISSEE ET NON CONSTRUITE : le registre demande neuf familles,
+      CINQ MANQUENT.
   - livre: 17
     titre: "Après la croissance : décroissance, post-croissance et prospérité sans croissance"
     collection: cahier-comparatif

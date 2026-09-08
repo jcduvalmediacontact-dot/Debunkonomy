@@ -80,9 +80,21 @@ verifications_en_attente:
      NÉGATIFS DU SYMPOSIUM VERS LA BANQUE CENTRALE NATIONALE** — c'est-à-dire vers
      le bilan le plus difficile à modifier des trois, dans chaque pays
      participant."
+  - "**LA DETTE DÉCLARÉE AU § 3 EST PAYÉE LE 2026-09-08 PAR L16.C04.** Ce chapitre
+     établit que si le prestataire détient un compte à la banque centrale, **le
+     dispositif hérite de tout le débat sur la monnaie numérique de détail** et qu'il
+     ne l'a pas ouvert. **L16.C04 a ouvert le rapport d'une banque centrale majeure sur
+     son propre projet.** **TROIS RÉSULTATS.** L'exigence 8 pose comme SPÉCIFICATION
+     que l'instrument « **should be designed so as to AVOID ITS USE AS A FORM OF
+     INVESTMENT** », par rémunération à paliers ou plafond de détention. **L'émetteur
+     écrit qu'il devra « ACQUIRE ASSETS (loans or securities) TO BE HELD AGAINST
+     DIGITAL EURO ».** **Et le périmètre est traité par conditions d'accès et
+     rémunération différenciée pour les non-résidents, au prix explicite de
+     l'anonymat.** **Le débat hérité n'est donc pas seulement un risque : il est un
+     CAHIER DES CHARGES, et le dispositif n'en remplit aucune ligne.**"
 resume: "Ce chapitre solde la réserve que les deux premiers chapitres du livre déclaraient et que la revue contradictoire avait formulée : il écrit les écritures d'une opération complète, entité par entité, et instruit quatre principes de plus, portant le total à dix-huit sur vingt-quatre. L'écriture fait apparaître une entité que le corpus n'avait jamais placée dans le circuit. Le seul exposé complet du bouclage fait sortir la monnaie nationale au passif de la banque centrale au bénéfice du prestataire, or une banque centrale n'ouvre pas de compte à une entreprise ordinaire, de sorte que le dépôt du prestataire est nécessairement le passif d'une banque commerciale et que le circuit compte quatre bilans et non trois. Le chapitre en tire par la seule partie double que cette banque voit son bilan croître des deux côtés à fonds propres inchangés, et il pose, sans l'établir, l'hypothèse qu'une exigence de levier mordrait à proportion. Il établit ensuite que le caractère définitif est acquis sur la jambe qui paie le prestataire et n'existe pas sur la jambe qui lie l'institution émettrice à la banque centrale, faute de date de valeur, ce qui donne son nom normatif à la créance perpétuelle déjà relevée. Il montre que les procédures de défaillance sont inapplicables au cas où le prestataire est payé sans rendre le service, parce que tous les outils du standard supposent une position à déboucler et qu'un service rendu au monde n'en est pas une, et il en tire que la question revient à la qualification de l'ensemble plutôt qu'à un défaut de conception. Il relève un point favorable sur les normes de communication, qui existent et qu'il suffit d'accommoder, avec la conséquence que la qualification voyagerait hors du message de paiement. Il termine par le plan de liquidation ordonnée que le standard exige et que le corpus n'avait pas écrit, et il constate que le dispositif en possède un par construction, la fonte, au prix d'un renoncement à la discrétion sur son barème."
 concepts: [contrepartie_comptable, creation_monetaire, reflux_collectif, demurrage, monnaie_comme_registre, hierarchie_monetaire]
-renvois: [L1.C07, L1.C29, L10.C06, L10.C07, L11.C01, L11.C02, L11.C11, L11.C13, L11.C23, L21.C01, L21.C02, L19.C04]
+renvois: [L1.C07, L1.C29, L10.C06, L10.C07, L11.C01, L11.C02, L11.C11, L11.C13, L11.C23, L21.C01, L21.C02, L19.C04, L16.C04]
 ---
 
 # Une opération de bout en bout, bilan par bilan
