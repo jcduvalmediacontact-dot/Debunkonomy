@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -88,9 +88,20 @@ verifications_en_attente:
   # — Renvois —
   - "Renvoi à ajouter vers L1.C09 (« L'architecture invisible ») quand il existera"
   - "Renvoi à ajouter vers le chapitre consacré à la première malédiction monétaire (L1.C11 prévu) quand il existera"
+  - "**S11 EST OUVERT LE 2026-09-08 PAR L16.C01, ET L'OUVERTURE COÛTE UNE INCOMPATIBILITÉ.**
+     La vérification en attente de ce chapitre portait « S11 (Gesell 1916) : ouvrages
+     non ouverts ». **Le texte est lu.** **LE TAUX EXISTE ET IL EST MOTIVÉ** : « Free-Money
+     loses ONE-THOUSANDTH of its face value WEEKLY, or about 5 % annually », le taux
+     étant **imprimé sur le billet en 52 cases datées**. **MAIS LA RÈGLE D'ÉMISSION EST
+     UNE RÈGLE DE PRIX** — le bureau émetteur « will ISSUE MORE MONEY WHEN THE PRICES
+     OF GOODS TEND TO FALL, and WITHDRAW MONEY WHEN PRICES TEND TO RISE ». **Elle est
+     INCOMPATIBLE avec une émission commandée par la qualification régénérative** :
+     si les prix baissent et qu'aucune activité n'est qualifiée, l'une commande
+     d'émettre et l'autre l'interdit. **Le corpus hérite le ressort de reflux SANS
+     HÉRITER LA RÈGLE D'ÉMISSION, alors que l'auteur les tenait ensemble.**"
 resume: "Dans un régime où la monnaie naît d'un crédit bancaire et disparaît à son remboursement, une économie stationnaire endettée est théoriquement possible si l'encours de dette est stable et si les revenus d'intérêts sont intégralement redépensés. La contrainte de croissance apparaît dès que ces deux conditions cèdent : lorsque l'encours croît, parce que le crédit n'est accordé que contre des revenus futurs, et lorsque les créanciers accumulent plutôt qu'ils ne dépensent. Ce chapitre pose cette contrainte avec ses conditions, en suit la traduction physique — sous réserve des canaux de l'inflation et de la croissance immatérielle — et montre pourquoi le désendettement massif, le financement d'une transformation sans croissance et la sortie de la course à la productivité sont structurellement difficiles sans modification du régime d'émission. Il distingue enfin la monnaie endogène, créée par le crédit, d'une monnaie émise sans dette par une autorité publique, dont l'histoire fournit des cas."
 concepts: [creation_monetaire, monnaie_endogene, monnaie_fondante, reflux_monetaire, solvabilite_anticipee, systeme_monetaire_et_financier, decouplage]
-renvois: [L1.C01, L1.C03, L1.C05, L1.C07]
+renvois: [L1.C01, L1.C03, L1.C05, L1.C07, L16.C01]
 ---
 
 # Pourquoi la dette change tout

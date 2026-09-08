@@ -1294,10 +1294,73 @@ livres:
       situer NEMO IMS parmi les solutions existantes ou proposées
     motifs:
       - "discipline — monnaies souveraines, crédit bancaire, monnaies-marchandises, monnaies locales et libres, cryptoactifs, stablecoins, MNBC, unités de compensation, projets supranationaux"
-    statut: candidat
+    statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 0
+    chapitres_acquis: 1
 
+    note: >
+      OUVERT LE 2026-09-08. L16.C01 remplace l'amorce et ouvre LE TEXTE DONT LE
+      DISPOSITIF TIRE SON SECOND RESSORT DE REFLUX -- S. Gesell, The Natural
+      Economic Order, traduction Philip Pye, original allemand de 1916, regime
+      a_verifier. LE CORPUS LE CITAIT DEPUIS L1.C08 EN AYANT ECRIT DANS LE MEME
+      CHAPITRE QU'IL NE L'AVAIT PAS OUVERT.
+      LE TAUX EXISTE ET IL EST MOTIVE : "Free-Money loses ONE-THOUSANDTH of its
+      face value WEEKLY, or about 5 % annually" -- 5,2 % en version dollar, 5,4 %
+      en version britannique -- ET LE TAUX EST IMPRIME SUR LE BILLET, en 52 cases
+      datees ou le detenteur colle un timbre hebdomadaire. LA CONCEPTION
+      D'ORIGINE SATISFAIT DONC PAR CONSTRUCTION LA CONDITION QUE L19.C03 A
+      ETABLIE LA VEILLE : on ne peut pas decider apres coup le taux d'un billet
+      dont les cases sont deja imprimees. LE CORPUS N'A JAMAIS FIXE DE TAUX ; SON
+      ANCETRE EN AVAIT UN, CHIFFRE, MOTIVE ET GRAVE DANS L'OBJET.
+      LE MOTIF N'EST PAS ECOLOGIQUE : "the purpose of Free-Money is to BREAK THE
+      UNFAIR PRIVILEGE ENJOYED BY MONEY [...] namely THAT IT IS INDESTRUCTIBLE".
+      C'est un argument de JUSTICE DANS L'ECHANGE et non de preservation de la
+      nature. LE DISPOSITIF EMPLOIE L'INSTRUMENT POUR UNE FIN AUTRE QUE CELLE QUI
+      L'A FAIT CONCEVOIR -- ce n'est pas une objection, mais le corpus ne peut
+      plus se reclamer de cette filiation sans preciser qu'il en retient LE
+      MECANISME ET NON LA RAISON.
+      ET LE RESULTAT DU CHAPITRE : LA REGLE D'EMISSION EST INCOMPATIBLE. Le
+      bureau emetteur est "bound to adapt the issue of money [...] in such a
+      manner that THE GENERAL LEVEL OF PRICES REMAINS STABLE" ; il "will ISSUE
+      MORE MONEY WHEN THE PRICES OF GOODS TEND TO FALL, and WITHDRAW MONEY WHEN
+      PRICES TEND TO RISE". LA QUANTITE EMISE EST COMMANDEE PAR UN INDICE DE PRIX
+      ET PAR RIEN D'AUTRE. Sous le dispositif elle est commandee par LA
+      QUALIFICATION REGENERATIVE. LES DEUX REGLES NE PEUVENT PAS GOUVERNER LE MEME
+      EMETTEUR : si les prix baissent et qu'aucune activite regenerative n'est
+      qualifiee, l'une commande d'emettre et l'autre l'interdit. LE CORPUS HERITE
+      LE RESSORT DE REFLUX SANS HERITER LA REGLE D'EMISSION, ALORS QUE L'AUTEUR
+      LES TENAIT ENSEMBLE -- chez lui la fonte accelere la circulation, la regle
+      de prix regle la quantite, ET LES DEUX VISENT LA STABILITE. QUESTION
+      OUVERTE ET NON TRANCHEE : la fonte a-t-elle les effets qu'on lui prete
+      lorsqu'elle est associee a une regle d'emission qui n'est pas celle pour
+      laquelle elle a ete concue ? AUCUN CHAPITRE NE L'A DEMANDE.
+      TROIS PRECISIONS QUI COMPOSENT AVEC LE LIVRE 19. Le retrait est AUTOMATIQUE
+      et non un reflux -- "all that the Currency Office has to do [...] is TO DO
+      NOTHING. Any surplus CONSUMES ITSELF AUTOMATICALLY". L'unite N'EST JAMAIS
+      REMBOURSEE -- "Free-Money is NOT REDEEMED by the Currency Office", de sorte
+      que la question du passif se pose a cette conception aussi et que son auteur
+      ne la traite pas. ET UNE CONVERGENCE A CENT DIX ANS D'ECART : "with public
+      treasuries the loss is only nominal, since THE STATE PROFITS BY THE
+      DEPRECIATION OF THE TOTAL CIRCULATION" -- L19.C03 a tranche la veille, par
+      la norme statistique, la bifurcation que L11.C01 avait laissee ouverte ;
+      L'AUTEUR LA TRANCHAIT DEJA EN 1916, EN UNE PHRASE, DANS LE MEME SENS.
+      GRILLE FIXEE A CINQ QUESTIONS, dont la premiere est celle que ce chapitre
+      ouvre et que personne n'avait posee.
+      RESERVES : LA REPONSE A L'OBJECTION DE FUITE N'EST PAS OUVERTE ALORS QUE LE
+      CORPUS SAIT QU'ELLE EXISTE -- L1.C10 ecrit que l'auteur "y repondait par la
+      reforme fonciere (Freiland)", et le chapitre n'a ouvert que la partie sur la
+      MONNAIE et non celle sur la TERRE, qui est dans le meme volume ;
+      ACQUISITION DE RANG 1 DU LIVRE. Le statut de la TRADUCTION n'est pas etabli
+      -- l'original est dans le domaine public, le document ne porte aucune
+      mention de licence, et les formulations citees sont celles du traducteur.
+      AUCUNE ARCHITECTURE COMPAREE N'EST INSTRUITE alors que c'est la fonction du
+      livre : monnaies souveraines, credit bancaire, monnaies-marchandises,
+      monnaies locales, cryptoactifs, stablecoins, MNBC, unites de compensation,
+      projets supranationaux -- LE CHAPITRE EN OUVRE UNE, ET C'EST L'ANCETRE
+      DIRECT DU DISPOSITIF. Et AUCUNE EVALUATION EMPIRIQUE N'EST OUVERTE : Worgl
+      est employe comme precedent depuis L1.C08 sans qu'aucun travail sur cette
+      experience soit lu -- LE CORPUS TIENT UNE CONCEPTION ET AUCUN RESULTAT, CE
+      QUI EST EXACTEMENT CE QU'IL REPROCHE AILLEURS.
   - livre: 17
     titre: "Après la croissance : décroissance, post-croissance et prospérité sans croissance"
     collection: cahier-comparatif

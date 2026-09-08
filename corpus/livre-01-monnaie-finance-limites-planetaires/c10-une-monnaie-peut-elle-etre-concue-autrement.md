@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -153,9 +153,21 @@ verifications_en_attente:
   - "Renvoi à ajouter vers L1.C11, L1.C12, L1.C13 (malédictions monétaires) quand ils existeront"
   - "Renvoi à ajouter vers L1.C20 (MMT, « De l'argent sans dette ») et L1.C25 (système monétaire international, bancor) quand ils existeront"
   - "Renvoi à ajouter vers L1.C17 (« Et si la planète avait sa propre banque ? ») quand il existera"
+  - "**LA SOURCE EST OUVERTE LE 2026-09-08 PAR L16.C01 ; LA RÉPONSE À L'OBJECTION DE
+     FUITE NE L'EST TOUJOURS PAS.** Ce chapitre notait que « Gesell y répondait par la
+     réforme foncière (Freiland), non traitée ici ». **L16.C01 a ouvert la partie sur
+     LA MONNAIE et non celle sur LA TERRE**, qui se trouve dans le même volume.
+     **L'acquisition est donc à portée immédiate et elle porte sur l'objection la plus
+     souvent opposée à l'instrument que le dispositif emploie** — acquisition de
+     rang 1 du Livre 16. **Ce qui est acquis en revanche** : le motif de l'instrument
+     **n'est pas écologique mais de justice dans l'échange** — « to BREAK THE UNFAIR
+     PRIVILEGE ENJOYED BY MONEY [...] namely THAT IT IS INDESTRUCTIBLE ». **Le
+     dispositif emploie l'instrument pour une fin autre que celle qui l'a fait
+     concevoir, et il ne peut plus se réclamer de cette filiation sans le
+     préciser.**"
 resume: "D'autres conventions monétaires ont été tentées, et certaines fonctionnent encore. Ce chapitre en fait l'inventaire en trois catégories : des expériences — les certificats fondants de Wörgl en 1932-1933, interdits par la Haute Cour administrative d'Autriche au nom du monopole d'émission ; le Wirtschaftsring suisse, actif depuis 1934 sous statut bancaire ; les monnaies locales complémentaires — ; des théories qui proposent de refondre le régime d'émission — Gesell, Soddy, l'économie écologique, le bancor de Keynes, la théorie monétaire moderne — ; et des expérimentations venues des banques centrales — assouplissement quantitatif, monnaies numériques de banque centrale, propositions de création monétaire écologique. Chaque cas est présenté avec ses limites connues : effet de taxe sur l'encaisse et fuite vers d'autres réserves de valeur pour la monnaie fondante, ancre fiscale pour les monnaies locales, risque inflationniste pour la création sans contrepartie. Rapportées aux quatre règles de l'architecture invisible, ces alternatives n'en touchent chacune qu'une. Le chapitre en conclut qu'une autre monnaie est techniquement possible, et pose le cahier des charges d'une refonte portant sur les quatre règles à la fois, acceptation fiscale comprise."
 concepts: [creation_monetaire, monnaie_endogene, monnaie_fondante, solvabilite_anticipee, architecture_invisible, monnaie_comme_registre]
-renvois: [L1.C05, L1.C08, L1.C09]
+renvois: [L1.C05, L1.C08, L1.C09, L16.C01]
 ---
 
 # Une monnaie peut-elle être conçue autrement ?

@@ -96,9 +96,20 @@ verifications_en_attente:
      monnaie sans dette au sens fort ».** **LA CONDITION EST A37** : ce résultat
      suppose que l'unité soit le passif de l'émetteur, ce qui n'est pas
      arbitré."
+  - "**CHEZ L'AUTEUR DE L'INSTRUMENT, LA FONTE EST UN RETRAIT AUTOMATIQUE ET NON UN
+     REFLUX.** Versé le 2026-09-08 par L16.C01 : « **since the amount of Free-Money in
+     circulation decreases 5 % annually through depreciation, all that the Currency
+     Office has to do, to decrease the volume of money, is — TO DO NOTHING. Any
+     surplus CONSUMES ITSELF AUTOMATICALLY** ». **Ce ne sont pas les mêmes
+     opérations** : ici la fonte RETIRE, sous le dispositif elle REFLUE vers
+     l'émetteur. **ET POURTANT LE MÊME TEXTE TIENT DÉJÀ LA LECTURE « RESSOURCE »** —
+     « with public treasuries the loss is only nominal, since **THE STATE PROFITS BY
+     THE DEPRECIATION OF THE TOTAL CIRCULATION** ». **La bifurcation que ce chapitre a
+     laissée ouverte était tranchée en 1916, en une phrase, dans le sens que
+     L19.C03 a retrouvé par la norme statistique.**"
 resume: "Ce chapitre instruit la bifurcation dont dépend tout le Livre 11, sans la trancher. L'auteur a précisé que les dispositifs de reflux transactionnels ne sont pas des destructions monétaires au sens propre mais des mécanismes de reflux comptables vers les institutions émettrices, banques centrales nationales puis GAÏA Economic Symposium. Cet énoncé admet deux lectures qui ne donnent pas le même dispositif. Sous la première, le reflux s'annule à l'arrivée : la monnaie revient au bilan de l'émetteur et s'éteint contre la contrepartie correspondante, exactement comme un crédit remboursé — c'est une destruction, décrite plus justement, et c'est la lecture du Cahier Technique. Sous la seconde, le reflux arrive et demeure : le Symposium détient alors une ressource, et le reflux transactionnel cesse d'être une destruction pour devenir un prélèvement qui finance l'émission. Le chapitre restitue d'abord le bilan à trois étages sur lequel les deux lectures s'accordent, puis les sépare écriture par écriture. Il établit que la seconde lecture est plus orthodoxe et plus défendable qu'il n'y paraît — elle dissout le problème de la contrepartie comptable et transforme le calibrage en équilibre budgétaire — au prix de l'abandon de la monnaie sans dette au sens fort et d'une aggravation du problème d'érosion de l'assiette, qui passe du registre comptable au registre de la trésorerie. Il propose enfin trois tests qui départagent : le Symposium détient-il des comptes, les dispositifs de reflux transactionnels peuvent-elles excéder l'émission, et où va le produit du reflux transactionnel prélevé sur de la monnaie que le Symposium n'a jamais émise. Le deuxième et le troisième penchent du même côté, et le deuxième découle des objectifs que l'auteur a lui-même assignés à l'instrument."
 concepts: [contrepartie_comptable, reflux_monetaire, creation_monetaire, reflux_transactionnel, monnaie_comme_registre]
-renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29, L19.C03]
+renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29, L19.C03, L16.C01]
 ---
 
 # Reflux ou destruction — la bifurcation
