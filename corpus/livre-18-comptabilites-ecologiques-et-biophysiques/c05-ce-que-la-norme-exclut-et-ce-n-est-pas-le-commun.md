@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -38,9 +38,21 @@ verifications_en_attente:
   - "AUCUNE SOURCE NE RATTACHE UN DROIT RÉEL INHÉRENT À UNE ENTITÉ ÉMETTRICE
      TIERCE. C'est la sortie nommée en L18.C01 et reprise ici : elle reste une
      construction du corpus, non un montage attesté."
+  - "**LE CONCEPT D'`essentiel_insolvable` RENCONTRE SA FORMULATION ADVERSE LE
+     2026-09-08 PAR L18.C14, ET C'EST UN ACCORD SUR LE FAIT AVEC DÉSACCORD SUR LA
+     CONCLUSION.** La Banque mondiale écarte le prix de marché de l'eau **parce
+     que l'eau est essentielle** : « **water is an ESSENTIAL GOOD**, so while water
+     is transacted in markets, the price [...] is **almost always SUBSIDIZED** »,
+     et les fournisseurs « **do not seek to maximize profit but to provide an
+     ESSENTIAL SERVICE** ». **Elle reconnaît en outre que ces actifs ont une
+     « INTRINSIC VALUE BEYOND MONETARY CONSIDERATIONS ».** **LE CORPUS EN TIRE QUE
+     LE MARCHÉ NE SAIT PAS DIRE LA VALEUR DE L'ESSENTIEL ; L'ADVERSAIRE EN TIRE
+     QU'IL FAUT UN AUTRE ESTIMATEUR.** **Le désaccord porte sur ce qu'il convient
+     de faire, non sur ce qui est observé — et ce chapitre doit cesser de
+     présenter le fait comme une découverte faite CONTRE l'adversaire.**"
 resume: "Ce chapitre instruit la dernière source du lot comptable, la norme sur les produits, et il porte deux corrections de fond apportées le jour même par une revue contradictoire. La norme énonce que la capacité d'exclure ou de réguler l'accès d'autrui aux avantages d'un bien est un élément essentiel du contrôle, et que c'est lui qui distingue les actifs d'une entité des biens publics auxquels toutes les entités ont accès. Le chapitre en avait conclu que ce qui fait qu'une chose est un commun l'empêche d'être l'actif de quiconque, et cette généralisation est retirée, car la disposition vise les biens publics en accès universel et non les communs. Cinq objets étaient confondus sous un seul mot, et ils se distinguent par le régime d'accès, une ressource commune au sens d'Ostrom étant précisément délimitée et exclusive envers les non-membres, donc pourvue de la capacité que la norme exige. Ce n'est pas le fait d'être un commun qui exclut de l'actif, c'est le fait d'être en accès ouvert. L'objection subsiste néanmoins pour les objets en accès ouvert, qui sont ceux que le dispositif vise en premier, et pour les communs délimités elle redevient la question du titre, puisque la capacité de restreindre appartient à la communauté des ayants droit et non à une institution émettrice tierce. La même norme ajoute qu'un rôle régulateur n'emporte pas que l'objet régulé devienne un actif du régulateur, ce qui atteint l'idée qu'un barème puisse valoir contrôle. Le chapitre établit enfin que la charge chez l'émetteur et le produit chez le bénéficiaire se déclenchent au même fait, en bornant cette fois la portée de l'observation, la partie double imposant l'égalité des écritures dans les livres d'une entité et non une conservation mondiale de la valeur."
 concepts: [communs, contrepartie_comptable, valorisation_des_communs, architecture_invisible, monnaie_comme_registre, creation_monetaire]
-renvois: [L1.C09, L1.C20, L1.C29, L6.C06, L6.C08, L11.C13, L11.C16, L18.C01, L18.C02, L18.C03, L20.C02]
+renvois: [L1.C09, L1.C20, L1.C29, L6.C06, L6.C08, L11.C13, L11.C16, L18.C01, L18.C02, L18.C03, L20.C02, L18.C14]
 ---
 
 # Le commun est ce que la norme exclut, et la symétrie de l'écriture

@@ -2974,6 +2974,48 @@ reproche aux adversaires du corpus de la faire entrer par leur doctrine. **Le
 corpus ne tranche pas cette objection ; il enregistre qu'elle est posée, qu'elle
 vient de son propre camp, et qu'aucun chapitre n'y répond.**
 
+### F13 — ÉTAT DU CORPUS ADVERSE AU SOIR DU 2026-09-08 : DEUX PIÈCES DE PRATIQUE, AUCUNE DE THÉORIE
+
+**L'AUTEUR A NOMMÉ LE CORPUS ADVERSE À CONSTITUER :** Solow, Hartwick, Pearce et
+Atkinson, Neumayer, **« ainsi que les travaux de comptabilité de la richesse de la
+Banque mondiale ».** **Voici où il en est, et le bilan est déséquilibré.**
+
+**CE QUI EST TENU — LA PRATIQUE, DEUX PIÈCES.**
+- **L18.C11** : *The Changing Wealth of Nations* 2011, où la Banque mondiale
+  **déclare elle-même** l'hypothèse de substituabilité que F13 lui reproche de
+  cacher.
+- **L18.C14** : le rapport technique 2024 sur l'ajout de l'eau, où la même
+  institution énonce **la thèse adverse sans détour** — la richesse globale
+  « **as a measure of sustainability** » — **et déclare simultanément que sa
+  seule méthode réalisable produira « probably LOW-QUALITY ESTIMATES »**, que le
+  coût de la dépletion de l'eau n'est reconnu « **in any country** », et que ses
+  comptes ne donnent pas « **a full picture** » de la dépletion.
+
+**CE QUI N'EST PAS TENU — LA THÉORIE, AUCUNE PIÈCE.**
+- **Solow** et **Hartwick** : derrière un « Client Challenge » sur l'archivage
+  académique — **mur déclaré et non franchi**, et les deux textes sont sous
+  abonnement.
+- **Pearce et Atkinson 1993** : **déclaré FERMÉ** par les registres d'accès libre
+  consultés le 2026-09-08 — aucun exemplaire ouvert n'existe.
+- **Neumayer** : ouvrage, non recherché à ce jour.
+- **Dietz et Neumayer sur la comptabilité écosystémique** : **mur Cloudflare sur
+  le dépôt institutionnel, déclaré et non franchi le 2026-09-08**, après deux
+  tentatives à des dates différentes. **C'était la pièce qui servait F13 ET le
+  Livre 18 à la fois.**
+
+**CONSÉQUENCE POUR L'ARBITRAGE, ET ELLE EST NETTE : F13 NE PEUT PAS ÊTRE
+TRANCHÉ.** **Une pratique qui déclare ses limites n'est pas une théorie qui les
+défend.** **Le corpus sait comment le camp adverse OPÈRE et ignore comment il se
+JUSTIFIE** — or F13 porte sur une **thèse**, non sur une pratique. **Trancher
+maintenant reviendrait à juger une doctrine sur ses annexes méthodologiques.**
+
+**ET UN AVERTISSEMENT DE MÉTHODE, INSCRIT PAR L18.C14.** Les deux pièces tenues
+sont des **documents TECHNIQUES**, où les réserves sont écrites. **Le corpus n'a
+pas vérifié si elles survivent dans les communiqués et résumés aux décideurs de
+la même institution — or c'est là que le chiffre agit.** **Tant que cette
+comparaison n'est pas faite, la candeur constatée porte sur UN GENRE DE DOCUMENT,
+non sur une institution.**
+
 ## F14 — L'additivité structurelle
 
 **PROPOSÉ LE 2026-09-08 PAR L26.C05, après ouverture de la publication

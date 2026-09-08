@@ -42,9 +42,22 @@ verifications_en_attente:
      S'ACCORDENT DONC SUR LE FAIT**, et divergent seulement sur ce qu'il faut en
      conclure. **C'est un accord entre adversaires, et il vaut mieux qu'une
      confirmation par un allié.**"
+  - "**SECONDE OCCURRENCE DU MÊME PHÉNOMÈNE, ÉTABLIE LE 2026-09-08 PAR L18.C14, ET
+     ELLE PORTE SUR LA MÉTHODE DU CORPUS AUTANT QUE SUR SON ADVERSAIRE.** Ce
+     chapitre avait trouvé l'hypothèse de substituabilité **déclarée** par
+     l'adversaire au lieu d'être cachée. **Le rapport technique de 2024 sur l'ajout
+     de l'eau déclare de la même manière que sa seule méthode réalisable produira
+     « probably LOW-QUALITY ESTIMATES », que les variations d'un lieu à l'autre y
+     seront « HIDDEN », et que le coût de la dépletion de l'eau n'est reconnu
+     « IN ANY COUNTRY ».** **DEUX FOIS, LE CORPUS A OUVERT UN ADVERSAIRE EN
+     S'ATTENDANT À DÉMASQUER UNE HYPOTHÈSE, ET A TROUVÉ UNE HYPOTHÈSE PUBLIÉE.**
+     **BORNAGE OBLIGATOIRE : deux occurrences ne sont pas une tendance, et LES DEUX
+     DOCUMENTS SONT TECHNIQUES.** **Le corpus n'a pas vérifié si ces réserves
+     survivent dans les communiqués et les résumés aux décideurs — or c'est là que
+     le chiffre agit.**"
 resume: "Ce chapitre ouvre le premier adversaire réel qu'un falsifieur du corpus ait jamais eu, à savoir la comptabilité de la richesse publiée par une institution mondiale, qui agrège le capital naturel aux autres formes de capital et produit un indicateur d'épargne ajustée. Il établit que cette comptabilité ne dissimule pas l'hypothèse que le falsifieur de l'incommensurabilité lui reproche, mais qu'elle la déclare dans une section qui porte ce titre, en écrivant que la combinaison de toutes les formes de richesse en une mesure unique suppose un très haut degré de substituabilité et que cette mesure ne rend compte ni des limites très réelles à la substituabilité, ni des seuils qui menacent le capital naturel, ni des irréversibilités possibles. Il établit ensuite que la même source distingue le capital naturel des autres formes, en relevant que son potentiel de substitution est souvent limité et que ses pertes peuvent être irréversibles, tandis qu'un capital produit détruit peut ordinairement être remplacé. Il relève que les biens publics et la biodiversité y sont mal représentés, que les aires protégées y sont valorisées à une borne inférieure faute de mieux, et que la valeur de la biodiversité y est déclarée inconnue. Il en tire que le désaccord entre les deux camps ne porte pas sur la possibilité d'agréger mais sur ce qu'un agrégat autorise à conclure, ce qui déplace le falsifieur au lieu de le confirmer ou de le réfuter. Il note enfin que la source recommande de tenir cet agrégat comme un indicateur parmi d'autres et non comme le seul, position structurellement identique à la règle de publication simultanée que le corpus a arrêtée la veille par un tout autre chemin."
 concepts: [valorisation_des_communs, indicateur_de_progres, fausse_richesse]
-renvois: [L11.C13, L12.C01, L17.C05, L18.C01, L18.C10, L24.C05, L26.C10, L18.C12]
+renvois: [L11.C13, L12.C01, L17.C05, L18.C01, L18.C10, L24.C05, L26.C10, L18.C12, L18.C14]
 ---
 
 # L'adversaire déclare l'hypothèse qu'on lui reproche
