@@ -1872,3 +1872,29 @@ Le rapport technique de 2024 est acquis et non ouvert ; les éditions
 intermédiaires ne sont pas tenues. **Les énoncés de méthode cités
 par L18.C11 doivent être reverifiés contre l'édition courante avant tout
 usage citable.**
+
+
+## Ouvert le 2026-09-08 (fin) — LA RÉVISION 2025 DE LA NORME COMPTABLE
+
+***System of National Accounts 2025*, version pour endossement** — acquis le
+jour même, **ouvert et lu dans le texte** pour **L19.C08**. **Régime
+`a_verifier`** : le régime de droits n'est pas établi, et **le corpus a lu
+une version POUR ENDOSSEMENT et non l'édition définitive** — numéros de
+paragraphe et libellés à revérifier avant tout usage citable.
+
+**CE QUE L'OUVERTURE A ÉTABLI.** Le résultat central du Livre 19 **tient** :
+l'or en lingots détenu comme actif de réserve reste le seul actif financier
+sans passif correspondant. **Et la révision apporte ce que l'édition 2008
+n'avait pas** : un actif sans passif de contrepartie conçu comme moyen
+d'échange **n'est pas un actif financier**, et payer avec lui **est du troc**.
+
+**CE QUI RESTE DÛ SUR CETTE SOURCE, ET C'EST LOURD.** **Les chapitres C02 à
+C06 du Livre 19 n'ont pas été relus contre la révision.** Toute la tranche
+a été écrite sur l'édition 2008 ; **deux appuis seulement ont été
+vérifiés.** **Le corpus ne peut pas affirmer que la tranche tient : il sait
+que deux de ses appuis tiennent, et ignore combien il en compte.**
+
+**ET LA NORME DÉCLARE SON PROPRE TRAITEMENT PROVISOIRE** : la classification des
+actifs sans passif de contrepartie est **inscrite au programme de recherche**, et
+leur rôle « may change in the future ». **À rouvrir à la prochaine
+édition.**

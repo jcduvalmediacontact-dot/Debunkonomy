@@ -58,9 +58,24 @@ verifications_en_attente:
      « the rate is zero for banknotes » — **une unité qui FOND porte un taux de passif
      NÉGATIF, donc élargit cet écart**, ce qui est la proposition de L19.C03 en termes
      de banque centrale."
+  - "**LE RÉSULTAT DE CE CHAPITRE EST VÉRIFIÉ CONTRE LA RÉVISION 2025 LE
+     2026-09-08 PAR L19.C08, ET IL TIENT.** Ce chapitre établissait, d'après
+     l'édition 2008, que la norme ne connaît **qu'un seul actif financier
+     dépourvu de passif correspondant, et que c'est un métal**. **La révision le
+     maintient** : « **Financial assets consist of all financial claims AND GOLD
+     BULLION held by monetary authorities as a reserve asset.** » **La définition
+     du passif est maintenue** — débiteur et créancier — **et le passif
+     constructif aussi**, qui peut être établi « **not by contract but by long and
+     well-recognized custom** ». **MAIS LA RÉVISION AJOUTE CE QUE L'ÉDITION 2008
+     N'AVAIT PAS** : elle traite le cas d'un actif **sans passif de contrepartie
+     conçu pour servir de moyen d'échange**, et le range parmi les actifs **NON
+     FINANCIERS**, « **mainly because A COUNTERPART LIABILITY CANNOT BE
+     ESTABLISHED** ». **La norme ne dit donc pas qu'un actif sans passif est
+     impossible : elle dit qu'il n'est pas financier** — ce qui est exactement la
+     forme du résultat de ce chapitre, confirmée par une autre voie."
 resume: "Ce chapitre remplace l'amorce du matricule 19 et ouvre le livre que le registre désigne comme portant le troisième des cinq objets à verrouiller, à savoir le passif. Il commence par relever que le corpus a écrit lui-même, dans un chapitre du livre dix, qu'il n'avait jamais dit ce que l'unité est au passif, et que l'arbitrage qui devait le trancher ne l'a pas tranché. Il constate ensuite qu'un chapitre du livre vingt et un a écrit les quatre jeux d'écritures du circuit complet sans jamais nommer l'instrument, c'est-à-dire en disant où l'unité s'inscrit sans dire ce qu'elle est. Il ouvre alors la norme statistique mondiale et en tire quatre énoncés qui commandent la suite. Un passif y suppose un débiteur obligé et un créancier, la créance correspondante étant inconditionnelle. Il n'existe qu'un seul actif financier sans passif en regard, et ce n'est pas une monnaie mais un métal détenu en réserve. La monnaie fiduciaire y est un passif à la valeur faciale, le coût de sa fabrication n'étant pas compensé avec le produit de son émission. Et la norme connaît une catégorie que le corpus n'avait pas vue, celle du passif établi non par contrat mais par une attente légitime de paiement, qu'elle nomme passif constructif. Le chapitre en déduit que la revendication d'une émission sans dette recouvre deux propositions distinctes que le corpus confondait sous un seul mot, l'absence de créancier contractuel et l'absence de passif, et que la seconde est beaucoup plus difficile à soutenir que la première."
 concepts: [contrepartie_comptable, creation_monetaire, monnaie_comme_registre, hierarchie_monetaire, reflux_collectif]
-renvois: [L1.C07, L10.C01, L10.C06, L11.C01, L11.C02, L18.C06, L21.C01, L21.C03, L16.C04]
+renvois: [L1.C07, L10.C01, L10.C06, L11.C01, L11.C02, L18.C06, L21.C01, L21.C03, L16.C04, L19.C08]
 ---
 
 # Ce que ce livre doit établir

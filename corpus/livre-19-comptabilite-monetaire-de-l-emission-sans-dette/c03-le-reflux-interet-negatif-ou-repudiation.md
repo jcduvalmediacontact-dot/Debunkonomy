@@ -47,9 +47,21 @@ verifications_en_attente:
      qui adhère volontairement au régime accepte-t-il par avance ?** **Cette
      question est juridique et le corpus ne l'a pas ouverte**, alors qu'elle
      pourrait rouvrir la branche que ce chapitre ferme."
+  - "**LA COMPÉTENCE FISCALE QUE CE CHAPITRE AVAIT ISOLÉE REVIENT PAR UN AUTRE
+     CHEMIN LE 2026-09-08, PAR L19.C08.** Ce chapitre a établi que **la nature du
+     reflux dépend de l'existence d'une compétence fiscale**. **La révision 2025
+     de la norme place l'acceptation en paiement de l'impôt parmi les QUATRE
+     CONDITIONS sous lesquelles un actif sans passif de contrepartie pourrait
+     devenir de la monnaie** : autorisation par un gouvernement ; acceptation
+     générale comme moyen de paiement, « **including paying taxes with such
+     assets** » ; fonction d'unité de compte ; usage répandu comme moyen
+     d'échange. **LE MÊME FAIT DÉCIDE DONC DEUX FOIS, À DEUX ENDROITS QUE LE
+     CORPUS CROYAIT INDÉPENDANTS** — la nature du reflux et le statut monétaire de
+     l'unité. **Et les quatre conditions sont institutionnelles, aucune n'est
+     comptable.**"
 resume: "Ce chapitre répond à la cinquième question de la grille du livre et tranche par la même occasion une bifurcation que le livre onze avait instruite sans la trancher, celle qui oppose un reflux compris comme destruction monétaire et un reflux compris comme ressource de l'émetteur. Il établit d'abord que la norme statistique mondiale offre trois classements possibles à un prélèvement, le transfert, l'extinction d'une créance et la disparition économique, et que les trois n'ont ni les mêmes conditions ni les mêmes conséquences. Il montre ensuite que ce qui décide entre eux n'est pas le mécanisme mais le moment où celui-ci est écrit. Une variation de principal inscrite dans les termes de l'instrument est enregistrée comme un intérêt, c'est-à-dire comme un revenu de la propriété, tandis qu'une réduction décidée après coup par le débiteur est une répudiation unilatérale que la norme refuse de reconnaître comme une transaction et qui n'apparaît ni au compte de capital ni au compte financier. Le corpus en tire trois résultats. Le premier est que la préférence pour la règle contre la discrétion, qui était jusqu'ici une question de crédibilité, devient une question de classement, un prélèvement discrétionnaire n'étant pas enregistrable. Le deuxième est qu'une décote inscrite dans les termes est un intérêt de signe négatif, de sorte que l'expression sans intérêt tombe comme l'expression sans dette était tombée au premier chapitre du livre. Le troisième est une alternative dont les deux branches se paient, puisque si l'unité est le passif de l'émetteur celui-ci a des fonds propres négatifs mais peut prélever sur sa propre dette sans aucune compétence fiscale, et que si elle ne l'est pas il n'a pas de fonds propres négatifs mais ne peut plus prélever sans une compétence fiscale qu'il n'a pas."
 concepts: [monnaie_fondante, demurrage, reflux_monetaire, reflux_transactionnel, regle_contre_discretion, contrepartie_comptable]
-renvois: [L10.C06, L11.C01, L11.C02, L11.C05, L11.C07, L11.C27, L19.C01, L19.C02, L21.C01]
+renvois: [L10.C06, L11.C01, L11.C02, L11.C05, L11.C07, L11.C27, L19.C01, L19.C02, L21.C01, L19.C08]
 ---
 
 # Le reflux est un intérêt négatif, ou une répudiation — et c'est le moment qui décide

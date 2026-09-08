@@ -44,9 +44,19 @@ verifications_en_attente:
      irréversibilités. **Le corpus tient donc désormais LES DEUX TRAITEMENTS
      POSSIBLES DU CAPITAL NATUREL DANS LES COMPTES**, chacun avec ses limites
      déclarées par son émetteur."
+  - "**LA SOURCE QUE CE CHAPITRE DÉCLARAIT MANQUANTE EST ACQUISE ET OUVERTE LE
+     2026-09-08 PAR L19.C08.** Ce chapitre déclarait que la moitié MONÉTAIRE de la
+     chaîne comptable exigeait la révision 2025 du système de comptes nationaux,
+     que le corpus ne tenait pas. **Elle est désormais ouverte**, et elle apporte
+     un élément que ce chapitre n'avait pas : **un actif sans passif de
+     contrepartie n'est pas un actif FINANCIER** au sens de la norme, et les
+     transactions conduites avec lui sont **des opérations de TROC**. **La
+     question du traitement de l'ÉMISSION reste néanmoins entière** : L19.C08 lit
+     des paragraphes portant sur des actifs cryptographiques et **retient un
+     raisonnement, non une classification.**"
 resume: "Ce chapitre répond à la question comptable que le corpus s'était posée sans pouvoir la trancher, à savoir par quelle rubrique une activité de restauration écologique entre dans les comptes nationaux. Il ouvre pour cela la norme statistique internationale adoptée en 2021 pour la comptabilité des écosystèmes, et il établit que l'opération se répartit sur trois emplacements distincts. Le service de restauration acheté est une production ordinaire et entre dans les agrégats de production comme un service quelconque. L'amélioration de l'écosystème est enregistrée dans le compte d'actif, sous une rubrique qui lui est propre. Et la norme énonce expressément que ces variations de valeur d'actif ne sont pas considérées comme du revenu au sens de la comptabilité nationale. Le chapitre établit ensuite l'asymétrie que cette répartition produit, puisque la même norme déduit la dégradation des agrégats de revenu au moyen d'une séquence ajustée, sans qu'aucune ligne symétrique ne vienne y ajouter l'amélioration. Il en tire que le paiement d'une restauration entre dans le dénominateur d'un rapport de pression à activité tandis que son résultat écologique n'entre dans aucun agrégat de revenu de la même période, ce qui solde la dette contractée par le vingt-sixième livre et donne enfin le mécanisme comptable qui manquait. Il relève que cette asymétrie confirme par une autre voie la proposition centrale du quinzième chapitre du premier livre, laquelle venait d'être reformulée sur des termes autonomes. Il enregistre enfin les deux frontières que la norme se donne elle-même, à savoir l'emploi de valeurs d'échange et l'exclusion explicite de la valeur d'existence, ainsi que l'état d'application encore expérimental du cadre."
 concepts: [essentiel_insolvable, valorisation_des_communs, indicateur_de_progres, contrepartie_comptable]
-renvois: [L1.C15, L11.C13, L13.C01, L17.C05, L18.C01, L18.C04, L18.C09, L22.C04, L24.C05, L26.C10, L18.C11]
+renvois: [L1.C15, L11.C13, L13.C01, L17.C05, L18.C01, L18.C04, L18.C09, L22.C04, L24.C05, L26.C10, L18.C11, L19.C08]
 ---
 
 # La dégradation est un coût, l'amélioration n'est pas un revenu
