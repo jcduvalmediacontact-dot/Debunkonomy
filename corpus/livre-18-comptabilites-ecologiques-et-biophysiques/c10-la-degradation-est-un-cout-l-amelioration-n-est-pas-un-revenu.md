@@ -67,9 +67,19 @@ verifications_en_attente:
      POUR UN DÉFAUT À CORRIGER PAR LA MONÉTISATION DE LA RÉGÉNÉRATION : LES DEUX
      PARTAGENT LE MÊME MÉCANISME.** **Ce n'est pas une réfutation, c'est un coût à
      assumer et à déclarer, et il n'était pas déclaré.**"
+  - "**LA SOURCE DE CE CHAPITRE EST SITUÉE LE 2026-09-08 PAR L18.C13, ET CELA NE LA
+     CONTREDIT PAS MAIS LA RELATIVISE.** La comptabilité écosystémique des Nations
+     unies figure au catalogue de la plateforme intergouvernementale comme **UNE
+     MÉTHODE D'INTÉGRATION PARMI PLUS DE CINQUANTE MÉTHODES** : elle
+     « **synthesises physical information on ecosystem extent, condition and
+     services with monetary valuation** ». **L'ASYMÉTRIE ÉTABLIE ICI RESTE CE QUE
+     LA NORME ÉCRIT** — la dégradation est un coût, l'amélioration n'est pas un
+     revenu — **mais c'est la propriété D'UNE MÉTHODE, non une propriété de la
+     valorisation en général.** **Le corpus avait traité une norme comme LE CADRE ;
+     elle est UNE ENTRÉE DU CATALOGUE.**"
 resume: "Ce chapitre répond à la question comptable que le corpus s'était posée sans pouvoir la trancher, à savoir par quelle rubrique une activité de restauration écologique entre dans les comptes nationaux. Il ouvre pour cela la norme statistique internationale adoptée en 2021 pour la comptabilité des écosystèmes, et il établit que l'opération se répartit sur trois emplacements distincts. Le service de restauration acheté est une production ordinaire et entre dans les agrégats de production comme un service quelconque. L'amélioration de l'écosystème est enregistrée dans le compte d'actif, sous une rubrique qui lui est propre. Et la norme énonce expressément que ces variations de valeur d'actif ne sont pas considérées comme du revenu au sens de la comptabilité nationale. Le chapitre établit ensuite l'asymétrie que cette répartition produit, puisque la même norme déduit la dégradation des agrégats de revenu au moyen d'une séquence ajustée, sans qu'aucune ligne symétrique ne vienne y ajouter l'amélioration. Il en tire que le paiement d'une restauration entre dans le dénominateur d'un rapport de pression à activité tandis que son résultat écologique n'entre dans aucun agrégat de revenu de la même période, ce qui solde la dette contractée par le vingt-sixième livre et donne enfin le mécanisme comptable qui manquait. Il relève que cette asymétrie confirme par une autre voie la proposition centrale du quinzième chapitre du premier livre, laquelle venait d'être reformulée sur des termes autonomes. Il enregistre enfin les deux frontières que la norme se donne elle-même, à savoir l'emploi de valeurs d'échange et l'exclusion explicite de la valeur d'existence, ainsi que l'état d'application encore expérimental du cadre."
 concepts: [essentiel_insolvable, valorisation_des_communs, indicateur_de_progres, contrepartie_comptable]
-renvois: [L1.C15, L11.C13, L13.C01, L17.C05, L18.C01, L18.C04, L18.C09, L22.C04, L24.C05, L26.C10, L18.C11, L19.C08, L18.C12]
+renvois: [L1.C15, L11.C13, L13.C01, L17.C05, L18.C01, L18.C04, L18.C09, L22.C04, L24.C05, L26.C10, L18.C11, L19.C08, L18.C12, L18.C13]
 ---
 
 # La dégradation est un coût, l'amélioration n'est pas un revenu

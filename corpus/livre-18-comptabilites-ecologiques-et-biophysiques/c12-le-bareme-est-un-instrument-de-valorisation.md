@@ -33,20 +33,39 @@ verifications_en_attente:
      citée à cet endroit**, et c'est pourtant l'énoncé le plus directement
      transposable au dispositif. **À ÉTABLIR SUR PIÈCES : une évaluation
      empirique de la performance des paiements pour services écosystémiques.**"
-  - "**L'ÉVALUATION DES VALEURS DE L'IPBES (2022) EST CITÉE ET NON OUVERTE.** Elle
-     recense plus de cinquante méthodes de valorisation et distingue valeurs
-     instrumentales, relationnelles et intrinsèques. **C'EST LE CONTRE-CATALOGUE
-     AUTORISÉ D'UN BARÈME À MÉTRIQUE UNIQUE, et le corpus ne l'a pas lu.**
-     **ACQUISITION DE RANG 1 POUR CE CHAPITRE.**"
+  - "**L'ÉVALUATION DES VALEURS DE L'IPBES (2022) EST OUVERTE LE MÊME JOUR PAR
+     L18.C13 : L'ACQUISITION DE RANG 1 EST FAITE.** **Ce qui reste à lire du
+     même rapport : le CHAPITRE 4, qui traite de l'usage effectif des
+     valorisations dans la décision** — le chapitre 3 déclare explicitement ne
+     pas le couvrir, **et c'est précisément la question que le corpus pose au
+     barème** — **ainsi que le résumé aux décideurs EN ANGLAIS**, seules les
+     versions japonaise et allemande ayant été trouvées."
   - "**AUCUN DES QUATRE MÉCANISMES RETENUS ICI N'EST TESTÉ SUR LE DISPOSITIF.**
      Ils sont établis sur les paiements pour services écosystémiques. **Le
      dispositif n'est pas un paiement pour service écosystémique** : il alloue une
      unité émise, non un paiement financé par l'impôt. **Le chapitre soutient que
      les quatre mécanismes tiennent à la MONÉTISATION et non au financement, mais
      c'est une inférence du corpus, pas un résultat de la source.**"
+  - "**L'ACQUISITION DE RANG 1 INSCRITE PAR CE CHAPITRE EST FAITE LE MÊME JOUR PAR
+     L18.C13, ET LE CONTRE-CATALOGUE EXISTE BIEN.** **Plus de CINQUANTE méthodes
+     distinctes** de valorisation, issues de six disciplines au moins, rangées en
+     quatre familles selon leur source d'information. **ET IL APPORTE TROIS
+     RÉSULTATS QUE CE CHAPITRE N'AVAIT PAS.** **(1) AGRÉGATION :** « **NO
+     CONSENSUS EXISTS ON THE BEST PRACTICE FOR AGGREGATION PROCEDURES** » — au
+     niveau de preuve le plus élevé de l'échelle de la plateforme. **Un barème EST
+     une procédure d'agrégation, et l'opération centrale du dispositif n'a pas de
+     règle de l'art établie.** **(2) ÉCHELLE :** 72 % des valorisations se font
+     en deçà du niveau national et **6 % au-dessus** — **le dispositif opère à
+     l'échelle où la pratique est la plus rare.** **(3) MÉTRIQUE UNIQUE :** **56 %
+     des valorisations REFUSENT en pratique de ramener les valeurs à une grandeur
+     commune** et conservent des indicateurs biophysiques, monétaires et
+     socioculturels distincts. **LE BIAIS DE VISIBILITÉ ÉTABLI ICI EST CONFIRMÉ
+     PAR UNE TROISIÈME SOURCE, INTERGOUVERNEMENTALE**, qui ajoute que le choix de
+     méthode est « **value-laden** » et que « **this process is rarely
+     reported** »."
 resume: "Ce chapitre ouvre la critique de la valorisation monétaire que le chapitre dix de ce livre réclamait comme acquisition de premier rang, et il en tire un résultat qui ne vise pas la cible attendue. La source est un chapitre d'ouvrage écrit par des économistes écologiques, c'est-à-dire par le camp même auquel appartient le corpus, en sorte qu'elle n'apporte aucun contradicteur au falsifieur portant sur la soutenabilité faible. Elle apporte en revanche un contradicteur au dispositif lui-même, et par une voie que le corpus n'avait pas instrumentée, puisque le barème qualifiant des activités régénératives et allouant contre elles une unité émise est, quant à sa forme, un instrument de valorisation monétaire. Le chapitre retient quatre objections que la source adresse à de tels instruments. La première est que la valorisation monétaire privilégie ce qui est visible et connu sur ce qui est invisible et inconnu, ce qui biaise l'estimation. La deuxième est que le paiement peut éroder les motivations morales qui soutenaient la conservation, en déplaçant la logique de l'obligation vers le profit. La troisième est qu'attribuer une valeur d'échange transmet l'idée que la chose est remplaçable par un substitut de valeur équivalente, ce qui fait entrer par la forme l'hypothèse de substituabilité que le corpus reproche ailleurs à ses adversaires. La quatrième est que ces dispositifs ont, dans plusieurs cas documentés, accru les inégalités et bénéficié d'abord aux détenteurs de terres. Le chapitre montre que ces quatre objections ne se corrigent pas en améliorant le barème, puisqu'elles tiennent au fait d'en avoir un. Il relève enfin un fait empirique sur la famille d'instruments la plus proche du dispositif, à savoir que la grande majorité des paiements pour services écosystémiques sont conduits par des États, financés par l'impôt et fixés politiquement."
 concepts: [valorisation_des_communs, bareme, qualification_regenerative, essentiel_insolvable, communs]
-renvois: [L7.C22, L11.C13, L18.C05, L18.C09, L18.C10, L18.C11, L25.C01, L26.C11]
+renvois: [L7.C22, L11.C13, L18.C05, L18.C09, L18.C10, L18.C11, L25.C01, L26.C11, L18.C13]
 ---
 
 # Le barème est un instrument de valorisation, et il en hérite les objections

@@ -2187,3 +2187,39 @@ valeurs.**
 **RANG 3 — L'ANALYSE CHINOISE EN REVUE.** L26.C11 s'appuie pour la Chine sur une
 communication de conférence. **Le travail antérieur sur les États-Unis et le
 Royaume-Uni a bien paru en revue ; l'analyse chinoise N'A PAS ÉTÉ RETROUVÉE.**
+
+
+## Ouvert le 2026-09-08 — LE CATALOGUE DE L'IPBES, ET UNE DIVERGENCE DE DROITS À DÉCLARER
+
+**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of
+Nature*, 2022 — CHAPITRE 3, « The potential of valuation », 170 pages, anglais**
+— **OUVERT ET LU dans le texte** pour **L18.C13**, depuis Zenodo. **C'était
+l'acquisition de rang 1 de L18.C12.**
+
+**DIVERGENCE DE RÉGIME DE DROITS, ET LE CORPUS RETIENT LE PLUS RESTRICTIF.** **Le
+DÉPÔT Zenodo porte la mention CC BY 4.0.** **Le DOCUMENT, dans sa page de droits,
+autorise la reproduction à des fins éducatives ou non lucratives sous condition
+d'attribution et INTERDIT la revente et l'usage commercial sans autorisation
+écrite préalable.** **Ce ne sont pas les mêmes conditions.** **Le corpus retient
+celles LUES DANS LE DOCUMENT.** **À vérifier : la page de droits de l'édition
+anglaise du rapport relié** — la page lue l'a été dans le résumé aux décideurs
+en **version japonaise**, seule obtenue.
+
+**RÈGLE GÉNÉRALE QUE CE CAS ÉTABLIT, ET ELLE VAUT POUR TOUT DÉPÔT : LA MENTION
+DE LICENCE PORTÉE PAR UN DÉPÔT N'EST PAS LA MENTION PORTÉE PAR LE DOCUMENT.**
+**Le régime de droits se lit dans le document, jamais dans la notice.**
+
+### Acquisitions que ce chapitre inscrit
+
+**RANG 1 — LE RÉSUMÉ AUX DÉCIDEURS EN ANGLAIS.** Les dépôts Zenodo trouvés
+portaient les versions **japonaise** et **allemande**. **L'anglaise reste à
+obtenir**, et c'est elle qui porte les énoncés approuvés par la plénière.
+
+**RANG 2 — LE CHAPITRE 4 DU MÊME RAPPORT.** Il traite de **l'usage effectif des
+valorisations dans la décision**, et le chapitre 3 déclare explicitement ne pas le
+couvrir. **C'est précisément la question que le corpus pose au barème.**
+
+**RANG 3 — LES REVUES SYSTÉMATIQUES SOUS-JACENTES.** Tous les pourcentages cités
+par L18.C13 (50 méthodes, 72/11/6 % d'échelle, 4 % de justice, 56 % de refus de
+la métrique unique) **viennent d'un « Valuation Atlas » et d'une revue
+systématique déposés séparément, que le corpus n'a pas ouverts.**
