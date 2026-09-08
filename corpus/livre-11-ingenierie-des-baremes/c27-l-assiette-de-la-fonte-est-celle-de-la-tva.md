@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: conception
@@ -44,9 +44,21 @@ verifications_en_attente:
      une exonération existent et sont documentés ; **un taux négatif — c'est-à-
      dire un versement au contribuable à raison de son achat — n'est pas un
      mécanisme de TVA**, et le corpus ne tient aucun régime qui en porte un."
+  - "**UN COÛT DU CHOIX D'ASSIETTE EST ÉTABLI LE 2026-09-08 PAR L15.C02, ET CE
+     N'EST PAS UNE OBJECTION AU CHOIX.** Ce chapitre a établi que la fonte retient
+     l'assiette de la taxe sur la valeur ajoutée, et que ce choix est motivé.
+     **MAIS LE MÉCANISME QUI FAIT LA VERTU DE CETTE TAXE — LE DROIT À DÉDUCTION —
+     EST AUSSI CE QUI REND POSSIBLE LA FRAUDE CARROUSEL** : le fraudeur encaisse
+     une taxe qu'il ne reverse pas pendant que son acheteur en réclame le
+     remboursement. **Sur le marché européen des quotas d'émission, cette
+     architecture a été évaluée à 1,3 milliard d'euros**, et les volumes échangés
+     sont tombés de 19,8 à 2,5 millions de tonnes **en un jour**, sur la seule
+     annonce de l'autoliquidation. **EN RETENANT CETTE ASSIETTE, LA FONTE HÉRITE DE
+     L'ARCHITECTURE DE FRAUDE DE CETTE TAXE.** **À instruire en même temps que
+     l'assiette, et le corpus ne l'avait pas porté.**"
 resume: "Ce chapitre lève une réserve que le corpus avait déclarée en passe 1 et il en tire une limite que ni le livre ni le Livre 11 n'avaient posée. La réserve portait sur la taxe sur la valeur ajoutée, citée comme le mécanisme qui neutralise l'effet de cascade sans qu'aucune source ne soit ouverte. Deux sources fournies par l'auteur la lèvent et confirment ce que le corpus avait établi sans elles : une taxe appliquée à chaque étape du circuit voit sa charge augmenter avec le nombre d'opérations intermédiaires, de sorte que le prix d'un bien croît avec la longueur de son circuit économique, et c'est le droit à déduction qui neutralise cet effet. Le chapitre établit ensuite que le livre a choisi la bonne assiette et qu'il l'a motivée, puisqu'il retient la consommation finale élargie aux acquisitions d'actifs, en excluant les flux purement financiers, et qu'il dit lui-même que le mécanisme de prélèvement existe déjà sous la forme de la taxe sur la valeur ajoutée. La cascade n'est donc pas un défaut du dispositif. Mais le chapitre montre que ce choix a un coût que personne n'a chiffré, et qui tient à une asymétrie du mécanisme hérité : le droit à déduction étant réservé aux assujettis, un taux réduit appliqué à une opération entre professionnels n'a presque aucun effet, tandis que le même taux appliqué à une vente au consommateur final est une faveur réelle. Il en résulte que la fonte oriente la demande finale et reste presque inerte sur les transactions intermédiaires, de sorte que toute l'orientation de la production repose sur la pondération par l'empreinte cumulée, c'est-à-dire sur la mesure."
 concepts: [reflux_transactionnel, demurrage, bareme, degeneratif, qualification_regenerative, externalisation, additionnalite]
-renvois: [L1.C21, L1.C27, L2.C16, L11.C02, L11.C05, L11.C09, L11.C21, L11.C24, L11.C25, L20.C02, L20.C19]
+renvois: [L1.C21, L1.C27, L2.C16, L11.C02, L11.C05, L11.C09, L11.C21, L11.C24, L11.C25, L20.C02, L20.C19, L15.C02]
 ---
 
 # L'assiette de la fonte est celle de la TVA
