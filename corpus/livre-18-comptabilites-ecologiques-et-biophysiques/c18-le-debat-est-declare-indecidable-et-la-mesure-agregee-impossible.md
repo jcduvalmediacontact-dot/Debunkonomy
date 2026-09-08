@@ -24,21 +24,24 @@ verifications_en_attente:
      CONCLUSIONS SANS LEURS DÉMONSTRATIONS.** Les quatre propositions d'optimisme
      des ressources, l'étude de cas du climat, l'examen des indicateurs et
      l'argument de non-falsifiabilité lui-même sont ARGUMENTÉS dans les chapitres
-     2 à 6, **que le corpus possède et n'a pas ouverts.** **Aucune des conclusions
-     rapportées ici ne peut être opposée à une objection portant sur son
-     RAISONNEMENT tant que le chapitre correspondant n'est pas lu.**
-     **ACQUISITION DE RANG 1, ET ELLE EST DÉJÀ SUR LE DISQUE : le chapitre 3**,
-     qui porte l'argument de non-falsifiabilité, **et le chapitre 6**, qui porte
-     le refus de l'agrégation."
-  - "**LA CONCLUSION SUR L'AGRÉGATION EST LA PLUS LOURDE DU CHAPITRE ET C'EST
-     CELLE DONT LE CORPUS A LE MOINS DE MOYENS DE VÉRIFIER LA PORTÉE.** L'auteur
-     énonce que les mesures séparées des formes critiques du capital naturel
-     « defy aggregation ». **Il ne démontre pas une impossibilité formelle dans
-     le texte lu : il conclut d'un examen d'indicateurs existants.** **Le corpus
-     ne doit donc pas écrire que l'agrégation est démontrée impossible, mais
-     qu'un auteur de référence, après examen des indicateurs disponibles, la
-     tient pour trompeuse et inutile.** **La différence décide de ce que F13
-     peut porter.**"
+     2 à 6, **que le corpus possède.** **Aucune des conclusions rapportées ici
+     ne peut être opposée à une objection portant sur son RAISONNEMENT tant que
+     le chapitre correspondant n'est pas lu.** **LE CHAPITRE 6 EST OUVERT ET LU
+     INTÉGRALEMENT DEPUIS LE 2026-09-08 PAR L18.C19**, et il a corrigé la portée
+     de la conclusion sur l'agrégation. **RESTE OUVERT ET DE RANG 1 : LE
+     CHAPITRE 3**, qui porte l'argument de non-falsifiabilité, **sur lequel
+     s'appuient les deux premiers résultats de ce chapitre.**"
+  - "**LA CONCLUSION SUR L'AGRÉGATION EST LA PLUS LOURDE DU CHAPITRE, ET SA
+     PORTÉE EST ÉTABLIE DEPUIS LE 2026-09-08 PAR L18.C19**, qui a ouvert le
+     chapitre 6 du livre. **L'IMPOSSIBILITÉ EST ANALYTIQUE ET NON EMPIRIQUE :
+     elle découle de la DÉFINITION retenue de la soutenabilité forte** —
+     préserver chaque forme critique — **et non d'un constat sur les mesures
+     existantes.** Un scalaire unique qui autorise la compensation contredit
+     cette définition par construction. **CE QUI REMPLACE LA RÉSERVE, ET C'EST
+     UN ARBITRAGE : l'impossibilité ne vaut que sous la SECONDE des deux
+     interprétations de la soutenabilité forte que le traité distingue.** **Le
+     corpus n'a jamais déclaré laquelle il retient, et ce choix décide de la
+     possibilité même de son barème.** **À trancher par l'auteur.**"
   - "**L'AUTEUR ÉCRIT QUE SON LIVRE EST DÉLIBÉRÉMENT ORIENTÉ VERS LES LIMITES**
      des deux paradigmes, et que l'examen de leurs PERSPECTIVES donnerait
      probablement des résultats plus encourageants, hors de son objet. **Le
@@ -109,7 +112,7 @@ renvois: [L18.C11, L18.C13, L18.C14, L18.C16, L18.C17, L24.C01, L24.C02, L12.C01
 
 ::hypothese:: **ET C'EST UNE MAUVAISE NOUVELLE POUR LE DISPOSITIF, QU'IL FAUT NOMMER COMME TELLE.** **Une émission monétaire allouée contre une qualification a besoin d'un scalaire** : il faut bien qu'un montant sorte. **Si la grandeur à qualifier se refuse à l'agrégation, le montant émis ne mesure pas la régénération — il mesure une convention de pondération.** **F13 sort renforcé de cette lecture, et c'est le falsifieur qui peut faire tomber le barème.**
 
-::etat:: **LA PORTÉE EXACTE DE CETTE CONFIRMATION EST BORNÉE, ET LA BORNE EST DANS LE TEXTE.** L'auteur ne démontre pas une impossibilité formelle : **il conclut d'un examen des indicateurs existants** — empreinte écologique, flux de matières, indice de soutenabilité environnementale forte, indicateurs hybrides. **Le corpus tient donc qu'un auteur de référence, après examen des mesures disponibles, tient l'agrégation pour trompeuse et inutile. Il ne tient pas qu'elle est démontrée impossible.** **La différence décide de ce que F13 peut porter, et le chapitre 6 du livre, qui porte cet examen, n'est pas ouvert.**
+::etat:: **LA PORTÉE EXACTE DE CETTE CONFIRMATION EST BORNÉE, ET LA BORNE EST DANS LE TEXTE.** L'auteur ne démontre pas une impossibilité formelle : **il conclut d'un examen des indicateurs existants** — empreinte écologique, flux de matières, indice de soutenabilité environnementale forte, indicateurs hybrides. **CE POINT EST TRANCHÉ DEPUIS LE 2026-09-08 PAR L18.C19, QUI A OUVERT LE CHAPITRE 6 : l'impossibilité est ANALYTIQUE — elle découle de la définition de la soutenabilité forte comme préservation de chaque forme critique — ET ELLE EST DONC PLUS FORTE QU'UN RÉSULTAT D'ENQUÊTE.** **Mais elle est CONDITIONNELLE À CETTE DÉFINITION, et le traité en donne deux.** **Le corpus n'a pas déclaré laquelle il retient : c'est ce choix, et non l'état des mesures, qui décide de ce que F13 peut porter.**
 
 ## 4. La sélectivité que le dispositif revendique est réclamée par le camp adverse
 
