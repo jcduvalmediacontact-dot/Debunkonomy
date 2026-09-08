@@ -89,9 +89,21 @@ verifications_en_attente:
      DE CRÉANCIER COLLECTIF** — et c'est le second trait qui le rendait analogue
      au dispositif. **Le titre de ce chapitre, qui date le passif de 2008, doit
      être revu : le passif n'est plus daté de 2008, il est en vigueur.**"
+  - "**UN FAIT SUR LE SEUL PRÉCÉDENT, ÉTABLI LE 2026-09-08 PAR L20.C24, ET LE
+     CORPUS L'IGNORAIT : LES DROITS DE TIRAGE SPÉCIAUX NE SONT PAS DANS LE TEXTE
+     FONDATEUR.** Les statuts du Fonds de 1945, lus au Recueil des traités des
+     Nations unies, **ne contiennent PAS UNE SEULE FOIS l'expression « special
+     drawing »** — l'instrument a été créé par le PREMIER AMENDEMENT.
+     **CE N'EST PAS UNE OBJECTION À CE CHAPITRE** : un instrument ajouté par
+     amendement est du droit comme un autre. **MAIS LE SEUL PRÉCÉDENT D'ACTIF DE
+     RÉSERVE ALLOUÉ SANS OPÉRATION PRÉALABLE N'ÉTAIT PAS PRÉVU À LA FONDATION : IL
+     A FALLU MODIFIER LE TRAITÉ POUR LE CRÉER.** **Ce que cela ajoute, et le
+     dispositif doit l'entendre : la voie par laquelle un tel instrument existe
+     est celle de l'AMENDEMENT D'UN TRAITÉ, non celle d'une création
+     institutionnelle nouvelle.**"
 resume: "Ce chapitre répond à la première question de la grille du livre en établissant qu'un précédent existe, qu'il fonctionne depuis un demi-siècle et que la norme statistique mondiale a dû trancher exactement la question que le corpus laissait ouverte. Une institution internationale crée des unités, les alloue à ses participants sans contrepartie préalable, et ces unités donnent à leur détenteur un droit assuré et inconditionnel d'obtenir des devises. La norme les classe comme des avoirs assortis de passifs correspondants, mais elle précise que la créance porte sur les participants pris collectivement et non sur l'institution émettrice. Ce traitement est récent, et le chapitre relève que c'est un changement délibéré, l'annexe des révisions portant l'intitulé selon lequel un passif en droits de tirage spéciaux est désormais reconnu, ce qui signifie que la version antérieure de la norme n'en reconnaissait pas. Le corpus en tire trois résultats. Le premier est que la construction que son propre arbitrage avait retenue, selon laquelle la collectivité porte la dette, est écrite dans une norme statistique mondiale depuis deux mille huit, ce qu'il ignorait. Le deuxième est que l'émetteur n'étant pas le débiteur, le problème des fonds propres négatifs de l'émetteur ne se pose pas sous ce traitement, ce qui déplace une objection que deux chapitres tenaient pour acquise. Le troisième est le prix de ces deux premiers, puisque la norme range explicitement l'instrument parmi les instruments de dette et que l'allocation porte intérêt, cet intérêt se compensant exactement à l'échelle du système tant que personne ne se sert de son allocation, et devenant une charge nette dès qu'un participant en dispose."
 concepts: [contrepartie_comptable, reflux_collectif, hierarchie_monetaire, creation_monetaire, devise_cle]
-renvois: [L3.C09, L10.C06, L11.C01, L11.C02, L19.C01, L20.C09, L21.C01, L21.C03, L21.C05, L19.C06, L19.C09]
+renvois: [L3.C09, L10.C06, L11.C01, L11.C02, L19.C01, L20.C09, L21.C01, L21.C03, L21.C05, L19.C06, L19.C09, L20.C24]
 ---
 
 # Le seul précédent, et le passif lui a été reconnu en 2008

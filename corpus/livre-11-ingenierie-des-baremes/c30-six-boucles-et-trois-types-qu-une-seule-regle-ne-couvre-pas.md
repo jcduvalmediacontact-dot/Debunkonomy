@@ -41,9 +41,22 @@ verifications_en_attente:
      les tarifs d'achat photovoltaïques ont été révisés en Europe, et ce qu'il est
      advenu des engagements pris sous l'ancien tarif.** **C'est le précédent le
      plus proche du problème posé ici, et il est documenté.**"
+  - "**UNE RÈGLE DE RÉVISION EN VIGUEUR DEPUIS 1945, TROUVÉE LE MÊME JOUR PAR
+     L20.C24, ET ELLE CONTIENT TROIS DES CINQ ÉLÉMENTS EXIGÉS ICI.** Article III,
+     section 2 des statuts du Fonds : **une PÉRIODICITÉ** (« at intervals of five
+     years »), **une MAJORITÉ QUALIFIÉE** (quatre cinquièmes des voix), **et le
+     CONSENTEMENT DE L'INTÉRESSÉ** (« no quota shall be changed **without the
+     consent of the member concerned** »). **CE TROISIÈME ÉLÉMENT EST UNE RÉPONSE
+     AU CINQUIÈME POINT LAISSÉ OUVERT PAR CE CHAPITRE** — le sort de celui qui
+     s'est engagé sous l'ancien calibrage — **et c'est la branche la plus
+     protectrice et la plus paralysante : rien ne change sans l'accord de celui
+     que le changement affecte.** **Le corpus l'enregistre comme une QUATRIÈME
+     BRANCHE de l'arbitrage, à côté de la rétroactivité, de la non-rétroactivité
+     et de l'extinction progressive.** **RÉSERVE : texte de 1945, non collationné
+     avec le texte en vigueur.**"
 resume: "Ce chapitre exécute la première moitié d'une pièce de conception que le corpus avait déclarée manquante, à savoir la règle de recalibrage du dispositif. Il recense d'abord les six occurrences aujourd'hui tenues d'une même forme, où le dispositif agit sur une grandeur dont il dépend. La base qui garantit la dette est l'encours, que le succès érode. L'assiette du reflux diminue à mesure que les transactions dommageables disparaissent. Un barème calibré sur la conversion électrique devient faux à mesure que le réseau se décarbone. L'incitation à investir diminue quand les dommages diminuent. Le rendement exergétique agrégé d'un pays se dilue à mesure que ce pays s'enrichit, parce que la composition des usages se déplace vers des usages moins efficaces. Et une incitation monétaire déplace les motivations qui soutenaient l'activité qu'elle récompense, dans un sens que la littérature ne sait pas prédire. Le chapitre établit ensuite que ces six occurrences ne sont pas de même nature et qu'une règle unique ne peut pas les couvrir. Il distingue trois types, selon que la boucle érode l'assiette de l'instrument, fait dériver une convention de mesure, ou modifie le comportement de ceux que l'instrument vise. Il montre que les trois diffèrent par leur observabilité, par le fait que leur sens soit connu ou non, et par le remède qu'ils appellent, le troisième type étant le seul dont aucune règle de calibrage ne peut venir à bout puisqu'il n'est ni observable à l'avance ni de sens déterminé. Il énumère enfin les cinq éléments que chaque règle devra contenir et signale que le cinquième, le sort des engagements pris sous l'ancien calibrage, est une question de droits que le corpus ne doit pas trancher seul."
 concepts: [bareme, qualification_regenerative, regle_contre_discretion, robustesse, additionnalite]
-renvois: [L11.C13, L13.C01, L18.C12, L18.C15, L19.C05, L26.C04, L26.C08, L26.C11, L26.C12]
+renvois: [L11.C13, L13.C01, L18.C12, L18.C15, L19.C05, L26.C04, L26.C08, L26.C11, L26.C12, L20.C24]
 ---
 
 # Six boucles, et trois types qu'une seule règle ne couvre pas

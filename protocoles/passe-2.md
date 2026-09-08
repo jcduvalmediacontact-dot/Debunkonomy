@@ -4791,3 +4791,53 @@ devant les tribunaux. **C'est le précédent le plus proche du cinquième point.
 typologie en trois types tient-elle ?** Le rangement de la dilution d'efficacité
 est contestable — elle se lirait comme un type A si l'on tenait le rendement
 lui-même pour l'assiette.
+
+
+## A37 — l'analogue financier est ouvert le 2026-09-08, et il répond aux quatre traits laissés ouverts
+
+**L'AUTEUR AVAIT DONNÉ LE RANG INSTITUTIONNEL ET LAISSÉ OUVERTS LA FORME
+FINANCIÈRE, LE CAPITAL, L'ADHÉSION ET LE RETRAIT, ET L'IMMUNITÉ.** **Les statuts
+du Fonds monétaire international sont ouverts** (L20.C24), obtenus par le Recueil
+des traités des Nations unies après refus du site de l'institution.
+
+**RÉSERVE PRÉALABLE, ET ELLE COMMANDE TOUT CE QUI SUIT : LE TEXTE LU EST CELUI DE
+1945, NON LE TEXTE EN VIGUEUR.** Test refaisable : **l'expression « special
+drawing » n'y apparaît pas une seule fois.** **Aucune disposition ci-dessous n'est
+le droit actuel avant collationnement.**
+
+**COMPOSITION.** « Membership shall be open to **the governments** of other
+countries [...] in accordance with such terms **as may be prescribed by the
+Fund** ». **L'adhérent est un gouvernement, et l'institution fixe elle-même les
+conditions d'admission.**
+
+**CAPITAL.** « The **subscription of each member shall be EQUAL TO ITS QUOTA** and
+shall be **PAID IN FULL** ». **L'institution est dotée par ses membres.** **Le
+dispositif propose d'émettre sans contrepartie souscrite : le précédent le plus
+proche fonctionne à l'inverse**, et c'est la **seconde** occurrence de cette
+exigence après L21.C08 (fonds propres exigés par la norme des infrastructures).
+
+**IMMUNITÉS.** Personnalité juridique pleine ; immunité de **toute forme de
+procédure judiciaire** sauf renonciation expresse ; immunité contre saisie par
+action exécutive ou législative ; archives inviolables ; **immunité de toute
+taxation** ; et avoirs « **free from restrictions, regulations, controls and
+moratoria OF ANY NATURE** ». **Ce régime s'obtient PAR TRAITÉ, non par
+déclaration.** **Et il faut en voir le coût : une institution ainsi immunisée
+n'est pas contrôlable par les moyens ordinaires** — ce que L7.C22 tient déjà
+comme la difficulté centrale.
+
+**RETRAIT, ET C'EST LE RÉSULTAT LE PLUS LOURD.** « **Any member may withdraw from
+the Fund AT ANY TIME** by transmitting a notice in writing [...] **Withdrawal shall
+become effective ON THE DATE SUCH NOTICE IS RECEIVED.** » **Ni préavis, ni délai,
+ni condition.** **UN REFLUX COLLECTIF ADOSSÉ À UNE APPARTENANCE DONT LA SORTIE EST
+IMMÉDIATE N'EST PAS OPPOSABLE À CELUI QUI SORT.** À rapprocher de L19.C05 et de
+L19.C09.
+
+**ACQUISITIONS QUE CE CHAPITRE INSCRIT.** **(1) LE TEXTE CONSOLIDÉ EN VIGUEUR et
+la liste datée des amendements** — rang 1, sans quoi rien de ce qui précède n'est
+citable comme droit actuel. **(2) LES STATUTS DE LA BANQUE INTERNATIONALE POUR LA
+RECONSTRUCTION ET LE DÉVELOPPEMENT**, dans le MÊME volume et sous le MÊME numéro
+d'enregistrement, **non lus** — or **c'est l'institution qui ÉMET DES TITRES**, là
+où le Fonds gère des quotes-parts, **et elle pourrait être un analogue plus proche
+du dispositif que le Fonds lui-même.** **(3) L'accord de relation avec les Nations
+unies et les conventions générales sur les privilèges et immunités**, qui
+complètent le régime de l'article IX.

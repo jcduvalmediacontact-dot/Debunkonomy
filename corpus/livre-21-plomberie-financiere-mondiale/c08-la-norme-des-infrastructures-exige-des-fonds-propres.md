@@ -33,9 +33,19 @@ verifications_en_attente:
      de deux comités internationaux sur les infrastructures qu'ils régulent.
      **Même défaut que celui déjà déclaré trois fois : une norme sans son
      adversaire.**"
+  - "**SECONDE OCCURRENCE, ET ELLE VIENT D'UN CORPS DE RÈGLES INDÉPENDANT, ÉTABLIE
+     LE 2026-09-08 PAR L20.C24.** Ce chapitre a établi qu'une norme technique de
+     2012 exige des actifs liquides **financés par des fonds propres**. **Les
+     statuts du Fonds monétaire international, de 1945, exigent la même chose sous
+     une autre forme** : « **the subscription of each member shall be EQUAL TO ITS
+     QUOTA and shall be PAID IN FULL** » [article III, section 3(a)].
+     **DEUX CORPS DE RÈGLES SÉPARÉS PAR SOIXANTE-SEPT ANS EXIGENT QUE
+     L'INSTITUTION SOIT DOTÉE.** **Le corpus tient désormais deux occurrences et
+     aucune contraire** — et le dispositif propose d'émettre sans contrepartie
+     souscrite."
 resume: "Ce chapitre ouvre la norme internationale qui régit les infrastructures de marchés financiers et la confronte à ce que le corpus a établi de la couche de règlement du dispositif. Il commence par borner sa propre portée, puisque la norme vise les systèmes de paiement d'importance systémique et que personne n'a établi que le dispositif en soit un, de sorte que le chapitre instruit ce qui s'appliquerait dans cette hypothèse. Il relève d'abord un point favorable, la norme demandant que les règlements en monnaie s'effectuent en monnaie de banque centrale lorsque cela est praticable, ce que l'architecture du dispositif satisfait puisque son allocation ne circule qu'entre l'émetteur et les banques centrales nationales. Il établit ensuite trois exigences que le dispositif ne satisfait pas en l'état. La première est celle d'une base juridique solide, claire, transparente et opposable dans toutes les juridictions concernées, alors que la forme juridique de l'émetteur reste indécise et qu'un arbitrage en attente en dépend. La deuxième, et c'est la plus dure, est l'obligation de détenir des actifs liquides nets financés par des fonds propres, suffisants pour absorber des pertes d'exploitation et pour permettre un redressement ou une liquidation ordonnée, alors que le dix-neuvième livre a établi que l'émetteur pourrait présenter des fonds propres négatifs selon la branche retenue du même arbitrage. La troisième est celle d'un règlement définitif clair et certain, dont le corpus n'a jamais fixé le moment. Le chapitre conclut que ces exigences font de l'arbitrage sur la forme juridique de l'émetteur un point qui décide désormais d'une cinquième chose."
 concepts: [contrepartie_comptable, robustesse, hierarchie_monetaire]
-renvois: [L16.C04, L19.C01, L19.C03, L19.C06, L19.C07, L21.C03, L21.C05, L21.C07]
+renvois: [L16.C04, L19.C01, L19.C03, L19.C06, L19.C07, L21.C03, L21.C05, L21.C07, L20.C24]
 ---
 
 # La norme des infrastructures exige des fonds propres

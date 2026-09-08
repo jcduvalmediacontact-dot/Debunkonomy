@@ -80,9 +80,22 @@ verifications_en_attente:
      dispositif lui-même.** **Il n'appelle qu'une règle de révision avec seuil et
      périodicité, et les instruments fiscaux comportementaux traitent couramment
      la même forme.**"
+  - "**TROISIÈME CHEMIN VERS LE MÊME POINT, ÉTABLI LE 2026-09-08 PAR L20.C24, ET
+     IL EST JURIDIQUE.** Ce chapitre a établi qu'un collectif n'est pas une unité
+     institutionnelle et qu'un créancier collectif doit se résoudre en unités
+     identifiées. **La révision comptable de 2025 a opéré cette résolution
+     (L19.C09). Et les statuts de l'analogue financier le plus proche ajoutent que
+     ces unités PEUVENT SORTIR** : « **Any member may withdraw from the Fund AT ANY
+     TIME** by transmitting a notice in writing [...] **Withdrawal shall become
+     effective ON THE DATE SUCH NOTICE IS RECEIVED.** » **Ni préavis, ni délai, ni
+     condition.** **LA QUESTION N'EST DONC PAS SEULEMENT QUI DOIT, MAIS CE QU'IL
+     ADVIENT DE SA DETTE QUAND IL PART**, et le texte fondateur ne prévoit aucune
+     clause générale de survie. **RÉSERVE : le texte lu est celui de 1945 ;
+     l'article XV a pu être amendé, et les dispositions de liquidation des comptes
+     d'un membre sortant n'ont pas été lues.**"
 resume: "Ce chapitre répond à la deuxième question de la grille du livre en établissant qu'un débiteur collectif n'existe pas dans la norme statistique mondiale, et en montrant que le corpus tient pourtant déjà, sans l'avoir vu, ce qui rend sa construction représentable. La norme définit une unité institutionnelle comme une entité capable, en son propre nom, de détenir des actifs et de contracter des obligations, et elle exige d'un passif qu'il oppose deux unités nommées, le débiteur et le créancier, la créance étant inconditionnelle. Une société prise comme totalité ne satisfait à aucune de ces conditions. Le précédent ouvert au deuxième chapitre du livre paraît pourtant y contrevenir, puisque la créance y porte sur les participants pris collectivement. Le chapitre montre que la contradiction n'est qu'apparente, parce que chaque participant y est lui-même une unité institutionnelle individuellement obligée pour sa propre part, le collectif n'étant qu'une agrégation et non une entité. Il en déduit ce que le dispositif doit satisfaire, puis établit que la réponse est déjà dans le corpus, le chapitre précédent ayant montré qu'une fonte inscrite dans les termes est un intérêt dû par le détenteur. Le débiteur n'est donc pas la société mais le détenteur, à proportion de ce qu'il détient. Trois conséquences en découlent que le corpus n'avait pas tirées, dont la principale est que le point sur lequel un arbitrage antérieur restait bloqué reçoit enfin un mécanisme, puisque l'assiette qui garantit la dette est précisément celle que le succès du dispositif réduit."
 concepts: [reflux_collectif, contrepartie_comptable, demurrage, monnaie_fondante, hierarchie_monetaire]
-renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01, L25.C05, L13.C01, L19.C09, L11.C30]
+renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01, L25.C05, L13.C01, L19.C09, L11.C30, L20.C24]
 ---
 
 # Un débiteur collectif n'existe pas — sauf comme somme de débiteurs identifiés
