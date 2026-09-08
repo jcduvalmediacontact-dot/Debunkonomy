@@ -2380,3 +2380,29 @@ manque**. **À arbitrer avant d'écrire.**
 **L00 — NE DOIT PAS ÊTRE ÉCRIT.** Arbitrage du 2026-09-04 : le Livre 0 se réalise
 **à LA FIN des premières passes, jamais avant**, parce qu'il indexe des chapitres
 qui bougent encore. **Respecté.**
+
+
+## RÈGLE DE MÉTHODE ÉTABLIE LE 2026-09-08 — VÉRIFIER QUE L'EXTRACTION PRÉSERVE LES CHIFFRES
+
+**TROISIÈME RÈGLE DE LA MÊME FAMILLE, APRÈS CELLE DES DROITS ET CELLE DES
+INSTRUMENTS MULTIPLES.**
+
+**Le rapport final de la commission d'enquête américaine sur la crise financière a
+une couche de texte qui restitue la prose et PERD LES NUMÉRAUX DU CORPS.** Vérifié
+en trois modes d'extraction. **Le piège est que RIEN NE LE SIGNALE À LA LECTURE** :
+« Moody's rated nearly ,, mortgage-related securities as triple-A » se lit presque
+normalement, et une paraphrase peut contourner le trou sans que personne le voie.
+
+**CONTRÔLE À FAIRE APRÈS CHAQUE EXTRACTION, ET IL COÛTE UNE COMMANDE :** compter
+les chiffres du texte extrait et en échantillonner quelques lignes.
+**Un ratio de numéraux effondré par rapport à la prose, ou des phrases où une
+quantité manque visiblement, interdisent toute citation chiffrée de la source.**
+
+**ATTENTION : le ratio global peut tromper.** Sur ce document il valait 1,6 %, ce qui
+paraît normal — mais les chiffres survivants venaient des pages liminaires, de la
+table des matières et des notes, **et le corps narratif était vide**. **Il faut donc
+échantillonner DANS LE CORPS**, non compter globalement.
+
+**CONSÉQUENCE POUR LE CORPUS : une source peut être OUVERTE POUR SA PROSE ET FERMÉE
+POUR SES QUANTITÉS**, et le chapitre qui l'emploie doit le déclarer dans son entrée
+de source. **L15.C04 est le premier chapitre à le faire.**

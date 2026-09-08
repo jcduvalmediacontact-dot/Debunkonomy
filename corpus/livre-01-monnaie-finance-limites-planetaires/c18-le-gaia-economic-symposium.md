@@ -304,9 +304,28 @@ verifications_en_attente:
      COLLISION AVEC LE COÛT QUE CE CHAPITRE CHIFFRE : un contrôle inopiné coûte
      PLUS.** **Un dispositif qui ne budgète pas le surcoût de l'imprévisibilité
      fera, par simple gestion, le choix du contrôle annonçable.**"
+  - "**L'AFFIRMATION DE CE CHAPITRE SUR LES AGENCES DE NOTATION EST VÉRIFIÉE LE
+     2026-09-08 PAR L15.C04, ET ELLE EST EXACTE MAIS INCOMPLÈTE.** **EXACTE :** la
+     commission d'enquête américaine conclut que « **the business model under which
+     firms issuing securities PAID FOR THEIR RATINGS seriously undermined the
+     quality and integrity of those ratings** ». **Le vice est bien celui que ce
+     chapitre nomme, et le financement de l'Office par le budget général vise
+     juste.** **INCOMPLÈTE :** la même commission impute aussi la défaillance à des
+     **modèles analytiques périmés** et à l'inattention aux signaux d'alerte, et le
+     régulateur des marchés reprochait **six autres manquements dont AUCUN N'EST UN
+     CONFLIT D'INTÉRÊTS** : défaut de vérification de l'exactitude des informations
+     **et délégation de ce travail à des tiers**, absence de conservation
+     documentaire, qualité compromise par la complexité, **effectifs insuffisants**,
+     publication sans examen suffisant, défaut de publicité du procédé.
+     **UN OFFICE BUDGÉTAIRE N'EST IMMUNISÉ CONTRE AUCUN, ET IL EST PLUS EXPOSÉ AU
+     SOUS-INVESTISSEMENT** — une agence commerciale a un motif de revenu pour
+     entretenir ses outils, une dotation se réduit. **CE QUI MANQUE À CE CHAPITRE :
+     une dotation indexée sur autre chose que la discrétion budgétaire, une
+     obligation de révision des modèles, et une règle sur ce que l'Office vérifie
+     lui-même par opposition à ce qu'il accepte de tiers.**"
 resume: "Ce chapitre présente l'institution que le livre propose en réponse au premier des cinq problèmes ouverts en L1.C17 : la légitimité. Il corrige d'abord l'affirmation selon laquelle aucune institution ne représenterait le vivant — des conventions environnementales contraignantes existent, et la personnalité juridique d'entités naturelles est reconnue en Équateur, en Colombie et en Nouvelle-Zélande ; ce qui manque est plus étroit, aucune n'a de mandat monétaire. Les deux précédents de tutelle enseignent comment représenter ce qui n'a pas de volonté : l'intérêt de l'entité est défini par le texte qui l'institue, et porté par une tutelle duale — ce qui n'abolit pas la relation d'agence mais l'encadre. Le chapitre expose ensuite l'architecture que le livre substitue à sa conception initiale : quatre chambres à pouvoirs séparés et étanches — Assemblée des Communs, Office de Certification et d'Audit, Conseil Monétaire Mondial, Chambre de Recours et d'Équité — sous la règle que celui qui définit ce qui compte n'est jamais celui qui décide combien on émet. Cette séparation satisfait la condition qui interdit à une autorité non élue de cumuler choix distributifs et pouvoir d'émission. Le régime probatoire abandonne l'additionnalité contrefactuelle au profit d'états physiques mesurés, consolidés à l'échelle nationale et rémunérés par rente de maintien. Restent quatre problèmes non résolus : la connaissance dispersée, l'ancrage des anticipations, le privilège budgétaire parlementaire, et l'interdiction faite aux banques centrales de l'Union d'accepter des instructions d'un autre organisme."
 concepts: [creation_monetaire, essentiel_insolvable, qualification_regenerative, reflux_monetaire, robustesse, degeneratif]
-renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L15.C01, L15.C03]
+renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L15.C01, L15.C03, L15.C04]
 ---
 
 # Le GAÏA Economic Symposium
