@@ -132,6 +132,15 @@ arbitrages:
       mondiale ; 8.4 reste un critère de validation ex post ; la sélectivité
       n'est pas une famille sans précédent ; « croissance matérielle ciblée »
       est remplacé.
+      APPUI TROUVÉ LE 2026-09-08 PAR L18.C18, ET IL VIENT DU CAMP OPPOSÉ : le
+      traité de référence tient que les flux de matières ne seraient utiles que
+      DIFFÉRENCIÉS selon leur menace pour les fonctions critiques du capital
+      naturel, que sommer des flux au poids donne un indicateur « essentially
+      meaningless », et que la différenciation NE SE FAIT PAS. La sélectivité
+      n'est donc pas seulement sans singularité : elle est RÉCLAMÉE par
+      l'adversaire. CE QUE CELA NE DONNE PAS : savoir qualifier la menace,
+      qui reste la difficulté du barème. Le désaccord porte sur ce qu'on fait
+      ensuite, non sur ce constat.
 
 falsifieurs:
   - id: F1
@@ -204,7 +213,22 @@ falsifieurs:
     tranche_par: non-tranche
     note: >
       NE PAS FERMER (auteur, 2026-09-08). L'accusation de dissimulation échoue
-      TROIS fois : l'adversaire déclare l'hypothèse (L18.C11, L18.C14, L18.C16).
+      QUATRE fois, et la quatrième n'est pas de même nature : le traité de
+      référence du débat déclare les DEUX paradigmes NON FALSIFIABLES et le
+      débat indécidable même sous accord sur l'objet et la méthode (L18.C18).
+      L'accusation perd son objet, ET LA MÊME DÉCLARATION FRAPPE LE CORPUS :
+      la non-substituabilité qu'il suppose est aussi peu falsifiable que la
+      substituabilité qu'il conteste.
+      F13 SORT RENFORCÉ DE CETTE LECTURE. Le même auteur tient que la
+      soutenabilité forte exige une mesure SÉPARÉE par forme critique de
+      capital naturel, que ces mesures « defy aggregation », et qu'une mesure
+      globale unique est trompeuse et inutile — confirmation INDÉPENDANTE de
+      F13, venue de l'économie et non des sciences du système terrestre. La
+      réserve « un cadre, pas un consensus » est levée pour partie. BORNE :
+      l'auteur conclut d'un EXAMEN DES INDICATEURS EXISTANTS, il ne démontre
+      pas une impossibilité formelle.
+      Les trois autres occurrences subsistent : l'adversaire déclare
+      l'hypothèse (L18.C11, L18.C14, L18.C16).
       Solow nomme la condition, la qualifie de conjecture et publie son
       alternative — en dessous de l'unité, consommation soutenable NULLE.
       Une mesure adjacente existe (L18.C17) : 0,64 à court terme, intervalle
@@ -212,8 +236,17 @@ falsifieurs:
       ET N'EST PAS ARBITRÉE.
     acquisition_bloquante: >
       Estimation de l'élasticité de substitution portant sur LES RESSOURCES en
-      général, spécification comparable à Solow, postérieure à 2006. Et le
-      versant théorique du camp adverse : Hartwick, Pearce & Atkinson, Neumayer.
+      général, spécification comparable à Solow, postérieure à 2006. SEULE
+      ACQUISITION ENCORE BLOQUANTE POUR F13 AU 2026-09-08.
+      NEUMAYER EST ACQUIS ET OUVERT (L18.C18), fourni par l'auteur en Open
+      Access. HARTWICK 1977 et PEARCE & ATKINSON 1993 sont DÉCLARÉS
+      INACCESSIBLES par l'auteur le 2026-09-08 — le premier introuvable, les
+      seconds payants. Le corpus tient donc l'EXPOSÉ du camp adverse par un de
+      ses analystes, NON SES TEXTES FONDATEURS : l'acquisition n'est pas levée,
+      elle est contournée, et cela doit être déclaré partout.
+      À OUVRIR, ET DÉJÀ SUR LE DISQUE : les chapitres 3 et 6 de Neumayer, qui
+      portent respectivement l'argument de non-falsifiabilité et le refus de
+      l'agrégation. Le corpus tient les conclusions sans leurs démonstrations.
   - id: F14
     objet: "L'additivité structurelle"
     statut: ouvert
@@ -247,6 +280,34 @@ pieces_de_conception_manquantes:
       Neuf voies indépendantes y mènent (L25.C07), et cinq mécanismes désignent
       le même perdant : celui dont la pratique n'entre pas dans la grille.
       Le corridor est chiffrable en agrégat et VIDE EN COMPOSITION.
+      RÉPONSE PARTIELLE VERSÉE LE 2026-09-08 PAR L18.C18, ET ELLE PORTE SUR LA
+      NATURE DU CRITÈRE, NON SUR SON CONTENU : le seuil de coût acceptable
+      « is not a scientific, but an ethical and political question ». C'est une
+      CONTRAINTE — elle interdit de présenter le seuil comme un résultat de
+      mesure — et non une solution. Trois candidats institutionnels sont
+      nommés par la source : démocratie délibérative, référendums fictifs,
+      assemblées citoyennes. AUCUN N'EST INSTRUIT PAR LE CORPUS.
+
+  - id: PARTAGE-SOURCE-PUITS
+    objet: "De quel côté de l'économie la qualification régénérative mord-elle"
+    statut: ouvert
+    tranche_par: non-tranche
+    note: >
+      DÉCOUVERTE LE 2026-09-08 PAR L18.C18, ET ELLE COMMANDE QUI, DANS LA
+      LITTÉRATURE, SE TROUVE D'ACCORD AVEC LE DISPOSITIF. Le traité de
+      référence du débat ne conclut pas pour un camp : il conclut PAR CÔTÉ DE
+      L'ÉCONOMIE. La substituabilité est mieux soutenue pour le capital naturel
+      pris comme ENTRÉE DE PRODUCTION (côté SOURCE) ; la non-substituabilité
+      est mieux soutenue pour la CAPACITÉ D'ABSORPTION DES POLLUTIONS et
+      l'agrément direct (côté PUITS).
+      CONSÉQUENCE POUR LE DISPOSITIF : il n'est du côté soutenu que si la
+      grandeur qu'il qualifie est une grandeur de PUITS. Si elle porte sur des
+      prélèvements de matières et de ressources non renouvelables, le même
+      auteur écrit qu'AUCUNE politique explicite de préservation ne se
+      justifie.
+      LE CORPUS N'A JAMAIS TRANCHÉ CE PARTAGE. Il a construit une
+      qualification régénérative sans dire de quel côté elle mord. À trancher
+      avec A42 et CRITERE-L25.
 
   - id: MODELE-ADVERSAIRE
     objet: "Qui gagne quoi à falsifier une qualification régénérative"

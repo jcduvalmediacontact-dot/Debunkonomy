@@ -3565,3 +3565,58 @@ corpus avait construit F13 en supposant un présupposé caché. Il ne
 l'était pas.** **C'est ce qui arrive quand on tient une position depuis un seul
 camp** — et le corpus avait déclaré ce défaut quatre fois avant de le
 vérifier ici.
+
+
+### F13 — CONFIRMATION INDÉPENDANTE LE 2026-09-08 PAR L18.C18, ET ELLE VIENT DE L'ÉCONOMIE
+
+**LA RÉSERVE QUI BORNAIT F13 EST LEVÉE POUR PARTIE, ET PAS PAR OÙ LE CORPUS
+L'ATTENDAIT.** Cette réserve portait que « le corpus tient UN CADRE, PAS UN
+CONSENSUS », faute d'avoir ouvert une critique publiée des neuf limites
+planétaires. **La confirmation ne vient pas d'une seconde équipe de sciences du
+système terrestre : elle vient du traité de référence du débat entre
+soutenabilité faible et soutenabilité forte, par un autre chemin, et elle atteint
+la même conclusion.**
+
+**CE QUE LA SOURCE ÉTABLIT.** *« SS understood as preserving specified critical
+forms of natural capital requires separate measures for each critical form. These
+separate measures DEFY AGGREGATION into one overall measure or indicator. »* Et :
+*« the idea of one single overall measure of SS is MISLEADING AND UNHELPFUL in
+the quest for SS. »*
+
+**POURQUOI C'EST UNE MAUVAISE NOUVELLE POUR LE DISPOSITIF, ET IL FAUT LE NOMMER.**
+Une émission monétaire allouée contre une qualification a besoin d'un scalaire :
+il faut bien qu'un montant sorte. **Si la grandeur à qualifier se refuse à
+l'agrégation, le montant émis ne mesure pas la régénération — il mesure une
+convention de pondération.** **F13 est le falsifieur qui peut faire tomber le
+barème, et il sort renforcé.**
+
+**LA BORNE, ET ELLE EST DANS LE TEXTE.** L'auteur ne démontre pas une
+impossibilité formelle : **il conclut d'un examen des indicateurs existants.**
+Le corpus tient donc qu'un auteur de référence, après examen des mesures
+disponibles, tient l'agrégation pour trompeuse et inutile. **Il ne tient pas
+qu'elle est démontrée impossible**, et le chapitre qui porte cet examen n'est pas
+ouvert.
+
+**LA TROISIÈME VOIE DE F13 EST LA SEULE QUE CE TEXTE LAISSE OUVERTE.** F13
+proposait trois issues : émettre par dimension, émettre sur une seule dimension,
+ou émettre sur une agrégation **assumée comme politique**. **Le même auteur écrit
+que le seuil de coût acceptable « is not a scientific, but an ethical and
+political question ».** **Un dispositif qui déclare sa pondération politique,
+révisable et attaquable, respecte cette contrainte ; un dispositif qui la présente
+comme un fait scientifique la viole.**
+
+**ET L'ACCUSATION DE DISSIMULATION ÉCHOUE UNE QUATRIÈME FOIS, AUTREMENT.** Les
+trois premières occurrences établissaient qu'un adversaire ÉNONCE l'hypothèse
+qu'on l'accuse de dissimuler. **Celle-ci énonce davantage : que la question est
+INDÉCIDABLE**, la substituabilité cessant d'être une conjecture réfutable dès
+qu'elle porte sur l'avenir. **L'accusation ne perd pas seulement une quatrième
+fois : elle perd son objet.**
+
+**CE QUE CELA COÛTE AU CORPUS, ET LE COÛT EST RÉEL.** La même déclaration frappe
+sa propre position : *« any call for the preservation of natural capital can rest
+on PERSUASIVE ARGUMENTS AT BEST. »* **Le corpus ne peut plus présenter la
+soutenabilité forte comme la position que les faits établissent et la
+soutenabilité faible comme une croyance.** **Ce qui distingue les deux n'est donc
+pas leur statut épistémique mais l'ASYMÉTRIE DES CONSÉQUENCES EN CAS D'ERREUR —
+et cet argument-là, le corpus ne l'a pas encore construit.** **C'est une pièce à
+écrire, et elle est de rang 1.**
