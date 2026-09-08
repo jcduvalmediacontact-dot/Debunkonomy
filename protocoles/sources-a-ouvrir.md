@@ -1410,3 +1410,112 @@ sourcé ». **« Couvert » est donc une propriété
 DOCUMENTAIRE et non une propriété CONTRADICTOIRE : cela ne dit pas qu'une
 objection est traitée.** **Le mot ne doit jamais migrer dans le corpus sous la
 forme « traité ».**
+
+
+# Ouverture et corrections du 2026-09-08 (suite) — L'EROI, ET CE QUE `LIBRE` VEUT DIRE
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**A. K. Gupta et C. A. S. Hall, « A Review of the Past and Current State of
+EROI Data », *Sustainability* 3(10), 2011, p. 1796-1809** — pièce
+L26-09. **DROITS : mention CC BY lue dans le document — `libre`.** Ouvert pour
+**L26.C08**. **Le second auteur est celui qui a forgé le concept de rendement
+énergétique net dans les années 1970 ; la source porte sur son propre
+objet un jugement que le corpus a repris.**
+
+**D. J. Murphy et al., *Sustainability* 14(12), 7098, 2022** — pièce
+L26-08, **déjà ouverte par L26.C03 le 2026-09-08 et RELUE le même jour
+pour son tableau 2**, qui n'avait pas été exploité. **Une source
+ouverte n'est pas une source épuisée** : la relecture a produit le
+résultat central de L26.C08.
+
+## DROITS — DEUX CORRECTIONS VÉRIFIÉES PAR L'AUTEUR, ET UNE DÉFINITION QUI VAUT POUR TOUT LE FONDS
+
+**Les deux réserves portées plus haut sur le fonds sont levées par
+vérification directe de l'auteur le 2026-09-08.**
+
+**L24-10, Agence internationale de l'énergie, *Global Critical Minerals
+Outlook 2026*** — le document indique **CC BY 4.0**, sous réserve de la
+notice propre de l'agence et des contenus tiers. **`libre` est maintenu.**
+
+**L24-09, UNESCO, *World Water Development Report 2024*** — **CC BY-SA 3.0 IGO
+POUR LES TEXTES SEULEMENT** ; **images et contenus tiers restent exclus.**
+**`libre` est maintenu, au texte seul.**
+
+**ET LA CATÉGORIE EST REDÉFINIE, CE QUI IMPORTE PLUS QUE LES DEUX
+CORRECTIONS.** **`libre` signifie désormais, dans tout le corpus :
+RÉUTILISABLE SOUS LES CONDITIONS INDIQUÉES.** **Il ne signifie PAS
+« PDF intégralement exploitable sans contrôle ».**
+
+**CONSÉQUENCES PRATIQUES, ET ELLES SONT CONTRAIGNANTES.** Une mention `libre`
+n'autorise jamais à verser un PDF entier au dépôt. Elle n'emporte
+rien sur les **figures, photographies, logos et contenus tiers**, qui restent
+à contrôler pièce par pièce. Et **une clause de partage à
+l'identique — le SA de CC BY-SA — se propage à ce qu'elle
+touche** : le corpus étant sous CC-BY-SA-4.0, la compatibilité doit
+être vérifiée et non supposée.
+
+**RÈGLE RETENUE, INCHANGÉE ET CONFIRMÉE : le corpus ne retient `libre`
+qu'après lecture de la mention DANS LE DOCUMENT.** L'auteur a procédé
+ainsi pour ces deux pièces ; le corpus l'a fait pour les pièces L26-09 et
+L26-12.
+
+## LES IPSAS RESTENT FERMÉES — CONFIRMÉ PAR L'AUTEUR LE 2026-09-08
+
+**« Nous travaillerons uniquement à partir de notes humaines ou de sources
+publiquement réutilisables. »** **La décision est donc stable et n'est
+plus à redébattre à chaque tranche.**
+
+## F13 — CORPUS CONTRADICTOIRE À CONSTITUER, NOMMÉ PAR L'AUTEUR LE 2026-09-08
+
+**Le falsifieur N'EST PAS FERMÉ.** L17.C05 avait établi que F13 est une
+**adhésion à la soutenabilité forte** et non une découverte du
+corpus ; l'auteur confirme et nomme la position adverse à ouvrir.
+
+**ACQUISITIONS DE RANG 1, PAR ORDRE D'URGENCE DÉCROISSANTE.**
+
+**Les travaux de COMPTABILITÉ DE LA RICHESSE de la Banque mondiale.** **C'est
+le plus dangereux des cinq, et pour une raison de nature** : ce n'est pas une
+thèse mais **une comptabilité EN VIGUEUR, produite par une institution
+mondiale, qui AGRÈGE le capital naturel avec les autres formes de capital.**
+**C'est F13 mis en œuvre à l'envers et à grande échelle** — et
+le corpus ne peut pas soutenir qu'une agrégation est impossible pendant qu'une
+institution la publie chaque année.
+
+**Neumayer.** La synthèse critique du débat entre soutenabilité faible
+et forte, écrite par quelqu'un qui expose les deux camps. **C'est
+l'acquisition la plus économique : elle donne l'état de la controverse en
+un seul texte.**
+
+**Solow. Hartwick.** La position adverse dans sa formulation fondatrice — la
+substituabilité entre capital naturel et capital produit, et la règle
+d'investissement qui la rend soutenable dans le temps.
+
+**Pearce et Atkinson.** La mise en mesure de cette position, c'est-à-dire
+l'indicateur qui en découle.
+
+**TANT QUE CETTE LISTE N'EST PAS OUVERTE, LE CORPUS DOIT ÉCRIRE QUE F13 EST UNE
+POSITION ET NON UN RÉSULTAT.**
+
+## CE QUE L26.C08 A DEMANDÉ ET QUE LE FONDS NE CONTIENT PAS
+
+**La quatrième frontière — LE SERVICE FINAL.** Les deux revues d'EROI
+s'arrêtent au point d'usage. Le service final suppose une comptabilité en
+**travail utile ou en exergie de service**, qu'aucune pièce du fonds ne tient.
+**ACQUISITION DE RANG 1 : les travaux d'exergie utile** — dont L17.C01 a
+déjà établi qu'ils constituent **le seul poste où le
+découplage relatif n'est PAS observé**, ce qui en fait le lieu le plus
+défavorable au dispositif et le moins documenté par le corpus.
+
+**LE STOCKAGE.** Aucun chiffre, dans aucune des deux revues, alors que
+l'intermittence en fait le poste qui décide du rendement d'un système
+électrique renouvelable.
+
+**LE DÉMANTÈLEMENT.** Présent comme **mention** et non comme valeur, la
+source précisant elle-même que **« not all studies include the same scope
+of analysis »**.
+
+**ET AUCUNE SÉRIE POSTÉRIEURE À 2022.** La revue de 2011 extrapolait un
+rendement de 1:1 **« as soon as about 2022 »** ; nous sommes en 2026 et cela
+n'a pas eu lieu. **Le corpus a besoin d'une série récente, non d'une
+extrapolation de plus.**

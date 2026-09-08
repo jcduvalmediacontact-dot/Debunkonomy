@@ -4125,3 +4125,70 @@ NE VIENNENT PAS AVEC ELLE.**
 **Ce que la règle n'interdit pas.** Argumenter contre un auteur dont on
 reprend le diagnostic est licite. **Ce qu'elle impose est de l'écrire ainsi**,
 et non de présenter comme un héritage ce qui est une divergence.
+
+
+---
+
+## A39 — ARBITRÉ LE 2026-09-08 PAR L'AUTEUR, DANS LA FORME ET NON DANS LA VALEUR
+
+**LA DÉCISION.** **Le corpus ne retiendra AUCUN COEFFICIENT UNIQUE.** Il
+poursuivra avec **plusieurs frontières comparables — extraction, énergie
+livrée, point d'usage et SERVICE FINAL —** en intégrant, là où les
+données le permettent, **transformation, stockage, réseau, maintenance et
+démantèlement**. **A39 et F11 NE POURRONT ÊTRE CLOS PAR UN COEFFICIENT
+UNIQUE : il faudra une ANALYSE DE SENSIBILITÉ et LA PUBLICATION DES CONVENTIONS
+DE CALCUL.**
+
+**CE QUE CELA TRANCHE, ET CE QUE CELA NE TRANCHE PAS.** **Cela tranche la FORME
+de la réponse** — une échelle et une plage, non un nombre. **Cela ne
+tranche aucune valeur**, et n'en autorise aucune : le corpus reste sans chiffre
+pour toute technologie.
+
+**EXÉCUTÉ LE JOUR MÊME PAR L26.C08.** Le chapitre construit l'échelle
+sur trois des quatre frontières demandées et **déclare que la
+quatrième — le service final — n'est couverte par aucune source
+ouverte**, faute d'une comptabilité en travail utile. **La source elle-même
+fonde la décision** : « **it is unreasonable to expect to arrive at a SINGLE
+VALUE (or a very tight range of estimates)** ». **Le refus du coefficient
+unique n'est donc pas une prudence du corpus : c'est une propriété de la
+grandeur.**
+
+## A41 — ARBITRÉ LE 2026-09-08 PAR L'AUTEUR, LE JOUR MÊME DE SA POSITION
+
+**LA RÈGLE, DANS LES TERMES DE L'AUTEUR.** Le terme « entropie » ne
+pourra désormais apparaître **au sens physique** que si le passage
+précise : **la grandeur effectivement étudiée ; son unité ou son
+indicateur ; la frontière du système ; la méthode de mesure ou de calcul ;
+le résultat empirique susceptible de réfuter l'affirmation.**
+
+**À défaut, le terme devra être explicitement qualifié de
+métaphore et NE POURRA SOUTENIR AUCUNE DÉDUCTION CAUSALE, INSTITUTIONNELLE
+OU NORMATIVE.** **Les emplois qui ne sont ni mesurés ni déclarés
+métaphoriques devront être SUPPRIMÉS OU REMPLACÉS** par des termes
+autonomes : flux matériel, dissipation, exergie, énergie utile,
+irréversibilité, dégradation, perte.
+
+**PORTÉE RÉTROSPECTIVE, SANS RÉÉCRITURE IMMÉDIATE.** L'auteur
+demande d'abord **la liste des passages concernés et leur classement**.
+
+**EXÉCUTÉ LE JOUR MÊME.** L'inventaire est porté à
+`protocoles/inventaire-entropie.md` : **73 occurrences dans 27 fichiers, classées
+en six classes.** **RÉSULTAT PRINCIPAL : AUCUN EMPLOI NE SATISFAIT LES CINQ
+CONDITIONS — le corpus n'a jamais mesuré une entropie.** **Mais SIX
+occurrences seulement appellent une réécriture**, trente-deux étant des
+mentions rapportées et neuf servant à BORNER une inférence plutôt
+qu'à en tirer une.
+
+**LES DEUX POINTS OÙ LA RÈGLE MORD, ET ILS SONT AU CENTRE.** **L1.C15** tire
+une déduction institutionnelle non mesurée — « la création
+monétaire est couplée à la production d'entropie » — et porte le
+concept de tête `essentiel_insolvable` ; **sa proposition survit à la
+réécriture et en sort vérifiable**, puisqu'elle portera sur des flux et
+des stocks. **Et le quatrième fondement de F11 est « production d'entropie »**
+— or **un fondement de falsifieur non mesurable ne falsifie rien**, et c'est
+précisément là que la cinquième condition est obligatoire.
+
+**PREMIÈRE APPLICATION FAITE.** Les conditions d'emploi sont portées dans
+l'entrée `entropie` du vocabulaire contrôlé. **Le vocabulaire bloquant la
+publication, la règle devient opposable à TOUT CHAPITRE FUTUR sans qu'aucun
+chapitre existant soit touché.**

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -38,9 +38,22 @@ verifications_en_attente:
      condition de bouclage du dispositif.** C'est la famille la plus proche de ce
      que le Livre 13 doit construire, et la vérification la plus rentable du
      chapitre."
+  - "**UNE SECONDE EXIGENCE DE CONCEPTION EST VERSÉE SUR LE LIVRE 13 LE
+     2026-09-08 PAR L26.C08, ET ELLE PORTE SUR LA STRUCTURE DE DONNÉES.** Ce
+     chapitre avait établi que le simulateur devra pouvoir montrer son propre
+     échec. **S'y ajoute qu'il NE POURRA PAS CONTENIR UN COEFFICIENT ÉNERGÉTIQUE
+     PAR TECHNOLOGIE.** L'arbitrage A39 interdit le coefficient unique ; le
+     simulateur devra donc porter, pour chaque technologie, **une FRONTIÈRE
+     déclarée, une CONVENTION déclarée et une PLAGE**. **C'est une contrainte sur
+     la forme des données avant même que le modèle soit choisi, et elle n'est
+     inscrite nulle part.** **S'y ajoute une boucle** : le facteur de conversion
+     vers l'énergie primaire dépend de la composition du réseau, donc de
+     l'avancement de la transition — **un barème calibré aujourd'hui devient faux
+     à mesure qu'il réussit**, et le corpus n'a aucun mécanisme de
+     recalibrage."
 resume: "Ce chapitre porte le livre du corpus qui doit fournir le simulateur du dispositif et qui compte zéro chapitre acquis, et il établit que le choix d'une famille de modèles n'est pas une décision technique reportable. Il déclare qu'aucune source n'est en sa possession et que sa restitution de la controverse est de mémoire. Il situe le débat ouvert après la crise financière : les modèles d'équilibre alors dominants décrivaient une économie ramenée à sa trajectoire par des mécanismes correcteurs, et l'objection leur fait grief de ne pas pouvoir produire de crise endogène, les perturbations y venant toujours de l'extérieur. Il expose les trois réponses apportées, l'ajout de frictions financières, l'abandon de l'agent représentatif au profit de populations hétérogènes en interaction, et le retour à des maquettes comptables où tout flux sortant d'un secteur entre dans un autre. Il établit que cette troisième famille est la plus proche de ce que le dispositif exige, puisque sa condition de bouclage est exactement une contrainte de cohérence entre flux et non un comportement d'agents. Il en tire que le corpus a construit une condition de bouclage sans savoir qu'une famille de modèles en fait son principe organisateur, et que le Livre 13 devrait partir de là plutôt que du cadre dominant. Il relève enfin que la question de savoir si un modèle d'équilibre peut produire une crise vise le dispositif lui-même, dont la thèse est qu'un système peut se diriger vers un mur sans qu'aucun de ses mécanismes ne le signale."
 concepts: [robustesse, reflux_monetaire, contrepartie_comptable, indicateur_de_progres, polycrise]
-renvois: [L8.C01, L8.C22, L8.C26, L8.C32, L8.C36, L8.C38, L11.C02, L11.C03, L11.C17]
+renvois: [L8.C01, L8.C22, L8.C26, L8.C32, L8.C36, L8.C38, L11.C02, L11.C03, L11.C17, L26.C08]
 ---
 
 # La macroéconomie après 2008 : un modèle d'équilibre peut-il produire une crise

@@ -3157,3 +3157,67 @@ du § 36 : « **when driving a car, A METER THAT ADDED UP IN ONE SINGLE NUMBER T
 CURRENT SPEED OF THE VEHICLE AND THE REMAINING LEVEL OF GASOLINE WOULD NOT BE OF
 ANY HELP TO THE DRIVER** ». **Et la recommandation 12, qui renvoie l'environnement
 à « A SEPARATE FOLLOW-UP BASED ON A WELL-CHOSEN SET OF PHYSICAL INDICATORS ».**
+
+
+## F11 — CESSE D'ÊTRE INDÉCIDABLE SANS DEVENIR DÉCIDABLE, LE 2026-09-08, PAR L26.C08
+
+**ÉTAT ANTÉRIEUR.** L26.C03 avait déclaré F11 **indécidable** :
+deux équipes publiaient sur les mêmes technologies des rapports variant d'un
+facteur quatre, et le désaccord tenait à une convention de périmètre
+qu'aucune règle ne fixait.
+
+**CE QUI CHANGE.** **A39 a été tranché dans sa forme** : plusieurs
+frontières comparables, analyse de sensibilité, publication des conventions.
+**F11 devient donc CONDITIONNEL** — il pourra être éprouvé dès
+que ces trois conditions seront réunies sur un cas, **et elles ne le sont sur
+aucun.**
+
+**CE QUE L26.C08 APPORTE, ET QUI N'EST PAS UNE VALEUR.** **Le plafond imposé
+par la seule chaîne d'aval, indépendant de la qualité du gisement** : en
+supposant un rendement INFINI à l'extraction, le pétrole plafonne à
+**8,7**, le gaz à **5,6**, les granulés de bois à **1,6**. **L'ordre de
+grandeur des écarts entre frontières** : un gaz de schiste passe de **83 à
+l'extraction à 5,2 au point d'usage**. **Un biais d'optimisme mesuré
+d'environ un quart** entre études conceptuelles et études d'exploitation.
+**Et une dispersion de deux ordres de grandeur sur le nucléaire — de
+presque 60:1 à moins de 1:1 — attribuée aux frontières de
+système.**
+
+**UNE RAISON SUPPLÉMENTAIRE DE NE PAS CLORE, ET ELLE VIENT DE L'INVENTEUR DU
+CONCEPT.** La revue de 2011 écrit que peu d'études ont été
+menées depuis les années 1980, que celles-ci sont « **often marked more
+by ADVOCACY THAN OBJECTIVITY** », et que les décisions se prennent « **on a
+VERY MEAGER ANALYTICAL AND DATA BASE** ». **Le corpus ne peut pas fonder un
+falsifieur sur une grandeur dont l'inventeur déclare la base de
+données maigre** — non que la grandeur soit fausse, mais parce qu'un
+falsifieur exige une mesure qui tranche.
+
+**ET UN DE SES QUATRE FONDEMENTS TOMBE SOUS A41.** Le fondement « production
+d'entropie » n'est adossé à aucune mesure, aucune frontière et
+aucune méthode. **À retirer ou à remplacer par « irréversibilité
+mesurée à une frontière déclarée ».** **Les trois autres
+survivent.**
+
+## F13 — NE PAS FERMER. LE CORPUS ADVERSE EST NOMMÉ LE 2026-09-08 PAR L'AUTEUR
+
+**L'AUTEUR CONFIRME LE DIAGNOSTIC DE L17.C05 ET EN TIRE LA CONSÉQUENCE.**
+L17.C05 avait établi que **F13 n'est pas une découverte du corpus mais une
+ADHÉSION à l'école de la soutenabilité forte**, dont le corpus n'a lu
+aucun des deux camps. **Décision : LE FALSIFIEUR RESTE OUVERT.**
+
+**LE CORPUS CONTRADICTOIRE À CONSTITUER, NOMMÉ PAR L'AUTEUR.** **Solow.
+Hartwick. Pearce et Atkinson. Neumayer.** **Et les travaux de COMPTABILITÉ DE LA
+RICHESSE de la Banque mondiale.**
+
+**POURQUOI CETTE LISTE EST LA BONNE, ET POURQUOI ELLE EST EXIGEANTE.** Les quatre
+premiers portent la position adverse dans son état le plus argumenté —
+la substituabilité du capital naturel et du capital produit, la règle
+d'investissement qui la rend soutenable, et la synthèse critique du débat.
+**Le cinquième est différent et il est le plus dangereux** : ce n'est pas
+une thèse mais **une comptabilité en vigueur, produite par une institution
+mondiale, qui AGRÈGE le capital naturel avec les autres formes de capital.**
+**C'est F13 mis en œuvre à l'envers, et à grande échelle.**
+
+**TANT QUE CETTE LISTE N'EST PAS OUVERTE, LE CORPUS DOIT ÉCRIRE QUE F13 EST UNE
+POSITION ET NON UN RÉSULTAT.** **Un troisième document du même camp ne
+transforme pas une adhésion en découverte.**

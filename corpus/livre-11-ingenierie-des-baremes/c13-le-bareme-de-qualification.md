@@ -100,9 +100,22 @@ verifications_en_attente:
      décision normative d'une évaluation descriptive, et **c'est à lui d'établir qu'il
      échappe à l'objection**, la famille d'opérations à laquelle il appartient y étant
      exposée."
+  - "**TROIS CONTRAINTES DE CONCEPTION SONT VERSÉES SUR CE CHAPITRE LE
+     2026-09-08 PAR L26.C08.** **(1)** Une qualification qui s'appuierait sur un
+     rendement énergétique doit **NOMMER SA FRONTIÈRE, PUBLIER SA CONVENTION DE
+     CONVERSION ET DONNER SA PLAGE DE SENSIBILITÉ**, faute de quoi elle n'est pas
+     auditable — l'arbitrage A39 l'impose et la source l'établit. **(2)** Le
+     barème doit porter sur des **CHAÎNES D'APPROVISIONNEMENT ET NON SUR DES
+     FAMILLES TECHNOLOGIQUES** : dans la seule biomasse solide, les plaquettes de
+     bois valent **32** et les granulés **1,6**, soit un facteur vingt à
+     l'intérieur d'une case que tout barème traiterait d'un bloc. **(3)** Un
+     **BIAIS D'OPTIMISME D'ENVIRON UN QUART** sépare l'étude conceptuelle de
+     l'étude d'exploitation — moyenne de **24,6:1** contre **18,1:1** sur 112
+     turbines — **et ce chapitre établit que le barème en vigueur certifie un
+     procédé SUR DOSSIER**, donc du côté défavorable de ce biais."
 resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."
 concepts: [qualification_regenerative, bareme, creation_monetaire, additionnalite, degeneratif, essentiel_insolvable]
-renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07]
+renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08]
 ---
 
 # Le barème de qualification

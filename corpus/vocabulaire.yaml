@@ -56,7 +56,19 @@
 
 - terme: entropie
   libelle: "Entropie"
-  definition: "Grandeur thermodynamique qui décrit la dispersion de l'énergie et dont la production est non négative dans les transformations réelles d'un système isolé."
+  definition: "Grandeur thermodynamique qui décrit la dispersion de l'énergie et dont la production est non négative dans les transformations réelles d'un système isolé.
+               CONDITIONS D'EMPLOI, arbitrage A41 du 2026-09-08 : au sens
+               PHYSIQUE, le passage doit préciser la grandeur étudiée,
+               son unité ou son indicateur, la frontière du système,
+               la méthode de mesure ou de calcul, et le résultat
+               empirique susceptible de réfuter l'affirmation. À
+               défaut, le terme doit être explicitement qualifié de
+               MÉTAPHORE et NE PEUT SOUTENIR AUCUNE DÉDUCTION causale,
+               institutionnelle ou normative. Les emplois qui ne sont ni
+               mesurés ni déclarés métaphoriques sont
+               supprimés ou remplacés par un terme autonome : flux
+               matériel, dissipation, exergie, énergie utile,
+               irréversibilité, dégradation, perte."
   premiere_occurrence: L1.C03
 
 - terme: sobriete

@@ -45,9 +45,23 @@ verifications_en_attente:
      livre demandait un flux comparé à un besoin ; ce chapitre tient des
      RAPPORTS, non des quantités. **Le corpus sait maintenant ce que rend une
      unité investie, et toujours pas combien d'unités sont disponibles.**"
+  - "**A39, POSÉ PAR CE CHAPITRE, EST TRANCHÉ LE 2026-09-08 — DANS LA FORME
+     ET NON DANS LA VALEUR.** L'auteur décide qu'AUCUN COEFFICIENT UNIQUE ne sera
+     retenu : plusieurs frontières comparables, **analyse de sensibilité et
+     publication des conventions de calcul**. **F11 CESSE DONC D'ÊTRE
+     INDÉCIDABLE SANS DEVENIR DÉCIDABLE : il devient CONDITIONNEL**, éprouvable
+     dès que ces trois conditions seront réunies sur un cas — et elles ne le sont
+     sur aucun. **L26.C08 exécute la décision et ajoute le résultat que ce
+     chapitre n'avait pas vu** : la chaîne postérieure à l'extraction PLAFONNE le
+     rendement à elle seule, un rendement INFINI à l'extraction laissant le
+     pétrole à **8,7**, le gaz à **5,6** et les granulés de bois à **1,6**. **Le
+     désaccord de périmètre que ce chapitre avait identifié est donc mesurable
+     dans son ampleur** : un gaz de schiste passe de **83 à l'extraction à 5,2 au
+     point d'usage**. **Et la source fonde elle-même l'arbitrage** : « **it is
+     unreasonable to expect to arrive at a SINGLE VALUE** »."
 resume: "Ce chapitre ouvre les deux harmonisations mondiales publiées du rendement énergétique net et constate qu'elles se contredisent d'un facteur voisin de quatre sur les mêmes technologies, ce qui rend la branche énergétique du falsifieur onze chiffrable sans la rendre décidable. La première conclut que les carburants fossiles, une fois comptée toute la chaîne qui va du gisement au point d'usage, tombent tous sous dix, le pétrole plafonnant à huit virgule sept quand bien même son rendement au puits vaudrait mille, tandis que l'électricité hydraulique, éolienne et photovoltaïque se tient au-dessus de dix. La seconde conclut qu'au périmètre du système entier, seule la grande hydroélectricité dépasse six, l'éolien terrestre valant deux virgule neuf, l'éolien en mer deux virgule trois, le photovoltaïque un virgule huit et le solaire à concentration moins de un. Le chapitre montre que ces deux résultats ne divergent pas sur la mesure, puisque au périmètre standard ils s'accordent, mais sur l'endroit où l'on ferme le système, et que cet endroit relève d'une convention déclarée et non d'une observation. Il en tire une règle de méthode et une conséquence pour le falsifieur, qui ne peut être ni déclenché ni écarté et qui exige donc de l'auteur une décision de périmètre. Il verse enfin deux résultats latéraux qui touchent le dispositif directement, le premier étant que le rendement énergétique est une grandeur locale variant du simple au quintuple selon le pays pour une même technologie, ce qui étend à l'énergie la contrainte de lieu établie sur l'eau et les sols, le second étant que la phase de transition elle-même peut réduire l'énergie disponible à la société pendant qu'augmente la consommation d'énergie primaire, phase que le dispositif a précisément vocation à financer."
 concepts: [entropie, decouplage, sobriete, limites_planetaires, robustesse, bareme]
-renvois: [L11.C10, L11.C13, L11.C24, L18.C04, L18.C09, L24.C03, L24.C04, L26.C01, L26.C02]
+renvois: [L11.C10, L11.C13, L11.C24, L18.C04, L18.C09, L24.C03, L24.C04, L26.C01, L26.C02, L26.C08]
 ---
 
 # La frontière décide du chiffre

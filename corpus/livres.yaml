@@ -3765,7 +3765,7 @@ livres:
       - "falsifieur — F11, LA CONTRAINTE PHYSIQUE, posé le 2026-09-07 sur arbitrage de l'auteur : ce livre est le seul qui puisse l'établir ou le réfuter"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 7
+    chapitres_acquis: 8
     note: >
       FRONTIERE AVEC LES LIVRES 18 ET 24, A TENIR. Le Livre 18 explique COMMENT
       MESURER ; le Livre 24 etablit CE QUI DOIT ETRE MAINTENU ; le Livre 26
@@ -4135,6 +4135,62 @@ livres:
       quatrieme loi non plus, le corpus tenant l'auteur par un texte de
       synthese ; et LE PROGRAMME EN HUIT POINTS N'A RECU AUCUNE INSTRUCTION DE
       FAISABILITE.
+      L26.C08 EXECUTE L'ARBITRAGE A39, RENDU LE 2026-09-08 DANS LA FORME ET NON
+      DANS LA VALEUR : aucun coefficient unique, plusieurs frontieres
+      comparables, analyse de sensibilite et publication des conventions de
+      calcul. Deux sources : la revue d'harmonisation de 2022, deja ouverte par
+      L26.C03 mais RELUE POUR SA STRUCTURE DE FRONTIERES, et la revue historique
+      de 2011 ecrite par l'inventeur du concept -- les deux libres, mentions
+      lues dans les documents.
+      RESULTAT PRINCIPAL : LA CHAINE D'AVAL PLAFONNE LE RENDEMENT MEME SI
+      L'EXTRACTION EST GRATUITE. En supposant un rendement INFINI a l'extraction,
+      le petrole plafonne a 8,7, le gaz a 5,6, le charbon a 10, l'ethanol de mais
+      a 1,6 et les granules de bois a 1,6. UNE PART DU DEBAT SUR LA RICHESSE DES
+      GISEMENTS EST DONC SANS OBJET POUR LA QUESTION QUE LE CORPUS POSE, puisque
+      le dispositif qualifie des activites dont l'energie arrive AU POINT
+      D'USAGE. Sur chiffres reels : un gaz de schiste passe de 83 a l'extraction
+      a 5,2 au point d'usage, FACTEUR SEIZE ; le petrole conventionnel a une
+      mediane de 4,2 ; le charbon dur 8,8.
+      ET L'ECART INTERIEUR A UNE FAMILLE PEUT DEPASSER L'ECART ENTRE FAMILLES :
+      plaquettes de bois 32, granules de bois 1,6, SOIT UN FACTEUR VINGT DANS LA
+      MEME CASE. Objection directe a toute qualification par famille
+      technologique : LE BAREME DOIT PORTER SUR DES CHAINES D'APPROVISIONNEMENT.
+      LA SENSIBILITE EST PUBLIEE PAR LA SOURCE ET NON CONSTRUITE PAR LE CORPUS :
+      deux jeux de resultats selon le facteur de conversion en energie primaire,
+      0,3 pour un reseau thermique et 0,7 pour un reseau decarbone. Sous 0,3,
+      l'electricite au charbon et au gaz se situe entre 10 et 12, du meme ordre
+      que les renouvelables intermittentes et AU-DESSUS du biogaz (2 a 5). ET LA
+      CONVENTION DEPEND DE L'ETAT DU RESEAU, DONC DU RESULTAT DE LA TRANSITION --
+      UN BAREME CALIBRE AUJOURD'HUI DEVIENT FAUX A MESURE QU'IL REUSSIT, boucle
+      de meme forme que celle relevee par L24.C05 sur les stocks.
+      CE QUE DIT L'INVENTEUR DU CONCEPT DE SA PROPRE GRANDEUR. Serie historique
+      non monotone : 30:1 aux Etats-Unis dans les annees 1950, 20:1 dans les
+      annees 1970, 11-18:1 au milieu des annees 2000 ; au niveau mondial 26:1 en
+      1992, 35:1 en 1999, 18:1 en 2006 -- ELLE MONTE AVANT DE REDESCENDRE, et
+      confondre la tendance seculaire avec la reponse a l'effort de forage serait
+      une faute. UNE PREVISION DE LA SOURCE A ETE DEMENTIE PAR LES FAITS : un
+      rendement de 1:1 etait extrapole "as soon as about 2022", et nous sommes en
+      2026 -- le corpus l'enregistre comme un resultat sur l'extrapolation
+      lineaire d'une grandeur non monotone. Dispersion du nucleaire de presque
+      60:1 a moins de 1:1, attribuee aux FRONTIERES DE SYSTEME. Et un biais
+      d'optimisme d'environ un quart entre etudes conceptuelles (24,6:1) et
+      etudes d'exploitation (18,1:1) sur 112 turbines.
+      LE JUGEMENT QUE LE CORPUS NE PEUT PAS TAIRE : peu d'etudes depuis les
+      annees 1980, souvent "marked more by ADVOCACY THAN OBJECTIVITY", et des
+      decisions prises "on a VERY MEAGER ANALYTICAL AND DATA BASE". LE CORPUS NE
+      PEUT DONC PAS FONDER UN FALSIFIEUR SUR UNE GRANDEUR DONT L'INVENTEUR
+      DECLARE LA BASE DE DONNEES MAIGRE.
+      F11 CESSE D'ETRE INDECIDABLE SANS DEVENIR DECIDABLE : IL DEVIENT
+      CONDITIONNEL, eprouvable des que frontiere, convention et plage seront
+      publiees sur un cas -- et elles ne le sont sur aucun.
+      RESERVES DECLAREES : LA QUATRIEME FRONTIERE DEMANDEE PAR L'ARBITRAGE -- LE
+      SERVICE FINAL -- N'EST COUVERTE PAR AUCUNE DES DEUX SOURCES, qui s'arretent
+      au point d'usage ; elle suppose une comptabilite en travail utile, dont
+      L17.C01 a etabli qu'elle est le seul poste ou le decouplage relatif n'est
+      PAS observe. LE STOCKAGE N'EST CHIFFRE NULLE PART alors que l'intermittence
+      en fait le poste decisif. Et le DEMANTELEMENT n'est present que comme
+      mention, la source precisant elle-meme que "not all studies include the
+      same scope of analysis".
 # ── MANQUES CONSTATÉS ────────────────────────────────────────────────────────
 #
 # Sans matricule, parce qu'aucune décision n'a été prise. Deux promesses du
