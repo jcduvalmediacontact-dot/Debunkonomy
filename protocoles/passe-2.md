@@ -4964,3 +4964,126 @@ pour conclure.**
 **LA RÈGLE PRÉCÉDENTE EST CONFIRMÉE ET ÉTENDUE.** L19.C09 avait établi qu'une
 révision de norme comptable peut DÉPLACER un résultat. **Ce cas établit qu'elle
 peut en INVERSER LE SIGNE.**
+
+
+## ÉTAT APRÈS LA NUIT DU 8 AU 9 SEPTEMBRE 2026 — CE QUI A CHANGÉ, ET CE QUI RESTE À L'AUTEUR
+
+**TREIZE CHAPITRES ÉCRITS, DIX SOURCES OUVERTES, AUCUNE PUBLICATION.** Le corpus
+passe de 316 à 329 chapitres. **Le contrôle passe sans blocage à chaque étape, et
+rien n'a été poussé.**
+
+### CE QUI A ÉTÉ OUVERT
+
+**Textes en vigueur.** Article II et article IV des statuts de la Banque
+internationale pour la reconstruction et le développement, dans leur version
+amendée en 2012. **La moitié de l'acquisition bloquante d'A37 est close.**
+
+**Le traité de référence du débat sur la soutenabilité.** Cinq chapitres sur sept
+de Neumayer, cinquième révision rédigée en 2024 : introduction, chapitre 2
+partiel, chapitres 3, 4, 5 et conclusions.
+
+**La critique du cadre des limites planétaires.** Biermann et Kim, 2020, revue de
+synthèse — **l'acquisition que F13 réclamait depuis le 2026-09-07.**
+
+**Le bilan annuel du cadre.** Planetary Health Check 2025, institut de Potsdam.
+
+**La comptabilité de la richesse des nations.** Rapport phare de la Banque
+mondiale, édition 2024, résumé exécutif et deux passages de méthode.
+
+**L'évaluation intergouvernementale des valeurs de la nature.** IPBES 2022,
+résumés exécutifs des chapitres 3, 4 et 6.
+
+### LES CINQ RÉSULTATS QUI COMMANDENT
+
+**UN — F13 A TROIS CONFIRMATIONS INDÉPENDANTES, ET LA CHARGE DE LA PREUVE A
+CHANGÉ DE CÔTÉ.** Sciences du système terrestre, économie de la soutenabilité,
+évaluation intergouvernementale. Cette dernière énonce avec sa cote la plus forte
+qu'aucun consensus n'existe sur les procédures d'agrégation. **Un dispositif qui
+agrège doit désormais expliquer pourquoi il fait ce qu'une évaluation
+intergouvernementale déclare sans procédure consensuelle.**
+
+**DEUX — LA MÊME ISSUE S'EST PRÉSENTÉE CINQ FOIS PAR CINQ CHEMINS, ET ELLE N'EST
+TOUJOURS PAS PRISE.** Assumer la pondération comme un choix politique déclaré,
+révisable et attaquable. **Elle vient désormais de l'adversaire lui-même** :
+Nordhaus recommande d'identifier l'objectif, d'écarter directement les tests
+coûts-bénéfices, et de rendre le coût de cet écart transparent, *« rather than
+allowing technicians to hide the choices in abstruse arguments »*. **C'est un
+arbitrage de l'auteur, et il commande le reste.**
+
+**TROIS — LE PARTAGE SOURCE / PUITS EST DEVENU LE POINT LE PLUS URGENT.** Le
+verdict du traité de référence est coupé par côté de l'économie : substituabilité
+mieux soutenue pour les ressources en entrée de production, non-substituabilité
+mieux soutenue pour la capacité d'absorption. **Le dispositif n'est du côté
+soutenu que si la grandeur qu'il qualifie est une grandeur de PUITS**, et le
+corpus n'a jamais tranché.
+
+**QUATRE — LA DESCENTE D'ÉCHELLE SE FAIT DÉJÀ, SANS MONNAIE, ET F10 S'EST
+DÉPLACÉ TROIS FOIS.** Des méthodes fondées sur l'analyse de cycle de vie
+traduisent les limites planétaires à l'échelle du produit et permettent d'évaluer
+si un impact tient dans sa part allouée. **Ce que le dispositif doit justifier
+n'est plus la mesure : c'est l'ajout monétaire, et cet argument n'est écrit nulle
+part.**
+
+**CINQ — LA FAMILLE D'INSTRUMENTS DU DISPOSITIF EST CLASSÉE EN DESSOUS D'UNE
+AUTRE PAR UNE SOURCE INTERGOUVERNEMENTALE.** Les instruments socioculturels et de
+droits coutumiers montrent un potentiel plus élevé que les instruments
+économiques et juridiques pour opérationnaliser les valeurs diverses. **Le corpus
+n'a jamais examiné ces deux familles. Tant qu'il ne l'a pas fait, il ne peut pas
+soutenir que son instrument est nécessaire.**
+
+### CE QUI EST FAVORABLE AU DISPOSITIF, ET IL FAUT LE PORTER AUSSI
+
+**L'objection de croissance verte est écartée** par un auteur qui ne défend pas la
+soutenabilité forte : les améliorations environnementales procèdent d'abord de
+choix de politique publique, non de la croissance.
+
+**Le motif de l'échec de la cible sur les incitations dommageables est orienté** :
+défaut de mécanisme de conformité, et périmètre de mandat sectoriel. **Un
+instrument monétaire porte sa contrainte dans son mécanisme et opère par
+l'économie : il est dirigé sur le mode d'échec constaté.**
+
+**Les valeurs de marché l'emportent quand l'arbitrage est inévitable**, ce qui est
+l'argument le plus direct pour placer la grandeur écologique DANS le mécanisme
+plutôt qu'en face.
+
+**On ne compare pas un rendement à un insubstituable** — la critique par le
+meilleur emploi des ressources rares est refusée par le traité de référence
+lui-même.
+
+**Atteindre la cible climatique ne suffit pas** : le mélange énergétique de
+moindre coût compatible avec deux degrés franchit cinq limites sur huit.
+
+### CE QUI EST DÉSORMAIS INTERDIT AU CORPUS
+
+**Présenter la soutenabilité forte comme établie et la faible comme une
+croyance.** Les deux sont non falsifiables, et le corpus l'est pour une autre
+raison que l'adversaire — parce que sa position est NORMATIVE.
+
+**Invoquer les préférences observées.** Elles sont majoritairement compatibles
+avec la substitution.
+
+**Attaquer la métrologie des comptes de richesse.** Leurs auteurs concéderont les
+lacunes et le résultat tiendra ; le défaut est le concept, non la mesure.
+
+**Se réclamer de la valeur de la nature pour fixer une échelle.** Les décisions de
+prélèvement sont marginales, les valeurs totales ne servent pas à en décider.
+
+**Citer un chiffre de comptabilité sans son édition, sa période et sa
+convention.** Une révision de méthode a inversé le signe du capital naturel entre
+deux éditions du même programme.
+
+### LES QUATRE ACQUISITIONS QUI RESTENT, PAR ORDRE
+
+**UN.** Les méthodes couplant limites planétaires et analyse de cycle de vie —
+**trois chapitres du corpus réclament désormais la même littérature.**
+
+**DEUX.** La section 6.5 de l'évaluation intergouvernementale, qui porte le guide
+d'opérationnalisation — **c'est ce que CRITERE-L25 cherche, et c'est sur le
+disque.**
+
+**TROIS.** L'ANNEXE J des statuts du Fonds monétaire international. **Les voies
+automatisées sont épuisées** : l'édition en ligne ne sert pas les annexes et le
+site institutionnel refuse tout. **Récupération manuelle nécessaire.**
+
+**QUATRE.** La citation de Nordhaus, à sa source de 1999. Elle porte l'argument le
+plus utile de la nuit et elle est de seconde main.
