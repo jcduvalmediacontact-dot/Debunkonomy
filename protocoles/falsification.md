@@ -2963,6 +2963,32 @@ rebond** — l'objection de L26.C04 ne vise donc pas le seul dispositif, et F14
 ne désigne pas un remède exempt de l'objection qui frappe le remède qu'il
 critique.
 
+### F14 : troisième chemin, le 2026-09-08 — « fails to displace »
+
+**L17.C02 a ouvert le texte de position que la revue systématique cite comme
+référence de la sobriété.** Sa sixième raison de douter du
+découplage énonce que le progrès technique « **is NOT DISRUPTIVE ENOUGH
+as it FAILS TO DISPLACE other undesirable technologies** ».
+
+**C'EST F14, MOT POUR MOT, ÉCRIT PAR D'AUTRES, SEPT ANS PLUS TÔT, À PARTIR
+D'UNE AUTRE LITTÉRATURE.** F14 a été proposé le 2026-09-08 par L26.C05
+à partir d'une statistique énergétique annuelle : qu'un instrument qui
+émet ne puisse produire que de l'ADDITION et jamais de la SUBSTITUTION.
+
+**LE CORPUS TIENT DÉSORMAIS F14 PAR TROIS CHEMINS INDÉPENDANTS** : une
+statistique d'une seule année [L26.C05], la conclusion d'une revue de 835
+articles [L17.C01], et l'énoncé d'un texte de position [L17.C02]. **Ce n'est
+toujours pas un arbitrage — il reste proposé — mais ce n'est plus une
+intuition, et sa faiblesse initiale (une seule année) est réparée.**
+
+**ET UNE EXTENSION EST SUGGÉRÉE, NON ARBITRÉE.** Le mot « addition »
+apparaît en trois jours sur **trois objets différents** : la capacité
+énergétique [L26.C05], la dépense induite [L26.C04], et **l'empreinte des
+services** — « services have a significant footprint that often ADDS TO, rather
+than substitute, that of goods » [L17.C02]. **F14 pourrait être plus large que
+sa formulation actuelle ne le porte**, et le corpus le signale sans l'élargir
+de sa propre autorité.
+
 
 ## F7 — CE QUE L19.C03 LUI AJOUTE LE 2026-09-08 : LA RÈGLE N'EST PLUS SEULEMENT UNE QUESTION DE CRÉDIBILITÉ
 

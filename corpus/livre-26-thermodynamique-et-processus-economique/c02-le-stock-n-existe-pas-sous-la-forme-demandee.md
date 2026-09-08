@@ -46,9 +46,19 @@ verifications_en_attente:
      clear which definition of reserves is being used** ». **Le corpus emploie
      donc la meilleure série mondiale disponible en sachant qu'elle agrège des
      définitions hétérogènes**, et il ne peut pas la corriger."
+  - "**LA CAUSE DU COMPORTEMENT DES RÉSERVES EST TROUVÉE LE 2026-09-08 PAR L17.C02.**
+     Ce chapitre établit que les réserves croissent quand on y puise, **sans en donner
+     la raison physique.** La littérature de la sobriété la donne : « cheaper options
+     are generally used first, the extraction of remaining stocks then becoming a
+     MORE RESOURCE- AND ENERGY-INTENSIVE PROCESS ». **La réserve s'étend parce que le
+     prix et la technique rendent rentables des teneurs plus faibles, ET DES TENEURS
+     PLUS FAIBLES COÛTENT PLUS D'ÉNERGIE.** **Les deux propositions ne portent pas sur
+     le même objet — l'une sur la QUANTITÉ disponible, l'autre sur le COÛT
+     ÉNERGÉTIQUE PAR UNITÉ — et elles croissent ensemble.** **Le corpus tenait les deux
+     moitiés et ne les avait pas jointes.**"
 resume: "Ce chapitre répond à une commande passée par un autre livre et il y répond par la négative, ce qui est un résultat et non un échec. La tranche biophysique du corpus avait déclaré ne tenir que des flux et avait renvoyé ici l'établissement des stocks, afin que la contrainte physique cesse d'être une contrainte de débit pour devenir une contrainte d'épuisement. Le chapitre ouvre la seule série mondiale de stocks minéraux qui existe, publiée par l'agence géologique des États-Unis, et il y trouve que l'objet demandé n'a pas la forme sous laquelle il était demandé. Une réserve n'est pas une quantité physique restante mais la part de la ressource dont l'extraction est rentable au moment où on la détermine, c'est-à-dire un inventaire de travail des entreprises minières dont l'ampleur dépend du coût de forage, de la fiscalité, du prix et de la demande, et dont le compilateur écrit lui-même que la classification est nécessairement arbitraire et qu'il ne mesure rien directement. La source administre elle-même la démonstration sur le cuivre, en indiquant que le monde a extrait depuis mille neuf cent soixante-dix plus de deux fois et demie les réserves alors estimées et qu'il en détient aujourd'hui plus de trois fois et demie davantage. Le chapitre en tire deux conséquences pour le dispositif, dont une est un piège, puisqu'un barème indexé sur la rareté mesurée se retournerait contre son propre effet, la hausse de prix qu'il provoquerait augmentant la réserve déclarée. Il relève enfin que la même source désigne comme approvisionnement futur les stocks en usage et les gisements de rebut, ce qui rejoint exactement le réservoir inactif établi la veille par la théorie, et que ni l'un ni l'autre ne sont comptés."
 concepts: [entropie, bareme, limites_planetaires, decouplage, sobriete, fausse_richesse]
-renvois: [L1.C15, L11.C13, L11.C24, L18.C04, L22.C04, L24.C03, L24.C05, L26.C01]
+renvois: [L1.C15, L11.C13, L11.C24, L18.C04, L22.C04, L24.C03, L24.C05, L26.C01, L17.C02]
 ---
 
 # Le stock n'existe pas sous la forme demandée

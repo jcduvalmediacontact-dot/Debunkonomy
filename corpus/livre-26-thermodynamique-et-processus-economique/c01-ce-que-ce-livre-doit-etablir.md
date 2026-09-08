@@ -50,9 +50,20 @@ verifications_en_attente:
      **seule sa vérification en attente est soldée en partie.** **CE QUI RESTE :
      trois autres chapitres emploient l'argument entropique sans le répéter —
      L1.C15, L8.C13 et L8.C34 — et aucun n'est relu à ce jour.**"
+  - "**PRÉCISION PORTÉE LE 2026-09-08 PAR L17.C02, ET ELLE BORNE LE RÉSULTAT DE CE
+     CHAPITRE.** Le modèle ouvert ici établit que le recyclage intégral est
+     « perfectly consistent with the second law », **mais il suppose explicitement un
+     SYSTÈME EN RÉGIME PERMANENT**, masses active et inactive constantes. **La
+     littérature de la sobriété oppose que « recycling is STRICTLY LIMITED in its
+     ability to provide resources for AN EXPANDING MATERIAL ECONOMY ».** **LES DEUX
+     ÉNONCÉS NE SE CONTREDISENT PAS** : un cycle fermé peut entretenir un stock
+     constant, il ne peut pas alimenter une croissance du stock. **LE RÉSULTAT DE CE
+     CHAPITRE NE PEUT DONC JAMAIS ÊTRE INVOQUÉ POUR SOUTENIR QU'UN SYSTÈME MATÉRIEL
+     PEUT CROÎTRE** — il soutient exactement le contraire de ce qu'une lecture rapide
+     lui ferait dire."
 resume: "Ce chapitre remplace l'amorce déposée la veille et ouvre réellement le livre. Il commence par un relevé de ce que le corpus affirme en matière physique et de l'autorité sur laquelle il l'affirme, et ce relevé donne un résultat inconfortable : quatre propositions sont attribuées à un seul auteur, dans trois chapitres différents, sans qu'aucun texte de cet auteur ait jamais été ouvert, tandis que le concept d'entropie figure au vocabulaire depuis le troisième chapitre du premier livre sans qu'aucun livre ne le porte. Il ouvre ensuite la première source du livre, qui est une critique publiée de la thèse ainsi empruntée, et cette source établit que la proposition la plus forte que le corpus avait retenue, celle d'une impossibilité du recyclage complet, n'a aucun statut en physique et qu'une économie de recyclage intégral est parfaitement compatible avec le second principe pourvu qu'un flux d'exergie extérieur suffisant soit disponible. Le chapitre ne s'arrête pas à cette réfutation, parce que la source ne s'y arrête pas : elle maintient qu'un réservoir de matière inactive est nécessaire, qu'il ne peut pas être vidé, et qu'il est vraisemblablement très grand. La contrainte physique n'est donc pas supprimée, elle est déplacée, et elle change de nature en devenant une contrainte de flux d'énergie utile et de stock immobilisé plutôt qu'une impossibilité de principe. Le chapitre en tire une restriction du falsifieur onze, qui perd sa branche matérielle et conserve sa branche énergétique en devenant pour la première fois une question chiffrable. Il refuse enfin à la source une proposition qu'elle avance sans la fonder, celle d'une dématérialisation sans limite définissable de la production, que deux acquis du corpus contredisent, et il fixe sur cette base la grille du livre."
 concepts: [entropie, decouplage, effet_rebond, limites_planetaires, sobriete, degeneratif, qualification_regenerative]
-renvois: [L1.C03, L1.C15, L1.C17, L8.C13, L8.C34, L11.C13, L18.C04, L24.C03, L24.C05]
+renvois: [L1.C03, L1.C15, L1.C17, L8.C13, L8.C34, L11.C13, L18.C04, L24.C03, L24.C05, L17.C02]
 ---
 
 # Ce que ce livre doit établir
