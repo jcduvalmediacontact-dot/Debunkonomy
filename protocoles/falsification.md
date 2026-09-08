@@ -3672,3 +3672,53 @@ environmental improvements are driven first and foremost by policy choices. They
 are not the inevitable side or collateral benefit of economic growth. »* **Un
 dispositif qui agit par une règle, et non en espérant un effet de revenu, est du
 côté que cette conclusion soutient.**
+
+
+### F13 — TROIS CONFIRMATIONS INDÉPENDANTES, ET LA CHARGE DE LA PREUVE CHANGE DE CÔTÉ
+
+**AU 2026-09-09, LE CORPUS TIENT TROIS SOURCES QUI DISENT LA MÊME CHOSE PAR TROIS
+CHEMINS QUI NE SE CROISENT PAS.**
+
+**UN.** Le cadre des limites planétaires, sciences du système terrestre : neuf
+variables de contrôle, neuf unités, ni total ni indice composite ni pondération
+[L24.C01].
+
+**DEUX.** Le traité de référence de l'économie de la soutenabilité : mesurer la
+soutenabilité forte exige une mesure séparée par forme critique, ces mesures
+« defy aggregation », et l'idée d'une mesure globale unique est « misleading and
+unhelpful » — **impossibilité ANALYTIQUE, découlant de la définition retenue**
+[L18.C18, L18.C19].
+
+**TROIS.** L'évaluation intergouvernementale de 2022 sur les valeurs de la
+nature, **avec sa cote de confiance la plus forte** : *« No consensus exists on
+the best practice for aggregation procedures (well established). »* Les approches
+délibératives *« do not provide a general solution to the aggregation
+challenge »*. Et l'incommensurabilité est **inévitable** dès que plusieurs
+méthodes sont employées, les valeurs n'étant *« not fully separable or fully
+comparable »* [L18.C25].
+
+**CE QUE CELA CHANGE, ET CE N'EST PAS UN DEGRÉ DE PLUS.** **Un dispositif qui
+agrège ne se défend plus contre une objection : il doit expliquer pourquoi il
+fait ce qu'une évaluation intergouvernementale déclare sans procédure
+consensuelle.** **La charge de la preuve a changé de côté.**
+
+**LES TROIS VOIES DE F13 ONT DÉSORMAIS LEURS POIDS DANS LA PRATIQUE** [L18.C25].
+**Ne pas réunir** — 56 % des valorisations, la pratique dominante. **Tenir les
+valeurs séparées dans un processus délibératif** — moins de 1 %. **Réunir en
+rendant comparable** — environ la moitié des 44 % restants. **La pratique
+dominante de la valorisation de la nature est DE NE PAS AGRÉGER.** **Un
+dispositif monétaire n'a pas ce luxe : il faut qu'un montant sorte.**
+
+**LA SEULE ISSUE QUE CET ÉTAT DE LA LITTÉRATURE AUTORISE EST LA TROISIÈME DE
+CELLES QUE F13 AVAIT POSÉES** : une agrégation **assumée comme politique,
+révisable et attaquable**. **Et elle est désormais prescrite par l'adversaire
+lui-même** : Nordhaus recommande d'identifier l'objectif de long terme, d'écarter
+directement les tests coûts-bénéfices conventionnels, et de rendre le coût de cet
+écart transparent — *« rather than allowing technicians to hide the choices in
+abstruse arguments »* [L18.C24].
+
+**CE QUI RESTE À ÉCRIRE, ET C'EST À L'AUTEUR.** **Le corpus a rencontré CINQ FOIS
+la même issue par cinq chemins différents, et il ne l'a jamais prise.** **Assumer
+la pondération comme un choix politique déclaré n'est plus une option parmi
+d'autres : c'est la seule que trois littératures indépendantes et l'adversaire le
+plus cité laissent ouverte.**
