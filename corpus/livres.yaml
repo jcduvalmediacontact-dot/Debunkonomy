@@ -1495,7 +1495,7 @@ livres:
       - "objection — L11.C02 : l'écriture du Symposium laisse les fonds propres négatifs du montant émis, et l'analogie qui la justifiait était fausse"
     statut: en-cours
     chapitres_annonces: null
-    chapitres_acquis: 3
+    chapitres_acquis: 4
     note: >
       MATRICULE DÉCLARÉ LE 2026-09-07, ET C'EST UNE CORRECTION D'ECART, NON UNE
       CREATION. Le plan directeur reserve ce numero a la comptabilite monetaire
@@ -1661,6 +1661,55 @@ livres:
       ouvert, le resultat portant sur la REPRESENTABILITE et non sur
       l'AUDITABILITE ; et LE CAS OU LE DETENTEUR ACCEPTE n'est pas instruit,
       alors qu'il pourrait rouvrir la branche que ce chapitre ferme.
+      L19.C04 REPOND A LA QUESTION 4 : L'"ACTIF TRANSITOIRE" DU CAHIER TECHNIQUE
+      N'EXISTE PAS DANS LA NOMENCLATURE, ET LE PROBLEME NE DISPARAIT PAS -- IL
+      CHANGE DE BILAN. La definition meme de l'actif contient le mot qui tranche :
+      "an asset [...] is a means of CARRYING FORWARD VALUE FROM ONE ACCOUNTING
+      PERIOD TO ANOTHER". Un poste qui, par construction, ne franchit aucune
+      cloture NE REPORTE RIEN.
+      DES TROIS CASES OU CE POSTE POURRAIT ENTRER, DEUX SE FERMENT. ACTIF
+      FINANCIER : il exige une contrepartie, "gold bullion held as a reserve
+      asset is THE ONLY financial asset with NO CORRESPONDING LIABILITY", donc un
+      DEBITEUR -- et il n'existe que DEUX candidats, l'emetteur ou la
+      collectivite des participants, SANS TROISIEME. ACTIF NON FINANCIER DE LA
+      CATEGORIE CONTRATS ET LICENCES : la condition est que l'accord "RESTRICTS
+      the general use or supply of products covered", ce qu'un certificat qui
+      ATTESTE un service rendu ne fait pas -- il constate, il n'exclut personne de
+      rien. CETTE FERMETURE APPUIE LE TRANCHAGE QUE L21.C03 AVAIT FAIT "SANS
+      REFERENTIEL" SUR LE PREMIER JEU D'ECRITURES.
+      TROISIEME CASE : L'ABSENCE D'ACTIF, ET ELLE DEPLACE. La banque centrale
+      nationale aurait alors emis cent de monnaie -- un passif a la valeur
+      faciale, la norme l'exige -- EN REGARD DE RIEN, et ses fonds propres
+      baissent de cent. CE N'EST PAS UN ADOUCISSEMENT MAIS UNE AGGRAVATION : une
+      institution A CREER peut recevoir des statuts qui accommodent des fonds
+      propres negatifs ; UNE BANQUE CENTRALE EXISTANTE ne le peut pas sans que son
+      statut, son actionnaire public et son regime de distribution soient en
+      cause -- ET IL FAUDRAIT L'OBTENIR DANS CHAQUE PAYS PARTICIPANT, UN PAR UN.
+      "TRANSITOIRE" NE RESOUT RIEN : IL DEPLACE, ET VERS LE BILAN LE PLUS
+      DIFFICILE A MODIFIER DES TROIS.
+      RESULTAT LE PLUS SOLIDE DU LIVRE A CE STADE. LA MEME BIFURCATION APPARAIT
+      POUR LA TROISIEME FOIS, SUR UN TROISIEME BILAN, PAR TROIS CHEMINS
+      INDEPENDANTS -- L19.C02 au bilan de l'emetteur, L19.C03 dans la nature du
+      reflux, L19.C04 au bilan de la banque centrale nationale. AUCUN DES TROIS
+      NE PERMET DE L'EVITER ET AUCUN NE LA TRANCHE, PARCE QU'ELLE NE SE TRANCHE
+      PAS PAR LA COMPTABILITE : elle se tranche par le statut de l'emetteur,
+      c'est-a-dire par A37. Ce n'est pas une reponse, mais L'ETABLISSEMENT QUE LA
+      QUESTION EST UNIQUE ET QU'ELLE COMMANDE TROIS ECRITURES QUE LE CORPUS
+      CROYAIT INDEPENDANTES.
+      ET UNE EXPOSITION QUE LE CORPUS N'AVAIT JAMAIS NOMMEE : si la banque
+      centrale nationale porte une creance sur l'emetteur, ELLE Y EST EXPOSEE,
+      et il s'agit d'un actif sans marche ni notation dont elle ne peut etablir ni
+      la valeur ni la liquidite. REGLE DU PAS DE TROP APPLIQUEE : le passage
+      d'une ecriture comptable a une question prudentielle et statutaire est
+      MARQUE ET NON FRANCHI, et route vers L10.C07, non relu a cette lumiere.
+      RESERVES : aucun referentiel de banque centrale n'est ouvert et C'EST LA
+      TROISIEME FOIS EN TROIS CHAPITRES QUE LE CORPUS LE DECLARE ; le mot
+      "transitoire" n'est pas defini par la source qui l'emploie -- ni duree, ni
+      extinction, ni presence a une cloture -- de sorte que le chapitre instruit
+      les DEUX lectures sans trancher, ET C'EST A L'AUTEUR DE DIRE LAQUELLE IL
+      RETIENT, LES DEUX NE COUTANT PAS LA MEME CHOSE ; et rien n'etablit qu'une
+      banque centrale puisse porter a son actif une creance sur un DEBITEUR
+      COLLECTIF NON IDENTIFIE, ce que le traitement de L19.C02 supposerait.
 
   - livre: 21
     titre: "La plomberie financière mondiale"

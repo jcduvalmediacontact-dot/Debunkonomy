@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-08
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -39,9 +39,19 @@ verifications_en_attente:
   - "LA PRATIQUE N'EST PAS INSTRUITE, seulement la compétence. Ce que ces
      banques centrales DÉTIENNENT effectivement, et par quels véhicules, n'est
      pas tenu."
+  - "**UNE EXPOSITION QUE LE CORPUS N'AVAIT JAMAIS NOMMÉE LUI EST ROUTÉE LE
+     2026-09-08.** L19.C04 établit que si la banque centrale nationale porte à son
+     actif l'allocation qu'elle convertit, **ce poste doit être une CRÉANCE SUR UN
+     DÉBITEUR** — l'émetteur, ou la collectivité des participants, **et il n'y a pas
+     de troisième candidat**. **Dans les deux cas, la banque centrale est EXPOSÉE à
+     un actif sans marché ni notation, dont elle ne peut établir ni la valeur ni la
+     liquidité.** **Ce chapitre n'a pas été relu à cette lumière** : il faudrait
+     établir si une banque centrale peut acquérir une créance sur une institution
+     supranationale, et a fortiori **sur un débiteur COLLECTIF NON IDENTIFIÉ**, ce
+     que le traitement ouvert par L19.C02 supposerait. **Acquisition de rang 1.**"
 resume: "Ce chapitre ouvre la comparaison des cadres de banque centrale que le corpus déclarait manquante depuis qu'il avait instruit celui de l'Eurosystème, et il établit d'emblée que le corpus généralisait depuis le plus permissif des deux qu'il tient désormais. Le mandat de la Réserve fédérale n'est pas un cadre d'évaluation mais une liste énumérative de ce qu'une banque de réserve a le pouvoir d'acheter, et cette liste ne contient que des obligations de gouvernements et d'agences gouvernementales, avec des plafonds de maturité pour la plupart d'entre elles. Rien qui ne soit une créance sur une personne publique n'y figure, de sorte qu'une contrepartie écologique n'y entrerait pas faute de figurer sur la liste, indépendamment de toute question comptable. Le chapitre en tire que les deux cadres contraignent par des voies différentes, l'un par un test de comptabilisation et une prohibition, l'autre par une habilitation limitative, et que la seconde est plus difficile à modifier puisqu'elle relève de la loi. Il relève ensuite un fait que le corpus ne cherchait pas et qui est le résultat du chapitre, à savoir que la liste inclut des titres émis en anticipation de la collecte d'impôts ou de la perception de recettes assurées, à échéance de six mois au plus, ce qui est la forme même que suggère l'arbitrage sur le reflux par fontes. La structure existe donc en droit positif, bornée à six mois et aux collectivités d'un seul pays. Il rappelle enfin que le corpus tient déjà, dans son premier livre, le précédent le plus proche de son unité, et qu'il y a retiré l'affirmation qu'une émission internationale sans dette aurait déjà eu lieu."
 concepts: [contrepartie_comptable, creation_monetaire, hierarchie_monetaire, regle_contre_discretion, reflux_collectif, devise_cle]
-renvois: [L1.C20, L1.C22, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L10.C06, L11.C13, L20.C02]
+renvois: [L1.C20, L1.C22, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L10.C06, L11.C13, L20.C02, L19.C04]
 ---
 
 # Ce qu'une banque centrale a le droit d'acheter, et le corpus généralisait depuis le cadre le plus permissif
