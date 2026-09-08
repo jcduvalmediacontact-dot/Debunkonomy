@@ -124,9 +124,22 @@ verifications_en_attente:
      corpus ne le fait, et aucun ne le pourrait aujourd'hui.** **S'y ajoute le résultat
      qui vise le dispositif : TOUTES les études recensées observent « a POSITIVE relationship
      between energy efficiency improvements, long-run GDP and industry sector output ».**"
+  - "**UNE CINQUIÈME CONTRAINTE EST VERSÉE LE 2026-09-08 PAR L26.C10, ET ELLE PORTE
+     SUR LA RÉFUTABILITÉ MÊME DU DISPOSITIF.** Une source énumère trois mécanismes qui
+     produisent l'ILLUSION du découplage, dont **la « FINANCIALIZATION of one or more
+     components of GDP that involves INCREASING MONETARY FLOWS WITHOUT A CONCOMITANT
+     RISE IN MATERIAL AND/OR ENERGY THROUGHPUT »**. **Émettre contre une qualification
+     produit exactement cette configuration** : si l'activité qualifiée est à faible
+     intensité physique, le rapport impact sur produit baisse SANS QU'AUCUNE GRANDEUR
+     PHYSIQUE N'AIT BOUGÉ. **Ce n'est pas une accusation de tromperie — mais l'indicateur
+     NE FAIT PAS LA DIFFÉRENCE entre une régénération réelle et un gonflement du
+     dénominateur monétaire.** **EXIGENCE : tout indicateur de découplage employé par
+     le dispositif doit avoir un NUMÉRATEUR ET UN DÉNOMINATEUR PHYSIQUES, ou déclarer
+     qu'il n'en a pas.** **Sans indicateur physique indépendant de son propre volume
+     d'émission, le dispositif n'est pas falsifiable sur son résultat principal.**"
 resume: "Ce chapitre ouvre le versant émission du Livre 11, resté vierge après douze chapitres consacrés au reflux, et il l'ouvre parce que trois chapitres antérieurs y ont poussé du travail sans qu'aucun ne l'instruise. Il établit d'abord ce qui distingue ce barème des quatre autres : il ne répartit pas une charge sur une assiette existante, il crée un flux là où il n'y en avait pas, et il commande de ce fait les deux extrémités du circuit dès lors qu'une dérogation au demurrage se définit par la qualification. Il en tire une asymétrie que le corpus n'avait pas relevée : une erreur du barème de reflux déplace une charge, une erreur du barème de qualification crée de la monnaie sans contrepartie ou laisse l'essentiel non financé, et ces deux fautes n'ont ni la même visibilité ni le même délai de détection. Il applique ensuite la décomposition en quatre décisions établie antérieurement et montre que la valorisation, qui est la deuxième, est exactement l'objet de la promesse bloquante P52 — de sorte que le nœud isolé au chapitre précédent a ici son domicile. Il établit que l'obstacle métrologique ne se transpose pas : mesurer combien un bien nuit dispose d'instruments imparfaits, mesurer combien une activité régénère n'en a presque aucun. Il montre que la sortie par valeur par défaut, qui vaut pour le reflux, change de face ici : le défaut y exclut du financement au lieu d'imposer une charge, de sorte que le biais de concentration établi antérieurement se retrouve sur le versant émission, et sous une forme plus lourde. Il relève enfin que l'objection de la connaissance dispersée, que le registre tient pour la plus forte adressée au dispositif, a maintenant été trouvée deux fois par deux chemins indépendants, sur les deux barèmes."
 concepts: [qualification_regenerative, bareme, creation_monetaire, additionnalite, degeneratif, essentiel_insolvable]
-renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09]
+renvois: [L1.C18, L1.C20, L1.C22, L1.C27, L11.C03, L11.C05, L11.C06, L11.C08, L11.C09, L11.C10, L11.C11, L11.C12, L26.C05, L26.C07, L26.C08, L26.C09, L26.C10]
 ---
 
 # Le barème de qualification

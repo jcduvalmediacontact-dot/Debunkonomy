@@ -53,9 +53,21 @@ verifications_en_attente:
      croissance sa NÉCESSITÉ.** **Deux opérations différentes visant le même verrou
      par deux côtés opposés.** **Le corpus revendique donc la troisième case et peut dire
      pourquoi** — ce qui le situe sans établir qu'il fonctionne."
+  - "**LA MOITIÉ MANQUANTE DE LA REVUE EST OUVERTE LE 2026-09-08 PAR L26.C10.** Ce
+     chapitre avait ouvert la partie II ; **la partie I cartographie le champ** — plus de
+     11 500 articles criblés, 835 études empiriques classées par portée, méthode et
+     angle conceptuel. **SON RÉSULTAT N'EST PAS UN CHIFFRE MAIS UNE COMPOSITION** : la
+     « **vast majority** » des études aborde la question d'un point de vue
+     **« STATISTICAL-ECONOMETRIC »** en « **hardly acknowledging THERMODYNAMIC
+     PRINCIPLES** », et une incompatibilité éventuelle entre croissance et changement
+     systémique est « **RARELY CONSIDERED** ». **LE CORPUS S'APPUIE DONC SUR UNE
+     LITTÉRATURE DONT SES PROPRES SOURCES DISENT QU'ELLE NE REGARDE PAS CE QUE LUI
+     PRÉTEND REGARDER.** **Réserve d'indépendance : les deux parties partagent leur
+     équipe, et l'un de ses membres co-signe la revue de rebond de 2021 — le corpus
+     tient un groupe de recherche, non un consensus.**"
 resume: "Ce chapitre remplace l'amorce du matricule 17 et ouvre le livre par la revue systématique de référence sur le découplage, qui synthétise huit cent trente-cinq articles évalués par les pairs. Il commence par relever que le corpus emploie depuis son premier livre un vocabulaire d'après-croissance sans avoir jamais ouvert un seul auteur de ce champ, et qu'une promesse portant sur la sortie de la contrainte de croissance de l'encours n'a jamais reçu de réponse. La revue établit qu'un découplage relatif est fréquent pour les matières et les gaz à effet de serre mais qu'il ne l'est pas pour l'exergie utile, que le découplage absolu de longue durée est rare, et surtout que les rythmes observés ne permettent pas d'atteindre les réductions absolues requises, de sorte que le découplage doit être complété par des stratégies de sobriété et par l'application stricte d'objectifs de réduction absolue. Le chapitre en tire trois résultats. Le premier est que la taxonomie du champ, qui range les travaux en croissance verte, décroissance et autres, n'offre aucune case au dispositif, lequel n'affirme pas que le découplage suffit et ne donne pas non plus la priorité à la réduction sur la croissance du produit. Le deuxième est que la liste des instruments que cette littérature juge nécessaires est très exactement celle que le corpus a déclarée manquante l'avant-veille, moratoires, interdictions et fermetures, la revue précisant qu'ils doivent venir au lieu de la seule tarification. Le troisième est favorable et le chapitre le dit sans le minorer, puisque la revue nomme comme obstacle principal à la sobriété la dépendance structurelle des États à la croissance pour leurs recettes fiscales, qui est précisément l'obstacle que le dispositif prétend desserrer."
 concepts: [decouplage, sobriete, effet_rebond, limites_planetaires, indicateur_de_progres, degeneratif]
-renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06, L17.C03]
+renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, L26.C06, L17.C03, L26.C10]
 ---
 
 # Ce que ce livre doit établir

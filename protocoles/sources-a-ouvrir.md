@@ -1565,3 +1565,44 @@ améliorations obtenues par le prix, la réglementation ou la technique.
 revenu y est ÉMIS et non LIBÉRÉ — de sorte que le corpus transporte un
 ORDRE DE GRANDEUR et non un résultat.** **C'est le chiffrage que seul le
 simulateur du Livre 13 pourrait produire, et il n'existe pas.**
+
+
+# Ouverture du 2026-09-08 (fin) — LE DÉCOUPLAGE, ET LA PREMIÈRE CONTROVERSE RÉELLE DU LIVRE 26
+
+## Ouvert par téléchargement direct, lu dans le texte
+
+**J. D. Ward, P. C. Sutton, A. D. Werner, R. Costanza, S. H. Mohr et C. T.
+Simmons, « Is Decoupling GDP Growth from Environmental Impact Possible? »,
+*PLoS ONE* 11(10), e0164733, 2016** — pièce L26-02. **DROITS : CC BY, mention
+lue dans le document. `libre`.** **Les auteurs déclarent le travail
+« entirely unfunded » et sans intérêt concurrent.** Ouvert pour
+**L26.C10**.
+
+**D. Wiedenhofer et al., « A systematic review … part I: bibliometric and
+conceptual mapping », *Environmental Research Letters* 15, 063002, 2020** —
+pièce L26-03. **DROITS : « Document License: CC BY », mention lue dans le
+document. `libre`.** **C'est la moitié manquante de la revue dont L17.C01
+n'avait ouvert que la partie II.** Ouvert pour **L26.C10**.
+
+## UNE CONTRADICTION INTERNE AU FONDS, ET LE CORPUS NE LA TRANCHE PAS
+
+**La pièce L26-02 contredit frontalement la source de L26.C01** sur la
+substituabilité des ressources essentielles. **Les deux textes ne se citent
+pas.** **Le corpus enregistre une controverse ouverte et déclare ne pas
+pouvoir la trancher**, faute de mesure.
+
+**ACQUISITIONS DE RANG 1 QUI EN DÉCOULENT.** Une **réplication du
+modèle de 2016 sur une économie NON EXTRACTIVE** — la
+démonstration porte sur l'Australie seule. **Une évaluation
+INDÉPENDANTE du plancher d'intensité**, que les auteurs ARGUMENTENT sans
+le mesurer. **Et une réponse publiée à ce modèle**, qui existe
+certainement et dont le corpus ne tient rien.
+
+## RÉSERVE D'INDÉPENDANCE, TROISIÈME OCCURRENCE
+
+**Les deux parties de la revue systématique partagent leur équipe, et l'un
+de ses membres co-signe la revue de rebond de 2021.** **Sur le découplage
+comme sur le rebond, le corpus tient UN GROUPE DE RECHERCHE ET NON UN
+CONSENSUS.** **C'est la troisième fois en une journée que la
+vérification des auteurs modifie le statut d'un résultat ; la règle
+retenue le 2026-09-08 est confirmée.**

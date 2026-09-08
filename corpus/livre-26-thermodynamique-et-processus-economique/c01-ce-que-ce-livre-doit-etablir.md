@@ -61,9 +61,23 @@ verifications_en_attente:
      CHAPITRE NE PEUT DONC JAMAIS ÊTRE INVOQUÉ POUR SOUTENIR QU'UN SYSTÈME MATÉRIEL
      PEUT CROÎTRE** — il soutient exactement le contraire de ce qu'une lecture rapide
      lui ferait dire."
+  - "**LA SOURCE DE CE CHAPITRE EST CONTREDITE LE 2026-09-08 PAR UNE AUTRE SOURCE DU
+     MÊME LIVRE, OUVERTE PAR L26.C10 — ET LE CORPUS NE TRANCHE PAS.** Ce chapitre
+     s'appuie sur une source soutenant qu'un recyclage complet reste compatible avec
+     la seconde loi POURVU QU'UN FLUX D'EXERGIE SUFFISANT SOIT DISPONIBLE, et il a
+     rétracté sur cette base une proposition de L1.C17. **Un modèle de 2016, ouvert par
+     L26.C10, conclut à l'inverse** : « **PERMANENT DECOUPLING (absolute or relative)
+     IS IMPOSSIBLE for essential, NON-SUBSTITUTABLE resources because the efficiency
+     gains are ultimately governed by PHYSICAL LIMITS** ». **LES DEUX TEXTES NE SE CITENT
+     PAS.** **Le corpus s'applique sa propre discipline : adopter cette seconde thèse
+     parce qu'elle arrange serait refaire en sens inverse la faute pour laquelle L1.C17
+     a été rétracté.** **Il tient donc une CONTROVERSE OUVERTE et non une réponse**,
+     et il n'a aucune mesure qui la tranche. **La rétractation de L1.C17 n'est pas
+     annulée pour autant : elle reste acquise CONTRE LE CORPUS, qui affirmait sans
+     source, et non contre l'auteur.**"
 resume: "Ce chapitre remplace l'amorce déposée la veille et ouvre réellement le livre. Il commence par un relevé de ce que le corpus affirme en matière physique et de l'autorité sur laquelle il l'affirme, et ce relevé donne un résultat inconfortable : quatre propositions sont attribuées à un seul auteur, dans trois chapitres différents, sans qu'aucun texte de cet auteur ait jamais été ouvert, tandis que le concept d'entropie figure au vocabulaire depuis le troisième chapitre du premier livre sans qu'aucun livre ne le porte. Il ouvre ensuite la première source du livre, qui est une critique publiée de la thèse ainsi empruntée, et cette source établit que la proposition la plus forte que le corpus avait retenue, celle d'une impossibilité du recyclage complet, n'a aucun statut en physique et qu'une économie de recyclage intégral est parfaitement compatible avec le second principe pourvu qu'un flux d'exergie extérieur suffisant soit disponible. Le chapitre ne s'arrête pas à cette réfutation, parce que la source ne s'y arrête pas : elle maintient qu'un réservoir de matière inactive est nécessaire, qu'il ne peut pas être vidé, et qu'il est vraisemblablement très grand. La contrainte physique n'est donc pas supprimée, elle est déplacée, et elle change de nature en devenant une contrainte de flux d'énergie utile et de stock immobilisé plutôt qu'une impossibilité de principe. Le chapitre en tire une restriction du falsifieur onze, qui perd sa branche matérielle et conserve sa branche énergétique en devenant pour la première fois une question chiffrable. Il refuse enfin à la source une proposition qu'elle avance sans la fonder, celle d'une dématérialisation sans limite définissable de la production, que deux acquis du corpus contredisent, et il fixe sur cette base la grille du livre."
 concepts: [entropie, decouplage, effet_rebond, limites_planetaires, sobriete, degeneratif, qualification_regenerative]
-renvois: [L1.C03, L1.C15, L1.C17, L8.C13, L8.C34, L11.C13, L18.C04, L24.C03, L24.C05, L17.C02]
+renvois: [L1.C03, L1.C15, L1.C17, L8.C13, L8.C34, L11.C13, L18.C04, L24.C03, L24.C05, L17.C02, L26.C10]
 ---
 
 # Ce que ce livre doit établir
