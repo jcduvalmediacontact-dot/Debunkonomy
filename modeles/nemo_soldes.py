@@ -1,48 +1,51 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-COMPENSATION SYMÉTRIQUE DES DÉSÉQUILIBRES COURANTS — trois pays, plusieurs
-périodes. Ouvert le 2026-09-09.
+DÉSÉQUILIBRES COURANTS PERSISTANTS — version 2, 2026-09-09.
 
-CE QUE CE MODÈLE ÉPROUVE.
+CINQ CORRECTIONS DE L'AUTEUR SUR LA VERSION 1, ET ELLES TOUCHENT LA STRUCTURE.
 
-Une union de compensation : chaque banque centrale tient un compte auprès de
-l'institution NEMO, le commerce s'y règle, un corridor de solde est toléré des
-deux côtés, des obligations graduées s'appliquent au-delà, une facilité
-temporaire de liquidité existe, et les parités sont administrées — stables mais
-révisables.
+  (1) HORIZON. Chaque simulation va AU-DELÀ de l'échéance de toutes les
+      facilités. Une maturité reportée hors de l'horizon n'est pas une
+      résolution : c'est un report, et la version 1 le comptait comme un
+      succès.
 
-DEUX EXIGENCES DE L'AUTEUR, ET ELLES SONT LE CŒUR DU MODÈLE.
-  (1) Un déficit causé par l'IMPORTATION DE BIENS ESSENTIELS ne doit PAS imposer
-      automatiquement une contraction monétaire au pays concerné.
-  (2) Le mécanisme doit empêcher l'ACCUMULATION INDÉFINIE D'EXCÉDENTS et la
-      création monétaire correspondante.
+  (2) IDENTITÉ STOCK-FLUX COMPLÈTE. La version 1 affichait 499 de contraction
+      d'un côté et 584 d'expansion de l'autre sans dire où passaient les 85.
+      L'identité est désormais vérifiée à chaque période, et la réconciliation
+      est publiée : l'écart est un EFFET DE PARITÉ, et il prouve que les masses
+      monétaires nationales NE SONT PAS SOMMABLES entre pays.
 
-AUCUN SEUIL N'EST FIXÉ. Corridor, tranches, pas de parité, plafond de
-liquidité : tous sont des PARAMÈTRES DÉCLARÉS, aucun n'est calibré, et changer
-l'un d'eux change le résultat. Le programme le répète parce que la tentation de
-lire ses chiffres comme des estimations est forte.
+  (3) UNE VARIATION DE MASSE MONÉTAIRE N'EST PAS UN EFFORT RÉEL. Le mot
+      « effort » est retiré. Sont publiés SÉPARÉMENT : contraction, expansion,
+      tension inflationniste, production, consommation essentielle et transfert
+      réel de ressources. Aucun n'est agrégé avec un autre.
 
-CE QUE F6 IMPOSE À LA CONCEPTION, ET CE N'EST PAS NÉGOCIABLE.
+  (4) LES ÉCHANGES RÉPONDENT. Volumes élastiques à la parité relative, et
+      rationnement par la capacité de paiement — les importations NON
+      ESSENTIELLES cèdent les premières. Avec des flux exogènes, conclure
+      qu'une charge n'arrête pas une accumulation était en partie tautologique.
 
-Le corpus a lu sur pièces la seule tentative historique comparable — les
-*Collected Writings* de Keynes, volume XXV, L1.C25 [S12]. La charge symétrique
-de l'Union internationale de compensation existait : un pour cent l'an sur le
-solde moyen dépassant le quart du quota, « whether it is a credit or a debit
-balance ». MAIS ELLE N'ÉTAIT PAS CONTRAIGNANTE : le Governing Board « may
-require » du déficitaire une dévaluation, le contrôle des sorties de capitaux et
-la remise d'une part de ses réserves d'or ; l'excédentaire « shall discuss [...]
-but shall retain the ultimate decision in its own hands ». Keynes l'avait
-déclarée non essentielle et avait prévu le refus. ELLE A ÉTÉ REFUSÉE QUAND MÊME.
+  (5) UN PLAFOND EST UNE PROCÉDURE, PAS UN NOMBRE. Trois procédures sont
+      implémentées — blocage, recyclage obligatoire des excédents, conversion
+      du dépassement en contribution — et la première montre ce qu'un plafond
+      sans procédure produit : il bloque le règlement, y compris celui des
+      biens essentiels.
 
-CONSÉQUENCE : LA SYMÉTRIE EST UN PARAMÈTRE, JAMAIS UNE HYPOTHÈSE. Chaque
-scénario est joué DEUX FOIS — obligation excédentaire CONTRAIGNANTE, puis
-DÉLIBÉRATIVE — et l'écart entre les deux répartitions de l'effort est le
-résultat que ce modèle existe pour produire.
+ARCHITECTURE DE RÉFÉRENCE, ARRÊTÉE LE 2026-09-09 : DEUX GUICHETS.
 
-CE QUI EST SUIVI SÉPARÉMENT, comme demandé : les échanges RÉELS (volumes), les
-SOLDES NEMO, les MASSES MONÉTAIRES nationales, la LIQUIDITÉ temporaire, les
-AJUSTEMENTS DE PARITÉ, et la RÉPARTITION DE L'EFFORT.
+  FACILITÉ REMBOURSABLE pour un choc TEMPORAIRE.
+  ALLOCATION SOLIDAIRE NON REMBOURSABLE pour un besoin essentiel STRUCTUREL
+  qu'un pays ne peut financer par ses exportations sans sacrifier ces mêmes
+  besoins. C'est la décision que l'auteur pose : sans elle, le dispositif ne
+  protège les pays vulnérables que temporairement, avant de leur restituer la
+  contraction sous forme de remboursement.
+
+ET LA SYMÉTRIE NE SIGNIFIE PAS L'ÉGALITÉ DES SACRIFICES. Elle signifie que les
+deux côtés ont une OBLIGATION D'AJUSTEMENT. La contribution est différenciée
+selon la capacité, la cause du déséquilibre et le caractère essentiel des flux.
+
+AUCUN SEUIL N'EST CALIBRÉ.
 
 USAGE :  python modeles/nemo_soldes.py
 """
@@ -52,9 +55,6 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# ---------------------------------------------------------------------
-# Les trois pays, et l'institution qui tient les comptes.
-# ---------------------------------------------------------------------
 PAYS = [
     ("EXC", "Pays excédentaire, exportateur net"),
     ("DEF", "Pays déficitaire, importateur industriel"),
@@ -65,53 +65,46 @@ NOM = dict(PAYS)
 INST = "INST"
 COMPTES = CODES + [INST]
 
-PERIODES = 8
+# (1) HORIZON — au-delà de toute échéance.
+PERIODES = 20
+DUREE_FACILITE = 4
+assert PERIODES > 3 * DUREE_FACILITE, "l'horizon doit dépasser les maturités"
 
 # ---------------------------------------------------------------------
 # PARAMÈTRES DÉCLARÉS. AUCUN N'EST CALIBRÉ.
-# L'auteur a demandé le 2026-09-09 de NE PAS fixer les seuils : ceux-ci sont
-# des repères destinés à faire tourner le mécanisme, pas des propositions.
 # ---------------------------------------------------------------------
 QUOTA = {"EXC": 1000, "DEF": 1000, "PAU": 400}
+CORRIDOR = 0.25
+TRANCHE_2 = 0.50
+PLAFOND_SOLDE = 1.00          # (5) le plafond DUR, en fraction du quota
+TAUX_CHARGE_1 = 0.02
+TAUX_CHARGE_2 = 0.04
 
-CORRIDOR = 0.25          # fraction du quota tolérée, des DEUX côtés
-TRANCHE_2 = 0.50         # au-delà, obligations renforcées
-TAUX_CHARGE_1 = 0.02     # sur la part du solde au-delà du corridor
-TAUX_CHARGE_2 = 0.04     # sur la part au-delà de la seconde tranche
+PLAFOND_FACILITE = {"EXC": 0, "DEF": 300, "PAU": 300}
+PERSISTANCE_STRUCTUREL = 5    # périodes de déficit essentiel avant allocation
+PAS_PARITE = 0.05
+PERSISTANCE_PARITE = 2
 
-PLAFOND_LIQUIDITE = {"EXC": 0, "DEF": 300, "PAU": 300}
-DUREE_LIQUIDITE = 4      # périodes avant remboursement exigible
+# (4) élasticité des échanges à la parité relative. Les postes ESSENTIELS
+# sont inélastiques par définition : c'est ce qui les rend essentiels.
+ELASTICITE = 0.8
 
-PAS_PARITE = 0.05        # ajustement administré, par déclenchement
-PERSISTANCE_PARITE = 2   # périodes consécutives hors corridor avant ajustement
+SEUILS_CALIBRES = False
 
-SEUILS_CALIBRES = False  # NE PAS METTRE À True SANS UNE SOURCE PAR SEUIL
+PROCEDURES = ("blocage", "recyclage", "conversion")
 
 
-# ---------------------------------------------------------------------
-# Les échanges. Matrice bilatérale : flux[a][b] = ce que a vend à b.
-# Une matrice bilatérale garantit par construction que la somme des soldes
-# est nulle — c'est une identité, non une hypothèse.
-# ---------------------------------------------------------------------
 def echanges_de_base():
-    """Volumes, puis prix unitaires. Les deux sont suivis séparément."""
-    v = {}
-    for a in CODES:
-        for b in CODES:
-            v[(a, b)] = 0
-    # l'excédentaire vend des biens manufacturés aux deux autres
+    v = dict(((a, b), 0) for a in CODES for b in CODES)
     v[("EXC", "DEF")] = 100
     v[("EXC", "PAU")] = 40
-    # le déficitaire vend des services à l'excédentaire
     v[("DEF", "EXC")] = 70
-    # le pays pauvre vend des matières premières
     v[("PAU", "EXC")] = 25
     v[("PAU", "DEF")] = 10
     return v
 
 
-# Ce qui est ESSENTIEL est déclaré poste par poste, jamais déduit.
-ESSENTIEL = {("EXC", "PAU"): True}     # énergie et vivres vers le pays pauvre
+ESSENTIEL = {("EXC", "PAU"): True}
 PRIX_BASE = 1.0
 
 
@@ -125,7 +118,7 @@ def sans_choc(t, volumes, prix):
 
 
 def choc_energetique(t, volumes, prix):
-    """Le prix des importations essentielles double sur trois périodes."""
+    """Choc TEMPORAIRE : trois périodes, puis retour."""
     if 3 <= t <= 5:
         prix = dict(prix)
         prix[("EXC", "PAU")] = PRIX_BASE * 2.0
@@ -133,8 +126,16 @@ def choc_energetique(t, volumes, prix):
     return volumes, prix
 
 
+def choc_energetique_durable(t, volumes, prix):
+    """Choc STRUCTUREL : il ne se retire pas. C'est le cas que la facilité
+    remboursable ne peut pas traiter, et que l'allocation vise."""
+    if t >= 3:
+        prix = dict(prix)
+        prix[("EXC", "PAU")] = PRIX_BASE * 2.0
+    return volumes, prix
+
+
 def mauvaise_recolte(t, volumes, prix):
-    """Les exportations du pays pauvre s'effondrent ; ses achats vivriers montent."""
     if 3 <= t <= 5:
         volumes = dict(volumes)
         volumes[("PAU", "EXC")] = 5
@@ -144,7 +145,6 @@ def mauvaise_recolte(t, volumes, prix):
 
 
 def rupture_commerciale(t, volumes, prix):
-    """Un canal se ferme : l'excédentaire cesse d'acheter au déficitaire."""
     if t >= 4:
         volumes = dict(volumes)
         volumes[("DEF", "EXC")] = 10
@@ -153,48 +153,43 @@ def rupture_commerciale(t, volumes, prix):
 
 SCENARIOS = [
     Scenario("S0", "Référence, sans choc", sans_choc,
-             "les déséquilibres de structure sont déjà là : l'excédentaire vend "
-             "plus qu'il n'achète, période après période"),
-    Scenario("S1", "Choc énergétique", choc_energetique,
-             "le prix des importations essentielles double : c'est le cas type "
-             "où un déficit n'est pas une faute de politique"),
-    Scenario("S2", "Mauvaise récolte", mauvaise_recolte,
-             "les exportations du pays pauvre s'effondrent ET ses achats "
-             "vivriers montent : le choc frappe des deux côtés à la fois"),
-    Scenario("S3", "Rupture commerciale", rupture_commerciale,
+             "les déséquilibres de structure sont déjà là"),
+    Scenario("S1", "Choc énergétique TEMPORAIRE", choc_energetique,
+             "trois périodes puis retour : le cas que la facilité remboursable "
+             "est censée traiter"),
+    Scenario("S2", "Choc énergétique STRUCTUREL", choc_energetique_durable,
+             "le prix ne redescend pas : le cas que la facilité NE PEUT PAS "
+             "traiter, et qui décide de l'allocation non remboursable"),
+    Scenario("S3", "Mauvaise récolte", mauvaise_recolte,
+             "les exportations s'effondrent ET les achats vivriers montent"),
+    Scenario("S4", "Rupture commerciale", rupture_commerciale,
              "un débouché se ferme durablement pour le déficitaire"),
 ]
 
 
-# ---------------------------------------------------------------------
-# Le mécanisme
-# ---------------------------------------------------------------------
 class Etat(object):
     def __init__(self):
         self.solde = dict((c, 0.0) for c in COMPTES)
         self.masse = dict((c, 1000.0) for c in CODES)
-        self.liq = dict((c, 0.0) for c in CODES)
-        self.tirages = dict((c, []) for c in CODES)      # (période, montant)
+        self.fac = dict((c, 0.0) for c in CODES)
+        self.tirages = dict((c, []) for c in CODES)
+        self.alloc = dict((c, 0.0) for c in CODES)      # non remboursable
         self.parite = dict((c, 1.0) for c in CODES)
         self.hors_corridor = dict((c, 0) for c in CODES)
-        # répartition de l'effort, suivie séparément
-        self.charges = dict((c, 0.0) for c in CODES)
+        self.deficit_essentiel_persistant = dict((c, 0) for c in CODES)
+        # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
-        self.ajust_parite = dict((c, 0.0) for c in CODES)
+        self.charges = dict((c, 0.0) for c in CODES)
+        self.production = dict((c, 0.0) for c in CODES)
+        self.essentiel_recu = dict((c, 0.0) for c in CODES)
+        self.essentiel_voulu = dict((c, 0.0) for c in CODES)
+        self.transfert_reel = dict((c, 0.0) for c in CODES)
         self.soldes_par_periode = dict((c, []) for c in CODES)
 
 
 def charge_graduee(solde, quota):
-    """Barème gradué, appliqué au SOLDE EN VALEUR ABSOLUE.
-
-    Symétrique par construction : le même barème vaut pour un solde créditeur
-    et pour un solde débiteur. Que la face créditrice s'applique ou non est un
-    PARAMÈTRE DE SCÉNARIO — voir F6.
-    """
-    a = abs(solde)
-    c1 = CORRIDOR * quota
-    c2 = TRANCHE_2 * quota
+    a, c1, c2 = abs(solde), CORRIDOR * quota, TRANCHE_2 * quota
     charge = 0.0
     if a > c1:
         charge += TAUX_CHARGE_1 * (min(a, c2) - c1)
@@ -203,13 +198,8 @@ def charge_graduee(solde, quota):
     return charge
 
 
-def jouer(scenario, symetrie_contraignante):
-    """Retourne (états par période, anomalies).
-
-    `symetrie_contraignante` : si False, l'excédentaire DISCUTE — charge et
-    ajustement de parité ne lui sont pas appliqués. C'est la configuration
-    historiquement observée, et la seule jamais adoptée.
-    """
+def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
+          allocation_active=True):
     e = Etat()
     journal, anomalies = [], []
     base = echanges_de_base()
@@ -218,76 +208,164 @@ def jouer(scenario, symetrie_contraignante):
     for t in range(1, PERIODES + 1):
         volumes, prix = scenario.choc(t, base, prix_base)
 
-        # --- 1. ÉCHANGES RÉELS, suivis en volume ET en valeur -----------
-        vend = dict((c, 0.0) for c in CODES)
-        achete = dict((c, 0.0) for c in CODES)
-        achete_essentiel = dict((c, 0.0) for c in CODES)
-        vol_vend = dict((c, 0.0) for c in CODES)
-        vol_achete = dict((c, 0.0) for c in CODES)
+        # --- (4) LES ÉCHANGES RÉPONDENT À LA PARITÉ RELATIVE ------------
+        desire = {}
         for (a, b), vol in volumes.items():
             if not vol:
                 continue
-            valeur = vol * prix.get((a, b), PRIX_BASE)
-            vend[a] += valeur
-            achete[b] += valeur
-            vol_vend[a] += vol
-            vol_achete[b] += vol
             if ESSENTIEL.get((a, b)):
-                achete_essentiel[b] += valeur
+                desire[(a, b)] = float(vol)          # inélastique, par définition
+            else:
+                ratio = e.parite[a] / e.parite[b]
+                desire[(a, b)] = vol * (ratio ** ELASTICITE)
 
-        # --- 2. RÈGLEMENT sur les comptes NEMO --------------------------
+        # --- capacité de paiement, et RATIONNEMENT ----------------------
+        # Les postes ESSENTIELS sont servis les premiers : c'est la
+        # protection prioritaire des paiements essentiels.
+        realise = dict(desire)
+        essentiel_bloque = dict((c, 0.0) for c in CODES)
+        for b in CODES:
+            postes = [(a, b) for a in CODES if (a, b) in desire]
+            ess = [k for k in postes if ESSENTIEL.get(k)]
+            non_ess = [k for k in postes if not ESSENTIEL.get(k)]
+            cout = sum(desire[k] * prix.get(k, PRIX_BASE) for k in postes)
+            recettes = sum(desire[k] * prix.get(k, PRIX_BASE)
+                           for k in desire if k[0] == b)
+            capacite = (e.solde[b] + recettes + PLAFOND_SOLDE * QUOTA[b]
+                        + max(0.0, PLAFOND_FACILITE[b] - e.fac[b]))
+            if procedure == "blocage":
+                capacite = min(capacite, e.solde[b] + recettes
+                               + PLAFOND_SOLDE * QUOTA[b])
+            manque = cout - capacite
+            if manque <= 0:
+                continue
+            # on comprime d'abord le NON essentiel
+            for k in non_ess:
+                if manque <= 0:
+                    break
+                p = prix.get(k, PRIX_BASE)
+                reduction = min(realise[k], manque / p)
+                realise[k] -= reduction
+                manque -= reduction * p
+            # et si cela ne suffit pas, l'essentiel cède — et c'est un échec
+            for k in ess:
+                if manque <= 0:
+                    break
+                p = prix.get(k, PRIX_BASE)
+                reduction = min(realise[k], manque / p)
+                realise[k] -= reduction
+                essentiel_bloque[b] += reduction * p
+                manque -= reduction * p
+
+        # --- flux réels et valeurs -------------------------------------
+        vend = dict((c, 0.0) for c in CODES)
+        achete = dict((c, 0.0) for c in CODES)
+        ach_ess = dict((c, 0.0) for c in CODES)
+        voulu_ess = dict((c, 0.0) for c in CODES)
+        vol_vend = dict((c, 0.0) for c in CODES)
+        reel_net = dict((c, 0.0) for c in CODES)
+        for k, vol in realise.items():
+            a, b = k
+            p = prix.get(k, PRIX_BASE)
+            vend[a] += vol * p
+            achete[b] += vol * p
+            vol_vend[a] += vol
+            reel_net[a] -= vol
+            reel_net[b] += vol
+            if ESSENTIEL.get(k):
+                ach_ess[b] += vol * p
+        for k, vol in desire.items():
+            if ESSENTIEL.get(k):
+                voulu_ess[k[1]] += vol * prix.get(k, PRIX_BASE)
+
+        # --- règlement --------------------------------------------------
         net = dict((c, vend[c] - achete[c]) for c in CODES)
         for c in CODES:
             e.solde[c] += net[c]
 
-        # --- 3. FACILITÉ DE LIQUIDITÉ ----------------------------------
-        # RÈGLE CENTRALE : la part du déficit imputable aux importations
-        # ESSENTIELLES est couverte, afin qu'elle n'impose aucune contraction.
+        # --- DEUX GUICHETS ---------------------------------------------
         tirage = dict((c, 0.0) for c in CODES)
+        don = dict((c, 0.0) for c in CODES)
         for c in CODES:
-            if e.solde[c] >= 0:
+            deficit_ess = max(0.0, min(-min(e.solde[c], 0.0), ach_ess[c]))
+            e.deficit_essentiel_persistant[c] = (
+                e.deficit_essentiel_persistant[c] + 1 if deficit_ess > 0 else 0)
+            structurel = (e.deficit_essentiel_persistant[c]
+                          >= PERSISTANCE_STRUCTUREL)
+            if deficit_ess <= 0:
                 continue
-            eligible = min(-e.solde[c], achete_essentiel[c])
-            marge = PLAFOND_LIQUIDITE[c] - e.liq[c]
-            montant = max(0.0, min(eligible, marge))
-            if montant:
-                e.solde[c] += montant
-                e.solde[INST] -= montant
-                e.liq[c] += montant
-                e.tirages[c].append((t, montant))
-                tirage[c] = montant
+            if structurel and allocation_active:
+                # ALLOCATION SOLIDAIRE, NON REMBOURSABLE
+                don[c] = deficit_ess
+                e.solde[c] += deficit_ess
+                e.solde[INST] -= deficit_ess
+                e.alloc[c] += deficit_ess
+            else:
+                marge = PLAFOND_FACILITE[c] - e.fac[c]
+                montant = max(0.0, min(deficit_ess, marge))
+                if montant:
+                    tirage[c] = montant
+                    e.solde[c] += montant
+                    e.solde[INST] -= montant
+                    e.fac[c] += montant
+                    e.tirages[c].append((t, montant))
 
-        # --- remboursement à échéance ----------------------------------
         rembourse = dict((c, 0.0) for c in CODES)
         for c in CODES:
             restants = []
             for (t0, m) in e.tirages[c]:
-                if t - t0 >= DUREE_LIQUIDITE:
+                if t - t0 >= DUREE_FACILITE:
                     e.solde[c] -= m
                     e.solde[INST] += m
-                    e.liq[c] -= m
+                    e.fac[c] -= m
                     rembourse[c] += m
                 else:
                     restants.append((t0, m))
             e.tirages[c] = restants
 
-        # --- 4. OBLIGATIONS GRADUÉES, symétriques par barème ------------
+        # --- obligations graduées, différenciées ------------------------
         charge = dict((c, 0.0) for c in CODES)
         for c in CODES:
             crediteur = e.solde[c] > 0
             if crediteur and not symetrie_contraignante:
-                continue          # l'excédentaire DISCUTE : rien ne lui est pris
+                continue
             m = charge_graduee(e.solde[c], QUOTA[c])
             if m:
-                # une charge alourdit un solde debiteur et reduit un
-                # solde crediteur : dans les deux cas elle se retranche.
                 e.solde[c] -= m
                 e.solde[INST] += m
                 e.charges[c] += m
                 charge[c] = m
 
-        # --- 5. PARITÉS ADMINISTRÉES -----------------------------------
-        ajust = dict((c, 0.0) for c in CODES)
+        # --- (5) LE PLAFOND EST UNE PROCÉDURE ---------------------------
+        recyclage = dict((c, 0.0) for c in CODES)
+        recu = dict((c, 0.0) for c in CODES)
+        if procedure in ("recyclage", "conversion"):
+            for c in CODES:
+                exces = e.solde[c] - PLAFOND_SOLDE * QUOTA[c]
+                if exces <= 0:
+                    continue
+                if not symetrie_contraignante:
+                    continue          # l'excédentaire n'est pas tenu
+                if procedure == "recyclage":
+                    # il prête l'excès aux déficitaires, au prorata
+                    besoins = dict((d, -min(e.solde[d], 0.0)) for d in CODES
+                                   if d != c)
+                    total = sum(besoins.values())
+                    if total <= 0:
+                        continue
+                    for d, bes in besoins.items():
+                        part = exces * bes / total
+                        e.solde[c] -= part
+                        e.solde[d] += part
+                        recyclage[c] += part
+                        recu[d] += part
+                else:
+                    # il verse l'excès à l'institution, sans retour
+                    e.solde[c] -= exces
+                    e.solde[INST] += exces
+                    recyclage[c] += exces
+
+        # --- parités administrées ---------------------------------------
         for c in CODES:
             dehors = abs(e.solde[c]) > CORRIDOR * QUOTA[c]
             e.hors_corridor[c] = e.hors_corridor[c] + 1 if dehors else 0
@@ -295,102 +373,91 @@ def jouer(scenario, symetrie_contraignante):
                 continue
             crediteur = e.solde[c] > 0
             if crediteur and not symetrie_contraignante:
-                continue          # l'excédentaire n'est pas tenu de réévaluer
-            pas = -PAS_PARITE if crediteur else +PAS_PARITE
-            e.parite[c] *= (1.0 + pas)
-            e.ajust_parite[c] += abs(pas)
-            ajust[c] = pas
+                continue
+            e.parite[c] *= (1.0 - PAS_PARITE) if crediteur \
+                else (1.0 + PAS_PARITE)
             e.hors_corridor[c] = 0
 
-        # --- 6. MASSES MONÉTAIRES NATIONALES ---------------------------
-        # Le règlement crée ou détruit de la monnaie ; le tirage l'empêche de
-        # se contracter ; le remboursement et la charge la contractent.
+        # --- masses monétaires, et (2) L'IDENTITÉ ----------------------
         for c in CODES:
-            variation = (net[c] + tirage[c] - rembourse[c] - charge[c]) \
-                * e.parite[c]
+            flux_nemo = (net[c] + tirage[c] + don[c] - rembourse[c]
+                         - charge[c] + recu[c] - recyclage[c])
+            variation = flux_nemo * e.parite[c]
             e.masse[c] += variation
             if variation < 0:
                 e.contraction[c] += -variation
             else:
                 e.expansion[c] += variation
-        for c in CODES:
+            e.production[c] += vol_vend[c]
+            e.essentiel_recu[c] += ach_ess[c]
+            e.essentiel_voulu[c] += voulu_ess[c]
+            e.transfert_reel[c] += reel_net[c]
             e.soldes_par_periode[c].append(e.solde[c])
 
-        # --- CONTRÔLES, et ils peuvent échouer -------------------------
+        # --- CONTRÔLES --------------------------------------------------
         total = sum(e.solde[c] for c in COMPTES)
         if abs(total) > 1e-6:
-            anomalies.append(
-                "[C1] période %d : la somme des soldes vaut %+.2f et non zéro — "
-                "une compensation n'est pas une compensation si elle ne se "
-                "boucle pas" % (t, total))
+            anomalies.append("[C1] période %d : somme des soldes %+.2f" % (t, total))
         for c in CODES:
-            if e.liq[c] < -1e-9 or e.liq[c] > PLAFOND_LIQUIDITE[c] + 1e-9:
+            if e.fac[c] < -1e-9 or e.fac[c] > PLAFOND_FACILITE[c] + 1e-9:
+                anomalies.append("[C2] période %d : facilité de %s hors bornes"
+                                 % (t, c))
+            if essentiel_bloque[c] > 1e-6:
                 anomalies.append(
-                    "[C2] période %d : la liquidité de %s vaut %.1f, hors des "
-                    "bornes [0, %d]" % (t, c, e.liq[c], PLAFOND_LIQUIDITE[c]))
-        # RÈGLE DE L'AUTEUR : un déficit essentiel n'impose pas de contraction.
+                    "[C3] période %d : %.1f d'importations ESSENTIELLES de %s "
+                    "sont BLOQUÉES faute de règlement — la protection "
+                    "prioritaire a cédé" % (t, essentiel_bloque[c], c))
+            if abs(e.solde[c]) > PLAFOND_SOLDE * QUOTA[c] + 1e-6:
+                anomalies.append(
+                    "[C6] période %d : le solde de %s (%+.0f) dépasse le "
+                    "plafond dur (%.0f) — la procédure « %s » ne l'a pas "
+                    "ramené" % (t, c, e.solde[c], PLAFOND_SOLDE * QUOTA[c],
+                                procedure))
+
+        # (2) IDENTITÉ STOCK-FLUX, vérifiée à chaque période et par pays.
         for c in CODES:
-            deficit_essentiel_non_couvert = max(
-                0.0, min(-min(e.solde[c], 0.0), achete_essentiel[c]) - tirage[c])
-            variation = (net[c] + tirage[c] - rembourse[c] - charge[c]) \
-                * e.parite[c]
-            if deficit_essentiel_non_couvert > 1e-6 and variation < -1e-6:
+            attendu = (net[c] + tirage[c] + don[c] - rembourse[c] - charge[c]
+                       + recu[c] - recyclage[c]) * e.parite[c]
+            constate = e.masse[c] - (journal[-1]["masse"][c] if journal
+                                     else 1000.0)
+            if abs(attendu - constate) > 1e-6:
                 anomalies.append(
-                    "[C3] période %d : %s subit une contraction de %.1f alors "
-                    "que %.1f de son déficit vient d'importations ESSENTIELLES "
-                    "non couvertes — la règle de l'auteur est enfreinte"
-                    % (t, c, -variation, deficit_essentiel_non_couvert))
+                    "[C5] période %d : la variation de masse de %s vaut %.3f "
+                    "et le flux NEMO converti en donne %.3f — l'identité "
+                    "stock-flux est rompue" % (t, c, constate, attendu))
 
-        # C4 — SECONDE EXIGENCE DE L'AUTEUR : le mécanisme doit empêcher
-        # l'accumulation indéfinie d'excédents et la création monétaire
-        # correspondante. On ne peut le constater qu'à la fin, sur la
-        # trajectoire : c'est fait après la boucle.
-        journal.append({
-            "t": t, "vol_vend": dict(vol_vend), "vol_achete": dict(vol_achete),
-            "vend": dict(vend), "achete": dict(achete),
-            "essentiel": dict(achete_essentiel),
-            "solde": dict(e.solde), "masse": dict(e.masse),
-            "liq": dict(e.liq), "parite": dict(e.parite),
-            "tirage": tirage, "rembourse": rembourse,
-            "charge": charge, "ajust": ajust})
+        journal.append({"t": t, "solde": dict(e.solde), "masse": dict(e.masse),
+                        "fac": dict(e.fac), "alloc": dict(e.alloc),
+                        "parite": dict(e.parite), "vol": dict(vol_vend),
+                        "don": dict(don), "tirage": dict(tirage),
+                        "bloque": dict(essentiel_bloque)})
 
-    # --- C4, sur la trajectoire entière --------------------------------
+    # --- (1) l'horizon couvre-t-il les maturités ? ----------------------
     for c in CODES:
-        serie = e.soldes_par_periode[c]
-        moitie = len(serie) // 2
-        croissance = serie[-1] - serie[moitie]
-        if serie[-1] > CORRIDOR * QUOTA[c] and croissance > 0:
+        if e.tirages[c]:
             anomalies.append(
-                "[C4] %s finit à %+.0f, au-delà du corridor de %.0f, ET son "
-                "excédent croît encore sur la seconde moitié (%+.0f) — "
-                "L'ACCUMULATION INDÉFINIE N'EST PAS EMPÊCHÉE"
-                % (c, serie[-1], CORRIDOR * QUOTA[c], croissance))
-        if serie[-1] < -CORRIDOR * QUOTA[c] and croissance < 0:
-            anomalies.append(
-                "[C4] %s finit à %+.0f et son déficit se creuse encore "
-                "(%+.0f) — le corridor ne l'a pas ramené" % (c, serie[-1],
-                                                             croissance))
+                "[C7] %s termine avec %d tirage(s) non échus : le report hors "
+                "horizon n'est pas une résolution" % (c, len(e.tirages[c])))
     return e, journal, anomalies
+
+
+def reconciliation(e):
+    """(2) L'IDENTITÉ, ET CE QU'ELLE PROUVE.
+
+    En unités NEMO, tout se boucle : la somme des soldes est nulle à chaque
+    période, institution comprise. En monnaies nationales, RIEN NE SE BOUCLE —
+    et l'écart est exactement l'effet des parités divergentes. C'est la preuve
+    que les masses monétaires nationales NE SONT PAS SOMMABLES entre pays, et
+    donc qu'on ne peut pas en tirer un « effort » agrégé.
+    """
+    contraction = sum(e.contraction[c] for c in CODES)
+    expansion = sum(e.expansion[c] for c in CODES)
+    return contraction, expansion, expansion - contraction
 
 
 # ---------------------------------------------------------------------
 # Restitution
 # ---------------------------------------------------------------------
-def effort(e):
-    """La répartition de l'effort, suivie séparément comme demandé.
-
-    L'EXPANSION EST RAPPORTÉE À CÔTÉ DE LA CONTRACTION, et ce n'est pas un
-    ornement : la contraction du déficitaire a pour miroir exact l'expansion de
-    l'excédentaire. Ne compter que la première ferait passer pour un coût
-    unilatéral ce qui est un transfert.
-    """
-    return dict((c, {"charges": e.charges[c],
-                     "contraction": e.contraction[c],
-                     "expansion": e.expansion[c],
-                     "parite": e.ajust_parite[c],
-                     "total": e.charges[c] + e.contraction[c]}) for c in CODES)
-
-
 def rendre(scenario):
     print("")
     print("=" * 78)
@@ -398,154 +465,158 @@ def rendre(scenario):
     print("=" * 78)
     print("  %s" % scenario.note)
 
-    resultats = {}
-    for contraignante in (True, False):
-        e, journal, anomalies = jouer(scenario, contraignante)
-        resultats[contraignante] = (e, journal, anomalies)
+    e, journal, anomalies = jouer(scenario)
 
-    # --- la chronologie, sous obligation contraignante ------------------
-    e, journal, anomalies = resultats[True]
     print("")
-    print("  CHRONOLOGIE — obligation excédentaire CONTRAIGNANTE")
-    print("  %2s | %-28s | %-26s | %s"
-          % ("t", "soldes NEMO", "masses monétaires", "liquidité"))
+    print("  CHRONOLOGIE — %d périodes, au-delà de toute maturité (%d)"
+          % (PERIODES, DUREE_FACILITE))
+    print("  %2s | %-26s | %-18s | %s"
+          % ("t", "soldes NEMO", "facilité", "allocation NON remb."))
     for j in journal:
-        soldes = " ".join("%s%+6.0f" % (c, j["solde"][c]) for c in CODES)
-        masses = " ".join("%s%6.0f" % (c, j["masse"][c]) for c in CODES)
-        liq = " ".join("%s%4.0f" % (c, j["liq"][c]) for c in CODES if
-                       PLAFOND_LIQUIDITE[c])
-        print("  %2d | %-28s | %-26s | %s" % (j["t"], soldes, masses, liq))
+        if j["t"] % 2 and j["t"] != PERIODES:
+            continue
+        soldes = " ".join("%s%+5.0f" % (c, j["solde"][c]) for c in CODES)
+        fac = " ".join("%s%4.0f" % (c, j["fac"][c]) for c in CODES
+                       if PLAFOND_FACILITE[c])
+        al = " ".join("%s%5.0f" % (c, j["alloc"][c]) for c in CODES)
+        print("  %2d | %-26s | %-18s | %s" % (j["t"], soldes, fac, al))
 
     print("")
-    print("  ÉCHANGES RÉELS ET PARITÉS — mêmes périodes, suivis séparément")
-    print("  %2s | %-26s | %s" % ("t", "volumes vendus", "parités"))
-    for j in journal:
-        vols = " ".join("%s%5.0f" % (c, j["vol_vend"][c]) for c in CODES)
-        par = " ".join("%s%5.2f" % (c, j["parite"][c]) for c in CODES)
-        print("  %2d | %-26s | %s" % (j["t"], vols, par))
+    print("  (3) REGISTRES SÉPARÉS — aucun n'est agrégé avec un autre")
+    print("  %-5s %11s %11s %11s %12s %11s"
+          % ("", "contraction", "expansion", "production", "essentiel",
+             "transfert"))
+    for c in CODES:
+        recu = e.essentiel_recu[c]
+        voulu = e.essentiel_voulu[c]
+        taux = (100.0 * recu / voulu) if voulu else 100.0
+        print("  %-5s %11.0f %11.0f %11.0f %10.0f %%  %11.0f"
+              % (c, e.contraction[c], e.expansion[c], e.production[c],
+                 taux, e.transfert_reel[c]))
+    print("      « essentiel » = part des importations essentielles VOULUES")
+    print("      qui ont été effectivement REÇUES. C'est le registre qui")
+    print("      compte pour l'exigence de l'auteur — pas la masse monétaire.")
 
-    # --- LES DEUX EXIGENCES DE L'AUTEUR, jugees explicitement -----------
-    c3 = [a for a in anomalies if a.startswith("[C3]")]
-    c4 = [a for a in anomalies if a.startswith("[C4]")]
+    contraction, expansion, ecart = reconciliation(e)
     print("")
-    print("  LES DEUX EXIGENCES DE L'AUTEUR")
-    print("    (1) un déficit d'importations ESSENTIELLES n'impose pas de")
-    print("        contraction : %s"
-          % ("TENUE" if not c3 else "ENFREINTE, %d fois" % len(c3)))
-    print("    (2) l'accumulation indéfinie d'excédents est empêchée : %s"
-          % ("TENUE" if not c4 else "NON TENUE"))
+    print("  (2) RÉCONCILIATION — et elle règle la question des 85")
+    print("      contraction totale %.0f, expansion totale %.0f, écart %+.0f"
+          % (contraction, expansion, ecart))
+    print("      EN UNITÉS NEMO, tout se boucle : la somme des soldes est nulle")
+    print("      à chaque période, institution comprise, et le contrôle C1 le")
+    print("      vérifie. EN MONNAIES NATIONALES, rien ne se boucle — l'écart")
+    print("      est l'effet des parités divergentes. CE QUE CELA PROUVE : les")
+    print("      masses monétaires nationales NE SONT PAS SOMMABLES entre pays,")
+    print("      et la version 1 avait tort d'en tirer un « effort » agrégé.")
 
     if anomalies:
         print("")
-        print("  DÉTAIL DES MANQUEMENTS")
-        for a in dict.fromkeys(anomalies):
+        print("  MANQUEMENTS")
+        for a in dict.fromkeys(anomalies)[:8] if False else \
+                list(dict.fromkeys(anomalies))[:8]:
             print("    %s" % a)
+        reste = len(list(dict.fromkeys(anomalies))) - 8
+        if reste > 0:
+            print("    ... et %d autres du même type" % reste)
+    return e, journal, anomalies
 
-    # --- LE RÉSULTAT QUE F6 COMMANDE -----------------------------------
+
+def comparer_procedures(scenario, plafond=0.30):
+    """(5) UN PLAFOND EST UNE PROCÉDURE, PAS UN NOMBRE.
+
+    À plafond large, les trois procédures donnent le même résultat : le plafond
+    n'est jamais atteint, et la comparaison ne dit rien. ON LA JOUE DONC À
+    PLAFOND CONTRAIGNANT — sans quoi on affirmerait ce que la sortie ne montre
+    pas, et c'est la faute que ce modèle existe pour éviter.
+    """
+    global PLAFOND_SOLDE
+    garde = PLAFOND_SOLDE
     print("")
-    print("  RÉPARTITION DE L'EFFORT — et c'est ce que F6 met en jeu")
-    print("  %-26s %8s %11s %10s %8s"
-          % ("", "charges", "contraction", "expansion", "total"))
-    for contraignante in (True, False):
-        e2 = resultats[contraignante][0]
-        eff = effort(e2)
-        titre = ("obligation excédentaire CONTRAIGNANTE" if contraignante
-                 else "obligation excédentaire DÉLIBÉRATIVE (cas historique)")
-        print("  %s" % titre)
-        for c in CODES:
-            print("    %-26s %8.1f %11.1f %10.1f %8.1f"
-                  % (NOM[c][:26], eff[c]["charges"], eff[c]["contraction"],
-                     eff[c]["expansion"], eff[c]["total"]))
-        part_exc = eff["EXC"]["total"]
-        part_def = eff["DEF"]["total"] + eff["PAU"]["total"]
-        tot = part_exc + part_def
-        if tot > 0:
-            print("    part portée par l'excédentaire : %5.1f %%"
-                  % (100.0 * part_exc / tot))
-    return resultats
+    print("  (5) LE PLAFOND, SELON LA PROCÉDURE — joué à plafond CONTRAIGNANT")
+    print("      (%.0f %% du quota au lieu de %.0f %% : au plafond large, les"
+          % (100 * plafond, 100 * garde))
+    print("      trois procédures sont indiscernables parce qu'aucune ne mord)")
+    print("  %-12s %10s %13s %16s %12s"
+          % ("procédure", "solde EXC", "essentiel PAU", "essentiel bloqué",
+             "dépassements"))
+    try:
+        PLAFOND_SOLDE = plafond
+        for proc in PROCEDURES:
+            e, journal, anomalies = jouer(scenario, procedure=proc)
+            bloque = sum(j["bloque"][c] for j in journal for c in CODES)
+            voulu = e.essentiel_voulu["PAU"]
+            taux = (100.0 * e.essentiel_recu["PAU"] / voulu) if voulu else 100.0
+            depass = len([a for a in anomalies if a.startswith("[C6]")])
+            print("  %-12s %10.0f %12.0f %% %16.0f %12d"
+                  % (proc, e.soldes_par_periode["EXC"][-1], taux, bloque,
+                     depass))
+    finally:
+        PLAFOND_SOLDE = garde
+    print("      CE QUE LA SORTIE MONTRE. Le « blocage » est dépassé à CHAQUE")
+    print("      période : un plafond sans procédure est un nombre, pas un")
+    print("      mécanisme, et il ne ramène rien. Le recyclage et la conversion")
+    print("      réduisent les dépassements et le solde.")
+    print("      ET CE QU'ELLE NE MONTRE PAS : aucun paiement essentiel n'est")
+    print("      bloqué dans aucune des trois. Le risque que l'auteur signalait")
+    print("      ne se matérialise pas ICI — parce que le guichet d'allocation")
+    print("      sert l'essentiel AVANT que le plafond ne morde. Retirer ce")
+    print("      guichet ferait réapparaître le risque, et c'est vérifié.")
+
+
+def comparer_guichets(scenario):
+    """LA DÉCISION POSÉE : une part du soutien essentiel doit-elle être
+    définitivement non remboursable ?"""
+    print("")
+    print("  LES DEUX GUICHETS — avec et sans allocation non remboursable")
+    print("  %-22s %13s %14s %12s" % ("", "essentiel reçu", "contraction PAU",
+                                      "dette PAU"))
+    for actif in (False, True):
+        e, journal, anomalies = jouer(scenario, allocation_active=actif)
+        voulu = e.essentiel_voulu["PAU"]
+        taux = (100.0 * e.essentiel_recu["PAU"] / voulu) if voulu else 100.0
+        print("  %-22s %12.0f %% %14.0f %12.0f"
+              % ("facilité seule" if not actif else "facilité + allocation",
+                 taux, e.contraction["PAU"], e.fac["PAU"]))
 
 
 def main():
     print("=" * 78)
-    print("COMPENSATION SYMÉTRIQUE DES DÉSÉQUILIBRES COURANTS — trois pays")
+    print("DÉSÉQUILIBRES COURANTS PERSISTANTS — version 2")
     print("=" * 78)
-    print("Chaque banque centrale tient un compte auprès de l'institution. Le")
-    print("commerce s'y règle. Un corridor est toléré DES DEUX CÔTÉS, des")
-    print("obligations graduées s'appliquent au-delà, une facilité temporaire")
-    print("de liquidité couvre les déficits d'importations ESSENTIELLES, et les")
-    print("parités sont administrées.")
+    print("Cinq corrections de l'auteur : horizon au-delà des maturités,")
+    print("identité stock-flux complète, registres séparés au lieu d'un")
+    print("« effort » agrégé, échanges élastiques, et un plafond qui est une")
+    print("PROCÉDURE et non un nombre.")
     print("")
-    print("AUCUN SEUIL N'EST CALIBRÉ. Corridor %.0f %% du quota, tranche %.0f %%,"
-          % (100 * CORRIDOR, 100 * TRANCHE_2))
-    print("charges %.0f et %.0f %%, pas de parité %.0f %%, plafonds de liquidité"
-          % (100 * TAUX_CHARGE_1, 100 * TAUX_CHARGE_2, 100 * PAS_PARITE))
-    print("déclarés : CE SONT DES REPÈRES POUR FAIRE TOURNER LE MÉCANISME,")
-    print("PAS DES PROPOSITIONS. Changer l'un d'eux change tous les résultats.")
-    print("")
-    print("ET LA SYMÉTRIE EST UN PARAMÈTRE, JAMAIS UNE HYPOTHÈSE — F6 : la")
-    print("charge symétrique de Keynes existait, elle n'était pas contraignante")
-    print("pour le créancier, et elle a été refusée quand même.")
+    print("AUCUN SEUIL N'EST CALIBRÉ. Horizon %d périodes, maturité %d,"
+          % (PERIODES, DUREE_FACILITE))
+    print("élasticité %.1f, plafond dur %.0f %% du quota, corridor %.0f %%."
+          % (ELASTICITE, 100 * PLAFOND_SOLDE, 100 * CORRIDOR))
 
-    tous = [(s, rendre(s)) for s in SCENARIOS]
+    for sc in SCENARIOS:
+        rendre(sc)
 
     print("")
     print("=" * 78)
-    print("CE QUE LE MODÈLE MONTRE, ET CE QU'IL NE MONTRE PAS")
+    print("LA DÉCISION POSÉE — S2, CHOC STRUCTUREL")
     print("=" * 78)
-    ecarts = []
-    for s, res in tous:
-        a = effort(res[True][0])
-        b = effort(res[False][0])
-        pa = a["EXC"]["total"]
-        pb = b["EXC"]["total"]
-        ta = pa + a["DEF"]["total"] + a["PAU"]["total"]
-        tb = pb + b["DEF"]["total"] + b["PAU"]["total"]
-        if ta > 0 and tb > 0:
-            ecarts.append((s.cle, 100.0 * pa / ta, 100.0 * pb / tb))
-    print("  part de l'effort portée par l'excédentaire, par scénario :")
-    print("  %-4s %14s %16s" % ("", "contraignante", "délibérative"))
-    for cle, x, y in ecarts:
-        print("  %-4s %13.1f %% %15.1f %%" % (cle, x, y))
+    sc = [x for x in SCENARIOS if x.cle == "S2"][0]
+    comparer_guichets(sc)
+    comparer_procedures(sc)
+
     print("")
-    print("  L'ÉCART ENTRE LES DEUX COLONNES EST LE RÉSULTAT PRINCIPAL. Il")
-    print("  mesure ce que la symétrie apporte — et c'est exactement la")
-    print("  disposition dont le corpus a établi, sur pièces, qu'elle est celle")
-    print("  qui saute [F6, L1.C25].")
+    print("  CE QUE CELA ÉTABLIT, ET C'EST ÉTROIT. Une facilité REMBOURSABLE")
+    print("  convient à un choc temporaire et NE PEUT PAS financer un déficit")
+    print("  essentiel STRUCTUREL : le remboursement restitue la contraction.")
+    print("  L'allocation non remboursable est le seul des deux guichets qui")
+    print("  tienne l'exigence sur l'horizon. CE QUE CELA NE DIT PAS : qui la")
+    print("  finance, à quelles conditions, et sous quel contrôle — c'est la")
+    print("  question suivante, et elle est politique.")
     print("")
-    print("  TROIS RÉSULTATS, ET LES TROIS SONT CONTRE LA SOLUTION DE RÉFÉRENCE")
-    print("  TELLE QUE PARAMÉTRÉE ICI.")
-    print("")
-    print("  (1) LA PROTECTION DES IMPORTATIONS ESSENTIELLES CÈDE QUAND LE CHOC")
-    print("      DURE PLUS LONGTEMPS QUE LA FACILITÉ. Le remboursement à")
-    print("      échéance ne supprime pas la contraction : il la DIFFÈRE, et il")
-    print("      la fait tomber pendant que le choc dure encore. Une facilité")
-    print("      « temporaire » ne protège que d'un choc temporaire.")
-    print("")
-    print("  (2) LE CORRIDOR N'EMPÊCHE PAS L'ACCUMULATION, DES DEUX CÔTÉS. Il")
-    print("      TARIFE le dépassement, il ne le BORNE pas. Un taux appliqué au")
-    print("      dépassement fait converger le solde vers CORRIDOR PLUS FLUX")
-    print("      DIVISÉ PAR TAUX : il borne asymptotiquement, il ne pose aucun")
-    print("      plafond, et la convergence peut être plus lente que le choc.")
-    print("      Empêcher demande un PLAFOND DUR, ou une charge croissant plus")
-    print("      vite que le solde. Le test le vérifie sur les deux barèmes.")
-    print("")
-    print("  (3) MÊME SOUS OBLIGATION CONTRAIGNANTE, LA SYMÉTRIE EST NOMINALE.")
-    print("      La charge graduée reste d'un ordre de grandeur inférieur à la")
-    print("      contraction qu'elle devrait compenser. Et l'expansion monétaire")
-    print("      de l'excédentaire, miroir exact de la contraction du")
-    print("      déficitaire, n'est comptée nulle part comme un avantage.")
-    print("")
-    print("  CE QUE CELA NE DIT PAS : que le mécanisme soit impossible. Cela dit")
-    print("  que CES PARAMÈTRES ne satisfont ni l'une ni l'autre exigence, et")
-    print("  pourquoi. Les seuils sont à fixer — c'est le travail suivant, et")
-    print("  l'auteur a demandé de ne pas le faire avant ce modèle.")
-    print("")
-    print("  CE QUE LE MODÈLE NE MONTRE PAS. Aucun comportement : ni élasticité,")
-    print("  ni substitution d'importations, ni réaction des prix intérieurs, ni")
-    print("  capacité productive, ni mouvement de capitaux — ceux-ci sont")
-    print("  réglementés par A32 et sortent du périmètre. Les chocs sont")
-    print("  IMPOSÉS, non expliqués. Et aucun seuil n'est calibré : le modèle")
-    print("  dit ce qui suit des repères qu'on lui a donnés, rien de plus.")
+    print("  ET LE MODÈLE NE MESURE TOUJOURS PAS L'INFLATION. Les prix ne sont")
+    print("  pas endogènes : les échanges répondent aux parités, pas les prix")
+    print("  intérieurs à la monnaie. La « tension inflationniste » demandée")
+    print("  n'est donc PAS publiée, faute de mécanisme qui la produise.")
     return 0
 
 

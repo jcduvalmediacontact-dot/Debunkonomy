@@ -139,10 +139,15 @@ python modeles/nemo_soldes.py
 python modeles/test_nemo_soldes.py
 ```
 
-**Deux exigences de l'auteur sont contrôlées, et elles peuvent échouer** : un
-déficit d'importations essentielles ne doit pas imposer de contraction, et
-l'accumulation indéfinie d'excédents doit être empêchée. **Au barème déclaré,
-aucune des deux n'est tenue** — le programme dit laquelle, où, et pourquoi.
+**VERSION 2, après cinq corrections de l'auteur** : horizon au-delà de toutes
+les maturités, identité stock-flux vérifiée par pays et par période, registres
+publiés séparément au lieu d'un « effort » agrégé, **échanges élastiques à la
+parité** — sans quoi conclure qu'une charge n'arrête pas une accumulation est
+tautologique — et **un plafond qui est une PROCÉDURE, pas un nombre**.
+
+**Deux guichets** : facilité remboursable pour un choc temporaire, allocation
+solidaire **non remboursable** pour un besoin essentiel structurel. Le programme
+compare les deux, et les trois procédures de plafond.
 
 **La symétrie est un PARAMÈTRE, jamais une hypothèse.** Chaque scénario est joué
 sous obligation excédentaire contraignante puis délibérative, parce que le

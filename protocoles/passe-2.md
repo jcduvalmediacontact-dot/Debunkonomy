@@ -5883,3 +5883,141 @@ modèle.**
 d'importations, ni réaction des prix intérieurs, ni capacité productive. **Les
 chocs sont imposés, non expliqués.** Et les mouvements de capitaux sont hors
 périmètre : ils sont réglementés par A32.
+
+
+## LA PROMESSE CENTRALE EST RESTREINTE — 2026-09-09, A44
+
+**CE QUE NEMO IMS NE PEUT PAS PROMETTRE, ET L'AUTEUR LE RETIRE.** **Aucune
+institution monétaire ne contrôle à elle seule les ressources, les techniques,
+les écosystèmes, les États et les comportements humains.** La promesse de
+garantir les conditions de la vie sur Terre est donc abandonnée — elle
+prolongeait la concession déjà versée à F14 le même jour, et elle la rend
+définitive.
+
+**FORMULATION RETENUE, ET ELLE EST FALSIFIABLE :**
+
+> « **NEMO IMS garantit la disponibilité du financement pour les besoins
+> essentiels matériellement réalisables, dans les limites écologiques reconnues
+> et sous contrôle démocratique.** »
+
+**DEUX ENGAGEMENTS VÉRIFIABLES, ET C'EST TOUT LEUR INTÉRÊT.**
+
+**(1) L'ABSENCE DE FINANCEMENT NE DOIT PAS BLOQUER UNE ACTION ESSENTIELLE
+MATÉRIELLEMENT RÉALISABLE.** **Se vérifie par un contre-exemple** : une action
+jugée essentielle, physiquement faisable, et qui n'a pas eu lieu faute de
+financement alors que le dispositif fonctionnait.
+
+**(2) AUCUNE ÉMISSION NE DOIT FINANCER UNE ACTIVITÉ INCOMPATIBLE AVEC LES
+CONTRAINTES ÉCOLOGIQUES RETENUES.** **Se vérifie par un contre-exemple aussi** :
+une émission tracée jusqu'à une activité qui franchit une contrainte adoptée.
+
+**CE QUE CETTE RESTRICTION COÛTE, ET CE QU'ELLE GAGNE.** Elle abandonne la
+prétention la plus large du projet. **Elle gagne deux énoncés qu'un
+contradicteur peut attaquer avec un seul cas**, là où la promesse précédente ne
+pouvait ni être tenue ni être réfutée. **Une promesse invérifiable n'est pas une
+promesse forte : c'est une promesse absente.**
+
+**ET ELLE DÉPLACE LA CHARGE.** Garantir la DISPONIBILITÉ du financement n'est pas
+garantir le RÉSULTAT écologique. **Ce que le dispositif promet désormais, c'est
+de ne pas être le facteur bloquant, et de ne pas être le facteur aggravant.** **Le
+résultat, lui, dépend des politiques de substitution que F14 a établies
+nécessaires et que le dispositif ne contient pas.**
+
+## L'ORDRE DE TRAVAIL — NEUF CHANTIERS, ARRÊTÉ LE 2026-09-09
+
+**(1) Compensation des déséquilibres internationaux** — modèle construit le
+2026-09-09, aucune des deux exigences tenue au barème déclaré. **(2) RÈGLE
+D'ÉLIGIBILITÉ DES PROJETS** — chantier central, ouvert ce jour sous
+`REGLE-D-EMISSION`. **(3) Plafond et rythme de l'émission.** **(4) Réponse à
+l'inflation et aux pénuries.** **(5) Gouvernance des décisions et des recours.**
+**(6) Porteur juridique et comptable du passif** — A35b, en attente de la revue
+humaine. **(7) Destination des prélèvements et de la fonte** — A36. **(8) Modèle
+macroéconomique à plusieurs pays.** **(9) Expérimentation limitée avant toute
+institution mondiale.**
+
+**CE QUE CET ORDRE ENGAGE.** Les points 6 et 7 sont déjà ouverts et attendent
+des tiers ; les points 1 et 2 sont ceux que le corpus peut avancer seul ; **le
+point 8 ne doit pas être entrepris avant que 3, 4 et 5 aient une forme**, sans
+quoi le modèle macroéconomique modéliserait des règles qui n'existent pas.
+
+
+## LA COMPENSATION, VERSION 2 — CINQ CORRECTIONS DE L'AUTEUR, 2026-09-09
+
+**LA VERSION 1 AVAIT PRODUIT UN RÉSULTAT UTILE — elle réfutait la version naïve
+de la compensation — MAIS TROIS DE SES CONCLUSIONS ÉTAIENT MAL FONDÉES.**
+
+### CE QUI ÉTAIT FAUX, ET LE PLUS GRAVE D'ABORD
+
+**(1) LA CONCLUSION SUR LE CORRIDOR ÉTAIT EN PARTIE TAUTOLOGIQUE.** Les flux
+commerciaux étaient fixés indépendamment des charges et des parités : **aucune
+taxe ne pouvait donc supprimer leur accumulation, et le modèle retrouvait ce
+qu'il avait supposé.** **Avec des échanges élastiques, le solde de l'excédentaire
+CULMINE puis REDESCEND** — de 413 à 199 en vingt périodes, contre 779 à flux
+rigides. **Le corridor borne, et la version 1 disait le contraire.**
+
+**(2) UN PLAFOND DUR N'EST PAS UN MÉCANISME.** La version 1 le recommandait sans
+dire ce qui se passe quand il est atteint. **Trois procédures sont désormais
+implémentées, et elles diffèrent** : le blocage est dépassé à CHAQUE période —
+vingt sur vingt — le recyclage n'est dépassé que neuf fois, la conversion ramène
+le solde de 666 à 274. **Un plafond sans procédure est un nombre, pas un
+mécanisme.**
+
+**(3) LES 499 DE CONTRACTION ET 584 D'EXPANSION N'ÉTAIENT PAS RÉCONCILIÉS.**
+L'identité stock-flux est désormais vérifiée par pays et par période. **La
+réconciliation donne la réponse : l'écart est un EFFET DE PARITÉ.** En unités
+NEMO tout se boucle ; en monnaies nationales rien ne se boucle, **parce que les
+masses monétaires nationales NE SONT PAS SOMMABLES entre pays**. **La version 1
+avait donc tort d'en tirer un « effort » agrégé, et le mot est retiré du
+programme.**
+
+**(4) L'HORIZON MASQUAIT LE PROBLÈME.** Allonger la durée de la facilité
+repoussait simplement l'échéance hors des huit périodes. **L'horizon est porté à
+vingt**, un contrôle vérifie qu'aucun tirage ne subsiste à la fin, **et un report
+n'est plus comptabilisé comme une résolution.**
+
+**(5) UNE VARIATION DE MASSE MONÉTAIRE N'EST PAS UN EFFORT RÉEL.** Sont publiés
+séparément : contraction, expansion, production, part des importations
+essentielles effectivement reçue, transfert réel de ressources. **Aucun n'est
+agrégé avec un autre.** **Et la tension inflationniste n'est PAS publiée** : les
+prix ne sont pas endogènes, et le corpus ne fabriquera pas un indicateur qu'aucun
+mécanisme ne produit.
+
+### LA DÉCISION QUE LE MODÈLE ÉCLAIRE — A45
+
+**L'AUTEUR POSE LA QUESTION ET LA TRANCHE : OUI, une part du soutien aux
+importations essentielles doit être DÉFINITIVEMENT NON REMBOURSABLE.**
+
+**LE MODÈLE LE DOCUMENTE, sur choc énergétique STRUCTUREL.** Facilité
+remboursable seule : **94 %** des besoins essentiels servis, **567** de
+contraction, **204** de dette résiduelle. Facilité **plus** allocation solidaire :
+**100 %**, **53** de contraction, **aucune** dette. **Sans allocation, le
+dispositif protège temporairement puis restitue la contraction sous forme de
+remboursement.**
+
+**ET LA FACILITÉ N'EST PAS INUTILE POUR AUTANT** : sur un choc TEMPORAIRE, elle
+suffit seule — cent pour cent. **L'allocation n'est pas une réponse à tout, donc
+elle n'est pas une réponse à rien.** **Ce sont deux guichets pour deux natures de
+choc, et le test vérifie que chacun tient sur le sien.**
+
+### CE QUE LA SYMÉTRIE VEUT DIRE, ET CE QU'ELLE NE VEUT PAS DIRE
+
+**Les deux côtés ont une OBLIGATION D'AJUSTEMENT. Cela n'exige pas l'égalité
+nominale des sacrifices.** La contribution doit dépendre de la capacité, de la
+cause du déséquilibre et du caractère essentiel ou non des flux. **La version 1
+mesurait un « effort » agrégé et concluait à une symétrie nominale : la mesure
+était invalide, et la conclusion est retirée avec elle.**
+
+### CE QUI RESTE OUVERT
+
+**QUI FINANCE L'ALLOCATION** — c'est la question suivante, et elle est politique.
+**L'ordre d'intervention proposé par l'auteur** : financement garanti des
+importations essentielles ; recyclage d'une partie des excédents ; prélèvements
+progressifs sur les positions persistantes ; révision encadrée de la parité ;
+restrictions sur les opérations non essentielles ; restructuration ou transfert
+collectif lorsque le déficit essentiel est structurel.
+
+**ET LE RISQUE SIGNALÉ PAR L'AUTEUR EST VÉRIFIÉ.** À plafond serré, **retirer le
+guichet d'allocation fait bloquer 579 d'importations essentielles contre 145
+avec** : un plafond peut bel et bien bloquer le règlement de biens essentiels, et
+**c'est le guichet non remboursable qui écarte ce risque**, non le plafond
+lui-même.

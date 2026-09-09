@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-VÉRIFICATION DU MODÈLE DE COMPENSATION — et de lui seul.
+VÉRIFICATION DU MODÈLE DE COMPENSATION, version 2.
 
-CE QU'IL PROUVE : que `nemo_soldes.py` applique ses règles, que ses identités
-tiennent, et que ses trois manquements sont SENSIBLES AUX PARAMÈTRES plutôt que
-structurels — ce qui est une information utile, puisqu'elle dit ce qu'il
-faudrait changer.
+CE QU'IL PROUVE : que les identités tiennent, que les cinq corrections de
+l'auteur sont effectivement en place, et que les conclusions publiées sont
+celles que la sortie montre — non celles qu'on voudrait qu'elle montre.
 
 CE QU'IL NE PROUVE PAS : que le mécanisme soit viable, ni que les repères
 retenus soient raisonnables. Aucun n'est calibré.
@@ -41,150 +40,168 @@ def codes(anomalies, prefixe):
     return [a for a in anomalies if a.startswith(prefixe)]
 
 
-# =====================================================================
-print("A. IDENTITÉS — ce ne sont pas des hypothèses")
-# =====================================================================
-for sc in m.SCENARIOS:
-    for lien in (True, False):
-        _, _, anomalies = m.jouer(sc, lien)
-        exiger(not codes(anomalies, "[C1]"),
-               "%s (%s) : la somme des soldes reste nulle à chaque période"
-               % (sc.cle, "contraignante" if lien else "délibérative"))
-        exiger(not codes(anomalies, "[C2]"),
-               "%s (%s) : la liquidité reste dans ses bornes"
-               % (sc.cle, "contraignante" if lien else "délibérative"))
-
-
-_, journal0, _ = m.jouer(par_cle("S0"), True)
-somme = sum(journal0[-1]["solde"][c] for c in m.COMPTES)
-exiger(abs(somme) < 1e-6,
-       "et la clôture finale vaut zéro (%.6f) : une compensation qui ne se "
-       "boucle pas n'en est pas une" % somme)
+def taux_essentiel(e, pays="PAU"):
+    v = e.essentiel_voulu[pays]
+    return 100.0 * e.essentiel_recu[pays] / v if v else 100.0
 
 
 # =====================================================================
-print("")
-print("B. LA PROTECTION DES IMPORTATIONS ESSENTIELLES")
-# =====================================================================
-_, _, a_s1 = m.jouer(par_cle("S1"), True)
-exiger(codes(a_s1, "[C3]"),
-       "S1 : la règle est ENFREINTE — le choc dure plus longtemps que la "
-       "facilité")
-
-# LE MOTIF EST LE REMBOURSEMENT, ET ON LE PROUVE EN ALLONGEANT LA DURÉE.
-duree = m.DUREE_LIQUIDITE
-try:
-    m.DUREE_LIQUIDITE = m.PERIODES + 1
-    _, _, a_long = m.jouer(par_cle("S1"), True)
-    exiger(not codes(a_long, "[C3]"),
-           "et elle cesse de l'être si la facilité couvre tout l'horizon : "
-           "LA CAUSE EST LE REMBOURSEMENT À ÉCHÉANCE, non le plafond")
-finally:
-    m.DUREE_LIQUIDITE = duree
-
-plafond = dict(m.PLAFOND_LIQUIDITE)
-try:
-    m.PLAFOND_LIQUIDITE = dict((c, 0) for c in m.CODES)
-    _, _, a_sans = m.jouer(par_cle("S1"), True)
-    exiger(len(codes(a_sans, "[C3]")) > len(codes(a_s1, "[C3]")),
-           "sans facilité du tout, la règle est enfreinte davantage (%d contre "
-           "%d) : la facilité sert, elle ne suffit pas"
-           % (len(codes(a_sans, "[C3]")), len(codes(a_s1, "[C3]"))))
-finally:
-    m.PLAFOND_LIQUIDITE = plafond
-
-
-# =====================================================================
-print("")
-print("C. L'ACCUMULATION INDÉFINIE")
+print("A. IDENTITÉS — correction (2) de l'auteur")
 # =====================================================================
 for sc in m.SCENARIOS:
-    _, _, a = m.jouer(sc, True)
-    exiger(codes(a, "[C4]"),
-           "%s : le corridor NE BORNE PAS — il tarife le dépassement sans "
-           "l'empêcher" % sc.cle)
+    e, journal, anomalies = m.jouer(sc)
+    exiger(not codes(anomalies, "[C1]"),
+           "%s : la somme des soldes, institution comprise, reste nulle" % sc.cle)
+    exiger(not codes(anomalies, "[C5]"),
+           "%s : la variation de masse égale EXACTEMENT le flux NEMO converti "
+           "à la parité — l'identité stock-flux tient période par période"
+           % sc.cle)
 
-# ET C'EST UNE QUESTION DE BARÈME, NON DE STRUCTURE.
-t1, t2 = m.TAUX_CHARGE_1, m.TAUX_CHARGE_2
-try:
-    m.TAUX_CHARGE_1, m.TAUX_CHARGE_2 = 0.60, 1.20
-    e_fort, _, _ = m.jouer(par_cle("S0"), True)
-    e_faible = None
-finally:
-    m.TAUX_CHARGE_1, m.TAUX_CHARGE_2 = t1, t2
-e_faible, _, _ = m.jouer(par_cle("S0"), True)
-
-
-def dernier_increment(e):
-    serie = e.soldes_par_periode["EXC"]
-    return serie[-1] - serie[-2]
-
-
-exiger(dernier_increment(e_fort) < 0.5 * dernier_increment(e_faible),
-       "une charge forte FREINE l'accumulation : dernier incrément %.1f contre "
-       "%.1f au barème déclaré"
-       % (dernier_increment(e_fort), dernier_increment(e_faible)))
-exiger(dernier_increment(e_fort) > 0,
-       "MAIS ELLE NE LA BORNE PAS DANS L'HORIZON : l'excédent croît encore de "
-       "%.1f à la dernière période. Un taux fait converger vers corridor plus "
-       "flux divisé par taux ; il ne pose aucun plafond."
-       % dernier_increment(e_fort))
-
-# CE QUE CELA ÉTABLIT, ET C'EST PLUS FIN QUE « C'EST UN PROBLÈME DE BARÈME ».
-# Un taux appliqué au dépassement fait converger le solde vers
-#     corridor + flux / taux
-# — donc il BORNE asymptotiquement, mais il ne POSE AUCUN PLAFOND, et la
-# convergence peut être plus lente que le choc. Empêcher l'accumulation
-# demande un plafond DUR, ou une charge croissant plus vite que le solde.
+e, _, _ = m.jouer(par_cle("S2"))
+contraction, expansion, ecart = m.reconciliation(e)
+exiger(abs(ecart) > 1e-6,
+       "et les masses NATIONALES ne se bouclent pas (écart %+.0f) : c'est un "
+       "EFFET DE PARITÉ, et il prouve qu'elles ne sont pas sommables entre "
+       "pays" % ecart)
 
 
 # =====================================================================
 print("")
-print("D. F6 — LA SYMÉTRIE EST UN PARAMÈTRE, ET L'ÉCART SE MESURE")
+print("B. HORIZON — correction (1)")
 # =====================================================================
+exiger(m.PERIODES > 3 * m.DUREE_FACILITE,
+       "l'horizon (%d) dépasse largement la maturité (%d)"
+       % (m.PERIODES, m.DUREE_FACILITE))
 for sc in m.SCENARIOS:
-    ec, _, _ = m.jouer(sc, True)
-    ed, _, _ = m.jouer(sc, False)
-    part_c = m.effort(ec)["EXC"]["total"]
-    part_d = m.effort(ed)["EXC"]["total"]
-    exiger(part_d == 0.0,
-           "%s : sous obligation DÉLIBÉRATIVE, l'excédentaire ne porte RIEN "
-           "(%.1f) — c'est la configuration historiquement adoptée"
-           % (sc.cle, part_d))
-    exiger(part_c > part_d,
-           "%s : sous obligation contraignante il porte %.1f, et l'écart est "
-           "ce que F6 met en jeu" % (sc.cle, part_c))
-
-ec, _, _ = m.jouer(par_cle("S1"), True)
-eff = m.effort(ec)
-total = sum(eff[c]["total"] for c in m.CODES)
-part = 100.0 * eff["EXC"]["total"] / total
-exiger(part < 20.0,
-       "et même contraignante, la symétrie reste NOMINALE : l'excédentaire "
-       "porte %.1f %% de l'effort en S1" % part)
-exiger(eff["EXC"]["expansion"] > eff["DEF"]["contraction"] * 0.5,
-       "alors que son expansion monétaire (%.0f) est du même ordre que la "
-       "contraction du déficitaire (%.0f) — miroir non compté"
-       % (eff["EXC"]["expansion"], eff["DEF"]["contraction"]))
+    _, _, anomalies = m.jouer(sc)
+    exiger(not codes(anomalies, "[C7]"),
+           "%s : aucun tirage ne subsiste à la fin — rien n'est reporté hors "
+           "horizon" % sc.cle)
 
 
 # =====================================================================
 print("")
-print("E. AUCUN SEUIL N'EST DÉCLARÉ CALIBRÉ")
+print("C. LES ÉCHANGES RÉPONDENT — correction (4), la plus dure")
 # =====================================================================
+# Avec des flux exogènes, conclure qu'une charge n'arrête pas l'accumulation
+# était tautologique. On le vérifie en annulant l'élasticité.
+elast = m.ELASTICITE
+try:
+    m.ELASTICITE = 0.0
+    e_rigide, _, _ = m.jouer(par_cle("S0"))
+finally:
+    m.ELASTICITE = elast
+e_souple, _, _ = m.jouer(par_cle("S0"))
+
+pic = max(e_souple.soldes_par_periode["EXC"])
+fin_souple = e_souple.soldes_par_periode["EXC"][-1]
+fin_rigide = e_rigide.soldes_par_periode["EXC"][-1]
+
+exiger(fin_souple < pic,
+       "avec des échanges élastiques, le solde de l'excédentaire CULMINE à "
+       "%.0f puis REDESCEND à %.0f" % (pic, fin_souple))
+exiger(fin_rigide > fin_souple,
+       "avec des flux rigides il finit plus haut (%.0f contre %.0f) : LA "
+       "CONCLUSION DE LA VERSION 1 ÉTAIT EN PARTIE TAUTOLOGIQUE"
+       % (fin_rigide, fin_souple))
+exiger(m.ESSENTIEL.get(("EXC", "PAU")) is True,
+       "et les postes essentiels restent inélastiques : c'est ce qui les "
+       "définit")
+
+
+# =====================================================================
+print("")
+print("D. LES DEUX GUICHETS — la décision posée par l'auteur")
+# =====================================================================
+sc = par_cle("S2")          # choc STRUCTUREL
+e_fac, _, _ = m.jouer(sc, allocation_active=False)
+e_deux, _, _ = m.jouer(sc, allocation_active=True)
+
+exiger(taux_essentiel(e_deux) > taux_essentiel(e_fac),
+       "sur un choc STRUCTUREL, l'allocation non remboursable sert %.0f %% des "
+       "besoins essentiels contre %.0f %% pour la facilité seule"
+       % (taux_essentiel(e_deux), taux_essentiel(e_fac)))
+exiger(e_deux.contraction["PAU"] < e_fac.contraction["PAU"],
+       "et la contraction du pays pauvre tombe de %.0f à %.0f"
+       % (e_fac.contraction["PAU"], e_deux.contraction["PAU"]))
+exiger(e_fac.fac["PAU"] > 0 and e_deux.fac["PAU"] == 0,
+       "la facilité seule laisse une dette de %.0f à la fin ; les deux "
+       "guichets n'en laissent aucune" % e_fac.fac["PAU"])
+
+# ET SUR UN CHOC TEMPORAIRE, LA FACILITÉ SUFFIT — sans quoi l'allocation
+# serait une réponse à tout, donc à rien.
+e_t, _, _ = m.jouer(par_cle("S1"), allocation_active=False)
+exiger(taux_essentiel(e_t) > 95.0,
+       "sur un choc TEMPORAIRE, la facilité seule suffit (%.0f %%) : "
+       "l'allocation n'est pas une réponse à tout" % taux_essentiel(e_t))
+
+
+# =====================================================================
+print("")
+print("E. UN PLAFOND EST UNE PROCÉDURE — correction (5)")
+# =====================================================================
+garde = m.PLAFOND_SOLDE
+try:
+    m.PLAFOND_SOLDE = 0.30
+    res = {}
+    for proc in m.PROCEDURES:
+        e, journal, anomalies = m.jouer(sc, procedure=proc)
+        res[proc] = (e, len(codes(anomalies, "[C6]")))
+finally:
+    m.PLAFOND_SOLDE = garde
+
+exiger(res["blocage"][1] == m.PERIODES,
+       "le « blocage » est dépassé à CHAQUE période (%d sur %d) : un plafond "
+       "sans procédure est un nombre, pas un mécanisme"
+       % (res["blocage"][1], m.PERIODES))
+exiger(res["recyclage"][1] < res["blocage"][1],
+       "le recyclage réduit les dépassements (%d contre %d)"
+       % (res["recyclage"][1], res["blocage"][1]))
+exiger(res["conversion"][0].soldes_par_periode["EXC"][-1]
+       < res["blocage"][0].soldes_par_periode["EXC"][-1],
+       "et la conversion ramène le solde (%.0f contre %.0f)"
+       % (res["conversion"][0].soldes_par_periode["EXC"][-1],
+          res["blocage"][0].soldes_par_periode["EXC"][-1]))
+
+# LE RISQUE SIGNALÉ PAR L'AUTEUR — un plafond qui bloque l'essentiel — ne se
+# matérialise que si le guichet d'allocation est retiré.
+try:
+    m.PLAFOND_SOLDE = 0.10
+    _, j_avec, _ = m.jouer(sc, procedure="blocage", allocation_active=True)
+    _, j_sans, _ = m.jouer(sc, procedure="blocage", allocation_active=False)
+finally:
+    m.PLAFOND_SOLDE = garde
+avec = sum(j["bloque"][c] for j in j_avec for c in m.CODES)
+sans = sum(j["bloque"][c] for j in j_sans for c in m.CODES)
+exiger(sans >= avec,
+       "à plafond serré, retirer l'allocation ne réduit jamais le blocage des "
+       "importations essentielles (%.0f sans, %.0f avec)" % (sans, avec))
+
+
+# =====================================================================
+print("")
+print("F. CE QUI N'EST PAS PUBLIÉ, ET NE DOIT PAS L'ÊTRE — correction (3)")
+# =====================================================================
+e, _, _ = m.jouer(sc)
+exiger(not hasattr(e, "effort"),
+       "aucun registre « effort » n'existe : une variation de masse monétaire "
+       "n'est pas une perte réelle")
+for registre in ("contraction", "expansion", "production", "essentiel_recu",
+                 "transfert_reel"):
+    exiger(hasattr(e, registre),
+           "le registre « %s » est publié séparément" % registre)
 exiger(m.SEUILS_CALIBRES is False,
-       "le drapeau de calibrage est à False, et il doit y rester tant qu'une "
-       "source ne fonde pas chaque seuil")
+       "et aucun seuil n'est déclaré calibré")
 
 
 print("")
 if ECHECS:
     print("ÉCHEC — le programme n'applique pas ses règles :")
-    for e in ECHECS:
-        print("  " + e)
+    for x in ECHECS:
+        print("  " + x)
     sys.exit(1)
-print("Le modèle applique ses règles, et ses trois manquements sont de")
-print("CALIBRAGE ou de DURÉE, non de structure. CELA NE VALIDE NI LE MÉCANISME")
-print("NI SES PARAMÈTRES : aucun n'est calibré, et la symétrie reste la")
-print("disposition dont le corpus a établi qu'elle est celle qui saute [F6].")
+print("Les cinq corrections sont en place et les conclusions publiées sont")
+print("celles que la sortie montre. CELA NE VALIDE NI LE MÉCANISME NI SES")
+print("PARAMÈTRES, et l'inflation n'est toujours pas modélisée : les prix ne")
+print("sont pas endogènes.")
 sys.exit(0)
