@@ -1,8 +1,11 @@
 # Note de revue — qualification comptable d'une unité monétaire émise sans dette
 
-**Destinataire : un comptable national, ou un spécialiste des bilans de banque
-centrale.**
-**Objet : valider ou infirmer une lecture de la norme, non commenter un projet.**
+**Destinataires : DEUX COMPÉTENCES, et elles ne se recouvrent pas.**
+**Un comptable national ou un spécialiste des bilans de banque centrale** pour
+les questions 1 à 5, 7 et 8. **Un juriste spécialisé en droit monétaire
+international, ou un praticien des opérations de réserves et des mécanismes du
+Fonds**, pour la question 6 — qui n'est pas une question comptable.
+**Objet : valider ou infirmer DEUX LECTURES — celle de la norme comptable, et celle d'une règle statutaire du Fonds. Non commenter un projet.**
 **Date : 2026-09-09. Pièce jointe : `modeles/a35b_bilans.py` et
 `modeles/test_a35b.py`, exécutables, sans dépendance.**
 
@@ -90,9 +93,11 @@ traitement suppose-t-il des éléments que notre modèle omet ?**
 - **Ni intérêt ni horizon.** Or le § 12.49 fonde le passif d'allocation sur une
   obligation de remboursement **et** sur le fait qu'un intérêt court. Nous ne
   pouvons éprouver ni ce motif ni la solvabilité intertemporelle.
-- **Aucune obligation modélisée n'existe dans un texte de droit.** Ni
-  l'obligation d'acceptation, ni l'engagement de conversion, ni le régime des
-  contributions réglables en unités.
+- **Aucune obligation propre à NEMO IMS n'existe encore dans un texte de
+  droit. B11 transpose à titre comparatif une obligation existante du dispositif
+  des DTS ; les autres branches restent des constructions prospectives.** Ce qui
+  n'existe nulle part, c'est l'obligation d'acceptation, l'engagement de
+  conversion et le régime des contributions réglables en unités.
 - **Le plafond de désignation est sourcé** — article XIX § 4(a) des Statuts du
   Fonds, lu dans le texte le 2026-09-09. Sa lecture a corrigé une erreur du
   modèle : c'est l'excédent sur l'allocation qui est borné à deux allocations,
@@ -123,13 +128,13 @@ réserves disponibles ?**
 
 ## 6. Deux résultats que nous soumettons, et qui nous surprennent
 
-**LE CONTRÔLE AU PIC.** Une conversion promise « à tout moment » ne se contrôle
+**QUESTION 7 — LE CONTRÔLE AU PIC.** Une conversion promise « à tout moment » ne se contrôle
 pas sur le bilan final. Dans notre branche à capital souscrit, le bilan final
 affiche une couverture exacte, **et la chronologie montre un découvert dès la
 première étape**, qui persiste jusqu'à la fin du reflux. **Confirmez-vous que le
 pic est la bonne mesure ?**
 
-**LE COLLECTEUR ET L'EMPLOI.** Le dispositif reprend des unités par deux
+**QUESTION 8 — LE COLLECTEUR, LA DESTINATION DES UNITÉS ET LEUR EXTINCTION.** Le dispositif reprend des unités par deux
 mécanismes distincts : un prélèvement sur les transactions et une charge sur les
 encaisses détenues. **Selon que l'émetteur ou l'État perçoit le premier, l'unité
 perçue est éteinte ou seulement déplacée** ; et si l'État perçoit, ce qu'il en
@@ -138,7 +143,26 @@ décide de l'encours final. **Le collecteur ne décide que de la première
 destination.** Nous ne trouvons pas ce point traité dans la littérature que nous
 avons lue, et nous demandons s'il est trivial ou s'il a été manqué.
 
-## 7. Comment vérifier vous-même
+## 7. Les huit questions, et à qui elles s'adressent
+
+| | | |
+|---|---|---|
+| **1** | La définition du passif — les quatre éléments retenus sont-ils la bonne lecture des § 4.101 et 4.103, et faut-il y ajouter les passifs constructifs du § 4.102 ? | comptable |
+| **2** | Le créancier d'un instrument transférable doit-il migrer avec le détenteur ? | comptable |
+| **3** | Une obligation d'acceptation sans dette en face est-elle une obligation présente, ou une possibilité future ? | comptable |
+| **4** | L'insuffisance d'actifs fait-elle disparaître le passif ? | comptable |
+| **5** | Les deux placements du passif — chez l'émetteur, chez chaque receveur — sont-ils également représentables ? | comptable |
+| **6** | Comment passer du plafond statutaire individuel à une capacité de secours exigible et mobilisable ? | **juriste / praticien des réserves** |
+| **7** | Une obligation exigible « à tout moment » se contrôle-t-elle au pic ? | comptable |
+| **8** | Le collecteur ne décidant que de la première destination, l'emploi ultérieur décide-t-il de l'extinction ? | comptable |
+
+**La question 6 n'est pas comptable**, et nous la posons séparément : elle
+suppose de savoir ce qu'un plan annuel de désignation rend juridiquement
+exigible, et ce que des critères d'éligibilité et des réserves disponibles
+rendent opérationnellement mobilisable. **Un désaccord entre les deux
+compétences sur ce point nous serait plus utile qu'un accord.**
+
+## 8. Comment vérifier vous-même
 
 ```bash
 python modeles/a35b_bilans.py    # les quatorze branches, avec leur chronologie

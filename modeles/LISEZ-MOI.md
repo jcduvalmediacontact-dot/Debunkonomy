@@ -112,9 +112,10 @@ Six sections, et la troisième porte un avertissement en toutes lettres :
 résultat de L19.C10 est conditionnel à l'énumération, et un contradicteur qui
 produirait une quinzième branche déplacerait ses conclusions.
 
-**Le jalon suivant est humain** : `protocoles/revue-comptable-a35b.md` pose cinq
-questions à un comptable national. **Aucun modèle macroéconomique avant cette
-revue.**
+**Le jalon suivant est humain** : `protocoles/revue-comptable-a35b.md` pose huit
+questions, dont sept à un comptable national ou à un spécialiste des bilans de
+banque centrale, et une — la sixième — à un juriste en droit monétaire
+international. **Aucun modèle macroéconomique avant cette revue.**
 
 Pour l'écrire : ajouter une `Branche(...)` à la liste `BRANCHES`, en renseignant
 ses axes — `circulation`, `inscription`, `allocation`, `beneficiaire`, plus

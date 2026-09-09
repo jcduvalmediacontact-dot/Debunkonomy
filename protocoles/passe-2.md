@@ -5524,7 +5524,10 @@ un instrument explicite, ce qui peut le rendre **plus sévère que la norme**.
 
 ### LE JALON SUIVANT EST HUMAIN
 
-`protocoles/revue-comptable-a35b.md` pose cinq questions à un comptable national
+`protocoles/revue-comptable-a35b.md` pose HUIT questions, dont SEPT à un comptable national
+et UNE — la sixième, sur le passage du plafond statutaire individuel à une capacité
+de secours exigible et mobilisable — à un juriste en droit monétaire international
+ou à un praticien des opérations de réserves
 ou à un spécialiste des bilans de banque centrale. **Aucun modèle
 macroéconomique avant cette revue** : le corpus a atteint une frontière où une
 boucle supplémentaire entre modèles déplacerait des conventions sans les valider.
