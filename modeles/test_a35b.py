@@ -237,9 +237,27 @@ exiger(plafond["effective"] == min(plafond["valeur"], plafond["ressource"]),
        "la capacité effective est le MINIMUM du plafond de règle (%d) et des "
        "devises encore détenues (%d) : la ressource borne, non la règle"
        % (plafond["valeur"], plafond["ressource"]))
-exiger(m.PLAFOND_DESIGNATION_SOURCE is False,
-       "et le facteur du plafond est déclaré NON SOURCÉ, faute d'avoir pu "
-       "ouvrir les documents du Fonds")
+exiger(m.PLAFOND_DESIGNATION_SOURCE is True,
+       "et le plafond est désormais SOURCÉ : article XIX § 4(a) des Statuts, "
+       "lu dans le texte le 2026-09-09")
+
+# LE PLAFOND, ÉPROUVÉ HORS DE TOUT SCÉNARIO.
+# Une version antérieure écrivait « 2 x allocation - avoirs » et le test ne
+# regardait que la capacité EFFECTIVE — nulle faute de devises. L'erreur était
+# donc masquée par le scénario. Ces deux cas ne dépendent d'aucune branche.
+exiger(m.capacite_designation(100, 100) == 200,
+       "avoirs égaux à l'allocation : la capacité restante vaut DEUX "
+       "allocations (%d)" % m.capacite_designation(100, 100))
+exiger(m.capacite_designation(100, 300) == 0,
+       "avoirs égaux à TROIS allocations : la capacité restante est nulle (%d)"
+       % m.capacite_designation(100, 300))
+exiger(m.capacite_designation(100, 160) == 140,
+       "et le cas qui masquait l'erreur donne 140, non 40 : c'est l'EXCÉDENT "
+       "qui est borné à deux allocations, pas les avoirs totaux")
+exiger(m.capacite_designation(100, 400) == 0,
+       "au-delà du plafond, la capacité ne devient jamais négative")
+exiger(m.capacite_designation(0, 0) == 0,
+       "et une allocation nulle n'ouvre aucune capacité")
 
 exiger(m.liquidite(B2, chrono2)["type"] == "sans_objet",
        "une obligation d'acceptation n'appelle aucun décaissement")
@@ -253,9 +271,26 @@ exiger(all(b.conception_juridique and b.compatibilite_juridique
            for b in m.BRANCHES),
        "chaque branche déclare SÉPARÉMENT ce qu'elle doit produire et ce à quoi "
        "elle doit se confronter")
-exiger(set(m.JUR_A).isdisjoint(set(m.JUR_B)),
-       "les deux listes ne se recouvrent pas : créer son droit constitutif "
-       "n'est pas se conformer à un droit existant")
+exiger(m.JUR_A != m.JUR_B and m.JUR_A is not m.JUR_B,
+       "les deux listes sont distinctes, et portent des fonctions différentes")
+
+# LA SÉPARATION EST FONCTIONNELLE, PAS THÉMATIQUE. Un même sujet — le retrait
+# d'un participant — relève légitimement de la conception interne ET de la
+# compatibilité avec les traités. Exiger une disjonction des SUJETS serait une
+# contrainte artificielle : un test antérieur comparait des chaînes de
+# caractères et l'imposait. Correction de l'auteur du 2026-09-09.
+chevauche = m.Branche(
+    "TEST-CHEVAUCHEMENT", "témoin", circulation="unite_directe",
+    inscription="situation_nette", allocation=None, beneficiaire="subvention",
+    obligation="témoin", passif_chez="INST", compte_passif=m.EMISES,
+    droit_attache="", servi_par=None, exigibilite="sans_decaissement",
+    extinction="", pertes="",
+    conception_juridique=["le RETRAIT d'un participant, côté statuts"],
+    compatibilite_juridique=["le RETRAIT d'un participant, côté traités"])
+_, chr_chev, arith_chev = m.passer(chevauche)
+exiger(not arith_chev,
+       "un même sujet inscrit des DEUX côtés ne déclenche aucune anomalie : "
+       "la séparation porte sur la fonction, non sur le thème")
 exiger(any("RETRAIT" in e or "LIQUIDATION" in e for e in m.JUR_A),
        "la conception à produire couvre le retrait et la liquidation, que la "
        "version précédente omettait")

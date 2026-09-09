@@ -5448,15 +5448,37 @@ témoin en est dépourvue : **sans elle, la proposition de qualification est
 SUSPENDUE**, le droit restant une possibilité future. **La branche n'est pas
 rejetée pour autant** — la distinction est le cœur de la correction.
 
-### CE QUI EST DÉCLARÉ NON SOURCÉ, ET DOIT LE RESTER
+### LE PLAFOND DE DÉSIGNATION A ÉTÉ SOURCÉ, ET IL A RÉVÉLÉ UNE ERREUR
 
-**Le mécanisme de désignation.** La norme établit que le droit s'exerce auprès
-des autres membres [S1, § 25.142], mais ne décrit ni les accords volontaires ni
-la désignation. **Deux acquisitions ont échoué en 403 le 2026-09-09** — la foire
-aux questions du Fonds et son document de politique de 2023 — et l'article XIX,
-section 5, des Statuts n'a pas été lu. **Le facteur de plafond utilisé est un
-paramètre déclaré, pas un fait.** **La règle du corpus interdit de tenir une
-information conversationnelle pour une source, et elle a été appliquée.**
+**Deux acquisitions avaient échoué en 403** le 2026-09-09 — la foire aux
+questions du Fonds et son document de politique de 2023, tous deux sur
+`imf.org`. **L'auteur a indiqué que le texte était accessible ailleurs, et il
+l'était** : l'eLibrary sert l'article XIX en clair, comme elle servait déjà le
+texte en vigueur des Statuts. **Ouvert et lu le 2026-09-09.**
+
+**ET LA LECTURE A INFIRMÉ LE MODÈLE.** « *A participant's obligation to provide
+currency shall not extend beyond the point at which its holdings of special
+drawing rights IN EXCESS OF its net cumulative allocation are equal to TWICE its
+net cumulative allocation* » [art. XIX § 4(a)]. **C'est l'EXCÉDENT qui est borné
+à deux allocations, non les avoirs totaux : le plafond total vaut TROIS
+allocations.** Le modèle écrivait « deux allocations moins les avoirs » et
+**sous-estimait la capacité d'une allocation entière**. **Et le § 4(b) ajoute
+qu'un participant PEUT fournir au-delà : la limite borne l'obligation, jamais la
+possibilité.**
+
+**L'ERREUR ÉTAIT MASQUÉE PAR LE SCÉNARIO**, la ressource étant nulle de toute
+façon, et le test ne contrôlait que ce minimum. **Le calcul est désormais une
+fonction pure, éprouvée hors de tout scénario.** **Leçon de méthode : un test qui
+ne regarde que le résultat composé ne voit pas l'erreur de l'un de ses facteurs.**
+
+### CE QUI RESTE NON SOURCÉ, ET DOIT LE RESTER
+
+**Les accords d'échange volontaire.** Ce sont eux qui servent la liquidité en
+régime ordinaire, la désignation n'étant qu'un dernier ressort ; ils ne figurent
+pas aux Statuts, et le corpus n'en tient ni la liste ni les montants.
+
+**Les passifs constructifs du § 4.102** ne sont pas représentés : le modèle exige
+un instrument explicite, ce qui peut le rendre **plus sévère que la norme**.
 
 **Les passifs constructifs du § 4.102** ne sont pas représentés : le modèle exige
 un instrument explicite, ce qui peut le rendre **plus sévère que la norme**.

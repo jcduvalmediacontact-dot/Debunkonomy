@@ -6,7 +6,7 @@ MATRICE COMPTABLE DE NEMO IMS — arbre A35b, version 3, 2026-09-09
 
 CE QUE CE PROGRAMME CALCULE, ET CE QU'IL NE FAIT QUE PROPOSER.
 
-  R1a  COHÉRENCE ARITHMÉTIQUE — CALCULÉE. Les identités de bilan, les miroirs
+  R1a  COHÉRENCE ARITHMÉTIQUE — VÉRIFIÉE MÉCANIQUEMENT. Les identités de bilan, les miroirs
        des encours croisés, la somme des situations nettes, et l'identité
        centrale contrôlée À CHAQUE ÉTAPE :
            total des passifs représentatifs de l'unité, QUEL QU'EN SOIT LE
@@ -14,7 +14,11 @@ CE QUE CE PROGRAMME CALCULE, ET CE QU'IL NE FAIT QUE PROPOSER.
        Le porteur n'est pas toujours l'émetteur : dans une architecture de type
        droit de tirage spécial, le passif est inscrit chez CHAQUE MEMBRE
        RECEVEUR. Parler du « passif de l'émetteur » y serait faux.
-       Ce sont des identités. Elles ne se discutent pas.
+       VÉRIFIÉE MÉCANIQUEMENT SELON LES ÉCRITURES POSÉES — et c'est tout ce que
+       cela veut dire. **Le programme ne valide pas la représentation comptable
+       ou économique qu'on lui a donnée : des écritures fausses peuvent
+       s'équilibrer parfaitement.** L'arithmétique ne se discute pas ; le choix
+       des écritures, si.
 
   R1b  QUALIFICATION COMPTABLE — PROPOSÉE, NON CALCULÉE. Le programme constate
        que des éléments sont renseignés et que la créance suit son détenteur.
@@ -108,11 +112,37 @@ ECHANGE = 60
 CONTRIBUTION = 40
 DEVISES_BCN2 = 60
 
-# Règle de désignation. NON SOURCÉE : le corpus n'a pas pu ouvrir les documents
-# du Fonds (403 le 2026-09-09) et n'a pas lu l'article XIX, section 5, des
-# Statuts. Le facteur ci-dessous est un PARAMÈTRE DÉCLARÉ, non un fait établi.
-PLAFOND_DESIGNATION_FACTEUR = 2
-PLAFOND_DESIGNATION_SOURCE = False
+# RÈGLE DE DÉSIGNATION — SOURCÉE LE 2026-09-09, article XIX, section 4(a) des
+# Statuts du Fonds, lu dans le texte via l'eLibrary [S2] :
+#   « A participant's obligation to provide currency shall not extend beyond
+#     the point at which its holdings of special drawing rights IN EXCESS OF
+#     its net cumulative allocation are equal to TWICE its net cumulative
+#     allocation or such higher limit as may be agreed between a participant
+#     and the Fund. »
+# C'est L'EXCÉDENT qui est borné à deux allocations, non les avoirs totaux :
+# le plafond total des avoirs vaut donc TROIS allocations. Une version
+# antérieure écrivait « 2 x allocation - avoirs » et sous-estimait la capacité
+# de 100 % d'une allocation. Erreur relevée par l'auteur et corrigée.
+# Et § 4(b) : « A participant MAY provide currency in excess of the obligatory
+# limit » — la limite borne L'OBLIGATION, jamais la possibilité.
+EXCEDENT_MAX_FACTEUR = 2          # art. XIX § 4(a)
+PLAFOND_DESIGNATION_SOURCE = True
+
+
+def capacite_designation(allocation, avoirs, facteur=EXCEDENT_MAX_FACTEUR):
+    """Ce qu'un participant peut encore être TENU d'accepter, en unités.
+
+    Fonction pure, éprouvable sans aucun scénario : c'est la demande de
+    l'auteur du 2026-09-09, un test de scénario ayant masqué l'erreur
+    précédente parce que la ressource était nulle de toute façon.
+
+        limite_excedent   = facteur x allocation        (art. XIX § 4(a))
+        plafond_total     = allocation + limite_excedent
+        capacite_restante = max(0, plafond_total - avoirs)
+    """
+    limite_excedent = facteur * allocation
+    plafond_total = allocation + limite_excedent
+    return max(0, plafond_total - avoirs)
 
 DEBITEUR = {
     "créance d'allocation sur la BCN": "BCN",
@@ -649,13 +679,13 @@ def liquidite(b, chrono):
         # DEMANDE. Une version antérieure le portait dans la colonne des
         # demandes, ce qui n'avait aucun sens : on comparait une capacité à une
         # ressource comme si c'était un besoin. Correction du 2026-09-09.
-        #   plafond de règle = facteur x allocation - avoirs déjà détenus
+        #   plafond de règle = capacite_designation(allocation, avoirs)
         #   capacité effective = min(plafond de règle, devises encore détenues)
         # La règle dit ce qu'un participant peut être TENU d'accepter ; elle ne
         # crée pas les devises qu'il faudrait remettre.
         alloc = fin["BCN2"].get((ALLOC, PASSIF), 0)
         avoirs = fin["BCN2"].get((AVOIRS, ACTIF), 0)
-        plafond = max(0, PLAFOND_DESIGNATION_FACTEUR * alloc - avoirs)
+        plafond = capacite_designation(alloc, avoirs)
         restantes = dispo(fin, "BCN")
         return {"type": "participants", "scenarios": [
             {"nom": "fonctionnement normal, par accord volontaire",
@@ -896,7 +926,8 @@ def rendre(b):
     print("  porteur du risque : %s" % b.pertes)
 
     print("")
-    print("  R1a — COHÉRENCE ARITHMÉTIQUE (calculée)")
+    print("  R1a — COHÉRENCE ARITHMÉTIQUE (vérifiée mécaniquement selon")
+    print("        les écritures posées, dont elle ne juge pas la validité)")
     if arith:
         for a in dict.fromkeys(arith):
             print("      %s" % a)
@@ -941,6 +972,15 @@ def rendre(b):
                       "%3d | capacité effective %3d"
                       % (sc["valeur"], sc["ressource"], sc["effective"]))
             print("          %s" % sc["note"])
+        print("        plafond tiré de l'ARTICLE XIX § 4(a) des Statuts "
+              "du Fonds [S2], lu")
+        print("        dans le texte le 2026-09-09 : l'EXCÉDENT sur "
+              "l'allocation est borné à")
+        print("        deux allocations, donc le plafond TOTAL des avoirs vaut "
+              "TROIS")
+        print("        allocations. Et le § 4(b) permet de fournir AU-DELÀ : "
+              "la limite borne")
+        print("        l'OBLIGATION, jamais la possibilité.")
     else:
         print("      contrôlée à CHAQUE étape, au pic")
         for libelle, ex, co in liq["lignes"]:
@@ -1001,8 +1041,9 @@ def main():
     print("sur L'ENCAISSE de %d ; contribution du détenteur %d. Repères, non "
           "estimations." % (ASSIETTE_DEMURRAGE, CONTRIB_DETENTEUR))
     print("")
-    print("R1a CALCULÉE | R1b PROPOSÉE | R2 CALCULÉE MAIS CONDITIONNELLE | "
-          "R3, R4a, R4b")
+    print("R1a VÉRIFIÉE selon les écritures posées | R1b PROPOSÉE | R2 "
+          "CONDITIONNELLE")
+    print("R3 NON ÉVALUABLE | R4a À PRODUIRE | R4b À ÉVALUER")
     print("Le programme ne peut PAS établir qu'un élément est un passif : il")
     print("propose une qualification, et elle attend une validation humaine.")
 

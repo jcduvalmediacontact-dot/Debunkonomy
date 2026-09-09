@@ -45,10 +45,17 @@ financement manque, prouverait quelque chose.
 
 ## 2. Les cinq critères
 
-**(1) NON-CIRCULARITÉ.** Le concept doit se définir sans le dispositif. Si
-l'essentiel insolvable était « ce que NEMO financerait », le filtre serait vide.
-**Les quatre conditions de L1.C15 sont indépendantes du remède : ce point est
-tenu.**
+**(1) NON-CIRCULARITÉ, ET ELLE N'EST TENUE QU'À MOITIÉ.** Le concept doit se
+définir sans le dispositif. Si l'essentiel insolvable était « ce que NEMO
+financerait », le filtre serait vide. **Les quatre conditions FINANCIÈRES de
+L1.C15 sont indépendantes du remède ; la non-circularité du critère E,
+« essentiel », reste à établir.**
+
+**Et c'est E qui fixe le périmètre du concept.** Un critère d'essentialité calqué
+sur ce que le dispositif entend financer réintroduirait la circularité par
+l'autre bout, sans qu'aucune des quatre conditions financières n'ait bougé.
+**Tant que E n'est pas défini indépendamment, la non-circularité est acquise sur
+le filtre et non sur son périmètre.**
 
 **(2) DÉMARCATION.** Il doit exister des cas clairement dedans, des cas
 clairement dehors, et des cas limites identifiés comme tels. **Un filtre qui

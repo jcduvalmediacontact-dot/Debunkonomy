@@ -1,6 +1,6 @@
 ---
 chapitre: L19.C10
-titre: "Six résultats séparés, et un seul est calculé sans condition"
+titre: "Six résultats séparés, et aucun ne conclut seul"
 livre: 19
 langue: fr
 licence: CC-BY-SA-4.0
@@ -14,6 +14,10 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Nations unies et coauteurs institutionnels, *System of National Accounts 2025*, version pour endossement.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 par L19.C08, **et RELU ICI dans le texte, le 2026-09-09** : **§ 4.101** (« *Liabilities are defined as obligations where one unit (the debtor) is obliged, under specific circumstances, to provide funds or other economic resources to another unit (the creditor)* »), **§ 4.102** (passif CONSTRUCTIF, né de la coutume et de l'attente légitime de paiement, sans contrat), **§ 4.103** (« *Whenever a liability exists, there is a corresponding financial claim that the creditor has against the debtor [...] Like the liabilities, the claims are unconditional* »), **§ 4.104** (l'or de réserve est le seul actif financier dont le détenteur n'a « *no claim over other designated units* »), **§ 12.48 à 12.50** (« *the allocation of SDRs is recorded as the incurrence of a liability of the MEMBER RECEIVING THEM (because of a requirement to repay the allocation in certain circumstances, and also because interest accrues). The holdings and allocations should be shown GROSS, rather than net* » ; les arrangements internes diffèrent selon les membres), **§ 25.142** (« *SDR holdings represent unconditional rights to obtain foreign exchange or other reserve assets FROM OTHER IMF MEMBERS* » ; les participants peuvent détenir plus ou moins que leur allocation par transactions entre eux) et **l'entrée de glossaire « Contingent assets and liabilities »**. Régime `a_verifier`. **VERSION POUR ENDOSSEMENT : les numéros de paragraphe permettent le contrôle, ils ne sont pas donnés pour être cités.**"
+    date_verification: 2026-09-09
+  - ref: S2
+    nature: normatif
+    reference: "**Fonds monétaire international, *Statuts*, article XIX, sections 4 et 5.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-09 — `elibrary.imf.org/display/book/9781513521244/ch19.xml`, texte en vigueur, **lu dans le texte** ; l'édition `9781557752765` a été téléchargée en regard et porte la même rédaction. **§ 4(a)** : « *A participant's obligation to provide currency shall not extend beyond the point at which its holdings of special drawing rights IN EXCESS OF its net cumulative allocation are equal to TWICE its net cumulative allocation or such higher limit as may be agreed between a participant and the Fund* ». **§ 4(b)** : « *A participant MAY provide currency in excess of the obligatory limit or any agreed higher limit* ». **§ 5(a)** : la désignation vise les participants dont « *balance of payments and gross reserve position is sufficiently strong* ». Régime `a_verifier`."
     date_verification: 2026-09-09
 verifications_en_attente:
   - "**LA QUALIFICATION N'EST PAS ÉTABLIE, ELLE EST PROPOSÉE, ET LA REVUE
@@ -31,14 +35,15 @@ verifications_en_attente:
      légitime de paiement [S1, § 4.102]. **Le modèle exige un instrument
      explicite et ignore cette voie**, ce qui peut le rendre plus sévère que la
      norme. **Question posée dans la note de revue.**"
-  - "**LE MÉCANISME DE DÉSIGNATION N'EST PAS SOURCÉ, ET SON PLAFOND EST UN
-     PARAMÈTRE DÉCLARÉ.** La norme établit que le droit s'exerce **auprès des
-     autres membres** [S1, § 25.142], mais ne décrit ni les accords volontaires
-     ni la désignation. **DEUX TENTATIVES D'ACQUISITION ONT ÉCHOUÉ EN 403 le
-     2026-09-09** : la foire aux questions du Fonds sur les droits de tirage
-     spéciaux et son document de politique générale de 2023 sur les allocations.
-     **Il faut aussi l'article XIX, section 5, des Statuts.** **Tant qu'ils ne
-     sont pas ouverts, le facteur de plafond utilisé n'est pas un fait.**"
+  - "**LE PLAFOND EST DÉSORMAIS SOURCÉ ; LES ACCORDS VOLONTAIRES NE LE SONT
+     PAS.** L'article XIX § 4(a) a été ouvert et lu le 2026-09-09 [S2], et il a
+     révélé une erreur du modèle : c'est L'EXCÉDENT sur l'allocation qui est
+     borné à deux allocations, de sorte que le plafond total des avoirs vaut
+     TROIS allocations. **Ce qui reste hors des Statuts, ce sont les ACCORDS
+     D'ÉCHANGE VOLONTAIRE** — dispositifs opérationnels, leurs volumes et leur
+     caractère révocable — **et ce sont eux qui servent la liquidité en régime
+     ordinaire**, la désignation n'étant qu'un dernier ressort. **Acquisition à
+     faire : la liste et les montants des accords en vigueur.**"
   - "**LA MATRICE N'A NI INTÉRÊT NI HORIZON, ET LA NORME FONDE LE PASSIF SUR LES
      DEUX.** Le § 12.49 [S1] motive le passif d'allocation par une obligation de
      remboursement **ET** par le fait qu'un intérêt court. **Un modèle qui ne
@@ -67,12 +72,12 @@ verifications_en_attente:
      transactionnel est fiscal, parafiscal ou de réseau. **La matrice montre que
      ce choix déplace les unités perçues, et que leur emploi ultérieur décide de
      l'encours final** ; elle ne peut trancher ni l'un ni l'autre."
-resume: "Ce chapitre livre la première pièce exécutable du corpus, et il livre aussi le récit de ses deux corrections, la matrice ayant été réfutée deux fois par l'auteur le jour même de son écriture. La première version rendait un verdict unique par branche, et deux de ses règles de rejet étaient fausses, la plus grave traitant une insuffisance d'actifs comme une inexistence de passif alors qu'une dette impayable reste une dette, la seconde mesurant la couverture d'une promesse de conversion sur le bilan final alors qu'une obligation stipulée à tout moment se contrôle au pic. La deuxième version corrigeait ces deux fautes mais en laissait quatre autres. Elle mêlait encore calcul et qualification en écrivant qu'un élément était reconnu comme passif alors que le programme vérifiait seulement que des étiquettes étaient renseignées. Elle écartait la structure collective de type droit de tirage spécial au motif que le débiteur du droit d'échange serait collectif, alors que chaque membre est le débiteur déterminé de sa propre allocation et que la norme reconnaît explicitement ce traitement. Elle figeait un créancier unique dans une fiche, alors que la qualité de créancier migre avec un instrument transférable. Et elle concluait que le collecteur du prélèvement décidait de l'extinction, alors qu'il ne décide que de la première destination des unités perçues, leur emploi ultérieur décidant de l'encours final. La version corrigée rend six résultats séparés dont un seul est calculé sans condition. La cohérence arithmétique est calculée, et elle inclut l'identité selon laquelle le passif total égale la somme des avoirs de tous les détenteurs, contrôlée à chaque étape. La liquidité est calculée au pic, et par scénarios séparés lorsque l'instrument est servi par d'autres participants, le fonctionnement normal, le plafond statutaire et la ruée générale étant publiés distinctement, le troisième étant un stress et non l'état ordinaire. La qualification comptable est seulement proposée, sous réserve d'une lecture de la norme et de la validité juridique d'obligations dont aucune n'existe dans un texte. La solvabilité intertemporelle est déclarée non évaluable. Et la conformité juridique est scindée en deux, parce qu'une institution prospective écrit son droit constitutif et ne peut pourtant pas ignorer les ordres juridiques dans lesquels elle devra être reconnue : la conception à produire d'un côté, la compatibilité à évaluer de l'autre. Le chapitre se clôt sur une note de revue destinée à un comptable national, aucun modèle macroéconomique ne devant être entrepris avant elle."
+resume: "Ce chapitre livre la première pièce exécutable du corpus, et il livre aussi le récit de ses deux corrections, la matrice ayant été réfutée deux fois par l'auteur le jour même de son écriture. La première version rendait un verdict unique par branche, et deux de ses règles de rejet étaient fausses, la plus grave traitant une insuffisance d'actifs comme une inexistence de passif alors qu'une dette impayable reste une dette, la seconde mesurant la couverture d'une promesse de conversion sur le bilan final alors qu'une obligation stipulée à tout moment se contrôle au pic. La deuxième version corrigeait ces deux fautes mais en laissait quatre autres. Elle mêlait encore calcul et qualification en écrivant qu'un élément était reconnu comme passif alors que le programme vérifiait seulement que des étiquettes étaient renseignées. Elle écartait la structure collective de type droit de tirage spécial au motif que le débiteur du droit d'échange serait collectif, alors que chaque membre est le débiteur déterminé de sa propre allocation et que la norme reconnaît explicitement ce traitement. Elle figeait un créancier unique dans une fiche, alors que la qualité de créancier migre avec un instrument transférable. Et elle concluait que le collecteur du prélèvement décidait de l'extinction, alors qu'il ne décide que de la première destination des unités perçues, leur emploi ultérieur décidant de l'encours final. La version corrigée rend six résultats séparés, et aucun ne conclut à lui seul. La cohérence arithmétique est calculée, et elle inclut l'identité selon laquelle le passif total égale la somme des avoirs de tous les détenteurs, contrôlée à chaque étape. La liquidité est calculée au pic, et par scénarios séparés lorsque l'instrument est servi par d'autres participants, le fonctionnement normal, le plafond statutaire et la ruée générale étant publiés distinctement, le troisième étant un stress et non l'état ordinaire. La qualification comptable est seulement proposée, sous réserve d'une lecture de la norme et de la validité juridique d'obligations dont aucune n'existe dans un texte. La solvabilité intertemporelle est déclarée non évaluable. Et la conformité juridique est scindée en deux, parce qu'une institution prospective écrit son droit constitutif et ne peut pourtant pas ignorer les ordres juridiques dans lesquels elle devra être reconnue : la conception à produire d'un côté, la compatibilité à évaluer de l'autre. Le chapitre se clôt sur une note de revue destinée à un comptable national, aucun modèle macroéconomique ne devant être entrepris avant elle."
 concepts: [contrepartie_comptable, creation_monetaire, reflux_collectif, reflux_transactionnel, demurrage]
 renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08, L19.C09]
 ---
 
-# Six résultats séparés, et un seul est calculé sans condition
+# Six résultats séparés, et aucun ne conclut seul
 
 ::etat:: **L'arbitrage A35b reste ouvert, et ce chapitre ne le referme pas.** Il livre l'instrument qui permettra de le trancher — `modeles/a35b_bilans.py` — et **le récit de ses deux réfutations, le jour même de son écriture.**
 
@@ -82,7 +87,9 @@ renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08,
 
 ## 1. Ce qui est calculé, et ce qui est seulement proposé
 
-::etat:: **R1a — COHÉRENCE ARITHMÉTIQUE. CALCULÉE, ET SANS CONDITION.** Équilibre par secteur à chaque opération ; miroirs des encours croisés ; somme des variations de situation nette nulle à chaque flux ; et **l'identité centrale, contrôlée à chaque étape** : *le total des passifs représentatifs de l'unité, QUEL QU'EN SOIT LE PORTEUR, égale le total des avoirs chez les détenteurs*. **La formule ne dit pas « passif de l'émetteur », et c'est délibéré : dans l'architecture collective le passif est inscrit chez chaque membre receveur, et l'énoncé doit y rester vrai.** **Ce sont des identités. Elles ne se discutent pas.**
+::etat:: **R1a — COHÉRENCE ARITHMÉTIQUE. VÉRIFIÉE MÉCANIQUEMENT, SELON LES ÉCRITURES POSÉES.** Équilibre par secteur à chaque opération ; miroirs des encours croisés ; somme des variations de situation nette nulle à chaque flux ; et **l'identité centrale, contrôlée à chaque étape** : *le total des passifs représentatifs de l'unité, QUEL QU'EN SOIT LE PORTEUR, égale le total des avoirs chez les détenteurs*. **La formule ne dit pas « passif de l'émetteur », et c'est délibéré : dans l'architecture collective le passif est inscrit chez chaque membre receveur, et l'énoncé doit y rester vrai.**
+
+::etat:: **ET « VÉRIFIÉE MÉCANIQUEMENT » EST TOUT CE QUE CELA VEUT DIRE.** **Le programme ne juge pas la validité de la représentation comptable ou économique qu'on lui donne : des écritures fausses peuvent s'équilibrer parfaitement.** L'arithmétique ne se discute pas ; **le choix des écritures, si**, et c'est précisément ce que la revue humaine doit examiner.
 
 ::hypothese:: **R1b — QUALIFICATION COMPTABLE. PROPOSÉE, NON CALCULÉE.** Le programme constate que des éléments sont renseignés et que la créance suit son détenteur. **Il ne peut pas établir qu'un élément EST un passif** : cela suppose une lecture de la norme et la validité juridique d'obligations dont **aucune n'existe dans un texte**. **Le programme n'écrit jamais « reconnu comme passif » ; il écrit « proposition, non établie ici ».**
 
@@ -117,6 +124,10 @@ renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08,
 ::etat:: **ET POUR UN INSTRUMENT SERVI PAR D'AUTRES PARTICIPANTS, UNE MESURE UNIQUE NE VEUT RIEN DIRE.** Trois scénarios sont publiés **séparément** : le **fonctionnement normal** selon les accords disponibles ; le **plafond statutaire** que la règle autoriserait ; et la **ruée** où tous les détenteurs demandent à la fois. **Le troisième est un stress, et il ne doit jamais être présenté comme l'état ordinaire de liquidité de l'instrument.**
 
 ::etat:: **ET UN PLAFOND DE DÉSIGNATION EST UNE CAPACITÉ, JAMAIS UNE DEMANDE.** Une version antérieure le portait dans la colonne des demandes et concluait à un « manque » : on comparait une capacité à une ressource comme si c'était un besoin. **La règle dit ce qu'un participant peut être TENU d'accepter ; elle ne crée pas les devises qu'il faudrait remettre.**
+
+::norme:: **ET LA FORMULE ÉTAIT FAUSSE, JUSQU'À CE QUE LE TEXTE SOIT OUVERT.** « *A participant's obligation to provide currency shall not extend beyond the point at which its holdings of special drawing rights IN EXCESS OF its net cumulative allocation are equal to TWICE its net cumulative allocation* » [S2, § 4(a)]. **C'est l'EXCÉDENT qui est borné à deux allocations, non les avoirs totaux : le plafond total vaut TROIS allocations.** Le modèle écrivait « deux allocations moins les avoirs » et **sous-estimait la capacité d'une allocation entière** — cent quarante au lieu de quarante, sur les paramètres retenus. **Et le § 4(b) ajoute qu'un participant PEUT fournir au-delà : la limite borne l'obligation, jamais la possibilité.**
+
+::etat:: **L'ERREUR ÉTAIT MASQUÉE PAR LE SCÉNARIO, ET C'EST LA LEÇON DE MÉTHODE.** Les devises disponibles étant nulles à cette étape, la capacité effective valait zéro dans les deux cas, et le test ne vérifiait que ce minimum. **Le calcul du plafond est désormais une fonction pure, éprouvée hors de tout scénario** : avoirs égaux à l'allocation, la capacité vaut deux allocations ; avoirs égaux à trois allocations, elle est nulle.
 
 ::etat:: **LE RÉSULTAT DE CE DÉCOUPAGE EST INSTRUCTIF.** En fonctionnement normal, la demande courante est servie. **Ce qui borne ensuite n'est pas la règle mais la ressource** : l'échange volontaire a déjà déplacé les devises vers le demandeur, et la capacité effective — le minimum du plafond de règle et des devises encore détenues — tombe à zéro alors que la règle en autoriserait davantage. **La contrainte effective est le stock de devises des autres participants, non le plafond.**
 

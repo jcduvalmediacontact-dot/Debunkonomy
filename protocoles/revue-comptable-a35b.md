@@ -20,11 +20,12 @@ souhaitable.
 
 | | |
 |---|---|
-| **R1a — cohérence arithmétique** | **Calculée.** Équilibre par secteur à chaque opération ; miroirs des encours croisés ; somme des variations de situation nette nulle à chaque flux ; et l'identité *passif total de l'émetteur = somme des avoirs de tous les détenteurs*, contrôlée **à chaque étape**. |
+| **R1a — cohérence arithmétique** | **Vérifiée mécaniquement, selon les écritures posées.** Équilibre par secteur à chaque opération ; miroirs des encours croisés ; somme des variations de situation nette nulle à chaque flux ; et l'identité *total des passifs représentatifs de l'unité, quel qu'en soit le porteur = total des avoirs chez les détenteurs*, contrôlée **à chaque étape**. **Le programme ne juge pas la validité de la représentation : des écritures fausses peuvent s'équilibrer parfaitement.** |
 | **R1b — qualification comptable** | **Proposée, non calculée.** Le programme constate que des éléments sont renseignés et que la créance suit son détenteur. Il n'écrit jamais qu'un élément « est » un passif. |
-| **R2 — liquidité** | **Calculée**, au pic et par scénario séparé. |
+| **R2 — liquidité** | **Calculée**, au pic et par scénario séparé — **mais conditionnelle** : aucun des paramètres n'est calibré, et changer un seul change le résultat. |
 | **R3 — solvabilité intertemporelle** | **Non évaluable** : un seul cycle, sans intérêt ni horizon. |
-| **R4 — conformité juridique** | **Non évaluée.** |
+| **R4a — conception juridique** | **À produire.** Une institution prospective écrit son droit constitutif : droits, obligations, gouvernance, retrait, liquidation, immunités, différends. Aucun texte n'existe. |
+| **R4b — compatibilité juridique** | **À évaluer, non évaluée.** Traités, droits nationaux et régionaux, normes comptables. |
 
 ## 3. L'hypothèse de lecture que nous vous demandons de juger
 
@@ -92,10 +93,13 @@ traitement suppose-t-il des éléments que notre modèle omet ?**
 - **Aucune obligation modélisée n'existe dans un texte de droit.** Ni
   l'obligation d'acceptation, ni l'engagement de conversion, ni le régime des
   contributions réglables en unités.
-- **Le mécanisme de désignation n'est pas sourcé.** Le facteur de plafond
-  utilisé est un paramètre déclaré, non un fait établi ; nous n'avons pas pu
-  ouvrir les documents du Fonds (accès refusé) ni l'article XIX, section 5, des
-  Statuts.
+- **Le plafond de désignation est sourcé depuis le 2026-09-09** — article XIX
+  § 4(a) des Statuts du Fonds, lu dans le texte. **Sa lecture a corrigé une
+  erreur du modèle** : c'est l'excédent sur l'allocation qui est borné à deux
+  allocations, de sorte que le plafond total des avoirs vaut trois allocations.
+  **Ce qui reste hors des Statuts, ce sont les accords d'échange volontaire**,
+  dont dépend la liquidité en régime ordinaire, et dont nous ne tenons ni la
+  liste ni les montants.
 - **Aucun comportement économique.** Le modèle **impose par paramètre** qui est
   redevable, puis retrouve ce qu'il a imposé. **Il n'établit donc aucune
   incidence économique**, et rien de ce qu'il affiche ne doit être lu comme telle.

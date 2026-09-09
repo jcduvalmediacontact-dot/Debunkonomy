@@ -33,7 +33,7 @@ ne se commandent pas** :
 
 | | |
 |---|---|
-| **R1a cohérence arithmétique** | équilibres, miroirs, somme des situations nettes, et l'identité *passif total = somme des avoirs de tous les détenteurs*, contrôlée **à chaque étape**. **Calculée.** |
+| **R1a cohérence arithmétique** | équilibres, miroirs, somme des situations nettes, et l'identité *total des passifs représentatifs de l'unité, quel qu'en soit le porteur = total des avoirs chez les détenteurs*, contrôlée **à chaque étape**. **Vérifiée mécaniquement SELON LES ÉCRITURES POSÉES** — le programme ne juge pas la validité de la représentation qu'on lui donne, et des écritures fausses peuvent s'équilibrer parfaitement. |
 | **R1b qualification comptable** | **PROPOSÉE, jamais établie.** Le programme n'écrit nulle part « reconnu comme passif » : il constate que des éléments sont renseignés, et suspend sa proposition quand l'un manque. |
 | **R2 liquidité** | la demande maximale exigible à **chaque** étape. **Calculée, au pic** — et **par scénarios séparés** quand l'instrument est servi par d'autres participants. **Mais CONDITIONNELLE** : aucun des paramètres n'est calibré, et changer un seul change le résultat. |
 | **R3 solvabilité intertemporelle** | **non évaluable** : un cycle, sans intérêt ni horizon. |
@@ -45,6 +45,16 @@ python modeles/a35b_bilans.py
 ```
 
 **Un plafond de désignation est une CAPACITÉ d'acceptation, jamais une demande.** La règle dit ce qu'un participant peut être tenu d'accepter ; elle ne crée pas les devises qu'il faudrait remettre. La capacité effective est le minimum du plafond de règle et des devises encore détenues.
+
+La formule est celle de l'**article XIX § 4(a)** des Statuts du Fonds, lu dans le texte le 2026-09-09 : c'est **l'excédent sur l'allocation** qui est borné à deux allocations, de sorte que le plafond total des avoirs vaut **trois** allocations.
+
+```
+limite_excedent   = 2 x allocation
+plafond_total     = allocation + limite_excedent
+capacite_restante = max(0, plafond_total - avoirs)
+```
+
+Une version antérieure écrivait `2 x allocation - avoirs` et sous-estimait la capacité d'une allocation entière. **L'erreur était masquée par le scénario**, la ressource étant nulle de toute façon : `capacite_designation` est donc une fonction pure, éprouvée hors de tout scénario. Le § 4(b) ajoute qu'un participant **peut** fournir au-delà — la limite borne l'obligation, jamais la possibilité.
 
 **Une branche peut être comptablement cohérente et illiquide.** C'est le cas
 normal d'un émetteur qui promet plus qu'il ne détient, et ce n'est pas une
