@@ -215,12 +215,25 @@ arbitrage rendu dossier par dossier.
 après lecture des dossiers, **0, 2 ou 3 dossiers** sont mis à la charge du
 porteur — les trois valeurs étant dans la même plage plausible.
 
-**Trois restes, de deux natures.** Les **horizons sectoriels** sont une pièce à
-construire, que l'auteur a nommée : la détermination vaut exactement la
-complétude de la grille. **L'incertitude est évaluée et n'emporte rien** — deux
-dossiers identiques hormis leur état de connaissance reçoivent le même régime.
-Et **même avec une grille complète**, deux dossiers sur six restent sans charge
-attribuée : grave mais réversible, irréversible mais peu plausible.
+**Deux « restes » que ce programme publiait étaient des lectures fautives de la
+règle, et l'auteur les a redressés.** La **zone intermédiaire** était prévue —
+charge partagée, tranches, surveillance, capacité d'arrêt — et « grave mais
+réversible » comme « irréversible mais peu plausible » y appartiennent ; le
+programme les rendait sans charge. Et **l'incertitude agit sur la procédure
+d'instruction, non sur le régime** : le programme regardait le régime.
+
+**Deux propriétés sont désormais vérifiées.** Une grille complète attribue un
+régime à **chaque** dossier. Et trois dossiers de risque identique, de
+connaissances différentes, reçoivent **un régime et trois procédures** :
+acquisition de données, marge de précaution, application directe.
+
+**Trois variables sont séparées** — probabilité du dommage, confiance dans
+l'estimation, réductibilité et délai — parce qu'un seul nombre entre 0 et 1 ne
+peut pas porter les trois.
+
+**Reste une seule pièce ouverte** : les seuils sectoriels — horizon de
+réversibilité, seuil de confiance, délai utile — à fixer par domaine selon la
+procédure d'A47.
 
 ```bash
 python modeles/nemo_a47.py

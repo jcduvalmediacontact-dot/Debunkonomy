@@ -149,14 +149,14 @@ arbitrages:
     tranche_par: auteur
     lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION, QUALIFICATION-DU-RISQUE, ZONE-INTERMEDIAIRE, USAGE-DES-INCERTITUDES]
     decision: >
-      VALIDÉ PAR L'AUTEUR LE 2026-09-09, v2. Évaluation SÉPARÉE de la
-      gravité, l'étendue, la PLAUSIBILITÉ, la réversibilité et les
-      INCERTITUDES. SEUILS NORMATIFS fixés à l'avance par l'AUTORITÉ
-      DÉMOCRATIQUE APRÈS EXPERTISE PLURALISTE. QUALIFICATION MOTIVÉE selon
-      cette grille. Charge ADAPTÉE À LA NATURE DU RISQUE ; autorisation
-      progressive si limité et réversible ; protection des besoins
-      essentiels urgents ; portefeuille pour les ressources rares ;
-      révision publique ; recours à canaux indépendants.
+      VALIDÉ PAR L'AUTEUR LE 2026-09-09. Évaluation SÉPARÉE de la gravité,
+      l'étendue, la PROBABILITÉ, la réversibilité, la CONFIANCE dans
+      l'estimation et la RÉDUCTIBILITÉ de l'incertitude. Seuils fixés
+      d'avance par l'AUTORITÉ DÉMOCRATIQUE après EXPERTISE PLURALISTE ;
+      qualification MOTIVÉE. QUATRE RÉGIMES EXHAUSTIFS, dont la ZONE
+      INTERMÉDIAIRE à CHARGE PARTAGÉE : aucun dossier ne reste sans régime.
+      L'INCERTITUDE AGIT SUR LA PROCÉDURE D'INSTRUCTION, jamais
+      automatiquement sur le régime.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -470,19 +470,18 @@ falsifieurs:
 
 pieces_de_conception_manquantes:
   - id: USAGE-DES-INCERTITUDES
-    objet: "Ce que l'incertitude emporte, une fois évaluée et publiée"
-    statut: ouvert
-    tranche_par: non-tranche
+    objet: "Ce que l'incertitude emporte — la procédure, non le régime"
+    statut: arbitre
+    tranche_par: auteur
     lie_a: [A47, QUALIFICATION-DU-RISQUE]
     decision: >
-      OUVERT LE 2026-09-09. A47 v2 ÉVALUE LES INCERTITUDES SÉPARÉMENT de la
-      plausibilité, et la distinction est juste : une plausibilité bien
-      établie n'est pas une plausibilité tirée de rien. MAIS AUCUNE RÈGLE
-      NE DIT CE QU'ELLE EMPORTE. Mesuré : deux dossiers identiques hormis
-      leur état de connaissance — 0.10 et 0.90 — reçoivent LE MÊME RÉGIME.
-      La version 1 prévoyait suspension provisoire et ACQUISITION DE
-      CONNAISSANCES ; la v2 ne la reprend pas. À DIRE SI ELLE EST
-      MAINTENUE.
+      FERMÉ LE 2026-09-09 : LE DÉFAUT ÉTAIT DANS LE PROGRAMME. A47 prévoit
+      VOLONTAIREMENT que l'incertitude n'emporte aucun effet automatique
+      sur le RÉGIME — elle modifie LA PROCÉDURE D'INSTRUCTION. Réductible à
+      temps : acquisition avant décision. Irréductible et grave : marge de
+      précaution explicitée. Urgent essentiel : autorisation minimale et
+      temporaire. Information robuste : grille directe. MESURÉ : même
+      risque, trois états de connaissance, UN régime et TROIS procédures.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -492,30 +491,31 @@ pieces_de_conception_manquantes:
     tranche_par: auteur
     lie_a: [A47, A46, MESURE-EXTERIEURE, USAGE-DES-INCERTITUDES]
     decision: >
-      OUVERT LE 2026-09-09 ; SON PRINCIPE EST RÉGLÉ PAR A47 v2 LE MÊME
-      JOUR. La qualification n'est plus libre : elle APPLIQUE une grille
-      publiée d'avance, fixée par une AUTRE autorité, et SE MOTIVE — le
-      choix devient public et attaquable. RESTE À CONSTRUIRE, et l'auteur
-      le nomme : LES HORIZONS SECTORIELS, les seuils numériques et leurs
-      méthodes de calibration. MESURÉ : la détermination vaut la complétude
-      de la grille — 2 dossiers sur 6 à 2 domaines couverts, 4 sur 6 à
-      grille complète.
+      OUVERT LE 2026-09-09 ; SON PRINCIPE EST RÉGLÉ PAR A47 — la
+      qualification applique une grille publiée d'avance, fixée par une
+      AUTRE autorité, et SE MOTIVE. RESTE LA SEULE PIÈCE OUVERTE DE A47 :
+      LES SEUILS SECTORIELS — horizon de réversibilité, seuil de confiance,
+      DÉLAI UTILE d'acquisition, seuils numériques — à fixer PAR DOMAINE
+      selon la procédure d'A47, sans rouvrir son principe. MESURÉ : sans
+      horizon, le dossier bascule en zone intermédiaire, régime prudent, et
+      l'anomalie est signalée.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
   - id: ZONE-INTERMEDIAIRE
-    objet: "La charge de la preuve entre les deux pôles de A47"
-    statut: ouvert
-    tranche_par: non-tranche
+    objet: "La charge dans la zone intermédiaire — réglée par A47"
+    statut: arbitre
+    tranche_par: auteur
     lie_a: [A47]
     decision: >
-      OUVERT LE 2026-09-09, RESSERRÉ PAR A47 v2. « Charge ADAPTÉE À LA
-      NATURE DU RISQUE » est plus général que les deux pôles et compatible
-      avec une GRADATION — mais la gradation n'est pas dite. MESURÉ, ET
-      C'EST UNE PROPRIÉTÉ DE LA DOCTRINE, NON DU SCÉNARIO : même avec une
-      grille COMPLÈTE, 2 dossiers sur 6 restent sans charge attribuée —
-      GRAVE MAIS RÉVERSIBLE, IRRÉVERSIBLE MAIS PEU PLAUSIBLE. Ce sont les
-      cas ordinaires.
+      FERMÉ LE 2026-09-09 : LE DÉFAUT ÉTAIT DANS LE PROGRAMME, NON DANS LA
+      RÈGLE. A47 dispose « zone intermédiaire : charge partagée,
+      autorisation limitée par tranches, surveillance et capacité d'arrêt »
+      — clause explicitée par l'auteur. « Grave mais réversible » et «
+      irréversible mais peu plausible » y appartiennent. Le modèle les
+      rendait sans charge : erreur de traduction. CORRIGÉ — tout dossier
+      hors des trois autres régimes y entre, et le contrôle R1 vérifie
+      qu'aucun ne reste sans régime.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 

@@ -6596,3 +6596,91 @@ l'applique.** Une grille fixée par l'autorité de qualification est signalée.
 Que la doctrine soit bonne. **Aucun seuil n'est éprouvé, aucun dossier n'est
 réel, et un programme qui applique une règle ne la valide jamais.** Il dit où
 elle décide et où elle se tait.
+
+
+## A47 — DEUX DE MES TROIS « RESTES » ÉTAIENT DES LECTURES FAUTIVES, 2026-09-09
+
+**Le programme concluait que la doctrine laissait trois trous. L'auteur en a
+redressé deux le même jour : ils étaient dans l'implémentation, pas dans la
+règle.** Le corpus doit enregistrer cette asymétrie, parce qu'elle est du même
+ordre que celles qu'il traque ailleurs — **un modèle qui traduit mal une règle
+lui impute ses propres lacunes.**
+
+### PREMIÈRE LECTURE FAUTIVE — LA ZONE INTERMÉDIAIRE ÉTAIT PRÉVUE
+
+A47 dispose : **« Zone intermédiaire : charge partagée, autorisation limitée par
+tranches, surveillance et capacité d'arrêt »** — clause explicitée par l'auteur
+le 2026-09-09. **« Grave mais réversible » et « irréversible mais peu
+plausible » y appartiennent précisément.** Le programme les rendait « sans charge
+attribuée » et en tirait un défaut de la doctrine : **c'était une erreur de
+traduction.**
+
+**CORRIGÉ.** Tout dossier qui ne relève ni de l'impossibilité matérielle, ni du
+risque plausible grave et irréversible, ni du risque limité et réversible entre
+**automatiquement** en zone intermédiaire. **Un contrôle R1 vérifie qu'aucun
+dossier ne reste sans régime**, et il ne relève aucune anomalie sur les sept
+dossiers.
+
+**Et la charge partagée n'est pas un mot.** Le porteur documente les risques, les
+alternatives et les mesures de réduction ; l'autorité apporte ses propres
+éléments et justifie la proportionnalité de toute restriction ; une expertise
+indépendante recherche les données manquantes ; **l'autorisation reste limitée
+par tranches, surveillée et révocable.**
+
+**Conséquence sur la grille incomplète, et elle est importante** : un dossier
+dont l'horizon sectoriel n'est pas fixé ne tombe plus dans le vide — **il bascule
+en zone intermédiaire, qui est le régime prudent**, tout en signalant l'anomalie.
+Une grille lacunaire ralentit l'instruction ; elle ne suspend pas la protection.
+
+### SECONDE LECTURE FAUTIVE — L'INCERTITUDE AGIT SUR LA PROCÉDURE
+
+**A47 prévoit volontairement que l'incertitude ne produit aucun effet automatique
+sur le RÉGIME.** Deux dossiers peuvent recevoir le même régime de risque avec des
+états de connaissance différents. **Ce qui doit différer est leur PROCÉDURE
+D'INSTRUCTION.** Le programme regardait le régime et concluait que l'incertitude
+« n'emportait rien » : **il regardait au mauvais endroit.**
+
+**CORRIGÉ, et mesuré.** Trois dossiers de risque identique — mêmes gravité,
+étendue, probabilité et réversibilité — et de connaissances différentes
+reçoivent **un seul régime et trois procédures** :
+
+| état de connaissance | régime | procédure |
+|---|---|---|
+| réductible dans le délai utile | grave et irréversible | **acquisition de données avant décision complète** |
+| réductible hors délai utile | grave et irréversible | **marge de précaution explicitée** |
+| information robuste | grave et irréversible | **application directe de la grille** |
+
+Et le besoin essentiel urgent reçoit **l'autorisation minimale et temporaire
+pendant l'instruction**.
+
+### TROIS VARIABLES SÉPARÉES, ET NON UN NOMBRE POUR TROIS
+
+Le modèle portait encore la **probabilité estimée du dommage** et
+l'« incertitude » dans deux nombres entre 0 et 1, ce qui confondait trois
+choses. **Elles sont désormais distinctes** : la probabilité, la **confiance**
+accordée à cette estimation, et la **réductibilité** de l'incertitude avec son
+**délai d'acquisition**. **Une probabilité de 0,30 bien établie n'est pas une
+probabilité de 0,30 tirée de rien** — la mine de lithium et le réseau de capteurs
+partagent probabilité et confiance, et reçoivent pourtant des instructions
+différentes.
+
+### UNE LECTURE FAITE PAR LE PROGRAMME, ET ELLE EST SIGNALÉE
+
+La règle dit « incertitude réductible **dans un délai utile** : acquisition de
+données avant décision complète ». Elle ne dit pas ce qu'il advient d'une
+incertitude réductible **hors** de ce délai. **Le programme la traite comme
+irréductible pour la décision présente** — sans quoi le qualificatif n'aurait
+aucun effet, un délai de 99 périodes valant un délai de 1. **C'est une lecture de
+la règle existante, non une règle ajoutée, et elle est écrite pour être
+contestée.**
+
+### CE QUI RESTE, ET C'EST UNE SEULE PIÈCE
+
+**Les seuils sectoriels** : l'horizon de réversibilité, le seuil de confiance, le
+délai utile d'acquisition et les seuils numériques — **à fixer par domaine selon
+la procédure d'A47, sans rouvrir son principe.** `ZONE-INTERMEDIAIRE` et
+`USAGE-DES-INCERTITUDES` sont **fermées** : le défaut était dans le programme.
+
+**Et ce que le programme ne dit toujours pas** : que la doctrine soit bonne.
+Aucun seuil n'est éprouvé, aucun dossier n'est réel. **Il dit seulement qu'elle
+s'applique sans laisser de vide — ce dont il affirmait le contraire.**

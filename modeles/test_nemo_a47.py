@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-VÉRIFICATION DE LA DOCTRINE A47, VERSION 2.
+VÉRIFICATION DE LA DOCTRINE A47 VALIDÉE.
 
-CE QU'IL PROUVE : que la doctrine validée par l'auteur est appliquée telle
-qu'elle est écrite ; que la grille est bien fixée d'avance par une autorité
-DISTINCTE de celle qui l'applique ; et que les trois restes publiés sont dans
-la sortie, chacun avec sa nature — un paramètre du programme d'un côté, deux
-propriétés de la doctrine de l'autre.
+CE QU'IL PROUVE : les deux propriétés exigées par l'auteur — une grille
+complète attribue un régime à CHAQUE dossier ; deux dossiers de même risque et
+de connaissances différentes reçoivent des PROCÉDURES D'INSTRUCTION
+différentes. Et que les trois variables — probabilité, confiance,
+réductibilité — restent séparées.
 
-CE QU'IL NE PROUVE PAS : que la doctrine soit bonne. Ce test passe au vert
-parce que les défauts sont bien là où le programme les annonce.
+CE QU'IL NE PROUVE PAS : que la doctrine soit bonne. Aucun seuil n'est
+éprouvé, aucun dossier n'est réel.
 
 USAGE :  python modeles/test_nemo_a47.py
 """
@@ -40,174 +40,174 @@ def par_cle(c):
 
 source = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
                            "nemo_a47.py"), encoding="utf-8").read()
+COMPLETE = m.grille_complete()
 
 
 # =====================================================================
-print("A. POINT 1 — CINQ DIMENSIONS, ÉVALUÉES SÉPARÉMENT")
+print("A. PROPRIÉTÉ EXIGÉE N° 1 — AUCUN DOSSIER SANS RÉGIME")
 # =====================================================================
-exiger(len(m.DIMENSIONS) == 5 and "incertitude" in m.DIMENSIONS
-       and "plausibilite" in m.DIMENSIONS,
-       "les cinq dimensions sont nommées, et l'INCERTITUDE est distincte de "
-       "la PLAUSIBILITÉ : %s" % ", ".join(m.DIMENSIONS))
-d = par_cle("stockage-geo")
-exiger(isinstance(d.reversible_sur, dict) and len(d.reversible_sur) > 1,
-       "LA RÉVERSIBILITÉ N'EST PAS UN BOOLÉEN : elle est déclarée par horizon "
-       "(%s)" % ", ".join(sorted(d.reversible_sur)))
+exiger(m.controler_exhaustivite(COMPLETE) == [],
+       "avec une grille COMPLÈTE, le contrôle R1 ne relève aucune anomalie")
+regimes = dict((d.cle, m.qualifier(d, COMPLETE)[0]) for d in m.DOSSIERS)
+exiger(all(r in m.REGIMES for r in regimes.values()),
+       "les %d dossiers reçoivent un régime connu" % len(m.DOSSIERS))
+exiger(all(m.REGIMES[r][0] is not None for r in regimes.values()),
+       "et chacun porte une charge nommée : %s"
+       % ", ".join(sorted(set(m.REGIMES[r][0] for r in regimes.values()))))
+
+pest, mine = par_cle("pesticide"), par_cle("mine-lithium")
+exiger(regimes["pesticide"] == "intermediaire"
+       and regimes["mine-lithium"] == "intermediaire",
+       "« GRAVE MAIS RÉVERSIBLE » et « IRRÉVERSIBLE MAIS PEU PLAUSIBLE » "
+       "relèvent bien de la ZONE INTERMÉDIAIRE — la version précédente les "
+       "rendait sans charge, et c'était une erreur de traduction de la règle")
+exiger(m.REGIMES["intermediaire"][0] == "partagée",
+       "dont la charge est PARTAGÉE")
+exiger(len(m.CHARGE_PARTAGEE) == 4
+       and any("tranches" in x[1] for x in m.CHARGE_PARTAGEE)
+       and any("données manquantes" in x[1] for x in m.CHARGE_PARTAGEE),
+       "et la charge partagée porte ses quatre composantes, dont les tranches "
+       "et l'expertise indépendante")
+
+# Sans horizon, la protection ne disparaît pas : elle passe en zone
+# intermédiaire, qui est le régime prudent.
+sans_horizon = [d for d in m.DOSSIERS if d.domaine not in m.GRILLE["horizons"]]
+exiger(all(m.qualifier(d)[0] in m.REGIMES for d in sans_horizon),
+       "et même sans horizon sectoriel, %d dossiers reçoivent un régime : la "
+       "grille lacunaire ne crée pas de vide, elle bascule en zone "
+       "intermédiaire" % len(sans_horizon))
+exiger(any(x.startswith("[Q2]") for x in m.qualifier(sans_horizon[0])[2]),
+       "tout en signalant l'horizon manquant")
 
 
 # =====================================================================
 print("")
-print("B. POINTS 2 ET 3 — LA GRILLE EST FIXÉE D'AVANCE, ET AILLEURS")
+print("B. PROPRIÉTÉ EXIGÉE N° 2 — MÊME RISQUE, INSTRUCTIONS DIFFÉRENTES")
 # =====================================================================
-exiger(m.GRILLE["publiee"] == "avant l'examen des dossiers",
-       "la grille est publiée AVANT l'examen des dossiers")
-exiger(m.GRILLE["fixee_par"] == "instance-democratique",
-       "elle est fixée par l'autorité démocratique")
-exiger(m.GRILLE["apres"] == "expertise pluraliste",
-       "après expertise pluraliste — la compétence technique informe, elle ne "
-       "décide pas")
-exiger(m.GRILLE["fixee_par"] != "autorite-de-qualification",
-       "ET CELUI QUI FIXE LA GRILLE N'EST PAS CELUI QUI L'APPLIQUE : c'est "
-       "A46, et c'est ce qui ferme le premier trou de la version 1")
+base = par_cle("stockage-geo")
+essais = {}
+for etiquette, confiance, reductible, delai in (
+        ("réductible à temps", 0.55, True, 3),
+        ("réductible trop tard", 0.55, True, 9),
+        ("robuste et irréductible", 0.85, False, 0)):
+    jumeau = m.Dossier(base.cle, base.libelle, base.domaine, base.gravite,
+                       base.etendue, base.plausibilite, base.reversible_sur,
+                       confiance, reductible, delai)
+    essais[etiquette] = (m.qualifier(jumeau, COMPLETE)[0],
+                         m.instruire(jumeau, COMPLETE)[0])
+
+exiger(len(set(r for r, _ in essais.values())) == 1,
+       "les trois dossiers ont le MÊME RÉGIME DE RISQUE (%s) : l'incertitude "
+       "n'a volontairement aucun effet automatique sur le régime"
+       % list(set(r for r, _ in essais.values()))[0])
+exiger(len(set(p for _, p in essais.values())) == 3,
+       "ET TROIS PROCÉDURES D'INSTRUCTION DIFFÉRENTES : %s"
+       % ", ".join(sorted(set(p for _, p in essais.values()))))
+exiger(essais["réductible à temps"][1] == "acquisition",
+       "réductible dans le délai utile → acquisition de données AVANT "
+       "décision complète")
+exiger(essais["réductible trop tard"][1] == "precaution",
+       "réductible hors délai utile → marge de précaution explicitée")
+exiger(essais["robuste et irréductible"][1] == "directe",
+       "information robuste → application directe de la grille")
+med = par_cle("medicament")
+exiger(m.instruire(med, COMPLETE)[0] == "urgence",
+       "et le besoin essentiel urgent → autorisation minimale et temporaire "
+       "PENDANT l'instruction")
+
+
+# =====================================================================
+print("")
+print("C. TROIS VARIABLES SÉPARÉES, ET NON UN SEUL NOMBRE")
+# =====================================================================
+exiger("plausibilite" in m.DIMENSIONS and "confiance" in m.DIMENSIONS
+       and "reductibilite" in m.DIMENSIONS
+       and "delai_acquisition" in m.DIMENSIONS,
+       "les dimensions distinguent PROBABILITÉ, CONFIANCE, RÉDUCTIBILITÉ et "
+       "DÉLAI : %s" % ", ".join(m.DIMENSIONS))
+exiger(not hasattr(base, "incertitude"),
+       "et le nombre unique « incertitude » a disparu du modèle : il portait "
+       "trois choses à la fois")
+
+# Deux dossiers de même probabilité et même confiance, distingués par le reste.
+a, b = par_cle("mine-lithium"), par_cle("capteur")
+exiger(a.plausibilite == b.plausibilite and a.confiance == b.confiance,
+       "la mine et le réseau de capteurs partagent probabilité %.2f et "
+       "confiance %.2f" % (a.plausibilite, a.confiance))
+exiger(m.instruire(a, COMPLETE)[0] != m.instruire(b, COMPLETE)[0],
+       "et reçoivent pourtant des instructions différentes (%s contre %s) : "
+       "la probabilité seule ne détermine rien"
+       % (m.instruire(a, COMPLETE)[0], m.instruire(b, COMPLETE)[0]))
+
+
+# =====================================================================
+print("")
+print("D. LA LECTURE FAITE PAR LE PROGRAMME EST SIGNALÉE")
+# =====================================================================
+exiger("une lecture est faite ici" in source.lower()
+       or "UNE LECTURE EST FAITE ICI" in source,
+       "le traitement d'une incertitude réductible HORS délai utile est "
+       "déclaré comme une LECTURE de la règle, non comme une règle ajoutée")
+exiger("pour pouvoir être contestée" in source or "être contestée" in source,
+       "et il est écrit pour être contesté")
+tard = m.Dossier("essai", "essai", "energie", 2, 2, 0.50,
+                 {"cinquante ans": True, "échelle humaine": False},
+                 0.55, True, 99)
+exiger(m.instruire(tard, COMPLETE)[0] == "precaution",
+       "sans cette lecture, « dans un délai utile » n'aurait aucun effet : un "
+       "délai de 99 périodes vaudrait un délai de 1")
+
+
+# =====================================================================
+print("")
+print("E. LA GRILLE — FIXÉE D'AVANCE, ET AILLEURS")
+# =====================================================================
+exiger(m.GRILLE["publiee"] == "avant l'examen des dossiers"
+       and m.GRILLE["fixee_par"] == "instance-democratique"
+       and m.GRILLE["apres"] == "expertise pluraliste",
+       "publiée avant l'examen, fixée par l'autorité démocratique après "
+       "expertise pluraliste")
 mauvaise = dict(m.GRILLE, fixee_par="autorite-de-qualification")
 exiger(any(x.startswith("[Q4]") for x in m.controler_grille(mauvaise)),
-       "et le contrôle Q4 le vérifie : une grille fixée par qui l'applique "
-       "est signalée")
+       "et une grille fixée par qui l'applique est signalée — A46")
+exiger(any(x.startswith("[Q2]") for x in m.controler_grille())
+       and not any(x.startswith("[Q2]")
+                   for x in m.controler_grille(COMPLETE)),
+       "le contrôle des horizons discrimine : il mord sur la grille de "
+       "référence et se tait sur la grille complète")
 
-for d in m.DOSSIERS:
-    regime, motif, _ = m.qualifier(d)
-    if regime == "non_determine":
-        continue
-    exiger(bool(motif) and len(motif) > 20,
-           "%s : la qualification est MOTIVÉE — « %s »"
-           % (d.cle, motif[:58] + ("…" if len(motif) > 58 else "")))
-
-
-# =====================================================================
-print("")
-print("C. CE QUE LA VERSION 2 FERME — L'HORIZON EST DANS LA GRILLE")
-# =====================================================================
-d = par_cle("stockage-geo")
-issues = {}
-for horizon in m.HORIZONS:
-    g = dict(m.GRILLE)
-    g["horizons"] = dict(m.GRILLE["horizons"])
-    g["horizons"][d.domaine] = horizon
-    issues[horizon] = m.REGIMES[m.qualifier(d, g)[0]][0]
-exiger(len(set(issues.values())) > 1,
-       "l'horizon décide encore de la charge (%s)"
-       % " / ".join("%s → %s" % (h, c) for h, c in sorted(issues.items())))
-exiger(d.domaine in m.GRILLE["horizons"],
-       "MAIS CE CHOIX EST DÉSORMAIS DANS LA GRILLE, publiée d'avance et fixée "
-       "par une autre autorité : il devient une décision attaquable au lieu "
-       "d'un arbitrage de dossier")
-
-
-# =====================================================================
-print("")
-print("D. RESTE 1 — UN PARAMÈTRE DU PROGRAMME, ET IL EST DIT COMME TEL")
-# =====================================================================
-ref = len([x for x in m.DOSSIERS if m.qualifier(x)[0] != "non_determine"])
-complet = len([x for x in m.DOSSIERS
-               if m.qualifier(x, m.grille_complete())[0] != "non_determine"])
-exiger(complet > ref,
-       "une grille complète détermine %d dossiers contre %d : la "
-       "détermination vaut la complétude de la grille" % (complet, ref))
-exiger("UN PARAMÈTRE DE CE PROGRAMME" in source,
-       "ET LE PROGRAMME DIT QUE L'INCOMPLÉTUDE EST SON PROPRE CHOIX, non un "
-       "défaut de la doctrine")
-exiger(any(x.startswith("[Q2]") for x in m.controler_grille()),
-       "le contrôle Q2 signale les domaines sans horizon")
-exiger(m.controler_grille(m.grille_complete()) and not any(
-       x.startswith("[Q2]") for x in m.controler_grille(m.grille_complete())),
-       "et il se tait quand la grille est complète : le contrôle discrimine")
-
-
-# =====================================================================
-print("")
-print("E. RESTE 2 — L'INCERTITUDE EST ÉVALUÉE ET N'EMPORTE RIEN")
-# =====================================================================
-exiger(m.GRILLE["usage_des_incertitudes"] is None,
-       "la grille ne dit pas ce que l'incertitude emporte")
-exiger(any(x.startswith("[Q3]") for x in m.controler_grille()),
-       "et le contrôle Q3 le signale au lieu de le passer sous silence")
-regimes = {}
-for incertitude in (0.10, 0.90):
-    jumeau = m.Dossier(d.cle, d.libelle, d.domaine, d.gravite, d.etendue,
-                       d.plausibilite, d.reversible_sur, incertitude)
-    regimes[incertitude] = m.qualifier(jumeau)[0]
-exiger(regimes[0.10] == regimes[0.90],
-       "deux dossiers identiques hormis leur ÉTAT DE CONNAISSANCE (0.10 et "
-       "0.90) reçoivent le même régime : évaluer une dimension sans dire ce "
-       "qu'elle emporte ne change aucune décision")
-exiger("le programme ne la remet pas de lui-même" in source,
-       "et le programme ne rétablit pas de lui-même la règle de la version 1 "
-       "— légiférer à la place de l'auteur serait la faute symétrique")
-
-
-# =====================================================================
-print("")
-print("F. RESTE 3 — UNE PROPRIÉTÉ DE LA DOCTRINE, GRILLE COMPLÈTE COMPRISE")
-# =====================================================================
-hors = [x.cle for x in m.DOSSIERS
-        if m.qualifier(x, m.grille_complete())[0] == "non_determine"]
-exiger(len(hors) > 0,
-       "MÊME AVEC UNE GRILLE COMPLÈTE, %d dossiers sur %d restent sans charge "
-       "attribuée : %s" % (len(hors), len(m.DOSSIERS), ", ".join(hors)))
-pest, mine = par_cle("pesticide"), par_cle("mine-lithium")
-exiger(pest.gravite >= m.GRILLE["gravite_serieuse"]
-       and pest.reversible_sur["échelle humaine"],
-       "le premier est ordinaire : GRAVE MAIS RÉVERSIBLE")
-exiger(not mine.reversible_sur["échelle humaine"]
-       and mine.plausibilite < m.GRILLE["seuil_plausibilite"],
-       "le second aussi : IRRÉVERSIBLE MAIS PEU PLAUSIBLE")
-exiger(m.REGIMES["non_determine"][0] is None,
-       "et le programme n'invente aucune charge là où la doctrine se tait")
-
-
-# =====================================================================
-print("")
-print("G. CE QUI TIENT — SEUILS D'AVANCE, PUBLICITÉ, RECOURS")
-# =====================================================================
 plaus = sorted(x.plausibilite for x in m.DOSSIERS)
 
 
 def au_porteur(seuil):
-    g = dict(m.grille_complete())
+    g = dict(COMPLETE)
     g["seuil_plausibilite"] = seuil
     return len([x for x in m.DOSSIERS
                 if m.qualifier(x, g)[0] == "grave_irreversible"])
 
 
-avant = au_porteur(m.GRILLE["seuil_plausibilite"])
-admettre = au_porteur(max(plaus) + 0.01)
-refuser = au_porteur(min(plaus) - 0.01)
-exiger(admettre < avant < refuser,
-       "un seuil choisi après lecture produit l'issue voulue : %d, %d ou %d "
-       "dossiers à la charge du porteur" % (admettre, avant, refuser))
-exiger(min(plaus) - 0.01 < m.GRILLE["seuil_plausibilite"] < max(plaus) + 0.01,
-       "et les trois sont dans la même plage plausible : RIEN NE DISTINGUE UN "
-       "SEUIL DE PRINCIPE D'UN SEUIL TAILLÉ SUR MESURE")
-
-complet_pub = dict((c, True) for c in m.PUBLICATION)
-complet_pub["cle"] = "essai"
-exiger(m.controler_publication(complet_pub) == [],
-       "un dossier complet ne déclenche rien")
-for champ in m.PUBLICATION:
-    partiel = dict(complet_pub)
-    partiel[champ] = False
-    exiger(any(champ in a for a in m.controler_publication(partiel)),
-           "l'absence de « %s » est vue" % champ)
-exiger("canal de mesure indépendant" in source.lower()
-       or "CANAL DE MESURE" in source,
-       "et le recours parle de CANAL DE MESURE INDÉPENDANT, non d'observation "
-       "directe de la vérité")
+exiger(au_porteur(max(plaus) + 0.01) < au_porteur(m.GRILLE["seuil_plausibilite"])
+       < au_porteur(min(plaus) - 0.01),
+       "et un seuil choisi après lecture produit l'issue voulue : %d, %d ou %d "
+       "dossiers à la charge du porteur"
+       % (au_porteur(max(plaus) + 0.01),
+          au_porteur(m.GRILLE["seuil_plausibilite"]),
+          au_porteur(min(plaus) - 0.01)))
 
 
 # =====================================================================
 print("")
-print("H. CE QUE LE PROGRAMME NE PRÉTEND PAS")
+print("F. PUBLICITÉ, ET CE QUE LE PROGRAMME NE PRÉTEND PAS")
 # =====================================================================
+complet = dict((c, True) for c in m.PUBLICATION)
+complet["cle"] = "essai"
+exiger(m.controler_publication(complet) == [],
+       "un dossier complet ne déclenche rien")
+for champ in m.PUBLICATION:
+    partiel = dict(complet)
+    partiel[champ] = False
+    exiger(any(champ in a for a in m.controler_publication(partiel)),
+           "l'absence de « %s » est vue" % champ)
 exiger(m.SEUILS_CALIBRES is False, "aucun seuil n'est déclaré calibré")
 exiger("ne la valide jamais" in source and "aucun dossier n'est réel" in source,
        "et le programme redit ce qu'il ne prouve pas")
@@ -219,10 +219,11 @@ if ECHECS:
     for x in ECHECS:
         print("  " + x)
     sys.exit(1)
-print("La doctrine validée est appliquée telle qu'elle est écrite. LA VERSION")
-print("2 FERME LE PREMIER TROU — la grille est fixée d'avance par une autorité")
-print("distincte de celle qui l'applique, et la qualification se motive. TROIS")
-print("RESTES SUBSISTENT, de deux natures : les horizons sectoriels sont une")
-print("PIÈCE À CONSTRUIRE que l'auteur a nommée ; l'incertitude sans effet et")
-print("la zone entre les pôles sont des PROPRIÉTÉS DE LA DOCTRINE, à trancher.")
+print("Les deux propriétés exigées tiennent : AUCUN DOSSIER SANS RÉGIME, et")
+print("MÊME RISQUE AVEC DES CONNAISSANCES DIFFÉRENTES DONNE DES PROCÉDURES")
+print("DIFFÉRENTES. Deux des trois « restes » que ce programme publiait")
+print("étaient des lectures fautives de la règle, non des lacunes : la zone")
+print("intermédiaire était prévue, et l'incertitude agit sur la procédure et")
+print("non sur le régime. LA SEULE PIÈCE OUVERTE EST CELLE DES HORIZONS ET")
+print("SEUILS SECTORIELS.")
 sys.exit(0)
