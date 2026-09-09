@@ -46,7 +46,8 @@ except ImportError:
 if not hasattr(yaml, "safe_load"):
     sys.exit(
         "PyYAML mal resolu : le module importe n'expose pas safe_load.\n"
-        "  module     : " + getattr(yaml, "__file__", "(sans fichier)")
+        "  module     : " + (getattr(yaml, "__file__", None)
+                             or "(sans fichier)")
         + "\n  interprete : " + sys.executable
         + "\nCauses frequentes : un fichier yaml.py dans le repertoire\n"
         "courant, ou le paquet 'yaml' installe au lieu de 'pyyaml'.\n"
@@ -284,10 +285,11 @@ def charger_arbitrages():
             if statut == "arbitre" and tp == "non-tranche":
                 bloque("arbitrages.yaml",
                        f"{ou} ({ident}) : declare « arbitre » sans qui a tranche")
-            if statut != "arbitre" and tp == "auteur" and not e.get("note"):
+            if statut != "arbitre" and tp == "auteur" \
+                    and not e.get("chapitres"):
                 alerte("arbitrages.yaml",
-                       f"{ident} : oriente par l'auteur sans note disant "
-                       f"ce qui reste ouvert")
+                       f"{ident} : oriente par l'auteur sans renvoi aux "
+                       f"chapitres ou le raisonnement vit")
     # `lie_a` declare que deux entrees sont les faces d'un meme probleme.
     # La reciprocite est exigee : une relation qui ne vaudrait que dans un sens
     # laisserait l'autre entree ignorer qu'elle est engagee.
