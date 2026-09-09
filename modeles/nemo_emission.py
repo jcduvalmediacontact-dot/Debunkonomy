@@ -38,12 +38,20 @@ essentiels ; PRIORITÉ DÉMOCRATIQUE entre les projets admissibles ; CALIBRAGE d
 montant, du rythme et des TRANCHES ; CONTRÔLE, SUSPENSION, CORRECTION,
 RÉCUPÉRATION ET RECOURS.
 
+CINQ FONCTIONS NE VEUT PAS DIRE CINQ INSTITUTIONS — correction de l'auteur.
+A46 exige CINQ CENTRES DE RESPONSABILITÉ INDÉPENDANTS : mandats, nominations,
+budgets et responsabilités séparés. Qu'ils soient cinq personnes juridiques
+distinctes ou cinq organes indépendants d'une même organisation est une
+MODALITÉ ENCORE OUVERTE, et le programme n'en tranche aucune : il nomme des
+centres, pas des sièges.
+
 ET LE PRINCIPE PORTE DEUX EXIGENCES, NON UNE. « Aucune autorité ne cumule la
 mesure, la qualification, la priorité, l'émission ET SON PROPRE CONTRÔLE. » Le
 NON-CUMUL se lit sur l'organigramme et le contrôle S1 le vérifie. L'INTERDICTION
-DE S'AUTO-CONTRÔLER se lit sur le DOSSIER : cinq institutions distinctes
-peuvent exister et l'une d'elles contrôler, sur un dossier donné, un acte
-qu'elle a elle-même accompli. C'est le contrôle S3, et S1 ne le voit pas.
+DE S'AUTO-CONTRÔLER se lit sur le DOSSIER, et elle signifie que NUL N'EST
+L'UNIQUE NI LE DERNIER JUGE DE SES PROPRES ACTES. ELLE N'INTERDIT NI LE
+CONTRÔLE INTERNE, NI LA CORRECTION SPONTANÉE, NI LA SUSPENSION IMMÉDIATE D'UN
+VERSEMENT — c'est le contrôle S3, réécrit sur ce point.
 
 NEUF ÉTATS SUCCESSIFS. proposé, physiquement admissible, politiquement
 prioritaire, financièrement programmé, versé par tranches, contrôlé, achevé —
@@ -144,6 +152,12 @@ PORTEE = {
 }
 
 TITULAIRE = dict((p, nom) for nom, pouvoirs in CHAINE for p in pouvoirs)
+
+# La cinquième fonction se déploie sur TROIS NIVEAUX, et le troisième suppose
+# un organe distinct de celui qui vérifie la conformité. QUE CE SOIENT DEUX
+# PERSONNES JURIDIQUES OU DEUX ORGANES INDÉPENDANTS D'UNE MÊME ORGANISATION
+# EST UNE MODALITÉ OUVERTE : le programme exige l'indépendance, pas le siège.
+ORGANE_DE_RECOURS = "juridiction-de-recours"
 ETATS_DE_CONTROLE = ("controle", "suspendu", "recupere")
 
 
@@ -166,28 +180,66 @@ def controler_separation(chaine):
     return anomalies
 
 
-def controler_autocontrole(dossier):
-    """S3 — NUL NE CONTRÔLE SON PROPRE ACTE.
+# =====================================================================
+# LES TROIS NIVEAUX DE CONTRÔLE — correction de l'auteur, 2026-09-09
+# =====================================================================
+# INTERDIRE L'AUTOCONTRÔLE N'EST PAS INTERDIRE L'AUTOCORRECTION. Une autorité
+# qui verse doit pouvoir suspendre immédiatement ce qu'elle croit erroné : la
+# lui interdire ferait durer l'erreur au nom de la séparation des pouvoirs.
+NIVEAUX = (
+    ("interne", "contrôle immédiat par l'auteur de l'acte, avec capacité de "
+                "SUSPENSION CONSERVATOIRE"),
+    ("conformite", "contrôle INDÉPENDANT de la régularité de l'acte"),
+    ("recours", "audit externe et voie juridictionnelle"),
+)
+NOM_NIVEAU = dict(NIVEAUX)
 
-    S1 regarde l'organigramme et n'y voit rien d'anormal tant que cinq
-    institutions distinctes existent. S3 regarde LE DOSSIER : si l'institution
-    qui contrôle, suspend ou récupère est celle qui a instruit, qualifié,
-    priorisé ou versé sur ce même dossier, la cinquième fonction s'exerce sur
-    elle-même. C'est la seconde exigence de A46, et elle est distincte de la
-    première.
+ETATS_TERMINAUX = ("acheve", "recupere")
+
+
+def controler_autocontrole(dossier):
+    """S3 — NUL N'EST L'UNIQUE NI LE DERNIER JUGE DE SES PROPRES ACTES.
+
+    CE QUE S3 NE SIGNALE PAS, ET C'EST LA CORRECTION DE L'AUTEUR : la
+    suspension conservatoire décidée par l'autorité qui a versé. C'est de
+    l'autocorrection, pas de l'autocontrôle, et l'interdire retarderait la
+    correction des erreurs.
+
+    CE QUE S3 EXIGE, EN TROIS POINTS : qu'un contrôle de CONFORMITÉ ait été
+    exercé par une institution étrangère à l'acte ; que la CLÔTURE ne soit pas
+    le fait d'un auteur ; et qu'une voie de RECOURS extérieure existe, tenue
+    par une institution distincte de l'auteur ET du contrôleur de conformité.
     """
     anomalies = []
-    for k, (avant, apres, pouvoir, institution, _) in enumerate(
-            dossier.journal):
-        if apres not in ETATS_DE_CONTROLE:
-            continue
-        for a2, p2, pouvoir2, inst2, _ in dossier.journal[:k]:
-            if inst2 == institution:
-                anomalies.append(
-                    "[S3] %s : « %s » contrôle (%s → %s) un acte qu'elle a "
-                    "elle-même accompli (%s → %s)"
-                    % (dossier.projet.cle, institution, avant, apres, a2, p2))
-                break
+    # EST AUTEUR celui qui a exercé un pouvoir de FOND — mesurer, qualifier,
+    # prioriser, calibrer, verser. La suspension conservatoire du payeur en
+    # relève aussi : elle est de l'autocorrection, non un contrôle. Définir
+    # l'auteur par l'ÉTAT VISÉ rendrait tout clôturant auteur de son acte.
+    auteurs = set(inst for _, _, pouvoir, inst, _, _ in dossier.journal
+                  if pouvoir != "controler")
+    conformite = [inst for _, _, _, inst, niveau, _ in dossier.journal
+                  if niveau == "conformite"]
+    independants = [x for x in conformite if x not in auteurs]
+    termine = dossier.etat in ETATS_TERMINAUX
+
+    if termine and not independants:
+        anomalies.append(
+            "[S3] %s : dossier clos sans aucun contrôle de conformité "
+            "INDÉPENDANT — l'auteur a été l'unique juge de son acte"
+            % dossier.projet.cle)
+    for avant, apres, _, inst, _, _ in dossier.journal:
+        if apres in ETATS_TERMINAUX and inst in auteurs:  # noqa: E501
+            anomalies.append(
+                "[S3] %s : la clôture (%s → %s) est le fait de « %s », qui a "
+                "elle-même agi sur le dossier — nul n'est le DERNIER juge de "
+                "son acte" % (dossier.projet.cle, avant, apres, inst))
+    if dossier.recours is None:
+        anomalies.append("[S3] %s : aucune voie de recours extérieure ouverte"
+                         % dossier.projet.cle)
+    elif dossier.recours in auteurs or dossier.recours in conformite:
+        anomalies.append(
+            "[S3] %s : la voie de recours est tenue par « %s », déjà "
+            "intervenue sur le dossier" % (dossier.projet.cle, dossier.recours))
     return anomalies
 
 
@@ -198,17 +250,19 @@ ETATS = ("propose", "physiquement_admissible", "politiquement_prioritaire",
          "financierement_programme", "verse_par_tranches", "controle",
          "acheve", "suspendu", "recupere")
 
+# Chaque passage nomme LES pouvoirs qui peuvent l'exercer. La suspension en
+# admet DEUX : le contrôle, et l'auteur du versement à titre CONSERVATOIRE.
 TRANSITIONS = {
-    ("propose", "physiquement_admissible"): "mesurer",
-    ("physiquement_admissible", "politiquement_prioritaire"): "prioriser",
-    ("politiquement_prioritaire", "financierement_programme"): "calibrer",
-    ("financierement_programme", "verse_par_tranches"): "calibrer",
-    ("verse_par_tranches", "controle"): "controler",
-    ("controle", "acheve"): "controler",
-    ("verse_par_tranches", "suspendu"): "controler",
-    ("controle", "suspendu"): "controler",
-    ("suspendu", "recupere"): "controler",
-    ("suspendu", "verse_par_tranches"): "controler",
+    ("propose", "physiquement_admissible"): ("mesurer",),
+    ("physiquement_admissible", "politiquement_prioritaire"): ("prioriser",),
+    ("politiquement_prioritaire", "financierement_programme"): ("calibrer",),
+    ("financierement_programme", "verse_par_tranches"): ("calibrer",),
+    ("verse_par_tranches", "controle"): ("controler",),
+    ("controle", "acheve"): ("controler",),
+    ("verse_par_tranches", "suspendu"): ("controler", "calibrer"),
+    ("controle", "suspendu"): ("controler", "calibrer"),
+    ("suspendu", "recupere"): ("controler",),
+    ("suspendu", "verse_par_tranches"): ("controler",),
 }
 
 
@@ -220,23 +274,28 @@ class Dossier(object):
         self.projet = projet
         self.etat = "propose"
         self.journal = []
+        self.recours = None      # institution devant laquelle le recours est
+                                 # ouvert ; None = aucune, et S3 le signale
 
-    def passer_a(self, etat, par, motif="", anomalies=None, institution=None):
+    def passer_a(self, etat, par, motif="", anomalies=None, institution=None,
+                 niveau="interne"):
         """« institution » peut différer du titulaire de référence : c'est
         ainsi qu'une délégation, un détachement ou une double casquette se
-        représentent — et c'est ce que S3 attrape."""
+        représentent. « niveau » dit à quel titre un contrôle s'exerce —
+        interne, conformité ou recours — et c'est cette distinction qui sépare
+        l'AUTOCORRECTION, permise, de l'AUTOCONTRÔLE, interdit."""
         institution = TITULAIRE.get(par) if institution is None else institution
-        attendu = TRANSITIONS.get((self.etat, etat))
+        admis = TRANSITIONS.get((self.etat, etat))
         if anomalies is not None:
-            if attendu is None:
+            if admis is None:
                 anomalies.append("[S2] %s : passage %s → %s non prévu"
                                  % (self.projet.cle, self.etat, etat))
-            elif par != attendu:
-                anomalies.append("[S2] %s : %s → %s exercé par « %s » au lieu "
-                                 "du pouvoir « %s »"
+            elif par not in admis:
+                anomalies.append("[S2] %s : %s → %s exercé par « %s » alors "
+                                 "que seul %s le peut"
                                  % (self.projet.cle, self.etat, etat, par,
-                                    attendu))
-        self.journal.append((self.etat, etat, par, institution, motif))
+                                    " ou ".join("« %s »" % x for x in admis)))
+        self.journal.append((self.etat, etat, par, institution, niveau, motif))
         self.etat = etat
 
 
@@ -247,8 +306,39 @@ class Dossier(object):
 ORGANISMES = [("A", 0.00), ("B", 0.10), ("C", -0.08), ("D", 0.05),
               ("E", -0.05)]
 CAPTURE_AMPLEUR = 0.32      # ce qu'un organisme capté retranche à sa mesure
-SEUIL_DIVERGENCE = 0.25     # au-delà, la divergence DÉCLENCHE la mesure externe
-REGLES_DE_VETO = ("unique", "mediane", "prudente", "mediane_avec_recours")
+SEUIL_DIVERGENCE = 0.25     # au-delà, la divergence SAISIT la mesure externe
+REGLES_DE_VETO = ("unique", "mediane", "prudente", "mediane_avec_recours",
+                  "recours_pluriel")
+
+# LE RECOURS EST UN INSTRUMENT, PAS UN ORACLE. La version précédente lui
+# rendait la valeur VRAIE dès que la divergence dépassait le seuil : il
+# possédait gratuitement ce qu'aucun dispositif réel ne possède, et le résultat
+# publié en tirait sa robustesse. Corrigé sur remarque de l'auteur.
+#
+# CE À QUOI IL ACCÈDE, ET QUI EST NOUVEAU : une observation PHYSIQUE DIRECTE —
+# imagerie, traçabilité des matières, relevés de terrain — indépendante de la
+# déclaration du porteur ET des modèles des organismes. C'est là son apport.
+# CE QU'IL N'EST PAS : exact. Il a son biais propre, et il est capturable comme
+# les autres.
+INSTRUMENTS_DE_RECOURS = [("satellite", 0.06), ("tracabilite", -0.04),
+                          ("terrain", 0.09)]
+
+
+def mesure_de_recours(vraie, captes=(), pluriel=False):
+    """Rend (valeur, motif). Un seul instrument, ou trois en médiane.
+
+    UN RECOURS À INSTRUMENT UNIQUE DÉPLACE LE POINT DE DÉFAILLANCE, IL NE LE
+    SUPPRIME PAS : le capter suffit alors à museler l'alarme.
+    """
+    lot = INSTRUMENTS_DE_RECOURS if pluriel else INSTRUMENTS_DE_RECOURS[:1]
+    vals = []
+    for nom, biais in lot:
+        if nom in captes:
+            vals.append(vraie * (1.0 - CAPTURE_AMPLEUR))
+        else:
+            vals.append(vraie * (1.0 + biais))
+    return (mediane(vals) if pluriel else vals[0],
+            "mesure physique directe (%s)" % ", ".join(n for n, _ in lot))
 
 
 def estimations(vraie, captes=()):
@@ -285,29 +375,38 @@ def constat(vraie, regle, captes=()):
     med = mediane(vals)
     if regle == "mediane":
         return med, "médiane de %d estimations" % len(vals)
-    if regle == "mediane_avec_recours":
+    if regle in ("mediane_avec_recours", "recours_pluriel"):
         etendue = (max(vals) - min(vals)) / med if med else 0.0
         if etendue > SEUIL_DIVERGENCE:
-            return vraie, ("divergence de %.0f %% : mesure extérieure saisie"
-                           % (100 * etendue))
+            val, motif = mesure_de_recours(
+                vraie, captes, pluriel=(regle == "recours_pluriel"))
+            return val, ("divergence de %.0f %% : %s"
+                         % (100 * etendue, motif))
         return med, ("médiane, divergence %.0f %% sous le seuil"
                      % (100 * etendue))
     raise ValueError(regle)
 
 
 def captures_necessaires(vraie, seuil, regle):
-    """Combien d'organismes faut-il capter pour que le constat passe SOUS le
-    seuil, c'est-à-dire pour que le veto cesse de se déclencher ?
+    """Le MINIMUM de captures — organismes ET instruments de recours confondus
+    — qui suffit à lever le veto. Rend (nombre, quoi) ou (None, None).
 
-    C'est la mesure du dilemme posé par l'auteur : donner un pouvoir
-    contraignant à la connaissance physique sans le donner aux experts.
+    LA RECHERCHE PORTE SUR TOUTES LES COMBINAISONS, et c'est le point : capter
+    un organisme puis l'instrument de recours coûte deux captures, alors que
+    faire taire la médiane seule en coûte trois. Ne compter que les organismes
+    surestimait la robustesse du recours.
     """
-    noms = [n for n, _ in ORGANISMES]
-    for k in range(0, len(noms) + 1):
-        val, _ = constat(vraie, regle, captes=tuple(noms[:k]))
+    cibles = [n for n, _ in ORGANISMES] + [n for n, _ in INSTRUMENTS_DE_RECOURS]
+    meilleur = None
+    for masque in range(0, 2 ** len(cibles)):
+        captes = tuple(cibles[i] for i in range(len(cibles))
+                       if masque >> i & 1)
+        if meilleur is not None and len(captes) >= meilleur[0]:
+            continue
+        val, _ = constat(vraie, regle, captes=captes)
         if val <= seuil:
-            return k
-    return None
+            meilleur = (len(captes), captes)
+    return meilleur if meilleur else (None, None)
 
 
 # =====================================================================
@@ -507,7 +606,7 @@ def titre(n, libelle):
 def separation():
     print("")
     print("=" * 78)
-    print("A46 — LES CINQ POUVOIRS, ET CE QUE LEUR CUMUL PRODUIT")
+    print("A46 — LES CINQ FONCTIONS, ET CE QUE LEUR CUMUL PRODUIT")
     print("=" * 78)
     for nom, pouvoirs in CHAINE:
         for p in pouvoirs:
@@ -522,6 +621,11 @@ def separation():
              ("audit-et-juridiction", ("controler",))]
     anomalies = controler_separation(cumul)
     print("")
+    print("  Cinq CENTRES DE RESPONSABILITÉ, mandats et budgets séparés. Qu'ils")
+    print("  soient cinq personnes juridiques ou cinq organes indépendants")
+    print("  d'une même organisation est une MODALITÉ OUVERTE — A46 exige")
+    print("  l'indépendance, pas le siège.")
+    print("")
     print("  LA MÊME CHAÎNE AVEC UNE AUTORITÉ QUI MESURE, QUALIFIE ET VERSE :")
     for a in anomalies:
         print("    %s" % a)
@@ -531,28 +635,77 @@ def separation():
     print("  verte, mais PAR LA STRUCTURE DE L'INSTITUTION ELLE-MÊME.")
 
     # « ET SON PROPRE CONTRÔLE » — seconde exigence, et S1 n'y suffit pas.
-    d = Dossier(PAR_CLE["eau"])
-    for etat, par in (("physiquement_admissible", "mesurer"),
-                      ("politiquement_prioritaire", "prioriser"),
-                      ("financierement_programme", "calibrer"),
-                      ("verse_par_tranches", "calibrer")):
-        d.passer_a(etat, par)
-    d.passer_a("controle", "controler", institution="autorite-monetaire")
-    auto = controler_autocontrole(d)
+    def dossier(cle):
+        d = Dossier(PAR_CLE[cle])
+        for etat, par in (("physiquement_admissible", "mesurer"),
+                          ("politiquement_prioritaire", "prioriser"),
+                          ("financierement_programme", "calibrer"),
+                          ("verse_par_tranches", "calibrer")):
+            d.passer_a(etat, par)
+        return d
+
     print("")
-    print("  LA SECONDE EXIGENCE DE A46 — « ET SON PROPRE CONTRÔLE ». Cinq")
-    print("  institutions distinctes existent, S1 ne voit donc RIEN (%d)"
+    print("  LA SECONDE EXIGENCE — « ET SON PROPRE CONTRÔLE ». Elle ne se lit")
+    print("  pas sur l'organigramme : S1 ne voit rien (%d anomalie) tant que"
           % len(controler_separation(CHAINE)))
-    print("  — et pourtant, sur ce dossier, c'est l'autorité qui a versé qui")
-    print("  contrôle. S3 regarde LE DOSSIER et le voit :")
-    for a in auto:
+    print("  cinq centres existent. S3 regarde LE DOSSIER.")
+    print("")
+    print("  LES TROIS NIVEAUX DE CONTRÔLE")
+    for cle, portee in NIVEAUX:
+        print("    %-11s %s" % (cle, portee))
+
+    resultats = {}
+
+    # (a) SUSPENSION CONSERVATOIRE par l'autorité qui a versé, PUIS contrôle
+    #     indépendant. C'est de l'AUTOCORRECTION, et elle est permise.
+    a = dossier("eau")
+    a.recours = ORGANE_DE_RECOURS
+    a.passer_a("suspendu", "calibrer", niveau="interne",
+               motif="suspension conservatoire : versement présumé erroné")
+    a.passer_a("verse_par_tranches", "controler", niveau="conformite")
+    a.passer_a("controle", "controler", niveau="conformite")
+    a.passer_a("acheve", "controler", niveau="conformite")
+    resultats["autocorrection"] = controler_autocontrole(a)
+
+    # (b) L'auteur du versement se contrôle lui-même ET clôt.
+    b = dossier("hopital")
+    b.recours = ORGANE_DE_RECOURS
+    b.passer_a("controle", "controler", institution="autorite-monetaire",
+               niveau="conformite")
+    b.passer_a("acheve", "controler", institution="autorite-monetaire",
+               niveau="conformite")
+    resultats["autocontrole"] = controler_autocontrole(b)
+
+    # (c) Contrôle indépendant, mais aucune voie de recours ouverte.
+    c = dossier("logement")
+    c.passer_a("controle", "controler", niveau="conformite")
+    c.passer_a("acheve", "controler", niveau="conformite")
+    resultats["sans recours"] = controler_autocontrole(c)
+
+    print("")
+    print("  %-46s %s" % ("situation", "S3"))
+    for etiquette, anomalies in (
+            ("suspension conservatoire par le payeur", resultats["autocorrection"]),
+            ("le payeur se contrôle et clôt seul", resultats["autocontrole"]),
+            ("contrôle indépendant, aucun recours", resultats["sans recours"])):
+        print("  %-46s %s"
+              % (etiquette, "aucune anomalie" if not anomalies
+                 else "%d anomalie(s)" % len(anomalies)))
+    print("")
+    for a in resultats["autocontrole"] + resultats["sans recours"]:
         print("    %s" % a)
     print("")
-    print("  NON-CUMUL ET AUTO-CONTRÔLE SONT DEUX EXIGENCES, PAS UNE. La")
-    print("  première se lit sur l'organigramme, la seconde sur le dossier.")
-    print("  Un dispositif peut satisfaire l'une et violer l'autre.")
+    print("  LA PREMIÈRE LIGNE EST LA CORRECTION DE L'AUTEUR. L'autorité qui a")
+    print("  versé SUSPEND elle-même ce qu'elle croit erroné, et S3 ne dit")
+    print("  rien : c'est de l'AUTOCORRECTION. La lui interdire ferait durer")
+    print("  l'erreur au nom de la séparation des pouvoirs.")
+    print("")
+    print("  CE QUE S3 REFUSE, C'EST D'ÊTRE L'UNIQUE OU LE DERNIER JUGE : un")
+    print("  contrôle de conformité exercé par l'auteur lui-même, une clôture")
+    print("  prononcée par lui, ou l'absence de voie de recours extérieure.")
     return {"saine": len(saines), "cumul": len(anomalies),
-            "autocontrole": len(auto)}
+            "autocorrection": len(resultats["autocorrection"]),
+            "autocontrole": len(resultats["autocontrole"])}
 
 
 def processus():
@@ -562,16 +715,18 @@ def processus():
     print("=" * 78)
     anomalies = []
     d = Dossier(PAR_CLE["eau"])
-    chemin = [("physiquement_admissible", "mesurer"),
-              ("politiquement_prioritaire", "prioriser"),
-              ("financierement_programme", "calibrer"),
-              ("verse_par_tranches", "calibrer"),
-              ("controle", "controler"),
-              ("acheve", "controler")]
-    for etat, par in chemin:
-        d.passer_a(etat, par, anomalies=anomalies)
-    print("  chemin nominal   propose → %s" % " → ".join(x for x, _ in chemin))
+    chemin = [("physiquement_admissible", "mesurer", "interne"),
+              ("politiquement_prioritaire", "prioriser", "interne"),
+              ("financierement_programme", "calibrer", "interne"),
+              ("verse_par_tranches", "calibrer", "interne"),
+              ("controle", "controler", "conformite"),
+              ("acheve", "controler", "conformite")]
+    for etat, par, niveau in chemin:
+        d.passer_a(etat, par, anomalies=anomalies, niveau=niveau)
+    print("  chemin nominal   propose → %s"
+          % " → ".join(x for x, _, _ in chemin))
     print("  issues défavorables : suspendu, recupere — par « controler » seul")
+    d.recours = ORGANE_DE_RECOURS
     print("  anomalies S2 : %s" % (anomalies or "aucune"))
     print("  anomalies S3 : %s" % (controler_autocontrole(d) or "aucune"))
 
@@ -922,53 +1077,59 @@ def cas_7():
     print("  DÉTECTE et se RÉDUIT. Trois leviers, et ils sont mesurés.")
 
     print("")
-    print("  LEVIER 1 — LA PLURALITÉ DES ORGANISMES DE MESURE")
-    print("  Pression vraie %.0f, budget %.0f. Combien d'organismes sur %d"
-          % (vraie, seuil, len(ORGANISMES)))
-    print("  faut-il capter pour que le veto cesse de se déclencher ?")
+    print("  LEVIER 1 — LA PLURALITÉ DES MESUREURS, ET CE QU'ELLE VAUT")
+    print("  Pression vraie %.0f, budget %.0f. Combien de captures — organismes"
+          % (vraie, seuil))
+    print("  ET INSTRUMENTS DE RECOURS confondus — faut-il pour lever le veto ?")
     print("")
-    # LE COÛT D'UNE RÈGLE : combien de projets RÉELLEMENT admissibles
-    # refuse-t-elle ? Mesuré sur un banc dont aucun élément ne franchit
-    # vraiment — sans quoi on compterait comme refus à tort des projets
-    # réellement impossibles, ce que la première version faisait.
-    banc = [Projet("banc%d" % k, "banc", 100, False, {},
+    print("  LE RECOURS N'EST PLUS UN ORACLE. La version précédente lui rendait")
+    print("  la valeur VRAIE dès que la divergence dépassait le seuil : il")
+    print("  possédait gratuitement ce qu'aucun dispositif réel ne possède, et")
+    print("  le résultat publié en tirait toute sa robustesse. IL EST DÉSORMAIS")
+    print("  UN INSTRUMENT — observation physique directe, indépendante de la")
+    print("  déclaration du porteur ET des modèles des organismes — AVEC SON")
+    print("  BIAIS PROPRE ET SON PROPRE RISQUE DE CAPTURE.")
+    print("")
+    print("  %-22s %10s %8s %30s"
+          % ("règle de constat", "captures", "à tort", "cibles minimales"))
+    banc = [Projet("b%d" % k, "banc", 100, False, {},
                    {"carbone": float(v)}, rang_depot=k)
             for k, v in enumerate((300, 340, 370, 380, 390), start=1)]
-    print("  %-24s %12s %26s"
-          % ("règle de constat", "captures", "refus à tort sur %d" % len(banc)))
-    besoins, faux = {}, {}
+    besoins, faux, cibles = {}, {}, {}
     for regle in REGLES_DE_VETO:
-        k = captures_necessaires(vraie, seuil, regle)
-        besoins[regle] = k
+        k, quoi = captures_necessaires(vraie, seuil, regle)
+        besoins[regle], cibles[regle] = k, quoi
         n = len([p for p in banc
                  if not infaisable_reellement(p)
                  and not veto_physique(p, regle=regle)[0]])
         faux[regle] = n
-        print("  %-24s %12s %26d"
-              % (regle,
-                 "aucune" if k == 0 else ("%d" % k if k is not None
-                                          else "impossible"), n))
+        print("  %-22s %10s %8d %30s"
+              % (regle, "aucune" if k == 0 else
+                 ("%d" % k if k is not None else "impossible"), n,
+                 ", ".join(quoi) if quoi else "—"))
+
     print("")
-    print("  LIRE LES DEUX COLONNES ENSEMBLE : C'EST LE DILEMME DE L'AUTEUR.")
-    print("  « unique » donne un pouvoir absolu à un organisme — %s capture"
-          % besoins["unique"])
-    print("  suffit, et c'est ce que l'auteur interdit. « prudente » résiste à")
-    print("  %s captures MAIS REFUSE À TORT %d projets sur %d : la prudence de"
-          % (besoins["prudente"], faux["prudente"], 5))
-    print("  la mesure devient un refus de financer.")
+    print("  ET LE RÉSULTAT PUBLIÉ HIER TOMBE. « Médiane avec recours » exigeait")
+    print("  cinq captures tant que le recours était infaillible ; avec un")
+    print("  instrument réel il en exige %s — %s. UN RECOURS À INSTRUMENT"
+          % (besoins["mediane_avec_recours"],
+             ", ".join(cibles["mediane_avec_recours"] or [])))
+    print("  UNIQUE DÉPLACE LE POINT DE DÉFAILLANCE, IL NE LE SUPPRIME PAS :")
+    print("  capter un organisme fait diverger, et capter l'instrument saisi")
+    print("  suffit ensuite à museler l'alarme.")
     print("")
-    print("  « MEDIANE_AVEC_RECOURS » DOMINE LES DEUX, et c'est le résultat.")
-    print("  Elle exige %s captures comme la prudente, et n'en refuse à tort"
-          % besoins["mediane_avec_recours"])
-    print("  aucun — %d contre %d. LA RAISON EST INSTRUCTIVE : une capture"
-          % (faux["mediane_avec_recours"], faux["prudente"]))
-    print("  PARTIELLE crée de la DIVERGENCE entre organismes, et c'est la")
-    print("  divergence elle-même qui déclenche la mesure extérieure. LE")
-    print("  DÉSACCORD DES EXPERTS DEVIENT L'ALARME au lieu d'être le problème.")
+    print("  CE QUI LE RÉTABLIT EN PARTIE : PLURALISER LE RECOURS LUI-MÊME.")
+    print("  Avec %d instruments indépendants en médiane, il faut %s captures"
+          % (len(INSTRUMENTS_DE_RECOURS), besoins["recours_pluriel"]))
+    print("  au lieu de %s, sans aucun refus à tort — contre %d pour la règle"
+          % (besoins["mediane_avec_recours"], faux["prudente"]))
+    print("  prudente, qui reste la plus résistante (%s) au prix de ces refus."
+          % besoins["prudente"])
     print("")
-    print("  ET LE RISQUE RÉSIDUEL EST NOMMÉ PAR LÀ MÊME : une capture")
-    print("  UNANIME ne diverge pas, donc ne déclenche rien. C'est la")
-    print("  collusion, et aucun de ces leviers ne la voit.")
+    print("  LE DILEMME DE L'AUTEUR N'EST DONC PAS LEVÉ, IL EST DÉPLACÉ D'UN")
+    print("  CRAN : la pluralité protège tant qu'elle porte AUSSI sur les")
+    print("  instruments du recours, et le désaccord ne sert d'alarme que si")
+    print("  ce qu'il déclenche n'est pas capturable d'un seul coup.")
 
     print("")
     print("  LEVIER 2 — LA MESURE PHYSIQUE DIRECTE ET L'AUDIT ALÉATOIRE")
@@ -1073,8 +1234,13 @@ def main():
          "le plafond reste un nombre politique qu'aucun calcul ne fixe"),
         (7, "pluralité, mesure directe, audit indépendant",
          "%.0f %% récupérés en détection précoce contre %.0f %% en détection "
-         "tardive" % (r[7]["sauve_direct"], r[7]["sauve_tardif"]),
-         "capture de l'organe de mesure et collusion : non traitées"),
+         "tardive ; la pluralité du recours porte la capture nécessaire de "
+         "%s à %s" % (r[7]["sauve_direct"], r[7]["sauve_tardif"],
+                      r[7]["besoins"]["mediane_avec_recours"],
+                      r[7]["besoins"]["recours_pluriel"]),
+         "un recours à instrument UNIQUE ne coûte que %s captures ; la "
+         "collusion unanime reste hors d'atteinte"
+         % r[7]["besoins"]["mediane_avec_recours"]),
     ]
     for n, mecanisme, gain, reste in bilan:
         print("")
@@ -1083,12 +1249,18 @@ def main():
         print("      RESTE    : %s" % reste)
 
     print("")
-    print("  LA VERSION 1 CONCLUAIT DEUX FOIS TROP FORT, et les deux fois dans")
-    print("  LE MÊME SENS — celui de l'impuissance. « Le cas 7 ne se répare")
-    print("  pas » et « une émission sans dette n'a aucune reprise » étaient")
-    print("  FAUX, et l'auteur les a redressés. UN CORPUS QUI CHERCHE LES")
-    print("  ÉCHECS PEUT AUSSI EN INVENTER : c'est la faute symétrique de la")
-    print("  complaisance, et elle n'est pas moins grave.")
+    print("  LA VERSION 1 CONCLUAIT DEUX FOIS TROP FORT, dans le sens de")
+    print("  l'impuissance : « le cas 7 ne se répare pas » et « une émission")
+    print("  sans dette n'a aucune reprise » étaient FAUX.")
+    print("")
+    print("  ET LA VERSION 2 A CONCLU TROP FORT DANS L'AUTRE SENS. Elle donnait")
+    print("  au recours la valeur VRAIE par construction, et en tirait une")
+    print("  robustesse de cinq captures là où un instrument réel en coûte %s."
+          % r[7]["besoins"]["mediane_avec_recours"])
+    print("  L'auteur l'a relevé le jour même. UN CORPUS QUI CHERCHE LES ÉCHECS")
+    print("  PEUT EN INVENTER, ET UN CORPUS QUI LES CORRIGE PEUT SE PAYER DE")
+    print("  SA PROPRE CORRECTION : les deux fautes sont symétriques et aucune")
+    print("  n'est vénielle.")
     print("")
     print("  CE QUI N'A PAS BOUGÉ. Un contrôle qui ne porte que sur des")
     print("  déclarations ne détecte pas leur falsification. Le passé n'est")

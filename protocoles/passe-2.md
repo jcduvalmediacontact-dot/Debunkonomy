@@ -6197,21 +6197,42 @@ instruite, cas théorique défavorable établi ».
 **« Aucune autorité ne peut cumuler la mesure physique, la qualification, la
 priorité, l'émission ET SON PROPRE CONTRÔLE. »**
 
-**CETTE DERNIÈRE CLAUSE PORTE UNE SECONDE EXIGENCE, ET LE MODÈLE NE LA
-CONTRÔLAIT PAS.** Le non-cumul se lit sur l'**organigramme** : cinq institutions,
-une fonction chacune — c'est le contrôle S1. **L'interdiction de s'auto-contrôler
-se lit sur le DOSSIER.** Cinq institutions distinctes peuvent exister, et l'une
-d'elles contrôler, sur un dossier donné, un acte qu'elle a elle-même accompli —
-par délégation, détachement ou double casquette. **S1 ne voit alors rien.** Le
-contrôle **S3** a été ajouté pour cela : il parcourt le journal du dossier et
-refuse que celui qui contrôle, suspend ou récupère soit celui qui a mesuré,
-qualifié, priorisé ou versé. **Un dispositif peut satisfaire l'une des deux
-exigences et violer l'autre.**
+**PREMIÈRE CORRECTION DE PORTÉE — CINQ FONCTIONS N'EST PAS CINQ
+INSTITUTIONS.** A46 exige **cinq centres de responsabilité indépendants** :
+mandats, nominations, budgets et responsabilités séparés. Qu'ils soient cinq
+personnes juridiques distinctes ou cinq organes indépendants d'une même
+organisation internationale est une **modalité encore ouverte**. Le corpus
+n'impose pas une bureaucratie de cinq institutions obligatoirement distinctes ;
+il exige l'indépendance, pas le siège.
 
-**Et la réalité physique demeure contraignante ; son constat institutionnel reste
-motivé, documenté, pluraliste, révisable et susceptible d'un recours
-indépendant** — principe arrêté le même jour, enregistré sous
-`VETO-SCIENTIFIQUE-PLURALISTE`, dont le modèle mesure la variante dominante.
+**SECONDE CORRECTION DE PORTÉE — INTERDIRE L'AUTOCONTRÔLE N'EST PAS INTERDIRE
+L'AUTOCORRECTION.** L'autorité monétaire **doit** pouvoir suspendre
+immédiatement un versement qu'elle estime erroné ; la lui interdire ferait durer
+l'erreur au nom de la séparation des pouvoirs. Ce qu'elle ne peut pas, c'est
+**être l'unique ou le dernier juge de la régularité de son propre acte**, ni
+clore seule le contentieux. **Trois niveaux se distinguent** : contrôle interne
+immédiat avec capacité de suspension ; contrôle indépendant de conformité ; audit
+externe et recours juridictionnel.
+
+**S3 A ÉTÉ RÉÉCRIT SUR CE POINT.** Il ne signale plus toute intervention d'une
+institution sur son propre acte, mais trois choses : qu'un contrôle de
+**conformité indépendant** a eu lieu ; que la **clôture** n'est pas le fait d'un
+auteur ; qu'une **voie de recours extérieure** existe, tenue par une institution
+distincte de l'auteur et du contrôleur de conformité. **La suspension
+conservatoire par le payeur ne déclenche rien**, et le test le vérifie
+explicitement.
+
+**ET S3 RESTE DISTINCT DE S1.** Le non-cumul se lit sur l'organigramme ; l'unicité
+du juge se lit sur le dossier. Un dispositif peut satisfaire l'une et violer
+l'autre — la sortie du programme le montre sur trois dossiers.
+
+**PROVENANCE — UNE FORMULE QUI N'A PAS ÉTÉ ADOPTÉE.** « La réalité physique
+demeure contraignante ; son constat institutionnel reste motivé, documenté,
+pluraliste, révisable et susceptible d'un recours indépendant. » Cette phrase
+accompagnait la validation d'A46 **sans en faire partie**. Elle est cohérente
+avec A46, mais l'auteur ne l'a pas expressément adoptée : `VETO-SCIENTIFIQUE-
+PLURALISTE` reste donc **orienté et non tranché**, et la décision porte la
+mention « formule proposée, non adoptée ».
 
 **Le contrôle S1 le vérifie sur la structure**, et c'est le point : la version 1
 cherchait la capture dans la SORTIE du dispositif, qui restait verte. **La
@@ -6290,3 +6311,83 @@ ne départage deux besoins essentiels. **Les prix ne sont toujours pas endogène
 l'écart de capacité publié au cas 1 est une condition nécessaire et NON
 SUFFISANTE d'une tension inflationniste, et aucun indicateur d'inflation n'est
 produit.**
+
+
+## LE RECOURS N'ÉTAIT PAS UN INSTRUMENT, C'ÉTAIT UN ORACLE — 2026-09-09
+
+**LA VERSION 2 A CONCLU TROP FORT À SON TOUR, ET DANS L'AUTRE SENS.** Elle
+publiait que la règle « médiane avec recours » dominait toutes les autres : cinq
+captures nécessaires, aucun refus à tort. **Ce résultat était un artefact.** Dans
+le programme, dès que la divergence entre organismes dépassait le seuil, la règle
+rendait **la valeur vraie de la simulation** — elle possédait gratuitement ce
+qu'aucun dispositif réel ne possède. L'auteur l'a relevé le jour même.
+
+**LE RECOURS EST DEVENU UN INSTRUMENT.** Ce à quoi il accède est nommé : une
+**observation physique directe** — imagerie, traçabilité des matières, relevés de
+terrain — **indépendante de la déclaration du porteur et des modèles des
+organismes**. C'est là son apport réel. Mais il a **son biais propre** et il est
+**capturable comme les autres**.
+
+**ET LE RÉSULTAT PUBLIÉ TOMBE.**
+
+| règle de constat | captures nécessaires | refus à tort sur 5 | cibles |
+|---|---|---|---|
+| unique | 1 | 0 | un organisme |
+| médiane | 3 | 0 | trois organismes |
+| prudente | 5 | 3 | tous les organismes |
+| médiane avec recours | **2** | 0 | un organisme, puis l'instrument |
+| recours pluriel | 3 | 0 | un organisme, deux instruments |
+
+**UN RECOURS À INSTRUMENT UNIQUE DÉPLACE LE POINT DE DÉFAILLANCE, IL NE LE
+SUPPRIME PAS** : capter un organisme fait diverger, et capter l'instrument saisi
+suffit ensuite à museler l'alarme — **deux captures, contre trois pour la simple
+médiane.** Le mécanisme qui paraissait le plus robuste était en réalité le
+deuxième plus fragile.
+
+**CE QUI LE RÉTABLIT EN PARTIE : PLURALISER LE RECOURS LUI-MÊME.** Trois
+instruments indépendants en médiane portent l'exigence à **trois captures**, sans
+aucun refus à tort. **La règle prudente reste la plus résistante — cinq captures
+— au prix de trois refus à tort sur cinq projets légitimes.** Aucune règle n'est
+gratuitement supérieure.
+
+**LE DILEMME DE L'AUTEUR N'EST DONC PAS LEVÉ, IL EST DÉPLACÉ D'UN CRAN.** La
+pluralité protège **tant qu'elle porte aussi sur les instruments du recours**, et
+le désaccord des experts ne sert d'alarme **que si ce qu'il déclenche n'est pas
+capturable d'un seul coup.**
+
+**UN CONTRÔLE DE MÉTHODE A ÉTÉ AJOUTÉ AU TEST** pour que cette faute ne puisse
+pas revenir : il échoue si la mesure de recours rend la valeur vraie. Le corpus a
+maintenant deux gardes symétriques — l'un contre l'invention d'échecs, l'autre
+contre l'invention de solutions.
+
+
+## A47 — DÉCIDER SOUS INCERTITUDE. RÈGLE PROPOSÉE, NON ADOPTÉE
+
+**Ouvert le 2026-09-09. La règle ci-dessous est celle que l'auteur propose ; elle
+n'est pas encore arbitrée, et le corpus ne la traite pas comme acquise.**
+
+1. **Matériellement impossible** : refus.
+2. **Risque grave, irréversible et suffisamment établi** : refus ou suspension.
+3. **Incertitude importante portant sur un dommage potentiellement
+   irréversible** : suspension provisoire et acquisition de connaissances.
+4. **Risque limité et réversible** : autorisation par tranches, surveillance et
+   capacité d'arrêt.
+5. **Besoin essentiel urgent** : autorisation minimale et temporaire, sauf
+   impossibilité physique ou risque catastrophique suffisamment établi.
+6. **Ressource rare** : arbitrage au niveau du portefeuille des usages
+   concurrents.
+7. **Recours** : examen par une instance indépendante, sur la base de données ou
+   de méthodes supplémentaires.
+
+**Et une règle sur l'effet du recours :** un recours **ne suspend pas
+automatiquement** une mesure protégeant contre un dommage irréversible ; il peut
+cependant la **réviser rapidement** si les nouvelles preuves modifient le
+constat.
+
+**CE QUE CETTE RÈGLE ARTICULE AVEC CE QUI PRÉCÈDE.** Le point 1 est le veto
+physique. Le point 6 est l'arbitrage de portefeuille du cas 2. Le point 4 est le
+versement par tranches du cas 4. Le point 5 est la réserve d'urgence du cas 6. Le
+point 7 est le troisième niveau de contrôle de S3. **Les points 2 et 3 sont
+neufs, et c'est là que se trouve la difficulté** : « suffisamment établi » et
+« incertitude importante » sont des seuils de preuve, non des faits, et le corpus
+n'en a aucun. **Ils ne sont pas modélisés, et ne doivent pas être inventés.**

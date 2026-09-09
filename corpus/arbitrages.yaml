@@ -143,20 +143,37 @@ arbitrages:
     chapitres: [L18.C31]
     maj: 2026-09-09
 
+  - id: A47
+    objet: "Décider sous incertitude"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION]
+    decision: >
+      OUVERT LE 2026-09-09. RÈGLE PROPOSÉE PAR L'AUTEUR, NON ADOPTÉE, en
+      sept points : impossibilité matérielle, refus ; risque grave,
+      irréversible et établi, refus ou suspension ; incertitude importante
+      sur un dommage irréversible, suspension et acquisition de
+      connaissances ; risque limité et réversible, tranches et capacité
+      d'arrêt ; besoin essentiel urgent, autorisation minimale et
+      temporaire ; ressource rare, arbitrage de portefeuille ; recours
+      devant une instance indépendante. Détail en passe-2.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
   - id: A46
     objet: "La séparation des cinq pouvoirs de l'émission"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [REGLE-D-EMISSION, MESURE-EXTERIEURE, VETO-SCIENTIFIQUE-PLURALISTE]
+    lie_a: [REGLE-D-EMISSION, MESURE-EXTERIEURE, VETO-SCIENTIFIQUE-PLURALISTE, A47]
     decision: >
-      VALIDÉ PAR L'AUTEUR LE 2026-09-09. CINQ FONCTIONS SÉPARÉES : (1)
-      MESURE SCIENTIFIQUE des ressources, pressions physiques, limites
-      écologiques ET INCERTITUDES ; (2) QUALIFICATION des projets et des
-      besoins essentiels ; (3) PRIORITÉ DÉMOCRATIQUE entre les projets
-      admissibles ; (4) CALIBRAGE du montant, du rythme et des tranches ;
-      (5) CONTRÔLE, SUSPENSION, CORRECTION, RÉCUPÉRATION ET RECOURS. AUCUNE
-      AUTORITÉ NE CUMULE la mesure, la qualification, la priorité,
-      l'émission ET SON PROPRE CONTRÔLE.
+      VALIDÉ PAR L'AUTEUR LE 2026-09-09, AVEC DEUX CORRECTIONS DE PORTÉE.
+      CINQ FONCTIONS : (1) MESURE SCIENTIFIQUE, incertitudes comprises ;
+      (2) QUALIFICATION des projets et besoins ; (3) PRIORITÉ DÉMOCRATIQUE
+      ; (4) CALIBRAGE, rythme et tranches ; (5) CONTRÔLE, SUSPENSION,
+      CORRECTION, RÉCUPÉRATION, RECOURS. CINQ CENTRES DE RESPONSABILITÉ
+      INDÉPENDANTS, NON CINQ INSTITUTIONS : l'organisation juridique reste
+      à concevoir. NUL N'EST L'UNIQUE NI LE DERNIER JUGE DE SES ACTES —
+      l'autocorrection reste permise.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -455,17 +472,17 @@ pieces_de_conception_manquantes:
   - id: VETO-SCIENTIFIQUE-PLURALISTE
     objet: "Le constat des contraintes physiques : contraignant sans être souverain"
     statut: oriente
-    tranche_par: auteur
-    lie_a: [A46, VETO-AGREGATION, MESURE-EXTERIEURE, REGLE-D-EMISSION]
+    tranche_par: non-tranche
+    lie_a: [A46, VETO-AGREGATION, MESURE-EXTERIEURE, REGLE-D-EMISSION, A47]
     decision: >
-      PRINCIPE ARRÊTÉ PAR L'AUTEUR LE 2026-09-09 : LA RÉALITÉ PHYSIQUE
-      DEMEURE CONTRAIGNANTE ; SON CONSTAT INSTITUTIONNEL reste MOTIVÉ,
-      DOCUMENTÉ, PLURALISTE, RÉVISABLE et susceptible d'un RECOURS
-      INDÉPENDANT. MESURE DU MODÈLE : organisme unique, UNE capture suffit
-      ; médiane, 3 ; prudente, 5 mais 3 refus à tort sur 5 ; MÉDIANE AVEC
-      RECOURS, 5 captures et AUCUN refus à tort — la capture partielle crée
-      la DIVERGENCE, qui saisit la mesure extérieure. RESTE OUVERT : la
-      collusion unanime ne diverge pas.
+      FORMULE PROPOSÉE LE 2026-09-09, NON ADOPTÉE PAR L'AUTEUR : la réalité
+      physique demeure contraignante, son constat institutionnel reste
+      motivé, documenté, pluraliste, révisable et attaquable. MESURE
+      CORRIGÉE, le recours ayant d'abord eu la valeur VRAIE par
+      construction : unique, 1 capture ; médiane, 3 ; prudente, 5 mais 3
+      refus à tort sur 5 ; MÉDIANE AVEC RECOURS, 2 SEULEMENT — un organisme
+      puis l'instrument saisi. Pluraliser le recours porte à 3. AUCUNE
+      RÈGLE N'EST GRATUITEMENT SUPÉRIEURE.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -556,14 +573,14 @@ pieces_de_conception_manquantes:
     tranche_par: non-tranche
     lie_a: [REGLE-D-EMISSION, F3, A44, MODELE-ADVERSAIRE, A46, VETO-SCIENTIFIQUE-PLURALISTE]
     decision: >
-      OUVERT LE 2026-09-09 PAR LE CAS 7. Un contrôle qui ne porte que sur
-      des DÉCLARATIONS ne détecte pas leur falsification : 500 détournés,
-      tous les contrôles au vert. CE N'EST PAS UNE IMPASSE MAIS UNE
-      NÉCESSITÉ — correction de l'auteur le même jour : LA CAPTURE NE
-      S'ÉLIMINE JAMAIS AVEC CERTITUDE, ELLE SE DÉTECTE ET SE RÉDUIT. Formes
-      nommées : données satellitaires, mesures indépendantes, traçabilité
-      des matières, audits aléatoires, pluralité des experts, publication,
-      alerte, recours.
+      OUVERT LE 2026-09-09 PAR LE CAS 7, PRÉCISÉ LE MÊME JOUR. Un contrôle
+      qui ne porte que sur des DÉCLARATIONS ne détecte pas leur
+      falsification : la mesure doit être extérieure. TROIS NIVEAUX :
+      contrôle interne immédiat avec SUSPENSION CONSERVATOIRE ; contrôle
+      INDÉPENDANT de conformité ; audit externe et RECOURS. Formes :
+      satellite, mesures indépendantes, traçabilité, audits aléatoires,
+      pluralité des experts, publication, alerte, recours. La capture se
+      DÉTECTE et se RÉDUIT, jamais ne s'élimine.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -645,7 +662,7 @@ pieces_de_conception_manquantes:
     objet: "Qui émet, combien, pour quoi, et avec quel pouvoir d'arrêt"
     statut: oriente
     tranche_par: non-tranche
-    lie_a: [A44, DEPARTAGE-ESSENTIELS, VETO-AGREGATION, CORRECTION-D-ERREUR, REVISION-SCIENTIFIQUE, PLAFOND-D-URGENCE, MESURE-EXTERIEURE, A46, VETO-SCIENTIFIQUE-PLURALISTE]
+    lie_a: [A44, DEPARTAGE-ESSENTIELS, VETO-AGREGATION, CORRECTION-D-ERREUR, REVISION-SCIENTIFIQUE, PLAFOND-D-URGENCE, MESURE-EXTERIEURE, A46, VETO-SCIENTIFIQUE-PLURALISTE, A47]
     decision: >
       OUVERT ET INSTRUIT LE 2026-09-09 ; VERSION 2 LE MÊME JOUR, après
       quatre corrections de l'auteur. CINQ POUVOIRS SÉPARÉS (A46), NEUF

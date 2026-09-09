@@ -179,10 +179,15 @@ dossier, un acte qu'elle a elle-même accompli — ce que S1 ne peut pas voir.
 **Les sept cas sont rejoués avec leur mécanisme, et les nombres sont ceux de la
 sortie.** Le veto projet par projet s'avère **trop permissif** — trois usages
 admis isolément demandent 105 de lithium pour 100. Le versement par tranches
-sauve **82 %** d'une erreur détectée tôt contre **30 %** détectée tard. Et sur la
-capture : **une règle à organisme unique tombe avec UNE capture ; la médiane avec
-recours en exige cinq sans refuser à tort un seul projet**, parce qu'une capture
-partielle crée de la divergence et que **la divergence est l'alarme**.
+sauve **82 %** d'une erreur détectée tôt contre **30 %** détectée tard.
+
+**Sur la capture, le résultat a été corrigé une fois de plus.** Le programme
+donnait d'abord au recours la valeur vraie de la simulation, ce qui lui prêtait
+une robustesse imaginaire. **Devenu un instrument avec son biais et son propre
+risque de capture, il tombe à deux captures** — un organisme, puis l'instrument
+saisi — **contre trois pour la simple médiane et cinq pour la règle prudente,
+qui refuse en revanche trois projets légitimes sur cinq.** Pluraliser le recours
+le remonte à trois. **Aucune règle n'est gratuitement supérieure.**
 
 **Ce qui reste ouvert est dit à chaque cas** : la collusion unanime ne diverge
 pas, le plafond d'urgence est un nombre politique, et aucun critère neutre ne

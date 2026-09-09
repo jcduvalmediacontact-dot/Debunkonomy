@@ -66,36 +66,68 @@ exiger(all(mot in m.PORTEE.get(p, "") for p, mot in attendus.items()),
 
 # =====================================================================
 print("")
-print("A bis. « ET SON PROPRE CONTRÔLE » — SECONDE EXIGENCE DE A46")
+print("A bis. AUTOCORRECTION PERMISE, AUTOCONTRÔLE INTERDIT")
 # =====================================================================
-propre = m.Dossier(m.PAR_CLE["eau"])
-for etat, par in (("physiquement_admissible", "mesurer"),
-                  ("politiquement_prioritaire", "prioriser"),
-                  ("financierement_programme", "calibrer"),
-                  ("verse_par_tranches", "calibrer")):
-    propre.passer_a(etat, par)
-propre.passer_a("controle", "controler")
-exiger(m.controler_autocontrole(propre) == [],
-       "sur la chaîne de référence, celui qui contrôle n'a rien accompli sur "
-       "le dossier")
+def dossier_verse(cle):
+    d = m.Dossier(m.PAR_CLE[cle])
+    for etat, par in (("physiquement_admissible", "mesurer"),
+                      ("politiquement_prioritaire", "prioriser"),
+                      ("financierement_programme", "calibrer"),
+                      ("verse_par_tranches", "calibrer")):
+        d.passer_a(etat, par)
+    return d
 
-double = m.Dossier(m.PAR_CLE["eau"])
-for etat, par in (("physiquement_admissible", "mesurer"),
-                  ("politiquement_prioritaire", "prioriser"),
-                  ("financierement_programme", "calibrer"),
-                  ("verse_par_tranches", "calibrer")):
-    double.passer_a(etat, par)
-double.passer_a("controle", "controler", institution="autorite-monetaire")
-auto = m.controler_autocontrole(double)
-exiger(auto != [] and m.controler_separation(m.CHAINE) == [],
-       "et S3 voit l'autorité qui a VERSÉ contrôler son propre acte PENDANT "
-       "QUE S1 NE VOIT RIEN : le non-cumul se lit sur l'organigramme, "
+
+# (a) SUSPENSION CONSERVATOIRE par l'autorité qui a versé : c'est de
+#     l'autocorrection, et l'interdire ferait durer l'erreur.
+a = dossier_verse("eau")
+a.recours = m.ORGANE_DE_RECOURS
+suspension = []
+a.passer_a("suspendu", "calibrer", niveau="interne", anomalies=suspension)
+a.passer_a("verse_par_tranches", "controler", niveau="conformite")
+a.passer_a("controle", "controler", niveau="conformite")
+a.passer_a("acheve", "controler", niveau="conformite")
+exiger(suspension == [],
+       "S2 admet la SUSPENSION CONSERVATOIRE par l'autorité qui a versé : "
+       "elle est une modalité de contrôle interne, pas une usurpation")
+exiger(m.controler_autocontrole(a) == [],
+       "et S3 ne la signale pas — INTERDIRE L'AUTOCONTRÔLE N'EST PAS "
+       "INTERDIRE L'AUTOCORRECTION")
+
+# (b) L'auteur du versement se contrôle lui-même ET clôt : interdit.
+b = dossier_verse("hopital")
+b.recours = m.ORGANE_DE_RECOURS
+b.passer_a("controle", "controler", institution="autorite-monetaire",
+           niveau="conformite")
+b.passer_a("acheve", "controler", institution="autorite-monetaire",
+           niveau="conformite")
+auto = m.controler_autocontrole(b)
+exiger(any("unique juge" in x for x in auto),
+       "S3 refuse un contrôle de conformité exercé par l'auteur de l'acte")
+exiger(any("DERNIER juge" in x for x in auto),
+       "et refuse que la CLÔTURE soit prononcée par lui")
+exiger(m.controler_separation(m.CHAINE) == [],
+       "PENDANT QUE S1 NE VOIT RIEN : le non-cumul se lit sur l'organigramme, "
        "l'auto-contrôle sur le dossier")
 
-for issue in ("suspendu", "recupere"):
-    exiger(issue in m.ETATS_DE_CONTROLE,
-           "« %s » compte comme un acte de contrôle : nul ne se suspend ni ne "
-           "se récupère soi-même" % issue)
+# (c) Contrôle indépendant, mais aucune voie de recours extérieure.
+c = dossier_verse("logement")
+c.passer_a("controle", "controler", niveau="conformite")
+c.passer_a("acheve", "controler", niveau="conformite")
+sans = m.controler_autocontrole(c)
+exiger(len(sans) == 1 and "recours" in sans[0],
+       "et S3 exige une voie de RECOURS extérieure, troisième niveau")
+
+d = dossier_verse("eau")
+d.recours = "autorite-monetaire"
+d.passer_a("controle", "controler", niveau="conformite")
+d.passer_a("acheve", "controler", niveau="conformite")
+exiger(any("déjà intervenue" in x for x in m.controler_autocontrole(d)),
+       "un recours tenu par une institution déjà intervenue n'en est pas un")
+
+exiger(len(m.NIVEAUX) == 3,
+       "les trois niveaux sont nommés : %s"
+       % ", ".join(n for n, _ in m.NIVEAUX))
 
 
 # =====================================================================
@@ -124,14 +156,18 @@ exiger(any("non prévu" in a for a in saut),
 usurpe = []
 f = m.Dossier(m.PAR_CLE["logement"])
 f.passer_a("physiquement_admissible", "qualifier", anomalies=usurpe)
-exiger(any("au lieu du pouvoir" in a for a in usurpe),
+exiger(any("alors que seul" in a for a in usurpe),
        "S2 refuse que l'autorité de QUALIFICATION déclare l'admissibilité "
        "PHYSIQUE : c'est la confusion que A46 interdit")
 
-exiger(all(m.TRANSITIONS[(a, b)] == "controler"
-           for a, b in m.TRANSITIONS if b in ("suspendu", "recupere")),
-       "et suspendre ou récupérer n'appartient QU'AU contrôle — jamais à qui "
-       "verse")
+exiger(all(m.TRANSITIONS[(a, b)] == ("controler",)
+           for a, b in m.TRANSITIONS if b == "recupere"),
+       "RÉCUPÉRER n'appartient qu'au contrôle : c'est un acte définitif")
+exiger(all("calibrer" in m.TRANSITIONS[(a, b)]
+           for a, b in m.TRANSITIONS if b == "suspendu"),
+       "mais SUSPENDRE est ouvert à l'autorité qui a versé — correction de "
+       "l'auteur : la suspension conservatoire est de l'autocorrection, et la "
+       "lui interdire ferait durer l'erreur")
 
 
 # =====================================================================
@@ -164,7 +200,7 @@ print("")
 print("D. (1) LA PLURALITÉ — CE QU'ELLE COÛTE ET CE QU'ELLE PROTÈGE")
 # =====================================================================
 seuil = m.FRONTIERES["carbone"]
-besoins = dict((r, m.captures_necessaires(vraie, seuil, r))
+besoins = dict((r, m.captures_necessaires(vraie, seuil, r)[0])
                for r in m.REGLES_DE_VETO)
 exiger(besoins["unique"] == 1,
        "une seule capture suffit sous la règle « unique » : c'est le pouvoir "
@@ -185,19 +221,52 @@ faux = dict((r, len([p for p in banc if not m.veto_physique(p, regle=r)[0]]))
 exiger(faux["prudente"] > 0,
        "la règle prudente en refuse %d à tort : sa robustesse a un prix"
        % faux["prudente"])
-exiger(besoins["mediane_avec_recours"] == besoins["prudente"]
-       and faux["mediane_avec_recours"] < faux["prudente"],
-       "et « mediane_avec_recours » DOMINE : %d captures comme la prudente, "
-       "%d refus à tort contre %d"
-       % (besoins["mediane_avec_recours"], faux["mediane_avec_recours"],
-          faux["prudente"]))
+exiger(faux["mediane_avec_recours"] < faux["prudente"],
+       "le recours ne refuse à tort aucun projet (%d contre %d pour la "
+       "prudente) — mais sa robustesse se paie ailleurs, voir D bis"
+       % (faux["mediane_avec_recours"], faux["prudente"]))
+exiger(besoins["mediane_avec_recours"] < besoins["prudente"],
+       "ET IL NE DOMINE PAS : %d captures suffisent contre %d pour la "
+       "prudente. AUCUNE RÈGLE N'EST GRATUITEMENT SUPÉRIEURE"
+       % (besoins["mediane_avec_recours"], besoins["prudente"]))
 
-partiel, _ = m.constat(vraie, "mediane_avec_recours", captes=("A", "B"))
-total, _ = m.constat(vraie, "mediane_avec_recours", captes=tuple(noms))
-exiger(abs(partiel - vraie) < 1e-9 and total < vraie,
-       "LA RAISON EST LA DIVERGENCE : une capture PARTIELLE la crée et "
-       "déclenche la mesure extérieure (%.0f) ; une capture UNANIME ne "
-       "diverge pas (%.0f) — la collusion reste le trou" % (partiel, total))
+
+# =====================================================================
+print("")
+print("D bis. LE RECOURS N'EST PAS UN ORACLE — CONTRÔLE DE MÉTHODE")
+# =====================================================================
+# Une simulation qui rendrait la valeur VRAIE au recours lui donnerait
+# gratuitement ce qu'aucun dispositif réel ne possède, et TOUTE conclusion
+# tirée de sa robustesse serait un artefact. Ce contrôle doit échouer si
+# quelqu'un remet un oracle dans le modèle.
+vals = [v for _, v in m.estimations(vraie, captes=("A",))]
+etendue = (max(vals) - min(vals)) / m.mediane(vals)
+exiger(etendue > m.SEUIL_DIVERGENCE,
+       "une capture partielle fait diverger les organismes (%.0f %%) et saisit "
+       "le recours" % (100 * etendue))
+saisi, motif = m.constat(vraie, "mediane_avec_recours", captes=("A",))
+exiger(abs(saisi - vraie) > 1e-9,
+       "ET LE RECOURS SAISI NE REND PAS LA VALEUR VRAIE (%.1f contre %.0f) : "
+       "il a son biais propre, comme tout instrument" % (saisi, vraie))
+exiger("mesure physique directe" in motif,
+       "son apport est nommé — %s : une information indépendante de la "
+       "déclaration du porteur ET des modèles des organismes" % motif)
+
+capte, _ = m.constat(vraie, "mediane_avec_recours",
+                     captes=("A", "satellite"))
+exiger(capte < vraie,
+       "et il est LUI-MÊME CAPTURABLE (%.0f) : le recours déplace le point de "
+       "défaillance, il ne le supprime pas" % capte)
+
+k_unique, cibles = m.captures_necessaires(vraie, seuil, "mediane_avec_recours")
+k_pluriel, _ = m.captures_necessaires(vraie, seuil, "recours_pluriel")
+exiger(k_unique < len(m.ORGANISMES),
+       "AVEC UN INSTRUMENT RÉEL, « mediane_avec_recours » tombe à %d captures "
+       "(%s) — le résultat publié à cinq était un artefact de l'oracle"
+       % (k_unique, ", ".join(cibles)))
+exiger(k_pluriel > k_unique,
+       "et pluraliser le recours le rétablit en partie : %d captures contre %d"
+       % (k_pluriel, k_unique))
 
 
 # =====================================================================
