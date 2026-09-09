@@ -149,14 +149,14 @@ arbitrages:
     tranche_par: auteur
     lie_a: [REGLE-D-EMISSION, MESURE-EXTERIEURE, VETO-SCIENTIFIQUE-PLURALISTE]
     decision: >
-      ARBITRÉ LE 2026-09-09 : CINQ POUVOIRS SÉPARÉS, ET AUCUNE INSTITUTION
-      NE LES CUMULE. (1) MESURER les contraintes physiques ; (2) QUALIFIER
-      les besoins essentiels ; (3) PRIORISER démocratiquement ; (4)
-      CALIBRER et VERSER ; (5) CONTRÔLER, SUSPENDRE ET JUGER. MOTIF : le
-      cas 7 montre qu'une autorité qui mesure, qualifie et verse n'a besoin
-      de tromper personne — il lui suffit de se déclarer. Aucune ne doit
-      pouvoir modifier seule la mesure, la priorité, le versement et le
-      contrôle.
+      VALIDÉ PAR L'AUTEUR LE 2026-09-09. CINQ FONCTIONS SÉPARÉES : (1)
+      MESURE SCIENTIFIQUE des ressources, pressions physiques, limites
+      écologiques ET INCERTITUDES ; (2) QUALIFICATION des projets et des
+      besoins essentiels ; (3) PRIORITÉ DÉMOCRATIQUE entre les projets
+      admissibles ; (4) CALIBRAGE du montant, du rythme et des tranches ;
+      (5) CONTRÔLE, SUSPENSION, CORRECTION, RÉCUPÉRATION ET RECOURS. AUCUNE
+      AUTORITÉ NE CUMULE la mesure, la qualification, la priorité,
+      l'émission ET SON PROPRE CONTRÔLE.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -453,19 +453,19 @@ falsifieurs:
 
 pieces_de_conception_manquantes:
   - id: VETO-SCIENTIFIQUE-PLURALISTE
-    objet: "Rendre la contrainte physique contraignante sans rendre les experts souverains"
-    statut: ouvert
-    tranche_par: non-tranche
+    objet: "Le constat des contraintes physiques : contraignant sans être souverain"
+    statut: oriente
+    tranche_par: auteur
     lie_a: [A46, VETO-AGREGATION, MESURE-EXTERIEURE, REGLE-D-EMISSION]
     decision: >
-      OUVERT LE 2026-09-09 PAR L'AUTEUR. LA CONTRAINTE PHYSIQUE ne se vote
-      pas ; SON CONSTAT est incertain, révisable, attaquable. RÉSULTAT DU
-      MODÈLE : sous la règle « unique » UNE capture suffit ; la médiane en
-      exige 3 ; la PRUDENTE résiste aux 5 mais refuse à tort 3 projets sur
-      5. LA MÉDIANE AVEC RECOURS DOMINE — 5 captures, AUCUN refus à tort —
-      parce qu'une capture PARTIELLE crée de la DIVERGENCE et que la
-      divergence saisit la mesure extérieure. TROU : la collusion unanime
-      ne diverge pas.
+      PRINCIPE ARRÊTÉ PAR L'AUTEUR LE 2026-09-09 : LA RÉALITÉ PHYSIQUE
+      DEMEURE CONTRAIGNANTE ; SON CONSTAT INSTITUTIONNEL reste MOTIVÉ,
+      DOCUMENTÉ, PLURALISTE, RÉVISABLE et susceptible d'un RECOURS
+      INDÉPENDANT. MESURE DU MODÈLE : organisme unique, UNE capture suffit
+      ; médiane, 3 ; prudente, 5 mais 3 refus à tort sur 5 ; MÉDIANE AVEC
+      RECOURS, 5 captures et AUCUN refus à tort — la capture partielle crée
+      la DIVERGENCE, qui saisit la mesure extérieure. RESTE OUVERT : la
+      collusion unanime ne diverge pas.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 

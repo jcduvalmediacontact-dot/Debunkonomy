@@ -31,9 +31,19 @@ rédaction.
   (4) F3 N'EST PAS VALIDÉ EMPIRIQUEMENT. Le cas 7 établit une VULNÉRABILITÉ
       LOGIQUE à la manipulation d'un indicateur déclaré. Pas une observation.
 
-CINQ POUVOIRS SÉPARÉS — A46, arbitré par l'auteur. MESURER, QUALIFIER,
-PRIORISER, CALIBRER ET VERSER, CONTRÔLER ET JUGER. Aucune institution ne les
-cumule, et le contrôle S1 le vérifie.
+CINQ FONCTIONS SÉPARÉES — A46, VALIDÉ PAR L'AUTEUR LE 2026-09-09, dans sa
+formulation : MESURE SCIENTIFIQUE des ressources, pressions physiques, limites
+écologiques et INCERTITUDES ; QUALIFICATION des projets et des besoins
+essentiels ; PRIORITÉ DÉMOCRATIQUE entre les projets admissibles ; CALIBRAGE du
+montant, du rythme et des TRANCHES ; CONTRÔLE, SUSPENSION, CORRECTION,
+RÉCUPÉRATION ET RECOURS.
+
+ET LE PRINCIPE PORTE DEUX EXIGENCES, NON UNE. « Aucune autorité ne cumule la
+mesure, la qualification, la priorité, l'émission ET SON PROPRE CONTRÔLE. » Le
+NON-CUMUL se lit sur l'organigramme et le contrôle S1 le vérifie. L'INTERDICTION
+DE S'AUTO-CONTRÔLER se lit sur le DOSSIER : cinq institutions distinctes
+peuvent exister et l'une d'elles contrôler, sur un dossier donné, un acte
+qu'elle a elle-même accompli. C'est le contrôle S3, et S1 ne le voit pas.
 
 NEUF ÉTATS SUCCESSIFS. proposé, physiquement admissible, politiquement
 prioritaire, financièrement programmé, versé par tranches, contrôlé, achevé —
@@ -123,6 +133,19 @@ CHAINE = [
     ("audit-et-juridiction", ("controler",)),
 ]
 
+# La portée de chaque fonction, dans les termes de l'auteur.
+PORTEE = {
+    "mesurer": "ressources, pressions physiques, limites écologiques et "
+               "INCERTITUDES",
+    "qualifier": "les projets ET les besoins essentiels",
+    "prioriser": "entre les projets ADMISSIBLES, démocratiquement",
+    "calibrer": "le montant, le rythme et les TRANCHES",
+    "controler": "contrôle, suspension, correction, récupération et RECOURS",
+}
+
+TITULAIRE = dict((p, nom) for nom, pouvoirs in CHAINE for p in pouvoirs)
+ETATS_DE_CONTROLE = ("controle", "suspendu", "recupere")
+
 
 def controler_separation(chaine):
     """S1 — aucune institution ne cumule deux pouvoirs, et les cinq sont
@@ -140,6 +163,31 @@ def controler_separation(chaine):
     for p in POUVOIRS:
         if p not in vus:
             anomalies.append("[S1] aucun titulaire pour « %s »" % p)
+    return anomalies
+
+
+def controler_autocontrole(dossier):
+    """S3 — NUL NE CONTRÔLE SON PROPRE ACTE.
+
+    S1 regarde l'organigramme et n'y voit rien d'anormal tant que cinq
+    institutions distinctes existent. S3 regarde LE DOSSIER : si l'institution
+    qui contrôle, suspend ou récupère est celle qui a instruit, qualifié,
+    priorisé ou versé sur ce même dossier, la cinquième fonction s'exerce sur
+    elle-même. C'est la seconde exigence de A46, et elle est distincte de la
+    première.
+    """
+    anomalies = []
+    for k, (avant, apres, pouvoir, institution, _) in enumerate(
+            dossier.journal):
+        if apres not in ETATS_DE_CONTROLE:
+            continue
+        for a2, p2, pouvoir2, inst2, _ in dossier.journal[:k]:
+            if inst2 == institution:
+                anomalies.append(
+                    "[S3] %s : « %s » contrôle (%s → %s) un acte qu'elle a "
+                    "elle-même accompli (%s → %s)"
+                    % (dossier.projet.cle, institution, avant, apres, a2, p2))
+                break
     return anomalies
 
 
@@ -173,7 +221,11 @@ class Dossier(object):
         self.etat = "propose"
         self.journal = []
 
-    def passer_a(self, etat, par, motif="", anomalies=None):
+    def passer_a(self, etat, par, motif="", anomalies=None, institution=None):
+        """« institution » peut différer du titulaire de référence : c'est
+        ainsi qu'une délégation, un détachement ou une double casquette se
+        représentent — et c'est ce que S3 attrape."""
+        institution = TITULAIRE.get(par) if institution is None else institution
         attendu = TRANSITIONS.get((self.etat, etat))
         if anomalies is not None:
             if attendu is None:
@@ -184,7 +236,7 @@ class Dossier(object):
                                  "du pouvoir « %s »"
                                  % (self.projet.cle, self.etat, etat, par,
                                     attendu))
-        self.journal.append((self.etat, etat, par, motif))
+        self.journal.append((self.etat, etat, par, institution, motif))
         self.etat = etat
 
 
@@ -458,7 +510,8 @@ def separation():
     print("A46 — LES CINQ POUVOIRS, ET CE QUE LEUR CUMUL PRODUIT")
     print("=" * 78)
     for nom, pouvoirs in CHAINE:
-        print("  %-28s %s" % (nom, ", ".join(pouvoirs)))
+        for p in pouvoirs:
+            print("  %-28s %-11s %s" % (nom, p, PORTEE[p]))
     saines = controler_separation(CHAINE)
     print("")
     print("  contrôle S1 sur la chaîne séparée : %s"
@@ -476,7 +529,30 @@ def separation():
     print("  C'EST LA CONFIGURATION DU CAS 7 DE LA VERSION 1, et le contrôle")
     print("  la voit désormais — non par la SORTIE du dispositif, qui restait")
     print("  verte, mais PAR LA STRUCTURE DE L'INSTITUTION ELLE-MÊME.")
-    return {"saine": len(saines), "cumul": len(anomalies)}
+
+    # « ET SON PROPRE CONTRÔLE » — seconde exigence, et S1 n'y suffit pas.
+    d = Dossier(PAR_CLE["eau"])
+    for etat, par in (("physiquement_admissible", "mesurer"),
+                      ("politiquement_prioritaire", "prioriser"),
+                      ("financierement_programme", "calibrer"),
+                      ("verse_par_tranches", "calibrer")):
+        d.passer_a(etat, par)
+    d.passer_a("controle", "controler", institution="autorite-monetaire")
+    auto = controler_autocontrole(d)
+    print("")
+    print("  LA SECONDE EXIGENCE DE A46 — « ET SON PROPRE CONTRÔLE ». Cinq")
+    print("  institutions distinctes existent, S1 ne voit donc RIEN (%d)"
+          % len(controler_separation(CHAINE)))
+    print("  — et pourtant, sur ce dossier, c'est l'autorité qui a versé qui")
+    print("  contrôle. S3 regarde LE DOSSIER et le voit :")
+    for a in auto:
+        print("    %s" % a)
+    print("")
+    print("  NON-CUMUL ET AUTO-CONTRÔLE SONT DEUX EXIGENCES, PAS UNE. La")
+    print("  première se lit sur l'organigramme, la seconde sur le dossier.")
+    print("  Un dispositif peut satisfaire l'une et violer l'autre.")
+    return {"saine": len(saines), "cumul": len(anomalies),
+            "autocontrole": len(auto)}
 
 
 def processus():
@@ -496,7 +572,8 @@ def processus():
         d.passer_a(etat, par, anomalies=anomalies)
     print("  chemin nominal   propose → %s" % " → ".join(x for x, _ in chemin))
     print("  issues défavorables : suspendu, recupere — par « controler » seul")
-    print("  anomalies : %s" % (anomalies or "aucune"))
+    print("  anomalies S2 : %s" % (anomalies or "aucune"))
+    print("  anomalies S3 : %s" % (controler_autocontrole(d) or "aucune"))
 
     mauvais = []
     e = Dossier(PAR_CLE["hopital"])

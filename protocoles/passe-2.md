@@ -6183,12 +6183,35 @@ ait vu juste ou non.
 logique**, non une observation. La formulation retenue est « vulnérabilité
 instruite, cas théorique défavorable établi ».
 
-### A46 — CINQ POUVOIRS SÉPARÉS, ARBITRÉ PAR L'AUTEUR
+### A46 — CINQ FONCTIONS SÉPARÉES, VALIDÉ PAR L'AUTEUR LE 2026-09-09
 
-**MESURER** les contraintes physiques ; **QUALIFIER** les besoins essentiels ;
-**PRIORISER** démocratiquement ; **CALIBRER ET VERSER** ; **CONTRÔLER, SUSPENDRE
-ET JUGER**. **Aucune institution ne cumule ces cinq fonctions**, et aucune ne
-peut modifier seule la mesure, la priorité, le versement et le contrôle.
+**Dans sa formulation, qui est plus large que la première rédaction du corpus :**
+
+1. **MESURE SCIENTIFIQUE** des ressources, pressions physiques, limites
+   écologiques **et incertitudes** ;
+2. **QUALIFICATION** des **projets** et des besoins essentiels ;
+3. **PRIORITÉ DÉMOCRATIQUE** entre les projets **admissibles** ;
+4. **CALIBRAGE** du montant, du rythme et des **tranches** de l'émission ;
+5. **CONTRÔLE, SUSPENSION, CORRECTION, RÉCUPÉRATION ET RECOURS.**
+
+**« Aucune autorité ne peut cumuler la mesure physique, la qualification, la
+priorité, l'émission ET SON PROPRE CONTRÔLE. »**
+
+**CETTE DERNIÈRE CLAUSE PORTE UNE SECONDE EXIGENCE, ET LE MODÈLE NE LA
+CONTRÔLAIT PAS.** Le non-cumul se lit sur l'**organigramme** : cinq institutions,
+une fonction chacune — c'est le contrôle S1. **L'interdiction de s'auto-contrôler
+se lit sur le DOSSIER.** Cinq institutions distinctes peuvent exister, et l'une
+d'elles contrôler, sur un dossier donné, un acte qu'elle a elle-même accompli —
+par délégation, détachement ou double casquette. **S1 ne voit alors rien.** Le
+contrôle **S3** a été ajouté pour cela : il parcourt le journal du dossier et
+refuse que celui qui contrôle, suspend ou récupère soit celui qui a mesuré,
+qualifié, priorisé ou versé. **Un dispositif peut satisfaire l'une des deux
+exigences et violer l'autre.**
+
+**Et la réalité physique demeure contraignante ; son constat institutionnel reste
+motivé, documenté, pluraliste, révisable et susceptible d'un recours
+indépendant** — principe arrêté le même jour, enregistré sous
+`VETO-SCIENTIFIQUE-PLURALISTE`, dont le modèle mesure la variante dominante.
 
 **Le contrôle S1 le vérifie sur la structure**, et c'est le point : la version 1
 cherchait la capture dans la SORTIE du dispositif, qui restait verte. **La

@@ -170,9 +170,11 @@ version 1 étaient fausses, et fausses dans le même sens — celui de
 l'impuissance : « le cas 7 ne se répare pas » et « une émission sans dette n'a
 aucune reprise ». **Un corpus qui cherche les échecs peut aussi en inventer.**
 
-**Cinq pouvoirs séparés** — mesurer, qualifier, prioriser, calibrer et verser,
-contrôler et juger — **neuf états**, et deux contrôles de structure : S1 voit le
-cumul des pouvoirs, S2 voit un passage exercé par le mauvais.
+**Cinq fonctions séparées** — mesure scientifique, qualification, priorité
+démocratique, calibrage, contrôle et recours — **neuf états**, et trois
+contrôles. **S1** voit le cumul des pouvoirs sur l'organigramme ; **S2** voit un
+passage exercé par le mauvais ; **S3** voit une institution contrôler, sur un
+dossier, un acte qu'elle a elle-même accompli — ce que S1 ne peut pas voir.
 
 **Les sept cas sont rejoués avec leur mécanisme, et les nombres sont ceux de la
 sortie.** Le veto projet par projet s'avère **trop permissif** — trois usages

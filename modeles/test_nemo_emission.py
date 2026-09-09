@@ -54,6 +54,49 @@ exiger(any("aucun titulaire" in a for a in m.controler_separation(
        "et S1 voit aussi un pouvoir sans titulaire : la séparation n'est pas "
        "qu'une interdiction de cumul")
 
+# La portée arrêtée par l'auteur est plus large que celle que le programme
+# portait : elle nomme les INCERTITUDES, les PROJETS, les TRANCHES, le RECOURS.
+attendus = {"mesurer": "INCERTITUDES", "qualifier": "projets",
+            "prioriser": "ADMISSIBLES", "calibrer": "TRANCHES",
+            "controler": "RECOURS"}
+exiger(all(mot in m.PORTEE.get(p, "") for p, mot in attendus.items()),
+       "la portée des cinq fonctions est celle arrêtée par l'auteur : "
+       "incertitudes, projets, admissibles, tranches, recours")
+
+
+# =====================================================================
+print("")
+print("A bis. « ET SON PROPRE CONTRÔLE » — SECONDE EXIGENCE DE A46")
+# =====================================================================
+propre = m.Dossier(m.PAR_CLE["eau"])
+for etat, par in (("physiquement_admissible", "mesurer"),
+                  ("politiquement_prioritaire", "prioriser"),
+                  ("financierement_programme", "calibrer"),
+                  ("verse_par_tranches", "calibrer")):
+    propre.passer_a(etat, par)
+propre.passer_a("controle", "controler")
+exiger(m.controler_autocontrole(propre) == [],
+       "sur la chaîne de référence, celui qui contrôle n'a rien accompli sur "
+       "le dossier")
+
+double = m.Dossier(m.PAR_CLE["eau"])
+for etat, par in (("physiquement_admissible", "mesurer"),
+                  ("politiquement_prioritaire", "prioriser"),
+                  ("financierement_programme", "calibrer"),
+                  ("verse_par_tranches", "calibrer")):
+    double.passer_a(etat, par)
+double.passer_a("controle", "controler", institution="autorite-monetaire")
+auto = m.controler_autocontrole(double)
+exiger(auto != [] and m.controler_separation(m.CHAINE) == [],
+       "et S3 voit l'autorité qui a VERSÉ contrôler son propre acte PENDANT "
+       "QUE S1 NE VOIT RIEN : le non-cumul se lit sur l'organigramme, "
+       "l'auto-contrôle sur le dossier")
+
+for issue in ("suspendu", "recupere"):
+    exiger(issue in m.ETATS_DE_CONTROLE,
+           "« %s » compte comme un acte de contrôle : nul ne se suspend ni ne "
+           "se récupère soi-même" % issue)
+
 
 # =====================================================================
 print("")
