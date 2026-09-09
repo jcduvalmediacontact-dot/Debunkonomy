@@ -46,8 +46,11 @@ verifications_en_attente:
      été activée depuis 1987. **Ce qui peut ne pas être public, ce sont les
      MODALITÉS CONTRACTUELLES INDIVIDUELLES et certaines limites propres à
      chaque accord** — fourchette par participant, clauses de sortie,
-     conditions de révocation. **Le corpus ne les tient pas, et une matrice qui
-     modéliserait finement le marché des échanges en aurait besoin.**"
+     clauses individuelles de DURÉE, de SUSPENSION ou de SORTIE. **Le corpus ne
+     les tient pas, et une matrice qui modéliserait finement le marché des
+     échanges en aurait besoin.** **Et tant qu'il ne les tient pas, il ne peut
+     rien dire de la portée juridique de l'engagement : ni qu'il oblige, ni
+     qu'il n'oblige pas.**"
   - "**LA MATRICE N'A NI INTÉRÊT NI HORIZON, ET LA NORME FONDE LE PASSIF SUR LES
      DEUX.** Le § 12.49 [S1] motive le passif d'allocation par une obligation de
      remboursement **ET** par le fait qu'un intérêt court. **Un modèle qui ne
@@ -139,7 +142,13 @@ renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08,
 
 ::etat:: **ET LE RAPPORT ANNUEL DU FONDS DÉPLACE LE POIDS DES TROIS SCÉNARIOS** [S3]. La désignation — le mécanisme statutaire dont ce chapitre modélise le plafond — **n'a plus été activée depuis 1987 et demeure précautionnelle**. Ce qui sert la liquidité en régime ordinaire, ce sont **quarante et un accords volontaires**, dont les capacités agrégées atteignaient au 31 août 2025 **environ deux cent deux milliards de droits de tirage spéciaux à l'achat et cent soixante-dix à la vente**.
 
-::etat:: **CELA NE RETIRE RIEN AU PLAFOND ; CELA DIT OÙ IL AGIT.** **Le premier scénario n'est donc pas le moins important : c'est le seul qui décrive le fonctionnement observé.** **Et il repose sur des accords RÉVOCABLES, non sur une obligation** — ce qui déplace la question de la liquidité du droit vers le comportement des participants, et la fait sortir du périmètre d'une matrice comptable.
+::etat:: **CELA NE RETIRE RIEN AU PLAFOND ; CELA DIT OÙ IL AGIT.** **Le premier scénario n'est donc pas le moins important : c'est le SEUL CANAL INSTITUTIONNEL correspondant au fonctionnement observé.** **Mais son montant et ses autres paramètres restent illustratifs et non calibrés** — le canal correspond à la pratique, les chiffres ne la mesurent pas.
+
+::etat:: **ET IL FAUT TROIS QUALIFICATIONS DISTINCTES, LÀ OÙ UNE RÉDACTION ANTÉRIEURE N'EN METTAIT QUE DEUX.** **L'ACCORD VOLONTAIRE** est un engagement contractuel dans des limites convenues, **dont les conditions précises de sortie restent à établir**. **LA DÉSIGNATION** est une obligation statutaire conditionnelle, activée par le Fonds pour certains participants. **ET AU-DELÀ DU PLAFOND**, la fourniture reste possible sans être due [S2, § 4(b)].
+
+::etat:: **CE QUE LE CORPUS NE PEUT PAS ÉCRIRE, ET L'AVAIT ÉCRIT.** **La liquidité ordinaire repose sur des accords bilatéraux conclus volontairement, mais susceptibles de créer des engagements dans leurs limites convenues. Le corpus ne tient pas leurs clauses individuelles de durée, de suspension ou de sortie.** **Le rapport mentionne des périodes de notification et la possibilité qu'un accord prenne fin ; il n'établit pas que ces accords soient librement ou unilatéralement révocables** [S3]. **Le caractère volontaire porte au minimum sur l'ADHÉSION ; la portée juridique de l'engagement n'est pas établie par les passages acquis.**
+
+::etat:: **ET L'OPPOSITION « DROIT CONTRE COMPORTEMENT » EST RETIRÉE.** **La liquidité ordinaire repose CONJOINTEMENT sur un cadre contractuel, sur des capacités financières, sur la coordination du Fonds et sur le comportement effectif des participants.** Aucun de ces quatre termes ne se réduit aux trois autres.
 
 ::etat:: **LE RÉSULTAT DE CE DÉCOUPAGE EST INSTRUCTIF.** En fonctionnement normal, la demande courante est servie. **Ce qui borne ensuite n'est pas la règle mais la ressource** : l'échange volontaire a déjà déplacé les devises vers le demandeur, et la capacité effective — le minimum du plafond de règle et des devises encore détenues — tombe à zéro alors que la règle en autoriserait davantage. **La contrainte effective est le stock de devises des autres participants, non le plafond.**
 

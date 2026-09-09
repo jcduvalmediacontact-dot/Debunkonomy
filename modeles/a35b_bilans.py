@@ -884,7 +884,8 @@ BRANCHES = [
         pertes="les participants, par le dispositif statutaire",
         conception_juridique=JUR_A + [
             "le mécanisme de désignation, ses plafonds et ses exemptions",
-            "les accords d'échange volontaire, et leur caractère révocable",
+            "les accords d'échange volontaire, et leurs clauses de "
+            "durée, de suspension et de sortie",
             "le régime des intérêts sur l'écart avoirs / allocation"],
         compatibilite_juridique=JUR_B + [
             "l'articulation avec le département qui tient les comptes, et "

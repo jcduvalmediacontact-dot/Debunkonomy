@@ -5484,19 +5484,37 @@ mécanisme que le modèle plafonne** : « *these plans have not been activated a
 remained precautionary SINCE 1987* ».
 
 **CE QUE CELA CHANGE POUR LA LECTURE DES TROIS SCÉNARIOS.** La désignation est un
-**dernier ressort dormant depuis près de quarante ans**. Ce qui sert la liquidité
-en régime ordinaire, ce sont des **accords révocables**, non une obligation.
-**Le premier scénario — le fonctionnement normal — est donc le seul qui décrive
-l'observé**, et il fait dépendre la liquidité d'un comportement, non d'un droit.
-**Cela sort du périmètre d'une matrice comptable, et il faut le dire plutôt que
-de le modéliser.**
+**dernier ressort dormant depuis près de quarante ans**. **Le premier scénario —
+le fonctionnement normal — est donc le SEUL CANAL INSTITUTIONNEL correspondant à
+la pratique observée** ; **son montant et ses autres paramètres restent
+illustratifs et non calibrés.**
+
+**ET UNE PREMIÈRE RÉDACTION AVAIT SURQUALIFIÉ LA SOURCE.** Elle écrivait
+« accords révocables, non une obligation », et faisait passer la liquidité « du
+droit au comportement ». **Le rapport n'établit ni l'un ni l'autre** : il décrit
+des accords bilatéraux par lesquels les participants acceptent d'acheter et de
+vendre dans certaines limites, mentionne des périodes de notification et la
+possibilité qu'un accord prenne fin, **et ne dit rien de la portée juridique de
+l'engagement pendant sa durée.** **Le caractère volontaire porte au minimum sur
+l'ADHÉSION.**
+
+**TROIS QUALIFICATIONS DISTINCTES, ET ELLES NE SE CONFONDENT PAS.** L'ACCORD
+VOLONTAIRE : engagement contractuel dans des limites convenues, conditions de
+sortie à établir. LA DÉSIGNATION : obligation statutaire conditionnelle, activée
+par le Fonds pour certains participants. AU-DELÀ DU PLAFOND : fourniture
+volontaire possible.
+
+**ET LA LIQUIDITÉ ORDINAIRE REPOSE CONJOINTEMENT** sur un cadre contractuel, des
+capacités financières, la coordination du Fonds et le comportement effectif des
+participants. **Aucun de ces quatre termes ne se réduit aux trois autres.**
 
 ### CE QUI RESTE NON SOURCÉ, ET DOIT LE RESTER
 
 **Les modalités contractuelles individuelles des accords** — fourchette par
-participant, clauses de sortie, conditions de révocation. Les données publiques
+participant, clauses de DURÉE, de SUSPENSION et de SORTIE. Les données publiques
 agrégées existent ; ces clauses-là peuvent ne pas être publiques, et le corpus ne
-les tient pas.
+les tient pas. **Tant qu'il ne les tient pas, il ne peut rien conclure sur la
+portée juridique de l'engagement : ni qu'il oblige, ni qu'il n'oblige pas.**
 
 **Les passifs constructifs du § 4.102** ne sont pas représentés : le modèle exige
 un instrument explicite, ce qui peut le rendre **plus sévère que la norme**.

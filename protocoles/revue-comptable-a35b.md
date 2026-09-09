@@ -104,12 +104,17 @@ traitement suppose-t-il des éléments que notre modèle omet ?**
   un accords, capacités d'achat et de vente d'environ 202 et 170 milliards de
   droits de tirage spéciaux au 31 août 2025, et une désignation qui n'a plus été
   activée depuis 1987. **Ce que nous n'avons pas, ce sont les modalités
-  contractuelles individuelles** : fourchette par participant, clauses de
-  sortie, conditions de révocation.
-- **Et cela porte sur votre jugement** : la liquidité observée d'un instrument
-  de ce type repose sur des accords **révocables**, non sur l'obligation
-  statutaire que nous modélisons. **Est-ce une raison de traiter la capacité de
-  désignation comme un plancher, ou au contraire de ne pas s'y fier ?**
+  contractuelles individuelles** : fourchette par participant, clauses de durée,
+  de suspension et de sortie. **Nous ne pouvons donc rien affirmer de la portée
+  juridique de l'engagement pendant la durée d'un accord.**
+
+**QUESTION 6 — DU PLAFOND INDIVIDUEL À LA CAPACITÉ DE SECOURS.** Notre formule
+donne un **plafond individuel d'acceptation**, et rien de plus : **ce n'est pas
+un plancher de liquidité**, et une rédaction antérieure le suggérait à tort.
+**Comment passer du plafond statutaire individuel à une capacité de secours
+juridiquement exigible et opérationnellement mobilisable, compte tenu du plan
+annuel de désignation, des critères d'éligibilité, des montants attribués et des
+réserves disponibles ?**
 - **Aucun comportement économique.** Le modèle **impose par paramètre** qui est
   redevable, puis retrouve ce qu'il a imposé. **Il n'établit donc aucune
   incidence économique**, et rien de ce qu'il affiche ne doit être lu comme telle.
