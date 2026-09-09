@@ -31,13 +31,14 @@ verifications_en_attente:
      coût social total, sous quel risque macroéconomique et avec quelle qualité
      de gouvernance. **Le corpus ne tient aucune de ces cinq grandeurs, pour
      aucun instrument.** **ACQUISITION DE RANG 1.**"
-  - "**LE MOT « RÉALISABLE » PORTE UNE DIFFICULTÉ QUI N'EST PAS TRANCHÉE.** Un
-     portefeuille peut être techniquement possible et politiquement hors
-     d'atteinte. **Si l'on retient ce qui est POLITIQUEMENT réalisable, la
-     comparaison se fait contre un adversaire affaibli par des obstacles que le
-     dispositif rencontrerait aussi.** **Si l'on retient ce qui est TECHNIQUEMENT
-     possible, elle se fait contre un adversaire idéal que personne n'a jamais
-     assemblé.** **Le choix décide du résultat, et il appartient à l'auteur.**"
+  - "**LA RÈGLE DE « RÉALISABLE » EST ARRÊTÉE LE 2026-09-09, ET ELLE APPELLE
+     UN TRAVAIL QUI N'EST PAS FAIT.** Même délai de mise en place, effort
+     juridique, institutionnel et administratif comparable, capacités
+     administratives comparables — **et DEUX résultats produits séparément**,
+     contre le système effectivement disponible et contre le meilleur
+     portefeuille techniquement possible. **Aucun des deux portefeuilles n'est
+     construit**, et le second demande un jugement sur ce qui est techniquement
+     possible que le corpus n'a nulle part."
   - "**LE COÛT PROPRE DU DISPOSITIF N'EST PAS ÉVALUÉ, ET UNE SOURCE LE DÉSIGNE
      COMME DÉCISIF.** L18.C29 rapporte que les transferts fiscaux écologiques
      sont jugés moins coûteux en transaction que les paiements pour services
@@ -93,9 +94,15 @@ renvois: [L1.C15, L10.C06, L11.C30, L13.C01, L18.C26, L18.C27, L18.C29, L18.C30,
 
 ::hypothese:: **CONDITION D'ÉCHEC RÉCIPROQUE, DU MÊME JOUR** [S1] :
 
-> **Si un portefeuille réalisable d'instruments existants atteint le même résultat à coût et risque égaux ou inférieurs, l'avantage comparatif de NEMO n'est pas établi. Si NEMO ne l'atteint qu'en franchissant les contraintes inflationnistes, extérieures, physiques ou distributives, il échoue également.**
+> **Si un portefeuille institutionnellement réalisable atteint le même résultat DANS LE MÊME DÉLAI, avec un coût social total et un risque macroéconomique ÉGAUX OU INFÉRIEURS, et une QUALITÉ DE GOUVERNANCE AU MOINS ÉQUIVALENTE, l'avantage comparatif de NEMO IMS n'est pas établi. Si NEMO n'atteint ce résultat qu'en franchissant les contraintes inflationnistes, extérieures, physiques ou distributives, il échoue également.**
+
+::etat:: **LES DEUX CONDITIONS PORTENT DÉSORMAIS LES MÊMES CINQ DIMENSIONS** — résultat, délai, coût social total, risque macroéconomique, qualité de gouvernance. **La première version de la condition d'échec en omettait deux, ce qui la rendait plus facile à franchir que la condition de démonstration à satisfaire : le dispositif aurait pu échouer au test positif sans jamais tomber sous le test négatif.** **Corrigé le 2026-09-09 sur arbitrage de l'auteur.**
 
 ::etat:: **CE QUE CETTE FORME CHANGE, ET IL FAUT LE NOMMER.** **La comparaison ne porte plus sur les MÊMES ACTIVITÉS au MÊME VOLUME**, ce qui imposait une identité presque impossible et immunisait le dispositif. **Elle porte sur un RÉSULTAT écologique et social défini, atteint dans un même délai.** **Et l'échec est possible des DEUX CÔTÉS** : par égalisation, ou par franchissement des contraintes.
+
+::etat:: **LA RÈGLE DE « RÉALISABLE » EST ARRÊTÉE, ET ELLE EST SYMÉTRIQUE** [S1] : **comparer le dispositif à des solutions pouvant être mises en place DANS LE MÊME DÉLAI, avec un EFFORT JURIDIQUE, INSTITUTIONNEL ET ADMINISTRATIF COMPARABLE, et des CAPACITÉS ADMINISTRATIVES COMPARABLES.** **Ni un adversaire affaibli par des obstacles que le dispositif ne rencontrerait pas, ni un adversaire idéal qu'aucune institution ne pourrait assembler.**
+
+::etat:: **ET DEUX RÉSULTATS DOIVENT ÊTRE PRODUITS SÉPARÉMENT** [S1] : **la comparaison avec LE SYSTÈME EFFECTIVEMENT DISPONIBLE**, et **la comparaison avec LE MEILLEUR PORTEFEUILLE TECHNIQUEMENT POSSIBLE.** **Les confondre en un seul chiffre effacerait la différence entre ce qui manque au dispositif et ce qui manque au monde.**
 
 ::hypothese:: **LE TEST A DONC CHANGÉ D'OBJET.** **Il ne demande plus si le dispositif est NÉCESSAIRE — question qu'aucune expérience ne tranche — mais s'il a un AVANTAGE COMPARATIF, ce qui se mesure.** **C'est une exigence plus faible en apparence et plus dure en pratique**, parce qu'elle oblige à construire l'adversaire au lieu de le supposer absent.
 
@@ -139,4 +146,4 @@ renvois: [L1.C15, L10.C06, L11.C30, L13.C01, L18.C26, L18.C27, L18.C29, L18.C30,
 
 ::etat:: **Il ne construit pas le portefeuille de comparaison.** **Le corpus ne tient, pour aucun instrument de financement, ni le volume mobilisé, ni le délai, ni le coût social total, ni le risque macroéconomique, ni la qualité de gouvernance.** **Et le mot « réalisable » porte une difficulté non tranchée** : un portefeuille politiquement réalisable est un adversaire affaibli par des obstacles que le dispositif rencontrerait aussi ; un portefeuille techniquement possible est un adversaire que personne n'a jamais assemblé.
 
-::etat:: **Et il ne tranche pas la nature du passif.** **A35 arbitre le PORTEUR — l'émetteur, et non la société, qui en supporte l'incidence économique** [L10.C06]. **A35b, ouvert, porte la nature de ce passif, son exigibilité, sa contrepartie à l'actif, son extinction, le traitement d'un reflux insuffisant, et ce que le détenteur peut réclamer.** **Le troisième énoncé de ce chapitre en dépend entièrement.**
+::etat:: **Et il ne tranche pas la nature du passif.** **A35 arbitre le PORTEUR — l'émetteur, et non la société, qui en supporte l'incidence économique** [L10.C06]. **ET CET ARBITRAGE EST UNE RÈGLE DE CONCEPTION, NON UNE QUALIFICATION COMPTABLE VALIDÉE** : pour qu'un passif existe, il faut une OBLIGATION PRÉSENTE de l'émetteur envers le détenteur ou un tiers, **et c'est A35b qui doit l'identifier.** **À défaut, le mot « passif » se révélerait impropre.** **A35b, ouvert, porte la nature de ce passif, son exigibilité, sa contrepartie à l'actif, son extinction, le traitement d'un reflux insuffisant, et ce que le détenteur peut réclamer.** **Le troisième énoncé de ce chapitre en dépend entièrement.**

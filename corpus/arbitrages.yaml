@@ -94,9 +94,10 @@ arbitrages:
       ARBITRÉ EN DEUX TEMPS. L'INCIDENCE ÉCONOMIQUE du reflux est portée par
       l'ensemble de la société — arbitrage antérieur, dont L10.C06 a corrigé le
       2026-09-07 qu'il décrit l'incidence et NON le porteur. LE PORTEUR est
-      arbitré le 2026-09-09 : l'unité émise est un PASSIF DE L'ÉMETTEUR. C'est
-      ce que la nomenclature de l'auteur appelle A35a ; l'identifiant A35 est
-      conservé, une trentaine de fichiers le citant dont un titre de chapitre.
+      arbitré le 2026-09-09 : l'unité est inscrite au PASSIF DE L'ÉMETTEUR.
+      RÈGLE DE CONCEPTION, NON QUALIFICATION COMPTABLE VALIDÉE : A35b doit
+      identifier l'OBLIGATION PRÉSENTE qui la justifie, faute de quoi le mot
+      « passif » sera réexaminé. Identifiant A35 conservé — c'est A35a.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L1.C29, L19.C05, L20.C24, L20.C26, L11.C09]
     maj: 2026-09-09

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-09-09
 autorite: preparatoire
 citable: false
 regime: conception
@@ -51,6 +51,14 @@ verifications_en_attente:
      participants collectivement — **il n'a pas de fonds propres négatifs, mais la
      décote redevient un transfert exigeant une compétence fiscale.** **AUCUNE
      COMBINAISON N'EST FAVORABLE, ET C'EST A37 QUI DÉCIDE.**"
+  - "**LE § 6 A PORTÉ UNE CONTRADICTION JUSQU'AU 2026-09-09, ET ELLE EST FERMÉE
+     PAR ANNOTATION.** Il énonçait que « la dette est portée par l'ensemble de la
+     société » puis corrigeait deux lignes plus loin qu'il s'agit de l'incidence
+     économique. **L'annotation finale distingue désormais l'INCIDENCE, portée
+     par la société, et le PASSIF, inscrit à l'émetteur par décision de
+     conception.** **Et elle déclare que cette inscription n'est pas une
+     qualification comptable validée : A35b doit identifier l'obligation présente
+     qui la justifie.**"
 resume: "Ce chapitre enregistre l'arbitrage rendu par l'auteur sur la question ouverte au chapitre précédent, celle de savoir qui porte la dette collective, et il en tire trois conséquences dont deux étaient inattendues. L'auteur répond que la dette est portée par l'ensemble de la société, qu'elle ne suit pas le mécanisme de la dette individuelle puisque la rentabilité n'est pas compatible avec la régénération, et que son reflux passe par des fontes graduées selon l'impact de la consommation, le choix étant laissé aux agents. La première conséquence est favorable et elle lève l'obstacle qui bloquait quatre chapitres, puisqu'une dette portée par la société entière n'est pas une créance sur le secteur public, de sorte que la définition-balai du règlement ne l'atteint pas. Le chapitre relève que l'échappatoire du vingtième livre se trouve ainsi rétablie, mais sur un motif meilleur que celui qu'elle invoquait, l'obstacle n'étant pas l'absence d'instrument mais l'absence de débiteur. La deuxième conséquence est défavorable et elle est textuelle, puisque la norme sur les produits énonce qu'une intention de lever un prélèvement n'est pas un événement passé donnant naissance à un actif, de sorte que le flux futur de fontes ne peut pas figurer à l'actif de l'émetteur. La troisième est structurelle, l'arbitrage faisant sortir le dispositif du droit du financement monétaire pour le faire entrer dans une architecture fiscale, ce qui déplace la question du secteur public de l'actif vers le prélèvement et fait apparaître une compétence que le corpus n'a jamais établie."
 concepts: [reflux_collectif, contrepartie_comptable, essentiel_insolvable, monnaie_fondante, demurrage, reflux_transactionnel, degeneratif]
 renvois: [L1.C15, L1.C20, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L11.C05, L11.C07, L11.C09, L18.C01, L18.C05, L20.C02, L19.C03]
@@ -127,6 +135,10 @@ renvois: [L1.C15, L1.C20, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L11.C05, L
 ## 6. Portée
 
 ::etat:: **A35 est arbitré, et il retient le second terme : la dette est portée par l'ensemble de la société**, refluée par des fontes graduées selon l'impact, **le motif étant que « la rentabilité n'est pas compatible avec la régénération ».**
+
+::etat:: **ANNOTATION FINALE DU 2026-09-09, ET ELLE FERME LA CONTRADICTION QUE CE PARAGRAPHE PORTAIT.** **L'ensemble de la société supporte L'INCIDENCE ÉCONOMIQUE du reflux.** **Par décision de conception du 2026-09-09, l'unité doit être inscrite AU PASSIF DE L'ÉMETTEUR.** **La nature de l'obligation correspondante, les droits du détenteur, la contrepartie et l'extinction restent ouverts dans A35b.**
+
+::etat:: **ET CETTE INSCRIPTION EST UNE RÈGLE DE CONCEPTION, NON UNE QUALIFICATION COMPTABLE VALIDÉE.** **Pour qu'un passif existe, il faut une OBLIGATION PRÉSENTE de l'émetteur envers le détenteur ou un tiers.** **A35b doit l'identifier.** **Si aucune obligation n'est définie, la qualification devra être réexaminée, et le mot « passif » pourrait se révéler impropre.**
 
 ::etat:: **L'OBSTACLE JURIDIQUE N'EST PAS LEVÉ : IL DEVIENT CONDITIONNEL.** Le chapitre l'avait déclaré levé, en déduisant de « la société entière porte cette dette » qu'aucun débiteur n'existe. **Corrigé le 2026-09-07** : « aucun débiteur individuel identifié » et « aucune obligation opposable à une entité » sont deux propositions différentes, **et A35 décrit l'incidence économique, non le porteur en droit.**
 
