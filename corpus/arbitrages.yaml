@@ -287,6 +287,7 @@ falsifieurs:
     objet: "La superfluité"
     statut: ouvert
     tranche_par: non-tranche
+    lie_a: [OPERATIONNALISATION-INSOLVABLE]
     decision: >
       DÉPLACÉ TROIS FOIS : ce que le dispositif doit justifier n'est pas le
       barème mais son AJOUT PROPRE. L'argument est écrit le 2026-09-09 (L1.C31)
@@ -428,6 +429,23 @@ pieces_de_conception_manquantes:
       Les méthodes couplant limites planétaires et analyse de cycle de vie, et
       la consommation matérielle pondérée par l'impact environnemental. TROIS
       chapitres réclament la même littérature.
+
+  - id: OPERATIONNALISATION-INSOLVABLE
+    objet: "Comment éprouver le concept d'essentiel insolvable"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [F10]
+    decision: >
+      COMMANDE DE CONCEPTION OUVERTE : L'INSCRIPTION NE VAUT PAS VALIDATION.
+      Cinq critères arrêtés le 2026-09-09 : non-circularité, démarcation,
+      non-redondance élargie, transférabilité, quatre conditions de vacuité. Un
+      financement par l'impôt, le don ou le bénévolat NE RÉFUTE PAS le concept.
+      L'ÉPREUVE EMPIRIQUE EST CONSERVÉE, son ordre fixé : définir, constituer
+      des cas, faire classer par des tiers, documenter les désaccords, PUIS
+      mesurer. La mesure décide de F10.
+    texte: protocoles/validation-essentiel-insolvable.md
+    chapitres: [L1.C06, L1.C15, L1.C31]
+    maj: 2026-09-09
 
   - id: MODELE-ADVERSAIRE
     objet: "Qui gagne quoi à falsifier une qualification régénérative"

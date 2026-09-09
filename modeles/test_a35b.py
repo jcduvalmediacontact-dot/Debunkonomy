@@ -15,8 +15,9 @@ parfaite.**
 D'où la séparation en sections :
 
   A. IDENTITÉS — ce ne sont pas des hypothèses. Un bilan s'équilibre, un encours
-     a sa contrepartie, et le passif total égale la somme des avoirs de tous les
-     détenteurs À CHAQUE ÉTAPE. Les sabotages vérifient qu'elles s'appliquent.
+     a sa contrepartie, et le TOTAL DES PASSIFS REPRÉSENTATIFS DE L'UNITÉ, quel
+     qu'en soit le porteur, égale le total des avoirs chez les détenteurs, À
+     CHAQUE ÉTAPE. Les sabotages vérifient qu'elles s'appliquent.
 
   B. CRÉANCIER DYNAMIQUE — un instrument transférable change de créancier avec
      son détenteur. Vérifié sur les branches où l'unité passe de main en main.
@@ -28,7 +29,11 @@ D'où la séparation en sections :
   D. LIQUIDITÉ — au pic, et par scénario séparé. Le stress à cent pour cent
      n'est jamais présenté comme l'état ordinaire.
 
-  E. A36 — deux mécanismes distincts, et le collecteur ne décide que de la
+  E. R4 — la conception juridique À PRODUIRE et la compatibilité À ÉVALUER
+     sont deux choses. Une institution prospective écrit son droit constitutif,
+     mais elle ne peut pas ignorer les ordres juridiques existants.
+
+  F. A36 — deux mécanismes distincts, et le collecteur ne décide que de la
      PREMIÈRE DESTINATION des unités : l'emploi ultérieur décide de l'encours.
 
 USAGE :  python modeles/test_a35b.py
@@ -114,7 +119,8 @@ def s_avoirs_orphelins(b):
     return E
 
 
-exiger([a for a in arith(B2, s_avoirs_orphelins) if "identité créancier" in a],
+exiger([a for a in arith(B2, s_avoirs_orphelins)
+        if "passifs représentatifs" in a],
        "des avoirs sans passif en face rompent l'identité, ET ELLE EST "
        "CONTRÔLÉE À CHAQUE ÉTAPE")
 exiger(not arith(B2), "la branche intacte ne rompt aucune identité")
@@ -131,8 +137,17 @@ exiger(len(det10) == 2,
        "B10 : deux banques centrales détiennent l'unité à la fin (%s)"
        % ", ".join("%s %d" % x for x in det10))
 exiger(m.passif_total(B10, fin10) == sum(v for _, v in det10),
-       "et le passif de l'émetteur égale la SOMME de leurs encours, non celui "
-       "d'un créancier désigné")
+       "et le total des passifs représentatifs égale la SOMME de leurs "
+       "encours, non celui d'un créancier désigné")
+
+# L'invariant ne parle pas du « passif de l'émetteur » : dans B11 le passif est
+# inscrit chez CHAQUE MEMBRE RECEVEUR, et l'énoncé doit rester vrai là aussi.
+_, chr11_inv, _ = m.passer(B11)
+exiger(B11.passif_chez == "receveur"
+       and m.passif_total(B11, chr11_inv[-1][1])
+       == sum(v for _, v in m.detenteurs(chr11_inv[-1][1])),
+       "et l'invariant tient AUSSI quand le porteur du passif n'est pas "
+       "l'émetteur : le vocabulaire ne doit pas dire « passif de l'émetteur »")
 
 vus = set()
 for _, inst in chrono10:
@@ -202,14 +217,26 @@ liq11 = m.liquidite(B11, chrono11)
 exiger(liq11["type"] == "participants" and len(liq11["scenarios"]) == 3,
        "B11 publie TROIS scénarios séparés, et non une mesure unique")
 normal, plafond, stress = liq11["scenarios"]
-exiger(normal[1] <= normal[3],
+exiger(normal["valeur"] <= normal["ressource"],
        "en fonctionnement normal, la demande courante est servie (%d contre %d)"
-       % (normal[1], normal[3]))
-exiger(stress[1] > normal[1],
+       % (normal["valeur"], normal["ressource"]))
+exiger(stress["valeur"] > normal["valeur"],
        "la ruée demande davantage (%d) que le fonctionnement normal (%d), et "
-       "elle est étiquetée comme un STRESS" % (stress[1], normal[1]))
-exiger(plafond[2] is not None,
-       "le plafond statutaire est publié à part, avec sa règle")
+       "elle est étiquetée comme un STRESS"
+       % (stress["valeur"], normal["valeur"]))
+
+# LE POINT CORRIGÉ LE 2026-09-09 : un plafond de désignation est une CAPACITÉ
+# d'acceptation, jamais une demande. Une version antérieure le portait dans la
+# colonne des demandes et concluait à un « manque ».
+exiger(plafond["genre"] == "capacite",
+       "le plafond de désignation est traité comme une CAPACITÉ, non comme une "
+       "demande")
+exiger(normal["genre"] == "demande" and stress["genre"] == "demande",
+       "et les deux autres scénarios sont bien des demandes")
+exiger(plafond["effective"] == min(plafond["valeur"], plafond["ressource"]),
+       "la capacité effective est le MINIMUM du plafond de règle (%d) et des "
+       "devises encore détenues (%d) : la ressource borne, non la règle"
+       % (plafond["valeur"], plafond["ressource"]))
 exiger(m.PLAFOND_DESIGNATION_SOURCE is False,
        "et le facteur du plafond est déclaré NON SOURCÉ, faute d'avoir pu "
        "ouvrir les documents du Fonds")
@@ -220,7 +247,26 @@ exiger(m.liquidite(B2, chrono2)["type"] == "sans_objet",
 
 # =====================================================================
 print("")
-print("E. A36 — deux mécanismes, et l'emploi décide de l'encours")
+print("E. R4 — conception juridique et compatibilité sont deux choses")
+# =====================================================================
+exiger(all(b.conception_juridique and b.compatibilite_juridique
+           for b in m.BRANCHES),
+       "chaque branche déclare SÉPARÉMENT ce qu'elle doit produire et ce à quoi "
+       "elle doit se confronter")
+exiger(set(m.JUR_A).isdisjoint(set(m.JUR_B)),
+       "les deux listes ne se recouvrent pas : créer son droit constitutif "
+       "n'est pas se conformer à un droit existant")
+exiger(any("RETRAIT" in e or "LIQUIDATION" in e for e in m.JUR_A),
+       "la conception à produire couvre le retrait et la liquidation, que la "
+       "version précédente omettait")
+exiger(any("traités" in e for e in m.JUR_B),
+       "et la compatibilité vise les traités en vigueur, qu'une institution "
+       "prospective ne peut pas ignorer")
+
+
+# =====================================================================
+print("")
+print("F. A36 — deux mécanismes, et l'emploi décide de l'encours")
 # =====================================================================
 exiger(m.PRELEVEMENT != m.DEMURRAGE and m.ASSIETTE_DEMURRAGE != m.D,
        "deux assiettes et deux montants distincts : transaction %d/%d, "

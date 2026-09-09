@@ -1,6 +1,6 @@
 ---
 chapitre: L19.C10
-titre: "Cinq résultats séparés, et deux seulement sont calculés"
+titre: "Six résultats séparés, et un seul est calculé sans condition"
 livre: 19
 langue: fr
 licence: CC-BY-SA-4.0
@@ -45,6 +45,13 @@ verifications_en_attente:
      porte ni l'un ni l'autre ne peut éprouver ni ce motif ni la solvabilité
      intertemporelle**, et c'est pourquoi le quatrième résultat est déclaré non
      évaluable plutôt que calculé."
+  - "**R2 EST CALCULÉ, MAIS IL N'EST PAS CALIBRÉ, ET LES DEUX NE SE
+     CONFONDENT PAS.** Montant émis, montant dépensé, taux du prélèvement et du
+     démurrage, volume de l'échange volontaire, devises détenues par les autres
+     participants, facteur du plafond de désignation : **aucun de ces repères ne
+     provient d'une source.** **Changer un seul change le résultat de liquidité**,
+     et il ne faut donc jamais citer un chiffre de R2 sans les paramètres qui
+     l'ont produit."
   - "**LES QUATORZE BRANCHES NE SONT PAS L'ESPACE DES BRANCHES POSSIBLES.**
      **Une branche qui n'est pas écrite n'est pas rejetée : elle est absente.**
      Le résultat est conditionnel à l'énumération et aux règles retenues, et il
@@ -60,12 +67,12 @@ verifications_en_attente:
      transactionnel est fiscal, parafiscal ou de réseau. **La matrice montre que
      ce choix déplace les unités perçues, et que leur emploi ultérieur décide de
      l'encours final** ; elle ne peut trancher ni l'un ni l'autre."
-resume: "Ce chapitre livre la première pièce exécutable du corpus, et il livre aussi le récit de ses deux corrections, la matrice ayant été réfutée deux fois par l'auteur le jour même de son écriture. La première version rendait un verdict unique par branche, et deux de ses règles de rejet étaient fausses, la plus grave traitant une insuffisance d'actifs comme une inexistence de passif alors qu'une dette impayable reste une dette, la seconde mesurant la couverture d'une promesse de conversion sur le bilan final alors qu'une obligation stipulée à tout moment se contrôle au pic. La deuxième version corrigeait ces deux fautes mais en laissait quatre autres. Elle mêlait encore calcul et qualification en écrivant qu'un élément était reconnu comme passif alors que le programme vérifiait seulement que des étiquettes étaient renseignées. Elle écartait la structure collective de type droit de tirage spécial au motif que le débiteur du droit d'échange serait collectif, alors que chaque membre est le débiteur déterminé de sa propre allocation et que la norme reconnaît explicitement ce traitement. Elle figeait un créancier unique dans une fiche, alors que la qualité de créancier migre avec un instrument transférable. Et elle concluait que le collecteur du prélèvement décidait de l'extinction, alors qu'il ne décide que de la première destination des unités perçues, leur emploi ultérieur décidant de l'encours final. La version corrigée rend cinq résultats séparés dont deux seulement sont calculés. La cohérence arithmétique est calculée, et elle inclut l'identité selon laquelle le passif total égale la somme des avoirs de tous les détenteurs, contrôlée à chaque étape. La liquidité est calculée au pic, et par scénarios séparés lorsque l'instrument est servi par d'autres participants, le fonctionnement normal, le plafond statutaire et la ruée générale étant publiés distinctement, le troisième étant un stress et non l'état ordinaire. La qualification comptable est seulement proposée, sous réserve d'une lecture de la norme et de la validité juridique d'obligations dont aucune n'existe dans un texte. La solvabilité intertemporelle est déclarée non évaluable, et la conformité juridique non évaluée. Le chapitre se clôt sur une note de revue destinée à un comptable national, aucun modèle macroéconomique ne devant être entrepris avant elle."
+resume: "Ce chapitre livre la première pièce exécutable du corpus, et il livre aussi le récit de ses deux corrections, la matrice ayant été réfutée deux fois par l'auteur le jour même de son écriture. La première version rendait un verdict unique par branche, et deux de ses règles de rejet étaient fausses, la plus grave traitant une insuffisance d'actifs comme une inexistence de passif alors qu'une dette impayable reste une dette, la seconde mesurant la couverture d'une promesse de conversion sur le bilan final alors qu'une obligation stipulée à tout moment se contrôle au pic. La deuxième version corrigeait ces deux fautes mais en laissait quatre autres. Elle mêlait encore calcul et qualification en écrivant qu'un élément était reconnu comme passif alors que le programme vérifiait seulement que des étiquettes étaient renseignées. Elle écartait la structure collective de type droit de tirage spécial au motif que le débiteur du droit d'échange serait collectif, alors que chaque membre est le débiteur déterminé de sa propre allocation et que la norme reconnaît explicitement ce traitement. Elle figeait un créancier unique dans une fiche, alors que la qualité de créancier migre avec un instrument transférable. Et elle concluait que le collecteur du prélèvement décidait de l'extinction, alors qu'il ne décide que de la première destination des unités perçues, leur emploi ultérieur décidant de l'encours final. La version corrigée rend six résultats séparés dont un seul est calculé sans condition. La cohérence arithmétique est calculée, et elle inclut l'identité selon laquelle le passif total égale la somme des avoirs de tous les détenteurs, contrôlée à chaque étape. La liquidité est calculée au pic, et par scénarios séparés lorsque l'instrument est servi par d'autres participants, le fonctionnement normal, le plafond statutaire et la ruée générale étant publiés distinctement, le troisième étant un stress et non l'état ordinaire. La qualification comptable est seulement proposée, sous réserve d'une lecture de la norme et de la validité juridique d'obligations dont aucune n'existe dans un texte. La solvabilité intertemporelle est déclarée non évaluable. Et la conformité juridique est scindée en deux, parce qu'une institution prospective écrit son droit constitutif et ne peut pourtant pas ignorer les ordres juridiques dans lesquels elle devra être reconnue : la conception à produire d'un côté, la compatibilité à évaluer de l'autre. Le chapitre se clôt sur une note de revue destinée à un comptable national, aucun modèle macroéconomique ne devant être entrepris avant elle."
 concepts: [contrepartie_comptable, creation_monetaire, reflux_collectif, reflux_transactionnel, demurrage]
 renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08, L19.C09]
 ---
 
-# Cinq résultats séparés, et deux seulement sont calculés
+# Six résultats séparés, et un seul est calculé sans condition
 
 ::etat:: **L'arbitrage A35b reste ouvert, et ce chapitre ne le referme pas.** Il livre l'instrument qui permettra de le trancher — `modeles/a35b_bilans.py` — et **le récit de ses deux réfutations, le jour même de son écriture.**
 
@@ -75,15 +82,17 @@ renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08,
 
 ## 1. Ce qui est calculé, et ce qui est seulement proposé
 
-::etat:: **R1a — COHÉRENCE ARITHMÉTIQUE. CALCULÉE.** Équilibre par secteur à chaque opération ; miroirs des encours croisés ; somme des variations de situation nette nulle à chaque flux ; et **l'identité centrale, contrôlée à chaque étape** : *passif total de l'émetteur égale la somme des avoirs de tous les détenteurs*. **Ce sont des identités. Elles ne se discutent pas.**
+::etat:: **R1a — COHÉRENCE ARITHMÉTIQUE. CALCULÉE, ET SANS CONDITION.** Équilibre par secteur à chaque opération ; miroirs des encours croisés ; somme des variations de situation nette nulle à chaque flux ; et **l'identité centrale, contrôlée à chaque étape** : *le total des passifs représentatifs de l'unité, QUEL QU'EN SOIT LE PORTEUR, égale le total des avoirs chez les détenteurs*. **La formule ne dit pas « passif de l'émetteur », et c'est délibéré : dans l'architecture collective le passif est inscrit chez chaque membre receveur, et l'énoncé doit y rester vrai.** **Ce sont des identités. Elles ne se discutent pas.**
 
 ::hypothese:: **R1b — QUALIFICATION COMPTABLE. PROPOSÉE, NON CALCULÉE.** Le programme constate que des éléments sont renseignés et que la créance suit son détenteur. **Il ne peut pas établir qu'un élément EST un passif** : cela suppose une lecture de la norme et la validité juridique d'obligations dont **aucune n'existe dans un texte**. **Le programme n'écrit jamais « reconnu comme passif » ; il écrit « proposition, non établie ici ».**
 
-::etat:: **R2 — LIQUIDITÉ. CALCULÉE, au pic et par scénario.**
+::etat:: **R2 — LIQUIDITÉ. CALCULÉE, MAIS CONDITIONNELLE.** Le calcul est exact ; **ce qu'il calcule dépend entièrement de paramètres déclarés et non calibrés** — montant émis, montant dépensé, taux des deux mécanismes de reflux, volume de l'échange volontaire, devises détenues par les autres participants, et facteur du plafond de désignation, **ce dernier non sourcé**. **R2 ne dit donc pas si le dispositif serait liquide : il dit ce qui suit des repères qu'on lui a donnés.**
 
 ::etat:: **R3 — SOLVABILITÉ INTERTEMPORELLE. NON ÉVALUABLE.** Un cycle unique, sans intérêt ni horizon.
 
-::etat:: **R4 — CONFORMITÉ JURIDIQUE. NON ÉVALUÉE.** Chaque branche déclare seulement ce qu'elle exigerait.
+::etat:: **R4a — CONCEPTION JURIDIQUE À PRODUIRE.** Droits du détenteur, obligations de l'émetteur et leur fait générateur, gouvernance de l'émission, retrait d'un participant, liquidation et rang des détenteurs, immunités, règlement des différends. **Une institution prospective écrit son droit constitutif : personne ne le lui fournira, et aucun de ces textes n'existe.**
+
+::etat:: **R4b — COMPATIBILITÉ JURIDIQUE À ÉVALUER. NON ÉVALUÉE.** Traités en vigueur, capacité d'une banque centrale à détenir l'unité, cours légal, contrôle des changes, normes comptables, droits régionaux. **Écrire son propre droit n'exempte pas d'être reconnu dans ceux qui existent, et la confusion des deux plans était une faute de la version précédente.**
 
 ::etat:: **LA SÉPARATION EST LE RÉSULTAT PRINCIPAL DE CE CHAPITRE.** Une branche peut être **arithmétiquement cohérente et illiquide** ; elle peut l'être **et sa qualification rester à examiner**. **Confondre ces plans est ce qui a produit les fautes des deux premières versions.**
 
@@ -107,7 +116,9 @@ renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08,
 
 ::etat:: **ET POUR UN INSTRUMENT SERVI PAR D'AUTRES PARTICIPANTS, UNE MESURE UNIQUE NE VEUT RIEN DIRE.** Trois scénarios sont publiés **séparément** : le **fonctionnement normal** selon les accords disponibles ; le **plafond statutaire** que la règle autoriserait ; et la **ruée** où tous les détenteurs demandent à la fois. **Le troisième est un stress, et il ne doit jamais être présenté comme l'état ordinaire de liquidité de l'instrument.**
 
-::etat:: **LE RÉSULTAT DE CE DÉCOUPAGE EST INSTRUCTIF.** En fonctionnement normal, la demande courante est servie. **Ce qui borne ensuite n'est pas la règle mais la ressource** : l'échange volontaire a déjà déplacé les devises vers le demandeur, et le plafond statutaire n'a plus rien à mobiliser. **La contrainte effective est le stock de devises des autres participants, non le plafond.**
+::etat:: **ET UN PLAFOND DE DÉSIGNATION EST UNE CAPACITÉ, JAMAIS UNE DEMANDE.** Une version antérieure le portait dans la colonne des demandes et concluait à un « manque » : on comparait une capacité à une ressource comme si c'était un besoin. **La règle dit ce qu'un participant peut être TENU d'accepter ; elle ne crée pas les devises qu'il faudrait remettre.**
+
+::etat:: **LE RÉSULTAT DE CE DÉCOUPAGE EST INSTRUCTIF.** En fonctionnement normal, la demande courante est servie. **Ce qui borne ensuite n'est pas la règle mais la ressource** : l'échange volontaire a déjà déplacé les devises vers le demandeur, et la capacité effective — le minimum du plafond de règle et des devises encore détenues — tombe à zéro alors que la règle en autoriserait davantage. **La contrainte effective est le stock de devises des autres participants, non le plafond.**
 
 ## 5. A36 : le collecteur décide de la destination, l'emploi décide de l'encours
 

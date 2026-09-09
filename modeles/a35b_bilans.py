@@ -9,7 +9,11 @@ CE QUE CE PROGRAMME CALCULE, ET CE QU'IL NE FAIT QUE PROPOSER.
   R1a  COHÉRENCE ARITHMÉTIQUE — CALCULÉE. Les identités de bilan, les miroirs
        des encours croisés, la somme des situations nettes, et l'identité
        centrale contrôlée À CHAQUE ÉTAPE :
-           passif total de l'émetteur = somme des avoirs de TOUS les détenteurs.
+           total des passifs représentatifs de l'unité, QUEL QU'EN SOIT LE
+           PORTEUR = total des avoirs correspondants chez les détenteurs.
+       Le porteur n'est pas toujours l'émetteur : dans une architecture de type
+       droit de tirage spécial, le passif est inscrit chez CHAQUE MEMBRE
+       RECEVEUR. Parler du « passif de l'émetteur » y serait faux.
        Ce sont des identités. Elles ne se discutent pas.
 
   R1b  QUALIFICATION COMPTABLE — PROPOSÉE, NON CALCULÉE. Le programme constate
@@ -19,16 +23,29 @@ CE QUE CE PROGRAMME CALCULE, ET CE QU'IL NE FAIT QUE PROPOSER.
        obligations déclarées, dont aucune n'est vérifiée ici.** Le résultat est
        une PROPOSITION soumise à un comptable national.
 
-  R2   LIQUIDITÉ — CALCULÉE, au pic et par scénario. Pour un instrument servi
-       par d'autres participants, trois scénarios SÉPARÉS : fonctionnement
-       normal, plafond statutaire, ruée à cent pour cent. **Le troisième est un
+  R2   LIQUIDITÉ — CALCULÉE, MAIS CONDITIONNELLE. Le calcul est exact ; ce
+       qu'il calcule dépend entièrement de paramètres déclarés et non calibrés :
+       montant émis, montant dépensé, taux des deux mécanismes de reflux,
+       volume de l'échange volontaire, devises détenues par les autres
+       participants, et facteur du plafond de désignation — ce dernier NON
+       SOURCÉ. Changer un seul de ces repères change le résultat. **R2 ne dit
+       donc pas si le dispositif serait liquide : il dit ce qui suit des
+       paramètres qu'on lui a donnés.** Pour un instrument servi par d'autres
+       participants, trois scénarios SÉPARÉS : fonctionnement normal, capacité
+       résiduelle de désignation, ruée à cent pour cent. **Le troisième est un
        stress, jamais l'état ordinaire.**
 
   R3   SOLVABILITÉ INTERTEMPORELLE — NON ÉVALUABLE. Un seul cycle, sans intérêt
        ni horizon.
 
-  R4   CONFORMITÉ JURIDIQUE — NON ÉVALUÉE. Chaque branche déclare ce qu'elle
-       exigerait.
+  R4a  CONCEPTION JURIDIQUE À PRODUIRE — une institution prospective écrit son
+       droit constitutif : droits, obligations, gouvernance, retrait,
+       liquidation, immunités, règlement des différends. Aucun de ces textes
+       n'existe.
+
+  R4b  COMPATIBILITÉ JURIDIQUE À ÉVALUER — mais elle ne peut pas ignorer les
+       ordres juridiques dans lesquels elle devra être reconnue et fonctionner :
+       traités, droits nationaux et régionaux, normes comptables.
 
 TROIS CORRECTIONS DE L'AUTEUR, LE 2026-09-09, APRÈS LA VERSION 2.
 
@@ -152,7 +169,8 @@ class Branche(object):
     def __init__(self, cle, titre, circulation, inscription, allocation,
                  beneficiaire, obligation, passif_chez, compte_passif,
                  droit_attache, servi_par, exigibilite, extinction, pertes,
-                 exigences_juridiques, souscription=0, collecteur="INST",
+                 conception_juridique, compatibilite_juridique,
+                 souscription=0, collecteur="INST",
                  emploi_collecte=None, contrib_detenteur=0):
         self.cle, self.titre = cle, titre
         self.circulation = circulation
@@ -171,7 +189,8 @@ class Branche(object):
         self.exigibilite = exigibilite          # "a_vue", "sans_decaissement"
         self.extinction = extinction
         self.pertes = pertes
-        self.exigences_juridiques = exigences_juridiques
+        self.conception_juridique = conception_juridique
+        self.compatibilite_juridique = compatibilite_juridique
 
 
 # ---------------------------------------------------------------------
@@ -455,6 +474,9 @@ def detenteurs(inst):
 
 
 def passif_total(b, inst):
+    """Le total des passifs représentatifs de l'unité, QUEL QU'EN SOIT LE
+    PORTEUR : l'émetteur dans les architectures A35a, chaque membre receveur
+    dans l'architecture collective."""
     if b.passif_chez == "receveur":
         return sum(inst[s].get((ALLOC, PASSIF), 0) for s, _ in SECTEURS)
     return inst["INST"].get((EMISES, PASSIF), 0)
@@ -499,14 +521,19 @@ def passer(b):
                              "situations nettes varie de %+d"
                              % (i, e.libelle, dsn))
         # L'IDENTITÉ CENTRALE, contrôlée à CHAQUE étape et non à la fin :
-        # le passif total doit égaler la somme des avoirs de TOUS les
-        # détenteurs. C'est ainsi que la qualité de créancier migre.
+        # le TOTAL DES PASSIFS REPRÉSENTATIFS DE L'UNITÉ, quel qu'en soit le
+        # porteur, doit égaler le TOTAL DES AVOIRS chez les détenteurs. Le
+        # porteur est l'émetteur dans les architectures A35a, et CHAQUE MEMBRE
+        # RECEVEUR dans l'architecture collective. C'est ainsi que la qualité
+        # de créancier migre.
         pt = passif_total(b, bilans)
         det = sum(v for _, v in detenteurs(bilans))
         if pt != det:
             anomalies.append(
-                "[R1a] opération %d : passif total %d, avoirs détenus %d — "
-                "l'identité créancier/débiteur est rompue" % (i, pt, det))
+                "[R1a] opération %d : passifs représentatifs %d, avoirs "
+                "détenus %d — l'identité entre le total inscrit au passif, "
+                "quel qu'en soit le porteur, et le total détenu est rompue"
+                % (i, pt, det))
         chrono.append(("%d. %s" % (i, e.libelle), _copie(bilans)))
 
     for s, _ in SECTEURS:
@@ -618,22 +645,36 @@ def liquidite(b, chrono):
 
         avant = chrono[1][1] if len(chrono) > 1 else chrono[0][1]
         fin = chrono[-1][1]
+        # LE PLAFOND DE DÉSIGNATION EST UNE CAPACITÉ D'ACCEPTATION, PAS UNE
+        # DEMANDE. Une version antérieure le portait dans la colonne des
+        # demandes, ce qui n'avait aucun sens : on comparait une capacité à une
+        # ressource comme si c'était un besoin. Correction du 2026-09-09.
+        #   plafond de règle = facteur x allocation - avoirs déjà détenus
+        #   capacité effective = min(plafond de règle, devises encore détenues)
+        # La règle dit ce qu'un participant peut être TENU d'accepter ; elle ne
+        # crée pas les devises qu'il faudrait remettre.
         alloc = fin["BCN2"].get((ALLOC, PASSIF), 0)
         avoirs = fin["BCN2"].get((AVOIRS, ACTIF), 0)
-        regle = max(0, PLAFOND_DESIGNATION_FACTEUR * alloc - avoirs)
+        plafond = max(0, PLAFOND_DESIGNATION_FACTEUR * alloc - avoirs)
+        restantes = dispo(fin, "BCN")
         return {"type": "participants", "scenarios": [
-            ("fonctionnement normal, par accord volontaire",
-             ECHANGE, None, dispo(avant, "BCN"),
-             "demande courante, servie par les devises que l'autre "
-             "participant détient AVANT l'échange"),
-            ("plafond statutaire de désignation",
-             regle, regle, dispo(fin, "BCN"),
-             "la RÈGLE autoriserait davantage ; ce qui borne ici n'est pas "
-             "la règle mais les devises restantes, l'échange volontaire les "
-             "ayant déjà déplacées"),
-            ("RUÉE : la totalité des détenteurs à la fois",
-             sum(v for _, v in detenteurs(fin)), None, dispo(fin, None),
-             "scénario de STRESS, jamais l'état ordinaire de liquidité")]}
+            {"nom": "fonctionnement normal, par accord volontaire",
+             "genre": "demande", "valeur": ECHANGE,
+             "ressource": dispo(avant, "BCN"),
+             "note": "demande courante, servie par les devises que l'autre "
+                     "participant détient AVANT l'échange"},
+            {"nom": "capacité résiduelle de désignation",
+             "genre": "capacite", "valeur": plafond, "ressource": restantes,
+             "effective": min(plafond, restantes),
+             "note": "CE N'EST PAS UNE DEMANDE. La règle autoriserait "
+                     "d'appeler %d de plus ; les devises encore détenues en "
+                     "permettent %d. La contrainte effective est la "
+                     "RESSOURCE, non la règle." % (plafond, restantes)},
+            {"nom": "RUÉE : la totalité des détenteurs à la fois",
+             "genre": "demande", "valeur": sum(v for _, v in detenteurs(fin)),
+             "ressource": dispo(fin, None),
+             "note": "scénario de STRESS, jamais l'état ordinaire de "
+                     "liquidité"}]}
 
     lignes, pire = [], None
     for libelle, inst in chrono:
@@ -663,9 +704,27 @@ CONVERT = ("remettre au détenteur des devises librement utilisables contre "
            "l'unité, à tout moment et à sa demande")
 ECHANGE_STAT = ("obtenir des devises librement utilisables auprès des AUTRES "
                 "participants, par accord ou sur désignation")
-JUR = ["l'instrument qui crée l'obligation et la rend opposable",
-       "le statut de l'émetteur et sa capacité à contracter",
-       "l'autorité qui lève, et sur quel fondement"]
+# R4a — CE QU'UNE INSTITUTION PROSPECTIVE DOIT CRÉER. Elle écrit son droit
+# constitutif : personne ne le lui fournira.
+JUR_A = ["les DROITS du détenteur, énumérés et opposables",
+         "les OBLIGATIONS de l'émetteur, et leur fait générateur",
+         "la GOUVERNANCE : qui décide d'émettre, et à quelle majorité",
+         "le RETRAIT d'un participant, et le sort de ses unités",
+         "la LIQUIDATION de l'institution, et le rang des détenteurs",
+         "les IMMUNITÉS et privilèges de l'institution",
+         "le RÈGLEMENT DES DIFFÉRENDS, entre participants et avec l'émetteur"]
+
+# R4b — CE QU'ELLE NE PEUT PAS IGNORER. Une institution prospective crée son
+# droit constitutif, mais elle devra être reconnue et fonctionner DANS des
+# ordres juridiques qui existent déjà.
+JUR_B = ["les traités en vigueur : statuts du Fonds et de la Banque, accords "
+         "monétaires régionaux",
+         "les droits nationaux : capacité d'une banque centrale à détenir "
+         "l'unité, cours légal, contrôle des changes",
+         "les normes comptables : classement de l'unité, consolidation, "
+         "information financière",
+         "le droit de l'Union et les droits régionaux, là où ils encadrent "
+         "l'émission monétaire"]
 
 
 def _mn(cle, titre, **kw):
@@ -678,7 +737,9 @@ def _mn(cle, titre, **kw):
                 extinction="par le prélèvement, le démurrage et les "
                            "contributions",
                 pertes="l'émetteur, par sa situation nette",
-                exigences_juridiques=JUR, contrib_detenteur=CONTRIB_DETENTEUR)
+                conception_juridique=JUR_A,
+                compatibilite_juridique=JUR_B,
+                contrib_detenteur=CONTRIB_DETENTEUR)
     base.update(kw)
     return Branche(cle, titre, **base)
 
@@ -729,7 +790,8 @@ BRANCHES = [
         servi_par=None, exigibilite="sans_decaissement",
         extinction="par le prélèvement et par le démurrage",
         pertes="l'émetteur, par sa situation nette",
-        exigences_juridiques=JUR + [
+        conception_juridique=JUR_A,
+        compatibilite_juridique=JUR_B + [
             "les quatre conditions sous lesquelles un actif conçu comme moyen "
             "d'échange est enregistré comme monnaie [L19.C08]"]),
     Branche(
@@ -742,8 +804,8 @@ BRANCHES = [
         servi_par=None, exigibilite="sans_decaissement",
         extinction="par le reflux et par le remboursement du bénéficiaire",
         pertes="le bénéficiaire d'abord, l'émetteur ensuite",
-        exigences_juridiques=JUR + ["les quatre conditions de L19.C08",
-                                    "le contrat de prêt"]),
+        conception_juridique=JUR_A + ["le contrat de prêt, et son rang"],
+        compatibilite_juridique=JUR_B + ["les quatre conditions de L19.C08"]),
     Branche(
         "B9", "Conversion à vue, l'émetteur étant doté d'un capital souscrit",
         circulation="monnaie_nationale", inscription="situation_nette",
@@ -755,9 +817,13 @@ BRANCHES = [
         servi_par="INST", exigibilite="a_vue",
         extinction="par le reflux, et par la conversion si elle est demandée",
         pertes="l'émetteur, puis les souscripteurs par leurs parts",
-        exigences_juridiques=JUR + ["l'engagement de conversion et son plafond",
-                                    "l'appel de capital et son caractère "
-                                    "exécutoire"]),
+        conception_juridique=JUR_A + [
+            "l'engagement de conversion, son plafond et ses conditions "
+            "de suspension",
+            "l'appel de capital, et son caractère exécutoire"],
+        compatibilite_juridique=JUR_B + [
+            "le droit budgétaire des souscripteurs, qui conditionne "
+            "l'exigibilité de l'appel de capital"]),
     Branche(
         "B10", "Avoir de réserve non gagé, transféré entre participants",
         circulation="avoir_de_reserve", inscription="situation_nette",
@@ -768,9 +834,10 @@ BRANCHES = [
         servi_par=None, exigibilite="sans_decaissement",
         extinction="par le règlement des contributions statutaires",
         pertes="l'émetteur, par sa situation nette",
-        exigences_juridiques=JUR + [
+        conception_juridique=JUR_A + [
             "l'accord d'échange volontaire entre participants",
-            "le régime des contributions statutaires réglables en unités"]),
+            "le régime des contributions statutaires réglables en unités"],
+        compatibilite_juridique=JUR_B),
     Branche(
         "B11", "Structure collective : le passif est chez CHAQUE MEMBRE "
                "RECEVEUR",
@@ -782,10 +849,13 @@ BRANCHES = [
         extinction="aucune dans ce cycle : l'allocation demeure au passif du "
                    "receveur",
         pertes="les participants, par le dispositif statutaire",
-        exigences_juridiques=JUR + [
-            "le mécanisme de désignation et ses plafonds",
-            "les accords d'échange volontaire",
-            "le régime des intérêts sur l'écart avoirs / allocation"]),
+        conception_juridique=JUR_A + [
+            "le mécanisme de désignation, ses plafonds et ses exemptions",
+            "les accords d'échange volontaire, et leur caractère révocable",
+            "le régime des intérêts sur l'écart avoirs / allocation"],
+        compatibilite_juridique=JUR_B + [
+            "l'articulation avec le département qui tient les comptes, et "
+            "le statut de ses écritures"]),
 ]
 
 
@@ -832,7 +902,8 @@ def rendre(b):
             print("      %s" % a)
     else:
         print("      identités tenues à chaque opération, y compris")
-        print("      « passif total = somme des avoirs de tous les détenteurs »")
+        print("      « total des passifs représentatifs de l'unité, quel qu'en")
+        print("      soit le porteur = total des avoirs chez les détenteurs »")
 
     print("")
     print("  R1b — QUALIFICATION PROPOSÉE (non calculée, à valider humainement)")
@@ -851,21 +922,25 @@ def rendre(b):
         print("         juridique des obligations déclarées. NON ÉTABLI ICI.")
 
     print("")
-    print("  R2 — LIQUIDITÉ")
+    print("  R2 — LIQUIDITÉ (calculée, mais CONDITIONNELLE aux paramètres")
+    print("       déclarés, dont aucun n'est calibré)")
     if liq["type"] == "sans_objet":
         print("      sans objet : l'obligé ne décaisse rien, il REÇOIT l'unité")
     elif liq["type"] == "participants":
         print("      servie par les AUTRES PARTICIPANTS, non par l'émetteur.")
         print("      TROIS SCÉNARIOS SÉPARÉS. Le troisième est un STRESS :")
-        for nom, dem, regle, devises, note in liq["scenarios"]:
-            etat = ("servi" if dem <= devises
-                    else "MANQUE %d" % (dem - devises))
-            print("        %s" % nom)
-            print("          demande %3d | devises disponibles %3d | %s"
-                  % (dem, devises, etat))
-            if regle is not None:
-                print("          plafond de la règle : %d" % regle)
-            print("          %s" % note)
+        for sc in liq["scenarios"]:
+            print("        %s" % sc["nom"])
+            if sc["genre"] == "demande":
+                etat = ("servie" if sc["valeur"] <= sc["ressource"]
+                        else "MANQUE %d" % (sc["valeur"] - sc["ressource"]))
+                print("          demande %3d | devises disponibles %3d | %s"
+                      % (sc["valeur"], sc["ressource"], etat))
+            else:
+                print("          plafond de règle %3d | devises disponibles "
+                      "%3d | capacité effective %3d"
+                      % (sc["valeur"], sc["ressource"], sc["effective"]))
+            print("          %s" % sc["note"])
     else:
         print("      contrôlée à CHAQUE étape, au pic")
         for libelle, ex, co in liq["lignes"]:
@@ -886,9 +961,15 @@ def rendre(b):
     print("      passif résiduel %d, ressources de l'émetteur %d"
           % (residu, ressources))
     print("")
-    print("  R4 — CONFORMITÉ JURIDIQUE : NON ÉVALUÉE")
-    for e in b.exigences_juridiques:
-        print("      exigerait : %s" % e)
+    print("  R4a — CONCEPTION JURIDIQUE À PRODUIRE (aucune n'existe)")
+    print("      une institution prospective ÉCRIT son droit constitutif :")
+    for e in b.conception_juridique:
+        print("        à produire : %s" % e)
+    print("")
+    print("  R4b — COMPATIBILITÉ JURIDIQUE À ÉVALUER (non évaluée)")
+    print("      mais elle devra être reconnue DANS des ordres qui existent :")
+    for e in b.compatibilite_juridique:
+        print("        à confronter : %s" % e)
 
     print("")
     print("  CHRONOLOGIE — DÉTENTEURS ET ENCOURS APRÈS CHAQUE OPÉRATION")
@@ -920,8 +1001,8 @@ def main():
     print("sur L'ENCAISSE de %d ; contribution du détenteur %d. Repères, non "
           "estimations." % (ASSIETTE_DEMURRAGE, CONTRIB_DETENTEUR))
     print("")
-    print("R1a CALCULÉE  |  R1b PROPOSÉE  |  R2 CALCULÉE  |  R3 et R4 NON "
-          "ÉVALUÉES")
+    print("R1a CALCULÉE | R1b PROPOSÉE | R2 CALCULÉE MAIS CONDITIONNELLE | "
+          "R3, R4a, R4b")
     print("Le programme ne peut PAS établir qu'un élément est un passif : il")
     print("propose une qualification, et elle attend une validation humaine.")
 

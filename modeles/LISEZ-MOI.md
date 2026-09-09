@@ -28,20 +28,23 @@ contradicteur humain.
 
 ## `a35b_bilans.py` — matrice comptable de l'arbre A35b
 
-Sept secteurs, quatorze branches, **cinq résultats séparés par branche, et ils
+Sept secteurs, quatorze branches, **six résultats séparés par branche, et ils
 ne se commandent pas** :
 
 | | |
 |---|---|
 | **R1a cohérence arithmétique** | équilibres, miroirs, somme des situations nettes, et l'identité *passif total = somme des avoirs de tous les détenteurs*, contrôlée **à chaque étape**. **Calculée.** |
 | **R1b qualification comptable** | **PROPOSÉE, jamais établie.** Le programme n'écrit nulle part « reconnu comme passif » : il constate que des éléments sont renseignés, et suspend sa proposition quand l'un manque. |
-| **R2 liquidité** | la demande maximale exigible à **chaque** étape. **Calculée, au pic** — et **par scénarios séparés** quand l'instrument est servi par d'autres participants. |
+| **R2 liquidité** | la demande maximale exigible à **chaque** étape. **Calculée, au pic** — et **par scénarios séparés** quand l'instrument est servi par d'autres participants. **Mais CONDITIONNELLE** : aucun des paramètres n'est calibré, et changer un seul change le résultat. |
 | **R3 solvabilité intertemporelle** | **non évaluable** : un cycle, sans intérêt ni horizon. |
-| **R4 conformité juridique** | **non évaluée** : chaque branche déclare ce qu'elle exigerait. |
+| **R4a conception juridique** | **à produire.** Une institution prospective écrit son droit constitutif : droits, obligations, gouvernance, retrait, liquidation, immunités, différends. Aucun texte n'existe. |
+| **R4b compatibilité juridique** | **à évaluer, non évaluée.** Elle devra pourtant être reconnue dans des ordres qui existent : traités, droits nationaux et régionaux, normes comptables. |
 
 ```bash
 python modeles/a35b_bilans.py
 ```
+
+**Un plafond de désignation est une CAPACITÉ d'acceptation, jamais une demande.** La règle dit ce qu'un participant peut être tenu d'accepter ; elle ne crée pas les devises qu'il faudrait remettre. La capacité effective est le minimum du plafond de règle et des devises encore détenues.
 
 **Une branche peut être comptablement cohérente et illiquide.** C'est le cas
 normal d'un émetteur qui promet plus qu'il ne détient, et ce n'est pas une
@@ -76,7 +79,7 @@ Le résultat est lu par **L19.C10**, et le raisonnement vit dans
 python modeles/test_a35b.py
 ```
 
-Cinq sections, et la troisième porte un avertissement en toutes lettres :
+Six sections, et la troisième porte un avertissement en toutes lettres :
 
 - **A. identités comptables** — sabotées une par une ; ce ne sont pas des
   hypothèses, ce sont des identités.
@@ -88,7 +91,9 @@ Cinq sections, et la troisième porte un avertissement en toutes lettres :
 - **D. liquidité** — vérifie que le pic est contrôlé, que le bilan final seul
   aurait conclu à tort à la couverture, et que les trois scénarios sont publiés
   séparément.
-- **E. A36** — vérifie que les deux mécanismes restent distincts, et que
+- **E. R4** — vérifie que la conception à produire et la compatibilité à évaluer
+  restent deux listes disjointes.
+- **F. A36** — vérifie que les deux mécanismes restent distincts, et que
   l'EMPLOI des unités perçues, non le collecteur seul, décide de l'encours.
 
 ## Comment ajouter une branche
