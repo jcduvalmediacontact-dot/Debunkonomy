@@ -104,18 +104,19 @@ arbitrages:
 
   - id: A35b
     objet: "Nature, exigibilité, contrepartie et extinction du passif"
-    statut: ouvert
-    tranche_par: non-tranche
+    statut: oriente
+    tranche_par: corpus
     lie_a: [A35]
     decision: >
-      OUVERT LE 2026-09-09. Cinq questions que l'arbitrage du porteur ne tranche
-      pas : ce que le DÉTENTEUR peut réclamer ; comment le passif S'ÉTEINT ;
-      quelle est sa CONTREPARTIE à l'actif ; qui absorbe les pertes ou une
-      INSUFFISANCE DE REFLUX ; et si le bénéficiaire reçoit une subvention, un
-      crédit ou un droit monétaire conditionnel. LE SIMULATEUR DOIT COMPARER LES
-      BRANCHES D'A35b, non celles d'A35.
+      OUVERT LE 2026-09-09, RESSERRÉ LE MÊME JOUR PAR LA MATRICE COMPTABLE.
+      Neuf branches, six rejetées : créance sans débiteur, conversion
+      circulaire, obligation ne courant vers aucun détenteur, unité inscrite
+      nulle part. TROIS SE FERMENT, ET CHACUNE A UN PRIX : soit l'unité circule
+      jusqu'aux redevables et devient une monnaie, soit elle est gagée en
+      totalité et n'ajoute rien. RESTENT OUVERTS : l'extinction de l'encours
+      non reflué, l'instrument créant l'obligation, le porteur des pertes.
     texte: protocoles/passe-2.md
-    chapitres: [L10.C06, L19.C02, L19.C06, L1.C31]
+    chapitres: [L10.C06, L19.C02, L19.C06, L19.C10, L1.C31]
     maj: 2026-09-09
 
   - id: A36

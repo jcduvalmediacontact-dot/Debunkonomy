@@ -5367,3 +5367,93 @@ arbitre le 2026-09-09 d'attendre : **les trois chapitres pilotes diront si le
 champ doit ensuite être séparé entre vérifications factuelles, objections non
 résolues et dettes de conception.** **La question posée par
 protocoles/candidats-verifie.md reste donc ouverte, et elle est datée.**
+
+
+## LA MATRICE COMPTABLE D'A35b — 2026-09-09, PREMIÈRE LIVRAISON DE LA PHASE DE DÉMONSTRATION
+
+**L'auteur a donné le feu vert le 2026-09-09 pour le NOYAU COMPTABLE SEUL**, en
+excluant expressément le simulateur macroéconomique : *« les comportements
+macroéconomiques et les chiffres viendront après validation des écritures »*.
+**La livraison devait comprendre la fiche de l'unité, l'arbre A35b et la matrice
+statique, et elle devait POUVOIR FAIRE APPARAÎTRE UNE BRANCHE INCOHÉRENTE.**
+
+### CE QUI A ÉTÉ LIVRÉ
+
+**`modeles/a35b_bilans.py`** — six secteurs, neuf branches, sept contrôles.
+**`modeles/test_a35b.py`** — cinq sabotages, chacun exigeant que le contrôle
+correspondant le voie. **`corpus/livre-19-.../c10-...`** — le chapitre L19.C10,
+qui lit le résultat. **Le répertoire `modeles/` est HORS `corpus/`** : un script
+exécutable n'est pas un chapitre, et il ne doit ni compter dans le corpus ni
+passer sous le contrôle de la convention.
+
+### LE DÉFAUT QUE LA MATRICE A TROUVÉ, ET QUE PERSONNE N'AVAIT VU
+
+**TROIS BRANCHES SUIVENT LA RÈGLE DE CONCEPTION À LA LETTRE, FERMENT TOUTES
+LEURS ÉCRITURES, ET NE VALENT RIEN.** L'unité est inscrite au passif de
+l'émetteur ; aucune richesse n'y naît ; tous les miroirs tiennent. **Mais
+l'obligation invoquée — accepter l'unité en règlement du prélèvement — court
+vers ceux qui doivent le prélèvement, et ceux-là ne détiennent JAMAIS l'unité :
+elle s'arrête à la banque centrale, et ce qui circule est la monnaie nationale
+créée en regard.**
+
+**LA NORME TRANCHE CE POINT, ET ELLE LE TRANCHE CONTRE CES BRANCHES.** « *Whenever
+a liability exists, there is a corresponding financial claim that the creditor
+has against the debtor* » [SNA 2025, § 4.103]. **Lue à l'envers : s'il n'existe
+personne qui détienne la créance, il n'existe pas de passif.**
+
+**LE PREMIER JET DE LA MATRICE PORTAIT LUI-MÊME UNE FAUTE**, et elle a été
+trouvée en l'exécutant : le compte du guichet était classé à l'ACTIF de la
+banque centrale alors qu'un dépôt en est un PASSIF. **Le contrôle d'équilibre l'a
+signalé à trois écritures d'affilée.** **C'est le premier usage réel de
+l'apparatus, et il a servi contre son auteur.**
+
+### LES DEUX PRIX, ET ILS SONT EXCLUSIFS
+
+**PREMIER PRIX — L'UNITÉ CIRCULE ELLE-MÊME.** Le bénéficiaire reçoit l'unité et
+la dépense ; elle atteint le reste de l'économie, qui la détient et qui doit le
+prélèvement. **L'obligation a enfin un créancier.** **Mais l'unité cesse d'être
+un avoir de réserve entre banques centrales, et tombe sous les quatre conditions
+que L19.C08 a lues dans la norme pour qu'un actif conçu comme moyen d'échange
+soit enregistré comme monnaie.**
+
+**SECOND PRIX — L'ÉMETTEUR EST GAGÉ EN TOTALITÉ.** Une promesse de conversion
+peut être honorée si les membres ont souscrit un capital. **Le test mesure le
+seuil, et il est exact : une souscription égale à l'encours restant fait tenir
+la promesse, une unité de moins la fait tomber.** **CONSÉQUENCE POUR F10 : une
+unité convertible n'apporte rien que la souscription n'ait déjà apporté ; elle
+change la forme de la ressource, non sa quantité.**
+
+### CE QUE LA MATRICE CONFIRME, ET CE QU'ELLE NE RÉSOUT PAS
+
+**ELLE CONFIRME A35a PAR LES ÉCRITURES.** Dans toutes les branches qui se
+ferment, **le reste de l'économie finit au montant exact du reflux**, et ce
+montant ne dépend pas du choix entre subvention et crédit. **L'incidence
+économique est bien portée par la société sans qu'elle soit débitrice.**
+
+**ELLE SÉPARE DEUX QUESTIONS QUE LE CORPUS TRAITAIT ENSEMBLE.** Ce que reçoit le
+bénéficiaire — subvention, crédit, droit conditionnel — **est orthogonal à la
+qualification du passif de l'émetteur** : les trois branches tombent
+identiquement, sur le même contrôle. **Et le droit conditionnel est tranché par
+la norme avant de l'être par la matrice : n'étant pas une obligation
+inconditionnelle, il n'est pas reconnu comme passif, et s'écrit à l'inception
+exactement comme une subvention.**
+
+**ELLE QUANTIFIE CE QU'ELLE NE RÉSOUT PAS.** À la fin de chaque branche qui se
+ferme, **l'encours non reflué reste en circulation et rien ne l'éteint.** La
+question de l'extinction n'est pas résolue : **elle est chiffrée, et elle vaut
+l'émission moins le reflux.**
+
+**ELLE NE DÉPARTAGE PAS LES PORTEURS DE PERTES.** Trois architectures, trois
+porteurs différents, toutes trois comptablement cohérentes. **Le choix est
+politique, et la comptabilité ne le fera pas.**
+
+### CE QUI N'A PAS ÉTÉ FAIT, ET POURQUOI
+
+**AUCUN MODÈLE DYNAMIQUE.** Ni prix, ni capacité productive, ni emploi, ni
+importation, ni intérêt, ni les trois scénarios. **C'est l'arbitrage du
+2026-09-09, et il tient : les écritures d'abord.**
+
+**ET L'ABSENCE D'INTÉRÊT EST UNE LIMITE QUI PORTE SUR LE RÉSULTAT.** L19.C09 a
+établi que la norme motive le passif d'allocation en droits de tirage spéciaux
+par une obligation de remboursement **et par le fait qu'un intérêt court**. **Une
+matrice sans intérêt ne peut pas éprouver ce second motif.**

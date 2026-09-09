@@ -2322,6 +2322,31 @@ comptables, le droit monétaire ou la métrologie **rend le dispositif plus soli
 sans le rendre plus nécessaire**. **F10 se réfute par une comparaison d'instruments,
 et le corpus n'en a conduit aucune.**
 
+**PREMIER RÉSULTAT OPPOSÉ À F10 — 2026-09-09, ET IL VIENT DU CORPUS LUI-MÊME.**
+La matrice comptable d'A35b [L19.C10] a éprouvé la branche où l'unité émise est
+**convertible en devises à la demande du détenteur**. **Elle ne se ferme que si
+l'émetteur détient d'avance un capital souscrit égal à l'encours restant** : le
+test mesure le seuil, et une unité de moins fait tomber la promesse.
+
+**CE QUE CELA DONNE À F10, ET IL FAUT L'ÉNONCER SANS L'ADOUCIR.** **Sous cette
+architecture, l'émission n'apporte rien que la souscription n'ait déjà
+apporté.** Elle change la forme de la ressource, non sa quantité. **C'est
+exactement la superfluité que F10 énonce, établie pour une branche, par le
+corpus, contre le dispositif.**
+
+**CE QUE CELA NE DONNE PAS À F10, ET IL FAUT ÊTRE AUSSI STRICT.** **Deux autres
+branches se ferment sans aucune souscription** — celles où l'unité circule
+elle-même jusqu'à ceux qui doivent le prélèvement, sa valeur reposant alors sur
+l'obligation d'acceptation et non sur une convertibilité. **F10 n'est donc PAS
+établi en général : il est établi CONTRE UNE ARCHITECTURE, et déplacé vers les
+deux autres.** **Et le déplacement a lui-même un prix, puisque ces deux branches
+font sortir l'unité du statut d'avoir de réserve.**
+
+**CE QUI RESTE DÛ EST INCHANGÉ.** **Aucune comparaison d'instruments n'a été
+conduite.** Une matrice comptable dit ce qui peut s'écrire ; **elle ne dit pas ce
+qu'un portefeuille de transferts fiscaux, d'investissement public et de garanties
+aurait obtenu à coût et risque comparables.** **F10 tient.**
+
 ## F11 — La contrainte physique
 
 **POSÉ LE 2026-09-07 (nuit), SUR ARBITRAGE DE L'AUTEUR**, à la déclaration du
