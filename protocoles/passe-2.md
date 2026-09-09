@@ -5531,3 +5531,207 @@ ou à un praticien des opérations de réserves
 ou à un spécialiste des bilans de banque centrale. **Aucun modèle
 macroéconomique avant cette revue** : le corpus a atteint une frontière où une
 boucle supplémentaire entre modèles déplacerait des conventions sans les valider.
+
+
+## CONCLUSION DE L'AUTEUR SUR NEMO IMS — 2026-09-09
+
+**ÉNONCÉ QUI FAIT FOI, ET IL EST DE L'AUTEUR :**
+
+> **NEMO IMS constitue une hypothèse d'architecture monétaire et écologique
+> suffisamment cohérente pour justifier un programme expérimental. Une version
+> limitée peut être testée. Sa stabilité macroéconomique, son avantage sur les
+> instruments existants, sa capacité à corriger les déséquilibres internationaux
+> et sa voie d'adoption mondiale restent à démontrer.**
+
+**Ce n'est ni « NEMO fonctionne » ni « NEMO est irréalisable ».** Les deux
+formules seraient également fausses, et le corpus a mis onze mois à pouvoir
+écrire la troisième.
+
+### 1. TROIS PROPOSITIONS SOUS UN SEUL NOM — A43
+
+| Composante | État arrêté |
+|---|---|
+| Financement monétaire ciblé d'activités écologiques et sociales | **pilotable sous fortes limites** |
+| Unité de réserve internationale entre banques centrales | **techniquement plausible ; comptablement et juridiquement à finaliser** |
+| NEMO Exchange Standard obligatoire à parités fixes | **non applicable en l'état** |
+
+**La séparation est l'apport principal de cette conclusion.** Le corpus discutait
+un objet unique dont les trois moitiés n'avaient ni la même maturité, ni les
+mêmes obstacles, ni le même verdict.
+
+### 2. CE QUE LE CORPUS TIENT DÉJÀ
+
+**Les activités essentielles peuvent être insuffisamment financées** parce que
+leurs bénéfices sont diffus, tardifs ou non captables — c'est le filtre à quatre
+conditions de L1.C15, dont l'opérationnalisation est commandée par
+`OPERATIONNALISATION-INSOLVABLE`.
+
+**Une unité de réserve internationale est concevable**, et le précédent existe :
+L19.C10 en a lu le régime comptable et statutaire dans le texte.
+
+**Une infrastructure commune de règlement multidevise est techniquement
+réalisable.** ACQUISITION FAITE LE 2026-09-09 : le projet Agorá de la Banque des
+règlements internationaux, `bis.org/about/bisih/topics/fmis/agora.htm`, **lu dans
+le texte**. « *It brings together eight central banks, including those of five
+major reserve currencies, and over 40 leading financial institutions [...] The
+prototype demonstrates that tokenised commercial bank deposits can be
+successfully combined with the trust and safety of tokenised central bank
+reserves on a shared platform. The prototype enables atomic, multi-currency
+settlement of wholesale cross-border payments* ». **DEUX RÉSERVES QUE LE TEXTE
+IMPOSE, ET QU'IL NE FAUT PAS EFFACER : c'est un PROTOTYPE, et le règlement
+continu n'est possible que « *if implemented* ». Le périmètre est de GROS, non de
+détail** — ce qui coïncide avec le pilote recommandé, mais par accident et non
+par démonstration.
+
+**L'allocation peut être séparée des paiements au public** : l'institution alloue
+aux banques centrales, les bénéficiaires reçoivent de la monnaie nationale.
+C'est la circulation `monnaie_nationale` de la matrice A35b.
+
+**Les seuils écologiques peuvent être non compensables** — un bon résultat
+climatique n'autorise pas un dépassement sur l'eau, l'azote ou la biodiversité.
+
+**Et le corpus distingue désormais contrainte physique, décision politique et
+montant financier** : c'est la chaîne à trois étages arrêtée le 2026-09-09.
+
+### 3. LES CINQ OBSTACLES QUI CONDITIONNENT L'APPLICABILITÉ
+
+**AUCUN DES QUATORZE FALSIFIEURS N'EST LEVÉ.**
+
+**(1) LE BOUCLAGE MACROÉCONOMIQUE.** Volume d'émission, reflux transactionnel,
+démurrage, inflation, importations supplémentaires, capacités productives
+disponibles, répartition entre pays et secteurs. **La condition d'échec est déjà
+écrite en F1** : qu'aucun couple de paramètres ne satisfasse simultanément un
+volume suffisant pour financer et un reflux suffisant pour ne pas produire
+d'inflation nette.
+
+**(2) LE RÉGIME DE CHANGE.** Le dispositif ne peut pas conserver ensemble parités
+fixes, liberté des capitaux et autonomie monétaire nationale. **PRÉCISION DUE À
+L1.C26, ET ELLE EST PLUS ÉTROITE QUE « LE CORPUS LE DÉMONTRE »** : le chapitre ne
+conclut pas que le dispositif est inopérant, il conclut que **le livre revendique
+trois propriétés dont deux sont acquises et une est impossible**, et que deux
+réponses sont tenables. **L'auteur tranche pour un premier pilote : LIMITER LES
+MOUVEMENTS DE CAPITAUX**, en cantonnant NEMO aux règlements liés aux projets et à
+certains échanges commerciaux.
+
+**(3) LES DÉSÉQUILIBRES COMMERCIAUX.** Un pays déficitaire détruit plus de
+monnaie qu'il n'en reçoit ; sa masse se contracte. **Supprimer le besoin de
+réserves de change ne supprime pas la contrainte extérieure.** L1.C26 pose déjà
+la question — *qu'est-ce qui empêche un pays durablement déficitaire de se
+vider ?* — et le livre y répond par les émissions régénératives, **thèse forte et
+entièrement non instruite**. Le dispositif doit donc ajouter : facilité
+temporaire de liquidité, plafonds de solde débiteur ET créditeur, mécanisme
+symétrique sur les excédents persistants, procédure de correction structurelle,
+et éventuellement des parités ajustables selon une règle annoncée. **Faute de
+quoi il impose une déflation permanente aux pays structurellement déficitaires.**
+
+**(4) L'AVANTAGE COMPARATIF — F10.** La question n'est plus « peut-on créer de la
+monnaie ? » mais **« NEMO mobilise-t-il davantage de ressources réelles, plus
+vite et avec moins de risques, que la meilleure combinaison réalisable
+d'instruments existants ? »** Les concurrents sont nommés : réforme des
+subventions dommageables, investissement et commande publics, banques publiques
+de développement, garanties publiques, fiscalité écologique, réglementation et
+quotas, allocations de droits de tirage spéciaux, coopération existante.
+**L1.C31 en donne le test ; le portefeuille concurrent n'est pas construit.**
+
+**(5) NEMO AJOUTE SANS RETIRER — F14.** Financer du renouvelable ne ferme aucune
+mine. **Et l'auteur en tire la conséquence la plus lourde de tout le corpus :
+NEMO IMS NE PEUT PAS, SEUL, GARANTIR LES CONDITIONS DE LA VIE SUR TERRE.** Il
+peut financer et accélérer une politique qui les protège, **à condition que cette
+politique contienne aussi des obligations physiques de réduction et de
+fermeture** : suppression des subventions dommageables, normes absolues,
+moratoires, calendriers de fermeture, interdictions, reconversion
+professionnelle et territoriale, garanties sociales pour les populations
+touchées.
+
+### 4. LA FORME EXPÉRIMENTABLE — UN NEMO MINIMAL
+
+**PÉRIMÈTRE INSTITUTIONNEL.** Coalition de quelques pays volontaires aux
+situations différentes — importateurs, exportateurs, riches, du Sud. **La banque
+centrale de chaque membre est le seul détenteur direct de l'unité.** Paiements
+aux bénéficiaires en monnaie nationale. Institution commune créée par accord
+limité, ou hébergée provisoirement. **Aucun usage de détail, aucun compte pour
+les particuliers.**
+
+**PÉRIMÈTRE ÉCONOMIQUE.** Une ou quelques catégories de projets bien mesurables.
+Montant d'émission strictement plafonné. **Aucun financement fondé sur une
+promesse de résultat écologique invérifiable.** Analyse préalable des
+travailleurs, matériaux, machines, énergie et capacités industrielles.
+**Interruption automatique en cas de tension excessive sur les prix, les
+importations ou des ressources critiques.**
+
+**QUALIFICATION — L'ORDRE EST CELUI DÉJÀ ARRÊTÉ.** (1) veto physique ; (2)
+priorité politique et territoriale, participative et contestable ; (3) montant
+selon les coûts réels, les capacités et la marge macroéconomique.
+
+**ET LA SÉPARATION DES ORGANES EST UNE EXIGENCE, NON UN ORNEMENT.** Définir les
+seuils, instruire les projets, décider l'émission, vérifier les résultats,
+sanctionner les déclarations inexactes, juger les recours : **six fonctions, six
+organes. Une seule organisation les concentrant serait trop facile à capturer** —
+c'est la réponse directe à MODELE-ADVERSAIRE.
+
+**REFLUX ET DÉMURRAGE, POUR LE PILOTE.** Démurrage sur les seuls soldes
+institutionnels en unités, **pas sur l'épargne des ménages**. Prélèvement
+transactionnel traité séparément, sa nature restant à choisir — A36. **Écrire
+précisément qui collecte, qui conserve, qui remet en circulation et qui éteint**
+— ce que la matrice A35b a montré déterminant. **Et prévoir un régime d'urgence
+lorsque le reflux devient procyclique en période de crise.**
+
+### 5. LA TRAJECTOIRE, EN SEPT ÉTAPES
+
+**(1) SPÉCIFICATION** — achever A35b, A36, le mécanisme de correction des
+déficits extérieurs, la règle de recalibrage, les clauses de retrait et de
+liquidation. **(2) VALIDATION EXTERNE** — comptable national, juriste monétaire,
+macroéconomiste, spécialiste des infrastructures de paiement, experts écologiques
+indépendants. **(3) EXPÉRIENCE FICTIVE** — qualifier rétrospectivement plusieurs
+dizaines de projets **sans émettre**, mesurer les désaccords entre évaluateurs,
+comparer aux financements réellement obtenus. **(4) SIMULATION MACROÉCONOMIQUE**
+— plusieurs pays, prix, salaires, importations, capacités, soldes commerciaux,
+mouvements de capitaux, scénarios de crise. **(5) PILOTE FERMÉ** à valeur
+limitée, convertibilité et liquidation explicites. **(6) EXTENSION RÉGIONALE**,
+seulement si le pilote établit additionnalité, stabilité, mesurabilité,
+résistance à la fraude et répartition acceptable des coûts. **(7) ÉCHELLE
+MONDIALE**, envisageable seulement après démonstration du bénéfice pour les
+premiers entrants et d'un chemin politique face à ceux qui profitent du système
+actuel.
+
+**L'ÉTAPE 3 EST CELLE QUE LE CORPUS PEUT ENTREPRENDRE SANS PERSONNE**, et elle
+recoupe exactement le protocole `validation-essentiel-insolvable.md` : constituer
+des cas, faire classer par des tiers, documenter les désaccords.
+
+### 6. LES OPPOSITIONS, ET ELLES SONT NOMMÉES
+
+Banques centrales craignant la perte d'autonomie ; ministères des Finances y
+voyant un contournement budgétaire ; pays à monnaie de réserve et pays
+durablement excédentaires ; banques et infrastructures privées menacées dans
+leurs revenus ; industries dont les actifs devraient fermer ; **pays du Sud
+craignant une conditionnalité écologique définie par les pays riches** ;
+contribuables et épargnants si le reflux est perçu comme régressif ; défenseurs
+des libertés publiques si le système exige une traçabilité excessive ; et **ceux
+qui pourront influencer ou contourner la qualification**.
+
+**ACQUISITION FAITE LE 2026-09-09** : la page du Conseil de stabilité financière
+sur les paiements transfrontaliers, `fsb.org/work-of-the-fsb/
+financial-innovation-and-structural-change/cross-border-payments/`, **ouverte et
+lue**. Le diagnostic qu'elle porte — l'interopérabilité technique progresse
+tandis que la fragmentation juridique et réglementaire demeure l'obstacle central
+— **est cohérent avec le corpus, mais la page acquise est une page de
+présentation : elle renvoie à des rapports que le corpus n'a pas ouverts.** **À
+citer comme point d'entrée, pas comme démonstration.**
+
+### 7. CE QUE CETTE CONCLUSION CHANGE POUR LE CORPUS
+
+**LA VERSION LA PLUS PROMETTEUSE EST NOMMÉE, ET ELLE EST ÉTROITE** : une facilité
+internationale de financement et de règlement entre banques centrales, adossée à
+des seuils écologiques non compensables, **complétée par des politiques
+obligatoires de substitution**. **Le remplacement mondial du système monétaire
+actuel n'est pas une proposition applicable**, et le corpus cesse de l'instruire
+comme telle.
+
+**F14 REÇOIT UNE CONCESSION MAJEURE**, et elle est de l'auteur : le dispositif ne
+garantit pas seul les conditions de la vie. **Cela ne lève pas F14 ; cela en
+accepte le contenu et déplace la thèse.**
+
+**ET LE CORPUS PEUT DÉSORMAIS CONCLURE SANS SE CONTREDIRE.** Il a passé onze mois
+à instruire une proposition unique. Il en sort avec trois propositions séparées,
+une seule expérimentable, cinq obstacles nommés et une trajectoire en sept
+étapes dont il peut entreprendre la troisième seul.

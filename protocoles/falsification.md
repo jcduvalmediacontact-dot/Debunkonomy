@@ -3241,6 +3241,34 @@ rebond** — l'objection de L26.C04 ne vise donc pas le seul dispositif, et F14
 ne désigne pas un remède exempt de l'objection qui frappe le remède qu'il
 critique.
 
+### F14 REÇOIT LA CONCESSION DE L'AUTEUR LE 2026-09-09, ET ELLE EST LA PLUS LOURDE DU CORPUS
+
+**L'AUTEUR ÉCRIT, ET C'EST UNE CONCESSION, NON UNE RÉFUTATION DE F14 :**
+
+> **NEMO IMS ne peut pas, seul, garantir les conditions de la vie sur Terre. Il
+> peut financer et accélérer une politique qui les protège, à condition que
+> cette politique contienne aussi des obligations physiques de réduction et de
+> fermeture.**
+
+**CE QUE CELA FAIT À F14.** **Cela ne le lève pas : cela en accepte le
+contenu.** F14 posait que l'émission agit sur le NIVEAU et l'ALLOCATION du
+financement sans commander la SUBSTITUTION ni la FERMETURE. **L'auteur ne
+conteste pas ; il en tire la conséquence et déplace la thèse.**
+
+**LES INSTRUMENTS NON MONÉTAIRES QUE LE DISPOSITIF DOIT ACCOMPAGNER, ET ILS SONT
+NOMMÉS** : suppression des subventions dommageables, normes absolues,
+moratoires, calendriers de fermeture, interdictions, reconversion
+professionnelle et territoriale, garanties sociales pour les populations
+touchées. **Aucun n'est monétaire, et aucun n'est dans le dispositif.**
+
+**CE QUE CELA COÛTE À LA PROPOSITION.** Elle cesse d'être une architecture
+suffisante et devient **une pièce d'un ensemble dont les autres pièces sont
+contraignantes et physiques**. **C'est une thèse plus faible, et plus
+défendable.** **Elle rend aussi F14 partiellement inopérant comme falsifieur du
+DISPOSITIF** : on ne peut plus reprocher à NEMO de ne pas fermer les mines s'il
+ne le prétend plus. **Mais F14 devient alors un falsifieur du PROGRAMME**, et il
+faut le reformuler ainsi — **travail dû, non fait.**
+
 ### F14 : troisième chemin, le 2026-09-08 — « fails to displace »
 
 **L17.C02 a ouvert le texte de position que la revue systématique cite comme

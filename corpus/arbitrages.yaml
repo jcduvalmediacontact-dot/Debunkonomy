@@ -134,10 +134,29 @@ arbitrages:
     chapitres: [L18.C31]
     maj: 2026-09-09
 
+  - id: A43
+    objet: "Les trois composantes réunies sous le nom NEMO IMS"
+    statut: arbitre
+    tranche_par: auteur
+    lie_a: [A37]
+    decision: >
+      ARBITRÉ LE 2026-09-09 : TROIS propositions de maturité inégale sont
+      réunies sous un seul nom. (1) FINANCEMENT CIBLÉ — pilotable sous fortes
+      limites. (2) UNITÉ DE RÉSERVE entre banques centrales — plausible, à
+      finaliser en comptabilité et en droit. (3) EXCHANGE STANDARD à parités
+      fixes — NON APPLICABLE. Seule la deuxième est expérimentable, adossée à
+      des seuils non compensables et complétée par des politiques de
+      substitution. Le remplacement mondial du système monétaire n'est pas
+      applicable.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C26, L1.C31, L19.C10]
+    maj: 2026-09-09
+
   - id: A37
     objet: "Forme juridique de l'institution émettrice"
     statut: oriente
     tranche_par: auteur
+    lie_a: [A43]
     decision: >
       Rang institutionnel donné. Articles XXVI du Fonds et II, IV et VI de la
       Banque lus en vigueur. PRIORITÉ DE MODÉLISATION ARRÊTÉE : une institution
