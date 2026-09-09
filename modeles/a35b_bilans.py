@@ -1,52 +1,54 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-MATRICE COMPTABLE DE NEMO IMS — arbre A35b, version 2, 2026-09-09
+MATRICE COMPTABLE DE NEMO IMS — arbre A35b, version 3, 2026-09-09
 ==================================================================
 
-CE QUE CE PROGRAMME FAIT, ET CE QU'IL NE FAIT PLUS.
+CE QUE CE PROGRAMME CALCULE, ET CE QU'IL NE FAIT QUE PROPOSER.
 
-La version 1 rendait UN verdict par branche : elle « se ferme » ou elle est
-« rejetée ». **C'était une faute, et l'auteur du corpus l'a relevée le
-2026-09-09.** Elle traitait une insuffisance d'actifs comme une inexistence de
-passif : une dette reste une dette quand son débiteur ne peut pas la payer.
-L'insuffisance produit un RISQUE DE LIQUIDITÉ ou DE SOLVABILITÉ, elle ne fait
-pas disparaître l'écriture. Des banques centrales fonctionnent avec des fonds
-propres négatifs.
+  R1a  COHÉRENCE ARITHMÉTIQUE — CALCULÉE. Les identités de bilan, les miroirs
+       des encours croisés, la somme des situations nettes, et l'identité
+       centrale contrôlée À CHAQUE ÉTAPE :
+           passif total de l'émetteur = somme des avoirs de TOUS les détenteurs.
+       Ce sont des identités. Elles ne se discutent pas.
 
-CETTE VERSION REND DONC QUATRE RÉSULTATS SÉPARÉS, ET ILS NE SE COMMANDENT PAS.
+  R1b  QUALIFICATION COMPTABLE — PROPOSÉE, NON CALCULÉE. Le programme constate
+       que des éléments sont renseignés et que la créance suit son détenteur.
+       **Il ne peut pas établir qu'un élément EST un passif au sens du § 4.101 :
+       cela suppose une lecture de la norme et la validité juridique des
+       obligations déclarées, dont aucune n'est vérifiée ici.** Le résultat est
+       une PROPOSITION soumise à un comptable national.
 
-  R1  COHÉRENCE COMPTABLE — les identités de bilan tiennent, et l'élément est
-      reconnu comme passif au sens du § 4.101 du SNA 2025 : une obligation, un
-      débiteur, un créancier, et la créance correspondante inscrite chez ce
-      créancier (§ 4.103). CALCULÉ.
-  R2  LIQUIDITÉ IMMÉDIATE — à CHAQUE étape, l'obligé peut-il servir la demande
-      maximale exigible à cette date ? Une obligation stipulée « à tout moment »
-      se contrôle au PIC, jamais au bilan final. CALCULÉ.
-  R3  SOLVABILITÉ INTERTEMPORELLE — les ressources, revenus, appels de capital
-      et garanties disponibles dans le temps couvrent-ils l'obligation ?
-      NON ÉVALUABLE ICI : la matrice ne porte qu'UN cycle. Elle rapporte le
-      résidu et les ressources de ce cycle, et s'arrête là.
-  R4  CONFORMITÉ JURIDIQUE — NON ÉVALUÉE. Chaque branche déclare ce qu'elle
-      exigerait ; le corpus ne détient aucun de ces instruments.
+  R2   LIQUIDITÉ — CALCULÉE, au pic et par scénario. Pour un instrument servi
+       par d'autres participants, trois scénarios SÉPARÉS : fonctionnement
+       normal, plafond statutaire, ruée à cent pour cent. **Le troisième est un
+       stress, jamais l'état ordinaire.**
 
-UNE BRANCHE PEUT DONC ÊTRE COMPTABLEMENT COHÉRENTE ET ILLIQUIDE. C'est le cas
-normal d'un émetteur qui promet plus qu'il ne détient, et ce n'est pas une
-anomalie d'écriture : c'est un risque, et il se nomme.
+  R3   SOLVABILITÉ INTERTEMPORELLE — NON ÉVALUABLE. Un seul cycle, sans intérêt
+       ni horizon.
 
-AUCUN COMPORTEMENT ÉCONOMIQUE N'EST MODÉLISÉ. Ni prix, ni salaire, ni profit, ni
-élasticité, ni capacité productive, ni transfert international, ni intérêt.
-**En particulier, la matrice n'établit AUCUNE incidence économique** : elle
-impose par paramètre que tel secteur soit redevable, puis retrouve ce qu'elle a
-imposé. Qui supporte réellement la charge dépend des prix, des salaires, des
-profits et des comportements, et cela relève du modèle comportemental, pas
-d'ici.
+  R4   CONFORMITÉ JURIDIQUE — NON ÉVALUÉE. Chaque branche déclare ce qu'elle
+       exigerait.
 
-A36 EST RESPECTÉ : LE DÉMURRAGE ET LE PRÉLÈVEMENT SONT DEUX MÉCANISMES.
-Deux assiettes — l'ENCAISSE détenue pour l'un, la TRANSACTION pour l'autre.
-Deux redevables. Deux rythmes. Et deux collecteurs possibles, car A36 laisse
-ouverte l'architecture juridique du prélèvement : selon qu'il est perçu par
-l'émetteur ou par l'État, IL N'ÉTEINT PAS LA MÊME CHOSE.
+TROIS CORRECTIONS DE L'AUTEUR, LE 2026-09-09, APRÈS LA VERSION 2.
+
+  LE CRÉANCIER EST DYNAMIQUE. Un instrument transférable change de créancier
+  avec son détenteur. La qualité de créancier MIGRE, et la créance de chacun
+  vaut son encours. Une fiche ne peut pas figer un créancier unique.
+
+  LE COLLECTEUR NE DÉCIDE PAS DE L'EXTINCTION. Il décide de la PREMIÈRE
+  DESTINATION des unités perçues. Ce qu'il en fait ensuite — les conserver, les
+  remettre en circulation, les transférer à l'émetteur — décide de l'encours
+  final. Trois sous-branches l'établissent.
+
+  UNE ARCHITECTURE DIFFÉRENTE N'EST PAS UNE ARCHITECTURE INVALIDE. La structure
+  de type droit de tirage spécial place le passif chez LE MEMBRE QUI REÇOIT, et
+  chacun est le débiteur déterminé de sa propre allocation [S1, § 12.49]. Elle
+  CONTREDIT A35a ; elle n'est pas comptablement méconnaissable.
+
+AUCUN COMPORTEMENT ÉCONOMIQUE N'EST MODÉLISÉ, et la matrice n'établit AUCUNE
+incidence économique : elle impose par paramètre qui est redevable, puis
+retrouve ce qu'elle a imposé.
 
 USAGE :  python modeles/a35b_bilans.py
 """
@@ -56,11 +58,6 @@ import sys
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
-# ---------------------------------------------------------------------
-# Sept secteurs. Les deux derniers ont été ajoutés le 2026-09-09 parce que le
-# précédent des droits de tirage spéciaux ne peut PAS se représenter avec une
-# seule banque centrale : sa liquidité vient des AUTRES participants.
-# ---------------------------------------------------------------------
 SECTEURS = [
     ("INST", "Institution émettrice, et département qui tient les comptes"),
     ("BCN", "Banque centrale bénéficiaire de l'allocation"),
@@ -79,39 +76,36 @@ AVOIRS = "avoirs en unités NEMO"
 EMISES = "unités NEMO émises"
 ALLOC = "allocation cumulative reçue"
 DEVISES = "devises librement utilisables"
+DUE = "contribution statutaire due"
 
-# ---------------------------------------------------------------------
-# Paramètres. Ce sont des repères, non des estimations : aucun n'est calibré.
-# ---------------------------------------------------------------------
-M = 100                      # unités émises et allouées
-D = 100                      # montant de la dépense
-
-# A36 — DEUX mécanismes, DEUX assiettes, DEUX redevables.
-TAUX_PRELEVEMENT = (1, 4)    # assiette : le MONTANT DE LA TRANSACTION
-TAUX_DEMURRAGE = (1, 5)      # assiette : L'ENCAISSE DÉTENUE à la date
-
+M = 100
+D = 100
+TAUX_PRELEVEMENT = (1, 4)     # assiette : LA TRANSACTION
+TAUX_DEMURRAGE = (1, 5)       # assiette : L'ENCAISSE DÉTENUE
 PRELEVEMENT = D * TAUX_PRELEVEMENT[0] // TAUX_PRELEVEMENT[1]        # 25
 ASSIETTE_DEMURRAGE = D - PRELEVEMENT                                # 75
-DEMURRAGE = (ASSIETTE_DEMURRAGE * TAUX_DEMURRAGE[0]
-             // TAUX_DEMURRAGE[1])                                  # 15
+DEMURRAGE = ASSIETTE_DEMURRAGE * TAUX_DEMURRAGE[0] // TAUX_DEMURRAGE[1]  # 15
 
-ECHANGE = 60                 # unités échangées contre devises entre participants
-CONTRIBUTION = 40            # contribution statutaire réglée en unités
-DEVISES_BCN2 = 60            # devises que la banque centrale contributrice tient
+CONTRIB_DETENTEUR = 20        # obligation présente du détenteur envers l'émetteur
+ECHANGE = 60
+CONTRIBUTION = 40
+DEVISES_BCN2 = 60
 
-# Les actifs que l'émetteur peut porter, et le secteur qui les doit.
-# `None` : aucun débiteur identifié — la reconnaissance s'en saisit.
+# Règle de désignation. NON SOURCÉE : le corpus n'a pas pu ouvrir les documents
+# du Fonds (403 le 2026-09-09) et n'a pas lu l'article XIX, section 5, des
+# Statuts. Le facteur ci-dessous est un PARAMÈTRE DÉCLARÉ, non un fait établi.
+PLAFOND_DESIGNATION_FACTEUR = 2
+PLAFOND_DESIGNATION_SOURCE = False
+
 DEBITEUR = {
     "créance d'allocation sur la BCN": "BCN",
     "créance sur les bénéficiaires": "BEN",
     "créance de prélèvement": "RDM",
     "créance de démurrage": "RDM",
-    "créance de contribution": "BCN2",
+    "créance de contribution": None,      # le débiteur varie : voir les miroirs
     "créance sur reflux futur": None,
     DEVISES: "RDM",
 }
-
-# Actifs qu'un obligé peut effectivement remettre pour servir une conversion.
 MOBILISABLES = (DEVISES,)
 
 MIROIRS = [
@@ -121,8 +115,6 @@ MIROIRS = [
      ("RDM", "dette de prélèvement", PASSIF)),
     (("INST", "créance de démurrage", ACTIF),
      ("RDM", "dette de démurrage", PASSIF)),
-    (("INST", "créance de contribution", ACTIF),
-     ("BCN2", "contribution statutaire due", PASSIF)),
     (("INST", "créance sur les bénéficiaires", ACTIF),
      ("BEN", "dette envers l'émetteur", PASSIF)),
     (("ETAT", "créance de prélèvement", ACTIF),
@@ -143,44 +135,25 @@ MIROIRS = [
 
 
 class Ecriture(object):
-    """Une opération. `motifs` déclare toute variation de situation nette."""
-
     def __init__(self, libelle, postes, motifs=None):
         self.libelle = libelle
-        self.postes = postes            # (secteur, compte, cote, montant)
+        self.postes = postes
         self.motifs = motifs or {}
 
 
 class Branche(object):
-    """Une branche de l'arbre A35b : ses axes de conception et sa fiche.
+    """Une branche de l'arbre A35b.
 
-    AXES
-      circulation   'monnaie_nationale' — la monnaie créée en regard circule ;
-                    'unite_directe'     — l'unité elle-même circule ;
-                    'avoir_de_reserve'  — l'unité reste entre banques centrales ;
-                    'collectif'         — structure de type droit de tirage
-                                          spécial, sans passif chez l'émetteur.
-      inscription   ce que l'ÉMETTEUR inscrit en regard de l'unité émise
-      allocation    ce que la banque centrale inscrit en regard de l'unité reçue
-      beneficiaire  'subvention' | 'credit' | 'conditionnel'
-      souscription  capital versé à l'avance par les membres et détenu par
-                    l'émetteur, en devises
-      collecteur    qui perçoit le PRÉLÈVEMENT TRANSACTIONNEL — 'INST' ou
-                    'ETAT'. A36 laisse ce point ouvert, et il décide de ce que
-                    le reflux éteint.
-
-    RECONNAISSANCE — les quatre éléments du § 4.101 et du § 4.103 [S1]
-      obligation, debiteur, creancier, creance = (secteur, compte, côté)
-
-    EXIGIBILITÉ
-      exigibilite   'a_vue' | 'a_echeance' | 'sans_decaissement'
-      service       'obligé_seul' | 'autres_participants' | None
+    LE CRÉANCIER N'EST PAS UN CHAMP. Il est DÉRIVÉ des écritures : à chaque
+    étape, les créanciers sont les détenteurs de l'unité, et la créance de
+    chacun vaut son encours. C'est la correction de l'auteur du 2026-09-09.
     """
 
     def __init__(self, cle, titre, circulation, inscription, allocation,
-                 beneficiaire, obligation, debiteur, creancier, creance,
-                 exigibilite, service, droit, extinction, pertes,
-                 exigences_juridiques, souscription=0, collecteur="INST"):
+                 beneficiaire, obligation, passif_chez, compte_passif,
+                 droit_attache, servi_par, exigibilite, extinction, pertes,
+                 exigences_juridiques, souscription=0, collecteur="INST",
+                 emploi_collecte=None, contrib_detenteur=0):
         self.cle, self.titre = cle, titre
         self.circulation = circulation
         self.inscription = inscription
@@ -188,28 +161,23 @@ class Branche(object):
         self.beneficiaire = beneficiaire
         self.souscription = souscription
         self.collecteur = collecteur
+        self.emploi_collecte = emploi_collecte
+        self.contrib_detenteur = contrib_detenteur
         self.obligation = obligation
-        self.debiteur = debiteur
-        self.creancier = creancier
-        self.creance = creance
-        self.exigibilite = exigibilite
-        self.service = service
-        self.droit = droit
+        self.passif_chez = passif_chez          # "INST" ou "receveur"
+        self.compte_passif = compte_passif      # EMISES ou ALLOC
+        self.droit_attache = droit_attache
+        self.servi_par = servi_par              # "INST", "participants", None
+        self.exigibilite = exigibilite          # "a_vue", "sans_decaissement"
         self.extinction = extinction
         self.pertes = pertes
         self.exigences_juridiques = exigences_juridiques
 
 
 # ---------------------------------------------------------------------
-# Positions d'ouverture et écritures
+# Écritures
 # ---------------------------------------------------------------------
 def ouverture(b):
-    """Ce qui est DÉJÀ LÀ quand la matrice commence.
-
-    Ce ne sont pas des flux : personne ne s'enrichit en constatant qu'il
-    possédait déjà quelque chose. Exemptes du contrôle 6, soumises au
-    contrôle 1.
-    """
     p = []
     if b.souscription:
         p += [("ETAT", DEVISES, ACTIF, +b.souscription),
@@ -221,7 +189,6 @@ def ouverture(b):
 
 
 def _emission(b):
-    """Ce que l'émetteur inscrit en regard de l'unité. (postes, motifs)"""
     p, m = [], {}
     if b.inscription == "creance_allocation":
         p += [("INST", "créance d'allocation sur la BCN", ACTIF, +M),
@@ -238,25 +205,46 @@ def _emission(b):
         m["INST"] = ("émission sans contrepartie à l'actif : la situation nette "
                      "de l'émetteur absorbe le montant")
     elif b.inscription == "aucune":
-        pass          # structure collective : l'émetteur n'est pas le débiteur
+        pass
     elif b.inscription != "hors_bilan":
         raise ValueError(b.inscription)
     return p, m
 
 
-def _prelevement_transactionnel(b, compte_regle, secteur_regle):
-    """A36, premier mécanisme. Assiette : LA TRANSACTION. Redevable : le vendeur.
+def _contribution(debiteur, montant, libelle_suffixe=""):
+    """Une obligation PRÉSENTE du détenteur envers l'émetteur, avec son fait
+    générateur, puis son règlement EN UNITÉS.
 
-    Le collecteur est un PARAMÈTRE, parce que A36 n'a pas arrêté l'architecture
-    juridique. S'il est l'émetteur, le règlement ÉTEINT l'unité. S'il est
-    l'État, il ne l'éteint pas : l'État devient détenteur.
+    Sans elle, le droit « remettre l'unité en règlement de ce qui est dû » ne
+    porte sur rien : il resterait une possibilité future. Correction de
+    l'auteur du 2026-09-09.
     """
+    return [
+        Ecriture(
+            "Contribution statutaire due par %s — fait générateur%s"
+            % (debiteur, libelle_suffixe),
+            [("INST", "créance de contribution", ACTIF, +montant),
+             ("INST", "report à nouveau", SN, +montant),
+             (debiteur, DUE, PASSIF, +montant),
+             (debiteur, "report à nouveau", SN, -montant)],
+            {"INST": "produit de la contribution statutaire",
+             debiteur: "contribution statutaire due à l'émetteur"}),
+        Ecriture(
+            "Contribution réglée EN UNITÉS : le droit du détenteur s'exerce%s"
+            % libelle_suffixe,
+            [(debiteur, AVOIRS, ACTIF, -montant),
+             (debiteur, DUE, PASSIF, -montant),
+             ("INST", "créance de contribution", ACTIF, -montant),
+             ("INST", EMISES, PASSIF, -montant)])]
+
+
+def _prelevement(b, compte, via_bcn):
     col = b.collecteur
     dette = ("dette de prélèvement" if col == "INST"
              else "dette de prélèvement fiscale")
     E = [Ecriture(
-        "Prélèvement transactionnel — fait générateur (assiette : la "
-        "transaction, %d %% de %d)" % (100 * TAUX_PRELEVEMENT[0]
+        "Prélèvement transactionnel — fait générateur (assiette : LA "
+        "TRANSACTION, %d %% de %d)" % (100 * TAUX_PRELEVEMENT[0]
                                        // TAUX_PRELEVEMENT[1], D),
         [(col, "créance de prélèvement", ACTIF, +PRELEVEMENT),
          (col, "report à nouveau", SN, +PRELEVEMENT),
@@ -264,11 +252,10 @@ def _prelevement_transactionnel(b, compte_regle, secteur_regle):
          ("RDM", "report à nouveau", SN, -PRELEVEMENT)],
         {col: "produit du prélèvement transactionnel",
          "RDM": "prélèvement transactionnel dû par le vendeur"})]
-
-    regle = [("RDM", compte_regle, ACTIF, -PRELEVEMENT),
+    regle = [("RDM", compte, ACTIF, -PRELEVEMENT),
              ("RDM", dette, PASSIF, -PRELEVEMENT),
              (col, "créance de prélèvement", ACTIF, -PRELEVEMENT)]
-    if secteur_regle:      # le circuit passe par la banque centrale
+    if via_bcn:
         regle += [("BQ", "dépôts du reste de l'économie", PASSIF, -PRELEVEMENT),
                   ("BQ", "réserves à la banque centrale", ACTIF, -PRELEVEMENT),
                   ("BCN", "réserves des banques", PASSIF, -PRELEVEMENT),
@@ -281,13 +268,32 @@ def _prelevement_transactionnel(b, compte_regle, secteur_regle):
     return E
 
 
-def _demurrage(compte_regle, secteur_regle):
-    """A36, second mécanisme. Assiette : L'ENCAISSE. Redevable : le détenteur.
+def _emploi_collecte(b):
+    """CE QUE LE COLLECTEUR FAIT DES UNITÉS PERÇUES, et cela décide de l'encours.
 
-    Règle monétaire : le collecteur est l'émetteur, et le règlement éteint.
+    Le collecteur détermine le DÉTENTEUR IMMÉDIAT. La règle d'emploi ultérieur
+    détermine l'encours final. Correction de l'auteur du 2026-09-09.
     """
+    if b.collecteur != "ETAT" or not b.emploi_collecte:
+        return []
+    if b.emploi_collecte == "conservation":
+        return []
+    if b.emploi_collecte == "remise_en_circulation":
+        return [Ecriture(
+            "Emploi : l'État REMET les unités en circulation (achat de biens)",
+            [("ETAT", AVOIRS, ACTIF, -PRELEVEMENT),
+             ("ETAT", "biens et services acquis, au coût", ACTIF, +PRELEVEMENT),
+             ("RDM", AVOIRS, ACTIF, +PRELEVEMENT),
+             ("RDM", "biens et capacités cédés", ACTIF, -PRELEVEMENT)])]
+    if b.emploi_collecte == "transfert_emetteur":
+        return _contribution("ETAT", PRELEVEMENT,
+                             " (emploi des unités perçues)")
+    raise ValueError(b.emploi_collecte)
+
+
+def _demurrage(compte, via_bcn):
     E = [Ecriture(
-        "Démurrage — fait générateur (assiette : l'encaisse détenue, %d %% de "
+        "Démurrage — fait générateur (assiette : L'ENCAISSE DÉTENUE, %d %% de "
         "%d)" % (100 * TAUX_DEMURRAGE[0] // TAUX_DEMURRAGE[1],
                  ASSIETTE_DEMURRAGE),
         [("INST", "créance de démurrage", ACTIF, +DEMURRAGE),
@@ -296,12 +302,11 @@ def _demurrage(compte_regle, secteur_regle):
          ("RDM", "report à nouveau", SN, -DEMURRAGE)],
         {"INST": "produit du démurrage sur les encaisses",
          "RDM": "démurrage supporté par le détenteur de l'encaisse"})]
-
-    regle = [("RDM", compte_regle, ACTIF, -DEMURRAGE),
+    regle = [("RDM", compte, ACTIF, -DEMURRAGE),
              ("RDM", "dette de démurrage", PASSIF, -DEMURRAGE),
              ("INST", "créance de démurrage", ACTIF, -DEMURRAGE),
              ("INST", EMISES, PASSIF, -DEMURRAGE)]
-    if secteur_regle:
+    if via_bcn:
         regle += [("BQ", "dépôts du reste de l'économie", PASSIF, -DEMURRAGE),
                   ("BQ", "réserves à la banque centrale", ACTIF, -DEMURRAGE),
                   ("BCN", "réserves des banques", PASSIF, -DEMURRAGE),
@@ -311,7 +316,6 @@ def _demurrage(compte_regle, secteur_regle):
 
 
 def sequence(b):
-    """Les écritures de la branche, dérivées de ses axes."""
     E = []
     if b.souscription:
         E.append(Ecriture(
@@ -320,64 +324,38 @@ def sequence(b):
              ("ETAT", "participation dans l'émetteur", ACTIF, +b.souscription),
              ("INST", DEVISES, ACTIF, +b.souscription),
              ("INST", "parts des souscripteurs", PASSIF, +b.souscription)]))
-
     p, m = _emission(b)
 
-    # ---------------------------------------------------------------
     if b.circulation == "collectif":
-        # Structure de type droit de tirage spécial : l'ALLOCATION est un
-        # passif du RÉCEVEUR, non de l'émetteur, et l'émetteur ne tient que
-        # les comptes. Deux participants au moins sont nécessaires : la
-        # liquidité ne vient pas de l'émetteur, elle vient des autres.
+        # Chaque membre est le DÉBITEUR DÉTERMINÉ de sa propre allocation
+        # [S1, § 12.49]. L'émetteur tient les comptes et n'est pas débiteur.
         for s in ("BCN", "BCN2"):
             p += [(s, AVOIRS, ACTIF, +M), (s, ALLOC, PASSIF, +M)]
-        E.append(Ecriture("Allocation aux participants : avoirs à l'actif, "
-                          "allocation cumulative au passif de CHAQUE receveur",
-                          p, m))
+        E.append(Ecriture("Allocation : avoirs à l'actif, allocation au passif "
+                          "de CHAQUE membre receveur", p, m))
         E.append(Ecriture(
-            "Échange volontaire entre participants : la BCN cède des avoirs "
-            "contre des devises",
-            [("BCN", AVOIRS, ACTIF, -ECHANGE),
-             ("BCN", DEVISES, ACTIF, +ECHANGE),
+            "Échange entre participants : la BCN cède des avoirs contre des "
+            "devises",
+            [("BCN", AVOIRS, ACTIF, -ECHANGE), ("BCN", DEVISES, ACTIF, +ECHANGE),
              ("BCN2", DEVISES, ACTIF, -ECHANGE),
              ("BCN2", AVOIRS, ACTIF, +ECHANGE)]))
         return E
 
-    # ---------------------------------------------------------------
     if b.circulation == "avoir_de_reserve":
         p += [("BCN", AVOIRS, ACTIF, +M)]
-        if b.allocation == "engagement":
-            p += [("BCN", "engagement d'allocation envers l'émetteur",
-                   PASSIF, +M)]
-        else:
-            p += [("BCN", "report à nouveau", SN, +M)]
-            m["BCN"] = ("allocation définitive : aucune contrepartie n'est "
-                        "exigible par l'émetteur")
+        p += [("BCN", "report à nouveau", SN, +M)]
+        m["BCN"] = ("allocation définitive : aucune contrepartie n'est exigible "
+                    "par l'émetteur")
         E.append(Ecriture("Émission et allocation à la banque centrale", p, m))
         E.append(Ecriture(
-            "Échange volontaire entre participants : la BCN cède des unités "
-            "contre des devises",
-            [("BCN", AVOIRS, ACTIF, -ECHANGE),
-             ("BCN", DEVISES, ACTIF, +ECHANGE),
+            "Échange entre participants : la BCN cède des unités contre des "
+            "devises",
+            [("BCN", AVOIRS, ACTIF, -ECHANGE), ("BCN", DEVISES, ACTIF, +ECHANGE),
              ("BCN2", DEVISES, ACTIF, -ECHANGE),
              ("BCN2", AVOIRS, ACTIF, +ECHANGE)]))
-        E.append(Ecriture(
-            "Contribution statutaire due à l'émetteur — fait générateur",
-            [("INST", "créance de contribution", ACTIF, +CONTRIBUTION),
-             ("INST", "report à nouveau", SN, +CONTRIBUTION),
-             ("BCN2", "contribution statutaire due", PASSIF, +CONTRIBUTION),
-             ("BCN2", "report à nouveau", SN, -CONTRIBUTION)],
-            {"INST": "produit de la contribution statutaire",
-             "BCN2": "contribution statutaire due à l'émetteur"}))
-        E.append(Ecriture(
-            "Contribution réglée EN UNITÉS : l'émetteur accepte, et éteint",
-            [("BCN2", AVOIRS, ACTIF, -CONTRIBUTION),
-             ("BCN2", "contribution statutaire due", PASSIF, -CONTRIBUTION),
-             ("INST", "créance de contribution", ACTIF, -CONTRIBUTION),
-             ("INST", EMISES, PASSIF, -CONTRIBUTION)]))
+        E += _contribution("BCN2", CONTRIBUTION)
         return E
 
-    # ---------------------------------------------------------------
     if b.circulation == "unite_directe":
         p += [("BEN", AVOIRS, ACTIF, +M)]
         if b.beneficiaire == "credit":
@@ -387,20 +365,17 @@ def sequence(b):
             m["BEN"] = "allocation non remboursable : enrichissement net"
         E.append(Ecriture("Émission et allocation directe aux bénéficiaires",
                           p, m))
-        # Échange au coût. Aucune situation nette ne bouge, et c'est délibéré :
-        # la matrice ne sait pas si l'ouvrage vaut son coût, ni si les
-        # ressources réelles existaient. C'est la question de L1.C31.
         E.append(Ecriture(
             "Dépense des bénéficiaires, réglée en unités",
             [("BEN", AVOIRS, ACTIF, -D),
              ("BEN", "ouvrage réalisé, au coût", ACTIF, +D),
              ("RDM", AVOIRS, ACTIF, +D),
              ("RDM", "biens et capacités cédés", ACTIF, -D)]))
-        E += _prelevement_transactionnel(b, AVOIRS, None)
-        E += _demurrage(AVOIRS, None)
+        E += _prelevement(b, AVOIRS, False)
+        E += _emploi_collecte(b)
+        E += _demurrage(AVOIRS, False)
         return E
 
-    # ---------------------------------------------------------------
     if b.circulation != "monnaie_nationale":
         raise ValueError(b.circulation)
 
@@ -435,18 +410,14 @@ def sequence(b):
     if b.beneficiaire == "credit":
         p3 += [("BEN", "dette envers le guichet", PASSIF, +M),
                ("ETAT", "créance sur les bénéficiaires", ACTIF, +M)]
-    elif b.beneficiaire in ("subvention", "conditionnel"):
+    else:
         # Une obligation conditionnelle dont la réalisation n'est pas probable
-        # n'est PAS un passif : c'est un engagement hors bilan [S1, glossaire].
-        # À l'inception, la branche conditionnelle s'écrit donc comme la
-        # subvention. C'est une conclusion du texte de la norme, non une
-        # approximation du modèle.
+        # n'est pas reconnue comme passif [S1, glossaire] : à l'inception, la
+        # branche conditionnelle s'écrit comme la subvention.
         p3 += [("BEN", "report à nouveau", SN, +M),
                ("ETAT", "report à nouveau", SN, -M)]
         m3["BEN"] = "allocation non remboursable : enrichissement net"
         m3["ETAT"] = "transfert définitif aux bénéficiaires"
-    else:
-        raise ValueError(b.beneficiaire)
     E.append(Ecriture("Versement aux bénéficiaires", p3, m3))
 
     E.append(Ecriture(
@@ -458,13 +429,16 @@ def sequence(b):
          ("BQ", "dépôts des bénéficiaires", PASSIF, -D),
          ("BQ", "dépôts du reste de l'économie", PASSIF, +D)]))
 
-    E += _prelevement_transactionnel(b, "dépôts bancaires", "BCN")
-    E += _demurrage("dépôts bancaires", "BCN")
+    E += _prelevement(b, "dépôts bancaires", True)
+    E += _emploi_collecte(b)
+    E += _demurrage("dépôts bancaires", True)
+    if b.contrib_detenteur:
+        E += _contribution("BCN", b.contrib_detenteur)
     return E
 
 
 # ---------------------------------------------------------------------
-# Passage
+# Passage et R1a
 # ---------------------------------------------------------------------
 def totaux(bilans, s):
     c = bilans[s]
@@ -474,17 +448,23 @@ def totaux(bilans, s):
     return a, p, n
 
 
+def detenteurs(inst):
+    """Les créanciers du moment : ceux qui tiennent l'unité, et pour combien."""
+    return [(s, inst[s].get((AVOIRS, ACTIF), 0)) for s, _ in SECTEURS
+            if inst[s].get((AVOIRS, ACTIF), 0) > 0]
+
+
+def passif_total(b, inst):
+    if b.passif_chez == "receveur":
+        return sum(inst[s].get((ALLOC, PASSIF), 0) for s, _ in SECTEURS)
+    return inst["INST"].get((EMISES, PASSIF), 0)
+
+
 def _copie(bilans):
     return dict((s, dict(c)) for s, c in bilans.items())
 
 
 def passer(b):
-    """Retourne (bilans finaux, chronologie, anomalies arithmétiques).
-
-    La chronologie porte un instantané des bilans APRÈS chaque opération :
-    une obligation exigible à tout moment ne se contrôle pas sur le seul
-    bilan final.
-    """
     bilans = dict((s, {}) for s, _ in SECTEURS)
     anomalies = []
 
@@ -493,7 +473,7 @@ def passer(b):
     for s, _ in SECTEURS:
         a, p, n = totaux(bilans, s)
         if a - p - n:
-            anomalies.append("[1] ouverture : le bilan de %s ne se ferme pas "
+            anomalies.append("[R1a] ouverture : le bilan de %s ne se ferme pas "
                              "(écart %+d)" % (s, a - p - n))
     chrono = [("Position d'ouverture", _copie(bilans))]
 
@@ -505,295 +485,304 @@ def passer(b):
             if co == SN and v:
                 sn_bougee.add(s)
                 dsn += v
-
         for s in [k for k, _ in SECTEURS if k in touches]:
             a, p, n = totaux(bilans, s)
             if a - p - n:
-                anomalies.append("[1] opération %d : le bilan de %s ne se "
+                anomalies.append("[R1a] opération %d : le bilan de %s ne se "
                                  "ferme pas (écart %+d)" % (i, s, a - p - n))
         for s in [k for k, _ in SECTEURS if k in sn_bougee]:
             if s not in e.motifs:
-                anomalies.append("[3] opération %d : la situation nette de %s "
+                anomalies.append("[R1a] opération %d : la situation nette de %s "
                                  "varie sans motif déclaré" % (i, s))
         if dsn:
+            anomalies.append("[R1a] opération %d « %s » : la somme des "
+                             "situations nettes varie de %+d"
+                             % (i, e.libelle, dsn))
+        # L'IDENTITÉ CENTRALE, contrôlée à CHAQUE étape et non à la fin :
+        # le passif total doit égaler la somme des avoirs de TOUS les
+        # détenteurs. C'est ainsi que la qualité de créancier migre.
+        pt = passif_total(b, bilans)
+        det = sum(v for _, v in detenteurs(bilans))
+        if pt != det:
             anomalies.append(
-                "[6] opération %d « %s » : la somme des situations nettes "
-                "varie de %+d — richesse sans contrepartie" % (i, e.libelle,
-                                                               dsn))
+                "[R1a] opération %d : passif total %d, avoirs détenus %d — "
+                "l'identité créancier/débiteur est rompue" % (i, pt, det))
         chrono.append(("%d. %s" % (i, e.libelle), _copie(bilans)))
 
     for s, _ in SECTEURS:
         a, p, n = totaux(bilans, s)
         if a - p - n:
-            anomalies.append("[2] bilan final de %s : ne se ferme pas "
+            anomalies.append("[R1a] bilan final de %s : ne se ferme pas "
                              "(écart %+d)" % (s, a - p - n))
-
-    # -- 5. miroirs -----------------------------------------------------
-    detenu = sum(bilans[s].get((AVOIRS, ACTIF), 0)
-                 for s, _ in SECTEURS if s != "INST")
-    if b.circulation == "collectif":
-        alloue = sum(bilans[s].get((ALLOC, PASSIF), 0) for s, _ in SECTEURS)
-        if alloue != detenu:
-            anomalies.append(
-                "[5] allocations cumulatives %d, avoirs détenus %d — dans une "
-                "structure collective, les deux totaux doivent coïncider"
-                % (alloue, detenu))
-    else:
-        emis = bilans["INST"].get((EMISES, PASSIF), 0)
-        if emis != detenu:
-            anomalies.append(
-                "[5] encours émis %d, avoirs détenus %d — l'encours n'a pas de "
-                "contrepartie" % (emis, detenu))
-        if emis < 0:
-            anomalies.append("[7] l'encours émis devient NÉGATIF (%d)" % emis)
+    if b.passif_chez == "INST" and bilans["INST"].get((EMISES, PASSIF), 0) < 0:
+        anomalies.append("[R1a] l'encours émis devient NÉGATIF")
+    # miroir des contributions : l'émetteur face à des débiteurs variables
+    v1 = bilans["INST"].get(("créance de contribution", ACTIF), 0)
+    v2 = sum(bilans[s].get((DUE, PASSIF), 0) for s, _ in SECTEURS)
+    if v1 != v2:
+        anomalies.append("[R1a] miroir des contributions : %d contre %d"
+                         % (v1, v2))
     for (s1, c1, k1), (s2, c2, k2) in MIROIRS:
-        v1, v2 = bilans[s1].get((c1, k1), 0), bilans[s2].get((c2, k2), 0)
-        if v1 != v2:
-            anomalies.append("[5] miroir rompu : %s/%s = %d, %s/%s = %d"
-                             % (s1, c1, v1, s2, c2, v2))
+        a1, a2 = bilans[s1].get((c1, k1), 0), bilans[s2].get((c2, k2), 0)
+        if a1 != a2:
+            anomalies.append("[R1a] miroir rompu : %s/%s = %d, %s/%s = %d"
+                             % (s1, c1, a1, s2, c2, a2))
     return bilans, chrono, anomalies
 
 
 # ---------------------------------------------------------------------
-# R1 — reconnaissance comptable
+# R1b — qualification PROPOSÉE. Rien ici n'est calculé.
 # ---------------------------------------------------------------------
-def reconnaissance(b, chrono):
-    """Les quatre éléments du § 4.101 et du § 4.103 [S1].
+def qualification(b, chrono):
+    obs, reserves = [], []
 
-    Un passif suppose une obligation, un débiteur et un créancier ; et le
-    créancier doit détenir la créance correspondante. C'EST TOUT CE QUE CE
-    CONTRÔLE VÉRIFIE. Il ne demande à personne d'être capable de payer :
-    la capacité de payer est le sujet de R2 et de R3, et une dette impayable
-    reste une dette.
-    """
-    manques = []
+    obs.append("obligation déclarée : %s" % ("oui" if b.obligation else "NON"))
     if not b.obligation:
-        manques.append("aucune OBLIGATION n'est identifiée")
-    if not b.debiteur:
-        manques.append("aucun DÉBITEUR n'est identifié")
-    elif b.debiteur == "collectif":
-        manques.append(
-            "le DÉBITEUR est collectif et n'est pas une unité déterminée, "
-            "alors que le § 4.101 exige « another unit » — c'est exactement le "
-            "point que L19.C09 a vu disparaître de la révision")
-    if not b.creancier:
-        manques.append("aucun CRÉANCIER n'est identifié")
-    if b.creance:
-        s, cpt, co = b.creance
-        if b.creancier and s != b.creancier:
-            manques.append("la créance est inscrite chez %s alors que le "
-                           "créancier déclaré est %s" % (s, b.creancier))
-        jamais = all(inst[s].get((cpt, co), 0) == 0 for _, inst in chrono)
-        if jamais:
-            manques.append("le créancier %s ne détient à AUCUNE étape la "
-                           "créance correspondante « %s »" % (s, cpt))
+        reserves.append("aucune obligation n'est déclarée : rien ne permet de "
+                        "proposer la qualification de passif")
+
+    if b.passif_chez == "receveur":
+        obs.append("débiteur : CHAQUE MEMBRE RECEVEUR, pour sa propre "
+                   "allocation — débiteur déterminé, et non collectif")
+        obs.append("architecture DIFFÉRENTE de A35a, qui place le passif chez "
+                   "l'émetteur ; ce n'est pas un défaut, c'est une "
+                   "architecture concurrente")
     else:
-        manques.append("aucune CRÉANCE correspondante n'est désignée")
-    return manques
+        obs.append("débiteur : l'émetteur, pour la totalité de l'encours")
+
+    # Le créancier MIGRE avec l'instrument.
+    mouvements = []
+    for libelle, inst in chrono:
+        d = detenteurs(inst)
+        if d:
+            mouvements.append((libelle, d))
+    if mouvements:
+        finaux = mouvements[-1][1]
+        obs.append("créanciers à la dernière étape : %s"
+                   % ", ".join("%s pour %d" % (s, v) for s, v in finaux))
+        porteurs = set()
+        for _, d in mouvements:
+            porteurs.update(s for s, _ in d)
+        obs.append("la qualité de créancier a migré entre %d secteurs au cours "
+                   "du circuit : %s" % (len(porteurs), ", ".join(sorted(porteurs))))
+    else:
+        reserves.append("personne ne détient l'unité à aucune étape")
+
+    # L'obligation présente que l'unité peut éteindre est-elle MODÉLISÉE ?
+    materialisee = False
+    for libelle, inst in chrono:
+        du = sum(inst[s].get((DUE, PASSIF), 0) for s, _ in SECTEURS)
+        du += sum(inst[s].get(("dette de prélèvement", PASSIF), 0)
+                  for s, _ in SECTEURS)
+        du += sum(inst[s].get(("dette de démurrage", PASSIF), 0)
+                  for s, _ in SECTEURS)
+        if du:
+            porteurs_du = set()
+            for s, _ in SECTEURS:
+                if (inst[s].get((DUE, PASSIF), 0)
+                        or inst[s].get(("dette de prélèvement", PASSIF), 0)
+                        or inst[s].get(("dette de démurrage", PASSIF), 0)):
+                    porteurs_du.add(s)
+            if any(inst[s].get((AVOIRS, ACTIF), 0) > 0 for s in porteurs_du):
+                materialisee = True
+                break
+    if b.exigibilite == "sans_decaissement":
+        if materialisee:
+            obs.append("obligation présente du détenteur envers l'obligé : "
+                       "MODÉLISÉE, avec son fait générateur — le droit "
+                       "s'exerce sur quelque chose")
+        else:
+            reserves.append(
+                "le droit consiste à remettre l'unité en règlement de ce qui "
+                "est dû à l'émetteur, MAIS AUCUNE DETTE DE CE GENRE N'EST "
+                "MODÉLISÉE chez un détenteur : le droit reste une possibilité "
+                "future, et la qualification reste à examiner")
+
+    return obs, reserves
 
 
 # ---------------------------------------------------------------------
-# R2 — liquidité immédiate, contrôlée au PIC
+# R2 — liquidité, par scénario
 # ---------------------------------------------------------------------
 def liquidite(b, chrono):
-    """L'obligé peut-il servir la demande maximale exigible, à CHAQUE étape ?
-
-    Une obligation stipulée « à tout moment et à la demande » se contrôle au
-    pic de l'encours exigible, jamais sur le bilan final. Contrôler l'état
-    final reviendrait à supposer que personne ne demande rien avant la fin.
-    """
     if b.exigibilite == "sans_decaissement":
-        return {"objet": False, "note":
-                "sans objet : l'obligation ne demande aucun décaissement de "
-                "l'obligé — il REÇOIT l'unité, il ne la rachète pas"}
+        return {"type": "sans_objet"}
+
+    if b.servi_par == "participants":
+        # TROIS SCÉNARIOS SÉPARÉS, chacun évalué AU MOMENT OÙ IL S'EXERCERAIT.
+        # Le stress n'est jamais la mesure ordinaire de la liquidité d'un
+        # instrument : correction de l'auteur du 2026-09-09.
+        def dispo(inst, demandeur):
+            return sum(inst[s].get((DEVISES, ACTIF), 0) for s, _ in SECTEURS
+                       if s not in ("INST", demandeur))
+
+        avant = chrono[1][1] if len(chrono) > 1 else chrono[0][1]
+        fin = chrono[-1][1]
+        alloc = fin["BCN2"].get((ALLOC, PASSIF), 0)
+        avoirs = fin["BCN2"].get((AVOIRS, ACTIF), 0)
+        regle = max(0, PLAFOND_DESIGNATION_FACTEUR * alloc - avoirs)
+        return {"type": "participants", "scenarios": [
+            ("fonctionnement normal, par accord volontaire",
+             ECHANGE, None, dispo(avant, "BCN"),
+             "demande courante, servie par les devises que l'autre "
+             "participant détient AVANT l'échange"),
+            ("plafond statutaire de désignation",
+             regle, regle, dispo(fin, "BCN"),
+             "la RÈGLE autoriserait davantage ; ce qui borne ici n'est pas "
+             "la règle mais les devises restantes, l'échange volontaire les "
+             "ayant déjà déplacées"),
+            ("RUÉE : la totalité des détenteurs à la fois",
+             sum(v for _, v in detenteurs(fin)), None, dispo(fin, None),
+             "scénario de STRESS, jamais l'état ordinaire de liquidité")]}
 
     lignes, pire = [], None
     for libelle, inst in chrono:
-        exigible = sum(inst[s].get((AVOIRS, ACTIF), 0)
-                       for s, _ in SECTEURS if s != b.debiteur)
-        if b.service == "autres_participants":
-            couverture = sum(inst[s].get((DEVISES, ACTIF), 0)
-                             for s, _ in SECTEURS
-                             if s not in (b.creancier, "INST"))
-            qui = "les autres participants"
-        else:
-            couverture = sum(v for (cpt, co), v in inst[b.debiteur].items()
-                             if co == ACTIF and cpt in MOBILISABLES)
-            qui = b.debiteur
+        exigible = sum(v for _, v in detenteurs(inst))
+        couverture = sum(v for (cpt, co), v in inst["INST"].items()
+                         if co == ACTIF and cpt in MOBILISABLES)
         lignes.append((libelle, exigible, couverture))
         if exigible > couverture and (pire is None
                                       or exigible - couverture > pire[1]):
             pire = (libelle, exigible - couverture, exigible, couverture)
-    return {"objet": True, "lignes": lignes, "pire": pire, "qui": qui}
+    return {"type": "oblige", "lignes": lignes, "pire": pire}
 
 
-# ---------------------------------------------------------------------
-# R3 — ce que la matrice peut seulement RAPPORTER
-# ---------------------------------------------------------------------
 def solvabilite(b, bilans):
-    if b.circulation == "collectif":
-        residu = sum(bilans[s].get((ALLOC, PASSIF), 0) for s, _ in SECTEURS)
-    else:
-        residu = bilans["INST"].get((EMISES, PASSIF), 0)
-    ressources = b.souscription
-    for (cpt, co), v in bilans["INST"].items():
-        if co == ACTIF and v > 0 and cpt != DEVISES:
-            ressources += v
-    ressources += sum(v for (cpt, co), v in bilans["INST"].items()
-                      if co == ACTIF and cpt == DEVISES)
+    residu = passif_total(b, bilans)
+    ressources = sum(v for (cpt, co), v in bilans["INST"].items()
+                     if co == ACTIF and v > 0)
     return residu, ressources
 
 
 # ---------------------------------------------------------------------
-# L'arbre A35b
+# L'arbre
 # ---------------------------------------------------------------------
-ACCEPT = ("accepter l'unité en règlement de ce qui est dû à l'émetteur, à sa "
-          "valeur faciale")
+ACCEPT = ("accepter l'unité en règlement des contributions et prélèvements dus "
+          "à l'émetteur, à sa valeur faciale")
 CONVERT = ("remettre au détenteur des devises librement utilisables contre "
            "l'unité, à tout moment et à sa demande")
+ECHANGE_STAT = ("obtenir des devises librement utilisables auprès des AUTRES "
+                "participants, par accord ou sur désignation")
+JUR = ["l'instrument qui crée l'obligation et la rend opposable",
+       "le statut de l'émetteur et sa capacité à contracter",
+       "l'autorité qui lève, et sur quel fondement"]
 
-JUR_COMMUN = ["l'instrument qui crée l'obligation et la rend opposable",
-              "le statut de l'émetteur et sa capacité à contracter",
-              "l'autorité qui lève, et sur quel fondement"]
+
+def _mn(cle, titre, **kw):
+    base = dict(circulation="monnaie_nationale", inscription="situation_nette",
+                allocation="definitive", beneficiaire="subvention",
+                obligation=ACCEPT, passif_chez="INST", compte_passif=EMISES,
+                droit_attache="remettre l'unité en règlement de ce qui est dû "
+                              "à l'émetteur",
+                servi_par=None, exigibilite="sans_decaissement",
+                extinction="par le prélèvement, le démurrage et les "
+                           "contributions",
+                pertes="l'émetteur, par sa situation nette",
+                exigences_juridiques=JUR, contrib_detenteur=CONTRIB_DETENTEUR)
+    base.update(kw)
+    return Branche(cle, titre, **base)
+
 
 BRANCHES = [
-    Branche(
-        "B1", "Allocation gagée sur les reflux futurs",
-        circulation="monnaie_nationale", inscription="creance_reflux",
-        allocation="engagement", beneficiaire="subvention",
-        obligation=None, debiteur="INST", creancier=None, creance=None,
-        exigibilite="sans_decaissement", service=None,
-        droit="aucun droit exprès du détenteur",
+    _mn("B1", "Allocation gagée sur les reflux futurs",
+        inscription="creance_reflux", allocation="engagement",
+        obligation=None, contrib_detenteur=0,
+        droit_attache="aucun droit exprès",
         extinction="par les reflux, dont la créance est inscrite d'avance",
-        pertes="non désigné",
-        exigences_juridiques=JUR_COMMUN),
-    Branche(
-        "B2", "Émission définitive, prélèvement perçu PAR L'ÉMETTEUR",
-        circulation="monnaie_nationale", inscription="situation_nette",
-        allocation="definitive", beneficiaire="subvention", collecteur="INST",
-        obligation=ACCEPT, debiteur="INST", creancier="BCN",
-        creance=("BCN", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="remettre l'unité en règlement de ce qui est dû à l'émetteur",
-        extinction="par le prélèvement ET par le démurrage",
-        pertes="l'émetteur, par sa situation nette",
-        exigences_juridiques=JUR_COMMUN + [
-            "la qualification du prélèvement comme ressource de l'émetteur"]),
-    Branche(
-        "B3", "Émission définitive, prélèvement perçu PAR L'ÉTAT (A36 ouvert)",
-        circulation="monnaie_nationale", inscription="situation_nette",
-        allocation="definitive", beneficiaire="subvention", collecteur="ETAT",
-        obligation=ACCEPT, debiteur="INST", creancier="BCN",
-        creance=("BCN", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="remettre l'unité en règlement de ce qui est dû à l'émetteur",
-        extinction="par le démurrage SEUL : le prélèvement fiscal n'éteint rien",
-        pertes="l'émetteur, par sa situation nette",
-        exigences_juridiques=JUR_COMMUN + [
-            "le fondement fiscal du prélèvement et son affectation",
-            "le droit pour l'État de détenir et d'employer l'unité"]),
-    Branche(
-        "B4", "Émission définitive, le bénéficiaire recevant un crédit",
-        circulation="monnaie_nationale", inscription="situation_nette",
-        allocation="definitive", beneficiaire="credit",
-        obligation=ACCEPT, debiteur="INST", creancier="BCN",
-        creance=("BCN", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="remettre l'unité en règlement de ce qui est dû à l'émetteur",
-        extinction="par le reflux et par le remboursement du bénéficiaire",
-        pertes="le bénéficiaire d'abord, le guichet ensuite",
-        exigences_juridiques=JUR_COMMUN + [
-            "le contrat de prêt et son rang"]),
-    Branche(
-        "B5", "Émission définitive, droit monétaire conditionnel",
-        circulation="monnaie_nationale", inscription="situation_nette",
-        allocation="definitive", beneficiaire="conditionnel",
-        obligation=ACCEPT, debiteur="INST", creancier="BCN",
-        creance=("BCN", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="remettre l'unité en règlement de ce qui est dû à l'émetteur",
+        pertes="non désigné"),
+    _mn("B2", "Prélèvement perçu PAR L'ÉMETTEUR, contribution du détenteur "
+              "modélisée"),
+    _mn("B3a", "Prélèvement perçu PAR L'ÉTAT, qui CONSERVE les unités",
+        collecteur="ETAT", emploi_collecte="conservation",
+        extinction="par le démurrage et la contribution ; le prélèvement "
+                   "fiscal n'éteint rien tant que l'État conserve"),
+    _mn("B3b", "Prélèvement perçu PAR L'ÉTAT, qui les REMET EN CIRCULATION",
+        collecteur="ETAT", emploi_collecte="remise_en_circulation",
+        extinction="par le démurrage et la contribution ; les unités remises "
+                   "en circulation restent en encours"),
+    _mn("B3c", "Prélèvement perçu PAR L'ÉTAT, qui les TRANSFÈRE À L'ÉMETTEUR",
+        collecteur="ETAT", emploi_collecte="transfert_emetteur",
+        extinction="par le démurrage, la contribution, et le reversement des "
+                   "unités perçues"),
+    _mn("B4", "Le bénéficiaire reçoit un crédit du guichet",
+        beneficiaire="credit",
+        extinction="par le reflux, les contributions et le remboursement",
+        pertes="le bénéficiaire d'abord, le guichet ensuite"),
+    _mn("B5", "Le bénéficiaire reçoit un droit monétaire conditionnel",
+        beneficiaire="conditionnel",
         extinction="par le reflux ; la condition reste hors bilan",
         pertes="l'émetteur ; la condition n'étant pas probable, elle n'est pas "
-               "reconnue [S1, glossaire]",
-        exigences_juridiques=JUR_COMMUN + [
-            "la condition, sa constatation et l'autorité qui la constate"]),
-    Branche(
-        "B6", "L'unité n'est inscrite nulle part chez l'émetteur",
-        circulation="monnaie_nationale", inscription="hors_bilan",
-        allocation="definitive", beneficiaire="subvention",
-        obligation=None, debiteur=None, creancier=None, creance=None,
-        exigibilite="sans_decaissement", service=None,
-        droit="aucun", extinction="non définie", pertes="non désigné",
-        exigences_juridiques=JUR_COMMUN),
+               "reconnue [S1, glossaire]"),
+    _mn("B6", "L'unité n'est inscrite nulle part chez l'émetteur",
+        inscription="hors_bilan", obligation=None, contrib_detenteur=0,
+        droit_attache="aucun", extinction="non définie", pertes="non désigné"),
+    _mn("B12", "Comme B2, mais SANS obligation présente du détenteur",
+        contrib_detenteur=0,
+        extinction="par le prélèvement et le démurrage seuls"),
     Branche(
         "B7", "L'unité circule elle-même, allocation non remboursable",
         circulation="unite_directe", inscription="situation_nette",
         allocation=None, beneficiaire="subvention",
-        obligation=ACCEPT, debiteur="INST", creancier="RDM",
-        creance=("RDM", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="s'acquitter du prélèvement et du démurrage au moyen de l'unité",
+        obligation=ACCEPT, passif_chez="INST", compte_passif=EMISES,
+        droit_attache="s'acquitter du prélèvement et du démurrage au moyen de "
+                      "l'unité",
+        servi_par=None, exigibilite="sans_decaissement",
         extinction="par le prélèvement et par le démurrage",
         pertes="l'émetteur, par sa situation nette",
-        exigences_juridiques=JUR_COMMUN + [
+        exigences_juridiques=JUR + [
             "les quatre conditions sous lesquelles un actif conçu comme moyen "
             "d'échange est enregistré comme monnaie [L19.C08]"]),
     Branche(
         "B8", "L'unité circule elle-même, le bénéficiaire recevant un prêt",
         circulation="unite_directe", inscription="creance_beneficiaire",
         allocation=None, beneficiaire="credit",
-        obligation=ACCEPT, debiteur="INST", creancier="RDM",
-        creance=("RDM", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="s'acquitter du prélèvement et du démurrage au moyen de l'unité",
+        obligation=ACCEPT, passif_chez="INST", compte_passif=EMISES,
+        droit_attache="s'acquitter du prélèvement et du démurrage au moyen de "
+                      "l'unité",
+        servi_par=None, exigibilite="sans_decaissement",
         extinction="par le reflux et par le remboursement du bénéficiaire",
         pertes="le bénéficiaire d'abord, l'émetteur ensuite",
-        exigences_juridiques=JUR_COMMUN + [
-            "les quatre conditions de L19.C08", "le contrat de prêt"]),
+        exigences_juridiques=JUR + ["les quatre conditions de L19.C08",
+                                    "le contrat de prêt"]),
     Branche(
         "B9", "Conversion à vue, l'émetteur étant doté d'un capital souscrit",
         circulation="monnaie_nationale", inscription="situation_nette",
         allocation="definitive", beneficiaire="subvention",
-        souscription=M - PRELEVEMENT - DEMURRAGE,
-        obligation=CONVERT, debiteur="INST", creancier="BCN",
-        creance=("BCN", AVOIRS, ACTIF),
-        exigibilite="a_vue", service="oblige_seul",
-        droit="obtenir des devises contre l'unité, à tout moment",
+        souscription=M - PRELEVEMENT - DEMURRAGE - CONTRIB_DETENTEUR,
+        contrib_detenteur=CONTRIB_DETENTEUR,
+        obligation=CONVERT, passif_chez="INST", compte_passif=EMISES,
+        droit_attache="obtenir des devises contre l'unité, à tout moment",
+        servi_par="INST", exigibilite="a_vue",
         extinction="par le reflux, et par la conversion si elle est demandée",
         pertes="l'émetteur, puis les souscripteurs par leurs parts",
-        exigences_juridiques=JUR_COMMUN + [
-            "l'engagement de conversion et son plafond",
-            "l'appel de capital et son caractère exécutoire"]),
+        exigences_juridiques=JUR + ["l'engagement de conversion et son plafond",
+                                    "l'appel de capital et son caractère "
+                                    "exécutoire"]),
     Branche(
-        "B10", "Avoir de réserve non gagé : règlements entre participants et "
-               "contributions dues",
+        "B10", "Avoir de réserve non gagé, transféré entre participants",
         circulation="avoir_de_reserve", inscription="situation_nette",
         allocation="definitive", beneficiaire="subvention",
-        obligation=ACCEPT, debiteur="INST", creancier="BCN2",
-        creance=("BCN2", AVOIRS, ACTIF),
-        exigibilite="sans_decaissement", service=None,
-        droit="régler en unités les contributions dues à l'émetteur, et céder "
-              "l'unité à un autre participant contre devises",
+        obligation=ACCEPT, passif_chez="INST", compte_passif=EMISES,
+        droit_attache="régler en unités les contributions dues à l'émetteur, "
+                      "et céder l'unité à un autre participant contre devises",
+        servi_par=None, exigibilite="sans_decaissement",
         extinction="par le règlement des contributions statutaires",
         pertes="l'émetteur, par sa situation nette",
-        exigences_juridiques=JUR_COMMUN + [
+        exigences_juridiques=JUR + [
             "l'accord d'échange volontaire entre participants",
             "le régime des contributions statutaires réglables en unités"]),
     Branche(
-        "B11", "Structure collective de type droit de tirage spécial",
+        "B11", "Structure collective : le passif est chez CHAQUE MEMBRE "
+               "RECEVEUR",
         circulation="collectif", inscription="aucune",
         allocation=None, beneficiaire="subvention",
-        obligation="fournir des devises librement utilisables contre l'unité, "
-                   "par accord volontaire ou, en dernier ressort, sur "
-                   "désignation",
-        debiteur="collectif", creancier="BCN",
-        creance=("BCN", AVOIRS, ACTIF),
-        exigibilite="a_vue", service="autres_participants",
-        droit="obtenir des devises d'un autre participant",
-        extinction="aucune : l'allocation cumulative demeure au passif du "
+        obligation=ECHANGE_STAT, passif_chez="receveur", compte_passif=ALLOC,
+        droit_attache="obtenir des devises d'un AUTRE participant",
+        servi_par="participants", exigibilite="a_vue",
+        extinction="aucune dans ce cycle : l'allocation demeure au passif du "
                    "receveur",
-        pertes="les participants, par le mécanisme de désignation",
-        exigences_juridiques=JUR_COMMUN + [
+        pertes="les participants, par le dispositif statutaire",
+        exigences_juridiques=JUR + [
             "le mécanisme de désignation et ses plafonds",
             "les accords d'échange volontaire",
             "le régime des intérêts sur l'écart avoirs / allocation"]),
@@ -803,159 +792,162 @@ BRANCHES = [
 # ---------------------------------------------------------------------
 # Restitution
 # ---------------------------------------------------------------------
-def imprimer_bilan(bilans, s, marge="      "):
+def imprimer_bilan(bilans, s):
     a, p, n = totaux(bilans, s)
     lignes = [(cpt, co, v) for (cpt, co), v in sorted(bilans[s].items()) if v]
     if not lignes:
         return
-    print("%s%-5s %s" % (marge, s, NOM[s]))
+    print("      %-5s %s" % (s, NOM[s]))
     for co in (ACTIF, PASSIF, SN):
         for cpt, c, v in lignes:
             if c == co:
-                print("%s      %-16s %-40s %+7d" % (marge, COTE[co], cpt, v))
-    print("%s      %-16s %-40s %+7d" % (marge, "", "SITUATION NETTE", n))
+                print("            %-16s %-38s %+7d" % (COTE[co], cpt, v))
+    print("            %-16s %-38s %+7d" % ("", "SITUATION NETTE", n))
 
 
-def rendre(b, largeur=78):
+def rendre(b):
     bilans, chrono, arith = passer(b)
-    manques = reconnaissance(b, chrono)
+    obs, reserves = qualification(b, chrono)
     liq = liquidite(b, chrono)
     residu, ressources = solvabilite(b, bilans)
 
     print("")
-    print("=" * largeur)
+    print("=" * 78)
     print("%s — %s" % (b.cle, b.titre))
-    print("=" * largeur)
-    print("  FICHE DE L'UNITÉ")
-    print("    ce qui circule   : %s" % {
-        "monnaie_nationale": "la monnaie nationale créée en regard",
-        "unite_directe": "l'unité elle-même",
-        "avoir_de_reserve": "l'unité, entre banques centrales seulement",
-        "collectif": "l'unité, entre participants, sans passif chez l'émetteur",
-    }[b.circulation])
-    print("    obligation       : %s" % (b.obligation or "AUCUNE"))
-    print("    débiteur         : %s" % (b.debiteur or "—"))
-    print("    créancier        : %s" % (b.creancier or "—"))
-    print("    créance inscrite : %s" % (
-        "%s / %s" % (b.creance[0], b.creance[1]) if b.creance else "—"))
-    print("    exigibilité      : %s" % {
-        "a_vue": "À VUE, à tout moment et à la demande",
-        "a_echeance": "à échéance",
-        "sans_decaissement": "sans décaissement de l'obligé",
-    }[b.exigibilite])
-    print("    droit            : %s" % b.droit)
-    print("    extinction       : %s" % b.extinction)
-    print("    porteur du risque: %s" % b.pertes)
-    print("    prélèvement perçu par : %s   (A36 : architecture NON arrêtée)"
-          % b.collecteur)
+    print("=" * 78)
+    print("  obligation : %s" % (b.obligation or "AUCUNE"))
+    print("  passif inscrit chez : %s" % (
+        "CHAQUE MEMBRE RECEVEUR" if b.passif_chez == "receveur"
+        else "l'émetteur"))
+    print("  droit attaché : %s" % b.droit_attache)
+    print("  exigibilité : %s" % ("À VUE" if b.exigibilite == "a_vue"
+                                  else "sans décaissement de l'obligé"))
+    print("  extinction : %s" % b.extinction)
+    print("  porteur du risque : %s" % b.pertes)
 
     print("")
-    print("  R1 — COHÉRENCE COMPTABLE")
-    if arith or manques:
-        if arith:
-            for a in dict.fromkeys(arith):
-                print("      IDENTITÉ : %s" % a)
-        for m in manques:
-            print("      RECONNAISSANCE : %s" % m)
-        print("      => l'élément n'est PAS reconnu comme passif en l'état")
+    print("  R1a — COHÉRENCE ARITHMÉTIQUE (calculée)")
+    if arith:
+        for a in dict.fromkeys(arith):
+            print("      %s" % a)
     else:
-        print("      identités de bilan : tenues à chaque opération")
-        print("      obligation, débiteur, créancier et créance : identifiés")
-        print("      => reconnu comme passif au sens du § 4.101 [S1]")
+        print("      identités tenues à chaque opération, y compris")
+        print("      « passif total = somme des avoirs de tous les détenteurs »")
 
     print("")
-    print("  R2 — LIQUIDITÉ IMMÉDIATE")
-    if not liq["objet"]:
-        print("      %s" % liq["note"])
+    print("  R1b — QUALIFICATION PROPOSÉE (non calculée, à valider humainement)")
+    for o in obs:
+        print("      %s" % o)
+    for r in reserves:
+        print("      RÉSERVE : %s" % r)
+    if arith:
+        print("      => aucune qualification n'est proposée : l'arithmétique "
+              "ne tient pas")
+    elif reserves:
+        print("      => QUALIFICATION À EXAMINER — proposition suspendue")
     else:
-        print("      contrôlée à CHAQUE étape, et non sur le bilan final")
-        print("      %-52s %8s %9s" % ("étape", "exigible", "couvert"))
+        print("      => PROPOSITION : passif de l'obligé désigné, sous réserve")
+        print("         de la lecture des § 4.101 et 4.103 et de la validité")
+        print("         juridique des obligations déclarées. NON ÉTABLI ICI.")
+
+    print("")
+    print("  R2 — LIQUIDITÉ")
+    if liq["type"] == "sans_objet":
+        print("      sans objet : l'obligé ne décaisse rien, il REÇOIT l'unité")
+    elif liq["type"] == "participants":
+        print("      servie par les AUTRES PARTICIPANTS, non par l'émetteur.")
+        print("      TROIS SCÉNARIOS SÉPARÉS. Le troisième est un STRESS :")
+        for nom, dem, regle, devises, note in liq["scenarios"]:
+            etat = ("servi" if dem <= devises
+                    else "MANQUE %d" % (dem - devises))
+            print("        %s" % nom)
+            print("          demande %3d | devises disponibles %3d | %s"
+                  % (dem, devises, etat))
+            if regle is not None:
+                print("          plafond de la règle : %d" % regle)
+            print("          %s" % note)
+    else:
+        print("      contrôlée à CHAQUE étape, au pic")
         for libelle, ex, co in liq["lignes"]:
-            marque = "  <<<" if ex > co else ""
-            print("      %-52s %8d %9d%s" % (libelle[:52], ex, co, marque))
+            print("        %-50s %5d %6d%s" % (libelle[:50], ex, co,
+                                               "  <<<" if ex > co else ""))
         if liq["pire"]:
             lib, ecart, ex, co = liq["pire"]
-            print("      PIC DE TENSION : %s" % lib[:56])
-            print("      exigible %d, mobilisable par %s %d, MANQUE %d"
-                  % (ex, liq["qui"], co, ecart))
-            print("      => ILLIQUIDE À CE MOMENT. Ce n'est pas un défaut "
-                  "d'écriture :")
-            print("         le passif existe, et il ne peut pas être servi à "
-                  "cette date.")
+            print("      PIC : %s" % lib[:60])
+            print("      exigible %d, mobilisable %d, MANQUE %d" % (ex, co,
+                                                                    ecart))
+            print("      => illiquide à cette date. Le passif existe.")
         else:
-            print("      => servable à chaque étape par %s" % liq["qui"])
+            print("      => servable à chaque étape")
 
     print("")
-    print("  R3 — SOLVABILITÉ INTERTEMPORELLE : NON ÉVALUABLE SUR CETTE MATRICE")
-    print("      un seul cycle est modélisé ; la solvabilité se juge sur un")
-    print("      horizon, avec des revenus, des appels de capital et des")
-    print("      garanties que cette matrice ne porte pas.")
-    print("      sur ce cycle : encours non éteint %d, ressources identifiées %d"
+    print("  R3 — SOLVABILITÉ INTERTEMPORELLE : NON ÉVALUABLE")
+    print("      un cycle unique, sans intérêt ni horizon. Sur ce cycle :")
+    print("      passif résiduel %d, ressources de l'émetteur %d"
           % (residu, ressources))
-
     print("")
     print("  R4 — CONFORMITÉ JURIDIQUE : NON ÉVALUÉE")
     for e in b.exigences_juridiques:
         print("      exigerait : %s" % e)
 
     print("")
-    print("  CHRONOLOGIE DES BILANS")
+    print("  CHRONOLOGIE — DÉTENTEURS ET ENCOURS APRÈS CHAQUE OPÉRATION")
     for libelle, inst in chrono:
-        actifs = [(s, sum(v for (c, co), v in inst[s].items() if co == ACTIF))
-                  for s, _ in SECTEURS]
-        actifs = [(s, v) for s, v in actifs if v]
-        if not actifs:
-            continue
-        print("    %s" % libelle)
-        print("        actifs : %s" % ", ".join("%s %d" % (s, v)
-                                                for s, v in actifs))
+        d = detenteurs(inst)
+        print("      %-52s passif %3d | %s" % (
+            libelle[:52], passif_total(b, inst),
+            ", ".join("%s %d" % (s, v) for s, v in d) or "aucun détenteur"))
     print("")
     print("  BILANS FINAUX")
     for s, _ in SECTEURS:
         imprimer_bilan(bilans, s)
-    return {"cle": b.cle, "r1": not (arith or manques),
-            "r2": (None if not liq["objet"] else liq["pire"] is None)}
+    return {"cle": b.cle, "r1a": not arith,
+            "r1b": ("—" if arith else ("à examiner" if reserves
+                                       else "proposée")),
+            "encours": residu,
+            "r2": ("sans objet" if liq["type"] == "sans_objet"
+                   else ("3 scénarios" if liq["type"] == "participants"
+                         else ("servable" if liq["pire"] is None
+                               else "TENSION")))}
 
 
 def main():
     print("=" * 78)
-    print("MATRICE COMPTABLE DE NEMO IMS — arbre A35b, version 2")
+    print("MATRICE COMPTABLE DE NEMO IMS — arbre A35b, version 3")
     print("=" * 78)
-    print("Émission %d ; dépense %d ; prélèvement transactionnel %d sur une "
-          "assiette" % (M, D, PRELEVEMENT))
-    print("de transaction de %d ; démurrage %d sur une assiette d'encaisse de "
-          "%d." % (D, DEMURRAGE, ASSIETTE_DEMURRAGE))
-    print("Ce sont des repères. Aucun n'est calibré, et aucun comportement")
-    print("économique n'est modélisé.")
+    print("Émission %d ; dépense %d ; prélèvement %d sur LA TRANSACTION ; "
+          "démurrage %d" % (M, D, PRELEVEMENT, DEMURRAGE))
+    print("sur L'ENCAISSE de %d ; contribution du détenteur %d. Repères, non "
+          "estimations." % (ASSIETTE_DEMURRAGE, CONTRIB_DETENTEUR))
     print("")
-    print("QUATRE RÉSULTATS SÉPARÉS PAR BRANCHE, ET ILS NE SE COMMANDENT PAS :")
-    print("  R1 cohérence comptable   — calculé")
-    print("  R2 liquidité immédiate   — calculé, au PIC et non au bilan final")
-    print("  R3 solvabilité           — NON ÉVALUABLE sur un cycle unique")
-    print("  R4 conformité juridique  — NON ÉVALUÉE")
-    print("")
-    print("UNE BRANCHE PEUT ÊTRE COMPTABLEMENT COHÉRENTE ET ILLIQUIDE.")
-    print("Une dette impayable reste une dette : l'insuffisance d'actifs est un")
-    print("risque, elle n'efface pas l'écriture.")
+    print("R1a CALCULÉE  |  R1b PROPOSÉE  |  R2 CALCULÉE  |  R3 et R4 NON "
+          "ÉVALUÉES")
+    print("Le programme ne peut PAS établir qu'un élément est un passif : il")
+    print("propose une qualification, et elle attend une validation humaine.")
 
     res = [rendre(b) for b in BRANCHES]
 
     print("")
     print("=" * 78)
-    print("RÉCAPITULATIF — DEUX RÉSULTATS CALCULÉS, AUCUNE CONCLUSION EXCLUSIVE")
+    print("RÉCAPITULATIF")
     print("=" * 78)
-    print("  %-6s %-26s %s" % ("", "R1 cohérence comptable", "R2 liquidité"))
+    print("  %-5s %-11s %-14s %-14s %s" % ("", "R1a", "R1b", "R2", "encours"))
     for r in res:
-        r2 = ("sans objet" if r["r2"] is None
-              else ("servable" if r["r2"] else "TENSION"))
-        print("  %-6s %-26s %s" % (r["cle"],
-                                   "reconnu" if r["r1"] else "NON reconnu", r2))
+        print("  %-5s %-11s %-14s %-14s %d"
+              % (r["cle"], "tenue" if r["r1a"] else "ROMPUE", r["r1b"],
+                 r["r2"], r["encours"]))
     print("")
-    print("CE QUE CE TABLEAU NE DIT PAS. Il ne dit pas qu'une branche est")
-    print("possible, ni qu'une autre est impossible. Les branches écrites sont")
-    print("onze ; une branche qui n'est pas écrite n'est pas rejetée, elle est")
-    print("absente. Et les règles de reconnaissance retenues ici sont des")
-    print("HYPOTHÈSES DE LECTURE de la norme, non la norme elle-même.")
+    print("A36 — LE COLLECTEUR ET L'EMPLOI, LUS SUR B2, B3a, B3b, B3c :")
+    for r in res:
+        if r["cle"] in ("B2", "B3a", "B3b", "B3c"):
+            print("    %-5s encours final %d" % (r["cle"], r["encours"]))
+    print("  À CIRCUIT ULTÉRIEUR INCHANGÉ, le choix du collecteur modifie")
+    print("  l'encours IMMÉDIATEMENT APRÈS PERCEPTION. L'encours FINAL dépend")
+    print("  ensuite de l'emploi des unités collectées.")
+    print("")
+    print("AUCUNE CONCLUSION EXCLUSIVE. Une branche non écrite n'est pas")
+    print("rejetée, elle est absente. Les règles de qualification sont une")
+    print("lecture de la norme, et elles attendent un comptable national.")
     return 0
 
 

@@ -108,13 +108,14 @@ arbitrages:
     tranche_par: non-tranche
     lie_a: [A35]
     decision: >
-      OUVERT, ET LA MATRICE NE L'A PAS REFERMÉ. Une première version prétendait
-      le trancher ; l'auteur a relevé le 2026-09-09 qu'elle traitait une
-      insuffisance d'actifs comme une inexistence de passif. UNE DETTE
-      IMPAYABLE RESTE UNE DETTE. La matrice rend désormais QUATRE RÉSULTATS
-      SÉPARÉS — cohérence comptable et liquidité calculées, solvabilité et
-      conformité juridique NON ÉVALUÉES. Onze branches, aucune conclusion
-      exclusive : une branche non écrite n'est pas rejetée.
+      OUVERT. Deux versions de la matrice ont prétendu le resserrer, et
+      l'auteur les a réfutées le 2026-09-09. La version 3 rend CINQ RÉSULTATS
+      SÉPARÉS : cohérence arithmétique et liquidité CALCULÉES ; qualification
+      comptable seulement PROPOSÉE ; solvabilité intertemporelle et conformité
+      juridique NON ÉVALUÉES. Quatorze branches, aucune conclusion exclusive.
+      PROCHAIN JALON : revue par un comptable national — voir
+      protocoles/revue-comptable-a35b.md. Aucun modèle macroéconomique avant
+      elle.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L19.C02, L19.C06, L19.C10, L1.C31]
     maj: 2026-09-09

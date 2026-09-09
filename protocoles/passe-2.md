@@ -5369,108 +5369,101 @@ résolues et dettes de conception.** **La question posée par
 protocoles/candidats-verifie.md reste donc ouverte, et elle est datée.**
 
 
-## LA MATRICE COMPTABLE D'A35b — 2026-09-09, ÉCRITE, CONTREDITE ET REFAITE LE MÊME JOUR
+## LA MATRICE COMPTABLE D'A35b — 2026-09-09 : ÉCRITE, RÉFUTÉE DEUX FOIS, REFAITE DEUX FOIS
 
-**L'auteur a donné le feu vert pour le NOYAU COMPTABLE SEUL**, en excluant le
-simulateur macroéconomique. **La première version a été livrée, puis réfutée par
-l'auteur sur six points le jour même.** Ce qui suit tient l'état corrigé et le
-motif de la correction, parce que l'erreur est instructive.
+**L'auteur a donné le feu vert pour le NOYAU COMPTABLE SEUL.** Trois versions ont
+été écrites le même jour, et **les deux premières ont été réfutées par
+l'auteur**. Ce qui suit tient l'état corrigé et le motif de chaque correction,
+parce que les erreurs sont instructives et que le corpus ne masque pas les
+siennes.
 
-### CE QUE LA VERSION 1 FAISAIT DE FAUX, ET C'EST LA FAUTE PRINCIPALE
+### VERSION 1 — DEUX RÈGLES DE REJET FAUSSES
 
-**ELLE CONFONDAIT L'EXISTENCE D'UN PASSIF ET LA CAPACITÉ DE LE PAYER.** Son
-contrôle « 4c » rejetait une branche où l'émetteur promettait une conversion sans
-détenir de quoi la servir. **C'est faux : une dette reste une dette quand son
-débiteur ne peut pas l'honorer.** L'insuffisance d'actifs produit un **risque de
-liquidité ou de solvabilité**, elle ne fait pas disparaître l'écriture — et des
-banques centrales fonctionnent avec des fonds propres négatifs.
+**ELLE CONFONDAIT L'EXISTENCE D'UN PASSIF ET LA CAPACITÉ DE LE PAYER.** Elle
+rejetait une branche où l'émetteur promettait une conversion sans détenir de quoi
+la servir. **Une dette reste une dette quand son débiteur ne peut pas
+l'honorer** : l'insuffisance produit un risque de liquidité ou de solvabilité,
+et des banques centrales fonctionnent avec des fonds propres négatifs.
 
-**ELLE MESURAIT LE SEUIL APRÈS LE REFLUX.** La branche à souscription était
-déclarée servable avec soixante de réserves, parce que le programme contrôlait
-l'encours FINAL. **Or cent unités sont convertibles AVANT le reflux.** Une
-obligation stipulée « à tout moment » se contrôle **au pic**, et le pic vaut
-l'émission entière. **Le seuil prétendument exact ne l'était pas.**
-
-**ELLE REPRÉSENTAIT MAL LE PRÉCÉDENT DES DROITS DE TIRAGE SPÉCIAUX.** Un tel
-droit n'est pas une créance sur le Fonds : c'est une créance potentielle sur les
-monnaies librement utilisables des autres participants, servie par accord
-volontaire ou, en dernier ressort, par désignation. **Une matrice à une seule
-banque centrale ne peut pas représenter ce mécanisme collectif**, et la branche
-qui prétendait le tester ne le testait pas.
-
-**ELLE ÉCRIVAIT QUE LE MODÈLE CONFIRMAIT L'INCIDENCE ÉCONOMIQUE D'A35.** Il ne
-la confirmait pas : **il imposait par paramètre que le reste de l'économie soit
-redevable, puis retrouvait ce qu'il avait imposé.** Cela démontre la cohérence de
-l'écriture choisie, **rien de l'incidence réelle**, qui dépend des prix, des
-salaires, des profits, des transferts internationaux et des comportements.
-
-**ELLE RECOMBINAIT CE QU'A36 AVAIT SÉPARÉ.** Le démurrage et le prélèvement
-transactionnel étaient fondus en une seule écriture, **ce qui annulait un
-arbitrage antérieur.**
+**ELLE MESURAIT LA COUVERTURE APRÈS LE REFLUX.** Une obligation stipulée « à tout
+moment » se contrôle **au pic**, et le pic vaut l'émission entière. Le bilan
+final affichait une couverture exacte et cachait un découvert permanent.
 
 **ET SES TESTS NE PROUVAIENT PAS CE QU'ILS SEMBLAIENT PROUVER.** Ils
-établissaient que le programme appliquait ses règles. **Ils n'établissaient pas
-que les règles étaient fondées.** Un programme qui applique fidèlement une
-hypothèse fausse produit des résultats faux avec une régularité parfaite.
+établissaient que le programme appliquait ses règles, non que les règles étaient
+fondées.
 
-### CE QUE LA VERSION 2 REND
+### VERSION 2 — QUATRE FAUTES DE PLUS, RELEVÉES LE MÊME JOUR
 
-**QUATRE RÉSULTATS SÉPARÉS PAR BRANCHE, ET ILS NE SE COMMANDENT PAS.**
-**R1 COHÉRENCE COMPTABLE** — identités de bilan, et reconnaissance au sens du
-§ 4.101 : une obligation, un débiteur, un créancier, et la créance
-correspondante inscrite chez ce créancier (§ 4.103). **Calculé.**
-**R2 LIQUIDITÉ IMMÉDIATE** — la demande maximale exigible à CHAQUE étape, contre
-ce que l'obligé peut mobiliser à cette date. **Calculé, au pic.**
-**R3 SOLVABILITÉ INTERTEMPORELLE** — **non évaluable** : la matrice ne porte
-qu'un cycle. Elle rapporte le résidu et les ressources de ce cycle, et s'arrête.
-**R4 CONFORMITÉ JURIDIQUE** — **non évaluée** : chaque branche déclare ce
-qu'elle exigerait, et le corpus ne détient aucun de ces instruments.
+**ELLE MÊLAIT ENCORE CALCUL ET QUALIFICATION.** Elle écrivait « reconnu comme
+passif au sens du § 4.101 » alors qu'elle vérifiait seulement que **quatre
+étiquettes étaient renseignées**. **Une qualification comptable ne se calcule
+pas.**
 
-**UNE BRANCHE PEUT DONC ÊTRE COMPTABLEMENT COHÉRENTE ET ILLIQUIDE**, et c'est le
-cas normal d'un émetteur qui promet plus qu'il ne détient.
+**ELLE ÉCARTAIT LA STRUCTURE COLLECTIVE POUR UN MOTIF INEXACT.** Elle invoquait
+un débiteur « collectif ». **Or chaque membre est le débiteur DÉTERMINÉ de sa
+propre allocation, et la norme reconnaît explicitement ce traitement** [S1,
+§ 12.49]. Ce qui est collectif, c'est le dispositif qui **sert le droit
+d'échange** — cela relève de la liquidité, non de la reconnaissance. **Cette
+architecture contredit A35a ; elle n'est pas comptablement méconnaissable.**
 
-### A36 EST RESPECTÉ, ET LA CONSÉQUENCE EST STRUCTURELLE
+**ELLE FIGEAIT UN CRÉANCIER UNIQUE DANS LA FICHE.** Un instrument transférable
+change de créancier avec son détenteur, **et la créance de chacun vaut son
+encours du moment.** L'identité « passif total = somme des avoirs de tous les
+détenteurs » est désormais contrôlée **après chaque opération**.
 
-**DEUX MÉCANISMES, DEUX ASSIETTES, DEUX REDEVABLES, DEUX COLLECTEURS POSSIBLES.**
-Le **prélèvement transactionnel** porte sur LA TRANSACTION et est dû par le
-vendeur. Le **démurrage** porte sur L'ENCAISSE DÉTENUE et est dû par le
-détenteur. **Quatre opérations distinctes : deux faits générateurs, deux
-règlements.**
+**ELLE CONCLUAIT QUE LE COLLECTEUR DÉCIDAIT DE L'EXTINCTION.** Il ne décide que
+de la **première destination** des unités perçues.
 
-**ET LE COLLECTEUR DÉCIDE DE CE QUI S'ÉTEINT.** A36 n'a pas arrêté
-l'architecture juridique du prélèvement. **Si l'émetteur le perçoit, le règlement
-éteint l'unité. Si l'État le perçoit, il ne l'éteint pas : l'État devient
-détenteur, et seul le démurrage éteint.** **L'encours final passe de soixante à
-quatre-vingt-cinq selon ce seul choix.** **C'est une conséquence directe de
-l'arbitrage A36, et elle n'avait été vue nulle part.**
+### CE QUE LA VERSION 3 REND — CINQ RÉSULTATS, DEUX SEULEMENT CALCULÉS
 
-### LES DEUX BRANCHES AJOUTÉES
+**R1a COHÉRENCE ARITHMÉTIQUE — calculée**, y compris l'identité créancier /
+débiteur à chaque étape. **R1b QUALIFICATION — PROPOSÉE, jamais établie** : le
+programme n'écrit plus « reconnu comme passif ». **R2 LIQUIDITÉ — calculée**, au
+pic, et **par scénarios séparés** quand l'instrument est servi par d'autres
+participants. **R3 SOLVABILITÉ — non évaluable** sur un cycle sans intérêt ni
+horizon. **R4 CONFORMITÉ JURIDIQUE — non évaluée.**
 
-**L'AVOIR DE RÉSERVE NON GAGÉ.** L'unité reste entre banques centrales, sert aux
-règlements entre participants et au paiement des contributions dues à
-l'émetteur, et s'échange contre des devises fournies par un autre membre.
-**Reconnue comme passif, et sans besoin de décaissement.**
+**UNE BRANCHE PEUT ÊTRE ARITHMÉTIQUEMENT COHÉRENTE ET ILLIQUIDE ; ELLE PEUT
+L'ÊTRE ET SA QUALIFICATION RESTER À EXAMINER.** **Confondre ces plans est ce qui
+a produit toutes les fautes précédentes.**
 
-**LA STRUCTURE COLLECTIVE DE TYPE DROIT DE TIRAGE SPÉCIAL.** Sept secteurs, dont
-une banque centrale contributrice détenant des devises. **L'allocation est un
-passif du RECEVEUR, non de l'émetteur, et les avoirs sont distingués des
-allocations.** **Sa liquidité est bornée par les devises des AUTRES
-participants**, et la matrice le mesure.
+### L'ÉNONCÉ CORRECT SUR A36, ET IL REMPLACE LE PRÉCÉDENT
 
-### CE QUE LA VERSION 2 NE CONCLUT PAS
+**Trois sous-branches établissent ce que devient l'unité perçue par l'État :
+conservation, remise en circulation, transfert à l'émetteur.** **L'encours final
+vaut soixante-cinq dans les deux premiers cas et quarante dans le troisième —
+soit exactement celui du cas où l'émetteur percevait lui-même.**
 
-**AUCUNE CONCLUSION EXCLUSIVE.** Onze branches sont écrites ; **une branche qui
-n'est pas écrite n'est pas rejetée, elle est absente.** **Et les règles de
-reconnaissance retenues sont une LECTURE de la norme, non la norme** : seul un
-comptable national ou un contradicteur humain peut les valider.
+**ÉNONCÉ À RETENIR :** *à circuit ultérieur inchangé, le choix du collecteur
+modifie l'encours immédiatement après perception ; l'encours final dépend ensuite
+de l'emploi des unités collectées.*
 
-### CE QUI N'A PAS ÉTÉ FAIT, ET NE LE SERA PAS AVANT CORRECTION
+### UNE OBLIGATION D'ACCEPTATION NE VAUT QUE SI QUELQUE CHOSE EST DÛ
 
-**AUCUN MODÈLE MACROÉCONOMIQUE.** Ni prix, ni capacité productive, ni emploi, ni
-importation, ni intérêt. **L'auteur a posé le 2026-09-09 qu'aucun modèle
-comportemental ne précéderait cette correction, et elle vient d'être faite.**
+Le droit du détenteur est de remettre l'unité en règlement de ce qu'il doit à
+l'émetteur. **Encore faut-il qu'il doive quelque chose.** Une contribution
+statutaire est désormais inscrite **avec son fait générateur**, et une branche
+témoin en est dépourvue : **sans elle, la proposition de qualification est
+SUSPENDUE**, le droit restant une possibilité future. **La branche n'est pas
+rejetée pour autant** — la distinction est le cœur de la correction.
 
-**ET L'ABSENCE D'INTÉRÊT RESTE UNE LIMITE QUI PORTE SUR LE RÉSULTAT.** L19.C09 a
-établi que la norme motive le passif d'allocation en droits de tirage spéciaux
-par une obligation de remboursement **et par le fait qu'un intérêt court.** **Une
-matrice sans intérêt ne peut pas éprouver ce second motif.**
+### CE QUI EST DÉCLARÉ NON SOURCÉ, ET DOIT LE RESTER
+
+**Le mécanisme de désignation.** La norme établit que le droit s'exerce auprès
+des autres membres [S1, § 25.142], mais ne décrit ni les accords volontaires ni
+la désignation. **Deux acquisitions ont échoué en 403 le 2026-09-09** — la foire
+aux questions du Fonds et son document de politique de 2023 — et l'article XIX,
+section 5, des Statuts n'a pas été lu. **Le facteur de plafond utilisé est un
+paramètre déclaré, pas un fait.** **La règle du corpus interdit de tenir une
+information conversationnelle pour une source, et elle a été appliquée.**
+
+**Les passifs constructifs du § 4.102** ne sont pas représentés : le modèle exige
+un instrument explicite, ce qui peut le rendre **plus sévère que la norme**.
+
+### LE JALON SUIVANT EST HUMAIN
+
+`protocoles/revue-comptable-a35b.md` pose cinq questions à un comptable national
+ou à un spécialiste des bilans de banque centrale. **Aucun modèle
+macroéconomique avant cette revue** : le corpus a atteint une frontière où une
+boucle supplémentaire entre modèles déplacerait des conventions sans les valider.
