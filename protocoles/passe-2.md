@@ -6322,11 +6322,16 @@ le programme, dès que la divergence entre organismes dépassait le seuil, la r�
 rendait **la valeur vraie de la simulation** — elle possédait gratuitement ce
 qu'aucun dispositif réel ne possède. L'auteur l'a relevé le jour même.
 
-**LE RECOURS EST DEVENU UN INSTRUMENT.** Ce à quoi il accède est nommé : une
-**observation physique directe** — imagerie, traçabilité des matières, relevés de
-terrain — **indépendante de la déclaration du porteur et des modèles des
-organismes**. C'est là son apport réel. Mais il a **son biais propre** et il est
-**capturable comme les autres**.
+**LE RECOURS EST DEVENU UN CANAL DE MESURE INDÉPENDANT** — et le mot compte,
+l'auteur ayant corrigé « observation physique directe » qui restait trop fort.
+Ce à quoi ce canal accède est nommé : une information — imagerie, traçabilité
+des matières, relevés de terrain — **qui ne passe ni par la déclaration du
+porteur ni par les modèles des organismes**. C'est là son apport réel. **Mais ce
+n'est pas une observation directe de la vérité** : un satellite, un capteur, une
+analyse matière dépendent d'un **étalonnage**, d'un **traitement** et parfois
+d'un **modèle**. **Aucun instrument ne possède la vérité** — il a sa méthode, sa
+marge d'erreur et son risque de capture propres, et c'est pourquoi son biais est
+déclaré dans le programme comme celui des organismes.
 
 **ET LE RÉSULTAT PUBLIÉ TOMBE.**
 
@@ -6351,9 +6356,17 @@ aucun refus à tort. **La règle prudente reste la plus résistante — cinq cap
 gratuitement supérieure.
 
 **LE DILEMME DE L'AUTEUR N'EST DONC PAS LEVÉ, IL EST DÉPLACÉ D'UN CRAN.** La
-pluralité protège **tant qu'elle porte aussi sur les instruments du recours**, et
-le désaccord des experts ne sert d'alarme **que si ce qu'il déclenche n'est pas
+pluralité protège **tant qu'elle porte aussi sur les canaux du recours**, et le
+désaccord des experts ne sert d'alarme **que si ce qu'il déclenche n'est pas
 capturable d'un seul coup.**
+
+**ET CES NOMBRES SE LISENT POUR CE QU'ILS SONT.** Le nombre minimal de captures
+est une **propriété structurelle de l'architecture simulée**. Il ne mesure **ni
+la probabilité d'une capture ni son coût**. Corrompre deux organismes
+scientifiques indépendants peut être bien plus difficile que compromettre cinq
+capteurs de même modèle — ou bien plus facile. Le programme compare des
+architectures **à effort de capture supposé égal**, ce qu'aucun dispositif réel
+ne garantit.
 
 **UN CONTRÔLE DE MÉTHODE A ÉTÉ AJOUTÉ AU TEST** pour que cette faute ne puisse
 pas revenir : il échoue si la mesure de recours rend la valeur vraie. Le corpus a
@@ -6391,3 +6404,106 @@ point 7 est le troisième niveau de contrôle de S3. **Les points 2 et 3 sont
 neufs, et c'est là que se trouve la difficulté** : « suffisamment établi » et
 « incertitude importante » sont des seuils de preuve, non des faits, et le corpus
 n'en a aucun. **Ils ne sont pas modélisés, et ne doivent pas être inventés.**
+
+
+## A47 — DÉCIDER SOUS INCERTITUDE. ARBITRÉ DANS SON PRINCIPE LE 2026-09-09
+
+**LA DOCTRINE, DANS LES TERMES DE L'AUTEUR — PRÉCAUTION PROPORTIONNÉE.**
+
+1. Toute décision distingue **gravité, étendue, réversibilité et urgence**.
+2. **L'incertitude ne produit automatiquement ni autorisation ni refus.**
+3. Risque plausible de dommage **grave et irréversible** : le **porteur** doit
+   établir une compatibilité suffisante.
+4. Risque **limité et réversible** : autorisation par tranches et sous
+   surveillance possible ; **l'autorité doit motiver tout refus**.
+5. **Besoin essentiel urgent** : la solution réalisable la moins risquée, en
+   quantité minimale, avec réexamen rapide.
+6. **Ressources rares** : arbitrage au niveau du portefeuille des usages
+   concurrents.
+7. **Données, méthodes, incertitudes, seuils normatifs et avis minoritaires
+   sont publics.**
+8. Le **recours** repose sur des examinateurs et des **canaux de mesure
+   indépendants**, qui conservent leurs propres marges d'erreur.
+9. Les **seuils propres à chaque domaine sont fixés AVANT l'examen des
+   dossiers**, publiés et périodiquement révisés.
+
+**CE QUE CETTE DOCTRINE FAIT, ET C'EST SON MÉRITE PRINCIPAL : elle n'arrête
+aucun seuil numérique.** Elle répartit la **charge de la preuve** et définit la
+**procédure** par laquelle les seuils seront établis. Les seuils sectoriels
+restent ouverts à l'expertise scientifique et à la décision démocratique.
+
+**MISE À L'ÉPREUVE — `modeles/nemo_a47.py`, vérifié par
+`modeles/test_nemo_a47.py`.** Six dossiers fictifs, quatre régimes.
+
+### CE QUE LA DOCTRINE TIENT
+
+**LE POINT 2 EST TENU, et c'est ce qui la rend applicable sans chiffre.**
+L'incertitude ne produit ni autorisation ni refus automatiques : **elle déplace
+la charge de la preuve.** C'est une règle de procédure, non une règle de fond.
+
+**LE POINT 9 MORD, ET LE PROGRAMME LE MONTRE.** Selon que le seuil de
+plausibilité est publié d'avance ou choisi après lecture des dossiers, le nombre
+de dossiers mis à la charge du porteur passe de **2 à 0** — si l'on veut tout
+admettre — ou **à 3** si l'on veut tout refuser. **Les trois seuils sont dans la
+même plage de valeurs plausibles, et rien dans le dossier ne distingue un seuil
+de principe d'un seuil taillé sur mesure. Fixer le seuil d'avance est ce qui en
+fait une contrainte plutôt qu'une description.**
+
+**Mais le point 9 ne se suffit pas** : « périodiquement révisés » rouvre la main
+à chaque révision. Ce qui protège est la fixation **plus** la publication **plus**
+le fait que la révision ne s'applique pas au dossier en cours. **La troisième
+condition manque.**
+
+**LES POINTS 6, 7 ET 8 sont tenus** : l'arbitrage de portefeuille est déjà
+construit et mesuré ; la publicité est contrôlée et non déclarée — et **sans les
+incertitudes publiées le point 3 est inapplicable, sans les avis minoritaires la
+divergence entre organismes disparaît du dossier alors qu'elle est l'alarme** ;
+le recours instrumenté est acquis, et le contrôle de méthode qui interdit
+l'oracle est en place.
+
+### LES DEUX TROUS, ET ILS SONT DANS LA SORTIE
+
+**TROU 1 — LA QUALIFICATION DÉCIDE DE L'ISSUE, ET LA DOCTRINE NE DIT PAS QUI
+L'OPÈRE.** Sur le stockage géologique de CO2, deux lectures **également
+défendables** de la réversibilité — réversible sur cinquante ans, irréversible à
+l'échelle humaine — font basculer la charge de la preuve **de l'autorité au
+porteur**, et l'issue probable avec elle. **La doctrine répartit la charge après
+une classification dont elle ne règle ni l'auteur ni la procédure.** Ce n'est pas
+un détail de rédaction : **y placer l'autorité qui qualifie ramène la capture du
+cas 7 ; y placer l'organisme de mesure lui donne la souveraineté que A46 lui
+refuse**, car « réversible à quel horizon » est un choix normatif, non une
+mesure. Pièce ouverte : `QUALIFICATION-DU-RISQUE`.
+
+**TROU 2 — LES POINTS 3 ET 4 NE PARTITIONNENT PAS L'ESPACE.** Deux dossiers sur
+six n'en relèvent ni l'un ni l'autre : **grave mais réversible** — un pesticide à
+large spectre — et **irréversible mais peu plausible** — une mine de lithium. **La
+charge de la preuve n'y est attribuée à personne, et ce sont les cas ordinaires.**
+Pièce ouverte : `ZONE-INTERMEDIAIRE`.
+
+### UNE CONTRADICTION À LEVER
+
+**Les points 3 et 5 s'appliquent ENSEMBLE au dossier urgent** — un traitement
+essentiel en épidémie, grave et irréversible — **avec des instructions
+contraires** : l'un refuse tant que le porteur n'a pas établi la compatibilité,
+ce qu'une incertitude non levée lui interdit par construction ; l'autre accorde
+provisoirement parce que le besoin n'attend pas. **La rédaction du 2026-09-09 a
+laissé tomber l'exception « sauf impossibilité physique ou risque catastrophique
+suffisamment établi » que portait la version précédente.** Le programme applique
+le point 5 et **signale que c'est un choix d'implémentation, non une lecture du
+texte.**
+
+**ET « LA SOLUTION LA MOINS RISQUÉE » SUPPOSE UN ORDRE.** Trois options
+réalisables aux profils incomparables — grave et étroit, léger et très large,
+moyen et irréversible — donnent **trois gagnants différents** selon qu'on
+ordonne par gravité, par étendue, par réversibilité ou par produit. C'est la
+même frontière qu'au cas 2 de la règle d'émission : **une pondération entre
+dimensions incommensurables, que la doctrine ne peut pas fournir et ne doit pas
+prétendre fournir.**
+
+### CE QUE CETTE MISE À L'ÉPREUVE NE DIT PAS
+
+**Elle ne dit pas que la doctrine est mauvaise** : elle tient sur cinq de ses
+neuf points, et ses deux trous sont des **pièces manquantes**, non des
+contradictions internes. **Elle ne dit pas non plus qu'elle est bonne** : aucun
+seuil n'est éprouvé, aucun dossier n'est réel, et **un programme qui applique une
+règle ne la valide jamais.**

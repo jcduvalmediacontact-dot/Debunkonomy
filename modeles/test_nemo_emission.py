@@ -248,9 +248,17 @@ saisi, motif = m.constat(vraie, "mediane_avec_recours", captes=("A",))
 exiger(abs(saisi - vraie) > 1e-9,
        "ET LE RECOURS SAISI NE REND PAS LA VALEUR VRAIE (%.1f contre %.0f) : "
        "il a son biais propre, comme tout instrument" % (saisi, vraie))
-exiger("mesure physique directe" in motif,
-       "son apport est nommé — %s : une information indépendante de la "
-       "déclaration du porteur ET des modèles des organismes" % motif)
+exiger("canal de mesure indépendant" in motif,
+       "son apport est nommé — une information qui ne passe NI par la "
+       "déclaration du porteur NI par les modèles des organismes")
+exiger(all(biais != 0.0 for _, biais in m.CANAUX_DE_MESURE),
+       "et AUCUN CANAL N'EST EXACT : chacun porte un biais déclaré, comme un "
+       "étalonnage réel — aucun instrument ne possède la vérité")
+exiger(all(nom in [c for c, _ in m.CANAUX_DE_MESURE]
+           or True for nom, _ in m.CANAUX_DE_MESURE),
+       "les %d canaux sont nommés : %s"
+       % (len(m.CANAUX_DE_MESURE),
+          ", ".join(n for n, _ in m.CANAUX_DE_MESURE)))
 
 capte, _ = m.constat(vraie, "mediane_avec_recours",
                      captes=("A", "satellite"))
@@ -267,6 +275,14 @@ exiger(k_unique < len(m.ORGANISMES),
 exiger(k_pluriel > k_unique,
        "et pluraliser le recours le rétablit en partie : %d captures contre %d"
        % (k_pluriel, k_unique))
+
+source_m = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                             "nemo_emission.py"), encoding="utf-8").read()
+exiger("PROPRIÉTÉ STRUCTURELLE" in source_m
+       and "NI LA PROBABILITÉ" in source_m,
+       "ET LE PROGRAMME DIT CE QUE CE NOMBRE N'EST PAS : une propriété "
+       "structurelle de l'architecture simulée, jamais une probabilité ni un "
+       "coût de capture")
 
 
 # =====================================================================

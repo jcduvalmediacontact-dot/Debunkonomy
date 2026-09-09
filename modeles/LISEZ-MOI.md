@@ -197,3 +197,27 @@ départage deux besoins essentiels.
 python modeles/nemo_emission.py
 python modeles/test_nemo_emission.py
 ```
+
+
+## `nemo_a47.py` — décider sous incertitude
+
+**La doctrine de précaution proportionnée, en neuf points, mise à l'épreuve sur
+six dossiers fictifs.** Elle n'arrête aucun seuil : elle répartit **la charge de
+la preuve** et fixe la procédure d'établissement des seuils.
+
+**Ce qui tient.** Le point 2 — l'incertitude déplace la charge au lieu de
+trancher seule. Le point 9 — selon que le seuil est publié d'avance ou choisi
+après lecture des dossiers, le nombre de dossiers mis à la charge du porteur
+passe de 2 à 0 ou à 3, **et rien dans le dossier ne distingue les deux**.
+
+**Les deux trous, et ils sont dans la sortie.** Deux lectures également
+défendables de la réversibilité font basculer la charge du porteur à l'autorité :
+**la doctrine répartit la charge après une classification dont elle ne règle ni
+l'auteur ni la procédure.** Et deux dossiers sur six ne relèvent ni du point 3 ni
+du point 4 — grave mais réversible, irréversible mais peu plausible — **où la
+charge n'est attribuée à personne.**
+
+```bash
+python modeles/nemo_a47.py
+python modeles/test_nemo_a47.py
+```

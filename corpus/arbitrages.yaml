@@ -145,18 +145,18 @@ arbitrages:
 
   - id: A47
     objet: "Décider sous incertitude"
-    statut: ouvert
-    tranche_par: non-tranche
-    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION]
+    statut: arbitre
+    tranche_par: auteur
+    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION, QUALIFICATION-DU-RISQUE, ZONE-INTERMEDIAIRE]
     decision: >
-      OUVERT LE 2026-09-09. RÈGLE PROPOSÉE PAR L'AUTEUR, NON ADOPTÉE, en
-      sept points : impossibilité matérielle, refus ; risque grave,
-      irréversible et établi, refus ou suspension ; incertitude importante
-      sur un dommage irréversible, suspension et acquisition de
-      connaissances ; risque limité et réversible, tranches et capacité
-      d'arrêt ; besoin essentiel urgent, autorisation minimale et
-      temporaire ; ressource rare, arbitrage de portefeuille ; recours
-      devant une instance indépendante. Détail en passe-2.
+      ARBITRÉ DANS SON PRINCIPE LE 2026-09-09 : PRÉCAUTION PROPORTIONNÉE,
+      neuf points, AUCUN SEUIL NUMÉRIQUE. Elle répartit LA CHARGE DE LA
+      PREUVE — au porteur si le risque est grave et irréversible, à
+      l'autorité qui refuse si le risque est limité et réversible, décision
+      provisoire la moins dommageable en urgence essentielle — et fixe la
+      PROCÉDURE d'établissement des seuils. SEUILS SECTORIELS OUVERTS à
+      l'expertise et à la décision démocratique. Détail et mise à l'épreuve
+      en passe-2.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -164,7 +164,7 @@ arbitrages:
     objet: "La séparation des cinq pouvoirs de l'émission"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [REGLE-D-EMISSION, MESURE-EXTERIEURE, VETO-SCIENTIFIQUE-PLURALISTE, A47]
+    lie_a: [REGLE-D-EMISSION, MESURE-EXTERIEURE, VETO-SCIENTIFIQUE-PLURALISTE, A47, QUALIFICATION-DU-RISQUE]
     decision: >
       VALIDÉ PAR L'AUTEUR LE 2026-09-09, AVEC DEUX CORRECTIONS DE PORTÉE.
       CINQ FONCTIONS : (1) MESURE SCIENTIFIQUE, incertitudes comprises ;
@@ -469,6 +469,40 @@ falsifieurs:
     maj: 2026-09-08
 
 pieces_de_conception_manquantes:
+  - id: QUALIFICATION-DU-RISQUE
+    objet: "Qui qualifie la gravité, l'étendue et la réversibilité, et comment"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [A47, A46, MESURE-EXTERIEURE]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LA MISE À L'ÉPREUVE DE A47, QUI RÉPARTIT LA
+      CHARGE DE LA PREUVE APRÈS UNE CLASSIFICATION DONT ELLE NE RÈGLE NI
+      L'AUTEUR NI LA PROCÉDURE. Mesuré : sur un même dossier, deux lectures
+      également défendables de la RÉVERSIBILITÉ — cinquante ans ou échelle
+      humaine — font basculer la charge du porteur à l'autorité, et l'issue
+      avec elle. Y placer qui qualifie ramène la capture ; y placer qui
+      mesure lui donne la souveraineté que A46 refuse. À QUEL HORIZON est
+      normatif, non mesuré.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: ZONE-INTERMEDIAIRE
+    objet: "La charge de la preuve entre les deux pôles de A47"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [A47]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LA MISE À L'ÉPREUVE DE A47. Les points 3 et
+      4 NE PARTITIONNENT PAS l'espace des risques : deux dossiers sur six
+      n'en relèvent ni l'un ni l'autre — GRAVE MAIS RÉVERSIBLE,
+      IRRÉVERSIBLE MAIS PEU PLAUSIBLE — et LA CHARGE DE LA PREUVE N'Y EST
+      ATTRIBUÉE À PERSONNE. Ce sont les cas ordinaires. À TRANCHER AUSSI :
+      les points 3 et 5 s'appliquent ensemble au dossier urgent avec des
+      instructions contraires, l'exception « sauf risque catastrophique »
+      ayant disparu.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
   - id: VETO-SCIENTIFIQUE-PLURALISTE
     objet: "Le constat des contraintes physiques : contraignant sans être souverain"
     statut: oriente
@@ -571,7 +605,7 @@ pieces_de_conception_manquantes:
     objet: "Ce qui pourrait détecter la capture de l'autorité de qualification"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [REGLE-D-EMISSION, F3, A44, MODELE-ADVERSAIRE, A46, VETO-SCIENTIFIQUE-PLURALISTE]
+    lie_a: [REGLE-D-EMISSION, F3, A44, MODELE-ADVERSAIRE, A46, VETO-SCIENTIFIQUE-PLURALISTE, QUALIFICATION-DU-RISQUE]
     decision: >
       OUVERT LE 2026-09-09 PAR LE CAS 7, PRÉCISÉ LE MÊME JOUR. Un contrôle
       qui ne porte que sur des DÉCLARATIONS ne détecte pas leur

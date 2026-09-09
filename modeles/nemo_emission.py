@@ -315,13 +315,19 @@ REGLES_DE_VETO = ("unique", "mediane", "prudente", "mediane_avec_recours",
 # possédait gratuitement ce qu'aucun dispositif réel ne possède, et le résultat
 # publié en tirait sa robustesse. Corrigé sur remarque de l'auteur.
 #
-# CE À QUOI IL ACCÈDE, ET QUI EST NOUVEAU : une observation PHYSIQUE DIRECTE —
-# imagerie, traçabilité des matières, relevés de terrain — indépendante de la
-# déclaration du porteur ET des modèles des organismes. C'est là son apport.
-# CE QU'IL N'EST PAS : exact. Il a son biais propre, et il est capturable comme
-# les autres.
-INSTRUMENTS_DE_RECOURS = [("satellite", 0.06), ("tracabilite", -0.04),
-                          ("terrain", 0.09)]
+# CE À QUOI IL ACCÈDE, ET QUI EST NOUVEAU : un CANAL DE MESURE INDÉPENDANT —
+# imagerie, traçabilité des matières, relevés de terrain — dont l'information ne
+# passe ni par la déclaration du porteur ni par les modèles des organismes.
+#
+# CE QU'IL N'EST PAS, ET LE MOT COMPTE : une observation directe de la vérité.
+# Un satellite, un capteur, une analyse matière dépendent d'un ÉTALONNAGE, d'un
+# TRAITEMENT et parfois d'un MODÈLE. AUCUN INSTRUMENT NE POSSÈDE LA VÉRITÉ : il
+# a une méthode, un étalonnage, une marge d'erreur et un risque de capture qui
+# lui sont propres. C'est pourquoi son biais est déclaré ici comme celui des
+# organismes, et qu'il figure parmi les cibles capturables.
+CANAUX_DE_MESURE = [("satellite", 0.06), ("tracabilite", -0.04),
+                    ("terrain", 0.09)]
+INSTRUMENTS_DE_RECOURS = CANAUX_DE_MESURE   # nom conservé pour la lisibilité
 
 
 def mesure_de_recours(vraie, captes=(), pluriel=False):
@@ -338,7 +344,7 @@ def mesure_de_recours(vraie, captes=(), pluriel=False):
         else:
             vals.append(vraie * (1.0 + biais))
     return (mediane(vals) if pluriel else vals[0],
-            "mesure physique directe (%s)" % ", ".join(n for n, _ in lot))
+            "canal de mesure indépendant (%s)" % ", ".join(n for n, _ in lot))
 
 
 def estimations(vraie, captes=()):
@@ -573,16 +579,17 @@ SEUIL_ECART = 0.15           # écart déclaré/constaté au-delà duquel on ale
 def detecter(vraie, declaree, rang, couvert_physiquement, alerte=False):
     """Rend (période de détection, canal) ou (None, None).
 
-    TROIS CANAUX, ET ILS NE SE VALENT PAS. La MESURE PHYSIQUE DIRECTE ne
-    dépend d'aucune déclaration : elle voit tout de suite, mais ne couvre
-    qu'une part des projets. L'AUDIT ALÉATOIRE couvre tout et arrive tard.
+    TROIS CANAUX, ET ILS NE SE VALENT PAS. Le CANAL DE MESURE INDÉPENDANT ne
+    passe par aucune déclaration : il voit tôt, mais ne couvre qu'une part des
+    projets — et il a ses propres erreurs. L'AUDIT ALÉATOIRE couvre tout et
+    arrive tard.
     L'ALERTE ne se planifie pas — elle est ici un PARAMÈTRE, non un mécanisme,
     et le programme ne prétend pas la produire.
     """
     if declaree >= vraie * (1.0 - SEUIL_ECART):
         return None, None
     if couvert_physiquement:
-        return 1, "mesure physique directe"
+        return 1, "canal de mesure indépendant"
     if alerte:
         return 2, "alerte"
     return INTERVALLE_AUDIT * (1 + rang % 2), "audit aléatoire"
@@ -1086,9 +1093,12 @@ def cas_7():
     print("  la valeur VRAIE dès que la divergence dépassait le seuil : il")
     print("  possédait gratuitement ce qu'aucun dispositif réel ne possède, et")
     print("  le résultat publié en tirait toute sa robustesse. IL EST DÉSORMAIS")
-    print("  UN INSTRUMENT — observation physique directe, indépendante de la")
-    print("  déclaration du porteur ET des modèles des organismes — AVEC SON")
-    print("  BIAIS PROPRE ET SON PROPRE RISQUE DE CAPTURE.")
+    print("  UN CANAL DE MESURE INDÉPENDANT — dont l'information ne passe ni par")
+    print("  la déclaration du porteur ni par les modèles des organismes. CE")
+    print("  N'EST PAS UNE OBSERVATION DIRECTE DE LA VÉRITÉ : un satellite, un")
+    print("  capteur, une analyse matière dépendent d'un étalonnage, d'un")
+    print("  traitement et parfois d'un modèle. AUCUN INSTRUMENT NE POSSÈDE LA")
+    print("  VÉRITÉ — il a sa méthode, sa marge d'erreur et son risque propre.")
     print("")
     print("  %-22s %10s %8s %30s"
           % ("règle de constat", "captures", "à tort", "cibles minimales"))
@@ -1128,8 +1138,18 @@ def cas_7():
     print("")
     print("  LE DILEMME DE L'AUTEUR N'EST DONC PAS LEVÉ, IL EST DÉPLACÉ D'UN")
     print("  CRAN : la pluralité protège tant qu'elle porte AUSSI sur les")
-    print("  instruments du recours, et le désaccord ne sert d'alarme que si")
-    print("  ce qu'il déclenche n'est pas capturable d'un seul coup.")
+    print("  canaux du recours, et le désaccord ne sert d'alarme que si ce")
+    print("  qu'il déclenche n'est pas capturable d'un seul coup.")
+    print("")
+    print("  ET IL FAUT LIRE CES NOMBRES POUR CE QU'ILS SONT. LE NOMBRE MINIMAL")
+    print("  DE CAPTURES EST UNE PROPRIÉTÉ STRUCTURELLE DE L'ARCHITECTURE")
+    print("  SIMULÉE. IL NE MESURE NI LA PROBABILITÉ D'UNE CAPTURE NI SON COÛT.")
+    print("  Corrompre deux organismes scientifiques indépendants peut être")
+    print("  bien plus difficile que compromettre cinq capteurs de même")
+    print("  modèle, ou bien plus facile — le programme n'en sait rien et ne")
+    print("  prétend pas le savoir. Ce qu'il compare, ce sont des ARCHITECTURES")
+    print("  à effort de capture supposé égal, ce qu'aucun dispositif réel ne")
+    print("  garantit.")
 
     print("")
     print("  LEVIER 2 — LA MESURE PHYSIQUE DIRECTE ET L'AUDIT ALÉATOIRE")
@@ -1140,7 +1160,7 @@ def cas_7():
     print("  %-30s %14s %18s"
           % ("canal", "détecté en", "part des projets"))
     for etiquette, couverture, alerte in (
-            ("mesure physique directe", True, False),
+            ("canal de mesure indépendant", True, False),
             ("audit aléatoire seul", False, False),
             ("alerte", False, True)):
         t, _ = detecter(vraie, declaree, charbon.rang_depot, couverture, alerte)
@@ -1153,7 +1173,7 @@ def cas_7():
     print("  %-24s %9s %11s %11s %10s"
           % ("détection", "gelé", "restitué", "recouvré", "sauvé"))
     sauves = {}
-    for t, etiquette in ((1, "mesure directe"), (3, "audit, 1er tour"),
+    for t, etiquette in ((1, "canal indépendant"), (3, "audit, 1er tour"),
                          (6, "audit, 2e tour")):
         g, r, rc, _ = reprise(charbon, t, fraude=True)
         sauves[t] = 100.0 * (g + r + rc) / charbon.demande
@@ -1162,7 +1182,7 @@ def cas_7():
 
     print("")
     print("  RÉSULTAT CORRIGÉ : DÉTECTABLE ET RÉDUCTIBLE, NON ÉLIMINABLE. Sur")
-    print("  les %.0f détournés, la mesure directe en sauve %.0f %% et l'audit"
+    print("  les %.0f détournés, le canal indépendant en sauve %.0f %% et l'audit"
           % (charbon.demande, sauves[1]))
     print("  tardif %.0f %%. LA DÉTECTION PRÉCOCE EST LE LEVIER, non la"
           % sauves[6])
