@@ -183,6 +183,14 @@ STATUTS_ARBITRAGE = {"ouvert", "oriente", "arbitre", "conditionnel"}
 TRANCHE_PAR = {"auteur", "corpus", "non-tranche"}
 SECTIONS_ARBITRAGE = ("arbitrages", "falsifieurs",
                       "pieces_de_conception_manquantes")
+# Le registre est une PROJECTION : il porte des etats, jamais des raisonnements.
+# Ces deux plafonds sont la seule chose qui empeche mecaniquement qu'il
+# redevienne un second protocole. Ils ont ete poses le 2026-09-09, apres que le
+# registre eut atteint 833 lignes en dupliquant passe-2.md et falsification.md.
+CHAMPS_ARBITRAGE_OBLIGATOIRES = ("id", "objet", "statut", "tranche_par",
+                                 "decision", "texte", "maj")
+LONGUEUR_DECISION = 500
+LONGUEUR_ACQUISITION = 400
 
 
 def charger_arbitrages():
@@ -223,10 +231,39 @@ def charger_arbitrages():
                 bloque("arbitrages.yaml", f"{ou} : entree mal formee")
                 continue
             ident = e.get("id")
-            for champ in ("id", "objet", "statut", "tranche_par"):
+            for champ in CHAMPS_ARBITRAGE_OBLIGATOIRES:
                 if not e.get(champ):
                     bloque("arbitrages.yaml",
                            f"{ou} ({ident}) : champ « {champ} » manquant")
+
+            # Le texte qui fait foi doit exister : un renvoi mort rendrait la
+            # projection invérifiable, ce qui est pire qu'une projection absente.
+            texte = e.get("texte")
+            if texte and not (RACINE.parent / str(texte)).exists():
+                bloque("arbitrages.yaml",
+                       f"{ou} ({ident}) : texte « {texte} » introuvable")
+
+            date_maj = e.get("maj")
+            if date_maj:
+                try:
+                    date.fromisoformat(str(date_maj))
+                except ValueError:
+                    bloque("arbitrages.yaml",
+                           f"{ou} ({ident}) : maj « {date_maj} » n'est pas "
+                           f"une date AAAA-MM-JJ")
+
+            for champ, plafond in (("decision", LONGUEUR_DECISION),
+                                   ("acquisition_bloquante",
+                                    LONGUEUR_ACQUISITION)):
+                valeur = e.get(champ)
+                if valeur:
+                    n = len(" ".join(str(valeur).split()))
+                    if n > plafond:
+                        bloque("arbitrages.yaml",
+                               f"{ou} ({ident}) : « {champ} » fait {n} signes "
+                               f"pour un plafond de {plafond}. Le registre "
+                               f"projette, il ne raisonne pas : le "
+                               f"développement va au texte qui fait foi.")
             if ident:
                 if ident in vus:
                     bloque("arbitrages.yaml",
@@ -251,6 +288,27 @@ def charger_arbitrages():
                 alerte("arbitrages.yaml",
                        f"{ident} : oriente par l'auteur sans note disant "
                        f"ce qui reste ouvert")
+    # `lie_a` declare que deux entrees sont les faces d'un meme probleme.
+    # La reciprocite est exigee : une relation qui ne vaudrait que dans un sens
+    # laisserait l'autre entree ignorer qu'elle est engagee.
+    liens = {}
+    for cle in SECTIONS_ARBITRAGE:
+        for e in registre.get(cle) or []:
+            if isinstance(e, dict) and e.get("id"):
+                liens[e["id"]] = e.get("lie_a") or []
+    for ident, cibles in liens.items():
+        if not isinstance(cibles, list):
+            bloque("arbitrages.yaml", f"{ident} : « lie_a » n'est pas une liste")
+            continue
+        for cible in cibles:
+            if cible not in liens:
+                bloque("arbitrages.yaml",
+                       f"{ident} : « lie_a » renvoie à « {cible} », inconnu")
+            elif ident not in (liens.get(cible) or []):
+                bloque("arbitrages.yaml",
+                       f"lien non réciproque : {ident} → {cible}, "
+                       f"mais {cible} ne renvoie pas à {ident}")
+
     return registre
 
 
@@ -522,6 +580,11 @@ def main():
             marque_acq = "!" if e.get("acquisition_bloquante") else " "
             print(f"  {marque_acq} {str(e.get('id')):<16} {str(e.get('statut')):<12} {libelle}")
             print(f"      {e.get('objet')}")
+            if e.get("decision"):
+                dec = " ".join(str(e["decision"]).split())
+                print(f"      DÉCISION ({e.get('maj')}) : {dec[:200]}")
+            if e.get("lie_a"):
+                print(f"      LIÉ À : {', '.join(e['lie_a'])}")
             if e.get("acquisition_bloquante"):
                 acq = " ".join(str(e["acquisition_bloquante"]).split())
                 print(f"      ACQUISITION BLOQUANTE : {acq[:140]}")

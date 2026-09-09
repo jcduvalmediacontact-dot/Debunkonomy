@@ -1,18 +1,35 @@
 # Registre des arbitrages et des falsifieurs — état lisible par le contrôle
 #
 # CRÉÉ LE 2026-09-08 SUR DEMANDE DE L'AUTEUR. Motif : le contrôle annonçait
-# « zéro décision en attente » alors que le corpus compte, au 2026-09-08,
-# 4 points ARBITRÉS et 26 OUVERTS OU ORIENTÉS. Cette indication était exacte
-# et trompeuse : elle ne porte que sur les empreintes éditoriales, et ne voit
-# pas les décisions écrites en prose.
+# « zéro décision en attente » alors que le corpus comptait des points arbitrés
+# et des points ouverts. Cette indication était exacte et trompeuse : elle ne
+# porte que sur les empreintes éditoriales, et ne voit pas les décisions
+# écrites en prose.
+#
+# RAMENÉ À UNE PROJECTION COURTE LE 2026-09-09 SUR DEMANDE DE L'AUTEUR. Motif :
+# le registre avait atteint 833 lignes et recommençait à porter les
+# RAISONNEMENTS qui appartiennent aux chapitres et aux protocoles. Un registre
+# qui argumente finit par diverger des textes qu'il projette.
+#
+# CE FICHIER EST UNE PROJECTION, comme livres.yaml l'est du plan directeur.
+# LES TEXTES FONT FOI. EN CAS D'ÉCART, LE TEXTE TRANCHE ET CE REGISTRE EST
+# CORRIGÉ, JAMAIS L'INVERSE.
 #
 # LE COMPTE FAIT FOI DANS LE RAPPORT DU CONTRÔLE, PAS DANS CET EN-TÊTE : ne
 # pas recopier ici un chiffre qui se périmera au premier arbitrage.
 #
-# CE FICHIER EST UNE PROJECTION, comme livres.yaml l'est du plan directeur.
-# LES TEXTES FONT FOI : protocoles/passe-2.md pour les arbitrages,
-# protocoles/falsification.md pour les falsifieurs. EN CAS D'ÉCART, LE TEXTE
-# TRANCHE ET CE REGISTRE EST CORRIGÉ, JAMAIS L'INVERSE.
+# CHAMPS
+#   id                     identifiant permanent, jamais réattribué
+#   objet                  ce qui est en jeu, en une ligne
+#   statut                 ouvert | oriente | arbitre | conditionnel
+#   tranche_par            auteur | corpus | non-tranche
+#   decision               ce qui est tranché ou la direction prise, en une
+#                          phrase. JAMAIS le raisonnement : il est au texte.
+#   texte                  le protocole qui fait foi pour ce point
+#   chapitres              les chapitres du corpus où le raisonnement vit
+#   maj                    date de la dernière mise à jour de cette entrée
+#   lie_a                  autres entrées formant un même problème
+#   acquisition_bloquante  ce qui manque, en une ou deux lignes
 #
 # statut : ouvert | oriente | arbitre | conditionnel
 #   ouvert       — posé, aucune réponse retenue
@@ -24,7 +41,7 @@
 #   RÈGLE : le corpus PROPOSE, l'auteur TRANCHE. Une reformulation écrite par
 #   le corpus reste `non-tranche` tant que l'auteur ne l'a pas reprise.
 
-revision: 1
+revision: 2
 etabli_le: 2026-09-08
 
 arbitrages:
@@ -32,802 +49,364 @@ arbitrages:
     objet: "Qualification juridique de l'unité émise"
     statut: oriente
     tranche_par: auteur
-    note: "Un mécanisme lui est versé le 2026-09-08 ; le point bloquant est levé, la qualification ne l'est pas."
+    decision: "Un mécanisme est versé ; le point bloquant est levé, la qualification ne l'est pas."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A31
     objet: "Protection interne des cadres techniques"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Aucune solution documentée."
+    decision: "Aucune solution documentée."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A32
     objet: "Régime de change"
     statut: arbitre
     tranche_par: auteur
-    note: "Parité fixe ; le triangle d'incompatibilité est respecté et non contourné."
+    decision: "Parité fixe ; le triangle d'incompatibilité est respecté et non contourné."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A33
     objet: "Le nombre de chapitres d'un livre n'est pas contraignant"
     statut: arbitre
     tranche_par: auteur
+    decision: "Tranché : le nombre est indicatif."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A34
     objet: "Le barème qui dit vrai exclut"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Posé et jamais traité."
+    decision: "Posé et jamais traité."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A35
-    objet: "Qui porte la dette collective"
+    objet: "Qui porte juridiquement la dette collective"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Commande le reste ; L19 devait la clore et ne l'a pas close."
+    decision: "Commande le reste ; L19 devait la clore et ne l'a pas close. PRIORITÉ DÉCLARÉE PAR L'AUTEUR LE 2026-09-09."
+    texte: protocoles/passe-2.md
+    chapitres: [L19.C05, L20.C24, L20.C26]
+    maj: 2026-09-09
 
   - id: A36
     objet: "La fonte est-elle un prélèvement ou une décote"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Le choix décide de la nature du dispositif."
+    decision: >
+      Le choix décide de la nature du dispositif, et il décide aussi de sa
+      qualification comme réforme fiscale (L18.C31). PRIORITÉ DÉCLARÉE PAR
+      L'AUTEUR LE 2026-09-09.
+    texte: protocoles/passe-2.md
+    chapitres: [L18.C31]
+    maj: 2026-09-09
 
   - id: A37
     objet: "Forme juridique de l'institution émettrice"
     statut: oriente
     tranche_par: auteur
-    note: >
-      Rang institutionnel donné par l'auteur. Les statuts du FMI et de la BIRD
-      sont ouverts (L20.C24, L20.C25) et répondent sur quatre traits de forme —
-      composition, capital, immunités, retrait. LES ARTICLES XXVI DU FONDS ET
-      VI DE LA BANQUE SONT LUS DANS LEUR VERSION EN VIGUEUR depuis le
-      2026-09-08 : édition consolidée du 11 mars 2020 pour le premier,
-      mention « as amended effective June 27, 2012 » pour le second. NE SONT
-      PAS LUS : les statuts CONSOLIDÉS COMPLETS des deux institutions,
-      l'ANNEXE J du Fonds et l'ARTICLE II SECTION 5 (ii) de la Banque,
-      auxquels ces articles renvoient. RESTE OUVERT AU FOND : le choix de la
+    decision: >
+      Rang institutionnel donné par l'auteur. Les articles XXVI du Fonds et II,
+      IV et VI de la Banque sont lus en vigueur ; reste ouvert le choix de la
       forme elle-même.
+    texte: protocoles/passe-2.md
+    chapitres: [L20.C24, L20.C25, L20.C26]
+    maj: 2026-09-09
     acquisition_bloquante: >
-      L'ANNEXE J des statuts du FMI, à laquelle l'article XXVI renvoie pour le
-      règlement des comptes à défaut d'accord. SEULE ACQUISITION ENCORE
-      BLOQUANTE POUR A37 AU 2026-09-08, ET LES VOIES AUTOMATISÉES SONT ÉPUISÉES.
-      L'édition consolidée servie par la bibliothèque électronique du Fonds
-      comporte trente et un chapitres — les trente et un articles — plus une
-      pièce liminaire et une pièce de fin ; LA PIÈCE DE FIN NE CONTIENT AUCUNE
-      ANNEXE, le mot n'y apparaissant pas une fois. Le site institutionnel
-      refuse toute récupération automatisée, y compris de sa page d'index (403).
-      CETTE ACQUISITION DEMANDE UNE RÉCUPÉRATION MANUELLE PAR L'AUTEUR.
-      L'ARTICLE II SECTION 5 (ii) DE LA BIRD EST OUVERT ET LU LE 2026-09-08
-      (L20.C26), dans sa version en vigueur. Il donne quatre règles : la part
-      appelable est AFFECTÉE à des obligations nées de l'article IV section
-      1 (a) (ii) et (iii) ; la responsabilité est PLAFONNÉE à la portion non
-      versée du prix d'émission (section 6) ; les appels sont UNIFORMES sur
-      toutes les actions ; la MONNAIE de l'appel suit celle de l'obligation à
-      honorer (section 7 (ii)).
-      ACQUISITION NOUVELLE, DE RANG 1 ET AU MÊME HÔTE QUI RÉPOND : l'ARTICLE IV
-      SECTION 1 (a) (ii) et (iii) de la BIRD, qui définit ce qui déclenche un
-      appel. Le corpus peut dire que l'appel est affecté, non à quoi
-      exactement.
+      L'ANNEXE J des statuts du Fonds. Voies automatisées épuisées le
+      2026-09-09 : l'édition en ligne ne sert pas les annexes et le site
+      institutionnel refuse tout. RÉCUPÉRATION MANUELLE.
 
   - id: A38
     objet: "L'épargne retraite est-elle de la thésaurisation"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Les deux réponses coûtent."
+    decision: "Les deux réponses coûtent."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A39
     objet: "À quelle frontière le corpus calcule un rendement énergétique"
     statut: oriente
     tranche_par: auteur
-    note: >
-      Arbitré le 2026-09-08 DANS LA FORME et non dans la valeur : pas de
-      coefficient unique, analyse de sensibilité et conventions publiées.
-      Les quatre frontières sont couvertes ; L26.C12 établit qu'à frontière
-      ÉGALE les estimations vont du simple au double. RESTE OUVERTE : la
-      valeur, et la composition des frontières est interdite en l'état.
+    decision: >
+      Arbitré dans la FORME et non dans la valeur : pas de coefficient unique,
+      analyse de sensibilité et conventions publiées. La composition des
+      frontières reste interdite en l'état.
+    texte: protocoles/passe-2.md
+    chapitres: [L26.C11, L26.C12]
+    maj: 2026-09-08
 
   - id: A40
     objet: "Le barème aux frontières ou la réponse à l'objection de fuite"
     statut: ouvert
     tranche_par: non-tranche
-    note: >
-      Le corpus ne peut pas garder les deux.
-      DÉPLACÉ LE 2026-09-08 PAR L24.C06, ET DANS UN SENS QUI AGGRAVE. La fuite
-      n'est pas seulement un risque de contournement par les acteurs : elle est
-      une PROPRIÉTÉ de toute limite définie sur un périmètre plus petit que le
-      système. « Merely assessing the protection of a regional safe operating
-      space might set incentives to export ecological degradation to other
-      countries, effectively threatening the preservation of planetary
-      boundaries. » La seule réponse rapportée — une étude sur la Suisse, qui
-      note que la moitié de l'impact de la consommation nationale a lieu à
-      l'étranger — passe par une HYPOTHÈSE ÉTHIQUE EXPLICITE de droits
-      environnementaux égaux par personne. Autrement dit par une décision qui
-      n'est pas scientifique.
+    decision: >
+      Le corpus ne peut pas garder les deux. Aggravé : la fuite n'est pas un
+      risque de contournement mais une PROPRIÉTÉ de toute limite définie sur un
+      périmètre plus petit que le système.
+    texte: protocoles/passe-2.md
+    chapitres: [L24.C06]
+    maj: 2026-09-08
 
   - id: A41
     objet: "Le mot « entropie » est-il éprouvé ou métaphorique"
     statut: arbitre
     tranche_par: auteur
-    note: "Arbitré le 2026-09-08 : cinq conditions de déclaration, application rétrospective."
+    decision: "Arbitré : cinq conditions de déclaration, application rétrospective."
+    texte: protocoles/passe-2.md
+    maj: 2026-09-08
 
   - id: A42
     objet: "Que fait le dispositif de la cible 8.1"
     statut: arbitre
     tranche_par: auteur
-    note: >
-      Croissance, décroissance, maintien ou transformation SÉLECTIFS, par
-      activité, territoire et période ; le produit est un résultat possible,
-      non un objectif. Corrigé le 2026-09-08 sur quatre points : 8.4 reste
-      mondiale ; 8.4 reste un critère de validation ex post ; la sélectivité
-      n'est pas une famille sans précédent ; « croissance matérielle ciblée »
-      est remplacé.
-      APPUI TROUVÉ LE 2026-09-08 PAR L18.C18, ET IL VIENT DU CAMP OPPOSÉ : le
-      traité de référence tient que les flux de matières ne seraient utiles que
-      DIFFÉRENCIÉS selon leur menace pour les fonctions critiques du capital
-      naturel, que sommer des flux au poids donne un indicateur « essentially
-      meaningless », et que la différenciation NE SE FAIT PAS. La sélectivité
-      n'est donc pas seulement sans singularité : elle est RÉCLAMÉE par
-      l'adversaire. CE QUE CELA NE DONNE PAS : savoir qualifier la menace,
-      qui reste la difficulté du barème. Le désaccord porte sur ce qu'on fait
-      ensuite, non sur ce constat.
-      SECOND APPUI LE 2026-09-08 PAR L18.C20, ET IL PORTE SUR LE GESTE MÊME
-      D'A42. L'auteur du traité déclare adopter une vue AGNOSTIQUE sur la
-      croissance et se concentrer directement sur les problèmes
-      environnementaux, écartant la décroissance comme prescription : « environ-
-      mental pollution is 'the enemy', not economic growth », et viser la
-      croissance pour obtenir un résultat environnemental serait une erreur,
-      moins de croissance pouvant être la CONSÉQUENCE de politiques strictes.
-      C'est le geste d'A42, énoncé hors du corpus.
-      ET IL PORTE UN AVERTISSEMENT POLITIQUE À NE PAS PERDRE : le même auteur
-      juge la persuasion des décideurs sur la décroissance « simply hopeless and
-      a political non-starter ». SI LE DISPOSITIF EST LU COMME UNE PRESCRIPTION
-      DE DÉCROISSANCE, IL HÉRITE DE CE VERDICT, quelle que soit la justesse de
-      sa construction. La distinction entre agir sur la grandeur écologique et
-      prescrire un niveau de produit est donc une condition de recevabilité, non
-      seulement une exactitude.
+    decision: >
+      La finalité de développement des pays les moins avancés est retenue ; la
+      prescription d'un taux de croissance agrégé du produit comme cible est
+      rejetée. Croissance, décroissance, maintien ou transformation SÉLECTIFS.
+    texte: protocoles/passe-2.md
+    chapitres: [L12.C01, L18.C19, L18.C20]
+    maj: 2026-09-08
 
 falsifieurs:
   - id: F1
     objet: "La calibration"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé, non instruit."
+    texte: protocoles/falsification.md
+    maj: 2026-09-08
+
   - id: F2
     objet: "La métrologie"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé. Le transfert d'estimations d'un contexte à l'autre est déclaré risqué par la source de L18.C25."
+    texte: protocoles/falsification.md
+    chapitres: [L18.C25]
+    maj: 2026-09-09
+
   - id: F3
     objet: "La connaissance dispersée et l'indicateur pris pour cible"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé, non instruit."
+    texte: protocoles/falsification.md
+    maj: 2026-09-08
+
   - id: F4
     objet: "L'obstacle de droit positif"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé, non instruit."
+    texte: protocoles/falsification.md
+    maj: 2026-09-08
+
   - id: F5
     objet: "L'antériorité"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé, non instruit."
+    texte: protocoles/falsification.md
+    maj: 2026-09-08
+
   - id: F6
     objet: "L'adoption contre le créancier"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Une objection lui est versée le 2026-09-08 par L17.C03."
+    decision: "Une objection lui est versée par L17.C03."
+    texte: protocoles/falsification.md
+    chapitres: [L17.C03]
+    maj: 2026-09-08
+
   - id: F7
     objet: "Le pilotage"
     statut: ouvert
     tranche_par: non-tranche
-    note: "L19.C03 lui ajoute le 2026-09-08 que la règle n'est plus seulement une question de crédibilité."
+    decision: "L19.C03 ajoute que la règle n'est plus seulement une question de crédibilité."
+    texte: protocoles/falsification.md
+    chapitres: [L19.C03]
+    maj: 2026-09-08
+
   - id: F8
     objet: "Le désarmement"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé, non instruit."
+    texte: protocoles/falsification.md
+    maj: 2026-09-08
+
   - id: F9
     objet: "Le titre"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Révisée par L18.C08."
+    decision: "Révisé par L18.C08."
+    texte: protocoles/falsification.md
+    chapitres: [L18.C08]
+    maj: 2026-09-08
+
   - id: F10
     objet: "La superfluité"
     statut: ouvert
     tranche_par: non-tranche
-    note: >
-      L18.C15 établit qu'une cible internationale visant le même diagnostic a
-      échoué ; le motif de l'échec décide de ce que F10 devient, et il n'est pas
-      instruit.
-      F10 EST AGGRAVÉ LE 2026-09-08 PAR L18.C19, ET SUR UN TERRAIN NOUVEAU : un
-      BARÈME de soutenabilité forte existe déjà — l'indice de soutenabilité
-      environnementale forte — enraciné dans le paradigme, doté d'une règle
-      d'agrégation choisie pour limiter la compensation, appliqué à vingt-huit
-      pays, et jugé par le traité de référence supérieur à l'empreinte
-      écologique, aux flux de matières, à l'indice de Yale et aux objectifs de
-      développement durable. LE CORPUS CONSTRUISAIT SA QUALIFICATION SANS SAVOIR
-      QUE LE PROBLÈME AVAIT ÉTÉ TRAITÉ. Ce qui reste à établir n'est plus que la
-      mesure est possible, mais CE QU'UN INSTRUMENT MONÉTAIRE AJOUTE À UN INDICE
-      QUI EXISTE.
-      TROISIÈME DÉPLACEMENT LE 2026-09-08 PAR L24.C07, ET C'EST LE PLUS SÉRIEUX.
-      La descente jusqu'au PRODUIT et à l'ENTREPRISE est faite, outillée et
-      adoptée : une famille de méthodes fondées sur l'analyse de cycle de vie
-      « translate Planetary Boundaries to the scale of specific products,
-      services, and systems » et permet d'évaluer « whether their impacts fall
-      within their allocated share of each boundary ». C'EST UNE QUALIFICATION
-      RÉGÉNÉRATIVE À LA MONNAIE PRÈS. S'y ajoutent des variables essentielles
-      d'impact environnemental, un score d'impact sur le système terrestre tenant
-      compte des interactions entre limites, un réseau de cibles fondées sur la
-      science étendu au-delà du climat, et une architecture de déclaration
-      financière liée à la nature.
-      CE QUE LE DISPOSITIF DOIT DÉSORMAIS JUSTIFIER N'EST PLUS LA MESURE : C'EST
-      L'AJOUT MONÉTAIRE. Aucun des dispositifs recensés n'ÉMET — ils mesurent,
-      déclarent et se fixent des cibles. La différence entre qualifier un acte et
-      créer de la monnaie contre lui est le seul terrain que le corpus tienne
-      encore en propre, ET SON ARGUMENT N'EST ÉCRIT NULLE PART.
-      DEUX FAITS BORNENT CE DÉPLACEMENT. Les cibles d'entreprise sont courantes
-      pour le carbone et rares pour les autres limites ; et la source rapportant
-      cette adoption est un article invité signé de deux chercheurs dont l'un
-      dirige scientifiquement la commission qui porte le cadre.
-      F10 EST RESSERRÉ LE 2026-09-09 PAR L18.C25, ET DANS UN SENS FAVORABLE AU
-      DISPOSITIF. Sur la littérature de valorisation, 61 % des valorisations
-      fournissent purement de l'information, 32 % aident à choisir entre des
-      actions, et 7 % SEULEMENT servent à concevoir un instrument ou une
-      intervention ; 72 % ont lieu à une échelle inférieure à la nation.
-      LES DEUX CONSTATS SE COMPLÈTENT : l'outillage existe pour MESURER, et il
-      n'existe presque pas pour ALLOUER. Ce que le dispositif doit justifier est
-      donc l'ajout monétaire, et il opère sur un terrain que la littérature a
-      peu couvert — ce qui est un argument POUR sa nécessité et non contre.
-      MAIS UNE OBLIGATION D'EXAMEN NOUVELLE ET PLUS LOURDE EST OUVERTE LE
-      2026-09-09 PAR L18.C27, ET ELLE VA DANS L'AUTRE SENS. L'évaluation
-      intergouvernementale de 2022 énonce avec la cote « well established » que
-      les instruments SOCIOCULTURELS et de DROITS COUTUMIERS « show higher
-      potential to operationalize diverse values than economic and legal
-      instruments », et qu'ils sont peu employés. LA FAMILLE D'INSTRUMENTS À
-      LAQUELLE LE DISPOSITIF APPARTIENT EST DONC CLASSÉE EN DESSOUS D'UNE AUTRE,
-      POUR L'OBJET MÊME QU'IL VISE. La recommandation de la source est un DOSAGE
-      de politiques, non une substitution.
-      ET AUCUN DES QUATRE INSTRUMENTS MIS EN AVANT N'APPARTIENT À SA FAMILLE :
-      parmi treize instruments économiques et financiers évalués, ce qui est
-      retenu est un changement de MODÈLE économique et un changement de MESURE,
-      non un mécanisme d'allocation monétaire.
-      CE QUE LE CORPUS DOIT FAIRE, ET IL NE L'A JAMAIS FAIT : examiner les
-      instruments de DROITS COUTUMIERS et les RÉGIMES DE COGESTION, dire ce
-      qu'ils font, ce qu'ils ne font pas, et pourquoi ils ne suffisent pas à
-      l'objet du dispositif. TANT QUE CE N'EST PAS ÉCRIT, LE CORPUS NE PEUT PAS
-      SOUTENIR QUE SON INSTRUMENT EST NÉCESSAIRE.
-      DEUX BORNES, ET ELLES NE RENVERSENT PAS LE RÉSULTAT : le classement porte
-      sur l'aptitude à OPÉRATIONNALISER DES VALEURS DIVERSES et non sur
-      l'efficacité écologique ; et les pourcentages mesurent la fréquence dans
-      une littérature de soixante et une études, non l'usage dans le monde.
-      RÉSERVE PRINCIPALE : aucun des trente-sept instruments n'est nommé dans ce
-      qui est lu, hors les quatre mis en avant. LE CORPUS IGNORE SI UN
-      INSTRUMENT DE LA FAMILLE DU DISPOSITIF FIGURAIT PARMI LES TREIZE. C'est la
-      question la plus décisive et elle n'est pas répondue.
-      LA RÉSERVE EST FERMÉE LE 2026-09-09 PAR L18.C29 : les instruments
-      d'allocation ÉTAIENT parmi les treize — paiements pour services
-      écosystémiques, transferts fiscaux écologiques, subventions, comptabilité
-      du capital naturel, REDD+, taxes sur la consommation, permis échangeables
-      et compensations. AUCUN N'EST RETENU. Le verdict sur le groupe orienté
-      marché : ces instruments « do not offer stimulus for institutional change
-      or adaptive governance » et sont « insufficient to shift the current
-      economic paradigm ».
-      DÉFENSE DISPONIBLE ET ÉTROITE : tous ces instruments ALLOUENT des
-      ressources existantes ; le dispositif prétend CRÉER de la monnaie contre un
-      acte qualifié. Ce n'est pas la même opération — ce qui le sort du verdict
-      direct ET LE PRIVE DE TOUT PRÉCÉDENT.
-      ARGUMENT DIRECT CONTRE LUI : les transferts fiscaux écologiques sont jugés
-      moins coûteux en transaction que les paiements pour services écosystémiques
-      « as the existing fiscal system can be used [...] i.e., NO NEW ALLOCATION
-      SYSTEM IS GENERATED ». Le dispositif EST un système d'allocation nouveau :
-      il doit établir que ce qu'il apporte excède ce que son existence coûte, et
-      le corpus n'a jamais chiffré ce coût.
-      CHIFFRE POUR LE DIMENSIONNEMENT : les subventions dommageables dépassent
-      d'un FACTEUR DIX les subventions favorables à la biodiversité.
-      L'OBLIGATION D'EXAMEN EST DÉCHARGÉE LE 2026-09-09 PAR L18.C30, ET LE
-      RÉSULTAT EST UN ÉQUILIBRE. Les deux familles mieux classées portent sur
-      l'AUTORITÉ et la LÉGITIMITÉ — droits territoriaux, savoirs, codes de
-      conduite, consentement préalable — NON SUR L'ALLOCATION. Et la mieux placée
-      des instruments socioculturels, la COGESTION, est déclarée difficile à
-      monter en échelle, les contextes culturels et écologiques particuliers y
-      étant déterminants. LE DISPOSITIF GARDE DONC UN OBJET PROPRE.
-      MAIS IL HÉRITE DE DEUX CHOSES. UNE : le verdict commun — toutes familles
-      confondues, le potentiel est « more incremental than transformative ».
-      DEUX : un avertissement qui le vise en propre — combiner les instruments
-      coutumiers avec d'autres types « might have adverse effects especially if
-      integration happens in a TOP-DOWN fashion », et un dispositif monétaire
-      défini globalement appliqué à des actes qualifiés localement EST une
-      intégration par le haut.
-      ACQUISITION QUI RESTE, RANG 1 ET SUR LE DISQUE : la section 6.5, guide
-      d'opérationnalisation. ET SI L'AUTEUR VEUT UNE COMPARAISON QUI DÉCIDE : la
-      littérature de la cogestion elle-même, non l'évaluation qui la classe.
+    decision: >
+      DÉPLACÉ TROIS FOIS : la mesure et la descente à l'échelle du produit
+      existent déjà, donc ce que le dispositif doit justifier n'est plus le
+      barème mais L'AJOUT MONÉTAIRE. Les familles mieux classées portent sur
+      l'autorité, non sur l'allocation. Le motif de l'échec de la cible sur les
+      incitations est orienté : défaut de contrainte et mandat sectoriel.
+      L'ARGUMENT PROPRE DE L'AJOUT MONÉTAIRE N'EST ÉCRIT NULLE PART — priorité
+      déclarée par l'auteur le 2026-09-09.
+    texte: protocoles/falsification.md
+    chapitres: [L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
+    maj: 2026-09-09
     acquisition_bloquante: >
-      Le MOTIF de l'échec de la cible visant à supprimer les incitations
-      dommageables. ORIENTÉ, NON LEVÉ, LE 2026-09-09 PAR L18.C26.
-      L'évaluation intergouvernementale de 2022 établit deux faits dont la
-      conjonction pointe dans une direction, avec la cote « well established ».
-      UN : le progrès a été plus élevé pour les cibles relevant du mandat et des
-      ressources d'un ministère de l'environnement que pour celles exigeant une
-      coopération et un coïnvestissement INTERSECTORIELS — ces dernières portant
-      précisément la réduction des subventions dommageables, le contrôle de la
-      pollution et la réorientation des projets de développement. DEUX : « Compliance
-      mechanisms beyond good intentions are still lacking », et les incitations
-      perverses « still provide mixed messages » malgré la cible qui devait les
-      abolir.
-      SI L'ÉCHEC TIENT AU DÉFAUT DE CONTRAINTE ET AU PÉRIMÈTRE DU MANDAT, IL NE
-      TIENT PAS À CE QUE L'IDÉE DE CORRIGER LES INCITATIONS SOIT FAUSSE. Un
-      instrument monétaire opère par l'économie et non par un ministère, et porte
-      sa contrainte dans son mécanisme plutôt que dans un engagement : il est
-      dirigé sur le mode d'échec constaté. CE N'EST PAS UNE RÉFUTATION DE F10,
-      c'est le déplacement que F10 attendait pour être instruit.
-      CORRECTION DE FORME À PORTER À L'AUTEUR : les trois branches ne sont PAS
-      mutuellement exclusives, et le corpus les avait posées comme si elles
-      l'étaient. La lecture en soutient deux et n'écarte pas la troisième, que
-      l'évaluation aborde par les asymétries de pouvoir sans la chiffrer.
-      RESTE À OUVRIR, SUR LE DISQUE ET DE RANG 1 : les sections 4.6.3 et
-      suivantes du même chapitre, qui portent une revue systématique de la
-      REPRISE effective des valorisations dans la décision.
+      La littérature de la cogestion elle-même, si l'auteur veut une comparaison
+      qui décide : le corpus n'en tient que l'évaluation qui la classe.
+
   - id: F11
     objet: "La contrainte physique"
     statut: conditionnel
     tranche_par: non-tranche
-    note: >
-      Branche matérielle écartée comme impossibilité (L26.C01). Branche
-      énergétique seule en charge et chiffrable. Ne se déclenche pas sur le
-      rendement du service final — c'est un coût, non une impossibilité —
-      mais perd sa réfutation la plus commode. Les auteurs de L26.C12 posent
-      le falsifieur dans sa forme exacte sans le trancher.
+    decision: >
+      Branche matérielle écartée comme impossibilité ; branche énergétique seule
+      en charge et chiffrable. Ne se déclenche pas sur le rendement du service
+      final, mais perd sa réfutation la plus commode.
+    texte: protocoles/falsification.md
+    chapitres: [L26.C01, L26.C12]
+    maj: 2026-09-08
     acquisition_bloquante: "Série de rendements exergétiques agrégés postérieure à 2010."
+
   - id: F12
     objet: "L'indiscernabilité"
     statut: ouvert
     tranche_par: non-tranche
+    decision: "Posé, non instruit."
+    texte: protocoles/falsification.md
+    maj: 2026-09-08
+
   - id: F13
     objet: "L'incommensurabilité — la soutenabilité faible"
     statut: ouvert
     tranche_par: non-tranche
-    note: >
-      NE PAS FERMER (auteur, 2026-09-08). L'accusation de dissimulation échoue
-      QUATRE fois, et la quatrième n'est pas de même nature : le traité de
-      référence du débat déclare les DEUX paradigmes NON FALSIFIABLES et le
-      débat indécidable même sous accord sur l'objet et la méthode (L18.C18).
-      L'accusation perd son objet, ET LA MÊME DÉCLARATION FRAPPE LE CORPUS :
-      la non-substituabilité qu'il suppose est aussi peu falsifiable que la
-      substituabilité qu'il conteste.
-      F13 SORT RENFORCÉ DE CETTE LECTURE. Le même auteur tient que la
-      soutenabilité forte exige une mesure SÉPARÉE par forme critique de
-      capital naturel, que ces mesures « defy aggregation », et qu'une mesure
-      globale unique est trompeuse et inutile — confirmation INDÉPENDANTE de
-      F13, venue de l'économie et non des sciences du système terrestre. La
-      réserve « un cadre, pas un consensus » est levée pour partie. BORNE :
-      l'auteur conclut d'un EXAMEN DES INDICATEURS EXISTANTS, il ne démontre
-      pas une impossibilité formelle.
-      Les trois autres occurrences subsistent : l'adversaire déclare
-      l'hypothèse (L18.C11, L18.C14, L18.C16).
-      Solow nomme la condition, la qualifie de conjecture et publie son
-      alternative — en dessous de l'unité, consommation soutenable NULLE.
-      Une mesure adjacente existe (L18.C17) : 0,64 à court terme, intervalle
-      entièrement sous le seuil. UNE REFORMULATION EST PROPOSÉE PAR LE CORPUS
-      ET N'EST PAS ARBITRÉE.
+    lie_a: [CRITERE-L25]
+    decision: >
+      NE PAS FERMER (auteur). TROIS confirmations indépendantes qu'aucun
+      consensus d'agrégation n'existe. Un PRINCIPE — la moins substituable
+      domine — et une MÉTHODE, le multicritère. Mais la source la plus autorisée
+      ne résout pas l'incommensurabilité : elle la RECONNAÎT et traite le rapport
+      de pouvoir. FACE MÉTROLOGIQUE du problème dont CRITERE-L25 est la face
+      POLITIQUE. Manque le pas d'une DÉCISION à un MONTANT.
+    texte: protocoles/falsification.md
+    chapitres: [L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
+    maj: 2026-09-09
     acquisition_bloquante: >
-      L'ACQUISITION QUE LA RÉSERVE DE F13 RÉCLAMAIT DEPUIS LE 2026-09-07 EST
-      NOMMÉE ET FAITE LE 2026-09-08 : Biermann et Kim, 2020, revue de synthèse,
-      OUVERTE ET LUE (L24.C06). LA RÉSERVE « UN CADRE, PAS UN CONSENSUS » EST
-      LEVÉE DANS SA FORME — le corpus tient un état du débat — MAIS CE QU'IL
-      TIENT EST L'EXISTENCE DES CRITIQUES, NON LEUR VALIDITÉ PRÉSENTE : la revue
-      est de 2020, le cadre a été révisé en 2023, et le corpus possède sans
-      l'avoir ouverte l'édition 2025 de la mise à jour annuelle.
-      CE QUE LA CRITIQUE ÉTABLIT ET QUI TOUCHE F13 : une limite n'est PAS un
-      seuil — la mise à jour de 2015 l'écrit — et plusieurs processus retenus
-      sont sous-globaux, non systémiques et agrégés, sans comportement à seuil
-      démontré. Les variables de la biosphère sont déclarées PROVISOIRES par le
-      cadre lui-même. La valeur d'une limite incorpore donc un DEGRÉ DE PRUDENCE
-      qui est une décision, non une mesure.
-      ET UN RÉSULTAT CITÉ SERT À LA FOIS LA THÈSE ET LE FALSIFIEUR : le mélange
-      énergétique de moindre coût atteignant deux degrés aux États-Unis franchit
-      cinq limites sur huit. Réussir sur le carbone n'est pas réussir — ce qui
-      soutient la multidimensionnalité du dispositif ET renforce F13, puisque la
-      raison d'exiger plusieurs dimensions est qu'elles ne se compensent pas.
-      TROISIÈME CONFIRMATION, LA PLUS AUTORISÉE, LE 2026-09-09 PAR L18.C25.
-      L'évaluation intergouvernementale de 2022 sur les valeurs de la nature
-      énonce, AVEC SA COTE DE CONFIANCE LA PLUS FORTE, qu'« aucun consensus
-      n'existe sur la meilleure pratique en matière de procédures d'agrégation ».
-      Elle ajoute que les approches délibératives « ne fournissent pas de
-      solution générale au problème de l'agrégation », et que l'incommensurabilité
-      des résultats est INÉVITABLE dès que plusieurs méthodes sont employées, les
-      valeurs n'étant « ni pleinement séparables ni pleinement comparables ».
-      LE CORPUS TIENT DONC TROIS CONFIRMATIONS INDÉPENDANTES, venues de trois
-      disciplines et de trois régimes de production : sciences du système
-      terrestre, économie de la soutenabilité, évaluation intergouvernementale.
-      ET LA PRATIQUE EST CHIFFRÉE, CE QUI DONNE LEURS POIDS AUX TROIS VOIES DE
-      F13 : 56 % des valorisations ne cherchent pas à réunir des valeurs
-      différentes ; moins de 1 % les tiennent séparées dans un processus
-      délibératif ; environ la moitié de celles qui les réunissent les rend
-      directement comparables. LA PRATIQUE DOMINANTE EST DE NE PAS AGRÉGER — et
-      un dispositif monétaire n'a pas ce luxe, puisqu'il faut qu'un montant
-      sorte.
-      LA CHARGE DE LA PREUVE EST DÉPLACÉE : un dispositif qui agrège doit
-      désormais expliquer pourquoi il fait ce qu'une évaluation
-      intergouvernementale déclare sans procédure consensuelle.
-      UN PRINCIPE D'AGRÉGATION EST TROUVÉ LE 2026-09-09 PAR L18.C28, ET C'EST LE
-      PREMIER. Quand on agrège des dimensions de substituabilité inégale, LA
-      MOINS SUBSTITUABLE DOMINE, et le motif est mécanique : c'est elle dont la
-      part dans l'utilité croît. « The relevant aggregate number is likely not
-      going to be the average of those elasticities. The goods or services with
-      low elasticities will dominate the calculation. »
-      ET IL CONVERGE AVEC UNE AUTRE LITTÉRATURE : l'indice de soutenabilité
-      environnementale forte agrège par MOYENNE GÉOMÉTRIQUE, choisie pour que les
-      indicateurs faibles pèsent davantage (L18.C19). Deux littératures
-      indépendantes arrivent au même principe.
-      ISSUE PARTIELLE, ET IL FAUT DIRE EN QUOI : le principe fournit une
-      PONDÉRATION NON ARBITRAIRE — pondérer par la rareté de substitution — mais
-      PAS LES VALEURS, les élasticités par dimension n'étant pas mesurées. Et
-      l'indice existant qui a adopté ce principe a dû le NEUTRALISER par un
-      plancher pour ne pas s'effondrer. LE PRINCIPE EST DISPONIBLE ; SON
-      APPLICATION BUTE EXACTEMENT LÀ OÙ F13 ATTEND.
-      ET UNE MISE À JOUR ANNUELLE EXISTE, QUE LE CORPUS IGNORAIT : le PLANETARY
-      HEALTH CHECK, initiative conduite par l'institut de Potsdam et l'auteur
-      principal du cadre d'origine, dont l'édition INAUGURALE de 2024 confirme
-      six limites franchies sur neuf. Un barème qui doit se recalibrer a besoin
-      d'une source annuelle : en voici une.
       Estimation de l'élasticité de substitution portant sur LES RESSOURCES en
-      général, spécification comparable à Solow, postérieure à 2006 — VALEUR DE
-      MESURE, AUCUNE VALEUR DE TRANCHE (voir ci-dessus).
-      NEUMAYER EST ACQUIS ET OUVERT (L18.C18), fourni par l'auteur en Open
-      Access. HARTWICK 1977 et PEARCE & ATKINSON 1993 sont DÉCLARÉS
-      INACCESSIBLES par l'auteur le 2026-09-08 — le premier introuvable, les
-      seconds payants. Le corpus tient donc l'EXPOSÉ du camp adverse par un de
-      ses analystes, NON SES TEXTES FONDATEURS : l'acquisition n'est pas levée,
-      elle est contournée, et cela doit être déclaré partout.
-      LE CHAPITRE 6 EST OUVERT ET LU INTÉGRALEMENT LE 2026-09-08 (L18.C19).
-      IL DÉPLACE F13 : l'impossibilité d'agréger est ANALYTIQUE, elle découle de
-      la DÉFINITION de la soutenabilité forte comme préservation de chaque forme
-      critique, et non d'un constat sur les mesures. ELLE EST DONC CONDITIONNELLE
-      À CETTE DÉFINITION, et le traité en donne deux. LE CORPUS N'A JAMAIS
-      DÉCLARÉ LAQUELLE IL RETIENT : ce choix décide de la possibilité même du
-      barème, et il appartient à l'auteur.
-      LE CHAPITRE 3 EST OUVERT LE 2026-09-08 (L18.C20), ET IL CHANGE CE QU'UNE
-      ACQUISITION PEUT PROMETTRE. La non-falsifiabilité n'est pas une lacune de
-      connaissance mais une impossibilité de principe : l'optimisme des
-      ressources tient en QUATRE propositions dont il suffit qu'UNE SEULE vaille
-      à un moment quelconque de l'avenir, et l'objet du litige porte sur des
-      techniques NON ENCORE INVENTÉES. L'auteur écrit qu'il serait « a mistake to
-      believe that more research could solve the dispute ». CONSÉQUENCE POUR CE
-      REGISTRE : aucune acquisition ne lèvera ce point, et le corpus doit cesser
-      d'en inscrire dans cet espoir. L'estimation d'élasticité ci-dessous garde
-      sa valeur de MESURE ; elle n'a aucune valeur de TRANCHE.
-      ET LES DEUX NON-FALSIFIABILITÉS NE SONT PAS DE MÊME NATURE. Celle du camp
-      adverse tient à une conjecture invérifiable sur l'avenir. Celle du corpus
-      tient à ce que sa position est NORMATIVE — un droit des générations
-      futures — et l'auteur écrit qu'« as a normative position, it is
-      non-refutable ». Un énoncé normatif n'a pas à être falsifiable pour être
-      légitime : il a à être ASSUMÉ comme normatif. C'EST LA TROISIÈME FOIS QUE
-      CETTE ISSUE SE PRÉSENTE, ET ELLE N'EST PAS PRISE.
-      RÉSERVE QUI BORNE : l'auteur écrit que les preuves de préférences
-      quasi lexicographiques envers le capital naturel sont « rather shaky » et
-      que la majorité des individus a des préférences compatibles avec la
-      substitution. LE CORPUS NE PEUT PAS INVOQUER LES PRÉFÉRENCES OBSERVÉES.
-      ACQUISITIONS NOUVELLES, INSCRITES PAR L18.C19 : Usubiaga-Liaño et Ekins
-      2021a, qui porte la construction de l'indice de soutenabilité
-      environnementale forte — le barème existant le plus proche ; et van der
-      Voet et al. 2003 et 2005 avec Best et al. 2008, qui portent la
-      consommation matérielle pondérée par l'impact environnemental, méthode
-      construite puis délaissée qui outille exactement la sélectivité d'A42.
+      général, spécification comparable à Solow, postérieure à 2006. VALEUR DE
+      MESURE, AUCUNE VALEUR DE TRANCHE : la non-falsifiabilité est une
+      impossibilité de principe, aucune acquisition ne la lèvera.
+
   - id: F14
     objet: "L'additivité structurelle"
     statut: ouvert
     tranche_par: non-tranche
-    note: "Une EXTENSION de son objet est proposée le 2026-09-08 par L17.C04. NON ARBITRÉE."
+    decision: "Une EXTENSION de son objet est proposée par L17.C04. NON ARBITRÉE."
+    texte: protocoles/falsification.md
+    chapitres: [L17.C04]
+    maj: 2026-09-08
 
 pieces_de_conception_manquantes:
   - id: RECALIBRAGE
     objet: "La règle de recalibrage du dispositif"
     statut: oriente
     tranche_par: non-tranche
-    note: >
-      Structurée par L11.C30 : il en faut TROIS et non une, selon le type de
-      boucle — érosion d'assiette, dérive de convention, réponse à l'instrument.
-      Le TYPE C ne se calibre pas à l'avance et appelle une mesure ex post.
-      VERROUILLÉ LE 2026-09-09 PAR L18.C26 : l'évaluation intergouvernementale de
-      2022 porte les effets d'éviction des motivations par l'incitation économique,
-      dans les deux sens — « crowding in » et « crowding out » — avec la mention
-      expresse que la littérature actuelle a une CAPACITÉ PRÉDICTIVE LIMITÉE. LE
-      CORPUS N'A DONC PAS À CHERCHER UNE RÈGLE DE CALIBRAGE POUR CE TYPE : il doit
-      écrire une règle de MESURE APRÈS COUP, ce qui est une pièce différente.
-      CLAUSE FAVORABLE À PORTER AUSSI : l'incorporation des valeurs des parties
-      prenantes dans la conception peut RENFORCER plutôt que saper les
-      motivations. L'éviction n'est pas une fatalité de l'incitation, c'est une
-      conséquence possible d'une conception qui ignore ces valeurs.
-      CINQUIÈME POINT NON TRANCHÉ, ET IL EST DE DROIT : le sort des engagements
-      pris sous l'ancien calibrage. Quatre branches exclusives, dont celle que
-      le FMI pratique — rien ne change sans le consentement de l'intéressé.
+    decision: >
+      Il en faut TROIS et non une, selon le type de boucle. Le TYPE B est une
+      ÉCHÉANCE ANNUELLE documentée, non un risque : le cadre publie chaque année
+      ce qui a changé, et il a déjà RESSERRÉ une limite. Le TYPE C ne se calibre
+      pas à l'avance et appelle une règle de MESURE APRÈS COUP. Le CINQUIÈME
+      POINT — le sort des allocations prises sous l'ancien calibrage — se pose
+      dès le premier exercice. PRIORITÉ : à régler avant toute mise en œuvre.
+    texte: protocoles/passe-2.md
+    chapitres: [L11.C30, L13.C01, L18.C19, L24.C06, L24.C07]
+    maj: 2026-09-09
     acquisition_bloquante: >
       La révision des tarifs d'achat de l'électricité renouvelable en Europe et
-      le sort des engagements pris sous l'ancien tarif — précédent le plus
-      proche du cinquième point. ET la version PUBLIÉE de 2018 du modèle dont
-      est tirée l'occurrence n° 4 : tant qu'elle n'est pas comparée, le
-      décompte de six occurrences n'est pas démontré.
-      CONTRAINTE AJOUTÉE LE 2026-09-08 PAR L18.C19, ET ELLE EST DE FORME : le
-      seul chiffrage du coût de la soutenabilité forte que le corpus tienne
-      donne une COURBE FORTEMENT CONVEXE — atteindre moins de 70 % des normes
-      coûte environ 10 % du revenu national, au-delà le coût explose, et le
-      total est de l'ordre de la moitié du revenu. Si le coût est ainsi, LA
-      POSITION DU COULOIR DÉCIDE DE SON COÛT DE FAÇON NON LINÉAIRE, et une règle
-      de recalibrage procédant par petits pas ne produit pas des effets
-      proportionnels. Chiffrage daté (1990), local (Pays-Bas), borné par sa
-      source comme une BORNE SUPÉRIEURE.
-      LE TYPE B EST DOCUMENTÉ PAR AVANCE LE 2026-09-08 PAR L24.C06, ET PAR LA
-      SOURCE ELLE-MÊME. Les variables de contrôle de la biosphère sont déclarées
-      « interim control variables until more appropriate ones are developed » par
-      la mise à jour de 2015 du cadre. Un barème ne peut pas être plus ferme que
-      sa variable : la dérive de convention de mesure n'est donc pas un risque à
-      anticiper, c'est une échéance annoncée. La règle de recalibrage du type B
-      doit être écrite AVANT que la variable change, et non après.
-      ET L'ÉCHÉANCE EST ANNUELLE, ÉTABLI LE 2026-09-08 PAR L24.C07. Le bilan
-      annuel du cadre publie chaque année ce qui a changé, limite par limite :
-      en un an, nouvelle ligne de base ET LIMITE RESSERRÉE pour l'acidification
-      des océans, nouvelle base de référence et seuils actualisés pour l'eau
-      douce, proposition de changer de variable de contrôle pour les flux
-      biogéochimiques, indicateurs nouveaux ou recommandés ailleurs. LE TYPE B
-      N'EST PAS UN RISQUE À ANTICIPER : C'EST LE RÉGIME NORMAL DE LA SOURCE.
-      LE CAS LE PLUS GÊNANT EST DÉJÀ ARRIVÉ : la limite d'acidification a été
-      resserrée et le franchissement constaté dans le même mouvement. Le corpus
-      ne peut pas démêler la part du monde et la part de la convention. Pour un
-      dispositif qui alloue contre le respect d'une limite, cette distinction
-      décide si un acte qualifié l'an dernier l'est encore — donc le cinquième
-      point se pose DÈS LE PREMIER EXERCICE.
-
-  - id: DESCENTE-D-ECHELLE
-    objet: "La qualification régénérative est-elle une descente d'échelle des limites planétaires"
-    statut: ouvert
-    tranche_par: non-tranche
-    note: >
-      OUVERTE LE 2026-09-08 PAR L24.C06, ET ELLE VISE LA CONSTRUCTION MÊME DU
-      DISPOSITIF. La mise à jour de 2015 du cadre écrit qu'il n'a PAS ÉTÉ CONÇU
-      pour être « downscaled » ni « disaggregated to smaller levels », en raison
-      de l'interdépendance des processus. Une tentative pionnière de partage de
-      charge conclut qu'un tel partage est « neither feasible nor desirable ».
-      Une application régionale a dû LAISSER LE CLIMAT DE CÔTÉ, faute de pouvoir
-      le gérer à cette échelle.
-      OR UN BARÈME QUI QUALIFIE UN ACTE, UN ACTEUR OU UN PRODUIT EST UNE
-      DESCENTE D'ÉCHELLE, ET C'EST LA PLUS RAIDE : le corpus ne descend ni au
-      pays ni à la région, mais À LA TRANSACTION.
-      CETTE DESCENTE EXISTE DANS LA LITTÉRATURE, ELLE EST MASSIVE, ET ELLE EST
-      DÉCLARÉE NON RÉSOLUE. Les travaux couplant limites planétaires et analyse
-      de cycle de vie — cosmétiques, habillement, entreprises, pêche — forment
-      une part importante de toute la littérature du domaine, mais « technical
-      and theoretical challenges are still large », et il est appelé plus de
-      recherche « if we want to model the impact on ALLOCATION OF AND
-      ENTITLEMENT TO the safe operating space ». CETTE PHRASE DÉCRIT LE
-      DISPOSITIF, ET ELLE LE DÉCRIT COMME UN PROBLÈME OUVERT.
-      À TRANCHER PAR L'AUTEUR : le dispositif est-il une telle descente, et si
-      oui, que répond-il à ce que la littérature déclare ouvert ?
-    acquisition_bloquante: >
-      Les méthodes couplant limites planétaires et analyse de cycle de vie, à
-      commencer par celle que Ryberg et al. discutent pour l'allocation de
-      l'espace de fonctionnement sûr. À rapprocher de la consommation matérielle
-      pondérée par l'impact environnemental (van der Voet, Best), inscrite par
-      L18.C19 : les deux littératures visent le même objet et le corpus n'en a
-      ouvert aucune.
+      le sort des engagements pris sous l'ancien tarif. ET la version PUBLIÉE de
+      2018 du modèle dont est tirée l'occurrence n° 4.
 
   - id: CRITERE-L25
     objet: "Qui sélectionne, selon quel critère, par quelle autorité"
     statut: ouvert
     tranche_par: non-tranche
-    note: >
-      Neuf voies indépendantes y mènent (L25.C07), et cinq mécanismes désignent
-      le même perdant : celui dont la pratique n'entre pas dans la grille.
-      Le corridor est chiffrable en agrégat et VIDE EN COMPOSITION.
-      RÉPONSE PARTIELLE VERSÉE LE 2026-09-08 PAR L18.C18, ET ELLE PORTE SUR LA
-      NATURE DU CRITÈRE, NON SUR SON CONTENU : le seuil de coût acceptable
-      « is not a scientific, but an ethical and political question ». C'est une
-      CONTRAINTE — elle interdit de présenter le seuil comme un résultat de
-      mesure — et non une solution. Trois candidats institutionnels sont
-      nommés par la source : démocratie délibérative, référendums fictifs,
-      assemblées citoyennes. AUCUN N'EST INSTRUIT PAR LE CORPUS.
-      ARBITRAGE BINAIRE POSÉ LE 2026-09-08 PAR L18.C21, ET IL COMMANDE LE
-      CORRIDOR. La source pose deux options exclusives et n'en laisse pas de
-      troisième. (1) IGNORER le coût d'opportunité : préserver la totalité,
-      interdire les activités dommageables « regardless of the cost », règle de
-      « constancy of total natural capital ». (2) LE BORNER : préserver sauf si
-      les coûts sont « unacceptably high », coûts entendus NETS des bénéfices
-      attendus. L'auteur du traité choisit la seconde, au motif qu'ignorer le
-      coût revient à résoudre les arbitrages en les évitant, et il en déclare le
-      prix — pas d'assurance contre la mauvaise surprise ex post.
-      UN CORRIDOR QUI SE FERME QUEL QUE SOIT LE COÛT RELÈVE DE LA PREMIÈRE
-      OPTION ; UN CORRIDOR QUI S'ÉLARGIT QUAND LA FERMETURE COÛTE TROP RELÈVE DE
-      LA SECONDE. Ce sont deux dispositifs différents, pas deux réglages du même.
-      LE CORPUS N'A JAMAIS DIT LEQUEL. C'est un arbitrage de l'auteur.
-      CONTRAINTE AJOUTÉE, ET ELLE GÊNE : le seuil n'a pas même de réponse
-      GÉNÉRALE, la source le déclarant « highly context-specific ». Un barème
-      universel fixant un seuil unique pour toutes activités, tous territoires et
-      toutes périodes contredirait cette conclusion, même en déclarant son seuil
-      politique.
-      LES DEUX DIFFICULTÉS QUE LA SOURCE ASSIGNE AUX TENANTS DE LA SOUTENABILITÉ
-      FORTE SONT EXACTEMENT LE CONTENU DE CETTE PIÈCE : savoir QUELLES formes
-      sont critiques, et COMBIEN de prélèvement avant qu'une forme le devienne.
-      Le corpus n'a ni l'une ni l'autre.
-      ISSUE FORMULÉE, NON ARBITRÉE : une position de droit assortie d'un seuil de
-      conséquence — « avoid deliberate harm except where there are overwhelming
-      beneficial outcomes which go beyond a consequential threshold » — ne
-      s'oppose pas à l'analyse économique, elle la borne. QUATRIÈME PRÉSENTATION
-      DE LA MÊME ISSUE, PREMIÈRE AVEC UNE FORMULATION.
-      CONVERGENCE ÉTABLIE LE 2026-09-08 PAR L24.C06 : la littérature de
-      gouvernance du système terrestre pose la MÊME question dans les MÊMES
-      termes — « who is deciding on the precise values of boundaries that are to
-      be protected ? » — et identifie l'enjeu comme un déplacement de
-      responsabilité et de pouvoir politique DU DÉCIDEUR VERS L'EXPERT. Le degré
-      d'aversion au risque qu'une limite incorpore ne relève pas, selon ces
-      critiques, des sciences de la nature ; le terme employé est « global
-      expertocracy ». DEUX LITTÉRATURES INDÉPENDANTES DISENT DONC QUE LE SEUIL
-      N'EST PAS SCIENTIFIQUE. Le corpus ne peut plus présenter son barème comme
-      la traduction d'un fait naturel, quelle que soit la qualité de la science
-      qu'il cite.
-      DÉFAUT DE LÉGITIMITÉ DOCUMENTÉ : pas un seul chercheur du Sud parmi les
-      auteurs de 2009 ; la forme institutionnelle récente n'est légitimée ni par
-      les Nations unies ni par les pays en développement, et son réseau de
-      soutien comprend une facilité liée à la Banque mondiale et le forum
-      économique mondial. À porter partout où le corpus invoque ce cadre.
-      NON LU, RANG 2 : la section « Implications for Governance » de la même
-      revue, la plus longue, qui porte les propositions institutionnelles.
-      TROISIÈME VOIE VERSÉE LE 2026-09-08 PAR L18.C24, ET ELLE N'EXIGE PAS LA
-      NON-SUBSTITUABILITÉ. L'approche Krutilla-Fisher fait CROÎTRE la valeur
-      relative des biens environnementaux avec le revenu et DÉPRÉCIER celle des
-      bénéfices tirés de leur destruction ; formellement le même taux est
-      appliqué à tout, ce sont les valeurs qui s'apprécient ou se déprécient
-      avant actualisation. Cela relie la valorisation des communs à une grandeur
-      observable — l'élasticité-revenu de la demande d'aménités — plutôt qu'à une
-      convention. SON PRIX : elle suppose encore une substituabilité, seulement
-      décroissante.
-      ET L'ÉTAT DU CHAMP EST CHIFFRÉ LE 2026-09-09 PAR L18.C25 : sur quatre
-      décennies de littérature de valorisation, LA JUSTICE A ÉTÉ CONSIDÉRÉE DANS
-      4 % DES CAS et la manière dont l'asymétrie de POUVOIR est prise en compte
-      n'est documentée que dans 1 %. Le corpus ne trouvera donc pas dans cette
-      littérature la réponse qu'il cherche : elle n'y a presque pas été
-      cherchée. Ce n'est pas un défaut du corpus, c'est l'état du champ, ET IL
-      FAUT LE DÉCLARER.
-      LE CHAPITRE 4 EST OUVERT LE 2026-09-09 DANS SON RÉSUMÉ EXÉCUTIF (L18.C26),
-      ET IL DONNE UNE DIRECTION ET UN PIÈGE. LA DIRECTION : les processus
-      participatifs conduisent plus probablement à des résultats plus soutenables
-      et plus justes, et dans les aires protégées l'implication communautaire
-      profonde s'accompagne de réduction de la pauvreté, de hausse du couvert
-      forestier, d'amélioration des stocks halieutiques et de plus grande
-      biodiversité — le gain est donc mesuré sur des résultats ÉCOLOGIQUES, non
-      seulement sur l'acceptabilité. LE PIÈGE : accroître ce qui a l'apparence
-      d'une participation par une implication superficielle ou coercitive « is not
-      sufficient and may even be detrimental ». Un dispositif qui organiserait une
-      consultation sans pouvoir de décision tomberait dedans.
-      CONTRAINTE AJOUTÉE, ET ELLE EST DE COÛT : le coût des mécanismes de
-      certification et de transparence pèse particulièrement sur les PETITS
-      producteurs, et une conception internationale non adaptée localement peut
-      exclure des pratiques de gestion et accroître les inégalités. UN DISPOSITIF
-      DONT LA QUALIFICATION COÛTE CHER À OBTENIR SÉLECTIONNE PAR LE COÛT DE LA
-      PREUVE AVANT DE SÉLECTIONNER PAR LA PRATIQUE. Le corpus n'a jamais chiffré
-      ce coût ni dit qui le porte.
-      LES CANDIDATS SONT NOMMÉS LE 2026-09-09 PAR L18.C30, ET LE CORPUS LES
-      IGNORAIT. Quatre instruments de droits coutumiers répondent précisément à
-      la question de cette pièce : les mesures de conservation efficaces par zone
-      (aires et territoires conservés par les peuples autochtones et les
-      communautés, sites naturels sacrés) ; les politiques de revitalisation des
-      connaissances autochtones et locales ; les codes de conduite éthique
-      élaborés par ces peuples ; et le CONSENTEMENT PRÉALABLE, LIBRE ET ÉCLAIRÉ.
-      Tous reposent sur des valeurs relationnelles et intrinsèques, et
-      l'évaluation les juge LES PLUS CAPABLES de traiter les valeurs diverses.
-      CE QUE CELA CHANGE : le corpus doit cesser de chercher son autorité de
-      qualification dans le vide. Elle a des candidats nommés, développés
-      ailleurs et depuis longtemps. Ces instruments déterminent QUI DÉCIDE et
-      SELON QUELLE LÉGITIMITÉ ; ils ne déterminent pas COMBIEN EST VERSÉ À QUI —
-      ce qui laisse au dispositif un objet propre et lui donne un point
-      d'articulation.
-      AVERTISSEMENT JOINT, ET IL EST DE CONCEPTION : l'intégration PAR LE HAUT de
-      ces instruments avec d'autres types peut avoir des effets défavorables.
-      Trois sources indépendantes disent désormais la même chose — REDD+ a
-      recentralisé la gouvernance forestière (L18.C29), une participation
-      superficielle peut être préjudiciable (L18.C26), et l'intégration
-      descendante nuit (L18.C30). LE CORPUS DOIT ÉTABLIR CE QUI, DANS SON
-      DISPOSITIF, L'EN EMPÊCHERAIT.
-      LE GUIDE EST OUVERT LE 2026-09-09 (L18.C31), ET IL ÉTABLIT QUE CETTE PIÈCE
-      ET F13 NE FONT QU'UNE. La troisième étape du guide rencontre
-      l'incommensurabilité et NE LA RÉSOUT PAS : elle demande qu'elle soit
-      RECONNUE, et que soient traités « the unequal power relations among those
-      holding conflicting and incommensurable values ». LE PROBLÈME EST DÉPLACÉ
-      DE LA MÉTROLOGIE VERS LA POLITIQUE, explicitement et par la source la plus
-      autorisée. Si l'incommensurabilité se reconnaît au lieu de se résoudre,
-      alors la pondération d'un barème est une DÉCISION, et la question devient
-      qui la prend et selon quelle légitimité. LE CORPUS TENAIT CES DEUX PIÈCES
-      SÉPARÉES ; ELLES N'EN FONT QU'UNE.
-      CE QUE LE GUIDE DONNE : six lignes directrices transversales —
-      contextualiser ; concevoir des processus tenant compte des capacités et
-      perspectives ; assurer une REPRÉSENTATION ÉQUITABLE des visions du monde, y
-      compris des détenteurs de DROITS et de SAVOIRS ; engager de manière
-      interactive ; RECHERCHER LA LÉGITIMITÉ EN INSTILLANT UN SENTIMENT DE
-      COPROPRIÉTÉ des résultats chez tous les participants ; réfléchir et
-      apprendre. Et huit étapes, dont la quatrième pose textuellement « who wins
-      and who loses ».
-      LA CINQUIÈME LIGNE DIRECTRICE EST CELLE QUE LE DISPOSITIF AURA LE PLUS DE
-      MAL À SATISFAIRE : un sentiment de copropriété suppose que la
-      qualification soit produite AVEC ceux qu'elle qualifie. Un barème conçu
-      centralement et appliqué à des actes ne produit pas de copropriété : il
-      produit un verdict.
-      OÙ LE DISPOSITIF SE RANGE, ET C'EST LA PREMIÈRE FOIS QUE LE CORPUS PEUT LE
-      SITUER : la sixième étape nomme comme POINTS DE LEVIER PROFONDS
-      l'établissement de nouvelles institutions et les réformes fiscales
-      écologiques. Le dispositif fait les deux. Et la mention de la SUBSIDIARITÉ
-      dans le dosage de politiques lui donne le cadre où répondre à
-      l'avertissement sur l'intégration par le haut : ce n'est pas l'échelle
-      globale qui est reprochée, c'est l'absence de subsidiarité.
-      ET UNE DÉCEPTION QU'IL FAUT PORTER : la septième étape, celle qui fait
-      passer de l'analyse à l'agenda politique, est déclarée SANS STRUCTURE NI
-      PROCESSUS CLAIRS. Le corpus ne trouvera nulle part une procédure qui
-      garantisse l'adoption, et une thèse qui reposerait sur l'existence d'une
-      telle procédure repose sur rien.
-      CE QUE LE GUIDE NE DONNE PAS : il est un guide de VALORISATION, non de
-      conception d'instrument, et il ne dit nulle part comment CALCULER UN
-      MONTANT. L'écart entre une décision et un montant reste entier — c'est le
-      pas que L18.C29 a nommé comme le lieu de F13.
-      ACQUISITION QUI RESTE, RANG 1 ET SUR LE DISQUE : le TABLEAU 6.10, qui donne
-      les actions matérialisant chaque ligne directrice. Il n'est pas extractible
-      par la couche de texte et demande un autre mode d'ouverture.
+    lie_a: [F13]
+    decision: >
+      LE SEUIL N'EST PAS SCIENTIFIQUE — deux littératures le disent, et il n'a
+      pas de réponse GÉNÉRALE. Arbitrage binaire non pris : IGNORER le coût
+      d'opportunité, ou LE BORNER. Des candidats d'autorité existent, ignorés du
+      corpus : droits territoriaux, savoirs, codes de conduite, consentement
+      préalable. Un guide existe ; il ne dit pas comment calculer un montant.
+      FACE POLITIQUE du problème dont F13 est la face MÉTROLOGIQUE : les deux se
+      tranchent ensemble ou pas du tout.
+    texte: protocoles/passe-2.md
+    chapitres: [L25.C07, L18.C21, L18.C24, L18.C25, L18.C30, L18.C31, L24.C06]
+    maj: 2026-09-09
+    acquisition_bloquante: >
+      Le tableau 6.10 de l'évaluation IPBES, qui donne les actions matérialisant
+      chaque ligne directrice. Sur le disque, non extractible par la couche de
+      texte.
 
   - id: PARTAGE-SOURCE-PUITS
     objet: "De quel côté de l'économie la qualification régénérative mord-elle"
     statut: ouvert
     tranche_par: non-tranche
-    note: >
-      DÉCOUVERTE LE 2026-09-08 PAR L18.C18, ET ELLE COMMANDE QUI, DANS LA
-      LITTÉRATURE, SE TROUVE D'ACCORD AVEC LE DISPOSITIF. Le traité de
-      référence du débat ne conclut pas pour un camp : il conclut PAR CÔTÉ DE
-      L'ÉCONOMIE. La substituabilité est mieux soutenue pour le capital naturel
-      pris comme ENTRÉE DE PRODUCTION (côté SOURCE) ; la non-substituabilité
-      est mieux soutenue pour la CAPACITÉ D'ABSORPTION DES POLLUTIONS et
-      l'agrément direct (côté PUITS).
-      CONSÉQUENCE POUR LE DISPOSITIF : il n'est du côté soutenu que si la
-      grandeur qu'il qualifie est une grandeur de PUITS. Si elle porte sur des
-      prélèvements de matières et de ressources non renouvelables, le même
-      auteur écrit qu'AUCUNE politique explicite de préservation ne se
-      justifie.
-      LE CORPUS N'A JAMAIS TRANCHÉ CE PARTAGE. Il a construit une
-      qualification régénérative sans dire de quel côté elle mord. À trancher
-      avec A42 et CRITERE-L25.
-      LE CHAMP EST RÉDUIT LE 2026-09-08 PAR L18.C20, ET LA BRANCHE SOURCE EST
-      RÉPONDUE — CONTRE LA POSITION QUE LE DISPOSITIF SUPPOSE. « All the
-      available evidence so far therefore seems to strongly support the
-      substitutability assumption of WS with respect to natural capital as an
-      input to the production of goods and services. » Dix-sept matières non
-      énergétiques recensées : rapport ressources sur production supérieur au
-      siècle pour la plupart, supérieur au millénaire pour plusieurs. Sur les
-      hydrocarbures, la conclusion est retournée — le danger cité est qu'il y en
-      ait « far too much [...] for the climate to tolerate », non qu'il en
-      manque. Sur l'alimentation, la question est déplacée vers la répartition
-      intra-générationnelle.
-      CE POINT EST DÉSORMAIS LE PLUS URGENT DU CORPUS. Si la qualification mord
-      du côté SOURCE, le dispositif contredit l'état des preuves que
-      l'adversaire ET son examinateur tiennent pour établies. Si elle mord du
-      côté PUITS, le même examinateur le soutient.
-      RÉSERVE : les réserves sont une grandeur ÉCONOMIQUE, non physique, et la
-      source le déclare — surdéclaration des exportateurs, et rapport réserves
-      sur production supposant à tort une extraction constante jusqu'à
-      épuisement. Ce qui est établi est que les réserves ont plus que suivi la
-      production JUSQU'ICI. L'abondance établie est une abondance de STOCK, non
-      une innocuité de PRÉLÈVEMENT : l'auteur écarte explicitement de son champ
-      les dommages causés par l'extraction.
+    decision: >
+      LE CHAMP EST RÉDUIT : la branche SOURCE est répondue, et contre la position
+      que le dispositif suppose. Le dispositif n'est du côté soutenu que si sa
+      grandeur est une grandeur de PUITS. PRIORITÉ DÉCLARÉE PAR L'AUTEUR LE
+      2026-09-09.
+    texte: protocoles/passe-2.md
+    chapitres: [L18.C18, L18.C20, L18.C21]
+    maj: 2026-09-09
+
+  - id: DESCENTE-D-ECHELLE
+    objet: "La qualification régénérative est-elle une descente d'échelle des limites planétaires"
+    statut: ouvert
+    tranche_par: non-tranche
+    decision: >
+      Le cadre déclare n'avoir PAS ÉTÉ CONÇU pour être désagrégé. Or un barème
+      qui qualifie un acte est la descente la plus raide : ni au pays ni à la
+      région, mais À LA TRANSACTION. Cette descente existe dans la littérature,
+      elle est massive, et l'allocation du droit d'usage y est déclarée non
+      résolue.
+    texte: protocoles/passe-2.md
+    chapitres: [L24.C06, L24.C07, L18.C19]
+    maj: 2026-09-09
+    acquisition_bloquante: >
+      Les méthodes couplant limites planétaires et analyse de cycle de vie, et
+      la consommation matérielle pondérée par l'impact environnemental. TROIS
+      chapitres réclament la même littérature.
 
   - id: MODELE-ADVERSAIRE
     objet: "Qui gagne quoi à falsifier une qualification régénérative"
     statut: ouvert
     tranche_par: non-tranche
-    note: >
-      Réclamé par L15.C01. Quatre architectures documentées (L15.C01 à C04) et
-      AUCUNE n'attaque la grandeur écologique elle-même. Reste sans source :
-      la capture du régulateur, seule limite de L1.C18 § 5 que le corpus n'a
-      documentée d'aucune manière.
+    decision: >
+      TROIS familles de défaillance et non une. La FRAUDE — quatre architectures
+      documentées, aucune n'attaquant la grandeur écologique. Le PASSAGER
+      CLANDESTIN — des acteurs honnêtes qui attendent que l'autre paie. Et
+      l'EFFET INSTITUTIONNEL CONTRAIRE — un instrument d'allocation a
+      recentralisé la gouvernance qu'il devait ouvrir. Le corpus n'a instruit
+      que la première.
+    texte: protocoles/passe-2.md
+    chapitres: [L15.C01, L15.C02, L15.C03, L15.C04, L18.C21, L18.C29, L18.C30]
+    maj: 2026-09-09
     acquisition_bloquante: >
-      Une architecture documentée de CAPTURE DU RÉGULATEUR — distincte du
-      conflit d'intérêts du certificateur, qui lui est tenu (L15.C04). Un
-      certificateur payé par ceux qu'il note est en conflit ; un régulateur
-      capturé est retourné.
-      SECONDE FAMILLE DE DÉFAILLANCE OUVERTE LE 2026-09-08 PAR L18.C21, ET ELLE
-      NE SUPPOSE AUCUNE FRAUDE. La préservation a pour partie le caractère d'un
-      bien public mondial : les coûts sont certains, présents et réels, les
-      bénéfices incertains, futurs et partiellement captés par d'autres pays.
-      « Since every potential protector has the incentive to free ride, none may
-      have sufficient impetus to protect. » CE SONT DES ACTEURS HONNÊTES QUI,
-      CHACUN RATIONNELLEMENT, ATTENDENT QUE L'AUTRE PAIE. Le dispositif doit
-      répondre à DEUX familles — la fraude (L15.C01 à C04) et le passager
-      clandestin — et il n'en a instruit qu'une.
-      RÉPONSE DISPONIBLE ET NON ACQUISE : un instrument qui RÉMUNÈRE la
-      préservation modifie le calcul du passager clandestin, le protecteur
-      captant une contrepartie. Le corpus n'a pas montré que la contrepartie
-      couvre l'écart, et l'ampleur de cet écart n'est pas chiffrée.
+      Une architecture documentée de CAPTURE DU RÉGULATEUR, distincte du conflit
+      d'intérêts du certificateur, qui lui est tenu.

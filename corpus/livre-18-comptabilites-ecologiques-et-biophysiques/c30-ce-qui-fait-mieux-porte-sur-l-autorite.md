@@ -1,6 +1,6 @@
 ---
 chapitre: L18.C30
-titre: "Les deux familles qui font mieux ne montent pas à l'échelle, et les combiner par le haut nuit"
+titre: "Ce qui fait mieux porte sur l'autorité, et les combiner par le haut nuit"
 livre: 18
 langue: fr
 licence: CC-BY-SA-4.0
@@ -40,12 +40,21 @@ verifications_en_attente:
      « might have adverse effects especially if integration happens in a
      top-down fashion ». **Ni l'ampleur ni la fréquence de ces effets ne sont
      données dans ce qui est lu**, et le corpus ne les invente pas."
-resume: "Ce chapitre décharge l'obligation que le corpus s'était imposée deux fois, à savoir examiner les deux familles d'instruments que l'évaluation intergouvernementale juge plus aptes que la sienne à opérationnaliser les valeurs diverses de la nature. Il en tire quatre résultats. Le premier est que la famille socioculturelle compte sept instruments et que celui auquel le plus fort potentiel est attribué est la cogestion, dont l'évaluation écrit qu'elle accroît vraisemblablement les résultats écologiques et socio-économiques des aires protégées en donnant du pouvoir aux populations locales, en réduisant les inégalités économiques et en préservant les moyens d'existence, mais que les contextes culturels et écologiques particuliers y sont déterminants, ce qui rend tout modèle difficile à monter en échelle. Le deuxième est que la famille des droits coutumiers ne compte que quatre instruments, tous fondés sur des valeurs relationnelles et intrinsèques, et qu'ils portent sur des territoires, des connaissances, des codes de conduite et le consentement préalable, c'est-à-dire sur des objets qui ne sont pas des mécanismes d'allocation. Le troisième, et c'est un avertissement de conception, est que l'évaluation écrit que combiner ces instruments avec d'autres types peut avoir des effets défavorables, en particulier si l'intégration se fait par le haut. Le quatrième est que la comparaison entre familles donne à toutes un potentiel de changement d'ensemble, mais qualifie ce potentiel de plus incrémental que transformateur, y compris pour les familles les mieux classées. Le chapitre en conclut que l'argument de complémentarité devient disponible au corpus, la famille la mieux classée ne montant pas à l'échelle, mais que cet argument est une inférence du corpus et non un énoncé de la source, et qu'il est assorti de l'avertissement sur l'intégration par le haut."
+  - "**DEUX ÉNONCÉS DE CE CHAPITRE ONT ÉTÉ RAMENÉS À LEUR SOURCE LE 2026-09-09
+     SUR ARBITRAGE DE L'AUTEUR.** **La difficulté de monter en échelle est
+     portée par la source SUR LA COGESTION**, instrument de la famille
+     socioculturelle, **et non sur les deux familles.** **Et « more incremental
+     than transformative » qualifie le POTENTIEL ÉVALUÉ ; cela ne permet pas
+     d'écrire qu'aucune famille ne produit de transformation.** **Règle générale
+     que ces deux points rappellent : une limite énoncée sur un INSTRUMENT ne se
+     transporte pas à sa FAMILLE, et un comparatif de degré n'est pas une
+     négation.**"
+resume: "Ce chapitre décharge l'obligation que le corpus s'était imposée deux fois, à savoir examiner les deux familles d'instruments que l'évaluation intergouvernementale juge plus aptes que la sienne à opérationnaliser les valeurs diverses de la nature. Il en tire quatre résultats. Le premier est que la famille socioculturelle compte sept instruments et que celui auquel le plus fort potentiel est attribué est la cogestion, dont l'évaluation écrit qu'elle accroît vraisemblablement les résultats écologiques et socio-économiques des aires protégées en donnant du pouvoir aux populations locales, en réduisant les inégalités économiques et en préservant les moyens d'existence, mais que les contextes culturels et écologiques particuliers y sont déterminants, ce qui rend tout modèle de cogestion difficile à monter en échelle, la source portant cette limite sur cet instrument et non sur les familles entières. Le deuxième est que la famille des droits coutumiers ne compte que quatre instruments, tous fondés sur des valeurs relationnelles et intrinsèques, et qu'ils portent sur des territoires, des connaissances, des codes de conduite et le consentement préalable, c'est-à-dire sur des objets qui ne sont pas des mécanismes d'allocation. Le troisième, et c'est un avertissement de conception, est que l'évaluation écrit que combiner ces instruments avec d'autres types peut avoir des effets défavorables, en particulier si l'intégration se fait par le haut. Le quatrième est que la comparaison entre familles donne à toutes un potentiel de changement d'ensemble, et qualifie ce potentiel de davantage incrémental que transformateur, ce qui ne dit pas qu'aucune famille ne transforme mais que le potentiel évalué penche du côté de l'incrément, et vaut pour toutes les familles. Le chapitre en conclut que l'argument de complémentarité devient disponible au corpus, l'instrument le mieux placé de la famille socioculturelle étant déclaré difficile à monter en échelle, mais que cet argument est une inférence du corpus et non un énoncé de la source, et qu'il est assorti de l'avertissement sur l'intégration par le haut."
 concepts: [polycentricite, communs, affectation_des_instruments, qualification_regenerative, robustesse]
 renvois: [L18.C26, L18.C27, L18.C29, L24.C06, L11.C30, L15.C04]
 ---
 
-# Les deux familles qui font mieux ne montent pas à l'échelle, et les combiner par le haut nuit
+# Ce qui fait mieux porte sur l'autorité, et les combiner par le haut nuit
 
 ::etat:: **Le corpus s'était imposé cette lecture deux fois** [L18.C27, L18.C29] : **tant qu'il n'aurait pas examiné les instruments socioculturels et de droits coutumiers, il ne pourrait pas soutenir que son instrument est nécessaire.** **Ce chapitre décharge cette obligation — au niveau de l'évaluation, et non au niveau des travaux qu'elle évalue.**
 
@@ -91,9 +100,11 @@ renvois: [L18.C26, L18.C27, L18.C29, L24.C06, L11.C30, L15.C04]
 
 ::etat:: **Le commentaire de la figure conclut** [S1] : les familles ont des forces et des faiblesses différentes, **les instruments coutumiers et fondés sur les droits étant les plus capables de traiter les valeurs diverses.**
 
-::hypothese:: **LE VERDICT D'ENSEMBLE EST PLUS SÉVÈRE QUE LE CLASSEMENT, ET IL VAUT POUR TOUT LE MONDE.** **Aucune famille ne produit de transformation ; toutes produisent au mieux de l'incrément.** **Le corpus ne peut donc pas opposer une famille à une autre comme si l'une réussissait : l'évaluation les tient toutes pour insuffisantes.**
+::etat:: **LA QUALIFICATION QUI SUIT LES PROPORTIONS VAUT POUR TOUTES LES FAMILLES, ET LE CORPUS LA PORTE SANS L'AMPLIFIER** [S1] : le potentiel constaté est *« more incremental than transformative »*. **Ce n'est pas dire qu'aucune famille ne transforme** : c'est dire que, dans ce qui a été évalué, le potentiel penche du côté de l'incrément.
 
-::hypothese:: **CE QUI CHANGE POUR F10, ET C'EST UN ÉQUILIBRE ET NON UNE VICTOIRE.** **L'obligation d'examen est déchargée** : les deux familles mieux classées portent sur l'autorité et la légitimité, non sur l'allocation, et la mieux placée de toutes ne monte pas à l'échelle. **Le dispositif garde donc un objet propre.** **Mais il hérite du verdict commun — aucune famille ne transforme — et d'un avertissement qui le vise en propre : l'intégration par le haut nuit à ce qu'elle intègre.**
+::hypothese:: **LE CORPUS NE PEUT DONC PAS OPPOSER UNE FAMILLE À UNE AUTRE COMME SI L'UNE RÉUSSISSAIT ET L'AUTRE NON.** **Le classement porte sur l'APTITUDE À TRAITER LES VALEURS DIVERSES, et la qualification incrémentale porte sur le POTENTIEL DE CHANGEMENT D'ENSEMBLE : ce sont deux jugements différents, et le second est le même pour tout le monde.**
+
+::hypothese:: **CE QUI CHANGE POUR F10, ET C'EST UN ÉQUILIBRE ET NON UNE VICTOIRE.** **L'obligation d'examen est déchargée** : les deux familles mieux classées portent sur **l'autorité et la légitimité, non sur l'allocation** — et **l'instrument le mieux placé de la famille socioculturelle, la cogestion, est déclaré difficile à monter en échelle.** **Le dispositif garde donc un objet propre.** **Mais il hérite d'un avertissement qui le vise : l'intégration par le haut peut nuire à ce qu'elle intègre.**
 
 ## 5. Ce que ce chapitre n'établit pas
 
