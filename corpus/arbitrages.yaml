@@ -87,21 +87,27 @@ arbitrages:
 
   - id: A35
     objet: "Qui porte juridiquement la dette collective"
-    statut: ouvert
-    tranche_par: non-tranche
-    decision: "Commande le reste ; L19 devait la clore et ne l'a pas close. PRIORITÉ DÉCLARÉE PAR L'AUTEUR LE 2026-09-09."
+    statut: arbitre
+    tranche_par: auteur
+    decision: >
+      ARBITRÉ. La société n'est PAS débiteur juridique. L'unité émise est un
+      PASSIF DE L'ÉMETTEUR ; la société supporte l'INCIDENCE ÉCONOMIQUE du
+      reflux. Deux notions distinctes que le corpus confondait. Ouvre en retour
+      la question distributive de l'incidence, que porte le Livre 25.
     texte: protocoles/passe-2.md
-    chapitres: [L19.C05, L20.C24, L20.C26]
+    chapitres: [L19.C05, L20.C24, L20.C26, L11.C09]
     maj: 2026-09-09
 
   - id: A36
-    objet: "La fonte est-elle un prélèvement ou une décote"
-    statut: ouvert
-    tranche_par: non-tranche
+    objet: "La nature de la fonte"
+    statut: oriente
+    tranche_par: auteur
     decision: >
-      Le choix décide de la nature du dispositif, et il décide aussi de sa
-      qualification comme réforme fiscale (L18.C31). PRIORITÉ DÉCLARÉE PAR
-      L'AUTEUR LE 2026-09-09.
+      ARBITRÉ DANS SA SÉPARATION : deux mécanismes et non un. Le DÉMURRAGE sur
+      les encaisses est une RÈGLE MONÉTAIRE. Le PRÉLÈVEMENT sur les transactions
+      relève d'une contribution fiscale, parafiscale ou de réseau SELON SON
+      ARCHITECTURE JURIDIQUE, qui n'est pas arrêtée. L18.C31 corrigé en
+      conséquence.
     texte: protocoles/passe-2.md
     chapitres: [L18.C31]
     maj: 2026-09-09
@@ -111,16 +117,20 @@ arbitrages:
     statut: oriente
     tranche_par: auteur
     decision: >
-      Rang institutionnel donné par l'auteur. Les articles XXVI du Fonds et II,
-      IV et VI de la Banque sont lus en vigueur ; reste ouvert le choix de la
-      forme elle-même.
+      Rang institutionnel donné. Articles XXVI du Fonds et II, IV et VI de la
+      Banque lus en vigueur. PRIORITÉ DE MODÉLISATION ARRÊTÉE : une institution
+      internationale émettant une UNITÉ DE RÉSERVE aux banques centrales,
+      celles-ci émettant leur monnaie nationale — branche la plus proche du
+      précédent des droits de tirage spéciaux. La forme reste un PARAMÈTRE du
+      modèle, non une hypothèse figée.
     texte: protocoles/passe-2.md
-    chapitres: [L20.C24, L20.C25, L20.C26]
+    chapitres: [L20.C24, L20.C25, L20.C26, L13.C01]
     maj: 2026-09-09
     acquisition_bloquante: >
-      L'ANNEXE J des statuts du Fonds. Voies automatisées épuisées le
-      2026-09-09 : l'édition en ligne ne sert pas les annexes et le site
-      institutionnel refuse tout. RÉCUPÉRATION MANUELLE.
+      L'ANNEXE J des statuts du Fonds — voies automatisées épuisées, récupération
+      manuelle. ET les articles du COMPTE DE TIRAGES SPÉCIAUX en vigueur,
+      devenus référence de modélisation : le texte de 1944 que le corpus tient ne
+      les contient pas, ces droits n'existant pas encore.
 
   - id: A38
     objet: "L'épargne retraite est-elle de la thésaurisation"
@@ -257,14 +267,14 @@ falsifieurs:
     tranche_par: non-tranche
     decision: >
       DÉPLACÉ TROIS FOIS : la mesure et la descente à l'échelle du produit
-      existent déjà, donc ce que le dispositif doit justifier n'est plus le
-      barème mais L'AJOUT MONÉTAIRE. Les familles mieux classées portent sur
-      l'autorité, non sur l'allocation. Le motif de l'échec de la cible sur les
-      incitations est orienté : défaut de contrainte et mandat sectoriel.
-      L'ARGUMENT PROPRE DE L'AJOUT MONÉTAIRE N'EST ÉCRIT NULLE PART — priorité
-      déclarée par l'auteur le 2026-09-09.
+      existent déjà, donc ce que le dispositif doit justifier est L'AJOUT
+      MONÉTAIRE. Les familles mieux classées portent sur l'autorité, non sur
+      l'allocation. L'argument est écrit le 2026-09-09 (L1.C31), en proposition
+      testable avec sa condition de réfutation, arrêtées par l'auteur. IL N'EST
+      PAS ÉTABLI : aucun de ses quatre énoncés n'est mesuré, et la comparaison
+      qu'exige la réfutation n'a été faite par personne.
     texte: protocoles/falsification.md
-    chapitres: [L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
+    chapitres: [L1.C31, L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
     maj: 2026-09-09
     acquisition_bloquante: >
       La littérature de la cogestion elle-même, si l'auteur veut une comparaison
@@ -293,16 +303,16 @@ falsifieurs:
 
   - id: F13
     objet: "L'incommensurabilité — la soutenabilité faible"
-    statut: ouvert
-    tranche_par: non-tranche
+    statut: oriente
+    tranche_par: auteur
     lie_a: [CRITERE-L25]
     decision: >
-      NE PAS FERMER (auteur). TROIS confirmations indépendantes qu'aucun
-      consensus d'agrégation n'existe. Un PRINCIPE — la moins substituable
-      domine — et une MÉTHODE, le multicritère. Mais la source la plus autorisée
-      ne résout pas l'incommensurabilité : elle la RECONNAÎT et traite le rapport
-      de pouvoir. FACE MÉTROLOGIQUE du problème dont CRITERE-L25 est la face
-      POLITIQUE. Manque le pas d'une DÉCISION à un MONTANT.
+      ARBITRAGE DE RÉPONSE RENDU LE 2026-09-09 : renoncer au SCORE MONDIAL
+      UNIQUE, employer PLUSIEURS SEUILS NON COMPENSABLES, et assumer
+      publiquement que la pondération restante est une décision POLITIQUE,
+      participative et contestable. Troisième voie, présentée cinq fois et enfin
+      prise. F13 RESTE OUVERT : ce qui est arbitré est la RÉPONSE, non
+      l'objection. Manque toujours le pas d'une DÉCISION à un MONTANT.
     texte: protocoles/falsification.md
     chapitres: [L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
     maj: 2026-09-09
@@ -343,17 +353,17 @@ pieces_de_conception_manquantes:
 
   - id: CRITERE-L25
     objet: "Qui sélectionne, selon quel critère, par quelle autorité"
-    statut: ouvert
-    tranche_par: non-tranche
+    statut: oriente
+    tranche_par: auteur
     lie_a: [F13]
     decision: >
-      LE SEUIL N'EST PAS SCIENTIFIQUE — deux littératures le disent, et il n'a
-      pas de réponse GÉNÉRALE. Arbitrage binaire non pris : IGNORER le coût
-      d'opportunité, ou LE BORNER. Des candidats d'autorité existent, ignorés du
-      corpus : droits territoriaux, savoirs, codes de conduite, consentement
-      préalable. Un guide existe ; il ne dit pas comment calculer un montant.
-      FACE POLITIQUE du problème dont F13 est la face MÉTROLOGIQUE : les deux se
-      tranchent ensemble ou pas du tout.
+      ARBITRÉ LE 2026-09-09 DANS SON PRINCIPE : la pondération est déclarée
+      POLITIQUE, participative et contestable, et plusieurs seuils non
+      compensables remplacent le score unique. RESTENT OUVERTS : l'autorité
+      concrète — des candidats existent, du consentement préalable aux droits
+      territoriaux — et l'arbitrage binaire ignorer ou borner le coût
+      d'opportunité. FACE POLITIQUE du problème dont F13 est la face
+      MÉTROLOGIQUE.
     texte: protocoles/passe-2.md
     chapitres: [L25.C07, L18.C21, L18.C24, L18.C25, L18.C30, L18.C31, L24.C06]
     maj: 2026-09-09
@@ -364,13 +374,15 @@ pieces_de_conception_manquantes:
 
   - id: PARTAGE-SOURCE-PUITS
     objet: "De quel côté de l'économie la qualification régénérative mord-elle"
-    statut: ouvert
-    tranche_par: non-tranche
+    statut: arbitre
+    tranche_par: auteur
     decision: >
-      LE CHAMP EST RÉDUIT : la branche SOURCE est répondue, et contre la position
-      que le dispositif suppose. Le dispositif n'est du côté soutenu que si sa
-      grandeur est une grandeur de PUITS. PRIORITÉ DÉCLARÉE PAR L'AUTEUR LE
-      2026-09-09.
+      ARBITRÉ : les DEUX côtés, en COMPTES SÉPARÉS. Les PUITS portent des
+      plafonds physiques NON COMPENSABLES. Les SOURCES portent les dommages
+      d'extraction, la dépendance matérielle et la justice distributive, SANS
+      invoquer une rareté générale — que L18.C20 établit non fondée. Deux comptes
+      qui ne se compensent pas ne demandent aucun taux de change entre eux :
+      réponse directe à F13.
     texte: protocoles/passe-2.md
     chapitres: [L18.C18, L18.C20, L18.C21]
     maj: 2026-09-09

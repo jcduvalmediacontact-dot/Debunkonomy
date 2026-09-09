@@ -5087,3 +5087,134 @@ site institutionnel refuse tout. **Récupération manuelle nécessaire.**
 
 **QUATRE.** La citation de Nordhaus, à sa source de 1999. Elle porte l'argument le
 plus utile de la nuit et elle est de seconde main.
+
+
+## CINQ ARBITRAGES RENDUS PAR L'AUTEUR LE 2026-09-09 — A35, A36, SOURCE/PUITS, F13 ET A37
+
+**CE SONT DES ARBITRAGES DE L'AUTEUR, NON DES PROPOSITIONS DU CORPUS.** Ils sont
+rendus après la campagne de lecture des 8 et 9 septembre, et ils tranchent quatre
+points que le corpus tenait ouverts depuis son ouverture. **Le registre les
+projette ; ce texte fait foi.**
+
+### A35 — LA DETTE COLLECTIVE : DEUX NOTIONS QUE LE CORPUS CONFONDAIT
+
+**ARBITRAGE.** **La société n'est PAS qualifiée de débiteur juridique.**
+**L'unité émise constitue un PASSIF DE L'ÉMETTEUR.** **La société supporte
+L'INCIDENCE ÉCONOMIQUE du reflux.** **Ce sont deux notions différentes.**
+
+**CE QUE CELA FERME.** La question que L19 devait clore et n'a pas close. Le
+corpus cherchait qui « porte » la dette collective en traitant la charge
+économique et l'obligation juridique comme une seule chose. **Elles ne le sont
+pas** : un passif figure au bilan de celui qui l'a émis, et l'incidence se
+répartit sur ceux qui en subissent l'effet, sans qu'aucun d'eux soit tenu.
+
+**CE QUE CELA OUVRE, ET IL FAUT L'ÉCRIRE.** **La question de l'incidence devient
+une question à part entière, et elle est distributive.** L11.C09 l'avait
+découverte sans pouvoir la traiter ; le Livre 25 la porte. **Séparer les deux
+notions ne dispense pas d'établir QUI supporte l'incidence, dans quelles
+proportions, et si cette répartition est défendable.**
+
+**ET UNE CONSÉQUENCE POUR L20.C24 ET L20.C26.** Ces chapitres ont établi qu'une
+part appelable survit au retrait, sans sûreté, plafonnée, et bornée à l'état des
+engagements à la date de sortie. **Un passif d'émetteur assorti d'appels sur les
+membres est exactement la structure qu'ils décrivent** — et l'arbitrage rend
+cette lecture pertinente là où elle n'était qu'une analogie.
+
+### A36 — LA FONTE : DEUX MÉCANISMES, ET NON UN
+
+**ARBITRAGE.** **Séparer deux mécanismes que le corpus tenait sous un seul mot.**
+**(1) LE DÉMURRAGE SUR LES ENCAISSES est une RÈGLE MONÉTAIRE.**
+**(2) LE PRÉLÈVEMENT LIÉ À L'IMPACT DES TRANSACTIONS relève d'une CONTRIBUTION
+FISCALE, PARAFISCALE OU DE RÉSEAU, selon son architecture juridique.**
+
+**CE QUE CELA FERME.** L'alternative « prélèvement ou décote » était mal posée :
+elle demandait une réponse unique pour deux opérations qui n'ont ni la même
+assiette, ni le même fait générateur, ni le même destinataire. **Le démurrage
+frappe une DÉTENTION ; le prélèvement frappe une TRANSACTION QUALIFIÉE.**
+
+**CE QUI RESTE OUVERT, ET C'EST NOMMÉ.** **La nature juridique du second dépend
+de son architecture, et cette architecture n'est pas arrêtée.** Fiscal,
+parafiscal ou de réseau ne sont pas équivalents : ils ne supposent pas la même
+autorité, ne s'attaquent pas devant les mêmes juges, et n'ont pas les mêmes
+conditions de légalité.
+
+**CORRECTION QUE CET ARBITRAGE COMMANDE, ET ELLE EST APPLIQUÉE.** L18.C31 avait
+suspendu à A36 la question de savoir si le dispositif « réalise » une réforme
+fiscale écologique. **La réponse est désormais partagée** : le démurrage est une
+règle monétaire et n'en relève pas ; le prélèvement pourrait en relever selon son
+architecture. **Le chapitre est corrigé en ce sens le 2026-09-09.**
+
+### PARTAGE SOURCE / PUITS — LES DEUX, DANS DES COMPTES SÉPARÉS
+
+**ARBITRAGE.** **Conserver les deux côtés, dans des COMPTES SÉPARÉS.**
+**LES PUITS portent des PLAFONDS PHYSIQUES NON COMPENSABLES.**
+**LES SOURCES portent sur les DOMMAGES D'EXTRACTION, la DÉPENDANCE MATÉRIELLE et
+la JUSTICE DISTRIBUTIVE — SANS INVOQUER UNE RARETÉ GÉNÉRALE QUI N'EST PAS
+ÉTABLIE.**
+
+**CE QUE CET ARBITRAGE CONCÈDE, ET C'EST À PORTER À SON CRÉDIT.** L18.C20 a
+établi que la branche de la rareté des ressources est répondue, et répondue
+CONTRE la position que le dispositif supposait : les preuves disponibles
+soutiennent fortement la substituabilité du côté des entrées de production, et
+l'auteur le plus cité du camp adverse tient que le danger est qu'il y ait TROP
+d'hydrocarbures pour le climat, non trop peu. **L'arbitrage ne conteste pas ce
+constat : il retire l'argument de rareté et refonde le côté source sur trois
+autres motifs.**
+
+**CE QUE CELA CHANGE POUR LE DISPOSITIF.** **Les trois motifs retenus ne sont pas
+des raretés mais des DOMMAGES et des RÉPARTITIONS**, et ils échappent donc au
+verdict de L18.C20, qui portait sur la disponibilité. **L18.C20 relevait
+d'ailleurs que l'auteur écarte explicitement de son champ les dommages causés PAR
+l'extraction** : l'abondance qu'il établit est une abondance de STOCK, non une
+innocuité de PRÉLÈVEMENT.
+
+**ET LA SÉPARATION DES COMPTES EST UNE RÉPONSE DIRECTE À F13.** Deux comptes qui
+ne se compensent pas ne demandent aucun taux de change entre eux.
+
+### F13 ET CRITERE-L25 — L'ISSUE EST PRISE
+
+**ARBITRAGE.** **RENONCER À UN SCORE ÉCOLOGIQUE MONDIAL UNIQUE.** **Employer
+PLUSIEURS SEUILS NON COMPENSABLES.** **Puis ASSUMER PUBLIQUEMENT que la
+pondération restante est une DÉCISION POLITIQUE, PARTICIPATIVE ET
+CONTESTABLE.**
+
+**C'EST LA TROISIÈME VOIE DE F13, ET ELLE S'ÉTAIT PRÉSENTÉE CINQ FOIS SANS ÊTRE
+PRISE.** Par la non-falsifiabilité d'un énoncé normatif (L18.C20) ; par la
+position de droit assortie d'un seuil de conséquence (L18.C21) ; par la
+prescription de Nordhaus d'énoncer l'objectif au lieu de le cacher dans le taux
+(L18.C24) ; par la méthode multicritère qui laisse les critères exister sans
+échelle commune (L18.C29) ; et par le guide qui RECONNAÎT l'incommensurabilité au
+lieu de la résoudre et traite le rapport de pouvoir (L18.C31). **L'arbitrage la
+prend.**
+
+**CE QUE CELA COÛTE, ET IL FAUT L'ÉCRIRE SANS L'ADOUCIR.** **Le dispositif
+renonce à prétendre que le montant émis MESURE la régénération.** Il ne peut plus
+présenter son barème comme la traduction d'un fait naturel — ce que trois
+littératures indépendantes lui interdisaient déjà. **Ce qu'il gagne est la
+cohérence : une pondération déclarée politique est attaquable, donc révisable,
+donc défendable.**
+
+**CE QUE CELA N'ÉTEINT PAS.** **F13 reste OUVERT.** Ce qui est arbitré est la
+RÉPONSE du dispositif, non la disparition de l'objection. **Et il reste un pas
+non franchi, nommé par L18.C29 et L18.C31 : celui qui va d'une DÉCISION à un
+MONTANT.** Plusieurs seuils non compensables organisent une décision ; **il faut
+encore dire comment un montant en sort.**
+
+### A37 — L'ÉMETTEUR : UNE BRANCHE À MODÉLISER EN PRIORITÉ
+
+**ARBITRAGE.** **Modéliser PRIORITAIREMENT une institution internationale
+émettant une UNITÉ DE RÉSERVE aux banques centrales, celles-ci émettant ensuite
+leur monnaie nationale.** **Motif : c'est la branche la plus proche du précédent
+des droits de tirage spéciaux, et la plus facile à comptabiliser.**
+
+**CE QUE CELA RESPECTE.** L13.C01 avait établi, sur correction de l'auteur, que
+la forme juridique de l'émetteur doit être un **PARAMÈTRE** du modèle et non une
+hypothèse figée. **Cet arbitrage ne fige rien : il ordonne les branches.**
+
+**ET IL DÉPLACE UNE ACQUISITION.** Le précédent des droits de tirage spéciaux
+devient la référence de modélisation. **Le corpus ne l'a pas ouvert** : l'article
+XV et les articles XVIII à XXV des statuts du Fonds, qui organisent le compte de
+tirages spéciaux, ne sont pas au dossier — et l'édition qu'il en tiendrait serait
+celle de 1944, qui ne les contient pas, ces droits n'existant pas encore.
+**ACQUISITION DE RANG 1 : les articles du compte de tirages spéciaux, dans le
+texte en vigueur, sur l'hôte qui répond.**
