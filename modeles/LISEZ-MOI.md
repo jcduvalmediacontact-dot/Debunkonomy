@@ -7,53 +7,88 @@ est lu par un chapitre, qui lui porte la convention.
 
 Dépendance : aucune. Python 3, bibliothèque standard seule.
 
-## `a35b_bilans.py` — matrice comptable statique de NEMO IMS
+## Avertissement, et il est le plus important de ce fichier
 
-Éprouve les branches de l'arbitrage **A35b** — nature de l'obligation, droits du
-détenteur, contrepartie à l'actif, reflux, extinction, traitement des pertes. Six
-secteurs, neuf branches, sept contrôles dont chacun peut en rejeter une à lui
-seul.
+**Une première version de cette matrice a été écrite et réfutée le même jour, le
+2026-09-09.** Elle rendait un verdict unique par branche, et deux de ses règles
+de rejet étaient fausses. La plus grave **traitait une insuffisance d'actifs
+comme une inexistence de passif** : c'est faux, une dette reste une dette quand
+son débiteur ne peut pas l'honorer. Ses tests passaient tous — **ils
+établissaient que le programme appliquait ses règles, non que les règles étaient
+fondées.**
+
+**Un programme qui applique fidèlement une hypothèse fausse produit des résultats
+faux avec une régularité parfaite.** C'est pourquoi la version courante sépare
+ce qui relève des identités comptables, qui ne se discutent pas, de ce qui relève
+d'une **lecture de la norme**, qui se discute et doit être soumise à un
+contradicteur humain.
+
+## `a35b_bilans.py` — matrice comptable de l'arbre A35b
+
+Sept secteurs, onze branches, **quatre résultats séparés par branche, et ils ne
+se commandent pas** :
+
+| | |
+|---|---|
+| **R1 cohérence comptable** | identités de bilan, et reconnaissance au sens du § 4.101 du SNA 2025 — une obligation, un débiteur, un créancier, la créance correspondante inscrite chez ce créancier (§ 4.103). **Calculé.** |
+| **R2 liquidité immédiate** | la demande maximale exigible à **chaque** étape, contre ce que l'obligé peut mobiliser à cette date. **Calculé, au pic.** |
+| **R3 solvabilité intertemporelle** | **non évaluable** : la matrice ne porte qu'un cycle, sans intérêt ni horizon. |
+| **R4 conformité juridique** | **non évaluée** : chaque branche déclare ce qu'elle exigerait. |
 
 ```bash
 python modeles/a35b_bilans.py
 ```
 
-Le code de sortie vaut `0` si au moins une branche se ferme, `1` sinon.
+**Une branche peut être comptablement cohérente et illiquide.** C'est le cas
+normal d'un émetteur qui promet plus qu'il ne détient, et ce n'est pas une
+anomalie d'écriture : c'est un risque, et le programme le nomme au lieu de
+rejeter la branche.
 
-**Aucun comportement économique n'y est modélisé** : ni prix, ni élasticité, ni
-capacité productive, ni délai, ni importation, ni intérêt. C'est l'arbitrage de
-l'auteur du 2026-09-09 — valider les écritures avant d'étudier les effets.
+Le programme imprime la **chronologie des bilans après chaque opération**. Ce
+n'est pas un confort d'affichage : une obligation stipulée « à tout moment » ne
+se contrôle pas sur le bilan final, et c'est exactement la faute que la version 1
+commettait.
+
+**Aucun comportement économique n'y est modélisé** — ni prix, ni salaire, ni
+profit, ni élasticité, ni capacité productive, ni transfert international, ni
+intérêt. En particulier, **la matrice n'établit aucune incidence économique** :
+elle impose par paramètre qui est redevable, puis retrouve ce qu'elle a imposé.
+
+`A36` est respecté : le **démurrage** (assiette : l'encaisse détenue) et le
+**prélèvement transactionnel** (assiette : la transaction) sont deux mécanismes,
+avec deux redevables et deux règlements. Et le **collecteur du prélèvement est un
+paramètre**, parce que A36 n'a pas arrêté l'architecture juridique : selon que
+l'émetteur ou l'État perçoit, **le reflux n'éteint pas la même chose**.
 
 Le résultat est lu par **L19.C10**, et le raisonnement vit dans
 `protocoles/passe-2.md`.
 
-## `test_a35b.py` — sabotage des contrôles
-
-Un contrôle qui n'a jamais rien rejeté peut être mort sans que personne le sache.
-Ce fichier casse délibérément chaque règle — supprime une contrepartie, retire un
-motif, fait s'enrichir un secteur sans en appauvrir aucun autre, inscrit un
-encours sans miroir, présente un passif sans obligation — et **exige que le
-contrôle correspondant le voie**. Il vérifie aussi les invariants des branches
-qui se ferment, et mesure le seuil au-delà duquel une promesse de conversion
-cesse d'être servable.
+## `test_a35b.py` — vérification du programme, et de lui seul
 
 ```bash
 python modeles/test_a35b.py
 ```
 
-Le code de sortie vaut `0` si tout sabotage est détecté, `1` sinon. **Un sabotage
-non détecté déclare la matrice sans valeur sur ce point**, et le dit en toutes
-lettres.
+Quatre sections, et la deuxième porte un avertissement en toutes lettres :
+
+- **A. identités comptables** — sabotées une par une ; ce ne sont pas des
+  hypothèses, ce sont des identités.
+- **B. reconnaissance** — les tests vérifient que le programme met en œuvre la
+  lecture retenue. **Ils ne la valident pas.**
+- **C. liquidité** — vérifie que le pic est bien contrôlé, et que le bilan final
+  seul aurait conclu à tort à la couverture.
+- **D. A36** — vérifie que les deux mécanismes restent distincts, et que le choix
+  du collecteur change l'encours.
 
 ## Comment ajouter une branche
 
-Une branche qui n'est pas écrite n'est pas rejetée : elle est absente. Le
-résultat de L19.C10 est donc conditionnel à l'énumération, et un contradicteur
-qui produirait une dixième branche fermant sans payer l'un des deux prix
-identifiés renverserait sa conclusion.
+**Une branche qui n'est pas écrite n'est pas rejetée : elle est absente.** Le
+résultat de L19.C10 est conditionnel à l'énumération, et un contradicteur qui
+produirait une douzième branche déplacerait ses conclusions.
 
 Pour l'écrire : ajouter une `Branche(...)` à la liste `BRANCHES`, en renseignant
-ses quatre axes de conception — `circulation`, `inscription`, `allocation`,
-`beneficiaire`, plus `souscription` s'il y a lieu — et sa fiche : l'obligation
-présente, le secteur envers qui elle court, son type, le droit du détenteur,
-l'extinction, le porteur des pertes. Les écritures s'en déduisent.
+ses axes — `circulation`, `inscription`, `allocation`, `beneficiaire`, plus
+`souscription` et `collecteur` s'il y a lieu — et sa fiche : l'obligation, le
+débiteur, le créancier, la créance inscrite, l'exigibilité, qui sert
+l'obligation, le droit, l'extinction, le porteur du risque, et les exigences
+juridiques que la branche appellerait. Les écritures s'en déduisent.

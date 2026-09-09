@@ -2322,30 +2322,29 @@ comptables, le droit monétaire ou la métrologie **rend le dispositif plus soli
 sans le rendre plus nécessaire**. **F10 se réfute par une comparaison d'instruments,
 et le corpus n'en a conduit aucune.**
 
-**PREMIER RÉSULTAT OPPOSÉ À F10 — 2026-09-09, ET IL VIENT DU CORPUS LUI-MÊME.**
-La matrice comptable d'A35b [L19.C10] a éprouvé la branche où l'unité émise est
-**convertible en devises à la demande du détenteur**. **Elle ne se ferme que si
-l'émetteur détient d'avance un capital souscrit égal à l'encours restant** : le
-test mesure le seuil, et une unité de moins fait tomber la promesse.
+**CE QU'UNE PREMIÈRE MATRICE COMPTABLE A CRU OPPOSER À F10, ET QUI EST RETIRÉ
+LE 2026-09-09.** Une version initiale du modèle d'A35b [L19.C10] concluait que
+la convertibilité rend l'émission superflue. **L'auteur a relevé le jour même
+que cette conclusion reposait sur une règle fausse** — le modèle traitait une
+insuffisance d'actifs comme une inexistence de passif — **et sur un seuil calculé
+après le reflux, alors qu'une conversion promise « à tout moment » se contrôle au
+PIC.** **L'affirmation est retirée. Elle n'est pas déplacée : elle est retirée.**
 
-**CE QUE CELA DONNE À F10, ET IL FAUT L'ÉNONCER SANS L'ADOUCIR.** **Sous cette
-architecture, l'émission n'apporte rien que la souscription n'ait déjà
-apporté.** Elle change la forme de la ressource, non sa quantité. **C'est
-exactement la superfluité que F10 énonce, établie pour une branche, par le
-corpus, contre le dispositif.**
+**CE QUI SUBSISTE, ET IL EST BEAUCOUP PLUS ÉTROIT.** *Sous l'hypothèse ajoutée
+d'une convertibilité immédiate intégralement couverte, la branche ne crée pas de
+liquidité internationale nette ; ses éventuels effets d'allocation restent à
+étudier.* **Rien de plus n'est établi**, et en particulier rien qui porte sur les
+branches où l'unité n'est pas convertible.
 
-**CE QUE CELA NE DONNE PAS À F10, ET IL FAUT ÊTRE AUSSI STRICT.** **Deux autres
-branches se ferment sans aucune souscription** — celles où l'unité circule
-elle-même jusqu'à ceux qui doivent le prélèvement, sa valeur reposant alors sur
-l'obligation d'acceptation et non sur une convertibilité. **F10 n'est donc PAS
-établi en général : il est établi CONTRE UNE ARCHITECTURE, et déplacé vers les
-deux autres.** **Et le déplacement a lui-même un prix, puisque ces deux branches
-font sortir l'unité du statut d'avoir de réserve.**
+**ET LA MATRICE MESURE DÉSORMAIS LA TENSION AU LIEU DE LA NIER.** La branche à
+conversion à vue est **comptablement cohérente ET illiquide** : le passif existe,
+et il ne peut pas être servi à la date où il devient exigible. **C'est un risque
+de liquidité, pas une impossibilité comptable.**
 
 **CE QUI RESTE DÛ EST INCHANGÉ.** **Aucune comparaison d'instruments n'a été
 conduite.** Une matrice comptable dit ce qui peut s'écrire ; **elle ne dit pas ce
 qu'un portefeuille de transferts fiscaux, d'investissement public et de garanties
-aurait obtenu à coût et risque comparables.** **F10 tient.**
+aurait obtenu à coût et risque comparables.** **F10 tient entièrement.**
 
 ## F11 — La contrainte physique
 

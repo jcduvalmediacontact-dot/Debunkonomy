@@ -104,17 +104,17 @@ arbitrages:
 
   - id: A35b
     objet: "Nature, exigibilité, contrepartie et extinction du passif"
-    statut: oriente
-    tranche_par: corpus
+    statut: ouvert
+    tranche_par: non-tranche
     lie_a: [A35]
     decision: >
-      OUVERT LE 2026-09-09, RESSERRÉ LE MÊME JOUR PAR LA MATRICE COMPTABLE.
-      Neuf branches, six rejetées : créance sans débiteur, conversion
-      circulaire, obligation ne courant vers aucun détenteur, unité inscrite
-      nulle part. TROIS SE FERMENT, ET CHACUNE A UN PRIX : soit l'unité circule
-      jusqu'aux redevables et devient une monnaie, soit elle est gagée en
-      totalité et n'ajoute rien. RESTENT OUVERTS : l'extinction de l'encours
-      non reflué, l'instrument créant l'obligation, le porteur des pertes.
+      OUVERT, ET LA MATRICE NE L'A PAS REFERMÉ. Une première version prétendait
+      le trancher ; l'auteur a relevé le 2026-09-09 qu'elle traitait une
+      insuffisance d'actifs comme une inexistence de passif. UNE DETTE
+      IMPAYABLE RESTE UNE DETTE. La matrice rend désormais QUATRE RÉSULTATS
+      SÉPARÉS — cohérence comptable et liquidité calculées, solvabilité et
+      conformité juridique NON ÉVALUÉES. Onze branches, aucune conclusion
+      exclusive : une branche non écrite n'est pas rejetée.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L19.C02, L19.C06, L19.C10, L1.C31]
     maj: 2026-09-09
