@@ -331,28 +331,47 @@ charge ; l'écart indicateur/effet est PLUS GRAND, puisqu'il n'existe pas de
 métrologie de la régénération ; et la détection est PLUS LENTE, par l'asymétrie
 des erreurs.
 
-**INSTRUIT LE 2026-09-09, ET DÉFAVORABLEMENT — par le corpus contre lui-même.**
-Le cas 7 de `modeles/nemo_emission.py` construit une autorité de qualification
-captée : elle déclare essentielle une centrale thermique et annonce une pression
-carbone de 340 au lieu de 500. **500 sont détournés et les cinq contrôles du
-mécanisme restent au vert.** Le contrôle cumulé E5 avait justement été ajouté
-pour attraper ce cas : **il mord — 390 déclarés pour 400 de budget — et la
-capture se contente de déclarer en dessous.**
+**VULNÉRABILITÉ INSTRUITE LE 2026-09-09 — CAS THÉORIQUE, NON OBSERVATION
+EMPIRIQUE.** La formulation importe et l'auteur l'a corrigée le jour même : le
+cas 7 de `modeles/nemo_emission.py` établit une **vulnérabilité logique** à la
+manipulation d'un indicateur déclaré. Il n'établit rien sur ce que font les
+dispositifs réels, et **ne vaut donc pas validation empirique de F3.**
 
-**C'est Goodhart en conditions de laboratoire, et la leçon dépasse le cas.** Tout
-contrôle interne au dispositif s'exerce sur une **déclaration** ; en ajouter un
-déplace la déclaration au lieu de la démasquer. **Ce que F3 demandait — « audit
-des pratiques et non des seuls résultats » — est donc nommé pour la première fois
-comme une exigence de MESURE EXTÉRIEURE au mécanisme** : pression constatée et
-non déclarée, registre du besoin tenu hors de l'autorité qui qualifie, droit de
-saisine d'un tiers. **Aucun des trois n'est conçu.** Pièce ouverte :
-`MESURE-EXTERIEURE`.
+**CE QUE LE CAS ÉTABLIT.** Une autorité de qualification captée déclare
+essentielle une centrale thermique et annonce une pression carbone de 340 au lieu
+de 500. **500 sont détournés et les cinq contrôles restent au vert.** Un contrôle
+cumulé avait été ajouté pour l'attraper : **il mord, et la capture déclare en
+dessous.** Tout contrôle interne s'exerce sur une **déclaration** ; en ajouter un
+déplace la déclaration au lieu de la démasquer.
 
-**CE QUE CELA NE FAIT PAS.** Cela ne falsifie pas la thèse : un dispositif
-existant peut encore fournir le mécanisme qui borne l'ajustement au barème, et
-F3 demande précisément qu'on cherche s'il en existe un. **Mais l'objection
-n'est plus seulement posée : elle est vérifiée sur le dispositif du corpus,
-et ce dernier n'y répond pas.**
+**CE QUE LA VERSION 2 CORRIGE, ET C'EST LA CORRECTION LA PLUS IMPORTANTE DE LA
+JOURNÉE.** La version 1 concluait que cela « ne se répare pas ». **C'était faux.**
+La capture ne s'élimine jamais avec certitude, mais **elle se détecte et se
+réduit** — et les leviers sont désormais mesurés. **La pluralité des organismes
+de mesure** : sous une règle à organisme unique, **une seule capture suffit** ;
+sous la médiane il en faut **trois** ; sous la règle prudente **les cinq**, mais
+elle refuse alors à tort **trois projets légitimes sur cinq**. **La médiane avec
+recours domine les deux** — cinq captures nécessaires, aucun refus à tort —
+**parce qu'une capture PARTIELLE crée de la divergence entre organismes, et que
+la divergence elle-même saisit la mesure extérieure. Le désaccord des experts
+devient l'alarme au lieu d'être le problème.**
+
+**LA MESURE PHYSIQUE DIRECTE** détecte à la première période mais ne couvre que
+60 % des projets ; **l'audit aléatoire** couvre tout et arrive à la troisième.
+**Et le versement par tranches transforme la détection en récupération** : 89 %
+du montant détourné sont sauvés en détection précoce, **54 % en détection
+tardive.**
+
+**CE QUE F3 DEMANDAIT est donc partiellement fourni** — « audit des pratiques et
+non des seuls résultats » devient ici une exigence de **mesure extérieure à la
+déclaration**. **CE QUI RESTE OUVERT, ET LE MODÈLE LE NOMME : la collusion
+unanime ne diverge pas, donc ne déclenche rien.** Pièces : `MESURE-EXTERIEURE`
+et `VETO-SCIENTIFIQUE-PLURALISTE`.
+
+**CE QUE CELA NE FAIT TOUJOURS PAS.** Cela ne falsifie pas la thèse, et cela ne
+la sauve pas : F3 demande qu'on cherche, dans un dispositif RÉEL, un mécanisme
+qui borne l'ajustement des pratiques au barème. **Cette recherche n'a pas été
+faite, et aucun résultat de simulation ne la remplace.**
 
 ## F4 — L'obstacle de droit positif
 

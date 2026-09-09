@@ -6145,3 +6145,125 @@ règle soit bonne. Un programme qui applique une règle prouve qu'il l'applique,
 jamais qu'elle est fondée. **Les projets sont fictifs, aucun seuil n'est calibré,
 et les cinq mises en défaut sont des mises en défaut DE LA RÈGLE, pas des
 incidents du programme.**
+
+
+## LA RÈGLE D'ÉMISSION, VERSION 2 — QUATRE CORRECTIONS DE L'AUTEUR, 2026-09-09
+
+**LES SEPT CAS LIMITES ÉTAIENT UTILES ET DEUX DE LEURS CONCLUSIONS ÉTAIENT
+FAUSSES.** Elles l'étaient dans le même sens — celui de l'impuissance — et cela
+mérite d'être noté : **un corpus qui cherche les échecs peut aussi en inventer.
+C'est la faute symétrique de la complaisance, et elle n'est pas moins grave.**
+
+### LES QUATRE CORRECTIONS
+
+**(1) « LE CAS 7 NE SE RÉPARE PAS » ÉTAIT FAUX.** Un contrôle qui ne porte que
+sur des DÉCLARATIONS ne détecte pas leur falsification — cela reste vrai. Mais
+**la capture ne s'élimine jamais avec certitude ET SE DÉTECTE** : données
+satellitaires, mesures indépendantes, traçabilité des matières, audits
+aléatoires, pluralité des experts, publication des données, lanceurs d'alerte,
+recours juridictionnels.
+
+**(2) « L'ABSENCE DE REPRISE EST LA CONTREPARTIE DE L'ABSENCE DE DETTE » ÉTAIT
+FAUX.** Non remboursable veut dire qu'un bénéficiaire **conforme** ne rembourse
+pas. Cela n'interdit ni la récupération des sommes **inutilisées**, ni le gel des
+tranches **futures**, ni la restitution pour **erreur manifeste**, ni le
+recouvrement pour **fraude**, ni la responsabilité personnelle des dirigeants
+fautifs. **A45 protège le bénéficiaire LÉGITIME contre l'endettement ; il ne crée
+aucune irrévocabilité au profit d'un bénéficiaire INDU.**
+
+**(3) LA CONTRAINTE PHYSIQUE N'EST PAS SON CONSTAT INSTITUTIONNEL.** Une loi
+physique ne se vote pas ; une estimation de stock de lithium, de pression
+environnementale ou de seuil reste **incertaine, révisable et contestable**.
+**Donner un veto incontestable à l'organisme qui produit l'estimation créerait
+exactement la capture du cas 7.** Le modèle sépare désormais partout la valeur
+VRAIE de la valeur CONSTATÉE, et la première s'applique au monde que la seconde
+ait vu juste ou non.
+
+**(4) F3 N'EST PAS VALIDÉ EMPIRIQUEMENT.** Le cas 7 établit une **vulnérabilité
+logique**, non une observation. La formulation retenue est « vulnérabilité
+instruite, cas théorique défavorable établi ».
+
+### A46 — CINQ POUVOIRS SÉPARÉS, ARBITRÉ PAR L'AUTEUR
+
+**MESURER** les contraintes physiques ; **QUALIFIER** les besoins essentiels ;
+**PRIORISER** démocratiquement ; **CALIBRER ET VERSER** ; **CONTRÔLER, SUSPENDRE
+ET JUGER**. **Aucune institution ne cumule ces cinq fonctions**, et aucune ne
+peut modifier seule la mesure, la priorité, le versement et le contrôle.
+
+**Le contrôle S1 le vérifie sur la structure**, et c'est le point : la version 1
+cherchait la capture dans la SORTIE du dispositif, qui restait verte. **La
+version 2 la voit dans la STRUCTURE DE L'INSTITUTION.** Le contrôle S2 vérifie
+les neuf états — proposé, physiquement admissible, politiquement prioritaire,
+financièrement programmé, versé par tranches, contrôlé, achevé, suspendu,
+récupéré — et refuse deux fautes : **un versement qui saute la priorisation
+politique**, et **une admissibilité physique déclarée par l'autorité de
+qualification**. La seconde est très exactement ce que le cas 7 exploitait.
+
+### LES SEPT CAS REJOUÉS AVEC LEUR MÉCANISME
+
+**CAS 1 — DÉLAI MAXIMAL ET CALENDRIER PUBLIC.** Le délai **rend A44
+falsifiable** : sans lui, « la disponibilité est garantie » n'a pas de démenti
+possible, tout retard se lisant comme un échelonnement. Avec lui, le scénario à
+capacité serrée est un **manquement public** — quatre périodes pour un engagement
+de trois. **Le calendrier doit être publié d'avance**, sinon il se réécrit après
+coup.
+
+**CAS 2 — ARBITRAGE DE PORTEFEUILLE, ET LE RÉSULTAT EST RETOURNÉ.** La version 1
+disait le veto trop strict. **Il est aussi TROP PERMISSIF** : trois usages admis
+isolément demandent **105 de lithium pour 100 disponible**, aucun ne franchissant
+seul ce que les trois franchissent ensemble. L'arbitrage de portefeuille borne à
+**six lots faisables**, le meilleur soulageant **260**. **Et il ne sauve pas le
+projet qui franchit seul** : le veto garde son rôle de refus.
+
+**CAS 3 — PROCÉDURE DE DÉPARTAGE.** Quatre départages, deux gagnants : le choix
+du départage reste la décision. **Ce que la version 2 ajoute n'est pas un critère
+mais une SAISINE** — instance nommée, motif publié, **recours devant un organe
+distinct de celui qui tranche**, réexamen daté du perdant. **La procédure ne dit
+pas qui gagne et ne le doit pas ; elle rend la décision traçable et attaquable.**
+
+**CAS 4 — TRANCHES, GEL ET RESTITUTION.** **82 % sauvés** en détection à la
+première tranche, **30 %** à la quatrième, **55 %** à la quatrième en cas de
+fraude établie. **Le gel est compté à part de la restitution** : l'argent jamais
+versé n'est pas de l'argent revenu, et les confondre gonflerait le rendement de
+la procédure. **Ce qui reste vrai : la part déjà employée ne revient qu'à 35 %,
+et seulement pour fraude.**
+
+**CAS 5 — RÉEXAMEN PÉRIODIQUE DES AUTORISATIONS.** À −40 %, le dépassement tombe
+de **120 à zéro** ; à −60 %, de **200 à 80**. **L'autorisation devient
+révocable.** Ce qui résiste est la pression déjà émise : **le réexamen borne le
+dommage futur, il ne répare pas le passé.** Et son pas est un arbitrage — trop
+court, il finance mal un ouvrage long.
+
+**CAS 6 — RÉSERVE PRÉDÉFINIE À EXPIRATION AUTOMATIQUE.** **65 %** du montant
+révélé inadmissible sont sauvés au contrôle rapide. Trois propriétés non
+facultatives : **prédéfinie**, sinon elle se redéfinit à chaque urgence ;
+**expirante**, sinon elle devient un guichet permanent sans veto ; **contrôlée
+vite**, car les tranches ne sauvent que ce qui n'est pas parti. **Le plafond reste
+un nombre politique qu'aucun calcul ne fixe.**
+
+**CAS 7 — MESURE EXTÉRIEURE, PLURALITÉ, AUDIT.** Le résultat central de la
+version 2. **Sous une règle à organisme unique, UNE capture suffit** ; sous la
+médiane, **trois** ; sous la règle prudente, **les cinq — mais elle refuse à tort
+trois projets légitimes sur cinq**. **LA MÉDIANE AVEC RECOURS DOMINE LES DEUX** :
+cinq captures nécessaires, **aucun refus à tort**, parce qu'**une capture
+PARTIELLE crée de la divergence, et que la divergence saisit la mesure
+extérieure. Le désaccord des experts devient l'alarme au lieu d'être le
+problème.** La mesure physique directe détecte dès la première période mais ne
+couvre que 60 % des projets ; l'audit couvre tout et arrive à la troisième. **Et
+la détection précoce récupère 89 % contre 54 % en détection tardive.**
+
+### LE DILEMME QUI RESTE, ET IL EST NOMMÉ
+
+**Comment donner aux connaissances physiques un pouvoir réellement contraignant
+sans donner un pouvoir absolu aux experts qui les interprètent ?** La réponse
+posée par l'auteur — **veto pluraliste, motivé, public, révisable, susceptible de
+recours, la contrainte physique demeurant infranchissable** — est celle que le
+modèle mesure et qu'il trouve dominante. **Le trou restant est nommé par le
+modèle lui-même : une collusion UNANIME ne diverge pas, donc ne déclenche rien.**
+
+**ET CE QUI N'A PAS BOUGÉ.** Un contrôle qui ne porte que sur des déclarations ne
+détecte pas leur falsification. Le passé n'est pas révisable. Aucun critère neutre
+ne départage deux besoins essentiels. **Les prix ne sont toujours pas endogènes :
+l'écart de capacité publié au cas 1 est une condition nécessaire et NON
+SUFFISANTE d'une tension inflationniste, et aucun indicateur d'inflation n'est
+produit.**

@@ -143,11 +143,28 @@ arbitrages:
     chapitres: [L18.C31]
     maj: 2026-09-09
 
+  - id: A46
+    objet: "La séparation des cinq pouvoirs de l'émission"
+    statut: arbitre
+    tranche_par: auteur
+    lie_a: [REGLE-D-EMISSION, MESURE-EXTERIEURE, VETO-SCIENTIFIQUE-PLURALISTE]
+    decision: >
+      ARBITRÉ LE 2026-09-09 : CINQ POUVOIRS SÉPARÉS, ET AUCUNE INSTITUTION
+      NE LES CUMULE. (1) MESURER les contraintes physiques ; (2) QUALIFIER
+      les besoins essentiels ; (3) PRIORISER démocratiquement ; (4)
+      CALIBRER et VERSER ; (5) CONTRÔLER, SUSPENDRE ET JUGER. MOTIF : le
+      cas 7 montre qu'une autorité qui mesure, qualifie et verse n'a besoin
+      de tromper personne — il lui suffit de se déclarer. Aucune ne doit
+      pouvoir modifier seule la mesure, la priorité, le versement et le
+      contrôle.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
   - id: A45
     objet: "Une part du soutien aux importations essentielles est-elle non remboursable"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [COMPENSATION-SYMETRIQUE]
+    lie_a: [COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR]
     decision: >
       ARBITRÉ LE 2026-09-09 : OUI. DEUX GUICHETS — facilité REMBOURSABLE pour
       un choc TEMPORAIRE, allocation NON REMBOURSABLE pour un besoin essentiel
@@ -291,7 +308,15 @@ falsifieurs:
     statut: ouvert
     tranche_par: non-tranche
     lie_a: [MESURE-EXTERIEURE]
-    decision: "Posé, non instruit."
+    decision: >
+      VULNÉRABILITÉ INSTRUITE LE 2026-09-09 PAR LE CAS 7 DE
+      modeles/nemo_emission.py — CAS THÉORIQUE, NON OBSERVATION EMPIRIQUE.
+      Un contrôle qui ne porte que sur des DÉCLARATIONS ne peut pas
+      détecter leur falsification : autorité captée, 500 détournés, cinq
+      contrôles au vert, et le contrôle cumulé ajouté pour l'attraper
+      déplace seulement la déclaration. CE QUE CELA N'ÉTABLIT PAS :
+      qu'aucun dispositif réel n'y parvienne — F3 demande cette recherche,
+      elle reste à faire. Voir MESURE-EXTERIEURE.
     texte: protocoles/falsification.md
     maj: 2026-09-08
 
@@ -324,7 +349,15 @@ falsifieurs:
     objet: "Le pilotage"
     statut: ouvert
     tranche_par: non-tranche
-    decision: "L19.C03 ajoute que la règle n'est plus seulement une question de crédibilité."
+    decision: >
+      L19.C03 ajoute que la règle n'est plus seulement une question de
+      crédibilité. DÉPLACÉ, NON TRAITÉ, LE 2026-09-09 : dans la règle
+      d'émission le CALIBRAGE ÉCHELONNE SANS JAMAIS REFUSER AU FOND, faute
+      de quoi un arrêt monétaire rendrait à la monnaie le pouvoir que NEMO
+      lui retire. Le pilotage y devient une question de RYTHME, jamais
+      d'objet. CE QUI N'EST PAS RÉPONDU : si ce rythme est pilotable. Le
+      modèle publie un ÉCART DE CAPACITÉ, condition NÉCESSAIRE et non
+      suffisante.
     texte: protocoles/falsification.md
     chapitres: [L19.C03]
     maj: 2026-09-08
@@ -352,14 +385,13 @@ falsifieurs:
     tranche_par: non-tranche
     lie_a: [OPERATIONNALISATION-INSOLVABLE]
     decision: >
-      L19.C03 ajoute que la règle n'est plus seulement une question de
-      crédibilité. DÉPLACÉ, NON TRAITÉ, LE 2026-09-09 : dans la règle
-      d'émission le CALIBRAGE ÉCHELONNE SANS JAMAIS REFUSER AU FOND, faute
-      de quoi un arrêt monétaire rendrait à la monnaie le pouvoir que NEMO
-      lui retire. Le pilotage y devient une question de RYTHME, jamais
-      d'objet. CE QUI N'EST PAS RÉPONDU : si ce rythme est pilotable. Le
-      modèle publie un ÉCART DE CAPACITÉ, condition NÉCESSAIRE et non
-      suffisante.
+      DÉPLACÉ TROIS FOIS : ce que le dispositif doit justifier n'est pas le
+      barème mais son AJOUT PROPRE. L'argument est écrit le 2026-09-09
+      (L1.C31) et corrigé le même jour : l'ajout porte sur la MOBILISATION
+      DE RESSOURCES RÉELLES, non sur la disponibilité d'un financement.
+      Condition de démonstration et condition d'échec réciproque arrêtées
+      par l'auteur. IL N'EST PAS ÉTABLI : le portefeuille de comparaison
+      n'a jamais été construit, pour aucun instrument.
     texte: protocoles/falsification.md
     chapitres: [L1.C31, L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
     maj: 2026-09-09
@@ -420,20 +452,36 @@ falsifieurs:
     maj: 2026-09-08
 
 pieces_de_conception_manquantes:
+  - id: VETO-SCIENTIFIQUE-PLURALISTE
+    objet: "Rendre la contrainte physique contraignante sans rendre les experts souverains"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [A46, VETO-AGREGATION, MESURE-EXTERIEURE, REGLE-D-EMISSION]
+    decision: >
+      OUVERT LE 2026-09-09 PAR L'AUTEUR. LA CONTRAINTE PHYSIQUE ne se vote
+      pas ; SON CONSTAT est incertain, révisable, attaquable. RÉSULTAT DU
+      MODÈLE : sous la règle « unique » UNE capture suffit ; la médiane en
+      exige 3 ; la PRUDENTE résiste aux 5 mais refuse à tort 3 projets sur
+      5. LA MÉDIANE AVEC RECOURS DOMINE — 5 captures, AUCUN refus à tort —
+      parce qu'une capture PARTIELLE crée de la DIVERGENCE et que la
+      divergence saisit la mesure extérieure. TROU : la collusion unanime
+      ne diverge pas.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
   - id: DEPARTAGE-ESSENTIELS
     objet: "Comment trancher entre deux besoins essentiels"
     statut: ouvert
     tranche_par: non-tranche
     lie_a: [REGLE-D-EMISSION]
     decision: >
-      OUVERT LE 2026-09-09 PAR LE CAS 3. Deux besoins essentiels, une seule
-      enveloppe : LE MÉCANISME REND LA MAIN, et c'est le bon comportement.
-      Quatre départages plausibles — coût par bénéficiaire, nombre,
-      gravité, antériorité — désignent DEUX gagnants différents : choisir
-      le départage EST la décision, et elle est politique. CE QU'IL FAUT
-      N'EST PAS UN CRITÈRE MAIS UNE PROCÉDURE : quel organe tranche, à
-      quelle majorité, sous quel recours, avec quelle publicité du motif.
-      Elle n'existe pas.
+      OUVERT LE 2026-09-09 PAR LE CAS 3. Quatre départages plausibles, DEUX
+      gagnants : choisir le départage EST la décision, et elle est
+      politique. VERSION 2 : le mécanisme ne rend plus un silence mais UNE
+      SAISINE — instance nommée, motif publié, recours devant un organe
+      DISTINCT de celui qui tranche, réexamen daté du perdant. LA PROCÉDURE
+      NE DIT PAS QUI GAGNE et ne le doit pas. RESTENT : la majorité requise
+      et le délai de recours.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -441,16 +489,15 @@ pieces_de_conception_manquantes:
     objet: "Le veto physique peut-il comparer une limite à une autre"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [REGLE-D-EMISSION, F13]
+    lie_a: [REGLE-D-EMISSION, F13, VETO-SCIENTIFIQUE-PLURALISTE]
     decision: >
-      OUVERT LE 2026-09-09 PAR LE CAS 2. Un projet peut SOULAGER une limite
-      et en FRANCHIR une autre. VETO STRICT : la transition est bloquée —
-      150 de soulagement carbone refusés pour 40 de pression sur la
-      biodiversité. VETO AGRÉGÉ : le projet passe, mais SEULEMENT PARCE
-      QU'UNE LIMITE A ÉTÉ PONDÉRÉE CONTRE UNE AUTRE, ce qu'aucune donnée
-      physique ne fait — la variante agrégée n'est donc plus un veto
-      physique. Face PHYSIQUE de F13. Le corpus mesure les deux et n'en
-      choisit aucune.
+      OUVERT LE 2026-09-09 PAR LE CAS 2, ET RETOURNÉ PAR LA VERSION 2 DU
+      MODÈLE. Le veto projet par projet n'est pas seulement trop strict :
+      IL EST TROP PERMISSIF. Trois usages admis isolément demandent 105 de
+      lithium pour 100 disponible — aucun ne franchit seul ce que les trois
+      franchissent ensemble. L'ARBITRAGE DE PORTEFEUILLE borne à six lots
+      faisables, le meilleur soulageant 260. RESTE ENTIER : les classer
+      exigerait de pondérer carbone contre biodiversité.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -458,16 +505,16 @@ pieces_de_conception_manquantes:
     objet: "Ce qu'on fait d'une émission versée sur une qualification fausse"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [REGLE-D-EMISSION]
+    lie_a: [REGLE-D-EMISSION, A45]
     decision: >
-      OUVERT LE 2026-09-09 PAR LE CAS 4. Une qualification erronée
-      découverte après l'émission : RIEN NE RAMÈNE L'ARGENT. Les trois
-      procédures testées récupèrent ZÉRO, et ce n'est pas une lacune
-      d'implémentation — c'est la contrepartie de l'absence de dette, qui
-      est le cœur de NEMO. Seule la compensation mord, en prenant 960 sur
-      les émissions FUTURES de la même autorité : l'erreur d'hier est payée
-      par le bénéficiaire essentiel de demain. NEMO DOIT DIRE S'IL
-      L'ACCEPTE.
+      OUVERT LE 2026-09-09 PAR LE CAS 4, REDRESSÉ LE JOUR MÊME PAR
+      L'AUTEUR. NON REMBOURSABLE NE VEUT PAS DIRE IRRÉVOCABLE : A45 protège
+      le bénéficiaire CONFORME contre l'endettement, il ne crée aucune
+      irrévocabilité au profit d'un bénéficiaire INDU. CINQ NOTIONS À
+      SÉPARER : absence de remboursement normal ; récupération des sommes
+      INUTILISÉES ; gel des tranches FUTURES ; restitution pour ERREUR
+      MANIFESTE ; recouvrement en cas de FRAUDE, jusqu'à la responsabilité
+      personnelle des dirigeants.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -478,12 +525,12 @@ pieces_de_conception_manquantes:
     lie_a: [REGLE-D-EMISSION, A44]
     decision: >
       OUVERT LE 2026-09-09 PAR LE CAS 5. Un programme RÉGULIÈREMENT ADMIS,
-      puis la limite est révisée. À −40 %, l'arrêt et la transition
-      ramènent le dépassement à ZÉRO — au prix de 350 et 175 d'ÉMISSION
-      ÉCHOUÉE, c'est-à-dire d'hôpital à moitié construit. À −60 %, PLUS
-      AUCUNE PROCÉDURE NE TIENT : le passé n'est pas révisable. IL FAUT un
-      délai de mise en conformité, le sort des tranches non versées, et QUI
-      PAIE L'ÉCHOUAGE. Sans quoi le second engagement de A44 est intenable.
+      puis la limite est révisée. VERSION 2, RÉEXAMEN PÉRIODIQUE DES
+      AUTORISATIONS : à −40 % le dépassement tombe de 120 à ZÉRO, à −60 %
+      de 200 à 80. L'AUTORISATION DEVIENT RÉVOCABLE. CE QUI RÉSISTE : la
+      pression déjà émise — le réexamen borne le dommage futur, il ne
+      répare pas le passé. SON PAS EST UN ARBITRAGE : trop court, il
+      finance mal un ouvrage long. A44 vaut À LA DATE DE LA DÉCISION.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -493,13 +540,13 @@ pieces_de_conception_manquantes:
     tranche_par: non-tranche
     lie_a: [REGLE-D-EMISSION]
     decision: >
-      OUVERT LE 2026-09-09 PAR LE CAS 6. L'urgence humanitaire n'attend pas
-      la procédure : un canal la contourne. TROU BORNÉ, NON FERMÉ — 15 % de
-      l'émission échappe par construction au veto physique, 540 n'auraient
-      pas dû être émis, ZÉRO récupérable, même mur qu'au cas 4. La
-      ratification postérieure ne reprend rien : elle refuse les tranches à
-      venir. ET LE PLAFOND EST UN NOMBRE POLITIQUE : trop bas il laisse
-      mourir, trop haut il vide le veto. AUCUN CALCUL NE LE FIXE.
+      OUVERT LE 2026-09-09 PAR LE CAS 6. VERSION 2 : réserve PRÉDÉFINIE,
+      EXPIRATION AUTOMATIQUE, contrôle rapide a posteriori. Sur 540 révélés
+      inadmissibles, 65 % sont sauvés — gel des tranches non versées,
+      restitution des sommes non employées. TROIS PROPRIÉTÉS NON
+      FACULTATIVES : prédéfinie, sinon elle se redéfinit à chaque urgence ;
+      expirante, sinon elle devient un guichet permanent sans veto ;
+      contrôlée VITE. LE PLAFOND RESTE UN NOMBRE POLITIQUE.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -507,15 +554,16 @@ pieces_de_conception_manquantes:
     objet: "Ce qui pourrait détecter la capture de l'autorité de qualification"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [REGLE-D-EMISSION, F3, A44, MODELE-ADVERSAIRE]
+    lie_a: [REGLE-D-EMISSION, F3, A44, MODELE-ADVERSAIRE, A46, VETO-SCIENTIFIQUE-PLURALISTE]
     decision: >
-      OUVERT LE 2026-09-09 PAR LE CAS 7, ET C'EST LE RÉSULTAT LE PLUS
-      DÉFAVORABLE DU CHANTIER. Autorité captée : 500 détournés vers un
-      projet que le passage honnête refuse, ET TOUS LES CONTRÔLES AU VERT.
-      Le contrôle cumulé E5 a été ajouté pour l'attraper : il mord, et la
-      capture déclare en dessous. UN CONTRÔLE DE PLUS DÉPLACE LE MENSONGE,
-      IL NE LE VOIT PAS — tout contrôle interne porte sur une DÉCLARATION.
-      IL FAUT UNE MESURE EXTÉRIEURE, et elle n'est pas conçue.
+      OUVERT LE 2026-09-09 PAR LE CAS 7. Un contrôle qui ne porte que sur
+      des DÉCLARATIONS ne détecte pas leur falsification : 500 détournés,
+      tous les contrôles au vert. CE N'EST PAS UNE IMPASSE MAIS UNE
+      NÉCESSITÉ — correction de l'auteur le même jour : LA CAPTURE NE
+      S'ÉLIMINE JAMAIS AVEC CERTITUDE, ELLE SE DÉTECTE ET SE RÉDUIT. Formes
+      nommées : données satellitaires, mesures indépendantes, traçabilité
+      des matières, audits aléatoires, pluralité des experts, publication,
+      alerte, recours.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -597,16 +645,16 @@ pieces_de_conception_manquantes:
     objet: "Qui émet, combien, pour quoi, et avec quel pouvoir d'arrêt"
     statut: oriente
     tranche_par: non-tranche
-    lie_a: [A44, DEPARTAGE-ESSENTIELS, VETO-AGREGATION, CORRECTION-D-ERREUR, REVISION-SCIENTIFIQUE, PLAFOND-D-URGENCE, MESURE-EXTERIEURE]
+    lie_a: [A44, DEPARTAGE-ESSENTIELS, VETO-AGREGATION, CORRECTION-D-ERREUR, REVISION-SCIENTIFIQUE, PLAFOND-D-URGENCE, MESURE-EXTERIEURE, A46, VETO-SCIENTIFIQUE-PLURALISTE]
     decision: >
-      CHANTIER OUVERT LE 2026-09-09 ET INSTRUIT LE MÊME JOUR par
-      modeles/nemo_emission.py. TROIS DÉCISIONS SÉPARÉES, et le test le
-      vérifie. (1) VETO PHYSIQUE : refus seulement, jamais autorisation ;
-      deux motifs NON SUBSTITUABLES, indisponibilité et franchissement. (2)
-      PRIORITÉ : aux institutions politiques. (3) CALIBRAGE : il ÉCHELONNE,
-      il ne refuse jamais au fond. POUVOIR D'ARRÊT À TROIS TITULAIRES, un
-      seul inconditionnel. SEPT CAS JOUÉS : CINQ METTENT LA RÈGLE EN
-      DÉFAUT, deux restreignent A44.
+      OUVERT ET INSTRUIT LE 2026-09-09 ; VERSION 2 LE MÊME JOUR, après
+      quatre corrections de l'auteur. CINQ POUVOIRS SÉPARÉS (A46), NEUF
+      ÉTATS, deux contrôles : S1 voit le cumul des pouvoirs, S2 voit un
+      passage exercé par le mauvais. SEPT MÉCANISMES rejouent les sept cas.
+      RÉSULTATS : détection précoce 89 % récupérés contre 54 % tardive ;
+      réexamen ramenant un dépassement de 120 à 0 ; VETO ISOLÉ TROP
+      PERMISSIF. RESTENT : collusion, plafond d'urgence, critère de
+      départage.
     texte: protocoles/passe-2.md
     chapitres: [L1.C17, L1.C31]
     maj: 2026-09-09

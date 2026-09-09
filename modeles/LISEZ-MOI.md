@@ -165,16 +165,26 @@ jamais autoriser, **priorité** qui appartient au politique, **calibrage** qui
 échelonne sans jamais refuser au fond — et **trois arrêts dont un seul est
 inconditionnel**.
 
-**Sept cas limites, et le programme existe pour les échecs.** Cinq mettent la
-règle en défaut : le veto strict bloque la transition qu'il protège ; deux
-besoins essentiels sont **indécidables par le mécanisme** ; une émission sans
-dette n'a **aucune reprise** quand la qualification était fausse ; le canal
-d'urgence est borné mais jamais fermé ; **et une autorité captée détourne 500
-avec tous les contrôles au vert.**
+**VERSION 2, après quatre corrections de l'auteur.** Deux conclusions de la
+version 1 étaient fausses, et fausses dans le même sens — celui de
+l'impuissance : « le cas 7 ne se répare pas » et « une émission sans dette n'a
+aucune reprise ». **Un corpus qui cherche les échecs peut aussi en inventer.**
 
-**Ce dernier résultat ne se répare pas par un contrôle de plus** : le contrôle
-cumulé avait été ajouté pour l'attraper, il mord, et la capture déclare en
-dessous. **Tout contrôle interne porte sur une déclaration.**
+**Cinq pouvoirs séparés** — mesurer, qualifier, prioriser, calibrer et verser,
+contrôler et juger — **neuf états**, et deux contrôles de structure : S1 voit le
+cumul des pouvoirs, S2 voit un passage exercé par le mauvais.
+
+**Les sept cas sont rejoués avec leur mécanisme, et les nombres sont ceux de la
+sortie.** Le veto projet par projet s'avère **trop permissif** — trois usages
+admis isolément demandent 105 de lithium pour 100. Le versement par tranches
+sauve **82 %** d'une erreur détectée tôt contre **30 %** détectée tard. Et sur la
+capture : **une règle à organisme unique tombe avec UNE capture ; la médiane avec
+recours en exige cinq sans refuser à tort un seul projet**, parce qu'une capture
+partielle crée de la divergence et que **la divergence est l'alarme**.
+
+**Ce qui reste ouvert est dit à chaque cas** : la collusion unanime ne diverge
+pas, le plafond d'urgence est un nombre politique, et aucun critère neutre ne
+départage deux besoins essentiels.
 
 ```bash
 python modeles/nemo_emission.py

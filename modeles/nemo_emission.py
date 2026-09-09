@@ -1,40 +1,47 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-LA RÈGLE D'ÉMISSION DE NEMO IMS — ET SES SEPT CAS LIMITES. 2026-09-09.
+LA RÈGLE D'ÉMISSION DE NEMO IMS — VERSION 2, 2026-09-09.
 
-CE QUE CE PROGRAMME FAIT : il implémente la règle d'émission à TROIS DÉCISIONS
-SÉPARÉES posée par l'auteur, puis la soumet aux sept cas limites qu'il a
-nommés. Chaque cas produit un résultat défini. PLUSIEURS MONTRENT LA RÈGLE EN
-ÉCHEC, et c'est la raison d'être du programme.
+QUATRE CONCLUSIONS DE LA VERSION 1 ÉTAIENT TROP FORTES. L'auteur les a
+corrigées le jour même, et les corrections changent la conception, non la
+rédaction.
 
-CE QU'IL NE FAIT PAS : il ne valide pas la règle. Un programme qui applique
-une règle prouve qu'il l'applique, jamais qu'elle est fondée. Aucun seuil n'est
-calibré, et les projets sont fictifs.
+  (1) « LE CAS 7 NE SE RÉPARE PAS » ÉTAIT FAUX. Un contrôle qui ne porte que
+      sur des DÉCLARATIONS ne détecte pas leur falsification — cela reste
+      vrai. Mais la capture ne s'élimine jamais avec certitude ET SE DÉTECTE :
+      données satellitaires, mesures indépendantes, traçabilité, audits
+      aléatoires, PLURALITÉ DES EXPERTS, publication, alerte, recours.
 
-LES TROIS DÉCISIONS, ET ELLES NE DOIVENT PAS SE MÉLANGER
+  (2) « L'ABSENCE DE REPRISE EST LA CONTREPARTIE DE L'ABSENCE DE DETTE » ÉTAIT
+      FAUX. Non remboursable veut dire qu'un bénéficiaire CONFORME ne
+      rembourse pas. Cela n'interdit ni la récupération des sommes
+      INUTILISÉES, ni le gel des tranches FUTURES, ni la restitution pour
+      ERREUR MANIFESTE, ni le recouvrement pour FRAUDE, ni la responsabilité
+      personnelle des dirigeants. A45 protège le bénéficiaire LÉGITIME, il ne
+      crée aucune irrévocabilité au profit d'un bénéficiaire INDU.
 
-  (1) VETO PHYSIQUE — refus seulement, jamais autorisation. Deux tests, aucune
-      agrégation : la ressource est-elle DISPONIBLE au rythme demandé, et le
-      projet FRANCHIT-IL à lui seul une limite reconnue ? Le veto répond « est-ce
-      possible », jamais « est-ce souhaitable ».
+  (3) LA CONTRAINTE PHYSIQUE N'EST PAS SON CONSTAT INSTITUTIONNEL. Une loi
+      physique ne se vote pas ; une estimation de stock ou de pression reste
+      incertaine, révisable, contestable. DONNER UN VETO INCONTESTABLE À
+      L'ORGANISME QUI ESTIME CRÉERAIT EXACTEMENT LA CAPTURE DU CAS 7. Ce
+      programme sépare donc partout la valeur VRAIE de la valeur CONSTATÉE, et
+      la première s'applique au monde que la seconde ait vu juste ou non.
 
-  (2) PRIORITÉ DÉMOCRATIQUE — parmi les projets admissibles, le classement
-      appartient aux institutions politiques. LE MÉCANISME REFUSE DE CLASSER
-      DEUX BESOINS ESSENTIELS ENTRE EUX, et le cas 3 montre pourquoi : les
-      départages possibles ne donnent pas le même gagnant, donc choisir le
-      départage EST la décision politique.
+  (4) F3 N'EST PAS VALIDÉ EMPIRIQUEMENT. Le cas 7 établit une VULNÉRABILITÉ
+      LOGIQUE à la manipulation d'un indicateur déclaré. Pas une observation.
 
-  (3) CALIBRAGE MONÉTAIRE — montant et calendrier selon la capacité réelle.
-      IL ÉCHELONNE, IL NE REFUSE PAS : un calibrage qui refuse au fond
-      redonnerait à l'autorité monétaire le pouvoir que NEMO lui retire.
+CINQ POUVOIRS SÉPARÉS — A46, arbitré par l'auteur. MESURER, QUALIFIER,
+PRIORISER, CALIBRER ET VERSER, CONTRÔLER ET JUGER. Aucune institution ne les
+cumule, et le contrôle S1 le vérifie.
 
-LE POUVOIR D'ARRÊT — trois arrêts, trois titulaires, trois portées. Un seul est
-inconditionnel. Voir ARRETS, et le cas 7 pour ce qu'aucun d'eux n'attrape.
+NEUF ÉTATS SUCCESSIFS. proposé, physiquement admissible, politiquement
+prioritaire, financièrement programmé, versé par tranches, contrôlé, achevé —
+et les deux issues défavorables : suspendu, récupéré. Le contrôle S2 vérifie
+que chaque passage est exercé par le POUVOIR COMPÉTENT et par lui seul.
 
-CE PROGRAMME NE MODÉLISE PAS L'INFLATION. Les prix n'y sont pas endogènes. Il
-publie un ÉCART DE CAPACITÉ, qui est une condition NÉCESSAIRE et NON SUFFISANTE
-d'une tension inflationniste. Le cas 1 le dit à l'endroit où cela compte.
+AUCUN SEUIL N'EST CALIBRÉ, les projets sont fictifs, et ce programme ne
+modélise pas l'inflation : les prix n'y sont pas endogènes.
 
 USAGE :  python modeles/nemo_emission.py
 """
@@ -46,31 +53,30 @@ if hasattr(sys.stdout, "reconfigure"):
 
 SEUILS_CALIBRES = False
 
-# ---------------------------------------------------------------------
-# Le monde physique. Budgets restants et flux disponibles par période.
-# ---------------------------------------------------------------------
+
+# =====================================================================
+# LE MONDE — valeurs VRAIES. Elles s'appliquent que le constat soit juste
+# ou non : c'est la correction (3) de l'auteur.
+# =====================================================================
 FRONTIERES = {"carbone": 400.0, "biodiversite": 30.0, "eau": 120.0}
 RESSOURCES = {"lithium": 100.0, "cuivre": 400.0, "travail": 1000.0}
-CAPACITE = 1000.0          # capacité réelle mobilisable par période
+CAPACITE = 1000.0
 
 
 class Projet(object):
-    """Un projet candidat au financement. « essentiel » est une QUALIFICATION,
-    portée par une autorité nommée — c'est ce que le cas 7 attaque."""
-
     def __init__(self, cle, libelle, demande, essentiel, ressources,
                  frontieres, beneficiaires=0, gravite=0, rang_depot=0,
-                 qualifie_par="autorite-de-qualification"):
+                 tranches=4):
         self.cle = cle
         self.libelle = libelle
         self.demande = float(demande)
         self.essentiel = bool(essentiel)
         self.ressources = dict(ressources)
-        self.frontieres = dict(frontieres)   # + = pression, - = soulagement
+        self.frontieres = dict(frontieres)   # pressions VRAIES
         self.beneficiaires = beneficiaires
-        self.gravite = gravite               # 0 à 3, déclarée
+        self.gravite = gravite
         self.rang_depot = rang_depot
-        self.qualifie_par = qualifie_par
+        self.tranches = tranches
 
     def soulage(self):
         return -sum(v for v in self.frontieres.values() if v < 0)
@@ -78,9 +84,6 @@ class Projet(object):
     def pese(self):
         return sum(v for v in self.frontieres.values() if v > 0)
 
-
-# Ce que l'autorité captée DÉCLARE au cas 7 — sous le budget, donc verte.
-DECLARATION_CAPTUREE = 340.0
 
 CATALOGUE = [
     Projet("eau", "Adduction d'eau potable", 300, True,
@@ -107,50 +110,240 @@ CATALOGUE = [
 PAR_CLE = dict((p.cle, p) for p in CATALOGUE)
 
 
-# ---------------------------------------------------------------------
-# (1) LE VETO PHYSIQUE — refus seulement, et sans agrégation
-# ---------------------------------------------------------------------
-def veto_physique(projet, frontieres=None, ressources=None, agregation=False):
-    """Rend (admissible, motif).
+# =====================================================================
+# A46 — LES CINQ POUVOIRS, ET LEUR SÉPARATION
+# =====================================================================
+POUVOIRS = ("mesurer", "qualifier", "prioriser", "calibrer", "controler")
 
-    SANS AGRÉGATION, c'est un test de POSSIBILITÉ : aucune comparaison entre
-    une limite et une autre n'y est faite, donc aucune pondération politique
-    n'y est cachée. AVEC AGRÉGATION — variante mesurée au cas 2 seulement — le
-    veto compare un soulagement à une pression, ce qui EXIGE une pondération
-    QUI N'EST PAS PHYSIQUE. Le programme mesure les deux et n'en choisit aucune.
+CHAINE = [
+    ("organisme-de-mesure", ("mesurer",)),
+    ("autorite-de-qualification", ("qualifier",)),
+    ("instance-democratique", ("prioriser",)),
+    ("autorite-monetaire", ("calibrer",)),
+    ("audit-et-juridiction", ("controler",)),
+]
+
+
+def controler_separation(chaine):
+    """S1 — aucune institution ne cumule deux pouvoirs, et les cinq sont
+    couverts. C'est la décision A46, rendue vérifiable."""
+    anomalies = []
+    vus = {}
+    for nom, pouvoirs in chaine:
+        if len(pouvoirs) > 1:
+            anomalies.append("[S1] %s cumule %s" % (nom, ", ".join(pouvoirs)))
+        for p in pouvoirs:
+            if p in vus:
+                anomalies.append("[S1] le pouvoir « %s » est tenu par %s ET %s"
+                                 % (p, vus[p], nom))
+            vus[p] = nom
+    for p in POUVOIRS:
+        if p not in vus:
+            anomalies.append("[S1] aucun titulaire pour « %s »" % p)
+    return anomalies
+
+
+# =====================================================================
+# LES NEUF ÉTATS, ET QUI AUTORISE CHAQUE PASSAGE
+# =====================================================================
+ETATS = ("propose", "physiquement_admissible", "politiquement_prioritaire",
+         "financierement_programme", "verse_par_tranches", "controle",
+         "acheve", "suspendu", "recupere")
+
+TRANSITIONS = {
+    ("propose", "physiquement_admissible"): "mesurer",
+    ("physiquement_admissible", "politiquement_prioritaire"): "prioriser",
+    ("politiquement_prioritaire", "financierement_programme"): "calibrer",
+    ("financierement_programme", "verse_par_tranches"): "calibrer",
+    ("verse_par_tranches", "controle"): "controler",
+    ("controle", "acheve"): "controler",
+    ("verse_par_tranches", "suspendu"): "controler",
+    ("controle", "suspendu"): "controler",
+    ("suspendu", "recupere"): "controler",
+    ("suspendu", "verse_par_tranches"): "controler",
+}
+
+
+class Dossier(object):
+    """Un projet dans la chaîne. Le journal garde QUI a fait passer QUOI :
+    sans cela, la séparation des pouvoirs n'est pas vérifiable."""
+
+    def __init__(self, projet):
+        self.projet = projet
+        self.etat = "propose"
+        self.journal = []
+
+    def passer_a(self, etat, par, motif="", anomalies=None):
+        attendu = TRANSITIONS.get((self.etat, etat))
+        if anomalies is not None:
+            if attendu is None:
+                anomalies.append("[S2] %s : passage %s → %s non prévu"
+                                 % (self.projet.cle, self.etat, etat))
+            elif par != attendu:
+                anomalies.append("[S2] %s : %s → %s exercé par « %s » au lieu "
+                                 "du pouvoir « %s »"
+                                 % (self.projet.cle, self.etat, etat, par,
+                                    attendu))
+        self.journal.append((self.etat, etat, par, motif))
+        self.etat = etat
+
+
+# =====================================================================
+# (3) MESURER N'EST PAS CONSTATER — le veto scientifique pluraliste
+# =====================================================================
+# Biais fixes, non aléatoires : le programme doit être reproductible.
+ORGANISMES = [("A", 0.00), ("B", 0.10), ("C", -0.08), ("D", 0.05),
+              ("E", -0.05)]
+CAPTURE_AMPLEUR = 0.32      # ce qu'un organisme capté retranche à sa mesure
+SEUIL_DIVERGENCE = 0.25     # au-delà, la divergence DÉCLENCHE la mesure externe
+REGLES_DE_VETO = ("unique", "mediane", "prudente", "mediane_avec_recours")
+
+
+def estimations(vraie, captes=()):
+    sorties = []
+    for nom, biais in ORGANISMES:
+        if nom in captes:
+            sorties.append((nom, vraie * (1.0 - CAPTURE_AMPLEUR)))
+        else:
+            sorties.append((nom, vraie * (1.0 + biais)))
+    return sorties
+
+
+def mediane(valeurs):
+    v = sorted(valeurs)
+    n = len(v)
+    return v[n // 2] if n % 2 else 0.5 * (v[n // 2 - 1] + v[n // 2])
+
+
+def constat(vraie, regle, captes=()):
+    """Rend (valeur retenue, motif). LE CONSTAT, JAMAIS LA CONTRAINTE.
+
+    « unique » donne un pouvoir absolu à un seul organisme — c'est ce que
+    l'auteur interdit. « prudente » retient l'estimation la plus haute : elle
+    résiste tant qu'un organisme reste honnête, ET ELLE REFUSE DAVANTAGE DE
+    PROJETS LÉGITIMES. « mediane_avec_recours » fait de LA DIVERGENCE le
+    signal : au-delà du seuil, une mesure extérieure est saisie.
     """
+    est = estimations(vraie, captes)
+    vals = [v for _, v in est]
+    if regle == "unique":
+        return est[0][1], "estimation de l'organisme %s" % est[0][0]
+    if regle == "prudente":
+        return max(vals), "estimation la plus haute des %d" % len(vals)
+    med = mediane(vals)
+    if regle == "mediane":
+        return med, "médiane de %d estimations" % len(vals)
+    if regle == "mediane_avec_recours":
+        etendue = (max(vals) - min(vals)) / med if med else 0.0
+        if etendue > SEUIL_DIVERGENCE:
+            return vraie, ("divergence de %.0f %% : mesure extérieure saisie"
+                           % (100 * etendue))
+        return med, ("médiane, divergence %.0f %% sous le seuil"
+                     % (100 * etendue))
+    raise ValueError(regle)
+
+
+def captures_necessaires(vraie, seuil, regle):
+    """Combien d'organismes faut-il capter pour que le constat passe SOUS le
+    seuil, c'est-à-dire pour que le veto cesse de se déclencher ?
+
+    C'est la mesure du dilemme posé par l'auteur : donner un pouvoir
+    contraignant à la connaissance physique sans le donner aux experts.
+    """
+    noms = [n for n, _ in ORGANISMES]
+    for k in range(0, len(noms) + 1):
+        val, _ = constat(vraie, regle, captes=tuple(noms[:k]))
+        if val <= seuil:
+            return k
+    return None
+
+
+# =====================================================================
+# (1) LE VETO PHYSIQUE — exercé sur des CONSTATS, et il le dit
+# =====================================================================
+def veto_physique(projet, frontieres=None, ressources=None, regle="mediane",
+                  captes=(), agregation=False):
     f = FRONTIERES if frontieres is None else frontieres
     r = RESSOURCES if ressources is None else ressources
 
     for nom, besoin in sorted(projet.ressources.items()):
-        if besoin > r.get(nom, 0.0):
-            return False, ("indisponible : %s, %.0f demandés pour %.0f "
-                           "disponibles" % (nom, besoin, r.get(nom, 0.0)))
+        vu, _ = constat(besoin, regle, captes)
+        if vu > r.get(nom, 0.0):
+            return False, ("indisponible : %s, %.0f constatés pour %.0f "
+                           "disponibles" % (nom, vu, r.get(nom, 0.0)))
 
     if agregation:
         if projet.pese() - projet.soulage() > 0:
-            return False, ("bilan agrégé défavorable : %+.0f"
-                           % (projet.pese() - projet.soulage()))
+            return False, "bilan agrégé défavorable"
         return True, "bilan agrégé favorable"
 
     for nom, effet in sorted(projet.frontieres.items()):
-        if effet > 0 and effet > f.get(nom, 0.0):
-            return False, ("franchissement : %s, pression %.0f pour %.0f "
-                           "de budget restant" % (nom, effet, f.get(nom, 0.0)))
+        if effet <= 0:
+            continue
+        vu, motif = constat(effet, regle, captes)
+        if vu > f.get(nom, 0.0):
+            return False, ("franchissement : %s, %.0f constatés pour %.0f "
+                           "de budget" % (nom, vu, f.get(nom, 0.0)))
     return True, "admissible"
 
 
-# ---------------------------------------------------------------------
-# (2) LA PRIORITÉ — et le refus de classer
-# ---------------------------------------------------------------------
+def infaisable_reellement(projet, frontieres=None, ressources=None):
+    """Ce que le MONDE fait, indépendamment de tout constat : la contrainte
+    physique ne se vote pas — correction (3) de l'auteur.
+
+    ELLE PORTE SUR LES DEUX TESTS. Ne regarder que les limites franchies
+    compterait comme « refusé à tort » un projet réellement impossible faute
+    de matière — l'erreur que ce programme a commise en version 2.
+    """
+    f = FRONTIERES if frontieres is None else frontieres
+    r = RESSOURCES if ressources is None else ressources
+    if any(b > r.get(n, 0.0) for n, b in projet.ressources.items()):
+        return True
+    return any(v > f.get(n, 0.0) for n, v in projet.frontieres.items() if v > 0)
+
+
+# =====================================================================
+# (2) L'ARBITRAGE DE PORTEFEUILLE — et non un veto projet par projet
+# =====================================================================
+def portefeuilles_faisables(candidats, frontieres=None, ressources=None):
+    """Rend la liste des sous-ensembles PHYSIQUEMENT faisables.
+
+    LE VETO PROJET PAR PROJET EST LE PROBLÈME DU CAS 2 : il refuse isolément
+    ce qui, entre usages concurrents, est arbitrable. Le physique borne
+    L'ENSEMBLE des possibles ; le choix DANS cet ensemble appartient à la
+    décision politique, et le programme ne le fait pas.
+    """
+    f = FRONTIERES if frontieres is None else frontieres
+    r = RESSOURCES if ressources is None else ressources
+    faisables = []
+    for masque in range(1, 2 ** len(candidats)):
+        lot = [candidats[i] for i in range(len(candidats)) if masque >> i & 1]
+        ok = True
+        for nom, dispo in r.items():
+            if sum(p.ressources.get(nom, 0.0) for p in lot) > dispo:
+                ok = False
+                break
+        if ok:
+            for nom, budget in f.items():
+                if sum(max(0.0, p.frontieres.get(nom, 0.0))
+                       for p in lot) > budget:
+                    ok = False
+                    break
+        if ok:
+            faisables.append(lot)
+    return faisables
+
+
+# =====================================================================
+# LA PRIORITÉ, ET LE DÉPARTAGE QUI RESTE POLITIQUE
+# =====================================================================
 DEPARTAGES = ("cout_par_beneficiaire", "nombre", "gravite", "anteriorite")
 
 
 def departager(projets, regle):
-    """Applique UN départage. Aucun n'est le bon : c'est le point du cas 3."""
     if regle == "cout_par_beneficiaire":
-        cle = lambda p: (p.demande / p.beneficiaires) if p.beneficiaires else 1e9
-        return sorted(projets, key=cle)
+        return sorted(projets, key=lambda p: (p.demande / p.beneficiaires)
+                      if p.beneficiaires else 1e9)
     if regle == "nombre":
         return sorted(projets, key=lambda p: -p.beneficiaires)
     if regle == "gravite":
@@ -160,170 +353,95 @@ def departager(projets, regle):
     raise ValueError(regle)
 
 
-def prioriser(admissibles, enveloppe):
-    """Rend (retenus, indecidable, motif).
+class Saisine(object):
+    """Ce que le mécanisme produit quand il ne peut pas trancher : NON PAS UN
+    SILENCE, MAIS UNE SAISINE. C'est la correction du cas 3 — il faut une
+    procédure, pas un critère."""
 
-    LE MÉCANISME NE CLASSE PAS DEUX ESSENTIELS ENTRE EUX. Il sert d'abord les
-    essentiels s'ils tiennent tous ; si l'enveloppe ne suffit pas, il rend la
-    main. Le non-essentiel, lui, cède toujours devant l'essentiel : cela n'est
-    pas un arbitrage entre besoins, c'est la qualification elle-même.
-    """
+    instance = "instance-democratique"
+    majorite = "à fixer — le corpus ne la fixe pas"
+    motif_publie = True
+    recours = "audit-et-juridiction"
+    reexamen_du_perdant = "daté, à chaque cycle"
+
+    def __init__(self, projets, enveloppe):
+        self.projets = projets
+        self.enveloppe = enveloppe
+
+    def options(self):
+        return dict((r, departager(self.projets, r)[0].cle)
+                    for r in DEPARTAGES)
+
+
+def prioriser(admissibles, enveloppe):
+    """Rend (retenus, saisine). La saisine remplace l'ancien « indécidable »."""
     essentiels = [p for p in admissibles if p.essentiel]
     autres = [p for p in admissibles if not p.essentiel]
-    besoin = sum(p.demande for p in essentiels)
-
-    if besoin > enveloppe and len(essentiels) > 1:
-        return [], True, ("%d besoins essentiels pour %.0f d'enveloppe et "
-                          "%.0f de demande" % (len(essentiels), enveloppe,
-                                               besoin))
-
+    if sum(p.demande for p in essentiels) > enveloppe and len(essentiels) > 1:
+        return [], Saisine(essentiels, enveloppe)
     retenus = list(essentiels)
-    reste = enveloppe - besoin
+    reste = enveloppe - sum(p.demande for p in essentiels)
     for p in departager(autres, "anteriorite"):
         if p.demande <= reste:
             retenus.append(p)
             reste -= p.demande
-    return retenus, False, "servis sans classer d'essentiels entre eux"
+    return retenus, None
 
 
-# ---------------------------------------------------------------------
-# (3) LE CALIBRAGE — il échelonne, il ne refuse pas
-# ---------------------------------------------------------------------
-def calibrer(retenus, capacite=None, horizon=4):
-    """Rend (echeancier, ecart_de_capacite).
+# =====================================================================
+# LE CALIBRAGE, LE VERSEMENT PAR TRANCHES ET LA REPRISE
+# =====================================================================
+# Correction (2) de l'auteur : non remboursable n'est pas irrévocable.
+TAUX_INUTILISE = 1.00       # les sommes versées non employées reviennent
+TAUX_RECOUVREMENT = 0.35    # ce qu'un recouvrement pour fraude rattrape
+PART_EMPLOYEE = 0.70        # part d'une tranche déjà employée à la détection
 
-    L'ÉCART DE CAPACITÉ N'EST PAS UNE MESURE D'INFLATION. C'est la part de la
-    demande qui excède la capacité réelle sur la période — condition nécessaire,
-    non suffisante, d'une tension sur les prix. Les prix ne sont pas endogènes
-    ici et le programme n'en publiera pas.
+
+def reprise(projet, periode_detection, fraude=False):
+    """Rend (gele, restitue, recouvre, perdu) — les quatre volets distingués
+    par l'auteur. LE GEL N'EST PAS UNE RÉCUPÉRATION : c'est de l'argent jamais
+    versé, et il se compte à part."""
+    par_tranche = projet.demande / projet.tranches
+    versees = min(projet.tranches, periode_detection)
+    verse = par_tranche * versees
+    gele = projet.demande - verse
+    employe = verse * PART_EMPLOYEE
+    restitue = (verse - employe) * TAUX_INUTILISE
+    recouvre = employe * TAUX_RECOUVREMENT if fraude else 0.0
+    return gele, restitue, recouvre, verse - restitue - recouvre
+
+
+# =====================================================================
+# LA DÉTECTION EXTÉRIEURE — correction (1) de l'auteur
+# =====================================================================
+COUVERTURE_PHYSIQUE = 0.60   # part des projets couverts par mesure directe
+INTERVALLE_AUDIT = 3         # un audit aléatoire toutes les N périodes
+SEUIL_ECART = 0.15           # écart déclaré/constaté au-delà duquel on alerte
+
+
+def detecter(vraie, declaree, rang, couvert_physiquement, alerte=False):
+    """Rend (période de détection, canal) ou (None, None).
+
+    TROIS CANAUX, ET ILS NE SE VALENT PAS. La MESURE PHYSIQUE DIRECTE ne
+    dépend d'aucune déclaration : elle voit tout de suite, mais ne couvre
+    qu'une part des projets. L'AUDIT ALÉATOIRE couvre tout et arrive tard.
+    L'ALERTE ne se planifie pas — elle est ici un PARAMÈTRE, non un mécanisme,
+    et le programme ne prétend pas la produire.
     """
-    cap = CAPACITE if capacite is None else capacite
-    reste = dict((p.cle, p.demande) for p in retenus)
-    ecart_initial = max(0.0, sum(reste.values()) - cap)
-    echeancier = []
-    for t in range(1, horizon + 1):
-        dispo = cap
-        servi = {}
-        for p in retenus:
-            if reste[p.cle] <= 0 or dispo <= 0:
-                continue
-            part = min(reste[p.cle], dispo)
-            servi[p.cle] = part
-            reste[p.cle] -= part
-            dispo -= part
-        echeancier.append({"t": t, "servi": servi,
-                           "en_attente": sum(reste.values())})
-        if sum(reste.values()) <= 1e-9:
-            break
-    return echeancier, ecart_initial
+    if declaree >= vraie * (1.0 - SEUIL_ECART):
+        return None, None
+    if couvert_physiquement:
+        return 1, "mesure physique directe"
+    if alerte:
+        return 2, "alerte"
+    return INTERVALLE_AUDIT * (1 + rang % 2), "audit aléatoire"
 
 
-# ---------------------------------------------------------------------
-# LE POUVOIR D'ARRÊT
-# ---------------------------------------------------------------------
-ARRETS = [
-    {"cle": "physique",
-     "titulaire": "organe d'observation des limites",
-     "motif": "franchissement d'une limite reconnue ou ressource indisponible",
-     "portee": "INCONDITIONNEL — non surmontable par une majorité politique, "
-               "sans quoi ce n'est pas un veto",
-     "revocable_par": None},
-    {"cle": "democratique",
-     "titulaire": "institution politique compétente",
-     "motif": "changement de priorité",
-     "portee": "BORNÉ — ne reprend pas une émission non remboursable déjà "
-               "délivrée ; ne porte que sur les tranches à venir",
-     "revocable_par": "élection ou vote contraire"},
-    {"cle": "monetaire",
-     "titulaire": "organe de calibrage",
-     "motif": "capacité réelle saturée",
-     "portee": "DÉLAI SEULEMENT — un arrêt monétaire au fond rendrait à la "
-               "monnaie le pouvoir que NEMO lui retire",
-     "revocable_par": "retour de capacité"},
-]
+def couvert(projet):
+    """Déterministe, non aléatoire : la couverture suit le rang de dépôt."""
+    return (projet.rang_depot - 1) < COUVERTURE_PHYSIQUE * len(CATALOGUE)
 
 
-def qui_peut_arreter(motif):
-    return [a["cle"] for a in ARRETS if motif in a["motif"]]
-
-
-# ---------------------------------------------------------------------
-# Le passage complet, et ses contrôles
-# ---------------------------------------------------------------------
-class Passage(object):
-    def __init__(self):
-        self.refuses = []          # (projet, motif)
-        self.retenus = []
-        self.indecidable = False
-        self.motif_indecidable = ""
-        self.echeancier = []
-        self.ecart = 0.0
-        self.emis = {}
-        self.cumuls = {}
-        self.anomalies = []
-
-
-def passer(catalogue, enveloppe=None, capacite=None, frontieres=None,
-           agregation=False):
-    """Un cycle complet : veto, priorité, calibrage. Les contrôles E1 à E5
-    sont vérifiés à la sortie — et le cas 7 montre qu'ils peuvent TOUS passer
-    au vert pendant que l'émission est détournée."""
-    p = Passage()
-    admissibles = []
-    for pr in catalogue:
-        ok, motif = veto_physique(pr, frontieres=frontieres,
-                                  agregation=agregation)
-        (admissibles if ok else p.refuses).append(pr if ok else (pr, motif))
-
-    env = sum(x.demande for x in admissibles) if enveloppe is None else enveloppe
-    p.retenus, p.indecidable, p.motif_indecidable = prioriser(admissibles, env)
-    if p.indecidable:
-        return p
-
-    p.echeancier, p.ecart = calibrer(p.retenus, capacite=capacite)
-    for etape in p.echeancier:
-        for cle, montant in etape["servi"].items():
-            p.emis[cle] = p.emis.get(cle, 0.0) + montant
-
-    # E1 — aucun projet refusé au titre physique ne reçoit d'émission.
-    for pr, motif in p.refuses:
-        if p.emis.get(pr.cle, 0.0) > 0:
-            p.anomalies.append("[E1] %s a été refusé (%s) et pourtant financé"
-                               % (pr.cle, motif))
-    # E2 — aucune période ne dépasse la capacité.
-    cap = CAPACITE if capacite is None else capacite
-    for etape in p.echeancier:
-        total = sum(etape["servi"].values())
-        if total > cap + 1e-9:
-            p.anomalies.append("[E2] période %d : %.0f émis pour %.0f de "
-                               "capacité" % (etape["t"], total, cap))
-    # E3 — l'émission délivrée n'est jamais reprise.
-    for cle, montant in p.emis.items():
-        if montant < 0:
-            p.anomalies.append("[E3] %s : émission négative, donc reprise "
-                               "d'une émission non remboursable" % cle)
-    # E4 — le mécanisme n'a classé aucun essentiel devant un autre.
-    servis = [x for x in p.retenus if x.essentiel]
-    demandes = [x for x in admissibles if x.essentiel]
-    if len(servis) != len(demandes):
-        p.anomalies.append("[E4] %d essentiels admissibles, %d retenus : le "
-                           "mécanisme a classé" % (len(demandes), len(servis)))
-    # E5 — LA PRESSION CUMULÉE des projets financés, contre le budget reconnu.
-    # Sans ce contrôle, mille projets franchissent ensemble ce qu'aucun ne
-    # franchit seul. Les soulagements ne compensent pas : ce serait agréger.
-    f = FRONTIERES if frontieres is None else frontieres
-    for nom in sorted(f):
-        cumul = sum(max(0.0, x.frontieres.get(nom, 0.0)) for x in p.retenus)
-        p.cumuls[nom] = cumul
-        if cumul > f[nom] + 1e-9:
-            p.anomalies.append("[E5] %s : pression cumulée %.0f pour %.0f de "
-                               "budget reconnu" % (nom, cumul, f[nom]))
-    return p
-
-
-# =====================================================================
-# LES SEPT CAS LIMITES
-# =====================================================================
 def titre(n, libelle):
     print("")
     print("=" * 78)
@@ -331,459 +449,576 @@ def titre(n, libelle):
     print("=" * 78)
 
 
+# =====================================================================
+# A46 ET LE PROCESSUS, AVANT LES CAS
+# =====================================================================
+def separation():
+    print("")
+    print("=" * 78)
+    print("A46 — LES CINQ POUVOIRS, ET CE QUE LEUR CUMUL PRODUIT")
+    print("=" * 78)
+    for nom, pouvoirs in CHAINE:
+        print("  %-28s %s" % (nom, ", ".join(pouvoirs)))
+    saines = controler_separation(CHAINE)
+    print("")
+    print("  contrôle S1 sur la chaîne séparée : %s"
+          % ("aucune anomalie" if not saines else saines))
+
+    cumul = [("autorite-unique", ("mesurer", "qualifier", "calibrer")),
+             ("instance-democratique", ("prioriser",)),
+             ("audit-et-juridiction", ("controler",))]
+    anomalies = controler_separation(cumul)
+    print("")
+    print("  LA MÊME CHAÎNE AVEC UNE AUTORITÉ QUI MESURE, QUALIFIE ET VERSE :")
+    for a in anomalies:
+        print("    %s" % a)
+    print("")
+    print("  C'EST LA CONFIGURATION DU CAS 7 DE LA VERSION 1, et le contrôle")
+    print("  la voit désormais — non par la SORTIE du dispositif, qui restait")
+    print("  verte, mais PAR LA STRUCTURE DE L'INSTITUTION ELLE-MÊME.")
+    return {"saine": len(saines), "cumul": len(anomalies)}
+
+
+def processus():
+    print("")
+    print("=" * 78)
+    print("LE PROCESSUS — NEUF ÉTATS, ET QUI AUTORISE CHAQUE PASSAGE")
+    print("=" * 78)
+    anomalies = []
+    d = Dossier(PAR_CLE["eau"])
+    chemin = [("physiquement_admissible", "mesurer"),
+              ("politiquement_prioritaire", "prioriser"),
+              ("financierement_programme", "calibrer"),
+              ("verse_par_tranches", "calibrer"),
+              ("controle", "controler"),
+              ("acheve", "controler")]
+    for etat, par in chemin:
+        d.passer_a(etat, par, anomalies=anomalies)
+    print("  chemin nominal   propose → %s" % " → ".join(x for x, _ in chemin))
+    print("  issues défavorables : suspendu, recupere — par « controler » seul")
+    print("  anomalies : %s" % (anomalies or "aucune"))
+
+    mauvais = []
+    e = Dossier(PAR_CLE["hopital"])
+    e.passer_a("physiquement_admissible", "mesurer", anomalies=mauvais)
+    e.passer_a("verse_par_tranches", "calibrer", anomalies=mauvais)
+    f = Dossier(PAR_CLE["logement"])
+    f.passer_a("physiquement_admissible", "qualifier", anomalies=mauvais)
+    print("")
+    print("  DEUX PASSAGES FAUTIFS, ET LE CONTRÔLE S2 LES VOIT :")
+    for a in mauvais:
+        print("    %s" % a)
+    print("")
+    print("  LE PREMIER SAUTE LA PRIORISATION — un versement sans décision")
+    print("  politique. LE SECOND FAIT DÉCLARER L'ADMISSIBILITÉ PHYSIQUE PAR")
+    print("  L'AUTORITÉ DE QUALIFICATION : c'est exactement la confusion que")
+    print("  A46 interdit et que le cas 7 exploitait.")
+    return {"nominal": len(anomalies), "fautifs": len(mauvais)}
+
+
+# =====================================================================
+# CAS 1 — DÉLAI MAXIMAL DE SERVICE ET CALENDRIER PUBLIC
+# =====================================================================
+DELAI_MAX = 3
+
+
+def calibrer(retenus, capacite, horizon=8):
+    reste = dict((p.cle, p.demande) for p in retenus)
+    calendrier = []
+    for t in range(1, horizon + 1):
+        dispo, servi = capacite, {}
+        for p in retenus:
+            if reste[p.cle] <= 0 or dispo <= 0:
+                continue
+            part = min(reste[p.cle], dispo)
+            servi[p.cle] = part
+            reste[p.cle] -= part
+            dispo -= part
+        calendrier.append({"t": t, "servi": servi,
+                           "attente": sum(reste.values())})
+        if sum(reste.values()) <= 1e-9:
+            break
+    return calendrier
+
+
 def cas_1():
-    """PROJET ESSENTIEL MAIS INFLATIONNISTE."""
-    titre(1, "UN PROJET ESSENTIEL QUI EXCÈDE LA CAPACITÉ RÉELLE")
+    titre(1, "ESSENTIEL AU-DELÀ DE LA CAPACITÉ — délai maximal, calendrier")
     essentiels = [PAR_CLE[c] for c in ("eau", "hopital", "logement")]
     demande = sum(p.demande for p in essentiels)
-    ech, ecart = calibrer(essentiels, capacite=CAPACITE)
-
-    print("  Trois projets essentiels admissibles, %.0f demandés pour %.0f de"
-          % (demande, CAPACITE))
-    print("  capacité par période. LE CALIBRAGE ÉCHELONNE, IL NE REFUSE PAS.")
+    print("  Demande essentielle %.0f. DÉLAI MAXIMAL ENGAGÉ : %d périodes."
+          % (demande, DELAI_MAX))
     print("")
-    for e in ech:
-        print("    période %d : %.0f émis, %.0f encore en attente"
-              % (e["t"], sum(e["servi"].values()), e["en_attente"]))
-    periodes = len(ech)
-    t1 = 100.0 * sum(ech[0]["servi"].values()) / demande
+    print("  %-24s %10s %14s %16s"
+          % ("capacité par période", "périodes", "délai tenu", "servi en t=1"))
+    resultats = {}
+    for capacite in (CAPACITE, 300.0):
+        cal = calibrer(essentiels, capacite)
+        n = len(cal)
+        t1 = 100.0 * sum(cal[0]["servi"].values()) / demande
+        resultats[capacite] = (n, n <= DELAI_MAX, t1)
+        print("  %-24.0f %10d %14s %15.0f %%"
+              % (capacite, n, "oui" if n <= DELAI_MAX else "NON", t1))
     print("")
-    print("  RÉSULTAT : le besoin est servi à %.0f %% à la première période et"
-          % t1)
-    print("  intégralement à la %de. L'écart de capacité initial vaut %.0f."
-          % (periodes, ecart))
+    print("  CE QUE LE DÉLAI MAXIMAL APPORTE : IL REND A44 FALSIFIABLE. Sans")
+    print("  lui, « la disponibilité est garantie » n'a pas de démenti")
+    print("  possible — tout retard se lit comme un simple échelonnement.")
+    print("  AVEC LUI, le second scénario est un MANQUEMENT PUBLIC : %d"
+          % resultats[300.0][0])
+    print("  périodes pour un engagement de %d." % DELAI_MAX)
     print("")
-    print("  CE QUE CELA FAIT À LA PROMESSE A44. « Garantir la disponibilité")
-    print("  du financement » ne peut pas vouloir dire « immédiatement » : la")
-    print("  règle tient la promesse SUR LA FENÊTRE, pas à la date. Si A44 se")
-    print("  lit comme un engagement de délai, LE CAS 1 LA FALSIFIE.")
+    print("  ET LE CALENDRIER DOIT ÊTRE PUBLIÉ D'AVANCE, sinon il se réécrit")
+    print("  après coup et le délai ne contraint plus personne.")
     print("")
-    print("  ET CE QUE LE PROGRAMME NE DIT PAS : que l'échelonnement était")
-    print("  nécessaire. Un écart de capacité est une condition NÉCESSAIRE et")
+    print("  CE QUE CELA NE DIT TOUJOURS PAS : si l'échelonnement était")
+    print("  NÉCESSAIRE. L'écart de capacité est une condition nécessaire et")
     print("  NON SUFFISANTE d'une tension sur les prix. Les prix ne sont pas")
     print("  endogènes ici, et aucun indicateur d'inflation n'est publié.")
-    return {"periodes": periodes, "taux_t1": t1, "ecart": ecart}
+    return {"large": resultats[CAPACITE], "serre": resultats[300.0]}
+
+
+# =====================================================================
+# CAS 2 — ARBITRAGE DE PORTEFEUILLE
+# =====================================================================
+# Des usages VRAIMENT concurrents : chacun tient seul, les trois ensemble
+# dépassent le lithium disponible. C'est là que le veto projet par projet
+# révèle son défaut, et ce n'est pas celui qu'annonçait la version 1.
+CONCURRENTS = [
+    Projet("solaire-p", "Parc solaire", 600, False, {"lithium": 40},
+           {"carbone": -150, "biodiversite": 18}, rang_depot=1),
+    Projet("eolien", "Parc éolien", 500, False, {"lithium": 35},
+           {"carbone": -110, "biodiversite": 12}, rang_depot=2),
+    Projet("stockage", "Stockage réseau", 300, False, {"lithium": 30},
+           {"carbone": -60, "biodiversite": 5}, rang_depot=3),
+    Projet("solaire-xxl", "Parc solaire surdimensionné", 900, False,
+           {"lithium": 45}, {"carbone": -200, "biodiversite": 40},
+           rang_depot=4),
+]
 
 
 def cas_2():
-    """PROJET ÉCOLOGIQUE DÉPENDANT D'UNE RESSOURCE RARE."""
-    titre(2, "UN PROJET ÉCOLOGIQUE QUI DÉPEND D'UNE RESSOURCE RARE")
-    verts = [PAR_CLE["solaire"], PAR_CLE["hydrogene"], PAR_CLE["logement"]]
-    print("  %-11s %10s %10s   %s" % ("projet", "soulage", "pèse", "veto STRICT"))
-    strict, agrege = [], []
-    for p in verts:
-        ok, motif = veto_physique(p)
-        oka, _ = veto_physique(p, agregation=True)
-        (strict if ok else []).append(p)
-        (agrege if oka else []).append(p)
-        print("  %-11s %10.0f %10.0f   %s"
-              % (p.cle, p.soulage(), p.pese(), "admis" if ok else motif))
+    titre(2, "RESSOURCE RARE — arbitrage entre usages concurrents")
+    admis = [p for p in CONCURRENTS if veto_physique(p)[0]]
+    lithium_admis = sum(p.ressources.get("lithium", 0.0) for p in admis)
+    biodiv_admis = sum(max(0.0, p.frontieres.get("biodiversite", 0.0))
+                       for p in admis)
+    lots = portefeuilles_faisables(CONCURRENTS)
+    meilleur = max(lots, key=lambda l: sum(p.soulage() for p in l))
 
+    print("  Quatre usages se disputent le lithium (%.0f disponible) et la"
+          % RESSOURCES["lithium"])
+    print("  biodiversité (%.0f de budget)." % FRONTIERES["biodiversite"])
     print("")
-    print("  DEUX MOTIFS DE REFUS DIFFÉRENTS, ET IL FAUT LES SÉPARER.")
-    print("  L'hydrogène est refusé parce que le lithium N'EXISTE PAS au")
-    print("  rythme demandé : c'est une impossibilité, et aucune délibération")
-    print("  ne la lève. Le solaire est refusé parce qu'il FRANCHIT une limite")
-    print("  qu'il ne compense pas : c'est un arbitrage, et il n'appartient")
-    print("  pas au veto.")
+    print("  %-13s %9s %13s %10s %14s"
+          % ("projet", "lithium", "biodiversité", "soulage", "veto isolé"))
+    for p in CONCURRENTS:
+        ok, _ = veto_physique(p)
+        print("  %-13s %9.0f %13.0f %10.0f %14s"
+              % (p.cle, p.ressources.get("lithium", 0),
+                 p.frontieres.get("biodiversite", 0), p.soulage(),
+                 "admis" if ok else "refusé"))
     print("")
-    print("  VETO STRICT : %d projet(s) sur %d admis, %.0f de soulagement"
-          % (len(strict), len(verts), sum(p.soulage() for p in strict)))
-    print("  VETO AGRÉGÉ : %d projet(s) sur %d admis, %.0f de soulagement"
-          % (len(agrege), len(verts), sum(p.soulage() for p in agrege)))
+    print("  LE VETO PROJET PAR PROJET ADMET %d PROJETS. Leur lithium cumulé"
+          % len(admis))
+    print("  vaut %.0f pour %.0f disponible, et leur pression cumulée sur la"
+          % (lithium_admis, RESSOURCES["lithium"]))
+    print("  biodiversité %.0f pour %.0f de budget."
+          % (biodiv_admis, FRONTIERES["biodiversite"]))
     print("")
-    print("  RÉSULTAT, ET C'EST UN DILEMME, NON UNE SOLUTION. Appliqué")
-    print("  strictement, le veto physique BLOQUE LA TRANSITION qu'il est")
-    print("  censé protéger : il refuse %.0f de soulagement carbone pour %.0f"
-          % (PAR_CLE["solaire"].soulage(), PAR_CLE["solaire"].pese()))
-    print("  de pression sur la biodiversité. Appliqué en bilan, il admet le")
-    print("  projet — MAIS SEULEMENT PARCE QU'IL A PONDÉRÉ UNE LIMITE CONTRE")
-    print("  UNE AUTRE, ce qu'aucune donnée physique ne fait. LA VARIANTE")
-    print("  AGRÉGÉE N'EST DONC PAS UN VETO PHYSIQUE : c'est une décision")
-    print("  politique déguisée en mesure. Le programme mesure les deux et")
-    print("  N'EN CHOISIT AUCUNE — l'arbitrage est ouvert.")
-    return {"strict": len(strict), "agrege": len(agrege),
-            "soulagement_perdu": sum(p.soulage() for p in verts
-                                     if p in agrege and p not in strict)}
+    if lithium_admis > RESSOURCES["lithium"]:
+        print("  CE QUE CELA MONTRE RENVERSE LA CONCLUSION DE LA VERSION 1. Le")
+        print("  veto isolé n'est pas seulement trop strict : ICI IL EST TROP")
+        print("  PERMISSIF. Il laisse passer un ensemble PHYSIQUEMENT")
+        print("  IMPOSSIBLE, parce qu'aucun projet ne franchit seul ce que les")
+        print("  trois franchissent ensemble.")
+    print("")
+    print("  ARBITRAGE DE PORTEFEUILLE : %d combinaisons faisables" % len(lots))
+    for lot in sorted(lots, key=lambda l: -sum(p.soulage() for p in l)):
+        print("      {%-34s} soulage %5.0f"
+              % (", ".join(p.cle for p in lot),
+                 sum(p.soulage() for p in lot)))
+    print("")
+    print("  LE PHYSIQUE NE CHOISIT PLUS UN PROJET, IL BORNE L'ENSEMBLE DES")
+    print("  POSSIBLES — c'est la correction de l'auteur. Le meilleur lot")
+    print("  soulage %.0f ; le pire faisable %.0f."
+          % (sum(p.soulage() for p in meilleur),
+             min(sum(p.soulage() for p in l) for l in lots)))
+    print("")
+    print("  ET LE CHOIX DANS CET ENSEMBLE RESTE POLITIQUE. Le programme")
+    print("  n'ordonne pas les %d lots : le meilleur au carbone n'est pas le"
+          % len(lots))
+    print("  moindre à la biodiversité, et les classer exigerait de pondérer")
+    print("  l'un contre l'autre — ce qu'aucune donnée physique ne fait.")
+    print("")
+    print("  CE QUE LE PORTEFEUILLE NE SAUVE PAS : %s franchit la"
+          % PAR_CLE_CONCURRENTS["solaire-xxl"].cle)
+    print("  biodiversité À LUI SEUL (%.0f pour %.0f) et n'appartient à aucun"
+          % (PAR_CLE_CONCURRENTS["solaire-xxl"].frontieres["biodiversite"],
+             FRONTIERES["biodiversite"]))
+    print("  lot faisable. LE VETO GARDE SON RÔLE DE REFUS : l'arbitrage de")
+    print("  portefeuille organise les possibles, il n'en crée aucun.")
+    return {"admis_isoles": len(admis), "lithium_admis": lithium_admis,
+            "lots": len(lots),
+            "soulagement_meilleur": sum(p.soulage() for p in meilleur)}
 
 
+PAR_CLE_CONCURRENTS = dict((p.cle, p) for p in CONCURRENTS)
+
+
+# =====================================================================
+# CAS 3 — PROCÉDURE DE DÉPARTAGE
+# =====================================================================
 def cas_3():
-    """CONFLIT ENTRE DEUX BESOINS ESSENTIELS."""
-    titre(3, "DEUX BESOINS ESSENTIELS, UNE SEULE ENVELOPPE")
+    titre(3, "DEUX BESOINS ESSENTIELS — procédure de départage")
     a, b = PAR_CLE["hopital"], PAR_CLE["logement"]
-    enveloppe = 400.0
-    retenus, indecidable, motif = prioriser([a, b], enveloppe)
-
-    print("  %s (%.0f, %d bénéficiaires, gravité %d, déposé %d)"
-          % (a.libelle, a.demande, a.beneficiaires, a.gravite, a.rang_depot))
-    print("  %s (%.0f, %d bénéficiaires, gravité %d, déposé %d)"
-          % (b.libelle, b.demande, b.beneficiaires, b.gravite, b.rang_depot))
-    print("  Enveloppe : %.0f. Les deux ne tiennent pas." % enveloppe)
+    retenus, saisine = prioriser([a, b], 400.0)
+    print("  Enveloppe 400, demande 800. Le mécanisme ne classe pas.")
     print("")
-    print("  LE MÉCANISME REND : %s"
-          % ("INDÉCIDABLE — " + motif if indecidable else "un classement"))
-    print("")
-    print("  ET VOICI POURQUOI IL DOIT LE RENDRE. Quatre départages plausibles,")
-    print("  quatre applications, et ILS NE DÉSIGNENT PAS LE MÊME GAGNANT :")
-    print("")
-    gagnants = {}
+    options = saisine.options()
     for regle in DEPARTAGES:
-        g = departager([a, b], regle)[0]
-        gagnants[regle] = g.cle
-        print("    %-22s → %s" % (regle, g.libelle))
-    distincts = sorted(set(gagnants.values()))
+        print("    %-22s → %s" % (regle, options[regle]))
+    distincts = sorted(set(options.values()))
     print("")
-    print("  %d gagnants distincts sur %d départages. LE CHOIX DU DÉPARTAGE"
+    print("  %d gagnants pour %d départages : AUCUNE RÈGLE NEUTRE N'EXISTE,"
           % (len(distincts), len(DEPARTAGES)))
-    print("  EST DONC LA DÉCISION ELLE-MÊME, et il est politique. Une règle")
-    print("  qui trancherait ici ne lèverait pas le conflit : elle imposerait")
-    print("  silencieusement une théorie du besoin — utilitariste pour le coût")
-    print("  par bénéficiaire, agrégative pour le nombre, hiérarchique pour la")
-    print("  gravité, arbitraire pour l'antériorité.")
+    print("  et le corpus n'en invente pas.")
     print("")
-    print("  RÉSULTAT : INDÉCIDABLE PAR LE MÉCANISME. C'est un échec de la")
-    print("  règle en tant que règle, et c'est le bon comportement. CE QUE")
-    print("  NEMO DOIT ALORS FOURNIR N'EST PAS UN CRITÈRE MAIS UNE PROCÉDURE :")
-    print("  quel organe tranche, à quelle majorité, sous quel recours, et")
-    print("  avec quelle publicité du motif. Cette procédure n'existe pas")
-    print("  encore.")
-    return {"indecidable": indecidable, "gagnants": gagnants,
-            "distincts": len(distincts)}
+    print("  CE QUE LA VERSION 1 LAISSAIT EN PLAN : un « indécidable » sans")
+    print("  suite. CE QUE LA PROCÉDURE AJOUTE — et c'est la correction :")
+    print("    instance saisie        %s" % saisine.instance)
+    print("    majorité               %s" % saisine.majorite)
+    print("    motif publié           %s" % ("oui" if saisine.motif_publie
+                                             else "non"))
+    print("    recours ouvert devant  %s" % saisine.recours)
+    print("    sort du perdant        réexamen %s" % saisine.reexamen_du_perdant)
+    print("")
+    print("  LA PROCÉDURE NE DIT PAS QUI GAGNE, ET ELLE NE LE DOIT PAS. Elle")
+    print("  rend la décision TRAÇABLE, MOTIVÉE, ATTAQUABLE ET REVUE. C'est")
+    print("  tout ce qu'un mécanisme peut offrir sur une question politique,")
+    print("  et c'est plus que rien — ce que la version 1 ne voyait pas.")
+    return {"distincts": len(distincts), "retenus": len(retenus)}
 
 
-def cas_4(taux_erreur=0.08, periodes=12, envelope=1000.0):
-    """ERREUR DE QUALIFICATION."""
-    titre(4, "UNE ERREUR DE QUALIFICATION, DÉCOUVERTE APRÈS L'ÉMISSION")
-    emis_total = envelope * periodes
-    errone = emis_total * taux_erreur
-    print("  Hypothèse : %.0f émis par période sur %d périodes, dont %.0f %%"
-          % (envelope, periodes, 100 * taux_erreur))
-    print("  qualifiés essentiels à tort et découverts ensuite. Total erroné :")
-    print("  %.0f sur %.0f." % (errone, emis_total))
+# =====================================================================
+# CAS 4 — VERSEMENTS PAR TRANCHES, GEL ET RESTITUTION
+# =====================================================================
+def cas_4():
+    titre(4, "ERREUR DE QUALIFICATION — tranches, gel et restitution")
+    p = Projet("errone", "Projet qualifié à tort", 960, True, {}, {},
+               tranches=4)
+    print("  Projet de %.0f versé en %d tranches de %.0f. Part d'une tranche"
+          % (p.demande, p.tranches, p.demande / p.tranches))
+    print("  déjà employée à la détection : %.0f %%."
+          % (100 * PART_EMPLOYEE))
     print("")
-    print("  TROIS PROCÉDURES DE CORRECTION, ET LEUR RENDEMENT RÉEL :")
+    print("  %-20s %9s %11s %11s %10s %10s"
+          % ("détection", "gelé", "restitué", "recouvré", "perdu", "sauvé"))
+    res = {}
+    for t in (1, 2, 3, 4, 6):
+        for fraude in (False, True):
+            g, r, rc, perdu = reprise(p, t, fraude=fraude)
+            sauve = 100.0 * (g + r + rc) / p.demande
+            res[(t, fraude)] = (g, r, rc, perdu, sauve)
+            print("  %-20s %9.0f %11.0f %11.0f %10.0f %9.0f %%"
+                  % ("t=%d, %s" % (t, "fraude" if fraude else "erreur"),
+                     g, r, rc, perdu, sauve))
     print("")
-    print("  %-26s %14s %16s %14s"
-          % ("procédure", "récupéré", "neutralisé", "coût reporté"))
-    resultats = {}
-    for proc in ("aucune", "reclassement", "compensation"):
-        if proc == "aucune":
-            recupere, neutralise, reporte = 0.0, 0.0, 0.0
-        elif proc == "reclassement":
-            # L'écriture est corrigée ; l'argent reste en circulation.
-            recupere, neutralise, reporte = 0.0, 0.0, 0.0
-        else:
-            # L'enveloppe future de la même autorité est réduite d'autant.
-            recupere = 0.0
-            neutralise = errone
-            reporte = errone
-        resultats[proc] = (recupere, neutralise, reporte)
-        print("  %-26s %14.0f %16.0f %14.0f"
-              % (proc, recupere, neutralise, reporte))
+    print("  LA VERSION 1 ÉCRIVAIT « ZÉRO RÉCUPÉRÉ », ET C'ÉTAIT FAUX. Non")
+    print("  remboursable veut dire qu'un bénéficiaire CONFORME ne rembourse")
+    print("  pas ; cela ne protège aucun bénéficiaire INDU. Détectée à la")
+    print("  première tranche, l'erreur sauve %.0f %% ; à la quatrième, %.0f %%."
+          % (res[(1, False)][4], res[(4, False)][4]))
     print("")
-    print("  RÉSULTAT, ET IL EST STRUCTUREL. UNE ÉMISSION SANS DETTE N'A PAS")
-    print("  DE REPRISE NATURELLE : rien, dans le mécanisme, ne ramène l'argent")
-    print("  émis à tort. Les trois colonnes « récupéré » valent zéro, et ce")
-    print("  n'est pas une lacune d'implémentation — c'est la contrepartie de")
-    print("  l'absence de dette, qui est le cœur même de NEMO.")
+    print("  ET LE GEL N'EST PAS UNE RÉCUPÉRATION : c'est de l'argent JAMAIS")
+    print("  VERSÉ, compté à part de ce qui revient. Les confondre gonflerait")
+    print("  le rendement de la procédure.")
     print("")
-    print("  LA SEULE CORRECTION QUI MORD EST LA COMPENSATION, et elle coûte :")
-    print("  %.0f retirés des émissions FUTURES de la même autorité, c'est-à-"
-          % errone)
-    print("  dire pris sur des besoins essentiels légitimes à venir. L'erreur")
-    print("  d'hier est payée par le bénéficiaire de demain, qui n'y est pour")
-    print("  rien. NEMO DOIT DIRE S'IL L'ACCEPTE — l'arbitrage est ouvert.")
-    print("")
-    print("  ET CE QUI COMPTE AVANT TOUT : le taux d'erreur n'est pas une")
-    print("  donnée du modèle, c'est une hypothèse posée à %.0f %%. Aucune"
-          % (100 * taux_erreur))
-    print("  source ne l'établit. Le programme montre la FORME du coût, pas")
-    print("  son ampleur.")
-    return {"errone": errone, "recupere": 0.0, "reporte": errone}
+    print("  CE QUI RESTE VRAI DE LA VERSION 1 : la part déjà EMPLOYÉE ne")
+    print("  revient qu'incomplètement — %.0f %%, et seulement en cas de"
+          % (100 * TAUX_RECOUVREMENT))
+    print("  fraude établie. LA DÉTECTION PRÉCOCE VAUT DONC PLUS QUE TOUTE")
+    print("  PROCÉDURE DE REPRISE, ce qui renvoie au cas 7.")
+    return {"sauve_t1": res[(1, False)][4], "sauve_t4": res[(4, False)][4],
+            "sauve_t4_fraude": res[(4, True)][4]}
 
 
-def cas_5(budget=400.0, pression=30.0, t_revision=6, horizon=12):
-    """CHANGEMENT SCIENTIFIQUE.
-
-    LE BUDGET EST UN STOCK, ET IL SE CONSOMME. Le programme testé est
-    RÉGULIÈREMENT ADMIS au budget initial — sans quoi le dépassement final ne
-    serait pas imputable à la révision, mais à une admission fautive.
-    """
-    titre(5, "LA SCIENCE RÉVISE UNE LIMITE PENDANT L'EXÉCUTION")
-    programme = [("eau", 300.0), ("hopital", 400.0)]
-    total_pression = pression * horizon
-    emis_par_periode = sum(d for _, d in programme) / horizon
-    consomme = pression * t_revision
-    deja_emis = emis_par_periode * t_revision
-    restant_periodes = horizon - t_revision
-
-    print("  Programme engagé : %s. %.0f de pression carbone par période sur"
-          % (" + ".join(c for c, _ in programme), pression))
-    print("  %d périodes, soit %.0f au total pour un budget reconnu de %.0f."
-          % (horizon, total_pression, budget))
-    print("  IL EST RÉGULIÈREMENT ADMIS : %.0f tient dans %.0f."
-          % (total_pression, budget))
+# =====================================================================
+# CAS 5 — RÉEXAMEN PÉRIODIQUE DES AUTORISATIONS
+# =====================================================================
+def cas_5(budget=400.0, pression=30.0, t_revision=6, horizon=12, pas=2):
+    titre(5, "RÉVISION SCIENTIFIQUE — réexamen périodique des autorisations")
+    total = pression * horizon
+    print("  Programme RÉGULIÈREMENT ADMIS : %.0f de pression pour %.0f de"
+          % (total, budget))
+    print("  budget. La science révise à la période %d." % t_revision)
     print("")
-    print("  À la période %d, la science révise le budget à la baisse. %.0f de"
-          % (t_revision, consomme))
-    print("  pression sont déjà émis, et %.0f d'émission déjà versés."
-          % deja_emis)
-    print("")
-    print("  %-10s %-13s %14s %14s %16s"
-          % ("révision", "suite", "pression fin", "dépassement", "émis échoué"))
-    resultats = {}
+    print("  %-14s %14s %13s %13s %12s"
+          % ("révision", "réexamen", "pression fin", "dépassement", "gelées"))
+    res = {}
     for taux in (0.40, 0.60):
         revise = budget * (1.0 - taux)
-        for suite in ("honorer", "arreter", "transition"):
-            if suite == "honorer":
-                fin, echoue = total_pression, 0.0
-            elif suite == "arreter":
-                fin, echoue = consomme, deja_emis
+        for reexamen in (0, pas):
+            if reexamen == 0:
+                fin, gelees = total, 0
             else:
-                pente = [2.0 / 3, 1.0 / 3, 0.0]
-                fin = consomme + pression * sum(pente)
-                echoue = deja_emis * (1.0 - 3.0 / restant_periodes)
+                t_arret = t_revision + reexamen
+                fin = pression * min(horizon, t_arret)
+                gelees = max(0, horizon - t_arret)
             dep = max(0.0, fin - revise)
-            resultats[(taux, suite)] = (fin, dep, echoue)
-            print("  %-10s %-13s %14.0f %14.0f %16.0f"
-                  % ("−%.0f %% → %.0f" % (100 * taux, revise) if
-                     suite == "honorer" else "", suite, fin, dep, echoue))
+            res[(taux, reexamen)] = (fin, dep, gelees)
+            print("  %-14s %14s %13.0f %13.0f %12d"
+                  % ("−%.0f %% → %.0f" % (100 * taux, revise)
+                     if reexamen == 0 else "",
+                     "aucun" if reexamen == 0 else "tous les %d" % reexamen,
+                     fin, dep, gelees))
         print("")
-
-    print("  DEUX RÉGIMES, ET LE SEUIL EST LE RÉSULTAT.")
+    print("  L'AUTORISATION DEVIENT RÉVOCABLE, ET C'EST TOUTE LA DIFFÉRENCE.")
+    print("  À −40 %%, le réexamen ramène le dépassement de %.0f à %.0f ; à"
+          % (res[(0.40, 0)][1], res[(0.40, pas)][1]))
+    print("  −60 %%, de %.0f à %.0f — SANS L'ANNULER."
+          % (res[(0.60, 0)][1], res[(0.60, pas)][1]))
     print("")
-    print("  À −40 %, l'arrêt et la transition ramènent le dépassement à ZÉRO :")
-    print("  l'engagement écologique PEUT être tenu — au prix de %.0f d'émission"
-          % resultats[(0.40, "arreter")][2])
-    print("  échouée pour l'arrêt sec, %.0f pour la transition. Ce n'est pas de"
-          % resultats[(0.40, "transition")][2])
-    print("  l'argent perdu par un spéculateur : c'est un hôpital à moitié")
-    print("  construit.")
+    print("  CE QUI RÉSISTE : la pression DÉJÀ ÉMISE. Le passé n'est pas")
+    print("  révisable et aucune procédure ne le rend tel. LE RÉEXAMEN BORNE")
+    print("  LE DOMMAGE FUTUR, IL NE RÉPARE PAS LE PASSÉ.")
     print("")
-    print("  À −60 %, PLUS AUCUNE PROCÉDURE NE TIENT. Même l'arrêt immédiat")
-    print("  dépasse de %.0f, parce que %.0f de pression ont DÉJÀ été émis"
-          % (resultats[(0.60, "arreter")][1], consomme))
-    print("  quand la révision arrive, contre %.0f de budget révisé. LE PASSÉ"
-          % (budget * 0.40))
-    print("  N'EST PAS RÉVISABLE, et c'est une propriété du monde, pas du")
-    print("  mécanisme.")
+    print("  ET IL A UN COÛT SYMÉTRIQUE : un financement révocable tous les")
+    print("  %d périodes finance mal un ouvrage de %d. LE PAS DU RÉEXAMEN EST"
+          % (pas, horizon))
+    print("  UN ARBITRAGE, non un réglage technique, et il n'est pas tranché.")
     print("")
-    print("  CE QUE CELA FAIT À A44, ET C'EST UNE RESTRICTION. Le deuxième")
-    print("  engagement — « ne pas financer d'activités incompatibles avec les")
-    print("  contraintes écologiques retenues » — NE PEUT PAS ÊTRE TENU")
-    print("  RÉTROACTIVEMENT. Il doit se lire COMME UNE OBLIGATION À LA DATE")
-    print("  DE LA DÉCISION, au regard des limites reconnues alors. Faute de")
-    print("  quoi une révision scientifique ORDINAIRE suffit à falsifier la")
-    print("  promesse SANS QU'AUCUNE FAUTE N'AIT ÉTÉ COMMISE.")
-    print("")
-    print("  ET LA CONTREPARTIE DOIT ÊTRE ÉCRITE, sinon « à la date » devient")
-    print("  un permis d'ignorer la science postérieure. Il faut : un délai de")
-    print("  mise en conformité, le sort des tranches non versées, et QUI PAIE")
-    print("  L'ÉCHOUAGE. La colonne le chiffre ; NEMO ne dit pas encore qui.")
-    return {"consomme": consomme, "deja_emis": deja_emis,
-            "depassement_40": resultats[(0.40, "arreter")][1],
-            "depassement_60": resultats[(0.60, "arreter")][1],
-            "echoue_arret": resultats[(0.40, "arreter")][2]}
+    print("  A44 RESTE RESTREINT : le second engagement vaut À LA DATE DE LA")
+    print("  DÉCISION, révisable au réexamen suivant. Sans cette lecture, une")
+    print("  révision scientifique ORDINAIRE le falsifie sans faute commise.")
+    return dict((k, v[1]) for k, v in res.items())
 
 
-def cas_6(part_urgence=0.15, taux_inadmissible=0.30, periodes=12,
-          envelope=1000.0):
-    """URGENCE HUMANITAIRE."""
-    titre(6, "UNE URGENCE HUMANITAIRE QUI N'ATTEND PAS LA PROCÉDURE")
-    total = envelope * periodes
-    urgence = total * part_urgence
-    inadmissible = urgence * taux_inadmissible
-    print("  La procédure à trois décisions prend du temps ; l'urgence n'en a")
-    print("  pas. UN CANAL D'URGENCE CONTOURNE LES DÉCISIONS 1 ET 2, sous")
-    print("  plafond et sous ratification postérieure.")
+# =====================================================================
+# CAS 6 — RÉSERVE D'URGENCE À EXPIRATION AUTOMATIQUE
+# =====================================================================
+def cas_6(total=12000.0, part=0.15, inadmissible=0.30, expiration=4):
+    titre(6, "URGENCE — réserve prédéfinie, expiration automatique")
+    reserve = total * part
+    hors_veto = reserve * inadmissible
+    p = Projet("urgence", "Décaissement d'urgence", hors_veto, True, {}, {},
+               tranches=4)
+    print("  Émission totale %.0f. RÉSERVE PRÉDÉFINIE : %.0f %% soit %.0f,"
+          % (total, 100 * part, reserve))
+    print("  contournant les décisions 1 et 2. Part révélée inadmissible au")
+    print("  contrôle rapide : %.0f %% soit %.0f."
+          % (100 * inadmissible, hors_veto))
     print("")
-    print("  Émission totale %.0f, canal d'urgence plafonné à %.0f %% soit %.0f."
-          % (total, 100 * part_urgence, urgence))
-    print("  Ratification ex post : %.0f %% de ce montant, soit %.0f, se révèle"
-          % (100 * taux_inadmissible, inadmissible))
-    print("  inadmissible au veto physique.")
+    print("  %-40s %12s" % ("contrôle rapide à t=2", "montant"))
+    g, r, rc, perdu = reprise(p, 2, fraude=False)
+    print("  %-40s %12.0f" % ("gelé — jamais versé", g))
+    print("  %-40s %12.0f" % ("restitué — versé, non employé", r))
+    print("  %-40s %12.0f" % ("perdu — employé, hors fraude", perdu))
+    sauve = 100.0 * (g + r) / hors_veto
+    print("  %-40s %11.0f %%" % ("part sauvée", sauve))
     print("")
-    print("  CE QUE LA RATIFICATION RÉCUPÈRE : %.0f." % 0.0)
-    print("  CE QU'ELLE PEUT FAIRE : refuser les tranches non versées, réduire")
-    print("  l'enveloppe d'urgence suivante, et rendre le motif public.")
+    print("  TROIS PROPRIÉTÉS, ET AUCUNE N'EST FACULTATIVE. La réserve est")
+    print("  PRÉDÉFINIE — sinon elle se redéfinit à chaque urgence. Elle")
+    print("  EXPIRE au bout de %d périodes — sinon elle devient un second"
+          % expiration)
+    print("  guichet permanent sans veto. Et le contrôle a posteriori est")
+    print("  RAPIDE, parce que le versement par tranches ne sauve que ce qui")
+    print("  n'est pas encore parti.")
     print("")
-    print("  RÉSULTAT : LE TROU EST BORNÉ, IL N'EST PAS FERMÉ. %.0f %% de"
-          % (100 * part_urgence))
-    print("  l'émission échappe par construction au veto physique, et %.0f"
-          % inadmissible)
-    print("  n'auraient pas dû être émis. Aucun dispositif ne les reprend —")
-    print("  c'est le même mur qu'au cas 4.")
-    print("")
-    print("  ET LE PLAFOND D'URGENCE EST UN NOMBRE POLITIQUE. Trop bas, il")
-    print("  laisse mourir ; trop haut, il vide le veto. Le programme ne le")
-    print("  fixe pas, et AUCUN CALCUL NE PEUT LE FIXER : c'est un arbitrage")
-    print("  entre une vie identifiable aujourd'hui et une limite anonyme")
-    print("  demain. LE MÉCANISME N'A PAS D'AVIS LÀ-DESSUS, et prétendre le")
-    print("  contraire serait la faute que ce corpus traque.")
-    return {"urgence": urgence, "inadmissible": inadmissible, "recupere": 0.0}
+    print("  CE QUE CELA NE FERME PAS. %.0f échappent au veto physique PAR"
+          % reserve)
+    print("  CONSTRUCTION, et c'est le but même de la réserve. Le plafond")
+    print("  reste un NOMBRE POLITIQUE : trop bas il laisse mourir, trop haut")
+    print("  il vide le veto. AUCUN CALCUL NE LE FIXE.")
+    return {"reserve": reserve, "hors_veto": hors_veto, "sauve": sauve}
 
 
+# =====================================================================
+# CAS 7 — MESURE EXTÉRIEURE, AUDIT INDÉPENDANT, RECOURS
+# =====================================================================
 def cas_7():
-    """CAPTURE POLITIQUE DE L'AUTORITÉ."""
-    titre(7, "L'AUTORITÉ DE QUALIFICATION EST CAPTURÉE")
-    honnete = list(CATALOGUE)
-    capture = []
-    for p in CATALOGUE:
-        if p.cle == "charbon":
-            q = Projet(p.cle, p.libelle, p.demande, True, p.ressources,
-                       {"carbone": DECLARATION_CAPTUREE}, p.beneficiaires, 3,
-                       p.rang_depot, qualifie_par="autorite-capturee")
-            capture.append(q)
-        else:
-            capture.append(p)
+    titre(7, "CAPTURE DE L'AUTORITÉ — mesure extérieure et audit indépendant")
+    charbon = PAR_CLE["charbon"]
+    vraie = charbon.frontieres["carbone"]
+    seuil = FRONTIERES["carbone"]
 
-    pa = passer(honnete, enveloppe=2000.0, capacite=2000.0)
-    pb = passer(capture, enveloppe=2000.0, capacite=2000.0)
+    print("  LA VERSION 1 CONCLUAIT QUE CELA « NE SE RÉPARE PAS ». C'ÉTAIT")
+    print("  FAUX. La capture ne s'élimine pas avec certitude ; elle se")
+    print("  DÉTECTE et se RÉDUIT. Trois leviers, et ils sont mesurés.")
 
-    vraie = PAR_CLE["charbon"].frontieres["carbone"]
-    print("  L'autorité qualifie « essentielle » une centrale thermique et")
-    print("  déclare une pression carbone de %.0f au lieu de %.0f. Elle ne"
-          % (DECLARATION_CAPTUREE, vraie))
-    print("  déclare pas n'importe quoi : %.0f passe le veto ET le contrôle"
-          % DECLARATION_CAPTUREE)
-    print("  cumulé E5, qui plafonne à %.0f. Rien d'autre ne change."
-          % FRONTIERES["carbone"])
     print("")
-    print("  %-22s %14s %14s" % ("", "passage honnête", "passage capturé"))
-    print("  %-22s %14d %14d"
-          % ("projets refusés", len(pa.refuses), len(pb.refuses)))
-    print("  %-22s %14d %14d"
-          % ("projets financés", len(pa.emis), len(pb.emis)))
-    print("  %-22s %14.0f %14.0f"
-          % ("émission totale", sum(pa.emis.values()), sum(pb.emis.values())))
-    print("  %-22s %14d %14d"
-          % ("anomalies E1-E4", len(pa.anomalies), len(pb.anomalies)))
-    detourne = pb.emis.get("charbon", 0.0)
+    print("  LEVIER 1 — LA PLURALITÉ DES ORGANISMES DE MESURE")
+    print("  Pression vraie %.0f, budget %.0f. Combien d'organismes sur %d"
+          % (vraie, seuil, len(ORGANISMES)))
+    print("  faut-il capter pour que le veto cesse de se déclencher ?")
     print("")
-    print("  DÉTOURNÉ : %.0f vers un projet que le passage honnête refuse."
-          % detourne)
+    # LE COÛT D'UNE RÈGLE : combien de projets RÉELLEMENT admissibles
+    # refuse-t-elle ? Mesuré sur un banc dont aucun élément ne franchit
+    # vraiment — sans quoi on compterait comme refus à tort des projets
+    # réellement impossibles, ce que la première version faisait.
+    banc = [Projet("banc%d" % k, "banc", 100, False, {},
+                   {"carbone": float(v)}, rang_depot=k)
+            for k, v in enumerate((300, 340, 370, 380, 390), start=1)]
+    print("  %-24s %12s %26s"
+          % ("règle de constat", "captures", "refus à tort sur %d" % len(banc)))
+    besoins, faux = {}, {}
+    for regle in REGLES_DE_VETO:
+        k = captures_necessaires(vraie, seuil, regle)
+        besoins[regle] = k
+        n = len([p for p in banc
+                 if not infaisable_reellement(p)
+                 and not veto_physique(p, regle=regle)[0]])
+        faux[regle] = n
+        print("  %-24s %12s %26d"
+              % (regle,
+                 "aucune" if k == 0 else ("%d" % k if k is not None
+                                          else "impossible"), n))
     print("")
-    if not pb.anomalies:
-        print("  ET TOUS LES CONTRÔLES SONT AU VERT. E1, E2, E3, E4 : aucune")
-        print("  anomalie. Le mécanisme fonctionne exactement comme prévu —")
-        print("  il applique fidèlement une qualification fausse.")
+    print("  LIRE LES DEUX COLONNES ENSEMBLE : C'EST LE DILEMME DE L'AUTEUR.")
+    print("  « unique » donne un pouvoir absolu à un organisme — %s capture"
+          % besoins["unique"])
+    print("  suffit, et c'est ce que l'auteur interdit. « prudente » résiste à")
+    print("  %s captures MAIS REFUSE À TORT %d projets sur %d : la prudence de"
+          % (besoins["prudente"], faux["prudente"], 5))
+    print("  la mesure devient un refus de financer.")
     print("")
-    print("  LE POUVOIR D'ARRÊT NE RATTRAPE PAS CELA, et il faut le dire")
-    print("  précisément. L'arrêt physique s'exerce sur une PRESSION DÉCLARÉE :")
-    print("  si la déclaration est fausse, il ne voit rien. L'arrêt")
-    print("  démocratique appartient à l'institution captée. L'arrêt monétaire")
-    print("  ne porte que sur le rythme, jamais sur l'objet.")
+    print("  « MEDIANE_AVEC_RECOURS » DOMINE LES DEUX, et c'est le résultat.")
+    print("  Elle exige %s captures comme la prudente, et n'en refuse à tort"
+          % besoins["mediane_avec_recours"])
+    print("  aucun — %d contre %d. LA RAISON EST INSTRUCTIVE : une capture"
+          % (faux["mediane_avec_recours"], faux["prudente"]))
+    print("  PARTIELLE crée de la DIVERGENCE entre organismes, et c'est la")
+    print("  divergence elle-même qui déclenche la mesure extérieure. LE")
+    print("  DÉSACCORD DES EXPERTS DEVIENT L'ALARME au lieu d'être le problème.")
     print("")
-    print("  ET AJOUTER UN CONTRÔLE NE FERAIT QUE DÉPLACER LA DÉCLARATION.")
-    print("  Le contrôle cumulé E5 a été ajouté pour cette raison : il mord")
-    print("  bien — la pression cumulée du passage capturé atteint %.0f pour"
-          % pb.cumuls.get("carbone", 0.0))
-    print("  %.0f de budget — et la capture se contente de déclarer en"
-          % FRONTIERES["carbone"])
-    print("  dessous. UN CONTRÔLE DE PLUS DÉPLACE LE MENSONGE, IL NE LE VOIT")
-    print("  PAS.")
+    print("  ET LE RISQUE RÉSIDUEL EST NOMMÉ PAR LÀ MÊME : une capture")
+    print("  UNANIME ne diverge pas, donc ne déclenche rien. C'est la")
+    print("  collusion, et aucun de ces leviers ne la voit.")
+
     print("")
-    print("  RÉSULTAT : NON DÉTECTÉ. AUCUN CONTRÔLE INTERNE NE DISTINGUE UN")
-    print("  MÉCANISME SAIN D'UN MÉCANISME CAPTURÉ — les deux passages")
-    print("  produisent des registres de même forme, et le capturé n'émet")
-    print("  aucun signal. C'EST LE RÉSULTAT LE PLUS DÉFAVORABLE DE CE")
-    print("  PROGRAMME, et il n'est pas réparable par un contrôle de plus :")
-    print("  tout contrôle interne s'exerce sur des déclarations.")
+    print("  LEVIER 2 — LA MESURE PHYSIQUE DIRECTE ET L'AUDIT ALÉATOIRE")
+    declaree = vraie * (1.0 - CAPTURE_AMPLEUR)
+    print("  L'autorité déclare %.0f au lieu de %.0f, soit %.0f %% d'écart."
+          % (declaree, vraie, 100 * (1 - declaree / vraie)))
     print("")
-    print("  CE QU'IL FAUDRAIT, ET QUI N'EST PAS CONÇU : une MESURE EXTÉRIEURE")
-    print("  au mécanisme — pression physique constatée et non déclarée,")
-    print("  registre du besoin tenu hors de l'autorité qui qualifie, droit")
-    print("  de saisine d'un tiers. TANT QUE CELA N'EXISTE PAS, LA GARANTIE")
-    print("  DE A44 EST CONDITIONNELLE À LA PROBITÉ DE L'AUTORITÉ, et cette")
-    print("  condition n'est écrite nulle part dans la promesse.")
-    return {"detourne": detourne, "anomalies": len(pb.anomalies),
-            "refuses_honnete": len(pa.refuses),
-            "refuses_capture": len(pb.refuses)}
+    print("  %-30s %14s %18s"
+          % ("canal", "détecté en", "part des projets"))
+    for etiquette, couverture, alerte in (
+            ("mesure physique directe", True, False),
+            ("audit aléatoire seul", False, False),
+            ("alerte", False, True)):
+        t, _ = detecter(vraie, declaree, charbon.rang_depot, couverture, alerte)
+        part = COUVERTURE_PHYSIQUE if couverture else 1.0
+        print("  %-30s %14s %16.0f %%"
+              % (etiquette, "t=%d" % t if t else "jamais", 100 * part))
+
+    print("")
+    print("  LEVIER 3 — CE QUE LA DÉTECTION RÉCUPÈRE, GRÂCE AUX TRANCHES")
+    print("  %-24s %9s %11s %11s %10s"
+          % ("détection", "gelé", "restitué", "recouvré", "sauvé"))
+    sauves = {}
+    for t, etiquette in ((1, "mesure directe"), (3, "audit, 1er tour"),
+                         (6, "audit, 2e tour")):
+        g, r, rc, _ = reprise(charbon, t, fraude=True)
+        sauves[t] = 100.0 * (g + r + rc) / charbon.demande
+        print("  %-24s %9.0f %11.0f %11.0f %9.0f %%"
+              % ("t=%d, %s" % (t, etiquette), g, r, rc, sauves[t]))
+
+    print("")
+    print("  RÉSULTAT CORRIGÉ : DÉTECTABLE ET RÉDUCTIBLE, NON ÉLIMINABLE. Sur")
+    print("  les %.0f détournés, la mesure directe en sauve %.0f %% et l'audit"
+          % (charbon.demande, sauves[1]))
+    print("  tardif %.0f %%. LA DÉTECTION PRÉCOCE EST LE LEVIER, non la"
+          % sauves[6])
+    print("  procédure de reprise.")
+    print("")
+    print("  CE QUI RESTE VRAI DE LA VERSION 1, ET SEULEMENT CELA : un")
+    print("  contrôle QUI NE PORTE QUE SUR DES DÉCLARATIONS ne détecte pas")
+    print("  leur falsification. C'est pourquoi les trois leviers sont")
+    print("  EXTÉRIEURS à la déclaration, et pourquoi A46 sépare le pouvoir de")
+    print("  mesurer de celui de qualifier et de verser.")
+    print("")
+    print("  CE QUI N'EST PAS RÉSOLU. La capture de l'ORGANE DE MESURE")
+    print("  lui-même, la collusion entre organismes, et le fait que %.0f %%"
+          % (100 * (1 - COUVERTURE_PHYSIQUE)))
+    print("  des projets ne sont couverts par aucune mesure directe. ET LE")
+    print("  LANCEUR D'ALERTE N'EST PAS UN MÉCANISME : c'est un paramètre ici,")
+    print("  et le programme ne prétend pas le produire.")
+    return {"besoins": besoins, "faux": faux, "sauve_direct": sauves[1],
+            "sauve_tardif": sauves[6]}
 
 
 # =====================================================================
 def main():
     print("=" * 78)
-    print("LA RÈGLE D'ÉMISSION DE NEMO IMS — SEPT CAS LIMITES")
+    print("LA RÈGLE D'ÉMISSION DE NEMO IMS — VERSION 2")
     print("=" * 78)
-    print("Trois décisions séparées : VETO PHYSIQUE, PRIORITÉ DÉMOCRATIQUE,")
-    print("CALIBRAGE MONÉTAIRE. Le veto refuse sans jamais autoriser ; la")
-    print("priorité appartient au politique ; le calibrage échelonne sans")
-    print("jamais refuser au fond.")
+    print("Quatre conclusions de la version 1 étaient trop fortes ; elles sont")
+    print("corrigées, et les corrections changent la conception. LA CONTRAINTE")
+    print("PHYSIQUE reste infranchissable ; SON CONSTAT est incertain,")
+    print("révisable et attaquable — et c'est là que tout se joue.")
     print("")
-    print("AUCUN SEUIL N'EST CALIBRÉ et les projets sont fictifs. Ce programme")
-    print("montre CE QUE LA RÈGLE FAIT, jamais qu'elle est fondée.")
-
-    print("")
-    print("LE POUVOIR D'ARRÊT")
-    for a in ARRETS:
-        print("  %-14s %s" % (a["cle"], a["titulaire"]))
-        print("  %-14s motif : %s" % ("", a["motif"]))
-        print("  %-14s portée : %s" % ("", a["portee"]))
+    print("AUCUN SEUIL N'EST CALIBRÉ. Les projets sont fictifs.")
 
     r = {}
+    r["A46"] = separation()
+    r["etats"] = processus()
     r[1], r[2], r[3] = cas_1(), cas_2(), cas_3()
     r[4], r[5] = cas_4(), cas_5()
     r[6], r[7] = cas_6(), cas_7()
 
     print("")
     print("=" * 78)
-    print("CE QUE LES SEPT CAS ÉTABLISSENT")
+    print("CE QUE LES MÉCANISMES RATTRAPENT, ET CE QU'ILS LAISSENT")
     print("=" * 78)
-    verdicts = [
-        (1, "TRANCHÉ, MAIS IL RESTREINT A44", "la promesse vaut sur la "
-         "fenêtre, pas à la date"),
-        (2, "DILEMME NON TRANCHÉ", "le veto strict bloque la transition, le "
-         "veto agrégé n'est plus physique"),
-        (3, "INDÉCIDABLE PAR LE MÉCANISME", "%d gagnants pour %d départages : "
-         "choisir le départage EST la décision"
-         % (r[3]["distincts"], len(DEPARTAGES))),
-        (4, "TRANCHÉ CONTRE LA RÈGLE", "une émission sans dette n'a aucune "
-         "reprise : %.0f irrécupérables" % r[4]["errone"]),
-        (5, "TENU JUSQU'À UN SEUIL", "à −40 %% l'arrêt ramène le "
-         "dépassement à zéro pour %.0f d'échouage ; à −60 %% plus rien ne tient"
-         % r[5]["echoue_arret"]),
-        (6, "BORNÉ, NON FERMÉ", "%.0f échappent au veto, %.0f n'auraient pas "
-         "dû être émis, %.0f récupérables"
-         % (r[6]["urgence"], r[6]["inadmissible"], r[6]["recupere"])),
-        (7, "NON DÉTECTÉ", "tous les contrôles au vert, %.0f détournés"
-         % r[7]["detourne"]),
+    bilan = [
+        (1, "délai maximal et calendrier public",
+         "la promesse A44 devient FALSIFIABLE : %d périodes contre %d engagées"
+         % (r[1]["serre"][0], DELAI_MAX),
+         "le caractère nécessaire de l'échelonnement reste indémontré"),
+        (2, "arbitrage de portefeuille",
+         "le veto isolé admettait %d projets pour %.0f de lithium sur %.0f ; "
+         "le portefeuille borne à %d lots, le meilleur soulageant %.0f"
+         % (r[2]["admis_isoles"], r[2]["lithium_admis"], RESSOURCES["lithium"],
+            r[2]["lots"], r[2]["soulagement_meilleur"]),
+         "le choix entre les %d lots faisables reste politique" % r[2]["lots"]),
+        (3, "procédure de départage",
+         "saisine nommée, motif publié, recours ouvert, réexamen daté",
+         "le critère de fond n'existe pas, et il ne doit pas exister"),
+        (4, "tranches, gel et restitution",
+         "%.0f %% sauvés en détection à t=1, %.0f %% à t=4"
+         % (r[4]["sauve_t1"], r[4]["sauve_t4"]),
+         "la part employée ne revient qu'en cas de fraude établie"),
+        (5, "réexamen périodique des autorisations",
+         "dépassement ramené de %.0f à %.0f à −40 %%"
+         % (r[5][(0.40, 0)], r[5][(0.40, 2)]),
+         "le passé n'est pas révisable, et le pas du réexamen a un coût"),
+        (6, "réserve prédéfinie à expiration automatique",
+         "%.0f %% du montant hors veto sauvé au contrôle rapide" % r[6]["sauve"],
+         "le plafond reste un nombre politique qu'aucun calcul ne fixe"),
+        (7, "pluralité, mesure directe, audit indépendant",
+         "%.0f %% récupérés en détection précoce contre %.0f %% en détection "
+         "tardive" % (r[7]["sauve_direct"], r[7]["sauve_tardif"]),
+         "capture de l'organe de mesure et collusion : non traitées"),
     ]
-    for n, verdict, motif in verdicts:
-        print("  cas %d  %-32s %s" % (n, verdict, motif))
+    for n, mecanisme, gain, reste in bilan:
+        print("")
+        print("  CAS %d — %s" % (n, mecanisme))
+        print("      RATTRAPÉ : %s" % gain)
+        print("      RESTE    : %s" % reste)
 
-    # Le compte est CALCULÉ, non écrit : une conclusion figée devient fausse
-    # dès qu'un cas change de verdict, et c'est arrivé une fois déjà.
-    RESTREINT = ("TRANCHÉ, MAIS IL RESTREINT A44", "TENU JUSQU'À UN SEUIL")
-    defaut = [n for n, v, _ in verdicts if v not in RESTREINT]
-    restreint = [n for n, v, _ in verdicts if v in RESTREINT]
     print("")
-    print("  %d CAS SUR %d METTENT LA RÈGLE EN DÉFAUT — les cas %s — et %d en"
-          % (len(defaut), len(verdicts),
-             ", ".join(str(n) for n in defaut), len(restreint)))
-    print("  RESTREIGNENT LA PROMESSE A44 — les cas %s. Le cas 7 est à part :"
-          % ", ".join(str(n) for n in restreint))
-    print("  il met la règle en défaut SANS QU'ELLE PUISSE LE SAVOIR. CE N'EST")
-    print("  PAS UN ÉCHEC DU PROGRAMME : c'est ce qu'on lui demandait de")
-    print("  chercher, et un programme qui n'aurait rien trouvé n'aurait rien")
-    print("  cherché.")
+    print("  LA VERSION 1 CONCLUAIT DEUX FOIS TROP FORT, et les deux fois dans")
+    print("  LE MÊME SENS — celui de l'impuissance. « Le cas 7 ne se répare")
+    print("  pas » et « une émission sans dette n'a aucune reprise » étaient")
+    print("  FAUX, et l'auteur les a redressés. UN CORPUS QUI CHERCHE LES")
+    print("  ÉCHECS PEUT AUSSI EN INVENTER : c'est la faute symétrique de la")
+    print("  complaisance, et elle n'est pas moins grave.")
     print("")
-    print("  CE QUI MANQUE À LA RÈGLE, ET QUI EST DÉSORMAIS NOMMÉ :")
-    print("    — une procédure de départage entre besoins essentiels (cas 3) ;")
-    print("    — une doctrine d'agrégation entre limites, ou son refus assumé")
-    print("      avec le blocage de transition qu'il entraîne (cas 2) ;")
-    print("    — une procédure de correction d'erreur, et qui en paie le")
-    print("      report (cas 4) ;")
-    print("    — une procédure de révision scientifique et de prise en charge")
-    print("      de l'échouage (cas 5) ;")
-    print("    — un plafond d'urgence, qui est un nombre politique (cas 6) ;")
-    print("    — UNE MESURE EXTÉRIEURE AU MÉCANISME, sans quoi la promesse")
-    print("      centrale reste conditionnelle à la probité de l'autorité")
-    print("      qui qualifie (cas 7).")
-    print("")
-    print("  ET CE PROGRAMME NE MESURE TOUJOURS PAS L'INFLATION. Le cas 1")
-    print("  publie un écart de capacité, qui n'en est qu'une condition")
-    print("  nécessaire. Les prix ne sont pas endogènes.")
+    print("  CE QUI N'A PAS BOUGÉ. Un contrôle qui ne porte que sur des")
+    print("  déclarations ne détecte pas leur falsification. Le passé n'est")
+    print("  pas révisable. Aucun critère neutre ne départage deux besoins")
+    print("  essentiels. ET LA CONTRAINTE PHYSIQUE NE SE VOTE PAS, alors que")
+    print("  son constat, lui, se conteste — c'est la distinction qui commande")
+    print("  toute l'architecture, et le dilemme qui reste ouvert.")
     return 0
 
 
