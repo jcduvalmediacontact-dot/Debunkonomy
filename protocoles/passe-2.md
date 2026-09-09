@@ -5814,3 +5814,72 @@ défenseurs des libertés publiques si le système exige une traçabilité exces
 et les pays du Sud si le régime est défini par les pays riches. **Un contrôle des
 capitaux mal conçu reproduit exactement l'asymétrie que le dispositif prétend
 corriger.**
+
+
+## LES DÉSÉQUILIBRES COURANTS PERSISTANTS — MODÈLE À TROIS PAYS, 2026-09-09
+
+**SOLUTION DE RÉFÉRENCE ARRÊTÉE PAR L'AUTEUR** : comptes des banques centrales
+auprès de l'institution, corridor toléré de déficit ET d'excédent, obligations
+graduées des deux côtés, facilité temporaire de liquidité, parités administrées
+— stables mais révisables. **Deux exigences** : un déficit causé par
+l'importation de biens essentiels ne doit pas imposer de contraction ; et
+l'accumulation indéfinie d'excédents doit être empêchée. **Seuils non fixés,
+délibérément.**
+
+**MODÈLE CONSTRUIT** — `modeles/nemo_soldes.py`, éprouvé par
+`modeles/test_nemo_soldes.py`. Trois pays, huit périodes, quatre scénarios :
+référence, choc énergétique, mauvaise récolte, rupture commerciale. Sont suivis
+séparément, comme demandé : les échanges réels en volume, les soldes NEMO, les
+masses monétaires, la liquidité, les parités et la répartition de l'effort.
+
+### CE QUE F6 A IMPOSÉ À LA CONCEPTION AVANT QUE LE MODÈLE TOURNE
+
+**LA SYMÉTRIE EST UN PARAMÈTRE, JAMAIS UNE HYPOTHÈSE.** Le corpus a lu sur
+pièces les *Collected Writings* de Keynes, volume XXV [L1.C25, S12] : la charge
+symétrique de l'Union internationale de compensation existait — « *whether it
+is a credit or a debit balance* » — **mais le déficitaire subissait et
+l'excédentaire délibérait**, Keynes l'avait déclarée non essentielle, **et elle
+a été refusée quand même.** Chaque scénario est donc joué DEUX FOIS.
+
+### TROIS RÉSULTATS, ET LES TROIS SONT CONTRE LA SOLUTION DE RÉFÉRENCE
+
+**(1) LA PROTECTION DES IMPORTATIONS ESSENTIELLES CÈDE QUAND LE CHOC DURE PLUS
+LONGTEMPS QUE LA FACILITÉ.** Elle tient au choc énergétique jusqu'à la période
+six, puis **le remboursement à échéance rétablit la contraction pendant que le
+choc dure encore.** **Une facilité temporaire ne supprime pas la contraction :
+elle la DIFFÈRE.** Le test l'établit par isolement de la cause — allonger la
+durée fait disparaître le manquement, augmenter le plafond ne le fait pas.
+
+**(2) LE CORRIDOR NE BORNE PAS, IL TARIFE.** L'exigence n'est tenue dans aucun
+des quatre scénarios. Et le test précise le mécanisme : **un taux appliqué au
+dépassement fait converger le solde vers « corridor plus flux divisé par
+taux »** — il borne asymptotiquement, **il ne pose aucun plafond**, et la
+convergence peut être plus lente que le choc. À barème fort, l'excédent croît
+encore de cinq par période au lieu de quarante-trois. **Empêcher demande un
+plafond DUR, ou une charge croissant plus vite que le solde.**
+
+**(3) MÊME CONTRAIGNANTE, LA SYMÉTRIE EST NOMINALE.** Au choc énergétique,
+l'excédentaire porte **cinq pour cent** de l'effort sous obligation
+contraignante, et **zéro** sous obligation délibérative — la configuration
+historiquement adoptée. **La charge graduée est d'un ordre de grandeur
+inférieure à la contraction qu'elle devrait compenser.**
+
+**ET UNE ASYMÉTRIE COMPTABLE A ÉTÉ CORRIGÉE EN COURS DE CONSTRUCTION.** Une
+première version comptait la contraction du déficitaire comme un effort sans
+compter l'expansion de l'excédentaire comme un avantage. **Ce sont les deux
+faces d'un même transfert** : au choc énergétique, cinq cents de contraction
+d'un côté, cinq cent quatre-vingt-quatre d'expansion de l'autre. **Ne compter
+que la première fait passer un transfert pour un coût unilatéral.**
+
+### CE QUE CELA NE DIT PAS
+
+**Que le mécanisme soit impossible.** Cela dit que **ces paramètres** ne
+satisfont ni l'une ni l'autre exigence, **et pourquoi dans chaque cas** — durée
+trop courte, taux au lieu de plafond, barème d'un ordre de grandeur trop bas.
+**Les seuils sont à fixer, et l'auteur a demandé de ne pas le faire avant ce
+modèle.**
+
+**Aucun comportement n'est modélisé** : ni élasticité, ni substitution
+d'importations, ni réaction des prix intérieurs, ni capacité productive. **Les
+chocs sont imposés, non expliqués.** Et les mouvements de capitaux sont hors
+périmètre : ils sont réglementés par A32.

@@ -458,11 +458,28 @@ pieces_de_conception_manquantes:
       la consommation matérielle pondérée par l'impact environnemental. TROIS
       chapitres réclament la même littérature.
 
+  - id: COMPENSATION-SYMETRIQUE
+    objet: "Traitement des déséquilibres courants persistants"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [CONTROLE-DES-CAPITAUX]
+    decision: >
+      RÉFÉRENCE ARRÊTÉE LE 2026-09-09 : comptes des banques centrales à
+      l'institution, corridor toléré des deux côtés, obligations graduées pour
+      le déficitaire ET l'excédentaire, facilité temporaire, parités
+      administrées. DEUX EXIGENCES : un déficit d'importations essentielles
+      n'impose pas de contraction ; l'accumulation indéfinie d'excédents est
+      empêchée. SEUILS NON FIXÉS, délibérément. Modèle à trois pays construit :
+      AUCUNE des deux n'est tenue au barème déclaré.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C25, L1.C26]
+    maj: 2026-09-09
+
   - id: CONTROLE-DES-CAPITAUX
     objet: "Conception opérationnelle du compte de capital réglementé"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [A32]
+    lie_a: [A32, COMPENSATION-SYMETRIQUE]
     decision: >
       OUVERT LE 2026-09-09, EN CONSÉQUENCE DIRECTE D'A32. Le PRINCIPE est
       tranché — le compte de capital est réglementé — mais AUCUNE modalité ne

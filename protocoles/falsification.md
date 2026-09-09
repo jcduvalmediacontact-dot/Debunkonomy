@@ -433,6 +433,27 @@ assignée aux autorités monétaires ne puisse être égalisée par aucune voie.
 **La seconde branche est celle qui décide désormais**, et le corpus n'a rien qui
 dise à quel prix politique elle s'obtient.
 
+### F4 REÇOIT UNE CHARGE NOUVELLE LE 2026-09-09, ET ELLE VIENT D'UN ARBITRAGE DU CORPUS LUI-MÊME
+
+**L'ABANDON DE LA LIBRE CIRCULATION INCONDITIONNELLE DES CAPITAUX [A32] NE
+RÉSOUT PAS SEULEMENT UNE OBJECTION : IL EN CRÉE UNE.** Le corpus tranche le
+triangle d'incompatibilité en réglementant le compte de capital. **Or la libre
+circulation des capitaux est, dans plusieurs ordres juridiques, une liberté
+protégée par traité — et non une option de politique économique.**
+
+**CE QUE LE CORPUS N'A PAS FAIT, ET QU'IL DOIT MAINTENANT FAIRE.** Établir, sur
+les textes, quels ordres juridiques interdisent ou encadrent un contrôle des
+capitaux, sous quelles exceptions et à quelles conditions de proportionnalité.
+**Le corpus n'a ouvert aucun de ces textes.** **Tant qu'ils ne le sont pas,
+A32 déplace F4 d'un cran vers la difficulté au lieu de l'alléger** — et il
+serait malhonnête de compter cet arbitrage comme un progrès net.
+
+**ET LA FORMULATION PUBLIQUE ARRÊTÉE LE MÊME JOUR PORTE DÉJÀ LA RÉPONSE
+ATTENDUE** : des règles « proportionnées et révisables ». **La
+proportionnalité est précisément le test que ces ordres juridiques appliquent.
+Le mot est bien choisi ; il reste à établir qu'il est tenu.** Pièce
+`CONTROLE-DES-CAPITAUX`.
+
 ### F4 bis — la seconde face de l'obstacle : le dispositif est légal, et il est tarifé
 
 **POSÉ LE 2026-09-07, en défrichant L6.C12. VÉRIFIÉ AVANT D'ÊTRE ÉCRIT** :
@@ -3339,6 +3360,37 @@ volontairement au régime accepte-t-il par avance ?** **La question est juridiqu
 et le corpus ne l'a pas ouverte** ; elle pourrait rouvrir la branche que ce
 résultat ferme.
 
+
+## F6 COMMANDE LA CONCEPTION DE LA COMPENSATION SYMÉTRIQUE — 2026-09-09
+
+**LE CORPUS ENTREPREND LE 2026-09-09 DE CONCEVOIR UNE COMPENSATION SYMÉTRIQUE
+DES DÉSÉQUILIBRES COURANTS** : corridor toléré des deux côtés, **obligations
+graduelles pour le déficitaire ET pour l'excédentaire**, facilité temporaire de
+liquidité, parités administrées.
+
+**CE QUE F6 EN DIT AVANT MÊME QUE LE MODÈLE TOURNE, ET IL LE DIT SUR PIÈCES.**
+La vérification primaire du 2026-09-04 sur les *Collected Writings* de Keynes,
+volume XXV, a établi trois choses sur la seule tentative historique comparable.
+**(1) La charge symétrique existait bel et bien** — un pour cent l'an sur le
+solde moyen dépassant le quart du quota, « *whether it is a credit or a debit
+balance* ». **(2) Elle n'était pas contraignante** : là où le Governing Board
+« *may require* » du déficitaire une dévaluation, le contrôle des sorties de
+capitaux et la remise d'une part de ses réserves d'or, l'excédentaire
+« *shall discuss* [...] *but shall retain the ultimate decision in its own
+hands* ». **(3) Keynes l'avait déclarée non essentielle et avait prévu le
+refus** — et **elle a été refusée quand même.**
+
+**CONSÉQUENCE POUR LA CONCEPTION, ET ELLE EST CONTRAIGNANTE.** **Le modèle ne
+doit pas supposer la symétrie : il doit en faire un PARAMÈTRE.** Une
+compensation dont l'obligation excédentaire se réduit à « discuter » n'est pas
+symétrique, quel que soit le barème affiché. **Le corpus a établi que c'est
+exactement la disposition qui saute**, et un modèle qui la tiendrait pour
+acquise modéliserait le régime qui n'a jamais été adopté.
+
+**EXIGENCE VERSÉE AU MODÈLE.** Chaque scénario doit être joué DEUX FOIS —
+obligation excédentaire contraignante, puis délibérative — et **la répartition
+de l'effort entre déficitaire et excédentaire doit être rapportée dans les deux
+cas.** **L'écart entre les deux est la mesure de ce que F6 met en jeu.**
 
 ## F6 — UNE OBJECTION LUI EST VERSÉE LE 2026-09-08 PAR L17.C03, ET ELLE VIENT DE L'AILE LA PLUS RADICALE DU PROJET ÉCOLOGIQUE
 

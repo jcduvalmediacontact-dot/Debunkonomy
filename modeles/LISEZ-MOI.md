@@ -125,3 +125,28 @@ droit attaché, qui sert l'obligation, l'exigibilité, l'extinction, le porteur 
 risque, et les exigences juridiques que la branche appellerait. **Le créancier
 n'est pas un champ : il est DÉRIVÉ des écritures, et il migre avec
 l'instrument.** Les écritures s'en déduisent.
+
+
+## `nemo_soldes.py` — compensation symétrique des déséquilibres courants
+
+Trois pays, huit périodes, quatre scénarios. Une union de compensation :
+comptes des banques centrales auprès de l'institution, corridor toléré des deux
+côtés, obligations graduées, facilité temporaire de liquidité, parités
+administrées.
+
+```bash
+python modeles/nemo_soldes.py
+python modeles/test_nemo_soldes.py
+```
+
+**Deux exigences de l'auteur sont contrôlées, et elles peuvent échouer** : un
+déficit d'importations essentielles ne doit pas imposer de contraction, et
+l'accumulation indéfinie d'excédents doit être empêchée. **Au barème déclaré,
+aucune des deux n'est tenue** — le programme dit laquelle, où, et pourquoi.
+
+**La symétrie est un PARAMÈTRE, jamais une hypothèse.** Chaque scénario est joué
+sous obligation excédentaire contraignante puis délibérative, parce que le
+corpus a établi sur pièces que c'est exactement la disposition qui saute [F6].
+
+**Aucun seuil n'est calibré**, et le drapeau `SEUILS_CALIBRES` doit rester à
+`False` tant qu'une source ne fonde pas chaque seuil.
