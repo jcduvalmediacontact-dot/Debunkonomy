@@ -5218,3 +5218,152 @@ tirages spéciaux, ne sont pas au dossier — et l'édition qu'il en tiendrait s
 celle de 1944, qui ne les contient pas, ces droits n'existant pas encore.
 **ACQUISITION DE RANG 1 : les articles du compte de tirages spéciaux, dans le
 texte en vigueur, sur l'hôte qui répond.**
+
+
+## SEPT CORRECTIONS DE L'AUTEUR SUR L'ARGUMENT F10 — 2026-09-09, LE JOUR MÊME DE SON ÉCRITURE
+
+**L1.C31 A ÉTÉ ÉCRIT ET CORRIGÉ LE MÊME JOUR.** Le chapitre canonique expose
+l'état corrigé et lui seul ; les motifs sont ici, au titre de la règle « où vit
+l'historique d'une correction ». **Le fichier a été renommé, l'identifiant L1.C31
+conservé.**
+
+### 1. A35 ÉTAIT DÉJÀ ARBITRÉ, ET LE REGISTRE LE DISAIT OUVERT
+
+**UNE DIVERGENCE REGISTRE / TEXTE EST RELEVÉE ET CORRIGÉE.** Le registre portait
+A35 comme `ouvert`, avec la note « L19 devait la clore et ne l'a pas close ».
+**Or L10.C06 et L1.C29 portent que A35 EST ARBITRÉ depuis un arbitrage antérieur
+de l'auteur** : la dette est portée par l'ensemble de la société, refluée par des
+fontes graduées. **Et L10.C06 porte la correction du 2026-09-07 : « A35 décrit
+L'INCIDENCE ÉCONOMIQUE, non le porteur juridique. »** **La règle du registre a
+joué : le texte fait foi, et le registre est corrigé.**
+
+### 2. A35 EST SCINDÉ
+
+**ARBITRÉ — le PORTEUR.** L'unité émise est un **PASSIF DE L'ÉMETTEUR**. La
+société n'est pas débiteur juridique ; elle supporte l'incidence économique.
+**C'est ce que la nomenclature de l'auteur appelle A35a.**
+
+**OUVERT — A35b, cinq questions que le porteur ne tranche pas.** Ce que le
+**DÉTENTEUR** peut réclamer. Comment le passif **S'ÉTEINT**. Quelle est sa
+**CONTREPARTIE** à l'actif. Qui absorbe les pertes ou une **INSUFFISANCE DE
+REFLUX**. Et si le bénéficiaire reçoit une **subvention, un crédit ou un droit
+monétaire conditionnel**.
+
+**L'IDENTIFIANT A35 EST CONSERVÉ, ET LE MOTIF EST MÉCANIQUE.** Une trentaine de
+fichiers le citent, dont le titre d'un chapitre — L10.C06, « L'arbitrage A35, et
+ce qu'il déplace ». **Le registre pose que les identifiants sont permanents et ne
+sont jamais réattribués ; renommer A35 en A35a briserait ces renvois pour un
+gain de forme.**
+
+**ET LA CONTRADICTION QUE CETTE SCISSION SUPPRIME.** L1.C31 déclarait A35 arbitré
+puis demandait au simulateur d'en comparer plusieurs branches. **Le simulateur
+compare les branches d'A35b.**
+
+### 3. « RENDRE FINANÇABLE » NE SUFFIT PAS — LA CORRECTION CENTRALE
+
+**LA CRÉATION MONÉTAIRE PRODUIT DU POUVOIR D'ACHAT. ELLE NE PRODUIT NI TRAVAIL,
+NI ÉNERGIE, NI MATÉRIAUX, NI CAPACITÉS PRODUCTIVES.**
+
+**Une activité peut devenir nominalement finançable et rester matériellement
+irréalisable.** **Elle peut aussi mobiliser des ressources en les retirant à
+d'autres usages.** **Le test porte donc sur LES RESSOURCES RÉELLES MOBILISÉES,
+l'inflation, les importations et l'incidence distributive** — non sur la
+disponibilité d'un financement.
+
+**La proposition est reformulée en conséquence, et la clause de contraintes n'y
+est pas un ornement de prudence : c'est une CONDITION D'ÉCHEC.**
+
+### 4. LE TROISIÈME ÉNONCÉ DÉPASSAIT SA DÉMONSTRATION
+
+**« Financer à la réalisation » ne signifie PAS qu'aucun revenu futur ne sera
+requis.** Cela dépend de **la créance éventuelle sur le bénéficiaire**, de **la
+nature du passif de l'émetteur** et du **mécanisme de reflux** — c'est-à-dire
+d'A35b, qui est ouvert.
+
+**DEUX CHOSES DOIVENT ÊTRE DISTINGUÉES, ET LE CHAPITRE LES CONFONDAIT.** **Le
+financement non remboursable DU BÉNÉFICIAIRE** — il ne doit rien, aucune
+rentabilité future n'est exigée de lui. **Le passif monétaire DE L'ÉMETTEUR** —
+il subsiste, et son extinction est une question distincte. **Ce qui subsiste de
+l'énoncé porte sur la position du bénéficiaire, non sur celle de l'émetteur.**
+
+### 5. LA CONDITION DE RÉFUTATION ÉTAIT TROP PROTECTRICE
+
+**Exiger des solutions concurrentes « les mêmes activités, au même volume, avec
+moins de coûts et de risques » impose une identité presque impossible et
+IMMUNISE le dispositif.** **Il faut comparer des RÉSULTATS écologiques et sociaux
+définis, non les mêmes projets ni les mêmes montants.**
+
+**CONDITION DE DÉMONSTRATION, ARRÊTÉE PAR L'AUTEUR.** *NEMO IMS démontre un ajout
+propre si, pour un résultat écologique et social défini, il permet de mobiliser
+des ressources réelles que le meilleur portefeuille institutionnellement
+réalisable d'instruments existants ne peut mobiliser dans le même délai, à coût
+social total, risque macroéconomique et qualité de gouvernance comparables.*
+
+**CONDITION D'ÉCHEC RÉCIPROQUE.** *Si un portefeuille réalisable d'instruments
+existants atteint le même résultat à coût et risque égaux ou inférieurs,
+l'avantage comparatif de NEMO n'est pas établi. Si NEMO ne l'atteint qu'en
+franchissant les contraintes inflationnistes, extérieures, physiques ou
+distributives, il échoue également.*
+
+**LE TEST A CHANGÉ D'OBJET.** **Il ne demande plus si le dispositif est
+NÉCESSAIRE — question qu'aucune expérience ne tranche — mais s'il a un AVANTAGE
+COMPARATIF.** **Plus faible en apparence, plus dur en pratique : il oblige à
+construire l'adversaire au lieu de le supposer absent.**
+
+**DIFFICULTÉ NON TRANCHÉE, INSCRITE AU BALAYAGE.** Le mot **« réalisable »**
+décide du résultat. **Politiquement réalisable** donne un adversaire affaibli par
+des obstacles que le dispositif rencontrerait aussi. **Techniquement possible**
+donne un adversaire que personne n'a jamais assemblé. **Le choix appartient à
+l'auteur.**
+
+### 6. LES COMPARATEURS ÉTAIENT MÉLANGÉS — ERREUR DE CATÉGORIE
+
+**INSTRUMENTS DE FINANCEMENT, qui allouent des ressources** : transferts fiscaux,
+investissement public, banques publiques de développement, garanties, subventions,
+mécanismes de dette, allocations internationales existantes. **Ce sont eux qui
+composent le portefeuille de comparaison.**
+
+**MÉCANISMES D'AUTORITÉ, DE CONSENTEMENT ET DE CONTRÔLE, qui ne financent pas** :
+cogestion, aires et territoires conservés par les communautés, revitalisation des
+savoirs, codes de conduite, consentement préalable. **Ils déterminent QUI DÉCIDE,
+QUI CONSENT, QUI CONTRÔLE.**
+
+**LEUR DEMANDER DE FINANCER EST UNE ERREUR DE CATÉGORIE.** **Ils ne sont pas des
+concurrents : ils sont une DIMENSION de la clause « qualité de gouvernance », et
+peuvent accompagner CHACUNE des solutions de financement, y compris le
+dispositif.**
+
+### 7. LE SIMULATEUR NE TRANCHE PAS TOUT — TROIS VOIES DE PREUVE
+
+**Le chapitre écrivait que les quatre énoncés étaient « des questions de
+simulateur ». Ils ne le sont pas tous.**
+
+**ENQUÊTE EMPIRIQUE** — l'existence et la TAILLE des activités insuffisamment
+financées ne se déduisent d'aucun modèle. **MODÈLE COMPTABLE ET
+MACROÉCONOMIQUE** — cohérence des bilans, flux, inflation, importations, reflux,
+répartition. **COMPARAISON INSTITUTIONNELLE** — coûts administratifs et risques
+de capture, par études comparatives et cas historiques. **La clause « qualité de
+gouvernance » en dépend entièrement, et aucun modèle ne la produira.**
+
+### 8. ET LA SÉPARATION SOURCE / PUITS N'EST PAS UNE RÉPONSE DIRECTE À F13
+
+**L'absence de compensation entre deux comptes évite UNE PARTIE du problème ;
+elle ne le résout pas.** **Il reste à passer de plusieurs contraintes à une
+décision d'éligibilité, puis à un montant.**
+
+**CHAÎNE ARRÊTÉE PAR L'AUTEUR LE 2026-09-09, ET ELLE EST À TROIS ÉTAGES.**
+**(1) SEUILS PHYSIQUES SERVANT DE VETO.**
+**(2) PRIORITÉ SOCIALE ET TERRITORIALE DÉCIDÉE POLITIQUEMENT.**
+**(3) MONTANT DÉTERMINÉ PAR LES COÛTS RÉELS, LES CAPACITÉS DISPONIBLES ET LA
+CONTRAINTE MACROÉCONOMIQUE.**
+
+**Le modèle doit distinguer ces trois étages, et ne pas les confondre en un
+score.**
+
+### 9. CE QUI N'EST PAS CHANGÉ, ET POURQUOI
+
+**La structure de `verifications_en_attente` n'est PAS modifiée.** L'auteur
+arbitre le 2026-09-09 d'attendre : **les trois chapitres pilotes diront si le
+champ doit ensuite être séparé entre vérifications factuelles, objections non
+résolues et dettes de conception.** **La question posée par
+protocoles/candidats-verifie.md reste donc ouverte, et elle est datée.**

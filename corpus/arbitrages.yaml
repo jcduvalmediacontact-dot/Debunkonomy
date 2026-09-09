@@ -86,16 +86,35 @@ arbitrages:
     maj: 2026-09-08
 
   - id: A35
-    objet: "Qui porte juridiquement la dette collective"
+    objet: "Le porteur juridique et comptable du passif"
     statut: arbitre
     tranche_par: auteur
+    lie_a: [A35b]
     decision: >
-      ARBITRÉ. La société n'est PAS débiteur juridique. L'unité émise est un
-      PASSIF DE L'ÉMETTEUR ; la société supporte l'INCIDENCE ÉCONOMIQUE du
-      reflux. Deux notions distinctes que le corpus confondait. Ouvre en retour
-      la question distributive de l'incidence, que porte le Livre 25.
+      ARBITRÉ EN DEUX TEMPS. L'INCIDENCE ÉCONOMIQUE du reflux est portée par
+      l'ensemble de la société — arbitrage antérieur, dont L10.C06 a corrigé le
+      2026-09-07 qu'il décrit l'incidence et NON le porteur. LE PORTEUR est
+      arbitré le 2026-09-09 : l'unité émise est un PASSIF DE L'ÉMETTEUR. C'est
+      ce que la nomenclature de l'auteur appelle A35a ; l'identifiant A35 est
+      conservé, une trentaine de fichiers le citant dont un titre de chapitre.
     texte: protocoles/passe-2.md
-    chapitres: [L19.C05, L20.C24, L20.C26, L11.C09]
+    chapitres: [L10.C06, L1.C29, L19.C05, L20.C24, L20.C26, L11.C09]
+    maj: 2026-09-09
+
+  - id: A35b
+    objet: "Nature, exigibilité, contrepartie et extinction du passif"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [A35]
+    decision: >
+      OUVERT LE 2026-09-09. Cinq questions que l'arbitrage du porteur ne tranche
+      pas : ce que le DÉTENTEUR peut réclamer ; comment le passif S'ÉTEINT ;
+      quelle est sa CONTREPARTIE à l'actif ; qui absorbe les pertes ou une
+      INSUFFISANCE DE REFLUX ; et si le bénéficiaire reçoit une subvention, un
+      crédit ou un droit monétaire conditionnel. LE SIMULATEUR DOIT COMPARER LES
+      BRANCHES D'A35b, non celles d'A35.
+    texte: protocoles/passe-2.md
+    chapitres: [L10.C06, L19.C02, L19.C06, L1.C31]
     maj: 2026-09-09
 
   - id: A36
@@ -266,13 +285,13 @@ falsifieurs:
     statut: ouvert
     tranche_par: non-tranche
     decision: >
-      DÉPLACÉ TROIS FOIS : la mesure et la descente à l'échelle du produit
-      existent déjà, donc ce que le dispositif doit justifier est L'AJOUT
-      MONÉTAIRE. Les familles mieux classées portent sur l'autorité, non sur
-      l'allocation. L'argument est écrit le 2026-09-09 (L1.C31), en proposition
-      testable avec sa condition de réfutation, arrêtées par l'auteur. IL N'EST
-      PAS ÉTABLI : aucun de ses quatre énoncés n'est mesuré, et la comparaison
-      qu'exige la réfutation n'a été faite par personne.
+      DÉPLACÉ TROIS FOIS : ce que le dispositif doit justifier n'est pas le
+      barème mais son AJOUT PROPRE. L'argument est écrit le 2026-09-09 (L1.C31)
+      et corrigé le même jour : l'ajout porte sur la MOBILISATION DE RESSOURCES
+      RÉELLES, non sur la disponibilité d'un financement. Condition de
+      démonstration et condition d'échec réciproque arrêtées par l'auteur. IL
+      N'EST PAS ÉTABLI : le portefeuille de comparaison n'a jamais été construit,
+      pour aucun instrument.
     texte: protocoles/falsification.md
     chapitres: [L1.C31, L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
     maj: 2026-09-09
@@ -307,12 +326,13 @@ falsifieurs:
     tranche_par: auteur
     lie_a: [CRITERE-L25]
     decision: >
-      ARBITRAGE DE RÉPONSE RENDU LE 2026-09-09 : renoncer au SCORE MONDIAL
-      UNIQUE, employer PLUSIEURS SEUILS NON COMPENSABLES, et assumer
-      publiquement que la pondération restante est une décision POLITIQUE,
-      participative et contestable. Troisième voie, présentée cinq fois et enfin
-      prise. F13 RESTE OUVERT : ce qui est arbitré est la RÉPONSE, non
-      l'objection. Manque toujours le pas d'une DÉCISION à un MONTANT.
+      ARBITRÉ DANS SA RÉPONSE LE 2026-09-09 : renoncer au SCORE MONDIAL UNIQUE,
+      employer PLUSIEURS SEUILS NON COMPENSABLES, assumer que la pondération est
+      POLITIQUE et contestable. CHAÎNE ARRÊTÉE : seuils physiques en VETO, puis
+      priorité sociale et territoriale décidée politiquement, puis MONTANT fixé
+      par les coûts réels, les capacités disponibles et la contrainte
+      macroéconomique. F13 RESTE OUVERT : le pas de la décision au montant est
+      désormais nommé, il n'est pas franchi.
     texte: protocoles/falsification.md
     chapitres: [L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
     maj: 2026-09-09
@@ -380,9 +400,10 @@ pieces_de_conception_manquantes:
       ARBITRÉ : les DEUX côtés, en COMPTES SÉPARÉS. Les PUITS portent des
       plafonds physiques NON COMPENSABLES. Les SOURCES portent les dommages
       d'extraction, la dépendance matérielle et la justice distributive, SANS
-      invoquer une rareté générale — que L18.C20 établit non fondée. Deux comptes
-      qui ne se compensent pas ne demandent aucun taux de change entre eux :
-      réponse directe à F13.
+      invoquer une rareté générale — que L18.C20 établit non fondée. L'ABSENCE DE
+      COMPENSATION ÉVITE UNE PARTIE DE F13 ; ELLE NE LE RÉSOUT PAS : il reste à
+      passer de plusieurs contraintes à une décision d'éligibilité, puis à un
+      montant.
     texte: protocoles/passe-2.md
     chapitres: [L18.C18, L18.C20, L18.C21]
     maj: 2026-09-09
