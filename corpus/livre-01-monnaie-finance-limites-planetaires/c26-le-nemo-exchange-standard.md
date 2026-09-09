@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-04
+revision_de_fond: 2026-09-09
 autorite: preparatoire
 citable: false
 regime: conception
@@ -98,11 +98,15 @@ verifications_en_attente:
      procedure » n'est pas une troisieme forme mais l'absence de forme, et
      c'est la position actuelle. S'y ajoute qu'une revision de parite est un
      TRANSFERT dont personne n'a dit qui le supporte. Arbitrage A19."
-  - "Le régime des flux de capitaux. Le § 4 montre que la question décide de
-     tout, et le livre ne la traite pas : NEMO SWIFT traite-t-il les seuls
-     règlements commerciaux, ou tout transfert transfrontalier ? L1.C21
-     mentionne un contrôle des capitaux ; [S2] revendique leur libre
-     circulation. Les deux ne peuvent pas être vrais."
+  - "**LE RÉGIME DES FLUX DE CAPITAUX EST TRANCHÉ DANS SON PRINCIPE LE
+     2026-09-09, ET NON DANS SES MODALITÉS** [A32]. La contradiction que ce
+     champ portait est levée : L1.C21 mentionnait un contrôle des capitaux,
+     [S2] revendiquait leur libre circulation, **et c'est le contrôle qui
+     l'emporte.** **CE QUI RESTE ENTIER** : la ligne entre paiements courants
+     et compte de capital, le régime des investissements directs, les règles
+     anti-contournement, l'autorité compétente, les voies de recours et les
+     mesures de crise. **Aucune n'est conçue, et le contournement se loge
+     exactement dans cette ligne** — pièce `CONTROLE-DES-CAPITAUX`."
   - "Ordre de grandeur des variations de masse monétaire induites. Le § 4
      établit que le solde commercial se déverse intégralement sur la masse
      monétaire nationale. Un chiffrage sur des soldes courants observés —
@@ -203,5 +207,13 @@ renvois: [L1.C05, L1.C07, L1.C19, L1.C20, L1.C21, L1.C24, L1.C25]
 ::etat:: Il a établi trois résultats défavorables. **Le premier est bloquant** : la phrase par laquelle le livre écarte le triangle d'incompatibilité est la seule non argumentée du chapitre, et elle est fausse. Le dispositif n'échappe pas au triangle, il en occupe un sommet — les changes fixes tiennent, et tiennent mieux que sous un ancrage classique puisqu'aucune parité ne peut être attaquée ; ce qui est perdu est l'autonomie monétaire, exactement comme sous l'étalon-or dont le livre se réclame. Le deuxième est que les déséquilibres commerciaux ne sont pas supprimés mais reportés sur la masse monétaire nationale, sans correcteur, et que cette forme est plus rigide que celle qu'elle remplace. Le troisième est que la convergence des pouvoirs d'achat ne suit pas de la fixation des taux nominaux.
 
 ::hypothese:: Le corpus ne conclut pas que le dispositif est inopérant. Il conclut que **le livre revendique trois propriétés dont deux sont acquises et une est impossible**, et que la manière de le corriger est connue : écrire quel sommet du triangle le dispositif abandonne. Deux réponses sont tenables — restreindre la mobilité des capitaux et conserver l'autonomie monétaire, ou l'admettre perdue et en tirer les conséquences institutionnelles. Aucune n'est écrite. **La proposition réelle est plus étroite que son annonce, et elle serait plus solide énoncée ainsi** (P49, P50).
+
+::etat:: **L'ARBITRAGE EST RENDU LE 2026-09-09, ET C'EST LA PREMIÈRE DES DEUX RÉPONSES TENABLES** [A32]. **NEMO IMS abandonne la libre circulation inconditionnelle des capitaux.** Le dispositif retient explicitement **des parités stables ou administrées, l'autonomie monétaire nationale, et un compte de capital réglementé.** **Le triangle n'est plus contourné : un sommet est nommé, et c'est celui-là.**
+
+::etat:: **CE QUE LA DÉCISION NE FERME PAS, ET IL FAUT LE DIRE AUSSI FORT.** **Les paiements courants légitimes restent exécutables** — commerce de biens et de services, revenus, transferts familiaux, règlement des engagements. **Les investissements directs productifs peuvent rester autorisés** sous conditions de transparence, de durée et de traçabilité. **Ce qui est encadré, ce sont les flux de portefeuille, les mouvements spéculatifs de court terme, le crédit international à effet de levier, les dérivés et les canaux de contournement** — par autorisation, plafonds, réserves obligatoires, délais de détention ou prélèvements variables, et par des mesures temporaires pouvant porter **symétriquement sur les entrées et sur les sorties**.
+
+::etat:: **ET LA FORMULATION PUBLIQUE EST ARRÊTÉE DANS LES MÊMES TERMES** : « *NEMO IMS garantit la continuité des paiements courants légitimes et soumet les mouvements de capitaux à des règles communes, transparentes, proportionnées et révisables afin de préserver la stabilité monétaire et l'autonomie des collectivités.* »
+
+::hypothese:: **CE QUE CET ARBITRAGE COÛTE, ET LE CHAPITRE DOIT LE PORTER AVANT DE S'EN RÉJOUIR.** **Le dispositif occupe désormais le sommet de Bretton Woods**, avec les difficultés propres à ce régime — la ligne entre paiement courant et mouvement de capital est un objet de droit et de pratique, non une évidence, et elle est le lieu de tout contournement. **Rien de cela n'est conçu** : c'est l'objet de la pièce ouverte le même jour, `CONTROLE-DES-CAPITAUX`. **Et l'arbitrage ne touche pas au § 5 : les déséquilibres commerciaux restent entiers**, le solde continuant de se déverser sur la masse monétaire interne.
 
 ::hypothese:: Ce chapitre laisse ouverte la question qu'il a fait apparaître et que le suivant devra traiter : si l'ajustement porte désormais sur la masse monétaire nationale, **qu'est-ce qui empêche un pays durablement déficitaire de se vider ?** Le livre répond que ce sont les émissions régénératives qui « rééquilibreront et stabiliseront les économies nationales » [S2]. Cette réponse fait dépendre l'équilibre extérieur d'un pays de la quantité de communs qu'il peut faire certifier — ce qui est une thèse forte, entièrement non instruite, et qui appartient à L1.C27.

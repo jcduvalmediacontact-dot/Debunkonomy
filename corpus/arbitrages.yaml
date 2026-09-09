@@ -65,9 +65,18 @@ arbitrages:
     objet: "Régime de change"
     statut: arbitre
     tranche_par: auteur
-    decision: "Parité fixe ; le triangle d'incompatibilité est respecté et non contourné."
+    lie_a: [CONTROLE-DES-CAPITAUX]
+    decision: >
+      ARBITRÉ LE 2026-09-08, TRANCHÉ SUR LE FOND LE 2026-09-09 : le triangle
+      d'incompatibilité est résolu PAR L'ABANDON DE LA MOBILITÉ INTÉGRALE DES
+      CAPITAUX. Trois propriétés retenues et nommées : PARITÉS STABLES OU
+      ADMINISTRÉES, AUTONOMIE MONÉTAIRE NATIONALE, COMPTE DE CAPITAL
+      RÉGLEMENTÉ. Les paiements courants légitimes restent exécutables ; les
+      flux de portefeuille, la spéculation courte, le levier et les dérivés
+      sont encadrés. Conception opérationnelle : CONTROLE-DES-CAPITAUX.
     texte: protocoles/passe-2.md
-    maj: 2026-09-08
+    chapitres: [L1.C21, L1.C26]
+    maj: 2026-09-09
 
   - id: A33
     objet: "Le nombre de chapitres d'un livre n'est pas contraignant"
@@ -448,6 +457,23 @@ pieces_de_conception_manquantes:
       Les méthodes couplant limites planétaires et analyse de cycle de vie, et
       la consommation matérielle pondérée par l'impact environnemental. TROIS
       chapitres réclament la même littérature.
+
+  - id: CONTROLE-DES-CAPITAUX
+    objet: "Conception opérationnelle du compte de capital réglementé"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [A32]
+    decision: >
+      OUVERT LE 2026-09-09, EN CONSÉQUENCE DIRECTE D'A32. Le PRINCIPE est
+      tranché — le compte de capital est réglementé — mais AUCUNE modalité ne
+      l'est. À concevoir : la ligne entre paiements courants et compte de
+      capital ; le régime des investissements directs, sous conditions de
+      transparence, de durée et de traçabilité ; les règles ANTI-CONTOURNEMENT ;
+      l'autorité compétente ; les voies de recours ; et les mesures de crise,
+      symétriques sur les entrées et les sorties.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C21, L1.C26]
+    maj: 2026-09-09
 
   - id: OPERATIONNALISATION-INSOLVABLE
     objet: "Comment éprouver le concept d'essentiel insolvable"

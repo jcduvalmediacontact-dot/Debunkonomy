@@ -5735,3 +5735,82 @@ accepte le contenu et déplace la thèse.**
 à instruire une proposition unique. Il en sort avec trois propositions séparées,
 une seule expérimentable, cinq obstacles nommés et une trajectoire en sept
 étapes dont il peut entreprendre la troisième seul.
+
+
+## DÉCISION DE PRINCIPE SUR LES CAPITAUX — 2026-09-09, ET ELLE FERME P49
+
+**NEMO IMS ABANDONNE LA LIBRE CIRCULATION INCONDITIONNELLE DES CAPITAUX.**
+
+Le NEMO Exchange Standard retient désormais explicitement trois propriétés, et
+les nomme : **parités stables ou administrées, autonomie monétaire nationale,
+compte de capital réglementé.**
+
+### 1. CE QUE CETTE DÉCISION FERME
+
+**P49 ÉTAIT BLOQUANTE, ET ELLE DEMANDAIT EXACTEMENT CELA.** L1.C26 § 4
+établissait que le livre revendique trois propriétés dont deux sont acquises et
+une est impossible, et que **deux réponses seulement sont tenables** :
+restreindre la mobilité des capitaux, ou admettre l'autonomie monétaire perdue.
+**L'auteur rend la première.** **Le triangle n'est plus contourné : un sommet
+est nommé.**
+
+**LE DISPOSITIF OCCUPE DÉSORMAIS LE SOMMET DE BRETTON WOODS**, ce que L1.C21
+suggérait déjà en mentionnant un contrôle des capitaux — **et la contradiction
+interne du corpus est levée** : L1.C21 disait le contrôle, la source du livre
+revendiquait la libre circulation, **c'est le contrôle qui l'emporte.**
+
+### 2. CE QUE LA DÉCISION NE FERME PAS, ET IL FAUT LE DIRE AUSSI FORT
+
+**LES PAIEMENTS INTERNATIONAUX NE SONT PAS FERMÉS.** Restent exécutables : le
+commerce de biens et de services, les revenus, les transferts familiaux, le
+règlement des engagements. **Les investissements directs productifs peuvent
+rester autorisés**, sous conditions de transparence, de durée et de traçabilité.
+
+**CE QUI EST ENCADRÉ EST NOMMÉ** : flux financiers de portefeuille, mouvements
+spéculatifs de court terme, crédit international à effet de levier, dérivés, et
+canaux de contournement. **Les instruments le sont aussi** : autorisation,
+plafonds, réserves obligatoires, délais de détention, prélèvements variables.
+**Et les mesures temporaires peuvent porter SYMÉTRIQUEMENT sur les entrées et
+sur les sorties** — la symétrie n'est pas un détail, c'est ce qui distingue un
+régime d'un contrôle de sortie de crise.
+
+### 3. LA FORMULATION PUBLIQUE, ARRÊTÉE PAR L'AUTEUR
+
+> « **NEMO IMS garantit la continuité des paiements courants légitimes et soumet
+> les mouvements de capitaux à des règles communes, transparentes,
+> proportionnées et révisables afin de préserver la stabilité monétaire et
+> l'autonomie des collectivités.** »
+
+### 4. CE QUE CET ARBITRAGE COÛTE
+
+**LA LIGNE ENTRE PAIEMENT COURANT ET MOUVEMENT DE CAPITAL EST UN OBJET DE DROIT
+ET DE PRATIQUE, NON UNE ÉVIDENCE.** C'est elle qui décide de tout, et **c'est
+exactement là que se loge le contournement** : une avance commerciale est un
+paiement courant, un paiement courant surfacturé est une sortie de capital.
+**Rien de cela n'est conçu.**
+
+**PIÈCE OUVERTE LE MÊME JOUR — `CONTROLE-DES-CAPITAUX`.** À concevoir : la ligne
+entre paiements courants et compte de capital ; le régime des investissements
+directs ; **les règles anti-contournement** ; l'autorité compétente ; **les voies
+de recours** ; et les mesures de crise. **Le principe est tranché, aucune
+modalité ne l'est.**
+
+**ET L'ARBITRAGE NE TOUCHE PAS AU § 5 DE L1.C26.** **Les déséquilibres
+commerciaux restent entiers** : le solde continue de se déverser intégralement
+sur la masse monétaire interne, sans réserves et sans taux de change pour
+l'absorber. **Fermer le compte de capital ne corrige pas le compte courant** —
+c'est P50, et elle demande toujours son chiffrage.
+
+### 5. CE QUE LE CORPUS DOIT MAINTENANT PORTER SANS L'ADOUCIR
+
+**UN CONTRÔLE DES CAPITAUX EST UNE CONTRAINTE SUR LES PERSONNES, PAS SEULEMENT
+SUR LES FLUX.** Il suppose une autorité qui autorise, donc qui refuse ; une
+traçabilité, donc une collecte ; des recours, donc des litiges. **La formulation
+publique retient « proportionnées et révisables », et ces deux mots sont des
+engagements, non des ornements** : ils appellent une procédure et un juge.
+
+**Les oppositions nommées le 2026-09-09 s'appliquent ici en premier** : les
+défenseurs des libertés publiques si le système exige une traçabilité excessive,
+et les pays du Sud si le régime est défini par les pays riches. **Un contrôle des
+capitaux mal conçu reproduit exactement l'asymétrie que le dispositif prétend
+corriger.**
