@@ -31,8 +31,11 @@ CE QUE CE PROGRAMME CALCULE, ET CE QU'IL NE FAIT QUE PROPOSER.
        qu'il calcule dépend entièrement de paramètres déclarés et non calibrés :
        montant émis, montant dépensé, taux des deux mécanismes de reflux,
        volume de l'échange volontaire, devises détenues par les autres
-       participants, et facteur du plafond de désignation — ce dernier NON
-       SOURCÉ. Changer un seul de ces repères change le résultat. **R2 ne dit
+       participants, et facteur du plafond de désignation. Ce dernier est
+       JURIDIQUEMENT SOURCÉ pour le dispositif des droits de tirage spéciaux
+       (art. XIX § 4(a)) ; **sa transposition à NEMO IMS reste un choix de
+       conception non arbitré**, et les autres repères ne sont calibrés sur
+       rien. Changer un seul de ces repères change le résultat. **R2 ne dit
        donc pas si le dispositif serait liquide : il dit ce qui suit des
        paramètres qu'on lui a donnés.** Pour un instrument servi par d'autres
        participants, trois scénarios SÉPARÉS : fonctionnement normal, capacité

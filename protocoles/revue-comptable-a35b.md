@@ -93,13 +93,23 @@ traitement suppose-t-il des éléments que notre modèle omet ?**
 - **Aucune obligation modélisée n'existe dans un texte de droit.** Ni
   l'obligation d'acceptation, ni l'engagement de conversion, ni le régime des
   contributions réglables en unités.
-- **Le plafond de désignation est sourcé depuis le 2026-09-09** — article XIX
-  § 4(a) des Statuts du Fonds, lu dans le texte. **Sa lecture a corrigé une
-  erreur du modèle** : c'est l'excédent sur l'allocation qui est borné à deux
-  allocations, de sorte que le plafond total des avoirs vaut trois allocations.
-  **Ce qui reste hors des Statuts, ce sont les accords d'échange volontaire**,
-  dont dépend la liquidité en régime ordinaire, et dont nous ne tenons ni la
-  liste ni les montants.
+- **Le plafond de désignation est sourcé** — article XIX § 4(a) des Statuts du
+  Fonds, lu dans le texte le 2026-09-09. Sa lecture a corrigé une erreur du
+  modèle : c'est l'excédent sur l'allocation qui est borné à deux allocations,
+  de sorte que le plafond total des avoirs vaut trois allocations. **Mais le
+  facteur n'est sourcé que POUR LE DISPOSITIF DES DROITS DE TIRAGE SPÉCIAUX : sa
+  transposition à un dispositif nouveau reste un choix de conception, et il
+  n'est pas arbitré.**
+- **Les accords d'échange volontaire sont documentés en agrégé** — quarante et
+  un accords, capacités d'achat et de vente d'environ 202 et 170 milliards de
+  droits de tirage spéciaux au 31 août 2025, et une désignation qui n'a plus été
+  activée depuis 1987. **Ce que nous n'avons pas, ce sont les modalités
+  contractuelles individuelles** : fourchette par participant, clauses de
+  sortie, conditions de révocation.
+- **Et cela porte sur votre jugement** : la liquidité observée d'un instrument
+  de ce type repose sur des accords **révocables**, non sur l'obligation
+  statutaire que nous modélisons. **Est-ce une raison de traiter la capacité de
+  désignation comme un plancher, ou au contraire de ne pas s'y fier ?**
 - **Aucun comportement économique.** Le modèle **impose par paramètre** qui est
   redevable, puis retrouve ce qu'il a imposé. **Il n'établit donc aucune
   incidence économique**, et rien de ce qu'il affiche ne doit être lu comme telle.

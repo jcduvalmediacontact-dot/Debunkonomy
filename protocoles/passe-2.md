@@ -5471,11 +5471,32 @@ façon, et le test ne contrôlait que ce minimum. **Le calcul est désormais une
 fonction pure, éprouvée hors de tout scénario.** **Leçon de méthode : un test qui
 ne regarde que le résultat composé ne voit pas l'erreur de l'un de ses facteurs.**
 
+### LES ACCORDS VOLONTAIRES ONT ÉTÉ OUVERTS À LEUR TOUR, ET ILS DÉPLACENT LE RÉSULTAT
+
+**Même chemin, même succès** : l'`Annual Update on SDR Trading Operations`, Policy
+Papers 2025/032, renvoie 403 sur `imf.org` et s'ouvre en clair sur l'eLibrary.
+**Lu dans le texte le 2026-09-09.**
+
+**QUARANTE ET UN ACCORDS VOLONTAIRES**, tous employés depuis l'allocation
+générale de 2021. Capacités agrégées au 31 août 2025 : « *about SDR 202 billion
+and SDR 170 billion, respectively* » à l'achat et à la vente. **Et sur le
+mécanisme que le modèle plafonne** : « *these plans have not been activated and
+remained precautionary SINCE 1987* ».
+
+**CE QUE CELA CHANGE POUR LA LECTURE DES TROIS SCÉNARIOS.** La désignation est un
+**dernier ressort dormant depuis près de quarante ans**. Ce qui sert la liquidité
+en régime ordinaire, ce sont des **accords révocables**, non une obligation.
+**Le premier scénario — le fonctionnement normal — est donc le seul qui décrive
+l'observé**, et il fait dépendre la liquidité d'un comportement, non d'un droit.
+**Cela sort du périmètre d'une matrice comptable, et il faut le dire plutôt que
+de le modéliser.**
+
 ### CE QUI RESTE NON SOURCÉ, ET DOIT LE RESTER
 
-**Les accords d'échange volontaire.** Ce sont eux qui servent la liquidité en
-régime ordinaire, la désignation n'étant qu'un dernier ressort ; ils ne figurent
-pas aux Statuts, et le corpus n'en tient ni la liste ni les montants.
+**Les modalités contractuelles individuelles des accords** — fourchette par
+participant, clauses de sortie, conditions de révocation. Les données publiques
+agrégées existent ; ces clauses-là peuvent ne pas être publiques, et le corpus ne
+les tient pas.
 
 **Les passifs constructifs du § 4.102** ne sont pas représentés : le modèle exige
 un instrument explicite, ce qui peut le rendre **plus sévère que la norme**.

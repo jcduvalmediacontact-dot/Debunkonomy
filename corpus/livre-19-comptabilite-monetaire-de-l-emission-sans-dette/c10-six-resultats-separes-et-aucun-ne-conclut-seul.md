@@ -19,6 +19,10 @@ sources_primaires:
     nature: normatif
     reference: "**Fonds monétaire international, *Statuts*, article XIX, sections 4 et 5.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-09 — `elibrary.imf.org/display/book/9781513521244/ch19.xml`, texte en vigueur, **lu dans le texte** ; l'édition `9781557752765` a été téléchargée en regard et porte la même rédaction. **§ 4(a)** : « *A participant's obligation to provide currency shall not extend beyond the point at which its holdings of special drawing rights IN EXCESS OF its net cumulative allocation are equal to TWICE its net cumulative allocation or such higher limit as may be agreed between a participant and the Fund* ». **§ 4(b)** : « *A participant MAY provide currency in excess of the obligatory limit or any agreed higher limit* ». **§ 5(a)** : la désignation vise les participants dont « *balance of payments and gross reserve position is sufficiently strong* ». Régime `a_verifier`."
     date_verification: 2026-09-09
+  - ref: S3
+    nature: donnees
+    reference: "**Fonds monétaire international, *Annual Update on SDR Trading Operations*, Policy Papers, volume 2025, numéro 032.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-09 — `elibrary.imf.org/view/journals/007/2025/032/article-A001-en.xml`, **lu dans le texte** ; l'adresse `imf.org` du même document renvoie 403. **Quarante et un accords volontaires**, tous employés depuis l'allocation générale de 2021. « *The aggregate purchasing and selling capacities at end August 2025 remained ample at about SDR 202 billion and SDR 170 billion, respectively* ». Et sur la désignation : « *the Articles of Agreement provide for a designation mechanism, which guarantees the liquidity of the SDR [...] The IMF prepares a Designation Plan annually, which can be activated in such circumstances; however, THESE PLANS HAVE NOT BEEN ACTIVATED AND REMAINED PRECAUTIONARY SINCE 1987* ». Données arrêtées au 31 août 2025. Régime `a_verifier`."
+    date_verification: 2026-09-09
 verifications_en_attente:
   - "**LA QUALIFICATION N'EST PAS ÉTABLIE, ELLE EST PROPOSÉE, ET LA REVUE
      HUMAINE EST LE PROCHAIN JALON.** Le programme constate que quatre éléments
@@ -35,28 +39,32 @@ verifications_en_attente:
      légitime de paiement [S1, § 4.102]. **Le modèle exige un instrument
      explicite et ignore cette voie**, ce qui peut le rendre plus sévère que la
      norme. **Question posée dans la note de revue.**"
-  - "**LE PLAFOND EST DÉSORMAIS SOURCÉ ; LES ACCORDS VOLONTAIRES NE LE SONT
-     PAS.** L'article XIX § 4(a) a été ouvert et lu le 2026-09-09 [S2], et il a
-     révélé une erreur du modèle : c'est L'EXCÉDENT sur l'allocation qui est
-     borné à deux allocations, de sorte que le plafond total des avoirs vaut
-     TROIS allocations. **Ce qui reste hors des Statuts, ce sont les ACCORDS
-     D'ÉCHANGE VOLONTAIRE** — dispositifs opérationnels, leurs volumes et leur
-     caractère révocable — **et ce sont eux qui servent la liquidité en régime
-     ordinaire**, la désignation n'étant qu'un dernier ressort. **Acquisition à
-     faire : la liste et les montants des accords en vigueur.**"
+  - "**CE QUI RESTE DÛ SUR LES ACCORDS VOLONTAIRES EST ÉTROIT, ET IL FAUT LE
+     DIRE PRÉCISÉMENT.** Les DONNÉES PUBLIQUES AGRÉGÉES sont ouvertes et lues
+     [S3] : nombre d'accords, capacités d'achat et de vente, fourchettes de
+     négociation, répartition régionale, et le fait que la désignation n'a plus
+     été activée depuis 1987. **Ce qui peut ne pas être public, ce sont les
+     MODALITÉS CONTRACTUELLES INDIVIDUELLES et certaines limites propres à
+     chaque accord** — fourchette par participant, clauses de sortie,
+     conditions de révocation. **Le corpus ne les tient pas, et une matrice qui
+     modéliserait finement le marché des échanges en aurait besoin.**"
   - "**LA MATRICE N'A NI INTÉRÊT NI HORIZON, ET LA NORME FONDE LE PASSIF SUR LES
      DEUX.** Le § 12.49 [S1] motive le passif d'allocation par une obligation de
      remboursement **ET** par le fait qu'un intérêt court. **Un modèle qui ne
      porte ni l'un ni l'autre ne peut éprouver ni ce motif ni la solvabilité
      intertemporelle**, et c'est pourquoi le quatrième résultat est déclaré non
      évaluable plutôt que calculé."
-  - "**R2 EST CALCULÉ, MAIS IL N'EST PAS CALIBRÉ, ET LES DEUX NE SE
-     CONFONDENT PAS.** Montant émis, montant dépensé, taux du prélèvement et du
-     démurrage, volume de l'échange volontaire, devises détenues par les autres
-     participants, facteur du plafond de désignation : **aucun de ces repères ne
-     provient d'une source.** **Changer un seul change le résultat de liquidité**,
-     et il ne faut donc jamais citer un chiffre de R2 sans les paramètres qui
-     l'ont produit."
+  - "**R2 EST CALCULÉ, MAIS IL N'EST PAS CALIBRÉ, ET IL FAUT DISTINGUER TROIS
+     CHOSES QUE LA VERSION PRÉCÉDENTE CONFONDAIT.** **(1) Le facteur du plafond
+     de désignation est JURIDIQUEMENT SOURCÉ** pour le dispositif des droits de
+     tirage spéciaux : article XIX § 4(a) des Statuts [S2]. **(2) Sa
+     TRANSPOSITION à NEMO IMS reste un CHOIX DE CONCEPTION non arbitré** — rien
+     n'oblige un dispositif nouveau à retenir le même facteur, et l'arbitrage
+     n'est pas fait. **(3) Les autres repères — montant émis, montant dépensé,
+     taux du prélèvement et du démurrage, volume de l'échange volontaire,
+     devises détenues par les autres participants — ne sont calibrés sur
+     rien.** **Changer un seul change le résultat de liquidité**, et il ne faut
+     donc jamais citer un chiffre de R2 sans les paramètres qui l'ont produit."
   - "**LES QUATORZE BRANCHES NE SONT PAS L'ESPACE DES BRANCHES POSSIBLES.**
      **Une branche qui n'est pas écrite n'est pas rejetée : elle est absente.**
      Le résultat est conditionnel à l'énumération et aux règles retenues, et il
@@ -128,6 +136,10 @@ renvois: [L1.C31, L10.C06, L19.C01, L19.C02, L19.C04, L19.C05, L19.C06, L19.C08,
 ::norme:: **ET LA FORMULE ÉTAIT FAUSSE, JUSQU'À CE QUE LE TEXTE SOIT OUVERT.** « *A participant's obligation to provide currency shall not extend beyond the point at which its holdings of special drawing rights IN EXCESS OF its net cumulative allocation are equal to TWICE its net cumulative allocation* » [S2, § 4(a)]. **C'est l'EXCÉDENT qui est borné à deux allocations, non les avoirs totaux : le plafond total vaut TROIS allocations.** Le modèle écrivait « deux allocations moins les avoirs » et **sous-estimait la capacité d'une allocation entière** — cent quarante au lieu de quarante, sur les paramètres retenus. **Et le § 4(b) ajoute qu'un participant PEUT fournir au-delà : la limite borne l'obligation, jamais la possibilité.**
 
 ::etat:: **L'ERREUR ÉTAIT MASQUÉE PAR LE SCÉNARIO, ET C'EST LA LEÇON DE MÉTHODE.** Les devises disponibles étant nulles à cette étape, la capacité effective valait zéro dans les deux cas, et le test ne vérifiait que ce minimum. **Le calcul du plafond est désormais une fonction pure, éprouvée hors de tout scénario** : avoirs égaux à l'allocation, la capacité vaut deux allocations ; avoirs égaux à trois allocations, elle est nulle.
+
+::etat:: **ET LE RAPPORT ANNUEL DU FONDS DÉPLACE LE POIDS DES TROIS SCÉNARIOS** [S3]. La désignation — le mécanisme statutaire dont ce chapitre modélise le plafond — **n'a plus été activée depuis 1987 et demeure précautionnelle**. Ce qui sert la liquidité en régime ordinaire, ce sont **quarante et un accords volontaires**, dont les capacités agrégées atteignaient au 31 août 2025 **environ deux cent deux milliards de droits de tirage spéciaux à l'achat et cent soixante-dix à la vente**.
+
+::etat:: **CELA NE RETIRE RIEN AU PLAFOND ; CELA DIT OÙ IL AGIT.** **Le premier scénario n'est donc pas le moins important : c'est le seul qui décrive le fonctionnement observé.** **Et il repose sur des accords RÉVOCABLES, non sur une obligation** — ce qui déplace la question de la liquidité du droit vers le comportement des participants, et la fait sortir du périmètre d'une matrice comptable.
 
 ::etat:: **LE RÉSULTAT DE CE DÉCOUPAGE EST INSTRUCTIF.** En fonctionnement normal, la demande courante est servie. **Ce qui borne ensuite n'est pas la règle mais la ressource** : l'échange volontaire a déjà déplacé les devises vers le demandeur, et la capacité effective — le minimum du plafond de règle et des devises encore détenues — tombe à zéro alors que la règle en autoriserait davantage. **La contrainte effective est le stock de devises des autres participants, non le plafond.**
 
