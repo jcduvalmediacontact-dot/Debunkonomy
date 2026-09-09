@@ -19,3 +19,7 @@ Sauvegarde*/
 
 # verrous LibreOffice
 .~lock.*#
+
+# Caches Python des pieces executables de modeles/
+__pycache__/
+*.pyc
