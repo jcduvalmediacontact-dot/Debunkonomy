@@ -1,41 +1,45 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-A47 — DÉCIDER SOUS INCERTITUDE. Doctrine de précaution proportionnée.
-Proposée par l'auteur le 2026-09-09, mise à l'épreuve ici.
+A47 — DÉCIDER SOUS INCERTITUDE. VERSION 2, VALIDÉE PAR L'AUTEUR LE 2026-09-09.
 
-CE QUE FAIT CE PROGRAMME : il applique la doctrine en neuf points à des
-dossiers fictifs, et cherche où elle décide, où elle ne décide pas, et où le
-résultat dépend de quelque chose qu'elle ne règle pas.
+CE QUE LA VERSION 2 CHANGE, ET C'EST UNE RÉPONSE AU PREMIER TROU. La version 1
+répartissait la charge de la preuve après une qualification dont elle ne disait
+ni l'auteur ni la procédure. LA VERSION 2 LE DIT :
 
-CE QU'IL NE FAIT PAS : fixer un seuil. La doctrine n'en arrête aucun — c'est
-son propos — et le corpus n'en inventera pas.
+  — les SEUILS NORMATIFS sont fixés À L'AVANCE par l'AUTORITÉ DÉMOCRATIQUE,
+    APRÈS EXPERTISE PLURALISTE ;
+  — la QUALIFICATION est MOTIVÉE SELON CETTE GRILLE GÉNÉRALE.
 
-LES NEUF POINTS, DANS LES TERMES DE L'AUTEUR
+La qualification cesse donc d'être un jugement libre : elle applique une grille
+publiée d'avance, et elle se motive. Le pouvoir de fixer la grille et celui de
+l'appliquer sont séparés, conformément à A46.
 
-  1. Toute décision distingue GRAVITÉ, ÉTENDUE, RÉVERSIBILITÉ et URGENCE.
-  2. L'incertitude ne produit automatiquement ni autorisation ni refus.
-  3. Risque plausible de dommage GRAVE ET IRRÉVERSIBLE : le PORTEUR doit
-     établir une compatibilité suffisante.
-  4. Risque LIMITÉ ET RÉVERSIBLE : autorisation par tranches et sous
-     surveillance possible ; l'AUTORITÉ doit motiver tout refus.
-  5. BESOIN ESSENTIEL URGENT : la solution réalisable la moins risquée, en
-     quantité minimale, avec réexamen rapide.
-  6. RESSOURCES RARES : arbitrage au niveau du portefeuille des usages
-     concurrents.
-  7. Données, méthodes, incertitudes, seuils normatifs et AVIS MINORITAIRES
-     sont publics.
-  8. Le RECOURS repose sur des examinateurs et des canaux de mesure
-     indépendants, qui conservent leurs propres marges d'erreur.
-  9. Les seuils propres à chaque domaine sont fixés AVANT l'examen des
-     dossiers, publiés et périodiquement révisés.
+LA DOCTRINE ADOPTÉE, DANS LES TERMES DE L'AUTEUR
 
-CE QUE LE PROGRAMME TROUVE, ET DEUX DE SES QUATRE RÉSULTATS SONT DÉFAVORABLES.
-La doctrine tient sur les points 6, 7, 8 et 9 — le point 9 mord, et le
-programme le montre. Elle laisse en revanche deux trous : la QUALIFICATION du
-risque, qui décide de tout et dont elle ne dit pas qui l'opère ; et la ZONE
-INTERMÉDIAIRE entre ses points 3 et 4, où la charge de la preuve n'est
-attribuée à personne.
+  1. Évaluation SÉPARÉE de la gravité, de l'étendue, de la PLAUSIBILITÉ, de la
+     réversibilité et des INCERTITUDES.
+  2. Seuils normatifs fixés à l'avance par l'autorité démocratique après
+     expertise pluraliste.
+  3. Qualification MOTIVÉE selon cette grille générale.
+  4. Charge de la preuve ADAPTÉE À LA NATURE DU RISQUE.
+  5. Autorisation PROGRESSIVE pour les risques limités et réversibles.
+  6. PROTECTION PARTICULIÈRE des besoins essentiels urgents.
+  7. Arbitrage AU NIVEAU DU PORTEFEUILLE pour les ressources rares.
+  8. Procédure PUBLIQUE pour la révision des seuils.
+  9. Recours mobilisant des examinateurs et des CANAUX DE MESURE INDÉPENDANTS.
+
+RESTENT OUVERTS, ET L'AUTEUR LES NOMME : les seuils numériques, LES HORIZONS
+SECTORIELS et leurs méthodes de calibration.
+
+CE QUE CE PROGRAMME MESURE. Jusqu'où la grille détermine effectivement la
+qualification — et ce qui se passe là où elle se tait. DEUX RÉSULTATS
+DÉFAVORABLES SUBSISTENT, et ils sont chiffrés : la grille ne couvre que deux
+domaines sur six, et l'incertitude est évaluée sans qu'aucune règle ne dise ce
+qu'elle emporte.
+
+AUCUN SEUIL N'EST CALIBRÉ. Les dossiers sont fictifs, et un programme qui
+applique une règle ne la valide jamais.
 
 USAGE :  python modeles/nemo_a47.py
 """
@@ -49,82 +53,170 @@ SEUILS_CALIBRES = False
 
 
 # =====================================================================
-# POINT 1 — LES QUATRE DIMENSIONS, ET ELLES NE SE MÉLANGENT PAS
+# POINT 1 — CINQ DIMENSIONS ÉVALUÉES SÉPARÉMENT
 # =====================================================================
+DIMENSIONS = ("gravite", "etendue", "plausibilite", "reversibilite",
+              "incertitude")
+
+
 class Dossier(object):
-    def __init__(self, cle, libelle, gravite, etendue, reversible,
-                 plausibilite, urgence=False, essentiel=False):
+    """LA RÉVERSIBILITÉ N'EST PAS UN BOOLÉEN : elle dépend de l'horizon, et
+    l'horizon est un choix normatif que la grille doit fixer."""
+
+    def __init__(self, cle, libelle, domaine, gravite, etendue, plausibilite,
+                 reversible_sur, incertitude, urgence=False, essentiel=False):
         self.cle = cle
         self.libelle = libelle
-        self.gravite = gravite          # 0 à 3
-        self.etendue = etendue          # 0 à 3
-        self.reversible = reversible    # déclaré, et c'est tout le problème
-        self.plausibilite = plausibilite
+        self.domaine = domaine
+        self.gravite = gravite            # 0 à 3
+        self.etendue = etendue            # 0 à 3
+        self.plausibilite = plausibilite  # 0 à 1 : le dommage est-il probable
+        self.reversible_sur = dict(reversible_sur)   # horizon → booléen
+        self.incertitude = incertitude    # 0 à 1 : que sait-on, au juste
         self.urgence = urgence
         self.essentiel = essentiel
 
 
+HORIZONS = ("cinquante ans", "échelle humaine")
+
 DOSSIERS = [
-    Dossier("renovation", "Rénovation thermique", 1, 1, True, 0.20),
-    Dossier("stockage-geo", "Stockage géologique de CO2", 2, 2, False, 0.50),
-    Dossier("barrage", "Grand barrage en zone habitée", 3, 3, False, 0.70),
-    Dossier("pesticide", "Pesticide à large spectre", 2, 3, True, 0.60),
-    Dossier("mine-lithium", "Mine de lithium", 2, 1, False, 0.30),
-    Dossier("medicament", "Traitement essentiel en épidémie", 3, 0, False,
-            0.55, urgence=True, essentiel=True),
+    Dossier("renovation", "Rénovation thermique", "batiment", 1, 1, 0.20,
+            {"cinquante ans": True, "échelle humaine": True}, 0.20),
+    Dossier("stockage-geo", "Stockage géologique de CO2", "energie", 2, 2,
+            0.50, {"cinquante ans": True, "échelle humaine": False}, 0.60),
+    Dossier("barrage", "Grand barrage en zone habitée", "eau", 3, 3, 0.70,
+            {"cinquante ans": False, "échelle humaine": False}, 0.30),
+    Dossier("pesticide", "Pesticide à large spectre", "agriculture", 2, 3,
+            0.60, {"cinquante ans": True, "échelle humaine": True}, 0.50),
+    Dossier("mine-lithium", "Mine de lithium", "mines", 2, 1, 0.30,
+            {"cinquante ans": False, "échelle humaine": False}, 0.40),
+    Dossier("medicament", "Traitement essentiel en épidémie", "sante", 3, 0,
+            0.55, {"cinquante ans": False, "échelle humaine": False}, 0.80,
+            urgence=True, essentiel=True),
 ]
 
-SEUIL_PLAUSIBILITE = 0.50   # NON CALIBRÉ. Publié d'avance — point 9.
-GRAVITE_SERIEUSE = 2
-ETENDUE_LIMITEE = 2
-
 
 # =====================================================================
-# POINTS 3, 4 ET 5 — LE RÉGIME, ET LA CHARGE DE LA PREUVE
+# POINTS 2 ET 3 — LA GRILLE, FIXÉE D'AVANCE, ET LA QUALIFICATION MOTIVÉE
 # =====================================================================
+GRILLE = {
+    "fixee_par": "instance-democratique",
+    "apres": "expertise pluraliste",
+    "publiee": "avant l'examen des dossiers",
+    "seuil_plausibilite": 0.50,
+    "gravite_serieuse": 2,
+    "etendue_limitee": 2,
+    # LES HORIZONS SECTORIELS — pièce de conception OUVERTE, et la grille de
+    # référence n'en couvre que deux. C'est délibéré : le programme mesure ce
+    # que coûte une grille incomplète.
+    "horizons": {"energie": "échelle humaine",
+                 "agriculture": "cinquante ans"},
+    # CE QUE L'INCERTITUDE EMPORTE — non fixé. La doctrine l'évalue et la
+    # publie ; elle ne dit pas ce qu'on en fait.
+    "usage_des_incertitudes": None,
+}
+
+def grille_complete(horizon="échelle humaine"):
+    """La même grille, mais dont les horizons couvrent TOUS les domaines.
+
+    SANS CETTE COMPARAISON, le programme imputerait à la doctrine ce qui vient
+    du scénario : la grille de référence est délibérément incomplète, et son
+    incomplétude est un PARAMÈTRE, non un résultat.
+    """
+    g = dict(GRILLE)
+    g["horizons"] = dict((d.domaine, horizon) for d in DOSSIERS)
+    return g
+
+
 REGIMES = {
     "grave_irreversible": ("porteur",
                            "établir une compatibilité suffisante"),
     "limite_reversible": ("autorité",
-                          "motiver tout refus ; tranches et surveillance"),
+                          "motiver tout refus ; autorisation progressive"),
     "urgence_essentielle": ("décision provisoire",
-                            "solution réalisable la moins risquée, quantité "
-                            "minimale, réexamen rapide"),
-    "intermediaire": (None, None),
+                            "protection particulière : solution la moins "
+                            "risquée, quantité minimale, réexamen rapide"),
+    "non_determine": (None, "la grille ne détermine pas ce dossier"),
 }
 
 
-def regime(d, seuil=None):
-    """Rend la clé de régime. LE POINT 5 PREND LE PAS quand il s'applique —
-    mais le programme relève plus bas que la doctrine ne le dit nulle part."""
-    seuil = SEUIL_PLAUSIBILITE if seuil is None else seuil
+def qualifier(d, grille=None):
+    """Rend (regime, motivation, anomalies). LA QUALIFICATION APPLIQUE LA
+    GRILLE ET SE MOTIVE — elle ne juge pas librement."""
+    g = GRILLE if grille is None else grille
+    anomalies = []
+
     if d.urgence and d.essentiel:
-        return "urgence_essentielle"
-    if (d.plausibilite >= seuil and d.gravite >= GRAVITE_SERIEUSE
-            and not d.reversible):
-        return "grave_irreversible"
-    if (d.reversible and d.gravite <= GRAVITE_SERIEUSE
-            and d.etendue <= ETENDUE_LIMITEE):
-        return "limite_reversible"
-    return "intermediaire"
+        return ("urgence_essentielle",
+                "besoin essentiel urgent — protection particulière",
+                anomalies)
+
+    horizon = g["horizons"].get(d.domaine)
+    if horizon is None:
+        anomalies.append(
+            "[Q2] %s : la grille ne fixe aucun HORIZON pour le domaine « %s » "
+            "— la réversibilité n'est pas déterminée (%s)"
+            % (d.cle, d.domaine,
+               " / ".join("%s : %s" % (h, "réversible" if v else "irréversible")
+                          for h, v in sorted(d.reversible_sur.items()))))
+        return ("non_determine", "horizon sectoriel non fixé", anomalies)
+
+    reversible = d.reversible_sur[horizon]
+    if (d.plausibilite >= g["seuil_plausibilite"]
+            and d.gravite >= g["gravite_serieuse"] and not reversible):
+        return ("grave_irreversible",
+                "plausibilité %.2f ≥ %.2f, gravité %d ≥ %d, irréversible à "
+                "l'horizon « %s »" % (d.plausibilite, g["seuil_plausibilite"],
+                                      d.gravite, g["gravite_serieuse"],
+                                      horizon),
+                anomalies)
+    if (reversible and d.gravite <= g["gravite_serieuse"]
+            and d.etendue <= g["etendue_limitee"]):
+        return ("limite_reversible",
+                "réversible à l'horizon « %s », gravité %d ≤ %d, étendue %d ≤ "
+                "%d" % (horizon, d.gravite, g["gravite_serieuse"], d.etendue,
+                        g["etendue_limitee"]),
+                anomalies)
+    return ("non_determine",
+            "hors des deux pôles : gravité %d, étendue %d, %s à l'horizon "
+            "« %s », plausibilité %.2f"
+            % (d.gravite, d.etendue,
+               "réversible" if reversible else "irréversible", horizon,
+               d.plausibilite),
+            anomalies)
 
 
-def point_3_applique(d, seuil=None):
-    seuil = SEUIL_PLAUSIBILITE if seuil is None else seuil
-    return (d.plausibilite >= seuil and d.gravite >= GRAVITE_SERIEUSE
-            and not d.reversible)
+def controler_grille(grille=None):
+    """Q1, Q3, Q4 — ce que la grille doit dire, et ce qu'elle ne dit pas."""
+    g = GRILLE if grille is None else grille
+    anomalies = []
+    if g.get("publiee") != "avant l'examen des dossiers":
+        anomalies.append("[Q1] la grille n'est pas publiée avant l'examen")
+    if g.get("usage_des_incertitudes") is None:
+        anomalies.append(
+            "[Q3] l'INCERTITUDE est évaluée et publiée, mais aucune règle ne "
+            "dit ce qu'elle emporte")
+    if g.get("fixee_par") == "autorite-de-qualification":
+        anomalies.append(
+            "[Q4] la grille est fixée par l'autorité qui l'applique — A46")
+    manquants = [d.domaine for d in DOSSIERS
+                 if d.domaine not in g.get("horizons", {})]
+    if manquants:
+        anomalies.append(
+            "[Q2] aucun horizon sectoriel pour %d domaine(s) sur %d : %s"
+            % (len(set(manquants)), len(set(d.domaine for d in DOSSIERS)),
+               ", ".join(sorted(set(manquants)))))
+    return anomalies
 
 
 # =====================================================================
-# POINT 7 — CE QUE TOUTE DÉCISION DOIT PUBLIER
+# POINT 8 — CE QUE TOUTE DÉCISION PUBLIE
 # =====================================================================
 PUBLICATION = ("donnees", "methodes", "incertitudes", "seuil_normatif",
                "avis_minoritaires")
 
 
 def controler_publication(decision):
-    """P1 — la publicité n'est pas un supplément : sans elle, ni le recours du
-    point 8 ni la révision du point 9 ne sont exerçables."""
     return ["[P1] %s : « %s » n'est pas publié" % (decision.get("cle"), champ)
             for champ in PUBLICATION if not decision.get(champ)]
 
@@ -137,248 +229,299 @@ def titre(libelle):
     print("=" * 78)
 
 
-# =====================================================================
-def tableau():
-    titre("LA DOCTRINE APPLIQUÉE — POINTS 1, 3, 4 ET 5")
-    print("  Seuil de plausibilité PUBLIÉ D'AVANCE : %.2f. Non calibré."
-          % SEUIL_PLAUSIBILITE)
+def la_grille():
+    titre("POINTS 2 ET 3 — LA GRILLE FIXÉE D'AVANCE, ET CE QU'ELLE COUVRE")
+    print("  fixée par        %s" % GRILLE["fixee_par"])
+    print("  après            %s" % GRILLE["apres"])
+    print("  publiée          %s" % GRILLE["publiee"])
+    print("  seuils           plausibilité %.2f, gravité sérieuse %d, "
+          "étendue limitée %d"
+          % (GRILLE["seuil_plausibilite"], GRILLE["gravite_serieuse"],
+             GRILLE["etendue_limitee"]))
+    print("  horizons         %s"
+          % ", ".join("%s : %s" % (k, v)
+                      for k, v in sorted(GRILLE["horizons"].items())))
     print("")
-    print("  %-14s %3s %3s %6s %6s  %-22s %s"
-          % ("dossier", "gra", "éte", "révers", "plaus", "régime", "charge"))
-    compte = {}
+    print("  CE QUE LA VERSION 2 RÈGLE, ET C'ÉTAIT LE PREMIER TROU. La")
+    print("  qualification n'est plus un jugement libre : elle APPLIQUE une")
+    print("  grille PUBLIÉE D'AVANCE, fixée par l'autorité démocratique après")
+    print("  expertise pluraliste, et elle SE MOTIVE. Le pouvoir de fixer la")
+    print("  grille et celui de l'appliquer sont séparés — c'est A46.")
+    print("")
+    anomalies = controler_grille()
+    for a in anomalies:
+        print("    %s" % a)
+    return anomalies
+
+
+def application():
+    titre("LA GRILLE APPLIQUÉE — ET CE QU'ELLE DÉTERMINE VRAIMENT")
+    print("  %-14s %-12s %3s %3s %5s %5s  %-20s %s"
+          % ("dossier", "domaine", "gra", "éte", "plaus", "incer", "régime",
+             "charge"))
+    regimes, motivations, alertes = {}, {}, []
     for d in DOSSIERS:
-        r = regime(d)
-        charge = REGIMES[r][0] or "NON ATTRIBUÉE"
-        compte[r] = compte.get(r, 0) + 1
-        print("  %-14s %3d %3d %6s %6.2f  %-22s %s"
-              % (d.cle, d.gravite, d.etendue,
-                 "oui" if d.reversible else "non", d.plausibilite, r, charge))
+        r, motif, anomalies = qualifier(d)
+        regimes[d.cle] = r
+        motivations[d.cle] = motif
+        alertes += anomalies
+        print("  %-14s %-12s %3d %3d %5.2f %5.2f  %-20s %s"
+              % (d.cle, d.domaine, d.gravite, d.etendue, d.plausibilite,
+                 d.incertitude, r, REGIMES[r][0] or "—"))
     print("")
-    print("  LE POINT 2 EST TENU, ET C'EST DÉJÀ QUELQUE CHOSE. L'incertitude")
-    print("  ne produit ici ni autorisation ni refus automatiques : elle")
-    print("  DÉPLACE LA CHARGE DE LA PREUVE. C'est une règle de procédure, et")
-    print("  c'est ce qui la rend applicable sans seuil numérique.")
-    return compte
+    print("  ET CHAQUE QUALIFICATION EST MOTIVÉE — point 3 :")
+    for cle in ("stockage-geo", "pesticide", "barrage"):
+        print("    %-14s %s" % (cle, motivations[cle]))
+    determines = len([r for r in regimes.values() if r != "non_determine"])
+    print("")
+    print("  DÉTERMINÉS PAR LA GRILLE : %d dossiers sur %d."
+          % (determines, len(DOSSIERS)))
+    return regimes, motivations, alertes
 
 
-def trou_de_la_qualification():
-    titre("PREMIER TROU — LA QUALIFICATION DÉCIDE, ET NUL NE SAIT QUI LA FAIT")
+def ce_que_l_horizon_decide():
+    titre("CE QUI RESTE — L'HORIZON SECTORIEL DÉCIDE, ET LA GRILLE SE TAIT")
     d = [x for x in DOSSIERS if x.cle == "stockage-geo"][0]
-    print("  %s. Gravité %d, étendue %d, plausibilité %.2f."
-          % (d.libelle, d.gravite, d.etendue, d.plausibilite))
-    print("  La RÉVERSIBILITÉ est contestée : réversible sur cinquante ans")
-    print("  selon un organisme, irréversible à l'échelle humaine selon un")
-    print("  autre. AUCUN DES DEUX N'A TORT — ils ne parlent pas du même")
-    print("  horizon.")
+    print("  %s, domaine « %s ». Réversible à cinquante ans, irréversible à"
+          % (d.libelle, d.domaine))
+    print("  l'échelle humaine. LA GRILLE TRANCHE : horizon « %s »."
+          % GRILLE["horizons"][d.domaine])
     print("")
-    print("  %-16s %-22s %-14s %s"
-          % ("lecture", "régime", "charge", "conséquence probable"))
+    print("  %-22s %-22s %s" % ("horizon retenu", "régime", "charge"))
+    for horizon in HORIZONS:
+        g = dict(GRILLE)
+        g["horizons"] = dict(GRILLE["horizons"])
+        g["horizons"][d.domaine] = horizon
+        r, _, _ = qualifier(d, g)
+        print("  %-22s %-22s %s" % (horizon, r, REGIMES[r][0] or "—"))
+    print("")
+    print("  LA VERSION 1 LAISSAIT CE CHOIX À QUI QUALIFIAIT — c'était le trou.")
+    print("  LA VERSION 2 LE PORTE DANS LA GRILLE, fixée d'avance et par une")
+    print("  autre autorité. LE TROU EST DÉPLACÉ, ET C'EST UN PROGRÈS RÉEL :")
+    print("  il devient une décision publique, motivée et attaquable, au lieu")
+    print("  d'un arbitrage de dossier.")
+    print("")
+    manquants = sorted(set(x.domaine for x in DOSSIERS
+                           if x.domaine not in GRILLE["horizons"]))
+    print("  MAIS IL NE DISPARAÎT PAS TANT QUE LA GRILLE EST INCOMPLÈTE. La")
+    print("  grille de référence couvre %d domaines sur %d, et %d dossiers"
+          % (len(GRILLE["horizons"]), len(set(x.domaine for x in DOSSIERS)),
+             len([x for x in DOSSIERS
+                  if x.domaine not in GRILLE["horizons"]])))
+    print("  restent non déterminés faute d'horizon : %s."
+          % ", ".join(manquants))
+    print("")
+    print("  ET CE CHIFFRE EST UN PARAMÈTRE, NON UN RÉSULTAT. C'est moi qui ai")
+    print("  choisi une grille incomplète, pour mesurer ce qu'elle coûte. La")
+    print("  doctrine n'impose aucune incomplétude — elle exige au contraire")
+    print("  que les horizons soient fixés. CE QUE LE PROGRAMME ÉTABLIT EST")
+    print("  PLUS ÉTROIT : la détermination de la qualification vaut")
+    print("  exactement la complétude de la grille, ni plus ni moins.")
+    print("")
+    print("  L'AUTEUR NOMME PRÉCISÉMENT CETTE PIÈCE : « les horizons")
+    print("  sectoriels et leurs méthodes de calibration » restent ouverts.")
+    return manquants
+
+
+def l_incertitude_n_emporte_rien():
+    titre("CE QUI RESTE — L'INCERTITUDE EST ÉVALUÉE, ET N'EMPORTE RIEN")
+    d = [x for x in DOSSIERS if x.cle == "stockage-geo"][0]
+    print("  Le point 1 évalue l'incertitude SÉPARÉMENT de la plausibilité, et")
+    print("  la distinction est juste : une plausibilité de 0.50 bien établie")
+    print("  n'est pas une plausibilité de 0.50 tirée de rien.")
+    print("")
+    print("  %-28s %6s %6s  %s" % ("dossier", "plaus", "incer", "régime"))
     resultats = {}
-    for reversible, lecture in ((True, "réversible"), (False, "irréversible")):
-        copie = Dossier(d.cle, d.libelle, d.gravite, d.etendue, reversible,
-                        d.plausibilite)
-        r = regime(copie)
-        charge = REGIMES[r][0] or "NON ATTRIBUÉE"
-        resultats[lecture] = (r, charge)
-        print("  %-16s %-22s %-14s %s"
-              % (lecture, r, charge,
-                 "autorisé par tranches sauf refus motivé"
-                 if charge == "autorité" else
-                 "refusé tant que le porteur n'a pas établi la compatibilité"))
+    for incertitude, etiquette in ((0.10, "bien étudié"), (0.90, "sans données")):
+        jumeau = Dossier(d.cle, d.libelle, d.domaine, d.gravite, d.etendue,
+                         d.plausibilite, d.reversible_sur, incertitude)
+        r, _, _ = qualifier(jumeau)
+        resultats[etiquette] = r
+        print("  %-28s %6.2f %6.2f  %s"
+              % ("stockage-geo, " + etiquette, d.plausibilite, incertitude, r))
     print("")
-    print("  LA CHARGE DE LA PREUVE BASCULE ENTIÈREMENT, ET AVEC ELLE L'ISSUE")
-    print("  PROBABLE DU DOSSIER — sur la seule qualification d'une dimension.")
-    print("  LA DOCTRINE RÉPARTIT LA CHARGE APRÈS UNE CLASSIFICATION DONT ELLE")
-    print("  NE DIT NI QUI L'OPÈRE NI SELON QUELLE PROCÉDURE.")
+    identiques = len(set(resultats.values())) == 1
+    if identiques:
+        print("  MÊME RÉGIME, MÊME CHARGE DE LA PREUVE. L'incertitude est")
+        print("  évaluée, publiée — et sans effet. LA GRILLE NE DIT PAS CE")
+        print("  QU'ELLE EMPORTE, et évaluer une dimension sans dire ce qu'elle")
+        print("  emporte ne change aucune décision.")
     print("")
-    print("  ET CE N'EST PAS UN DÉTAIL DE RÉDACTION. Si l'autorité qui")
-    print("  qualifie classe elle-même, on retrouve la capture du cas 7 de la")
-    print("  règle d'émission, déplacée d'un cran. Si l'organisme de mesure")
-    print("  classe, on lui donne la souveraineté que A46 lui refuse : la")
-    print("  réversibilité À QUEL HORIZON est un choix normatif, non une")
-    print("  mesure. LA QUALIFICATION DU RISQUE EST UNE PIÈCE MANQUANTE.")
-    return resultats
+    print("  CE QUE LA VERSION 1 PRÉVOYAIT ET QUE LA VERSION 2 NE REPREND PAS :")
+    print("  « incertitude importante portant sur un dommage potentiellement")
+    print("  irréversible : suspension provisoire et ACQUISITION DE")
+    print("  CONNAISSANCES ». C'était la conséquence naturelle de la dimension.")
+    print("  IL FAUT DIRE SI ELLE EST MAINTENUE — le programme ne la remet pas")
+    print("  de lui-même, parce que légiférer à la place de l'auteur serait la")
+    print("  faute symétrique de celle qu'on lui reproche d'avoir corrigée.")
+    return identiques
 
 
-def conflit_3_et_5():
-    titre("SECOND TROU — LES POINTS 3 ET 5 SE CONTREDISENT, ET RIEN NE TRANCHE")
-    d = [x for x in DOSSIERS if x.cle == "medicament"][0]
-    print("  %s. Gravité %d, irréversible, plausibilité %.2f, URGENT et"
-          % (d.libelle, d.gravite, d.plausibilite))
-    print("  ESSENTIEL.")
+def zone_intermediaire(regimes):
+    titre("CE QUI RESTE — DEUX CAUSES DISTINCTES, ET IL FAUT LES SÉPARER")
+    print("  La version 2 dit « charge de la preuve ADAPTÉE À LA NATURE DU")
+    print("  RISQUE » — plus général que les deux pôles de la version 1, et")
+    print("  compatible avec une gradation. MAIS LA GRADATION N'EST PAS DITE.")
     print("")
-    print("  LE POINT 3 S'APPLIQUE : %s" % ("oui" if point_3_applique(d)
-                                            else "non"))
-    print("    → le porteur doit établir une compatibilité suffisante, ce")
-    print("      qu'une incertitude non levée lui interdit par construction.")
-    print("  LE POINT 5 S'APPLIQUE AUSSI : oui")
-    print("    → la solution réalisable la moins risquée est accordée")
-    print("      provisoirement, en quantité minimale.")
-    print("")
-    print("  LES DEUX INSTRUCTIONS SONT CONTRAIRES : l'une refuse tant que la")
-    print("  preuve manque, l'autre accorde parce que le besoin n'attend pas.")
-    print("  LA DOCTRINE NE LES ORDONNE PAS. Le programme applique le point 5")
-    print("  — c'est un CHOIX D'IMPLÉMENTATION, pas une lecture du texte, et")
-    print("  il doit être signalé comme tel.")
-    print("")
-    print("  LA VERSION ANTÉRIEURE DE LA RÈGLE PORTAIT L'EXCEPTION : « sauf")
-    print("  impossibilité physique ou risque catastrophique suffisamment")
-    print("  établi ». La rédaction du 2026-09-09 ne la reprend pas. IL FAUT")
-    print("  DIRE SI ELLE EST MAINTENUE — sans elle, le point 5 autorise")
-    print("  provisoirement ce que le point 3 refuse.")
+    complete = grille_complete()
+    lignes = []
+    for d in DOSSIERS:
+        r_ref = qualifier(d)[0]
+        r_com, motif, _ = qualifier(d, complete)
+        lignes.append((d.cle, r_ref, r_com, motif))
+    print("  %-14s %-20s %-20s" % ("dossier", "grille de référence",
+                                   "grille COMPLÈTE"))
+    for cle, a, b, _ in lignes:
+        print("  %-14s %-20s %-20s" % (cle, a, b))
 
+    determines_ref = len([x for x in lignes if x[1] != "non_determine"])
+    determines_com = len([x for x in lignes if x[2] != "non_determine"])
+    hors = [x for x in lignes if x[2] == "non_determine"]
     print("")
-    print("  ET « LA MOINS RISQUÉE » SUPPOSE UN ORDRE. Trois solutions")
-    print("  réalisables, trois profils incomparables :")
-    options = [("A", 3, 0, False, "grave, étroit, irréversible"),
-               ("B", 1, 3, True, "léger, très large, réversible"),
-               ("C", 2, 1, False, "moyen, étroit, irréversible")]
+    print("  DÉTERMINÉS : %d sur %d avec la grille de référence, %d sur %d"
+          % (determines_ref, len(DOSSIERS), determines_com, len(DOSSIERS)))
+    print("  avec une grille complète.")
     print("")
-    print("  %-8s %3s %3s %8s  %s" % ("option", "gra", "éte", "révers",
-                                      "profil"))
-    for cle, g, e, rev, note in options:
-        print("  %-8s %3d %3d %8s  %s"
-              % (cle, g, e, "oui" if rev else "non", note))
-    ordres = {
-        "gravité d'abord": min(options, key=lambda o: (o[1], o[2]))[0],
-        "étendue d'abord": min(options, key=lambda o: (o[2], o[1]))[0],
-        "réversibilité d'abord": min(options,
-                                     key=lambda o: (0 if o[3] else 1,
-                                                    o[1] + o[2]))[0],
-        "produit gravité × étendue": min(options,
-                                         key=lambda o: o[1] * o[2])[0],
-    }
+    print("  LES DEUX CAUSES SONT DONC SÉPARÉES, ET C'EST NÉCESSAIRE : la")
+    print("  première est un PARAMÈTRE de ce programme — j'ai choisi une")
+    print("  grille couvrant deux domaines sur six — et elle ne prouve rien")
+    print("  sur la doctrine. LA SECONDE EST UNE PROPRIÉTÉ DE LA DOCTRINE :")
+    print("  même avec une grille COMPLÈTE, %d dossiers restent sans charge"
+          % len(hors))
+    print("  attribuée.")
     print("")
-    for regle, gagnant in sorted(ordres.items()):
-        print("    %-28s → option %s" % (regle, gagnant))
-    distincts = sorted(set(ordres.values()))
+    for cle, _, _, motif in hors:
+        print("    %-14s %s" % (cle, motif))
     print("")
-    print("  %d gagnants pour %d ordres plausibles. « LA MOINS RISQUÉE » N'EST"
-          % (len(distincts), len(ordres)))
-    print("  PAS UNE DONNÉE : c'est le résultat d'une pondération entre")
-    print("  dimensions incommensurables, exactement comme au cas 2 de la")
-    print("  règle d'émission. La doctrine ne peut pas la fournir, et elle ne")
-    print("  doit pas prétendre le faire.")
-    return {"conflit": point_3_applique(d), "ordres": len(distincts)}
+    print("  Ce sont les cas ordinaires : GRAVE MAIS RÉVERSIBLE d'un côté,")
+    print("  IRRÉVERSIBLE MAIS PEU PLAUSIBLE de l'autre. Les deux pôles de la")
+    print("  doctrine ne partitionnent pas l'espace des risques, et « adaptée")
+    print("  à la nature du risque » ne dit pas encore comment graduer entre")
+    print("  eux.")
+    return [x[0] for x in hors]
 
 
-def le_point_9_mord():
-    titre("CE QUI TIENT — LE POINT 9 N'EST PAS DÉCORATIF")
-    print("  Le point 9 exige que les seuils soient fixés AVANT l'examen des")
-    print("  dossiers. Voici ce que coûte de ne pas le faire.")
-    print("")
-    plausibilites = sorted(d.plausibilite for d in DOSSIERS)
+def le_point_des_seuils():
+    titre("CE QUI TIENT — LES SEUILS FIXÉS D'AVANCE")
+    plaus = sorted(x.plausibilite for x in DOSSIERS)
     print("  Plausibilités des six dossiers : %s"
-          % ", ".join("%.2f" % p for p in plausibilites))
+          % ", ".join("%.2f" % p for p in plaus))
     print("")
-    print("  %-34s %8s %10s %10s"
-          % ("seuil", "valeur", "au porteur", "à l'autorité"))
+    print("  %-36s %8s %12s" % ("seuil", "valeur", "au porteur"))
     resultats = {}
     for etiquette, seuil in (
-            ("publié d'avance", SEUIL_PLAUSIBILITE),
-            ("choisi après, pour tout admettre", max(plausibilites) + 0.01),
-            ("choisi après, pour tout refuser", min(plausibilites) - 0.01)):
-        porteur = len([d for d in DOSSIERS
-                       if regime(d, seuil) == "grave_irreversible"])
-        autorite = len([d for d in DOSSIERS
-                        if regime(d, seuil) == "limite_reversible"])
-        resultats[etiquette] = (porteur, autorite)
-        print("  %-34s %8.2f %10d %10d"
-              % (etiquette, seuil, porteur, autorite))
+            ("fixé d'avance par l'instance démocratique",
+             GRILLE["seuil_plausibilite"]),
+            ("choisi après lecture, pour admettre", max(plaus) + 0.01),
+            ("choisi après lecture, pour refuser", min(plaus) - 0.01)):
+        g = dict(GRILLE)
+        g["seuil_plausibilite"] = seuil
+        n = len([x for x in DOSSIERS
+                 if qualifier(x, g)[0] == "grave_irreversible"])
+        resultats[etiquette] = n
+        print("  %-36s %8.2f %12d" % (etiquette, seuil, n))
     print("")
-    print("  UN SEUIL CHOISI APRÈS COUP PRODUIT L'ISSUE QU'ON VEUT, ET RIEN")
-    print("  DANS LE DOSSIER NE LE DISTINGUE D'UN SEUIL DE PRINCIPE : les deux")
-    print("  sont des nombres compris dans la plage des valeurs plausibles.")
-    print("  FIXER LE SEUIL D'AVANCE EST CE QUI EN FAIT UNE CONTRAINTE PLUTÔT")
-    print("  QU'UNE DESCRIPTION. C'est le point 9, et il mord.")
+    print("  LES TROIS SEUILS SONT DANS LA MÊME PLAGE DE VALEURS PLAUSIBLES, et")
+    print("  rien dans le dossier ne distingue un seuil de principe d'un seuil")
+    print("  taillé sur mesure. LE FIXER D'AVANCE EST CE QUI EN FAIT UNE")
+    print("  CONTRAINTE PLUTÔT QU'UNE DESCRIPTION.")
     print("")
-    print("  MAIS IL NE SE SUFFIT PAS : « périodiquement révisés » rouvre la")
-    print("  main à chaque révision. Ce qui protège n'est pas la fixation")
-    print("  seule, c'est la fixation PLUS la publication PLUS le fait que la")
-    print("  révision ne s'applique pas au dossier en cours. Le point 9 dit")
-    print("  les deux premières ; LA TROISIÈME MANQUE.")
+    print("  ET LA VERSION 2 AJOUTE QUI LE FIXE : l'AUTORITÉ DÉMOCRATIQUE,")
+    print("  APRÈS EXPERTISE PLURALISTE. Ce n'est pas un détail — cela répartit")
+    print("  la décision normative et la compétence technique conformément à")
+    print("  A46, au lieu de les confondre dans un même organe.")
+    print("")
+    print("  RESTE la révision : « procédure publique » est acquise ; que la")
+    print("  révision ne s'applique pas au dossier en cours ne l'est pas.")
     return resultats
 
 
 def publicite():
-    titre("CE QUI TIENT AUSSI — LES POINTS 7 ET 8")
-    complete = {"cle": "barrage", "donnees": True, "methodes": True,
-                "incertitudes": True, "seuil_normatif": True,
-                "avis_minoritaires": True}
-    partielle = dict(complete, cle="barrage-bis", incertitudes=False,
-                     avis_minoritaires=False)
-    print("  Le point 7 exige cinq publications : %s." % ", ".join(PUBLICATION))
-    print("")
-    print("  dossier complet   : %s"
-          % (controler_publication(complete) or "aucune anomalie"))
-    for a in controler_publication(partielle):
+    titre("CE QUI TIENT — POINTS 8 ET 9")
+    complet = dict((c, True) for c in PUBLICATION)
+    complet["cle"] = "barrage"
+    partiel = dict(complet, cle="barrage-bis", incertitudes=False,
+                   avis_minoritaires=False)
+    print("  Cinq publications exigées : %s." % ", ".join(PUBLICATION))
+    print("  dossier complet : %s"
+          % (controler_publication(complet) or "aucune anomalie"))
+    for a in controler_publication(partiel):
         print("    %s" % a)
     print("")
-    print("  CE QUE CES DEUX MANQUES SUPPRIMENT EN PRATIQUE. Sans les")
-    print("  INCERTITUDES publiées, le point 3 est inapplicable : on ne peut")
-    print("  pas dire qu'un risque est « plausible » sans dire de quoi on est")
-    print("  incertain. Sans les AVIS MINORITAIRES, la divergence entre")
-    print("  organismes disparaît du dossier — et c'est précisément elle qui,")
-    print("  dans la règle d'émission, sert d'alarme.")
+    print("  SANS LES INCERTITUDES PUBLIÉES, le point 1 est décoratif : on")
+    print("  évalue une dimension qu'on ne montre pas. SANS LES AVIS")
+    print("  MINORITAIRES, la divergence entre experts disparaît du dossier —")
+    print("  et c'est elle qui, dans la règle d'émission, sert d'alarme.")
     print("")
-    print("  LE POINT 8 EST DÉJÀ TENU PAR LE CORPUS, et il a été acquis")
-    print("  contre lui-même : la simulation de la règle d'émission donnait au")
-    print("  recours la VALEUR VRAIE par construction. Le contrôle de méthode")
-    print("  qui l'interdit est en place, et il échoue si un oracle revient.")
-    return len(controler_publication(partielle))
+    print("  LE POINT 9 EST TENU PAR LE CORPUS, et il a été acquis contre")
+    print("  lui-même : la simulation de la règle d'émission donnait au recours")
+    print("  la VALEUR VRAIE par construction. Le contrôle de méthode qui")
+    print("  l'interdit est en place. Et le mot est corrigé : CANAL DE MESURE")
+    print("  INDÉPENDANT, non observation directe de la vérité.")
+    return len(controler_publication(partiel))
 
 
 def main():
     print("=" * 78)
-    print("A47 — DÉCIDER SOUS INCERTITUDE")
+    print("A47 — DÉCIDER SOUS INCERTITUDE. VERSION 2, VALIDÉE PAR L'AUTEUR")
     print("=" * 78)
-    print("Doctrine de précaution PROPORTIONNÉE, en neuf points. Elle n'arrête")
-    print("aucun seuil numérique : elle répartit LA CHARGE DE LA PREUVE et")
-    print("définit la procédure par laquelle les seuils seront établis.")
+    print("Précaution proportionnée. La doctrine n'arrête AUCUN SEUIL")
+    print("NUMÉRIQUE : elle répartit la CHARGE DE LA PREUVE et fixe QUI établit")
+    print("les seuils, QUAND et SELON QUELLE PROCÉDURE.")
     print("")
-    print("AUCUN SEUIL N'EST CALIBRÉ ICI NON PLUS. Les dossiers sont fictifs.")
+    print("AUCUN SEUIL N'EST CALIBRÉ ICI. Les dossiers sont fictifs.")
 
-    compte = tableau()
-    qualification = trou_de_la_qualification()
-    conflit = conflit_3_et_5()
-    seuils = le_point_9_mord()
+    grille = la_grille()
+    regimes, motivations, alertes = application()
+    manquants = ce_que_l_horizon_decide()
+    incertitude = l_incertitude_n_emporte_rien()
+    hors = zone_intermediaire(regimes)
+    seuils = le_point_des_seuils()
     manques = publicite()
 
-    titre("CE QUE LA DOCTRINE TIENT, ET LES DEUX TROUS QU'ELLE LAISSE")
-    print("  TIENT — le point 2 : l'incertitude déplace la charge au lieu de")
-    print("  trancher seule. Le point 6 : l'arbitrage de portefeuille, déjà")
-    print("  construit et mesuré. Le point 7 : la publicité, sans laquelle ni")
-    print("  le recours ni la révision ne sont exerçables. Le point 8 : le")
-    print("  recours instrumenté, acquis contre une faute du corpus. Le point")
-    print("  9 : le seuil fixé d'avance, et le programme montre qu'il mord.")
+    titre("CE QUE LA VERSION 2 FERME, ET CE QU'ELLE LAISSE")
+    print("  FERMÉ — LE PREMIER TROU DE LA VERSION 1. « La doctrine répartit la")
+    print("  charge après une classification dont elle ne règle ni l'auteur ni")
+    print("  la procédure » : la version 2 règle les deux. LA GRILLE EST FIXÉE")
+    print("  D'AVANCE PAR L'AUTORITÉ DÉMOCRATIQUE APRÈS EXPERTISE PLURALISTE,")
+    print("  ET LA QUALIFICATION L'APPLIQUE EN SE MOTIVANT. Le choix d'horizon")
+    print("  devient une décision publique et attaquable au lieu d'un arbitrage")
+    print("  de dossier — et c'est un progrès réel, non une reformulation.")
     print("")
-    print("  TROU 1 — LA QUALIFICATION. Sur un seul dossier, deux lectures")
-    print("  également défendables de la réversibilité font basculer la charge")
-    print("  de la preuve du porteur à l'autorité, et l'issue avec elle. LA")
-    print("  DOCTRINE RÉPARTIT LA CHARGE APRÈS UNE CLASSIFICATION DONT ELLE NE")
-    print("  RÈGLE NI L'AUTEUR NI LA PROCÉDURE. C'est le point le plus")
-    print("  exposé : y placer l'autorité qui qualifie ramène la capture, y")
-    print("  placer l'organisme de mesure lui donne la souveraineté que A46")
-    print("  lui refuse.")
+    print("  RESTE 1 — À CONSTRUIRE, ET L'AUTEUR L'A NOMMÉ. La détermination")
+    print("  de la qualification vaut EXACTEMENT la complétude de la grille :")
+    print("  %d dossiers déterminés sur %d avec une grille couvrant %d domaines"
+          % (len([r for r in regimes.values() if r != "non_determine"]),
+             len(DOSSIERS), len(GRILLE["horizons"])))
+    print("  sur %d, %d sur %d avec une grille complète. LE PREMIER CHIFFRE EST"
+          % (len(set(d.domaine for d in DOSSIERS)),
+             len([d for d in DOSSIERS
+                  if qualifier(d, grille_complete())[0] != "non_determine"]),
+             len(DOSSIERS)))
+    print("  UN PARAMÈTRE DE CE PROGRAMME, non un défaut de la doctrine : les")
+    print("  horizons sectoriels et leurs méthodes de calibration sont une")
+    print("  pièce à construire, et elle est ouverte.")
     print("")
-    print("  TROU 2 — LA ZONE INTERMÉDIAIRE. %d dossiers sur %d ne relèvent NI"
-          % (compte.get("intermediaire", 0), len(DOSSIERS)))
-    print("  du point 3 NI du point 4 : graves mais réversibles, ou")
-    print("  irréversibles mais peu plausibles. LA CHARGE DE LA PREUVE N'Y EST")
-    print("  ATTRIBUÉE À PERSONNE, et ce sont les cas ordinaires.")
+    print("  RESTE 2 — À TRANCHER. L'INCERTITUDE N'EMPORTE RIEN. Elle est")
+    print("  évaluée séparément, publiée, et deux dossiers identiques hormis")
+    print("  leur état de connaissance reçoivent LE MÊME RÉGIME. La version 1")
+    print("  prévoyait la suspension provisoire et l'acquisition de")
+    print("  connaissances ; la version 2 ne la reprend pas. IL FAUT DIRE SI")
+    print("  ELLE EST MAINTENUE — le programme ne la remet pas de lui-même.")
     print("")
-    print("  ET UNE CONTRADICTION À LEVER — les points 3 et 5 s'appliquent")
-    print("  ensemble au dossier urgent, avec des instructions contraires. La")
-    print("  rédaction du 2026-09-09 a laissé tomber l'exception « sauf risque")
-    print("  catastrophique suffisamment établi » que portait la version")
-    print("  précédente. IL FAUT DIRE SI ELLE EST MAINTENUE.")
+    print("  RESTE 3 — À TRANCHER AUSSI, ET C'EST UNE PROPRIÉTÉ DE LA")
+    print("  DOCTRINE, non un paramètre : MÊME AVEC UNE GRILLE COMPLÈTE, %d"
+          % len(hors))
+    print("  dossiers sur %d restent sans charge attribuée — grave mais"
+          % len(DOSSIERS))
+    print("  réversible, irréversible mais peu plausible. « Adaptée à la")
+    print("  nature du risque » est compatible avec une gradation, MAIS LA")
+    print("  GRADATION N'EST PAS DITE.")
     print("")
     print("  CE QUE CE PROGRAMME NE DIT PAS. Il ne dit pas que la doctrine est")
-    print("  mauvaise : elle tient sur cinq de ses neuf points, et ses deux")
-    print("  trous sont des PIÈCES MANQUANTES, non des contradictions")
-    print("  internes. Il ne dit pas non plus qu'elle est bonne : aucun de ses")
-    print("  seuils n'est éprouvé, aucun dossier n'est réel, et un programme")
-    print("  qui applique une règle ne la valide jamais.")
+    print("  bonne : aucun seuil n'est éprouvé, aucun dossier n'est réel, et un")
+    print("  programme qui applique une règle ne la valide jamais. Il dit où")
+    print("  elle décide et où elle se tait, et c'est tout.")
     return 0
 
 

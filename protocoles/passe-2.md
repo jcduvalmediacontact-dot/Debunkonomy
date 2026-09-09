@@ -6507,3 +6507,92 @@ neuf points, et ses deux trous sont des **pièces manquantes**, non des
 contradictions internes. **Elle ne dit pas non plus qu'elle est bonne** : aucun
 seuil n'est éprouvé, aucun dossier n'est réel, et **un programme qui applique une
 règle ne la valide jamais.**
+
+
+## A47 VERSION 2 — VALIDÉE PAR L'AUTEUR LE 2026-09-09, ET ELLE FERME LE PREMIER TROU
+
+**LA DOCTRINE ADOPTÉE, DANS LES TERMES DE L'AUTEUR.**
+
+1. Évaluation **séparée** de la gravité, de l'étendue, de la **plausibilité**,
+   de la réversibilité et des **incertitudes**.
+2. Seuils normatifs fixés **à l'avance par l'autorité démocratique, après
+   expertise pluraliste**.
+3. Qualification **motivée** selon cette grille générale.
+4. Charge de la preuve **adaptée à la nature du risque**.
+5. Autorisation **progressive** pour les risques limités et réversibles.
+6. **Protection particulière** des besoins essentiels urgents.
+7. Arbitrage **au niveau du portefeuille** pour les ressources rares.
+8. Procédure **publique** pour la révision des seuils.
+9. Recours mobilisant des examinateurs et des **canaux de mesure indépendants**.
+
+**Restent des pièces ouvertes, et l'auteur les nomme : les seuils numériques,
+les horizons sectoriels et leurs méthodes de calibration.**
+
+### CE QUE LA VERSION 2 FERME, ET C'EST LE PREMIER TROU DE LA MISE À L'ÉPREUVE
+
+La version 1 répartissait la charge de la preuve **après une qualification dont
+elle ne disait ni l'auteur ni la procédure**. La version 2 dit les deux : **la
+grille est fixée d'avance par l'autorité démocratique, après expertise
+pluraliste, et la qualification l'applique EN SE MOTIVANT.**
+
+**Le choix d'horizon — « réversible à cinquante ans ou à l'échelle humaine » —
+ne disparaît pas, et il décide toujours de la charge.** Le programme le montre
+encore : sur le stockage géologique de CO2, l'horizon « cinquante ans » met la
+charge sur l'autorité, l'horizon « échelle humaine » la met sur le porteur.
+**Mais ce choix est désormais dans la grille : décision publique, motivée,
+antérieure au dossier et attaquable, au lieu d'un arbitrage rendu dossier par
+dossier par qui qualifie.** C'est un progrès réel, non une reformulation — et
+c'est exactement la répartition que A46 commande : la compétence technique
+informe, l'autorité démocratique décide, une troisième applique.
+
+### LES TROIS RESTES, ET ILS NE SONT PAS DE MÊME NATURE
+
+**RESTE 1 — À CONSTRUIRE. LES HORIZONS SECTORIELS.** Le programme mesure une
+chose étroite mais utile : **la détermination de la qualification vaut
+exactement la complétude de la grille.** Avec une grille couvrant deux domaines
+sur six, deux dossiers sur six sont déterminés ; avec une grille complète,
+quatre sur six. **Le premier chiffre est un paramètre de ce programme, non un
+défaut de la doctrine** — c'est moi qui ai choisi une grille incomplète pour
+mesurer ce qu'elle coûte. La pièce est celle que l'auteur nomme.
+
+**RESTE 2 — À TRANCHER. L'INCERTITUDE EST ÉVALUÉE ET N'EMPORTE RIEN.** Le point
+1 sépare l'incertitude de la plausibilité, **et la distinction est juste** : une
+plausibilité de 0,50 bien établie n'est pas une plausibilité de 0,50 tirée de
+rien. Mais **aucune règle ne dit ce que l'incertitude emporte**, et le programme
+le montre : deux dossiers identiques hormis leur état de connaissance — 0,10 et
+0,90 — **reçoivent le même régime et la même charge**. La version 1 prévoyait
+« incertitude importante sur un dommage potentiellement irréversible :
+suspension provisoire et **acquisition de connaissances** » ; **la version 2 ne
+la reprend pas.** Le programme ne la rétablit pas de lui-même : légiférer à la
+place de l'auteur serait la faute symétrique de celle qu'il vient de corriger.
+Pièce ouverte : `USAGE-DES-INCERTITUDES`.
+
+**RESTE 3 — À TRANCHER AUSSI, ET C'EST UNE PROPRIÉTÉ DE LA DOCTRINE.** « Charge
+adaptée à la nature du risque » est **plus général** que les deux pôles de la
+version 1 et **compatible avec une gradation** — mais la gradation n'est pas
+dite. **Même avec une grille complète**, deux dossiers sur six restent sans
+charge attribuée : **grave mais réversible** — un pesticide à large spectre — et
+**irréversible mais peu plausible** — une mine de lithium. Ce sont les cas
+ordinaires. Le programme n'invente aucune charge là où la doctrine se tait.
+
+### CE QUI TIENT, ET SE VÉRIFIE
+
+**Le seuil fixé d'avance mord**, et le programme le chiffre : selon qu'il est
+publié avant ou choisi après lecture des dossiers, **0, 2 ou 3 dossiers** sont
+mis à la charge du porteur — les trois valeurs étant dans la même plage
+plausible. **Rien dans le dossier ne distingue un seuil de principe d'un seuil
+taillé sur mesure.** La version 2 ajoute **qui** le fixe, et cela répartit la
+décision normative et la compétence technique au lieu de les confondre.
+
+**La publicité est contrôlée et non déclarée** : sans les incertitudes publiées
+le point 1 est décoratif, sans les avis minoritaires la divergence entre experts
+disparaît du dossier — alors qu'elle est l'alarme.
+
+**Et un contrôle vérifie que celui qui fixe la grille n'est pas celui qui
+l'applique.** Une grille fixée par l'autorité de qualification est signalée.
+
+### CE QUE CETTE MISE À L'ÉPREUVE NE DIT TOUJOURS PAS
+
+Que la doctrine soit bonne. **Aucun seuil n'est éprouvé, aucun dossier n'est
+réel, et un programme qui applique une règle ne la valide jamais.** Il dit où
+elle décide et où elle se tait.

@@ -205,17 +205,22 @@ python modeles/test_nemo_emission.py
 six dossiers fictifs.** Elle n'arrête aucun seuil : elle répartit **la charge de
 la preuve** et fixe la procédure d'établissement des seuils.
 
-**Ce qui tient.** Le point 2 — l'incertitude déplace la charge au lieu de
-trancher seule. Le point 9 — selon que le seuil est publié d'avance ou choisi
-après lecture des dossiers, le nombre de dossiers mis à la charge du porteur
-passe de 2 à 0 ou à 3, **et rien dans le dossier ne distingue les deux**.
+**Version 2, validée par l'auteur.** La grille des seuils est **fixée d'avance
+par l'autorité démocratique après expertise pluraliste**, et la qualification
+**l'applique en se motivant** — ce qui ferme le premier trou de la version 1 : le
+choix d'horizon devient une décision publique et attaquable au lieu d'un
+arbitrage rendu dossier par dossier.
 
-**Les deux trous, et ils sont dans la sortie.** Deux lectures également
-défendables de la réversibilité font basculer la charge du porteur à l'autorité :
-**la doctrine répartit la charge après une classification dont elle ne règle ni
-l'auteur ni la procédure.** Et deux dossiers sur six ne relèvent ni du point 3 ni
-du point 4 — grave mais réversible, irréversible mais peu plausible — **où la
-charge n'est attribuée à personne.**
+**Ce qui tient et se chiffre.** Selon que le seuil est publié d'avance ou choisi
+après lecture des dossiers, **0, 2 ou 3 dossiers** sont mis à la charge du
+porteur — les trois valeurs étant dans la même plage plausible.
+
+**Trois restes, de deux natures.** Les **horizons sectoriels** sont une pièce à
+construire, que l'auteur a nommée : la détermination vaut exactement la
+complétude de la grille. **L'incertitude est évaluée et n'emporte rien** — deux
+dossiers identiques hormis leur état de connaissance reçoivent le même régime.
+Et **même avec une grille complète**, deux dossiers sur six restent sans charge
+attribuée : grave mais réversible, irréversible mais peu plausible.
 
 ```bash
 python modeles/nemo_a47.py

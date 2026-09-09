@@ -147,16 +147,16 @@ arbitrages:
     objet: "Décider sous incertitude"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION, QUALIFICATION-DU-RISQUE, ZONE-INTERMEDIAIRE]
+    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION, QUALIFICATION-DU-RISQUE, ZONE-INTERMEDIAIRE, USAGE-DES-INCERTITUDES]
     decision: >
-      ARBITRÉ DANS SON PRINCIPE LE 2026-09-09 : PRÉCAUTION PROPORTIONNÉE,
-      neuf points, AUCUN SEUIL NUMÉRIQUE. Elle répartit LA CHARGE DE LA
-      PREUVE — au porteur si le risque est grave et irréversible, à
-      l'autorité qui refuse si le risque est limité et réversible, décision
-      provisoire la moins dommageable en urgence essentielle — et fixe la
-      PROCÉDURE d'établissement des seuils. SEUILS SECTORIELS OUVERTS à
-      l'expertise et à la décision démocratique. Détail et mise à l'épreuve
-      en passe-2.
+      VALIDÉ PAR L'AUTEUR LE 2026-09-09, v2. Évaluation SÉPARÉE de la
+      gravité, l'étendue, la PLAUSIBILITÉ, la réversibilité et les
+      INCERTITUDES. SEUILS NORMATIFS fixés à l'avance par l'AUTORITÉ
+      DÉMOCRATIQUE APRÈS EXPERTISE PLURALISTE. QUALIFICATION MOTIVÉE selon
+      cette grille. Charge ADAPTÉE À LA NATURE DU RISQUE ; autorisation
+      progressive si limité et réversible ; protection des besoins
+      essentiels urgents ; portefeuille pour les ressources rares ;
+      révision publique ; recours à canaux indépendants.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -469,20 +469,37 @@ falsifieurs:
     maj: 2026-09-08
 
 pieces_de_conception_manquantes:
-  - id: QUALIFICATION-DU-RISQUE
-    objet: "Qui qualifie la gravité, l'étendue et la réversibilité, et comment"
+  - id: USAGE-DES-INCERTITUDES
+    objet: "Ce que l'incertitude emporte, une fois évaluée et publiée"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [A47, A46, MESURE-EXTERIEURE]
+    lie_a: [A47, QUALIFICATION-DU-RISQUE]
     decision: >
-      OUVERT LE 2026-09-09 PAR LA MISE À L'ÉPREUVE DE A47, QUI RÉPARTIT LA
-      CHARGE DE LA PREUVE APRÈS UNE CLASSIFICATION DONT ELLE NE RÈGLE NI
-      L'AUTEUR NI LA PROCÉDURE. Mesuré : sur un même dossier, deux lectures
-      également défendables de la RÉVERSIBILITÉ — cinquante ans ou échelle
-      humaine — font basculer la charge du porteur à l'autorité, et l'issue
-      avec elle. Y placer qui qualifie ramène la capture ; y placer qui
-      mesure lui donne la souveraineté que A46 refuse. À QUEL HORIZON est
-      normatif, non mesuré.
+      OUVERT LE 2026-09-09. A47 v2 ÉVALUE LES INCERTITUDES SÉPARÉMENT de la
+      plausibilité, et la distinction est juste : une plausibilité bien
+      établie n'est pas une plausibilité tirée de rien. MAIS AUCUNE RÈGLE
+      NE DIT CE QU'ELLE EMPORTE. Mesuré : deux dossiers identiques hormis
+      leur état de connaissance — 0.10 et 0.90 — reçoivent LE MÊME RÉGIME.
+      La version 1 prévoyait suspension provisoire et ACQUISITION DE
+      CONNAISSANCES ; la v2 ne la reprend pas. À DIRE SI ELLE EST
+      MAINTENUE.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: QUALIFICATION-DU-RISQUE
+    objet: "Les horizons sectoriels, les seuils numériques et leur calibration"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [A47, A46, MESURE-EXTERIEURE, USAGE-DES-INCERTITUDES]
+    decision: >
+      OUVERT LE 2026-09-09 ; SON PRINCIPE EST RÉGLÉ PAR A47 v2 LE MÊME
+      JOUR. La qualification n'est plus libre : elle APPLIQUE une grille
+      publiée d'avance, fixée par une AUTRE autorité, et SE MOTIVE — le
+      choix devient public et attaquable. RESTE À CONSTRUIRE, et l'auteur
+      le nomme : LES HORIZONS SECTORIELS, les seuils numériques et leurs
+      méthodes de calibration. MESURÉ : la détermination vaut la complétude
+      de la grille — 2 dossiers sur 6 à 2 domaines couverts, 4 sur 6 à
+      grille complète.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
@@ -492,14 +509,13 @@ pieces_de_conception_manquantes:
     tranche_par: non-tranche
     lie_a: [A47]
     decision: >
-      OUVERT LE 2026-09-09 PAR LA MISE À L'ÉPREUVE DE A47. Les points 3 et
-      4 NE PARTITIONNENT PAS l'espace des risques : deux dossiers sur six
-      n'en relèvent ni l'un ni l'autre — GRAVE MAIS RÉVERSIBLE,
-      IRRÉVERSIBLE MAIS PEU PLAUSIBLE — et LA CHARGE DE LA PREUVE N'Y EST
-      ATTRIBUÉE À PERSONNE. Ce sont les cas ordinaires. À TRANCHER AUSSI :
-      les points 3 et 5 s'appliquent ensemble au dossier urgent avec des
-      instructions contraires, l'exception « sauf risque catastrophique »
-      ayant disparu.
+      OUVERT LE 2026-09-09, RESSERRÉ PAR A47 v2. « Charge ADAPTÉE À LA
+      NATURE DU RISQUE » est plus général que les deux pôles et compatible
+      avec une GRADATION — mais la gradation n'est pas dite. MESURÉ, ET
+      C'EST UNE PROPRIÉTÉ DE LA DOCTRINE, NON DU SCÉNARIO : même avec une
+      grille COMPLÈTE, 2 dossiers sur 6 restent sans charge attribuée —
+      GRAVE MAIS RÉVERSIBLE, IRRÉVERSIBLE MAIS PEU PLAUSIBLE. Ce sont les
+      cas ordinaires.
     texte: protocoles/passe-2.md
     maj: 2026-09-09
 
