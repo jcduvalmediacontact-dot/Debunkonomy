@@ -164,7 +164,7 @@ arbitrages:
     objet: "Ce que NEMO IMS promet, et ce qu'il ne peut pas promettre"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, REGLE-D-EMISSION]
+    lie_a: [A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE]
     decision: >
       ARBITRÉ LE 2026-09-09 — RESTRICTION. NEMO IMS NE GARANTIT PAS LES
       CONDITIONS DE LA VIE : aucune institution monétaire ne contrôle seule
@@ -290,6 +290,7 @@ falsifieurs:
     objet: "La connaissance dispersée et l'indicateur pris pour cible"
     statut: ouvert
     tranche_par: non-tranche
+    lie_a: [MESURE-EXTERIEURE]
     decision: "Posé, non instruit."
     texte: protocoles/falsification.md
     maj: 2026-09-08
@@ -351,13 +352,14 @@ falsifieurs:
     tranche_par: non-tranche
     lie_a: [OPERATIONNALISATION-INSOLVABLE]
     decision: >
-      DÉPLACÉ TROIS FOIS : ce que le dispositif doit justifier n'est pas le
-      barème mais son AJOUT PROPRE. L'argument est écrit le 2026-09-09 (L1.C31)
-      et corrigé le même jour : l'ajout porte sur la MOBILISATION DE RESSOURCES
-      RÉELLES, non sur la disponibilité d'un financement. Condition de
-      démonstration et condition d'échec réciproque arrêtées par l'auteur. IL
-      N'EST PAS ÉTABLI : le portefeuille de comparaison n'a jamais été construit,
-      pour aucun instrument.
+      L19.C03 ajoute que la règle n'est plus seulement une question de
+      crédibilité. DÉPLACÉ, NON TRAITÉ, LE 2026-09-09 : dans la règle
+      d'émission le CALIBRAGE ÉCHELONNE SANS JAMAIS REFUSER AU FOND, faute
+      de quoi un arrêt monétaire rendrait à la monnaie le pouvoir que NEMO
+      lui retire. Le pilotage y devient une question de RYTHME, jamais
+      d'objet. CE QUI N'EST PAS RÉPONDU : si ce rythme est pilotable. Le
+      modèle publie un ÉCART DE CAPACITÉ, condition NÉCESSAIRE et non
+      suffisante.
     texte: protocoles/falsification.md
     chapitres: [L1.C31, L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
     maj: 2026-09-09
@@ -390,7 +392,7 @@ falsifieurs:
     objet: "L'incommensurabilité — la soutenabilité faible"
     statut: oriente
     tranche_par: auteur
-    lie_a: [CRITERE-L25]
+    lie_a: [CRITERE-L25, VETO-AGREGATION]
     decision: >
       ARBITRÉ DANS SA RÉPONSE LE 2026-09-09 : renoncer au SCORE MONDIAL UNIQUE,
       employer PLUSIEURS SEUILS NON COMPENSABLES, assumer que la pondération est
@@ -418,6 +420,105 @@ falsifieurs:
     maj: 2026-09-08
 
 pieces_de_conception_manquantes:
+  - id: DEPARTAGE-ESSENTIELS
+    objet: "Comment trancher entre deux besoins essentiels"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [REGLE-D-EMISSION]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LE CAS 3. Deux besoins essentiels, une seule
+      enveloppe : LE MÉCANISME REND LA MAIN, et c'est le bon comportement.
+      Quatre départages plausibles — coût par bénéficiaire, nombre,
+      gravité, antériorité — désignent DEUX gagnants différents : choisir
+      le départage EST la décision, et elle est politique. CE QU'IL FAUT
+      N'EST PAS UN CRITÈRE MAIS UNE PROCÉDURE : quel organe tranche, à
+      quelle majorité, sous quel recours, avec quelle publicité du motif.
+      Elle n'existe pas.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: VETO-AGREGATION
+    objet: "Le veto physique peut-il comparer une limite à une autre"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [REGLE-D-EMISSION, F13]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LE CAS 2. Un projet peut SOULAGER une limite
+      et en FRANCHIR une autre. VETO STRICT : la transition est bloquée —
+      150 de soulagement carbone refusés pour 40 de pression sur la
+      biodiversité. VETO AGRÉGÉ : le projet passe, mais SEULEMENT PARCE
+      QU'UNE LIMITE A ÉTÉ PONDÉRÉE CONTRE UNE AUTRE, ce qu'aucune donnée
+      physique ne fait — la variante agrégée n'est donc plus un veto
+      physique. Face PHYSIQUE de F13. Le corpus mesure les deux et n'en
+      choisit aucune.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: CORRECTION-D-ERREUR
+    objet: "Ce qu'on fait d'une émission versée sur une qualification fausse"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [REGLE-D-EMISSION]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LE CAS 4. Une qualification erronée
+      découverte après l'émission : RIEN NE RAMÈNE L'ARGENT. Les trois
+      procédures testées récupèrent ZÉRO, et ce n'est pas une lacune
+      d'implémentation — c'est la contrepartie de l'absence de dette, qui
+      est le cœur de NEMO. Seule la compensation mord, en prenant 960 sur
+      les émissions FUTURES de la même autorité : l'erreur d'hier est payée
+      par le bénéficiaire essentiel de demain. NEMO DOIT DIRE S'IL
+      L'ACCEPTE.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: REVISION-SCIENTIFIQUE
+    objet: "Le sort des programmes engagés quand une limite est révisée"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [REGLE-D-EMISSION, A44]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LE CAS 5. Un programme RÉGULIÈREMENT ADMIS,
+      puis la limite est révisée. À −40 %, l'arrêt et la transition
+      ramènent le dépassement à ZÉRO — au prix de 350 et 175 d'ÉMISSION
+      ÉCHOUÉE, c'est-à-dire d'hôpital à moitié construit. À −60 %, PLUS
+      AUCUNE PROCÉDURE NE TIENT : le passé n'est pas révisable. IL FAUT un
+      délai de mise en conformité, le sort des tranches non versées, et QUI
+      PAIE L'ÉCHOUAGE. Sans quoi le second engagement de A44 est intenable.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: PLAFOND-D-URGENCE
+    objet: "Ce qui contourne la procédure quand l'urgence ne peut pas attendre"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [REGLE-D-EMISSION]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LE CAS 6. L'urgence humanitaire n'attend pas
+      la procédure : un canal la contourne. TROU BORNÉ, NON FERMÉ — 15 % de
+      l'émission échappe par construction au veto physique, 540 n'auraient
+      pas dû être émis, ZÉRO récupérable, même mur qu'au cas 4. La
+      ratification postérieure ne reprend rien : elle refuse les tranches à
+      venir. ET LE PLAFOND EST UN NOMBRE POLITIQUE : trop bas il laisse
+      mourir, trop haut il vide le veto. AUCUN CALCUL NE LE FIXE.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
+  - id: MESURE-EXTERIEURE
+    objet: "Ce qui pourrait détecter la capture de l'autorité de qualification"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [REGLE-D-EMISSION, F3, A44, MODELE-ADVERSAIRE]
+    decision: >
+      OUVERT LE 2026-09-09 PAR LE CAS 7, ET C'EST LE RÉSULTAT LE PLUS
+      DÉFAVORABLE DU CHANTIER. Autorité captée : 500 détournés vers un
+      projet que le passage honnête refuse, ET TOUS LES CONTRÔLES AU VERT.
+      Le contrôle cumulé E5 a été ajouté pour l'attraper : il mord, et la
+      capture déclare en dessous. UN CONTRÔLE DE PLUS DÉPLACE LE MENSONGE,
+      IL NE LE VOIT PAS — tout contrôle interne porte sur une DÉCLARATION.
+      IL FAUT UNE MESURE EXTÉRIEURE, et elle n'est pas conçue.
+    texte: protocoles/passe-2.md
+    maj: 2026-09-09
+
   - id: RECALIBRAGE
     objet: "La règle de recalibrage du dispositif"
     statut: oriente
@@ -494,18 +595,18 @@ pieces_de_conception_manquantes:
 
   - id: REGLE-D-EMISSION
     objet: "Qui émet, combien, pour quoi, et avec quel pouvoir d'arrêt"
-    statut: ouvert
+    statut: oriente
     tranche_par: non-tranche
-    lie_a: [A44]
+    lie_a: [A44, DEPARTAGE-ESSENTIELS, VETO-AGREGATION, CORRECTION-D-ERREUR, REVISION-SCIENTIFIQUE, PLAFOND-D-URGENCE, MESURE-EXTERIEURE]
     decision: >
-      CHANTIER CENTRAL, OUVERT LE 2026-09-09. TROIS DÉCISIONS SÉPARÉES.
-      (1) VETO PHYSIQUE : refus si le financement aggrave une limite
-      planétaire critique ou dépend de ressources indisponibles.
-      (2) PRIORITÉ DÉMOCRATIQUE : parmi les projets admissibles, les
-      institutions politiques déterminent les besoins prioritaires.
-      (3) CALIBRAGE MONÉTAIRE : montant et calendrier selon les capacités
-      productives, les importations et les tensions inflationnistes.
-      LE POUVOIR D'ARRÊT est à concevoir.
+      CHANTIER OUVERT LE 2026-09-09 ET INSTRUIT LE MÊME JOUR par
+      modeles/nemo_emission.py. TROIS DÉCISIONS SÉPARÉES, et le test le
+      vérifie. (1) VETO PHYSIQUE : refus seulement, jamais autorisation ;
+      deux motifs NON SUBSTITUABLES, indisponibilité et franchissement. (2)
+      PRIORITÉ : aux institutions politiques. (3) CALIBRAGE : il ÉCHELONNE,
+      il ne refuse jamais au fond. POUVOIR D'ARRÊT À TROIS TITULAIRES, un
+      seul inconditionnel. SEPT CAS JOUÉS : CINQ METTENT LA RÈGLE EN
+      DÉFAUT, deux restreignent A44.
     texte: protocoles/passe-2.md
     chapitres: [L1.C17, L1.C31]
     maj: 2026-09-09
@@ -565,6 +666,7 @@ pieces_de_conception_manquantes:
     objet: "Qui gagne quoi à falsifier une qualification régénérative"
     statut: ouvert
     tranche_par: non-tranche
+    lie_a: [MESURE-EXTERIEURE]
     decision: >
       TROIS familles de défaillance et non une. La FRAUDE — quatre architectures
       documentées, aucune n'attaquant la grandeur écologique. Le PASSAGER

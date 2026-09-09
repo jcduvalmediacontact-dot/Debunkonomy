@@ -331,6 +331,29 @@ charge ; l'écart indicateur/effet est PLUS GRAND, puisqu'il n'existe pas de
 métrologie de la régénération ; et la détection est PLUS LENTE, par l'asymétrie
 des erreurs.
 
+**INSTRUIT LE 2026-09-09, ET DÉFAVORABLEMENT — par le corpus contre lui-même.**
+Le cas 7 de `modeles/nemo_emission.py` construit une autorité de qualification
+captée : elle déclare essentielle une centrale thermique et annonce une pression
+carbone de 340 au lieu de 500. **500 sont détournés et les cinq contrôles du
+mécanisme restent au vert.** Le contrôle cumulé E5 avait justement été ajouté
+pour attraper ce cas : **il mord — 390 déclarés pour 400 de budget — et la
+capture se contente de déclarer en dessous.**
+
+**C'est Goodhart en conditions de laboratoire, et la leçon dépasse le cas.** Tout
+contrôle interne au dispositif s'exerce sur une **déclaration** ; en ajouter un
+déplace la déclaration au lieu de la démasquer. **Ce que F3 demandait — « audit
+des pratiques et non des seuls résultats » — est donc nommé pour la première fois
+comme une exigence de MESURE EXTÉRIEURE au mécanisme** : pression constatée et
+non déclarée, registre du besoin tenu hors de l'autorité qui qualifie, droit de
+saisine d'un tiers. **Aucun des trois n'est conçu.** Pièce ouverte :
+`MESURE-EXTERIEURE`.
+
+**CE QUE CELA NE FAIT PAS.** Cela ne falsifie pas la thèse : un dispositif
+existant peut encore fournir le mécanisme qui borne l'ajustement au barème, et
+F3 demande précisément qu'on cherche s'il en existe un. **Mais l'objection
+n'est plus seulement posée : elle est vérifiée sur le dispositif du corpus,
+et ce dernier n'y répond pas.**
+
 ## F4 — L'obstacle de droit positif
 
 **Condition d'échec :** qu'aucun montage ne permette au dispositif d'opérer sans

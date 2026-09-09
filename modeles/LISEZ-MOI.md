@@ -155,3 +155,28 @@ corpus a établi sur pièces que c'est exactement la disposition qui saute [F6].
 
 **Aucun seuil n'est calibré**, et le drapeau `SEUILS_CALIBRES` doit rester à
 `False` tant qu'une source ne fonde pas chaque seuil.
+
+
+## `nemo_emission.py` — la règle d'émission et ses sept cas limites
+
+**Le cœur de NEMO IMS : qui crée combien de monnaie, pour quoi, et avec quel
+pouvoir d'arrêt.** Trois décisions séparées — **veto physique** qui refuse sans
+jamais autoriser, **priorité** qui appartient au politique, **calibrage** qui
+échelonne sans jamais refuser au fond — et **trois arrêts dont un seul est
+inconditionnel**.
+
+**Sept cas limites, et le programme existe pour les échecs.** Cinq mettent la
+règle en défaut : le veto strict bloque la transition qu'il protège ; deux
+besoins essentiels sont **indécidables par le mécanisme** ; une émission sans
+dette n'a **aucune reprise** quand la qualification était fausse ; le canal
+d'urgence est borné mais jamais fermé ; **et une autorité captée détourne 500
+avec tous les contrôles au vert.**
+
+**Ce dernier résultat ne se répare pas par un contrôle de plus** : le contrôle
+cumulé avait été ajouté pour l'attraper, il mord, et la capture déclare en
+dessous. **Tout contrôle interne porte sur une déclaration.**
+
+```bash
+python modeles/nemo_emission.py
+python modeles/test_nemo_emission.py
+```

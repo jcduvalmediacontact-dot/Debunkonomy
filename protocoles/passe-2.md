@@ -6021,3 +6021,127 @@ guichet d'allocation fait bloquer 579 d'importations essentielles contre 145
 avec** : un plafond peut bel et bien bloquer le règlement de biens essentiels, et
 **c'est le guichet non remboursable qui écarte ce risque**, non le plafond
 lui-même.
+
+
+## LA RÈGLE D'ÉMISSION ET SES SEPT CAS LIMITES — 2026-09-09
+
+**LE CŒUR DE NEMO IMS : qui peut créer combien de monnaie, pour quoi, selon
+quelles limites, et avec quel pouvoir d'arrêt.** La règle est construite à trois
+décisions séparées, comme l'auteur l'a posée, puis soumise aux sept cas limites
+qu'il a nommés. `modeles/nemo_emission.py`, vérifié par
+`modeles/test_nemo_emission.py`.
+
+### LES TROIS DÉCISIONS, ET CE QUI LES SÉPARE
+
+**(1) LE VETO PHYSIQUE REFUSE, IL N'AUTORISE JAMAIS.** Le test le vérifie en
+déclarant le même projet vital puis indifférent : **le verdict ne bouge pas.**
+Deux motifs, et ils ne sont pas de même nature — **une INDISPONIBILITÉ résiste
+même à un bilan agrégé** (aucune pondération ne fabrique du lithium qui n'existe
+pas) alors qu'**un FRANCHISSEMENT y cède**. C'est cette asymétrie qui rend le
+cas 2 décisif.
+
+**(2) LA PRIORITÉ APPARTIENT AU POLITIQUE, ET LE MÉCANISME REND LA MAIN.** Il ne
+classe jamais deux besoins essentiels entre eux. Le non-essentiel cède devant
+l'essentiel — ce n'est pas un arbitrage entre besoins, c'est la qualification
+elle-même.
+
+**(3) LE CALIBRAGE ÉCHELONNE, IL NE REFUSE PAS AU FOND.** Un arrêt monétaire
+substantiel rendrait à la monnaie le pouvoir que NEMO lui retire. Le test vérifie
+que la demande est servie **intégralement** sur la fenêtre.
+
+### LE POUVOIR D'ARRÊT — TROIS ARRÊTS, UN SEUL INCONDITIONNEL
+
+**ARRÊT PHYSIQUE**, à l'organe d'observation des limites : **inconditionnel**,
+non surmontable par une majorité politique — sans quoi ce n'est pas un veto.
+**ARRÊT DÉMOCRATIQUE**, à l'institution compétente : **borné**, il ne reprend
+jamais une émission non remboursable déjà délivrée. **ARRÊT MONÉTAIRE**, à
+l'organe de calibrage : **délai seulement**.
+
+### LES SEPT CAS, ET CINQ METTENT LA RÈGLE EN DÉFAUT
+
+**CAS 1 — ESSENTIEL MAIS INFLATIONNISTE. TRANCHÉ, ET IL RESTREINT A44.** 1100 de
+besoin essentiel pour 1000 de capacité : la règle échelonne, sert 91 % à la
+première période et tout à la seconde. **« Garantir la disponibilité du
+financement » ne peut donc pas vouloir dire « immédiatement » : la promesse vaut
+SUR LA FENÊTRE, pas à la date.** Et ce que le programme ne dit pas : que
+l'échelonnement était nécessaire. **Il publie un écart de capacité, qui est une
+condition NÉCESSAIRE et NON SUFFISANTE d'une tension sur les prix. Les prix n'y
+sont pas endogènes, et aucun indicateur d'inflation n'est produit.**
+
+**CAS 2 — ÉCOLOGIQUE MAIS DÉPENDANT D'UNE RESSOURCE RARE. DILEMME NON TRANCHÉ.**
+Un parc solaire soulage le carbone de 150 et franchit la biodiversité de 40.
+**Veto strict : il est refusé, et la transition est bloquée par le veto censé la
+protéger.** Veto agrégé : il passe — **mais seulement parce qu'une limite a été
+pondérée contre une autre, ce qu'aucune donnée physique ne fait.** La variante
+agrégée n'est donc plus un veto physique, c'est une décision politique déguisée
+en mesure. **Le corpus mesure les deux et n'en choisit aucune.**
+
+**CAS 3 — DEUX BESOINS ESSENTIELS. INDÉCIDABLE PAR LE MÉCANISME, et c'est le bon
+comportement.** Quatre départages plausibles, **deux gagnants différents** : coût
+par bénéficiaire et nombre désignent le logement, gravité et antériorité
+désignent l'hôpital. **Choisir le départage EST la décision.** Une règle qui
+trancherait ici imposerait silencieusement une théorie du besoin — utilitariste,
+agrégative, hiérarchique ou arbitraire selon le départage retenu. **Ce qu'il faut
+n'est pas un critère mais une procédure, et elle n'existe pas.**
+
+**CAS 4 — ERREUR DE QUALIFICATION. TRANCHÉ CONTRE LA RÈGLE.** L'argent est versé
+et **rien ne le ramène** : les trois procédures testées récupèrent zéro. **Ce
+n'est pas une lacune d'implémentation, c'est la contrepartie de l'absence de
+dette, qui est le cœur même de NEMO.** Seule la compensation mord, en prenant 960
+sur les émissions futures de la même autorité — **l'erreur d'hier est payée par
+le bénéficiaire essentiel de demain, qui n'y est pour rien.** Le taux d'erreur
+est une hypothèse posée, non une donnée : le programme montre la FORME du coût,
+pas son ampleur.
+
+**CAS 5 — CHANGEMENT SCIENTIFIQUE. TENU JUSQU'À UN SEUIL, ET IL RESTREINT A44.**
+Un programme régulièrement admis, puis la limite est révisée. **À −40 %, l'arrêt
+et la transition ramènent le dépassement à zéro — au prix de 350 et 175
+d'émission échouée, c'est-à-dire d'hôpital à moitié construit. À −60 %, plus
+aucune procédure ne tient**, parce que le passé n'est pas révisable. **Le second
+engagement de A44 doit donc se lire comme une obligation À LA DATE DE LA
+DÉCISION** ; sans cela une révision scientifique ORDINAIRE suffit à falsifier la
+promesse sans qu'aucune faute n'ait été commise. **Et la contrepartie doit être
+écrite — délai, sort des tranches non versées, et QUI PAIE L'ÉCHOUAGE — sinon
+« à la date » devient un permis d'ignorer la science postérieure.**
+
+**CAS 6 — URGENCE HUMANITAIRE. BORNÉ, NON FERMÉ.** Un canal d'urgence contourne
+les décisions 1 et 2. **15 % de l'émission échappe par construction au veto
+physique ; 540 n'auraient pas dû être émis ; zéro récupérable — le même mur qu'au
+cas 4.** La ratification postérieure ne reprend rien : elle refuse les tranches à
+venir. **Et le plafond d'urgence est un nombre politique : trop bas il laisse
+mourir, trop haut il vide le veto. Aucun calcul ne peut le fixer, et le mécanisme
+n'a pas d'avis là-dessus.**
+
+**CAS 7 — CAPTURE POLITIQUE DE L'AUTORITÉ. NON DÉTECTÉ. C'EST LE RÉSULTAT LE PLUS
+DÉFAVORABLE DU CHANTIER.** L'autorité qualifie une centrale thermique
+d'essentielle et déclare une pression carbone de 340 au lieu de 500. **500 sont
+détournés, et les cinq contrôles restent au vert.** Le contrôle cumulé E5 a été
+ajouté **pour** l'attraper : il mord — la pression déclarée atteint 390 pour 400
+de budget — **et la capture se contente de déclarer en dessous. UN CONTRÔLE DE
+PLUS DÉPLACE LE MENSONGE, IL NE LE VOIT PAS.**
+
+**Le pouvoir d'arrêt ne rattrape rien**, et il faut le dire précisément :
+**l'arrêt physique s'exerce sur une pression DÉCLARÉE**, l'arrêt démocratique
+appartient à l'institution captée, l'arrêt monétaire ne porte que sur le rythme.
+**Tout contrôle interne porte sur une déclaration.** Ce qu'il faudrait — pression
+constatée et non déclarée, registre du besoin tenu hors de l'autorité qui
+qualifie, droit de saisine d'un tiers — **n'est pas conçu. Tant que cela n'existe
+pas, la garantie de A44 est CONDITIONNELLE À LA PROBITÉ DE L'AUTORITÉ, et cette
+condition n'est écrite nulle part dans la promesse.**
+
+### CE QUE LE CHANTIER LAISSE DERRIÈRE LUI
+
+**Six pièces de conception manquantes, chacune nommée par un cas** :
+`DEPARTAGE-ESSENTIELS`, `VETO-AGREGATION`, `CORRECTION-D-ERREUR`,
+`REVISION-SCIENTIFIQUE`, `PLAFOND-D-URGENCE`, `MESURE-EXTERIEURE`. **F3 est
+instruit défavorablement** — le cas 7 est Goodhart en conditions de laboratoire,
+produit par le corpus contre lui-même. **F7 est déplacé, non traité** : le
+pilotage devient une question de rythme et non d'objet, et **si ce rythme est
+pilotable n'est pas répondu.** **F13 reçoit sa face physique** avec
+`VETO-AGREGATION`.
+
+**ET IL FAUT REDIRE CE QUE CE PROGRAMME NE FAIT PAS.** Il n'établit pas que la
+règle soit bonne. Un programme qui applique une règle prouve qu'il l'applique,
+jamais qu'elle est fondée. **Les projets sont fictifs, aucun seuil n'est calibré,
+et les cinq mises en défaut sont des mises en défaut DE LA RÈGLE, pas des
+incidents du programme.**
