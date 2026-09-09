@@ -69,15 +69,55 @@ exiger(len(m.CHARGE_PARTAGEE) == 4
        "et la charge partagée porte ses quatre composantes, dont les tranches "
        "et l'expertise indépendante")
 
-# Sans horizon, la protection ne disparaît pas : elle passe en zone
-# intermédiaire, qui est le régime prudent.
+
+# =====================================================================
+print("")
+print("A bis. UNE GRILLE LACUNAIRE N'EST PAS UN RISQUE INTERMÉDIAIRE")
+# =====================================================================
+# C'ÉTAIT UNE ÉCHAPPATOIRE : faire basculer en zone intermédiaire un dossier
+# non qualifiable revenait à récompenser l'autorité qui ne construit jamais la
+# grille — elle obtenait l'autorisation par tranches sans avoir rien évalué.
 sans_horizon = [d for d in m.DOSSIERS if d.domaine not in m.GRILLE["horizons"]]
-exiger(all(m.qualifier(d)[0] in m.REGIMES for d in sans_horizon),
-       "et même sans horizon sectoriel, %d dossiers reçoivent un régime : la "
-       "grille lacunaire ne crée pas de vide, elle bascule en zone "
-       "intermédiaire" % len(sans_horizon))
-exiger(any(x.startswith("[Q2]") for x in m.qualifier(sans_horizon[0])[2]),
-       "tout en signalant l'horizon manquant")
+exiger(len(sans_horizon) > 0,
+       "%d dossiers n'ont pas d'horizon dans la grille de référence"
+       % len(sans_horizon))
+exiger(all(m.qualifier(d)[0] != "intermediaire" for d in sans_horizon),
+       "AUCUN ne reçoit le régime des dossiers ÉVALUÉS : la qualification "
+       "incomplète est un régime distinct")
+exiger(all(m.qualifier(d)[0] in ("qualification_incomplete",
+                                 "urgence_essentielle")
+           for d in sans_horizon),
+       "ils reçoivent « qualification_incomplete », sauf le besoin essentiel "
+       "urgent qui garde son intervention minimale et temporaire")
+exiger(any(x.startswith("[Q2]") for x in
+           m.qualifier([d for d in sans_horizon
+                        if not d.urgence][0])[2]),
+       "et l'horizon manquant est signalé")
+
+exiger(m.controler_exhaustivite() == []
+       or not any(x.startswith("[R2]") for x in m.controler_exhaustivite()),
+       "le contrôle R2 ne relève aucune lacune profitable")
+faux = dict(m.GRILLE)
+faux["horizons"] = {}
+exiger(all(m.qualifier(d, faux)[0] != "intermediaire" for d in m.DOSSIERS),
+       "et même avec une grille VIDE, aucun dossier n'obtient le régime "
+       "intermédiaire : ne rien construire ne donne rien")
+
+exiger(len(m.INTERDIT_SI_INCOMPLETE) == 2
+       and any("IRRÉVERSIBLE" in x for x in m.INTERDIT_SI_INCOMPLETE)
+       and any("COMPLÈTE" in x for x in m.INTERDIT_SI_INCOMPLETE),
+       "le régime par défaut INTERDIT toute émission complète et toute action "
+       "irréversible")
+exiger(any("ÉTUDES" in x for x in m.AUTORISE_SI_INCOMPLETE)
+       and any("RÉVERSIBLES" in x for x in m.AUTORISE_SI_INCOMPLETE)
+       and any("MINIMALE" in x for x in m.AUTORISE_SI_INCOMPLETE),
+       "mais AUTORISE les études, les préparatoires réversibles et "
+       "l'intervention essentielle minimale — il suspend l'instruction, non "
+       "la connaissance ni le secours")
+exiger(any("DÉLAI PUBLIC" in x for x in m.OBLIGE_SI_INCOMPLETE)
+       and any("INDÉPENDANT" in x for x in m.OBLIGE_SI_INCOMPLETE),
+       "et il OBLIGE l'autorité : délai public pour compléter la grille, "
+       "contrôle indépendant du retard — NE RIEN FAIRE LUI COÛTE")
 
 
 # =====================================================================
@@ -156,6 +196,14 @@ tard = m.Dossier("essai", "essai", "energie", 2, 2, 0.50,
 exiger(m.instruire(tard, COMPLETE)[0] == "precaution",
        "sans cette lecture, « dans un délai utile » n'aurait aucun effet : un "
        "délai de 99 périodes vaudrait un délai de 1")
+motif = m.instruire(tard, COMPLETE)[1]
+exiger("NON RÉDUCTIBLE POUR LA DÉCISION PRÉSENTE" in motif
+       and "sans être définitivement irréductible" in motif,
+       "ET LA FORMULE EST CELLE DE L'AUTEUR : non réductible POUR LA DÉCISION "
+       "PRÉSENTE, sans être déclarée définitivement irréductible")
+exiger("RÉEXAMEN OUVERT" in motif,
+       "ce qui laisse le réexamen ouvert dès que les connaissances arrivent — "
+       "« irréductible » aurait clos la question")
 
 
 # =====================================================================

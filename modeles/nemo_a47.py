@@ -153,8 +153,31 @@ CHARGE_PARTAGEE = (
     ("autorisation", "limitée par tranches, surveillée et révocable"),
 )
 
+# LE RÉGIME PAR DÉFAUT — une grille lacunaire n'ouvre AUCUN droit nouveau.
+# Sans cela, une autorité éviterait les règles en ne construisant jamais la
+# grille : le dossier passerait en zone intermédiaire et obtiendrait
+# l'autorisation par tranches. LA LACUNE NE DOIT PROFITER À PERSONNE.
+INTERDIT_SI_INCOMPLETE = (
+    "toute ÉMISSION COMPLÈTE",
+    "toute ACTION IRRÉVERSIBLE",
+)
+AUTORISE_SI_INCOMPLETE = (
+    "le financement des ÉTUDES et des MESURES nécessaires",
+    "les OPÉRATIONS PRÉPARATOIRES RÉVERSIBLES",
+    "pour un besoin essentiel urgent, l'INTERVENTION MINIMALE ET TEMPORAIRE",
+)
+OBLIGE_SI_INCOMPLETE = (
+    "compléter la grille dans un DÉLAI PUBLIC",
+    "CONTRÔLE INDÉPENDANT en cas de retard",
+)
+
 REGIMES = {
     "impossible": ("—", "refus : impossibilité matérielle"),
+    "qualification_incomplete": (
+        "instruction suspendue",
+        "ni émission complète ni action irréversible ; études, mesures et "
+        "préparatoires réversibles admises ; délai public et contrôle du "
+        "retard"),
     "grave_irreversible": ("porteur",
                            "établir une compatibilité suffisante"),
     "limite_reversible": ("autorité",
@@ -193,11 +216,14 @@ def qualifier(d, grille=None):
             % (d.cle, d.domaine,
                " / ".join("%s : %s" % (h, "réversible" if v else "irréversible")
                           for h, v in sorted(d.reversible_sur.items()))))
-        # Faute d'horizon, la grille est INCOMPLÈTE : ce n'est pas un vide de
-        # la doctrine mais un vide de la grille, et la zone intermédiaire —
-        # charge partagée, tranches, surveillance — est le régime protecteur.
-        return ("intermediaire",
-                "horizon sectoriel non fixé : zone intermédiaire par défaut",
+        # UNE GRILLE LACUNAIRE N'EST PAS UN RISQUE INTERMÉDIAIRE. Le risque
+        # intermédiaire suppose un dossier ÉVALUÉ ; ici la qualification n'a
+        # pas pu être achevée. Les confondre ouvrirait une échappatoire :
+        # ne jamais construire la grille pour obtenir l'autorisation par
+        # tranches.
+        return ("qualification_incomplete",
+                "horizon sectoriel non fixé : la qualification n'est pas "
+                "achevée, elle n'est pas intermédiaire",
                 anomalies)
 
     reversible = d.reversible_sur[horizon]
@@ -228,7 +254,8 @@ def qualifier(d, grille=None):
 # =====================================================================
 INSTRUCTIONS = {
     "acquisition": "acquisition de données AVANT décision complète",
-    "precaution": "décision avec MARGE DE PRÉCAUTION explicitée",
+    "precaution": "décision avec MARGE DE PRÉCAUTION explicitée, réexamen "
+                  "ouvert dès que les connaissances arrivent",
     "urgence": "autorisation minimale et temporaire PENDANT l'instruction",
     "directe": "application directe de la grille",
     "residuelle": "application de la grille, la confiance étant publiée avec "
@@ -241,11 +268,15 @@ def instruire(d, grille=None):
     PROCÉDURE DIT COMMENT ON INSTRUIT. Les deux sont séparés, et c'est
     précisément par la seconde que l'incertitude agit.
 
-    UNE LECTURE EST FAITE ICI, ET ELLE EST SIGNALÉE : une incertitude
-    RÉDUCTIBLE mais hors du délai utile est traitée comme IRRÉDUCTIBLE POUR LA
-    DÉCISION PRÉSENTE. Le qualificatif « dans un délai utile » de la règle
-    n'aurait sinon aucun effet. Ce n'est pas une règle ajoutée, c'est la lecture
-    de celle qui existe — et elle est écrite ici pour pouvoir être contestée.
+    UNE LECTURE EST FAITE ICI, ET ELLE EST SIGNALÉE, dans la formulation
+    arrêtée par l'auteur : une incertitude réductible hors du délai utile est
+    traitée comme NON RÉDUCTIBLE POUR LA DÉCISION PRÉSENTE, SANS ÊTRE DÉCLARÉE
+    DÉFINITIVEMENT IRRÉDUCTIBLE. La nuance n'est pas verbale : elle laisse le
+    RÉEXAMEN ouvert dès que les connaissances deviennent disponibles, là où
+    « irréductible » aurait clos la question. Le qualificatif « dans un délai
+    utile » n'aurait sinon aucun effet — un délai de 99 périodes vaudrait un
+    délai de 1. Ce n'est pas une règle ajoutée, c'est la lecture de celle qui
+    existe, et elle est écrite ici pour pouvoir être contestée.
     """
     g = GRILLE if grille is None else grille
     if d.urgence and d.essentiel:
@@ -259,8 +290,9 @@ def instruire(d, grille=None):
                 % (d.confiance, g["seuil_confiance"]))
     if d.gravite >= g["gravite_serieuse"]:
         return ("precaution",
-                "incertitude irréductible dans le délai utile (%s) et dommage "
-                "potentiellement grave (gravité %d)"
+                "incertitude NON RÉDUCTIBLE POUR LA DÉCISION PRÉSENTE (%s), "
+                "sans être définitivement irréductible — RÉEXAMEN OUVERT ; "
+                "dommage potentiellement grave (gravité %d)"
                 % ("non réductible" if not d.reductible
                    else "délai %d > %d" % (d.delai_acquisition,
                                            g["delai_utile"]), d.gravite))
@@ -282,16 +314,29 @@ def controler_publication(decision):
 
 
 def controler_exhaustivite(grille=None):
-    """R1 — AUCUN DOSSIER SANS RÉGIME. C'est la commande de l'auteur, et elle
-    est vérifiée sur la grille passée en argument."""
+    """R1 — AUCUN DOSSIER SANS RÉGIME, et R2 — AUCUNE LACUNE PROFITABLE.
+
+    R1 vérifie que tout dossier reçoit un régime. R2 vérifie qu'un dossier dont
+    la qualification n'a PAS pu être achevée ne reçoit PAS le régime des
+    dossiers évalués : sans quoi ne jamais construire la grille deviendrait un
+    moyen d'obtenir l'autorisation par tranches.
+    """
     anomalies = []
     for d in DOSSIERS:
         regime, _, _ = qualifier(d, grille)
         if regime not in REGIMES:
             anomalies.append("[R1] %s : régime « %s » inconnu"
                              % (d.cle, regime))
+            continue
         if REGIMES[regime][0] is None:
             anomalies.append("[R1] %s : aucun régime attribué" % d.cle)
+        g = GRILLE if grille is None else grille
+        if d.domaine not in g.get("horizons", {}) \
+                and regime not in ("qualification_incomplete", "impossible",
+                                   "urgence_essentielle"):
+            anomalies.append(
+                "[R2] %s : horizon absent et pourtant qualifié « %s » — la "
+                "lacune de grille ne doit ouvrir aucun droit" % (d.cle, regime))
     return anomalies
 
 
@@ -382,7 +427,7 @@ def application(grille=None, etiquette="grille de référence"):
 
 
 def exhaustivite():
-    titre("PREMIÈRE PROPRIÉTÉ EXIGÉE — AUCUN DOSSIER SANS RÉGIME")
+    titre("PREMIÈRE PROPRIÉTÉ — AUCUN DOSSIER ÉVALUÉ SANS RÉGIME")
     complete = grille_complete()
     anomalies = controler_exhaustivite(complete)
     regimes = {}
@@ -391,20 +436,82 @@ def exhaustivite():
         regimes[r] = regimes.get(r, 0) + 1
     print("  Avec une grille COMPLÈTE, sur %d dossiers :" % len(DOSSIERS))
     for r in sorted(regimes):
-        print("    %-22s %d — charge : %s" % (r, regimes[r], REGIMES[r][0]))
+        print("    %-26s %d — charge : %s" % (r, regimes[r], REGIMES[r][0]))
     print("")
-    print("  contrôle R1 : %s" % (anomalies or "aucune anomalie"))
+    print("  contrôles R1 et R2 : %s" % (anomalies or "aucune anomalie"))
     print("")
-    print("  LA VERSION PRÉCÉDENTE DE CE PROGRAMME RENDAIT DEUX DOSSIERS")
-    print("  « SANS CHARGE ATTRIBUÉE » ET EN TIRAIT UN DÉFAUT DE LA DOCTRINE.")
-    print("  C'ÉTAIT UNE ERREUR DE TRADUCTION DE LA RÈGLE. La zone")
-    print("  intermédiaire est prévue, et « grave mais réversible » comme")
-    print("  « irréversible mais peu plausible » y appartiennent précisément.")
+    print("  LA ZONE INTERMÉDIAIRE ÉTAIT PRÉVUE PAR LA RÈGLE, et le programme")
+    print("  la rendait vide : « grave mais réversible » et « irréversible mais")
+    print("  peu plausible » y appartiennent. Corrigé.")
     print("")
     print("  ET LA CHARGE PARTAGÉE N'EST PAS UN MOT :")
     for qui, quoi in CHARGE_PARTAGEE:
         print("    %-24s %s" % (qui, quoi))
     return anomalies, regimes
+
+
+def la_lacune_ne_profite_a_personne():
+    titre("DEUXIÈME PROPRIÉTÉ — UNE GRILLE LACUNAIRE N'OUVRE AUCUN DROIT")
+    print("  UNE GRILLE LACUNAIRE N'EST PAS UN RISQUE INTERMÉDIAIRE, et les")
+    print("  confondre ouvrirait une échappatoire : une autorité éviterait les")
+    print("  règles EN NE CONSTRUISANT JAMAIS LA GRILLE.")
+    print("")
+    print("    RISQUE INTERMÉDIAIRE     dossier ÉVALUÉ dont les")
+    print("                             caractéristiques se situent entre les")
+    print("                             catégories extrêmes")
+    print("    QUALIFICATION INCOMPLÈTE horizon, seuil ou donnée indispensable")
+    print("                             ABSENT — la qualification n'a pas pu")
+    print("                             être achevée")
+    print("")
+    complete = grille_complete()
+    sans = [d for d in DOSSIERS if d.domaine not in GRILLE["horizons"]]
+    print("  %d dossiers sur %d n'ont pas d'horizon dans la grille de"
+          % (len(sans), len(DOSSIERS)))
+    print("  référence. CE QU'ILS OBTIENNENT, SELON QUE LA GRILLE EST FAITE OU")
+    print("  NON :")
+    print("")
+    print("  %-14s %-26s %-26s" % ("dossier", "grille lacunaire",
+                                   "grille complète"))
+    gagnants = 0
+    for d in sans:
+        a, _, _ = qualifier(d)
+        b, _, _ = qualifier(d, complete)
+        if a == b:
+            note = ""
+        elif a == "qualification_incomplete":
+            note = ""
+        else:
+            note = "  ← la lacune a profité"
+            gagnants += 1
+        print("  %-14s %-26s %-26s%s" % (d.cle, a, b, note))
+    print("")
+    print("  CE QUE LE RÉGIME PAR DÉFAUT INTERDIT :")
+    for x in INTERDIT_SI_INCOMPLETE:
+        print("    — %s" % x)
+    print("  CE QU'IL AUTORISE :")
+    for x in AUTORISE_SI_INCOMPLETE:
+        print("    — %s" % x)
+    print("  CE QU'IL OBLIGE :")
+    for x in OBLIGE_SI_INCOMPLETE:
+        print("    — %s" % x)
+    print("")
+    print("  LA LACUNE NE PROFITE À PERSONNE, ET C'EST LA PROPRIÉTÉ QUI COMPTE.")
+    print("  AU PORTEUR : aucune émission complète, aucune action")
+    print("  irréversible — moins que sous tout régime évalué, y compris")
+    print("  l'intermédiaire, qui autorise le projet PAR TRANCHES.")
+    print("  À L'AUTORITÉ : un délai public pour compléter la grille, et un")
+    print("  contrôle indépendant du retard. Ne rien faire lui coûte.")
+    print("")
+    print("  %d dossier(s) tirent avantage de la lacune : %s"
+          % (gagnants, "aucun" if not gagnants else "À CORRIGER"))
+    print("")
+    print("  ET CE QUI N'EST PAS BLOQUÉ POUR AUTANT : les études et les mesures")
+    print("  sont FINANÇABLES — c'est même par elles que la lacune se comble —")
+    print("  les opérations préparatoires réversibles sont admises, et un")
+    print("  besoin essentiel urgent reçoit l'intervention minimale et")
+    print("  temporaire. LE DÉFAUT DE GRILLE SUSPEND L'INSTRUCTION, IL NE")
+    print("  SUSPEND NI LA CONNAISSANCE NI LE SECOURS.")
+    return gagnants
 
 
 def procedures_differentes():
@@ -545,6 +652,7 @@ def main():
     application()
     application(grille_complete(), "grille COMPLÈTE")
     anomalies, regimes = exhaustivite()
+    gagnants = la_lacune_ne_profite_a_personne()
     procedures = procedures_differentes()
     une_lecture_signalee()
     les_seuils()
@@ -554,10 +662,17 @@ def main():
     print("  DEUX DE SES TROIS « RESTES » ÉTAIENT DES LECTURES FAUTIVES.")
     print("")
     print("  LA ZONE INTERMÉDIAIRE était prévue par la règle ; le programme la")
-    print("  rendait vide. Corrigé : tout dossier qui ne relève ni de")
+    print("  rendait vide. Corrigé : tout dossier ÉVALUÉ qui ne relève ni de")
     print("  l'impossibilité, ni du risque plausible grave et irréversible, ni")
-    print("  du risque limité et réversible y entre AUTOMATIQUEMENT. Le")
-    print("  contrôle R1 vérifie qu'aucun dossier ne reste sans régime : %s."
+    print("  du risque limité et réversible y entre AUTOMATIQUEMENT.")
+    print("")
+    print("  ET UNE GRILLE LACUNAIRE N'Y ENTRE PAS — c'était une échappatoire")
+    print("  que la correction précédente avait ouverte. La QUALIFICATION")
+    print("  INCOMPLÈTE est un régime distinct : ni émission complète ni action")
+    print("  irréversible, études et préparatoires réversibles admises, délai")
+    print("  public et contrôle du retard. %d dossier(s) tirent avantage de la"
+          % gagnants)
+    print("  lacune. Les contrôles R1 et R2 : %s."
           % (anomalies or "aucune anomalie"))
     print("")
     print("  L'INCERTITUDE agit sur la PROCÉDURE, non sur le régime — c'est")
@@ -565,6 +680,12 @@ def main():
     print("  n'emportait rien. Corrigé : trois dossiers de MÊME RISQUE et de")
     print("  connaissances différentes reçoivent %d procédures distinctes."
           % len(set(p for _, p in procedures.values())))
+    print("")
+    print("  ET LA LECTURE DU DÉLAI UTILE EST REFORMULÉE : une incertitude")
+    print("  réductible hors délai est traitée comme NON RÉDUCTIBLE POUR LA")
+    print("  DÉCISION PRÉSENTE, SANS ÊTRE DÉCLARÉE DÉFINITIVEMENT")
+    print("  IRRÉDUCTIBLE — le réexamen reste ouvert dès que les connaissances")
+    print("  arrivent.")
     print("")
     print("  ET TROIS VARIABLES SONT DÉSORMAIS SÉPARÉES : la probabilité")
     print("  estimée du dommage, la confiance accordée à cette estimation, et")

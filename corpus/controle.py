@@ -594,8 +594,20 @@ def main():
                                      "pieces_de_conception_manquantes")
                        for e in (registre.get(cle) or [])
                        if e.get("statut") == "arbitre")
+        # QUI A TRANCHE : un arbitrage de l'auteur et une consequence tiree
+        # par le corpus ne sont pas la meme chose, et les confondre grossit le
+        # nombre de decisions prises. Ventilation exigee par l'auteur le
+        # 2026-09-09.
+        par_auteur = sum(1 for cle in ("arbitrages", "falsifieurs",
+                                       "pieces_de_conception_manquantes")
+                         for e in (registre.get(cle) or [])
+                         if e.get("statut") == "arbitre"
+                         and e.get("tranche_par") == "auteur")
+        par_corpus = arbitres - par_auteur
         print("")
-        print(f"  {arbitres} arbitré(s) ; {len(ouverts)} ouvert(s) ou orienté(s).")
+        print(f"  {arbitres} arbitré(s) — dont {par_auteur} par l'auteur "
+              f"et {par_corpus} par le corpus, en conséquence d'une décision "
+              f"antérieure ; {len(ouverts)} ouvert(s) ou orienté(s).")
         print("  RAPPEL : « décisions en attente » ci-dessus ne porte QUE sur les")
         print("  empreintes éditoriales, et ne dit rien de ces points-ci.")
 
