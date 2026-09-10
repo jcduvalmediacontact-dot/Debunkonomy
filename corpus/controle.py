@@ -15,6 +15,19 @@ Usage :
     python controle.py --maj-etat --fond
                                        # déclare les changements substantiels
                                        # (même jour que la revision_de_fond en cours)
+    python controle.py --maj-etat --purger-orphelins
+                                       # retire les entrées d'état sans chapitre
+
+L'enregistrement de l'état CONSERVE les qualifications existantes (réparation
+du 2026-09-10, protocoles/migration-etat-lecture.md § 9) : une entrée
+inchangée, ou dont seules les métadonnées ont changé, garde la sienne ;
+--editorial et --fond ne qualifient que les entrées dont l'empreinte éditoriale
+a changé à revision_de_fond inchangée ; une entrée dont revision_de_fond a été
+déplacée est qualifiée « fond » d'après cette date, seule l'inscription étant
+datée du jour ; une entrée nouvelle est qualifiée « initialisation » —
+« tardive » si le chapitre existait avant son premier enregistrement. Aucune
+qualification n'est jamais supprimée sans demande explicite : l'enregistrement
+est refusé plutôt que d'en perdre une.
 
 Dépendance : PyYAML  (pip install pyyaml)
 """
@@ -458,6 +471,109 @@ def controler_empreintes(nom, cle, entete, corps, etat):
             "revision_de_fond": str(entete.get("revision_de_fond"))}
 
 
+# --- État enregistré : construction conservatrice ---------------------------
+# Réparation du 2026-09-10. L'ancien enregistrement reconstruisait le fichier
+# entier depuis les empreintes recalculées et ne posait de qualification que
+# par option globale : une exécution effaçait toutes les qualifications
+# existantes, ou les remplaçait toutes par celle du jour. Ici l'état PART DU
+# FICHIER EXISTANT, reporte chaque qualification, ne touche qu'aux entrées
+# visées et nomme ce qu'il initialise.
+
+QUALIF_INIT = "initialisation, enregistrée le {jour}"
+QUALIF_INIT_TARDIVE = ("initialisation tardive, état antérieur non enregistré, "
+                       "enregistrée le {jour}")
+
+
+def construire_etat(ancien, calcule, editorial=False, fond=False, purger=False,
+                    jour=None):
+    """Retourne (etat_final, bilan, explicites). N'écrit rien.
+
+    ancien     : contenu actuel de .etat-corpus.json
+    calcule    : {cle: {editoriale, metadonnees, revision_de_fond}} recalculé
+    explicites : clés dont la qualification change ou disparaît par une
+                 règle ou une option, et non par accident — l'invariant de
+                 conservation les exempte, et elles seules.
+    """
+    jour = str(jour or date.today())
+    final, explicites = {}, set()
+    bilan = {"conservees": 0, "metadonnees": 0, "fond_declare": 0,
+             "requalifiees": 0, "initialisees": 0, "tardives": 0,
+             "orphelines_conservees": 0, "orphelines_purgees": 0}
+    for cle, neuf in calcule.items():
+        vieux = ancien.get(cle)
+        entree = dict(neuf)
+        if vieux is None:
+            # P4, P5 : une entrée nouvelle est nommée pour ce qu'elle est —
+            # jamais qualifiée d'une décision éditoriale qui n'a pas été prise.
+            tardive = str(neuf.get("revision_de_fond")) < jour
+            entree["qualification"] = (QUALIF_INIT_TARDIVE if tardive
+                                       else QUALIF_INIT).format(jour=jour)
+            bilan["tardives" if tardive else "initialisees"] += 1
+        elif vieux.get("editoriale") == neuf["editoriale"]:
+            # P1, P2 : corps et résumé inchangés — la qualification antérieure
+            # est reportée telle quelle, que les métadonnées aient bougé ou non.
+            if vieux.get("qualification"):
+                entree["qualification"] = vieux["qualification"]
+            if (vieux.get("metadonnees") == neuf["metadonnees"]
+                    and str(vieux.get("revision_de_fond")) == str(neuf["revision_de_fond"])):
+                bilan["conservees"] += 1
+            else:
+                bilan["metadonnees"] += 1
+        elif str(vieux.get("revision_de_fond")) != str(neuf["revision_de_fond"]):
+            # Règle dérivée : le corps a changé ET revision_de_fond a été
+            # déplacée — la convention réserve ce déplacement au changement de
+            # sens, le changement de fond est donc déjà déclaré par le
+            # chapitre. Sa date est celle du chapitre ; seule l'inscription
+            # dans l'état est datée du jour, et « tardivement » le dit.
+            rev = str(neuf["revision_de_fond"])
+            quand = ("enregistrée tardivement le " + jour if rev < jour
+                     else "enregistrée le " + jour)
+            entree["qualification"] = f"fond, revision_de_fond du {rev}, {quand}"
+            explicites.add(cle)
+            bilan["fond_declare"] += 1
+        else:
+            # P3 : corps changé à date inchangée — c'est une décision en
+            # attente, et seule une option explicite la qualifie, elle seule.
+            if fond:
+                entree["qualification"] = f"fond, déclarée le {jour}"
+                explicites.add(cle)
+                bilan["requalifiees"] += 1
+            elif editorial:
+                entree["qualification"] = f"editorial, déclaré le {jour}"
+                explicites.add(cle)
+                bilan["requalifiees"] += 1
+            elif vieux.get("qualification"):
+                entree["qualification"] = vieux["qualification"]
+        final[cle] = entree
+    # P7, P9 : une entrée sans chapitre n'est jamais supprimée en silence.
+    for cle, vieux in ancien.items():
+        if cle in calcule:
+            continue
+        if purger:
+            explicites.add(cle)
+            bilan["orphelines_purgees"] += 1
+        else:
+            final[cle] = dict(vieux)
+            bilan["orphelines_conservees"] += 1
+    return final, bilan, explicites
+
+
+def qualifications_perdues(ancien, final, explicites=()):
+    """Invariant de conservation (protocole § 9.3, invariant Q) : les
+    qualifications d'avant se retrouvent après, à l'identique, sauf sur les
+    entrées explicitement requalifiées ou purgées."""
+    perdues = []
+    for cle, vieux in ancien.items():
+        q = vieux.get("qualification")
+        if not q or cle in explicites:
+            continue
+        if cle not in final:
+            perdues.append((cle, "entrée disparue"))
+        elif final[cle].get("qualification") != q:
+            perdues.append((cle, "qualification modifiée sans demande"))
+    return perdues
+
+
 # --- Programme principal ----------------------------------------------------
 
 def main():
@@ -465,6 +581,8 @@ def main():
     maj_etat = "--maj-etat" in sys.argv
     editorial = "--editorial" in sys.argv
     fond = "--fond" in sys.argv
+    purger = "--purger-orphelins" in sys.argv
+    refus_etat = False
 
     vocabulaire = charger_vocabulaire()
     livres = charger_livres()
@@ -526,6 +644,13 @@ def main():
             bloque(nom, f"publication refusée : statut « {entete.get('statut')} », "
                         f"citable={entete.get('citable')}")
 
+        # P8 (réparation du 2026-09-10) : un marqueur d'état sans état
+        # enregistré ne protège rien — rien ne se publie sans entrée d'état.
+        if publier and (entete.get("statut") == "verifie" or entete.get("citable") is True) \
+                and cle not in etat:
+            bloque(nom, "publication refusée : aucun état enregistré pour ce chapitre "
+                        "— l'enregistrer d'abord avec --maj-etat")
+
     # Seconde passe : contrôles transversaux
     for cle, infos in chapitres.items():
         for renvoi in infos["entete"].get("renvois") or []:
@@ -548,11 +673,18 @@ def main():
 
     registre = charger_arbitrages()
 
+    # P6, P7 (réparation du 2026-09-10) : l'état enregistré est surveillé —
+    # un chapitre sans entrée et une entrée sans chapitre apparaissent tous
+    # deux au diagnostic, avec leur compte en tête de rapport.
+    absents = sorted(cle for cle in chapitres if cle not in etat)
+    orphelins = sorted(cle for cle in etat if cle not in chapitres)
+
     # Rapport
     largeur = 78
     print("=" * largeur)
     print(f"CONTRÔLE DU CORPUS — {date.today()}")
-    print(f"{len(chapitres)} chapitre(s), {len(vocabulaire)} concept(s) au vocabulaire")
+    print(f"{len(chapitres)} chapitre(s), {len(vocabulaire)} concept(s) au vocabulaire, "
+          f"{len(absents)} sans état enregistré, {len(orphelins)} entrée(s) d'état orpheline(s)")
     print("=" * largeur)
 
     for titre, entrees in (("BLOCAGES — la publication est refusée", blocages),
@@ -564,6 +696,15 @@ def main():
             print("  (aucune)")
         for fichier, message in entrees:
             print(f"  {fichier}\n      {message}")
+
+    print(f"\nÉTAT ENREGISTRÉ — écarts  [{len(absents) + len(orphelins)}]")
+    print("-" * largeur)
+    if not absents and not orphelins:
+        print("  (aucun)")
+    for cle in absents:
+        print(f"  {chapitres[cle]['nom']}\n      état non enregistré — {cle} n'a aucune entrée dans {ETAT.name}")
+    for cle in orphelins:
+        print(f"  {ETAT.name}\n      entrée d'état sans chapitre correspondant : {cle}")
 
     if registre:
         ouverts = []
@@ -626,21 +767,32 @@ def main():
         print("  Le changement est éditorial :")
         print("    --maj-etat --editorial.")
     elif maj_etat:
-        for cle in nouvel_etat:
-            if fond:
-                nouvel_etat[cle]["qualification"] = f"fond, déclarée le {date.today()}"
-            elif editorial:
-                nouvel_etat[cle]["qualification"] = f"editorial, déclaré le {date.today()}"
-        ETAT.write_text(json.dumps(nouvel_etat, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"\nÉtat enregistré dans {ETAT.name}")
-        if decisions and fond:
-            print(f"  {len(decisions)} changement(s) déclaré(s) substantiels.")
-        elif decisions and editorial:
-            print(f"  {len(decisions)} changement(s) déclaré(s) éditoriaux.")
+        final, bilan, explicites = construire_etat(etat, nouvel_etat, editorial, fond, purger)
+        perdues = qualifications_perdues(etat, final, explicites)
+        if perdues:
+            # P9 : jamais de perte silencieuse — on refuse d'écrire.
+            refus_etat = True
+            print(f"\nÉtat non enregistré : {len(perdues)} qualification(s) seraient perdues.")
+            for cle, motif in perdues:
+                print(f"  {cle} : {motif}")
+        else:
+            ETAT.write_text(json.dumps(final, indent=2, ensure_ascii=False), encoding="utf-8")
+            print(f"\nÉtat enregistré dans {ETAT.name} — {len(final)} entrée(s).")
+            print(f"  {bilan['conservees'] + bilan['metadonnees']} qualification(s) conservée(s), "
+                  f"dont {bilan['metadonnees']} à métadonnées modifiées seules")
+            print(f"  {bilan['fond_declare']} changement(s) de fond déclaré(s) par revision_de_fond")
+            print(f"  {bilan['requalifiees']} requalifiée(s) par option")
+            print(f"  {bilan['initialisees']} initialisation(s), {bilan['tardives']} tardive(s)")
+            if bilan["orphelines_conservees"] or bilan["orphelines_purgees"]:
+                print(f"  {bilan['orphelines_conservees']} entrée(s) orpheline(s) conservée(s), "
+                      f"{bilan['orphelines_purgees']} purgée(s)")
 
     print()
     if blocages:
         print(f"ÉCHEC — {len(blocages)} blocage(s). Rien n'est publiable en l'état.")
+        return 1
+    if refus_etat:
+        print("ÉCHEC — état non enregistré : une qualification serait perdue.")
         return 1
     print("Contrôle structurel passé.")
     if decisions:
