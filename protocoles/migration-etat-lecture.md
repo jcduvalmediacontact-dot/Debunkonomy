@@ -3,10 +3,12 @@
 **État : proposition, 2026-09-10, révisée quatre fois le même jour — après la
 correction de l'auteur sur E-L6 ; après ses corrections sur le commit source,
 l'état enregistré et la voie hors ligne ; après l'audit du fichier d'état, qui
-ouvre un préalable distinct (§ 9) ; enfin après la validation par l'auteur des
-douze changements de fond et de la restauration des vingt-sept dates. La
-proposition elle-même ne modifie rien ; les commits préparatoires qu'elle
-décrit sont énumérés au § 7.1, et chacun est limité à son objet.** Ni la convention, ni `controle.py`, ni
+ouvre un préalable distinct (§ 9) ; après la validation par l'auteur des
+douze changements de fond et de la restauration des vingt-sept dates ; enfin,
+les quatre commits préparatoires exécutés, pour aligner P5 et le § 9.3 sur les
+faits établis. La proposition elle-même ne modifie rien ; les commits
+préparatoires qu'elle décrit sont énumérés au § 7.1, et chacun est limité à
+son objet.** Ni la convention, ni `controle.py`, ni
 aucun chapitre, ni aucune date. **Aucune source n'est promue, aucun manifeste
 n'est créé.**
 
@@ -886,7 +888,7 @@ valent au commit `98713a0`.
 | **P2** | une modification de **métadonnées seule** conserve la qualification antérieure | écriture |
 | **P3** | `--editorial` ou `--fond` **ne qualifie que les entrées dont l'empreinte éditoriale a effectivement changé** — jamais les 335 | écriture |
 | **P4** | une **nouvelle entrée** reçoit une qualification explicite : `initialisation, enregistrée le AAAA-MM-JJ` | écriture |
-| **P5** | une initialisation **tardive** est nommée comme telle : `initialisation tardive, état antérieur non enregistré` — tardive quand le chapitre existait avant le jour de son premier enregistrement, ce qu'une `revision_de_fond` antérieure à ce jour établit sans appel à Git | écriture |
+| **P5** | une initialisation **tardive** est nommée comme telle : `initialisation tardive, état antérieur non enregistré` — **déclarée après audit, par l'option explicite `--initialiser-tardif`, jamais déduite de `revision_de_fond`** : une date de fond antérieure au jour d'enregistrement ne démontre pas que le chapitre existait lors de l'état précédent, un chapitre nouveau pouvant reprendre un contenu révisé auparavant. Sans option, `--maj-etat` produit une initialisation neutre. L'option ne vise que les entrées absentes — toutes, ou celles qu'elle nomme —, ne modifie aucune entrée enregistrée, et est refusée dès que sa portée serait ambiguë : sans `--maj-etat`, sans entrée absente, ou sur une entrée déjà enregistrée | écriture |
 | **P6** | une **entrée absente** du fichier d'état apparaît dans le diagnostic — une ligne par chapitre, et le compte en tête | diagnostic |
 | **P7** | une **entrée d'état sans chapitre** correspondant apparaît dans le diagnostic | diagnostic |
 | **P8** | la publication d'un chapitre `verifie` ou `citable` **sans état enregistré est bloquée** — sous `--publier` | blocage |
@@ -922,16 +924,21 @@ commit de migration** (§ 8.4, invariant I8).
 | **T-Q1** | une entrée inchangée conserve sa qualification après `--maj-etat` (P1) |
 | **T-Q2** | une entrée dont seul l'en-tête change la conserve (P2) |
 | **T-Q3** | `--fond` sur une copie où un seul chapitre a changé de corps : **une seule** qualification change, les autres sont identiques octet pour octet (P3, P10) |
-| **T-Q4** | un chapitre nouveau reçoit `initialisation, enregistrée le <jour>` ; un chapitre à `revision_de_fond` antérieure reçoit `initialisation tardive, état antérieur non enregistré` (P4, P5) |
+| **T-Q4** | un chapitre nouveau reçoit `initialisation, enregistrée le <jour>`, **quelle que soit sa `revision_de_fond`** — une ancienne date ne fait pas une initialisation tardive (P4) |
+| **T-Q9** | `--initialiser-tardif` qualifie `initialisation tardive, état antérieur non enregistré` les seules entrées absentes qu'il vise, ne modifie aucune autre entrée, et est refusé sans `--maj-etat`, sans entrée absente, ou sur une entrée déjà enregistrée (P5) |
 | **T-Q5** | le diagnostic liste les entrées absentes et les entrées orphelines (P6, P7) |
 | **T-Q6** | `--publier` refuse un chapitre `verifie` ou `citable` sans entrée d'état (P8) |
 | **T-Q7** | aucune combinaison d'options ne fait disparaître une qualification sans requalification nominative (P9) |
 | **T-Q8** | **sur le fichier réel, avant et après le commit de réparation** : 256 qualifications conservées, 12 requalifiées, 67 initialisées tardives — 335 entrées, aucune perdue |
 
-Les tests vivent dans `corpus/test_etat.py`, à écrire, et s'exécutent sur des
-copies dans un répertoire temporaire. **Un test qui passerait sur le script
-actuel serait un test faux** : T-Q1 et T-Q7 doivent échouer aujourd'hui, et
-c'est ainsi qu'on saura qu'ils mordent.
+Les tests vivent dans `corpus/test_etat.py` et s'exécutent sur des copies dans
+un répertoire temporaire. **Exécutée le 2026-09-10 contre le script d'avant
+réparation, la suite a donné 16 échecs sur 31** : T-Q3 à T-Q8 détectent les
+défauts pertinents. **T-Q1 et T-Q2 y passaient à vide** — le premier
+enregistrement avait déjà effacé toutes les qualifications, et il n'en restait
+aucune à conserver — ; **ils ne deviennent probants qu'en présence de
+l'invariant global de conservation**, que T-Q8 vérifie. La phrase qui
+annonçait ici l'échec de T-Q1 était fausse, et l'expérience l'a corrigée.
 
 ### 9.4 L'état de référence réparé — ce que le commit contient, et ce qu'il ne contient pas
 
@@ -951,7 +958,7 @@ distincts du commit de migration :
 |---|---|
 | 256 | conservée — « fond, déclarée le 2026-09-07 » ; dont 27 à en-tête modifié seulement, date de fond restaurée |
 | 12 | « fond, revision_de_fond du <date du chapitre>, enregistrée tardivement le 2026-09-10 » — validées par l'auteur |
-| 67 | « initialisation tardive, état antérieur non enregistré, enregistrée le 2026-09-10 » |
+| 67 | « initialisation tardive, état antérieur non enregistré, enregistrée le 2026-09-10 » — retard établi par l'historique Git (§ 9.1) et validé par l'auteur, conservé tel quel ; la déduction par la date qui l'avait produit est retirée du script depuis (P5) |
 | **335** | **aucune perdue** |
 
 **Ce que ces commits ne font pas.** Ils ne migrent aucune source et n'écrivent

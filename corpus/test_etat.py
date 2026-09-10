@@ -14,7 +14,11 @@ tests passent, 1 sinon.
   T-Q1  une entrée inchangée conserve sa qualification (P1)
   T-Q2  un en-tête seul modifié la conserve (P2)
   T-Q3  --fond ne qualifie que l'entrée dont le corps a changé, et rien d'autre (P3, P10)
-  T-Q4  initialisation nommée, tardive si le chapitre existait avant (P4, P5)
+  T-Q4  un chapitre nouveau est une initialisation neutre, quelle que soit sa
+        revision_de_fond — rien n'est déduit d'une date (P4)
+  T-Q9  --initialiser-tardif qualifie tardivement les seules entrées absentes
+        qu'il vise, ne modifie aucune autre entrée, et est refusé dès que sa
+        portée serait ambiguë (P5)
   T-Q5  entrées absentes et orphelines au diagnostic, orphelines conservées sauf purge (P6, P7, P9)
   T-Q6  --publier refuse un chapitre verifie ou citable sans état (P8)
   T-Q7  aucune combinaison d'options ne fait disparaître une qualification sans demande (P9)
@@ -22,7 +26,7 @@ tests passent, 1 sinon.
 Un test qui passerait sur le script d'avant la réparation serait un test
 faux. Exécutée contre ce script le 2026-09-10, la suite a donné 16 échecs sur
 31 assertions : T-Q8 (toute qualification perdue), T-Q3, T-Q4, T-Q5, T-Q6 et
-T-Q7 (--editorial) mordent. T-Q1 et T-Q2 y passaient À VIDE — le premier
+T-Q7 (--editorial) mordent — T-Q9 n'existait pas encore. T-Q1 et T-Q2 y passaient À VIDE — le premier
 enregistrement ayant effacé toutes les qualifications, il n'en restait aucune
 à conserver ; ils ne prouvent quelque chose qu'après T-Q8.
 """
@@ -141,9 +145,14 @@ perdues = [c for c in avant if avant[c].get("qualification")
            and (c not in apres or not apres[c].get("qualification"))]
 conservees = [c for c in avant if c in apres
               and apres[c].get("qualification") == avant[c].get("qualification")]
-fond_tardif = [c for c in apres if qualif(apres, c).startswith("fond, revision_de_fond du")]
-init_tardive = [c for c in apres if qualif(apres, c).startswith("initialisation tardive")]
-init = [c for c in apres if qualif(apres, c).startswith("initialisation, ")]
+# Les classes sont EXCLUSIVES : une entrée conservée l'est, quel que soit le
+# texte de sa qualification ; seules les entrées nouvelles ou requalifiées
+# se classent d'après lui. Sur un état déjà à jour, tout est conservé.
+changees = [c for c in apres if c not in conservees]
+fond_tardif = [c for c in changees if qualif(apres, c).startswith("fond, revision_de_fond du")]
+init_tardive = [c for c in changees if qualif(apres, c).startswith("initialisation tardive")]
+init = [c for c in changees if qualif(apres, c).startswith("initialisation, ")]
+autres = [c for c in changees if c not in fond_tardif + init_tardive + init]
 print(f"        {len(apres)} entrées pour {nb_chapitres} chapitres ; conservées {len(conservees)} ; "
       f"fond enregistrées tardivement {len(fond_tardif)} ; initialisations tardives {len(init_tardive)} ; "
       f"initialisations {len(init)} ; perdues {len(perdues)}")
@@ -151,7 +160,8 @@ test("T-Q8 l'enregistrement s'est fait", code == 0 and "État enregistré" in so
 test("T-Q8 une entrée par chapitre, ni plus ni moins", len(apres) == nb_chapitres)
 test("T-Q8 aucune qualification perdue", not perdues, ", ".join(perdues[:10]))
 test("T-Q8 les classes se bouclent",
-     len(conservees) + len(fond_tardif) + len(init_tardive) + len(init) == len(apres))
+     not autres and len(conservees) + len(fond_tardif) + len(init_tardive) + len(init) == len(apres),
+     ", ".join(autres[:10]))
 test("T-Q8 toute entrée ancienne à corps inchangé est conservée",
      all(c in conservees for c in avant if c in apres
          and avant[c].get("editoriale") == apres[c].get("editoriale")))
@@ -197,28 +207,63 @@ test("T-Q3 --fond qualifie l'entrée visée", code == 0 and qualif(e3, cle3) == 
 test("T-Q3 et elle seule : toutes les autres sont identiques octet pour octet",
      not identiques_sauf(e2, e3, {cle3}))
 
-# --- T-Q4 : initialisation nommee --------------------------------------------------
-print("T-Q4  initialisation nommée, tardive si le chapitre existait avant")
+# --- T-Q4 : initialisation neutre, rien n'est deduit d'une date ------------------------
+print("T-Q4  un chapitre nouveau est une initialisation neutre, quelle que soit sa date")
 modele = fichier(copie, "L9.C01")
-for cle, nom, rev in (("L9.C98", "c98-test-initialisation.md", JOUR),
-                      ("L9.C99", "c99-test-tardive.md", "2026-09-01")):
+INIT = f"initialisation, enregistrée le {JOUR}"
+TARDIVE = f"initialisation tardive, état antérieur non enregistré, enregistrée le {JOUR}"
+
+
+def nouveau_chapitre(cle, nom, rev):
+    """Un chapitre nouveau, copie de l'amorce L9.C01, à la date de fond voulue."""
     cible = modele.parent / nom
     shutil.copy(modele, cible)
     modifier_entete(cible, r"^chapitre: L9\.C01$", "chapitre: " + cle)
     modifier_entete(cible, r'^titre: "(.*)"$', r'titre: "Test %s"' % cle)
     modifier_entete(cible, r"^revision_de_fond: .*$", "revision_de_fond: " + rev)
+
+
+nouveau_chapitre("L9.C98", "c98-test-initialisation.md", JOUR)
+nouveau_chapitre("L9.C99", "c99-test-ancienne-date.md", "2026-09-01")
 code, sortie = lancer(copie, "--maj-etat")
 e4 = etat(copie)
 test("T-Q4 un chapitre du jour est une initialisation datée",
-     code == 0 and qualif(e4, "L9.C98") == f"initialisation, enregistrée le {JOUR}")
-test("T-Q4 un chapitre antérieur est une initialisation tardive, nommée comme telle",
-     qualif(e4, "L9.C99") == f"initialisation tardive, état antérieur non enregistré, enregistrée le {JOUR}")
+     code == 0 and qualif(e4, "L9.C98") == INIT)
+test("T-Q4 un chapitre nouveau à ancienne revision_de_fond reste une initialisation NORMALE sans option",
+     qualif(e4, "L9.C99") == INIT, qualif(e4, "L9.C99"))
 test("T-Q4 aucune autre entrée n'a bougé", not identiques_sauf(e3, e4, {"L9.C98", "L9.C99"}))
+
+# --- T-Q9 : l'initialisation tardive est explicite, ciblee, refusee si ambigue -----------
+print("T-Q9  --initialiser-tardif : explicite, ciblé, refusé si ambigu")
+nouveau_chapitre("L9.C97", "c97-test-tardive-ciblee.md", "2026-09-01")
+nouveau_chapitre("L9.C96", "c96-test-tardive-non-visee.md", "2026-09-01")
+code, sortie = lancer(copie, "--maj-etat", "--initialiser-tardif=L9.C97")
+e9 = etat(copie)
+test("T-Q9 la forme ciblée qualifie tardivement l'entrée absente visée",
+     code == 0 and qualif(e9, "L9.C97") == TARDIVE, qualif(e9, "L9.C97"))
+test("T-Q9 l'entrée absente non visée reçoit l'initialisation neutre",
+     qualif(e9, "L9.C96") == INIT, qualif(e9, "L9.C96"))
+test("T-Q9 aucune entrée déjà enregistrée n'a bougé",
+     not identiques_sauf(e4, e9, {"L9.C97", "L9.C96"}))
+nouveau_chapitre("L9.C95", "c95-test-tardive-forme-nue.md", "2026-09-01")
+code, sortie = lancer(copie, "--maj-etat", "--initialiser-tardif")
+e9b = etat(copie)
+test("T-Q9 la forme nue qualifie tardivement toutes les entrées absentes, ici une seule",
+     code == 0 and qualif(e9b, "L9.C95") == TARDIVE and not identiques_sauf(e9, e9b, {"L9.C95"}))
+code, sortie = lancer(copie, "--maj-etat", "--initialiser-tardif")
+test("T-Q9 la forme nue sans entrée absente est refusée, rien n'est écrit",
+     code == 1 and "n'a rien à initialiser" in sortie and etat(copie) == e9b)
+code, sortie = lancer(copie, "--maj-etat", "--initialiser-tardif=L9.C01")
+test("T-Q9 une entrée déjà enregistrée est refusée par la forme ciblée, rien n'est écrit",
+     code == 1 and "déjà enregistrée" in sortie and etat(copie) == e9b)
+code, sortie = lancer(copie, "--initialiser-tardif")
+test("T-Q9 l'option sans --maj-etat est refusée",
+     code == 1 and "exige --maj-etat" in sortie and etat(copie) == e9b)
 
 # --- T-Q5 : absents et orphelins au diagnostic -------------------------------------
 print("T-Q5  entrées absentes et orphelines au diagnostic")
-cle5 = next(c for c in sorted(e4) if str(e4[c].get("revision_de_fond")) < JOUR and c not in (cle2, cle3))
-tronque = dict(e4)
+cle5 = next(c for c in sorted(e9b) if c not in (cle2, cle3) and not c.startswith("L9.C9"))
+tronque = dict(e9b)
 del tronque[cle5]
 tronque["L99.C99"] = {"editoriale": "0" * 16, "metadonnees": "0" * 16,
                       "revision_de_fond": "2026-09-01", "qualification": "test orpheline"}
@@ -233,8 +278,8 @@ code, sortie = lancer(copie, "--maj-etat")
 e5 = etat(copie)
 test("T-Q5 l'entrée orpheline est conservée sans purge explicite",
      code == 0 and e5.get("L99.C99", {}).get("qualification") == "test orpheline")
-test("T-Q5 le chapitre réinscrit est une initialisation tardive",
-     qualif(e5, cle5).startswith("initialisation tardive"))
+test("T-Q5 le chapitre réinscrit est une initialisation neutre, jamais tardive sans demande",
+     qualif(e5, cle5) == INIT, qualif(e5, cle5))
 code, sortie = lancer(copie, "--maj-etat", "--purger-orphelins")
 e5b = etat(copie)
 test("T-Q5 la purge explicite retire l'orpheline, et elle seule",
@@ -279,7 +324,7 @@ test("T-Q7 sans décision en attente, --maj-etat, --editorial et --fond conserve
 code, sortie = lancer(copie, "--maj-etat", "--editorial", "--fond")
 test("T-Q7 --editorial et --fond s'excluent, et rien n'est écrit",
      "s'excluent" in sortie and etat(copie) == e7)
-cle7 = sorted(c for c in base if c not in (cle2, cle3, cle5, cle6, "L9.C98", "L9.C99"))[2]
+cle7 = sorted(c for c in base if c not in (cle2, cle3, cle5, cle6) and not c.startswith("L9.C9"))[2]
 ajouter_au_corps(fichier(copie, cle7), "Ligne ajoutée par test_etat, T-Q7.")
 code, sortie = lancer(copie, "--maj-etat", "--editorial")
 e7b = etat(copie)

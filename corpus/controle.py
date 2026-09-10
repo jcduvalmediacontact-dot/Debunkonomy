@@ -17,6 +17,11 @@ Usage :
                                        # (même jour que la revision_de_fond en cours)
     python controle.py --maj-etat --purger-orphelins
                                        # retire les entrées d'état sans chapitre
+    python controle.py --maj-etat --initialiser-tardif
+                                       # qualifie « initialisation tardive » TOUTES
+                                       # les entrées absentes — après audit seulement
+    python controle.py --maj-etat --initialiser-tardif=L1.C31,L11.C30
+                                       # idem, pour ces seules entrées absentes
 
 L'enregistrement de l'état CONSERVE les qualifications existantes (réparation
 du 2026-09-10, protocoles/migration-etat-lecture.md § 9) : une entrée
@@ -24,10 +29,13 @@ inchangée, ou dont seules les métadonnées ont changé, garde la sienne ;
 --editorial et --fond ne qualifient que les entrées dont l'empreinte éditoriale
 a changé à revision_de_fond inchangée ; une entrée dont revision_de_fond a été
 déplacée est qualifiée « fond » d'après cette date, seule l'inscription étant
-datée du jour ; une entrée nouvelle est qualifiée « initialisation » —
-« tardive » si le chapitre existait avant son premier enregistrement. Aucune
-qualification n'est jamais supprimée sans demande explicite : l'enregistrement
-est refusé plutôt que d'en perdre une.
+datée du jour ; une entrée nouvelle est qualifiée « initialisation », neutre —
+« tardive » SEULEMENT sur demande explicite, par --initialiser-tardif, après
+audit : une date de fond antérieure ne prouve pas que le chapitre existait lors
+de l'état précédent, et rien n'est déduit d'une date. L'option ne vise que des
+entrées absentes, ne modifie aucune entrée enregistrée, et est refusée dès que
+sa portée serait ambiguë. Aucune qualification n'est jamais supprimée sans
+demande explicite : l'enregistrement est refusé plutôt que d'en perdre une.
 
 Dépendance : PyYAML  (pip install pyyaml)
 """
@@ -485,11 +493,14 @@ QUALIF_INIT_TARDIVE = ("initialisation tardive, état antérieur non enregistré
 
 
 def construire_etat(ancien, calcule, editorial=False, fond=False, purger=False,
-                    jour=None):
+                    tardifs=None, jour=None):
     """Retourne (etat_final, bilan, explicites). N'écrit rien.
 
     ancien     : contenu actuel de .etat-corpus.json
     calcule    : {cle: {editoriale, metadonnees, revision_de_fond}} recalculé
+    tardifs    : None — aucune initialisation tardive ; True — toutes les
+                 entrées absentes ; ensemble de clés — ces entrées absentes
+                 seulement (option --initialiser-tardif, après audit)
     explicites : clés dont la qualification change ou disparaît par une
                  règle ou une option, et non par accident — l'invariant de
                  conservation les exempte, et elles seules.
@@ -505,7 +516,11 @@ def construire_etat(ancien, calcule, editorial=False, fond=False, purger=False,
         if vieux is None:
             # P4, P5 : une entrée nouvelle est nommée pour ce qu'elle est —
             # jamais qualifiée d'une décision éditoriale qui n'a pas été prise.
-            tardive = str(neuf.get("revision_de_fond")) < jour
+            # « Tardive » n'est JAMAIS déduit d'une date : une revision_de_fond
+            # antérieure ne prouve pas que le chapitre existait lors de l'état
+            # précédent — un chapitre nouveau peut reprendre un contenu révisé
+            # auparavant. Seule l'option explicite --initialiser-tardif le dit.
+            tardive = tardifs is True or (isinstance(tardifs, set) and cle in tardifs)
             entree["qualification"] = (QUALIF_INIT_TARDIVE if tardive
                                        else QUALIF_INIT).format(jour=jour)
             bilan["tardives" if tardive else "initialisees"] += 1
@@ -583,6 +598,14 @@ def main():
     fond = "--fond" in sys.argv
     purger = "--purger-orphelins" in sys.argv
     refus_etat = False
+    # --initialiser-tardif : True = toutes les entrées absentes ; ensemble = ces
+    # entrées absentes seulement. Sa portée est vérifiée avant toute écriture.
+    tardifs = None
+    for arg in sys.argv[1:]:
+        if arg == "--initialiser-tardif":
+            tardifs = True
+        elif arg.startswith("--initialiser-tardif="):
+            tardifs = {x.strip() for x in arg.split("=", 1)[1].split(",") if x.strip()}
 
     vocabulaire = charger_vocabulaire()
     livres = charger_livres()
@@ -752,7 +775,28 @@ def main():
         print("  RAPPEL : « décisions en attente » ci-dessus ne porte QUE sur les")
         print("  empreintes éditoriales, et ne dit rien de ces points-ci.")
 
-    if maj_etat and blocages:
+    # La portée de --initialiser-tardif est vérifiée AVANT toute écriture :
+    # ambiguë, elle est refusée, et rien n'est écrit.
+    ambigu = None
+    if tardifs is not None:
+        if not maj_etat:
+            ambigu = "--initialiser-tardif exige --maj-etat"
+        elif tardifs is True and not absents:
+            ambigu = "aucune entrée absente : --initialiser-tardif n'a rien à initialiser"
+        elif isinstance(tardifs, set):
+            deja = sorted(c for c in tardifs if c in etat)
+            inconnues = sorted(c for c in tardifs if c not in chapitres)
+            if not tardifs:
+                ambigu = "--initialiser-tardif= sans aucune clé"
+            elif deja:
+                ambigu = "déjà enregistrée(s), non modifiable(s) par cette option : " + ", ".join(deja)
+            elif inconnues:
+                ambigu = "chapitre(s) inconnu(s) : " + ", ".join(inconnues)
+
+    if ambigu:
+        refus_etat = True
+        print(f"\nÉtat non enregistré : portée de --initialiser-tardif ambiguë — {ambigu}.")
+    elif maj_etat and blocages:
         print("\nÉtat non enregistré : des blocages subsistent.")
     elif maj_etat and editorial and fond:
         print("\nÉtat non enregistré : --editorial et --fond s'excluent.")
@@ -767,7 +811,7 @@ def main():
         print("  Le changement est éditorial :")
         print("    --maj-etat --editorial.")
     elif maj_etat:
-        final, bilan, explicites = construire_etat(etat, nouvel_etat, editorial, fond, purger)
+        final, bilan, explicites = construire_etat(etat, nouvel_etat, editorial, fond, purger, tardifs)
         perdues = qualifications_perdues(etat, final, explicites)
         if perdues:
             # P9 : jamais de perte silencieuse — on refuse d'écrire.
@@ -783,6 +827,11 @@ def main():
             print(f"  {bilan['fond_declare']} changement(s) de fond déclaré(s) par revision_de_fond")
             print(f"  {bilan['requalifiees']} requalifiée(s) par option")
             print(f"  {bilan['initialisees']} initialisation(s), {bilan['tardives']} tardive(s)")
+            if bilan["tardives"]:
+                tard = sorted(c for c in final if c not in etat and
+                              str(final[c].get("qualification", "")).startswith("initialisation tardive"))
+                print("  tardives, sur demande explicite : " + ", ".join(tard[:12])
+                      + (" …" if len(tard) > 12 else ""))
             if bilan["orphelines_conservees"] or bilan["orphelines_purgees"]:
                 print(f"  {bilan['orphelines_conservees']} entrée(s) orpheline(s) conservée(s), "
                       f"{bilan['orphelines_purgees']} purgée(s)")
@@ -792,7 +841,7 @@ def main():
         print(f"ÉCHEC — {len(blocages)} blocage(s). Rien n'est publiable en l'état.")
         return 1
     if refus_etat:
-        print("ÉCHEC — état non enregistré : une qualification serait perdue.")
+        print("ÉCHEC — état non enregistré : voir le motif ci-dessus.")
         return 1
     print("Contrôle structurel passé.")
     if decisions:
