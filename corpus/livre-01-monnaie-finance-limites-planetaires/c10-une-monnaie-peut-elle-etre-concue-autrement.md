@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-09-03
 autorite: preparatoire
 citable: false
 regime: hybride
