@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 5**, section 2 — CE QUE L'ALLOCATION STRATÉGIQUE N'EST PAS : « n'est pas le retour à l'encadrement quantitatif du crédit QUI A PRÉVALU EN FRANCE DE 1945 À 1986. Ce dispositif imposait des plafonds de crédit PAR BANQUE ET PAR SECTEUR, calibrés annuellement par le CONSEIL NATIONAL DU CRÉDIT. Il produisait DES RIGIDITÉS IMPORTANTES, DES RENTES DE SITUATION, UN CONTOURNEMENT CROISSANT PAR LA FINANCE DE MARCHÉ. Son démantèlement dans les années 1980, ASSOCIÉ AUX NOMS DE MICHEL CAMDESSUS ET PIERRE BÉRÉGOVOY, AVAIT DES RAISONS TECHNIQUES RÉELLES INDÉPENDAMMENT DES CHOIX IDÉOLOGIQUES QUI L'ONT ACCOMPAGNÉ. » Et : ce n'est pas non plus la planification centralisée, dont les limites — « capture par les intérêts établis, rigidité face aux changements de circonstances, désincitation à l'innovation » — « ont conduit à son abandon progressif dans la plupart des économies avancées ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source — CE QU'ELLE EST : « L'allocation stratégique consiste à MODIFIER LES INCITATIONS ÉCONOMIQUES qui pèsent sur les décisions décentralisées de crédit, pour les aligner sur des priorités collectivement définies. ELLE PRÉSERVE LA DÉCISION DÉCENTRALISÉE. ELLE EN MODIFIE LES PARAMÈTRES D'ARBITRAGE. » Précédents invoqués : reconstruction d'après-guerre, montée en gamme industrielle du Japon jusqu'aux années 1970, développement chinois"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "E. Carré, J. Couppey-Soubeyran, C. Fontan, P. Monnin, D. Plihon, M. Vincent, note de l'Institut Veblen, juin 2022, § 1.3 et § 2.4 — position INVERSE : les règles structurelles « ont prévalu jusque dans les années 1980 [...] Puis elles ont été DÉFAITES PAR LA POLITIQUE DE LIBÉRALISATION FINANCIÈRE ». Et le résultat empirique invoqué (Bezemer et al., 2018) : après leur suppression, « la part du crédit aux entreprises A SIGNIFICATIVEMENT DIMINUÉ. Le crédit est allé davantage à l'immobilier, CONTRIBUANT MOINS À LA CROISSANCE ET DAVANTAGE À L'INSTABILITÉ FINANCIÈRE. L'enjeu majeur de transformation écologique JUSTIFIE PLEINEMENT DE RÉHABILITER DES MESURES DE GUIDAGE. » **OUVERTE le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "M. Aglietta, É. Espagne, CEPII WP 2016-10, section 5 — position la plus dure des trois : parmi les outils, « MORE DIRECT ACTIONS ON THE QUALITY OF CREDITS created by commercial banks, such as a « green funding for lending scheme » [...] OR EVEN FINANCIAL REPRESSION MEASURES (Monnet, 2015), WHICH FORCE COMMERCIAL BANKS WITH VARIOUS TOOLS TO LEND TO PARTICULAR SECTORS with a high climate-related reward ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "TROIS SOURCES, TROIS POSITIONS, ET AUCUNE PREUVE POUR ARBITRER. Le Cahier
      tient le démantèlement pour partiellement justifié, la note de 2022 pour

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les quatre chapitres de la tranche et les trois sources qu'ils ont ouvertes de première main. L24.C01** — Richardson, Steffen, Lucht et al., Science Advances 2023, régime **`citation_seule`** : **neuf variables de contrôle, six limites dépassées, aucune unité commune** ; **F13 posé**. **L24.C02** — Rockström, Gupta, Qin, Lade et al., Nature 2023, régime **`libre`** : **une limite juste par domaine, plus stricte que la limite sûre pour le climat et les aérosols** ; **F13 restreint le jour même**. **L24.C03** — PNUE, Global Resources Outlook 2024, régime **`citation_seule`** : **l'extraction et la transformation des matières déterminent plus de 55 % des émissions et plus de 90 % de la pression foncière sur la biodiversité et l'eau** ; **F10 renforcé et déplacé**. **L24.C04** — relecture des deux premières sources : **l'agrégat mondial peut être tenu pendant que la limite est violée** ; **F13 reçoit une seconde face, spatiale**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS TIENT UN CADRE, PAS UN CONSENSUS, ET L'ACQUISITION DE RANG 1
      RESTE OUVERTE.** Les deux sources principales **partagent plusieurs auteurs

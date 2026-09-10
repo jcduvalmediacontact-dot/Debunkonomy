@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "I. Fisher, « The Debt-Deflation Theory of Great Depressions », Econometrica, 1(4), octobre 1933, p. 337-357 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (tirage FRASER, Réserve fédérale de Saint-Louis, texte intégral). Retenu, la formule qui porte le mécanisme : « THE MORE THE DEBTORS PAY, THE MORE THEY OWE. » Le désendettement collectif contracte la masse monétaire, la contraction fait baisser les prix, et la baisse des prix accroît la valeur réelle des dettes restantes"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — le concept `contrepartie_comptable` du vocabulaire ; la promesse BLOQUANTE P55, dont le crédit a été RETIRÉ le 2026-09-04 : la contrepartie comptable inscrite à l'actif de l'émetteur ne tient pas, et sous la lecture B la question change de registre sans se régler. Et le résultat de L11.C01 : le reflux du dispositif n'est pas le reflux du crédit bancaire, ce qui reflue ici refluant parce qu'une autorité le prélève"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE PARTIELLEMENT OUVERTE. L'article de 1933 est lu et cité ;

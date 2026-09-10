@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Comité des droits économiques, sociaux et culturels, Observation générale n° 3, « The Nature of States Parties' Obligations (Art. 2, para. 1, of the Covenant) », adoptée à la cinquième session, 14 décembre 1990, document E/1991/23 — OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-09-07. RÉSERVE D'ÉDITION, PORTÉE PAR LE CORPUS : le texte a été lu sur la reproduction de la BIBLIOTHÈQUE DES DROITS DE L'HOMME DE L'UNIVERSITÉ DU MINNESOTA (`hrlibrary.umn.edu/gencomm/epcomm3.htm`), et NON sur le document original des Nations unies. La reproduction est ancienne, académique et concordante avec les citations usuelles ; **le corpus la tient pour fiable et signale qu'elle n'est pas la source primaire.** **PARAGRAPHE 10, LE NOYAU DUR** : « the Committee is of the view that **A MINIMUM CORE OBLIGATION to ensure the satisfaction of, AT THE VERY LEAST, MINIMUM ESSENTIAL LEVELS of each of the rights is incumbent upon EVERY State party.** Thus, for example, a State party in which **any significant number of individuals is deprived of essential foodstuffs, of essential primary health care, of basic shelter and housing, or of the most basic forms of education is, PRIMA FACIE, failing to discharge its obligations** under the Covenant. If the Covenant were to be read in such a way as not to establish such a minimum core obligation, **it would be largely deprived of its raison d'être.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même observation générale — LA CHARGE DE LA PREUVE, ET ELLE EST RENVERSÉE. Paragraphe 10, suite** : « any assessment as to whether a State has discharged its minimum core obligation must also take account of **resource constraints applying within the country concerned** [...] **In order for a State party to be able to attribute its failure to meet at least its minimum core obligations to a lack of available resources IT MUST DEMONSTRATE THAT EVERY EFFORT HAS BEEN MADE TO USE ALL RESOURCES THAT ARE AT ITS DISPOSITION in an effort to satisfy, AS A MATTER OF PRIORITY, those minimum obligations.** » **Paragraphe 11** : « **even where the available resources are DEMONSTRABLY INADEQUATE, the obligation remains for a State party to STRIVE TO ENSURE THE WIDEST POSSIBLE ENJOYMENT of the relevant rights under the prevailing circumstances** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Même observation générale — LA NON-RÉGRESSION, ET ELLE EST OPPOSABLE À UN PRÉLÈVEMENT. Paragraphe 9** : la réalisation progressive « **should not be misinterpreted as depriving the obligation of all meaningful content** » ; elle est « a necessary flexibility device » mais doit se lire à la lumière de l'objectif du Pacte, et **« It thus imposes an obligation to MOVE AS EXPEDITIOUSLY AND EFFECTIVELY AS POSSIBLE towards that goal. »** Et surtout : « **Moreover, ANY DELIBERATELY RETROGRESSIVE MEASURES in that regard WOULD REQUIRE THE MOST CAREFUL CONSIDERATION and would need to be FULLY JUSTIFIED by reference to the totality of the rights provided for in the Covenant AND IN THE CONTEXT OF THE FULL USE OF THE MAXIMUM AVAILABLE RESOURCES.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même. L25.C01 § 2** soutenait que « le plafond écologique est un NIVEAU et le plancher social une TRAJECTOIRE » — **ce chapitre corrige cette formulation quelques heures après qu'elle a été écrite.** **L24.C02** : le couloir, et le plancher non quantifié. **L22.C04** : le droit positif de la qualification écologique **certifie un procédé et ne mesure pas.** **L11.C09** : l'incidence. **L11.C18** : le seuil d'exemption. **L22.C02** : l'assiette de consommation finale frappe proportionnellement plus ceux qui dépensent tout ce qu'ils reçoivent"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA SOURCE PRIMAIRE N'EST PAS TENUE.** Le corpus a lu une **reproduction
      académique**, non le document E/1991/23 des Nations unies. **Il la tient

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Comité sur les systèmes de paiement et de règlement (BRI) et Comité technique de l'OICV, *Principles for financial market infrastructures*, avril 2012** — au Drive, **sept principes sur vingt-quatre instruits à ce jour** (1, 2, 8, 9, 17, 18, 19), les dix-sept autres non. **PRINCIPE 15, RISQUE D'ENTREPRISE GÉNÉRAL, ET IL EST DÉCISIF POUR LE DISPOSITIF** : l'infrastructure « should identify, monitor, and manage its general business risk and **hold sufficient LIQUID NET ASSETS FUNDED BY EQUITY** to cover potential general business losses **so that it can continue operations and services AS A GOING CONCERN** if those losses materialise. Further, liquid net assets should at all times be sufficient to ensure **a recovery or ORDERLY WIND-DOWN** of critical operations and services. » **Considération clé 2** : ces actifs doivent être financés par des fonds propres « **such as common stock, disclosed reserves, or other retained earnings** », leur montant étant déterminé par le profil de risque et par « **the length of time required to achieve a recovery or orderly wind-down** ». **Considération clé 3** : maintenir « **a viable recovery or orderly wind-down plan** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même source — TROIS AUTRES PRINCIPES NON INSTRUITS QUI TOUCHENT LA CONTREPARTIE.** **PRINCIPE 16, RISQUES DE CONSERVATION ET D'INVESTISSEMENT** : « An FMI's **investments should be in instruments with MINIMAL CREDIT, MARKET, AND LIQUIDITY RISKS** ». **PRINCIPE 5, COLLATÉRAL** : l'infrastructure « should accept collateral with **low credit, liquidity, and market risks** » et « should also set and enforce **appropriately conservative HAIRCUTS AND CONCENTRATION LIMITS** ». **PRINCIPE 4, RISQUE DE CRÉDIT** : maintenir « **sufficient financial resources to cover its credit exposure to each participant FULLY with a high degree of confidence** ». **PRINCIPE 23, TRANSPARENCE** : « **All relevant rules and key procedures should be PUBLICLY DISCLOSED** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **`corpus/livres.yaml`, matricule 21** : la fonction est de comprendre « **par quels bilans et quelles infrastructures une transaction mondiale devient-elle définitive** », et **la frontière avec le Livre 10 est posée par l'auteur** — « le Livre 10 compare les systèmes bancaires et les banques centrales NATIONAUX ; le Livre 21 étudie **LES RÉSEAUX TRANSNATIONAUX QUI LES RELIENT** ». **L11.C02, corrigé le 2026-09-07** : « L'émission d'allocations s'inscrit au passif. À l'actif, rien encore [...] **Les fonds propres deviennent donc négatifs du montant émis** », et **l'analogie qui présentait cela comme la position ordinaire d'un émetteur était FAUSSE**. **L5.C02** : le principe 9 force un choix, et **le principe 19 fournit le mécanisme d'entrée** — participation en paliers. **L5.C09** : l'infrastructure fournit **le rail** de la séquence d'entrée"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE INFRASTRUCTURE EXISTANTE N'EST OUVERTE. Le corpus tient la NORME et
      aucune de ses applications : ni Clearstream, ni Euroclear, ni SWIFT, ni

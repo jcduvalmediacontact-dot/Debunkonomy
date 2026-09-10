@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les cinq chapitres de cette tranche.** **L18.C01** : le repli en annexe d'IPSAS 51 § 12 est **conditionné au contrôle** ; à défaut, IPSAS 48 donne **une charge**, ses deux branches n'ayant en commun que la nature. **L18.C02** : le SEEA valorise en **valeur d'échange**, laquelle « doit refléter **le contexte institutionnel courant** [...] et reflète vraisemblablement diverses **imperfections de marché** ». **L18.C03** : le normalisateur a **décidé en octobre 2008 de ne pas faire une norme** de la soutenabilité de long terme, beaucoup de répondants préférant « **guidelines rather than requirements** ». **L18.C04** : l'extraction porte **plus de 55 %** des émissions, et la transition exige **plus de trois milliards de tonnes** de minéraux et métaux. **L18.C05** : IPSAS 47 § 19 — la capacité d'exclure ou de réguler l'accès « **distinguishes an entity's assets FROM THOSE PUBLIC GOODS that all entities have access to and benefit from** », et un rôle régulateur « **does not necessarily mean** that such regulated items meet the definition of an asset »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**`protocoles/falsification.md`, F2 — LA MÉTROLOGIE.** **Condition d'échec** : « que **l'incertitude sur l'état écosystémique national reste durablement supérieure au signal** qu'il s'agit de détecter, de sorte qu'**aucun seuil d'allocation ne puisse être défendu** ». **Ce qui y est déjà établi** : « le cadre statistique international existe depuis 2021 mais son adoption est scindée — **les chapitres d'évaluation monétaire ne sont pas normalisés** » ; quarante et un pays compilent des comptes d'écosystèmes ; marges d'incertitude de **20 % à 50 %** sur les indices synthétiques d'état. **Et le motif y est nommé** : « ce n'est pas un défaut d'argumentation qu'un meilleur chapitre corrigerait », et **une allocation qui ne peut pas être fondée sur une mesure devient discrétionnaire**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**`protocoles/passe-2.md`, arbitrage A30, du 2026-09-06 complété le 2026-09-07.** **Trois conditions y restaient à établir, et aucune n'était acquise** : « **Le contrôle** — la ressource est sur le territoire d'un tiers, et le Livre 6 a établi qu'un commun opposable pèse sur des propriétaires réels. **La mesure** — critère bloquant de la norme [...]. **L'applicabilité** — rien n'établit que l'institution émettrice relève de la comptabilité publique. » Et l'état enregistré : « **A30 est donc débloqué sur le droit et sur la norme, et il reste ouvert sur trois faits** [...] **des questions de vérification**, ce qui change leur nature »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA TRANCHE NE CLÔT PAS LA PASSE 1 DU LIVRE, et le chapitre le déclare
      plutôt que de le sous-entendre. **CARE/TDL et la comptabilité

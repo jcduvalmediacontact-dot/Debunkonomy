@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les concepts `monnaie_fondante` et `demurrage` du vocabulaire ; le falsifieur F5, « l'antériorité », dont l'instrument d'instruction est la typologie publiée de Delandre, Derudder, Fert et Tichit (IJCCR 30(1), 2026) ; la promesse P29 et sa borne empirique entre −0,5 % et −1 %, versée comme condition-limite B1 en L11.C03 § 5 ; et le résultat de L11.C07 : le demurrage échoue dans l'état du monde pour lequel il est conçu, la fuite vers un substitut étant maximale en crise"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Deux URL ont été tentées le

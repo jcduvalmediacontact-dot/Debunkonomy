@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Deux textes pédagogiques de la bibliothèque de l'auteur, ouverts le 2026-09-07 et qualifiés comme tels** : `Mundell Triangle d'incompatibilité impossible trinité.pdf` (5 609 caractères extraits) et `Mundell Triangle d'incompatibilité et monnaie unique.pdf` (17 426 caractères). **CE NE SONT PAS LES ARTICLES DE MUNDELL NI DE FLEMING** — ce sont des exposés de seconde main, l'un tiré d'un « Guide des grandes théories économiques », l'autre d'un cours sur la monnaie unique. **Énoncé retenu** : « il est impossible pour un État d'accéder simultanément à **un taux de change fixe**, à **une mobilité des capitaux** et à **un contrôle de leur politique monétaire** [...] Un État ne peut en choisir que 2. » **Les trois positions du triangle y sont nommées** : « Position a : **le contrôle des capitaux**. Position b : **l'union monétaire**. Position c : **les changes flottants**. » Théorie attribuée à **Robert Mundell et Marcus Fleming, années 1960**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, second texte — **IDENTIFICATION EXPRESSE DU COIN**, et elle confirme celle du corpus : « Il faut alors **limiter strictement la liberté de circulation des capitaux**, ce que l'on appelle le contrôle des changes : **c'était le système de Bretton Woods.** » **Le corpus retient l'identification et non la formule** : « contrôle des changes » et « contrôle des capitaux » ne sont pas synonymes en droit, et l'article VI § 3 des statuts du Fonds emploie le second"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Statuts du Fonds monétaire international, 1944, art. VI § 3 et art. XIX (i)** — **ouverts par téléchargement direct lors de la passe 1 du Livre 20**, édition du *Final Act* de Bretton Woods, US Government Printing Office. L'article VI § 3 autorise nommément « **such controls as are necessary to regulate international capital movements** », **avec la limite** que ces contrôles ne doivent pas **restreindre les paiements des transactions courantes**, définies à l'art. XIX (i). **RÉSERVE PORTÉE DEPUIS L'OUVERTURE** : cette édition est **antérieure aux amendements de 1969 et de 1978**, et le régime de parités de l'article IV n'est plus en vigueur"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même — ARBITRAGE A32 du 2026-09-06.** Le chapitre 9 de l'ouvrage décrit un **contrôle des capitaux économique et non administratif**, le reflux s'appliquant à l'acquisition d'actifs. **Conclusion arbitrée** : « **LE TRIANGLE DE MUNDELL N'EST DONC PAS CONTOURNÉ : IL EST RESPECTÉ, et le dispositif occupe LE COIN DE BRETTON WOODS.** » S'y ajoute **L11.C03**, qui pose l'affectation des instruments aux objectifs et le résultat de Tinbergen : « le nombre d'objectifs indépendants poursuivis ne peut excéder le nombre d'instruments indépendants disponibles »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "NI MUNDELL NI FLEMING N'ONT ÉTÉ OUVERTS. Les deux textes tenus sont des
      **exposés pédagogiques de seconde main**, et le corpus les qualifie ainsi.

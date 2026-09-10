@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Décision (UE, Euratom) 2020/2053 du Conseil du 14 décembre 2020 relative au système des ressources propres de l'Union**, JO L 424/1 du 15 décembre 2020 — **OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, texte français lu sur EUR-Lex. **CONSIDÉRANT 10** : « Les États membres devraient retenir, **à titre de FRAIS DE PERCEPTION, 25 %** des montants des ressources propres traditionnelles qu'ils ont perçus. » **ET LA SÉRIE HISTORIQUE FIGURE DANS LE TEXTE MÊME** : les États membres continuent de retenir **10 %** pour les montants dus avant le 28 février 2001 ; **25 %** entre le 1er mars 2001 et le 28 février 2014 ; **20 %** entre le 1er mars 2014 et le 28 février 2021 ; **et 25 %** à compter de 2021"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même décision, article 2 § 1 — CE QUE SONT LES RESSOURCES PROPRES, ET LEUR NATURE DIFFÈRE.** **a) Ressources propres TRADITIONNELLES** : « des prélèvements, primes, montants supplémentaires ou compensatoires [...] **des droits du tarif douanier commun** et autres droits établis ou à établir par les institutions de l'Union **sur les échanges avec les pays tiers** ». **b)** application d'« un **taux d'appel uniforme de 0,30 %** » à l'assiette de la taxe sur la valeur ajoutée, **plafonnée à 50 % du revenu national brut** de chaque État. **c)** application d'un taux d'appel uniforme **au poids des déchets d'emballages en plastique non recyclés**, soit **0,80 EUR par kilogramme**, avec des réductions forfaitaires pour certains États. **LES FRAIS DE PERCEPTION DE 25 % NE PORTENT QUE SUR LE POINT a)**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L11.C21, LA PERCEPTION** : « le mécanisme se transporte, **le motif ne se transporte pas** » ; sous le régime de la taxe sur la valeur ajoutée « l'administration perçoit pour l'État dont elle relève », et « **l'alignement d'intérêts qui fait tenir l'instrument existant est exactement ce que le dispositif retire** ». Le chapitre y relevait qu'« un mécanisme d'alignement existe dans un régime voisin non ouvert — **les frais de perception retenus par les États sur les ressources propres de l'Union** — et c'est exactement la réponse au défaut de motif ». **L23.C01** : la deuxième des quatre questions du livre est « **par qui, et avec quel intérêt à bien percevoir ?** ». **L11.C24** : le barème aux frontières. **L18.C09** : l'écart à combler est d'environ 351 milliards de dollars par an"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE RÈGLEMENT D'APPLICATION N'EST PAS OUVERT. La décision fixe le taux de
      rétention ; **le règlement (UE, Euratom) 609/2014 relatif aux modalités de

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P4 et le falsifieur F1, qui portent l'objection que ce chapitre situe historiquement : une émission sans dette distribue un pouvoir d'achat net dans le circuit marchand et, sans destruction simultanée et calibrée, est inflationniste par construction. Versés en L1.C21 et au registre des promesses. Et le concept `creation_monetaire` du vocabulaire du corpus"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Le corpus ne possède pas le texte

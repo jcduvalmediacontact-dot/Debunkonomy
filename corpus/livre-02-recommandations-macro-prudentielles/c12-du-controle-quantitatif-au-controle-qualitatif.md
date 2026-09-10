@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 3**, section 2, PREMIER ARGUMENT — « les travaux de Mark Carney sur LA TRAGÉDIE DES HORIZONS, publiés dès 2015 lorsqu'il présidait le Financial Stability Board, ont démontré que LE MARCHÉ SOUS-ESTIME SYSTÉMATIQUEMENT LES RISQUES CLIMATIQUES. [...] Les horizons de la finance — trois à cinq ans typiquement — sont incompatibles avec les horizons du dérèglement climatique — décennies à siècles. Le marché ne peut pas prixer correctement des risques qui se matérialiseront APRÈS LA RETRAITE DES GESTIONNAIRES ACTUELS. [...] Elle produit une allocation systématiquement biaisée en faveur des activités à horizons courts — extraction, spéculation, consommation présente — au détriment des activités à horizons longs. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, DEUXIÈME ARGUMENT — « l'orientation qualitative EXISTE DÉJÀ, elle est simplement IMPLICITE. Les banques centrales prétendent ne pas orienter le crédit, mais leurs interventions produisent des effets d'orientation massifs. Les programmes d'achat d'actifs — CSPP de la BCE, quantitative easing de la Fed — modifient la structure des rendements et donc l'attractivité relative des différents secteurs. LES COLLATÉRAUX ACCEPTÉS au refinancement banque centrale privilégient certains actifs. LES PONDÉRATIONS DE RISQUE DE BÂLE traitent différemment un prêt souverain d'un pays européen et un prêt à une PME innovante. » D'où : « Le débat n'est donc pas entre une orientation explicite [...] et une neutralité pure — SUPPOSÉE EXISTER ACTUELLEMENT. Il est entre UNE ORIENTATION IMPLICITE, STRUCTURELLEMENT CARBONÉE, JAMAIS ASSUMÉE DÉMOCRATIQUEMENT, et une orientation explicite [...] La question n'est pas FAUT-IL ORIENTER LE CRÉDIT. Elle est L'ORIENTATION ACTUELLE EST-ELLE CELLE QUE NOUS VOULONS. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, TROISIÈME ARGUMENT — « la nature systémique des risques biophysiques. [...] EN VERTU DE LEUR PROPRE MANDAT DE PRÉSERVATION DE LA STABILITÉ, les banques centrales et les régulateurs prudentiels DOIVENT intégrer ces risques dans leur cadre. Cette intégration exige nécessairement une différenciation qualitative du crédit — parce que ce sont des activités qualitativement différentes qui produisent ou évitent ces risques. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L2.C06, qui établit sur la note Veblen de 2022 que **les règles prudentielles agissent sur le PASSIF et non sur la composition de l'ACTIF**, avec deux étais : vingt-cinq estimations recensées par la Banque des règlements internationaux donnant un effet de −0,5 % à 1,25 % sur le volume du crédit, et **l'absence totale d'études référencées sur l'impact des ratios prudentiels sur la composition de l'actif**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "CARNEY 2015 N'EST PAS OUVERT. Le discours de la « tragédie des horizons »
      porte le premier argument de ce déplacement, il est cité par le Cahier,

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE XVII (a)** : « Any proposal to introduce modifications [...] shall be communicated to the chairman of the Board of Governors [...] When THREE-FIFTHS OF THE MEMBERS, HAVING FOUR-FIFTHS OF THE TOTAL VOTING POWER, have accepted the proposed amendment, the Fund shall certify the fact by a formal communication addressed to all members. » **(c)** : « Amendments shall enter into force for all members THREE MONTHS after the date of the formal communication unless a shorter period is specified. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** RÉSERVE D'ÉDITION : texte originel de 1944"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE XVII (b)** : « Notwithstanding (a) above, ACCEPTANCE BY ALL MEMBERS IS REQUIRED in the case of any amendment modifying (i) the RIGHT TO WITHDRAW from the Fund (Article XV, Section 1) ; (ii) the provision that NO CHANGE IN A MEMBER'S QUOTA shall be made WITHOUT ITS CONSENT (Article III, Section 2) ; (iii) the provision that NO CHANGE MAY BE MADE IN THE PAR VALUE of a member's currency EXCEPT ON THE PROPOSAL OF THAT MEMBER (Article IV, Section 5 (b)). » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C06, qui institue une double majorité au symposium ; L7.C09, qui corrige L7.C06 par la loi de la racine carrée de Penrose ; L7.C20, qui construit une procédure d'amendement pour l'institution ; L11.C20, sur l'amendement de la directive"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE TABLEAU DES QUOTES-PARTS (SCHEDULE A) N'A PAS ÉTÉ EXTRAIT. Le corpus
      affirme qu'un seuil de quatre cinquièmes des voix donne un veto au plus

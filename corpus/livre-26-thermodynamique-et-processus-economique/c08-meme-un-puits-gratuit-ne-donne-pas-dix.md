@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**D. J. Murphy, M. Raugei, M. Carbajales-Dale et B. Rubio Estrada, « Energy Return on Investment of Major Energy Carriers: Review and Harmonization », *Sustainability*, 14(12), 7098, 2022.** Pièce L26-08 du dossier documentaire de l'auteur. **DÉJÀ OUVERTE PAR L26.C03 le 2026-09-08 ; RELUE ICI POUR SA STRUCTURE DE FRONTIÈRES**, qui n'avait pas été exploitée. **DROITS : `libre`, mention CC BY lue dans le document.** **L'apport propre à cette relecture est le tableau 2**, qui donne pour chaque combustible l'investissement énergétique de chaque étape postérieure à l'extraction et **le rendement maximal atteignable à cette étape en supposant un rendement INFINI à l'extraction**."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**A. K. Gupta et C. A. S. Hall, « A Review of the Past and Current State of EROI Data », *Sustainability*, 3(10), 2011, p. 1796-1809.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-09. **DROITS : mention CC BY lue dans le document — `libre`.** **Le second auteur est celui qui a forgé le concept de rendement énergétique net dans les années 1970.** **C'est la source historique du corpus sur cette grandeur, et elle porte sur elle un jugement que le corpus doit reprendre.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA QUATRIÈME FRONTIÈRE DEMANDÉE N'EST PAS COUVERTE PAR CES SOURCES, ET
      C'EST LA PLUS PROCHE DE CE QUE LE DISPOSITIF VEUT MESURER.** L'arbitrage

@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**J. D. Ward, P. C. Sutton, A. D. Werner, R. Costanza, S. H. Mohr et C. T. Simmons, « Is Decoupling GDP Growth from Environmental Impact Possible? », *PLoS ONE*, 11(10), e0164733, 2016.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-02 du dossier documentaire de l'auteur. **DROITS : « open access article distributed under the terms of the Creative Commons Attribution License » — mention lue dans le document. `libre`.** **Les auteurs déclarent que le travail est *« entirely unfunded »* et qu'ils n'ont aucun intérêt concurrent** — c'est, de toutes les sources du Livre 26, celle dont l'indépendance est la plus explicitement établie. **Sa conclusion est COMPATIBLE avec celle de la source de L26.C01, les deux ne portant pas sur le même objet — l'une sur le recyclage d'un stock constant, l'autre sur une croissance permanente.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**D. Wiedenhofer, D. Virág, G. Kalt, B. Plank, J. Streeck, M. Pichler, A. Mayer, F. Krausmann, P. Brockway, A. Schaffartzik, T. Fishman, D. Hausknost, B. Leon-Gruchalski, T. Sousa, F. Creutzig et H. Haberl, « A systematic review of the evidence on decoupling of GDP, resource use and GHG emissions, part I: bibliometric and conceptual mapping », *Environmental Research Letters*, 15, 063002, 2020.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-03. **DROITS : « Document License: CC BY », mention lue dans le document. `libre`.** **C'est LA MOITIÉ MANQUANTE de la revue systématique dont L17.C01 n'avait ouvert que la partie II** — 11 500 articles criblés, 835 études empiriques analysées."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE MODÈLE OUVERT ICI EST CALIBRÉ SUR UN SEUL PAYS, ET C'EST UN PAYS
      EXTRACTIF.** Les projections portent sur l'Australie, calibrées sur un

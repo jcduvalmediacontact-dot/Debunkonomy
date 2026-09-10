@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Banque mondiale, *The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium*, Washington, 2011, 148 p.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. **DROITS : « The material in this publication is copyrighted. Copying and/or transmitting portions or all of this work without permission may be a violation of applicable law », avec renvoi au Copyright Clearance Center — mention lue dans le document. RÉGIME : `citation_seule`.** **C'EST LE PREMIER ADVERSAIRE RÉEL QU'UN FALSIFIEUR DU CORPUS AIT JAMAIS EU.** Ce n'est pas une thèse mais **une comptabilité en vigueur**, publiée par une institution mondiale, qui **agrège le capital naturel aux autres formes de capital** et publie une **épargne nette ajustée** — l'indicateur de soutenabilité faible mis en œuvre à l'échelle de cent quarante-six pays."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE VERSANT THÉORIQUE DU CORPUS ADVERSE RESTE ABSENT, ET CE CHAPITRE NE LE
      REMPLACE PAS.** Solow, Hartwick, Pearce et Atkinson, Neumayer ne sont pas

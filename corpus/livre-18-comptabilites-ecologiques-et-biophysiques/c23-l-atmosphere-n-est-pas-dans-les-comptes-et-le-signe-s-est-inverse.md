@@ -15,11 +15,11 @@ sources_primaires:
     nature: donnees
     url: "https://reproducibility.worldbank.org/index.php/catalog/194"
     reference: "**Banque mondiale, *The Changing Wealth of Nations 2024 — Revisiting the Measurement of Comprehensive Wealth*, 208 pages, © 2024 Banque internationale pour la reconstruction et le développement.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** : liminaires, mentions de droits, et le RÉSUMÉ EXÉCUTIF lu intégralement dans ses sections sur le périmètre des actifs, les tendances mondiales et les moteurs de ces tendances ; **les passages du CHAPITRE 2 sur l'indice de volume et du CHAPITRE 3 sur l'interprétation des variations SONT ÉGALEMENT LUS** ; le reste des huit chapitres du corps NON LU. **C'EST LA CINQUIÈME ÉDITION**, et les données couvrent 1995 à 2020 pour 151 pays. **ACQUISITION FAITE LE 2026-09-08 AU SOIR ET RESTÉE FERMÉE JUSQU'À CETTE NUIT ; L18.C22 l'a inscrite en rang 1 quelques heures plus tôt.** **DROITS : le texte porte que l'œuvre peut être reproduite, en tout ou partie, À DES FINS NON COMMERCIALES, avec attribution complète.** **RÉGIME RETENU : `citation_seule`** — la clause non commerciale est incompatible avec la licence de partage à l'identique du corpus."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Eric Neumayer, *Weak versus Strong Sustainability*, cinquième révision, chapitre 5**, ouvert et lu le 2026-09-08 par L18.C22. **Rappelé ici pour les seuls chiffres qu'il rapporte de L'ÉDITION PRÉCÉDENTE de la même source**, soit la variation de la richesse par habitant de 1995 à 2018 d'après la Banque mondiale, 2021. **C'est la comparaison entre les deux éditions qui fait l'objet du § 3.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS A LU LE RÉSUMÉ EXÉCUTIF ET DEUX PASSAGES DU CORPS**, soit une
      vingtaine de pages sur deux cent huit. **Le chapitre 2 n'est ouvert que sur

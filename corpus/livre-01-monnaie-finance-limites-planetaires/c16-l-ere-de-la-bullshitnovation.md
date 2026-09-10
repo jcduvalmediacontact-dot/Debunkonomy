@@ -15,54 +15,54 @@ sources_primaires:
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026 ; « Qu'est-ce que l'essentiel insolvable, et comment le financer ? », Debunk'Onomy, juin 2026 ; « La destruction comme doctrine », Debunk'Onomy, 5 mai 2026"
     url: "https://debunkonomy.org/articles/auteur/essentiel-insolvable-comment-le-financer/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "H. G. Frankfurt, On Bullshit, Princeton University Press, 2005 (essai initialement paru dans Raritan, 6(2), 1986)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: jurisprudence
     reference: "United States v. Elizabeth A. Holmes, US District Court, Northern District of California, n° 5:18-cr-00258-EJD — condamnation du 18 novembre 2022 à 135 mois d'emprisonnement pour fraude et entente en vue de fraude sur investisseurs ; restitution ordonnée de 452 047 951 dollars"
     url: "https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "D. Graeber, Bullshit Jobs: A Theory, Simon & Schuster, 2018 ; sondage YouGov (Royaume-Uni, 12-13 août 2015, 1 992 actifs) : 37 % de réponses négatives à la question « Does your job make a meaningful contribution to the world? »"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "M. Soffia, A. J. Wood, B. Burchell, « Alienation Is Not Bullshit: An Empirical Critique of Graeber's Theory of BS Jobs », Work, Employment and Society, 36(5), p. 816-840, 2022 ; R. Dur, M. van Lent, « Socially Useless Jobs », Industrial Relations, 58(1), p. 3-16, 2019"
     url: "https://doi.org/10.1177/09500170211015067"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: donnees
     reference: "Gilead Sciences, rapports annuels (formulaires 10-K, SEC) 2015-2019 — ventes des traitements contre l'hépatite C : 19 140 M$ (2015), 14 834 M$ (2016), 9 137 M$ (2017), 3 700 M$ (2018), 2 936 M$ (2019) ; US Senate Committee on Finance, The Price of Sovaldi and Its Impact on the U.S. Health Care System, décembre 2015"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "R. J. Gordon, The Rise and Fall of American Growth, Princeton University Press, 2016, chap. 16-17 ; contradicteurs : E. Brynjolfsson, A. McAfee, The Second Machine Age, Norton, 2014 ; J. Mokyr, C. Vickers, N. L. Ziebarth, « The History of Technological Anxiety and the Future of Economic Growth », Journal of Economic Perspectives, 29(3), p. 31-50, 2015"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "J. A. Schumpeter, Capitalism, Socialism and Democracy, Harper, 1942, chap. VII ; C. Christensen, The Innovator's Dilemma, Harvard Business School Press, 1997 ; J. K. Galbraith, The Affluent Society, Houghton Mifflin, 1958, chap. XI (effet de dépendance)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: normatif
     reference: "France, loi n° 2015-992 du 17 août 2015, art. 99, codifié à l'art. L. 441-2 du code de la consommation (délit d'obsolescence programmée) ; transaction pénale DGCCRF / Apple du 7 février 2020 (25 M€), retenue sur le fondement de la pratique commerciale trompeuse par omission (art. L. 121-2 et L. 121-3), et non sur celui de l'art. L. 441-2"
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044330817"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: donnees
     reference: "GroupM (WPP), This Year Next Year: Global End-of-Year Forecast, décembre 2024 — recettes publicitaires mondiales nettes hors publicité politique américaine : 1 040 Md$ en 2024, prévision 1 110 Md$ en 2025 ; recoupé par MAGNA et Dentsu"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "G. A. Akerlof, « The Market for Lemons », Quarterly Journal of Economics, 84(3), p. 488-500, 1970 ; M. Spence, « Job Market Signaling », QJE, 87(3), 1973 (asymétrie d'information et signaux de marché)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "M. Mazzucato, The Value of Everything: Making and Taking in the Global Economy, Allen Lane, 2018 ; A. Turner, « How to tame global finance », Prospect Magazine, 27 août 2009 (activités financières « socialement inutiles »)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes ou recoupées le 2026-09-03 (Claude) —
   # S3 : recoupé — 18 novembre 2022, 135 mois, restitution 452 047 951 $, valorisation maximale de Theranos autour de 10 Md$. Le texte source disait « 9 milliards », « 700 millions levés » et « 11 ans ».

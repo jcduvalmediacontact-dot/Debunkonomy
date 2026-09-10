@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Banque de France, *ABC de l'économie*, fiche « Le système monétaire international »**, ouverte le 2026-09-07 depuis la bibliothèque de l'auteur (`eeb_smi.pdf`, 14 750 caractères extraits). **Source secondaire à auteur institutionnel nommé** — ni un texte primaire, ni un exposé anonyme. **CHRONOLOGIE RETENUE, verbatim** : « **1944** — Accords de Bretton Woods (instauration de l'**étalon de change dollar-or**), création du FMI » ; « **1971** — Le dollar cesse d'être convertible en or » ; « **1976** — Accords de la Jamaïque : instauration, entre les grandes monnaies, d'un **régime de change flottant** et **abandon du rôle légal de l'or** ». Et dans le corps : « La convertibilité du dollar en or prend fin en 1971 et **le système de changes fixes mondial disparaît définitivement en 1973** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "Même fiche — **LA CLAUSE QUI PORTE CE CHAPITRE** : « Les accords de la Jamaïque entérinent officiellement en 1976 un régime de taux de change flottant pour les économies avancées, chaque monnaie s'appréciant ou se dépréciant en fonction de l'offre et de la demande, **dans un contexte de liberté des mouvements de capitaux**. » **La fiche énonce par ailleurs que 1944 instaure « un SECOND étalon de change-or »**, ce qui implique un premier que le corpus ne tient pas. Elle définit enfin le système monétaire international par trois éléments : **la convertibilité des monnaies**, **les régimes de change** — « flottant, fixe ou intermédiaire » — et **le filet de sécurité financière mondial**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L3.C02** établit que le triangle d'incompatibilité oppose trois positions — contrôle des capitaux, union monétaire, changes flottants — et que **le dispositif occupe la première**, sur arbitrage A32. **L1.C25** définit l'étalon de change-or comme le « régime monétaire international dans lequel **une seule monnaie nationale est convertible en or**, les autres étant convertibles en cette monnaie et non dans le métal », et retient la distinction « parce qu'elle commande la position de l'émetteur pivot, **qui est le seul à devoir régler en or et le seul à pouvoir mettre fin à cette obligation** ». **L1.C25** pose aussi la fenêtre de réforme, dont l'issue « dépend de la position des créanciers au moment où elle s'ouvre »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA FICHE DONNE DES DATES, NON DES CAUSES. Le corpus ne tient **aucune
      source sur les raisons** de la fin de la convertibilité en 1971, ni sur

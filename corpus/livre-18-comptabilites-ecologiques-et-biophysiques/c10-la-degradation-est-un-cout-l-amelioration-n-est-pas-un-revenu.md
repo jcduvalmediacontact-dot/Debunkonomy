@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Nations unies, Union européenne, FAO, FMI, OCDE, PNUE et Banque mondiale, *System of Environmental-Economic Accounting — Ecosystem Accounting (SEEA EA)*, ST/ESA/STAT/SER.F/124, New York, 2024.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce du dossier NEMO constitué par l'auteur le 2026-09-07. **DROITS : « Copyright © 2024 [...] All rights reserved worldwide » — mention lue dans le document. RÉGIME : `citation_seule`**, citation courte avec attribution, aucun versement du fichier au dépôt. **CE N'EST PAS UNE THÉORIE MAIS UNE NORME** : le cadre a été **adopté par la Commission de statistique des Nations unies en mars 2021 comme norme statistique internationale** pour la comptabilité des écosystèmes. **C'est l'autorité qui répond à la question que L26.C10 avait laissée ouverte.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA MOITIÉ MONÉTAIRE DE LA QUESTION RESTE OUVERTE, ET ELLE EXIGE UNE SOURCE
      QUE LE CORPUS N'A PAS.** Ce chapitre établit où l'amélioration d'un

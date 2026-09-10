@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 8**, section 3 — « Un stress test territorial évalue la capacité d'un territoire — RÉGION, BASSIN DE VIE, AGGLOMÉRATION, CHAÎNE LOGISTIQUE INTÉGRÉE — à maintenir SES FONCTIONS ESSENTIELLES sous scénario adverse. Les fonctions essentielles incluent l'approvisionnement alimentaire, l'accès à l'eau et à l'énergie, la continuité des services de santé, la mobilité des personnes et des biens, la sécurité, l'éducation, les communications. » MÉTHODOLOGIE : « cartographie des dépendances critiques du territoire aux intrants extérieurs. Identification des infrastructures UNIQUES OU FAIBLEMENT REDONDANTES. Simulation de scénarios de disruption [...] ÉVALUATION DES TEMPS DE RECONSTITUTION des fonctions essentielles. » CONCLUSIONS : renforcement des redondances, « constitution de STOCKS STRATÉGIQUES pour les intrants critiques », diversification des chaînes à haute concentration, « développement de CAPACITÉS LOCALES de production pour les biens essentiels ». Et le principe du déplacement (épisode 12) : « une banque prudentiellement conforme DANS UN TERRITOIRE FRAGILE N'EST PAS PRUDENTIELLEMENT SOLIDE ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "C. Borio, BIS Working Papers n° 128, 2003 — la ligne du tableau qui décide ici : CALIBRAGE DES CONTRÔLES, macroprudentiel « in terms of system-wide distress ; TOP-DOWN », microprudentiel « in terms of risks of individual institutions ; BOTTOM-UP » ; et la démarche : l'approche macroprudentielle « first sets the relevant THRESHOLD OF ACCEPTABLE TAIL LOSSES FOR THE PORTFOLIO AS A WHOLE. It then calibrates the prudential controls on the basis of THE MARGINAL CONTRIBUTION OF EACH SECURITY to the relevant measure of portfolio risk. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L20.C11, qui établit qu'une institution internationale tient sa capacité d'agir d'un traité et de transpositions nationales, et L20.C13, qui établit qu'un système conventionnel se règle sur des MEMBRES identifiés — États ou territoires douaniers « possédant la pleine autonomie » de leurs relations extérieures ; L11.C25, qui construit un contrôle sur des ASSUJETTIS nommés"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN EXERCICE DE TEST DE RÉSISTANCE N'EST AU DOSSIER, ni bancaire ni
      territorial. **Le corpus compare une méthodologie proposée à une

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P51 : le livre concède franchement que « NEMO IMS comporte un seuil d'activation en dessous duquel il ne fonctionne pas », concession rare que le corpus porte à son crédit, mais le chiffre avancé — environ le double des 15 % d'importations mondiales de l'Union européenne — est obtenu par ANALOGIE avec le mécanisme d'ajustement carbone aux frontières, et cette analogie transporte les propriétés d'un instrument SECTORIEL vers un instrument UNIVERSEL. Et L11.C24 § 5 : « tout est plus facile quand la coalition est déjà grande. C'est la difficulté d'amorçage classique »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "W. Nordhaus, « Climate Clubs: Overcoming Free-riding in International Climate Policy », American Economic Review, 105(4), 2015 — ACQUIS PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (98 946 caractères extraits), NON ENCORE DÉPOUILLÉ. Le corpus le tient et ne l'a pas lu ; c'est la formalisation existante la plus proche du dispositif — un club appliquant une norme commune et frappant les importations des non-membres — et elle fournirait la méthode permettant de DÉRIVER le seuil que le livre se contente d'affirmer"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C12 § 4 : dans les statuts du Fonds, ouverts le 2026-09-06, le poids de vote est fonction de la QUOTE-PART, c'est-à-dire de la souscription initiale, de sorte que celui qui finance le démarrage obtient durablement le pouvoir. Et L7.C11, arbitrage A29 : le surplus du reflux finance le Symposium"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION, ET IL PORTE UN AVEU. La source qui permettrait de

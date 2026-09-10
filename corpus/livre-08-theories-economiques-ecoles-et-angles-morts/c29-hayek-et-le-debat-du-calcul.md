@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "F. A. Hayek, « The Use of Knowledge in Society », The American Economic Review, 35(4), septembre 1945, p. 519-530 — OUVERT, versé en L1.C22 [S10]. Retenu : p. 519-520, « the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess » ; p. 524, les données du calcul économique « are never for the whole society “given” to a single mind which could work out the implications and can never be so given »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — OUVERTE, versée en L1.C22 [S5] : « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place [...] Furthermore, simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » (p. 1)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — l'objection est arrivée DEUX FOIS par des chemins indépendants : en L11.C05 § 6, sur l'assiette du reflux, versée par l'auteur du dispositif sous la forme de la généalogie du crayon ; et en L11.C13 § 7, sur le barème de qualification, où elle figurait au registre depuis L1.C18 sans avoir été instruite. Le registre des promesses la qualifie d'« objection la plus forte adressée au dispositif » (P19b)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE. Hayek 1945 est lu et cité littéralement ; c'est

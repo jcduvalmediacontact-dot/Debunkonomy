@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 15 avril 1994 — **ARTICLE X § 1** : toute proposition d'amendement est soumise à la Conférence ministérielle ; pendant quatre-vingt-dix jours la décision de la soumettre aux Membres pour acceptation **SE PREND PAR CONSENSUS** ; à défaut, elle se prend **À LA MAJORITÉ DES DEUX TIERS**. **§ 2** : « Amendments to the provisions of this Article and to the provisions of the following Articles SHALL TAKE EFFECT ONLY UPON ACCEPTANCE BY ALL MEMBERS: Article IX of this Agreement ; **ARTICLES I AND II OF GATT 1994** ; Article II:1 of GATS ; Article 4 of the Agreement on TRIPS. » **§ 3** : les amendements de nature à modifier les droits et obligations prennent effet **pour les seuls Membres qui les ont acceptés**, après acceptation par les deux tiers. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE IX § 3** : « IN EXCEPTIONAL CIRCUMSTANCES, the Ministerial Conference MAY DECIDE TO WAIVE AN OBLIGATION imposed on a Member by this Agreement or any of the Multilateral Trade Agreements, provided that any such decision shall be taken by THREE FOURTHS of the Members ». **§ 4** : « A decision [...] granting a waiver SHALL STATE THE EXCEPTIONAL CIRCUMSTANCES justifying the decision, the terms and conditions governing the application of the waiver, and THE DATE ON WHICH THE WAIVER SHALL TERMINATE. Any waiver granted for a period of more than one year SHALL BE REVIEWED [...] not later than one year after it is granted, and THEREAFTER ANNUALLY until the waiver terminates. [...] The Ministerial Conference [...] MAY EXTEND, MODIFY OR TERMINATE THE WAIVER. » **§ 2** : les interprétations des accords s'adoptent **à la majorité des trois quarts**, et « THIS PARAGRAPH SHALL NOT BE USED IN A MANNER THAT WOULD UNDERMINE THE AMENDMENT PROVISIONS IN ARTICLE X ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C27 § 4, où le livre affirme que l'équivalence stricte « garantit sa conformité aux règles du commerce international », affirmation jamais instruite ; L11.C24, sur le barème aux frontières ; L7.C17 § 5, qui établit que la question n'est pas seulement juridique et qu'elle décide du seuil d'activation, donc de P51"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE GATT A ÉTÉ ACQUIS APRÈS LA RÉDACTION DE CE CHAPITRE, dans sa version
      consolidée de 1947 publiée par l'Organisation mondiale du commerce, et il

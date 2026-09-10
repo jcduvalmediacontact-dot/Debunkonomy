@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — L1.C18, ajout du 2026-09-04 : « Fraude : LA VULNÉRABILITÉ PRINCIPALE N'EST PAS LA DESTRUCTION DISSIMULÉE MAIS LA MANIPULATION DU SCÉNARIO DE RÉFÉRENCE. Confirme l'abandon du contrefactuel par le livre, et IMPOSE L'AUDIT CONTRADICTOIRE OUVERT DES MODÈLES. » Et L11.C13 § 4 : certifier suppose d'établir que l'acte n'aurait pas eu lieu sans l'émission, ce qui demande un contrefactuel, « c'est-à-dire une grandeur qui n'existe pas et qui doit être construite » — et « le contrefactuel est déformé par l'annonce même du barème qu'il doit servir à calibrer »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 134 et 136 — OUVERT le 2026-09-06. Contestabilité publique : « publication en données ouvertes DES ALGORITHMES, séries brutes et registres d'audit, avec possibilité de réplication et de contestation par des tiers devant la Chambre de Recours ». Et la saisine de la Chambre est ouverte « par des organisations non gouvernementales DÉNONÇANT UNE FRAUDE OU UN MANQUEMENT ». Et p. 134, l'Office « certifie la réalité des prestations régénératives EXÉCUTÉES SUR LE TERRAIN »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE QUI PORTE UNE SECONDE CORRECTION EN FAVEUR DU LIVRE, du même type

@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Le vocabulaire du corpus, entrée `fenetre_de_reforme`, première occurrence L1.C25** : « Moment où les règles d'un régime monétaire peuvent être réécrites **parce que le régime existant a manifestement cessé de fonctionner**. Le corpus emploie ce terme **de façon descriptive et non programmatique** : l'ouverture d'une telle fenêtre **NE DÉTERMINE PAS SON ISSUE, laquelle dépend de LA POSITION DES CRÉANCIERS au moment où elle s'ouvre plutôt que de LA QUALITÉ DES PROJETS DISPONIBLES.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Contrainte de rédaction arbitrée par l'auteur le 2026-09-04, opposable à ce chapitre plus qu'à tout autre** : « **On écrit “fenêtre de crise”, non “effondrement” ni “révolution”.** Ces voies s'analysent comme des scénarios, avec leurs conditions, leurs probabilités et **leurs coûts humains — jamais comme des espérances.** **Un corpus qui paraîtrait compter sur l'effondrement perdrait la recevabilité qu'il cherche**, et la perdrait auprès des lecteurs qu'il vise en premier. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, et trois résultats convergent.** **L3.C03** : la sortie de 1971-1976 s'est faite **en deux ruptures** — le pivot met fin à sa propre obligation en 1971, **le système en tire les conséquences deux ans plus tard.** **L3.C04** : la sortie documentée du nouveau dilemme de Triffin est **multipolaire, à plusieurs monnaies de réserve NATIONALES** ; **la fenêtre qui s'ouvrirait ne serait pas celle du dispositif.** **L5.C03** : l'adhésion ne demandant aucun renoncement, **la menace tarifaire perd son fait générateur** — mais l'adhésion ne rapporte rien tant que la couche est mince"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "**L6.C10**, sur des sources institutionnelles nommées. **L'exercice de résistance climatique de l'Autorité de contrôle prudentiel et de résolution, publié en décembre 2024**, projette à **2050** une **multiplication par cinq des zones touchées** et une **hausse des primes pouvant atteindre deux cents pour cent**. **RÈGLE DE RÉDACTION DU REGISTRE, respectée ici** : ne jamais écrire que des biens sont devenus inassurables ; écrire que l'accès formel est maintenu selon le seul relevé disponible, **que ce relevé exclut de son périmètre les prix et les franchises, et que c'est par les prix et les franchises que l'inassurabilité se manifeste**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE PROBABILITÉ N'EST TENUE, alors que la contrainte de rédaction exige
      d'analyser les voies « avec leurs conditions, leurs **probabilités** et

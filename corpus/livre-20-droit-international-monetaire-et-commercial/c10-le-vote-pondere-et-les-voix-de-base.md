@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE XII, SECTION 5 (a)** : « Each member shall have TWO HUNDRED FIFTY VOTES PLUS ONE ADDITIONAL VOTE FOR EACH PART OF ITS QUOTA equivalent to one hundred thousand United States dollars. » **(d)** : « Except as otherwise specifically provided, ALL DECISIONS OF THE FUND SHALL BE MADE BY A MAJORITY OF THE VOTES CAST. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** RÉSERVE D'ÉDITION : texte originel de 1944 ; le rapport entre voix de base et voix de quote-part a été modifié depuis"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE XII, SECTION 5 (b)** : lors des votes requis au titre de l'article V sections 4 ou 5, le nombre de voix est ajusté « BY THE ADDITION OF ONE VOTE for the equivalent of each four hundred thousand United States dollars of NET SALES OF ITS CURRENCY [...] or BY THE SUBTRACTION OF ONE VOTE for the equivalent of each four hundred thousand United States dollars of ITS NET PURCHASES of the currencies of other members », sans que l'ajustement puisse excéder la quote-part du membre. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C02, qui établit que l'attribution de 3,3 % aux pays à faible revenu dans l'allocation de 2021 est LA SORTIE ARITHMÉTIQUE DE LA CLÉ et non un accident ; L7.C09, qui oppose à la pondération la loi de la racine carrée de L. S. Penrose ; L7.C06, sur la double majorité"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE POIDS RELATIF DES DEUX COMPOSANTES N'EST PAS CALCULÉ. Deux cent
      cinquante voix de base, plus une voix par cent mille dollars de

@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, « Le GAÏA Economic Symposium », p. 131-137 — OUVERT DE PREMIÈRE MAIN le 2026-09-06 sur le tirage PDF du 22 août 2026 (546 000 caractères extraits). MOTIF EXPLICITE DE L'ARCHITECTURE : « Dans sa conception initiale, le GAÏA Economic Symposium courait le risque d'incarner une forme d'HYPERCENTRALISATION TECHNOCRATIQUE, en cumulant la définition des normes, la vérification des faits, le contrôle statistique et la décision d'émission monétaire. Une telle concentration serait intenable : un organisme qui définit ce qui constitue une activité régénérative et qui décide dans le même temps du montant qu'elle percevra réunit en lui LA STRUCTURE MÊME DU CONFLIT D'INTÉRÊTS PARFAIT. Un secteur qui obtiendrait un siège s'auto-labelliserait et s'auto-financerait. » ATTRIBUTIONS : l'Assemblée des Communs « définit les catégories d'activités régénératives éligibles » et « fixe le barème des impacts » ; l'Office de Certification « certifie la réalité des prestations régénératives exécutées sur le terrain, délivre les labels, audite l'inflation réelle des nations » et « n'émet aucune unité monétaire » ; le Conseil Monétaire « calcule et fixe le volume annuel maximal d'émission » et « ajuste le taux plancher de fonte monétaire » ; la Chambre de Recours « tranche l'ensemble des litiges ». INTERDICTIONS À L'ASSEMBLÉE : « il lui est absolument interdit d'accéder aux outils d'émission monétaire, de gérer un quelconque budget opérationnel ou de traiter des cas individuels ». DEVISE : « celui qui définit ce qui compte n'est jamais celui qui décide combien on émet »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L11.C11 § 2, qui décompose l'acte d'arrêter un barème en QUATRE DÉCISIONS de natures différentes : D1 fixer la méthode, D2 fixer les valeurs, D3 constater, D4 trancher un recours. Décomposition dérivée en 2026 sans connaissance de l'architecture du livre. Et L11.C13 § 3, qui domicilie en D2 la promesse bloquante P52 ; et L11.C16 § 4, qui établit qu'à enveloppe plafonnée la valorisation est un partage à somme quasi nulle entre membres"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 7 ÉCRIT SUR LE TEXTE DU LIVRE SOURCE. Les quatre

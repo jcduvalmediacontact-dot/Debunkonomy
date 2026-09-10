@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Assemblée générale des Nations unies, résolution A/RES/70/1, « Transformer notre monde : le Programme de développement durable à l'horizon 2030 », adoptée le 25 septembre 2015 — VERSION FRANÇAISE OFFICIELLE, 44 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le système de diffusion des documents des Nations unies, lu dans le texte. **C'ÉTAIT L'ACQUISITION RÉSIDUELLE INSCRITE PAR L12.C02**, qui n'avait lu que l'anglais et déclarait ses libellés français vérifiés quant au fond, non quant à la lettre. **Paragraphes lus : 12, 21, 63, 72, 74 a), l'objectif 8 avec ses cibles, et la cible 17.15.** Régime `a_verifier`."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**La même résolution, VERSION ANGLAISE**, ouverte le 2026-09-08 par L12.C02 et **relue ici en regard du français, paragraphe par paragraphe, sur les cinq passages de gouvernance et sur l'objectif 8.** **LES SIX VERSIONS LINGUISTIQUES FONT ÉGALEMENT FOI ; LE CORPUS EN COMPARE DEUX.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS COMPARE DEUX VERSIONS SUR SIX.** L'arabe, le chinois, l'espagnol et
      le russe font également foi et **n'ont pas été lus**. **L'écart relevé ici

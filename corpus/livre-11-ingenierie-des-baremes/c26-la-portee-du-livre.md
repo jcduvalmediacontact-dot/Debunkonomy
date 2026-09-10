@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, et son Cahier Technique — l'ensemble du dispositif dont ce livre instruit l'ingénierie. LE CAHIER NE PRONONCE JAMAIS LE MOT « BARÈME », et c'est le fait qui a ouvert le livre : le dispositif substitue en plusieurs points un barème administré à un mécanisme de marché sans nommer l'objet qu'il crée"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06, procuré par l'auteur. Source structurante du livre : la règle du compte, les CONDITIONS du ch. II, les BOUNDARY CONDITIONS du ch. V, les DIRECTIVES du ch. IV, le motif administratif, la méthode par intervalles de variation du ch. VII, et la classification en cinq groupes qui range le changement de structure monétaire en classe (d)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963 — OUVERT INTÉGRALEMENT le 2026-09-05, tirage JSTOR procuré par l'auteur. Seconde source structurante : la contrainte est fonction de ce qui demeure hors du système, et un barème modulé nationalement recrée ce qu'un barème global annule"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, trois arbitrages et deux instructions de conception adressés au corpus les 2026-09-05 et 2026-09-06 : la LECTURE B du reflux (« mathématiquement oui ») ; la FORME DE LA TRAJECTOIRE, A15 (« le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance ») ; les DÉROGATIONS au demurrage ; la PROGRESSIVITÉ de la mise en place ; et le ROUTAGE DU PÉRIMÈTRE vers le Livre 7, au motif que « tous les livres sont interconnectés entre eux »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE PORTÉE. Il ne verse aucun résultat neuf et ne doit rien

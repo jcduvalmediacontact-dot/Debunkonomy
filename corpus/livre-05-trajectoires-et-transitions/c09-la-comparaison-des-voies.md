@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**L5.C01, grille du livre.** Trois questions opposables à chaque voie : « **qui entre en premier, et qu'y gagne-t-il ?** » ; « **que peut faire l'émetteur en place pour l'en empêcher ?** Et à quel coût pour lui-même » ; « **que coûte l'échec ?** ». Et **contrainte de rédaction arrêtée par l'auteur le 2026-09-04**, déclarée opposable à chaque chapitre du livre : les voies s'analysent « comme des scénarios, avec leurs conditions, leurs probabilités et **leurs coûts humains — jamais comme des espérances** ». Le même chapitre avait posé le prix de cette contrainte : « exposer les coûts humains d'une voie suppose de les estimer, et le corpus ne dispose d'aucune méthode pour le faire ». **Et il tient un mécanisme opposé à celui de L5.C03** : « l'émetteur en place peut TARIFER LA SORTIE », de sorte qu'« un seuil d'activation est un solde, pas une somme »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Les six chapitres d'instruction de ce livre.** **L5.C02** : le premier entrant est **participant direct** et gagne « une position d'intermédiaire », gain « **indépendant du succès du dispositif** » ; mais l'échec « laisse une dépense en capital » et **nuit à des tiers**, une infrastructure qui défaille étant « un incident systémique ». **L5.C03** : l'adhésion « ne demande de renoncer à rien », donc « **la menace tarifaire perd son fait générateur** » ; et « une adhésion qui ne retire rien **ne rapporte rien tant que la couche est mince** » ; « le bien exclusif du club n'est pas l'accès au système de paiement, **c'est l'émission** ». **L5.C04** : « **Personne, et rien** » — seule voie où le premier entrant n'obtient aucun avantage ; l'émetteur en place « n'a qu'à **être partie** », « en apparaissant coopératif » ; « un traité non ratifié **ne laisse rien** » ; et le mode d'échec est **le désarmement** — « l'adversaire ne s'oppose pas au texte : il en négocie les remèdes ». **L5.C05** : le premier entrant « est déjà un collectif » et « **le seuil d'activation [...] est plus vite atteint** » ; l'échec laisse « des institutions communes discréditées » ; « **fixer une valeur reste central, vérifier qu'elle est appliquée gagne à être régional** ». **L5.C06 et L5.C07** : deux des six annoncées **ne sont pas des voies**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Comité sur les systèmes de paiement et de règlement (BRI) et Comité technique de l'OICV, *Principles for financial market infrastructures*, avril 2012** — ouvert le 2026-09-07, source fournie par l'auteur et rangée au Drive. **PRINCIPE 1** : l'infrastructure « should have a well-founded, clear, transparent, and enforceable legal basis for each material aspect of its activities **IN ALL RELEVANT JURISDICTIONS** ». **PRINCIPE 9** : à défaut de monnaie de banque centrale, l'actif de règlement doit présenter « **little or no credit or liquidity risk** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE PROBABILITÉ N'EST TENUE, alors que la contrainte de rédaction les
      exige. Le corpus ne dispose d'aucune base de comparaison — ni taux de

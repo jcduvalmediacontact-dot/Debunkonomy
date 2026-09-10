@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, instruction de conception adressée au corpus le 2026-09-05, après lecture de L11.C07. Texte intégral : « Il faudra cependant envisager des mécanismes de dérogations. Je ne souhaite pas que des gens soient soumis au demurrage s'ils placent leur argent sur des plans épargne logement écologiques ou des maisons à énergie positive par exemple. » NATURE : instruction de l'auteur, faisant autorité sur l'intention et non sur la mécanique, qu'il revient à ce chapitre d'établir"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. M. Keynes, The General Theory, 1936, chapitre 23, section VI — si l'on prive la monnaie de sa prime de liquidité, « une longue série de substituts prendra leur place — MONNAIE DE BANQUE, CRÉANCES À VUE, monnaie étrangère, bijoux et métaux précieux en général ». Déjà versée en L1.C21 § 6 et L11.C07 [S2]. CE QUI COMPTE ICI EST L'ORDRE DE LA LISTE : les deux premiers substituts que Keynes nomme sont des créances financières domestiques, c'est-à-dire exactement la forme qu'un plan d'épargne revêt. RÉSERVE : reprise du dossier, non ouvert dans cette passe"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, 2026, chapitre 9, p. 188-193 — le demurrage frappe les encaisses inactives au-delà d'un seuil indexé sur le revenu médian, assiette consolidée au bénéficiaire effectif ; le reflux transactionnel frappe la consommation finale ET LES ACQUISITIONS D'ACTIFS, cette dernière disposition existant précisément pour fermer l'échappatoire. AMBIGUÏTÉ RELEVÉE EN L1.C21 § 3 ET NON LEVÉE : le livre exclut par ailleurs de l'assiette les « flux purement financiers » au motif qu'ils fausseraient le pilotage. Les deux énoncés ne peuvent pas être vrais sous la même lecture, et le présent chapitre montre que la dérogation demandée tombe exactement dans cet interstice"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "A. L. Bovenberg, R. A. de Mooij, American Economic Review, 84(4), 1994 ; D. Fullerton, G. E. Metcalf, Chicago-Kent Law Review, 73(1), 1997 — l'érosion de l'assiette est un résultat établi : une taxe pigouvienne contracte sa propre base à mesure qu'elle atteint son but. Déjà au dossier en L1.C21 [S10], où elle fonde F1. RÉSERVE : non ouvertes de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "G. J. Stigler, « The Theory of Economic Regulation », Bell Journal of Economics, 2(1), 1971 ; A. O. Krueger, American Economic Review, 64(3), 1974 ; J. M. Buchanan, G. Tullock, The Calculus of Consent, 1962 — capture du régulateur et recherche de rente : un dispositif qui distribue des avantages classables engendre une industrie dont l'objet est d'obtenir le classement favorable. Déjà au dossier, où ils fondent P37. RÉSERVE : non ouverts de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT PAR UNE INSTRUCTION DE L'AUTEUR [S1], reçue après L11.C07.

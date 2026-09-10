@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://media.rff.org/documents/RFF-DP-07-37.pdf"
     reference: "**Thomas Sterner et U. Martin Persson, « An Even Sterner Review : Introducing Relative Prices into the Discounting Debate », *Resources for the Future Discussion Paper* 07-37, juillet 2007, 24 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-09 depuis le serveur de l'institut, **LU DANS LE TEXTE** : résumé, section « The Impact of the Discount Rate », section « The Impact of Changing Relative Prices » et sa sensibilité. **C'ÉTAIT L'ACQUISITION DE RANG 1 INSCRITE PAR L18.C24 LA NUIT MÊME**, qui ne tenait de ce travail que sa direction. **DOCUMENT DE TRAVAIL : le texte porte lui-même que les documents de discussion « have not necessarily undergone formal peer review ». UNE VERSION PUBLIÉE A PARU EN 2008 dans une revue à comité de lecture, et elle est payante ; le corpus ne l'a pas ouverte.** **DROITS : « © 2007 Resources for the Future. All rights reserved. No portion of this paper may be reproduced without permission of the authors. »** **RÉGIME RETENU : `citation_seule`, et il est ici STRICT** — citation courte avec attribution, aucune reproduction."
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**RÉSERVE D'ÉDITION, ET C'EST LA CINQUIÈME DE CE TYPE EN DEUX JOURS.** Le
      corpus lit un DOCUMENT DE TRAVAIL de 2007 dont le texte déclare lui-même

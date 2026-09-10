@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 6, « Les mécanismes bancaires du contrôle monétaire »** — seul épisode de la série QUI NE PORTE AUCUN DÉPLACEMENT. Ses six sections exposent le socle orthodoxe : objectifs et cadre du contrôle monétaire, taux directeur et transmission, réserves obligatoires et création monétaire, opérations d'open market et refinancement, fonds propres et pondérations de Bâle, puis « Ce socle et NEMO IMS ». **OUVERT ET EXTRAIT le 2026-09-06** (57 180 caractères, le plus long des douze)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, section 3 — sur les réserves obligatoires : « En zone euro, ce ratio est fixé à UN POUR CENT depuis janvier 2012, après avoir été de deux pour cent depuis la création de l'euro. Aux États-Unis, la Réserve fédérale A SUPPRIMÉ le taux de réserves obligatoires EN MARS 2020, le portant à ZÉRO POUR CENT — reconnaissant implicitement que cet instrument n'était plus opérant. La Bank of England a également abandonné les réserves obligatoires formelles depuis plusieurs décennies. » Et la doctrine réfutée : le multiplicateur de crédit, « encore enseigné dans de nombreux manuels d'économie de premier cycle », selon lequel « les banques commerciales prêteraient à partir des dépôts qu'elles collectent »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "M. Aglietta, É. Espagne, CEPII WP 2016-10, section 5 — parmi les instruments ex ante proposés figurent des « QUALITATIVE MANDATORY RESERVES at the central bank ». **OUVERT le 2026-09-06** — le corpus relève que l'instrument dont le Cahier constate l'abandon est celui qu'Aglietta propose de rétablir, sous forme qualitative"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-P. Betbèze et al., rapport n° 96 du Conseil d'analyse économique, 2011 — « Le système de réserves obligatoires constitue par ailleurs UNE RÈGLE PLUS SIMPLE À METTRE EN ŒUVRE par les banques centrales que le « volant contra-cyclique » bâlois qui nécessite une organisation plus complexe [...] De plus, LES SEUILS DE DÉCLENCHEMENT ET LA PROGRESSIVITÉ DES RÉSERVES SERAIENT RENDUS PUBLICS À L'AVANCE. Les banques seraient ainsi incitées à plus de modération AVANT MÊME d'être assujetties aux réserves. Le système de réserves obligatoires sera aussi plus efficace car il permettra de CIBLER DIRECTEMENT les établissements à l'origine de dérapages, tandis que le ratio contra-cyclique [...] touchera de manière indifférenciée tous les acteurs du pays considéré, Y COMPRIS LES PLUS VERTUEUX. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LES TEXTES DE BÂLE NE SONT PAS AU DOSSIER. Ni Bâle III, ni les
      pondérations de risque, ni le volant contracyclique. **Le corpus tient ce

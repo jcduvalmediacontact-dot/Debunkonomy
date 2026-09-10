@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Department for Energy Security and Net Zero (Royaume-Uni), *Industrial Energy and Resource Efficiency Rebound Effects*, 2026, 118 p.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-07 du dossier documentaire de l'auteur. **DROITS : « © Crown copyright 2026. This publication is licensed under the terms of the OPEN GOVERNMENT LICENCE v3.0 except where otherwise stated » — mention lue dans le document. RÉGIME : `libre`, au sens arrêté le 2026-09-08, c'est-à-dire RÉUTILISABLE SOUS LES CONDITIONS INDIQUÉES.** **C'est la source la plus récente que le corpus tienne sur l'effet rebond, et elle est le fait d'un ministère.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**S. Sorrell, *The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency*, UK Energy Research Centre, octobre 2007, ISBN 1-903144-0-35.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE DOCUMENT — le régime reste `a_verifier`**, c'est-à-dire citation courte avec attribution et aucun versement du fichier au dépôt. **C'est le rapport fondateur du champ. Son auteur unique est ÉGALEMENT L'UN DES AUTEURS de la revue de 2021 sur laquelle L26.C04 s'appuie — ce qui fonde une DÉPENDANCE PARTIELLE entre les deux travaux, et rien de plus : ils n'ont ni la même équipe, ni le même périmètre, ni des quantités comparables.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LES TROIS SOURCES DE REBOND QUE LE CORPUS TIENT NE SONT PAS
      INDÉPENDANTES.** L'auteur unique du rapport de 2007 figure parmi les

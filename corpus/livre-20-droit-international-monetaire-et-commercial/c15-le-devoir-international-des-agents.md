@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE XII, SECTION 4 (c)** : « The Managing Director and the staff of the Fund, in the discharge of their functions, SHALL OWE THEIR DUTY ENTIRELY TO THE FUND AND TO NO OTHER AUTHORITY. Each member of the Fund SHALL RESPECT THE INTERNATIONAL CHARACTER OF THIS DUTY and SHALL REFRAIN FROM ALL ATTEMPTS TO INFLUENCE ANY OF THE STAFF in the discharge of his functions. » **SECTION 4 (b)** : le directeur général « shall be responsible for THE ORGANIZATION, APPOINTMENT AND DISMISSAL OF THE STAFF », sous le contrôle général du collège exécutif ; **il cesse ses fonctions quand le collège en décide**. **SECTION 4 (d)** : le recrutement obéit « SUBJECT TO THE PARAMOUNT IMPORTANCE OF SECURING THE HIGHEST STANDARDS OF EFFICIENCY AND OF TECHNICAL COMPETENCE » à une exigence de base géographique aussi large que possible. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L7.C10, qui établit DEUX vecteurs de capture d'un institut technique : la poursuite pénale du statisticien (affaires INDEC en Argentine et ELSTAT en Grèce) et le budget, et qui juge le second plus difficile à fermer ; L7.C04, sur le conflit d'intérêts structurel ; L11.C25, sur le contrôle"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN STATUT DU PERSONNEL N'EST AU DOSSIER. Le texte renvoie l'essentiel
      — nomination, révocation, organisation — au directeur général sous

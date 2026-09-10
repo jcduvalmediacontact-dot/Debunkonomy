@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Statuts de la Banque internationale pour la reconstruction et le développement — *Articles of Agreement of the International Bank for Reconstruction and Development*, accords de Bretton Woods, signés à Washington le 27 décembre 1945 ; texte enregistré aux Nations unies sous le n° 20, *Recueil des traités*, volume 2, À LA SUITE DES STATUTS DU FONDS ET SOUS LE MÊME NUMÉRO.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. **C'EST L'ACQUISITION QUE L20.C24 AVAIT INSCRITE LE JOUR MÊME EN CONSTATANT QUE LE CORPUS L'AVAIT SOUS LA MAIN SANS LA VOIR.** **MÊME RÉSERVE D'ÉDITION QUE L20.C24, ET ELLE COMMANDE TOUT : c'est le TEXTE ORIGINAL DE 1945, non le texte en vigueur.** **Articles lus : II (membres et capital, sections 1, 2, 3, 5, 6 et 7) et IV (opérations, section 1).**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**TEXTE DE 1945, NON LE TEXTE EN VIGUEUR, ET L'ÉCART EST ICI PARTICULIÈREMENT
      GRAND.** Le capital autorisé indiqué — dix milliards de dollars au poids et

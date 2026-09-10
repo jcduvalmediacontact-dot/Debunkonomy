@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `bareme` du vocabulaire, « table de taux ou de pondérations arrêtée par décision et non par un marché » ; la promesse P19b, objection de la connaissance dispersée, que le registre tient pour la plus forte ; et le résultat de L8.C29 § 4 : la valeur par défaut répond à l'impossibilité de MESURER, non à celle d'ALLOUER, de sorte que l'objection reste entière sur le barème de qualification"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun des trois auteurs n'est en

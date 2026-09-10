@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 22 juillet 1944, Bretton Woods — **ARTICLE IV, SECTION 1** : « The par value of the currency of each member shall be expressed in terms of GOLD as a common denominator or in terms of the UNITED STATES DOLLAR of the weight and fineness in effect on July 1, 1944. » **SECTION 3** : les taux d'une transaction au comptant ne peuvent s'écarter de la parité de plus de UN POUR CENT. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (Final Act de la conférence, United States Government Printing Office, 1944, 36 p. de couche texte). **RÉSERVE D'ÉDITION MAJEURE** : texte ORIGINEL, antérieur aux amendements de 1969 (DTS) et de 1978 (abandon des parités). **Ce régime n'est plus en vigueur ; il est instruit ici comme PRÉCÉDENT, non comme droit applicable**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE IV, SECTION 5** : « (a) A member shall not propose a change in the par value of its currency EXCEPT TO CORRECT A FUNDAMENTAL DISEQUILIBRIUM. (b) A change [...] may be made ONLY ON THE PROPOSAL OF THE MEMBER and only after consultation with the Fund. (c) [...] (i) does not exceed TEN PERCENT of the initial par value, THE FUND SHALL RAISE NO OBJECTION, (ii) does not exceed A FURTHER TEN PERCENT, the Fund may either concur or object, but SHALL DECLARE ITS ATTITUDE WITHIN SEVENTY-TWO HOURS if the member so requests, (iii) is not within (i) or (ii), the Fund [...] shall be entitled to a longer period. [...] (f) The Fund SHALL CONCUR in a proposed change [...] if it is satisfied that the change is necessary to correct a fundamental disequilibrium. In particular [...] IT SHALL NOT OBJECT TO A PROPOSED CHANGE BECAUSE OF THE DOMESTIC SOCIAL OR POLITICAL POLICIES OF THE MEMBER proposing the change. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source — **ARTICLE IV, SECTION 7** (changement uniforme) : « the Fund BY A MAJORITY OF THE TOTAL VOTING POWER may make UNIFORM PROPORTIONATE CHANGES in the par values of the currencies of ALL members, provided each such change is APPROVED BY EVERY MEMBER WHICH HAS TEN PERCENT OR MORE of the total of the quotas. [...] The par value of a member's currency shall, however, NOT be changed under this provision if, WITHIN SEVENTY-TWO HOURS of the Fund's action, the member informs the Fund that it does not wish [it]. » **SECTION 8** : « The GOLD VALUE OF THE FUND'S ASSETS SHALL BE MAINTAINED notwithstanding changes in the par or foreign exchange value of the currency of any member. Whenever (i) the par value of a member's currency is REDUCED [...] THE MEMBER SHALL PAY TO THE FUND [...] an amount of its own currency equal to the reduction in the gold value of its currency held by the Fund. » **SECTION 6** : un changement opéré malgré l'objection du Fonds rend le membre INÉLIGIBLE à ses ressources, puis ouvre le retrait forcé. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L11.C15, qui établit que la révision d'une parité du référentiel est UN TRANSFERT SANS PORTEUR DÉSIGNÉ, et que le seul critère de révision nommé par le livre est la croissance du PIB, dans un corpus dont L1.C28 s'intitule « Au-delà du PIB »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Statut de ce chapitre ─────────────────────────────────────────────────
   # LE RÉGIME INSTRUIT ICI N'EST PLUS EN VIGUEUR. Il est versé comme

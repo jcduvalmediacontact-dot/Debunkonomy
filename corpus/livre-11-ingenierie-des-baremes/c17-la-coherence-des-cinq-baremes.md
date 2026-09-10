@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, et son Cahier Technique — les CINQ LIEUX où le dispositif substitue un barème administré à un mécanisme de marché, relevés séparément par le corpus puis réunis : le barème de qualification des activités régénératives (L1.C18 § 6, L1.C20 § 6) ; les taux de reflux et leur mode de fixation (L1.C21 § 6) ; les parités du référentiel de change et leur révision (L1.C26 § 3) ; la valorisation des communs certifiés (L1.C27 § 6) ; les six familles du tableau de bord (L1.C28 § 4). LE CAHIER NE PRONONCE JAMAIS LE MOT « BARÈME »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : « the values of the instrument variables are dependent, generally speaking, on all the targets set and cannot be considered in isolation » (ch. IV) ; la définition des DIRECTIVES, équations qui « indicate how the political parameters have to be varied in relation to the changing data » ; et la méthode en deux temps, « broad lines » puis « refining compartments », qui autorise à traiter d'abord la structure d'ensemble et ensuite chaque table"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963 — OUVERT INTÉGRALEMENT le 2026-09-05. Retenu ici par le résultat de L11.C04 § 6 : la contrainte est fonction de ce qui demeure hors du système, elle disparaît à l'intérieur d'un barème arrêté globalement, un barème modulé nationalement la recrée"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » PREMIER ARBITRAGE DE L'AUTEUR SUR LA FORME D'UN BARÈME, et le corpus établit ici qu'il a la forme que Tinbergen nomme directive, ce qui en fait le précédent des quatre autres"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE RENDU. Il n'ouvre aucun dossier neuf : il rend A8, relevé le

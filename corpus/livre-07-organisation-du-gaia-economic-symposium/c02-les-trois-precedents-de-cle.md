@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Statuts du Fonds monétaire international, texte adopté à la Conférence monétaire et financière des Nations unies, Bretton Woods, 22 juillet 1944 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (tirage cvce.eu, texte intégral, 94 000 caractères). RÉSERVE D'ÉDITION DÉCLARÉE : c'est le TEXTE ORIGINEL DE 1944 et non la version consolidée, les Statuts ayant été amendés sept fois, le dernier amendement adopté en 2010 et entré en vigueur en 2016. Retenu, la clé de vote : chaque membre dispose de « two hundred fifty votes plus one additional vote for each part of its quota equivalent to ONE HUNDRED THOUSAND UNITED STATES DOLLARS »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 15 avril 1994 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (wto.org, texte intégral). Retenu, article IX : l'Organisation « shall continue the practice of DECISION-MAKING BY CONSENSUS followed under GATT 1947 », chaque membre disposant d'une voix lorsqu'un vote a lieu. Et le régime des amendements : acceptation par les deux tiers des membres, la Conférence ministérielle pouvant décider à la majorité des trois quarts qu'un amendement est d'une nature particulière"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Protocole sur les statuts du Système européen de banques centrales et de la Banque centrale européenne — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (ecb.europa.eu). RÉSERVE D'ÉDITION GRAVE ET DÉCLARÉE : ce tirage NE CONTIENT AUCUNE OCCURRENCE DU MOT « ROTATION » — c'est une version antérieure au mécanisme que le corpus cherchait. Retenu de ce qui y figure, article 10.2 : « each member of the Governing Council shall have ONE VOTE » ; le Conseil « shall act by a SIMPLE MAJORITY » ; « in the event of a tie, the President shall have the casting vote » ; et un quorum des deux tiers des membres"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "Le corpus lui-même — L11.C11 § 5 : l'allocation générale de droits de tirage spéciaux de 2021 a réparti l'équivalent de 650 milliards de dollars AU PRORATA DES QUOTES-PARTS, dont environ 3,3 % aux pays à faible revenu. Versée en L1.C22 [S7] sur la résolution 76-1 du Conseil des gouverneurs. Le corpus l'appelait « le seul précédent tenu, et il est décourageant »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DE FOND DU LIVRE 7, et il solde une acquisition réclamée

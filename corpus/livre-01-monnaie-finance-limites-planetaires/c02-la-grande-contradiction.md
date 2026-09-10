@@ -14,31 +14,31 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "IPBES, Rapport d'évaluation sur la dégradation et la restauration des terres"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "Planetary Boundaries Science Lab (PIK), Planetary Health Check 2025, 24 septembre 2025"
     url: "https://www.planetaryhealthcheck.org/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "WWF / ZSL, Living Planet Report 2024, Living Planet Index"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "PNUE, Panel international des ressources, Global Resources Outlook 2024 — Bend the Trend, 1er mars 2024 (usage mondial de ressources matérielles)"
     url: "https://www.unep.org/resources/Global-Resource-Outlook-2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: donnees
     reference: "FAO, AQUASTAT, Water Data Snapshot 2025 — prélèvements mondiaux d'eau douce par secteur"
     url: "https://www.fao.org/land-water/water/water-management/en/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "PNUE, Emissions Gap Report 2025 : Off Target, novembre 2025 — total des GES tous gaz, en équivalent CO2"
     url: "https://www.unep.org/resources/emissions-gap-report-2025"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Chiffres conservés, sources primaires à compléter —
   - "S1 : retrouver la référence exacte et la page de l'estimation IPBES à 10 % du PIB mondial ; vérifier la fourchette 10-17 % de l'Initiative ELD"

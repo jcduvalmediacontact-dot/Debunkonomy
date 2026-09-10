@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, et son Cahier Technique — ARGUMENT DE PRATICABILITÉ versé en L11.C05 § 1 : l'assiette du premier ressort est la consommation finale et les acquisitions d'actifs, et le livre en donne trois arguments dont celui-ci — « le mécanisme de perception existe sous la forme de la taxe sur la valeur ajoutée ». SILENCE INTÉGRAL SUR LA CHAÎNE : ni le livre ni le Cahier ne disent qui perçoit, à qui le produit est remis, dans quel délai, ni qui contrôle celui qui perçoit"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05, retenant la LECTURE B en L11.C01 § 4 : « la question de savoir si le GES peut capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis de NGA est mathématiquement oui ». LE REFLUX EST DONC UN TRANSFERT ET NON UNE EXTINCTION : il arrive quelque part et y demeure, ce qui suppose une chaîne, un délai et un percepteur — trois objets que le corpus n'avait pas instruits"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — OUVERTE, versée en L1.C22 [S5] : « simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » (p. 1). Le corpus l'avait employée sur la fixation des valeurs (L11.C16 § 5) ; le présent chapitre établit qu'elle porte AVEC PLUS DE FORCE sur la perception"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened » et qui « represent all the protests of reality against the supposed linearity »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAÎNE JAMAIS INSTRUITE. L11.C05 a retenu comme solide l'argument selon

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 10**, section 3 — « Le GAÏA Economic Symposium [...] constitue dans NEMO IMS l'institution qui étend la surveillance macroprudentielle à la gouvernance des biens communs [...] composé de CINQ COLLÈGES qui délibèrent conjointement », dont « le collège scientifique. Représentants des sciences de la nature — GIEC, IPBES, académies scientifiques nationales — chargés de produire les évaluations rigoureuses de l'état des communs biosphériques » et « le collège économique. Économistes, comptables, spécialistes de la finance et de la comptabilité, chargés d'articuler les évaluations scientifiques avec les instruments monétaires ». Épisode 12, neuvième déplacement : le symposium est institué « comme instance de surveillance étendue des communs biosphériques, sociaux, cognitifs, culturels, numériques et monétaires — ET SIMULTANÉMENT COMME ÉMETTEUR INTERNATIONAL [...] banque centrale néguentropique intrinsèquement multilatérale ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L20.C16, qui verse le régime du patrimoine commun de l'humanité : la ressource en place est INALIÉNABLE, le produit extrait est aliénable SOUS LES RÈGLES DE L'INSTITUTION, les droits sont dévolus à l'humanité « ON WHOSE BEHALF THE AUTHORITY SHALL ACT », et l'institution gardienne a la PERSONNALITÉ JURIDIQUE INTERNATIONALE et des immunités énumérées. **ET ELLE N'ÉMET PAS DE MONNAIE.** L20.C12, qui établit qu'une liste de POUVOIRS NON DÉLÉGABLES range « determine the distribution of the net income » parmi ce qui ne se délègue pas"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L2.C07, qui verse le rejet, par le rapport du Conseil d'analyse économique de 2011, de la SOLUTION DE COIN où « la politique monétaire, la politique prudentielle et, même [...] la politique budgétaire sont coordonnées », rejet motivé non par l'inefficacité — concédée — mais par l'incompatibilité « AVEC LE TRIPTYQUE INDÉPENDANCE-TRANSPARENCE-RESPONSABILITÉ » ; et L7.C04, qui établit le conflit d'intérêts structurel du symposium"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LES CINQ COLLÈGES NE SONT PAS TOUS DÉPOUILLÉS. Le corpus a lu le
      scientifique et l'économique ; **les trois autres ne sont lus que par

@@ -14,43 +14,43 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. Rockström et al., « A safe operating space for humanity », Nature, 461, p. 472-475, 2009 ; version longue : Ecology and Society, 14(2), art. 32, 2009"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "K. Richardson, W. Steffen, W. Lucht et al., « Earth beyond six of nine planetary boundaries », Science Advances, 9(37), eadh2458, 13 septembre 2023"
     url: "https://doi.org/10.1126/sciadv.adh2458"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "K. Raworth, Doughnut Economics, 2017 (trad. fr. La théorie du donut)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "Planetary Boundaries Science Lab (PIK), Planetary Health Check 2025, 24 septembre 2025"
     url: "https://www.planetaryhealthcheck.org/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Friedlingstein et al., Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288, 2026 — concentration atmosphérique de CO2"
     url: "https://doi.org/10.5194/essd-18-3211-2026"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "K. Raworth, « A Safe and Just Space for Humanity: Can we live within the doughnut? », Oxfam Discussion Paper, 13 février 2012"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "A. L. Fanning et K. Raworth, « Doughnut of social and planetary boundaries monitors a world out of balance », Nature, 646, p. 47-56, 2025"
     url: "https://doi.org/10.1038/s41586-025-09385-1"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "J. M. De Vos et al., « Estimating the normal background rate of species extinction », Conservation Biology, 29(2), p. 452-462, 2015 ; et G. Ceballos et al., Science Advances, 1(5), 2015"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "A. Indermühle et al., Nature, 398, 1999 (carottes de Taylor Dome) ; GIEC, Troisième rapport d'évaluation, groupe I, section 3.3.3 — CO2 sur l'Holocène"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Corrections identifiées à la conversion —
   - "Limites franchies en 2009 : confirmer dans [S1] qu'il s'agit du changement climatique, du taux de perte de biodiversité et du cycle de l'azote"

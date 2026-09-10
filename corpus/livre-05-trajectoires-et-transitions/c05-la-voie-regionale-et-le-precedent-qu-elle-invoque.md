@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Banque de France, *ABC de l'économie*, fiche « Le système monétaire international »**, ouverte le 2026-09-07 et instruite en L3.C03 et L3.C06. **Source secondaire à auteur institutionnel nommé.** Le filet de sécurité financière mondial comporte, entre l'étage national et l'étage mondial, « **des mécanismes multilatéraux RÉGIONAUX dans plusieurs régions du monde** » ; s'y ajoutent « des **lignes de swaps de devises entre banques centrales** ». **Le corpus n'en tient aucun exemple, aucun montant, aucune condition d'activation** — réserve déjà portée par L3.C06"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même, et deux résultats se contredisent sur ce point.** **L11.C16** établit que **la polycentricité est INTERDITE sur la décision D2** — la fixation des valeurs — et l'entrée `polycentricite` du vocabulaire retient d'Ostrom que « recommander une unité gouvernementale unique pour résoudre un problème d'action collective mondiale **est intrinsèquement faible en raison même des comportements de passager clandestin** », et qu'« une politique adoptée à la seule échelle mondiale **engendre difficilement la confiance nécessaire à l'action collective** ». **L6.C08** ajoute une contrainte juridique : **l'échelon local peut constater et administrer, il ne peut pas créer le titre**, et « ce que le traité ne pose pas lui-même, aucun échelon inférieur ne le posera valablement à sa place »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**L3.C02**, sur le trilemme : il est **énoncé pour UN ÉTAT**, de sorte que « le contrôle des capitaux n'est pas un choix de conception de l'institution **mais une obligation pesant sur chaque participant** ». **L3.C09** : le dispositif **s'ajoute** au système existant. **L5.C03** : l'adhésion ne demandant aucun renoncement, **la menace tarifaire perd son fait générateur**, mais le passager clandestin **devient une question d'intérêt à entrer** — « pourquoi maintenant plutôt que plus tard »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN MÉCANISME RÉGIONAL N'EST INSTRUIT, et c'est la lacune centrale de ce
      chapitre. Ni les accords de swap régionaux, ni les fonds de réserve

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**S. R. H. Barrett et al., « Impact of the Volkswagen emissions control defeat device on US public health », *Environmental Research Letters*, vol. 10, n° 114005, 2015, 11 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt institutionnel du MIT, par son interface de programmation, **après refus du site de l'éditeur (captcha Radware — mur anti-robot déclaré et non franchi).** Lu dans le texte. **DROITS, LUS DANS LE DOCUMENT : « *Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence* » — régime `libre`, sous condition d'attribution à l'auteur, au titre, à la revue et au DOI.** **C'ÉTAIT L'ACQUISITION DE RANG 1 INSCRITE DEUX FOIS PAR CE LIVRE : la fraude MÉTROLOGIQUE, celle que son motif de registre nomme.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A PAS OUVERT LA DÉCOUVERTE, IL EN A OUVERT LA CONSÉQUENCE.**
      Cette source quantifie les effets sanitaires ; **elle n'est pas l'étude qui a

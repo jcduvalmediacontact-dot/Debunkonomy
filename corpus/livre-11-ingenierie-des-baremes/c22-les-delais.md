@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "M. Friedman, « The Role of Monetary Policy », American Economic Review, 58(1), 1968 — RÉSULTAT DES DÉLAIS LONGS ET VARIABLES : une correction monétaire agit sur un état du monde différent de celui qui l'a motivée, de sorte qu'une politique bien intentionnée peut être procyclique. NON OUVERT — le résultat est employé depuis L1.C21 § 6, où il fonde P48 et le falsifieur F7, sur sa notoriété et non sur lecture. Porté en acquisition priorité 4 ; la règle du corpus interdit d'en tirer autre chose que ce que le dossier en a déjà tiré"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened » et qui « represent all the protests of reality against the supposed linearity » ; et le mode d'échec terminal — si « the number of violated boundary conditions surpasses the number of instruments », aucune solution n'existe"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » Retenu ici pour ce qu'il fait au délai de DÉCISION, et pour ce qu'il ne fait pas aux quatre autres"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE RÉCLAMÉ PAR LE CORPUS LUI-MÊME. L11.C21 § 3 a relevé que trois

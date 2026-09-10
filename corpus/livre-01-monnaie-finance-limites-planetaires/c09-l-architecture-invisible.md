@@ -14,85 +14,85 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "B. L. Whorf, Language, Thought, and Reality: Selected Writings, éd. J. B. Carroll, MIT Press, 1956 — essai « Science and Linguistics » (1940), p. 207-219"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "M. Carney, « Breaking the tragedy of the horizon – climate change and financial stability », discours à Lloyd's of London, 29 septembre 2015, Bank of England, 16 p."
     url: "https://www.bankofengland.co.uk/-/media/boe/files/speech/2015/breaking-the-tragedy-of-the-horizon-climate-change-and-financial-stability.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "N. Stern, The Economics of Climate Change: The Stern Review, Cambridge University Press, 2007 — chapitre 2 et annexe sur l'actualisation"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "W. D. Nordhaus, « A Review of the Stern Review on the Economics of Climate Change », Journal of Economic Literature, 45(3), p. 686-702, 2007"
     url: "https://doi.org/10.1257/jel.45.3.686"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: normatif
     reference: "Nations unies et al., System of Environmental-Economic Accounting — Ecosystem Accounting (SEEA EA), adopté par la Commission de statistique des Nations unies, mars 2021 — chapitres 8 à 11 (évaluation monétaire)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "P. Dasgupta, The Economics of Biodiversity: The Dasgupta Review, HM Treasury, Londres, 2021 — chapitre 13"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "J. C. Tronto, Moral Boundaries: A Political Argument for an Ethic of Care, Routledge, 1993 — chapitre 4"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014, p. 14-27"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: normatif
     reference: "Nations unies, Commission européenne, FMI, OCDE, Banque mondiale, System of National Accounts 2008 (SCN 2008), New York, 2009 — frontière de la production, valorisation de la production non marchande à son coût ; transposé en Europe par le SEC 2010, règlement (UE) n° 549/2013"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: normatif
     reference: "Directive (UE) 2022/2464 du 14 décembre 2022 relative à la publication d'informations en matière de durabilité par les entreprises (CSRD) ; normes ESRS, règlement délégué (UE) 2023/2772"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "P. A. Samuelson, « The Pure Theory of Public Expenditure », Review of Economics and Statistics, 36(4), p. 387-389, 1954 ; R. A. Musgrave, The Theory of Public Finance, McGraw-Hill, 1959"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "F. P. Ramsey, « A Mathematical Theory of Saving », Economic Journal, 38(152), p. 543-559, 1928"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990 ; R. H. Coase, « The Problem of Social Cost », Journal of Law and Economics, 3, p. 1-44, 1960"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "É. Monnet, La banque-providence : démocratiser les banques centrales et la monnaie, Seuil, 2021 ; J. Couppey-Soubeyran, P. Delandre, Augustin Sersiron, Le pouvoir de la monnaie, Les Liens qui libèrent, 2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S15
     nature: theorie
     reference: "P. Webley, « Children's understanding of economics », in M. Barrett, E. Buchanan-Barrow (dir.), Children's Understanding of Society, Psychology Press, 2005, chap. 2, p. 43-67"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S16
     nature: normatif
     reference: "É. Quinet (dir.), L'évaluation socioéconomique des investissements publics, Commissariat général à la stratégie et à la prospective, 2013, tome 1 — taux d'actualisation sans risque de 2,5 % jusqu'en 2070, 1,5 % au-delà ; taux avec risque macroéconomique standard de 4,5 %"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S17
     nature: theorie
     reference: "L. Boroditsky, « Does Language Shape Thought?: Mandarin and English Speakers' Conceptions of Time », Cognitive Psychology, 43(1), p. 1-22, 2001"
     url: "https://doi.org/10.1006/cogp.2001.0748"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S18
     nature: donnees
     reference: "V. Miranda, « Cooking, Caring and Volunteering: Unpaid Work Around the World », OECD Social, Employment and Migration Working Papers, n° 116, OCDE, 2011"
     url: "https://doi.org/10.1787/5kghrjm8s142-en"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S19
     nature: donnees
     reference: "D. Roy, « Le travail domestique : 60 milliards d'heures en 2010 », Insee Première, n° 1423, novembre 2012"
     url: "https://www.insee.fr/fr/statistiques/fichier/2123967/ip1423.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude, sur pistes Gemini Deep Research) —
   # S2 : PDF lu — « The horizon for monetary policy extends out to 2-3 years. For financial stability it is a bit longer, but typically only to the outer boundaries of the credit cycle – about a decade. » Remèdes : information sur l'intensité carbone, task force de publication climatique, corridor de prix du carbone. Sur les règles prudentielles : « Some have suggested we ought to accelerate the financing of a low carbon economy by adjusting the capital regime for banks and insurers. That is flawed. »

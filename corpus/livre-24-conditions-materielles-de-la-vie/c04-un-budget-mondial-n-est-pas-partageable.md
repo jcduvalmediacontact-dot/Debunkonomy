@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**J. Rockström, J. Gupta, D. Qin, S. J. Lade et al., « Safe and just Earth system boundaries », Nature 619, p. 102-111, 6 juillet 2023 — MÊME SOURCE QU'EN L24.C02, OUVERTE PAR TÉLÉCHARGEMENT DIRECT, CC BY 4.0, régime `libre`. CE QUE CE CHAPITRE Y PREND ET QUE L24.C02 N'AVAIT PAS EXPLOITÉ. EAU DE SURFACE** : les auteurs proposent « a **presumptive SUBGLOBAL safe ESB of 20% alteration** (increase or decrease) of monthly surface water flows compared with the prevailing natural flow regime **be met in ALL RIVERS GLOBALLY** » ; « **The GLOBAL ESB for surface water is that 100% OF ALL LAND AREA MEETS THE SUBGLOBAL BOUNDARY** by limiting alterations of flows by 20% in all rivers in the world. » **Puis la phrase décisive** : « Meeting the global ESB sums to **a global alteration budget of 7,630 km³ per year** [...] **Globally aggregated river flow alterations are CURRENTLY LESS THAN THIS FIGURE ; HOWEVER, WE ARE OUTSIDE THE GLOBAL ESB because the subglobal safe ESB is ONLY MET FOR 66% OF LAND AREA and LESS THAN HALF OF THE GLOBAL POPULATION.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Même article — LE MÊME PHÉNOMÈNE SUR LES NAPPES ET SUR LES NUTRIMENTS. EAU SOUTERRAINE** : « we propose that the safe ESB for annual groundwater drawdown for all aquifers be **the average annual recharge**, with groundwater considered safe if **drawdown is less than recharge** » ; « The **subglobal** safe ESB is met for a given aquifer when **local drawdown does not exceed average annual recharge**. The **global** ESB for groundwater is that **the subglobal ESB is met for ALL aquifers around the world** » ; la somme mondiale des recharges annuelles vaut « approximately **16,000 km³ per year** » ; **et « We estimate that we are currently OUTSIDE the global ESB because groundwater levels in 47% OF BASINS are currently in decline. » NUTRIMENTS** : les limites proposées — **61 (35–84) Tg d'azote par an** d'excédent agricole, **4,5 à 9,0 Tg de phosphore par an** — reposent sur des travaux calculant les pertes et excédents « subglobal and global », **et supposent explicitement « the REDISTRIBUTION of nutrients from OVER-FERTILIZED to UNDER-FERTILIZED regions »**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "**K. Richardson, W. Steffen, W. Lucht et al., « Earth beyond six of nine planetary boundaries », Science Advances 9, eadh2458, 2023 — SOURCE DE L24.C01, régime `citation_seule` (CC BY-NC 4.0). CE QUE SON TABLEAU 1 DIT DE LA DISTRIBUTION, ET QUE L24.C01 N'AVAIT PAS RELEVÉ. PHOSPHORE** : la limite est « **a global average, but REGIONAL DISTRIBUTION IS CRITICAL FOR IMPACTS** ». **AZOTE** : la limite « acts as a global **“VALVE”** limiting introduction of new reactive N to Earth system, **but regional distribution of fertilizer N is critical for impacts** ». **CHANGEMENT D'USAGE DES TERRES** : la limite globale de 75 % est « **a weighted average of the three individual BIOME boundaries** » — tropical 85 %, tempéré 50 %, boréal 85 % — **et les valeurs actuelles sont données par continent et par biome**, de 83,9 % pour le tropical en Amérique à **34,2 % pour le tempéré en Europe**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même. L24.C01** : les neuf variables de contrôle n'ont **aucune unité commune**, et **F13 est posé sur ce fondement**. **L24.C02 § 3** relevait que plusieurs limites sont sous-globales sans en tirer la conséquence. **L22.C04** : le barème écologique en vigueur exclut la compensation — « **la compensation des incidences d'une autre activité économique est EXCLUE** [...] **seuls les GAINS NETS** [...] peuvent être considérés comme une contribution substantielle ». **L25.C05** : le droit différencie sans calculer, et aucun texte ne dit combien chacun doit. **L11.C13** : le barème de qualification. **L11.C24** : le barème aux frontières"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Ce chapitre n'ouvre aucune source nouvelle : il exploite ce que les deux

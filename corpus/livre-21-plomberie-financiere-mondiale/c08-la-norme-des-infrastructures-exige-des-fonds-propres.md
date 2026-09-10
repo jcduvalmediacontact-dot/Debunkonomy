@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Committee on Payment and Settlement Systems et Technical Committee of the International Organization of Securities Commissions, *Principles for financial market infrastructures*, avril 2012, ISBN 92-9131-108-1.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce du dossier NEMO constitué par l'auteur le 2026-09-07. **DROITS : « © Bank for International Settlements and International Organization of Securities Commissions 2012. All rights reserved. BRIEF EXCERPTS MAY BE REPRODUCED OR TRANSLATED PROVIDED THE SOURCE IS [cité] » — mention lue dans le document. RÉGIME : `citation_seule`**, la mention autorisant expressément la citation courte avec attribution. **C'est la norme internationale qui régit les infrastructures de marchés financiers**, et elle a été rendue par deux comités internationaux."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**L'APPLICABILITÉ DE CETTE NORME AU DISPOSITIF N'EST PAS ÉTABLIE, ET CE
      CHAPITRE NE L'ÉTABLIT PAS.** La norme vise les **systèmes de paiement

@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "T. Veblen, The Theory of the Leisure Class, 1899 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (Project Gutenberg n° 833, texte intégral). Retenu, chap. IV : « In order to gain and to hold the esteem of men it is not sufficient merely to possess wealth or power » ; et « CONSPICUOUS CONSUMPTION of valuable goods is a means of reputability to the gentleman of leisure ». RÉSERVE D'ÉDITION : édition Gutenberg sans apparat critique"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — le concept `effet_veblen` du vocabulaire, versé le 2026-09-06 en L11.C03 : comportement de demande dans lequel un prix élevé n'est pas un obstacle à l'achat mais l'attribut recherché. Le corpus l'emploie comme OBJECTION AU BARÈME DIFFÉRENCIÉ : sur les biens concernés, le signe de l'effet d'un renchérissement n'est pas établi, et ces biens sont vraisemblablement ceux dont l'empreinte par unité de dépense est la plus élevée. L'objection a été soulevée par l'auteur du dispositif lui-même"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE PARTIELLEMENT OUVERTE. Veblen 1899 est lu et cité ;

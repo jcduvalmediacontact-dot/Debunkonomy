@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P4, qui porte le reflux collectif, et la promesse P39. Et le résultat central du Livre 11 : la condition de bouclage, qui exige que le reflux soit mis en regard de l'émission, classée en L11.C03 comme une CONDITION au sens du chapitre II de Tinbergen — « not in itself an element of well-being but rather a technical expression of a sound policy ». Et L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, le bouclage le liant au produit du reflux"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, ET UNE TROISIÈME ERREUR D'ÉDITION

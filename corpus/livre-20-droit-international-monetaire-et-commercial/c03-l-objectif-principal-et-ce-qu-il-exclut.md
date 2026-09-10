@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Traité sur l'Union européenne, Maastricht, JO C 191 du 29.7.1992 — **ARTICLE 105 § 1** : « L'OBJECTIF PRINCIPAL du SEBC est de maintenir la STABILITÉ DES PRIX. SANS PRÉJUDICE de l'objectif de stabilité des prix, le SEBC apporte son soutien aux politiques économiques générales dans la Communauté, en vue de contribuer à la réalisation des objectifs de la Communauté, tels que définis à l'article 2. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 2** : « the primary objective of the ESCB shall be to maintain price stability. Without prejudice to the objective of price stability, it shall support the general economic policies in the Community [...] The ESCB shall act in accordance with the principle of an OPEN MARKET ECONOMY WITH FREE COMPETITION, FAVOURING AN EFFICIENT ALLOCATION OF RESOURCES ». **ARTICLE 3.1** : les missions fondamentales. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** RÉSERVE D'ÉDITION : version Amsterdam, ECB Compendium 2002"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "F. Kydland, E. Prescott, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), 1977 — **OUVERT le 2026-09-05**, employé au Livre 8 comme fondement théorique du mandat étroit et de l'indépendance"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA HIÉRARCHIE DES OBJECTIFS N'EST PAS INSTRUITE PAR LA DOCTRINE AU DOSSIER.
      Le corpus lit « sans préjudice de » comme une SUBORDINATION STRICTE.

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, décision du 2026-09-06 : le livre porte sur « le droit international public **et son éventuelle ÉVOLUTION** avec NEMO IMS ». Ce chapitre traite la seconde moitié de la commande, que les vingt chapitres précédents n'ont pas traitée : ils ont dit ce que le droit DISPOSE"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — l'ensemble du Livre 20, dont ce chapitre est la synthèse constructive : L20.C03 (la hiérarchie des objectifs), L20.C06 (l'article 20 des statuts et la structure à deux vitesses), L20.C07 (l'accord monétaire à la majorité qualifiée), L20.C08 (la révision graduée de parité et la désignation du porteur), L20.C12 (les pouvoirs non délégables), L20.C13 (le seuil en contributions et l'avance restituable), L20.C16 (l'inaliénabilité de la ressource et l'aliénabilité réglée du produit), L20.C17 (la sanctuarisation et son contournement), L20.C19 (l'équivalence stricte comme texte), L20.C20 (la déduction du prix payé à l'origine), L20.C21 (l'intérêt légitime)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C13 : la sanctuarisation juridique « est la condition sine qua non à l'émergence des unités » ; L7.C12, qui établit la séquence de démarrage ; L1.C18 § 6, qui déclarait la question du traité à trancher avant tout exposé du mécanisme"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Statut de ce chapitre ─────────────────────────────────────────────────
   # C'EST LE SEUL CHAPITRE DU LIVRE QUI NE S'APPUIE SUR AUCUN TEXTE NOUVEAU.

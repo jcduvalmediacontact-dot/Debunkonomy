@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*L6 — PROTOCOLE ÉDITORIAL v06*, règle **B.1, « Séparation des niveaux de certitude »** — cinq catégories : **1. fait documenté** (source primaire vérifiable) ; **2. allégation d'une partie**, « toujours attribuée » ; **3. conclusion d'un tribunal**, avec référence à la sentence ; **4. inférence de l'auteur**, qui « doit être signalé comme tel » ; **5. position normative de Debunk'Onomy**, « clairement identifié comme prise de position, non comme conclusion juridique ou factuelle ». Et la règle qui les relie : « **ne jamais restituer une interprétation politique ou une inférence comme s'il s'agissait d'un fait documenté ou d'une décision juridictionnelle** ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, **« Sixième état : le point non établi »** — « Lorsqu'une recherche n'aboutit pas, l'écrire — « **non établi par les sources consultées au [date]** » — et **NE JAMAIS LE CONVERTIR EN NÉGATION**. « Il n'existe pas » et « aucune décision n'a été rendue » **EXIGENT UNE SOURCE QUI L'ATTESTE**. **UNE ÉTUDE ASSOCIATIVE OU UN ARTICLE GÉNÉRAL NE PEUVENT JAMAIS ÉTABLIR UNE EXHAUSTIVITÉ NÉGATIVE.** »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, règle **B.2, « Données évolutives toujours datées »** — formulations acceptables : « selon la source consultée au [date] », « en [mois année], le [nom de l'institution] recensait », « au [date], [X] États sont parties ». **Formulations À PROSCRIRE : « actuellement », « aujourd'hui », « à ce jour » (sans date).** Et règle **B.3** : les généralisations totalisantes — « systématiquement », « toujours », « aucun » — « sont à remplacer par des formulations qualifiées »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — `corpus/convention.md` § 8, qui n'admet que TROIS balises de régime : `::etat::`, `::hypothese::`, `::norme::`, et interdit d'enrichir la liste sans migration scriptée ; et L2.C09, où le corpus a vérifié une absence par RECHERCHE SUR TEXTE INTÉGRAL — « planetary boundar », « biodiversity » et « Rockström » figurant zéro fois dans un document de 140 685 caractères — sans qu'aucune règle du corpus n'exige cette méthode"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS N'A PAS INVENTORIÉ SES PROPRES ÉNONCÉS NÉGATIFS. Ce chapitre
      établit qu'une règle lui manque ; **il n'a pas relevé combien de fois il

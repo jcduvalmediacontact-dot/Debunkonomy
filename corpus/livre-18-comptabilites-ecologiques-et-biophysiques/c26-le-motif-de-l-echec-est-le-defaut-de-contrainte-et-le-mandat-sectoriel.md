@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 4 « Value expression in decision-making », 141 pages, auteurs principaux coordonnateurs David N. Barton (Norvège), Rebecca Chaplin-Kramer et autres.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **RÉSUMÉ EXÉCUTIF DU CHAPITRE LU DANS LE TEXTE**, sept premières constatations ; **le corps du chapitre, cent trente pages, NON LU**, non plus que les constatations suivantes. **ÉNONCÉS À COTE DE CONFIANCE**, reproduite telle quelle. **DROITS : reproduction libre à des fins éducatives ou non lucratives avec mention de la source ; usage commercial soumis à autorisation écrite. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A LU QUE LES SEPT PREMIÈRES CONSTATATIONS DU RÉSUMÉ EXÉCUTIF
      DE CE CHAPITRE.** **Il ignore combien il y en a et ce que disent les

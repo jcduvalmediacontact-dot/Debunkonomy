@@ -14,67 +14,67 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026 — introduction générale, « Les trois piliers fondamentaux de la robustesse », deuxième pilier « Financer les activités non marchandes, essentielles et régénératives autrement que par les mécanismes traditionnels de la croissance » (p. 33-34) ; chapitre 7, sections « Révolution financière », « Délimitation entre les échecs du marché et les activités extra financières », « Que sont les NEMO Green SDR », « Révolution du travail et du mérite », « Sanctuarisation juridique mondiale des communs », « Répartitions internationales des NEMO Green SDR », « Les missions du GAÏA Economic Symposium » (p. 168-186)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 10 « De la surveillance bancaire à la gouvernance des biens communs » — extension du champ macroprudentiel aux communs biosphériques, sociaux, cognitifs, culturels, numériques et monétaires ; taxonomie des quatre catégories de biens ; familles d'indicateurs et sources de données ; « indicateurs de gouvernance polycentrique effective ». AVERTISSEMENT : cet épisode décrit le GAÏA Economic Symposium en CINQ COLLÈGES délibérant conjointement — état antérieur de la conception, que le chapitre 7 du livre remplace par quatre chambres séparées (L1.C18 § 3). Le livre fait autorité ; les mentions de collèges sont écartées"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "P. A. Samuelson, « The Pure Theory of Public Expenditure », The Review of Economics and Statistics, 36(4), p. 387-389, novembre 1954 — définition du bien de consommation collective par la non-rivalité, et impossibilité pour un système de prix décentralisé d'en déterminer le niveau optimal"
     url: "https://doi.org/10.2307/1925895"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990 — distinction entre ressource en libre accès et ressource commune gouvernée par des règles ; huit principes organisateurs des institutions durables de gestion collective"
     url: "https://doi.org/10.1017/cbo9780511807763"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place in a comprehensive and transparent manner that will effectively reduce global warming. Furthermore, simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » (p. 1) ; avantage revendiqué de l'approche polycentrique : « encouraging experimental efforts at multiple levels, leading to the development of methods for assessing the benefits and costs of particular strategies » (p. 5)"
     url: "https://documents1.worldbank.org/curated/en/480171468315567893/pdf/WPS5095.pdf"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "G. Hardin, « The Tragedy of the Commons », Science, 162(3859), p. 1243-1248, 13 décembre 1968 — thèse de la surexploitation inévitable d'une ressource partagée sans droits de propriété définis, dont Ostrom établit qu'elle confond libre accès et ressource commune"
     url: "https://doi.org/10.1126/science.162.3859.1243"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: donnees
     reference: "Fonds monétaire international, résolution du Conseil des gouverneurs 76-1 du 2 août 2021, allocation générale de droits de tirage spéciaux entrée en vigueur le 23 août 2021 : « SDR 456.5 billion (equivalent to about US$650 billion) was allocated on August 23, 2021, by far the largest allocation to date », répartie au prorata des quotes-parts — « the share of emerging market and developing countries is about 42.3 percent (about USD 275 billion) », « of which 3.3 percent (about USD 21 billion) is for low-income countries ». Statuts du Fonds, art. XVIII (allocation) et art. XX (intérêts et commissions) : chaque détenteur perçoit un intérêt sur ses avoirs et acquitte une commission au même taux sur son allocation cumulée nette, de sorte qu'un membre dont les avoirs descendent sous son allocation supporte un débit net. Le Fonds décrit lui-même le dispositif ainsi : « participants in the SDR Department receive unconditional liquidity represented by an interest-bearing reserve asset (SDR holding) and a corresponding long-term liability to the SDR Department (SDR allocation) ». Le DTS n'est ni une monnaie ni une créance sur le Fonds, mais une créance potentielle sur les monnaies librement utilisables de ses membres. Le passif ainsi créé n'est assorti d'aucun échéancier d'amortissement : il est permanent et porteur d'intérêt"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: normatif
     reference: "Convention-cadre des Nations unies sur les changements climatiques, décision 1/CMA.6 « New collective quantified goal on climate finance », cote FCCC/PA/CMA/2024/17/Add.1, adoptée à Bakou le 24 novembre 2024 par la Conférence des Parties siégeant comme réunion des Parties à l'Accord de Paris — et non par la Conférence des Parties en formation plénière. § 8 : « decides to set a goal [...] with developed country Parties taking the lead, of at least USD 300 billion per year by 2035 for developing country Parties for climate action ». § 7 : « Calls on all actors to work together to enable the scaling up of financing to developing country Parties for climate action from all public and private sources to at least USD 1.3 trillion per year by 2035 ». PÉRIMÈTRE DE LA MOBILISATION, § 8 : « (a) From a wide variety of sources, public and private, bilateral and multilateral, including alternative sources ; [...] (c) Recognizing the voluntary intention of Parties to count all climate-related outflows from and climate-related finance mobilized by multilateral development banks towards achievement of the goal ». L'objectif ne porte donc pas sur des dons budgétaires mais sur une assiette composite incluant les flux des banques multilatérales de développement et les financements privés entraînés"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: donnees
     reference: "T. Feyzioglu, V. Swaroop, M. Zhu, « A Panel Data Analysis of the Fungibility of Foreign Aid », The World Bank Economic Review, 12(1), p. 29-58, 1998 — cinq secteurs examinés — agriculture, éducation, énergie, santé, transports et communications. « Aid is fungible in three out of five sectors examined. Developing-country governments receiving earmarked concessionary loans for agriculture, education, and energy reduce their own resources going to these sectors and use them elsewhere ; only loans to the transport and communication sector are fully spent on the purposes intended by donors. » Réserve des auteurs sur l'échantillon de base de quatorze pays (128 observations annuelles, 1971-1990), où « aid is not fungible at the aggregate level and there is no associated tax relief » — la fongibilité apparaît lorsque le nombre de pays augmente"
     url: "https://doi.org/10.1093/wber/12.1.29"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "F. A. Hayek, « The Use of Knowledge in Society », The American Economic Review, American Economic Association, 35(4), septembre 1945, p. 519-530 — p. 519-520 : « the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess » ; p. 524 : les données du calcul économique « are never for the whole society “given” to a single mind which could work out the implications and can never be so given »"
     url: "https://www.jstor.org/stable/1809376"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S11
     nature: normatif
     reference: "Fonds monétaire international, Balance of Payments and International Investment Position Manual, 6e édition (BPM6), et External Debt Statistics: Guide for Compilers and Users (édition 2013) — sous BPM6, adopté par la plupart des États en 2016, les avoirs en droits de tirage spéciaux sont inscrits à l'actif du membre et l'allocation cumulée à son passif, comptabilisée en « autres passifs de dette (long terme) » attribués à la banque centrale et incluse dans la dette extérieure brute ; la cinquième édition n'attachait aucun passif à ces avoirs. Le reclassement procède d'un changement du critère de la dette, passé de l'exigence d'un paiement de principal ET d'intérêt à celle d'un paiement de principal OU d'intérêt. Dans l'analyse de soutenabilité, seule la différence positive entre allocation cumulée et avoirs détenus entre en dette extérieure. Le reclassement est contesté"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "W. J. Baumol, J. C. Panzar, R. D. Willig, Contestable Markets and the Theory of Industry Structure, Harcourt Brace Jovanovich, 1982 — sous-additivité des coûts et définition du monopole naturel ; une tarification au coût marginal ne couvre pas les coûts fixes dans une industrie à rendements croissants, ce qui constitue une défaillance allocative indépendante des propriétés de rivalité et d'exclusivité du bien produit"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "K. J. Arrow, « Economic Welfare and the Allocation of Resources for Invention », in R. R. Nelson (dir.), The Rate and Direction of Inventive Activity: Economic and Social Factors, National Bureau of Economic Research et Princeton University Press, 1962, p. 609-626 — non-appropriabilité de l'information produite par l'invention et sous-investissement du marché en recherche ; la littérature qui en découle documente en retour la captation des allocations administrées par les organisations les mieux constituées"
     url: "https://doi.org/10.1515/9781400879762-024"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "F. Kydland, E. Prescott, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-491, 1977 — une règle annoncée devient coûteuse à tenir au moment où elle devrait s'appliquer, et l'anticipation de son abandon suffit à modifier le comportement des agents avant toute application"
     url: "https://doi.org/10.1086/260580"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le livre a été lu avant toute autre source, conformément à la règle acquise

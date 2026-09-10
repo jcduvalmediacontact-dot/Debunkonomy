@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 9, p. 188-193, section « Second ressort : le demurrage sur encaisses oisives, levier quantitatif » — le prélèvement frappe les encaisses inactives au-delà d'un SEUIL D'EXEMPTION INDEXÉ SUR LE REVENU MÉDIAN NATIONAL, l'indexation étant présentée comme essentielle ; et l'assiette est CONSOLIDÉE AU NIVEAU DU BÉNÉFICIAIRE EFFECTIF FINAL, pour empêcher le fractionnement des soldes entre comptes ou sociétés-écrans. Versé au dossier en L1.C21 [S1]"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. M. Keynes, The General Theory of Employment, Interest and Money, 1936, chapitre 23, section VI sur Gesell — après avoir écrit que l'avenir apprendrait davantage de l'esprit de Gesell que de celui de Marx et que l'idée de la monnaie timbrée est saine, Keynes pose l'objection qui la ruine : la monnaie n'est pas seule à porter une prime de liquidité, elle n'en diffère que par degré, et si l'on prive les billets de cette prime « une longue série de substituts prendra leur place — monnaie de banque, créances à vue, monnaie étrangère, bijoux et métaux précieux en général ». Déjà versée au dossier en L1.C21 § 6, où elle fonde P29. RÉSERVE : citation reprise du dossier, ouvrage non ouvert de première main dans cette passe"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: jurisprudence
     reference: "Cour de justice de l'Union européenne, grande chambre, arrêt du 22 novembre 2022, affaires jointes C-37/20 et C-601/20, ECLI:EU:C:2022:912, 25 p. — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (EUR-Lex, CELEX 62020CJ0037), texte intégral. DISPOSITIF, verbatim : l'article 1er, point 15, sous c), de la directive (UE) 2018/843 « est invalide en tant qu'il a modifié l'article 30, paragraphe 5, premier alinéa, sous c), de la directive (UE) 2015/849 [...] en ce sens que [celui-ci] prévoit [...] que les États membres doivent veiller à ce que les informations sur les bénéficiaires effectifs [...] soient accessibles dans tous les cas à TOUT MEMBRE DU GRAND PUBLIC ». CE QUE L'ARRÊT LAISSE INTACT, point 84 : « l'article 30, paragraphe 5, premier alinéa, sous a) et b) [...] prévoit que les informations sur les bénéficiaires effectifs doivent être accessibles, DANS TOUS LES CAS, AUX AUTORITÉS COMPÉTENTES et aux cellules de renseignement financier, SANS AUCUNE RESTRICTION, ainsi qu'aux entités assujetties ». Point 85 : le régime antérieur à 2018 — accès des autorités et de « toute personne ou organisation capable de démontrer un intérêt légitime » — est déclaré CONSIDÉRABLEMENT MOINS ATTENTATOIRE, l'aggravation de 2018 n'étant pas compensée. Point 64, le test : les limitations « s'opèrent dans les limites du strict nécessaire », et lorsqu'un choix existe « entre plusieurs mesures appropriées », il faut retenir la moins intrusive. CETTE OUVERTURE CORRIGE LE CORPUS — voir § 2 du § 3 et doit être vérifiée"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. Couppey-Soubeyran, P. Delandre, A. Sersiron, Le pouvoir de la monnaie, Les Liens qui Libèrent, janvier 2024 — OUVERT le 2026-09-05. Leur prélèvement sur les stocks frappe « les soldes de fin de mois des RÉSERVES BANCAIRES DÉPOSÉES À LA BANQUE CENTRALE » à un taux « de l'ordre par exemple de 0,1 % » mensuel, pour un rendement mensuel estimé à 4,3 milliards d'euros sur des réserves d'environ 4 300 milliards. Les auteurs assimilent eux-mêmes ce prélèvement à « un taux d'intérêt négatif sur les réserves, tel que le pratiquait la BCE avant la crise sanitaire (à −0,5 %) »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963, p. 475-485 — OUVERT INTÉGRALEMENT le 2026-09-05 et dépouillé en L11.C04. Ce que le présent chapitre en retient : sous mobilité parfaite, définie comme la situation où « a country cannot maintain an interest rate different from the general level prevailing abroad », un écart de rendement provoque un mouvement de capitaux que la défense de la parité annule. UN PRÉLÈVEMENT SUR LA DÉTENTION ÉTANT UN RENDEMENT NÉGATIF, il tombe sous ce résultat"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CE CHAPITRE NE DÉFRICHE PAS : il solde. Trois chapitres y renvoyaient —

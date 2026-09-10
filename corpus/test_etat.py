@@ -18,7 +18,12 @@ tests passent, 1 sinon.
         revision_de_fond — rien n'est déduit d'une date (P4)
   T-Q9  --initialiser-tardif qualifie tardivement les seules entrées absentes
         qu'il vise, ne modifie aucune autre entrée, et est refusé dès que sa
-        portée serait ambiguë (P5)
+        portée serait ambiguë — y compris quand l'option est répétée (P5)
+
+Sous la révision 12 (etat_lecture), les chapitres que ces tests créent ou
+passent à verifie reçoivent des sources « candidate » ou « ouverte » datées :
+jamais a_requalifier, réservé aux occurrences du manifeste. Sous le schéma
+antérieur, ces adaptations sont sans effet.
   T-Q5  entrées absentes et orphelines au diagnostic, orphelines conservées sauf purge (P6, P7, P9)
   T-Q6  --publier refuse un chapitre verifie ou citable sans état (P8)
   T-Q7  aucune combinaison d'options ne fait disparaître une qualification sans demande (P9)
@@ -106,6 +111,25 @@ def vider_verifications(chemin):
         saute = False
         sortie.append(ligne)
     chemin.write_text("---".join([parties[0], "\n".join(sortie), parties[2]]), encoding="utf-8")
+
+
+def rendre_candidates(chemin):
+    """Révision 12 : une source neuve est candidate, sans date — jamais
+    a_requalifier, que seul le manifeste autorise. Sans effet sous le schéma
+    antérieur, qui n'a pas d'etat_lecture."""
+    parties = chemin.read_text(encoding="utf-8").split("---", 2)
+    tete = re.sub(r"^([ \t]+)etat_lecture: (?:a_requalifier|ouverte)[ \t]*$",
+                  r"\1etat_lecture: candidate", parties[1], flags=re.M)
+    tete = re.sub(r"^[ \t]+date_verification: .*\n", "", tete, flags=re.M)
+    chemin.write_text("---".join([parties[0], tete, parties[2]]), encoding="utf-8")
+
+
+def rendre_ouvertes(chemin):
+    """Révision 12 : un chapitre verifie exige des sources ouvertes et datées."""
+    parties = chemin.read_text(encoding="utf-8").split("---", 2)
+    tete = re.sub(r"^([ \t]+)etat_lecture: (?:a_requalifier|candidate)[ \t]*$",
+                  r"\1etat_lecture: ouverte\n\1date_verification: " + JOUR, parties[1], flags=re.M)
+    chemin.write_text("---".join([parties[0], tete, parties[2]]), encoding="utf-8")
 
 
 def ajouter_au_corps(chemin, texte):
@@ -221,6 +245,7 @@ def nouveau_chapitre(cle, nom, rev):
     modifier_entete(cible, r"^chapitre: L9\.C01$", "chapitre: " + cle)
     modifier_entete(cible, r'^titre: "(.*)"$', r'titre: "Test %s"' % cle)
     modifier_entete(cible, r"^revision_de_fond: .*$", "revision_de_fond: " + rev)
+    rendre_candidates(cible)
 
 
 nouveau_chapitre("L9.C98", "c98-test-initialisation.md", JOUR)
@@ -259,6 +284,12 @@ test("T-Q9 une entrée déjà enregistrée est refusée par la forme ciblée, ri
 code, sortie = lancer(copie, "--initialiser-tardif")
 test("T-Q9 l'option sans --maj-etat est refusée",
      code == 1 and "exige --maj-etat" in sortie and etat(copie) == e9b)
+code, sortie = lancer(copie, "--maj-etat", "--initialiser-tardif", "--initialiser-tardif=L9.C01")
+test("T-Q9 deux occurrences, nue puis ciblée, sont refusées comme ambiguës, rien n'est écrit",
+     code == 1 and "répété" in sortie and etat(copie) == e9b)
+code, sortie = lancer(copie, "--maj-etat", "--initialiser-tardif=L9.C97", "--initialiser-tardif=L9.C95")
+test("T-Q9 deux formes ciblées sont refusées comme ambiguës, rien n'est écrit",
+     code == 1 and "répété" in sortie and etat(copie) == e9b)
 
 # --- T-Q5 : absents et orphelins au diagnostic -------------------------------------
 print("T-Q5  entrées absentes et orphelines au diagnostic")
@@ -298,6 +329,7 @@ import yaml  # la dépendance même de controle.py
 vocab = yaml.safe_load((copie / "vocabulaire.yaml").read_text(encoding="utf-8"))
 terme = next(e["terme"] for e in vocab if isinstance(e, dict) and "terme" in e)
 modifier_entete(f6, r"^concepts: \[\]$", 'concepts: ["%s"]' % terme)
+rendre_ouvertes(f6)
 sans = dict(e5b)
 del sans[cle6]
 ecrire_etat(copie, sans)

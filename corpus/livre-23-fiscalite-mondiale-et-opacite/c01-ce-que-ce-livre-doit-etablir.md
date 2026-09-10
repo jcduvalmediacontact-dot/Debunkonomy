@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 23**, ouvert le 2026-09-07 sur décision de l'auteur, **premier de l'ordre de priorité qu'il a arrêté — 23, 21, 22, 24, 25**. **Fonction** : « examiner **qui peut lever le reflux et comment les capitaux peuvent l'éviter** — au nom de quelle compétence, avec quels moyens de contrôle, et contre quels mécanismes de contournement ». **Motifs inscrits** : l'arbitrage **A35**, « la fonte est levée sur les agents, et le corpus n'a jamais dit QUI LA LÈVE NI DE QUEL TITRE » ; le manque **« ancrage fiscal »**, constaté et reporté par arbitrage le 2026-09-04, **dont ce livre est la résolution** et pour lequel « le livre propre était la recommandation » ; et **L10.C06**, qui « pose un arbre de qualification à six branches et huit critères, et le corpus n'en tient aucun »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**ARBITRAGE A35, rendu par l'auteur le 2026-09-07**, et **L10.C06 qui l'instruit**. L'unité est adossée à une dette portée par **« la société entière »**, refluée par des fontes **« graduellement plus fortes »** selon l'impact de la consommation, le motif étant que **« la rentabilité n'est pas compatible avec la régénération »**. **L10.C06 a établi que la qualification de ce prélèvement n'est PAS acquise** et a posé **SIX BRANCHES** — impôt, contribution affectée, redevance, **frais de réseau**, **règle monétaire**, obligation conventionnelle — départagées par **HUIT CRITÈRES** : origine de l'obligation, qualité du collecteur, assiette, présence ou absence de contrepartie, possibilité de refuser le réseau, cours légal, destination du produit, pouvoir de sanction. **Et il a relevé que la branche « règle monétaire » n'exige AUCUNE compétence fiscale**, mais exige que l'unité soit celle de l'émetteur — **ce qui ramène à la question du passif, non tranchée**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Ce que le corpus tient déjà, et qui n'est pas cet objet.** **L11.C21, LA PERCEPTION** : « le mécanisme se transporte, **le motif ne se transporte pas** » — sous le régime de la taxe sur la valeur ajoutée « l'administration perçoit pour l'État dont elle relève », de sorte que **« l'alignement d'intérêts qui fait tenir l'instrument existant est exactement ce que le dispositif retire »** ; et **le mode d'échec n'est pas le refus** : « un État qui perçoit sans zèle » n'est ni visible ni sanctionnable, le recouvrement se dégradant « par des moyens ordinaires [...] qu'aucun engagement ne mesure ». **L20.C20, L'AJUSTEMENT AUX FRONTIÈRES** : « le club existe, avec seuil, condition et révocation — **et sa condition d'entrée est juridique, non physique** » ; le règlement « renonce délibérément à un marché de certificats pour un motif juridique », **premier argument non économique en faveur d'un barème que le corpus ait rencontré**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**`protocoles/falsification.md`, F10 — LA SUPERFLUITÉ**, posé le 2026-09-07 et **routé sur ce livre**. Condition d'échec : « qu'un instrument déjà disponible en droit positif [...] suffise à atteindre l'objectif que le dispositif se donne, **pour un coût institutionnel inférieur** — et que le corpus ne puisse pas établir ce que le dispositif apporte en plus ». **Le cas** : PNUE 2026, les subventions dommageables **dépassent 2 000 milliards de dollars par an**, l'écart à combler est d'environ **351 milliards**, et **en réorienter un sixième suffit** — sans institution nouvelle. **Et F10 ne se réfute par aucun des travaux menés jusqu'ici** : il se réfute par une comparaison d'instruments"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE SOURCE FISCALE N'EST OUVERTE. Le corpus ne tient ni convention
      fiscale bilatérale, ni instrument sur les prix de transfert, ni norme

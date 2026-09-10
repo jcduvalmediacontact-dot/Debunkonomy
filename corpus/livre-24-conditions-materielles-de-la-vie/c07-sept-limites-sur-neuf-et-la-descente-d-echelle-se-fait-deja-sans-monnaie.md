@@ -15,7 +15,7 @@ sources_primaires:
     nature: donnees
     url: "https://publications.pik-potsdam.de/pubman/item/item_32589_5/component/file_33151/PlanetaryHealthCheck2025.pdf"
     reference: "**Planetary Boundaries Science, *Planetary Health Check 2025 — A Scientific Assessment of the State of the Planet*, 144 pages**, publié sur le serveur de publications de l'Institut de Potsdam pour la recherche sur l'impact climatique. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** : sections 1.2 à 1.5 et chapitre de mise en pratique (3.3) LUS ; les fiches par limite (chapitre 4) et les deux autres chapitres de mise en lumière NON LUS. **C'EST LA DEUXIÈME ÉDITION D'UNE MISE À JOUR ANNUELLE**, la première datant de 2024 ; l'équipe d'auteurs a doublé depuis. **ACQUISITION NOMMÉE LE 2026-09-08 PAR L18.C21 ET FAITE LE JOUR MÊME.** **DROITS : document servi librement par un éditeur public de recherche ; aucune mention de licence n'a été lue. RÉGIME RETENU : `a_verifier`, citation courte avec attribution.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LES FICHES PAR LIMITE NE SONT PAS LUES, ET CE SONT ELLES QUI PORTENT LES
      VARIABLES DE CONTRÔLE ET LEURS VALEURS.** Le corpus tient le TABLEAU

@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 14** — projection du plan directeur de l'auteur. **Titre** : Gouverner la preuve — méthodes, vérification et traçabilité. **Collection** : cahier-disciplinaire. **Fonction assignée** : rendre publique, reproductible et contestable **la méthode de vérification, de provenance et de révision DU CORPUS**. **Note du registre** : « Ce livre porte sur le corpus lui-même. La convention, les protocoles d'audit et de sourçage, le registre des promesses et ce registre en sont la matière première. » **Ce livre n'instruit donc pas le dispositif : il instruit la machine qui instruit le dispositif.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même, mesuré le 2026-09-08** : `corpus/convention.md` en révision r11 (2026-09-07) ; `corpus/controle.py` ; `corpus/vocabulaire.yaml` ; `corpus/livres.yaml` ; et les cinq protocoles — `falsification.md`, `passe-2.md`, `registre-des-promesses.md`, `sources-a-ouvrir.md`, `inventaire-entropie.md`. **Les comptages rapportés dans ce chapitre sont établis par relevé direct sur ces fichiers à la date indiquée**, et sont reproductibles par toute personne disposant du dépôt."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LES COMPTAGES DE CE CHAPITRE SONT DATÉS ET PÉRISSABLES.** Ils décrivent
      l'état du corpus au 2026-09-08. **Toute reprise de ce chapitre doit les

@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, *L'économie de l'équilibre*, chapitre 9 — l'assiette du premier ressort, énoncée et motivée : « [l'assiette est] la **CONSOMMATION FINALE DE BIENS ET SERVICES, ÉLARGIE AUX ACQUISITIONS D'ACTIFS**. Ce choix n'est pas anodin : cette assiette est mesurée par toutes les comptabilités nationales, **LE MÉCANISME DE PRÉLÈVEMENT EXISTE DÉJÀ SOUS LA FORME DE LA TVA**, et **LES FLUX PUREMENT FINANCIERS EN SONT EXCLUS, CAR ILS FAUSSERAIENT LE PILOTAGE**. La pondération porte sur l'empreinte [écologique cumulée]. » Et : « Plus l'empreinte écologique cumulée d'un bien ou d'un actif est élevée, plus le taux appliqué à l'achat est fort. » **OUVERT le 2026-09-06, RELU SUR CE POINT le 2026-09-07**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "F.-R. Burnod, *Le cadre juridique de la taxe sur la valeur ajoutée*, **rapport particulier n° 1 pour le Conseil des prélèvements obligatoires, novembre 2022**, 425 112 caractères. **FOURNI PAR L'AUTEUR ET OUVERT LE 2026-09-07.** Sur la cascade : les taxes « appliquées à chaque étape du circuit économique [...] **sont source de distorsions économiques, puisque LEUR CHARGE FISCALE AUGMENTE AVEC LE NOMBRE D'OPÉRATIONS INTERMÉDIAIRES avant la vente au consommateur final** ». Sur le droit à déduction : les entreprises « peuvent récupérer le montant de la taxe qu'elles ont supportée [...] et l'entreprise ne devra verser au Trésor que **la différence entre les deux montants** » — ces règles « permettent d'assurer **la neutralité économique de la TVA** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source — **L'ASYMÉTRIE QUI DÉCIDE** : « le droit à déduction de la TVA amont est **réservé aux seuls assujettis**. Dès lors, l'application d'une même règle de TVA **n'a pas les mêmes effets économiques** selon qu'elle est appliquée aux opérations **BtoB** ou aux opérations **BtoC**. L'exonération d'une opération BtoC est plus favorable que celle d'une opération BtoB **du fait de la perte des droits à déduction** qui y est associée. De même **UN TAUX RÉDUIT APPLIQUÉ À UNE OPÉRATION BtoC EST UNE MESURE DE FAVEUR, LÀ OÙ IL N'A AUCUN IMPACT SUR L'ESSENTIEL DES OPÉRATIONS BtoB.** » Et sur les exonérations : les activités hors champ ou exonérées « **n'ouvrent pas droit à déduction de la TVA amont** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "D. Falco, « Une nouvelle légende fiscale : la TVA de Maurice Lauré », *Gestion & Finances Publiques*, 2021/1, n° 1, p. 22-28. **FOURNI PAR L'AUTEUR ET OUVERT LE 2026-09-07.** Sur la taxe qui a précédé : une « cascade qui frappe les opérations commerciales à chaque stade de production. Ainsi, **LE PRIX D'UN BIEN EST AMENÉ À AUGMENTER EN FONCTION DE LA LONGUEUR DU CIRCUIT ÉCONOMIQUE** ». Chronologie : impôt sur le chiffre d'affaires, première réforme **1923**, « taxes uniques à la production » dès **1925**, maintien de la taxe en cascade jusqu'en **1936**. L'article établit que la conception théorique d'un prélèvement tenant compte de l'impôt supporté en amont est **antérieure à Lauré**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Le corpus lui-même — **L11.C05**, qui avait établi en passe 1, SANS SOURCE OUVERTE, qu'un prélèvement par paiement « a pour assiette le chiffre d'affaires cumulé et non la valeur finale », que sa charge effective est « le taux nominal multiplié par le rapport de l'un à l'autre », et qu'il favorise l'intégration verticale — avec la mention explicite « **RÉSERVE FORTE : NON OUVERT** » sur la source relative à la TVA. Et *Cahier Technique*, épisode 9, qui restitue l'instrument comme « un prélèvement modulé sur **les transactions monétaires** » **SANS ÉNONCER D'ASSIETTE** — le mot n'y figure pas"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE RAPPORT DU CONSEIL DES PRÉLÈVEMENTS OBLIGATOIRES N'EST DÉPOUILLÉ QUE
      SUR SA SYNTHÈSE ET DEUX SECTIONS. Il fait 425 112 caractères ; **le corpus

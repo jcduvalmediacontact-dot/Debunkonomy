@@ -14,65 +14,65 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitres 6 et 7"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. E. Lovelock, L. Margulis, « Atmospheric homeostasis by and for the biosphere: the Gaia hypothesis », Tellus, 26(1-2), p. 2-10, 1974 ; J. E. Lovelock, « A physical basis for life detection experiments », Nature, 207, p. 568-570, 1965"
     url: "https://doi.org/10.1111/j.2153-3490.1974.tb01946.x"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "W. F. Doolittle, « Is Nature Really Motherly? », CoEvolution Quarterly, 29, p. 58-63, 1981 ; R. Dawkins, The Extended Phenotype, Oxford University Press, 1982, chapitre 13 (critiques de l'hypothèse Gaia : absence de population et de reproduction planétaires)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "T. M. Lenton, « The evolution of Gaia(s) », Philosophical Transactions of the Royal Society B, 380(1931), art. 20240095, 2025 ; numéro thématique « Chance and purpose in the evolution of biospheres », P. C. J. Donoghue, T. M. Lenton et al., art. 20240085"
     url: "https://doi.org/10.1098/rstb.2024.0095"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "I. Prigogine, I. Stengers, La Nouvelle Alliance, Gallimard, 1979 (structures dissipatives ; prix Nobel de chimie 1977)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "E. Schrödinger, What is Life?, Cambridge University Press, 1944, chap. 6 ; N. Georgescu-Roegen, The Entropy Law and the Economic Process, Harvard University Press, 1971 (critique de l'extension de la négentropie à la matière)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "J. Rockström et al., « A safe operating space for humanity », Nature, 461, 2009 ; K. Richardson et al., « Earth beyond six of nine planetary boundaries », Science Advances, 9(37), 2023"
     url: "https://doi.org/10.1126/sciadv.adh2458"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "P. Tucker, Unelected Power: The Quest for Legitimacy in Central Banking and the Regulatory State, Princeton University Press, 2018, deuxième partie (principes de délégation)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: normatif
     reference: "Royaume-Uni, Bank Charter Act 1844 (7 & 8 Vict. c. 32) ; Ways and Means Act 1694 (fondation de la Bank of England) ; Sveriges Riksbank, fondée en 1668, monopole d'émission conféré en 1897 (effet 1904) ; C. Goodhart, The Evolution of Central Banks, MIT Press, 1988"
     url: "https://www.legislation.gov.uk/ukpga/Vict/7-8/32/contents"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 ; M. Jensen, W. Meckling, « Theory of the Firm », Journal of Financial Economics, 3(4), 1976 (relation mandant-mandataire)"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "S. Wunder, « When payments for environmental services will work for conservation », Conservation Letters, 6(4), p. 230-237, 2013"
     url: "https://doi.org/10.1111/conl.12034"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "G. F. Knapp, Staatliche Theorie des Geldes, 1905 ; G. Ingham, The Nature of Money, Polity Press, 2004 (théorie chartaliste : l'acceptation en paiement de l'impôt fonde le pouvoir libératoire)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "S. Sorrell, The Rebound Effect, UK Energy Research Centre, 2007 ; R. Ayres, B. Warr, The Economic Growth Engine, Edward Elgar, 2009 (effets de second tour de la dépense sur l'empreinte matérielle)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S14
     nature: donnees
     reference: "J. H. Seinfeld, S. N. Pandis, Atmospheric Chemistry and Physics, 3e éd., Wiley, 2016, chap. 1 — composition de l'air sec : O2 20,946 %, N2 78,084 % ; durée de vie du méthane troposphérique d'environ 9 ans"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes ou recoupées le 2026-09-03 (Claude) —
   # S2, S4, S7, S11 : DOI confirmés (Crossref). S4 : Lenton, « The evolution of Gaia(s) », 10.1098/rstb.2024.0095, numéro thématique « Chance and purpose in the evolution of biospheres » (10.1098/rstb.2024.0085). Les articles de Boyle et Doolittle du même numéro, avancés par Deep Research, ne sont pas confirmés par Crossref : non cités.

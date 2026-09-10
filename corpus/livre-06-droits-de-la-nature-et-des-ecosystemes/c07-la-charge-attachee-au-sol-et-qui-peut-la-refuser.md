@@ -14,31 +14,31 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "*L6 — REGISTRE TRANSVERSAL*, v04, **entrée 49, « L'obligation réelle environnementale »**. Créée par la loi pour la reconquête de la biodiversité, de la nature et des paysages, **codifiée à l'article L. 132-3 du code de l'environnement**, elle « permet au propriétaire d'un bien immobilier de mettre en place, **par contrat en la forme authentique**, une protection environnementale attachée à son bien, **pour une durée pouvant atteindre quatre-vingt-dix-neuf ans**. **Les obligations étant attachées au bien, elles perdurent en cas de changement de propriétaire.** La finalité doit être le maintien, la conservation, la gestion ou la restauration d'éléments de la biodiversité ou de services écosystémiques ». **QUALIFICATION** : fait vérifié pour le régime légal, établi sur le texte et sur le guide méthodologique du ministère"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même entrée — **LES DEUX TIERS, ET ILS NE SONT PAS TRAITÉS DE LA MÊME FAÇON.** *Preneur à bail rural* : « **la loi est explicite** : le propriétaire ne peut, **à peine de NULLITÉ ABSOLUE**, mettre en œuvre une obligation réelle environnementale qu'avec l'accord préalable du preneur, **l'absence de réponse dans un délai de deux mois valant acceptation** et **tout refus devant être motivé** ». *Créancier hypothécaire* : « **La loi ne prévoit pas de procédure.** La pratique notariale déduit de la réserve des droits des tiers que le notaire doit **vérifier l'absence d'inscription hypothécaire** et, à défaut, **obtenir l'accord du créancier bénéficiant d'une sûreté réelle** ». **QUALIFICATION du registre** : « **Pratique notariale, non règle légale explicite**, pour l'accord du créancier hypothécaire »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même entrée — **RÈGLE DE RÉDACTION, respectée ici et c'est elle qui porte le résultat** : « **Ne pas présenter le conflit avec la sûreté réelle comme non tranché : il est neutralisé en amont par une exigence de consentement.** La conséquence à retenir est que **L'ENGAGEMENT ÉCOLOGIQUE DURABLE EST SUBORDONNÉ À L'AUTORISATION DU CRÉANCIER, LEQUEL N'A PAS INTÉRÊT À Y CONSENTIR PUISQUE LA CHARGE DÉPRÉCIE L'ASSIETTE DE SA SÛRETÉ.** » **POINTS À PINNER, portés par le registre** : « Décision judiciaire ayant tranché ce point ; travaux du 118e congrès des notaires sur la nature juridique de l'obligation »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Même source, **entrée 46, « Le bail réel d'adaptation à l'érosion côtière »** — créé par l'**ordonnance n° 2022-489 du 6 avril 2022**, codifié aux **articles L. 321-18 à L. 321-33 du code de l'environnement**. Confère au preneur des droits réels immobiliers **avant la renaturation du bien**. **DURÉE** : « de douze à quatre-vingt-dix-neuf ans, fixée par le contrat **EN FONCTION DE L'ÉTAT DES CONNAISSANCES À LA DATE DE CONCLUSION QUANT À L'ÉVOLUTION PRÉVISIBLE DU RECUL DU TRAIT DE CÔTE**. Prorogation possible, **reconduction tacite exclue** ». **EXTINCTION** : « **Résiliation de plein droit** possible à la date de l'arrêté prescrivant les mesures nécessaires lorsque l'état du recul est tel que **la sécurité des personnes ne peut plus être assurée**. À l'échéance, **renaturation incluant le cas échéant la démolition de l'ensemble des installations, y compris celles réalisées par le preneur**, et les opérations de dépollution ». **ORDRE PUBLIC** : « Nullité des baux et cessions conclus au mépris de ces dispositions ». **RÈGLE DE RÉDACTION, DÉCISIVE, respectée** : « Quatre erreurs circulent sur ce dispositif : l'acronyme BRACC au lieu de **BRAEC**, une ordonnance n° 2022-545, une date du 13 avril 2022, et un rattachement au code de l'urbanisme. **Aucune n'est exacte.** » **QUALIFICATION** : fait vérifié pour le régime, sur sources institutionnelles concordantes dont une fiche du Cerema et le rapport du 120e congrès des notaires ; **le texte de l'ordonnance n'a pas été lu**. **POINT À PINNER** : « Nombre de baux effectivement conclus depuis 2022 »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: jurisprudence
     reference: "Même source, **entrée 45, « L'immeuble Le Signal et l'exclusion de l'érosion côtière »** — **Conseil constitutionnel, décision n° 2018-698 QPC du 6 avril 2018, *Syndicat secondaire Le Signal***, déclarant conformes à la Constitution les dispositions excluant l'érosion côtière du champ de l'expropriation pour risques naturels majeurs de l'article L. 561-1 du code de l'environnement, financée par le fonds Barnier. **MOTIF, à citer avec précision** : « Si la procédure d'expropriation s'accompagne d'une indemnisation du propriétaire, **son objet principal est de priver le propriétaire de son bien** ; dès lors, **il ne saurait résulter de l'absence d'application de cette procédure** [...] **une atteinte au droit de propriété.** » **RÈGLE DE RÉDACTION, respectée** : « Ne jamais écrire que le Conseil constitutionnel a jugé l'érosion côtière indifférente. **Il a jugé que l'absence d'expropriation ne porte pas atteinte à la propriété.** La distinction [...] tient à **la cinétique du risque** ». Immeuble de quatre étages et soixante-dix-huit logements, construit en 1967 à environ deux cents mètres du rivage à Soulac-sur-Mer ; classé en zone rouge inconstructible en 2004. Suite : Conseil d'État, 16 août 2018, n° 398671"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "**L6 — ÉPISODE 18, v1.0 du 31 août 2026, première rédaction non validée. OUVERT LE 2026-09-07, APRÈS RÉDACTION DE CE CHAPITRE.** Il donne à l'obligation réelle environnementale **une SECONDE raison de ne pas être un commun, structurelle et non contentieuse** : « L'obligation réelle environnementale est un contrat entre un propriétaire et un cocontractant déterminé. **Elle produit un engagement, non une communauté. Personne n'y devient ayant droit par le seul fait d'habiter le lieu. Il n'y a ni assemblée, ni règle de décision, ni transmission d'une qualité d'usager.** » Et la distinction générale : « **Le commun attache un droit d'usage à une appartenance ; la servitude attache une charge à un fonds. L'un crée des sujets, l'autre grève des objets.** » L'épisode confirme par ailleurs le veto du créancier, qu'il tient de son propre épisode 14"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "Le corpus lui-même — **L6.C06 § 3**, qui établit que la technique de commun qui a survécu à l'amputation constitutionnelle de 2023 en Italie est **la contrainte paysagère due à un autre code**, « mantenuto sulle terre anche in caso di liquidazione degli usi civici » ; **L1.C07**, qui établit que le crédit est octroyé sur solvabilité anticipée ; **L1.C09**, qui établit que l'autorité d'octroi du crédit est la première des règles jamais énoncées de l'architecture invisible"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN DES TROIS TEXTES FRANÇAIS N'A ÉTÉ LU. Le registre déclare pour
      l'entrée 46 que « le texte de l'ordonnance n'a pas été lu » ; pour

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Marius-Cristian Frunza, Dominique Guégan et Fabrice Thiebaut, « Missing trader fraud on the emissions market », *Documents de Travail du Centre d'Économie de la Sorbonne*, n° 2010.71, ISSN 1955-611X, 14 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le serveur de documents de travail de l'université Paris 1 Panthéon-Sorbonne, lu dans le texte, **après refus du dépôt HAL (mur anti-robot déclaré et non franchi).** **DROITS : aucune mention lue dans le document — régime `a_verifier`, citation courte avec attribution.** **DOCUMENT DE TRAVAIL** ; une version a paru en 2011 dans le *Journal of Financial Crime* et n'est pas ouverte. **C'ÉTAIT L'ACQUISITION DE RANG 1 INSCRITE PAR L15.C01.** **Méthode : économétrie forensique — modèles de type arbitrage pricing calibrés sur les facteurs fondamentaux, appliqués aux prix au comptant du marché BlueNext sur 2008-2009.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A PAS OUVERT LA DÉCISION PUBLIQUE QUI A MIS FIN À LA FRAUDE.**
      Le mécanisme d'autoliquidation de la taxe sur la valeur ajoutée, annoncé début

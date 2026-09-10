@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**L'auteur du corpus, arbitrage du 2026-09-09 et correction du même jour.** **LA PROPOSITION, SA CONDITION DE DÉMONSTRATION ET SA CONDITION D'ÉCHEC SONT ARRÊTÉES PAR LUI, DANS SES TERMES.** **Ce chapitre ne les propose pas : il les enregistre, les décompose et les expose à la réfutation.** **Elles sont reproduites aux § 1 et § 3 sans reformulation.**"
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même — L18.C27, L18.C29 et L18.C30**, qui portent l'évaluation intergouvernementale des instruments de politique publique ; **L18.C26**, sur le motif de l'échec de la cible visant les incitations dommageables ; **L1.C15**, qui pose l'essentiel insolvable ; **L10.C06**, qui porte l'arbitrage A35 et sa correction du 2026-09-07. **Ces chapitres portent les OBJECTIONS que le § 5 oppose à la proposition**, et ils sont tenus tels qu'ils sont écrits."
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA PROPOSITION N'EST PAS ÉTABLIE, ET CE CHAPITRE NE PRÉTEND PAS
      L'ÉTABLIR.** **Il l'énonce sous une forme qui permet de la réfuter des DEUX

@@ -15,45 +15,45 @@ sources_primaires:
     nature: donnees
     reference: "Rainforest Action Network, BankTrack, Indigenous Environmental Network, Oil Change International, Reclaim Finance, Sierra Club, Urgewald, Banking on Climate Chaos: Fossil Fuel Finance Report 2026 — financement fossile (prêts et souscription d'émissions de dette et d'actions) par les 65 plus grandes banques, 2016-2025"
     url: "https://www.bankingonclimatechaos.org/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "PNUE, State of Finance for Nature 2026: Nature in the Red — Powering the Trillion Dollar Nature Transition Economy, Nairobi, janvier 2026 (données de l'exercice 2023)"
     url: "https://www.unep.org/resources/state-finance-nature-2026"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Règlement (UE) 2020/852 du 18 juin 2020 (taxonomie), JO L 198 du 22.6.2020 ; règlement délégué (UE) 2022/1214 de la Commission du 9 mars 2022 (activités du gaz fossile et du nucléaire), JO L 188 du 15.7.2022, applicable au 1er janvier 2023"
     url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R1214"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Banque centrale européenne, Guide on climate-related and environmental risks — Supervisory expectations relating to risk management and disclosure, novembre 2020, attentes 7 et 8 ; Autorité bancaire européenne, Guidelines on loan origination and monitoring, EBA/GL/2020/06, 29 mai 2020"
     url: "https://www.bankingsupervision.europa.eu/ecb/pub/pdf/ssm.202011finalguideonclimate-relatedandenvironmentalrisks~58213f6564.en.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Agence internationale de l'énergie, World Energy Investment 2025, 5 juin 2025"
     url: "https://www.iea.org/reports/world-energy-investment-2025"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "R. Boudon, Effets pervers et ordre social, PUF, coll. « Sociologies », 1977 (définition de l'effet pervers, avant-propos et chapitre premier)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, 54(1), p. 14-27, Q1 2014"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: jurisprudence
     reference: "Tribunal de l'Union européenne, arrêt du 10 septembre 2025, Autriche / Commission, T-625/22 — recours contre le règlement délégué (UE) 2022/1214 rejeté ; communiqué de presse n° 113/25"
     url: "https://curia.europa.eu/jcms/upload/docs/application/pdf/2025-09/cp250113fr.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "M. Olson, The Logic of Collective Action, Harvard University Press, 1965 ; R. Axelrod, The Evolution of Cooperation, Basic Books, 1984"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : site lu — « $8,700,000,000,000 over 10 years to the fossil fuel industry », 65 banques, « lending and underwriting of debt and equity issuances ».

@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "M. Aglietta, **« La rénovation des politiques monétaires », complément A** au rapport n° 96 du Conseil d'analyse économique, *Banques centrales et stabilité financière*, 2011, p. 277-294. **DÉPOUILLÉ LE 2026-09-07** — 59 834 caractères extraits d'un fichier que le corpus détenait depuis le 2026-09-06 sans l'avoir lu ; L2.C07 en avait déclaré l'absence. Thèse d'ouverture : « **La doctrine d'obédience monétariste qui a prévalu depuis trente ans doit être sérieusement réaménagée.** » Et sur les deux conceptions polaires de la monnaie : pour la conception externe, « son offre est exogène [...] Il est donc légitime que la Banque centrale soit indépendante des autres institutions publiques [...] **« Un instrument, un objectif » est le slogan qui résume la doctrine de la monnaie externe.** » Pour l'autre : « dans la conception de la **monnaie endogène**, la Banque centrale a la responsabilité de préserver la liquidité du système bancaire [...] Mais, **comme les banques ont le pouvoir de la création monétaire**, la préservation de la liquidité ne va pas sans contraintes de réglementation et de supervision »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, section 1 — sur la gestion asymétrique du risque par la banque centrale : « Alan Greenspan a généralisé le rôle du prêteur en dernier ressort, du soutien de la liquidité bancaire à celui du prix des actifs. Par sa conception asymétrique du « risk management », **il a procuré UNE ASSURANCE GRATUITE À L'ENSEMBLE DU SYSTÈME FINANCIER, UNE SORTE DE « PUT » GÉNÉRALISÉ DONT LA PRIME ÉTAIT NULLE, SOURCE INÉPUISABLE D'ALÉA MORAL.** Après lui, l'ensemble des grandes banques centrales occidentales ont prolongé la même politique à une échelle inconnue dans le temps et dans l'espace à partir du déclenchement de la crise financière en août 2007. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, section 3 — **LE REFUS DE L'ENCADREMENT DIRECT** : « Il faut donc se doter d'un instrument qui influence le volume du crédit. Mais, dans la finance des marchés libéralisés, **IL EST HORS DE QUESTION DE RECOURIR À L'ENCADREMENT DIRECT DU CRÉDIT. IL SERAIT CONTOURNÉ PAR LA TITRISATION.** Il faut un instrument, certes contraignant, mais qui agisse **comme une incitation** pour les banques à limiter leur offre de crédit [...] un **capital réglementaire contra-cyclique**, dépendant du niveau agrégé de crédit que toutes les banques contribuent à gonfler. » Et sur le périmètre : « le périmètre des entités financières potentiellement susceptibles de provoquer le risque systémique **NE COÏNCIDE PAS AVEC CELUI DES BANQUES DE DÉPÔTS** [...] Le système bancaire parallèle [...] **doit être englobé** dans la politique macro-prudentielle [...] **ce périmètre n'est pas fixe. Il doit être révisé chaque année** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Même source, § 3.1 — « La politique macro-prudentielle est une approche **top down** selon laquelle la Banque centrale détermine un montant agrégé de capital requis, lequel devra être distribué sur les banques en fonction de leur aptitude à contribuer au risque systémique [...] **C'est donc une approche « top down » QUI ABOLIT L'INDÉPENDANCE DE LA RÉGULATION PRUDENTIELLE DES BANQUES VIS-À-VIS DE LA POLITIQUE MONÉTAIRE.** » Et les trois obstacles : « **la régulation macro-prudentielle REPLACE LES BANQUES CENTRALES AU CŒUR D'UN JEU POLITIQUE DONT LA DOCTRINE DU CIBLAGE DE L'INFLATION AVAIT CHERCHÉ À LES SOUSTRAIRE** » ; une politique contracyclique « heurte de nombreux intérêts privés » ; et « l'efficacité de la maîtrise du crédit **dépend d'un accord international très large** pour éviter que les entités financières à levier ne déplacent leurs activités dans les places offshore »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Le corpus lui-même — **L2.C07**, qui déclarait : « LE COMPLÉMENT A D'AGLIETTA N'EST PAS DÉPOUILLÉ [...] il n'est lu qu'à travers autrui — **exactement ce que la règle d'ouverture directe interdit** » ; et qui établissait que le rapport rejette la solution de coin où les politiques sont coordonnées. **L2.C13**, qui échelonnait trois positions sur l'encadrement du crédit et plaçait Aglietta 2016 à la plus interventionniste"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AGLIETTA, BERREBI ET COHEN 2009 N'EST PAS AU DOSSIER. Le complément
      renvoie en note à « une étude plus détaillée » dont il est tiré. **Le

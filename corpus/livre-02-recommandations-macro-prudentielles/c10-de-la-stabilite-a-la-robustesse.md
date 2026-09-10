@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 2**, section 2 — la filiation revendiquée : « Le concept de robustesse a une histoire scientifique distincte, qui vient principalement de l'écologie des systèmes complexes. Sa première formulation moderne remonte à l'écologue canadien Crawford Stanley Holling [...] qui publie en 1973 un article devenu classique dans les *Annual Reviews of Ecology and Systematics*, intitulé *Resilience and Stability of Ecological Systems*. Holling y distingue explicitement deux propriétés qui, jusque-là, étaient confondues. LA STABILITÉ — capacité d'un système à revenir rapidement à un état d'équilibre après une perturbation. LA RÉSILIENCE — capacité d'un système à absorber les perturbations et à se réorganiser tout en conservant ses fonctions essentielles [...] Ces deux propriétés [...] PEUVENT ÊTRE INVERSEMENT CORRÉLÉES. » Prolongements cités : Levin, Walker et Salt (*Resilience Thinking*, 2006). **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, section 5, tableau de correspondance — « CONCEPT OPÉRATIONNEL CENTRAL. Orthodoxie : stabilité — retour rapide à l'équilibre après perturbation. NEMO IMS : robustesse — maintien des fonctions essentielles à travers LES PERTURBATIONS IMPRÉVUES. » Et « FILIATION THÉORIQUE. Orthodoxie : théorie des marchés efficients, économie néokeynésienne, macroéconomie DSGE. NEMO IMS : écologie des systèmes complexes (Holling), théorie de la résilience (Walker, Salt), économie écologique (Daly, Raworth). »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "C. Borio, BIS Working Papers n° 128, 2003 — la thèse séparatrice : « A microprudentialist would argue that for a financial system to be sound IT IS NECESSARY AND SUFFICIENT THAT EACH INDIVIDUAL INSTITUTION IS SOUND. A macroprudentialist would take issue with this. » Et l'exemple : le resserrement défensif simultané de toutes les firmes, rationnel individuellement, aggrave le risque agrégé — « RISK WOULD THEREBY INCREASE ». Modèle du risque : « IN PART ENDOGENOUS with respect to the behaviour of the financial system ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — `corpus/vocabulaire.yaml`, entrées `resilience` (première occurrence L1.C23) et `robustesse` (L1.C04). La première porte déjà la distinction de Holling : « À distinguer de la stabilité, qui désigne la vitesse de retour à un état d'équilibre : les deux propriétés PEUVENT ÊTRE INVERSEMENT CORRÉLÉES [...] LA ROBUSTESSE AJOUTE À LA RÉSILIENCE L'ABSORPTION DE PERTURBATIONS NON ANTICIPÉES. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "HOLLING 1973 N'EST PAS OUVERT. C'est la source du deuxième déplacement et
      **la seule référence scientifique nommée du Cahier hors économie.** Le

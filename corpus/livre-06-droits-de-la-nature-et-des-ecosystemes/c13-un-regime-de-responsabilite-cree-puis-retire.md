@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "*L6 — REGISTRE TRANSVERSAL*, v04, **entrée 17, « Directive CSDDD révisée »**. « **Directive (UE) 2024/1760 modifiée par la directive (UE) 2026/470**, adoptée le 24 février 2026, publiée le 26 février et en vigueur depuis le 18 mars 2026 : **seuil relevé à plus de cinq mille salariés et 1,5 milliard d'euros de chiffre d'affaires net mondial** ; **suppression du régime européen harmonisé de responsabilité civile** ; **suppression de l'obligation de plan de transition climatique** ; **sanctions plafonnées à trois pour cent** ; transposition au 26 juillet 2028 ; application au 26 juillet 2029. » **QUALIFICATION** : fait vérifié. **Source canonique** : version consolidée `https://eur-lex.europa.eu/eli/dir/2024/1760/2026-03-18`. **DÉCLENCHEUR** : « Ce texte a été **modifié deux fois en deux ans** : à surveiller activement. » CSDDD = directive sur le devoir de vigilance des entreprises en matière de durabilité"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source, **entrée 17 bis, « la preuve dans la directive révisée »**. **CORRECTION D'UNE CONFUSION FRÉQUENTE** : « L'**article 22** de la directive (UE) 2024/1760 est intitulé *Lutte contre le changement climatique* et porte le plan de transition, avec des cibles à 2030 puis par tranches de cinq ans jusqu'à 2050. **Il ne porte pas sur la preuve.** Le mécanisme de communication des éléments de preuve figure à l'**article 29**, à l'intérieur des dispositions sur la responsabilité civile : le juge peut ordonner la communication ou la conservation des éléments de preuve **sous le contrôle de la société** lorsque le demandeur présente une **justification motivée**, sous condition de **nécessité et de proportionnalité**, avec des mesures de protection des informations confidentielles. » **EFFET DE LA RÉVISION** : « Le régime européen harmonisé de responsabilité civile est supprimé, **avec une clause de réexamen permettant une reprise ultérieure de l'harmonisation**. **Les facilitations procédurales sont en revanche MAINTENUES**, notamment sur la prescription et sur la preuve. » **AUTRES PARAMÈTRES RÉVISÉS** : « **Approche fondée sur les risques substituée à la cartographie exhaustive de la chaîne de valeur.** Plafond des sanctions pécuniaires ramené **d'un MINIMUM de cinq pour cent à un MAXIMUM de trois pour cent** du chiffre d'affaires net mondial. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même entrée — **RÈGLE DE RÉDACTION, respectée ici** : « **Ne jamais écrire que la révision a supprimé l'accès aux preuves. Elle a supprimé le régime de responsabilité qui l'entourait, en conservant l'outil probatoire.** » **DIVERGENCE À SIGNALER, et le corpus la signale** : « L'entrée en vigueur de la directive de révision est datée du **18 mars 2026** par plusieurs analyses et du **19 mars 2026** par une autre. Exposer la divergence. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: jurisprudence
     reference: "Même source, **entrée 15, « Contentieux BHP »**. « **Jugement sur la responsabilité du 14 novembre 2025, [2025] EWHC 3001 (TCC)**, rendu par Mrs Justice O'Farrell, **sur le fondement du droit brésilien**. Refus d'autorisation d'appel par la Haute Cour en janvier 2026, **confirmé par la Court of Appeal le 6 mai 2026, [2026] EWCA Civ 502** [...]. **Plus de 600 000 demandeurs.** La phase suivante, consacrée à **la causalité et au quantum**, était annoncée pour la seconde partie de 2027 et 2028 ». **SCÉNARIO DÉCRIT PAR LA SOCIÉTÉ** : « Selon le rapport annuel de BHP, **une troisième phase pourrait encore être nécessaire** [...] Les demandeurs concernés devraient alors **établir individuellement leur préjudice** ; BHP estimait qu'une telle phase **ne commencerait probablement pas avant 2029.** » **QUALIFICATION** : « Fait vérifié pour les décisions ; **DESCRIPTION FAITE PAR LE DÉFENDEUR** pour la phase 3 et le calendrier détaillé. » **RÉSERVES, respectées** : « Ne pas écrire que rien ne sera payé *avant* cette phase sans distinguer **décision judiciaire, règlement transactionnel et catégories de demandeurs**. **Une provision comptable ne vaut ni reconnaissance juridique ni estimation judiciaire du dommage.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: jurisprudence
     reference: "Même source, **entrée 16, *Alame* / *Okpabi***. « Jugement du **20 juin 2025, [2025] EWHC 1539 (KB)**, tranchant des **questions préliminaires de droit nigérian, SANS STATUER sur la responsabilité ni sur les faits**. Procès au fond fixé à **mars 2027**. **La filiale nigériane défenderesse A ÉTÉ CÉDÉE PAR SHELL, l'opération ayant été achevée le 13 mars 2025.** » **POINTS À PINNER, portés par le registre** : fin du procès préliminaire, « donnée au 7 mars ou au 20 mars 2025 selon les sources » ; date de l'arrêt d'appel, « située au 11 octobre ou en décembre 2024 » pour la référence [2024] EWCA Civ 1500 — « à trancher sur le jugement lui-même ». Et **entrée 14** : rupture du 5 novembre 2015, **dix-neuf morts**, destruction de Bento Rodrigues, **plus de 600 kilomètres de cours d'eau atteints jusqu'à l'Atlantique** ; règle imposée — **aucun chiffre de volume isolé sans préciser s'il s'agit du volume stocké, sorti de la structure ou estimé libéré**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "Le corpus lui-même — **L11.C29**, qui établit qu'un seuil sans barème de sanctions devient un plancher et que la pièce décisive est **le défaut automatique et daté** ; **F8**, qui pose que le désarmement d'une obligation opère à trois étages — déclencheur cumulatif, vérification imposée à personne, manquement sans conséquence sur le droit acquis ; **L11.C25**, qui construit un contrôle sans traiter la fiabilité d'une attestation délivrée là où l'on a intérêt au chiffre"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE DES DEUX DIRECTIVES N'A ÉTÉ OUVERTE, ni les trois décisions
      anglaises. **Le registre donne l'adresse de la version consolidée** —

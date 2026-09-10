@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 6, SECTION 6.5.3 « Operationalizing nature's diverse values in decision-making » — sous-sections 6.5.3.1 (approche pas à pas), 6.5.3.2 (les six lignes directrices) et 6.5.3.3 (les huit étapes), pages 81 à 90 du chapitre.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** le 2026-09-09. **C'ÉTAIT L'ACQUISITION DE RANG 1 DE LA PIÈCE CRITERE-L25**, inscrite trois fois — par L18.C27, L18.C29 puis L18.C30. **LA FIGURE 6.16, qui porte le schéma d'ensemble, ET LE TABLEAU 6.10, qui donne les actions correspondant à chaque ligne directrice, NE SONT PAS EXTRACTIBLES** : le corpus lit le texte qui les commente. **Les sections 6.5.1, 6.5.2 et 6.5.4 — lacunes par contexte, évaluation du contexte, contextes détaillés — NE SONT PAS LUES.** **DROITS : reproduction libre à des fins non lucratives avec mention de la source. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE GUIDE EST UN GUIDE DE VALORISATION, NON UN GUIDE DE CONCEPTION
      D'INSTRUMENT.** Ses huit étapes mènent de la clarification d'un objet à la

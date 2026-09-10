@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: jurisprudence
     reference: "**CJUE, grande chambre, 16 juin 2015, *Gauweiler e.a.*, C-62/14, ECLI:EU:C:2015:400** — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, texte français lu sur EUR-Lex ; c'est l'arrêt que *Weiss* reprend à chaque étape, et que L10.C03 déclarait non ouvert. **POINT 94, PORTÉE PERSONNELLE DE LA PROHIBITION** : l'article 123 § 1 TFUE « interdit à la BCE et aux banques centrales des États membres d'accorder des découverts ou tout autre type de crédit **AUX AUTORITÉS ET AUX ORGANISMES PUBLICS de l'Union et des États membres** ainsi que d'acquérir **DIRECTEMENT, AUPRÈS D'EUX, des instruments de LEUR dette** » (renvoyant à *Pringle*, C-370/12, point 123). **POINT 95** : la disposition « interdit **toute assistance financière du SEBC à un État membre** », **« sans pour autant exclure, de manière générale, la faculté, pour le SEBC, DE RACHETER AUX CRÉANCIERS d'un tel État des titres préalablement émis par ce dernier »**. **POINT 96** : l'article 18 § 1 du protocole sur le SEBC permet d'intervenir sur les marchés de capitaux « en achetant et en vendant ferme **des titres NÉGOCIABLES** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: jurisprudence
     reference: "**Même arrêt — L'OBJET PROTÉGÉ, ÉNONCÉ PLUS PRÉCISÉMENT QUE DANS *WEISS*.** **POINT 100** : il ressort des travaux préparatoires du traité de Maastricht que l'article 123 TFUE « vise à **inciter les États membres à respecter une politique budgétaire saine** en évitant **qu'un FINANCEMENT MONÉTAIRE DES DÉFICITS PUBLICS ou un ACCÈS PRIVILÉGIÉ DES AUTORITÉS PUBLIQUES AUX MARCHÉS FINANCIERS** ne conduise à **un endettement excessif ou à des déficits excessifs des États membres** ». **POINT 101** : le septième considérant du **règlement (CE) n° 3603/93 du Conseil du 13 décembre 1993**, précisant les définitions nécessaires à l'application de ces interdictions, rappelle que « les achats effectués sur le marché secondaire **ne sauraient valablement être utilisés pour contourner l'objectif** poursuivi par l'article 123 TFUE ». **POINT 104** : le critère de la certitude, énoncé pour la première fois — les opérateurs acquérant sur **le marché primaire** ne doivent pas avoir la certitude du rachat leur permettant d'agir « **de facto, comme des intermédiaires du SEBC** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, L10.C03 du même jour.** Ce chapitre a soutenu que « **le dispositif repose sur une certitude, et c'est sa qualité principale : une activité qualifiée SERA financée** », et conclu que « **la certitude qui le fait fonctionner est celle que la Cour interdit** ». Il avait nommé une sortie sans la tenir : « dans le PSPP, l'intermédiaire achète pour revendre — il ne fait que transporter le titre. Dans le dispositif, celui qui obtient la qualification **a dû conduire l'activité qualifiée** [...] **Aucune source ne l'établit** ». **L10.C02** : la tenaille entre le poste d'actif 7.1, qui exige un titre de créance, et l'échappatoire de **L20.C02**, qui repose sur l'absence d'instrument de dette. **ARBITRAGE A30** : l'unité est « adossée à une **dette collective** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE RÈGLEMENT (CE) N° 3603/93 N'EST PAS OUVERT, alors que la Cour s'y réfère
      pour l'objectif et qu'il porte **les définitions** de « découvert », de

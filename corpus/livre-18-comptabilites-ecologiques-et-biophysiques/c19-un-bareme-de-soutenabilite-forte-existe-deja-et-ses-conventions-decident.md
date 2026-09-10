@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://www.elgaronline.com/"
     reference: "**Eric Neumayer (London School of Economics), *Weak versus Strong Sustainability — Exploring the Limits of Two Opposing Paradigms*, Edward Elgar Publishing, ISBN 978-1-03532-789-8, CHAPITRE 6 « Measuring strong sustainability », pages 146 à 170.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU INTÉGRALEMENT DANS LE TEXTE**, vingt-cinq pages, couche de texte extraite et vérifiée. **C'ÉTAIT L'ACQUISITION DE RANG 1 INSCRITE PAR L18.C18 LE JOUR MÊME**, qui ne tenait la conclusion de ce chapitre que par son résumé. **DROITS : Open Access sous Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.** **RÉGIME RETENU : `citation_seule`** — la clause *NoDerivatives* est incompatible avec le partage à l'identique du corpus. **Le corpus cite avec attribution et n'incorpore pas.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A OUVERT AUCUNE DES SOURCES SECONDES DE CE CHAPITRE, ET ELLES
      PORTENT LES CHIFFRES.** L'indice de soutenabilité environnementale forte est

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, précision du 2026-09-06, apportée à l'arbitrage A29 : « il faudra certes un point de démarrage ». Elle porte sur le financement du Symposium par le surplus du reflux, et elle relève que ce mode de financement ne peut pas exister au lancement — le reflux supposant le système en fonctionnement"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Statuts du Fonds monétaire international, texte de 1944 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, dépouillé en L7.C02 § 2. Chaque membre dispose de « two hundred fifty votes plus one additional vote for each part of its QUOTA equivalent to one hundred thousand United States dollars ». LA QUOTE-PART EST LA SOUSCRIPTION INITIALE : le poids de vote y est fonction de ce que le membre a apporté au démarrage"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C01 § 4 et L11.C02 § 6 : sous la lecture B, « en régime permanent, si les recettes financent l'émission suivante, ce n'est plus une création monétaire : c'est un prélèvement écologique mondial affecté, PRÉCÉDÉ D'UNE ÉMISSION D'AMORÇAGE ». Et L11.C24 § 5 sur la difficulté d'amorçage de la coalition : « tout est plus facile quand la coalition est déjà grande ». Et la promesse P51, seuil d'activation affirmé et non dérivé ; et la promesse P35, régime transitoire pris entre deux contraintes opposées"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT PAR UNE PRÉCISION DE L'AUTEUR sur l'arbitrage A29, rendue

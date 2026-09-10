@@ -15,53 +15,53 @@ sources_primaires:
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "F. Soddy, Wealth, Virtual Wealth and Debt: The Solution of the Economic Paradox, George Allen & Unwin, Londres, 1926, chapitre IV (réimpression 1983 ; numérisation archive.org)"
     url: "https://archive.org/details/soddy-f.-wealth-virtual-wealth-and-debt-1925"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "Institute of International Finance (IIF), Global Debt Monitor — « Navigating the New Normal », 7 mai 2024 (encours mondial de dette, T1 2024) ; page Global Debt Monitor du site IIF pour les éditions 2025-2026"
     url: "https://www.iif.com/portals/0/Files/content/Global%20Debt%20Monitor_May2024_vf.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "Eurostat, Grèce : PIB en volumes chaînés 2010 (nama_10_gdp, B1GQ, CLV10_MEUR) et taux de chômage annuel 15-74 ans (une_rt_a, PC_ACT), extraits de l'API de diffusion"
     url: "https://ec.europa.eu/eurostat/databrowser/view/une_rt_a/default/table"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "M. Lavoie, Post-Keynesian Economics: New Foundations, Edward Elgar, 2014 — chapitre sur la monnaie endogène"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "T. Jackson, P. A. Victor, « Does credit create a 'growth imperative'? A quasi-stationary economy with interest-bearing debt », Ecological Economics, 120, p. 32-48, 2015"
     url: "https://doi.org/10.1016/j.ecolecon.2015.09.009"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "L. Cahen-Fourot, M. Lavoie, « Ecological monetary economics: A post-Keynesian critique », Ecological Economics, 126, p. 163-168, 2016"
     url: "https://doi.org/10.1016/j.ecolecon.2016.03.007"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: donnees
     reference: "S&P Global, « Global Debt 2030: Can the world afford a multifaceted transition? », Look Forward, janvier 2024 — estimation de la charge d'intérêt mondiale annuelle"
     url: "https://www.spglobal.com/en/research-insights/special-reports/look-forward/global-debt-2030-can-the-world-afford-a-multifaceted-transition"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "G. Rachiotis et al., « What has happened to suicides during the Greek economic crisis? », BMJ Open, 5, e007295, 2015 ; C. C. Branas et al., « The impact of economic austerity and prosperity events on suicide in Greece », BMJ Open, 5, e005619, 2015"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "B. J. Moore, Horizontalists and Verticalists: The Macroeconomics of Credit Money, Cambridge University Press, 1988"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "S. Gesell, Die natürliche Wirtschaftsordnung durch Freiland und Freigeld, 1916 (trad. fr. L'ordre économique naturel)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude, sur pistes Gemini Deep Research) —
   # S3 : PDF IIF lu — « Global debt rose by some $1.3 trillion to a new record high of $315 trillion in Q1 2024 », 333 % du PIB. Page IIF : ~353 000 Mds (mai 2026).

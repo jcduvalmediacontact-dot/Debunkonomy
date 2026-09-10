@@ -14,53 +14,53 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, section « Petite histoire des systèmes monétaires internationaux ». Le passage s'ouvre sur une épigraphe attribuée à Michel Rocard : « À chaque fois que le monde a changé de système monétaire international, cela ne s'est fait qu'à la sortie d'une grande guerre. » L'auteur y ajoute immédiatement : « Espérons que la prochaine transformation du système monétaire fera mentir cette théorie. » Chronologie restituée : monnaies primitives, dette antérieure au troc, monnaies métalliques, étalon-or dominant au XIXe siècle et au début du XXe, coup fatal de la Première Guerre mondiale, instabilité de l'entre-deux-guerres, Bretton Woods au sortir de la Seconde, effondrement en août 1971, accords de Jamaïque en 1976"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, section des scénarios de transition, scénario 1 — thèse stratégique du livre : « Les grandes réformes monétaires n'ont jamais été le fruit d'une planification sereine — elles ont été arrachées à des moments de crise aiguë, lorsque le système existant n'était tout simplement plus viable. » La crise ouvrirait une « fenêtre d'opportunité institutionnelle », et le précédent invoqué est explicite : « Bretton Woods n'a pas émergé du chaos de la guerre par miracle. Il avait été pensé pendant des années par Keynes et White [...]. Quand l'heure est venue, le projet existait. NEMO IMS doit être ce projet-là. » Le livre pose lui-même la limite : « la crise seule ne garantit pas le bon choix. Elle peut tout autant mener au repli nationaliste, à la guerre des monnaies exacerbée, ou à l'émergence de solutions autoritaires »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, scénario 2 « La coalition des pionniers » — le livre y invoque comme précédent « exactement la dynamique qui a présidé à la naissance de la zone euro », ainsi que les tentatives de dédollarisation au sein des BRICS. RELEVÉ PAR LE CORPUS : ce précédent contredit la prémisse du scénario 1 restituée en [S2], la zone euro n'ayant été arrachée à aucune crise aiguë ; le livre tient les deux énoncés sans les confronter"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Debunk'Onomy, article « Histoire des crises monétaires internationales » (série SMI, 3e volet), site de l'auteur — chronologie de quatorze épisodes datés de 1821 à 2012. Faits repris ici : indemnité de guerre de 5 milliards de francs-or imposée à la France par le traité de Francfort de mai 1871, soit près d'un quart du revenu national français ; suspension de la frappe de l'argent par la Monnaie de Berlin dès juillet 1871 et autorisation du monnayage en or par le Reichstag en décembre ; convention additionnelle de l'Union latine en janvier 1874 limitant la frappe libre de l'argent ; « bimétallisme boiteux » français jusqu'à la réforme Poincaré de 1928 ; krach de Vienne du 9 mai 1873 ; conférence de Bretton Woods de juillet 1944 réunissant 44 nations, once d'or à 35 dollars, marges de fluctuation de ±1 %, États-Unis détenant 70 % des réserves d'or mondiales ; allocution de Nixon du dimanche 15 août 1971 suspendant la convertibilité ; mot de John B. Connally : « Le dollar, c'est notre monnaie, mais c'est votre problème » ; accords du Smithsonian de décembre 1971 ; effondrement définitif des changes fixes en mars 1973 ; dévaluations successives de 7,9 % puis de 10 % ; accords de la Jamaïque de janvier 1976. NATURE : texte de l'auteur lui-même, donc non indépendant du livre ; les faits qu'il rapporte demandent une vérification externe avant tout emploi hors du corpus"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "P. Mehrling, « Money and the State, International », notes de cours, leçon 14 du cours The Economics of Money and Banking, Barnard College, Columbia University — bibliothèque de l'auteur. Lecture du XXe siècle en trois actes d'après Mundell. Énoncé décisif sur Bretton Woods : « A key feature of this plan was an attempt to create symmetry between the deficit and surplus countries, which means weakening the discipline of the survival constraint which binds on the deficit countries but not the surplus countries. Countries with large and persistent surpluses were to be penalized [...]. At the time, the US was obviously going to be the only surplus country, as everyone else rebuilt from wartime damage, so the US did not like this feature and instead put forward a plan that fixed the quantity of international money once and for all. » Sur 1967 : l'émission de droits de tirage spéciaux fut tentée mais « it was too little too late ». Sur 1971 : « When the US unilaterally broke the connection with gold, even the weak discipline of the gold anchor was lost. » Sur le régime qui a suivi : « A system of national currencies is typical in war time, when commerce is typically severely restricted, but quite anomalous in peace time »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "E. Despres, C. P. Kindleberger, W. S. Salant, « The dollar and world liquidity », The Economist, 5 février 1966, p. 526-529 — thèse dite de la vue minoritaire : l'expansion des réserves en dollars du reste du monde ne requiert PAS que les États-Unis soient en déficit commercial ; ces réserves sont la contrepartie au passif de sorties brutes de capitaux, les États-Unis opérant comme la banque du monde, empruntant court et prêtant long. SOURCE SECONDAIRE : lue à travers les notes de [S5], qui la cite en référence ; l'article original n'a pas été ouvert"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "R. Mundell, lecture du XXe siècle monétaire rapportée par [S5] en trois actes : 1914-1934, contradiction entre l'étalon-or et la nouvelle Réserve fédérale ; 1934-1971, contradiction entre la gestion keynésienne nationale et le système de changes fixes ; 1972-1999, changes flexibles et apprentissage. Contrefactuel rapporté : « Had the price of gold been raised in the late 1920s, or, alternatively, had the major central banks pursued policies of price stability instead of adhering to the gold standard, there would have been no Great Depression, no Nazi revolution, and no World War II. » SOURCE SECONDAIRE : Mundell n'est pas lu de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: normatif
     reference: "Traité sur l'Union européenne, signé à Maastricht le 7 février 1992, entré en vigueur le 1er novembre 1993 — titre VI sur la politique économique et monétaire, calendrier en trois phases de l'union économique et monétaire. Jalons antérieurs et postérieurs retenus : rapport Werner de 1970, système monétaire européen de 1979, rapport Delors de 1989, introduction scripturale de l'euro le 1er janvier 1999, mise en circulation fiduciaire le 1er janvier 2002. RÉSERVE : texte du traité non ouvert dans cette passe ; jalons et dates à confirmer sur les sources officielles avant toute citation hors corpus"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "P.-O. Gourinchas, H. Rey, « From World Banker to World Venture Capitalist: US External Adjustment and the Exorbitant Privilege », NBER Working Paper 11563, août 2005 — l'émetteur de la monnaie de réserve détient des actifs risqués à l'étranger contre des engagements liquides et sûrs, joue de ce fait un rôle d'assureur mondial et supporte des pertes en capital massives sur sa position extérieure nette lors des crises. Employée ici pour le mécanisme par lequel la position peut devenir coûteuse à son propre détenteur. Déjà versée au dossier en L1.C24 sous la même référence"
     url: "https://doi.org/10.3386/w11563"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar and the Future of the International Monetary System, Oxford University Press, 2011. SOURCE SECONDAIRE : lue à travers le compte rendu de D. Howden, Economic Affairs, 33(1), p. 146-148, 2013, DOI 10.1111/ecaf.12008_2, seul document disponible dans la bibliothèque de l'auteur. Thèse retenue ici : la position acquise avantage le sortant, mais « this incumbency is important, [yet] it is surmountable », la livre sterling l'ayant effectivement perdue"
     url: "https://doi.org/10.1111/ecaf.12008_2"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "R. Triffin, Gold and the Dollar Crisis: The Future of Convertibility, Yale University Press, 1960. Rappelé ici pour la formulation que le livre reprend : la fourniture de liquidité mondiale exigerait un déficit des COMPTES COURANTS américains. RÉSERVE déjà consignée en L1.C24 : l'énoncé originel porte sur un système à convertibilité or ; s'y ajoute ici la réserve de [S6] sur la nature du déficit requis"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "J. M. Keynes, The Collected Writings of John Maynard Keynes, vol. XXV, Activities 1940-1944: Shaping the Post-War World — The Clearing Union, Cambridge University Press pour la Royal Economic Society, 2e éd. (édition Cambridge Core, DOI 10.1017/UPO9781139520188). OUVERTE DE PREMIÈRE MAIN : document procuré par l'auteur le 2026-09-04 et lu directement ; aucun intermédiaire, aucune synthèse. CLAUSE DE SYMÉTRIE, texte de la proposition d'union de compensation : « A charge of 1 per cent per annum shall be payable to the Reserve Fund of the Clearing Union on the amount of the excess of the average balance of a member state, WHETHER IT IS A CREDIT OR A DEBIT BALANCE, above a quarter of its quota; and a further charge of 1 per cent on the excess of the average balance, whether credit or debit, above a half of its quota. Thus, only a country which keeps as nearly as possible in a state of international balance on the average of the year will escape this contribution. » Motif énoncé par Keynes : « a significant indication that the system looks on excessive credit balances with as critical an eye as on excessive debit balances, each being, indeed, the inevitable concomitant of the other. » RÉSERVE POSÉE PAR KEYNES LUI-MÊME, dans le même paragraphe : « These charges are not absolutely essential to the scheme. » ASYMÉTRIE D'EXÉCUTION, relevée par le corpus : au pays déficitaire, « the Governing Board MAY REQUIRE (i) a stated reduction in the value of the member's currency [...] (ii) the control of outward capital transactions [...] (iii) the surrender of a suitable proportion of any separate gold or other liquid reserve » ; au pays excédentaire, il « SHALL DISCUSS with the Governing Board (BUT SHALL RETAIN THE ULTIMATE DECISION IN ITS OWN HANDS) what measures would be appropriate », soit expansion du crédit et de la demande internes, appréciation de la monnaie ou hausse des salaires, réduction des tarifs excessifs, prêts internationaux. Enfin, discours de Keynes à la Chambre des Lords du 18 mai 1943 : « a creditor country is likely to be even more unwilling than a debtor country to suffer gladly outside interference or advice. In attempting to tackle this problem the British plan breaks new ground. Perhaps its approach may be open to criticism for being too tentative and mild »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le chapitre du livre a été lu avant toute rédaction, et la bibliothèque de

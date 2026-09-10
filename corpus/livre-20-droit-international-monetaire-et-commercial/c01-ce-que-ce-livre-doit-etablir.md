@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, décision du 2026-09-06 : « il faut donc produire un livre sur le DROIT INTERNATIONAL PUBLIC et son ÉVENTUELLE ÉVOLUTION avec NEMO IMS ». Le corpus proposait ce matricule depuis protocoles/plan-directeur-propose.md sous un objet plus étroit — « Droit monétaire et commercial de la réforme » —, et l'auteur l'a élargi. L'ÉLARGISSEMENT CHANGE LA NATURE DU LIVRE : il ne s'agit plus de vérifier la conformité d'un dispositif à un droit donné, mais d'instruire ce que ce droit devrait devenir"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — le falsifieur F4, resté SANS LIVRE depuis l'établissement de la table de routage le 2026-09-04, et routé ici le 2026-09-06 ; L1.C18 § 6, qui déclare la question des articles du traité « à trancher AVANT tout exposé du mécanisme d'émission » ; L1.C27 § 4, où le livre affirme que l'équivalence stricte « garantit sa conformité aux règles du commerce international », affirmation jamais instruite ; et L7.C01, L7.C03 : le corpus ne tient AUCUNE source de droit international public"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C13, ouvert le 2026-09-06 sur une section du livre que L1.C18 avait signalée comme non lue : « Cette SANCTUARISATION JURIDIQUE, en définissant clairement les limites à ne pas franchir, EST LA CONDITION SINE QUA NON à l'émergence des unités NEMO Green SDR », et le GES « aura pour mission de traduire cette vision en CADRES JURIDIQUES INTERNATIONAUX CONTRAIGNANTS ». LE LIVRE SUBORDONNE DONC L'EXISTENCE DE SON MÉCANISME MONÉTAIRE À UNE TRANSFORMATION JURIDIQUE PRÉALABLE"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 20, ouvert le 2026-09-06 sur décision de l'auteur.

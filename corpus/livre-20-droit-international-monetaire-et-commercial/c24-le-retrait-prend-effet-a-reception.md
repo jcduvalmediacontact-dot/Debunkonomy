@@ -14,17 +14,17 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Statuts du Fonds monétaire international — *Articles of Agreement of the International Monetary Fund*, accords de Bretton Woods, signés à Washington le 27 décembre 1945, entrés en vigueur le même jour ; texte enregistré aux Nations unies sous le n° 20, *Recueil des traités*, volume 2.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le système de publication des traités des Nations unies, lu dans le texte, versions anglaise et française en regard. **C'ÉTAIT L'ACQUISITION DE RANG 1 POUR A37**, refusée le 2026-09-08 sur le site du Fonds (mur anti-robot déclaré et non franchi) et obtenue par le Recueil des traités. **DROITS : document officiel des Nations unies.** **CE TEXTE EST LE TEXTE ORIGINAL DE 1945 ET NON LE TEXTE EN VIGUEUR** — voir la réserve, qui est décisive. **Articles lus : II (composition), III (quotes-parts et souscriptions), IX (statut, immunités et privilèges), XV (retrait).**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     url: "https://www.elibrary.imf.org/display/book/9781498334280/ch026.xml"
     reference: "**Fonds monétaire international, *Articles of Agreement*, ARTICLE XXVI « Withdrawal from Membership » — TEXTE CONSOLIDÉ EN VIGUEUR, édition datée du 11 mars 2020 dans la bibliothèque électronique du Fonds.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, en HTML. **C'EST L'ACQUISITION DE RANG 1 QUE CE CHAPITRE RÉCLAMAIT DEPUIS SON OUVERTURE.** **Le PDF du site institutionnel reste refusé (403) ; la bibliothèque électronique répond.** **Sections lues : 1 (droit de retrait), 2 (retrait forcé), 3 (règlement des comptes).** **RÉSERVE : le corpus a lu L'ARTICLE XXVI SEUL, non les autres articles ni l'annexe J à laquelle il renvoie.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     url: "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-VI"
     reference: "**Banque internationale pour la reconstruction et le développement, *Articles of Agreement*, ARTICLE VI « Withdrawal and Suspension of Membership: Suspension of Operations », TEXTE PORTANT LA MENTION « as amended effective June 27, 2012 »**, publié sur le site officiel de la Banque mondiale. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, en HTML. **Sections lues : 1 à 5.** **AVERTISSEMENT DE STRUCTURE, porté le 2026-09-08 sur arbitrage de l'auteur : LA SECTION 5 NE TRAITE PAS DU RETRAIT D'UN MEMBRE mais de la SUSPENSION PERMANENTE DES OPÉRATIONS DE LA BANQUE. Ses dispositions n'atteignent un sortant que par la section 4 (d), et sous condition.** **RÉSERVE : article VI seul ; l'article II section 5 (ii), auquel la section 4 renvoie pour les appels de capital, n'est pas lu.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**CE TEXTE N'EST PAS LE TEXTE EN VIGUEUR, ET LA VÉRIFICATION QUI L'ÉTABLIT EST
      DANS LE CHAPITRE.** Les statuts ont été amendés au moins cinq fois depuis

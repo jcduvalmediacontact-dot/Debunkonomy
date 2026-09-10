@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026 — le GAÏA Economic Symposium certifie les activités régénératives et l'Assemblée des Communs en arrête la valorisation ; l'émission suit la certification. Versé au dossier en L1.C18 et L1.C20, où le corpus a relevé que la procédure d'établissement, de révision et de contestation du barème n'est décrite nulle part (promesses P19b et P25). C'est le seul barème du dispositif qui CRÉE un flux au lieu d'en répartir un"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06, dépouillé en L11.C03. Points retenus ici. L'interdépendance : « the values of the instrument variables are dependent, generally speaking, on ALL the targets set and cannot be considered in isolation » (ch. IV), ce qui fait des cinq barèmes un seul chantier par propriété du problème et non par recommandation de méthode. Les conditions-limites comptent comme objectifs et ne mordent que menacées (ch. III et V). Et le facteur de coût administratif : entre deux mesures dont l'une « hits a large number of people and may therefore be costly » et l'autre « affects few and therefore is less costly », on choisit la seconde (ch. X)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "F. A. Hayek, « The Use of Knowledge in Society », American Economic Review, 35(4), 1945, et sa forme populaire chez L. E. Read, « I, Pencil », 1958 — connaissance dispersée : l'information pertinente n'est ni centralisée ni centralisable. Fonde la promesse P19b, que le registre qualifie d'OBJECTION LA PLUS FORTE ADRESSÉE AU DISPOSITIF : un barème d'impacts fixé par une assemblée mondiale est un prix administré, il ne renseigne pas sur les coûts d'opportunité locaux, et rien ne garantit qu'il oriente l'effort là où il produit le plus. RÉSERVE : NI L'UN NI L'AUTRE OUVERT de première main. Versé au dossier par l'auteur du dispositif lui-même le 2026-09-05, et instruit en L11.C05 § 6 sur l'autre barème"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Loi de Goodhart — lorsqu'une mesure devient une cible, elle cesse d'être une bonne mesure. Fonde la promesse P25 : conditionner la création monétaire au constat d'une performance écologique incite à optimiser l'indicateur plutôt que l'effet, et ce n'est pas la fraude mais l'ajustement légal des pratiques à ce que le barème récompense. RÉSERVE : formulation reprise du registre des promesses, source primaire NON OUVERTE. Compose avec le biais de sélection (P16) et avec la manipulation des scénarios de référence"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: normatif
     reference: "Mécanisme d'ajustement carbone aux frontières de l'Union européenne — valeur par défaut assignée sans connaître la chaîne, révisable par le producteur qui documente. Versé en L11.C05 [S7] et L11.C06 [S1]. RÉSERVE LOURDE : règlement NON OUVERT ; le § 6 du présent chapitre établit que sa transposition au barème de qualification n'est PAS symétrique de celle qui vaut pour le reflux"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "G. J. Stigler, Bell Journal of Economics 2(1), 1971 ; A. O. Krueger, American Economic Review 64(3), 1974 — capture du régulateur et recherche de rente. Déjà au dossier sous P37. RÉSERVE : non ouverts. L11.C08 § 4 a établi que la dérogation au demurrage donne au label une prime MONÉTAIRE chiffrable et non plus seulement réputationnelle"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE SUR LE VERSANT ÉMISSION. Douze chapitres du Livre 11

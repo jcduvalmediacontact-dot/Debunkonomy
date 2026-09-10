@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: jurisprudence
     reference: "Cour de justice de l'Union européenne, grande chambre, 22 novembre 2022, affaires jointes C-37/20 et C-601/20, *WM et Sovim SA c. Luxembourg Business Registers*, ECLI:EU:C:2022:912 — **DISPOSITIF** : l'article 1er point 15 c) de la directive 2018/843 « **est invalide** en tant qu'il a modifié l'article 30 § 5 de la directive 2015/849 [...] en ce sens que [les États membres doivent veiller à ce que] les informations sur les bénéficiaires effectifs [...] **soient accessibles dans tous les cas à tout membre du grand public** ». **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**, texte intégral du Recueil, 86 717 caractères"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: jurisprudence
     reference: "Même arrêt — **POINT 82** : l'emploi de l'expression « au moins » autorise « la mise à disposition du public de **données qui ne sont pas suffisamment définies ni identifiables** », de sorte que les règles encadrant l'ingérence « **ne répondent pas à l'exigence de clarté et de précision** ». **POINT 83** : la lutte contre le blanchiment « **incombe prioritairement aux autorités publiques** ainsi qu'aux entités [...] qui se voient imposer des obligations spécifiques ». **POINT 85** : comparé au régime antérieur, qui ouvrait l'accès à « toute personne ou organisation capable de démontrer un **intérêt légitime** », le régime d'accès du grand public « représente une atteinte **considérablement plus grave** [...] **sans que cette aggravation soit compensée par les bénéfices éventuels** ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C25, sur le contrôle ; L11.C21, sur la perception ; L7.C18, sur la fraude et le scénario de référence ; L20.C11, sur l'inviolabilité des archives d'une institution internationale"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS TIENT UN SEUL ARRÊT. Il en tire un raisonnement de
      proportionnalité qu'il traite comme général ; **rien au dossier

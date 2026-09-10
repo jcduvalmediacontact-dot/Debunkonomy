@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Traité sur l'Union européenne, Maastricht, JO C 191 du 29.7.1992 — **ARTICLE 109 § 3** : « Par dérogation à l'article 228, au cas où des accords sur des questions se rapportant au RÉGIME MONÉTAIRE OU DE CHANGE doivent faire l'objet de négociations entre la Communauté et un ou plusieurs États OU ORGANISATIONS INTERNATIONALES, le Conseil, statuant à la MAJORITÉ QUALIFIÉE sur recommandation de la Commission et après consultation de la BCE, décide des arrangements relatifs aux négociations et à la conclusion de ces accords. Ces arrangements doivent assurer que la Communauté exprime une POSITION UNIQUE. La Commission est pleinement associée aux négociations. LES ACCORDS CONCLUS AU TITRE DU PRÉSENT PARAGRAPHE SONT CONTRAIGNANTS POUR LES INSTITUTIONS DE LA COMMUNAUTÉ, LA BCE ET LES ÉTATS MEMBRES. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE 109 § 2** : « En l'absence d'un système de taux de change vis-à-vis d'une ou de plusieurs monnaies non communautaires [...] le Conseil [...] peut formuler les ORIENTATIONS GÉNÉRALES DE POLITIQUE DE CHANGE vis-à-vis de ces monnaies. CES ORIENTATIONS GÉNÉRALES N'AFFECTENT PAS L'OBJECTIF PRINCIPAL DU SEBC, À SAVOIR LE MAINTIEN DE LA STABILITÉ DES PRIX. » **§ 4** : « le Conseil [...] statuant à la majorité qualifiée, décide de la POSITION qu'occupe la Communauté au niveau international en ce qui concerne des questions qui revêtent un intérêt particulier pour l'union économique et monétaire, et, STATUANT À L'UNANIMITÉ, DÉCIDE DE SA REPRÉSENTATION. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C12, qui cherche un point de démarrage et établit la séquence : un instrument international reconnaît les communs, puis une institution est constituée, puis elle fixe méthode et valeurs ; L7.C13, qui fait de la sanctuarisation juridique la condition sine qua non de l'émission ; L1.C26, qui expose le NEMO Exchange Standard comme un RÉGIME DE CHANGE"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Ce que ce chapitre NE tranche PAS, et c'est l'essentiel ───────────────
   # Le chapitre établit qu'une VOIE EXISTE. Il ne peut pas établir ce que

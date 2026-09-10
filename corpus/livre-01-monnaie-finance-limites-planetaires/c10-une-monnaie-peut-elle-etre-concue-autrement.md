@@ -15,106 +15,106 @@ sources_primaires:
     nature: theorie
     reference: "B. Lietaer, « The Wörgl Experiment: Austria (1932-1933) », 2010, extrait annoté (bernard-lietaer.org)"
     url: "https://bernard-lietaer.org/wp-content/uploads/2022/07/2010-The-Worgl-Experiment-Austria-1932-1933-Lietaer-annotated.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "I. Fisher, avec H. R. L. Cohrssen, Stamp Scrip, Adelphi, New York, 1933, chapitre IV « The First Experiments Abroad »"
     url: "https://archive.org/details/stampscrip0000fish"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. M. Keynes, The General Theory of Employment, Interest and Money, Macmillan, 1936, chapitre 23, section VI"
     url: "https://www.marxists.org/reference/subject/economics/keynes/general-theory/ch23.htm"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. Stodder, « Complementary credit networks and macroeconomic stability: Switzerland's Wirtschaftsring », Journal of Economic Behavior & Organization, 72(1), p. 79-95, 2009 ; J. Stodder, B. Lietaer, « The Macro-Stability of Swiss WIR-Bank Credits: Balance, Velocity, and Leverage », Comparative Economic Studies, 58(4), p. 570-605, 2016"
     url: "https://doi.org/10.1016/j.jebo.2009.06.002"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Bank WIR Genossenschaft, Geschäftsbericht 2024 — « Wichtigste Zahlen 2024 » (bilan total 6 610 827 kCHF ; bénéfice 17 492 kCHF) ; Reglement et conditions des comptes WIR"
     url: "https://gb.wir.ch/de/2024/wichtigste-zahlen-2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: normatif
     reference: "J. M. Keynes, Proposals for an International Clearing Union, Cmd. 6437, HMSO, Londres, avril 1943 ; débat à la Chambre des Lords du 18 mai 1943 (Hansard)"
     url: "https://api.parliament.uk/historic-hansard/lords/1943/may/18/international-clearing-union"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "L. R. Wray, Understanding Modern Money, Edward Elgar, 1998 ; L. R. Wray, Modern Money Theory: A Primer, Palgrave Macmillan, 2012 ; S. Kelton, The Deficit Myth, PublicAffairs, 2020 ; W. Mosler, Soft Currency Economics, 1993"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: donnees
     reference: "Atlantic Council, Central Bank Digital Currency Tracker, mise à jour de mai 2026"
     url: "https://www.atlanticcouncil.org/cbdctracker/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "A. Grandjean, N. Dufrêne, Une monnaie écologique : d'une monnaie-dette à une monnaie d'intérêt commun, Odile Jacob, 2020"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "J. Couppey-Soubeyran, P. Delandre, Augustin Sersiron, Le pouvoir de la monnaie, Les Liens qui libèrent, 2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "S. Gesell, Die natürliche Wirtschaftsordnung durch Freiland und Freigeld, 1916 ; trad. fr. L'ordre économique naturel, Pestalozzi-Fellenberg, Berne, 1948, partie IV"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "F. Soddy, Wealth, Virtual Wealth and Debt, George Allen & Unwin, 1926, chapitre IV"
     url: "https://archive.org/details/soddy-f.-wealth-virtual-wealth-and-debt-1925"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "P. Bunn, A. Pugh, C. Yeates, « The distributional impact of monetary policy easing in the UK between 2008 and 2014 », Bank of England Staff Working Paper n° 720, 27 mars 2018"
     url: "https://www.bankofengland.co.uk/working-paper/2018/the-distributional-impact-of-monetary-policy-easing-in-the-uk-between-2008-and-2014"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "B. Albouy, S. Hairy, V. Lavilley, L'Économie homéostatique, ExNaturae, 2022"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S15
     nature: jurisprudence
     reference: "Verwaltungsgerichtshof (Autriche), arrêt du 18 novembre 1933, A 504/33, VwSlg 17.755 A — « Wörgler Schwundgeld » : les certificats de travail sont des signes monétaires, leur émission viole le monopole de l'Oesterreichische Nationalbank ; recours de la commune rejeté"
     url: "https://www.vwgh.gv.at/150-Jahre-VwGH/202620.html"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S16
     nature: theorie
     reference: "A. von Muralt, « The Woergl Experiment with Depreciating Money », Annals of Public and Cooperative Economics, 10(1), p. 48-57, 1934"
     url: "https://doi.org/10.1111/j.1467-8292.1934.tb00435.x"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S17
     nature: donnees
     reference: "Federal Reserve Bank of St. Louis, FRED, série WALCL (actif total de la Réserve fédérale, hebdomadaire) : 901 710 M$ le 6 août 2008 ; maximum 8 965 487 M$ le 13 avril 2022"
     url: "https://fred.stlouisfed.org/series/WALCL"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S18
     nature: donnees
     reference: "Banque centrale européenne, ECB Data Portal, série ILM.W.U2.C.A010.Z5.Z01 (actif total de l'Eurosystème, hebdomadaire)"
     url: "https://data.ecb.europa.eu/data/datasets/ILM/ILM.W.U2.C.A010.Z5.Z01"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S19
     nature: actualite
     reference: "F. Panetta, « The digital euro: our money wherever, whenever we need it », déclaration devant la commission ECON du Parlement européen, BCE, 23 janvier 2023"
     url: "https://www.ecb.europa.eu/press/key/date/2023/html/ecb.sp230123~2f8271ed76.en.html"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S20
     nature: theorie
     reference: "M. Petz, D. Finch, « The Rise and Fall of the Bristol Pound: An Exploration of the Learnings from Bristol's Eponymous Currency », International Journal of Community Currency Research, 29, 2026"
     url: "https://doi.org/10.26034/zh.ijccr.2025.8851"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S21
     nature: donnees
     reference: "J. Blanc, M. Fare, O. Lafuente-Sampietro, Les monnaies locales en France en 2023. Résultats de la seconde enquête nationale, Triangle (CNRS / ENS Lyon), 2023, HAL halshs-04268002"
     url: "https://shs.hal.science/halshs-04268002"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S22
     nature: normatif
     reference: "Loi n° 2014-856 du 31 juillet 2014 relative à l'économie sociale et solidaire, article 16 (titres de monnaie locale complémentaire, art. L. 311-5 et L. 311-6 du code monétaire et financier)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : PDF lu (40 000 schillings en garantie ; Kirchbichl janv. 1933 ; 170 communes juin 1933 ; recours perdu nov. 1933).

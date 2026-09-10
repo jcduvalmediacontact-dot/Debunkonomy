@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le falsifieur F5, « L'ANTÉRIORITÉ » : la thèse échoue si le dispositif ne se distingue pas des propositions monétaires qui l'ont précédé. INSTRUMENT EXTERNE TROUVÉ le 2026-09-04, et il est publié et évalué par les pairs : P. Delandre, P. Derudder, F. Fert, A. Tichit, « Towards a Topology of Monetary Systems », International Journal of Community Currency Research, 30(1), 2026, p. 5-55 — huit thèmes, plus de six cents éléments, trois axes notés sur cent, et un mécanisme de revue par les pairs permettant de contester les pondérations. LA GRILLE DISTINGUE LES CARACTÉRISTIQUES DE DESIGN DES PROPRIÉTÉS ÉMERGENTES, ce qui recoupe la distinction ::hypothese:: / ::etat:: de la convention du corpus"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun texte de Proudhon ni des

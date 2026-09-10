@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://www.elgaronline.com/"
     reference: "**Eric Neumayer (London School of Economics), *Weak versus Strong Sustainability*, Edward Elgar Publishing, ISBN 978-1-03532-789-8, CINQUIÈME RÉVISION rédigée en 2024, CHAPITRE 2, sections 2.4.4 « Critique of the Nordhaus Approach (III) : Substitutability of Natural Capital » et 2.4.5 « The Real Controversy », pages 41 à 46.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE**. **Sections 2.1, 2.2, 2.3, 2.4.1 à 2.4.3 NON LUES** : le corpus n'a donc lu ni les définitions et hypothèses de l'ouvrage, ni l'exposé des deux paradigmes, ni les deux premières critiques de l'approche examinée. **DROITS : Open Access sous Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA CITATION DE NORDHAUS EST UNE CITATION DE SECONDE MAIN, ET C'EST LA
      PIÈCE LA PLUS LOURDE DU CHAPITRE.** Elle est rapportée dans l'ouvrage lu,

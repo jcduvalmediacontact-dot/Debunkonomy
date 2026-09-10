@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Jérôme Cuny (IDH21, Paris) et Timothée Parrique (School of Economics and Management, université de Lund), « Can Europe green its growth? An analysis of CO₂-GDP decoupling between 1990 and 2030 », WORKING PAPER, février 2024.** OUVERT le 2026-09-08 **DEPUIS LA BIBLIOTHÈQUE DE L'AUTEUR** — le fichier y figurait sous un nom purement numérique et n'avait jamais été ouvert par le corpus ; il a été identifié lors du balayage de la bibliothèque conduit le même jour. Lu dans le texte. **DROITS : aucune mention lue dans le document — régime `a_verifier`.** **DOCUMENT DE TRAVAIL, non un article à comité de lecture.** **RÉSERVE DE CAMP, DÉCLARÉE D'EMBLÉE : Timothée Parrique est l'un des principaux tenants de la décroissance. CETTE SOURCE EST DU CAMP DU CORPUS, et le corpus doit donc lui appliquer plus de sévérité, non moins.** **Méthode : décomposition LMDI additive appliquée à l'identité de Kaya, sur les émissions TERRITORIALES de l'Union européenne à vingt-huit, 1990-2018, puis simulations jusqu'en 2030.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LES ÉMISSIONS SONT TERRITORIALES, ET LE CORPUS A ÉTABLI QUE CETTE FRONTIÈRE
      MASQUE L'EXTERNALISATION** [L26.C10]. **La source hérite donc du défaut que le

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Orientation (UE) 2016/2249 de la BCE (BCE/2016/34), ANNEXE IV, « Composition et règles de valorisation du bilan »** — **OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, texte français du JO L 347/37 lu sur EUR-Lex. **POSTE D'ACTIF 7.1, TITRES DÉTENUS À DES FINS DE POLITIQUE MONÉTAIRE**, « comptabilisés selon des facteurs de politique monétaire ». **a) Titres de créance NÉGOCIABLES**, deux traitements au choix : **i) prix de marché** avec amortissement de toute prime ou décote ; **ii) COÛT sous réserve de réduction de valeur** — « coût lorsque la réduction de valeur est couverte par une provision enregistrée au poste de passif 13 b) “Provisions” ». **b) Titres de créance NON NÉGOCIABLES : COÛT sous réserve de réduction de valeur**, amortissement de toute prime ou décote. **Règle « Obligatoire » dans les deux cas.** **POSTE 11.2, IMMOBILISATIONS CORPORELLES ET INCORPORELLES** — « terrains et immeubles, mobilier et matériel [...] logiciels » : **« Coût moins amortissement »**, immeubles sur **25 ans**, « pas d'immobilisation au-dessous de **10 000 EUR** hors TVA ». **Règle « Recommandé ».** **POSTE 8** : créances en euros sur des administrations publiques **datant d'avant l'UEM** — « valeur nominale pour les dépôts et les prêts, et **prix coûtant pour les titres non négociables** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même, L20.C02 et l'arbitrage A30.** **L20.C02** : la prohibition du financement monétaire vise **trois opérations** — le découvert, le crédit sous toute autre forme, et **l'acquisition directe d'un instrument de dette auprès d'un émetteur public**. **Et l'échappatoire du corpus tient à une absence** : « **une unité qui n'est le crédit de personne ne tombe sous aucun des trois, PUISQU'IL N'Y A PAS D'INSTRUMENT DE DETTE.** Lue littéralement, la prohibition ne l'atteint pas. » **ARBITRAGE A30, du 2026-09-07** : « **La banque centrale émet la monnaie à but régénératif ADOSSÉE À UNE DETTE COLLECTIVE ; son mécanisme de reflux est collectif.** » Et l'état enregistré : A30 « reste bloquant sur un seul point, et il n'est pas juridique : **ce qui garantit la dette collective s'érode quand le dispositif réussit** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**L10.C01, du même jour.** **Article 6 de la même orientation** : trois conditions **cumulatives** — gain ou perte **économique** futur pour l'entité déclarante, **transfert à celle-ci de l'essentiel des risques et avantages**, mesure fiable ; **aucune branche de potentiel de service**. **Article 9 § 1** : « les taux et les prix actuels du marché sont utilisés pour la valorisation du bilan, **sauf dans les cas relevant des règles particulières spécifiées à l'annexe IV** ». **Article 3, prudence asymétrique** : plus-values latentes hors compte de résultat, moins-values latentes dedans"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA COMPATIBILITÉ DE L'ARTICLE 123 TFUE AVEC UN TITRE ACQUIS SUR LE MARCHÉ
      SECONDAIRE N'EST PAS INSTRUITE ICI, et c'est la question qui déciderait de

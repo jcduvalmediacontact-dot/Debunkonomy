@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://www.elgaronline.com/"
     reference: "**Eric Neumayer (London School of Economics), *Weak versus Strong Sustainability*, Edward Elgar Publishing, ISBN 978-1-03532-789-8, CINQUIÈME RÉVISION rédigée en 2024, CHAPITRE 5 « Measuring weak sustainability », pages 125 à 145.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** : section 5.1 à partir de la règle d'allocation, tableaux 5.1 et 5.2, et section 5.3 (conclusion) LUS INTÉGRALEMENT ; le début de la section 5.1 et la section 5.2 dans son détail NON LUS. **L'auteur date lui-même sa rédaction d'octobre 2024.** **DROITS : Open Access sous Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A OUVERT NI LES COMPTES DE LA BANQUE MONDIALE NI CEUX DU
      PROGRAMME DES NATIONS UNIES POUR L'ENVIRONNEMENT.** Les chiffres rapportés

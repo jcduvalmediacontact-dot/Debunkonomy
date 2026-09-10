@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**N. Georgescu-Roegen, « Energy and Economic Myths », *Southern Economic Journal*, vol. 41, n° 3, janvier 1975, p. 347-381.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; exemplaire du dossier documentaire de l'auteur, pièce L26-01. **DROITS : article de revue diffusé par un archivage sous conditions d'utilisation ; aucune licence de rediffusion n'est portée par le document. RÉGIME : `citation_seule`** — citation courte avec attribution, aucun versement du fichier au dépôt. **C'est le texte de l'auteur dont le corpus se réclame depuis L1.C03, et dont L8.C34 avait qualifié l'absence de « lacune la plus grave du livre ».**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**G. P. Hammond et A. B. Winnett, « The Influence of Thermodynamic Ideas on Ecological Economics: An Interdisciplinary Critique », *Sustainability*, vol. 1, n° 4, 2009, p. 1195-1225, doi:10.3390/su1041195.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-12 du même dossier. **DROITS : la mention portée par le document est explicite — « This article is an open-access article distributed under the terms and conditions of the Creative Commons Attribution license ». RÉGIME : `libre`, vérifié dans le document et non déduit d'un registre.** **Les auteurs sont l'un thermodynamicien, l'autre économiste de l'environnement, tous deux à l'université de Bath.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS TIENT DEUX TEXTES ET NON UNE CONTROVERSE.** Aucune réponse des
      héritiers de la bioéconomie à la critique interdisciplinaire n'est ouverte,

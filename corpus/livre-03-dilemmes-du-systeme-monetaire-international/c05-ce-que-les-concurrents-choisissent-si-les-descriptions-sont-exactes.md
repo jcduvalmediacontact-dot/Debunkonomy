@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: actualite
     reference: "**PISTE SANS AUTORITÉ, ET LE CHAPITRE EST BÂTI SUR CETTE QUALIFICATION.** Deux objets sont décrits dans un document de la bibliothèque de l'auteur, `L'Impératif de Sortie des Systèmes à Devises Clés vers le Standard de Change NEMO.pdf`, **que l'auteur a qualifié le 2026-09-07 de « rhétorique pour un texte de promotion » et dont il a demandé qu'on tire froidement ce qu'il y a de concret.** Le document **parle de l'auteur à la troisième personne, ne porte aucune référence, et conclut que le standard NEMO « est la seule voie ».** **AUCUNE DE SES AFFIRMATIONS N'EST TENUE POUR UN FAIT.** *Description de l'UNIT* : « instrument de règlement numérique pour le commerce de gros » du bloc BRICS+, « **ancré par un panier composé à 40 % d'or physique et à 60 % de monnaies des membres** », « purement numérique et **non destiné à un usage domestique** ». *Description de mBridge* : plateforme « coordonnée par plusieurs banques centrales », employant « des Monnaies Numériques de Banque Centrale (MNBC) **de gros** et la technologie des registres distribués »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Les critères du corpus, et ce sont eux qui font le chapitre.** **L1.C24**, entrée `devise_cle` du vocabulaire : « **la capacité de règlement est le critère qui sépare un référentiel de comparaison d'une devise clé** » ; et ses déterminants documentés sont « la taille et la croissance de l'économie émettrice, la stabilité du souverain, et la profondeur des marchés de capitaux ». **L1.C26**, entrée `referentiel_de_change` : unité « qui sert de pivot de conversion **sans être elle-même détenue, échangée ni acceptée en règlement** », et qui « se distingue [...] **d'un panier de devises, dont la valeur dérive de ses composantes** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L3.C04** établit que le statut de réserve est **un prix décerné à la taille et à la croissance**, et qu'en l'absence de découplage mondial absolu (L1.C12) **la croissance porte de l'extraction** — le lien étant **incitatif et non quantitatif**, la réserve du vocabulaire sur l'argument « plus de monnaie, plus d'extraction » étant portée. **L1.C27** établit que le seuil d'activation « porte sur un poids économique, donc sur **la composition** de la coalition et non seulement sur le nombre de ses membres ». **L7.C12** cherche un point de démarrage « sans en trouver la première marche »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN DES DEUX OBJETS N'EST DOCUMENTÉ PAR UNE SOURCE AYANT AUTORITÉ. Le
      corpus ne sait ni si l'UNIT existe tel qu'il est décrit, ni si sa

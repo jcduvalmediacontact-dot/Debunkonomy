@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Livre satellite 6 — Droits de la nature et des écosystèmes. Débunker les verrous juridiques de l'ordre extractif*, vingt et un épisodes, Debunk'Onomy, chantier des 29, 30 et 31 août 2026. **OUVERTS ET COPIÉS LE 2026-09-06** depuis le Drive de l'auteur : onze versions maîtresses sans réserve (épisodes 1 à 11), trois validées sous réserve (12, 13, 14), sept rédigées non validées (15 à 21), plus un cadrage d'ensemble, trois checklists et un état de clôture. **771 368 caractères.** Le livre s'accompagne d'un PROTOCOLE ÉDITORIAL en version 6 et d'un REGISTRE TRANSVERSAL en version 4, quarante-six entrées"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "*L6 — PROTOCOLE ÉDITORIAL v06*, 30 août 2026, **OUVERT LE 2026-09-06** — « Document méthodologique transversal du corpus GPT Debunk'Onomy. À lire par toute instance chargée de rédiger, réviser ou étendre un épisode du Livre 6. » Deux parties : **règles substantielles** (discipline des cinq données, qualification institutionnelle, exécution, doctrine, faits à ne jamais confondre, renvoi au registre) et **règles épistémiques** (séparation des niveaux de certitude, datation des données évolutives, nuances politiques)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "*L6 — ÉTAT DE CLÔTURE DE SESSION*, 31 août 2026, **OUVERT LE 2026-09-06** — section 4, « Erreurs commises et corrigées », qui recense les erreurs de l'opérateur ET **une liste de faits juridiques ÉTABLIS FAUX dans les rapports de défrichage** ; section 3, décisions de méthode, dont la **règle F.6** : « Un rapport de défrichage n'est jamais cité comme source — ni en primaire, ni en secondaire, ni en bibliographie »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — `corpus/livres.yaml`, Livre 6 : « Recoupe directement L1.C18 § 2 : Équateur 2008, Atrato 2016, Te Awa Tupua 2017. C'est le livre qui doit établir ce que L1.C18 ne fait qu'énoncer » ; et L20.C16, qui a versé le régime du patrimoine commun de l'humanité en déclarant ce corpus juridique **le plus proche de la sanctuarisation que L7.C13 pose en condition sine qua non**, avec la demande expresse que le Livre 6 soit consulté avant la passe 2 du Livre 20"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 6. La situation est différente de celle des

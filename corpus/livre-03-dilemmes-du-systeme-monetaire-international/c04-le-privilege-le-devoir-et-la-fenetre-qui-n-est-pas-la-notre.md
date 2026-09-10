@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Gourinchas, Rey et Sauzet, « The International Monetary and Financial System », *Annual Review of Economics*, 11, 2019, p. 859-893** — **ouverte par le corpus le 2026-09-06** et versée au falsifieur F6. **VERBATIM QUI DÉCIDE** : « the United States is the world insurer, and **the exorbitant privilege is an insurance fee being paid in normal times in exchange for an insurance transfer — the exorbitant duty — being implemented in global crisis times.** » Et sur le mécanisme : ces transferts « reflect **the provision of insurance by the hegemon** to the rest of the world in times of global turmoil, a process that Gourinchas et al. (2017) call **exorbitant duty** »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même article, **section 6, « The New Triffin Dilemma », et conclusion** : « as dollar liquidity is omnipresent in international markets, it becomes increasingly obvious, **with the decline of the relative size of the United States in the world economy, that a new Triffin dilemma MAY emerge.** » **Le dilemme, restitué d'après Triffin 1961** : ou bien l'émetteur fournit assez d'avoirs de réserve et accumule des engagements que sa contrepartie ne couvre plus, **ce qui ruine la confiance** ; ou bien il limite sa fourniture, et le monde connaît « **a shortage of reserve assets, which would impede international transactions** ». **TRIFFIN 1961 N'EST PAS OUVERT** : le corpus en tient une restitution"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même article — **LA SOLUTION QU'IL CITE, ET CE N'EST PAS CELLE DU DISPOSITIF.** Les travaux visés — **Farhi et al. 2011, Eichengreen 2011** — proposent « **un système multipolaire à plusieurs monnaies de réserve NATIONALES** », non un numéraire non national. **Aucun de ces deux travaux n'est ouvert par le corpus.** L'article décrit par ailleurs le passage du pays du centre « **from a World Banker into a World Venture Capitalist** », et **une recherche sur le texte intégral de l'article de 2005 a établi que le mot « insurance » n'y figure aucune fois** — d'où la correction d'attribution du 2026-09-06"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "**Le vocabulaire du corpus, deux entrées, et elles suffisent au raisonnement de la section 4.** `devise_cle` (première occurrence L1.C24) : « Ses **déterminants documentés** sont **la taille et la croissance de l'économie émettrice**, la stabilité du souverain, et la profondeur des marchés de capitaux qui en assurent la liquidité. » `jevons_monetaire` (première occurrence L1.C12, deuxième malédiction) : « la réorientation du crédit produit des découplages **sectoriels ou nationaux** sans **découplage mondial absolu** ». **RÉSERVE IMPÉRATIVE PORTÉE PAR LE VOCABULAIRE LUI-MÊME, et respectée ici** : ce concept « **ne désigne PAS l'argument quantitatif “plus de monnaie, plus d'extraction”, que les séries monétaires réfutent** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "**OBJECTION VERSÉE PAR L'AUTEUR LE 2026-09-07, et le corpus ne la tenait pas.** *Premier point* : « Et le **théorème d'impossibilité de Kareken et Wallace** ? » — **résultat d'indétermination des taux de change d'équilibre entre monnaies de papier**, que le corpus **NE DÉTIENT PAS** et dont il ne tient aucun énoncé de première main. *Deuxième point* : « **la force d'une devise est liée aux capacités extractives de sa nation émettrice.** On reste enfermés dans ce paradigme extractif où **les devises sont adossées à l'exploitation des ressources.** » *Troisième point, sur le mécanisme d'assurance* : « il relève la prime. **Ton tarif augmente avec une monnaie bancaire dégénérative** (impossible découplage). Donc, on se contraint à produire des externalités négatives avec le marché, pour s'en prémunir avec les augmentations des primes d'assurances. » *Quatrième point, et le corpus le qualifie de **POSITION NORMATIVE** au sens de L6.C03, non d'inférence* : « la position des créanciers est de saccager les communs au nom de leur rente »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même, et deux de ses autocorrections.** **QUINZIÈME** : le devoir exorbitant avait été attribué à Gourinchas et Rey 2005 **sur la seule proximité des titres** — « trois emplois, zéro ouverture, et une attribution faite sur un titre ». **SEIZIÈME, portant sur la quinzième** : « le résultat existe, il a été retrouvé, **et il ne fournit pas la sortie qu'on en attendait**. Ouvrir la source aurait corrigé l'attribution ; **il fallait la lire pour corriger le raisonnement.** » S'y ajoutent **L1.C25**, qui établit que l'issue d'une fenêtre de réforme « dépend de la position des créanciers au moment où elle s'ouvre **plutôt que de la qualité des projets disponibles** », et **L11.C16**, qui établit que **la polycentricité est interdite sur la décision D2**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "TRIFFIN 1961 N'EST PAS OUVERT. Le dilemme qui donne son nom au chapitre
      est tenu **par une restitution faite dans un article de 2019**. Le corpus

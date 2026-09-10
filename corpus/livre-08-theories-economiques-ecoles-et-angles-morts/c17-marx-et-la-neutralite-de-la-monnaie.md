@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "K. Marx, A Contribution to the Critique of Political Economy, 1859 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (Project Gutenberg n° 46423, traduction anglaise, texte intégral). CORRECTION D'ÉDITION : le fichier avait été téléchargé sous le nom de « Capital, Volume One » ; le contrôle a établi qu'il s'agit de la Contribution de 1859, et il a été renommé. LE TEXTE EST PLUS APPROPRIÉ QUE CELUI QUI ÉTAIT VISÉ, la Contribution étant le traité monétaire de l'auteur. Retenu : la section III traite explicitement la THÉSAURISATION (« Hoarding ») comme une fonction distincte de la monnaie ; et la formule « money is the abstract and general form of all antagonisms with which the capitalistic system of labor is pregnant ». RÉSERVE : traduction anglaise ancienne, non identifiée ; le corpus ne peut pas citer l'original allemand"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — les concepts `neutralite_monetaire`, `malediction_monetaire` et `fausse_richesse` du vocabulaire ; et l'objection de la thésaurisation, à laquelle le second ressort du dispositif — le demurrage sur encaisses oisives — est la réponse (L1.C21 § 6, L11.C07)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, NON DÉPOUILLÉE, ET UNE QUATRIÈME ERREUR

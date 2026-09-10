@@ -14,56 +14,56 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre « Le commerce international avec NEMO IMS », sections « Les dilemmes du système monétaire international actuel » et « A-t-on encore besoin des devises clés » (p. 192-196) — sept dilemmes énoncés : privilège exorbitant, hégémonie américaine, dilemme de Triffin, triangle d'incompatibilité de Mundell, guerre des monnaies, compétition prédatrice pour les ressources naturelles, contrainte extérieure. Définition retenue : « une devise dite “clé” est une monnaie nationale qui joue le rôle de liquidité dans le commerce international »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "P. Mehrling, « Chartalism, Metallism, and Key Currencies », notes de cours, leçon 13 du cours The Economics of Money and Banking, Barnard College, Columbia University — bibliothèque de l'auteur. Faits rapportés d'après les enquêtes de la Banque des règlements internationaux disponibles à la date du cours : environ 51 % du volume de change ne concerne que quelques devises majeures (dollar, euro, yen, livre) et 84,9 % du volume a le dollar pour l'une des deux jambes de l'opération. Énoncé décisif : « it is important to appreciate that the dollar in question is substantially the international PRIVATE dollar, which is to say bank money not state money ». Et : « the FX market is fundamentally a money market, not a capital market ». Cadre : la contrainte de survie de Minsky, rebaptisée contrainte de réserve, « the requirement that deficit countries find a way to settle with surplus countries » ; « the point to emphasize is how this need to acquire dollars disciplines the behavior of the deficit country »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "P. Mehrling, mêmes notes de cours — distinction de Schumpeter entre chartalisme (la monnaie comme création de l'État) et métallisme (la monnaie comme création des affaires privées), et thèse selon laquelle les deux traditions décrivent deux systèmes historiquement PARALLÈLES : monnaie du roi à l'intérieur, monnaie métallique internationale pour le commerce de gros entre nations. Le système contemporain n'est ni l'un ni l'autre mais « a hybrid or integrated system ». La création de la Réserve fédérale en 1913 a placé la monnaie publique au sommet de la hiérarchie domestique tout en laissant la monnaie privée au sommet de la hiérarchie internationale — « a contradiction that would take another hundred years to work out, and it is not completely worked out even today »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar, Oxford University Press, 2011. **OUVERTE DE PREMIÈRE MAIN le 2026-09-04** : ouvrage procuré par l'auteur ; il était jusque-là connu par le seul compte rendu de D. Howden, Economic Affairs, 33(1), p. 146-148, 2013, DOI 10.1111/ecaf.12008_2. Thèses vérifiées dans le texte : les déterminants de la domination d'une devise sont la taille et la croissance de l'émetteur, la stabilité du souverain et la profondeur des marchés de capitaux ; la position acquise avantage le sortant mais reste surmontable, la livre sterling l'ayant perdue ; scénario privilégié : un monde à PLUSIEURS monnaies internationales, par érosion graduelle et pour des causes internes aux États-Unis. SUR LES DROITS DE TIRAGE SPÉCIAUX, texte exact : « SDRs can be used to settle debts to governments and the IMF itself, but not for other purposes. They cannot be used to intervene in private markets because there are no private markets where SDRs are traded. They cannot be used to invoice and settle trade because no trade is invoiced and settled in SDRs. » Et : « The SDR is funny money. It is not, in fact, a currency. It is not used to invoice and settle trade or in private financial transactions. » **CORRECTION D'ATTRIBUTION** : la formule que le corpus citait d'après le compte rendu — les DTS « aren't money — one can denominate a price in an SDR [...] but one cannot settle a debt by using such means » — **ne figure pas dans l'ouvrage**, et elle en déforme la thèse : Eichengreen écrit au contraire que les DTS règlent des dettes envers les États et le Fonds. Le compte rendu était donc faux sur le point que le corpus lui avait emprunté"
     url: "https://doi.org/10.1111/ecaf.12008_2"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "R. Triffin, Gold and the Dollar Crisis: The Future of Convertibility, Yale University Press, 1960 — contradiction entre le rôle domestique et le rôle international d'une monnaie de réserve : fournir la liquidité mondiale exige des déficits qui minent à terme la confiance dans l'actif fourni. RÉSERVE : l'énoncé originel porte sur un système à convertibilité or ; sa transposition à un système de changes flottants est une extension postérieure et contestée, souvent nommée « nouveau dilemme de Triffin » et reformulée en termes d'offre d'actifs sûrs. Le livre emploie la formulation sans distinguer les deux"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 11 « De la coopération entre banques centrales à la gouvernance monétaire mondiale » — le NEMO Exchange Standard y est décrit comme « un pur nombre notionnel qui sert d'unité de référence pour les taux de change entre monnaies nationales. Il ne remplace aucune monnaie. » AVERTISSEMENT : épisode du Livre 2 ; comme les autres, il porte des états antérieurs de la conception (protocoles/passe-2.md § 3 quater)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "R. A. Mundell, « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 — sous mobilité parfaite du capital et change fixe, une banque centrale n'a plus de pouvoir sur la masse monétaire sinon transitoirement. Déjà employé en L1.C19 § 6"
     url: "https://doi.org/10.2307/139336"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "A. P. Thirlwall, « The Balance of Payments Constraint as an Explanation of International Growth Rate Differences », Banca Nazionale del Lavoro Quarterly Review, 128, p. 45-53, 1979 — la contrainte extérieure y désigne un plafond de CROISSANCE de long terme, déterminé par le rapport des élasticités-revenu des exportations et des importations, et non une contrainte de trésorerie. RÉSERVE : référence de première main non ouverte ; Crossref n'indexe que des reprises ultérieures (McCombie et Thirlwall, 1994)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "G. Gopinath, E. Boz, C. Casas, F. J. Díez, P.-O. Gourinchas, M. Plagborg-Møller, « Dominant Currency Paradigm », American Economic Review, 110(3), p. 677-719, mars 2020 — le libellé des factures du commerce international en une devise dominante, par des agents dont aucun n'est résident du pays émetteur, produit un verrouillage qui ne dépend ni des banques teneuses de marché ni d'une décision publique. Voir aussi P. Krugman, « The International Role of the Dollar: Theory and Prospect », 1984, sur les effets d'échelle et les coûts de changement"
     url: "https://doi.org/10.1257/aer.20171201"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "P.-O. Gourinchas, H. Rey, « From World Banker to World Venture Capitalist: US External Adjustment and the Exorbitant Privilege », NBER Working Paper 11563, août 2005, repris dans R. H. Clarida (dir.), G7 Current Account Imbalances, University of Chicago Press, 2007, p. 11-66 — l'émetteur de la monnaie de réserve détient des actifs risqués à l'étranger contre des engagements liquides et sûrs ; il joue de ce fait un rôle d'assureur mondial et supporte des pertes en capital massives sur sa position extérieure nette lors des crises, quand sa devise s'apprécie. Ce qu'une partie de la littérature nomme le « devoir exorbitant », contrepartie du privilège du même nom"
     url: "https://doi.org/10.3386/w11563"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "A. Tooze, Crashed: How a Decade of Financial Crises Changed the World, Viking, 2018 ; M. Bordo, O. Humpage, A. Schwartz, « The Evolution of the Federal Reserve Swap Lines since 1962 », NBER Working Paper 20755, décembre 2014, également paru comme document de travail 14-14 de la Réserve fédérale de Cleveland (DOI 10.3386/w20755). CORRECTION : l'audit contradictoire attribuait ces travaux à « Bordo et McCauley » ; la référence vérifiée est Bordo, Humpage et Schwartz — en crise de liquidité, la banque centrale émettrice fournit des dollars aux banques centrales étrangères, adossant ainsi le marché privé du dollar offshore à de la monnaie centrale publique. Ces lignes sont SÉLECTIVES : leur ouverture est une décision de l'émetteur. RÉSERVE : références non ouvertes, citées d'après l'audit contradictoire du 2026-09-04 ; à vérifier avant tout emploi chiffré"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S12
     nature: donnees
     reference: "Banque des règlements internationaux, Triennial Central Bank Survey of Foreign Exchange and Over-the-counter Derivatives Markets, enquête d'avril 2022 — volume quotidien moyen des opérations de change de 7 500 milliards de dollars, en hausse d'environ 14 % sur les 6 600 milliards de l'enquête de 2019 ; le dollar figure d'un côté de 88 % de l'ensemble des opérations. À rapprocher des 84,9 % que Mehrling rapportait des enquêtes du début des années 2010 : la part du dollar a AUGMENTÉ sur la période"
     url: "https://www.bis.org/statistics/rpfx22_fx.htm"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÈGLE APPLIQUÉE POUR LA PREMIÈRE FOIS — la bibliothèque de l'auteur a été

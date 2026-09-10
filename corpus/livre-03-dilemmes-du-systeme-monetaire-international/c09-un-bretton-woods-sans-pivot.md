@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Le corpus lui-même, et c'est un inventaire de ce que ce livre a emprunté à un seul traité.** **L3.C02** : le dispositif occupe le coin du contrôle des capitaux, avec précédent exprès à l'**art. VI § 3** des statuts de 1944. **L20.C08** : la procédure de révision de parité de l'**art. IV** — motif du déséquilibre fondamental, zone franche de dix pour cent, objection sous soixante-douze heures, maintien de la valeur des avoirs. **L3.C07** : l'**art. V** — bornes de vingt-cinq et deux cents pour cent du quota, gradation des sanctions en quatre degrés, rachat indexé sur la reconstitution des réserves. **L20.C09 et C10** : la double majorité de l'**art. XVII** et les voix de base de l'**art. XII**. **L20.C12** : les pouvoirs non délégables de l'**art. XII § 2 (b)**. **L20.C13** : l'amorçage de l'**art. XX § 2 (d)**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le mécanisme du dilemme, tel que L3.C04 le tient** d'après Gourinchas, Rey et Sauzet 2019 : ou bien l'émetteur fournit assez d'avoirs de réserve **« et accumule des engagements que sa contrepartie ne couvre plus, ce qui ruine la confiance »**, ou bien il en fournit trop peu et le monde connaît « **a shortage of reserve assets, which would impede international transactions** ». **L3.C06** ajoute d'où vient la demande : « **La sur-accumulation de réserves de change permet à un pays de s'autoassurer** », de sorte que **la prudence de chacun produit la fragilité de tous**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Les deux critères du corpus, et ils décident du chapitre.** **L1.C24**, `devise_cle` : « **la capacité de règlement est le critère qui sépare un référentiel de comparaison d'une devise clé** ». **L1.C26**, `referentiel_de_change` : unité « qui sert de pivot de conversion **sans être elle-même détenue, échangée ni acceptée en règlement** ». **ARBITRAGE A30 du 2026-09-07** : l'unité est **adossée à une dette collective**, et **n'est pas un titre de créance sur l'institution émettrice**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE RAISONNEMENT DE LA SECTION 3 EST UNE DÉDUCTION DU CORPUS, appuyée sur
      ses propres définitions et sur une restitution de Triffin faite dans un

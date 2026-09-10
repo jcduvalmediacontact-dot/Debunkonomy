@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, Amsterdam, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : la RÈGLE DU COMPTE et ses trois cas (ch. IV) ; les DIRECTIVES, équations qui « indicate how the political parameters have to be varied in relation to the changing data » ; les CONDITIONS du ch. II, grandeurs « not in themselves elements of well-being but rather technical expressions of a “sound policy” » ; les BOUNDARY CONDITIONS du ch. V, qui « represent all the protests of reality against the supposed linearity » et « only become “active” [...] if their fulfilment is threatened » ; la CLASSIFICATION EN CINQ GROUPES (ch. IX) et l'aveu qui l'accompagne — « empirical research into each of the points (b) — (e) is still almost completely lacking »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), novembre 1963, p. 475-485 — OUVERT INTÉGRALEMENT le 2026-09-05. Retenu ici : sous parité fixe et mobilité parfaite des capitaux, « the central bank has no power over the money supply either (except in transitory positions of disequilibrium) » ; « the budget deficit is entirely at the expense of reserves » ; et la portée du raisonnement, « the world is still a closed economy »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCES OUVERTES. Les deux textes qui le portent ont été lus

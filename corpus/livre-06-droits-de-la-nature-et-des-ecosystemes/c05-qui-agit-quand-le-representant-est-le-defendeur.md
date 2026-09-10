@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*L6 — REGISTRE TRANSVERSAL DES FAITS PARTAGÉS*, version 4, **entrée 60, « L'affaire Te Urewera »**. **OUVERT LE 2026-09-07** — le registre a été fourni par l'auteur et compte 63 entrées, 114 022 caractères. **FORMULATION CANONIQUE** : la loi néo-zélandaise *Te Urewera Act 2014* « retire à ce territoire son statut de parc national et **lui confère la personnalité juridique**. Un conseil en assure la gouvernance ; l'entité tribale issue du règlement en assure la gestion opérationnelle conjointement avec le département de la Conservation, la loi imposant que cette gestion s'exerce **conformément à un plan opérationnel annuel** ». **QUALIFICATION PORTÉE PAR LE REGISTRE** : « Fait vérifié, établi sur une note de cabinet reproduisant le raisonnement, trois comptes rendus de presse concordants et des extraits cités dans un document public de l'autorité néo-zélandaise de conservation. **Le texte du jugement n'a pas été lu.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: jurisprudence
     reference: "Même source, entrée 60, **FAITS ET DÉCISION** — « Aucun plan opérationnel annuel approuvé pour les exercices 2021-2022 et 2022-2023, faute d'accord entre la Couronne et l'entité tribale. En 2022, le conseil annonce **la démolition de quarante-trois refuges** du département de la Conservation. **Vingt-neuf sont incendiés** à la fin de 2022 sur instruction de l'entité tribale, avec le soutien de la directrice générale du département. Wharenui Tuna, membre d'un *hapū* tūhoe, obtient **une injonction provisoire** en novembre 2022 [...] **Dix refuges supplémentaires sont incendiés APRÈS l'injonction** [...] **Décision** — 14 décembre 2023, Haute Cour siégeant à Auckland. **Sont jugées illégales les décisions et actions du conseil, de l'entité tribale et de la directrice générale**, pour deux motifs : absence de plan opérationnel annuel [...] et manquement à l'obligation d'agir de manière à préserver autant que possible **les systèmes écologiques et la biodiversité indigènes**, à valoriser et respecter la *Tūhoetanga*, et à préserver **la liberté d'entrée et d'accès du public**. » **PORTÉE, telle que le registre la formule** : « **L'organe institué pour représenter l'entité est celui qui a été condamné ; l'action a été portée par un usager individuel, non par un représentant.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source, **entrée 61, « La commission syndicale spéciale »**, formulation canonique donnée **verbatim** par le registre : « Si la commission syndicale n'est pas constituée, le maire peut être habilité par le conseil municipal à représenter la section en justice, **sauf si les intérêts de la commune se trouvent en opposition avec ceux de la section**. Dans ce dernier cas, **une commission syndicale spéciale est désignée par le représentant de l'État dans le département uniquement pour exercer l'action en justice contre la commune. Cette commission est dissoute lorsque le jugement est définitif.** » **RÈGLE DE RÉDACTION IMPÉRATIVE portée par le registre, et respectée ici : NE CITER AUCUN NUMÉRO D'ARTICLE** — « Le texte est vérifié, sa référence ne l'est pas. » Et la portée que le registre lui attribue : « Représentant de substitution désigné par un tiers, dont l'objet est **exclusivement l'action contre l'administrateur ordinaire**, et dont **l'existence est bornée par ce litige. AUCUN RÉGIME DE PERSONNALITÉ JURIDIQUE D'UNE ENTITÉ NATURELLE N'EN COMPORTE L'ÉQUIVALENT.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: jurisprudence
     reference: "Même source, **entrée 28, révisée par l'entrée 62** — « La décision de la Haute Cour de l'Uttarakhand du 20 mars 2017 a été **SUSPENDUE** par la Cour suprême de l'Inde le 7 juillet 2017, sur pourvoi de l'État de l'Uttarakhand. **L'appel n'a pas été tranché.** » **RÈGLE DE RÉDACTION** : « Employer « suspendue », **jamais « annulée »**. Plusieurs sources secondaires emploient à tort *overturned*. » **ET RÈGLE PROVISOIRE DE L'ENTRÉE 62, QUI RÉVISE LA PRÉCÉDENTE ET GOUVERNE : « NE CITER AUCUN NUMÉRO DE POURVOI tant que le point n'est pas établi »** — deux références circulent. **Motif invoqué par l'État, que le registre demande de conserver** : « La personnalité juridique **expose l'entité à des devoirs et ses gardiens à des responsabilités civiles et pénales** pour les dommages causés par le fleuve, notamment les noyades et les inondations. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Le corpus lui-même — **P17** au registre des promesses : représenter une entité sans volonté par définition statutaire de son intérêt ; **L20.C17**, qui laisse au Livre 6 une question précise — non pas comment sanctuariser un commun, mais **quelle technique juridique résiste à un rapport de forces qui change** ; et **L11.C29**, qui établit qu'une exception qui porte son propre terme se rétablit par l'inaction"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE TEXTE DU JUGEMENT NÉO-ZÉLANDAIS N'A PAS ÉTÉ LU — le registre le déclare
      lui-même, et le corpus reprend cette réserve sans l'atténuer. L'entrée est

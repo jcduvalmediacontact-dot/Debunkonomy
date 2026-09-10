@@ -14,31 +14,31 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 9, p. 188-193 — l'assiette du premier ressort, telle que le livre la définit : la CONSOMMATION FINALE et les ACQUISITIONS D'ACTIFS, modulée selon l'empreinte cumulée du bien. Trois arguments à l'appui, que le corpus a retenus comme solides en L1.C21 § 2 : cette assiette est déjà mesurée par les comptabilités nationales, le mécanisme de perception existe déjà sous la forme de la taxe sur la valeur ajoutée, et les flux purement financiers en sont exclus au motif qu'ils fausseraient le pilotage. Deux dispositions d'application : un seuil d'exemption indexé sur le revenu médian national, et une consolidation au niveau du bénéficiaire effectif final. Versé au dossier en L1.C21 [S1]"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Couppey-Soubeyran, P. Delandre, A. Sersiron, Le pouvoir de la monnaie, Les Liens qui Libèrent, janvier 2024 — OUVERT le 2026-09-05. Assiette de la proposition voisine sur les flux, et elle n'est pas celle du livre : « un micro-impôt de 0,5 % prélevé sur CHAQUE PAIEMENT », auquel s'ajoute une taxe de type Tobin de « 0,05 % à 0,2 % sur les flux financiers ». Sur les stocks, 0,1 % mensuel sur les réserves bancaires déposées à la banque centrale. POINT DÉCISIF POUR CE CHAPITRE : le taux appliqué aux flux financiers est de deux à dix fois INFÉRIEUR à celui appliqué aux paiements ordinaires"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le remplacement des taxes sur le chiffre d'affaires par la taxe sur la valeur ajoutée — M. Lauré, France, 1954. Motif reçu du remplacement : une taxe prélevée sur chaque transaction se cumule le long de la chaîne de production, de sorte que la charge finale dépend du NOMBRE d'intermédiations et non de la valeur du bien, ce qui pénalise les chaînes longues et crée une prime à l'intégration verticale ; la taxe sur la valeur ajoutée neutralise cet effet en n'imposant que la valeur ajoutée à chaque étape. RÉSERVE FORTE : NON OUVERT. Le corpus n'emploie ici cette référence QUE pour le motif historique du remplacement. L'arithmétique du cumul, elle, est établie par le corpus lui-même au § 2 et ne dépend d'aucune source. Porté en liste d'acquisition le 2026-09-05"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "La taxe suédoise sur les transactions de titres, 1984-1991 — introduite en janvier 1984 au taux de 0,5 % à l'achat et à la vente, portée au double en 1986, abandonnée en 1991 ; une part majeure du volume des actions suédoises les plus traitées a migré vers la place de Londres, et le rendement est demeuré très inférieur aux prévisions. Référence attendue : S. Umlauf, « Transaction taxes and the behavior of the Swedish stock market », Journal of Financial Economics, 33(2), 1993. RÉSERVE FORTE : NON OUVERTE, chiffres cités de mémoire et à vérifier avant tout emploi hors corpus. Portée en liste d'acquisition le 2026-09-05. Le corpus en tire une borne sur les seuls flux financiers et refuse de l'étendre aux paiements ordinaires, dont la mobilité est sans commune mesure"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "A. L. Bovenberg, R. A. de Mooij, « Environmental Levies and Distortionary Taxation », American Economic Review, 84(4), 1994 ; D. Fullerton, G. E. Metcalf, « Environmental Taxes and the Double-Dividend Hypothesis », Chicago-Kent Law Review, 73(1), 1997 — l'érosion de l'assiette est un résultat établi : une taxe pigouvienne contracte sa propre base à mesure qu'elle atteint son but. Déjà versées au dossier en L1.C21 [S10], où elles fondent la promesse P29 et le falsifieur F1. RÉSERVE : non ouvertes de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     reference: "L. E. Read, « I, Pencil: My Family Tree as Told to Leonard E. Read », The Freeman, décembre 1958 — versé au dossier par l'auteur du dispositif le 2026-09-05. Un crayon ordinaire y expose sa généalogie : cèdre de l'Oregon, graphite de Ceylan, cire, laque, virole de laiton, gomme qui n'est pas du caoutchouc — des milliers de participants qui ne se connaissent pas, ne partagent aucun but commun, et dont AUCUN ne sait fabriquer un crayon. Forme populaire de l'argument de la connaissance dispersée dû à F. A. Hayek, « The Use of Knowledge in Society », American Economic Review, 35(4), 1945, déjà porté au canon du Livre 8. RÉSERVE : NI L'UN NI L'AUTRE OUVERT de première main. Le corpus emploie ici la seule prémisse de l'essai — la dispersion de la connaissance le long de la chaîne — et récuse explicitement sa conclusion au § 6"
     nature: theorie
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S7
     reference: "Mécanisme d'ajustement carbone aux frontières de l'Union européenne — déjà versé au dossier en L1.C27 § 5, où le corpus lui reproche de servir d'analogie illégitime au seuil d'activation (P51). Propriété retenue ici, et l'analogie y est cette fois exacte : le dispositif assigne une valeur d'émissions incorporées à un bien importé SANS connaître sa chaîne de production, en appliquant une valeur par défaut que l'importateur peut faire réviser en documentant les émissions réelles. RÉSERVE : le règlement n'a pas été ouvert de première main ; le mécanisme des valeurs par défaut et le renversement de la charge de la preuve doivent être vérifiés sur le texte avant tout emploi hors corpus"
     nature: normatif
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # L1.C21 § 2 et § 6 ont déjà défriché l'assiette et établi l'obstacle

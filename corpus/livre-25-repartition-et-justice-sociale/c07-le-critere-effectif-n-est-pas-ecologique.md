@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Le corpus lui-même — les SEPT renforts versés à la commande de ce livre le 2026-09-08 par des chapitres qui ne se cherchaient pas : L12.C02, L12.C03, L18.C12, L18.C13, L18.C15, L26.C11 et L20.C24-C25.** **CE CHAPITRE N'OUVRE AUCUNE SOURCE NOUVELLE ET NE PRÉTEND PAS LE FAIRE.** **Chaque énoncé cité ici est adossé à la source ouverte par le chapitre qui l'a relevé, et à lui seul** — plateforme intergouvernementale sur la biodiversité (chapitres 3 et 4 de l'évaluation des valeurs, 2022), manuel Routledge sur la marchandisation (2023), résolution A/RES/70/1 dans ses deux versions authentiques, communication et article de revue sur les rendements exergétiques agrégés, statuts du Fonds monétaire international et de la Banque internationale pour la reconstruction et le développement (Recueil des traités, volume 2). **Ce chapitre les assemble ; il ne les rouvre pas.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**AUCUN DES SEPT CONSTATS N'EST MESURÉ SUR LE DISPOSITIF, ET LE CHAPITRE NE
      DOIT PAS ÊTRE LU COMME S'IL L'ÉTAIT.** Ils portent sur des paiements pour

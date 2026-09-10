@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les cinq chapitres de la tranche et les cinq textes qu'ils ont ouverts de première main. L25.C01** — Pacte international relatif aux droits économiques, sociaux et culturels, en vigueur depuis le 3 janvier 1976 : **le plancher social est une obligation juridique, et son contenu est énuméré.** **L25.C02** — Observation générale n° 3 du Comité, lue sur une reproduction académique et non sur le document original : **noyau dur, charge de la preuve renversée, non-régression.** **L25.C03** — Accord de Paris, articles 8 et 9 : **une obligation de donner sans créance, et aucune obligation de réparer.** **L25.C04** — Règlement (UE) 2023/955 instituant le Fonds social pour le climat : **A34 écrit par un législateur, et le critère du seuil d'exemption.** **L25.C05** — Accord de Paris, articles 2 et 4 : **l'équité et la différenciation gouvernent l'application entière, et elles ne calculent pas**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA TRANCHE N'A OUVERT AUCUNE DONNÉE DE RÉPARTITION.** Elle tient cinq
      corps de règles et **aucune distribution de revenus, de patrimoines ou

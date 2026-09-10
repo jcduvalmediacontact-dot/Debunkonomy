@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**ARBITRAGE A35, RENDU PAR L'AUTEUR LE 2026-09-07.** Question posée : qui porte la dette collective ? **Réponse, citée intégralement** : « **L'idée de dette collective s'oppose au concept de dette individuelle et n'est pas liée aux mêmes mécanismes d'émission monétaire.** Une dette individuelle est émise lors de l'octroi d'un crédit et s'éteint lors de son remboursement. **La monnaie à vocation régénérative ne peut pas suivre ce même concept, car LA RENTABILITÉ N'EST PAS COMPATIBLE AVEC LA RÉGÉNÉRATION (essentiel insolvable).** Il faut cependant émettre de la monnaie pour la réparation des communs et des écosystèmes **qui ont été précisément impactés par l'extraction nécessaire au marché**. Si cette monnaie régénérative ne peut pas être adossée à une dette financière et ne saurait être soumise au reflux habituel, **il faut donc envisager des dispositifs de reflux alternatif. Et c'est la société entière qui porte cette dette.** Le choix est donc donné aux agents de consommer des biens et services à faibles impacts (fontes faibles). **La consommation de biens et services à fort impact implique des reflux (fontes) graduellement plus forts.** Je pense que **cette dette est donc portée par l'ensemble de la société**. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**IPSAS 47, *Revenue*, § 18** (recueil IPSAS 2026) — ouverte par téléchargement direct le 2026-09-07 et instruite en L18.C05. **ET ELLE VISE NOMMÉMENT LE MÉCANISME RETENU PAR L'ARBITRAGE** : « A past event that gives the entity control of a resource may be a purchase, a taxable event, or a transfer. **Transactions or events EXPECTED TO OCCUR IN THE FUTURE DO NOT IN THEMSELVES GIVE RISE TO ASSETS — for example, AN INTENTION TO LEVY TAXATION IS NOT A PAST EVENT that gives rise to an asset in the form of a claim against a taxpayer.** » **IPSAS 48 § 18 et § 20** : un transfert consenti sans rien recevoir en retour donne **une charge**, mesurée « at the carrying amount of the transferred resources ». **Orientation BCE/2016/34, article 6** : trois conditions cumulatives, dont **le transfert à l'entité déclarante de l'essentiel des risques et avantages**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Règlement (CE) n° 3603/93, articles 1 et 3**, et **CJUE, *Gauweiler*, C-62/14, point 94** — instruits en L10.C04 et L10.C05. **La prohibition vise les crédits « aux autorités et aux organismes publics »** et l'acquisition directe auprès d'eux d'instruments de leur dette ; « autre type de crédit » recouvre « **toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par une créance sur celui-ci** » ; et le **« secteur public »** comprend « les institutions ou organes de la Communauté, les administrations centrales, les autorités régionales ou locales, les autres autorités publiques et **les autres organismes ou entreprises publics des États membres** ». **L20.C02** : « une unité qui n'est le crédit de personne ne tombe sous aucun des trois, **puisqu'il n'y a pas d'instrument de dette** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA COMPÉTENCE DE PRÉLÈVEMENT N'EST INSTRUITE NULLE PART. Ce chapitre
      établit que l'arbitrage déplace la difficulté vers le côté du prélèvement,

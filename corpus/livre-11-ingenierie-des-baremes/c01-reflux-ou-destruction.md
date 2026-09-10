@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, note de travail adressée au corpus le 2026-09-05, ouvrant le Livre 11. Énoncé décisif : « Le mécanisme des fontes ainsi que leur nature réelle est à définir. Il ne s'agit pas de destructions monétaires au sens propre, mais de mécanismes de reflux comptables vers la comptabilité des institutions émettrices banques centrales puis GAÏA Economic Symposium. » Objectifs assignés à la fonte dans la même note : « Retirer de la monnaie, et donc, du pouvoir d'achat, à l'économie générale de sorte à éviter/contrôler l'inflation, et/ou orienter l'inflation vers les produits (biens et services) les plus dégénératifs. » Et la finalité d'ensemble : prévenir la flambée des prix qu'un effondrement des écosystèmes produirait par rupture des chaînes de production et de logistique. NATURE : instruction de conception de l'auteur, non texte publié ; elle fait autorité sur l'intention, non sur la mécanique, qu'il revient à ce livre d'établir"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 9 « De la gestion de la dette au reflux monétaire » — seul exposé complet du bouclage. Au GES : « L'émission des [NGA] s'inscrit au passif du bilan du GES. Face à ce passif, deux contreparties apparaissent à l'actif [...]. La première est un certificat de qualification régénérative [...]. La seconde est une créance sur les fontes futures. » Aux banques centrales nationales : « les [NGA] entrent à l'actif du bilan de la banque centrale nationale comme actif transitoire, la monnaie nationale émise au bénéfice du prestataire sort au passif [...]. À mesure que les fontes différenciées prélevées sur les transactions ordinaires produisent un reflux monétaire vers la banque centrale nationale, celle-ci renvoie proportionnellement les [NGA] transitoires détenus à son actif vers le GES. » Revendication : « NEMO IMS n'invente pas une comptabilité radicalement nouvelle. Il préserve intégralement la logique classique de la partie double actif-passif. » AVERTISSEMENT ET CONVENTION DE CITATION : l'épisode emploie un sigle abandonné le 2026-09-05. Les crochets [NGA] marquent la substitution éditoriale — le corpus n'imprime plus le sigle mort, et signale par les crochets que le mot n'est pas celui de la source. Le Cahier lui-même sera migré lors de la conversion du Livre 2"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, section « Révolution comptable » — « la contrepartie comptable de ces émissions de monnaie centrale n'est pas nécessairement une dette, mais des réalisations d'activités extra financières labellisées ». Et : « La création monétaire n'est pas un problème si elle s'accompagne d'une destruction monétaire équivalente par ailleurs » — le livre emploie donc le mot DESTRUCTION là où la note de travail [S1] écarte ce terme"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Banque centrale européenne, définition des agrégats monétaires de la zone euro — le secteur détenteur de monnaie exclut l'administration centrale, dont les dépôts auprès de la banque centrale ne sont donc pas comptés dans M3. RÉSERVE : définition non ouverte sur la source officielle dans cette passe ; le point qu'elle porte au § 4 est standard mais doit être vérifié avant tout emploi hors corpus"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "P. Stella, « Do Central Banks Need Capital? », IMF Working Paper 97/83, 1997 ; W. Buiter, « Can Central Banks Go Broke? », CEPR Policy Insight 24, 2008 — une banque centrale émettrice de la monnaie dans laquelle ses engagements sont libellés peut fonctionner durablement avec des fonds propres négatifs. Déjà versée au dossier en L1.C29. RÉSERVE : références non ouvertes de première main"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05, après lecture de ce chapitre. Texte intégral de la décision : « NEMO IMS prévoit (préconise) une grande coalition entre le GAÏA Economic Symposium et les banques centrales du monde entier. Dans ce nouveau paradigme destiné à financer l'essentiel insolvable, les activités définies par le GES occasionnent l'émission de NGA convertibles par la banque centrale en Monnaie de banque centrale à finalités extra-financières. Le GES peut tenir une comptabilité de ses NGA en miroir avec les banques centrales. Les dispositifs de reflux collectifs sur les transactions permettront des reflux en cascades vers les banques centrales puis des banques centrales vers le GES. La question de savoir si le GES peut capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis de NGA est mathématiquement oui. » Cet arbitrage tranche la bifurcation du présent chapitre, l'arbitrage A2, et les deuxième et troisième tests du § 6"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE D'UN LIVRE DE CONCEPTION. Aucune source ne préexiste : le

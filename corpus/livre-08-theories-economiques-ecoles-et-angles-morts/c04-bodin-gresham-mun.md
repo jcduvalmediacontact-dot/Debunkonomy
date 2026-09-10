@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P29, « ÉTANCHÉITÉ DU PÉRIMÈTRE » : une monnaie qui coûte à détenir et qui renchérit une part des achats invite à lui préférer un substitut, devise étrangère, matière première ou actif hors réseau. BORNE EMPIRIQUE ÉTABLIE entre −0,5 % et −1 %, et MÉCANISME ACQUIS le 2026-09-06 sur le chapitre V de Tinbergen — « tax rates must not exceed certain limits because otherwise the tendency to evasion will become too strong » —, versé à l'inventaire comme condition-limite B1 en L11.C03 § 5. Et le résultat de L11.C07 : la fuite est maximale en crise, donc la borne mord au moment où l'instrument devrait mordre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun des trois textes n'est en

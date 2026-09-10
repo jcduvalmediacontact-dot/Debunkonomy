@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 1**, section 3 — l'énoncé du premier déplacement : « Les systèmes biophysiques conditionnent les systèmes économiques. Les systèmes économiques conditionnent les systèmes financiers. Les systèmes financiers ne conditionnent que les instruments monétaires. Toute politique macroprudentielle qui inverse cet ordre est structurellement condamnée. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, section 1 — les trois caractères du risque systémique : PROPAGATION EN CASCADE, BOUCLES DE RÉTROACTION, INCAPACITÉ D'AUTO-RÉGULATION, « Seule une intervention externe — banque centrale, État, coopération internationale — peut le stabiliser ». Et l'ouverture de l'épisode, sur septembre 2023 : la publication par K. Richardson, J. Rockström et vingt-sept autres d'une actualisation du cadre des limites planétaires dans *Science Advances* — six limites sur neuf transgressées — la même semaine que le *Financial Stability Report* semestriel de la Réserve fédérale, « cent trente-quatre pages », où l'on ne trouve « PAS UNE SEULE MENTION » de ces travaux : « Pas une ligne. Pas un tableau. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "C. Borio, BIS Working Papers n° 128, 2003 — l'objectif ultime macroprudentiel est « avoid OUTPUT (GDP) COSTS », et l'approche « measures risk in terms of THE DISPERSION OF AN ECONOMY'S OUTPUT ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Board of Governors of the Federal Reserve System, *Financial Stability Report*, **octobre 2023**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (federalreserve.gov, 2 962 109 octets, 140 685 caractères de couche texte). **RECHERCHE FAITE SUR LE TEXTE INTÉGRAL** : « planetary boundar », « biodiversity » et « Rockström » y figurent ZÉRO FOIS — la constatation du Cahier est CONFIRMÉE DE PREMIÈRE MAIN. « Climate » y figure HUIT FOIS, dont un encadré dédié page 49, « An Approach to Assessing Climate-Related Financial Risks », qui décrit l'effort ainsi : « the translation of PHYSICAL AND TRANSITION RISKS associated with climate change INTO FINANCIAL RISKS. To do so, CLIMATE DATA NEED TO BE PROCESSED INTO A FORM THAT CAN BE MERGED WITH FINANCIAL DATA. In addition, exposures of financial institutions to those risks need to be assessed [...] To go beyond exposures of individual institutions, MODELS OR SCENARIOS ARE USED TO EVALUATE THE TRANSFER of climate-related risks within the financial system and to assess the significance of climate-related risks to financial stability. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L2.C05, qui établit que la boucle décrite par Aglietta en 2016 va DANS LES DEUX SENS, la fragilité climatique aggravant la fragilité financière ET le secteur financier étant « a powerful driver and accelerator » du risque climatique ; L1.C04, sur l'économie à l'intérieur de la nature"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "RICHARDSON, ROCKSTRÖM ET AL. 2023 N'EST PAS OUVERT, alors que c'est la
      source du fait qui ouvre tout le Cahier. **Publié en accès libre dans

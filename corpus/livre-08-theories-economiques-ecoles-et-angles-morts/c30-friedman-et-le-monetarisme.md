@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "E. Combe, « Les contradicteurs du keynésianisme : de Friedman aux nouveaux classiques », in La Documentation Française, Découverte de l'économie, 2. Histoire de la pensée économique, n° 280, mars-avril 1997, p. 71-78 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, procuré par l'auteur. SYNTHÈSE PÉDAGOGIQUE, DONC SOURCE SECONDAIRE DE RANG FAIBLE : le corpus l'emploie pour ce qu'elle restitue de la DOCTRINE REÇUE et non comme autorité sur les textes. SUR LES DÉLAIS, et plus fort que ce que le corpus soutenait : « si les cycles d'activité sont courts et si les délais d'efficacité de la politique monétaire sont longs, alors une politique monétaire contracyclique risque de se révéler... procyclique ! Les fluctuations de l'activité seront accrues par la politique monétaire, qui se transforme en politique de déstabilisation. » SUR LES REMÈDES : deux familles de règles, les règles de COMPORTEMENT — « un gouvernement peut importer la crédibilité, en s'arrimant à une zone de changes fixes menée par une monnaie forte », ou nommer un banquier central « conservateur » (Rogoff 1985) — et les règles de DROIT, où « pour rendre crédible son action, le gouvernement doit se lier les mains juridiquement »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les DIRECTIVES, équations qui « indicate how the political parameters have to be varied in relation to the changing data ». LE CORPUS ÉTABLIT QUE LA « RÈGLE » RÉCLAMÉE PAR CETTE TRADITION A CETTE FORME, et qu'elle n'est donc pas l'opposé du pilotage mais sa formalisation"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — falsifieur F7, repesé le 2026-09-05 : des trois jambes, celle des DÉLAIS est la seule RENFORCÉE par les sources ouvertes. Et résultat de L11.C22, qui recense CINQ délais en série là où le corpus n'en avait nommé que trois, et établit qu'ils s'allongent ensemble. Et de L11.C16 § 8, qui trouve un délai de nature entièrement différente — biologique et non monétaire — sur un troisième instrument"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR UNE SOURCE SECONDAIRE DE RANG FAIBLE, et il le déclare en

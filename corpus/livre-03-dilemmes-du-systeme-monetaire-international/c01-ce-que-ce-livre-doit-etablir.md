@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, entrée du matricule 3**, projection du plan directeur de l'auteur. **Fonction** : « Retracer les systèmes monétaires, leurs mécanismes, leurs dilemmes et leurs crises, puis **éprouver les réponses proposées par NEMO IMS** ». **Motifs** : « rouage — articulation avec le système monétaire international » ; « discipline — économie monétaire internationale » ; « **objection — P13** ». **Statut** : maquette. **Architecture déclarée** : « Valider la maquette provisoire en six épisodes ; **préciser le périmètre historique antérieur à l'étalon-or** et **réserver l'étude institutionnelle détaillée des banques centrales au Livre 10** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**`protocoles/registre-des-promesses.md`, P13**, renvoyée par L1.C15 § 1 et classée parmi les promesses à RÉPONDRE. **Ce que le Livre 1 affirme** : « Il n'existe aucun canal de création monétaire qui ne soit gagé, à un niveau ou à un autre, sur une promesse de remboursement adossée à une activité solvable — l'emprunt d'État crée bien de la monnaie, **mais déplace le filtre sur l'emprunteur souverain** ». **Ce qu'il faut établir** : « Une émission gagée sur la régénération et non sur une promesse de remboursement, **à aucun niveau** — et **ce qui empêche que le filtre se redéplace sur l'institution émettrice** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, et il tient déjà quatre résultats sur cet objet.** **L1.C24** distingue la devise clé du référentiel de comparaison : « la capacité de règlement est le critère qui sépare un référentiel de comparaison d'une devise clé », et une unité qui permet de libeller un prix sans permettre d'éteindre une dette n'en est pas une. **L1.C25** établit l'étalon de change-or et la fenêtre de réforme, dont l'issue « dépend de la position des créanciers au moment où elle s'ouvre plutôt que de la qualité des projets disponibles ». **L1.C26** pose le référentiel de change comme unité « sans être elle-même détenue, échangée ni acceptée en règlement ». **L1.C27** pose le seuil d'activation, qui « porte sur un poids économique, donc sur la composition de la coalition et non seulement sur le nombre de ses membres »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "**ARBITRAGE A32 du 2026-09-06, « PARITÉ FIXE ! », et ce qu'il a produit.** Le chapitre 9 du livre décrit **un contrôle des capitaux** — non administratif mais économique, le reflux s'appliquant à l'acquisition d'actifs. **LE TRIANGLE DE MUNDELL N'EST DONC PAS CONTOURNÉ : IL EST RESPECTÉ, et le dispositif occupe LE COIN DE BRETTON WOODS.** Précédent exprès, ouvert en passe 1 du Livre 20 : **art. VI § 3 des statuts du Fonds de 1944**, qui autorise nommément « such controls as are necessary to regulate international capital movements ». **CONTRAINTE** : le même article interdit que ces contrôles **restreignent les paiements des transactions courantes** — définition à l'art. XIX (i)"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "**`protocoles/falsification.md`, F6, et son état après la seizième autocorrection.** Gourinchas, Rey et Sauzet 2019, verbatim : « **the exorbitant privilege is an insurance fee being paid in normal times in exchange for an insurance transfer — the exorbitant duty** ». **Conséquence tirée par le corpus** : privilège et devoir sont **deux jambes d'un même contrat d'assurance tarifé**, de sorte que « identifier le moment où la charge excède l'avantage » repose sur une lecture erronée du mécanisme. **La sortie documentée est ailleurs** — le **nouveau dilemme de Triffin** : « with the decline of the relative size of the United States [...] a new Triffin dilemma **may** emerge ». **TROIS RÉSERVES** : le modal « may » ; **la solution de la littérature est un système MULTIPOLAIRE À PLUSIEURS MONNAIES DE RÉSERVE NATIONALES**, non un numéraire non national ; et L11 a établi que la polycentricité est interdite sur la décision D2"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN TEXTE FONDATEUR DE CE LIVRE N'EST OUVERT. Ni Triffin, ni Mundell, ni
      le plan Keynes de 1943, ni l'amendement de 1969 créant les droits de

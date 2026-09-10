@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le résultat de L11.C22, « les délais » : le corpus en avait nommé trois et en a recensé CINQ EN SÉRIE, dont il établit qu'ils s'allongent ensemble. Et le résultat de L11.C16 § 8 : un délai de nature entièrement différente, biologique et non monétaire, excède celui du déséquilibre qu'il doit corriger. Et la règle du compte de Tinbergen telle que L8.C28 § 4 la restitue : « the values of the instrument variables are dependent, generally speaking, on all the targets set and cannot be considered in isolation »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Les Principles of Economics ne

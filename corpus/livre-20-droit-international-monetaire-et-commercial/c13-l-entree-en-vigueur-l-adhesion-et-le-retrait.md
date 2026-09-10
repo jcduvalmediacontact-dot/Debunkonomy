@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE XX, SECTION 1** : « This Agreement shall enter into force WHEN IT HAS BEEN SIGNED ON BEHALF OF GOVERNMENTS HAVING SIXTY-FIVE PERCENT OF THE TOTAL OF THE QUOTAS set forth in Schedule A and when the instruments referred to in Section 2 (a) have been deposited on their behalf, but IN NO EVENT SHALL THIS AGREEMENT ENTER INTO FORCE BEFORE MAY 1, 1945. » **SECTION 2 (d)** : chaque gouvernement signataire verse au dépositaire UN CENT-MILLIÈME de sa souscription totale « FOR THE PURPOSE OF MEETING ADMINISTRATIVE EXPENSES » ; si l'accord n'est pas en vigueur au 31 décembre 1945, LES FONDS SONT RESTITUÉS. **SECTION 2 (e)** : l'accord reste ouvert à la signature jusqu'au 31 décembre 1945. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE XV, SECTION 1** : « Any member may withdraw from the Fund AT ANY TIME by transmitting a notice in writing [...] WITHDRAWAL SHALL BECOME EFFECTIVE ON THE DATE SUCH NOTICE IS RECEIVED. » **SECTION 2** : le retrait FORCÉ passe par une déclaration d'inéligibilité, puis, après un délai raisonnable, par « a decision of the Board of Governors carried by A MAJORITY OF THE GOVERNORS REPRESENTING A MAJORITY OF THE TOTAL VOTING POWER » ; **(c)** le membre doit être informé de la plainte et mis en mesure de s'expliquer, oralement et par écrit. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 1994 — **ARTICLE XII** : « Any State or separate customs territory possessing FULL AUTONOMY in the conduct of its external commercial relations [...] may accede to this Agreement, ON TERMS TO BE AGREED between it and the WTO. [...] The Ministerial Conference shall approve the agreement on the terms of accession BY A TWO-THIRDS MAJORITY of the Members. » **ARTICLE XV** : « Any Member may withdraw from this Agreement. Such withdrawal [...] shall take effect UPON THE EXPIRATION OF SIX MONTHS from the date on which written notice of withdrawal is received. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L7.C12, sur le point de démarrage ; L7.C16, sur l'adhésion et la sortie ; L7.C17, qui établit qu'un club n'a de force qu'au-delà d'un seuil et règle la méthode de P51 sur Nordhaus 2015 ; L7.C19, sur la sanction et l'exécution"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE SEUIL DE SOIXANTE-CINQ POUR CENT EST RELEVÉ, SA JUSTIFICATION NE L'EST
      PAS. **Aucun travail préparatoire n'est au dossier** ; le corpus ignore

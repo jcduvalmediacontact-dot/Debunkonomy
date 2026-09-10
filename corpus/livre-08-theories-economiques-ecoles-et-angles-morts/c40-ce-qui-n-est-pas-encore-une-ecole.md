@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `robustesse` du vocabulaire, que le dispositif emprunte à la théorie des réseaux de flux et qui est, avec `entropie`, le seul emprunt du corpus à un champ qui n'est pas une école économique constituée ; et le résultat de L8.C37 § 3, qui recommande pour le Livre 13 la famille des maquettes de flux cohérents ; et le résultat de L8.C01, qui établit qu'il n'y a pas de théorie standard et que le corpus doit procéder par controverses et non par écoles"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT PAR CONSTRUCTION, et le plan du livre le prévoit ainsi.

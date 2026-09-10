@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "A. Smith, An Inquiry into the Nature and Causes of the Wealth of Nations, 1776 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (Project Gutenberg n° 3300, texte intégral, 2,3 millions de caractères). Retenu, livre IV, chap. II, la formule qui porte la thèse : celui qui ne vise que son propre gain est « led by an invisible hand to promote an end which was no part of his intention ». RÉSERVE D'ÉDITION : édition Gutenberg, sans apparat critique ; la pagination de référence (Glasgow Edition) n'y figure pas, et le corpus ne peut donc pas citer par page"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la promesse P19b, que le registre qualifie d'« objection la plus forte adressée au dispositif », et le résultat de L8.C29 : l'objection frappe la décision D2, fixer les valeurs, et la seule réponse constituée dont le corpus dispose — l'organisation polycentrique — est praticable sur le constat et interdite sur les valeurs par le résultat de Mundell"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, et la première du répertoire ancien à l'être.

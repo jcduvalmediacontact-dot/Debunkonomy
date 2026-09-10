@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "*Prompt corrective action*, **12 U.S.C. § 1831o**, issu du **Federal Deposit Insurance Corporation Improvement Act de 1991**, édition 2023 du code américain. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** (govinfo.gov, 62 370 caractères de couche texte). **OBJET, § (a)(1)** : « The purpose of this section is to **resolve the problems of insured depository institutions AT THE LEAST POSSIBLE LONG-TERM LOSS TO THE DEPOSIT INSURANCE FUND**. » **§ (a)(2)** : chaque autorité « **SHALL** carry out the purpose of this section **by taking prompt corrective action** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source, **§ (b)(1), les CINQ catégories** — « **Well capitalized** » : « significantly exceeds the required minimum level for each relevant capital measure » ; « **Adequately capitalized** » : « meets the required minimum level for each » ; « **Undercapitalized** » : « fails to meet the required minimum level for ANY relevant capital measure » ; « **Significantly undercapitalized** » : « significantly below the required minimum level for any » ; « **Critically undercapitalized** » : en deçà du niveau plancher fixé au § (c)(3)(A). **NOTER L'ASYMÉTRIE DES QUANTIFICATEURS** : on est bien capitalisé si l'on dépasse largement CHAQUE mesure, et sous-capitalisé si l'on manque UNE SEULE"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source, **§ (h)(3), « Conservatorship, receivership, or other action REQUIRED »** — **(A)** : l'autorité « **SHALL, NOT LATER THAN 90 DAYS** after an insured depository institution becomes critically undercapitalized — (i) **appoint a receiver** [...] ; or (ii) take such other action as the agency determines [...] would better achieve the purpose of this section, **AFTER DOCUMENTING WHY the action would better achieve that purpose** ». **(B) « Periodic redeterminations required »** : toute décision de prendre une autre mesure « **shall CEASE TO BE EFFECTIVE not later than the end of the 90-day period** beginning on the date that the determination is made, **and a conservator or receiver SHALL be appointed** [...] **UNLESS THE AGENCY MAKES A NEW DETERMINATION** at the end of the effective period of the prior determination ». **(C)** : « **Appointment of receiver REQUIRED if other action fails to restore capital** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — **L2.C22**, qui verse la thèse de C. Goodhart : « **l'impact du ratio réglementaire exigé dépend des sanctions imposées (du moins de leur barème)** [...] Compte tenu du chiffre (généralement) **arbitraire** choisi, **l'exercice probablement le plus important** de la définition de cette réglementation **consiste à définir la structure de sanctions** [...] et c'est une tentative qui se produit **trop rarement** » ; et le mécanisme du seuil devenu plancher : traiter un ratio requis comme un minimum « **anéantit le rôle de tampon** ». Goodhart nomme la loi de 1991 comme le contre-exemple : « **un barème judicieux de sanctions** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Le corpus lui-même — **L20.C18**, qui établit qu'une dérogation dans l'ordre commercial « **doit énoncer les circonstances exceptionnelles** [...] et **la date à laquelle elle prend fin** », est réexaminée annuellement et peut être prorogée, modifiée ou supprimée ; et **L20.C17**, qui établit que la sanctuarisation de 1982 a cédé devant un accord postérieur **qui ne portait aucun terme**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS TIENT LE TEXTE ET NON SON APPLICATION. Aucune donnée sur le
      nombre d'établissements passés par chaque catégorie, sur la fréquence des

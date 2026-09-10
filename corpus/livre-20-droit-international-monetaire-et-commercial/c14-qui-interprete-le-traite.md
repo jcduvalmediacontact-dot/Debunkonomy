@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE XVIII** : « (a) ANY QUESTION OF INTERPRETATION of the provisions of this Agreement arising between any member and the Fund or between any members of the Fund SHALL BE SUBMITTED TO THE EXECUTIVE DIRECTORS for their decision. (b) [...] any member may require that the question be REFERRED TO THE BOARD OF GOVERNORS, WHOSE DECISION SHALL BE FINAL. Pending the result of the reference [...] the Fund MAY ACT ON THE BASIS OF THE DECISION OF THE EXECUTIVE DIRECTORS. (c) Whenever a disagreement arises between the Fund and A MEMBER WHICH HAS WITHDRAWN, or between the Fund and any member DURING LIQUIDATION, such disagreement shall be submitted to ARBITRATION by a tribunal of three arbitrators, one appointed by the Fund, another by the member [...] and an UMPIRE who [...] shall be appointed by THE PRESIDENT OF THE PERMANENT COURT OF INTERNATIONAL JUSTICE. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 35.1** : « The acts or omissions of the ECB SHALL BE OPEN TO REVIEW OR INTERPRETATION BY THE COURT OF JUSTICE in the cases and under the conditions laid down in this Treaty. » **35.2** : les litiges avec créanciers, débiteurs ou toute autre personne relèvent des juridictions nationales compétentes, sauf compétence conférée à la Cour. **35.3** : la BCE est soumise au régime de responsabilité de l'article 288. **35.6** : la Cour est compétente pour les manquements d'une banque centrale nationale, après avis motivé de la BCE. **ARTICLE 36.2** : la Cour est compétente pour les litiges entre la BCE et ses agents. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C07, qui pose la question de l'audit de l'auditeur et ne la referme pas ; L7.C14, qui institue une chambre de recours interne ; L7.C13, qui établit une cinquième fonction du symposium — produire du droit international contraignant — que ne porte AUCUNE chambre ; L11.C19, sur le recours"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA COUR PERMANENTE DE JUSTICE INTERNATIONALE, DÉSIGNÉE PAR LE TEXTE DE
      1944 POUR NOMMER LE TIERS ARBITRE, N'EXISTE PLUS. Elle a été remplacée en

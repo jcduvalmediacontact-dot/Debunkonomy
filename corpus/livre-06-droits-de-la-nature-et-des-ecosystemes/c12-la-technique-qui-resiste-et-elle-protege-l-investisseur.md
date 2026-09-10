@@ -14,47 +14,47 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "*L6 — REGISTRE TRANSVERSAL*, v04, **entrée 4, « Clause de survie »** : « **L'article 47, paragraphe 3, du TCE prévoit une protection des investissements antérieurs pendant VINGT ANS après le retrait.** » **QUALIFICATION** : fait vérifié. « Sa portée intra-européenne est contestée : voir entrée 6. » **Déclencheur de révision** : décision juridictionnelle sur la portée de la clause. TCE = traité sur la Charte de l'énergie, signé en 1994, instrument multilatéral de protection des investissements dans le secteur de l'énergie"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**L6 — ÉPISODE 03, « Les clauses de survie — le piège des vingt ans », v1.2. OUVERT LE 2026-09-07.** Texte maître de l'auteur, **statut de version non relevé dans l'en-tête consulté**. « Ratifier un traité prend le temps d'une procédure institutionnelle nationale — souvent quelques mois, parfois quelques années. **En sortir pleinement peut prendre vingt ans.** Cette dissymétrie n'est pas neutre. Elle traduit un choix politique fondamental — **celui de placer la stabilité des investissements au-dessus de la capacité des sociétés à faire évoluer leurs cadres normatifs.** » Et : « La clause de survie est un objet juridique. Elle est aussi **une philosophie du temps**. Elle affirme, silencieusement, que **ce qui a été décidé une fois doit résister vingt ans à toute nouvelle décision.** [...] **Vingt ans, en matière climatique, n'est plus une durée acceptable. C'est la durée du problème lui-même.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "*Registre*, **entrée 3, « Volume du contentieux sous le TCE »** : « Le Secrétariat de la Charte de l'énergie recensait **162 affaires CONNUES** dans ses statistiques mises à jour le **1er décembre 2023**, contre 158 dans l'édition du 1er mai 2023. » **VALIDITÉ** : édition du 1er décembre 2023, **aucune postérieure au 29 août 2026**. **RÉSERVE PERMANENTE, et le registre impose de la porter** : « Ce sont des affaires **connues** : **les parties ne sont pas tenues de notifier leurs différends au Secrétariat.** Le mot *connues* doit figurer dans les deux épisodes. » **Source canonique** : page « Statistics » du Secrétariat"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "*Registre*, **entrée 10, « Modélisation OpenExp »** : « Une modélisation publiée par OpenExp en 2020 évaluait l'exposition potentielle des États européens à **523,5 milliards d'euros à court terme** et à **1 300 milliards à l'horizon 2050**, dont **environ 42 % supportés par les contribuables**. Il s'agit d'**estimations scénarisées d'exposition potentielle, non d'engagements certains**. » **QUALIFICATION IMPÉRATIVE, respectée ici** : « **INFÉRENCE — modélisation, À NE JAMAIS PRÉSENTER COMME UNE FACTURE.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: jurisprudence
     reference: "*Registre*, **entrée 11, « Affaire Rockhopper »** : « Sentence du **23 août 2022** accordant **190 millions d'euros en principal**, augmentés d'intérêts au taux **Euribor + 4 %**. Sentence **ANNULÉE INTÉGRALEMENT le 2 juin 2025** par un comité *ad hoc* du CIRDI, **pour irrégularité dans la constitution du tribunal**. » **QUATRE ÉTAPES À NE PAS CONFONDRE** : « annonce ou dépôt d'une nouvelle demande d'arbitrage ; enregistrement institutionnel par le CIRDI ; constitution du tribunal ; issue de la procédure. Au 29 août 2026, **l'engagement d'une nouvelle procédure est documenté ; son enregistrement formel ne l'est pas.** » **MONTAGES FINANCIERS, ATTRIBUÉS À LA SOCIÉTÉ par le registre** : « financement initial des coûts, **monétisation de droits économiques liés à la sentence**, versement anticipé et tranches conditionnelles, **assurance contre le risque d'annulation**, obligation éventuelle de remboursement des assureurs ». CIRDI = Centre international pour le règlement des différends relatifs aux investissements"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S6
     nature: donnees
     reference: "*Registre*, **entrée 12, « Compensation versée par les Pays-Bas à RWE »** : « **331,8 millions d'euros**, se décomposant en **318,3 millions de compensation et 13,5 millions d'indemnité d'intérêts.** Il s'agit d'une **DÉCISION ADMINISTRATIVE DE DROIT INTERNE, DISTINCTE DE L'ARBITRAGE** au titre du TCE. » **Source canonique** : lettre du ministre de l'Énergie au Parlement néerlandais, 18 septembre 2023. **RÉSERVES** : « La période de plafonnement de la production n'est pas mentionnée tant que la lettre n'a pas été lue directement. Le contexte des 1,9 milliard réclamés et des 730 millions provisionnés n'est ajouté que s'il figure dans un document public clairement attribué. » S'y ajoute **l'entrée 13, *Micula*** : « **NON RÉSOLU** pour la chronologie d'exécution : aucun développement postérieur à 2024 retrouvé, **ce qui ne prouve pas qu'il n'y en ait pas** [...] **Ne pas retenir « 300 millions » comme valeur unique.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S7
     nature: normatif
     reference: "*Registre*, **entrées 1, 2, 5 et 6**. *Retrait* : « Le retrait de l'Union européenne et d'Euratom a pris effet à la fin de juin 2025 : la Commission retient le 28 juin, **la base des traités du Conseil indique le 27 juin** » — **DISCORDANCE DOCUMENTÉE**. *États restants* : « Au 29 août 2026 [...] **seize États membres de l'Union encore parties** [...] La page de la Commission consultée à cette date en indiquait toutefois encore dix-sept » — **seconde discordance**. *Sortie européenne* : l'accord **inter se** sur l'interprétation du TCE, approuvé par la **décision (UE) 2025/1904 du 10 septembre 2025** ; « Le texte désigne comme parties potentielles vingt-six États membres et l'Union européenne ; **la Hongrie n'y figure pas.** » **POINT NON RÉSOLU** : les dates de signature, d'entrée en vigueur et d'effet à l'égard de la France sont conservées des audits antérieurs avec la mention « **référence du dépositaire non retrouvée lors du contrôle du 29 août 2026** ». *Amendements du 3 décembre 2024* : **cinq niveaux d'applicabilité à ne pas confondre**, l'entrée en vigueur définitive n'étant pas acquise"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S11
     nature: normatif
     reference: "**Décision (UE) 2025/1904 du Parlement européen et du Conseil du 10 septembre 2025**, JO L, 2025/1904, texte de l'accord *inter se* en annexe. **PDF DU JOURNAL OFFICIEL FOURNI PAR L'AUTEUR LE 2026-09-07 et lu.** **CONSTAT DE L'UNION SUR L'INEXÉCUTION, considérant 2** : « **Malgré l'arrêt Komstroy, les tribunaux arbitraux ont continué de se déclarer compétents et de rendre des sentences dans des procédures d'arbitrage intra-UE** qui sont censées être fondées sur l'article 26, paragraphe 2, point c), du traité ». **TECHNIQUE RETENUE PAR L'ACCORD, et ce n'est pas une modification** : les parties « réaffirment, par souci de clarté, qu'elles partagent la communauté de vues selon laquelle [...] **l'article 47, paragraphe 3, du traité sur la Charte de l'énergie ne s'étend, et NE SAURAIT AVOIR ÉTÉ ÉTENDU À AUCUN MOMENT**, à de telles procédures » — d'où il suit qu'il « **ne peut pas AVOIR PRODUIT d'effets juridiques dans les relations intra-UE** » pour les retraits antérieurs, et n'en produirait pas pour les retraits ultérieurs. **ENTRÉE EN VIGUEUR** : trente jours après réception du deuxième instrument de ratification"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S10
     nature: normatif
     reference: "**Traité sur la Charte de l'énergie, Lisbonne, 17 décembre 1994 — TEXTE AUTHENTIQUE. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** : *Recueil des Traités des Nations Unies*, **volume 2080, n° 36116, p. 95**, enregistré par le Portugal le 30 septembre 1999, entré en vigueur le 16 avril 1998 ; textes authentiques anglais, français, allemand, italien, russe et espagnol. **ARTICLE 47 — WITHDRAWAL, lu intégralement.** § 1 : « At any time **after five years** from the date on which this Treaty has entered into force for a Contracting Party, that Contracting Party may give written notification to the Depositary of its withdrawal ». § 2 : « Any such withdrawal shall take effect upon the expiry of **one year** after the date of the receipt of the notification ». § 3 : « **The provisions of this Treaty shall continue to apply to Investments made** [...] as of the date when that Contracting Party's withdrawal from the Treaty takes effect **for a period of 20 years from such date.** » **ET UNE SECONDE CLAUSE DE SURVIE, que le registre ne portait pas** — pour l'application provisoire : les obligations relatives aux investissements faits pendant celle-ci « **shall nevertheless remain in effect with respect to those Investments for twenty years following the effective date of termination** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S9
     nature: normatif
     reference: "**Convention de Vienne sur le droit des traités, 23 mai 1969. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** — texte français publié par la Commission du droit international, `https://legal.un.org/ilc/texts/instruments/french/conventions/1_1_1969.pdf`, 69 584 caractères extraits, articles 31, 41 et 62 lus. **PREMIÈRE OUVERTURE DE CE TEXTE PAR LE CORPUS, alors que ONZE CHAPITRES DU LIVRE 20 le réclamaient.** **Art. 41** : « Deux ou plusieurs parties à un traité multilatéral peuvent conclure un accord ayant pour objet de modifier le traité **dans leurs relations mutuelles seulement** : a) Si la possibilité d'une telle modification est prévue par le traité ; ou b) Si la modification en question n'est pas interdite par le traité, **à condition qu'elle : i) Ne porte atteinte ni à la jouissance par les autres parties des droits qu'elles tiennent du traité ni à l'exécution de leurs obligations ; et ii) NE PORTE PAS SUR UNE DISPOSITION À LAQUELLE IL NE PEUT ÊTRE DÉROGÉ SANS QU'IL Y AIT INCOMPATIBILITÉ AVEC LA RÉALISATION EFFECTIVE DE L'OBJET ET DU BUT DU TRAITÉ pris dans son ensemble.** » Le § 2 impose en outre **la notification aux autres parties**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "**L6 — ÉPISODES 01 et 02, v3.2 et v1.3. OUVERTS LE 2026-09-07.** Épisode 02 : « un traité qui protège les investissements existants contre les évolutions législatives futures est **un traité qui protège LE PASSÉ CONTRE L'AVENIR** » ; et « La question n'est plus celle de la disparition du TCE, mais celle de **la coexistence de deux régimes juridiques divergents pour un même objet** ». Épisode 01, **et c'est une inférence de l'auteur, signalée comme telle ici** : « cette hésitation même — **cette autocensure préventive** — pèse plus lourd, dans la marche des choses, que les rares condamnations qui la nourrissent »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "UNE SEULE SOURCE PRIMAIRE A ÉTÉ OUVERTE — la Convention de Vienne, le
      2026-09-07. **N'ONT PAS ÉTÉ OUVERTS** : l'article 47 § 3 du TCE, la

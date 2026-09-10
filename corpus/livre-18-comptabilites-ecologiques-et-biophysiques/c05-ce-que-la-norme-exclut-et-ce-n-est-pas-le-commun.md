@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**IPSAS 47, *Revenue*** (recueil IPSAS 2026) — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, source fournie par l'auteur et rangée au Drive, **non instruite jusqu'ici**. **§ 18, CÔTÉ BÉNÉFICIAIRE** : l'entité comptabilise l'entrée de ressources en actif « **if it presently controls the resources** [...] received as a result of past events, and **the value of the asset can be measured reliably** ». Le contrôle « entails **the ability of the entity to use the resource (or direct other parties on its use)** so as to derive the benefit of the service potential or economic benefits ». **§ 19, ET C'EST UNE EXCLUSION DE DÉFINITION** : « **The ability to EXCLUDE OR REGULATE THE ACCESS of others to the benefits of an asset is an ESSENTIAL ELEMENT OF CONTROL that DISTINGUISHES an entity's assets FROM THOSE PUBLIC GOODS THAT ALL ENTITIES HAVE ACCESS TO AND BENEFIT FROM.** » Et sur la régulation : « governments exercise a regulatory role over certain activities [...] **This regulatory role DOES NOT NECESSARILY MEAN that such regulated items meet the definition of an asset of the government**, or satisfy the criteria for recognition »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**IPSAS 48 § 18 et § 20, et cadre conceptuel IPSASB § 5.12**, instruits en L18.C01. **Côté émetteur** : un transfert sans recevoir en retour donne une **charge**, mesurée « at the carrying amount of the transferred resources », comptabilisée « **when the entity ceases to control the resources** ». **Côté bénéficiaire** (IPSAS 47 § 18) : une entrée de ressources devient un **actif** si le bénéficiaire **en prend le contrôle** et peut la mesurer. **LA CHARNIÈRE DES DEUX NORMES EST LE MÊME FAIT** — le déplacement du contrôle — **et il est daté du même instant.** **Cadre conceptuel § 5.12** : quatre indicateurs de contrôle, dont « **the ability to deny or restrict access to the resource** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L6.C06** : un commun ne tient pas parce qu'on interdit de vendre, mais parce qu'**un droit réel inhérent suit le fonds** — *inerenza*, *ius sequelae*, **opposabilité erga omnes**, survie à la vente forcée, effet « **a prescindere dal rispetto di oneri pubblicitari** ». **L11.C16** : la **valorisation à bénéficiaire nommé** existe en droit positif — loi italienne n° 168 du 20 novembre 2017, art. 2 § 1, ressources renouvelables à valoriser « **a beneficio delle collettività locali degli aventi diritto** », et art. 1 § 1 qualifiant le patrimoine de **comproprietà inter-generazionale**. **L1.C09** : le lexique comptable comme **règle de l'architecture invisible**. **L1.C20** : une monnaie qui n'est le crédit de personne"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE PÉRIMÈTRE DE CONSOLIDATION N'EST PAS ÉTABLI, et il commande la
      section 3. Le corpus ne sait pas si l'institution émettrice et les

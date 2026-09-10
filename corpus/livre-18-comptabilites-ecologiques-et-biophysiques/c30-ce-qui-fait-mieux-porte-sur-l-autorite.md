@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 6, SOUS-SECTIONS 6.2.2.3 (instruments sociaux et culturels), 6.2.2.4 (instruments fondés sur les droits et coutumiers) et 6.2.2.5 (comparaison entre types), pages 28 à 34 du chapitre.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** le 2026-09-09. **C'ÉTAIT L'ACQUISITION DE RANG 1 DU CORPUS**, inscrite deux fois — par L18.C27 puis par L18.C29 — comme la condition sans laquelle le corpus ne peut pas soutenir que son instrument est nécessaire. **LES TABLEAUX 6.4 ET 6.5 ET LA FIGURE 6.5 NE SONT PAS EXTRACTIBLES** : le corpus lit les descriptions en prose et le texte de comparaison, non la notation ni le graphique dont ils procèdent. **DROITS : reproduction libre à des fins non lucratives avec mention de la source. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA COMPARAISON ENTRE FAMILLES REPOSE SUR UNE FIGURE QUE LE CORPUS NE VOIT
      PAS.** La figure 6.5 compare les quatre familles sur les moyennes des

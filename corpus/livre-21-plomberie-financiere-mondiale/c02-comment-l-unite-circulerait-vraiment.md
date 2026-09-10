@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**PFMI, avril 2012 — PRINCIPE 12, SYSTÈMES DE RÈGLEMENT D'ÉCHANGE DE VALEUR.** L'infrastructure « should **eliminate principal risk** by ensuring that **the final settlement of one obligation occurs IF AND ONLY IF the final settlement of the linked obligation also occurs**, regardless of whether the FMI settles on a gross or net basis ». **PRINCIPE 7, RISQUE DE LIQUIDITÉ** : l'infrastructure « should maintain **sufficient liquid resources IN ALL RELEVANT CURRENCIES** to effect **same-day** and, where appropriate, **intraday and multiday** settlement of payment obligations with a high degree of confidence under a wide range of potential stress scenarios », incluant « **the default of the participant and its affiliates that would generate the largest aggregate liquidity obligation** ». **PRINCIPE 20, LIENS ENTRE INFRASTRUCTURES** : un lien « should have **a well-founded legal basis, IN ALL RELEVANT JURISDICTIONS**, that supports its design and provides adequate protection to the FMIs »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même source — CE QUE LE CORPUS TENAIT DÉJÀ ET QUI S'ENCHAÎNE ICI.** **PRINCIPE 8, CARACTÈRE DÉFINITIF** : « clear and certain **final settlement, at a minimum by the end of the value date** ». **PRINCIPE 9, RÈGLEMENT EN MONNAIE** : « in **central bank money** where practical and available » ; à défaut, un actif de règlement présentant « **little or no credit or liquidity risk** ». **PRINCIPE 1** : base juridique opposable « **in all relevant jurisdictions** ». **PRINCIPE 19** : participation en paliers, directs et indirects. **PRINCIPE 13, DÉFAILLANCE D'UN PARTICIPANT** : des règles permettant « to take timely action to **contain losses and liquidity pressures** and **continue to meet its obligations** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L3.C05** : « une monnaie doit être acceptée pour valoir, **un rail doit seulement être joignable** », et « un rail parfait sur lequel circulerait de la monnaie de crédit **laisserait le filtre exactement où il est** ». **L3.C09** : le dispositif **s'ajoute** au système existant, son unité **ne règle pas**. **L5.C02** : le principe 9 force un choix — « ou bien le rail règle en monnaie de banque centrale [...] **on entre et on n'a rien changé** ; ou bien l'unité est l'actif de règlement », question de fait sur sa contrepartie. **L21.C01** : le principe 15 exige des fonds propres, **et la séparation de l'émetteur et de l'infrastructure rend celle-ci indifférente à l'unité qu'elle transporte**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS N'A JAMAIS DÉCRIT UNE SEULE OPÉRATION DE BOUT EN BOUT. Ni le
      nombre de bilans traversés, ni les écritures à chaque étape, ni le moment

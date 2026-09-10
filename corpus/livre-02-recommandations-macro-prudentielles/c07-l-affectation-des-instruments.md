@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-P. Betbèze, C. Bordes, J. Couppey-Soubeyran, **D. Plihon**, *Banques centrales et stabilité financière*, **rapport n° 96 du Conseil d'analyse économique**, La Documentation française, 2011 — commentaires de D. Cohen et J.-P. Vesperini, **compléments de M. Aglietta**, C. Goodhart et T. Padoa-Schioppa. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (cae-eco.fr/static/pdf/096.pdf, 1 659 981 octets, couche texte intégrale). **RECOMMANDATION 2** : « L'architecture politique monétaire-politique macro-prudentielle doit être bâtie sur le PRINCIPE D'AFFECTATION DES INSTRUMENTS (application du principe de Mundell) : chaque politique se voit assigner la réalisation de l'objectif pour lequel elle est la mieux adaptée. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source — le rejet des DEUX solutions de coin. Celle d'avant-crise : « le consensus de Jackson Hole dont Alan Greenspan a été la figure emblématique. CETTE SOLUTION DE COIN DOIT ÊTRE ABANDONNÉE. » Et l'autre : « il n'est pas question de passer d'une solution de coin à l'autre, à savoir celle mise en place dans les économies asiatiques [...] La politique monétaire, la politique prudentielle et, même, dans certains cas extrêmes comme en Chine, LA POLITIQUE BUDGÉTAIRE Y SONT COORDONNÉES. Dans ces économies, ce modèle A FAIT PREUVE DE SON EFFICACITÉ en résistant bien à la crise. MAIS IL APPARAÎT DIFFICILEMENT CONCILIABLE AVEC LE TRIPTYQUE INDÉPENDANCE-TRANSPARENCE-RESPONSABILITÉ. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, présentation des compléments — « Le premier de **Michel Aglietta** remet fermement en question LA DOCTRINE DU CIBLAGE D'INFLATION et défend une politique monétaire ÉLARGIE À L'OBJECTIF DE STABILITÉ FINANCIÈRE, plus sensible aux dérapages du crédit et à l'essor du prix des actifs. » Et le troisième, de **T. Padoa-Schioppa** : sur « la gouvernance des institutions internationales et, tout particulièrement, des comités de supervision au sein desquels les décisions sont prises sur le principe de la coopération EXIGEANT QUE TOUT LE MONDE SOIT D'ACCORD. IL PLAIDAIT POUR UNE AUTRE GOUVERNANCE, FONDÉE SUR LE PRINCIPE DE DÉCISIONS COMMUNES PRISES À LA MAJORITÉ SI NÉCESSAIRE ET S'IMPOSANT À TOUS »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Même source, conclusions de section — « la politique macro-prudentielle doit assurer la stabilité financière et REPOSER PRINCIPALEMENT, ELLE AUSSI, SUR L'APPLICATION D'UNE RÈGLE, comme l'imposition d'un ratio de capital contra-cyclique ». Et sur le fondement : « Il n'est généralement pas possible de maintenir à la fois la stabilité monétaire et la stabilité financière en utilisant seulement la politique de taux d'intérêt. [...] Aussi la nécessité d'appliquer LE PRINCIPE DE TINBERGEN en ayant un instrument supplémentaire [...] est-elle largement reconnue. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Le corpus lui-même — L11.C03 § 9, qui a ouvert Tinbergen 1952 et Mundell 1962 et établi que **le cadre de Tinbergen range le changement de structure monétaire en CLASSE (d)**, où « our empirical quantitative knowledge of human behaviour under different structural conditions is so restricted », et que **Tinbergen assortit l'affectation un-pour-un d'une réserve explicite** : elle suppose « a very special structure »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE COMPLÉMENT A D'AGLIETTA (p. 277-294) N'EST PAS DÉPOUILLÉ. Le corpus en
      tient la présentation par les rapporteurs et **quatre mentions

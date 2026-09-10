@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "E. Carré, J. Couppey-Soubeyran, C. Fontan, P. Monnin, **D. Plihon**, M. Vincent, « Mettre la réglementation bancaire au service de la transition écologique », **note de l'Institut Veblen, juin 2022**, 42 p. **OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (veblen-institute.org, 635 556 octets, couche texte intégrale). Thèse : le verdissement « devra, pour être efficace, COMBINER ÉTROITEMENT DEUX TYPES D'APPROCHE : l'approche « prudentielle » [...] mais aussi l'approche « STRUCTURELLE » à laquelle [les régulateurs] seront plus réticents » — l'occasion de renforcer « DEUX PILIERS FAIBLES » : le macroprudentiel, « trop modestement échafaudé depuis la crise de 2007-2008 », et le structurel, « DÉFAIT PAR LA LIBÉRALISATION FINANCIÈRE DES ANNÉES 1980 ET [QUI] N'A PAS ÉTÉ RECONSTRUIT DEPUIS »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, **§ 2.4** — « Le rôle des règles prudentielles n'est pas tant d'agir sur la composition de l'actif, mais plutôt SUR CELLE DU PASSIF en limitant le financement par la dette [...] Cela signifie que, pour agir sur la composition des bilans bancaires [...] C'EST PAR DES RÈGLES STRUCTURELLES QU'IL FAUT PASSER. » Preuve invoquée : la Banque des règlements internationaux « recense vingt-cinq estimations dans cinq études réalisées entre 2014 et 2018, dont la majeure partie évalue ENTRE −0,5 % ET 1,25 % l'impact d'une augmentation de 1 point du ratio de fonds propres sur le niveau du crédit ». Et, en note : l'outil de la BRI **ne propose pas l'actif total ni la composition de l'actif parmi les cibles d'impact étudiées — « c'est tout simplement qu'il n'existe pas d'études référencées sur cet impact »**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, **§ 2.4, les deux règles structurelles** — une RÈGLE DE FLUX qui « interdirait tout nouveau financement dans les énergies fossiles », et une RÈGLE DE STOCK qui « obligerait à diminuer de x % par an (taux d'effort, fonction de la part initiale d'actifs à exclure du bilan) [...] la part des anciens financements non compatibles avec le référentiel commun ». Exemple chiffré : un établissement à 80 % d'actifs non conformes en 2025, neutralité en 2050, doit réduire « d'AU MOINS 3,2 % CHAQUE ANNÉE cette part évaluée à SA VALEUR INITIALE ». **CLAUSE ANTI-CONTOURNEMENT** : « Il ne serait pas autorisé d'utiliser la baisse du prix des actifs carbonés et/ou l'augmentation de la taille du bilan pour opérer l'ajustement »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Même source, **§ 1.3 et § 2.4** — les règles structurelles « constituent un mode d'intervention plus direct en venant non pas réparer ou accompagner, mais plutôt REMPLACER EN GRANDE PART UN MÉCANISME DE MARCHÉ DÉFAILLANT DANS L'ALLOCATION DES CAPITAUX [...] suivant des préférences collectives. Des réglementations de cette nature ONT PRÉVALU JUSQUE DANS LES ANNÉES 1980, sous la forme de règles d'encadrement du crédit, de fléchage sectoriel, taux bonifiés ». Et le résultat empirique invoqué (Bezemer et al., 2018) : après leur suppression, « la part du crédit aux entreprises A SIGNIFICATIVEMENT DIMINUÉ. Le crédit est allé davantage à l'immobilier, contribuant MOINS À LA CROISSANCE ET DAVANTAGE À L'INSTABILITÉ FINANCIÈRE »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "BEZEMER ET AL. 2018 N'EST PAS AU DOSSIER, et c'est **la seule étude
      empirique du corpus sur l'effet du guidage du crédit.** Elle porte tout

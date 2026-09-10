@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**L10.C06, arbre de qualification posé le 2026-09-07.** **SIX BRANCHES** : « **(1) Impôt** — obligation légale, sans contrepartie, recouvrée par une autorité publique, produit affecté au budget : compétence fiscale requise. **(2) Contribution affectée** — même nature, produit affecté à un fonds dédié. **(3) Redevance** — contrepartie d'un service rendu, proportionnelle à lui. **(4) Frais de réseau** — obligation contractuelle envers l'opérateur d'une infrastructure, **que l'on peut refuser en n'utilisant pas le réseau**. **(5) Règle monétaire** — décote appliquée à l'encours par l'émetteur, **relevant de la compétence monétaire et non fiscale**. **(6) Obligation conventionnelle** — souscrite par traité entre parties consentantes. » **HUIT CRITÈRES** : origine de l'obligation ; qualité du collecteur ; assiette ; présence ou absence de contrepartie ; possibilité de refuser le réseau ; cours légal ; destination du produit ; pouvoir de sanction. **Et le chapitre déclarait que le corpus n'en tenait aucun**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**ARBITRAGE A35, du 2026-09-07.** La dette est portée par **« la société entière »** ; le reflux passe par des **fontes « graduellement plus fortes »** selon l'impact de la consommation ; **« le choix est donné aux agents »** ; et le motif est que **« la rentabilité n'est pas compatible avec la régénération »**. **L10.C06** en avait tiré que la dette est **« collective PAR SA CAUSE et individuelle PAR SON INCIDENCE »**, structure d'un impôt pigouvien, et que **la formule décrit le motif, non le porteur**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Ce que les cinq chapitres précédents de ce livre ont établi.** **L23.C02** : le mandat onusien préserve **« le droit souverain de chaque État Membre de décider de ses politiques et pratiques fiscales »** ; l'instrument le plus avancé **crée une coopération, non une compétence de lever**. **L23.C03** : la vérification y est **auto-administrée**, mais l'article 25 du projet **interdit toute réserve**. **L23.C04** : l'accès du grand public aux bénéficiaires effectifs est **invalidé** comme ingérence grave, et le motif est **inhérent à toute publicité**. **L23.C05** : les frais de perception de 25 % **intéressent le percepteur au recouvrement**, mais **ne portent que sur les ressources supposant un acte de contrôle** — « on intéresse celui qui doit contrôler, non celui qui doit calculer ». **L11.C21** : « **le motif ne se transporte pas** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**`protocoles/falsification.md`, F10 — LA SUPERFLUITÉ**, routé sur ce livre. **Les subventions dommageables dépassent 2 000 milliards de dollars par an ; l'écart à combler est d'environ 351 milliards ; en réorienter un sixième suffit** — sans institution nouvelle. **F4 ter** : un dispositif tombe sous le test **« si la propriété qui le rend efficace est celle que la règle applicable prohibe »**. **L10.C06** a relevé que la branche « règle monétaire » **n'exige aucune compétence fiscale**, mais **exige que l'unité soit celle de l'émetteur — ce qui ramène à la question du passif, non tranchée**, et que le **Livre 19** porte"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN PRÉCÉDENT DE PRÉLÈVEMENT SUPRANATIONAL LEVÉ DIRECTEMENT SUR DES
      AGENTS PRIVÉS N'EST TENU. Les ressources propres de l'Union sont perçues

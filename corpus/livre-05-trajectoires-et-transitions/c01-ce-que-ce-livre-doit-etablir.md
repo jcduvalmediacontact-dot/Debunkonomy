@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, entrée du matricule 5**, projection du plan directeur. **Fonction** : « Comparer les voies d'entrée de NEMO IMS, organiser sa transition sectorielle et institutionnelle et **tester ses alternatives dans différents scénarios** ». **Motifs** : « rouage — conditions d'instauration et d'adoption effective » ; « discipline — **économie politique du changement institutionnel** » ; et une objection qui vaut constat : « **aucune promesse du registre ne couvre l'adoption : le corpus établit qu'un dispositif est concevable, jamais comment on y vient** ». **Architecture déclarée** : six voies d'entrée — **multilatérale, coalition pilote, régionale, infrastructure volontaire, fenêtre de crise, concurrence des alternatives**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même entrée — **CONTRAINTE DE RÉDACTION OPPOSABLE À TOUT CE LIVRE, arbitrée par l'auteur le 2026-09-04, et reprise ici mot pour mot** : « la formulation du plan l'emporte. **On écrit “fenêtre de crise”, non “effondrement” ni “révolution”.** Ces voies s'analysent comme des scénarios, avec leurs conditions, leurs probabilités et **leurs coûts humains — jamais comme des espérances.** **Un corpus qui paraîtrait compter sur l'effondrement perdrait la recevabilité qu'il cherche**, et la perdrait auprès des lecteurs qu'il vise en premier. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, et le Livre 3 vient de fermer une voie et d'en ouvrir une autre.** **L3.C04** : la solution documentée du nouveau dilemme de Triffin est **multipolaire à monnaies de réserve NATIONALES** ; le dispositif ne concourt pas dans cette catégorie, **et la fenêtre qui s'ouvrirait ne serait pas la sienne.** **L3.C09** : **le dispositif ne remplace pas le système existant, il s'y ajoute** — l'unité ne réglant pas, elle ne peut pas être un actif de réserve, et la boucle d'auto-assurance se poursuivra hors de lui. **L3.C05** : **le rail et l'unité se séparent** — « une monnaie doit être acceptée pour valoir, **un rail doit seulement être joignable** ». **L1.C25** : l'issue d'une fenêtre de réforme « dépend de **la position des créanciers** au moment où elle s'ouvre plutôt que de la qualité des projets disponibles »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Deux chapitres du corpus qui butent sur l'adoption et le déclarent.** **L1.C27** établit le seuil d'activation : il « porte sur un poids économique, donc sur **la composition** de la coalition et non seulement sur le nombre de ses membres ». **L7.C12** « cherche un point de démarrage sans en trouver la première marche », et L20.C13 lui a fourni un mécanisme d'amorçage — art. XX § 2 (d) des statuts de 1944 : contribution plafonnée, financeur identifié, **droits éteints si le système n'entre pas en vigueur à une date écrite dans le traité**. S'y ajoute, versé le 2026-09-07 par dépouillement froid d'une pièce sans autorité, **un mécanisme que L1.C27 n'avait pas : l'émetteur en place peut TARIFER LA SORTIE**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE LITTÉRATURE SUR LE CHANGEMENT INSTITUTIONNEL N'EST OUVERTE, alors
      que le plan directeur en fait la discipline de ce livre. **Le corpus ne

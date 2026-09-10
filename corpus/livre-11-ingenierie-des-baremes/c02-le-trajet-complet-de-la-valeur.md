@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05 — « une grande coalition entre le GAÏA Economic Symposium et les banques centrales du monde entier », les activités définies par le GES occasionnant l'émission d'allocations « convertibles par la banque centrale en monnaie de banque centrale à finalités extra-financières » ; comptabilité des allocations « en miroir » entre le GES et les banques centrales ; reflux « en cascades vers les banques centrales puis des banques centrales vers le GES » ; et le point décisif : le GES peut « capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis » d'allocations. Versé au dossier en L11.C01 [S6]"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 9 — écritures de l'émission aux trois étages : « les [NGA] entrent à l'actif du bilan de la banque centrale nationale comme actif transitoire, la monnaie nationale émise au bénéfice du prestataire sort au passif ». CONVENTION DE CITATION : les crochets marquent la substitution du sigle abandonné"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. Couppey-Soubeyran, P. Delandre, A. Sersiron, Le pouvoir de la monnaie. Transformons la monnaie pour transformer la société, Les Liens qui Libèrent, janvier 2024 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, ouvrage procuré par l'autrice. Proposition voisine chiffrée, seule borne empirique dont le corpus dispose. DEUX PRÉLÈVEMENTS QUI SE DÉDOUBLENT : contribution monétaire sur les stocks et sur les flux, et compensations écologiques. Sur les STOCKS : « une contribution de l'ordre par exemple de 0,1 % sur les soldes de fin de mois des réserves bancaires déposées à la banque centrale (fin février 2023, ces réserves s'élevaient à environ 4 300 milliards d'euros, ce qui permettrait une ressource fiscale mensuelle de 4,3 milliards) », assimilable à « un taux d'intérêt négatif sur les réserves, tel que le pratiquait la BCE avant la crise sanitaire (à −0,5 %) ». Sur les FLUX : « un micro-impôt de 0,5 % prélevé sur chaque paiement », et une taxe de type Tobin de « 0,05 % à 0,2 % sur les flux financiers ». POINT DE CONCEPTION DÉCISIF pour ce chapitre : leur prélèvement sur les stocks frappe les RÉSERVES BANCAIRES déposées à la banque centrale, non les encaisses des détenteurs finaux"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: jurisprudence
     reference: "Cour de justice de l'Union européenne, arrêt de novembre 2022 — l'accès du grand public aux informations sur les bénéficiaires effectifs constitue une ingérence grave dans les droits garantis par les articles 7 et 8 de la Charte, non limitée au strict nécessaire ni proportionnée. Déjà versée au dossier en L1.C21 § 6, où elle établit que la consolidation permanente des soldes par détenteur effectif — que le demurrage du dispositif suppose — se heurte à un obstacle de droit et non d'administration"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Soldes TARGET2 de l'Eurosystème — créances et engagements entre banques centrales nationales et Banque centrale européenne nés des paiements transfrontaliers, sans échéance ni mécanisme de règlement prévu, et dont le statut a fait l'objet d'une controverse publique majeure au tournant des années 2010. ANALOGIE DU CORPUS, NON DES SOURCES : elle est proposée ici pour établir qu'une banque centrale peut porter durablement une créance perpétuelle sur une contrepartie institutionnelle, et que cette situation est politiquement explosive. RÉSERVE : aucune source n'a été ouverte sur ce point ; l'analogie est à vérifier avant tout emploi, et son ampleur chiffrée n'est pas reprise"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Ce chapitre est écrit APRÈS l'arbitrage du 2026-09-05 : il expose le régime

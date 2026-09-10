@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952, chapitre IV § 1 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. DÉFINITION QUI FONDE CE CHAPITRE : une fois les cibles fixées, les valeurs des instruments demeurent fonctions des DONNÉES, qui changent — « the values of the instrument variables are dependent on those of the data, i.e. they must vary with the data [...] As soon as certain fixed targets have been chosen the y-terms are constant numbers, but the u-terms are not. In this form we shall call these equations DIRECTIVES FOR ECONOMIC POLICY, since they indicate how the political parameters have to be varied in relation to the changing data. » S'y ajoutent, du même chapitre : l'interdépendance — « the values of the instrument variables are dependent, generally speaking, on ALL the targets set and cannot be considered in isolation » — et la réserve que supposer une correspondance un-à-un revient à « assume a very special structure ». Du chapitre VII : les deux mesures d'efficacité, dont « both order of magnitude and algebraic sign are different in a number of cases », et la méthode par intervalles de variation. Du chapitre X : « the aversion of the complex », par laquelle des responsables rejettent un raisonnement meilleur mais plus compliqué au profit des règles de pouce reçues"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), 1977 — incohérence temporelle : une politique annoncée cesse d'être optimale au moment de son exécution, l'autorité a intérêt à s'en écarter, les agents l'anticipent, et l'annonce perd son effet. RÉSERVE FORTE : NON OUVERT. Le tirage procuré le 2026-09-05 est un scan image sans couche texte. Le mécanisme est confirmé au second degré par E. Combe, La Documentation Française n° 280, 1997 : « les agents ne vont pas croire aux mesures annoncées [...] dans la mesure où elles sont révisables à tout moment ». Fonde F7, P48 et P34b, et commande le § 5 du présent chapitre"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » Versé en L11.C10 [S6]. LE PRÉSENT CHAPITRE ÉTABLIT QUE CET ARBITRAGE EST UNE DIRECTIVE au sens de [S1] — la donnée observée étant la disponibilité constatée du substitut — et qu'il rejoint donc, sans que l'auteur l'ait su, la forme que la théorie recommande"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 9 — le livre et le Cahier Technique décrivent un PILOTAGE DISCRÉTIONNAIRE ANNUEL des taux de reflux, et déclarent le seuil d'alerte à définir. Versé au dossier en L1.C21 § 6, où il fonde P48 et F7. C'est la forme que le présent chapitre propose de remplacer"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: normatif
     reference: "Mécanisme d'ajustement carbone aux frontières de l'Union européenne — valeur par défaut assignée sans connaître la chaîne, révisable par le producteur qui documente. Versé en L11.C05 [S7] et L11.C06 [S1]. RÉSERVE : le règlement n'a pas été ouvert de première main ; c'est la réserve la plus lourde du Livre 11, portée en priorité 1 d'acquisition"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE CONSTRUCTIF, et c'est son statut. Le Livre 11 a produit onze

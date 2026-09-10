@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Règlement (UE) 2023/956 du Parlement européen et du Conseil du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières — **ARTICLE 9 § 1** : « Un déclarant MACF autorisé peut demander [...] une RÉDUCTION du nombre de certificats MACF à restituer afin de tenir compte du PRIX DU CARBONE PAYÉ DANS LE PAYS D'ORIGINE pour les émissions intrinsèques déclarées. La réduction ne peut être demandée QUE SI LE PRIX DU CARBONE A ÉTÉ EFFECTIVEMENT PAYÉ dans le pays d'origine. Dans un tel cas, TOUT RABAIS OU TOUTE AUTRE FORME DE COMPENSATION disponible dans ce pays qui aurait entraîné une réduction de ce prix du carbone EST PRIS EN COMPTE. » **§ 2** : les informations « sont certifiées par une personne qui est INDÉPENDANTE DU DÉCLARANT [...] ET DES AUTORITÉS DU PAYS D'ORIGINE ». **§ 3** : conservation des pièces jusqu'à la fin de la quatrième année. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**, 206 016 caractères de couche texte"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **CONSIDÉRANT 12** : l'application simultanée des quotas gratuits et du mécanisme « ne devrait EN AUCUN CAS déboucher sur un TRAITEMENT PLUS FAVORABLE POUR LES MARCHANDISES DE L'UNION par rapport aux marchandises importées ». **CONSIDÉRANT 15** : le mécanisme doit garantir que les produits importés « sont soumis à un système réglementaire qui applique des COÛTS DU CARBONE ÉQUIVALENTS à ceux supportés dans le cadre du SEQE de l'UE [...] tout en garantissant la COMPATIBILITÉ AVEC LE DROIT DE L'ORGANISATION MONDIALE DU COMMERCE ». **CONSIDÉRANT 56** : exemption temporaire jusqu'en 2030 pour les pays tiers dont les marchés électriques sont couplés à celui de l'Union, **sous condition d'une feuille de route, d'un engagement de neutralité carbone en 2050 et d'un alignement législatif**, révocable à tout moment. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source — **CONSIDÉRANT 24** : « Le présent règlement NE VISE PAS À IMPOSER UN PLAFOND pour le nombre de certificats MACF dont disposent les importateurs ; si les importateurs étaient en mesure de REPORTER ET D'ÉCHANGER des certificats MACF, cette possibilité aurait pu entraîner des situations dans lesquelles le prix des certificats ne serait plus aligné sur l'évolution du prix du SEQE. [...] Il pourrait également s'ensuivre des DIFFÉRENCES DE PRIX POUR LES EXPLOITANTS EN FONCTION DE LEUR PAYS. » **CONSIDÉRANT 23** : le prix des certificats suit les enchères du système d'échange sur la base de **moyennes hebdomadaires**. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L11.C24, sur le barème aux frontières ; L11.C25, sur le contrôle ; L11.C21, sur la perception ; L7.C17, sur le club et son seuil ; L1.C27 § 4, sur l'équivalence stricte"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE MÉCANISME N'EST PAS ENCORE PLEINEMENT EN APPLICATION à la date de ce
      chapitre : sa phase définitive commence après une période transitoire

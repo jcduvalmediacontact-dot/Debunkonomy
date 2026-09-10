@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, et son Cahier Technique — SILENCE INTÉGRAL SUR LE CONTRÔLE. L'architecture à quatre chambres de L1.C18 sépare celui qui dit ce qui compte de celui qui dit combien on émet ; elle ne prévoit ni contrôleur, ni pouvoir de sanction, ni régime de vérification d'office. ARGUMENT DE PRATICABILITÉ versé en L11.C05 § 1 : « le mécanisme de perception existe sous la forme de la taxe sur la valeur ajoutée » — mécanisme dont L11.C21 § 4 a établi que le MOTIF ne se transporte pas"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : le MOTIF ADMINISTRATIF, entre une mesure qui « hits a large number of people and may therefore be costly » et une qui « affects few and therefore is less costly » — employé pour la quatrième fois par le corpus, et pour la première comme EXPLICATION plutôt que comme reproche ; et les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — OUVERTE, versée en L1.C22 [S5] : « simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » (p. 1). Employée sur les valeurs en L11.C16 § 5, déplacée sur la perception en L11.C21 § 5, elle porte ici sur le POUVOIR DE SANCTION, qui est son objet propre"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # DERNIER CHAPITRE ANNONCÉ DU LIVRE 11. Il réunit trois lacunes de contrôle

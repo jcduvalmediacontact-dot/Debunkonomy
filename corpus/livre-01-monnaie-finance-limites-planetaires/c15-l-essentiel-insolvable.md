@@ -15,69 +15,69 @@ sources_primaires:
     nature: theorie
     reference: "J.-C. Duval, « Qu'est-ce que l'essentiel insolvable, et comment le financer ? », Debunk'Onomy, juin 2026 — formulation des quatre conditions de la solvabilité"
     url: "https://debunkonomy.org/articles/auteur/essentiel-insolvable-comment-le-financer/"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitres 5 et 6"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "P. A. Samuelson, « The Pure Theory of Public Expenditure », Review of Economics and Statistics, 36(4), p. 387-389, 1954 (non-rivalité, non-excluabilité)"
     url: "https://doi.org/10.2307/1925895"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990"
     url: "https://doi.org/10.1017/cbo9780511807763"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "M. Carney, « Breaking the tragedy of the horizon – climate change and financial stability », discours à Lloyd's of London, 29 septembre 2015, Bank of England"
     url: "https://www.bankofengland.co.uk/-/media/boe/files/speech/2015/breaking-the-tragedy-of-the-horizon-climate-change-and-financial-stability.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "N. Georgescu-Roegen, The Entropy Law and the Economic Process, Harvard University Press, 1971"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "F. Soddy, Wealth, Virtual Wealth and Debt, George Allen & Unwin, 1926, chapitre IV"
     url: "https://archive.org/details/soddy-f.-wealth-virtual-wealth-and-debt-1925"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "H. E. Daly, Steady-State Economics, W. H. Freeman, 1977 (2e éd. Island Press, 1991)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: donnees
     reference: "FONAFIFO (Costa Rica), programme de paiements pour services environnementaux (PSA), loi forestière n° 7575 de 1996 : environ 460 000 ha sous contrat de protection et 70 000 ha reboisés entre 1997 et 2004 ; plus de 524 M$ versés, 18 000 familles et 1,3 million d'hectares cumulés à 2020"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "R. Costanza et al., « Changes in the global value of ecosystem services », Global Environmental Change, 26, p. 152-158, 2014 — les auteurs précisent que l'évaluation n'équivaut ni à une marchandisation ni à une privatisation"
     url: "https://doi.org/10.1016/j.gloenvcha.2014.04.002"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "N. Stern, The Economics of Climate Change, Cambridge University Press, 2007 ; W. D. Nordhaus, « A Review of the Stern Review », Journal of Economic Literature, 45(3), 2007 ; É. Quinet (dir.), L'évaluation socioéconomique des investissements publics, CGSP, 2013"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "M. Weber, « L'objectivité de la connaissance dans les sciences et la politique sociales », 1904, in Essais sur la théorie de la science, trad. J. Freund, Plon, 1965 (idéal-type)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "S. K. Pattanayak, S. Wunder, P. J. Ferraro, « Show Me the Money: Do Payments Supply Environmental Services in Developing Countries? », Review of Environmental Economics and Policy, 4(2), p. 254-274, 2010 ; R. Arriagada, P. Ferraro, E. Sills, S. Pattanayak, S. Cordero-Sancho, « Do Payments for Environmental Services Affect Forest Cover? A Farm-Level Evaluation from Costa Rica », Land Economics, 88(2), p. 382-399, 2012"
     url: "https://doi.org/10.1093/reep/req006"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "A. C. Pigou, The Economics of Welfare, Macmillan, 1920 (subventions correctrices des externalités positives) ; L. H. Goulder, « Environmental taxation and the double dividend », International Tax and Public Finance, 2, 1995"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S15
     nature: theorie
     reference: "L. R. Wray, Modern Money Theory: A Primer, Palgrave Macmillan, 2012 ; S. Kelton, The Deficit Myth, PublicAffairs, 2020"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : article lu — les quatre conditions y sont formulées ; formule sur les communs verbatim.

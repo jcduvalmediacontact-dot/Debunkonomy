@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les concepts `plafond_ecologique`, `plancher_social`, `sobriete`, `decouplage` et `effet_rebond` du vocabulaire ; le résultat de L8.C15, qui établit que la filiation de l'état stationnaire porte sur la FINALITÉ du dispositif et non sur son mécanisme ; et le LIVRE 17 du registre — « Après la croissance » —, déclaré CANDIDAT et comptant ZÉRO chapitre acquis, alors que L8.C15 § 6 établit qu'il porte la finalité même du dispositif"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun travail de cette famille

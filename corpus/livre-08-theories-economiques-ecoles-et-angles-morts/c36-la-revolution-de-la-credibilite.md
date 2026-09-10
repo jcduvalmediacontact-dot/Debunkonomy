@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici la classification du chapitre IX et l'aveu qui l'accompagne : « the scientific treatment of problems of qualitative policy meets with great difficulties, especially so if these policies belong to groups (d) and (e) », parce que « our empirical quantitative knowledge of human behaviour under different structural conditions is so restricted » ; et « empirical research into each of the points (b) — (e) is still ALMOST COMPLETELY LACKING ». LE DISPOSITIF RELÈVE DE LA CLASSE (d), les changements de structure du système monétaire"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion », Journal of Political Economy, 85(3), juin 1977, p. 473-492 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06. Retenu ici le préalable que les auteurs posent : « The structures considered are FAR FROM A TESTED THEORY OF ECONOMIC FLUCTUATIONS, something which is NEEDED BEFORE POLICY EVALUATION IS UNDERTAKEN. The implication of this analysis is that, until we have such a theory, active stabilization MAY VERY WELL BE DANGEROUS and it is best that it not be attempted. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À DEUX SOURCES OUVERTES, mais AUCUNE de la tradition qu'il annonce.

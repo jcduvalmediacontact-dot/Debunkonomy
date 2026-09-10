@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, et son Cahier Technique — SILENCE SUR LA PROCÉDURE D'AMENDEMENT. Le pilotage décrit est un ajustement annuel des taux « avec l'appui de statisticiens, d'économistes et de mathématiciens » (session de travail du 2026-09-04, versée en A7) ; rien ne distingue l'ajustement de la révision de la règle, et aucune procédure ne dit qui change quoi, à quel rythme, ni ce qu'il advient des situations constituées. SUR LES PARITÉS, le seul énoncé de révision porte que « les révisions seraient probablement soumises à des critères objectifs et transparents » — versé en L1.C28 § 6 sous P54 et instruit en L11.C15"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les DIRECTIVES « indicate how the political parameters have to be varied in relation to the changing data » — la variation en fonction des données est donc CONSTITUTIVE de la directive et n'est pas une révision ; les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened » ; et le troisième remède à l'incertitude, « waiting for some important decisive factor that is as yet unknown »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » LE PRÉSENT CHAPITRE ÉTABLIT QUE CET ARBITRAGE RÈGLE AUSSI LA RÉTROACTIVITÉ, ce que ni lui ni le corpus n'avaient relevé : un changement déclenché par un fait public et observable ne surprend personne, et la question de la rétroactivité ne se pose donc pas dans les mêmes termes"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # QUATRIÈME EXIGENCE DE L11.C12, JAMAIS ÉCRITE. Le chapitre sur la directive

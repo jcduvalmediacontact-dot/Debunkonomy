@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, *L'Économie de l'Équilibre — Cahier Technique*, douze épisodes, Debunk'Onomy, 2026. **OUVERTS ET EXTRAITS LE 2026-09-06** depuis le Drive de l'auteur, dossier « Livre 2 — Recommandations macro-prudentielles dans NEMO IMS » : 428 626 caractères de couche texte, douze fichiers, chacun doublé d'une version « lecture ». La série se déclare « réservée aux auditeurs spécialistes — économistes, universitaires, cadres de banques centrales, régulateurs, juristes en droit monétaire, décideurs de finance publique » et suppose acquis les concepts de la série principale"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, *L'économie de l'équilibre. Monnaie, finance et limites planétaires*, Debunk'Onomy, 2026, **chapitre 9, « Recommandations macroprudentielles NEMO IMS » (p. 185-212)**. **OUVERT LE 2026-09-06** depuis le PDF fourni par l'auteur (édition FR du 22 août 2026). Le chapitre annonce des dispositifs qui régulent « la quantité de monnaie dans l'économie, mais aussi SA QUALITÉ dans un contexte de flux monétaires dynamiques et permanents », et pose que « la notion de qualité de la monnaie est une première »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "C. Borio, « Towards a macroprudential framework for financial supervision and regulation? », **BIS Working Papers n° 128, février 2003**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (bis.org/publ/work128.pdf, 188 588 octets, couche texte intégrale). **CINQ ANS AVANT LA CRISE DE 2007-2008**, l'essai définit, compare et oppose les dimensions macro- et microprudentielle, et déclare le renforcement de l'orientation macroprudentielle « a process that is already under way »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, décision du 2026-09-06 : « J'aimerais que tu t'attaques au livre sur les concepts macro prudentiels actuels et les confronter à la macro prudence NEMO IMS. Réfère toi aux ouvrages de Michel Aglietta, Dominique Plihon, et quelques autres. » **L'INSTRUCTION FIXE LA MÉTHODE AUTANT QUE L'OBJET** : la confrontation se fait contre une doctrine nommée, non contre une orthodoxie reconstituée"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 2, ouvert le 2026-09-06 sur instruction de

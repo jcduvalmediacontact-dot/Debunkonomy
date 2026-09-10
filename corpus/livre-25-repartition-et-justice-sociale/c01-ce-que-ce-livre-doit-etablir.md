@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Pacte international relatif aux droits économiques, sociaux et culturels, adopté par l'Assemblée générale des Nations unies le 16 décembre 1966, entré en vigueur le 3 janvier 1976 conformément à son article 27 — OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-09-07 sur `ohchr.org`. ARTICLE 2 § 1, ET C'EST LA CHARNIÈRE DE CE LIVRE** : chaque État partie « undertakes to take steps, **INDIVIDUALLY AND THROUGH INTERNATIONAL ASSISTANCE AND CO-OPERATION, especially economic and technical, TO THE MAXIMUM OF ITS AVAILABLE RESOURCES**, with a view to **ACHIEVING PROGRESSIVELY** the full realization of the rights recognized in the present Covenant **by all appropriate means, including particularly the adoption of legislative measures** ». **ARTICLE 2 § 2** : ces droits s'exercent « **without discrimination of any kind** as to race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status ». **ARTICLE 1 § 2** : tous les peuples « may, for their own ends, freely dispose of their natural wealth and resources », et **« In NO CASE may a people be deprived of ITS OWN MEANS OF SUBSISTENCE »**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même Pacte — LE CONTENU DU PLANCHER, ET IL EST ÉNUMÉRÉ. ARTICLE 11 § 1** : « the right of everyone to **AN ADEQUATE STANDARD OF LIVING** for himself and his family, **including adequate FOOD, CLOTHING AND HOUSING**, and to **THE CONTINUOUS IMPROVEMENT OF LIVING CONDITIONS** », les États reconnaissant « **the essential importance of INTERNATIONAL CO-OPERATION based on free consent** ». **ARTICLE 11 § 2** : « the fundamental right of everyone to **BE FREE FROM HUNGER** », et les mesures nécessaires incluent — **a)** développer ou réformer les systèmes agraires « in such a way as to achieve the most efficient development and utilization of **NATURAL RESOURCES** » ; **b)** « Taking into account the problems of both food-importing and food-exporting countries, **TO ENSURE AN EQUITABLE DISTRIBUTION OF WORLD FOOD SUPPLIES IN RELATION TO NEED** ». **ARTICLE 12** : « the highest attainable standard of physical and mental health », dont les mesures incluent « **the improvement of all aspects of ENVIRONMENTAL and industrial hygiene** ». **ARTICLE 9** : droit à la sécurité sociale. **ARTICLE 13** : droit à l'éducation. **ARTICLE 6** : droit au travail"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Même Pacte — ARTICLE 4, LA CLAUSE DE LIMITATION, ET ELLE EST OPPOSABLE À UN INSTRUMENT.** « the State may subject such rights **ONLY to such limitations as are DETERMINED BY LAW** only in so far as this may be **COMPATIBLE WITH THE NATURE OF THESE RIGHTS** and **SOLELY FOR THE PURPOSE OF PROMOTING THE GENERAL WELFARE IN A DEMOCRATIC SOCIETY** ». **ARTICLE 5 § 1** : rien dans le Pacte ne peut être interprété comme impliquant un droit de se livrer à une activité visant à la destruction des droits qu'il reconnaît"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même, et ce livre reçoit son objet de deux chapitres écrits le jour même. L24.C02** verse le **couloir** : « a foundation that enables **minimum access to water, food, energy and infrastructure for all humans** alongside a safe and just ESB **ceiling** [...] could constitute a safe and just **corridor** over time » ; **les trois critères de justice** — interespèces, intergénérationnelle, intragénérationnelle ; **la définition du dommage significatif** ; **et la disproportion chiffrée** — 85 % de la population mondiale exposée aux particules fines au-delà de la limite, **4,2 millions de morts par an, les groupes vulnérables étant affectés davantage tout en polluant moins**. **L24.C03** verse l'inégalité matérielle : **six fois plus de matière et dix fois plus d'impacts climatiques par habitant** dans les pays à haut revenu, avec déplacement documenté par le commerce. **L24.C02** verse enfin l'objet manquant : **une part de ce qu'il faut financer RÉPARE et ne régénère pas**, et le corpus n'a aucun barème pour cela"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÈGLE « LIRE LE CORPUS AVANT D'OUVRIR LA NORME » : ce chapitre s'applique à

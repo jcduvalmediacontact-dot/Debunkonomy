@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, Cahier technique — six familles d'indicateurs destinées à moduler les instruments macroprudentiels : biosphérique, économique réelle, financière, sociale, monétaire, internationale. Seule règle d'articulation énoncée : « une dégradation des indicateurs biosphériques et sociaux appelle une intensification des instruments régénératifs ». Le seuil d'alerte est déclaré à définir. Versé au dossier en L1.C28 § 4, où il fonde la promesse P53"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. DEUX DÉFINITIONS QUI COMMANDENT CE CHAPITRE, chapitre II § 1. Les DONNÉES sont « the variables in some sense EXTERNAL to the economic complex considered [...] either variables relating to the outer world [...] or extra-economic variables, e.g. natural, technical, legislative (as far as not under the command of the authority considered) », et « their changes will be considered as given throughout ». Les VARIABLES-OBJECTIFS sont celles « considered relevant to the general well-being », et « they may also be strategic variables to a state of equilibrium ». Du chapitre IV : les directives « indicate how the political parameters have to be varied in relation to the changing DATA ». Du chapitre V : les conditions-limites comptent comme objectifs"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. E. Stiglitz, A. Sen, J.-P. Fitoussi, Rapport de la Commission sur la mesure des performances économiques et du progrès social, 2009 — pose l'alternative : un INDICE COMPOSITE tranche mais suppose des pondérations normatives ; un TABLEAU DE BORD ne dissimule aucun jugement mais ne dit rien lorsque ses composantes divergent. Versé au dossier en L1.C28, où il fonde P53. RÉSERVE : non ouvert de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Loi de Goodhart — lorsqu'une mesure devient une cible, elle cesse d'être une bonne mesure. Fonde P25 et instruite en L11.C13 § 5 sur le barème de qualification. RÉSERVE : formulation reprise du registre des promesses, source primaire NON OUVERTE"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "A. L. Bovenberg, R. A. de Mooij, American Economic Review 84(4), 1994 ; D. Fullerton, G. E. Metcalf, Chicago-Kent Law Review 73(1), 1997 — érosion de l'assiette par le succès de l'instrument. Déjà au dossier en L1.C21 [S10], où elles fondent F1. RÉSERVE : non ouvertes. Retenues ici parce qu'elles produisent le CONFLIT INTERNE du § 4 : le succès sur la famille biosphérique contracte l'assiette dégénérative, donc dégrade la famille monétaire"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CE CHAPITRE N'EXISTAIT PAS DANS LE PLAN sous cette forme. Il devait traiter

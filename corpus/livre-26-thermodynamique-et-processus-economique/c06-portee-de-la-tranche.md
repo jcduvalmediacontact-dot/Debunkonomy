@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les cinq chapitres de la tranche et les six sources qu'ils ont ouvertes de première main, toutes lues dans le texte le 2026-09-08. L26.C01** — R. U. Ayres, INSEAD WP 98/38, 1998, `citation_seule` : **« the “fourth law” has no status in physics »** ; **une proposition retenue par le corpus tombe** ; **F11 restreint**. **L26.C02** — USGS, *Mineral Commodity Summaries 2026*, **`libre`** : une réserve est **« a working inventory of mining companies' supplies »** ; **la commande de L24.C05 est soldée par la négative**. **L26.C03** — D. J. Murphy et al., *Sustainability* 2022, **`libre`**, et C. de Castro & I. Capellán-Pérez, *Energies* 2020, **`libre`** : **un facteur quatre sur les mêmes technologies, et le désaccord est une convention de périmètre** ; **F11 déclaré indécidable, A39 posé, règle de méthode versée**. **L26.C04** — P. E. Brockway, S. Sorrell et al., *RSER* 2021, **`libre`** : trente-trois études, **« economy-wide rebound effects erode MORE THAN HALF of the energy savings »** ; **le dispositif hérite de l'effet de revenu sous une forme aggravée**. **L26.C05** — Energy Institute, *Statistical Review of World Energy 2026*, `citation_seule` : **« ALL SOURCES OF ENERGY SUPPLY, GLOBALLY, SAW INCREASES IN 2025 »** ; **F14 proposé**. **QUATRE DES SIX SOURCES SONT SOUS LICENCE LIBRE**, ce qui distingue cette tranche de la tranche biophysique du Livre 24, dont les deux sources principales étaient en `citation_seule`"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**AUCUN AUTEUR DE LA TRADITION DONT LE DISPOSITIF SE RÉCLAME N'EST OUVERT,
      ET LA TRANCHE N'A PAS CORRIGÉ CE MANQUE — ELLE L'A DÉPLACÉ.** Ni

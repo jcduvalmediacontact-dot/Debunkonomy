@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "P. Bolton, M. Després, L. A. Pereira Da Silva, F. Samama, R. Svartzman, « “Green Swans”: central banks in the age of climate-related risks », **Bulletin de la Banque de France n° 229/8, mai-juin 2020**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (publications.banque-france.fr, 806 851 octets, 48 179 caractères de couche texte). **RÉSERVE D'ÉDITION MAJEURE** : c'est l'ARTICLE DE BULLETIN des mêmes cinq auteurs, NON l'ouvrage *The green swan* publié par la BRI en janvier 2020 que le Cahier cite. **L'ouvrage n'a pas pu être obtenu : l'adresse de la BRI renvoie une erreur 404.** Le corpus tient donc une version courte, signée des mêmes auteurs, et le déclare"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, résumé — les risques extrêmes physiques et de transition, « known as “Green Swans” », sont d'une reconnaissance « particularly difficult in the field of financial stability supervision due to the RADICAL UNCERTAINTY, NON-LINEARITY AND CASCADE EFFECTS associated with such risks ». Et l'aveu central : les banques centrales peuvent aider à prévenir ces risques, « BUT THESE INITIATIVES WILL NOT BE SUFFICIENT ON THEIR OWN. Climate change [...] requires UNPRECEDENTED COLLECTIVE ACTION AND COORDINATION EFFORTS AMONG VARIOUS ACTORS. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source — « an EPISTEMOLOGICAL BREAK in systemic risk management [...] the concept of risk itself MUST BE REINTERPRETED if we are to grasp the systemic dimension of climate-related risks », et le constat de son état : cette rupture « SEEMS TO BE UNDERWAY IN THE FINANCIAL COMMUNITY [...] new methodologies are being developed [...] based on SCENARIO ANALYSES, which use plausible hypotheses for the future WITHOUT ASSIGNING PROBABILITIES of materialisation ». L'article invoque le PRINCIPE DE PRÉCAUTION et cite nommément **Aglietta et Espagne 2016**, Chenet et al. 2019, Svartzman et al. 2019, et Keynes 1936 sur la décision en incertitude radicale"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "*Cahier Technique*, **épisode 4**, section 2 — « Le rapport *Green Swan* de 2020 identifie trois raisons pour lesquelles les risques climatiques [...] ne peuvent pas être traités adéquatement par les méthodologies orthodoxes » : (1) INCERTITUDE RADICALE au sens de Knight plutôt que risque probabilisable — « Cette différence n'est pas de degré. Elle est de nature » ; (2) NON-STATIONNARITÉ FONDAMENTALE — « les modèles de risque calibrés sur les données passées » sont caducs ; (3) CORRÉLATIONS QUI EXPLOSENT — « une sécheresse majeure affecte simultanément l'agriculture, l'énergie hydroélectrique, la logistique fluviale, la santé publique, le tourisme régional. LA DIVERSIFICATION CESSE DE PROTÉGER. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "L'OUVRAGE *THE GREEN SWAN* DE LA BRI N'A PAS PU ÊTRE OBTENU — l'adresse
      publiée renvoie une erreur 404, testée quatre fois, y compris depuis un

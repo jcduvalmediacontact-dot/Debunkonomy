@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-06 : LE SURPLUS DU REFLUX COLLECTIF FINANCE LE GAÏA ECONOMIC SYMPOSIUM. Rendu en réponse au constat de L7.C10 § 5, qui relevait que le livre ne décrit nulle part le financement de l'institution — ni la source, ni la procédure, ni l'autorité qui l'arrête. L'arbitrage active la TROISIÈME FORME que L11.C01 § 5 avait nommée et mise de côté : « le reflux s'annule pour la part qui correspond à des allocations effectivement émises, et alimente un fonds pour la part qui excède »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 retenant la LECTURE B, versé en L11.C01 § 4 : « la question de savoir si le GES peut capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis de NGA est... ». Le Symposium devient une institution budgétaire : il émet d'abord, il perçoit ensuite. LE CORPUS AVAIT ÉTABLI CE QUE CETTE LECTURE COÛTE : l'abandon de la monnaie sans dette au sens fort, l'érosion de l'assiette devenue dirimante au lieu d'être comptable, et le Symposium devenu administration fiscale mondiale"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1 (évitement massif au-delà d'un taux compris entre −0,5 % et −1 %). Et L1.C18 § 6, qui exige « une dotation pluriannuelle sanctuarisée, soustraite au vote budgétaire annuel ». Et L7.C10 § 5 : la capture documentée des institutions statistiques passe par le budget et la mise en cause personnelle"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE D'ARBITRAGE. Il enregistre une décision de l'auteur rendue le

@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://www.elgaronline.com/"
     reference: "**Eric Neumayer (London School of Economics), *Weak versus Strong Sustainability — Exploring the Limits of Two Opposing Paradigms*, Edward Elgar Publishing, ISBN 978-1-03532-789-8, CHAPITRE 3 « Resources, the environment, and economic growth: is natural capital substitutable? », pages 50 à 105.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE**, cinquante-sept pages extraites : section 3.1 (histoire de la préoccupation), section 3.2.5 (preuves empiriques du côté source), fin de la section 3.3.2.3 (preuves empiriques sur croissance et environnement) et section 3.4 (conclusion) LUES INTÉGRALEMENT ; sections 3.2.1 à 3.2.4 et 3.3.1 non lues. **ÉDITION ÉTABLIE PAR LE TEXTE LUI-MÊME : c'est la CINQUIÈME révision, rédigée en 2024** — l'auteur écrit « the time of writing this fifth revision in 2024 » et cite USGS 2024, UNEP 2024, Energy Institute 2024, Bez et al. 2024. **C'ÉTAIT L'ACQUISITION DE RANG 1 INSCRITE PAR L18.C18**, qui tenait l'argument de non-falsifiabilité sans sa démonstration. **DROITS : Open Access sous Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.** **RÉGIME RETENU : `citation_seule`** — la clause *NoDerivatives* est incompatible avec le partage à l'identique du corpus."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**QUATRE SECTIONS DE CE CHAPITRE NE SONT PAS LUES, ET CE SONT CELLES QUI
      EXAMINENT LES QUATRE PROPOSITIONS UNE À UNE.** Substitution d'une ressource

@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026 — le GAÏA Economic Symposium et l'Assemblée des Communs, versés au dossier en L1.C18. Le livre décrit une institution mondiale qui certifie les activités et arrête la valorisation des communs, sans préciser la procédure par laquelle ses barèmes sont établis, révisés ou contestés. L1.C18 § 6 et L1.C20 § 6 ont relevé cette absence sous les promesses P19b et P25"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963 — OUVERT INTÉGRALEMENT le 2026-09-05, dépouillé en L11.C04. Ce que le présent chapitre en retient : sous parité fixe et mobilité des capitaux, un écart de rendement à l'intérieur du périmètre est arbitré. UN TAUX DE REFLUX MODULÉ NATIONALEMENT RECRÉE CET ÉCART ; un taux arrêté globalement ne le crée pas"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » CONSÉQUENCE DE GOUVERNANCE, relevée le jour même et instruite ici : la décision cesse d'être une échéance inscrite une fois pour toutes et devient un CONSTAT RÉPÉTÉ. Qui déclare un substitut disponible déclenche la hausse. Versé en L11.C10 [S6]"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "G. J. Stigler, « The Theory of Economic Regulation », Bell Journal of Economics, 2(1), 1971 ; A. O. Krueger, American Economic Review, 64(3), 1974 ; J. M. Buchanan, G. Tullock, The Calculus of Consent, 1962 — capture du régulateur et recherche de rente. Déjà au dossier sous P37. RÉSERVE : non ouverts de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Allocation générale de droits de tirage spéciaux du 23 août 2021 — 456,5 milliards de DTS, soit environ 650 milliards de dollars, répartis au prorata des quotes-parts ; les pays à faible revenu en ont reçu environ 3,3 % du total. Déjà versée au dossier sous P31, où elle établit qu'une clé de répartition plausible produit l'inverse du but poursuivi. RETENUE ICI COMME PRÉCÉDENT DE LÉGITIMATION : c'est le seul organe mondial existant qui arrête une clé chiffrée, et sa clé est celle qui a produit ce résultat. RÉSERVE : chiffres repris du dossier, source primaire non ouverte"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952, chapitre X, « The Reality of Economic Policy », p. 74-78 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. DÉSAVEU DE L'AUTEUR SUR SON PROPRE CADRE : « The reader should not be deceived by the preceding chapters and believe that the formulae tell all about economic policy. » CE QUE LE PRÉSENT CHAPITRE EN RETIENT. Sur l'organisation : « A few words may be added about the organisation of economic policy as distinct from its contents. This chiefly influences its SPEED OF REACTION » ; l'efficacité « may be hampered by too large meetings or delegations [...] and by such rules as the rule of unanimity as a base for decision ». Sur les facteurs qui co-déterminent À BON DROIT : les principes inscrits dans la constitution ou les lois, dont « equality of all citizens in questions of jurisdiction generally », et « the necessity to respect contracts or agreements, national as well as international ». Sur les facteurs qui influencent À TORT : erreurs, « personal hobbies or aversions », « animosities between various offices, directorates, ministries or countries », « personal or institutional INERTIA and the tendency to maintain the existent », et « the AVERSION OF THE COMPLEX : many officials [...] dislike to accept somewhat more complicated reasonings or the results of calculations even if from the scientific point of view they are decidedly better than the rules of thumb often accepted before »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SANS SOURCE NOUVELLE, et délibérément. Quatre chapitres du

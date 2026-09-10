@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `robustesse` du vocabulaire, que le dispositif emprunte à la théorie des réseaux de flux ; le falsifieur F1 et sa qualification en classe (d) de Tinbergen ; le résultat de L8.C22 § 3 : le dispositif n'est évaluable ni en équilibre partiel ni en équilibre général, et le corpus ne dispose d'aucune méthode intermédiaire. Et le LIVRE 13 du registre — méthodes, données, scénarios et simulateur —, déclaré CANDIDAT et comptant ZÉRO chapitre acquis, alors que L11.C17 en fait le livre que le chantier des barèmes bloque"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun travail de cette littérature

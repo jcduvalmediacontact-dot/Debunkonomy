@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Comité de Bâle, cadre consolidé de Bâle, norme LEV (ratio de levier) — OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-09-07 sur `bis.org/basel_framework`, version en vigueur au 1er janvier 2023, dernière mise à jour du 27 mars 2020.** **LEV20.1** : le ratio de levier vise à « **restrict the build-up of leverage in the banking sector** » et à « **reinforce the risk-based capital requirements with a simple, NON-RISK-BASED “BACKSTOP” MEASURE** ». **LEV20.4** : la mesure de capital est « **Tier 1 capital — comprising Common Equity Tier 1 and/or Additional Tier 1 instruments** ». **LEV20.7** : « **Banks must meet a 3% leverage ratio minimum requirement AT ALL TIMES.** » **LEV30.8** : « **Banks must include ALL BALANCE SHEET ASSETS in their leverage ratio exposure measure** », sous les seules exceptions des dérivés et des opérations de financement sur titres. **LEV40.2** : pour une banque d'importance systémique mondiale, un coussin de levier « **set at 50% of a G-SIB's higher loss-absorbency risk-based requirements** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même source — LEV30.7, LA SEULE DÉROGATION, ET ELLE SE NEUTRALISE ELLE-MÊME.** « **At national discretion, and TO FACILITATE THE IMPLEMENTATION OF MONETARY POLICIES, a jurisdiction may TEMPORARILY exempt central bank reserves from the leverage ratio exposure measure IN EXCEPTIONAL MACROECONOMIC CIRCUMSTANCES.** To maintain the same level of resilience provided by the leverage ratio, **a jurisdiction applying this discretion MUST ALSO INCREASE THE CALIBRATION OF THE MINIMUM LEVERAGE RATIO REQUIREMENT COMMENSURATELY to offset the impact of exempting central bank reserves.** In addition, [...] banks will be required to **disclose the impact of any temporary exemption alongside ongoing public disclosure of the leverage ratio without application of such exemption.** » **TROIS CONDITIONS CUMULATIVES ET UNE CLAUSE DE COMPENSATION**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Comité de Bâle, « Basel III leverage ratio framework and disclosure requirements », janvier 2014, bcbs270 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07 depuis `bis.org/publ/bcbs270.pdf`. FAIT ÉTABLI PAR RECHERCHE PLEIN TEXTE SUR LE DOCUMENT ENTIER : l'expression « central bank » N'Y FIGURE PAS UNE SEULE FOIS** — la seule occurrence du mot « central » est « central counterparty ». **Le § 15 y écrit déjà : « Banks must include ALL BALANCE SHEET ASSETS in their exposure measure », et le § 12 : « NETTING OF LOANS AND DEPOSITS IS NOT ALLOWED ». Le § 7 fixe le minimum à 3 %.** **Conclusion du corpus : la version d'origine du cadre ne comportait AUCUNE exception pour les réserves de banque centrale ; la dérogation de LEV30.7 est postérieure**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "**Même cadre consolidé, norme CRE (risque de crédit), CRE20.7 et CRE20.8 — OUVERT PAR LECTURE DIRECTE le 2026-09-07.** CRE20.7 : les expositions « **to sovereigns AND THEIR CENTRAL BANKS** » reçoivent une pondération de **0 %** pour une notation AAA à AA–. CRE20.8 : « **At national discretion, a lower risk weight may be applied to banks' exposures to their sovereign (OR CENTRAL BANK) of incorporation denominated in domestic currency and funded in that currency.** » **C'EST LE POINT QUI REND LE CHAPITRE PRÉCIS : les réserves ne consomment AUCUN capital pondéré par le risque, et consomment DE LA CAPACITÉ DE LEVIER**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "**Le corpus lui-même. L21.C03 § 3 et § 4** : le circuit compte quatre bilans, et **la banque du prestataire reçoit cent de réserves à l'actif contre cent de dépôt au passif, à fonds propres inchangés** — fait de partie double. **Le même chapitre déclarait l'acquisition qui trancherait, et refusait d'opposer le paragraphe au dispositif tant qu'elle n'était pas faite.** **L11.C09** : l'incidence d'un prélèvement ne se lit pas sur celui qui le verse. **L11.C07** : le nœud du demurrage. **L11.C11 et L11.C23** : le barème de fonte, arrêté par une autorité et voulu contracyclique"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**L'ENCOURS, ET C'EST LE SEUL FACTEUR MANQUANT DE LA FORMULE.** Le § 5
      établit que le capital immobilisé vaut 3 % de l'encours moyen de réserves

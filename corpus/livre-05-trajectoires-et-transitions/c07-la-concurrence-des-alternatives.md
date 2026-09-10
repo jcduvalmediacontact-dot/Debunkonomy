@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**L3.C05**, chapitre conditionnel de bout en bout, écrit sur une pièce sans autorité **dont l'auteur a demandé qu'on tire froidement ce qu'il y a de concret.** Deux objets y sont décrits comme **pistes à vérifier et jamais comme faits** : un instrument de règlement de gros « ancré par un panier composé à **40 % d'or physique et à 60 % de monnaies des membres** », non destiné à l'usage domestique ; et une plateforme de règlement transfrontalier employant des monnaies numériques de banque centrale **de gros**. **CONCLUSION DU CHAPITRE, sous condition** : le premier, s'il est tel qu'il est décrit, **règle** et **sa valeur dérive de ses composantes** — donc « ce n'est pas un référentiel de change mais **une devise clé collective** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même.** **L1.C24**, `devise_cle` : « **la capacité de règlement est le critère qui sépare un référentiel de comparaison d'une devise clé** ». **L1.C26**, `referentiel_de_change` : unité « **sans être elle-même détenue, échangée ni acceptée en règlement** », qui se distingue « d'un panier de devises, **dont la valeur dérive de ses composantes** ». **L3.C04** : le statut de réserve est **un prix décerné à la taille et à la croissance** ; en l'absence de découplage mondial absolu, **la croissance porte de l'extraction — lien INCITATIF et non quantitatif.** **L3.C09** : **le dispositif s'ajoute au système existant.**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**BRI et OICV, *Principles for financial market infrastructures*, 2012**, ouvert le 2026-09-07. **PRINCIPE 9** : une infrastructure règle « **in central bank money where practical and available** », et à défaut sur « **a settlement asset with little or no credit or liquidity risk** ». **PRINCIPE 18** : critères de participation « **objective, risk-based, and publicly disclosed** », permettant « **fair and open access** ». **PRINCIPE 19** : **participation en paliers**, dont l'infrastructure doit gérer les risques"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE DES ALTERNATIVES N'EST DOCUMENTÉE PAR UNE SOURCE AYANT AUTORITÉ.
      Le corpus ne sait ni si elles existent telles qu'elles sont décrites, ni

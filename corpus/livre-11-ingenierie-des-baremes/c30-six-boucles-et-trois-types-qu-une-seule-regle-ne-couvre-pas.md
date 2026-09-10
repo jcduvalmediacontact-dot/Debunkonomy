@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Le corpus lui-même — CINQ occurrences ACQUISES (L19.C05 ; L11, reflux transactionnel ; L26.C08 ; L26.C11 et L26.C12 ; L18.C12 et L18.C15) ET UNE RÉSERVÉE (L13.C01).** **La sixième est lue dans un DOCUMENT DE TRAVAIL de 2016 dont la version publiée de 2018 n'est pas ouverte : elle n'est pas acquise, et le décompte de six n'est pas démontré.** **CE CHAPITRE N'OUVRE AUCUNE SOURCE EXTERNE ET NE PRÉTEND PAS LE FAIRE.** **C'est un chapitre de CONCEPTION**, écrit en exécution de la pièce manquante déclarée en passe 2 : *« une PIÈCE DE CONCEPTION MANQUANTE, à écrire une fois pour les quatre cas : la règle de recalibrage du dispositif. Elle relève du Livre 11 pour les barèmes et du Livre 13 pour son épreuve, et elle n'existe dans aucun des deux. »* **Les six occurrences sont chacune adossées à une source ouverte par le chapitre qui l'a relevée ; ce chapitre ne les rouvre pas et renvoie à elles.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**CE CHAPITRE N'ÉCRIT PAS LA RÈGLE DE RECALIBRAGE, ET C'EST DÉLIBÉRÉ.** Il
      établit qu'il en faut **trois** et non une, et il énumère ce que chacune doit

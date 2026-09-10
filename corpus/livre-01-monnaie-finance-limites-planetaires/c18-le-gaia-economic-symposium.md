@@ -14,97 +14,97 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 7 « Le GAÏA Economic Symposium » (p. 131-156)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Nouvelle-Zélande, Te Awa Tupua (Whanganui River Claims Settlement) Act 2017, Public Act 2017 No 7 — art. 12(1) (« indivisible and living whole »), 13 (Tupua te Kawa, les quatre valeurs intrinsèques), 14(1) (« Te Awa Tupua is a legal person and has all the rights, powers, duties, and liabilities of a legal person »), 18(2) (Te Pou Tupua, « human face »), 19(2)(b) (agit dans l'intérêt de Te Awa Tupua et « must not act in the interests of any person who nominated or appointed a member »), 20(1) (deux personnes désignées conjointement par la Couronne et les iwi)"
     url: "https://www.legislation.govt.nz/act/public/2017/0007/latest/whole.html"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: jurisprudence
     reference: "Corte Constitucional de Colombia, Sala Sexta de Revisión, Sentencia T-622/16, dossier T-5.016.242, 10 novembre 2016 (rapp. J. I. Palacio Palacio) — dispositif CUARTO (le fleuve Atrato, son bassin et ses affluents déclarés sujet de droits à la protection, conservation, maintien et restauration) et QUINTO (tutelle et représentation légale exercées conjointement par le gouvernement et les communautés ethniques, par un membre des communautés et un délégué du gouvernement agissant comme gardiens) ; transposé par le décret présidentiel n° 1148 du 5 juillet 2017"
     url: "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Équateur, Constitution de 2008, art. 71-72 : « La Nature ou Pacha Mama [...] a le droit à ce que l'on respecte intégralement son existence et le maintien et la régénération de ses cycles vitaux, sa structure, ses fonctions et ses processus évolutifs. Toute personne, communauté, peuple ou nationalité pourra exiger des autorités publiques de faire respecter les droits de la nature »"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "C. D. Stone, « Should Trees Have Standing? Toward Legal Rights for Natural Objects », Southern California Law Review, 45(2), p. 450-501, 1972 — mécanisme du gardien (p. 464) et affectation des dommages-intérêts à la réparation de l'objet naturel lui-même"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "M. Jensen, W. Meckling, « Theory of the Firm: Managerial Behavior, Agency Costs and Ownership Structure », Journal of Financial Economics, 3(4), p. 305-360, 1976 ; J. Pratt, R. Zeckhauser (dir.), Principals and Agents: The Structure of Business, Harvard Business School Press, 1985 (relation mandant-mandataire, asymétrie d'information, coûts de surveillance)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "P. Tucker, Unelected Power: The Quest for Legitimacy in Central Banking and the Regulatory State, Princeton University Press, 2018 — critères de délégation, chap. 4 (p. 77-108), dont DC5 : « The IA will not have to make big choices on distributional trade-offs or society's values or that materially shift the distribution of political power » ; chap. 20 (p. 385-414), dont p. 396 : « Major distributive choices should be cooked into the delegation and not result from discretionary choices »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: normatif
     reference: "Traité sur le fonctionnement de l'Union européenne, version consolidée, JOUE C 202 du 7 juin 2016 — art. 123 § 1 (interdiction des découverts, autres crédits et acquisitions directes d'instruments de dette au bénéfice des institutions de l'Union, administrations centrales, autorités publiques et organismes ou entreprises publics des États membres) et art. 130 (ni la BCE ni une banque centrale nationale « ne peuvent solliciter ni accepter d'instructions des institutions, organes ou organismes de l'Union, des gouvernements des États membres ou de tout autre organisme ») ; art. 48 TUE pour la procédure de révision"
     url: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: normatif
     reference: "Traité sur l'Union européenne, art. 16 § 4 : majorité qualifiée au Conseil définie depuis le 1er novembre 2014 comme au moins 55 % des membres, comprenant au moins quinze d'entre eux, représentant des États réunissant au moins 65 % de la population de l'Union ; minorité de blocage d'au moins quatre membres"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "F. A. Hayek, « The Use of Knowledge in Society », American Economic Review, 35(4), p. 519-530, 1945 (impossibilité pour une instance centrale d'agréger la connaissance dispersée des circonstances de temps et de lieu)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "F. Kydland, E. Prescott, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), 1977 ; R. Barro, D. Gordon, « Rules, Discretion and Reputation in a Model of Monetary Policy », Journal of Monetary Economics, 12(1), 1983 (incohérence temporelle, biais inflationniste, ancrage des anticipations)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "J. Buchanan, G. Tullock, The Calculus of Consent, University of Michigan Press, 1962 (souveraineté parlementaire sur les finances publiques) ; G. Tsebelis, Veto Players: How Political Institutions Work, Princeton University Press, 2002 (multiplication des joueurs de veto et maintien du statu quo)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "G. J. Stigler, « The Theory of Economic Regulation », The Bell Journal of Economics and Management Science, 2(1), p. 3-21, 1971 : « As a rule, regulation is acquired by the industry and is designed and operated primarily for its benefit »"
     url: "https://doi.org/10.2307/3003160"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "S. Wunder, « When payments for environmental services will work for conservation », Conservation Letters, 6(4), p. 230-237, 2013 : les coûts de transaction et les exigences de référence favorisent les acteurs organisés, sécurisés fonciérement et techniquement compétents au détriment des groupes marginalisés"
     url: "https://doi.org/10.1111/conl.12034"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S15
     nature: normatif
     reference: "Convention de Ramsar sur les zones humides, 1971 (RTNU 996, p. 245), art. 2, 3 et 4 ; CITES, 1973 (RTNU 993, p. 243), art. III et VIII ; Convention sur la diversité biologique, 1992 (RTNU 1760, p. 79), art. 6, 8, 8j et 26, dont les obligations de fond sont assorties de la clause « dans la mesure du possible et selon qu'il conviendra » ; Convention-cadre des Nations unies sur les changements climatiques, 1992 (RTNU 1771, p. 107), art. 4.1.a et 12 ; IPBES, décision IPBES-5/1, annexe II, Bonn, 11 mars 2017 (dispositif relatif aux savoirs autochtones et locaux)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S16
     nature: donnees
     reference: "Nations unies, Système de comptabilité environnementale et économique — comptabilité des écosystèmes (SEEA-EA), adopté par la Commission de statistique à sa 52e session, mars 2021. Adoption scindée : les chapitres 1 à 7 (étendue et état des écosystèmes) ont rang de norme statistique internationale ; les chapitres 8 à 11 (évaluation monétaire des services et actifs) restent un guide méthodologique expérimental, faute de consensus. Environ 90 États appliquent une déclinaison du SEEA, mais 41 seulement compilent des comptes d'écosystèmes, le plus souvent sous forme de travaux pilotes discontinus. Le § 2.5.8 identifie quatre composantes d'erreur — mesure de terrain, interpolation spatiale, classification satellitaire, décalage temporel — et les marges d'incertitude relevées sur les indices synthétiques d'état écologique oscillent couramment entre 20 % et 50 %"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S17
     nature: theorie
     reference: "S. Jayachandran et al., « Cash for carbon: A randomized trial of payments for ecosystem services to reduce deforestation », Science, 357(6348), 2017 — district de Hoima, Ouganda : 60 villages traités (70 dollars par hectare et par an, conditionnés à la non-déforestation, contrôlés par inspections et photographies aériennes) contre 71 villages témoins ; perte de couvert arboré de 9,1 % dans le groupe témoin contre 4,2 % dans le groupe traité sur deux ans, sans report significatif vers les parcelles voisines. Le suivi postérieur établit que le stock épargné est conservé, mais que le rythme d'abattage marginal revient immédiatement à sa dynamique historique dès l'arrêt des versements"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S18
     nature: theorie
     reference: "T. A. P. West, S. Wunder, E. O. Sills, J. Börner et al., « Action needed to make carbon offsets from forest conservation work for climate change mitigation », Science, 381, p. 873-877, 25 août 2023 — la comparaison de projets REDD+ à des contrefactuels synthétiques appariés établit que la grande majorité n'a produit aucune réduction statistiquement significative de la déforestation, les promoteurs ayant surestimé les taux de déforestation attendus en l'absence d'intervention"
     url: "https://doi.org/10.1126/science.ade3535"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S19
     nature: theorie
     reference: "L. S. Penrose, « The Elementary Statistics of Majority Voting », Journal of the Royal Statistical Society, 109(1), 1946 (loi de la racine carrée : pour que chaque citoyen dispose d'un pouvoir de vote a priori identique dans un scrutin indirect à deux niveaux, le poids de l'État doit être proportionnel à la racine carrée de sa population) ; W. Słomczyński, K. Życzkowski, « Jagiellonian Compromise: an alternative voting system for the Council of the European Union » (poids en racine carrée assortis d'un quota optimal d'environ 61,6 % pour l'Union à vingt-sept) ; D. S. Felsenthal, M. Machover, travaux sur la mesure du pouvoir de vote (indices de Penrose-Banzhaf et de Shapley-Shubik) appliqués au passage de la pondération de Nice à la double majorité de Lisbonne"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S20
     nature: actualite
     reference: "Capture politique de la statistique publique — Argentine : manipulation de l'indice des prix à la consommation par l'Institut national de statistique et de recensement (INDEC) entre 2007 et 2015, inflation officielle annoncée entre 8 % et 10 % par an contre 22 % à 30 % selon les relevés indépendants, déclaration de censure du Fonds monétaire international en février 2013 au titre de l'article VIII de ses statuts. Grèce : révision par l'ELSTAT du déficit public 2009 de 3,7 % à 15,4 % du produit, validée par Eurostat, suivie de plus d'une décennie de poursuites pénales et civiles contre le statisticien Andreas Georgiou"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S21
     nature: normatif
     reference: "Représentation institutionnelle d'une entité sans voix — Pays de Galles, Well-being of Future Generations (Wales) Act 2015 : quarante-quatre corps publics tenus d'intégrer sept objectifs de bien-être ; rapport d'audit du contrôleur général « So, what's different? », mai 2020 ; abandon du tracé autoroutier de la M4 Relief Road en 2019. Le commissaire est dépourvu de veto et d'injonction. Hongrie : ombudsman parlementaire pour les générations futures institué en 2008, doté du pouvoir de suspendre des actes administratifs et de saisir la Cour constitutionnelle, rétrogradé au rang d'adjoint du Commissaire aux droits fondamentaux lors de la réforme constitutionnelle de 2011"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S22
     nature: theorie
     reference: "Doctrine fiduciaire et patrimoine public (fiduciary duty, public trust doctrine) : le tuteur d'une entité sans capacité d'instruction n'est pas lié par un contrat d'agence mais par un devoir de loyauté et un devoir de prudence, dont l'objet est la préservation de l'intégrité d'un patrimoine affecté défini par la loi ; sa responsabilité s'exerce devant un juge, non devant l'entité représentée"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── RÉÉCRITURE INTÉGRALE DU 2026-09-04 ──────────────────────────────────────
   # La version précédente de ce chapitre défrichait un texte périmé. Le livre

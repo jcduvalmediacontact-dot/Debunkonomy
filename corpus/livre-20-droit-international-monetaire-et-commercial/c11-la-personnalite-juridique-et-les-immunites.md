@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE IX, SECTION 1** : « To enable the Fund to fulfill the functions with which it is entrusted, the status, immunities and privileges set forth in this Article shall be accorded to the Fund in the territories of each member. » **SECTION 2** : « The Fund shall possess FULL JURIDICAL PERSONALITY, and, in particular, the capacity: (i) to contract ; (ii) to acquire and dispose of immovable and movable property ; (iii) to institute legal proceedings. » **SECTION 3** : « The Fund, its property and its assets [...] shall enjoy IMMUNITY FROM EVERY FORM OF JUDICIAL PROCESS EXCEPT TO THE EXTENT THAT IT EXPRESSLY WAIVES ITS IMMUNITY. » **SECTION 4** : immunité de toute saisie, réquisition, confiscation ou expropriation. **SECTION 5** : « The archives of the Fund shall be INVIOLABLE. » **SECTION 6** : les avoirs sont libres « from restrictions, regulations, controls and moratoria of any nature ». **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE IX, SECTION 8** : « All governors, executive directors, alternates, officers and employees of the Fund (i) SHALL BE IMMUNE FROM LEGAL PROCESS WITH RESPECT TO ACTS PERFORMED BY THEM IN THEIR OFFICIAL CAPACITY EXCEPT WHEN THE FUND WAIVES THIS IMMUNITY. » **SECTION 9** : immunité fiscale du Fonds et de ses avoirs ; aucun impôt sur les traitements versés aux agents non nationaux ; aucune imposition d'un titre émis par le Fonds au seul motif de son origine ou du lieu de son émission. **SECTION 10** : « Each member SHALL TAKE SUCH ACTION AS IS NECESSARY IN ITS OWN TERRITORIES for the purpose of making effective in terms of its own law the principles set forth in this Article. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 9.1** : « The ECB which [...] shall have LEGAL PERSONALITY, shall enjoy in each of the Member States THE MOST EXTENSIVE LEGAL CAPACITY accorded to legal persons under its law. » **ARTICLE 40** : « The ECB shall enjoy in the territories of the Member States SUCH PRIVILEGES AND IMMUNITIES AS ARE NECESSARY FOR THE PERFORMANCE OF ITS TASKS, under the conditions laid down in the Protocol on the privileges and immunities of the European Communities » — **PROTOCOLE QUE LE CORPUS NE DÉTIENT PAS.** **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L7.C10 § 5, qui ROUTE VERS CE LIVRE l'immunité légale des cadres techniques pour leurs avis méthodologiques, après avoir établi deux vecteurs de capture d'un institut technique : la poursuite (affaires INDEC et ELSTAT) et le budget ; L7.C01 et L7.C03, qui constatent que le corpus ne tient aucune source de droit international public"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE PROTOCOLE EUROPÉEN SUR LES PRIVILÈGES ET IMMUNITÉS N'EST PAS DÉTENU.
      L'article 40 des statuts y renvoie et ne dit rien par lui-même. **Le

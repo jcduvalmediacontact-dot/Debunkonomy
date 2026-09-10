@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `effet_veblen`, versé au vocabulaire le 2026-09-06, et le résultat de L8.C18 § 3 : cette objection conteste le SIGNE de l'effet du barème et non son ampleur, ce qui la distingue de toutes les autres du dossier, un barème dont on ignore le signe n'étant pas un instrument imprécis mais pas un instrument. Et les cinq biais de concentration établis en L11.C09 et L11.C13 § 6. Et la promesse P25, l'indicateur pris pour cible"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun travail de cette tradition

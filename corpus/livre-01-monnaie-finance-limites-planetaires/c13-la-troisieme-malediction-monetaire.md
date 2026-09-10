@@ -15,79 +15,79 @@ sources_primaires:
     nature: donnees
     reference: "Institute of International Finance (IIF), Global Debt Monitor — « Navigating the New Normal », 7 mai 2024 (encours mondial de dette, T1 2024)"
     url: "https://www.iif.com/portals/0/Files/content/Global%20Debt%20Monitor_May2024_vf.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "R. Costanza et al., « Changes in the global value of ecosystem services », Global Environmental Change, 26, p. 152-158, 2014 — 125 000 Md$/an en 2011 (dollars 2007) ; 33 000 Md$/an dans l'estimation de 1997"
     url: "https://doi.org/10.1016/j.gloenvcha.2014.04.002"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "Eurostat, Government deficit/surplus, debt and associated data (gov_10dd_edpt1), dette brute des administrations publiques en % du PIB, 2010-2025, mise à jour du 22 avril 2026"
     url: "https://ec.europa.eu/eurostat/databrowser/view/gov_10dd_edpt1/default/table"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "Agence européenne pour l'environnement, indicateur « Economic losses from weather- and climate-related extremes in Europe », 14 octobre 2025 (série 1980-2024, prix 2024)"
     url: "https://www.eea.europa.eu/en/analysis/indicators/economic-losses-from-climate-related"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Gouvernement du Pakistan, Banque asiatique de développement, Union européenne, PNUD, Banque mondiale, Pakistan Floods 2022: Post-Disaster Needs Assessment, octobre 2022 ; FMI, Pakistan: 2024 Article IV Consultation and Request for an Extended Arrangement, Country Report n° 24/310, septembre 2024"
     url: "https://www.ilo.org/publications/pakistan-floods-2022-post-disaster-needs-assessment-main-report"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: donnees
     reference: "France Assureurs, bilans annuels des sinistres climatiques : 10,0 Md€ (2022), 6,5 Md€ (2023), 5,0 Md€ (2024, valeur consolidée), 5,2 Md€ (2025) ; moyenne 2022-2024 de 7,16 Md€ par an"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "H. E. Daly, Steady-State Economics: The Economics of Biophysical Equilibrium and Moral Growth, W. H. Freeman, 1977 (2e éd. Island Press, 1991), chapitre 2"
     url: "https://archive.org/details/steadystateecono0000daly"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "F. Soddy, Wealth, Virtual Wealth and Debt, George Allen & Unwin, 1926, chapitre IV"
     url: "https://archive.org/details/soddy-f.-wealth-virtual-wealth-and-debt-1925"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 5, section « Malédiction monétaire n° 3 : dettes financières, dettes planétaires, le nœud gordien »"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "C. M. Reinhart, K. S. Rogoff, This Time Is Different: Eight Centuries of Financial Folly, Princeton University Press, 2009, tableau 6.6 (sept défauts extérieurs de l'Argentine jusqu'en 2001) ; défauts de 2014 et 2020 postérieurs à l'ouvrage"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "C. M. Reinhart, M. B. Sbrancia, « The Liquidation of Government Debt », NBER Working Paper 16893, 2011 ; Economic Policy, 30(82), p. 291-333, 2015"
     url: "https://www.nber.org/papers/w16893"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "O. Blanchard, « Public Debt and Low Interest Rates », American Economic Review, 109(4), p. 1197-1229, 2019"
     url: "https://doi.org/10.1257/aer.109.4.1197"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "L. H. Goulder, « Environmental taxation and the double dividend: A reader's guide », International Tax and Public Finance, 2, p. 157-183, 1995"
     url: "https://doi.org/10.1007/bf00877495"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "P. G. Curtis, C. M. Slay, N. L. Harris, A. Tyukavina, M. C. Hansen, « Classifying drivers of global forest loss », Science, 361, p. 1108-1111, 2018"
     url: "https://doi.org/10.1126/science.aau3445"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S15
     nature: normatif
     reference: "Grèce : loi 3894/2010 (investissements stratégiques, « fast-track ») ; loi 4001/2011 (hydrocarbures) ; lois 4628/2019 et 4631/2019 ratifiant les concessions offshore à l'ouest et au sud-ouest de la Crète (Total, ExxonMobil, Hellenic Petroleum) ; avis 2017/C 411/05 et 411/06 au JOUE"
     url: "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C:2017:411:FULL"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S16
     nature: theorie
     reference: "W. Easterly, « What did structural adjustment adjust? », Journal of Development Economics, 76(1), p. 1-22, 2005 ; CNUCED, Trade and Development Report 1993, partie II, chap. II ; J. E. Stiglitz, Globalization and Its Discontents, Norton, 2002"
     url: "https://doi.org/10.1016/j.jdeveco.2004.06.007"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S3 : API Eurostat lue — dette brute en % du PIB : zone euro 83,6 (2019), 96,5 (2020), 93,8 (2021), 89,3 (2022), 86,9 (2023), 87,0 (2024) ; France 98,2 (2019), 114,9 (2020), 112,8 (2021), 111,4 (2022), 109,5 (2023), 112,6 (2024), 115,6 (2025) ; Italie 154,4 (2020) → 133,9 (2023) ; Espagne 119,3 (2020) → 101,6 (2024) ; Grèce 183,2 (2019), 154,2 (2024).

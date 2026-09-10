@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Paul E. Brockway, John R. Barrett, Timothy J. Foxon et Julia K. Steinberger, « Divergence of Trends in US and UK Aggregate Exergy Efficiencies 1960−2010 », *Environmental Science & Technology*, 2014, vol. 48, p. 9874−9881, DOI 10.1021/es501217t.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt institutionnel des universités de Leeds, Sheffield et York, lu dans le texte, huit pages. **DROITS : le document porte « *Terms of Use CC-BY* » — régime `libre`, au sens de réutilisable sous les conditions indiquées.** **C'ÉTAIT L'ACQUISITION DE RANG 1 DE L26.C11**, qui citait ses valeurs de seconde main d'après une communication de conférence. **ARTICLE DE REVUE À COMITÉ DE LECTURE : il est de rang supérieur à la communication, et c'est lui qui fait désormais foi pour les États-Unis et le Royaume-Uni.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A OUVERT AUCUNE DES ÉTUDES DONT IL RAPPORTE ICI LES ÉCARTS.**
      Reistad, Ayres et Warr, Laitner, Serrenho, Hammond et Stapleton : **leurs

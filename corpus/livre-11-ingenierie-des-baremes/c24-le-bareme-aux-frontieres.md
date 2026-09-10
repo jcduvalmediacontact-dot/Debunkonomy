@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 10 — CONCESSION EXPLICITE versée en L1.C27 § 5 sous la promesse P51 : « NEMO IMS comporte un seuil d'activation en dessous duquel il ne fonctionne pas », le chiffre avancé étant environ le double des 15 % d'importations mondiales de l'Union européenne. LE CORPUS A RELEVÉ QUE CE CHIFFRE EST OBTENU PAR ANALOGIE avec le mécanisme d'ajustement carbone aux frontières, et que l'analogie transporte les propriétés d'un instrument SECTORIEL vers un instrument UNIVERSEL"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963 — OUVERT INTÉGRALEMENT le 2026-09-05. Retenu ici par le résultat que L11.C04 § 6 en a tiré et qui commande ce chapitre : LA CONTRAINTE EST FONCTION DE CE QUI DEMEURE HORS DU SYSTÈME — elle s'annule à couverture complète, se restreint par le contrôle des capitaux, et disparaît à l'intérieur d'un barème arrêté globalement"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Règlement (UE) 2023/956 du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières, et ses actes d'exécution sur les VALEURS PAR DÉFAUT applicables aux importateurs qui ne déclarent pas les émissions réelles. NON OUVERT — porté en priorité 1 d'acquisition depuis L11.C06, où il fonde l'arbitrage A11. C'est le seul précédent opérant d'un barème d'impacts administré appliqué à des producteurs situés hors du régime qui l'édicte, et le présent chapitre en dépend plus qu'aucun autre"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # LE BARÈME AUX FRONTIÈRES N'AVAIT JAMAIS ÉTÉ INSTRUIT. L11.C04 § 6 a établi

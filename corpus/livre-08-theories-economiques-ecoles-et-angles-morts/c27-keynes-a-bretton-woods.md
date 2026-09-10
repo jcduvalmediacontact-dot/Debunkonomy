@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. M. Keynes, The Collected Writings of John Maynard Keynes, vol. XXV, Activities 1940-1944: Shaping the Post-War World — The Clearing Union, Cambridge University Press pour la Royal Economic Society, 2e éd. (DOI 10.1017/UPO9781139520188). OUVERT DE PREMIÈRE MAIN le 2026-09-04, document procuré par l'auteur, lu directement, sans intermédiaire ni synthèse. CLAUSE DE SYMÉTRIE : « A charge of 1 per cent per annum shall be payable to the Reserve Fund of the Clearing Union on the amount of the excess of the average balance of a member state, WHETHER IT IS A CREDIT OR A DEBIT BALANCE, above a certain quota ». Sont établis de première main la teneur exacte de la clause, le motif que Keynes lui donne, LA RÉSERVE QU'IL POSE LUI-MÊME sur son caractère non essentiel, et l'asymétrie d'exécution. Dépouillé en L1.C25, où il durcit le falsifieur F6"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar and the Future of the International Monetary System, Oxford University Press, 2011 — OUVERT le 2026-09-04, procuré par l'auteur. A RÉVÉLÉ QUE LE COMPTE RENDU QUI EN TENAIT LIEU DÉFORMAIT le passage sur les droits de tirage spéciaux : attribution corrigée en L1.C24, précédent du marché privé de DTS de 1981 versé à L1.C26. Sixième cas de synthèse fautive relevé par le corpus"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — falsifieur F6, « l'adoption contre le créancier », établi en L1.C25 § 4 sur trois épisodes et un seul schéma : 1871, l'Union latine privée de son or par l'indemnité de Francfort ; 1944, le plan Keynes perdant sur la disposition qui visait la symétrie ; 1971, le débiteur en or supprimant unilatéralement l'obligation de régler en or. LA DISPOSITION QUI CONTRAINT LE CRÉANCIER EST LA DISPOSITION QUI SAUTE. Et promesse P46, qui en tire la conséquence pour la stratégie d'adoption du dispositif"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCES OUVERTES, écrit tôt pour cette raison. Les deux textes

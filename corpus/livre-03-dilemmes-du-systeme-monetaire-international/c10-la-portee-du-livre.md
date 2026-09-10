@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les neuf chapitres qui précèdent**, et l'inventaire de leurs appuis. **DEUX SOURCES PRIMAIRES OUVERTES POUR TOUT LE LIVRE** : les **statuts du Fonds monétaire international de 1944**, articles IV, V et VI § 3 — acquis le 2026-09-06, article V ouvert le 2026-09-07 ; et, par le Livre 20, les autres articles de gouvernance. **TROIS SOURCES SECONDAIRES** : la fiche *ABC de l'économie* de la Banque de France sur le système monétaire international ; deux exposés pédagogiques sur le triangle d'incompatibilité, **qui ne sont ni Mundell ni Fleming**. **UN ARTICLE ACADÉMIQUE, par le falsifieur F6** : Gourinchas, Rey et Sauzet 2019. **ET UNE PIÈCE SANS AUTORITÉ, employée comme piste et jamais comme fait** : un document de promotion décrivant l'UNIT et mBridge"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**`protocoles/registre-des-promesses.md`, P13**, objection routée à ce livre par le plan directeur : « Il n'existe aucun canal de création monétaire qui ne soit gagé, à un niveau ou à un autre, sur une promesse de remboursement adossée à une activité solvable [...] **Une émission gagée sur la régénération et non sur une promesse de remboursement, à aucun niveau — et ce qui empêche que le filtre se redéplace sur l'institution émettrice.** » **`corpus/livres.yaml`, matricule 3** : le livre doit « préciser le périmètre historique antérieur à l'étalon-or » et « réserver l'étude institutionnelle détaillée des banques centrales au Livre 10 »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "SEPT TEXTES FONDATEURS N'ONT PAS ÉTÉ OUVERTS, et le livre les nomme un par
      un : **Mundell 1963 et Fleming 1962** — dont dépend l'arbitrage A32 ;

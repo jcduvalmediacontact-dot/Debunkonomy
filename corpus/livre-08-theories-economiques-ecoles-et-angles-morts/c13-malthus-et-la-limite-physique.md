@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "T. R. Malthus, An Essay on the Principle of Population, 1798 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (Project Gutenberg n° 4239, texte intégral). Retenu, chap. I, l'énoncé du rapport : « Population, when unchecked, increases in a GEOMETRICAL ratio », les subsistances n'augmentant que dans un rapport arithmétique. RÉSERVE D'ÉDITION : c'est la PREMIÈRE édition, anonyme, de 1798 ; les éditions ultérieures (1803 et suivantes) ont profondément remanié la thèse, notamment par l'ajout de la contrainte morale, et le corpus ne les tient pas"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — le concept `limites_planetaires` du vocabulaire, et la thèse centrale du dispositif telle que L1.C01 et L1.C15 l'établissent. Et le falsifieur F2, qui porte la métrologie écologique. Et le résultat de L8.C12 § 2 : l'exclusion de la limite par la tradition classique n'est pas un silence mais une définition, les puissances du sol y étant dites indestructibles"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, NON DÉPOUILLÉE. Une formule est vérifiée.

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les six chapitres de la tranche, et les cinq sources qu'ils ont ouvertes de première main. L22.C01** — Conseil de stabilité financière, exercice de suivi mondial 2025 : **503,7 mille milliards de dollars d'actifs financiers mondiaux à fin 2024, dont 256,8, soit 51,0 %, hors banques, banques centrales et institutions financières publiques**. **L22.C02** — aucune source nouvelle, composition de trois résultats internes. **L22.C03** — règlement (UE) 2020/852, taxonomie : quatre conditions cumulatives. **L22.C04** — règlement délégué (UE) 2023/2486, annexe IV, section 1.1 : les critères techniques de la conservation et de la restauration, **et ils ne contiennent aucun seuil chiffré**. **L22.C05** — OCDE, « Pension Markets in Focus 2025 » : **69 800 milliards de dollars d'actifs de retraite dans l'OCDE à fin 2024**. **L22.C06** — règlement (UE) 2019/2089 : deux catégories d'indices de référence de l'Union, avec normes minimales par acte délégué"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**SEPT DES TREIZE CHAPITRES PROPOSÉS PAR L'AUTEUR NE SONT PAS ÉCRITS**, et
      ils portent sur des objets entiers : agences de conseil en vote et

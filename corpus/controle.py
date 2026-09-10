@@ -3,7 +3,7 @@
 """
 Contrôle du corpus Debunk'Onomy.
 
-Applique les règles de convention.md (révision 7).
+Applique les règles de convention.md (révision 12).
 Le script est l'autorité : il refuse la publication en cas d'erreur bloquante.
 
 Usage :
@@ -37,7 +37,20 @@ entrées absentes, ne modifie aucune entrée enregistrée, et est refusée dès 
 sa portée serait ambiguë. Aucune qualification n'est jamais supprimée sans
 demande explicite : l'enregistrement est refusé plutôt que d'en perdre une.
 
-Dépendance : PyYAML  (pip install pyyaml)
+ÉTAT DE LECTURE DES SOURCES (révision 12, migration etat_lecture) : chaque
+source primaire porte etat_lecture ∈ {candidate, ouverte, a_requalifier}.
+E-L1 date_verification sur une source non ouverte ; E-L2 source ouverte sans
+date ; E-L3 etat_lecture absent ou inconnu ; E-L4 chapitre verifie portant une
+source non ouverte ; E-L5 génération publique (--publier) d'un chapitre portant
+une source non ouverte ; E-L6 a_requalifier sur une occurrence absente du
+manifeste corpus/manifeste-etat-lecture.json ou d'empreinte bibliographique
+différente ; E-M1 manifeste absent, illisible ou incohérent. Bilan agrégé par
+chapitre : A-L1 sources candidate, A-L2 sources à requalifier et leur
+ancienneté depuis la date de migration, A-L3 entrées du manifeste sans
+occurrence.
+
+Dépendance : PyYAML 6.0.3 (corpus/requirements.txt ; voie hors ligne dans
+corpus/hors-ligne/ ; test : python corpus/test_environnement_propre.py)
 """
 
 import sys
@@ -80,6 +93,7 @@ VOCABULAIRE = RACINE / "vocabulaire.yaml"
 HORIZONS = RACINE / "horizons.yaml"
 LIVRES = RACINE / "livres.yaml"
 ETAT = RACINE / ".etat-corpus.json"
+MANIFESTE = RACINE / "manifeste-etat-lecture.json"
 
 # --- Schéma, d'après la table des champs de la convention -------------------
 
@@ -91,8 +105,46 @@ CHAMPS_OBLIGATOIRES = {
 CHAMPS_CONDITIONNELS = {"partie", "chapitres_sources", "verifiee_le"}
 CHAMPS_CONNUS = CHAMPS_OBLIGATOIRES | CHAMPS_CONDITIONNELS
 
-CHAMPS_SOURCE_OBLIGATOIRES = {"ref", "nature", "reference", "date_verification"}
-CHAMPS_SOURCE_CONNUS = CHAMPS_SOURCE_OBLIGATOIRES | {"url", "horizon", "motif_horizon"}
+CHAMPS_SOURCE_OBLIGATOIRES = {"ref", "nature", "reference", "etat_lecture"}
+CHAMPS_SOURCE_CONNUS = CHAMPS_SOURCE_OBLIGATOIRES | {"url", "horizon", "motif_horizon",
+                                                     "date_verification"}
+ETATS_LECTURE = ["candidate", "ouverte", "a_requalifier"]
+# L'empreinte bibliographique d'une occurrence porte sur ses seules métadonnées
+# d'origine : ni etat_lecture, ni date_verification, ni ref (déjà dans
+# l'identifiant chapitre/ref), ni horizon / motif_horizon (données de contrôle).
+CHAMPS_EMPREINTE_BIBLIO = ("nature", "reference", "url")
+# Schéma fermé du manifeste des occurrences historiques (E-M1).
+SCHEMA_MANIFESTE = "manifeste-etat-lecture/1"
+CHAMPS_MIGRATION = ("date", "commit_source", "revision_convention", "python", "pyyaml",
+                    "nombre_occurrences", "regle_empreinte")
+REVISION_MANIFESTE = 12
+FILES_MANIFESTE = {"A": "orientation vers ouverte", "B": "traces contradictoires",
+                   "C": "orientation vers candidate", "D": "sans orientation"}
+CODES_TRACES = {"T1", "T2", "T3", "T4", "T5", "T6", "T7"}
+RE_SHA_COMPLET = re.compile(r"^[0-9a-f]{40}$")
+RE_HEX64 = re.compile(r"^[0-9a-f]{64}$")
+CHAMPS_MANIFESTE = {"schema", "migration", "occurrences"}
+CHAMPS_OCCURRENCE = {"id", "chapitre", "ref", "empreinte_bibliographique", "ancienne_date_verification",
+                     "date_migration", "traces", "file", "orientation", "etat_initial"}
+CHAMPS_TRACE = {"code", "emplacement", "appui"}
+
+
+def chaine_valide(valeur, sans=""):
+    """Une chaîne non vide, sans aucun des caractères interdits."""
+    return isinstance(valeur, str) and valeur.strip() != "" and not any(c in valeur for c in sans)
+
+
+def orienter_traces(codes):
+    """La file d'examen que des traces imposent (protocole § 3.3) : forte =
+    T1, T2 ou T7 ; démenti = T3."""
+    fort = codes & {"T1", "T2", "T7"}
+    if fort and "T3" in codes:
+        return "B"
+    if fort:
+        return "A"
+    if "T3" in codes:
+        return "C"
+    return "D"
 
 STATUTS = ["brouillon", "audit_contradictoire", "audit_factuel", "verifie"]
 TYPES = ["chapitre", "synthese"]
@@ -112,7 +164,7 @@ HORIZONS_DEFAUT = {
     "theorie":       {"mode": "date",  "horizon": "aucun", "motif": "Travaux stabilisés."},
 }
 
-blocages, decisions, alertes = [], [], []
+blocages, decisions, alertes, bilan_lecture = [], [], [], []
 
 
 def bloque(fichier, message):
@@ -161,6 +213,16 @@ def empreinte(*morceaux):
         h.update(normalise(str(m)).encode("utf-8"))
         h.update(b"\x00")
     return h.hexdigest()[:16]
+
+
+def empreinte_bibliographique(src):
+    """sha256 complet des métadonnées bibliographiques d'origine d'une
+    occurrence — la même fonction sert à la migration, au manifeste et au
+    contrôle (E-L6) ; deux règles donneraient deux empreintes."""
+    base = {k: normalise(str(src[k])) for k in CHAMPS_EMPREINTE_BIBLIO
+            if k in src and src[k] is not None}
+    canon = json.dumps(base, sort_keys=True, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(canon.encode("utf-8")).hexdigest()
 
 
 def lire_fichier(chemin):
@@ -348,6 +410,106 @@ def charger_etat():
     return {}
 
 
+def charger_manifeste():
+    """Manifeste des occurrences historiques — la seule autorisation possible
+    de l'état a_requalifier. Son schéma est FERMÉ : tout écart est une faute
+    E-M1, le manifeste est alors inutilisable, E-L6 n'est pas évaluable, les
+    autres contrôles s'exécutent et la publication est refusée. Retourne
+    {"date", "occurrences"} ou None."""
+    nom = MANIFESTE.name
+    if not MANIFESTE.exists():
+        bloque(nom, "E-M1 — manifeste absent : E-L6 n'est pas évaluable")
+        return None
+    try:
+        contenu = json.loads(MANIFESTE.read_text(encoding="utf-8"))
+    except Exception as erreur:
+        bloque(nom, f"E-M1 — manifeste illisible : {erreur}")
+        return None
+    if not isinstance(contenu, dict):
+        bloque(nom, "E-M1 — manifeste mal formé : objet attendu")
+        return None
+    fautes = []
+
+    def faute(message):
+        fautes.append(message)
+        bloque(nom, "E-M1 — " + message)
+
+    for champ in sorted(set(contenu) - CHAMPS_MANIFESTE):
+        faute(f"champ inconnu au niveau supérieur : {champ}")
+    if contenu.get("schema") != SCHEMA_MANIFESTE:
+        faute(f"schema « {contenu.get('schema')} », attendu {SCHEMA_MANIFESTE}")
+    migration = contenu.get("migration")
+    occurrences = contenu.get("occurrences")
+    if not isinstance(migration, dict) or not isinstance(occurrences, list):
+        faute("« migration » (objet) et « occurrences » (liste) attendus")
+        return None
+    for champ in CHAMPS_MIGRATION:
+        if champ not in migration:
+            faute(f"champ de migration absent : {champ}")
+    for champ in sorted(set(migration) - set(CHAMPS_MIGRATION)):
+        faute(f"champ de migration inconnu : {champ}")
+    for champ in ("python", "pyyaml", "regle_empreinte"):
+        if champ in migration and not chaine_valide(migration[champ]):
+            faute(f"{champ} : chaîne non vide attendue")
+    commit = str(migration.get("commit_source", ""))
+    if not RE_SHA_COMPLET.match(commit):
+        faute(f"commit_source « {commit} » n'est pas un SHA complet de 40 hexadécimaux")
+    if migration.get("revision_convention") != REVISION_MANIFESTE:
+        faute(f"revision_convention « {migration.get('revision_convention')} », attendue {REVISION_MANIFESTE}")
+    date_migration = migration.get("date")
+    if not en_date(date_migration):
+        faute(f"date de migration absente ou invalide : {date_migration!r}")
+    nombre = migration.get("nombre_occurrences")
+    if not isinstance(nombre, int) or nombre != len(occurrences):
+        faute(f"nombre déclaré {nombre!r} ≠ {len(occurrences)} occurrence(s) inscrite(s)")
+    inscrites, paires = {}, set()
+    for rang, o in enumerate(occurrences, 1):
+        if not isinstance(o, dict) or not o.get("id"):
+            faute(f"occurrence {rang} mal formée")
+            continue
+        ident = str(o["id"])
+        for champ in sorted(CHAMPS_OCCURRENCE - set(o)):
+            faute(f"{ident} : champ obligatoire absent : {champ}")
+        for champ in sorted(set(o) - CHAMPS_OCCURRENCE):
+            faute(f"{ident} : champ inconnu : {champ}")
+        if not chaine_valide(o.get("chapitre"), "/ \t\n") or not chaine_valide(o.get("ref"), "/ \t\n"):
+            faute(f"{ident} : chapitre ou ref n'est pas une chaîne valide")
+        if ident != f"{o.get('chapitre')}/{o.get('ref')}":
+            faute(f"{ident} : identifiant incohérent avec chapitre/ref « {o.get('chapitre')}/{o.get('ref')} »")
+        if ident in inscrites:
+            faute(f"identifiant en doublon dans le manifeste : {ident}")
+        paire = (str(o.get("chapitre")), str(o.get("ref")))
+        if paire in paires:
+            faute(f"référence dupliquée dans le manifeste : {paire[0]}/{paire[1]}")
+        paires.add(paire)
+        if o.get("etat_initial") != "a_requalifier":
+            faute(f"{ident} : etat_initial « {o.get('etat_initial')} », seul a_requalifier est admis")
+        if not RE_HEX64.match(str(o.get("empreinte_bibliographique", ""))):
+            faute(f"{ident} : empreinte bibliographique mal formée — 64 hexadécimaux attendus")
+        if not en_date(o.get("ancienne_date_verification")):
+            faute(f"{ident} : ancienne_date_verification invalide « {o.get('ancienne_date_verification')} »")
+        if not en_date(o.get("date_migration")) or str(o.get("date_migration")) != str(date_migration):
+            faute(f"{ident} : date_migration absente, invalide ou différente de l'en-tête")
+        if o.get("file") not in FILES_MANIFESTE:
+            faute(f"{ident} : file « {o.get('file')} » hors de A, B, C, D")
+        traces = o.get("traces")
+        if not isinstance(traces, list) or any(
+                not isinstance(t, dict) or set(t) != CHAMPS_TRACE or t.get("code") not in CODES_TRACES
+                or not chaine_valide(t.get("emplacement")) or not chaine_valide(t.get("appui"))
+                for t in traces):
+            faute(f"{ident} : traces mal formées — liste d'objets à trois champs code (T1 à T7), "
+                  f"emplacement et appui attendue")
+        else:
+            attendu = orienter_traces({t["code"] for t in traces})
+            if o.get("file") != attendu or o.get("orientation") != FILES_MANIFESTE[attendu]:
+                faute(f"{ident} : file « {o.get('file')} » et orientation « {o.get('orientation')} » "
+                      f"incohérentes avec les traces — attendu {attendu}, {FILES_MANIFESTE[attendu]}")
+        inscrites[ident] = o
+    if fautes:
+        return None
+    return {"date": en_date(date_migration), "occurrences": inscrites}
+
+
 # --- Contrôles par fichier --------------------------------------------------
 
 def controler_entete(nom, entete):
@@ -370,22 +532,59 @@ def controler_entete(nom, entete):
         bloque(nom, "revision_de_fond absente ou mal formée (AAAA-MM-JJ)")
 
 
-def controler_sources(nom, entete):
+def controler_sources(nom, cle, entete, manifeste):
+    """Champs, nature et état de lecture des sources — E-L1, E-L2, E-L3, E-L6.
+    Retourne (candidates, a_requalifier, total) pour le bilan agrégé."""
+    candidates, requalifier, total = 0, 0, 0
+    refs_vus = set()
     for src in entete.get("sources_primaires") or []:
         if not isinstance(src, dict):
             bloque(nom, "source primaire mal formée")
             continue
+        total += 1
         ref = src.get("ref", "?")
+        # Deux occurrences ne peuvent pas partager un identifiant chapitre/ref :
+        # le manifeste, l'état de lecture et les citations [Sn] en dépendent.
+        if ref in refs_vus:
+            bloque(nom, f"référence dupliquée dans le chapitre : {ref}")
+        refs_vus.add(ref)
         for champ in sorted(CHAMPS_SOURCE_OBLIGATOIRES - set(src)):
-            bloque(nom, f"source {ref} : champ obligatoire absent « {champ} »")
+            bloque(nom, f"source {ref} : champ obligatoire absent « {champ} »"
+                        + (" (E-L3)" if champ == "etat_lecture" else ""))
         for champ in sorted(set(src) - CHAMPS_SOURCE_CONNUS):
             bloque(nom, f"source {ref} : champ inconnu « {champ} »")
         if src.get("nature") and src["nature"] not in NATURES:
             bloque(nom, f"source {ref} : nature « {src['nature']} » inconnue")
-        if "date_verification" in src and not en_date(src["date_verification"]):
-            bloque(nom, f"source {ref} : date_verification mal formée")
+        lecture = src.get("etat_lecture")
+        if "etat_lecture" in src and lecture not in ETATS_LECTURE:
+            bloque(nom, f"source {ref} : E-L3 — etat_lecture « {lecture} » hors des valeurs "
+                        f"admises : {', '.join(ETATS_LECTURE)}")
+        if "date_verification" in src:
+            if not en_date(src["date_verification"]):
+                bloque(nom, f"source {ref} : date_verification mal formée")
+            if lecture != "ouverte":
+                bloque(nom, f"source {ref} : E-L1 — date_verification présente sur une source "
+                            f"« {lecture} », qui n'est pas ouverte")
+        elif lecture == "ouverte":
+            bloque(nom, f"source {ref} : E-L2 — source ouverte sans date_verification")
         if "horizon" in src and not src.get("motif_horizon"):
             bloque(nom, f"source {ref} : dérogation d'horizon sans motif_horizon")
+        if lecture == "candidate":
+            candidates += 1
+        elif lecture == "a_requalifier":
+            requalifier += 1
+            if manifeste is not None:
+                ident = f"{cle}/{ref}"
+                inscrite = manifeste["occurrences"].get(ident)
+                if inscrite is None:
+                    bloque(nom, f"source {ref} : E-L6 — a_requalifier sur une occurrence absente du "
+                                f"manifeste ({ident}) ; une source ajoutée après la migration est "
+                                f"candidate ou ouverte")
+                elif inscrite.get("empreinte_bibliographique") != empreinte_bibliographique(src):
+                    bloque(nom, f"source {ref} : E-L6 — empreinte bibliographique différente de celle "
+                                f"du manifeste ({ident}) ; une référence remplacée ou corrigée "
+                                f"n'hérite pas de l'état historique")
+    return candidates, requalifier, total
 
 
 def controler_statut(nom, entete):
@@ -400,6 +599,11 @@ def controler_statut(nom, entete):
             bloque(nom, "statut « verifie » sans aucune source primaire")
         if not (entete.get("concepts") or []):
             bloque(nom, "statut « verifie » sans aucun concept déclaré")
+        non_ouvertes = [str(s.get("ref", "?")) for s in (entete.get("sources_primaires") or [])
+                        if isinstance(s, dict) and s.get("etat_lecture") != "ouverte"]
+        if non_ouvertes:
+            bloque(nom, f"E-L4 — statut « verifie » avec {len(non_ouvertes)} source(s) non "
+                        f"ouverte(s) : {', '.join(non_ouvertes)}")
     elif attente:
         alerte(nom, f"{len(attente)} vérification(s) en attente")
 
@@ -601,17 +805,21 @@ def main():
     # --initialiser-tardif : True = toutes les entrées absentes ; ensemble = ces
     # entrées absentes seulement. Sa portée est vérifiée avant toute écriture.
     tardifs = None
-    for arg in sys.argv[1:]:
+    repetitions = [arg for arg in sys.argv[1:]
+                   if arg == "--initialiser-tardif" or arg.startswith("--initialiser-tardif=")]
+    for arg in repetitions:
         if arg == "--initialiser-tardif":
             tardifs = True
-        elif arg.startswith("--initialiser-tardif="):
+        else:
             tardifs = {x.strip() for x in arg.split("=", 1)[1].split(",") if x.strip()}
 
     vocabulaire = charger_vocabulaire()
     livres = charger_livres()
     horizons = charger_horizons()
     etat = charger_etat()
+    manifeste = charger_manifeste()
     nouvel_etat = {}
+    lecture, occurrences_vues = {}, set()
 
     fichiers = sorted(RACINE.glob("livre-*/*.md"))
     if not fichiers:
@@ -647,7 +855,10 @@ def main():
             continue
         chapitres[cle] = {"nom": nom, "entete": entete, "corps": corps}
 
-        controler_sources(nom, entete)
+        lecture[cle] = controler_sources(nom, cle, entete, manifeste) + (nom,)
+        for src in entete.get("sources_primaires") or []:
+            if isinstance(src, dict):
+                occurrences_vues.add(f"{cle}/{src.get('ref')}")
         controler_statut(nom, entete)
         controler_fraicheur(nom, entete, horizons)
         nouvel_etat[cle] = controler_empreintes(nom, cle, entete, corps, etat)
@@ -666,6 +877,14 @@ def main():
         if publier and (entete.get("statut") != "verifie" or entete.get("citable") is False):
             bloque(nom, f"publication refusée : statut « {entete.get('statut')} », "
                         f"citable={entete.get('citable')}")
+
+        # E-L5 : la génération publique exclut mécaniquement toute source non ouverte.
+        if publier:
+            non_ouvertes = [str(s.get("ref", "?")) for s in (entete.get("sources_primaires") or [])
+                            if isinstance(s, dict) and s.get("etat_lecture") != "ouverte"]
+            if non_ouvertes:
+                bloque(nom, f"E-L5 — génération publique refusée : {len(non_ouvertes)} source(s) "
+                            f"non ouverte(s) : {', '.join(non_ouvertes)}")
 
         # P8 (réparation du 2026-09-10) : un marqueur d'état sans état
         # enregistré ne protège rien — rien ne se publie sans entrée d'état.
@@ -729,6 +948,38 @@ def main():
     for cle in orphelins:
         print(f"  {ETAT.name}\n      entrée d'état sans chapitre correspondant : {cle}")
 
+    # A-L1, A-L2, A-L3 : bilan AGRÉGÉ par chapitre — jamais une alerte par source.
+    sans_occurrence = {}
+    if manifeste is not None:
+        for ident in sorted(set(manifeste["occurrences"]) - occurrences_vues):
+            sans_occurrence.setdefault(ident.split("/")[0], []).append(ident)
+    anciennete = (date.today() - manifeste["date"]).days if manifeste is not None else None
+    total_cand = sum(v[0] for v in lecture.values())
+    total_requal = sum(v[1] for v in lecture.values())
+    total_src = sum(v[2] for v in lecture.values())
+    concernes = sorted(c for c in lecture if lecture[c][0] or lecture[c][1] or c in sans_occurrence)
+    print(f"\nÉTAT DE LECTURE — bilan agrégé par chapitre  [{len(concernes)}]")
+    print("-" * largeur)
+    print(f"  {total_cand} source(s) candidate(s), {total_requal} à requalifier, "
+          f"{sum(len(v) for v in sans_occurrence.values())} entrée(s) du manifeste sans occurrence, "
+          f"sur {total_src} source(s)")
+    for c in concernes:
+        cand, requal, total, nom_c = lecture[c]
+        lignes = []
+        if cand:
+            lignes.append(f"A-L1 : {cand} candidate(s) sur {total}")
+        if requal:
+            lignes.append(f"A-L2 : {requal} à requalifier sur {total}, depuis {anciennete} j "
+                          f"(migration du {manifeste['date']})")
+        if c in sans_occurrence:
+            lignes.append(f"A-L3 : {len(sans_occurrence[c])} entrée(s) du manifeste sans occurrence : "
+                          + ", ".join(sans_occurrence[c]))
+        print(f"  {nom_c}\n      " + "\n      ".join(lignes))
+    for c in sorted(sans_occurrence):
+        if c not in lecture:
+            print(f"  {MANIFESTE.name}\n      A-L3 : chapitre {c} disparu, "
+                  f"{len(sans_occurrence[c])} entrée(s) : " + ", ".join(sans_occurrence[c]))
+
     if registre:
         ouverts = []
         for cle, libelle in (("arbitrages", "arbitrage"),
@@ -779,7 +1030,11 @@ def main():
     # ambiguë, elle est refusée, et rien n'est écrit.
     ambigu = None
     if tardifs is not None:
-        if not maj_etat:
+        if len(repetitions) > 1:
+            # Deux occurrences ne s'écrasent pas en silence : la portée est refusée.
+            ambigu = "--initialiser-tardif répété (" + " ".join(repetitions) + \
+                     "), la dernière occurrence n'écrase pas la première"
+        elif not maj_etat:
             ambigu = "--initialiser-tardif exige --maj-etat"
         elif tardifs is True and not absents:
             ambigu = "aucune entrée absente : --initialiser-tardif n'a rien à initialiser"

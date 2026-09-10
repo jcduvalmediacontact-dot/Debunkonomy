@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les concepts `entropie`, `limites_planetaires`, `plafond_ecologique`, `decouplage` et `effet_rebond` du vocabulaire ; le falsifieur F2, qui porte la métrologie écologique ; et le résultat de L8.C13 § 4, où le corpus a nommé sans pouvoir l'établir la distinction qui pourrait sauver sa thèse de l'échec malthusien : une limite de SOURCE se repousse par la technique, une limite de PUITS peut-être pas"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, ET C'EST LA PLUS GRAVE DU LIVRE.

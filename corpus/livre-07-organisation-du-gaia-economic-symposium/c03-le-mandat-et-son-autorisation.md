@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P6, « la décision d'émettre n'est l'objet d'aucun mandat démocratique », et la promesse P15, « deux pouvoirs réunis dans une instance technique », toutes deux versées en L1.C18 et routées à ce livre. Et l'architecture retenue par le livre source : quatre chambres à pouvoirs séparés, tutelle duale, et une règle interdisant que celui qui définit ce qui compte décide aussi de ce qu'on émet"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1. LE MANDAT À AUTORISER EST DONC PLUS ÉTROIT QUE CE QUE P6 SUPPOSE. Et le résultat de L11.C13 § 3 : décider ce qui qualifie est décider ce qui est financé, de sorte que la séparation posée par le livre source entre celui qui définit et celui qui émet ne sépare pas ce qu'elle croit séparer"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION, sans source institutionnelle propre. Il instruit

@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les quarante chapitres qui précèdent, écrits entre le 2026-09-06 et le même jour, et la grille du plan directeur du livre : POUR, CONTRE, MANQUEMENT, LIMITES, STATUT. Le présent chapitre ne verse aucun résultat neuf : il réunit ce que les quarante ont produit séparément, parce que trois régularités n'apparaissent qu'à l'échelle du livre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, 1952 ; R. Mundell, 1963 ; F. A. Hayek, 1945 ; E. Ostrom, 1990 et 2009 ; F. E. Kydland et E. C. Prescott, 1977 ; R. E. Lucas Jr., 1976 ; A. Smith, 1776 ; D. Ricardo, 1817 ; T. R. Malthus, 1798 ; J. S. Mill, 1848 ; K. Marx, 1859 ; T. Veblen, 1899 ; J. M. Keynes, 1936 ; I. Fisher, 1933 ; J. M. Keynes, CW XXV ; B. Eichengreen, 2011 ; A. Goutsmedt et al., 2017 ; E. Combe, 1997 — LES DIX-HUIT SOURCES OUVERTES DU LIVRE, sur les quelque soixante-dix auteurs et courants que le répertoire nomme. LE RAPPORT EST DE UN À QUATRE, et c'est le fait de méthode central de cette passe"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE RENDU. Il ne verse aucun résultat neuf et n'ouvre aucun dossier :

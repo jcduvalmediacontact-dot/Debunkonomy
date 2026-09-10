@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "W. H. Furness III, The Island of Stone Money: Uap of the Carolines, 1910"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "M. Friedman, « The Island of Stone Money », Working Paper, Hoover Institution, 1991"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Corrections critiques identifiées à la conversion —
   - "CRITIQUE — « 92 % de la monnaie en circulation dans le monde » n'est pas sous forme fiduciaire : chiffre très largement repris sans source. La part varie fortement selon le pays et selon l'agrégat retenu (M0, M1, M2, M3) ; un ratio mondial unique est douteux. Retrouver la source, l'agrégat et l'année, ou remplacer par des valeurs par zone monétaire (BCE, Fed, BRI)."

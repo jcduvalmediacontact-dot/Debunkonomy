@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*L6 — ÉTAT DE CLÔTURE DE SESSION*, 31 août 2026, section 4, **« Dans les rapports de défrichage, vérifiées et établies fausses »** — la liste intégrale : « Une DÉCISION DE JUSTICE INEXISTANTE, attribuée au tribunal judiciaire de Paris alors qu'elle correspondait à un dépôt belge. Une échéance de transposition européenne PÉRIMÉE DEUX FOIS. Un motif d'irrecevabilité DÉPLACÉ D'UNE AFFAIRE À L'AUTRE. **LE SENS DE TROIS ARRÊTS INVERSÉ.** Un pourvoi annoncé devant une cour suprême dans une affaire DÉFINITIVEMENT JUGÉE. **UNE ÉTUDE MINISTÉRIELLE FABRIQUÉE À PARTIR DE BILLETS DE BLOG COMMERCIAUX.** Une procédure probatoire infructueuse racontée comme AYANT ABOUTI. Un numéro de décision constitutionnelle faux. QUATRE ERREURS SUR UNE SEULE LIGNE pour un dispositif législatif entier. Le nom d'une partie à une question prioritaire de constitutionnalité. La juridiction, l'année ET les motifs d'une décision américaine. Un article du code général des collectivités territoriales. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, section 3, **règle F.6** : « La recherche externe ne sert plus qu'au DÉFRICHAGE D'UN TERRITOIRE MAL CONNU et ne produit que DES PISTES. L'enquête, la vérification sur sources primaires, la qualification et les documents finaux sont menés directement. **UN RAPPORT DE DÉFRICHAGE N'EST JAMAIS CITÉ COMME SOURCE — ni en primaire, ni en secondaire, ni en bibliographie.** »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, section 4, **« Un dispositif qui a fonctionné »** : « L'exigence d'INDIQUER LA SOURCE PRIMAIRE ENTRE PARENTHÈSES APRÈS CHAQUE MENTION « SÛR » a nettement amélioré les rapports **à partir de la cinquième commande.** Les sources refusées sont passées de cinq occurrences à deux, puis à trois périphériques. » Et l'autocorrection de l'opérateur : « **Une affirmation exacte contredite à tort** : j'ai écarté comme exagérée la divisibilité de la reconnaissance de raison impérative, en m'appuyant sur un COMMENTAIRE SECONDAIRE, sans ouvrir le texte de la disposition — qui disait exactement ce que le rapport affirmait. Leçon : **CONTREDIRE UNE AFFIRMATION EXIGE LE MÊME NIVEAU DE PREUVE QUE L'AFFIRMER.** »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — `CLAUDE.md` et `protocoles/audit-contradictoire.md` : « Ce qu'ils rapportent est UNE PISTE, JAMAIS UNE VÉRIFICATION — cela vaut pour tout résumé produit par un modèle, y compris un outil qui « récupère » une page en la faisant résumer » ; règle modifiée le 2026-09-06 par l'auteur pour autoriser l'ouverture directe. Et `protocoles/passe-2.md`, quinzième autocorrection : une source attribuée SUR LA SEULE PROXIMITÉ DE DEUX TITRES (L7.C21)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS NE DÉTIENT AUCUN DES RAPPORTS DE DÉFRICHAGE EN CAUSE. Il tient
      **le relevé des erreurs, non les documents où elles figuraient.** Le

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — l'arbitrage A7, « règle automatique ou pilotage discrétionnaire », et sa PRÉCISION du 2026-09-06 : la règle a une forme et elle a un nom, la DIRECTIVE au sens de Tinbergen, taux = f(données observées). Et le concept `demurrage` du vocabulaire, taux négatif fixé par barème et non par un marché. Et la condition-limite B1 versée en L11.C03 § 5 : la borne d'évitement, observée entre −0,5 % et −1 %"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni les Réflexions sur la formation

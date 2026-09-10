@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Comité sur les systèmes de paiement et de règlement (BRI) et Comité technique de l'OICV, *Principles for financial market infrastructures*, avril 2012** — **OUVERT LE 2026-09-07**, source fournie par l'auteur et rangée au Drive. **PRINCIPE 1, BASE JURIDIQUE** : « An FMI should have a **well-founded, clear, transparent, and enforceable legal basis** for each material aspect of its activities **IN ALL RELEVANT JURISDICTIONS**. » **PRINCIPE 2, GOUVERNANCE** : arrangements « clear and transparent », qui « promote the safety and efficiency of the FMI, and **support the stability of the broader financial system, other relevant public interest considerations**, and the objectives of relevant stakeholders ». **PRINCIPE 8, CARACTÈRE DÉFINITIF** : « clear and certain **final settlement, at a minimum by the end of the value date** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **PRINCIPE 9, RÈGLEMENT EN MONNAIE, ET IL FORCE UN CHOIX** : « An FMI should conduct its money settlements **in CENTRAL BANK MONEY where practical and available**. » Et, à défaut : « where central bank money is not used, an FMI should conduct its money settlements using **a settlement asset with LITTLE OR NO CREDIT OR LIQUIDITY RISK** ». **PRINCIPE 18, ACCÈS** : « An FMI should have **objective, risk-based, and publicly disclosed criteria for participation, which permit FAIR AND OPEN ACCESS**. » **PRINCIPE 19, PARTICIPATION EN PALIERS** : l'infrastructure « should identify, monitor, and manage the material risks [...] arising from **tiered participation arrangements** ». **PRINCIPE 17** : risque opérationnel, sources internes et externes"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L3.C05** : le rail et l'unité se séparent — « une monnaie doit être acceptée pour valoir, **un rail doit seulement être joignable** » ; **et la limite y est posée** : « un rail ne répond en rien à P13 [...] un rail parfait sur lequel circulerait de la monnaie de crédit **laisserait le filtre exactement où il est** ». **L3.C09** : **le dispositif s'ajoute au système existant**, son unité ne réglant pas. **L1.C27** : le seuil d'activation « porte sur un poids économique, donc sur **la composition** de la coalition », les leviers d'un club — « accès réservé à un bien, exclusion d'une infrastructure, prélèvement aux frontières » — **ne mordant qu'au-delà d'une part de marché suffisante**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "SEPT PRINCIPES SUR VINGT-QUATRE SONT INSTRUITS. Le corpus tient les
      principes 1, 2, 8, 9, 17, 18 et 19 ; **il ne tient ni le risque de crédit

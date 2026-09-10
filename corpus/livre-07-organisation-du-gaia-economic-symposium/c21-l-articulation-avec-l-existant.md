@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 135 et 150-152 — OUVERT le 2026-09-06. Le Conseil Monétaire « RÉUNIT LES REPRÉSENTANTS DES BANQUES CENTRALES PARTICIPANTES », choix « délibéré » reposant sur l'élargissement du mandat de ces institutions et sur un argument de crédibilité. Et la mission de « traduire cette vision en CADRES JURIDIQUES INTERNATIONAUX CONTRAIGNANTS ». Et la fonction de laboratoire, réunissant « scientifiques, décideurs politiques, entreprises engagées, et représentants de la société civile »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "P.-O. Gourinchas, H. Rey, M. Sauzet, « The International Monetary and Financial System », *Annual Review of Economics*, 11, 2019, p. 859-893. **FOURNI PAR L'AUTEUR ET OUVERT LE 2026-09-07** (129 462 caractères de couche texte). **LE RÉSULTAT QUE LE CORPUS CHERCHAIT DEPUIS TROIS EMPLOIS Y EST, ET IL EST ATTRIBUÉ** : « These excess returns in normal times are, however, associated with NET WEALTH TRANSFERS TO THE REST OF WORLD IN GLOBAL CRISIS TIMES, when the value of US safe assets appreciate, while risky asset prices plummet. These wealth transfers reflect THE PROVISION OF INSURANCE BY THE HEGEMON to the rest of the world in times of global turmoil, a process that **Gourinchas et al. (2017) call EXORBITANT DUTY**. » Et la formulation qui décide : « the United States is the world insurer, and **THE EXORBITANT PRIVILEGE IS AN INSURANCE FEE BEING PAID IN NORMAL TIMES IN EXCHANGE FOR AN INSURANCE TRANSFER — THE EXORBITANT DUTY — BEING IMPLEMENTED IN GLOBAL CRISIS TIMES** via the structure of the external portfolio of the United States. » La référence complète est donnée en bibliographie : **Gourinchas P-O, Rey H, Govillot N. 2017. *Exorbitant privilege and exorbitant duty*. Work. Pap., Univ. Calif., Berkeley / London Bus. School** — WORKING PAPER, que le corpus ne détient toujours pas"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Même source, **section 6, « THE NEW TRIFFIN DILEMMA »**, et conclusion — « as dollar liquidity is omnipresent in international markets, it becomes increasingly obvious, **WITH THE DECLINE OF THE RELATIVE SIZE OF THE UNITED STATES IN THE WORLD ECONOMY, THAT A NEW TRIFFIN DILEMMA MAY EMERGE**. One solution, proposed by several authors, such as Farhi et al. (2011) and Eichengreen (2011), is **THE EMERGENCE OF A MORE MULTIPOLAR INTERNATIONAL MONETARY AND FINANCIAL SYSTEM** where multiple [émetteurs] ». Le dilemme originel y est restitué d'après Triffin 1961 : ou bien l'émetteur fournit assez d'avoirs de réserve et accumule des engagements sans contrepartie, ce qui ruine la confiance, ou bien il limite sa fourniture et le monde connaît « **a shortage of reserve assets, which would impede international transactions** ». **OUVERT le 2026-09-07**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L7.C08, le frein conservateur : le dispositif emploie sans le nommer le mécanisme du banquier central conservateur, et la seule chambre dont la clé de représentation n'est pas énoncée est le Conseil Monétaire. Et L7.C13 : la sanctuarisation juridique est déclarée CONDITION SINE QUA NON de l'émergence des unités, ce qui subordonne le dispositif à une transformation juridique préalable. Et P.-O. Gourinchas, H. Rey, « From World Banker to World Venture Capitalist », NBER WP 11563, 2005 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 : « We find strong evidence of a sizeable EXCESS RETURN of gross assets over gross liabilities [...] mainly due to a RETURN DISCOUNT [...] a COMPOSITION EFFECT : the US tends to borrow short and lend long. » CETTE SOURCE N'EST PAS CELLE QUE LE CORPUS CROYAIT CITER : elle établit le PRIVILÈGE et non le devoir exorbitant, et le mot « insurance » n'y figure aucune fois. Voir § 6"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION, et le dernier avant le rendu. Le livre ne traite

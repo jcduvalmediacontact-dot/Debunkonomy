@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le résultat de L11.C12 : un barème réglé est une DIRECTIVE au sens de Tinbergen, taux = f(données observées), assortie de quatre exigences ; et la CINQUIÈME exigence versée le 2026-09-06 par L8.C31 § 5, sur Kydland-Prescott ouvert de première main — « it is probably preferable that selected rules be simple and easily understood, SO IT IS OBVIOUS WHEN A POLICYMAKER DEVIATES FROM THE POLICY ». Et l'arbitrage A7, et la promesse P48, dont la forme est trouvée et l'arbitrage non rendu"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, ET C'EST LA PLUS EMBARRASSANTE DU

@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Banque de France, *ABC de l'économie*, fiche « Le système monétaire international »**, ouverte le 2026-09-07. **Source secondaire à auteur institutionnel nommé.** **DÉFINITION DU SYSTÈME EN TROIS ÉLÉMENTS**, et le troisième est celui que le corpus n'a jamais instruit : « la **convertibilité** des monnaies » ; « des **régimes de change** » ; et « des **règles et des mécanismes assurant la fourniture de liquidités en devises en cas de besoin (le FILET DE SÉCURITÉ FINANCIÈRE MONDIAL)**, dont les opérations de financement du Fonds monétaire international, les accords de swaps bilatéraux entre banques centrales ». **CONSTAT SUR SON ABSENCE D'ARCHITECTE** : « en l'absence d'autorité internationale unique régulant le SMI, on identifie **un ensemble d'instruments, qui forment DE FACTO un filet de sécurité financière mondial** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "Même fiche — **LES QUATRE ÉTAGES DU FILET** : « de **mécanismes nationaux** : chaque pays se dote de **réserves de change**, qui sont des avoirs en devises et en or » ; des **lignes de swaps de devises entre banques centrales** ; « de **mécanismes multilatéraux régionaux** dans plusieurs régions du monde » ; « de **mécanismes multilatéraux mondiaux** avec le financement par le FMI ». **ET LE MÉCANISME QUI PORTE CE CHAPITRE** : « **La SUR-ACCUMULATION de réserves de change** [...] **permet à un pays de s'AUTOASSURER** (et donc **de moins dépendre d'apports de liquidité du FMI** ou d'autres partenaires internationaux). » **CE QUI ARRIVE À DÉFAUT** : « Un pays qui ne détient plus de réserves de change suffisantes rencontre des difficultés, par exemple pour **payer ses importations essentielles ou rembourser sa dette libellée en devises** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L3.C02** établit que le dispositif occupe le coin du contrôle des capitaux — parité fixe et autonomie monétaire — et que **le trilemme s'applique à chaque membre.** **L3.C04** établit le nouveau dilemme de Triffin : ou bien l'émetteur fournit assez d'avoirs de réserve « et accumule des engagements que sa contrepartie ne couvre plus, ce qui ruine la confiance », ou bien il en fournit trop peu et le monde connaît « a shortage of reserve assets ». **L1.C23** distingue la résilience — absorber une perturbation en conservant ses fonctions — de la stabilité, et pose que **la robustesse ajoute l'absorption de perturbations NON ANTICIPÉES**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "**Statuts du Fonds monétaire international, 1944**, ouverts lors de la passe 1 du Livre 20. **CONSTAT DE LACUNE VÉRIFIÉ LE 2026-09-07** : les vingt-trois chapitres du Livre 20 citent les articles I, II, III, IV, IX, XII, XVII, XIX et XX. **L'ARTICLE V — LES OPÉRATIONS DE FINANCEMENT DU FONDS — N'APPARAÎT QU'UNE FOIS, ET PAR RENVOI**, dans une citation de l'article XII § 5 (b) portant sur l'ajustement du nombre de voix. **Le corpus détient donc le texte qui organise le filet de sécurité du régime de 1944 et ne l'a jamais ouvert.**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "L'ARTICLE V DES STATUTS DE 1944 N'EST PAS INSTRUIT, alors que **le corpus
      détient le texte**. C'est la lacune la moins coûteuse à combler de tout le

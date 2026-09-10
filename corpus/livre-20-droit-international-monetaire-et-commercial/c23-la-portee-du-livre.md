@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les vingt-deux chapitres du Livre 20, écrits le 2026-09-06 en une passe, sur SIX instruments ouverts par téléchargement direct le même jour : le traité de Maastricht, les statuts du Système européen de banques centrales, les statuts du Fonds monétaire international dans leur version de 1944, l'accord instituant l'Organisation mondiale du commerce, l'accord général sur les tarifs douaniers et le commerce, la convention des Nations unies sur le droit de la mer et son accord d'application de 1994, le règlement européen d'ajustement carbone aux frontières, et un arrêt"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L20.C01, qui déclarait en ouvrant le livre : « Le corpus peut dire ce qu'un texte dispose ; IL NE PEUT PAS DIRE CE QU'IL PRODUIT », et qui s'interdisait l'analogie ; L20.C22, qui assemble les huit exigences ; L7.C13 et L1.C18 § 6, qui commandaient l'ouverture du livre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Le compte des manques, au terme du livre ─────────────────────────────
   - "AUCUNE SOURCE DOCTRINALE N'A ÉTÉ OUVERTE. Le livre s'achève sur la limite

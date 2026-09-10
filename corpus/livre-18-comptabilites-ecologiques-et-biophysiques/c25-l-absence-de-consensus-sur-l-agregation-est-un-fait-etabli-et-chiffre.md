@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques (IPBES), *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 3 « The potential of valuation », 170 pages, auteurs principaux coordonnateurs Mette Termansen (Danemark), Sander Jacobs (Belgique), Tuyeni H. Mwampamba (Tanzanie / Mexique).** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **RÉSUMÉ EXÉCUTIF DU CHAPITRE LU DANS LE TEXTE**, quinze constatations principales ; **le corps du chapitre, cent soixante pages, NON LU.** **C'EST UNE ÉVALUATION INTERGOUVERNEMENTALE**, dont les énoncés portent une COTE DE CONFIANCE explicite — *well established*, *established but incomplete*, *unresolved* — que le corpus reproduit. **DROITS : le rapport porte que la reproduction totale ou partielle à des fins éducatives ou non lucratives ne requiert pas d'autorisation particulière du détenteur de droits, sous réserve de mention de la source ; la revente et l'usage commercial sont interdits sans autorisation écrite préalable.** **RÉGIME RETENU : `citation_seule`** — la clause non commerciale est incompatible avec la licence de partage à l'identique du corpus."
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A LU QUE LE RÉSUMÉ EXÉCUTIF DU CHAPITRE, SOIT ONZE PAGES SUR
      CENT SOIXANTE-DIX.** **Les pourcentages rapportés proviennent de revues

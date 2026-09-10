@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Conseil de stabilité financière, « Global Monitoring Report on Nonbank Financial Intermediation 2025 », 16 décembre 2025, 91 pages — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07 depuis `fsb.org/uploads/P161225.pdf`, quinzième exercice annuel, 29 juridictions représentant plus de 90 % du PIB mondial. DONNÉES ARRÊTÉES AU 31 DÉCEMBRE 2024. COMPOSITION DU SYSTÈME FINANCIER MONDIAL, en milliers de milliards de dollars et en part du total** : **actifs financiers mondiaux 503,7 (100 %)** ; **banques centrales 34,1 (6,8 %)** ; **banques 191,3 (38,0 %)** ; **institutions financières publiques 21,5 (4,3 %)** ; **SECTEUR NON BANCAIRE 256,8 (51,0 %)**. Le secteur non bancaire « **continued to expand (9.4%), growing at DOUBLE THE PACE OF THE BANKING SECTOR** ». **Mesure étroite** — les entités que les autorités jugent engagées dans une intermédiation de crédit porteuse de risques de type bancaire — **76,3, soit 15,4 % du total, en hausse de 12,7 %**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**Même rapport — LA DÉFINITION, ET ELLE EST NÉGATIVE.** « **The NBFI sector is a broad measure of all non-bank financial entities, composed of ALL FINANCIAL INSTITUTIONS THAT ARE NOT CENTRAL BANKS, BANKS, OR PUBLIC FINANCIAL INSTITUTIONS.** » Les « autres intermédiaires financiers » en sont le sous-ensemble excluant en outre assureurs, fonds de pension et auxiliaires financiers ; ils comprennent « **money market funds, hedge funds, other investment funds, captive financial institutions and money lenders, central counterparties, broker-dealers, finance companies, trust companies, and structured finance vehicles** ». **ENTITÉS EXCLUES DE LA MESURE ÉTROITE : 164,5 milliers de milliards à fin 2024**, dont « **equity funds, including equity ETFs ($34.9 trillion)** » et « **captive financial institutions and money lenders ($20.3 trillion)** ». **SUR LA MESURE DU CRÉDIT PRIVÉ** : « **there was NO STANDARD DEFINITION of private credit activities in such reports among the jurisdictions participating** », ce qui « made it difficult to consistently identify private credit entities »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "**Même rapport — LES CANAUX DE TRANSMISSION, étude de cas sur l'interconnexion banques / non-banques.** Trois formes de lien : « (i) **funding and deposit relationships**, where non-banks place deposits with banks ; (ii) **lending, repo and other credit exposures** from banks to non-banks ; and (iii) **holdings of bank-issued securities** by investment funds, insurers and pension funds », complétées par des liens de marché — dérivés, financement sur titres, services de conservation, **et expositions communes**. **EXPOSITIONS CORRÉLÉES** : « **Common asset holdings and overlapping portfolios exposes banks and non-bank financial institutions to CORRELATED VALUATION LOSSES and liquidity strains, potentially increasing the risk of SHOCK AMPLIFICATION across sectors and borders, IF INSTITUTIONS ARE SELLING ASSETS SIMULTANEOUSLY.** » **CONCENTRATION** : l'interconnexion « **is often concentrated, with A SMALL NUMBER OF LARGE NBFI COUNTERPARTIES AND DEALER BANKS DOMINATING trading and funding relationships**. This concentration can create **CRITICAL NODES** in the financial system, amplifying stress in the event of a failure. » **Le rapport cite trois précédents : la turbulence de mars 2020, la défaillance d'Archegos en 2021, et la dislocation du marché des obligations d'État britanniques en septembre 2022**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même, et ce livre naît d'un manque qu'il a déclaré. L5.C09** : la protection de l'entrée expire quand la couche déplace des flux, **et le corpus ne sait pas qui réagirait ni comment**. **L11.C02 § 4** : la proposition voisine la plus proche frappe « **les soldes de fin de mois des RÉSERVES BANCAIRES déposées à la banque centrale** » plutôt que les encaisses des détenteurs. **L11.C27** : l'assiette de la fonte est celle de la taxe sur la valeur ajoutée, c'est-à-dire **la consommation finale**. **L21.C03 § 3** : les banques centrales n'ouvrent pas de comptes aux entités non bancaires. **L21.C04** : le coût en fonds propres du dispositif est porté par les banques des prestataires"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÈGLE DE TRAITEMENT POSÉE PAR L'AUTEUR ET TENUE ICI : les gestionnaires

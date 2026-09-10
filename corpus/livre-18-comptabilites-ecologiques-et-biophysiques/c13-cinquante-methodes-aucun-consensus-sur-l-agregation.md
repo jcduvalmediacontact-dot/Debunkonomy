@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**IPBES — Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 3 « The potential of valuation », 170 pages, version anglaise.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt Zenodo, lu dans le texte. **C'ÉTAIT L'ACQUISITION DE RANG 1 DE L18.C12.** **DROITS — ET LE CORPUS DOIT DÉCLARER UNE DIVERGENCE : le DÉPÔT Zenodo porte la mention CC BY 4.0 ; le DOCUMENT lui-même, dans sa page de droits, autorise la reproduction totale ou partielle à des fins éducatives ou non lucratives sous condition d'attribution, et INTERDIT la revente et l'usage commercial sans autorisation écrite préalable.** **Ce sont deux régimes différents, et le corpus retient LE PLUS RESTRICTIF, celui lu dans le document : citation courte avec attribution, aucun usage commercial.** **Le chapitre 3 tel que déposé ne porte AUCUNE mention de droits qui lui soit propre.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS A LU UN CHAPITRE SUR SIX, ET PAS LE RÉSUMÉ À L'INTENTION DES
      DÉCIDEURS EN ANGLAIS.** Le rapport comporte six chapitres ; **seul le

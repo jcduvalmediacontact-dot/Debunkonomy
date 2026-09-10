@@ -10,10 +10,14 @@ Lire dans cet ordre avant toute modification :
 
 1. [corpus/convention.md](corpus/convention.md) — schéma, statuts, empreintes,
    contrôle. **Autorité sur tout ce qui touche au corpus.** Aucun résumé
-   n'existe et ne doit être écrit : cf. son préambule. Révision courante : r9
-   (licence CC-BY-SA-4.0 obligatoire, cible du lecteur explicite, patron des
-   métaphores restituables `(*Image : ...*)`, registre des livres `livres.yaml`
-   et règle du matricule en § 3).
+   n'existe et ne doit être écrit : cf. son préambule. Révision courante : r12
+   (champ `etat_lecture` sur chaque source — `candidate`, `ouverte`,
+   `a_requalifier` —, `date_verification` conditionnel, manifeste des
+   occurrences historiques `corpus/manifeste-etat-lecture.json` lu par le
+   contrôle, état enregistré conservateur ; r9 : licence CC-BY-SA-4.0
+   obligatoire, cible du lecteur explicite, patron des métaphores restituables
+   `(*Image : ...*)`, registre des livres `livres.yaml` et règle du matricule
+   en § 3).
 2. [AGENTS.md](AGENTS.md) — routine de publication. **Ne jamais commiter,
    pousser ni archiver sans validation explicite de l'utilisateur.**
 3. Pour le site hors corpus : [GUIDE-PUBLIER-CONTENU.md](GUIDE-PUBLIER-CONTENU.md),
@@ -26,10 +30,13 @@ Lire dans cet ordre avant toute modification :
    vérification** — cela vaut pour tout résumé produit par un modèle, y compris
    un outil qui « récupère » une page en la faisant résumer. **MODIFIÉ le
    2026-09-06 par l'auteur** : Claude peut désormais télécharger une source,
-   l'ouvrir, juger son édition et écrire la `date_verification` lui-même, à
-   condition de lire le TEXTE et non un résumé. L'entrée de source porte alors
-   `OUVERT PAR TÉLÉCHARGEMENT DIRECT` avec l'URL. Un scan sans couche de texte
-   reste non ouvert. Voir la section « Tenue de cette liste » de
+   l'ouvrir, juger son édition et la porter lui-même à `etat_lecture: ouverte`
+   avec sa `date_verification`, à condition de lire le TEXTE et non un résumé.
+   L'entrée de source porte alors `OUVERT PAR TÉLÉCHARGEMENT DIRECT` avec
+   l'URL. Un scan sans couche de texte reste non ouvert, et une source
+   sélectionnée mais non lue reste `candidate`, sans date. `a_requalifier` est
+   réservé aux occurrences historiques du manifeste : jamais pour une source
+   nouvelle. Voir la section « Tenue de cette liste » de
    `sources-a-ouvrir.md`.
    `registre-des-promesses.md` tient les objections que la première partie du
    Livre 1 renvoie à la seconde ; à solder en passe 2, une ligne par promesse.
@@ -56,7 +63,23 @@ Lire dans cet ordre avant toute modification :
 
 ## Commandes du corpus
 
-Dépendance unique : `PyYAML` (`pip install pyyaml`).
+Dépendance unique : `PyYAML`, épinglée dans `corpus/requirements.txt`
+(6.0.3, constatée le 2026-09-10 sur Windows 11, Python 3.14.5 — la seule
+plateforme testée).
+
+```bash
+python -m pip install -r corpus/requirements.txt                                   # voie connectée
+python -m pip install --no-index --find-links corpus/hors-ligne -r corpus/requirements.txt  # voie hors ligne
+python corpus/test_environnement_propre.py                                          # test en environnement propre
+```
+
+La voie hors ligne repose sur l'artefact de `corpus/hors-ligne/` — roue,
+empreinte SHA-256 dans `SHA256SUMS` et vérifiée mécaniquement avant toute
+installation, licence MIT et notice dans `NOTICE.md` — qui ne couvre que
+l'étiquette `cp314-cp314-win_amd64`. Le test distingue quatre issues par son
+code de sortie : 0 installé et contrôle réussi, 1 contrôle du corpus en échec,
+2 dépendance indisponible — ce n'est pas un défaut du corpus —, 3 plateforme non
+couverte par l'artefact hors ligne.
 
 **Contrôle et état** — `controle.py` est l'autorité, refuse la publication en cas
 de blocage :
@@ -67,10 +90,28 @@ python corpus/controle.py --publier          # ajoute les règles de publication
 python corpus/controle.py --maj-etat         # enregistre l'état après arbitrage
 python corpus/controle.py --maj-etat --fond      # changement substantiel, même jour
 python corpus/controle.py --maj-etat --editorial # changement non substantiel
+python corpus/controle.py --maj-etat --initialiser-tardif=L1.C31   # initialisation tardive, après audit seulement
+python corpus/controle.py --maj-etat --purger-orphelins            # retire les entrées d'état sans chapitre
+python corpus/test_etat.py                       # conservation de l'état enregistré, sur copies
+python corpus/test_lecture.py                    # sabotages E-L1 à E-L6, E-M1, sur copies
 ```
 
 Le fichier `corpus/.etat-corpus.json` est écrit par le script — ne jamais
-l'éditer à la main.
+l'éditer à la main. L'enregistrement **conserve** les qualifications
+existantes : une entrée inchangée ou à métadonnées seules modifiées garde la
+sienne, `--fond` et `--editorial` ne qualifient que les entrées dont le corps a
+changé, une entrée nouvelle est une initialisation neutre, et « tardive » n'est
+jamais déduit d'une date. Le fichier `corpus/manifeste-etat-lecture.json`, écrit
+une fois par la migration `etat_lecture`, est la seule autorisation possible de
+l'état `a_requalifier` (E-L6) : ne jamais l'éditer non plus.
+
+**Migration `etat_lecture`** — outils à exécution unique, dans
+`corpus/migrations/etat-lecture/` : `migrer.py --commit-source <sha>` écrit une
+fois et uniformément depuis le commit source qu'il reçoit explicitement, et
+refuse tout arbre sale non attendu, tout commit inexistant, tout écart entre
+son relevé et l'arbre ; `prouver.py --commit-source <sha>` rejoue huit
+invariants indépendamment. Le protocole complet est
+`protocoles/migration-etat-lecture.md`.
 
 **Conversion d'un texte source en squelette de chapitre** — `convertir.py`
 prend un `.odt`, `.md` ou `.txt` et produit un chapitre à en-tête minimal
@@ -91,9 +132,10 @@ Le convertisseur ne remplit délibérément que le mécanique — jugements
 
 - Ne calcule ni n'écrit d'empreinte à la main : c'est le script qui les stocke
   dans `.etat-corpus.json`.
-- Ne fait pas passer un chapitre à `verifie` sans que les sources soient
-  effectivement vérifiées et datées (§ 11 de la convention, étape 4 : goulot
-  d'étranglement volontaire).
+- Ne fait pas passer un chapitre à `verifie` sans que toutes ses sources
+  soient `ouverte` — texte lu, édition identifiée — et datées (§ 11 de la
+  convention, étape 4 : goulot d'étranglement volontaire). Une source
+  `candidate` ou `a_requalifier` bloque ce passage (E-L4).
 - Ne modifie pas `revision_de_fond` pour une coquille ou une reformulation
   (§ 4 de la convention).
 - N'ajoute pas de champ au schéma sans migration scriptée sur tout le corpus
@@ -120,7 +162,8 @@ en passant :
   index par livre, le `llms.txt` propre au corpus, le glossaire, les `.md`
   servis à côté des pages n'existent pas encore. Les deux empreintes du § 5
   sont bien calculées et stockées dans `.etat-corpus.json` (voir
-  `controler_empreintes` dans `controle.py`).
+  `controler_empreintes` dans `controle.py`), et le manifeste des occurrences
+  historiques est lu par le contrôle (E-L6, E-M1).
 - **`corpus/sources/` n'est pas dans l'arborescence du § 2.** Le dossier
   contient des fichiers `remediation-*.md` et `sources-*.md` (matière de
   vérification, hors schéma). Statut à clarifier avec l'utilisateur avant

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Julia Martin-Ortega, Paula Novo, Erik Gómez-Baggethun, Roldan Muradian, Ciaran Harte et M. Azahara Mesa-Jurado, « Ecosystem services and the commodification of nature », chapitre 27 de *The Routledge Handbook of Commodification*, dir. V. Panitch et E. Bertrand, Routledge, 4 décembre 2023, ISBN 978-1-032-03737-0.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, environ 7 100 mots. **DROITS : le dépôt indique « protected by copyright, with ALL RIGHTS RESERVED », téléchargement et impression permis « for PRIVATE STUDY » — régime `citation_seule`, citations courtes avec attribution, aucune reproduction étendue.** **ET CE N'EST PAS LA VERSION DE RÉFÉRENCE : c'est le MANUSCRIT ACCEPTÉ déposé en archive institutionnelle, non le texte publié.** **RÉSERVE DE CAMP, DÉCLARÉE D'EMBLÉE ET NON MINIMISÉE : ces auteurs sont des économistes écologiques, c'est-à-dire LE CAMP DE F13 LUI-MÊME. Ce texte ne fournit AUCUN adversaire à F13 ; il fournit un adversaire au DISPOSITIF, ce qui est autre chose.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS LIT UN MANUSCRIT ACCEPTÉ, NON LE TEXTE PUBLIÉ.** Pagination et
      libellés peuvent différer de la version de référence. **Aucune des citations

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 5** : le livre doit « comparer les voies d'entrée [...], **ORGANISER SA TRANSITION SECTORIELLE ET INSTITUTIONNELLE** et tester ses alternatives dans différents scénarios ». **Aucun chapitre du corpus n'a touché à cette obligation**, et les sept chapitres écrits de ce livre portent tous sur les voies d'entrée"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**L11.C10, révisé le 2026-09-07**, sur la trajectoire de mise en place. **Sortie retenue par l'auteur le 2026-09-05** : indexer la montée du taux **non sur une date mais sur une OBSERVATION — la disponibilité effective du substitut** — « ce qui rend le report coûteux puisqu'il faut alors **nier un fait plutôt que prendre une décision** ». **COÛT PRINCIPAL, qui n'apparaît qu'une fois le choix arrêté** : « une trajectoire indexée sur la disponibilité du substitut **ne monte jamais là où aucun substitut n'apparaît**, de sorte qu'elle **EXEMPTE PAR CONSTRUCTION LES SECTEURS LES PLUS VERROUILLÉS, QUI SONT CEUX QU'IL FAUDRAIT ATTEINDRE EN PREMIER** ». **Réparation proposée** : « là où aucun substitut n'existe, l'instrument qui agit n'est pas le reflux mais **l'émission** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L11.C06** : « la carte des classes est **la carte des substitutions praticables** ». **L6.C08** : le droit minier **détache le sous-sol du sol** — les substances de mine sont concédables par l'État **indépendamment de la propriété du sol**, et le propriétaire n'a **aucun droit d'opposition** ; « définir un périmètre suffit à neutraliser une technique de commun fondée sur la propriété, **sans rien abroger** ». **ARBITRAGE A34, du 2026-09-07** : « un barème qui fait dire au prix la vérité écologique **exclut ceux qui ne peuvent pas la payer** », et l'exclusion est maximale **là où le signal doit être le plus fort** ; asymétrie relevée et inexpliquée — **le demurrage a un seuil d'exemption indexé, le reflux transactionnel n'en a aucun**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE DONNÉE SECTORIELLE N'EST TENUE. Le corpus ne dispose ni de
      nomenclature d'activités, ni de durées de vie d'équipements, ni de taux de

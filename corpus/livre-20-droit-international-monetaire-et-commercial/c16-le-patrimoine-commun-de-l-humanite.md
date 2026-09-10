@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Convention des Nations unies sur le droit de la mer, Montego Bay, 10 décembre 1982 — **ARTICLE 136** : « The Area and its resources are the COMMON HERITAGE OF MANKIND. » **ARTICLE 137 § 1** : « NO STATE SHALL CLAIM OR EXERCISE SOVEREIGNTY or sovereign rights over any part of the Area or its resources, nor shall any State or natural or juridical person APPROPRIATE any part thereof. NO SUCH CLAIM OR EXERCISE OF SOVEREIGNTY [...] NOR SUCH APPROPRIATION SHALL BE RECOGNIZED. » **§ 2** : « ALL RIGHTS IN THE RESOURCES OF THE AREA ARE VESTED IN MANKIND AS A WHOLE, ON WHOSE BEHALF THE AUTHORITY SHALL ACT. THESE RESOURCES ARE NOT SUBJECT TO ALIENATION. The minerals recovered from the Area, however, MAY ONLY BE ALIENATED IN ACCORDANCE WITH THIS PART and the rules, regulations and procedures of the Authority. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** — Recueil des traités des Nations unies, vol. 1833, n° I-31363, 186 p. **RÉSERVE D'ÉDITION** : numérisation d'un volume imprimé, à couche OCR INÉGALE ; les articles 136, 137, 309, 310 et 311 sont propres, **l'article 140 et une partie de la section sur l'Autorité sont dégradés.** Aucun passage dégradé n'est cité"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **PRÉAMBULE**, reprenant la résolution 2749 (XXV) de l'Assemblée générale du 17 décembre 1970 : les fonds marins au-delà des limites de la juridiction nationale et leurs ressources « are the common heritage of mankind; THE EXPLORATION AND EXPLOITATION OF WHICH SHALL BE CARRIED OUT FOR THE BENEFIT OF MANKIND AS A WHOLE, IRRESPECTIVE OF THE GEOGRAPHICAL LOCATION OF STATES ». **ARTICLE 176** : « The Authority shall have INTERNATIONAL LEGAL PERSONALITY and such legal capacity as may be necessary for the exercise of its functions. » **ARTICLES 178 et 179** : immunité de procédure sauf renonciation expresse ; immunité de perquisition, réquisition, confiscation, expropriation ou toute autre saisie par voie exécutive ou législative. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C22, qui distingue trois catégories sous le mot « communs » ; L11.C16, qui établit que le niveau de valorisation des communs n'est pas une décision libre mais un partage borné par le produit du reflux ; L7.C05, où D2 n'est attribuée à aucune chambre ; L20.C01, qui déclarait le régime des biens communs PREMIÈRE ACQUISITION DU LIVRE"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "L'ACCORD DE 1994 RELATIF À L'APPLICATION DE LA PARTIE XI N'EST PAS AU
      DOSSIER. Il a été négocié parce que la partie XI empêchait la

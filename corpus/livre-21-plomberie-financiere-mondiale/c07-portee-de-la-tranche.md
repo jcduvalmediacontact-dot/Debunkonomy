@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les six chapitres de la tranche, et rien d'autre.** **L21.C01** : principes 4, 5, 15, 16 — le principe 15 exige des fonds propres que L11.C02 établit négatifs. **L21.C02** : principes 7, 12, 20 — le règlement conditionnel frappe le point où l'unité ne règle pas ; la liquidité exige des réserves dans les monnaies concurrentes. **L21.C03** : principes 3, 8, 13, 22 — les écritures écrites font apparaître un quatrième bilan, et la fonte se révèle être le plan de liquidation ordonnée. **L21.C04** : cadre de Bâle, LEV20.7, LEV30.7, LEV30.8, CRE20.7 — trois de fonds propres bancaires par cent d'unités en circulation. **L21.C05** : règles d'admission d'une monnaie à l'infrastructure mondiale de règlement des changes — dix critères, et le renversement. **L21.C06** : directive 98/26/CE — la protection est une décision, et la forme juridique de l'émetteur décide"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**L11.C01 § 3, phrase que la tranche entière a mis quatre chapitres à prendre au sérieux** : « **l'allocation ne circule jamais.** Elle vit exclusivement entre le Symposium et les banques centrales nationales. Le prestataire est payé en monnaie nationale et n'en détient aucune. Ce qui circule dans l'économie [...] est de la **monnaie nationale ordinaire, indiscernable de toute autre.** » **Écrite avant l'ouverture du Livre 21, et non lue par lui avant son cinquième chapitre**"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**SIX PRINCIPES RESTENT NON INSTRUITS** — 6, 10, 11, 14, 21 et 24 : marge,
      livraisons physiques, dépositaires centraux, ségrégation et portabilité,

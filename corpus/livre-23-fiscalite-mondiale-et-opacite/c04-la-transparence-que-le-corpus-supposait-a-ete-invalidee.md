@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: jurisprudence
     reference: "**CJUE, grande chambre, 22 novembre 2022, *WM et Sovim SA c. Luxembourg Business Registers*, affaires jointes C-37/20 et C-601/20, ECLI:EU:C:2022:912** — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, texte français lu sur EUR-Lex. **DISPOSITIF** : l'article 1er, point 15, sous c), de la directive (UE) 2018/843 **« est INVALIDE en tant qu'il a modifié l'article 30, paragraphe 5, premier alinéa, sous c), de la directive (UE) 2015/849 »** en ce que celui-ci prévoit que les États membres doivent veiller à ce que les informations sur les bénéficiaires effectifs **« soient accessibles DANS TOUS LES CAS À TOUT MEMBRE DU GRAND PUBLIC »**. **POINT 44** : cet accès « constitue une **INGÉRENCE GRAVE** dans les droits fondamentaux consacrés aux articles 7 et 8 de la Charte »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: jurisprudence
     reference: "**Même arrêt — LE MOTIF, ET IL VISE UNE PROPRIÉTÉ DE TOUT REGISTRE OUVERT.** **Point 42** : « il est **inhérent** à une telle mise à disposition du grand public de ces informations que celles-ci soient alors accessibles à **un nombre potentiellement illimité de personnes** », de sorte qu'un tel traitement « est susceptible de permettre également à des personnes qui, **pour des raisons étrangères à l'objectif poursuivi** par cette mesure, cherchent à s'informer sur la situation **notamment matérielle et financière** d'un bénéficiaire effectif, d'accéder librement auxdites informations » ; « cette possibilité s'avère d'autant plus aisée lorsque [...] **les données en question peuvent être consultées sur Internet** ». **POINT 86, ET IL ÉCARTE LES ATTÉNUATIONS** : les dispositions facultatives permettant de conditionner l'accès à **une inscription en ligne** ou de prévoir des **dérogations en circonstances exceptionnelles** « ne sont, par elles-mêmes, de nature à démontrer **ni une pondération équilibrée** [...] **ni l'existence de garanties suffisantes** permettant aux personnes concernées de protéger efficacement leurs données contre les risques d'abus »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L23.C01** : la troisième des quatre questions du livre est **« sur quelle assiette RÉELLEMENT ATTEIGNABLE ? »**, et le chapitre relevait que « prix de transfert, sociétés écrans, juridictions de secret, **bénéficiaires effectifs** » restent à instruire, faute de quoi « tout chiffrage de rendement est une fiction ». **L23.C02** : le mandat des Nations unies engage les parties à « lutter contre **les flux financiers illicites** » et à assurer « la transparence et **l'échange de renseignements** ». **L23.C03** : la vérification auto-administrée est le point commun de tous les instruments instruits — **« celui qui doit appliquer est celui qui déclare »**. **L11.C25** porte le contrôle du dispositif ; **L20.C20** tient le seul cas rencontré de **certification par un tiers indépendant**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "L'ÉTAT DU DROIT APRÈS L'ARRÊT N'EST PAS INSTRUIT. Une directive de 2024 sur
      la lutte contre le blanchiment a été adoptée après cet arrêt et **n'est pas

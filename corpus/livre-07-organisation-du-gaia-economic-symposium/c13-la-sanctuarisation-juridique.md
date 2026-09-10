@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, section « Sanctuarisation juridique mondiale des communs », p. 150-152 — OUVERTE DE PREMIÈRE MAIN le 2026-09-06. SECTION SIGNALÉE COMME NON LUE par L1.C18 le 2026-09-04. « La première pierre de cette transformation est la RECONNAISSANCE JURIDIQUE MONDIALE DES COMMUNS PLANÉTAIRES. Il s'agit de considérer l'océan, les forêts primaires, la biodiversité, et même l'atmosphère comme des BIENS INALIÉNABLES [...] Le GAÏA Economic Symposium, instance clé de cette initiative, AURA POUR MISSION DE TRADUIRE CETTE VISION EN CADRES JURIDIQUES INTERNATIONAUX CONTRAIGNANTS. Cela inclura l'élaboration de lois reconnaissant les “droits de la nature”, une avancée majeure qui CONFÉRERAIT AUX ÉCOSYSTÈMES UNE PERSONNALITÉ JURIDIQUE [...] Cette sanctuarisation juridique, en définissant clairement les limites à ne pas franchir, EST LA CONDITION SINE QUA NON À L'ÉMERGENCE DES UNITÉS NEMO GREEN SDR. » Et plus loin : « Le GAÏA Economic Symposium NE SE LIMITE PAS À UN RÔLE LÉGISLATIF. Il se positionne comme un véritable laboratoire mondial d'idées et de solutions »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L7.C05 § 2, l'architecture en quatre chambres telle que le chapitre 7 l'énonce : Assemblée des Communs (normatif), Office de Certification (technique), Conseil Monétaire (quantitatif), Chambre de Recours (juridictionnel). AUCUNE DES QUATRE NE PORTE LA PRODUCTION DE CADRES JURIDIQUES INTERNATIONAUX. Et L7.C12, le point de démarrage : la phase où se fixent D1, D2 et D3 est celle où l'institution est sous financement extérieur"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT SUR UNE SECTION QUE L1.C18 AVAIT SIGNALÉE COMME NON LUE le

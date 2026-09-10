@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les concepts `monnaie_endogene`, `creation_monetaire` et `reflux_monetaire` du vocabulaire ; les promesses P13 et P39 ; la promesse BLOQUANTE P18, selon laquelle une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net et, sans destruction simultanée et calibrée, est inflationniste par construction ; et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucune source de cette famille

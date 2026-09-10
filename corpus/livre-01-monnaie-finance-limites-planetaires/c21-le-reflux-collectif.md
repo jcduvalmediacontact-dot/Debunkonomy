@@ -14,64 +14,64 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 9, sections « Les dispositifs de neutralisation monétaire », « Négentropie monétaire : la régulation à deux ressorts (Keynes, Gesell et Rueff) », « Premier ressort : la fonte transactionnelle, levier qualitatif », « Second ressort : le demurrage sur encaisses oisives, levier quantitatif », « Un système à deux ressorts qui se compensent », « La réponse conjointe à Rueff et à Keynes », « PT = MV transformé » (p. 188-193)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 9 « De la gestion de la dette au reflux monétaire » — trois fonctions de la fonte différenciée (soustraction, reflux en cascade, orientation de l'inflation) ; reflux à deux étages, des transactions vers les banques centrales nationales puis vers le GAÏA Economic Symposium ; six indicateurs de pilotage, dont le ratio de reflux structurel — part de la masse monétaire retirée annuellement par les fontes, rapportée à la masse totale. Le seuil d'alerte macroprudentielle y est déclaré « à définir progressivement selon les paramètres du système NEMO IMS déployé »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "S. Gesell, Die natürliche Wirtschaftsordnung durch Freiland und Freigeld, Selbstverlag, Les Hauts-Geneveys, 1916, IVe partie « Das Freigeld » — « Wir müssen das Geld als Ware verschlechtern, wenn wir es als Tauschmittel verbessern wollen ». Gesell forge les termes Freigeld, rostende Banknoten et Umlaufsicherung ; il n'emploie PAS le mot « demurrage », introduit ultérieurement par la littérature anglo-saxonne et popularisé par les théoriciens des monnaies complémentaires. Le mot vient du droit maritime, où il désigne l'indemnité due pour l'immobilisation d'un navire au-delà des jours de planche"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. M. Keynes, The General Theory of Employment, Interest and Money, Macmillan, 1936, chapitres 13 et 15 — préférence pour la liquidité ; chapitre 23, section VI, où Keynes examine favorablement la proposition de Gesell tout en la jugeant incomplète"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "J. Rueff, L'Âge de l'inflation, Payot, 1963, et Le Péché monétaire de l'Occident, Plon, 1971 — une émission que nul reflux ne vient éteindre demeure en circulation sans contrepartie ; « faux droits » engendrant une demande nominale sans contrepartie d'offre"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "I. Fisher, The Purchasing Power of Money, Macmillan, 1911, chap. II — l'équation d'échange est présentée par Fisher lui-même comme la somme des équations de tous les échanges individuels, donc comme une identité ; la thèse causale n'intervient qu'ensuite, une fois V et T supposés indépendants de M"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: normatif
     reference: "Directive 2006/112/CE du 28 novembre 2006 relative au système commun de taxe sur la valeur ajoutée — la TVA est assise sur la consommation finale et neutralise les transactions intermédiaires par le mécanisme de déduction, ce qui évite l'effet de cascade propre aux taxes sur le chiffre d'affaires"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "J. Tobin, « A Proposal for International Monetary Reform », Eastern Economic Journal, 4(3-4), p. 153-159, 1978 — taxe sur les transactions de change ; littérature ultérieure sur les taxes sur les transactions financières et leurs effets sur la liquidité et la volatilité des marchés"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: actualite
     reference: "Expérience de Wörgl, Tyrol — bons de travail votés par le conseil municipal le 8 juillet 1932, mis en circulation le 31 juillet en coupures de 1, 5 et 10 schillings, gagés par un dépôt bloqué de 32 000 schillings à la caisse Raiffeisen locale ; timbre mensuel de dépréciation de 1 % de la valeur faciale, soit 12 % par an. Le volume moyen effectivement en circulation n'a pas dépassé 5 490 schillings. Chômage communal en recul d'environ 25 % entre juillet 1932 et août 1933, alors qu'il progressait d'environ 19 % au niveau fédéral. Dispositif interrompu par l'arrêt du Verwaltungsgerichtshof du 18 novembre 1933, sur plainte de la Banque nationale d'Autriche au titre de son monopole d'émission. Gesell étant mort le 11 mars 1930, l'expérience lui est POSTÉRIEURE et ne figure dans aucun de ses écrits"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "A. L. Bovenberg, R. A. de Mooij, « Environmental Levies and Distortionary Taxation », American Economic Review, 84(4), p. 1085-1089, 1994 ; D. Fullerton, G. E. Metcalf, « Environmental Taxes and the Double-Dividend Hypothesis », Chicago-Kent Law Review, 73(1), 1997 — l'érosion de l'assiette est un résultat établi : une taxe pigouvienne réduit l'activité qu'elle frappe, donc contracte sa propre base et sa capacité de rendement à mesure qu'elle atteint son but"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S11
     nature: donnees
     reference: "S. R. Umlauf, « Transaction taxes and the behavior of the Swedish stock market », Journal of Financial Economics, 33(2), p. 227-240, 1993 — taxe suédoise de 1 % en 1984 portée à 2 % en 1986 : environ 60 % du volume d'échanges des onze actions suédoises les plus liquides a migré vers Londres dès la fin de 1986, les écarts de cotation se sont élargis et la volatilité quotidienne n'a pas reculé. K. Habermeier, A. Kirilenko, « Securities Transaction Taxes and Financial Markets », IMF Staff Papers, 50, 2003"
     url: "https://doi.org/10.1016/0304-405X(93)90005-V"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S12
     nature: jurisprudence
     reference: "Cour de justice de l'Union européenne, grande chambre, 22 novembre 2022, affaires jointes C-37/20 et C-601/20 (WM et Sovim SA contre Luxembourg Business Registers), ECLI:EU:C:2022:912 — l'accès du grand public aux informations sur les bénéficiaires effectifs constitue une ingérence grave dans les droits garantis par les articles 7 et 8 de la Charte, non limitée au strict nécessaire ni proportionnée à l'objectif poursuivi. Norme d'échange automatique de renseignements de l'OCDE : déclarations annuelles différées, avec exemptions documentées"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "M. Friedman, « The Role of Monetary Policy », American Economic Review, 58(1), p. 1-17, 1968 ; et A Program for Monetary Stability, Fordham University Press, 1960 — l'effet d'une action de politique monétaire sur l'activité et les prix arrive avec des délais LONGS ET VARIABLES, de sorte qu'une correction décidée sur l'état observé agit sur un état déjà différent ; un pilotage discrétionnaire risque d'amplifier les fluctuations au lieu de les amortir. RÉSERVE : références non ouvertes de première main dans cette passe ; à vérifier avant toute citation littérale ou tout emploi chiffré"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S14
     nature: theorie
     reference: "R. E. Lucas Jr., « Econometric Policy Evaluation: A Critique », Carnegie-Rochester Conference Series on Public Policy, 1, p. 19-46, 1976 — les relations estimées sous un régime de politique donné cessent de valoir lorsque la règle change, parce que les agents ajustent leur comportement à la règle anticipée ; évaluer une politique en supposant ces relations stables est une erreur de méthode. RÉSERVE : référence non ouverte de première main dans cette passe"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S15
     nature: theorie
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-492, 1977 — une autorité libre de réviser son plan à chaque période obtient un résultat inférieur à celle qui se lie par une règle annoncée, parce que les agents anticipent la révision. DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 pour le comportement des États (P34b) ; employée ici pour la première fois contre l'instrument du dispositif lui-même. RÉSERVE : référence non ouverte de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "iedman, Lucas et Kydland-Prescott de première main [S13], [S14], [S15].
      Les trois références portent le § sur le mode de fixation des

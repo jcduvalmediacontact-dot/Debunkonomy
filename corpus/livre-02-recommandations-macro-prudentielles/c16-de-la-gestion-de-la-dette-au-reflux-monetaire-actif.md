@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 9**, section 3 — « NEMO IMS propose de refonder la comptabilité monétaire autour d'un mécanisme de reflux qui PRÉSERVE LA PARTIE DOUBLE COMPTABLE tout en substituant L'EXTINCTION COLLECTIVE AU REMBOURSEMENT INDIVIDUEL pour la monnaie néguentropique. » PREMIER MÉCANISME, les fontes différenciées transactionnelles : « un prélèvement modulé sur les transactions monétaires selon leur impact biosphérique et social. Les transactions finançant des activités dégénératives subissent une fonte lourde. Celles finançant des activités neutres, une fonte modeste. Celles finançant des activités régénératives, UNE FONTE NULLE OU NÉGATIVE — C'EST-À-DIRE UNE CRÉATION MONÉTAIRE ADDITIONNELLE. » Trois fonctions : soustraire aux endroits les plus dégénératifs — « C'est le versant ORIENTATION du dispositif » —, reflux en cascade, et orientation démocratique de l'inflation. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source — DEUXIÈME MÉCANISME : « les NGDTS et leur BOUCLAGE ÉMISSION-FONTE [...] Leur émission et leur circulation obéissent à une architecture institutionnelle BIPARTITE ». TROISIÈME MÉCANISME : « le circuit Yin comme dispositif structurel [...] canal monétaire dédié aux activités régénératives, complémentaire au circuit Yang marchand [...] Il gère LA QUALIFICATION des activités par le GAÏA Economic Symposium. Il pilote LES ÉMISSIONS. Il calibre LES FONTES selon les indicateurs macroprudentiels du tableau de bord multidimensionnel. » Épisode 12, huitième déplacement : l'accumulation de dette globale, « TROIS CENT SEPT MILLE MILLIARDS DE DOLLARS EN 2023 », appelle « un mécanisme structurel de reflux qui NE DÉPENDE PAS EXCLUSIVEMENT DU REMBOURSEMENT INDIVIDUEL »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L2.C05, qui établit qu'AUCUN des instruments proposés par Aglietta en 2016 n'est une émission : régulations, réserves, achats d'actifs, répression financière « opèrent tous sur du crédit EXISTANT » ; L2.C06 et L2.C07, qui établissent que ni la note de 2022 ni le rapport de 2011 ne proposent d'émission ; **le huitième déplacement est donc celui qui ne bénéficie D'AUCUN appui doctrinal au dossier**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — `protocoles/registre-des-promesses.md`, **promesse P39** (issue de L1.C23 § 4) : selon la littérature du circuit, le remboursement des crédits passés est « une fuite hors du circuit économique » creusant l'écart entre revenus distribués et valeur de la production ; « OR NEMO IMS FAIT DE LA DESTRUCTION MONÉTAIRE SON INSTRUMENT CENTRAL ». La réponse de principe porte sur les VOLUMES et laisse entiers **l'incidence** — qui supporte le reflux — et **le calendrier** — à quel moment du circuit il prélève"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CHIFFRE DE LA DETTE GLOBALE N'EST PAS VÉRIFIÉ À SA SOURCE. « Trois cent
      sept mille milliards de dollars en 2023 » est repris du Cahier ;

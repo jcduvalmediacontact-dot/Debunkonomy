@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**L1.C27**, et le corpus y tient l'argument du livre pour le meilleur de son argumentation institutionnelle : « la page du livre sur le **passager clandestin** est la meilleure de son argumentation institutionnelle : elle pose l'objection **dans sa forme forte**, y répond par **trois leviers structurels plutôt que par des appels à la vertu**, et **concède explicitement un seuil d'activation en dessous duquel le dispositif ne fonctionne pas** ». Le seuil « porte sur un poids économique, donc sur **la composition** de la coalition et non seulement sur le nombre de ses membres », et les leviers — « accès réservé à un bien, **exclusion d'une infrastructure**, prélèvement aux frontières » — « ne mordent qu'au-delà d'une part de marché suffisante »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**L20.C13**, tiré des statuts du Fonds de 1944 et ouvert lors de la passe 1 du Livre 20. **AMORÇAGE** : art. XX § 2 (d) — **un cent-millième** de la souscription future, versé au dépositaire, **restitué si le système n'est pas en vigueur à une date écrite dans le traité.** Contribution **plafonnée**, financeur **identifié**, **droits éteints.** **ENTRÉE EN VIGUEUR** : seuil exprimé **en part des contributions**, assorti d'une **DATE PLANCHER** et d'une **date butoir** — la date plancher « empêche le système d'entrer en vigueur **au moment où le groupe des signataires est le plus étroit** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, et deux résultats du jour changent le calcul.** **L3.C09** : **le dispositif ne remplace pas le système existant, il s'y ajoute** — son unité ne réglant pas, elle ne peut pas être un actif de réserve, et la boucle d'auto-assurance se poursuit hors de lui. **L5.C02** : le principe 18 du standard des infrastructures exige un accès « **fair and open** » sur critères « objective, risk-based, and publicly disclosed », **ce que ce chapitre avait jugé incompatible avec la logique de club.** S'y ajoute le mécanisme versé le 2026-09-07 : **l'émetteur en place peut TARIFER LA SORTIE**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN CAS HISTORIQUE DE COALITION MONÉTAIRE N'EST INSTRUIT. Ni l'union
      latine, ni l'union scandinave, ni le serpent monétaire européen, ni le

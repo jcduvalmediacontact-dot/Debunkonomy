@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026 — LIGNE DE DÉLIMITATION, versée en L1.C22 § 3 : le dispositif « n'a pas vocation à garantir les échecs du marché, mais à financer les activités non marchandes essentielles et insolvables — dépolluer les océans en relève, une innovation commerciale hasardeuse n'en relève pas ». Et chapitre 7, section « Sanctuarisation juridique mondiale », p. 150 : les communs planétaires y sont énumérés — « l'océan, les forêts primaires, la biodiversité, et même l'atmosphère »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — l'arbitrage A5, le périmètre financé, ROUTÉ VERS CE LIVRE le 2026-09-06 par décision de l'auteur, avec les promesses P32 (le périmètre est indéterminé), P33 (le critère cesse de tenir dans le régime des services) et P57 (le récit public tranche plus large que la conception). Et le résultat de L11.C13 § 3 : DÉCIDER CE QUI QUALIFIE EST DÉCIDER CE QUI EST FINANCÉ, de sorte que le périmètre et le barème de qualification sont une seule décision vue de deux endroits. Et L1.C15, l'essentiel insolvable"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE QUI TRAITE L'ARBITRAGE ROUTÉ ICI LE JOUR MÊME. Il n'a pas de

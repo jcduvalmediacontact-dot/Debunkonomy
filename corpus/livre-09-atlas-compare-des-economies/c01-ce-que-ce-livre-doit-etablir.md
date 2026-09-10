@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 9** — projection du plan directeur de l'auteur. **Titre** : Atlas comparé des économies du monde. **Collection** : cahier-comparatif. **Statut du livre** : exploratoire. **Fonction assignée** : Constituer des fiches nationales comparables et actualisables, puis produire des synthèses régionales et une matrice d'adaptation à NEMO IMS. **Motifs** : **discipline — économie comparée** ; **rouage — conditions d'adaptation nationale du dispositif**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE SOURCE N'EST OUVERTE POUR CE LIVRE, et aucun chapitre n'est écrit.
      **Ce chapitre est une AMORCE** : il enregistre ce que le registre assigne au

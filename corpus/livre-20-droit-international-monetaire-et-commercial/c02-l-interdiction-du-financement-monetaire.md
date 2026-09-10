@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Traité sur l'Union européenne, signé à Maastricht le 7 février 1992, JO C 191 du 29.7.1992 — **ARTICLE 104 § 1** : « Il est interdit à la BCE et aux banques centrales des États membres, ci-après dénommées « banques centrales nationales », d'accorder des découverts ou tout autre type de crédit aux institutions ou organes de la Communauté, aux administrations centrales, aux autorités régionales ou locales, aux autres autorités publiques, aux autres organismes ou entreprises publics des États membres ; l'ACQUISITION DIRECTE, auprès d'eux, par la BCE ou les banques centrales nationales, des instruments de leur dette est également interdite. § 2. Le paragraphe 1 ne s'applique pas aux établissements publics de crédit qui, dans le cadre de la mise à disposition de liquidités par les banques centrales, bénéficient... [du même traitement que les établissements privés de crédit] ». **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**, PDF du Journal officiel, 424 333 caractères de couche texte. **RÉSERVE D'ÉDITION** : texte ORIGINEL de 1992 ; la disposition porte ici le numéro 104, non 123"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Protocole sur les statuts du Système européen de banques centrales et de la Banque centrale européenne — **ARTICLE 21.1** : « In accordance with Article 101 of this Treaty, overdrafts or any other type of credit facility with the ECB or with the national central banks in favour of Community institutions or bodies, central governments, regional, local or other public authorities, other bodies governed by public law, or public undertakings of Member States shall be prohibited, as shall the purchase DIRECTLY FROM THEM by the ECB or national central banks of debt instruments. **21.2.** The ECB and national central banks may act as FISCAL AGENTS for the entities referred to in Article 21.1. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** **RÉSERVE D'ÉDITION** : version consolidée d'AMSTERDAM, publiée dans l'ECB Compendium 2002 ; la même prohibition y porte le numéro 101"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C18 § 6 : la question des articles du traité européen est « à trancher AVANT tout exposé du mécanisme d'émission ». Elle ne l'a pas été, et le mécanisme a été exposé sur trente chapitres du Livre 1, vingt-six du Livre 11 et vingt-deux du Livre 7"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DE FOND DU LIVRE 20, et il traite le verrou que

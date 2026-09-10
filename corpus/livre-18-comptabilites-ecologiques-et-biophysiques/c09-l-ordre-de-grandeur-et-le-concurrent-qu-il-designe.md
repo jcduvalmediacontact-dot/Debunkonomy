@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Programme des Nations unies pour l'environnement, *State of Finance for Nature 2026 — Nature in the red: Powering the trillion dollar nature transition economy*** — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, pièce fournie par l'auteur, 107 pages. **Année d'analyse : 2023**, « the most recent year for which data is consistently available », estimations **en dollars réels de 2024**. **CHIFFRE CENTRAL** : « In 2023, **finance directly harmful to nature reached US$7.3 TRILLION**, while investments in nature-based solutions (NbS) amounted to **only US$220 BILLION — a ratio of more than 30:1** ». **BESOIN** : « To meet global commitments under the Rio Conventions, **NbS investment must increase by more than two and a half times to US$571 BILLION by 2030**, while harmful flows must be **phased out and repurposed** ». **DÉPENDANCE** : « **Nearly half our global economy significantly depends on nature** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**Même source — LA STRUCTURE DES FLUX, ET ELLE EST DÉCISIVE POUR LE CORPUS.** **Subventions dommageables** : le financement public domestique pour les solutions fondées sur la nature « remains modest compared to **environmentally harmful subsidies (EHS), which EXCEED US$2 TRILLION ANNUALLY** » — données IISD-OCDE 2025 et OCDE 2024a. **Répartition public / privé** : « **Public finance flows to nature-based solutions are EIGHT TIMES BIGGER than private finance flows** » ; dépense publique domestique **190 milliards** en 2023, financement privé **23,4 milliards**, aide publique au développement **6,8 milliards**. **Composition du privé** : compensations biodiversité « over US$7 billion », chaînes d'approvisionnement certifiées « over US$4 billion », obligations et fonds biodiversité « around US$5 billion », marchés carbone fondés sur la nature « US$1.3 billion ». **SOLUTION PROPOSÉE PAR LE RAPPORT** : « **Cutting harmful subsidies and shifting private portfolios** away from destructive activities **can unlock resources** » ; « redirecting harmful subsidies, **integrating NbS into fiscal frameworks** and mobilising private finance »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L5.C07** : la concurrence des alternatives « ne décrit pas une action mais une situation subie », et le corpus doit « argumenter sa position au lieu de la supposer évidente ». **L10.C04**, corrigé le 2026-09-07 : la prohibition de l'article 123 a une **portée personnelle** — elle vise les autorités et organismes publics — de sorte qu'« une émission au bénéfice d'acteurs privés conduisant une activité qualifiée n'entre pas dans son champ ». **L10.C06**, arbre de qualification de la fonte, **six branches**. **L1.C18 § 5** : la consolidation nationale « n'est pas, en l'état de la statistique, un déclencheur utilisable ». **L18.C04** : « il n'y a eu aucune preuve de découplage absolu généralisé »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS NE TIENT AUCUNE DONNÉE SUR L'HISTOIRE DES RÉFORMES DE
      SUBVENTIONS, et c'est ce qui lui manque pour répondre au concurrent que ce

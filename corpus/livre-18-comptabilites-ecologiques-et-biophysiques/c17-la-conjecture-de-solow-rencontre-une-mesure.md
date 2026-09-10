@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Mark J. Koetse (Vrije Universiteit Amsterdam), Henri L. F. de Groot (VU Amsterdam et Tinbergen Institute) et Raymond J. G. M. Florax (VU Amsterdam et Purdue University), « Capital-Energy Substitution and Shifts in Factor Demand: A Meta-Analysis », *Tinbergen Institute Discussion Paper* TI 2006-061/3, 25 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le serveur du Tinbergen Institute, lu dans le texte. **DROITS : aucune mention lue dans le document — régime `a_verifier`, citation courte avec attribution.** **DOCUMENT DE TRAVAIL : une version a paru en revue en 2007-2008 et n'est pas ouverte.** **C'était l'acquisition de rang 1 inscrite par L18.C16.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**CE N'EST PAS LA GRANDEUR DE SOLOW, ET C'EST LA RÉSERVE PRINCIPALE.** Solow
      conditionne son résultat à l'élasticité de substitution entre **les ressources

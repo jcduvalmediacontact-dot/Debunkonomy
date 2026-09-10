@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, « Le GAÏA Economic Symposium », p. 131-156 — source déclarée du livre. ARCHITECTURE INSTITUTIONNELLE RETENUE, versée en L1.C18 : quatre chambres à pouvoirs séparés, tutelle duale, et une règle interdisant que celui qui définit ce qui compte décide aussi de ce qu'on émet. RÉSERVE DÉCLARÉE : le dossier Drive de ce livre est VIDE ; le corpus ne dispose que du chapitre du livre et de ce que ses propres chapitres ont établi"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la table de routage (protocoles/routage-livres-annexes.md), qui assigne à ce livre TREIZE promesses, le falsifieur F3 et trois arbitrages, et qui en fait la charge la plus lourde de la collection ; et la SECTION DES COUPLAGES de la même table, établie le 2026-09-06, qui verse à ce livre NEUF ACQUIS de la passe 1 du Livre 11 pour qu'il n'ait pas à les redécouvrir"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 7, ouvert le 2026-09-06. Le livre était déclaré

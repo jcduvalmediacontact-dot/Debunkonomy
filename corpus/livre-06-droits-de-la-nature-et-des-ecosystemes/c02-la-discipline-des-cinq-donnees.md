@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*L6 — PROTOCOLE ÉDITORIAL v06*, règle **A.1** — « Pour chaque affaire contentieuse mentionnée dans le Livre 6, distinguer systématiquement cinq données : 1. **Le montant RÉCLAMÉ** par le demandeur dans sa requête initiale. 2. **Le montant ACCORDÉ** par le tribunal dans sa sentence (principal). 3. **Les INTÉRÊTS ajoutés** au principal (taux, période, méthode de capitalisation). 4. **L'ÉTAT DES RECOURS** en cours ou clos (annulation, révision, exécution contestée). 5. **La somme EFFECTIVEMENT PAYÉE**, si elle est connue et documentée. Sinon, préférer « montant convenu » à « montant versé ». **LE RÉCIT NE DOIT JAMAIS FONDRE CES CINQ STRATES EN UN CHIFFRE UNIQUE. C'est cette discipline qui rend le propos difficilement attaquable par des critiques spécialisées.** » Précision : lorsqu'une action ne comporte aucune demande indemnitaire, « les cinq strates sont déclarées sans objet, EXPLICITEMENT. **L'exécution provisoire ne vaut jamais preuve de paiement.** » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, règles **A.3 et A.4** — l'exécution des sentences « reste soumise aux **IMMUNITÉS DES BIENS SOUVERAINS** : tous les biens d'un État à l'étranger ne peuvent pas être saisis indistinctement » ; et sur l'évaluation : « **la méthode DCF n'est pas la seule utilisée.** D'autres méthodes retiennent les coûts effectivement engagés, la valeur de marché ou la valeur comptable de l'investissement. **LE CHOIX DE LA MÉTHODE AFFECTE CONSIDÉRABLEMENT LE MONTANT FINAL.** » Et sur la responsabilité : « **La reconnaissance d'une violation et l'évaluation financière du préjudice sont DEUX ÉTAPES DISTINCTES.** »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C05, sur l'assiette du reflux transactionnel ; L11.C09, sur l'incidence, qui établit que deux prélèvements de même montant sur des agents différents n'ont pas le même effet ; L11.C16 § 3 et § 7, sur le plafond de l'enveloppe et le nombre d'actes finançables ; et `protocoles/routage-livres-annexes.md`, qui attend du Livre 13 le « rapport chiffre d'affaires cumulé ÷ valeur finale » sans lequel « aucune borne sur le taux »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE AFFAIRE N'EST INSTRUITE DANS CE CHAPITRE. Il porte une RÈGLE et
      non un cas. **Les onze épisodes maîtres l'appliquent ; le corpus ne les a

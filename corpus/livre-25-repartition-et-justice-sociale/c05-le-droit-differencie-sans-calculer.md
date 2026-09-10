@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Accord de Paris, JO de l'Union européenne L 282/4 du 19 octobre 2016 — MÊME SOURCE QU'EN L25.C03, OUVERTE PAR LECTURE DIRECTE. ARTICLE 2 § 2, ET C'EST UNE RÈGLE D'APPLICATION ET NON UN PRÉAMBULE** : « **Le présent Accord SERA APPLIQUÉ conformément à L'ÉQUITÉ et au principe des RESPONSABILITÉS COMMUNES MAIS DIFFÉRENCIÉES ET DES CAPACITÉS RESPECTIVES, eu égard aux différentes situations nationales.** » **ARTICLE 4 § 3** : chaque contribution nationale successive « **représentera une progression par rapport à la contribution [...] antérieure et correspondra à SON NIVEAU D'AMBITION LE PLUS ÉLEVÉ POSSIBLE**, compte tenu de ses responsabilités communes mais différenciées et de ses capacités respectives ». **ARTICLE 4 § 4** : les pays développés « **devraient continuer de montrer la voie en assumant des objectifs de réduction des émissions EN CHIFFRES ABSOLUS À L'ÉCHELLE DE L'ÉCONOMIE** » ; les pays en développement « devraient continuer d'accroître leurs efforts d'atténuation »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même accord — LA CONDITIONNALITÉ, ET ELLE EST ÉCRITE. ARTICLE 4 § 5** : « **Un appui est fourni aux pays en développement Parties pour l'application du présent article, conformément aux articles 9, 10 et 11, ÉTANT ENTENDU QU'UN APPUI RENFORCÉ EN FAVEUR DES PAYS EN DÉVELOPPEMENT PARTIES LEUR PERMETTRA DE PRENDRE DES MESURES PLUS AMBITIEUSES.** » **ARTICLE 2 § 1 c), ET C'EST L'OBJECTIF QUI VISE LA FINANCE** : l'Accord vise à renforcer la riposte mondiale notamment en « **rendant LES FLUX FINANCIERS COMPATIBLES avec un profil d'évolution vers un développement à faible émission de gaz à effet de serre et résilient aux changements climatiques** ». **ARTICLE 2 § 1 b), ET C'EST UN PLANCHER À L'INTÉRIEUR DE L'OBJECTIF CLIMATIQUE** : renforcer l'adaptation et la résilience « **d'une manière QUI NE MENACE PAS LA PRODUCTION ALIMENTAIRE** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, et ce chapitre relève une régularité sur trois de ses chapitres écrits le même jour. L22.C04** : le barème écologique en vigueur **ne mesure pas la régénération, il CERTIFIE UN PROCÉDÉ** — état initial documenté, plan décennal, audit tiers, garantie de permanence, et aucun seuil chiffré. **L25.C02** : le noyau dur des droits économiques et sociaux est **un niveau en droit et il n'est pas chiffré**, le texte procédant **PAR CONSTAT DE PRIVATION** et par renversement de la charge de la preuve. **L24.C01** : les neuf variables de contrôle n'ont **aucune unité commune**, et le cadre ne comporte ni total, ni indice composite, ni pondération. **L25.C04** : le Fonds social pour le climat donne une clé de répartition par État **sans que le corpus tienne la formule qui la produit**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LA CONVENTION-CADRE ELLE-MÊME N'EST PAS OUVERTE.** L'Accord de Paris
      renvoie à elle et en applique les principes ; **le corpus tient l'Accord et

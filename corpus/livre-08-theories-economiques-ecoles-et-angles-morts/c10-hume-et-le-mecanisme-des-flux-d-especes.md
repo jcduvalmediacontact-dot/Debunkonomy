@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P50, « le solde commercial est un canal monétaire non compté » : le règlement détruit la monnaie de l'importateur et crée celle de l'exportateur, de sorte que le déséquilibre commercial n'est absorbé ni par les réserves ni par le taux de change et SE DÉVERSE INTÉGRALEMENT SUR LA MASSE MONÉTAIRE INTERNE, la parité étant fixe. Versée en L1.C26 § 2 et § 5. Et le résultat de L11.C15 § 2 : c'est le coût exact de la branche « parité constante », un déséquilibre réel n'étant jamais absorbé"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, ET UNE ERREUR D'ÉDITION RATTRAPÉE

@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse BLOQUANTE P18 : « une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net dans le circuit marchand ordinaire ; sans destruction simultanée et calibrée, elle est inflationniste par construction ». Et le falsifieur F1, qui en exige le chiffrage. Et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni Locke ni Law ne sont en

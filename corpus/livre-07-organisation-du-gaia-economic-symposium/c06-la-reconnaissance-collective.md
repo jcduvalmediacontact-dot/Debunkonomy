@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 5, « Pour une nouvelle éthique de la valeur », p. 87-88 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. RÉPONSE DU LIVRE À LA QUESTION DE LA VALORISATION, jamais relevée par le corpus : « À la différence des biens et services marchands, la détermination de la valeur des écosystèmes ne peut pas se faire par les mécanismes du marché. Les communs sont des domaines qui ne sont pas visibles par l'offre et de la demande. Ce qui signifie que la détermination de leur valeur/coût/prix doit se faire par des dispositifs alternatifs au marché. LA DÉTERMINATION DE CETTE VALEUR EXTRAFINANCIÈRE NE SAURAIT ÊTRE POSSIBLE QUE PAR UNE RECONNAISSANCE COLLECTIVE. Je parle ici d'un CONSENSUS MONDIAL pour la reconnaissance des communs et la valorisation des activités économiques indispensables qui ont pour but de les préserver et de les régénérer. » Et le motif : « le défaut de reconnaissance immédiat des services écosystémiques est ce que nous appelons la tragédie des horizons »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 133 — OUVERT le 2026-09-06 : les décisions de l'Assemblée des Communs « sont prises à DOUBLE MAJORITÉ : une norme n'est adoptée que si elle réunit la majorité des États membres et la majorité de la population mondiale représentée. Ce mécanisme, INSPIRÉ DU CONSEIL DE L'UNION EUROPÉENNE, est le seul qui protège simultanément les petits et les nombreux. La règle “un État, une voix” serait inacceptable pour les pays les plus peuplés et condamnerait toute adhésion internationale ; la pondération par la seule population marginaliserait les petits États insulaires, qui sont pourtant les premières victimes climatiques »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 15 avril 1994, article IX — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, dépouillé en L7.C02 § 4 : l'Organisation « shall continue the practice of DECISION-MAKING BY CONSENSUS followed under GATT 1947 », alors même qu'une voix par membre y est inscrite"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR DEUX CHAPITRES DU LIVRE SOURCE ouverts le même jour, et

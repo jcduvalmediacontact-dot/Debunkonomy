@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026 — le NEMO Exchange Standard. Les taux y sont dits « fixes par conception », puis « fixes mais ajustables », leurs modalités « restent à discuter », et l'auteur évoque « une photo à un instant T ». Versé au dossier en L1.C26 [S2]. SUR LA RÉVISION, seul énoncé de l'ouvrage à nommer un critère, versé en L1.C28 § 6 sous la promesse P54 : « les révisions seraient probablement soumises à des critères objectifs et transparents, potentiellement basés sur des indicateurs économiques clés tels que l'inflation, LA CROISSANCE DU PIB, ou la balance commerciale de chaque nation ». Le conditionnel est de l'auteur et l'énoncé est donné comme une conjecture"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963 — OUVERT INTÉGRALEMENT le 2026-09-05, dépouillé en L11.C04. Retenu ici : sous parité fixe et mobilité parfaite, « the central bank has no power over the money supply either (except in transitory positions of disequilibrium) », et la stérilisation « will ultimately lead to the breakdown of the fixed exchange system ». LA PARITÉ N'EST DONC PAS UN INSTRUMENT LIBRE : elle est déjà affectée, et elle capture l'instrument monétaire national"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT le 2026-09-06. Retenu ici : les DIRECTIVES, équations qui « indicate how the political parameters have to be varied in relation to the changing data » (ch. IV) ; la distinction entre DONNÉES, « external to the economic complex considered [...] as far as not under the command of the authority considered », et VARIABLES-OBJECTIFS (ch. II) ; et le troisième remède à l'incertitude, « waiting for some important decisive factor that is as yet unknown » (ch. X)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » Versé en L11.C10 [S6]. Le présent chapitre soutient que la MÊME FORME s'applique à la révision des parités, et que l'auteur a donc déjà tranché, sur un autre instrument, la question que L1.C26 § 3 laisse ouverte sur celui-ci"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "B. Balassa, « The Purchasing-Power Parity Doctrine: A Reappraisal », Journal of Political Economy, 72(6), 1964 ; P. Samuelson, « Theoretical Notes on Trade Problems », Review of Economics and Statistics, 46(2), 1964 — les écarts de productivité entre secteurs exposés et abrités produisent des écarts durables de niveau de prix entre économies, de sorte que les pouvoirs d'achat ne convergent pas par la seule fixation des taux nominaux. Versés au dossier en L1.C26 § 6. RÉSERVE : NON OUVERTS, et portés en liste d'acquisition. Ils fournissent la grandeur observable que le § 6 du présent chapitre appelle sans pouvoir la nommer précisément"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # TROISIÈME DES CINQ BARÈMES instruit. Le chapitre ne rouvre pas P49, qui est

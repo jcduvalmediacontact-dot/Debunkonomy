@@ -14,39 +14,39 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, instruction de conception adressée au corpus le 2026-09-05, après lecture de L11.C09. Texte intégral : « Il convient, je pense, d'appuyer l'idée d'une progressivité de la mise en place de ces dispositifs. De sorte que les industries aient le temps de remettre en question leurs processus pour le rendre moins impactants. » NATURE : instruction de l'auteur, faisant autorité sur l'intention et non sur la mécanique. Le motif énoncé est décisif pour ce chapitre : la progressivité n'est pas demandée pour adoucir le prélèvement mais pour PERMETTRE UN INVESTISSEMENT DE TRANSFORMATION"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "R. E. Lucas Jr., « Econometric Policy Evaluation: A Critique », Carnegie-Rochester Conference Series on Public Policy, 1, 1976, p. 19-46 — les relations de comportement estimées sur un régime de politique ne survivent pas au changement de régime, les agents ajustant leurs décisions à la règle annoncée. RÉSERVE FORTE : NON OUVERT. Employé pour la troisième fois par le corpus sans avoir été lu — d'abord en L1.C21 § 6 sous la forme de la déformation de l'assiette par anticipation du barème annoncé, puis dans F7, et ici sur la trajectoire elle-même. Libre en ligne, priorité 1 de protocoles/sources-a-ouvrir.md"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), 1977, p. 473-492 — incohérence temporelle : une politique optimale annoncée cesse de l'être au moment de son exécution, de sorte que l'autorité a intérêt à s'en écarter, que les agents l'anticipent, et que l'annonce perd son effet. RÉSERVE FORTE : NON OUVERT. Employé pour la troisième fois sans avoir été lu — P34b, F7, et ici. Libre en ligne, priorité 1"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "M. Friedman, « The Role of Monetary Policy », American Economic Review, 58(1), 1968, p. 1-17 — délais longs et variables de la politique monétaire : une correction décidée sur un état observé agit sur un état qui a déjà changé. RÉSERVE FORTE : NON OUVERT. Déjà employé en L1.C21 § 6 et dans F7. Libre en ligne, priorité 1"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "R. Barre, compte rendu de J. Tinbergen, On the Theory of Economic Policy, Revue économique, 5(1), 1954, p. 124-126 — OUVERT le 2026-09-05, versé en L11.C03 [S6]. Point retenu ici : lorsque les conditions-limites ne peuvent être satisfaites, Tinbergen prescrit de « renoncer à des objectifs moins importants et pratiquer une MÉTHODE DE TÂTONNEMENTS ». Une trajectoire progressive est un tâtonnement organisé — le corpus relève que l'instruction de l'auteur rejoint, sans le savoir, la prescription du seul auteur dont le Livre 11 tienne la méthode"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05, après lecture du § 5 du présent chapitre. L'auteur reprend la forme proposée et l'approuve : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. OUI ! » Cet arbitrage tranche A15 en faveur de la troisième forme, l'indexation sur une observation. NATURE : décision de conception de l'auteur ; elle arrête la forme de la trajectoire et ne verifie aucune des sources sur lesquelles le chapitre s'appuie, ni ne supprime les coûts énoncés au § 6"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "M. De Vroey, « Lucas on the Lucasian Transformation of Macroeconomics: an Assessment », IRES Discussion Paper 2010-32, Université catholique de Louvain, juillet 2010 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, procuré par l'auteur. Histoire de la pensée, écrite avec l'autorisation de Lucas de citer ses archives à Duke. CE QU'ELLE ÉTABLIT SUR LA CRITIQUE DE LUCAS : « Lucas's target in his Econometric Policy Evaluation: A Critique article was the macroeconometric models of the time [...] Being based on reduced forms, these models missed the fact that AGENTS WOULD CHANGE THEIR DECISIONS WHEN FACED WITH A CHANGE IN THE INSTITUTIONAL REGIME [...] a model of the economy estimated at a period during which a particular institutional regime held sway could not provide adequate information for assessing behavior under a different regime. » Et Lucas lui-même, cité : « changes in the rules governing monetary policy alter coefficients in what one would ordinarily have thought of as structural equations in the econometric sense, regardless of the stability of these coefficients over a past sample period » (Lucas 1981a, p. 11). NATURE : source secondaire, mais qui CITE Lucas sur son propre article ; les passages entre guillemets attribués à Lucas ont donc un statut supérieur à une paraphrase"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "E. Combe, « Les contradicteurs du keynésianisme : de Friedman aux nouveaux classiques », in La Documentation Française, Découverte de l'économie, 2. Histoire de la pensée économique, n° 280, mars-avril 1997, p. 71-78 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, procuré par l'auteur. SYNTHÈSE PÉDAGOGIQUE, donc source secondaire de rang faible ; le corpus l'emploie pour ce qu'elle restitue de la DOCTRINE REÇUE et non comme autorité sur les textes. SUR KYDLAND-PRESCOTT 1977 : « Une politique est discrétionnaire dès lors que le gouvernement peut revenir sur ses engagements : les agents ne vont pas croire aux mesures annoncées (et donc modifier leurs anticipations), dans la mesure où elles sont révisables à tout moment. » Et : « une politique qui est optimale en t1 [...] ne l'est plus aux périodes suivantes, compte tenu des anticipations rationnelles des agents. » SUR FRIEDMAN ET LES DÉLAIS, plus fort que ce que le corpus soutenait : « si les cycles d'activité sont courts et si les délais d'efficacité de la politique monétaire sont longs, alors une politique monétaire contracyclique risque de se révéler... procyclique ! Les fluctuations de l'activité seront accrues par la politique monétaire, qui se transforme en politique de déstabilisation. » SUR LES REMÈDES, décisif pour le § 5 : deux familles de règles, les règles de COMPORTEMENT — « un gouvernement peut importer la crédibilité, en s'arrimant à une zone de changes fixes menée par une monnaie forte », ou nommer un banquier central « conservateur » (Rogoff 1985) — et les règles de DROIT, où « pour rendre crédible son action, le gouvernement doit se lier les mains juridiquement »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "A. Goutsmedt, E. Pinzón-Fuchs, M. Renault, F. Sergi, « Reacting to the Lucas Critique: The Keynesians' Pragmatic Replies », Documents de travail du Centre d'Économie de la Sorbonne 2017.42, HAL halshs-01625169 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, procuré par l'auteur. HISTOIRE DE LA PENSÉE documentant la contestation EMPIRIQUE de la critique de Lucas par les macroéconomètres keynésiens dans les années 1980. CE QU'ELLE ÉTABLIT, et cela joue CONTRE l'emploi que le corpus faisait de Lucas. Résumé des auteurs : « Keynesians rejected the Critique as a general principle with no relevance for concrete macroeconometric practice ; their rejection relied on econometric investigations [...] Keynesians argued that the parameters of their models remained stable across this period. » LE POINT LOGIQUE N'EST PAS CONTESTÉ, et il faut le dire : « the Keynesians did not contest its logical consistency ». S. Fischer (1983, p. 271), cité : « The general point made by the critique is correct and was known before it was so eloquently and forcefully propounded by Lucas. That the point has been important EMPIRICALLY, however, is something that should have been demonstrated rather than asserted. » A. Blinder (in Klamer 1984, p. 166), cité : « The Lucas critique may be correct, but I have seen no persuasive evidence in any sphere to indicate that it is empirically important. The empirical case is yet to be made. » LES TESTS. Blinder (1988, p. 283) estime des autorégressions sur 1955:2-1987:4 et conclut qu'« il n'y a aucune preuve d'un déplacement des coefficients de retard ». Blanchard (1984, p. 1) étudie le changement de régime de Volcker — le meilleur cas naturel disponible — et trouve « little evidence of a direct effect of the policy change on the Phillips curve, at least until 1982 ». Malinvaud (1997, p. 21) : les modèles illustratifs de Lucas « showed no more than a possibility and were in no way tested as to their empirical validity ». AVERTISSEMENT DE MÉTHODE que le corpus s'applique à lui-même, Blinder cité : « All you have to do in this country right now is scream mindlessly, Lucas critique ! and the conversation ends. »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # TROIS DES CINQ SOURCES DE CE CHAPITRE NE SONT PAS OUVERTES, et ce sont les

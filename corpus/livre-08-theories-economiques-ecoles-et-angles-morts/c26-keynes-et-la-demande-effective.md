@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. M. Keynes, The General Theory of Employment, Interest and Money, 1936 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (tirage files.ethz.ch, texte intégral, 686 000 caractères). CORRECTION D'ÉDITION : un premier fichier téléchargé sous ce titre servait « The law of copyright » et a été remplacé. Retenu, chap. 24, la formule qui porte la conclusion politique : la baisse durable du taux d'intérêt conduirait à « the EUTHANASIA OF THE RENTIER, and, consequently, the euthanasia of the cumulative oppressive power of the capitalist to exploit the SCARCITY-VALUE OF CAPITAL ». RÉSERVE : édition non identifiée, sans apparat"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la thèse de l'essentiel insolvable (L1.C15) ; le concept `monnaie_fondante` et son ancêtre gesellien, dont le présent chapitre établit qu'il est explicitement discuté par Keynes ; et le résultat de L8.C14 § 3 : la condition de bouclage égalise des volumes et non des effets sur la demande, les propensions à dépenser n'étant pas les mêmes du côté frappé et du côté financé"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, NON DÉPOUILLÉE, ET UNE CINQUIÈME CORRECTION

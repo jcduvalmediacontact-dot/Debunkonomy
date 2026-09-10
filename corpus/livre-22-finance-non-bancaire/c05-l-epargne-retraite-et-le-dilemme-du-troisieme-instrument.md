@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**OCDE, « Pension Markets in Focus 2025 », publié le 12 novembre 2025, chapitre 1 — OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-09-07 sur `oecd.org`. LE CHIFFRE AVANCÉ PAR L'AUTEUR EST VÉRIFIÉ ET IL EST EXACT.** « **Assets totalled USD 69.8 TRILLION at end-2024**, including **USD 63.1 trillion managed by pension providers** and **USD 6.7 trillion in public pension reserve funds**. This exceeds the previous record of 2021 of USD 66.7 trillion. » Croissance de **11,6 % en 2023 et 7,1 % en 2024**, après une chute en 2022. **Hors OCDE : USD 2,9 mille milliards. RÉPARTITION GÉOGRAPHIQUE, ET ELLE EST EXTRÊME** : « **North America recorded USD 48.2 trillion** in assets under management of pension providers, which represents **OVER 70% of the total assets accumulated globally in 87 jurisdictions** » ; **Europe 9,7** ; **Asie 4,3**, « **12.5% of the combined GDP of the reporting Asian jurisdictions, THE LOWEST amount across all regions** » ; **l'Afrique est « the region with the lowest amount of assets managed by pension providers in USD terms »**. **DISPERSION EN PART DU PIB** : de moins de 1 % en Égypte, au Pakistan et en Albanie, à **plus de 100 % en Namibie, 206 % au Danemark, 82 % à Singapour**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**Même source — LE DÉPLACEMENT DU RISQUE, ET C'EST CE QUI DÉCIDE DU CHAPITRE.** L'OCDE distingue les régimes **à prestations définies**, « where plan sponsors, usually employers, **GUARANTEE future benefits** to employees », des régimes **à cotisations définies** « **where there is NO SUCH GUARANTEE from the employer** ». **CONSTAT** : « Assets in DB plans have been growing at a slower pace than other plans for years, and amounted to **just below a third (31.9%) of all pension assets at end-2024, compared to 39.7% ten years before**. » Le mouvement « **is ongoing even in countries that used to have a significant share of assets in DB plans** ». **Et l'OCDE énonce la double fonction de ces encours** : « A growing amount of assets provides a larger capital to pay benefits at retirement. **At the same time, it also represents a potential source of investment that can support the real economy.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même. L22.C02 § 5** : un troisième instrument de reflux est possible — **un prélèvement sur les encours d'actifs financiers détenus hors du système bancaire** — et il se heurte à l'identification des détenteurs, c'est-à-dire à ce que le repli sur les réserves servait à éviter. **L22.C02 § 4** : la part de la richesse qui échappe au nœud des réserves est nettement plus grande dans les économies avancées. **L11.C07** : le demurrage vise à décourager la thésaurisation. **L11.C09** : l'incidence d'un prélèvement ne se lit pas sur celui qui le verse. **L11.C18** : le seuil d'exemption. **L1.C15** : l'essentiel insolvable"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÈGLE « LIRE LE CORPUS AVANT D'OUVRIR LA NORME » : ce chapitre s'applique

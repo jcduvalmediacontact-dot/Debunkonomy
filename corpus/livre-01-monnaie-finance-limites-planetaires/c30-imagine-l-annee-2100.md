@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, « Épisode 30 — Imagine l'année 2100. Le récit de Louna, ou comment se referme un livre », L'Économie de l'équilibre — le livre audio, série principale, épisode final ; fichier « Épisode 30 Imagine l'année 2100.odt », Drive de l'auteur, dossier « Livre 1 — Monnaie, finance et limites planétaires », modifié le 2026-07-19, portant la mention « Version finale pour production ElevenLabs. Durée cible : 15-17 minutes (~2 400 mots) ». RÉCIT : en 2100, dans le sud-ouest de la France, Marcel, quatre-vingts ans révolus, raconte à sa petite-fille Louna, huit ans, le monde d'avant et comment il a changé. Énoncés retenus par le corpus : la monnaie d'avant « ne pouvait naître qu'en abîmant quelque chose » ; le nouvel argent naît « non pas d'une dette, mais d'un service rendu à la vie » ; PÉRIMÈTRE ÉNONCÉ — « Quelqu'un qui restaurait une forêt, il recevait de cet argent. Quelqu'un qui s'occupait de sa mère malade, il recevait de cet argent. Quelqu'un qui enseignait des choses vraies aux enfants, il recevait de cet argent » ; l'ancienne monnaie est conservée et rendue fondante pour les seuls usages dégradants — « pour ce qui soigne, il ne fondait pas » ; effets décrits — rivière assainie en vingt ans, dix à quinze espèces d'oiseaux au verger, « ta mère travaille quatre jours par semaine, ton père en travaille trois » ; et la phrase qui clôt l'ouvrage : « Il est vain de me soigner avec une monnaie que vous puisez au plus profond de mes blessures »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre « Repenser l'économie et refaire le monde », clôture sous le titre « Utopie ? Non. Nécessité. » — « NEMO IMS n'est pas une promesse de monde parfait. C'est une proposition pour un monde viable [...]. Ce livre est une invitation à commencer. » RELEVÉ : l'ouvrage imprimé s'achève là ; il ne comporte AUCUNE section correspondant au présent chapitre, dont la matière est exclusivement l'épisode audio [S1]"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode, et une exception à signaler ───────────────────────────────────
   # Ce chapitre est le SEUL du Livre 1 dont la matière ne se trouve ni dans

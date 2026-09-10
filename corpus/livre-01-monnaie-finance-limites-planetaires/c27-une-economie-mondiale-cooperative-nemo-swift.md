@@ -14,40 +14,40 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre « Le commerce international avec NEMO IMS », section « Le dilemme du passager clandestin et la masse critique ». Trois leviers structurels destinés à rendre la défection irrationnelle : (1) l'accès exclusif à la rente régénérative, les NEMO Green Allocation — que le livre nomme « NEMO Green SDR » — étant « strictement réservés aux pays membres » ; (2) l'exclusion de l'infrastructure NEMO SWIFT, le non-membre restant « condamné aux frictions de l'ancien monde : obligation de maintenir des réserves de change coûteuses » ; (3) l'ajustement aux frontières, sous trois principes — équivalence stricte (« le prélèvement perçu à la frontière est rigoureusement identique à la fonte que le produit aurait supportée s'il avait été fabriqué dans la zone NEMO »), neutralité anticoloniale (recettes « déposées sur un compte sous séquestre » et « reversées au pays exportateur non membre, à la condition expresse qu'il les affecte à la transition écologique de son propre territoire »), et règles d'origine avec « traçabilité intégrale de l'empreinte »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, même section, sous-partie « Pouvoir de marché et seuil d'activation ». CONCESSION EXPLICITE DE L'AUTEUR : « il convient donc de le reconnaître franchement : NEMO IMS comporte un seuil d'activation en dessous duquel il ne fonctionne pas ». Ordre de grandeur avancé : l'Union européenne « représente environ 15 % des importations mondiales », et « une coalition réunissant environ le double de ce poids commercial disposerait d'une capacité d'entraînement décisive sur les flux mondiaux » ; au-delà du point de bascule, « un grand exportateur ne peut plus se passer d'un débouché qui concentre plus d'un tiers de la consommation mondiale ». Le chiffre est obtenu par comparaison avec le mécanisme d'ajustement carbone aux frontières de l'Union, non par un calcul"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, même ouvrage — ÉNONCÉ DÉCISIF pour ce chapitre, qui répond à la question laissée ouverte en L1.C26 § 7 : « Les nations obtiendront leur liquidité dans le cadre d'activités régénératives et seront invitées à les utiliser dans le commerce de biens et services faiblement préjudiciables » (section « Sortir de la compétition pour adopter la coopération ») ; et « ce sont les émissions de NEMO Green SDR dédiés aux financements d'activités de régénérescence et préservation des communs qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » (section « Fixation systémique des taux de change »). Également relevé, section « Un référentiel de change basé sur l'impact » : le livre annonce la « création d'un nouvel hégémon de commerce international », alors que l'hégémonie figure parmi les sept dilemmes qu'il dénonce (L1.C24 § 1)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "T. Feyzioglu, V. Swaroop, M. Zhu, « A Panel Data Analysis of the Fungibility of Foreign Aid », The World Bank Economic Review, 12(1), p. 29-58, 1998 — « Aid is fungible in three out of five sectors examined. Developing-country governments receiving earmarked concessionary loans for agriculture, education, and energy reduce their own resources going to these sectors and use them elsewhere. » DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 § 5 (P19, face budgétaire) ; employée ici contre la clause de neutralité anticoloniale, qui est une affectation sous condition adressée à un gouvernement souverain"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "S. Barrett, « Self-Enforcing International Environmental Agreements », Oxford Economic Papers, 46, p. 878-894, 1994 — résultat central de la littérature sur les accords environnementaux internationaux : un accord auto-exécutoire réunit soit beaucoup de participants pour un gain collectif faible, soit un gain élevé pour un très petit nombre de participants ; la coopération large et ambitieuse n'est pas un équilibre en l'absence de sanction. RÉSERVE : référence non ouverte de première main dans cette passe"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "W. Nordhaus, « Climate Clubs: Overcoming Free-Riding in International Climate Policy », American Economic Review, 105(4), p. 1339-1370, 2015 — formalisation d'un club dont les membres appliquent une norme commune et frappent les importations des non-membres d'un tarif uniforme ; l'auteur montre qu'un club stable de large adhésion exige un tarif d'un ordre de grandeur déterminé, et calcule cet ordre de grandeur par simulation. IMPORTANT POUR CE CHAPITRE : c'est la formalisation existante la plus proche du dispositif du livre, et elle fournit la méthode qui permettrait de DÉRIVER le seuil que [S2] se contente d'affirmer. RÉSERVE : référence non ouverte de première main"
     url: "https://doi.org/10.1257/aer.15000001"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: normatif
     reference: "Règlement (UE) 2023/956 du Parlement européen et du Conseil du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières — instrument auquel [S2] compare explicitement le dispositif. Champ d'application sectoriel restreint (ciment, fer et acier, aluminium, engrais, électricité, hydrogène), période transitoire de déclaration ouverte le 1er octobre 2023. RÉSERVE : texte non ouvert dans cette passe ; champ et calendrier à confirmer sur EUR-Lex avant tout emploi hors corpus. Le point retenu ici ne dépend pas du détail : l'instrument comparé est SECTORIEL, celui du livre est universel"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "A. P. Thirlwall, « The Balance of Payments Constraint as an Explanation of International Growth Rate Differences », Banca Nazionale del Lavoro Quarterly Review, 128, p. 45-53, 1979 — le plafond de croissance de long terme est déterminé par le rapport des élasticités-revenu des exportations et des importations. Déjà versée au dossier en L1.C24 et L1.C26 (P43). RÉSERVE : référence de première main non ouverte"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, 2009 — une politique unique adoptée à la seule échelle mondiale est peu susceptible d'engendrer la confiance nécessaire à l'action collective ; argument en faveur d'une organisation à plusieurs échelles. DÉJÀ VERSÉE AU DOSSIER en L1.C22 § 2 (P19b, arbitrage A4)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Chapitre du livre lu intégralement avant rédaction ; bibliothèque de

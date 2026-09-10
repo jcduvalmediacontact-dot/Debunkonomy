@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Nations unies, A/AC.298/CRP.32, 21 juillet 2026, *Co-Lead's Zero Draft of UN Framework Convention on International Tax Cooperation*** — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** sur le site du bureau du financement du développement durable, texte anglais. **ARTICLE 2, PRINCIPES, ALINÉA b)** : « Recognition that **every Member State has the sovereign right to decide its tax policies and practices**, while also respecting the sovereignty of other Member States in such matters » — **le principe du mandat est repris dans le texte OPÉRANT**. **ARTICLE 1, OBJECTIFS** : établir « fully inclusive and effective international tax cooperation », « **a system of GOVERNANCE for international tax cooperation** », et un système fiscal international « for sustainable development »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même projet — LES VERBES DES ENGAGEMENTS DE FOND.** **Article 6, particuliers fortunés** : « States Parties **shall cooperate** to enhance measures to detect, deter and prevent tax avoidance » ; « **shall share general information** regarding structures and techniques » ; « **shall EXPLORE coordinated approaches** to ensuring effective taxation of high-net worth individuals **while respecting each State Party's sovereign right to determine the design, structure and level of taxation within its national tax system** ». **Article 7, flux financiers illicites** : « **shall cooperate** to combat », l'objectif étant d'assurer l'imposition effective « by, and **in accordance with the national laws of**, the jurisdiction whose tax base has been reduced ». **Article 8, pratiques fiscales dommageables** : « **shall cooperate** [...] to develop and apply common principles » et « **shall EXPLORE appropriate measures and tools** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Même projet — VÉRIFICATION, RÉSERVES, AMENDEMENT, RETRAIT.** **Article 15, *Review and Verification*** : « **Each State Party shall MONITOR ITS OWN policies** and practical measures » et « shall provide the Conference of the States Parties with information [...] **as required by the Conference of the States Parties** » ; la Conférence « shall undertake **periodic reviews** », **dont le processus reste à établir par elle**. **Article 21, règlement des différends** : les parties « **shall ENDEAVOUR to settle** any dispute [...] through negotiation », et à défaut le différend est soumis à **conciliation**. **ARTICLE 25, RÉSERVES, ET IL EST BREF** : « **No reservations may be made to this Convention.** » **Article 19 § 3, amendements** : consensus, et à défaut « the amendment shall as a last resort be adopted by **[ ] majority vote** » — **le seuil est laissé EN BLANC**. **Article 26** : entrée en vigueur au dépôt du « **[number to be determined]** » instrument. **Article 27** : retrait possible deux ans après l'entrée en vigueur, effectif un an après notification"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**`protocoles/falsification.md`, F8 — LE DÉSARMEMENT.** **Test** : « un dispositif du corpus est désarmé si les trois conditions sont réunies : **son déclencheur exige plusieurs conditions cumulatives**, **sa vérification n'est imposée à personne**, et **son manquement n'emporte aucune conséquence sur le droit acquis** ». **Et l'élargissement du 2026-09-07** : le test vise deux familles d'objets, dont **tout instrument dont le dispositif tire son opposabilité**. **L5.C04** : le mode d'échec de la voie multilatérale est le désarmement — « l'adversaire ne s'oppose pas au texte : **il en négocie les remèdes** ». **L23.C02** : le mandat a été adopté par 110 voix contre 8, **quatre amendements des pays développés ayant été rejetés**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "UN PROJET N'EST PAS UN TEXTE ADOPTÉ. Ce document est un **projet zéro d'un
      co-président**, daté du 21 juillet 2026 ; **il n'est ni négocié ni adopté**,

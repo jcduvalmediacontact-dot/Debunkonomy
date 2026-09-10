@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://doi.org/10.1146/annurev-environ-012320-080337"
     reference: "**Frank Biermann et Rakhyun E. Kim, « The Boundaries of the Planetary Boundary Framework : A Critical Appraisal of Approaches to Define a “Safe Operating Space” for Humanity », *Annual Review of Environment and Resources*, volume 45, 2020, pages 497 à 521.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE**, vingt-cinq pages : sections « Critique », « Applications for Assessment », « Earth System Targets » et « Conclusion » LUES INTÉGRALEMENT ; section « Implications for Governance » NON LUE. **C'ÉTAIT L'ACQUISITION DE RANG 1 DE F13, NOMMÉE LE 2026-09-08 PAR L18.C21 ET INTROUVABLE AVANT ELLE.** La réserve de F13 portait que « le corpus tient UN CADRE, PAS UN CONSENSUS », faute d'avoir ouvert une critique publiée des neuf limites. **C'EST UNE REVUE DE SYNTHÈSE, DONC EXACTEMENT L'ÉTAT DU DÉBAT QUE LA RÉSERVE DEMANDAIT.** **DROITS : le texte a été servi librement par l'éditeur ; aucune mention de licence ouverte n'a été lue dans le document. RÉGIME RETENU : `a_verifier`, citation courte avec attribution.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A OUVERT AUCUNE DES ÉTUDES CITÉES, ET ELLES SONT PLUS DE CENT
      CINQUANTE.** Les résultats rapportés ici — la part des travaux couplant

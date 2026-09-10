@@ -15,11 +15,11 @@ sources_primaires:
     nature: donnees
     reference: "Friedlingstein et al., Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288, 2026 — série fossil.emissions.excluding.carbonation : 9,6625 GtC en 2015, 10,5345 GtC en 2024"
     url: "https://doi.org/10.5194/essd-18-3211-2026"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Accord de Paris, article 2.1.a, adopté le 12 décembre 2015 lors de la COP21"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Correction majeure identifiée à la conversion —
   - "CRITIQUE — La thèse d'un « silence presque total » de la pensée écologiste sur la monnaie est contestable et constitue le cœur du chapitre. Contre-exemples à examiner avant toute publication : Herman Daly, qui défend explicitement une réforme du système bancaire dans le cadre de l'économie stationnaire ; Richard Douthwaite, The Ecology of Money, 1999 ; Molly Scott Cato ; les travaux de l'économie écologique sur la monnaie ; la tradition des monnaies complémentaires depuis Gesell. Nicholas Georgescu-Roegen, cité dans le chapitre parmi les penseurs écologistes, appartient lui-même à cette tradition. La thèse doit être soit restreinte (quels courants, quelle période, quel corpus de textes ?), soit abandonnée."

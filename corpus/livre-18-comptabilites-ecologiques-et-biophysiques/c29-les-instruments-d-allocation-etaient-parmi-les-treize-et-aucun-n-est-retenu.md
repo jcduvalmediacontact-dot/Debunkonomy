@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 6, SECTION 6.2.2 « What policy options exist for affecting transformative governance », sous-sections 6.2.2.1 (instruments économiques et financiers) et 6.2.2.2 (instruments juridiques et réglementaires), pages 19 à 25 du chapitre.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** le 2026-09-09. **C'ÉTAIT LA RÉSERVE PRINCIPALE DE L18.C27**, qui ne savait pas si un instrument de la famille du dispositif figurait parmi les treize instruments économiques évalués. **Les sous-sections 6.2.2.3 et 6.2.2.4 — instruments sociaux et culturels, instruments de droits coutumiers — NE SONT PAS LUES, non plus que la comparaison 6.2.2.5 ni le guide 6.5.** **LES TABLEAUX 6.2 ET 6.3, qui portent la comparaison instrument par instrument, NE SONT PAS EXTRACTIBLES du texte : le corpus lit les DESCRIPTIONS en prose, non le tableau qui les note.** **DROITS : reproduction libre à des fins non lucratives avec mention de la source. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LES TABLEAUX COMPARATIFS NE SONT PAS LUS, ET CE SONT EUX QUI NOTENT.** Les
      tableaux 6.2 et 6.3 comparent les instruments quant à leur potentiel

@@ -14,55 +14,55 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "A. Camus, Le Mythe de Sisyphe. Essai sur l'absurde, Gallimard, coll. « Les Essais » n° 12, achevé d'imprimer le 16 octobre 1942 (manuscrit achevé à Oran en février 1941, Carnets I)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 5 (« mythe de Sisyphe économique », note 54) et chapitre 6"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "D. Kahneman, A. Deaton, « High income improves evaluation of life but not emotional well-being », PNAS, 107(38), p. 16489-16493, 2010"
     url: "https://doi.org/10.1073/pnas.1011492107"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "M. A. Killingsworth, « Experienced well-being rises with income, even above $75,000 per year », PNAS, 118(4), e2016976118, 2021 ; M. A. Killingsworth, D. Kahneman, B. Mellers, « Income and emotional well-being: A conflict resolved », PNAS, 120(10), e2208661120, 2023"
     url: "https://doi.org/10.1073/pnas.2208661120"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "H. Rosa, Beschleunigung. Die Veränderung der Zeitstrukturen in der Moderne, Suhrkamp, 2005 ; trad. fr. Accélération. Une critique sociale du temps, La Découverte, 2010"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "R. Layard, Happiness: Lessons from a New Science, Allen Lane / Penguin, 2005 ; R. A. Easterlin, « Does Economic Growth Improve the Human Lot? », in Nations and Households in Economic Growth, Academic Press, 1974, p. 89-125"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: donnees
     reference: "PNUE, Emissions Gap Report 2025: Off Target, Nairobi, 4 novembre 2025 — 57,7 GtCO2e en 2024, en hausse de 2,3 % sur 2023 (56,2 GtCO2e après révision des séries)"
     url: "https://www.unep.org/resources/emissions-gap-report-2025"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "T. Jackson, P. A. Victor, « Does credit create a 'growth imperative'? A quasi-stationary economy with interest-bearing debt », Ecological Economics, 120, p. 32-48, 2015"
     url: "https://doi.org/10.1016/j.ecolecon.2015.09.009"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "M. Weber, « L'objectivité de la connaissance dans les sciences et la politique sociales », 1904, in Essais sur la théorie de la science, trad. J. Freund, Plon, 1965 (idéal-type)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "R. M. Solow, « A Contribution to the Theory of Economic Growth », Quarterly Journal of Economics, 70(1), p. 65-94, 1956 (amortissement du capital)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "J. M. Buchanan, G. Tullock, The Calculus of Consent, University of Michigan Press, 1962 ; W. D. Nordhaus, « Climate Clubs: Overcoming Free-Riding in International Climate Policy », American Economic Review, 105(4), 2015"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "F. Modigliani, R. Brumberg, « Utility analysis and the consumption function », 1954 ; M. Friedman, A Theory of the Consumption Function, Princeton University Press, 1957 (lissage intertemporel)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S2 : texte du livre lu — « chaque effort pour rembourser ne fait que préparer la prochaine chute » (ch. 6) ; note 54 (ch. 5). Les formules « conscience tragique de l'économie moderne » et « vénération persistante de ce qui le tue » ne sont PAS dans le livre : script audio, non attribuées.

@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Commission européenne, FMI, OCDE, Nations unies et Banque mondiale, *System of National Accounts 2008*.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 (cf. L19.C01), **et RELU ICI dans le texte, aux paragraphes qui portent les appuis de la tranche : 3.30 (définition de l'actif), 4.2 (unité institutionnelle), 11.8 (actifs financiers et or), 11.48 et 11.49 (allocation et avoirs en droits de tirage spéciaux), 12.41 et 26.108 (répudiation), 13.x (valeur nette négative), 22.150 et 22.151 (banque centrale), 4.175 (organisations internationales), 17.246 (intérêt).** Régime `a_verifier`."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Nations unies et coauteurs institutionnels, *System of National Accounts 2025*, version pour endossement.** OUVERT le 2026-09-08 par L19.C08, **relu ici contre S1 appui par appui : 4.5 et 4.98 (définition de l'actif), 5.2 (unité institutionnelle), 12.8 (actifs financiers et or), 12.50 et 25.142 (droits de tirage spéciaux), 11.251 et le passage sur la répudiation (annulation unilatérale), le passage sur la valeur nette, 30.152 (banque centrale), 4142 et 5.239-5.243 (organisations internationales).** Régime `a_verifier`. **VERSION POUR ENDOSSEMENT : les numéros de paragraphe sont donnés pour permettre le contrôle, non pour être cités.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**UN APPUI PAR CHAPITRE N'EST PAS UN CHAPITRE.** Cette comparaison porte sur
      **l'appui principal de chacun des six chapitres**, choisi parce qu'il porte

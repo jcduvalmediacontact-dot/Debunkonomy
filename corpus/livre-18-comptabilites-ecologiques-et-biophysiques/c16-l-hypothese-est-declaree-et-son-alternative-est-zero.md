@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Robert M. Solow, « Intergenerational Equity and Exhaustible Resources », Massachusetts Institute of Technology, Department of Economics, WORKING PAPER n° 103, février 1973, 42 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt institutionnel du MIT, lu dans le texte. **C'EST LA PREMIÈRE PIÈCE DE LA THÉORIE DU CAMP ADVERSE DE F13 QUE LE CORPUS TIENNE.** **RÉSERVE D'ÉDITION, ET ELLE EST RÉELLE : c'est le DOCUMENT DE TRAVAIL, non l'article publié en 1974 dans la *Review of Economic Studies* (DOI 10.2307/2296370), qui est derrière un mur anti-robot déclaré et non franchi.** **La numérotation des notes et la rédaction peuvent différer.** **Le document est un SCAN avec couche de texte : l'océrisation est lisible sur le corps de l'argument, dégradée sur les formules mathématiques — aucune formule n'est citée ici.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Banque mondiale, *The Changing Wealth of Nations: Measuring Sustainable Development in the New Millennium*, 2011.** OUVERT le 2026-09-08 par L18.C11. **RELU ICI POUR CE QUE L18.C11 N'AVAIT PAS LU : l'énoncé de la règle de Hartwick (chapitre 1), la section « Where Has the Hartwick Rule Been Applied? », et la définition opératoire de l'épargne nette ajustée.** Régime `citation_seule` (cf. L18.C11)."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS LIT UN DOCUMENT DE TRAVAIL, NON L'ARTICLE PUBLIÉ.** Solow 1973
      (MIT WP 103) contre Solow 1974 (*Review of Economic Studies*). **Aucune

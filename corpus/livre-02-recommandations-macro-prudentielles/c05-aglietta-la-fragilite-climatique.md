@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "M. Aglietta, É. Espagne, « Climate and Finance Systemic Risks, more than an Analogy? The Climate Fragility Hypothesis », **CEPII Working Paper n° 2016-10, avril 2016**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (cepii.fr/PDF_PUB/wp/2016/wp2016-10.pdf, 1 040 581 octets, couche texte intégrale). Résumé : « Climate change is usually considered as a NEGATIVE EXTERNALITY, against which society can insure itself through a carbon tax or an emission trading market. But EXCEPT UNDER THE UNREALISTIC EFFICIENT MARKET HYPOTHESIS, there is little chance that such a simple approach succeeds. FINANCIAL AND CLIMATE FRAGILITY REINFORCE EACH OTHER. [...] climate change thus constitutes A SYSTEMIC RISK against which specific EX ANTE AND EX POST monetary policies and financial regulations should be deployed. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, **section 4, « Climate and financial fragilities: A POSITIVE FEEDBACK LOOP? »** — premier sens : « climate systemic risk is a potential source of financial disruption. Climate fragilities increase financial fragilities. THIS IS THE MOST LARGELY ADMITTED PART OF THE LOOP », avec les trois canaux repris de M. Carney (Lloyd's, 29 septembre 2015) : RISQUE PHYSIQUE, RISQUE DE RESPONSABILITÉ, RISQUE DE TRANSITION. **Second sens** : « the financial sector might also be A POWERFUL DRIVER AND ACCELERATOR of the realization of a climate systemic risk. VERY LITTLE RESEARCH TRIES TO ADDRESS THIS PARTICULAR CAUSALITY », les dégâts venant d'une « ACUTE BLINDNESS OF THE FINANCIAL SECTOR TO EXTERNAL EFFECTS »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, **section 5** — instruments ex ante proposés : partage obligatoire de l'information (« information disclosure becomes MANDATORY and not simply voluntary »), stress tests **collectifs** et non individuels, réformes structurelles de la finance, et : « monetary policy should also integrate a reaction to climate-related signals and NOT PURSUE A POLICY EXCLUSIVELY ORIENTED TOWARDS GOODS AND SERVICES INFLATION », avec pour outils « asset purchase programs, QUALITATIVE MANDATORY RESERVES at the central bank, or MORE DIRECT ACTIONS ON THE QUALITY OF CREDITS CREATED BY COMMERCIAL BANKS, such as a « green funding for lending scheme » [...] or even FINANCIAL REPRESSION MEASURES, which force commercial banks with various tools TO LEND TO PARTICULAR SECTORS ». Et l'aveu qui ouvre le champ : « THE FUNDAMENTAL PRINCIPLES OF A CLIMATE-RELATED MACRO-PRUDENTIAL POLICY REMAIN TO BE WRITTEN »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "*Cahier Technique*, épisode 1, section 3 — « Les systèmes biophysiques conditionnent les systèmes économiques. Les systèmes économiques conditionnent les systèmes financiers. LES SYSTÈMES FINANCIERS NE CONDITIONNENT QUE LES INSTRUMENTS MONÉTAIRES. » Et épisode 12, troisième déplacement — « l'orientation implicite carbonée actuelle FINANCE MÉCANIQUEMENT L'AGGRAVATION DES RISQUES SYSTÉMIQUES ». **OUVERTS le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN OUVRAGE D'AGLIETTA N'EST OUVERT. Le corpus tient UN working paper de
      vingt-cinq pages, cosigné. **Ni la théorie de la régulation, ni

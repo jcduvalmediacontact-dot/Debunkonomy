@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "A. Goutsmedt, E. Pinzón-Fuchs, M. Renault, F. Sergi, « Reacting to the Lucas Critique: The Keynesians' Pragmatic Replies », Documents de travail du Centre d'Économie de la Sorbonne 2017.42, HAL halshs-01625169 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, procuré par l'auteur. Résumé des auteurs : « Keynesians rejected the Critique as a general principle with no relevance for concrete macroeconometric practice ; their rejection relied on econometric investigations [...] Keynesians argued that the parameters of their models remained stable across this period. » LE POINT LOGIQUE N'EST PAS CONTESTÉ : « the Keynesians did not contest its logical consistency ». S. Fischer (1983, p. 271), cité : « The general point made by the critique is correct and was known before it was so eloquently and forcefully propounded by Lucas. That the point has been important EMPIRICALLY, however, is something that should have been demonstrated rather than asserted. » A. Blinder (in Klamer 1984, p. 166), cité : « The Lucas critique may be correct, but I have seen no persuasive evidence in any sphere to indicate that it is empirically important. » AVERTISSEMENT DE MÉTHODE, Blinder cité : « All you have to do in this country right now is scream mindlessly, Lucas critique ! and the conversation ends. »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "S. Engone Mve, « Monetary Policy and Macroprudential Policy in Fixed Exchange: The Case of the Bank of Central African States », Theoretical Economics Letters 12, 2022, p. 1323-1334 — OUVERT le 2026-09-05. Établit que le débat sur l'articulation entre politique monétaire et macroprudentielle a DEUX PÔLES et une position conditionnelle : séparation (Svensson, Bernanke, Beau et al.), fondée explicitement sur « Tinbergen's consistency rule (1952) and Mundell's rule of efficient instrument allocation » ; intégration (Adrian-Shin, Mishkin, Eichengreen et al.), au motif que les instruments macroprudentiels « because they are more targeted, are easily circumvented » ; et position conditionnelle où « in the event of a conflict of objectives, priority is given to a single objective »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : la CLASSIFICATION EN CINQ GROUPES des problèmes de politique économique, et l'aveu qui l'accompagne — « the scientific treatment of problems of qualitative policy meets with great difficulties, especially so if these policies belong to groups (d) and (e) », parce que « our empirical quantitative knowledge of human behaviour under different structural conditions is so restricted » ; et la conclusion : « empirical research into each of the points (b) — (e) is still almost completely lacking »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 8, ouvert le 2026-09-06 sur décision de l'auteur.

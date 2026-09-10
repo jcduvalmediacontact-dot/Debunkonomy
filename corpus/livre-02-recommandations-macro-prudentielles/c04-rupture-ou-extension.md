@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, épisode 1, section 3 — « Deux schémas. Deux visions du monde. DEUX PARADIGMES QUI S'EXCLUENT MUTUELLEMENT. [...] Ces deux paradigmes ne diffèrent pas seulement dans leurs conclusions politiques. ILS DIFFÈRENT DANS LEUR ONTOLOGIE — dans leur description de ce qui est et de ce qui conditionne quoi. » Et l'énoncé du principe : « Les systèmes biophysiques conditionnent les systèmes économiques. Les systèmes économiques conditionnent les systèmes financiers. Les systèmes financiers ne conditionnent que les instruments monétaires. TOUTE POLITIQUE MACROPRUDENTIELLE QUI INVERSE CET ORDRE EST STRUCTURELLEMENT CONDAMNÉE. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "*Cahier Technique*, épisode 12, section 2 — les dix déplacements, tous construits sur la même forme (« Reconnaître que… », puis « Étendre », « Substituer » ou « Instituer »), et la clôture de la section : « Ces dix déplacements ne sont pas isolés. Ils s'articulent selon une logique commune. CHACUN ÉTEND UN DOMAINE SPÉCIFIQUE DE LA MACROPRUDENCE DÉFENSIVE VERS SA DIMENSION RÉGÉNÉRATIVE CORRESPONDANTE. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "C. Borio, BIS Working Papers n° 128, 2003 — « The macroprudential perspective assumes that risk is IN PART ENDOGENOUS with respect to the behaviour of the financial system ; the microprudential approach assumes that it is exogenous. » Et : « By taking risk as exogenous, IT WOULD NOT BE POSSIBLE FOR A MICROPRUDENTIALIST TO CONCEIVE OF SITUATIONS IN WHICH WHAT WAS RATIONAL, EVEN COMPELLING, FOR AN INDIVIDUAL INSTITUTION COULD RESULT IN UNDESIRABLE AGGREGATE OUTCOMES. A macroprudentialist would find this possibility NATURAL. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L8.C41, qui clôt le répertoire des controverses et établit que le dispositif compte SIX FILIATIONS NON REVENDIQUÉES ; L8.C01, qui établit qu'il n'existe pas de théorie standard unique à laquelle s'opposer ; L7.C21, quinzième autocorrection, où une filiation a été attribuée sur la seule proximité de deux titres"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS NE TIENT AUCUN TRAVAIL SUR LA STRATÉGIE DISCURSIVE DES
      PROPOSITIONS HÉTÉRODOXES. Il soutient qu'une proposition présentée en

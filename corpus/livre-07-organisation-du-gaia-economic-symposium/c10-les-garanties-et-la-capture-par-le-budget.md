@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, p. 136 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. GARANTIES COMMUNES AUX QUATRE ORGANES : « Mandats longs et non renouvelables, renouvelés par tiers, pour désolidariser l'institution des cycles électoraux. Incompatibilité et DÉLAI DE CARENCE DE CINQ ANS, avant et après le mandat, pour tout poste de direction dans une entreprise privée ou un secteur régulé. Transparence radicale : publication intégrale des délibérations, des procès-verbaux et des VOTES NOMINAUX. Contestabilité publique : publication en données ouvertes des algorithmes, séries brutes et registres d'audit, avec possibilité de réplication et de contestation par des tiers devant la Chambre de Recours. » Et pour l'Office, p. 134 : « mandat unique de neuf ans, non renouvelable, avec un renouvellement par tiers tous les trois ans »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: actualite
     reference: "Capture politique de la statistique publique — ARGENTINE : manipulation de l'indice des prix à la consommation par l'Institut national de statistique et de recensement (INDEC) entre 2007 et 2015, inflation officielle annoncée entre 8 % et 10 % par an contre 22 % à 30 % selon les relevés indépendants, DÉCLARATION DE CENSURE du Fonds monétaire international en février 2013 au titre de l'article VIII de ses statuts. GRÈCE : révision par l'ELSTAT du déficit public 2009 de 3,7 % à 15,4 % du produit, validée par Eurostat, suivie de PLUS D'UNE DÉCENNIE DE POURSUITES pénales et civiles contre le statisticien Andreas Georgiou. Versée en L1.C18 [S20] le 2026-09-04"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C18 § 6, trois exigences que le corpus pose et « que le livre ne pose pas » : « une dotation pluriannuelle sanctuarisée, soustraite au vote budgétaire annuel ; une immunité légale des cadres techniques pour leurs avis méthodologiques ; et un droit d'audit contradictoire permanent ». Et la correction du 2026-09-04 sur la carence : « sans équivalent (18 mois à 3 ans partout ailleurs), produit une SÉLECTION ADVERSE. Ramenée à 24-36 mois post-mandat. Le mandat long non renouvelable par tiers est, lui, CONFIRMÉ »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE DU LIVRE ET SUR L1.C18, tous deux relus le

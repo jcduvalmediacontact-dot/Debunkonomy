@@ -14,31 +14,31 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 11**, section 3 — le référentiel « est un PUR NOMBRE NOTIONNEL qui sert d'unité de référence pour les taux de change entre monnaies nationales. IL NE REMPLACE AUCUNE MONNAIE. Il permet à toutes les monnaies nationales de se comparer SANS PASSER PAR UNE MONNAIE DOMINANTE INTERMÉDIAIRE. » Et sur les deux dilemmes : « Le dilemme de Triffin [...] DISPARAÎT puisqu'aucune monnaie nationale n'assume plus la fonction de monnaie de réserve dominante. **Le triangle de Mundell — impossibilité de combiner stabilité des changes, mobilité des capitaux et autonomie monétaire nationale — EST CONTOURNÉ PUISQUE LE RÉFÉRENTIEL FIXE UNE RÉFÉRENCE STABLE SANS EXIGER LA FIXITÉ DES PARITÉS BILATÉRALES.** » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, *L'économie de l'équilibre*, chapitre 8 (édition FR du 22 août 2026) — **ÉNONCÉ CONTRAIRE** : « Les taux de change, désormais **FIXES PAR CONCEPTION**, ne reflètent plus la force d'extraction, mais la robustesse systémique » ; « Dans le cadre du système NEMO IMS, le taux de change entre devises **DEMEURE FIXE PAR CONCEPTION**. Les modalités de cette fixité des taux de change restent à discuter, mais on peut imaginer une « prise de photo à un instant T » » ; et « NEMO IMS neutralise les dilemmes exposés par le triangle d'incompatibilité de Mundell. **SI LES TAUX DE CHANGE SONT FIXES avec NEMO IMS, les nations recouvrent toute la latitude de leurs politiques monétaires, ainsi que la libre circulation des capitaux.** » **OUVERT le 2026-09-06** (p. 180-218 extraites)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "*Cahier Technique*, épisode 11 — l'articulation internationale : « Les NGDTS émis par le GAÏA Economic Symposium sont À PARITÉ ÉGALE AU TAUX NES. Les banques centrales nationales assurent l'exécution de ces droits de tirage — sur transmission [...] elles procèdent à L'ÉMISSION DE LA MONNAIE NATIONALE CORRESPONDANTE au bénéfice du prestataire retenu par appel d'offre, à PARITÉ FIXE libellée en NES. » Et les deux autres dispositifs : le système de règlement dédié, et une gouvernance macroprudentielle mondiale intégrée « articulant coordination technique, surveillance des communs mondiaux et arbitrage des conflits »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "J.-C. Duval, ARBITRAGE DU 2026-09-06, en réponse à la divergence relevée par ce chapitre : « **PARITÉ FIXE !** » — l'énoncé du livre l'emporte sur celui du Cahier. Et sur le compte des chapitres : « **Le nombre n'est pas fixé.** » Les deux arbitrages sont reportés à `corpus/livres.yaml` et à `protocoles/passe-2.md` (A32)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "J.-C. Duval, *L'économie de l'équilibre*, **chapitre 9** — la pièce qui manquait au raisonnement, et qui se trouvait dans le chapitre suivant : « [...] **CONTRÔLE DES CAPITAUX** exposés au chapitre 8. **LA FUITE VERS LES ACTIFS SPÉCULATIFS OU POLLUANTS EST INTERCEPTÉE PAR LE PREMIER RESSORT**, puisque la fonte transactionnelle s'applique également à L'ACQUISITION D'ACTIFS : acheter un bien à fort impact pour échapper au demurrage entraîne une perte immédiate et bien supérieure. **IL NE RESTE DONC QU'UNE ISSUE : LES ACTIFS RÉELS DOMESTIQUES À FAIBLE IMPACT.** » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S7
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE VI, SECTION 3, « CONTROLS OF CAPITAL TRANSFERS »** : « **Members MAY EXERCISE SUCH CONTROLS AS ARE NECESSARY TO REGULATE INTERNATIONAL CAPITAL MOVEMENTS**, but no member may exercise these controls in a manner which will **RESTRICT PAYMENTS FOR CURRENT TRANSACTIONS** or which will unduly delay transfers of funds in settlement of commitments. » **SECTION 1 (a)** : un membre ne peut faire un usage net des ressources du Fonds pour couvrir « a large or sustained outflow of capital », et le Fonds peut lui demander « **to exercise controls** » à peine d'inéligibilité. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (voir L20.C08 pour la réserve d'édition)"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — L2.C11, qui verse l'aveu des auteurs du rapport sur les risques climatiques : les initiatives des banques centrales « WILL NOT BE SUFFICIENT ON THEIR OWN [...] requires UNPRECEDENTED COLLECTIVE ACTION AND COORDINATION EFFORTS » ; L2.C07, qui verse le plaidoyer de T. Padoa-Schioppa contre la règle du consensus dans les comités de supervision et « POUR DES DÉCISIONS COMMUNES PRISES À LA MAJORITÉ SI NÉCESSAIRE ET S'IMPOSANT À TOUS » ; L20.C13, qui établit que dans les trois traités ouverts l'entrée est coûteuse et la sortie libre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── ARBITRAGE RENDU LE 2026-09-06 : « PARITÉ FIXE ! » ────────────────────
   # La divergence relevée par ce chapitre a été tranchée le jour même par

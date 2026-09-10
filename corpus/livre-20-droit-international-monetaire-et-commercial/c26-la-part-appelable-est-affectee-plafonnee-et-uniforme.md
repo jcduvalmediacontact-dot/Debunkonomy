@@ -15,17 +15,17 @@ sources_primaires:
     nature: normatif
     url: "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-II"
     reference: "**Banque internationale pour la reconstruction et le développement, *Articles of Agreement*, ARTICLE II « Membership in and Capital of the Bank », TEXTE PORTANT LA MENTION « as amended effective June 27, 2012 »**, publié sur le site officiel de la Banque mondiale. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, en HTML. **Sections 1 à 10 lues.** **C'ÉTAIT LA MOITIÉ DE L'ACQUISITION BLOQUANTE D'A37**, inscrite par L20.C24 : l'article VI renvoie à l'article II section 5 (ii) pour les appels de capital, et le corpus ne tenait que l'article qui renvoie. **RÉSERVE DE SERVICE : la page porte un APPEL DE NOTE sur le nombre d'actions, et le texte de cette note n'est pas servi.** Le corpus ne peut donc pas dire si le montant du capital autorisé qui figure au texte est à jour."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     url: "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-VI"
     reference: "**Mêmes statuts, ARTICLE VI**, ouvert et lu le 2026-09-08 par L20.C24. **Rappelé ici pour la seule section 4 (c) (iv), qui maintient l'ancien membre tenu des appels au titre de l'article II section 5 (ii).**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     url: "https://www.worldbank.org/en/about/articles-of-agreement/ibrd-articles-of-agreement/article-IV"
     reference: "**Mêmes statuts, ARTICLE IV « Operations », TEXTE PORTANT LA MENTION « as amended effective June 27, 2012 ».** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. **Sections 1 et 2 lues.** **C'EST L'ACQUISITION QUE CE CHAPITRE AVAIT INSCRITE LE JOUR MÊME EN CONSTATANT QU'IL NE POUVAIT PAS DIRE À QUOI LA PART APPELABLE EST AFFECTÉE.** **Elle est faite dans l'heure, au même hôte.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**L'ARTICLE IV EST LU DANS SES SECTIONS 1 ET 2, ET LE RESTE NE L'EST PAS**
      [S3]. Le corpus tient donc ce qui DÉCLENCHE un appel et l'ordre

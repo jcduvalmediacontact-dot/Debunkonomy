@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 13** — projection du plan directeur de l'auteur. **Titre** : Méthodes, données, scénarios et simulateur NEMO IMS. **Collection** : cahier-technique. **Fonction assignée** : documenter les hypothèses, données, modèles, scénarios, tests de sensibilité et limites du simulateur. **Motifs** : rouage — quantification et test du dispositif ; objection — P4, P18 : un simulateur est ce qui permettrait d'éprouver la calibration."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Y. Dafermos, M. Nikolaidi et G. Galanis, « Climate change, financial stability and monetary policy », version d'octobre 2016.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce du dossier NEMO constitué par l'auteur le 2026-09-07. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR CE DOCUMENT DE TRAVAIL — régime `a_verifier`**, citation courte avec attribution, aucun versement du fichier au dépôt. **C'est un modèle macroéconomique écologique de type STOCK-FLUX-FONDS**, présenté par ses auteurs comme reposant sur « **a novel synthesis of the stock-flow consistent approach** » et de l'apparat flux-fonds. **C'est la famille que L8.C37 avait recommandée à ce livre sans savoir qu'un exemplaire existait, et elle descend de l'auteur que L26.C07 vient d'ouvrir.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même — les commandes que vingt-trois fichiers adressent à ce matricule.** **L19.C05** : « C'est un chiffrage, et seul le simulateur du Livre 13 pourrait le produire — il n'existe pas. » **L26.C04** : même formule. **L17.C03** : « Le corpus pose donc un critère qu'il ne sait pas appliquer. » **L1.C21** : « Le calibrage n'existe pas : la règle liant les indicateurs aux décisions est déclarée à définir. » **L8.C37** établit que ce livre est celui que le chantier des barèmes bloque, et qu'il comptait zéro chapitre acquis."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**AUCUN MODÈLE N'EST CONSTRUIT PAR CE CHAPITRE, ET AUCUN CHIFFRE N'EN SORT.**
      Ce chapitre instruit la fonction du livre, ouvre une source de première main

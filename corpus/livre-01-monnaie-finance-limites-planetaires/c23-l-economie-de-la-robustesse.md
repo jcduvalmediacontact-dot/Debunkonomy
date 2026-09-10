@@ -14,90 +14,90 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026 — introduction générale, « Les trois piliers fondamentaux de la robustesse » (p. 31-35) ; chapitre « Pour une nouvelle éthique de la valeur », sections « Réinventer le mérite à l'aune de la préservation des communs planétaires » (p. 103-105), « La valeur inscrite dans la soutenabilité » et « Finance et robustesse écosystémique » (p. 114-115) — « notre système financier actuel est un accélérateur de croissance, nos impératifs écologiques et sociaux nécessitent la création d'un frein financier »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, « Penser la décroissance sans penser la robustesse est un non-sens », Debunk'Onomy, 30 avril 2026 — « une société ne peut pas seulement décroître, elle doit aussi tenir » ; les deux mouvements simultanés (décroissance des activités destructrices, renforcement des activités régénératives) ; thèse du blocage structurel : « la croissance n'est donc pas seulement une idéologie, elle est aussi une contrainte de fonctionnement »"
     url: "https://debunkonomy.org/articles/auteur/decroissance-robustesse-systeme-monetaire/"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 2 « De la stabilité financière à la robustesse systémique » — analyse mot à mot de la définition institutionnelle de la stabilité financière et de ses quatre prémisses implicites ; trois limites structurelles (équilibre statique, focalisation sur l'intermédiation, aveuglement aux fonctions essentielles) ; signature technique de la robustesse en redondance, diversité, modularité ; chaîne causale en sept maillons de l'hyperoptimisation à la reconstruction sans transformation. AVERTISSEMENT : épisode du Livre 2 ; le partage de matière entre Livre 1 et Livre 2 n'est pas arbitré (protocoles/passe-2.md § 3)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "C. S. Holling, « Resilience and Stability of Ecological Systems », Annual Review of Ecology and Systematics, 4, p. 1-23, novembre 1973 — p. 17 : « Resilience determines the persistence of relationships within a system and is a measure of the ability of these systems to absorb changes of state variables, driving variables, and parameters, and still persist » ; « Stability, on the other hand, is the ability of a system to return to an equilibrium state after a temporary disturbance. The more rapidly it returns, and with the least fluctuation, the more stable it is ». Corrélation inverse, p. 17 : « a system can be very resilient and still fluctuate greatly, i.e. have low stability » ; p. 21 : « The very approach, therefore, that assures a stable maximum sustained yield of a renewable resource [...] might so change these deterministic conditions that the resilience is lost or reduced so that a chance and rare event that previously could be absorbed can trigger a dramatic result ». Holling distinguera ultérieurement la résilience d'ingénierie (vitesse de retour) de la résilience écologique (amplitude absorbable avant bascule)"
     url: "https://doi.org/10.1146/annurev.es.04.110173.000245"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "R. E. Ulanowicz, S. J. Goerner, B. Lietaer, R. Gomez, « Quantifying sustainability: Resilience, efficiency and the return of information theory », Ecological Complexity, 6(1), p. 27-36, mars 2009 — la soutenabilité d'un réseau de flux exige simultanément de l'efficacité et une capacité de réserve ; un excès de l'une comme de l'autre est fatal, d'où une plage de viabilité entre les deux (« window of vitality »). La robustesse fonctionnelle y est formalisée comme un produit non monotone de l'ascendance relative, dont l'extremum se situe à une valeur intermédiaire et non à un maximum d'efficacité — ce qui borne la plage des deux côtés"
     url: "https://doi.org/10.1016/j.ecocom.2008.10.005"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "S. J. Goerner, B. Lietaer, R. E. Ulanowicz, « Quantifying economic sustainability: Implications for free-enterprise theory, policy and practice », Ecological Economics, 69(1), p. 76-81, novembre 2009 — transposition explicite aux systèmes économiques et monétaires : « all complex systems, including our monetary and financial ones, become structurally unstable whenever efficiency is overemphasized at the expense of diversity, interconnectivity and the crucial reserve capacity » ; « Resilience on the contrary depends on sufficient diversity and interconnectivity, allowing the system to switch to alternative channels in case of disruptions [...] Nature selects not for maximum efficiency, but for an optimal balance between diversity/interconnectivity (resilience) and streamlining (efficiency) »"
     url: "https://doi.org/10.1016/j.ecolecon.2009.07.018"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "T. Jackson, P. A. Victor, « Does credit create a “growth imperative”? A quasi-stationary economy with interest-bearing debt », Ecological Economics, 120, p. 32-48, décembre 2015 — modèle à cohérence stock-flux nommé FALSTAFF. Énoncé des auteurs, p. 32 : « Contrary to claims in the literature, we find that neither credit creation nor the charging of interest on debt creates a “growth imperative” in and of themselves. This finding remains true even when capital adequacy and liquidity requirements are imposed on banks. [...] We show further that it is possible to move from a growth path towards a stationary state without either crashing the economy or dismantling the system. » Résultat obtenu en modèle fermé, sous hypothèses de recyclage des revenus d'intérêts, d'absence de défaut et de traitement simplifié de la préférence pour la liquidité"
     url: "https://doi.org/10.1016/j.ecolecon.2015.09.009"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "B. Walker, D. Salt, Resilience Thinking: Sustaining Ecosystems and People in a Changing World, Island Press, Washington D.C., 2006, xiv + 174 p., ISBN 978-1-59726-092-3 — prolongement opérationnel des travaux de Holling : chap. 2 « The Adaptive Cycle: Keeping a System Resilient » (p. 15-28), chap. 3 « Panarchy: Scales and Shifts » (p. 29-38) ; régimes alternatifs et effets de bascule"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "Banque centrale européenne, Financial Stability Review, édition inaugurale, décembre 2004 — « Financial stability can be defined as a condition in which the financial system – comprising of financial intermediaries, markets and market infrastructures – is capable of withstanding shocks and the unravelling of financial imbalances, thereby mitigating the likelihood of disruptions in the financial intermediation process which are severe enough to significantly impair the allocation of savings to profitable investment opportunities. » Voir aussi G. J. Schinasi, « Defining Financial Stability », IMF Working Paper 04/187, octobre 2004. LECTURE DU CORPUS : le texte pose bien la capacité à RÉSISTER aux chocs et à résorber les déséquilibres — il contient donc une composante de résilience et ne décrit pas la préservation d'un état figé. Ce qui est en cause est son critère de succès, explicitement l'allocation de l'épargne vers des emplois rentables"
     url: "https://www.ecb.europa.eu/press/financial-stability-publications/fsr/html/index.en.html"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "M. Binswanger, « Is there a growth imperative in capitalist economies? A circular flow perspective », Journal of Post Keynesian Economics, 31(4), p. 707-727, 2009 — position adverse à celle de Jackson et Victor : un impératif de croissance existe, mais il procède de l'exigence de profit et de l'évitement des pertes plutôt que du seul service de l'intérêt. Le débat porte donc sur l'origine de l'impératif, non sur son existence"
     url: "https://doi.org/10.2753/pke0160-3477310410"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "R. A. Mundell, « A Theory of Optimum Currency Areas », American Economic Review, 51(4), p. 657-665, septembre 1961 ; R. I. McKinnon, « Optimum Currency Areas », American Economic Review, 53(4), p. 717-725, 1963 — une zone soumise à des chocs asymétriques et privée d'ajustement par le change ajuste par les quantités : emploi, salaires, migration. La mobilité des facteurs est la condition qui rend l'union viable"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "H. P. Minsky, Stabilizing an Unstable Economy, Yale University Press, 1986 ; « The Financial Instability Hypothesis », Levy Economics Institute Working Paper 74, mai 1992 — une période prolongée de stabilité conduit les agents à réduire leurs marges de sécurité et à accroître leur levier, de sorte que la stabilité engendre les conditions de son propre renversement. La formule « paradoxe de la tranquillité » est une désignation ultérieure de ce mécanisme, non une expression de Minsky"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "A. O. Krueger, « The Political Economy of the Rent-Seeking Society », American Economic Review, 64(3), p. 291-303, juin 1974 ; G. Tullock, « The Welfare Costs of Tariffs, Monopolies and Theft », Western Economic Journal, 5(3), 1967 — lorsqu'une décision administrative crée une rente, des ressources réelles sont dépensées pour l'obtenir, et cette dépense est une perte sèche qui s'ajoute à la distorsion d'allocation"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S14
     nature: donnees
     reference: "DEUX GRANDEURS DISTINCTES, VOISINES EN VALEUR. (1) Capacité annoncée : Board of Governors of the Federal Reserve System, communiqué du 9 avril 2020 — « The Federal Reserve on Thursday took additional actions to provide up to $2.3 trillion in loans to support the economy », facilités ouvertes au titre de la section 13(3) du Federal Reserve Act et adossées à une dotation de 454 milliards de dollars du Trésor au titre du CARES Act ; ces facilités n'ont été tirées qu'à une fraction du plafond. (2) Expansion constatée du bilan : série H.4.1 / FRED WALCL — actif total 4 311 911 M$ au 11 mars 2020, 6 655 929 M$ au 29 avril 2020, soit +2 344 018 M$ en sept semaines, produite par des achats de titres sur le marché secondaire et non par les facilités du 9 avril"
     url: "https://fred.stlouisfed.org/series/WALCL"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S15
     nature: theorie
     reference: "O. Richters, A. Siemoneit, « Consistency and stability analysis of models of a monetary growth imperative », Ecological Economics, 136, p. 114-125, juin 2017 ; « Growth imperatives: Substantiating a contested concept », Structural Change and Economic Dynamics, 51, p. 126-137, décembre 2019 — examen systématique des modèles qui affirment ou nient un impératif monétaire de croissance. Les auteurs traitent la notion comme un CONCEPT CONTESTÉ et montrent que les conclusions dépendent étroitement des hypothèses de bouclage retenues, plusieurs modèles étant par ailleurs instables hors de leur état stationnaire"
     url: "https://doi.org/10.1016/j.ecolecon.2017.01.017"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S16
     nature: theorie
     reference: "L. Cahen-Fourot, M. Lavoie, « Ecological monetary economics: A post-Keynesian critique », Ecological Economics, 126, p. 163-168, juin 2016 — critique post-keynésienne des raisonnements liant mécaniquement création monétaire par le crédit et impératif de croissance"
     url: "https://doi.org/10.1016/j.ecolecon.2016.03.007"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S17
     nature: donnees
     reference: "G. Zucman, « The Missing Wealth of Nations: Are Europe and the U.S. Net Debtors or Net Creditors? », The Quarterly Journal of Economics, 128(3), p. 1321-1364, 2013 — estimation d'environ 8 % du patrimoine financier des ménages détenu dans les centres financiers offshore, à partir des anomalies systématiques des statistiques de position extérieure. A. Alstadsæter, N. Johannesen, G. Zucman, « Who owns the wealth in tax havens? Macro evidence and implications for global inequality », Journal of Public Economics, 162, p. 89-100, juin 2018 — l'équivalent d'environ 10 % du produit mondial détenu offshore, très inégalement réparti entre pays"
     url: "https://doi.org/10.1016/j.jpubeco.2018.01.008"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S18
     nature: theorie
     reference: "A. Sersiron, Monnaie et dette. Désencastrer la création monétaire du marché du crédit, thèse de doctorat en sciences économiques, Université Paris 1 Panthéon-Sorbonne, soutenue le 3 février 2021, codirigée par J. Lallement et A. Orléan ; jury : J. Couppey-Soubeyran, L. Desmedt (rapporteur), G. Giraud (président), J.-F. Ponsot (rapporteur). Résumé : « L'argent-dette implique en effet deux contradictions : 1) la monnaie est produite par le marché décentralisé du crédit sans autorégulation, comme l'a prouvé Fisher (spirale dette-déflation) 2) toute création monétaire implique un alourdissement du fardeau de la dette, jusqu'à buter sur la contrainte de solvabilité des agents. La viabilité d'un tel mode d'émission n'est assurée, de manière toujours transitoire et imparfaite, que par un mode de régulation : compromis sociaux, équilibres institutionnels, normes culturelles et politiques publiques rendent compatibles les décisions microéconomiques d'endettement avec les conditions de la reproduction d'un régime de croissance relativement stable… jusqu'à ce que les contradictions deviennent insurmontables, comme en 1929, dans les années 1970 ou en 2007. » Chapitre I : « Les agents économiques doivent s'endetter toujours davantage pour permettre l'accroissement de la masse monétaire au fil de la croissance, or leur contrainte de solvabilité s'avère toujours plus difficile à surmonter au fil du temps. » Mécanisme de report identifié : « leur contrainte de solvabilité est sans cesse repoussée par une baisse continue des taux », jusqu'au plancher des taux nuls. CONCLUSION DE LA THÈSE : proposition d'un régime d'émission exogène inspiré du 100% Money de Fisher, précédé du helicopter money qui « permet d'enjamber la contrainte de solvabilité des agents en injectant l'argent dans l'économie sans contrepartie, en dehors de tout rapport d'endettement »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S19
     nature: theorie
     reference: "É. Cottin-Euziol, Monnaie bancaire et dynamique d'une économie monétaire de production, thèse de doctorat en sciences économiques, Université de Limoges, LAPE, soutenue le 24 septembre 2013, dirigée par A. Sauviat ; rapporteurs L.-P. Rochon et M. Seccareccia. § 3.2 : avec des crédits remboursés à parts égales sur n périodes, les profits d'une période dépendent des investissements financés par crédit bancaire ET NON ENCORE REMBOURSÉS — l'équation de Kalecki devient un cas particulier. Le paiement des INTÉRÊTS n'intervient pas dans la détermination des profits globaux : la contrainte ne vient pas de l'intérêt. § 5.4 : « Le principal résultat que nous obtenons est alors que le taux de croissance requis des investissements doit progressivement s'élever au cours d'une phase de croissance », le remboursement des crédits passés constituant « une fuite hors du circuit économique » qui s'ajoute à l'épargne et affaiblit le multiplicateur. Conclusion générale : « l'émission de crédits bancaires toujours plus importants, relativement à la valeur de la production, était nécessaire pour éviter qu'une crise ne se développe » ; « la probabilité d'occurrence d'une crise augmente dans nos modèles à mesure que la phase de croissance de l'économie considérée se prolonge » ; « l'origine de ce retournement ne serait alors pas à rechercher dans le caractère privé et décentralisé du mode de production capitaliste, mais dans les mécanismes de création et destruction monétaires ». Réforme proposée : monétisation d'une part des dépenses publiques, montant « décidé à l'avance et peu susceptible de varier »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le plan directeur a été ouvert AVANT d'écrire ce chapitre, contrairement aux

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Articles of Agreement of the International Monetary Fund, 1944 — **ARTICLE XII, SECTION 2 (a) et (b)** : « ALL POWERS of the Fund shall be VESTED IN THE BOARD OF GOVERNORS [...] The Board of Governors MAY DELEGATE to the Executive Directors authority to exercise any powers of the Board, EXCEPT THE POWER TO: (i) Admit new members and determine the conditions of their admission. (ii) Approve A REVISION OF QUOTAS. (iii) Approve A UNIFORM CHANGE IN THE PAR VALUE of the currencies of all members. (iv) Make arrangements TO COOPERATE WITH OTHER INTERNATIONAL ORGANIZATIONS (other than informal arrangements of a temporary or administrative character). (v) Determine THE DISTRIBUTION OF THE NET INCOME of the Fund. (vi) REQUIRE A MEMBER TO WITHDRAW. (vii) Decide TO LIQUIDATE the Fund. (viii) DECIDE APPEALS FROM INTERPRETATIONS of this Agreement given by the Executive Directors. » **(d)** : le quorum est « a majority of the governors exercising NOT LESS THAN TWO-THIRDS of the total voting power ». **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE XII, SECTION 3 (b)** : le collège exécutif compte au moins douze directeurs, dont « FIVE SHALL BE APPOINTED BY THE FIVE MEMBERS HAVING THE LARGEST QUOTAS », cinq élus par les membres non habilités à en nommer, deux élus par les républiques américaines. **SECTION 3 (i)** : « ALL THE VOTES WHICH A DIRECTOR IS ENTITLED TO CAST SHALL BE CAST AS A UNIT. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C05, qui établit que les quatre chambres du symposium retrouvent les quatre décisions D1 à D4 du corpus, ET QUE D2 N'EST ATTRIBUÉE À AUCUNE CHAMBRE ; L7.C11, sur le financement du symposium ; L11.C16, sur la valorisation des communs"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN ACTE DE DÉLÉGATION EFFECTIF N'EST AU DOSSIER. Le texte dit ce qui ne
      PEUT PAS être délégué ; **le corpus ignore ce qui l'a été**, et c'est la

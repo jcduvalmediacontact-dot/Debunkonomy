@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 0** — projection du plan directeur de l'auteur. **Titre** : Le livre 0 — couche de réponse transversale. **Collection** : tronc. **Statut du livre** : hypothese. **Fonction assignée** : Interface entre le fichier llms.txt et le contenu du site : la couche par laquelle une machine ou un lecteur entre dans le corpus par la question plutôt que par le plan. **Motifs** : **rouage — accès au corpus par la question plutôt que par le plan**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE SOURCE N'EST OUVERTE POUR CE LIVRE, et aucun chapitre n'est écrit.
      **Ce chapitre est une AMORCE** : il enregistre ce que le registre assigne au

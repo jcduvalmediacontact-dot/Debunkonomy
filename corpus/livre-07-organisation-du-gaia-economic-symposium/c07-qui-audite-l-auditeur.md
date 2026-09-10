@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, p. 134-135 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. L'Office de Certification et d'Audit « se compose d'un collège d'experts et de scientifiques nommés pour un MANDAT UNIQUE DE NEUF ANS, NON RENOUVELABLE, avec un renouvellement par tiers tous les trois ans afin d'isoler l'institution des cycles électoraux nationaux. Ses délibérations et l'ensemble de ses données brutes — IMAGES SATELLITES, RELEVÉS D'ÉVALUATION, ALGORITHMES — sont publiées obligatoirement en format ouvert. Cette contestabilité publique répond à la question qu'aucune institution de contrôle ne peut éluder : QUI AUDITE L'AUDITEUR ? La réponse ne réside pas dans une instance supérieure, QUI DÉPLACERAIT LE MÊME PROBLÈME D'UN CRAN, mais dans la possibilité pour TOUT LABORATOIRE UNIVERSITAIRE, ORGANISATION OU COLLECTIF CITOYEN DE RÉPLIQUER LES CALCULS et de contester publiquement les audits. C'est ce qui soutient la science ; cela peut soutenir cette institution. » PRINCIPE D'ÉTANCHÉITÉ : « l'Office constate et audite, mais n'émet aucune unité monétaire »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L11.C11 § 6 : la surface de capture la plus exposée n'est pas D2 mais D3, LE CONSTAT, parce qu'elle est technique donc peu lisible, sectorielle donc traitée par des gens du secteur, répétée donc jamais un événement, et de conséquence monétaire immédiate. Et la promesse P25, l'indicateur pris pour cible, dont L11.C13 § 5 a établi qu'elle frappe plus fort sur la qualification que sur le reflux. Et l'arbitrage A17, conflit non résolu entre la directive publiée qu'exige L11.C12 et les indicateurs non annonçables que recommande le remède à Goodhart. Et les cinq biais de concentration de L11.C09 et L11.C13 § 6"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion », Journal of Political Economy, 85(3), 1977, p. 473-492 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, dépouillé en L8.C31 : « it is probably preferable that selected rules be simple and easily understood, SO IT IS OBVIOUS WHEN A POLICYMAKER DEVIATES FROM THE POLICY ». Cinquième exigence versée à la directive : la lisibilité comme condition de contrôle"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE. Il porte le RÉSULTAT LE PLUS FAVORABLE AU

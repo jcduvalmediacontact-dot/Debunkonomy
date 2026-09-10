@@ -14,45 +14,45 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 9 « Recommandations macroprudentielles NEMO IMS » (p. 185-212), sections « Une thermodynamique monétaire ? », « Une théorie quantitative et dynamique de la monnaie », « La critique de Jacques Rueff », « NEMO IMS : un projet en apparence hérétique », « Monnaie-flux plutôt que monnaie-stock », « Les dispositifs de neutralisation monétaire » ; et chapitre 7 (p. 145-147) pour les propriétés des NEMO Green SDR"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Rueff, L'Âge de l'inflation, Payot, 1963, et Le Péché monétaire de l'Occident, Plon, 1971 — une émission qui n'est pas résorbée par le reflux éteignant sa créance demeure en circulation sans contrepartie ; Rueff qualifie de « faux droits » les créances qui engendrent une demande nominale sans contrepartie d'offre disponible. La thèse prolonge la loi du reflux de l'école bancaire britannique (T. Tooke, J. Fullarton), pour qui l'escompte d'effets représentatifs de marchandises réelles garantit une émission temporaire s'éteignant à l'échéance"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "I. Fisher (avec H. G. Brown), The Purchasing Power of Money, Macmillan, 1911, chap. II « The Equation of Exchange », p. 14-33 — p. 24 : « The equation of exchange is simply the sum of the equations involved in all individual exchanges [...] It may be written: MV = PT ». Fisher présente l'égalité comme un truisme comptable au chapitre II ; la thèse causale n'intervient qu'aux chapitres suivants, lorsqu'il pose que V et T dépendent d'habitudes de paiement et de facteurs réels indépendants de M"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. G. Gurley, E. S. Shaw, Money in a Theory of Finance, Brookings Institution, 1960, chap. 3, p. 72-73 : « Inside money is money that is issued on the collateral of private domestic debt [...] Outside money is money that represents a net claim by the private sector on the government or the rest of the world » ; chap. 5, p. 135 : l'outside money est « backed by foreign or government debt or by gold, or is fiat money issued by the government ». La taxonomie porte sur la richesse nette consolidée du secteur privé : l'inside money s'annule à la consolidation, l'outside money non"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "W. Buiter, « Can Central Banks Go Broke? », CEPR Policy Insight n° 24, 17 mai 2008 : « A central bank's intertemporal budget constraint requires not positive conventional accounting equity, but positive comprehensive net worth, which includes the present discounted value of future seigniorage profits » ; A. Turner, Between Debt and the Devil, Princeton University Press, 2015, p. 226 : une banque centrale peut opérer indéfiniment en valeur nette comptable négative « provided that confidence in the medium of exchange is maintained » ; P. Stella, « Do Central Banks Need Capital? », IMF Working Paper WP/97/83, 1997. Les trois auteurs distinguent solvabilité comptable et solvabilité opérationnelle, et mettent en garde contre l'insolvabilité de politique : des pertes telles que l'institut doive émettre continûment pour couvrir ses charges lui font perdre le contrôle de sa cible d'inflation"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 — la monnaie de crédit naît d'une double écriture au bilan d'une banque commerciale et est détruite au remboursement ; la monnaie de banque centrale ne circule qu'entre banques de second rang"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "A. Rambaud, J. Richard, « The “Triple Depreciation Line” instead of the “Triple Bottom Line” », Critical Perspectives on Accounting, 33, p. 92-116, 2015 — le modèle CARE-TDL inscrit la relation écologique au passif comme dette à amortir, non à l'actif comme ressource"
     url: "https://doi.org/10.1016/j.cpa.2015.01.012"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: normatif
     reference: "Fonds monétaire international, premier amendement aux statuts instituant les droits de tirage spéciaux : résolution du Conseil des gouverneurs n° 23-5 adoptée le 31 mai 1968, entrée en vigueur le 28 juillet 1969, première allocation à compter du 1er janvier 1970. Réorganisés en département des DTS par le deuxième amendement (adopté le 30 avril 1976, en vigueur le 1er avril 1978). Avoir de réserve alloué aux États membres, échangeable contre des monnaies librement utilisables"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "S. H. Hanke, N. Krus, « World Hyperinflations », Cato Working Paper n° 8, 15 août 2012 — recensement de cinquante-six épisodes. Allemagne : août 1922 à décembre 1923, pic en octobre 1923 à 29 525 % par mois, temps de doublement des prix de 3,7 jours ; stabilisation du 15 novembre 1923 à raison d'un Rentenmark pour mille milliards de Papiermarks. Zimbabwe : mars 2007 à novembre 2008, dernier indice officiel publié en juillet 2008, pic estimé à la mi-novembre 2008, temps de doublement de 24,7 heures ; coupure de cent mille milliards de dollars émise en janvier 2009, démonétisation en avril 2009. Séries d'origine : Statistisches Reichsamt, 1925, et P. Cagan, « The Monetary Dynamics of Hyperinflation », 1956 ; Central Statistical Office de Harare et S. H. Hanke, A. K. F. Kwok, « On the Measurement of Zimbabwe's Hyperinflation », Cato Journal, 29(2), 2009"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
     reference: "C. A. E. Goodhart, « Problems of Monetary Management: The U.K. Experience », 1975 — toute régularité statistique observée tend à se défaire dès qu'on exerce une pression pour l'employer à des fins de contrôle ; formulation courante due à M. Strathern (1997) : « when a measure becomes a target, it ceases to be a good measure »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le livre a été lu AVANT le texte source, conformément à la règle acquise en

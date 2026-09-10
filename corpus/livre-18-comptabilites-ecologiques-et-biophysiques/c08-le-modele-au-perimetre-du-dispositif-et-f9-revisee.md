@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**M. V. B. C. Fernandez, C. Feger et A. Rambaud, *From the ecosystem to the organization: Theoretical reflections on the articulation between Accounting for the Management of Ecosystems (AfME) and CARE-TDL models*, résumé de thèse SUTROFOR/GEEFT, 25 janvier 2021** — **pièce fournie par l'auteur le 2026-09-07 et lue sur le texte.** **AfME, ET C'EST LE PÉRIMÈTRE DU DISPOSITIF** : « AfME is **the sole accounting model under the ecosystem-centric management accounting innovations WITHIN THE COLLECTIVE PERIMETERS**. As it is within the collective perimeters, its primary goal is to assist interacting organizations or “**actors**” with their **collective action in managing an ecological entity or issue of their concern** » (Feger, 2016 ; Feger & Mermet, 2018). **TROIS NIVEAUX DE COMPTES** : le premier « includes the **ecological issues monitoring and pressures accounts**, which actors in the collective system **share publicly and among themselves and serve as their standard reference** » ; le deuxième « refers to the accounting for **actors' contributions to ecological restoration** [...] monitor the actors' **commitments** as well as their **direct and indirect contributions** » ; le troisième porte les coûts et leur répartition"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Même source — L'ARTICULATION, ET CE QU'ELLE LAISSE OUVERT.** **Partage des rôles** : « The ecosystem-centric model focuses on the **collective management** of the said ecological entity, while **CARE-TDL focuses on the INTERNAL GOVERNANCE of the actors' corporations and integrated THEIR DEBTS TOWARD THE ECOLOGICAL ENTITY** ». **Conditions pour qu'une entité écologique soit un capital naturel** : « a **clear matter of concern and description**, **determined level of preservation**, and **effective and concrete preservation activities** ». **QUATRIÈME ÉTAPE, ET ELLE EST LA QUESTION DU CORPUS** : « the fourth step is to **allocate the collective costs to individual costs using the concept of WORK UNIT**. **The allocation is ALWAYS A TOPIC OF NEGOTIATION within the collective.** In the absence of work unit, the collective may base their decisions on several topics — which contribution activities need prioritization, **who are the actors that need these resources the most** (e.g., in terms of their **financial capability**, level of costs and efforts they bore and **responsibilities in the pressures**) ». **ET L'AVEU** : « **in the absence of national and regional targets and recognized ecological thresholds, WHO GETS TO DECIDE what pressures do the collective record in their account?** Would it be possible to negotiate this issue among themselves ? »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Même source — UNE LACUNE DÉCLARÉE DU MODÈLE DE LA FIRME.** Cas des pêcheurs achetant un équipement anti-collision : « this equipment may have helped them not hurt the marine turtles, **it still lessens the number of their fish catch** ». Or « **the incurred costs do not account for in the CARE-TDL model, technically**. Yet, its reflection in the ecosystem-centric model is **important during negotiations among actors** ». Motif : « **Accounting only shows the realities of activities ; hence incurred cost is avoided in the accounts** », la voie proposée étant le budget et les scénarios. **Le concept de *work unit*** : « a specific quantity that is **linearly correlated to indirect cost** and is easily associated with each activity »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même.** **L18.C06** proposait **F9 — LE TITRE** : « qu'aucune construction juridique n'attache à l'institution émettrice, sur la ressource régénérée, **un droit lui permettant d'exclure ou de restreindre l'accès** d'autrui à ses bénéfices [...] Si les deux tiennent, l'émission n'a pas de contrepartie reconnaissable et se comptabilise en charge. » **L1.C18 § 5** : la marge d'erreur « dépasse le signal », et la consolidation nationale « n'est pas, en l'état de la statistique, un déclencheur utilisable ». **ARBITRAGE A34** : « un barème qui fait dire au prix la vérité écologique **exclut ceux qui ne peuvent pas la payer** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AfME N'EST PAS INSTRUIT DANS SES TEXTES PROPRES. Le corpus le connaît par
      un résumé de thèse qui l'articule à un autre modèle, et cite Feger 2016,

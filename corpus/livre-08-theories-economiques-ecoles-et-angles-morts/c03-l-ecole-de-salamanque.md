@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `bareme`, défini au vocabulaire comme une table de valeurs « arrêtée par décision et non par un marché » ; la promesse P19b, que le registre qualifie d'objection la plus forte adressée au dispositif ; et le résultat de L11.C16 § 2, qui établit que ce qu'une assemblée arrête n'est pas le niveau de la valorisation mais sa STRUCTURE, le niveau étant contraint par la condition de bouclage"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, même régime que L8.C02. Aucun

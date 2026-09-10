@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Nations unies et coauteurs institutionnels, *System of National Accounts 2025*, version pour endossement par la Commission de statistique.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. **DROITS : à vérifier dans le détail avant toute reproduction ; le corpus s'en tient à la citation courte avec attribution — régime `a_verifier`.** **C'EST LA RÉVISION QUE LE CORPUS RÉCLAMAIT DEPUIS LE 2026-09-07** : toute la tranche du Livre 19 avait été écrite sur l'édition 2008, et deux livres portaient cette acquisition en rang 1. **Paragraphes lus : 4.101 et suivants (définition du passif), 4.104 (actifs financiers), 11.171 à 11.173 (actifs cryptographiques sans passif correspondant), 12.7 et 12.8.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS A LU UNE VERSION POUR ENDOSSEMENT, NON L'ÉDITION PUBLIÉE
      DÉFINITIVE.** La page de titre porte « For Statistical Commission

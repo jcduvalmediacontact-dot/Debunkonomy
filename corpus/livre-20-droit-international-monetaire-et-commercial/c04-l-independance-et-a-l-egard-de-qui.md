@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Traité sur l'Union européenne, Maastricht, JO C 191 du 29.7.1992 — **ARTICLE 107** : « Dans l'exercice des pouvoirs et dans l'accomplissement des missions et des devoirs qui leur ont été conférés par le présent traité et les statuts du SEBC, ni la BCE, ni une banque centrale nationale, ni un membre quelconque de leurs organes de décision NE PEUVENT SOLLICITER NI ACCEPTER DES INSTRUCTIONS des institutions ou organes communautaires, des gouvernements des États membres OU DE TOUT AUTRE ORGANISME. Les institutions et organes communautaires ainsi que les gouvernements des États membres s'engagent à respecter ce principe et à NE PAS CHERCHER À INFLUENCER les membres des organes de décision. » **ARTICLE 108** : « Chaque État membre veille à la COMPATIBILITÉ DE SA LÉGISLATION NATIONALE, y compris les statuts de sa banque centrale nationale, avec le présent traité et les statuts. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 7**, qui reprend la même règle sous le renvoi à l'article 108 du traité (numérotation d'Amsterdam) ; **ARTICLE 14.1**, qui reprend la clause de compatibilité sous le renvoi à l'article 109. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** RÉSERVE D'ÉDITION : ECB Compendium 2002"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C04, qui établit le conflit d'intérêts structurel du GES ; L7.C10, qui établit deux vecteurs de capture d'un institut technique, l'un par la poursuite (INDEC, ELSTAT), l'autre par le budget, et qui ROUTE VERS CE LIVRE l'immunité légale des cadres techniques ; L7.C07, qui pose la question de l'audit de l'auditeur"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA PORTÉE RÉELLE DE « TOUT AUTRE ORGANISME » N'EST PAS INSTRUITE. La
      formule est très large et **le corpus ne détient aucun commentaire ni

@@ -15,11 +15,11 @@ sources_primaires:
     nature: normatif
     reference: "**Commission européenne, FMI, OCDE, Nations unies et Banque mondiale, *System of National Accounts 2008* — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. RÉGIME : `a_verifier`** (cf. L19.C01). **CE QU'UN ACTIF EST, § 3.30 et § 10.8** : « **An asset is a STORE OF VALUE representing a benefit or series of benefits ACCRUING TO THE ECONOMIC OWNER by holding or using the entity over a period of time. It is a means of CARRYING FORWARD VALUE FROM ONE ACCOUNTING PERIOD TO ANOTHER** ». **L'EXCEPTION FINANCIÈRE, § 11.46** : « **Gold bullion held as a reserve asset is THE ONLY financial asset with NO CORRESPONDING LIABILITY** ». **LA CONDITION DES CONTRATS, BAUX ET LICENCES** : ceux-ci « **may represent an asset to the holder WHEN THE AGREEMENT RESTRICTS THE GENERAL USE OR SUPPLY OF PRODUCTS covered by the agreement and thus ENHANCES THE BENEFITS accruing to** » le détenteur. **ET LA DÉFINITION DU PASSIF, § 3.33** : un passif suppose « **one unit (THE DEBTOR) [...] obliged [...] to provide a payment or series of payments to another unit (THE CREDITOR)** »"
     url: "https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même — le deuxième jeu d'écritures de L21.C03, et l'autorité sur laquelle il repose.** Le Cahier technique de l'auteur écrit que « les allocations entrent à l'actif du bilan de la banque centrale nationale **comme ACTIF TRANSITOIRE**, la monnaie nationale émise au bénéfice du prestataire sort au passif ». **L21.C03 a repris cette écriture telle quelle** : à l'actif, allocations +100 ; au passif, monnaie +100 ; **et il note que « l'écriture est équilibrée et L11.C02 l'a reprise telle quelle »**. **AUCUN RÉFÉRENTIEL N'APPUIE CE POSTE** : L19.C01 l'a relevé et en a fait la question 4 de la grille du livre. **L21.C03 a par ailleurs tranché contre le Cahier technique sur le PREMIER jeu d'écritures — le certificat de qualification et la créance sur les fontes futures ne sont pas des actifs — mais il l'a fait « sans référentiel », par un raisonnement propre**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**AUCUN RÉFÉRENTIEL DE BANQUE CENTRALE N'EST OUVERT DANS CE CHAPITRE NON
      PLUS, ET C'EST LA TROISIÈME FOIS QUE LE CORPUS LE DÉCLARE.** Le corpus en a

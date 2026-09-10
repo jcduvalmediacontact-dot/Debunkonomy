@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Nations unies, Assemblée générale, *Promotion d'une coopération internationale inclusive et efficace en matière fiscale à l'Organisation des Nations Unies — Rapport du Comité spécial chargé d'élaborer le mandat*, document A/79/333, 30 août 2024**, français, original anglais, 33 pages, portant en annexe I **le mandat pour une convention-cadre des Nations unies sur la coopération internationale en matière fiscale**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** par le système documentaire officiel des Nations unies. **PRINCIPE 9 b), ET IL EST DÉCISIF** : les mesures prises pour atteindre les objectifs devraient « **prendre en compte LE DROIT SOUVERAIN DE CHAQUE ÉTAT MEMBRE DE DÉCIDER DE SES POLITIQUES ET PRATIQUES FISCALES** tout en respectant la souveraineté des autres États Membres dans ces domaines ». **OBJECTIFS, § 7** : mettre en place « une coopération fiscale internationale pleinement inclusive et efficace », « **un système de gouvernance de la coopération fiscale internationale** », et un système fiscal « inclusif, juste, transparent, efficace et équitable »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même document — ENGAGEMENTS ET ÉLÉMENTS PROCÉDURAUX.** **§ 10** : les engagements devraient porter sur « **assurer une juste répartition des droits d'imposition**, notamment en imposant équitablement les entreprises multinationales » ; « lutter contre les pratiques de fraude et d'évasion fiscales auxquelles se livrent **les particuliers fortunés** » ; « adopter des approches [...] contribuant à la réalisation du développement durable dans ses trois dimensions — économique, sociale et **environnementale** » ; « fournir une **assistance administrative mutuelle** efficace [...] notamment en ce qui concerne la transparence et **l'échange de renseignements** » ; « lutter contre **les flux financiers illicites** » ; et « prévenir et régler efficacement les différends fiscaux ». **§ 13, éléments à intégrer** : « définitions ; liens avec d'autres accords et instruments **et avec le droit interne des pays** ; **examen et vérification** ; échange de renseignements ; collecte et analyse des données ; **ressources financières** ; Conférence des Parties ; secrétariat ; organes subsidiaires ; **mécanismes de règlement des différends** ; procédures applicables à la modification [...] et à l'adoption de protocoles »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Même document — LES VOTES, ET ILS SONT LE SECOND RÉSULTAT DE CE CHAPITRE.** **§ 40** : « Le Comité a adopté le projet de mandat [...] à la suite d'un vote enregistré de **110 voix contre 8, avec 44 abstentions** ». **ET QUATRE AMENDEMENTS DES PAYS DÉVELOPPÉS ONT ÉTÉ REJETÉS AVANT CELA** : « le Comité a rejeté l'amendement par **103 voix contre 50**, avec 10 abstentions » ; puis par **103 contre 46**, avec 15 abstentions, sur un amendement du Canada présenté aussi au nom de l'Australie et de la Nouvelle-Zélande, la Suisse s'étant portée coauteure ; puis par **106 contre 48** ; puis par **103 contre 49**, avec 12 abstentions, sur un amendement de la Hongrie « **au nom de l'Union européenne et de ses États membres** ». **Figurent parmi les votes POUR ces amendements rejetés** : Allemagne, Australie, Canada, États-Unis d'Amérique, France, Israël, Italie, Japon, Luxembourg, Pays-Bas, Royaume-Uni, Suisse"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même.** **L23.C01** : la première des quatre questions du livre est **« au nom de quoi ? »**, et le corpus « n'a jamais dit qui lève la fonte ni de quel titre ». **ARBITRAGE A35** : la dette est portée par « la société entière », refluée par des fontes graduées. **L1.C25 et F6** : « **la disposition qui contraint le créancier est la disposition qui saute** » — trois épisodes, un seul schéma. **L5.C04** : le mode d'échec de la voie multilatérale n'est pas le blocage mais **le désarmement**, « l'adversaire ne s'oppose pas au texte : il en négocie les remèdes ». **L11.C21** : « un État qui perçoit sans zèle » n'est ni visible ni sanctionnable"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE MANDAT N'EST PAS LA CONVENTION. Ce document fixe ce que la
      convention-cadre **devrait** contenir ; **le texte négocié n'est pas

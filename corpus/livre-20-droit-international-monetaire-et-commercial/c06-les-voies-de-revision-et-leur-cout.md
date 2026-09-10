@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Traité sur l'Union européenne, Maastricht, JO C 191 du 29.7.1992 — **ARTICLE N § 1** : « [...] si le Parlement européen et, le cas échéant, la Commission, émet un avis favorable à la réunion d'une CONFÉRENCE DES REPRÉSENTANTS DES GOUVERNEMENTS DES ÉTATS MEMBRES, celle-ci est convoquée par le président du Conseil en vue d'arrêter D'UN COMMUN ACCORD les modifications à apporter auxdits traités. DANS LE CAS DE MODIFICATIONS INSTITUTIONNELLES DANS LE DOMAINE MONÉTAIRE, LE CONSEIL DE LA BANQUE CENTRALE EUROPÉENNE EST ÉGALEMENT CONSULTÉ. Les amendements entreront en vigueur après avoir été RATIFIÉS PAR TOUS LES ÉTATS MEMBRES conformément à leurs règles constitutionnelles respectives. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE 106, DEUX LISTES DE COÛT INÉGAL. § 5** : « Les articles 5.1, 5.2, 5.3, 17, 18, 19.1, 22, 23, 24, 26, 32.2, 32.3, 32.4, 32.6, 33.1 a) et 36 des statuts du SEBC peuvent être modifiés par le Conseil, statuant soit à la majorité qualifiée sur recommandation de la BCE et après consultation de la Commission, soit à l'unanimité sur proposition de la Commission et après consultation de la BCE. DANS LES DEUX CAS, L'AVIS CONFORME DU PARLEMENT EUROPÉEN EST REQUIS. » **§ 6** : « Le Conseil, statuant à la MAJORITÉ QUALIFIÉE soit sur proposition de la Commission et après consultation du Parlement européen et de la BCE, soit sur RECOMMANDATION DE LA BCE [...], arrête les dispositions visées aux articles 4, 5.4, 19.2, 20, 28.1, 29.2, 30.4 et 34.3 des statuts. » — **CE SECOND PARAGRAPHE N'EXIGE PAS L'AVIS CONFORME DU PARLEMENT.** **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source — **ARTICLE Q** : « Le présent traité est conclu pour une DURÉE ILLIMITÉE. » **ARTICLE O** : l'admission d'un nouvel État se fait par décision du Conseil À L'UNANIMITÉ, avis conforme du Parlement à la majorité absolue, puis accord soumis à LA RATIFICATION PAR TOUS LES ÉTATS CONTRACTANTS. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 20, « Other instruments of monetary control »** : « The Governing Council MAY, BY A MAJORITY OF TWO THIRDS OF THE VOTES CAST, decide upon the use of SUCH OTHER OPERATIONAL METHODS OF MONETARY CONTROL AS IT SEES FIT, RESPECTING ARTICLE 2. The Council shall, in accordance with the procedure laid down in Article 42, define the scope of such methods IF THEY IMPOSE OBLIGATIONS ON THIRD PARTIES. » **ARTICLE 28.1** : le capital de la BCE, modifiable par le conseil des gouverneurs à la majorité qualifiée. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LES DEUX LISTES DE L'ARTICLE 106 SONT RELEVÉES ET PARTIELLEMENT
      DÉPOUILLÉES. Le corpus a ouvert les articles 4, 20, 21 et 28.1 des

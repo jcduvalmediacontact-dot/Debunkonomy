@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**L6.C09 et le falsifieur F8**, établis le 2026-09-07 sur le traité de l'Organisation mondiale de la propriété intellectuelle du 24 mai 2024, **dont le texte a été ouvert le même jour**. **Adopté par CONSENSUS après VINGT-CINQ ANS de travaux engagés en 1999.** **Quatre limites, toutes sur les remèdes** : pas de vérification imposée aux offices ; rectification préalable hors fraude ; « no Contracting Party shall **revoke, invalidate, or render unenforceable** the conferred patent rights solely on the basis of an applicant's failure to disclose » ; non-rétroactivité. **ÉTAT** : entrée en vigueur à **quinze ratifications**, **deux instruments déposés au début de 2026**. **F8, LE DÉSARMEMENT À TROIS ÉTAGES** : déclencheur à conditions cumulatives, vérification imposée à personne, manquement sans conséquence sur le droit acquis"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "***L6 — REGISTRE TRANSVERSAL*, v04, entrées 20 et 21**, non encore portées par un chapitre. **Entrée 20** : « Convention sur la protection de l'environnement par le droit pénal, **CETS n° 228, adoptée le 14 mai 2025, ouverte à la signature le 3 décembre 2025**. **Elle n'était pas entrée en vigueur au 29 août 2026** ; son entrée en vigueur suppose **dix ratifications**, dont huit au moins d'États membres. **Premiers signataires : l'Union européenne, la Moldova et le Portugal.** » **Instrument distinct** : « **la convention de 1998 sur le même objet n'est JAMAIS entrée en vigueur.** » **Entrée 21** : le 9 septembre 2024, trois États ont soumis une proposition d'amendement au Statut de Rome sur l'écocide, déclenchant la procédure de l'article 121. **RÈGLE DE RÉDACTION, respectée ici** : « **Le récit s'arrête à la soumission formelle** [...] **aucune formulation ne doit suggérer une adoption, un vote favorable ou une progression.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L20.C09** : la double majorité de l'art. XVII des statuts de 1944 — trois cinquièmes des membres, quatre cinquièmes des voix — **est plus exigeante que chacun de ses deux critères pris seul.** **L20.C13** : entrée en vigueur subordonnée à un seuil en part des contributions, **date plancher et date butoir.** **L6.C12** : une technique multilatérale QUI A FONCTIONNÉ — art. 47 du traité sur la Charte de l'énergie, **vingt et un ans depuis la notification, cliquet à trois crans, plus une seconde clause de survie pour l'application provisoire**. **L5.C01** : trois questions opposables à chaque voie — qui entre en premier et qu'y gagne-t-il, que peut faire l'émetteur en place, **et que coûte l'échec**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN TRAITÉ MULTILATÉRAL N'A ÉTÉ OUVERT POUR CE CHAPITRE. Il raisonne sur
      trois instruments que le corpus tient par le registre du Livre 6 ou par

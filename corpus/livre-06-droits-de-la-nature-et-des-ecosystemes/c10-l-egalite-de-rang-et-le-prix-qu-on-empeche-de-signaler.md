@@ -14,31 +14,31 @@ sources_primaires:
   - ref: S1
     nature: jurisprudence
     reference: "*L6 — REGISTRE TRANSVERSAL*, v04, **entrée 47, « L'objectif de valeur constitutionnelle de protection de l'environnement »**. « Par la **décision n° 2019-823 QPC du 31 janvier 2020, *Union des industries de la protection des plantes***, relative à l'interdiction de production, de stockage et de circulation de certains produits phytopharmaceutiques, le Conseil constitutionnel a **déduit du préambule de la Charte de l'environnement un OBJECTIF DE VALEUR CONSTITUTIONNELLE de protection de l'environnement, patrimoine commun des êtres humains**, et rattaché au onzième alinéa du préambule de 1946 un objectif **de même rang** de protection de la santé. Il juge qu'il appartient au législateur d'**assurer la conciliation de ces objectifs avec l'exercice de la LIBERTÉ D'ENTREPRENDRE**, et que **le législateur est fondé à tenir compte des effets que les activités exercées en France peuvent porter à l'environnement À L'ÉTRANGER**. » **QUALIFICATION** : fait vérifié, établi sur la décision publiée et son commentaire officiel"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même entrée — **ANTÉRIORITÉ ET RÈGLE DE RÉDACTION, respectées ici.** « Par la **décision n° 2013-346 QPC du 11 octobre 2013**, relative à l'interdiction de la fracturation hydraulique, le Conseil avait déjà admis que la liberté d'entreprendre puisse être limitée au regard d'un **BUT D'INTÉRÊT GÉNÉRAL** de protection de l'environnement. » **RÈGLE** : « **Distinguer le but d'intérêt général, QUI JUSTIFIE UNE ATTEINTE, de l'objectif de valeur constitutionnelle, QUI ENTRE DANS LA BALANCE À ÉGALITÉ DE RANG. L'apport de 2020 est ce passage.** Ne jamais attribuer cette consécration à une décision n° 2020-881 QPC : **ce numéro est erroné.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source, **entrée 48, « L'assurabilité des risques climatiques »**. « Le régime français d'indemnisation des catastrophes naturelles repose sur la **loi n° 82-600 du 13 juillet 1982**, fondée sur la **solidarité nationale** : **surprime UNIFORME NON INDEXÉE SUR LE RISQUE**, adossée aux contrats multirisques habitation, et **réassurance publique par la Caisse centrale de réassurance garantie par l'État**. » **DONNÉES ÉTABLIES** : « Coûts d'indemnisation des dommages liés aux aléas climatiques de **10,6 milliards d'euros en 2022**. Le rapport *Adapter le système assurantiel français face à l'évolution des risques climatiques*, de Thierry Langreney, Gonéri Le Cozannet et Myriam Mérad, **remis le 2 avril 2024**, fait état d'une réduction du nombre d'assureurs présents dans certains territoires, de conditions de souscription dissuasives, **voire d'un désengagement d'assureurs**. » **DIVERGENCE TRANCHÉE PAR LE REGISTRE** : « La date du rapport est donnée au 2 avril 2024 par le ministère de l'Économie et à 2023 par un commentaire ultérieur. **Retenir le 2 avril 2024.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: donnees
     reference: "Même entrée — **PROJECTION INSTITUTIONNELLE.** « L'exercice de résistance climatique de l'**Autorité de contrôle prudentiel et de résolution**, publié en **décembre 2024**, projette à **2050** une **multiplication par cinq des zones touchées** et une **hausse des primes pouvant atteindre DEUX CENTS POUR CENT**, et identifie **la Bretagne Nord et les côtes méditerranéennes** comme zones où les seuils de résiliation seraient les plus élevés. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Même entrée — **CONTRE-INDICATION ET RÈGLE DE RÉDACTION DÉCISIVE, respectées ici mot pour mot.** « La première édition des travaux de l'**observatoire de l'assurance des risques climatiques** conclut que **l'assurance habitation demeure accessible sur l'ensemble du territoire étudié**. Ses auteurs reconnaissent que, **pour des raisons tenant au droit de la concurrence, l'étude N'INTÈGRE NI LES PRIX DES CONTRATS NI LA SURPRIME.** » **RÈGLE** : « **Ne jamais écrire que des biens sont devenus inassurables en France.** Écrire que **l'accès formel est maintenu selon le seul relevé institutionnel disponible**, que ce relevé **exclut de son périmètre les prix et les franchises**, et que **C'EST PAR LES PRIX ET LES FRANCHISES QUE L'INASSURABILITÉ SE MANIFESTE. LA DÉMONSTRATION TIENT DANS CET ÉCART.** » **POINT NON ÉTABLI** : « Le chiffre d'environ **1,7 million de personnes sans assurance habitation, soit 2,5 % des occupants de résidences principales, circule SANS SOURCE PRIMAIRE IDENTIFIÉE.** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S7
     nature: jurisprudence
     reference: "**Conseil constitutionnel, décision n° 2019-823 QPC du 31 janvier 2020, *Union des industries de la protection des plantes*. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07** — `https://www.conseil-constitutionnel.fr/decision/2020/2019823QPC.htm`, texte intégral lu. **LE REGISTRE EST CONFIRMÉ AU MOT PRÈS** : « Il en découle que la protection de l'environnement, patrimoine commun des êtres humains, **constitue un objectif de valeur constitutionnelle** » ; « **Il appartient au législateur d'assurer la conciliation des objectifs précités avec l'exercice de la liberté d'entreprendre** » ; « **À ce titre, le législateur est fondé à tenir compte des effets que les activités exercées en France peuvent porter à l'environnement à l'étranger.** » **DEUX ÉLÉMENTS QUE LE REGISTRE NE PORTAIT PAS.** (1) **Le préambule de la Charte, cité par la décision**, énonce que « la préservation de l'environnement doit être recherchée **AU MÊME TITRE QUE LES AUTRES INTÉRÊTS FONDAMENTAUX DE LA NATION** » et que « les choix destinés à répondre aux besoins du présent **ne doivent pas compromettre la capacité DES GÉNÉRATIONS FUTURES ET DES AUTRES PEUPLES** à satisfaire leurs propres besoins ». (2) **L'INTENSITÉ DU CONTRÔLE** : le Conseil juge que le législateur « a assuré une conciliation **QUI N'EST PAS MANIFESTEMENT DÉSÉQUILIBRÉE** » — il ne pèse pas lui-même, il vérifie l'absence de déséquilibre manifeste"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "Le corpus lui-même — **L20.C03**, qui établit que le verrou européen n'est pas la prohibition du financement monétaire mais **la hiérarchie des objectifs** ; **L1.C21**, qui construit un reflux transactionnel **modulé sur l'impact** ; **L1.C06**, qui pose l'essentiel insolvable ; et **L6.C03**, qui pose le sixième état — **le point non établi ne se convertit jamais en négation**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA DÉCISION DE 2020 A ÉTÉ OUVERTE LE 2026-09-07 et le registre est
      confirmé au mot près ; **la décision n° 2013-346 QPC du 11 octobre 2013

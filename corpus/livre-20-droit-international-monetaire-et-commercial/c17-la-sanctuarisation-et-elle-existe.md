@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Convention des Nations unies sur le droit de la mer, Montego Bay, 1982 — **ARTICLE 311 § 6** : « States Parties agree that THERE SHALL BE NO AMENDMENTS TO THE BASIC PRINCIPLE RELATING TO THE COMMON HERITAGE OF MANKIND set forth in article 136 and that THEY SHALL NOT BE PARTY TO ANY AGREEMENT IN DEROGATION THEREOF. » **§ 3** : deux États parties ou plus peuvent conclure entre eux des accords modifiant ou suspendant l'application de la convention, « PROVIDED THAT SUCH AGREEMENTS DO NOT RELATE TO A PROVISION DEROGATION FROM WHICH IS INCOMPATIBLE WITH THE EFFECTIVE EXECUTION OF THE OBJECT AND PURPOSE OF THIS CONVENTION, and provided further that such agreements SHALL NOT AFFECT THE APPLICATION OF THE BASIC PRINCIPLES embodied herein ». **§ 4** : ces États doivent NOTIFIER leur intention aux autres parties par le dépositaire. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** RÉSERVE D'ÉDITION : voir L20.C16 — numérisation à couche OCR inégale ; les articles cités ici sont propres"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE 309** : « NO RESERVATIONS OR EXCEPTIONS MAY BE MADE TO THIS CONVENTION UNLESS EXPRESSLY PERMITTED by other articles of this Convention. » **ARTICLE 310** : les déclarations restent possibles, « PROVIDED THAT SUCH DECLARATIONS OR STATEMENTS DO NOT PURPORT TO EXCLUDE OR TO MODIFY THE LEGAL EFFECT of the provisions of this Convention in their application to that State ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Accord relatif à l'application de la partie XI de la convention des Nations unies sur le droit de la mer du 10 décembre 1982, adopté par l'Assemblée générale le 28 juillet 1994 — **ARTICLE 2 § 1** : « The provisions of this Agreement and Part XI shall be INTERPRETED AND APPLIED TOGETHER AS A SINGLE INSTRUMENT. IN THE EVENT OF ANY INCONSISTENCY BETWEEN THIS AGREEMENT AND PART XI, THE PROVISIONS OF THIS AGREEMENT SHALL PREVAIL. » **§ 2** : les articles 309 à 319 de la convention s'appliquent à l'accord. **ARTICLE 4 § 1** : « After the adoption of this Agreement, ANY instrument of ratification [...] of or accession to the Convention SHALL ALSO REPRESENT CONSENT TO BE BOUND BY THIS AGREEMENT. » **PRÉAMBULE** : « NOTING THE POLITICAL AND ECONOMIC CHANGES, INCLUDING MARKET-ORIENTED APPROACHES, AFFECTING THE IMPLEMENTATION OF PART XI » et « WISHING TO FACILITATE UNIVERSAL PARTICIPATION IN THE CONVENTION ». **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**, Recueil des traités des Nations unies, vol. 1836, n° I-31364. **ACQUIS EN COURS DE RÉDACTION DE CE CHAPITRE, QUI LE DÉCLARAIT MANQUANT**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C13, ouvert le 2026-09-06 : « Cette SANCTUARISATION JURIDIQUE, en définissant clairement les limites à ne pas franchir, EST LA CONDITION SINE QUA NON à l'émergence des unités NEMO Green SDR », et le symposium « aura pour mission de traduire cette vision en cadres juridiques internationaux contraignants » ; L20.C01, qui fait de ce point le RÉSULTAT D'ORDRE commandant tout le livre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA VALEUR JURIDIQUE D'UNE CLAUSE D'INTANGIBILITÉ N'EST PAS INSTRUITE. Un
      traité peut-il valablement s'interdire à lui-même d'être amendé sur un

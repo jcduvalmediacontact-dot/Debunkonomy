@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 15 avril 1994, article X — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06. RÉGIME DES AMENDEMENTS, DISTINCT DE CELUI DES DÉCISIONS : « Amendments to provisions of this Agreement [...] of a nature that would alter the rights and obligations of the Members, shall take effect for the Members that have accepted them UPON ACCEPTANCE BY TWO THIRDS OF THE MEMBERS and thereafter for each other Member upon acceptance by it. The Ministerial Conference may decide BY A THREE-FOURTHS MAJORITY of the Members that any amendment made effective under this paragraph is of such a nature that... ». ARCHITECTURE À DEUX NIVEAUX : décision ordinaire par consensus, révision de la règle à majorité qualifiée"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 133 — OUVERT le 2026-09-06 : le droit de réserve du Collège des Petits États Insulaires et Territoires Vulnérables est surmontable « après un DÉLAI OBLIGATOIRE DE RÉFLEXION DE SIX MOIS, par un vote à majorité qualifiée renforcée de 75 % DES ÉTATS ET DE 75 % DE LA POPULATION ». LE LIVRE POSSÈDE DONC UNE MAJORITÉ QUALIFIÉE, mais il ne l'applique qu'au dépassement d'un veto sectoriel — non à la révision de ses propres règles"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C20, l'amendement de la directive, quatrième exigence restée vide ; et L11.C16 § 6 : l'exigence de révisabilité est PLUS FORTE sur la valorisation que sur les quatre autres barèmes, une fonction mauvaise y privant durablement un membre de sa capacité d'importer, ALORS MÊME QUE LA CRÉDIBILITÉ Y DEMANDE L'INVERSE. Et L8.C31 § 6, le mécanisme de l'entrée en vigueur différée tiré de Kydland-Prescott"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION. Le livre ne prévoit aucune procédure de révision de

@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les vingt chapitres du Livre 2, écrits le 2026-09-06 en une passe, sur **QUATRE TEXTES DOCTRINAUX** ouverts par téléchargement direct le même jour (Borio 2003 ; Aglietta et Espagne 2016 ; note de l'Institut Veblen cosignée par Plihon, 2022 ; rapport n° 96 du Conseil d'analyse économique, 2011), **DEUX SOURCES INSTITUTIONNELLES** (article *Green Swans* du Bulletin de la Banque de France, 2020 ; *Financial Stability Report* de la Réserve fédérale, octobre 2023), **les douze épisodes du Cahier Technique** extraits du Drive de l'auteur, et **le chapitre 9 du livre**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, instruction du 2026-09-06 : « les concepts macro prudentiels actuels et les confronter à la macro prudence NEMO IMS. Réfère toi aux OUVRAGES de Michel Aglietta, Dominique Plihon, et quelques autres. » **AUCUN OUVRAGE DE CES DEUX AUTEURS N'A ÉTÉ OUVERT** : *Macroéconomie financière*, *La monnaie et ses mécanismes*, *La violence de la monnaie* sont sous droits et absents du dossier. Le corpus tient d'eux **quatre textes courts et gratuits**, dont deux seulement sont signés de l'un ou de l'autre à titre principal"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L2.C19, qui dresse le compte des dix déplacements ; L2.C02, qui établit que le premier terme de la confrontation était mal posé ; L2.C13 et L2.C18, qui portent les deux divergences internes au dossier de l'auteur"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN OUVRAGE N'A ÉTÉ OUVERT, ALORS QUE L'INSTRUCTION EN DEMANDAIT.
      C'est le manque principal du livre et il est structurel : **les ouvrages

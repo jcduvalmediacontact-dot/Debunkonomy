@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**12 U.S. Code § 355, *Purchase and sale of obligations of National, State, and municipal governments; open market operations*** — codification du **§ 14(b) du Federal Reserve Act** du 23 décembre 1913, 38 Stat. 264, tel qu'amendé. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, texte lu sur le *Legal Information Institute*. **LA COMPÉTENCE EST UNE LISTE ÉNUMÉRATIVE** : « Every Federal Reserve bank shall have power: **(1)** To buy and sell, at home or abroad, **bonds and notes of the United States**, bonds issued under [...] section 1463 [...] **having maturities from date of purchase of not exceeding six months**, and **bills, notes, REVENUE BONDS, and warrants with a maturity from date of purchase of NOT EXCEEDING SIX MONTHS, ISSUED IN ANTICIPATION OF THE COLLECTION OF TAXES OR IN ANTICIPATION OF THE RECEIPT OF ASSURED REVENUES by any State, county, district, political subdivision, or municipality** in the continental United States [...] and **obligations of, or fully guaranteed as to principal and interest by, a foreign government or agency thereof** [...] **(2)** To buy and sell **in the open market** [...] **any obligation which is a direct obligation of, or fully guaranteed as to principal and interest by, any agency of the United States**. » Et pour les obligations directes des États-Unis : elles « **may be bought and sold without regard to maturities but only in the open market** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même, Livre 10.** **L10.C01** : l'orientation BCE/2016/34, article 6, exige trois conditions cumulatives dont **aucune n'est un potentiel de service** ; article 9, valorisation **aux prix courants du marché** ; article 3, **prudence asymétrique**. **L10.C02** : l'annexe IV réserve l'évaluation **au coût** aux titres détenus à des fins de politique monétaire, **obligatoirement pour les non négociables**. **L10.C04** : *Gauweiler* point 96 — l'article 18 § 1 du protocole sur le SEBC permet d'intervenir sur les marchés de capitaux « en achetant et en vendant ferme **des titres NÉGOCIABLES** ». **L10.C05** : le règlement (CE) n° 3603/93 vise **« toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par une créance sur celui-ci »**. **Et le corpus y déclarait, quatre fois, qu'il généralisait depuis un seul système.**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**L1.C22, et le corpus y tient déjà le précédent le plus proche.** Sur les droits de tirage spéciaux : « **Le DTS n'est ni une monnaie ni une créance sur le Fonds, mais une créance potentielle sur les monnaies librement utilisables de ses membres** ». **Correction acceptée par ce chapitre** : « **Le DTS est une dette.** “Aucun État ne s'est endetté à l'émission” est faux sous BPM6. Conséquence : le corpus **RETIRE l'affirmation qu'une émission internationale SANS DETTE aurait déjà eu lieu.** » **Et la conséquence inverse, favorable** : « le critère qui a rendu le DTS débiteur est **une définition élargie en 2016 (principal OU intérêt)**, et l'unité du livre ne le satisfait pas », d'où « un test vérifiable que le corpus n'avait pas ». **Limite déclarée** : « Un DTS est un avoir de réserve ; l'unité décrite par le livre n'en est pas un »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "DEUX CADRES NE SONT PAS UNE COMPARAISON DES PRINCIPALES BANQUES CENTRALES,
      et ce chapitre ne prétend pas en être une. **Manquent la Banque

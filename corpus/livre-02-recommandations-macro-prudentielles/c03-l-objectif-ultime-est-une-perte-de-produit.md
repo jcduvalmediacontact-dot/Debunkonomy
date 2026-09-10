@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "C. Borio, BIS Working Papers n° 128, 2003 — **TABLE 1, ligne « Ultimate objective »** : macroprudentiel = « avoid OUTPUT (GDP) COSTS ». Et le corps du texte : « The objective of a macroprudential approach is to limit the risk of episodes of financial distress WITH SIGNIFICANT LOSSES IN TERMS OF THE REAL OUTPUT FOR THE ECONOMY AS A WHOLE. » Plus loin : « since the macroprudential approach MEASURES RISK IN TERMS OF THE DISPERSION OF AN ECONOMY'S OUTPUT, it also recognises that the financial system has FIRST-ORDER EFFECTS on it. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, analogie du portefeuille — « The macroprudential approach would then care about THE TAIL LOSSES ON THE PORTFOLIO AS A WHOLE ; its microprudential counterpart would care equally about the tail losses on each of the component securities. » Le calibrage macroprudentiel « first sets the relevant THRESHOLD OF ACCEPTABLE TAIL LOSSES for the portfolio as a whole. It then calibrates the prudential controls on the basis of THE MARGINAL CONTRIBUTION OF EACH SECURITY to the relevant measure of portfolio risk. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C28, « Au-delà du PIB », qui restitue la critique du produit intérieur brut adressée par le livre, l'accorde, et RELÈVE QU'ELLE EST LARGEMENT PARTAGÉE et n'est donc pas ce qui distingue la proposition ; il distingue trois objets employés sans être séparés — le donut comme boussole, le Bonheur National Brut comme indice, et le tableau de bord macroprudentiel en six familles comme contribution propre du dispositif"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "*Cahier Technique*, épisode 1, section 1 — les trois caractéristiques du risque systémique : « la PROPAGATION EN CASCADE », « les BOUCLES DE RÉTROACTION » (« Une banque en difficulté vend des actifs, ce qui fait baisser les prix, ce qui déstabilise d'autres banques, ce qui produit d'autres ventes forcées. Le système se punit lui-même »), et « l'INCAPACITÉ D'AUTO-RÉGULATION ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE LITTÉRATURE SUR LES INDICATEURS ALTERNATIFS N'EST OUVERTE. Le
      corpus soutient qu'une fonction-objectif exprimée en produit est

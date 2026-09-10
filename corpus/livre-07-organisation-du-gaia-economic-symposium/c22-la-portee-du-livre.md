@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7 et chapitre 5 — OUVERTS DE PREMIÈRE MAIN le 2026-09-06, après que les quatre premiers chapitres de ce livre eurent été écrits sans eux. L'architecture en quatre chambres, la double majorité, le droit de réserve des vulnérables, les garanties communes, la contestabilité publique, la sanctuarisation juridique, et la détermination de la valeur par « reconnaissance collective »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — les vingt et un chapitres qui précèdent, écrits le 2026-09-06 ; les neuf acquis versés par le Livre 11 à ce livre le même jour ; l'arbitrage A29, tranché par l'auteur, et sa précision sur le point de démarrage ; et la déclaration du Livre 20, décidée par l'auteur le même jour, qui retire à ce livre les trois blocs de droit international public"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE RENDU. Il ne verse aucun résultat neuf : il réunit ce que

@@ -14,31 +14,31 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026 — critique du produit intérieur brut, dispersée dans l'ouvrage. Énoncés retenus : « la quête incessante du Produit Intérieur Brut (PIB) a conduit à une prolifération de productions superflues, voire franchement nuisibles » ; « nous savons que le PIB, indicateur principal de la santé de nos économies, est absurde parce que incomplet. Généralement, les économistes ne s'émerveillent que de la grandeur des chiffres sans jamais tenir de discours critiques sur la teneur des choses qui en sont à l'origine » ; programme énoncé : « inventer une économie où l'indice de développement humain se fera sans l'impératif de croissance du PIB » ; et « dans le cadre de NEMO IMS, les critères de succès économiques évoluent. Ils ne se concentrent plus uniquement sur le PIB, mais intègrent des mesures de santé environnementale, d'équité sociale et de qualité de vie ». Métaphore de l'immeuble : les étages visibles sont « tout ce que nos économistes, nos comptables et nos dirigeants politiques savent voir et mesurer », les fondations invisibles sont « l'essentiel que l'on ne compte jamais »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, notes 3 et 8. Note 8 sur le Bonheur National Brut : « Face à l'obsession du PIB, le concept de Bonheur National Brut (BNB), initié par le Bhoutan, propose une mesure multidimensionnelle du progrès. Là où le PIB comptabilise positivement la consommation de ressources (le « flux » extractif), le BNB intègre la préservation du patrimoine naturel et culturel (le « stock » vital). » Note 3 sur le donut : « une boussole visuelle qui remplace l'objectif de croissance infinie par celui d'un équilibre dynamique », composée du plafond écologique et du plancher social"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, section sur la fixation des taux de change du NEMO Exchange Standard — ÉNONCÉ DÉCISIF POUR CE CHAPITRE, relevé en le défrichant : « Ce taux de change fixe, mais révisable, offre une flexibilité nécessaire pour s'adapter aux évolutions économiques sans pour autant sacrifier la stabilité. Les révisions seraient probablement soumises à des critères objectifs et transparents, potentiellement basés sur des indicateurs économiques clés tels que l'inflation, LA CROISSANCE DU PIB, ou la balance commerciale de chaque nation. » Le conditionnel et les adverbes sont de l'auteur : l'énoncé est une conjecture, non un engagement de conception. Il n'en reste pas moins le SEUL endroit de l'ouvrage où un critère de révision des parités est nommé — et il nomme le produit intérieur brut. C'est aussi une TROISIÈME réponse à la question posée en L1.C26 § 3, où le corpus n'en avait relevé que deux"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 12 « De la macroprudence défensive à la macroprudence régénérative », section 5 — « Le tableau de bord multidimensionnel présenté à l'épisode 28 de la série principale trouve dans le cahier technique sa formulation macroprudentielle complète. » SIX FAMILLES D'INDICATEURS : biosphérique (suivi consolidé des neuf limites planétaires, indicateurs du Stockholm Resilience Centre) ; économique réelle (robustesse des chaînes de production et infrastructures critiques, « indicateurs Herfindahl-Hirschman étendus aux chaînes d'approvisionnement », indicateurs de résilience territoriale) ; financière (ratios de fonds propres, LTV, LTI, concentration bancaire, part carbonée des portefeuilles, alignement taxonomique) ; sociale (couverture des besoins fondamentaux, inégalités, cohésion territoriale) ; monétaire (ratio d'expansion monétaire nette, ratio de reflux structurel, efficience monétaire des activités régénératives, vitesse de circulation, concentration de la richesse monétaire) ; internationale (diversification des réserves, volumes des systèmes de paiement, indice de coordination macroprudentielle). Règle d'articulation énoncée : « une dégradation des indicateurs biosphériques et sociaux appelle une intensification des instruments régénératifs. Une amélioration de ces indicateurs permet de moduler les instruments correspondants. » AVERTISSEMENT : l'épisode emploie le sigle NGDTS, écarté au profit de NEMO Green Allocation (NGA) le 2026-09-05, et décrit le GAÏA Economic Symposium comme à la fois instance de surveillance des communs ET émetteur — conception que le livre remplace par quatre chambres séparées (L1.C18 § 3, passe-2 § 3 quater)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "J. Stiglitz, A. Sen, J.-P. Fitoussi, Rapport de la Commission sur la mesure des performances économiques et du progrès social, 2009 — recommandation centrale : compléter le produit intérieur brut par un ensemble d'indicateurs plutôt que par un indice unique, la question des pondérations d'un indice composite étant irréductiblement normative. RÉSERVE : référence non ouverte de première main dans cette passe. C'est le document qui structure la littérature dite « au-delà du PIB » et le corpus doit s'y situer"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "K. Raworth, Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, Random House Business, 2017 — le donut comme boussole substituant à l'objectif de croissance un espace sûr et juste borné par un plafond écologique et un plancher social. Déjà versé au dossier en L1.C04 pour les concepts de plafond écologique et de plancher social. RÉSERVE : référence non ouverte de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "R. E. Ulanowicz, S. Goerner, B. Lietaer, R. Gomez, « Quantifying sustainability: Resilience, efficiency and the return of information theory », Ecological Complexity, 2009 ; C. S. Holling sur la corrélation inverse entre stabilité et résilience. Employées ici pour le point suivant : la robustesse d'un système suppose conjointement diversité, redondance et modularité, et un indice de concentration ne mesure que la première. Déjà versées au dossier en L1.C23. RÉSERVE : références non ouvertes de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le livre a été lu avant rédaction sur tous ses passages relatifs au produit

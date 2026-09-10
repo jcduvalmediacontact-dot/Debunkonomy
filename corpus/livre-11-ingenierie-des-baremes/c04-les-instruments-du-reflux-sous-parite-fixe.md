@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », The Canadian Journal of Economics and Political Science, 29(4), novembre 1963, p. 475-485 — OUVERT INTÉGRALEMENT DE PREMIÈRE MAIN le 2026-09-05, tirage JSTOR procuré par l'auteur. PREMIÈRE OUVERTURE d'une des deux sources sur lesquelles repose l'objection bloquante P49, employée jusqu'ici d'après des notes de vulgarisation. HYPOTHÈSES, que Mundell énonce lui-même et qu'il faut retenir avant tout emploi : mobilité PARFAITE des capitaux, définie comme la situation où « a country cannot maintain an interest rate different from the general level prevailing abroad » ; ressources inemployées, rendements constants, salaires nominaux fixes, d'où une offre intérieure élastique et un niveau des prix constant ; et un pays « too small to influence foreign incomes or the world level of interest rates ». Mundell qualifie lui-même ses conclusions de « black and white rather than dark and light grey ». RÉSULTATS. Sous parité fixe : « monetary policy under fixed exchange rates has no sustainable effect on the level of income [...] The only final effect of the open market purchase is an equivalent fall in foreign exchange reserves: the central bank has simply traded domestic assets for foreign assets. » La politique budgétaire est en revanche forte, « simple Keynesian conclusions hold ». En note 5, l'énoncé le plus dur : « the central bank has no power over the money supply either (except in transitory positions of disequilibrium) when the exchange rate is fixed ». FINANCEMENT MONÉTAIRE D'UN DÉFICIT sous parité fixe : « reserves fall at a rate equal to the budget deficit. The budget deficit is entirely at the expense of reserves. » STÉRILISATION : « Gold sterilization policies make no sense in a world of fixed exchange rates and perfect capital mobility and will ultimately lead to the breakdown of the fixed exchange system » ; le procédé se poursuit « until exchange reserves are exhausted ». Et la première phrase de l'article, qui commande le § 7 du présent chapitre : « The world is still a closed economy, but its regions and countries are becoming increasingly open. »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre du NEMO Exchange Standard — « NEMO IMS neutralise les dilemmes exposés par le triangle d'incompatibilité de Mundell. Si les taux de change sont fixes avec NEMO IMS, les nations recouvrent toute la latitude de leurs politiques monétaires, ainsi que la libre circulation des capitaux. » Aucun mécanisme n'est donné à l'appui. Énoncé déjà versé au dossier en L1.C26 [S2], où il fonde l'objection bloquante P49"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, note de travail du 2026-09-05 ouvrant le Livre 11 — objectifs assignés au reflux : contrôler l'inflation, orienter l'inflation vers les produits les plus dégénératifs, maintenir les prix des essentiels « stables et abondants », corréler l'ensemble à la politique macroprudentielle. Versée en L11.C01 [S1] et L11.C03 [S3]"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. Couppey-Soubeyran, P. Delandre, A. Sersiron, Le pouvoir de la monnaie, Les Liens qui Libèrent, janvier 2024 — OUVERT le 2026-09-05. Seules bornes chiffrées dont le corpus dispose : 0,1 % mensuel sur les réserves bancaires déposées à la banque centrale, assimilé par les auteurs à « un taux d'intérêt négatif sur les réserves, tel que le pratiquait la BCE avant la crise sanitaire (à −0,5 %) », et 0,5 % par paiement sur les flux. POINT DÉCISIF POUR CE CHAPITRE : les auteurs assimilent eux-mêmes leur prélèvement sur les stocks à un taux d'intérêt négatif — c'est ce qui le place sous le résultat de Mundell"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "J. M. Keynes, The General Theory of Employment, Interest and Money, 1936, chapitre 23, section VI sur Gesell — objection de substitution : si l'on prive la monnaie de sa prime de liquidité par le timbrage, « une longue série de substituts prendra leur place — monnaie de banque, créances à vue, monnaie étrangère, bijoux et métaux précieux en général ». Déjà versée au dossier en L1.C21 § 6, où elle fonde P29"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIÈRE OUVERTURE DE PREMIÈRE MAIN d'une source portant une objection

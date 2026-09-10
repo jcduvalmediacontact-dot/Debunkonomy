@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Programme des Nations unies pour l'environnement, Panel international des ressources, *Global Resources Outlook 2024*** — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, source fournie par l'auteur et rangée au Drive, **acquise le matin et non instruite jusqu'ici**. **MESSAGE 1** : « **Extraction and processing of material resources** (fossil fuels, minerals, non-metallic minerals and biomass) **account for over 55 PER CENT of greenhouse gas emissions** and 40 per cent of particulate matter health related impacts. » Avec le changement d'usage des sols, « climate impacts grow to **more than 60 per cent** », la biomasse contribuant le plus (28 %), puis les combustibles fossiles (18 %), puis minéraux non métalliques et métaux (17 % ensemble). **La biomasse représente en outre « over 90 PER CENT of the total land use related BIODIVERSITY LOSS and WATER STRESS ».** **MESSAGE 2** : l'usage de matières a « increased **more than three times** over the last 50 years » et croît de « **more than 2.3 per cent per year** » ; **environnement bâti et systèmes de mobilité** sont les premiers moteurs, suivis de l'alimentation et de l'énergie, ces systèmes représentant ensemble « **about 90 per cent of global material demand** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**Même source — TRAJECTOIRE, DÉCOUPLAGE ET INÉGALITÉ.** **Projection** : sans action « material resource extraction could **increase by almost 60 per cent from 2020 levels by 2060, from 100 to 160 BILLION TONNES**, far exceeding what is required to meet essential human needs for all in line with the SDGs ». **DÉCOUPLAGE, ET C'EST UN CONSTAT NÉGATIF** : « There has so far been **NO EVIDENCE OF WIDESPREAD ABSOLUTE DECOUPLING AT THE GLOBAL LEVEL** » ; et parmi les conclusions de scénario, « **No absolute decoupling projected under Historical Trends** » et « Well-being increased **but without absolute decoupling in any IHDI county groups** ». **INÉGALITÉ** : « High-income countries use **six times more materials per capita** and are responsible for **ten times more climate impacts per capita** than low-income countries » ; et « **Through global trade, high-income countries DISPLACE environmental impacts to all other income country groups** ». **BESOIN MATÉRIEL DE LA TRANSITION** : « To stay below a 2 °C temperature rise by 2050, we will need **over three billion tonnes of energy transition minerals and metals** for wind power, solar and more »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "**Même source — CE QUE LE RAPPORT SOUTIENT LUI-MÊME, ET LE CORPUS NE LE TAIT PAS.** L'avant-propos énonce que l'édition 2024 « shows that it is **both POSSIBLE and PROFITABLE to decouple economic growth from environmental impacts and resource use** ». Et le scénario favorable ne sort pas de la croissance : « **BOTH the Historical Trends and Sustainability Transition scenarios see STRONG GROWTH in the value of economic activity and per capita incomes**, along with a more than 20 % increase in global population by 2060. » Le mécanisme retenu est **l'efficacité des ressources et les politiques qui la soutiennent**, qui « can reduce material resource use and dramatically reduce environmental impacts **in high and upper middle-income countries** (absolute decoupling) **while improving well-being and BOOSTING ECONOMIC GROWTH** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même.** **L6.C08** : le droit minier **détache le sous-sol du sol** — les substances de mine sont concédables par l'État **indépendamment de la propriété du sol**, et le propriétaire **n'a aucun droit d'opposition** ; « définir un périmètre suffit à neutraliser une technique de commun fondée sur la propriété, **sans rien abroger** ». **L5.C08** : la trajectoire est **indexée sur la disponibilité effective du substitut**, et elle **« exempte par construction les secteurs les plus verrouillés »** ; le chapitre déclarait en outre qu'**aucune donnée sectorielle n'était tenue** et que le *Global Resources Outlook 2024*, acquis le jour même, **n'était pas instruit**. **L11.C10** : même indexation, coût structurel"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LES CHIFFRES SONT REPRIS DES MESSAGES CLÉS ET DU RÉSUMÉ, NON DES CHAPITRES
      DE MÉTHODE. Le corpus n'a instruit ni le modèle, ni les bases de données de

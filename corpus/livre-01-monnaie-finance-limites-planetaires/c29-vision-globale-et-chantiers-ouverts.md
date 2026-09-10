@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, section « Révolution comptable » — réponse du livre à la question de la contrepartie : « Par convention, les Banques centrales pourront augmenter la taille de leur bilan dans le but de coordonner la préservation des conditions de la vie sur Terre. La différence est que la contrepartie comptable de ces émissions de monnaie centrale n'est pas nécessairement une dette, mais des réalisations d'activités extra financières labellisées, des activités non-marchandes essentielles, mais insolvables à court terme. » Suivi de : « La création monétaire n'est pas un problème si elle s'accompagne d'une destruction monétaire équivalente par ailleurs »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 9 « De la gestion de la dette au reflux monétaire » — bouclage comptable à deux étages, exposé le plus complet de la contrepartie. Au GES : « L'émission des NGDTS s'inscrit au passif du bilan du GES. Face à ce passif, deux contreparties apparaissent à l'actif — une contrepartie double qui articule qualification et reflux. La première est un certificat de qualification régénérative — attestation formelle par les collèges du GES que l'activité financée contribue effectivement à la restauration des communs biosphériques et sociaux. La seconde est une créance sur les fontes futures — droit à percevoir un flux futur de reflux monétaire remontant depuis les transactions ordinaires, à travers les banques centrales nationales, jusqu'au GES. Le certificat qualifie l'émission au moment présent. Les fontes futures assurent la clôture comptable du cycle dans le temps. » Nature de cette créance : « une dette collectivisée sur activités dégénératives — remboursée non pas par un débiteur identifié, mais par l'ensemble des acteurs économiques dont les transactions restent dégradantes, au prorata de l'impact biosphérique et social de leurs échanges ». Revendication explicite : « NEMO IMS n'invente pas une comptabilité radicalement nouvelle. Il préserve intégralement la logique classique de la partie double actif-passif. La seule innovation concerne la nature du reflux qui éteint la monnaie créée. » AVERTISSEMENT : sigle NGDTS écarté depuis au profit de NEMO Green Allocation (NGA) ; l'épisode décrit par ailleurs le GES en collèges, conception remplacée par quatre chambres au chapitre 7 du livre (L1.C18 § 3)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 12, section 6 — l'auteur déclare lui-même la question non résolue et l'assigne à un futur collectif : la première mission du think tank NEMO IMS serait de « faire aboutir les chantiers théoriques ouverts, en particulier celui de la formulation comptable définitive de la contrepartie des NGDTS — brièvement présentée à l'épisode 29 de la série principale ». Le corpus retient ce renvoi comme fondant le rang et l'objet du présent chapitre"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "A. L. Bovenberg, R. A. de Mooij, « Environmental Levies and Distortionary Taxation », American Economic Review, 84(4), p. 1085-1089, 1994 ; D. Fullerton, G. E. Metcalf, « Environmental Taxes and the Double-Dividend Hypothesis », Chicago-Kent Law Review, 73(1), 1997 — l'érosion de l'assiette est un résultat établi : une taxe pigouvienne réduit l'activité qu'elle frappe, donc contracte sa propre base et sa capacité de rendement à mesure qu'elle atteint son but. DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C21 § 6 ; employée ici pour la première fois contre l'actif qui gage l'émission"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, chapitre « Repenser l'économie et refaire le monde » — trois scénarios d'advenue (la fenêtre de crise, la coalition de pionniers, la pression démocratique), articulation au donut de Kate Raworth, et clôture de l'ouvrage sous le titre « Utopie ? Non. Nécessité. » Énoncé retenu sur le rapport entre les deux dettes : « solder nos dettes financières augmentera nos dettes envers la nature et vice-versa, solder nos dettes envers la nature augmentera nos dettes financières »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "Littérature sur les fonds propres négatifs des banques centrales — P. Stella, « Do Central Banks Need Capital? », IMF Working Paper 97/83, 1997 ; W. Buiter, « Can Central Banks Go Broke? », CEPR Policy Insight 24, 2008 — une banque centrale émettrice de la monnaie dans laquelle ses engagements sont libellés n'est pas soumise à la contrainte de solvabilité d'un agent ordinaire, et peut fonctionner durablement avec des fonds propres négatifs, sous conditions portant sur la crédibilité et le seigneuriage futur. RÉSERVE : références non ouvertes de première main. Employées ici pour établir qu'une issue existe, non pour établir qu'elle s'applique au dispositif — le GES n'est pas l'émetteur des monnaies nationales dans lesquelles les prestataires sont payés"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le livre a été lu sur la section « Révolution comptable » et sur son

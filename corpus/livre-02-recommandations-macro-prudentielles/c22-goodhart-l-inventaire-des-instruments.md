@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "C. A. E. Goodhart, **« La surveillance macro-prudentielle », complément B** au rapport n° 96 du Conseil d'analyse économique, 2011, p. 295-316, Financial Markets Group, London School of Economics. **DÉPOUILLÉ LE 2026-09-07** — 67 159 caractères, extraits d'un fichier détenu depuis le 2026-09-06. L2.C02 et L2.C07 en avaient tous deux déclaré l'absence, le second le présentant comme « l'inventaire dont les douze épisodes du Cahier ont besoin ». Thèse d'ouverture : « **la stabilité des prix [...] NE GARANTIT PAS LA STABILITÉ FINANCIÈRE** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, § 2.1.1 — **LA CAPTURE PAR L'EXPERTISE** : « Le CBCB a reconnu son inaptitude à modéliser le risque par rapport aux banques commerciales, et a de fait adopté les techniques de ces dernières [...] Dans un sens, **LE CBCB A ÉTÉ INTELLECTUELLEMENT « CAPTURÉ »**. » Et **L'EFFET PERVERS DOCUMENTÉ** : les catégories trop générales de Bâle I ont conduit les banques « à brader leurs prêts « sûrs » (titrisation) à des entités hors du filet de sécurité réglementaire (y compris au sein du shadow banking) et à conserver leurs prêts « risqués ». De ce fait, **ALORS QU'ELLE ÉTAIT DESTINÉE À RENDRE LES BANQUES PLUS SÛRES, LA RÉGLEMENTATION CONTRIBUAIT AU CONTRAIRE À ACCROÎTRE LEUR RISQUE** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source — **LE SEUIL DEVENU PLANCHER** : faute que le comité ait préconisé des sanctions, « pratiquement tous les opérateurs du marché [...] et les régulateurs nationaux eux-mêmes **considèrent les ratios proposés par le comité de Bâle comme des MINIMA ABSOLUS** [...] **Le fait de considérer les ratios requis comme des minima ANÉANTIT BIEN SÛR LE RÔLE DE TAMPON potentiel que devraient jouer les fonds propres réglementaires, et cela a transformé le tampon utile en une marge nettement plus exiguë au-dessus du ratio requis. C'EST SANS DOUTE LE PLUS GRAND INCONVÉNIENT DE L'APPROCHE DU CBCB JUSQU'À AUJOURD'HUI.** » Contre-exemple nommé : « l'exemple de la loi américaine FDIC Improvement Act (1991) **qui a mis en place un barème judicieux de sanctions** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Même source, § 2.2 — **LA PHRASE QUI COMMANDE** : « on accorde une attention très limitée, voire nulle, au fait que **L'IMPACT DU RATIO RÉGLEMENTAIRE EXIGÉ DÉPENDE DES SANCTIONS IMPOSÉES (DU MOINS DE LEUR BARÈME) EN CAS DE NON-RESPECT.** Compte tenu du chiffre **(généralement) ARBITRAIRE** choisi, **L'EXERCICE PROBABLEMENT LE PLUS IMPORTANT DE LA DÉFINITION DE CETTE RÉGLEMENTATION CONSISTE À DÉFINIR LA STRUCTURE DE SANCTIONS de la manière la plus juste possible, ET C'EST UNE TENTATIVE QUI SE PRODUIT TROP RAREMENT.** » Et sur le fondement des niveaux : « **aucune analyse véritable n'a été menée sur les exigences adéquates de fonds propres sur le plan quantitatif** » (Hellwig) ; « les ratios requis sont généralement choisis à partir d'une règle générale, par exemple **pour s'aligner sur les ratios déjà appliqués en moyenne** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "Même source — **L'AUTODESTRUCTION DE LA PRÉVISION** : « La plupart des systèmes d'alerte en amont s'avèrent relativement inutiles dès qu'ils sont appliqués hors échantillon, car **DANS LA MESURE OÙ UN PROBLÈME SYSTÉMIQUE PEUT ÊTRE PRÉDIT, LES AGENTS PRENDRONT DES MESURES POUR COMPENSER ET DONC PRÉVENIR SON OCCURRENCE.** » Et **LA SYNTHÈSE RÈGLE / DISCRÉTION** : « un mécanisme fondé sur une « règle » ou une « formule » est nécessaire pour donner aux autorités de surveillance la base et l'appui nécessaires [...] En réponse à la critique pertinente selon laquelle aucun éventail de règles et formules ne pourra jamais englober [...] la gamme infinie de possibilités futures, **LE PRINCIPE « COMPLY OR EXPLAIN » POURRAIT S'APPLIQUER**, en vertu duquel si l'entité renonce à respecter ces règles et formules, **elle doit le justifier**. » Enfin, sur la discrétion existante : « **le pilier 2 de Bâle II N'A QUE RAREMENT, VOIRE JAMAIS ÉTÉ ACTIVÉ**, [...] il sera toujours soumis à **la critique du principe d'égalité**, et [...] son activation sera quasiment toujours **en opposition directe avec les forces et les pressions du marché** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE FDIC IMPROVEMENT ACT DE 1991 N'EST PAS AU DOSSIER. Goodhart le nomme
      comme **le seul barème de sanctions judicieux** qu'il cite, et le corpus

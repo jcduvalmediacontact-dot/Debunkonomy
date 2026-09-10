@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**National Commission on the Causes of the Financial and Economic Crisis in the United States, *The Financial Crisis Inquiry Report*, Final Report, ÉDITION OFFICIELLE DU GOUVERNEMENT, ISBN 978-0-16-087983-8, établie en application de la loi publique 111-21.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le service de publication officielle du gouvernement des États-Unis, lu dans le texte. **Passages lus : les conclusions générales de la Commission sur les agences de notation, les conclusions du chapitre 10, et le relevé des critiques adressées par le régulateur des marchés à l'agence prise pour étude de cas.** **DROITS : édition officielle du gouvernement des États-Unis.** **RÉSERVE D'EXTRACTION MAJEURE, ET ELLE COMMANDE TOUT USAGE : LES CHIFFRES DU CORPS DE CE DOCUMENT NE S'EXTRAIENT PAS.** **La couche de texte restitue la prose et PERD LES NUMÉRAUX** — vérifié en trois modes d'extraction. **Le corpus ne cite donc de cette source AUCUNE QUANTITÉ, et seulement de la prose.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**AUCUNE QUANTITÉ N'EST CITABLE DE CETTE SOURCE EN L'ÉTAT.** La couche de texte
      perd les numéraux dans le corps du rapport — les phrases restent lisibles et

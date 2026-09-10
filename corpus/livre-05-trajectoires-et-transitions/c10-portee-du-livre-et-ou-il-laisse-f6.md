@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`protocoles/falsification.md`, F6 — L'ADOPTION CONTRE LE CRÉANCIER.** **Condition d'échec, citée intégralement** : « qu'aucun cas historique n'atteste l'adoption d'un régime monétaire international **contre l'intérêt du créancier dominant du moment**, **et** qu'aucun mécanisme ne soit identifié par lequel la position de ce créancier lui deviendrait **assez coûteuse pour qu'il s'en retire**. Si les deux tiennent, **le dispositif reste un exercice de conception sans voie d'adoption** ». **Établi en L1.C25 § 4** : trois épisodes, un seul schéma — 1871, l'Union latine privée de son or par l'indemnité de Francfort ; 1944, le plan de Keynes perdant « sur la disposition qui visait la symétrie entre pays déficitaires et excédentaires » ; 1971, la suppression unilatérale de l'obligation de régler en or. « **La disposition qui contraint le créancier est la disposition qui saute.** » **Durcissement du 2026-09-04, sur les *Collected Writings* volume XXV** : la contrainte refusée était de 1 % l'an, l'excédentaire « **shall discuss** [...] but shall retain the ultimate decision in its own hands » là où le déficitaire « may be required »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Les neuf chapitres de ce livre.** **L5.C01** : « aucune promesse du registre ne couvre l'adoption ». **L3.C09, repris en L5.C01** : « **le dispositif ne remplace pas le système existant : il s'y ajoute** ». **L5.C03** : « l'adhésion ne demande de renoncer à rien », donc « **la menace tarifaire perd son fait générateur** » ; et « une adhésion qui ne retire rien ne rapporte rien tant que la couche est mince ». **L5.C09** : la voie multilatérale est **dominée** sur les trois questions ; trois des quatre voies **se composent** — rail, émission, périmètre de vérification ; **la protection de l'entrée et l'absence de bénéfice à l'entrée sont le même fait vu deux fois** ; et « aucun chapitre ne décrit cette seconde phase, et c'est celle où le dispositif réussit »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**`protocoles/falsification.md`, F8 — LE DÉSARMEMENT, posé le 2026-09-07.** **Test** : « un dispositif du corpus est désarmé si les trois conditions sont réunies : son déclencheur exige plusieurs conditions cumulatives, sa vérification n'est imposée à personne, et son manquement n'emporte aucune conséquence sur le droit acquis ». **F8 est posé pour les BARÈMES** : « si un barème de NEMO IMS satisfait les trois, il est ce traité ». **Et il note la technique du troisième étage** : le texte instruit « ne dresse pas la liste des sanctions interdites : il protège contre *tout remède qui invaliderait ou rendrait inopposables les droits conférés* » — « une clause écrite par son effet **ferme d'avance les remèdes que personne n'a encore imaginés** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN CAS HISTORIQUE D'ADOPTION D'UNE COUCHE MONÉTAIRE ADDITIONNELLE
      N'EST INSTRUIT, et c'est le manque décisif de ce livre. Les trois épisodes

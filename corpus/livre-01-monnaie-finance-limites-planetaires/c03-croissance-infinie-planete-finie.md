@@ -14,34 +14,34 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "W. S. Jevons, The Coal Question, 1865"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "N. Georgescu-Roegen, The Entropy Law and the Economic Process, Harvard University Press, 1971"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-B. Fressoz, Sans transition. Une nouvelle histoire de l'énergie, 2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "D. Meadows et al., The Limits to Growth, Club de Rome, 1972"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Friedlingstein et al., Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288, 2026 — série fossil.emissions.excluding.carbonation, en GtC/an"
     url: "https://doi.org/10.5194/essd-18-3211-2026"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: donnees
     reference: "PNUE, Panel international des ressources, Global Resources Outlook 2024 — Bend the Trend, 1er mars 2024"
     url: "https://www.unep.org/resources/Global-Resource-Outlook-2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: donnees
     reference: "PNUE, Emissions Gap Report 2025 : Off Target, novembre 2025"
     url: "https://www.unep.org/resources/emissions-gap-report-2025"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Corrections critiques identifiées à la conversion —
   - "CRITIQUE — Ouverture de l'usine sidérurgique de Kansas City : cas réel ou construction illustrative ? Si réel, identifier l'établissement et sourcer les trois grandeurs (efficacité énergétique par tonne, volume de production, consommation totale). Si construit, le déclarer explicitement comme exemple type."

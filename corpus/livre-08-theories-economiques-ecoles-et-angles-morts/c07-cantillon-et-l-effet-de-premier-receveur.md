@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la promesse P24, « effet de premier receveur » : l'injection monétaire n'est pas neutre dans sa distribution, ceux qui reçoivent la monnaie nouvelle en premier dépensent aux prix anciens et ceux qui la reçoivent en dernier aux prix nouveaux. Versée en L1.C20 et routée au Livre 7. LE CORPUS L'EMPLOIE SANS NOMMER SON ORIGINE, et le présent chapitre établit que P24 EST l'effet Cantillon. S'y ajoutent les quatre biais d'incidence de L11.C09 et le cinquième de L11.C13 § 6"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. L'Essai n'est pas en possession du

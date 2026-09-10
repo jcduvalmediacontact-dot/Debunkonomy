@@ -1,6 +1,6 @@
 # Convention de production du corpus
 
-**Révision 7 — 3 septembre 2026.** Journal des révisions en fin de document.
+**Révision 12 — 10 septembre 2026.** Journal des révisions en fin de document.
 
 Ce fichier est déposé à la racine du corpus. Il fait autorité.
 
@@ -55,6 +55,11 @@ Aucun champ de ce schéma n'atteste la justesse d'un chapitre. Un chapitre
 corpus/
   livres.yaml
   vocabulaire.yaml
+  manifeste-etat-lecture.json     # occurrences historiques de sources — écrit une
+                                  # fois par la migration, jamais à la main (§ 12)
+  requirements.txt                # dépendance épinglée du contrôle ; hors-ligne/
+                                  # porte l'artefact et sa licence
+  migrations/etat-lecture/        # scripts à exécution unique : migrer.py, prouver.py
   livre-00-<libellé>/
     c01-....md
   livre-01-monnaie-finance-limites-planetaires/
@@ -187,14 +192,20 @@ sources_primaires:
                             # | actualite | theorie
     reference: "WT/DS639/R"
     url: "https://www.wto.org/..."
+    etat_lecture: ouverte   # candidate | ouverte | a_requalifier
     date_verification: 2026-08-28
   - ref: S2
     nature: donnees
     reference: "Eurostat env_ac_ainah_r2"
     url: "https://ec.europa.eu/..."
+    etat_lecture: ouverte
     date_verification: 2026-08-28
     horizon: 3m             # dérogation à l'horizon par défaut
     motif_horizon: "Série révisée trimestriellement"
+  - ref: S3
+    nature: theorie
+    reference: "Ouvrage sélectionné, texte pertinent non encore lu"
+    etat_lecture: candidate # sans date_verification
 verifications_en_attente:
   - "Dates DS639 (distribution, appel)"
 
@@ -242,13 +253,17 @@ Champs d'une source primaire :
 | `nature` | obligatoire | `normatif` \| `jurisprudence` \| `donnees` \| `actualite` \| `theorie` |
 | `reference` | obligatoire | référence bibliographique ou juridique |
 | `url` | optionnel | absent pour une source non disponible en ligne |
-| `date_verification` | obligatoire | voir § 12 pour son double sens |
+| `etat_lecture` | obligatoire | `candidate` — sélectionnée, texte pertinent non lu ; `ouverte` — édition identifiée et passage pertinent lu ; `a_requalifier` — occurrence historique en attente d'examen, **réservé aux occurrences du manifeste** (§ 12) |
+| `date_verification` | conditionnel | **obligatoire si et seulement si `etat_lecture: ouverte`** ; voir § 12 pour son double sens |
 | `horizon` | optionnel | dérogation à l'horizon de la nature |
 | `motif_horizon` | conditionnel | **obligatoire si `horizon` est présent** |
 
 Listes vides et `brouillon` : un chapitre en brouillon peut avoir
-`sources_primaires: []` et `concepts: []`. Le passage à `verifie` exige que les
-deux soient renseignés — sans quoi le contrôle ne mordrait sur rien.
+`sources_primaires: []` et `concepts: []`, et il peut porter des sources
+`candidate`. Le passage à `verifie` exige que les deux listes soient
+renseignées et que **toutes les sources soient `ouverte`** — sans quoi le
+contrôle ne mordrait sur rien. `etat_lecture` n'est pas calculable : le
+script vérifie sa cohérence, jamais sa vérité.
 
 ### `revision_de_fond` : un jugement, pas un calcul
 
@@ -425,7 +440,9 @@ quatre passages et répond à partir d'eux. Chaque passage doit tenir debout seu
 2. **Ajouter au vocabulaire** tout concept nouveau, au moment où il apparaît.
 3. **Audit contradictoire** — confronter la thèse aux objections adverses.
    Passer à `audit_contradictoire`.
-4. **Vérifier les sources** une par une, renseigner `date_verification`.
+4. **Ouvrir les sources** une par une — édition identifiée, passage pertinent
+   lu —, porter `etat_lecture: ouverte` et renseigner `date_verification`.
+   Une source sélectionnée mais non lue reste `candidate`, sans date.
    Passer à `audit_factuel` pendant, `verifie` après. C'est le goulot
    d'étranglement du corpus, et il ne s'élargit pas avec l'outillage : une
    référence plausible n'est pas une référence vérifiée.
@@ -461,14 +478,31 @@ sortie lisible.
 - identifiant de chapitre dupliqué
 - renvoi vers un chapitre inexistant
 - concept absent du vocabulaire
-- source primaire sans `date_verification` ou sans `nature`
+- source primaire sans `etat_lecture`, ou à valeur hors des trois admises, ou
+  sans `nature` (E-L3)
+- `date_verification` présente sur une source qui n'est pas `ouverte` (E-L1),
+  ou absente sur une source `ouverte` (E-L2)
+- statut `verifie` sur un chapitre portant une source `candidate` ou
+  `a_requalifier` (E-L4)
+- `a_requalifier` sur une occurrence absente du manifeste des occurrences
+  historiques, ou dont l'empreinte bibliographique — `nature`, `reference`,
+  `url` — diffère de celle qu'il enregistre (E-L6) : une source ajoutée après
+  la migration est `candidate` ou `ouverte`, et une référence remplacée ou
+  corrigée n'hérite pas de l'état historique
+- manifeste `manifeste-etat-lecture.json` absent, illisible ou hors de son
+  schéma fermé — en-tête, dates, identifiants, empreintes, files, traces,
+  doublons — (E-M1) : E-L6 n'est alors pas évaluable, les autres contrôles
+  s'exécutent, et la publication est refusée
+- chapitre `verifie` ou `citable` sans entrée dans `.etat-corpus.json`, sous
+  `--publier`
 - partie orpheline (`partie: 2` sans partie 1)
 - en-tête incomplet, ou **champ inconnu**
 - statut `verifie` avec `verifications_en_attente` non vide
 - `citable: true` sur un chapitre dont le statut n'est pas `verifie`
 - **génération publique demandée pour un chapitre dont le statut n'est pas
-  `verifie`, ou dont `citable` est `false`** — les marqueurs d'état n'ont de
-  valeur que s'ils ont un effet mécanique
+  `verifie`, ou dont `citable` est `false`, ou qui porte une source non
+  `ouverte` (E-L5)** — les marqueurs d'état n'ont de valeur que s'ils ont un
+  effet mécanique
 
 Le blocage sur champ inconnu est délibéré : un champ toléré parce qu'inconnu est
 une dérive silencieuse. Toute évolution du schéma passe par une migration
@@ -530,9 +564,13 @@ theorie:
   motif: "Travaux stabilisés ; revérifier sur controverse signalée."
 ```
 
-`date_verification` porte les deux sens selon le mode : date de contrôle de la
-source pour `mode: date`, date de dernière revue pour `mode: revue`. C'est le
-même geste, et il n'appelle pas un second champ.
+`date_verification` n'existe que sur une source `ouverte` — édition identifiée,
+passage pertinent lu. Elle porte alors les deux sens selon le mode : date de
+contrôle de la source pour `mode: date`, date de dernière revue pour
+`mode: revue`. C'est le même geste, et il n'appelle pas un second champ. Une
+source `candidate` ou `a_requalifier` n'a pas de date, et n'entre pas dans le
+calcul de fraîcheur : on ne surveille pas la péremption d'un texte qu'on n'a
+pas lu.
 
 **Une revue qui ne constate aucun changement met tout de même la date à jour.**
 C'est la seule règle qui fait tenir le mécanisme : si la date ne bouge qu'en cas
@@ -565,6 +603,12 @@ Autres alertes :
 - chapitre en brouillon depuis plus de trois mois
 - concept déclaré au vocabulaire et employé nulle part
 - `verifications_en_attente` non vide sur un chapitre non `verifie`
+- **bilan agrégé de l'état de lecture, une ligne par chapitre et jamais une par
+  source** : sources `candidate` (A-L1), sources `a_requalifier` avec leur
+  ancienneté comptée depuis la date de migration du manifeste — jamais depuis
+  l'ancienne date (A-L2), entrées du manifeste sans occurrence dans le corpus
+  (A-L3)
+- chapitre sans entrée dans `.etat-corpus.json`, entrée d'état sans chapitre
 
 Ne jamais déclasser une règle bloquante en alerte pour se débloquer. Une alerte
 ignorée est une alerte inutile, et un système qui continue de fonctionner en
@@ -617,6 +661,34 @@ Points ouverts, à trancher hors routine :
 
 ## 15. Journal des révisions
 
+**Révision 12 — 10 septembre 2026.** Champ `etat_lecture` sur chaque source
+primaire — `candidate`, `ouverte`, `a_requalifier` — et `date_verification`
+rendu conditionnel, obligatoire si et seulement si la source est `ouverte`
+(§ 4, § 11, § 12). Motif : les occurrences de source portaient une date que
+rien n'établissait comme date de lecture ; l'audit du 2026-09-10
+(`protocoles/migration-etat-lecture.md`) a mesuré, sur 1 161 occurrences, que
+850 — 73 % — ne portaient aucune trace d'ouverture. **Migration scriptée,
+uniforme et rejouable** (`corpus/migrations/etat-lecture/migrer.py`) : toutes
+les occurrences historiques reçoivent `a_requalifier` ; leur ancienne date est
+conservée hors des chapitres, dans le **manifeste des occurrences
+historiques** `corpus/manifeste-etat-lecture.json`, écrit une fois, jamais
+édité à la main, seule autorisation possible de cet état (E-L6). **Aucune
+promotion automatique** : le passage à `ouverte` résulte d'un examen, source
+par source. **Preuve de conservation** par script indépendant (`prouver.py`,
+huit invariants) ; corps et résumés intacts, seules les empreintes de
+métadonnées des chapitres porteurs changent. Cette révision journalise aussi,
+faits commités le 10 septembre 2026 : la réparation du mécanisme d'état
+enregistré — conservation des qualifications, initialisation nommée et jamais
+déduite d'une date, diagnostic des absences et des orphelins, publication
+refusée sans état (`5d2074dc`, `cb7dd975`) — ; la restauration de vingt-sept
+`revision_de_fond` déplacées par des métadonnées seules, par la règle du § 4
+(`3efc98dd`) ; l'état de référence complet (`6a37c5ef`) ; et la
+reproductibilité du contrôle — `requirements.txt` épinglant PyYAML 6.0.3, voie
+hors ligne `hors-ligne/` avec artefact, empreinte et licence pour la seule
+plateforme testée, `test_environnement_propre.py`. **L'en-tête de ce document
+annonçait encore la révision 7 alors que le journal atteignait la 11 ; il
+porte désormais la révision courante.**
+
 **Révision 11 — 7 septembre 2026.** Tous les matricules déclarés ont un dossier,
 et tout dossier a un chapitre (§ 2), sur demande de l'auteur. **Cette révision
 CORRIGE la révision 10 du même jour**, qui énonçait l'inverse — « les dossiers de
@@ -647,8 +719,11 @@ numéro.
 | 5 | 2026-09-03 | `--maj-etat` refuse d'enregistrer tant qu'une décision est en attente ; option `--editorial` pour déclarer un changement non substantiel | aucune |
 | 6 | 2026-09-03 | Option `--fond` : déclare une révision substantielle survenue le même jour que la `revision_de_fond` en cours, que le champ ne peut pas enregistrer seul | aucune |
 | 7 | 2026-09-03 | Champ `licence` obligatoire, `CC-BY-SA-4.0` par défaut ; cible du lecteur explicitée en § 1 ; patron des métaphores restituables ajouté en § 10 (`(*Image : ...*)`) ; § 14 licence traitée | 7 chapitres existants migrés |
-| 9 | 2026-09-04 | Règle du matricule étendue aux numéros de chapitre : ni le nombre de livres ni celui de chapitres n'est figé ; on ajoute toujours à la fin, `chapitres_annonces` est une estimation et non une cible | aucun chapitre modifié |
 | 8 | 2026-09-04 | Registre des livres `livres.yaml` : le numéro de livre est un matricule, jamais un rang — ni insertion ni renumérotation ni réattribution ; un matricule réservé est brûlé même si le livre n'est pas écrit ; sens et ordre portés par `collection` et `motifs`, non contrôlés ; un `livre` absent du registre bloque la publication ; registre aligné sur le plan directeur de l'auteur, dix-neuf matricules de 0 à 18 | aucun chapitre modifié |
+| 9 | 2026-09-04 | Règle du matricule étendue aux numéros de chapitre : ni le nombre de livres ni celui de chapitres n'est figé ; on ajoute toujours à la fin, `chapitres_annonces` est une estimation et non une cible | aucun chapitre modifié |
+| 10 | 2026-09-07 | Dossiers de livres nommés `livre-NN-<libellé>` (§ 2) : le matricule reste en tête et seul identifie, le libellé est une aide de lecture corrigeable | `git mv` sur les douze dossiers existants ; aucun contenu, aucun matricule, aucun identifiant de chapitre modifié |
+| 11 | 2026-09-07 | Tous les matricules déclarés ont un dossier, et tout dossier a un chapitre (§ 2) — corrige la révision 10 du même jour ; régime des chapitres d'amorce : descriptif, sans concept ni renvoi, non citable, remplacé et non complété | quatorze dossiers créés, quatorze chapitres d'amorce déposés ; aucun chapitre existant touché |
+| 12 | 2026-09-10 | `etat_lecture` obligatoire sur chaque source, `date_verification` conditionnel ; manifeste des occurrences historiques ; E-L1 à E-L6, E-M1 ; bilan agrégé A-L1 à A-L3 ; état enregistré conservateur ; dépendance épinglée et voie hors ligne ; en-tête réaligné sur le journal | toutes les occurrences historiques de source — 1 161 au relevé du 2026-09-10, dans 323 chapitres — migrées vers `a_requalifier`, corps et résumés intacts, chapitres sans source inchangés |
 
 Toute révision ultérieure s'inscrit ici avant d'être appliquée, avec la portée
 de la migration qu'elle entraîne. Une révision non journalisée est une dérive

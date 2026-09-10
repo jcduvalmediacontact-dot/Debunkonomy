@@ -15,15 +15,15 @@ sources_primaires:
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "H. Withers, The Meaning of Money, Smith, Elder & Co., Londres, première édition ; rééditions successives"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. A. Schumpeter, History of Economic Analysis, Oxford University Press, publication posthume 1954"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Corrections critiques identifiées à la conversion —
   - "CRITIQUE — date de première édition de Withers, The Meaning of Money : le texte source retient 1901, plusieurs catalogues de bibliothèque donnent 1909. Vérifier la date exacte et l'éditeur avant citation en chapitre vérifié."

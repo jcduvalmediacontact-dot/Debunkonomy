@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "D. Ricardo, On the Principles of Political Economy and Taxation, 1817 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (Project Gutenberg n° 33310, texte intégral). Retenu, chap. II, la définition de la rente : « Rent is that portion of the produce of the earth, which is paid to the landlord for the use of the ORIGINAL AND INDESTRUCTIBLE POWERS OF THE SOIL. » RÉSERVE D'ÉDITION : édition Gutenberg sans apparat critique ; la troisième édition de 1821 est la référence usuelle et le corpus n'a pas vérifié laquelle il tient"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la promesse P43 : le mot « contrainte extérieure » réunit deux choses distinctes, la contrainte OPÉRATIONNELLE de règlement et la contrainte STRUCTURELLE de croissance, un pays dont les importations réagissent plus vivement au revenu que ses exportations butant sur un plafond déterminé par le rapport de ces élasticités. INSTRUITE le 2026-09-06 par L11.C16 § 8 : la contrainte extérieure n'est pas levée par le dispositif, elle est REBASÉE sur la nature encore fonctionnelle, dotation au moins aussi inégalement distribuée que les actuelles"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, NON DÉPOUILLÉE. Une formule est vérifiée, celle

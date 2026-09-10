@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, p. 133 — OUVERT DE PREMIÈRE MAIN le 2026-09-06 : les décisions de l'Assemblée « sont prises à double majorité : une norme n'est adoptée que si elle réunit la majorité des États membres et la majorité de la population mondiale représentée. Ce mécanisme, inspiré du Conseil de l'Union européenne, EST LE SEUL QUI PROTÈGE SIMULTANÉMENT LES PETITS ET LES NOMBREUX. » Et le droit de réserve du Collège des Petits États Insulaires et Territoires Vulnérables, « strictement circonscrit » aux normes modifiant les seuils biophysiques, surmontable « après un DÉLAI OBLIGATOIRE DE RÉFLEXION DE SIX MOIS, par un vote à majorité qualifiée renforcée de 75 % des États et de 75 % de la population »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "L. S. Penrose, « The Elementary Statistics of Majority Voting », Journal of the Royal Statistical Society, 109(1), 1946 — LOI DE LA RACINE CARRÉE : pour que chaque citoyen dispose d'un pouvoir de vote a priori identique dans un scrutin indirect à deux niveaux, le poids de l'État doit être proportionnel à la RACINE CARRÉE de sa population. W. Słomczyński, K. Życzkowski, « Jagiellonian Compromise » : poids en racine carrée assortis d'un quota optimal d'environ 61,6 %. D. S. Felsenthal, M. Machover, mesure du pouvoir de vote (indices de Penrose-Banzhaf et de Shapley-Shubik) appliqués au passage de la pondération de Nice à la double majorité de Lisbonne. VERSÉE EN L1.C18 [S19] le 2026-09-04 — le corpus la tenait depuis deux jours"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C18, correction du 2026-09-04 : « Double majorité : le livre en fait “le seul mécanisme qui protège simultanément les petits et les nombreux”. C'EST FAUX. Nice tassait délibérément la pondération au profit des petits et moyens ; la double majorité rapproche le poids de la part de population, DONC AVANTAGE LES PLUS PEUPLÉS. La règle qui atteint l'objectif visé est la loi de Penrose [...] ARBITRAGE REQUIS : retirer la seule justification, ou changer de règle de vote. » Et L7.C02 § 6 : les trois précédents de clé ouverts ne séparent jamais ce qu'un membre pèse de ce qu'il reçoit"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE QUI CORRIGE UN CHAPITRE ÉCRIT LE MÊME JOUR. L7.C06 § 2 a porté la

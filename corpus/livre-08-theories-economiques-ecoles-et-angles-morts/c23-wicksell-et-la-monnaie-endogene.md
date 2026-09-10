@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `monnaie_endogene` du vocabulaire ; l'arbitrage A7, « règle automatique ou pilotage discrétionnaire », dont L11.C12 a établi la forme, la DIRECTIVE au sens de Tinbergen ; et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux. Et la promesse P48, dont la forme est trouvée depuis le 2026-09-06 et dont l'arbitrage reste à rendre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni Interest and Prices (1898) ni

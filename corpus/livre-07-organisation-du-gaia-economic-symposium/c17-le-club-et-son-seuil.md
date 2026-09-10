@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "W. Nordhaus, « Climate Clubs: Overcoming Free-riding in International Climate Policy », American Economic Review, 105(4), 2015, p. 1339-1370 (DOI 10.1257/aer.15000001) — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, texte intégral. DÉFINITION : « a club is a voluntary group deriving mutual benefits from sharing the costs of producing an activity that has public-good characteristics ». RÉSULTAT NÉGATIF CENTRAL : « without sanctions against non-participants THERE ARE NO STABLE COALITIONS other than those with minimal abatement ». RÉSULTAT POSITIF : « a regime with small trade penalties on non-participants, a Climate Club, CAN INDUCE A LARGE STABLE COALITION with high levels of abatement ». MÉCANISME : les pénalités « would apply UNIFORM PERCENTAGE TARIFFS to all imports from nonparticipating countries ». RÉSULTAT CHIFFRÉ, ET IL EST DÉCISIF : « as the target carbon price rises, IT BECOMES INCREASINGLY DIFFICULT TO ATTAIN THE COOPERATIVE EQUILIBRIUM. For a $50 per ton target carbon price, the Club can attain 90+ percent efficiency with a tariff rate of 5 percent or more. However, FOR A TARGET CARBON PRICE OF $100 PER TON, IT IS DIFFICULT TO INDUCE MORE THAN THE NONCOOPERATIVE LEVEL OF ABATEMENT. » Avec un tarif de 2 %, « the solution cycled around among a small number of quasi-stable coalitions »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la promesse P51 : le seuil d'activation est affirmé et non dérivé, le chiffre avancé étant obtenu par analogie avec un mécanisme sectoriel ; le corpus notait que « la méthode manquante existe » et nommait précisément cette source. Et L11.C24, le barème aux frontières : le dispositif étant une coalition, son barème a une frontière. Et le falsifieur F3, connaissance dispersée et indicateur pris pour cible"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, ET IL SOLDE UNE PARTIE DE P51. Le corpus

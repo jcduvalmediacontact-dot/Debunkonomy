@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J. S. Mill, Principles of Political Economy, 1848 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (Project Gutenberg n° 30107, texte intégral). Retenu, livre IV, chap. VI, « The Stationary State ». Intitulé du § 3, qui porte la thèse : « Stationary state of wealth and population DREADED BY SOME WRITERS, BUT NOT IN ITSELF UNDESIRABLE ». Ouverture du chapitre : « Toward what ultimate point is society tending by its industrial progress? When the progress ceases, in what condition are we to expect that it will leave mankind? It must always have been seen, more or less distinctly, by political economists, that THE INCREASE OF WEALTH IS NOT BOUNDLESS ; that at the end of what they term the progressive state lies the stationary state, that all progress in wealth is but a POSTPONEMENT of this, and that each step in advance is an APPROACH to it. » RÉSERVE D'ÉDITION : édition Gutenberg sans apparat ; l'ouvrage a connu sept éditions du vivant de l'auteur et le corpus ne sait pas laquelle il tient"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — le concept `economie_de_lequilibre`, qui donne son titre au livre de l'auteur, et les concepts `plafond_ecologique` et `plancher_social`. Le Livre 17 du registre, « Après la croissance », est déclaré candidat et compte zéro chapitre acquis"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, NON DÉPOUILLÉE. Le chapitre IV.VI a été localisé

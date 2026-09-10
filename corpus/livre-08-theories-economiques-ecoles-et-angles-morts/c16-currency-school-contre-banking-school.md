@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les concepts `creation_monetaire` et `monnaie_endogene` du vocabulaire ; l'arbitrage A2, « qui émet : le GES ou les banques centrales nationales », CLOS le 2026-09-05 sur une coalition et non sur l'un ou l'autre ; et l'arbitrage A2 ter, conservé pour mémoire. Et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par B1"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni les écrits de la currency school

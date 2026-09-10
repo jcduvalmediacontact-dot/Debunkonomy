@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, et son Cahier Technique — LE SEUL SEUIL QUE LE DISPOSITIF SPÉCIFIE : le prélèvement sur les encaisses ne s'applique pas sous un seuil INDEXÉ SUR LE REVENU MÉDIAN. Versé à l'inventaire des conditions-limites en L11.C03 § 5 sous la référence B6, mordant EN PERMANENCE. ASSIETTE DU PREMIER RESSORT, versée en L11.C05 § 1 : la consommation finale et les acquisitions d'actifs, modulée sur l'empreinte cumulée du bien — et non chaque paiement, qui est l'assiette de la proposition voisine"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les BOUNDARY CONDITIONS incluent « certain proportionalities between the sacrifices of different social groups », versée à l'inventaire sous B3 ; et le motif administratif, entre une mesure qui « hits a large number of people and may therefore be costly » et une qui « affects few and therefore is less costly »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » PREMIER CHOIX SPONTANÉ DE LA FORME DIRECTIVE par l'auteur ; le présent chapitre en établit un SECOND, antérieur et resté inaperçu — le seuil indexé sur le revenu médian"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # DERNIÈRE PIÈCE EN PROPRE DU CHANTIER DES BARÈMES. L11.C17 § 8 l'a relevée en

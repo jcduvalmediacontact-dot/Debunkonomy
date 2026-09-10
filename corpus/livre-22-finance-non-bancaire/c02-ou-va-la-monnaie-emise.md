@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Conseil de stabilité financière, « Global Monitoring Report on Nonbank Financial Intermediation 2025 », 16 décembre 2025 — MÊME SOURCE QU'EN L22.C01, OUVERTE PAR TÉLÉCHARGEMENT DIRECT, données au 31 décembre 2024. CE QUE CE CHAPITRE Y PREND EN PLUS. ASYMÉTRIE GÉOGRAPHIQUE** : « **Banks represented 58.6% of total financial assets in EMEs, while they represented 32.4% in AEs.** » Les banques sont le plus grand type d'entité dans **vingt-deux** des vingt-neuf juridictions déclarantes ; **pour les sept autres, ce sont les autres intermédiaires financiers**. **DYNAMIQUE INTERNE DU SECTEUR** : les actifs des autres intermédiaires financiers ont crû de **11,3 %** en 2024, ceux des fonds de pension de **6,9 %**, ceux des assureurs de **6,0 %** ; la part des premiers dans le secteur non bancaire « **has gradually increased since 2019** » tandis que celles des assureurs et des fonds de pension « **have gradually decreased over that period** ». **La croissance des fonds d'actions vient à plus de 85 % de la VALORISATION ; celle des fonds obligataires, à plus de 85 % des SOUSCRIPTIONS**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même, et ce chapitre compose trois de ses résultats. L11.C01 § 3** : ce qui circule dans l'économie sous le dispositif est de la **monnaie nationale ordinaire, indiscernable de toute autre**. **L11.C27** : l'assiette de la fonte est celle de la taxe sur la valeur ajoutée, c'est-à-dire **la consommation finale**. **L11.C02 § 4** : l'autre nœud possible est **les réserves bancaires déposées à la banque centrale**, retenu parce qu'il « supprime le besoin de toute démonstration de stricte nécessité », les réserves n'appartenant à aucun particulier dont la vie privée serait en cause. **L11.C02 § 5** : le rendement du reflux transactionnel est un produit à trois termes, dont aucun n'est connu. **L22.C01 § 3** : ni le nœud des réserves ni l'assiette de consommation finale n'atteignent les 256,8 milliers de milliards du secteur non bancaire. **L23.C04** : l'accès du grand public aux informations sur les bénéficiaires effectifs a été invalidé"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÈGLE « LIRE LE CORPUS AVANT D'OUVRIR LA NORME » : ce chapitre s'applique

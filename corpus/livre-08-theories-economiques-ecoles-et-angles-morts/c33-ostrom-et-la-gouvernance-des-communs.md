@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990 (DOI 10.1017/cbo9780511807763) — OUVERTE, versée en L1.C15 [S4] le 2026-09-03 et en L1.C22 [S4] le 2026-09-04. Retenu : la distinction entre ressource en LIBRE ACCÈS et ressource COMMUNE gouvernée par des règles, dont Ostrom établit que Hardin les confond ; et l'existence de huit principes organisateurs des institutions durables de gestion collective. RÉSERVE DÉCLARÉE : les huit principes sont NOMMÉS dans le corpus et n'y ont jamais été ÉNUMÉRÉS"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — OUVERTE, versée en L1.C22 [S5] avec citations littérales. Retenu, p. 1 : « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place in a comprehensive and transparent manner that will effectively reduce global warming. Furthermore, simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » ; p. 5, l'avantage revendiqué : « encouraging experimental efforts at multiple levels, leading to the development of methods for assessing the benefits and costs of particular strategies »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "G. Hardin, « The Tragedy of the Commons », Science, 162(3859), p. 1243-1248, 13 décembre 1968 — versé en L1.C22 [S6] : thèse de la surexploitation inévitable d'une ressource partagée sans droits de propriété définis, dont Ostrom établit qu'elle confond libre accès et ressource commune"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — LIMITE ÉTABLIE en L1.C15 § 4 et maintenue en L1.C22 § 2 : le financement documenté des institutions communautaires est le plus souvent NON MONÉTAIRE (travail, mutualisation, cotisations des usagers — huertas espagnoles, zanjeras philippines) et mobilise les ressources de la communauté elle-même. Il règle l'entretien d'un support dont les usagers ont l'usage et les moyens ; il ne procure pas de quoi restaurer un milieu dont la réparation excède ce qu'ils peuvent fournir. ET RÉSULTAT DE L11.C16 § 5 : la polycentricité est praticable sur la décision D3, le constat, et INTERDITE sur D2, la fixation des valeurs, par le résultat que L11.C04 § 6 tire de Mundell"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCES OUVERTES, écrit tôt pour cette raison — et il porte une

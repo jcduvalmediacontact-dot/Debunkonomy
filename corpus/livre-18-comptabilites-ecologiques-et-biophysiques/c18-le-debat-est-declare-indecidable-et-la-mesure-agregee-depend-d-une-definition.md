@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://www.elgaronline.com/"
     reference: "**Eric Neumayer (London School of Economics), *Weak versus Strong Sustainability — Exploring the Limits of Two Opposing Paradigms*, Edward Elgar Publishing, ISBN 978-1-03532-789-8.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, chapitre 1 (« Introduction and overview », pages 1 à 7) et chapitre 7 (« Conclusions », pages 171 à 177) INTÉGRALEMENT ; liminaires des tables et des sigles. **ÉDITION : la dernière — le tableau 5.1 porte sur la variation de la richesse par habitant de 1995 à 2018 et le texte cite World Bank 2021, Hammond 2021, Reuchamps et al. 2023 et Willis 2024.** **C'était l'acquisition de rang 1 de F13 pour le versant théorique du camp adverse, refusée aux hébergeurs automatisés et fournie par l'auteur le 2026-09-08.** **DROITS : Open Access sous Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International, mention portée sur chaque page du dépôt.** **RÉGIME RETENU : `citation_seule`, ET CE N'EST PAS LE RÉGIME DU DÉPÔT.** La clause *NoDerivatives* interdit l'œuvre dérivée ; le corpus est sous licence de partage à l'identique, incompatible avec elle. **Le corpus cite avec attribution et n'incorpore pas.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**DEUX CHAPITRES SUR SEPT SONT LUS, ET CE SONT CEUX OÙ L'AUTEUR RÉSUME LES
      CINQ AUTRES.** Le chapitre 1 annonce l'argument et le chapitre 7 le conclut.

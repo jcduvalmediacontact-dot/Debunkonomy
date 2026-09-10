@@ -15,7 +15,7 @@ sources_primaires:
     nature: theorie
     url: "https://www.elgaronline.com/"
     reference: "**Eric Neumayer (London School of Economics), *Weak versus Strong Sustainability*, Edward Elgar Publishing, ISBN 978-1-03532-789-8, CINQUIÈME RÉVISION rédigée en 2024, CHAPITRE 4 « Preserving natural capital in a world of risk, uncertainty, and ignorance », pages 107 à 124.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **LU DANS LE TEXTE** : sections 4.3.3 (espaces de fonctionnement sûrs), 4.4 (le problème du coût d'opportunité) et 4.5 (conclusion) LUES INTÉGRALEMENT ; sections 4.1 et 4.2, sur les traits distinctifs du capital naturel et sur la distinction risque / incertitude / ignorance, NON LUES. **DROITS : Open Access sous Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LES DEUX PREMIÈRES SECTIONS DU CHAPITRE NE SONT PAS LUES, ET ELLES PORTENT
      LA DISTINCTION SUR LAQUELLE TOUT LE RESTE REPOSE.** L'auteur y sépare le

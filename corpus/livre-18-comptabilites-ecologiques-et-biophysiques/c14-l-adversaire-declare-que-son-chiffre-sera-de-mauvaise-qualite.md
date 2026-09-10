@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Banque mondiale (Banque internationale pour la reconstruction et le développement), *The Changing Wealth of Nations — Technical Report: Adding Water to the Changing Wealth of Nations*, 2024.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. **DROITS, LUS DANS LE DOCUMENT : « *this work may be reproduced, in whole or in part, for NONCOMMERCIAL PURPOSES as long as full attribution to this work is given* » — régime `libre`, au sens de réutilisable sous les conditions indiquées, l'usage commercial étant exclu.** **C'EST UNE PIÈCE DU CORPUS ADVERSE DE F13 QUE L'AUTEUR AVAIT NOMMÉ** : « les travaux de comptabilité de la richesse de la Banque mondiale ». **Et c'est un RAPPORT TECHNIQUE préparatoire à l'édition 2024 du rapport phare, non ce rapport lui-même.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**CE N'EST PAS LE RAPPORT PHARE, C'EST UN RAPPORT TECHNIQUE PRÉPARATOIRE.**
      Il évalue **la faisabilité** d'ajouter l'eau aux comptes ; **il ne publie

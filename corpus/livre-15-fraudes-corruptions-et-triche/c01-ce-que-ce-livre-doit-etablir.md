@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Thales A. P. West, Sven Wunder, Erin O. Sills, Jan Börner, Sami W. Rifai, Alexandra N. Neidermeier, Gabriel Frey et Andreas Kontoleon, « Action needed to make carbon offsets from tropical forest conservation work for climate change mitigation ».** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt institutionnel de l'université de Cambridge, lu dans le texte. **MANUSCRIT D'AUTEUR déposé en archive, non la version de référence.** **DROITS : la notice du dépôt annonce CC BY ; LE DOCUMENT NE PORTE AUCUNE MENTION DE DROITS. En application de la règle établie le jour même, le corpus retient ce qu'il LIT et non ce que la notice annonce — régime `a_verifier`, citation courte avec attribution.** **Méthode : 26 sites de projets, six pays, trois continents, contrôles synthétiques.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même — L1.C18 § 5, « Le régime probatoire et son point aveugle ».** **Ce chapitre ne rouvre aucune des sources de L1.C18** et renvoie à elles : les quatre constats empiriques qu'il rapporte (contrefactuels appariés, essai contrôlé randomisé ougandais, coûts du régime probatoire, état de la comptabilité écosystémique) sont adossés aux sources ouvertes par ce chapitre-là. **C'est L1.C18 qui a déclaré les TROIS LIMITES que le présent livre est chargé de reprendre.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**CE LIVRE N'A AUCUNE SOURCE SUR LA FRAUDE ELLE-MÊME.** Il ouvre une étude sur
      l'INTÉGRITÉ d'un dispositif de crédits, ce qui n'est pas la même chose : les

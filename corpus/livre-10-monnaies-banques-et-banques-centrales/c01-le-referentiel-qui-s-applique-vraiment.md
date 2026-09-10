@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Orientation (UE) 2016/2249 de la Banque centrale européenne du 3 novembre 2016 concernant le cadre juridique des procédures comptables et d'information financière dans le Système européen de banques centrales (BCE/2016/34), refonte**, JO L 347/37 du 20 décembre 2016 — **OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, texte français lu sur EUR-Lex. **ARTICLE 6, COMPTABILISATION DE L'ACTIF ET DU PASSIF, ET LES TROIS CONDITIONS SONT CUMULATIVES** : « Un actif/passif financier ou autre n'est comptabilisé au bilan de l'entité déclarante que lorsque **TOUTES** les conditions suivantes sont réunies : 1) **il est probable que tout GAIN OU PERTE ÉCONOMIQUE FUTUR, associé à l'actif ou au passif, bénéficiera à ou sera supporté par l'entité déclarante** ; 2) **l'essentiel des RISQUES ET AVANTAGES associés à l'actif ou au passif A ÉTÉ TRANSFÉRÉ à l'entité déclarante** ; 3) le coût ou la valeur de l'actif pour l'entité déclarante ou le montant de la dette **peut être mesuré de manière fiable**. »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même source — VALORISATION ET PRUDENCE.** **ARTICLE 9 § 1** : « **Les taux et les prix actuels du marché sont utilisés pour la valorisation du bilan**, sauf dans les cas relevant des règles particulières spécifiées à l'annexe IV » ; **§ 2** : la réévaluation est effectuée à la date de réévaluation trimestrielle « **aux taux et aux prix moyens du marché** », les titres détenus jusqu'à échéance, non négociables ou détenus à des fins de politique monétaire étant comptabilisés **au coût amorti**. **ARTICLE 3, PRUDENCE, ET ELLE EST ASYMÉTRIQUE** : l'évaluation « et la constatation des résultats sont effectuées avec prudence », ce qui signifie que « **les plus-values latentes NE SONT PAS comptabilisées comme des produits** dans le compte de résultat, mais enregistrées directement dans un **compte de réévaluation**, et que **les moins-values latentes SONT PORTÉES AU COMPTE DE RÉSULTAT** en fin d'année si elles excèdent les plus-values latentes antérieures ». **ARTICLE 8** : une banque centrale nationale « **peut prévoir une provision** pour risques de change, de taux d'intérêt, de crédit et de variation du cours de l'or », dont elle « décide du niveau et de l'utilisation [...] sur le fondement d'une estimation motivée de l'exposition »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même.** **L18.C01** : le cadre conceptuel IPSASB § 5.6A définit une ressource comme « a right to either **SERVICE POTENTIAL** or the capability to generate economic benefits », et § 5.8 le potentiel de service opère « **without necessarily generating net cash inflows** » — d'où la correction du 2026-09-07 : « le corpus appliquait le test du secteur privé à une entité publique ». **IPSAS 51 § 10** : reconnaissance si potentiel de service probable, **contrôle**, mesure fiable — « **si la contrepartie est la ressource conservée [...] elle S'APPRÉCIE** ». **ARBITRAGE A30, troisième condition, jamais levée** : « **rien n'établit que l'institution émettrice relève de la comptabilité publique** ». **L18.C06** : « l'applicabilité n'a pas avancé d'un pas [...] **tout le raisonnement de cette tranche lui est conditionnel** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE PÉRIMÈTRE DE CETTE ORIENTATION EST L'EUROSYSTÈME, ET RIEN N'ÉTABLIT
      QU'IL SOIT CELUI DU DISPOSITIF. Elle lie la BCE et les banques centrales

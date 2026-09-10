@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 12**, section 2 — les dix déplacements rassemblés, et leur clôture : « Ces dix déplacements ne sont pas isolés. Ils s'articulent selon une logique commune. CHACUN ÉTEND UN DOMAINE SPÉCIFIQUE DE LA MACROPRUDENCE DÉFENSIVE VERS SA DIMENSION RÉGÉNÉRATIVE CORRESPONDANTE. Ensemble, ils constituent l'architecture cohérente de la macroprudence régénérative. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source, **section 6, « Feuille de route pour le think tank NEMO IMS »** — « Cette série macroprudentielle n'est pas un point final. Elle est UN POINT DE DÉPART. Elle appelle un travail collectif dont l'ampleur EXCÈDE LES CAPACITÉS INDIVIDUELLES ou même d'une organisation isolée. » PREMIÈRE MISSION : « élaborer les fondations théoriques. Faire aboutir les chantiers théoriques ouverts, EN PARTICULIER CELUI DE LA FORMULATION COMPTABLE DÉFINITIVE DE LA CONTREPARTIE DES NGDTS [...] Ces fondations théoriques doivent être élaborées de manière rigoureuse, publique, OUVERTE À LA CRITIQUE ACADÉMIQUE. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — les dix chapitres L2.C09 à L2.C18, qui éprouvent les dix déplacements un par un, et L2.C02, qui établit que le premier terme de la confrontation — l'orthodoxie décrite par le Cahier — est la position MICROPRUDENTIELLE et non la position macroprudentielle"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LES TROIS AUTRES MISSIONS DU THINK TANK NE SONT PAS DÉPOUILLÉES. Le
      corpus a lu la première. **La feuille de route est le seul endroit du

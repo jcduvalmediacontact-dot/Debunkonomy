@@ -14,39 +14,39 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre « Le commerce international avec NEMO IMS », sections « Métaphore de la toile d'araignée monétaire », « Détermination des taux de change fixes », « Fonctionnement du NEMO SWIFT » et « Fixation systémique des taux de change ». Énoncés retenus : le NES est « un référentiel de comptabilité universel, autour duquel toutes les devises du monde se convertiront directement entre elles » ; « le NES n'est pas une monnaie, mais simplement un référentiel comptable » ; règle de conversion — MONTANT EN DEVISE B = Montant en Devise A / TAUX Devise A × TAUX Devise B ; « l'importateur paie dans sa monnaie nationale. Cette somme est détruite par NEMO SWIFT » et « l'exportateur reçoit dans sa propre monnaie nationale. Cette somme est créée ex nihilo par NEMO SWIFT ». Table de cotation indirecte, base 1 NES = 1 USD, janvier 2026 : 0,86 EUR, 0,75 GBP, 0,80 CHF, 1,39 CAD, 1,50 AUD, 6,97 CNY, 158,00 JPY"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, même ouvrage, même chapitre — ÉNONCÉ DÉCISIF que ce chapitre met à l'épreuve : « NEMO IMS neutralise les dilemmes exposés par le triangle d'incompatibilité de Mundell. Si les taux de change sont fixes avec NEMO IMS, les nations recouvrent toute la latitude de leurs politiques monétaires, ainsi que la libre circulation des capitaux. » Aucun mécanisme n'est donné à l'appui. Le même passage déclare le dispositif « inspiré de l'étalon Or/sterling du 19e siècle ». Autres énoncés testés : « Fin des déséquilibres commerciaux chroniques » ; « À terme, la solution NEMO IMS vise à lisser cette parité de sorte que la valeur du travail, du mérite et du pouvoir d'achat converge entre toutes les nations » ; les taux sont dits « fixes par conception » puis « fixes mais ajustables », et leurs modalités « restent à discuter », l'auteur évoquant « une photo à un instant T »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 — triangle d'incompatibilité : un pays ne peut pas tenir simultanément un taux de change fixe, la mobilité parfaite des capitaux et une politique monétaire autonome. RÉSERVE : références non ouvertes de première main ; la bibliothèque de l'auteur contient deux notes de vulgarisation sur le triangle, non les articles originaux. Le résultat est déjà versé au dossier en L1.C19 § 6 et L1.C24 § 1"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "P. Mehrling, notes de cours du cours The Economics of Money and Banking, Barnard College — bibliothèque de l'auteur. Deux éléments employés ici : la contrainte de règlement, « the requirement that deficit countries find a way to settle with surplus countries », qui discipline le pays déficitaire sans qu'aucune volonté ne s'exerce ; et, leçon 14, la description du mécanisme d'ajustement sous étalon-or, où la discipline s'exerce par les paiements et où l'ajustement porte sur la masse monétaire interne du pays déficitaire"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "B. Balassa, « The Purchasing-Power Parity Doctrine: A Reappraisal », Journal of Political Economy, 72(6), p. 584-596, 1964 ; P. A. Samuelson, « Theoretical Notes on Trade Problems », Review of Economics and Statistics, 46(2), p. 145-154, 1964 — les écarts durables à la parité de pouvoir d'achat s'expliquent par des différentiels de productivité entre biens échangeables et non échangeables, non par un défaut de fixation du taux nominal. RÉSERVE : références non ouvertes de première main dans cette passe"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "J.-C. Duval, Cahier technique, épisode 11 « De la coopération entre banques centrales à la gouvernance monétaire mondiale » — le NEMO Exchange Standard y est décrit comme « un pur nombre notionnel qui sert d'unité de référence pour les taux de change entre monnaies nationales. Il ne remplace aucune monnaie. » AVERTISSEMENT : épisode du Livre 2 portant des états antérieurs de la conception (protocoles/passe-2.md § 3 quater)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "H. Rey, « Dilemma not Trilemma: The Global Financial Cycle and Monetary Policy Independence », Jackson Hole Economic Policy Symposium, Federal Reserve Bank of Kansas City, 2013 — thèse selon laquelle, sous mobilité parfaite des capitaux, le cycle financier mondial prive les économies d'autonomie monétaire QUEL QUE SOIT le régime de change : le trilemme se réduit à un dilemme entre mobilité des capitaux et autonomie monétaire. RÉSERVE : référence non ouverte de première main. Employée ici comme nuance défavorable au régime actuel autant qu'au dispositif — elle n'établit pas que le dispositif échappe au triangle"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "A. P. Thirlwall, « The Balance of Payments Constraint as an Explanation of International Growth Rate Differences », Banca Nazionale del Lavoro Quarterly Review, 128, p. 45-53, 1979 — plafond de croissance de long terme déterminé par le rapport des élasticités-revenu des exportations et des importations. Déjà versée au dossier en L1.C24 sous la même référence (P43). RÉSERVE : référence de première main non ouverte"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar, Oxford University Press, 2011 — OUVERT DE PREMIÈRE MAIN le 2026-09-04, ouvrage procuré par l'auteur. PRÉCÉDENT RETENU ICI : la tentative de créer un marché privé de droits de tirage spéciaux. « In 1981 the IMF sought to jump-start the market by reducing the number of currencies making up the SDR from sixteen to five », le panier de seize étant jugé trop difficile à comprendre. L'échec et son mécanisme : « The first private entity issuing an SDR bond or deposit incurred extra costs as a result of the instrument's illiquidity. The first private SDR, by definition, was not traded in a broad and deep market. Purchasers required additional compensation to hold it. And since liquid markets in claims denominated in national currencies already existed, private SDRs traded at a disadvantage. » Et le cercle d'amorçage : « Central banks will find it attractive to hold SDRs only when a significant fraction of trade is invoiced and settled in SDRs. They will find it attractive to do so if and when private lending and borrowing take place in that unit »"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le chapitre du livre a été lu intégralement avant rédaction (sections

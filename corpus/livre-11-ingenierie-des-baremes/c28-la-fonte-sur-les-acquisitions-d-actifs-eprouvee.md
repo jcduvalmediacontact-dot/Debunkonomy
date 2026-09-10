@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "G. Capelle-Blancard, O. Havrylchyk, « Securities Transaction Tax and Market Behavior: Evidence from Euronext », Université Paris 1 Panthéon-Sorbonne et CEPII. **FOURNI PAR L'AUTEUR ET OUVERT LE 2026-09-07** (61 860 caractères). **L'INSTRUMENT TESTÉ** : taxe décidée à 0,1 % en janvier 2012, « shortly before its introduction, the levy was **doubled to 0,2 percent** », entrée en vigueur le **1er août 2012**, due « **on the purchase of stocks** issued by companies whose headquarters are located in France and with market values of **more than 1 billion Euros** (on January 1, 2012) ». Liste publiée le 2 juillet 2012 : **109 valeurs** cotées sur Euronext. **MÉTHODE** : différence de différences, avec DEUX groupes de contrôle — les petites sociétés françaises et les sociétés étrangères cotées sur la même place"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "Même source, résultats — « the introduction of the STT has **reduced volume and turnover** of stocks and **increased their bid-ask spread** compared to foreign firms (**although we do not detect the latter effect with French small firms as a control group**). At the same time, we find **NO EFFECT ON THEORETICALLY BASED MEASURES OF LIQUIDITY**, such as price impact or price reversal. We also find **no significant and robust effect on volatility measures**. » **AMPLEUR CHIFFRÉE** : « volumes have declined by **19%, 23% and 29%** (corresponding to the coefficients of −0,2159, −0,2594 and −0,3464) [...] not only statistically significant in all three subsamples but also **economically meaningful** ». Conclusion : « **STT is neither a panacea nor a threat** for financial markets. **The only variables that are affected are volume and turnover** [...] our results **do not confirm expectations that STT decreases market volatility by curbing speculative activity**. At the same time [...] the introduction of the tax **is not « madness »** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "Même source, **NOTE 4** — la donnée de conception qui commande tout le reste : « It should be noted that **THE TAX IS COLLECTED ONCE A DAY** and, hence, **INTRADAY TRADING IS NOT AFFECTED**. » **OUVERT le 2026-09-07**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, *L'économie de l'équilibre*, chapitre 9 — la fonction attribuée à la fonte sur les acquisitions d'actifs : « **La fuite vers les actifs spéculatifs ou polluants est interceptée par le premier ressort**, puisque la fonte transactionnelle s'applique également à l'acquisition d'actifs : acheter un bien à fort impact pour échapper au demurrage entraîne **une perte immédiate et bien supérieure**. Il ne reste donc qu'une issue : les actifs réels domestiques à faible impact. » **OUVERT le 2026-09-06.** Et l'arbitrage A32 du même jour, qui fait de ce mécanisme LE CONTRÔLE DES CAPITAUX du dispositif"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Application de la règle L6.C02 : dire ce que le chiffre mesure ────────
   # Les trois pourcentages ci-dessous mesurent UNE BAISSE DE VOLUME

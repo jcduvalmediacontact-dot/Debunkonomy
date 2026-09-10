@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**IPSASB, RPG 1, *Reporting on the Long-Term Sustainability of an Entity's Finances*** (recueil IPSAS 2026) — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, source fournie par l'auteur et rangée au Drive, **non instruite jusqu'ici**. **§ 2, STATUT** : « The reporting of information in accordance with this RPG represents **good practice**. An entity reporting long-term fiscal sustainability information **is ENCOURAGED to follow this RPG. COMPLIANCE WITH THIS RPG IS NOT REQUIRED** in order for an entity to assert that its financial statements comply with IPSAS. » **§ 11, ET IL DIT POURQUOI L'INSTRUMENT EXISTE** : l'information « is **BROADER than information derived from the financial statements** [...] It therefore takes into account **decisions made by the entity on or before the reporting date that will give rise to future outflows THAT DO NOT MEET the definition of and/or recognition criteria for LIABILITIES** at the reporting date. Similarly it takes into account **future inflows that do not meet the definition of and/or recognition criteria for ASSETS** at the reporting date. » **DÉFINITION** : « Long-term fiscal sustainability is **the ability of an entity to meet service delivery and financial commitments both now and in the future** »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "**Même source, base des conclusions — ET C'EST L'HISTOIRE DE L'INSTRUMENT QUI PORTE LE RÉSULTAT.** L'IPSASB avait conclu que « **the financial statements CANNOT PROVIDE ALL THE INFORMATION that users need on social benefits** ». **En octobre 2008, après consultation, « it was decided NOT TO DEVELOP ED 34 INTO AN IPSAS »**, une large majorité de répondants convenant que « **the financial statements cannot convey sufficient information to users about the long-term financial implications of governmental programs providing social benefits** ». Et sur la forme à donner à la suite : « many said that they **PREFERRED THE IPSASB TO DEVELOP GUIDELINES RATHER THAN REQUIREMENTS** ». L'exposé-sondage ED 46.RPG, d'octobre 2011, proposait en conséquence **« non-authoritative guidance »**. Un amendement de mai 2023 sur l'information relative aux programmes de soutenabilité est lui aussi qualifié de **« Additional NON-AUTHORITATIVE Guidance »**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**Le corpus lui-même, L18.C01 et L18.C02.** **IPSAS 51 § 12** : le repli en annexe est **conditionné au contrôle**, et ne traite que le défaut du critère 10(c). **IPSAS 48 § 18 et § 20** : à défaut, une **charge** mesurée à la valeur comptable des ressources transférées, **les deux branches donnant une charge**. **CSRD, art. 19 bis § 1 et art. 34 modifié** : information dans **le rapport de gestion**, sous **assurance limitée**, opinion d'audit rendue « **à l'exclusion des exigences relatives à l'information en matière de durabilité prévues à l'article 19 bis** ». **SEEA § 1.68 et § 1.59** : la valorisation monétaire relève de **principes et recommandations**, et n'est **pas une composante obligatoire**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE HANDBOOK IPSAS 2026 PORTE UNE RESTRICTION D'USAGE EXPLICITE, et le
      corpus la déclare plutôt que de l'ignorer : la permission de copier « does

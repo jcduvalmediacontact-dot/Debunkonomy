@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`protocoles/registre-des-promesses.md`, P13**, renvoyée par L1.C15 § 1. **Ce qu'il faut établir, en deux parties** : « Une émission gagée sur la régénération et non sur une promesse de remboursement, **à aucun niveau** — et **ce qui empêche que le filtre se redéplace sur l'institution émettrice (GES)** ». **L3.C01 a établi que la seconde partie est la difficile et que le livre existe pour elle.**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**ARBITRAGE A30, rendu par l'auteur le 2026-09-07** et versé à `protocoles/passe-2.md` : « La banque centrale émet la monnaie à but régénératif **adossée à une dette collective** ; son mécanisme de reflux est collectif et se fait par des prélèvements sur les transactions. **Ces reflux diffèrent des mécanismes traditionnels de reflux particuliers où l'agent rembourse son crédit.** » **CE QUE L'ARBITRAGE RÈGLE** : l'unité n'est pas un titre de créance sur l'institution émettrice, **la dette court dans l'autre sens et son débiteur est collectif.** **CE QU'IL LAISSE OUVERT, ET AUCUN DES DEUX N'EST JURIDIQUE** : le reflux « n'est PAS une annulation », la monnaie « quitte la circulation **sans être détruite** » (arbitrage du 2026-09-05) ; et la créance portée à l'actif est un droit « **sur l'assiette même que le dispositif a pour mission de faire disparaître** » — « plus le certificat dit vrai, moins la créance vaut » (`falsification.md`, 2026-09-04)"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Statuts du Fonds monétaire international, 1944, article V, sections 3 et 7**, ouverts le 2026-09-07 et instruits en L3.C07. **BORNE QUANTITATIVE** : un achat ne doit pas accroître les avoirs du Fonds en la monnaie du membre « **by more than twenty-five percent of its quota** during the period of twelve months [...] **nor to exceed two hundred percent of its quota** ». **RACHAT INDEXÉ** : chaque membre consacre au rachat « **one-half of any increase** that has occurred during the year » dans ses réserves monétaires. **RÉSERVE** : régime de 1944, **abandonné**, aucun des deux amendements détenu"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "**Le corpus lui-même.** **L1.C07**, entrée `solvabilite_anticipee` du vocabulaire : « Critère d'octroi du crédit bancaire : **probabilité estimée que l'emprunteur dégage les revenus monétaires futurs nécessaires au service du capital et de l'intérêt.** » **L11.C13 § 5**, instruisant P25 : Goodhart « frappe plus fort sur **la qualification** que sur le reflux », pour trois raisons établies — la récompense est **directe**, l'écart indicateur/effet est **plus grand**, et la détection est **plus lente**. **L1.C29**, entrée `contrepartie_comptable` : « un actif doit être **une ressource contrôlée par l'émetteur dont des avantages futurs sont attendus POUR LUI**, condition qu'une prestation déjà rendue à un tiers ne remplit pas »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUN BILAN N'EST SIMULÉ. Le chapitre raisonne sur la place du filtre et
      **ne produit aucune écriture**. Il ne peut donc pas dire à quel niveau

@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "C. Borio, « Towards a macroprudential framework for financial supervision and regulation? », BIS Working Papers n° 128, février 2003 — **TABLE 1, « The macro- and microprudential perspectives compared »**, cinq lignes : OBJECTIF (macro : « limit financial system-wide distress » / micro : « limit distress of individual institutions ») ; OBJECTIF ULTIME (macro : « avoid output (GDP) costs » / micro : « consumer (investor/depositor) protection ») ; MODÈLE DU RISQUE (macro : « (in part) endogenous » / micro : « exogenous ») ; CORRÉLATIONS ET EXPOSITIONS COMMUNES ENTRE INSTITUTIONS (macro : « important » / micro : « irrelevant ») ; CALIBRAGE DES CONTRÔLES (macro : « in terms of system-wide distress; TOP-DOWN » / micro : « in terms of risks of individual institutions; BOTTOM-UP »). **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Même source — « A microprudentialist would argue that for a financial system to be sound IT IS NECESSARY AND SUFFICIENT THAT EACH INDIVIDUAL INSTITUTION IS SOUND. A macroprudentialist would take issue with this. » Et l'exemple qui sépare les deux : « it could make sense for a financial firm to tighten its risk limits and take a defensive stance in the face of higher risk. BUT IF ALL DID THAT, EACH OF THEM COULD END UP WORSE OFF. Tightening credit standards and liquidating positions could precipitate further financial stress and asset price declines. RISK WOULD THEREBY INCREASE. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Même source, conclusion — « Strengthening the macroprudential orientation would, in some respects, bring the framework CLOSER TO ITS ORIGIN, when the main concern was THE DISRUPTION TO THE ECONOMIC LIFE OF A COUNTRY brought about by generalised financial distress. It would take it somewhat away from the pursuit of NARROWLY INTERPRETED DEPOSITOR PROTECTION objectives. » Et l'aveu d'inachèvement : « there is still plenty of work ahead [...] For researchers, there is quite a lot to be done analytically and empirically to sharpen the macroprudential perspective ». Enfin : « while we cannot choose what nature is like, WE CAN CHOOSE WHAT WORDS MEAN ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "*Cahier Technique*, épisode 1, section 2, « Le cadre macroprudentiel classique » : « La macroprudence est apparue comme discipline institutionnelle distincte APRÈS LA CRISE FINANCIÈRE DE 2007-2008. Avant cette crise, la régulation prudentielle était essentiellement microprudentielle. [...] Mais son champ d'application est STRUCTURELLEMENT CIRCONSCRIT À CE QUI SE PASSE À L'INTÉRIEUR DU SYSTÈME FINANCIER. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE CORPUS TIENT UN SEUL TEXTE DE DOCTRINE ANGLO-SAXONNE. Borio 2003
      renvoie à Crockett 2000 et 2001, Borio et al 2001, Borio-Lowe 2001,

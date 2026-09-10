@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 12** — projection du plan directeur de l'auteur. **Titre** : Comment réaliser les ODD avec NEMO IMS ? **Collection** : cahier-comparatif. **Fonction assignée** : évaluer ce que NEMO IMS peut faciliter pour chaque objectif de développement durable, **ses limites et les politiques complémentaires nécessaires**. **Motif** : discipline — politiques de développement. **La fonction inscrite au registre anticipe donc elle-même que le dispositif ne suffit pas seul**, ce que ce chapitre confirme par une autre voie."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "**Nations unies, Département des affaires économiques et sociales, *The Sustainable Development Goals Report 2025*, New York, révision d'août 2025, Sales No. E.25.I.4.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce de la bibliothèque institutionnelle de l'auteur. **DROITS : « Requests to reproduce excerpts or to photocopy should be addressed to the Copyright Clearance Center » — mention lue dans le document. RÉGIME : `citation_seule`.** **C'est le rapport annuel officiel de suivi**, préparé en réponse au paragraphe 83 de la résolution 70/1 de l'Assemblée générale."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "**Les 17 objectifs de développement durable et leurs 169 cibles**, reproduction en français publiée par Pacte mondial Réseau France, juillet 2024. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08. **DROITS : « © 2024 Pacte mondial Réseau France » — `citation_seule`.** **RÉSERVE D'ÉDITION, ET ELLE EST IMPORTANTE : CE N'EST PAS LE TEXTE OFFICIEL.** L'autorité est la **résolution A/RES/70/1** de l'Assemblée générale des Nations unies, **que le corpus n'a pas ouverte** ; il lit ici une reproduction en français par un réseau national. **Les libellés cités doivent être revérifiés contre la résolution avant tout usage citable.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE TEXTE OFFICIEL DU CADRE N'EST PAS OUVERT.** Le corpus lit une
      reproduction des 169 cibles, non la **résolution A/RES/70/1**. **C'est la

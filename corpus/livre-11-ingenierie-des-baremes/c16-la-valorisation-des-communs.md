@@ -14,27 +14,27 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026 — chapitre 7 et chapitre 8. RÉPONSE À LA QUESTION DE L'ÉQUILIBRE EXTÉRIEUR, versée en L1.C27 § 6 sous la promesse bloquante P52 : « ce sont les émissions de NEMO Green SDR qui rééquilibreront et stabiliseront les économies nationales ». LIGNE DE DÉLIMITATION, versée en L1.C22 § 3 : le dispositif finance les activités non marchandes essentielles et insolvables, non les échecs du marché. Le volume qu'un pays peut faire certifier ne dépend d'aucun marché mais du barème arrêté par l'Assemblée des Communs"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — OUVERTE, versée en L1.C22 [S5] avec citations littérales : « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place in a comprehensive and transparent manner that will effectively reduce global warming. Furthermore, simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » (p. 1)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990 — OUVERTE, versée en L1.C15 [S4] (vérifiée le 2026-09-03) et L1.C22 [S4] : distinction entre ressource en libre accès et ressource commune gouvernée par des règles ; huit principes organisateurs des institutions durables de gestion collective. LIMITE ÉTABLIE par le corpus en L1.C15 § 4 et maintenue en L1.C22 § 2 : le financement documenté y est le plus souvent non monétaire et mobilise les ressources de la communauté elle-même"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT le 2026-09-06. Retenu ici : la règle du compte, « the values of the instrument variables are dependent, generally speaking, on all the targets set and cannot be considered in isolation » (ch. IV) ; les CONDITIONS du ch. II, grandeurs « not in themselves elements of well-being but rather technical expressions of a “sound policy” » ; et les BOUNDARY CONDITIONS du ch. V, inégalités qui « only become “active” [...] if their fulfilment is threatened »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), 1963 — OUVERT INTÉGRALEMENT le 2026-09-05, dépouillé en L11.C04. Retenu ici par le résultat que L11.C04 § 6 en a tiré : la contrainte est fonction de ce qui demeure hors du système, elle disparaît à l'intérieur d'un barème arrêté globalement, et UN BARÈME MODULÉ NATIONALEMENT LA RECRÉE"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "F. A. Hayek, « The Use of Knowledge in Society », The American Economic Review, 35(4), septembre 1945, p. 519-530 — OUVERT, versé en L1.C22 [S10] : « the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess » (p. 519-520). Porte P19b, que le registre qualifie d'objection la plus forte adressée au dispositif"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # DERNIER DES CINQ BARÈMES de A8, et le seul porteur d'une promesse BLOQUANTE.

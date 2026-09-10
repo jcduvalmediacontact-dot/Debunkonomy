@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 9, p. 188-193 — les deux ressorts et leurs assiettes. Le premier frappe la consommation finale et les acquisitions d'actifs, modulé sur l'empreinte cumulée ; le second les encaisses inactives au-delà d'un SEUIL D'EXEMPTION INDEXÉ SUR LE REVENU MÉDIAN NATIONAL, assiette consolidée au bénéficiaire effectif. CE QUE LE CORPUS RELÈVE ICI, ET QUI EST LE POINT DE DÉPART DU CHAPITRE : le livre et le Cahier raisonnent en VOLUMES — combien il faut retirer — et ne posent nulle part la question de savoir SUR QUI le retrait pèse. Le mot incidence n'y figure pas"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, note de travail du 2026-09-05 ouvrant le Livre 11, et instruction de conception du même jour sur les dérogations — objectifs assignés au reflux et volonté que les prix des produits essentiels demeurent « stables et abondants ». CE QUI COMPTE POUR CE CHAPITRE : l'objectif d'abondance et de stabilité des essentiels est un objectif DISTRIBUTIF déguisé en objectif de prix, puisque la part du revenu consacrée aux essentiels décroît avec le revenu. Versée en L11.C01 [S1], L11.C03 [S3] et L11.C08 [S1]"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J. Couppey-Soubeyran, P. Delandre, A. Sersiron, Le pouvoir de la monnaie, Les Liens qui Libèrent, janvier 2024 — OUVERT le 2026-09-05. Leur prélèvement sur les stocks frappe les RÉSERVES BANCAIRES et non les encaisses des ménages, ce qui déplace entièrement la question d'incidence vers la répercussion bancaire ; leur prélèvement sur les flux frappe chaque paiement à 0,5 %, et les flux financiers à 0,05-0,2 % seulement. LE CORPUS RELÈVE QUE CETTE STRUCTURE DE TAUX A UNE CONSÉQUENCE DISTRIBUTIVE NON DISCUTÉE PAR SES AUTEURS : elle impose plus lourdement l'achat d'un bien que la transaction financière"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: jurisprudence
     reference: "Cour de justice de l'Union européenne, arrêt de novembre 2022 sur les registres de bénéficiaires effectifs — versé en L1.C21 § 6, L11.C02 [S4] et L11.C07 [S3]. Retenu ici pour sa conséquence distributive : à défaut de consolidation, le fractionnement des soldes échappe au demurrage, et le fractionnement suppose des moyens. RÉSERVE : arrêt non ouvert de première main ; sa portée exacte est la vérification la plus rentable du dossier"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "A. L. Bovenberg, R. A. de Mooij, American Economic Review, 84(4), 1994 ; D. Fullerton, G. E. Metcalf, Chicago-Kent Law Review, 73(1), 1997 — érosion de l'assiette par le succès de l'instrument. Déjà au dossier en L1.C21 [S10], où elles fondent F1. RÉSERVE : non ouvertes de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CE CHAPITRE N'IMPORTE PRESQUE AUCUNE SOURCE NOUVELLE. Il consolide ce que

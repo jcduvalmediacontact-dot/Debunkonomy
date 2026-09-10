@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, et son Cahier Technique — SILENCE INTÉGRAL SUR LE RECOURS. Ni le livre ni le Cahier ne prévoient d'organe, de procédure, de délai ni de charge de la preuve pour contester une valeur appliquée, une qualification refusée, une valorisation arrêtée ou une dérogation rejetée. L'architecture à quatre chambres de L1.C18 sépare celui qui dit ce qui compte de celui qui dit combien on émet ; elle ne prévoit personne devant qui se plaindre"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les BOUNDARY CONDITIONS incluent « certain proportionalities between the sacrifices of different social groups », versée à l'inventaire du corpus sous B3 et mordant EN PERMANENCE ; et le motif administratif, entre une mesure qui « hits a large number of people and may therefore be costly » et une qui « affects few and therefore is less costly »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, instruction de conception adressée au corpus le 2026-09-05 après lecture de L11.C07 : « Il faudra cependant envisager des mécanismes de dérogations. Je ne souhaite pas que des gens soient soumis au demurrage s'ils placent leur argent sur des plans épargne logement écologiques ou des maisons à énergie positive par exemple. » Instruite en L11.C08, portée en arbitrage A13. LE PRÉSENT CHAPITRE EN TIRE UNE CONSÉQUENCE QUE L'INSTRUCTION N'ÉNONCE PAS : une dérogation qui se demande suppose qu'on puisse contester son refus"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # D4 EST LA SEULE DES QUATRE DÉCISIONS QU'AUCUN CHAPITRE N'A INSTRUITE.

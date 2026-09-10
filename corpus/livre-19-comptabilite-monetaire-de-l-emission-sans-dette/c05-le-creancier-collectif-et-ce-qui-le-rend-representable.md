@@ -15,11 +15,11 @@ sources_primaires:
     nature: normatif
     reference: "**Commission européenne, FMI, OCDE, Nations unies et Banque mondiale, *System of National Accounts 2008* — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte. RÉGIME : `a_verifier`** (cf. L19.C01). **CE QU'UNE UNITÉ INSTITUTIONNELLE EST, § 4.2** : « **An institutional unit is an economic entity that is capable, IN ITS OWN RIGHT, of OWNING ASSETS, INCURRING LIABILITIES and engaging in economic activities and in transactions with other entities** ». **CE QU'UN PASSIF EXIGE, § 3.33 et § 11.5** : « **one unit (THE DEBTOR) is obliged [...] to provide a payment or series of payments to ANOTHER UNIT (THE CREDITOR)** » — **deux unités, nommées.** **CE QU'UNE CRÉANCE EST, § 11.7** : « **A financial claim is the payment or series of payments DUE TO THE CREDITOR BY THE DEBTOR under the terms of a liability. Like the liabilities, the claims are UNCONDITIONAL** ». **COMMENT LE PRÉCÉDENT S'EN ACCOMMODE, § 11.48 et § 11.49** : l'allocation est enregistrée dans les comptes de l'autorité monétaire du participant d'une part, **« and the rest of the world REPRESENTING THE PARTICIPANTS COLLECTIVELY on the other »** ; et les avoirs « **represent CLAIMS ON THE PARTICIPANTS COLLECTIVELY and not on the IMF** ». **CHAQUE PARTICIPANT EST LUI-MÊME UNE UNITÉ, ET IL EST OBLIGÉ POUR SA PROPRE PART** : « **interest PAID BY participants holding MORE than their allocation exactly matches the interest OWING TO participants holding LESS** » [§ 17.246]"
     url: "https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**Le corpus lui-même — A35, A30 et ce que L19.C03 a établi sans en tirer cette conséquence.** **A35, arbitré par l'auteur, établit que LA SOCIÉTÉ ENTIÈRE PORTE LA DETTE.** **A30, arbitré le 2026-09-07, « reste bloquant sur un seul point, et il n'est pas juridique : CE QUI GARANTIT LA DETTE COLLECTIVE S'ÉRODE QUAND LE DISPOSITIF RÉUSSIT ».** **Et L19.C03 a établi que la fonte, si elle est inscrite dans les termes de l'unité avant son émission, est un INTÉRÊT — un revenu de la propriété dû par le détenteur.** **Le corpus n'avait pas rapproché les deux énoncés**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS N'A PAS OUVERT LES STATUTS DU PRÉCÉDENT ET NE PEUT DONC PAS
      ÉTABLIR CE QUI OBLIGE CHAQUE PARTICIPANT.** Ce chapitre infère de la

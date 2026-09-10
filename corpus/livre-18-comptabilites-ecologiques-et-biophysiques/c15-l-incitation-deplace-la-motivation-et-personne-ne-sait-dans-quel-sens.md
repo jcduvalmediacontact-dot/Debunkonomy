@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 4 « Value expression in decision-making », 141 pages, version anglaise.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis Zenodo, lu dans le texte. **C'ÉTAIT L'ACQUISITION DE RANG 2 INSCRITE PAR L18.C13**, le chapitre 3 ayant déclaré ne pas couvrir l'usage effectif des valorisations dans la décision. **DROITS : mêmes conditions que le chapitre 3 — voir L18.C13 — le corpus retenant le régime LU DANS LE DOCUMENT relié (reproduction à fins éducatives ou non lucratives, attribution, pas d'usage commercial) plutôt que la mention du dépôt.** **Le chapitre 4 tel que déposé ne porte aucune mention de droits propre.** **Chaque constat retenu ici porte le niveau de confiance déclaré par la source.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS A DÉSORMAIS LU DEUX CHAPITRES SUR SIX.** Les chapitres 1, 2, 5 et
      6 restent fermés, ainsi que le résumé aux décideurs **en anglais** — seules

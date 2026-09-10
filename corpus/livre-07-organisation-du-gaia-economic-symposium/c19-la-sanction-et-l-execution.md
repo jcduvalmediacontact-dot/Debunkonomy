@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 132 et 136 — OUVERT le 2026-09-06. La Chambre de Recours « arbitre les contestations et SUSPEND LES DÉCISIONS IRRÉGULIÈRES » et « SANCTIONNE LES MANQUEMENTS DES TROIS CHAMBRES » ; « ses décisions sont SOUVERAINES ET S'IMPOSENT À L'ENSEMBLE DES ORGANES DU GES ». LE CORPUS RELÈVE QUE LE TEXTE NOMME LES ORGANES ET NON LES MEMBRES : rien n'y dit ce qui s'impose à un État"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "W. Nordhaus, « Climate Clubs », American Economic Review, 105(4), 2015 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, dépouillé en L7.C17 : « without sanctions against non-participants there are no stable coalitions other than those with minimal abatement », les pénalités prenant la forme de « uniform percentage tariffs to all imports from nonparticipating countries »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C24, le barème aux frontières ; L7.C16 § 4, les trois effets d'une sortie non régie ; et L1.C25 § 4 sous le falsifieur F6 : la disposition qui contraint le créancier est la disposition qui saute, établi sur trois épisodes"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION. Le livre attribue un pouvoir de sanction à la

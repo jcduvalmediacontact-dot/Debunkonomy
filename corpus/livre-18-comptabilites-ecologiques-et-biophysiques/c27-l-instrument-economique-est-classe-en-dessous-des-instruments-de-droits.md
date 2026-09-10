@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 6 « Policy options and capacity development to operationalize the inclusion of diverse values of nature in decision-making », 146 pages, auteure principale coordonnatrice Eszter Kelemen (Hongrie) et autres.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, **RÉSUMÉ EXÉCUTIF DU CHAPITRE LU DANS LE TEXTE**, sept premières constatations ; **le corps du chapitre, cent quarante pages, NON LU**, non plus que les constatations suivantes. **ÉNONCÉS À COTE DE CONFIANCE**, reproduite telle quelle. **DROITS : reproduction libre à des fins éducatives ou non lucratives avec mention de la source. RÉGIME RETENU : `citation_seule`.**"
-    date_verification: 2026-09-09
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CLASSEMENT RAPPORTÉ ICI EST UN JUGEMENT D'ÉVALUATION, NON UNE MESURE
      D'EFFICACITÉ.** L'évaluation porte que certains types d'instruments ont un

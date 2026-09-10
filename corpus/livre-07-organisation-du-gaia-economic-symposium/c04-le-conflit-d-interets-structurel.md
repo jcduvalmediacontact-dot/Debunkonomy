@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le résultat de L7.C02 § 6 : les trois précédents de clé ouverts documentent des institutions qui répartissent des droits de tirage ou fixent des règles communes, AUCUNE QUI RÉPARTISSE UNE ENVELOPPE PLAFONNÉE ENTRE SES PROPRES VOTANTS ; et le résultat de L11.C16 § 4 : l'enveloppe étant plafonnée par la condition de bouclage, la valorisation est un PARTAGE À SOMME QUASI NULLE entre membres à saturation, laquelle est l'état que le dispositif vise et non son cas extrême"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la promesse BLOQUANTE P52 : l'équilibre extérieur d'un pays dépendant du volume de communs qu'il peut faire certifier, une institution non élue déciderait de la solvabilité extérieure de ses membres. Domiciliée en D2 par L11.C13 § 3. Et la promesse P31, la clé de répartition, dont L11.C11 § 5 a établi qu'elle demande la même chose que l'arbitrage A16"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION. Il traite une difficulté que le corpus a mise au

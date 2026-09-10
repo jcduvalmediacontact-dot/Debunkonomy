@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Assemblée générale des Nations unies, résolution A/RES/70/1, « Transforming our world: the 2030 Agenda for Sustainable Development », adoptée le 25 septembre 2015, distribuée le 21 octobre 2015.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, **version anglaise**. **DROITS : document officiel des Nations unies ; le corpus s'en tient à la citation courte avec attribution — régime `a_verifier` en l'absence de mention lue dans le document.** **C'ÉTAIT L'ACQUISITION DE RANG 1 DU LIVRE 12** : L12.C01 lisait une reproduction en français par un réseau national, et déclarait qu'aucun libellé n'y était citable avant vérification contre ce texte. **Paragraphes lus : 12 (principes de Rio), 63 (appropriation nationale), 72 et 74 (suivi volontaire), et l'objectif 8 avec ses cibles.**"
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**LE CORPUS A LU LA VERSION ANGLAISE, ET IL CITE EN FRANÇAIS AILLEURS.** La
      résolution existe dans les six langues officielles et **la version française

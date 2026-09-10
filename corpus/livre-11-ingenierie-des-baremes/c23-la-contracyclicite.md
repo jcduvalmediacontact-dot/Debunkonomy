@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, note de travail adressée au corpus le 2026-09-05, ouvrant le Livre 11 — OBJECTIFS ASSIGNÉS AU REFLUX, dont celui-ci : « corréler l'ensemble à la politique macroprudentielle ». Versé en L11.C03 comme objectif O4, de nature dynamique et de formulation « direction ». C'est le seul des six objectifs qui porte sur le RYTHME de l'instrument plutôt que sur son NIVEAU"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05, retenant la LECTURE B en L11.C01 § 4 — le produit du reflux arrive à l'institution et y demeure. Combiné à la condition de bouclage classée en L11.C03, il en résulte que le volume émissible est lié au produit du reflux (L11.C16 § 2), et c'est de cette liaison que sort le résultat central du présent chapitre"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "S. Engone Mve, « Monetary Policy and Macroprudential Policy in Fixed Exchange: The Case of the Bank of Central African States », Theoretical Economics Letters 12, 2022, p. 1323-1334 — OUVERT le 2026-09-05, dépouillé en L11.C03 § 6. Retenu ici : la position conditionnelle, où « in the event of a conflict of objectives, priority is given to a single objective » ; et le motif du pôle de l'intégration — les instruments macroprudentiels, « because they are more targeted, are easily circumvented ». ESTIMATION MENÉE EN RÉGIME DE CHANGE FIXE, celui du dispositif"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les CONDITIONS du ch. II, grandeurs « not in themselves elements of well-being but rather technical expressions of a “sound policy” » — statut du bouclage ; et les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE RÉCLAMÉ PAR LE CORPUS. L11.C22 § 4 a relevé que quatre chapitres

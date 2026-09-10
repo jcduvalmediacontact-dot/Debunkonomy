@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, p. 135-136 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. « La Chambre de Recours garantit le passage d'une administration technique à un véritable ÉTAT DE DROIT écologique et monétaire. Elle tranche l'ensemble des litiges et contentieux du GES. Elle peut être saisie PAR UN ÉTAT contestant un audit d'inflation, PAR UNE ENTREPRISE OU UNE COLLECTIVITÉ à laquelle une certification régénérative a été refusée, ou PAR DES ORGANISATIONS NON GOUVERNEMENTALES dénonçant une fraude ou un manquement. Composée de magistrats indépendants, SES DÉCISIONS SONT SOUVERAINES ET S'IMPOSENT À L'ENSEMBLE DES ORGANES DU GES. Sans voie de recours, le système serait administratif et non juridique : UN DISPOSITIF QUI DÉCIDE DE L'ACCÈS DE MILLIONS DE PERSONNES ET DE LA PARITÉ DES MONNAIES NATIONALES NE PEUT SE PASSER D'UN JUGE. » Et p. 132, dans le schéma : elle « arbitre les contestations et suspend les décisions irrégulières » et « sanctionne les manquements des trois chambres »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — L11.C11 § 2, la décision D4, trancher un recours, quatrième des quatre décisions qu'arrêter un barème suppose ; et L11.C19, chapitre consacré au recours, qui l'instruit comme décision et non comme organe. Et L11.C13 § 2 : l'asymétrie des erreurs — sur-qualifier finit par se voir, SOUS-QUALIFIER NE SE VOIT JAMAIS, faute de contrefactuel, le projet non certifié n'existant pas et rien ne signalant son absence"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE. Il instruit l'organe que le livre consacre à

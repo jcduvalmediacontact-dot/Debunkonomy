@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 7, p. 135 — OUVERT DE PREMIÈRE MAIN le 2026-09-06. Le Conseil Monétaire Mondial « calcule et fixe le volume annuel maximal d'émission de NEMO Green SDR et ajuste le taux plancher de fonte monétaire en appliquant rigoureusement la formule d'équilibre dérivée. IL RÉUNIT LES REPRÉSENTANTS DES BANQUES CENTRALES PARTICIPANTES. Ce choix mérite d'être explicité, car IL POURRAIT SEMBLER CONTRADICTOIRE AVEC LA CRITIQUE QUE CET OUVRAGE ADRESSE À CES INSTITUTIONS. Il est délibéré, et repose sur deux raisons. La première est que le mandat des banques centrales s'élargit [...] à la préservation des communs aux côtés de la stabilité monétaire. La seconde est DE CRÉDIBILITÉ : confier le levier quantitatif aux autorités monétaires traditionnelles installe UN FREIN CONSERVATEUR qui garantit la solidité du système face aux marchés et aux institutions financières. Ne disposant d'aucun pouvoir sur la définition des labels ni sur la certification des projets, ces autorités veillent exclusivement à la neutralité monétaire de l'ensemble. ELLES NE CHOISISSENT PAS LES BÉNÉFICIAIRES ; elles déterminent seulement la capacité d'émission soutenable sans inflation. »"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "E. Combe, « Les contradicteurs du keynésianisme : de Friedman aux nouveaux classiques », La Documentation Française, Découverte de l'économie 2, n° 280, 1997, p. 71-78 — OUVERT DE PREMIÈRE MAIN le 2026-09-05, dépouillé en L11.C10 [S8]. DEUX FAMILLES DE RÈGLES : les règles de COMPORTEMENT — « un gouvernement peut importer la crédibilité, en s'arrimant à une zone de changes fixes menée par une monnaie forte », ou nommer un banquier central « CONSERVATEUR » (Rogoff 1985) — et les règles de DROIT, où « pour rendre crédible son action, le gouvernement doit se lier les mains juridiquement »"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1. Et L11.C10 § 5 : se lier les mains, c'est confier la décision à un organe insulé de ceux qu'elle régit, et l'insulation est exactement ce que P52 reproche au barème central — la littérature de la crédibilité répond à une question du corpus en aggravant une autre"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE. Il établit que le livre emploie, sans le

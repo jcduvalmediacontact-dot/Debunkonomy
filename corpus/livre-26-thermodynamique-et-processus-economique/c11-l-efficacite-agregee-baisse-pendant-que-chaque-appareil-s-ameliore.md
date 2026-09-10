@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: donnees
     reference: "**Paul E. Brockway, John R. Barrett, Timothy J. Foxon et Julia K. Steinberger (université de Leeds), « How peaking of exergy efficiency may lead to rising energy demand in OECD countries and an underestimate of non-OECD energy consumption growth », communication à une conférence de la British Institute of Energy Economics.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, treize pages hors références. **DROITS : AUCUNE MENTION DE DROITS N'EST LUE DANS LE DOCUMENT — régime `a_verifier`, citation courte avec attribution.** **C'EST LA QUATRIÈME FRONTIÈRE QUE L26.C08 DÉCLARAIT MANQUANTE : le service final, mesuré en travail utile.** **RÉSERVE DE RANG À DÉCLARER D'EMBLÉE : c'est une COMMUNICATION DE CONFÉRENCE, non un article de revue à comité de lecture.** **SECONDE RÉSERVE, LEVÉE LE 2026-09-08 : les valeurs américaines et britanniques étaient rapportées par ce texte d'après Brockway et al. 2014. CET ARTICLE DE REVUE A ÉTÉ OUVERT LE JOUR MÊME PAR L26.C12, et c'est lui qui fait désormais foi pour les États-Unis et le Royaume-Uni** — la présente communication ne servant plus que pour la Chine et pour le cadre méthodologique."
-    date_verification: 2026-09-08
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "**ACQUISITION DE RANG 1 FAITE LE 2026-09-08 : LES VALEURS AMÉRICAINES ET
      BRITANNIQUES NE SONT PLUS DE SECONDE MAIN.** Brockway et al. 2014 est ouvert

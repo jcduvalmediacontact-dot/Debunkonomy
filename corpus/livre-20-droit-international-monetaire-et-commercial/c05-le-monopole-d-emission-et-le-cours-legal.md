@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Traité sur l'Union européenne, Maastricht, JO C 191 du 29.7.1992 — **ARTICLE 105 A § 1** : « La BCE est SEULE HABILITÉE à autoriser l'émission de billets de banque dans la Communauté. La BCE et les banques centrales nationales peuvent émettre de tels billets. Les billets de banque émis par la BCE et les banques centrales nationales SONT LES SEULS À AVOIR COURS LÉGAL dans la Communauté. § 2. Les États membres peuvent émettre des pièces, sous réserve de l'APPROBATION, PAR LA BCE, DU VOLUME DE L'ÉMISSION. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 16**, qui reprend la même règle : « the Governing Council shall have the EXCLUSIVE RIGHT to authorize the issue of banknotes within the Community [...] The banknotes issued by the ECB and the national central banks shall be THE ONLY SUCH NOTES to have the status of LEGAL TENDER within the Community. » **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L1.C05, qui caractérise la monnaie comme registre de créances collectivement tenu dont le support importe moins que la tenue ; L1.C26, qui expose le NEMO Exchange Standard ; L11.C15, qui établit que la révision d'une parité est un transfert sans porteur désigné"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE MONOPOLE INSTRUIT ICI PORTE SUR LES BILLETS, PAS SUR LA MONNAIE
      SCRIPTURALE. Le corpus n'a pas cherché quelle disposition, s'il en existe

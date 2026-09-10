@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "**Les six chapitres de cette tranche.** **L23.C01** pose quatre questions — au nom de quoi ; par qui et avec quel intérêt à bien percevoir ; **sur quelle assiette réellement atteignable** ; pourquoi lever plutôt que supprimer. **L23.C02** : le mandat onusien préserve **« le droit souverain de chaque État Membre de décider de ses politiques et pratiques fiscales »**, et a été adopté **par 110 voix contre 8** après le rejet de quatre amendements des pays développés. **L23.C03** : le projet de convention réunit les trois étages de F8 **et interdit toute réserve**. **L23.C04** : l'accès du public aux bénéficiaires effectifs est **invalidé**, pour un motif **« inhérent »** à toute publicité. **L23.C05** : les frais de perception de **25 %** intéressent le percepteur, **et leur taux est passé de 10 à 25, puis 20, puis 25**. **L23.C06** : quatre branches sur six tombent, **et A36 est ouvert**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "**`corpus/livres.yaml`, matricule 23.** **Fonction** : « examiner **qui peut lever le reflux ET COMMENT LES CAPITAUX PEUVENT L'ÉVITER** — au nom de quelle compétence, avec quels moyens de contrôle, **et contre quels mécanismes de contournement** ». **Architecture proposée par l'auteur, quinze chapitres**, dont **prix de transfert et déplacement des bénéfices ; paradis fiscaux et juridictions de secret ; sociétés écrans, trusts et véhicules spéciaux ; bénéficiaires effectifs ; échange automatique d'informations ; blanchiment et flux financiers illicites ; arbitrage réglementaire et concurrence fiscale ; incidence ; et application à la fonte avec ses possibilités de contournement**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "**`protocoles/falsification.md`, F10 — LA SUPERFLUITÉ**, routé sur ce livre le 2026-09-07 : *qu'un instrument déjà disponible suffise pour un coût institutionnel inférieur, et que le corpus ne puisse pas établir ce que le dispositif apporte en plus.* **Le cas** : subventions dommageables **supérieures à 2 000 milliards par an**, écart à combler **d'environ 351 milliards**. **Et F10 ne se réfute par aucun des travaux menés jusqu'ici** : il se réfute **par une comparaison d'instruments**"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LA SECONDE MOITIÉ DE LA FONCTION N'EST PAS COMMENCÉE. Le plan assigne à ce
      livre d'examiner **comment les capitaux peuvent éviter le reflux**, et

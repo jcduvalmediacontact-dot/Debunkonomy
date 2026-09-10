@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — la thèse centrale du dispositif, telle que L1.C09 et L1.C21 l'établissent : la frontière de production des comptes nationaux exclut ce qui n'a pas de recette attachée, et le dispositif existe pour financer ce que cette frontière rend invisible. Et le résultat de L11.C02, « le trajet complet de la valeur », qui suit une unité depuis son émission contre un état écologique constaté jusqu'à sa destruction par le reflux — construction dont le présent chapitre établit qu'elle a un ancêtre direct dans le Tableau économique"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni le Tableau économique ni les

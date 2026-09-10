@@ -15,59 +15,59 @@ sources_primaires:
     nature: donnees
     reference: "Eurostat, Material footprints — main indicators (env_ac_rme), consommation de matières premières (RMC) en tonnes par habitant, UE-27 et Allemagne, 2000-2023, mise à jour du 21 juillet 2026"
     url: "https://ec.europa.eu/eurostat/databrowser/view/env_ac_rme/default/table"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S2
     nature: donnees
     reference: "PNUE, Panel international des ressources, Global Resources Outlook 2024 — Bend the Trend, Nairobi, mars 2024, chapitre 2 (extraction mondiale de matières 1970-2024)"
     url: "https://www.unep.org/resources/Global-Resource-Outlook-2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S3
     nature: donnees
     reference: "Federal Reserve Bank of St. Louis, FRED, séries M2SL (M2, milliards de dollars, mensuel) et M2V (vitesse de circulation de M2, trimestriel), 1997-2025"
     url: "https://fred.stlouisfed.org/series/M2V"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Banque centrale européenne, communiqués du 8 juillet 2021 (plan d'action climatique issu de la revue stratégique), du 4 juillet 2022 (intégration du climat aux achats d'obligations d'entreprises et au collatéral) et du 19 septembre 2022 (scores climatiques ; orientation des achats à compter du 1er octobre 2022)"
     url: "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220704~4f48a72462.en.html"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: donnees
     reference: "Umweltbundesamt / AGEE-Stat, part des énergies renouvelables dans la consommation brute d'électricité en Allemagne : 6,3 % en 2000, 51,8 % en 2023"
     url: "https://www.umweltbundesamt.de/en/indicator-share-of-renewables-in-gross-electricity"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S6
     nature: donnees
     reference: "Agence internationale de l'énergie, World Energy Investment 2025, 5 juin 2025"
     url: "https://www.iea.org/reports/world-energy-investment-2025"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "I. Fisher (avec H. G. Brown), The Purchasing Power of Money, Macmillan, New York, 1911, chap. II p. 21 (MV = PT) et chap. III p. 48-53 (MV + M'V' = PT)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "J.-B. Fressoz, Sans transition. Une nouvelle histoire de l'énergie, Seuil, 2024"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S9
     nature: donnees
     reference: "PNUE, Emissions Gap Report 2025: Off Target, Nairobi, 4 novembre 2025 — émissions mondiales de gaz à effet de serre de 57,7 GtCO2e en 2024, en hausse de 2,3 %"
     url: "https://www.unep.org/resources/emissions-gap-report-2025"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S10
     nature: donnees
     reference: "Global Carbon Project, Global Carbon Budget — émissions de CO2 de l'Allemagne en comptabilité par la consommation, série reprise par Our World in Data"
     url: "https://ourworldindata.org/grapher/consumption-co2-emissions?country=~DEU"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S11
     nature: theorie
     reference: "Network for Greening the Financial System (NGFS), A call for action: Climate change as a source of financial risk, avril 2019 ; M. Carney, « Breaking the tragedy of the horizon », Bank of England, 29 septembre 2015 (risque de transition, actifs échoués)"
     url: "https://www.bankofengland.co.uk/-/media/boe/files/speech/2015/breaking-the-tragedy-of-the-horizon-climate-change-and-financial-stability.pdf"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S12
     nature: theorie
     reference: "P. Aghion, C. Antonin, S. Bunel, Le pouvoir de la destruction créatrice, Odile Jacob, 2020 (croissance par l'innovation et découplage)"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : API Eurostat lue — RMC/hab UE-27 : 16,1 t (2000), 18,5 (2008), 14,8 (2010), 14,0 (2015), 14,9 (2019), 14,9 (2022), 13,7 (2023) ; Allemagne : 15,6 (2008), 14,1 (2010), 14,0 (2015), 14,8 (2019), 15,8 (2022), 14,3 (2023).

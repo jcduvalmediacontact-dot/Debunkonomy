@@ -14,11 +14,11 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — le concept `bareme` du vocabulaire ; le résultat de L11.C05, qui établit que le barème de reflux est un prélèvement sur les transactions modulé par l'empreinte ; et l'obstacle métrologique de L11.C05 § 6 et L11.C06, l'empreinte cumulée d'un bien étant une grandeur que personne ne détient, avec sa sortie — une valeur par défaut révisable. Et le résultat de L11.C24 sur le barème aux frontières, dont le seul précédent opérant est le mécanisme d'ajustement carbone de l'Union européenne"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Règlement (UE) 2023/956 du 10 mai 2023 instituant un mécanisme d'ajustement carbone aux frontières, et règlement d'exécution portant sur les VALEURS PAR DÉFAUT — OUVERTS PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (EUR-Lex, textes intégraux). ACQUIS ET NON ENCORE DÉPOUILLÉS : le corpus les tient et n'en a pas tiré le mécanisme des valeurs par défaut, qui est l'objet de l'arbitrage A11 et de L11.C24"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE SANS SOURCE THÉORIQUE OUVERTE — The Economics of Welfare n'est pas en

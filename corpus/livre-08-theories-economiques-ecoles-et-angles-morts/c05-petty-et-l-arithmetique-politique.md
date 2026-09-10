@@ -14,7 +14,7 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "Le corpus lui-même — les falsifieurs F1 et F2. F1 exige un chiffrage du bouclage émission/reflux et a été QUALIFIÉ le 2026-09-06 sur le chapitre IX de Tinbergen, qui range les changements de structure monétaire en classe (d) et écrit que « empirical research into each of the points (b) — (e) is still almost completely lacking ». F2 porte la métrologie écologique. Et le résultat de L11.C13 § 4 : mesurer combien une activité NUIT dispose d'instruments imparfaits mais existants, mesurer combien elle RÉGÉNÈRE n'en a presque aucun"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucun texte de Petty n'est en

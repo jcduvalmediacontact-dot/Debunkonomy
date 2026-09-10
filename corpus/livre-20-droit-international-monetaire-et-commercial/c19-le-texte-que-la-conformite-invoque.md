@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Accord général sur les tarifs douaniers et le commerce, 1947, texte consolidé publié par l'Organisation mondiale du commerce — **ARTICLE III § 2, TRAITEMENT NATIONAL** : « The products of the territory of any contracting party imported into the territory of any other contracting party SHALL NOT BE SUBJECT, DIRECTLY OR INDIRECTLY, TO INTERNAL TAXES OR OTHER INTERNAL CHARGES OF ANY KIND IN EXCESS OF THOSE APPLIED, DIRECTLY OR INDIRECTLY, TO LIKE DOMESTIC PRODUCTS. » **§ 1** : ces charges ne doivent pas être appliquées « SO AS TO AFFORD PROTECTION TO DOMESTIC PRODUCTION ». **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06.** RÉSERVE D'ÉDITION : GATT de 1947 tel que consolidé ; **l'accord de Marrakech précise en son article II § 4 que le GATT DE 1994 EST JURIDIQUEMENT DISTINCT de celui de 1947** — le corpus tient donc le texte antérieur"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même source — **ARTICLE I § 1, TRAITEMENT GÉNÉRAL DE LA NATION LA PLUS FAVORISÉE** : « With respect to customs duties and charges of any kind imposed on or in connection with importation or exportation [...] and with respect to all matters referred to in paragraphs 2 and 4 of Article III, ANY ADVANTAGE, FAVOUR, PRIVILEGE OR IMMUNITY GRANTED BY ANY CONTRACTING PARTY TO ANY PRODUCT ORIGINATING IN OR DESTINED FOR ANY OTHER COUNTRY SHALL BE ACCORDED IMMEDIATELY AND UNCONDITIONALLY TO THE LIKE PRODUCT ORIGINATING IN OR DESTINED FOR THE TERRITORIES OF ALL OTHER CONTRACTING PARTIES. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même source — **ARTICLE XX, EXCEPTIONS GÉNÉRALES**, chapeau : « SUBJECT TO THE REQUIREMENT THAT SUCH MEASURES ARE NOT APPLIED IN A MANNER WHICH WOULD CONSTITUTE A MEANS OF ARBITRARY OR UNJUSTIFIABLE DISCRIMINATION BETWEEN COUNTRIES WHERE THE SAME CONDITIONS PREVAIL, OR A DISGUISED RESTRICTION ON INTERNATIONAL TRADE, nothing in this Agreement shall be construed to prevent the adoption or enforcement by any contracting party of measures: [...] (b) NECESSARY TO PROTECT HUMAN, ANIMAL OR PLANT LIFE OR HEALTH ; [...] (g) RELATING TO THE CONSERVATION OF EXHAUSTIBLE NATURAL RESOURCES IF SUCH MEASURES ARE MADE EFFECTIVE IN CONJUNCTION WITH RESTRICTIONS ON DOMESTIC PRODUCTION OR CONSUMPTION. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 1994 — **PRÉAMBULE** : les relations commerciales doivent être conduites en vue d'élever les niveaux de vie et d'accroître la production et le commerce, « WHILE ALLOWING FOR THE OPTIMAL USE OF THE WORLD'S RESOURCES IN ACCORDANCE WITH THE OBJECTIVE OF SUSTAINABLE DEVELOPMENT, SEEKING BOTH TO PROTECT AND PRESERVE THE ENVIRONMENT AND TO ENHANCE THE MEANS FOR DOING SO in a manner consistent with their respective needs and concerns at different levels of economic development ». **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Ce que ce chapitre NE peut PAS faire ─────────────────────────────────
   # Il tient enfin le texte. Il ne tient toujours pas la jurisprudence, et

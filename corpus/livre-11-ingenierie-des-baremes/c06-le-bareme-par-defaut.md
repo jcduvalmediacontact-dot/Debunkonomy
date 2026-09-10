@@ -14,23 +14,23 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "Mécanisme d'ajustement carbone aux frontières de l'Union européenne — assigne une valeur d'émissions incorporées à un bien importé SANS connaître sa chaîne de production, en appliquant une valeur par défaut que l'importateur peut faire réviser en documentant les émissions réelles. Déjà versé au dossier en L1.C27 § 5, où le corpus lui reproche de servir d'analogie illégitime au seuil d'activation (P51), et en L11.C05 [S7]. RÉSERVE LA PLUS LOURDE DU CHAPITRE : LE RÈGLEMENT N'A PAS ÉTÉ OUVERT. Tout ce chapitre instruit une sortie dont il connaît le principe par ouï-dire. Trois points au moins doivent être vérifiés sur le texte avant tout emploi : comment la valeur par défaut est établie et sur quelle population de référence, quelle procédure permet de la faire réviser, et ce que cette procédure coûte au demandeur. Le troisième décide du § 3 et du § 5"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "L. E. Read, « I, Pencil », The Freeman, 1958, et F. A. Hayek, « The Use of Knowledge in Society », American Economic Review, 35(4), 1945 — argument de la connaissance dispersée, versé au dossier par l'auteur du dispositif le 2026-09-05 et instruit en L11.C05 § 6 : l'empreinte cumulée d'un bien n'est pas une grandeur coûteuse à établir, c'est une grandeur qu'aucun participant de la chaîne ne détient. RÉSERVE : non ouverts de première main. C'est l'objection à laquelle le présent chapitre répond"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre, Debunk'Onomy, 2026, chapitre 9, p. 188-193 — l'assiette du premier ressort : consommation finale et acquisitions d'actifs, modulée selon l'EMPREINTE CUMULÉE du bien. Versé au dossier en L1.C21 [S1] et L11.C05 [S1]. C'est l'expression « empreinte cumulée » que ce chapitre remplace"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "J. M. Buchanan, G. Tullock, The Calculus of Consent, 1962 ; G. J. Stigler, « The Theory of Economic Regulation », Bell Journal of Economics, 2(1), 1971 ; A. O. Krueger, « The Political Economy of the Rent-Seeking Society », American Economic Review, 64(3), 1974 — capture du régulateur et recherche de rente : un dispositif qui distribue des avantages classables engendre une industrie dont l'objet est d'obtenir le classement favorable. Déjà versés au dossier, où ils fondent la promesse P37. RÉSERVE : non ouverts de première main"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "J.-C. Duval, note de travail du 2026-09-05 ouvrant le Livre 11 — objectif assigné au reflux dont dépend le § 3 du présent chapitre : « orienter l'inflation vers les produits (biens et services) les plus dégénératifs ». Le but est de provoquer une SUBSTITUTION, non de percevoir. Versée en L11.C01 [S1] et L11.C03 [S3]"
-    date_verification: 2026-09-05
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CE CHAPITRE EST LE PLUS EXPOSÉ DU LIVRE, et le corpus l'écrit avant qu'un

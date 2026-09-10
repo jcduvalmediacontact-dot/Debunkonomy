@@ -14,44 +14,44 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 7, sections « Révolution économique », « Révolution monétaire », « Révolution financière », « Révolution du travail et du mérite », « Révolution comptable », « Révolution bancaire » (p. 136-155)"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "P. A. Samuelson, « The Pure Theory of Public Expenditure », The Review of Economics and Statistics, 36(4), p. 387-389, 1954 — définition (p. 387) : des biens « which all enjoy in common in the sense that each individual's consumption of such a good leads to no subtraction from any other individual's consumption of that good » ; impossibilité de la tarification décentralisée (p. 388) : « No decentralized pricing system can serve to determine optimally these levels of collective consumption » ; et son motif : « it is in the selfish interest of each person to give false signals, to pretend to have less interest in a given collective consumption activity than he really has ». R. A. Musgrave, The Theory of Public Finance, McGraw-Hill, 1959, pour la réponse budgétaire qui en a été tirée"
     url: "https://doi.org/10.2307/1925895"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "R. A. Mundell, « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 — p. 476 : sous mobilité parfaite du capital et change fixe, « the central bank has no power over the money supply either (except in transitory positions of disequilibrium) » ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 : « the expansionary effect of a given increase in money supply will always be greater if the country has a floating exchange rate than if it has a fixed rate »"
     url: "https://doi.org/10.2307/139336"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
     reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 — la monnaie de crédit est créée par écriture au passif et à l'actif d'une banque commerciale, et détruite au remboursement"
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    date_verification: 2026-09-03
+    etat_lecture: a_requalifier
   - ref: S5
     nature: normatif
     reference: "Directive (UE) 2022/2464 du 14 décembre 2022 relative à la publication d'informations en matière de durabilité par les entreprises (CSRD), JOUE L 322 du 16 décembre 2022, transposition due au 6 juillet 2024 ; France, ordonnance n° 2023-1142 du 6 décembre 2023 et décret n° 2023-1394 du 30 décembre 2023, application échelonnée à partir de l'exercice 2024"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "P. Tucker, Unelected Power, Princeton University Press, 2018, chap. 20 « A Money-Credit Constitution », p. 385-414 — les choix distributifs majeurs doivent être inscrits dans l'acte de délégation et non résulter d'une décision discrétionnaire"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "A. Rambaud, J. Richard, « The “Triple Depreciation Line” instead of the “Triple Bottom Line”: Towards a genuine integrated reporting », Critical Perspectives on Accounting, 33, p. 92-116, 2015 ; J. Richard, A. Rambaud, Révolution comptable : pour une entreprise écologique et sociale, Éditions de l'Atelier, 2020 — le modèle CARE-TDL refuse de traiter le capital naturel comme un actif porteur de revenus futurs et le requalifie en dette écologique inscrite au passif, imposant un amortissement écologique égal au coût réel de préservation et de remise en état"
     url: "https://doi.org/10.1016/j.cpa.2015.01.012"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "D. McLaren, « Quantifying the potential scale of mitigation deterrence from greenhouse gas removal techniques », Climatic Change, 162(4), p. 2411-2428, 2020 — définition de la dissuasion de l'atténuation (p. 2412) : « the prospect of reduced or delayed at-source emissions reductions resulting from the introduction or consideration of another climate intervention » ; D. McLaren, « Mitigation deterrence and the “moral hazard” of solar radiation management », Earth's Future, 4(12), p. 596-602, 2016 ; N. Markusson, D. McLaren, D. Tyfield, 2018, sur la séparation stricte entre objectifs de réduction brute et flux de compensation"
     url: "https://doi.org/10.1007/s10584-020-02732-3"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
     reference: "P. Stella, « Do Central Banks Need Capital? », IMF Working Paper WP/97/83, 1997 — une banque centrale peut fonctionner avec des fonds propres négatifs du fait de son monopole d'émission, mais l'inscription à l'actif de constats non recouvrables revient à constater une perte nette ou à porter une écriture sans adossement. Définition comptable d'un actif : ressource contrôlée, issue d'événements passés, dont des avantages économiques futurs sont attendus"
-    date_verification: 2026-09-04
+    etat_lecture: a_requalifier
 verifications_en_attente:
   # ── Méthode : le livre fait autorité, le script est une source seconde ──────
   # Le texte source (script d'adaptation) et le livre divergent sur plusieurs

@@ -14,19 +14,19 @@ sources_primaires:
   - ref: S1
     nature: normatif
     reference: "**Statuts du Fonds monétaire international, texte originel de Bretton Woods, 1944 — ARTICLE V, « Transactions with the Fund », OUVERT LE 2026-09-07**, source acquise le 2026-09-06 et détenue sans avoir été instruite. **SECTION 2, ET ELLE COMMANDE TOUT LE RESTE** : « operations on the account of the Fund shall be limited to transactions for the purpose of **supplying a member, on the initiative of such member, with the currency of another member IN EXCHANGE FOR GOLD OR FOR THE CURRENCY OF THE MEMBER desiring to make the purchase** ». **SECTION 1** : chaque membre ne traite avec le Fonds que par son Trésor, sa banque centrale, son fonds de stabilisation « or other similar fiscal agency »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
     reference: "Même article, **SECTION 3, quatre conditions cumulatives**. **(i) DÉCLARATIVE** : « The member desiring to purchase the currency **REPRESENTS** that it is presently needed for making in that currency payments which are consistent with the provisions of this Agreement ». **(ii)** la monnaie demandée ne doit pas avoir été déclarée rare au sens de l'article VII § 3. **(iii) QUANTITATIVE, ET ELLE EST CHIFFRÉE** : l'achat ne doit pas accroître les avoirs du Fonds en la monnaie du membre acheteur « **by more than twenty-five percent of its quota during the period of twelve months** ending on the date of the purchase **nor to exceed two hundred percent of its quota** ». **(iv)** le membre ne doit pas avoir été déclaré inéligible"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S3
     nature: normatif
     reference: "Même article, **SECTION 4, DÉROGATION** : « The Fund **MAY IN ITS DISCRETION**, and **on terms which safeguard its interests**, waive any of the conditions prescribed in Section 3 (a) [...] **ESPECIALLY IN THE CASE OF MEMBERS WITH A RECORD OF AVOIDING LARGE OR CONTINUOUS USE OF THE FUND'S RESOURCES.** » Et : « The Fund shall also take into consideration a member's willingness to **pledge as COLLATERAL security gold, silver, securities, or other acceptable assets** [...] and **may require as a condition of waiver the pledge of such collateral security.** » **SECTION 5, INÉLIGIBILITÉ, ET LA GRADATION EST ÉCRITE** : le Fonds « shall present to the member **a report** setting forth the views of the Fund and **prescribing a suitable time for reply** » ; après ce rapport, il « **may LIMIT** the use of its resources » ; et si la réponse manque ou n'est pas satisfaisante, il peut, « **after giving reasonable notice**, **declare it INELIGIBLE** to use the resources of the Fund »"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
   - ref: S4
     nature: normatif
     reference: "Même article, **SECTION 7, RACHAT — et le mécanisme est indexé.** « At the end of each financial year of the Fund, a member **SHALL repurchase** from the Fund with gold or convertible currencies [...] part of the Fund's holdings of its currency under the following conditions : (i) **Each member shall use in repurchases of its own currency from the Fund an amount of its MONETARY RESERVES equal in value to ONE-HALF OF ANY INCREASE that has occurred DURING THE YEAR** in the Fund's holdings ». **RÉSERVE PORTÉE SUR TOUT LE CHAPITRE** : ce texte est celui de 1944, **antérieur aux amendements de 1969 et de 1978** ; le régime décrit **n'est plus en vigueur**, et le corpus ne tient aucun des deux amendements"
-    date_verification: 2026-09-07
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "LE RÉGIME DÉCRIT N'EST PLUS EN VIGUEUR. Le texte est celui de 1944, et
      **ni l'amendement de 1969 ni celui de 1978 ne sont détenus.** Le chapitre

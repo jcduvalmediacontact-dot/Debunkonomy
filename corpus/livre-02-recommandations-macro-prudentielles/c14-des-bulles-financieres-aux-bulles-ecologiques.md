@@ -14,15 +14,15 @@ sources_primaires:
   - ref: S1
     nature: theorie
     reference: "*Cahier Technique*, **épisode 7**, sections 2 et 3 — la bulle écologique désigne « les dynamiques de sur-valorisation puis d'effondrement affectant des actifs directement liés aux ressources et systèmes biophysiques fondamentaux », et quatre caractéristiques la distinguent, dont **L'IRRÉVERSIBILITÉ BIOPHYSIQUE DES DÉGÂTS** : « Une bulle boursière qui éclate détruit du patrimoine financier — un patrimoine QUI PEUT ÊTRE RECONSTITUÉ au fil du temps par l'épargne et l'investissement. Une bulle foncière qui provoque la conversion d'écosystèmes précieux PENDANT SA PHASE D'EXPANSION — déforestation pour la production d'huile de palme, drainage de zones humides — détruit un capital naturel QUI NE SE RECONSTITUE PAS, ou seulement sur des échelles de plusieurs générations. LE DÉGÂT BIOPHYSIQUE PERSISTE APRÈS LE DÉGONFLEMENT FINANCIER. » Les trois autres : valeur d'usage vitale, incertitude radicale sur la valeur fondamentale, dégâts sociaux durables. **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-P. Betbèze, C. Bordes, J. Couppey-Soubeyran, D. Plihon, rapport n° 96 du Conseil d'analyse économique, 2011 — la doctrine que la crise a fait abandonner : « Cette démarche constitue UNE RUPTURE AVEC L'IDÉE QU'IL VAUT MIEUX POUR LES BANQUES CENTRALES « GUÉRIR QUE PRÉVENIR » (CUA, CLEANING UP THE BUST AFTERWARDS, MOP UP AFTER). Elles pourront désormais être amenées à « NAVIGUER À CONTRE-COURANT » (« LEANING AGAINST THE WIND »), autrement dit à agir DE MANIÈRE PRÉVENTIVE. » Et le constat sur les trois questions d'avant-crise — détecter une bulle, en mesurer les conséquences, agir par la politique monétaire : « avant la crise, UNE RÉPONSE NÉGATIVE ÉTAIT DONNÉE — par presque tous les banquiers centraux et par une grande majorité d'économistes — à chacune. LES RÉPONSES NE SONT PLUS LES MÊMES AUJOURD'HUI. » **OUVERT le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
     reference: "E. Carré et al., note de l'Institut Veblen, juin 2022, **§ 2.5, « La défaisance des actifs échoués »** — la note construit une règle de défaisance articulée à la règle de stock : « au-delà de y % de dévalorisation, l'actif serait identifié comme « actif échoué » et serait alors transféré à une structure de défaisance ». **OUVERTE le 2026-09-06**"
-    date_verification: 2026-09-06
+    etat_lecture: a_requalifier
 verifications_en_attente:
   - "AUCUNE LITTÉRATURE SUR LES ACTIFS ÉCHOUÉS N'EST AU DOSSIER. C'est le nom
      sous lequel la doctrine traite l'objet de ce déplacement, et **le Cahier
