@@ -1,0 +1,10 @@
+# Dependance unique du controle du corpus (corpus/controle.py).
+# Version constatee le 2026-09-10 sur la seule plateforme testee :
+# Windows 11, Python 3.14.5. Epinglage exact, sans borne inferieure.
+#
+# Voie connectee  : python -m pip install -r corpus/requirements.txt
+# Voie hors ligne : python -m pip install --no-index --find-links corpus/hors-ligne -r corpus/requirements.txt
+#                   (artefact et licence dans corpus/hors-ligne/, voir NOTICE.md ;
+#                    aucune portabilite revendiquee hors de la plateforme testee)
+# Test            : python corpus/test_environnement_propre.py
+PyYAML==6.0.3
