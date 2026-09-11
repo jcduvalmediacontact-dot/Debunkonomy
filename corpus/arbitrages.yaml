@@ -198,7 +198,7 @@ arbitrages:
     objet: "Ce que NEMO IMS promet, et ce qu'il ne peut pas promettre"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE]
+    lie_a: [A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE, REGIME-NEGATIF]
     decision: >
       ARBITRÉ LE 2026-09-09 — RESTRICTION. NEMO IMS NE GARANTIT PAS LES
       CONDITIONS DE LA VIE : aucune institution monétaire ne contrôle seule
@@ -815,3 +815,24 @@ pieces_de_conception_manquantes:
     acquisition_bloquante: >
       Une architecture documentée de CAPTURE DU RÉGULATEUR, distincte du conflit
       d'intérêts du certificateur, qui lui est tenu.
+
+  - id: REGIME-NEGATIF
+    objet: "Limitation des financements dégénératifs par les circuits autres que NEMO IMS"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [A44]
+    decision: >
+      ORIENTÉ LE 2026-09-11 PAR L'AUTEUR, sur Deyris (2023). PRINCIPE : le
+      canal positif d'émission affectée ne suffit pas si les autres circuits
+      financent sans limite l'incompatible ; NEMO IMS y joint un RÉGIME
+      NÉGATIF. GRILLE : trois instruments — prix (reflux lourd), quantité
+      (encadrement), exclusion (interdiction) —, flux nouveaux avant le stock,
+      cohérence entre tous les acteurs, décision démocratique. RESTE :
+      l'instrument (divergence L2.C13). Repli : choix normatif en L1.C08 § 7.
+    texte: protocoles/architecture-L1-C08.md
+    chapitres: [L1.C08, L1.C12, L1.C21, L2.C06, L2.C13, L2.C20, L11.C03]
+    maj: 2026-09-11
+    acquisition_bloquante: >
+      Une évaluation de l'efficacité des encadrements du crédit (Banque de
+      France, Monnet 2018 ; Banque populaire de Chine), que Deyris cite sans
+      mesurer ; et une mesure des flux de financement dégénératifs hors carbone.
