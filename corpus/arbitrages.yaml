@@ -767,18 +767,18 @@ pieces_de_conception_manquantes:
     objet: "Conception opérationnelle du compte de capital réglementé"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [A32, COMPENSATION-SYMETRIQUE]
+    lie_a: [A32, COMPENSATION-SYMETRIQUE, REGIME-NEGATIF]
     decision: >
-      OUVERT LE 2026-09-09, EN CONSÉQUENCE DIRECTE D'A32. Le PRINCIPE est
-      tranché — le compte de capital est réglementé — mais AUCUNE modalité ne
-      l'est. À concevoir : la ligne entre paiements courants et compte de
-      capital ; le régime des investissements directs, sous conditions de
-      transparence, de durée et de traçabilité ; les règles ANTI-CONTOURNEMENT ;
-      l'autorité compétente ; les voies de recours ; et les mesures de crise,
-      symétriques sur les entrées et les sorties.
+      OUVERT LE 2026-09-09 (A32). PRINCIPE VALIDÉ DE NOUVEAU PAR L'AUTEUR LE
+      2026-09-11 : abandon de la libre circulation des capitaux, compte de
+      capital réglementé ; aucune modalité tranchée. À concevoir : ligne entre
+      paiements courants et compte de capital ; investissements directs
+      (transparence, durée, traçabilité) ; anti-contournement ; autorité ;
+      recours ; mesures de crise symétriques. Mouvements internationaux,
+      fuites, stabilité ; distinct de REGIME-NEGATIF, lié sans fusion.
     texte: protocoles/passe-2.md
     chapitres: [L1.C21, L1.C26]
-    maj: 2026-09-09
+    maj: 2026-09-11
 
   - id: OPERATIONNALISATION-INSOLVABLE
     objet: "Comment éprouver le concept d'essentiel insolvable"
@@ -820,15 +820,16 @@ pieces_de_conception_manquantes:
     objet: "Limitation des financements dégénératifs par les circuits autres que NEMO IMS"
     statut: oriente
     tranche_par: auteur
-    lie_a: [A44]
+    lie_a: [A44, CONTROLE-DES-CAPITAUX]
     decision: >
-      ORIENTÉ LE 2026-09-11 PAR L'AUTEUR, sur Deyris (2023). PRINCIPE : le
-      canal positif d'émission affectée ne suffit pas si les autres circuits
-      financent sans limite l'incompatible ; NEMO IMS y joint un RÉGIME
-      NÉGATIF. GRILLE : trois instruments — prix (reflux lourd), quantité
-      (encadrement), exclusion (interdiction) —, flux nouveaux avant le stock,
-      cohérence entre tous les acteurs, décision démocratique. RESTE :
-      l'instrument (divergence L2.C13). Repli : choix normatif en L1.C08 § 7.
+      PRINCIPE VALIDÉ PAR L'AUTEUR LE 11 SEPTEMBRE 2026 : le canal positif
+      ne suffit pas si les autres circuits financent sans limite
+      l'incompatible ; NEMO IMS y joint un régime limitant les
+      financements dégénératifs, quel que soit leur circuit. Le choix et la
+      combinaison des instruments (prix, plafonnement quantitatif, exclusion)
+      restent non tranchés ; grille : flux nouveaux avant le stock, cohérence
+      entre acteurs, décision démocratique. Distinct de CONTROLE-DES-CAPITAUX,
+      lié sans fusion.
     texte: protocoles/architecture-L1-C08.md
     chapitres: [L1.C08, L1.C12, L1.C21, L2.C06, L2.C13, L2.C20, L11.C03]
     maj: 2026-09-11

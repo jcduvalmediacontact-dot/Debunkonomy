@@ -888,3 +888,17 @@ renouvellement croissant du crédit ; la liste est vide et le chapitre passe à
 `verifie`. Ce statut atteste des sources contrôlées et une structure
 cohérente ; il ne signifie pas que l'importance empirique des mécanismes a été
 démontrée.
+
+**Validations explicites de l'auteur du 11 septembre 2026, après le passage à
+`verifie`.** (1) L'abandon de la libre circulation des capitaux dans
+l'architecture NEMO IMS ; (2) le principe selon lequel NEMO IMS joint à son
+canal positif un régime limitant les financements dégénératifs provenant des
+autres circuits ; (3) le maintien ouvert du choix entre instruments de prix,
+plafonnement quantitatif, exclusion ou combinaison. Les deux décisions restent
+des objets distincts, liés sans fusion : `CONTROLE-DES-CAPITAUX` traite les
+mouvements internationaux, les fuites et la stabilité du régime ;
+`REGIME-NEGATIF` traite la destination écologique des financements, quel que
+soit leur circuit. Le statut `oriente` de `REGIME-NEGATIF` signifie que le
+principe est arrêté et que sa mise en œuvre reste ouverte ; sa décision est
+réécrite : « Principe validé par l'auteur le 11 septembre 2026. Le choix et la
+combinaison des instruments restent non tranchés. »
