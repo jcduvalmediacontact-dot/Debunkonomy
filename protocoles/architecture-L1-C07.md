@@ -107,8 +107,12 @@ intégrées avant la réécriture.**
 | S2 | H. Withers, *The Meaning of Money*, London, Smith, Elder & Co., **1909**, première édition (exemplaire de la Cornell University Library, cote HG221 .W82 1909) | archive.org `cu31924030178663`, OCR `withers-1909-cu31924030178663_djvu.txt` (`ff27a048…70ec6955`), téléchargé le 2026-09-11 | chapitre V « The Manufacture of Money » (p. 57 et suiv.), p. 63-65 ; chapitre sur les crédits de la Banque d'Angleterre, p. 203 | témoignage d'un journaliste financier sur la pratique bancaire anglaise de 1909 ; jalon historique, non fondement |
 | S3 | J. A. Schumpeter, *History of Economic Analysis*, éd. Elizabeth Boody Schumpeter, London, George Allen & Unwin, 1954 (exemplaire de la seconde impression, 1955, numérisé par la Digital Library of India) ; texte de contrôle : réimpression Routledge, Taylor & Francis e-Library 2006, « First published in Great Britain in 1954 by Allen & Unwin » | archive.org `dli.ernet.505700`, OCR `schumpeter-1954-dli-505700_djvu.txt` (`b89795d1…a67ff63b`, OCR imparfait, pagination de 1954) ; archive.org `joseph-a.-schumpeter-history-of-economic-analysis-routledge-1987`, texte `schumpeter-1954-routledge1987_djvu.txt` (`b3beed9f…54c15fc7`, texte propre, pagination propre à l'e-book), téléchargés le 2026-09-11 | Part IV, chapitre 8 « Money, Credit, and Cycles », section sur la théorie bancaire et la création de crédit ; index (Withers, Hartley, 1111, 1115) | histoire de l'analyse économique ; attributions et antériorités |
 
+| S4 | Deutsche Bundesbank, « The role of banks, non-banks and the central bank in the money creation process », *Monthly Report*, avril 2017, p. 13-33, version anglaise | PDF téléchargé le 2026-09-11 depuis bundesbank.de (`bundesbank-2017-04-money-creation.pdf`, `68902f22…bc91702`), texte extrait du PDF chiffré et vérifié contre les passages paginés ; pagination imprimée = page PDF + 12 | p. 13-18 (résumé, réserves, exemples 1a, 1b, 2), 21 (remboursement), 27-28 (exemple 3a, achat par la banque centrale) | écritures et contraintes de la création de monnaie scripturale dans la zone euro, cadre de l'Eurosystème |
+| S5 | J. Deyris, thèse de 2023, même fichier que S21 de L1.C08 | fourni par l'auteur, `ca17b188…78f355c7` ; téléchargé le 2026-09-11 depuis le dépôt institutionnel de l'Université Paris Nanterre (thèse 2023PA100055), empreinte identique ; notice publique de la Chaire Économie du Climat (titre et soutenance en 2023) ; pagination imprimée = page PDF − 2 | p. 21, 53, 59, 63, 68 (instruments publics : information, incitation, quantité ; cadres de collatéral et achats d'actifs ; taux préférentiels ; encadrement du crédit) | instruments publics susceptibles d'orienter l'allocation du crédit ; aucune mesure d'effet |
+
 Newcomb (1885), Fisher (1911) et Macleod sont **rapportés par Schumpeter**,
-non ouverts ; ils n'entrent pas comme sources.
+non ouverts ; ils n'entrent pas comme sources. S4 et S5 ont été ajoutées le
+2026-09-11 en réponse à l'audit contradictoire de l'auteur (§ 10).
 
 ## 3. Les cinq propositions de la Banque d'Angleterre, vérifiées séparément
 
@@ -378,9 +382,38 @@ promesses P23 et P26, non de C07.
 4. Synthèse, arbitrage, fiches s'il reste des affirmations sans appui, puis
    `verifie`, enregistrement de l'état, commits séparés, aucun push.
 
+## 10. Audit contradictoire du 11 septembre 2026 : synthèse et traitement
+
+Audit contradictoire conduit le 11 septembre 2026 par Codex, modèle tiers par
+rapport au rédacteur Claude, à la demande de l'auteur, sur le texte réécrit et
+les sources locales ; objections transmises par l'auteur et traitements relus
+par Codex. L'auteur reste celui qui arbitre ; il n'a pas lui-même produit le
+rapport. Huit objections ; toutes traitées le jour même, sans commit, puis
+validées par l'auteur.
+
+| N | Objection | Examen contre les textes | Traitement | Statut proposé |
+|---|---|---|---|---|
+| 1 | L'achat d'actifs par une banque commerciale et par une banque centrale est confondu (§ 3) | Fondée : le passage de S1 englobe « including the central bank ». S1 p. 24 décrit l'achat à un fonds de pension par l'intermédiaire de sa banque (dépôt crédité par la banque, réserves créditées par la Banque d'Angleterre) ; S4 p. 27-28 décrit la même opération dans l'Eurosystème (exemple 3a : titres chez la banque centrale, réserves à l'actif de la banque du vendeur, dépôt à son passif) | § 3 scindé en deux paragraphes ; les trois positions comptables sont écrites et sourcées | corrigée |
+| 2 | « il n'y a pas d'emprunteur » efface le cas d'un actif qui est une créance préexistante | Fondée | remplacé par « aucune nouvelle dette du vendeur envers la banque… mais l'actif acquis peut être lui-même une créance préexistante, un titre de dette publique ou privée déjà émis », avec S4 p. 18 | corrigée |
+| 3 | Réserves « fournies à la demande » sans contrepartie ni cadre | Fondée : S1 p. 16 dit « in exchange for other assets on their balance sheets » | phrase complète citée ; « en échange d'autres actifs et selon le cadre opérationnel de la banque centrale » ; S4 p. 17 sur l'acquisition différée des réserves | corrigée |
+| 4 | « sans qu'aucune de ces contraintes passe par un stock préalable » trop général | Fondée | remplacé par la phrase de l'auteur sur le stock équivalent de dépôts de clientèle | corrigée |
+| 5 | Définition de la solvabilité anticipée trop étroite (« produire ») | Fondée | « pourra disposer des flux monétaires nécessaires au remboursement ou les obtenir » | corrigée |
+| 6 | Généralisation géographique sur une seule source | Fondée ; l'auteur préfère une seconde source institutionnelle | S4 Bundesbank 2017 acquise et lue : chacune des sept propositions y trouve son passage pour la zone euro ; introduction, § 9 et résumé délimitent la portée aux deux cadres documentés et aux systèmes comparables, avec la diversité des cadres opérationnels dite explicitement | corrigée ; la limite reste écrite |
+| 7 | Faits sous marqueur d'hypothèse au § 7 (instruments publics) | Fondée | paragraphe scindé : instruments en `::etat::` sourcés par S5 (Deyris p. 21, 53, 59, 63, 68), effet non mesuré dit tel ; question normative en `::hypothese::` | corrigée |
+| 8 | Conditions de réfutation formulées sur une « source » | Fondée | reformulées sur un mécanisme démontré ou un contre-exemple documenté, phrase de l'auteur reprise | corrigée |
+
+Points relevés par l'audit hors objections : aucune affirmation quantitative
+non sourcée ne subsiste ; « la forme dominante » de L1.C08 est désormais
+rapportée « dans les cadres documentés ici » ; la diversité des cadres
+opérationnels est écrite au § 9. Statut du chapitre : `audit_contradictoire`
+maintenu ; passage à `audit_factuel` puis `verifie` à la décision de l'auteur
+après lecture du diff.
+
 Empreintes complètes des fichiers cités :
 
 ```
+68902f228b3767746cb9656f59e9dc66ddaa9cf0712bd89924a6f5627bc91702  bundesbank-2017-04-money-creation.pdf
+ca17b1884ae59034df3dcb741ee40ef0972f88efa130506f91cc605078f355c7  deyris-these-2023.pdf
 cfc4a6262631e7b5582a427aec1215c1568f240c45d54696bb9a2093992b62b2  BoE-Money-creation-2014.pdf
 43c2823ccde52f804d3c5b15ebcf9aa661746ab03816d68336e9f8cb831fbabf  BoE-2014.txt
 ff27a04846430eb2045431f7d26659012802287168e643f34a15ee5470ec6955  withers-1909-cu31924030178663_djvu.txt
