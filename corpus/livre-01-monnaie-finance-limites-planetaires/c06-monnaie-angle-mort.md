@@ -74,7 +74,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ## 3. Le mécanisme, énoncé sans être démontré
 
-::etat:: Tout projet productif suppose un financement initial. Une part du financement prend la forme de crédits bancaires. Leur octroi dépend notamment de la perspective de remboursement, des garanties éventuelles, des risques et de la rentabilité attendue pour la banque. L1.C07 établit ce mécanisme de sélection. Il n'établit ni que tout projet productif est financé par crédit bancaire, ni que l'allocation bancaire détermine seule la structure productive.
+::etat:: De nombreux projets productifs nécessitent de mobiliser des ressources monétaires avant de produire leurs premiers revenus. Une partie de ce financement prend la forme de crédits bancaires. Leur octroi dépend notamment de la perspective de remboursement, des garanties éventuelles, des risques et de la rentabilité attendue pour la banque. L1.C07 établit ce mécanisme de sélection. Il n'établit ni que tout projet productif est financé par crédit bancaire, ni que l'allocation bancaire détermine seule la structure productive.
 
 ::hypothese:: Il en découlerait que le critère de rentabilité anticipée agit comme un filtre : les activités qui promettent un retour financier à l'horizon d'évaluation trouvent un financement, les autres non. Cette proposition est celle qui porte le livre, et elle n'est pas démontrée ici.
 

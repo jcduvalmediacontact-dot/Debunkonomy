@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-11
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -111,6 +111,6 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::etat:: **Ce que le chapitre n'établit pas.** Le mécanisme réel par lequel la monnaie est créée dans le système actuel, ni la part respective des banques commerciales et des banques centrales dans cette création. C'est l'objet de L1.C07 pour la monnaie de dépôt bancaire : ce chapitre établit l'inscription du dépôt comme passif bancaire et de la créance comme actif, sans généraliser cette écriture à toutes les monnaies ; la définition plus large proposée ici, la monnaie comme registre de créances et de dettes, conserve donc son statut d'hypothèse. C'est là que se joue l'épreuve annoncée aux chapitres deux et trois.
 
-::norme:: Ce qui s'en déduit tient en une question, et elle est déplacée par rapport au débat courant : non pas combien de monnaie doit être émise, mais en échange de quoi elle l'est.
+::norme:: Ce qui s'en déduit tient en une question : non pas seulement combien de monnaie doit être émise, mais selon quelle règle, pour quelles activités qualifiées, et sous quelles contraintes elle peut l'être.
 
 Le chapitre suivant examine pourquoi cette question est restée en dehors du champ de l'analyse écologique.
