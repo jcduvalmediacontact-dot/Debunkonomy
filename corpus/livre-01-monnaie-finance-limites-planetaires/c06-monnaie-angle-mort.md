@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-11
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -35,13 +35,13 @@ verifications_en_attente:
   - "Publications de banques centrales sur la finance de la transition : identifier deux ou trois références (NGFS, BCE, Banque de France)"
   # — Cohérence —
   - "COHÉRENCE — l'asymétrie de financement entre activités destructrices et régénératives est affirmée ici comme au chapitre 1 et au chapitre 2. Aligner les trois formulations : elles n'ont pas le même degré."
-  - "COHÉRENCE — le mécanisme par lequel une banque crée du crédit est présenté ici sommairement et démontré en L1.C07. Vérifier que ce chapitre ne conclut pas ce qu'il annonce seulement."
+  # — Cohérence avec L1.C07 fermée le 2026-09-11 par propagation, sur décision de l'auteur : deux formulations qui dépassaient ce que L1.C07 établit sont corrigées (§ 2 et § 3) ; le chapitre annonce le mécanisme de sélection sans conclure ce que L1.C07 n'établit pas —
   # — Renvois —
-  - "Renvoi à ajouter vers L1.C07 (création monétaire par les banques) quand il existera"
+  # — Renvoi vers L1.C07 ajouté le 2026-09-11 —
   - "Renvoi à ajouter vers le chapitre consacré à l'essentiel insolvable quand il existera"
 resume: "Les propositions écologistes se répartissent en trois familles — techniques, réglementaires, comportementales — qui rencontrent une même limite : elles ne modifient pas les conditions auxquelles le crédit est accordé. Ce chapitre soutient que cette limite est structurelle et non conjoncturelle, et examine pourquoi la question monétaire occupe une place réduite dans le débat écologique. Il ne démontre pas le mécanisme de création monétaire, qui fait l'objet du chapitre suivant."
 concepts: [essentiel_insolvable, creation_monetaire, neutralite_monetaire]
-renvois: [L1.C05]
+renvois: [L1.C05, L1.C07]
 ---
 
 # La monnaie, angle mort de l'écologie politique
@@ -70,11 +70,11 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ::etat:: Les propositions comportementales — sobriété de consommation, choix alimentaires, modes de transport — supposent que des décisions individuelles compensent une structure d'incitations qui les contredit. Le chapitre deux a examiné pourquoi cette compensation est coûteuse pour ceux qui la pratiquent.
 
-::hypothese:: Ces trois familles ont en commun de porter sur les usages et non sur les conditions d'émission. Si l'hypothèse du corpus est exacte, elles ne peuvent modifier l'orientation d'ensemble, quelle que soit leur pertinence prise une à une. C'est une hypothèse, non un constat : elle suppose établi que l'allocation du crédit détermine ce qui existe, ce que le chapitre suivant doit montrer.
+::hypothese:: Ces trois familles ont en commun de porter sur les usages et non sur les conditions d'émission. Si l'hypothèse du corpus est exacte, elles ne peuvent modifier l'orientation d'ensemble, quelle que soit leur pertinence prise une à une. C'est une hypothèse, non un constat : elle suppose établi que l'allocation du crédit détermine ce qui existe ; le chapitre suivant établit le mécanisme bancaire de sélection ; l'effet agrégé de cette sélection sur les activités effectivement réalisées reste une hypothèse à instruire avec d'autres sources.
 
 ## 3. Le mécanisme, énoncé sans être démontré
 
-::etat:: Tout projet productif suppose un financement initial. Dans le système actuel, ce financement est le plus souvent créé par une banque au moment où elle accorde un crédit, après évaluation de la rentabilité anticipée du projet. Le mécanisme précis de cette création fait l'objet du chapitre suivant.
+::etat:: Tout projet productif suppose un financement initial. Une part du financement prend la forme de crédits bancaires. Leur octroi dépend notamment de la perspective de remboursement, des garanties éventuelles, des risques et de la rentabilité attendue pour la banque. L1.C07 établit ce mécanisme de sélection. Il n'établit ni que tout projet productif est financé par crédit bancaire, ni que l'allocation bancaire détermine seule la structure productive.
 
 ::hypothese:: Il en découlerait que le critère de rentabilité anticipée agit comme un filtre : les activités qui promettent un retour financier à l'horizon d'évaluation trouvent un financement, les autres non. Cette proposition est celle qui porte le livre, et elle n'est pas démontrée ici.
 

@@ -41,10 +41,10 @@ verifications_en_attente:
   - "COHÉRENCE — ce chapitre reçoit l'épreuve annoncée en L1.C02 et L1.C03 sur le mécanisme monétaire. Il ne la conduit pas : il pose la nature de la monnaie. Vérifier que les deux chapitres renvoient bien au chapitre qui l'expose (L1.C07 annoncé)."
   # — Renvois —
   - "Renvoi à ajouter vers L1.C06 (monnaie et écologie) quand il existera"
-  - "Renvoi à ajouter vers L1.C07 (mécanisme de création monétaire) quand il existera"
+  # — Renvoi vers L1.C07 ajouté le 2026-09-11 (§ 6) : L1.C07 établit le mécanisme pour la seule monnaie de dépôt ; la définition générale posée ici reste une hypothèse —
 resume: "Les manuels définissent la monnaie par ses trois fonctions — unité de compte, intermédiaire d'échange, réserve de valeur — c'est-à-dire par ses usages. Ce chapitre soutient que cette définition laisse ouverte la question de sa nature, et propose de la caractériser comme un registre de créances collectivement tenu, dont le support importe moins que la tenue. Il en tire que les règles d'émission relèvent d'une décision et non d'une nécessité, et que la question décisive est celle des conditions auxquelles la monnaie est créée."
 concepts: [monnaie_comme_registre, creation_monetaire, neutralite_monetaire]
-renvois: []
+renvois: [L1.C07]
 ---
 
 # Qu'est-ce que la monnaie, vraiment ?
@@ -109,7 +109,7 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::hypothese:: **Ce qui est proposé.** Que la monnaie soit définie non par son support mais par la tenue d'un registre de créances reconnu collectivement. Que ses règles d'émission relèvent par conséquent d'une décision institutionnelle et non d'une nécessité.
 
-::etat:: **Ce que le chapitre n'établit pas.** Le mécanisme réel par lequel la monnaie est créée dans le système actuel, ni la part respective des banques commerciales et des banques centrales dans cette création. C'est l'objet des chapitres suivants, et c'est là que se joue l'épreuve annoncée aux chapitres deux et trois.
+::etat:: **Ce que le chapitre n'établit pas.** Le mécanisme réel par lequel la monnaie est créée dans le système actuel, ni la part respective des banques commerciales et des banques centrales dans cette création. C'est l'objet de L1.C07 pour la monnaie de dépôt bancaire : ce chapitre établit l'inscription du dépôt comme passif bancaire et de la créance comme actif, sans généraliser cette écriture à toutes les monnaies ; la définition plus large proposée ici, la monnaie comme registre de créances et de dettes, conserve donc son statut d'hypothèse. C'est là que se joue l'épreuve annoncée aux chapitres deux et trois.
 
 ::norme:: Ce qui s'en déduit tient en une question, et elle est déplacée par rapport au débat courant : non pas combien de monnaie doit être émise, mais en échange de quoi elle l'est.
 
