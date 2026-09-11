@@ -90,7 +90,7 @@ l'auteur sans texte au corpus (rapporté), ou absent.
 |---|---|---|---|---|
 | 1 | Un prêt bancaire crée généralement un dépôt et une créance ; la majorité de la monnaie naît ainsi | F | S1, p. 14 | ouvert |
 | 1 | Le remboursement détruit la monnaie ; le remboursement du capital est une fuite hors du circuit, l'intérêt reflue | F | S1, p. 16 ; Cottin-Euziol, p. 93, 104, 186 | ouvert (les deux) |
-| 1 | Les dépôts naissent aussi d'achats d'actifs ; toutes les formes de monnaie n'ont pas pour contrepartie une dette privée portant intérêt | F | S1, p. 16 (achat de titres publics aux non-banques) | ouvert |
+| 1 | Les dépôts naissent aussi d'achats d'actifs ; toutes les formes de monnaie n'ont pas pour contrepartie une dette privée portant intérêt | F | S1, p. 17 (achat de titres publics aux non-banques ; page corrigée le 2026-09-11) | ouvert |
 | 1 | La Banque centrale fixe le prix des réserves, non la quantité ; la politique monétaire est la limite ultime | F | S1, p. 14, 15, 17 | ouvert |
 | 1 | Les banques décident d'abord combien prêter selon les occasions rentables : sélection par la solvabilité anticipée | F + D | S1, p. 15 ; vocabulaire du corpus | ouvert |
 | 1 | Le reflux du régime de crédit est particulier ; le corpus lui oppose un reflux collectif | N | L1.C21, Livre 2 | corpus |
