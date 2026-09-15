@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: conception
@@ -116,7 +116,7 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 
 ::hypothese:: **À plafond atteint, la valorisation est un jeu à somme nulle entre membres.** Relever la valeur d'un acte de restauration abaisse, en termes réels, tout ce que le barème ne relève pas — donc les allocations des membres dont les communs relèvent d'autres postes. **Ce n'est plus seulement qu'une institution non élue décide de la solvabilité extérieure de ses membres : c'est qu'elle la décide aux dépens les uns des autres.** Le corpus ne l'avait pas écrit et il aurait dû.
 
-::hypothese:: **La nuance qui limite ce résultat, et le corpus la donne** : le plafond n'est atteint que si la demande de certification excède le produit du reflux. Tant qu'elle lui est inférieure, la somme n'est pas nulle et l'objection reste celle de P52, ni plus ni moins. **Mais la position du dispositif est que l'essentiel insolvable est immense** (L1.C15) : la saturation est donc son état attendu, non son cas extrême. **Le durcissement vaut dans l'état du monde que le dispositif vise.**
+::hypothese:: **La nuance qui limite ce résultat, et le corpus la donne** : le plafond n'est atteint que si la demande de certification excède le produit du reflux. Tant qu'elle lui est inférieure, la somme n'est pas nulle et l'objection reste celle de P52, ni plus ni moins. **L1.C15 définit l'essentiel insolvable sans en établir l'ampleur empirique.** La saturation ne peut donc pas être tenue pour l'état attendu : elle constitue un scénario à éprouver. **Le durcissement vaut si la demande de certification excède effectivement le produit du reflux.**
 
 ## 5. L'option polycentrique existe dans le corpus, et elle ne touche pas D2
 
@@ -159,7 +159,7 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 
 ::hypothese:: **Douzième condition-limite, versée à l'inventaire de L11.C03 § 5.** **B12 — la valorisation d'un acte ne peut descendre sous le coût de le réaliser.** C'est une inégalité au sens de Tinbergen : elle ne s'introduit pas tant qu'elle est satisfaite et **elle mord dès que l'enveloppe se resserre** [S4] — c'est-à-dire dans l'état de saturation que le § 4 a identifié comme l'état attendu du dispositif. Elle converge avec le résultat général de L11.C03 : **le compte est au plus mauvais sous tension.**
 
-::hypothese:: **Et elle produit un nombre que le corpus peut exiger sans l'avoir.** Si l'enveloppe a un plafond et la valeur unitaire un plancher, **le nombre d'actes finançables par an a un maximum**. Le dispositif promet de financer l'essentiel insolvable, dont L1.C15 établit l'ampleur. **Personne n'a comparé les deux grandeurs.** C'est une exigence chiffrable, elle relève de F1, et le corpus la nomme sans pouvoir la satisfaire.
+::hypothese:: **Et elle produit un nombre que le corpus peut exiger sans l'avoir.** Si l'enveloppe a un plafond et la valeur unitaire un plancher, **le nombre d'actes finançables par an a un maximum**. Le dispositif promet de financer l'essentiel insolvable, dont L1.C15 définit la catégorie sans en établir l'ampleur. **L'ampleur empirique reste inconnue, et personne ne l'a comparée à ce maximum.** C'est une exigence chiffrable, elle relève de F1, et le corpus la nomme sans pouvoir la satisfaire.
 
 ## 8. Le mécanisme opère plus lentement que le déséquilibre qu'il corrige
 
@@ -181,7 +181,7 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C24, L1.C26, L1.C27, L11.C02, L11.C
 
 ::hypothese:: **La forme directive déplace la question de souveraineté sans la dissoudre** : elle la concentre dans un acte unique, ce qui la rend plus visible et plus difficile à corriger. **Et l'exigence de révisabilité est plus forte ici que sur les quatre autres barèmes** — une fonction mauvaise sur la valorisation prive durablement un membre de sa capacité d'importer — alors même que la crédibilité y demande l'inverse.
 
-::hypothese:: **Il n'existe pas de valeur par défaut défendable sur ce barème** : un défaut bas ferme le canal, un défaut haut est la sur-qualification. La sortie métrologique de L11.C06 n'y est pas disponible. **Douzième condition-limite versée** — B12, la valorisation ne peut descendre sous le coût de réaliser l'acte — et elle mord quand l'enveloppe se resserre, confirmant que le compte est au plus mauvais sous tension. **Elle produit un nombre que personne n'a calculé** : le maximum d'actes finançables par an, à comparer à l'ampleur de l'essentiel insolvable.
+::hypothese:: **Il n'existe pas de valeur par défaut défendable sur ce barème** : un défaut bas ferme le canal, un défaut haut est la sur-qualification. La sortie métrologique de L11.C06 n'y est pas disponible. **Douzième condition-limite versée** — B12, la valorisation ne peut descendre sous le coût de réaliser l'acte — et elle mord quand l'enveloppe se resserre, confirmant que le compte est au plus mauvais sous tension. **Elle produit un nombre que personne n'a calculé** : le maximum d'actes finançables par an, à comparer à une ampleur empirique de l'essentiel insolvable qui reste elle-même inconnue.
 
 ::hypothese:: **Et le mécanisme que le livre oppose au déséquilibre extérieur opère plus lentement que le déséquilibre.** La contraction monétaire arrive au règlement du solde ; la restauration exige un capital que la contraction retire et produit son effet après des années. **C'est le mécanisme de Friedman sur un troisième instrument, par une voie entièrement distincte.** Arbitrage A20.
 

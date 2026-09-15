@@ -14,22 +14,26 @@ mesure finale décidera.
 **LA FORME LOGIQUE, ET ELLE AVAIT ÉTÉ MAL REFORMULÉE.**
 
 ```
-Solvable            = M ∧ C ∧ T ∧ A
-Essentiel insolvable = E ∧ (¬M ∨ ¬C ∨ ¬T ∨ ¬A)
+Conditions nécessaires liées aux flux propres = M ∧ C ∧ T ∧ A
+Essentiel insolvable, au sens analytique interne = E ∧ (¬M ∨ ¬C ∨ ¬T ∨ ¬A)
 ```
 
 où **M** est la monétisation, **C** la captation du flux par celui qui finance,
 **T** sa compatibilité avec l'horizon du crédit, **A** sa résistance à
 l'actualisation, et **E** le caractère essentiel de l'activité.
 
-**Les quatre conditions sont cumulatives POUR LA SOLVABILITÉ. L'insolvabilité
-apparaît dès qu'UNE SEULE échoue.** Il ne faut jamais écrire qu'une activité
-doit échouer aux quatre.
+**Les quatre conditions sont cumulatives comme conditions nécessaires du
+financement autonome remboursé par les flux propres. L'échec de la solvabilité
+interne apparaît dès qu'UNE SEULE échoue.** Il ne faut jamais écrire qu'une
+activité doit échouer aux quatre, ni que leur réunion suffit à garantir un
+crédit : collatéral, qualité de l'emprunteur, asymétries d'information, fonds
+propres ou règles prudentielles peuvent encore conduire au refus.
 
-**L1.C15 énonce cette forme correctement** — il pose que l'emprunteur doit les
-satisfaire *toutes*, et que les activités qui entretiennent les conditions de la
-vie en manquent *plusieurs*. **Aucune correction n'est due au chapitre ; la
-faute était dans sa reformulation.**
+**L1.C15 porte désormais cette implication et déclare son périmètre étroit.**
+La catégorie ne recouvre pas toutes les activités essentielles auxquelles un
+crédit est refusé ; elle isole celles dont au moins une condition liée aux flux
+propres échoue. La comparaison avec les autres causes de non-bancabilité reste
+à instruire.
 
 ## 1. Ce que le concept est, et il faut le dire ainsi
 
@@ -45,17 +49,17 @@ financement manque, prouverait quelque chose.
 
 ## 2. Les cinq critères
 
-**(1) NON-CIRCULARITÉ, ET ELLE N'EST TENUE QU'À MOITIÉ.** Le concept doit se
-définir sans le dispositif. Si l'essentiel insolvable était « ce que NEMO
-financerait », le filtre serait vide. **Les quatre conditions FINANCIÈRES de
-L1.C15 sont indépendantes du remède ; la non-circularité du critère E,
-« essentiel », reste à établir.**
+**(1) NON-CIRCULARITÉ.** Le concept doit se définir sans le dispositif. Si
+l'essentiel insolvable était « ce que NEMO financerait », le filtre serait vide.
+**Les quatre conditions financières et le critère provisoire E de
+`CRITERE-ESSENTIALITE` sont indépendants du remède.** Les seuils sectoriels de
+E restent à fixer avant tout classement indépendant.
 
-**Et c'est E qui fixe le périmètre du concept.** Un critère d'essentialité calqué
-sur ce que le dispositif entend financer réintroduirait la circularité par
-l'autre bout, sans qu'aucune des quatre conditions financières n'ait bougé.
-**Tant que E n'est pas défini indépendamment, la non-circularité est acquise sur
-le filtre et non sur son périmètre.**
+**E fixe le périmètre du concept.** Un critère d'essentialité calqué sur ce que
+le dispositif entend financer réintroduirait la circularité par l'autre bout,
+sans qu'aucune des quatre conditions financières n'ait bougé. La définition
+arrêtée le 2026-09-13 évite ce cercle ; sa non-redondance et ses seuils restent
+à éprouver.
 
 **(2) DÉMARCATION.** Il doit exister des cas clairement dedans, des cas
 clairement dehors, et des cas limites identifiés comme tels. **Un filtre qui
@@ -126,8 +130,8 @@ de garanties obtiendrait sur le même périmètre.
 **Il ne valide pas le concept.** Il énonce les conditions sous lesquelles il
 serait validé, et celles sous lesquelles il serait déclaré creux.
 
-**Il ne fixe ni les seuils des quatre conditions, ni le critère d'« essentiel ».**
-Ces deux points relèvent de l'étape 1 et ne sont pas faits.
+**Il ne fixe pas les seuils des quatre conditions ni les critères sectoriels
+d'« essentiel ».** Ces paramètres relèvent de l'étape 1 et ne sont pas faits.
 
 **Il ne dit pas combien d'évaluateurs, ni quel niveau de concordance suffit.**
 À arrêter avant l'étape 3, et à arrêter *avant* de voir les résultats.

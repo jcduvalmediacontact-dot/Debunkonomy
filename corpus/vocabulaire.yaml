@@ -163,16 +163,19 @@
 
 - terme: bullshitnovation
   libelle: "Bullshitnovation"
-  definition: "Nom provisoire (celui de l'auteur), à confirmer en passe 2.
-               Activité qui satisfait les conditions formelles de la
-               solvabilité et réunit deux conditions conjointes : son émetteur
-               a un intérêt économique établi à ce que le problème dont elle
-               se réclame persiste, et la prestation ne fait pas reculer ce
-               problème de manière établie. La seconde condition écarte la
-               maintenance, la cybersécurité et le traitement des maladies
-               chroniques, dont le service est rendu à chaque prestation.
-               Distincte de l'innovation qui échoue et de la fraude, qui est
-               pénalement caractérisée."
+  definition: "Nom public retenu par l'auteur pour une activité dénuée de sens
+               réel, si ce n'est celui de générer du profit financier. Cette
+               définition normative est distincte du gabarit opérationnel du
+               corpus, qui ne devient applicable qu'après calibrage. Dans ce
+               sous-cas conservateur, le verdict dedans exige que l'offreur
+               tire un avantage économique de la non-résolution du problème par
+               sa prestation, au-delà de la seule récurrence d'un besoin, et
+               que cette prestation soit établie comme n'atteignant pas le
+               résultat minimal attendu, ou comme aggravant le problème, à
+               horizon et contrefactuel fixés. Une preuve insuffisante produit
+               le verdict indéterminé ; une condition réfutée produit dehors.
+               La catégorie reste distincte de la fraude, de l'échec sincère et
+               d'un simple sentiment d'inutilité."
   premiere_occurrence: L1.C16
 
 - terme: sisyphe_economique
@@ -254,9 +257,17 @@
 
 - terme: essentiel_insolvable
   libelle: "Essentiel insolvable"
-  definition: "Besoin ou activité indispensable au maintien des conditions de
-               vie, dont la valeur sociale ne peut pas être couverte de façon
-               fiable par une recette marchande."
+  definition: "Catégorie analytique prospective désignant une activité qualifiée
+               comme réponse à un besoin essentiel, mais dont le financement
+               autonome remboursé par ses flux propres échoue à au moins une des
+               quatre conditions suivantes : production d’un flux monétaire,
+               captation de ce flux par celui qui finance, compatibilité avec
+               l’horizon du crédit, valeur suffisante après actualisation et prise
+               en compte du risque. « Insolvable » désigne cette solvabilité
+               interne, non l'absence de tout crédit ou financement ; la réunion
+               des quatre conditions ne garantit pas l'octroi. Le critère
+               d’essentialité est provisoire et ses seuils sectoriels ne sont pas
+               encore fixés."
   premiere_occurrence: L1.C06
 
 - terme: qualification_regenerative

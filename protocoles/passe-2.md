@@ -463,6 +463,109 @@ Symposium de ce qu'il accumule ?** Dépenser, conserver ou redistribuer donnent
 trois dispositifs différents, et le statut « sans dette » de l'émission dépend
 de la réponse.
 
+### A2 quater — OUVERT le 2026-09-15 : que fait le Symposium de ce qu'il accumule
+
+**Confirmé par l'auteur le 2026-09-15**, en réponse à la question posée par le
+corpus : « mathématiquement, le GES va percevoir plus de reflux qu'il n'a émis
+de flux. Cette question reste ouverte. » Enregistré au registre sous
+`EXCEDENT-DU-SYMPOSIUM`, statut ouvert, renvois L1.C20, L1.C21 et L1.C22.
+
+**Ce qui est acquis.** Le reflux est retenu et non annulé (A2 bis). Les banques
+centrales tiennent un compte au Symposium, et les reflux qu'elles perçoivent par
+le reflux transactionnel et le demurrage se répercutent vers lui par une
+comptabilité à deux étages, en partie double. L'auteur souligne que la
+comptabilité reste orthodoxe et que seuls les mécanismes sont inédits.
+
+**TRANCHÉ EN PARTIE LE 2026-09-15 :** l'auteur affecte une part de l'excédent aux **moyens de fonctionnement du Symposium**, et en fixe l'origine — le reflux sur les activités extractives, ni dette ni impôt sur les activités marchandes. La règle de calibre est écrite en L1.C18 : le reflux est la source des moyens, non leur calibre ; la dotation est pluriannuelle, indexée, votée une fois, non proportionnelle au rendement, bornée et publiée. Motif : sans ce découplage, le fonctionnement de l'institution dépendrait de la persistance de ce qu'elle existe pour réduire, et L1.C21 établit que l'assiette se contracte à mesure que l'instrument réussit. **Le sort du solde reste ouvert**, et c'est lui qui décide du statut sans dette.
+
+**ORIENTÉ LE 2026-09-15 :** l'auteur tranche le MÉCANISME de décision, non son contenu. Le sort de l'excédent est fixé par une **formule d'affectation publiée, votée par l'Assemblée des Communs et appliquée par le Conseil Monétaire Mondial**, écrite en L1.C18 comme cinquième garantie de l'architecture à quatre chambres. Motif : la question tombait entre deux interdits — le Conseil « ne choisit pas les bénéficiaires », l'Assemblée ne « gère pas de budget opérationnel » —, et une formule échappe aux deux, étant une orientation dont l'application est quantitative. Elle doit être une formule et non une décision périodique, par le même motif que L1.C21 § 6 et L1.C26 posent sur les taux de reflux et les parités. **Reste à écrire : le contenu de la formule.**
+
+**Ce qui ne l'est pas, et que la décision devra trancher.**
+
+1. **Que devient l'excédent.** Dépenser, conserver ou redistribuer donnent trois
+   dispositifs différents, et le statut « sans dette » de l'émission dépend de la
+   réponse. Dépenser fait du reflux un prélèvement affecté finançant un budget,
+   soit la réduction orthodoxe que L1.C19 § 2 refuse. Conserver fait du système
+   un drain net permanent et laisse ouverte la question de savoir de quoi le
+   solde accumulé est la créance. Redistribuer demande un critère, et s'il est
+   au prorata des quotes-parts il rétablit la première des quatre propriétés du
+   droit de tirage spécial que le changement de nom du 2026-09-05 écartait.
+
+2. **Ce qui remonte.** A2 bis décrit ce que le Symposium accumule comme des
+   « avoirs en comptabilités de monnaie nationales » ; l'auteur décrit le
+   2026-09-15 un reflux libellé en **NGA** de la banque centrale vers le
+   Symposium. Ce ne sont ni le même instrument ni le même bilan. Si les banques
+   centrales tiennent un compte permanent en NGA, la propriété « détruite à la
+   conversion et non détenue en réserve » s'affaiblit, alors qu'elle est l'une
+   des quatre qui fondent le nom (L1.C20 § 3).
+
+3. **La configuration que cela crée, à examiner et non tranchée ici.** Par
+   construction le Symposium devient le créancier structurel permanent du
+   système qu'il institue. C'est la configuration que l'union internationale de
+   compensation de Keynes pénalisait **symétriquement**, pour les créanciers
+   comme pour les débiteurs, précisément parce qu'un excédent qui s'accumule
+   draine les autres. Le corpus tient déjà cette source ouverte en **L1.C10 S6**,
+   et L1.C25 traite le même épisode. Le rapprochement n'est fait nulle part, et
+   il sera fait par un auditeur adverse s'il ne l'est pas ici.
+
+**Conséquence déjà enregistrée en A2 bis, qui pèse dans le choix :** depuis que
+le reflux est retenu, l'érosion de l'assiette ne tarit plus un actif mais une
+recette, et un financement privé de recette s'arrête aussitôt.
+
+### A2 quinquies — TENSION OUVERTE le 2026-09-15 : le corpus prend le diagnostic d'une lignée dont il refuse le remède
+
+**Relevé à la demande de l'auteur**, qui a déclaré le même jour être **contre la
+théorie du 100 %% monnaie** et tenir la monnaie pour **endogène**, en ajoutant
+qu'il faut au corpus **une nouvelle théorie endogène**. Trois constats en
+découlent, tous vérifiés sur les textes.
+
+**Un.** La famille rejetée est celle des réserves intégrales sur les dépôts à
+vue. Daly, dans le texte acquis pour L1.C06 S3, y place explicitement sa
+proposition à la suite de **Knight, Fisher et Soddy**, écrit que le
+multiplicateur de dépôt vaudrait l'unité, et fait piloter l'émission par un
+indice des prix constant. C'est un contrôle de la quantité, donc de la monnaie
+exogène par construction. Il restaure aussi les fonds prêtables, écrivant
+vouloir rétablir « the classical balance between abstinence and investment ».
+
+**Deux.** « Réserve intégrale » n'apparaît qu'à un seul endroit du Livre 1, la
+phrase de L1.C06 § 4, et **le corpus n'écrit nulle part qu'il rejette cette
+famille**. Or **Soddy et Fisher sont cités approuvés pour leur diagnostic** dans
+six chapitres — la richesse virtuelle contre la richesse réelle en L1.C08 et
+L1.C13, la monnaie fondante en L1.C10, L1.C12, L1.C20 et L1.C21. Le corpus
+s'appuie donc sur une lignée dont il refuse le remède, sans le dire. Un auditeur
+adverse le verra.
+
+**Trois, et c'est le plus serré.** **L1.C08 § 1, chapitre `verifie`**, énonce
+l'endogénéité sur la note de la Banque d'Angleterre, puis la relativise aussitôt
+avec **S20** : la création monétaire par le crédit ne serait pas une nécessité
+fonctionnelle mais « un état de fait historique contingent ». S20 est la thèse
+d'A. Sersiron (2021), et sa conclusion propre, dans la même thèse, est celle-ci :
+« nous proposons à la suite de Fisher (100% Money) un régime d'émission
+**exogène** ». Le corpus emprunte donc sa prémisse à un auteur dont il refuse la
+conclusion, **dans un chapitre déjà vérifié**, et Sersiron est par ailleurs
+coauteur du *Pouvoir de la monnaie*, qui est L1.C10 S10.
+
+**À trancher par l'auteur, et non ici.** Sur quel motif garder « l'endogénéité
+est contingente » tout en refusant le régime exogène qu'on en déduit ? Des
+réponses sont tenables — la contingence historique n'entraîne pas la
+réversibilité pratique ; le coût de l'abolition dépasse son gain ; le périmètre
+réglementaire fuit toujours et la demande de financement migre. Aucune n'est
+écrite.
+
+**Ce que la position implique pour la proposition, si elle est retenue.** Si la
+quantité de monnaie de crédit ne se pilote pas, l'émission sans dette ne peut pas
+se justifier par une décision publique sur la quantité : elle cohabite avec un
+circuit dont le volume reste commandé par la demande, et **le calibrage se fait à
+la sortie**, ce qui donne au reflux collectif de L1.C21 tout son poids. L'auteur
+a précisé le 2026-09-15 que la monnaie Yin **permet des reflux sur les dettes des
+flux Yang** : cette fonction n'est écrite ni en L1.C19 ni en L1.C21, et elle
+change la nature de l'argument, une unité entrant pour éteindre une dette
+bancaire ne gonflant pas la masse mais en changeant la composition. À porter dans
+les deux chapitres si l'auteur la retient.
+
+**Texte de référence pour la position :** la note de la Banque d'Angleterre de
+2014, acquise le 2026-09-15, candidate pour L1.C17 S10, L1.C19 S4 et L1.C20 S6.
+
 ### A2 ter — ANCIEN ÉNONCÉ, conservé pour mémoire : qui émet, le GES ou les banques centrales nationales
 
 Le livre attribue l'émission aux banques centrales ; le Cahier E09 la réserve
@@ -5293,28 +5396,65 @@ moins de coûts et de risques » impose une identité presque impossible et
 IMMUNISE le dispositif.** **Il faut comparer des RÉSULTATS écologiques et sociaux
 définis, non les mêmes projets ni les mêmes montants.**
 
-**CONDITION DE DÉMONSTRATION, ARRÊTÉE PAR L'AUTEUR.** *NEMO IMS démontre un ajout
-propre si, pour un résultat écologique et social défini, il permet de mobiliser
-des ressources réelles que le meilleur portefeuille institutionnellement
-réalisable d'instruments existants ne peut mobiliser dans le même délai, à coût
-social total, risque macroéconomique et qualité de gouvernance comparables.*
+**CONDITION DE DÉMONSTRATION — VERSION À DEUX BRANCHES, ARRÊTÉE LE
+2026-09-12.** *NEMO IMS démontre un apport propre s'il obtient un meilleur
+résultat matériel net des ressources retirées à d'autres usages et des effets
+d'éviction, ou un résultat inaccessible au meilleur portefeuille
+effectivement construit, sans détérioration disproportionnée des quatre autres
+dimensions.* **Cette rédaction remplace l'exigence générale d'inaccessibilité,
+qu'aucune des trois voies de preuve ne pouvait établir.**
 
-**CONDITION D'ÉCHEC RÉCIPROQUE.** *Si un portefeuille réalisable d'instruments
-existants atteint le même résultat à coût et risque égaux ou inférieurs,
-l'avantage comparatif de NEMO n'est pas établi. Si NEMO ne l'atteint qu'en
-franchissant les contraintes inflationnistes, extérieures, physiques ou
-distributives, il échoue également.*
+**CONDITION D'ÉCHEC RÉCIPROQUE — VERSION À CINQ DIMENSIONS, ARRÊTÉE LE
+2026-09-12.** *Si un portefeuille institutionnellement réalisable atteint un
+résultat matériel net équivalent ou supérieur dans un délai comparable, avec un
+coût social total et des risques macroéconomiques et financiers égaux ou
+inférieurs, et une qualité de gouvernance au moins équivalente, l'avantage
+comparatif de NEMO n'est pas établi. Si NEMO ne l'atteint qu'en franchissant
+les contraintes inflationnistes, extérieures, physiques ou distributives, ou
+si le résultat disparaît après imputation des ressources déplacées, il échoue
+également.* **Cette rédaction remplace la version antérieure à trois dimensions.**
+
+**RÈGLE DE DÉFAUT, ARRÊTÉE LE 2026-09-12.** *Hors des conditions de
+démonstration et d'échec, le verdict est non concluant : l'apport propre n'est
+pas démontré, l'avantage comparatif n'est pas écarté et F10 demeure ouvert.*
+
+**SYMÉTRIE DU RÉALISABLE, RÉTABLIE LE 2026-09-12.** Les solutions comparées
+doivent être installables dans le même délai, avec un effort juridique,
+institutionnel et administratif comparable et des capacités administratives
+comparables. Ni adversaire affaibli par des obstacles que le dispositif ne
+rencontrerait pas, ni adversaire idéal qu'aucune institution ne pourrait
+assembler. **Le coût institutionnel d'établissement de NEMO IMS entre dans son
+propre délai et dans son propre coût social total.**
+
+**LES OBSTACLES JURIDIQUES SONT IMPUTÉS À LA BRANCHE QUI LES RENCONTRE.** Dans
+l'Union européenne, l'article 123 § 1 TFUE interdit certains crédits et achats
+directs au bénéfice d'entités publiques. Si une branche de NEMO emploie ce
+circuit et ces bénéficiaires, la modification du circuit ou du droit entre dans
+son délai, son effort juridique et son coût institutionnel. Cette contrainte ne
+doit être ni généralisée au monde entier, ni omise du scénario européen.
+
+**PROPORTION, PAR TRANSPOSITION DE LA FORME D'A47.** Chaque dimension est
+évaluée séparément, sans score agrégé. Les seuils sont fixés avant la
+comparaison par l'autorité démocratique après expertise pluraliste, puis
+appliqués par une qualification motivée. Les régimes sont exhaustifs, le
+verdict non concluant constituant la zone de défaut ; l'incertitude agit sur la
+procédure d'instruction et non automatiquement sur le verdict. **A47 ayant été
+arrêté pour des dossiers, cette application à des instruments est une
+transposition déclarée, non une extension silencieuse de son domaine.**
 
 **LE TEST A CHANGÉ D'OBJET.** **Il ne demande plus si le dispositif est
 NÉCESSAIRE — question qu'aucune expérience ne tranche — mais s'il a un AVANTAGE
 COMPARATIF.** **Plus faible en apparence, plus dur en pratique : il oblige à
 construire l'adversaire au lieu de le supposer absent.**
 
-**DIFFICULTÉ NON TRANCHÉE, INSCRITE AU BALAYAGE.** Le mot **« réalisable »**
-décide du résultat. **Politiquement réalisable** donne un adversaire affaibli par
-des obstacles que le dispositif rencontrerait aussi. **Techniquement possible**
-donne un adversaire que personne n'a jamais assemblé. **Le choix appartient à
-l'auteur.**
+**ARBITRAGE DU 2026-09-12 — DEUX COMPARAISONS SÉPARÉES.** La comparaison qui
+peut décider de l'apport propre porte sur le meilleur portefeuille
+**institutionnellement réalisable** dans un délai comparable, compte tenu des
+capacités juridiques, politiques, administratives et productives disponibles.
+Une seconde comparaison, **exploratoire**, porte sur le meilleur portefeuille
+techniquement possible, même s'il n'est pas aujourd'hui réalisable. Elle situe
+une frontière technique et ne suffit pas seule à déclarer NEMO superflu ou
+applicable. **La construction empirique des deux portefeuilles reste ouverte.**
 
 ### 6. LES COMPARATEURS ÉTAIENT MÉLANGÉS — ERREUR DE CATÉGORIE
 
@@ -5328,10 +5468,12 @@ cogestion, aires et territoires conservés par les communautés, revitalisation 
 savoirs, codes de conduite, consentement préalable. **Ils déterminent QUI DÉCIDE,
 QUI CONSENT, QUI CONTRÔLE.**
 
-**LEUR DEMANDER DE FINANCER EST UNE ERREUR DE CATÉGORIE.** **Ils ne sont pas des
-concurrents : ils sont une DIMENSION de la clause « qualité de gouvernance », et
-peuvent accompagner CHACUNE des solutions de financement, y compris le
-dispositif.**
+**LEUR DEMANDER DE FINANCER EST UNE ERREUR DE CATÉGORIE.** Ils peuvent
+accompagner chacune des solutions de financement, y compris le dispositif.
+**La cinquième dimension distingue désormais deux objets évalués séparément
+pour chaque solution : l'architecture de gouvernance attachée, qui ne départage
+que si elle diffère, et le risque de capture intrinsèque au mécanisme
+d'allocation, comparé mécanisme par mécanisme.**
 
 ### 7. LE SIMULATEUR NE TRANCHE PAS TOUT — TROIS VOIES DE PREUVE
 
@@ -6684,3 +6826,88 @@ la procédure d'A47, sans rouvrir son principe.** `ZONE-INTERMEDIAIRE` et
 **Et ce que le programme ne dit toujours pas** : que la doctrine soit bonne.
 Aucun seuil n'est éprouvé, aucun dossier n'est réel. **Il dit seulement qu'elle
 s'applique sans laisser de vide — ce dont il affirmait le contraire.**
+
+
+## LES DEUX BALAYAGES SORTIS DU CORPS DE L1.C09 — 2026-09-14
+
+**Décision 2 de l'auteur du 2026-09-14, sur l'architecture de reprise de
+L1.C09.** Deux sections de travail datées du 2026-09-07 étaient annexées au
+corps du chapitre, après sa portée. Un lecteur et un auditeur les lisaient comme
+du texte. Elles en sortent. Ce qui suit est leur résidu, versé pour que la passe
+suivante le trouve. **Rien n'y est instruit.**
+
+### Ce qui est passé dans le chapitre, et n'a donc pas besoin d'être repris ici
+
+**Les deux extensions de l'autorité d'octroi** sont nommées dans la portée de
+L1.C09, comme extensions relevées et non instruites. Le litige lui-même devient
+finançable [L6.C12] ; le créancier décide aussi de ce qui peut être protégé
+[L6.C07]. **Elles ne sont pas comptées comme des règles** : les deux chapitres
+qui les portent sont en brouillon. Le chapitre en garde quatre.
+
+**Le fait d'octobre 2008** est porté dans la portée de L1.C09 comme limite
+déclarée, et la dette qu'il ouvre est tenue par la pièce
+`ARGUMENT-CONTRE-UN-CHOIX`, créée au registre le 2026-09-14.
+
+### Ce qui n'est nulle part ailleurs, et qu'il faut donc conserver
+
+**LE GRADIENT DES QUATRE INSTRUMENTS** [L18.C01] [L18.C03]. La première tranche
+du dix-huitième livre documente le lexique comptable sur quatre instruments qui
+forment un gradient : **charge** — IPSAS 48, norme obligatoire ; **annexe** —
+IPSAS 51 § 12, conditionnée au contrôle ; **rapport de gestion** — directive sur
+la publication d'informations de durabilité, article 19 bis, assurance limitée
+et hors opinion d'audit ; **rapport facultatif** — RPG 1, conformité non
+requise.
+
+**LA FORME DU GRADIENT, ET ELLE EST ASYMÉTRIQUE.** Plus l'objet mesuré s'éloigne
+de ce qui se vend, plus l'instrument qui l'accueille est faible. Et le seul degré
+qui produise un enregistrement comptable produit **une charge** ; les trois
+autres produisent du texte.
+
+**CE QUE CE GRADIENT FERAIT À L1.C09 S'IL ÉTAIT INSTRUIT.** La deuxième règle du
+chapitre énonce que ce qui régénère, soigne ou transmet n'a pas d'entrée dans le
+lexique qui décide. Le gradient dirait plus : il y a des entrées, elles sont
+ordonnées, et leur force décroît avec la distance au marchand. **C'est une
+version plus forte et plus vérifiable de la même règle**, et elle n'est pas
+écrite.
+
+### Trois réserves qui commandent toute reprise
+
+**Les cinq documents de l'IPSASB et de l'IFAC ne doivent pas être ouverts.**
+Contrainte du corpus, antérieure à cette passe.
+
+**L18.C01 et L18.C03 sont en brouillon.** Tout ce qui précède est rapporté comme
+ce que ces chapitres relèvent, jamais comme un acquis du corpus.
+
+**Le gradient n'a pas été contrôlé par L1.C09.** Ni les numéros de norme, ni les
+renvois d'article, ni la qualification de l'assurance n'ont été vérifiés sur
+pièce par ce chapitre, et ils ne pouvaient pas l'être sous la contrainte
+ci-dessus.
+
+
+## LE BALAYAGE DU LIVRE 6 SORTI DU CORPS DE L1.C11 — 2026-09-14
+
+**Décision de l'auteur du 2026-09-14.** Une section de travail datée du
+2026-09-07 était annexée au corps de L1.C11, après sa portée et séparée par un
+filet. Un lecteur et un auditeur la lisaient comme du texte. Elle en sort, et
+elle est recopiée ici **mot pour mot**. C'est la même opération que celle
+conduite sur L1.C09 le 2026-09-14, où deux balayages avaient été versés à ce
+document.
+
+**Ce que la section porte, et qui n'est nulle part ailleurs :** la troisième
+malédiction aurait une **forme contractuelle observable acte par acte**, et non
+seulement macroéconomique. Réparer la dette écologique exige d'attacher une
+charge à un bien ; la charge déprécie le gage ; et le gage a un titulaire qui a
+le droit de dire non. Aucun des trois maillons ne suppose de faute.
+
+**Réserve qui commande toute reprise :** L6.C07 est en brouillon. Ce qui précède
+est rapporté comme ce que ce chapitre relève, jamais comme un acquis du corpus.
+
+### Texte intégral de la section retirée
+
+## BALAYAGE DU LIVRE 6 — 2026-09-07
+
+::etat:: **Annotation portée à la clôture de la passe 1 du Livre 6.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
+
+::hypothese:: **La troisième malédiction s'énonce en droit des biens, sur un cas** [L6.C07]. Réparer la dette écologique exige d'attacher une charge à un bien ; **la charge déprécie le gage ; et le gage a un titulaire qui a le droit de dire non.** Aucun des trois maillons ne suppose de faute.
+
+::hypothese:: **Le corpus enregistre que la malédiction n'est donc pas seulement macroéconomique : elle a une forme contractuelle, observable acte par acte**, dans le bureau d'un notaire vérifiant l'absence d'inscription hypothécaire.

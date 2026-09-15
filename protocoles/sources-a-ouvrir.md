@@ -2448,3 +2448,73 @@ allemande ont été trouvées sur Zenodo. **Non résolu.**
 **Hartwick 1977, Pearce & Atkinson 1993, Neumayer, Dietz & Neumayer, Solow 1974
 publié, Brockway 2017 et 2021** : murs déclarés et non franchis. **La liste remise
 à l'auteur tient.**
+
+
+---
+
+## Mise de côté du 2026-09-14 — une thèse sur le clearing monétaire
+
+**Déposée par l'auteur le 2026-09-14, à ne pas instruire maintenant.** Elle est
+mise de côté pour la suite, l'auteur la destinant notamment aux mécanismes de
+reflux collectifs. **Aucune lecture de fond n'a été faite** : ce qui suit est une
+identification bibliographique et deux réserves, rien de plus.
+
+### Identification
+
+| | |
+|---|---|
+| Titre | *Conservation des flux et dioïdes. Un cadre formel pour les systèmes de clearing monétaire, avec perspectives planétaires* |
+| Auteur | Lionel Grenet |
+| Nature déclarée | thèse de doctorat en informatique fondamentale et économie mathématique |
+| Date | 2026 |
+| Volume | 137 pages |
+| Licence | CC BY-SA 4.0, la même que celle du corpus |
+| Format source déclaré | LaTeX, Lean4, Python et pytest |
+| Fichier | `Documents/Codex/2026-09-14/reflux/these-planetaire.pdf` |
+| SHA-256 | `78f243837520ced46cf0adafadea4556cbeb4f93f1b5addfb2bf4da95f0c8289` |
+
+### Première réserve, sur le statut du document
+
+**La page de titre porte des marques de rédaction non résolues** : le directeur
+de thèse et le laboratoire y figurent entre crochets, non renseignés. La page de
+métadonnées indique un dépôt **prévu** sur HAL et arXiv, donc non effectué.
+**Rien n'indique une soutenance.**
+
+Ce document n'est donc pas, à cette date, une thèse soutenue ni un texte déposé.
+**Il s'apparente à un document de travail**, et le corpus doit le traiter comme
+tel, au même titre qu'il distingue ailleurs un document de travail de sa version
+publiée. Toute citation devra porter cette qualification.
+
+**Point favorable à relever, et il est rare** : le format source déclare Lean4 et
+pytest, donc des preuves vérifiées par machine et des tests. Si cela se confirme
+à la lecture, le document appartient à une catégorie que le corpus ne possède
+pas encore : une construction dont une partie est mécaniquement contrôlable.
+
+### Seconde réserve, et elle porte sur la pertinence supposée
+
+**Le mot « reflux » n'apparaît pas une seule fois dans les 137 pages.** Relevé
+mécanique. Le vocabulaire effectivement employé est celui du *clearing*,
+présent sur 70 pages, et des *dioïdes*, sur 41. « Compensation » n'apparaît que
+sur 4 pages, « extinction » sur 4 également, et ni « fonte » ni « monnaie
+fondante » ni « annulation » ne figurent.
+
+**La pertinence pour les mécanismes de reflux collectifs est donc une hypothèse
+de l'auteur, pas un fait établi sur le document.** Un système de clearing règle
+des positions réciproques entre participants ; le reflux du corpus éteint une
+émission par un prélèvement gradué. Ce sont deux opérations distinctes, et
+savoir si le formalisme de l'un éclaire l'autre est précisément ce qu'une
+lecture devra établir, non supposer.
+
+### Ce qu'il faudra faire quand le moment viendra
+
+1. Lire le chapitre d'introduction et le positionnement, pages 1 à 3, pour
+   établir ce que la thèse revendique et ce qu'elle ne revendique pas.
+2. Établir si le formalisme du clearing s'applique à une émission sans
+   contrepartie, ou seulement à des positions réciproques déjà constituées.
+3. Vérifier l'état du dépôt et de la soutenance à la date de la lecture, et
+   qualifier la source en conséquence.
+4. N'invoquer aucun résultat avant d'avoir lu le texte, et non le résumé.
+
+## Liste consolidée du 2026-09-15
+
+La liste courante de ce qui reste à télécharger par l'auteur — gratuit mais refusé aux robots, ou sous droits — est tenue dans `coordination/SOURCES_A_TELECHARGER_PAR_L_AUTEUR.md`, chapitre par chapitre, avec la décision de repli quand aucun exemplaire n'existe. Les règles de la section « Tenue de cette liste » s'y appliquent sans changement.

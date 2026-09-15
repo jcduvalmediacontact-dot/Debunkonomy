@@ -17,52 +17,62 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
-    reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 5 (« mythe de Sisyphe économique », note 54) et chapitre 6"
-    etat_lecture: a_requalifier
+    reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 5 (« mythe de Sisyphe économique », note 54) et chapitre 6 OUVERT PAR VERSEMENT depuis L1.C23 et L1.C25, sur l'exemplaire du livre déposé au dossier du jour. Exemplaire 2026-09-15/c23/S1-duval-economie-de-l-equilibre-FR-22-08-2026.pdf, 278 pages, SHA-256 444A81EF0173E37F0E02053773AD4E23074CB52914B594DD8AC3031CC3D62C84. Édition : J.-C. Duval, L'économie de l'équilibre, exemplaire de composition du 22 août 2026 fourni par l'auteur (278 pages PDF). La formule du § 1 est lue au mot ; les deux autres formules attribuées au script audio ne sont pas dans le livre, comme la vérification l'avait relevé. Passages lus sur le texte : « chaque effort pour rembourser » (page PDF 233)."
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S3
     nature: theorie
-    reference: "D. Kahneman, A. Deaton, « High income improves evaluation of life but not emotional well-being », PNAS, 107(38), p. 16489-16493, 2010"
+    reference: "D. Kahneman, A. Deaton, « High income improves evaluation of life but not emotional well-being », PNAS, 107(38), p. 16489-16493, 2010 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://europepmc.org/articles/PMC2944762). Exemplaire 2026-09-15/c14/candidats/S3-kahneman-deaton-2010-europepmc.pdf, 5 pages, SHA-256 5E65864546D7AE54BF2F5DC940CF35BD70D38C994FBFE9276EDBCF2F33162943. Édition : D. Kahneman, A. Deaton, « High income improves evaluation of life but not emotional well-being », PNAS, 107(38), p. 16489-16493, 2010, exemplaire Europe PMC PMC2944762 (5 pages). Le § 3 est porté au mot : au-delà d'environ 75 000 dollars par an, la dimension émotionnelle du bien-être ne progresse plus, tandis que l'évaluation de la vie continue de monter. Passages lus sur le texte : « no further progress beyond an annual income of » (page PDF 1) ; « satiate fully at an annual income of $75,000 » (page PDF 2)."
     url: "https://doi.org/10.1073/pnas.1011492107"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S4
     nature: theorie
-    reference: "M. A. Killingsworth, « Experienced well-being rises with income, even above $75,000 per year », PNAS, 118(4), e2016976118, 2021 ; M. A. Killingsworth, D. Kahneman, B. Mellers, « Income and emotional well-being: A conflict resolved », PNAS, 120(10), e2208661120, 2023"
-    url: "https://doi.org/10.1073/pnas.2208661120"
-    etat_lecture: a_requalifier
+    reference: "M. A. Killingsworth, « Experienced well-being rises with income, even above $75,000 per year », PNAS, 118(4), e2016976118, 2021 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://europepmc.org/articles/PMC7848527). Exemplaire 2026-09-15/c14/S4-killingsworth-2021-europepmc-PMC7848527.pdf, 6 pages, SHA-256 E7F3822AF3D428AF06B02E208F47EE220E7B55337915119151B93828BBA8D819. Édition : M. A. Killingsworth, « Experienced well-being rises with income, even above $75,000 per year », PNAS, 118(4), e2016976118, 2021, exemplaire Europe PMC PMC7848527 (6 pages). SCINDÉE le 2026-09-15, contrôle 2 d'AGENTS.md : l'article de 2023 devient S13. Ce texte porte la contestation du plateau. Passages lus sur le texte : « Experienced well-being rises with income, even above $75,000 per year » (page PDF 1)."
+    url: "https://doi.org/10.1073/pnas.2016976118"
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S5
     nature: theorie
     reference: "H. Rosa, Beschleunigung. Die Veränderung der Zeitstrukturen in der Moderne, Suhrkamp, 2005 ; trad. fr. Accélération. Une critique sociale du temps, La Découverte, 2010"
     etat_lecture: a_requalifier
-  - ref: S6
-    nature: theorie
-    reference: "R. Layard, Happiness: Lessons from a New Science, Allen Lane / Penguin, 2005 ; R. A. Easterlin, « Does Economic Growth Improve the Human Lot? », in Nations and Households in Economic Growth, Academic Press, 1974, p. 89-125"
-    etat_lecture: a_requalifier
   - ref: S7
     nature: donnees
-    reference: "PNUE, Emissions Gap Report 2025: Off Target, Nairobi, 4 novembre 2025 — 57,7 GtCO2e en 2024, en hausse de 2,3 % sur 2023 (56,2 GtCO2e après révision des séries)"
+    reference: "PNUE, Emissions Gap Report 2025: Off Target, Nairobi, 4 novembre 2025 — 57,7 GtCO2e en 2024, en hausse de 2,3 % sur 2023 (56,2 GtCO2e après révision des séries) OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15. Exemplaire 2026-09-15/c14/S7-unep-emissions-gap-report-2025.pdf, 76 pages, SHA-256 D5364C4761DF1A88A39B942A982E24C6BFE205AD49FF3ED8B2AF7A728992FF30. Édition : PNUE, Emissions Gap Report 2025: Off Target, Nairobi, novembre 2025, ISBN 978-92-807-4239-8 (76 pages, pagination imprimée = page PDF − 21 dans le corps) — même document que L1.C02 [S4] et L1.C12 [S9]. Le § 4 est porté au mot (57,7 GtCO2e en 2024, +2,3 %) ; la révision de 2023 à 56,2 GtCO2e que l'entrée signale est lue au résumé exécutif. Passages lus sur le texte : « in 2024, a 2.3 per cent increase from 2023 levels » (p. -9, page PDF 12) ; « 56,200 MtCO2e in 2023 » (p. -7, page PDF 14)."
     url: "https://www.unep.org/resources/emissions-gap-report-2025"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S8
     nature: theorie
-    reference: "T. Jackson, P. A. Victor, « Does credit create a 'growth imperative'? A quasi-stationary economy with interest-bearing debt », Ecological Economics, 120, p. 32-48, 2015"
+    reference: "T. Jackson, P. A. Victor, « Does credit create a 'growth imperative'? A quasi-stationary economy with interest-bearing debt », Ecological Economics, 120, p. 32-48, 2015 OUVERT PAR VERSEMENT depuis L1.C08 [S6], ouvert le 2026-09-11 sur le dépôt Open Research de l'Université de Surrey ; relecture pour ce chapitre le 2026-09-15. Exemplaire 2026-09-11/audit-C08/jackson-victor-wp-surrey.pdf, 35 pages, SHA-256 C0D5DA276C26C7A7A2C003F10A519D7391E94BB8871CBA65AB2A72479A3531EF. Édition : T. Jackson, P. A. Victor, « Credit creation and the 'growth imperative'. A quasi-stationary economy with debt-based money », PASSAGE Working Paper 15/01, University of Surrey, 2015 — version de travail de l'article d'Ecological Economics, 120, 2015, qui n'est pas ouvert. Même passage que L1.C08 [S6] : le § 1 en reprend le résultat sous les conditions que L1.C08 § 2 énonce. Passages lus sur le texte : « neither credit creation nor the charging of interest on debt create a » (page PDF 4)."
     url: "https://doi.org/10.1016/j.ecolecon.2015.09.009"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S9
     nature: theorie
-    reference: "M. Weber, « L'objectivité de la connaissance dans les sciences et la politique sociales », 1904, in Essais sur la théorie de la science, trad. J. Freund, Plon, 1965 (idéal-type)"
-    etat_lecture: a_requalifier
+    reference: "M. Weber, « L'objectivité de la connaissance dans les sciences et la politique sociales », 1904, in Essais sur la théorie de la science, trad. J. Freund, Plon, 1965 (idéal-type) OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15. Exemplaire 2026-09-15/c14/S9-weber-essais-theorie-science-1-uqam-miroir.pdf, 168 pages, SHA-256 A7277D545779027343715AAC86908FB462C13A98F3ABDC55DDAA1A0B7E562ACB. Édition : M. Weber, Essais sur la théorie de la science, trad. J. Freund, Plon, 1965, premier essai « L'objectivité de la connaissance dans les sciences et la politique sociales » (1904) — édition numérique de la collection Les Classiques des sciences sociales (UQAC), miroir UQAM (168 pages PDF). La définition de l'idéaltype employée au chapeau et au § 1 est lue au mot : construction obtenue en accentuant unilatéralement un ou plusieurs points de vue. Passages lus sur le texte : « on obtient un idéaltype en accentuant unilatéralement un ou plusieurs points de vue » (page PDF 141)."
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S10
     nature: theorie
-    reference: "R. M. Solow, « A Contribution to the Theory of Economic Growth », Quarterly Journal of Economics, 70(1), p. 65-94, 1956 (amortissement du capital)"
-    etat_lecture: a_requalifier
+    reference: "R. M. Solow, « A Contribution to the Theory of Economic Growth », Quarterly Journal of Economics, 70(1), p. 65-94, 1956 (amortissement du capital) OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15, sur l'exemplaire JSTOR de l'article (2026-09-15/c14/fournis/S10-solow-1956-qje-jstor-fourni.pdf, 31 pages, SHA-256 434612C48066AF90B1FD6FF29A068D52C9D49BE424611137C1CFA9298AE8950C ; folio = page du fichier plus 63, lu sur les titres courants), fourni par l'auteur depuis son navigateur le 2026-09-15 parce que JSTOR refuse le fichier aux robots. Passages lus : « A Contribution to the Theory of Economic Growth » (page PDF 1, folio 64) ; « The Quarterly Journal of Economics , Feb., 1956, Vol. 70, No. 1 (Feb., 1956), pp. 65-94 » (page PDF 1, folio 64) ; « Output is to be understood as net output after making good the depreciation of capital » (page PDF 3, folio 66) ; « the propensity to save tells us how much of net output will be saved and invested » (page PDF 5, folio 68). PRÉCISION SUR CE QUE LA SOURCE PORTE : l'amortissement du capital n'y est pas modélisé, il est POSÉ — le produit de la fonction de production est défini comme net d'amortissement, une fois pour toutes (folio 66) ; le mot ne reparaît pas dans l'article. L'énoncé du corps (le capital s'use et doit être remplacé sous n'importe quel régime monétaire) est donc appuyé comme une prémisse admise par la théorie de la croissance, non comme un résultat qu'elle démontre — nuance à porter au corps ou à assumer."
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S11
     nature: theorie
-    reference: "J. M. Buchanan, G. Tullock, The Calculus of Consent, University of Michigan Press, 1962 ; W. D. Nordhaus, « Climate Clubs: Overcoming Free-Riding in International Climate Policy », American Economic Review, 105(4), 2015"
-    etat_lecture: a_requalifier
+    reference: "W. D. Nordhaus, « Climate Clubs: Overcoming Free-Riding in International Climate Policy », American Economic Review, 105(4), p. 1339-1370, 2015 — le passager clandestin au coeur de l'échec des accords climatiques, et le club à pénalité tarifaire proposé pour y répondre. RÉDUITE AU TEXTE QUI PORTE L'ÉNONCÉ le 2026-09-15 (contrôle 2 d'AGENTS.md) : J. M. Buchanan et G. Tullock, The Calculus of Consent (1962), que l'entrée réunissait à celui-ci, est nommé sans être source. MOTIF, relevé sur leur texte et non supposé : leur modèle développe la configuration INVERSE de celle que le corps avance — ils écrivent « The minimum necessary condition is that the benefits from public activity be significantly more concentrated or localized than the costs » (page PDF 107 de l'exemplaire de l'Online Library of Liberty, 2026-09-15/c14/S11-buchanan-tullock-calculus-of-consent-oll.pdf, 270 pages, SHA-256 0D471D1206A8D5D9B18B006CD53156C20093C18B222752B8DDA05CB269CF0A6E), soit des bénéfices concentrés et des coûts diffus, quand le corps parle de bénéfices diffus et de coûts concentrés ; et l'horizon électoral court n'est traité nulle part dans l'ouvrage, l'expression time horizon y étant absente. Leur exemplaire reste au dossier. OUVERTE le 2026-09-15 sur l'exemplaire de l'American Economic Review trouvé sur le Drive de l'auteur et versé au dossier (2026-09-15/c14/fournis/S11-nordhaus-2015-climate-clubs-aer-fourni.pdf, 32 pages, SHA-256 CC37D9BB925BCEA03BF4F1A4A2D4176055F7D7E241ED8C6F2D1F56B1222AA18A). Passages lus : « Climate Clubs: Overcoming Free-riding in International Climate Policy » (page PDF 1) ; « By William Nordhaus » (page PDF 1) ; « American Economic Review 2015, 105(4): 1339 » (page PDF 1) ; « free-riding » (page PDF 1)."
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S12
     nature: theorie
     reference: "F. Modigliani, R. Brumberg, « Utility analysis and the consumption function », 1954 ; M. Friedman, A Theory of the Consumption Function, Princeton University Press, 1957 (lissage intertemporel)"
     etat_lecture: a_requalifier
+  - ref: S13
+    nature: theorie
+    reference: "M. A. Killingsworth, D. Kahneman, B. Mellers, « Income and emotional well-being: A conflict resolved », PNAS, 120(10), e2208661120, 2023 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://europepmc.org/articles/PMC10013834). Exemplaire 2026-09-15/c14/candidats/S4-killingsworth-kahneman-mellers-2023-europepmc.pdf, 6 pages, SHA-256 EEB7897CF36E637EF80176AD8C2F18017626E1C4B72250A2F7CC877E2FAA1E12. Édition : M. A. Killingsworth, D. Kahneman, B. Mellers, « Income and emotional well-being: A conflict resolved », PNAS, 120(10), e2208661120, 2023, exemplaire Europe PMC PMC10013834 (6 pages). Porte la réconciliation que le § 3 rapporte : le plateau existe pour les 20 % les moins heureux, non pour les autres. Entrée créée le 2026-09-15 par scission de S4. Passages lus sur le texte : « the flattening pattern exists but is restricted to the least happy 20% of the population » (page PDF 1)."
+    url: "https://doi.org/10.1073/pnas.2208661120"
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
 verifications_en_attente:
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S2 : texte du livre lu — « chaque effort pour rembourser ne fait que préparer la prochaine chute » (ch. 6) ; note 54 (ch. 5). Les formules « conscience tragique de l'économie moderne » et « vénération persistante de ce qui le tue » ne sont PAS dans le livre : script audio, non attribuées.
@@ -77,7 +87,7 @@ verifications_en_attente:
   # 5. § 5 : marqueur ::hypothese:: ajouté.
   # — Corrections identifiées à la conversion —
   - "CRITIQUE — Scène d'ouverture « Paris, hiver 1942, rue Vaneau » : reconstitution. Manuscrit achevé à Oran en février 1941 ; Camus n'occupe le studio de la rue Vaneau qu'à partir de 1944 (Deep Research). Retirée."
-  - "CRITIQUE — « Layard a démontré un plateau à 40 000 euros par an et par personne » : contresens. Layard raisonne sur des comparaisons entre pays (produit par habitant, ordre de 20 000 $), non sur un seuil individuel [S6] ; le seuil de 75 000 $ est celui de Kahneman et Deaton [S3], contesté puis réconcilié [S4]. Le chapitre cite l'état de la question, non un seuil."
+  - "CRITIQUE — « Layard a démontré un plateau à 40 000 euros par an et par personne » : contresens. Layard raisonne sur des comparaisons entre pays (produit par habitant, ordre de 20 000 $), non sur un seuil individuel ; le seuil de 75 000 $ est celui de Kahneman et Deaton [S3], contesté puis réconcilié [S4]. Le chapitre cite l'état de la question, non un seuil."
   - "CRITIQUE — « la sociologue Hartmut Rosa » : sociologue allemand (homme), né en 1965. Corrigé."
   - "Les trois personnages sont des idéaux-types au sens de Weber [S9] : construits par accentuation de traits, non des cas documentés. Les chiffres qui les accompagnent sont des ordres de grandeur plausibles, non des données."
   # — Objections acceptées comme limites, mentionnées dans le texte —
@@ -88,7 +98,7 @@ verifications_en_attente:
   - "« Les indices boursiers battent des records, les grandes fortunes prospèrent » (§ 5) : non sourcé. Sourcer (indices MSCI World ou S&P 500 ; rapports UBS ou Oxfam sur les patrimoines) ou retirer. Le point est déjà établi en L1.C02 avec ses propres vérifications."
   - "Jebb et al., « Happiness, income satiation and turning points around the world », Nature Human Behaviour, 2(1), p. 33-38, 2018 : source des méta-analyses de seuils par région, à ajouter si le chapitre développe la question."
   # — Sources non ouvertes par un humain —
-  - "S1, S5, S6, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé."
+  - "S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé."
   # — Cohérence interne —
   - "COHÉRENCE — Le § 1 reprend L1.C08 § 2 sous ses conditions ; ne rien y ajouter. Vérifier après révision de L1.C08 que les deux formulations restent identiques."
   - "COHÉRENCE — Le chapitre annonce L1.C15 et reprend essentiel_insolvable (L1.C06)."
@@ -96,14 +106,15 @@ verifications_en_attente:
   # — Renvois —
   - "Renvoi à ajouter vers L1.C15 (« L'essentiel insolvable ») quand il existera"
   - "Renvoi à ajouter vers L1.C17 (seconde partie du livre) quand il existera"
+  - "Sourcer ou retirer la clause du paragraphe sur les blocages d'économie politique : « les bénéfices d'une politique climatique sont diffus et différés, ses coûts concentrés et immédiats, ce qui défavorise structurellement les mandats courts ». Elle était adossée à S11 avec Nordhaus ; la réduction de S11 du 2026-09-15 la laisse sans appui ouvert, Buchanan et Tullock développant la configuration inverse. Le passager clandestin, lui, est porté par Nordhaus."
 resume: "Les trois malédictions monétaires, prises ensemble, produisent une trajectoire que le livre nomme le mythe de Sisyphe économique : un effort renouvelé sans terme, où chaque cycle ramène au point de départ. Ce chapitre expose la figure et en délimite strictement la portée. La contrainte de croissance n'est pas arithmétique — une économie stationnaire endettée est possible si les revenus d'intérêts sont redépensés ; elle tient à leur accumulation et à la croissance de l'encours. Et la figure ne s'applique qu'à ce que le régime monétaire ajoute : l'usure du capital est physique, la saturation du revenu est psychologique, les blocages de la décision publique relèvent d'économie politique — le chapitre isole dans chaque cas la part monétaire au lieu de tout lui attribuer. Trois idéaux-types en donnent la forme vécue, avec trois traits communs : lucidité, impuissance à sortir seul, répétition sans terme. À la différence du mythe, la contrainte est architecturale, donc modifiable."
 concepts: [sisyphe_economique, malediction_monetaire, reflux_monetaire, solvabilite_anticipee, essentiel_insolvable]
-renvois: [L1.C06, L1.C08, L1.C11, L1.C12, L1.C13]
+renvois: [L1.C02, L1.C06, L1.C08, L1.C11, L1.C12, L1.C13, L1.C15, L1.C17]
 ---
 
 # La dette, un mythe de Sisyphe économique
 
-Ce chapitre ne démontre pas un mécanisme nouveau ; il donne une figure à ceux que les trois chapitres précédents ont établis, et il délimite avec soin ce que cette figure peut et ne peut pas expliquer. La proposition : le régime d'émission actuel impose aux acteurs un effort renouvelé sans terme — croître pour tenir, courir pour rester en place, compromettre pour gouverner —, dont chaque cycle ramène au point de départ ; le livre nomme cette trajectoire le mythe de Sisyphe économique [S2]. La délimitation, qui occupe une bonne part du chapitre : la figure est interprétative ; les acteurs qui l'illustrent sont des idéaux-types au sens de Weber [S9], non des cas documentés ; et surtout, chacune des situations décrites a des causes qui ne sont pas monétaires — le chapitre isole à chaque fois ce que le régime monétaire y ajoute, plutôt que de tout lui attribuer.
+Ce chapitre ne démontre pas un mécanisme nouveau ; il donne une figure à ceux que les trois chapitres précédents (L1.C11, L1.C12, L1.C13) ont établis, et il délimite avec soin ce que cette figure peut et ne peut pas expliquer. La proposition : le régime d'émission actuel impose aux acteurs un effort renouvelé sans terme — croître pour tenir, courir pour rester en place, compromettre pour gouverner —, dont chaque cycle ramène au point de départ ; le livre nomme cette trajectoire le mythe de Sisyphe économique [S2]. La délimitation, qui occupe une bonne part du chapitre : la figure est interprétative ; les acteurs qui l'illustrent sont des idéaux-types au sens de Weber [S9], non des cas documentés ; et surtout, chacune des situations décrites a des causes qui ne sont pas monétaires — le chapitre isole à chaque fois ce que le régime monétaire y ajoute, plutôt que de tout lui attribuer.
 
 ## 1. Le mythe et sa transposition
 
@@ -129,7 +140,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 (*Image : Julien, trente-huit ans, informaticien, bien payé, quarante-six heures par semaine, des week-ends grignotés, trois dîners manqués avec ses enfants cette semaine. Il progresse : plus de revenu qu'il y a cinq ans, une maison plus grande, une meilleure école. Objectivement, son niveau de vie a monté ; subjectivement, il n'est pas plus tranquille.*)
 
-::etat:: Deux mécanismes distincts se croisent ici, et le chapitre les sépare. Le premier est psychologique et n'a rien de monétaire : au-delà d'un certain revenu, le bien-être ressenti au quotidien progresse peu, même quand l'évaluation que l'on fait de sa vie continue de monter — c'est le résultat de Kahneman et Deaton [S3], que Killingsworth a contesté avant que les trois auteurs ne le réconcilient : le plafond existe pour les moins heureux, non pour les autres [S4]. Cette saturation relève de l'adaptation hédonique et de la comparaison sociale ; elle vaudrait sous tout régime monétaire, et les travaux cités ne disent rien du crédit. Le second est un arbitrage rationnel : s'endetter pour lisser sa consommation sur le cycle de vie est un comportement que la théorie économique explique sans piège ni contrainte [S12].
+::etat:: Deux mécanismes distincts se croisent ici, et le chapitre les sépare. Le premier est psychologique et n'a rien de monétaire : au-delà d'un certain revenu, le bien-être ressenti au quotidien progresse peu, même quand l'évaluation que l'on fait de sa vie continue de monter — c'est le résultat de Kahneman et Deaton [S3], que Killingsworth a contesté avant que les trois auteurs ne le réconcilient : le plafond existe pour les moins heureux, non pour les autres [S4] [S13]. Cette saturation relève de l'adaptation hédonique et de la comparaison sociale ; elle vaudrait sous tout régime monétaire, et les travaux cités ne disent rien du crédit. Le second est un arbitrage rationnel : s'endetter pour lisser sa consommation sur le cycle de vie est un comportement que la théorie économique explique sans piège ni contrainte [S12].
 
 ::hypothese:: Ce que le régime ajoute, là encore, est plus étroit. L'engagement de crédit — immobilier surtout — transforme une préférence en obligation datée : il faut, chaque mois, un revenu au moins égal, dans un contexte où les prix des actifs financés par le crédit montent avec le crédit disponible. La saturation du bien-être et l'obligation de revenu se conjuguent alors : le revenu supplémentaire achète peu de sérénité, et il devient néanmoins nécessaire. C'est cette conjonction, non la saturation seule, qui fait la figure. Rosa a nommé accélération sociale cette course où nul ne peut ralentir sans être distancé, et montré que la stabilité des sociétés tardives suppose désormais une accélération permanente [S5].
 
@@ -157,6 +168,6 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 ## 6. Portée
 
-Le chapitre a donné une figure aux trois malédictions, et il a fait le partage que la figure seule ne fait pas : dans chaque situation, une part relève de contraintes physiques, psychologiques ou politiques qu'aucun régime monétaire ne supprime, et une part relève du régime d'émission — l'excédent exigé au-delà du remplacement, l'obligation de revenu attachée au crédit, la contrainte budgétaire du service de la dette. C'est cette seconde part, et elle seule, que la suite du livre entreprend de lever.
+Le chapitre a donné une figure aux trois malédictions, et il a fait le partage que la figure seule ne fait pas : dans chaque situation, une part relève de contraintes physiques, psychologiques ou politiques qu'aucun régime monétaire ne supprime, et une part relève du régime d'émission — l'excédent exigé au-delà du remplacement, l'obligation de revenu attachée au crédit, la contrainte budgétaire du service de la dette. C'est cette seconde part, et elle seule, que la suite du livre (L1.C17) entreprend de lever.
 
-Il reste à nommer ce que ce régime ne peut ni voir ni financer : les sols vivants, les forêts anciennes, les océans en bonne santé, mais aussi les aidants, les gardiens des communs, les transmetteurs de culture, les chercheurs fondamentaux. Le corpus la nomme, depuis L1.C06, l'essentiel insolvable. Le chapitre suivant montre pourquoi cette insolvabilité n'est pas un oubli à corriger, mais une conséquence directe de ce que la solvabilité veut dire.
+Il reste à nommer ce que ce régime ne peut ni voir ni financer : les sols vivants, les forêts anciennes, les océans en bonne santé, mais aussi les aidants, les gardiens des communs, les transmetteurs de culture, les chercheurs fondamentaux. Le corpus la nomme, depuis L1.C06, l'essentiel insolvable. Le chapitre suivant (L1.C15) montre pourquoi cette insolvabilité n'est pas un oubli à corriger, mais une conséquence directe de ce que la solvabilité veut dire.

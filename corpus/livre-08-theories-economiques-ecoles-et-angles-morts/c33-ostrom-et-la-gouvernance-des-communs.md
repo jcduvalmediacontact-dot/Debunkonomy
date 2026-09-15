@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -99,7 +99,7 @@ renvois: [L1.C15, L1.C18, L1.C22, L1.C27, L8.C01, L8.C29, L11.C11, L11.C13, L11.
 
 ::etat:: **Le corpus maintient une limite qu'il avait établie et qu'il n'a jamais eu à réviser** [S4]. Le financement documenté des institutions communautaires est **le plus souvent non monétaire** — travail, mutualisation, cotisations des usagers, dans les cas des huertas espagnoles et des zanjeras philippines — **et il mobilise les ressources de la communauté elle-même.**
 
-::hypothese:: **Il règle l'entretien d'un support dont les usagers ont l'usage et les moyens ; il ne procure pas de quoi restaurer un milieu dont la réparation excède ce qu'ils peuvent fournir.** C'est précisément le cas que le dispositif vise — l'essentiel insolvable, dont L1.C15 établit qu'il n'est financé par personne. **La tradition qui fournit la meilleure objection à la centralisation ne fournit pas de solution de financement à sa place.**
+::hypothese:: **Il règle l'entretien d'un support dont les usagers ont l'usage et les moyens ; il ne procure pas de quoi restaurer un milieu dont la réparation excède ce qu'ils peuvent fournir.** C'est un cas candidat à la catégorie de l'essentiel insolvable définie par L1.C15. **L1.C15 n'établit ni qu'il n'est financé par personne, ni qu'aucun mécanisme concurrent ne peut le financer.** La portée du financement communautaire documenté ici reste limitée aux ressources que la communauté peut effectivement mobiliser.
 
 ## 5. MANQUEMENT — et le corpus déclare que la passe 1 ne le comble pas
 

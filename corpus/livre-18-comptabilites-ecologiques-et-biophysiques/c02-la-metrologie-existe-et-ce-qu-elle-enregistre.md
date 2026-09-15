@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -80,7 +80,7 @@ renvois: [L1.C09, L1.C15, L1.C18, L6.C06, L11.C03, L11.C07, L11.C13, L11.C16, L1
 
 ::etat:: **§ 1.9** : la mesure de la valeur économique des bénéfices sociaux plus larges, « while important, **exceeds the scope of SEEA EA** ».
 
-::hypothese:: **Le corpus enregistre que l'exclusion est systématique et orientée.** **Une contrepartie mesurée ainsi est SOUS-ÉVALUÉE par rapport à ce que le corpus dit qu'elle vaut**, et l'écart n'est pas un bruit mais une décision de périmètre. **L1.C15 avait établi que l'essentiel est insolvable ; le SEEA en donne la version comptable : ce qui n'a pas de contrepartie révélée sort du compte.**
+::hypothese:: **Le corpus enregistre que l'exclusion est systématique et orientée.** **Une contrepartie mesurée ainsi est SOUS-ÉVALUÉE par rapport à ce que le corpus dit qu'elle vaut**, et l'écart n'est pas un bruit mais une décision de périmètre. **L1.C15 définit une catégorie prospective d'activités essentielles dont les flux propres échouent à au moins une condition nécessaire au financement autonome par le crédit, sans établir que l'essentiel est généralement insolvable ; le SEEA fournit ici un cas de périmètre comptable à confronter à cette catégorie.**
 
 ## 4. Deux usages que le SEEA nomme, et ils servent le barème, non le bilan
 

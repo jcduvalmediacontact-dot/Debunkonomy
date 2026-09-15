@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-11
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -198,7 +198,7 @@ Le chimiste britannique Frederick Soddy, prix Nobel de chimie en 1921, a formul�
 
 Le régime décrit au § 1 ne crée pas la monnaie pour n'importe quel usage. Une banque décide d'abord combien elle prête selon les occasions de prêt rentables qui s'offrent à elle [S1] ; le crédit est accordé contre une anticipation de remboursement ou contre des garanties, et le corpus nomme solvabilité anticipée ce critère d'octroi. Il en résulte une sélection des usages, indépendante de leur utilité, dont cette section donne la forme logique.
 
-::norme:: Soit E le fait qu'un besoin est essentiel selon un critère défini indépendamment de NEMO IMS ; M le fait que l'action produit un flux monétaire ; C le fait que ce flux peut être capté par celui qui finance ; T le fait qu'il intervient dans l'horizon compatible avec le crédit ; A le fait qu'il conserve une valeur suffisante après actualisation et prise en compte du risque. La solvabilité conventionnelle est la conjonction M ∧ C ∧ T ∧ A. L'essentiel insolvable est E ∧ (¬M ∨ ¬C ∨ ¬T ∨ ¬A) : il suffit qu'une seule des quatre conditions financières manque. L1.C15 donne l'anatomie de ces conditions et leurs sources ; L1.C06 et L1.C15 posent les critères du caractère essentiel. Cette définition est une décision du corpus, non un état de la littérature.
+::norme:: Soit E le fait qu'un besoin est essentiel selon un critère défini indépendamment de NEMO IMS ; M le fait que l'action produit un flux monétaire ; C le fait que ce flux peut être capté par celui qui finance ; T le fait qu'il intervient dans l'horizon compatible avec le crédit ; A le fait qu'il conserve une valeur suffisante après actualisation et prise en compte du risque. La solvabilité conventionnelle est la conjonction M ∧ C ∧ T ∧ A. L'essentiel insolvable est E ∧ (¬M ∨ ¬C ∨ ¬T ∨ ¬A) : il suffit qu'une seule des quatre conditions financières manque. Le critère du caractère essentiel est arrêté à titre provisoire par l’auteur le 2026-09-13 ; L1.C15 en donne l’anatomie avec les quatre conditions financières ; ses critères sectoriels ne sont pas encore fixés.
 
 ::etat:: La forme ¬M est décrite, indépendamment du corpus, par la thèse institutionnaliste du § 3 : « Prenons le cas d'un investissement vert qui ne génère pas, ou peu, de recettes supplémentaires » ; dans le régime de crédit, « l'investissement ne peut alors se faire, sauf s'il est subventionné » [S20].
 

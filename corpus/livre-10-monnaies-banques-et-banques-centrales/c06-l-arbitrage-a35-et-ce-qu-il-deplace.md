@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-09
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: conception
@@ -122,7 +122,7 @@ renvois: [L1.C15, L1.C20, L1.C29, L10.C01, L10.C02, L10.C04, L10.C05, L11.C05, L
 
 ::hypothese:: **Si la charge est modulée par la décision de chacun, la dette est collective PAR SA CAUSE et individuelle PAR SON INCIDENCE.** **Ce n'est pas une contradiction : c'est la structure d'un impôt pigouvien**, dont l'assiette est un comportement et le motif un dommage commun. **Mais la formule « portée par l'ensemble de la société » décrit le motif, non le porteur.**
 
-::etat:: **Le corpus enregistre que L11.C09 tient l'incidence et que ce chapitre lui renvoie la question** : **qui paie effectivement une fonte graduée sur l'impact**, une fois la répercussion prise en compte. **L1.C15 a établi que l'essentiel est insolvable ; l'arbitrage invoque ce résultat comme motif, et il faut vérifier qu'il ne le reproduit pas dans l'assiette.**
+::etat:: **Le corpus enregistre que L11.C09 tient l'incidence et que ce chapitre lui renvoie la question** : **qui paie effectivement une fonte graduée sur l'impact**, une fois la répercussion prise en compte. **L1.C15 définit une catégorie prospective d'essentiel insolvable, sans en établir l'ampleur ni l'absence d'autres financements ; l'arbitrage invoque cette catégorie comme motif, et il faut vérifier qu'il ne reproduit pas son filtre dans l'assiette.**
 
 ## 5. Ce que l'arbitrage laisse ouvert au passif
 

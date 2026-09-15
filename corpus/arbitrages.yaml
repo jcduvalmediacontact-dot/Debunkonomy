@@ -49,6 +49,7 @@ arbitrages:
     objet: "Qualification juridique de l'unité émise"
     statut: oriente
     tranche_par: auteur
+    lie_a: ["EXCEDENT-DU-SYMPOSIUM"]
     decision: "Un mécanisme est versé ; le point bloquant est levé, la qualification ne l'est pas."
     texte: protocoles/passe-2.md
     maj: 2026-09-08
@@ -115,7 +116,7 @@ arbitrages:
     objet: "Nature, exigibilité, contrepartie et extinction du passif"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [A35]
+    lie_a: [A35, TEST-APPORT-PROPRE]
     decision: >
       OUVERT. Deux versions de la matrice ont prétendu le resserrer, et
       l'auteur les a réfutées le 2026-09-09. La version 3 rend CINQ RÉSULTATS
@@ -147,7 +148,7 @@ arbitrages:
     objet: "Décider sous incertitude"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION, QUALIFICATION-DU-RISQUE, ZONE-INTERMEDIAIRE, USAGE-DES-INCERTITUDES, CALIBRATION-SUR-CAS-REELS]
+    lie_a: [A46, VETO-SCIENTIFIQUE-PLURALISTE, REGLE-D-EMISSION, QUALIFICATION-DU-RISQUE, ZONE-INTERMEDIAIRE, USAGE-DES-INCERTITUDES, CALIBRATION-SUR-CAS-REELS, TEST-APPORT-PROPRE, CRITERE-ESSENTIALITE]
     decision: >
       VALIDÉ PAR L'AUTEUR LE 2026-09-09. Évaluation SÉPARÉE de la gravité,
       l'étendue, la PROBABILITÉ, la réversibilité, la CONFIANCE dans
@@ -158,7 +159,25 @@ arbitrages:
       L'INCERTITUDE AGIT SUR LA PROCÉDURE D'INSTRUCTION, jamais
       automatiquement sur le régime.
     texte: protocoles/passe-2.md
+    chapitres: [L1.C31, L1.C15]
     maj: 2026-09-09
+
+  - id: CRITERE-ESSENTIALITE
+    objet: "Critère provisoire du caractère essentiel"
+    statut: arbitre
+    tranche_par: auteur
+    lie_a: [A47, OPERATIONNALISATION-INSOLVABLE, F10]
+    decision: >
+      ARBITRÉ PAR L'AUTEUR LE 2026-09-13. E exige une réponse réalisable,
+      efficace et proportionnée à un besoin essentiel, comparée aux réponses
+      techniques connues indépendamment du financement, dans les limites
+      écologiques. Urgence humaine vitale sans réponse immédiatement compatible :
+      continuité minimale et temporaire de la réponse la moins dommageable
+      pendant l'instruction et la construction d'une solution compatible, sans
+      qualifier l'activité E ni ouvrir d'éligibilité durable. Seuils ouverts.
+    texte: protocoles/arbitrage-auteur-L1-C15-2026-09-13.md
+    chapitres: [L1.C15, L1.C08]
+    maj: 2026-09-13
 
   - id: A46
     objet: "La séparation des cinq pouvoirs de l'émission"
@@ -198,7 +217,7 @@ arbitrages:
     objet: "Ce que NEMO IMS promet, et ce qu'il ne peut pas promettre"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE, REGIME-NEGATIF]
+    lie_a: [A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE, REGIME-NEGATIF, TEST-APPORT-PROPRE]
     decision: >
       ARBITRÉ LE 2026-09-09 — RESTRICTION. NEMO IMS NE GARANTIT PAS LES
       CONDITIONS DE LA VIE : aucune institution monétaire ne contrôle seule
@@ -215,19 +234,36 @@ arbitrages:
     objet: "Les trois composantes réunies sous le nom NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A37, A44]
+    lie_a: [A37, A44, "EXCEDENT-DU-SYMPOSIUM"]
     decision: >
       ARBITRÉ LE 2026-09-09 : TROIS propositions de maturité inégale sont
       réunies sous un seul nom. (1) FINANCEMENT CIBLÉ — pilotable sous fortes
       limites. (2) UNITÉ DE RÉSERVE entre banques centrales — plausible, à
       finaliser en comptabilité et en droit. (3) EXCHANGE STANDARD à parités
-      fixes — NON APPLICABLE. Seule la deuxième est expérimentable, adossée à
+      fixes — NON APPLICABLE. Seule la deuxième est expérimentable, soumise à
       des seuils non compensables et complétée par des politiques de
       substitution. Le remplacement mondial du système monétaire n'est pas
       applicable.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31, L19.C10]
     maj: 2026-09-09
+
+  - id: TEST-APPORT-PROPRE
+    objet: "Test de l'apport propre de NEMO IMS"
+    statut: arbitre
+    tranche_par: auteur
+    lie_a: [A35b, A44, A47, F10, F13, PORTEFEUILLE-COMPARAISON]
+    decision: >
+      ARBITRÉ LE 2026-09-12. Apport si NEMO obtient un meilleur résultat matériel
+      net après imputation des ressources déplacées,
+      ou un résultat inaccessible au meilleur portefeuille construit, sans
+      détérioration disproportionnée. Comparaison symétrique des délais, efforts,
+      capacités, coûts, risques et gouvernance, coût d'établissement de NEMO
+      inclus. Sinon verdict non concluant et F10 ouvert. Dimensions séparées,
+      seuils fixés d'avance après expertise pluraliste et décision démocratique.
+    texte: protocoles/architecture-L1-C31.md
+    chapitres: [L1.C31, L1.C08]
+    maj: 2026-09-13
 
   - id: A37
     objet: "Forme juridique de l'institution émettrice"
@@ -243,7 +279,7 @@ arbitrages:
       modèle, non une hypothèse figée.
     texte: protocoles/passe-2.md
     chapitres: [L20.C24, L20.C25, L20.C26, L13.C01]
-    maj: 2026-09-09
+    maj: 2026-09-12
     acquisition_bloquante: >
       L'ANNEXE J des statuts du Fonds — voies automatisées épuisées, récupération
       manuelle. ET les articles du COMPTE DE TIRAGES SPÉCIAUX en vigueur,
@@ -302,6 +338,15 @@ arbitrages:
     chapitres: [L12.C01, L18.C19, L18.C20]
     maj: 2026-09-08
 
+  - id: EXCEDENT-DU-SYMPOSIUM
+    objet: "Ce que le Symposium fait de ce qu'il accumule"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: ["A30", "A43"]
+    decision: "OUVERT puis ORIENTE LE 2026-09-15. Le reflux etant retenu et non annule (A2 bis), le Symposium percevra plus de reflux qu'il n'a emis. DEUX PARTS TRANCHEES : les moyens de fonctionnement viennent de ce reflux, sous dotation NON PROPORTIONNELLE a son rendement ; et le sort du solde est fixe par une FORMULE d'affectation publiee, votee par l'Assemblee des Communs et appliquee par le Conseil Monetaire Mondial (L1.C18). RESTE OUVERT : le CONTENU de la formule, dont depend le statut sans dette."
+    texte: protocoles/passe-2.md
+    chapitres: ["L1.C18", "L1.C20", "L1.C21", "L1.C22"]
+    maj: 2026-09-15
 falsifieurs:
   - id: F1
     objet: "La calibration"
@@ -400,7 +445,7 @@ falsifieurs:
     objet: "La superfluité"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [OPERATIONNALISATION-INSOLVABLE]
+    lie_a: [OPERATIONNALISATION-INSOLVABLE, TEST-APPORT-PROPRE, PORTEFEUILLE-COMPARAISON, CRITERE-ESSENTIALITE]
     decision: >
       DÉPLACÉ TROIS FOIS : ce que le dispositif doit justifier n'est pas le
       barème mais son AJOUT PROPRE. L'argument est écrit le 2026-09-09
@@ -411,10 +456,13 @@ falsifieurs:
       n'a jamais été construit, pour aucun instrument.
     texte: protocoles/falsification.md
     chapitres: [L1.C31, L18.C15, L18.C19, L18.C26, L18.C27, L18.C29, L18.C30, L24.C07]
-    maj: 2026-09-09
+    maj: 2026-09-12
     acquisition_bloquante: >
-      La littérature de la cogestion elle-même, si l'auteur veut une comparaison
-      qui décide : le corpus n'en tient que l'évaluation qui la classe.
+      Construire sur données comparables les portefeuilles concurrents : budgets
+      et investissements publics, fiscalité, crédit dirigé, banques publiques,
+      garanties, achats d'actifs, transferts ou allocations internationaux,
+      restructurations de dette, réglementation et plafonds ; mesurer résultat,
+      délai, coût social, risques et gouvernance.
 
   - id: F11
     objet: "La contrainte physique"
@@ -441,7 +489,7 @@ falsifieurs:
     objet: "L'incommensurabilité — la soutenabilité faible"
     statut: oriente
     tranche_par: auteur
-    lie_a: [CRITERE-L25, VETO-AGREGATION]
+    lie_a: [CRITERE-L25, VETO-AGREGATION, TEST-APPORT-PROPRE]
     decision: >
       ARBITRÉ DANS SA RÉPONSE LE 2026-09-09 : renoncer au SCORE MONDIAL UNIQUE,
       employer PLUSIEURS SEUILS NON COMPENSABLES, assumer que la pondération est
@@ -451,7 +499,7 @@ falsifieurs:
       macroéconomique. F13 RESTE OUVERT : le pas de la décision au montant est
       désormais nommé, il n'est pas franchi.
     texte: protocoles/falsification.md
-    chapitres: [L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
+    chapitres: [L1.C31, L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
     maj: 2026-09-09
     acquisition_bloquante: >
       Estimation de l'élasticité de substitution portant sur LES RESSOURCES en
@@ -784,7 +832,7 @@ pieces_de_conception_manquantes:
     objet: "Comment éprouver le concept d'essentiel insolvable"
     statut: oriente
     tranche_par: auteur
-    lie_a: [F10]
+    lie_a: [F10, PORTEFEUILLE-COMPARAISON, CRITERE-ESSENTIALITE, OPERATIONNALISATION-BULLSHITNOVATION]
     decision: >
       COMMANDE DE CONCEPTION OUVERTE : L'INSCRIPTION NE VAUT PAS VALIDATION.
       Cinq critères arrêtés le 2026-09-09 : non-circularité, démarcation,
@@ -797,11 +845,29 @@ pieces_de_conception_manquantes:
     chapitres: [L1.C06, L1.C15, L1.C31]
     maj: 2026-09-09
 
+  - id: PORTEFEUILLE-COMPARAISON
+    objet: "Construction des portefeuilles concurrents de NEMO IMS"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [TEST-APPORT-PROPRE, F10, OPERATIONNALISATION-INSOLVABLE]
+    decision: >
+      PRINCIPE DE COMPARAISON ARRÊTÉ, CONSTRUCTION OUVERTE. Produire séparément
+      le meilleur portefeuille institutionnellement réalisable et le meilleur
+      portefeuille techniquement possible. Le premier peut décider du test ;
+      le second est exploratoire. Aucun portefeuille n'est encore construit.
+    texte: protocoles/architecture-L1-C31.md
+    chapitres: [L1.C31]
+    maj: 2026-09-12
+    acquisition_bloquante: >
+      Données comparables sur capacités mobilisées, délais, coût social total,
+      risques macroéconomiques et financiers et gouvernance pour chaque famille
+      d'instruments, sur un même résultat écologique et social.
+
   - id: MODELE-ADVERSAIRE
     objet: "Qui gagne quoi à falsifier une qualification régénérative"
     statut: ouvert
     tranche_par: non-tranche
-    lie_a: [MESURE-EXTERIEURE]
+    lie_a: [MESURE-EXTERIEURE, OPERATIONNALISATION-BULLSHITNOVATION]
     decision: >
       TROIS familles de défaillance et non une. La FRAUDE — quatre architectures
       documentées, aucune n'attaquant la grandeur écologique. Le PASSAGER
@@ -837,3 +903,45 @@ pieces_de_conception_manquantes:
       Une évaluation de l'efficacité des encadrements du crédit (Banque de
       France, Monnet 2018 ; Banque populaire de Chine), que Deyris cite sans
       mesurer ; et une mesure des flux de financement dégénératifs hors carbone.
+  - id: ARGUMENT-CONTRE-UN-CHOIX
+    objet: "L'argument qui manque contre un choix de normalisation délibéré"
+    statut: ouvert
+    tranche_par: non-tranche
+    decision: >
+      OUVERT LE 2026-09-14. En octobre 2008, l'organisme de normalisation
+      comptable a écarté la soutenabilité de long terme après consultation, une
+      large majorité de répondants convenant que les états financiers ne peuvent
+      pas porter cette information. Sur ce point, l'invisibilité résulte d'un
+      CHOIX et non d'une incapacité. Une objection contre une incapacité se
+      traite par une méthode ; une objection contre un choix se traite par un
+      ARGUMENT, et le corpus n'en a produit aucun.
+    texte: protocoles/arbitrage-auteur-L1-C09-2026-09-14.md
+    chapitres: [L1.C09, L18.C01, L18.C03]
+    maj: 2026-09-14
+    acquisition_bloquante: >
+      Aucune acquisition documentaire. Les cinq documents de cet organisme ne
+      doivent pas être ouverts. Le fait est rapporté par L18.C01 et L18.C03,
+      tous deux brouillon : il ne vaut pas comme acquis tant qu'ils ne sont pas
+      vérifiés.
+
+  - id: OPERATIONNALISATION-BULLSHITNOVATION
+    objet: "Le gabarit de la bullshitnovation n'est ni calibré ni éprouvé"
+    statut: ouvert
+    tranche_par: non-tranche
+    lie_a: [OPERATIONNALISATION-INSOLVABLE, MODELE-ADVERSAIRE]
+    decision: >
+      OUVERT LE 2026-09-15 PAR L'AUTEUR (L1.C16 à verifie). Le gabarit ne rend
+      aucun verdict tant que six paramètres ne sont pas fixés — unité, problème de
+      référence, résultat attendu, seuil d'effet, horizon, contrefactuel — ni tant
+      que des évaluateurs indépendants n'ont pas classé des cas de façon
+      concordante. DEUX TÂCHES : CONCEPTION, fixer les paramètres ; ENQUÊTE,
+      constituer des cas et appliquer la grille indépendamment avant toute
+      estimation d'ampleur. La catégorie est définie, non appliquée.
+    texte: protocoles/verifications-soldees-L1-C16.md
+    chapitres: [L1.C16, L1.C31]
+    maj: 2026-09-15
+    acquisition_bloquante: >
+      Aucune acquisition documentaire : un protocole de classement et des cas
+      constitués, à produire. Le coût d'un gabarit à six paramètres par dossier, à
+      l'échelle d'un système d'allocation du crédit, n'est pas établi (L1.C16 §
+      8).

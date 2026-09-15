@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: conception
@@ -114,7 +114,7 @@ renvois: [L1.C15, L1.C21, L1.C29, L11.C01, L11.C02, L11.C03, L11.C07, L11.C10, L
 
 ::hypothese:: **Ce n'est pas un défaut de réglage et aucun taux ne le corrige.** On ne peut pas relâcher le reflux en bas de cycle pour soutenir l'émission : c'est l'émission qui dépend du reflux, et non l'inverse. **Relâcher le reflux réduit l'enveloppe une seconde fois.**
 
-::hypothese:: **Et cela heurte la fonction que le livre assigne au dispositif.** L1.C15 établit que l'essentiel insolvable est ce que le marché ne finance pas ; **un dispositif dont la capacité de financement se contracte avec l'économie ne finance pas l'essentiel insolvable au moment où il est le plus insolvable.** Le corpus n'en conclut pas que le dispositif est inutile — il conclut que **sa capacité anticyclique de financement est l'inverse de ce que sa présentation laisse attendre.**
+::hypothese:: **Et cela heurte la fonction que le livre assigne au dispositif.** L1.C15 définit une catégorie étroite d'activités essentielles dont les flux propres échouent à au moins une condition nécessaire au financement autonome par le crédit ; il ne la réduit ni à ce que le marché ne finance pas, ni à l'absence de tout financement. **Un dispositif dont la capacité se contracte avec l'économie risque donc de moins financer ces activités au moment où les autres canaux se contractent aussi — ce dernier mouvement reste à mesurer.** Le corpus n'en conclut pas que le dispositif est inutile — il conclut que **sa capacité anticyclique de financement peut être l'inverse de ce que sa présentation laisse attendre.**
 
 ## 5. La seule sortie connue rouvre une promesse bloquante
 

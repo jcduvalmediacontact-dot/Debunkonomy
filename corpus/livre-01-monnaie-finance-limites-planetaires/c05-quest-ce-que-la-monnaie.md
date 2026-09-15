@@ -13,12 +13,15 @@ regime: hybride
 sources_primaires:
   - ref: S1
     nature: theorie
-    reference: "W. H. Furness III, The Island of Stone Money: Uap of the Carolines, 1910"
-    etat_lecture: a_requalifier
+    reference: "W. H. Furness III, The Island of Stone Money: Uap of the Carolines, 1910 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://archive.org/details/cu31924023500543). Exemplaire c05/S1-furness1910-archive-cu31924023500543.pdf, 342 pages, SHA-256 EEF7B6F9DFB20A4DA79EDE7BDC677A765134E867F0309A9096A85AC4D9BF06E7. Édition : W. H. Furness III, The Island of Stone Money: Uap of the Carolines, Philadelphie et Londres, J. B. Lippincott, 1910, numérisation de la bibliothèque de l'université Cornell (identifiant cu31924023500543, 342 pages PDF, domaine public). Les deux traits employés au § 2 sont lus : le transfert de propriété sans déplacement de la pierre (p. 96 imprimée) et la fei engloutie dont la valeur demeure reconnue (p. 97 imprimée), cette dernière rapportée par Furness d'après son informateur Fatumak — c'est bien un témoignage oral rapporté, comme le chapitre le dit. Passages lus sur le texte : « its new owner is quite content to accept the bare acknowledgment of owner » (page PDF 132) ; « the coin remains » (page PDF 132) ; « at that very time it was lying at the bottom of the sea » (page PDF 135) ; « the stone sank out of sight » (page PDF 135)."
+    url: "https://archive.org/details/cu31924023500543"
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
   - ref: S2
     nature: theorie
-    reference: "M. Friedman, « The Island of Stone Money », Working Paper, Hoover Institution, 1991"
-    etat_lecture: a_requalifier
+    reference: "M. Friedman, « The Island of Stone Money », Working Paper, Hoover Institution, 1991 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15, sur la transcription du texte établie pour les Collected Works of Milton Friedman (Hoover Institution, éd. R. Leeson et C. G. Palm, datée du 5 octobre 2012), fournie par l'auteur depuis son navigateur le 2026-09-15 — le site refuse ce fichier aux robots et la page de l'objet 56723 des collections numériques de Hoover indique que l'exemplaire numérisé de 1991 n'est consultable que sur place. Exemplaire 2026-09-15/c05/fournis/S2-friedman-1991-island-of-stone-money-hoover-cw-fourni.pdf, 3 pages, 9178 caractères, SHA-256 39FB4BDBE55829C6F262FCBA6B66C0523D7EA2A0B8440FE31CD5FDA5EA05BEC7. Passages lus : « Working Papers in Economics, no. E-91-3. Stanford, California: Hoover Institution, 1991 » (page 1) ; « The Board of Overseers of the Leland Stanford Junior University » (page 1) ; « an eerily similar event that occurred in 1932 when the New York Federal Reserve Bank transferred gold to the Bank of France by earmarking gold in its vaults » (page 1) ; « it consisted of an enormous fei, whereof the size is known only by tradition; for the past two or three generations it had been, and at that very time it was lying at the bottom of the sea » (page 2) ; « (pp. 93, 96-100) » (page 2) ; « Is there really a difference between the Federal Reserve Bank's believing that it was in a weaker monetary position because of some marks on drawers in its basement and the Yap Islanders' belief that they were poorer because of some marks on their stone money? » (page 3) ; « Reprinted in Milton Friedman, Money Mischief, pp. 3-7. New York: Harcourt Brace Jovanovich, 1992 » (page 3) ; « From The Collected Works of Milton Friedman, compiled and edited by Robert Leeson and Charles G. Palm » (page 1). Ce que le corps en tient est au mot : Friedman reprend le cas de Yap d'après Furness (pages 93 et 96-100 de l'édition de 1910, citées par lui), y compris la pierre perdue en mer, et le rapproche du transfert d'or de 1932 entre la Réserve fédérale de New York et la Banque de France par simple marquage des tiroirs. Le texte est réimprimé dans Money Mischief (1992), p. 3-7, que l'entrée peut citer comme édition de référence."
+    etat_lecture: ouverte
+    date_verification: 2026-09-15
 verifications_en_attente:
   # — Corrections critiques identifiées à la conversion —
   - "CRITIQUE — « 92 % de la monnaie en circulation dans le monde » n'est pas sous forme fiduciaire : chiffre très largement repris sans source. La part varie fortement selon le pays et selon l'agrégat retenu (M0, M1, M2, M3) ; un ratio mondial unique est douteux. Retrouver la source, l'agrégat et l'année, ou remplacer par des valeurs par zone monétaire (BCE, Fed, BRI)."
@@ -40,11 +43,10 @@ verifications_en_attente:
   - "COHÉRENCE — la non-neutralité affirmée ici doit être formulée comme en L1.C02 : elle porte sur l'orientation sectorielle du crédit, non sur la neutralité de long terme au sens de la littérature. Vérifier l'alignement des trois occurrences (L1.C01, L1.C02, L1.C05)."
   - "COHÉRENCE — ce chapitre reçoit l'épreuve annoncée en L1.C02 et L1.C03 sur le mécanisme monétaire. Il ne la conduit pas : il pose la nature de la monnaie. Vérifier que les deux chapitres renvoient bien au chapitre qui l'expose (L1.C07 annoncé)."
   # — Renvois —
-  - "Renvoi à ajouter vers L1.C06 (monnaie et écologie) quand il existera"
   # — Renvoi vers L1.C07 ajouté le 2026-09-11 (§ 6) : L1.C07 établit le mécanisme pour la seule monnaie de dépôt ; la définition générale posée ici reste une hypothèse —
 resume: "Les manuels définissent la monnaie par ses trois fonctions — unité de compte, intermédiaire d'échange, réserve de valeur — c'est-à-dire par ses usages. Ce chapitre soutient que cette définition laisse ouverte la question de sa nature, et propose de la caractériser comme un registre de créances collectivement tenu, dont le support importe moins que la tenue. Il en tire que les règles d'émission relèvent d'une décision et non d'une nécessité, et que la question décisive est celle des conditions auxquelles la monnaie est créée."
 concepts: [monnaie_comme_registre, creation_monetaire, neutralite_monetaire]
-renvois: [L1.C07]
+renvois: [L1.C02, L1.C03, L1.C06, L1.C07]
 ---
 
 # Qu'est-ce que la monnaie, vraiment ?
@@ -87,7 +89,7 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::hypothese:: Si la monnaie est un registre tenu par convention, alors les règles qui déterminent qui peut y inscrire une créance, et à quelles conditions, ne relèvent pas d'une contrainte naturelle. Elles résultent de dispositions institutionnelles, donc modifiables — au prix, comme toute institution, d'un coût de transition et d'un problème d'acceptation.
 
-::hypothese:: Il en découle que la monnaie n'est pas neutre au sens qui importe ici : les conditions auxquelles elle est émise déterminent quelles activités trouvent un financement. Cette proposition, énoncée aux chapitres précédents, ne porte pas sur la neutralité de long terme au sens de la littérature monétaire — question distincte — mais sur l'orientation sectorielle du crédit.
+::hypothese:: Il en découle que la monnaie n'est pas neutre au sens qui importe ici : les conditions auxquelles elle est émise déterminent quelles activités trouvent un financement. Cette proposition, énoncée aux chapitres précédents (L1.C02, L1.C03), ne porte pas sur la neutralité de long terme au sens de la littérature monétaire — question distincte — mais sur l'orientation sectorielle du crédit.
 
 ::etat:: Des dispositifs fonctionnant sous d'autres conventions existent et ont été documentés : monnaie fondante de Wörgl au début des années 1930, banque WIR en Suisse depuis 1934, monnaies locales complémentaires contemporaines. Leur portée doit être évaluée avec prudence : leur échelle est sans commune mesure avec celle d'un système monétaire national, et l'évaluation de leurs effets fait l'objet de travaux qu'il faut consulter avant d'en tirer argument.
 
@@ -113,4 +115,4 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::norme:: Ce qui s'en déduit tient en une question : non pas seulement combien de monnaie doit être émise, mais selon quelle règle, pour quelles activités qualifiées, et sous quelles contraintes elle peut l'être.
 
-Le chapitre suivant examine pourquoi cette question est restée en dehors du champ de l'analyse écologique.
+Le chapitre suivant (L1.C06) examine pourquoi cette question est restée en dehors du champ de l'analyse écologique.

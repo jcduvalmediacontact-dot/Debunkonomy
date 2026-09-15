@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-13
 autorite: preparatoire
 citable: false
 regime: conception
@@ -89,7 +89,7 @@ verifications_en_attente:
      non pour « le reflux » pris comme un tout."
 resume: "Ce chapitre pose une question que ni le livre ni le Cahier ne posent : qui supporte le reflux. Le dispositif raisonne en volumes — combien retirer — et jamais en incidence. Le chapitre consolide d'abord ce que quatre chapitres du Livre 11 ont trouvé séparément et par des chemins indépendants : la cascade favorise les ensembles intégrés, la valeur par défaut favorise ceux qui savent documenter, la consolidation par bénéficiaire effectif favorise ceux qui disposent de structures, la dérogation favorise ceux qui disposent d'un conseil. Quatre biais, une seule direction. Il établit ensuite que l'incidence du premier ressort n'est pas déterminée a priori : un prélèvement sur la consommation finale est régressif par nature, mais il est ici modulé sur l'empreinte, de sorte que le signe net dépend d'une seule grandeur — l'élasticité de l'empreinte au revenu — que le corpus n'a pas et qui est disponible. Il établit pour le second ressort une hypothèse plus inquiétante et non vérifiée : le demurrage frappe les encaisses, or les grandes fortunes détiennent peu d'encaisses et beaucoup d'actifs, tandis que les patrimoines moyens détiennent l'inverse ; l'instrument atteindrait donc le milieu plutôt que le sommet, et la dérogation aggraverait cet effet puisque l'accès aux produits exemptés suppose un conseil. Il relève que les quatre biais sont tous de nature procédurale et jamais tarifaire, ce qui a une conséquence pratique décisive : aucune correction par les taux ne les atteint. Il conclut que le dispositif, conçu contre la concentration du pouvoir financier, favoriserait dans sa forme actuelle les acteurs concentrés — non par contradiction de principe, mais par accumulation de mécanismes dont aucun n'a été choisi pour cela."
 concepts: [reflux_collectif, reflux_transactionnel, demurrage, bareme, degeneratif, qualification_regenerative]
-renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L19.C05]
+renvois: [L1.C15, L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L19.C05]
 ---
 
 # L'incidence — qui paie le reflux
@@ -179,7 +179,7 @@ renvois: [L1.C21, L1.C22, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L19.C05]
 
 ::etat:: **La question rendue à ce chapitre est donc précise** : **qui paie effectivement une fonte graduée sur l'impact, une fois la répercussion prise en compte ?** Ce chapitre avait déjà relevé qu'une structure de taux imposant plus lourdement l'achat d'un bien que la transaction financière **a une conséquence distributive non discutée par ses auteurs**.
 
-::hypothese:: **Et une vérification s'impose, parce que le motif invoqué par l'arbitrage est un résultat du corpus.** **L1.C15 a établi que l'essentiel est insolvable** ; A35 s'en réclame pour écarter la rentabilité. **Il faut donc vérifier que l'assiette de la fonte ne reproduit pas l'insolvabilité qu'elle invoque** — une gradation sur l'impact frappe d'autant plus qu'on ne peut pas choisir, et **A34 a établi qu'un barème qui dit vrai exclut ceux qui ne peuvent pas payer.**
+::hypothese:: **Et une vérification s'impose, parce que le motif invoqué par l'arbitrage est une catégorie proposée par le corpus.** **L1.C15 définit l'essentiel insolvable sans en établir l'ampleur ni l'absence d'autres financements** ; A35 s'en réclame pour écarter la rentabilité. **Il faut donc vérifier que l'assiette de la fonte ne reproduit pas le filtre que cette catégorie décrit** — une gradation sur l'impact frappe d'autant plus qu'on ne peut pas choisir, et **A34 a établi qu'un barème qui dit vrai exclut ceux qui ne peuvent pas payer.**
 
 ## BALAYAGE DU LIVRE 21, TROISIÈME — 2026-09-07
 
