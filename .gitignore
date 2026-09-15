@@ -13,6 +13,22 @@ protocoles/audits-et-recherches/
 # CLAUDE.md le declare faisant autorite ; le motif d exclusion ne le vise pas.
 !protocoles/sourcage-deep-research.md
 
+# COMPLETEMENT DU 2026-09-15 : les motifs ci-dessus n'attrapaient AUCUN des
+# fichiers qu'ils visent. Tous finissent par un identifiant de chapitre —
+# dossier-audit-L1-C03.md, rapport-audit-L1-C15-tiers.md — et non par
+# « -audit.md ». Quarante-quatre fichiers seraient entres dans un depot public
+# au premier « git add -A ». Les sept familles sont nommees explicitement.
+protocoles/rapport-audit-*.md
+protocoles/dossier-audit-*.md
+protocoles/paquet-adverse-*.md
+protocoles/audit-factuel-*.md
+protocoles/verification-audit-*.md
+protocoles/traitement-objections-*.md
+# Exception : le protocole generique d'audit contradictoire est un MODELE a
+# coller, pas un rapport, et CLAUDE.md le declare faisant autorite.
+!protocoles/audit-contradictoire.md
+
+
 # Sauvegardes locales et archives
 Sauvegarde*/
 *.zip
