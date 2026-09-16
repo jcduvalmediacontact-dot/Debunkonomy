@@ -29,6 +29,16 @@ protocoles/traitement-objections-*.md
 !protocoles/audit-contradictoire.md
 
 
+# COMPLETEMENT DU 2026-09-16, decision de l'auteur : la memoire de travail va
+# dans un DEPOT PRIVE SEPARE, jamais ici.
+# coordination/ tient le journal des relais (440 Ko, 71 erreurs, defauts et
+# objections non resolues recenses), l'index des decisions, la file de travail
+# et les listes de courses. C'est exactement la matiere que le motif du
+# 2026-09-04 garde hors d'un depot public, et elle n'etait attrapee par aucun
+# des motifs ci-dessus.
+# Ce dossier porte son propre depot git, pousse vers un remote prive distinct.
+coordination/
+
 # Sauvegardes locales et archives
 Sauvegarde*/
 *.zip
