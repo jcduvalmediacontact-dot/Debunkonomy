@@ -66,8 +66,9 @@ sources_primaires:
     date_verification: 2026-09-15
   - ref: S12
     nature: theorie
-    reference: "F. Modigliani, R. Brumberg, « Utility analysis and the consumption function », 1954 ; M. Friedman, A Theory of the Consumption Function, Princeton University Press, 1957 (lissage intertemporel)"
-    etat_lecture: a_requalifier
+    reference: "M. Friedman, A Theory of the Consumption Function, Princeton University Press pour le NBER, 1957, chapitre IV, « Consistency of the Permanent Income Hypothesis with Existing Evidence on the Relation between Consumption and Income: Budget Studies » — le lissage intertemporel de la consommation. ENTRÉE RÉDUITE le 2026-09-16 PAR APPLICATION DE D43, sur décision explicite de l'auteur : elle réunissait F. Modigliani et R. Brumberg, « Utility analysis and the consumption function », 1954, non obtenu, et Friedman 1957 ; Modigliani et Brumberg restent nommés sans être source, la même thèse étant portée par Friedman. OUVERTE PAR TÉLÉCHARGEMENT DIRECT (acquise le 2026-09-15 sur le dépôt du NBER, chapitre c4406), exemplaire 2026-09-15/c14/S12-friedman-1957-nber-c4406.pdf (78 pages, SHA-256 AA5269654B3B20799186B152280B17487ADD4D4A83FB621B35102516FB6C06DC). Passages lus : « Consistency of the Permanent Income Hypothesis with Existing Evidence » (page PDF 1-2), « permanent income » 62 occurrences, « transitory » 106 ; « many people have low incomes in any one year because of transitory factors and can be expected to have higher incomes in other years. Their negative savings are financed by large positive savings » (page PDF 3). Le mot « lissage » est du corpus, non de Friedman."
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S13
     nature: theorie
     reference: "M. A. Killingsworth, D. Kahneman, B. Mellers, « Income and emotional well-being: A conflict resolved », PNAS, 120(10), e2208661120, 2023 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://europepmc.org/articles/PMC10013834). Exemplaire 2026-09-15/c14/candidats/S4-killingsworth-kahneman-mellers-2023-europepmc.pdf, 6 pages, SHA-256 EEB7897CF36E637EF80176AD8C2F18017626E1C4B72250A2F7CC877E2FAA1E12. Édition : M. A. Killingsworth, D. Kahneman, B. Mellers, « Income and emotional well-being: A conflict resolved », PNAS, 120(10), e2208661120, 2023, exemplaire Europe PMC PMC10013834 (6 pages). Porte la réconciliation que le § 3 rapporte : le plateau existe pour les 20 % les moins heureux, non pour les autres. Entrée créée le 2026-09-15 par scission de S4. Passages lus sur le texte : « the flattening pattern exists but is restricted to the least happy 20% of the population » (page PDF 1)."
@@ -75,6 +76,7 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  - "D43 APPLIQUÉE le 2026-09-16 : S12 réduite à Friedman 1957 et ouverte, Modigliani-Brumberg 1954 nommés sans être source."
   - "OUVERTE LE 2026-09-16 par l'ouverture de [S5]. Le § 3 fait porter à Rosa DEUX énoncés et l'exemplaire ouvert n'en porte qu'un. Le premier — la course où nul ne peut ralentir sans être distancé — est vérifié au mot, page PDF 23. **Le second ne l'est pas** : « la stabilité des sociétés tardives suppose désormais une accélération permanente » ne figure pas dans Aliénation et accélération, où « stabilisation dynamique » — le terme de l'auteur pour cette thèse — a zéro occurrence. La thèse est bien de Rosa et se trouve ailleurs dans son œuvre, notamment dans Beschleunigung ; elle n'est pas dans le volume ouvert. TROIS ISSUES, À L'AUTEUR : retirer la seconde proposition du § 3 ; la garder en la donnant comme rapportée sans appui ouvert ; ou fournir un exemplaire de Beschleunigung ou de sa traduction de 2010, qui la porterait."
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S2 : texte du livre lu — « chaque effort pour rembourser ne fait que préparer la prochaine chute » (ch. 6) ; note 54 (ch. 5). Les formules « conscience tragique de l'économie moderne » et « vénération persistante de ce qui le tue » ne sont PAS dans le livre : script audio, non attribuées.
@@ -90,14 +92,13 @@ verifications_en_attente:
   # — Corrections identifiées à la conversion —
   - "CRITIQUE — Scène d'ouverture « Paris, hiver 1942, rue Vaneau » : reconstitution. Manuscrit achevé à Oran en février 1941 ; Camus n'occupe le studio de la rue Vaneau qu'à partir de 1944 (Deep Research). Retirée."
   - "CRITIQUE — « Layard a démontré un plateau à 40 000 euros par an et par personne » : contresens. Layard raisonne sur des comparaisons entre pays (produit par habitant, ordre de 20 000 $), non sur un seuil individuel ; le seuil de 75 000 $ est celui de Kahneman et Deaton [S3], contesté puis réconcilié [S4]. Le chapitre cite l'état de la question, non un seuil."
-  - "CRITIQUE — « la sociologue Hartmut Rosa » : sociologue allemand (homme), né en 1965. Corrigé."
   - "Les trois personnages sont des idéaux-types au sens de Weber [S9] : construits par accentuation de traits, non des cas documentés. Les chiffres qui les accompagnent sont des ordres de grandeur plausibles, non des données."
   # — Objections acceptées comme limites, mentionnées dans le texte —
   - "LIMITE — Lissage intertemporel (Modigliani, Friedman) [S12] : l'endettement des ménages s'explique aussi par un arbitrage rationnel sur le cycle de vie ; le chapitre le mentionne et n'attribue au régime que la part de contrainte."
   - "LIMITE — Externalités et passager clandestin (Pigou, Nordhaus) [S11] : les blocages climatiques s'expliquent en partie indépendamment du mode d'émission ; mentionné en § 4."
   - "LIMITE — « Millions de PME » : la contrainte de croissance d'une PME tient aussi à la concurrence et au marché, non au seul crédit. Le chapitre le dit ; le personnage reste un idéal-type."
   # — Données à sourcer —
-  - "« Les indices boursiers battent des records, les grandes fortunes prospèrent » (§ 5) : non sourcé. Sourcer (indices MSCI World ou S&P 500 ; rapports UBS ou Oxfam sur les patrimoines) ou retirer. Le point est déjà établi en L1.C02 avec ses propres vérifications."
+  - "D44 SANS OBJET, constaté le 2026-09-16 sur décision de l'auteur (branche R) : la phrase « Les indices boursiers battent des records, les grandes fortunes prospèrent » NE FIGURE PLUS dans le corps du chapitre — elle en était sortie avant cette date sans que cette ligne l'enregistre. Le point est porté par L1.C02, désormais sourcé sur Oxfam et la Banque mondiale."
   - "Jebb et al., « Happiness, income satiation and turning points around the world », Nature Human Behaviour, 2(1), p. 33-38, 2018 : source des méta-analyses de seuils par région, à ajouter si le chapitre développe la question."
   # — Sources non ouvertes par un humain —
   - "S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé."
@@ -106,8 +107,6 @@ verifications_en_attente:
   - "COHÉRENCE — Le chapitre annonce L1.C15 et reprend essentiel_insolvable (L1.C06)."
   - "COHÉRENCE — sisyphe_economique au vocabulaire en nom provisoire."
   # — Renvois —
-  - "Renvoi à ajouter vers L1.C15 (« L'essentiel insolvable ») quand il existera"
-  - "Renvoi à ajouter vers L1.C17 (seconde partie du livre) quand il existera"
   - "Sourcer ou retirer la clause du paragraphe sur les blocages d'économie politique : « les bénéfices d'une politique climatique sont diffus et différés, ses coûts concentrés et immédiats, ce qui défavorise structurellement les mandats courts ». Elle était adossée à S11 avec Nordhaus ; la réduction de S11 du 2026-09-15 la laisse sans appui ouvert, Buchanan et Tullock développant la configuration inverse. Le passager clandestin, lui, est porté par Nordhaus."
 resume: "Les trois malédictions monétaires, prises ensemble, produisent une trajectoire que le livre nomme le mythe de Sisyphe économique : un effort renouvelé sans terme, où chaque cycle ramène au point de départ. Ce chapitre expose la figure et en délimite strictement la portée. La contrainte de croissance n'est pas arithmétique — une économie stationnaire endettée est possible si les revenus d'intérêts sont redépensés ; elle tient à leur accumulation et à la croissance de l'encours. Et la figure ne s'applique qu'à ce que le régime monétaire ajoute : l'usure du capital est physique, la saturation du revenu est psychologique, les blocages de la décision publique relèvent d'économie politique — le chapitre isole dans chaque cas la part monétaire au lieu de tout lui attribuer. Trois idéaux-types en donnent la forme vécue, avec trois traits communs : lucidité, impuissance à sortir seul, répétition sans terme. À la différence du mythe, la contrainte est architecturale, donc modifiable."
 concepts: [sisyphe_economique, malediction_monetaire, reflux_monetaire, solvabilite_anticipee, essentiel_insolvable]

@@ -137,6 +137,7 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  - "D32 APPLIQUÉE le 2026-09-16 : l'en-tête du cahier des charges du § 5 passe de « Déconcentrer l'autorité » à « Séparer les cinq fonctions [...] entre des centres de responsabilité indépendants », formulation validée par l'auteur SANS la proposition finale « sans retomber dans l'arbitraire politique », qu'il a écartée comme jugement de valeur étranger à A46. À NOTER : la même expression figure encore dans la phrase suivante du paragraphe, qui est le texte original de l'auteur et n'a pas été touchée ; à lui de dire si elle y reste."
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : PDF lu (40 000 schillings en garantie ; Kirchbichl janv. 1933 ; 170 communes juin 1933 ; recours perdu nov. 1933).
   # S3 : texte lu — « the strange, unduly neglected prophet Silvio Gesell (1862-1930) » ; « I believe that the future will learn more from the spirit of Gesell than from that of Marx. »
@@ -171,9 +172,6 @@ verifications_en_attente:
   - "COHÉRENCE — L1.C08 § 5 et ce chapitre concordent sur Wörgl (monnaie garantie, circulation accélérée). L1.C05 cite aussi Wörgl et le WIR : aligner les dates et les qualifications (Wörgl 1932-1933 ; WIR 1934 ; VwGH 18 novembre 1933)."
   - "COHÉRENCE — La réserve sur la MMT engage L1.C20 ; le § 3 ne conclut pas ce qui y sera démontré."
   # — Renvois —
-  - "Renvoi à ajouter vers L1.C11, L1.C12, L1.C13 (malédictions monétaires) quand ils existeront"
-  - "Renvoi à ajouter vers L1.C20 (MMT, « De l'argent sans dette ») et L1.C25 (système monétaire international, bancor) quand ils existeront"
-  - "Renvoi à ajouter vers L1.C17 (« Et si la planète avait sa propre banque ? ») quand il existera"
   - "**LA SOURCE EST OUVERTE LE 2026-09-08 PAR L16.C01 ; LA RÉPONSE À L'OBJECTION DE
      FUITE NE L'EST TOUJOURS PAS.** Ce chapitre notait que « Gesell y répondait par la
      réforme foncière (Freiland), non traitée ici ». **L16.C01 a ouvert la partie sur
@@ -268,7 +266,7 @@ Une dernière catégorie vient de l'intérieur du système. Depuis 2008, les ban
 
 Si le diagnostic de L1.C09 tient, une monnaie conçue autrement devrait toucher les quatre règles à la fois — et satisfaire une condition que les expériences locales ont révélée en creux. Le chapitre pose le cahier des charges ; la seconde partie du livre (L1.C17) en propose une réalisation.
 
-::norme:: **Déconcentrer l'autorité.** Sortir la création monétaire du monopole de fait des banques commerciales sans retomber dans l'arbitraire politique : une institution mandatée, indépendante, tenue à d'autres objectifs que la solvabilité anticipée.
+::norme:: **Séparer les cinq fonctions** — mesure, qualification, priorité démocratique, calibrage et versement, contrôle et recours (A46) — **entre des centres de responsabilité indépendants.** Sortir la création monétaire du monopole de fait des banques commerciales sans retomber dans l'arbitraire politique : une institution mandatée, indépendante, tenue à d'autres objectifs que la solvabilité anticipée.
 
 ::norme:: **Étendre le lexique.** Donner une existence monétaire aux réalités que le compte de résultat ignore — la régénération d'un sol, la préservation d'une forêt, l'entretien d'un commun — de sorte qu'elles puissent être financées sans qu'une recette marchande leur soit attachée.
 
