@@ -7134,3 +7134,65 @@ côtés de XV et XX. **Ils sont sur la même page et n'ont pas été ouverts.**
 **ET L'OUVERTURE FORMELLE RESTE À FAIRE.** Rien de ce qui précède ne porte une
 source à `etat_lecture: ouverte` : l'édition, la date de vérification et la
 qualification appartiennent à l'auteur, au sens du § 11 de la convention.
+
+
+## A43 (3) SCINDÉ PAR L'AUTEUR — L'EXCHANGE STANDARD À PARITÉS ADMINISTRÉES, 2026-09-16
+
+**LA QUESTION DE L'AUTEUR** : « l'Exchange Standard à parités fixes est non applicable. Et si je veux que ce soit applicable ? »
+
+**CE QUE LA CONCLUSION DU 2026-09-09 DÉCLARAIT, À LA LETTRE** : « NEMO Exchange Standard **obligatoire** à parités fixes : non applicable **en l'état** ». Le registre, l'index des décisions et L1.C31 en avaient perdu « obligatoire » et « en l'état ». **Et le même jour, l'objet avait déjà changé** : A32 retenait des parités stables ou administrées, l'autonomie monétaire nationale et un compte de capital réglementé, et la solution de référence du modèle à trois pays des « parités administrées — stables mais révisables ». **La version que l'auteur défendait n'avait donc jamais reçu de verdict, ni favorable ni défavorable.**
+
+### LA DÉCISION
+
+**Le point (3) d'A43 est scindé par l'auteur**, qui a retenu la voie recommandée parmi quatre.
+
+**(3a) À PARITÉS STRICTEMENT FIXES : NON APPLICABLE** sans transferts permanents des pays excédentaires, sauf à imposer aux déficitaires la contraction que la solution de référence exclut. Figées, les parités reportent le déséquilibre courant sur la masse monétaire des pays (L1.C26 § 5).
+
+**(3b) À PARITÉS ADMINISTRÉES** — stables, révisables selon une règle annoncée, dans une coalition, sous compte de capital réglementé : **APPLICABILITÉ NON JUGÉE**, et cinq conditions sont nommées. **(1)** Une règle de révision unique et écrite : le livre en donne trois, incompatibles deux à deux (L1.C26 § 3). **(2)** Des obligations contraignantes des deux côtés. **(3)** Un plafond dur assorti d'une procédure. **(4)** Les deux guichets d'A45, avec leur financeur désigné. **(5)** Une procédure structurelle pour la perte durable d'un débouché.
+
+**Ce que la décision ne fait pas** : elle ne déclare pas la forme (3b) applicable. Elle la sort de la condamnation qui visait une autre forme, et elle écrit ce qu'il faudrait établir pour la juger.
+
+### CE QUE LE MODÈLE DIT DE LA FIXITÉ
+
+`python modeles/nemo_soldes.py`, section finale `comparer_parites` ; chaque conclusion ci-dessous est vérifiée par la section G de `modeles/test_nemo_soldes.py`. Même modèle, joué deux fois par scénario : révision des parités active (pas de 5 % après 2 périodes hors corridor), puis coupée. **Rien d'autre ne change.**
+
+| scénario | contraction du déficitaire, administrées → fixes | solde final de l'excédentaire, administrées → fixes | dépassements du plafond dur |
+|---|---|---|---|
+| S0, sans choc | 397 → 924 | 199 → 779 | 0 → 0 |
+| S1, choc énergétique temporaire | 461 → 1174 | 171 → 931 | 0 → 3 |
+| S2, choc énergétique structurel | 340 → 605 | 662 → 1000 | 0 → 0 |
+| S3, mauvaise récolte | 326 → 887 | 243 → 850 | 0 → 0 |
+| S4, rupture commerciale | 1631 → 1478 | 851 → 907 | 9 → 9 |
+
+**(1) De S0 à S3, figer les parités multiplie la contraction du déficitaire par 1.8 à 2.7**, et accroît le solde de l'excédentaire. **(2) Le pays pauvre reste servi en totalité, mais par le guichet d'allocation, qui verse davantage** ; sans lui, au choc structurel et à parités fixes, 116 d'importations essentielles sont bloquées et 92.4 % seulement sont servies. **(3) Sous obligation excédentaire délibérative — la configuration historiquement adoptée —, l'excédent atteint 1620** et franchit le plafond 8 fois. **Et en S4, aucun des deux régimes ne tient le plafond** : la perte durable d'un débouché ne relève pas du change.
+
+**CE QUE LA COMPARAISON NE DIT PAS, ET IL FAUT LE DIRE D'ABORD.** Dans ce modèle, la parité est le SEUL canal qui agit sur les volumes échangés : **le sens de l'effet était presque acquis d'avance.** Ce que la passe apporte est l'ordre de grandeur de ce que charges, recyclage et guichets doivent porter à sa place. Aucun seuil n'est calibré, et les prix ne sont pas endogènes : aucune inflation n'est mesurée.
+
+### CE QUE L'UNION EUROPÉENNE DES PAIEMENTS APPREND — PRÉCÉDENT JAMAIS INSTRUIT JUSQU'ICI
+
+**Zéro occurrence dans le dépôt avant ce jour.** C'est pourtant le cas historique le plus proche d'un Exchange Standard qui a fonctionné. **Étudiée sur deux textes en accès libre, acquis et lus le 2026-09-16**, tous deux identifiés sur leur titre en page 1 :
+
+- I. Maes, I. Pasotti, « The European Payments Union and the origins of Triffin's regional approach towards international monetary integration », National Bank of Belgium Working Paper 301, 2016 — `2026-09-16/uep/maes-pasotti-2016-epu-origins-triffin-nbb-wp301.pdf`, 41 pages, SHA-256 D8F1FA897EF80122350C6E87EBC0F5C260E6E625C720EA88471B1DD7EA47E679 ;
+- H. Schmieding, « No need for a monetary halfway house: Lessons from the European Payments Union for post-Soviet currency arrangements », Kiel Discussion Papers 189, 1992 — `2026-09-16/uep/schmieding-1992-no-need-monetary-halfway-house-epu-kiel.pdf`, 31 pages, SHA-256 E1774EC9C07AF26DD8B4457DC902E160F04233B210D8B8A25C9A1AF67ED34A5F.
+
+**RÉSERVE DE RANG : ce sont deux études SECONDAIRES.** L'accord du 19 septembre 1950 et les rapports de l'Union, que Schmieding cite sous « EPU, 1959 », restent à acquérir. Un troisième texte, Eichengreen 1994, a été téléchargé : c'est un scan de quinze pages sans couche de texte, écarté.
+
+**(1) LE MÉCANISME EST CELUI QUE LE MODÈLE RÉCLAMAIT.** Règlement mensuel multilatéral : « each country's net balances with each other country were reported at the end of every month to the Bank for International Settlements, which cancelled offsetting claims » (page PDF 18). Règlement gradué : « The dollar share in the settlement for debtor countries increased with the size of the net deficit relative to their quota » (page PDF 10) ; au-delà du quota, « Imbalances surpassing a country's quota had to be settled entirely in dollars at the end of each month » (page PDF 10) ; et l'effet recherché, « The rising share of dollars in debt settlements provided debtor countries with an incentive to correct the imbalance even before they exhausted their quota » (page PDF 10). **C'est la « charge croissant plus vite que le solde » et le « plafond qui est une procédure » que la version 1 du modèle avait établis nécessaires.**
+
+**(2) MAIS LA CONTRAINTE ÉTAIT DURE POUR LES DÉBITEURS ET MOLLE POUR LES CRÉANCIERS.** Au-delà de leur quota, les excédentaires « were themselves urged by the OEEC to liberalise their imports further » (page PDF 11). L'Allemagne a accumulé « high surpluses in excess of its quota, forfeiting dollar payments it would have been entitled to receive from the union » (page PDF 12), et « Without West Germany's politically motivated generosity, the EPU would probably have collapsed by late 1955 or 1956 » (page PDF 12). **C'est l'asymétrie que F6 a relevée chez Keynes : le déficitaire subissait, l'excédentaire délibérait — et l'Union n'a tenu que par la générosité d'un créancier.**
+
+**(3) ELLE A EU UN PAYEUR EXTÉRIEUR.** « The credit mechanism was backed up by an initial infusion of US$ 350 million of Marshall Plan aid as working capital » (page PDF 10) ; et les États-Unis ont payé pour faire entrer un créancier structurel : « The US used further bilateral payments to induce countries such as Belgium, who expected to end up as structural creditors to the EPU, to participate in the scheme » (page PDF 10). **C'est la condition (4) de (3b), et le précédent la pose sans la résoudre pour NEMO : qui tient le rôle des États-Unis de 1950 ?**
+
+**(4) LES PARITÉS ONT BOUGÉ.** « The French franc was twice devalued in 1957 and 1958 » (page PDF 12). **L'Union n'a pas vécu sous des parités strictement fixes : c'est un précédent pour (3b), non pour (3a).**
+
+**(5) ELLE ÉTAIT TRANSITOIRE, ET C'EST LA CRITIQUE QUI PORTE.** « It was designed as a two-year transitional arrangement, renewable on a yearly basis » (page PDF 18). Schmieding la juge un pis-aller : « the EPU clearing mechanism and its facility for soft credits were mere second-best devices to mitigate the harm that was caused by the inconvertibility and the collective overvaluation of the West European currencies against the dollar » (page PDF 2). **Le précédent vaut pour une phase de coalition, pas pour un étalon permanent.**
+
+**(6) LA RÉVISION DE L'UNITÉ DE COMPTE A BUTÉ SUR LE VETO, ET UNE FORMULE L'A CONTOURNÉ.** « the creditors would always have an interest in vetoing a devaluation and the debtors an interest in vetoing an appreciation of the EPU unit » (page PDF 19) ; d'où la règle « no country could veto a change equivalent to (or smaller than) the appreciation or depreciation of its own currency » (page PDF 19). **C'est un matériau direct pour la condition (1) : une règle de révision qui neutralise le veto intéressé.**
+
+### CE QUI EST MODIFIÉ CE JOUR
+
+`corpus/arbitrages.yaml` (A43, et les liens réciproques d'A32 et d'A45) ; **L1.C31 § 6, chapitre canonique et citable, en révision de fond sur accord explicite de l'auteur** ; `modeles/nemo_soldes.py` et `modeles/test_nemo_soldes.py` ; l'index des décisions. **D54 de la feuille du lot 2 est soldée au passage** : « Govillot substitution ok » retenait sa branche B, que D63 applique.
+
+### CE QUI RESTE OUVERT
+
+**La règle de révision** (condition 1) — aucune n'est écrite, et le modèle emploie un pas mécanique qui n'est la règle de personne. **Le financeur** (condition 4), qui est la question « qui finance » laissée ouverte par A45. **Les sources primaires de l'Union européenne des paiements.** **Et CONTROLE-DES-CAPITAUX**, dont aucune modalité n'est tranchée.

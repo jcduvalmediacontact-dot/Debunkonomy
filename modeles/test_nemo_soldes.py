@@ -194,6 +194,62 @@ exiger(m.SEUILS_CALIBRES is False,
        "et aucun seuil n'est déclaré calibré")
 
 
+# =====================================================================
+print("")
+print("G. A43 (3) SCINDÉ — PARITÉS ADMINISTRÉES CONTRE STRICTEMENT FIXES")
+# =====================================================================
+declare = m.PAS_PARITE
+jeux = {}
+for s in m.SCENARIOS:
+    jeux[s.cle] = (m.jouer_a_parites(s, declare), m.jouer_a_parites(s, 0.0))
+exiger(m.PAS_PARITE == declare,
+       "le pas de révision déclaré (%.2f) est rendu après chaque passe" % declare)
+
+for cle in ("S0", "S1", "S2", "S3"):
+    (e_adm, _, _), (e_fix, _, _) = jeux[cle]
+    exiger(e_fix.contraction["DEF"] > e_adm.contraction["DEF"],
+           "%s : figer les parités accroît la contraction du déficitaire "
+           "(%.0f contre %.0f)" % (cle, e_fix.contraction["DEF"],
+                                  e_adm.contraction["DEF"]))
+    exiger(e_fix.soldes_par_periode["EXC"][-1]
+           > e_adm.soldes_par_periode["EXC"][-1],
+           "%s : et le solde final de l'excédentaire (%.0f contre %.0f)"
+           % (cle, e_fix.soldes_par_periode["EXC"][-1],
+              e_adm.soldes_par_periode["EXC"][-1]))
+
+for s in m.SCENARIOS:
+    (e_adm, _, _), (e_fix, _, _) = jeux[s.cle]
+    exiger(abs(taux_essentiel(e_fix) - 100.0) < 1e-9
+           and e_fix.alloc["PAU"] >= e_adm.alloc["PAU"],
+           "%s : à parités fixes le pays pauvre reste servi en totalité, et le "
+           "guichet d'allocation verse au moins autant (%.0f contre %.0f)"
+           % (s.cle, e_fix.alloc["PAU"], e_adm.alloc["PAU"]))
+
+e_sans, j_sans, _ = m.jouer_a_parites(par_cle("S2"), 0.0, allocation_active=False)
+bloque_sans = sum(j["bloque"][c] for j in j_sans for c in m.CODES)
+exiger(bloque_sans > 0 and taux_essentiel(e_sans) < 100.0,
+       "S2 à parités fixes SANS allocation : l'essentiel est bloqué (%.0f, "
+       "%.1f %% servi)" % (bloque_sans, taux_essentiel(e_sans)))
+
+(_, _, _), (e_fix2, _, _) = jeux["S2"]
+e_del, _, a_del = m.jouer_a_parites(par_cle("S2"), 0.0,
+                                    symetrie_contraignante=False)
+exiger(codes(a_del, "[C6]") and e_del.soldes_par_periode["EXC"][-1]
+       > e_fix2.soldes_par_periode["EXC"][-1],
+       "S2 à parités fixes sous obligation DÉLIBÉRATIVE : l'excédent crève le "
+       "plafond (%d dépassements, solde %.0f contre %.0f)"
+       % (len(codes(a_del, "[C6]")), e_del.soldes_par_periode["EXC"][-1],
+          e_fix2.soldes_par_periode["EXC"][-1]))
+
+(_, _, a_adm4), (_, _, a_fix4) = jeux["S4"]
+exiger(codes(a_adm4, "[C6]") and codes(a_fix4, "[C6]"),
+       "S4 : AUCUN des deux régimes ne tient le plafond dur (%d et %d "
+       "dépassements) — la perte durable d'un débouché ne relève pas du change"
+       % (len(codes(a_adm4, "[C6]")), len(codes(a_fix4, "[C6]"))))
+exiger(m.PAS_PARITE == declare,
+       "et le pas de révision déclaré est toujours rendu à la fin")
+
+
 print("")
 if ECHECS:
     print("ÉCHEC — le programme n'applique pas ses règles :")

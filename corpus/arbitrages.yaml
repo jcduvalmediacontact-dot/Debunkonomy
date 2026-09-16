@@ -66,7 +66,7 @@ arbitrages:
     objet: "Régime de change"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [CONTROLE-DES-CAPITAUX]
+    lie_a: [A43, CONTROLE-DES-CAPITAUX]
     decision: >
       ARBITRÉ LE 2026-09-08, TRANCHÉ SUR LE FOND LE 2026-09-09 : le triangle
       d'incompatibilité est résolu PAR L'ABANDON DE LA MOBILITÉ INTÉGRALE DES
@@ -77,7 +77,7 @@ arbitrages:
       sont encadrés. Conception opérationnelle : CONTROLE-DES-CAPITAUX.
     texte: protocoles/passe-2.md
     chapitres: [L1.C21, L1.C26]
-    maj: 2026-09-09
+    maj: 2026-09-16
 
   - id: A33
     objet: "Le nombre de chapitres d'un livre n'est pas contraignant"
@@ -199,7 +199,7 @@ arbitrages:
     objet: "Une part du soutien aux importations essentielles est-elle non remboursable"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR]
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR]
     decision: >
       ARBITRÉ LE 2026-09-09 : OUI. DEUX GUICHETS — facilité REMBOURSABLE pour
       un choc TEMPORAIRE, allocation NON REMBOURSABLE pour un besoin essentiel
@@ -210,7 +210,7 @@ arbitrages:
       FINANCE reste ouvert.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
-    maj: 2026-09-09
+    maj: 2026-09-16
 
   - id: A44
     objet: "Ce que NEMO IMS promet, et ce qu'il ne peut pas promettre"
@@ -233,19 +233,18 @@ arbitrages:
     objet: "Les trois composantes réunies sous le nom NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A37, A44, "EXCEDENT-DU-SYMPOSIUM"]
+    lie_a: [A32, A37, A44, A45, "EXCEDENT-DU-SYMPOSIUM"]
     decision: >
-      ARBITRÉ LE 2026-09-09 : TROIS propositions de maturité inégale sont
-      réunies sous un seul nom. (1) FINANCEMENT CIBLÉ — pilotable sous fortes
-      limites. (2) UNITÉ DE RÉSERVE entre banques centrales — plausible, à
-      finaliser en comptabilité et en droit. (3) EXCHANGE STANDARD à parités
-      fixes — NON APPLICABLE. Seule la deuxième est expérimentable, soumise à
-      des seuils non compensables et complétée par des politiques de
-      substitution. Le remplacement mondial du système monétaire n'est pas
-      applicable.
+      ARBITRÉ LE 2026-09-09 ; POINT (3) SCINDÉ PAR L'AUTEUR LE 2026-09-16. (1)
+      FINANCEMENT CIBLÉ — pilotable sous fortes limites. (2) UNITÉ DE RÉSERVE
+      entre banques centrales — plausible, seule expérimentable. (3a) EXCHANGE
+      STANDARD À PARITÉS STRICTEMENT FIXES — non applicable sans transferts
+      permanents des excédentaires. (3b) À PARITÉS ADMINISTRÉES, en coalition,
+      capitaux réglementés — applicabilité non jugée, conditions nommées au
+      texte. Le remplacement mondial n'est pas applicable.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31, L19.C10]
-    maj: 2026-09-09
+    maj: 2026-09-16
 
   - id: TEST-APPORT-PROPRE
     objet: "Test de l'apport propre de NEMO IMS"

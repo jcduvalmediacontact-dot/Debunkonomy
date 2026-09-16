@@ -156,6 +156,14 @@ corpus a établi sur pièces que c'est exactement la disposition qui saute [F6].
 **Aucun seuil n'est calibré**, et le drapeau `SEUILS_CALIBRES` doit rester à
 `False` tant qu'une source ne fonde pas chaque seuil.
 
+**A43 (3) SCINDÉ LE 2026-09-16 — parités administrées contre strictement fixes.**
+`comparer_parites` joue chaque scénario deux fois, révision des parités active
+puis coupée ; `jouer_a_parites` rend toujours le pas déclaré. **Dans ce modèle,
+la parité est le seul canal qui agit sur les volumes : le sens de l'effet est
+presque acquis d'avance.** Ce que la comparaison apporte est l'ordre de grandeur
+de ce que charges, recyclage et guichets doivent porter à sa place. La section G
+du test vérifie que chaque conclusion imprimée est celle que la sortie montre.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 

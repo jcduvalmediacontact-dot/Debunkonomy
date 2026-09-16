@@ -563,6 +563,71 @@ def comparer_procedures(scenario, plafond=0.30):
     print("      guichet ferait réapparaître le risque, et c'est vérifié.")
 
 
+def jouer_a_parites(scenario, pas, **options):
+    """Joue un scénario avec un pas de révision des parités donné, puis rend
+    au paramètre sa valeur déclarée. Un pas nul donne des parités STRICTEMENT
+    FIXES ; rien d'autre ne change."""
+    global PAS_PARITE
+    garde = PAS_PARITE
+    try:
+        PAS_PARITE = pas
+        return jouer(scenario, **options)
+    finally:
+        PAS_PARITE = garde
+
+
+def comparer_parites():
+    """A43 (3), SCINDÉ PAR L'AUTEUR LE 2026-09-16 : PARITÉS ADMINISTRÉES
+    CONTRE PARITÉS STRICTEMENT FIXES.
+
+    Le même modèle, joué deux fois par scénario : révision des parités active,
+    puis coupée. Dans ce modèle, la parité est le SEUL canal qui agit sur les
+    volumes échangés : le SENS de l'effet est donc presque acquis d'avance. Ce
+    que la comparaison apporte, c'est l'ORDRE DE GRANDEUR de ce que les autres
+    instruments — charges, recyclage, guichets — doivent porter à sa place.
+    """
+    print("")
+    print("  A43 (3) — PARITÉS ADMINISTRÉES (pas de %.0f %% après %d périodes hors"
+          % (100 * PAS_PARITE, PERSISTANCE_PARITE))
+    print("  corridor) CONTRE PARITÉS STRICTEMENT FIXES (pas nul)")
+    print("  %-4s %-13s %16s %13s %15s %11s %12s"
+          % ("", "parités", "contraction DEF", "solde EXC", "essentiel PAU",
+             "alloc PAU", "dépassements"))
+    for sc in SCENARIOS:
+        for libelle, pas in (("administrées", PAS_PARITE), ("fixes", 0.0)):
+            e, journal, anomalies = jouer_a_parites(sc, pas)
+            voulu = e.essentiel_voulu["PAU"]
+            taux = (100.0 * e.essentiel_recu["PAU"] / voulu) if voulu else 100.0
+            print("  %-4s %-13s %16.0f %13.0f %14.1f %% %11.0f %12d"
+                  % (sc.cle, libelle, e.contraction["DEF"],
+                     e.soldes_par_periode["EXC"][-1], taux, e.alloc["PAU"],
+                     len([a for a in anomalies if a.startswith("[C6]")])))
+    s2 = [x for x in SCENARIOS if x.cle == "S2"][0]
+    print("")
+    print("  S2 À PARITÉS FIXES, SANS L'UN DES DEUX APPUIS")
+    for libelle, options in (("sans allocation", {"allocation_active": False}),
+                             ("symétrie délibérative",
+                              {"symetrie_contraignante": False})):
+        e, journal, anomalies = jouer_a_parites(s2, 0.0, **options)
+        voulu = e.essentiel_voulu["PAU"]
+        taux = (100.0 * e.essentiel_recu["PAU"] / voulu) if voulu else 100.0
+        bloque = sum(j["bloque"][c] for j in journal for c in CODES)
+        print("  %-22s solde EXC %6.0f, essentiel PAU %5.1f %%, bloqué %4.0f, "
+              "dépassements %d"
+              % (libelle, e.soldes_par_periode["EXC"][-1], taux, bloque,
+                 len([a for a in anomalies if a.startswith("[C6]")])))
+    print("      CE QUE LA SORTIE MONTRE. De S0 à S3, figer les parités accroît")
+    print("      la contraction du déficitaire et le solde de l'excédentaire. Le")
+    print("      pays pauvre reste servi en totalité, mais par le guichet")
+    print("      d'allocation, qui verse davantage ; sans lui, au choc structurel,")
+    print("      l'essentiel est bloqué. Sous obligation délibérative, l'excédent")
+    print("      crève le plafond. Et en S4 AUCUN des deux régimes ne tient le")
+    print("      plafond : la perte durable d'un débouché ne relève pas du change.")
+    print("      CE QU'ELLE NE MONTRE PAS : un seuil acceptable de contraction —")
+    print("      aucun n'est calibré —, ni l'inflation, les prix n'étant pas")
+    print("      endogènes.")
+
+
 def comparer_guichets(scenario):
     """LA DÉCISION POSÉE : une part du soutien essentiel doit-elle être
     définitivement non remboursable ?"""
@@ -617,6 +682,12 @@ def main():
     print("  pas endogènes : les échanges répondent aux parités, pas les prix")
     print("  intérieurs à la monnaie. La « tension inflationniste » demandée")
     print("  n'est donc PAS publiée, faute de mécanisme qui la produise.")
+
+    print("")
+    print("=" * 78)
+    print("A43 (3) SCINDÉ — CE QUE COÛTENT DES PARITÉS STRICTEMENT FIXES")
+    print("=" * 78)
+    comparer_parites()
     return 0
 
 

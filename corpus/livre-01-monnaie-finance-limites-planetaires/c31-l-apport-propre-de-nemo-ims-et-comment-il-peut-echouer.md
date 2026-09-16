@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-13
+revision_de_fond: 2026-09-16
 autorite: canonique
 citable: true
 regime: conception
@@ -126,7 +126,7 @@ Ce chapitre transforme une affirmation générale en programme de preuve. Il dem
 
 ::norme:: **La comparaison institutionnelle** doit établir, pour chaque solution, le délai, les capacités administratives, le coût social, les risques et les mécanismes de gouvernance. Elle doit pouvoir conclure contre NEMO.
 
-::etat:: A43 distingue trois composantes de maturité inégale. L'unité de réserve entre banques centrales constitue la branche expérimentable, encore à finaliser en comptabilité et en droit. L'Exchange Standard à parités fixes est déclaré non applicable.
+::etat:: A43 distingue trois composantes de maturité inégale. L'unité de réserve entre banques centrales constitue la branche expérimentable, encore à finaliser en comptabilité et en droit. L'Exchange Standard est scindé en deux énoncés depuis le 2026-09-16. À parités strictement fixes, il n'est pas applicable sans transferts permanents des pays excédentaires. À parités administrées — stables, révisables selon une règle annoncée, dans une coalition et sous compte de capital réglementé —, son applicabilité n'est pas jugée, et A43 en nomme les conditions.
 
 ::norme:: Le présent test n'utilise donc pas la promesse d'un remplacement mondial comme résultat attendu.
 
