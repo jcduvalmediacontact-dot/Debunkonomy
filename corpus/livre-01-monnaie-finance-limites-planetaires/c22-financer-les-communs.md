@@ -77,6 +77,7 @@ sources_primaires:
     url: "https://doi.org/10.1086/260580"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "DEUX ENTRÉES RESTENT FERMÉES ET LE MOTIF EST MATÉRIEL, constaté le 2026-09-16. [S3] SAMUELSON : les deux exemplaires versés au dossier ne portent pas le texte de l'article — couche de texte vide pour l'un, page de garde JSTOR seule pour l'autre — alors que L1.C09 [S11] le déclare ouvert et lu le 2026-09-13 sans nommer d'exemplaire. [S4] OSTROM, Governing the Commons (1990) : L1.C15 [S4] le déclare ouvert le 2026-09-13, avec les pages 26-27, 90 et 101-102, mais AUCUN EXEMPLAIRE N'EST VERSÉ AU CODEX et l'ouvrage est sous droits. Le corps de CE chapitre lui fait par ailleurs dire plus que L1.C15 : l'inventaire empirique des institutions, la distinction entre libre accès et commun gouverné, les huit principes. Rien de cela ne peut être relu. CE QUI OUVRIRAIT CES DEUX ENTRÉES : un exemplaire portant le texte, versé au dossier. Pour Ostrom, l'auteur possède peut-être l'ouvrage ; à défaut, les passages et leurs pages, relevés par lui."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le livre a été lu avant toute autre source, conformément à la règle acquise
   # en passe 1 (L1.C18). Le Cahier technique, épisode 10, a été lu ensuite et

@@ -54,9 +54,10 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S10
     nature: theorie
-    reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 ; M. Jensen, W. Meckling, « Theory of the Firm », Journal of Financial Economics, 3(4), 1976 (relation mandant-mandataire)"
+    reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 ; M. Jensen, W. Meckling, « Theory of the Firm », Journal of Financial Economics, 3(4), 1976 (relation mandant-mandataire) ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : elle réunissait deux ouvrages, et un seul est ouvert. M. Jensen et W. Meckling, « Theory of the Firm », Journal of Financial Economics, 3(4), 1976, reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu, et AUCUNE des trois phrases du corps appuyées ici ne porte sur la relation mandant-mandataire : elles portent toutes les trois sur la création monétaire, que McLeay établit. OUVERTE PAR VERSEMENT depuis L1.C07 [S1] le 2026-09-16, sur l'exemplaire déjà au dossier (2026-09-07/je-x20/outputs/sources-NEMO-2026-09-07/BoE-Money-creation-2014.pdf, 14 pages, SHA-256 CFC4A6262631E7B5582A427AEC1215C1568F240C45D54696BB9A2093992B62B2). RELECTURE POUR CE CHAPITRE le 2026-09-16 : « the majority of money in the modern economy is created by commercial banks making loans » (page PDF 1) ; « simultaneously creates a matching deposit » (page PDF 1) ; « the act of lending creates deposits » (page PDF 2). ARTEFACT D'EXTRACTION RELEVÉ SUR CET EXEMPLAIRE : la mise en colonnes entrelace les phrases dans la couche de texte — « Whenever a bank makes a loan, it interest rates in the economy [...] simultaneously creates a matching deposit » — de sorte qu'une recherche littérale d'une phrase complète échoue là où la phrase est bien présente. CE QUE CETTE SOURCE NE PORTE PAS : la reconnaissance tardive par les banques centrales que le corps évoque est datée par L1.C07, qui ouvre le même document et la Bundesbank ; elle n'est pas un énoncé de cet article."
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S11
     nature: theorie
     reference: "S. Wunder, « When payments for environmental services will work for conservation », Conservation Letters, 6(4), p. 230-237, 2013"

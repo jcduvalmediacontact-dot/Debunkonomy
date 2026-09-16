@@ -28,9 +28,10 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
-    reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 — la monnaie de crédit est créée par écriture au passif et à l'actif d'une banque commerciale, et détruite au remboursement"
+    reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 — la monnaie de crédit est créée par écriture au passif et à l'actif d'une banque commerciale, et détruite au remboursement OUVERTE PAR VERSEMENT depuis L1.C07 [S1] le 2026-09-16, sur l'exemplaire déjà au dossier (2026-09-07/je-x20/outputs/sources-NEMO-2026-09-07/BoE-Money-creation-2014.pdf, 14 pages, SHA-256 CFC4A6262631E7B5582A427AEC1215C1568F240C45D54696BB9A2093992B62B2). RELECTURE POUR CE CHAPITRE le 2026-09-16 : « Reserves can only be lent between banks, since consumers do not have access to reserves accounts » (page PDF 3), qui porte au mot les deux propositions du corps : la monnaie de banque centrale ne circule qu'entre banques, et une entreprise n'y a pas accès."
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S5
     nature: normatif
     reference: "Directive (UE) 2022/2464 du 14 décembre 2022 relative à la publication d'informations en matière de durabilité par les entreprises (CSRD), JOUE L 322 du 16 décembre 2022, transposition due au 6 juillet 2024 ; France, ordonnance n° 2023-1142 du 6 décembre 2023 et décret n° 2023-1394 du 30 décembre 2023, application échelonnée à partir de l'exercice 2024"
@@ -54,6 +55,7 @@ sources_primaires:
     reference: "P. Stella, « Do Central Banks Need Capital? », IMF Working Paper WP/97/83, 1997 — une banque centrale peut fonctionner avec des fonds propres négatifs du fait de son monopole d'émission, mais l'inscription à l'actif de constats non recouvrables revient à constater une perte nette ou à porter une écriture sans adossement. Définition comptable d'un actif : ressource contrôlée, issue d'événements passés, dont des avantages économiques futurs sont attendus"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "SAMUELSON N'EST PAS RELISABLE AU DOSSIER, constaté le 2026-09-16 : [S2] reste fermée pour un motif matériel. Les deux exemplaires versés le 2026-09-14 ne portent pas le texte de l'article. 2026-09-14/c09/samuelson-1954.pdf a une couche de texte VIDE, zéro caractère sur quatre pages ; 2026-09-14/c09/samuelson-1954-unam.pdf n'en porte que 1 295, qui sont la page de garde JSTOR et rien d'autre — zéro occurrence de decentralized, de collective consumption, de false signals et de subtraction. OR L1.C15 [S3] ET L1.C09 [S11] DÉCLARENT L'ARTICLE OUVERT ET LE PASSAGE DE LA PAGE 387 VÉRIFIÉ LE 2026-09-13, sans nommer d'exemplaire. La lecture a donc eu lieu sur une pièce qui n'a pas été versée, et la convention veut qu'un scan sans couche de texte ne vaille pas ouverture. Les deux entrées du corpus qui s'appuient sur Samuelson sont dans ce cas. CE QUI OUVRIRAIT CETTE ENTRÉE : un exemplaire de l'article portant son texte, versé au Codex. L'article de 1954 est court, trois pages, et largement diffusé."
   # ── Méthode : le livre fait autorité, le script est une source seconde ──────
   # Le texte source (script d'adaptation) et le livre divergent sur plusieurs
   # points, tous tranchés en faveur du livre [S1], conformément à ce qui a été

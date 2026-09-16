@@ -34,9 +34,10 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
-    reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 — la monnaie de crédit naît d'une double écriture au bilan d'une banque commerciale et est détruite au remboursement ; la monnaie de banque centrale ne circule qu'entre banques de second rang"
+    reference: "M. McLeay, A. Radia, R. Thomas, « Money creation in the modern economy », Bank of England Quarterly Bulletin, Q1 2014 — la monnaie de crédit naît d'une double écriture au bilan d'une banque commerciale et est détruite au remboursement ; la monnaie de banque centrale ne circule qu'entre banques de second rang OUVERTE PAR VERSEMENT depuis L1.C07 [S1] le 2026-09-16, sur l'exemplaire déjà au dossier (2026-09-07/je-x20/outputs/sources-NEMO-2026-09-07/BoE-Money-creation-2014.pdf, 14 pages, SHA-256 CFC4A6262631E7B5582A427AEC1215C1568F240C45D54696BB9A2093992B62B2). RELECTURE POUR CE CHAPITRE le 2026-09-16 : « Just as taking out a new loan creates money, the repayment of bank loans destroys money » (page PDF 3) pour le reflux, et « simultaneously creates a matching deposit » (page PDF 1) pour la double écriture. CE QUE CETTE SOURCE NE PORTE PAS, et le corps le lui fait dire par contraste seulement : l'émission par une banque centrale nationale que le livre conçoit n'est pas décrite ici ; McLeay décrit l'écriture d'une banque COMMERCIALE, et c'est la différence que le paragraphe souligne."
     url: "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S7
     nature: theorie
     reference: "A. Rambaud, J. Richard, « The “Triple Depreciation Line” instead of the “Triple Bottom Line” », Critical Perspectives on Accounting, 33, p. 92-116, 2015 — le modèle CARE-TDL inscrit la relation écologique au passif comme dette à amortir, non à l'actif comme ressource"
