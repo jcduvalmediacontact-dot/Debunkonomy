@@ -46,6 +46,8 @@ import tempfile
 from datetime import date
 from pathlib import Path
 
+import yaml
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -138,16 +140,95 @@ def modif(fn):
     return lambda c: fn(c["occurrences"][0])
 
 
+def choisir_cible(copie, manifeste):
+    """Cherche un chapitre qui se prête aux sabotages, au lieu de le fixer en dur.
+
+    UNE CIBLE NOMMÉE EN DUR SE PÉRIME, et silencieusement. `L1.C08` a servi
+    jusqu'à ce que ses quinze sources soient toutes ouvertes, le 2026-09-11 :
+    le test s'est alors interrompu sur une assertion à son PREMIER sabotage, et
+    les règles E-L1 à E-L6 ont cessé d'être éprouvées pendant cinq jours sans
+    que rien ne le signale. Le corpus progresse ; la cible doit suivre.
+
+    Cinq propriétés sont nécessaires, et chacune sert un sabotage précis.
+
+    - statut autre que `verifie`, sinon S4 ne prouve rien et la copie bloquerait
+      déjà en S0 ;
+    - `citable` faux, que S5 doit pouvoir passer à vrai ;
+    - au moins une source `a_requalifier`, que S1, S2 et S3 remplacent ;
+    - **la PREMIÈRE source** `a_requalifier` et présente au manifeste : S7
+      modifie la première ligne `reference:` du fichier, et sans cela il ne
+      toucherait aucune empreinte bibliographique ;
+    - cette première référence tenant sur une seule ligne, forme que le motif
+      de S7 attend ; et une source de matricule `S2`, que S10 duplique.
+    """
+    occurrences = set()
+    if manifeste.exists():
+        try:
+            occurrences = {o["id"] for o in
+                           json.loads(manifeste.read_text(encoding="utf-8"))["occurrences"]}
+        except Exception:
+            pass
+
+    recale = {}
+    for chemin in sorted(copie.glob("livre-*/*.md")):
+        texte = chemin.read_text(encoding="utf-8")
+        m = re.match(r"^---\n(.*?)\n---\n", texte, re.S)
+        if not m:
+            continue
+        try:
+            entete = yaml.safe_load(m.group(1))
+        except Exception:
+            continue
+        if not isinstance(entete, dict):
+            continue
+        sources = entete.get("sources_primaires") or []
+        cle = str(entete.get("chapitre", chemin.name))
+        manque = []
+        if entete.get("statut") == "verifie":
+            manque.append("statut verifie")
+        if entete.get("citable") is True:
+            manque.append("déjà citable")
+        if not sources:
+            manque.append("aucune source")
+        else:
+            premiere = sources[0]
+            if premiere.get("etat_lecture") != "a_requalifier":
+                manque.append("première source non a_requalifier")
+            elif f"{cle}/{premiere.get('ref')}" not in occurrences:
+                manque.append("première source absente du manifeste")
+            if not re.search(r'^[ \t]+reference: ".*"[ \t]*$', texte, re.M):
+                manque.append("référence sur plusieurs lignes")
+            if not any(str(s.get("ref")) == "S2" for s in sources):
+                manque.append("pas de source S2")
+        if "\nverifications_en_attente:" not in texte:
+            manque.append("pas de verifications_en_attente")
+        if not manque:
+            return chemin, cle
+        recale[cle] = manque
+
+    print("AUCUNE CIBLE UTILISABLE. Les sabotages E-L ont besoin d'un chapitre")
+    print("non vérifié, non citable, dont la PREMIÈRE source est a_requalifier et")
+    print("figure au manifeste, avec une source S2 et une référence sur une ligne.")
+    print(f"{len(recale)} chapitre(s) examiné(s). Motifs les plus fréquents :")
+    frequence = {}
+    for motifs in recale.values():
+        for motif in motifs:
+            frequence[motif] = frequence.get(motif, 0) + 1
+    for motif, n in sorted(frequence.items(), key=lambda x: -x[1])[:6]:
+        print(f"  {n:4d}  {motif}")
+    sys.exit(1)
+
+
 copie = copier_corpus()
 manifeste = copie / "manifeste-etat-lecture.json"
-cible = fichier(copie, "L1.C08")
+cible, cible_cle = choisir_cible(copie, manifeste)
 
 print("S0  le corpus copié passe le contrôle")
 code, sortie = lancer(copie)
 test("S0 aucun blocage sur la copie migrée", code == 0 and "BLOCAGES — la publication est refusée  [0]" in sortie,
      blocages(sortie)[:300])
 
-print("S1 à S7  les six règles E-L, par sabotage du chapitre L1.C08")
+print(f"S1 à S7  les six règles E-L, par sabotage du chapitre {cible_cle}")
 saboter_chapitre("S1 E-L1 bloque : une date sur une source candidate",
                  lambda t: remplacer_premiere_source(t, "a_requalifier", f"§etat_lecture: candidate\n§date_verification: {JOUR}"), "E-L1")
 saboter_chapitre("S2 E-L2 bloque : une source ouverte sans date",
