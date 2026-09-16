@@ -24,6 +24,7 @@ sources_primaires:
     reference: "Le corpus lui-même — L1.C18 § 6 : la question des articles du traité européen est « à trancher AVANT tout exposé du mécanisme d'émission ». Elle ne l'a pas été, et le mécanisme a été exposé sur trente chapitres du Livre 1, vingt-six du Livre 11 et vingt-deux du Livre 7"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "PASSE 2 A AGI LE 2026-09-16 SUR L'ANNOTATION CI-DESSUS. Celle-ci disait « ne modifie pas ce qui précède : il est versé pour que la passe 2 le trouve ». La passe 2 l'a trouvé : le paragraphe antérieur qui déclarait « Arbitrage A35 ouvert » est corrigé, A35a étant arbitré depuis le 2026-09-09. **DEUX COUCHES ÉTAIENT PÉRIMÉES, NON UNE.** La correction de nuit du 2026-09-07, ci-dessus, pose qu'« A35 décrit l'incidence économique de la charge, non son porteur en droit » : **elle précède la scission du 2026-09-09**, qui a précisément nommé le porteur en droit — l'émetteur. Elle reste vraie de A35 tel qu'il était le 7, fausse de A35a tel qu'il est depuis le 9. Ce qui demeure ouvert est A35b, dont l'auteur a identifié le 2026-09-16 l'obligation présente — l'obligation d'INTÉRÊT, inconditionnelle, non l'obligation de rachat, qui est conditionnelle."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DE FOND DU LIVRE 20, et il traite le verrou que
   # L1.C18 § 6 déclarait à trancher AVANT tout. Le corpus a exposé le
@@ -162,7 +163,7 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 
 ::etat:: **Et la portée personnelle est fixée** [L10.C04]. *Gauweiler* **point 94** : la prohibition vise les crédits **« aux autorités et aux organismes publics »** et l'acquisition **« directement, auprès d'eux »** d'instruments de **leur** dette. **Article 3 du règlement** : le secteur public inclut « les autres organismes ou **entreprises publics** ».
 
-::hypothese:: **Tout dépend donc d'une seule question, et elle n'est pas juridique** : **le débiteur de la dette collective relève-t-il du secteur public ?** **Si oui, crédit prohibé de plein droit, et aucune ingénierie de l'unité n'y change rien. Si non, la prohibition ne l'atteint pas du tout.** **Arbitrage A35 ouvert : c'est à l'auteur de trancher.**
+::hypothese:: **Tout dépend donc d'une seule question, et elle n'est pas juridique** : **le débiteur de la dette collective relève-t-il du secteur public ?** **Si oui, crédit prohibé de plein droit, et aucune ingénierie de l'unité n'y change rien. Si non, la prohibition ne l'atteint pas du tout.** **Arbitrage A35 ARBITRÉ le 2026-09-09, et il déplace cette question au lieu de la fermer.** La scission d'A35 porte en A35a que **l'unité est inscrite au PASSIF DE L'ÉMETTEUR** : la société n'est pas débiteur juridique, elle supporte l'incidence économique. **Le débiteur est donc nommé, et c'est l'émetteur.** Savoir s'il relève du secteur public n'est plus une question ouverte du porteur : c'est l'objet d'**A37**, forme juridique de l'institution émettrice, qui demeure ouvert et dont l'orientation du 2026-09-08 donne le rang sans arrêter la forme.
 
 ::etat:: **Deux exceptions du règlement sont hors de portée** : gestion des réserves de change (art. 2), crédit **intrajournalier** sans prolongation possible (art. 4). **Tolérances techniques, non marges de conception.**
 

@@ -6911,3 +6911,226 @@ est rapporté comme ce que ce chapitre relève, jamais comme un acquis du corpus
 ::hypothese:: **La troisième malédiction s'énonce en droit des biens, sur un cas** [L6.C07]. Réparer la dette écologique exige d'attacher une charge à un bien ; **la charge déprécie le gage ; et le gage a un titulaire qui a le droit de dire non.** Aucun des trois maillons ne suppose de faute.
 
 ::hypothese:: **Le corpus enregistre que la malédiction n'est donc pas seulement macroéconomique : elle a une forme contractuelle, observable acte par acte**, dans le bureau d'un notaire vérifiant l'absence d'inscription hypothécaire.
+
+
+## A35b — CE QUE L'ACQUISITION DES STATUTS DU FONDS LUI PORTE — 2026-09-16
+
+**ACQUISITION FAITE LE 2026-09-16, ET LA DISPONIBILITÉ S'EST INVERSÉE DEPUIS LE
+2026-09-09.** Ce jour-là, `imf.org` rendait 403 et l'eLibrary servait l'article
+XIX en clair. **Aujourd'hui c'est l'inverse** : l'eLibrary rend un 403 CloudFront,
+et `imf.org` sert le texte intégral en vigueur — articles et annexes comprises.
+**Ni l'une ni l'autre voie n'est stable ; aucune ne doit être déclarée épuisée
+sans être réessayée.** `curl` reste refusé sur les deux, avec une page d'erreur
+de 414 octets — le piège du balayage d'intégrité du 2026-09-16.
+
+**RELEVÉ COMPLET** : articles XV, XX, XXIV, XXV, et annexes H, I, J, K, M.
+Note d'acquisition : `Documents/Codex/2026-09-16/a37/`.
+**Aucune source n'est ouverte par ce versement** — l'édition, la date et la
+qualification appartiennent à l'auteur.
+
+### CE QUE A35a EXIGEAIT, ET IL EST SATISFAIT PAR LE PRÉCÉDENT
+
+**A35a inscrit l'unité au PASSIF DE L'ÉMETTEUR comme RÈGLE DE CONCEPTION**, et
+pose une condition : **« A35b doit identifier l'OBLIGATION PRÉSENTE qui la
+justifie, faute de quoi le mot passif sera réexaminé. »**
+
+**LE PRÉCÉDENT L'IDENTIFIE, ET CE N'EST PAS CELLE QUE LE CORPUS CHERCHAIT.**
+
+> **Article XX, section 1** — « Interest at the same rate for all holders **shall
+> be paid by the Fund to each holder** on the amount of its holdings [...] The Fund
+> **shall pay** the amount due to each holder **whether or not sufficient charges
+> are received** to meet the payment of interest. »
+
+**L'OBLIGATION PRÉSENTE EST L'OBLIGATION D'INTÉRÊT, NON L'OBLIGATION DE RACHAT.**
+Elle court **en continu depuis l'allocation**, elle est **due à une contrepartie
+nommée** — chaque détenteur —, elle naît **d'un événement passé** — l'allocation —,
+et elle est **inconditionnelle** : le texte écarte expressément la condition de
+recette.
+
+**Le corpus cherchait l'obligation du côté du rachat, et le rachat est
+CONDITIONNEL** — il ne se déclenche qu'à la sortie d'un participant (art. XXIV
+§ 2(b)) ou à la liquidation (art. XXV (c)). **Une obligation conditionnelle ne
+fonde pas un passif présent. L'obligation d'intérêt, si.**
+
+**ET LE TEXTE STATUTAIRE EMPLOIE LE MOT QUE LA NORME EXIGE.** L19.C05 a relevé
+que la norme statistique veut une créance **inconditionnelle** [§ 11.7]. **Annexe
+M § 5(d)** : « the **UNCONDITIONAL CHARACTER** of special drawing rights as
+reserve assets **shall be maintained** », le séquestre pour arriérés étant
+l'exception expresse et bornée. **Le principe est nommé comme principe, et sa
+seule dérogation est cantonnée par écrit.**
+
+### LES CINQ QUESTIONS, ET QUATRE REÇOIVENT UNE PIÈCE
+
+**1. CE QUE LE DÉTENTEUR PEUT RÉCLAMER — RÉPONDU.** Un intérêt sur ses avoirs,
+servi par l'émetteur, au même taux pour tous, que les commissions suffisent ou
+non (art. XX § 1). Et, à la sortie ou en liquidation, **le rachat de la totalité
+de ses avoirs** (art. XXIV § 2(b), art. XXV (c)).
+
+**2. COMMENT LE PASSIF S'ÉTEINT — RÉPONDU, ET COMPLÈTEMENT.** Par **compensation
+entre deux obligations symétriques, puis annulation**. Le mécanisme apparaît
+**quatre fois** dans le même texte : commissions impayées (art. XX § 5), sortie
+d'un participant (art. XXIV § 2(b)), rachat en cours de règlement (art. XXIV
+§ 4), séquestre non libéré (annexe M § 5(b)).
+
+**ET L'EXTINCTION VA JUSQU'À L'ÉTAT TERMINAL** (annexe I § 7) : les proportions
+avoirs / allocation sont égalisées entre participants par achats mutuels, le
+résidu est **annulé**, les livres sont clos, et **« all of the Fund's liabilities
+arising from the allocations [...] shall cease »**.
+
+**CE QUE CELA APPORTE À L19.C03.** Ce chapitre a établi qu'une réduction décidée
+après coup est une **répudiation** que la norme ne reconnaît pas, et qu'il faut
+donc inscrire le mécanisme dans les termes avant l'émission. **Le précédent fait
+exactement cela, et il fournit le troisième terme que le corpus cherchait entre
+le remboursement et la répudiation : la compensation statutaire.**
+
+**3. LA CONTREPARTIE À L'ACTIF — RÉPONDU PARTIELLEMENT, ET LA RÉPONSE EST PLUTÔT
+DÉFAVORABLE.** Le texte désigne bien une contrepartie : **l'obligation de chaque
+participant de payer un montant égal à son allocation cumulée nette** (art. XXIV
+§ 2(b), art. XXV (c)).
+
+**MAIS ELLE NE SE CRISTALLISE QU'À LA SORTIE OU À LA LIQUIDATION.** **En
+fonctionnement normal, l'émetteur ne porte aucun actif en regard de l'unité** :
+il porte une créance **conditionnelle** dont le fait générateur n'est pas advenu.
+**C'est la troisième case de L19.C04 — l'absence d'actif — et le précédent ne la
+referme pas, il la confirme.** Le corpus ne peut donc pas invoquer ce texte pour
+produire la contrepartie que L1.C20 § 4 disait manquante.
+
+**4. QUI ABSORBE LES PERTES — RÉPONDU, ET LA QUESTION SE SCINDE EN TROIS.** Le
+corpus posait une question là où le texte en distingue trois.
+
+- **L'INSUFFISANCE DE REFLUX** est absorbée par **l'émetteur**, expressément
+  (art. XX § 1, « whether or not sufficient charges are received »).
+- **LA PERTE DE VALEUR** est absorbée par **les participants entre eux** :
+  chacun garantit l'usage sans restriction de sa monnaie distribuée et
+  **compense les autres** de l'écart entre la valeur de distribution et la
+  valeur réalisée (annexe I § 8, annexe K § 8).
+- **L'INSUFFISANCE D'ACTIFS EN LIQUIDATION** est absorbée par **les apporteurs de
+  capital** : « the liabilities of the Fund **other than the repayment of
+  subscriptions shall have PRIORITY** » (annexe K § 1). **Les souscriptions
+  passent en dernier.**
+
+**ET CE TROISIÈME POINT CONFIRME, DEPUIS LE TEXTE STATUTAIRE, LA CORRECTION QUE
+L'AUTEUR A IMPOSÉE À LA MATRICE LE 2026-09-09.** La version 1 traitait une
+insuffisance d'actifs comme une inexistence de passif ; l'auteur a tranché
+qu'« une dette impayable reste une dette ». **L'annexe K le dit dans l'autre
+sens : quand l'actif ne suffit pas, le passif garde son rang et se sert dans un
+ordre écrit.** **Des fonds propres négatifs n'empêchent pas une liquidation
+ordonnée : ils déterminent qui ne sera pas servi.**
+
+**5. CE QUE REÇOIT LE BÉNÉFICIAIRE — NON RÉPONDU, ET LE PRÉCÉDENT NE PEUT PAS
+RÉPONDRE.** **Le compte de tirages spéciaux n'a pas de bénéficiaire.** Il alloue
+à ses **participants**, qui sont des autorités monétaires membres, selon une
+formule assise sur leur quote-part. **Le dispositif du corpus verse à des
+prestataires qui conduisent une activité qualifiée.** Il n'y a pas d'analogue.
+**La cinquième question reste entière, et c'est la seule des cinq que cette
+acquisition ne touche pas.**
+
+### DEUX APPORTS DIRECTS À LA MATRICE
+
+**LE FAIT GÉNÉRATEUR MANQUANT EXISTE.** La version 3 a posé qu'« une obligation
+d'acceptation ne vaut que si quelque chose est dû », et qu'à défaut d'une
+contribution statutaire inscrite **avec son fait générateur**, la proposition de
+qualification est **suspendue**. **Article XX § 2** fournit exactement cela :
+« Charges [...] **shall be paid to the Fund by each participant on the amount of
+its NET CUMULATIVE ALLOCATION** ». **Le fait générateur est l'allocation
+elle-même**, et la commission court dessus sans autre condition. **Une branche
+peut désormais être instruite avec un fait générateur sourcé en droit positif, et
+non seulement postulé.**
+
+**R3 REÇOIT UN HORIZON.** La matrice déclare la **solvabilité intertemporelle non
+évaluable**, « un cycle, sans intérêt ni horizon ». **L'annexe I § 7 fournit un
+horizon** : l'état terminal est celui où chaque participant détient **la même
+proportion de son allocation**, c'est-à-dire où plus personne ne doit rien à
+personne. **C'est une condition de terminaison écrite, et elle est atteinte par
+des achats entre participants, non par un versement de l'émetteur.**
+
+### UN RÉSULTAT DÉFAVORABLE, ET IL FAUT LE PORTER AU MÊME TITRE
+
+**L'ANNEXE H DÉPLACE LE RISQUE DE LIQUIDITÉ VERS LE DÉTENTEUR, PAR LE
+CALENDRIER.** À défaut d'accord dans les six mois, **l'émetteur dispose de CINQ
+ANS** pour solder ce qu'il doit (§ 1) ; **le participant, de TROIS ANS** pour
+solder ce qu'il doit (§ 2) — et **l'émetteur seul peut allonger ce second
+délai**. **L'asymétrie n'est pas commentée par le texte et elle n'est pas
+neutre.**
+
+### TROIS TRAITEMENTS DU DÉFAUT, LÀ OÙ LE CORPUS N'EN ÉCRIVAIT AUCUN
+
+**SUSPENSION** — le participant en défaut cesse de recevoir (annexe I § 6).
+**SUBSTITUTION D'ACTIF** — il paie **sa propre monnaie** à hauteur du défaut, que
+l'émetteur répartit entre les autres (annexe I § 7). **SÉQUESTRE** — l'allocation
+est émise mais rendue inutilisable et exclue de tous les calculs, **libérée à
+l'apurement**, **annulée** si le participant part avant (annexe M § 5).
+**Aucun des trois n'est une exclusion.**
+
+### DEUX POINTS DE STRUCTURE, VERSÉS AILLEURS ET RAPPELÉS ICI
+
+**L'ALLOCATION EST REFUSABLE** (annexe M § 4) : un participant peut notifier par
+écrit qu'il ne veut pas recevoir. **Nul n'est fait débiteur sans avoir pu refuser
+de recevoir.** Prolonge la propriété favorable de L19.C05 — « qui ne détient rien
+ne doit rien » — et la renforce d'un cran.
+
+**L'ALLOCATION SUIT UNE FORMULE ET NON UN JUGEMENT** (annexe M § 1) : le montant
+amène chacun au même pourcentage de sa quote-part. **À verser à F7 et à
+`REGLE-D-EMISSION`** : le corpus cherche une règle automatique plutôt qu'un
+pilote et n'en tenait aucun exemple institutionnel portant sur **l'émission**.
+
+### CE QUE CE VERSEMENT N'ÉTABLIT PAS
+
+**IL NE TRANCHE PAS A35b.** Il lui apporte des pièces, sur quatre questions de
+cinq, et l'une de ces quatre réponses lui est défavorable.
+
+**IL NE TRANCHE PAS NON PLUS ENTRE LES BRANCHES.** Le précédent décrit **une**
+architecture cohérente ; il n'établit pas qu'elle soit la bonne pour le
+dispositif, ni qu'aucune autre ne le soit.
+
+**LE TRANSPORT N'EST PAS ÉTABLI, ET LA RÉSERVE DE A30 S'APPLIQUE À CHAQUE LIGNE
+CI-DESSUS.** Le compte de tirages spéciaux règle **entre autorités monétaires**,
+sur un instrument qui **ne circule pas dans l'économie**, et L1.C26 pose que le
+référentiel du corpus « n'est ni détenu, ni échangé, ni accepté en règlement ».
+**S'inspirer de la MÉCANIQUE sans emprunter la NATURE** — réserve portée le
+2026-09-07, entière.
+
+**ET LA CONTRADICTION RELEVÉE PAR L19.C09 N'EST PAS LEVÉE.** La révision 2025 de
+la norme statistique a **dissous le créancier collectif** et fait de l'allocation
+un **passif du membre qui la reçoit**. **Le texte statutaire lu ici ne dit pas
+cela.** Le corpus tient donc deux instruments qui divergent sur qui porte le
+passif, et ce versement ne les réconcilie pas. **C'est à instruire avant tout
+usage de ce qui précède dans un chapitre.**
+
+### CORRECTION DU REGISTRE, ET CE QU'ELLE EMPORTE — 2026-09-16
+
+**DEUX ENTRÉES PORTAIENT UN ÉTAT DEVENU FAUX.**
+
+**A37 — LE CHAMP `acquisition_bloquante` EST RETIRÉ.** Il portait : « L'ANNEXE J
+des statuts du Fonds — voies automatisées épuisées, récupération manuelle. ET
+les articles du COMPTE DE TIRAGES SPÉCIAUX en vigueur ». **Les deux sont
+acquis** ; rien ne bloque plus A37, dont la décision était déjà rendue le
+2026-09-12. **Le champ est supprimé plutôt que réécrit**, parce que le contrôle
+l'imprime tel quel dans son rapport : un champ nommé « acquisition bloquante »
+qui déclarerait sa propre clôture produirait exactement l'énoncé faux qu'il
+s'agit de retirer. `maj` passe au 2026-09-16.
+
+**A35b — LA DÉCISION EST RECOMPOSÉE, NON AUGMENTÉE.** Le registre plafonne ce
+champ à 500 signes, et la règle qui l'accompagne est explicite : *le registre
+projette, il ne raisonne pas ; le développement va au texte qui fait foi*.
+**L'entrée était à 487 signes : rien n'était appendable.** Elle est donc
+réécrite à 495, et **ce qui en sort est le détail rétrospectif** — l'énumération
+des cinq résultats de la version 3 et le renvoi à
+`protocoles/revue-comptable-a35b.md`. **Ce qui y entre est l'état nouveau** :
+l'obligation présente identifiée, quatre questions sur cinq pourvues, la réponse
+défavorable sur la contrepartie, la cinquième question entière. **Les deux
+contraintes opératoires sont conservées** — revue par un comptable national,
+aucun modèle macroéconomique avant elle.
+
+**CE QUE LE RETRAIT DU CHAMP NE DOIT PAS FAIRE PERDRE, ET QUI EST DONC INSCRIT
+ICI.** L'acquisition du 2026-09-16 **n'est pas exhaustive**. Sont relevés au
+texte : **articles XV, XX, XXIV, XXV** et **annexes H, I, J, K, M**. **Ne sont
+PAS relevés** : les **articles XVI, XVII, XVIII, XXI, XXII et XXIII**, qui
+complètent le compte de tirages spéciaux — dont **l'article XVIII, allocation et
+annulation**, que le tableau des priorités du Livre 10 nommait au rang 1 aux
+côtés de XV et XX. **Ils sont sur la même page et n'ont pas été ouverts.**
+**L'article XIX avait été lu le 2026-09-09 par l'autre voie.**
+
+**ET L'OUVERTURE FORMELLE RESTE À FAIRE.** Rien de ce qui précède ne porte une
+source à `etat_lecture: ouverte` : l'édition, la date de vérification et la
+qualification appartiennent à l'auteur, au sens du § 11 de la convention.
