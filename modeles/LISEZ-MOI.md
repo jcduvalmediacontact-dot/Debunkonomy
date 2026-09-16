@@ -164,6 +164,14 @@ presque acquis d'avance.** Ce que la comparaison apporte est l'ordre de grandeur
 de ce que charges, recyclage et guichets doivent porter à sa place. La section G
 du test vérifie que chaque conclusion imprimée est celle que la sortie montre.
 
+**RÈGLE DE RÉVISION DE L'AUTEUR, 2026-09-16 — condition (1) d'A43 (3b).**
+`jouer(..., regle=...)` accepte une règle de révision ; laissée vide, le modèle
+suit son chemin d'origine, et la section H du test vérifie qu'une règle fournie ne
+change rien d'autre. `regle_de_revision_auteur` : glissement de 2,5 % par période
+hors corridor, dans les deux sens, et butée cumulée de 30 % au-delà de laquelle la
+révision s'arrête. Les trois candidates écartées restent versées pour que le choix
+se rejoue. **Le modèle départage mal les règles et très bien les conditions.**
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 

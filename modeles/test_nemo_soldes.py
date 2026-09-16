@@ -250,6 +250,105 @@ exiger(m.PAS_PARITE == declare,
        "et le pas de révision déclaré est toujours rendu à la fin")
 
 
+# =====================================================================
+print("")
+print("H. A43 (3b), CONDITION (1) — LA RÈGLE DE RÉVISION DE L'AUTEUR")
+# =====================================================================
+OPTIONS = ({}, {"symetrie_contraignante": False}, {"allocation_active": False},
+           {"procedure": "blocage"}, {"procedure": "conversion"})
+ecarts = 0
+for s in m.SCENARIOS:
+    for opt in OPTIONS:
+        _, j1, a1 = m.jouer(s, **opt)
+        _, j2, a2 = m.jouer(s, regle=m.regle_mecanique, **opt)
+        ecarts += a1 != a2
+        for p1, p2 in zip(j1, j2):
+            for champ in ("solde", "masse", "parite", "fac", "alloc", "bloque"):
+                ecarts += sum(abs(p1[champ][k] - p2[champ][k]) > 1e-9
+                              for k in p1[champ])
+exiger(ecarts == 0,
+       "une règle fournie passe par le même chemin que la règle par défaut : "
+       "la règle mécanique écrite comme règle reproduit le modèle à l'identique "
+       "(%d écart sur %d jeux)" % (ecarts, len(m.SCENARIOS) * len(OPTIONS)))
+
+jeux_regles = {}
+for s in m.SCENARIOS:
+    jeux_regles[s.cle] = (
+        m.jouer(s, regle=m.regle_mecanique),
+        m.jouer(s, regle=m.regle_de_revision_auteur),
+        m.jouer(s, regle=m.regle_de_revision_auteur, symetrie_contraignante=False))
+
+hors_butee, pas_hors_regle = 0, 0
+for s in m.SCENARIOS:
+    _, (_, j_a, _), _ = jeux_regles[s.cle]
+    prec = dict((c, 1.0) for c in m.CODES)
+    for p in j_a:
+        for c in m.CODES:
+            q = p["parite"][c]
+            hors_butee += abs(q - 1.0) > m.BUTEE_AUTEUR + 1e-12
+            if abs(q - prec[c]) > 1e-12 and \
+                    abs(abs(q / prec[c] - 1.0) - m.PAS_GLISSEMENT_AUTEUR) > 1e-9:
+                pas_hors_regle += 1
+            prec[c] = q
+exiger(hors_butee == 0,
+       "aucune parité ne s'écarte de plus de %.0f %% de sa valeur de départ"
+       % (100 * m.BUTEE_AUTEUR))
+exiger(pas_hors_regle == 0,
+       "chaque révision est exactement un pas de %.1f %%, dans un sens ou dans "
+       "l'autre" % (100 * m.PAS_GLISSEMENT_AUTEUR))
+
+for cle in ("S0", "S1", "S2", "S3"):
+    (e_m, _, _), (e_a, _, _), _ = jeux_regles[cle]
+    exiger(e_a.contraction["DEF"] < e_m.contraction["DEF"],
+           "%s : la règle de l'auteur réduit un peu la contraction du déficitaire "
+           "(%.0f contre %.0f)" % (cle, e_a.contraction["DEF"],
+                                   e_m.contraction["DEF"]))
+
+(e_m4, _, _), (e_a4, _, _), _ = jeux_regles["S4"]
+exiger(e_a4.parite["DEF"] < e_m4.parite["DEF"],
+       "S4 : la butée borne la dérive de la parité du déficitaire (%.2f contre "
+       "%.2f)" % (e_a4.parite["DEF"], e_m4.parite["DEF"]))
+exiger(e_a4.contraction["DEF"] >= e_m4.contraction["DEF"],
+       "S4 : SANS y réduire la contraction (%.0f contre %.0f) — la perte durable "
+       "d'un débouché passe à la procédure structurelle"
+       % (e_a4.contraction["DEF"], e_m4.contraction["DEF"]))
+
+depass_contraignante = sum(len(codes(jeux_regles[s.cle][1][2], "[C6]"))
+                           for s in m.SCENARIOS)
+depass_deliberative = sum(len(codes(jeux_regles[s.cle][2][2], "[C6]"))
+                          for s in m.SCENARIOS)
+exiger(depass_deliberative > depass_contraignante,
+       "sous la règle de l'auteur, retirer l'obligation contraignante des "
+       "excédentaires fait passer les dépassements de %d à %d : aucune règle de "
+       "révision ne la remplace" % (depass_contraignante, depass_deliberative))
+exiger(all(abs(taux_essentiel(jeux_regles[s.cle][1][0]) - 100.0) < 1e-9
+           for s in m.SCENARIOS),
+       "et le pays pauvre reste servi en totalité dans les cinq scénarios")
+
+synthese = dict((libelle, m.mesurer_regle(regle))
+                for libelle, regle in m.REGLES_MESUREES)
+mecanique = synthese["mécanique, par défaut"]
+exiger(synthese["auteur : glissement + butée"]["contraction"]
+       < mecanique["contraction"],
+       "synthèse : la règle de l'auteur réduit la contraction cumulée de S0 à S3 "
+       "(%.0f contre %.0f)" % (synthese["auteur : glissement + butée"]["contraction"],
+                               mecanique["contraction"]))
+for libelle in ("créancier d'abord", "glissement lent (1 %)"):
+    exiger(synthese[libelle]["contraction"] > mecanique["contraction"],
+           "synthèse : « %s » fait pire que la règle par défaut (%.0f contre %.0f)"
+           % (libelle, synthese[libelle]["contraction"], mecanique["contraction"]))
+exiger(synthese["proportionnelle bornée"]["pas_max"]
+       > synthese["auteur : glissement + butée"]["pas_max"],
+       "synthèse : la proportionnelle bornée révise par sauts plus grands que la "
+       "règle de l'auteur (%.1f %% contre %.1f %%)"
+       % (100 * synthese["proportionnelle bornée"]["pas_max"],
+          100 * synthese["auteur : glissement + butée"]["pas_max"]))
+exiger(all(r["depass_delib"] > r["depass"] for r in synthese.values()),
+       "synthèse : sous obligation délibérative, CHACUNE des cinq règles dépasse "
+       "davantage le plafond — le modèle départage mal les règles et très bien "
+       "les conditions")
+
+
 print("")
 if ECHECS:
     print("ÉCHEC — le programme n'applique pas ses règles :")

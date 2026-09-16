@@ -85,6 +85,11 @@ PERSISTANCE_STRUCTUREL = 5    # périodes de déficit essentiel avant allocation
 PAS_PARITE = 0.05
 PERSISTANCE_PARITE = 2
 
+# RÈGLE DE RÉVISION DE L'AUTEUR — A43 (3b), condition (1), arrêtée le 2026-09-16.
+# Deux repères DÉCLARÉS, non calibrés ; la durée d'une période reste abstraite.
+PAS_GLISSEMENT_AUTEUR = 0.025
+BUTEE_AUTEUR = 0.30
+
 # (4) élasticité des échanges à la parité relative. Les postes ESSENTIELS
 # sont inélastiques par définition : c'est ce qui les rend essentiels.
 ELASTICITE = 0.8
@@ -199,7 +204,7 @@ def charge_graduee(solde, quota):
 
 
 def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
-          allocation_active=True):
+          allocation_active=True, regle=None):
     e = Etat()
     journal, anomalies = [], []
     base = echanges_de_base()
@@ -369,6 +374,19 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         for c in CODES:
             dehors = abs(e.solde[c]) > CORRIDOR * QUOTA[c]
             e.hors_corridor[c] = e.hors_corridor[c] + 1 if dehors else 0
+            if regle is not None:
+                # RÈGLE DE RÉVISION FOURNIE : elle décide seule du moment et
+                # de l'ampleur ; une parité changée remet le compteur à zéro.
+                # L'obligation excédentaire délibérative reste un paramètre
+                # du régime, non de la règle.
+                if not dehors or (e.solde[c] > 0 and not symetrie_contraignante):
+                    continue
+                nouvelle = regle(e.solde[c], QUOTA[c], e.hors_corridor[c],
+                                 e.parite[c])
+                if nouvelle != e.parite[c]:
+                    e.parite[c] = nouvelle
+                    e.hors_corridor[c] = 0
+                continue
             if e.hors_corridor[c] < PERSISTANCE_PARITE:
                 continue
             crediteur = e.solde[c] > 0
@@ -576,6 +594,47 @@ def jouer_a_parites(scenario, pas, **options):
         PAS_PARITE = garde
 
 
+def regle_mecanique(solde, quota, periodes_hors_corridor, parite):
+    """La règle employée par défaut, écrite comme une règle fournie : un pas de
+    PAS_PARITE après PERSISTANCE_PARITE périodes hors corridor. Elle sert à
+    vérifier que le chemin des règles fournies reproduit exactement le modèle."""
+    if periodes_hors_corridor < PERSISTANCE_PARITE:
+        return parite
+    return parite * (1.0 - PAS_PARITE) if solde > 0 else parite * (1.0 + PAS_PARITE)
+
+
+def regle_de_revision_auteur(solde, quota, periodes_hors_corridor, parite):
+    """CONDITION (1) D'A43 (3b) : LA RÈGLE DE RÉVISION DES PARITÉS, CHOISIE PAR
+    L'AUTEUR LE 2026-09-16 PARMI QUATRE RÈGLES MESURÉES.
+
+    « Tant qu'un pays reste hors du corridor, sa parité glisse de 2,5 % à
+    chaque période — vers la réévaluation s'il est excédentaire, vers la
+    dévaluation s'il est déficitaire. Aucune révision ne l'éloigne de plus de
+    30 % de sa valeur de départ ; au-delà, la révision s'arrête et la procédure
+    structurelle prend le relais. »
+
+    Une formule, non un comité : elle ne s'anticipe pas et ne se bloque pas par
+    un veto intéressé. De petits pas plutôt que des sauts. Les deux côtés
+    bougent. Le modèle ne l'appelle qu'hors du corridor.
+
+    Entrées, pour un pays et une période :
+      solde                   solde NEMO cumulé (positif : créancier)
+      quota                   quota du pays (CORRIDOR * quota = seuil toléré)
+      periodes_hors_corridor  périodes consécutives hors du corridor
+      parite                  parité courante (1.0 au départ)
+    Sortie : la nouvelle parité. Rendre `parite` inchangée, c'est ne pas réviser.
+    """
+    if solde > 0:
+        nouvelle = parite * (1.0 - PAS_GLISSEMENT_AUTEUR)
+    else:
+        nouvelle = parite * (1.0 + PAS_GLISSEMENT_AUTEUR)
+    if abs(nouvelle - 1.0) > BUTEE_AUTEUR:
+        # au-delà de la butée, la révision s'arrête : la perte durable d'un
+        # débouché relève de la procédure structurelle, non du change
+        return parite
+    return nouvelle
+
+
 def comparer_parites():
     """A43 (3), SCINDÉ PAR L'AUTEUR LE 2026-09-16 : PARITÉS ADMINISTRÉES
     CONTRE PARITÉS STRICTEMENT FIXES.
@@ -626,6 +685,119 @@ def comparer_parites():
     print("      CE QU'ELLE NE MONTRE PAS : un seuil acceptable de contraction —")
     print("      aucun n'est calibré —, ni l'inflation, les prix n'étant pas")
     print("      endogènes.")
+
+
+def regle_proportionnelle_bornee(solde, quota, periodes_hors_corridor, parite):
+    """CANDIDATE ÉCARTÉE LE 2026-09-16. Après PERSISTANCE_PARITE périodes hors
+    corridor, un pas égal à la moitié de l'écart au corridor, borné à 10 %, avec
+    la même butée que la règle de l'auteur. Correction comparable, mais des
+    sauts jusqu'à 10 %, plus faciles à anticiper."""
+    if periodes_hors_corridor < PERSISTANCE_PARITE:
+        return parite
+    pas = min(0.10, 0.5 * (abs(solde) / quota - CORRIDOR))
+    nouvelle = parite * (1.0 - pas) if solde > 0 else parite * (1.0 + pas)
+    return parite if abs(nouvelle - 1.0) > BUTEE_AUTEUR else nouvelle
+
+
+def regle_crediteur_dabord(solde, quota, periodes_hors_corridor, parite):
+    """CANDIDATE ÉCARTÉE LE 2026-09-16. L'excédentaire réévalue de 5 % après
+    deux périodes hors corridor ; le déficitaire ne dévalue de 5 % qu'après
+    quatre. Un choix de doctrine, que le modèle ne soutient pas."""
+    if solde > 0:
+        return parite * 0.95 if periodes_hors_corridor >= 2 else parite
+    return parite * 1.05 if periodes_hors_corridor >= 4 else parite
+
+
+def regle_glissement_lent(solde, quota, periodes_hors_corridor, parite):
+    """CANDIDATE ÉCARTÉE LE 2026-09-16. Un pas de 1 % à chaque période hors
+    corridor, sans butée : la même forme que la règle de l'auteur, trop lente."""
+    return parite * 0.99 if solde > 0 else parite * 1.01
+
+
+REGLES_MESUREES = (
+    ("mécanique, par défaut", regle_mecanique),
+    ("auteur : glissement + butée", regle_de_revision_auteur),
+    ("proportionnelle bornée", regle_proportionnelle_bornee),
+    ("créancier d'abord", regle_crediteur_dabord),
+    ("glissement lent (1 %)", regle_glissement_lent),
+)
+
+
+def mesurer_regle(regle):
+    """Synthèse d'une règle sur les cinq scénarios : contraction du déficitaire
+    et solde final de l'excédentaire cumulés de S0 à S3, parité du déficitaire
+    en S4, dépassements sous obligation contraignante puis délibérative, et
+    plus grand pas de révision observé."""
+    r = {"contraction": 0.0, "solde_exc": 0.0, "parite_s4": None,
+         "depass": 0, "depass_delib": 0, "pas_max": 0.0}
+    for sc in SCENARIOS:
+        e, journal, anomalies = jouer(sc, regle=regle)
+        _, _, delib = jouer(sc, regle=regle, symetrie_contraignante=False)
+        if sc.cle in ("S0", "S1", "S2", "S3"):
+            r["contraction"] += e.contraction["DEF"]
+            r["solde_exc"] += e.soldes_par_periode["EXC"][-1]
+        if sc.cle == "S4":
+            r["parite_s4"] = e.parite["DEF"]
+        r["depass"] += len([a for a in anomalies if a.startswith("[C6]")])
+        r["depass_delib"] += len([a for a in delib if a.startswith("[C6]")])
+        prec = dict((c, 1.0) for c in CODES)
+        for p in journal:
+            for c in CODES:
+                if abs(p["parite"][c] - prec[c]) > 1e-12:
+                    r["pas_max"] = max(r["pas_max"],
+                                       abs(p["parite"][c] / prec[c] - 1.0))
+                prec[c] = p["parite"][c]
+    return r
+
+
+def comparer_regles():
+    """A43 (3b), CONDITION (1) : LA RÈGLE DE L'AUTEUR CONTRE LA RÈGLE MÉCANIQUE.
+
+    Le modèle départage mal les règles et très bien les conditions. La sortie
+    doit montrer les deux, et ne pas taire le résultat défavorable en S4.
+    """
+    print("")
+    print("  RÈGLE DE L'AUTEUR — glissement de %.1f %% par période hors corridor,"
+          % (100 * PAS_GLISSEMENT_AUTEUR))
+    print("  butée cumulée de %.0f %% — CONTRE LA RÈGLE MÉCANIQUE (%.0f %% après %d"
+          % (100 * BUTEE_AUTEUR, 100 * PAS_PARITE, PERSISTANCE_PARITE))
+    print("  périodes hors corridor)")
+    print("  %-4s %-10s %16s %10s %11s %13s %16s"
+          % ("", "règle", "contraction DEF", "solde EXC", "parité DEF",
+             "dépassements", "si délibérative"))
+    for sc in SCENARIOS:
+        for libelle, regle in (("mécanique", regle_mecanique),
+                               ("auteur", regle_de_revision_auteur)):
+            e, _, anomalies = jouer(sc, regle=regle)
+            _, _, delib = jouer(sc, regle=regle, symetrie_contraignante=False)
+            print("  %-4s %-10s %16.0f %10.0f %11.2f %13d %16d"
+                  % (sc.cle, libelle, e.contraction["DEF"],
+                     e.soldes_par_periode["EXC"][-1], e.parite["DEF"],
+                     len([a for a in anomalies if a.startswith("[C6]")]),
+                     len([a for a in delib if a.startswith("[C6]")])))
+    print("      CE QUE LA SORTIE MONTRE. De S0 à S3, la règle de l'auteur réduit")
+    print("      un peu la contraction du déficitaire. En S4, la butée borne la")
+    print("      dérive de sa parité SANS y réduire la contraction : la perte")
+    print("      durable d'un débouché passe à la procédure structurelle. Et sous")
+    print("      obligation délibérative, les dépassements restent : AUCUNE RÈGLE DE")
+    print("      RÉVISION NE REMPLACE L'OBLIGATION CONTRAIGNANTE DES EXCÉDENTAIRES.")
+    print("      CE QU'ELLE NE MONTRE PAS : la prévisibilité — le modèle n'a ni")
+    print("      anticipations ni spéculation —, ni aucun calibrage.")
+    print("")
+    print("  LES CINQ RÈGLES MESURÉES AVANT LE CHOIX DE L'AUTEUR")
+    print("  %-28s %12s %10s %11s %8s %10s %8s"
+          % ("règle", "contr. S0-S3", "EXC S0-S3", "parité S4", "dépass.",
+             "délibér.", "pas max"))
+    for libelle, regle in REGLES_MESUREES:
+        r = mesurer_regle(regle)
+        print("  %-28s %12.0f %10.0f %11.2f %8d %10d %7.1f %%"
+              % (libelle, r["contraction"], r["solde_exc"], r["parite_s4"],
+                 r["depass"], r["depass_delib"], 100 * r["pas_max"]))
+    print("      LE MODÈLE DÉPARTAGE MAL LES RÈGLES ET TRÈS BIEN LES CONDITIONS.")
+    print("      Les meilleures ne réduisent la contraction que de quelques pour")
+    print("      cent ; « créancier d'abord » et un glissement trop lent font pire")
+    print("      que la règle par défaut ; et sous obligation délibérative, toutes")
+    print("      dépassent le plafond bien davantage.")
 
 
 def comparer_guichets(scenario):
@@ -688,6 +860,12 @@ def main():
     print("A43 (3) SCINDÉ — CE QUE COÛTENT DES PARITÉS STRICTEMENT FIXES")
     print("=" * 78)
     comparer_parites()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b), CONDITION (1) — LA RÈGLE DE RÉVISION DE L'AUTEUR")
+    print("=" * 78)
+    comparer_regles()
     return 0
 
 

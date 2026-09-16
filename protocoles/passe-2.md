@@ -7196,3 +7196,36 @@ qualification appartiennent à l'auteur, au sens du § 11 de la convention.
 ### CE QUI RESTE OUVERT
 
 **La règle de révision** (condition 1) — aucune n'est écrite, et le modèle emploie un pas mécanique qui n'est la règle de personne. **Le financeur** (condition 4), qui est la question « qui finance » laissée ouverte par A45. **Les sources primaires de l'Union européenne des paiements.** **Et CONTROLE-DES-CAPITAUX**, dont aucune modalité n'est tranchée.
+
+
+## A43 (3b), CONDITION (1) — LA RÈGLE DE RÉVISION DES PARITÉS, CHOISIE PAR L'AUTEUR LE 2026-09-16
+
+**LA RÈGLE, DANS LES TERMES RETENUS PAR L'AUTEUR** :
+
+> « Tant qu'un pays reste hors du corridor, sa parité glisse de 2,5 % à chaque période — vers la réévaluation s'il est excédentaire, vers la dévaluation s'il est déficitaire. Aucune révision ne l'éloigne de plus de 30 % de sa valeur de départ ; au-delà, la révision s'arrête et la procédure structurelle prend le relais. »
+
+**COMMENT ELLE A ÉTÉ CHOISIE.** L'auteur a demandé de l'aide pour l'écrire. Quatre formes ont été mesurées contre la règle mécanique par défaut du modèle de compensation, puis l'auteur a retenu la forme recommandée. `python modeles/nemo_soldes.py`, section finale `comparer_regles` ; chaque conclusion est vérifiée par la section H de `modeles/test_nemo_soldes.py`. **Le branchement des règles reproduit le modèle d'origine à l'identique**, zéro écart sur vingt-cinq jeux, et c'est la première vérification de la section. Des variantes de réglage ont été jouées en séance pour éprouver le classement ; elles ne sont pas versées, et aucun de leurs chiffres n'est cité ici.
+
+| règle | contraction du déficitaire, S0 à S3 | solde final de l'excédentaire, S0 à S3 | parité du déficitaire en S4 | dépassements | dépassements si l'obligation est délibérative | plus grand pas |
+|---|---|---|---|---|---|---|
+| mécanique, par défaut | 1523 | 1274 | 1,48 | 9 | 25 | 5,0 % |
+| auteur : glissement + butée | 1432 | 1244 | 1,28 | 8 | 25 | 2,5 % |
+| proportionnelle bornée | 1416 | 1294 | 1,20 | 8 | 25 | 10,0 % |
+| créancier d'abord | 1700 | 1832 | 1,22 | 9 | 26 | 5,0 % |
+| glissement lent (1 %) | 2428 | 2755 | 1,17 | 9 | 25 | 1,0 % |
+
+### QUATRE ENSEIGNEMENTS
+
+**(1) LE MODÈLE DÉPARTAGE MAL LES RÈGLES ET TRÈS BIEN LES CONDITIONS.** La règle de l'auteur réduit la contraction cumulée du déficitaire de 6 %. Retirer l'obligation contraignante des excédentaires fait passer ses dépassements de 8 à 25, et **chacune** des cinq règles dépasse davantage le plafond sous obligation délibérative. **La règle de révision est un levier de second ordre ; la condition (2) reste la plus lourde.**
+
+**(2) C'EST LE RYTHME QUI CORRIGE, NON LA FORME.** La même forme de glissement fait pire que la règle par défaut à 1 % par période (2428 contre 1523) et mieux à 2,5 % (1432). La proportionnelle bornée corrige à peu près autant (1416), mais par des pas allant jusqu'à 10 % contre 2.5 %.
+
+**(3) SANS BUTÉE, LA RÉVISION DÉRIVE FACE À UN DÉFICIT STRUCTUREL.** En S4, la règle par défaut laisse la parité du déficitaire aller jusqu'à 1,48 ; la butée de l'auteur l'arrête à 1,28. **Elle n'y réduit pas la contraction** (1641 contre 1631) : ce qu'elle fait, c'est passer la main à la procédure structurelle, condition (5), qui n'existe pas encore.
+
+**(4) « CRÉANCIER D'ABORD » NE PROTÈGE PAS LE DÉFICITAIRE DANS CE MODÈLE.** Retarder sa dévaluation retarde la correction : 1700 de contraction contre 1523. Ce qui compte dans le modèle est l'écart total des parités, non l'ordre dans lequel elles bougent. **Le retenir aurait été un choix de doctrine, non un gain mesuré.**
+
+### CE QUE LA RÈGLE N'ÉTABLIT PAS, ET IL FAUT LE DIRE AUSSI FORT
+
+**LA PRÉVISIBILITÉ N'EST PAS MESURÉE** : le modèle n'a ni anticipations ni spéculation. Préférer de petits pas et une formule à un comité est un choix de principe — la leçon du veto intéressé tirée de l'Union européenne des paiements, et L1.C26 § 3 sur la parité révisable par formule —, que le modèle ne peut ni confirmer ni réfuter. **Rien n'est calibré** : 2,5 % et 30 % sont des repères déclarés, et la durée d'une période reste abstraite.
+
+**LA CONDITION (1) A UNE RÈGLE ÉCRITE ; ELLE N'EST PAS SATISFAITE POUR AUTANT.** Il faudrait encore définir le corridor, la durée d'une période, la parité de départ et l'autorité qui applique la formule. **L'applicabilité de (3b) reste non jugée**, et les conditions (2) à (5) sont inchangées.
