@@ -18,18 +18,20 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S2
     nature: theorie
-    reference: "J. E. Lovelock, L. Margulis, « Atmospheric homeostasis by and for the biosphere: the Gaia hypothesis », Tellus, 26(1-2), p. 2-10, 1974 ; J. E. Lovelock, « A physical basis for life detection experiments », Nature, 207, p. 568-570, 1965"
+    reference: "J. E. Lovelock, L. Margulis, « Atmospheric homeostasis by and for the biosphere: the Gaia hypothesis », Tellus, 26(1-2), p. 2-10, 1974 ; J. E. Lovelock, « A physical basis for life detection experiments », Nature, 207, p. 568-570, 1965 ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : J. E. Lovelock, « A physical basis for life detection experiments », 1965 reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu, et l'hypothèse que le corps nomme est celle de 1974. OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/lovelock-margulis-1974-gaia-hypothesis-tellus-fourni.pdf, 9 pages, SHA-256 20ECBA10F36F31B4B7F1C7283E7A77EF3ADBA0B5CCD4B0179DBC95B5EB873C25). Passages lus : « Atmospheric homeostasis by and for the biosphere: the Gaia hypothesis » (page PDF 1) ; la notion d'homéostasie, « homeostasis », dès la page PDF 1."
     url: "https://doi.org/10.1111/j.2153-3490.1974.tb01946.x"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S3
     nature: theorie
     reference: "W. F. Doolittle, « Is Nature Really Motherly? », CoEvolution Quarterly, 29, p. 58-63, 1981 ; R. Dawkins, The Extended Phenotype, Oxford University Press, 1982, chapitre 13 (critiques de l'hypothèse Gaia : absence de population et de reproduction planétaires)"
     etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
-    reference: "T. M. Lenton, « The evolution of Gaia(s) », Philosophical Transactions of the Royal Society B, 380(1931), art. 20240095, 2025 ; numéro thématique « Chance and purpose in the evolution of biospheres », P. C. J. Donoghue, T. M. Lenton et al., art. 20240085"
+    reference: "T. M. Lenton, « The evolution of Gaia(s) », Philosophical Transactions of the Royal Society B, 380(1931), art. 20240095, 2025 ; numéro thématique « Chance and purpose in the evolution of biospheres », P. C. J. Donoghue, T. M. Lenton et al., art. 20240085 OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/lenton-2025-evolution-of-gaias-fourni.pdf, 12 pages, SHA-256 1035C52BA9572E1C75B397AE0BAC0BEAF181A83F8B93396F4451732DFAC434A2). Passages lus : « The evolution of Gaia(s) » (page PDF 1) ; « Chance and purpose in the evolution of biospheres » (page PDF 1)."
     url: "https://doi.org/10.1098/rstb.2024.0095"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S5
     nature: theorie
     reference: "I. Prigogine, I. Stengers, La Nouvelle Alliance, Gallimard, 1979 (structures dissipatives ; prix Nobel de chimie 1977)"
@@ -40,9 +42,10 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
-    reference: "J. Rockström et al., « A safe operating space for humanity », Nature, 461, 2009 ; K. Richardson et al., « Earth beyond six of nine planetary boundaries », Science Advances, 9(37), 2023"
+    reference: "J. Rockström et al., « A safe operating space for humanity », Nature, 461, 2009 ; K. Richardson et al., « Earth beyond six of nine planetary boundaries », Science Advances, 9(37), 2023 ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : J. Rockström et al., « A safe operating space for humanity », Nature, 2009 reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu ; son titre ne figure dans la pièce lue qu'à la page PDF 12, c'est-à-dire dans la bibliographie de Richardson, qui le cite — une citation n'est pas une lecture. OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/richardson-2023-earth-beyond-six-of-nine-fourni.pdf, 17 pages, SHA-256 C8301F463C28F77874D4BBF8F51B7F033C6F9E7451516AF6B6571B77A4B6B898). Passages lus : « Earth beyond six of nine planetary boundaries » (page PDF 1)."
     url: "https://doi.org/10.1126/sciadv.adh2458"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S8
     nature: theorie
     reference: "P. Tucker, Unelected Power: The Quest for Legitimacy in Central Banking and the Regulatory State, Princeton University Press, 2018, deuxième partie (principes de délégation)"
@@ -60,9 +63,10 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S11
     nature: theorie
-    reference: "S. Wunder, « When payments for environmental services will work for conservation », Conservation Letters, 6(4), p. 230-237, 2013"
+    reference: "S. Wunder, « When payments for environmental services will work for conservation », Conservation Letters, 6(4), p. 230-237, 2013 OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/wunder-2013-payments-environmental-services-fourni.pdf, 8 pages, SHA-256 209B43EFBF4052C7E8AED2593B756251BB27F2B575D75C7370F466468D65A312). Passages lus : « When payments for environmental services will work for conservation » (page PDF 1)."
     url: "https://doi.org/10.1111/conl.12034"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S12
     nature: theorie
     reference: "G. F. Knapp, Staatliche Theorie des Geldes, 1905 ; G. Ingham, The Nature of Money, Polity Press, 2004 (théorie chartaliste : l'acceptation en paiement de l'impôt fonde le pouvoir libératoire)"

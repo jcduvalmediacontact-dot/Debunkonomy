@@ -39,8 +39,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S7
     nature: normatif
-    reference: "Directive 2006/112/CE du 28 novembre 2006 relative au système commun de taxe sur la valeur ajoutée — la TVA est assise sur la consommation finale et neutralise les transactions intermédiaires par le mécanisme de déduction, ce qui évite l'effet de cascade propre aux taxes sur le chiffre d'affaires"
-    etat_lecture: a_requalifier
+    reference: "Directive 2006/112/CE du 28 novembre 2006 relative au système commun de taxe sur la valeur ajoutée — la TVA est assise sur la consommation finale et neutralise les transactions intermédiaires par le mécanisme de déduction, ce qui évite l'effet de cascade propre aux taxes sur le chiffre d'affaires OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/directive-2006-112-ce-tva-joue-fourni.pdf, 118 pages, SHA-256 01E418560BA9EE08566B6CF039545F5C81D408628A01EDC6AEB97CED0F083C8F). Passages lus : le droit à déduction de la taxe acquittée en amont, « droit à déduction », page PDF 7 : c'est le mécanisme par lequel la taxe frappe chaque étape sans cascade, que le corps décrit."
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S8
     nature: theorie
     reference: "J. Tobin, « A Proposal for International Monetary Reform », Eastern Economic Journal, 4(3-4), p. 153-159, 1978 — taxe sur les transactions de change ; littérature ultérieure sur les taxes sur les transactions financières et leurs effets sur la liquidité et la volatilité des marchés"
@@ -60,8 +61,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S12
     nature: jurisprudence
-    reference: "Cour de justice de l'Union européenne, grande chambre, 22 novembre 2022, affaires jointes C-37/20 et C-601/20 (WM et Sovim SA contre Luxembourg Business Registers), ECLI:EU:C:2022:912 — l'accès du grand public aux informations sur les bénéficiaires effectifs constitue une ingérence grave dans les droits garantis par les articles 7 et 8 de la Charte, non limitée au strict nécessaire ni proportionnée à l'objectif poursuivi. Norme d'échange automatique de renseignements de l'OCDE : déclarations annuelles différées, avec exemptions documentées"
-    etat_lecture: a_requalifier
+    reference: "Cour de justice de l'Union européenne, grande chambre, 22 novembre 2022, affaires jointes C-37/20 et C-601/20 (WM et Sovim SA contre Luxembourg Business Registers), ECLI:EU:C:2022:912 — l'accès du grand public aux informations sur les bénéficiaires effectifs constitue une ingérence grave dans les droits garantis par les articles 7 et 8 de la Charte, non limitée au strict nécessaire ni proportionnée à l'objectif poursuivi. Norme d'échange automatique de renseignements de l'OCDE : déclarations annuelles différées, avec exemptions documentées OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/cjue-2022-11-22-c-37-20-c-601-20-grande-chambre-fourni.pdf, 24 pages, SHA-256 27EEE9375E19796B62E1DE45A0E1EDCD087531556787E0E720DDB0C762915DE1). Passages lus : « ARRÊT DE LA COUR (grande chambre) » (page PDF 1) ; « 22 novembre 2022 » (page PDF 1) ; l'ingérence dans les droits de la Charte, « ingérence grave » (page PDF 15), et les « articles 7 et 8 » (page PDF 1)."
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S13
     nature: theorie
     reference: "M. Friedman, « The Role of Monetary Policy », American Economic Review, 58(1), p. 1-17, 1968 ; et A Program for Monetary Stability, Fordham University Press, 1960 — l'effet d'une action de politique monétaire sur l'activité et les prix arrive avec des délais LONGS ET VARIABLES, de sorte qu'une correction décidée sur l'état observé agit sur un état déjà différent ; un pilotage discrétionnaire risque d'amplifier les fluctuations au lieu de les amortir. RÉSERVE : références non ouvertes de première main dans cette passe ; à vérifier avant toute citation littérale ou tout emploi chiffré"
@@ -72,8 +74,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S15
     nature: theorie
-    reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-492, 1977 — une autorité libre de réviser son plan à chaque période obtient un résultat inférieur à celle qui se lie par une règle annoncée, parce que les agents anticipent la révision. DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 pour le comportement des États (P34b) ; employée ici pour la première fois contre l'instrument du dispositif lui-même. RÉSERVE : référence non ouverte de première main"
-    etat_lecture: a_requalifier
+    reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-492, 1977 — une autorité libre de réviser son plan à chaque période obtient un résultat inférieur à celle qui se lie par une règle annoncée, parce que les agents anticipent la révision. DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 pour le comportement des États (P34b) ; employée ici pour la première fois contre l'instrument du dispositif lui-même. RÉSERVE : référence non ouverte de première main OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/kydland-prescott-1977-rules-rather-than-discretion-fourni.pdf, 19 pages, SHA-256 1E9A51A11514DC3B54F5B5D17B9421F627B9BA23E090679EEF48F8723DAEFD53). Passages lus : « Rules Rather than Discretion: The Inconsistency of Optimal Plans » (page PDF 1) ; « inconsistent », dès la page PDF 2."
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
 verifications_en_attente:
   - "iedman, Lucas et Kydland-Prescott de première main [S13], [S14], [S15].
      Les trois références portent le § sur le mode de fixation des

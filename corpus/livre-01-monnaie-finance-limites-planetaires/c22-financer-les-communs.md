@@ -76,9 +76,10 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S14
     nature: theorie
-    reference: "F. Kydland, E. Prescott, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-491, 1977 — une règle annoncée devient coûteuse à tenir au moment où elle devrait s'appliquer, et l'anticipation de son abandon suffit à modifier le comportement des agents avant toute application"
+    reference: "F. Kydland, E. Prescott, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), p. 473-491, 1977 — une règle annoncée devient coûteuse à tenir au moment où elle devrait s'appliquer, et l'anticipation de son abandon suffit à modifier le comportement des agents avant toute application OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/kydland-prescott-1977-rules-rather-than-discretion-fourni.pdf, 19 pages, SHA-256 1E9A51A11514DC3B54F5B5D17B9421F627B9BA23E090679EEF48F8723DAEFD53). Passages lus : « Rules Rather than Discretion: The Inconsistency of Optimal Plans » (page PDF 1) ; « inconsistent », dès la page PDF 2."
     url: "https://doi.org/10.1086/260580"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
 verifications_en_attente:
   - "DEUX ENTRÉES RESTENT FERMÉES ET LE MOTIF EST MATÉRIEL, constaté le 2026-09-16. [S3] SAMUELSON : les deux exemplaires versés au dossier ne portent pas le texte de l'article — couche de texte vide pour l'un, page de garde JSTOR seule pour l'autre — alors que L1.C09 [S11] le déclare ouvert et lu le 2026-09-13 sans nommer d'exemplaire. [S4] OSTROM, Governing the Commons (1990) : L1.C15 [S4] le déclare ouvert le 2026-09-13, avec les pages 26-27, 90 et 101-102, mais AUCUN EXEMPLAIRE N'EST VERSÉ AU CODEX et l'ouvrage est sous droits. Le corps de CE chapitre lui fait par ailleurs dire plus que L1.C15 : l'inventaire empirique des institutions, la distinction entre libre accès et commun gouverné, les huit principes. Rien de cela ne peut être relu. CE QUI OUVRIRAIT CES DEUX ENTRÉES : un exemplaire portant le texte, versé au dossier. Pour Ostrom, l'auteur possède peut-être l'ouvrage ; à défaut, les passages et leurs pages, relevés par lui."
   # ── Méthode ────────────────────────────────────────────────────────────────

@@ -39,9 +39,10 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
-    reference: "R. A. Mundell, « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 — sous mobilité parfaite du capital et change fixe, une banque centrale n'a plus de pouvoir sur la masse monétaire sinon transitoirement. Déjà employé en L1.C19 § 6"
+    reference: "R. A. Mundell, « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 — sous mobilité parfaite du capital et change fixe, une banque centrale n'a plus de pouvoir sur la masse monétaire sinon transitoirement. Déjà employé en L1.C19 § 6 ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », 1962 reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu, et le triangle d'incompatibilité que le corps invoque est démontré dans l'article de Mundell. OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/mundell-1963-capital-mobility-stabilization-policy-fourni.pdf, 14 pages, SHA-256 C80FFF0C42CB564E91BA8E322F75DFD43C6C97837852D459A16BD3DAA0004D78). Passages lus : « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates » (page PDF 1) ; « the central bank has no power over the money supply either » (page PDF 9)."
     url: "https://doi.org/10.2307/139336"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
   - ref: S8
     nature: theorie
     reference: "A. P. Thirlwall, « The Balance of Payments Constraint as an Explanation of International Growth Rate Differences », Banca Nazionale del Lavoro Quarterly Review, 128, p. 45-53, 1979 — la contrainte extérieure y désigne un plafond de CROISSANCE de long terme, déterminé par le rapport des élasticités-revenu des exportations et des importations, et non une contrainte de trésorerie. RÉSERVE : référence de première main non ouverte ; Crossref n'indexe que des reprises ultérieures (McCombie et Thirlwall, 1994)"
