@@ -50,8 +50,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S9
     nature: theorie
-    reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, 2009 — une politique unique adoptée à la seule échelle mondiale est peu susceptible d'engendrer la confiance nécessaire à l'action collective ; argument en faveur d'une organisation à plusieurs échelles. DÉJÀ VERSÉE AU DOSSIER en L1.C22 § 2 (P19b, arbitrage A4)"
-    etat_lecture: a_requalifier
+    reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, 2009 — une politique unique adoptée à la seule échelle mondiale est peu susceptible d'engendrer la confiance nécessaire à l'action collective ; argument en faveur d'une organisation à plusieurs échelles. DÉJÀ VERSÉE AU DOSSIER en L1.C22 § 2 (P19b, arbitrage A4) OUVERTE PAR VERSEMENT depuis L1.C22 [S5] le 2026-09-16, sur l'exemplaire du dossier (2026-09-16/acquisitions-c17-c30/C22-S5-ostrom-2009-banque-mondiale-wps5095.pdf, 56 pages, SHA-256 EE38A92CA210A491F990979012FBB523449274B49262912685ECB7040AD315F7). RELECTURE : les deux énoncés que le corps emploie sont lus au mot à la page PDF 2 — « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place » et « simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems ». L'avantage revendiqué de l'approche polycentrique est à la même page : « encouraging experimental efforts at multiple levels ». CE QUE CETTE SOURCE NE PORTE PAS : elle est de 2009 et ne traite pas des institutions de petite échelle inventoriées dans Governing the Commons, dont aucun exemplaire n'est versé au dossier."
+    etat_lecture: ouverte
+    date_verification: 2026-09-16
 verifications_en_attente:
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Chapitre du livre lu intégralement avant rédaction ; bibliothèque de
