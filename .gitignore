@@ -39,6 +39,13 @@ protocoles/traitement-objections-*.md
 # Ce dossier porte son propre depot git, pousse vers un remote prive distinct.
 coordination/
 
+# SORTIE DU GENERATEUR DU § 13, ajoutee le 2026-09-16.
+# corpus/generer.py reconstruit ce dossier entier a chaque execution : il n'a
+# pas a etre versionne, et la convention interdit d'y toucher a la main.
+# Quand l'auteur decidera de publier, la sortie ira dans l'arbre du site, ou
+# elle devra etre suivie ; ce motif ne vise que le dossier de travail.
+corpus/genere/
+
 # Sauvegardes locales et archives
 Sauvegarde*/
 *.zip

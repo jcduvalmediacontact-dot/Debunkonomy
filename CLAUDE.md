@@ -157,13 +157,30 @@ Le convertisseur ne remplit délibérément que le mécanique — jugements
 Signaler ces points à l'utilisateur avant d'agir dessus, plutôt que d'y toucher
 en passant :
 
-- **Le générateur du § 13 n'est pas implémenté.** `controle.py` ne produit
-  que le rapport de diagnostic sur `stdout` ; les pages HTML du corpus, les
-  index par livre, le `llms.txt` propre au corpus, le glossaire, les `.md`
-  servis à côté des pages n'existent pas encore. Les deux empreintes du § 5
-  sont bien calculées et stockées dans `.etat-corpus.json` (voir
-  `controler_empreintes` dans `controle.py`), et le manifeste des occurrences
-  historiques est lu par le contrôle (E-L6, E-M1).
+- **Le générateur du § 13 existe depuis le 2026-09-16 : `corpus/generer.py`.**
+  Il produit les pages HTML avec JSON-LD, le `.md` servi à côté de chaque page,
+  un index de recherche par livre, l'index global léger, les tables des
+  matières, le `sitemap.xml`, les entrées du `llms.txt`, le glossaire tiré de
+  `vocabulaire.yaml` et la page de diagnostic en trois sections.
+  **Il n'émet que ce que la convention autorise** : statut `verifie`,
+  `citable: true`, toutes les sources `ouverte`. Tout le reste est compté, nommé
+  dans `diagnostic.html`, et laissé dehors. Il ne réimplémente aucune règle de
+  `controle.py`, qui reste l'autorité : la page de diagnostic reproduit sa
+  sortie telle quelle. Les deux empreintes du § 5 sont lues dans
+  `.etat-corpus.json`, jamais recalculées.
+
+  ```bash
+  python corpus/generer.py                     # émet dans corpus/genere/
+  python corpus/generer.py --sortie <dossier>  # ailleurs
+  python corpus/test_generer.py                # contrôle de la sortie
+  ```
+
+  **Ce qui reste ouvert.** La sortie n'est reliée à rien : `corpus/genere/` est
+  exclu du dépôt, et le site est servi depuis `main`, qui ne porte aucun fichier
+  du corpus. Publier suppose de trancher où la sortie est écrite dans l'arbre du
+  site, et de traiter le point ci-dessous sur le lien corpus ↔ site. Le `llms.txt`
+  produit est propre au corpus et **n'écrase pas** celui de la racine, qui décrit
+  le site et s'écrit à la main.
 - **`corpus/sources/` n'est pas dans l'arborescence du § 2.** Le dossier
   contient des fichiers `remediation-*.md` et `sources-*.md` (matière de
   vérification, hors schéma). Statut à clarifier avec l'utilisateur avant
