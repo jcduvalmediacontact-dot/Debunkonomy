@@ -53,7 +53,7 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S8
     nature: theorie
-    reference: "N. Georgescu-Roegen, The Entropy Law and the Economic Process, Harvard University Press, 1971 — l'appartenance de l'auteur au champ de l'économie écologique. ENTRÉE CRÉÉE le 2026-09-16 par application de D23, sur décision explicite de l'auteur du même jour. Aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR VERSEMENT depuis L1.C03 [S2], ouverte le 2026-09-14 sur l'exemplaire fourni par l'auteur. Le corps n'affirme que l'appartenance de Georgescu-Roegen à ce champ, que L1.C03 instruit sur le texte."
+    reference: "N. Georgescu-Roegen, The Entropy Law and the Economic Process, Harvard University Press, 1971 — l'appartenance de l'auteur au champ de l'économie écologique. ENTRÉE CRÉÉE le 2026-09-16 par application de D23, sur décision explicite de l'auteur du même jour. Aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR VERSEMENT depuis L1.C03 [S2], ouverte le 2026-09-14 sur l'exemplaire fourni par l'auteur. Le corps n'affirme que l'appartenance de Georgescu-Roegen à ce champ, que L1.C03 instruit sur le texte. EMPREINTE D'EXEMPLAIRE COMPLÉTÉE le 2026-09-16 : l'entrée déclarait la source ouverte sans nommer le condensé du fichier lu. Exemplaire retrouvé au Codex et IDENTIFIÉ SUR SON TITRE avant d'être retenu — 2026-09-14/c03/georgescu-entropy-law-1971.pdf, 467 pages, SHA-256 D6DAFF585087F1C7E879D0E6B6270F01BD4326A212A77B72D9BFD1E8598760BD. Ni le corps ni l'énoncé de l'entrée ne changent : seule l'empreinte manquait."
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:

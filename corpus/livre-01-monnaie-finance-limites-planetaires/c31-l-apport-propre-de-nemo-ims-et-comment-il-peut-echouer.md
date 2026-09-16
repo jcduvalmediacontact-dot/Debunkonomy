@@ -31,7 +31,7 @@ sources_primaires:
     date_verification: 2026-09-13
   - ref: S4
     nature: normatif
-    reference: "Traité sur le fonctionnement de l'Union européenne, version consolidée, JOUE C 202 du 7 juin 2016, art. 123 § 1 : interdiction des découverts, autres crédits et acquisitions directes d'instruments de dette au bénéfice des institutions de l'Union, administrations centrales, autorités publiques et organismes ou entreprises publics des États membres. Portée : obstacle propre au droit de l'Union et aux bénéficiaires qu'il vise, non interdiction mondiale de toute émission affectée. TEXTE OFFICIEL OUVERT SUR EUR-Lex le 2026-09-13."
+    reference: "Traité sur le fonctionnement de l'Union européenne, version consolidée, JOUE C 202 du 7 juin 2016, art. 123 § 1 : interdiction des découverts, autres crédits et acquisitions directes d'instruments de dette au bénéfice des institutions de l'Union, administrations centrales, autorités publiques et organismes ou entreprises publics des États membres. Portée : obstacle propre au droit de l'Union et aux bénéficiaires qu'il vise, non interdiction mondiale de toute émission affectée. TEXTE OFFICIEL OUVERT SUR EUR-Lex le 2026-09-13. EMPREINTE D'EXEMPLAIRE COMPLÉTÉE le 2026-09-16 : l'entrée déclarait la source ouverte sans nommer le condensé du fichier lu. Exemplaire retrouvé au Codex et IDENTIFIÉ SUR SON TITRE avant d'être retenu — 2026-09-15/c18/candidats/S8-tfue-consolide-2016-c202-eurlex-fourni.pdf, 351 pages, SHA-256 06716596DB18321D9E2808477326AD8A9318499E0056C8B9CA78AA5D4896AECF. Ni le corps ni l'énoncé de l'entrée ne changent : seule l'empreinte manquait."
     url: "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_123/oj/fra"
     etat_lecture: ouverte
     date_verification: 2026-09-13
