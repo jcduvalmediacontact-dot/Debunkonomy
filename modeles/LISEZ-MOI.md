@@ -198,6 +198,15 @@ laisserait manquer au moment des chocs, et montre où aboutit l'émission en S2 
 chez l'exportateur des biens essentiels. **Le registre n'est pas le solde de
 l'institution : il compte ce que le reflux aurait à retirer, il ne le retire pas.**
 
+**L'ACCUMULATION DE L'EXPORTATEUR, 2026-09-17 — D77 à D79.**
+`jouer` porte deux instruments, inactifs par défaut : `demurrage_soldes`, démurrage sur les
+soldes positifs de compensation, et `reliquat_plafond`, « conversion » ou « placement » de ce
+qui reste au-delà du plafond après recyclage. `OPTIONS_AUTEUR_COMPLETES` porte la conversion
+(D77) ; `OPTIONS_AVANT_D77` reproduit la configuration des sections antérieures, dont les
+chiffres publiés restent exacts. `comparer_accumulation_exportateur` publie les remèdes
+mesurés, le démurrage écarté (D78), la baisse de dépendance SUPPOSÉE qui motive D79, et le
+cas d'un retournement, vérifiés par la section L du test.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 

@@ -7350,3 +7350,54 @@ La suite d'une procédure close sur un échec ; les seuils du plafond, condition
 ### CE QUI RESTE OUVERT
 
 **L'accumulation de l'exportateur sous choc structurel, que les obligations retenues pour le créancier n'arrêtent pas** — Keynes en nommait le remède, l'annulation ou le placement forcé des soldes créditeurs persistants, et l'écartait. L'assiette du démurrage maintenu : atteint-il les soldes de compensation des banques centrales ? La taille de l'excédent du reflux et le reste de la formule d'affectation. Les seuils du plafond, condition (3) ; la suite d'une procédure close sur un échec. **L'applicabilité de (3b) reste non jugée.**
+
+
+## A43 (3b) — L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL, 2026-09-17
+
+La condition (4) a montré que, sous choc structurel, ce que l'allocation émet aboutit chez l'exportateur des biens essentiels, au-delà de son plafond et sans limite visible, et qu'aucun instrument retenu pour le créancier ne l'arrête. Cette section instruit les remèdes.
+
+### TROIS DÉCISIONS DE L'AUTEUR, PRISES SUR LA VOIE RECOMMANDÉE
+
+**(D77) LE RELIQUAT SANS DESTINATAIRE EST CONVERTI.** Ce qui reste au-delà du plafond d'un excédentaire, après recyclage et remboursements, est annulé contre le découvert de l'institution. Écartés : le placement forcé, qui en fait une créance de long terme sur l'institution, et l'accumulation acceptée.
+
+**(D78) LE DÉMURRAGE NE S'APPLIQUE PAS AUX SOLDES DE COMPENSATION.** Le démurrage maintenu par D76 reste un instrument de reflux sur les soldes intérieurs en unités ; il ne frappe pas les soldes des banques centrales à l'institution.
+
+**(D79) UNE PROCÉDURE CÔTÉ IMPORTATEUR EST RETENUE DANS SON PRINCIPE**, pour réduire la dépendance durable à une importation essentielle, comme PROCEDURE-STRUCTURELLE traite la perte durable d'un débouché ; sa réussite n'est pas supposée. **Ouverture, seuils, financement et revue restent à instruire** (DEPENDANCE-ESSENTIELLE).
+
+### CE QUE DISENT LES PIÈCES
+
+**LE PLAN KEYNES D'AVRIL 1943** — même pièce que pour les conditions (2) et (4), version (B), SHA-256 72A4C667FE33867CC636D7BF63E5F55EEBCDB4BED2F3EB482344414E8A3D3633. Le remède retenu est celui que Keynes envisageait puis écartait, cité plus haut dans la section de la condition (4). **Il posait d'abord le problème exactement comme le modèle le montre** : « For excessive credit balances necessarily create excessive debit balances for some other party. » **Il défendait ensuite l'accumulation elle-même** : « Unless the removal of a factor causing the involuntary reduction of exports is reckoned a disadvantage, a creditor country incurs no burden but is, on the contrary, relieved, by being offered the additional option of receiving payment for its exports through the accumulation of a bancor balance. » **Et il écartait le refus d'accepter des bancors au-delà d'un seuil** : « If, on the other hand, the limitation were to take the form of the creditor country not being required to accept bancor in excess of a prescribed figure, this might impair the general acceptability of bancor, whilst at the same time conferring no real benefit on the creditor country itself. » Dans le modèle, le « tiers » dont parle la première phrase est l'institution : son découvert est la contrepartie exacte de l'excédent accumulé.
+
+**SCHMIEDING, 1992** — `2026-09-16/uep/schmieding-1992-no-need-monetary-halfway-house-epu-kiel.pdf`, SHA-256 E1774EC9C07AF26DD8B4457DC902E160F04233B210D8B8A25C9A1AF67ED34A5F. **Un créancier structurel ne rejoint pas une union de paiements sans contrepartie** : « The US used further bilateral payments to induce countries such as Belgium, who expected to end up as structural creditors to the EPU, to participate in the scheme. » (page PDF 10). **Et le cas qu'il instruit est presque S2** : « As a major exporter of presently still underpriced oil and raw materials to other republics, Russia can expect to become and remain a structural creditor to the payments union. » ; « Via an EPU-style payments union, Russia would thus have to extend a permanent credit on soft terms to other republics. » (page PDF 27).
+
+**LE BULLETIN MENSUEL DE LA BCE, OCTOBRE 2011, ENCADRÉ 4** — `2026-09-17/accumulation/ecb-monthly-bulletin-2011-10.pdf`, SHA-256 81AB52C8E377B9F1EC54C131DEFE9C757FA9AE14A793BCA4C2DD98E11092D23F, page imprimée 39 (page PDF 40), folio relevé. **Dans une union monétaire, l'accumulation est acceptée par principe** : « As there can be no upper limit on the value of payment flows within a single currency area, there can be no upper limit on the TARGET2 balances of NCBs. » ; « Limiting the size of TARGET2 balances would be inconsistent with the concept of a currency union. » **Et le système fédéral américain règle ses soldes une fois l'an, sans les annuler** : « The annual settlement is based on each Reserve Bank’s average interdistrict balance during the preceding 12 months (April to March), so that it does not generally bring the balances back to zero. » ; « The settlement mainly consists in adjusting the relative shares of the 12 Reserve Banks in the securities holdings in the System Open Market Account of the Federal Reserve System. » **Aucun des deux ne se transpose.** Les deux valent à l'intérieur d'une monnaie unique ; NEMO IMS garde des monnaies nationales et des parités administrées (A32), et l'institution, qui émet sans actif, n'a pas de portefeuille à réallouer.
+
+### CE QUE MONTRE LE MODÈLE
+
+`python modeles/nemo_soldes.py`, section finale `comparer_accumulation_exportateur`, vérifiée par la section L de `modeles/test_nemo_soldes.py`. Deux instruments sont ajoutés à `jouer`, inactifs par défaut — le démurrage sur les soldes positifs de compensation et le traitement du reliquat au-delà du plafond ; laissés par défaut, ils reproduisent la version commitée, contrôle fait sur cinquante jeux. `OPTIONS_AUTEUR_COMPLETES` porte désormais D77 ; `OPTIONS_AVANT_D77` reproduit la configuration des sections antérieures, dont les chiffres restent ceux qui y sont publiés.
+
+**(1) SANS REMÈDE, L'ACCUMULATION EST SANS LIMITE, ET LE RECYCLAGE DÉRAILLE.** En S2, l'exportateur atteint 2862 à quatre-vingts périodes et 3450 à cent vingt, au-delà du plafond 83 fois ; le recyclage d'un excès accumulé se fait par gros prêts ponctuels, 27593 recyclés en cent vingt périodes, et la dette de recyclage du déficitaire atteint 3335.
+
+**(2) LA CONVERSION TIENT L'EXPORTATEUR AU PLAFOND ET STABILISE L'INSTITUTION** : aucun dépassement à quarante, quatre-vingts et cent vingt périodes, et un solde de l'institution qui ne bouge plus entre quatre-vingts et cent vingt (−1034), contre −4229 sans remède. **Elle ne change aucune trajectoire de S0, S1, S3 et S4**, à aucun des trois horizons. Le reliquat converti apure le découvert de D75 : versé, découvert, apuré et converti se bouclent.
+
+**(3) LE PLACEMENT FORCÉ NE FAIT QUE CHANGER L'ACCUMULATION DE REGISTRE** : mêmes comptes de compensation, mais une créance sur l'institution de 1851 à quatre-vingts périodes et 3211 à cent vingt, jamais restituée en S2.
+
+**(4) LE DÉMURRAGE SUR LA COMPENSATION RETIRE À L'EXCÉDENTAIRE CE QUE LE RECYCLAGE AURAIT PRÊTÉ** — le défaut des charges écartées par D71. En S4, sur quarante périodes, la masse du déficitaire devient négative dès 0,5 % (−7) ; à 1 %, 8 dépassements et 16 masses négatives ; à 4 %, 23 et 25.
+
+**(5) LA BUTÉE LEVÉE POUR LES CRÉANCIERS ARRÊTE L'ALLOCATION, AU PRIX D'UNE SPIRALE** : l'allocation cesse à 1704, mais les réévaluations se succèdent jusqu'à une parité de 0,095, et l'excédent passe d'un pays à l'autre, 78 dépassements en cent vingt périodes.
+
+**(6) SEULE UNE BAISSE DE LA DÉPENDANCE ARRÊTE L'ÉMISSION ELLE-MÊME — SUPPOSÉE, NON PRODUITE.** Réduite de moitié dès la période 11, l'allocation s'arrête à 366 ; réduite d'un quart, elle continue (1485 à quatre-vingts périodes) et, sans conversion, l'exportateur dépasse encore son plafond 27 fois. **C'est le motif de D79**, et le modèle ne dit rien de ce qu'une reconversion obtiendrait.
+
+### LE PRIX DU CHOIX DE L'AUTEUR
+
+**L'EXPORTATEUR PAIE.** En S2, il perd 1851 de créances à quatre-vingts périodes et 3211 à cent vingt ; sa masse reste à 1870, contre 3177 sans remède. **L'émission d'un besoin structurel cesse d'être permanente au niveau de l'institution parce qu'elle devient un transfert réel de l'exportateur.** C'est ce que Keynes jugeait trop lourd à demander aux créanciers, et ce que Schmieding montre qu'un créancier structurel n'accepte pas sans contrepartie : **F6 se resserre.**
+
+**SI SA POSITION SE RETOURNE, IL N'A PLUS DE RÉSERVE.** Dans un jeu où le choc cesse à la période 45 et où l'exportateur se met à importer, le placement lui aurait rendu 110 et son solde finit à 0 ; sous la conversion, il finit à −110.
+
+**PAR CONSTRUCTION, CE QUI LUI EST REMBOURSÉ AU-DELÀ DU PLAFOND EST ANNULÉ.** La conversion suit les remboursements des prêts de recyclage : ce qu'un déficitaire rend à un exportateur déjà au plafond part avec le reliquat. C'est une propriété de la règle, lue dans le code, non une mesure.
+
+**ET LA DETTE DE RECYCLAGE DU DÉFICITAIRE CONTINUE DE CROÎTRE** en S2 à long terme : 893 à quatre-vingts périodes, 2358 à cent vingt, moins que sans remède (3335), mais sans arrêt.
+
+### CE QUI RESTE OUVERT
+
+**L'instruction de D79** — ouverture, seuils, financement et revue de la procédure côté importateur. **L'adoption** : l'annulation automatique se consent à l'adhésion, et F6 dit ce que cela coûte. La dette de recyclage du déficitaire à long terme sous choc structurel ; les seuils du plafond, condition (3) ; la suite d'une procédure close sur un échec. **Rien n'est calibré, l'inflation n'est pas modélisée, et l'applicabilité de (3b) reste non jugée.**

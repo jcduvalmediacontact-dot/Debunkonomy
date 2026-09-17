@@ -517,7 +517,8 @@ print("K. A43 (3b), CONDITION (4) — QUI FINANCE LES GUICHETS ET LA RECONVERSIO
 # CE QUE CETTE SECTION NE PROUVE PAS : la taille du reflux. Il n'est pas modélisé,
 # et le repère est tiré des besoins eux-mêmes. Elle vérifie ce que le registre du
 # découvert compte, et que les conclusions publiées sont celles de la sortie.
-O = m.OPTIONS_AUTEUR_COMPLETES
+# La configuration AU MOMENT DE D75 : la conversion du reliquat (D77) a sa section.
+O = m.OPTIONS_AVANT_D77
 exiger(memes_trajectoires({}, {"reflux_apurement": 11.0}) == 0
        and memes_trajectoires(dict(O), dict(O, reflux_apurement=40.0)) == 0,
        "le registre du découvert ne change aucune trajectoire, avec ou sans apurement")
@@ -605,6 +606,114 @@ exiger(j_s1[-1]["decouvert"] < 1e-9 and e_s1.solde[m.INST] < -100,
        "LE REGISTRE N'EST PAS LE SOLDE : en S1, le découvert est apuré et l'institution "
        "reste à %.0f — le modèle compte ce que le reflux aurait à retirer, il ne le "
        "retire pas" % e_s1.solde[m.INST])
+
+
+# =====================================================================
+print("")
+print("L. A43 (3b) — L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : qu'un exportateur accepte d'avance
+# l'annulation (F6), ni qu'une reconversion de l'importateur réussisse — la baisse
+# de dépendance est SUPPOSÉE dans les jeux qui la mesurent.
+O77 = m.OPTIONS_AUTEUR_COMPLETES
+exiger(memes_trajectoires({}, {"demurrage_soldes": 0.0, "reliquat_plafond": None,
+                               "persistance_reliquat": 0}) == 0,
+       "les instruments ajoutés, laissés à leur valeur par défaut, ne changent rien")
+exiger(O77.get("reliquat_plafond") == "conversion" and not O77.get("demurrage_soldes")
+       and dict(O77, reliquat_plafond=None) == m.OPTIONS_AVANT_D77,
+       "la configuration de l'auteur porte la conversion du reliquat (D77) et aucun "
+       "démurrage sur la compensation (D78)")
+
+S2 = par_cle("S2")
+def remede(h, **extra):
+    return m.mesurer_accumulation(S2, h, **dict(O77, **extra))
+acc80, acc120 = remede(80, reliquat_plafond=None), remede(120, reliquat_plafond=None)
+conv = dict((h, remede(h)) for h in (40, 80, 120))
+exiger(acc120["solde_exc"] > 3 * m.QUOTA["EXC"] and acc120["au_dela_exc"] > 80
+       and acc120["recycle_exc"] > 5 * conv[120]["recycle_exc"],
+       "SANS REMÈDE, l'exportateur atteint %.0f à 120 périodes, au-delà du plafond %d "
+       "fois, et le recyclage d'un excès accumulé déraille (%.0f recyclés contre %.0f)"
+       % (acc120["solde_exc"], acc120["au_dela_exc"], acc120["recycle_exc"],
+          conv[120]["recycle_exc"]))
+plafond_exc = m.PLAFOND_SOLDE * m.QUOTA["EXC"]
+exiger(all(conv[h]["au_dela_exc"] == 0 and conv[h]["solde_exc"] <= plafond_exc + 1e-6
+           and conv[h]["negatives"] == 0 and conv[h]["identite"] == 0 for h in conv)
+       and abs(conv[80]["institution"] - conv[120]["institution"]) < 1e-6,
+       "D77 : la conversion tient l'exportateur au plafond à 40, 80 et 120 périodes, et le "
+       "solde de l'institution ne bouge plus entre 80 et 120 (%.0f)" % conv[120]["institution"])
+
+ailleurs = 0
+for sc in m.SCENARIOS:
+    if sc.cle == "S2":
+        continue
+    for h in (40, 80, 120):
+        _, j0, a0 = m.jouer_a_horizon(sc, h, **m.OPTIONS_AVANT_D77)
+        _, j1, a1 = m.jouer_a_horizon(sc, h, **O77)
+        ailleurs += int(a0 != a1) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
+                                        for p0, p1 in zip(j0, j1) for c in m.COMPTES)
+exiger(ailleurs == 0, "la conversion ne change aucune trajectoire de S0, S1, S3 et S4")
+
+exiger(conv[80]["converti"] > 0 and conv[80]["masse_exc"] < acc80["masse_exc"]
+       and conv[120]["dette_def"] > conv[80]["dette_def"] > 0,
+       "LE PRIX DE D77 : l'exportateur perd %.0f de créances à 80 périodes et sa masse reste "
+       "à %.0f contre %.0f ; la dette de recyclage du déficitaire croît encore (%.0f puis %.0f)"
+       % (conv[80]["converti"], conv[80]["masse_exc"], acc80["masse_exc"],
+          conv[80]["dette_def"], conv[120]["dette_def"]))
+
+plac80 = remede(80, reliquat_plafond="placement")
+exiger(abs(plac80["solde_exc"] - conv[80]["solde_exc"]) < 1e-6
+       and abs(plac80["institution"] - conv[80]["institution"]) < 1e-6
+       and abs(plac80["place"] - conv[80]["converti"]) < 1e-6
+       and plac80["restitue"] == 0 and plac80["masse_exc"] > conv[80]["masse_exc"],
+       "le placement forcé produit les mêmes comptes de compensation, mais garde une "
+       "créance de %.0f jamais restituée en S2 : l'accumulation change de registre"
+       % plac80["place"])
+
+retour = m.s2_puis_retournement(45)
+r_conv = m.mesurer_accumulation(retour, 90, **O77)
+r_plac = m.mesurer_accumulation(retour, 90, **dict(O77, reliquat_plafond="placement"))
+exiger(r_plac["restitue_exc"] > 0 and r_plac["solde_exc"] >= -1e-9
+       and r_conv["solde_exc"] < 0 and r_conv["restitue_exc"] == 0
+       and r_plac["identite"] == 0 and r_conv["identite"] == 0,
+       "SI LE CHOC SE RETOURNE, le placement rend %.0f à l'exportateur ; sous la "
+       "conversion, il n'a plus de réserve et finit à %.0f"
+       % (r_plac["restitue_exc"], r_conv["solde_exc"]))
+
+S4 = par_cle("S4")
+dem = dict((taux, m.mesurer_accumulation(S4, 40, **dict(O77, demurrage_soldes=taux)))
+           for taux in (0.0, 0.005, 0.01))
+exiger(dem[0.0]["negatives"] == 0 and dem[0.005]["negatives"] > 0
+       and dem[0.01]["depassements"] > 0
+       and dem[0.01]["recycle_exc"] < dem[0.005]["recycle_exc"] < dem[0.0]["recycle_exc"],
+       "D78 : en S4, le démurrage sur la compensation retire à l'excédentaire ce que le "
+       "recyclage aurait prêté — masse du déficitaire négative dès 0,5 %%, %d dépassements "
+       "à 1 %%" % dem[0.01]["depassements"])
+
+but80 = remede(80, reliquat_plafond=None, regle=m.regle_sans_butee_creancier)
+but120 = remede(120, reliquat_plafond=None, regle=m.regle_sans_butee_creancier)
+exiger(abs(but80["allocations"] - but120["allocations"]) < 1e-6
+       and but120["parite_min"] < 0.1 and but120["au_dela_exc"] > 0
+       and but120["depassements"] > but120["au_dela_exc"],
+       "la butée levée arrête l'allocation (%.0f), au prix d'une spirale de réévaluations "
+       "(parité minimale %.3f) où chacun passe au-delà du plafond"
+       % (but120["allocations"], but120["parite_min"]))
+
+moitie = dict((h, m.mesurer_accumulation(m.s2_avec_substitution(0.5, 11), h, **O77))
+              for h in (40, 80))
+quart = dict((h, m.mesurer_accumulation(m.s2_avec_substitution(0.25, 11), h,
+                                        **m.OPTIONS_AVANT_D77)) for h in (40, 80))
+exiger(abs(moitie[40]["allocations"] - moitie[80]["allocations"]) < 1e-6
+       and quart[80]["allocations"] > quart[40]["allocations"] and quart[80]["au_dela_exc"] > 0,
+       "D79, SUPPOSÉ : une dépendance réduite de moitié arrête l'émission (%.0f à 40 comme "
+       "à 80 périodes) ; réduite d'un quart, l'accumulation n'est que retardée"
+       % moitie[80]["allocations"])
+
+e77, j77, _ = m.jouer_a_horizon(S2, 80, **O77)
+exiger(abs(e77.verse_guichets - e77.decouvert - e77.apure - e77.apure_conversion) < 1e-9
+       and max(abs(p["decouvert"] + p["solde"][m.INST] + sum(p["fac"].values()))
+               for p in j77) < 1e-9,
+       "le reliquat converti apure le découvert : versé = découvert + apuré + converti, "
+       "et le découvert reste égal au solde négatif de l'institution hors facilités")
 
 
 print("")

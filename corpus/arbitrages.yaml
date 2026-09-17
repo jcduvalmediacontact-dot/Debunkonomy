@@ -199,7 +199,7 @@ arbitrages:
     objet: "Une part du soutien aux importations essentielles est-elle non remboursable"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR, PROCEDURE-STRUCTURELLE, EXCEDENT-DU-SYMPOSIUM, F1]
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR, PROCEDURE-STRUCTURELLE, EXCEDENT-DU-SYMPOSIUM, F1, DEPENDANCE-ESSENTIELLE]
     decision: >
       ARBITRÉ LE 2026-09-09 : OUI. DEUX GUICHETS — facilité REMBOURSABLE pour
       un choc TEMPORAIRE, allocation NON REMBOURSABLE pour un besoin essentiel
@@ -792,16 +792,16 @@ pieces_de_conception_manquantes:
     objet: "Traitement des déséquilibres courants persistants"
     statut: oriente
     tranche_par: auteur
-    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE]
+    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE, DEPENDANCE-ESSENTIELLE]
     decision: >
       RÉFÉRENCE DU 2026-09-09, RÉVISÉE PAR L'AUTEUR LE 2026-09-17 :
       comptes des banques centrales à l'institution, corridor des deux côtés,
       facilité, parités administrées. OBLIGATIONS DES EXCÉDENTAIRES
-      AUTOMATIQUES, sans vote : réévaluation par la règle de l'auteur,
-      recyclage au-delà du plafond EN PRÊT sans intérêt, remboursé sur les
-      excédents futurs. AUCUNE CHARGE GRADUÉE SUR LES POSITIONS ; démurrage
-      maintenu (D76). Le plafond est une PROCÉDURE. Perte durable d'un
-      débouché : PROCEDURE-STRUCTURELLE.
+      AUTOMATIQUES, sans vote : réévaluation (D69) ; au-delà du plafond,
+      recyclage EN PRÊT, puis reliquat sans destinataire ANNULÉ (D77). AUCUNE
+      CHARGE GRADUÉE SUR LES POSITIONS ; démurrage hors compensation (D76,
+      D78). Le plafond est une PROCÉDURE. Perte durable d'un débouché :
+      PROCEDURE-STRUCTURELLE.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
     maj: 2026-09-17
@@ -810,7 +810,7 @@ pieces_de_conception_manquantes:
     objet: "Perte durable d'un débouché — condition (5) d'A43 (3b)"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, COMPENSATION-SYMETRIQUE, A45]
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, A45, DEPENDANCE-ESSENTIELLE]
     decision: >
       ARBITRÉE PAR L'AUTEUR LE 2026-09-17. Ouverte sur déficit persistant ET
       perte mesurée d'au moins 30 % des exportations. Reconversion financée
@@ -819,6 +819,23 @@ pieces_de_conception_manquantes:
       la perte reconnue pendant l'ouverture est annulée, le reste est dû. PRIX
       PUBLIÉ : si la reconversion échoue, la dette du déficitaire dépasse son
       quota, et la suite n'est pas écrite.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C26]
+    maj: 2026-09-17
+
+  - id: DEPENDANCE-ESSENTIELLE
+    objet: "Dépendance durable à une importation essentielle — procédure côté importateur"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE]
+    decision: >
+      PRINCIPE RETENU PAR L'AUTEUR LE 2026-09-17 (D79) : une procédure
+      structurelle côté importateur réduit la dépendance durable à une
+      importation essentielle, comme PROCEDURE-STRUCTURELLE traite la perte
+      durable d'un débouché ; réussite NON supposée. MOTIF MESURÉ : hors une
+      spirale de réévaluations, seule une baisse de la dépendance arrête
+      l'émission de l'allocation. À INSTRUIRE : ouverture, seuils,
+      financement, revue.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26]
     maj: 2026-09-17

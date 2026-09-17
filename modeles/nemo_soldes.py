@@ -210,6 +210,13 @@ class Etat(object):
         self.verse_guichets = 0.0
         self.decouvert = 0.0
         self.apure = 0.0
+        # accumulation d'un créancier au-delà du plafond (instruite le 2026-09-17)
+        self.au_dela_plafond = dict((c, 0) for c in CODES)
+        self.demurrage = dict((c, 0.0) for c in CODES)
+        self.reliquat_converti = dict((c, 0.0) for c in CODES)
+        self.placement = dict((c, 0.0) for c in CODES)
+        self.placement_restitue = dict((c, 0.0) for c in CODES)
+        self.apure_conversion = 0.0
         # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
@@ -237,7 +244,8 @@ OBLIGATIONS_CREANCIER = ("charge", "plafond", "parite")
 def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
           allocation_active=True, regle=None, obligations_creancier=None,
           delai_creancier=0, charge_debiteur=True, procedure_structurelle=None,
-          recyclage_pret=False, reflux_apurement=None):
+          recyclage_pret=False, reflux_apurement=None, demurrage_soldes=0.0,
+          reliquat_plafond=None, persistance_reliquat=0):
     """`symetrie_contraignante` reste l'interrupteur général des obligations de
     l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
     parmi la charge graduée, la procédure au plafond et la révision de sa
@@ -269,7 +277,20 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     (aucun par défaut) en apure cette quantité chaque période, au titre de
     l'excédent du reflux du Symposium, que ce modèle ne représente pas. AUCUN
     SOLDE N'EN EST AFFECTÉ, ni ceux des pays ni celui de l'institution : le
-    registre compte ce que le reflux aurait à retirer, il ne le retire pas."""
+    registre compte ce que le reflux aurait à retirer, il ne le retire pas.
+
+    Deux instruments contre l'accumulation d'un créancier, instruits le
+    2026-09-17 et NON TRANCHÉS. `demurrage_soldes` (nul par défaut) retire
+    chaque période cette fraction des soldes POSITIFS des pays au profit de
+    l'institution : le démurrage uniforme de D76, appliqué aux soldes de
+    compensation. `reliquat_plafond` (aucun par défaut) traite ce qui reste
+    au-delà du plafond après recyclage et remboursements, pour un pays qui y
+    est depuis plus de `persistance_reliquat` périodes : « conversion » le
+    verse à l'institution sans retour, comme l'annulation des soldes
+    créditeurs persistants que Keynes envisageait en 1943 ; « placement » le
+    change en créance de long terme sur l'institution, hors compensation et
+    sans effet sur la masse du pays, restituée quand il passe en débit."""
+    assert reliquat_plafond in (None, "conversion", "placement"), reliquat_plafond
     e = Etat()
     journal, anomalies = [], []
     retenues = set(OBLIGATIONS_CREANCIER if obligations_creancier is None
@@ -507,6 +528,17 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 e.charges[c] += m
                 charge[c] = m
 
+        # --- DÉMURRAGE SUR LES SOLDES POSITIFS (non tranché) --------------
+        demurrage = dict((c, 0.0) for c in CODES)
+        if demurrage_soldes:
+            for c in CODES:
+                if e.solde[c] > 0:
+                    d = demurrage_soldes * e.solde[c]
+                    e.solde[c] -= d
+                    e.solde[INST] += d
+                    e.demurrage[c] += d
+                    demurrage[c] = d
+
         # --- (5) LE PLAFOND EST UNE PROCÉDURE ---------------------------
         recyclage = dict((c, 0.0) for c in CODES)
         recu = dict((c, 0.0) for c in CODES)
@@ -553,6 +585,37 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 pret_net[d] -= remb
                 pret_net[c] += remb
 
+        # --- RELIQUAT AU-DELÀ DU PLAFOND, après recyclage et remboursements --
+        converti = dict((c, 0.0) for c in CODES)
+        for c in CODES:
+            reste = e.solde[c] - PLAFOND_SOLDE * QUOTA[c]
+            e.au_dela_plafond[c] = e.au_dela_plafond[c] + 1 if reste > 1e-9 else 0
+            if (reliquat_plafond is None or reste <= 1e-9 or not tenu(c, "plafond")
+                    or e.au_dela_plafond[c] <= persistance_reliquat):
+                continue
+            e.solde[c] -= reste
+            e.solde[INST] += reste
+            if reliquat_plafond == "conversion":
+                e.reliquat_converti[c] += reste
+                converti[c] = reste
+            else:
+                # simple changement de forme de la créance : la masse ne bouge pas
+                e.placement[c] += reste
+        converti_t = sum(converti.values())
+        if converti_t:
+            # le reliquat converti est annulé CONTRE le découvert de l'institution
+            apure_c = min(e.decouvert, converti_t)
+            e.decouvert -= apure_c
+            e.apure_conversion += apure_c
+        if reliquat_plafond == "placement":
+            for c in CODES:
+                if e.placement[c] > 1e-12 and e.solde[c] < 0:
+                    rendu = min(e.placement[c], -e.solde[c])
+                    e.placement[c] -= rendu
+                    e.solde[c] += rendu
+                    e.solde[INST] -= rendu
+                    e.placement_restitue[c] += rendu
+
         # --- parités administrées ---------------------------------------
         for c in CODES:
             dehors = abs(e.solde[c]) > CORRIDOR * QUOTA[c]
@@ -582,7 +645,8 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         # --- masses monétaires, et (2) L'IDENTITÉ ----------------------
         for c in CODES:
             flux_nemo = (net[c] + tirage[c] + don[c] - rembourse[c]
-                         - charge[c] + recu[c] - recyclage[c] + pret_net[c])
+                         - charge[c] + recu[c] - recyclage[c] + pret_net[c]
+                         - demurrage[c] - converti[c])
             variation = flux_nemo * e.parite[c]
             e.masse[c] += variation
             if variation < 0:
@@ -626,7 +690,8 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         # (2) IDENTITÉ STOCK-FLUX, vérifiée à chaque période et par pays.
         for c in CODES:
             attendu = (net[c] + tirage[c] + don[c] - rembourse[c] - charge[c]
-                       + recu[c] - recyclage[c] + pret_net[c]) * e.parite[c]
+                       + recu[c] - recyclage[c] + pret_net[c]
+                       - demurrage[c] - converti[c]) * e.parite[c]
             constate = e.masse[c] - (journal[-1]["masse"][c] if journal
                                      else 1000.0)
             if abs(attendu - constate) > 1e-6:
@@ -1031,8 +1096,16 @@ PROCEDURE_AUTEUR = {
     "duree": 4,
     "revue": "cloture",
 }
+# L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL — choix de l'auteur du
+# 2026-09-17. D77 : ce qui reste au-delà du plafond après recyclage est converti,
+# c'est-à-dire annulé contre le découvert de l'institution. D78 : le démurrage ne
+# s'applique pas aux soldes de compensation (il reste nul ici). D79 : une procédure
+# côté importateur est retenue dans son principe, et n'est pas encore instruite.
 OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AUTEUR, recyclage_pret=True,
-                                procedure_structurelle=PROCEDURE_AUTEUR)
+                                procedure_structurelle=PROCEDURE_AUTEUR,
+                                reliquat_plafond="conversion")
+# La configuration au moment de D75, que la section de la condition (4) reproduit.
+OPTIONS_AVANT_D77 = dict(OPTIONS_AUTEUR_COMPLETES, reliquat_plafond=None)
 
 
 def jouer_a_horizon(scenario, horizon, **options):
@@ -1205,17 +1278,20 @@ def comparer_financement_guichets():
     temps. Le reflux n'étant pas modélisé, la sortie n'en suppose aucun : elle en
     fait varier la taille, montre pourquoi le reflux seul manque au moment des
     chocs, et où aboutit ce que l'allocation émet.
+
+    Elle reproduit la configuration AU MOMENT DE D75 (`OPTIONS_AVANT_D77`) :
+    la conversion du reliquat, décidée ensuite, a sa propre section.
     """
     horizon = 40
-    besoins = besoins_des_guichets(horizon, **OPTIONS_AUTEUR_COMPLETES)
+    besoins = besoins_des_guichets(horizon, **OPTIONS_AVANT_D77)
     repere = besoin_moyen(besoins)
     print("")
     print("  (1) CE QUE LES GUICHETS VERSENT SANS REMBOURSEMENT — %d périodes," % horizon)
-    print("      configuration complète de l'auteur")
+    print("      configuration de l'auteur au moment de D75, avant D77")
     print("  %-4s %12s %13s %8s %18s" % ("", "allocations", "reconversion", "total",
                                          "premier versement"))
     for sc in SCENARIOS:
-        r = mesurer_apurement(sc, horizon, None, **OPTIONS_AUTEUR_COMPLETES)
+        r = mesurer_apurement(sc, horizon, None, **OPTIONS_AVANT_D77)
         print("  %-4s %12.0f %13.0f %8.0f %18s" % (sc.cle, r["allocations"],
                                                  r["reconversion"], r["verse"],
                                                  "période %d" % r["premier"]))
@@ -1229,7 +1305,7 @@ def comparer_financement_guichets():
     for k in MULTIPLES_REFLUX:
         cellules = []
         for sc in SCENARIOS:
-            r = mesurer_apurement(sc, horizon, k * repere, **OPTIONS_AUTEUR_COMPLETES)
+            r = mesurer_apurement(sc, horizon, k * repere, **OPTIONS_AVANT_D77)
             if r["apure_en"] is None:
                 cellules.append("reste %6.0f" % r["reste"])
             elif r["apure_en"] == 0:
@@ -1252,7 +1328,7 @@ def comparer_financement_guichets():
     print("")
     print("  (4) OÙ ABOUTIT L'ÉMISSION — S2, avec et sans allocation, à %d et %d périodes"
           % (horizon, 2 * horizon))
-    jeux = [(actif, h, mesurer_incidence_allocation(h, actif, **OPTIONS_AUTEUR_COMPLETES))
+    jeux = [(actif, h, mesurer_incidence_allocation(h, actif, **OPTIONS_AVANT_D77))
             for h in (horizon, 2 * horizon) for actif in (False, True)]
     print("      le pays pauvre")
     print("  %-26s %10s %12s %12s %8s %11s" % ("", "essentiel", "contraction",
@@ -1290,6 +1366,7 @@ def comparer_financement_guichets():
     print("      destinataire, et son solde dépasse le plafond sans limite visible :")
     print("      L'ÉMISSION PERMANENTE DEVIENT SON ACCUMULATION PERMANENTE. Sans")
     print("      allocation, c'est le pays pauvre qui passe sous son plancher.")
+    print("      D77 Y RÉPOND : voir la section suivante.")
     print("      LE REGISTRE DU DÉCOUVERT N'EST PAS LE SOLDE DE L'INSTITUTION : dans les")
     print("      comptes, ce solde a toujours pour contrepartie les soldes positifs des")
     print("      pays. Apurer, c'est les réduire quelque part ; le modèle compte ce que")
@@ -1297,6 +1374,177 @@ def comparer_financement_guichets():
     print("      CE QU'ELLE NE MONTRE PAS : la taille du reflux — il n'est pas")
     print("      modélisé —, qui le paie, l'effet du démurrage maintenu (D76) sur le")
     print("      solde de l'excédentaire, l'inflation, ni aucun calibrage.")
+
+
+def regle_sans_butee_creancier(solde, quota, periodes_hors_corridor, parite):
+    """VARIANTE MESURÉE, NON RETENUE : la règle de l'auteur, dont la butée ne borne
+    plus que la dévaluation des déficitaires."""
+    if solde > 0:
+        return parite * (1.0 - PAS_GLISSEMENT_AUTEUR)
+    return regle_de_revision_auteur(solde, quota, periodes_hors_corridor, parite)
+
+
+def s2_avec_substitution(part, depuis):
+    """S2, dont la dépendance à l'importation essentielle baisse de `part` à partir
+    de la période `depuis`. LA RÉUSSITE EST SUPPOSÉE, ET SON COÛT N'EST PAS COMPTÉ :
+    ce scénario mesure ce qu'une procédure côté importateur (D79) aurait à obtenir,
+    non ce qu'elle obtiendrait."""
+    def choc(t, volumes, prix):
+        volumes, prix = choc_energetique_durable(t, volumes, prix)
+        if t >= depuis:
+            volumes = dict(volumes)
+            volumes[("EXC", "PAU")] = volumes[("EXC", "PAU")] * (1.0 - part)
+        return volumes, prix
+    return Scenario("S2-%d" % round(100 * part),
+                    "S2, dépendance réduite de %d %% SUPPOSÉE" % round(100 * part),
+                    choc, "supposition, non production")
+
+
+def s2_puis_retournement(retour=45):
+    """S2 jusqu'à la période `retour`, puis le prix redescend et l'exportateur se met
+    à importer : sa position se retourne. C'est le seul jeu où un placement est
+    restitué, et où l'on voit ce que la conversion a retiré à l'exportateur."""
+    def choc(t, volumes, prix):
+        if 3 <= t < retour:
+            prix = dict(prix)
+            prix[("EXC", "PAU")] = PRIX_BASE * 2.0
+        elif t >= retour:
+            volumes = dict(volumes)
+            volumes[("DEF", "EXC")] = 300
+            volumes[("PAU", "EXC")] = 80
+        return volumes, prix
+    return Scenario("S2R", "S2 puis retournement à la période %d" % retour, choc,
+                    "la position de l'exportateur se retourne")
+
+
+def mesurer_accumulation(scenario, horizon, **options):
+    """Ce que deviennent l'exportateur, le déficitaire et l'institution sous un
+    remède donné."""
+    e, journal, anomalies = jouer_a_horizon(scenario, horizon, **options)
+
+    def compte(code, pays=None):
+        return len([a for a in anomalies if a.startswith(code)
+                    and (pays is None or "de %s " % pays in a)])
+    return {"solde_exc": e.solde["EXC"], "au_dela_exc": compte("[C6]", "EXC"),
+            "depassements": compte("[C6]"), "negatives": compte("[C8]"),
+            "institution": e.solde[INST], "converti": sum(e.reliquat_converti.values()),
+            "place": sum(e.placement.values()),
+            "restitue": sum(e.placement_restitue.values()),
+            "dette_def": journal[-1]["dette"]["DEF"], "masse_exc": e.masse["EXC"],
+            "masse_min_def": min(p["masse"]["DEF"] for p in journal),
+            "allocations": sum(e.alloc.values()), "demurrage_exc": e.demurrage["EXC"],
+            "recycle_exc": sum(p["recyclage"]["EXC"] for p in journal),
+            "parite_exc": e.parite["EXC"], "parite_min": min(e.parite.values()),
+            "converti_exc": e.reliquat_converti["EXC"], "place_exc": e.placement["EXC"],
+            "restitue_exc": e.placement_restitue["EXC"],
+            "solde_exc_min": min(p["solde"]["EXC"] for p in journal),
+            "identite": compte("[C5]") + compte("[C1]")}
+
+
+def comparer_accumulation_exportateur():
+    """A43 (3b) : L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL.
+
+    La condition (4) a montré que ce que l'allocation émet aboutit chez
+    l'exportateur des biens essentiels, au-delà de son plafond et sans limite.
+    L'auteur a choisi la conversion du reliquat (D77), écarté le démurrage sur les
+    soldes de compensation (D78) et retenu dans son principe une procédure côté
+    importateur (D79). La sortie publie les remèdes mesurés, puis le prix du choix.
+    """
+    s2 = [x for x in SCENARIOS if x.cle == "S2"][0]
+    s4 = [x for x in SCENARIOS if x.cle == "S4"][0]
+    print("")
+    print("  (1) LES REMÈDES MESURÉS — S2, configuration de l'auteur, seul le remède varie")
+    remedes = (("aucun : accumulation acceptée", {"reliquat_plafond": None}),
+               ("conversion — CHOIX DE L'AUTEUR (D77)", {}),
+               ("placement forcé", {"reliquat_plafond": "placement"}),
+               ("démurrage 4 % sur la compensation",
+                {"reliquat_plafond": None, "demurrage_soldes": 0.04}),
+               ("butée levée pour les créanciers",
+                {"reliquat_plafond": None, "regle": regle_sans_butee_creancier}))
+    mesures = [(libelle, h, mesurer_accumulation(s2, h, **dict(OPTIONS_AUTEUR_COMPLETES,
+                                                               **extra)))
+               for libelle, extra in remedes for h in (40, 80, 120)]
+    print("      les soldes")
+    print("  %-37s %4s %9s %11s %13s %7s %11s %11s"
+          % ("remède", "hor.", "solde EXC", "au-delà EXC", "au-delà, tous", "inst.",
+             "allocations", "parité min."))
+    for libelle, h, r in mesures:
+        print("  %-37s %4d %9.0f %11d %13d %7.0f %11.0f %11.3f"
+              % (libelle if h == 40 else "", h, r["solde_exc"], r["au_dela_exc"],
+                 r["depassements"], r["institution"], r["allocations"], r["parite_min"]))
+    print("      ce que chaque remède coûte")
+    print("  %-37s %4s %9s %7s %13s %9s %9s %12s"
+          % ("remède", "hor.", "converti", "placé", "démurrage EXC", "masse EXC",
+             "dette DEF", "recyclé EXC"))
+    for libelle, h, r in mesures:
+        print("  %-37s %4d %9.0f %7.0f %13.0f %9.0f %9.0f %12.0f"
+              % (libelle if h == 40 else "", h, r["converti"], r["place"],
+                 r["demurrage_exc"], r["masse_exc"], r["dette_def"], r["recycle_exc"]))
+    print("")
+    print("  (2) LE DÉMURRAGE SUR LES SOLDES DE COMPENSATION — S4, 40 périodes (D78)")
+    print("  %-7s %13s %12s %14s %13s %17s"
+          % ("taux", "payé par EXC", "recyclé EXC", "masse min DEF", "dépassements",
+             "masses négatives"))
+    for taux in (0.0, 0.005, 0.01, 0.02, 0.04):
+        r = mesurer_accumulation(s4, 40, **dict(OPTIONS_AUTEUR_COMPLETES,
+                                                 demurrage_soldes=taux))
+        print("  %-7s %13.0f %12.0f %14.0f %13d %17d"
+              % ("%.1f %%" % (100 * taux), r["demurrage_exc"], r["recycle_exc"],
+                 r["masse_min_def"], r["depassements"], r["negatives"]))
+    print("")
+    print("  (3) CE QUE LA CONVERSION CHANGE AILLEURS — soldes différents, avec et sans")
+    for h in (40, 80, 120):
+        ecarts = []
+        for sc in SCENARIOS:
+            _, j0, a0 = jouer_a_horizon(sc, h, **OPTIONS_AVANT_D77)
+            _, j1, a1 = jouer_a_horizon(sc, h, **OPTIONS_AUTEUR_COMPLETES)
+            n = int(a0 != a1) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
+                                    for p0, p1 in zip(j0, j1) for c in COMPTES)
+            ecarts.append("%s %d" % (sc.cle, n))
+        print("  horizon %3d : %s" % (h, ", ".join(ecarts)))
+    print("")
+    print("  (4) LA DÉPENDANCE DE L'IMPORTATEUR — S2, baisse SUPPOSÉE dès la période 11 (D79)")
+    print("  %-10s %4s %12s %9s %16s %16s" % ("baisse", "hor.", "allocations", "converti",
+                                              "solde EXC, sans", "au-delà, sans"))
+    for part in (0.0, 0.25, 0.5):
+        sc = s2 if part == 0.0 else s2_avec_substitution(part, 11)
+        for h in (40, 80):
+            r = mesurer_accumulation(sc, h, **OPTIONS_AUTEUR_COMPLETES)
+            r0 = mesurer_accumulation(sc, h, **OPTIONS_AVANT_D77)
+            print("  %-10s %4d %12.0f %9.0f %16.0f %16d"
+                  % ("%d %%" % round(100 * part) if h == 40 else "", h, r["allocations"],
+                     r["converti"], r0["solde_exc"], r0["au_dela_exc"]))
+    print("      (« sans » : sans conversion, pour voir ce que la baisse obtient seule)")
+    print("")
+    print("  (5) SI LE CHOC SE RETOURNE — S2 jusqu'à la période 45, puis l'exportateur")
+    print("      importe ; 90 périodes, montants de l'exportateur seul")
+    print("  %-26s %9s %13s %9s %13s %15s"
+          % ("remède", "converti", "encore placé", "restitué", "solde EXC min",
+             "solde EXC final"))
+    retournement = s2_puis_retournement(45)
+    for libelle, extra in (("conversion (D77)", {}),
+                           ("placement forcé", {"reliquat_plafond": "placement"})):
+        r = mesurer_accumulation(retournement, 90, **dict(OPTIONS_AUTEUR_COMPLETES, **extra))
+        print("  %-26s %9.0f %13.0f %9.0f %13.0f %15.0f"
+              % (libelle, r["converti_exc"], r["place_exc"], r["restitue_exc"],
+                 r["solde_exc_min"], r["solde_exc"]))
+    print("      CE QUE LA SORTIE MONTRE. Sans remède, l'accumulation est sans limite, et")
+    print("      le recyclage d'un excès accumulé déraille en gros prêts ponctuels que le")
+    print("      déficitaire rembourse aussitôt. LA CONVERSION arrête l'exportateur au")
+    print("      plafond et stabilise le solde de l'institution, sans toucher aucun autre")
+    print("      scénario. SON PRIX : l'exportateur perd les créances annulées, sa masse")
+    print("      reste plus basse, et SI SA POSITION SE RETOURNE, il n'a plus de réserve et")
+    print("      passe en débit là où le placement l'aurait couvert ; et la dette de")
+    print("      recyclage du déficitaire continue de croître à long terme.")
+    print("      Le placement ne fait que changer l'accumulation de registre. Le démurrage")
+    print("      sur la compensation retire à l'excédentaire ce que le recyclage aurait")
+    print("      prêté : en S4, la masse du déficitaire devient négative dès 0,5 %. La")
+    print("      butée levée finit par arrêter l'allocation, au prix d'une spirale de")
+    print("      réévaluations où l'excédent passe d'un pays à l'autre, chacun au-delà de")
+    print("      son plafond. HORS CETTE SPIRALE, SEULE UNE BAISSE DE LA DÉPENDANCE ARRÊTE")
+    print("      L'ÉMISSION ELLE-MÊME — supposée ici, non produite.")
+    print("      CE QU'ELLE NE MONTRE PAS : qu'un exportateur accepte d'avance l'annulation")
+    print("      (F6), la réussite d'une reconversion, l'inflation, ni aucun calibrage.")
 
 
 def mesurer_regle(regle):
@@ -1460,6 +1708,12 @@ def main():
     print("A43 (3b), CONDITION (4) — QUI FINANCE LES GUICHETS ET LA RECONVERSION")
     print("=" * 78)
     comparer_financement_guichets()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b) — L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL")
+    print("=" * 78)
+    comparer_accumulation_exportateur()
     return 0
 
 
