@@ -164,4 +164,10 @@ Il ne vérifie aucune source externe, et n'en ouvre aucune. Il ne vérifie pas q
 - **D104** — l'abandon du contrefactuel est fondé sur **l'écart** entre scénario déclaré et contrefactuel observé, dont la pièce nomme quatre causes, la surestimation pouvant être non intentionnelle ; « invérifiable » attribué au livre ; l'additionnalité en ressources demeure au niveau de l'instrument (L1.C31). **Soumis à l'auteur** : la définition `additionnalite` du vocabulaire renvoie désormais à un énoncé que le chapitre ne porte plus.
 - **D105** — la marge de 20 à 50 % **n'avait aucune source** et est retirée de L1.C18, de F2, de P20 et de L15.C01. La conséquence du § 5 devient conditionnelle. L18.C06 n'a pas pu être corrigée : E-L6 refuse qu'une référence remplacée hérite de l'état `a_requalifier` ; la dette y est inscrite, à reprendre sous D62.
 
-**En attente : les deux validations en bloc D106 et D107.**
+**Tranchées le 2026-09-17, dernier lot : D106 et D107.**
+
+- **D106 — validée en bloc.** Les huit points du § 3.2 sont exposés en branches, sans être tranchés ; le texte doit dire qu'ils sont ouverts.
+- **D107 — refusée en bloc : l'auteur veut les points un par un.** Les choix d'édition et de périmètre du § 3.3 sont présentés point par point avant la réécriture, dix chapitres, C30 compris. **Une séance de lecture s'ajoute avant le lot 1.**
+- **Harmonisation** : la définition `additionnalite` du vocabulaire est corrigée sur accord explicite (suite de D104).
+
+**Les seize décisions de la tranche 3 sont rendues. La réécriture est débloquée, sous réserve du dossier d'édition de D107.**

@@ -7791,3 +7791,19 @@ Aucun des trois substituts ne portait l'énoncé. **S19 est rebasée sur Słomcz
 **Ce que la décision coûte, et il faut le dire** : le quatrième constat du § 5, que le chapitre présentait comme « le plus lourd », perd son ordre de grandeur. L'argument ne dit plus que la marge dépasse le signal ; il dit que personne ne l'a mesurée.
 
 **Une correction n'a pas pu être faite, et c'est le contrôle qui l'a refusée.** L'entrée S2 de L18.C06 cite F2 avec la marge chiffrée. La corriger ferait perdre à cette source son état `a_requalifier`, que seul le manifeste autorise (E-L6) : « une référence remplacée ou corrigée n'hérite pas de l'état historique ». **La citation périmée est donc inscrite en vérification en attente dans L18.C06, à reprendre sous D62**, qui tient le sort des sources internes au corpus.
+
+## D106 VALIDÉE EN BLOC, D107 RENVOYÉE À UNE LECTURE POINT PAR POINT, VOCABULAIRE HARMONISÉ, 2026-09-17
+
+### D106 — Les huit points ouverts sont exposés, sans être tranchés
+
+**Validation en bloc par l'auteur.** Les chapitres réécrits exposeront en branches, sans conclure : la fonction « reflux sur les dettes des flux Yang », comme hypothèse à instruire (C19, C21) ; l'assiette financière du prélèvement, en lecture de travail conciliatrice (C21) ; le mode de fixation des niveaux de taux de reflux, P48 (C21) ; l'objet de la clé de répartition, pays ou projets, à trancher avec l'autorité de CRITERE-L25 (C22) ; la réponse de F13 appliquée au tableau de bord, A18 (C28) ; la parité de départ, exposée en L1.C26 (C28) ; les monnaies membres face aux non-membres, déclaré « non instruit » (C26) ; la clause de neutralité anticoloniale, renvoyée au chantier du barème aux frontières (C27).
+
+**Ce que la validation ne fait pas.** Elle ne les tranche pas et ne les périme pas : chacun reste un objet ouvert, et METHODE-REECRITURES exige que le texte dise qu'il est ouvert. **Aucun des huit n'a de pièce arbitrée qui le tranche** — c'est le motif de la recommandation, et non un choix d'économie.
+
+### D107 — L'auteur veut les points d'édition un par un
+
+**Décision : pas de validation en bloc.** Les choix d'édition et de périmètre seront présentés point par point avant la réécriture. **Ils ne touchent pas la doctrine, mais l'auteur ne délègue pas l'arbitrage éditorial** — et la présentation obligera à dire, pour chacun, ce que la recommandation coûte. **Conséquence sur le calendrier : une séance de lecture s'ajoute avant le lot 1.** Le dossier est à produire ; il couvre dix chapitres, C30 compris depuis D100.
+
+### Harmonisation du vocabulaire, sur accord explicite
+
+**La définition `additionnalite` est corrigée**, suite de D104 : l'additionnalité contrefactuelle est « écartée **au niveau du paiement** en L1.C18 § 5, sur l'écart entre le scénario de référence déclaré et le contrefactuel observé, le mot « invérifiable » étant celui du livre et non celui de la pièce », et la définition ajoute que **l'additionnalité en ressources réelles demeure exigée au niveau de l'instrument (L1.C31)**. Aucun nom de vocabulaire n'est ajouté ni retiré ; `premiere_occurrence` est inchangée.
