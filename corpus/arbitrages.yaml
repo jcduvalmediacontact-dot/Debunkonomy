@@ -45,6 +45,23 @@ revision: 2
 etabli_le: 2026-09-08
 
 arbitrages:
+  - id: A6
+    objet: "Le scénario d'adoption : fenêtre de crise ou coalition de pionniers"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [A43, A32]
+    decision: >
+      RELEVÉ LE 2026-09-04, ORIENTÉ PAR L'AUTEUR LE 2026-09-17 (D108). La
+      COALITION DE PIONNIERS est la voie porteuse, composée avec
+      l'infrastructure et la région. La FENÊTRE DE CRISE, effondrement compris,
+      est un MODIFICATEUR : elle accélère une entrée engagée sans en tenir lieu,
+      car elle récompense la position du créancier, non la préparation (L1.C25,
+      F6, L5.C06). RESTE OUVERT : la composition des voies, et ce qu'une fenêtre
+      accélère ou détruit dans chacune — analyse des scénarios après le Livre 1.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C25, L5.C06, L5.C09]
+    maj: 2026-09-17
+
   - id: A30
     objet: "Qualification juridique de l'unité émise"
     statut: oriente
@@ -66,7 +83,7 @@ arbitrages:
     objet: "Régime de change"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, CONTROLE-DES-CAPITAUX]
+    lie_a: [A6, A43, CONTROLE-DES-CAPITAUX]
     decision: >
       ARBITRÉ LE 2026-09-08, TRANCHÉ SUR LE FOND LE 2026-09-09 : le triangle
       d'incompatibilité est résolu PAR L'ABANDON DE LA MOBILITÉ INTÉGRALE DES
@@ -233,7 +250,7 @@ arbitrages:
     objet: "Les trois composantes réunies sous le nom NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE, "EXCEDENT-DU-SYMPOSIUM", SORTIE-DES-DESEQUILIBRES-DURABLES]
+    lie_a: [A6, A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE, "EXCEDENT-DU-SYMPOSIUM", SORTIE-DES-DESEQUILIBRES-DURABLES]
     decision: >
       ARBITRÉ LE 2026-09-09 ; (3) SCINDÉ LE 2026-09-16, JUGÉ LE 17. (1)
       FINANCEMENT CIBLÉ — pilotable sous fortes limites. (2) UNITÉ DE RÉSERVE

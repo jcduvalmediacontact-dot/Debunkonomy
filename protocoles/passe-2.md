@@ -7675,3 +7675,9 @@ C'est la conclusion de l'auteur du 2026-09-09 : « Le remplacement mondial du sy
 ### Question à l'auteur — D108
 
 **(a) Orienter A6 : la coalition de pionniers est la voie porteuse, composée avec l'infrastructure et la région ; la fenêtre de crise, effondrement compris, est un modificateur, non une voie.** A6 entre au registre avec le statut « orienté » ; l'analyse de tous les scénarios après le Livre 1 tranche la composition des voies et ce qu'une fenêtre accélère ou détruit dans chacune. **(b)** Retenir la fenêtre de crise comme voie porteuse. **(c)** Laisser A6 relevé, sans orientation, jusqu'à l'analyse complète. *Recommandation : (a)* — elle ne décide rien que l'auteur n'ait déjà engagé par sa trajectoire et ses verdicts en coalition, et elle donne à l'analyse à venir son point de départ.
+
+## A6 ORIENTÉ PAR L'AUTEUR — D108, 2026-09-17
+
+**Sur l'instruction de la section précédente, l'auteur oriente A6, sur la voie recommandée.** La coalition de pionniers est la voie porteuse, composée avec l'infrastructure et la région, comme la comparaison des voies du Livre 5 l'établit ; **la fenêtre de crise, effondrement compris, est un modificateur : elle accélère une entrée engagée, elle n'en tient pas lieu.** Écartés : la fenêtre comme voie porteuse, contre L1.C25 § 4 et L5.C06 ; laisser A6 relevé sans orientation.
+
+**A6 entre au registre** avec le statut `oriente`, lié à A43 et à A32. **Reste ouvert, et c'est l'objet de l'analyse demandée après le Livre 1** : la composition des voies, et ce qu'une fenêtre accélère ou détruit dans chacune — question que L5.C06 nomme sans la traiter. **Ce que l'orientation ne dit pas** : ni le seuil de pouvoir de marché d'une coalition, ni la seconde phase, celle où une adhésion déplace des flux et où la réaction de l'ordre existant n'est décrite par aucun chapitre (L5.C09).
