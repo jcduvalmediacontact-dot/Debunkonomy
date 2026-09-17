@@ -77,6 +77,9 @@ QUOTA = {"EXC": 1000, "DEF": 1000, "PAU": 400}
 CORRIDOR = 0.25
 TRANCHE_2 = 0.50
 PLAFOND_SOLDE = 1.00          # (5) le plafond DUR, en fraction du quota
+# Plafond propre aux soldes CRÉDITEURS, instruit pour la condition (3) d'A43 (3b) :
+# None le rend égal au plafond dur, qui vaut alors des deux côtés.
+PLAFOND_CREANCIER = None
 TAUX_CHARGE_1 = 0.02
 TAUX_CHARGE_2 = 0.04
 
@@ -235,6 +238,11 @@ class Etat(object):
         self.soldes_par_periode = dict((c, []) for c in CODES)
 
 
+def plafond_creancier():
+    """Le plafond des soldes créditeurs, en fraction du quota."""
+    return PLAFOND_SOLDE if PLAFOND_CREANCIER is None else PLAFOND_CREANCIER
+
+
 def charge_graduee(solde, quota):
     a, c1, c2 = abs(solde), CORRIDOR * quota, TRANCHE_2 * quota
     charge = 0.0
@@ -252,7 +260,8 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
           allocation_active=True, regle=None, obligations_creancier=None,
           delai_creancier=0, charge_debiteur=True, procedure_structurelle=None,
           recyclage_pret=False, reflux_apurement=None, demurrage_soldes=0.0,
-          reliquat_plafond=None, persistance_reliquat=0, procedure_importateur=None):
+          reliquat_plafond=None, persistance_reliquat=0, procedure_importateur=None,
+          quotas=None):
     """`symetrie_contraignante` reste l'interrupteur général des obligations de
     l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
     parmi la charge graduée, la procédure au plafond et la révision de sa
@@ -313,8 +322,13 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     reste au seuil ; « jalons » ne le poursuit que si le surcoût a DÉJÀ baissé
     d'au moins `progres_min` depuis l'ouverture, en restant au seuil ; les deux
     dans la limite de `plafond_factures` factures essentielles de base, ou de
-    `plafond_financement` en valeur."""
+    `plafond_financement` en valeur.
+
+    `quotas` (les quotas déclarés par défaut) donne les quotas du jeu, dont le
+    corridor et le plafond dur sont des fractions : condition (3) d'A43 (3b)."""
     assert reliquat_plafond in (None, "conversion", "placement"), reliquat_plafond
+    # les quotas du jeu : ceux que la configuration donne, sinon les quotas déclarés
+    quota = QUOTA if quotas is None else quotas
     e = Etat()
     journal, anomalies = [], []
     retenues = set(OBLIGATIONS_CREANCIER if obligations_creancier is None
@@ -343,7 +357,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                                  for (a, b), v in base.items() if a == c)) for c in CODES)
             for c in CODES:
                 e.debit_persistant[c] = (e.debit_persistant[c] + 1
-                                         if e.solde[c] < -CORRIDOR * QUOTA[c] else 0)
+                                         if e.solde[c] < -CORRIDOR * quota[c] else 0)
                 part_perdue = perdu[c] / base_exp[c] if base_exp[c] else 0.0
                 if (e.procedure_ouverte[c] is None and e.debit_persistant[c]
                         >= ps.get("declencheur", PERSISTANCE_STRUCTUREL)
@@ -449,7 +463,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 desire[(a, b)] = vol * (ratio ** ELASTICITE)
                 if (ps and ps.get("restriction") and e.procedure_ouverte[b] is not None
                         and e.procedure_close[b] is None
-                        and e.solde[b] < -CORRIDOR * QUOTA[b]):
+                        and e.solde[b] < -CORRIDOR * quota[b]):
                     # restriction temporaire des importations non essentielles,
                     # levée dès le retour dans le corridor
                     desire[(a, b)] *= (1.0 - ps["restriction"])
@@ -466,11 +480,11 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
             cout = sum(desire[k] * prix.get(k, PRIX_BASE) for k in postes)
             recettes = sum(desire[k] * prix.get(k, PRIX_BASE)
                            for k in desire if k[0] == b)
-            capacite = (e.solde[b] + recettes + PLAFOND_SOLDE * QUOTA[b]
+            capacite = (e.solde[b] + recettes + PLAFOND_SOLDE * quota[b]
                         + max(0.0, PLAFOND_FACILITE[b] - e.fac[b]))
             if procedure == "blocage":
                 capacite = min(capacite, e.solde[b] + recettes
-                               + PLAFOND_SOLDE * QUOTA[b])
+                               + PLAFOND_SOLDE * quota[b])
             manque = cout - capacite
             if manque <= 0:
                 continue
@@ -600,7 +614,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
 
         # --- obligations graduées, différenciées ------------------------
         for c in CODES:
-            au_dela = e.solde[c] > CORRIDOR * QUOTA[c]
+            au_dela = e.solde[c] > CORRIDOR * quota[c]
             e.attente_creancier[c] = e.attente_creancier[c] + 1 if au_dela else 0
         charge = dict((c, 0.0) for c in CODES)
         for c in CODES:
@@ -609,7 +623,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 continue
             if not crediteur and not charge_debiteur:
                 continue
-            m = charge_graduee(e.solde[c], QUOTA[c])
+            m = charge_graduee(e.solde[c], quota[c])
             if m:
                 e.solde[c] -= m
                 e.solde[INST] += m
@@ -632,7 +646,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         recu = dict((c, 0.0) for c in CODES)
         if procedure in ("recyclage", "conversion"):
             for c in CODES:
-                exces = e.solde[c] - PLAFOND_SOLDE * QUOTA[c]
+                exces = e.solde[c] - plafond_creancier() * quota[c]
                 if exces <= 0:
                     continue
                 if not tenu(c, "plafond"):
@@ -676,7 +690,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         # --- RELIQUAT AU-DELÀ DU PLAFOND, après recyclage et remboursements --
         converti = dict((c, 0.0) for c in CODES)
         for c in CODES:
-            reste = e.solde[c] - PLAFOND_SOLDE * QUOTA[c]
+            reste = e.solde[c] - plafond_creancier() * quota[c]
             e.au_dela_plafond[c] = e.au_dela_plafond[c] + 1 if reste > 1e-9 else 0
             if (reliquat_plafond is None or reste <= 1e-9 or not tenu(c, "plafond")
                     or e.au_dela_plafond[c] <= persistance_reliquat):
@@ -706,7 +720,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
 
         # --- parités administrées ---------------------------------------
         for c in CODES:
-            dehors = abs(e.solde[c]) > CORRIDOR * QUOTA[c]
+            dehors = abs(e.solde[c]) > CORRIDOR * quota[c]
             e.hors_corridor[c] = e.hors_corridor[c] + 1 if dehors else 0
             if regle is not None:
                 # RÈGLE DE RÉVISION FOURNIE : elle décide seule du moment et
@@ -715,7 +729,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 # du régime, non de la règle.
                 if not dehors or (e.solde[c] > 0 and not tenu(c, "parite")):
                     continue
-                nouvelle = regle(e.solde[c], QUOTA[c], e.hors_corridor[c],
+                nouvelle = regle(e.solde[c], quota[c], e.hors_corridor[c],
                                  e.parite[c])
                 if nouvelle != e.parite[c]:
                     e.parite[c] = nouvelle
@@ -768,12 +782,12 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                     "[C3] période %d : %.1f d'importations ESSENTIELLES de %s "
                     "sont BLOQUÉES faute de règlement — la protection "
                     "prioritaire a cédé" % (t, essentiel_bloque[c], c))
-            if abs(e.solde[c]) > PLAFOND_SOLDE * QUOTA[c] + 1e-6:
+            borne = (plafond_creancier() if e.solde[c] > 0 else PLAFOND_SOLDE) * quota[c]
+            if abs(e.solde[c]) > borne + 1e-6:
                 anomalies.append(
                     "[C6] période %d : le solde de %s (%+.0f) dépasse le "
                     "plafond dur (%.0f) — la procédure « %s » ne l'a pas "
-                    "ramené" % (t, c, e.solde[c], PLAFOND_SOLDE * QUOTA[c],
-                                procedure))
+                    "ramené" % (t, c, e.solde[c], borne, procedure))
 
         # (2) IDENTITÉ STOCK-FLUX, vérifiée à chaque période et par pays.
         for c in CODES:
@@ -1208,8 +1222,29 @@ PROCEDURE_IMPORTATEUR_AUTEUR = {
     "progres_min": 0.25,
     "plafond_factures": 8,
 }
-OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AVANT_D80,
-                                procedure_importateur=PROCEDURE_IMPORTATEUR_AUTEUR)
+OPTIONS_AVANT_D83 = dict(OPTIONS_AVANT_D80,
+                         procedure_importateur=PROCEDURE_IMPORTATEUR_AUTEUR)
+
+
+def quotas_proportionnels(base_de, total=None):
+    """Des quotas de même total que les quotas déclarés, proportionnels aux
+    importations, aux exportations ou au commerce total de chaque pays."""
+    echanges = echanges_de_base()
+    total = float(sum(QUOTA.values())) if total is None else total
+    poids = dict((c, sum(v for (a, b), v in echanges.items()
+                         if (base_de in ("importations", "commerce") and b == c)
+                         or (base_de in ("exportations", "commerce") and a == c)))
+                 for c in CODES)
+    return dict((c, total * poids[c] / float(sum(poids.values()))) for c in CODES)
+
+
+# LES SEUILS DU PLAFOND — condition (3) d'A43 (3b), choix de l'auteur du 2026-09-17.
+# D83 : les quotas sont proportionnels aux importations, à total inchangé. D84 : le
+# plafond dur vaut 100 % du quota, des deux côtés (PLAFOND_SOLDE, sans plafond
+# créancier distinct). D85 : le corridor vaut 25 % du quota (CORRIDOR). Les deux
+# derniers étaient les repères déclarés ; ils deviennent des choix, non calibrés.
+QUOTAS_AUTEUR = quotas_proportionnels("importations")
+OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AVANT_D83, quotas=QUOTAS_AUTEUR)
 
 
 def jouer_a_horizon(scenario, horizon, **options):
@@ -1221,6 +1256,26 @@ def jouer_a_horizon(scenario, horizon, **options):
         return jouer(scenario, **options)
     finally:
         PERIODES = garde
+
+
+def jouer_avec_seuils(scenario, horizon, corridor=None, plafond=None,
+                      plafond_creancier_=None, quotas=None, **options):
+    """Joue un scénario sous d'autres seuils — corridor et plafond dur en fraction du
+    quota, plafond propre aux créanciers, quotas — puis rend les seuils déclarés."""
+    global CORRIDOR, PLAFOND_SOLDE, PLAFOND_CREANCIER
+    garde = (CORRIDOR, PLAFOND_SOLDE, PLAFOND_CREANCIER)
+    try:
+        if corridor is not None:
+            CORRIDOR = corridor
+        if plafond is not None:
+            PLAFOND_SOLDE = plafond
+        if plafond_creancier_ is not None:
+            PLAFOND_CREANCIER = plafond_creancier_
+        if quotas is not None:
+            options = dict(options, quotas=dict(quotas))
+        return jouer_a_horizon(scenario, horizon, **options)
+    finally:
+        CORRIDOR, PLAFOND_SOLDE, PLAFOND_CREANCIER = garde
 
 
 def mesurer_s4(horizon, **options):
@@ -1803,7 +1858,7 @@ def comparer_procedure_importateur():
         proc = dict(PROCEDURE_IMPORTATEUR_AUTEUR,
                     reconversion=dict(PROCEDURE_IMPORTATEUR_AUTEUR["reconversion"], part=part))
         for h in (40, 80):
-            r = mesurer_importateur(s["S2"], h, proc, **OPTIONS_AUTEUR_COMPLETES)
+            r = mesurer_importateur(s["S2"], h, proc, **OPTIONS_AVANT_D83)
             print("  %-14s %4d %8s %7s %7.0f %7.0f %9.0f %7.0f"
                   % (("%d %% supposée" % round(100 * part) if part else "non supposée")
                      if h == 40 else "", h, r["ouverte"], r["close"] or "—", r["verse"],
@@ -1813,7 +1868,7 @@ def comparer_procedure_importateur():
         n = 0
         for h in (40, 80):
             _, j0, a0 = jouer_a_horizon(s[k], h, **OPTIONS_AVANT_D80)
-            _, j1, a1 = jouer_a_horizon(s[k], h, **OPTIONS_AUTEUR_COMPLETES)
+            _, j1, a1 = jouer_a_horizon(s[k], h, **OPTIONS_AVANT_D83)
             n += int(a0 != a1) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
                                      for p0, p1 in zip(j0, j1) for c in COMPTES)
         ailleurs.append("%s %d" % (k, n))
@@ -1834,6 +1889,116 @@ def comparer_procedure_importateur():
     print("      CE QU'ELLE NE MONTRE PAS : qu'une reconversion réussisse, en combien de")
     print("      temps, à quel coût réel — la production qui remplace les importations")
     print("      n'est pas représentée —, l'inflation, ni aucun calibrage.")
+
+
+def mesurer_seuils(horizon, corridor=None, plafond=None, plafond_creancier_=None,
+                   quotas=None, **options):
+    """Les cinq scénarios sous des seuils donnés : anomalies, révisions de parité,
+    contraction du déficitaire, masse minimale du déficitaire en S4, conversions
+    en S2, dette de recyclage du déficitaire en S4, ouverture de sa procédure."""
+    r = {"C1": 0, "C3": 0, "C5": 0, "C6": 0, "C8": 0, "revisions": 0, "contraction": 0.0}
+    for sc in SCENARIOS:
+        e, journal, anomalies = jouer_avec_seuils(
+            sc, horizon, corridor=corridor, plafond=plafond,
+            plafond_creancier_=plafond_creancier_, quotas=quotas, **options)
+        for code in ("C1", "C3", "C5", "C6", "C8"):
+            r[code] += len([a for a in anomalies if a.startswith("[%s]" % code)])
+        precedente = dict((c, 1.0) for c in CODES)
+        for p in journal:
+            r["revisions"] += sum(1 for c in CODES if abs(p["parite"][c] - precedente[c]) > 1e-12)
+            precedente = p["parite"]
+        if sc.cle in ("S0", "S1", "S2", "S3"):
+            r["contraction"] += e.contraction["DEF"]
+        if sc.cle == "S2":
+            r["converti"] = sum(e.reliquat_converti.values())
+        if sc.cle == "S4":
+            r["masse_min_def"] = min(p["masse"]["DEF"] for p in journal)
+            r["dette_def"] = journal[-1]["dette"]["DEF"]
+            r["ouverture"] = e.procedure_ouverte["DEF"]
+    return r
+
+
+def comparer_seuils_du_plafond():
+    """A43 (3b), CONDITION (3) : UN PLAFOND DUR ASSORTI D'UNE PROCÉDURE — SES SEUILS.
+
+    La procédure est arrêtée (recyclage en prêt, puis conversion du reliquat). La
+    sortie instruit ses seuils — la base des quotas, le niveau du plafond, la
+    largeur du corridor — et publie la configuration de l'auteur (D83 à D85).
+    """
+    base = OPTIONS_AVANT_D83
+    qi = quotas_proportionnels("importations")
+
+    def q(quotas):
+        return "/".join("%d" % round(quotas[c]) for c in CODES)
+    print("")
+    print("  (1) LA BASE DES QUOTAS — même total ; plafond 100 %, corridor 25 %")
+    print("  %-38s %14s %4s %4s %4s %14s %11s"
+          % ("base", "EXC/DEF/PAU", "hor.", "C6", "C8", "masse min DEF", "converti S2"))
+    for libelle, quotas, pc in (("déclarés", dict(QUOTA), None),
+                                ("importations — AUTEUR (D83)", qi, None),
+                                ("commerce, créanciers à 85 %", quotas_proportionnels("commerce"), 0.85),
+                                ("commerce", quotas_proportionnels("commerce"), None),
+                                ("exportations", quotas_proportionnels("exportations"), None)):
+        for h in (40, 80):
+            r = mesurer_seuils(h, quotas=quotas, plafond_creancier_=pc, **base)
+            print("  %-38s %14s %4d %4d %4d %14.0f %11.0f"
+                  % (libelle if h == 40 else "", q(quotas) if h == 40 else "", h, r["C6"],
+                     r["C8"], r["masse_min_def"], r["converti"]))
+    print("")
+    print("  (2) LE NIVEAU DU PLAFOND — quotas aux importations, corridor 25 %")
+    print("  %-38s %4s %4s %4s %14s %11s %10s"
+          % ("plafond", "hor.", "C6", "C8", "masse min DEF", "converti S2", "dette DEF"))
+    for libelle, pl, pc in (("100 %, symétrique — AUTEUR (D84)", None, None),
+                            ("créanciers à 75 %", None, 0.75),
+                            ("créanciers à 50 %", None, 0.50),
+                            ("50 %, symétrique", 0.50, None),
+                            ("créanciers à 150 %", None, 1.50),
+                            ("150 %, symétrique", 1.50, None)):
+        for h in (40, 80):
+            r = mesurer_seuils(h, plafond=pl, plafond_creancier_=pc, quotas=qi, **base)
+            print("  %-38s %4d %4d %4d %14.0f %11.0f %10.0f"
+                  % (libelle if h == 40 else "", h, r["C6"], r["C8"], r["masse_min_def"],
+                     r["converti"], r["dette_def"]))
+    print("")
+    print("  (3) LE CORRIDOR — quotas aux importations, plafond 100 %")
+    print("  %-38s %4s %10s %20s %14s %10s"
+          % ("corridor", "hor.", "révisions", "contraction DEF S0-S3", "masse min DEF",
+             "ouverture"))
+    for libelle, cor in (("10 %", 0.10), ("25 % — AUTEUR (D85)", None), ("50 %", 0.50)):
+        for h in (40, 80, 120):
+            r = mesurer_seuils(h, corridor=cor, quotas=qi, **base)
+            print("  %-38s %4d %10d %20.0f %14.0f %10s"
+                  % (libelle if h == 40 else "", h, r["revisions"], r["contraction"],
+                     r["masse_min_def"], r["ouverture"]))
+    print("")
+    print("  (4) LA CONFIGURATION DE L'AUTEUR — avant et après D83 à D85")
+    print("  %-26s %4s %10s %14s %11s %10s %20s"
+          % ("configuration", "hor.", "anomalies", "masse min DEF", "converti S2", "dette DEF",
+             "contraction DEF S0-S3"))
+    for libelle, options in (("avant D83", OPTIONS_AVANT_D83),
+                             ("complète (D83 à D85)", OPTIONS_AUTEUR_COMPLETES)):
+        for h in (40, 80, 120):
+            r = mesurer_seuils(h, **options)
+            print("  %-26s %4d %10d %14.0f %11.0f %10.0f %20.0f"
+                  % (libelle if h == 40 else "", h,
+                     r["C1"] + r["C3"] + r["C5"] + r["C6"] + r["C8"], r["masse_min_def"],
+                     r["converti"], r["dette_def"], r["contraction"]))
+    print("      CE QUE LA SORTIE MONTRE. C'est le plafond des CRÉANCIERS qui mord : celui")
+    print("      des débiteurs ne change aucune trajectoire tant que le premier ne dépasse")
+    print("      pas le second (« créanciers à 50 % » et « 50 %, symétrique » donnent les")
+    print("      mêmes chiffres), et il n'est franchi que si les créanciers ont plus de")
+    print("      marge que les débiteurs. Plus un quota repose")
+    print("      sur les exportations, plus l'excédentaire a de marge et plus le déficitaire")
+    print("      s'enfonce en S4 ; aux importations, aucune anomalie, et une meilleure")
+    print("      protection du déficitaire, contre un peu plus de conversions. Un plafond")
+    print("      plus haut pour les créanciers, ou à 150 %, rend sa masse négative ; plus bas,")
+    print("      il le protège davantage et coûte à l'exportateur. LE CORRIDOR N'A PAS")
+    print("      D'OPTIMUM ROBUSTE : la contraction du déficitaire change d'ordre selon")
+    print("      l'horizon ; plus large, il réduit les révisions mais retarde la procédure")
+    print("      structurelle et affaiblit la protection en S4.")
+    print("      CE QU'ELLE NE MONTRE PAS : un modèle à trois pays ne dit pas ce que donnent")
+    print("      des quotas aux importations quand le plus gros importateur est riche ; ni")
+    print("      l'inflation, ni aucun calibrage.")
 
 
 def mesurer_regle(regle):
@@ -2009,6 +2174,12 @@ def main():
     print("D79 — LA DÉPENDANCE DURABLE À UNE IMPORTATION ESSENTIELLE")
     print("=" * 78)
     comparer_procedure_importateur()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b), CONDITION (3) — LES SEUILS DU PLAFOND")
+    print("=" * 78)
+    comparer_seuils_du_plafond()
     return 0
 
 

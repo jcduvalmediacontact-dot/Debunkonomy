@@ -774,12 +774,12 @@ exiger(all(c[1] < 10 and c[0] > 3 * c[1] + 10 for c in croissances.values()),
                                   for k, v in sorted(croissances.items())))
 
 PIA = m.PROCEDURE_IMPORTATEUR_AUTEUR
-exiger(m.OPTIONS_AUTEUR_COMPLETES.get("procedure_importateur") == PIA
+exiger(m.OPTIONS_AVANT_D83.get("procedure_importateur") == PIA
        and PIA["declencheur"] == m.PERSISTANCE_STRUCTUREL and PIA["surcout_min"] == 0.30
        and PIA["reconversion"] == {"delai": 4, "part": 0.0, "financement": 1.0}
        and PIA["revue"] == "jalons" and PIA["progres_min"] == 0.25
        and PIA["plafond_factures"] == 8
-       and dict(m.OPTIONS_AUTEUR_COMPLETES, procedure_importateur=None)
+       and dict(m.OPTIONS_AVANT_D83, procedure_importateur=None)
        == dict(m.OPTIONS_AVANT_D80, procedure_importateur=None),
        "la configuration de l'auteur porte D80 à D82 : persistance et surcoût de 30 %, "
        "facture de base pendant quatre périodes, jalons de 25 % dans la limite de huit "
@@ -788,7 +788,7 @@ facture_base = sum(v * m.PRIX_BASE for k, v in m.echanges_de_base().items()
                    if k[1] == "PAU" and m.ESSENTIEL.get(k))
 def auteur(part, h=80):
     proc = dict(PIA, reconversion=dict(PIA["reconversion"], part=part))
-    return m.mesurer_importateur(S2, h, proc, **m.OPTIONS_AUTEUR_COMPLETES)
+    return m.mesurer_importateur(S2, h, proc, **m.OPTIONS_AVANT_D83)
 a0, a25, a50 = auteur(0.0), auteur(0.25), auteur(0.5)
 exiger(a0["ouverte"] == 6 and a0["close"] == 10
        and abs(a0["verse"] - 4 * facture_base) < 1e-6
@@ -804,10 +804,88 @@ ailleurs_i = 0
 for k in ("S0", "S1", "S3", "S4"):
     for h in (40, 80):
         _, j0, a0_ = m.jouer_a_horizon(par_cle(k), h, **m.OPTIONS_AVANT_D80)
-        _, j1, a1_ = m.jouer_a_horizon(par_cle(k), h, **m.OPTIONS_AUTEUR_COMPLETES)
+        _, j1, a1_ = m.jouer_a_horizon(par_cle(k), h, **m.OPTIONS_AVANT_D83)
         ailleurs_i += int(a0_ != a1_) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
                                             for p0, p1 in zip(j0, j1) for c in m.COMPTES)
 exiger(ailleurs_i == 0, "la procédure de l'auteur ne change aucune trajectoire de S0, S1, S3 et S4")
+
+
+# =====================================================================
+print("")
+print("N. A43 (3b), CONDITION (3) — LES SEUILS DU PLAFOND")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : qu'aucun de ces seuils soit calibré, ni ce
+# que donneraient des quotas aux importations dans un monde où le plus gros
+# importateur est riche. Un modèle à trois pays ne le dit pas.
+exiger(memes_trajectoires({}, {"quotas": dict(m.QUOTA)}) == 0,
+       "les quotas passés en paramètre, égaux aux quotas déclarés, ne changent rien")
+QA = m.QUOTAS_AUTEUR
+importations = dict((c, sum(v for (a, b), v in m.echanges_de_base().items() if b == c)) for c in m.CODES)
+exiger(abs(sum(QA.values()) - sum(m.QUOTA.values())) < 1e-6
+       and all(abs(QA[c] / sum(QA.values()) - importations[c] / float(sum(importations.values()))) < 1e-12
+               for c in m.CODES)
+       and m.PLAFOND_SOLDE == 1.0 and m.PLAFOND_CREANCIER is None and m.CORRIDOR == 0.25
+       and m.OPTIONS_AUTEUR_COMPLETES == dict(m.OPTIONS_AVANT_D83, quotas=QA),
+       "la configuration de l'auteur porte D83 à D85 : quotas aux importations à total "
+       "inchangé (%s), plafond dur à 100 %% des deux côtés, corridor à 25 %%"
+       % "/".join("%d" % round(QA[c]) for c in m.CODES))
+
+def seuils(h, **k):
+    return m.mesurer_seuils(h, **dict(k, **m.OPTIONS_AVANT_D83))
+def anomalies_de(r):
+    return r["C1"] + r["C3"] + r["C5"] + r["C6"] + r["C8"]
+auteur_seuils = dict((h, m.mesurer_seuils(h, **m.OPTIONS_AUTEUR_COMPLETES)) for h in (40, 80, 120))
+avant_seuils = dict((h, m.mesurer_seuils(h, **m.OPTIONS_AVANT_D83)) for h in (80, 120))
+exiger(all(anomalies_de(r) == 0 for r in auteur_seuils.values()),
+       "SOUS LES CHOIX DE L'AUTEUR, aucune anomalie dans les cinq scénarios à 40, 80 et "
+       "120 périodes")
+
+commerce = m.quotas_proportionnels("commerce")
+c_sym80 = seuils(80, quotas=commerce)
+c85 = [seuils(h, quotas=commerce, plafond_creancier_=0.85) for h in (40, 80)]
+expo40 = seuils(40, quotas=m.quotas_proportionnels("exportations"))
+exiger(c_sym80["C6"] > 0 and c_sym80["C8"] > 0 and all(anomalies_de(r) == 0 for r in c85)
+       and expo40["C8"] > 0
+       and auteur_seuils[80]["masse_min_def"] > avant_seuils[80]["masse_min_def"],
+       "LA BASE DES QUOTAS : au commerce total, le déficitaire passe sous zéro à 80 "
+       "périodes (%d masses négatives) sauf plafond créancier à 85 %% ; aux exportations "
+       "dès 40 ; aux importations, il est mieux protégé qu'avec les quotas déclarés "
+       "(%.0f contre %.0f)" % (c_sym80["C8"], auteur_seuils[80]["masse_min_def"],
+                               avant_seuils[80]["masse_min_def"]))
+
+cent = seuils(40, quotas=QA)
+p75 = seuils(40, quotas=QA, plafond_creancier_=0.75)
+p50c = seuils(40, quotas=QA, plafond_creancier_=0.50)
+p50s = seuils(40, quotas=QA, plafond=0.50)
+p150c = seuils(40, quotas=QA, plafond_creancier_=1.50)
+p150s = seuils(40, quotas=QA, plafond=1.50)
+exiger(p50c == p50s,
+       "LE PLAFOND DES DÉBITEURS ne change aucune trajectoire quand celui des créanciers "
+       "ne le dépasse pas : créanciers à 50 % et 50 % des deux côtés donnent les mêmes "
+       "chiffres")
+exiger(p150c["C6"] > 0 and p150c["C8"] > 0 and p150s["C6"] == 0 and p150s["C8"] > 0,
+       "plus de marge pour les créanciers rend la masse du déficitaire négative ; son "
+       "plancher n'est franchi que si les créanciers ont plus de marge que lui")
+exiger(cent["masse_min_def"] < p75["masse_min_def"] < p50s["masse_min_def"]
+       and cent["converti"] < p75["converti"] < p50s["converti"],
+       "un plafond créancier plus bas protège davantage le déficitaire (%.0f, %.0f, %.0f) "
+       "et coûte davantage à l'exportateur (%.0f, %.0f, %.0f convertis à 40 périodes)"
+       % (cent["masse_min_def"], p75["masse_min_def"], p50s["masse_min_def"],
+          cent["converti"], p75["converti"], p50s["converti"]))
+
+cor = dict((w, [seuils(h, quotas=QA, corridor=w) for h in (40, 80)]) for w in (0.10, 0.25, 0.50))
+exiger(cor[0.10][0]["revisions"] > cor[0.25][0]["revisions"] > cor[0.50][0]["revisions"]
+       and cor[0.10][0]["ouverture"] < cor[0.25][0]["ouverture"] < cor[0.50][0]["ouverture"]
+       and cor[0.50][0]["masse_min_def"] < cor[0.25][0]["masse_min_def"],
+       "LE CORRIDOR : plus large, moins de révisions (%d, %d, %d), une procédure structurelle "
+       "plus tardive (périodes %d, %d, %d) et moins de protection en S4"
+       % (cor[0.10][0]["revisions"], cor[0.25][0]["revisions"], cor[0.50][0]["revisions"],
+          cor[0.10][0]["ouverture"], cor[0.25][0]["ouverture"], cor[0.50][0]["ouverture"]))
+exiger(cor[0.25][0]["contraction"] < min(cor[0.10][0]["contraction"], cor[0.50][0]["contraction"])
+       and cor[0.25][1]["contraction"] > min(cor[0.10][1]["contraction"], cor[0.50][1]["contraction"]),
+       "et le corridor n'a pas d'optimum robuste : à 25 %%, la contraction du déficitaire est la "
+       "plus basse à 40 périodes (%.0f) et ne l'est plus à 80 (%.0f)"
+       % (cor[0.25][0]["contraction"], cor[0.25][1]["contraction"]))
 
 
 print("")

@@ -7446,3 +7446,50 @@ La procédure côté importateur est retenue dans son principe depuis D79, sans 
 ### CE QUI RESTE OUVERT
 
 Le calibrage des seuils et du délai ; ce qu'une reconversion coûte et obtient réellement — la production qui remplacerait les importations n'est pas représentée ; le document du Fonds sur le guichet alimentaire, demandé à l'auteur. Et, dans A43 (3b) : les seuils du plafond, condition (3) ; la suite d'une procédure close sur un échec ; la dette de recyclage du déficitaire à long terme ; l'adoption (F6). **L'applicabilité de (3b) reste non jugée.**
+
+
+## A43 (3b), CONDITION (3) — LES SEUILS DU PLAFOND, D83 À D85, 2026-09-17
+
+La condition (3) demande « un plafond dur assorti d'une procédure ». La procédure est arrêtée : recyclage automatique de l'excès (D70), en prêt (D72), puis conversion du reliquat sans destinataire (D77). Cette section instruit ses seuils — la base des quotas dont ils sont des fractions, le niveau du plafond, la largeur du corridor. **Avec elle, les cinq conditions de (3b) sont instruites.**
+
+### TROIS DÉCISIONS DE L'AUTEUR, PRISES SUR LA VOIE RECOMMANDÉE
+
+**(D83) LES QUOTAS SONT PROPORTIONNELS AUX IMPORTATIONS**, à total inchangé : 931/1078/392 pour l'excédentaire, le déficitaire et le pays pauvre, au lieu de 1000/1000/400. Écartés : le commerce total, avec ou sans plafond créancier abaissé.
+
+**(D84) LE PLAFOND DUR VAUT 100 % DU QUOTA, DES DEUX CÔTÉS.** Écartés : un plafond créancier à 75 % ou à 50 %.
+
+**(D85) LE CORRIDOR VAUT 25 % DU QUOTA.** Écartés : 10 % et 50 %. **D84 et D85 étaient les repères déclarés du modèle ; ils deviennent des choix de l'auteur, toujours non calibrés.**
+
+### CE QUE DISENT LES PIÈCES
+
+**LE PLAN KEYNES D'AVRIL 1943** — même pièce que pour les sections précédentes, version (B). **La base des quotas y est le commerce** : « The initial quotas might be fixed by reference to the sum of each country’s exports and imports on the average of (say) the three pre-war years, and might be (say) 75 per cent, of this amount, a special assessment being substituted in cases (of which there might be several) where this formula would be, for any reason, inappropriate. » ; « The determination of a country’s quota primarily by reference to the value of its foreign trade seems to offer the criterion most relevant to a plan which is chiefly concerned with the regulation of the foreign exchanges and of a country’s international trade balance. » **— mais la question reste ouverte** : « It is, however, a matter for discussion whether the formula for fixing quotas should also take account of other factors. » **Le maximum n'est rigide que d'un côté** : « In the case of debit balances this maximum has been made a rigid one, and, indeed, counter-measures are called for long before the maximum is reached. » ; « In the case of credit balances no rigid maximum has been proposed. » Les charges au quart et à la moitié du quota sont citées plus haut, dans la section de la condition (2).
+
+**SCHMIEDING, 1992** — même pièce que pour la section du 2026-09-16, SHA-256 E1774EC9C07AF26DD8B4457DC902E160F04233B210D8B8A25C9A1AF67ED34A5F. **L'Union européenne des paiements fonctionnait par quota et par tranches** : « The credit mechanism created the scope to run payments imbalances with the union over time as long as the cumulative imbalance did not surpass a certain limit called "quota". » ; « Cumulative net imbalances amounting to 20 per cent of these EPU quotas were a pure credit; beyond this initial credit tranche, surplus countries received half of their additional surplus in dollar and granted the remainder as credit. » (page PDF 10). **Sa première tranche, de pur crédit, valait donc un corridor de 20 %.**
+
+**LE RÈGLEMENT (UE) N° 1176/2011** — même pièce que pour la condition (2), SHA-256 83DBF89696AB4948B1AF465701ED28F767A7F900125C141F8B48656A4E05B36C. **La procédure européenne a des seuils à deux bornes** : « The scoreboard of indicators shall have upper and lower alert thresholds unless inappropriate, which shall be differentiated for euro and non-euro area Member States if justified by specific features of the monetary union and relevant economic circumstances. » (page PDF 5). **Mais ce sont des alertes, non des déclencheurs** : « Conclusions shall not be drawn from a mechanical reading of the scoreboard indicators. » (page PDF 4). Sous D70, les seuils de NEMO déclenchent les obligations sans lecture intermédiaire : **leur niveau engage donc davantage que dans la procédure européenne.**
+
+### CE QUE MONTRE LE MODÈLE
+
+`python modeles/nemo_soldes.py`, section finale `comparer_seuils_du_plafond`, vérifiée par la section N de `modeles/test_nemo_soldes.py`. Les quotas deviennent un paramètre de `jouer` ; laissés par défaut, ils reproduisent la version commitée, et toutes les sections antérieures sortent à l'identique, caractère pour caractère. `OPTIONS_AUTEUR_COMPLETES` porte désormais D83 ; `OPTIONS_AVANT_D83` reproduit la configuration de la section précédente.
+
+**(1) C'EST LE PLAFOND DES CRÉANCIERS QUI MORD.** Celui des débiteurs ne change aucune trajectoire tant que le premier ne le dépasse pas : un plafond à 50 % pour les seuls créanciers donne exactement les mêmes chiffres qu'un plafond à 50 % des deux côtés. **Il n'est franchi que si les créanciers ont plus de marge que les débiteurs** : créanciers à 150 %, 21 dépassements du plancher du déficitaire et 24 masses négatives en quarante périodes ; 150 % des deux côtés, aucun dépassement mais 24 masses négatives.
+
+**(2) PLUS UN QUOTA REPOSE SUR LES EXPORTATIONS, PLUS L'EXCÉDENTAIRE A DE MARGE, ET PLUS LE DÉFICITAIRE S'ENFONCE.** À plafond de 100 % et corridor de 25 % : quotas au commerce total (1151/882/367), 44 dépassements et 27 masses négatives à quatre-vingts périodes, aucun avec un plafond créancier à 85 % ; aux exportations (1371/686/343), 25 masses négatives dès quarante ; **aux importations, aucune anomalie, et le déficitaire est mieux protégé en S4** : masse minimale 219 à quatre-vingts périodes, contre 145 avec les quotas déclarés.
+
+**(3) UN PLAFOND CRÉANCIER PLUS BAS PROTÈGE DAVANTAGE LE DÉFICITAIRE ET COÛTE DAVANTAGE À L'EXPORTATEUR.** Sous quotas aux importations, à quarante périodes, masse minimale du déficitaire en S4 : 255, 309 et 558 pour un plafond créancier de 100, 75 et 50 % ; créances converties chez l'exportateur en S2 : 134, 570 et 1008 ; dette de recyclage du déficitaire en S4 à quatre-vingts périodes : 3537, 3597 et 4096.
+
+**(4) LE CORRIDOR N'A PAS D'OPTIMUM ROBUSTE.** À 10, 25 et 50 %, révisions de parité en quarante périodes : 237, 179, 92 ; ouverture de la procédure structurelle en S4 : période 8, 10, 13 ; masse minimale du déficitaire : 236, 255, 98. **La contraction du déficitaire change d'ordre selon l'horizon** : à 25 %, elle est la plus basse à quarante périodes (1541, contre 2082 et 2098) et la plus haute à quatre-vingts (3751, contre 3052 et 3054).
+
+**(5) LA CONFIGURATION DE L'AUTEUR** ne produit aucune anomalie dans les cinq scénarios à quarante, quatre-vingts et cent vingt périodes. Par rapport à la configuration précédente, la masse minimale du déficitaire en S4 passe de 145 à 219 à quatre-vingts périodes, et de 128 à 206 à cent vingt.
+
+### LE PRIX DU CHOIX DE L'AUTEUR
+
+**L'EXPORTATEUR A MOINS DE MARGE, ET CE QUE D77 LUI ANNULE AUGMENTE** : 1923 créances converties en S2 à quatre-vingts périodes, contre 1851 avec les quotas déclarés. **Le coût d'adhésion d'un exportateur de biens essentiels (F6) s'alourdit d'autant.**
+
+**DES QUOTAS AUX IMPORTATIONS DONNENT LE PLUS DE MARGE AU PLUS GROS IMPORTATEUR.** Dans le modèle, c'est le déficitaire ; **dans un monde où le plus gros importateur est riche, c'est lui qui pourrait accumuler le plus de déficit avant d'atteindre son plafond**, et un modèle à trois pays ne le mesure pas. Keynes laissait lui-même ouverte la prise en compte d'« autres facteurs ».
+
+**LES SEUILS RESTENT NON CALIBRÉS**, et le corridor retenu n'est optimal à aucun horizon de façon stable.
+
+### CE QUI RESTE OUVERT
+
+**Les cinq conditions de (3b) sont instruites : son applicabilité peut désormais être jugée**, et elle ne l'est pas encore. Restent aussi le calibrage des seuils ; le cas d'un gros importateur riche ; la suite d'une procédure close sur un échec ; la dette de recyclage du déficitaire à long terme ; l'adoption (F6) ; le document du Fonds sur le guichet alimentaire.

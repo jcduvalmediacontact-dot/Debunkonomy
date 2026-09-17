@@ -240,8 +240,8 @@ arbitrages:
       entre banques centrales — plausible, seule expérimentable. (3a) EXCHANGE
       STANDARD À PARITÉS STRICTEMENT FIXES — non applicable sans transferts
       permanents des excédentaires. (3b) À PARITÉS ADMINISTRÉES, en coalition,
-      capitaux réglementés — applicabilité non jugée, conditions nommées au
-      texte. Le remplacement mondial n'est pas applicable.
+      capitaux réglementés — applicabilité non jugée, ses cinq conditions
+      instruites (D69 à D85). Le remplacement mondial n'est pas applicable.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31, L19.C10]
     maj: 2026-09-17
@@ -794,14 +794,14 @@ pieces_de_conception_manquantes:
     tranche_par: auteur
     lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE, DEPENDANCE-ESSENTIELLE]
     decision: >
-      RÉFÉRENCE DU 2026-09-09, RÉVISÉE PAR L'AUTEUR LE 2026-09-17 :
-      comptes des banques centrales à l'institution, corridor des deux côtés,
-      facilité, parités administrées. OBLIGATIONS DES EXCÉDENTAIRES
-      AUTOMATIQUES, sans vote : réévaluation (D69) ; au-delà du plafond,
-      recyclage EN PRÊT, puis reliquat sans destinataire ANNULÉ (D77). AUCUNE
-      CHARGE GRADUÉE SUR LES POSITIONS ; démurrage hors compensation (D76,
-      D78). Le plafond est une PROCÉDURE. Perte durable d'un débouché :
-      PROCEDURE-STRUCTURELLE.
+      RÉFÉRENCE DU 2026-09-09, RÉVISÉE LE 2026-09-17 : comptes des banques
+      centrales à l'institution, quotas aux importations, corridor à 25 % et
+      plafond dur à 100 % des deux côtés (D83 à D85), facilité, parités
+      administrées. OBLIGATIONS DES EXCÉDENTAIRES AUTOMATIQUES, sans vote :
+      réévaluation (D69) ; au-delà du plafond, recyclage EN PRÊT, puis
+      reliquat sans destinataire ANNULÉ (D77). AUCUNE CHARGE GRADUÉE SUR LES
+      POSITIONS ; démurrage hors compensation (D76, D78). Le plafond est une
+      PROCÉDURE.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
     maj: 2026-09-17

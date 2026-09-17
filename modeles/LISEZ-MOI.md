@@ -217,6 +217,14 @@ configurations des sections antérieures, dont la sortie reste identique.
 `comparer_procedure_importateur` publie l'ouverture, l'intensité du choc, le financement, la
 revue, la baisse nécessaire et la configuration de l'auteur, vérifiés par la section M.
 
+**LES SEUILS DU PLAFOND, 2026-09-17 — condition (3) d'A43 (3b), D83 à D85.**
+`jouer` reçoit ses `quotas` en paramètre (les quotas déclarés par défaut) ; `PLAFOND_CREANCIER`
+permet un plafond propre aux soldes créditeurs, et `jouer_avec_seuils` rejoue un scénario
+sous d'autres corridor, plafond ou quotas. `QUOTAS_AUTEUR`, proportionnels aux importations
+(`quotas_proportionnels`), entrent dans `OPTIONS_AUTEUR_COMPLETES` ; `OPTIONS_AVANT_D83` fige
+la configuration précédente. `comparer_seuils_du_plafond` publie la base des quotas, le niveau
+du plafond, le corridor et la configuration de l'auteur, vérifiés par la section N.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 
