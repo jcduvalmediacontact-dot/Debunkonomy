@@ -233,15 +233,16 @@ arbitrages:
     objet: "Les trois composantes réunies sous le nom NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE, "EXCEDENT-DU-SYMPOSIUM"]
+    lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE, "EXCEDENT-DU-SYMPOSIUM", SORTIE-DES-DESEQUILIBRES-DURABLES]
     decision: >
-      ARBITRÉ LE 2026-09-09 ; POINT (3) SCINDÉ PAR L'AUTEUR LE 2026-09-16. (1)
+      ARBITRÉ LE 2026-09-09 ; (3) SCINDÉ LE 2026-09-16, JUGÉ LE 2026-09-17. (1)
       FINANCEMENT CIBLÉ — pilotable sous fortes limites. (2) UNITÉ DE RÉSERVE
-      entre banques centrales — plausible, seule expérimentable. (3a) EXCHANGE
-      STANDARD À PARITÉS STRICTEMENT FIXES — non applicable sans transferts
-      permanents des excédentaires. (3b) À PARITÉS ADMINISTRÉES, en coalition,
-      capitaux réglementés — applicabilité non jugée, ses cinq conditions
-      instruites (D69 à D85). Le remplacement mondial n'est pas applicable.
+      entre banques centrales — plausible, expérimentable. (3a) PARITÉS
+      STRICTEMENT FIXES — non applicable sans transferts permanents des
+      excédentaires. (3b) PARITÉS ADMINISTRÉES, en coalition, capitaux
+      réglementés — EXPÉRIMENTABLE pour des chocs passagers, NON APPLICABLE en
+      l'état aux déséquilibres durables (D86). Remplacement mondial non
+      applicable.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31, L19.C10]
     maj: 2026-09-17
@@ -792,7 +793,7 @@ pieces_de_conception_manquantes:
     objet: "Traitement des déséquilibres courants persistants"
     statut: oriente
     tranche_par: auteur
-    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE, DEPENDANCE-ESSENTIELLE]
+    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE, DEPENDANCE-ESSENTIELLE, SORTIE-DES-DESEQUILIBRES-DURABLES]
     decision: >
       RÉFÉRENCE DU 2026-09-09, RÉVISÉE LE 2026-09-17 : comptes des banques
       centrales à l'institution, quotas aux importations, corridor à 25 % et
@@ -810,7 +811,7 @@ pieces_de_conception_manquantes:
     objet: "Perte durable d'un débouché — condition (5) d'A43 (3b)"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, COMPENSATION-SYMETRIQUE, A45, DEPENDANCE-ESSENTIELLE]
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, A45, DEPENDANCE-ESSENTIELLE, SORTIE-DES-DESEQUILIBRES-DURABLES]
     decision: >
       ARBITRÉE PAR L'AUTEUR LE 2026-09-17. Ouverte sur déficit persistant ET
       perte mesurée d'au moins 30 % des exportations. Reconversion financée
@@ -838,6 +839,21 @@ pieces_de_conception_manquantes:
       réussite réduit l'émission, aux dépens des exportations de l'exportateur.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26]
+    maj: 2026-09-17
+
+  - id: SORTIE-DES-DESEQUILIBRES-DURABLES
+    objet: "Sortie des dettes laissées par un déséquilibre durable — sixième condition d'A43 (3b)"
+    statut: ouvert
+    tranche_par: auteur
+    lie_a: [A43, PROCEDURE-STRUCTURELLE, COMPENSATION-SYMETRIQUE]
+    decision: >
+      OUVERT PAR L'AUTEUR LE 2026-09-17 (D87). Sous ses règles, un déséquilibre
+      durable non résorbé devient une dette de recyclage sans fin : 9,4 quotas
+      en S4 à 200 périodes, rien de remboursé, aucune anomalie pour le
+      signaler. À INSTRUIRE : restructuration, annulation, restriction des
+      échanges, sortie de la coalition, ou limite assumée.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C26, L1.C31]
     maj: 2026-09-17
 
   - id: CONTROLE-DES-CAPITAUX

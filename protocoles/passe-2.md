@@ -7493,3 +7493,40 @@ La condition (3) demande « un plafond dur assorti d'une procédure ». La proc�
 ### CE QUI RESTE OUVERT
 
 **Les cinq conditions de (3b) sont instruites : son applicabilité peut désormais être jugée**, et elle ne l'est pas encore. Restent aussi le calibrage des seuils ; le cas d'un gros importateur riche ; la suite d'une procédure close sur un échec ; la dette de recyclage du déficitaire à long terme ; l'adoption (F6) ; le document du Fonds sur le guichet alimentaire.
+
+
+## A43 (3b) — LE JUGEMENT D'APPLICABILITÉ, D86 ET D87, 2026-09-17
+
+Les cinq conditions de (3b) étant instruites (D69 à D85), l'auteur juge son applicabilité. Le jugement a été instruit en cherchant d'abord ce qui démentirait un verdict favorable : horizon long, chocs combinés et répétés, créancier qui n'adopte pas ses obligations.
+
+### LE VERDICT DE L'AUTEUR
+
+**(D86) L'EXCHANGE STANDARD À PARITÉS ADMINISTRÉES EST EXPÉRIMENTABLE EN COALITION POUR DES CHOCS PASSAGERS ; IL N'EST PAS APPLICABLE EN L'ÉTAT AUX DÉSÉQUILIBRES DURABLES.** Écartés : « expérimentable en coalition » sans distinction, qui aurait tu les dettes durables ; « non applicable en l'état » pour toute la forme ; « toujours non jugée ».
+
+**(D87) UNE SIXIÈME CONDITION EST OUVERTE : UNE RÈGLE DE SORTIE DES DETTES DURABLES** (SORTIE-DES-DESEQUILIBRES-DURABLES), à instruire.
+
+**UN SECOND TROU EST PUBLIÉ, ET L'AUTEUR NE L'A PAS RETENU COMME CONDITION** : des chocs passagers répétés, trop brefs pour déclencher l'allocation, endettent le pays pauvre (mesure plus bas). **Il borne la portée du verdict sans en changer la lettre** : mesuré, seul le cas de chocs passagers isolés ne laisse aucune dette.
+
+### SUR QUOI LE VERDICT REPOSE
+
+`python modeles/nemo_soldes.py`, section finale `comparer_applicabilite`, vérifiée par la section O de `modeles/test_nemo_soldes.py`, sous la configuration complète de l'auteur. **Des chocs passagers isolés (S0, S1, S3) ne laissent ni anomalie ni dette, même à deux cents périodes.** Sous chocs combinés, répétés ou plus intenses — S2 et S4 ensemble, S1 toutes les douze périodes, S3 toutes les dix, S2 à prix triplé, S1 et S3 ensemble —, aucune anomalie à cent soixante périodes : ni dépassement, ni masse négative, ni essentiel bloqué, ni identité rompue.
+
+### CE QUI LE BORNE
+
+**(1) UN DÉSÉQUILIBRE DURABLE NON RÉSORBÉ DEVIENT UNE DETTE SANS FIN, ET RIEN NE LE SIGNALE.** En S4, reconversion ratée, la dette de recyclage du déficitaire passe de 1,3 quota à quarante périodes à 9,4 quotas à deux cents — environ 54 par période —, et rien n'en est remboursé. En S2, 4,9 quotas à deux cents périodes ; sous S2 et S4 ensemble, 8,3 quotas à cent soixante. **Aucun contrôle du modèle ne compte une dette : la mesure a dû la chercher.** C'est la suite d'un échec que D74 laissait non écrite ; D87 en fait une condition.
+
+**(2) DES CHOCS PASSAGERS RÉPÉTÉS LAISSENT AUSSI DES DETTES.** Chocs énergétiques toutes les douze périodes : 0,4 quota de dette du déficitaire à cent soixante périodes. **Mauvaises récoltes toutes les dix : le pays pauvre doit 2,4 quotas**, parce que son déficit essentiel ne dure jamais les cinq périodes qui déclenchent l'allocation ; la facilité reste tirée en permanence et le recyclage en prêt comble le reste. **C'est l'endettement que les deux guichets d'A45 devaient éviter.**
+
+**(3) TOUT REPOSE SUR L'AUTOMATICITÉ DES OBLIGATIONS DU CRÉANCIER.** Cinq scénarios, quatre-vingts périodes : créancier tenu, 0 dépassement et 0 masse négative ; **créancier qui délibère, comme dans tous les précédents, 334 dépassements et 67 masses négatives** ; qui refuse la conversion du reliquat, 46 dépassements ; qui refuse recyclage et conversion, 176 dépassements et 64 masses négatives. **La réévaluation, elle, n'est pas indispensable** : refusée seule, 0 dépassement et 0 masse négative.
+
+**(4) CE QUE LE MODÈLE NE PEUT PAS JUGER.** L'adoption de ces obligations par des créanciers réels — F6 : le plan Keynes a perdu en 1944 sur la disposition qui visait la symétrie (L1.C25), l'Union européenne des paiements n'a tenu qu'avec un payeur extérieur et la générosité d'un créancier (section du 2026-09-16), la procédure européenne n'a jamais été activée (section de la condition (2)). La conception du contrôle des capitaux, dont aucune modalité n'est tranchée (CONTROLE-DES-CAPITAUX). Le calibrage et l'inflation (F1), l'avantage sur les instruments existants (F10), et un monde de plus de trois pays.
+
+### CE QUE LE VERDICT CHANGE
+
+**La conclusion de l'auteur du 2026-09-09 demandait au dispositif d'ajouter** une facilité, des plafonds débiteur et créditeur, un mécanisme symétrique sur les excédents persistants, une procédure structurelle et des parités révisables selon une règle annoncée, « faute de quoi il impose une déflation permanente aux pays structurellement déficitaires ». **C'est écrit, et le modèle ne montre plus de déflation permanente. Mais ce que la déflation ne fait plus, la dette le fait** : sous déséquilibre durable, le déficitaire ne se vide plus de sa monnaie, il s'endette sans limite.
+
+**Le registre est corrigé en conséquence** : A43 disait l'unité de réserve « seule expérimentable » ; D86 rend (3b) expérimentable pour des chocs passagers. **L1.C31 § 6 est amendé sur accord explicite de l'auteur**, pour la phrase qui portait « son applicabilité n'est pas jugée ». **Une correction reste à propager** : la phrase précédente du même paragraphe dit encore l'unité de réserve « la branche expérimentable » ; son harmonisation attend l'accord de l'auteur.
+
+### CE QUI RESTE OUVERT
+
+**La règle de sortie des dettes durables (D87).** Le trou des chocs répétés, publié et non retenu. L'adoption (F6), le contrôle des capitaux, le calibrage et l'inflation (F1), l'avantage comparatif (F10). **Rien de ce verdict ne vaut au-delà d'une coalition expérimentale** : le remplacement mondial reste non applicable.

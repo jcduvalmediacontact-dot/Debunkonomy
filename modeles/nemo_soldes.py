@@ -2001,6 +2001,142 @@ def comparer_seuils_du_plafond():
     print("      l'inflation, ni aucun calibrage.")
 
 
+def chocs_combines(*chocs):
+    """Plusieurs chocs appliqués à la suite, période par période."""
+    def choc(t, volumes, prix):
+        for f in chocs:
+            volumes, prix = f(t, volumes, prix)
+        return volumes, prix
+    return choc
+
+
+def chocs_energetiques_repetes(periode=12, duree=3):
+    """Le choc énergétique passager de S1, répété toutes les `periode` périodes."""
+    def choc(t, volumes, prix):
+        if t >= 3 and (t - 3) % periode < duree:
+            prix = dict(prix)
+            prix[("EXC", "PAU")] = PRIX_BASE * 2.0
+            prix[("EXC", "DEF")] = PRIX_BASE * 1.5
+        return volumes, prix
+    return choc
+
+
+def recoltes_repetees(periode=10):
+    """La mauvaise récolte de S3, répétée toutes les `periode` périodes."""
+    def choc(t, volumes, prix):
+        if t >= 3 and (t - 3) % periode < 3:
+            volumes = dict(volumes)
+            volumes[("PAU", "EXC")] = 5
+            volumes[("PAU", "DEF")] = 2
+            volumes[("EXC", "PAU")] = 60
+        return volumes, prix
+    return choc
+
+
+def scenarios_de_stress():
+    """Ce que les cinq scénarios ne jouent pas : des chocs combinés, répétés, plus
+    intenses. Ils servent à chercher ce qui démentirait un verdict favorable."""
+    return [
+        Scenario("S2+S4", "choc structurel et perte d'un débouché ensemble",
+                 chocs_combines(choc_energetique_durable, rupture_commerciale), "stress"),
+        Scenario("S1r", "choc énergétique passager toutes les 12 périodes",
+                 chocs_energetiques_repetes(12, 3), "stress"),
+        Scenario("S3r", "mauvaise récolte toutes les 10 périodes", recoltes_repetees(10), "stress"),
+        Scenario("S2x3", "choc structurel à prix triplé", s2_intensite(3.0).choc, "stress"),
+        Scenario("S1+S3", "choc énergétique et mauvaise récolte ensemble",
+                 chocs_combines(choc_energetique, mauvaise_recolte), "stress"),
+    ]
+
+
+def mesurer_applicabilite(scenario, horizon, **options):
+    """Anomalies, dettes de recyclage en quotas, conversions et allocations d'un jeu."""
+    quotas = options.get("quotas") or QUOTA
+    e, journal, anomalies = jouer_a_horizon(scenario, horizon, **options)
+    codes = dict((k, len([a for a in anomalies if a.startswith("[%s]" % k)]))
+                 for k in ("C1", "C2", "C3", "C5", "C6", "C7", "C8"))
+    return {"codes": codes, "graves": codes["C1"] + codes["C3"] + codes["C5"] + codes["C6"] + codes["C8"],
+            "dette_def": journal[-1]["dette"]["DEF"], "dette_pau": journal[-1]["dette"]["PAU"],
+            "dette_def_quotas": journal[-1]["dette"]["DEF"] / quotas["DEF"],
+            "dette_pau_quotas": journal[-1]["dette"]["PAU"] / quotas["PAU"],
+            "rembourse_def": e.rembourse_pret["DEF"], "converti": sum(e.reliquat_converti.values()),
+            "allocations": sum(e.alloc.values()),
+            "masse_min": dict((c, min(p["masse"][c] for p in journal)) for c in CODES)}
+
+
+def comparer_applicabilite():
+    """A43 (3b) : LE JUGEMENT D'APPLICABILITÉ, LES CINQ CONDITIONS ÉTANT INSTRUITES.
+
+    La sortie cherche ce qui démentirait un verdict favorable — horizon long, chocs
+    combinés et répétés, créancier qui n'adopte pas ses obligations — et publie le
+    verdict de l'auteur (D86) avec la condition qu'il ajoute (D87).
+    """
+    O = OPTIONS_AUTEUR_COMPLETES
+    print("")
+    print("  (1) LA CONFIGURATION DE L'AUTEUR — les cinq scénarios, à 40 et 200 périodes")
+    print("  %-8s %4s %8s %4s %16s %16s %9s %12s"
+          % ("scénario", "hor.", "anomalies", "C7", "dette DEF (quotas)", "dette PAU (quotas)",
+             "converti", "allocations"))
+    for sc in SCENARIOS:
+        for h in (40, 200):
+            r = mesurer_applicabilite(sc, h, **O)
+            print("  %-8s %4d %8d %4d %11.0f (%4.1f) %11.0f (%4.1f) %9.0f %12.0f"
+                  % (sc.cle if h == 40 else "", h, r["graves"], r["codes"]["C7"], r["dette_def"],
+                     r["dette_def_quotas"], r["dette_pau"], r["dette_pau_quotas"], r["converti"],
+                     r["allocations"]))
+    print("      (anomalies : dépassements, masses négatives, essentiel bloqué, identités ;")
+    print("      C7 : tirages de facilité non échus à l'horizon, compté à part)")
+    print("")
+    print("  (2) CHOCS COMBINÉS ET RÉPÉTÉS — configuration de l'auteur, 80 et 160 périodes")
+    print("  %-8s %-46s %4s %8s %4s %16s %16s"
+          % ("jeu", "choc", "hor.", "anomalies", "C7", "dette DEF (quotas)", "dette PAU (quotas)"))
+    for sc in scenarios_de_stress():
+        for h in (80, 160):
+            r = mesurer_applicabilite(sc, h, **O)
+            print("  %-8s %-46s %4d %8d %4d %11.0f (%4.1f) %11.0f (%4.1f)"
+                  % (sc.cle if h == 80 else "", sc.titre if h == 80 else "", h, r["graves"],
+                     r["codes"]["C7"], r["dette_def"], r["dette_def_quotas"], r["dette_pau"],
+                     r["dette_pau_quotas"]))
+    print("")
+    print("  (3) SI LE CRÉANCIER N'ADOPTE PAS SES OBLIGATIONS — cinq scénarios, 80 périodes")
+    print("  %-40s %12s %17s" % ("créancier", "dépassements", "masses négatives"))
+    for libelle, extra in (("tenu par les règles de l'auteur", {}),
+                           ("délibère, comme dans l'histoire", {"symetrie_contraignante": False}),
+                           ("refuse la réévaluation", {"obligations_creancier": ("plafond",)}),
+                           ("refuse la conversion du reliquat", {"reliquat_plafond": None}),
+                           ("refuse recyclage et conversion",
+                            {"obligations_creancier": ("parite",), "reliquat_plafond": None})):
+        depass = negatives = 0
+        for sc in SCENARIOS:
+            r = mesurer_applicabilite(sc, 80, **dict(O, **extra))
+            depass += r["codes"]["C6"]
+            negatives += r["codes"]["C8"]
+        print("  %-40s %12d %17d" % (libelle, depass, negatives))
+    print("")
+    print("  (4) LA DETTE DURABLE — S4, perte d'un débouché, reconversion ratée")
+    print("  %-8s %12s %8s %12s" % ("horizon", "dette DEF", "quotas", "remboursée"))
+    s4 = [x for x in SCENARIOS if x.cle == "S4"][0]
+    for h in (40, 80, 120, 160, 200):
+        r = mesurer_applicabilite(s4, h, **O)
+        print("  %-8d %12.0f %8.1f %12.0f" % (h, r["dette_def"], r["dette_def_quotas"],
+                                             r["rembourse_def"]))
+    print("      VERDICT DE L'AUTEUR (D86) : EXPÉRIMENTABLE EN COALITION POUR DES CHOCS")
+    print("      PASSAGERS ; NON APPLICABLE EN L'ÉTAT AUX DÉSÉQUILIBRES DURABLES. Condition")
+    print("      ajoutée (D87) : une règle de sortie des dettes durables, à instruire.")
+    print("      CE QUE LA SORTIE MONTRE. Sous les règles de l'auteur, aucune anomalie, même")
+    print("      à 200 périodes et sous chocs combinés ou répétés ; les chocs passagers")
+    print("      ISOLÉS ne laissent aucune dette. Mais un déséquilibre durable non résorbé")
+    print("      devient une dette de recyclage qui croît sans fin et n'est jamais")
+    print("      remboursée ; des chocs passagers répétés laissent aussi des dettes, et des")
+    print("      mauvaises récoltes répétées, trop brèves pour déclencher l'allocation,")
+    print("      endettent le pays pauvre. Enfin tout repose sur l'automaticité des")
+    print("      obligations du créancier : s'il délibère, ou s'il refuse recyclage et")
+    print("      conversion, les dépassements et les masses négatives reviennent.")
+    print("      CE QU'ELLE NE MONTRE PAS : que des créanciers adoptent ces obligations (F6),")
+    print("      la conception du contrôle des capitaux, l'inflation, le calibrage (F1),")
+    print("      l'avantage sur les instruments existants (F10), ni ce que donnerait un")
+    print("      monde de plus de trois pays.")
+
+
 def mesurer_regle(regle):
     """Synthèse d'une règle sur les cinq scénarios : contraction du déficitaire
     et solde final de l'excédentaire cumulés de S0 à S3, parité du déficitaire
@@ -2180,6 +2316,12 @@ def main():
     print("A43 (3b), CONDITION (3) — LES SEUILS DU PLAFOND")
     print("=" * 78)
     comparer_seuils_du_plafond()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b) — LE JUGEMENT D'APPLICABILITÉ")
+    print("=" * 78)
+    comparer_applicabilite()
     return 0
 
 

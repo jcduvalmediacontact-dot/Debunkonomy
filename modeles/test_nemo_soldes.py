@@ -888,6 +888,55 @@ exiger(cor[0.25][0]["contraction"] < min(cor[0.10][0]["contraction"], cor[0.50][
        % (cor[0.25][0]["contraction"], cor[0.25][1]["contraction"]))
 
 
+# =====================================================================
+print("")
+print("O. A43 (3b) — LE JUGEMENT D'APPLICABILITÉ")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : qu'un créancier adopte ces obligations, ni
+# que le dispositif soit calibré. Elle verrouille ce sur quoi le verdict de
+# l'auteur (D86) repose, et ce qui le borne.
+OA = m.OPTIONS_AUTEUR_COMPLETES
+isoles = dict((k, m.mesurer_applicabilite(par_cle(k), 200, **OA)) for k in ("S0", "S1", "S3"))
+exiger(all(r["graves"] == 0 and r["dette_def"] < 1e-6 and r["dette_pau"] < 1e-6 for r in isoles.values()),
+       "DES CHOCS PASSAGERS ISOLÉS, sous les règles de l'auteur, ne laissent ni anomalie ni dette, "
+       "même à 200 périodes")
+s4_dette = dict((h, m.mesurer_applicabilite(par_cle("S4"), h, **OA)) for h in (40, 120, 200))
+exiger(s4_dette[200]["graves"] == 0 and s4_dette[200]["dette_def_quotas"] > 9
+       and s4_dette[200]["rembourse_def"] == 0
+       and (s4_dette[200]["dette_def"] - s4_dette[120]["dette_def"])
+       > 0.9 * (s4_dette[120]["dette_def"] - s4_dette[40]["dette_def"]) / 1.0,
+       "UN DÉSÉQUILIBRE DURABLE NON RÉSORBÉ devient une dette de recyclage qui croît sans fin : "
+       "%.1f quotas à 200 périodes en S4, rien de remboursé, sans aucune anomalie pour le signaler"
+       % s4_dette[200]["dette_def_quotas"])
+stress = dict((sc.cle, sc) for sc in m.scenarios_de_stress())
+combine160 = m.mesurer_applicabilite(stress["S2+S4"], 160, **OA)
+recoltes80 = m.mesurer_applicabilite(stress["S3r"], 80, **OA)
+recoltes160 = m.mesurer_applicabilite(stress["S3r"], 160, **OA)
+exiger(combine160["graves"] == 0 and combine160["dette_def_quotas"] > 8,
+       "sous choc combiné S2 et S4, aucune anomalie mais %.1f quotas de dette à 160 périodes"
+       % combine160["dette_def_quotas"])
+exiger(recoltes160["graves"] == 0 and recoltes160["dette_pau_quotas"] > 2
+       and abs(recoltes160["allocations"] - recoltes80["allocations"]) < 1e-6
+       and recoltes160["codes"]["C7"] > 0,
+       "DES MAUVAISES RÉCOLTES RÉPÉTÉES, trop brèves pour déclencher l'allocation, endettent le pays "
+       "pauvre (%.1f quotas à 160 périodes) pendant que la facilité reste tirée"
+       % recoltes160["dette_pau_quotas"])
+def adoption(extra):
+    d = n_neg = 0
+    for sc in m.SCENARIOS:
+        r = m.mesurer_applicabilite(sc, 80, **dict(OA, **extra))
+        d += r["codes"]["C6"]
+        n_neg += r["codes"]["C8"]
+    return d, n_neg
+delib = adoption({"symetrie_contraignante": False})
+sans_reeval = adoption({"obligations_creancier": ("plafond",)})
+sans_recyclage = adoption({"obligations_creancier": ("parite",), "reliquat_plafond": None})
+exiger(delib[0] > 0 and delib[1] > 0 and sans_reeval == (0, 0) and sans_recyclage[1] > 0,
+       "TOUT REPOSE SUR L'AUTOMATICITÉ DES OBLIGATIONS DU CRÉANCIER : s'il délibère, %d dépassements "
+       "et %d masses négatives en 80 périodes ; sans recyclage ni conversion, %d masses négatives ; "
+       "la réévaluation, elle, n'est pas indispensable" % (delib[0], delib[1], sans_recyclage[1]))
+
+
 print("")
 if ECHECS:
     print("ÉCHEC — le programme n'applique pas ses règles :")

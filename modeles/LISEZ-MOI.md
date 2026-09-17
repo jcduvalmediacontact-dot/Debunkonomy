@@ -225,6 +225,12 @@ sous d'autres corridor, plafond ou quotas. `QUOTAS_AUTEUR`, proportionnels aux i
 la configuration précédente. `comparer_seuils_du_plafond` publie la base des quotas, le niveau
 du plafond, le corridor et la configuration de l'auteur, vérifiés par la section N.
 
+**LE JUGEMENT D'APPLICABILITÉ, 2026-09-17 — A43 (3b), D86 et D87.**
+`scenarios_de_stress` joue ce que les cinq scénarios ne jouent pas : chocs combinés, répétés,
+plus intenses. `comparer_applicabilite` cherche ce qui démentirait un verdict favorable —
+horizon de 200 périodes, stress, créancier qui n'adopte pas ses obligations — et publie les
+dettes de recyclage, qu'AUCUN contrôle du modèle ne compte. Vérifiée par la section O.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 
