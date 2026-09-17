@@ -7681,3 +7681,35 @@ C'est la conclusion de l'auteur du 2026-09-09 : « Le remplacement mondial du sy
 **Sur l'instruction de la section précédente, l'auteur oriente A6, sur la voie recommandée.** La coalition de pionniers est la voie porteuse, composée avec l'infrastructure et la région, comme la comparaison des voies du Livre 5 l'établit ; **la fenêtre de crise, effondrement compris, est un modificateur : elle accélère une entrée engagée, elle n'en tient pas lieu.** Écartés : la fenêtre comme voie porteuse, contre L1.C25 § 4 et L5.C06 ; laisser A6 relevé sans orientation.
 
 **A6 entre au registre** avec le statut `oriente`, lié à A43 et à A32. **Reste ouvert, et c'est l'objet de l'analyse demandée après le Livre 1** : la composition des voies, et ce qu'une fenêtre accélère ou détruit dans chacune — question que L5.C06 nomme sans la traiter. **Ce que l'orientation ne dit pas** : ni le seuil de pouvoir de marché d'une coalition, ni la seconde phase, celle où une adhésion déplace des flux et où la réaction de l'ordre existant n'est décrite par aucun chapitre (L5.C09).
+
+## D95, D96, D97 ET D98 TRANCHÉES PAR L'AUTEUR — LE DÉMURRAGE, LES COÛTS RÉELS, L'ÉQUATION, LE PÉRIMÈTRE, 2026-09-17
+
+**Quatre décisions de la deuxième tranche, rendues sur la voie recommandée**, à partir des architectures d'alignement de L1.C21, L1.C22, L1.C27 et L1.C30. Elles débloquent les lots 2 et 3 de la réécriture.
+
+### D95 — Le démurrage que les chapitres examinent : la conception du livre, bornée
+
+**Décision (a).** L1.C21 examine **le démurrage du livre** — les encaisses des agents au-delà d'un seuil indexé, consolidées au bénéficiaire effectif — et **dit, en un paragraphe, que la forme expérimentable arrêtée le 2026-09-09 le restreint aux soldes institutionnels en unités** : « Le démurrage uniforme sur les soldes institutionnels en unités est maintenu » (D76) ; « Le démurrage ne s'applique pas aux soldes de compensation des banques centrales » (D78).
+
+**Ce que la décision préserve.** Les résultats du chapitre restent attachés à leur objet : l'objection de Keynes et la trésorerie protégée (§ 4), la fuite par fractionnement et la consolidation (§ 3), l'épargne retraite (A38), le relais du démurrage quand l'assiette transactionnelle se rétrécit (§ 6). **Écartés** : n'examiner que la forme expérimentable, qui priverait ces résultats d'objet ; déclarer abandonné le démurrage des ménages, qui rendrait sans objet A12, A13, A38 et trois chapitres du Livre 11 — un changement de doctrine que rien n'a demandé.
+
+**Obligation de rédaction** : étiqueter les deux périmètres à chaque passage concerné, pour que le texte ne laisse jamais croire que le corpus défend aujourd'hui le démurrage des encaisses des ménages.
+
+### D96 — Le coût d'opportunité de la préservation : exposé, non tranché
+
+**Décision (a).** L1.C27 **expose la question sans la trancher**, et dit que la force de son premier levier en dépend. La chaîne de F13 fixe le montant par les coûts réels ; CRITERE-L25 laisse ouvert « l'arbitrage binaire ignorer ou borner le coût d'opportunité ».
+
+**Ce qui est en jeu, et que le texte doit porter.** L'argument du chapitre — « elle est proportionnelle à ce que le pays a de certifiable » — vaut pour un pays riche en nature **si le renoncement à exploiter est rémunéré** ; s'il ne l'est pas, le levier se réduit au coût des actions qualifiées (maintenir, restaurer, mesurer), et la face favorable du § 6 se réduit d'autant. **Le texte de F13 ne permet pas d'inférer la réponse**, et la rémunération du renoncement est la proposition de Dufrêne et Grandjean (F5), non celle du corpus. **La décision reste à prendre** : elle est portée à CRITERE-L25, avec l'autorité concrète.
+
+### D97 — « PT = MV transformé » : l'arbitrage du 2026-09-04 s'applique
+
+**Décision (a).** L1.C21 porte les deux énoncés arrêtés par l'auteur le 2026-09-04 : « l'équation est employée comme cadre de conception et non comme preuve », et son emploi dynamique déplace la question vers le calibrage. **Deux phrases dans le chapitre, le détail au Livre 2.** La critique des termes élargis est gardée comme critique d'un emploi probatoire, non comme rejet de l'outil.
+
+**Écarté** : suivre la cartographie de refonte, qui classe « La reformulation de l'équation quantitative de L1.C21 » « abandonnée ». **Une cartographie n'est pas un arbitrage** ; la suivre ici reviendrait à réviser en silence une décision de l'auteur. Le § 5, l. 437 et le résumé sont corrigés en conséquence : « il a qualifié l'équation de cadre de conception, et écarté son emploi comme preuve ».
+
+### D98 — Les infrastructures critiques : dans le périmètre, sous le test
+
+**Décision (a).** Les infrastructures critiques **entrent dans le périmètre financé sous le test de l'apport propre** : « Apport si NEMO obtient un meilleur résultat matériel net après imputation des ressources déplacées, ou un résultat inaccessible au meilleur portefeuille construit, sans détérioration disproportionnée. » La comparaison est symétrique et se fait contre le meilleur portefeuille institutionnellement réalisable, tarification régulée et investissement public compris (L1.C31 § 4). **Aucune présomption en faveur de l'émission** : la liste du livre est gardée, et la charge de la preuve est celle que L1.C22 § 1 nomme déjà — « faire financer par émission monétaire ce qu'une tarification régulée finance suppose de démontrer que le second instrument échoue, et le livre ne l'entreprend pas. »
+
+**Écartés** : les exclure, qui corrigerait la liste du livre sans nécessité ; les inclure sans condition, qui ferait entrer l'investissement public ordinaire dans le volume à calibrer et pèserait sur F1.
+
+**A5 entre au registre**, statut `oriente`, lié à A44, TEST-APPORT-PROPRE et CRITERE-ESSENTIALITE. **Restent ouverts, et le texte doit le dire** : le périmètre entier — « Le périmètre est donc un facteur du volume à émettre » (P32) — ; la délimitation dans le régime des services, où la ligne ne tient plus faute d'état physique mesurable et où P33 ne propose pas un critère mais « la prise en charge assumée de l'absence de critère » ; les seuils de CRITERE-ESSENTIALITE. **L1.C30 peut donc dire que le récit public a choisi une branche que la conception n'a pas choisie** (B3, P57).

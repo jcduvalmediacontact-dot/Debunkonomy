@@ -45,6 +45,23 @@ revision: 2
 etabli_le: 2026-09-08
 
 arbitrages:
+  - id: A5
+    objet: "Le périmètre financé : ce que le dispositif finance, préalable au calibrage"
+    statut: oriente
+    tranche_par: auteur
+    lie_a: [A44, TEST-APPORT-PROPRE, CRITERE-ESSENTIALITE]
+    decision: >
+      RELEVÉ LE 2026-09-04, ORIENTÉ PAR L'AUTEUR LE 2026-09-17 (D98). Les
+      INFRASTRUCTURES CRITIQUES entrent dans le périmètre financé SOUS LE TEST
+      DE L'APPORT PROPRE, contre tarification régulée et investissement public :
+      aucune présomption en faveur de l'émission. RESTENT OUVERTS : le périmètre
+      entier (P32), la délimitation dans le régime des services, où seule une
+      norme votée tient lieu de critère (P33), et les seuils de
+      CRITERE-ESSENTIALITE. Le périmètre est un facteur du volume (F1).
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C22, L1.C30, L1.C31]
+    maj: 2026-09-17
+
   - id: A6
     objet: "Le scénario d'adoption : fenêtre de crise ou coalition de pionniers"
     statut: oriente
@@ -182,7 +199,7 @@ arbitrages:
     objet: "Critère provisoire du caractère essentiel"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A47, OPERATIONNALISATION-INSOLVABLE, F10]
+    lie_a: [A5, A47, OPERATIONNALISATION-INSOLVABLE, F10]
     decision: >
       ARBITRÉ PAR L'AUTEUR LE 2026-09-13. E exige une réponse réalisable,
       efficace et proportionnée à un besoin essentiel, comparée aux réponses
@@ -233,7 +250,7 @@ arbitrages:
     objet: "Ce que NEMO IMS promet, et ce qu'il ne peut pas promettre"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE, REGIME-NEGATIF, TEST-APPORT-PROPRE]
+    lie_a: [A5, A43, REGLE-D-EMISSION, REVISION-SCIENTIFIQUE, MESURE-EXTERIEURE, REGIME-NEGATIF, TEST-APPORT-PROPRE]
     decision: >
       ARBITRÉ LE 2026-09-09 — RESTRICTION. NEMO IMS NE GARANTIT PAS LES
       CONDITIONS DE LA VIE : aucune institution monétaire ne contrôle seule
@@ -267,7 +284,7 @@ arbitrages:
     objet: "Test de l'apport propre de NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A35b, A44, A47, F10, F13, PORTEFEUILLE-COMPARAISON]
+    lie_a: [A5, A35b, A44, A47, F10, F13, PORTEFEUILLE-COMPARAISON]
     decision: >
       ARBITRÉ LE 2026-09-12. Apport si NEMO obtient un meilleur résultat matériel
       net après imputation des ressources déplacées,

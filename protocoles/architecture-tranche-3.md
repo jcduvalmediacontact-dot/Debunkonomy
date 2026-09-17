@@ -138,7 +138,16 @@ Il ne vérifie aucune source externe, et n'en ouvre aucune. Il ne vérifie pas q
 
 - **D92** — la forme de l'unité est exposée en trois branches dans les réécritures ; la fiche de spécification de l'unité devient le prochain chantier du passif.
 - **D93** — L1.C27 expose le canal régénératif sans trancher.
-- **D94** — « retrait de la circulation » ; **appliquée au vocabulaire** (`reflux_monetaire`). Deux harmonisations relevées et soumises à l'auteur : la phrase de L1.C08, chapitre vérifié, et le mot « extinction » de `reflux_collectif`.
+- **D94** — « retrait de la circulation » ; **appliquée au vocabulaire** (`reflux_monetaire`) et, le 2026-09-17 sur accord explicite, **aux deux harmonisations** : la phrase de L1.C08, chapitre vérifié — révision de fond du jour, état réenregistré —, et « le retrait » dans `reflux_collectif`.
 - **D101** — **appliquée** : le dossier d'audit tiers de L1.C25 est régénéré sur l'état actuel, S9 ouverte ; il peut être soumis.
 
-**En attente : D95 à D100, D102 à D107.**
+**Tranchées le 2026-09-17, sur la voie recommandée : D95, D96, D97 et D98.** Texte : `protocoles/passe-2.md`, section du 2026-09-17 sur ces quatre décisions.
+
+- **D95** — L1.C21 examine le démurrage du livre et borne : la forme expérimentable le restreint aux soldes institutionnels en unités (D76, D78). Les objections du chapitre gardent leur objet ; les deux périmètres sont étiquetés à chaque passage.
+- **D96** — L1.C27 expose le coût d'opportunité de la préservation sans trancher, en disant que la force de son premier levier en dépend. La décision est portée à CRITERE-L25.
+- **D97** — l'arbitrage du 2026-09-04 s'applique : cadre de conception, non preuve ; deux phrases, le détail au Livre 2. La cartographie ne vaut pas arbitrage.
+- **D98** — infrastructures critiques dans le périmètre **sous le test de l'apport propre**, sans présomption en faveur de l'émission ; **A5 inscrit au registre** (`oriente`). Le périmètre entier (P32), le régime des services (P33) et les seuils de CRITERE-ESSENTIALITE restent ouverts.
+
+**Hors tranche, le même jour : D108** — A6 orienté (coalition porteuse, fenêtre de crise modificatrice), entrée au registre.
+
+**En attente : D99, D100, D102 à D107.**
