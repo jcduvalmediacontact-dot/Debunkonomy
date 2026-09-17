@@ -205,12 +205,12 @@ arbitrages:
       un choc TEMPORAIRE, allocation NON REMBOURSABLE pour un besoin essentiel
       STRUCTUREL. MOTIF, sur choc structurel : la facilité seule sert 94 % des
       besoins, laisse 567 de contraction et 204 de dette ; les deux guichets
-      servent 100 %, 53 de contraction, aucune dette. Sans allocation, le
-      dispositif protège TEMPORAIREMENT puis restitue la contraction. QUI
-      FINANCE reste ouvert.
+      servent 100 %, 53 de contraction, aucune dette. QUI FINANCE : orienté le
+      2026-09-17 vers l'émission, sous la règle d'émission et le reflux, sans
+      prélèvement sur les soldes.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
-    maj: 2026-09-16
+    maj: 2026-09-17
 
   - id: A44
     objet: "Ce que NEMO IMS promet, et ce qu'il ne peut pas promettre"
@@ -233,7 +233,7 @@ arbitrages:
     objet: "Les trois composantes réunies sous le nom NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A32, A37, A44, A45, "EXCEDENT-DU-SYMPOSIUM"]
+    lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, "EXCEDENT-DU-SYMPOSIUM"]
     decision: >
       ARBITRÉ LE 2026-09-09 ; POINT (3) SCINDÉ PAR L'AUTEUR LE 2026-09-16. (1)
       FINANCEMENT CIBLÉ — pilotable sous fortes limites. (2) UNITÉ DE RÉSERVE
@@ -244,7 +244,7 @@ arbitrages:
       texte. Le remplacement mondial n'est pas applicable.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31, L19.C10]
-    maj: 2026-09-16
+    maj: 2026-09-17
 
   - id: TEST-APPORT-PROPRE
     objet: "Test de l'apport propre de NEMO IMS"
@@ -791,18 +791,18 @@ pieces_de_conception_manquantes:
     objet: "Traitement des déséquilibres courants persistants"
     statut: oriente
     tranche_par: auteur
-    lie_a: [CONTROLE-DES-CAPITAUX, A45]
+    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45]
     decision: >
-      RÉFÉRENCE ARRÊTÉE LE 2026-09-09 : comptes des banques centrales à
-      l'institution, corridor des deux côtés, obligations graduées, facilité,
-      parités administrées. VERSION 1 DU MODÈLE RÉFUTÉE LE MÊME JOUR : ses flux
-      étaient exogènes, sa conclusion sur le corridor était donc en partie
-      tautologique. VERSION 2, échanges élastiques : le solde CULMINE PUIS
-      REDESCEND, et le corridor borne. Restent : le plafond doit être une
-      PROCÉDURE, et le soutien essentiel structurel exige un second guichet.
+      RÉFÉRENCE ARRÊTÉE LE 2026-09-09, RÉVISÉE PAR L'AUTEUR LE 2026-09-17 :
+      comptes des banques centrales à l'institution, corridor des deux côtés,
+      facilité, parités administrées. OBLIGATIONS DES EXCÉDENTAIRES
+      AUTOMATIQUES, sans vote : réévaluation par la règle de l'auteur,
+      recyclage au-delà du plafond. AUCUNE CHARGE SUR LES SOLDES. Modèle,
+      version 2 : le corridor borne ; le plafond est une PROCÉDURE ; le
+      soutien essentiel structurel exige un second guichet.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
-    maj: 2026-09-09
+    maj: 2026-09-17
 
   - id: CONTROLE-DES-CAPITAUX
     objet: "Conception opérationnelle du compte de capital réglementé"

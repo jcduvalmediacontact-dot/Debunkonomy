@@ -1664,6 +1664,14 @@ perçoit sans zèle » n'est ni visible ni sanctionnable. **UN VOTE PERDU NE SE
 TRANSFORME PAS EN REFUS : IL SE TRANSFORME EN LENTEUR.** **Et le texte négocié
 n'est pas ouvert** — le corpus instruit un mandat, non un instrument.
 
+### 2026-09-17 — L'AUTOMATICITÉ RÈGLE L'APPLICATION, NON L'ADOPTION ; ET LE TEXTE DE GOURINCHAS, REY ET GOVILLOT EST DÉTENU
+
+**UNE AFFIRMATION DE CE FALSIFIEUR EST PÉRIMÉE.** Il écrit que le corpus « ne détient toujours pas » le document de Gourinchas, Rey et Govillot. **Il le détient depuis le 2026-09-16**, version IMES 2010-E-20 de la Banque du Japon, ouverte et citée en L1.C24 [S10] et L1.C25 [S9] (D63, branche B de D54) — `2026-09-16/courses-c17-c30/fournis/gourinchas-rey-govillot-2010-exorbitant-duty-imes-10-e-20-fourni.pdf`, SHA-256 BEBBB275A2CD84D71C44830509FFEC4AE8BFEB6E3DDB2E5CC90564ACE980DFC9. **Il confirme la lecture du 2026-09-07 sur son propre texte** : « while in good times, the rest of the world pays an insurance premium on US assets » (page PDF 14). La jambe de temps calme est une prime ; le devoir exorbitant n'est pas un coût net.
+
+**UN QUATRIÈME PRÉCÉDENT, ET IL PRÉCISE LE SCHÉMA SANS LE CONTREDIRE.** La procédure européenne concernant les déséquilibres macroéconomiques a été adoptée en 2011, avec une asymétrie écrite et une sanction chiffrée à 0,1 % du PIB. La Cour des comptes européenne constate en 2018 : « It is noteworthy that the Commission has never recommended activation of the excessive imbalance procedure, despite the fact that, since the start of the MIP in 2012, several Member States have been identified as having excessive imbalances over a prolonged period. » (page PDF 8). **La disposition qui contraint n'a pas sauté ; elle ne s'est jamais déclenchée.** C'est le mode d'échec que L23 avait nommé pour un vote, étendu à une règle : **l'adoption n'est pas l'application.**
+
+**CE QUE LA CONDITION (2) D'A43 (3b), ARRÊTÉE CE JOUR, FAIT À F6.** Les obligations des excédentaires sont automatiques, exécutées dans les comptes de l'institution, sans vote : **la branche de l'application ne dépend plus d'aucune décision.** **La branche de l'adoption est intacte, et elle est aggravée par la précision** : ce que le créancier doit accepter d'avance en adhérent est la réévaluation de sa monnaie, que le plan Keynes de 1943 lui laissait à sa décision — « shall discuss with the Governing Board (but shall retain the ultimate decision in its own hands) what measures would be appropriate to restore the equilibrium of its international balances ». **F6 n'est pas levé ; le combat est déplacé à l'adhésion.**
+
 ## F7 — Le pilotage
 
 **ÉLARGI le 2026-09-05, après L11.C10.** F7 a été écrit pour porter sur le MODE

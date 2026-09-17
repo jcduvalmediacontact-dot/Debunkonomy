@@ -182,6 +182,8 @@ class Etat(object):
         self.parite = dict((c, 1.0) for c in CODES)
         self.hors_corridor = dict((c, 0) for c in CODES)
         self.deficit_essentiel_persistant = dict((c, 0) for c in CODES)
+        # périodes consécutives où l'excédentaire est au-delà du corridor
+        self.attente_creancier = dict((c, 0) for c in CODES)
         # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
@@ -203,10 +205,29 @@ def charge_graduee(solde, quota):
     return charge
 
 
+OBLIGATIONS_CREANCIER = ("charge", "plafond", "parite")
+
+
 def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
-          allocation_active=True, regle=None):
+          allocation_active=True, regle=None, obligations_creancier=None,
+          delai_creancier=0, charge_debiteur=True):
+    """`symetrie_contraignante` reste l'interrupteur général des obligations de
+    l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
+    parmi la charge graduée, la procédure au plafond et la révision de sa
+    parité (toutes par défaut). `delai_creancier` ne les applique qu'après ce
+    nombre de périodes consécutives au-delà du corridor : c'est la délibération
+    avant activation (aucune par défaut). `charge_debiteur` prélève ou non la
+    charge graduée sur les soldes débiteurs (oui par défaut, comme Keynes)."""
     e = Etat()
     journal, anomalies = [], []
+    retenues = set(OBLIGATIONS_CREANCIER if obligations_creancier is None
+                   else obligations_creancier)
+    assert retenues <= set(OBLIGATIONS_CREANCIER), retenues
+
+    def tenu(c, obligation):
+        """L'excédentaire c est-il tenu, à cette période, par cette obligation ?"""
+        return (symetrie_contraignante and obligation in retenues
+                and e.attente_creancier[c] >= delai_creancier)
     base = echanges_de_base()
     prix_base = dict((k, PRIX_BASE) for k in base)
 
@@ -329,10 +350,15 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
             e.tirages[c] = restants
 
         # --- obligations graduées, différenciées ------------------------
+        for c in CODES:
+            au_dela = e.solde[c] > CORRIDOR * QUOTA[c]
+            e.attente_creancier[c] = e.attente_creancier[c] + 1 if au_dela else 0
         charge = dict((c, 0.0) for c in CODES)
         for c in CODES:
             crediteur = e.solde[c] > 0
-            if crediteur and not symetrie_contraignante:
+            if crediteur and not tenu(c, "charge"):
+                continue
+            if not crediteur and not charge_debiteur:
                 continue
             m = charge_graduee(e.solde[c], QUOTA[c])
             if m:
@@ -349,7 +375,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 exces = e.solde[c] - PLAFOND_SOLDE * QUOTA[c]
                 if exces <= 0:
                     continue
-                if not symetrie_contraignante:
+                if not tenu(c, "plafond"):
                     continue          # l'excédentaire n'est pas tenu
                 if procedure == "recyclage":
                     # il prête l'excès aux déficitaires, au prorata
@@ -379,7 +405,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 # de l'ampleur ; une parité changée remet le compteur à zéro.
                 # L'obligation excédentaire délibérative reste un paramètre
                 # du régime, non de la règle.
-                if not dehors or (e.solde[c] > 0 and not symetrie_contraignante):
+                if not dehors or (e.solde[c] > 0 and not tenu(c, "parite")):
                     continue
                 nouvelle = regle(e.solde[c], QUOTA[c], e.hors_corridor[c],
                                  e.parite[c])
@@ -390,7 +416,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
             if e.hors_corridor[c] < PERSISTANCE_PARITE:
                 continue
             crediteur = e.solde[c] > 0
-            if crediteur and not symetrie_contraignante:
+            if crediteur and not tenu(c, "parite"):
                 continue
             e.parite[c] *= (1.0 - PAS_PARITE) if crediteur \
                 else (1.0 + PAS_PARITE)
@@ -723,6 +749,100 @@ REGLES_MESUREES = (
 )
 
 
+# CONDITION (2) D'A43 (3b), ARRÊTÉE PAR L'AUTEUR LE 2026-09-17 : les obligations
+# des excédentaires sont AUTOMATIQUES, sans vote d'activation — réévaluation de
+# leur parité par la règle de l'auteur, recyclage de l'excès au-delà du plafond
+# vers les déficitaires —, et AUCUNE CHARGE n'est prélevée sur les soldes, ni
+# débiteurs ni créditeurs. Le financement des allocations passe à l'émission.
+OPTIONS_AUTEUR = {
+    "regle": regle_de_revision_auteur,
+    "symetrie_contraignante": True,
+    "obligations_creancier": ("plafond", "parite"),
+    "delai_creancier": 0,
+    "charge_debiteur": False,
+    "procedure": "recyclage",
+}
+
+
+def mesurer_configuration(**options):
+    """Synthèse d'une configuration sur les cinq scénarios : contraction du
+    déficitaire cumulée de S0 à S3 et en S4, solde final de l'excédentaire
+    cumulé de S0 à S3, dépassements du plafond dur, charges payées par
+    l'excédentaire et le déficitaire, allocations versées, solde final de
+    l'institution cumulé, et plus faible part d'importations essentielles
+    servies au pays pauvre."""
+    r = {"contraction": 0.0, "contraction_s4": 0.0, "solde_exc": 0.0,
+         "depass": 0, "charges_exc": 0.0, "charges_def": 0.0,
+         "allocations": 0.0, "institution": 0.0, "essentiel_min": 100.0}
+    for sc in SCENARIOS:
+        e, journal, anomalies = jouer(sc, **options)
+        if sc.cle == "S4":
+            r["contraction_s4"] = e.contraction["DEF"]
+        else:
+            r["contraction"] += e.contraction["DEF"]
+            r["solde_exc"] += e.soldes_par_periode["EXC"][-1]
+        r["depass"] += len([a for a in anomalies if a.startswith("[C6]")])
+        r["charges_exc"] += e.charges["EXC"]
+        r["charges_def"] += e.charges["DEF"]
+        r["allocations"] += sum(e.alloc[c] for c in CODES)
+        r["institution"] += e.solde[INST]
+        voulu = e.essentiel_voulu["PAU"]
+        r["essentiel_min"] = min(r["essentiel_min"], 100.0 * e.essentiel_recu["PAU"]
+                                 / voulu if voulu else 100.0)
+    return r
+
+
+def comparer_obligations():
+    """A43 (3b), CONDITION (2) : QUELLE OBLIGATION DE L'EXCÉDENTAIRE FAIT LE
+    TRAVAIL, CE QUE COÛTE UN DÉLAI D'ACTIVATION, ET CE QUE FONT LES CHARGES.
+
+    Joué sous la règle de révision de l'auteur. La sortie doit porter le prix
+    du choix de l'auteur autant que son effet : sans charge, l'institution ne
+    perçoit rien, et les allocations doivent être financées ailleurs.
+    """
+    base = {"regle": regle_de_revision_auteur}
+    print("")
+    print("  (1) QUELLE OBLIGATION DE L'EXCÉDENTAIRE FAIT LE TRAVAIL")
+    print("  %-26s %14s %12s %13s" % ("obligations tenues", "contr. S0-S3",
+                                      "EXC S0-S3", "dépassements"))
+    for libelle, oblig in (("aucune (délibérative)", ()), ("charge seule", ("charge",)),
+                           ("plafond seul", ("plafond",)), ("parité seule", ("parite",)),
+                           ("les trois", OBLIGATIONS_CREANCIER)):
+        r = mesurer_configuration(obligations_creancier=oblig, **base)
+        print("  %-26s %14.0f %12.0f %13d" % (libelle, r["contraction"],
+                                             r["solde_exc"], r["depass"]))
+    print("")
+    print("  (2) CE QUE COÛTE UNE DÉLIBÉRATION AVANT ACTIVATION (les trois obligations)")
+    print("  %-26s %14s %13s" % ("périodes d'attente", "contr. S0-S3", "dépassements"))
+    for d in (0, 2, 4, 8, PERIODES):
+        r = mesurer_configuration(delai_creancier=d, **base)
+        print("  %-26s %14.0f %13d" % (d, r["contraction"], r["depass"]))
+    print("")
+    print("  (3) CE QUE FONT LES CHARGES, obligations automatiques")
+    print("  %-34s %12s %8s %8s %12s" % ("", "contr.S0-S3", "S4", "dépass.",
+                                        "institution"))
+    for libelle, opts in (
+            ("charges des deux côtés", dict(base)),
+            ("charges des seuls excédents", dict(base, charge_debiteur=False)),
+            ("AUCUNE CHARGE — choix de l'auteur", dict(OPTIONS_AUTEUR)),
+            ("aucune charge, mais conversion", dict(OPTIONS_AUTEUR,
+                                                    procedure="conversion"))):
+        r = mesurer_configuration(**opts)
+        print("  %-34s %12.0f %8.0f %8d %12.0f" % (libelle, r["contraction"],
+                                                   r["contraction_s4"], r["depass"],
+                                                   r["institution"]))
+    print("      CE QUE LA SORTIE MONTRE. La réévaluation de l'excédentaire fait")
+    print("      l'essentiel du soulagement du déficitaire ; la charge seule n'en")
+    print("      apporte aucun. Chaque période d'attente avant activation en retire.")
+    print("      La charge sur les débiteurs les enfonce, celle sur les excédents")
+    print("      détourne vers l'institution ce que le recyclage leur aurait prêté ;")
+    print("      et la conversion, qui verse l'excès à l'institution, ne soulage pas")
+    print("      le déficitaire en S4 comme le recyclage. ET LE PRIX DU CHOIX DE L'AUTEUR EST")
+    print("      PUBLIÉ : sans charge, l'institution ne perçoit rien, et le solde")
+    print("      qu'elle cumule est le plus négatif — les allocations devront être")
+    print("      financées par l'émission, sous la règle d'émission et le reflux.")
+
+
 def mesurer_regle(regle):
     """Synthèse d'une règle sur les cinq scénarios : contraction du déficitaire
     et solde final de l'excédentaire cumulés de S0 à S3, parité du déficitaire
@@ -866,6 +986,12 @@ def main():
     print("A43 (3b), CONDITION (1) — LA RÈGLE DE RÉVISION DE L'AUTEUR")
     print("=" * 78)
     comparer_regles()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b), CONDITION (2) — LES OBLIGATIONS DES EXCÉDENTAIRES")
+    print("=" * 78)
+    comparer_obligations()
     return 0
 
 

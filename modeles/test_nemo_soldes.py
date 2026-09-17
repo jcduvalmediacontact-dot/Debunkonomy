@@ -349,6 +349,77 @@ exiger(all(r["depass_delib"] > r["depass"] for r in synthese.values()),
        "les conditions")
 
 
+# =====================================================================
+print("")
+print("I. A43 (3b), CONDITION (2) — LES OBLIGATIONS DES EXCÉDENTAIRES")
+# =====================================================================
+def memes_trajectoires(opts_a, opts_b):
+    n = 0
+    for s in m.SCENARIOS:
+        _, ja, aa = m.jouer(s, **opts_a)
+        _, jb, ab = m.jouer(s, **opts_b)
+        n += aa != ab
+        for pa, pb in zip(ja, jb):
+            for champ in ("solde", "masse", "parite", "alloc", "bloque"):
+                n += sum(abs(pa[champ][k] - pb[champ][k]) > 1e-9 for k in pa[champ])
+    return n
+
+exiger(memes_trajectoires({}, {"obligations_creancier": m.OBLIGATIONS_CREANCIER,
+                               "delai_creancier": 0, "charge_debiteur": True}) == 0,
+       "les nouveaux paramètres, laissés à leur valeur par défaut, ne changent rien")
+exiger(memes_trajectoires({"symetrie_contraignante": False},
+                          {"obligations_creancier": ()}) == 0,
+       "« aucune obligation tenue » est exactement l'obligation délibérative")
+
+R_AUTEUR = {"regle": m.regle_de_revision_auteur}
+aucune = m.mesurer_configuration(obligations_creancier=(), **R_AUTEUR)
+charge_seule = m.mesurer_configuration(obligations_creancier=("charge",), **R_AUTEUR)
+parite_seule = m.mesurer_configuration(obligations_creancier=("parite",), **R_AUTEUR)
+les_trois = m.mesurer_configuration(**R_AUTEUR)
+exiger(abs(charge_seule["contraction"] - aucune["contraction"]) < 1e-6
+       and charge_seule["solde_exc"] < aucune["solde_exc"],
+       "la charge seule réduit l'excédent (%.0f contre %.0f) sans soulager le "
+       "déficitaire (%.0f dans les deux cas)" % (charge_seule["solde_exc"],
+                                               aucune["solde_exc"], aucune["contraction"]))
+exiger(parite_seule["contraction"] < 0.7 * aucune["contraction"]
+       and les_trois["contraction"] <= parite_seule["contraction"] + 1e-6,
+       "la réévaluation de l'excédentaire fait l'essentiel du soulagement "
+       "(%.0f contre %.0f sans obligation)" % (parite_seule["contraction"],
+                                             aucune["contraction"]))
+
+delais = [m.mesurer_configuration(delai_creancier=d, **R_AUTEUR)["contraction"]
+          for d in (0, 2, 4, 8, m.PERIODES)]
+exiger(all(b >= a - 1e-6 for a, b in zip(delais, delais[1:]))
+       and abs(delais[-1] - aucune["contraction"]) < 1e-6,
+       "chaque période d'attente avant activation retire du soulagement, et une "
+       "attente égale à l'horizon revient à l'obligation délibérative (%s)"
+       % " → ".join("%.0f" % x for x in delais))
+
+deux_cotes = m.mesurer_configuration(**R_AUTEUR)
+excedents_seuls = m.mesurer_configuration(charge_debiteur=False, **R_AUTEUR)
+auteur_c2 = m.mesurer_configuration(**m.OPTIONS_AUTEUR)
+conversion = m.mesurer_configuration(**dict(m.OPTIONS_AUTEUR, procedure="conversion"))
+exiger(excedents_seuls["contraction"] < deux_cotes["contraction"]
+       and excedents_seuls["contraction_s4"] < deux_cotes["contraction_s4"],
+       "la charge sur les débiteurs les enfonce (S4 : %.0f avec, %.0f sans)"
+       % (deux_cotes["contraction_s4"], excedents_seuls["contraction_s4"]))
+exiger(auteur_c2["contraction_s4"] < excedents_seuls["contraction_s4"]
+       and auteur_c2["depass"] == 0 and excedents_seuls["depass"] > 0,
+       "la charge sur les excédents détourne ce que le recyclage aurait prêté : "
+       "sans elle, S4 tombe à %.0f et plus aucun plafond n'est dépassé"
+       % auteur_c2["contraction_s4"])
+exiger(conversion["contraction_s4"] > auteur_c2["contraction_s4"],
+       "la conversion ne soulage pas le déficitaire en S4 comme le recyclage "
+       "(%.0f contre %.0f)" % (conversion["contraction_s4"], auteur_c2["contraction_s4"]))
+exiger(auteur_c2["institution"] < excedents_seuls["institution"] < deux_cotes["institution"]
+       and auteur_c2["charges_exc"] == 0 and auteur_c2["charges_def"] == 0,
+       "ET LE PRIX DU CHOIX DE L'AUTEUR : sans charge, l'institution ne perçoit rien "
+       "et cumule le solde le plus négatif (%.0f contre %.0f et %.0f)"
+       % (auteur_c2["institution"], excedents_seuls["institution"], deux_cotes["institution"]))
+exiger(abs(auteur_c2["essentiel_min"] - 100.0) < 1e-9,
+       "et le pays pauvre reste servi en totalité sous la configuration de l'auteur")
+
+
 print("")
 if ECHECS:
     print("ÉCHEC — le programme n'applique pas ses règles :")

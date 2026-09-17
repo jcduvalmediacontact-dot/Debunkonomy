@@ -172,6 +172,14 @@ hors corridor, dans les deux sens, et butée cumulée de 30 % au-delà de laquel
 révision s'arrête. Les trois candidates écartées restent versées pour que le choix
 se rejoue. **Le modèle départage mal les règles et très bien les conditions.**
 
+**OBLIGATIONS DES EXCÉDENTAIRES, 2026-09-17 — condition (2) d'A43 (3b).**
+`jouer` décompose les obligations de l'excédentaire (`obligations_creancier` :
+charge, plafond, parité), retarde leur activation (`delai_creancier`) et peut
+supprimer la charge sur les débiteurs (`charge_debiteur`) ; par défaut, rien ne
+change. `OPTIONS_AUTEUR` porte les choix de l'auteur : obligations automatiques
+par réévaluation et recyclage, aucune charge. `comparer_obligations` publie leur
+effet ET leur prix — l'institution ne perçoit plus rien —, vérifiés par la section I.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 
