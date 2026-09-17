@@ -7618,3 +7618,60 @@ L'alignement de L1.C17 à L1.C30 est préparé (`protocoles/architecture-tranche
 **DEUX HARMONISATIONS SONT RELEVÉES ET NE SONT PAS APPLIQUÉES**, faute de décision qui les couvre à la lettre. (1) L1.C08, chapitre `verifie`, définit le terme : « Le corpus nomme reflux monétaire cette extinction de la monnaie après sa création. » Dans son contexte, le régime de crédit, l'énoncé est exact, et le chapitre n'attribue nulle part une destruction au reflux collectif ; une harmonisation demande l'accord explicite de l'auteur. (2) L'entrée `reflux_collectif` dit encore que « ici l'extinction ne dépend d'aucun débiteur nommé ». Ces deux points sont soumis à l'auteur.
 
 **(D101) LE DOSSIER D'AUDIT TIERS DE L1.C25 EST RÉGÉNÉRÉ SUR L'ÉTAT ACTUEL.** Son gel du 2026-09-16 avait été rompu sur l'en-tête seulement — empreintes d'exemplaire de S2 et S3, S9 rebasée et ouverte par D63 — ; le corps et le résumé sont identiques à l'état gelé. Le dossier annonce désormais S9 ouverte et porte l'empreinte `14BBDF5573D76E9BA9411DB39F537E5F1EA27C52F3EC4514F4660D74B550DF85`. Il n'avait pas été soumis. Les dossiers d'audit ne sont pas versionnés (`.gitignore`) : le dossier régénéré vit sur le disque de l'auteur.
+
+## L1.C08 ET `reflux_collectif` — LES DEUX HARMONISATIONS DE D94, 2026-09-17
+
+**Les deux harmonisations que la section précédente relevait sont faites, sur accord explicite de l'auteur.**
+
+**(1) L1.C08, chapitre `verifie`.** La phrase qui définit le terme disait : « Le corpus nomme reflux monétaire cette extinction de la monnaie après sa création. » Exacte dans le régime de crédit, elle faisait, extraite seule, du reflux une destruction, ce que D94 et A2 bis écartent pour le reflux collectif. Elle dit désormais : « Le corpus nomme reflux monétaire le retrait de la monnaie de la circulation après sa création ; dans le régime de crédit, ce retrait est une extinction. » Changement de sens : `revision_de_fond` portée au 2026-09-17, état réenregistré en dernier. Les sources, les vérifications et le statut du chapitre ne changent pas.
+
+**(2) Le vocabulaire, entrée `reflux_collectif`.** « ici l' extinction ne dépend d'aucun débiteur nommé » devient « ici le retrait ne dépend d'aucun débiteur nommé ». Le reste de l'entrée est inchangé : la monnaie « s'éteint » bien par le remboursement dans le régime de crédit, qui est l'objet de la phrase où le mot demeure.
+
+## A6 INSTRUIT — « ET S'IL S'EFFONDRE ? » LA FENÊTRE DE CRISE, LA COALITION, ET CE QU'UN EFFONDREMENT NE CHANGE PAS, 2026-09-17
+
+**La question est de l'auteur**, posée le 2026-09-17 : pourquoi le remplacement mondial est-il non applicable, et que se passe-t-il si le système actuel s'effondre ? **Elle rouvre A6**, relevé le 2026-09-04 et jamais tranché — fenêtre de crise contre coalition de pionniers ; « Tant que l’arbitrage n’est pas rendu, le corpus ne peut pas dire ce que la proposition attend de qui. » A6 n'a pas d'entrée au registre. **Le corpus en a pourtant instruit les deux branches** : L1.C25 sur l'histoire des réformes, F6 sur l'adoption contre le créancier, et le Livre 5, livre de l'adoption, en passe 1 et en brouillon, le 2026-09-07 — avant qu'A43 soit scindé et jugé. **Cette section assemble ce qui est établi, et construit ce qu'un effondrement change et ne change pas. Ce qui est construction de cette instruction est dit comme tel.**
+
+### (1) Pourquoi le remplacement mondial est non applicable
+
+C'est la conclusion de l'auteur du 2026-09-09 : « Le remplacement mondial du système monétaire actuel n'est pas une proposition applicable ». Sa trajectoire met l'échelle mondiale en septième et dernière étape, « envisageable seulement après démonstration du bénéfice pour les premiers entrants et d'un chemin politique face à ceux qui profitent du système actuel ». Depuis, l'Exchange Standard à parités strictement fixes est non applicable sans transferts permanents des excédentaires (D68), et la forme à parités administrées n'est expérimentable qu'en coalition, pour les déséquilibres durables sous deux conditions non remplies (D86, D91). **Ce verdict repose sur des conditions de conception — les cinq obstacles de la conclusion —, non sur la solidité du système en place. Un effondrement ne le lève donc pas par lui-même.**
+
+### (2) Ce qu'une fenêtre, fût-elle un effondrement, sélectionne
+
+**L1.C25 § 4** : « Ce qui décide de l'issue d'une fenêtre de réforme monétaire n'est pas la qualité du projet disponible, mais la position du créancier au moment où elle s'ouvre. » Et la règle tirée de 1871, 1944 et 1971 : « la disposition qui contraint le créancier est la disposition qui saute. »
+
+**F6, sur la sortie que le corpus espérait** : le devoir exorbitant n'est pas un coût net mais la jambe de crise d'un contrat d'assurance ; « Un assureur dont les sinistres augmentent ne renonce pas à assurer : il relève la prime ». **Et la seule sortie structurelle documentée** — le nouveau dilemme de Triffin, dont les auteurs lus proposent une sortie multipolaire à plusieurs monnaies de réserve nationales — ne mène pas au dispositif : « Le nouveau dilemme de Triffin fragilise l'ordre existant ; il ne recommande pas NEMO IMS. »
+
+**Le Livre 5 en tire la conséquence (L5.C06, brouillon)** : « Une fenêtre ne récompense donc pas la préparation : elle récompense la position. » Le seul cas tenu, 1971, le confirme : la fenêtre a été ouverte par l'émetteur en place, au moment de son choix, et « On n'entre pas par une fenêtre ouverte par celui qu'on voulait remplacer. » Si la fenêtre s'ouvrait sur une sortie multipolaire, la position serait tenue par les émetteurs d'autres monnaies d'État, et le chapitre conclut du dispositif que « ce n'est pas un concurrent plus faible : ce n'est pas un concurrent. »
+
+**RÉSERVE QUE CETTE INSTRUCTION AJOUTE : ce dernier énoncé dépend de la forme de l'unité, que D92 laisse ouverte.** L5.C06 raisonne sur une unité qui « ne règle pas ». L'architecture d'alignement de L1.C24 (O1) expose une branche où, sous l'unité de réserve détenue par les banques centrales (A37), l'unité réglerait dans la sphère officielle : dans cette branche, le dispositif serait un concurrent dans la sphère des banques centrales, non dans la sphère privée. **Correction à propager au Livre 5 en passe 2.**
+
+### (3) Ce qu'un effondrement change, et ce qu'il ne change pas, aux cinq obstacles
+
+**Construction de cette instruction, à éprouver** — aucune ligne de ce tableau n'est un résultat du corpus ; chaque case renvoie aux pièces qui la bornent.
+
+| obstacle de la conclusion du 2026-09-09 | ce qu'un effondrement change (hypothèse) | ce qu'il ne change pas (pièces) |
+|---|---|---|
+| **(1) Bouclage macroéconomique** (F1) | l'urgence et la demande de liquidité ; le coût perçu du statu quo | la condition de F1 ; un modèle sans prix endogènes ne mesure pas l'inflation qu'une dévaluation importerait (première condition de D91) ; une crise rend le calibrage plus difficile, non plus facile |
+| **(2) Régime de change** (A32) | l'acceptabilité politique d'un compte de capital réglementé | le trilemme lui-même, qu'A32 tranche déjà par l'abandon de la mobilité intégrale des capitaux ; la conception du contrôle des capitaux reste ouverte (CONTROLE-DES-CAPITAUX) |
+| **(3) Déséquilibres commerciaux** (COMPENSATION-SYMETRIQUE, D69 à D91) | l'ampleur des déséquilibres et le nombre de pays endettés | la dépendance à des créanciers qui acceptent d'avance obligations automatiques et annulations : si le créancier délibère, 334 dépassements et 67 masses négatives en 80 périodes dans le modèle (D86) ; seconde condition de D91 |
+| **(4) Avantage comparatif** (F10) | les concurrents : la sortie documentée est multipolaire, en monnaies nationales ; s'y ajoutent les instruments d'urgence existants | le portefeuille de comparaison n'est pas construit ; le test de L1.C31 s'applique en crise comme en temps calme |
+| **(5) NEMO ajoute sans retirer** (F14) | rien sur le fond | financer ne ferme aucune mine ; les obligations physiques de réduction et de fermeture restent des décisions politiques hors du dispositif |
+| **Position du créancier** (F6, L1.C25 § 4) | qui la tient — éventuellement d'autres États | la règle de sélection elle-même ; rien n'indique qu'un créancier en crise accepte plus volontiers une contrainte automatique |
+
+**Ce que le tableau suggère, sans l'établir** : un effondrement déplace l'urgence et les acteurs, il ne remplit aucune des conditions du verdict. **Arriver à une fenêtre avec un dispositif non éprouvé, c'est rejouer 1944.**
+
+### (4) Ce que la fenêtre est, dans la trajectoire
+
+**La proposition du Livre 5 (L5.C06)** : retirer la fenêtre de crise de la liste des voies et la traiter comme un **modificateur** des autres. « Un dispositif prêt et non engagé ne gagne rien à une fenêtre ; un dispositif engagé et petit y gagne du temps. »
+
+**La comparaison des voies (L5.C09, brouillon)** : sur quatre voies comparées, « la voie multilatérale répond moins bien que chacune des trois autres à chacune des trois questions, elle est donc dominée. » Les trois autres ne s'opposent pas, elles se composent : « L'infrastructure fournit le rail, la coalition fournit l'émission, la région fournit le périmètre de vérification. »
+
+**Cette lecture est cohérente avec ce que l'auteur a décidé depuis** : une trajectoire par pilote fermé puis extension régionale (conclusion du 2026-09-09), des verdicts rendus « en coalition » (D86, D91). **Elle laisse ouverte la question que L5.C06 nomme et ne traite pas** : « qu'est-ce qui, dans chacune des cinq voies, se trouve accéléré par une fenêtre, et qu'est-ce qui s'y trouve détruit » — c'est la question que l'analyse de tous les scénarios, demandée par l'auteur après le Livre 1, devra traiter voie par voie.
+
+### (5) Ce que cette instruction ne vérifie pas
+
+**Le Livre 5 est en brouillon, daté du 2026-09-07**, antérieur à A43 (3) scindé, à D68 à D91 et à la forme de l'unité exposée par D92 ; ses sources ne sont pas toutes ouvertes. **Aucune probabilité, aucun coût humain** : le Livre 5 l'a lui-même enregistré comme un manquement — « Aucun chapitre du livre n'en produit. » **La voie du devoir exorbitant, que L1.C25 § 6 présente comme la seule ouverte, est tombée pour F6 depuis le 2026-09-07** et ne sert pas ici (relevé après gel de L1.C25, G25-7).
+
+### Question à l'auteur — D108
+
+**(a) Orienter A6 : la coalition de pionniers est la voie porteuse, composée avec l'infrastructure et la région ; la fenêtre de crise, effondrement compris, est un modificateur, non une voie.** A6 entre au registre avec le statut « orienté » ; l'analyse de tous les scénarios après le Livre 1 tranche la composition des voies et ce qu'une fenêtre accélère ou détruit dans chacune. **(b)** Retenir la fenêtre de crise comme voie porteuse. **(c)** Laisser A6 relevé, sans orientation, jusqu'à l'analyse complète. *Recommandation : (a)* — elle ne décide rien que l'auteur n'ait déjà engagé par sa trajectoire et ses verdicts en coalition, et elle donne à l'analyse à venir son point de départ.
