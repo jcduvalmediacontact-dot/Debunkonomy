@@ -156,8 +156,13 @@ qu'aucun seuil d'allocation ne puisse être défendu.
 **Ce qui est déjà établi (L1.C18 § 5) :** le cadre statistique international
 existe depuis 2021 mais son adoption est scindée — les chapitres d'évaluation
 monétaire ne sont pas normalisés. Quarante et un pays seulement compilent des
-comptes d'écosystèmes, le plus souvent en pilotes discontinus. Les marges
-d'incertitude sur les indices synthétiques d'état vont de 20 % à 50 %.
+comptes d'écosystèmes, le plus souvent en pilotes discontinus. Le cadre nomme
+quatre catégories d'incertitude sans publier d'intervalle chiffré, et aucune
+pièce ouverte par le corpus ne chiffre la marge des indices synthétiques d'état
+— la marge de 20 % à 50 % portée ici jusqu'au 2026-09-17 n'avait pas de source
+(corrigé sur décision de l'auteur, D105). La condition d'échec ci-dessus
+s'énonce donc sans chiffre : il faudra d'abord documenter la marge pour savoir
+si elle excède le signal.
 
 **Pourquoi c'est le point le plus dur :** ce n'est pas un défaut d'argumentation
 qu'un meilleur chapitre corrigerait. C'est une limite de l'instrumentation

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-09-17
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -114,7 +114,7 @@ renvois: [L1.C18, L11.C13, L11.C30, L18.C10, L18.C13, L18.C15, L25.C07, L15.C02,
 
 ::etat:: **(1) SUR LE RELEVÉ DE TERRAIN.** *« la santé biologique des sols et la biodiversité sous canopée échappent aux capteurs orbitaux et exigent des relevés de terrain, coûteux et **exposés à la falsification locale** »* [S2]. **Le livre premier a écrit le mot, et il l'a écrit comme une limite assumée. C'est ici un objet d'étude.**
 
-::etat:: **(2) SUR L'INCERTITUDE DE MESURE.** Les marges relevées sur les indices synthétiques d'état écologique oscillent **entre 20 % et 50 %** [S2]. **Une bande d'erreur de cet ordre n'est pas seulement un problème de fiabilité : c'est un ESPACE. Ce qui se loge dans la marge d'erreur ne se distingue pas d'une variation réelle.**
+::etat:: **(2) SUR L'INCERTITUDE DE MESURE.** **L'amplitude de la marge n'est chiffrée par aucune source ouverte** : le cadre statistique international nomme quatre catégories d'incertitude sans publier d'intervalle, et la marge de 20 % à 50 % que L1.C18 avançait — et que ce chapitre lui empruntait — a été retirée le 2026-09-17 sur décision de l'auteur (D105) [S2]. **Ce que ce livre retient n'est donc pas une amplitude, mais un mécanisme : ce qui se loge dans une marge d'erreur ne se distingue pas d'une variation réelle. L'amplitude reste à établir, et c'est une acquisition à faire avant d'en tirer un ordre de grandeur de fraude.**
 
 ::etat:: **(3) SUR LE COÛT DU CONTRÔLE.** 18 % à 30 % des budgets en instruction les premières années, 4 % à 10 % en vérification annuelle récurrente, **et jusqu'à 25 % de l'annuité quand le protocole exige ce que le satellite ne fournit pas** [S2].
 

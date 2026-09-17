@@ -24,6 +24,16 @@ sources_primaires:
     reference: "**`protocoles/passe-2.md`, arbitrage A30, du 2026-09-06 complété le 2026-09-07.** **Trois conditions y restaient à établir, et aucune n'était acquise** : « **Le contrôle** — la ressource est sur le territoire d'un tiers, et le Livre 6 a établi qu'un commun opposable pèse sur des propriétaires réels. **La mesure** — critère bloquant de la norme [...]. **L'applicabilité** — rien n'établit que l'institution émettrice relève de la comptabilité publique. » Et l'état enregistré : « **A30 est donc débloqué sur le droit et sur la norme, et il reste ouvert sur trois faits** [...] **des questions de vérification**, ce qui change leur nature »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "[S2] CITATION PÉRIMÉE DEPUIS LE 2026-09-17 : l'entrée cite F2 comme
+     portant des « marges d'incertitude de 20 % à 50 % sur les indices
+     synthétiques d'état ». **F2 NE LE PORTE PLUS** : la marge n'était appuyée
+     par aucune source — le cadre statistique international nomme quatre
+     catégories d'incertitude sans publier d'intervalle —, et l'auteur l'a fait
+     retirer le 2026-09-17 (D105) de L1.C18, de F2, de la promesse P20 et de
+     L15.C01. **LA RÉFÉRENCE N'EST PAS CORRIGÉE ICI** : une référence remplacée
+     n'hérite pas de l'état `a_requalifier` du manifeste (E-L6), et le sort des
+     sources internes au corpus est suspendu à D62. À reprendre sous D62, avec
+     la neuvième condition que ce chapitre pose."
   - "LA TRANCHE NE CLÔT PAS LA PASSE 1 DU LIVRE, et le chapitre le déclare
      plutôt que de le sous-entendre. **CARE/TDL et la comptabilité
      multicapitaux, que l'auteur a nommés comme termes de comparaison

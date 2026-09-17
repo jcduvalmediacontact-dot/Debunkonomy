@@ -157,4 +157,11 @@ Il ne vérifie aucune source externe, et n'en ouvre aucune. Il ne vérifie pas q
 - **D102** — L1.C18 expose la table, les conditions et les organisations possibles ; le choix va au **chapitre de gouvernance A46-A47**, nouveau chantier du passif.
 - **D103** — **l'Assemblée des Communs fixe les seuils d'A47 et la grille de priorité d'A46 ; un tiers applique.** Restent sans titulaire : la suspension et le contrôle indépendant de conformité. A46 et A47 routés vers L1.C18 ; la projection d'A46 est au plafond de 500 caractères et ne porte pas la précision.
 
-**En attente : D104, D105, et les deux validations en bloc D106 et D107.**
+**Tranchées le 2026-09-17, troisième lot : D104 et D105, avec les deux décisions anciennes qui les bloquaient, D66 et D67.** Texte : `protocoles/passe-2.md`, section du 2026-09-17 sur ces quatre décisions. **Appliquées aux textes le même jour** ; contrôle passé, `test_etat` 40/0, `test_lecture` 28/0, générateur conforme.
+
+- **D66** — S18 rebasée sur le préprint arXiv 2301.03354, `ouverte`, réserve d'édition déclarée ; le corps écrit « la plupart n'ont pas réduit significativement ». Le relevé du 2026-09-16 citait la pièce sans le mot « significantly » et comptait vingt-sept sites au lieu de vingt-six : corrigé.
+- **D67** — S19 rebasée sur Słomczyński-Życzkowski 2006 (arXiv physics/0610271), `ouverte` ; quota 61,4 % et non 61,6 % ; les treize petits États retirés ; **la correction du corpus réécrite** — ce qui tombe est « le seul mécanisme », non la protection des plus petits.
+- **D104** — l'abandon du contrefactuel est fondé sur **l'écart** entre scénario déclaré et contrefactuel observé, dont la pièce nomme quatre causes, la surestimation pouvant être non intentionnelle ; « invérifiable » attribué au livre ; l'additionnalité en ressources demeure au niveau de l'instrument (L1.C31). **Soumis à l'auteur** : la définition `additionnalite` du vocabulaire renvoie désormais à un énoncé que le chapitre ne porte plus.
+- **D105** — la marge de 20 à 50 % **n'avait aucune source** et est retirée de L1.C18, de F2, de P20 et de L15.C01. La conséquence du § 5 devient conditionnelle. L18.C06 n'a pas pu être corrigée : E-L6 refuse qu'une référence remplacée hérite de l'état `a_requalifier` ; la dette y est inscrite, à reprendre sous D62.
+
+**En attente : les deux validations en bloc D106 et D107.**

@@ -7753,3 +7753,41 @@ C'est la conclusion de l'auteur du 2026-09-09 : « Le remplacement mondial du sy
 **Ce que la décision ne règle pas, et que le chapitre doit dire.** **La suspension et le contrôle indépendant de conformité restent sans titulaire.** Et la décision **concentre les deux actes normatifs dans un seul centre** : c'est là, désormais, que se loge la concentration de pouvoir que L1.C27 nomme, et c'est ce centre que rencontreront A34, le barème qui exclut, et l'autorité concrète de CRITERE-L25 (D96). Le chapitre expose ce point comme une conséquence de la décision, non comme une objection à elle.
 
 **Ce que le registre ne peut pas porter.** La projection d'A46 est **à 500 caractères, le plafond du registre** : elle ne peut pas recevoir cette précision sans perdre une part de la lettre de l'arbitrage du 2026-09-09. A46 et A47 sont donc **routés vers L1.C18**, où la table vit, et leur `maj` passe au 2026-09-17 ; la précision elle-même est ici, et le registre y renvoie par son champ `texte`. **Un lecteur du registre seul ne verra pas qui tient la priorité** : c'est un écart assumé de la projection, pas un oubli.
+
+## D66, D67, D104 ET D105 TRANCHÉES — DEUX SOURCES REBASÉES, UNE MARGE SANS SOURCE RETIRÉE, 2026-09-17
+
+**Quatre décisions rendues sur la voie recommandée, et appliquées aux textes le même jour.** D66 et D67 dormaient depuis le 2026-09-16 et **bloquaient L1.C18 tout entier** — donc le lot 3. D104 et D105 en dépendaient. **Les deux pièces ont été relues avant écriture, et le relevé du 2026-09-16 contenait deux inexactitudes, corrigées ici.**
+
+### Ce que la relecture des pièces a corrigé dans le relevé
+
+**La citation inscrite au relevé de D66 n'était pas littérale.** Il portait « most projects have not reduced deforestation » ; le préprint écrit **« We find that most projects have not significantly reduced deforestation. »** Le qualificatif statistique manquait, et son absence durcit l'énoncé : « n'ont pas réduit » n'est pas « n'ont pas réduit significativement ». **Le décompte était inexact** : l'échantillon final est de **vingt-six** sites, non vingt-sept — « Our final sample was thus reduced to 26 project sites. » L'entrée de source de L1.C18, elle, portait déjà « aucune réduction statistiquement significative » : c'est le relevé de coordination qui avait dérivé, non le corpus.
+
+**Deux chiffres de la pièce sont en revanche littéraux et utilisables** : « only 5.4 million (6.1%) of the 89 million expected offsets from the REDD+ projects would likely be associated with additional carbon emission reductions », et huit des vingt-six sites montrant une réduction additionnelle, principalement au Pérou. **Le § 5 cite désormais le 6,1 %**, qui est la grandeur pertinente pour l'additionnalité.
+
+### D66 — S18 rebasée sur le préprint, et ouverte
+
+La note française ne portait pas l'étude. **S18 est rebasée sur le préprint arXiv 2301.03354, lu, et passe à `ouverte` avec sa date de vérification**, réserve d'édition déclarée : c'est la version de janvier 2023, antérieure à la publication dans *Science*, dont le titre publié omet « tropical ». Le corps écrit « la plupart n'ont pas réduit significativement la déforestation ».
+
+### D67 — S19 rebasée, et la correction du corpus réécrite
+
+Aucun des trois substituts ne portait l'énoncé. **S19 est rebasée sur Słomczyński et Życzkowski, « Penrose voting system and optimal quota », *Acta Physica Polonica B* 37, 2006, préprint arXiv physics/0610271, et passe à `ouverte`.** Le quota de 61,6 % **n'est porté par aucune pièce** : la pièce donne **61,4 %** pour une Union à vingt-sept, et un calcul exact indépendant 61,497 % (Kurth, arXiv 0712.2699, non déclaré). La coalition de treize petits États pesant 15 % de la population **n'est dans aucune pièce : elle est retirée du corps.**
+
+**Et la correction que le corpus avait faite au livre est réécrite, parce que la pièce la contredit en partie.** Le corpus écrivait que « la théorie de la mesure du pouvoir de vote établit l'inverse » de la protection des petits. La pièce mesure contre l'étalon de Penrose et conclut que la double majorité **avantage les plus grands et les plus petits, aux dépens des moyens**. **Ce qui tombe dans la phrase du livre est « le seul mécanisme », non la protection des plus petits.** Le § 4 dit désormais que le corpus avait borné trop large, et la conclusion étroite est refaite : la double majorité reste défendable pour d'autres motifs, y compris parce qu'elle protège effectivement les plus petits, mais pas au titre d'être seule à le faire, ni au titre de protéger les États moyens, qu'elle désavantage.
+
+### D104 — L'abandon de l'additionnalité contrefactuelle, refondé
+
+**Décision (a), appliquée avec une précision que la pièce impose.** L'abandon est gardé **au niveau du paiement**. Mais la pièce ne fonde pas cet abandon sur une manipulation : elle nomme **quatre causes complémentaires** de l'écart entre scénario déclaré et contrefactuel observé — « poor foresight, adverse site selection, limited room for adjustments over time, and gaming » — et dit la surestimation possiblement **non intentionnelle** : « projects may have (unintentionally) overestimated future deforestation pressures ». L'inflation opportuniste par des profiteurs est énoncée en introduction avec renvoi à un tiers, non établie par l'étude.
+
+**Le § 5 est donc fondé sur l'écart lui-même, et non sur la mauvaise foi** — ce qui rend l'abandon plus robuste, non moins : il tient même si tous les promoteurs sont honnêtes. Le mot « invérifiable » est attribué au livre : la pièce conclut à la défaillance des méthodes employées, non à l'impossibilité de vérifier. Et le texte dit que **l'additionnalité en ressources réelles demeure au niveau de l'instrument** (L1.C31). Le « et le valide fortement » est retiré.
+
+**Conséquence non traitée, soumise à l'auteur** : la définition `additionnalite` du vocabulaire dit l'additionnalité contrefactuelle « écartée comme fiction invérifiable en L1.C18 § 5 ». **Le chapitre ne dit plus cela** : le renvoi est devenu faux.
+
+### D105 — La marge de 20 à 50 % n'avait aucune source : elle est retirée
+
+**Décision (a), première issue, la recherche ayant été faite et négative.** Le cadre statistique international a été relu en entier : **« 20 to 50 » n'y apparaît pas une fois** sur 1,36 million de caractères, et les quatre catégories d'incertitude qu'il nomme au § 2.5.8 ne sont pas celles que le corpus lui prêtait — une seule correspondait. **La chaîne était circulaire** : L15.C01 tenait la marge de L1.C18, et L1.C18 la tenait d'un cadre qui ne la porte pas.
+
+**Appliqué aux cinq textes qui la portaient.** L1.C18 § 5 nomme les quatre catégories réelles et dit qu'aucune pièce ouverte ne chiffre la marge ; **la conséquence du § 5 devient conditionnelle** — le rapport entre la marge et le signal n'est pas mesuré, et ce que le chapitre établit est plus étroit qu'il ne l'avait écrit : conditionner un droit d'émission à un solde net consolidé **exige une métrologie documentée qui n'existe pas**. La conclusion de conception — trajectoires d'état par biome avec bandes de tolérance — tient, sur ce fondement plus étroit. **F2 s'énonce sans chiffre**, la promesse P20 est corrigée, et L15.C01 retient un mécanisme au lieu d'une amplitude.
+
+**Ce que la décision coûte, et il faut le dire** : le quatrième constat du § 5, que le chapitre présentait comme « le plus lourd », perd son ordre de grandeur. L'argument ne dit plus que la marge dépasse le signal ; il dit que personne ne l'a mesurée.
+
+**Une correction n'a pas pu être faite, et c'est le contrôle qui l'a refusée.** L'entrée S2 de L18.C06 cite F2 avec la marge chiffrée. La corriger ferait perdre à cette source son état `a_requalifier`, que seul le manifeste autorise (E-L6) : « une référence remplacée ou corrigée n'hérite pas de l'état historique ». **La citation périmée est donc inscrite en vérification en attente dans L18.C06, à reprendre sous D62**, qui tient le sort des sources internes au corpus.
