@@ -227,6 +227,8 @@ class Etat(object):
         self.imp_verse = dict((c, 0.0) for c in CODES)
         self.surcout = dict((c, 0.0) for c in CODES)
         self.surcout_ouverture = dict((c, 0.0) for c in CODES)
+        # sortie des dettes durables (D87, instruite le 2026-09-17)
+        self.annule_sortie = dict((c, 0.0) for c in CODES)
         # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
@@ -261,7 +263,8 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
           delai_creancier=0, charge_debiteur=True, procedure_structurelle=None,
           recyclage_pret=False, reflux_apurement=None, demurrage_soldes=0.0,
           reliquat_plafond=None, persistance_reliquat=0, procedure_importateur=None,
-          quotas=None):
+          quotas=None, sortie_dettes=None, recyclage_au_besoin=False,
+          corridor_position_nette=False):
     """`symetrie_contraignante` reste l'interrupteur général des obligations de
     l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
     parmi la charge graduée, la procédure au plafond et la révision de sa
@@ -325,12 +328,52 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     `plafond_financement` en valeur.
 
     `quotas` (les quotas déclarés par défaut) donne les quotas du jeu, dont le
-    corridor et le plafond dur sont des fractions : condition (3) d'A43 (3b)."""
+    corridor et le plafond dur sont des fractions : condition (3) d'A43 (3b).
+
+    `sortie_dettes` (aucune par défaut), instruite pour D87, est un dictionnaire.
+    Au-delà d'une dette de recyclage de `seuil` quotas du débiteur, ses `modes`
+    s'appliquent : « annulation » annule la part de la dette qui dépasse le
+    seuil, au détriment des créanciers ; « plafond » cesse de prêter au débiteur
+    au-delà du seuil ; « devaluation » libère sa parité de la butée, la règle de
+    révision restant déclenchée par le solde hors corridor ; « devaluation_flux »
+    fait glisser sa parité, sans butée, tant que ses échanges de la période sont
+    déficitaires, quel que soit son solde ; « restriction » retire cette part
+    (`restriction`) de ses importations non essentielles.
+
+    `recyclage_au_besoin` (non par défaut) borne ce que chaque déficitaire reçoit
+    du recyclage à son solde négatif : il ne repasse pas créditeur, et ce qui
+    reste au-delà du plafond relève du reliquat. Par défaut, l'excès entier est
+    réparti au prorata des besoins, même quand il les dépasse.
+
+    `corridor_position_nette` (non par défaut) fait lire à la révision des
+    parités la POSITION NETTE d'un pays — son solde, moins ses dettes de
+    recyclage, plus ses créances — au lieu de son solde : le recyclage en prêt
+    ramène le solde du débiteur dans le corridor sans rien changer à sa position."""
     assert reliquat_plafond in (None, "conversion", "placement"), reliquat_plafond
     # les quotas du jeu : ceux que la configuration donne, sinon les quotas déclarés
     quota = QUOTA if quotas is None else quotas
+    modes_sortie = set((sortie_dettes or {}).get("modes", ()))
+    assert modes_sortie <= {"annulation", "plafond", "devaluation", "devaluation_flux",
+                            "restriction"}, modes_sortie
     e = Etat()
     journal, anomalies = [], []
+
+    def dette_de(d):
+        return sum(v for (x, k), v in e.dette.items() if x == d)
+
+    def seuil_dette(d):
+        return (sortie_dettes or {}).get("seuil", 1.0) * quota[d]
+
+    def endette(d):
+        """Le débiteur d dépasse-t-il le seuil de sortie des dettes durables ?"""
+        return bool(modes_sortie) and dette_de(d) >= seuil_dette(d) - 1e-9
+
+    def position(c):
+        """Ce que la révision des parités lit : le solde, ou la position nette."""
+        if not corridor_position_nette:
+            return e.solde[c]
+        return (e.solde[c] - dette_de(c)
+                + sum(v for (x, k), v in e.dette.items() if k == c))
     retenues = set(OBLIGATIONS_CREANCIER if obligations_creancier is None
                    else obligations_creancier)
     assert retenues <= set(OBLIGATIONS_CREANCIER), retenues
@@ -467,6 +510,10 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                     # restriction temporaire des importations non essentielles,
                     # levée dès le retour dans le corridor
                     desire[(a, b)] *= (1.0 - ps["restriction"])
+                if "restriction" in modes_sortie and endette(b):
+                    # sortie par restriction : un débiteur trop endetté limite ses
+                    # importations non essentielles
+                    desire[(a, b)] *= (1.0 - sortie_dettes.get("restriction", 0.30))
 
         # --- capacité de paiement, et RATIONNEMENT ----------------------
         # Les postes ESSENTIELS sont servis les premiers : c'est la
@@ -660,6 +707,14 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                         continue
                     for d, bes in besoins.items():
                         part = exces * bes / total
+                        if recyclage_au_besoin:
+                            # pas au-delà du besoin : le débiteur ne repasse pas créditeur
+                            part = min(part, bes)
+                        if "plafond" in modes_sortie:
+                            # sortie par plafond : on ne prête plus au-delà du seuil
+                            part = min(part, max(0.0, seuil_dette(d) - dette_de(d)))
+                        if part <= 0:
+                            continue
                         e.solde[c] -= part
                         e.solde[d] += part
                         recyclage[c] += part
@@ -686,6 +741,19 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                 e.rembourse_pret[d] += remb
                 pret_net[d] -= remb
                 pret_net[c] += remb
+
+        # --- SORTIE PAR ANNULATION : la dette au-delà du seuil est annulée -----
+        if "annulation" in modes_sortie:
+            for d in CODES:
+                total_du = dette_de(d)
+                exces_dette = total_du - seuil_dette(d)
+                if exces_dette <= 1e-9:
+                    continue
+                for cle_dette, du in list(e.dette.items()):
+                    if cle_dette[0] == d and du > 0:
+                        e.dette[cle_dette] = du - exces_dette * du / total_du
+                e.dette_annulee[d] += exces_dette
+                e.annule_sortie[d] += exces_dette
 
         # --- RELIQUAT AU-DELÀ DU PLAFOND, après recyclage et remboursements --
         converti = dict((c, 0.0) for c in CODES)
@@ -720,24 +788,37 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
 
         # --- parités administrées ---------------------------------------
         for c in CODES:
-            dehors = abs(e.solde[c]) > CORRIDOR * quota[c]
+            dehors = abs(position(c)) > CORRIDOR * quota[c]
             e.hors_corridor[c] = e.hors_corridor[c] + 1 if dehors else 0
+            if "devaluation_flux" in modes_sortie and endette(c) and net[c] < 0:
+                # sortie par dévaluation jusqu'à l'équilibre des échanges : c'est la
+                # dette qui la déclenche, non le solde, que le recyclage peut garder
+                # dans le corridor ; elle s'arrête quand les échanges ne sont plus
+                # déficitaires
+                e.parite[c] *= (1.0 + PAS_GLISSEMENT_AUTEUR)
+                e.hors_corridor[c] = 0
+                continue
             if regle is not None:
                 # RÈGLE DE RÉVISION FOURNIE : elle décide seule du moment et
                 # de l'ampleur ; une parité changée remet le compteur à zéro.
                 # L'obligation excédentaire délibérative reste un paramètre
                 # du régime, non de la règle.
-                if not dehors or (e.solde[c] > 0 and not tenu(c, "parite")):
+                if not dehors or (position(c) > 0 and not tenu(c, "parite")):
                     continue
-                nouvelle = regle(e.solde[c], quota[c], e.hors_corridor[c],
-                                 e.parite[c])
+                if position(c) < 0 and "devaluation" in modes_sortie and endette(c):
+                    # sortie par dévaluation : la butée ne retient plus un débiteur
+                    # dont la dette dépasse le seuil
+                    nouvelle = e.parite[c] * (1.0 + PAS_GLISSEMENT_AUTEUR)
+                else:
+                    nouvelle = regle(position(c), quota[c], e.hors_corridor[c],
+                                     e.parite[c])
                 if nouvelle != e.parite[c]:
                     e.parite[c] = nouvelle
                     e.hors_corridor[c] = 0
                 continue
             if e.hors_corridor[c] < PERSISTANCE_PARITE:
                 continue
-            crediteur = e.solde[c] > 0
+            crediteur = position(c) > 0
             if crediteur and not tenu(c, "parite"):
                 continue
             e.parite[c] *= (1.0 - PAS_PARITE) if crediteur \
@@ -1244,7 +1325,16 @@ def quotas_proportionnels(base_de, total=None):
 # créancier distinct). D85 : le corridor vaut 25 % du quota (CORRIDOR). Les deux
 # derniers étaient les repères déclarés ; ils deviennent des choix, non calibrés.
 QUOTAS_AUTEUR = quotas_proportionnels("importations")
-OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AVANT_D83, quotas=QUOTAS_AUTEUR)
+OPTIONS_AVANT_D88 = dict(OPTIONS_AVANT_D83, quotas=QUOTAS_AUTEUR)
+# LA SORTIE DES DETTES DURABLES — D87 instruite, choix de l'auteur du 2026-09-17. D88 : la
+# révision des parités lit la POSITION NETTE (solde, moins les dettes de recyclage, plus
+# les créances), que le recyclage en prêt ne ramène pas dans le corridor. D89 : au-delà
+# du seuil, la dette de recyclage est annulée, et la parité du débiteur glisse sans butée
+# tant que ses échanges de la période sont déficitaires. D90 : le seuil vaut un quota du
+# débiteur. L'INFLATION QU'IMPORTERAIT LA DÉVALUATION N'EST PAS REPRÉSENTÉE.
+SORTIE_DETTES_AUTEUR = {"modes": ("annulation", "devaluation_flux"), "seuil": 1.0}
+OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AVANT_D88, corridor_position_nette=True,
+                                sortie_dettes=SORTIE_DETTES_AUTEUR)
 
 
 def jouer_a_horizon(scenario, horizon, **options):
@@ -1976,7 +2066,7 @@ def comparer_seuils_du_plafond():
           % ("configuration", "hor.", "anomalies", "masse min DEF", "converti S2", "dette DEF",
              "contraction DEF S0-S3"))
     for libelle, options in (("avant D83", OPTIONS_AVANT_D83),
-                             ("complète (D83 à D85)", OPTIONS_AUTEUR_COMPLETES)):
+                             ("complète (D83 à D85)", OPTIONS_AVANT_D88)):
         for h in (40, 80, 120):
             r = mesurer_seuils(h, **options)
             print("  %-26s %4d %10d %14.0f %11.0f %10.0f %20.0f"
@@ -2068,9 +2158,10 @@ def comparer_applicabilite():
 
     La sortie cherche ce qui démentirait un verdict favorable — horizon long, chocs
     combinés et répétés, créancier qui n'adopte pas ses obligations — et publie le
-    verdict de l'auteur (D86) avec la condition qu'il ajoute (D87).
+    verdict de l'auteur (D86) avec la condition qu'il ajoute (D87). Elle reproduit
+    la configuration AU MOMENT DE D86 (`OPTIONS_AVANT_D88`).
     """
-    O = OPTIONS_AUTEUR_COMPLETES
+    O = OPTIONS_AVANT_D88
     print("")
     print("  (1) LA CONFIGURATION DE L'AUTEUR — les cinq scénarios, à 40 et 200 périodes")
     print("  %-8s %4s %8s %4s %16s %16s %9s %12s"
@@ -2135,6 +2226,246 @@ def comparer_applicabilite():
     print("      la conception du contrôle des capitaux, l'inflation, le calibrage (F1),")
     print("      l'avantage sur les instruments existants (F10), ni ce que donnerait un")
     print("      monde de plus de trois pays.")
+
+
+# LES RÈGLES DE SORTIE DES DETTES DURABLES MESURÉES POUR D87, du seuil d'un quota de
+# dette de recyclage par défaut. Aucune n'est retenue : c'est à l'auteur de trancher.
+REGLES_DE_SORTIE = (
+    ("aucune", None),
+    ("annulation au-delà du seuil", {"modes": ("annulation",)}),
+    ("plafond du prêt au seuil", {"modes": ("plafond",)}),
+    ("restriction de 30 %", {"modes": ("restriction",), "restriction": 0.30}),
+    ("dévaluation, butée levée", {"modes": ("devaluation",)}),
+    ("dévaluation jusqu'à l'équilibre", {"modes": ("devaluation_flux",)}),
+    ("annulation + dévaluation à l'équilibre", {"modes": ("annulation", "devaluation_flux")}),
+)
+
+
+def mesurer_sortie(scenario, horizon, **options):
+    """Dettes et annulations en quotas, parités, soldes, échanges en volume des dix
+    dernières périodes et anomalies graves d'un jeu : la sortie des dettes durables."""
+    quotas = options.get("quotas") or QUOTA
+    e, journal, anomalies = jouer_a_horizon(scenario, horizon, **options)
+    avant = jouer_a_horizon(scenario, horizon - 10, **options)[0]
+    codes = dict((k, len([a for a in anomalies if a.startswith("[%s]" % k)]))
+                 for k in ("C1", "C3", "C5", "C6", "C8"))
+
+    def importations(etat, c):
+        return etat.production[c] + etat.transfert_reel[c]
+    r = {"codes": codes, "graves": sum(codes.values()), "journal": journal,
+         "parite_exc": e.parite["EXC"]}
+    for c in ("DEF", "PAU"):
+        r[c] = {"dette": journal[-1]["dette"][c] / quotas[c],
+                "annulee": e.annule_sortie[c] / quotas[c],
+                "parite": e.parite[c], "solde": e.solde[c] / quotas[c],
+                "importe": (importations(e, c) - importations(avant, c)) / 10.0,
+                "exporte": (e.production[c] - avant.production[c]) / 10.0}
+    return r
+
+
+def trajectoire_changee(scenario, horizon, sortie, **options):
+    """Une règle de sortie change-t-elle les parités ou les soldes d'un jeu ?"""
+    sans = jouer_a_horizon(scenario, horizon, **options)[1]
+    avec = jouer_a_horizon(scenario, horizon, **dict(options, sortie_dettes=sortie))[1]
+    return any(abs(p["parite"][c] - q["parite"][c]) > 1e-9
+               or abs(p["solde"][c] - q["solde"][c]) > 1e-9
+               for p, q in zip(sans, avec) for c in CODES)
+
+
+def comparer_sortie_dettes():
+    """D87 : LA SORTIE DES DETTES DURABLES, INSTRUITE LE 2026-09-17.
+
+    Deux questions, dans cet ordre : la révision des parités voit-elle la dette de
+    recyclage ? Et la perte qu'aucune parité bornée ne compense, quelle règle la
+    fait sortir, au détriment de qui ? La sortie mesure ; l'auteur a tranché le même
+    jour (D88 à D90). Elle part de la configuration AU MOMENT DE D87 (`OPTIONS_AVANT_D88`).
+    """
+    O = OPTIONS_AVANT_D88
+    ON = dict(O, corridor_position_nette=True)
+    jeux = SCENARIOS + scenarios_de_stress()
+    s4 = [x for x in SCENARIOS if x.cle == "S4"][0]
+    print("")
+    print("  (1) LE SIGNAL MASQUÉ — dix jeux, 200 périodes, sans règle de sortie")
+    print("  %-7s %-26s %-26s" % ("", "la révision lit le solde", "lit la position nette"))
+    print("  %-7s %8s %8s %8s %8s %8s %8s"
+          % ("jeu", "dette D", "dette P", "parité D", "dette D", "dette P", "parité D"))
+    for sc in jeux:
+        a = mesurer_sortie(sc, 200, **O)
+        b = mesurer_sortie(sc, 200, **ON)
+        print("  %-7s %8.2f %8.2f %8.3f %8.2f %8.2f %8.3f"
+              % (sc.cle, a["DEF"]["dette"], a["PAU"]["dette"], a["DEF"]["parite"],
+                 b["DEF"]["dette"], b["PAU"]["dette"], b["DEF"]["parite"]))
+    long_ = mesurer_sortie(s4, 400, **ON)
+    s2 = [x for x in SCENARIOS if x.cle == "S2"][0]
+    e_s2 = jouer_a_horizon(s2, 200, **O)[0]
+    e_s2b, j_s2b, _ = jouer_a_horizon(s2, 200, **dict(O, recyclage_au_besoin=True))
+    print("      (dettes de recyclage du déficitaire D et du pays pauvre P, en quotas.")
+    print("      Position nette : solde, moins les dettes de recyclage, plus les créances.")
+    print("      S4 sur la position nette, à 400 périodes : dette D %.2f quotas.)"
+          % long_["DEF"]["dette"])
+    print("      Ce n'est pas l'excès de prêt : en S2, un prêt borné au besoin du débiteur")
+    print("      divise la dette créée (%.0f au lieu de %.0f) et change à peine la dette restante"
+          % (e_s2b.dette_creee["DEF"], e_s2.dette_creee["DEF"]))
+    print("      (%.2f quotas au lieu de %.2f)."
+          % (j_s2b[-1]["dette"]["DEF"] / QUOTAS_AUTEUR["DEF"],
+             sum(v for (d, k), v in e_s2.dette.items() if d == "DEF") / QUOTAS_AUTEUR["DEF"]))
+    print("")
+    print("  (2) LES RÈGLES DE SORTIE — position nette lue, seuil d'un quota, 200 périodes")
+    print("  %-40s %6s %8s %7s %8s %8s %6s"
+          % ("règle", "dette", "annulée", "parité", "importe", "exporte", "anom."))
+    for sc in [x for x in jeux if x.cle in ("S4", "S2+S4")]:
+        print("  %s — %s" % (sc.cle, sc.titre))
+        for libelle, sortie in REGLES_DE_SORTIE:
+            r = mesurer_sortie(sc, 200, **dict(ON, sortie_dettes=sortie))
+            d = r["DEF"]
+            print("  %-40s %6.2f %8.2f %7.3f %8.1f %8.1f %6d"
+                  % (libelle, d["dette"], d["annulee"], d["parite"], d["importe"],
+                     d["exporte"], r["graves"]))
+    print("      (déficitaire : dette et annulation cumulée en quotas, parité, importations")
+    print("      et exportations en volume par période, sur les dix dernières ; anomalies")
+    print("      graves : dépassements, masses négatives, essentiel bloqué, identités)")
+    combinee = dict(ON, sortie_dettes=REGLES_DE_SORTIE[-1][1])
+    sans_butee = dict(ON, sortie_dettes=REGLES_DE_SORTIE[4][1])
+    print("      À plus long terme, S4 — annulation + dévaluation à l'équilibre : annulée")
+    print("      %.2f quota à 300 périodes, %.2f à 600 ; dévaluation, butée levée : parité"
+          % (mesurer_sortie(s4, 300, **combinee)["DEF"]["annulee"],
+             mesurer_sortie(s4, 600, **combinee)["DEF"]["annulee"]))
+    loin = mesurer_sortie(s4, 600, **sans_butee)
+    print("      du déficitaire %.2f et de l'excédentaire %.3f à 600 périodes."
+          % (loin["DEF"]["parite"], loin["parite_exc"]))
+    print("")
+    print("  (3) LE SEUIL — annulation + dévaluation à l'équilibre, position nette lue")
+    print("  %-6s %-32s %10s %10s"
+          % ("seuil", "jeux dont la trajectoire change", "S4 : dette", "annulée"))
+    for seuil in (0.5, 1.0, 2.0):
+        sortie = {"modes": ("annulation", "devaluation_flux"), "seuil": seuil}
+        touches = [sc.cle for sc in jeux if trajectoire_changee(sc, 200, sortie, **ON)]
+        r = mesurer_sortie(s4, 200, **dict(ON, sortie_dettes=sortie))
+        print("  %-6.1f %-32s %10.2f %10.2f"
+              % (seuil, ", ".join(touches), r["DEF"]["dette"], r["DEF"]["annulee"]))
+    print("      CE QUE LA SORTIE MONTRE. (1) Le recyclage en prêt ramène le solde du")
+    print("      débiteur vers le corridor sans rien changer à sa position : la révision,")
+    print("      qui lit le solde, s'arrête, et le déficit devient une dette qui croît —")
+    print("      même en S2, où la parité du déficitaire reste réévaluée. Lue sur la")
+    print("      position nette, la révision ramène sous un quota, sans règle de sortie,")
+    print("      les dettes de tous les jeux sauf deux : la perte d'un débouché, que la")
+    print("      butée ne laisse pas compenser. (2) Aucune règle ne fait disparaître cette")
+    print("      perte ; chacune désigne qui la porte. L'annulation seule fait du créancier")
+    print("      le payeur sans fin d'un transfert réel. Le plafond seul comprime le")
+    print("      débiteur jusqu'à ses recettes et rompt le plafond dur et les masses. La")
+    print("      restriction ralentit la dette sans l'arrêter. La dévaluation sans butée")
+    print("      dépasse de loin l'équilibre, fait du débiteur un excédentaire au plafond")
+    print("      et entraîne le créancier dans la dévaluation. La dévaluation arrêtée à")
+    print("      l'équilibre des échanges contient la dette sans anomalie — elle culmine,")
+    print("      puis se rembourse lentement —, au prix d'importations fortement réduites")
+    print("      et d'exportations accrues ; jointe à l'annulation au-delà du seuil, elle")
+    print("      borne aussi la perte du créancier.")
+    print("      (3) Au seuil d'un quota, cette combinaison ne touche que la perte d'un")
+    print("      débouché ; au demi-quota, elle atteint aussi les récoltes répétées.")
+    print("      PRÉCÉDENTS, LUS SUR PIÈCES. Keynes (1943, § 8) : pour laisser un solde")
+    print("      débiteur dépasser la moitié du quota, le conseil peut exiger une")
+    print("      dévaluation ; au-delà des trois quarts, s'il n'est pas réduit en deux ans,")
+    print("      il peut déclarer le défaut et suspendre le droit de tirer. Londres (1953) :")
+    print("      trois gouvernements créanciers consentent des concessions sur le montant")
+    print("      de leurs créances d'après-guerre, et le transfert des paiements suppose")
+    print("      une balance des paiements qui les finance par les recettes courantes.")
+    print("      CE QU'ELLE NE MONTRE PAS : l'inflation qu'importerait une dévaluation, que")
+    print("      le modèle ne représente pas ; que des créanciers acceptent d'annuler (F6) ;")
+    print("      ni le retrait d'un pays de la coalition, que les statuts du FMI prévoient")
+    print("      (article XXVI) et que le modèle ne joue pas.")
+    print("      CHOIX DE L'AUTEUR (D88 À D90) : la révision lit la position nette ; au-delà")
+    print("      d'un quota de dette de recyclage, la dette est annulée et la parité du")
+    print("      débiteur glisse jusqu'à l'équilibre de ses échanges.")
+
+
+ADOPTIONS_DU_CREANCIER = (
+    ("tenu par les règles de l'auteur", {}),
+    ("délibère, comme dans l'histoire", {"symetrie_contraignante": False}),
+    ("refuse la réévaluation", {"obligations_creancier": ("plafond",)}),
+    ("refuse la conversion du reliquat", {"reliquat_plafond": None}),
+    ("refuse recyclage et conversion", {"obligations_creancier": ("parite",), "reliquat_plafond": None}),
+)
+
+
+def anomalies_adoption(base, extra, horizon=80):
+    """Dépassements et masses négatives cumulés sur les cinq scénarios."""
+    depass = negatives = 0
+    for sc in SCENARIOS:
+        codes = mesurer_sortie(sc, horizon, **dict(base, **extra))["codes"]
+        depass += codes["C6"]
+        negatives += codes["C8"]
+    return depass, negatives
+
+
+def comparer_applicabilite_apres_sortie():
+    """A43 (3b) : LE JUGEMENT D'APPLICABILITÉ REJOUÉ APRÈS D88 À D90.
+
+    La configuration complète porte désormais la sortie des dettes durables. La
+    sortie cherche ce qui démentirait un verdict plus favorable que D86 : horizon
+    long, jeux de stress, créancier qui n'adopte pas ses obligations, et ce que coûte
+    la sortie à qui la porte. L'auteur a rejugé le même jour (D91).
+    """
+    O = OPTIONS_AUTEUR_COMPLETES
+    jeux = SCENARIOS + scenarios_de_stress()
+    s4 = [x for x in SCENARIOS if x.cle == "S4"][0]
+    print("")
+    print("  (1) DIX JEUX SOUS LA CONFIGURATION COMPLÈTE — 200 et 400 périodes")
+    print("  %-7s %4s %9s %11s %11s %9s %9s %9s"
+          % ("jeu", "hor.", "anomalies", "dette D max", "dette P max", "annulée", "parité D", "parité P"))
+    for sc in jeux:
+        for h in (200, 400):
+            r = mesurer_sortie(sc, h, **O)
+            maxi = dict((c, max(p["dette"][c] for p in r["journal"]) / O["quotas"][c])
+                        for c in ("DEF", "PAU"))
+            print("  %-7s %4d %9d %11.2f %11.2f %9.2f %9.3f %9.3f"
+                  % (sc.cle if h == 200 else "", h, r["graves"], maxi["DEF"], maxi["PAU"],
+                     r["DEF"]["annulee"] + r["PAU"]["annulee"], r["DEF"]["parite"],
+                     r["PAU"]["parite"]))
+    print("      (dettes de recyclage maximales sur la trajectoire et annulations cumulées,")
+    print("      en quotas du débiteur ; parités du déficitaire D et du pays pauvre P)")
+    print("")
+    print("  (2) SI LE CRÉANCIER N'ADOPTE PAS SES OBLIGATIONS — cinq scénarios, 80 périodes")
+    print("  %-40s %22s %22s" % ("", "avant D88", "complète (D88 à D90)"))
+    print("  %-40s %11s %10s %11s %10s"
+          % ("créancier", "dépassements", "négatives", "dépassements", "négatives"))
+    for libelle, extra in ADOPTIONS_DU_CREANCIER:
+        avant = anomalies_adoption(OPTIONS_AVANT_D88, extra)
+        apres = anomalies_adoption(O, extra)
+        print("  %-40s %11d %10d %11d %10d" % (libelle, avant[0], avant[1], apres[0], apres[1]))
+    refus = anomalies_adoption(O, {"sortie_dettes": dict(SORTIE_DETTES_AUTEUR,
+                                                         modes=("devaluation_flux",))})
+    print("  %-40s %11s %10s %11d %10d" % ("refuse l'annulation des dettes", "", "", refus[0], refus[1]))
+    print("")
+    print("  (3) CE QUE COÛTE LA SORTIE — S4, perte d'un débouché")
+    print("  %-8s %8s %9s %9s %9s %9s %9s"
+          % ("horizon", "dette D", "annulée", "parité D", "importe", "exporte", "anomalies"))
+    for h in (40, 80, 200, 400, 600):
+        r = mesurer_sortie(s4, h, **O)
+        d = r["DEF"]
+        print("  %-8d %8.2f %9.2f %9.3f %9.1f %9.1f %9d"
+              % (h, d["dette"], d["annulee"], d["parite"], d["importe"], d["exporte"], r["graves"]))
+    sans = mesurer_sortie(s4, 200, **OPTIONS_AVANT_D88)["DEF"]
+    print("      (avant D88, à 200 périodes : dette %.2f quotas, parité %.3f, importations"
+          % (sans["dette"], sans["parite"]))
+    print("      %.1f et exportations %.1f par période)" % (sans["importe"], sans["exporte"]))
+    print("      CE QUE LA SORTIE MONTRE. Sous la configuration complète, aucune anomalie")
+    print("      dans les dix jeux jusqu'à 400 périodes, et aucune dette de recyclage ne")
+    print("      dépasse un quota : les déséquilibres durables ont une sortie. Elle a un prix")
+    print("      et des porteurs : le débiteur qui perd un débouché dévalue bien au-delà de")
+    print("      la butée et importe beaucoup moins pour exporter davantage ; le créancier")
+    print("      annule une part bornée de ses créances. À 400 périodes, les récoltes")
+    print("      répétées atteignent aussi le seuil : le pays pauvre dévalue au-delà de la")
+    print("      butée. Et rien ne change à la dépendance déjà mesurée : si le créancier")
+    print("      délibère, ou refuse recyclage et conversion, les anomalies sont les mêmes")
+    print("      qu'avant D88 ; s'il refuse seulement d'annuler, aucune n'apparaît.")
+    print("      CE QU'ELLE NE MONTRE PAS : l'inflation qu'une dévaluation de cette ampleur")
+    print("      importerait, et donc si elle serait tenable ; que des créanciers adoptent")
+    print("      ces obligations et l'annulation (F6) ; le calibrage (F1) ; ni un monde de")
+    print("      plus de trois pays.")
+    print("      VERDICT DE L'AUTEUR (D91) : LES DÉSÉQUILIBRES DURABLES DEVIENNENT")
+    print("      EXPÉRIMENTABLES EN COALITION, SOUS DEUX CONDITIONS DÉCLARÉES : mesurer")
+    print("      l'inflation qu'importerait la dévaluation, et obtenir l'adhésion des")
+    print("      créanciers à l'annulation. Aucune des deux n'est remplie par le modèle.")
 
 
 def mesurer_regle(regle):
@@ -2322,6 +2653,18 @@ def main():
     print("A43 (3b) — LE JUGEMENT D'APPLICABILITÉ")
     print("=" * 78)
     comparer_applicabilite()
+
+    print("")
+    print("=" * 78)
+    print("D87 — LA SORTIE DES DETTES DURABLES")
+    print("=" * 78)
+    comparer_sortie_dettes()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b) — LE JUGEMENT D'APPLICABILITÉ REJOUÉ APRÈS D88 À D90")
+    print("=" * 78)
+    comparer_applicabilite_apres_sortie()
     return 0
 
 

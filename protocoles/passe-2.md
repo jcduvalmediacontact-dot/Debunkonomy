@@ -7535,3 +7535,72 @@ Les cinq conditions de (3b) étant instruites (D69 à D85), l'auteur juge son ap
 ## L1.C31 § 6 — CORRECTION PROPAGÉE APRÈS D86, 2026-09-17
 
 **La correction que la section du jugement d'applicabilité laissait à propager est faite, sur accord explicite de l'auteur** (« Ok pour tout »). Dans le même paragraphe de L1.C31 § 6, l'unité de réserve entre banques centrales « constitue une branche expérimentable », et non plus « la branche expérimentable » : depuis D86, l'Exchange Standard à parités administrées l'est aussi, pour des chocs passagers. Changement de sens le jour même de la révision de fond du chapitre : état réenregistré avec `--maj-etat --fond`.
+
+
+## D87 INSTRUITE — LA SORTIE DES DETTES DURABLES, D88 À D90, 2026-09-17
+
+D87 ouvrait une sixième condition d'A43 (3b) : une règle de sortie des dettes durables. L'instruction a posé deux questions, dans cet ordre — la révision des parités voit-elle la dette de recyclage ? la perte qu'aucune parité bornée ne compense, quelle règle la fait sortir, et au détriment de qui ? — et a cherché la meilleure écriture de chaque règle avant de la juger. `python modeles/nemo_soldes.py`, sections `comparer_sortie_dettes` et `comparer_applicabilite_apres_sortie`, vérifiées par les sections P et Q de `modeles/test_nemo_soldes.py`.
+
+### (1) LE SIGNAL ÉTAIT MASQUÉ
+
+**Le recyclage en prêt (D72) ramène le solde du débiteur vers le corridor sans rien changer à sa position ; la révision des parités, qui lit le solde, s'arrête, et le déficit devient une dette qui croît.** En S2, le solde du déficitaire reste dans le corridor, sa parité — réévaluée, 0,734 — ne bouge plus sur les cinquante dernières périodes, et sa dette de recyclage atteint 4,87 quotas à deux cents périodes. **Lue sur la position nette** — le solde, moins les dettes de recyclage, plus les créances —, **la révision la ramène à 0,07 quota**, sans aucune règle de sortie. De même sous mauvaises récoltes répétées (déficitaire : 3,86 puis 0,00 quota ; pays pauvre : 3,42 puis 0,64) et sous S2 à prix triplé (1,54 puis 0,04). **Sur la position nette, huit jeux sur dix restent sous un quota ; il ne reste que la perte d'un débouché** — S4, et S2 et S4 ensemble —, parité à la butée : 9,39 quotas à deux cents périodes en S4, 19,60 à quatre cents.
+
+**Une explication a été écartée par la mesure : l'excès de prêt.** Le recyclage répartit l'excès du créancier au prorata des besoins, même quand il les dépasse ; le débiteur repasse alors créditeur et rembourse aussitôt. Borné au besoin, le recyclage crée en S2 5209 de dette au lieu de 10098, mais la dette restante change à peine (4,83 quotas au lieu de 4,87). **Ce n'est pas l'excès de prêt, c'est le signal.**
+
+**CORRECTION DE LA LECTURE DE D86.** La section du jugement d'applicabilité attribuait la dette de S2 au déséquilibre durable, et celle des mauvaises récoltes répétées à la brièveté des chocs. **Elles tenaient surtout au signal masqué.** La section datée reste telle quelle — ses chiffres sont reproduits par `OPTIONS_AVANT_D88` — et elle est corrigée ici.
+
+### (2) AUCUNE RÈGLE NE FAIT DISPARAÎTRE LA PERTE D'UN DÉBOUCHÉ ; CHACUNE DÉSIGNE QUI LA PORTE
+
+S4, position nette lue, seuil d'un quota de dette de recyclage, deux cents périodes :
+
+- **Annulation seule** : la dette est bornée, les échanges ne changent pas, et le créancier annule sans fin un transfert réel qui continue (8,39 quotas).
+- **Plafond du prêt, seul** : le débiteur est comprimé jusqu'à ses recettes — importations 16,2 au lieu de 69,4 par période — et le régime rompt : 160 dépassements du plafond dur, 163 masses négatives.
+- **Restriction de 30 % des importations non essentielles** : la dette ralentit sans s'arrêter (6,27 quotas).
+- **Dévaluation, butée levée**, c'est-à-dire la règle de l'auteur sans butée pour le débiteur endetté : elle dépasse de loin l'équilibre — parité 10,70 à deux cents périodes, 15,12 à six cents —, fait du débiteur un excédentaire au plafond et entraîne le créancier dans la dévaluation (parité 2,938 à six cents périodes).
+- **Dévaluation arrêtée à l'équilibre des échanges**, déclenchée par la dette : parité 3,271, aucune anomalie ; la dette culmine à 2,28 quotas et se rembourse lentement (1,93 à six cents périodes) ; importations 33,1 au lieu de 69,4, exportations 34,3 au lieu de 16,2.
+- **La même, jointe à l'annulation au-delà du seuil** : la perte du créancier se fige, 1,28 quota à trois cents périodes comme à six cents.
+
+**Le seuil.** À un ou deux quotas, cette combinaison ne touche que la perte d'un débouché ; au demi-quota, elle atteint aussi les récoltes répétées.
+
+### (3) LES PRÉCÉDENTS, LUS SUR PIÈCES
+
+- **Keynes, 1943**, texte du plan publié au *Federal Reserve Bulletin* de juin 1943, p. 511, § 8 [L1.C25, S12]. Pour laisser un solde débiteur dépasser la moitié du quota, le conseil peut exiger « a stated reduction in the value of the member's currency, if it deems that to be the suitable remedy » ; au-delà des trois quarts, faute de réduction en deux ans, il peut déclarer le membre « in default and no longer entitled to draw against its account except with the permission of the Governing Board ». **Chez Keynes, la dévaluation est une condition laissée au jugement du conseil ; D89 en fait une règle.**
+- **Accord sur les dettes extérieures allemandes, Londres, 1953**, *Recueil des traités des Nations unies*, vol. 333, n° 4764. Préambule, folio 8 : trois gouvernements se disent prêts à « make important concessions with respect to the priority of their claims for post-war economic assistance [...] and with respect to the total amount of these claims ». Rapport de la Conférence, § 21, folios 276 à 278 : le transfert des paiements suppose une balance des paiements dans laquelle ils « can be financed by foreign exchange receipts from visible and invisible transactions so that more than a temporary drawing on monetary reserves is avoided ». **Le remboursement sur les seuls soldes positifs (D72) suit le principe du § 21 ; l'annulation au-delà du seuil (D89) suit la concession du préambule**, qui portait sur des créances d'aide d'après-guerre, non sur des dettes de compensation.
+- **Statuts du FMI, article XXVI, section 2 c)** : un membre qui persiste à manquer à ses obligations « may be required to withdraw from membership in the Fund ». Le retrait d'un pays de la coalition n'est pas joué par le modèle.
+
+Pièces vérifiées par Claude, phrase entière sur page unique ou à cheval de pages consécutives du même texte, folio et empreinte SHA-256 : relevé `Codex/2026-09-17/sortie-dettes/releve-sortie-dettes.md`. **Ce que la couche OCR de l'Accord de Londres ne contient pas — un plafond du service en pourcentage des exportations, un engagement des créanciers d'importer — n'est pas établi sur les images et n'est pas publié comme un fait.**
+
+### (4) LES DÉCISIONS DE L'AUTEUR
+
+**(D88) LA RÉVISION DES PARITÉS LIT LA POSITION NETTE** — le solde, moins les dettes de recyclage, plus les créances. Écarté : le solde, que le recyclage en prêt ramène au corridor.
+
+**(D89) AU-DELÀ DU SEUIL, LA DETTE DE RECYCLAGE EST ANNULÉE, ET LA PARITÉ DU DÉBITEUR GLISSE, SANS BUTÉE, TANT QUE SES ÉCHANGES DE LA PÉRIODE SONT DÉFICITAIRES.** Écartés : la dévaluation à l'équilibre seule, l'annulation seule, la limite assumée ; et, par la mesure, le plafond du prêt, la dévaluation sans butée, la restriction.
+
+**(D90) LE SEUIL VAUT UN QUOTA DE DETTE DE RECYCLAGE DU DÉBITEUR.** Écartés : un demi-quota, deux quotas.
+
+### (5) CE QUE LA CONFIGURATION COMPLÈTE MONTRE, ET CE QU'ELLE NE MONTRE PAS
+
+Sous `OPTIONS_AUTEUR_COMPLETES`, **aucune anomalie dans les dix jeux à deux cents et quatre cents périodes, et aucune dette de recyclage au-delà d'un quota.** **La sortie a un prix** : en S4, à deux cents périodes, parité 3,271 au lieu de 1,280, importations 33,1 au lieu de 69,4 par période, 1,15 quota de créances annulé. **À quatre cents périodes, les récoltes répétées atteignent aussi le seuil** : le pays pauvre dévalue au-delà de la butée (parité 1,345) et 0,06 quota est annulé. **La dépendance au créancier ne change pas** : s'il délibère, 334 dépassements et 67 masses négatives en quatre-vingts périodes, exactement comme avant D88 ; s'il refuse seulement d'annuler, aucune anomalie.
+
+**CE QU'ELLE NE MONTRE PAS : l'inflation qu'importerait une dévaluation de cette ampleur, et donc si elle serait tenable** — le modèle n'a pas de prix endogènes. Ni que des créanciers acceptent d'avance l'annulation automatique : **F6 se resserre.** Ni le calibrage (F1), ni un monde de plus de trois pays.
+
+### CE QUI RESTE À TRANCHER
+
+**Le verdict de D86 sur les déséquilibres durables est à rejuger par l'auteur.** L1.C31 § 6 les dit « non applicable en l'état aux déséquilibres durables, dont les dettes de recyclage n'ont pas de règle de sortie » ; depuis D89, ces dettes en ont une. Le chapitre n'est pas modifié sans accord explicite.
+
+
+## A43 (3b) REJUGÉE — LES DÉSÉQUILIBRES DURABLES, D91, 2026-09-17
+
+La sortie des dettes durables étant tranchée (D88 à D90), l'auteur rejuge le verdict de D86 sur les déséquilibres durables, sur la sortie `comparer_applicabilite_apres_sortie` (section Q du test).
+
+### LE VERDICT DE L'AUTEUR
+
+**(D91) LES DÉSÉQUILIBRES DURABLES DEVIENNENT EXPÉRIMENTABLES EN COALITION, SOUS DEUX CONDITIONS DÉCLARÉES : (1) MESURER L'INFLATION QU'IMPORTERAIT LA DÉVALUATION ; (2) OBTENIR L'ADHÉSION DES CRÉANCIERS À L'ANNULATION.** Écartés : « non démontré », que Claude recommandait — l'objection étant déplacée vers ces deux points, non résolue — et « maintenu : non applicable ».
+
+### CE QUE LE VERDICT NE DIT PAS
+
+**Aucune des deux conditions n'est remplie.** Le modèle n'a pas de prix endogènes : il ne dit pas si une dévaluation de l'ampleur mesurée en S4 serait tenable, ni ce qu'elle coûterait en inflation et en salaires réels. Et rien ne montre que des créanciers accepteraient d'avance d'annuler : F6 était déjà la condition du verdict de D86 ; l'annulation automatique l'étend. **Le verdict ne vaut qu'au sein d'une coalition expérimentale, sous l'automaticité des obligations du créancier**, dont la dépendance mesurée est inchangée. Le remplacement mondial reste non applicable.
+
+### CE QUI EST CORRIGÉ, ET CE QUI RESTE À PROPAGER
+
+**Le registre est corrigé** : A43 porte le verdict de D91 et ses deux conditions. **L1.C31 § 6 n'est pas amendé, sur choix de l'auteur (« plus tard »).** Sa phrase dit encore ces déséquilibres « non applicable en l'état aux déséquilibres durables, dont les dettes de recyclage n'ont pas de règle de sortie » : elle est désormais inexacte deux fois, sur le verdict et sur la règle de sortie. **Correction à propager**, en attente de l'accord de l'auteur.

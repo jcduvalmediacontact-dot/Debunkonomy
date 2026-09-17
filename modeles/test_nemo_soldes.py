@@ -825,7 +825,7 @@ exiger(abs(sum(QA.values()) - sum(m.QUOTA.values())) < 1e-6
        and all(abs(QA[c] / sum(QA.values()) - importations[c] / float(sum(importations.values()))) < 1e-12
                for c in m.CODES)
        and m.PLAFOND_SOLDE == 1.0 and m.PLAFOND_CREANCIER is None and m.CORRIDOR == 0.25
-       and m.OPTIONS_AUTEUR_COMPLETES == dict(m.OPTIONS_AVANT_D83, quotas=QA),
+       and m.OPTIONS_AVANT_D88 == dict(m.OPTIONS_AVANT_D83, quotas=QA),
        "la configuration de l'auteur porte D83 à D85 : quotas aux importations à total "
        "inchangé (%s), plafond dur à 100 %% des deux côtés, corridor à 25 %%"
        % "/".join("%d" % round(QA[c]) for c in m.CODES))
@@ -834,7 +834,7 @@ def seuils(h, **k):
     return m.mesurer_seuils(h, **dict(k, **m.OPTIONS_AVANT_D83))
 def anomalies_de(r):
     return r["C1"] + r["C3"] + r["C5"] + r["C6"] + r["C8"]
-auteur_seuils = dict((h, m.mesurer_seuils(h, **m.OPTIONS_AUTEUR_COMPLETES)) for h in (40, 80, 120))
+auteur_seuils = dict((h, m.mesurer_seuils(h, **m.OPTIONS_AVANT_D88)) for h in (40, 80, 120))
 avant_seuils = dict((h, m.mesurer_seuils(h, **m.OPTIONS_AVANT_D83)) for h in (80, 120))
 exiger(all(anomalies_de(r) == 0 for r in auteur_seuils.values()),
        "SOUS LES CHOIX DE L'AUTEUR, aucune anomalie dans les cinq scénarios à 40, 80 et "
@@ -894,8 +894,8 @@ print("O. A43 (3b) — LE JUGEMENT D'APPLICABILITÉ")
 # =====================================================================
 # CE QUE CETTE SECTION NE PROUVE PAS : qu'un créancier adopte ces obligations, ni
 # que le dispositif soit calibré. Elle verrouille ce sur quoi le verdict de
-# l'auteur (D86) repose, et ce qui le borne.
-OA = m.OPTIONS_AUTEUR_COMPLETES
+# l'auteur (D86) repose, et ce qui le borne. Configuration au moment de D86.
+OA = m.OPTIONS_AVANT_D88
 isoles = dict((k, m.mesurer_applicabilite(par_cle(k), 200, **OA)) for k in ("S0", "S1", "S3"))
 exiger(all(r["graves"] == 0 and r["dette_def"] < 1e-6 and r["dette_pau"] < 1e-6 for r in isoles.values()),
        "DES CHOCS PASSAGERS ISOLÉS, sous les règles de l'auteur, ne laissent ni anomalie ni dette, "
@@ -935,6 +935,165 @@ exiger(delib[0] > 0 and delib[1] > 0 and sans_reeval == (0, 0) and sans_recyclag
        "TOUT REPOSE SUR L'AUTOMATICITÉ DES OBLIGATIONS DU CRÉANCIER : s'il délibère, %d dépassements "
        "et %d masses négatives en 80 périodes ; sans recyclage ni conversion, %d masses négatives ; "
        "la réévaluation, elle, n'est pas indispensable" % (delib[0], delib[1], sans_recyclage[1]))
+
+
+# =====================================================================
+print("")
+print("P. D87 — LA SORTIE DES DETTES DURABLES")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : qu'une règle de sortie soit juste, adoptée par
+# des créanciers, ou sans inflation. Elle verrouille les constats de la section de la
+# sortie, pour que l'auteur tranche sur eux et non sur une prose.
+ON = dict(OA, corridor_position_nette=True)
+jeux_p = dict((sc.cle, sc) for sc in m.SCENARIOS + m.scenarios_de_stress())
+QA_ = m.QUOTAS_AUTEUR
+
+
+def a_la_butee_debiteur(parite):
+    return parite <= 1 + m.BUTEE_AUTEUR + 1e-9 and parite * (1 + m.PAS_GLISSEMENT_AUTEUR) > 1 + m.BUTEE_AUTEUR
+
+
+s2_solde = m.mesurer_sortie(jeux_p["S2"], 200, **OA)
+s2_nette = m.mesurer_sortie(jeux_p["S2"], 200, **ON)
+fin_s2 = s2_solde["journal"][-50:]
+exiger(s2_solde["DEF"]["dette"] > 4 and s2_solde["DEF"]["parite"] < 1
+       and all(abs(p["solde"]["DEF"]) <= m.CORRIDOR * QA_["DEF"] for p in fin_s2)
+       and all(p["parite"]["DEF"] == fin_s2[0]["parite"]["DEF"] for p in fin_s2)
+       and s2_nette["DEF"]["dette"] < 0.5 and s2_nette["graves"] == 0,
+       "LE SIGNAL MASQUÉ : en S2, le recyclage garde le solde du déficitaire dans le corridor, sa "
+       "parité réévaluée (%.3f) ne bouge plus, et sa dette atteint %.2f quotas ; lue sur la position "
+       "nette, la révision la ramène à %.2f quota"
+       % (s2_solde["DEF"]["parite"], s2_solde["DEF"]["dette"], s2_nette["DEF"]["dette"]))
+
+e_pret = m.jouer_a_horizon(jeux_p["S2"], 200, **OA)[0]
+e_besoin, j_besoin, _ = m.jouer_a_horizon(jeux_p["S2"], 200, **dict(OA, recyclage_au_besoin=True))
+exiger(e_besoin.dette_creee["DEF"] < 0.6 * e_pret.dette_creee["DEF"]
+       and abs(j_besoin[-1]["dette"]["DEF"] / QA_["DEF"] - s2_solde["DEF"]["dette"]) < 0.1
+       and j_besoin[-1]["solde"]["DEF"] <= 1e-9,
+       "ce n'est pas l'excès de prêt : borné au besoin, le recyclage crée %.0f de dette au lieu de %.0f, "
+       "le débiteur ne repasse plus créditeur, et la dette restante ne change presque pas (%.2f quotas)"
+       % (e_besoin.dette_creee["DEF"], e_pret.dette_creee["DEF"], j_besoin[-1]["dette"]["DEF"] / QA_["DEF"]))
+
+nettes = dict((k, m.mesurer_sortie(sc, 200, **ON)) for k, sc in jeux_p.items())
+autres = sorted(k for k in nettes if k not in ("S4", "S2+S4"))
+s4_400 = m.mesurer_sortie(jeux_p["S4"], 400, **ON)
+exiger(len(autres) == 8
+       and all(nettes[k]["DEF"]["dette"] < 1 and nettes[k]["PAU"]["dette"] < 1 and nettes[k]["graves"] == 0
+               for k in autres)
+       and all(nettes[k]["DEF"]["dette"] > 9 and a_la_butee_debiteur(nettes[k]["DEF"]["parite"])
+               for k in ("S4", "S2+S4"))
+       and s4_400["DEF"]["dette"] > nettes["S4"]["DEF"]["dette"] + 5,
+       "SUR LA POSITION NETTE, sans règle de sortie, les dettes de huit jeux restent sous un quota ; "
+       "il reste la perte d'un débouché, parité à la butée : %.2f quotas à 200 périodes en S4, %.2f à 400"
+       % (nettes["S4"]["DEF"]["dette"], s4_400["DEF"]["dette"]))
+exiger(all(m.mesurer_sortie(jeux_p[k], 200, **OA)["journal"] == nettes[k]["journal"] for k in ("S0", "S1", "S3")),
+       "et les chocs passagers isolés sortent à l'identique à 200 périodes, quel que soit le signal lu")
+
+
+def regle_s4(libelle, horizon=200):
+    sortie = dict(m.REGLES_DE_SORTIE)[libelle]
+    return m.mesurer_sortie(jeux_p["S4"], horizon, **dict(ON, sortie_dettes=sortie))
+
+
+def dette_max(r):
+    return max(p["dette"]["DEF"] for p in r["journal"]) / QA_["DEF"]
+
+
+r0 = regle_s4("aucune")
+ra, ra120 = regle_s4("annulation au-delà du seuil"), regle_s4("annulation au-delà du seuil", 120)
+exiger(dette_max(ra) <= 1 + 1e-9 and ra["DEF"]["annulee"] > ra120["DEF"]["annulee"] + 3
+       and ra["DEF"]["importe"] == r0["DEF"]["importe"] and ra["DEF"]["exporte"] == r0["DEF"]["exporte"]
+       and ra["DEF"]["importe"] > 3 * ra["DEF"]["exporte"],
+       "L'ANNULATION SEULE borne la dette sans rien changer aux échanges : le créancier annule sans fin "
+       "(%.2f quotas à 120 périodes, %.2f à 200) un transfert réel qui continue"
+       % (ra120["DEF"]["annulee"], ra["DEF"]["annulee"]))
+rp = regle_s4("plafond du prêt au seuil")
+exiger(dette_max(rp) <= 1 + 1e-9 and abs(rp["DEF"]["importe"] - rp["DEF"]["exporte"]) < 0.5
+       and rp["DEF"]["importe"] < 0.3 * r0["DEF"]["importe"] and rp["codes"]["C6"] > 0 and rp["codes"]["C8"] > 0,
+       "LE PLAFOND SEUL comprime le débiteur jusqu'à ses recettes (importations %.1f contre %.1f) et rompt "
+       "le plafond dur (%d) et les masses (%d)"
+       % (rp["DEF"]["importe"], r0["DEF"]["importe"], rp["codes"]["C6"], rp["codes"]["C8"]))
+rr, rr120 = regle_s4("restriction de 30 %"), regle_s4("restriction de 30 %", 120)
+exiger(rr120["DEF"]["dette"] < rr["DEF"]["dette"] < r0["DEF"]["dette"] and rr["DEF"]["dette"] > 5,
+       "LA RESTRICTION ralentit la dette sans l'arrêter (%.2f quotas à 120 périodes, %.2f à 200)"
+       % (rr120["DEF"]["dette"], rr["DEF"]["dette"]))
+rb, rf = regle_s4("dévaluation, butée levée"), regle_s4("dévaluation jusqu'à l'équilibre")
+exiger(rb["DEF"]["parite"] > 2 * rf["DEF"]["parite"] and rb["DEF"]["solde"] > 0.99 and rb["parite_exc"] > 1,
+       "LA DÉVALUATION SANS BUTÉE dépasse de loin l'équilibre (parité %.2f contre %.2f), fait du débiteur "
+       "un excédentaire au plafond et entraîne le créancier (parité %.3f)"
+       % (rb["DEF"]["parite"], rf["DEF"]["parite"], rb["parite_exc"]))
+rf300, rf600 = regle_s4("dévaluation jusqu'à l'équilibre", 300), regle_s4("dévaluation jusqu'à l'équilibre", 600)
+exiger(rf["graves"] == 0 and rf600["graves"] == 0 and dette_max(rf600) < 2.5
+       and rf600["DEF"]["dette"] < dette_max(rf600) - 0.2
+       and rf["DEF"]["importe"] < 0.6 * r0["DEF"]["importe"] and rf["DEF"]["exporte"] > 1.5 * r0["DEF"]["exporte"],
+       "LA DÉVALUATION À L'ÉQUILIBRE contient la dette sans anomalie — au plus %.2f quotas, %.2f à 600 "
+       "périodes —, importations %.1f contre %.1f, exportations %.1f contre %.1f"
+       % (dette_max(rf600), rf600["DEF"]["dette"], rf["DEF"]["importe"], r0["DEF"]["importe"],
+          rf["DEF"]["exporte"], r0["DEF"]["exporte"]))
+rc300 = regle_s4("annulation + dévaluation à l'équilibre", 300)
+rc600 = regle_s4("annulation + dévaluation à l'équilibre", 600)
+exiger(dette_max(rc600) <= 1 + 1e-9 and rc600["graves"] == 0
+       and abs(rc600["DEF"]["annulee"] - rc300["DEF"]["annulee"]) < 1e-9 and rc600["DEF"]["annulee"] < 1.5,
+       "JOINTE À L'ANNULATION, elle borne aussi la perte du créancier : %.2f quota annulé à 300 périodes "
+       "comme à 600" % rc600["DEF"]["annulee"])
+identites = all(m.mesurer_sortie(jeux_p[k], 200, **dict(ON, sortie_dettes=s))["codes"][c] == 0
+                for k in ("S4", "S2+S4") for _, s in m.REGLES_DE_SORTIE for c in ("C1", "C3", "C5"))
+exiger(identites, "sous chaque règle de sortie, la somme des soldes et l'identité stock-flux tiennent, "
+                  "et rien d'essentiel n'est bloqué")
+
+
+def touches(seuil):
+    sortie = {"modes": ("annulation", "devaluation_flux"), "seuil": seuil}
+    return sorted(k for k, sc in jeux_p.items() if m.trajectoire_changee(sc, 200, sortie, **ON))
+
+
+t05, t1, t2 = touches(0.5), touches(1.0), touches(2.0)
+exiger(t1 == t2 == ["S2+S4", "S4"] and t05 == ["S2+S4", "S3r", "S4"],
+       "LE SEUIL : à un ou deux quotas, la combinaison ne touche que la perte d'un débouché (%s) ; au "
+       "demi-quota, elle atteint aussi les récoltes répétées (%s)" % (", ".join(t1), ", ".join(t05)))
+
+
+# =====================================================================
+print("")
+print("Q. A43 (3b) — LE JUGEMENT D'APPLICABILITÉ REJOUÉ APRÈS D88 À D90")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : que la dévaluation soit tenable sans inflation,
+# que des créanciers adoptent l'annulation, ni un calibrage. Elle verrouille ce que le
+# rejugement du verdict D86 aura sous les yeux.
+OC = m.OPTIONS_AUTEUR_COMPLETES
+exiger(OC == dict(m.OPTIONS_AVANT_D88, corridor_position_nette=True,
+                  sortie_dettes={"modes": ("annulation", "devaluation_flux"), "seuil": 1.0}),
+       "la configuration de l'auteur porte D88 à D90 : position nette lue, annulation et dévaluation "
+       "jusqu'à l'équilibre au-delà d'un quota de dette de recyclage")
+rejeu = dict(((k, h), m.mesurer_sortie(sc, h, **OC)) for k, sc in jeux_p.items() for h in (200, 400))
+
+
+def maxi_dette(r, c):
+    return max(p["dette"][c] for p in r["journal"]) / QA_[c]
+
+
+exiger(all(r["graves"] == 0 and maxi_dette(r, "DEF") <= 1 + 1e-9 and maxi_dette(r, "PAU") <= 1 + 1e-9
+           for r in rejeu.values()),
+       "SOUS LA CONFIGURATION COMPLÈTE, aucune anomalie dans les dix jeux à 200 et 400 périodes, et "
+       "aucune dette de recyclage au-delà d'un quota")
+s3r400 = rejeu[("S3r", 400)]
+exiger(rejeu[("S3r", 200)]["PAU"]["annulee"] == 0 and s3r400["PAU"]["annulee"] > 0
+       and s3r400["PAU"]["parite"] > 1 + m.BUTEE_AUTEUR,
+       "À 400 PÉRIODES, les récoltes répétées atteignent le seuil : le pays pauvre dévalue au-delà de la "
+       "butée (%.3f) et %.2f quota est annulé" % (s3r400["PAU"]["parite"], s3r400["PAU"]["annulee"]))
+exiger(all(m.anomalies_adoption(m.OPTIONS_AVANT_D88, x) == m.anomalies_adoption(OC, x)
+           for _, x in m.ADOPTIONS_DU_CREANCIER)
+       and m.anomalies_adoption(OC, {"symetrie_contraignante": False})[0] > 0
+       and m.anomalies_adoption(OC, {"sortie_dettes": {"modes": ("devaluation_flux",), "seuil": 1.0}}) == (0, 0),
+       "LA DÉPENDANCE AU CRÉANCIER NE CHANGE PAS : sous chaque refus, les mêmes anomalies qu'avant D88 ; "
+       "le refus d'annuler seul n'en crée aucune")
+s4_avant = m.mesurer_sortie(jeux_p["S4"], 200, **m.OPTIONS_AVANT_D88)["DEF"]
+s4_apres = rejeu[("S4", 200)]["DEF"]
+exiger(s4_apres["parite"] > 2 * (1 + m.BUTEE_AUTEUR) and s4_apres["importe"] < 0.6 * s4_avant["importe"]
+       and 0 < s4_apres["annulee"] < 1.5,
+       "LA SORTIE A UN PRIX : en S4, parité %.2f au lieu de %.2f, importations %.1f au lieu de %.1f, et %.2f "
+       "quota de créances annulé" % (s4_apres["parite"], s4_avant["parite"], s4_apres["importe"],
+                                      s4_avant["importe"], s4_apres["annulee"]))
 
 
 print("")

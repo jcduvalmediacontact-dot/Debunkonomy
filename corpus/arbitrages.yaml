@@ -235,14 +235,13 @@ arbitrages:
     tranche_par: auteur
     lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE, "EXCEDENT-DU-SYMPOSIUM", SORTIE-DES-DESEQUILIBRES-DURABLES]
     decision: >
-      ARBITRÉ LE 2026-09-09 ; (3) SCINDÉ LE 2026-09-16, JUGÉ LE 2026-09-17. (1)
+      ARBITRÉ LE 2026-09-09 ; (3) SCINDÉ LE 2026-09-16, JUGÉ LE 17. (1)
       FINANCEMENT CIBLÉ — pilotable sous fortes limites. (2) UNITÉ DE RÉSERVE
-      entre banques centrales — plausible, expérimentable. (3a) PARITÉS
-      STRICTEMENT FIXES — non applicable sans transferts permanents des
-      excédentaires. (3b) PARITÉS ADMINISTRÉES, en coalition, capitaux
-      réglementés — EXPÉRIMENTABLE pour des chocs passagers, NON APPLICABLE en
-      l'état aux déséquilibres durables (D86). Remplacement mondial non
-      applicable.
+      entre banques centrales — plausible, expérimentable. (3a) PARITÉS FIXES —
+      non applicable sans transferts permanents des excédentaires. (3b) PARITÉS
+      ADMINISTRÉES en coalition, capitaux réglementés — EXPÉRIMENTABLE : chocs
+      passagers (D86) ; déséquilibres durables sous conditions — inflation,
+      adhésion des créanciers (D91). Remplacement mondial non applicable.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31, L19.C10]
     maj: 2026-09-17
@@ -843,15 +842,16 @@ pieces_de_conception_manquantes:
 
   - id: SORTIE-DES-DESEQUILIBRES-DURABLES
     objet: "Sortie des dettes laissées par un déséquilibre durable — sixième condition d'A43 (3b)"
-    statut: ouvert
+    statut: arbitre
     tranche_par: auteur
     lie_a: [A43, PROCEDURE-STRUCTURELLE, COMPENSATION-SYMETRIQUE]
     decision: >
-      OUVERT PAR L'AUTEUR LE 2026-09-17 (D87). Sous ses règles, un déséquilibre
-      durable non résorbé devient une dette de recyclage sans fin : 9,4 quotas
-      en S4 à 200 périodes, rien de remboursé, aucune anomalie pour le
-      signaler. À INSTRUIRE : restructuration, annulation, restriction des
-      échanges, sortie de la coalition, ou limite assumée.
+      INSTRUIT ET TRANCHÉ PAR L'AUTEUR LE 2026-09-17 (D88 à D90). La révision
+      des parités lit la POSITION NETTE : le recyclage en prêt masquait la
+      dette. Au-delà d'un quota de dette de recyclage, la dette est ANNULÉE et
+      la parité du débiteur glisse sans butée jusqu'à l'équilibre de ses
+      échanges. Aucune anomalie dans dix jeux à 400 périodes ; en S4, parité 3,3
+      et 1,1 quota annulé. Inflation non représentée ; F6 se resserre.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26, L1.C31]
     maj: 2026-09-17

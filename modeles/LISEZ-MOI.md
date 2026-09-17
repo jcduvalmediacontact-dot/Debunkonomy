@@ -231,6 +231,18 @@ plus intenses. `comparer_applicabilite` cherche ce qui démentirait un verdict f
 horizon de 200 périodes, stress, créancier qui n'adopte pas ses obligations — et publie les
 dettes de recyclage, qu'AUCUN contrôle du modèle ne compte. Vérifiée par la section O.
 
+**LA SORTIE DES DETTES DURABLES, 2026-09-17 — D87 instruite, D88 à D90.**
+`jouer` reçoit `corridor_position_nette` (la révision lit le solde, moins les dettes de recyclage,
+plus les créances), `sortie_dettes` (au-delà d'un `seuil` en quotas du débiteur : `annulation`,
+`plafond`, `restriction`, `devaluation` sans butée, `devaluation_flux` jusqu'à l'équilibre des
+échanges) et `recyclage_au_besoin`, qui borne le prêt au solde négatif. `comparer_sortie_dettes`
+montre le signal masqué et mesure chaque règle ; `comparer_applicabilite_apres_sortie` rejoue
+le jugement sous `OPTIONS_AUTEUR_COMPLETES`, qui porte D88 à D90, et `OPTIONS_AVANT_D88` fige la
+configuration précédente. Vérifiées par les sections P et Q. L'INFLATION QU'IMPORTERAIT LA
+DÉVALUATION N'EST PAS REPRÉSENTÉE. Verdict de l'auteur (D91) : les déséquilibres durables
+deviennent expérimentables en coalition, sous deux conditions que le modèle ne remplit pas —
+mesurer cette inflation, obtenir l'adhésion des créanciers à l'annulation.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 
