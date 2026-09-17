@@ -199,15 +199,15 @@ arbitrages:
     objet: "Une part du soutien aux importations essentielles est-elle non remboursable"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR, PROCEDURE-STRUCTURELLE]
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR, PROCEDURE-STRUCTURELLE, EXCEDENT-DU-SYMPOSIUM, F1]
     decision: >
       ARBITRÉ LE 2026-09-09 : OUI. DEUX GUICHETS — facilité REMBOURSABLE pour
       un choc TEMPORAIRE, allocation NON REMBOURSABLE pour un besoin essentiel
       STRUCTUREL. MOTIF, sur choc structurel : la facilité seule sert 94 % des
       besoins, laisse 567 de contraction et 204 de dette ; les deux guichets
-      servent 100 %, 53 de contraction, aucune dette. QUI FINANCE : orienté le
-      2026-09-17 vers l'émission, sous la règle d'émission et le reflux, sans
-      prélèvement sur les soldes.
+      servent 100 %, 53 de contraction, aucune dette. QUI FINANCE (D75,
+      2026-09-17) : émission au besoin, découvert apuré par l'excédent du
+      reflux ; le besoin structurel, non apuré, est émission permanente (F1).
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
     maj: 2026-09-17
@@ -335,19 +335,20 @@ arbitrages:
     objet: "Ce que le Symposium fait de ce qu'il accumule"
     statut: oriente
     tranche_par: auteur
-    lie_a: ["A30", "A43"]
-    decision: "OUVERT puis ORIENTE LE 2026-09-15. Le reflux etant retenu et non annule (A2 bis), le Symposium percevra plus de reflux qu'il n'a emis. DEUX PARTS TRANCHEES : les moyens de fonctionnement viennent de ce reflux, sous dotation NON PROPORTIONNELLE a son rendement ; et le sort du solde est fixe par une FORMULE d'affectation publiee, votee par l'Assemblee des Communs et appliquee par le Conseil Monetaire Mondial (L1.C18). RESTE OUVERT : le CONTENU de la formule, dont depend le statut sans dette."
+    lie_a: ["A30", "A43", "A45"]
+    decision: "OUVERT puis ORIENTE LE 2026-09-15. Reflux retenu, non annule (A2 bis) : le Symposium percevra plus qu'il n'a emis. TRANCHE : fonctionnement sur ce reflux, dotation NON PROPORTIONNELLE au rendement ; sort du solde fixe par une FORMULE d'affectation publiee, votee par l'Assemblee des Communs, appliquee par le Conseil Monetaire Mondial (L1.C18). PREMIERE AFFECTATION, 2026-09-17 (D75) : apurer le decouvert des guichets d'A45. RESTE OUVERT : le reste de la formule, dont depend le statut sans dette."
     texte: protocoles/passe-2.md
     chapitres: ["L1.C18", "L1.C20", "L1.C21", "L1.C22"]
-    maj: 2026-09-15
+    maj: 2026-09-17
 falsifieurs:
   - id: F1
     objet: "La calibration"
     statut: ouvert
     tranche_par: non-tranche
-    decision: "Posé, non instruit."
+    lie_a: [A45]
+    decision: "Posé, non instruit. Compte depuis le 2026-09-17 l'émission permanente des guichets d'A45 sur besoin structurel (D75)."
     texte: protocoles/falsification.md
-    maj: 2026-09-08
+    maj: 2026-09-17
 
   - id: F2
     objet: "La métrologie"
@@ -793,13 +794,14 @@ pieces_de_conception_manquantes:
     tranche_par: auteur
     lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE]
     decision: >
-      RÉFÉRENCE ARRÊTÉE LE 2026-09-09, RÉVISÉE PAR L'AUTEUR LE 2026-09-17 :
+      RÉFÉRENCE DU 2026-09-09, RÉVISÉE PAR L'AUTEUR LE 2026-09-17 :
       comptes des banques centrales à l'institution, corridor des deux côtés,
       facilité, parités administrées. OBLIGATIONS DES EXCÉDENTAIRES
       AUTOMATIQUES, sans vote : réévaluation par la règle de l'auteur,
       recyclage au-delà du plafond EN PRÊT sans intérêt, remboursé sur les
-      excédents futurs. AUCUNE CHARGE SUR LES SOLDES. Le plafond est une
-      PROCÉDURE. Perte durable d'un débouché : PROCEDURE-STRUCTURELLE.
+      excédents futurs. AUCUNE CHARGE GRADUÉE SUR LES POSITIONS ; démurrage
+      maintenu (D76). Le plafond est une PROCÉDURE. Perte durable d'un
+      débouché : PROCEDURE-STRUCTURELLE.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
     maj: 2026-09-17

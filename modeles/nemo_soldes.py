@@ -89,6 +89,12 @@ PERSISTANCE_PARITE = 2
 # consacrée chaque période au remboursement. Déclarée, non calibrée.
 REMBOURSEMENT_PRET = 0.5
 
+# DÉCOUVERT DES GUICHETS APURÉ PAR LE REFLUX (D75, 2026-09-17). Le reflux du
+# Symposium N'EST PAS modélisé : aucun flux d'apurement n'est donc supposé dans la
+# configuration de l'auteur. La comparaison l'exprime en multiples du besoin moyen
+# des guichets, que le modèle calcule au lieu de le recevoir.
+MULTIPLES_REFLUX = (0.5, 1.0, 2.0, 4.0)
+
 # RÈGLE DE RÉVISION DE L'AUTEUR — A43 (3b), condition (1), arrêtée le 2026-09-16.
 # Deux repères DÉCLARÉS, non calibrés ; la durée d'une période reste abstraite.
 PAS_GLISSEMENT_AUTEUR = 0.025
@@ -200,6 +206,10 @@ class Etat(object):
         self.dette_creee = dict((c, 0.0) for c in CODES)
         self.rembourse_pret = dict((c, 0.0) for c in CODES)
         self.dette_annulee = dict((c, 0.0) for c in CODES)
+        # découvert de l'institution pour les guichets et la reconversion (D75)
+        self.verse_guichets = 0.0
+        self.decouvert = 0.0
+        self.apure = 0.0
         # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
@@ -227,7 +237,7 @@ OBLIGATIONS_CREANCIER = ("charge", "plafond", "parite")
 def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
           allocation_active=True, regle=None, obligations_creancier=None,
           delai_creancier=0, charge_debiteur=True, procedure_structurelle=None,
-          recyclage_pret=False):
+          recyclage_pret=False, reflux_apurement=None):
     """`symetrie_contraignante` reste l'interrupteur général des obligations de
     l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
     parmi la charge graduée, la procédure au plafond et la révision de sa
@@ -252,7 +262,14 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     solde) fait du recyclage un PRÊT sans intérêt : la dette est remboursée sur
     les soldes positifs futurs du débiteur, à raison de REMBOURSEMENT_PRET, et
     à la clôture d'une procédure structurelle la part qui correspond à la
-    perte de débouché reconnue pendant qu'elle était ouverte est annulée."""
+    perte de débouché reconnue pendant qu'elle était ouverte est annulée.
+
+    Tout ce que l'institution verse sans remboursement — allocations et
+    reconversion — est tenu dans un registre de DÉCOUVERT. `reflux_apurement`
+    (aucun par défaut) en apure cette quantité chaque période, au titre de
+    l'excédent du reflux du Symposium, que ce modèle ne représente pas. AUCUN
+    SOLDE N'EN EST AFFECTÉ, ni ceux des pays ni celui de l'institution : le
+    registre compte ce que le reflux aurait à retirer, il ne le retire pas."""
     e = Etat()
     journal, anomalies = [], []
     retenues = set(OBLIGATIONS_CREANCIER if obligations_creancier is None
@@ -450,6 +467,15 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                     e.solde[INST] -= verse
                     e.structurel[c] += verse
 
+        # --- DÉCOUVERT DES GUICHETS : émis au besoin, apuré par le reflux --
+        verse_t = sum(don.values())
+        e.verse_guichets += verse_t
+        e.decouvert += verse_t
+        if reflux_apurement:
+            apure_t = min(e.decouvert, reflux_apurement)
+            e.decouvert -= apure_t
+            e.apure += apure_t
+
         rembourse = dict((c, 0.0) for c in CODES)
         for c in CODES:
             restants = []
@@ -616,7 +642,8 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                         "bloque": dict(essentiel_bloque),
                         "recyclage": dict(recyclage), "recu": dict(recu),
                         "dette": dict((c, sum(v for (d, k), v in e.dette.items() if d == c))
-                                      for c in CODES)})
+                                      for c in CODES),
+                        "decouvert": e.decouvert})
 
     # --- (1) l'horizon couvre-t-il les maturités ? ----------------------
     for c in CODES:
@@ -1087,6 +1114,191 @@ def comparer_procedure_structurelle():
     print("      la suppose ou non, il ne la produit pas —, ni aucun calibrage.")
 
 
+def besoins_des_guichets(horizon, **options):
+    """Ce que l'institution verse SANS REMBOURSEMENT, période par période et par
+    scénario : allocations et reconversion. La facilité, qui se rembourse, n'y
+    entre pas."""
+    besoins = {}
+    for sc in SCENARIOS:
+        _, journal, _ = jouer_a_horizon(sc, horizon, **options)
+        besoins[sc.cle] = [sum(p["don"].values()) for p in journal]
+    return besoins
+
+
+def besoin_moyen(besoins):
+    """LE REPÈRE DU REFLUX : le besoin moyen par période, tous scénarios confondus.
+    Il est tiré des besoins eux-mêmes, faute de reflux modélisé."""
+    return (sum(sum(s) for s in besoins.values())
+            / float(sum(len(s) for s in besoins.values())))
+
+
+def mesurer_apurement(scenario, horizon, reflux, **options):
+    """Le découvert des guichets sous un flux d'apurement donné : pic, premier
+    versement, périodes entre le premier versement et le retour DÉFINITIF à zéro
+    — None s'il n'y revient pas dans l'horizon, 0 s'il ne passe jamais d'une
+    période à l'autre —, et ce qui reste à l'horizon."""
+    e, journal, _ = jouer_a_horizon(scenario, horizon,
+                                    **dict(options, reflux_apurement=reflux))
+    premier = next((p["t"] for p in journal if sum(p["don"].values()) > 1e-9), None)
+    positifs = [p["t"] for p in journal if p["decouvert"] > 1e-9]
+    if not positifs:
+        apure_en = 0
+    elif positifs[-1] == journal[-1]["t"]:
+        apure_en = None
+    else:
+        apure_en = positifs[-1] + 1 - premier + 1
+    return {"verse": e.verse_guichets, "allocations": sum(e.alloc.values()),
+            "reconversion": sum(e.structurel.values()), "premier": premier,
+            "pic": max(p["decouvert"] for p in journal), "apure_en": apure_en,
+            "reste": e.decouvert, "apure": e.apure}
+
+
+def calendrier_reflux_seul(besoin, flux):
+    """Si les guichets ne pouvaient verser que le reflux déjà reçu : ce qui
+    manquerait au moment du besoin sous ce flux, le flux constant minimal pour
+    que rien ne manque, et le fonds à constituer d'avance si le flux égale le
+    besoin moyen du scénario lui-même.
+
+    MESURE DE CALENDRIER SUR LA TRAJECTOIRE FINANCÉE. Ce n'est pas la simulation
+    d'un régime sans émission, où les versements manquants changeraient la
+    trajectoire elle-même."""
+    propre = sum(besoin) / float(len(besoin))
+    reserve = manque = cumul = flux_minimal = fonds = 0.0
+    for t, verse in enumerate(besoin, 1):
+        reserve += flux - verse
+        if reserve < 0:
+            manque -= reserve
+            reserve = 0.0
+        cumul += verse
+        flux_minimal = max(flux_minimal, cumul / t)
+        fonds = max(fonds, cumul - propre * t)
+    return {"manque": manque, "flux_minimal": flux_minimal, "flux_propre": propre,
+            "fonds_prealable": fonds}
+
+
+def mesurer_incidence_allocation(horizon, allocation_active, **options):
+    """S2, le choc structurel : où aboutit ce que l'allocation émet. Le même jeu
+    se joue avec et sans le guichet d'allocation."""
+    s2 = [x for x in SCENARIOS if x.cle == "S2"][0]
+    e, journal, anomalies = jouer_a_horizon(
+        s2, horizon, **dict(options, allocation_active=allocation_active))
+    voulu = e.essentiel_voulu["PAU"]
+
+    def depassements(c):
+        return [int(a.split("période ")[1].split(" ")[0]) for a in anomalies
+                if a.startswith("[C6]") and "le solde de %s " % c in a]
+    exc, pau = depassements("EXC"), depassements("PAU")
+    return {"essentiel": 100.0 * e.essentiel_recu["PAU"] / voulu if voulu else 100.0,
+            "contraction_pau": e.contraction["PAU"], "exportations_pau": e.production["PAU"],
+            "parite_pau": e.parite["PAU"], "plafond_pau": len(pau),
+            "solde_exc": e.solde["EXC"], "parite_exc": e.parite["EXC"],
+            "plafond_exc": len(exc), "premier_plafond_exc": exc[0] if exc else None,
+            "recycle_exc": sum(p["recyclage"]["EXC"] for p in journal),
+            "institution": e.solde[INST]}
+
+
+def comparer_financement_guichets():
+    """A43 (3b), CONDITION (4) : QUI FINANCE LES GUICHETS ET LA RECONVERSION.
+
+    L'auteur a choisi le découvert apuré (D75) : l'institution verse par émission
+    au moment du besoin, et l'excédent du reflux apure le découvert dans le
+    temps. Le reflux n'étant pas modélisé, la sortie n'en suppose aucun : elle en
+    fait varier la taille, montre pourquoi le reflux seul manque au moment des
+    chocs, et où aboutit ce que l'allocation émet.
+    """
+    horizon = 40
+    besoins = besoins_des_guichets(horizon, **OPTIONS_AUTEUR_COMPLETES)
+    repere = besoin_moyen(besoins)
+    print("")
+    print("  (1) CE QUE LES GUICHETS VERSENT SANS REMBOURSEMENT — %d périodes," % horizon)
+    print("      configuration complète de l'auteur")
+    print("  %-4s %12s %13s %8s %18s" % ("", "allocations", "reconversion", "total",
+                                         "premier versement"))
+    for sc in SCENARIOS:
+        r = mesurer_apurement(sc, horizon, None, **OPTIONS_AUTEUR_COMPLETES)
+        print("  %-4s %12.0f %13.0f %8.0f %18s" % (sc.cle, r["allocations"],
+                                                 r["reconversion"], r["verse"],
+                                                 "période %d" % r["premier"]))
+    print("  REPÈRE DU REFLUX : besoin moyen par période, tous scénarios, %.2f —" % repere)
+    print("  tiré des besoins eux-mêmes, et S2 en fait l'essentiel")
+    print("")
+    print("  (2) LE DÉCOUVERT APURÉ PAR LE REFLUX — CHOIX DE L'AUTEUR (D75)")
+    print("      pic du découvert, puis périodes du premier versement au retour à")
+    print("      zéro ; « reste » si le découvert n'est pas apuré dans l'horizon")
+    print("  %-14s" % "reflux" + "".join("%15s" % sc.cle for sc in SCENARIOS))
+    for k in MULTIPLES_REFLUX:
+        cellules = []
+        for sc in SCENARIOS:
+            r = mesurer_apurement(sc, horizon, k * repere, **OPTIONS_AUTEUR_COMPLETES)
+            if r["apure_en"] is None:
+                cellules.append("reste %6.0f" % r["reste"])
+            elif r["apure_en"] == 0:
+                cellules.append("sans report")
+            else:
+                cellules.append("%4.0f en %2d" % (r["pic"], r["apure_en"]))
+        print("  %-14s" % ("%.1f × %.1f" % (k, repere))
+              + "".join("%15s" % x for x in cellules))
+    print("")
+    print("  (3) POURQUOI PAS LE REFLUX SEUL — calendrier sur la trajectoire financée")
+    print("  %-4s %17s %20s %14s %22s" % ("", "manque au repère", "flux minimal, sans",
+                                          "flux propre", "fonds à constituer"))
+    print("  %-4s %17s %20s %14s %22s" % ("", "", "fonds préalable", "du scénario",
+                                          "au flux propre"))
+    for sc in SCENARIOS:
+        c = calendrier_reflux_seul(besoins[sc.cle], repere)
+        print("  %-4s %17.0f %20.1f %14.1f %22.0f"
+              % (sc.cle, c["manque"], c["flux_minimal"], c["flux_propre"],
+                 c["fonds_prealable"]))
+    print("")
+    print("  (4) OÙ ABOUTIT L'ÉMISSION — S2, avec et sans allocation, à %d et %d périodes"
+          % (horizon, 2 * horizon))
+    jeux = [(actif, h, mesurer_incidence_allocation(h, actif, **OPTIONS_AUTEUR_COMPLETES))
+            for h in (horizon, 2 * horizon) for actif in (False, True)]
+    print("      le pays pauvre")
+    print("  %-26s %10s %12s %12s %8s %11s" % ("", "essentiel", "contraction",
+                                               "exportations", "parité", "sous son"))
+    print("  %-26s %10s %12s %12s %8s %11s" % ("", "servi", "", "", "", "plancher"))
+    for actif, h, x in jeux:
+        print("  %-26s %9.0f %% %12.0f %12.0f %8.2f %11d"
+              % ("%s, %d" % ("facilité + allocation" if actif else "facilité seule", h),
+                 x["essentiel"], x["contraction_pau"], x["exportations_pau"],
+                 x["parite_pau"], x["plafond_pau"]))
+    print("      l'exportateur des biens essentiels, et l'institution")
+    print("  %-26s %10s %8s %13s %10s %12s" % ("", "solde EXC", "parité", "au-delà du",
+                                               "recyclé", "solde de"))
+    print("  %-26s %10s %8s %13s %10s %12s" % ("", "final", "EXC", "plafond, dès",
+                                               "par EXC", "l'institution"))
+    for actif, h, x in jeux:
+        print("  %-26s %10.0f %8.3f %13s %10.0f %12.0f"
+              % ("%s, %d" % ("facilité + allocation" if actif else "facilité seule", h),
+                 x["solde_exc"], x["parite_exc"],
+                 ("%d fois, %d" % (x["plafond_exc"], x["premier_plafond_exc"])
+                  if x["plafond_exc"] else "jamais"),
+                 x["recycle_exc"], x["institution"]))
+    print("      CE QUE LA SORTIE MONTRE. Sur un choc passager, le découvert se")
+    print("      résorbe, d'autant plus lentement que le reflux affecté est faible.")
+    print("      Sur un choc STRUCTUREL, il ne se résorbe que si le reflux dépasse")
+    print("      le flux du besoin lui-même : le reflux le financerait alors en")
+    print("      permanence, ce qui est la voie de L1.C19 § 2 ; en deçà, c'est une")
+    print("      ÉMISSION PERMANENTE, et elle se compte dans F1. Le reflux seul manque")
+    print("      au moment des chocs : il y faudrait un flux plusieurs fois le besoin")
+    print("      moyen, ou un fonds constitué d'avance.")
+    print("      ET L'ÉMISSION NE DISPARAÎT PAS. L'allocation sert tout l'essentiel du")
+    print("      pays pauvre et épargne sa monnaie, qui n'ajuste plus par le change ;")
+    print("      ce qu'elle émet aboutit chez l'exportateur des biens essentiels. Sa")
+    print("      réévaluation atteint la butée, le recyclage ne trouve d'abord aucun")
+    print("      destinataire, et son solde dépasse le plafond sans limite visible :")
+    print("      L'ÉMISSION PERMANENTE DEVIENT SON ACCUMULATION PERMANENTE. Sans")
+    print("      allocation, c'est le pays pauvre qui passe sous son plancher.")
+    print("      LE REGISTRE DU DÉCOUVERT N'EST PAS LE SOLDE DE L'INSTITUTION : dans les")
+    print("      comptes, ce solde a toujours pour contrepartie les soldes positifs des")
+    print("      pays. Apurer, c'est les réduire quelque part ; le modèle compte ce que")
+    print("      le reflux aurait à retirer, il ne le retire pas.")
+    print("      CE QU'ELLE NE MONTRE PAS : la taille du reflux — il n'est pas")
+    print("      modélisé —, qui le paie, l'effet du démurrage maintenu (D76) sur le")
+    print("      solde de l'excédentaire, l'inflation, ni aucun calibrage.")
+
+
 def mesurer_regle(regle):
     """Synthèse d'une règle sur les cinq scénarios : contraction du déficitaire
     et solde final de l'excédentaire cumulés de S0 à S3, parité du déficitaire
@@ -1242,6 +1454,12 @@ def main():
     print("A43 (3b), CONDITION (5) — LA PERTE DURABLE D'UN DÉBOUCHÉ")
     print("=" * 78)
     comparer_procedure_structurelle()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b), CONDITION (4) — QUI FINANCE LES GUICHETS ET LA RECONVERSION")
+    print("=" * 78)
+    comparer_financement_guichets()
     return 0
 
 

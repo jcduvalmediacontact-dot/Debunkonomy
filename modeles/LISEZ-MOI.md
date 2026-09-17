@@ -188,6 +188,16 @@ sur perte mesurée de débouché — restriction, reconversion, transfert, revue
 `OPTIONS_AUTEUR_COMPLETES` porte les choix de l'auteur, et `comparer_procedure_structurelle`
 publie leur effet, sans supposer la réussite de la reconversion, et leur prix.
 
+**QUI FINANCE LES GUICHETS, 2026-09-17 — condition (4) d'A43 (3b).**
+`jouer` tient un registre du DÉCOUVERT : ce que l'institution verse sans
+remboursement, et ce qu'un flux `reflux_apurement` en retire. Il ne change aucune
+trajectoire, et la section K du test le vérifie. Le reflux n'est pas modélisé :
+`comparer_financement_guichets` exprime son flux en multiples du besoin moyen des
+guichets, que le modèle calcule (`MULTIPLES_REFLUX`), publie ce que le reflux seul
+laisserait manquer au moment des chocs, et montre où aboutit l'émission en S2 —
+chez l'exportateur des biens essentiels. **Le registre n'est pas le solde de
+l'institution : il compte ce que le reflux aurait à retirer, il ne le retire pas.**
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 

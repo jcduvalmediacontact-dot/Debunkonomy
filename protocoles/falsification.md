@@ -141,6 +141,8 @@ n'est pas l'émission mais **l'émission nette du retrait budgétaire** qu'elle
 provoque chez ses bénéficiaires (P19, face budgétaire, P31). Un modèle qui
 calibrerait l'émission brute sur un périmètre indéterminé ne trancherait rien.
 
+**Resserrement — condition (4) d'A43 (3b), 2026-09-17.** L'auteur a arrêté qui finance les guichets de soutien aux importations essentielles (A45) et la reconversion d'un pays qui perd un débouché : l'institution verse par émission au moment du besoin, et l'excédent du reflux du Symposium apure le découvert dans le temps (D75). **Deux termes entrent ainsi dans F1.** D'une part, **le besoin structurel ne s'apure pas** tant que le reflux affecté reste sous le flux du besoin lui-même, soit 3,4 fois le besoin moyen des guichets dans le modèle de compensation : il est déclaré émission permanente, et se compte ici. D'autre part, **l'excédent du reflux reçoit une première affectation**, l'apurement des découverts passagers, qui s'ajoute aux moyens de fonctionnement du Symposium et pèse sur le volume de reflux que F1 doit trouver. Le modèle montre un troisième terme, que la condition d'échec ne nommait pas : **l'émission permanente aboutit chez l'exportateur des biens essentiels, dont le solde croît sans limite visible** (1073 à quarante périodes, 2862 à quatre-vingts). F1 doit donc compter, outre l'émission, les soldes créditeurs qu'elle laisse, et le modèle, sans prix endogènes, ne dit pas ce qu'ils deviennent. Texte : `protocoles/passe-2.md`, section du 2026-09-17 sur la condition (4).
+
 ## F2 — La métrologie
 
 **Condition d'échec :** que l'incertitude sur l'état écosystémique national

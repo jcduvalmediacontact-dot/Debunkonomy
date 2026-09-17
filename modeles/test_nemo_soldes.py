@@ -510,6 +510,103 @@ exiger(a60["dette"] > plaf["dette"] > prol["dette"]
        % (a60["dette"], plaf["dette"], prol["dette"], a60["annulee"], plaf["annulee"], prol["annulee"]))
 
 
+# =====================================================================
+print("")
+print("K. A43 (3b), CONDITION (4) — QUI FINANCE LES GUICHETS ET LA RECONVERSION")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : la taille du reflux. Il n'est pas modélisé,
+# et le repère est tiré des besoins eux-mêmes. Elle vérifie ce que le registre du
+# découvert compte, et que les conclusions publiées sont celles de la sortie.
+O = m.OPTIONS_AUTEUR_COMPLETES
+exiger(memes_trajectoires({}, {"reflux_apurement": 11.0}) == 0
+       and memes_trajectoires(dict(O), dict(O, reflux_apurement=40.0)) == 0,
+       "le registre du découvert ne change aucune trajectoire, avec ou sans apurement")
+
+pire, bouclage = 0.0, 0.0
+for s in m.SCENARIOS:
+    _, j, _ = m.jouer_a_horizon(s, 40, **O)
+    pire = max([pire] + [abs(p["decouvert"] + p["solde"][m.INST] + sum(p["fac"].values()))
+                         for p in j])
+    e, _, _ = m.jouer_a_horizon(s, 40, **dict(O, reflux_apurement=11.0))
+    bouclage = max(bouclage, abs(e.verse_guichets - e.decouvert - e.apure))
+exiger(pire < 1e-9 and bouclage < 1e-9,
+       "sans charge, le découvert égale à chaque période le solde négatif de "
+       "l'institution moins les facilités en cours ; et versé = découvert + apuré")
+
+BESOINS = m.besoins_des_guichets(40, **O)
+REPERE = m.besoin_moyen(BESOINS)
+def apurement(cle, multiple):
+    return m.mesurer_apurement(par_cle(cle), 40, multiple * REPERE, **O)
+au_repere = dict((k, apurement(k, 1.0)) for k in ("S0", "S1", "S2", "S3", "S4"))
+exiger(au_repere["S0"]["apure_en"] == 0
+       and all(au_repere[k]["apure_en"] is not None and au_repere[k]["pic"] > 0
+               for k in ("S1", "S3", "S4"))
+       and au_repere["S2"]["apure_en"] is None and au_repere["S2"]["reste"] > 0,
+       "au repère (%.2f), les chocs passagers sont apurés dans l'horizon — pics %.0f, "
+       "%.0f, %.0f en %s, %s, %s périodes — et le choc structurel ne l'est pas (reste %.0f)"
+       % (REPERE, au_repere["S1"]["pic"], au_repere["S3"]["pic"], au_repere["S4"]["pic"],
+          au_repere["S1"]["apure_en"], au_repere["S3"]["apure_en"], au_repere["S4"]["apure_en"],
+          au_repere["S2"]["reste"]))
+
+moitie = dict((k, apurement(k, 0.5)) for k in ("S1", "S3", "S4"))
+double = dict((k, apurement(k, 2.0)) for k in ("S1", "S3", "S4"))
+exiger(all(double[k]["apure_en"] < au_repere[k]["apure_en"] < moitie[k]["apure_en"]
+           for k in ("S1", "S3")) and moitie["S4"]["apure_en"] is None,
+       "moins le reflux est grand, plus le découvert dure ; à la moitié du repère, la "
+       "perte d'un débouché n'est plus apurée dans l'horizon (reste %.0f)"
+       % moitie["S4"]["reste"])
+s2_double, s2_quadruple = apurement("S2", 2.0), apurement("S2", 4.0)
+flux_s2 = m.calendrier_reflux_seul(BESOINS["S2"], REPERE)["flux_propre"]
+exiger(s2_double["apure_en"] is None and s2_quadruple["apure_en"] is not None
+       and 2.0 * REPERE < flux_s2 < 4.0 * REPERE,
+       "le choc structurel n'est apuré que si le reflux dépasse le flux de son propre "
+       "besoin (%.1f par période) : reste %.0f au double du repère, apuré au quadruple"
+       % (flux_s2, s2_double["reste"]))
+
+calendriers = dict((k, m.calendrier_reflux_seul(BESOINS[k], REPERE)) for k in BESOINS)
+exiger(all(calendriers[k]["manque"] > 0 for k in ("S1", "S3", "S4"))
+       and all(calendriers[k]["flux_minimal"] >= 3.0 * calendriers[k]["flux_propre"]
+               and calendriers[k]["fonds_prealable"] >= 0.5 * sum(BESOINS[k])
+               for k in ("S0", "S1", "S3", "S4")),
+       "LE REFLUX SEUL MANQUE AU MOMENT DES CHOCS : %.0f, %.0f et %.0f en S1, S3, S4 au "
+       "repère ; il faudrait un flux d'au moins trois fois le besoin moyen de chaque "
+       "scénario passager, ou un fonds d'avance de plus de la moitié du besoin total"
+       % (calendriers["S1"]["manque"], calendriers["S3"]["manque"], calendriers["S4"]["manque"]))
+
+sans40 = m.mesurer_incidence_allocation(40, False, **O)
+avec40 = m.mesurer_incidence_allocation(40, True, **O)
+sans80 = m.mesurer_incidence_allocation(80, False, **O)
+avec80 = m.mesurer_incidence_allocation(80, True, **O)
+exiger(avec40["essentiel"] > 99.99 > sans40["essentiel"]
+       and avec40["contraction_pau"] < sans40["contraction_pau"]
+       and abs(avec40["parite_pau"] - 1.0) < 1e-12 < sans40["parite_pau"] - 1.0
+       and avec40["exportations_pau"] < sans40["exportations_pau"],
+       "S2 : l'allocation sert tout l'essentiel et épargne la monnaie du pays pauvre "
+       "(contraction %.0f contre %.0f), qui n'ajuste plus par le change (parité %.2f "
+       "contre %.2f)" % (avec40["contraction_pau"], sans40["contraction_pau"],
+                          avec40["parite_pau"], sans40["parite_pau"]))
+a_la_butee = (avec40["parite_exc"] * (1.0 - m.PAS_GLISSEMENT_AUTEUR)
+              < 1.0 - m.BUTEE_AUTEUR <= avec40["parite_exc"])
+exiger(avec40["solde_exc"] > sans40["solde_exc"] and avec40["plafond_exc"] > 0
+       and avec40["recycle_exc"] == 0 and a_la_butee
+       and avec80["plafond_exc"] == 80 - avec40["premier_plafond_exc"] + 1
+       and avec80["solde_exc"] > 2.5 * m.QUOTA["EXC"] and sans80["plafond_exc"] == 0,
+       "L'ÉMISSION PERMANENTE DEVIENT L'ACCUMULATION PERMANENTE DE L'EXPORTATEUR : "
+       "solde %.0f contre %.0f à 40 périodes, %.0f à 80 ; plafond dépassé dès la période "
+       "%s puis à chaque période, réévaluation à la butée, recyclage sans destinataire à 40"
+       % (avec40["solde_exc"], sans40["solde_exc"], avec80["solde_exc"],
+          avec40["premier_plafond_exc"]))
+exiger(sans40["plafond_pau"] > 0 and avec40["plafond_pau"] == 0,
+       "sans allocation, c'est le pays pauvre qui passe sous son plancher (%d fois à 40 "
+       "périodes)" % sans40["plafond_pau"])
+
+e_s1, j_s1, _ = m.jouer_a_horizon(par_cle("S1"), 40, **dict(O, reflux_apurement=REPERE))
+exiger(j_s1[-1]["decouvert"] < 1e-9 and e_s1.solde[m.INST] < -100,
+       "LE REGISTRE N'EST PAS LE SOLDE : en S1, le découvert est apuré et l'institution "
+       "reste à %.0f — le modèle compte ce que le reflux aurait à retirer, il ne le "
+       "retire pas" % e_s1.solde[m.INST])
+
+
 print("")
 if ECHECS:
     print("ÉCHEC — le programme n'applique pas ses règles :")
