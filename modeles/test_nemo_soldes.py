@@ -418,6 +418,96 @@ exiger(auteur_c2["institution"] < excedents_seuls["institution"] < deux_cotes["i
        % (auteur_c2["institution"], excedents_seuls["institution"], deux_cotes["institution"]))
 exiger(abs(auteur_c2["essentiel_min"] - 100.0) < 1e-9,
        "et le pays pauvre reste servi en totalité sous la configuration de l'auteur")
+exiger(auteur_c2["masse_negative"] > 0,
+       "CORRECTION DU 2026-09-17 : sous cette même configuration, le drain extérieur "
+       "du déficitaire dépasse sa masse initiale en S4 (%d périodes) — « plus aucun "
+       "plafond dépassé » ne disait pas cela" % auteur_c2["masse_negative"])
+
+
+# =====================================================================
+print("")
+print("J. A43 (3b), CONDITION (5) — LA PERTE DURABLE D'UN DÉBOUCHÉ")
+# =====================================================================
+exiger(memes_trajectoires({}, {"procedure_structurelle": None, "recyclage_pret": False}) == 0,
+       "sans procédure et sans prêt explicites, le modèle est inchangé")
+
+r_def = m.mesurer_s4(m.PERIODES)
+r_c2 = m.mesurer_s4(m.PERIODES, **m.OPTIONS_AUTEUR)
+exiger(r_def["premiere_negative"] is not None and r_c2["premiere_negative"] == 13,
+       "le contrôle C8 signale la masse négative du déficitaire en S4 : période %s "
+       "par défaut, période %s sous les conditions (1) et (2) de l'auteur"
+       % (r_def["premiere_negative"], r_c2["premiere_negative"]))
+
+ouvertures = []
+for s in m.SCENARIOS:
+    e, _, _ = m.jouer(s, **m.OPTIONS_AUTEUR_COMPLETES)
+    ouvertures += [(s.cle, c) for c, v in e.procedure_ouverte.items() if v is not None]
+exiger(ouvertures == [("S4", "DEF")],
+       "la procédure ne s'ouvre qu'en S4, pour le déficitaire : un déficit persistant "
+       "sans débouché perdu n'ouvre rien (%s)" % ouvertures)
+
+sans_reussite = m.mesurer_s4(40, **m.OPTIONS_AUTEUR_COMPLETES)
+exiger(sans_reussite["masse_min"] > 0 and sans_reussite["negatifs"] == 0
+       and sans_reussite["identite"] == 0,
+       "réussite non supposée : le financement garde la masse du déficitaire positive "
+       "sur 40 périodes (minimum %.0f), et l'identité stock-flux tient avec le prêt"
+       % sans_reussite["masse_min"])
+exiger(abs(sans_reussite["creee"] - sans_reussite["remboursee"] - sans_reussite["annulee"]
+           - sans_reussite["dette"]) < 1e-6,
+       "la dette de recyclage se boucle : créée %.0f = remboursée %.0f + annulée %.0f "
+       "+ due %.0f" % (sans_reussite["creee"], sans_reussite["remboursee"],
+                       sans_reussite["annulee"], sans_reussite["dette"]))
+exiger(sans_reussite["close"] == sans_reussite["ouverte"] + m.PROCEDURE_AUTEUR["duree"]
+       and abs(sans_reussite["institution"] - m.mesurer_s4(60, **m.OPTIONS_AUTEUR_COMPLETES)["institution"]) < 1e-6,
+       "la procédure se clôt à l'échéance (période %s) et l'institution ne verse "
+       "qu'une fois : même coût à 40 et à 60 périodes (%.0f)"
+       % (sans_reussite["close"], sans_reussite["institution"]))
+
+def s4_avec_reussite(part, horizon=40):
+    proc = dict(m.PROCEDURE_AUTEUR, reconversion=dict(m.PROCEDURE_AUTEUR["reconversion"], part=part))
+    return m.mesurer_s4(horizon, **dict(m.OPTIONS_AUTEUR_COMPLETES, procedure_structurelle=proc))
+r0, r25, r50 = s4_avec_reussite(0.0), s4_avec_reussite(0.25), s4_avec_reussite(0.5)
+exiger(abs(r0["masse_min"] - r50["masse_min"]) < 1e-6 and r50["dette"] < r25["dette"] < r0["dette"],
+       "sous recyclage, la réussite de la reconversion ne change pas la monnaie du "
+       "déficitaire (%.0f dans tous les cas) : elle réduit sa dette (%.0f, %.0f, %.0f)"
+       % (r0["masse_min"], r0["dette"], r25["dette"], r50["dette"]))
+
+a60 = m.mesurer_s4(60, **m.OPTIONS_AUTEUR_COMPLETES)
+exiger(a60["dette"] > m.QUOTA["DEF"] and a60["annulee"] < 0.05 * a60["dette"],
+       "LE PRIX DU CHOIX DE L'AUTEUR : reconversion ratée, 60 périodes, la procédure "
+       "close laisse une dette de %.0f, au-delà du quota (%d) ; le créancier ne perd "
+       "que %.0f" % (a60["dette"], m.QUOTA["DEF"], a60["annulee"]))
+prol = m.mesurer_s4(60, **dict(m.OPTIONS_AUTEUR_COMPLETES,
+                               procedure_structurelle=dict(m.PROCEDURE_AUTEUR, revue="prolongation")))
+plaf = m.mesurer_s4(60, **dict(m.OPTIONS_AUTEUR_COMPLETES, procedure_structurelle=dict(
+    m.PROCEDURE_AUTEUR, revue="prolongation", plafond_annulation=float(m.QUOTA["DEF"]))))
+def rupture_puis_reprise(t, volumes, prix):
+    """Scénario réservé au test : le débouché se perd, puis revient en force.
+    C'est le seul qui fasse rembourser la dette de recyclage."""
+    if 4 <= t < 24:
+        volumes = dict(volumes)
+        volumes[("DEF", "EXC")] = 10
+    elif t >= 26:
+        volumes = dict(volumes)
+        volumes[("DEF", "EXC")] = 260
+    return volumes, prix
+
+reprise = m.Scenario("ST", "Rupture puis reprise", rupture_puis_reprise, "test du remboursement")
+e_rp, j_rp, a_rp = m.jouer_a_horizon(reprise, 50, **m.OPTIONS_AUTEUR_COMPLETES)
+exiger(e_rp.rembourse_pret["DEF"] > 0 and j_rp[-1]["dette"]["DEF"] < 1e-6
+       and not codes(a_rp, "[C5]")
+       and abs(e_rp.dette_creee["DEF"] - e_rp.rembourse_pret["DEF"]
+               - e_rp.dette_annulee["DEF"]) < 1e-6,
+       "le remboursement sur les excédents futurs circule sans rompre l'identité "
+       "stock-flux : créée %.0f = remboursée %.0f + annulée %.0f, plus rien de dû"
+       % (e_rp.dette_creee["DEF"], e_rp.rembourse_pret["DEF"], e_rp.dette_annulee["DEF"]))
+
+exiger(a60["dette"] > plaf["dette"] > prol["dette"]
+       and prol["annulee"] > plaf["annulee"] > a60["annulee"]
+       and abs(plaf["annulee"] - m.QUOTA["DEF"]) < 1e-6,
+       "le choix posé : la clôture charge le débiteur, la prolongation le créancier, et "
+       "le plafond partage au quota (dettes %.0f, %.0f, %.0f ; annulations %.0f, %.0f, %.0f)"
+       % (a60["dette"], plaf["dette"], prol["dette"], a60["annulee"], plaf["annulee"], prol["annulee"]))
 
 
 print("")

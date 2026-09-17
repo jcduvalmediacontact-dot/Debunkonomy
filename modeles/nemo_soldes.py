@@ -85,6 +85,10 @@ PERSISTANCE_STRUCTUREL = 5    # périodes de déficit essentiel avant allocation
 PAS_PARITE = 0.05
 PERSISTANCE_PARITE = 2
 
+# RECYCLAGE EN PRÊT (D72, 2026-09-17) : part du solde positif du débiteur
+# consacrée chaque période au remboursement. Déclarée, non calibrée.
+REMBOURSEMENT_PRET = 0.5
+
 # RÈGLE DE RÉVISION DE L'AUTEUR — A43 (3b), condition (1), arrêtée le 2026-09-16.
 # Deux repères DÉCLARÉS, non calibrés ; la durée d'une période reste abstraite.
 PAS_GLISSEMENT_AUTEUR = 0.025
@@ -184,6 +188,18 @@ class Etat(object):
         self.deficit_essentiel_persistant = dict((c, 0) for c in CODES)
         # périodes consécutives où l'excédentaire est au-delà du corridor
         self.attente_creancier = dict((c, 0) for c in CODES)
+        # procédure structurelle : périodes consécutives en débit au-delà du
+        # corridor, période d'ouverture (None si fermée), montants versés
+        self.debit_persistant = dict((c, 0) for c in CODES)
+        self.procedure_ouverte = dict((c, None) for c in CODES)
+        self.procedure_close = dict((c, None) for c in CODES)
+        self.structurel = dict((c, 0.0) for c in CODES)
+        self.perte_reconnue = dict((c, 0.0) for c in CODES)
+        # recyclage en PRÊT : dette par (débiteur, créancier), et ses mouvements
+        self.dette = {}
+        self.dette_creee = dict((c, 0.0) for c in CODES)
+        self.rembourse_pret = dict((c, 0.0) for c in CODES)
+        self.dette_annulee = dict((c, 0.0) for c in CODES)
         # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
@@ -210,14 +226,33 @@ OBLIGATIONS_CREANCIER = ("charge", "plafond", "parite")
 
 def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
           allocation_active=True, regle=None, obligations_creancier=None,
-          delai_creancier=0, charge_debiteur=True):
+          delai_creancier=0, charge_debiteur=True, procedure_structurelle=None,
+          recyclage_pret=False):
     """`symetrie_contraignante` reste l'interrupteur général des obligations de
     l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
     parmi la charge graduée, la procédure au plafond et la révision de sa
     parité (toutes par défaut). `delai_creancier` ne les applique qu'après ce
     nombre de périodes consécutives au-delà du corridor : c'est la délibération
     avant activation (aucune par défaut). `charge_debiteur` prélève ou non la
-    charge graduée sur les soldes débiteurs (oui par défaut, comme Keynes)."""
+    charge graduée sur les soldes débiteurs (oui par défaut, comme Keynes).
+
+    `procedure_structurelle` (aucune par défaut) est un dictionnaire. Elle
+    s'ouvre pour un pays resté `declencheur` périodes en débit au-delà du
+    corridor. Tant qu'elle est ouverte et le pays hors corridor, `restriction`
+    retire cette part de ses importations non essentielles. `reconversion`
+    — {"delai", "part", "financement"} — rend, `delai` périodes après
+    l'ouverture, cette `part` des exportations perdues, et verse pendant le
+    délai `financement` fois leur valeur. `transfert` verse chaque période la
+    valeur des exportations encore perdues. Les versements sont non
+    remboursables, portés par l'institution. `duree`, si elle est donnée, clôt
+    la procédure ce nombre de périodes après l'ouverture ; sans elle, elle ne
+    se clôt jamais.
+
+    `recyclage_pret` (non par défaut, le recyclage étant alors un transfert de
+    solde) fait du recyclage un PRÊT sans intérêt : la dette est remboursée sur
+    les soldes positifs futurs du débiteur, à raison de REMBOURSEMENT_PRET, et
+    à la clôture d'une procédure structurelle la part qui correspond à la
+    perte de débouché reconnue pendant qu'elle était ouverte est annulée."""
     e = Etat()
     journal, anomalies = [], []
     retenues = set(OBLIGATIONS_CREANCIER if obligations_creancier is None
@@ -234,6 +269,62 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     for t in range(1, PERIODES + 1):
         volumes, prix = scenario.choc(t, base, prix_base)
 
+        # --- PROCÉDURE STRUCTURELLE : ouverture, reconversion, perte --------
+        ps = procedure_structurelle
+        perte = dict((c, 0.0) for c in CODES)
+        if ps:
+            # part des exportations de base perdue à cette période, AVANT toute
+            # reconversion : un déficit persistant sans débouché perdu n'ouvre rien
+            base_exp = dict((c, sum(v for (a, b), v in base.items() if a == c))
+                            for c in CODES)
+            perdu = dict((c, sum(max(0.0, v - volumes.get((a, b), 0))
+                                 for (a, b), v in base.items() if a == c)) for c in CODES)
+            for c in CODES:
+                e.debit_persistant[c] = (e.debit_persistant[c] + 1
+                                         if e.solde[c] < -CORRIDOR * QUOTA[c] else 0)
+                part_perdue = perdu[c] / base_exp[c] if base_exp[c] else 0.0
+                if (e.procedure_ouverte[c] is None and e.debit_persistant[c]
+                        >= ps.get("declencheur", PERSISTANCE_STRUCTUREL)
+                        and part_perdue >= ps.get("perte_min", 0.0)):
+                    e.procedure_ouverte[c] = t
+                if (e.procedure_ouverte[c] is not None and e.procedure_close[c] is None
+                        and ps.get("duree") is not None
+                        and t >= e.procedure_ouverte[c] + ps["duree"]
+                        and (t - e.procedure_ouverte[c]) % ps["duree"] == 0):
+                    # REVUE : la part de la dette de recyclage qui correspond à la
+                    # perte reconnue depuis la revue précédente est annulée. Puis,
+                    # selon `revue` : « cloture » clôt à la première échéance ;
+                    # « prolongation » maintient la procédure tant que la perte
+                    # mesurée reste au-dessus du seuil.
+                    dues = dict((k, v) for k, v in e.dette.items() if k[0] == c and v > 0)
+                    total_du = sum(dues.values())
+                    annule = min(total_du, e.perte_reconnue[c])
+                    plafond = ps.get("plafond_annulation")
+                    if plafond is not None:
+                        annule = max(0.0, min(annule, plafond - e.dette_annulee[c]))
+                    for k, v in dues.items():
+                        e.dette[k] = v - annule * v / total_du
+                    e.dette_annulee[c] += annule
+                    e.perte_reconnue[c] = 0.0
+                    epuise = plafond is not None and e.dette_annulee[c] >= plafond - 1e-9
+                    if epuise or not (ps.get("revue", "cloture") == "prolongation"
+                                      and part_perdue >= ps.get("perte_min", 0.0)):
+                        # clôture ; si le plafond d'annulation est atteint, c'est un
+                        # CONSTAT D'ÉCHEC, et la suite n'est plus une question de règle
+                        e.procedure_close[c] = t
+            rec = ps.get("reconversion")
+            volumes = dict(volumes)
+            for (a, b), vol0 in base.items():
+                if e.procedure_ouverte[a] is None:
+                    continue
+                manque = max(0.0, vol0 - volumes.get((a, b), 0))
+                if manque and rec and t >= e.procedure_ouverte[a] + rec["delai"]:
+                    volumes[(a, b)] = volumes.get((a, b), 0) + rec["part"] * manque
+                perte[a] += max(0.0, vol0 - volumes.get((a, b), 0)) * PRIX_BASE
+            for c in CODES:
+                if e.procedure_ouverte[c] is not None and e.procedure_close[c] is None:
+                    e.perte_reconnue[c] += perte[c]
+
         # --- (4) LES ÉCHANGES RÉPONDENT À LA PARITÉ RELATIVE ------------
         desire = {}
         for (a, b), vol in volumes.items():
@@ -244,6 +335,12 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
             else:
                 ratio = e.parite[a] / e.parite[b]
                 desire[(a, b)] = vol * (ratio ** ELASTICITE)
+                if (ps and ps.get("restriction") and e.procedure_ouverte[b] is not None
+                        and e.procedure_close[b] is None
+                        and e.solde[b] < -CORRIDOR * QUOTA[b]):
+                    # restriction temporaire des importations non essentielles,
+                    # levée dès le retour dans le corridor
+                    desire[(a, b)] *= (1.0 - ps["restriction"])
 
         # --- capacité de paiement, et RATIONNEMENT ----------------------
         # Les postes ESSENTIELS sont servis les premiers : c'est la
@@ -336,6 +433,23 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                     e.fac[c] += montant
                     e.tirages[c].append((t, montant))
 
+        # --- PROCÉDURE STRUCTURELLE : versements non remboursables ----------
+        if ps:
+            rec = ps.get("reconversion")
+            for c in CODES:
+                if e.procedure_ouverte[c] is None:
+                    continue
+                verse = 0.0
+                if rec and t < e.procedure_ouverte[c] + rec["delai"]:
+                    verse += rec.get("financement", 0.0) * perte[c]
+                if ps.get("transfert") and e.procedure_close[c] is None:
+                    verse += perte[c]
+                if verse:
+                    don[c] += verse
+                    e.solde[c] += verse
+                    e.solde[INST] -= verse
+                    e.structurel[c] += verse
+
         rembourse = dict((c, 0.0) for c in CODES)
         for c in CODES:
             restants = []
@@ -390,11 +504,28 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                         e.solde[d] += part
                         recyclage[c] += part
                         recu[d] += part
+                        if recyclage_pret:
+                            e.dette[(d, c)] = e.dette.get((d, c), 0.0) + part
+                            e.dette_creee[d] += part
                 else:
                     # il verse l'excès à l'institution, sans retour
                     e.solde[c] -= exces
                     e.solde[INST] += exces
                     recyclage[c] += exces
+
+        # --- RECYCLAGE EN PRÊT : remboursement sur les soldes positifs -----
+        pret_net = dict((c, 0.0) for c in CODES)
+        if recyclage_pret:
+            for (d, c), du in sorted(e.dette.items()):
+                if du <= 1e-12 or e.solde[d] <= 0:
+                    continue
+                remb = min(du, REMBOURSEMENT_PRET * e.solde[d])
+                e.solde[d] -= remb
+                e.solde[c] += remb
+                e.dette[(d, c)] = du - remb
+                e.rembourse_pret[d] += remb
+                pret_net[d] -= remb
+                pret_net[c] += remb
 
         # --- parités administrées ---------------------------------------
         for c in CODES:
@@ -425,7 +556,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         # --- masses monétaires, et (2) L'IDENTITÉ ----------------------
         for c in CODES:
             flux_nemo = (net[c] + tirage[c] + don[c] - rembourse[c]
-                         - charge[c] + recu[c] - recyclage[c])
+                         - charge[c] + recu[c] - recyclage[c] + pret_net[c])
             variation = flux_nemo * e.parite[c]
             e.masse[c] += variation
             if variation < 0:
@@ -443,6 +574,14 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         if abs(total) > 1e-6:
             anomalies.append("[C1] période %d : somme des soldes %+.2f" % (t, total))
         for c in CODES:
+            if e.masse[c] < -1e-9:
+                # AJOUTÉ LE 2026-09-17 : ce contrôle manquait, et une conclusion
+                # publiée la veille sur S4 en dépendait
+                anomalies.append(
+                    "[C8] période %d : la masse monétaire de %s est négative (%.0f) "
+                    "— le drain extérieur cumulé dépasse sa masse initiale, et le "
+                    "modèle ne représente pas la création intérieure qui devrait le "
+                    "compenser" % (t, c, e.masse[c]))
             if e.fac[c] < -1e-9 or e.fac[c] > PLAFOND_FACILITE[c] + 1e-9:
                 anomalies.append("[C2] période %d : facilité de %s hors bornes"
                                  % (t, c))
@@ -461,7 +600,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
         # (2) IDENTITÉ STOCK-FLUX, vérifiée à chaque période et par pays.
         for c in CODES:
             attendu = (net[c] + tirage[c] + don[c] - rembourse[c] - charge[c]
-                       + recu[c] - recyclage[c]) * e.parite[c]
+                       + recu[c] - recyclage[c] + pret_net[c]) * e.parite[c]
             constate = e.masse[c] - (journal[-1]["masse"][c] if journal
                                      else 1000.0)
             if abs(attendu - constate) > 1e-6:
@@ -474,7 +613,10 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                         "fac": dict(e.fac), "alloc": dict(e.alloc),
                         "parite": dict(e.parite), "vol": dict(vol_vend),
                         "don": dict(don), "tirage": dict(tirage),
-                        "bloque": dict(essentiel_bloque)})
+                        "bloque": dict(essentiel_bloque),
+                        "recyclage": dict(recyclage), "recu": dict(recu),
+                        "dette": dict((c, sum(v for (d, k), v in e.dette.items() if d == c))
+                                      for c in CODES)})
 
     # --- (1) l'horizon couvre-t-il les maturités ? ----------------------
     for c in CODES:
@@ -773,7 +915,8 @@ def mesurer_configuration(**options):
     servies au pays pauvre."""
     r = {"contraction": 0.0, "contraction_s4": 0.0, "solde_exc": 0.0,
          "depass": 0, "charges_exc": 0.0, "charges_def": 0.0,
-         "allocations": 0.0, "institution": 0.0, "essentiel_min": 100.0}
+         "allocations": 0.0, "institution": 0.0, "essentiel_min": 100.0,
+         "masse_negative": 0}
     for sc in SCENARIOS:
         e, journal, anomalies = jouer(sc, **options)
         if sc.cle == "S4":
@@ -782,6 +925,7 @@ def mesurer_configuration(**options):
             r["contraction"] += e.contraction["DEF"]
             r["solde_exc"] += e.soldes_par_periode["EXC"][-1]
         r["depass"] += len([a for a in anomalies if a.startswith("[C6]")])
+        r["masse_negative"] += len([a for a in anomalies if a.startswith("[C8]")])
         r["charges_exc"] += e.charges["EXC"]
         r["charges_def"] += e.charges["DEF"]
         r["allocations"] += sum(e.alloc[c] for c in CODES)
@@ -819,8 +963,8 @@ def comparer_obligations():
         print("  %-26s %14.0f %13d" % (d, r["contraction"], r["depass"]))
     print("")
     print("  (3) CE QUE FONT LES CHARGES, obligations automatiques")
-    print("  %-34s %12s %8s %8s %12s" % ("", "contr.S0-S3", "S4", "dépass.",
-                                        "institution"))
+    print("  %-34s %12s %8s %8s %9s %12s" % ("", "contr.S0-S3", "S4", "dépass.",
+                                            "masse<0", "institution"))
     for libelle, opts in (
             ("charges des deux côtés", dict(base)),
             ("charges des seuls excédents", dict(base, charge_debiteur=False)),
@@ -828,9 +972,9 @@ def comparer_obligations():
             ("aucune charge, mais conversion", dict(OPTIONS_AUTEUR,
                                                     procedure="conversion"))):
         r = mesurer_configuration(**opts)
-        print("  %-34s %12.0f %8.0f %8d %12.0f" % (libelle, r["contraction"],
-                                                   r["contraction_s4"], r["depass"],
-                                                   r["institution"]))
+        print("  %-34s %12.0f %8.0f %8d %9d %12.0f" % (libelle, r["contraction"],
+                                                        r["contraction_s4"], r["depass"],
+                                                        r["masse_negative"], r["institution"]))
     print("      CE QUE LA SORTIE MONTRE. La réévaluation de l'excédentaire fait")
     print("      l'essentiel du soulagement du déficitaire ; la charge seule n'en")
     print("      apporte aucun. Chaque période d'attente avant activation en retire.")
@@ -841,6 +985,106 @@ def comparer_obligations():
     print("      PUBLIÉ : sans charge, l'institution ne perçoit rien, et le solde")
     print("      qu'elle cumule est le plus négatif — les allocations devront être")
     print("      financées par l'émission, sous la règle d'émission et le reflux.")
+    print("      CORRECTION DU 2026-09-17. « Plus aucun plafond n'est dépassé » en S4")
+    print("      ne disait pas que le drain extérieur du déficitaire y dépasse sa masse")
+    print("      initiale : la colonne « masse<0 » compte ces périodes, que le contrôle")
+    print("      C8 signale désormais. C'est l'objet de la condition (5).")
+
+
+# CONDITION (5) D'A43 (3b), ARRÊTÉE PAR L'AUTEUR LE 2026-09-17 (D72 à D74).
+# La procédure s'ouvre sur un déficit persistant ET une perte mesurée d'au moins
+# 30 % des exportations ; la reconversion est financée par l'émission, sans
+# remboursement, pendant quatre périodes ; sa réussite N'EST PAS supposée ; la
+# procédure se clôt à l'échéance, et la part de la dette de recyclage — un prêt —
+# qui correspond à la perte reconnue pendant l'ouverture est alors annulée.
+PROCEDURE_AUTEUR = {
+    "declencheur": 5,
+    "perte_min": 0.30,
+    "reconversion": {"delai": 4, "part": 0.0, "financement": 1.0},
+    "duree": 4,
+    "revue": "cloture",
+}
+OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AUTEUR, recyclage_pret=True,
+                                procedure_structurelle=PROCEDURE_AUTEUR)
+
+
+def jouer_a_horizon(scenario, horizon, **options):
+    """Joue un scénario sur un horizon donné, puis rend à PERIODES sa valeur."""
+    global PERIODES
+    garde = PERIODES
+    try:
+        PERIODES = horizon
+        return jouer(scenario, **options)
+    finally:
+        PERIODES = garde
+
+
+def mesurer_s4(horizon, **options):
+    """Ce que la perte durable d'un débouché fait au déficitaire, au créancier
+    et à l'institution, sur un horizon donné."""
+    s4 = [x for x in SCENARIOS if x.cle == "S4"][0]
+    e, journal, anomalies = jouer_a_horizon(s4, horizon, **options)
+    negatifs = [a for a in anomalies if a.startswith("[C8]")]
+    premiere = int(negatifs[0].split("période ")[1].split(" ")[0]) if negatifs else None
+    return {"masse_min": min(p["masse"]["DEF"] for p in journal),
+            "premiere_negative": premiere, "negatifs": len(negatifs),
+            "recycle": sum(p["recyclage"]["EXC"] for p in journal),
+            "dette": journal[-1]["dette"]["DEF"], "annulee": e.dette_annulee["DEF"],
+            "creee": e.dette_creee["DEF"], "remboursee": e.rembourse_pret["DEF"],
+            "institution": e.solde[INST], "exportations": e.production["DEF"],
+            "ouverte": e.procedure_ouverte["DEF"], "close": e.procedure_close["DEF"],
+            "identite": len([a for a in anomalies if a.startswith("[C5]")])}
+
+
+def comparer_procedure_structurelle():
+    """A43 (3b), CONDITION (5) : LA PERTE DURABLE D'UN DÉBOUCHÉ.
+
+    La sortie publie d'abord la correction qui a ouvert ce chantier, puis la
+    procédure de l'auteur sans supposer la réussite de la reconversion, puis le
+    choix de revue qui lui a été posé, et le prix de celui qu'il a retenu.
+    """
+    print("")
+    print("  (1) LA CORRECTION : SANS PROCÉDURE, LE DRAIN DÉPASSE LA MASSE INITIALE")
+    for libelle, opts in (("défaut du modèle", {}),
+                          ("configuration de l'auteur, conditions (1) et (2)",
+                           dict(OPTIONS_AUTEUR))):
+        r = mesurer_s4(PERIODES, **opts)
+        print("  %-52s masse minimale %6.0f, négative dès la période %s"
+              % (libelle, r["masse_min"], r["premiere_negative"]))
+    print("")
+    print("  (2) LA PROCÉDURE DE L'AUTEUR — réussite de la reconversion NON supposée,")
+    print("      puis jouée à 25 % et 50 % ; recyclage en prêt ; clôture à l'échéance")
+    print("  %-9s %-8s %9s %9s %9s %9s %11s %s" % ("réussite", "horizon", "masse min",
+                                              "recyclé", "dette", "annulée",
+                                              "institution", "ouverte→close"))
+    for part in (0.0, 0.25, 0.5):
+        proc = dict(PROCEDURE_AUTEUR,
+                    reconversion=dict(PROCEDURE_AUTEUR["reconversion"], part=part))
+        for h in (40, 60):
+            r = mesurer_s4(h, **dict(OPTIONS_AUTEUR_COMPLETES, procedure_structurelle=proc))
+            print("  %-9s %-8d %9.0f %9.0f %9.0f %9.0f %11.0f %s→%s"
+                  % ("%d %%" % (100 * part), h, r["masse_min"], r["recycle"], r["dette"],
+                     r["annulee"], r["institution"], r["ouverte"], r["close"]))
+    print("")
+    print("  (3) LA RÈGLE DE REVUE, reconversion ratée, 60 périodes — le choix posé")
+    for libelle, extra in (("clôture à l'échéance — CHOIX DE L'AUTEUR", {}),
+                           ("prolongation", {"revue": "prolongation"}),
+                           ("prolongation, annulation plafonnée au quota",
+                            {"revue": "prolongation",
+                             "plafond_annulation": float(QUOTA["DEF"])})):
+        r = mesurer_s4(60, **dict(OPTIONS_AUTEUR_COMPLETES,
+                                  procedure_structurelle=dict(PROCEDURE_AUTEUR, **extra)))
+        print("  %-46s le déficitaire doit %6.0f, le créancier perd %6.0f"
+              % (libelle, r["dette"], r["annulee"]))
+    print("      CE QUE LA SORTIE MONTRE. Le financement de la reconversion garde la")
+    print("      masse du déficitaire positive, que la reconversion réussisse ou non.")
+    print("      Sous recyclage, la reconversion ne change pas sa monnaie : elle")
+    print("      réduit ce que le créancier doit lui recycler, donc sa dette. ET LE")
+    print("      PRIX DU CHOIX DE L'AUTEUR EST PUBLIÉ : si la reconversion échoue, la")
+    print("      procédure close laisse au déficitaire une dette de recyclage qui")
+    print("      dépasse son quota, et la suite n'est écrite nulle part.")
+    print("      CE QU'ELLE NE MONTRE PAS : la réussite d'une reconversion — le modèle")
+    print("      la suppose ou non, il ne la produit pas —, ni aucun calibrage.")
 
 
 def mesurer_regle(regle):
@@ -992,6 +1236,12 @@ def main():
     print("A43 (3b), CONDITION (2) — LES OBLIGATIONS DES EXCÉDENTAIRES")
     print("=" * 78)
     comparer_obligations()
+
+    print("")
+    print("=" * 78)
+    print("A43 (3b), CONDITION (5) — LA PERTE DURABLE D'UN DÉBOUCHÉ")
+    print("=" * 78)
+    comparer_procedure_structurelle()
     return 0
 
 

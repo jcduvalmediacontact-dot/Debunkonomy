@@ -7264,3 +7264,48 @@ qualification appartiennent à l'auteur, au sens du § 11 de la convention.
 **L'AUTOMATICITÉ RÈGLE L'APPLICATION, PAS L'ADOPTION.** Keynes, l'Union européenne des paiements et la procédure européenne ont échoué sur l'application : discrétion, mollesse, non-activation. Une obligation exécutée dans les comptes ne dépend plus d'aucune décision. **Mais le créancier doit l'accepter en adhérant, et ce qu'on lui demande d'accepter d'avance est exactement ce qu'il gardait à sa décision en 1943 : la réévaluation.** F6 n'est pas levé ; le combat est déplacé à l'adhésion.
 
 **Rien n'est calibré**, le modèle n'a ni prix ni anticipations, et les conditions (3) — seuils du plafond —, (4) — financement, désormais par l'émission — et (5) — procédure structurelle — restent ouvertes. **L'applicabilité de (3b) reste non jugée.**
+
+
+## A43 (3b), CONDITION (5) — LA PERTE DURABLE D'UN DÉBOUCHÉ, ET UNE CORRECTION, 2026-09-17
+
+### LA CORRECTION, D'ABORD, PARCE QU'ELLE PORTE SUR UNE CONCLUSION PUBLIÉE LE MÊME JOUR
+
+La section sur la condition (2) écrit qu'en S4, sans aucune charge, « plus aucun plafond n'est dépassé ». **C'était exact et trompeur.** Le modèle ne contrôlait pas qu'une masse monétaire nationale reste positive. **En S4, le drain extérieur du déficitaire dépasse toute sa masse initiale dès la période 13 sous la configuration de l'auteur, dès la période 12 par défaut** ; sa masse minimale est de −36 dans le premier cas, −631 dans le second. Le contrôle C8 est ajouté ; rejoué sur les configurations déjà publiées, il se déclenche 90 fois. **La comparaison entre configurations tient — celle de l'auteur reste la moins mauvaise —, mais la phrase sur S4 ne disait pas ce qui comptait.** Le modèle ne représente pas la création monétaire intérieure : il ne dit pas que l'économie s'effondre, il dit que la banque centrale devrait recréer l'équivalent de toute sa masse de départ, ce qui, sous l'autonomie monétaire d'A32, reporte le problème sur l'inflation ou le change.
+
+### TROIS DÉCISIONS DE L'AUTEUR
+
+**(D72) LE RECYCLAGE EST UN PRÊT.** Le modèle écrivait « il prête » et comptabilisait un don : **sans procédure, en S4, l'excédentaire aurait cédé 1472 en quarante périodes, sans contrepartie — une union de transferts implicite dans la solution de référence.** Désormais, le recyclage est un prêt sans intérêt, remboursé sur les soldes positifs futurs du débiteur ; la part qui correspond à une perte de débouché reconnue par la procédure structurelle est annulée à sa clôture.
+
+**(D73) LA PROCÉDURE STRUCTURELLE EST UNE RECONVERSION FINANCÉE.** Elle s'ouvre sur un déficit persistant **et** une perte mesurée d'au moins 30 % des exportations ; la reconversion est financée par l'émission, sans remboursement, pendant quatre périodes ; **sa réussite n'est pas supposée**.
+
+**(D74) LA PROCÉDURE SE CLÔT À L'ÉCHÉANCE.** Trois règles de revue ont été posées ; l'auteur n'a pas retenu la recommandation — prolonger en plafonnant l'annulation au quota — et a choisi la clôture. **Le prix est publié plus bas, avec l'effet.**
+
+### CE QUE MONTRE LE MODÈLE
+
+`python modeles/nemo_soldes.py`, section finale `comparer_procedure_structurelle`, vérifiée par la section J de `modeles/test_nemo_soldes.py`. Les paramètres ajoutés reproduisent le modèle à l'identique quand ils restent par défaut, contrôle fait contre la version commitée sur cinquante jeux, le contrôle C8 excepté.
+
+**(1) UN DÉFICIT PERSISTANT NE SUFFIT PAS À OUVRIR LA PROCÉDURE.** Sur la seule persistance, elle s'ouvrait aussi en S0, S1, S2 et S3, où aucun débouché n'est perdu. **Avec la condition de perte mesurée, elle ne s'ouvre qu'en S4, pour le déficitaire.**
+
+**(2) LA RESTRICTION SEULE NE SUFFIT PAS ET REPORTE LA PERTE.** À 30 % des importations non essentielles, sur quarante périodes, la masse du déficitaire tombe encore à −20, et le créancier recycle 872.
+
+**(3) LE FINANCEMENT DE LA RECONVERSION GARDE LA MASSE POSITIVE, QUE LA RECONVERSION RÉUSSISSE OU NON** : minimum 217 sur quarante périodes, 181 sur soixante, pour un seul versement de l'institution (−296). **Sous recyclage, la réussite ne change pas la monnaie du déficitaire ; elle réduit ce que le créancier doit lui recycler**, donc sa dette : 1451, 804 et 156 à quarante périodes pour une réussite de 0, 25 et 50 %.
+
+**(4) LE TRANSFERT PERMANENT A ÉTÉ MESURÉ ET ÉCARTÉ.** À quarante périodes, il coûte −1916 à l'institution, et l'excédentaire dépasse son plafond 15 fois : **le transfert, dépensé en importations, devient l'excédent du créancier.**
+
+**(5) LA RÈGLE DE REVUE DÉCIDE QUI PORTE L'ÉCHEC DE LA RECONVERSION.** Reconversion ratée, soixante périodes : **clôture à l'échéance — le choix de l'auteur —, le déficitaire doit 2500 et le créancier perd 20** ; prolongation, 157 et 2363 ; prolongation plafonnée au quota, 1521 et 1000.
+
+**LE PRIX DU CHOIX DE L'AUTEUR.** La dette de recyclage naît surtout après la clôture, quand le créancier atteint son plafond : à la clôture, elle n'était que de 20. **Si la reconversion échoue, la procédure close laisse au déficitaire une dette qui dépasse son quota — 1451 à quarante périodes, 2500 à soixante —, remboursable sur des excédents qui ne viendront pas. La suite — restructuration, sortie, limite assumée — n'est écrite nulle part.**
+
+### CE QUE DISENT LES PIÈCES
+
+**L'ARTICLE XII DU GATT** — `2026-09-17/condition-5/gatt47.html`, SHA-256 65DA0433E978F487B1EDCE0AE5C8CAF8DE552B1A87535455EF3B0EFD5DCD7271. La restriction pour motif de balance des paiements existe en droit : « any contracting party, in order to safeguard its external financial position and its balance of payments, may restrict the quantity or value of merchandise permitted to be imported » ; et elle est temporaire par construction : « shall progressively relax them as such conditions improve, maintaining them only to the extent that the conditions specified in that sub-paragraph still justify their application ».
+
+**L'UNION EUROPÉENNE DES PAIEMENTS, 1950-1951** — Schmieding 1992, `2026-09-16/uep/schmieding-1992-no-need-monetary-halfway-house-epu-kiel.pdf`. Face à la crise allemande : « the EPU granted West Germany a conditional balance-of-payments credit which was explicitly linked to a programme of monetary and fiscal restriction » (page PDF 11) ; et « When West Germany temporarily suspended its previous relaxation of import quotas in February 1951, the OEEC approved this measure so that no OEEC member could legally retaliate against West German exports. » (page PDF 11). **C'était une crise d'importations passagère, non la perte durable d'un débouché** : le précédent vaut pour la procédure, non pour son résultat.
+
+**LE FONDS EUROPÉEN D'AJUSTEMENT À LA MONDIALISATION** — règlement (UE) 2021/691, `2026-09-17/condition-5/32021R0691.pdf`, SHA-256 8DAC305DAC913B2100F7EF9D3F00338797EE1A9F66F983EB31EAC764298A07A2. Il vise bien les chocs commerciaux, « offering assistance in the case of major restructuring events, in particular those caused by challenges related to globalisation, such as changes in world trade patterns » (page PDF 9), mais à l'échelle des travailleurs licenciés, et « The EGF shall constitute an emergency fund that operates reactively. » (page PDF 9). **Il ne rééquilibre pas la balance d'un pays.**
+
+**LA LENTEUR DE L'AJUSTEMENT** — Autor, Dorn et Hanson, NBER Working Paper 21906, 2016, `2026-09-17/condition-5/adh-2016-china-shock-nber-w21906.pdf`, SHA-256 04492DB87192933DB4BFD3F469898B7AD05908856121F9777D44DB5461385085 : « Adjustment in local labor markets is remarkably slow, with wages and labor-force participation rates remaining depressed and unemployment rates remaining elevated for at least a full decade after the China trade shock commences. » (page PDF 2) **La réussite d'une reconversion en quatre périodes, que le modèle sait jouer, est donc une hypothèse optimiste ; c'est pourquoi l'auteur ne la suppose pas.**
+
+### CE QUI RESTE OUVERT
+
+La suite d'une procédure close sur un échec ; les seuils du plafond, condition (3) ; le financement par l'émission, condition (4), sous F1. **Le remboursement de la dette de recyclage n'est exercé par aucun des cinq scénarios** : il est vérifié par un scénario propre au test, où le débouché se perd puis revient. **L'applicabilité de (3b) reste non jugée.**

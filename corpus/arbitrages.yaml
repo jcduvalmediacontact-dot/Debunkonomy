@@ -199,7 +199,7 @@ arbitrages:
     objet: "Une part du soutien aux importations essentielles est-elle non remboursable"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR]
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, CORRECTION-D-ERREUR, PROCEDURE-STRUCTURELLE]
     decision: >
       ARBITRÉ LE 2026-09-09 : OUI. DEUX GUICHETS — facilité REMBOURSABLE pour
       un choc TEMPORAIRE, allocation NON REMBOURSABLE pour un besoin essentiel
@@ -233,7 +233,7 @@ arbitrages:
     objet: "Les trois composantes réunies sous le nom NEMO IMS"
     statut: arbitre
     tranche_par: auteur
-    lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, "EXCEDENT-DU-SYMPOSIUM"]
+    lie_a: [A32, A37, A44, A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE, "EXCEDENT-DU-SYMPOSIUM"]
     decision: >
       ARBITRÉ LE 2026-09-09 ; POINT (3) SCINDÉ PAR L'AUTEUR LE 2026-09-16. (1)
       FINANCEMENT CIBLÉ — pilotable sous fortes limites. (2) UNITÉ DE RÉSERVE
@@ -791,17 +791,34 @@ pieces_de_conception_manquantes:
     objet: "Traitement des déséquilibres courants persistants"
     statut: oriente
     tranche_par: auteur
-    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45]
+    lie_a: [A43, CONTROLE-DES-CAPITAUX, A45, PROCEDURE-STRUCTURELLE]
     decision: >
       RÉFÉRENCE ARRÊTÉE LE 2026-09-09, RÉVISÉE PAR L'AUTEUR LE 2026-09-17 :
       comptes des banques centrales à l'institution, corridor des deux côtés,
       facilité, parités administrées. OBLIGATIONS DES EXCÉDENTAIRES
       AUTOMATIQUES, sans vote : réévaluation par la règle de l'auteur,
-      recyclage au-delà du plafond. AUCUNE CHARGE SUR LES SOLDES. Modèle,
-      version 2 : le corridor borne ; le plafond est une PROCÉDURE ; le
-      soutien essentiel structurel exige un second guichet.
+      recyclage au-delà du plafond EN PRÊT sans intérêt, remboursé sur les
+      excédents futurs. AUCUNE CHARGE SUR LES SOLDES. Le plafond est une
+      PROCÉDURE. Perte durable d'un débouché : PROCEDURE-STRUCTURELLE.
     texte: protocoles/passe-2.md
     chapitres: [L1.C25, L1.C26]
+    maj: 2026-09-17
+
+  - id: PROCEDURE-STRUCTURELLE
+    objet: "Perte durable d'un débouché — condition (5) d'A43 (3b)"
+    statut: arbitre
+    tranche_par: auteur
+    lie_a: [A43, COMPENSATION-SYMETRIQUE, A45]
+    decision: >
+      ARBITRÉE PAR L'AUTEUR LE 2026-09-17. Ouverte sur déficit persistant ET
+      perte mesurée d'au moins 30 % des exportations. Reconversion financée
+      par l'émission, non remboursable, quatre périodes ; réussite NON
+      supposée. Clôture à l'échéance : la dette de recyclage qui correspond à
+      la perte reconnue pendant l'ouverture est annulée, le reste est dû. PRIX
+      PUBLIÉ : si la reconversion échoue, la dette du déficitaire dépasse son
+      quota, et la suite n'est pas écrite.
+    texte: protocoles/passe-2.md
+    chapitres: [L1.C26]
     maj: 2026-09-17
 
   - id: CONTROLE-DES-CAPITAUX

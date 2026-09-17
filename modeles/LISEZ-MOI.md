@@ -180,6 +180,14 @@ change. `OPTIONS_AUTEUR` porte les choix de l'auteur : obligations automatiques
 par réévaluation et recyclage, aucune charge. `comparer_obligations` publie leur
 effet ET leur prix — l'institution ne perçoit plus rien —, vérifiés par la section I.
 
+**PERTE DURABLE D'UN DÉBOUCHÉ, 2026-09-17 — condition (5) d'A43 (3b).**
+Le contrôle C8 signale désormais une masse monétaire négative : il manquait, et une
+conclusion publiée sur S4 en dépendait. `recyclage_pret` fait du recyclage un prêt,
+avec remboursement et annulation ; `procedure_structurelle` ouvre une procédure
+sur perte mesurée de débouché — restriction, reconversion, transfert, revue.
+`OPTIONS_AUTEUR_COMPLETES` porte les choix de l'auteur, et `comparer_procedure_structurelle`
+publie leur effet, sans supposer la réussite de la reconversion, et leur prix.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 
