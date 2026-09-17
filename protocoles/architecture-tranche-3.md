@@ -129,3 +129,16 @@ Exposer une branche sans préférence quand l'objet est ouvert (index des décis
 ## 5. Ce que ce document ne vérifie pas
 
 Il ne vérifie aucune source externe, et n'en ouvre aucune. Il ne vérifie pas que les réécritures tiendront à l'audit tiers, obligatoire pour ces chapitres de conception. Il ne tranche aucun objet ouvert ; il ne dit pas que les arbitrages sont justes, seulement ce qu'ils commandent. Les énoncés K et C sont relus par échantillon. Et la vérification de conformité des brouillons au registre vaut pour l'état du dépôt au commit `07688307`.
+
+---
+
+## 6. État d'application au 2026-09-17
+
+**Tranchées par l'auteur, sur la voie recommandée : D92, D93, D94 et D101.** Texte : `protocoles/passe-2.md`, section du 2026-09-17 sur les quatre décisions de la tranche 3.
+
+- **D92** — la forme de l'unité est exposée en trois branches dans les réécritures ; la fiche de spécification de l'unité devient le prochain chantier du passif.
+- **D93** — L1.C27 expose le canal régénératif sans trancher.
+- **D94** — « retrait de la circulation » ; **appliquée au vocabulaire** (`reflux_monetaire`). Deux harmonisations relevées et soumises à l'auteur : la phrase de L1.C08, chapitre vérifié, et le mot « extinction » de `reflux_collectif`.
+- **D101** — **appliquée** : le dossier d'audit tiers de L1.C25 est régénéré sur l'état actuel, S9 ouverte ; il peut être soumis.
+
+**En attente : D95 à D100, D102 à D107.**

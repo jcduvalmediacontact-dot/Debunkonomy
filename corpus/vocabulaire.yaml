@@ -142,13 +142,18 @@
 
 - terme: reflux_monetaire
   libelle: "Reflux monétaire"
-  definition: "Destruction de la monnaie après sa création. Dans le régime
-               actuel, le reflux est particulier : chaque unité est détruite
-               par le remboursement individuel du crédit qui l'a créée. Le
-               corpus lui oppose un reflux collectif — reflux transactionnel ou prélèvement
+  definition: "Retrait de la monnaie de la circulation après sa création.
+               Dans le régime actuel, le reflux est particulier et il détruit
+               la monnaie : chaque unité est détruite par le remboursement
+               individuel du crédit qui l'a créée. Le corpus lui oppose un
+               reflux collectif — reflux transactionnel ou prélèvement
                pondéré sur les transactions selon l'impact des activités —
-               qui permet une monnaie émise sans dette ; ses mécanismes sont
-               établis au Livre 2 (Cahier technique)."
+               qui permet une monnaie émise sans dette ; ce reflux retire la
+               monnaie de la circulation sans la détruire : elle est retenue
+               par l'institution émettrice, non annulée (arbitrage du
+               2026-09-05), et le sort de ce qu'elle accumule relève de la
+               formule d'affectation. Ses mécanismes sont établis au Livre 2
+               (Cahier technique)."
   premiere_occurrence: L1.C08
 
 - terme: malediction_monetaire
