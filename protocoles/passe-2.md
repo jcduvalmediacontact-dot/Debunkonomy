@@ -7713,3 +7713,43 @@ C'est la conclusion de l'auteur du 2026-09-09 : « Le remplacement mondial du sy
 **Écartés** : les exclure, qui corrigerait la liste du livre sans nécessité ; les inclure sans condition, qui ferait entrer l'investissement public ordinaire dans le volume à calibrer et pèserait sur F1.
 
 **A5 entre au registre**, statut `oriente`, lié à A44, TEST-APPORT-PROPRE et CRITERE-ESSENTIALITE. **Restent ouverts, et le texte doit le dire** : le périmètre entier — « Le périmètre est donc un facteur du volume à émettre » (P32) — ; la délimitation dans le régime des services, où la ligne ne tient plus faute d'état physique mesurable et où P33 ne propose pas un critère mais « la prise en charge assumée de l'absence de critère » ; les seuils de CRITERE-ESSENTIALITE. **L1.C30 peut donc dire que le récit public a choisi une branche que la conception n'a pas choisie** (B3, P57).
+
+## D99, D100, D102 ET D103 TRANCHÉES PAR L'AUTEUR — LE TITRE DE L1.C24, LE RÉCIT DE CLÔTURE, LES CENTRES DE L'INSTITUTION, 2026-09-17
+
+**Quatre décisions de plus sur la tranche 3.** Deux d'entre elles — D99 et D103 — ont été présentées **sans recommandation de fond** : l'une parce que les intitulés viennent du plan directeur de l'auteur, l'autre parce que la lettre d'A46 et d'A47 ne la dit pas.
+
+### D99 — Le titre de L1.C24
+
+**Le chapitre réfute son titre.** Il établit que le dollar tient par trois inerties qu'aucun traité ne déplace par lui-même ; son titre actuel, « Pourquoi le dollar ne peut pas durer », annonce l'inverse. **Nouveau titre retenu par l'auteur** : « Ce qui tient le dollar, et ce qu'aucun traité ne déplace par lui-même. » — la proposition (b) de l'architecture, qui porte la thèse des trois inerties et ne préjuge pas la forme de l'unité (D92).
+
+**Le nom de fichier ne change pas.** « Le générateur tire l'URL du nom de fichier » (`corpus/generer.py`), et la convention veut une URL stable ; rien n'est publié, garder le nom évite la question. **L1.C17 et L1.C27 gardent leurs titres** et ouvrent sur la réponse restreinte d'A44, sans les réfuter.
+
+**Écart de la convention à corriger, hors de cette décision.** L'exemple d'en-tête du § 4 range `titre` sous le commentaire « # Identité — ne change jamais », alors que la table des champs ne le fige pas et que **cinq titres de chapitres du Livre 1 ont déjà changé**, dont celui de L1.C08, chapitre vérifié. Le commentaire de l'exemple est donc inexact : il désigne l'identité au sens du matricule. **À corriger par une révision journalisée du § 15, non par cette décision.**
+
+**Application** : le titre est porté **à la réécriture de L1.C24 (lot 1)**, avec le corps aligné — non maintenant, pour ne pas enregistrer un état intermédiaire d'un chapitre qui va changer entièrement.
+
+### D100 — L1.C30 : déclaré récit en prose, et « terminé » vaut trente
+
+**Décision.** (1) **La déclaration « récit » est portée en prose dans le chapitre** — chapeau, résumé, § 1. Le chapitre le dit déjà en commentaire de corps, « C'est un récit, non une argumentation » ; la prose le rend lisible par un lecteur et par une IA qui extrait le passage. **Aucune règle n'est touchée, aucun champ n'est ajouté.** (2) **« Terminé » signifie trente chapitres vérifiés et C30 déclaré récit.** (3) **L1.C30 est aligné, de façon bornée** : seuls les énoncés qui contredisent un arbitrage ou un fait établi, le chapitre restant `brouillon` et S1 fermée.
+
+**Ce que la décision coûte, et qui doit être écrit.** Les outils ne voient pas la déclaration : le diagnostic range C30 avec les brouillons ordinaires et l'alerte d'ancienneté se déclenchera. **Le Livre 1 n'atteindra jamais `verifie` au registre des livres** : c'est la conséquence assumée de (2). Écartés : la mention d'ouverture définie par la convention, seule forme que les outils liraient, au prix d'une révision journalisée ; la déclaration hors du chapitre, qui ne voyage pas avec lui ; « trente et un » incluant C30, qui contredirait « C30 reste brouillon, déclaré récit. »
+
+**La clause est clarifiée dans le texte de référence.** METHODE-PERIMETRE portait deux phrases inconciliables — « « Terminé » signifie les trente et un chapitres du corpus vérifiés. » et la précédente. L'index des décisions citait comme autorité une entrée de journal qui ne contenait pas la clause. **Les deux sont corrigés le 2026-09-17** : la clause est énoncée au journal du jour, et l'index la cite.
+
+### D102 — Les cinq centres : exposer, le choix va au chapitre de gouvernance
+
+**Décision (a).** L1.C18 expose **la table de correspondance des cinq fonctions d'A46 aux chambres du livre**, les conditions de conformité, et les organisations possibles ; **le choix d'organisation va au chapitre de gouvernance A46-A47 que prévoit la refonte.** La branche la plus proche du livre — quatre chambres et séparations internes écrites comme conditions — est présentée comme telle.
+
+**Ce que la table établit et que le texte doit porter** : l'Office cumule trois des cinq fonctions ; la priorité démocratique, la suspension et le contrôle indépendant de conformité n'ont **aucun titulaire** dans l'architecture du livre. **Ce que la décision respecte** : A46 laisse l'organisation ouverte — « CINQ CENTRES DE RESPONSABILITÉ INDÉPENDANTS, NON CINQ INSTITUTIONS : l'organisation juridique reste à concevoir. »
+
+**Écartés** : trancher maintenant pour quatre chambres, ce qu'A46 n'impose pas ; ajouter une chambre ; substituer à la structure une liste de pouvoirs non délégables. **Nouveau chantier au passif** : le chapitre de gouvernance A46-A47.
+
+### D103 — Les seuils et la priorité relèvent du même centre : l'Assemblée des Communs
+
+**Décision (a), sans recommandation préalable.** **L'Assemblée des Communs fixe d'avance les seuils d'A47 et la grille de priorité démocratique d'A46 (fonction 3) ; un tiers applique.** L'Assemblée est donc l'**autorité démocratique** que la lettre d'A47 nomme sans l'identifier : « Seuils fixés d'avance par l'AUTORITÉ DÉMOCRATIQUE après EXPERTISE PLURALISTE »
+
+**Ce que la décision règle.** La fonction (3) d'A46 a un titulaire, et la table des fonctions de L1.C18 cesse d'être conditionnelle sur ce point. La séparation d'A46 est respectée : l'Assemblée **fixe** et n'**applique** pas — « NUL N'EST L'UNIQUE NI LE DERNIER JUGE DE SES ACTES »
+
+**Ce que la décision ne règle pas, et que le chapitre doit dire.** **La suspension et le contrôle indépendant de conformité restent sans titulaire.** Et la décision **concentre les deux actes normatifs dans un seul centre** : c'est là, désormais, que se loge la concentration de pouvoir que L1.C27 nomme, et c'est ce centre que rencontreront A34, le barème qui exclut, et l'autorité concrète de CRITERE-L25 (D96). Le chapitre expose ce point comme une conséquence de la décision, non comme une objection à elle.
+
+**Ce que le registre ne peut pas porter.** La projection d'A46 est **à 500 caractères, le plafond du registre** : elle ne peut pas recevoir cette précision sans perdre une part de la lettre de l'arbitrage du 2026-09-09. A46 et A47 sont donc **routés vers L1.C18**, où la table vit, et leur `maj` passe au 2026-09-17 ; la précision elle-même est ici, et le registre y renvoie par son champ `texte`. **Un lecteur du registre seul ne verra pas qui tient la priorité** : c'est un écart assumé de la projection, pas un oubli.

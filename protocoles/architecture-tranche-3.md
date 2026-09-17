@@ -150,4 +150,11 @@ Il ne vérifie aucune source externe, et n'en ouvre aucune. Il ne vérifie pas q
 
 **Hors tranche, le même jour : D108** — A6 orienté (coalition porteuse, fenêtre de crise modificatrice), entrée au registre.
 
-**En attente : D99, D100, D102 à D107.**
+**Tranchées le 2026-09-17, deuxième lot : D99, D100, D102 et D103.** Texte : `protocoles/passe-2.md`, section du 2026-09-17 sur ces quatre décisions.
+
+- **D99** — L1.C24 est retitré « Ce qui tient le dollar, et ce qu'aucun traité ne déplace par lui-même. » ; le nom de fichier ne change pas ; titre porté à la réécriture du chapitre. L1.C17 et L1.C27 gardent les leurs. Écart relevé : le commentaire du § 4 de la convention range `titre` sous l'identité immuable, contre cinq précédents.
+- **D100** — déclaration « récit » **en prose dans le chapitre** ; « terminé » vaut trente chapitres vérifiés et C30 déclaré récit ; **alignement borné** de C30. Le Livre 1 n'atteindra pas `verifie` au registre des livres ; la clause est énoncée au journal du 2026-09-17 et citée par l'index.
+- **D102** — L1.C18 expose la table, les conditions et les organisations possibles ; le choix va au **chapitre de gouvernance A46-A47**, nouveau chantier du passif.
+- **D103** — **l'Assemblée des Communs fixe les seuils d'A47 et la grille de priorité d'A46 ; un tiers applique.** Restent sans titulaire : la suspension et le contrôle indépendant de conformité. A46 et A47 routés vers L1.C18 ; la projection d'A46 est au plafond de 500 caractères et ne porte pas la précision.
+
+**En attente : D104, D105, et les deux validations en bloc D106 et D107.**

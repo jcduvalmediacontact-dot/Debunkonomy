@@ -192,8 +192,8 @@ arbitrages:
       L'INCERTITUDE AGIT SUR LA PROCÉDURE D'INSTRUCTION, jamais
       automatiquement sur le régime.
     texte: protocoles/passe-2.md
-    chapitres: [L1.C31, L1.C15]
-    maj: 2026-09-09
+    chapitres: [L1.C31, L1.C15, L1.C18]
+    maj: 2026-09-17
 
   - id: CRITERE-ESSENTIALITE
     objet: "Critère provisoire du caractère essentiel"
@@ -227,7 +227,8 @@ arbitrages:
       à concevoir. NUL N'EST L'UNIQUE NI LE DERNIER JUGE DE SES ACTES —
       l'autocorrection reste permise.
     texte: protocoles/passe-2.md
-    maj: 2026-09-09
+    chapitres: [L1.C18, L1.C17]
+    maj: 2026-09-17
 
   - id: A45
     objet: "Une part du soutien aux importations essentielles est-elle non remboursable"
