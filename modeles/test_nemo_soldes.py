@@ -440,13 +440,13 @@ exiger(r_def["premiere_negative"] is not None and r_c2["premiere_negative"] == 1
 
 ouvertures = []
 for s in m.SCENARIOS:
-    e, _, _ = m.jouer(s, **m.OPTIONS_AUTEUR_COMPLETES)
+    e, _, _ = m.jouer(s, **m.OPTIONS_AVANT_D77)
     ouvertures += [(s.cle, c) for c, v in e.procedure_ouverte.items() if v is not None]
 exiger(ouvertures == [("S4", "DEF")],
        "la procédure ne s'ouvre qu'en S4, pour le déficitaire : un déficit persistant "
        "sans débouché perdu n'ouvre rien (%s)" % ouvertures)
 
-sans_reussite = m.mesurer_s4(40, **m.OPTIONS_AUTEUR_COMPLETES)
+sans_reussite = m.mesurer_s4(40, **m.OPTIONS_AVANT_D77)
 exiger(sans_reussite["masse_min"] > 0 and sans_reussite["negatifs"] == 0
        and sans_reussite["identite"] == 0,
        "réussite non supposée : le financement garde la masse du déficitaire positive "
@@ -458,28 +458,28 @@ exiger(abs(sans_reussite["creee"] - sans_reussite["remboursee"] - sans_reussite[
        "+ due %.0f" % (sans_reussite["creee"], sans_reussite["remboursee"],
                        sans_reussite["annulee"], sans_reussite["dette"]))
 exiger(sans_reussite["close"] == sans_reussite["ouverte"] + m.PROCEDURE_AUTEUR["duree"]
-       and abs(sans_reussite["institution"] - m.mesurer_s4(60, **m.OPTIONS_AUTEUR_COMPLETES)["institution"]) < 1e-6,
+       and abs(sans_reussite["institution"] - m.mesurer_s4(60, **m.OPTIONS_AVANT_D77)["institution"]) < 1e-6,
        "la procédure se clôt à l'échéance (période %s) et l'institution ne verse "
        "qu'une fois : même coût à 40 et à 60 périodes (%.0f)"
        % (sans_reussite["close"], sans_reussite["institution"]))
 
 def s4_avec_reussite(part, horizon=40):
     proc = dict(m.PROCEDURE_AUTEUR, reconversion=dict(m.PROCEDURE_AUTEUR["reconversion"], part=part))
-    return m.mesurer_s4(horizon, **dict(m.OPTIONS_AUTEUR_COMPLETES, procedure_structurelle=proc))
+    return m.mesurer_s4(horizon, **dict(m.OPTIONS_AVANT_D77, procedure_structurelle=proc))
 r0, r25, r50 = s4_avec_reussite(0.0), s4_avec_reussite(0.25), s4_avec_reussite(0.5)
 exiger(abs(r0["masse_min"] - r50["masse_min"]) < 1e-6 and r50["dette"] < r25["dette"] < r0["dette"],
        "sous recyclage, la réussite de la reconversion ne change pas la monnaie du "
        "déficitaire (%.0f dans tous les cas) : elle réduit sa dette (%.0f, %.0f, %.0f)"
        % (r0["masse_min"], r0["dette"], r25["dette"], r50["dette"]))
 
-a60 = m.mesurer_s4(60, **m.OPTIONS_AUTEUR_COMPLETES)
+a60 = m.mesurer_s4(60, **m.OPTIONS_AVANT_D77)
 exiger(a60["dette"] > m.QUOTA["DEF"] and a60["annulee"] < 0.05 * a60["dette"],
        "LE PRIX DU CHOIX DE L'AUTEUR : reconversion ratée, 60 périodes, la procédure "
        "close laisse une dette de %.0f, au-delà du quota (%d) ; le créancier ne perd "
        "que %.0f" % (a60["dette"], m.QUOTA["DEF"], a60["annulee"]))
-prol = m.mesurer_s4(60, **dict(m.OPTIONS_AUTEUR_COMPLETES,
+prol = m.mesurer_s4(60, **dict(m.OPTIONS_AVANT_D77,
                                procedure_structurelle=dict(m.PROCEDURE_AUTEUR, revue="prolongation")))
-plaf = m.mesurer_s4(60, **dict(m.OPTIONS_AUTEUR_COMPLETES, procedure_structurelle=dict(
+plaf = m.mesurer_s4(60, **dict(m.OPTIONS_AVANT_D77, procedure_structurelle=dict(
     m.PROCEDURE_AUTEUR, revue="prolongation", plafond_annulation=float(m.QUOTA["DEF"]))))
 def rupture_puis_reprise(t, volumes, prix):
     """Scénario réservé au test : le débouché se perd, puis revient en force.
@@ -493,7 +493,7 @@ def rupture_puis_reprise(t, volumes, prix):
     return volumes, prix
 
 reprise = m.Scenario("ST", "Rupture puis reprise", rupture_puis_reprise, "test du remboursement")
-e_rp, j_rp, a_rp = m.jouer_a_horizon(reprise, 50, **m.OPTIONS_AUTEUR_COMPLETES)
+e_rp, j_rp, a_rp = m.jouer_a_horizon(reprise, 50, **m.OPTIONS_AVANT_D77)
 exiger(e_rp.rembourse_pret["DEF"] > 0 and j_rp[-1]["dette"]["DEF"] < 1e-6
        and not codes(a_rp, "[C5]")
        and abs(e_rp.dette_creee["DEF"] - e_rp.rembourse_pret["DEF"]
@@ -615,7 +615,8 @@ print("L. A43 (3b) — L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL")
 # CE QUE CETTE SECTION NE PROUVE PAS : qu'un exportateur accepte d'avance
 # l'annulation (F6), ni qu'une reconversion de l'importateur réussisse — la baisse
 # de dépendance est SUPPOSÉE dans les jeux qui la mesurent.
-O77 = m.OPTIONS_AUTEUR_COMPLETES
+# La configuration AU MOMENT DE D77 : la procédure côté importateur a sa section.
+O77 = m.OPTIONS_AVANT_D80
 exiger(memes_trajectoires({}, {"demurrage_soldes": 0.0, "reliquat_plafond": None,
                                "persistance_reliquat": 0}) == 0,
        "les instruments ajoutés, laissés à leur valeur par défaut, ne changent rien")
@@ -714,6 +715,99 @@ exiger(abs(e77.verse_guichets - e77.decouvert - e77.apure - e77.apure_conversion
                for p in j77) < 1e-9,
        "le reliquat converti apure le découvert : versé = découvert + apuré + converti, "
        "et le découvert reste égal au solde négatif de l'institution hors facilités")
+
+
+# =====================================================================
+print("")
+print("M. D79 — LA DÉPENDANCE DURABLE À UNE IMPORTATION ESSENTIELLE")
+# =====================================================================
+# CE QUE CETTE SECTION NE PROUVE PAS : qu'une reconversion réussisse. La baisse de
+# dépendance est SUPPOSÉE dans les jeux qui la mesurent, et la production qui
+# remplacerait les importations n'est pas représentée.
+exiger(memes_trajectoires({}, {"procedure_importateur": None}) == 0,
+       "la procédure côté importateur, absente par défaut, ne change rien")
+typ = m.procedure_importateur_type
+def ouvertures(proc):
+    return [k for k in ("S0", "S1", "S2", "S3", "S4")
+            if "PAU" in m.mesurer_importateur(par_cle(k), 80, proc, **O77)["ouvertures"]]
+seule_persistance = ouvertures(typ(surcout_min=0.0))
+seul_surcout = ouvertures(typ(declencheur=0))
+les_deux = ouvertures(typ())
+exiger(seule_persistance == ["S0", "S1", "S2", "S3", "S4"] and seul_surcout == ["S1", "S2", "S3"]
+       and les_deux == ["S2"],
+       "OUVERTURE : la persistance seule ouvre partout (%s), le surcoût seul aussi sur les "
+       "chocs passagers (%s) ; les deux ensemble, sur le seul choc durable (%s)"
+       % (", ".join(seule_persistance), ", ".join(seul_surcout), ", ".join(les_deux)))
+
+sans_proc = m.mesurer_importateur(S2, 80, None, **O77)
+echec = m.mesurer_importateur(S2, 80, typ(), **O77)
+exiger(echec["verse"] > 0 and abs(echec["emis"] - sans_proc["emis"]) < 1e-6
+       and abs(echec["converti"] - sans_proc["converti"]) < 1e-6 and echec["anomalies"] == 0,
+       "RÉUSSITE NON SUPPOSÉE : le financement (%.0f) remplace l'allocation, et l'émission "
+       "totale ne change pas (%.0f)" % (echec["verse"], echec["emis"]))
+quart_i = m.mesurer_importateur(S2, 80, typ(part=0.25), **O77)
+moitie_i = m.mesurer_importateur(S2, 80, typ(part=0.5), **O77)
+exiger(moitie_i["emis"] < quart_i["emis"] < echec["emis"] and moitie_i["converti"] == 0
+       and moitie_i["exportations_exc"] < quart_i["exportations_exc"] < echec["exportations_exc"],
+       "seule la réussite supposée réduit l'émission (%.0f, %.0f, %.0f) et les conversions, "
+       "et elle retire à l'exportateur ses exportations (%.0f contre %.0f)"
+       % (echec["emis"], quart_i["emis"], moitie_i["emis"], moitie_i["exportations_exc"],
+          echec["exportations_exc"]))
+prolonge = m.mesurer_importateur(S2, 80, typ(revue="prolongation"), **O77)
+exiger(prolonge["emis"] > echec["emis"] and prolonge["converti"] > echec["converti"],
+       "REVUE : prolonger sans plafond un financement qui échoue ajoute de l'émission (%.0f "
+       "contre %.0f), qui finit chez l'exportateur (%.0f convertis contre %.0f)"
+       % (prolonge["emis"], echec["emis"], prolonge["converti"], echec["converti"]))
+x2 = m.mesurer_importateur(m.s2_intensite(2.0), 80, None, **O77)
+x13 = m.mesurer_importateur(m.s2_intensite(1.3), 80, None, **O77)
+x13_ouvre = m.mesurer_importateur(m.s2_intensite(1.3), 80, typ(), **O77)
+exiger(x2["premiere_conversion"] > echec["close"] and x13["premiere_conversion"] is None
+       and x13_ouvre["ouverte"] is not None,
+       "FINANCEMENT AFFECTÉ AUX CONVERSIONS : il arriverait trop tard (première conversion à "
+       "la période %d, financement clos à la %d) ou jamais (prix ×1,3, où la procédure "
+       "s'ouvre)" % (x2["premiere_conversion"], echec["close"]))
+croissances = dict((mult, [m.croissance_allocations(mult, 1.0 - 1.0 / mult + d, **O77)
+                           for d in (-0.1, 0.0)]) for mult in (1.5, 2.0, 3.0))
+exiger(all(c[1] < 10 and c[0] > 3 * c[1] + 10 for c in croissances.values()),
+       "les allocations ne cessent de croître qu'autour d'une baisse égale à la part du "
+       "surcoût : %s" % ", ".join("×%s : %.0f puis %.0f" % (k, v[0], v[1])
+                                  for k, v in sorted(croissances.items())))
+
+PIA = m.PROCEDURE_IMPORTATEUR_AUTEUR
+exiger(m.OPTIONS_AUTEUR_COMPLETES.get("procedure_importateur") == PIA
+       and PIA["declencheur"] == m.PERSISTANCE_STRUCTUREL and PIA["surcout_min"] == 0.30
+       and PIA["reconversion"] == {"delai": 4, "part": 0.0, "financement": 1.0}
+       and PIA["revue"] == "jalons" and PIA["progres_min"] == 0.25
+       and PIA["plafond_factures"] == 8
+       and dict(m.OPTIONS_AUTEUR_COMPLETES, procedure_importateur=None)
+       == dict(m.OPTIONS_AVANT_D80, procedure_importateur=None),
+       "la configuration de l'auteur porte D80 à D82 : persistance et surcoût de 30 %, "
+       "facture de base pendant quatre périodes, jalons de 25 % dans la limite de huit "
+       "factures, réussite non supposée")
+facture_base = sum(v * m.PRIX_BASE for k, v in m.echanges_de_base().items()
+                   if k[1] == "PAU" and m.ESSENTIEL.get(k))
+def auteur(part, h=80):
+    proc = dict(PIA, reconversion=dict(PIA["reconversion"], part=part))
+    return m.mesurer_importateur(S2, h, proc, **m.OPTIONS_AUTEUR_COMPLETES)
+a0, a25, a50 = auteur(0.0), auteur(0.25), auteur(0.5)
+exiger(a0["ouverte"] == 6 and a0["close"] == 10
+       and abs(a0["verse"] - 4 * facture_base) < 1e-6
+       and abs(a0["emis"] - m.mesurer_importateur(S2, 80, None, **m.OPTIONS_AVANT_D80)["emis"]) < 1e-6
+       and a0["anomalies"] == 0,
+       "SOUS LES CHOIX DE L'AUTEUR, une reconversion qui échoue coûte quatre factures de base "
+       "(%.0f), prises sur l'allocation, et se clôt à la période %d" % (a0["verse"], a0["close"]))
+exiger(abs(a25["verse"] - 8 * facture_base) < 1e-6 and a25["emis"] < a0["emis"]
+       and abs(a50["verse"] - 4 * facture_base) < 1e-6,
+       "une reconversion qui avance est financée jusqu'à huit factures (%.0f) ; une "
+       "reconversion qui ramène le surcoût sous le seuil s'arrête à quatre" % a25["verse"])
+ailleurs_i = 0
+for k in ("S0", "S1", "S3", "S4"):
+    for h in (40, 80):
+        _, j0, a0_ = m.jouer_a_horizon(par_cle(k), h, **m.OPTIONS_AVANT_D80)
+        _, j1, a1_ = m.jouer_a_horizon(par_cle(k), h, **m.OPTIONS_AUTEUR_COMPLETES)
+        ailleurs_i += int(a0_ != a1_) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
+                                            for p0, p1 in zip(j0, j1) for c in m.COMPTES)
+exiger(ailleurs_i == 0, "la procédure de l'auteur ne change aucune trajectoire de S0, S1, S3 et S4")
 
 
 print("")

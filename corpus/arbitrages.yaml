@@ -825,17 +825,17 @@ pieces_de_conception_manquantes:
 
   - id: DEPENDANCE-ESSENTIELLE
     objet: "Dépendance durable à une importation essentielle — procédure côté importateur"
-    statut: oriente
+    statut: arbitre
     tranche_par: auteur
     lie_a: [A45, COMPENSATION-SYMETRIQUE, PROCEDURE-STRUCTURELLE]
     decision: >
-      PRINCIPE RETENU PAR L'AUTEUR LE 2026-09-17 (D79) : une procédure
-      structurelle côté importateur réduit la dépendance durable à une
-      importation essentielle, comme PROCEDURE-STRUCTURELLE traite la perte
-      durable d'un débouché ; réussite NON supposée. MOTIF MESURÉ : hors une
-      spirale de réévaluations, seule une baisse de la dépendance arrête
-      l'émission de l'allocation. À INSTRUIRE : ouverture, seuils,
-      financement, revue.
+      ARBITRÉE PAR L'AUTEUR LE 2026-09-17 (D79 à D82). Ouverte sur déficit
+      essentiel persistant ET surcoût mesuré d'au moins 30 % de la facture
+      essentielle. Financement non remboursable, par émission : la facture de
+      base, quatre périodes ; au-delà, seulement si le surcoût a déjà baissé
+      d'au moins 25 %, plafonné à huit factures. Réussite NON supposée.
+      PRIX PUBLIÉ : en échec, son financement remplace l'allocation ; seule la
+      réussite réduit l'émission, aux dépens des exportations de l'exportateur.
     texte: protocoles/passe-2.md
     chapitres: [L1.C26]
     maj: 2026-09-17

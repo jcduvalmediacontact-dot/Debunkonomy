@@ -207,6 +207,16 @@ chiffres publiés restent exacts. `comparer_accumulation_exportateur` publie les
 mesurés, le démurrage écarté (D78), la baisse de dépendance SUPPOSÉE qui motive D79, et le
 cas d'un retournement, vérifiés par la section L du test.
 
+**LA DÉPENDANCE DURABLE À UNE IMPORTATION ESSENTIELLE, 2026-09-17 — D79 à D82.**
+`jouer` porte `procedure_importateur`, absente par défaut : ouverture sur la persistance
+d'un déficit essentiel et le surcoût mesuré de la facture essentielle, financement non
+remboursable, baisse des importations essentielles SUPPOSÉE (`part`), revue par clôture,
+prolongation ou jalons. `PROCEDURE_IMPORTATEUR_AUTEUR` porte D80 à D82 dans
+`OPTIONS_AUTEUR_COMPLETES` ; `OPTIONS_AVANT_D77` et `OPTIONS_AVANT_D80` figent les
+configurations des sections antérieures, dont la sortie reste identique.
+`comparer_procedure_importateur` publie l'ouverture, l'intensité du choc, le financement, la
+revue, la baisse nécessaire et la configuration de l'auteur, vérifiés par la section M.
+
 
 ## `nemo_emission.py` — la règle d'émission et ses sept cas limites
 

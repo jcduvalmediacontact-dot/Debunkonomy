@@ -7401,3 +7401,48 @@ La condition (4) a montré que, sous choc structurel, ce que l'allocation émet 
 ### CE QUI RESTE OUVERT
 
 **L'instruction de D79** — ouverture, seuils, financement et revue de la procédure côté importateur. **L'adoption** : l'annulation automatique se consent à l'adhésion, et F6 dit ce que cela coûte. La dette de recyclage du déficitaire à long terme sous choc structurel ; les seuils du plafond, condition (3) ; la suite d'une procédure close sur un échec. **Rien n'est calibré, l'inflation n'est pas modélisée, et l'applicabilité de (3b) reste non jugée.**
+
+
+## D79 INSTRUITE — LA PROCÉDURE CÔTÉ IMPORTATEUR, D80 À D82, 2026-09-17
+
+La procédure côté importateur est retenue dans son principe depuis D79, sans que sa réussite soit supposée. Cette section en instruit les quatre termes — ouverture, seuils, financement, revue — et rend les trois décisions de l'auteur.
+
+### TROIS DÉCISIONS DE L'AUTEUR, PRISES SUR LA VOIE RECOMMANDÉE
+
+**(D80) OUVERTURE.** La procédure s'ouvre pour un pays resté cinq périodes en déficit essentiel — le seuil de l'allocation — **et** dont la facture d'importations essentielles dépasse d'au moins 30 % sa valeur de base, le seuil de D73.
+
+**(D81) FINANCEMENT.** Émission non remboursable : la facture essentielle de base à chaque période d'un délai de quatre, apurée ensuite par le reflux (D75). Écarté : un financement pris sur les créances que D77 convertit chez l'exportateur.
+
+**(D82) REVUE.** À l'échéance, le financement ne continue que si le surcoût a déjà baissé d'au moins 25 % depuis l'ouverture, dans la limite de huit factures de base. Écartées : la clôture pure, et la prolongation tant que le surcoût persiste.
+
+### CE QUE DISENT LES PIÈCES
+
+**LE RÈGLEMENT (UE) 2023/435, CHAPITRES REPowerEU** — `2026-09-17/importateur/reg-ue-2023-435.pdf`, SHA-256 C9CC37FF62EF15051AA78709F42D673B803D683BCB206660893955F31E3D3D6C, Journal officiel L 63 du 28 février 2023, folios relevés. **Un financement collectif et non remboursable de la réduction d'une dépendance aux importations existe** : « EUR 20 000 000 000 in current prices, obtained in accordance with Article 10e of Directive 2003/87/EC of the European Parliament and of the Council (*), shall be made available as additional non-repayable financial support under the Facility for implementation under this Regulation to increase the resilience of the Union’s energy system through a decrease of dependence on fossil fuels and diversifying energy supplies at Union level. » (L 63/12). **Il procède par mesures, jalons et cibles** : « Recovery and resilience plans submitted to the Commission after 1 March 2023 that require the use of additional funding under Articles 14, 21a or 21b, shall include a REPowerEU chapter containing measures and their corresponding milestones and targets. » (L 63/13). **Et il suit la baisse des importations elle-même** : « It shall also include the progress of the implementation of the measures in the REPowerEU chapters and their contribution to the objectives set out in Article 21c(3), and display information on the reduction of the Union imports of fossil fuels and the diversification of energy supplies. » (L 63/16). **Sa source est une recette, non une émission** : « As an extraordinary and one-time measure, until 31 August 2026, the allowances auctioned pursuant to paragraphs 2 and 3 of this Article shall be auctioned until the total amount of revenue obtained from such auctioning has reached EUR 20 billion. » (L 63/19) — la place que D75 donne au reflux, qui apure après coup ce que l'émission a versé au moment du besoin.
+
+**LE GUICHET « CHOCS ALIMENTAIRES » DU FONDS MONÉTAIRE INTERNATIONAL (2022)** — non acquis : le document de politique n° 2022/042 a été refusé sur les deux adresses du Fonds. **Rien n'en est cité** ; il est demandé à l'auteur.
+
+**LA LENTEUR D'UN AJUSTEMENT** — Autor, Dorn et Hanson (2016), cités dans la section de la condition (5) : après un choc commercial, les marchés locaux du travail restent déprimés au moins une décennie. **Le délai de quatre périodes est donc déclaré, non calibré**, et la réussite n'est pas supposée.
+
+### CE QUE MONTRE LE MODÈLE
+
+`python modeles/nemo_soldes.py`, section finale `comparer_procedure_importateur`, vérifiée par la section M de `modeles/test_nemo_soldes.py`. `jouer` porte la procédure (`procedure_importateur`), absente par défaut ; laissée absente, elle reproduit la version commitée, et toutes les sections antérieures sortent à l'identique, caractère pour caractère. `OPTIONS_AUTEUR_COMPLETES` porte désormais D80 à D82 ; `OPTIONS_AVANT_D80` reproduit la configuration de la section précédente, et chaque section datée reproduit désormais la sienne.
+
+**(1) IL FAUT LES DEUX CRITÈRES.** La persistance seule ouvre la procédure dans les cinq scénarios ; le surcoût seul l'ouvre aussi sur les chocs passagers S1 et S3 ; ensemble, sur le seul choc durable, S2, à la période 6.
+
+**(2) LE SEUIL DE 30 % OUVRE AVANT QUE L'EXPORTATEUR NE DÉBORDE.** Pour un prix essentiel multiplié par 1,3, la procédure s'ouvre au seuil de 30 % et non à celui de 50 % ; ce choc coûte 737 d'allocations en quatre-vingts périodes, sans aucune conversion chez l'exportateur. La première conversion arrive à la période 57 pour un prix multiplié par 1,5, 38 par 2, 15 par 3.
+
+**(3) TANT QUE LA RECONVERSION ÉCHOUE, SON FINANCEMENT REMPLACE L'ALLOCATION.** En S2, à quatre-vingts périodes : 160 versés, et une émission totale inchangée (2885), comme les conversions (1851) ; avec un délai de huit, 320 versés, et la même émission. **Seule la réussite réduit l'émission** : 1465 si la dépendance baisse d'un quart, 365 si elle baisse de moitié — **et elle retire à l'exportateur ses exportations** : 9982, puis 9272 et 8355.
+
+**(4) UN FINANCEMENT PRIS SUR LES CRÉANCES CONVERTIES ARRIVERAIT TROP TARD OU JAMAIS** : la procédure s'ouvre à la période 6 et son financement se clôt à la période 10, quand la première conversion n'arrive qu'à la période 38 pour un prix doublé, 57 pour un prix multiplié par 1,5, et jamais pour 1,3.
+
+**(5) PROLONGER SANS PLAFOND UN FINANCEMENT QUI ÉCHOUE AJOUTE DE L'ÉMISSION QUI FINIT CHEZ L'EXPORTATEUR** : 3000 versés, 3258 émis au lieu de 2885, 2179 convertis au lieu de 1851. **Les jalons se comportent comme une clôture sur un échec, et comme une prolongation plafonnée sur un progrès** : une reconversion qui réduit la dépendance d'un quart reçoit 320 et coûte 1524 au lieu de 1465.
+
+**(6) LA BAISSE NÉCESSAIRE EST À PEU PRÈS LA PART DU SURCOÛT DANS LA FACTURE.** Entre quarante et quatre-vingts périodes, les allocations croissent encore de 34, 122 et 251 quand la dépendance baisse de dix points de moins que cette part, pour un prix multiplié par 1,5, 2 et 3 ; de 0, 7 et 0 à cette part ; et une baisse plus forte ne les arrête pas toujours (27 pour 1,5).
+
+### LE PRIX DU CHOIX DE L'AUTEUR
+
+**UNE RECONVERSION QUI ÉCHOUE NE COÛTE RIEN DE PLUS QUE L'ALLOCATION, ET NE RÈGLE RIEN** : quatre factures de base (160), prises sur l'allocation, puis clôture à la période 10 ; l'exportateur continue de payer par conversion (1851 à quatre-vingts périodes). **Le modèle ne peut pas montrer que le financement produit la réussite** : il la suppose ou non. **Une reconversion qui réussit touche aussi l'exportateur, dans les deux sens** : ses exportations baissent de 16 % quand la dépendance baisse de moitié, mais D77 ne lui annule plus rien (1851 annulés à quatre-vingts périodes sans reconversion, aucun avec). **Et le délai de quatre périodes est court** au regard de ce que mesurent Autor, Dorn et Hanson.
+
+### CE QUI RESTE OUVERT
+
+Le calibrage des seuils et du délai ; ce qu'une reconversion coûte et obtient réellement — la production qui remplacerait les importations n'est pas représentée ; le document du Fonds sur le guichet alimentaire, demandé à l'auteur. Et, dans A43 (3b) : les seuils du plafond, condition (3) ; la suite d'une procédure close sur un échec ; la dette de recyclage du déficitaire à long terme ; l'adoption (F6). **L'applicabilité de (3b) reste non jugée.**

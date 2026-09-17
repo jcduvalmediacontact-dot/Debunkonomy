@@ -217,6 +217,13 @@ class Etat(object):
         self.placement = dict((c, 0.0) for c in CODES)
         self.placement_restitue = dict((c, 0.0) for c in CODES)
         self.apure_conversion = 0.0
+        # procédure côté importateur (D79, instruite le 2026-09-17) : ouverture,
+        # clôture, financement versé, surcoût mesuré de la facture essentielle
+        self.imp_ouverte = dict((c, None) for c in CODES)
+        self.imp_close = dict((c, None) for c in CODES)
+        self.imp_verse = dict((c, 0.0) for c in CODES)
+        self.surcout = dict((c, 0.0) for c in CODES)
+        self.surcout_ouverture = dict((c, 0.0) for c in CODES)
         # (3) registres SÉPARÉS, jamais agrégés entre eux
         self.contraction = dict((c, 0.0) for c in CODES)
         self.expansion = dict((c, 0.0) for c in CODES)
@@ -245,7 +252,7 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
           allocation_active=True, regle=None, obligations_creancier=None,
           delai_creancier=0, charge_debiteur=True, procedure_structurelle=None,
           recyclage_pret=False, reflux_apurement=None, demurrage_soldes=0.0,
-          reliquat_plafond=None, persistance_reliquat=0):
+          reliquat_plafond=None, persistance_reliquat=0, procedure_importateur=None):
     """`symetrie_contraignante` reste l'interrupteur général des obligations de
     l'excédentaire. `obligations_creancier` choisit lesquelles s'appliquent
     parmi la charge graduée, la procédure au plafond et la révision de sa
@@ -279,8 +286,9 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     SOLDE N'EN EST AFFECTÉ, ni ceux des pays ni celui de l'institution : le
     registre compte ce que le reflux aurait à retirer, il ne le retire pas.
 
-    Deux instruments contre l'accumulation d'un créancier, instruits le
-    2026-09-17 et NON TRANCHÉS. `demurrage_soldes` (nul par défaut) retire
+    Deux instruments contre l'accumulation d'un créancier, tranchés le
+    2026-09-17 : la conversion est retenue (D77), le démurrage sur la
+    compensation écarté (D78). `demurrage_soldes` (nul par défaut) retire
     chaque période cette fraction des soldes POSITIFS des pays au profit de
     l'institution : le démurrage uniforme de D76, appliqué aux soldes de
     compensation. `reliquat_plafond` (aucun par défaut) traite ce qui reste
@@ -289,7 +297,23 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
     verse à l'institution sans retour, comme l'annulation des soldes
     créditeurs persistants que Keynes envisageait en 1943 ; « placement » le
     change en créance de long terme sur l'institution, hors compensation et
-    sans effet sur la masse du pays, restituée quand il passe en débit."""
+    sans effet sur la masse du pays, restituée quand il passe en débit.
+
+    `procedure_importateur` (aucune par défaut), instruite pour D79, est un
+    dictionnaire. Elle s'ouvre pour un pays resté `declencheur` périodes en
+    déficit essentiel, si le SURCOÛT mesuré de sa facture d'importations
+    essentielles — sa valeur aux volumes et prix courants, rapportée à sa
+    valeur de base — atteint `surcout_min`. `reconversion` — {"delai", "part",
+    "financement"} — verse chaque période `financement` fois la facture
+    essentielle de base, sans remboursement, et réduit de `part`, `delai`
+    périodes après l'ouverture, les volumes essentiels importés : c'est la
+    réussite, que le modèle suppose ou non mais ne produit pas. Le financement
+    dure `duree` périodes (le délai par défaut). `revue` : « cloture » l'arrête
+    à cette échéance ; « prolongation » le poursuit tant que le surcoût mesuré
+    reste au seuil ; « jalons » ne le poursuit que si le surcoût a DÉJÀ baissé
+    d'au moins `progres_min` depuis l'ouverture, en restant au seuil ; les deux
+    dans la limite de `plafond_factures` factures essentielles de base, ou de
+    `plafond_financement` en valeur."""
     assert reliquat_plafond in (None, "conversion", "placement"), reliquat_plafond
     e = Etat()
     journal, anomalies = [], []
@@ -362,6 +386,56 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
             for c in CODES:
                 if e.procedure_ouverte[c] is not None and e.procedure_close[c] is None:
                     e.perte_reconnue[c] += perte[c]
+
+        # --- PROCÉDURE CÔTÉ IMPORTATEUR : ouverture, reconversion (D79) -----
+        pi = procedure_importateur
+        imp_finance = dict((c, False) for c in CODES)
+        facture_base = dict((c, sum(v * PRIX_BASE for (a, b), v in base.items()
+                                    if b == c and ESSENTIEL.get((a, b))))
+                            for c in CODES)
+        def plafond_imp(c):
+            if pi.get("plafond_factures") is not None:
+                return pi["plafond_factures"] * facture_base[c]
+            return pi.get("plafond_financement")
+        if pi:
+            rec_i = pi.get("reconversion") or {}
+            volumes = dict(volumes)
+
+            def facture(c):
+                return sum(volumes.get((a, b), 0) * prix.get((a, b), PRIX_BASE)
+                           for (a, b) in base if b == c and ESSENTIEL.get((a, b)))
+            for c in CODES:
+                if not facture_base[c]:
+                    continue
+                # le surcoût du CHOC, avant toute reconversion : c'est lui qui ouvre
+                surcout_choc = facture(c) / facture_base[c] - 1.0
+                if (e.imp_ouverte[c] is None and e.deficit_essentiel_persistant[c]
+                        >= pi.get("declencheur", PERSISTANCE_STRUCTUREL)
+                        and surcout_choc >= pi.get("surcout_min", 0.0)):
+                    e.imp_ouverte[c] = t
+                    e.surcout_ouverture[c] = surcout_choc
+                ouverte = e.imp_ouverte[c]
+                if ouverte is not None and t >= ouverte + rec_i.get("delai", 0):
+                    # la réussite SUPPOSÉE : une part des importations essentielles
+                    # est remplacée par une production que le modèle ne représente pas
+                    for (a, b) in base:
+                        if b == c and ESSENTIEL.get((a, b)) and (a, b) in volumes:
+                            volumes[(a, b)] *= (1.0 - rec_i.get("part", 0.0))
+                e.surcout[c] = facture(c) / facture_base[c] - 1.0
+                if ouverte is None or e.imp_close[c] is not None:
+                    continue
+                plafond = plafond_imp(c)
+                if t < ouverte + pi.get("duree", rec_i.get("delai", 0)):
+                    imp_finance[c] = True
+                elif (pi.get("revue", "cloture") in ("prolongation", "jalons")
+                        and e.surcout[c] >= pi.get("surcout_min", 0.0)
+                        and (plafond is None or e.imp_verse[c] < plafond - 1e-9)
+                        and (pi["revue"] == "prolongation"
+                             or e.surcout[c] <= (1.0 - pi.get("progres_min", 0.25))
+                             * e.surcout_ouverture[c])):
+                    imp_finance[c] = True
+                else:
+                    e.imp_close[c] = t
 
         # --- (4) LES ÉCHANGES RÉPONDENT À LA PARITÉ RELATIVE ------------
         desire = {}
@@ -487,6 +561,20 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                     e.solde[c] += verse
                     e.solde[INST] -= verse
                     e.structurel[c] += verse
+
+        # --- PROCÉDURE CÔTÉ IMPORTATEUR : financement non remboursable ----
+        if pi:
+            for c in CODES:
+                if not imp_finance[c]:
+                    continue
+                verse = (pi.get("reconversion") or {}).get("financement", 0.0) * facture_base[c]
+                if plafond_imp(c) is not None:
+                    verse = max(0.0, min(verse, plafond_imp(c) - e.imp_verse[c]))
+                if verse:
+                    don[c] += verse
+                    e.solde[c] += verse
+                    e.solde[INST] -= verse
+                    e.imp_verse[c] += verse
 
         # --- DÉCOUVERT DES GUICHETS : émis au besoin, apuré par le reflux --
         verse_t = sum(don.values())
@@ -708,7 +796,8 @@ def jouer(scenario, symetrie_contraignante=True, procedure="recyclage",
                         "recyclage": dict(recyclage), "recu": dict(recu),
                         "dette": dict((c, sum(v for (d, k), v in e.dette.items() if d == c))
                                       for c in CODES),
-                        "decouvert": e.decouvert})
+                        "decouvert": e.decouvert, "surcout": dict(e.surcout),
+                        "converti": dict(e.reliquat_converti)})
 
     # --- (1) l'horizon couvre-t-il les maturités ? ----------------------
     for c in CODES:
@@ -1096,16 +1185,31 @@ PROCEDURE_AUTEUR = {
     "duree": 4,
     "revue": "cloture",
 }
-# L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL — choix de l'auteur du
-# 2026-09-17. D77 : ce qui reste au-delà du plafond après recyclage est converti,
-# c'est-à-dire annulé contre le découvert de l'institution. D78 : le démurrage ne
-# s'applique pas aux soldes de compensation (il reste nul ici). D79 : une procédure
-# côté importateur est retenue dans son principe, et n'est pas encore instruite.
-OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AUTEUR, recyclage_pret=True,
-                                procedure_structurelle=PROCEDURE_AUTEUR,
-                                reliquat_plafond="conversion")
-# La configuration au moment de D75, que la section de la condition (4) reproduit.
-OPTIONS_AVANT_D77 = dict(OPTIONS_AUTEUR_COMPLETES, reliquat_plafond=None)
+# CHAQUE SECTION DATÉE REPRODUIT LA CONFIGURATION DE SON MOMENT : une décision
+# ultérieure ne doit pas changer rétroactivement des chiffres publiés.
+#
+# Conditions (5) et (4) — recyclage en prêt, procédure structurelle (D72 à D75).
+OPTIONS_AVANT_D77 = dict(OPTIONS_AUTEUR, recyclage_pret=True,
+                         procedure_structurelle=PROCEDURE_AUTEUR, reliquat_plafond=None)
+# L'accumulation de l'exportateur (D77, D78) : ce qui reste au-delà du plafond après
+# recyclage est converti, c'est-à-dire annulé contre le découvert de l'institution ;
+# le démurrage ne s'applique pas aux soldes de compensation (il reste nul ici).
+OPTIONS_AVANT_D80 = dict(OPTIONS_AVANT_D77, reliquat_plafond="conversion")
+# La procédure côté importateur (D79, instruite en D80 à D82) : ouverture sur un
+# déficit essentiel persistant ET un surcoût d'au moins 30 % de la facture
+# essentielle ; financement non remboursable de la facture de base pendant quatre
+# périodes ; au-delà, seulement si le surcoût a déjà baissé d'au moins 25 %, dans la
+# limite de huit factures de base. SA RÉUSSITE N'EST PAS SUPPOSÉE.
+PROCEDURE_IMPORTATEUR_AUTEUR = {
+    "declencheur": PERSISTANCE_STRUCTUREL,
+    "surcout_min": 0.30,
+    "reconversion": {"delai": 4, "part": 0.0, "financement": 1.0},
+    "revue": "jalons",
+    "progres_min": 0.25,
+    "plafond_factures": 8,
+}
+OPTIONS_AUTEUR_COMPLETES = dict(OPTIONS_AVANT_D80,
+                                procedure_importateur=PROCEDURE_IMPORTATEUR_AUTEUR)
 
 
 def jouer_a_horizon(scenario, horizon, **options):
@@ -1161,7 +1265,7 @@ def comparer_procedure_structurelle():
         proc = dict(PROCEDURE_AUTEUR,
                     reconversion=dict(PROCEDURE_AUTEUR["reconversion"], part=part))
         for h in (40, 60):
-            r = mesurer_s4(h, **dict(OPTIONS_AUTEUR_COMPLETES, procedure_structurelle=proc))
+            r = mesurer_s4(h, **dict(OPTIONS_AVANT_D77, procedure_structurelle=proc))
             print("  %-9s %-8d %9.0f %9.0f %9.0f %9.0f %11.0f %s→%s"
                   % ("%d %%" % (100 * part), h, r["masse_min"], r["recycle"], r["dette"],
                      r["annulee"], r["institution"], r["ouverte"], r["close"]))
@@ -1172,7 +1276,7 @@ def comparer_procedure_structurelle():
                            ("prolongation, annulation plafonnée au quota",
                             {"revue": "prolongation",
                              "plafond_annulation": float(QUOTA["DEF"])})):
-        r = mesurer_s4(60, **dict(OPTIONS_AUTEUR_COMPLETES,
+        r = mesurer_s4(60, **dict(OPTIONS_AVANT_D77,
                                   procedure_structurelle=dict(PROCEDURE_AUTEUR, **extra)))
         print("  %-46s le déficitaire doit %6.0f, le créancier perd %6.0f"
               % (libelle, r["dette"], r["annulee"]))
@@ -1449,6 +1553,8 @@ def comparer_accumulation_exportateur():
     L'auteur a choisi la conversion du reliquat (D77), écarté le démurrage sur les
     soldes de compensation (D78) et retenu dans son principe une procédure côté
     importateur (D79). La sortie publie les remèdes mesurés, puis le prix du choix.
+
+    Elle reproduit la configuration AU MOMENT DE D77 (`OPTIONS_AVANT_D80`).
     """
     s2 = [x for x in SCENARIOS if x.cle == "S2"][0]
     s4 = [x for x in SCENARIOS if x.cle == "S4"][0]
@@ -1461,7 +1567,7 @@ def comparer_accumulation_exportateur():
                 {"reliquat_plafond": None, "demurrage_soldes": 0.04}),
                ("butée levée pour les créanciers",
                 {"reliquat_plafond": None, "regle": regle_sans_butee_creancier}))
-    mesures = [(libelle, h, mesurer_accumulation(s2, h, **dict(OPTIONS_AUTEUR_COMPLETES,
+    mesures = [(libelle, h, mesurer_accumulation(s2, h, **dict(OPTIONS_AVANT_D80,
                                                                **extra)))
                for libelle, extra in remedes for h in (40, 80, 120)]
     print("      les soldes")
@@ -1486,7 +1592,7 @@ def comparer_accumulation_exportateur():
           % ("taux", "payé par EXC", "recyclé EXC", "masse min DEF", "dépassements",
              "masses négatives"))
     for taux in (0.0, 0.005, 0.01, 0.02, 0.04):
-        r = mesurer_accumulation(s4, 40, **dict(OPTIONS_AUTEUR_COMPLETES,
+        r = mesurer_accumulation(s4, 40, **dict(OPTIONS_AVANT_D80,
                                                  demurrage_soldes=taux))
         print("  %-7s %13.0f %12.0f %14.0f %13d %17d"
               % ("%.1f %%" % (100 * taux), r["demurrage_exc"], r["recycle_exc"],
@@ -1497,7 +1603,7 @@ def comparer_accumulation_exportateur():
         ecarts = []
         for sc in SCENARIOS:
             _, j0, a0 = jouer_a_horizon(sc, h, **OPTIONS_AVANT_D77)
-            _, j1, a1 = jouer_a_horizon(sc, h, **OPTIONS_AUTEUR_COMPLETES)
+            _, j1, a1 = jouer_a_horizon(sc, h, **OPTIONS_AVANT_D80)
             n = int(a0 != a1) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
                                     for p0, p1 in zip(j0, j1) for c in COMPTES)
             ecarts.append("%s %d" % (sc.cle, n))
@@ -1509,7 +1615,7 @@ def comparer_accumulation_exportateur():
     for part in (0.0, 0.25, 0.5):
         sc = s2 if part == 0.0 else s2_avec_substitution(part, 11)
         for h in (40, 80):
-            r = mesurer_accumulation(sc, h, **OPTIONS_AUTEUR_COMPLETES)
+            r = mesurer_accumulation(sc, h, **OPTIONS_AVANT_D80)
             r0 = mesurer_accumulation(sc, h, **OPTIONS_AVANT_D77)
             print("  %-10s %4d %12.0f %9.0f %16.0f %16d"
                   % ("%d %%" % round(100 * part) if h == 40 else "", h, r["allocations"],
@@ -1524,7 +1630,7 @@ def comparer_accumulation_exportateur():
     retournement = s2_puis_retournement(45)
     for libelle, extra in (("conversion (D77)", {}),
                            ("placement forcé", {"reliquat_plafond": "placement"})):
-        r = mesurer_accumulation(retournement, 90, **dict(OPTIONS_AUTEUR_COMPLETES, **extra))
+        r = mesurer_accumulation(retournement, 90, **dict(OPTIONS_AVANT_D80, **extra))
         print("  %-26s %9.0f %13.0f %9.0f %13.0f %15.0f"
               % (libelle, r["converti_exc"], r["place_exc"], r["restitue_exc"],
                  r["solde_exc_min"], r["solde_exc"]))
@@ -1545,6 +1651,189 @@ def comparer_accumulation_exportateur():
     print("      L'ÉMISSION ELLE-MÊME — supposée ici, non produite.")
     print("      CE QU'ELLE NE MONTRE PAS : qu'un exportateur accepte d'avance l'annulation")
     print("      (F6), la réussite d'une reconversion, l'inflation, ni aucun calibrage.")
+
+
+def s2_intensite(multiple):
+    """S2, le prix de l'importation essentielle étant multiplié par `multiple` à
+    partir de la période 3, et ne redescendant pas."""
+    def choc(t, volumes, prix):
+        if t >= 3:
+            prix = dict(prix)
+            prix[("EXC", "PAU")] = PRIX_BASE * multiple
+        return volumes, prix
+    return Scenario("S2x%s" % multiple, "S2, prix essentiel ×%s" % multiple, choc,
+                    "intensité du choc structurel")
+
+
+def procedure_importateur_type(declencheur=PERSISTANCE_STRUCTUREL, surcout_min=0.30,
+                               delai=4, part=0.0, financement=1.0, revue="cloture",
+                               duree=None, plafond_financement=None, progres_min=None,
+                               plafond_factures=None):
+    """Un jeu de paramètres de la procédure côté importateur, pour les mesures."""
+    p = {"declencheur": declencheur, "surcout_min": surcout_min, "revue": revue,
+         "reconversion": {"delai": delai, "part": part, "financement": financement}}
+    if duree is not None:
+        p["duree"] = duree
+    if plafond_financement is not None:
+        p["plafond_financement"] = plafond_financement
+    if progres_min is not None:
+        p["progres_min"] = progres_min
+    if plafond_factures is not None:
+        p["plafond_factures"] = plafond_factures
+    return p
+
+
+def mesurer_importateur(scenario, horizon, procedure_imp, **options):
+    """Ce que la procédure côté importateur verse, ce qu'elle épargne et à qui."""
+    e, journal, anomalies = jouer_a_horizon(
+        scenario, horizon, **dict(options, procedure_importateur=procedure_imp))
+    premiere = next((p["t"] for p in journal if sum(p["converti"].values()) > 1e-9), None)
+    return {"ouverte": e.imp_ouverte["PAU"], "close": e.imp_close["PAU"],
+            "verse": sum(e.imp_verse.values()), "allocations": sum(e.alloc.values()),
+            "emis": sum(e.imp_verse.values()) + sum(e.alloc.values()),
+            "converti": sum(e.reliquat_converti.values()), "premiere_conversion": premiere,
+            "institution": e.solde[INST], "contraction_pau": e.contraction["PAU"],
+            "exportations_exc": e.production["EXC"], "surcout": e.surcout["PAU"],
+            "ouvertures": dict((c, v) for c, v in e.imp_ouverte.items() if v is not None),
+            "anomalies": len([a for a in anomalies if a[:4] in ("[C1]", "[C3]", "[C5]", "[C8]")])}
+
+
+def croissance_allocations(multiple, part, **options):
+    """Ce que les allocations croissent encore entre 40 et 80 périodes quand la
+    dépendance baisse de `part`, pour un prix essentiel ×`multiple`."""
+    sc = s2_intensite(multiple)
+    proc = procedure_importateur_type(part=part)
+    return (mesurer_importateur(sc, 80, proc, **options)["allocations"]
+            - mesurer_importateur(sc, 40, proc, **options)["allocations"])
+
+
+def comparer_procedure_importateur():
+    """D79 : LA DÉPENDANCE DURABLE À UNE IMPORTATION ESSENTIELLE.
+
+    La procédure est retenue dans son principe, sa réussite n'est pas supposée.
+    La sortie instruit ses quatre termes — ouverture, seuils, financement,
+    revue — et dit ce qu'une reconversion devrait obtenir pour arrêter
+    l'émission, sans jamais produire cette réussite.
+    """
+    s = dict((x.cle, x) for x in SCENARIOS)
+    base = OPTIONS_AVANT_D80
+    print("")
+    print("  (1) OÙ LA PROCÉDURE S'OUVRE — période d'ouverture pour le pays pauvre, 80 périodes")
+    print("  %-38s" % "critère" + "".join("%7s" % k for k in ("S0", "S1", "S2", "S3", "S4")))
+    for libelle, proc in (("persistance seule", procedure_importateur_type(surcout_min=0.0)),
+                          ("surcoût de 30 % seul", procedure_importateur_type(declencheur=0)),
+                          ("persistance + surcoût 30 % — AUTEUR (D80)",
+                           procedure_importateur_type()),
+                          ("persistance + surcoût 50 %", procedure_importateur_type(surcout_min=0.5))):
+        cellules = []
+        for k in ("S0", "S1", "S2", "S3", "S4"):
+            o = mesurer_importateur(s[k], 80, proc, **base)["ouvertures"]
+            cellules.append("%d" % o["PAU"] if "PAU" in o else "—")
+        print("  %-38s" % libelle + "".join("%7s" % x for x in cellules))
+    print("")
+    print("  (2) L'INTENSITÉ DU CHOC — S2 à prix essentiel ×m, 80 périodes, sans procédure")
+    print("  %-6s %12s %9s %20s %12s %12s"
+          % ("×m", "allocations", "converti", "première conversion", "ouverte 30 %",
+             "ouverte 50 %"))
+    for m in (1.2, 1.3, 1.5, 2.0, 3.0):
+        sans = mesurer_importateur(s2_intensite(m), 80, None, **base)
+        o30 = mesurer_importateur(s2_intensite(m), 80, procedure_importateur_type(), **base)
+        o50 = mesurer_importateur(s2_intensite(m), 80,
+                                  procedure_importateur_type(surcout_min=0.5), **base)
+        print("  %-6s %12.0f %9.0f %20s %12s %12s"
+              % ("×%s" % m, sans["allocations"], sans["converti"],
+                 sans["premiere_conversion"] or "jamais",
+                 "période %d" % o30["ouverte"] if o30["ouverte"] else "non",
+                 "période %d" % o50["ouverte"] if o50["ouverte"] else "non"))
+    print("")
+    print("  (3) LE FINANCEMENT ET LA RÉUSSITE — S2, 80 périodes, ouverture persistance + 30 %")
+    print("      financement : émission non remboursable de la facture de base — AUTEUR (D81) ;")
+    print("      pris sur les créances converties, il n'arriverait qu'à la « première")
+    print("      conversion » du tableau (2)")
+    print("  %-14s %6s %7s %12s %7s %9s %7s %12s %13s"
+          % ("réussite", "délai", "versé", "allocations", "émis", "converti", "inst.",
+             "contr. PAU", "export. EXC"))
+    sans = mesurer_importateur(s["S2"], 80, None, **base)
+    print("  %-14s %6s %7.0f %12.0f %7.0f %9.0f %7.0f %12.0f %13.0f"
+          % ("sans procédure", "—", 0, sans["allocations"], sans["emis"], sans["converti"],
+             sans["institution"], sans["contraction_pau"], sans["exportations_exc"]))
+    for part in (0.0, 0.25, 0.5):
+        for delai in (4, 8):
+            r = mesurer_importateur(s["S2"], 80,
+                                    procedure_importateur_type(delai=delai, part=part), **base)
+            print("  %-14s %6d %7.0f %12.0f %7.0f %9.0f %7.0f %12.0f %13.0f"
+                  % ("%d %% supposée" % round(100 * part) if part else "non supposée",
+                     delai, r["verse"], r["allocations"], r["emis"], r["converti"],
+                     r["institution"], r["contraction_pau"], r["exportations_exc"]))
+    print("")
+    print("  (4) LA REVUE — S2, délai 4, 80 périodes")
+    print("  %-14s %-42s %7s %7s %9s" % ("réussite", "revue", "versé", "émis", "converti"))
+    for part in (0.0, 0.25, 0.5):
+        for libelle, proc in (("clôture à l'échéance", procedure_importateur_type(part=part)),
+                              ("jalons : 25 % de baisse, 8 factures (D82)",
+                               procedure_importateur_type(part=part, revue="jalons",
+                                                          progres_min=0.25,
+                                                          plafond_factures=8)),
+                              ("prolongation plafonnée à 8 factures",
+                               procedure_importateur_type(part=part, revue="prolongation",
+                                                          plafond_factures=8)),
+                              ("prolongation sans plafond",
+                               procedure_importateur_type(part=part, revue="prolongation"))):
+            r = mesurer_importateur(s["S2"], 80, proc, **base)
+            print("  %-14s %-42s %7.0f %7.0f %9.0f"
+                  % ("%d %% supposée" % round(100 * part) if part else "non supposée",
+                     libelle, r["verse"], r["emis"], r["converti"]))
+    print("")
+    print("  (5) LA BAISSE NÉCESSAIRE — croissance des allocations entre 40 et 80 périodes,")
+    print("      selon la baisse de dépendance, autour de la part du surcoût dans la facture")
+    print("  %-6s %16s %18s %16s %18s" % ("×m", "part du surcoût", "10 points de moins",
+                                         "à la part", "10 points de plus"))
+    for m in (1.5, 2.0, 3.0):
+        part = 1.0 - 1.0 / m
+        print("  %-6s %16s %18.0f %16.0f %18.0f"
+              % ("×%s" % m, "%d %%" % round(100 * part),
+                 croissance_allocations(m, part - 0.1, **base),
+                 croissance_allocations(m, part, **base),
+                 croissance_allocations(m, part + 0.1, **base)))
+    print("")
+    print("  (6) LA CONFIGURATION DE L'AUTEUR (D80 à D82) — S2, sa réussite étant jouée")
+    print("  %-14s %4s %8s %7s %7s %7s %9s %7s" % ("réussite", "hor.", "ouverte", "close",
+                                                "versé", "émis", "converti", "inst."))
+    for part in (0.0, 0.25, 0.5):
+        proc = dict(PROCEDURE_IMPORTATEUR_AUTEUR,
+                    reconversion=dict(PROCEDURE_IMPORTATEUR_AUTEUR["reconversion"], part=part))
+        for h in (40, 80):
+            r = mesurer_importateur(s["S2"], h, proc, **OPTIONS_AUTEUR_COMPLETES)
+            print("  %-14s %4d %8s %7s %7.0f %7.0f %9.0f %7.0f"
+                  % (("%d %% supposée" % round(100 * part) if part else "non supposée")
+                     if h == 40 else "", h, r["ouverte"], r["close"] or "—", r["verse"],
+                     r["emis"], r["converti"], r["institution"]))
+    ailleurs = []
+    for k in ("S0", "S1", "S3", "S4"):
+        n = 0
+        for h in (40, 80):
+            _, j0, a0 = jouer_a_horizon(s[k], h, **OPTIONS_AVANT_D80)
+            _, j1, a1 = jouer_a_horizon(s[k], h, **OPTIONS_AUTEUR_COMPLETES)
+            n += int(a0 != a1) + sum(abs(p0["solde"][c] - p1["solde"][c]) > 1e-9
+                                     for p0, p1 in zip(j0, j1) for c in COMPTES)
+        ailleurs.append("%s %d" % (k, n))
+    print("  soldes différents ailleurs, à 40 et 80 périodes : %s" % ", ".join(ailleurs))
+    print("      CE QUE LA SORTIE MONTRE. La procédure ne s'ouvre sur les seuls chocs")
+    print("      durables qu'en combinant la persistance et le surcoût. Tant que la")
+    print("      reconversion échoue, son financement REMPLACE l'allocation : l'émission")
+    print("      totale ne change pas ; seule la réussite la réduit, et avec elle ce que")
+    print("      l'exportateur perd par conversion. Prolonger sans plafond un financement")
+    print("      qui échoue ajoute de l'émission, qui finit chez l'exportateur. Et les")
+    print("      allocations ne cessent de croître qu'autour d'une baisse de dépendance égale")
+    print("      à la part du surcoût dans la facture — ni en deçà, ni toujours au-delà ;")
+    print("      ce que la réussite retire aux importations, elle le retire aux exportations")
+    print("      de l'exportateur. SOUS LES CHOIX DE L'AUTEUR, une reconversion qui échoue")
+    print("      coûte quatre factures de base, prises sur l'allocation, puis se clôt ; une")
+    print("      reconversion qui avance est financée jusqu'à huit ; et aucun autre scénario")
+    print("      ne change.")
+    print("      CE QU'ELLE NE MONTRE PAS : qu'une reconversion réussisse, en combien de")
+    print("      temps, à quel coût réel — la production qui remplace les importations")
+    print("      n'est pas représentée —, l'inflation, ni aucun calibrage.")
 
 
 def mesurer_regle(regle):
@@ -1714,6 +2003,12 @@ def main():
     print("A43 (3b) — L'ACCUMULATION DE L'EXPORTATEUR SOUS CHOC STRUCTUREL")
     print("=" * 78)
     comparer_accumulation_exportateur()
+
+    print("")
+    print("=" * 78)
+    print("D79 — LA DÉPENDANCE DURABLE À UNE IMPORTATION ESSENTIELLE")
+    print("=" * 78)
+    comparer_procedure_importateur()
     return 0
 
 
