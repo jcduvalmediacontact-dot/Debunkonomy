@@ -7530,3 +7530,8 @@ Les cinq conditions de (3b) étant instruites (D69 à D85), l'auteur juge son ap
 ### CE QUI RESTE OUVERT
 
 **La règle de sortie des dettes durables (D87).** Le trou des chocs répétés, publié et non retenu. L'adoption (F6), le contrôle des capitaux, le calibrage et l'inflation (F1), l'avantage comparatif (F10). **Rien de ce verdict ne vaut au-delà d'une coalition expérimentale** : le remplacement mondial reste non applicable.
+
+
+## L1.C31 § 6 — CORRECTION PROPAGÉE APRÈS D86, 2026-09-17
+
+**La correction que la section du jugement d'applicabilité laissait à propager est faite, sur accord explicite de l'auteur** (« Ok pour tout »). Dans le même paragraphe de L1.C31 § 6, l'unité de réserve entre banques centrales « constitue une branche expérimentable », et non plus « la branche expérimentable » : depuis D86, l'Exchange Standard à parités administrées l'est aussi, pour des chocs passagers. Changement de sens le jour même de la révision de fond du chapitre : état réenregistré avec `--maj-etat --fond`.
