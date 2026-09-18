@@ -6,15 +6,11 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-18
 autorite: preparatoire
 citable: false
 regime: hybride
 sources_primaires:
-  - ref: S1
-    nature: theorie
-    reference: "A. Camus, Le Mythe de Sisyphe. Essai sur l'absurde, Gallimard, coll. « Les Essais » n° 12, achevé d'imprimer le 16 octobre 1942 (manuscrit achevé à Oran en février 1941, Carnets I)"
-    etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, L'économie de l'équilibre. Monnaie, finance et limites planétaires, Debunk'Onomy, 2026, chapitre 5 (« mythe de Sisyphe économique », note 54) et chapitre 6 OUVERT PAR VERSEMENT depuis L1.C23 et L1.C25, sur l'exemplaire du livre déposé au dossier du jour. Exemplaire 2026-09-15/c23/S1-duval-economie-de-l-equilibre-FR-22-08-2026.pdf, 278 pages, SHA-256 444A81EF0173E37F0E02053773AD4E23074CB52914B594DD8AC3031CC3D62C84. Édition : J.-C. Duval, L'économie de l'équilibre, exemplaire de composition du 22 août 2026 fourni par l'auteur (278 pages PDF). La formule du § 1 est lue au mot ; les deux autres formules attribuées au script audio ne sont pas dans le livre, comme la vérification l'avait relevé. Passages lus sur le texte : « chaque effort pour rembourser » (page PDF 233)."
@@ -76,6 +72,31 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # ── AUDIT TIERS DU 2026-09-18, REÇU ET VÉRIFIÉ ──────────────────
+  # Rapport dans `protocoles/rapport-audit-L1-C14-tiers.md`, vérification dans
+  # `protocoles/verification-audit-tiers-L1-C14.md`. SEPT CITATIONS SUR QUATORZE NE
+  # FIGURAIENT PAS DANS LE CHAPITRE, et quatre titres de section sur cinq étaient faux.
+  # L'objection déclarée bloquante visait deux phrases inexistantes et reprochait au
+  # chapitre de ne pas distinguer régime d'émission et contrat de prêt, alors qu'il le
+  # fait à chaque section (« Ce que le régime monétaire ajoute est précis »). Écartée.
+  #
+  # APPLIQUÉ CE JOUR, sur décision de l'auteur : le § 2 borne l'amortissement à la part
+  # effectivement financée par crédit et énonce le taux d'autofinancement ; le glissement
+  # de l'agrégat au cas individuel, qui était dans la même phrase, est corrigé ; les deux
+  # appels [S1] sont retirés et l'entrée Camus tombe, Sisyphe restant une image. AUCUNE
+  # RENUMÉROTATION : la liste portait déjà un trou, il n'y a pas de S6.
+  - "SOURCER LE TAUX D'AUTOFINANCEMENT des sociétés non financières, 80 à 100 %, AVANT
+     TOUT PASSAGE À `verifie`. Il vient de l'objection d'audit du 2026-09-18 et n'est
+     adossé à aucune pièce ouverte ici. Comptes nationaux ou base sectorielle de la
+     banque centrale ; préciser le périmètre et la période."
+  - "DEUX CLAUSES EMPIRIQUES SANS APPEL DE SOURCE, relevées par l'audit et vérifiées
+     présentes : au § 1, « celles des économies observées », qui qualifie les conditions
+     d'états de fait ; au § 3, « les prix des actifs financés par le crédit montent avec
+     le crédit disponible », qui pose une relation causale générale."
+  - "ROSA [S5] — objection déjà inscrite, confirmée par l'audit : le § 3 fait porter à
+     l'entrée deux énoncés et l'exemplaire ouvert n'en porte qu'un."
+  - "NORDHAUS [S11] — objection déjà inscrite, confirmée : un seul appel clôt une phrase
+     qui porte deux affirmations, dont la source n'appuie que la seconde."
   - "D43 APPLIQUÉE le 2026-09-16 : S12 réduite à Friedman 1957 et ouverte, Modigliani-Brumberg 1954 nommés sans être source."
   - "OUVERTE LE 2026-09-16 par l'ouverture de [S5]. Le § 3 fait porter à Rosa DEUX énoncés et l'exemplaire ouvert n'en porte qu'un. Le premier — la course où nul ne peut ralentir sans être distancé — est vérifié au mot, page PDF 23. **Le second ne l'est pas** : « la stabilité des sociétés tardives suppose désormais une accélération permanente » ne figure pas dans Aliénation et accélération, où « stabilisation dynamique » — le terme de l'auteur pour cette thèse — a zéro occurrence. La thèse est bien de Rosa et se trouve ailleurs dans son œuvre, notamment dans Beschleunigung ; elle n'est pas dans le volume ouvert. TROIS ISSUES, À L'AUTEUR : retirer la seconde proposition du § 3 ; la garder en la donnant comme rapportée sans appui ouvert ; ou fournir un exemplaire de Beschleunigung ou de sa traduction de 2010, qui la porterait."
   # — Sources ouvertes le 2026-09-03 (Claude) —
@@ -119,7 +140,7 @@ Ce chapitre ne démontre pas un mécanisme nouveau ; il donne une figure à ceux
 
 ## 1. Le mythe et sa transposition
 
-(*Image : Sisyphe, roi de Corinthe, a trompé les dieux. Sa peine est sans terme : rouler un rocher jusqu'au sommet d'une montagne, le voir retomber, redescendre le chercher, recommencer. Camus, dont le manuscrit est achevé à Oran en février 1941 et le livre imprimé en octobre 1942 [S1], en fait la figure de l'absurde — l'homme qui réclame un sens à un monde qui n'en offre pas, et doit néanmoins agir — et conclut par une phrase restée célèbre : « Il faut imaginer Sisyphe heureux. »*)
+(*Image : Sisyphe, roi de Corinthe, a trompé les dieux. Sa peine est sans terme : rouler un rocher jusqu'au sommet d'une montagne, le voir retomber, redescendre le chercher, recommencer. Camus en fait la figure de l'absurde — l'homme qui réclame un sens à un monde qui n'en offre pas, et doit néanmoins agir — et conclut par une phrase restée célèbre : « Il faut imaginer Sisyphe heureux. »*)
 
 La transposition économique ajoute une différence décisive. Dans le mythe, la peine vient des dieux ; elle est extérieure et sans recours. Dans le régime actuel, elle vient de la composition de règles humaines ; personne ne l'a décrétée, et elle peut en principe être défaite.
 
@@ -135,7 +156,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 ::etat:: Une part de cette contrainte n'est pas monétaire, et il faut le dire d'emblée. Le capital s'use : machines, bâtiments, outils se déprécient et doivent être remplacés, sous n'importe quel régime monétaire — c'est une donnée physique et technique, formalisée depuis longtemps par la théorie de la croissance [S10]. La concurrence, l'évolution des techniques et des prix relatifs imposent elles aussi de s'adapter, indépendamment du crédit.
 
-::hypothese:: Ce que le régime monétaire ajoute est précis. L'amortissement de ce capital ne se finance pas sur une épargne préexistante mais sur un crédit, qui doit être servi ; l'entreprise ne peut donc pas simplement remplacer, elle doit dégager un excédent qui couvre le remplacement *et* le service. Et la contrainte de croissance de l'encours (§ 1) fait que cet excédent exigé croît avec le temps. Là où le renouvellement du capital demanderait de tenir, le régime demande de croître. Tenir sur place devient reculer. Multipliée par les millions de petites et moyennes entreprises qui forment l'essentiel du tissu économique, cette différence — entre remplacer et croître pour remplacer — est ce que la figure sisyphéenne désigne. Aucun de ces entrepreneurs n'est coupable de rien ; chacun applique avec compétence la logique d'un système.
+::hypothese:: Ce que le régime monétaire ajoute est précis. **Il faut d'abord borner la portée, faute de quoi l'énoncé est faux.** L'essentiel de l'investissement de remplacement n'est pas financé par du crédit : il est couvert par les flux d'exploitation, le taux d'autofinancement des sociétés non financières étant durablement voisin de 80 à 100 % en France et dans la zone euro. **Pour cette part-là, aucun service ne s'ajoute au remplacement, et la figure ne s'applique pas.** Ce que le régime ajoute ne vaut donc que pour la fraction effectivement financée par crédit : quand l'amortissement s'y adosse, l'entreprise ne peut pas simplement remplacer, elle doit dégager un excédent qui couvre le remplacement *et* le service. **Et il faut de même se garder d'un second glissement** : la croissance de l'encours agrégé (§ 1) n'implique rien sur une entreprise donnée, qui peut se désendetter ou tenir une charge stable. Ce qui croît avec le temps est l'excédent exigé **de l'ensemble**, non de chacun. Là où le renouvellement du capital demanderait de tenir, le régime demande de croître. Tenir sur place devient reculer. Multipliée par les millions de petites et moyennes entreprises qui forment l'essentiel du tissu économique, cette différence — entre remplacer et croître pour remplacer — est ce que la figure sisyphéenne désigne. Aucun de ces entrepreneurs n'est coupable de rien ; chacun applique avec compétence la logique d'un système.
 
 ## 3. Le salarié
 
@@ -151,7 +172,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 ::etat:: L'essentiel de ces blocages est documenté par l'économie politique et ne requiert aucune hypothèse monétaire : les bénéfices d'une politique climatique sont diffus et différés, ses coûts concentrés et immédiats, ce qui défavorise structurellement les mandats courts ; et à l'échelle internationale, chaque État a intérêt à ce que les autres agissent — le problème du passager clandestin, que Nordhaus place au cœur de l'échec des accords climatiques [S11]. Ces mécanismes suffisent à expliquer une grande part de l'inaction.
 
-::hypothese:: Ce que le régime monétaire ajoute est une contrainte de plus, et elle est spécifique : le service de la dette publique, dans les conditions établies en L1.C13, impose de préserver la base d'activité qui produit les recettes et de ménager les marchés qui refinancent l'encours. C'est cette contrainte-là — non l'arbitrage électoral, non le passager clandestin — que le corpus met en cause, et elle est la seule des trois qu'une refonte du régime d'émission pourrait lever. Multipliée par tous ceux qui, depuis quarante ans, ont eu la transition en charge, elle contribue à une trajectoire où chaque plan a paru historique en son temps pendant que les émissions mondiales continuaient de croître — 57,7 milliards de tonnes d'équivalent CO2 en 2024, en hausse de 2,3 % [S7].
+::hypothese:: Ce que le régime monétaire ajoute est une contrainte de plus, et elle est spécifique : le service de la dette publique, dans les conditions établies en L1.C13, impose de préserver la base d'activité qui produit les recettes et de ménager les marchés qui refinancent l'encours. C'est cette contrainte-là — non l'arbitrage électoral, non le passager clandestin — que le corpus met en cause, et elle est la seule des trois qu'une refonte du régime d'émission pourrait lever — **énoncé que ce chapitre ne démontre pas et qu'il emprunte** à L1.C13, qui établit le nœud entre dette financière et dette écologique, et à L1.C17, qui expose ce qu'une refonte de l'émission changerait. Multipliée par tous ceux qui, depuis quarante ans, ont eu la transition en charge, elle contribue à une trajectoire où chaque plan a paru historique en son temps pendant que les émissions mondiales continuaient de croître — 57,7 milliards de tonnes d'équivalent CO2 en 2024, en hausse de 2,3 % [S7].
 
 ## 5. Trois traits de la figure
 
@@ -165,7 +186,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 ::hypothese:: Cette lucidité n'est pas une démobilisation : l'entreprise tient, le salarié travaille, la ministre décide, et chaque cycle est mené avec compétence. Ce qui ne tourne pas, c'est la direction d'ensemble. Et pendant que les alertes s'accumulent, le produit intérieur brut reste la mesure du succès collectif (L1.C02) : les récompenses les plus hautes vont à ceux qui poussent le rocher le plus fort.
 
-::hypothese:: Camus, dans le contexte de sa guerre, invitait à imaginer Sisyphe heureux : une éthique de résistance à l'absurde [S1]. Le Sisyphe économique ne peut pas s'en contenter, et c'est ce qui le distingue. Sa peine n'est pas métaphysique ; elle tient pour partie à des règles humaines — la solvabilité comme critère, la stabilité des prix comme mandat, l'équilibre budgétaire comme discipline (L1.C13 § 5). Cette part-là se comprend, se décompose, s'ouvre. Les autres — l'usure du capital, la saturation du revenu, le passager clandestin — demeureront sous n'importe quel régime, et une refonte monétaire ne les résoudra pas.
+::hypothese:: La figure de Camus s'achève sur une invitation à imaginer Sisyphe heureux. Le Sisyphe économique ne peut pas s'en contenter, et c'est ce qui le distingue. Sa peine n'est pas métaphysique ; elle tient pour partie à des règles humaines — la solvabilité comme critère, la stabilité des prix comme mandat, l'équilibre budgétaire comme discipline (L1.C13 § 5). Cette part-là se comprend, se décompose, s'ouvre. Les autres — l'usure du capital, la saturation du revenu, le passager clandestin — demeureront sous n'importe quel régime, et une refonte monétaire ne les résoudra pas.
 
 ## 6. Portée
 

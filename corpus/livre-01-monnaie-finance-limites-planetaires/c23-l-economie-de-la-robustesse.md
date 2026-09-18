@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-15
+revision_de_fond: 2026-09-18
 autorite: preparatoire
 citable: false
 regime: conception
@@ -124,6 +124,32 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # ── AUDIT TIERS DU 2026-09-18, REÇU ET VÉRIFIÉ ──────────────────
+  # Rapport dans `protocoles/rapport-audit-L1-C23-tiers.md`, vérification citation par
+  # citation dans `protocoles/verification-audit-tiers-L1-C23.md`. Sur quatorze passages
+  # cités : 5 exacts, 5 partiels, 4 absents dont deux citations de source en anglais.
+  #
+  # APPLIQUÉ CE JOUR, deux défauts confirmés sur le fichier et une décision de l'auteur :
+  # le § 5 posait l'identité du résultat de [S6] et des trois traits du § 2, alors que
+  # l'interconnexion et la modularité sont de sens contraires et que le même paragraphe
+  # le concède trois lignes plus bas ; l'équivalence ne portait AUCUN appel de source,
+  # [S6] fermant la phrase précédente. Le § 4 annonçait "trois des quatre" en n'en
+  # nommant que deux. La formule "devient un résultat" est retirée du § 5, du § 7 et du
+  # résumé (décision de l'auteur du 2026-09-18).
+  #
+  # ÉCARTÉES APRÈS VÉRIFICATION, et la trace en est au document de vérification :
+  # l'objection déclarée bloquante sur Mundell visait une phrase qui porte (L1.C19 § 6)
+  # et non [S11] ; celle sur le plein emploi ignorait la phrase précédente, qui pose la
+  # condition ; celle sur l'offshore ignorait que le chapitre distingue déjà destruction
+  # et interruption, et rattache l'interruption à l'hypothèse d'un modèle nommé.
+  - "LIMITE À MENTIONNER, non corrigée : un avoir placé offshore est replacé en actifs
+     financiers et ne quitte pas la circulation mondiale. Le § 4 rattache l'interruption
+     du retour à l'hypothèse qui porte le résultat de Jackson et Victor, ce qui est
+     exact ; reste à dire si cette hypothèse décrit les avoirs offshore réels."
+  - "§ 5 — REFORMULER LA REPRISE DE L'AJUSTEMENT PAR LES QUANTITÉS comme une inférence
+     du corpus et non comme un report du résultat des zones monétaires : le chapitre
+     écarte d'abord l'objection au motif que l'unité ne circule pas, puis en reprend la
+     conclusion sous une forme qu'il déclare propre au dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le plan directeur a été ouvert AVANT d'écrire ce chapitre, contrairement aux
   # rangs C17 à C22 (protocoles/passe-2.md § 7, A1). Rang et intitulé confirmés :
@@ -270,7 +296,7 @@ verifications_en_attente:
   - "OUVERT — L'indicateur. Une économie de la robustesse ne peut pas être
      pilotée sans mesure de la robustesse, et il n'en existe pas. Renvoi à
      L1.C28 (« Au-delà du PIB »), qui ne peut pas être une réponse circulaire."
-resume: "Ce chapitre revient sur la question que L1.C04 § 7 avait laissée ouverte — le déplacement d'objectif de la performance vers la robustesse exige-t-il de modifier l'émission monétaire ? — maintenant que le dispositif a été exposé. Il expose d'abord le déplacement conceptuel dont procède le mot : la distinction établie en 1973 entre stabilité, comprise comme vitesse de retour à l'équilibre, et résilience, comprise comme maintien des fonctions à travers le changement, deux propriétés qui peuvent être inversement corrélées ; la robustesse y ajoute l'absorption de perturbations non anticipées. Il établit ensuite ce que cette exigence coûte, et que le livre n'énonce pas : la robustesse a pour signature la redondance, la diversité et la modularité, c'est-à-dire exactement ce que l'optimisation élimine, de sorte qu'un gain de robustesse est une réduction délibérée d'efficacité mesurée dont quelqu'un supporte le prix. Il retient la thèse du blocage structurel dans sa version étroite et refuse sa version forte, conformément à ce que le corpus a établi ailleurs : une économie stationnaire portant une dette à intérêt est possible si les revenus d'intérêts sont redépensés, et la contrainte de croissance est donc conditionnelle et non arithmétique. Il établit que le régime transitoire est pris entre deux contraintes de sens opposé, l'émission anticipée mettant les emplois en concurrence sur des facteurs finis et la contraction anticipée faisant arriver le chômage avant l'emploi qui doit l'absorber. Il formule enfin l'objection centrale : mesuré à ses propres critères, le dispositif présente une architecture centralisée là où la littérature de la robustesse recommande la diversité et la modularité. Cette objection atteint ici un seuil, puisqu'elle est arrivée par trois traditions sans rapport entre elles — gouvernance des communs, théorie des réseaux de flux, théorie des zones monétaires — et qu'une objection qui se présente trois fois par des chemins séparés cesse d'être une objection pour devenir un résultat."
+resume: "Ce chapitre revient sur la question que L1.C04 § 7 avait laissée ouverte — le déplacement d'objectif de la performance vers la robustesse exige-t-il de modifier l'émission monétaire ? — maintenant que le dispositif a été exposé. Il expose d'abord le déplacement conceptuel dont procède le mot : la distinction établie en 1973 entre stabilité, comprise comme vitesse de retour à l'équilibre, et résilience, comprise comme maintien des fonctions à travers le changement, deux propriétés qui peuvent être inversement corrélées ; la robustesse y ajoute l'absorption de perturbations non anticipées. Il établit ensuite ce que cette exigence coûte, et que le livre n'énonce pas : la robustesse a pour signature la redondance, la diversité et la modularité, c'est-à-dire exactement ce que l'optimisation élimine, de sorte qu'un gain de robustesse est une réduction délibérée d'efficacité mesurée dont quelqu'un supporte le prix. Il retient la thèse du blocage structurel dans sa version étroite et refuse sa version forte, conformément à ce que le corpus a établi ailleurs : une économie stationnaire portant une dette à intérêt est possible si les revenus d'intérêts sont redépensés, et la contrainte de croissance est donc conditionnelle et non arithmétique. Il établit que le régime transitoire est pris entre deux contraintes de sens opposé, l'émission anticipée mettant les emplois en concurrence sur des facteurs finis et la contraction anticipée faisant arriver le chômage avant l'emploi qui doit l'absorber. Il formule enfin l'objection centrale : mesuré à ses propres critères, le dispositif présente une architecture centralisée là où la littérature de la robustesse recommande la diversité et la modularité. Cette objection atteint ici un seuil, puisqu'elle est arrivée par trois traditions sans rapport entre elles — gouvernance des communs, théorie des réseaux de flux, théorie des zones monétaires — sans que le corpus tire de ce nombre une valeur de preuve : les trois voies n'ont pas convergé d'elles-mêmes, et chacune n'appuie le reproche que sur le point qui lui est propre."
 concepts: [robustesse, resilience, degeneratif, sobriete, essentiel_insolvable, qualification_regenerative, communs]
 renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C28]
 ---
@@ -345,7 +371,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::hypothese:: Cette position mérite d'être distinguée des trois autres, parce qu'elle déplace la contrainte. Elle ne la fait venir ni de l'intérêt — explicitement écarté — ni du profit, mais du **remboursement du principal comme fuite**. Elle n'est donc pas atteinte par l'objection qui a détruit l'argument arithmétique, et elle ajoute une propriété que le corpus n'avait pas : la contrainte ne se contente pas d'exister, **elle s'aggrave à mesure que la croissance dure**. La conclusion de l'auteur est explicite : l'origine des retournements « ne serait alors pas à rechercher dans le caractère privé et décentralisé du mode de production capitaliste, mais dans les mécanismes de création et destruction monétaires » [S19].
 
-::etat:: Le corpus enregistre donc que le débat compte quatre positions et non deux, et qu'il ne peut pas être présenté comme tranché. Aucune n'est arithmétique. Trois des quatre concluent, par des chemins différents, à une réforme du mode d'émission — exogène chez l'une [S18], par monétisation d'une part stable et pré-décidée des dépenses publiques chez l'autre [S19].
+::etat:: Le corpus enregistre donc que le débat compte quatre positions et non deux, et qu'il ne peut pas être présenté comme tranché. Aucune n'est arithmétique. **Deux des quatre** concluent, par des chemins différents, à une réforme du mode d'émission — exogène chez l'une [S18], par monétisation d'une part stable et pré-décidée des dépenses publiques chez l'autre [S19]. Les deux autres ne concluent pas ainsi : la première établit qu'aucun impératif ne découle de la création de crédit ni du service de l'intérêt [S7], la seconde situe l'impératif dans l'exigence de profit [S10].
 
 ::hypothese:: Et il faut relever ici une objection que cette quatrième position adresse au dispositif, sans la viser. Si le mécanisme des crises est que **la destruction monétaire par remboursement creuse l'écart entre les revenus distribués et la valeur de la production**, alors un dispositif dont le cœur est une destruction monétaire délibérée pousse, sur ce point précis, dans le sens de la maladie. La réponse existe et le corpus la connaît : le reflux transactionnel est censée compenser une émission qui a distribué du pouvoir d'achat en amont, de sorte qu'elle n'est pas contractionnaire nette par construction (L1.C21 § 1). Mais cette réponse porte sur les volumes, non sur l'incidence ni sur le calendrier — qui paie le reflux transactionnel, à quel moment du circuit, et avec quel effet sur la demande. Le corpus n'a aucun modèle qui réponde. L'objection est portée au registre.
 
@@ -375,7 +401,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::hypothese:: C'est l'objection principale de ce chapitre, et elle est d'autant plus sérieuse qu'elle ne vient pas d'une école hostile : elle vient de la littérature dont le livre tire son objectif.
 
-::etat:: La transposition de l'analyse des réseaux de flux aux systèmes économiques a été faite par les auteurs mêmes de la mesure, et leur conclusion porte sur la structure : la robustesse d'un réseau d'échange tient à la **diversité et à l'interconnexion de ses canaux**, non à l'efficacité de la circulation dans un canal unique [S6]. Le même résultat s'énonce dans les trois traits du § 2 : redondance, diversité, modularité.
+::etat:: La transposition de l'analyse des réseaux de flux aux systèmes économiques a été faite par les auteurs mêmes de la mesure, et leur conclusion porte sur la structure : la robustesse d'un réseau d'échange tient à la **diversité et à l'interconnexion de ses canaux**, non à l'efficacité de la circulation dans un canal unique [S6]. **Un seul des trois traits du § 2 est commun à ce résultat : la diversité.** Les deux autres n'y sont pas, et il faut le dire plutôt que de les aligner. La redondance n'est pas nommée par cette pièce. Et la **modularité est de sens contraire à l'interconnexion**, puisqu'elle cloisonne ce que celle-ci relie — ce que le paragraphe suivant reconnaît en notant qu'un réseau trop modulaire perd la capacité de transmettre. Les trois traits viennent du cahier technique de l'auteur [S3] ; **cette voie-ci n'en appuie qu'un**, et c'est sur lui que la comparaison porte.
 
 ::hypothese:: Or le dispositif présente, sur trois plans, l'architecture inverse. La qualification de ce qui est régénératif procède d'un barème unique arrêté par une assemblée mondiale (L1.C18, L1.C22 § 2). La décision d'émission est prise par un organe unique. Et le référentiel d'échange annoncé est un étalon unique. Sur chacun de ces trois plans, le dispositif choisit l'uniformité là où sa propre littérature de référence recommande la diversité.
 
@@ -407,8 +433,8 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::etat:: Il a retenu contre le texte du livre la version étroite de la thèse structurelle. La contrainte de croissance est une configuration institutionnelle, non une nécessité arithmétique. Le corpus perd en force rhétorique ce qu'il gagne en défendabilité, et il gagne aussi ceci : une configuration se modifie, une fatalité ne se modifie pas.
 
-::hypothese:: Il a enfin porté l'objection qui compte, et elle vient de l'intérieur : mesuré aux critères de la littérature dont il tire son objectif, le dispositif est centralisé là où cette littérature recommande la diversité et la modularité. L'objection n'est pas dirimante — la pluralité monétaire est préservée, et l'uniformité du barème a une justification.
+::hypothese:: Il a enfin porté l'objection qui compte, et elle vient de l'intérieur : mesuré aux critères de la littérature dont il tire son objectif, le dispositif est centralisé là où cette littérature recommande la diversité — la modularité, elle, vient du cahier technique de l'auteur et non de cette littérature [S3]. L'objection n'est pas dirimante — la pluralité monétaire est préservée, et l'uniformité du barème a une justification.
 
-::hypothese:: Mais elle atteint ici un seuil. Elle est arrivée par la littérature des communs (L1.C22 § 2), par la théorie des réseaux de flux, puis par celle des zones monétaires — trois traditions sans rapport entre elles, mobilisées pour trois raisons différentes, qui aboutissent au même reproche adressé à la même architecture. **Une objection qui se présente trois fois par des chemins séparés cesse d'être une objection et devient un résultat.** Le corpus ne peut plus la porter au registre en attendant : elle appelle une décision de conception, et c'est l'objet de A4.
+::hypothese:: Mais elle atteint ici un seuil. Elle est arrivée par la littérature des communs (L1.C22 § 2), par la théorie des réseaux de flux, puis par celle des zones monétaires — trois traditions sans rapport entre elles, mobilisées pour trois raisons différentes, qui aboutissent au même reproche adressé à la même architecture. **Le corpus ne tire pas de ce nombre une valeur de preuve.** Les trois voies n'ont pas convergé d'elles-mêmes : c'est lui qui les a rapprochées, et chacune n'appuie le reproche que sur le point qui lui est propre — la diversité pour la deuxième, l'ajustement sous choc asymétrique pour la troisième. Ce qu'il en retient est plus étroit, et suffit : l'objection ne peut plus être portée au registre en attendant, elle appelle une décision de conception, et c'est l'objet de A4.
 
 ::hypothese:: Reste la question que L1.C04 § 7 avait laissée ouverte, et le chapitre peut maintenant y répondre — par la négative sur le point le plus fort. **Le corpus n'a pas établi qu'une économie de la robustesse exige de modifier l'émission monétaire.** Il a établi que le financement de la régénération se heurte au filtre de solvabilité (L1.C15), que le canal budgétaire dépend d'une assiette liée à l'activité qu'il faudrait contracter (L1.C19 § 2), et que ces limites sont réelles. Il n'a pas établi qu'aucun autre dispositif ne les surmonte. La modification de l'émission reste donc une voie plausible et non une voie nécessaire, et c'est ainsi que le corpus doit la présenter.
