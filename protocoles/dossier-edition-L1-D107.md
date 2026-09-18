@@ -9,9 +9,14 @@ dix architectures de chapitre qui en portent, puis relus un par un. Chaque fiche
 options, la recommandation de l'architecture, et **ce que la recommandation coûte** — c'est
 l'information que la validation en bloc aurait tue.
 
-**Ce qu'il n'est pas.** Il ne vérifie aucune source et n'en ouvre aucune. Il ne tranche rien : les
+**Ce qu'il n'est pas.** Il n'ouvre aucune source dans le corpus et ne tranche rien : les
 recommandations restent des recommandations. Il ne rouvre aucune décision déjà rendue — D66, D67,
 D92 à D108 gouvernent ces chapitres et ne sont pas en discussion ici.
+
+**Mis à jour le 2026-09-18.** Les deux points que ce dossier déclarait non applicables en l'état —
+la réserve de L1.C22 Q4 et la condition de L1.C24 Q4 — ont été levés par un contrôle sur git et par
+la lecture de deux pièces. **L'un des deux retourne la recommandation de son point.** Plus rien
+n'attend avant le lot 1.
 
 ---
 
@@ -34,10 +39,11 @@ l'annexe PFMI de L1.C24, qui bloquerait le passage à `verifie`.
 | L1.C26 | S4 | Mehrling, notes de cours — support de cours, non publié | C26 Q4 |
 | L1.C26 | S7 | Rey, *Dilemma not Trilemma* — sert la branche écartée par A32 | C26 Q4 |
 
-**Trois recommandations ajoutent du travail au lieu d'en retirer**, et il faut le savoir avant de
-les accepter : L1.C24 Q4 demande d'adosser les chiffres aux enquêtes de la BRI, donc une
-acquisition ; L1.C20 Q5 et Q6 ajoutent deux courts passages ; L1.C29 Q7 demande un recomptage par
-script du registre des promesses.
+**Deux recommandations ajoutent du travail au lieu d'en retirer**, et il faut le savoir avant de les
+accepter : L1.C20 Q5 et Q6 ajoutent deux courts passages ; L1.C29 Q7 demande un recomptage par
+script du registre des promesses. **Une troisième en ajoutait, et n'en ajoute plus** : L1.C24 Q4
+devait « adosser les chiffres aux enquêtes de la BRI » ; l'article publié lu le 2026-09-18 porte les
+chiffres avec leur attribution à la BRI, et l'acquisition tombe.
 
 **Quatre points ne sont pas seulement éditoriaux, malgré le classement de D107.** Ils corrigent un
 énoncé que le corpus tient aujourd'hui, ou engagent un texte hors du chapitre :
@@ -49,12 +55,15 @@ script du registre des promesses.
   spécification du 2026-09-13**, qui portent la même formule. Accepter le point ici engage deux
   textes de plus.
 - **L1.C18 Q7.6** — déplacer la démonstration vers L7.C09 **crée une tâche dans un autre livre**.
-- **L1.C24 Q4** — la recommandation est **conditionnelle** : (b) s'il existe un texte publié qui
-  porte la thèse de l'hybridité, (c) sinon. Elle n'est pas applicable sans une recherche préalable.
+- **L1.C24 Q4** — **RÉSOLU le 2026-09-18, et la réponse se dédouble** (voir la fiche). Le texte publié
+  existe et a été lu : Perry Mehrling, « Essential hybridity: A money view of FX », *Journal of
+  Comparative Economics*, 41(2), 2013, p. 355-363. Il porte **tout** ce que C24 attribue à S2, chiffres
+  compris. **S3 n'est portée par aucune pièce publiée** et reste sur les notes.
 
-**Un point demande une vérification avant d'être appliqué** : L1.C22 Q4, dont la recommandation est
-donnée « sous réserve du contrôle sur git » — savoir si l'erreur a été tenue, ou seulement écrite
-dans un brouillon du jour.
+**La réserve de L1.C22 Q4 est levée le 2026-09-18, et elle renverse la recommandation.** Le contrôle sur
+git montre que **les trois rétractations étaient déjà dans le commit de naissance du chapitre**,
+`259aa987` du 2026-09-05 : aucune des trois erreurs n'a donc été tenue par le corpus, et le critère
+éditorial tranche de la même façon pour les trois. Voir la fiche.
 
 ---
 
@@ -143,9 +152,24 @@ jour ? — sans l'appliquer à ce chapitre.
 Options : (a) retirer les trois ; (b) retirer les deux corrections d'audit (monopole naturel, Bakou)
 et garder la rétractation sur le DTS sans dette, que F5 et P31 emploient comme résultat ; (c) garder
 les trois.
-**Recommandation : (b), sous réserve du contrôle sur git** : la rétractation sur le DTS porte contre
-une source et est reprise ailleurs ; les deux autres corrigeaient une rédaction. *Coût* : la réserve
-est une vérification à faire avant d'appliquer.
+**Recommandation de l'architecture : (b), sous réserve du contrôle sur git.** **La réserve a été levée le
+2026-09-18, et elle retourne la recommandation vers (a).** Deux constats.
+
+**(1) Aucune des trois erreurs n'a été tenue par le corpus.** `git log --follow -S` sur les trois formules
+de rétractation les trouve toutes dans `259aa987` du 2026-09-05, « Livre 1 : première passe, 30 chapitres »,
+qui est le commit de naissance du chapitre : les « versions précédentes » auxquelles le corps renvoie sont
+des brouillons hors dépôt. Le critère éditorial du 2026-09-08 — tenue, ou seulement écrite dans un brouillon
+du jour ? — répond « brouillon » pour les trois.
+
+**(2) Le motif donné pour garder la troisième ne tient pas comme il est écrit.** « DTS » n'apparaît pas une
+fois dans `protocoles/falsification.md`. Ce que F5 emploie, à sa ligne 1217, est le **résultat** — la norme
+statistique range une allocation de droits de tirage spéciaux parmi les dettes de long terme —, non la
+rétractation ; P31 emploie l'allocation comme précédent de clé de répartition. **Le résultat est indépendant
+de la rétractation** : il reste dans le corps, sourcé [S11] et [S7], et F5 continue d'y puiser son test.
+
+**Ce que le contrôle change donc** : (a) « retirer les trois » devient la lecture cohérente avec le critère,
+sans rien perdre du fond. *Coût* : le corps cesse de porter la trace de trois erreurs qu'il n'a jamais
+publiées — ce qui est l'effet voulu d'une règle sur les rétractations, non une perte.
 
 ### L1.C24 — deux points
 
@@ -160,9 +184,33 @@ texte. *Coût* : aucun ; en outre **l'annexe PFMI cite une source non déclarée
 **Q4 — Les notes de Mehrling (S2, S3).** (a) ouvrir les notes en déclarant leur statut de support de
 cours ; (b) adosser les chiffres aux enquêtes de la BRI et la thèse de l'hybridité à un texte
 publié ; (c) mêler — BRI pour les chiffres, notes pour la contrainte de survie.
-**Recommandation : (b) s'il existe un texte publié portant la thèse, (c) sinon.** *Coût* :
-**la recommandation est conditionnelle et demande une recherche avant d'être applicable** ; (b)
-ajoute une acquisition.
+**Recommandation de l'architecture : (b) s'il existe un texte publié portant la thèse, (c) sinon.**
+**La condition a été levée le 2026-09-18 : les deux pièces ont été téléchargées et lues, et la réponse se
+dédouble — (b) pour S2, le maintien des notes pour S3 seule.**
+
+**S2 est entièrement rebasable sur un article de revue à comité de lecture** : Perry Mehrling, « Essential
+hybridity: A money view of FX », *Journal of Comparative Economics*, 41(2), 2013, p. 355-363, ouvert par
+téléchargement direct depuis la page institutionnelle de l'auteur
+(`https://sites.bu.edu/perry/files/2019/04/Essential-hybridity.pdf`). Il porte, folios relevés sur les
+en-têtes courants : la contrainte de survie, nommée d'après Minsky 1957 et rebaptisée « reserve
+constraint », avec le mécanisme de règlement de fin de journée que C24 traduit presque mot pour mot
+(**folio 357**) ; les 51 % de volume sur quelques devises majeures et le **84,9 % de volume ayant le dollar
+pour une jambe**, attribués dans l'article aux « most recent BIS numbers » (**folio 361**) ; le dollar en
+cause comme monnaie de banque ; l'hybridité, dix-neuf fois. **Aucune acquisition BRI n'est donc nécessaire
+pour le chiffre** : l'article le porte avec son attribution, et le corpus l'attribuerait à Mehrling
+rapportant la BRI, non à la BRI directement — l'article ne nomme pas l'année de l'enquête.
+
+**S3 n'est portée par aucune des deux pièces publiées.** Le second texte — « The Inherent Hierarchy of
+Money », 2012, publié en 2013 chez Routledge dans *Social Fairness and Economics* — ne mentionne métallisme
+et chartalisme **qu'une fois chacun, comme deux traditions de pensée dont la dominance fluctue**, et non
+comme la distinction de Schumpeter entre deux systèmes parallèles. Il ne porte ni « hybrid », ni
+« unresolved », ni « contradiction » : **l'asymétrie non résolue n'y est pas.** Elle reste sur les notes,
+dont le chapitre déclare déjà le statut à sa ligne 220 — « une lecture historique, celle de la même source
+et non un fait établi de façon indépendante ».
+
+*Coût* : aucun pour S2, gain net — une source publiée remplace un support de cours. Pour S3, le chapitre
+garde une source non publiée pour une lecture qu'il déclare comme telle ; l'alternative serait de chercher
+un texte portant la distinction de Schumpeter, ou de retirer le passage.
 
 ### L1.C26 — deux points
 
@@ -270,13 +318,14 @@ réserve de L1.C22 Q4. (2) Répondre chapitre par chapitre, dans l'ordre des lot
 (C24, C26, C27), lot 2 (C17, C20, C21), lot 3 (C18, C19, C22), lot 4 (C28, C29, C30). (3) Répondre
 par lots de quatre questions, comme les seize décisions de la tranche 3 l'ont été.
 
-**Un point ne peut pas attendre la réécriture** : L1.C24 Q4 demande une recherche — un texte publié
-portant la thèse de l'hybridité — avant que sa recommandation soit applicable. Le lot 1 commence par
-C24.
+**Les deux points qui bloquaient sont levés le 2026-09-18** : la recherche que L1.C24 Q4 demandait est
+faite, les deux pièces sont lues, et la réserve de L1.C22 Q4 est tranchée par le contrôle sur git.
+**Plus rien n'attend avant le lot 1**, qui commence par C24.
 
 ## 4. Ce que ce dossier ne vérifie pas
 
-Il ne rouvre aucune source et n'en ouvre aucune. Les états de lecture cités au § 1 ont été relevés
+Il n'ouvre aucune source dans le corpus : les deux pièces lues le 2026-09-18 pour L1.C24 Q4 le sont pour
+établir qu'elles portent la thèse, et l'entrée S2 ne sera rebasée que si l'auteur retient la recommandation. Les états de lecture cités au § 1 ont été relevés
 par script sur les en-têtes le 2026-09-17 ; les attributs qualitatifs — « sous droits », « non
 ouvrable », « page incertaine » — sont repris des entrées de source et des architectures, non
 recontrôlés à la pièce. Les options et recommandations sont reprises des architectures sans être
