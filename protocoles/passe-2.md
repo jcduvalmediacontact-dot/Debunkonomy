@@ -7807,3 +7807,23 @@ Aucun des trois substituts ne portait l'énoncé. **S19 est rebasée sur Słomcz
 ### Harmonisation du vocabulaire, sur accord explicite
 
 **La définition `additionnalite` est corrigée**, suite de D104 : l'additionnalité contrefactuelle est « écartée **au niveau du paiement** en L1.C18 § 5, sur l'écart entre le scénario de référence déclaré et le contrefactuel observé, le mot « invérifiable » étant celui du livre et non celui de la pièce », et la définition ajoute que **l'additionnalité en ressources réelles demeure exigée au niveau de l'instrument (L1.C31)**. Aucun nom de vocabulaire n'est ajouté ni retiré ; `premiere_occurrence` est inchangée.
+
+## D107 SOLDÉE — LES VINGT-SIX POINTS D'ÉDITION TRANCHÉS UN PAR UN, 2026-09-18
+
+**L'auteur avait refusé la validation en bloc et demandé les points un par un ; les vingt-six sont
+tranchés.** Le tableau des réponses et les deux vérifications qu'elles ont demandées sont dans
+`protocoles/dossier-edition-L1-D107.md`, § 5. **La réécriture des onze chapitres n'attend plus aucune
+décision.**
+
+**Ce que la lecture point par point a produit, et qu'une validation en bloc aurait manqué.** Trois points
+ont été tranchés **contre** la recommandation ou l'ont retournée, et chaque fois une vérification a suivi :
+le texte du livre interrogé pour C20 Q3 — qui ne porte ni les fonds propres ni le chantier théorique
+ouvert, sur une extraction dont le contrôle positif est posé ; l'exemplaire de S9 retéléchargé pour
+C19 Q2 — scan sans couche de texte, substitut déjà ouvert dans L1.C20 ; l'ancrage de P57 vérifié pour
+C30 Q6 — sur le § 3 et non le § 5, ce qui retire à l'architecture son motif. **Une quatrième vérification
+n'était pas demandée et corrige le corpus** : la citation que L1.C20 attribue au livre n'est pas littérale.
+
+**Ce que le solde de D107 ne fait pas.** Il ne réécrit aucun chapitre : il fixe ce que la réécriture devra
+porter. Il n'ouvre aucune source. Et il laisse trois chantiers nommés par les réponses elles-mêmes : la
+bascule de Stella vers Buiter dans trois chapitres, la requalification du cadre IPSASB pour L1.C19, et la
+reprise de P57 et de la spécification du 2026-09-13 qu'exige C30 Q5.

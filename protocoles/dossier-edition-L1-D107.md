@@ -331,3 +331,79 @@ ouvrable », « page incertaine » — sont repris des entrées de source et des
 recontrôlés à la pièce. Les options et recommandations sont reprises des architectures sans être
 rejugées : c'est leur lecture, non un second avis. Il ne dit pas que les recommandations sont justes,
 seulement ce qu'elles coûtent.
+
+---
+
+## 5. Les vingt-six réponses de l'auteur — 2026-09-18
+
+**Les vingt-six points sont tranchés**, un par un, en sept séries. Le tableau ci-dessous porte la réponse
+retenue pour chacun ; les fiches du § 2 portent les options et leurs coûts, et ne sont pas réécrites.
+
+| point | réponse de l'auteur |
+|---|---|
+| **C17 Q3** | (a) reduire au noyau ; S14 tombe, les deux theses du chapitre survivent |
+| **C18 Q7.4** | (a/c) tutelles vers Livre 6, carence vers L7.C10 avec renvoi ; chiffres de cout retires, constat qualitatif garde sur S14 (sauf source identifiee par l'auteur) |
+| **C18 Q7.6** | (b) une phrase dans C18, demonstration en L7.C09 ; S9 et S19 sortent de C18 ; tache creee au Livre 7 |
+| **C19 Q2** | (b) CONTRE RECOMMANDATION : garder l'expose, refondu sur A35b et A30. Faisable : fonds propres negatifs rebases sur Buiter (L1.C20 S5, ouverte) ; definition comptable d'un actif sur le cadre IPSASB instruit en L18.C01 (a_requalifier, reserve a declarer). A35b bloque toujours la conclusion. |
+| **C19 Q3** | (b) deplacer la dominance et le mandat vers L1.C18 ; C19 garde l'effet de premier receveur ; S6 sort de C19 |
+| **C20 Q3** | APRES PREUVE : attribuer au script d'adaptation. Le livre ne porte ni les fonds propres ni le chantier theorique ouvert (0 occurrence, extraction du 2026-09-04) |
+| **C20 Q4** | (a) retirer les faits zimbabweens de 2009 |
+| **C20 Q5** | (a) un paragraphe au para 1, dans l'etat corrige par F5 |
+| **C20 Q6** | (a) une phrase et un renvoi a L1.C26 sur le financement des guichets |
+| **C20 Q7** | (a) le principe ici, les parametres au Livre 2, avec la liste de renvois |
+| **C22 Q4** | RESERVE LEVEE 2026-09-18 : (a) retirer les trois ; aucune erreur n'a ete tenue |
+| **C24 Q2** | (a) porter au corps ce que le texte aligne retient, verser le reste a passe-2 |
+| **C24 Q4** | RESOLU 2026-09-18 : (b) pour S2 sur Mehrling JCE 2013 ; notes gardees pour S3 seule |
+| **C26 Q3** | (a) architecture et parametres de l'auteur, declares non calibres, avec les seuls prix publies |
+| **C26 Q4** | (a) deplacer etalon-or et nuance de Rey vers L3.C02 ; S4 et S7 tombent de C26 |
+| **C28 Q1** | (a) attribuer la triade au Cahier technique et a L1.C23 para 2, formulation de l'auteur ; phrase alignee sur le vocabulaire (reserves, redondances, marges) |
+| **C29 Q1** | (c) les deux : structure de la conclusion du 2026-09-09 mise a jour par A43, et etat calcule du registre comme etat date, produit par script |
+| **C29 Q3** | (b) garder la voie du demurrage comme branche, avec son canal d'erosion (l'encours) et le champ borne par D78 ; retirer « la moins couteuse », faute de chiffrage |
+| **C29 Q4** | (b) integrer l'etat des annexes au corps avec renvois nommes aux Livres 10 et 18 ; evite d'ouvrir une dizaine de sources au Livre 1 |
+| **C29 Q5** | (a) clore l'alerte apres controle de l'appel aux l. 117 et 141 ; S5 appelee si l'etat du dossier cite le chapitre de cloture, sinon retiree |
+| **C29 Q6** | (b) reformuler : ce qui est abandonne est l'actif qui refermerait le cycle, non la comptabilite ordinaire (coherent avec A2 quater et Buiter) |
+| **C29 Q7** | (b) dans le chapitre : retirer le nombre, renvoyer au registre ; (a) dans le registre : recompter par script apres reconciliation |
+| **C30 Q4** | (a) garder le credit sur « pour rembourser » et dire ce que « chaque fois » simplifie ; la decision du 14 portait sur le monopole de creation, non sur le lieu de la contrainte |
+| **C30 Q5** | (b) retirer du chapitre la lecture charitable, AVEC reprise de P57 et de la specification du 2026-09-13 ; la reduction du temps de travail n'est pas un besoin essentiel au sens d'A44 |
+| **C30 Q6** | (b) CONTRE RECOMMANDATION : retirer le para 5. Verifie : P57 est ancree sur le para 3, non sur le para 5, et aucun falsifieur ne cite C30 — la prise sur la version publique est conservee. L'architecture etait imprecise. |
+| **C30 Q7** | (a) corriger l'entree S2 et la verification par constat du corps ; la presence des phrases dans S1 reste non verifiee et le reste dit |
+
+### Les deux réponses qui s'écartent de la recommandation, et ce qu'elles exigent
+
+**C19 Q2 — garder l'exposé du § 6, refondu sur A35b et A30.** L'architecture recommandait de le réduire,
+au motif qu'il exigerait un substitut à S9, déclarée non ouvrable. **Vérifié le 2026-09-18 : le choix est
+faisable, et moins coûteux que l'architecture ne le disait.** L'exemplaire de S9 — Stella, FMI WP/97/83 —
+a été retéléchargé depuis `imf.org` : trente-neuf pages, **zéro caractère extrait, page 1 réduite à une
+image**, confirmé par deux extracteurs indépendants. C'est un scan sans couche de texte, et la convention
+le tient pour non ouvert. **Mais le substitut est déjà dans le corpus** : Buiter, « Can Central Banks Go
+Broke? », CEPR Policy Insight 24, est `ouverte` dans L1.C20 depuis le 2026-09-16, sur l'exemplaire fourni
+par l'auteur, avec son critère de solvabilité lu en page 6. **Et la définition comptable d'un actif** que
+l'entrée de S9 porte aussi est celle du cadre conceptuel de l'IPSASB, **acquis et instruit en L18.C01**
+(§ 5.6A, § 5.12), dont l'état de lecture est `a_requalifier` : utilisable sous réserve déclarée, à
+requalifier avant `verifie`. **Ce qui ne change pas** : A35b bloque toujours la conclusion du § 6.
+
+**Trois chapitres reposent encore sur Stella pour le même énoncé** — L1.C19 S9, L1.C29 S6 et L11.C01 S5,
+tous `a_requalifier` et tous portant la réserve « références non ouvertes de première main ». Ils peuvent
+tous basculer sur Buiter.
+
+**C30 Q6 — retirer le § 5 au lieu de requalifier les jalons.** L'architecture avançait que requalifier
+« conserve l'utilité du chapitre pour P57 ». **Vérifié le 2026-09-18 : cette raison ne tient pas.** P57 est
+ancrée sur **L1.C30 § 3** — la liste de ce que la monnaie nouvelle rémunère —, non sur le § 5, et **aucun
+falsifieur ne cite L1.C30**. Retirer le § 5 ne coûte donc pas à P57 sa prise sur la version publique. Le
+coût réel est autre, et il est assumé : le chapitre perd ce qu'il présentait comme son apport propre.
+
+### Un point où la preuve a retourné la première réponse
+
+**C20 Q3 — l'attribution au livre.** L'auteur avait d'abord choisi de la garder. **Le texte du livre a été
+interrogé** : sur une extraction complète — page de titre à bibliographie, 486 321 caractères —
+« fonds propres » **0 occurrence**, « capitaux propres » **0**, « bilan de la banque centrale » **0**,
+« consensus académique » **0**. « Contrepartie » y figure vingt-cinq fois, toujours comme contrepartie
+d'une dette ou d'une activité labellisée, jamais comme un mouvement de fonds propres. **Contrôle positif
+posé** : « Rueff » dix fois, « reflux » cinquante-trois, « sans dette » trente-quatre — l'extraction
+couvre bien la matière du chapitre. L'auteur a alors tranché pour l'attribution au script d'adaptation,
+comme son propre en-tête le disait. **Réserve d'étendue** : l'extraction date du 2026-09-04 ; une révision
+postérieure du livre demanderait de la refaire.
+
+**Un défaut de citation relevé en passant** : la phrase que L1.C20 attribue au livre entre guillemets —
+« Rueff avait probablement raison **sur ce point** : … » — n'est pas littérale. Le livre écrit « Jacques
+Rueff avait probablement raison : … ». Trois mots insérés dans une citation, à corriger à la réécriture.
