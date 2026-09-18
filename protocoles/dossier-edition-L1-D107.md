@@ -336,6 +336,18 @@ seulement ce qu'elles coûtent.
 
 ## 5. Les vingt-six réponses de l'auteur — 2026-09-18
 
+**SECONDE CORRECTION, LE MÊME JOUR, ET ELLE PORTE SUR UNE PREUVE ET NON SUR UNE LETTRE.** Le constat qui a
+fait retourner la réponse de **L1.C20 Q3** — « le livre ne porte ni les fonds propres ni le chantier
+théorique ouvert » — **était faux**. Il avait été fait sur une extraction du livre datée du 2026-09-04,
+trouvée dans le bloc-notes, et non sur l'exemplaire que l'entrée de source déclare : la composition du
+22 août 2026 versée au dossier. **Les deux textes ne sont pas les mêmes.** Sur l'exemplaire déclaré, seul
+opposable, « fonds propres » figure six fois et le mécanisme est écrit au folio 208 : « La contrepartie de
+cette émission au bilan de la banque centrale n'est pas la réserve [...] mais un mouvement de fonds
+propres ». **La première réponse de l'auteur — garder l'attribution au livre — était la bonne, et elle lui
+est rendue.** La cause de l'erreur est nommée : avoir lu une extraction sans vérifier qu'elle était celle
+que la source déclare. C'est le même défaut que celui du relevé des chemins d'acquisition, une racine non
+vérifiée.
+
 **CORRECTION DU 2026-09-18, ET ELLE PORTE SUR CE TABLEAU.** Sa première version faisait précéder
 chaque réponse d'une lettre — « (a) », « (b) ». **Ces lettres étaient celles de l'ordre dans lequel
 les options ont été présentées à l'auteur, la recommandation en tête, et non celles des
@@ -356,7 +368,7 @@ retenue pour chacun ; les fiches du § 2 portent les options et leurs coûts, et
 | **C18 Q7.6** | Une phrase dans C18, demonstration en L7.C09 ; S9 et S19 sortent de C18 ; tache creee au Livre 7 |
 | **C19 Q2** | CONTRE RECOMMANDATION : garder l'expose, refondu sur A35b et A30. Faisable : fonds propres negatifs rebases sur Buiter (L1.C20 S5, ouverte) ; definition comptable d'un actif sur le cadre IPSASB instruit en L18.C01 (a_requalifier, reserve a declarer). A35b bloque toujours la conclusion. |
 | **C19 Q3** | Deplacer la dominance et le mandat vers L1.C18 ; C19 garde l'effet de premier receveur ; S6 sort de C19 |
-| **C20 Q3** | APRES PREUVE : attribuer au script d'adaptation. Le livre ne porte ni les fonds propres ni le chantier theorique ouvert (0 occurrence, extraction du 2026-09-04) |
+| **C20 Q3** | **LA PREUVE ÉTAIT FAUSSE, ET LA RÉPONSE EST RENDUE À L'AUTEUR.** Le relevé « 0 occurrence » portait sur une extraction du livre datée du 2026-09-04, et NON sur l'exemplaire que l'entrée S1 déclare — la composition du 22 août 2026. Les deux textes diffèrent. Sur l'exemplaire déclaré : « fonds propres » **6 occurrences**, « bilan de la banque centrale » **1**, et le mécanisme est écrit au **folio 208**. **Le livre porte donc l'attribution, et le premier choix de l'auteur — la garder au livre — était le bon.** Seule la déclaration de chantier théorique ouvert reste absente du livre : elle vient du script. **CONFIRMÉ PAR L'AUTEUR le 2026-09-18 : l'attribution reste au livre**, et le chapitre cite le folio 208 |
 | **C20 Q4** | Retirer les faits zimbabweens de 2009 |
 | **C20 Q5** | Un paragraphe au para 1, dans l'etat corrige par F5 |
 | **C20 Q6** | Une phrase et un renvoi a L1.C26 sur le financement des guichets |
