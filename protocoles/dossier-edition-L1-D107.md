@@ -336,37 +336,47 @@ seulement ce qu'elles coûtent.
 
 ## 5. Les vingt-six réponses de l'auteur — 2026-09-18
 
+**CORRECTION DU 2026-09-18, ET ELLE PORTE SUR CE TABLEAU.** Sa première version faisait précéder
+chaque réponse d'une lettre — « (a) », « (b) ». **Ces lettres étaient celles de l'ordre dans lequel
+les options ont été présentées à l'auteur, la recommandation en tête, et non celles des
+architectures.** Les deux coïncidaient parfois et divergeaient ailleurs : pour **L1.C26 Q3**,
+l'architecture lettre **(b)** — « L'architecture et les paramètres choisis par l'auteur [...],
+déclarés non calibrés » — ce que le tableau notait « (a) », dont le **(a)** de l'architecture est
+« L'architecture en mots, les nombres ailleurs », c'est-à-dire la branche opposée. **Un rédacteur
+partant de la lettre seule aurait écrit le chapitre inverse.** Les lettres sont donc retirées, et
+la substance retenue — qui est ce que l'auteur a lu et choisi — est inchangée, mot pour mot.
+
 **Les vingt-six points sont tranchés**, un par un, en sept séries. Le tableau ci-dessous porte la réponse
 retenue pour chacun ; les fiches du § 2 portent les options et leurs coûts, et ne sont pas réécrites.
 
 | point | réponse de l'auteur |
 |---|---|
-| **C17 Q3** | (a) reduire au noyau ; S14 tombe, les deux theses du chapitre survivent |
-| **C18 Q7.4** | (a/c) tutelles vers Livre 6, carence vers L7.C10 avec renvoi ; chiffres de cout retires, constat qualitatif garde sur S14 (sauf source identifiee par l'auteur) |
-| **C18 Q7.6** | (b) une phrase dans C18, demonstration en L7.C09 ; S9 et S19 sortent de C18 ; tache creee au Livre 7 |
-| **C19 Q2** | (b) CONTRE RECOMMANDATION : garder l'expose, refondu sur A35b et A30. Faisable : fonds propres negatifs rebases sur Buiter (L1.C20 S5, ouverte) ; definition comptable d'un actif sur le cadre IPSASB instruit en L18.C01 (a_requalifier, reserve a declarer). A35b bloque toujours la conclusion. |
-| **C19 Q3** | (b) deplacer la dominance et le mandat vers L1.C18 ; C19 garde l'effet de premier receveur ; S6 sort de C19 |
+| **C17 Q3** | Reduire au noyau ; S14 tombe, les deux theses du chapitre survivent |
+| **C18 Q7.4** | Tutelles vers Livre 6, carence vers L7.C10 avec renvoi ; chiffres de cout retires, constat qualitatif garde sur S14 (sauf source identifiee par l'auteur) |
+| **C18 Q7.6** | Une phrase dans C18, demonstration en L7.C09 ; S9 et S19 sortent de C18 ; tache creee au Livre 7 |
+| **C19 Q2** | CONTRE RECOMMANDATION : garder l'expose, refondu sur A35b et A30. Faisable : fonds propres negatifs rebases sur Buiter (L1.C20 S5, ouverte) ; definition comptable d'un actif sur le cadre IPSASB instruit en L18.C01 (a_requalifier, reserve a declarer). A35b bloque toujours la conclusion. |
+| **C19 Q3** | Deplacer la dominance et le mandat vers L1.C18 ; C19 garde l'effet de premier receveur ; S6 sort de C19 |
 | **C20 Q3** | APRES PREUVE : attribuer au script d'adaptation. Le livre ne porte ni les fonds propres ni le chantier theorique ouvert (0 occurrence, extraction du 2026-09-04) |
-| **C20 Q4** | (a) retirer les faits zimbabweens de 2009 |
-| **C20 Q5** | (a) un paragraphe au para 1, dans l'etat corrige par F5 |
-| **C20 Q6** | (a) une phrase et un renvoi a L1.C26 sur le financement des guichets |
-| **C20 Q7** | (a) le principe ici, les parametres au Livre 2, avec la liste de renvois |
+| **C20 Q4** | Retirer les faits zimbabweens de 2009 |
+| **C20 Q5** | Un paragraphe au para 1, dans l'etat corrige par F5 |
+| **C20 Q6** | Une phrase et un renvoi a L1.C26 sur le financement des guichets |
+| **C20 Q7** | Le principe ici, les parametres au Livre 2, avec la liste de renvois |
 | **C22 Q4** | RESERVE LEVEE 2026-09-18 : (a) retirer les trois ; aucune erreur n'a ete tenue |
-| **C24 Q2** | (a) porter au corps ce que le texte aligne retient, verser le reste a passe-2 |
+| **C24 Q2** | Porter au corps ce que le texte aligne retient, verser le reste a passe-2 |
 | **C24 Q4** | RESOLU 2026-09-18 : (b) pour S2 sur Mehrling JCE 2013 ; notes gardees pour S3 seule |
-| **C26 Q3** | (a) architecture et parametres de l'auteur, declares non calibres, avec les seuls prix publies |
-| **C26 Q4** | (a) deplacer etalon-or et nuance de Rey vers L3.C02 ; S4 et S7 tombent de C26 |
-| **C28 Q1** | (a) attribuer la triade au Cahier technique et a L1.C23 para 2, formulation de l'auteur ; phrase alignee sur le vocabulaire (reserves, redondances, marges) |
-| **C29 Q1** | (c) les deux : structure de la conclusion du 2026-09-09 mise a jour par A43, et etat calcule du registre comme etat date, produit par script |
-| **C29 Q3** | (b) garder la voie du demurrage comme branche, avec son canal d'erosion (l'encours) et le champ borne par D78 ; retirer « la moins couteuse », faute de chiffrage |
-| **C29 Q4** | (b) integrer l'etat des annexes au corps avec renvois nommes aux Livres 10 et 18 ; evite d'ouvrir une dizaine de sources au Livre 1 |
-| **C29 Q5** | (a) clore l'alerte apres controle de l'appel aux l. 117 et 141 ; S5 appelee si l'etat du dossier cite le chapitre de cloture, sinon retiree |
-| **C29 Q6** | (b) reformuler : ce qui est abandonne est l'actif qui refermerait le cycle, non la comptabilite ordinaire (coherent avec A2 quater et Buiter) |
-| **C29 Q7** | (b) dans le chapitre : retirer le nombre, renvoyer au registre ; (a) dans le registre : recompter par script apres reconciliation |
-| **C30 Q4** | (a) garder le credit sur « pour rembourser » et dire ce que « chaque fois » simplifie ; la decision du 14 portait sur le monopole de creation, non sur le lieu de la contrainte |
-| **C30 Q5** | (b) retirer du chapitre la lecture charitable, AVEC reprise de P57 et de la specification du 2026-09-13 ; la reduction du temps de travail n'est pas un besoin essentiel au sens d'A44 |
-| **C30 Q6** | (b) CONTRE RECOMMANDATION : retirer le para 5. Verifie : P57 est ancree sur le para 3, non sur le para 5, et aucun falsifieur ne cite C30 — la prise sur la version publique est conservee. L'architecture etait imprecise. |
-| **C30 Q7** | (a) corriger l'entree S2 et la verification par constat du corps ; la presence des phrases dans S1 reste non verifiee et le reste dit |
+| **C26 Q3** | Architecture et parametres de l'auteur, declares non calibres, avec les seuls prix publies |
+| **C26 Q4** | Deplacer etalon-or et nuance de Rey vers L3.C02 ; S4 et S7 tombent de C26 |
+| **C28 Q1** | Attribuer la triade au Cahier technique et a L1.C23 para 2, formulation de l'auteur ; phrase alignee sur le vocabulaire (reserves, redondances, marges) |
+| **C29 Q1** | Les deux : structure de la conclusion du 2026-09-09 mise a jour par A43, et etat calcule du registre comme etat date, produit par script |
+| **C29 Q3** | Garder la voie du demurrage comme branche, avec son canal d'erosion (l'encours) et le champ borne par D78 ; retirer « la moins couteuse », faute de chiffrage |
+| **C29 Q4** | Integrer l'etat des annexes au corps avec renvois nommes aux Livres 10 et 18 ; evite d'ouvrir une dizaine de sources au Livre 1 |
+| **C29 Q5** | Clore l'alerte apres controle de l'appel aux l. 117 et 141 ; S5 appelee si l'etat du dossier cite le chapitre de cloture, sinon retiree |
+| **C29 Q6** | Reformuler : ce qui est abandonne est l'actif qui refermerait le cycle, non la comptabilite ordinaire (coherent avec A2 quater et Buiter) |
+| **C29 Q7** | Dans le chapitre : retirer le nombre, renvoyer au registre ; (a) dans le registre : recompter par script apres reconciliation |
+| **C30 Q4** | Garder le credit sur « pour rembourser » et dire ce que « chaque fois » simplifie ; la decision du 14 portait sur le monopole de creation, non sur le lieu de la contrainte |
+| **C30 Q5** | Retirer du chapitre la lecture charitable, AVEC reprise de P57 et de la specification du 2026-09-13 ; la reduction du temps de travail n'est pas un besoin essentiel au sens d'A44 |
+| **C30 Q6** | CONTRE RECOMMANDATION : retirer le para 5. Verifie : P57 est ancree sur le para 3, non sur le para 5, et aucun falsifieur ne cite C30 — la prise sur la version publique est conservee. L'architecture etait imprecise. |
+| **C30 Q7** | Corriger l'entree S2 et la verification par constat du corps ; la presence des phrases dans S1 reste non verifiee et le reste dit |
 
 ### Les deux réponses qui s'écartent de la recommandation, et ce qu'elles exigent
 
