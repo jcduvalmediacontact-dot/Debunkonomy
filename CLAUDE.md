@@ -10,8 +10,10 @@ Lire dans cet ordre avant toute modification :
 
 1. [corpus/convention.md](corpus/convention.md) — schéma, statuts, empreintes,
    contrôle. **Autorité sur tout ce qui touche au corpus.** Aucun résumé
-   n'existe et ne doit être écrit : cf. son préambule. Révision courante : r12
-   (champ `etat_lecture` sur chaque source — `candidate`, `ouverte`,
+   n'existe et ne doit être écrit : cf. son préambule. Révision courante : r13
+   (vérification des exemplaires par un outil séparé et facultatif,
+   `corpus/verifier-exemplaires.py`, hors du chemin de publication — § 12 ;
+   r12 : champ `etat_lecture` sur chaque source — `candidate`, `ouverte`,
    `a_requalifier` —, `date_verification` conditionnel, manifeste des
    occurrences historiques `corpus/manifeste-etat-lecture.json` lu par le
    contrôle, état enregistré conservateur ; r9 : licence CC-BY-SA-4.0
@@ -104,6 +106,17 @@ changé, une entrée nouvelle est une initialisation neutre, et « tardive » n'
 jamais déduit d'une date. Le fichier `corpus/manifeste-etat-lecture.json`, écrit
 une fois par la migration `etat_lecture`, est la seule autorisation possible de
 l'état `a_requalifier` (E-L6) : ne jamais l'éditer non plus.
+
+**Exemplaires — facultatif, hors du chemin de publication.** Les entrées de
+source inscrivent l'empreinte SHA-256 de la pièce qu'elles déclarent avoir lue.
+`verifier-exemplaires.py` la recalcule : pièce encore là, même octet pour octet,
+et pièce nommée sous un nom qu'elle n'a pas. Il ne bloque rien, `controle.py`
+restant l'autorité, et il ne dit RIEN de ce que la pièce porte (§ 12).
+
+```bash
+python corpus/verifier-exemplaires.py --dossier <racine>   # ou DEBUNKONOMY_EXEMPLAIRES
+python corpus/test_verifier_exemplaires.py                 # neuf sabotages, sur fixtures
+```
 
 **Migration `etat_lecture`** — outils à exécution unique, dans
 `corpus/migrations/etat-lecture/` : `migrer.py --commit-source <sha>` écrit une

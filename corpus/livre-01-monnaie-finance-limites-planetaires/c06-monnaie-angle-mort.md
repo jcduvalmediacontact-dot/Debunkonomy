@@ -13,7 +13,7 @@ regime: hybride
 sources_primaires:
   - ref: S1
     nature: donnees
-    reference: "Friedlingstein et al., Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288, 2026 — série fossil.emissions.excluding.carbonation : 9,6625 GtC en 2015, 10,5345 GtC en 2024 OUVERT PAR VERSEMENT depuis L1.C03 [S2], ouvert le 2026-09-14 sur le tableur Global_Carbon_Budget_2025_v1.0.xlsx fourni par l'auteur (dossier Documents/Codex/2026-09-14/c03/, SHA-256 A928CF06C57576B66761D1FEC8224C9A41A781EB63442AFC03BA902858DD64A9). Relecture pour ce chapitre le 2026-09-15, feuille « Global Carbon Budget », colonne des émissions fossiles hors carbonatation du ciment : 9.6625 GtC en 2015, 10.5345 GtC en 2024, soit 35.4 et 38.6 GtCO2 au facteur 3,664, hausse de 9.0 %. Les valeurs de l'entrée et du § 1 sont exactes."
+    reference: "Friedlingstein et al., Global Carbon Budget 2025, Earth Syst. Sci. Data 18, 3211-3288, 2026 — série fossil.emissions.excluding.carbonation : 9,6625 GtC en 2015, 10,5345 GtC en 2024 OUVERT PAR VERSEMENT depuis L1.C03 [S2], ouvert le 2026-09-14 sur le tableur des séries du Global Carbon Budget 2025 fourni par l'auteur (2026-09-14/c03/gcb-2025-serie.xlsx, SHA-256 A928CF06C57576B66761D1FEC8224C9A41A781EB63442AFC03BA902858DD64A9). Relecture pour ce chapitre le 2026-09-15, feuille « Global Carbon Budget », colonne des émissions fossiles hors carbonatation du ciment : 9.6625 GtC en 2015, 10.5345 GtC en 2024, soit 35.4 et 38.6 GtCO2 au facteur 3,664, hausse de 9.0 %. Les valeurs de l'entrée et du § 1 sont exactes."
     url: "https://doi.org/10.5194/essd-18-3211-2026"
     etat_lecture: ouverte
     date_verification: 2026-09-15

@@ -1,6 +1,6 @@
 # Convention de production du corpus
 
-**Révision 12 — 10 septembre 2026.** Journal des révisions en fin de document.
+**Révision 13 — 18 septembre 2026.** Journal des révisions en fin de document.
 
 Ce fichier est déposé à la racine du corpus. Il fait autorité.
 
@@ -614,6 +614,42 @@ Ne jamais déclasser une règle bloquante en alerte pour se débloquer. Une aler
 ignorée est une alerte inutile, et un système qui continue de fonctionner en
 donnant une fausse impression de rigueur est pire qu'un système qui s'arrête.
 
+### Hors du contrôle — la vérification des exemplaires
+
+`controle.py` vérifie la cohérence des en-têtes. Il ne vérifie pas que
+l'exemplaire qu'une entrée déclare avoir lu existe encore, ni que c'est le même
+fichier. Ces exemplaires vivent dans un dossier local, **hors du dépôt** : un
+contrôle qui en dépendrait échouerait chez tout autre porteur du corpus, et
+`controle.py` doit rester reproductible par quiconque le clone.
+
+La vérification est donc portée par un outil **séparé et facultatif**,
+`corpus/verifier-exemplaires.py`, que `controle.py` n'appelle pas et dont
+l'échec **ne bloque aucune publication**.
+
+```bash
+python corpus/verifier-exemplaires.py --dossier <racine>
+python corpus/test_verifier_exemplaires.py
+```
+
+Il recalcule les empreintes SHA-256 que les entrées inscrivent — « OUVERT PAR
+TÉLÉCHARGEMENT DIRECT », « OUVERTE PAR VERSEMENT » — et répond à trois
+questions : l'exemplaire est-il encore là, est-ce le même octet pour octet, et
+une entrée nomme-t-elle une pièce sous un nom qu'elle n'a pas. Il ne lit que
+`reference` et `verifications_en_attente`, jamais le corps.
+
+**Il n'établit pas que la pièce porte ce que l'entrée lui fait dire.** Que
+l'exemplaire soit le bon fichier et qu'il porte la citation sont deux questions
+distinctes, et seule la première est mécanisable. Un exemplaire vérifié ne vaut
+donc pas source ouverte.
+
+**Une empreinte appartient à la pièce qu'elle suit, jamais à l'entrée.** Une
+entrée cite couramment l'exemplaire ouvert, avec son empreinte, ET des
+exemplaires écartés, sans la leur — une édition illisible, un substitut refusé,
+un prolongement non lu. Un contrôle qui attacherait l'unique empreinte d'une
+entrée à tous les chemins qu'elle cite fabriquerait des discordances
+inexistantes : le cas s'est produit le 2026-09-18, sur quatre entrées, avant
+correction. Le test S6 de `test_verifier_exemplaires.py` verrouille la règle.
+
 ---
 
 ## 13. Ce que le script génère
@@ -660,6 +696,24 @@ Points ouverts, à trancher hors routine :
 ---
 
 ## 15. Journal des révisions
+
+**Révision 13 — 18 septembre 2026.** Vérification des exemplaires par un outil
+**séparé et facultatif**, `corpus/verifier-exemplaires.py`, décrit au § 12.
+Motif : le corpus inscrivait 203 empreintes SHA-256 de pièces dans des entrées
+affirmant les avoir lues, et **aucune ne servait à rien de mécanique** — le
+relevé du 2026-09-18 (`protocoles/releve-chemins-bloc-notes-2026-09-18.md`) a
+mis une session entière à établir par inférence, en passant par une conclusion
+fausse avant correction, ce qu'un recalcul rend en une seconde : 221 chemins
+cités, 202 empreintes concordantes, zéro discordance, une pièce renommée que
+l'empreinte retrouve seule. **L'outil reste hors du chemin de publication** :
+`controle.py` ne l'appelle pas, demeure seul autorité, et l'échec de la
+vérification ne bloque rien. Motif de cette séparation : les exemplaires vivent
+hors du dépôt, et un contrôle qui en dépendrait échouerait chez tout autre
+porteur du corpus. Cette révision **n'ajoute aucun champ au schéma et ne touche
+aucun chapitre** — d'où l'absence de migration. Preuve d'échec par sabotage,
+sur corpus et exemplaires synthétiques, indépendante du dossier local :
+`corpus/test_verifier_exemplaires.py`, neuf cas, dont la non-régression de la
+règle d'appariement.
 
 **Révision 12 — 10 septembre 2026.** Champ `etat_lecture` sur chaque source
 primaire — `candidate`, `ouverte`, `a_requalifier` — et `date_verification`
@@ -724,6 +778,7 @@ numéro.
 | 10 | 2026-09-07 | Dossiers de livres nommés `livre-NN-<libellé>` (§ 2) : le matricule reste en tête et seul identifie, le libellé est une aide de lecture corrigeable | `git mv` sur les douze dossiers existants ; aucun contenu, aucun matricule, aucun identifiant de chapitre modifié |
 | 11 | 2026-09-07 | Tous les matricules déclarés ont un dossier, et tout dossier a un chapitre (§ 2) — corrige la révision 10 du même jour ; régime des chapitres d'amorce : descriptif, sans concept ni renvoi, non citable, remplacé et non complété | quatorze dossiers créés, quatorze chapitres d'amorce déposés ; aucun chapitre existant touché |
 | 12 | 2026-09-10 | `etat_lecture` obligatoire sur chaque source, `date_verification` conditionnel ; manifeste des occurrences historiques ; E-L1 à E-L6, E-M1 ; bilan agrégé A-L1 à A-L3 ; état enregistré conservateur ; dépendance épinglée et voie hors ligne ; en-tête réaligné sur le journal | toutes les occurrences historiques de source — 1 161 au relevé du 2026-09-10, dans 323 chapitres — migrées vers `a_requalifier`, corps et résumés intacts, chapitres sans source inchangés |
+| 13 | 2026-09-18 | Vérification des exemplaires (§ 12) : outil séparé et facultatif `verifier-exemplaires.py`, hors du chemin de publication, `controle.py` demeurant seul autorité ; les empreintes SHA-256 inscrites par les entrées deviennent opérantes ; règle d'appariement — une empreinte appartient à la pièce qu'elle suit, jamais à l'entrée ; preuve d'échec par sabotage sur fixtures synthétiques | aucune — aucun champ ajouté au schéma, aucun chapitre modifié |
 
 Toute révision ultérieure s'inscrit ici avant d'être appliquée, avec la portée
 de la migration qu'elle entraîne. Une révision non journalisée est une dérive
