@@ -108,6 +108,11 @@ sources_primaires:
     reference: "Doctrine fiduciaire et patrimoine public (fiduciary duty, public trust doctrine) : le tuteur d'une entité sans capacité d'instruction n'est pas lié par un contrat d'agence mais par un devoir de loyauté et un devoir de prudence, dont l'objet est la préservation de l'intégrité d'un patrimoine affecté défini par la loi ; sa responsabilité s'exerce devant un juge, non devant l'entité représentée"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "S12 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : le fichier qui porte The Calculus of
+     Consent ne fait TROIS PAGES et 1 636 caractères — c'est la page de titre du volume 3
+     des Œuvres complètes de Buchanan, non le texte. L'ouvrage est en accès libre chez
+     Liberty Fund : un exemplaire complet reste à obtenir. Tsebelis 2002 est sous droits,
+     et la contrainte de l'auteur du 2026-09-19 exclut l'acquisition payante."
   # ── ALIGNEMENT DU 2026-09-19 ──────────────────────────
   # Écrit sous `protocoles/architecture-L1-C18.md` (94 énoncés) et sous D102, D103,
   # C18 Q7.3, Q7.4 et Q7.6. C'est le chapitre le plus cité du corpus : 65 chapitres le

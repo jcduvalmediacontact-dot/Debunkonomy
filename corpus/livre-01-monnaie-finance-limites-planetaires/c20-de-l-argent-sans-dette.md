@@ -58,6 +58,16 @@ sources_primaires:
     reference: "C. A. E. Goodhart, « Problems of Monetary Management: The U.K. Experience », 1975 — toute régularité statistique observée tend à se défaire dès qu'on exerce une pression pour l'employer à des fins de contrôle ; formulation courante due à M. Strathern (1997) : « when a measure becomes a target, it ceases to be a good measure »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "S3 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : LA PIÈCE PRÉSENTE N'EST PAS L'ŒUVRE.
+     `FisherPPM100.pdf` est « One Hundred Years from Today », un COMMENTAIRE CENTENAIRE
+     de douze pages sur le livre de Fisher, non The Purchasing Power of Money. L'entrée
+     cite la page 24 de l'édition de 1911 : cette page n'est pas dans cette pièce.
+     L'ouvrage de 1911 est dans le domaine public et reste à obtenir en entier."
+  - "S10 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : LA PIÈCE PRÉSENTE N'EST PAS LA BONNE.
+     `goodhart.pdf` est « Analysis of Financial Stability », de Goodhart ET Tsomocos, non
+     « Problems of Monetary Management: The U.K. Experience » de 1975. Le fichier
+     `022-article-A003-en.pdf`, « The problems of monetary management », trois pages,
+     est à examiner : il pourrait être une reprise ou un compte rendu, non l'article."
   # ── ALIGNEMENT DU 2026-09-18 ───────────────────────────────────────────────
   # Chapitre réécrit sous `protocoles/architecture-L1-C20.md` (49 énoncés :
   # K 12, C 21, R 1, O 11, N 4) et sous les cinq décisions de l'auteur C20 Q3 à

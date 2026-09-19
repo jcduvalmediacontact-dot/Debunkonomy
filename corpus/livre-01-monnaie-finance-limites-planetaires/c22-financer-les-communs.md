@@ -88,6 +88,11 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  - "S10 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : `hayek.pdf` fait treize pages et porte
+     ZÉRO caractère extractible. C'est un SCAN SANS COUCHE DE TEXTE, qui ne vaut pas
+     ouverture. Le nombre de pages concorde avec l'article de 1945 (p. 519-530) : la
+     pièce est vraisemblablement la bonne, mais elle n'est pas lisible par script et
+     cette session n'a pas de rendu PDF permettant de la lire à l'œil."
   # ── ALIGNEMENT DU 2026-09-19 ──────────────────────────
   # Écrit sous `protocoles/architecture-L1-C22.md` (46 énoncés), sous C22 Q4 du dossier
   # d'édition D107, sous D98 (périmètre) et D92 (branches de l'unité).

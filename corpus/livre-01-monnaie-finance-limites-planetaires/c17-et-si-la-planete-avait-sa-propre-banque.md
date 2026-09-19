@@ -77,6 +77,15 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-19
 verifications_en_attente:
+  - "S3 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : LA PIÈCE PRÉSENTE N'EST PAS L'ŒUVRE.
+     `OMalley-Doolittle_dreamer.pdf` est un chapitre À PARAÎTRE SUR Doolittle — « W. Ford
+     Doolittle: Evolutionary Provocations and a Pluralistic Vision », brouillon
+     pénultième —, non « Is Nature Really Motherly? » de 1981. NE PAS LA PRENDRE POUR
+     ELLE. CoEvolution Quarterly n° 29 est à chercher séparément."
+  - "S12 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : `die-staatliche-theorie-des-geldes.pdf`
+     ne fait DEUX PAGES et ne porte AUCUN caractère extractible. Ce n'est pas l'ouvrage
+     de Knapp, et un scan sans couche de texte ne vaudrait pas ouverture. L'original
+     allemand de 1905 est dans le domaine public : un exemplaire complet reste à obtenir."
   # ── ALIGNEMENT DU 2026-09-18 ───────────────────────────────────────────────
   # Chapitre réécrit sous `protocoles/architecture-L1-C17.md` (50 énoncés) et sous
   # la décision C17 Q3 du dossier d'édition : RÉDUCTION AU NOYAU. Au § 2, les deux
