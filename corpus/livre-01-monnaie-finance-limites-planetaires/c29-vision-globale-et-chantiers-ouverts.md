@@ -41,84 +41,97 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-19
 verifications_en_attente:
-  # ── CORRECTION DU 2026-09-19, sur lecture de l'exemplaire ─────────────
-  # Le § 5 énonçait la littérature PLUS FORT qu'elle ne le dit : « une banque
-  # centrale peut fonctionner durablement avec des fonds propres négatifs », sans la
-  # distinction de Buiter entre fonds propres financiers et complets, ni la condition
-  # de seigneuriage. Corrigé, et la conséquence au démarrage est écrite.
-  - "PROPAGER LA CORRECTION À DEUX AUTRES CHAPITRES qui portent le même énoncé sous
-     la même forme non conditionnée : L1.C19 [S9] et L11.C01 [S5], tous deux adossés
-     à Stella, déclarée non ouvrable. Les deux sont à rebaser sur Buiter, qui est
-     désormais ouvert en L1.C20 [S5] et ici."
-  - "VERSEMENT DU LIVRE le 2026-09-16 : S1 et S5 ouvertes sur l'exemplaire de composition. DEUX POINTS APPELLENT UNE DÉCISION. PREMIER : la citation « attestation formelle [...] que l'activité financée contribue effectivement à la restauration des communs », attribuée à [S1] entre guillemets, n'est pas dans l'ouvrage — « attestation » a zéro occurrence sur les 278 pages. À retrouver, à corriger, ou à sortir des guillemets. SECOND : l'entrée S5 n'est appelée nulle part dans le corps, zéro occurrence de son matricule ; elle est ouverte parce que l'ouvrage l'est, mais une source déclarée et jamais citée est soit à appeler, soit à retirer."
-  - "PASSE 2 A AGI LE 2026-09-16 SUR L'ANNOTATION CI-DESSUS. Celle-ci disait « ne modifie pas ce qui précède : il est versé pour que la passe 2 le trouve ». La passe 2 l'a trouvé : le paragraphe antérieur qui déclarait « Arbitrage A35 ouvert » est corrigé, A35a étant arbitré depuis le 2026-09-09. **DEUX COUCHES ÉTAIENT PÉRIMÉES, NON UNE.** La correction de nuit du 2026-09-07, ci-dessus, pose qu'« A35 décrit l'incidence économique de la charge, non son porteur en droit » : **elle précède la scission du 2026-09-09**, qui a précisément nommé le porteur en droit — l'émetteur. Elle reste vraie de A35 tel qu'il était le 7, fausse de A35a tel qu'il est depuis le 9. Ce qui demeure ouvert est A35b, dont l'auteur a identifié le 2026-09-16 l'obligation présente — l'obligation d'INTÉRÊT, inconditionnelle, non l'obligation de rachat, qui est conditionnelle."
-  # ── Méthode ────────────────────────────────────────────────────────────────
-  # Le livre a été lu sur la section « Révolution comptable » et sur son
-  # chapitre de clôture ; les épisodes 9 et 12 du Cahier Technique ont été lus
-  # intégralement. Le rang et l'objet du chapitre sont fondés sur le renvoi
-  # explicite de E12 (« brièvement présentée à l'épisode 29 de la série
-  # principale ») et sur le plan directeur.
+  # ── ALIGNEMENT DU 2026-09-19 ──────────────────────────
+  # Écrit sous `protocoles/architecture-L1-C29.md` et sous C29 Q1, Q3, Q4, Q5, Q6 et Q7 du
+  # dossier D107. LES NUMÉROS DE SECTION SONT CONSERVÉS : 16 citations entrantes visent les
+  # § 3 à § 6. Seul le titre du § 5 change, son objet s'élargissant des deux issues que le
+  # corpus proposait aux quatre branches ouvertes.
   #
-  # CE CHAPITRE CORRIGE LE CORPUS LUI-MÊME. Le fichier `falsification.md`
-  # portait le bouclage comptable de L2.E09 dans la liste de ce qui a résisté.
-  # Ce crédit avait été accordé AVANT que L1.C21 § 6 n'établisse l'érosion de
-  # l'assiette dégénérative. Le § 3 ci-dessous confronte les deux et retire le
-  # crédit.
+  # C29 Q4 — LES CINQ BLOCS D'ANNEXES SORTENT DU CORPS. Leur ÉTAT est intégré : le test du
+  # référentiel public et la condition de contrôle au § 4, la non-reconnaissance d'un flux
+  # futur au § 3, la ressource conservée au § 4 et au § 5, le résultat défavorable des
+  # banques centrales au § 4. Renvois nommés aux Livres 10 et 18 ; leur historique vit dans
+  # git et dans `protocoles/passe-2.md`. Le détail des textes n'est pas repris ici : cela
+  # éviterait d'ouvrir une dizaine de sources au Livre 1, où elles ne sont pas instruites.
   #
-  - "Stella 1997 et Buiter 2008 de première main [S6]. Le § 5 leur fait porter
-     l'issue qu'il propose — assumer des fonds propres négatifs plutôt que de
-     démontrer une clôture. Aucune n'est ouverte, et la transposition au GES
-     n'est PAS acquise : ces travaux portent sur une banque centrale émettrice
-     de la monnaie dans laquelle ses engagements sont libellés, ce que le GES
-     n'est pas puisque les prestataires sont payés en monnaies nationales par
-     les banques centrales nationales. À instruire avant tout emploi."
-  - "Le certificat de qualification est-il un actif ? Le § 4 soutient qu'une
-     attestation portant sur un service déjà rendu au monde, et non au GES, ne
-     satisfait aucune définition usuelle de l'actif — ressource contrôlée dont
-     des avantages économiques futurs sont attendus. Il faut vérifier cette
-     lecture contre les cadres applicables : normes comptables des
-     organisations internationales, comptabilité des banques centrales, et les
-     travaux de comptabilité écologique en partie double, notamment le modèle
-     CARE que le Cahier cite lui-même comme allié."
-  - "Ordre de grandeur de l'érosion. Le § 3 établit une contradiction de
-     structure entre les deux contreparties, mais il ne dit pas à quel rythme
-     elle se manifeste. Si l'assiette dégénérative met un siècle à se
-     contracter, la créance sur reflux futurs reste provisionnable sur
-     l'horizon d'amortissement ; si elle se contracte en vingt ans, elle ne
-     l'est pas. C'est la même mesure que celle demandée en L1.C21 et elle
-     décide ici de la portée de l'objection."
-  - " demurrage peut-il gager l'émission ? Le § 5 relève que le second
-     ressort a une assiette qui ne dépend pas de la composition des échanges,
-     et pourrait donc fournir une créance non érodée. Ni le livre ni le
-     Cahier ne l'écrivent : la créance est adossée aux seules dispositifs de
-     reflux transactionnels. À instruire — c'est la voie de sortie la moins
-     coûteuse. **BALAYAGE N 2, 2026-09-06 — LA VOIE DE SORTIE EST PLUS
-     COUTEUSE QU'ANNONCE, et le corpus retire ici sa qualification de « moins
-     couteuse ».** L11.C07 etablit que le demurrage a trois noeuds de
-     prelevement possibles et **qu'aucun n'est bon**, et que sa vertu
-     contracyclique echoue dans l'etat meme pour lequel elle est concue.
-     L11.C04 ajoute que sa borne superieure releve du resultat d'arbitrage de
-     Mundell, ouvert de premiere main : au-dela, la fuite vers les substituts
-     est massive — c'est la condition-limite B1. **L'assiette est bien
-     independante de la composition des echanges ; elle n'est pas
-     independante du taux.**"
-  - "Y a-t-il un précédent d'émission gagée sur un flux fiscal futur ? Le § 4
-     soutient qu'un État ne porte pas ses recettes futures à l'actif de son
-     bilan. Il faut vérifier ce point sur les cadres de comptabilité publique
-     et chercher les exceptions — titrisation de recettes fiscales,
-     établissements publics adossés à une taxe affectée."
-resume: "Ce chapitre traite la question que l'auteur déclare lui-même non résolue et que le corpus laisse ouverte depuis L1.C19 : quelle est la contrepartie comptable d'une émission sans dette. Il restitue les deux réponses disponibles — celle du livre, qui porte à l'actif « des réalisations d'activités extra financières labellisées », et celle du Cahier Technique, plus complète, qui inscrit face au passif deux contreparties, un certificat de qualification régénérative et une créance sur les dispositifs de reflux transactionnels futures. Il établit ensuite un résultat qui oblige le corpus à se corriger lui-même. La créance sur reflux futurs est un droit sur le produit d'un prélèvement assis sur les transactions dégénératives ; or le corpus a établi par ailleurs que cette assiette se contracte à mesure que le dispositif atteint son but. L'actif qui gage l'émission est donc un droit sur un flux que le succès éteint, ce qui place le dispositif devant une alternative dont aucune branche n'est confortable : ou bien l'assiette persiste et la comptabilité se referme, mais l'objectif écologique n'est pas atteint ; ou bien elle disparaît et l'objectif est atteint, mais l'actif doit être déprécié face à un passif qui demeure. Le chapitre examine ensuite la seconde contrepartie et soutient qu'un certificat attestant un service rendu au monde, et non à l'émetteur, ne satisfait aucune définition usuelle de l'actif. Il propose enfin une issue qui n'est pas celle du Cahier et qui est plus solide que la sienne : renoncer à démontrer que la partie double se referme, et assumer que l'institution fonctionne avec des fonds propres négatifs, ce qui est une position tenable pour un émetteur mais suppose d'établir que le GAÏA Economic Symposium en est un. Le chapitre se clôt sur l'état du dossier — ce qui a résisté, ce qui est tombé, et les huit arbitrages qui forment le chemin critique."
+  # C29 Q1 — L'ÉTAT DU DOSSIER EST DONNÉ DEUX FOIS, ET AUCUNE N'EST UNE APPRÉCIATION.
+  # D'abord par l'énoncé de l'auteur du 2026-09-09 et la séparation en trois propositions,
+  # mise à jour par A43 : le référentiel de change n'est plus seulement « non applicable »,
+  # sa forme à parités administrées est expérimentable pour des chocs passagers. Ensuite
+  # PAR UN RELEVÉ CALCULÉ : 65 entrées, 18 arbitrées dont 16 par l'auteur et 2 par le
+  # corpus, 47 ouvertes ou orientées, au 2026-09-19, produit par `corpus/controle.py` sur
+  # `corpus/arbitrages.yaml`. CES NOMBRES NE SONT PAS ÉCRITS À LA MAIN et doivent être
+  # recalculés à chaque révision de fond du chapitre, sous peine de périmer en silence.
+  #
+  # C29 Q7 — LE NOMBRE DE PROMESSES SORT DU CORPS. Il vivait dans le chapitre sans y être
+  # recalculé ; le registre des promesses en est l'état, et le corps y renvoie.
+  # C29 Q6 — CE QUI EST ABANDONNÉ EST L'ACTIF QUI REFERMERAIT LE CYCLE, non la comptabilité
+  # ordinaire : la partie double se referme par la situation nette, ce qui est une écriture
+  # ordinaire et non une exception. § 5, première phrase.
+  # C29 Q3 — LA VOIE DU DÉMURRAGE RESTE UNE BRANCHE, avec son canal d'érosion propre
+  # (l'encours, qui diminue à mesure que l'instrument agit) et son champ borné : soldes
+  # institutionnels en unités, jamais les soldes de compensation des banques centrales.
+  # « LA MOINS COÛTEUSE » EST RETIRÉ du § 5 et du § 7 : aucun chiffrage ne le permet.
+  # C29 Q5 — S5 EST APPELÉE au § 6, l'état du dossier citant le chapitre de clôture du
+  # livre pour ses trois scénarios d'advenue, qu'il déclare non instruits.
+  - "S4 — RESTE FERMÉE, ET LE MOTIF EST MATÉRIEL. Un exemplaire a été acquis le 2026-09-19 :
+     le document de travail 6199 du National Bureau of Economic Research, téléchargé de
+     https://www.nber.org/system/files/working_papers/w6199/w6199.pdf et versé au dossier
+     (2026-09-19/c29/C29-S4-nber-w6199-fullerton-metcalf-1997-SCAN-SANS-TEXTE.pdf,
+     42 pages, 2 096 860 octets). IL N'A AUCUNE COUCHE DE TEXTE — zéro caractère extractible
+     sur 42 pages — et la convention veut qu'un scan sans couche de texte ne vaille pas
+     ouverture. IL N'EST PAS NON PLUS LA MÊME PIÈCE que l'article de la Chicago-Kent Law
+     Review que l'entrée déclare : c'est le document de travail. Bovenberg et de Mooij 1994
+     est sous droits. CE QUI OUVRIRAIT CETTE ENTRÉE : un exemplaire portant son texte, ou
+     une lecture à l'œil de celui-ci, impossible dans cette session faute de rendu PDF.
+     Entrée commune avec L1.C21 [S10], même état."
+  - "LA REVUE PAR UN COMPTABLE NATIONAL EST LE PROCHAIN JALON, et c'est une dépendance
+     humaine, non documentaire. La question à lui poser est écrite dans
+     `protocoles/revue-comptable-a35b.md` : l'insuffisance d'actifs fait-elle disparaître le
+     passif, y compris pour une institution dont la situation nette devient négative ?
+     AUCUN MODÈLE MACROÉCONOMIQUE NE DOIT LA PRÉCÉDER. § 5."
+  - "L'APPLICABILITÉ DU RÉFÉRENTIEL PUBLIC À L'ÉMETTEUR N'EST PAS ÉTABLIE, et tout le § 4
+     lui est conditionnel. Rien ne dit que l'institution relève de la comptabilité publique,
+     et la forme de l'émetteur reste ouverte : organisation internationale par traité,
+     institution financière adossée à des États, fondation de droit national, filiale d'une
+     institution existante. Le résultat défavorable rapporté du Livre 10 vaut pour une
+     banque centrale de la zone instruite, non pour toute forme."
+  - "LES TROIS CONDITIONS DE LA RESSOURCE CONSERVÉE NE SONT ACQUISES NI L'UNE NI L'AUTRE :
+     potentiel de service revenant à l'entité, contrôle résultant d'événements passés,
+     mesure fiable. Le contrôle est la plus dure pour un commun. Le Livre 18 tient
+     l'instruction ; ce chapitre expose la branche et ne la retient pas."
+  - "L'ASSIETTE EFFECTIVE DU DÉMURRAGE SOUS SA BORNE N'EST PAS ÉVALUÉE. Le champ est arrêté
+     — soldes institutionnels en unités, hors soldes de compensation — mais nul ne sait ce
+     que cela représente, ni à quel rythme l'encours décroît sous l'effet de l'instrument.
+     C'est pourquoi le § 5 ne dit plus que c'est la réparation la moins coûteuse. Travail de
+     modélisation, non documentaire, et il vient APRÈS la revue comptable."
+  - "LA TRANSPOSITION DE LA CONDITION DE BUITER À UN ÉMETTEUR QUI DÉLÈGUE L'ÉMISSION N'EST
+     PAS ÉTABLIE. La littérature porte sur un émetteur souverain de sa propre unité ; le GES
+     n'émet pas les monnaies dans lesquelles les prestataires sont payés. § 5, à instruire."
+  - "LES TROIS SCÉNARIOS D'ADVENUE DU CHAPITRE DE CLÔTURE [S5] NE SONT PAS INSTRUITS. Le § 6
+     les cite et le dit. C'est un chantier distinct, et l'auteur l'a inscrit au programme
+     d'après le Livre 1."
+  - "LE RELEVÉ DU REGISTRE AU § 6 EST DATÉ DU 2026-09-19 et doit être recalculé par
+     `corpus/controle.py` à chaque révision de fond de ce chapitre. Un nombre écrit à la
+     main périmerait en silence, ce que la règle du projet interdit."
+  - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
+     propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement.
+     Le chapitre ne conclut sur aucune branche et ne présente aucune objection déplacée
+     comme résolue."
+resume: "Ce chapitre traite la question que le corpus laisse ouverte depuis L1.C19 § 6 et L1.C20 § 4, et que l'auteur déclare lui-même non résolue : quelle est la contrepartie comptable d'une monnaie émise sans dette. Il restitue les deux réponses disponibles, celle du livre et celle du Cahier technique, et établit que la plus complète ne tient pas, pour deux motifs indépendants : ses deux contreparties reposent sur des hypothèses opposées quant à l'avenir — le certificat suppose que la régénération advienne, la créance sur fontes futures suppose que la dégradation persiste —, et le flux futur qu'elle invoque n'est pas un événement passé. Il corrige ensuite son propre test : l'absence d'avantage économique futur pour l'émetteur est le critère du secteur privé, quand le référentiel public admet le potentiel de service ; mais le test applicable achoppe plus durement sur le CONTRÔLE, qu'un commun n'a par définition pas et qu'un rôle régulateur ne procure pas, et le référentiel des banques centrales instruit au Livre 10 est plus strict encore, avec une prudence asymétrique qui rendrait l'échec visible et le succès invisible. Il expose quatre branches avec leurs critères de départage — fonds propres négatifs sous la condition de Buiter, ressource conservée, créance sur reflux futurs, créance adossée au démurrage — sans en retenir aucune, et relie chacune à ce qui la départagerait. Il localise la difficulté en un point unique du dispositif, le bilan de l'émetteur, le reste de l'architecture comptable étant sans objection. Il donne enfin l'état du dossier à la date du chapitre : l'énoncé de l'auteur, les trois propositions séparées et leurs verdicts distincts, le relevé calculé du registre, ce qui a résisté, ce qui est tombé, et la limite de l'audit simulé, qui n'a jamais produit de verdict d'échec."
 concepts: [contrepartie_comptable, creation_monetaire, reflux_monetaire, qualification_regenerative, reflux_transactionnel, essentiel_insolvable]
-renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28]
+renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28, L1.C25, L1.C31, L10.C01, L10.C06, L18.C06]
 ---
 
 # Vision globale et chantiers ouverts
 
-::etat:: Ce chapitre traite la question que le corpus laisse ouverte depuis L1.C19 § 6 et L1.C20 § 4, et que l'auteur déclare lui-même non résolue : quelle est la contrepartie comptable d'une monnaie émise sans dette. Il établit que la réponse disponible ne tient pas, pour une raison que le corpus n'avait pas vue parce qu'elle exige de composer deux résultats obtenus à deux moments différents. **Il retire en conséquence un élément de la liste de ce qui, à ce jour, avait résisté.**
+::etat:: Ce chapitre traite la question que le corpus laisse ouverte depuis L1.C19 § 6 et L1.C20 § 4, et que l'auteur déclare lui-même non résolue : quelle est la contrepartie comptable d'une monnaie émise sans dette. **Il établit quatre choses.** Que la construction la mieux faite du dossier technique ne tient pas en l'état, ses deux contreparties reposant sur des hypothèses opposées quant à l'avenir. Que l'objection que le chapitre s'opposait à lui-même n'était pas le test applicable, et que le test applicable est plus dur sur un autre point. Que plusieurs branches restent ouvertes, chacune avec son critère de départage. Et que **l'état du dossier, à la date de ce chapitre, se donne par un relevé et non par une appréciation.** Il retire en conséquence un élément de la liste de ce qui avait résisté.
 
 ## 1. Pourquoi cette question décide
 
-::etat:: L'émission sans dette est le cœur de la proposition. Le corpus l'a établi dès L1.C17 : si une institution crée de la monnaie pour payer des prestations écosystémiques, cette monnaie apparaît au passif de son bilan, et la comptabilité en partie double exige qu'un actif lui réponde. La question n'est pas formelle. **Elle décide de ce que le dispositif est** : si un actif recevable existe, l'émission est une opération de bilan ordinaire menée sur une contrepartie inhabituelle ; s'il n'en existe pas, l'émission est un transfert net financé par la création monétaire, ce qui reste possible mais s'appelle autrement et s'évalue autrement.
+::etat:: L'émission sans dette est le cœur de la proposition. Le corpus l'a établi dès L1.C17 : si une institution crée de la monnaie pour payer des prestations écosystémiques, cette monnaie apparaît à son passif. **Le porteur est arrêté depuis le 2026-09-09 : l'unité est inscrite au passif de l'émetteur**, la société supportant l'incidence économique de la charge sans être débitrice en droit. C'est une règle de conception, non une qualification comptable validée.
+
+::etat:: **La partie double se referme alors de deux façons, et non d'une seule.** Par un actif qui répond au passif ; ou par la situation nette, qui absorbe l'écart. La question n'est donc pas de savoir si un actif est nécessaire, mais lequel des deux chemins le dispositif emprunte. **Elle décide de ce que le dispositif est** : si un actif recevable existe, l'émission est une opération de bilan ordinaire menée sur une contrepartie inhabituelle ; s'il n'en existe pas, l'émission est un transfert net financé par la création monétaire, ce qui reste possible mais s'appelle autrement et s'évalue autrement.
 
 ::etat:: L'auteur ne dissimule pas que la question est ouverte. Le Cahier Technique assigne à un futur collectif, comme première de ses missions, « la formulation comptable définitive de la contrepartie des NGDTS » [S3]. Le corpus cite cette déclaration plutôt que de trancher à la place de l'auteur, et il examine ce qui existe.
 
@@ -130,142 +143,90 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 
 ::etat:: Le Cahier précise la nature de cette créance, et la précision est importante : « une **dette collectivisée sur activités dégénératives** — remboursée non pas par un débiteur identifié, mais par l'ensemble des acteurs économiques dont les transactions restent dégradantes, au prorata de l'impact biosphérique et social de leurs échanges » [S2]. Et il revendique explicitement la continuité : « NEMO IMS n'invente pas une comptabilité radicalement nouvelle. Il préserve intégralement la logique classique de la partie double actif-passif » [S2].
 
+::etat:: **Deux réserves d'état antérieur doivent accompagner cette restitution.** L'épisode décrit le GAÏA Economic Symposium en collèges délibérant conjointement, conception que le livre remplace par une séparation des pouvoirs et que l'auteur a depuis portée à cinq fonctions séparées (L1.C18 § 3) ; et il emploie un sigle écarté depuis. Le livre fait autorité ; la construction comptable est retenue, la gouvernance qui l'entoure ne l'est pas.
+
 ::hypothese:: Le corpus doit reconnaître la qualité de cette construction avant de la mettre à l'épreuve. Elle est cohérente, elle est écrite, elle n'invoque aucune exception au principe comptable, et elle répond exactement à l'objection que L1.C19 § 4 avait formulée. **C'est la pièce la mieux construite du dossier technique**, et le corpus l'avait portée à ce titre dans la liste de ce qui avait résisté.
 
 ## 3. Pourquoi la créance sur reflux futurs ne tient pas
 
 ::etat:: Le corpus a établi ailleurs, et sur un résultat qui n'est pas de lui, que l'assiette du reflux transactionnel se contracte à mesure que le dispositif atteint son but. Une taxe pigouvienne réduit l'activité qu'elle frappe — c'est son objet — et érode donc sa propre base [S4]. L1.C21 § 6 en a tiré que « le dispositif est conçu pour se priver de ses propres recettes à mesure qu'il atteint son but ».
 
-::etat:: **Il faut maintenant composer ce résultat avec celui du § 2, ce qui n'avait pas été fait.** La créance portée à l'actif du GES est un droit sur le produit futur des dispositifs de reflux transactionnels, c'est-à-dire sur un prélèvement assis sur les transactions dégénératives [S2]. Sa valeur est donc une fonction de la taille future de l'assiette dégénérative. Or cette assiette est exactement ce que le dispositif a pour mission de faire disparaître. **L'actif qui gage l'émission est un droit sur un flux que le succès du dispositif éteint.**
+::etat:: **Il faut composer ce résultat avec celui du § 2.** La créance portée à l'actif du GES est un droit sur le produit futur des dispositifs de reflux transactionnels, c'est-à-dire sur un prélèvement assis sur les transactions dégénératives [S2]. Sa valeur est donc une fonction de la taille future de l'assiette dégénérative. Or cette assiette est exactement ce que le dispositif a pour mission de faire disparaître. **L'actif qui gage l'émission est un droit sur un flux que le succès du dispositif éteint.**
 
 ::etat:: La conséquence prend la forme d'une alternative dont aucune branche n'est confortable, et le corpus doit l'énoncer sans l'adoucir.
 
 ::etat:: **Première branche — l'assiette persiste.** Les transactions dégénératives continuent en volume suffisant, la créance conserve sa valeur, la comptabilité se referme comme le Cahier le décrit. Mais alors le dispositif n'a pas atteint son objectif écologique : il perçoit durablement sur ce qu'il devait faire cesser, et son équilibre comptable dépend de la persistance de ce qu'il combat.
 
-::etat:: **Seconde branche — l'assiette disparaît.** Le dispositif réussit, les productions dégénératives reculent, le flux de dispositifs de reflux transactionnels s'amenuise. La créance portée à l'actif doit alors être **dépréciée**, tandis que le passif correspondant — la monnaie émise, déjà convertie et dépensée — demeure. Les fonds propres du GES deviennent négatifs, non par accident mais par construction.
+::etat:: **Seconde branche — l'assiette disparaît.** Le dispositif réussit, les productions dégénératives reculent, le flux de dispositifs de reflux transactionnels s'amenuise. La créance portée à l'actif doit alors être **dépréciée**, tandis que le passif — correspondant à la monnaie émise, déjà convertie et dépensée — demeure. Les fonds propres du GES deviennent négatifs, non par accident mais par construction.
 
 ::hypothese:: Le corpus retient donc ceci, et c'est le résultat central du chapitre. **Ce n'est pas un problème de calibrage, c'est une contradiction de structure entre les deux contreparties.** Le certificat de qualification atteste que l'activité régénère ; la créance sur reflux futurs suppose que la dégradation se poursuive. Les deux contreparties du même passif reposent sur des hypothèses opposées quant à l'avenir du monde. Plus le certificat dit vrai, moins la créance vaut.
 
-::etat:: **Le corpus doit en conséquence se corriger.** Le fichier `falsification.md` portait, dans la liste de ce qui avait résisté, l'énoncé suivant : le bouclage comptable à deux étages « referme le circuit que L1.C19 § 4 avait ouvert, et la créance sur fontes futures fournit la contribution à la valeur nette globale que L1.C20 § 4 disait manquante ». **Ce crédit avait été accordé avant que L1.C21 § 6 n'établisse l'érosion de l'assiette.** Il est retiré. Le bouclage referme le circuit dans un monde où la dégradation se poursuit ; il ne le referme pas dans le monde que le dispositif cherche à produire.
+::etat:: **Une seconde objection, indépendante de la première, atteint la même créance, et elle est plus radicale.** Le référentiel de comptabilité publique écarte explicitement le cas : une intention de lever un prélèvement n'est pas un événement passé faisant naître un actif. **Un flux futur de fontes n'est donc pas reconnaissable comme créance**, non parce qu'il s'érode, mais parce qu'il n'a pas eu lieu. Et l'arbitrage sur le porteur aggrave ce point plutôt qu'il ne le lève : **sans débiteur identifié, il n'y a pas de créance**, et le corpus enregistre que les deux exigences sont contradictoires — on ne peut pas simultanément n'avoir aucun débiteur et détenir une créance reconnaissable. Le Livre 18 tient l'instruction de ce référentiel.
+
+::etat:: **Le corpus doit en conséquence se corriger.** Le fichier des conditions de falsification portait, dans la liste de ce qui avait résisté, l'énoncé suivant : le bouclage comptable à deux étages « referme le circuit que L1.C19 § 4 avait ouvert, et la créance sur fontes futures fournit la contribution à la valeur nette globale que L1.C20 § 4 disait manquante ». **Ce crédit avait été accordé avant que L1.C21 § 6 n'établisse l'érosion de l'assiette.** Il est retiré. Le bouclage referme le circuit dans un monde où la dégradation se poursuit ; il ne le referme pas dans le monde que le dispositif cherche à produire.
 
 ## 4. Le certificat de qualification n'est pas un actif
 
 ::etat:: Reste la première contrepartie, qui pourrait suffire seule si elle était recevable. Le certificat de qualification régénérative est une « attestation formelle [...] que l'activité financée contribue effectivement à la restauration des communs » [S2] — dans la formulation du livre, « des réalisations d'activités extra financières labellisées » [S1].
 
-::hypothese:: Le corpus soutient que cet objet ne satisfait aucune définition usuelle de l'actif, pour une raison précise et non pour un motif de forme. Un actif est une ressource **contrôlée par l'entité** dont des **avantages économiques futurs** sont attendus **pour elle**. Le certificat atteste un service qui a été rendu, qui est achevé, dont le bénéficiaire est le monde et non l'émetteur, et dont aucun flux futur ne reviendra au GES. **Une dépollution accomplie n'engendre aucun avantage économique futur pour l'institution qui l'a payée** — c'est précisément ce qui la rendait insolvable et donc justifiait de la financer autrement. Le caractère qui fonde l'émission est le même qui interdit d'en faire un actif.
+::etat:: **Le corpus doit d'abord retirer l'objection qu'il s'opposait à lui-même, parce qu'elle n'est pas le test applicable.** Ce chapitre posait qu'un actif est une ressource contrôlée dont des **avantages économiques futurs** sont attendus pour l'entité, et concluait qu'une dépollution accomplie n'en engendre aucun. **C'est le test du secteur privé.** Le cadre conceptuel de la comptabilité publique énonce autre chose : une ressource est un droit à un **potentiel de service** ou à la capacité de générer des avantages économiques, ou aux deux ; et le potentiel de service permet à une entité d'atteindre ses objectifs **sans nécessairement générer de flux de trésorerie nets**. Le référentiel dit même pourquoi il diffère : dans le secteur public, la raison première de détenir des actifs est leur potentiel de service plutôt que leur capacité à produire des flux. **Une contrepartie qui n'engendre aucun flux pour l'émetteur n'est donc pas, par ce seul fait, irrecevable.** Le Livre 18 tient l'instruction de ce cadre.
 
-::hypothese:: L'objection ne se lève pas en invoquant la valeur du commun restauré. Deux difficultés s'y opposent, et le corpus les tient déjà. La première est métrologique : porter au bilan un fonds naturel restauré suppose de le valoriser, et L1.C18 § 5 a établi que cette infrastructure de mesure n'existe pas (F2). La seconde est plus dirimante : même valorisé, le fonds restauré n'est pas contrôlé par le GES. Il appartient au territoire, à l'État, à personne. **Une institution ne peut pas inscrire à son actif un bien qu'elle a payé pour l'offrir à un tiers.**
+::hypothese:: **Mais le test de remplacement est exigeant sur un point que le chapitre n'avait pas examiné, et ce point est fatal : le contrôle.** Le référentiel public définit le contrôle par la capacité d'exclure ou de réguler l'accès, et dit expressément que c'est elle qui distingue les actifs d'une entité **des biens publics auxquels toutes les entités ont accès et dont toutes bénéficient**. **Le contrôle n'est donc pas un fait à prouver : c'est une propriété que le commun, par définition, n'a pas.** Et le même paragraphe ferme la voie de contournement : exercer un rôle régulateur ne signifie pas nécessairement que les éléments régulés satisfont la définition d'un actif. **Qualifier des activités par un barème ne vaut pas contrôle.** Le chapitre échange donc une difficulté contre une autre, et la seconde n'est pas plus facile.
+
+::hypothese:: Une difficulté métrologique s'y ajoute et elle est déjà tenue. Porter au bilan un fonds naturel restauré suppose de le valoriser, et L1.C18 § 5 a établi que cette infrastructure de mesure n'existe pas. L'instrument disponible a échoué par sa structure même : valorisation non normalisée, non obligatoire, de couverture annoncée incomplète, et libellée dans un référentiel de prix qui enregistre l'ordre institutionnel courant. Le Livre 18 tient ce constat.
+
+::etat:: **Une troisième contrepartie est pourtant documentée, et le chapitre doit l'exposer parce qu'elle échappe à l'objection du § 3.** Le référentiel public reconnaît à l'actif une ressource naturelle détenue pour sa conservation, si et seulement si trois conditions sont réunies : un potentiel de service susceptible de revenir à l'entité, un contrôle résultant d'événements passés, et une mesure fiable. À défaut du seul critère de mesure, la ressource est portée en annexe et non au bilan. **Si la contrepartie est la ressource conservée et non une créance sur les fontes futures, elle ne s'érode pas quand le dispositif réussit : elle s'apprécie.** Les trois conditions ne sont acquises ni l'une ni l'autre, et le contrôle est la plus dure des trois pour un commun.
+
+::etat:: **Et le référentiel applicable n'est pas établi, ce dont tout ce paragraphe dépend.** Rien n'établit que l'institution émettrice relève de la comptabilité publique ; la forme de l'émetteur reste ouverte. **Le Livre 10 rapporte en outre un résultat défavorable et plus strict**, pour une banque centrale de la zone où la question a été instruite : la comptabilisation y est subordonnée à trois conditions cumulatives, dont un gain ou une perte **économique** futur et le transfert à l'entité de l'essentiel des risques et avantages — **aucune branche de potentiel de service.** S'y ajoute une prudence asymétrique : les plus-values latentes ne vont pas au compte de résultat, les moins-values y vont. **La réussite du dispositif ne se verrait pas dans les comptes de son émetteur ; son échec s'y verrait.**
 
 ::etat:: Le corpus relève enfin que la construction analogue du côté des banques centrales nationales est, elle, sans difficulté. Le Cahier écrit que les unités reçues du GES entrent à leur actif « comme actif transitoire » et s'éteignent à mesure du reflux [S2]. C'est exact : elles détiennent une créance sur le GES, qui est un tiers identifié. **La difficulté est concentrée en un seul point du dispositif — le bilan du GES — et non répandue dans tout l'édifice.** C'est une bonne nouvelle pour la réparation.
 
-## 5. L'issue que le corpus propose, et qui est plus solide que celle du Cahier
+## 5. Les branches ouvertes, et ce qui les départagerait
 
-::hypothese:: Le Cahier cherche à démontrer que la partie double se referme. Le corpus soutient qu'il n'en a pas besoin, et que l'effort de démonstration l'affaiblit.
+::hypothese:: Le Cahier cherche à démontrer que la partie double se referme par un actif. Le corpus soutient qu'il n'en a pas besoin, et que l'effort de démonstration l'affaiblit. **Ce qu'il faut abandonner n'est pas la comptabilité ordinaire : c'est l'actif qui refermerait le cycle.** La partie double se referme par la situation nette, ce qui est une écriture ordinaire et non une exception.
 
-::etat:: Une institution qui émet la monnaie dans laquelle ses engagements sont libellés n'est pas soumise à la contrainte de solvabilité d'un agent ordinaire, **mais la littérature dit cela plus étroitement que ce chapitre ne l'écrivait.** Buiter distingue deux mesures : les fonds propres **financiers**, qui peuvent être négatifs sans conséquence, et les fonds propres **complets**, qui leur ajoutent la valeur actualisée du seigneuriage à venir et en retranchent celle des coûts de fonctionnement. Une banque centrale dont les fonds propres complets sont nuls ou négatifs **est insolvable**. Ce qui est soutenable n'est donc pas un déficit de fonds propres en général, mais un déficit de fonds propres financiers **couvert par le seigneuriage futur** [S6]. **Assumer que le GES porte structurellement des fonds propres financiers négatifs est donc une position tenable, sous la condition que Buiter pose**, et elle est plus honnête que la construction d'un actif contestable : elle dit que l'institution opère un transfert net financé par l'émission, gagé non par un actif mais par la capacité collective à détruire ultérieurement de la monnaie — ce qui est exactement ce que le dispositif fait, et ce qu'il revendique par ailleurs.
+::etat:: **Première branche — des fonds propres négatifs assumés.** Une institution qui émet la monnaie dans laquelle ses engagements sont libellés n'est pas soumise à la contrainte de solvabilité d'un agent ordinaire, **mais la littérature dit cela plus étroitement que ce chapitre ne l'écrivait.** Buiter distingue deux mesures : les fonds propres **financiers**, qui peuvent être négatifs sans conséquence, et les fonds propres **complets**, qui leur ajoutent la valeur actualisée du seigneuriage à venir et en retranchent celle des coûts de fonctionnement. Une institution dont les fonds propres complets sont nuls ou négatifs **est insolvable**. Ce qui est soutenable n'est donc pas un déficit de fonds propres en général, mais un déficit de fonds propres financiers **couvert par le seigneuriage futur** [S6].
 
-::hypothese:: **La condition de Buiter n'est pas décorative pour ce dispositif, et elle mord au commencement.** Le seigneuriage du GES est le produit de son reflux ; or le corpus a déjà enregistré qu'en phase de démarrage il n'y a pas de surplus, donc pas d'autofinancement. La position des fonds propres négatifs est donc tenable **en régime établi** et non démontrée **au commencement**, qui est précisément la période où l'institution doit exister.
+::hypothese:: **La condition de Buiter n'est pas décorative pour ce dispositif, et elle mord au commencement.** Le seigneuriage du GES est le produit de son reflux ; or le corpus a déjà enregistré qu'en phase de démarrage il n'y a pas de surplus, donc pas d'autofinancement. La position est donc tenable **en régime établi** et non démontrée **au commencement**, qui est précisément la période où l'institution doit exister. **Et une condition plus lourde n'est pas acquise : le GES n'est pas l'émetteur des monnaies dans lesquelles les prestataires sont payés.** Ce sont les banques centrales nationales qui émettent, sur instruction. La littérature invoquée porte sur un émetteur souverain de sa propre unité ; sa transposition à une institution qui délègue l'émission n'est pas établie, et c'est le point qu'il faudrait instruire.
 
-::hypothese:: Cette issue a deux autres prix que le corpus doit énoncer, et une condition qu'il ne peut pas tenir pour acquise. Le prix est l'abandon de la revendication de continuité comptable : on ne peut pas soutenir à la fois que « NEMO IMS n'invente pas une comptabilité radicalement nouvelle » [S2] et que son émetteur fonctionne en fonds propres négatifs permanents. **La condition est plus sérieuse : le GES n'est pas l'émetteur des monnaies dans lesquelles les prestataires sont payés.** Ce sont les banques centrales nationales qui émettent, sur instruction. La littérature invoquée porte sur un émetteur souverain de sa propre unité ; sa transposition à une institution qui délègue l'émission n'est pas acquise, et c'est le point qu'il faudrait instruire (P55).
+::etat:: **Deuxième branche — la ressource conservée**, exposée au § 4. Elle a l'avantage décisif de s'apprécier avec le succès au lieu de s'éroder. Ses critères de départage sont le contrôle, la mesure fiable et l'applicabilité du référentiel, et aucun des trois n'est acquis.
 
-::hypothese:: Une seconde voie existe et elle est moins coûteuse. Le second ressort du dispositif — le demurrage sur encaisses inactives — a une assiette qui **ne dépend pas de la composition des échanges** mais du stock de monnaie détenue, et qui ne s'érode donc pas avec le succès écologique. Une créance adossée aux dispositifs de reflux transactionnels **et** au demurrage résisterait à l'objection du § 3. Ni le livre ni le Cahier ne l'écrivent : la créance est adossée aux seules dispositifs de reflux transactionnels. **C'est la réparation la moins coûteuse du dispositif, et elle tient en une phrase de conception** (P56).
+::etat:: **Troisième branche — la créance sur reflux futurs**, celle du Cahier, écartée au § 3 pour deux motifs indépendants : l'érosion, et la non-reconnaissance d'un flux qui n'a pas eu lieu.
+
+::hypothese:: **Quatrième branche — une créance adossée au démurrage.** Le second ressort du dispositif a une assiette qui ne dépend pas de la composition des échanges mais du stock de monnaie détenue, et qui ne s'érode donc pas avec le succès écologique. Une créance adossée aux dispositifs de reflux transactionnels **et** au démurrage résisterait à l'objection du § 3. Ni le livre ni le Cahier ne l'écrivent.
+
+::etat:: **Cette branche a pourtant son propre canal d'érosion, et son champ est plus étroit qu'il n'y paraît.** Son assiette est l'encours, qui diminue à mesure que le démurrage produit son effet : l'instrument érode sa base comme le fait le reflux transactionnel, par un autre chemin. Et l'auteur a borné son champ : **le démurrage uniforme est maintenu sur les soldes institutionnels en unités, et il ne frappe pas les soldes de compensation des banques centrales à l'institution.** Le corpus ne dit plus que c'est la réparation la moins coûteuse : **aucun chiffrage ne le permet**, et l'assiette effective sous cette borne n'est pas évaluée.
+
+::hypothese:: **Le prix commun à toutes ces branches doit être énoncé.** On ne peut pas soutenir à la fois que « NEMO IMS n'invente pas une comptabilité radicalement nouvelle » [S2] et que son émetteur fonctionne durablement sans actif en regard de son passif. Ce qui est abandonné n'est pas la partie double ; c'est la prétention à la refermer par un actif.
+
+::norme:: **Le prochain jalon est une revue par un comptable national, et le corpus s'interdit de la devancer.** La question à lui poser est écrite : l'insuffisance d'actifs fait-elle disparaître le passif, y compris pour une institution dont la situation nette devient négative ? **Aucun modèle macroéconomique ne doit précéder cette revue**, faute de quoi il calibrerait un dispositif dont la nature comptable n'est pas fixée.
 
 ## 6. L'état du dossier
 
-::etat:: Ce chapitre étant le dernier avant la clôture du livre, le corpus doit dire où il en est. Il le fait en trois listes, et il s'interdit d'en équilibrer artificiellement les longueurs.
+::etat:: Ce chapitre étant le dernier avant la clôture du livre, le corpus doit dire où il en est. **Il le fait par un relevé daté et non par une appréciation**, et il s'interdit d'équilibrer artificiellement les longueurs.
 
-::etat:: **Ce qui a résisté.** Le diagnostic de la première partie a subi seize audits contradictoires et un sourçage primaire systématique ; il a été rétréci, mais ses trois thèses centrales tiennent — le filtre de solvabilité au point de création, l'essentiel insolvable, le nœud entre dette financière et dette écologique. La séparation en quatre chambres (L1.C18) répond à une objection réelle par une architecture réelle. L'abandon de l'additionnalité contrefactuelle au profit d'états mesurés est une avancée sur les dispositifs existants. Le mécanisme de destruction à deux ressorts (L1.C21) est mieux construit que le reste du dispositif et répond conjointement à Rueff et à Keynes. La neutralité monétaire globale du règlement international et la suppression des réserves de change intrazone (L1.C26, L1.C27) sont des propriétés réelles. Et le livre concède ses objections les plus dangereuses — Rueff, le seuil d'activation, la contrepartie comptable — au lieu de les esquiver.
+::etat:: **L'énoncé qui fait foi est de l'auteur, et il date du 2026-09-09 :** NEMO IMS constitue une hypothèse d'architecture monétaire et écologique suffisamment cohérente pour justifier un programme expérimental ; une version limitée peut être testée ; sa stabilité macroéconomique, son avantage sur les instruments existants, sa capacité à corriger les déséquilibres internationaux et sa voie d'adoption mondiale restent à démontrer. **Ce n'est ni « NEMO fonctionne » ni « NEMO est irréalisable ».**
 
-::etat:: **Ce qui est tombé.** Le bouclage comptable de L2.E09, crédité jusqu'à ce chapitre, ne referme le circuit que dans un monde où la dégradation se poursuit (§ 3). La loi historique selon laquelle les réformes monétaires se font à la sortie des grandes guerres est fausse (L1.C25 § 3). L'affirmation que le dispositif neutralise le triangle d'incompatibilité est fausse (L1.C26 § 4). La clause de neutralité anticoloniale ne tient pas (L1.C27 § 4). La convergence des pouvoirs d'achat ne suit pas de la fixation des taux nominaux (L1.C26 § 6). Aucune de ces chutes n'atteint le cœur de la thèse ; toutes atteignent des énoncés que le livre présente comme acquis.
+::etat:: **Cette conclusion sépare trois propositions que le corpus discutait sous un seul nom, et leur état n'est pas le même.** Le financement monétaire ciblé d'activités écologiques et sociales est **pilotable sous fortes limites**. L'unité de réserve internationale entre banques centrales est **techniquement plausible, comptablement et juridiquement à finaliser** — c'est l'objet du présent chapitre. Le référentiel de change obligatoire à parités fixes est **non applicable en l'état** ; la forme à parités administrées en coalition, sous compte de capital réglementé, est **expérimentable pour des chocs passagers**, et applicable aux déséquilibres durables sous conditions, dont l'inflation et l'adhésion des créanciers. L1.C26 tient cette mécanique.
 
-::hypothese:: **Ce qui décide, et qui n'est pas ce que l'on croirait.** Cinquante-six promesses sont ouvertes, mais elles ne forment pas cinquante-six chantiers. Le corpus a établi en défrichant L1.C28 que cinq d'entre elles sont une seule question posée cinq fois — qui pondère, selon quelle règle, et cette règle est-elle écrite (arbitrage A8). S'y ajoutent le calibrage jamais tenté (F1, P18), qui reste le point dur, et le mode de fixation des paramètres (F7), qui commande la forme que ce calibrage peut prendre. **Le chemin critique tient donc en trois objets et non en cinquante-six** : le chantier des barèmes, le calibrage, et la contrepartie traitée ici.
+::etat:: **L'état du registre est calculé, et non écrit.** Au 2026-09-19, `corpus/controle.py` relève sur `corpus/arbitrages.yaml` **soixante-cinq entrées** — arbitrages, conditions de falsification et pièces de conception manquantes : **dix-huit sont arbitrées**, dont seize par l'auteur et deux par le corpus en conséquence d'une décision antérieure, **et quarante-sept sont ouvertes ou orientées.** **Aucun des quatorze falsifieurs n'est levé.** Le nombre de promesses ouvertes n'est pas repris ici : le registre des promesses en est l'état, et il se lit là.
 
-::hypothese:: Le corpus doit dire enfin ce qu'il ne peut pas dire. **Il n'a pas de verdict.** Il n'a pas établi que le dispositif fonctionne, et il n'a pas établi qu'il échoue. Sept falsifieurs sont posés, aucun n'est éprouvé, et l'un d'eux — F6 — porte sur une condition d'adoption dont l'histoire suggère qu'elle est plus dure que la conception. Le corpus tient par ailleurs pour acquise une limite de son propre appareil : aucun audit contradictoire simulé n'a jamais produit de verdict d'échec, et rien n'établit si cela tient à la solidité de la thèse ou à l'incapacité du protocole. **Tant qu'une lecture humaine réellement hostile n'a pas eu lieu, l'absence de verdict négatif n'est pas un résultat favorable — c'est une absence de résultat.**
+::etat:: **Ce qui a résisté.** Le diagnostic de la première partie a subi seize audits contradictoires et un sourçage primaire systématique ; il a été rétréci, mais ses trois thèses centrales tiennent — le filtre de solvabilité au point de création, l'essentiel insolvable, le nœud entre dette financière et dette écologique. La séparation des fonctions (L1.C18) répond à une objection réelle par une architecture réelle. L'abandon de l'additionnalité contrefactuelle au profit d'états mesurés est une avancée sur les dispositifs existants. Le mécanisme de destruction à deux ressorts (L1.C21) est mieux construit que le reste du dispositif. La neutralité monétaire globale du règlement international et la suppression des réserves de change intrazone (L1.C26, L1.C27) sont des propriétés réelles. Une infrastructure commune de règlement multidevise est techniquement réalisable, sur un prototype et pour des opérations de gros. Et le livre concède ses objections les plus dangereuses — Rueff, le seuil d'activation, la contrepartie comptable — au lieu de les esquiver.
+
+::etat:: **Ce qui est tombé.** Le bouclage comptable du Cahier, crédité jusqu'à ce chapitre, ne referme le circuit que dans un monde où la dégradation se poursuit, et le flux futur qu'il invoque n'est de toute façon pas reconnaissable (§ 3). La loi historique selon laquelle les réformes monétaires se font à la sortie des grandes guerres est fausse (L1.C25 § 3). L'affirmation que le dispositif neutralise le triangle d'incompatibilité est fausse (L1.C26 § 4). La clause de neutralité anticoloniale ne tient pas (L1.C27 § 4). La convergence des pouvoirs d'achat ne suit pas de la fixation des taux nominaux (L1.C26 § 6). Aucune de ces chutes n'atteint le cœur de la thèse ; toutes atteignent des énoncés que le livre présente comme acquis.
+
+::hypothese:: **Ce qui décide, et qui n'est pas ce que l'on croirait.** Les promesses ouvertes ne forment pas autant de chantiers. Le corpus a établi que cinq d'entre elles sont une seule question posée cinq fois — qui pondère, selon quelle règle, et cette règle est-elle écrite —, et l'arbitrage rendu depuis en donne la forme exacte : **trois barèmes et une entrée commune**, le tableau de bord n'étant pas un barème mais ce que les autres lisent. S'y ajoutent **le bouclage macroéconomique**, jamais tenté, dont la condition d'échec est écrite — qu'aucun couple de paramètres ne satisfasse simultanément un volume suffisant pour financer et un reflux suffisant pour ne pas produire d'inflation nette ; **l'avantage comparatif**, dont le test existe et dont le portefeuille concurrent n'est pas construit ; **et le fait que le dispositif ajoute sans retirer** — financer du renouvelable ne ferme aucune mine. **Le chemin critique tient en quatre objets** : le chantier des barèmes, le calibrage, l'avantage comparatif, et la contrepartie traitée ici.
+
+::hypothese:: Le corpus doit dire enfin ce qu'il ne peut pas dire. **Il n'a pas de verdict.** Il n'a pas établi que le dispositif fonctionne, et il n'a pas établi qu'il échoue. Quatorze conditions de falsification sont posées, aucune n'est éprouvée, et l'une d'elles porte sur une condition d'adoption dont l'histoire suggère qu'elle est plus dure que la conception. **Le corpus tient par ailleurs pour acquise une limite de son propre appareil : aucun audit contradictoire simulé n'a jamais produit de verdict d'échec**, et rien n'établit si cela tient à la solidité de la thèse ou à l'incapacité du protocole. **Tant qu'une lecture humaine réellement hostile n'a pas eu lieu, l'absence de verdict négatif n'est pas un résultat favorable — c'est une absence de résultat.**
+
+::etat:: **Et la promesse que l'auteur a arrêtée borne ce que le dossier peut conclure.** NEMO IMS ne garantit pas les conditions de la vie : aucune institution monétaire ne contrôle seule les ressources, les techniques, les écosystèmes, les États et les comportements. Ce qui est garanti est la disponibilité du financement pour les besoins essentiels matériellement réalisables, dans les limites écologiques reconnues et sous contrôle démocratique, **avec deux engagements vérifiables : ne pas bloquer, ne pas financer l'incompatible.** Le livre se clôt sur trois scénarios d'advenue [S5] ; aucun n'est instruit, et c'est un chantier distinct de celui-ci.
 
 ## 7. Portée
 
-::etat:: Ce chapitre a restitué les deux réponses disponibles à la question de la contrepartie comptable, et il a établi que la plus complète des deux ne tient pas — non par insuffisance de rédaction, mais parce que ses deux contreparties reposent sur des hypothèses opposées quant à l'avenir : le certificat suppose que la régénération advienne, la créance suppose que la dégradation persiste. Il a établi que la seconde contrepartie ne satisfait pas la définition d'un actif, le service qu'elle atteste étant rendu à un tiers et n'engendrant aucun avantage futur pour l'émetteur.
+::etat:: Ce chapitre a restitué les deux réponses disponibles à la question de la contrepartie comptable, et il a établi que la plus complète des deux ne tient pas — non par insuffisance de rédaction, mais pour deux motifs indépendants : ses deux contreparties reposent sur des hypothèses opposées quant à l'avenir, et le flux futur qu'elle invoque n'est pas un événement passé.
 
-::etat:: Il a retiré en conséquence un élément de la liste de ce qui avait résisté, et il a localisé la difficulté en un point unique du dispositif — le bilan du GAÏA Economic Symposium —, le reste de l'architecture comptable étant sans objection.
+::etat:: **Il a corrigé son propre test.** L'argument qu'il opposait au certificat de qualification — l'absence d'avantage économique futur pour l'émetteur — n'est pas le test applicable dans le référentiel public, qui admet le potentiel de service. Le test applicable achoppe ailleurs, et plus durement : sur le **contrôle**, qu'un commun n'a par définition pas, et qu'un rôle régulateur ne procure pas. Pour une banque centrale, le référentiel instruit au Livre 10 est plus strict encore et ne connaît pas le potentiel de service.
 
-::hypothese:: Il a proposé deux réparations que ni le livre ni le Cahier ne formulent, et la seconde est peu coûteuse : adosser la créance au demurrage autant qu'aux dispositifs de reflux transactionnels, dont l'assiette ne s'érode pas avec le succès écologique ; ou renoncer à démontrer la clôture et assumer des fonds propres négatifs, ce qui est tenable pour un émetteur mais suppose d'établir que le GES en est un, ce qu'il n'est pas au sens strict. **Le corpus ne tranche pas entre les deux ; il constate que la question a des issues, et que l'auteur avait raison de la déclarer ouverte plutôt que résolue.**
+::etat:: Il a localisé la difficulté en un point unique du dispositif — le bilan du GAÏA Economic Symposium —, le reste de l'architecture comptable étant sans objection, et il a exposé quatre branches avec leurs critères de départage, sans en retenir aucune.
 
----
-
-## RÉVISION DU 2026-09-07 — BLOC COMPTABLE
-
-::etat:: **Sources ouvertes le 2026-09-07, fournies par l'auteur et rangées au Drive** : **cadre conceptuel IPSASB, édition 2023** ; **IPSAS 51, *Tangible Natural Resources Held for Conservation*** ; **SEEA — *Ecosystem Accounting*** des Nations unies. **Réserve d'applicabilité portée par l'auteur dans son manifeste et reprise ici : « référentiel de comptabilité publique — son applicabilité à chaque entité de NEMO doit être établie ».**
-
-::etat:: **CE CHAPITRE INSTRUISAIT LA QUESTION SUR LE MAUVAIS RÉFÉRENTIEL, et le corpus le corrige.** Il posait qu'« un actif doit être une ressource contrôlée par l'émetteur **dont des avantages futurs sont attendus pour lui**, condition qu'une prestation déjà rendue à un tiers ne remplit pas ». **C'est le test du secteur privé.**
-
-::etat:: **Le cadre conceptuel de la comptabilité publique énonce autre chose.** § 5.6 : « An asset is **a resource presently controlled by the entity as a result of past events** ». § 5.6A : « A resource is **a right to either SERVICE POTENTIAL or the capability to generate economic benefits**, or a right to both ». § 5.8 : « Service potential is the capability of a resource to provide services that contribute to achieving the entity's objectives. Service potential enables an entity to achieve its objectives **WITHOUT NECESSARILY GENERATING NET CASH INFLOWS**. »
-
-::etat:: **Et le référentiel dit pourquoi il diffère** (§ 14) : « In the public sector, **the primary reason for holding property, plant, and equipment and other assets is for their service potential rather than their ability to generate cash flows.** »
-
-::hypothese:: **Le test applicable comporte donc deux conditions, et la production d'avantages économiques pour l'entité n'en est pas une** : **un DROIT**, et **un CONTRÔLE PRÉSENT résultant d'événements passés.** **L'objection que ce chapitre s'opposait à lui-même n'est pas le test applicable** — une contrepartie qui n'engendre aucun flux de trésorerie pour l'émetteur n'est pas, par ce seul fait, irrecevable.
-
-::hypothese:: **Mais le test de remplacement est exigeant sur un point que ce chapitre n'avait pas examiné : LE CONTRÔLE.** Une prestation régénérative accomplie sur le fonds d'un tiers **n'est contrôlée par personne d'autre que ce tiers**, et le Livre 6 a établi qu'un commun opposable pèse sur des propriétaires réels. **Le chapitre échangeait une difficulté contre une autre, et la seconde n'est pas plus facile.**
-
-::etat:: **UNE TROISIÈME CONTREPARTIE EST DOCUMENTÉE.** IPSAS 51 reconnaît à l'actif **une ressource naturelle détenue pour sa conservation**, « if, and only if : (a) It is probable that **service potential** associated with the resource will flow to the entity ; (b) The entity **controls** the tangible natural resource [...] as a result of past events ; and (c) [elle] **can be measured reliably** ». À défaut du seul critère (c), § 12 : la ressource est **portée en annexe et non au bilan**.
-
-::hypothese:: **Si la contrepartie est la ressource conservée et non une créance sur les fontes futures, alors elle ne s'érode pas quand le dispositif réussit : elle s'apprécie.** **C'est la sortie que `falsification.md` cherchait sous P55 et P56** — et elle reste conditionnée au contrôle, à la mesure et à l'applicabilité du référentiel, dont aucune n'est acquise.
-
-## BALAYAGE DU LIVRE 18 — 2026-09-07
-
-::etat:: **Annotation portée à la clôture de la première tranche du Livre 18.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
-
-::etat:: **Les trois conditions laissées ouvertes par l'arbitrage A30 n'ont plus le même sort** [L18.C06].
-
-::etat:: **L'APPLICABILITÉ n'a pas avancé d'un pas** — rien n'établit que l'institution émettrice relève de la comptabilité publique, **et tout le raisonnement du Livre 18 lui est conditionnel.**
-
-::etat:: **LA MESURE a échoué par la structure de l'instrument disponible** : valorisation monétaire non normalisée, non obligatoire, de couverture annoncée incomplète, **et libellée dans un référentiel de prix qui enregistre l'ordre institutionnel courant.**
-
-::hypothese:: **LE CONTRÔLE A CHANGÉ DE NATURE, et c'est ce que ce chapitre doit enregistrer.** A30 le classait parmi des « questions de vérification ». **IPSAS 47 § 19 en fait autre chose** : la capacité d'exclure ou de réguler l'accès « **distinguishes an entity's assets FROM THOSE PUBLIC GOODS that all entities have access to and benefit from** ». **Le contrôle n'est pas un fait à prouver : c'est une propriété que le commun, par définition, n'a pas.**
-
-::etat:: **Et le même paragraphe ferme la voie de contournement** : un rôle régulateur « **does not necessarily mean** that such regulated items meet the definition of an asset ». **Qualifier des activités par un barème ne vaut pas contrôle.**
-
-## BALAYAGE DU LIVRE 10 — 2026-09-07
-
-::etat:: **Annotation portée à la clôture de la première tranche du Livre 10.** Ce que ce chapitre reçoit n'a pas été instruit ici et **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
-
-::etat:: **La troisième condition d'A30 reçoit sa première instruction, et le résultat est mixte** [L10.C01] [L10.C02] [L10.C03].
-
-::etat:: **DÉFAVORABLE.** L'orientation BCE/2016/34, article 6, subordonne la comptabilisation à trois conditions **cumulatives** dont un **gain ou perte ÉCONOMIQUE futur** et le **transfert à l'entité de l'essentiel des risques et avantages** — **aucune branche de potentiel de service.** **Le test que le corpus croyait avoir abandonné à tort le matin même est, pour une banque centrale, celui qui s'applique**, et il est **plus strict qu'IPSAS**. S'y ajoute une **prudence asymétrique** : les plus-values latentes ne vont pas au compte de résultat, les moins-values y vont — **la réussite du dispositif ne se verrait pas dans les comptes de son émetteur, son échec s'y verrait.**
-
-::etat:: **FAVORABLE.** L'annexe IV réserve **l'évaluation AU COÛT** aux titres de créance détenus à des fins de politique monétaire, **obligatoirement pour les non négociables.** **Une dette collective y trouve une case, sans exposition au prix de marché ni à l'asymétrie de prudence.** **C'est la meilleure nouvelle que ce référentiel ait donnée au corpus.**
-
-::hypothese:: **ET LA CASE FAVORABLE EST SOUS CONDITION JURIDIQUE.** Elle exige un instrument de dette, **dont l'absence fondait l'échappatoire de L20.C02.** **A30 restait bloquant sur un point non juridique — ce qui garantit la dette collective s'érode quand le dispositif réussit. Il en reçoit un second, juridique.**
-
-::etat:: **Ce que le corpus doit désormais défendre a changé de nature.** Non plus sa légalité — L20.C02 tient la lettre — **mais la compatibilité de son MÉCANISME avec ce que la prohibition protège.** **Porté au protocole sous F4 ter.**
-
-## BALAYAGE DU LIVRE 10, SECONDE TRANCHE — 2026-09-07
-
-::etat:: **Annotation portée après l'ouverture de *Gauweiler* et du règlement (CE) n° 3603/93.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
-
-::etat:: **La troisième condition d'A30 reçoit sa suite, et elle se réduit à une question de conception** [L10.C04] [L10.C05]. **Règlement (CE) n° 3603/93, article premier § 1 b) iii)** : « autre type de crédit » = « **toute opération avec le secteur public qui se traduit ou est susceptible de se traduire par une créance sur celui-ci** » — **aucun instrument n'est exigé.**
-
-::hypothese:: **A30 avait arrêté l'adossement à une dette collective sans dire de qui elle est la dette, et ce silence est devenu bloquant.** **Si le débiteur relève du secteur public, l'opération est un crédit prohibé de plein droit ; sinon, la prohibition ne l'atteint pas du tout.** **Arbitrage A35 ARBITRÉ le 2026-09-09.** A35a inscrit l'unité au **passif de l'émetteur**, la société supportant l'incidence économique sans être débitrice en droit. **Le silence que ce paragraphe relevait est donc comblé sur le porteur**, et la question de l'appartenance au secteur public se reporte sur **A37**, qui reste ouvert.
-
-::etat:: **Et c'est la même question que L18.C06 avait posée depuis la comptabilité** — « le corpus n'a jamais dit **quelle entité comptable porterait l'écriture** ». **Deux livres qui ne se parlaient pas ont buté sur un seul silence de conception.**
-
-::etat:: **Une précision favorable, portée ici** [L10.C04]. La prohibition a une **portée personnelle** : elle vise les autorités et organismes publics. **Une émission au bénéfice d'acteurs privés conduisant une activité qualifiée n'entre pas dans son champ**, et L10.C03 avait trop dit en soutenant que la certitude du dispositif était prohibée en elle-même.
-
-## BALAYAGE DE L'ARBITRAGE A35 — 2026-09-07
-
-::etat:: **Annotation portée après l'arbitrage A35, rendu par l'auteur.** Ce que ce chapitre reçoit **ne modifie pas ce qui précède** : il est versé pour que la passe 2 le trouve.
-
-::etat:: **A35 est arbitré, et il débloque A30 sur un point tout en en ouvrant un autre** [L10.C06]. L'auteur a arrêté que **la dette est portée par l'ensemble de la société**, le motif étant que **« la rentabilité n'est pas compatible avec la régénération (essentiel insolvable) »**, et le reflux passant par des fontes graduées selon l'impact.
-
-::etat:: **CE QUI EST LEVÉ** : l'obstacle de l'article 123 TFUE, faute de créance sur le secteur public. **CE QUI EST CONFIRMÉ** : l'absence d'actif. Sans débiteur, aucune créance ; et **IPSAS 47 § 18 exclut le flux futur de fontes par un exemple qui vise le cas** — « **an intention to levy taxation is not a past event** that gives rise to an asset ».
-
-::hypothese:: **Le corpus enregistre que les deux exigences sont contradictoires : on ne peut pas simultanément n'avoir aucun débiteur et détenir une créance reconnaissable.** **A30 restait bloquant sur un point non juridique — ce qui garantit la dette collective s'érode quand le dispositif réussit. A35 ne le lève pas : il établit qu'il n'y a rien à éroder, parce qu'il n'y a pas de garantie.**
-
-::hypothese:: **ET LE DISPOSITIF CHANGE DE BRANCHE DU DROIT.** Une émission sans débiteur, recouvrée par un prélèvement gradué, **est une DÉPENSE PUBLIQUE dont la ressource est un PRÉLÈVEMENT** — charge à l'émission, produit au reflux. **Régime comptable cohérent, au prix de cesser d'être adossé.**
-
-::etat:: **Question ouverte par l'arbitrage, et elle est la plus urgente du corpus** : **qui lève la fonte, et de quel titre ?** **Et le passif reste entier** : si l'unité n'est la dette de personne en particulier, est-elle une dette de l'émetteur ?
-
-::etat:: **CORRECTION DU 2026-09-07 (nuit), SUR REVUE CONTRADICTOIRE — deux énoncés ci-dessus étaient trop forts.** **« CE QUI EST LEVÉ » devient conditionnel** : A35 décrit l'incidence économique de la charge, non son porteur en droit, et **une charge collective peut être juridiquement portée par une entité**. **Si** une entité garantit, rembourse, convertit ou compense l'unité, **le test de l'article 123 doit être refait.**
-
-::etat:: **Et « le dispositif change de branche du droit » n'est qu'UNE BRANCHE SUR SIX.** L'arbre de qualification de la fonte, posé en L10.C06 : **impôt, contribution affectée, redevance, frais de réseau, RÈGLE MONÉTAIRE, obligation conventionnelle**, départagées par huit critères dont le corpus ne tient aucun. **Ni IPSAS 48 ni IPSAS 47 n'imposent la qualification de dépense publique.**
-
-::etat:: **CE QUI SUBSISTE SANS RÉSERVE** : IPSAS 47 § 18 exclut le flux futur de fontes de l'actif — « **an intention to levy taxation is not a past event** ». **Et les cinq objets à verrouiller avant toute conclusion** : l'unité, le débiteur, le passif, le prélèvement, les écritures inter-entités.
+::hypothese:: Il a relevé que la ressource conservée est la seule branche qui s'apprécie avec le succès au lieu de s'éroder, et que la branche du démurrage, qu'il proposait comme réparation, a son propre canal d'érosion et un champ borné aux soldes institutionnels en unités. **Le corpus ne tranche pas ; il constate que la question a des issues, qu'aucune n'est acquise, et que l'auteur avait raison de la déclarer ouverte plutôt que résolue.** Le prochain jalon est une revue humaine par un comptable national, et aucun modèle macroéconomique ne doit la précéder.
