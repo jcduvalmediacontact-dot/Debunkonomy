@@ -25,8 +25,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S4
     nature: theorie
-    reference: "M. Aglietta, É. Espagne, CEPII WP 2016-10, section 5 — position la plus dure des trois : parmi les outils, « MORE DIRECT ACTIONS ON THE QUALITY OF CREDITS created by commercial banks, such as a « green funding for lending scheme » [...] OR EVEN FINANCIAL REPRESSION MEASURES (Monnet, 2015), WHICH FORCE COMMERCIAL BANKS WITH VARIOUS TOOLS TO LEND TO PARTICULAR SECTORS with a high climate-related reward ». **OUVERT le 2026-09-06**"
-    etat_lecture: a_requalifier
+    reference: "M. Aglietta, É. Espagne, CEPII WP 2016-10, section 5 — position la plus dure des trois : parmi les outils, « MORE DIRECT ACTIONS ON THE QUALITY OF CREDITS created by commercial banks, such as a « green funding for lending scheme » [...] OR EVEN FINANCIAL REPRESSION MEASURES (Monnet, 2015), WHICH FORCE COMMERCIAL BANKS WITH VARIOUS TOOLS TO LEND TO PARTICULAR SECTORS with a high climate-related reward ». **OUVERT le 2026-09-06** OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/livre-2/L2-aglietta-espagne-2016-cepii-wp2016-10.pdf, 30 pages, SHA-256 4443336FCE8EC83E05CD0E051048DD8D54DA19C07F01DC401EEA12E1EDD28D65) — M. Aglietta et É. Espagne, CEPII WP 2016-10, trouvé sur le Drive de l'auteur et copié au Codex. RELECTURE MÉCANIQUE : **toutes les citations que cette entrée porte entre guillemets ont été retrouvées au mot dans la pièce**, après normalisation des apostrophes, tirets et guillemets, et en vérifiant fragment par fragment les citations élidées par [...]. L'identité du document a d'abord été confirmée en tête, avant tout contrôle de contenu"
+    etat_lecture: ouverte
+    date_verification: 2026-09-19
 verifications_en_attente:
   - "TROIS SOURCES, TROIS POSITIONS, ET AUCUNE PREUVE POUR ARBITRER. Le Cahier
      tient le démantèlement pour partiellement justifié, la note de 2022 pour

@@ -21,8 +21,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
-    reference: "C. Borio, « Towards a macroprudential framework for financial supervision and regulation? », **BIS Working Papers n° 128, février 2003**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (bis.org/publ/work128.pdf, 188 588 octets, couche texte intégrale). **CINQ ANS AVANT LA CRISE DE 2007-2008**, l'essai définit, compare et oppose les dimensions macro- et microprudentielle, et déclare le renforcement de l'orientation macroprudentielle « a process that is already under way »"
-    etat_lecture: a_requalifier
+    reference: "C. Borio, « Towards a macroprudential framework for financial supervision and regulation? », **BIS Working Papers n° 128, février 2003**. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06** (bis.org/publ/work128.pdf, 188 588 octets, couche texte intégrale). **CINQ ANS AVANT LA CRISE DE 2007-2008**, l'essai définit, compare et oppose les dimensions macro- et microprudentielle, et déclare le renforcement de l'orientation macroprudentielle « a process that is already under way » OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/livre-2/L2-borio-2003-bis-wp128.pdf, 26 pages, SHA-256 547F6931323B41E56A2586E303981FC92211A9524D8476E70ED19AC99C034622) — C. Borio, BIS Working Paper 128, trouvé sur le Drive de l'auteur et copié au Codex. RELECTURE MÉCANIQUE : **toutes les citations que cette entrée porte entre guillemets ont été retrouvées au mot dans la pièce**, après normalisation des apostrophes, tirets et guillemets, et en vérifiant fragment par fragment les citations élidées par [...]. L'identité du document a d'abord été confirmée en tête, avant tout contrôle de contenu"
+    etat_lecture: ouverte
+    date_verification: 2026-09-19
   - ref: S4
     nature: theorie
     reference: "J.-C. Duval, décision du 2026-09-06 : « J'aimerais que tu t'attaques au livre sur les concepts macro prudentiels actuels et les confronter à la macro prudence NEMO IMS. Réfère toi aux ouvrages de Michel Aglietta, Dominique Plihon, et quelques autres. » **L'INSTRUCTION FIXE LA MÉTHODE AUTANT QUE L'OBJET** : la confrontation se fait contre une doctrine nommée, non contre une orthodoxie reconstituée"
