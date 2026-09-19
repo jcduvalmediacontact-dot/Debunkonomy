@@ -74,8 +74,22 @@ verifications_en_attente:
   - "Banque WIR (Suisse, 1934) : statut actuel, volume, et travaux évaluant son effet contracyclique"
   - "Part de la monnaie créée par les banques commerciales par rapport à la monnaie centrale : source par zone monétaire"
   # — Cohérence interne —
-  - "COHÉRENCE — la non-neutralité affirmée ici doit être formulée comme en L1.C02 : elle porte sur l'orientation sectorielle du crédit, non sur la neutralité de long terme au sens de la littérature. Vérifier l'alignement des trois occurrences (L1.C01, L1.C02, L1.C05)."
-  - "COHÉRENCE — ce chapitre reçoit l'épreuve annoncée en L1.C02 et L1.C03 sur le mécanisme monétaire. Il ne la conduit pas : il pose la nature de la monnaie. Vérifier que les deux chapitres renvoient bien au chapitre qui l'expose (L1.C07 annoncé)."
+  - "COHÉRENCE SUR LA NON-NEUTRALITÉ — CONTRÔLE FAIT LE 2026-09-19 : LES DEUX
+     FORMULATIONS SONT ALIGNÉES, ET IL N'Y EN A PAS TROIS. Relèvement mécanique : L1.C01 en
+     porte une, L1.C05 une, ET L1.C02 ZÉRO — le mot n'y figure pas. Les deux qui existent
+     disent la même chose et dans le même ordre : elles écartent expressément la neutralité
+     de long terme au sens de la littérature, « question distincte », et portent la thèse
+     sur l'ORIENTATION SECTORIELLE DU CRÉDIT. Rien à aligner.
+     UNE RÉSERVE SUBSISTE, mineure et signalée sans être corrigée : le corps de ce chapitre
+     attribue la proposition à « L1.C02, L1.C03 ». L1.C02 la porte EN SUBSTANCE — ce n'est
+     pas la croissance mais le mode de financement qui exige la dégradation — sans employer
+     le mot. L'attribution n'est donc pas fausse ; elle est plus large que la lettre."
+  - "RENVOIS VERS LE CHAPITRE QUI EXPOSE LE MÉCANISME — CONTRÔLE FAIT LE 2026-09-19, ET IL
+     ÉCHOUE À MOITIÉ. L1.C02 renvoie bien à L1.C07, dans son corps et dans son en-tête.
+     L1.C03 NE LE FAIT PAS : zéro occurrence de L1.C07 dans son corps, et L1.C07 absent de
+     ses renvois déclarés. L'épreuve mécanique annoncée y reste donc sans destinataire
+     écrit. LE CORPS DE L1.C03 N'A PAS ÉTÉ MODIFIÉ : cette ligne demandait de vérifier, non
+     de corriger, et ajouter un renvoi suppose une phrase que l'auteur doit vouloir."
   # — Renvois —
   # — Renvoi vers L1.C07 ajouté le 2026-09-11 (§ 6) : L1.C07 établit le mécanisme pour la seule monnaie de dépôt ; la définition générale posée ici reste une hypothèse —
 resume: "Les manuels définissent la monnaie par ses trois fonctions — unité de compte, intermédiaire d'échange, réserve de valeur — c'est-à-dire par ses usages. Ce chapitre soutient que cette définition laisse ouverte la question de sa nature, et propose de la caractériser comme un registre de créances collectivement tenu, dont le support importe moins que la tenue. Il en tire que les règles d'émission relèvent d'une décision et non d'une nécessité, et que la question décisive est celle des conditions auxquelles la monnaie est créée."

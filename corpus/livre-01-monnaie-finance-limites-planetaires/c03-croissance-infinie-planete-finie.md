@@ -108,7 +108,18 @@ verifications_en_attente:
   - "Kate Raworth, économie du donut : date de la première formulation (2012) et de l'ouvrage (2017)"
   # — Renvois —
   - "GÉNÉRATION — le générateur devra reporter le statut de vérification du chapitre dans chaque fragment produit : une balise ::etat:: voyage avec le paragraphe, le statut du chapitre non, et un fragment descriptif non vérifié serait lu comme établi"
-  - "COHÉRENCE — reprendre L1.C02 après ce chapitre : l'épreuve du découplage y est annoncée, son résultat doit y être reporté"
+  - "COHÉRENCE AVEC L1.C02 — CONTRÔLE FAIT LE 2026-09-19, IL ÉCHOUAIT, ET LE REPORT EST
+     FAIT. L1.C02 annonçait l'épreuve du découplage TROIS FOIS — au § sur les deux
+     épreuves, dans « ce qui est supposé », et en clôture — sans jamais en reporter le
+     résultat : une seule occurrence de L1.C03 dans son corps, et c'était l'annonce.
+     LE REPORT EST ÉCRIT DANS LES BORNES DU § 6 DE CE CHAPITRE, et non dans une version
+     arrondie : absence de découplage absolu mondial 2015-2023 [S7] ; taux observés
+     insuffisants sur une revue de 835 études [S8] ; baisses absolues nationales 2005-2015
+     bornées par leurs auteurs [S9] ; ET LE DÉCOUPLAGE RELATIF RAPPORTÉ SANS SOURCE
+     ÉTABLIE. La formule courante — « le relatif est observé, l'absolu ne l'est pas » —
+     aurait surdit ce que ce chapitre établit, et elle n'a pas été employée. Le report
+     conclut ce que le § 6 autorise : la corrélation n'est montrée ni contingente ni
+     structurelle. À REFAIRE si le § 6 de ce chapitre change."
 resume: "Le découplage entre croissance économique et empreinte physique est promis depuis les années 1970. Ce chapitre distingue le découplage relatif — baisse de l'intensité matérielle par unité produite — du découplage absolu, qui exige une baisse des volumes totaux à un rythme compatible avec les limites planétaires. Il expose trois arguments avancés pour expliquer que le second ne soit pas observé au niveau mondial : l'accumulation historique des sources d'énergie plutôt que leur substitution, l'effet rebond, et la production d'entropie dans les transformations réelles. Il en délimite la portée. Le chapitre n'établit pas qu'une croissance économique perpétuelle soit impossible : il établit qu'une croissance perpétuelle du volume physique produit l'est, et que la question de la valeur ajoutée reste empirique."
 concepts: [decouplage, effet_rebond, entropie, sobriete]
 renvois: [L1.C02, L1.C04, L1.C05, L1.C16, L26.C01]

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-15
+revision_de_fond: 2026-09-19
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -127,7 +127,7 @@ L'agriculture est la première cause de déforestation mondiale. Le secteur abso
 
 ::etat:: Ce qui précède décrit une progression conjointe, non une causalité. Le mot de corrélation lui-même serait prématuré : plusieurs des séries invoquées ne sont pas encore rapportées à leur source, et une corrélation ne s'établit qu'entre séries dont la mesure, le périmètre et la période sont fixés. Deux lectures restent compatibles avec ces séries : la richesse financière serait produite au moyen de la dégradation, ou les deux grandeurs procéderaient d'une cause commune — par exemple la disponibilité d'énergie abondante et bon marché. Rien dans ce chapitre ne permet de trancher.
 
-::etat:: Deux épreuves fourniront les éléments principaux pour l'évaluer, sans nécessairement suffire à trancher : une causalité historique met en jeu plusieurs facteurs concurrents, et les départager demande davantage qu'un chapitre. La première est empirique : si le découplage entre production et empreinte physique était possible et observé, la corrélation serait contingente et non structurelle ; le chapitre suivant (L1.C03) examine ce que disent cinquante ans de données. La seconde est mécanique : établir un lien de production suppose d'exhiber le mécanisme par lequel les conditions d'émission de la monnaie orientent l'allocation du crédit ; c'est l'objet des chapitres à partir du cinquième (L1.C05, L1.C07). Tant que ces deux épreuves ne sont pas conduites, la proposition reste une hypothèse de travail.
+::etat:: Deux épreuves fourniront les éléments principaux pour l'évaluer, sans nécessairement suffire à trancher : une causalité historique met en jeu plusieurs facteurs concurrents, et les départager demande davantage qu'un chapitre. La première est empirique : si le découplage entre production et empreinte physique était possible et observé, la corrélation serait contingente et non structurelle ; le chapitre suivant (L1.C03) examine ce que disent cinquante ans de données. **Cette épreuve a été conduite, et son résultat est partiel.** L1.C03 § 6 établit sur source ouverte l'absence de découplage absolu à l'échelle mondiale pour 2015-2023, et qu'une revue de 835 études donne des taux de découplage observés insuffisants pour atteindre les réductions requises ; il établit aussi, en sens inverse, des baisses absolues nationales sur 2005-2015, que leurs auteurs bornent eux-mêmes comme s'expliquant en partie par une croissance plus faible. **Le découplage relatif y est rapporté sans source établie.** La corrélation n'est donc pas montrée contingente ; elle n'est pas montrée structurelle non plus. La seconde est mécanique : établir un lien de production suppose d'exhiber le mécanisme par lequel les conditions d'émission de la monnaie orientent l'allocation du crédit ; c'est l'objet des chapitres à partir du cinquième (L1.C05, L1.C07). Tant que ces deux épreuves ne sont pas conduites, la proposition reste une hypothèse de travail.
 
 ## 3. Ce que mesure la valeur créée
 

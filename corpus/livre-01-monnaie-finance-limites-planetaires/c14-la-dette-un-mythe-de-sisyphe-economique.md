@@ -72,6 +72,11 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # ── CRITIQUES RÉSOLUES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ──────────
+  # Ces deux lignes portent leur propre résolution dans leur texte. Elles sont conservées
+  # mot pour mot et cessent de compter comme vérification en attente.
+  # "CRITIQUE — Scène d'ouverture « Paris, hiver 1942, rue Vaneau » : reconstitution. Manuscrit achevé à Oran en février 1941 ; Camus n'occupe le studio de la rue Vaneau qu'à partir de 1944 (Deep Research). Retirée."
+  # "CRITIQUE — « Layard a démontré un plateau à 40 000 euros par an et par personne » : contresens. Layard raisonne sur des comparaisons entre pays (produit par habitant, ordre de 20 000 $), non sur un seuil individuel ; le seuil de 75 000 $ est celui de Kahneman et Deaton [S3], contesté puis réconcilié [S4]. Le chapitre cite l'état de la question, non un seuil."
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
@@ -115,8 +120,6 @@ verifications_en_attente:
   # 4. § 4 : les blocages de la décision publique relèvent d'abord de l'économie politique (passager clandestin, arbitrage électoral) [S11] ; le chapitre le dit et n'attribue au régime monétaire que la part budgétaire.
   # 5. § 5 : marqueur ::hypothese:: ajouté.
   # — Corrections identifiées à la conversion —
-  - "CRITIQUE — Scène d'ouverture « Paris, hiver 1942, rue Vaneau » : reconstitution. Manuscrit achevé à Oran en février 1941 ; Camus n'occupe le studio de la rue Vaneau qu'à partir de 1944 (Deep Research). Retirée."
-  - "CRITIQUE — « Layard a démontré un plateau à 40 000 euros par an et par personne » : contresens. Layard raisonne sur des comparaisons entre pays (produit par habitant, ordre de 20 000 $), non sur un seuil individuel ; le seuil de 75 000 $ est celui de Kahneman et Deaton [S3], contesté puis réconcilié [S4]. Le chapitre cite l'état de la question, non un seuil."
   - "Les trois personnages sont des idéaux-types au sens de Weber [S9] : construits par accentuation de traits, non des cas documentés. Les chiffres qui les accompagnent sont des ordres de grandeur plausibles, non des données."
   # — Objections acceptées comme limites, mentionnées dans le texte —
   - "LIMITE — Lissage intertemporel (Modigliani, Friedman) [S12] : l'endettement des ménages s'explique aussi par un arbitrage rationnel sur le cycle de vie ; le chapitre le mentionne et n'attribue au régime que la part de contrainte."
@@ -128,9 +131,25 @@ verifications_en_attente:
   # — Sources non ouvertes par un humain —
   - "S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé."
   # — Cohérence interne —
-  - "COHÉRENCE — Le § 1 reprend L1.C08 § 2 sous ses conditions ; ne rien y ajouter. Vérifier après révision de L1.C08 que les deux formulations restent identiques."
-  - "COHÉRENCE — Le chapitre annonce L1.C15 et reprend essentiel_insolvable (L1.C06)."
-  - "COHÉRENCE — sisyphe_economique au vocabulaire en nom provisoire."
+  - "COHÉRENCE AVEC L1.C08 § 2 — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT, ET REJOUABLE.
+     Les deux formulations disent la même chose et le § 1 n'ajoute rien : l'argument des
+     intérêts « jamais créés » est faux tel quel ; les revenus d'intérêts reviennent en
+     dépense ; la contrainte est CONDITIONNELLE et apparaît sous deux conditions jointes —
+     l'encours de dette croît, et les créanciers accumulent au lieu de dépenser. Les deux
+     chapitres s'appuient sur les modèles à cohérence stock-flux de Jackson et Victor, que
+     L1.C08 porte aussi. ANCRAGE : L1.C08 était à revision_de_fond 2026-09-17 au moment du
+     contrôle. SI CETTE DATE BOUGE, LE CONTRÔLE EST À REFAIRE, et cette ligne redevient une
+     attente."
+  - "COHÉRENCE DES RENVOIS ET DU VOCABULAIRE — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT.
+     L1.C15 et L1.C06 sont l'un et l'autre déclarés en renvoi et appelés dans le corps ;
+     `essentiel_insolvable` est déclaré en concept et porté dans le corps sous le nom de son
+     fichier de vocabulaire, dont la première occurrence est L1.C06. Rien à corriger."
+  - "NOM PROVISOIRE DE `sisyphe_economique` — ÉTAT VÉRIFIÉ LE 2026-09-19, ET CE N'EST PAS
+     UNE TÂCHE DOCUMENTAIRE. Le terme figure bien au vocabulaire, avec L1.C14 pour première
+     occurrence, et sa définition DÉCLARE ELLE-MÊME le nom provisoire : « Nom provisoire
+     (celui du livre), à confirmer en passe 2. » L'état est donc conforme à ce que cette
+     ligne demandait. CE QUI RESTE EST UN ARBITRAGE DE L'AUTEUR en passe 2 : garder le nom
+     du livre, ou en retenir un autre. Le corpus ne le rend pas à sa place."
   # — Renvois —
   - "Sourcer ou retirer la clause du paragraphe sur les blocages d'économie politique : « les bénéfices d'une politique climatique sont diffus et différés, ses coûts concentrés et immédiats, ce qui défavorise structurellement les mandats courts ». Elle était adossée à S11 avec Nordhaus ; la réduction de S11 du 2026-09-15 la laisse sans appui ouvert, Buchanan et Tullock développant la configuration inverse. Le passager clandestin, lui, est porté par Nordhaus."
 resume: "Les trois malédictions monétaires, prises ensemble, produisent une trajectoire que le livre nomme le mythe de Sisyphe économique : un effort renouvelé sans terme, où chaque cycle ramène au point de départ. Ce chapitre expose la figure et en délimite strictement la portée. La contrainte de croissance n'est pas arithmétique — une économie stationnaire endettée est possible si les revenus d'intérêts sont redépensés ; elle tient à leur accumulation et à la croissance de l'encours. Et la figure ne s'applique qu'à ce que le régime monétaire ajoute : l'usure du capital est physique, la saturation du revenu est psychologique, les blocages de la décision publique relèvent d'économie politique — le chapitre isole dans chaque cas la part monétaire au lieu de tout lui attribuer. Trois idéaux-types en donnent la forme vécue, avec trois traits communs : lucidité, impuissance à sortir seul, répétition sans terme. À la différence du mythe, la contrainte est architecturale, donc modifiable."

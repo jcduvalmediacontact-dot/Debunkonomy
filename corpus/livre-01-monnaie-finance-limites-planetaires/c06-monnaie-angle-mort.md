@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-15
+revision_de_fond: 2026-09-19
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -73,7 +73,28 @@ verifications_en_attente:
   - "Motivations prêtées aux détenteurs du pouvoir monétaire : reformulées en effets, comme en L1.C05. Vérifier s'il existe des travaux documentant une stratégie délibérée, faute de quoi la formulation reste hypothétique."
   - "Positive Money et mouvements analogues : vérifier leur positionnement, leur audience et l'état de leurs propositions"
   # — Cohérence —
-  - "COHÉRENCE — l'asymétrie de financement entre activités destructrices et régénératives est affirmée ici comme au chapitre 1 et au chapitre 2. Aligner les trois formulations : elles n'ont pas le même degré."
+  - "COHÉRENCE SUR L'ASYMÉTRIE DE FINANCEMENT — CONTRÔLE FAIT LE 2026-09-19, ET LA
+     PRÉMISSE DE CETTE LIGNE ÉTAIT PARTIELLEMENT FAUSSE. Elle annonçait trois formulations,
+     en L1.C01, L1.C02 et ici. IL N'Y EN A QUE DEUX : L1.C02 N'AFFIRME PAS L'ASYMÉTRIE.
+     Relèvement mécanique sur son corps : zéro occurrence d'asymétrie, d'activités
+     destructrices ou extractives, une seule de régénér-. Ce que L1.C02 pose est une thèse
+     VOISINE ET DISTINCTE, et il la pose en ::hypothese:: : que la valeur financière serait
+     produite par le transfert hors bilan de coûts physiques, et que ce n'est pas la
+     croissance mais le MODE DE FINANCEMENT qui exige la dégradation. C'est une thèse sur
+     l'origine de la valeur, non sur le partage du financement.
+     LES DEUX FORMULATIONS QUI RESTENT N'ONT PAS LE MÊME MODE, et c'est un écart réel.
+     L1.C01 l'écrit À L'INDICATIF — « Le système ne finance pas la régénération en tant que
+     telle : il finance ce qui, dans une activité régénérative, se vend » — sous un chapeau
+     qui déclare ses trois propositions « énoncées et argumentées, non démontrées ».
+     L1.C06 l'écrit AU CONDITIONNEL — « L'asymétrie qui en RÉSULTERAIT a été caractérisée
+     au premier chapitre » — et ajoute que la proposition qui la porte « n'est pas
+     démontrée ici ». Le chapitre 6 est donc PLUS PRUDENT QUE LE CHAPITRE 1 sur un énoncé
+     qu'il attribue au chapitre 1, ce qui se lit comme une réserve tacite.
+     ARBITRAGE À RENDRE PAR L'AUTEUR, dans un sens ou dans l'autre, et le corpus ne le rend
+     pas à sa place : soit L1.C01 passe au conditionnel et aligne son mode sur sa propre
+     réserve de chapeau, soit L1.C06 passe à l'indicatif en renvoyant la réserve au chapeau
+     de L1.C01. AUCUN CORPS N'A ÉTÉ MODIFIÉ SUR CE POINT. Cette ligne mentionnait L1.C02 :
+     le renvoi est retiré, faute d'objet."
   # — Cohérence avec L1.C07 fermée le 2026-09-11 par propagation, sur décision de l'auteur : deux formulations qui dépassaient ce que L1.C07 établit sont corrigées (§ 2 et § 3) ; le chapitre annonce le mécanisme de sélection sans conclure ce que L1.C07 n'établit pas —
   # — Renvois —
   # — Renvoi vers L1.C07 ajouté le 2026-09-11 —
@@ -144,7 +165,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ::hypothese:: **Ce qui est proposé.** Que les trois familles de propositions écologistes portent sur les usages et non sur les conditions d'émission de la monnaie, et qu'elles rencontrent de ce fait une limite commune.
 
-::etat:: **Ce que le chapitre n'établit pas.** Que la question monétaire soit absente de la pensée écologiste — proposition contredite par plusieurs travaux, et à restreindre. Ni le mécanisme de création monétaire lui-même, qui est ici énoncé et non démontré.
+::etat:: **Ce que le chapitre n'établit pas.** Que la question monétaire soit absente de la pensée écologiste. **Le chapitre ne le soutient pas** : il porte sur la PLACE RÉDUITE de la question, et le § 2 nomme les travaux qui l'ont posée — l'économie stationnaire, la tradition des monnaies complémentaires, l'économie écologique. Ni le mécanisme de création monétaire lui-même, qui est ici énoncé et non démontré.
 
 ::norme:: Ce qui s'en déduit est une question à poser avant les autres, et non un dossier supplémentaire : de quoi la monnaie naît-elle, et qui en décide ?
 

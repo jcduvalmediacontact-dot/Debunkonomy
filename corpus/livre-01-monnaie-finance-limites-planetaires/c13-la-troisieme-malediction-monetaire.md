@@ -163,9 +163,26 @@ verifications_en_attente:
   - "S7, S10, S11, S12, S13, S14, S16 : ouvrages et articles non ouverts (DOI confirmés pour S12, S13, S14, S16). S5 : rapports FMI à ouvrir."
   # — Cohérence interne —
   - "COHÉRENCE — dette_ecologique (stock) distincte de la valeur des services écosystémiques (flux) : maintenue ; les deux nombres ne sont plus rapprochés."
-  - "COHÉRENCE — Le § 2 reprend les mécanismes d'absorption de L1.C08 § 2 et corrige L1.C12 § 5 (« la stabilité des prix ferme la voie de l'érosion ») : la voie n'est pas fermée, elle est combattue et transitoire. Reporter cette nuance dans L1.C12 lors de sa prochaine révision."
+  - "COHÉRENCE AVEC L1.C12 — CONTRÔLE FAIT LE 2026-09-19, ET IL TROUVE UNE CONTRADICTION
+     INTERNE À L1.C12, QUI RESTE À CORRIGER PAR L'AUTEUR. La nuance que cette ligne voulait
+     propager est déjà portée au § 5 de L1.C12 — « La stabilité des prix PLAFONNE
+     l'érosion [...] ne supprime pas cette érosion : il la plafonne, à la cible retenue ».
+     MAIS LE CHAPEAU DU MÊME CHAPITRE LA CONTREDIT, écrivant que le régime « ferme
+     lui-même les deux issues qui relâcheraient cette exigence — l'érosion des dettes par
+     l'inflation et leur destruction par défaut ». Un chapitre dit donc deux choses
+     opposées sur le même point : fermées au chapeau, plafonnées au § 5.
+     POURQUOI LE CORPS DE L1.C12 N'A PAS ÉTÉ TOUCHÉ : cette ligne dit « lors de sa
+     PROCHAINE RÉVISION », et L1.C12 est `verifie`, `citable: true`, d'autorité canonique.
+     Réviser un chapitre publié sur la foi d'une ligne conditionnelle n'est pas autorisé ;
+     la correction du chapeau appartient à l'auteur, et elle est d'un mot."
   - "COHÉRENCE — Le § 5 reprend les formulations de L1.C11 et L1.C12."
-  - "COHÉRENCE — noeud_gordien au vocabulaire en nom provisoire ; définition alignée (issues coûteuses et transitoires, non fermées)."
+  - "NOM PROVISOIRE DE `noeud_gordien` — ÉTAT VÉRIFIÉ LE 2026-09-19, CONFORME. Le terme
+     figure au vocabulaire avec L1.C13 pour première occurrence ; sa définition déclare
+     elle-même « Nom provisoire (celui du livre), à confirmer en passe 2 » ; et elle est
+     alignée sur ce que cette ligne demandait — les issues qui ne passent pas par
+     l'activité y sont dites « transitoires, coûteuses et combattues par le régime
+     lui-même », non fermées. CE QUI RESTE est l'arbitrage de nom, en passe 2, qui
+     appartient à l'auteur."
   # — Renvois —
 resume: "La troisième malédiction noue deux dettes : la dette financière des États et la dette écologique — le stock de dégradations des fonds naturels non compensées. Le chapitre établit le mécanisme du nœud sous sa forme défendable : un État endetté dispose de plusieurs issues — croissance, impôt, austérité, défaut, inflation, répression financière —, et celles qui ne passent pas par l'activité ne sont pas fermées mais transitoires, coûteuses et combattues par le régime lui-même ; il reste, durablement, des issues qui exigent de l'activité, dont la fiscalité écologique n'affranchit que partiellement, parce que son assiette s'érode avec son succès. Servir la dette financière exige alors une activité qui creuse la dette écologique ; réparer celle-ci exige des dépenses financées par de nouvelles dettes ou par les recettes de cette activité. Le chapitre en donne les ordres de grandeur, des cas dont il ne retient que ce qui est établi, et conclut qu'avec les deux précédentes, cette malédiction forme un système qui ne se défait pas de l'intérieur."
 concepts: [malediction_monetaire, noeud_gordien, dette_ecologique, reflux_monetaire, solvabilite_anticipee, degeneratif]
