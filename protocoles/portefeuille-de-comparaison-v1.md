@@ -145,6 +145,41 @@ autre chemin.
 
 ---
 
+## 3 ter. Deuxième fiche d'instrument : banques publiques et garanties
+
+Établie le 2026-09-19 sur le *2017 Survey of National Development Banks*, Banque mondiale,
+rapport global de mai 2018. Pièce au dossier :
+`2026-09-19/portefeuille/PORTEFEUILLE-banques-publiques-banque-mondiale-2017-survey.pdf`,
+68 pages, identité confirmée en page de titre. **Libre.**
+
+| dimension | ce que la pièce établit, au mot |
+|---|---|
+| **1. Résultat matériel net** | « At the end of 2015, the DBs in the survey reported **total assets of US$940 billion** ». Mais l'échelle est modeste là où elle compte : « **47 percent of the surveyed DBs are small, holding far less than 10 percent of the total assets of their national banking systems** », et 16 % pèsent moins de 1 % |
+| **2. Délai** | **nul** — les institutions existent. C'est l'avantage structurel du portefeuille concurrent, et le test doit le compter |
+| **3. Coût social total** | capital public immobilisé ; la pièce note que « over longer periods, direct state involvement can have important **negative effects on the financial** [system] » |
+| **4. Risques** | rôle contracyclique **documenté et borné** : « Lending by state-owned banks was countercyclical in some jurisdictions, helping soften the effects of the credit crunch and deleveraging of private banks » — *in some jurisdictions*, non partout |
+| **5. Gouvernance et capture** | **la pièce documente la capture du côté concurrent**, et c'est ce qui manquait au test |
+
+### Le passage qui rend la comparaison symétrique
+
+> « senior government officials and elected politicians have more room to influence the DB's
+> direction and activities. Unless the institutional framework of a DB is strong enough to
+> withstand political pressure, **a DB can become vulnerable to political interference or be
+> captured by interest groups** exerting pressure on it to take excessive credit risks, causing
+> future financial losses for the DB »
+
+C'est l'exact symétrique de ce que L1.C18 relève sur l'Office de certification : un organe dont
+la décision commande un flux est exposé à la capture. **Le test dispose donc enfin des deux
+côtés de la question** — et il peut appliquer la même grille de concentration, de contrôle et de
+recours à NEMO et à son concurrent, comme L1.C31 l'exige.
+
+Une donnée de contrôle s'y ajoute : « **Seventy-eight percent of DBs** indicated that they are
+required to comply with **the same standards of prudential supervision** […] as private
+commercial banks ». Le concurrent est donc supervisé par un tiers, ce que l'architecture de NEMO
+ne prévoit pas encore — le contrôle indépendant de conformité n'a aucun titulaire (L1.C18).
+
+---
+
 ## 4. Les familles encore vides
 
 Pour celles-ci, aucune source ouverte n'a été trouvée. **Formulation prudente exigée par les trois
@@ -155,7 +190,11 @@ faux négatifs du jour : « non trouvé par recherche », et non « absent ».**
 | ~~Budget et investissement public~~ | **FICHE ÉTABLIE au § 3 bis** — *Fiscal Monitor* du Fonds, octobre 2020 |
 | ~~Restructuration de dette~~ | **SOURCÉE** — document de travail du Fonds WP/22/162 acquis, et L1.C13 [S20] le porte désormais ; **restent sans source l'Équateur et le Gabon 2023**, inscrits en vérification |
 | ~~Réglementation, plafonds quantitatifs~~ | **dix-neuf entrées du Livre 2 ouvertes** sur six pièces — Borio, rapport CAE 96 avec ses compléments Aglietta et Goodhart, Aglietta-Espagne au CEPII, Fed, statuts du Fonds, note de l'Institut Veblen |
-| **Banques publiques, garanties** | **rien trouvé** — seule famille encore entièrement vide |
+| ~~Banques publiques, garanties~~ | **FICHE ÉTABLIE au § 3 ter** — enquête de la Banque mondiale, 2017 |
+
+**Plus aucune famille n'est vide.** Les neuf que L1.C31 § 4 énumère sont pourvues : cinq par
+L1.C10, deux par les fiches des § 3 bis et 3 ter, une par les dix-neuf entrées du Livre 2, et la
+restructuration de dette par le document de travail du Fonds versé à L1.C13 [S20].
 
 ---
 
@@ -235,9 +274,24 @@ recherche de mots-clés.** Et un « non trouvé » s'écrit « non trouvé », j
 **Avant :** « Il n'est pas établi : le portefeuille de comparaison n'a jamais été construit, pour
 aucun instrument. »
 
-**Après :** cinq familles sur neuf sont peuplées et ouvertes ; les trois concurrents directs sont
-identifiés et lus ; une expérience naturelle à 650 milliards est disponible ; la liste
-d'acquisitions tient en six documents gratuits.
+**Après, au soir du 2026-09-19 :** **les neuf familles sont pourvues.** Les trois concurrents
+directs sont identifiés et lus. Une expérience naturelle à 650 milliards est disponible. Deux
+fiches d'instrument sont établies sur pièces vérifiées. Dix-neuf entrées du Livre 2 sont ouvertes
+sur six documents, tous gratuits. **Aucune œuvre n'a été achetée.**
 
-**F10 demeure ouvert.** Ce document ne le referme pas — il cesse d'être bloqué par l'absence de son
-objet. Ce qui manque pour le verdict est entier : la cible, les seuils, l'enquête, et la mesure.
+**Trois résultats qui déplacent le test, et ils convergent par des chemins séparés :**
+
+1. **L'allocation de DTS de 2021** établit que l'émission sans dette à l'échelle mondiale est
+   faisable par une institution existante, à coût d'établissement nul — et qu'elle n'a produit
+   aucun résultat matériel, la clé de répartition annulant le but.
+2. **La fiche de l'investissement public** établit que la contrainte de capacité d'absorption
+   mord sur le concurrent exactement comme sur NEMO. Elle ne départage donc rien.
+3. **La fiche des banques publiques** documente la capture du côté concurrent, ce qui rend enfin
+   la grille de la dimension 5 applicable symétriquement.
+
+**Conséquence commune : ce qui peut départager n'est ni l'émission, ni les ressources, mais la
+règle de qualification et d'allocation.** Si cette lecture tient, le chapitre décisif du Livre 1
+n'est pas L1.C20 mais **L1.C18**.
+
+**F10 demeure ouvert.** Ce document ne le referme pas. Ce qui manque pour le verdict est nommé et
+n'est plus documentaire : la cible, les seuils, l'enquête empirique, et la mesure.
