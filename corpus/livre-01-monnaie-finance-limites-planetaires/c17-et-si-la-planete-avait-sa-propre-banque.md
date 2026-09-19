@@ -73,8 +73,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
-    reference: "S. Sorrell, The Rebound Effect, UK Energy Research Centre, 2007 ; R. Ayres, B. Warr, The Economic Growth Engine, Edward Elgar, 2009 (effets de second tour de la dépense sur l'empreinte matérielle)"
-    etat_lecture: a_requalifier
+    reference: "S. Sorrell, The Rebound Effect, UK Energy Research Centre, 2007 ; R. Ayres, B. Warr, The Economic Growth Engine, Edward Elgar, 2009 (effets de second tour de la dépense sur l'empreinte matérielle) OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/drive-l1/C17-S13-sorrell-2007-ukerc-rebound-effect.pdf, 123 pages, SHA-256 B26066F3AF82A7F928A8AC5D8B8B38B844E13BE5C876C1C9C074A70C57B9E3FA), verifie en deux temps : identite du document confirmee en tete, puis l'enonce que le corps lui prete. RELECTURE : l'effet de revenu est defini au mot — « an income effect, whereby the increase in real income achieved by the energy efficiency improvement allows a higher level of utility to be achieved by increasing consumption of all goods and services, including the energy service » — et le rapport distingue bien rebond direct, indirect et a l'echelle de l'economie. CE QUI N'EST PAS VERIFIE ICI : l'ordre de grandeur que le corps dit « absorber une part substantielle des economies attendues ». Il reste a localiser et reste en verification."
+    etat_lecture: ouverte
+    date_verification: 2026-09-19
 verifications_en_attente:
   # ── ALIGNEMENT DU 2026-09-18 ───────────────────────────────────────────────
   # Chapitre réécrit sous `protocoles/architecture-L1-C17.md` (50 énoncés) et sous
