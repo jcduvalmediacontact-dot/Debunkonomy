@@ -76,8 +76,26 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
+  # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
+  # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
+  # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
+  # "D11 APPLIQUÉE le 2026-09-16. L'auteur a précisé, contre la recommandation (déclarer l'énoncé rapporté, les trois traditions nommées), que la robustesse de ce chapitre est celle d'Olivier Hamant. Un entretien de février 2026 fourni par l'auteur est ouvert [S12], et le § 5 pose désormais la définition sur les mots de Hamant, à l'endroit où le chapitre l'énonçait déjà en substance ; le vocabulaire (robustesse) est conforme. LA PHRASE DES TROIS TRADITIONS RESTE TELLE QUELLE ET RESTE SANS APPUI OUVERT : « plusieurs traditions le mobilisent — le contrôle robuste en macroéconomie, la décision robuste en incertitude profonde, les travaux sur la résilience économique des territoires ». Elle n'est pas contredite par Hamant — elle parle d'un autre usage du mot — mais aucune source ne la porte. À L'AUTEUR DE TRANCHER : la garder et citer deux ou trois références (Hansen et Sargent pour le contrôle robuste ; Lempert et al. pour la décision robuste ; Martin et Sunley pour la résilience régionale), ou la retirer. RESTE OUVERT AUSSI : le Tracts lui-même (page et phrase) si l'auteur veut l'exemplaire de référence plutôt qu'un entretien ; la compilation LinkedIn déposée le même soir est versée sans référence."
   # — Corrections identifiées à la conversion —
-  - "COHÉRENCE — l'appropriation humaine de la production primaire nette introduite en 2023 doit être rapprochée de la définition biophysique de la régénération posée en L1.C01 : examiner si elle en fournit une mesure"
+  - "COHÉRENCE AVEC L1.C01 — CONTRÔLE FAIT LE 2026-09-19, RÉPONSE NÉGATIVE ET UTILISABLE.
+     La question était : l'appropriation humaine de la production primaire nette fournit-elle
+     une mesure de la définition biophysique de la régénération ? NON, et pour une raison
+     précise. Cette définition exige des indicateurs physiques PROPRES À UN FONDS DÉTERMINÉ,
+     rapportés à un état de référence explicite et nets des prélèvements de l'activité ;
+     l'appropriation de la production primaire est un AGRÉGAT SUR LA BIOSPHÈRE, qui ne se
+     désagrège pas par fonds. Une activité peut améliorer un fonds déterminé en élevant cet
+     agrégat, et l'abaisser en dégradant un fonds. CE QUE LE RAPPROCHEMENT GARDE DE VRAI, et
+     qui justifie la phrase du § 2 : c'est la seule variable du cadre qui soit physique, qui
+     porte un état de référence explicite — la production moyenne de l'Holocène — et qui
+     mesure un PRÉLÈVEMENT, dernier terme de la définition. « La plus directement
+     rapprochable » est donc exact ; « une mesure » ne le serait pas. POINT À ARBITRER PAR
+     L'AUTEUR : faut-il écrire cette borne au § 2, où un lecteur pressé peut lire un
+     rapprochement comme une mesure ? Le corps n'a pas été modifié."
   # — Données —
   - "Liste des douze dimensions du plancher social chez Raworth : elle est reprise de [S8],
      figure de données étendues 2, que les auteurs disent adaptée de l'article de 2017.
@@ -86,9 +104,16 @@ verifications_en_attente:
   # — Attributions et statuts —
   # — Renvois —
   - "Cas de dégradations environnementales mondiales infléchies par une action coordonnée : rechercher les autres cas éventuels — pluies acides et protocole de Göteborg, pollution au plomb, moratoire sur la chasse à la baleine — avant toute formulation comparative sur l'ozone."
-  - "D11 APPLIQUÉE le 2026-09-16. L'auteur a précisé, contre la recommandation (déclarer l'énoncé rapporté, les trois traditions nommées), que la robustesse de ce chapitre est celle d'Olivier Hamant. Un entretien de février 2026 fourni par l'auteur est ouvert [S12], et le § 5 pose désormais la définition sur les mots de Hamant, à l'endroit où le chapitre l'énonçait déjà en substance ; le vocabulaire (robustesse) est conforme. LA PHRASE DES TROIS TRADITIONS RESTE TELLE QUELLE ET RESTE SANS APPUI OUVERT : « plusieurs traditions le mobilisent — le contrôle robuste en macroéconomie, la décision robuste en incertitude profonde, les travaux sur la résilience économique des territoires ». Elle n'est pas contredite par Hamant — elle parle d'un autre usage du mot — mais aucune source ne la porte. À L'AUTEUR DE TRANCHER : la garder et citer deux ou trois références (Hansen et Sargent pour le contrôle robuste ; Lempert et al. pour la décision robuste ; Martin et Sunley pour la résilience régionale), ou la retirer. RESTE OUVERT AUSSI : le Tracts lui-même (page et phrase) si l'auteur veut l'exemplaire de référence plutôt qu'un entretien ; la compilation LinkedIn déposée le même soir est versée sans référence."
   - "Sensibilité des chaînes de production : rassembler deux ou trois sources mesurant la concentration des fournisseurs ou l'exposition à une source unique"
-  - "COHÉRENCE — la définition biophysique de la régénération posée en L1.C01 doit être rapprochée de la notion de plafond écologique employée ici : vérifier qu'elles ne se contredisent pas"
+  - "COHÉRENCE AVEC L1.C01 — CONTRÔLE FAIT LE 2026-09-19 : PAS DE CONTRADICTION, ET PAS DE
+     DÉRIVATION NON PLUS. La définition biophysique de la régénération et le plafond
+     écologique du § 4 ne se contredisent pas, parce qu'ils n'opèrent ni au même niveau ni
+     dans le même registre : le plafond est un SEUIL GLOBAL à ne pas franchir, posé sur des
+     pressions agrégées ; la définition est un CRITÈRE D'AMÉLIORATION LOCAL, posé sur un
+     fonds déterminé et relatif à un état de référence. AUCUN NE SE DÉDUIT DE L'AUTRE, et
+     c'est le résultat utile : se tenir dans l'anneau ne rend aucune activité régénérative,
+     et une activité régénérative ne ramène pas à elle seule le plafond en deçà. Le corps
+     n'a pas été modifié ; l'énoncé de ce résultat au § 4 est à arbitrer par l'auteur."
 resume: "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres qui en découlent : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, robustesse, fausse_richesse]
 renvois: [L1.C01, L1.C02, L1.C03, L1.C05, L1.C23]

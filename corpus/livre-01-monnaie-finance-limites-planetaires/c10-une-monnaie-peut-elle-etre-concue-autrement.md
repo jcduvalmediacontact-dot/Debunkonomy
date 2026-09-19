@@ -137,7 +137,38 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
-  - "D32 APPLIQUÉE le 2026-09-16 : l'en-tête du cahier des charges du § 5 passe de « Déconcentrer l'autorité » à « Séparer les cinq fonctions [...] entre des centres de responsabilité indépendants », formulation validée par l'auteur SANS la proposition finale « sans retomber dans l'arbitraire politique », qu'il a écartée comme jugement de valeur étranger à A46. À NOTER : la même expression figure encore dans la phrase suivante du paragraphe, qui est le texte original de l'auteur et n'a pas été touchée ; à lui de dire si elle y reste."
+  # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
+  # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
+  # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
+  # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
+  # "D32 APPLIQUÉE le 2026-09-16 : l'en-tête du cahier des charges du § 5 passe de « Déconcentrer l'autorité » à « Séparer les cinq fonctions [...] entre des centres de responsabilité indépendants », formulation validée par l'auteur SANS la proposition finale « sans retomber dans l'arbitraire politique », qu'il a écartée comme jugement de valeur étranger à A46. À NOTER : la même expression figure encore dans la phrase suivante du paragraphe, qui est le texte original de l'auteur et n'a pas été touchée ; à lui de dire si elle y reste."
+  - "WÖRGL — DISCORDANCE RELEVÉE LE 2026-09-19 SUR UNE PIÈCE SECONDAIRE, non arbitrée.
+     J. September, « A sustainable miracle? Examining the long-term viability of the Wörgl
+     experiment », International Journal of Community Currency Research, vol. 30 n° 1
+     (2026), p. 114-126, est au Drive de l'auteur et cite von Muralt 1934 AVEC SES PAGES,
+     vingt-sept fois. ELLE NE REMPLACE PAS VON MURALT et [S16] reste fermée ; mais elle
+     contredit deux énoncés du corpus et en complète un troisième.
+     (1) LE VOLUME EN CIRCULATION. Le corpus écrit que le volume moyen n'a pas dépassé
+     5 490 schillings. Ce chiffre N'EST PAS dans la pièce ; trois sources y donnent ENVIRON
+     8 000 SCHILLINGS comme MAXIMUM en circulation à un instant — von Muralt 1934 p. 50,
+     Schwarz 1951, Unterguggenberger 1957 p. 29 —, le reste ayant été pris par des
+     collectionneurs. Un maximum de 8 000 et une moyenne de 5 490 ne sont pas
+     contradictoires ; le corpus écrit « n'a pas dépassé », ce qui se lit comme un plafond.
+     À TRANCHER SUR VON MURALT, non sur cette pièce.
+     (2) LE GAGE DE 32 000 SCHILLINGS. La pièce le confirme dans son principe — un montant
+     en schillings égal à l'émission devait être déposé à la Raiffeisen — MAIS ELLE AJOUTE
+     CE QUE LE CORPUS OMET : ce montant A ÉTÉ RÉDUIT À 12 000 SCHILLINGS quand la vitesse de
+     circulation a diminué le besoin (von Muralt 1934 p. 50). Le gage n'est donc pas resté
+     à 32 000, et 32 000 est le MONTANT IMPRIMÉ début juillet, non le dépôt maintenu.
+     (3) CE QU'ELLE APPORTE, et que le corpus n'a pas : recettes fiscales +34,4 %, arriérés
+     −53,8 %, dépenses d'investissement communales +219,7 % (Broer 2007, p. 127) ; sur
+     4 300 habitants, environ 350 chômeurs dont 200 sans indemnité, et 1 500 de plus dans
+     les environs (von Muralt p. 48) ; salaires communaux payés pour moitié en bons, impôts
+     et redevances payables en bons.
+     (4) CE QU'ELLE NE PORTE PAS : le vote du conseil du 8 juillet 1932 — elle date du
+     5 JUILLET la session décisive du comité d'aide —, la mise en circulation du 31 juillet,
+     et l'arrêt du Verwaltungsgerichtshof du 18 novembre 1933, dont le mot n'y figure pas.
+     CE QUE CELA DONNE POUR L'OUVERTURE DE VON MURALT : les pages à viser sont 48 à 53."
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : PDF lu (40 000 schillings en garantie ; Kirchbichl janv. 1933 ; 170 communes juin 1933 ; recours perdu nov. 1933).
   # S3 : texte lu — « the strange, unduly neglected prophet Silvio Gesell (1862-1930) » ; « I believe that the future will learn more from the spirit of Gesell than from that of Marx. »

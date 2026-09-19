@@ -72,6 +72,11 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
+  # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
+  # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
+  # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
+  # "D43 APPLIQUÉE le 2026-09-16 : S12 réduite à Friedman 1957 et ouverte, Modigliani-Brumberg 1954 nommés sans être source."
   # ── AUDIT TIERS DU 2026-09-18, REÇU ET VÉRIFIÉ ──────────────────
   # Rapport dans `protocoles/rapport-audit-L1-C14-tiers.md`, vérification dans
   # `protocoles/verification-audit-tiers-L1-C14.md`. SEPT CITATIONS SUR QUATORZE NE
@@ -97,7 +102,6 @@ verifications_en_attente:
      l'entrée deux énoncés et l'exemplaire ouvert n'en porte qu'un."
   - "NORDHAUS [S11] — objection déjà inscrite, confirmée : un seul appel clôt une phrase
      qui porte deux affirmations, dont la source n'appuie que la seconde."
-  - "D43 APPLIQUÉE le 2026-09-16 : S12 réduite à Friedman 1957 et ouverte, Modigliani-Brumberg 1954 nommés sans être source."
   - "OUVERTE LE 2026-09-16 par l'ouverture de [S5]. Le § 3 fait porter à Rosa DEUX énoncés et l'exemplaire ouvert n'en porte qu'un. Le premier — la course où nul ne peut ralentir sans être distancé — est vérifié au mot, page PDF 23. **Le second ne l'est pas** : « la stabilité des sociétés tardives suppose désormais une accélération permanente » ne figure pas dans Aliénation et accélération, où « stabilisation dynamique » — le terme de l'auteur pour cette thèse — a zéro occurrence. La thèse est bien de Rosa et se trouve ailleurs dans son œuvre, notamment dans Beschleunigung ; elle n'est pas dans le volume ouvert. TROIS ISSUES, À L'AUTEUR : retirer la seconde proposition du § 3 ; la garder en la donnant comme rapportée sans appui ouvert ; ou fournir un exemplaire de Beschleunigung ou de sa traduction de 2010, qui la porterait."
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S2 : texte du livre lu — « chaque effort pour rembourser ne fait que préparer la prochaine chute » (ch. 6) ; note 54 (ch. 5). Les formules « conscience tragique de l'économie moderne » et « vénération persistante de ce qui le tue » ne sont PAS dans le livre : script audio, non attribuées.

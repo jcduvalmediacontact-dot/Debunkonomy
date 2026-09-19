@@ -76,6 +76,33 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  - "WÖRGL — DISCORDANCE RELEVÉE LE 2026-09-19 SUR UNE PIÈCE SECONDAIRE, non arbitrée.
+     J. September, « A sustainable miracle? Examining the long-term viability of the Wörgl
+     experiment », International Journal of Community Currency Research, vol. 30 n° 1
+     (2026), p. 114-126, est au Drive de l'auteur et cite von Muralt 1934 AVEC SES PAGES,
+     vingt-sept fois. ELLE NE REMPLACE PAS VON MURALT et [S16] reste fermée ; mais elle
+     contredit deux énoncés du corpus et en complète un troisième.
+     (1) LE VOLUME EN CIRCULATION. Le corpus écrit que le volume moyen n'a pas dépassé
+     5 490 schillings. Ce chiffre N'EST PAS dans la pièce ; trois sources y donnent ENVIRON
+     8 000 SCHILLINGS comme MAXIMUM en circulation à un instant — von Muralt 1934 p. 50,
+     Schwarz 1951, Unterguggenberger 1957 p. 29 —, le reste ayant été pris par des
+     collectionneurs. Un maximum de 8 000 et une moyenne de 5 490 ne sont pas
+     contradictoires ; le corpus écrit « n'a pas dépassé », ce qui se lit comme un plafond.
+     À TRANCHER SUR VON MURALT, non sur cette pièce.
+     (2) LE GAGE DE 32 000 SCHILLINGS. La pièce le confirme dans son principe — un montant
+     en schillings égal à l'émission devait être déposé à la Raiffeisen — MAIS ELLE AJOUTE
+     CE QUE LE CORPUS OMET : ce montant A ÉTÉ RÉDUIT À 12 000 SCHILLINGS quand la vitesse de
+     circulation a diminué le besoin (von Muralt 1934 p. 50). Le gage n'est donc pas resté
+     à 32 000, et 32 000 est le MONTANT IMPRIMÉ début juillet, non le dépôt maintenu.
+     (3) CE QU'ELLE APPORTE, et que le corpus n'a pas : recettes fiscales +34,4 %, arriérés
+     −53,8 %, dépenses d'investissement communales +219,7 % (Broer 2007, p. 127) ; sur
+     4 300 habitants, environ 350 chômeurs dont 200 sans indemnité, et 1 500 de plus dans
+     les environs (von Muralt p. 48) ; salaires communaux payés pour moitié en bons, impôts
+     et redevances payables en bons.
+     (4) CE QU'ELLE NE PORTE PAS : le vote du conseil du 8 juillet 1932 — elle date du
+     5 JUILLET la session décisive du comité d'aide —, la mise en circulation du 31 juillet,
+     et l'arrêt du Verwaltungsgerichtshof du 18 novembre 1933, dont le mot n'y figure pas.
+     CE QUE CELA DONNE POUR L'OUVERTURE DE VON MURALT : les pages à viser sont 48 à 53."
   # ── ALIGNEMENT DU 2026-09-18 ───────────────────────────────────────────────
   # Chapitre réécrit sous `protocoles/architecture-L1-C21.md` (61 énoncés :
   # K 20, C 27, R 4, O 3, N 7) et sous les décisions D95 et D97.
