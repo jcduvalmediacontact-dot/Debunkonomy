@@ -101,17 +101,61 @@ et que deux n'ont aucun titulaire.
 
 ---
 
-## 4. Les quatre familles réellement vides
+## 3 bis. Première fiche d'instrument : budget et investissement public
+
+Établie le 2026-09-19 sur le *Fiscal Monitor* du Fonds monétaire international, octobre 2020,
+chapitre 2 « Public Investment for the Recovery ». Pièce au dossier :
+`2026-09-19/portefeuille/PORTEFEUILLE-investissement-public-fmi-fiscal-monitor-2020-10.pdf`,
+124 pages, identité confirmée en page de titre. **Téléchargée chez le Fonds, libre.**
+
+C'est la première des neuf familles à recevoir une fiche. Elle est donnée comme modèle pour
+les huit autres.
+
+### Les cinq dimensions du test, remplies
+
+| dimension | ce que la pièce établit, au mot |
+|---|---|
+| **1. Résultat matériel net** | « a 1 percent of GDP increase in public investment, in advanced economies and emerging markets, has the potential to **push GDP up by 2.7 percent**, private investment by 10 percent and […] to create between 20 and 33 million jobs » |
+| **2. Délai** | « the fiscal multiplier **peaks at over 2 in two years** » — le résultat n'est pas immédiat, et le pic est à deux ans |
+| **3. Coût social total** | 1 % du produit par an, sur des budgets publics déjà contraints ; la pièce note que l'effet dépend de ce que « existing public and private debt burdens do not weaken the response of the private sector » |
+| **4. Risques** | l'estimation ponctuelle est donnée **avec son intervalle** : « The point estimate in a period of high uncertainty is 1.2, but the **10–90 percent confidence interval is 0.9–1.5** ». Le multiplicateur peut donc être inférieur à 1 |
+| **5. Gouvernance et capture** | l'effet est conditionné à ce que « **investments are of high quality** » : la qualité de la sélection des projets décide du résultat, et c'est exactement le point où NEMO place sa qualification |
+
+### Le constat qui décide, et il vaut pour les deux camps
+
+> « Implementing multiple new projects simultaneously requires a varied set of technical and
+> managerial resources that cannot be expanded in the short term, because **absorptive-capacity
+> constraints and supply bottlenecks may inflate costs and delay project implementation and
+> completion** »
+
+**C'est mot pour mot ce que L1.C31 dit de l'émission monétaire** : le financement ne produit ni
+compétences, ni matériaux, ni capacités de chantier. La contrainte de capacité d'absorption
+**mord sur le portefeuille concurrent exactement comme sur NEMO.**
+
+Conséquence pour le test, et elle est symétrique dans les deux sens :
+
+- **NEMO ne peut pas se voir opposer** la contrainte de ressources comme un désavantage propre :
+  l'investissement public la rencontre aussi, et la littérature la documente de son côté.
+- **NEMO ne peut pas non plus s'en prévaloir** : il ne la lève pas davantage.
+
+Ce qui reste comme terrain de départage n'est donc **ni l'émission, ni les ressources**, mais la
+**dimension 5** — la qualité de la sélection et le risque de capture du mécanisme d'allocation.
+C'est la même conclusion que l'allocation de droits de tirage de 2021 impose au § 3, par un tout
+autre chemin.
+
+---
+
+## 4. Les familles encore vides
 
 Pour celles-ci, aucune source ouverte n'a été trouvée. **Formulation prudente exigée par les trois
 faux négatifs du jour : « non trouvé par recherche », et non « absent ».**
 
-| famille | état |
+| famille | état au 2026-09-19, en fin de journée |
 |---|---|
-| **Budget et investissement public** | rien trouvé — multiplicateurs, capacité d'absorption, délais d'exécution |
-| **Banques publiques, garanties** | rien trouvé |
-| **Restructuration de dette** | rien trouvé ; Belize, Équateur et Gabon sont cités **sans source** en L1.C13 § 4 |
-| **Réglementation, plafonds quantitatifs** | **tout le Livre 2 — 90 sources, zéro ouverte** |
+| ~~Budget et investissement public~~ | **FICHE ÉTABLIE au § 3 bis** — *Fiscal Monitor* du Fonds, octobre 2020 |
+| ~~Restructuration de dette~~ | **SOURCÉE** — document de travail du Fonds WP/22/162 acquis, et L1.C13 [S20] le porte désormais ; **restent sans source l'Équateur et le Gabon 2023**, inscrits en vérification |
+| ~~Réglementation, plafonds quantitatifs~~ | **dix-neuf entrées du Livre 2 ouvertes** sur six pièces — Borio, rapport CAE 96 avec ses compléments Aglietta et Goodhart, Aglietta-Espagne au CEPII, Fed, statuts du Fonds, note de l'Institut Veblen |
+| **Banques publiques, garanties** | **rien trouvé** — seule famille encore entièrement vide |
 
 ---
 
