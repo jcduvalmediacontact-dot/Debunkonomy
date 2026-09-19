@@ -22,9 +22,10 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S3
     nature: theorie
-    reference: "P. A. Samuelson, « The Pure Theory of Public Expenditure », The Review of Economics and Statistics, 36(4), p. 387-389, novembre 1954 — définition du bien de consommation collective par la non-rivalité, et impossibilité pour un système de prix décentralisé d'en déterminer le niveau optimal"
+    reference: "P. A. Samuelson, « The Pure Theory of Public Expenditure », The Review of Economics and Statistics, 36(4), p. 387-389, novembre 1954 — définition du bien de consommation collective par la non-rivalité, et impossibilité pour un système de prix décentralisé d'en déterminer le niveau optimal OUVERTE PAR VERSEMENT depuis L1.C09 [S11] le 2026-09-19, sur l'exemplaire du dossier (2026-09-14/c09/samuelson-1954.pdf, 4 pages, SHA-256 CB1BA9E058C8058DB25F83827C9FF6699091C6D71470CCB416D7A64C73D73E50). RELECTURE : la définition est au mot au folio 387 (page 2 du fichier) — « collective consumption goods [...] which all enjoy in common in the sense that each individual's consumption of such a good leads to no subtraction from any other individual's consumption of that good » ; et la conséquence que le corps en tire est au folio 388 — « no decentralized pricing system can serve to determine optimally these levels of collective consumption ». AVERTISSEMENT DE MÉTHODE : SCAN SANS COUCHE DE TEXTE, lu à l'œil après extraction des images ; un contrôle par script sur ce fichier ne trouvera rien."
     url: "https://doi.org/10.2307/1925895"
-    etat_lecture: a_requalifier
+    etat_lecture: ouverte
+    date_verification: 2026-09-19
   - ref: S4
     nature: theorie
     reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990 — distinction entre ressource en libre accès et ressource commune gouvernée par des règles ; huit principes organisateurs des institutions durables de gestion collective"
