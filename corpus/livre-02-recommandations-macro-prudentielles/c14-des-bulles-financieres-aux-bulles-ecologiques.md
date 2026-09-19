@@ -22,8 +22,9 @@ sources_primaires:
     date_verification: 2026-09-19
   - ref: S3
     nature: theorie
-    reference: "E. Carré et al., note de l'Institut Veblen, juin 2022, **§ 2.5, « La défaisance des actifs échoués »** — la note construit une règle de défaisance articulée à la règle de stock : « au-delà de y % de dévalorisation, l'actif serait identifié comme « actif échoué » et serait alors transféré à une structure de défaisance ». **OUVERTE le 2026-09-06**"
-    etat_lecture: a_requalifier
+    reference: "E. Carré et al., note de l'Institut Veblen, juin 2022, **§ 2.5, « La défaisance des actifs échoués »** — la note construit une règle de défaisance articulée à la règle de stock : « au-delà de y % de dévalorisation, l'actif serait identifié comme « actif échoué » et serait alors transféré à une structure de défaisance ». **OUVERTE le 2026-09-06** OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/livre-2/L2-veblen-2022-06-reglementation-bancaire-transition.pdf, 42 pages, SHA-256 36C5CB412ED6C2DF9144B0FB497C1E51A75C0EB2D51FEC91E5712C8E87144181) — note de l'Institut Veblen téléchargée ce jour, identité confirmée en page 1 par les six auteurs. RELECTURE MÉCANIQUE : toutes les citations de cette entrée sont retrouvées au mot dans la pièce, vérifiées fragment par fragment pour les passages élidés, sous contrôle positif et négatif"
+    etat_lecture: ouverte
+    date_verification: 2026-09-19
 verifications_en_attente:
   - "AUCUNE LITTÉRATURE SUR LES ACTIFS ÉCHOUÉS N'EST AU DOSSIER. C'est le nom
      sous lequel la doctrine traite l'objet de ce déplacement, et **le Cahier
