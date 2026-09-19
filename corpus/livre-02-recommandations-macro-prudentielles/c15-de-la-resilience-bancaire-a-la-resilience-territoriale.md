@@ -17,8 +17,9 @@ sources_primaires:
     etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
-    reference: "C. Borio, BIS Working Papers n° 128, 2003 — la ligne du tableau qui décide ici : CALIBRAGE DES CONTRÔLES, macroprudentiel « in terms of system-wide distress ; TOP-DOWN », microprudentiel « in terms of risks of individual institutions ; BOTTOM-UP » ; et la démarche : l'approche macroprudentielle « first sets the relevant THRESHOLD OF ACCEPTABLE TAIL LOSSES FOR THE PORTFOLIO AS A WHOLE. It then calibrates the prudential controls on the basis of THE MARGINAL CONTRIBUTION OF EACH SECURITY to the relevant measure of portfolio risk. » **OUVERT le 2026-09-06**"
-    etat_lecture: a_requalifier
+    reference: "C. Borio, BIS Working Papers n° 128, 2003 — la ligne du tableau qui décide ici : CALIBRAGE DES CONTRÔLES, macroprudentiel « in terms of system-wide distress ; TOP-DOWN », microprudentiel « in terms of risks of individual institutions ; BOTTOM-UP » ; et la démarche : l'approche macroprudentielle « first sets the relevant THRESHOLD OF ACCEPTABLE TAIL LOSSES FOR THE PORTFOLIO AS A WHOLE. It then calibrates the prudential controls on the basis of THE MARGINAL CONTRIBUTION OF EACH SECURITY to the relevant measure of portfolio risk. » **OUVERT le 2026-09-06** OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/livre-2/L2-borio-2003-bis-wp128.pdf, 26 pages, SHA-256 547F6931323B41E56A2586E303981FC92211A9524D8476E70ED19AC99C034622). RELECTURE : la démarche est au mot — « The macroprudential approach is top-down. It first sets the relevant threshold of acceptable tail losses for the portfolio as a whole ». ARTEFACT À CONNAÎTRE : un appel de note est inséré entre „as a“ et „whole“ dans l'extraction, ce qui fait échouer toute recherche en chaîne entière ; la vérification se fait par fragments."
+    etat_lecture: ouverte
+    date_verification: 2026-09-19
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L20.C11, qui établit qu'une institution internationale tient sa capacité d'agir d'un traité et de transpositions nationales, et L20.C13, qui établit qu'un système conventionnel se règle sur des MEMBRES identifiés — États ou territoires douaniers « possédant la pleine autonomie » de leurs relations extérieures ; L11.C25, qui construit un contrôle sur des ASSUJETTIS nommés"

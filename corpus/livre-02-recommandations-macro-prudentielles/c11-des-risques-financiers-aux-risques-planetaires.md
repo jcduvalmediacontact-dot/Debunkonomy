@@ -28,6 +28,17 @@ sources_primaires:
     reference: "*Cahier Technique*, **épisode 4**, section 2 — « Le rapport *Green Swan* de 2020 identifie trois raisons pour lesquelles les risques climatiques [...] ne peuvent pas être traités adéquatement par les méthodologies orthodoxes » : (1) INCERTITUDE RADICALE au sens de Knight plutôt que risque probabilisable — « Cette différence n'est pas de degré. Elle est de nature » ; (2) NON-STATIONNARITÉ FONDAMENTALE — « les modèles de risque calibrés sur les données passées » sont caducs ; (3) CORRÉLATIONS QUI EXPLOSENT — « une sécheresse majeure affecte simultanément l'agriculture, l'énergie hydroélectrique, la logistique fluviale, la santé publique, le tourisme régional. LA DIVERSIFICATION CESSE DE PROTÉGER. » **OUVERT le 2026-09-06**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "FAUSSE ATTRIBUTION ÉTABLIE LE 2026-09-19, ET L'ENTRÉE RESTE FERMÉE.
+     [S3] prête à Aglietta et Espagne (CEPII WP 2016-10) une « an EPISTEMOLOGICAL
+     BREAK in systemic risk management » et un constat selon lequel elle « SEEMS TO
+     BE UNDERWAY IN THE FINANCIAL COMMUNITY ». L'exemplaire est au dossier
+     (2026-09-19/livre-2/L2-aglietta-espagne-2016-cepii-wp2016-10.pdf, 30 pages) et
+     **le mot epistemological y a ZÉRO occurrence**, de même que « must be
+     reinterpreted », « underway in the financial community » et « new
+     methodologies ». Contrôle positif franchi sur la même pièce : quatre autres
+     citations du Livre 2 y sont retrouvées au mot. Trois issues : retrouver la
+     source réelle de ces deux énoncés, les retirer du corps, ou les porter au nom
+     du corpus. Aucune n'est prise ici."
   - "L'OUVRAGE *THE GREEN SWAN* DE LA BRI N'A PAS PU ÊTRE OBTENU — l'adresse
      publiée renvoie une erreur 404, testée quatre fois, y compris depuis un
      navigateur. **Le Cahier cite l'ouvrage ; le corpus tient l'article.**
