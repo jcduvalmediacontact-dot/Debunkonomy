@@ -131,20 +131,20 @@ arbitrages:
 
   - id: A35
     objet: "Le porteur juridique et comptable du passif"
-    statut: arbitre
+    statut: oriente
     tranche_par: auteur
     lie_a: [A35b]
     decision: >
-      ARBITRÉ EN DEUX TEMPS. L'INCIDENCE ÉCONOMIQUE du reflux est portée par
-      l'ensemble de la société — arbitrage antérieur, dont L10.C06 a corrigé le
-      2026-09-07 qu'il décrit l'incidence et NON le porteur. LE PORTEUR est
-      arbitré le 2026-09-09 : l'unité est inscrite au PASSIF DE L'ÉMETTEUR.
-      RÈGLE DE CONCEPTION, NON QUALIFICATION COMPTABLE VALIDÉE : A35b doit
-      identifier l'OBLIGATION PRÉSENTE qui la justifie, faute de quoi le mot
-      « passif » sera réexaminé. Identifiant A35 conservé — c'est A35a.
+      2026-09-09 : unité au PASSIF DE L'ÉMETTEUR ; l'incidence sociale n'en fait
+      pas le porteur (L10.C06, 2026-09-07), sous clause de réexamen. 2026-09-20,
+      EN DEUX TEMPS : le précédent place le passif chez le RECEVEUR (L19.C10 § 6)
+      et n'est plus qu'un contraste ; A35b n'établissant AUCUNE OBLIGATION
+      PRÉSENTE du dispositif, LA CLAUSE JOUE — le placement chez l'émetteur n'est
+      plus qu'une HYPOTHÈSE DE CONCEPTION, et le mot « passif » est EN RÉEXAMEN.
+      A35 = A35a.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L1.C29, L19.C05, L20.C24, L20.C26, L11.C09]
-    maj: 2026-09-09
+    maj: 2026-09-20
 
   - id: A35b
     objet: "Nature, exigibilité, contrepartie et extinction du passif"
@@ -152,16 +152,16 @@ arbitrages:
     tranche_par: non-tranche
     lie_a: [A35, TEST-APPORT-PROPRE]
     decision: >
-      OUVERT. Version 3 : CINQ RÉSULTATS SÉPARÉS, quatorze branches, aucune
-      conclusion exclusive ; deux versions réfutées le 2026-09-09.
-      VERSÉ LE 2026-09-16 (statuts du Fonds) : l'OBLIGATION PRÉSENTE exigée par
-      A35a est identifiée — c'est l'INTÉRÊT, non le rachat, conditionnel.
-      Quatre des cinq questions ont une pièce ; la CONTREPARTIE À L'ACTIF reçoit
-      une réponse DÉFAVORABLE ; le BÉNÉFICIAIRE reste entier. PROCHAIN JALON :
-      revue par un comptable national — aucun modèle macroéconomique avant elle.
+      OUVERT. V3 : 5 résultats séparés, 14 branches, aucune tranchée ; deux
+      versions réfutées le 2026-09-09. 2026-09-16 : 4 des 5 questions ont une
+      pièce ; CONTREPARTIE À L'ACTIF défavorable ; BÉNÉFICIAIRE entier.
+      2026-09-20 : obligation DU PRÉCÉDENT identifiée (intérêt INCONDITIONNEL,
+      rachat conditionnel), NON TRANSPORTÉE ; OBLIGATION PRÉSENTE DU DISPOSITIF
+      NON ÉTABLIE. JALON : revue par un comptable national, aucun modèle macro
+      avant.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L19.C02, L19.C06, L19.C10, L1.C31]
-    maj: 2026-09-16
+    maj: 2026-09-20
 
   - id: A36
     objet: "La nature de la fonte"
