@@ -5,7 +5,7 @@ Cherche dans TOUT le dépôt — pas seulement dans `corpus/` — les mentions d
 fragment de chemin : protocoles, outils, site, manifestes, index, générateur,
 documentation, coordination. Ne modifie rien.
 
-    python outils_claude/inventaire_liens.py c20-de-l-argent-sans-dette [autre-fragment…]
+    python outils_claude/inventaire_liens.py c20-mon-ancien-slug [autre-fragment…]
 
 Le décompte est par fichier et par périmètre, avec le contexte de chaque
 occurrence : un renommage se prépare sur des lignes, pas sur un total.

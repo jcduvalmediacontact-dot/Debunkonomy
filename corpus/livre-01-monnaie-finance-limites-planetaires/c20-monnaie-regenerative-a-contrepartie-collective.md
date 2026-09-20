@@ -67,11 +67,14 @@ verifications_en_attente:
      recouvrait autre chose : le « test sans dette » est le test de la QUALIFICATION DE
      DETTE ; « l'écriture se boucle sans dette » visait en fait l'absence de CRÉANCE
      INDIVIDUALISÉE ; et « le statut sans dette » désignait l'ÉCHAPPEMENT À LA
-     QUALIFICATION de dette. CE QUI RESTE À FAIRE : le fichier n'est PAS renommé —
-     `c20-de-l-argent-sans-dette.md` porte encore l'ancien nom, et son renommage est le
-     lot 6 du plan, après inventaire des liens hors `corpus/` (protocoles, site, outils,
-     documentation). La fenêtre est ouverte parce que ce chapitre n'est pas émis : une
-     fois `verifie`, renommer le fichier changerait son URL."
+     QUALIFICATION de dette. LE FICHIER A ÉTÉ RENOMMÉ LE 2026-09-20, lot 6 :
+     `c20-de-l-argent-sans-dette.md` devient
+     `c20-monnaie-regenerative-a-contrepartie-collective.md`. L'inventaire préalable des
+     liens, conduit HORS `corpus/` autant que dedans, a relevé huit occurrences dans six
+     fichiers et AUCUNE dans le site, le générateur, les manifestes ni les index : le
+     générateur construit les URL sur le matricule et le stem, jamais sur le dossier.
+     La fenêtre était ouverte parce que ce chapitre n'est pas émis ; une fois `verifie`,
+     ce renommage aurait changé son URL, ce que la convention § 3 interdit."
   - "S3 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : LA PIÈCE PRÉSENTE N'EST PAS L'ŒUVRE.
      `FisherPPM100.pdf` est « One Hundred Years from Today », un COMMENTAIRE CENTENAIRE
      de douze pages sur le livre de Fisher, non The Purchasing Power of Money. L'entrée

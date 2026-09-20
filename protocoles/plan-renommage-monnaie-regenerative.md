@@ -11,9 +11,21 @@ Définition de travail à stabiliser :
 > collectivement plutôt que par une créance individualisée contre son
 > bénéficiaire.
 
-**Rien n'est écrit.** Ce document est le plan demandé avant toute écriture. La
-cartographie est faite ; les lots sont dimensionnés ; **quatre décisions bloquent
-le lot 1**, et une cinquième porte sur une fenêtre qui se referme.
+> **ÉTAT AU 2026-09-20 — LES LOTS 1 À 6 SONT EXÉCUTÉS.** Ce plan a été écrit avant
+> toute écriture ; il est conservé tel quel comme trace de ce qui était prévu, et cette
+> note dit ce qui a été fait. Les cinq décisions D1 à D5 ont été rendues par l'auteur le
+> 2026-09-20 : forme courte « émission à contrepartie collective » pour l'acte ; Livre 19
+> renommé ; note datée sur les pages publiées sans réécriture ; L1.C29 verrouillé ;
+> fenêtre saisie pour le fichier de L1.C20. **Les chemins annoncés ici comme à renommer
+> LE SONT** — les mentions de `c20-de-l-argent-sans-dette` et du dossier
+> `livre-19-...-sans-dette` qui subsistent dans ce document décrivent l'état d'avant.
+> **Ce qui reste : le lot 7 (site) et le dossier de gel.**
+
+**Rien n'était écrit au moment de ce plan.** Ce document est le plan demandé
+avant toute écriture. La cartographie est faite ; les lots sont dimensionnés ;
+**quatre décisions bloquaient le lot 1**, et une cinquième portait sur une
+fenêtre qui se refermait. Les cinq ont été rendues, et la note ci-dessus dit
+l'état.
 
 Cartographie produite par `outils_claude/cartographie_sans_dette.py` — il relève
 et ne juge pas.

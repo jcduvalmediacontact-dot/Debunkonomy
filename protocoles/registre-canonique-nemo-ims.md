@@ -196,11 +196,15 @@ créance individualisée », qui est le seul des trois plans que le précédent
 | **archives** | erratum, jamais réécriture. |
 | **chapitres `verifie` et `citable`** | hors de cette vague. Lot public distinct, avec note datée, passe adverse et révision tracée. |
 
-**Ce qui reste à faire** : le fichier de L1.C20 porte encore `c20-de-l-argent-sans-dette.md`,
-et le renommage est le lot 6, après inventaire des liens **y compris hors
-`corpus/`** — protocoles, site, outils, documentation. La fenêtre est ouverte
-parce que ce chapitre n'est pas émis ; une fois `verifie`, renommer son fichier
-changerait son URL.
+**Les chemins sont renommés depuis le 2026-09-20**, lot 6, après inventaire des
+liens conduit **hors `corpus/` autant que dedans** :
+`c20-de-l-argent-sans-dette.md` devient
+`c20-monnaie-regenerative-a-contrepartie-collective.md`, et le dossier du Livre 19
+`...-de-l-emission-sans-dette` devient `...-de-l-emission-a-contrepartie-collective`.
+**Aucun fichier du site, du générateur, des manifestes ni des index n'en dépendait** :
+le générateur construit les URL sur le matricule du livre et le stem du chapitre.
+La fenêtre était ouverte parce que L1.C20 n'est pas émis ; une fois `verifie`, ce
+renommage aurait changé son URL, ce que la convention § 3 interdit.
 
 ---
 
