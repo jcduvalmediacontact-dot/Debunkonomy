@@ -7,13 +7,19 @@
 > changerait ce qui fut promis, et à quelle date. Les occurrences de « sans dette » qui y subsistent sont
 > à lire dans le vocabulaire de leur date, ou dans celui de leurs auteurs.
 >
-> **TROIS CHAPITRES ATTENDENT LA MIGRATION DE P9 POUR ÊTRE RENOMMÉS** — L1.C08,
-> L17.C01 et L17.C03. Leur occurrence de « sans dette » **est** la citation au mot de
-> P9, « que l'émission sans dette relâche la contrainte de croissance » ; la corriger
-> avant la promesse ferait dire à celle-ci autre chose qu'elle ne dit. Chacun porte la
-> dette datée dans son en-tête. **Qui migrera P9 doit les corriger dans le même geste.**
-> Les autres dettes de renommage attendent P4 (L8.C02), P18 (L8.C06, L8.C38) et la
-> requalification d'une entrée de source (L25.C03).
+> **TROIS CHAPITRES CITENT P9 AU MOT, ET CE N'EST PAS UNE DETTE** — L1.C08, L17.C01
+> et L17.C03. Leur occurrence de « sans dette » **est** cette citation, « que
+> l'émission sans dette relâche la contrainte de croissance ». **Ce fichier ne se
+> réécrivant jamais, il n'y a aucune « migration » à attendre** : la citation est
+> l'état CORRECT, et elle le restera jusqu'à ce que P9 soit **soldée ou requalifiée en
+> limite assumée**. Chacun des trois porte la note datée dans son en-tête.
+>
+> **Les trois autres cas sont d'une autre nature, et ils se débloquent seuls.** Les
+> entrées de source de L8.C02, L8.C06 et L8.C38 **EMPLOIENT** l'ancien nom sans citer
+> personne au mot ; seule leur requalification les bloque (E-L6), et aucune promesse
+> n'a à bouger. **P4 ne porte même pas l'ancien nom** — elle dit « une création sans
+> contrepartie marchande ». L25.C03 attend de même la seule requalification de son
+> entrée.
 
 Chaque fois qu'un chapitre de la première partie du Livre 1 renvoie la réponse
 à une objection vers la seconde partie (L1.C17 et suivants) ou vers le Cahier

@@ -22,9 +22,10 @@ verifications_en_attente:
      `a_requalifier` : en corriger le texte lui ferait perdre cet état (E-L6), le
      manifeste étant la seule autorisation possible. LA PASSE ADVERSE DU 2026-09-20
      offrait deux voies — reformuler le mécanisme sans le label, ou migrer d'abord la
-     promesse ; c'est la seconde qui s'impose, le garde-fou interdisant la première.
-     À CORRIGER EN MÊME TEMPS QUE LA REQUALIFICATION de cette entrée, et avec la
-     migration de P18 au registre des promesses."
+     promesse. LA SECONDE N'EXISTE PAS : le registre des promesses ne se réécrit
+     jamais. L'UNIQUE DÉBLOCAGE EST LA REQUALIFICATION DE CETTE ENTRÉE ; elle
+     EMPLOIE l'ancien nom, que P18 emploie aussi, mais elle ne le CITE pas au mot,
+     et prendra donc le nom canonique sans que la promesse ait à bouger."
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
      première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a

@@ -22,9 +22,11 @@ verifications_en_attente:
      `a_requalifier` : en corriger le texte lui ferait perdre cet état (E-L6), le
      manifeste étant la seule autorisation possible. LA PASSE ADVERSE DU 2026-09-20
      offrait deux voies — reformuler le mécanisme sans le label, ou migrer d'abord la
-     promesse ; c'est la seconde qui s'impose, le garde-fou interdisant la première.
-     À CORRIGER EN MÊME TEMPS QUE LA REQUALIFICATION de cette entrée, et avec la
-     migration de P4 au registre des promesses."
+     promesse. NI L'UNE NI L'AUTRE, ET LA SECONDE N'EXISTE PAS : le registre des
+     promesses ne se réécrit jamais, et **P4 ne porte de toute façon pas l'ancien
+     nom** — elle dit « une création sans contrepartie marchande ». L'UNIQUE
+     DÉBLOCAGE EST LA REQUALIFICATION DE CETTE ENTRÉE, qui EMPLOIE l'ancien nom sans
+     citer P4 au mot, et prendra donc le nom canonique sans que la promesse bouge."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Le corpus ne possède pas le texte
   # de Copernic. Ce chapitre ne restitue donc PAS sa doctrine : il situe la

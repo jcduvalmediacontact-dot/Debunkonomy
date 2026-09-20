@@ -26,8 +26,10 @@ verifications_en_attente:
      « que l'émission sans dette relâche la contrainte de croissance ». Le registre
      des promesses n'a délibérément pas été réécrit — un engagement daté garde ses
      mots, et une note terminologique y a été posée à la place. Renommer dans la
-     citation ferait dire à P9 autre chose qu'elle ne dit. À CORRIGER AVEC LA
-     MIGRATION DE P9, et pas avant. Le nom canonique de l'acte est
+     citation ferait dire à P9 autre chose qu'elle ne dit. À CORRIGER QUAND P9 SERA
+     SOLDÉE OU REQUALIFIÉE EN LIMITE ASSUMÉE, ET PAS AVANT : ce registre ne se
+     réécrit jamais, il n'y a donc aucune « migration » à attendre, et cette
+     citation est l'état CORRECT jusque-là, non une dette de renommage. Le nom canonique de l'acte est
      `emission_contrepartie_collective`."
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
