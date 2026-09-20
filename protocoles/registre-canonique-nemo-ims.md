@@ -5,10 +5,17 @@ chaque terme et sigle du dispositif, le **nom canonique exact**, une **définiti
 canonique brève**, un **statut**, les **formes à ne plus employer**, et les
 **confusions fréquentes**.
 
-**RIEN N'A ÉTÉ PROPAGÉ.** Aucun chapitre n'a été modifié pour ce registre. Les
-écarts relevés sont signalés, datés et chiffrés ; leur correction attend la
-validation de l'auteur. Tant que cette validation n'est pas donnée, ce fichier
-décrit et ne prescrit pas.
+**CE QUI EST PROPAGÉ, ET CE QUI NE L'EST PAS — mis à jour le 2026-09-20.**
+Le renommage du § 4 bis **a été appliqué** aux chapitres, sur décision de
+l'auteur : c'est le seul point de ce registre qui l'ait été. **Tout le reste est
+signalé, daté et chiffré, et attend une validation** — les sept points du § 7, la
+gouvernance du § 3, les douze corrections du Livre 4 au § 4. Sur ces points, ce
+fichier décrit et ne prescrit pas.
+
+**Trois exclusions valent pour toute propagation, y compris celle qui est faite :**
+les chapitres `verifie` et `citable` restent hors des vagues ordinaires et
+relèvent d'un lot public distinct ; les citations et les mots d'autrui ne sont
+jamais réécrits ; les archives reçoivent un erratum, jamais une réécriture.
 
 **Établi le 2026-09-19** par dépouillement mécanique de **335 chapitres, tous
 livres confondus**, avec séparation de l'en-tête et du corps, et de ce qui est
@@ -42,6 +49,8 @@ présence, non une faute.
 | nom canonique | définition brève | statut | ne plus employer | confusion fréquente |
 |---|---|---|---|---|
 | **NEMO IMS** | Le dispositif d'ensemble : une architecture monétaire internationale qui finance des activités qualifiées par émission, et retire la monnaie par reflux. | **stabilisé** | — | Ce n'est pas une proposition unique : l'auteur en a séparé **trois** le 2026-09-09, de maturités différentes — le financement monétaire ciblé, l'unité de réserve, et le référentiel de change. Employer « NEMO IMS » sans dire laquelle fait dire au corpus plus qu'il n'établit. |
+| **Monnaie régénérative à contrepartie collective** | Monnaie émise pour financer ou rémunérer une prestation régénérative, inscrite au passif de l'émetteur, dont la contrepartie et le reflux sont organisés collectivement plutôt que par une créance individualisée contre son bénéficiaire. | **stabilisé** — arrêté par l'auteur le **2026-09-20** | **monnaie sans dette**, **argent sans dette** | **Trois plans à ne pas confondre**, et c'est ce que l'ancien nom écrasait : l'unité EST au passif ; elle ne fait naître AUCUNE créance bilatérale individualisée ; sa contrepartie et son reflux sont COLLECTIFS. « Aucune dette » est faux sur le premier plan et vrai sur le deuxième. |
+| **Émission à contrepartie collective** | L'ACTE d'émettre cette monnaie. | **stabilisé** — arrêté par l'auteur le **2026-09-20** | **émission sans dette**, **création monétaire sans dette** | **Ne pas confondre l'acte et l'unité.** La forme courte n'est attestée dans aucune source, et c'est assumé : c'est le vocabulaire canonique du corpus, non une reprise. |
 | **NEMO Green Allocation (NGA)** | L'unité émise par le Symposium aux banques centrales, inscrite au passif de l'émetteur. Elle ne circule pas au-delà de ce couple. | **stabilisé** — arbitré par l'auteur le **2026-09-05** | **NGDTS**, **NEMO Green SDR**, **NGSDR**, **NGSRD** | « Allocation » ne revendique pas le genre du droit de tirage spécial : c'est le motif même du renommage (§ 4). |
 | **GAÏA Economic Symposium (GES)** | L'institution qui qualifie les activités et décide l'émission. | **stabilisé** pour le nom ; **sa gouvernance est à valider** (§ 3) | *GAIA* sans tréma (0 occurrence : rien à corriger) | Le nom est stable, l'organisation ne l'est pas. Ne pas déduire une structure du nom. |
 | **NEMO Exchange Standard** | Le référentiel de change entre monnaies membres. | **stabilisé** pour le nom | — | Sa forme **obligatoire à parités fixes** est déclarée *non applicable en l'état* ; la forme à **parités administrées** en coalition est *expérimentable pour des chocs passagers*. Écrire le nom sans la forme fait passer pour acquis ce qui ne l'est pas. |
@@ -142,6 +151,56 @@ arbitré est donc écrit une fois, et le nom abandonné onze.
 
 **La migration n'est pas faite.** Elle n'est pas engagée ici : elle attend la
 validation de l'auteur.
+
+---
+
+
+## 4 bis. Le renommage du 2026-09-20 — de « sans dette » au nom canonique
+
+**Décision d'auteur.** L'unité se nomme **monnaie régénérative à contrepartie
+collective** ; l'acte **émission à contrepartie collective**. Les deux entrées
+sont au vocabulaire, avec L1.C20 pour première occurrence.
+
+**Pourquoi l'ancien nom tombe.** Il écrasait trois plans distincts, et une
+formule absolue du type « aucune dette » en devenait indécidable : elle est
+**fausse** sur le passif de l'émetteur, où l'unité est bien inscrite, et **vraie**
+sur la créance bilatérale, qu'aucun bénéficiaire ne contracte. Le corpus l'avait
+lui-même établi en L11.C01, qui chiffrait « l'abandon de la monnaie sans dette au
+sens fort » comme le prix d'une lecture, et proposait « monnaie de banque
+centrale à finalités extra-financières ». **Cette proposition n'est pas retenue**
+— elle efface la finalité régénérative et la contrepartie collective, qui sont ce
+que le nom canonique porte — et elle reste au corps comme étape du raisonnement.
+
+**La règle d'application, arrêtée le même jour et plus importante que le nom.**
+**Aucune substitution mécanique.** Chaque occurrence est classée avant d'être
+touchée, entre **qualification de dette**, **absence de créance bilatérale** et
+**architecture du reflux collectif**, et la classe décide de la réécriture.
+
+Cette règle est née d'un cas : plusieurs chapitres écrivaient qu'une institution
+mondiale avait « déjà émis sans dette », en parlant de l'allocation de droits de
+tirage de 2021. **C'était faux** — L1.C22 § 4 a établi que cette allocation est
+comptée en dette sous la norme statistique — et « émis à contrepartie
+collective » l'aurait été autant. Ces occurrences écrivent désormais « sans
+créance individualisée », qui est le seul des trois plans que le précédent
+établisse. **Le renommage mécanique aurait conservé l'erreur sous un nom neuf.**
+
+**Ce qui n'est pas renommé, et pourquoi.**
+
+| cas | traitement |
+|---|---|
+| **citations** et **mots d'autrui** | conservés. L1.C10 porte le vocabulaire de Grandjean et Dufrêne ; leur prêter le nom du corpus leur ferait dire ce qu'ils n'écrivent pas. |
+| **analyse du terme lui-même** | conservée. L11.C01 n'emploie pas l'ancien nom, il l'analyse. |
+| **trace d'une affirmation retirée** | conservée. L10.C07 enregistre un retrait : on ne retire pas une affirmation sous un nom qu'elle n'a jamais porté. |
+| **alternative mise en balance** | conservée. L11.C02 oppose « sans dette ou financée par prélèvement » ; renommer une branche ferait disparaître l'alternative. |
+| **falsifieurs et promesses** | non réécrits, note datée en tête. Un falsifieur énonce une condition d'échec ; une promesse est un engagement daté. |
+| **archives** | erratum, jamais réécriture. |
+| **chapitres `verifie` et `citable`** | hors de cette vague. Lot public distinct, avec note datée, passe adverse et révision tracée. |
+
+**Ce qui reste à faire** : le fichier de L1.C20 porte encore `c20-de-l-argent-sans-dette.md`,
+et le renommage est le lot 6, après inventaire des liens **y compris hors
+`corpus/`** — protocoles, site, outils, documentation. La fenêtre est ouverte
+parce que ce chapitre n'est pas émis ; une fois `verifie`, renommer son fichier
+changerait son URL.
 
 ---
 

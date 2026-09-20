@@ -1,5 +1,15 @@
 # Registre de passe 2
 
+> **ERRATUM TERMINOLOGIQUE DU 2026-09-20.** Ce document emploie « monnaie sans dette »,
+> « argent sans dette » ou « émission sans dette ». **Ces noms sont abandonnés**
+> depuis cette date : l'unité se nomme **monnaie régénérative à contrepartie
+> collective**, l'acte **émission à contrepartie collective**
+> (`corpus/vocabulaire.yaml` ; décision au § 4 bis de
+> `protocoles/registre-canonique-nemo-ims.md`).
+> **LE TEXTE CI-DESSOUS N'EST PAS RÉÉCRIT.** Une archive dit ce qui a été écrit à une
+> date, et c'est la seule chose qu'elle garantit. La réécrire falsifierait
+> l'historique. Lire « sans dette » dans le vocabulaire de sa date.
+
 La passe 1 défriche. Les passes suivantes règlent. Ce fichier tient ce qui a
 été **délibérément reporté**, pour que la passe 2 reprenne le travail au lieu
 de le refaire — et pour qu'aucune session ne repose une question déjà tranchée.

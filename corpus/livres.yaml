@@ -2310,10 +2310,10 @@ livres:
       demeure disponible pour l'objet auquel la proposition le destine.
 
   - livre: 19
-    titre: "Comptabilité monétaire de l'émission sans dette"
+    titre: "Comptabilité monétaire de l'émission à contrepartie collective"
     collection: cahier-technique
     fonction: >
-      Établir les écritures complètes d'une émission sans dette — chez
+      Établir les écritures complètes d'une émission à contrepartie collective — chez
       l'émetteur, chez la banque centrale nationale, chez le bénéficiaire — et
       dire ce que l'unité est à l'actif comme au passif de chacun
     motifs:

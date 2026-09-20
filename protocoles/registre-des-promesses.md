@@ -1,5 +1,12 @@
 # Registre des promesses de la seconde partie
 
+> **NOTE TERMINOLOGIQUE DU 2026-09-20.** Le nom canonique a changé : l'unité se nomme
+> **monnaie régénérative à contrepartie collective**, l'acte **émission à contrepartie
+> collective** (`corpus/vocabulaire.yaml`, première occurrence L1.C20).
+> **CE FICHIER N'EST PAS RÉÉCRIT**, et c'est délibéré : chaque ligne est un **engagement daté**, rattaché à un chapitre et à un état du corpus. En changer les mots
+> changerait ce qui fut promis, et à quelle date. Les occurrences de « sans dette » qui y subsistent sont
+> à lire dans le vocabulaire de leur date, ou dans celui de leurs auteurs.
+
 Chaque fois qu'un chapitre de la première partie du Livre 1 renvoie la réponse
 à une objection vers la seconde partie (L1.C17 et suivants) ou vers le Cahier
 technique (Livre 2), le corpus contracte une dette envers lui-même. Ce registre

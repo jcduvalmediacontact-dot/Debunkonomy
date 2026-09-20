@@ -1,5 +1,12 @@
 # Conditions de falsification de NEMO IMS
 
+> **NOTE TERMINOLOGIQUE DU 2026-09-20.** Le nom canonique a changé : l'unité se nomme
+> **monnaie régénérative à contrepartie collective**, l'acte **émission à contrepartie
+> collective** (`corpus/vocabulaire.yaml`, première occurrence L1.C20).
+> **CE FICHIER N'EST PAS RÉÉCRIT**, et c'est délibéré : un falsifieur énonce une **condition d'échec**, et la plupart de ses occurrences sont en outre les **mots de Dufrêne et Grandjean**, dont F5 établit l'antériorité. En changer les mots
+> changerait ce qui est testé, ou ferait dire à des auteurs ce qu'ils n'ont pas écrit. Les occurrences de « sans dette » qui y subsistent sont
+> à lire dans le vocabulaire de leur date, ou dans celui de leurs auteurs.
+
 Ce fichier existe parce que l'auteur a posé, le 4 septembre 2026, que ce corpus
 doit pouvoir conclure à l'abandon. Un test dont on ne fixe les critères qu'après
 avoir vu les résultats n'est pas un test. Les conditions ci-dessous sont donc
