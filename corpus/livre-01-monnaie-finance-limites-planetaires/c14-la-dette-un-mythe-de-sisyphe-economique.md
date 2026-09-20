@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-18
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -102,7 +102,13 @@ verifications_en_attente:
   - "DEUX CLAUSES EMPIRIQUES SANS APPEL DE SOURCE, relevées par l'audit et vérifiées
      présentes : au § 1, « celles des économies observées », qui qualifie les conditions
      d'états de fait ; au § 3, « les prix des actifs financés par le crédit montent avec
-     le crédit disponible », qui pose une relation causale générale."
+     le crédit disponible », qui pose une relation causale générale.
+     TRAITÉ LE 2026-09-20 : les deux clauses sont CONSERVÉES ET DÉCLARÉES NON
+     ÉTABLIES dans le corps. La première pèse davantage : elle siégeait dans un
+     paragraphe `::etat::` et transposait aux économies observées les conditions
+     d'un MODÈLE — [S8] ne déclare qu'un passage lu, et c'est le résultat NÉGATIF
+     de ce modèle. LA TÂCHE SUBSISTE : trouver l'appui, ou maintenir la
+     déclaration."
   - "ROSA [S5] — objection déjà inscrite, confirmée par l'audit : le § 3 fait porter à
      l'entrée deux énoncés et l'exemplaire ouvert n'en porte qu'un."
   - "NORDHAUS [S11] — objection déjà inscrite, confirmée : un seul appel clôt une phrase
@@ -167,7 +173,7 @@ Ce chapitre ne démontre pas un mécanisme nouveau ; il donne une figure à ceux
 
 La transposition économique ajoute une différence décisive. Dans le mythe, la peine vient des dieux ; elle est extérieure et sans recours. Dans le régime actuel, elle vient de la composition de règles humaines ; personne ne l'a décrétée, et elle peut en principe être défaite.
 
-::etat:: Il faut ici reprendre exactement la contrainte établie en L1.C08 § 2, et non sa version courante. Il est faux qu'une économie endettée soit arithmétiquement condamnée à emprunter toujours davantage au motif que « les intérêts n'auraient pas été créés » : si les revenus d'intérêts perçus par les créanciers sont intégralement redépensés — salaires, charges, dividendes consommés —, une économie stationnaire portant une dette à intérêt est possible sans défaut ni croissance, comme le montrent les modèles à cohérence stock-flux de Jackson et Victor [S8]. La contrainte est conditionnelle : elle apparaît lorsque l'encours de dette croît et lorsque les créanciers accumulent au lieu de dépenser. Sous ces conditions — celles des économies observées —, le service de la dette exige des revenus croissants, donc une activité croissante.
+::etat:: Il faut ici reprendre exactement la contrainte établie en L1.C08 § 2, et non sa version courante. Il est faux qu'une économie endettée soit arithmétiquement condamnée à emprunter toujours davantage au motif que « les intérêts n'auraient pas été créés » : si les revenus d'intérêts perçus par les créanciers sont intégralement redépensés — salaires, charges, dividendes consommés —, une économie stationnaire portant une dette à intérêt est possible sans défaut ni croissance, comme le montrent les modèles à cohérence stock-flux de Jackson et Victor [S8]. La contrainte est conditionnelle : elle apparaît lorsque l'encours de dette croît et lorsque les créanciers accumulent au lieu de dépenser. Sous ces conditions — **que ce chapitre ne démontre pas être celles des économies observées** —, le service de la dette exige des revenus croissants, donc une activité croissante.
 
 ::hypothese:: C'est là que la structure du mythe apparaît. Non parce qu'un emprunt appellerait mécaniquement un emprunt plus grand, mais parce que, dans un régime où l'encours croît et où les rentes s'accumulent, chaque cycle de remboursement laisse le système au même point : une dette à servir, une activité à accroître, une pierre remontée qui redescend. Le livre le formule ainsi : « chaque effort pour rembourser ne fait que préparer la prochaine chute » [S2].
 
@@ -187,7 +193,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 ::etat:: Deux mécanismes distincts se croisent ici, et le chapitre les sépare. Le premier est psychologique et n'a rien de monétaire : au-delà d'un certain revenu, le bien-être ressenti au quotidien progresse peu, même quand l'évaluation que l'on fait de sa vie continue de monter — c'est le résultat de Kahneman et Deaton [S3], que Killingsworth a contesté avant que les trois auteurs ne le réconcilient : le plafond existe pour les moins heureux, non pour les autres [S4] [S13]. Cette saturation relève de l'adaptation hédonique et de la comparaison sociale ; elle vaudrait sous tout régime monétaire, et les travaux cités ne disent rien du crédit. Le second est un arbitrage rationnel : s'endetter pour lisser sa consommation sur le cycle de vie est un comportement que la théorie économique explique sans piège ni contrainte [S12].
 
-::hypothese:: Ce que le régime ajoute, là encore, est plus étroit. L'engagement de crédit — immobilier surtout — transforme une préférence en obligation datée : il faut, chaque mois, un revenu au moins égal, dans un contexte où les prix des actifs financés par le crédit montent avec le crédit disponible. La saturation du bien-être et l'obligation de revenu se conjuguent alors : le revenu supplémentaire achète peu de sérénité, et il devient néanmoins nécessaire. C'est cette conjonction, non la saturation seule, qui fait la figure. Rosa a nommé accélération sociale cette course où nul ne peut ralentir sans être distancé, et montré que la stabilité des sociétés tardives suppose désormais une accélération permanente [S5].
+::hypothese:: Ce que le régime ajoute, là encore, est plus étroit. L'engagement de crédit — immobilier surtout — transforme une préférence en obligation datée : il faut, chaque mois, un revenu au moins égal, dans un contexte où les prix des actifs financés par le crédit montent avec le crédit disponible — **relation que ce chapitre pose et n'établit pas**. La saturation du bien-être et l'obligation de revenu se conjuguent alors : le revenu supplémentaire achète peu de sérénité, et il devient néanmoins nécessaire. C'est cette conjonction, non la saturation seule, qui fait la figure. Rosa a nommé accélération sociale cette course où nul ne peut ralentir sans être distancé, et montré que la stabilité des sociétés tardives suppose désormais une accélération permanente [S5].
 
 ## 4. Le gouvernant
 
