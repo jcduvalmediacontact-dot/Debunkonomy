@@ -560,3 +560,39 @@
                s'applique au constat et non à la fixation des valeurs, où le
                résultat de Mundell l'interdit."
   premiere_occurrence: L11.C16
+
+- terme: monnaie_regenerative_contrepartie_collective
+  libelle: "Monnaie régénérative à contrepartie collective"
+  definition: "Monnaie émise pour financer ou rémunérer une prestation
+               régénérative, inscrite au passif de l'émetteur, dont la
+               contrepartie et le reflux sont organisés collectivement plutôt que
+               par une créance individualisée contre son bénéficiaire.
+               NOM CANONIQUE ARRÊTÉ PAR L'AUTEUR LE 2026-09-20. Il désigne
+               l'UNITÉ ; l'acte de l'émettre se nomme
+               `emission_contrepartie_collective`. Le corpus ne les confond pas.
+               Ce nom remplace « monnaie sans dette » et « argent sans dette »,
+               qui ne s'emploient plus en voix propre. TROIS PLANS À NE PAS
+               CONFONDRE, et c'est ce que l'ancien nom écrasait : l'unité EST au
+               passif de l'émetteur ; elle ne fait naître AUCUNE créance
+               bilatérale individualisée contre son bénéficiaire ; sa
+               contrepartie et son reflux sont COLLECTIFS. Une formule absolue du
+               type « aucune dette » est fausse sur le premier plan et vraie sur
+               le deuxième. RÉSERVE CONSERVÉE : les écritures précises et la
+               répartition institutionnelle du prélèvement restent à spécifier
+               avant déploiement — ce n'est pas un blocage conceptuel."
+  premiere_occurrence: L1.C20
+
+- terme: emission_contrepartie_collective
+  libelle: "Émission à contrepartie collective"
+  definition: "Acte par lequel une monnaie régénérative à contrepartie
+               collective est émise : création monétaire au bénéfice d'une
+               activité qualifiée, sans créance bilatérale contre le
+               bénéficiaire, dont l'extinction est organisée par un reflux
+               collectif et non par un remboursement individuel.
+               FORME COURTE ARRÊTÉE PAR L'AUTEUR LE 2026-09-20, en remplacement
+               d'« émission sans dette » et de « création monétaire sans dette ».
+               ELLE N'EST ATTESTÉE DANS AUCUNE SOURCE, et c'est assumé : c'est le
+               vocabulaire canonique du corpus, non une reprise. Distinguer de
+               l'unité, `monnaie_regenerative_contrepartie_collective` : l'une
+               est l'acte, l'autre est ce qui est émis."
+  premiere_occurrence: L1.C20
