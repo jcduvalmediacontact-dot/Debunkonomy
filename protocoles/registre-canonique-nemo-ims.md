@@ -215,6 +215,26 @@ AVANT TOUT RENOMMAGE FUTUR D'UN CHAPITRE PUBLIÉ** — deux branches : fixer le 
 l'en-tête, indépendamment du nom de fichier ; ou écrire dans la convention que le nom
 de fichier est figé dès la publication. L'arbitrage appartient à l'auteur.
 
+**DETTE MÉTHODOLOGIQUE SOLDÉE LE 2026-09-20**, seconde réserve de la même passe.
+La table d’exceptions du contrôle était structurée **par chapitre et par zone**, et
+elle comptait. Une **substitution à total constant** — une occurrence disparue ici,
+une autre apparue là dans le même corps — la traversait sans bruit. Chaque occurrence
+déclarée porte désormais un **ancrage** : les seize premiers signes de l’empreinte
+SHA-256 d’un contexte normalisé de ±70 signes — casse, espaces, apostrophes et
+guillemets écrasés. Ces ancrages sont écrits dans
+`outils_claude/ancrages-renommage.json` **par le script, jamais à la main**, et le
+contrôle compare des **multi-ensembles d’ancrages** et non des nombres — un
+multi-ensemble, pour qu’une note dupliquée à l’identique compte deux fois.
+`outils_claude/test_controle_renommage.py` saborde le contrôle de huit façons, dont
+la substitution à total constant (E-R1) et **deux contrôles négatifs** (N-R1, N-R2)
+sans lesquels un outil qui échoue toujours passerait le test. État gelé :
+**71 occurrences déclarées dans 23 chapitres**, le contrôle sortant à zéro.
+
+**Contrepartie assumée.** Toute retouche éditoriale au voisinage d’une occurrence
+déclarée casse son ancrage et fait échouer le contrôle, même si l’occurrence n’a pas
+bougé. C’est voulu : la remise à jour par `--generer-ancrages` devient alors un acte
+délibéré, qui passe par la relecture, et non un silence.
+
 ---
 
 ## 5. Les instruments de reflux
