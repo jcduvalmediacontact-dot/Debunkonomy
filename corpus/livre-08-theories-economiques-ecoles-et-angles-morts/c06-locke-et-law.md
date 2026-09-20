@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,14 @@ sources_primaires:
     reference: "Le corpus lui-même — la promesse BLOQUANTE P18 : « une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net dans le circuit marchand ordinaire ; sans destruction simultanée et calibrée, elle est inflationniste par construction ». Et le falsifieur F1, qui en exige le chiffrage. Et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni Locke ni Law ne sont en
   # possession du corpus, qui ne leur attribue aucune formulation.
@@ -45,7 +53,7 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C02, L8.C19, L8.C23, L11.C02, L11.C16]
 
 # Locke et Law : l'émission peut-elle précéder la richesse
 
-::etat:: Ce chapitre porte **le précédent d'échec le plus cité contre l'émission sans dette**. Le corpus soutient qu'il doit l'instruire au lieu de l'éviter — **une objection qu'on n'affronte pas revient au moment le plus coûteux.** Fiche de répertoire sans source ouverte.
+::etat:: Ce chapitre porte **le précédent d'échec le plus cité contre l'émission à contrepartie collective**. Le corpus soutient qu'il doit l'instruire au lieu de l'éviter — **une objection qu'on n'affronte pas revient au moment le plus coûteux.** Fiche de répertoire sans source ouverte.
 
 ## 1. La controverse : deux positions symétriques
 
@@ -63,7 +71,7 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C02, L8.C19, L8.C23, L11.C02, L11.C16]
 
 ::hypothese:: **Ce qui a échoué n'est pas l'idée d'émettre contre autre chose que du métal.** C'est **l'absence de tout mécanisme bornant le volume émis une fois le principe admis.** Le raisonnement qui autorise la première émission autorise la suivante, et rien dans le principe ne dit où s'arrêter : la borne, quand elle existait, était le métal, et on venait de s'en défaire.
 
-::hypothese:: **C'est exactement l'objection P18, et elle est bloquante au registre du corpus** [S1] : sans destruction simultanée et calibrée, une émission sans dette est inflationniste par construction.
+::hypothese:: **C'est exactement l'objection P18, et elle est bloquante au registre du corpus** [S1] : sans destruction simultanée et calibrée, une émission à contrepartie collective est inflationniste par construction.
 
 ::hypothese:: **Et c'est le point où le Livre 11 a trouvé sa réponse la plus solide.** L11.C16 § 2 a établi que **le niveau de l'émission n'est pas une décision** : la condition de bouclage le lie au produit du reflux, lui-même borné par la condition-limite B1. **La borne est de nouveau extérieure à celui qui décide** — ce n'est plus le métal, c'est la capacité de reflux. **Le dispositif restaure donc la propriété dont l'abandon a fait échouer le précédent**, et le corpus le porte à son crédit.
 
@@ -83,7 +91,7 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C02, L8.C19, L8.C23, L11.C02, L11.C16]
 
 ## 6. Portée
 
-::etat:: **Le précédent d'échec le plus cité contre l'émission sans dette n'a pas échoué là où on le croit.** Ce n'est pas le principe d'émettre contre autre chose que du métal qui a rompu : c'est **l'absence de borne une fois ce principe admis.**
+::etat:: **Le précédent d'échec le plus cité contre l'émission à contrepartie collective n'a pas échoué là où on le croit.** Ce n'est pas le principe d'émettre contre autre chose que du métal qui a rompu : c'est **l'absence de borne une fois ce principe admis.**
 
 ::hypothese:: **Le dispositif restaure cette borne, et c'est son argument le plus solide face à ce chapitre** : la condition de bouclage lie l'émission au produit du reflux, de sorte que personne n'en décide le niveau. **La borne redevient extérieure à celui qui décide.**
 

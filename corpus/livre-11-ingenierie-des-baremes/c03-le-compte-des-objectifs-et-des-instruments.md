@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -44,6 +44,14 @@ sources_primaires:
     reference: "S. Engone Mve, « Monetary Policy and Macroprudential Policy in Fixed Exchange: The Case of the Bank of Central African States », Theoretical Economics Letters 12, 2022, p. 1323-1334 — OUVERT le 2026-09-05. Établit que le débat sur l'articulation entre politique monétaire et macroprudentielle a DEUX PÔLES et une position conditionnelle : séparation (Svensson, Bernanke, Beau et al.), fondée explicitement sur « Tinbergen's consistency rule (1952) and Mundell's rule of efficient instrument allocation » ; intégration (Adrian-Shin, Mishkin, Eichengreen et al.), au motif que les instruments macroprudentiels « because they are more targeted, are easily circumvented » ; et position conditionnelle où « in the event of a conflict of objectives, priority is given to a single objective ». Estimation menée en RÉGIME DE CHANGE FIXE, celui du dispositif"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE RÉÉCRIT LE 2026-09-06. Sa première version datait du 2026-09-05 et
   # avait été écrite AVANT que l'ouvrage de Tinbergen ne soit disponible ; elle
@@ -215,7 +223,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C28, L11.C01, L11.C02, L11.C04, L11
 
 ::etat:: **C'est le résultat le plus lourd de la lecture, et il porte contre la méthode du présent chapitre** [S1]. Tinbergen classe les systèmes de politique économique en cinq groupes : (a) maintien de la structure avec changements quantitatifs modérés ; (b) maintien de la structure avec changements forts du système fiscal ; (c) changement de la micro-structure ; **(d) changements de la structure du système monétaire** ; (e) changements de l'organisation des entreprises ou de la propriété. Il crée la classe (d) pour ce genre de proposition — « there exist quite a number of proposals for changing the monetary structure, which are therefore **classed separately in class (d)** » — et il classe un système mixte « **according to the most far-reaching of their instruments** ».
 
-::etat:: **Le dispositif est de classe (d).** Il mêle du (b) — le reflux est un changement fort du système de prélèvement — et du (d) — l'émission sans dette, l'institution émettrice, le référentiel de change.
+::etat:: **Le dispositif est de classe (d).** Il mêle du (b) — le reflux est un changement fort du système de prélèvement — et du (d) — l'émission à contrepartie collective, l'institution émettrice, le référentiel de change.
 
 ::hypothese:: **Or Tinbergen réserve son appareil aux classes (a) et (b).** « It may be possible, at the present stage of our knowledge, to start the solution of a number of problems of **quantitative** economic policy, grouped under (a) and (b) [...] [but] the scientific treatment of problems of **qualitative** policy meets with **great difficulties**, especially so if these policies belong to groups (d) and (e) », le motif étant que « our empirical quantitative knowledge of human behaviour under different structural conditions is **so restricted** ». Un instrument quantitatif est, par définition, celui qui vise une autre valeur numérique « **with the maintenance of the type of relation** ». **Le barème est un instrument quantitatif logé dans une réforme qualitative** — et c'est pourquoi le comptage n'a jamais rien tranché.
 

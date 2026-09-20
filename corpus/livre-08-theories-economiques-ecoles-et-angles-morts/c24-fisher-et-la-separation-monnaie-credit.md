@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,14 @@ sources_primaires:
     reference: "Le corpus lui-même — le concept `contrepartie_comptable` du vocabulaire ; la promesse BLOQUANTE P55, dont le crédit a été RETIRÉ le 2026-09-04 : la contrepartie comptable inscrite à l'actif de l'émetteur ne tient pas, et sous la lecture B la question change de registre sans se régler. Et le résultat de L11.C01 : le reflux du dispositif n'est pas le reflux du crédit bancaire, ce qui reflue ici refluant parce qu'une autorité le prélève"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE PARTIELLEMENT OUVERTE. L'article de 1933 est lu et cité ;
   # 100% MONEY (1935) NE L'EST PAS, alors que c'est lui que le titre annonce et
@@ -75,7 +83,7 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C02, L8.C16, L8.C23, L8.C26, L8.C38, L11.C0
 
 ::hypothese:: **Le dispositif échange donc un reflux automatique contre un reflux administré**, et tout le Livre 11 est la facture de cet échange : l'assiette, le taux, l'incidence, les délais, la perception, le contrôle. **Onze chapitres pour reconstruire ce que le crédit fait tout seul.**
 
-::etat:: **Et la contrepartie comptable ne tient pas.** P55 est bloquante, son crédit a été retiré le 2026-09-04, et sous la lecture B la question change de registre sans se régler [S2]. **Une monnaie sans dette n'a pas d'actif en face**, et c'est le prix comptable de la propriété que le § 3 lui reconnaît.
+::etat:: **Et la contrepartie comptable ne tient pas.** P55 est bloquante, son crédit a été retiré le 2026-09-04, et sous la lecture B la question change de registre sans se régler [S2]. **Une monnaie régénérative à contrepartie collective n'a pas d'actif en face**, et c'est le prix comptable de la propriété que le § 3 lui reconnaît.
 
 ## 5. MANQUEMENT — un précédent d'adoption que le corpus ignore
 
@@ -95,4 +103,4 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C02, L8.C16, L8.C23, L8.C26, L8.C38, L11.C0
 
 ::hypothese:: **Le prix de cette immunité est le Livre 11 tout entier** : sans reflux automatique, il faut construire un reflux administré, et onze chapitres y suffisent à peine.
 
-::etat:: **Et le prix comptable est P55, bloquante** : une monnaie sans dette n'a pas d'actif en face. **Le remède de 1935 n'est pas ouvert, et le seul précédent d'adoption soumis à un vote populaire ne l'est pas davantage.**
+::etat:: **Et le prix comptable est P55, bloquante** : une monnaie régénérative à contrepartie collective n'a pas d'actif en face. **Le remède de 1935 n'est pas ouvert, et le seul précédent d'adoption soumis à un vote populaire ne l'est pas davantage.**

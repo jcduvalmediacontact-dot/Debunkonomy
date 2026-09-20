@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,14 @@ sources_primaires:
     reference: "J.-C. Duval, trois arbitrages et deux instructions de conception adressés au corpus les 2026-09-05 et 2026-09-06 : la LECTURE B du reflux (« mathématiquement oui ») ; la FORME DE LA TRAJECTOIRE, A15 (« le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance ») ; les DÉROGATIONS au demurrage ; la PROGRESSIVITÉ de la mise en place ; et le ROUTAGE DU PÉRIMÈTRE vers le Livre 7, au motif que « tous les livres sont interconnectés entre eux »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE PORTÉE. Il ne verse aucun résultat neuf et ne doit rien
   # conclure qui ne soit établi dans un chapitre du livre. Il RÉUNIT ce que
@@ -164,7 +172,7 @@ renvois: [L1.C15, L1.C18, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28, L1.C29, L11.C0
 
 ::hypothese:: **Ce que la passe établit tient en une phrase : la difficulté n'est pas là où le dispositif la place.**
 
-::hypothese:: **L'appareil monétaire tient.** Le mécanisme d'émission sans dette, la destruction organisée, l'assiette de la consommation finale, la valeur par défaut, la forme directive — aucun de ces objets n'a été trouvé impossible, et plusieurs ont été trouvés meilleurs que leur présentation. **Le livre n'a pas rencontré d'obstacle monétaire dirimant.**
+::hypothese:: **L'appareil monétaire tient.** Le mécanisme d'émission à contrepartie collective, la destruction organisée, l'assiette de la consommation finale, la valeur par défaut, la forme directive — aucun de ces objets n'a été trouvé impossible, et plusieurs ont été trouvés meilleurs que leur présentation. **Le livre n'a pas rencontré d'obstacle monétaire dirimant.**
 
 ::hypothese:: **L'appareil de gouvernance qu'il suppose n'existe pas.** Un tribunal, un contrôleur, un pouvoir de sanction, un organe légitimé pour arrêter les valeurs, une procédure d'amendement, une clé de répartition. **Aucun n'est écrit, et le premier obstacle rencontré n'est jamais monétaire : il est institutionnel.** C'est pourquoi la moitié de ce que ce livre a instruit a fini par être **routé vers le Livre 7** — le périmètre, la légitimation, qui juge, qui contrôle, avec quelle sanction, et le niveau des valeurs.
 

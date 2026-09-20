@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,14 @@ sources_primaires:
     reference: "**Le corpus lui-même, et c'est lui qui est éprouvé ici. L11.C01 § 3** : « **l'allocation ne circule jamais.** Elle vit exclusivement entre le Symposium et les banques centrales nationales. **Le prestataire est payé en monnaie nationale et n'en détient aucune.** » **L11.C02 § 1** : « Les fonds propres deviennent donc négatifs du montant émis », et la correction du 2026-09-07 qui retire l'analogie de l'émetteur ordinaire. **L11.C02 § 3** : la banque centrale nationale porte « **une créance perpétuelle** sur une institution extérieure à son système, sans échéance et sans mécanisme de règlement prévu ». **L1.C29 § 4** : la contrepartie du dépôt du prestataire — le service rendu — « **n'est portée à aucun bilan** puisqu'elle a été consommée par le monde ». **L10.C07 § 4** : le § 14(b) du Federal Reserve Act admet les titres émis « in anticipation of the collection of taxes or in anticipation of the receipt of assured revenues », **à six mois au plus**. **A35** : la société entière porte la dette, **donc il n'existe pas de débiteur assignable**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Ce chapitre solde la réserve que L21.C01 et L21.C02 déclaraient tous deux,
   # et que la revue contradictoire du 2026-09-07 avait formulée : écrire trois
@@ -137,7 +145,7 @@ renvois: [L1.C07, L1.C29, L10.C06, L10.C07, L11.C01, L11.C02, L11.C11, L11.C13, 
 
 ::etat:: **La troisième est la route ordinaire, et c'est celle que le dispositif emprunte nécessairement s'il ne veut pas des deux autres.** La banque centrale crédite **le compte de réserves de la banque du prestataire** ; **cette banque crédite le compte de dépôt du prestataire.** **Le circuit compte alors QUATRE bilans et non trois.**
 
-::etat:: **Le corpus n'avait jamais placé cette entité dans le circuit d'émission.** La banque commerciale y figure comme créatrice de monnaie de crédit — c'est tout le Livre 1 — **mais jamais comme maillon de l'émission sans dette.** **L11.C01 et L11.C02, qui sont les deux chapitres du bouclage, ne la nomment pas.**
+::etat:: **Le corpus n'avait jamais placé cette entité dans le circuit d'émission.** La banque commerciale y figure comme créatrice de monnaie de crédit — c'est tout le Livre 1 — **mais jamais comme maillon de l'émission à contrepartie collective.** **L11.C01 et L11.C02, qui sont les deux chapitres du bouclage, ne la nomment pas.**
 
 ## 4. Troisième jeu — la banque du prestataire
 

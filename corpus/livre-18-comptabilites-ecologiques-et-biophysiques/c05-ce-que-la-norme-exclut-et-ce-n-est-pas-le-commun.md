@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -24,6 +24,14 @@ sources_primaires:
     reference: "**Le corpus lui-même.** **L6.C06** : un commun ne tient pas parce qu'on interdit de vendre, mais parce qu'**un droit réel inhérent suit le fonds** — *inerenza*, *ius sequelae*, **opposabilité erga omnes**, survie à la vente forcée, effet « **a prescindere dal rispetto di oneri pubblicitari** ». **L11.C16** : la **valorisation à bénéficiaire nommé** existe en droit positif — loi italienne n° 168 du 20 novembre 2017, art. 2 § 1, ressources renouvelables à valoriser « **a beneficio delle collettività locali degli aventi diritto** », et art. 1 § 1 qualifiant le patrimoine de **comproprietà inter-generazionale**. **L1.C09** : le lexique comptable comme **règle de l'architecture invisible**. **L1.C20** : une monnaie qui n'est le crédit de personne"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   - "LE PÉRIMÈTRE DE CONSOLIDATION N'EST PAS ÉTABLI, et il commande la
      section 3. Le corpus ne sait pas si l'institution émettrice et les
      bénéficiaires appartiendraient à une même entité comptable consolidée.
@@ -95,7 +103,7 @@ renvois: [L1.C09, L1.C20, L1.C29, L6.C06, L6.C08, L11.C13, L11.C16, L18.C01, L18
 
 ::hypothese:: **CE QUI SUBSISTE, ET C'EST L'ESSENTIEL DE LA SECTION.** **La charnière demeure** : IPSAS 48 déclenche la charge quand l'émetteur cesse de contrôler, IPSAS 47 déclenche l'actif quand le bénéficiaire commence, **et c'est le même fait**. **Ce que le corpus ne peut plus en tirer, c'est que « rien n'est créé » au sens économique** — il peut seulement en tirer que **dans les livres de l'émetteur, l'écriture ne se boucle pas par un actif.** **L'objection est comptable et locale, non ontologique et globale.**
 
-::hypothese:: **Deux issues seulement, et le corpus doit choisir laquelle il défend.** **Ou bien il produit l'actif** — la ressource conservée, contrôlée, mesurée — **et l'écriture se boucle sans dette.** **Ou bien il assume de s'écarter du référentiel** et doit dire **au nom de quoi**, ce que L1.C09 avait annoncé sans le faire : le lexique comptable est une règle de l'architecture invisible, **et une règle se conteste avec un argument, pas avec un silence.**
+::hypothese:: **Deux issues seulement, et le corpus doit choisir laquelle il défend.** **Ou bien il produit l'actif** — la ressource conservée, contrôlée, mesurée — **et l'écriture se boucle sans inscrire de dette.** **Ou bien il assume de s'écarter du référentiel** et doit dire **au nom de quoi**, ce que L1.C09 avait annoncé sans le faire : le lexique comptable est une règle de l'architecture invisible, **et une règle se conteste avec un argument, pas avec un silence.**
 
 ::etat:: **Une réserve borne cette section, et elle est de périmètre.** **Le corpus ne sait pas si émetteur et bénéficiaires relèveraient d'une même entité consolidée.** **S'ils n'en relèvent pas, la symétrie ne s'annule dans aucun compte** — elle demeure entre deux jeux d'états financiers distincts. **Le constat tient, sa portée change.**
 
@@ -123,7 +131,7 @@ renvois: [L1.C09, L1.C20, L1.C29, L6.C06, L6.C08, L11.C13, L11.C16, L18.C01, L18
 
 ::hypothese:: **Les deux normes se referment sur le même fait — le déplacement du contrôle.** **Corrigé le 2026-09-07** : le chapitre en tirait que « l'opération ne crée rien » et que la partie double énonce « qu'un actif quelque part suppose une contrepartie quelque part ». **La partie double impose l'égalité des écritures DANS LES LIVRES D'UNE ENTITÉ ; ce n'est pas une loi de conservation mondiale de la valeur.** **Ce qui subsiste est local et suffit : dans les livres de l'émetteur, l'écriture NE SE BOUCLE PAS PAR UN ACTIF.**
 
-::hypothese:: **Et la conséquence tient sans l'extension retirée.** **Un dispositif qui prétend émettre sans dette doit ou bien PRODUIRE L'ACTIF, ou bien ASSUMER DE S'ÉCARTER DU RÉFÉRENTIEL EN DISANT AU NOM DE QUOI.** **L1.C09 avait annoncé que le lexique comptable est une règle de l'architecture invisible ; une règle se conteste avec un argument.**
+::hypothese:: **Et la conséquence tient sans l'extension retirée.** **Un dispositif qui prétend émettre sans inscrire de dette doit ou bien PRODUIRE L'ACTIF, ou bien ASSUMER DE S'ÉCARTER DU RÉFÉRENTIEL EN DISANT AU NOM DE QUOI.** **L1.C09 avait annoncé que le lexique comptable est une règle de l'architecture invisible ; une règle se conteste avec un argument.**
 
 ::hypothese:: **Le seul candidat tenu est en droit et non en comptabilité** : le droit réel inhérent qui suit le fonds (L6.C06), **couplé à la valorisation à bénéficiaire nommé de L11.C16.** **Le corpus tient les deux moitiés et pas le lien** : le titulaire y est la collectivité des ayants droit, l'émetteur est une institution tierce.
 

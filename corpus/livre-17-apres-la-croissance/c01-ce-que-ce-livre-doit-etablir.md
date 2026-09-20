@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -21,6 +21,14 @@ sources_primaires:
     reference: "**Le corpus lui-même — ce qu'il doit à ce livre et ce qu'il n'a jamais ouvert.** **Le registre du matricule 17** : « Comparer les théories et expériences de l'après-croissance, du Bonheur national brut à la décroissance, **puis TESTER LEUR CONCRÉTISATION INSTITUTIONNELLE** » ; motifs : « discipline — théories de l'après-croissance et indicateurs au-delà du PIB » et « **objection — P9 : sortir de l'exigence de croissance de l'encours sans contraction** ». **P9, au registre des promesses, n'a JAMAIS reçu de réponse** : la colonne de solde porte un tiret. Sa demande : « **que l'émission sans dette relâche la contrainte de croissance de L1.C08 § 2, et sous quelles conditions** ». **Et le corpus tient trois acquis récents qui pèsent sur ce livre** : L18.C04 (« no evidence of widespread absolute decoupling at the global level »), L26.C04 (le rebond reprend plus de la moitié des économies d'efficacité) et **L26.C05, qui a proposé F14 en établissant que le dispositif ne dispose que d'instruments de NIVEAU et d'aucun instrument de COMPOSITION**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   - "**AUCUN AUTEUR DE L'APRÈS-CROISSANCE N'EST OUVERT, ET C'EST EXACTEMENT LA
      SITUATION QUE LE LIVRE 26 A RENCONTRÉE AVANT-HIER.** Ni Daly, ni Jackson, ni
      Kallis, ni Hickel, ni Parrique, ni aucun texte du Bonheur national brut.
@@ -148,7 +156,7 @@ renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, 
 
 ## 6. La grille de ce livre
 
-::etat:: **QUESTION 1 — P9, ET C'EST LA DETTE LA PLUS ANCIENNE.** **Sous quelles conditions une émission sans dette relâche-t-elle la contrainte de croissance ?** **Le verrou est nommé par une source ; le desserrage ne l'est par personne.**
+::etat:: **QUESTION 1 — P9, ET C'EST LA DETTE LA PLUS ANCIENNE.** **Sous quelles conditions une émission à contrepartie collective relâche-t-elle la contrainte de croissance ?** **Le verrou est nommé par une source ; le desserrage ne l'est par personne.**
 
 ::etat:: **QUESTION 2 — LE DISPOSITIF EST-IL UNE STRATÉGIE, OU UN INSTRUMENT SANS STRATÉGIE ?** **La taxonomie du champ n'a pas de case pour lui**, et le corpus doit dire s'il revendique la troisième ou s'il en propose une quatrième.
 

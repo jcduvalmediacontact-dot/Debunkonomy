@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -88,6 +88,14 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   - "S10 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : `hayek.pdf` fait treize pages et porte
      ZÉRO caractère extractible. C'est un SCAN SANS COUCHE DE TEXTE, qui ne vaut pas
      ouverture. Le nombre de pages concorde avec l'article de 1945 (p. 519-530) : la
@@ -208,7 +216,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::hypothese:: Il en résulte trois remèdes distincts, et le corpus doit dire lequel l'émission qualifiée sert. Pour la première catégorie, elle est plausible : il faut un payeur là où aucun ne se présente. Pour la deuxième, elle est au mieux complémentaire : financer l'entretien d'un fonds n'établit pas la règle d'accès qui en conditionne l'existence, et un paiement sans règle d'accès reconstitue la congestion qu'il prétend traiter. Pour la troisième, la création monétaire n'a aucun avantage propre sur un transfert budgétaire, sinon celui qui ne dépend pas de la catégorie du bien : au versement, elle ne dépend d'aucune recette préalable (L1.C19 § 2).
 
-::etat:: **Mais cette indépendance est partielle, et il faut dire où elle s'arrête.** L'émission ne dépend d'aucune recette au versement ; son apurement dépend du reflux. L'auteur a arrêté la première affectation de l'excédent — apurer le découvert des guichets —, et le reste de la formule n'est pas écrit. **Trois branches restent ouvertes : dépenser l'excédent, le conserver, le redistribuer.** La première ferait du reflux un prélèvement affecté finançant un budget, c'est-à-dire la réduction orthodoxe que L1.C19 § 2 refuse. Le statut sans dette du dispositif dépend de cette formule, et le chapitre ne la tranche pas.
+::etat:: **Mais cette indépendance est partielle, et il faut dire où elle s'arrête.** L'émission ne dépend d'aucune recette au versement ; son apurement dépend du reflux. L'auteur a arrêté la première affectation de l'excédent — apurer le découvert des guichets —, et le reste de la formule n'est pas écrit. **Trois branches restent ouvertes : dépenser l'excédent, le conserver, le redistribuer.** La première ferait du reflux un prélèvement affecté finançant un budget, c'est-à-dire la réduction orthodoxe que L1.C19 § 2 refuse. L'échappement du dispositif à la qualification de dette dépend de cette formule, et le chapitre ne la tranche pas.
 
 ::hypothese:: Une conséquence plus lourde suit, et elle est arithmétique. **Le périmètre décide du volume.** Faire entrer les infrastructures critiques dans la liste, c'est faire entrer l'investissement public ordinaire dans le dispositif — les réseaux d'eau, l'assainissement, les transports collectifs et les réseaux électriques relèvent de la formation brute de capital fixe des administrations et des opérateurs de réseau, dont l'ordre de grandeur diffère de celui de l'entretien des fonds naturels. Le corpus ne chiffre pas ici cet écart et ne peut donc pas s'en prévaloir comme d'un résultat : il l'inscrit comme une mesure à faire.
 
@@ -274,7 +282,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::etat:: **La distribution s'est faite au prorata des quotes-parts**, et le Fonds la décrit ainsi : environ 275 milliards de dollars vont aux économies émergentes et en développement, dont environ 21 milliards aux pays à faible revenu [S7]. **Le corpus s'en tient à ces montants, et il ne dit rien de plus sur leur destination :** identifier les pays qui reçoivent le gros de l'allocation à ceux où les communs sont les plus dégradés demanderait une source, et aucune ne le porte. **Ce que la répartition établit sans source supplémentaire suffit pourtant : une clé au prorata des quotes-parts reconduit le poids économique.**
 
-::etat:: **Et il faut immédiatement retirer le mot qui vient à l'esprit : cette émission n'est pas sans dette.** Sous la sixième édition de la norme statistique de balance des paiements, adoptée par la plupart des États en 2016, les avoirs en droits de tirage sont inscrits à l'actif du membre et l'allocation cumulée à son passif, comptabilisée en autres passifs de dette à long terme attribués à la banque centrale et incluse dans la dette extérieure brute [S11]. **La cinquième édition n'attachait aucun passif à ces avoirs** [S11]. **Chaque énoncé porte donc la date de son édition, et le chapitre ne cite aucun chiffre comptable sans elle.**
+::etat:: **Et il faut immédiatement retirer le mot qui vient à l'esprit : cette émission n'échappe pas à la qualification de dette.** Sous la sixième édition de la norme statistique de balance des paiements, adoptée par la plupart des États en 2016, les avoirs en droits de tirage sont inscrits à l'actif du membre et l'allocation cumulée à son passif, comptabilisée en autres passifs de dette à long terme attribués à la banque centrale et incluse dans la dette extérieure brute [S11]. **La cinquième édition n'attachait aucun passif à ces avoirs** [S11]. **Chaque énoncé porte donc la date de son édition, et le chapitre ne cite aucun chiffre comptable sans elle.**
 
 ::etat:: **Le motif du passif est double, et il est inscrit dans la norme même :** l'allocation est enregistrée comme la naissance d'un engagement du membre qui la reçoit, en raison d'une obligation de rembourser l'allocation dans certaines circonstances, et parce qu'un intérêt court [S11]. **Le rachat existe donc, mais il est conditionnel** — sortie d'un participant, liquidation du département —, **et l'obligation présente est l'intérêt.** C'est ce que l'acquisition des statuts du Fonds a établi le 2026-09-16, contre l'hypothèse antérieure du corpus, qui cherchait l'obligation du côté du rachat. **La norme a par ailleurs été révisée en 2025, et cette révision est lue au Livre 19 ; le présent chapitre ne s'en prévaut pas au-delà de ce que ce livre en rapporte.**
 
@@ -332,7 +340,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ## 7. Portée
 
-::etat:: Ce chapitre a établi quatre choses. Que le mot « communs » recouvre trois catégories dont les défaillances et les remèdes diffèrent, auxquelles s'ajoute une quatrième entrée qui ne relève pas de la même grille — le monopole naturel des réseaux, dont la défaillance est allocative et le remède éprouvé —, et que le périmètre retenu est un facteur du calibrage manquant plutôt qu'un détail de présentation. Que l'alternative « impôt ou marché » est incomplète, que la troisième voie existe, et qu'elle plaide contre l'échelle mondiale unique — ce qui oblige l'argument du livre à se resserrer sur la seule chose qu'il établit vraiment : la restauration excède les moyens des usagers. Que la ligne entre l'insolvable essentiel et l'échec commercial tient là où un état physique se mesure, à condition que la mesure soit extérieure, et cède dans le régime des services. Et qu'une émission internationale de grande ampleur a déjà eu lieu, sans qu'elle constitue pour autant une émission sans dette.
+::etat:: Ce chapitre a établi quatre choses. Que le mot « communs » recouvre trois catégories dont les défaillances et les remèdes diffèrent, auxquelles s'ajoute une quatrième entrée qui ne relève pas de la même grille — le monopole naturel des réseaux, dont la défaillance est allocative et le remède éprouvé —, et que le périmètre retenu est un facteur du calibrage manquant plutôt qu'un détail de présentation. Que l'alternative « impôt ou marché » est incomplète, que la troisième voie existe, et qu'elle plaide contre l'échelle mondiale unique — ce qui oblige l'argument du livre à se resserrer sur la seule chose qu'il établit vraiment : la restauration excède les moyens des usagers. Que la ligne entre l'insolvable essentiel et l'échec commercial tient là où un état physique se mesure, à condition que la mesure soit extérieure, et cède dans le régime des services. Et qu'une émission internationale de grande ampleur a déjà eu lieu, sans qu'elle échappe pour autant à la qualification de dette.
 
 ::etat:: Il a ajouté une objection que le livre ne formule pas, sous trois formes que le corpus tient désormais séparées : l'éviction budgétaire, constatée après coup sur les crédits, et dont la transposition au cas monétaire est une inférence ; l'éviction réelle, qui porte sur des facteurs de production en quantité finie et qui est la première dimension du test de l'apport propre ; et l'anticipation, qui opère avant tout versement. Aucune ne détruit la proposition. Ensemble, elles établissent qu'aucun chiffre du livre n'est net et que la grandeur à calibrer n'est pas celle qu'on croyait.
 

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -36,6 +36,19 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05, après lecture de ce chapitre. Texte intégral de la décision : « NEMO IMS prévoit (préconise) une grande coalition entre le GAÏA Economic Symposium et les banques centrales du monde entier. Dans ce nouveau paradigme destiné à financer l'essentiel insolvable, les activités définies par le GES occasionnent l'émission de NGA convertibles par la banque centrale en Monnaie de banque centrale à finalités extra-financières. Le GES peut tenir une comptabilité de ses NGA en miroir avec les banques centrales. Les dispositifs de reflux collectifs sur les transactions permettront des reflux en cascades vers les banques centrales puis des banques centrales vers le GES. La question de savoir si le GES peut capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis de NGA est mathématiquement oui. » Cet arbitrage tranche la bifurcation du présent chapitre, l'arbitrage A2, et les deuxième et troisième tests du § 6"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — L'ANALYSE DE L'ANCIEN NOM EST CONSERVÉE,
+     SUR DÉCISION DE L'AUTEUR. Ce chapitre ne mentionne pas « monnaie sans dette » :
+     il l'ANALYSE, et établit que la lecture B en coûte l'appellation « au sens
+     fort ». Renommer détruirait le raisonnement. TROIS OCCURRENCES RESTENT À CE
+     TITRE.
+     CE CHAPITRE AVAIT PROPOSÉ SON PROPRE REMPLACEMENT — « monnaie de banque centrale
+     à finalités extra-financières ». L'AUTEUR NE LE RETIENT PAS le 2026-09-20 : le
+     terme est voisin et l'analyse intéressante, mais il efface la finalité
+     régénérative et la contrepartie collective, qui sont précisément ce que le nom
+     canonique porte. La proposition reste dans le corps comme étape du raisonnement,
+     non comme nom.
+     DEUX OCCURRENCES ONT CHANGÉ : le renvoi au titre du Livre 19, qui suit le
+     renommage de ce livre, et « maillon de l'émission », qui désigne l'acte."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE D'UN LIVRE DE CONCEPTION. Aucune source ne préexiste : le
   # Cahier Technique ne prononce jamais le mot « barème » (zéro occurrence sur
@@ -120,7 +133,7 @@ renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29, L19.C03, L16.C01]
 
 ::etat:: Le livre emploie le mot **destruction** — « la création monétaire n'est pas un problème si elle s'accompagne d'une destruction monétaire équivalente par ailleurs » [S3]. La note de travail l'écarte au profit du mot **reflux** [S1]. Ce n'est pas une querelle de vocabulaire : selon ce que le reflux fait à l'arrivée, l'institution émettrice **accumule** ou **n'accumule pas**, et une institution qui accumule n'est pas la même chose qu'une institution qui annule.
 
-::hypothese:: Trois questions ouvertes du corpus attendent cette réponse. **La contrepartie comptable** (L1.C29, P55) : si rien n'arrive au Symposium, il faut un actif à porter face à l'émission, et le corpus a établi que celui qui est proposé ne tient pas ; si quelque chose arrive, la question change de nature. **Le calibrage** (F1, P18) : égaliser deux flux qu'aucun opérateur ne commande n'est pas le même problème qu'équilibrer un budget. **Et l'existence même d'un livre séparé** consacré à la comptabilité monétaire de l'émission sans dette : elle n'a de sens que sous l'une des deux lectures.
+::hypothese:: Trois questions ouvertes du corpus attendent cette réponse. **La contrepartie comptable** (L1.C29, P55) : si rien n'arrive au Symposium, il faut un actif à porter face à l'émission, et le corpus a établi que celui qui est proposé ne tient pas ; si quelque chose arrive, la question change de nature. **Le calibrage** (F1, P18) : égaliser deux flux qu'aucun opérateur ne commande n'est pas le même problème qu'équilibrer un budget. **Et l'existence même d'un livre séparé** consacré à la comptabilité monétaire de l'émission à contrepartie collective : elle n'a de sens que sous l'une des deux lectures.
 
 ## 2. Ce qui n'est pas en litige : l'émission
 
@@ -212,7 +225,7 @@ renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29, L19.C03, L16.C01]
 
 ::hypothese:: **Trois issues, et elles ne se valent pas.** Ou bien la banque centrale ouvre effectivement ce compte, et **le dispositif présuppose une monnaie numérique de banque centrale DE DÉTAIL sans l'avoir jamais nommée** ; ou bien l'unité est un instrument au porteur, ce que le § 3 de ce chapitre exclut lui-même ; **ou bien la route ordinaire s'applique** — la banque centrale crédite les réserves de LA BANQUE DU PRESTATAIRE, qui crédite le dépôt. **Le circuit compte alors QUATRE bilans et non trois.**
 
-::etat:: **Le corpus n'avait jamais placé la banque commerciale dans le circuit d'émission.** Elle figure dans tout le Livre 1 comme créatrice de monnaie de crédit, **jamais comme maillon de l'émission sans dette** — et ni ce chapitre ni L11.C02, qui sont les deux exposés du bouclage, ne la nomment.
+::etat:: **Le corpus n'avait jamais placé la banque commerciale dans le circuit d'émission.** Elle figure dans tout le Livre 1 comme créatrice de monnaie de crédit, **jamais comme maillon de l'émission à contrepartie collective** — et ni ce chapitre ni L11.C02, qui sont les deux exposés du bouclage, ne la nomment.
 
 ::hypothese:: **DIVERGENCE ENTRE CE CHAPITRE ET L11.C02 SUR LA PREMIÈRE ÉCRITURE, ET LE CORPUS LA TRANCHE.** Ce chapitre porte deux actifs au Symposium face au passif émis — certificat de qualification, créance sur les fontes futures — donc **un bilan équilibré** ; L11.C02 porte « à l'actif, rien encore », donc **des fonds propres négatifs**. **Les deux lectures ne peuvent pas être vraies ensemble.** L21.C03 tranche pour L11.C02 : **un certificat qui n'est le droit d'obtenir rien de personne, et une créance sur un débiteur que A35 dissout, ne sont pas des actifs.**
 

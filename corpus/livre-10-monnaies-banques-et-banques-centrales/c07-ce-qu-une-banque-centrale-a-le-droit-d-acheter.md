@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -24,6 +24,12 @@ sources_primaires:
     reference: "**L1.C22, et le corpus y tient déjà le précédent le plus proche.** Sur les droits de tirage spéciaux : « **Le DTS n'est ni une monnaie ni une créance sur le Fonds, mais une créance potentielle sur les monnaies librement utilisables de ses membres** ». **Correction acceptée par ce chapitre** : « **Le DTS est une dette.** “Aucun État ne s'est endetté à l'émission” est faux sous BPM6. Conséquence : le corpus **RETIRE l'affirmation qu'une émission internationale SANS DETTE aurait déjà eu lieu.** » **Et la conséquence inverse, favorable** : « le critère qui a rendu le DTS débiteur est **une définition élargie en 2016 (principal OU intérêt)**, et l'unité du livre ne le satisfait pas », d'où « un test vérifiable que le corpus n'avait pas ». **Limite déclarée** : « Un DTS est un avoir de réserve ; l'unité décrite par le livre n'en est pas un »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Ses deux
+     occurrences de « émission internationale sans dette » sont la TRACE D'UNE
+     AFFIRMATION RETIRÉE : le chapitre enregistre que le corpus a retiré cette
+     affirmation après avoir établi que le droit de tirage EST une dette sous BPM6.
+     Renommer ce qui a été retiré corromprait l'archive : on ne retire pas une
+     affirmation sous un nom qu'elle n'a jamais porté."
   - "DEUX CADRES NE SONT PAS UNE COMPARAISON DES PRINCIPALES BANQUES CENTRALES,
      et ce chapitre ne prétend pas en être une. **Manquent la Banque
      d'Angleterre** — dont le dispositif d'achats est adossé à une indemnité du

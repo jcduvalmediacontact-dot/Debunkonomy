@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,14 @@ sources_primaires:
     reference: "Le corpus lui-même — L1.C18 § 6 : la question des articles du traité européen est « à trancher AVANT tout exposé du mécanisme d'émission ». Elle ne l'a pas été, et le mécanisme a été exposé sur trente chapitres du Livre 1, vingt-six du Livre 11 et vingt-deux du Livre 7"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   - "PASSE 2 A AGI LE 2026-09-16 SUR L'ANNOTATION CI-DESSUS. Celle-ci disait « ne modifie pas ce qui précède : il est versé pour que la passe 2 le trouve ». La passe 2 l'a trouvé : le paragraphe antérieur qui déclarait « Arbitrage A35 ouvert » est corrigé, A35a étant arbitré depuis le 2026-09-09. **DEUX COUCHES ÉTAIENT PÉRIMÉES, NON UNE.** La correction de nuit du 2026-09-07, ci-dessus, pose qu'« A35 décrit l'incidence économique de la charge, non son porteur en droit » : **elle précède la scission du 2026-09-09**, qui a précisément nommé le porteur en droit — l'émetteur. Elle reste vraie de A35 tel qu'il était le 7, fausse de A35a tel qu'il est depuis le 9. Ce qui demeure ouvert est A35b, dont l'auteur a identifié le 2026-09-16 l'obligation présente — l'obligation d'INTÉRÊT, inconditionnelle, non l'obligation de rachat, qui est conditionnelle."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DE FOND DU LIVRE 20, et il traite le verrou que
@@ -71,7 +79,7 @@ renvois: [L1.C05, L1.C18, L1.C20, L1.C22, L7.C11, L7.C13, L11.C10, L20.C01]
 
 ::hypothese:: **Le corpus enregistre que c'est exactement ce que le dispositif prétend faire** — L1.C05 établit la monnaie comme registre, L1.C20 l'émission sans contrepartie de dette — **et que la prohibition, lue littéralement, ne l'atteint pas.**
 
-::hypothese:: **Il enregistre aussi qu'une lecture littérale d'un article de traité n'est pas un avis juridique, et que le corpus n'en est pas un.** Une juridiction qui lirait l'article à la lumière de son objet — empêcher qu'un État finance sa dépense par la planche — pourrait tenir l'émission sans dette pour visée **a fortiori**. Le corpus ne détient aucune jurisprudence permettant de trancher entre les deux lectures.
+::hypothese:: **Il enregistre aussi qu'une lecture littérale d'un article de traité n'est pas un avis juridique, et que le corpus n'en est pas un.** Une juridiction qui lirait l'article à la lumière de son objet — empêcher qu'un État finance sa dépense par la planche — pourrait tenir l'émission à contrepartie collective pour visée **a fortiori**. Le corpus ne détient aucune jurisprudence permettant de trancher entre les deux lectures.
 
 ## 3. L'étroitesse ne libère pas : elle déplace
 

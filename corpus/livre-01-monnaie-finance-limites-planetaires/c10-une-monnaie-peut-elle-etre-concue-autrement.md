@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-15
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -137,6 +137,12 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST
+     DÉLIBÉRÉ. « Création monétaire sans dette » y est le vocabulaire de Grandjean et
+     Dufrêne, cité au mot dans [S9] et repris dans la description de leur proposition.
+     Leur prêter le nom canonique du corpus leur ferait dire ce qu'ils n'écrivent pas.
+     Une phrase hors citation pose désormais la distinction, conformément à la décision
+     de l'auteur du 2026-09-20."
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
@@ -289,7 +295,7 @@ Une dernière catégorie vient de l'intérieur du système. Depuis 2008, les ban
 
 **Les monnaies numériques de banque centrale.** En mai 2026, cent quarante-six pays et unions monétaires en explorent une, quarante et un projets sont en pilote, trois sont lancées — Bahamas, Jamaïque, Nigeria [S8] ; l'euro numérique est en préparation, le yuan numérique en déploiement. Une telle monnaie pourrait, en principe, être fléchée vers des usages, dotée d'une durée de vie, assortie de conditions. La Banque centrale européenne l'exclut pour l'euro numérique : « the digital euro would never be programmable money […]. That would be tantamount to a voucher. And central banks issue money, not vouchers » [S19]. Dans les faits, la plupart des projets visent la souveraineté des paiements face aux monnaies privées, non une refonte du régime d'émission.
 
-**La création monétaire écologique.** Des propositions d'assouplissement quantitatif vert, de monnaie hélicoptère fléchée vers la transition, de création monétaire sans dette au service de la régénération ont été formulées ces dernières années, en France notamment [S9] [S10]. Elles ouvrent des possibilités techniques réelles ; aucune n'est adoptée. L'objection standard qui leur est faite — une création sans contrepartie marchande et sans destruction équivalente réinjecte de la demande et fait courir un risque inflationniste — est sérieuse ; la réponse que le corpus lui apporte, une destruction monétaire pondérée, relève de la seconde partie du livre et n'est pas anticipée ici.
+**La création monétaire écologique.** Des propositions d'assouplissement quantitatif vert, de monnaie hélicoptère fléchée vers la transition, de création monétaire sans dette au service de la régénération ont été formulées ces dernières années, en France notamment [S9]. **Le vocabulaire est le leur et le corpus le conserve** : ce qu'il nomme, depuis le 2026-09-20, émission à contrepartie collective n'est pas ce que ces propositions décrivent, et leur prêter son nom leur ferait dire davantage [S10]. Elles ouvrent des possibilités techniques réelles ; aucune n'est adoptée. L'objection standard qui leur est faite — une création sans contrepartie marchande et sans destruction équivalente réinjecte de la demande et fait courir un risque inflationniste — est sérieuse ; la réponse que le corpus lui apporte, une destruction monétaire pondérée, relève de la seconde partie du livre et n'est pas anticipée ici.
 
 ::hypothese:: Rapportées aux quatre règles de L1.C09, ces expérimentations touchent chacune une règle : la règle d'autorité pour les monnaies numériques de banque centrale, la règle du lexique pour la création monétaire écologique, la règle des temps pour la monnaie fondante. Aucune ne les touche ensemble. Elles proposent une conjugaison un peu plus verte à l'intérieur de la même grammaire.
 

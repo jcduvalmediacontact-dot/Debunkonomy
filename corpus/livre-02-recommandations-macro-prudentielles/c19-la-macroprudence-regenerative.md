@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,14 @@ sources_primaires:
     reference: "Le corpus lui-même — les dix chapitres L2.C09 à L2.C18, qui éprouvent les dix déplacements un par un, et L2.C02, qui établit que le premier terme de la confrontation — l'orthodoxie décrite par le Cahier — est la position MICROPRUDENTIELLE et non la position macroprudentielle"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   - "LES TROIS AUTRES MISSIONS DU THINK TANK NE SONT PAS DÉPOUILLÉES. Le
      corpus a lu la première. **La feuille de route est le seul endroit du
      Cahier qui décrit un programme de travail**, et il n'est lu qu'au quart."
@@ -88,7 +96,7 @@ renvois: [L1.C28, L1.C29, L2.C02, L2.C04, L2.C09, L2.C10, L2.C11, L2.C12, L2.C13
 
 ::etat:: **Première mission** : « faire aboutir les chantiers théoriques ouverts, **en particulier celui de la formulation comptable définitive de la contrepartie** » des unités émises — « de manière rigoureuse, publique, **ouverte à la critique académique** ».
 
-::hypothese:: **Le Cahier désigne donc lui-même le point où le corpus a constaté qu'il n'a rien, et c'est le même que le compte vient d'isoler.** La contrepartie comptable d'une émission sans dette est **la question du huitième déplacement**, celle que L20.C02 rouvre sous l'angle juridique — le corpus ne sait pas qualifier l'unité — **et celle que la doctrine ne traite pas.**
+::hypothese:: **Le Cahier désigne donc lui-même le point où le corpus a constaté qu'il n'a rien, et c'est le même que le compte vient d'isoler.** La contrepartie comptable d'une émission à contrepartie collective est **la question du huitième déplacement**, celle que L20.C02 rouvre sous l'angle juridique — le corpus ne sait pas qualifier l'unité — **et celle que la doctrine ne traite pas.**
 
 ::hypothese:: **Le corpus relève la cohérence entre ces trois constats indépendants et il la tient pour solide.** L'épreuve doctrinale, l'instruction juridique et l'aveu de l'auteur **désignent le même chantier.** Ce n'est pas une convergence de hasard : **c'est le point où le dispositif cesse d'être une extension et devient une proposition.**
 

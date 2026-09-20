@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -32,6 +32,11 @@ sources_primaires:
     reference: "Soldes TARGET2 de l'Eurosystème — créances et engagements entre banques centrales nationales et Banque centrale européenne nés des paiements transfrontaliers, sans échéance ni mécanisme de règlement prévu, et dont le statut a fait l'objet d'une controverse publique majeure au tournant des années 2010. ANALOGIE DU CORPUS, NON DES SOURCES : elle est proposée ici pour établir qu'une banque centrale peut porter durablement une créance perpétuelle sur une contrepartie institutionnelle, et que cette situation est politiquement explosive. RÉSERVE : aucune source n'a été ouverte sur ce point ; l'analogie est à vérifier avant tout emploi, et son ampleur chiffrée n'est pas reprise"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Son
+     occurrence est l'ALTERNATIVE QUE LE CHAPITRE MET EN BALANCE — « le statut de
+     l'émission, sans dette ou financée par prélèvement, dépend entièrement de cette
+     réponse ». Les deux branches y sont nommées par ce qu'elles seraient ; substituer
+     le nom canonique à l'une des deux ferait disparaître l'alternative."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Ce chapitre est écrit APRÈS l'arbitrage du 2026-09-05 : il expose le régime
   # retenu, non une alternative. Il prolonge L11.C01 § 4 et prépare la question

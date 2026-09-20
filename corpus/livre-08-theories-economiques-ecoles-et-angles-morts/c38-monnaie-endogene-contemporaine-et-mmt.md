@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,14 @@ sources_primaires:
     reference: "Le corpus lui-même — les concepts `monnaie_endogene`, `creation_monetaire` et `reflux_monetaire` du vocabulaire ; les promesses P13 et P39 ; la promesse BLOQUANTE P18, selon laquelle une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net et, sans destruction simultanée et calibrée, est inflationniste par construction ; et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+     la première ne sont pas renommées mais réécrites — « échappement à la
+     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+     désignait une qualification comptable et non le dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Aucune source de cette famille
   # n'est en possession du corpus.
@@ -63,9 +71,9 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C06, L8.C16, L8.C19, L8.C23, L8.C24, L8.C26
 
 ## 3. Pourquoi le choix est bon, et le corpus le dit sans flatterie
 
-::hypothese:: **La contrainte de bouclage répond à P18, qui est bloquante** [S1] : sans destruction simultanée et calibrée, une émission sans dette est inflationniste par construction. **Le dispositif ne peut donc pas invoquer la position adverse pour s'en dispenser** — ce serait renoncer à sa propre réponse à son objection la plus lourde.
+::hypothese:: **La contrainte de bouclage répond à P18, qui est bloquante** [S1] : sans destruction simultanée et calibrée, une émission à contrepartie collective est inflationniste par construction. **Le dispositif ne peut donc pas invoquer la position adverse pour s'en dispenser** — ce serait renoncer à sa propre réponse à son objection la plus lourde.
 
-::hypothese:: **Et L11.C16 § 2 a établi ce que cette contrainte lui apporte en retour** : le niveau de l'émission n'est plus une décision. **Personne ne décide combien de monnaie existe.** C'est exactement la propriété dont L8.C06 § 3 a établi que son abandon avait fait échouer le précédent le plus cité contre l'émission sans dette.
+::hypothese:: **Et L11.C16 § 2 a établi ce que cette contrainte lui apporte en retour** : le niveau de l'émission n'est plus une décision. **Personne ne décide combien de monnaie existe.** C'est exactement la propriété dont L8.C06 § 3 a établi que son abandon avait fait échouer le précédent le plus cité contre l'émission à contrepartie collective.
 
 ::hypothese:: **Le dispositif se contraint donc là où la famille voisine se libère, et il y gagne une borne extérieure.** Le corpus le porte à son crédit **et note que le prix est le Livre 11 tout entier** : sans reflux automatique, il faut construire un reflux administré.
 
