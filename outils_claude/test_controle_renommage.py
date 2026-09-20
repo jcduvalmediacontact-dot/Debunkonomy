@@ -2,17 +2,28 @@
 """Sabotages du contrôle par ancrage. Sur copies, jamais sur le dépôt.
 
 Un contrôle qui passe sur un corpus intact ne prouve rien : il faut lui faire
-subir l'attaque qu'il prétend détecter. Huit sabotages, dont **deux contrôles
-négatifs** — sans eux, un contrôle qui échoue toujours passerait ce test.
+subir l'attaque qu'il prétend détecter. **Et un contrôle qui échouerait toujours
+obtiendrait un sans-faute** : d'où les contrôles négatifs et positifs, marqués N.
 
-  E-R1  substitution à total constant   — LE DÉFAUT NOMMÉ PAR LA PASSE ADVERSE
+La DÉTECTION — le relevé contre le registre :
+
+  E-R1  substitution à total constant     — LE DÉFAUT NOMMÉ PAR LA PASSE ADVERSE
   E-R2  occurrence neuve, chapitre déjà déclaré
   E-R3  occurrence retirée
   E-R4  occurrence neuve, chapitre non déclaré
   E-R5  phrase réécrite autour d'une occurrence conservée
-  E-R6  note déclarée dupliquée — le multi-ensemble, et non l'ensemble
-  N-R1  corpus intact                   — contrôle négatif : doit PASSER
-  N-R2  retouche loin de toute occurrence — contrôle négatif : doit PASSER
+  E-R6  note déclarée dupliquée           — le multi-ensemble, et non l'ensemble
+  N-R1  corpus intact                     — doit PASSER
+  N-R2  retouche loin de toute occurrence — doit PASSER
+
+L'ADMISSION — ce qui entre au registre, et qui l'approuve :
+
+  G-R1  occurrence neuve dans un chapitre DÉJÀ déclaré : refusée, registre intact
+  G-R2  ancrage admis sans motif propre
+  G-R3  ancrage admis mais absent du relevé
+  G-R4  admission en règle                — doit PASSER, et inscrire LE motif donné
+  G-R5  aucun changement                  — doit PASSER, registre inchangé
+  G-R6  disparition seule                 — doit PASSER sans admission
 
     python outils_claude/test_controle_renommage.py
 """
@@ -59,6 +70,20 @@ def controler(tmp):
                        capture_output=True, text=True, encoding="utf-8",
                        errors="replace", env=env, timeout=300)
     return r.returncode, (r.stdout or "") + (r.stderr or "")
+
+
+def generer(tmp, *args):
+    env = dict(os.environ, PYTHONIOENCODING="utf-8")
+    r = subprocess.run([sys.executable,
+                        os.path.join(tmp, "outils_claude", "controle_renommage.py"),
+                        "--generer-ancrages"] + list(args),
+                       capture_output=True, text=True, encoding="utf-8",
+                       errors="replace", env=env, timeout=300)
+    return r.returncode, (r.stdout or "") + (r.stderr or "")
+
+
+def registre(tmp):
+    return lire(os.path.join(tmp, "outils_claude", "ancrages-renommage.json"))
 
 
 def chemin(tmp, chapitre):
@@ -201,6 +226,63 @@ try:
     verifier("E-R6", True, code, j)
     ecrire(H, intact_note)
 
+    # ═══ L'ADMISSION : par ancrage, et non par chapitre ═════════════════════
+    # Le motif du chapitre ne doit plus couvrir une occurrence neuve dans ce
+    # chapitre. C'est la limite de gouvernance relevée par l'auteur le 2026-09-20.
+    out.write("\n  — admission par ancrage —\n")
+    REGISTRE = registre(tmp)
+
+    # G-R5 : contrôle négatif — rien n'a changé, la génération est un no-op ───
+    code, j = generer(tmp)
+    verifier("G-R5", False, code, j)
+    faits.append(("G-R5b", "OK" if registre(tmp) == REGISTRE else "MANQUÉ", 0))
+    out.write("  %-5s %-6s le registre est inchangé (idempotence)\n"
+              % ("G-R5b", faits[-1][1]))
+
+    # G-R1 : une occurrence neuve dans un chapitre DÉJÀ déclaré ──────────────
+    ecrire(F, INTACT + "\n\nPhrase neuve en voix propre : sans dette.\n")
+    code, j = generer(tmp)
+    verifier("G-R1", True, code, j)
+    faits.append(("G-R1b", "OK" if registre(tmp) == REGISTRE else "MANQUÉ", 0))
+    out.write("  %-5s %-6s le registre n'a pas été écrit\n" % ("G-R1b", faits[-1][1]))
+    neuf = re.findall(r"(?m)^  ([0-9a-f]{16}) ", j)
+    assert len(neuf) == 1, ("le refus doit nommer UN ancrage, pas %d" % len(neuf), j)
+    NEUF = neuf[0]
+
+    # G-R3 : un ancrage admis qui ne figure pas au relevé ────────────────────
+    code, j = generer(tmp, "--admettre", "0" * 16, "--motif", "x")
+    verifier("G-R3", True, code, j)
+
+    # G-R2 : l'ancrage est bon, le motif manque ──────────────────────────────
+    code, j = generer(tmp, "--admettre", NEUF)
+    verifier("G-R2", True, code, j)
+
+    # G-R4 : CONTRÔLE POSITIF — l'admission en règle passe, et le motif écrit
+    # est celui qui a été donné, PAS celui du chapitre.
+    PROPRE = "motif propre à cette occurrence, et non celui du chapitre"
+    code, j = generer(tmp, "--admettre", NEUF, "--motif", PROPRE)
+    verifier("G-R4", False, code, j)
+    inscrit = [o for o in json.loads(registre(tmp)) if o["ancrage"] == NEUF]
+    ok = len(inscrit) == 1 and inscrit[0].get("motif") == PROPRE
+    faits.append(("G-R4b", "OK" if ok else "MANQUÉ", 0))
+    out.write("  %-5s %-6s le motif inscrit est celui qui a été donné\n"
+              % ("G-R4b", faits[-1][1]))
+    code, j = controler(tmp)
+    verifier("G-R4c", False, code, j)
+    ecrire(os.path.join(tmp, "outils_claude", "ancrages-renommage.json"), REGISTRE)
+    ecrire(F, INTACT)
+
+    # G-R6 : une disparition seule n'exige aucune admission ──────────────────
+    tete, c = coupe_corps(INTACT)
+    i = c.lower().index("sans dette")
+    ecrire(F, tete + c[:i] + NEUTRE + c[i + len("sans dette"):])
+    code, j = generer(tmp)
+    verifier("G-R6", False, code, j)
+    ok = len(json.loads(registre(tmp))) == len(json.loads(REGISTRE)) - 1
+    faits.append(("G-R6b", "OK" if ok else "MANQUÉ", 0))
+    out.write("  %-5s %-6s le registre a perdu exactement une entrée\n"
+              % ("G-R6b", faits[-1][1]))
+
 finally:
     shutil.rmtree(tmp, ignore_errors=True)
 
@@ -209,5 +291,6 @@ out.write("\n%d contrôle(s), %d manqué(s).\n" % (len(faits), len(rates)))
 if rates:
     out.write("ÉCHEC : %s\n" % ", ".join(f[0] for f in rates))
     sys.exit(1)
-out.write("Le contrôle détecte la substitution à total constant, et laisse passer\n")
-out.write("ce qui ne touche à aucune occurrence déclarée.\n")
+out.write("Le contrôle détecte la substitution à total constant, laisse passer ce qui ne\n")
+out.write("touche à aucune occurrence déclarée, et n'admet une occurrence neuve que\n")
+out.write("nommée par son ancrage, avec son propre motif.\n")

@@ -235,6 +235,27 @@ déclarée casse son ancrage et fait échouer le contrôle, même si l’occurre
 bougé. C’est voulu : la remise à jour par `--generer-ancrages` devient alors un acte
 délibéré, qui passe par la relecture, et non un silence.
 
+**L’APPROBATION EST PAR ANCRAGE, ARRÊTÉE LE 2026-09-20** sur une limite de
+gouvernance relevée par l’auteur. La première version de `--generer-ancrages`
+attribuait AUTOMATIQUEMENT le motif du chapitre à toute occurrence nouvelle dans ce
+chapitre, et son refus ne se déclenchait que pour un chapitre absent de la table :
+une phrase neuve en voix propre dans L1.C10 aurait hérité de « mots de Grandjean et
+Dufrêne, cités dans [S9] ». La règle opératoire — ne générer qu’après revue humaine
+du diff JSON — est désormais **mécaniquement contraignante** : une occurrence
+nouvelle n’entre au registre que NOMMÉE PAR SON EMPREINTE et accompagnée de SON
+PROPRE MOTIF, par `--admettre <ancrage> --motif "…"`. Les motifs déjà approuvés sont
+conservés tels quels ; la table par chapitre ne s’applique plus et ne sert qu’à
+rappeler au relecteur ce que le chapitre justifiait déjà, par contraste. Une
+disparition n’exige aucune admission — elle réduit les exceptions.
+
+**Aucun second fichier d’autorité n’a été créé.** Le registre des ancrages reste
+seul, dans `outils_claude/`, hors du chemin de publication comme
+`verifier-exemplaires.py` : il ne concurrence pas `manifeste-etat-lecture.json`, qui
+demeure la seule autorisation possible de l’état `a_requalifier`. Le test couvre les
+deux moitiés — six sabotages de détection et six d’admission, dont **quatre contrôles
+qui doivent PASSER**, sans lesquels un outil qui refuserait tout obtiendrait un
+sans-faute. Dix-neuf vérifications, zéro manquée.
+
 ---
 
 ## 5. Les instruments de reflux
