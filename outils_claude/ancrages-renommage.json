@@ -22,10 +22,10 @@
   },
   {
     "chapitre": "L1.C08",
-    "zone": "corps",
-    "ancrage": "b04ce32fb4c899b0",
-    "extrait": "S19]. Ces deux propositions établissent que l'émission sans dette est concevable et en donnent ",
-    "motif": "canonique et citable — lot public distinct"
+    "zone": "tete",
+    "ancrage": "f48aae9926172983",
+    "extrait": "TE : elle cite au mot la promesse P9, « que l'émission sans dette relâche la contrainte de croi",
+    "motif": "citation au mot de la promesse P9, dans le commentaire daté du lot public — à migrer avec P9, comme L17.C01 et L17.C03"
   },
   {
     "chapitre": "L1.C10",
@@ -61,13 +61,6 @@
     "ancrage": "8e6c612e5d2c9030",
     "extrait": " corps lui attribue est au mot : la création monétaire sans dette au service de la transition, ",
     "motif": "mots de Grandjean et Dufrêne, cités dans [S9] et décrits"
-  },
-  {
-    "chapitre": "L1.C11",
-    "zone": "corps",
-    "ancrage": "96722a9543c45af1",
-    "extrait": "réation oblige à rouvrir le reflux : une monnaie émise sans dette ne peut plus être détruite pa",
-    "motif": "canonique et citable — lot public distinct"
   },
   {
     "chapitre": "L1.C18",

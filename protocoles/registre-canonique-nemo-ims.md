@@ -194,7 +194,7 @@ créance individualisée », qui est le seul des trois plans que le précédent
 | **alternative mise en balance** | conservée. L11.C02 oppose « sans dette ou financée par prélèvement » ; renommer une branche ferait disparaître l'alternative. |
 | **falsifieurs et promesses** | non réécrits, note datée en tête. Un falsifieur énonce une condition d'échec ; une promesse est un engagement daté. |
 | **archives** | erratum, jamais réécriture. |
-| **chapitres `verifie` et `citable`** | hors de cette vague. Lot public distinct, avec note datée, passe adverse et révision tracée. |
+| **chapitres `verifie` et `citable`** | **LOT PUBLIC TRAITÉ LE 2026-09-20** — L1.C08 et L1.C11, les deux seuls. Aucune des trois occurrences n'était une substitution de label : celle de C11 est reformulée en « sans créance individualisée », le nom canonique y rendant l'inférence circulaire ; celle de C08 sur les deux propositions reprend les mots de [S20], « hors de tout rapport d'endettement », le nom canonique attribuant aux sources la contrepartie collective qui est l'apport propre de NEMO ; la seconde de C08 cite P9 au mot et **attend sa migration**. LA NOTE DATÉE PREND LA FORME D'UN COMMENTAIRE sous la liste vide, et non d'une entrée : `controle.py` bloque « statut verifie avec des vérifications en attente », ce qui aurait retiré ces deux chapitres des huit émis. Révision tracée : C08 en **fond**, C11 en **éditorial**, arbitrage de l'auteur (§ 4). **Passe adverse à mener.** |
 
 **Les chemins sont renommés depuis le 2026-09-20**, lot 6, après inventaire des
 liens conduit **hors `corpus/` autant que dedans** :
