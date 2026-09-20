@@ -248,6 +248,25 @@ conservés tels quels ; la table par chapitre ne s’applique plus et ne sert qu
 rappeler au relecteur ce que le chapitre justifiait déjà, par contraste. Une
 disparition n’exige aucune admission — elle réduit les exceptions.
 
+**PLAFOND DE QUATRE ANCRAGES PAR ADMISSION**, arrêté par l’auteur le 2026-09-20.
+Le motif PEUT être partagé par plusieurs ancrages : le défaut fermé ci-dessus était
+le SILENCE, non le partage. Un motif frappé à la main après lecture des extraits est
+une affirmation attribuable, là où le motif de chapitre s’appliquait tout seul. Mais
+au-delà de quatre, l’affirmation cesse d’être lisible d’un coup d’œil et redevient
+un tampon : le lot se scinde, et chaque part se motive séparément. Quatre couvre
+exactement le cas réel — les quatre dettes `a_requalifier` de L8.C02, L8.C06,
+L8.C38 et L25.C03, qui partagent un motif commun à travers deux livres. Le refus
+propose lui-même la scission plutôt qu’une commande qu’il refuserait ensuite.
+
+**L’approbation par ancrage gouverne le GUICHET, non le STOCK — à savoir avant de
+lire le registre.** Les 71 entrées installées portent 15 motifs, tous hérités de la
+table par chapitre au moment de la génération initiale : 70 des 71 partagent leur
+motif avec une autre, et aucun chapitre n’en porte deux distincts. Ces 15 motifs ont
+été validés un par un et rien n’est irrégulier, mais la granularité par occurrence
+s’applique aux admissions FUTURES. Qui lirait « approbation par ancrage » en voyant
+des motifs partagés pourrait croire la règle inappliquée : c’est une asymétrie
+connue, et non un défaut à corriger.
+
 **Aucun second fichier d’autorité n’a été créé.** Le registre des ancrages reste
 seul, dans `outils_claude/`, hors du chemin de publication comme
 `verifier-exemplaires.py` : il ne concurrence pas `manifeste-etat-lecture.json`, qui

@@ -27,6 +27,13 @@ au registre que nommée par son empreinte et accompagnée de son propre motif :
 
     --generer-ancrages --admettre <ancrage>[,<ancrage>] --motif "..."
 
+Le motif peut être partagé par plusieurs ancrages — le défaut fermé le 2026-09-20
+était le SILENCE, pas le partage : un motif frappé à la main après lecture des
+extraits est une affirmation attribuable, là où le motif de chapitre s'appliquait
+tout seul. Mais **quatre ancrages au plus par admission** (`PLAFOND`) : au-delà,
+l'affirmation cesse d'être lisible d'un coup d'œil et redevient un tampon. Le lot
+se scinde alors, et chaque part se motive séparément.
+
 Les motifs déjà approuvés sont **conservés tels quels** : `MOTIFS` ci-dessous n'est
 plus appliqué, il ne sert qu'à rappeler au relecteur ce que le chapitre justifiait
 déjà. Une disparition ne demande aucune admission — elle réduit les exceptions.
@@ -51,6 +58,7 @@ LISTE = "--liste" in sys.argv
 GENERER = "--generer-ancrages" in sys.argv
 MARQUEUR = "RENOMMAGE CANONIQUE DU 2026-09-20"
 LARGEUR = 70      # signes de contexte de part et d'autre du terme
+PLAFOND = 4       # ancrages par admission — au-delà, le lot se scinde (2026-09-20)
 
 
 def options(nom):
@@ -159,6 +167,15 @@ if GENERER:
                  "        On n'admet que ce que le relevé vient de trouver ; un ancrage\n"
                  "        recopié d'une session antérieure ne désigne plus rien."
                  % ", ".join(fantomes))
+    if len(ADMIS) > PLAFOND:
+        couvre = sum(1 for o in neuves if o["ancrage"] in ADMIS)
+        sys.exit("REFUS : %d ancrages admis en une fois, le plafond est de %d.\n"
+                 "        Le motif partagé tient parce qu'il est UN ACTE, lu d'un coup d'œil\n"
+                 "        et attribuable. Au-delà de %d il redevient un tampon : scinder le\n"
+                 "        lot, et motiver chaque part séparément.%s"
+                 % (len(ADMIS), PLAFOND, PLAFOND,
+                    "\n        (ces ancrages couvrent %d occurrences.)" % couvre
+                    if couvre != len(ADMIS) else ""))
     refuses = [o for o in neuves if o["ancrage"] not in ADMIS]
     if refuses:
         out.write("REFUS : %d occurrence(s) nouvelle(s), non admise(s).\n\n" % len(refuses))
@@ -170,9 +187,14 @@ if GENERER:
             rappel = MOTIFS.get(o["chapitre"])
             if rappel:
                 out.write("  %18s   le chapitre justifiait déjà : %s\n" % ("", rappel))
+        tous = sorted({o["ancrage"] for o in refuses})
         out.write("\nRelire ces passages, puis — si et seulement si l'exception tient :\n")
         out.write("  --generer-ancrages --admettre %s --motif \"...\"\n"
-                  % ",".join(sorted({o["ancrage"] for o in refuses})))
+                  % ",".join(tous[:PLAFOND]))
+        if len(tous) > PLAFOND:
+            out.write("  … puis les %d suivant(s), SÉPARÉMENT : le plafond est de %d\n"
+                      "  ancrages par admission, pour qu'un motif partagé reste un acte.\n"
+                      % (len(tous) - PLAFOND, PLAFOND))
         out.flush()
         sys.exit(1)
     if neuves and not (MOTIF or "").strip():

@@ -24,6 +24,8 @@ L'ADMISSION — ce qui entre au registre, et qui l'approuve :
   G-R4  admission en règle                — doit PASSER, et inscrire LE motif donné
   G-R5  aucun changement                  — doit PASSER, registre inchangé
   G-R6  disparition seule                 — doit PASSER sans admission
+  G-R7  cinq ancrages d'un coup : refusés, et le refus propose de scinder
+  G-R8  quatre ancrages d'un coup         — doit PASSER, le plafond est à quatre
 
     python outils_claude/test_controle_renommage.py
 """
@@ -283,6 +285,47 @@ try:
     out.write("  %-5s %-6s le registre a perdu exactement une entrée\n"
               % ("G-R6b", faits[-1][1]))
 
+    # ═══ LE PLAFOND : quatre ancrages par admission ═════════════════════════
+    # Le motif partagé tient parce qu'il est un acte lisible d'un coup d'œil.
+    # Au-delà de quatre il redevient un tampon — arbitrage de l'auteur, 2026-09-20.
+    out.write("\n  — plafond d'admission —\n")
+    ecrire(os.path.join(tmp, "outils_claude", "ancrages-renommage.json"), REGISTRE)
+
+    def semer(n):
+        """n occurrences neuves, aux contextes deux à deux distincts."""
+        t = INTACT
+        for k in range(n):
+            t += "\n\nSabotage %d, %s : le corpus dirait ici sans dette.\n" % (k, "zeta" * (k + 1))
+        ecrire(F, t)
+        code, j = generer(tmp)
+        assert code != 0, "les occurrences neuves auraient dû être refusées"
+        vus = sorted(set(re.findall(r"(?m)^  ([0-9a-f]{16}) ", j)))
+        assert len(vus) == n, ("%d ancrages distincts attendus, %d obtenus" % (n, len(vus)), j)
+        return vus, j
+
+    # G-R7 : cinq d'un coup — refusés, et POUR LA BONNE RAISON ───────────────
+    cinq, refus = semer(5)
+    assert "SÉPARÉMENT" in refus, ("le refus doit proposer de scinder le lot", refus)
+    code, j = generer(tmp, "--admettre", ",".join(cinq), "--motif", "un motif pour cinq")
+    verifier("G-R7", True, code, j)
+    ok = "plafond" in j and registre(tmp) == REGISTRE
+    faits.append(("G-R7b", "OK" if ok else "MANQUÉ", 0))
+    out.write("  %-5s %-6s le refus nomme le plafond, registre intact\n"
+              % ("G-R7b", faits[-1][1]))
+
+    # G-R8 : CONTRÔLE POSITIF — quatre passent. Sans lui, un plafond de zéro
+    # réussirait G-R7 et l'admission serait morte.
+    quatre, _ = semer(4)
+    code, j = generer(tmp, "--admettre", ",".join(quatre), "--motif",
+                      "quatre dettes `a_requalifier` de même nature")
+    verifier("G-R8", False, code, j)
+    ok = len(json.loads(registre(tmp))) == len(json.loads(REGISTRE)) + 4
+    faits.append(("G-R8b", "OK" if ok else "MANQUÉ", 0))
+    out.write("  %-5s %-6s le registre a gagné exactement quatre entrées\n"
+              % ("G-R8b", faits[-1][1]))
+    code, j = controler(tmp)
+    verifier("G-R8c", False, code, j)
+
 finally:
     shutil.rmtree(tmp, ignore_errors=True)
 
@@ -293,4 +336,4 @@ if rates:
     sys.exit(1)
 out.write("Le contrôle détecte la substitution à total constant, laisse passer ce qui ne\n")
 out.write("touche à aucune occurrence déclarée, et n'admet une occurrence neuve que\n")
-out.write("nommée par son ancrage, avec son propre motif.\n")
+out.write("nommée par son ancrage, avec son propre motif, et par lots de quatre au plus.\n")
