@@ -52,6 +52,37 @@ def publiables() -> set[str]:
     return out
 
 
+def refus_d_identifiant() -> list[str]:
+    """8. Les deux refus du § 3 ne sont pas des affirmations : ils s'exécutent.
+
+    Depuis la révision 14, l'URL ne dérive que de l'identifiant. Un identifiant
+    mal formé, ou en désaccord avec le champ `livre`, doit donc ARRÊTER
+    l'émission plutôt que produire une adresse muette ou mensongère. Le contrôle
+    positif qui suit est indispensable : un constructeur qui refuserait tout
+    passerait les sabotages sans rien garantir.
+    """
+    from generer import Chapitre
+
+    faux = Path("livre-06-un-dossier") / "c05-un-libelle.md"
+    echecs = []
+    for ident, livre, quoi in [("L6-C05", 6, "séparateur absent"),
+                               ("L6.C05.b", 6, "identifiant surnuméraire"),
+                               ("C05", 6, "matricule de livre absent"),
+                               ("L7.C05", 6, "désaccord avec le champ « livre »")]:
+        try:
+            Chapitre(faux, {"chapitre": ident, "livre": livre}, "")
+        except SystemExit:
+            continue
+        echecs.append(f"identifiant « {ident} » accepté — {quoi} non refusé")
+    try:                                        # contrôle positif, et l'URL du § 3
+        ch = Chapitre(faux, {"chapitre": "L6.C05", "livre": 6, "titre": "T"}, "")
+        if ch.url != "livre-6/c05/":
+            echecs.append(f"URL « {ch.url} » au lieu de « livre-6/c05/ »")
+    except SystemExit as e:
+        echecs.append(f"identifiant régulier refusé : {e}")
+    return echecs
+
+
 def main() -> int:
     echecs: list[str] = []
     attendus = publiables()
@@ -125,6 +156,8 @@ def main() -> int:
         pages_chapitres = len([p for p in pages if re.search(r"livre-\d+[\\/]c\d", str(p))])
         if pages_chapitres != len(attendus):
             echecs.append(f"{pages_chapitres} page(s) de chapitre pour {len(attendus)} publiable(s)")
+
+    echecs += refus_d_identifiant()                                   # 8
 
     if echecs:
         print(f"ÉCHEC — {len(echecs)} défaut(s) dans la sortie du générateur.")
