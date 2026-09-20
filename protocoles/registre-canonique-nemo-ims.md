@@ -206,6 +206,15 @@ le générateur construit les URL sur le matricule du livre et le stem du chapit
 La fenêtre était ouverte parce que L1.C20 n'est pas émis ; une fois `verifie`, ce
 renommage aurait changé son URL, ce que la convention § 3 interdit.
 
+**DETTE OUVERTE, ARRÊTÉE PAR LA PASSE ADVERSE DU 2026-09-20.** La convention § 3 pose
+que « le nom de fichier peut changer, l'identifiant et l'URL non », et le générateur
+dérive pourtant le slug d'URL **du nom de fichier** (`generer.py`, `self.slug =
+chemin.stem`). Les deux se contredisent. Le renommage de L1.C20 est **sans incident**,
+ce chapitre n'étant pas émis. **Mais il faut corriger la convention ou le générateur
+AVANT TOUT RENOMMAGE FUTUR D'UN CHAPITRE PUBLIÉ** — deux branches : fixer le slug dans
+l'en-tête, indépendamment du nom de fichier ; ou écrire dans la convention que le nom
+de fichier est figé dès la publication. L'arbitrage appartient à l'auteur.
+
 ---
 
 ## 5. Les instruments de reflux

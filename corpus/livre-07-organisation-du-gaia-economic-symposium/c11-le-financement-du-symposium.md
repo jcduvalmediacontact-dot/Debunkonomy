@@ -24,6 +24,13 @@ sources_primaires:
     reference: "Le corpus lui-même — L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1 (évitement massif au-delà d'un taux compris entre −0,5 % et −1 %). Et L1.C18 § 6, qui exige « une dotation pluriannuelle sanctuarisée, soustraite au vote budgétaire annuel ». Et L7.C10 § 5 : la capture documentée des institutions statistiques passe par le budget et la mise en cause personnelle"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Son
+     occurrence de « l'abandon de la monnaie sans dette au sens fort » est la TRACE
+     D'UN ARBITRAGE DATÉ, rapportée de L11.C01 : c'est ce que le corpus avait établi
+     que coûtait la lecture B du reflux, AVANT que le nom ne change. Elle est
+     CONSERVÉE ET ATTRIBUÉE comme telle, sur décision de la passe adverse du même
+     jour : renommer une formule dans le compte rendu d'un arbitrage ferait dire à
+     cet arbitrage ce qu'il n'a pas dit."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE D'ARBITRAGE. Il enregistre une décision de l'auteur rendue le
   # 2026-09-06 et en tire les conséquences, dont l'une porte sur une grandeur

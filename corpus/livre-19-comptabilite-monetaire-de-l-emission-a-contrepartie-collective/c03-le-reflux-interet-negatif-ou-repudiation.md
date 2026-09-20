@@ -21,6 +21,14 @@ sources_primaires:
     reference: "**Le corpus lui-même — la bifurcation que L11.C01 a instruite SANS LA TRANCHER, et qui commande tout le Livre 11.** Sous la première lecture, « le reflux s'annule à l'arrivée : la monnaie revient au bilan de l'émetteur et **s'éteint contre la contrepartie correspondante, exactement comme un crédit remboursé — c'est une destruction** », et c'est la lecture du Cahier technique. Sous la seconde, « le reflux arrive et demeure : **le Symposium détient alors une ressource**, et le reflux transactionnel cesse d'être une destruction pour devenir **un prélèvement qui finance l'émission** ». **L11.C01 juge la seconde « plus orthodoxe et plus défendable qu'il n'y paraît », au prix de « l'abandon de la monnaie sans dette au sens fort ».** **L11.C07 tient déjà que « un prélèvement sur la détention est un rendement négatif », et en tire la borne de l'arbitrage de rendement.** **Et L10.C06 § 3 tient la branche la plus favorable** : « une décote appliquée par l'émetteur à sa propre unité **n'exige AUCUNE compétence fiscale** — elle exige **que l'unité soit sienne**, ce qui ramène à la question du passif »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST UNE
+     DÉCISION DE LA PASSE ADVERSE DU MÊME JOUR. Il n'emploie pas « sans dette » :
+     IL EXPLIQUE PRÉCISÉMENT POURQUOI CE TERME ÉCHOUE. Le réécrire détruirait son
+     raisonnement, qui est que l'ancien nom recouvrait des propositions distinctes.
+     Les occurrences qui subsistent sont une ANALYSE HISTORIQUE DU TERME, à lire dans
+     le vocabulaire de leur date. Le nom canonique est au vocabulaire :
+     `monnaie_regenerative_contrepartie_collective` pour l'unité,
+     `emission_contrepartie_collective` pour l'acte."
   - "**LE CORPUS N'A PAS VÉRIFIÉ QUE LA RÈGLE DES TITRES INDEXÉS S'ÉTEND À UNE
      UNITÉ MONÉTAIRE.** La norme énonce ce traitement pour des TITRES DE DETTE
      dont le principal est indexé. **L'extension à une unité de paiement dont la

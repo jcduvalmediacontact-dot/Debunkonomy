@@ -16,6 +16,14 @@ sources_primaires:
     reference: "**Les six chapitres de la tranche et l'unique source qu'ils ont ouverte de première main — *System of National Accounts 2008*, 719 pages, régime `a_verifier`, lue dans le texte le 2026-09-08. L19.C01** : un passif exige un débiteur et un créancier nommés ; **« gold bullion [...] is THE ONLY financial asset with NO CORRESPONDING LIABILITY »** ; la monnaie est un passif à la valeur faciale ; **et le PASSIF CONSTRUCTIF admet une dette sans contrat.** **L19.C02** : le seul précédent mondial, dont le passif a été **reconnu en 2008 après quinze ans de non-reconnaissance** ; créance **« on the participants collectively and NOT ON THE IMF »** ; **instrument de dette portant intérêt.** **L19.C03** : trois classements possibles d'un prélèvement, et **c'est LE MOMENT qui décide** — une variation inscrite dans les termes est un **INTÉRÊT**, une réduction décidée après coup est une **RÉPUDIATION « not recognized in the SNA »**. **L19.C04** : l'« actif transitoire » n'existe pas, un actif étant **« a means of CARRYING FORWARD VALUE FROM ONE ACCOUNTING PERIOD TO ANOTHER »**. **L19.C05** : une unité institutionnelle est capable **« IN ITS OWN RIGHT »** de contracter ; un débiteur collectif n'existe que comme somme de débiteurs identifiés. **L19.C06** : une valeur nette **« COULD BE POSITIVE OR NEGATIVE »** ; et les organisations internationales sont **« resident in AN ECONOMIC TERRITORY OF THEIR OWN »**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST UNE
+     DÉCISION DE LA PASSE ADVERSE DU MÊME JOUR. Il n'emploie pas « sans dette » :
+     IL EXPLIQUE PRÉCISÉMENT POURQUOI CE TERME ÉCHOUE. Le réécrire détruirait son
+     raisonnement, qui est que l'ancien nom recouvrait des propositions distinctes.
+     Les occurrences qui subsistent sont une ANALYSE HISTORIQUE DU TERME, à lire dans
+     le vocabulaire de leur date. Le nom canonique est au vocabulaire :
+     `monnaie_regenerative_contrepartie_collective` pour l'unité,
+     `emission_contrepartie_collective` pour l'acte."
   - "**LA TRANCHE ENTIÈRE REPOSE SUR UNE SOURCE UNIQUE, ET C'EST SA FAIBLESSE
      PRINCIPALE.** Six chapitres, un seul texte ouvert. **Aucune contradiction
      n'est possible dans ces conditions** : le corpus n'a pas confronté cette

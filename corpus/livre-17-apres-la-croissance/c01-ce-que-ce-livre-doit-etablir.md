@@ -21,6 +21,14 @@ sources_primaires:
     reference: "**Le corpus lui-même — ce qu'il doit à ce livre et ce qu'il n'a jamais ouvert.** **Le registre du matricule 17** : « Comparer les théories et expériences de l'après-croissance, du Bonheur national brut à la décroissance, **puis TESTER LEUR CONCRÉTISATION INSTITUTIONNELLE** » ; motifs : « discipline — théories de l'après-croissance et indicateurs au-delà du PIB » et « **objection — P9 : sortir de l'exigence de croissance de l'encours sans contraction** ». **P9, au registre des promesses, n'a JAMAIS reçu de réponse** : la colonne de solde porte un tiret. Sa demande : « **que l'émission sans dette relâche la contrainte de croissance de L1.C08 § 2, et sous quelles conditions** ». **Et le corpus tient trois acquis récents qui pèsent sur ce livre** : L18.C04 (« no evidence of widespread absolute decoupling at the global level »), L26.C04 (le rebond reprend plus de la moitié des économies d'efficacité) et **L26.C05, qui a proposé F14 en établissant que le dispositif ne dispose que d'instruments de NIVEAU et d'aucun instrument de COMPOSITION**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Ses
+     occurrences de « sans dette » sont la CITATION AU MOT DE LA PROMESSE P9,
+     « que l'émission sans dette relâche la contrainte de croissance ». Le registre
+     des promesses n'a délibérément pas été réécrit — un engagement daté garde ses
+     mots, et une note terminologique y a été posée à la place. Renommer dans la
+     citation ferait dire à P9 autre chose qu'elle ne dit. À CORRIGER AVEC LA
+     MIGRATION DE P9, et pas avant. Le nom canonique de l'acte est
+     `emission_contrepartie_collective`."
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
      première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a

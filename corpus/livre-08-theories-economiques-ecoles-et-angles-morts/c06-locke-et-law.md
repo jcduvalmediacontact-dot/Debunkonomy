@@ -16,6 +16,15 @@ sources_primaires:
     reference: "Le corpus lui-même — la promesse BLOQUANTE P18 : « une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net dans le circuit marchand ordinaire ; sans destruction simultanée et calibrée, elle est inflationniste par construction ». Et le falsifieur F1, qui en exige le chiffrage. Et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — DETTE INSCRITE, NON CORRIGÉE. Une entrée de
+     source de ce chapitre cite la promesse BLOQUANTE P18 en employant l'ancien nom pour désigner le
+     mécanisme. LA RÉFÉRENCE N'EST PAS CORRIGÉE parce que l'entrée est à l'état
+     `a_requalifier` : en corriger le texte lui ferait perdre cet état (E-L6), le
+     manifeste étant la seule autorisation possible. LA PASSE ADVERSE DU 2026-09-20
+     offrait deux voies — reformuler le mécanisme sans le label, ou migrer d'abord la
+     promesse ; c'est la seconde qui s'impose, le garde-fou interdisant la première.
+     À CORRIGER EN MÊME TEMPS QUE LA REQUALIFICATION de cette entrée, et avec la
+     migration de P18 au registre des promesses."
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
      première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
@@ -46,7 +55,7 @@ verifications_en_attente:
      n'est pas faite. **Elle déciderait si le précédent de Law est du même genre
      que ceux qu'on lui associe**, ou s'il en diffère par son adossement à un
      actif — ce qui changerait ce que le dispositif doit en retenir."
-resume: "Ce chapitre porte le précédent d'échec le plus cité contre l'émission sans dette, et il soutient que le corpus doit l'instruire au lieu de l'éviter. Il déclare qu'aucun des deux textes n'est en possession du corpus. Il situe la controverse comme une opposition entre deux positions symétriques : l'une tient que la monnaie doit être adossée à une matière rare dont la quantité borne l'émission, l'autre que l'émission peut créer l'activité qui la justifiera après coup, en mettant au travail des ressources inemployées. Il établit que le dispositif ne se range dans aucune des deux, puisqu'il gage son émission non sur un métal ni sur une promesse d'activité future mais sur un état écologique constaté, ce qui est une troisième position dont le chapitre soutient qu'elle est réellement nouvelle. Il énonce ensuite ce que le précédent d'échec enseigne malgré cette différence, et le corpus refuse ici de s'en tirer par la nouveauté : ce qui a échoué n'est pas l'idée d'émettre contre autre chose que du métal, mais l'absence de tout mécanisme bornant le volume émis une fois le principe admis. Il relève que c'est exactement le point où le Livre 11 a trouvé sa réponse la plus solide, la condition de bouclage qui lie l'émission au produit du reflux et interdit à quiconque d'en décider le niveau. Et il marque que le corpus ne tient l'histoire de cet épisode que de sa culture générale."
+resume: "Ce chapitre porte le précédent d'échec le plus cité contre l'émission à contrepartie collective, et il soutient que le corpus doit l'instruire au lieu de l'éviter. Il déclare qu'aucun des deux textes n'est en possession du corpus. Il situe la controverse comme une opposition entre deux positions symétriques : l'une tient que la monnaie doit être adossée à une matière rare dont la quantité borne l'émission, l'autre que l'émission peut créer l'activité qui la justifiera après coup, en mettant au travail des ressources inemployées. Il établit que le dispositif ne se range dans aucune des deux, puisqu'il gage son émission non sur un métal ni sur une promesse d'activité future mais sur un état écologique constaté, ce qui est une troisième position dont le chapitre soutient qu'elle est réellement nouvelle. Il énonce ensuite ce que le précédent d'échec enseigne malgré cette différence, et le corpus refuse ici de s'en tirer par la nouveauté : ce qui a échoué n'est pas l'idée d'émettre contre autre chose que du métal, mais l'absence de tout mécanisme bornant le volume émis une fois le principe admis. Il relève que c'est exactement le point où le Livre 11 a trouvé sa réponse la plus solide, la condition de bouclage qui lie l'émission au produit du reflux et interdit à quiconque d'en décider le niveau. Et il marque que le corpus ne tient l'histoire de cet épisode que de sa culture générale."
 concepts: [creation_monetaire, solvabilite_anticipee, contrepartie_comptable, reflux_monetaire, monnaie_endogene]
 renvois: [L1.C08, L1.C21, L8.C01, L8.C02, L8.C19, L8.C23, L11.C02, L11.C16]
 ---

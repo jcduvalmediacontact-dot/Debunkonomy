@@ -16,6 +16,15 @@ sources_primaires:
     reference: "Le corpus lui-même — les concepts `monnaie_endogene`, `creation_monetaire` et `reflux_monetaire` du vocabulaire ; les promesses P13 et P39 ; la promesse BLOQUANTE P18, selon laquelle une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net et, sans destruction simultanée et calibrée, est inflationniste par construction ; et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — DETTE INSCRITE, NON CORRIGÉE. Une entrée de
+     source de ce chapitre cite les promesses P13, P39 et la promesse BLOQUANTE P18 en employant l'ancien nom pour désigner le
+     mécanisme. LA RÉFÉRENCE N'EST PAS CORRIGÉE parce que l'entrée est à l'état
+     `a_requalifier` : en corriger le texte lui ferait perdre cet état (E-L6), le
+     manifeste étant la seule autorisation possible. LA PASSE ADVERSE DU 2026-09-20
+     offrait deux voies — reformuler le mécanisme sans le label, ou migrer d'abord la
+     promesse ; c'est la seconde qui s'impose, le garde-fou interdisant la première.
+     À CORRIGER EN MÊME TEMPS QUE LA REQUALIFICATION de cette entrée, et avec la
+     migration de P18 au registre des promesses."
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
      première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a

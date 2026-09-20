@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,15 @@ sources_primaires:
     reference: "Le corpus lui-même — la promesse P4 et le falsifieur F1, qui portent l'objection que ce chapitre situe historiquement : une émission sans dette distribue un pouvoir d'achat net dans le circuit marchand et, sans destruction simultanée et calibrée, est inflationniste par construction. Versés en L1.C21 et au registre des promesses. Et le concept `creation_monetaire` du vocabulaire du corpus"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — DETTE INSCRITE, NON CORRIGÉE. Une entrée de
+     source de ce chapitre cite la promesse P4 et le falsifieur F1 en employant l'ancien nom pour désigner le
+     mécanisme. LA RÉFÉRENCE N'EST PAS CORRIGÉE parce que l'entrée est à l'état
+     `a_requalifier` : en corriger le texte lui ferait perdre cet état (E-L6), le
+     manifeste étant la seule autorisation possible. LA PASSE ADVERSE DU 2026-09-20
+     offrait deux voies — reformuler le mécanisme sans le label, ou migrer d'abord la
+     promesse ; c'est la seconde qui s'impose, le garde-fou interdisant la première.
+     À CORRIGER EN MÊME TEMPS QUE LA REQUALIFICATION de cette entrée, et avec la
+     migration de P4 au registre des promesses."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Le corpus ne possède pas le texte
   # de Copernic. Ce chapitre ne restitue donc PAS sa doctrine : il situe la

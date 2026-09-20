@@ -17,6 +17,14 @@ sources_primaires:
     url: "https://www.nature.com/articles/s41467-021-22884-9.pdf"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Ses
+     occurrences de « sans dette » sont la CITATION AU MOT DE LA PROMESSE P9,
+     « que l'émission sans dette relâche la contrainte de croissance ». Le registre
+     des promesses n'a délibérément pas été réécrit — un engagement daté garde ses
+     mots, et une note terminologique y a été posée à la place. Renommer dans la
+     citation ferait dire à P9 autre chose qu'elle ne dit. À CORRIGER AVEC LA
+     MIGRATION DE P9, et pas avant. Le nom canonique de l'acte est
+     `emission_contrepartie_collective`."
   - "**LE CORPUS N'A OUVERT AUCUNE TRAJECTOIRE DU GROUPE D'EXPERTS, ET IL LES
      CONNAÎT PAR CE QUE CETTE SOURCE EN DIT.** Les scénarios auxquels la
      modélisation se compare ne sont pas lus. **Le corpus tient donc une

@@ -21,6 +21,14 @@ sources_primaires:
     url: "https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST UNE
+     DÉCISION DE LA PASSE ADVERSE DU MÊME JOUR. Il n'emploie pas « sans dette » :
+     IL EXPLIQUE PRÉCISÉMENT POURQUOI CE TERME ÉCHOUE. Le réécrire détruirait son
+     raisonnement, qui est que l'ancien nom recouvrait des propositions distinctes.
+     Les occurrences qui subsistent sont une ANALYSE HISTORIQUE DU TERME, à lire dans
+     le vocabulaire de leur date. Le nom canonique est au vocabulaire :
+     `monnaie_regenerative_contrepartie_collective` pour l'unité,
+     `emission_contrepartie_collective` pour l'acte."
   - "**LE SYSTÈME DE COMPTES NATIONAUX EST UNE NORME STATISTIQUE, PAS UN
      RÉFÉRENTIEL DE COMPTES D'ENTITÉ, ET LA DISTINCTION COMMANDE TOUT LE LIVRE.**
      Il dit comment un instrument est CLASSÉ dans les comptes d'une économie ;

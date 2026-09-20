@@ -24,6 +24,14 @@ sources_primaires:
     reference: "**Le corpus lui-même. L24.C02** a révélé l'objet manquant : « adaptations and compensations to reduce sensitivity to harm and vulnerability **will be necessary** », **une part de ce qu'il faut financer RÉPARE et ne régénère pas, et le corpus n'a aucun barème pour cela.** **L25.C01** : le Pacte de 1966 oblige à agir « to the maximum of its available resources » et « **through international assistance and co-operation** ». **L25.C02** : la charge de la preuve est renversée sur l'EMPLOI des ressources, **et non sur leur création** — la frontière est marquée et non franchie. **L11.C01** : la bifurcation reflux ou destruction. **L1.C20** : de l'argent sans dette. **A35** : la société entière porte la dette"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20 — DETTE INSCRITE, NON CORRIGÉE, ET LE MOTIF
+     EST UNE RÈGLE DU CORPUS. Une entrée de source de ce chapitre renvoie à L1.C20 sous
+     son ANCIEN TITRE, « de l'argent sans dette ». Ce titre a changé le 2026-09-20 :
+     L1.C20 s'intitule désormais « La monnaie régénérative à contrepartie collective »,
+     et son fichier a été renommé. LA RÉFÉRENCE N'EST PAS CORRIGÉE parce que l'entrée
+     est à l'état `a_requalifier` : en corriger le texte lui ferait perdre cet état
+     (E-L6), le manifeste étant la seule autorisation possible. À CORRIGER EN MÊME TEMPS
+     QUE LA REQUALIFICATION de cette entrée, et pas avant."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # DEUX ACQUISITIONS ONT ÉCHOUÉ CE JOUR ET LE CHAPITRE LES DÉCLARE. Le site de
   # la Cour internationale de justice et celui de la convention-cadre sur les
