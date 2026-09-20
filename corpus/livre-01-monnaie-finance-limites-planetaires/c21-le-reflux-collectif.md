@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -76,6 +76,17 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
+     RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
+     (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
+     RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
+     PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
+     individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
+     sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
+     « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
+     le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
+     « l'échappement à la qualification de dette », qui est ce dont la formule
+     d'affectation décide."
   - "WÖRGL — DISCORDANCE RELEVÉE LE 2026-09-19 SUR UNE PIÈCE SECONDAIRE, non arbitrée.
      J. September, « A sustainable miracle? Examining the long-term viability of the Wörgl
      experiment », International Journal of Community Currency Research, vol. 30 n° 1
@@ -165,7 +176,7 @@ renvois: [L1.C08, L1.C10, L1.C11, L1.C17, L1.C18, L1.C19, L1.C20, L1.C26, L1.C31
 
 ## 1. Ce que le retrait doit faire
 
-::etat:: Deux objections pèsent sur une monnaie émise sans dette, et elles ne portent pas au même endroit. La première est celle de Rueff, exposée en L1.C20 § 1 : une émission qu'aucun reflux ne vient éteindre demeure en circulation sans contrepartie et devient un moteur permanent de hausse des prix [S5]. La seconde est celle de Keynes : une monnaie que l'on pénalise à détenir est fuie vers des substituts [S4].
+::etat:: Deux objections pèsent sur une monnaie régénérative à contrepartie collective, et elles ne portent pas au même endroit. La première est celle de Rueff, exposée en L1.C20 § 1 : une émission qu'aucun reflux ne vient éteindre demeure en circulation sans contrepartie et devient un moteur permanent de hausse des prix [S5]. La seconde est celle de Keynes : une monnaie que l'on pénalise à détenir est fuie vers des substituts [S4].
 
 ::hypothese:: **La tension sur les prix ne se déduit pas d'un solde monétaire.** Elle dépend des ressources réellement mobilisables : la création monétaire fournit du pouvoir d'achat, elle ne produit par elle-même ni travail, ni énergie, ni matériaux, ni capacités productives. Ce point est posé avant ce chapitre, et il borne tout ce qui suit.
 
@@ -231,7 +242,7 @@ renvois: [L1.C08, L1.C10, L1.C11, L1.C17, L1.C18, L1.C19, L1.C20, L1.C26, L1.C31
 
 ::etat:: **La première affectation est arrêtée, et elle porte une conséquence lourde.** L'excédent apure le découvert que les guichets d'importations essentielles ouvrent par émission. **Sous choc structurel, ce découvert ne se résorbe que si le reflux affecté dépasse le flux du besoin lui-même** ; sinon, c'est une émission permanente, comptée dans la condition de bouclage macroéconomique. **Le démurrage, lui, reste hors de la compensation** : il ne frappe pas les soldes des banques centrales à l'institution, et ne peut donc pas servir de charge sur l'exportateur chez qui l'émission aboutit.
 
-::hypothese:: **Le reste de la formule n'est pas écrit, et le statut « sans dette » en dépend.** Dépenser l'excédent ferait du reflux un prélèvement affecté finançant un budget. Le conserver ferait du système un drain net permanent, et laisserait ouverte la question de savoir de quoi ce solde est la créance. Le redistribuer demande un critère. **Aucune de ces branches n'est retenue.**
+::hypothese:: **Le reste de la formule n'est pas écrit, et l'échappement à la qualification de dette en dépend.** Dépenser l'excédent ferait du reflux un prélèvement affecté finançant un budget. Le conserver ferait du système un drain net permanent, et laisserait ouverte la question de savoir de quoi ce solde est la créance. Le redistribuer demande un critère. **Aucune de ces branches n'est retenue.**
 
 ## 7. Ce que l'équation ne prouve pas
 

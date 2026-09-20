@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: conception
@@ -108,6 +108,17 @@ sources_primaires:
     reference: "Doctrine fiduciaire et patrimoine public (fiduciary duty, public trust doctrine) : le tuteur d'une entité sans capacité d'instruction n'est pas lié par un contrat d'agence mais par un devoir de loyauté et un devoir de prudence, dont l'objet est la préservation de l'intégrité d'un patrimoine affecté défini par la loi ; sa responsabilité s'exerce devant un juge, non devant l'entité représentée"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
+     RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
+     (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
+     RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
+     PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
+     individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
+     sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
+     « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
+     le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
+     « l'échappement à la qualification de dette », qui est ce dont la formule
+     d'affectation décide."
   - "S12 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : le fichier qui porte The Calculus of
      Consent ne fait TROIS PAGES et 1 636 caractères — c'est la page de titre du volume 3
      des Œuvres complètes de Buchanan, non le texte. L'ouvrage est en accès libre chez
@@ -177,7 +188,7 @@ renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L1.C21, L1.C26, L15.C0
 
 ::etat:: **Ce qui manque est donc plus étroit qu'on ne l'annonce d'ordinaire, et cette restriction rend l'énoncé exact : aucune de ces institutions, aucun de ces dispositifs juridiques n'a de mandat monétaire.** Ils protègent, interdisent, obligent, indemnisent. Aucun ne décide de la création de monnaie.
 
-::etat:: **Le constat de L1.C11 reste entier, mais il faut le borner par un précédent que le corpus a longtemps ignoré.** Le filtre de solvabilité s'applique au point d'émission, et rien dans l'architecture internationale ne s'y substitue *durablement*. Une institution mondiale a pourtant déjà émis sans dette et sans ce filtre : l'allocation générale de droits de tirage spéciaux d'août 2021 a réparti l'équivalent de six cent cinquante milliards de dollars, au prorata des quotes-parts. **C'est le seul organe mondial existant qui arrête une clé chiffrée**, et cette clé a envoyé l'essentiel du montant vers les économies qui en avaient le moins besoin. Le précédent établit donc deux choses opposées : l'émission sans dette à l'échelle mondiale est praticable par une institution existante, et **elle ne produit aucun résultat matériel si la règle d'allocation ne le vise pas.** Ce qui manque n'est pas la capacité d'émettre : c'est la règle qui décide où va l'émission.
+::etat:: **Le constat de L1.C11 reste entier, mais il faut le borner par un précédent que le corpus a longtemps ignoré.** Le filtre de solvabilité s'applique au point d'émission, et rien dans l'architecture internationale ne s'y substitue *durablement*. Une institution mondiale a pourtant déjà émis sans créance individualisée et sans ce filtre : l'allocation générale de droits de tirage spéciaux d'août 2021 a réparti l'équivalent de six cent cinquante milliards de dollars, au prorata des quotes-parts. **C'est le seul organe mondial existant qui arrête une clé chiffrée**, et cette clé a envoyé l'essentiel du montant vers les économies qui en avaient le moins besoin. Le précédent établit donc deux choses opposées : l'émission sans créance individualisée à l'échelle mondiale est praticable par une institution existante, et **elle ne produit aucun résultat matériel si la règle d'allocation ne le vise pas.** Ce qui manque n'est pas la capacité d'émettre : c'est la règle qui décide où va l'émission.
 
 ## 2. Représenter ce qui n'a pas de volonté
 
@@ -225,7 +236,7 @@ L1.C17 § 3 a établi que la biosphère n'a pas de volonté à représenter. Il 
 
 ::norme:: **L'organisation juridique de ces centres reste ouverte, et ce chapitre ne la tranche pas.** Trois branches sont instruites : quatre chambres avec des séparations internes écrites, qui est la plus proche du livre ; cinq chambres ou davantage, avec un centre de mesure ou un contrôle de conformité propres ; ou une organisation unique dotée d'une liste de pouvoirs non délégables. **Quatre chambres peuvent porter cinq fonctions**, à condition qu'au moins l'Office soit séparé en un centre de mesure et un centre de qualification, que la suspension et le contrôle de conformité reçoivent un titulaire hors de l'unité qui certifie et hors de la Chambre, et que les nominations et les budgets soient séparés par centre. Le choix entre ces branches appartient au chapitre de gouvernance que la refonte prévoit.
 
-::norme:: Une garantie découle de la règle de séparation, et le livre ne la pose pas. **Le sort de l'excédent accumulé par le Symposium est fixé par une formule d'affectation publiée, votée par l'Assemblée des Communs et appliquée par le Conseil Monétaire Mondial.** Le motif est que la question tombe autrement entre deux interdits de l'architecture : décider à qui va l'excédent est un choix de bénéficiaires, que le Conseil ne fait pas ; en tenir l'affectation est un budget opérationnel, que l'Assemblée ne gère pas. Une formule échappe aux deux. **Sa première affectation est arrêtée : apurer le découvert des guichets.** Le reste de la formule n'est pas écrit, et c'est de lui que dépend le statut sans dette du dispositif.
+::norme:: Une garantie découle de la règle de séparation, et le livre ne la pose pas. **Le sort de l'excédent accumulé par le Symposium est fixé par une formule d'affectation publiée, votée par l'Assemblée des Communs et appliquée par le Conseil Monétaire Mondial.** Le motif est que la question tombe autrement entre deux interdits de l'architecture : décider à qui va l'excédent est un choix de bénéficiaires, que le Conseil ne fait pas ; en tenir l'affectation est un budget opérationnel, que l'Assemblée ne gère pas. Une formule échappe aux deux. **Sa première affectation est arrêtée : apurer le découvert des guichets.** Le reste de la formule n'est pas écrit, et c'est de lui que dépend l'échappement du dispositif à la qualification de dette.
 
 ::hypothese:: **Une formule ne résiste aux anticipations que si sa procédure d'amendement est écrite, et cette procédure ne l'est pas.** Le motif que le corpus invoque ailleurs sur les taux de reflux et sur les parités — une grandeur révisable par décision est exposée aux comportements d'anticipation, une grandeur révisable par formule ne l'est pas — ne vaut qu'à cette condition. Sans règle d'amendement, une formule est une décision qui s'ignore.
 
@@ -313,6 +324,6 @@ Le premier concerne l'abandon de l'additionnalité contrefactuelle **au niveau d
 
 ::hypothese:: **Ces obstacles ne sont pas de même nature, et il faut le dire pour ne pas les traiter de la même manière.** Ceux qui tiennent à l'organisation — fonctions sans titulaire, cumul de l'Office — se règlent par une décision de conception, et c'est l'objet du chapitre de gouvernance à venir. Ceux qui tiennent à la métrologie et à la connaissance dispersée demandent une mesure et une recherche qui n'existent pas. Celui du titre démocratique est constitutionnel et appelle le Livre 7. Celui du droit positif ne se résout ni par la conception ni par l'architecture, mais par une décision politique explicite dont le livre doit dire qu'elle est requise.
 
-::hypothese:: **Une conséquence dépasse ce chapitre et il faut l'écrire ici, parce que c'est ici qu'elle se décide.** Le précédent de l'allocation de 2021, rappelé au § 1, établit que l'émission sans dette à grande échelle est praticable et qu'elle ne produit rien par elle-même : c'est la règle d'allocation qui décide du résultat. **Si cela tient, ce que le dispositif apporte en propre ne se joue pas au point d'émission mais ici, dans la qualification et la priorité** — c'est-à-dire dans l'architecture que ce chapitre expose, et dont il vient d'établir qu'elle laisse deux fonctions sans titulaire.
+::hypothese:: **Une conséquence dépasse ce chapitre et il faut l'écrire ici, parce que c'est ici qu'elle se décide.** Le précédent de l'allocation de 2021, rappelé au § 1, établit que l'émission sans créance individualisée à grande échelle est praticable et qu'elle ne produit rien par elle-même : c'est la règle d'allocation qui décide du résultat. **Si cela tient, ce que le dispositif apporte en propre ne se joue pas au point d'émission mais ici, dans la qualification et la priorité** — c'est-à-dire dans l'architecture que ce chapitre expose, et dont il vient d'établir qu'elle laisse deux fonctions sans titulaire.
 
 ::etat:: Le chapitre suivant expose l'articulation entre le circuit marchand existant et le circuit que le GES mandaterait. Le livre la nomme d'après le couple du Yin et du Yang ; le corpus retient qu'il ne s'agit ni de deux monnaies ni de deux circuits étanches.

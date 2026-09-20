@@ -6,12 +6,23 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-03
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
 sources_primaires: []
 verifications_en_attente:
+  - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
+     RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
+     (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
+     RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
+     PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
+     individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
+     sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
+     « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
+     le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
+     « l'échappement à la qualification de dette », qui est ce dont la formule
+     d'affectation décide."
   - "Production mondiale de richesse : série longue à sourcer (Banque mondiale ou Maddison Project)"
   - "Émissions mondiales de GES : dernière année disponible et tendance (GIEC ou Global Carbon Project)"
   - "Extraction mondiale de matières : série longue (PNUE, Global Material Flows)"
@@ -215,7 +226,7 @@ affectation budgétaire reconduite et sans arbitrage politique récurrent. Le co
 
 ## 5. Le déplacement de l'arbitrage
 
-::hypothese:: L'architecture examinée dans ce livre repose sur un principe différent : la monnaie n'y est pas prélevée puis affectée à la régénération, elle est émise sans dette en contrepartie d'activités de régénération certifiées. La régénération cesse d'être une dépense décidée après coup pour devenir une condition d'émission.
+::hypothese:: L'architecture examinée dans ce livre repose sur un principe différent : la monnaie n'y est pas prélevée puis affectée à la régénération, elle relève d'une émission à contrepartie collective, en regard d'activités de régénération certifiées. La régénération cesse d'être une dépense décidée après coup pour devenir une condition d'émission.
 
 Ce déplacement ne supprime pas l'arbitrage, il en change la nature. Il ne porte plus sur le montant d'une ligne budgétaire, mais sur la définition des activités éligibles, la mesure de leurs résultats, la certification de leur réalisation et le volume monétaire admissible. Ce sont quatre décisions, prises par une institution, et elles sont politiques. Leur différence avec un arbitrage budgétaire est qu'elles portent sur des critères plutôt que sur des sommes, et qu'un critère se conteste sur des faits.
 
