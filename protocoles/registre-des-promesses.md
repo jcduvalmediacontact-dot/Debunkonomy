@@ -10,9 +10,12 @@
 > **TROIS CHAPITRES CITENT P9 AU MOT, ET CE N'EST PAS UNE DETTE** — L1.C08, L17.C01
 > et L17.C03. Leur occurrence de « sans dette » **est** cette citation, « que
 > l'émission sans dette relâche la contrainte de croissance ». **Ce fichier ne se
-> réécrivant jamais, il n'y a aucune « migration » à attendre** : la citation est
-> l'état CORRECT, et elle le restera jusqu'à ce que P9 soit **soldée ou requalifiée en
-> limite assumée**. Chacun des trois porte la note datée dans son en-tête.
+> réécrivant jamais, il n'y a aucune « migration » à attendre, et RIEN À CORRIGER** :
+> une citation datée reste vraie comme TRACE de ce qui fut promis, même une fois la
+> promesse soldée. Elle ne constitue pas l'appellation canonique du dispositif, et
+> c'est **sa PORTÉE, non son texte**, qui sera réévaluée lorsque P9 sera **soldée ou
+> requalifiée en limite assumée**. Chacun des trois porte la note datée dans son
+> en-tête.
 >
 > **Les trois autres cas sont d'une autre nature, et ils se débloquent seuls.** Les
 > entrées de source de L8.C02, L8.C06 et L8.C38 **EMPLOIENT** l'ancien nom sans citer
