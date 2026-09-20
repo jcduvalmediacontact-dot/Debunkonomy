@@ -202,18 +202,24 @@ liens conduit **hors `corpus/` autant que dedans** :
 `c20-monnaie-regenerative-a-contrepartie-collective.md`, et le dossier du Livre 19
 `...-de-l-emission-sans-dette` devient `...-de-l-emission-a-contrepartie-collective`.
 **Aucun fichier du site, du générateur, des manifestes ni des index n'en dépendait** :
-le générateur construit les URL sur le matricule du livre et le stem du chapitre.
-La fenêtre était ouverte parce que L1.C20 n'est pas émis ; une fois `verifie`, ce
-renommage aurait changé son URL, ce que la convention § 3 interdit.
+le générateur construisait **alors** les URL sur le matricule du livre et le stem
+du chapitre. La fenêtre était ouverte parce que L1.C20 n'est pas émis ; une fois
+`verifie`, ce renommage aurait changé son URL, ce que la convention § 3 interdit.
+**Ce n'est plus vrai depuis la révision 14**, ci-dessous : le nom de fichier ne
+porte plus l'URL, et la fenêtre n'a plus à être guettée.
 
-**DETTE OUVERTE, ARRÊTÉE PAR LA PASSE ADVERSE DU 2026-09-20.** La convention § 3 pose
-que « le nom de fichier peut changer, l'identifiant et l'URL non », et le générateur
-dérive pourtant le slug d'URL **du nom de fichier** (`generer.py`, `self.slug =
-chemin.stem`). Les deux se contredisent. Le renommage de L1.C20 est **sans incident**,
-ce chapitre n'étant pas émis. **Mais il faut corriger la convention ou le générateur
-AVANT TOUT RENOMMAGE FUTUR D'UN CHAPITRE PUBLIÉ** — deux branches : fixer le slug dans
-l'en-tête, indépendamment du nom de fichier ; ou écrire dans la convention que le nom
-de fichier est figé dès la publication. L'arbitrage appartient à l'auteur.
+**DETTE URL SOLDÉE LE 2026-09-20, ET LA TROISIÈME BRANCHE A ÉTÉ RETENUE.** La
+convention § 3 posait « le nom de fichier peut changer, l'identifiant et l'URL non »,
+et `generer.py` dérivait pourtant le slug d'URL **du nom de fichier**
+(`self.slug = chemin.stem`). Deux branches avaient été proposées — fixer le slug dans
+l'en-tête, ou figer le nom de fichier à la publication ; l'auteur en a retenu une
+troisième, **l'URL tirée du seul identifiant** : `/corpus/livre-6/c05/`. Elle honore
+le § 3 à la lettre, laisse le nom de fichier libre même après publication, n'ajoute
+aucun champ au schéma, et **rend inutile le registre des URL émises** qu'il aurait
+fallu tenir sous les deux autres : la stabilité de l'URL se réduit à celle de
+l'identifiant. Prix payé, et assumé : l'adresse perd son libellé lisible. Le moment
+était le bon — aucune URL du corpus n'était servie, donc aucune redirection n'est
+due. Convention en **révision 14**.
 
 **DETTE MÉTHODOLOGIQUE SOLDÉE LE 2026-09-20**, seconde réserve de la même passe.
 La table d’exceptions du contrôle était structurée **par chapitre et par zone**, et

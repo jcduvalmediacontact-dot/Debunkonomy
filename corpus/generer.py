@@ -69,12 +69,24 @@ class Chapitre:
         self.corps = corps
         self.id = str(entete["chapitre"])
         self.livre = int(entete["livre"])
-        self.slug = chemin.stem
+        # § 3, révision 14 : l'URL ne dépend QUE de l'identifiant. Le nom de
+        # fichier redevient libre, y compris après publication — c'est ce que
+        # la convention promettait et que la dérivation depuis `chemin.stem`
+        # contredisait. Un identifiant illisible refuse ici plutôt que de
+        # produire une URL muette.
+        m = re.fullmatch(r"L(\d+)\.C(\d+)", self.id)
+        if not m:
+            raise SystemExit(f"Identifiant impropre à porter une URL : "
+                             f"« {self.id} » dans {chemin}")
+        if int(m.group(1)) != self.livre:
+            raise SystemExit(f"Identifiant et champ « livre » en désaccord : "
+                             f"« {self.id} » contre livre {self.livre} dans {chemin}")
+        self.slug = f"c{m.group(2)}"
         self.titre = str(entete.get("titre", "")).strip()
 
     @property
     def url(self) -> str:
-        """URL publique, fixée au § 3 : /corpus/livre-6/c05-<libellé>/"""
+        """URL publique, fixée au § 3 : /corpus/livre-6/c05/ — l'identifiant seul."""
         return f"livre-{self.livre}/{self.slug}/"
 
     @property
@@ -678,7 +690,8 @@ def main() -> int:
     for ch in publies:
         par_livre.setdefault(ch.livre, []).append(ch)
     for num in par_livre:
-        par_livre[num].sort(key=lambda c: c.slug)
+        # tri numérique, et non lexicographique : « c100 » précéderait « c11 »
+        par_livre[num].sort(key=lambda c: int(c.slug[1:]))
 
     for ch in publies:
         emettre_chapitre(ch, livres.get(ch.livre, {}), base, etat, sortie)

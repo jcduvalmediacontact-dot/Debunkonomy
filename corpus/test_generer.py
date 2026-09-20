@@ -105,7 +105,13 @@ def main() -> int:
                 echecs.append(f"{p.parent.name} : appels sans fiche : {sorted(appels - ancres)}")
 
         for servi in sorted(sortie.rglob("index.md")):                # 5
-            origine = list(RACINE.glob(f"livre-*/{servi.parent.name}.md"))
+            # L'URL ne porte plus le libellé (§ 3, révision 14) : la source se
+            # retrouve par son identifiant, et non plus par le nom du dossier
+            # servi — lequel ne dit plus rien du nom de fichier.
+            n = int(servi.parent.parent.name.split("-")[1])
+            num = servi.parent.name
+            origine = [p for p in RACINE.glob(f"livre-{n:02d}-*/{num}*.md")
+                       if p.stem == num or p.stem.startswith(num + "-")]
             if len(origine) != 1:
                 echecs.append(f"source introuvable pour {servi.parent.name}")
             elif servi.read_bytes() != origine[0].read_bytes():

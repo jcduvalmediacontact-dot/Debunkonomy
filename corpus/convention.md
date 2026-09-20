@@ -104,15 +104,19 @@ zéro tant que l'amorce n'a pas été remplacée.
 
 ## 3. Identifiants et URL
 
-L'identifiant de chapitre est **stable et définitif**. Il porte l'URL publique.
+L'identifiant de chapitre est **stable et définitif**. Il porte l'URL publique,
+et il la porte **seul**.
 
 ```
 identifiant : L6.C05
-URL         : /corpus/livre-6/c05-environnement-sous-condition/
+URL         : /corpus/livre-6/c05/
 ```
 
-Le nom de fichier peut changer, l'identifiant et l'URL non. Un identifiant n'est
-jamais réattribué, même après suppression du chapitre.
+Le nom de fichier peut changer, l'identifiant et l'URL non — et depuis la
+révision 14, cette phrase est vraie **sans condition** : l'URL ne dérive que de
+l'identifiant, jamais du nom de fichier. Le libellé d'un chapitre vit dans son
+titre et dans sa page, non dans son adresse. Un identifiant n'est jamais
+réattribué, même après suppression du chapitre.
 
 ### Le numéro de livre est un matricule
 
@@ -696,6 +700,30 @@ Points ouverts, à trancher hors routine :
 ---
 
 ## 15. Journal des révisions
+
+**Révision 14 — 20 septembre 2026.** L'URL publique d'un chapitre ne dérive plus
+que de son identifiant : `/corpus/livre-6/c05/` (§ 3). Motif : le § 3 posait « le nom
+de fichier peut changer, l'identifiant et l'URL non », et `generer.py` construisait
+pourtant le slug d'URL depuis `chemin.stem` — **les deux phrases ne pouvaient pas
+être vraies ensemble**, et renommer un chapitre publié aurait déplacé son adresse en
+silence, et avec elle neuf sorties : dossier, lien canonique, JSON-LD, tables des
+matières, index de recherche par livre, index global, `llms.txt`, `sitemap.xml` et
+l'ordre de tri. La contradiction a été relevée le 2026-09-20 pendant le renommage
+canonique (`protocoles/registre-canonique-nemo-ims.md`, § 4 bis), à un moment où
+**aucune URL du corpus n'était encore servie** : le relevé n'a trouvé aucune chaîne
+`/corpus/livre-` sur `main`, et `corpus/genere/` est exclu du dépôt. Aucune
+redirection n'est donc due, et la correction est gratuite — elle ne l'aurait plus
+été après la première publication.
+
+Cette révision **n'ajoute aucun champ au schéma et ne touche aucun chapitre** —
+d'où l'absence de migration — et elle rend inutile le dispositif qu'il aurait fallu
+construire autrement, un registre des URL émises : l'URL étant une fonction de
+l'identifiant, **sa stabilité se réduit à celle de l'identifiant**, que ce même § 3
+garantit déjà. Le générateur refuse désormais un identifiant impropre à porter une
+URL, et un identifiant en désaccord avec le champ `livre`, plutôt que de produire
+une adresse muette. Contrôle : `corpus/test_generer.py`, dont la recherche du
+fichier source passe de l'adresse servie à l'identifiant — l'adresse ne dit plus
+rien du nom de fichier, et c'est précisément l'objet de la révision.
 
 **Révision 13 — 18 septembre 2026.** Vérification des exemplaires par un outil
 **séparé et facultatif**, `corpus/verifier-exemplaires.py`, décrit au § 12.

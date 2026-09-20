@@ -10,8 +10,9 @@ Lire dans cet ordre avant toute modification :
 
 1. [corpus/convention.md](corpus/convention.md) — schéma, statuts, empreintes,
    contrôle. **Autorité sur tout ce qui touche au corpus.** Aucun résumé
-   n'existe et ne doit être écrit : cf. son préambule. Révision courante : r13
-   (vérification des exemplaires par un outil séparé et facultatif,
+   n'existe et ne doit être écrit : cf. son préambule. Révision courante : r14
+   (l'URL publique ne dérive que de l'identifiant, `/corpus/livre-6/c05/` — § 3 ;
+   r13 : vérification des exemplaires par un outil séparé et facultatif,
    `corpus/verifier-exemplaires.py`, hors du chemin de publication — § 12 ;
    r12 : champ `etat_lecture` sur chaque source — `candidate`, `ouverte`,
    `a_requalifier` —, `date_verification` conditionnel, manifeste des
