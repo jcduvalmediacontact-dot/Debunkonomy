@@ -93,9 +93,11 @@ verifications_en_attente:
      qui justifie la phrase du § 2 : c'est la seule variable du cadre qui soit physique, qui
      porte un état de référence explicite — la production moyenne de l'Holocène — et qui
      mesure un PRÉLÈVEMENT, dernier terme de la définition. « La plus directement
-     rapprochable » est donc exact ; « une mesure » ne le serait pas. POINT À ARBITRER PAR
-     L'AUTEUR : faut-il écrire cette borne au § 2, où un lecteur pressé peut lire un
-     rapprochement comme une mesure ? Le corps n'a pas été modifié."
+     rapprochable » est donc exact ; « une mesure » ne le serait pas. ARBITRÉ PAR L'AUTEUR LE 2026-09-21 : la borne n'est PAS écrite au § 2. La question
+     était de savoir s'il fallait l'y porter, un lecteur pressé pouvant lire un
+     rapprochement comme une mesure. La réponse est non : ce serait un ajout théorique et
+     non une correction, le corps écrivant déjà « la plus directement rapprochable » et non
+     « une mesure ». Le corps n'est pas modifié, et ce n'est plus une question en attente."
   # — Données —
   - "Liste des douze dimensions du plancher social chez Raworth : elle est reprise de [S8],
      figure de données étendues 2, que les auteurs disent adaptée de l'article de 2017.
@@ -124,7 +126,11 @@ verifications_en_attente:
      fonds déterminé et relatif à un état de référence. AUCUN NE SE DÉDUIT DE L'AUTRE, et
      c'est le résultat utile : se tenir dans l'anneau ne rend aucune activité régénérative,
      et une activité régénérative ne ramène pas à elle seule le plafond en deçà. Le corps
-     n'a pas été modifié ; l'énoncé de ce résultat au § 4 est à arbitrer par l'auteur."
+     n'a pas été modifié . ARBITRÉ PAR L'AUTEUR LE 2026-09-21 : ce résultat n'est PAS énoncé au § 4.
+     L'ajouter serait exposer une thèse de plus là où le chapitre décrit un cadre ;
+     le contrôle garde sa valeur ici, comme résultat consigné et non comme énoncé
+     du corps. Le corps n'est pas modifié, et ce n'est plus une question en
+     attente."
   - "PASSE ADVERSE DU 2026-09-20 — SEPT OBJECTIONS, TOUTES TRAITÉES, ET TROIS RELEVÉS CORRIGENT LE RAPPORT. L'état examiné par la passe était bien l'état vivant (empreinte concordante), et les sept citations ont été retrouvées au mot : aucune objection fantôme. PORTÉES AU CORPS : obj 3 (le schéma du circuit est déclaré type et non modèle, et la superlative est retirée), obj 4 (« vérifiable » retiré, faute de protocole), obj 5 (le donut REPREND les limites au lieu d'en être constitué), obj 6 (les trois conditions sont des CHOIX du chapitre, non des implications du cadre), obj 2 pour sa part fondée. PORTÉE AUX ENTRÉES : obj 1, les passages chiffrés de S9 et S10 sont relevés sur les exemplaires déjà ouverts, sans acquisition nouvelle. TROIS CORRECTIONS DU RAPPORT. (1) OBJ 2 N'EST FONDÉE QU'EN PARTIE : le corps ne sur-attribue RIEN à Smith, il écrit déjà « sans que la maximisation de la performance y soit posée comme fin assignée à une politique » ; ce qui manquait d'appui était la généralisation sur la discipline, désormais attribuée au chapitre. (2) OBJ 3 VISAIT LE MAUVAIS PARAGRAPHE : l'affirmation incriminée n'était pas dans le `::etat::` cité mais dans le paragraphe qui le précède, LEQUEL NE PORTAIT AUCUNE BALISE DE RÉGIME — défaut que la passe n'a pas vu et qui est corrigé. (3) OBJ 7 EST ÉCARTÉE AVEC MOTIF : le paragraphe est déjà `::hypothese::`, l'attribution à Hamant est nominative et le corps écrit « une autre propriété PEUT ÊTRE RECHERCHÉE » ; aucun passage ne fait porter à cet entretien une propriété générale du vivant ou de l'économie. CE QUI RESTE : trois des quatre paragraphes sans balise subsistent — ouverture, exposition, clôture —, et ils sont de transition ; à arbitrer en passe 2."
 resume: "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres distincts qu'il mobilise : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, robustesse, fausse_richesse]
