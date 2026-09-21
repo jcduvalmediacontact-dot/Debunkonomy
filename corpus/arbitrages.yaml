@@ -135,13 +135,13 @@ arbitrages:
     tranche_par: auteur
     lie_a: [A35b]
     decision: >
-      2026-09-09 : unité au PASSIF DE L'ÉMETTEUR ; l'incidence sociale n'en fait
-      pas le porteur (L10.C06, 2026-09-07), sous clause de réexamen. 2026-09-20,
-      EN DEUX TEMPS : le précédent place le passif chez le RECEVEUR (L19.C10 § 6)
-      et n'est plus qu'un contraste ; A35b n'établissant AUCUNE OBLIGATION
-      PRÉSENTE du dispositif, LA CLAUSE JOUE — le placement chez l'émetteur n'est
-      plus qu'une HYPOTHÈSE DE CONCEPTION, et le mot « passif » est EN RÉEXAMEN.
-      A35 = A35a.
+      2026-09-09 : unité au PASSIF DE L'ÉMETTEUR, sous clause de réexamen.
+      2026-09-20 : la clause joue, le placement chez l'émetteur n'est plus qu'une
+      hypothèse, le précédent n'étant qu'un contraste. 2026-09-21, D1, DÉCISION DE
+      CONCEPTION DE L'AUTEUR, QU'AUCUNE SOURCE N'ÉTABLIT NI N'INTERDIT : les
+      banques centrales émettent et perçoivent le reflux ; le GES qualifie et NE
+      PORTE PAS DE BILAN D'ÉMISSION. Il n'y a donc pas d'émetteur supranational
+      portant un passif d'émission. A35 = A35a.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L1.C29, L19.C05, L20.C24, L20.C26, L11.C09]
     maj: 2026-09-20
@@ -152,13 +152,13 @@ arbitrages:
     tranche_par: non-tranche
     lie_a: [A35, TEST-APPORT-PROPRE]
     decision: >
-      OUVERT. V3 : 5 résultats séparés, 14 branches, aucune tranchée ; deux
-      versions réfutées le 2026-09-09. 2026-09-16 : 4 des 5 questions ont une
-      pièce ; CONTREPARTIE À L'ACTIF défavorable ; BÉNÉFICIAIRE entier.
-      2026-09-20 : obligation DU PRÉCÉDENT identifiée (intérêt INCONDITIONNEL,
-      rachat conditionnel), NON TRANSPORTÉE ; OBLIGATION PRÉSENTE DU DISPOSITIF
-      NON ÉTABLIE. JALON : revue par un comptable national, aucun modèle macro
-      avant.
+      OUVERT. V3 : 14 branches, aucune tranchée. 2026-09-16 : CONTREPARTIE À
+      L'ACTIF défavorable. 2026-09-20 : obligation du précédent NON TRANSPORTÉE,
+      obligation présente NON ÉTABLIE. 2026-09-21, D1, DÉCISION DE CONCEPTION DE
+      L'AUTEUR, QU'AUCUNE SOURCE N'ÉTABLIT NI N'INTERDIT : la question porte
+      désormais sur l'ÉCRITURE INITIALE D'UNE BANQUE CENTRALE PARTICIPANTE, le
+      reflux étant une recette future et non une créance. MUTUALISATION DANS
+      L'EUROSYSTÈME RÉSERVÉE. JALON : comptable national.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L19.C02, L19.C06, L19.C10, L1.C31]
     maj: 2026-09-20
@@ -305,11 +305,12 @@ arbitrages:
     lie_a: [A43]
     decision: >
       Rang institutionnel donné. Articles XXVI du Fonds et II, IV et VI de la
-      Banque lus en vigueur. PRIORITÉ DE MODÉLISATION ARRÊTÉE : une institution
-      internationale émettant une UNITÉ DE RÉSERVE aux banques centrales,
-      celles-ci émettant leur monnaie nationale — branche la plus proche du
-      précédent des droits de tirage spéciaux. La forme reste un PARAMÈTRE du
-      modèle, non une hypothèse figée.
+      Banque lus en vigueur. 2026-09-21, D1, DÉCISION DE CONCEPTION DE L'AUTEUR,
+      QU'AUCUNE SOURCE N'ÉTABLIT NI N'INTERDIT : PÉRIMÈTRE ÉTROIT — l'émission est
+      celle des banques centrales participantes, et la compensation internationale
+      relève d'un ORGANE DISTINCT, NON ENCORE NOMMÉ. La priorité de modélisation
+      du 2026-09-16 est remplacée sur ce point. COMPENSATION-SYMETRIQUE n'est pas
+      touchée. La forme reste un PARAMÈTRE.
     texte: protocoles/passe-2.md
     chapitres: [L20.C24, L20.C25, L20.C26, L13.C01]
     maj: 2026-09-16

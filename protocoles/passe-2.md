@@ -7837,3 +7837,25 @@ n'était pas demandée et corrige le corpus** : la citation que L1.C20 attribue 
 porter. Il n'ouvre aucune source. Et il laisse trois chantiers nommés par les réponses elles-mêmes : la
 bascule de Stella vers Buiter dans trois chapitres, la requalification du cadre IPSASB pour L1.C19, et la
 reprise de P57 et de la spécification du 2026-09-13 qu'exige C30 Q5.
+
+## D1 INSCRITE — L'ÉTAGE D'ÉMISSION EST CELUI DES BANQUES CENTRALES, 2026-09-21
+
+Décision de conception de l'auteur, qu'aucune source n'établit ni n'interdit.
+Elle répartit trois fonctions que le corpus traitait jusqu'ici sous un seul nom,
+« l'institution » : la qualification au GES, l'émission et la perception du
+reflux aux banques centrales participantes, la compensation internationale à un
+organe distinct que l'architecture ne nomme pas encore.
+
+**Ce qu'elle ferme.** A35 sur le point du porteur : il n'y a pas d'émetteur
+supranational portant un passif d'émission. Deux branches d'A35b : la
+contrepartie à l'actif sous forme de créance sur le reflux, et le compte de
+régularisation, l'une et l'autre supposant une recette recouvrable.
+
+**Ce qu'elle laisse ouvert.** L'écriture initiale de la banque centrale
+émettrice — charge, situation nette, ou recette différée —, qui attend un
+comptable national. La mutualisation du reflux dans l'Eurosystème, réservée. Le
+nom de l'organe de compensation. Et huit occurrences de « l'institution » dans
+L1.C24 et L1.C26, dont sept sont une dette de nomenclature et une, C24 ligne
+217, une formulation antérieure à requalifier.
+
+**Ce qu'elle ne touche pas.** `COMPENSATION-SYMETRIQUE`, qui reste `oriente`.
