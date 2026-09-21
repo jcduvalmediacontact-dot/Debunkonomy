@@ -5,7 +5,7 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: audit_contradictoire
+statut: audit_factuel
 revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
@@ -135,7 +135,7 @@ verifications_en_attente:
   - "D44 SANS OBJET, constaté le 2026-09-16 sur décision de l'auteur (branche R) : la phrase « Les indices boursiers battent des records, les grandes fortunes prospèrent » NE FIGURE PLUS dans le corps du chapitre — elle en était sortie avant cette date sans que cette ligne l'enregistre. Le point est porté par L1.C02, désormais sourcé sur Oxfam et la Banque mondiale."
   - "Jebb et al., « Happiness, income satiation and turning points around the world », Nature Human Behaviour, 2(1), p. 33-38, 2018 : source des méta-analyses de seuils par région, à ajouter si le chapitre développe la question."
   # — Sources non ouvertes par un humain —
-  - "S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé."
+  - "SOLDÉE LE 2026-09-20, ET ELLE ÉTAIT PÉRIMÉE SUR DEUX PLANS. Cette ligne portait : « S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé. » PREMIER : les ONZE entrées de ce chapitre sont aujourd'hui à etat_lecture: ouverte, datées des 15 et 16 septembre 2026, et la ligne n'avait pas été soldée quand elles l'ont été ; elle contredisait donc les champs du même en-tête. SECOND : elle nommait S1, qui n'est plus une entrée de ce chapitre. LEÇON À GARDER : une ligne de vérification qui porte un état de lecture doit être soldée le jour où l'état change, sinon deux endroits du fichier se contredisent sans qu'aucun contrôle le voie — controle.py lit etat_lecture, jamais la prose des vérifications."
   # — Cohérence interne —
   - "COHÉRENCE AVEC L1.C08 § 2 — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT, ET REJOUABLE.
      Les deux formulations disent la même chose et le § 1 n'ajoute rien : l'argument des
@@ -158,6 +158,7 @@ verifications_en_attente:
      du livre, ou en retenir un autre. Le corpus ne le rend pas à sa place."
   # — Renvois —
   - "Sourcer ou retirer la clause du paragraphe sur les blocages d'économie politique : « les bénéfices d'une politique climatique sont diffus et différés, ses coûts concentrés et immédiats, ce qui défavorise structurellement les mandats courts ». Elle était adossée à S11 avec Nordhaus ; la réduction de S11 du 2026-09-15 la laisse sans appui ouvert, Buchanan et Tullock développant la configuration inverse. Le passager clandestin, lui, est porté par Nordhaus."
+  - "LIMITE DE PÉRIMÈTRE ACCEPTÉE PAR L'AUTEUR LE 2026-09-20, ET CE N'EST PAS UNE TÂCHE. L'audit tiers reprochait au chapitre (§ 4 de son rapport, point 3) de raisonner « comme si 100 % de la masse monétaire provenait du crédit bancaire privé », en sous-estimant la monnaie centrale non-crédit et les achats d'actifs. DÉCISION : LE CHAPITRE NE SOUTIENT PAS CETTE PROPOSITION ET N'A PAS À L'AJOUTER. Son objet est la figure de Sisyphe et la contrainte de revenu, non le périmètre de la création monétaire, qui est traité en L1.C11 pour le canal du crédit et en L1.C10 pour l'assouplissement quantitatif. L'objection est donc ÉCARTÉE AVEC MOTIF, et non reportée. C'est le dernier point non soldé du rapport d'audit tiers."
 resume: "Les trois malédictions monétaires, prises ensemble, produisent une trajectoire que le livre nomme le mythe de Sisyphe économique : un effort renouvelé sans terme, où chaque cycle ramène au point de départ. Ce chapitre expose la figure et en délimite strictement la portée. La contrainte de croissance n'est pas arithmétique — une économie stationnaire endettée est possible si les revenus d'intérêts sont redépensés ; elle tient à leur accumulation et à la croissance de l'encours. Et la figure ne s'applique qu'à ce que le régime monétaire ajoute : l'usure du capital est physique, la saturation du revenu est psychologique, les blocages de la décision publique relèvent d'économie politique — le chapitre isole dans chaque cas la part monétaire au lieu de tout lui attribuer. Trois idéaux-types en donnent la forme vécue, avec trois traits communs : lucidité, impuissance à sortir seul, répétition sans terme. À la différence du mythe, la contrainte est architecturale, donc modifiable."
 concepts: [sisyphe_economique, malediction_monetaire, reflux_monetaire, solvabilite_anticipee, essentiel_insolvable]
 renvois: [L1.C02, L1.C06, L1.C08, L1.C11, L1.C12, L1.C13, L1.C15, L1.C17]
