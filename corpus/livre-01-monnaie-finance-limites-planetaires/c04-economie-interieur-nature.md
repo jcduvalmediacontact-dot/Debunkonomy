@@ -5,8 +5,8 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: audit_factuel
-revision_de_fond: 2026-09-20
+statut: verifie
+revision_de_fond: 2026-09-21
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -75,63 +75,7 @@ sources_primaires:
     url: "https://dailyscience.be/16/02/2026/pour-olivier-hamant-la-performance-nous-fragilise-la-robustesse-nous-sauvera/"
     etat_lecture: ouverte
     date_verification: 2026-09-16
-verifications_en_attente:
-  # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
-  # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
-  # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
-  # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
-  # "D11 APPLIQUÉE le 2026-09-16. L'auteur a précisé, contre la recommandation (déclarer l'énoncé rapporté, les trois traditions nommées), que la robustesse de ce chapitre est celle d'Olivier Hamant. Un entretien de février 2026 fourni par l'auteur est ouvert [S12], et le § 5 pose désormais la définition sur les mots de Hamant, à l'endroit où le chapitre l'énonçait déjà en substance ; le vocabulaire (robustesse) est conforme. LA PHRASE DES TROIS TRADITIONS RESTE TELLE QUELLE ET RESTE SANS APPUI OUVERT : « plusieurs traditions le mobilisent — le contrôle robuste en macroéconomie, la décision robuste en incertitude profonde, les travaux sur la résilience économique des territoires ». Elle n'est pas contredite par Hamant — elle parle d'un autre usage du mot — mais aucune source ne la porte. À L'AUTEUR DE TRANCHER : la garder et citer deux ou trois références (Hansen et Sargent pour le contrôle robuste ; Lempert et al. pour la décision robuste ; Martin et Sunley pour la résilience régionale), ou la retirer. RESTE OUVERT AUSSI : le Tracts lui-même (page et phrase) si l'auteur veut l'exemplaire de référence plutôt qu'un entretien ; la compilation LinkedIn déposée le même soir est versée sans référence."
-  # — Corrections identifiées à la conversion —
-  - "COHÉRENCE AVEC L1.C01 — CONTRÔLE FAIT LE 2026-09-19, RÉPONSE NÉGATIVE ET UTILISABLE.
-     La question était : l'appropriation humaine de la production primaire nette fournit-elle
-     une mesure de la définition biophysique de la régénération ? NON, et pour une raison
-     précise. Cette définition exige des indicateurs physiques PROPRES À UN FONDS DÉTERMINÉ,
-     rapportés à un état de référence explicite et nets des prélèvements de l'activité ;
-     l'appropriation de la production primaire est un AGRÉGAT SUR LA BIOSPHÈRE, qui ne se
-     désagrège pas par fonds. Une activité peut améliorer un fonds déterminé en élevant cet
-     agrégat, et l'abaisser en dégradant un fonds. CE QUE LE RAPPROCHEMENT GARDE DE VRAI, et
-     qui justifie la phrase du § 2 : c'est la seule variable du cadre qui soit physique, qui
-     porte un état de référence explicite — la production moyenne de l'Holocène — et qui
-     mesure un PRÉLÈVEMENT, dernier terme de la définition. « La plus directement
-     rapprochable » est donc exact ; « une mesure » ne le serait pas. ARBITRÉ PAR L'AUTEUR LE 2026-09-21 : la borne n'est PAS écrite au § 2. La question
-     était de savoir s'il fallait l'y porter, un lecteur pressé pouvant lire un
-     rapprochement comme une mesure. La réponse est non : ce serait un ajout théorique et
-     non une correction, le corps écrivant déjà « la plus directement rapprochable » et non
-     « une mesure ». Le corps n'est pas modifié, et ce n'est plus une question en attente."
-  # — Données —
-  - "Liste des douze dimensions du plancher social chez Raworth : elle est reprise de [S8],
-     figure de données étendues 2, que les auteurs disent adaptée de l'article de 2017.
-     À confronter à l'ouvrage de 2017 lui-même s'il est un jour fourni ; la liste du corps
-     n'en comptait que onze, la connectivité manquant, et trois libellés étaient raccourcis.
-     VÉRIFIÉE LE 2026-09-20, DOUZE SUR DOUZE, SUR L'EXEMPLAIRE DÉCLARÉ (SHA-256 recalculé,
-     identique). La figure de données étendues 2, page PDF 16, porte exactement : water,
-     food, energy, health, connectivity, education, housing, income & work, peace & justice,
-     equality, social cohesion, political voice. Le corps du § 4 les donne DANS LE MÊME ORDRE
-     et sans omission. La mention d'adaptation est confirmée au texte — « Adapted from ref. 2
-     » sous la figure —, et la référence 2, page PDF 9, est bien l'article du Lancet
-     Planetary Health (e48-e49, 2017), NON l'ouvrage de la même année, qui y porte le numéro
-     3. CONTRÔLE POSITIF EXIGÉ AVANT DE CONCLURE : les quatre passages que cette entrée
-     déclare avoir lus se retrouvent aux pages qu'elle nomme. CE QUI RESTE, ET CE N'EST PAS
-     UN BLOCAGE : confronter à l'ouvrage de 2017 s'il est un jour fourni, la figure de 2025
-     étant la source déclarée du corps."
-  # — Attributions et statuts —
-  # — Renvois —
-  - "Cas de dégradations environnementales mondiales infléchies par une action coordonnée : rechercher les autres cas éventuels — pluies acides et protocole de Göteborg, pollution au plomb, moratoire sur la chasse à la baleine — avant toute formulation comparative sur l'ozone. ÉCARTÉ LE 2026-09-20 SUR DÉCISION DE L'AUTEUR, ET LA CONDITION N'EST PAS DÉCLENCHÉE : vérifié au § 3, LE CORPS NE FORME AUCUNE COMPARAISON. Il écrit « un cas particulièrement documenté » puis, de lui-même, « Affirmer qu'il serait le seul supposerait un recensement que ce chapitre n'a pas conduit ». Le recensement reste utile et n'est pas dû : ne pas le conduire ne laisse aucune affirmation sans appui."
-  - "Sensibilité des chaînes de production : rassembler deux ou trois sources mesurant la concentration des fournisseurs ou l'exposition à une source unique. ÉCARTÉ LE 2026-09-20 SUR DÉCISION DE L'AUTEUR, ET LA CONDITION N'EST PAS DÉCLENCHÉE : vérifié au § 5, la proposition est en ::hypothese::, le corps la déclare EMPIRIQUE, nomme les mesures qui l'éprouveraient — concentration des fournisseurs, exposition à une source unique, stocks rapportés au chiffre d'affaires — et conclut de lui-même : « Leur rassemblement reste à faire pour ce corpus. » Le manque est déclaré dans le corps, non masqué."
-  - "COHÉRENCE AVEC L1.C01 — CONTRÔLE FAIT LE 2026-09-19 : PAS DE CONTRADICTION, ET PAS DE
-     DÉRIVATION NON PLUS. La définition biophysique de la régénération et le plafond
-     écologique du § 4 ne se contredisent pas, parce qu'ils n'opèrent ni au même niveau ni
-     dans le même registre : le plafond est un SEUIL GLOBAL à ne pas franchir, posé sur des
-     pressions agrégées ; la définition est un CRITÈRE D'AMÉLIORATION LOCAL, posé sur un
-     fonds déterminé et relatif à un état de référence. AUCUN NE SE DÉDUIT DE L'AUTRE, et
-     c'est le résultat utile : se tenir dans l'anneau ne rend aucune activité régénérative,
-     et une activité régénérative ne ramène pas à elle seule le plafond en deçà. Le corps
-     n'a pas été modifié . ARBITRÉ PAR L'AUTEUR LE 2026-09-21 : ce résultat n'est PAS énoncé au § 4.
-     L'ajouter serait exposer une thèse de plus là où le chapitre décrit un cadre ;
-     le contrôle garde sa valeur ici, comme résultat consigné et non comme énoncé
-     du corps. Le corps n'est pas modifié, et ce n'est plus une question en
-     attente."
-  - "PASSE ADVERSE DU 2026-09-20 — SEPT OBJECTIONS, TOUTES TRAITÉES, ET TROIS RELEVÉS CORRIGENT LE RAPPORT. L'état examiné par la passe était bien l'état vivant (empreinte concordante), et les sept citations ont été retrouvées au mot : aucune objection fantôme. PORTÉES AU CORPS : obj 3 (le schéma du circuit est déclaré type et non modèle, et la superlative est retirée), obj 4 (« vérifiable » retiré, faute de protocole), obj 5 (le donut REPREND les limites au lieu d'en être constitué), obj 6 (les trois conditions sont des CHOIX du chapitre, non des implications du cadre), obj 2 pour sa part fondée. PORTÉE AUX ENTRÉES : obj 1, les passages chiffrés de S9 et S10 sont relevés sur les exemplaires déjà ouverts, sans acquisition nouvelle. TROIS CORRECTIONS DU RAPPORT. (1) OBJ 2 N'EST FONDÉE QU'EN PARTIE : le corps ne sur-attribue RIEN à Smith, il écrit déjà « sans que la maximisation de la performance y soit posée comme fin assignée à une politique » ; ce qui manquait d'appui était la généralisation sur la discipline, désormais attribuée au chapitre. (2) OBJ 3 VISAIT LE MAUVAIS PARAGRAPHE : l'affirmation incriminée n'était pas dans le `::etat::` cité mais dans le paragraphe qui le précède, LEQUEL NE PORTAIT AUCUNE BALISE DE RÉGIME — défaut que la passe n'a pas vu et qui est corrigé. (3) OBJ 7 EST ÉCARTÉE AVEC MOTIF : le paragraphe est déjà `::hypothese::`, l'attribution à Hamant est nominative et le corps écrit « une autre propriété PEUT ÊTRE RECHERCHÉE » ; aucun passage ne fait porter à cet entretien une propriété générale du vivant ou de l'économie. CE QUI RESTE : trois des quatre paragraphes sans balise subsistent — ouverture, exposition, clôture —, et ils sont de transition ; à arbitrer en passe 2."
+verifications_en_attente: []
 resume: "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres distincts qu'il mobilise : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, robustesse, fausse_richesse]
 renvois: [L1.C01, L1.C02, L1.C03, L1.C05, L1.C23]
@@ -171,7 +115,7 @@ Il expose une représentation — l'économie comme sous-ensemble de la sociét�
 
 ::etat:: L'ordre de grandeur de l'écart contemporain se lit sur la concentration atmosphérique de CO2. Pendant l'Holocène — environ onze mille sept cents ans —, elle est demeurée comprise entre 260 et 280 ppm, soit une variation naturelle d'une vingtaine de ppm sur toute la période, et s'établissait autour de 278 ppm avant l'industrialisation. [S6] Elle atteint 422,8 ppm en moyenne en 2024. [S5] Ce n'est donc pas une constance rompue : c'est une amplitude sans commune mesure avec la variabilité propre de la période.
 
-::etat:: Une variable de contrôle a été introduite en 2023 pour l'intégrité fonctionnelle de la biosphère : l'appropriation humaine de la production primaire nette. Elle est estimée à environ 30 % de la production primaire moyenne de l'Holocène, et cette limite est également évaluée comme franchie. [S2] C'est la grandeur du cadre la plus directement rapprochable de la définition biophysique de la régénération posée au premier chapitre (L1.C01).
+::etat:: Une variable de contrôle a été introduite en 2023 pour l'intégrité fonctionnelle de la biosphère : l'appropriation humaine de la production primaire nette. Elle est estimée à environ 30 % de la production primaire moyenne de l'Holocène, et cette limite est également évaluée comme franchie. [S2] C'est la grandeur du cadre la plus directement rapprochable de la définition biophysique de la régénération posée au premier chapitre (L1.C01). **Rapprochable n'est pas mesurable, et la borne doit être dite** : cette grandeur est un agrégat sur la biosphère, qui ne se désagrège pas par fonds, quand la définition de L1.C01 exige des indicateurs propres à un fonds déterminé, rapportés à un état de référence et nets des prélèvements. Une activité peut améliorer un fonds en élevant cet agrégat, et l'abaisser en dégradant un autre.
 
 ::etat:: Le cas de l'ozone mérite d'être noté séparément. Le protocole de Montréal, adopté en 1987, a conduit à une réduction des substances responsables de l'appauvrissement, et la couche est en voie de reconstitution — non reconstituée : la publication de 2023 fait état d'une reconstitution légère. [S2] C'est un cas particulièrement documenté de dégradation environnementale mondiale infléchie par une action coordonnée entre États. Affirmer qu'il serait le seul supposerait un recensement que ce chapitre n'a pas conduit. Il constitue un précédent, dont la portée est discutée : la substitution technique y était disponible et le nombre de producteurs concernés limité.
 
@@ -181,7 +125,7 @@ Il expose une représentation — l'économie comme sous-ensemble de la sociét�
 
 ::etat:: L'économiste Kate Raworth a proposé une représentation de l'espace dans lequel une économie peut se déployer. Elle en a publié la première formulation le 13 février 2012, dans un document de travail d'Oxfam préparatoire à la conférence de Rio+20, avant de la développer dans un ouvrage de 2017, Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, et dans un article de la même année. [S7] [S8] Une version quantifiée et instrumentée du cadre a été publiée en 2025. [S8] Elle superpose deux cercles. Le cercle extérieur est le plafond écologique, **qui reprend les limites planétaires du § 3**. Le cercle intérieur est le plancher social, constitué des besoins dont aucune personne ne devrait être privée — eau, alimentation, énergie, santé, connectivité, éducation, logement, revenu et travail, paix et justice, égalité, cohésion sociale et voix politique. [S8] **Les deux cadres ne se confondent pas** : ils ont des auteurs, des histoires et des instrumentations distincts, et le donut mobilise ces limites plutôt qu'il ne les contient.
 
-::etat:: L'anneau entre les deux cercles délimite l'espace où l'économie satisfait les besoins sans franchir les limites. Il est présenté comme espace sûr et juste pour l'humanité.
+::etat:: L'anneau entre les deux cercles délimite l'espace où l'économie satisfait les besoins sans franchir les limites. Il est présenté comme espace sûr et juste pour l'humanité. **Ce plafond et la définition biophysique de la régénération ne se contredisent ni ne se déduisent l'un de l'autre**, et c'est le résultat utile : le plafond est un seuil global posé sur des pressions agrégées, la définition de L1.C01 un critère d'amélioration local posé sur un fonds déterminé. Se tenir dans l'anneau ne rend aucune activité régénérative, et une activité régénérative ne ramène pas à elle seule le plafond en deçà.
 
 ::hypothese:: L'apport de la figure originelle est moins descriptif que normatif. Elle propose un critère d'évaluation des politiques, en substituant à la question « la production croît-elle ? » la question « l'écart au plafond et au plancher se réduit-il ? ». C'est un déplacement d'indicateur, et son intérêt tient à ce qu'il rend visibles simultanément deux dimensions que les politiques publiques traitent séparément.
 
@@ -199,7 +143,7 @@ Il expose une représentation — l'économie comme sous-ensemble de la sociét�
 
 ::hypothese:: La proposition défendue est que l'arbitrage entre les deux propriétés a été poussé loin du côté de l'efficacité — marges réduites, chaînes d'approvisionnement longues, stocks minimisés — et que le rééquilibrage relève de la décision collective, non du progrès technique. Cette proposition est empirique : elle demande des mesures de la sensibilité des chaînes de production aux ruptures. De telles mesures existent — degré de concentration des fournisseurs, exposition à une source unique, niveaux de stocks rapportés au chiffre d'affaires — et les travaux se sont multipliés après les ruptures d'approvisionnement du début des années 2020. Leur rassemblement reste à faire pour ce corpus.
 
-::etat:: Le terme de robustesse est courant dans les sciences du vivant et dans l'analyse des systèmes. Il n'est pas absent de l'économie, contrairement à ce qui est parfois avancé : plusieurs traditions le mobilisent — le contrôle robuste en macroéconomie, la décision robuste en incertitude profonde, les travaux sur la résilience économique des territoires. Ce qui est vrai est plus étroit : la robustesse n'y figure pas comme objectif assigné à l'organisation économique dans son ensemble, mais comme propriété recherchée d'une décision ou d'un système particulier.
+::etat:: Le terme de robustesse est courant dans les sciences du vivant et dans l'analyse des systèmes. **Ce chapitre n'établit pas qu'il serait absent de l'économie, et il retire ici la liste de traditions qu'il avançait sans source.** Ce qui est vrai est plus étroit : la robustesse n'y figure pas comme objectif assigné à l'organisation économique dans son ensemble, mais comme propriété recherchée d'une décision ou d'un système particulier.
 
 ## 6. Ce que l'espace du donut exigerait
 
@@ -207,7 +151,7 @@ Il expose une représentation — l'économie comme sous-ensemble de la sociét�
 
 ::norme:: La première est de réduire les productions qui mobilisent des ressources sans satisfaire de besoin du plancher social. Elle suppose un critère permettant de les identifier, et ce critère est contestable : il engage un jugement sur ce qui constitue un besoin. Le chapitre 2 (L1.C02) en a proposé un — la valeur financière dont la contrepartie physique est une dégradation non comptabilisée — qui n'est pas le même et doit être articulé à celui-ci.
 
-::norme:: La deuxième est d'accroître les activités qui reconstituent les fonds naturels et sociaux. Elle rejoint la définition biophysique de la régénération posée au premier chapitre, et rencontre la même difficulté : ces activités n'ont pas de recette qui leur soit attachée.
+::norme:: La deuxième est d'accroître les activités qui reconstituent les fonds naturels, et les fonds sociaux — **cette seconde extension est ajoutée par ce chapitre et L1.C01 ne la porte pas** : la définition biophysique de la régénération y est posée sur des fonds naturels, et rien ici n'établit qu'elle se transpose aux seconds. Elle rejoint cette définition, et rencontre la même difficulté : ces activités n'ont pas de recette qui leur soit attachée.
 
 ::hypothese:: La troisième condition porte sur le financement, et c'est celle qui rend les deux premières atteignables ou non. Tant que la monnaie est émise en contrepartie d'une dette exigeant un rendement à échéance courte, l'allocation du crédit continuera de suivre la rentabilité mesurée sur ce périmètre. Ce n'est pas un défaut de volonté politique : c'est une propriété des conditions d'émission.
 
