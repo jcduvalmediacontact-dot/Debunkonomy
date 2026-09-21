@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-09-21
 autorite: preparatoire
 citable: false
 regime: conception
@@ -313,6 +313,12 @@ Le premier concerne l'abandon de l'additionnalité contrefactuelle **au niveau d
 ::hypothese:: **Ce que cet obstacle atteint n'est pas ce que le chapitre croyait, et il faut l'exposer en branches.** Si les bénéficiaires de l'émission sont des entités privées qualifiées, l'article 123 ne s'applique pas, et l'obstacle devient l'article 130 et la sélectivité du crédit. Si les bénéficiaires sont des États ou des organismes publics, l'article 123 s'applique directement. Mais le point décisif n'est pas la distribution de l'émission : **c'est la contrepartie que l'émetteur inscrit à son bilan**, et cette question est ouverte. S'y ajoute le caractère contraignant des décisions du Conseil Monétaire : composé de banques centrales, il n'est pas un tiers qui leur donnerait des ordres ; mais si ses décisions lient une banque centrale minoritaire, celle-ci accepte bien une instruction d'un organisme extérieur.
 
 ::norme:: **Quatre voies sont instruites, sur des textes antérieurs à Lisbonne, et aucune n'est choisie ici** : la révision des traités ; la modification simplifiée des statuts sous réserve de l'objectif de stabilité des prix ; un accord monétaire international ; un circuit qui ne passe pas par les banques centrales de l'Union. **Ce que le corpus retient est que l'ambiguïté doit être levée avant tout exposé du mécanisme d'émission**, parce que le délai et le coût institutionnel de la voie retenue entrent dans le bilan du dispositif et non dans celui de ses concurrents. Le détail des voies européennes vit au Livre 20.
+
+::hypothese:: **La validité juridique d'un traité et sa légitimité politique ne sont pas le même jugement.** Les traités sont des constructions humaines : ils organisent la monnaie, l'État, le marché et les limites de l'action publique selon des choix historiques et des rapports de force déterminés. Le fait qu'une règle porte une conception de l'économie ne suffit pas à la rendre illégitime ; il oblige à distinguer sa légitimité procédurale — négociation, adoption et ratification — de sa contestabilité substantielle, c'est-à-dire de la question de savoir si ses choix restent justifiables face à une urgence écologique et à une défaillance du financement marchand.
+
+::hypothese:: **Le droit positif n'est donc pas une neutralité au-dessus du projet.** Les articles 123 et 130 et leur interprétation jurisprudentielle constitutionnalisent certaines contraintes : indépendance des banques centrales, séparation entre émission monétaire et allocation budgétaire, et discipline du financement public. Ils peuvent être juridiquement valides tout en demeurant politiquement révisables. Une décision de justice n'est pas un avenant au traité ; elle interprète les limites déjà adoptées. Si ces limites empêchent durablement une réponse à des besoins écologiques essentiels, le projet doit poser explicitement la question d'une révision démocratique plutôt que présenter son architecture comme une simple faille technique du droit existant.
+
+::norme:: **La révision ne peut pas être invoquée comme une échappatoire.** Elle devrait préciser la finalité écologique poursuivie, le titulaire du pouvoir d'émission, les garanties d'indépendance et de contrôle, les limites de volume et de risque, ainsi que la procédure de responsabilité devant les institutions représentatives. Le projet ne soutient donc pas que les traités seraient invalides parce qu'ils sont idéologiques ; il soutient qu'ils sont révisables parce que les choix qu'ils ont constitutionnalisés peuvent ne plus répondre aux conditions historiques et écologiques présentes. Cette branche est une proposition politique du corpus, non une conclusion tirée des textes ouverts.
 
 ## 7. Portée
 
