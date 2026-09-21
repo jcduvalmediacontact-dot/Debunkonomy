@@ -56,48 +56,39 @@ sources_primaires:
     reference: "N. Georgescu-Roegen, The Entropy Law and the Economic Process, Harvard University Press, 1971 — l'appartenance de l'auteur au champ de l'économie écologique. ENTRÉE CRÉÉE le 2026-09-16 par application de D23, sur décision explicite de l'auteur du même jour. Aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR VERSEMENT depuis L1.C03 [S2], ouverte le 2026-09-14 sur l'exemplaire fourni par l'auteur. Le corps n'affirme que l'appartenance de Georgescu-Roegen à ce champ, que L1.C03 instruit sur le texte. EMPREINTE D'EXEMPLAIRE COMPLÉTÉE le 2026-09-16 : l'entrée déclarait la source ouverte sans nommer le condensé du fichier lu. Exemplaire retrouvé au Codex et IDENTIFIÉ SUR SON TITRE avant d'être retenu — 2026-09-14/c03/georgescu-entropy-law-1971.pdf, 467 pages, SHA-256 D6DAFF585087F1C7E879D0E6B6270F01BD4326A212A77B72D9BFD1E8598760BD. Ni le corps ni l'énoncé de l'entrée ne changent : seule l'empreinte manquait."
     etat_lecture: ouverte
     date_verification: 2026-09-16
-verifications_en_attente:
-  # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
-  # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
-  # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
-  # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
-  # "D22 et D23 APPLIQUÉES le 2026-09-16 : S6 Douthwaite 1999 ouverte sur l'édition en ligne de Feasta ; S7 Gesell et S8 Georgescu-Roegen ouvertes par versement depuis L1.C10 et L1.C03. Les trois contre-exemples du § 4 sont désormais adossés."
-  # "SOLDÉE le 2026-09-15 sur le texte de S2, déjà ouverte. LA DATE : « FAIT à Paris le douze décembre deux mille quinze » se lit à la page PDF 40, dans la clause d'attestation du traité. La forme en chiffres est absente du document, ce qui explique qu'une première recherche l'ait manquée ; le rapport ne date en chiffres que la session, du 30 novembre au 13 décembre 2015. LE NOMBRE D'ÉTATS SIGNATAIRES N'EST PAS À SOURCER : le chapitre n'en avance aucun. Cette moitié de la ligne demandait une source pour une affirmation que le texte ne fait pas."
-  # "SOLDÉE le 2026-09-15 par balayage mécanique de TOUS LES CORPS DU CORPUS, tous livres confondus : aucune occurrence de l'auteur cité à la troisième personne comme référence extérieure, ni sous son nom, ni sous les formes « l'auteur de ce livre » ou « selon l'auteur ». La reformulation en affirmation directe n'a laissé aucun résidu."
-  # — Correction majeure identifiée à la conversion —
-  - "CRITIQUE — La thèse d'un « silence presque total » de la pensée écologiste sur la monnaie est contestable et constitue le cœur du chapitre. Contre-exemples à examiner avant toute publication : Herman Daly, qui défend explicitement une réforme du système bancaire dans le cadre de l'économie stationnaire ; Richard Douthwaite, The Ecology of Money, 1999 ; Molly Scott Cato ; les travaux de l'économie écologique sur la monnaie ; la tradition des monnaies complémentaires depuis Gesell. Nicholas Georgescu-Roegen, cité dans le chapitre parmi les penseurs écologistes, appartient lui-même à cette tradition. La thèse doit être soit restreinte (quels courants, quelle période, quel corpus de textes ?), soit abandonnée. ÉTAT AU 2026-09-15 : la thèse est restreinte dans le texte. Le résumé parle d'une place RÉDUITE de la question monétaire, non d'un silence ; le corps consacre un paragraphe aux contre-exemples, dont Daly, désormais sourcé en S3, Douthwaite et la tradition gesellienne ; et il porte une ligne « ce que le chapitre n'établit pas » qui écarte l'absence. Reste à lever une ambiguïté de rédaction : cette ligne dit la proposition « à restreindre », au futur, alors que la restriction est faite. La critique n'est pas close tant que l'auteur n'a pas dit si le périmètre retenu — quels courants, quelle période — lui convient."
-  # — Données —
-  - "RESTE OUVERTE, ET LE FICHIER MANQUANT EST DÉSORMAIS EXCLU. L'auteur a fourni le 2026-09-16 le rapport du PNUE de 2024, celui que deux tentatives d'acquisition n'avaient pas obtenu le 2026-09-15 (403 chez le PNUD, 403 sur le dépôt du PNUE). Exemplaire lu : 2026-09-16/c06/fournis/VERIF-pnue-emissions-gap-report-2024-fourni.pdf, 100 pages, SHA-256 F15E775058B3DD7AE3C139438DE62BCDC83AABC92A87FBC747C175CB743F1B44. **IL NE PORTE PAS LA COMPARAISON RECHERCHÉE**, et l'hypothèse posée la veille est donc fausse : l'année de référence de l'édition 2024 est 2023, non 2024 — « Global greenhouse gas emissions set a new record of 57,1 GtCO2e in 2023, a 1,3 per cent increase from 2022 levels » (page PDF 12) — et AUCUNE VALEUR D'ÉMISSIONS POUR 2015 ne figure dans sa couche de texte : les onze occurrences de « 2015 » y désignent l'Accord de Paris, une référence bibliographique ou une base de restauration de tourbières. Le constat porte sur le texte ; un point porté sur une figure sans étiquette extractible ne serait pas une valeur citable. LES DEUX ÉDITIONS SUCCESSIVES SE COMPLÈTENT SANS SE REJOINDRE : celle de 2025 donne 2024 (57,7 GtCO2e) et remonte à 1990 par décennies, celle de 2024 donne 2023 et compare à 2022. Le corps ne revendique rien de tout gaz — il écrit le CO2 fossile, +9 % de 2015 à 2024, sur [S1] — et n'est donc pas en défaut ; c'est l'ambition de la vérification qui reste sans source. CE QUE LE RAPPORT PORTE EN REVANCHE, au mot et à titre de constat versé au dossier : la trajectoire de réchauffement — « current policies is estimated to limit global warming to a maximum of 3,1 °C (range: 1,9-3,8) » et, sous mise en œuvre complète des contributions conditionnelles, « 2,6 °C (range: 1,9-3,6) », les deux à 66 % de probabilité au moins (page PDF 17). AUCUN APPEL N'EST CRÉÉ : le corps ne cite pas cette trajectoire, et une source non appelée serait un défaut. À L'AUTEUR DE TRANCHER si le chapitre doit porter le total tous gaz, auquel cas il faut nommer la série qui couvre 2015 — ni l'édition 2024 ni l'édition 2025 du PNUE ne la donnent."
-  - "Investissements mondiaux dans les énergies fossiles depuis 2016 : source institutionnelle (AIE, Rystad, ou équivalent) permettant de recouper le chiffre bancaire"
-  # — Attributions et statuts —
-  - "Motivations prêtées aux détenteurs du pouvoir monétaire : reformulées en effets, comme en L1.C05. Vérifier s'il existe des travaux documentant une stratégie délibérée, faute de quoi la formulation reste hypothétique."
-  - "Positive Money et mouvements analogues : vérifier leur positionnement, leur audience et l'état de leurs propositions"
-  # — Cohérence —
-  - "COHÉRENCE SUR L'ASYMÉTRIE DE FINANCEMENT — CONTRÔLE FAIT LE 2026-09-19, ET LA
-     PRÉMISSE DE CETTE LIGNE ÉTAIT PARTIELLEMENT FAUSSE. Elle annonçait trois formulations,
-     en L1.C01, L1.C02 et ici. IL N'Y EN A QUE DEUX : L1.C02 N'AFFIRME PAS L'ASYMÉTRIE.
-     Relèvement mécanique sur son corps : zéro occurrence d'asymétrie, d'activités
-     destructrices ou extractives, une seule de régénér-. Ce que L1.C02 pose est une thèse
-     VOISINE ET DISTINCTE, et il la pose en ::hypothese:: : que la valeur financière serait
-     produite par le transfert hors bilan de coûts physiques, et que ce n'est pas la
-     croissance mais le MODE DE FINANCEMENT qui exige la dégradation. C'est une thèse sur
-     l'origine de la valeur, non sur le partage du financement.
-     LES DEUX FORMULATIONS QUI RESTENT N'ONT PAS LE MÊME MODE, et c'est un écart réel.
-     L1.C01 l'écrit À L'INDICATIF — « Le système ne finance pas la régénération en tant que
-     telle : il finance ce qui, dans une activité régénérative, se vend » — sous un chapeau
-     qui déclare ses trois propositions « énoncées et argumentées, non démontrées ».
-     L1.C06 l'écrit AU CONDITIONNEL — « L'asymétrie qui en RÉSULTERAIT a été caractérisée
-     au premier chapitre » — et ajoute que la proposition qui la porte « n'est pas
-     démontrée ici ». Le chapitre 6 est donc PLUS PRUDENT QUE LE CHAPITRE 1 sur un énoncé
-     qu'il attribue au chapitre 1, ce qui se lit comme une réserve tacite.
-     ARBITRAGE À RENDRE PAR L'AUTEUR, dans un sens ou dans l'autre, et le corpus ne le rend
-     pas à sa place : soit L1.C01 passe au conditionnel et aligne son mode sur sa propre
-     réserve de chapeau, soit L1.C06 passe à l'indicatif en renvoyant la réserve au chapeau
-     de L1.C01. AUCUN CORPS N'A ÉTÉ MODIFIÉ SUR CE POINT. Cette ligne mentionnait L1.C02 :
-     le renvoi est retiré, faute d'objet."
-  # — Cohérence avec L1.C07 fermée le 2026-09-11 par propagation, sur décision de l'auteur : deux formulations qui dépassaient ce que L1.C07 établit sont corrigées (§ 2 et § 3) ; le chapitre annonce le mécanisme de sélection sans conclure ce que L1.C07 n'établit pas —
-  # — Renvois —
-  # — Renvoi vers L1.C07 ajouté le 2026-09-11 —
+  - ref: S9
+    nature: donnees
+    reference: "M. Crippa, D. Guizzardi, F. Pagani et al., « GHG emissions of all
+     world countries — JRC/IEA 2025 Report », Commission européenne, Centre
+     commun de recherche, base EDGAR, Luxembourg, 2025 — série annuelle 1970-2024
+     des émissions mondiales de gaz à effet de serre. OUVERTE PAR TÉLÉCHARGEMENT
+     DIRECT le 2026-09-21 sur le site d'EDGAR, sur décision de l'auteur du même
+     jour. Exemplaire 2026-09-21/c06/EDGAR_2025_GHG_booklet_2025.xlsx, classeur de
+     huit feuilles, 4 608 243 octets, SHA-256
+     8BD6B8A405B9C40548D8DF11D06AAED8838D31ACCE1D4DEE1CB858D7EADE3597 ; le rapport
+     qui l'accompagne est versé au même dossier sous
+     GHG_emissions_all_world_countries_2025report.pdf, 6 707 639 octets, SHA-256
+     7FE3123717AA552C490CCF5559611EE10AAA5FF78B72C6514D626608673B1FF6, et n'est pas
+     lu. PASSAGES LUS SUR LE CLASSEUR : feuille « GHG_totals_by_country », ligne
+     « GLOBAL TOTAL », colonnes 2015 et 2024 — 48 451,42 et 53 206,40, d'où la
+     hausse de 9,8 % que le § 1 porte ; feuille « info » pour le périmètre, au mot
+     — « GHG emissions include CO2 (fossil only), CH4, N2O and F-gases. They are
+     aggregated using Global Warming Potential values from IPCC AR5 (GWP-100
+     AR5) » et « values in GHG_totals_by_country sheet are expressed in Mt CO2eq/yr ».
+     L'UTCATF est hors de cette feuille : le classeur le traite dans deux feuilles
+     séparées, « LULUCF_macroregions » et « LULUCF_countries ». RECOUPEMENT AVEC
+     UNE PIÈCE DÉJÀ OUVERTE AILLEURS DANS LE CORPUS, et il concorde : le rapport
+     du PNUE de 2025 (L1.C14 [S7]) donne 57,7 GtCO2e pour 2024 UTCATF COMPRIS et
+     nomme sous sa figure 2.1 « Crippa et al. (2025) for non-LULUCF emissions,
+     Friedlingstein et al. (2025) for LULUCF emissions » ; l'écart avec les 53,2
+     d'EDGAR est de 4,5 GtCO2e, soit l'ordre de grandeur de l'UTCATF mondial. CE
+     QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : rien. Elle ne porte en
+     revanche AUCUNE VALEUR UTCATF dans la feuille employée, et le corps ne lui en
+     fait pas dire."
+    url: "https://edgar.jrc.ec.europa.eu/report_2025"
+    etat_lecture: ouverte
+    date_verification: 2026-09-21
+verifications_en_attente: []
 resume: "Ce chapitre répartit les propositions écologistes en trois familles — techniques, réglementaires, comportementales — qui rencontrent une même limite : elles ne modifient pas les conditions auxquelles le crédit est accordé. Ce chapitre soutient que cette limite est structurelle et non conjoncturelle, et examine pourquoi la question monétaire occupe une place réduite dans le débat écologique. Il ne démontre pas le mécanisme de création monétaire, qui fait l'objet du chapitre suivant."
 concepts: [essentiel_insolvable, creation_monetaire, neutralite_monetaire]
 renvois: [L1.C01, L1.C02, L1.C05, L1.C07, L1.C08, L1.C11, L1.C15, L1.C16]
@@ -113,7 +104,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ::etat:: L'Accord de Paris, adopté le 12 décembre 2015, fixe pour objectif de contenir le réchauffement nettement en dessous de 2 °C et de poursuivre les efforts pour le limiter à 1,5 °C. [S2] La formulation courante qui réduit l'accord au seul objectif de 1,5 °C ne correspond pas à son texte.
 
-::etat:: Entre 2015 et 2024, les émissions mondiales de CO2 d'origine fossile sont passées de 35,4 à 38,6 gigatonnes, soit une hausse de 9 %. [S1] Elles n'ont donc pas décru sur la période qui a suivi l'accord.
+::etat:: Entre 2015 et 2024, les émissions mondiales de CO2 d'origine fossile sont passées de 35,4 à 38,6 gigatonnes, soit une hausse de 9 %. [S1] Elles n'ont donc pas décru sur la période qui a suivi l'accord. Le total tous gaz suit la même pente : 48,5 gigatonnes d'équivalent CO2 en 2015, 53,2 en 2024, soit une hausse de 9,8 % [S9]. **Le périmètre se lit avec le chiffre** : CO2 fossile, méthane, protoxyde d'azote et gaz fluorés, agrégés au pouvoir de réchauffement à cent ans du cinquième rapport du GIEC, et **hors usage des terres**, que la base traite dans des feuilles séparées.
 
 ::etat:: Sur la même période, les soixante-cinq plus grandes banques mondiales ont engagé 8 700 milliards de dollars de prêts et de placements d'émissions au bénéfice d'entreprises des énergies fossiles, dont 906 milliards pour la seule année 2025. [S5] Le périmètre se lit avec le chiffre : soixante-cinq établissements et non l'ensemble du secteur bancaire, deux formes de financement — le prêt et le placement de titres — et non la participation au capital. L1.C11 tire de cette série ce qu'elle établit et ce qu'elle n'établit pas.
 
@@ -161,7 +152,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ## 6. Ce que le chapitre établit
 
-::etat:: **Ce qui est établi.** Les émissions mondiales de CO2 fossile ont augmenté de 9 % entre 2015 et 2024. L'objectif de l'Accord de Paris porte sur un réchauffement nettement inférieur à 2 °C, avec poursuite des efforts vers 1,5 °C.
+::etat:: **Ce qui est établi.** Les émissions mondiales de CO2 fossile ont augmenté de 9 % entre 2015 et 2024, et le total tous gaz hors usage des terres de 9,8 % sur la même période. L'objectif de l'Accord de Paris porte sur un réchauffement nettement inférieur à 2 °C, avec poursuite des efforts vers 1,5 °C.
 
 ::hypothese:: **Ce qui est proposé.** Que les trois familles de propositions écologistes portent sur les usages et non sur les conditions d'émission de la monnaie, et qu'elles rencontrent de ce fait une limite commune.
 
