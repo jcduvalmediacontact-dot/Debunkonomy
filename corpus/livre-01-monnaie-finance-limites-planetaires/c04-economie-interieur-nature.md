@@ -5,8 +5,8 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: brouillon
-revision_de_fond: 2026-09-15
+statut: audit_factuel
+revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -49,7 +49,7 @@ sources_primaires:
     date_verification: 2026-09-15
   - ref: S9
     nature: theorie
-    reference: "J. M. De Vos, L. N. Joppa, J. L. Gittleman, P. R. Stephens, S. L. Pimm, « Estimating the normal background rate of species extinction », Conservation Biology, 29(2), p. 452-462, 2015 — révision du taux de fond à 0,1 extinction par million d'espèces et par an, d'où un rapport de mille pour le taux contemporain. SCINDÉE le 2026-09-15 (D14, mandat de l'auteur) : l'entrée réunissait deux articles aux estimations différentes, contrairement au contrôle 2 d'AGENTS.md ; Ceballos et al. passe à l'entrée S10. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur la copie en accès ouvert déposée par l'université Duke (2026-09-15/c04/candidats/devos-2015-conservation-biology-dukespace.pdf, 11 pages, SHA-256 1152B0B996861542EDEA10F6BB795F0B08B739F65B057705DA30DA7D0496FDE9). Passages lus : « Estimating the normal background rate of species extinction » (page PDF 1) ; « Jurriaan M. De Vos » (page PDF 1) ; « background rate » (page PDF 1)."
+    reference: "J. M. De Vos, L. N. Joppa, J. L. Gittleman, P. R. Stephens, S. L. Pimm, « Estimating the normal background rate of species extinction », Conservation Biology, 29(2), p. 452-462, 2015 — révision du taux de fond à 0,1 extinction par million d'espèces et par an, d'où un rapport de mille pour le taux contemporain. SCINDÉE le 2026-09-15 (D14, mandat de l'auteur) : l'entrée réunissait deux articles aux estimations différentes, contrairement au contrôle 2 d'AGENTS.md ; Ceballos et al. passe à l'entrée S10. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur la copie en accès ouvert déposée par l'université Duke (2026-09-15/c04/candidats/devos-2015-conservation-biology-dukespace.pdf, 11 pages, SHA-256 1152B0B996861542EDEA10F6BB795F0B08B739F65B057705DA30DA7D0496FDE9). Passages lus : « Estimating the normal background rate of species extinction » (page PDF 1) ; « Jurriaan M. De Vos » (page PDF 1) ; « background rate » (page PDF 1). PASSAGES CHIFFRÉS RELEVÉS LE 2026-09-20 sur le même exemplaire (empreinte recalculée, concordante ; titre retrouvé en page 1 comme contrôle positif), en réponse à l'objection 1 de la passe adverse : « typical rates of background extinction may be closer to 0.1 E/MSY » (page PDF 1, et de nouveau page PDF 9) ; « current extinction rates are 1,000 times higher than natural background rates of extinction » (pages PDF 1 et 9). LES DEUX GRANDEURS DU § 3 SONT DONC AU TEXTE. CE QUE L'ARTICLE DIT EN PLUS ET QUE LE CORPS NE REPREND PAS : « future rates are likely to be 10,000 times higher »."
     etat_lecture: ouverte
     date_verification: 2026-09-15
   - ref: S6
@@ -59,7 +59,7 @@ sources_primaires:
     date_verification: 2026-09-15
   - ref: S10
     nature: theorie
-    reference: "G. Ceballos, P. R. Ehrlich, A. D. Barnosky, A. García, R. M. Pringle, T. M. Palmer, « Accelerated modern human-induced species losses: entering the sixth mass extinction », Science Advances, 1(5), 2015 — retenant une hypothèse délibérément conservatrice de 2 extinctions par million d'espèces et par an, les auteurs concluent à un rapport allant jusqu'à cent. ENTRÉE CRÉÉE le 2026-09-15 par la scission de S9 (D14) ; aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur l'exemplaire en accès ouvert servi par PubMed Central (2026-09-15/c04/candidats/S9-ceballos2015-europepmc.pdf, 5 pages, SHA-256 144E8AA67B417442D6C57D6396276A2F366B147E90686FC65D8AC0CCD2F91780). Passages lus : « Accelerated modern human » (page PDF 1) ; « Entering the sixth mass extinction » (page PDF 1) ; « Gerardo Ceballos » (page PDF 1) ; « background » (page PDF 1)."
+    reference: "G. Ceballos, P. R. Ehrlich, A. D. Barnosky, A. García, R. M. Pringle, T. M. Palmer, « Accelerated modern human-induced species losses: entering the sixth mass extinction », Science Advances, 1(5), 2015 — retenant une hypothèse délibérément conservatrice de 2 extinctions par million d'espèces et par an, les auteurs concluent à un rapport allant jusqu'à cent. ENTRÉE CRÉÉE le 2026-09-15 par la scission de S9 (D14) ; aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur l'exemplaire en accès ouvert servi par PubMed Central (2026-09-15/c04/candidats/S9-ceballos2015-europepmc.pdf, 5 pages, SHA-256 144E8AA67B417442D6C57D6396276A2F366B147E90686FC65D8AC0CCD2F91780). Passages lus : « Accelerated modern human » (page PDF 1) ; « Entering the sixth mass extinction » (page PDF 1) ; « Gerardo Ceballos » (page PDF 1) ; « background » (page PDF 1). PASSAGES CHIFFRÉS RELEVÉS LE 2026-09-20 sur le même exemplaire (empreinte recalculée, concordante ; titre retrouvé en page 1), en réponse à l'objection 1 : « a background rate of 2 mammal extinctions per 10,000 species per 100 years (that is, 2 E/MSY) » (page PDF 1) ; et l'article dit d'où vient l'arrondi — « estimated at 1.8 E/MSY, here rounded upward conservatively to 2 E/MSY » (page PDF 2) —, ce qui établit le mot « conservatrice » du corps. PRÉCISION QUE LE RELEVÉ IMPOSE, ET QUE LA PASSE ADVERSE N'AVAIT PAS VUE : le « rapport allant jusqu'à cent » du corps est celui du tableau 2 — « modern extinction rates for vertebrates varied from 8 to 100 times higher than the background rate » (page PDF 2). L'article porte AUSSI, en résumé, un rapport distinct de 114 — « up to 114 times higher than the background rate » (page PDF 1) —, qui porte sur la perte d'espèces de vertébrés au dernier siècle. LE CORPS N'EST PAS FAUX, IL CITE L'UN DES DEUX : l'entrée le consigne pour qu'un lecteur qui rencontrera 114 ne conclue pas à une sous-estimation."
     url: "https://doi.org/10.1126/sciadv.1400253"
     etat_lecture: ouverte
     date_verification: 2026-09-15
@@ -100,11 +100,22 @@ verifications_en_attente:
   - "Liste des douze dimensions du plancher social chez Raworth : elle est reprise de [S8],
      figure de données étendues 2, que les auteurs disent adaptée de l'article de 2017.
      À confronter à l'ouvrage de 2017 lui-même s'il est un jour fourni ; la liste du corps
-     n'en comptait que onze, la connectivité manquant, et trois libellés étaient raccourcis."
+     n'en comptait que onze, la connectivité manquant, et trois libellés étaient raccourcis.
+     VÉRIFIÉE LE 2026-09-20, DOUZE SUR DOUZE, SUR L'EXEMPLAIRE DÉCLARÉ (SHA-256 recalculé,
+     identique). La figure de données étendues 2, page PDF 16, porte exactement : water,
+     food, energy, health, connectivity, education, housing, income & work, peace & justice,
+     equality, social cohesion, political voice. Le corps du § 4 les donne DANS LE MÊME ORDRE
+     et sans omission. La mention d'adaptation est confirmée au texte — « Adapted from ref. 2
+     » sous la figure —, et la référence 2, page PDF 9, est bien l'article du Lancet
+     Planetary Health (e48-e49, 2017), NON l'ouvrage de la même année, qui y porte le numéro
+     3. CONTRÔLE POSITIF EXIGÉ AVANT DE CONCLURE : les quatre passages que cette entrée
+     déclare avoir lus se retrouvent aux pages qu'elle nomme. CE QUI RESTE, ET CE N'EST PAS
+     UN BLOCAGE : confronter à l'ouvrage de 2017 s'il est un jour fourni, la figure de 2025
+     étant la source déclarée du corps."
   # — Attributions et statuts —
   # — Renvois —
-  - "Cas de dégradations environnementales mondiales infléchies par une action coordonnée : rechercher les autres cas éventuels — pluies acides et protocole de Göteborg, pollution au plomb, moratoire sur la chasse à la baleine — avant toute formulation comparative sur l'ozone."
-  - "Sensibilité des chaînes de production : rassembler deux ou trois sources mesurant la concentration des fournisseurs ou l'exposition à une source unique"
+  - "Cas de dégradations environnementales mondiales infléchies par une action coordonnée : rechercher les autres cas éventuels — pluies acides et protocole de Göteborg, pollution au plomb, moratoire sur la chasse à la baleine — avant toute formulation comparative sur l'ozone. ÉCARTÉ LE 2026-09-20 SUR DÉCISION DE L'AUTEUR, ET LA CONDITION N'EST PAS DÉCLENCHÉE : vérifié au § 3, LE CORPS NE FORME AUCUNE COMPARAISON. Il écrit « un cas particulièrement documenté » puis, de lui-même, « Affirmer qu'il serait le seul supposerait un recensement que ce chapitre n'a pas conduit ». Le recensement reste utile et n'est pas dû : ne pas le conduire ne laisse aucune affirmation sans appui."
+  - "Sensibilité des chaînes de production : rassembler deux ou trois sources mesurant la concentration des fournisseurs ou l'exposition à une source unique. ÉCARTÉ LE 2026-09-20 SUR DÉCISION DE L'AUTEUR, ET LA CONDITION N'EST PAS DÉCLENCHÉE : vérifié au § 5, la proposition est en ::hypothese::, le corps la déclare EMPIRIQUE, nomme les mesures qui l'éprouveraient — concentration des fournisseurs, exposition à une source unique, stocks rapportés au chiffre d'affaires — et conclut de lui-même : « Leur rassemblement reste à faire pour ce corpus. » Le manque est déclaré dans le corps, non masqué."
   - "COHÉRENCE AVEC L1.C01 — CONTRÔLE FAIT LE 2026-09-19 : PAS DE CONTRADICTION, ET PAS DE
      DÉRIVATION NON PLUS. La définition biophysique de la régénération et le plafond
      écologique du § 4 ne se contredisent pas, parce qu'ils n'opèrent ni au même niveau ni
@@ -114,7 +125,8 @@ verifications_en_attente:
      c'est le résultat utile : se tenir dans l'anneau ne rend aucune activité régénérative,
      et une activité régénérative ne ramène pas à elle seule le plafond en deçà. Le corps
      n'a pas été modifié ; l'énoncé de ce résultat au § 4 est à arbitrer par l'auteur."
-resume: "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres qui en découlent : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait."
+  - "PASSE ADVERSE DU 2026-09-20 — SEPT OBJECTIONS, TOUTES TRAITÉES, ET TROIS RELEVÉS CORRIGENT LE RAPPORT. L'état examiné par la passe était bien l'état vivant (empreinte concordante), et les sept citations ont été retrouvées au mot : aucune objection fantôme. PORTÉES AU CORPS : obj 3 (le schéma du circuit est déclaré type et non modèle, et la superlative est retirée), obj 4 (« vérifiable » retiré, faute de protocole), obj 5 (le donut REPREND les limites au lieu d'en être constitué), obj 6 (les trois conditions sont des CHOIX du chapitre, non des implications du cadre), obj 2 pour sa part fondée. PORTÉE AUX ENTRÉES : obj 1, les passages chiffrés de S9 et S10 sont relevés sur les exemplaires déjà ouverts, sans acquisition nouvelle. TROIS CORRECTIONS DU RAPPORT. (1) OBJ 2 N'EST FONDÉE QU'EN PARTIE : le corps ne sur-attribue RIEN à Smith, il écrit déjà « sans que la maximisation de la performance y soit posée comme fin assignée à une politique » ; ce qui manquait d'appui était la généralisation sur la discipline, désormais attribuée au chapitre. (2) OBJ 3 VISAIT LE MAUVAIS PARAGRAPHE : l'affirmation incriminée n'était pas dans le `::etat::` cité mais dans le paragraphe qui le précède, LEQUEL NE PORTAIT AUCUNE BALISE DE RÉGIME — défaut que la passe n'a pas vu et qui est corrigé. (3) OBJ 7 EST ÉCARTÉE AVEC MOTIF : le paragraphe est déjà `::hypothese::`, l'attribution à Hamant est nominative et le corps écrit « une autre propriété PEUT ÊTRE RECHERCHÉE » ; aucun passage ne fait porter à cet entretien une propriété générale du vivant ou de l'économie. CE QUI RESTE : trois des quatre paragraphes sans balise subsistent — ouverture, exposition, clôture —, et ils sont de transition ; à arbitrer en passe 2."
+resume: "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres distincts qu'il mobilise : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, robustesse, fausse_richesse]
 renvois: [L1.C01, L1.C02, L1.C03, L1.C05, L1.C23]
 ---
@@ -123,11 +135,11 @@ renvois: [L1.C01, L1.C02, L1.C03, L1.C05, L1.C23]
 
 Ce chapitre répond à la question laissée ouverte par le précédent (L1.C03) : si la croissance matérielle perpétuelle est exclue, dans quel espace une économie peut-elle se déployer ?
 
-Il expose une représentation — l'économie comme sous-ensemble de la société, elle-même sous-ensemble de la biosphère — et deux cadres qui en dérivent : les neuf limites planétaires et l'espace du donut. Il propose enfin un déplacement d'objectif, de la performance vers la robustesse, et examine ce que ce déplacement exigerait du système de financement.
+Il expose une représentation — l'économie comme sous-ensemble de la société, elle-même sous-ensemble de la biosphère — et deux cadres distincts qu'il mobilise : les neuf limites planétaires et l'espace du donut. Il propose enfin un déplacement d'objectif, de la performance vers la robustesse, et examine ce que ce déplacement exigerait du système de financement.
 
 ## 1. Ce que le schéma du circuit économique omet
 
-La représentation la plus courante de l'activité économique est celle du circuit : deux catégories d'agents, entreprises et ménages, reliées par des flux de production, de revenu et de dépense. Le schéma est fermé sur lui-même.
+::etat:: La représentation courante de l'activité économique est celle du circuit : deux catégories d'agents, entreprises et ménages, reliées par des flux de production, de revenu et de dépense. Le schéma est fermé sur lui-même. **Ce chapitre décrit ici un type, non un modèle déterminé** : il ne rapporte cette représentation à aucun manuel ni à aucun auteur, et écrire qu'elle serait **la plus** courante serait une affirmation qu'il n'établit pas.
 
 ::etat:: Ce schéma n'est pas faux au sens où il énoncerait des propositions inexactes : c'est un modèle, et un modèle abstrait par construction. Ce qui est en cause est le domaine qu'il délimite. Aucun flux entrant de matière ou d'énergie n'y figure, aucun flux sortant de déchets ou de chaleur. Les prélèvements et les rejets n'y sont pas représentés comme faux : ils n'y sont pas représentés du tout.
 
@@ -137,7 +149,7 @@ La représentation la plus courante de l'activité économique est celle du circ
 
 ::etat:: La représentation alternative tient en trois niveaux emboîtés. La biosphère — atmosphère, océans, sols, cycles de l'eau et du carbone — constitue le niveau englobant. La société humaine, avec ses institutions, ses cultures et ses règles, s'inscrit à l'intérieur. Et l'économie, comme ensemble des dispositifs de production, d'échange et de monnaie, s'inscrit à l'intérieur de la société.
 
-::etat:: Cet emboîtement énonce une relation de dépendance, non de valeur. Il ne dit pas que la biosphère importe davantage que l'économie : il dit que la seconde suppose la première et cesse de fonctionner sans elle, alors que la réciproque est fausse. La dépendance est asymétrique et vérifiable.
+::etat:: Cet emboîtement énonce une relation de dépendance, non de valeur. Il ne dit pas que la biosphère importe davantage que l'économie : il dit que la seconde suppose la première et cesse de fonctionner sans elle, alors que la réciproque est fausse. La dépendance est asymétrique. **Le chapitre l'affirme sans donner de protocole qui l'éprouverait** : c'est une thèse de cadrage, non un résultat.
 
 ::hypothese:: L'organisation contemporaine procéderait de l'ordre inverse : les décisions sociales seraient subordonnées aux exigences économiques, et les conditions biophysiques traitées comme des contraintes externes à arbitrer. Cette inversion est une hypothèse sur le fonctionnement des institutions, pas un constat mesuré, et elle demande à être établie.
 
@@ -161,7 +173,7 @@ La représentation la plus courante de l'activité économique est celle du circ
 
 ## 4. L'espace du donut
 
-::etat:: L'économiste Kate Raworth a proposé une représentation de l'espace dans lequel une économie peut se déployer. Elle en a publié la première formulation le 13 février 2012, dans un document de travail d'Oxfam préparatoire à la conférence de Rio+20, avant de la développer dans un ouvrage de 2017, Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, et dans un article de la même année. [S7] [S8] Une version quantifiée et instrumentée du cadre a été publiée en 2025. [S8] Elle superpose deux cercles. Le cercle extérieur est le plafond écologique, constitué des limites planétaires. Le cercle intérieur est le plancher social, constitué des besoins dont aucune personne ne devrait être privée — eau, alimentation, énergie, santé, connectivité, éducation, logement, revenu et travail, paix et justice, égalité, cohésion sociale et voix politique. [S8]
+::etat:: L'économiste Kate Raworth a proposé une représentation de l'espace dans lequel une économie peut se déployer. Elle en a publié la première formulation le 13 février 2012, dans un document de travail d'Oxfam préparatoire à la conférence de Rio+20, avant de la développer dans un ouvrage de 2017, Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, et dans un article de la même année. [S7] [S8] Une version quantifiée et instrumentée du cadre a été publiée en 2025. [S8] Elle superpose deux cercles. Le cercle extérieur est le plafond écologique, **qui reprend les limites planétaires du § 3**. Le cercle intérieur est le plancher social, constitué des besoins dont aucune personne ne devrait être privée — eau, alimentation, énergie, santé, connectivité, éducation, logement, revenu et travail, paix et justice, égalité, cohésion sociale et voix politique. [S8] **Les deux cadres ne se confondent pas** : ils ont des auteurs, des histoires et des instrumentations distincts, et le donut mobilise ces limites plutôt qu'il ne les contient.
 
 ::etat:: L'anneau entre les deux cercles délimite l'espace où l'économie satisfait les besoins sans franchir les limites. Il est présenté comme espace sûr et juste pour l'humanité.
 
@@ -173,7 +185,7 @@ La représentation la plus courante de l'activité économique est celle du circ
 
 ## 5. Performance et robustesse
 
-::etat:: L'objectif ordinairement assigné à l'organisation économique est l'accroissement de la productivité : produire davantage avec des ressources données. Cet objectif est central dans la discipline depuis ses commencements — l'ouvrage de 1776 d'Adam Smith s'ouvre sur la division du travail et ses effets sur la productivité [S11] — sans que la maximisation de la performance y soit posée comme fin assignée à une politique, formulation qui appartient à une époque ultérieure. Cet objectif a des résultats mesurables et considérables sur deux siècles.
+::etat:: L'objectif ordinairement assigné à l'organisation économique est l'accroissement de la productivité : produire davantage avec des ressources données. Cet objectif est central dans la discipline depuis ses commencements — l'ouvrage de 1776 d'Adam Smith s'ouvre sur la division du travail et ses effets sur la productivité [S11] — sans que la maximisation de la performance y soit posée comme fin assignée à une politique, formulation qui appartient à une époque ultérieure. Cet objectif a des résultats mesurables et considérables sur deux siècles. **Que cet objectif soit « ordinairement assigné » et central « depuis les commencements » est une caractérisation de ce chapitre, qu'aucune source ne porte ici** : [S11] n'atteste que l'objet du premier chapitre de Smith.
 
 ::hypothese:: Une autre propriété peut être recherchée : la capacité d'un système à continuer de fonctionner sous perturbation — la robustesse, au sens qu'Olivier Hamant lui donne à partir du vivant, « la capacité d'un système à demeurer stable malgré les fluctuations » [S12]. Elle se paie en efficacité — les redondances, les réserves et les marges coûtent —, mais elle permet d'absorber des chocs qu'un système optimisé propage. L1.C23 § 2 en donne le prix — redondance, diversité, modularité — comme une réduction délibérée de l'efficacité mesurée dont quelqu'un supporte le coût.
 
@@ -185,7 +197,7 @@ La représentation la plus courante de l'activité économique est celle du circ
 
 ## 6. Ce que l'espace du donut exigerait
 
-::norme:: Trois conditions découlent de ce cadre, et elles sont d'ordre différent.
+::norme:: **Le chapitre tire de ce cadre trois conditions, et ce sont ses choix, non des implications du donut** : le cadre ne désigne à lui seul ni un critère de production à réduire, ni une définition de la régénération, ni une réforme du régime monétaire. Elles sont d'ordre différent.
 
 ::norme:: La première est de réduire les productions qui mobilisent des ressources sans satisfaire de besoin du plancher social. Elle suppose un critère permettant de les identifier, et ce critère est contestable : il engage un jugement sur ce qui constitue un besoin. Le chapitre 2 (L1.C02) en a proposé un — la valeur financière dont la contrepartie physique est une dégradation non comptabilisée — qui n'est pas le même et doit être articulé à celui-ci.
 
@@ -199,7 +211,7 @@ La représentation la plus courante de l'activité économique est celle du circ
 
 ::etat:: **Ce qui est rapporté.** Le cadre des neuf limites planétaires, ses deux mises à jour, et le compte de sept limites évaluées comme franchies. La figure du donut et ses deux bornes. Les sources sont identifiées ; plusieurs valeurs restent à vérifier.
 
-::hypothese:: **Ce qui est proposé.** Une représentation de l'économie comme sous-ensemble de la société et de la biosphère, fondée sur une dépendance asymétrique vérifiable. Un déplacement d'objectif de l'efficacité vers la robustesse, dont l'arbitrage relève de la décision collective.
+::hypothese:: **Ce qui est proposé.** Une représentation de l'économie comme sous-ensemble de la société et de la biosphère, fondée sur une dépendance asymétrique. Un déplacement d'objectif de l'efficacité vers la robustesse, dont l'arbitrage relève de la décision collective.
 
 ::etat:: **Ce que le chapitre n'établit pas.** Que l'organisation contemporaine inverse effectivement cet emboîtement — proposition sur le fonctionnement des institutions, à documenter. Ni que le rééquilibrage vers la robustesse passe nécessairement par une modification de l'émission monétaire : c'est l'hypothèse du livre, et elle commence à être examinée au chapitre suivant (L1.C05).
 
