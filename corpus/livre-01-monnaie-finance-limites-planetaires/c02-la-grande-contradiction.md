@@ -5,7 +5,7 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: brouillon
+statut: audit_factuel
 revision_de_fond: 2026-09-21
 autorite: preparatoire
 citable: false
