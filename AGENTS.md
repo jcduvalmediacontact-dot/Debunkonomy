@@ -11,8 +11,8 @@ Pour toute modification destinée au site :
    - créer un commit au message clair et descriptif ;
    - pousser ce commit vers GitHub ;
    - créer une archive ZIP datée dont le contenu correspond exactement au commit publié, sans modifications locales supplémentaires ni fichiers propres à Git ;
-   - déposer cette archive dans le dossier Google Drive `SITE Debunk’Onomy` lorsque l'accès à Google Drive est disponible.
-5. Si l'accès à Google Drive n'est pas disponible, conserver l'archive localement et signaler clairement que son dépôt dans `SITE Debunk’Onomy` reste à effectuer.
+   - déposer cette archive dans le dossier Google Drive `CORPUS Debunk'Onomy` lorsque l'accès à Google Drive est disponible.
+5. Si l'accès à Google Drive n'est pas disponible, conserver l'archive localement et signaler clairement que son dépôt dans `CORPUS Debunk'Onomy` reste à effectuer.
 
 ## Contrôles avant tout commit
 
