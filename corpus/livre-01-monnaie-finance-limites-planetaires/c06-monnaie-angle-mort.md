@@ -1,12 +1,12 @@
 ---
 chapitre: L1.C06
-titre: "La monnaie, angle mort de l'écologie politique"
+titre: "Les propositions écologistes et les conditions du crédit"
 livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-21
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -24,7 +24,7 @@ sources_primaires:
     date_verification: 2026-09-15
   - ref: S3
     nature: theorie
-    reference: "H. E. Daly, « Nationalize Money, Not Banks », Center for the Advancement of the Steady State Economy, 4 février 2013 — la monnaie comme service public, la réserve intégrale sur les dépôts à vue, et la réforme bancaire dans le cadre de l'économie stationnaire. ENTRÉE CRÉÉE le 2026-09-15 sous le mandat général de l'auteur (« applique toutes les décisions possibles ») — BRANCHE HORS LETTRE, À CONFIRMER : D21 dit A si Steady-State Economics (1977) est fourni ou ouvert, D sinon ; l'ouvrage n'a pas été obtenu, et la lettre de la décision est donc D, l'énoncé restant rapporté sans appui. Ce qui est fait ici est une troisième branche, la substitution d'un autre texte du même auteur portant le même énoncé, sur le modèle de D34 : elle est annoncée à l'auteur dans la liste des sources et se défait en retirant cette entrée et l'appel du § 4. Motif : l'énoncé du § 4 était rapporté sans appui ouvert, et l'ouvrage de 1977 que la décision envisageait est introuvable en numérique légitime ; cet article du même auteur, servi librement, le porte. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://steadystate.org/nationalize-money-not-banks/), copie servie versée au dossier (2026-09-15/c13/candidats/daly-nationalize-money-steadystate.html, 26311 caractères, SHA-256 23411EC5A75964284D9BC2D2DE3CE10E378D2FE2E7C6FC99ECA5A6D33816B88C). Passages lus : « Nationalize Money, Not Banks » ; « by Herman Daly » ; « regulated as commercial banks subject to 100% reserve requirements for demand deposits » ; « Banks cannot create money under 100% reserves ». La même entrée ouvre S7 de L1.C13."
+    reference: "H. E. Daly, « Nationalize Money, Not Banks », Center for the Advancement of the Steady State Economy, 4 février 2013 — la réserve intégrale sur les dépôts à vue et la réforme bancaire dans le cadre de l'économie stationnaire. CE QUE LES PASSAGES RELEVÉS NE PORTENT PAS, constaté le 2026-09-21 sur l'audit ciblé de Codex : la formule « la monnaie comme service public », que cette entrée avançait dans sa prose sans l'avoir relevée au texte. Elle est retirée ici et du corps ; ce qui reste est ce que les quatre passages lus établissent. ENTRÉE CRÉÉE le 2026-09-15 sous le mandat général de l'auteur (« applique toutes les décisions possibles ») — BRANCHE HORS LETTRE, À CONFIRMER : D21 dit A si Steady-State Economics (1977) est fourni ou ouvert, D sinon ; l'ouvrage n'a pas été obtenu, et la lettre de la décision est donc D, l'énoncé restant rapporté sans appui. Ce qui est fait ici est une troisième branche, la substitution d'un autre texte du même auteur portant le même énoncé, sur le modèle de D34 : elle est annoncée à l'auteur dans la liste des sources et se défait en retirant cette entrée et l'appel du § 4. Motif : l'énoncé du § 4 était rapporté sans appui ouvert, et l'ouvrage de 1977 que la décision envisageait est introuvable en numérique légitime ; cet article du même auteur, servi librement, le porte. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://steadystate.org/nationalize-money-not-banks/), copie servie versée au dossier (2026-09-15/c13/candidats/daly-nationalize-money-steadystate.html, 26311 caractères, SHA-256 23411EC5A75964284D9BC2D2DE3CE10E378D2FE2E7C6FC99ECA5A6D33816B88C). Passages lus : « Nationalize Money, Not Banks » ; « by Herman Daly » ; « regulated as commercial banks subject to 100% reserve requirements for demand deposits » ; « Banks cannot create money under 100% reserves ». La même entrée ouvre S7 de L1.C13."
     url: "https://steadystate.org/nationalize-money-not-banks/"
     etat_lecture: ouverte
     date_verification: 2026-09-15
@@ -98,12 +98,12 @@ verifications_en_attente:
   # — Cohérence avec L1.C07 fermée le 2026-09-11 par propagation, sur décision de l'auteur : deux formulations qui dépassaient ce que L1.C07 établit sont corrigées (§ 2 et § 3) ; le chapitre annonce le mécanisme de sélection sans conclure ce que L1.C07 n'établit pas —
   # — Renvois —
   # — Renvoi vers L1.C07 ajouté le 2026-09-11 —
-resume: "Les propositions écologistes se répartissent en trois familles — techniques, réglementaires, comportementales — qui rencontrent une même limite : elles ne modifient pas les conditions auxquelles le crédit est accordé. Ce chapitre soutient que cette limite est structurelle et non conjoncturelle, et examine pourquoi la question monétaire occupe une place réduite dans le débat écologique. Il ne démontre pas le mécanisme de création monétaire, qui fait l'objet du chapitre suivant."
+resume: "Ce chapitre répartit les propositions écologistes en trois familles — techniques, réglementaires, comportementales — qui rencontrent une même limite : elles ne modifient pas les conditions auxquelles le crédit est accordé. Ce chapitre soutient que cette limite est structurelle et non conjoncturelle, et examine pourquoi la question monétaire occupe une place réduite dans le débat écologique. Il ne démontre pas le mécanisme de création monétaire, qui fait l'objet du chapitre suivant."
 concepts: [essentiel_insolvable, creation_monetaire, neutralite_monetaire]
 renvois: [L1.C01, L1.C02, L1.C05, L1.C07, L1.C08, L1.C11, L1.C15, L1.C16]
 ---
 
-# La monnaie, angle mort de l'écologie politique
+# Les propositions écologistes et les conditions du crédit
 
 Ce chapitre soutient que les trois grandes familles de propositions écologistes rencontrent une même limite, et que cette limite tient aux conditions auxquelles le crédit est accordé plutôt qu'à un défaut de volonté ou d'information.
 
@@ -121,7 +121,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ## 2. Trois familles de propositions, une même limite
 
-::etat:: Les propositions issues du champ écologiste se répartissent en trois grandes familles.
+::hypothese:: Ce chapitre répartit les propositions issues du champ écologiste en trois grandes familles. **C'est une partition qu'il propose, et non un recensement** : aucune source ne l'établit ici, ni n'en garantit l'exhaustivité.
 
 ::etat:: Les propositions techniques — énergies renouvelables, rénovation, mobilités, agriculture, recyclage — supposent un financement initial. La question de son origine est le plus souvent renvoyée à la volonté politique, c'est-à-dire à l'arbitrage budgétaire que le chapitre premier (L1.C01) examine.
 
@@ -143,7 +143,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ::etat:: Ce chapitre avance que la question monétaire occupe une place réduite dans la littérature écologiste. Cette affirmation est celle qui demande le plus de prudence, et elle n'est pas établie en l'état.
 
-::etat:: Des contre-exemples existent et sont importants. L'économie écologique a produit des travaux explicitement consacrés à la monnaie ; Herman Daly, l'un de ses fondateurs, défend une réforme du système bancaire dans le cadre de l'économie stationnaire — la monnaie comme service public et la réserve intégrale sur les dépôts à vue [S3] ; Richard Douthwaite a publié en 1999 un ouvrage entièrement consacré à l'écologie de la monnaie [S6] ; la tradition des monnaies complémentaires, issue des travaux de Gesell, est ancienne et documentée [S7]. Nicholas Georgescu-Roegen lui-même, dont ce livre se réclame, appartient à ce champ [S8].
+::etat:: Des contre-exemples existent et sont importants. L'économie écologique a produit des travaux explicitement consacrés à la monnaie ; Herman Daly, l'un de ses fondateurs, défend une réforme du système bancaire dans le cadre de l'économie stationnaire — la réserve intégrale sur les dépôts à vue, sous laquelle « Banks cannot create money » [S3] ; Richard Douthwaite a publié en 1999 un ouvrage dont l'objet est l'écologie de la monnaie [S6] — son titre et son sommaire l'établissent, l'ouvrage n'ayant pas été lu en entier ; la tradition des monnaies complémentaires, issue des travaux de Gesell, est ancienne et documentée [S7]. Nicholas Georgescu-Roegen lui-même, dont ce livre se réclame, appartient à ce champ [S8].
 
 ::norme:: Ce livre ne suit pas la solution que Daly propose, et il vaut mieux le dire ici que le laisser deviner. La réserve intégrale sur les dépôts à vue appartient à la famille du cent pour cent monnaie, que Frank Knight, Irving Fisher et Frederick Soddy défendaient dans les années 1920 et dont Daly se réclame explicitement ; elle confie à l'État le contrôle de la quantité de monnaie, son auteur écrivant que le multiplicateur de dépôt vaudrait l'unité et que le Trésor émettrait ce que le public veut bien détenir [S3]. Ce livre tient la monnaie pour endogène, au sens établi en L1.C08 § 1 : sa quantité naît des décisions de crédit des banques en réponse à la demande de financement, et la banque centrale en fixe le prix et non le volume. Le désaccord porte donc sur le régime d'émission, non sur le diagnostic, que ce livre partage.
 
