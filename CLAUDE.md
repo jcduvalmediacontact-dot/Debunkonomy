@@ -166,6 +166,71 @@ Le convertisseur ne remplit délibérément que le mécanique — jugements
   du fichier).
 - Ne commite, ne pousse ni n'archive sans accord explicite (AGENTS.md).
 
+## Méthode — règles arrêtées le 2026-09-20
+
+Elles complètent ce qui précède et ne le remplacent pas. Chacune vient d'un
+défaut constaté, nommé entre parenthèses.
+
+**Ouvrir une source, c'est lire la pièce, non y localiser une phrase.**
+
+- Pièce de moins de trente pages : lecture intégrale. Au-delà : les sections
+  nommées, et l'entrée dit lesquelles ne sont pas lues. (Une pièce de douze
+  pages a été déclarée `ouverte` deux fois sans que sa note décisive, sa
+  condition d'application ni l'absence du terme qu'on lui attribuait soient
+  vues.)
+- Pour chaque énoncé du corps qu'elle appuie, l'entrée de source donne le
+  passage et la page qui le portent — ni un titre, ni un mot du résumé.
+- L'entrée porte une ligne « ce que la pièce dit contre l'usage qui en est
+  fait ». « Rien » s'y écrit en toutes lettres.
+- Extraction par `pdftotext` ou `pypdf`, contrôle positif et négatif avant tout
+  verdict d'absence (`outils_claude/lire_piece.py`). Si un site refuse le
+  téléchargement, l'auteur télécharge depuis son navigateur ; ne jamais lui
+  donner une adresse inventée.
+
+**Pistes, chiffres et signatures.**
+
+- Un chiffre issu d'une recherche assistée est une piste. Il n'entre au corps à
+  l'indicatif qu'avec un appel `[Sn]` vers une pièce lue qui le porte. Un énoncé
+  chiffré sans appel est invisible pour E-L4.
+- Un récapitulatif ne répète pas l'appel : lorsqu'un paragraphe reprend sans
+  ajout des chiffres sourcés juste au-dessus, y remettre `[Sn]` alourdit le
+  texte et laisse croire que l'appel couvre une conclusion nouvelle.
+- Une entrée de source, une signature. Pas d'entrée composite ; pas d'appel
+  double où une source non ouverte accompagne une source ouverte.
+- Une école n'est pas portée par le texte d'un seul de ses membres.
+- Si aucune pièce ne tranche, l'énoncé redescend en `::hypothese::` ou en
+  question ouverte. Aucune relecture par un modèle ne tient lieu de la revue
+  humaine qu'un arbitrage attend.
+
+**Renvois et compteurs.**
+
+- Un renvoi qui déplace une attribution vers un autre chapitre donne l'ancre
+  exacte, dit que la pièce est portée là-bas, **et donne son état de lecture
+  là-bas**. Modèle : L1.C09 § 5.
+- Avant d'écrire `Lx.Cy § n`, ouvrir le chapitre cible et vérifier le numéro :
+  une réécriture déplace les sections sans prévenir.
+- Aucun compteur recopié à la main dans un corps. (Un relevé du registre a
+  périmé en quatre heures.)
+
+**Objections et audits.**
+
+- Le rédacteur ne rejette ni ne restreint seul une objection. Chaque rejet
+  reçoit une ligne de motif, relue par le superviseur ou par l'auteur.
+- Claude ne conduit jamais l'audit tiers d'un chapitre
+  (`protocoles/audit-contradictoire.md`). Une passe qu'il ferait malgré tout
+  vaut passe adverse, et se déclare telle.
+- Un audit confié à un autre modèle reçoit les extraits des pièces en jeu, non
+  le seul chapitre.
+- « A résisté à N audits » ne s'emploie nulle part comme argument de solidité.
+
+**Charge d'arbitrage de l'auteur.**
+
+- Au plus cinq décisions soumises par jour, classées par impact. Ce qui se
+  règle par un contrôle mécanique passe par un script.
+- Pas de nouveau registre ni de nouveau tableau de bord. Une note dit en tête ce
+  qu'elle tranche, sans gras ni capitales à chaque ligne : le prochain lecteur
+  est humain.
+
 ## Écarts connus entre convention et dépôt
 
 Signaler ces points à l'utilisateur avant d'agir dessus, plutôt que d'y toucher
