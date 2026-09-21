@@ -144,7 +144,7 @@ arbitrages:
       portant un passif d'émission. A35 = A35a.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L1.C29, L19.C05, L20.C24, L20.C26, L11.C09]
-    maj: 2026-09-20
+    maj: 2026-09-21
 
   - id: A35b
     objet: "Nature, exigibilité, contrepartie et extinction du passif"
@@ -161,7 +161,7 @@ arbitrages:
       L'EUROSYSTÈME RÉSERVÉE. JALON : comptable national.
     texte: protocoles/passe-2.md
     chapitres: [L10.C06, L19.C02, L19.C06, L19.C10, L1.C31]
-    maj: 2026-09-20
+    maj: 2026-09-21
 
   - id: A36
     objet: "La nature de la fonte"
@@ -313,7 +313,7 @@ arbitrages:
       touchée. La forme reste un PARAMÈTRE.
     texte: protocoles/passe-2.md
     chapitres: [L20.C24, L20.C25, L20.C26, L13.C01]
-    maj: 2026-09-16
+    maj: 2026-09-21
 
   - id: A38
     objet: "L'épargne retraite est-elle de la thésaurisation"
