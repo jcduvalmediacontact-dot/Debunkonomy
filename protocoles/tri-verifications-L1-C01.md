@@ -4,8 +4,15 @@
 statut changé.
 
 **État** : `brouillon`, `type: chapitre`, `revision_de_fond: 2026-09-20`, régime
-`hybride`, **ZÉRO source**, `renvois` **vide**, 4 concepts, 192 lignes — le plus
-long de la première partie.
+`hybride`, **ZÉRO source**, `renvois` portant **L1.C05**, 4 concepts, 192 lignes —
+le plus long de la première partie.
+
+> **CORRECTION DE CE DOSSIER, faite à l'application.** Il écrivait d'abord
+> « `renvois` **vide** ». C'est faux : le champ porte `L1.C05`, en séquence bloc.
+> Le relevé initial n'affichait que la ligne `renvois:` sans ses lignes suivantes.
+> L'erreur a failli casser le fichier — le remplacement préparé aurait produit un
+> `renvois:` en flow suivi de son ancienne séquence bloc. **Une garde
+> `yaml.safe_load` l'a refusé avant toute écriture.**
 
 ---
 

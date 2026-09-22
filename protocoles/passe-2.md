@@ -7984,3 +7984,22 @@ la chaîne causale des deux chapitres, un par un, et soit aligner leur régime,
 soit écrire pourquoi ils diffèrent. L1.C02 la ramène explicitement au statut
 d'hypothèse depuis le lot du 2026-09-22 ; si L1.C01 l'énonce plus fort sans le
 dire, c'est L1.C01 qui dépasse ses pièces.
+
+## RELIQUAT DU SOLDE L1.C01 — DEUX RENVOIS SANS MATRICULE, 2026-09-22
+
+Les vingt-sept vérifications de L1.C01 sont soldées ce jour, aucune n'étant une
+tâche factuelle ouverte. Deux renvoient ici, et **pour une raison qui n'est pas
+documentaire** : elles demandent d'ajouter un renvoi « quand le chapitre aura son
+identifiant ».
+
+- **La coordination internationale**, chapitre du Livre 3, sans matricule attribué ;
+- **Le régime de preuve et la certification**, chapitre sans matricule attribué.
+
+**ON NE PEUT PAS ÉCRIRE UN RENVOI VERS UN CHAPITRE QUI N'A PAS DE MATRICULE**, et
+`controle.py` bloquerait un `renvois` pointant sur un identifiant inexistant.
+Ces deux lignes ne sont donc pas des tâches mais des rappels, portés ici pour ne
+pas disparaître avec le solde.
+
+**CE QU'IL FAUDRA FAIRE, ET DANS CET ORDRE** : attribuer les matricules dans
+`corpus/livres.yaml` — où un matricule est permanent et ne se renumérote jamais
+—, puis ajouter les renvois à L1.C01. L'inverse est impossible.

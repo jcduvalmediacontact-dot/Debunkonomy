@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-09-22
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -14,47 +14,75 @@ sources_primaires: []
 chapitres_sources: [L1.C07, L1.C08, L1.C09, L1.C11, L1.C12, L1.C14, L1.C15, L1.C16]
 verifiee_le: 2026-09-22
 verifications_en_attente:
-  - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
-     RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
-     (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
-     RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
-     PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
-     individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
-     sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
-     « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
-     le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
-     « l'échappement à la qualification de dette », qui est ce dont la formule
-     d'affectation décide."
-  - "Production mondiale de richesse : série longue à sourcer (Banque mondiale ou Maddison Project)"
-  - "Émissions mondiales de GES : dernière année disponible et tendance (GIEC ou Global Carbon Project)"
-  - "Extraction mondiale de matières : série longue (PNUE, Global Material Flows)"
-  - "Artificialisation des sols : périmètre et source (FAO ou Copernicus)"
-  - "Déclin des populations de vertébrés : chiffre et méthode (Indice Planète Vivante)"
-  - "Origine du terme « polycrise » : paternité et date à établir"
-  - "Traitement de la monnaie comme instrument neutre dans les manuels d'économie : relever deux ou trois manuels de référence et citer le passage"
-  - "Découplage matière/PIB dans les économies avancées : mesures existantes, et effet de la prise en compte des flux incorporés dans les importations"
-  - "Horizon d'évaluation usuel des investisseurs : ordre de grandeur à sourcer"
-  - "Durée de maturité d'un peuplement forestier : essence et critère retenus pour l'ordre de grandeur de quatre-vingts ans"
-  - "Volumes des dispositifs existants de financement de la régénération : paiements pour services environnementaux, crédits carbone, obligations vertes"
-  - "Ordre de grandeur des besoins mondiaux de régénération, comparé aux capacités budgétaires publiques mobilisables"
-  - "Durée moyenne d'un engagement budgétaire pluriannuel avant révision ou suppression : cas documentés"
-  - "COHÉRENCE — L1.C08 (audit du 2026-09-03) ajoute aux conditions de la chaîne causale dette → croissance une condition d'accumulation : la contrainte ne s'exerce que si les créanciers épargnent une part de leurs revenus d'intérêts au lieu de la redépenser (Jackson & Victor 2015 ; Cahen-Fourot & Lavoie 2016). Reporter cette condition dans la § 1 de ce chapitre lors de sa prochaine révision."
-  - "Renvoi à ajouter vers le chapitre du Livre 3 sur la coordination internationale, quand il aura son identifiant"
-  - "Renvoi à ajouter vers le chapitre consacré au régime de preuve et à la certification, quand il aura son identifiant"
-  - "TARIFICATION — part des émissions mondiales couvertes par un prix du carbone et niveaux de prix pratiqués : source annuelle et année de référence"
-  - "TARIFICATION — estimations du coût social du carbone : fourchette, méthode et dispersion"
-  - "TARIFICATION — résultats documentés des dispositifs de réduction du dioxyde de soufre : source"
-  - "TARIFICATION — volume des paiements pour services environnementaux et marchés de compensation, rapporté aux besoins de régénération"
-  - "TARIFICATION — travaux sur l'additionnalité et la vérification dans les marchés de compensation"
-  - "TARIFICATION — cas de recyclage d'une recette fiscale vers la régénération : durée des affectations"
-  - "TARIFICATION — part des dispositifs volontaires et des dispositifs adossés à une contrainte publique, selon l'échelle"
-  - "TARIFICATION — rechercher un mécanisme finançant durablement une régénération sans produit vendable, sans affectation budgétaire reconduite et sans arbitrage politique récurrent"
-  - 'HANPP — définir l''échelle, l''année de référence et le seuil de l''enveloppe ; le niveau actuel correspond à une limite planétaire évaluée comme franchie et ne peut donc pas servir de référence'
-  - 'HANPP — distinguer l''appropriation humaine de la production primaire nette, qui mesure une pression sur le système, du critère d''éligibilité d''une activité régénérative, qui porte sur l''amélioration d''un fonds'
+  # SOLDÉE le 2026-09-22 (lot C01) — close par sa lettre, ET VÉRIFIÉE APPLIQUÉE : « contrepartie collective » figure au corps, « régénérative » cinq fois, et « sans dette » en est sorti. Texte d'origine :
+  # - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
+  # RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
+  # (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
+  # RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
+  # PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
+  # individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
+  # sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
+  # « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
+  # le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
+  # « l'échappement à la qualification de dette », qui est ce dont la formule
+  # d'affectation décide."
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Production mondiale de richesse : série longue à sourcer (Banque mondiale ou Maddison Project)"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Émissions mondiales de GES : dernière année disponible et tendance (GIEC ou Global Carbon Project)"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Extraction mondiale de matières : série longue (PNUE, Global Material Flows)"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Artificialisation des sols : périmètre et source (FAO ou Copernicus)"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Déclin des populations de vertébrés : chiffre et méthode (Indice Planète Vivante)"
+  # SOLDÉE le 2026-09-22 (lot C01) — TRAITÉE DANS LE CORPS : le § 1 n'affirme plus que le terme « a été forgé » — une paternité sans auteur ni date — mais qu'il « s'est imposé ». Texte d'origine :
+  # - "Origine du terme « polycrise » : paternité et date à établir"
+  # SOLDÉE le 2026-09-22 (lot C01) — TRAITÉE PAR RENVOI, ET C'EST LA VOIE D'UNE SYNTHÈSE : ses sources sont des chapitres, non des pièces. Le § 2 renvoie désormais à L1.C05 § 5, qui porte le constat sur [S6] et [S7], tous deux ouverts. Texte d'origine :
+  # - "Traitement de la monnaie comme instrument neutre dans les manuels d'économie : relever deux ou trois manuels de référence et citer le passage"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Découplage matière/PIB dans les économies avancées : mesures existantes, et effet de la prise en compte des flux incorporés dans les importations"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Horizon d'évaluation usuel des investisseurs : ordre de grandeur à sourcer"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Durée de maturité d'un peuplement forestier : essence et critère retenus pour l'ordre de grandeur de quatre-vingts ans"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Volumes des dispositifs existants de financement de la régénération : paiements pour services environnementaux, crédits carbone, obligations vertes"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Ordre de grandeur des besoins mondiaux de régénération, comparé aux capacités budgétaires publiques mobilisables"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : le corps NE PORTE AUCUNE GRANDEUR CHIFFRÉE, contrôlé sur les nombres écrits en chiffres ET en lettres. On ne source pas une série pour un énoncé qui n'existe pas. **CETTE LIGNE REDEVIENT ACTIVE si une grandeur entre au corps.** Texte d'origine :
+  # - "Durée moyenne d'un engagement budgétaire pluriannuel avant révision ou suppression : cas documentés"
+  # SOLDÉE le 2026-09-22 (lot C01) — FONDÉE, ET TRAITÉE DANS LE CORPS. Le § 1 écrivait la chaîne causale plus fermement que L1.C08 ne la soutient. La borne de L1.C08 y entre : ni la création de crédit ni la perception d'intérêts ne produisent à elles seules un impératif de croissance. Texte d'origine :
+  # - "COHÉRENCE — L1.C08 (audit du 2026-09-03) ajoute aux conditions de la chaîne causale dette → croissance une condition d'accumulation : la contrainte ne s'exerce que si les créanciers épargnent une part de leurs revenus d'intérêts au lieu de la redépenser (Jackson & Victor 2015 ; Cahen-Fourot & Lavoie 2016). Reporter cette condition dans la § 1 de ce chapitre lors de sa prochaine révision."
+  # SOLDÉE le 2026-09-22 (lot C01) — ELLE ATTEND UN IDENTIFIANT QUI N'EXISTE PAS, et une note qui renvoie à un acte futur doit nommer un acte qui existe. Rappel, non tâche. Texte d'origine :
+  # - "Renvoi à ajouter vers le chapitre du Livre 3 sur la coordination internationale, quand il aura son identifiant"
+  # SOLDÉE le 2026-09-22 (lot C01) — MÊME MOTIF. Texte d'origine :
+  # - "Renvoi à ajouter vers le chapitre consacré au régime de preuve et à la certification, quand il aura son identifiant"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — part des émissions mondiales couvertes par un prix du carbone et niveaux de prix pratiqués : source annuelle et année de référence"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — estimations du coût social du carbone : fourchette, méthode et dispersion"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — résultats documentés des dispositifs de réduction du dioxyde de soufre : source"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — volume des paiements pour services environnementaux et marchés de compensation, rapporté aux besoins de régénération"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — travaux sur l'additionnalité et la vérification dans les marchés de compensation"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — cas de recyclage d'une recette fiscale vers la régénération : durée des affectations"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — part des dispositifs volontaires et des dispositifs adossés à une contrainte publique, selon l'échelle"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET, MÊME MOTIF : le § 4 traite la tarification QUALITATIVEMENT, sans aucune part, aucun prix, aucun volume. **Redevient active si une grandeur entre au corps.** Texte d'origine :
+  # - "TARIFICATION — rechercher un mécanisme finançant durablement une régénération sans produit vendable, sans affectation budgétaire reconduite et sans arbitrage politique récurrent"
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : HANPP N'EST PAS AU CORPS, vérifié — ni le sigle, ni « production primaire ». Texte d'origine :
+  # - 'HANPP — définir l''échelle, l''année de référence et le seuil de l''enveloppe ; le niveau actuel correspond à une limite planétaire évaluée comme franchie et ne peut donc pas servir de référence'
+  # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : HANPP N'EST PAS AU CORPS, vérifié — ni le sigle, ni « production primaire ». Texte d'origine :
+  # - 'HANPP — distinguer l''appropriation humaine de la production primaire nette, qui mesure une pression sur le système, du critère d''éligibilité d''une activité régénérative, qui porte sur l''amélioration d''un fonds'
 resume: "Les crises écologiques, sociales et financières contemporaines procèdent d'une mécanique commune : un système monétaire qui émet la monnaie contre dette et rendement financier. Ce chapitre énonce et argumente trois propositions sans encore les démontrer. Cette mécanique oriente l'allocation du crédit vers les activités extractives. La régénération des fonds naturels, définie en termes physiques, n'y est financée que lorsqu'un produit vendable s'y trouve attaché. Et sa prise en charge exige un financement permanent qu'aucun mécanisme budgétaire ne peut garantir, ce qui conduit à examiner une modification de l'émission monétaire elle-même — soumise à ses propres conditions."
 concepts: [polycrise, neutralite_monetaire, systeme_monetaire_et_financier, economie_de_lequilibre]
 renvois:
   - L1.C05
+  - L1.C08
 ---
 
 # Pourquoi l'humanité a besoin d'un nouveau paradigme économique
@@ -67,19 +95,19 @@ Ces trois propositions sont ici énoncées et argumentées ; elles ne sont pas d
 
 Le débat public traite les événements suivants comme relevant de rubriques distinctes : une canicule, une banque centrale qui relève ses taux, une forêt qui brûle, une dette souveraine qui inquiète les marchés, une nappe phréatique qui s'épuise, un plan de relance, une espèce qui disparaît, un record boursier. L'économie d'un côté, l'écologie de l'autre, le social ailleurs.
 
-Le terme de « polycrise » a été forgé pour décrire cet empilement — crise climatique, crise de la biodiversité, crise des dettes souveraines, crise sociale, crise démocratique — comme si tout arrivait simultanément par coïncidence.
+Le terme de « polycrise » s'est imposé pour décrire cet empilement — crise climatique, crise de la biodiversité, crise des dettes souveraines, crise sociale, crise démocratique — comme si tout arrivait simultanément par coïncidence.
 
 Un enchaînement causal relie pourtant ces éléments. On extrait toujours plus de ressources, alors même que les limites physiques de la planète sont documentées, parce qu'il faut produire davantage. Il faut produire davantage parce qu'il faut de la croissance. La croissance est nécessaire parce qu'il faut dégager de la rentabilité, rembourser des dettes et verser des intérêts.
 
 Cet enchaînement s'énonce à l'échelle mondiale, et non nationale. Plusieurs économies avancées présentent une consommation matérielle intérieure stabilisée ou en recul alors que leur produit continue de croître. Ces mesures sont discutées : leur portée dépend du traitement des flux de matière incorporés dans les importations, qui déplacent les prélèvements sans les supprimer. La proposition retenue ici porte donc sur le total mondial, seul périmètre où les déplacements ne masquent rien.
 
-L'enchaînement suppose par ailleurs deux conditions qu'il faut énoncer plutôt que taire : que la charge d'intérêt ne soit pas absorbée par les défauts, les restructurations ou l'inflation, et que la part des profits dans le revenu reste stable. Ces conditions ne sont pas toujours réunies, et les chapitres consacrés à la création monétaire examinent ce qu'il advient de la proposition lorsqu'elles ne le sont pas.
+L'enchaînement suppose par ailleurs deux conditions qu'il faut énoncer plutôt que taire : que la charge d'intérêt ne soit pas absorbée par les défauts, les restructurations ou l'inflation, et que la part des profits dans le revenu reste stable. Ces conditions ne sont pas toujours réunies, et les chapitres consacrés à la création monétaire examinent ce qu'il advient de la proposition lorsqu'elles ne le sont pas. **Et l'enchaînement ne tient pas par les seuls intérêts** : L1.C08 établit, sur un modèle à cohérence stock-flux, que ni la création de crédit ni la perception d'intérêts ne produisent à elles seules un impératif de croissance, la dépendance résultant d'une combinaison de mécanismes.
 
 ::hypothese:: Sous ces réserves, ces crises ne sont pas des phénomènes indépendants. Elles procèdent d'une même mécanique de fond, qui détermine ce qui est rentable et ce qui ne l'est pas, ce qui est financé et ce qui est abandonné. Cette mécanique est le système monétaire et financier.
 
 ## 2. Ce que finance le crédit, et ce qu'il ne finance pas
 
-Les manuels d'économie décrivent généralement la monnaie comme un instrument neutre : un voile posé sur les échanges, un outil facilitant le commerce comme l'huile facilite le mouvement d'un engrenage.
+Les manuels d'économie décrivent généralement la monnaie comme un instrument neutre — constat que L1.C05 § 5 porte sur deux pièces ouvertes, des manuels et un cours de première année — : un voile posé sur les échanges, un outil facilitant le commerce comme l'huile facilite le mouvement d'un engrenage.
 
 La proposition défendue ici ne conteste pas cette neutralité au sens où l'entend la littérature contemporaine — l'absence d'effet de la quantité de monnaie sur les grandeurs réelles à long terme, question distincte et largement débattue par ailleurs. Elle porte sur autre chose : sur l'orientation sectorielle du crédit. Les conditions dans lesquelles la monnaie est émise déterminent quelles activités trouvent un financement et lesquelles n'en trouvent pas.
 
