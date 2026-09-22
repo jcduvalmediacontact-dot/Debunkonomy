@@ -100,16 +100,17 @@ verifications_en_attente:
   # TOUT PASSAGE À `verifie`. Il vient de l'objection d'audit du 2026-09-18 et n'est
   # adossé à aucune pièce ouverte ici. Comptes nationaux ou base sectorielle de la
   # banque centrale ; préciser le périmètre et la période."
-  - "DEUX CLAUSES EMPIRIQUES SANS APPEL DE SOURCE, relevées par l'audit et vérifiées
-     présentes : au § 1, « celles des économies observées », qui qualifie les conditions
-     d'états de fait ; au § 3, « les prix des actifs financés par le crédit montent avec
-     le crédit disponible », qui pose une relation causale générale.
-     TRAITÉ LE 2026-09-20 : les deux clauses sont CONSERVÉES ET DÉCLARÉES NON
-     ÉTABLIES dans le corps. La première pèse davantage : elle siégeait dans un
-     paragraphe `::etat::` et transposait aux économies observées les conditions
-     d'un MODÈLE — [S8] ne déclare qu'un passage lu, et c'est le résultat NÉGATIF
-     de ce modèle. LA TÂCHE SUBSISTE : trouver l'appui, ou maintenir la
-     déclaration."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : elle écrit « TRAITÉ LE 2026-09-20 ». Les deux clauses sont conservées et déclarées non établies dans le corps. Texte d'origine :
+  # - "DEUX CLAUSES EMPIRIQUES SANS APPEL DE SOURCE, relevées par l'audit et vérifiées
+  # présentes : au § 1, « celles des économies observées », qui qualifie les conditions
+  # d'états de fait ; au § 3, « les prix des actifs financés par le crédit montent avec
+  # le crédit disponible », qui pose une relation causale générale.
+  # TRAITÉ LE 2026-09-20 : les deux clauses sont CONSERVÉES ET DÉCLARÉES NON
+  # ÉTABLIES dans le corps. La première pèse davantage : elle siégeait dans un
+  # paragraphe `::etat::` et transposait aux économies observées les conditions
+  # d'un MODÈLE — [S8] ne déclare qu'un passage lu, et c'est le résultat NÉGATIF
+  # de ce modèle. LA TÂCHE SUBSISTE : trouver l'appui, ou maintenir la
+  # déclaration."
   # SOLDÉE le 2026-09-22 — traitée par scission, voir la ligne détaillée ci-dessous. Texte d'origine :
   # - "ROSA [S5] — objection déjà inscrite, confirmée par l'audit : le § 3 fait porter à
   # l'entrée deux énoncés et l'exemplaire ouvert n'en porte qu'un."
@@ -130,40 +131,51 @@ verifications_en_attente:
   # 4. § 4 : les blocages de la décision publique relèvent d'abord de l'économie politique (passager clandestin, arbitrage électoral) [S11] ; le chapitre le dit et n'attribue au régime monétaire que la part budgétaire.
   # 5. § 5 : marqueur ::hypothese:: ajouté.
   # — Corrections identifiées à la conversion —
-  - "Les trois personnages sont des idéaux-types au sens de Weber [S9] : construits par accentuation de traits, non des cas documentés. Les chiffres qui les accompagnent sont des ordres de grandeur plausibles, non des données."
+  # SOLDÉE le 2026-09-22 — ce n'est pas une tâche mais une déclaration de statut, ET LE CORPS LA PORTE : « idéaux-types » et Weber y figurent. Texte d'origine :
+  # - "Les trois personnages sont des idéaux-types au sens de Weber [S9] : construits par accentuation de traits, non des cas documentés. Les chiffres qui les accompagnent sont des ordres de grandeur plausibles, non des données."
   # — Objections acceptées comme limites, mentionnées dans le texte —
-  - "LIMITE — Lissage intertemporel (Modigliani, Friedman) [S12] : l'endettement des ménages s'explique aussi par un arbitrage rationnel sur le cycle de vie ; le chapitre le mentionne et n'attribue au régime que la part de contrainte."
-  - "LIMITE — Externalités et passager clandestin (Pigou, Nordhaus) [S11] : les blocages climatiques s'expliquent en partie indépendamment du mode d'émission ; mentionné en § 4."
-  - "LIMITE — « Millions de PME » : la contrainte de croissance d'une PME tient aussi à la concurrence et au marché, non au seul crédit. Le chapitre le dit ; le personnage reste un idéal-type."
+  # SOLDÉE le 2026-09-22 — limite, non tâche. LE CORPS LA PORTE — l'arbitrage sur le cycle de vie y est mentionné. Sa place est le corps, non cette liste. Texte d'origine :
+  # - "LIMITE — Lissage intertemporel (Modigliani, Friedman) [S12] : l'endettement des ménages s'explique aussi par un arbitrage rationnel sur le cycle de vie ; le chapitre le mentionne et n'attribue au régime que la part de contrainte."
+  # SOLDÉE le 2026-09-22 — limite, non tâche. LE CORPS LA PORTE — le passager clandestin est au § 4, et le lot du 2026-09-22 y a déclaré sans appui la clause des mandats courts. Texte d'origine :
+  # - "LIMITE — Externalités et passager clandestin (Pigou, Nordhaus) [S11] : les blocages climatiques s'expliquent en partie indépendamment du mode d'émission ; mentionné en § 4."
+  # SOLDÉE le 2026-09-22 — limite, non tâche. LE CORPS LA PORTE — il dit la concurrence et maintient le personnage en idéal-type. Texte d'origine :
+  # - "LIMITE — « Millions de PME » : la contrainte de croissance d'une PME tient aussi à la concurrence et au marché, non au seul crédit. Le chapitre le dit ; le personnage reste un idéal-type."
   # — Données à sourcer —
-  - "D44 SANS OBJET, constaté le 2026-09-16 sur décision de l'auteur (branche R) : la phrase « Les indices boursiers battent des records, les grandes fortunes prospèrent » NE FIGURE PLUS dans le corps du chapitre — elle en était sortie avant cette date sans que cette ligne l'enregistre. Le point est porté par L1.C02, désormais sourcé sur Oxfam et la Banque mondiale."
-  - "Jebb et al., « Happiness, income satiation and turning points around the world », Nature Human Behaviour, 2(1), p. 33-38, 2018 : source des méta-analyses de seuils par région, à ajouter si le chapitre développe la question."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : « SANS OBJET, constaté » sur décision de l'auteur. Texte d'origine :
+  # - "D44 SANS OBJET, constaté le 2026-09-16 sur décision de l'auteur (branche R) : la phrase « Les indices boursiers battent des records, les grandes fortunes prospèrent » NE FIGURE PLUS dans le corps du chapitre — elle en était sortie avant cette date sans que cette ligne l'enregistre. Le point est porté par L1.C02, désormais sourcé sur Oxfam et la Banque mondiale."
+  # SOLDÉE le 2026-09-22 — SOURCE CONDITIONNELLE NON DÉCLENCHÉE : elle ne vaut que « si le chapitre développe la question ». Contrôlé le 2026-09-22 : le corps effleure la saturation du bien-être sans la développer et ne porte aucun seuil chiffré. LA CONDITION REDEVIENT ACTIVE si un seuil entre au corps. Texte d'origine :
+  # - "Jebb et al., « Happiness, income satiation and turning points around the world », Nature Human Behaviour, 2(1), p. 33-38, 2018 : source des méta-analyses de seuils par région, à ajouter si le chapitre développe la question."
   # — Sources non ouvertes par un humain —
-  - "SOLDÉE LE 2026-09-20, ET ELLE ÉTAIT PÉRIMÉE SUR DEUX PLANS. Cette ligne portait : « S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé. » PREMIER : les ONZE entrées de ce chapitre sont aujourd'hui à etat_lecture: ouverte, datées des 15 et 16 septembre 2026, et la ligne n'avait pas été soldée quand elles l'ont été ; elle contredisait donc les champs du même en-tête. SECOND : elle nommait S1, qui n'est plus une entrée de ce chapitre. LEÇON À GARDER : une ligne de vérification qui porte un état de lecture doit être soldée le jour où l'état change, sinon deux endroits du fichier se contredisent sans qu'aucun contrôle le voie — controle.py lit etat_lecture, jamais la prose des vérifications."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : « SOLDÉE LE 2026-09-20 ». Texte d'origine :
+  # - "SOLDÉE LE 2026-09-20, ET ELLE ÉTAIT PÉRIMÉE SUR DEUX PLANS. Cette ligne portait : « S1, S5, S9, S10, S11, S12 : ouvrages non ouverts (Deep Research affirme les avoir ouverts ; non confirmé). S3, S4, S8 : DOI confirmés, articles non ouverts. S7 : recoupé. » PREMIER : les ONZE entrées de ce chapitre sont aujourd'hui à etat_lecture: ouverte, datées des 15 et 16 septembre 2026, et la ligne n'avait pas été soldée quand elles l'ont été ; elle contredisait donc les champs du même en-tête. SECOND : elle nommait S1, qui n'est plus une entrée de ce chapitre. LEÇON À GARDER : une ligne de vérification qui porte un état de lecture doit être soldée le jour où l'état change, sinon deux endroits du fichier se contredisent sans qu'aucun contrôle le voie — controle.py lit etat_lecture, jamais la prose des vérifications."
   # — Cohérence interne —
-  - "COHÉRENCE AVEC L1.C08 § 2 — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT, ET REJOUABLE.
-     Les deux formulations disent la même chose et le § 1 n'ajoute rien : l'argument des
-     intérêts « jamais créés » est faux tel quel ; les revenus d'intérêts reviennent en
-     dépense ; la contrainte est CONDITIONNELLE et apparaît sous deux conditions jointes —
-     l'encours de dette croît, et les créanciers accumulent au lieu de dépenser. Les deux
-     chapitres s'appuient sur les modèles à cohérence stock-flux de Jackson et Victor, que
-     L1.C08 porte aussi. ANCRAGE : L1.C08 était à revision_de_fond 2026-09-17 au moment du
-     contrôle. SI CETTE DATE BOUGE, LE CONTRÔLE EST À REFAIRE, et cette ligne redevient une
-     attente."
-  - "COHÉRENCE DES RENVOIS ET DU VOCABULAIRE — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT.
-     L1.C15 et L1.C06 sont l'un et l'autre déclarés en renvoi et appelés dans le corps ;
-     `essentiel_insolvable` est déclaré en concept et porté dans le corps sous le nom de son
-     fichier de vocabulaire, dont la première occurrence est L1.C06. Rien à corriger."
-  - "NOM PROVISOIRE DE `sisyphe_economique` — ÉTAT VÉRIFIÉ LE 2026-09-19, ET CE N'EST PAS
-     UNE TÂCHE DOCUMENTAIRE. Le terme figure bien au vocabulaire, avec L1.C14 pour première
-     occurrence, et sa définition DÉCLARE ELLE-MÊME le nom provisoire : « Nom provisoire
-     (celui du livre), à confirmer en passe 2. » L'état est donc conforme à ce que cette
-     ligne demandait. CE QUI RESTE EST UN ARBITRAGE DE L'AUTEUR en passe 2 : garder le nom
-     du livre, ou en retenir un autre. Le corpus ne le rend pas à sa place."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : « CONTRÔLE FAIT LE 2026-09-19, CONCORDANT », et rejouable. Texte d'origine :
+  # - "COHÉRENCE AVEC L1.C08 § 2 — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT, ET REJOUABLE.
+  # Les deux formulations disent la même chose et le § 1 n'ajoute rien : l'argument des
+  # intérêts « jamais créés » est faux tel quel ; les revenus d'intérêts reviennent en
+  # dépense ; la contrainte est CONDITIONNELLE et apparaît sous deux conditions jointes —
+  # l'encours de dette croît, et les créanciers accumulent au lieu de dépenser. Les deux
+  # chapitres s'appuient sur les modèles à cohérence stock-flux de Jackson et Victor, que
+  # L1.C08 porte aussi. ANCRAGE : L1.C08 était à revision_de_fond 2026-09-17 au moment du
+  # contrôle. SI CETTE DATE BOUGE, LE CONTRÔLE EST À REFAIRE, et cette ligne redevient une
+  # attente."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : « CONTRÔLE FAIT, CONCORDANT — rien à corriger ». Texte d'origine :
+  # - "COHÉRENCE DES RENVOIS ET DU VOCABULAIRE — CONTRÔLE FAIT LE 2026-09-19, CONCORDANT.
+  # L1.C15 et L1.C06 sont l'un et l'autre déclarés en renvoi et appelés dans le corps ;
+  # `essentiel_insolvable` est déclaré en concept et porté dans le corps sous le nom de son
+  # fichier de vocabulaire, dont la première occurrence est L1.C06. Rien à corriger."
+  # SOLDÉE le 2026-09-22 — ARBITRAGE D'AUTEUR EN PASSE 2, non tâche documentaire : la ligne le dit elle-même, et le vocabulaire déclare déjà le nom provisoire. Texte d'origine :
+  # - "NOM PROVISOIRE DE `sisyphe_economique` — ÉTAT VÉRIFIÉ LE 2026-09-19, ET CE N'EST PAS
+  # UNE TÂCHE DOCUMENTAIRE. Le terme figure bien au vocabulaire, avec L1.C14 pour première
+  # occurrence, et sa définition DÉCLARE ELLE-MÊME le nom provisoire : « Nom provisoire
+  # (celui du livre), à confirmer en passe 2. » L'état est donc conforme à ce que cette
+  # ligne demandait. CE QUI RESTE EST UN ARBITRAGE DE L'AUTEUR en passe 2 : garder le nom
+  # du livre, ou en retenir un autre. Le corpus ne le rend pas à sa place."
   # — Renvois —
   # SOLDÉE le 2026-09-22 — TROISIÈME VOIE, expressément autorisée par l'auteur : ni sourcée ni retirée, la clause SORT DE L'APPEL [S11] et reste déclarée sans appui ouvert, au conditionnel. Le paragraphe étant en ::etat::, la déclaration est explicite — sans elle, le régime la donnerait pour un constat. Texte d'origine :
   # - "Sourcer ou retirer la clause du paragraphe sur les blocages d'économie politique : « les bénéfices d'une politique climatique sont diffus et différés, ses coûts concentrés et immédiats, ce qui défavorise structurellement les mandats courts ». Elle était adossée à S11 avec Nordhaus ; la réduction de S11 du 2026-09-15 la laisse sans appui ouvert, Buchanan et Tullock développant la configuration inverse. Le passager clandestin, lui, est porté par Nordhaus."
-  - "LIMITE DE PÉRIMÈTRE ACCEPTÉE PAR L'AUTEUR LE 2026-09-20, ET CE N'EST PAS UNE TÂCHE. L'audit tiers reprochait au chapitre (§ 4 de son rapport, point 3) de raisonner « comme si 100 % de la masse monétaire provenait du crédit bancaire privé », en sous-estimant la monnaie centrale non-crédit et les achats d'actifs. DÉCISION : LE CHAPITRE NE SOUTIENT PAS CETTE PROPOSITION ET N'A PAS À L'AJOUTER. Son objet est la figure de Sisyphe et la contrainte de revenu, non le périmètre de la création monétaire, qui est traité en L1.C11 pour le canal du crédit et en L1.C10 pour l'assouplissement quantitatif. L'objection est donc ÉCARTÉE AVEC MOTIF, et non reportée. C'est le dernier point non soldé du rapport d'audit tiers."
+  # SOLDÉE le 2026-09-22 — DÉCISION D'AUTEUR DU 2026-09-20, non tâche. Elle pose que le chapitre « NE SOUTIENT PAS CETTE PROPOSITION ET N'A PAS À L'AJOUTER » : son absence du corps EST la décision, et la solder ne la rouvre pas. Texte d'origine :
+  # - "LIMITE DE PÉRIMÈTRE ACCEPTÉE PAR L'AUTEUR LE 2026-09-20, ET CE N'EST PAS UNE TÂCHE. L'audit tiers reprochait au chapitre (§ 4 de son rapport, point 3) de raisonner « comme si 100 % de la masse monétaire provenait du crédit bancaire privé », en sous-estimant la monnaie centrale non-crédit et les achats d'actifs. DÉCISION : LE CHAPITRE NE SOUTIENT PAS CETTE PROPOSITION ET N'A PAS À L'AJOUTER. Son objet est la figure de Sisyphe et la contrainte de revenu, non le périmètre de la création monétaire, qui est traité en L1.C11 pour le canal du crédit et en L1.C10 pour l'assouplissement quantitatif. L'objection est donc ÉCARTÉE AVEC MOTIF, et non reportée. C'est le dernier point non soldé du rapport d'audit tiers."
 resume: "Les trois malédictions monétaires, prises ensemble, produisent une trajectoire que le livre nomme le mythe de Sisyphe économique : un effort renouvelé sans terme, où chaque cycle ramène au point de départ. Ce chapitre expose la figure et en délimite strictement la portée. La contrainte de croissance n'est pas arithmétique — une économie stationnaire endettée est possible si les revenus d'intérêts sont redépensés ; elle tient à leur accumulation et à la croissance de l'encours. Et la figure ne s'applique qu'à ce que le régime monétaire ajoute : l'usure du capital est physique, la saturation du revenu est psychologique, les blocages de la décision publique relèvent d'économie politique — le chapitre isole dans chaque cas la part monétaire au lieu de tout lui attribuer. Trois idéaux-types en donnent la forme vécue, avec trois traits communs : lucidité, impuissance à sortir seul, répétition sans terme. À la différence du mythe, la contrainte est architecturale, donc modifiable."
 concepts: [sisyphe_economique, malediction_monetaire, reflux_monetaire, solvabilite_anticipee, essentiel_insolvable]
 renvois: [L1.C02, L1.C06, L1.C08, L1.C11, L1.C12, L1.C13, L1.C15, L1.C17]
