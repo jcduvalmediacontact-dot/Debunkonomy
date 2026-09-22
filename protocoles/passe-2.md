@@ -7961,3 +7961,26 @@ désormais écrite : « conduite à partir de L1.C05, qui pose la monnaie comme
 registre, et jusqu'à L1.C07, qui expose le mécanisme bancaire de création », et
 `L1.C07` entre aux `renvois` du chapitre. **Cette section reste**, parce qu'elle
 dit d'où venait la dette et comment elle a été vue.
+
+## RELIQUAT DU SOLDE L1.C02 — L'ALIGNEMENT AVEC L1.C01, 2026-09-22
+
+Les douze vérifications de L1.C02 sont soldées ce jour, aucune n'étant une tâche
+factuelle ouverte. Une seule renvoie ici.
+
+**CE QUE LA LIGNE AFFIRMAIT** : « reprendre L1.C01 après ce chapitre : la chaîne
+causale y est énoncée plus fermement qu'ici, où elle est ramenée au statut
+d'hypothèse. Aligner les deux chapitres ou expliciter la différence de statut. »
+
+**CE QUE LE RELEVÉ DU 2026-09-22 ÉTABLIT, ET CE QU'IL N'ÉTABLIT PAS.** L1.C01 est
+`brouillon`, et **il est balisé** : onze paragraphes `::hypothese::` et onze
+`::etat::`. L'écart de fermeté annoncé n'est donc PAS évident à la lecture des
+seules balises, et **la comparaison passage par passage n'a pas été conduite**.
+La ligne est soldée dans L1.C02 parce que la tâche, si elle existe, appartient à
+L1.C01 — un chapitre ne corrige pas les affirmations d'un autre — **non parce
+que l'écart aurait été vérifié absent**.
+
+**CE QUI RESTE À FAIRE, ET C'EST UNE TÂCHE DE L1.C01** : comparer les énoncés de
+la chaîne causale des deux chapitres, un par un, et soit aligner leur régime,
+soit écrire pourquoi ils diffèrent. L1.C02 la ramène explicitement au statut
+d'hypothèse depuis le lot du 2026-09-22 ; si L1.C01 l'énonce plus fort sans le
+dire, c'est L1.C01 qui dépasse ses pièces.
