@@ -46,6 +46,11 @@ coordination/
 # elle devra etre suivie ; ce motif ne vise que le dossier de travail.
 corpus/genere/
 
+# Construction locale du site et du corpus. Cette sortie est reconstruite par
+# outils/construire_site.py ; elle n'est jamais une source à versionner.
+build/
+.build-env/
+
 # Sauvegardes locales et archives
 Sauvegarde*/
 *.zip

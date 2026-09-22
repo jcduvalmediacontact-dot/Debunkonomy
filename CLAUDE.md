@@ -6,6 +6,14 @@ que la convention décrit et ce que le dépôt implémente aujourd'hui.
 
 ## Documents faisant autorité
 
+**Travail en cours — depuis le 2026-09-21, le seul fichier qui distribue les
+tâches est `coordination/ORDRE_DU_JOUR.md`** (dépôt privé, exclu de celui-ci) :
+lire son « Point d'entrée », chercher son propre nom, exécuter ses ordres et rien
+d'autre, rendre compte en bas. `coordination/FILE_DE_TRAVAIL.yaml`,
+`ETAT_DU_CORPUS.md`, `JOURNAL_DES_RELAIS.md` et `veille-nuit.md` sont des
+archives. Un état se lit dans le fichier du chapitre et dans `git log`, jamais
+dans une note.
+
 Lire dans cet ordre avant toute modification :
 
 1. [corpus/convention.md](corpus/convention.md) — schéma, statuts, empreintes,
