@@ -529,7 +529,7 @@ falsifieurs:
       macroéconomique. F13 RESTE OUVERT : le pas de la décision au montant est
       désormais nommé, il n'est pas franchi.
     texte: protocoles/falsification.md
-    chapitres: [L1.C31, L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
+    chapitres: [L1.C28, L1.C31, L24.C01, L24.C02, L24.C06, L18.C18, L18.C19, L18.C25, L18.C28, L18.C29, L18.C31]
     maj: 2026-09-09
     acquisition_bloquante: >
       Estimation de l'élasticité de substitution portant sur LES RESSOURCES en
@@ -765,7 +765,7 @@ pieces_de_conception_manquantes:
       d'opportunité. FACE POLITIQUE du problème dont F13 est la face
       MÉTROLOGIQUE.
     texte: protocoles/passe-2.md
-    chapitres: [L25.C07, L18.C21, L18.C24, L18.C25, L18.C30, L18.C31, L24.C06]
+    chapitres: [L1.C28, L25.C07, L18.C21, L18.C24, L18.C25, L18.C30, L18.C31, L24.C06]
     maj: 2026-09-09
     acquisition_bloquante: >
       Le tableau 6.10 de l'évaluation IPBES, qui donne les actions matérialisant
@@ -799,7 +799,7 @@ pieces_de_conception_manquantes:
       elle est massive, et l'allocation du droit d'usage y est déclarée non
       résolue.
     texte: protocoles/passe-2.md
-    chapitres: [L24.C06, L24.C07, L18.C19]
+    chapitres: [L1.C28, L24.C06, L24.C07, L18.C19]
     maj: 2026-09-09
     acquisition_bloquante: >
       Les méthodes couplant limites planétaires et analyse de cycle de vie, et

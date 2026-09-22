@@ -72,46 +72,53 @@ verifications_en_attente:
   # produire ; « une cinquième fois » et « cinq barèmes » (§ 8), le tableau de bord
   # n'étant pas un barème mais leur entrée commune ; et « il n'a écrit la règle d'aucun
   # d'entre eux », trois règles existant désormais à des degrés divers.
-  - "LA TRANSPOSITION DE LA FORME ARRÊTÉE POUR LA QUALIFICATION AU TABLEAU DE BORD N'EST
-     PAS DÉCIDÉE. Seuils non compensables et pondération déclarée politique sont arrêtés
-     pour le barème de qualification ; le § 4 expose cette forme comme la troisième des
-     trois tenables, sans trancher. Question à l'auteur, non vérification documentaire."
-  - "LE STATUT DES SIX FAMILLES N'EST ARRÊTÉ NULLE PART. Le § 4 propose objectifs
-     (biosphérique, sociale), condition (monétaire), donnée (internationale) ; c'est une
-     proposition du corpus, non une décision. Et À QUELLE FONCTION REVIENT LA LECTURE DU
-     TABLEAU n'est écrit nulle part non plus (§ 3)."
+  # SOLDÉE le 2026-09-22 — CHANTIER DE CONCEPTION REQUALIFIÉ, NON TÂCHE DOCUMENTAIRE. Il est porté par l'arbitrage **F13** — renoncer au score mondial unique, seuils physiques en veto, pondération déclarée politique —, `oriente`, et ce chapitre y est désormais rattaché. Texte d'origine :
+  # - "LA TRANSPOSITION DE LA FORME ARRÊTÉE POUR LA QUALIFICATION AU TABLEAU DE BORD N'EST
+  # PAS DÉCIDÉE. Seuils non compensables et pondération déclarée politique sont arrêtés
+  # pour le barème de qualification ; le § 4 expose cette forme comme la troisième des
+  # trois tenables, sans trancher. Question à l'auteur, non vérification documentaire."
+  # SOLDÉE le 2026-09-22 — CHANTIER DE CONCEPTION REQUALIFIÉ, NON TÂCHE DOCUMENTAIRE. Il est porté par l'arbitrage **CRITERE-L25** — qui sélectionne, selon quel critère, par quelle autorité —, `oriente`, et ce chapitre y est désormais rattaché. Texte d'origine :
+  # - "LE STATUT DES SIX FAMILLES N'EST ARRÊTÉ NULLE PART. Le § 4 propose objectifs
+  # (biosphérique, sociale), condition (monétaire), donnée (internationale) ; c'est une
+  # proposition du corpus, non une décision. Et À QUELLE FONCTION REVIENT LA LECTURE DU
+  # TABLEAU n'est écrit nulle part non plus (§ 3)."
   - "« AUCUN TABLEAU DE BORD DE PROGRÈS N'INCLUT LA MONNAIE » EST BORNÉ À LA CONNAISSANCE
      DU CORPUS, et n'a pas été vérifié. À éprouver sur les tableaux de bord existants, ou à
      laisser borné comme il l'est."
   - "L'INDICE DE CONCENTRATION ÉTENDU AUX CHAÎNES D'APPROVISIONNEMENT N'A PAS DE RÉFÉRENCE.
      Le Cahier emploie l'expression sans citer de travaux. Le § 3 le dit ; à sourcer, ou à
      laisser comme constat d'absence."
-  - "LA DESCENTE D'ÉCHELLE DE LA FAMILLE BIOSPHÉRIQUE N'EST PAS ÉTABLIE. Le cadre dont elle
-     tient ses indicateurs déclare n'avoir pas été conçu pour être désagrégé, et ses neuf
-     grandeurs ne s'additionnent pas. Lire une famille biosphérique par pays suppose une
-     opération que personne n'a validée. Chantier métrologique, non documentaire."
+  # SOLDÉE le 2026-09-22 — CHANTIER DE CONCEPTION REQUALIFIÉ, NON TÂCHE DOCUMENTAIRE. Il est porté par l'arbitrage **DESCENTE-D-ECHELLE**, `ouvert`, dont la décision écrit « Le cadre déclare n'avoir PAS ÉTÉ CONÇU pour être désagrégé », et ce chapitre y est désormais rattaché. Texte d'origine :
+  # - "LA DESCENTE D'ÉCHELLE DE LA FAMILLE BIOSPHÉRIQUE N'EST PAS ÉTABLIE. Le cadre dont elle
+  # tient ses indicateurs déclare n'avoir pas été conçu pour être désagrégé, et ses neuf
+  # grandeurs ne s'additionnent pas. Lire une famille biosphérique par pays suppose une
+  # opération que personne n'a validée. Chantier métrologique, non documentaire."
   - "L'ÉPREUVE DE L'INDICATEUR PRIS POUR CIBLE SUR UN DISPOSITIF RÉEL MANQUE. Le § 5 pose
      la vulnérabilité de conception et dit que le corpus n'a pas établi qu'aucun dispositif
      existant n'y parvienne. Recherche à faire. Et parmi trois familles de défaillance,
      seule la fraude est instruite : le passager clandestin et l'effet institutionnel
      contraire ne le sont pas."
-  - "LE CONFLIT ENTRE PUBLICATION ET NON-ANNONCE N'EST PAS RÉSOLU. Le corpus exige qu'un
-     barème soit une directive publiée ; publier la fonction et cacher l'indicateur est
-     exclu. La seule piste ouverte est une mesure extérieure à la déclaration, non
-     construite. § 5."
-  - "LA PARITÉ DE DÉPART ET LA DURÉE D'UNE PÉRIODE NE SONT PAS FIXÉES. La règle de révision
-     est écrite, son corridor et son exécution sans vote le sont ; ces deux paramètres ne le
-     sont pas. Le § 6 le dit et renvoie à L1.C26, qui tient le chantier."
-  - "RIEN N'EST ÉCRIT POUR LES NIVEAUX DE REFLUX NI POUR LA MODULATION DES INSTRUMENTS PAR
-     LE TABLEAU DE BORD, qui est l'objet de ce chapitre. Le § 8 le dit. Chantier de
-     conception commun avec L1.C21 et le Livre 11."
+  # SOLDÉE le 2026-09-22 — CHANTIER DE CONCEPTION REQUALIFIÉ, NON TÂCHE DOCUMENTAIRE. Il est porté par l'arbitrage **MESURE-EXTERIEURE**, `ouvert`, lié à **F3** : « un contrôle qui ne porte que sur des DÉCLARATIONS ne détecte pas leur falsification : la mesure doit être extérieure ». Ces deux entrées n'ont pas de champ `chapitres` et on ne leur en crée pas ; le renvoi est ici. Texte d'origine :
+  # - "LE CONFLIT ENTRE PUBLICATION ET NON-ANNONCE N'EST PAS RÉSOLU. Le corpus exige qu'un
+  # barème soit une directive publiée ; publier la fonction et cacher l'indicateur est
+  # exclu. La seule piste ouverte est une mesure extérieure à la déclaration, non
+  # construite. § 5."
+  # SOLDÉE le 2026-09-22 — CHANTIER RENVOYÉ À UN CHAPITRE, NON TÂCHE DOCUMENTAIRE : la ligne dit elle-même que **L1.C26 tient le chantier** de la parité de départ et de la durée d'une période. Texte d'origine :
+  # - "LA PARITÉ DE DÉPART ET LA DURÉE D'UNE PÉRIODE NE SONT PAS FIXÉES. La règle de révision
+  # est écrite, son corridor et son exécution sans vote le sont ; ces deux paramètres ne le
+  # sont pas. Le § 6 le dit et renvoie à L1.C26, qui tient le chantier."
+  # SOLDÉE le 2026-09-22 — CHANTIER RENVOYÉ, NON TÂCHE DOCUMENTAIRE : la ligne le déclare « commun avec L1.C21 et le Livre 11 », et le § 8 du corps le porte. Texte d'origine :
+  # - "RIEN N'EST ÉCRIT POUR LES NIVEAUX DE REFLUX NI POUR LA MODULATION DES INSTRUMENTS PAR
+  # LE TABLEAU DE BORD, qui est l'objet de ce chapitre. Le § 8 le dit. Chantier de
+  # conception commun avec L1.C21 et le Livre 11."
   - "LECTURE FLUX/STOCK DU BONHEUR NATIONAL BRUT, de première main. Le § 2 la rapporte
      telle que le livre l'écrit [S2] ; elle n'a pas été vérifiée sur une source du Bhoutan.
      À vérifier ou à laisser comme énoncé du livre."
-  - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
-     propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement.
-     Le chapitre n'écrit nulle part « contribution propre », qu'un passage extrait ferait
-     lire comme un apport propre établi."
+  # SOLDÉE le 2026-09-22 — CLOSE PAR SA PROPRE LETTRE : « Vérifié à l'alignement ». Le contrôle de régime est fait, et le chapitre n'écrit nulle part « contribution propre ». Texte d'origine :
+  # - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
+  # propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement.
+  # Le chapitre n'écrit nulle part « contribution propre », qu'un passage extrait ferait
+  # lire comme un apport propre établi."
 resume: "Ce chapitre examine ce que la proposition met à la place du produit intérieur brut. Il accorde la critique du livre — défaut de contenu, défaut de périmètre — en relevant qu'elle est solide et qu'elle ne distingue pas la proposition, et il y adosse la position que l'auteur a arrêtée : ni croissance ni décroissance générale du produit, mais des mouvements sélectifs, le taux agrégé étant rejeté comme cible. Il sépare trois objets que le livre confond — une boussole normative, un indice composite, et un tableau de bord macroprudentiel qui est le seul des trois à être propre au dispositif, sans que cela établisse aucun avantage. Il établit que ce tableau de bord ne peut pas commander tant qu'une forme d'agrégation n'est pas choisie, ou qu'il n'est pas renoncé à commander : trois formes sont tenables, aucune n'est retenue, et les six familles n'ont pas le même statut — objectifs, condition, donnée —, de sorte que faire commander des objectifs est une boucle de rétroaction. Il établit que la robustesse est nommée en entier par le Cahier et mesurée pour un tiers, l'écart étant entre l'objet déclaré et les instruments nommés ; que l'indicateur pris pour cible se généralise à six familles publiées, sans qu'une règle publiée y réponde ; et que le seul critère de révision des parités que le livre de 2026 nomme est indexé sur la croissance du produit, quand la règle arrêtée depuis lit une position nette et aucune grandeur de production. Il établit enfin, sur son propre titre, que le tableau de bord écarte l'indicateur dont le dénominateur est nommément le produit mondial, mais que deux des cinq indicateurs monétaires qu'il retient y rapportent encore."
 concepts: [indicateur_de_progres, robustesse, limites_planetaires, plafond_ecologique, plancher_social, qualification_regenerative]
 renvois: [L1.C03, L1.C04, L1.C18, L1.C22, L1.C23, L1.C26, L1.C27, L1.C21, L1.C31, L11.C13, L11.C14, L11.C17]
