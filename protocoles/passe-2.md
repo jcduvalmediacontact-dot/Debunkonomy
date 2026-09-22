@@ -8003,3 +8003,31 @@ pas disparaître avec le solde.
 **CE QU'IL FAUDRA FAIRE, ET DANS CET ORDRE** : attribuer les matricules dans
 `corpus/livres.yaml` — où un matricule est permanent et ne se renumérote jamais
 —, puis ajouter les renvois à L1.C01. L'inverse est impossible.
+
+## DETTE ÉTEINTE — LES « QUINZE CENTS CHÔMEURS » DE L1.C10, ET UN SECOND DÉFAUT TROUVÉ EN CHEMIN, 2026-09-22
+
+La section « RELIQUATS DES SOLDES E3 » de ce jour inscrivait un défaut de contenu
+dans L1.C10 et disait qu'il fallait **lire Fisher**. **La réponse était déjà dans
+les entrées de source**, et deux pièces ouvertes concordent.
+
+[S2] porte « permanent jobs were given to from 30 to 50 of **the 1500
+unemployed** » : Fisher NE QUALIFIE PAS ces 1 500. Et [S1] porte « the city had
+**500 jobless people** and another **1,000 in the immediate vicinity** ». **Les
+1 500 sont donc 500 en ville plus 1 000 aux alentours** ; « de la commune »
+était un ajout du corps que [S1] contredit. Les trois mots sont retirés.
+
+**LA PISTE ÉTAIT INEXACTE SUR SES DEUX TERMES**, et il faut le dire : elle
+attribuait « 350 à la commune, 1 500 au district », quand [S1] donne 500 et
+1 000. Elle a néanmoins permis de voir le défaut, ce qui est son office.
+
+**UN SECOND DÉFAUT A ÉTÉ TROUVÉ EN TRAITANT LE PREMIER**, et il n'était inscrit
+nulle part. Le § 2 faisait porter à [S15] que « le jugement ne relève ni
+insuffisance comptable ni dérive des prix ». Or [S15] est la NOTICE D'UNE PAGE
+de la série « 150 Jahre VwGH », dont trois expressions sont déclarées lues.
+**Une affirmation d'absence suppose d'avoir lu l'arrêt, non sa notice.**
+L'énoncé est conservé sur décision de l'auteur, et son statut est écrit : la
+notice ne restitue pas l'intégralité des motifs, l'absence n'est pas établie.
+
+**CE QUI RESTERAIT À FAIRE, ET QUI N'EST PAS DEMANDÉ** : acquérir le texte intégral
+de l'arrêt A 504/33 permettrait de trancher l'absence. C'est une acquisition,
+donc soumise à la règle des ressources gratuites.
