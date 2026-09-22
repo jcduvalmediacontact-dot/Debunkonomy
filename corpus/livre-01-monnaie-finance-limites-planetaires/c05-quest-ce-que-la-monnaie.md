@@ -132,7 +132,7 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::etat:: Un cas ethnographique documenté permet de séparer les deux questions. Au début du XXe siècle, William Henry Furness a décrit à Yap un usage monétaire dont deux traits sont ici pertinents : le transfert de propriété sans déplacement de l'objet, et la reconnaissance d'une pierre perdue en mer. [S1]
 
-::etat:: Deux caractéristiques de cet usage sont pertinentes. Les pierres ne se déplacent pas lors des transactions : le transfert de propriété est annoncé et reconnu, l'objet demeure en place. Et Furness rapporte le cas d'une pierre perdue en mer lors de son transport, dont la propriété continuait d'être reconnue et transmise bien que personne ne l'ait jamais vue [S1]. Ce second élément repose sur un témoignage oral rapporté par Furness, repris et discuté par les réexamens numismatiques ultérieurs [S5].
+::etat:: Les pierres de Yap ne se déplacent pas lors des transactions : le transfert de propriété est annoncé et reconnu, l'objet demeure en place. Et Furness rapporte le cas d'une pierre perdue en mer lors de son transport, dont la propriété continuait d'être reconnue et transmise bien que personne ne l'ait jamais vue [S1]. Ce second élément repose sur un témoignage oral rapporté par Furness, repris et discuté par les réexamens numismatiques ultérieurs [S5].
 
 ::etat:: Ce cas a été repris par Milton Friedman en 1991, dans un texte où il le rapproche du fonctionnement des réserves monétaires modernes. [S2] Que l'exemple ait servi à des auteurs de traditions opposées indique qu'il ne tranche pas à lui seul entre les théories de la monnaie.
 
