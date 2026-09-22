@@ -7,8 +7,8 @@ licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
 revision_de_fond: 2026-09-22
-autorite: preparatoire
-citable: false
+autorite: canonique
+citable: true
 regime: hybride
 sources_primaires:
   - ref: S2
