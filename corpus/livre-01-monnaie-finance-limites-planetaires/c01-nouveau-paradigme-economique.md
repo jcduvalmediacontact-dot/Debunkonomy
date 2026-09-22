@@ -107,7 +107,7 @@ L'enchaînement suppose par ailleurs deux conditions qu'il faut énoncer plutôt
 
 ## 2. Ce que finance le crédit, et ce qu'il ne finance pas
 
-Les manuels d'économie décrivent généralement la monnaie comme un instrument neutre — constat que L1.C05 § 5 porte sur deux pièces ouvertes, des manuels et un cours de première année — : un voile posé sur les échanges, un outil facilitant le commerce comme l'huile facilite le mouvement d'un engrenage.
+Les manuels d'économie introduisent la monnaie par ses fonctions — L1.C05 § 5 le porte sur deux pièces ouvertes, un cours de première année et un manuel, **et note que ce dernier consacre pourtant une section à la création monétaire** —, et ce chapitre lit cette présentation comme celle d'un instrument neutre : un voile posé sur les échanges, un outil facilitant le commerce comme l'huile facilite le mouvement d'un engrenage.
 
 La proposition défendue ici ne conteste pas cette neutralité au sens où l'entend la littérature contemporaine — l'absence d'effet de la quantité de monnaie sur les grandeurs réelles à long terme, question distincte et largement débattue par ailleurs. Elle porte sur autre chose : sur l'orientation sectorielle du crédit. Les conditions dans lesquelles la monnaie est émise déterminent quelles activités trouvent un financement et lesquelles n'en trouvent pas.
 
