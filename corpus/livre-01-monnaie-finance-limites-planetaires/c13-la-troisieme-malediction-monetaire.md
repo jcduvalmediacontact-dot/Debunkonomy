@@ -268,7 +268,7 @@ La première est la substituabilité des capitaux : la dette peut financer du ca
 
 ::hypothese:: Le corpus tient, avec l'économie écologique, que les fonds naturels ne sont pas substituables au-delà d'un seuil (L1.C01 § 2, L1.C04), et que la définition de la régénération retenue en L1.C01 — l'amélioration d'un fonds déterminé selon des indicateurs physiques propres — exclut par construction qu'un fonds soit déclaré régénéré en compensation d'un autre.
 
-La deuxième est la conversion de dettes en engagements de conservation : les swaps dette-nature, dont les opérations récentes — Belize en 2021 [S20], puis l'Équateur et le Gabon en 2023, **que ce chapitre rapporte sans pièce ouverte**, l'article de 2021 appelé ici ne les portant pas — ont changé d'échelle.
+La deuxième est la conversion de dettes en engagements de conservation : les swaps dette-nature, dont les opérations récentes — Belize en 2021 [S20], puis l'Équateur et le Gabon en 2023, **que ce chapitre rapporte sans pièce ouverte**, l'article de 2022 appelé ici ne les portant pas — ont changé d'échelle.
 
 ::hypothese:: Ils démontrent que les deux dettes peuvent être traitées ensemble, et c'est précisément pour cela que le corpus les cite ; mais leur cumul mondial se compte en quelques milliards de dollars — 2,6 milliards de dette traitée et 1,2 milliard effectivement versé à la conservation selon le relevé que le Fonds reprend du PNUD [S20] —, contre un encours de dette souveraine en dizaines de milliers de milliards, et ils restent des restructurations — une réduction de la dette financière contre une promesse — non un financement de la régénération.
 

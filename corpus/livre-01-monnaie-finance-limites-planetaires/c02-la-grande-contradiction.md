@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_factuel
-revision_de_fond: 2026-09-21
+revision_de_fond: 2026-09-22
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -137,7 +137,7 @@ La question n'est donc pas de savoir si l'on peut prospérer malgré cette dégr
 
 ## 2. Une progression conjointe, et ce qu'il faudrait pour conclure
 
-Les deux séries progressent ensemble. Le produit mondial, les émissions, la consommation matérielle, l'extraction de ressources et l'endettement suivent la même pente sur un demi-siècle.
+Les deux séries progressent ensemble. Le produit mondial, les émissions, la consommation matérielle, l'extraction de ressources et l'endettement vont tous dans le même sens sur un demi-siècle.
 
 Depuis 1970, l'usage mondial de ressources matérielles est passé de 30 à 106 milliards de tonnes, soit une multiplication par trois et demi, à un rythme moyen de 2,3 % par an. [S5] Ce qui est présenté comme une performance — nourrir davantage de personnes, produire davantage de biens — a été obtenu au prix d'une dégradation des écosystèmes dont cette production dépend.
 
