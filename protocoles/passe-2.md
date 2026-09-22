@@ -7953,3 +7953,11 @@ L1.C04, L1.C05, L1.C16 et L26.C01.
 **La correction appartient à L1.C03**, qui est `audit_contradictoire`, et non à
 L1.C05 : un chapitre ne corrige pas les renvois d'un autre. Elle est portée ici
 pour ne pas disparaître avec le solde de la ligne qui la signalait.
+
+**CORRIGÉ LE 2026-09-22, dans le lot L1.C03.** Le § 6 de L1.C03 renvoyait à
+L1.C05 seul. La chaîne vers L1.C07 existait — le § 6 de L1.C05 y renvoie — mais
+elle était implicite, et le contrôle mesurait le renvoi direct. Elle est
+désormais écrite : « conduite à partir de L1.C05, qui pose la monnaie comme
+registre, et jusqu'à L1.C07, qui expose le mécanisme bancaire de création », et
+`L1.C07` entre aux `renvois` du chapitre. **Cette section reste**, parce qu'elle
+dit d'où venait la dette et comment elle a été vue.

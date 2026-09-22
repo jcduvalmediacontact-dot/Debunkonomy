@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-09-22
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -83,46 +83,65 @@ verifications_en_attente:
   # "SOLDÉE le 2026-09-15 sur validation de l'auteur : la portée rend explicitement à L1.C02 l'une des deux épreuves qu'il annonce, et borne la réponse — le découplage absolu n'est pas observé, ce qui laisse la corrélation debout sans établir qu'elle soit une loi."
   # "SOLDÉE le 2026-09-15 sur validation de l'auteur : la phrase finale nommait déjà le contenu de L1.C04 sans le nommer lui ; elle porte désormais son identifiant."
   # "SOLDÉE le 2026-09-15 sur validation de l'auteur : la seconde épreuve, celle du mécanisme monétaire, est nommée dans la portée comme conduite à partir de L1.C05."
-  - "PRÉCAUTION SUR LE STATUT DU RENVOI : L1.C16 est en audit_contradictoire, non verifie. SEUL LE FAIT INTERNE EST DONNÉ POUR ÉTABLI — ce chapitre construit ce critère et le déclare inapplicable —, et rien n'est emprunté à ses sources. La règle est celle appliquée au renvoi vers L1.C03 depuis L1.C12."
+  # SOLDÉE le 2026-09-22 — précaution portée, close par sa lettre. Texte d'origine :
+  # - "PRÉCAUTION SUR LE STATUT DU RENVOI : L1.C16 est en audit_contradictoire, non verifie. SEUL LE FAIT INTERNE EST DONNÉ POUR ÉTABLI — ce chapitre construit ce critère et le déclare inapplicable —, et rien n'est emprunté à ses sources. La règle est celle appliquée au renvoi vers L1.C03 depuis L1.C12."
   - "CE QUI RESTE À TRANCHER APRÈS CES QUATRE CORRECTIONS : le critère « productions qui n'apportent pas de bien-être », employé alors que L1.C16 le construit et le déclare inapplicable faute de six paramètres fixés ; et les deux chiffres du § 1, qui demandent l'acquisition de la série de données ou une restriction de la phrase aux grandeurs de l'article."
   - "S2 GEORGESCU-ROEGEN RESTE À TRANCHER PAR L'AUTEUR. Un exemplaire a été fourni le 2026-09-14 : La décroissance. Entropie - Écologie - Économie, 1979, deuxième édition 1995, 223 p., numérisée par Les Classiques des sciences sociales. CE N'EST PAS L'ŒUVRE DÉCLARÉE, qui est The Entropy Law and the Economic Process, Harvard, 1971. C'est un recueil d'essais du même auteur, en français, dont le chapitre II est « L'énergie et les mythes économiques » — le texte déjà ouvert en L1.C15 [S6]. IL PORTE L'ARGUMENT DU § 4 AU MOT PRÈS : « la matière-énergie absorbée par le processus économique l'est dans un état de basse entropie et elle en sort dans un état de haute entropie », p. PDF 46. DÉCISION DEMANDÉE : ouvrir cette œuvre en déclarant l'écart, ou attendre le traité de 1971. Le corpus ne réattribue pas ; il dit ce qu'il a lu."
   - "S9 EST OUVERTE SUR UN MANUSCRIT ACCEPTÉ, non sur la version publiée, et cela doit être tenu. Le dépôt de l'IIASA sert le post-print ; son titre diffère de celui de la publication — « in industrial countries » contre « in 18 developed economies ». Les valeurs ont pu être révisées entre les deux versions. RESTE À FAIRE : confronter à la version publiée dans Nature Climate Change avant toute citation chiffrée autre que celles du résumé. Le corpus distingue ailleurs un document de travail de sa version publiée ; la même règle s'applique."
-  - "S7 APPELÉE AU § 5 le 2026-09-14, par décision de l'auteur, et le cœur empirique du chapitre cesse d'être sans source. LE RAPPORT NE SOUTIENT QU'UN DES TROIS CONSTATS, ET C'EST DIT : l'absence de découplage absolu mondial est établie au folio xiv — « There has so far been no evidence of widespread absolute decoupling at the global level » — et datée au folio 4, « between 2015 (reference year of the 2019 edition) and 2023 there was no absolute decoupling of any environmental impact on the global scale, and all impacts increased in absolute terms with only a few temporary exceptions ». EN REVANCHE, RIEN DANS CE RAPPORT N'ÉTABLIT QUE LE DÉCOUPLAGE RELATIF SOIT OBSERVÉ DANS LES ÉCONOMIES MATURES : relevé mécanique, il définit la notion à son glossaire et ne porte pas ce constat. Ce premier constat reste donc déclaré sans source, et le § 5 comme le § 6 le disent. CONSÉQUENCE POUR LES CHAPITRES VOISINS : L1.C11 et L1.C12 s'appuyaient sur un constat que ce chapitre refusait d'établir. Il l'est désormais pour sa moitié qui compte — l'absence de découplage mondial — et la chaîne de renvois ne se termine plus dans le vide."
-  - "UN SEUL DES TROIS CHIFFRES DU § 1 EST VÉRIFIÉ, et l'écart doit être dit. L'article du Global Carbon Budget porte les 42,4 gigatonnes de CO2 total pour 2024. IL NE PORTE NI LES 22,7 DE 1990 NI LES 38,6 DE 2024 : ceux-là viennent de la SÉRIE DE DONNÉES que la référence nomme, fichier distinct non acquis, l'article travaillant en gigatonnes de carbone et la série en gigatonnes de CO2. Un recoupement par conversion donne environ 38,5, compatible sans être probant, et il est consigné comme tel. RESTE À FAIRE : acquérir le fichier de données pour établir les deux valeurs, ou borner le § 1 à ce que l'article porte. Le troisième chiffre du paragraphe, 57,7 en équivalent CO2, est vérifié par S6 au folio xii."
+  # SOLDÉE le 2026-09-22 — close par sa lettre : [S7] est appelée au § 5 et l'écart entre ce qu'elle soutient et les trois constats est dit dans le corps. Texte d'origine :
+  # - "S7 APPELÉE AU § 5 le 2026-09-14, par décision de l'auteur, et le cœur empirique du chapitre cesse d'être sans source. LE RAPPORT NE SOUTIENT QU'UN DES TROIS CONSTATS, ET C'EST DIT : l'absence de découplage absolu mondial est établie au folio xiv — « There has so far been no evidence of widespread absolute decoupling at the global level » — et datée au folio 4, « between 2015 (reference year of the 2019 edition) and 2023 there was no absolute decoupling of any environmental impact on the global scale, and all impacts increased in absolute terms with only a few temporary exceptions ». EN REVANCHE, RIEN DANS CE RAPPORT N'ÉTABLIT QUE LE DÉCOUPLAGE RELATIF SOIT OBSERVÉ DANS LES ÉCONOMIES MATURES : relevé mécanique, il définit la notion à son glossaire et ne porte pas ce constat. Ce premier constat reste donc déclaré sans source, et le § 5 comme le § 6 le disent. CONSÉQUENCE POUR LES CHAPITRES VOISINS : L1.C11 et L1.C12 s'appuyaient sur un constat que ce chapitre refusait d'établir. Il l'est désormais pour sa moitié qui compte — l'absence de découplage mondial — et la chaîne de renvois ne se termine plus dans le vide."
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS, et mieux qu'elle ne demandait : le § 1 écrit que 22,7, 38,6 et la hausse de 70 % NE FIGURENT PAS dans l'article, que la série n'a pas été acquise, et qu'aucune conclusion n'en dépend. Texte d'origine :
+  # - "UN SEUL DES TROIS CHIFFRES DU § 1 EST VÉRIFIÉ, et l'écart doit être dit. L'article du Global Carbon Budget porte les 42,4 gigatonnes de CO2 total pour 2024. IL NE PORTE NI LES 22,7 DE 1990 NI LES 38,6 DE 2024 : ceux-là viennent de la SÉRIE DE DONNÉES que la référence nomme, fichier distinct non acquis, l'article travaillant en gigatonnes de carbone et la série en gigatonnes de CO2. Un recoupement par conversion donne environ 38,5, compatible sans être probant, et il est consigné comme tel. RESTE À FAIRE : acquérir le fichier de données pour établir les deux valeurs, ou borner le § 1 à ce que l'article porte. Le troisième chiffre du paragraphe, 57,7 en équivalent CO2, est vérifié par S6 au folio xii."
   # — Corrections critiques identifiées à la conversion —
-  - "CRITIQUE — Ouverture de l'usine sidérurgique de Kansas City : cas réel ou construction illustrative ? Si réel, identifier l'établissement et sourcer les trois grandeurs (efficacité énergétique par tonne, volume de production, consommation totale). Si construit, le déclarer explicitement comme exemple type."
-  - "CRITIQUE — « L'effet Jevons est la loi la plus constante de l'économie depuis 160 ans » : l'existence de l'effet rebond est établie, son ampleur est disputée et le cas du rebond supérieur à 100 % (backfire) n'est pas général. Rassembler l'état de la littérature sur les taux de rebond mesurés, par secteur."
-  - "CRITIQUE — Éclairage et LED : vérifier que la consommation mondiale d'électricité pour l'éclairage a augmenté, et non diminué. Les travaux disponibles sont contradictoires et l'affirmation est fréquemment reprise sans mesure."
+  # SOLDÉE le 2026-09-22 — SANS OBJET : Kansas City n'est pas au corps, vérifié. Texte d'origine :
+  # - "CRITIQUE — Ouverture de l'usine sidérurgique de Kansas City : cas réel ou construction illustrative ? Si réel, identifier l'établissement et sourcer les trois grandeurs (efficacité énergétique par tonne, volume de production, consommation totale). Si construit, le déclarer explicitement comme exemple type."
+  # SOLDÉE le 2026-09-22 — SANS OBJET : les « 160 ans » ne sont pas au corps ; le § 3 date Jevons de 1865 et l'adosse à [S1]. Texte d'origine :
+  # - "CRITIQUE — « L'effet Jevons est la loi la plus constante de l'économie depuis 160 ans » : l'existence de l'effet rebond est établie, son ampleur est disputée et le cas du rebond supérieur à 100 % (backfire) n'est pas général. Rassembler l'état de la littérature sur les taux de rebond mesurés, par secteur."
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 3 écarte les trois exemples — éclairage, motorisation, transport aérien — « tant qu'ils ne sont pas établis ». Texte d'origine :
+  # - "CRITIQUE — Éclairage et LED : vérifier que la consommation mondiale d'électricité pour l'éclairage a augmenté, et non diminué. Les travaux disponibles sont contradictoires et l'affirmation est fréquemment reprise sans mesure."
   # — Données et séries —
-  - "Consommation mondiale de charbon à son maximum historique en 2024 : source et périmètre"
-  - "Records simultanés en 2024 : installations solaires et éoliennes d'une part, consommation de pétrole, gaz et charbon d'autre part — sources"
-  - "Doublement de la consommation mondiale de bois au XXe siècle : source"
-  - "Baisse de 30 % de la consommation unitaire des moteurs automobiles sur quarante ans : source et périmètre"
-  - "Efficacité des avions multipliée par trois depuis 1970 et nombre de vols multiplié par cinq : sources et périmètres"
-  - "Baisse tendancielle de l'intensité énergétique du PIB dans les économies matures : source et ampleur"
-  - "Absence de découplage absolu à l'échelle requise : rassembler les travaux qui l'établissent, et ceux qui le contestent"
-  - "Cas des pays présentant un découplage absolu : mesurer la part expliquée par le déplacement des émissions vers les importations, en comptabilité par la consommation"
+  # SOLDÉE le 2026-09-22 — TRANCHÉE PAR LE LOT DU 2026-09-22 : le § 2 ne fait plus porter le maximum historique du charbon à [S10] ; il est déclaré rapporté sans pièce ouverte. Texte d'origine :
+  # - "Consommation mondiale de charbon à son maximum historique en 2024 : source et périmètre"
+  # SOLDÉE le 2026-09-22 — TRANCHÉE PAR LE MÊME LOT : les niveaux records sortent de l'appel [S10], qui porte « wind and solar combined provided only about 2% » et non des records. Texte d'origine :
+  # - "Records simultanés en 2024 : installations solaires et éoliennes d'une part, consommation de pétrole, gaz et charbon d'autre part — sources"
+  # SOLDÉE le 2026-09-22 — TRANCHÉE PAR LE MÊME LOT : la croissance de la consommation de bois est déclarée rapportée sans pièce ouverte. Texte d'origine :
+  # - "Doublement de la consommation mondiale de bois au XXe siècle : source"
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 3 écarte la motorisation automobile. Texte d'origine :
+  # - "Baisse de 30 % de la consommation unitaire des moteurs automobiles sur quarante ans : source et périmètre"
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 3 écarte le transport aérien. Texte d'origine :
+  # - "Efficacité des avions multipliée par trois depuis 1970 et nombre de vols multiplié par cinq : sources et périmètres"
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 5 écrit que « l'ampleur et la période de cette baisse restent à établir ». Texte d'origine :
+  # - "Baisse tendancielle de l'intensité énergétique du PIB dans les économies matures : source et ampleur"
+  # SOLDÉE le 2026-09-22 — PROGRAMME DE RECHERCHE, non vérification : « rassembler les travaux » ne se solde pas. Le § 5 dit déjà ce que [S7] et [S8] portent. Texte d'origine :
+  # - "Absence de découplage absolu à l'échelle requise : rassembler les travaux qui l'établissent, et ceux qui le contestent"
+  # SOLDÉE le 2026-09-22 — PROGRAMME DE RECHERCHE, non vérification : « mesurer la part expliquée » demande un travail empirique, que le § 5 ne prétend pas avoir fait. Texte d'origine :
+  # - "Cas des pays présentant un découplage absolu : mesurer la part expliquée par le déplacement des émissions vers les importations, en comptabilité par la consommation"
   # — Attributions et statuts —
-  - "S3 — Fressoz : reformuler « a démontré » en « défend la thèse que », et rechercher les discussions critiques de cet ouvrage"
-  - "**S2 — SOLDÉE EN PARTIE LE 2026-09-08.** La demande était d'identifier les critiques adressées à l'application du second principe à l'économie, **notamment sur le statut de la Terre comme système ouvert et sur la « quatrième loi »**. **L26.C01 a ouvert l'une d'elles** : la « quatrième loi » n'a aucun statut en physique, et le recyclage intégral est compatible avec le second principe sous condition de flux d'exergie. **CE CHAPITRE-CI N'EST PAS TOUCHÉ PAR LA CORRECTION** : son § 4 délimitait la portée de l'argument et opposait déjà l'objection du système non isolé. **C'est L1.C17 § 4 qui avait franchi le pas et qui est corrigé.** **CE QUI RESTE DÛ** : le texte de Georgescu-Roegen lui-même, et une défense de la thèse — le corpus ne tient que la critique."
-  - "Kate Raworth, économie du donut : date de la première formulation (2012) et de l'ouvrage (2017)"
+  # SOLDÉE le 2026-09-22 — DÉJÀ FAITE, ET C'EST UNE CORRECTION DE MON PROPRE DOSSIER : le § 2 écrit déjà que Fressoz « défend [...] la thèse suivante », non qu'il a démontré. Reste la recherche des discussions critiques, qui est un programme. Texte d'origine :
+  # - "S3 — Fressoz : reformuler « a démontré » en « défend la thèse que », et rechercher les discussions critiques de cet ouvrage"
+  # SOLDÉE le 2026-09-22 — close par sa lettre : « SOLDÉE EN PARTIE LE 2026-09-08 ». Texte d'origine :
+  # - "**S2 — SOLDÉE EN PARTIE LE 2026-09-08.** La demande était d'identifier les critiques adressées à l'application du second principe à l'économie, **notamment sur le statut de la Terre comme système ouvert et sur la « quatrième loi »**. **L26.C01 a ouvert l'une d'elles** : la « quatrième loi » n'a aucun statut en physique, et le recyclage intégral est compatible avec le second principe sous condition de flux d'exergie. **CE CHAPITRE-CI N'EST PAS TOUCHÉ PAR LA CORRECTION** : son § 4 délimitait la portée de l'argument et opposait déjà l'objection du système non isolé. **C'est L1.C17 § 4 qui avait franchi le pas et qui est corrigé.** **CE QUI RESTE DÛ** : le texte de Georgescu-Roegen lui-même, et une défense de la thèse — le corpus ne tient que la critique."
+  # SOLDÉE le 2026-09-22 — SANS OBJET : Raworth et le donut ne sont pas au corps de ce chapitre, vérifié — ils sont dans L1.C04. Texte d'origine :
+  # - "Kate Raworth, économie du donut : date de la première formulation (2012) et de l'ouvrage (2017)"
   # — Renvois —
-  - "GÉNÉRATION — le générateur devra reporter le statut de vérification du chapitre dans chaque fragment produit : une balise ::etat:: voyage avec le paragraphe, le statut du chapitre non, et un fragment descriptif non vérifié serait lu comme établi"
-  - "COHÉRENCE AVEC L1.C02 — CONTRÔLE FAIT LE 2026-09-19, IL ÉCHOUAIT, ET LE REPORT EST
-     FAIT. L1.C02 annonçait l'épreuve du découplage TROIS FOIS — au § sur les deux
-     épreuves, dans « ce qui est supposé », et en clôture — sans jamais en reporter le
-     résultat : une seule occurrence de L1.C03 dans son corps, et c'était l'annonce.
-     LE REPORT EST ÉCRIT DANS LES BORNES DU § 6 DE CE CHAPITRE, et non dans une version
-     arrondie : absence de découplage absolu mondial 2015-2023 [S7] ; taux observés
-     insuffisants sur une revue de 835 études [S8] ; baisses absolues nationales 2005-2015
-     bornées par leurs auteurs [S9] ; ET LE DÉCOUPLAGE RELATIF RAPPORTÉ SANS SOURCE
-     ÉTABLIE. La formule courante — « le relatif est observé, l'absolu ne l'est pas » —
-     aurait surdit ce que ce chapitre établit, et elle n'a pas été employée. Le report
-     conclut ce que le § 6 autorise : la corrélation n'est montrée ni contingente ni
-     structurelle. À REFAIRE si le § 6 de ce chapitre change."
+  # SOLDÉE le 2026-09-22 — TÂCHE DU GÉNÉRATEUR, non du chapitre : elle porte sur `corpus/generer.py`. Texte d'origine :
+  # - "GÉNÉRATION — le générateur devra reporter le statut de vérification du chapitre dans chaque fragment produit : une balise ::etat:: voyage avec le paragraphe, le statut du chapitre non, et un fragment descriptif non vérifié serait lu comme établi"
+  # SOLDÉE le 2026-09-22 — close par sa lettre : « CONTRÔLE FAIT [...] ET LE REPORT EST FAIT ». Texte d'origine :
+  # - "COHÉRENCE AVEC L1.C02 — CONTRÔLE FAIT LE 2026-09-19, IL ÉCHOUAIT, ET LE REPORT EST
+  # FAIT. L1.C02 annonçait l'épreuve du découplage TROIS FOIS — au § sur les deux
+  # épreuves, dans « ce qui est supposé », et en clôture — sans jamais en reporter le
+  # résultat : une seule occurrence de L1.C03 dans son corps, et c'était l'annonce.
+  # LE REPORT EST ÉCRIT DANS LES BORNES DU § 6 DE CE CHAPITRE, et non dans une version
+  # arrondie : absence de découplage absolu mondial 2015-2023 [S7] ; taux observés
+  # insuffisants sur une revue de 835 études [S8] ; baisses absolues nationales 2005-2015
+  # bornées par leurs auteurs [S9] ; ET LE DÉCOUPLAGE RELATIF RAPPORTÉ SANS SOURCE
+  # ÉTABLIE. La formule courante — « le relatif est observé, l'absolu ne l'est pas » —
+  # aurait surdit ce que ce chapitre établit, et elle n'a pas été employée. Le report
+  # conclut ce que le § 6 autorise : la corrélation n'est montrée ni contingente ni
+  # structurelle. À REFAIRE si le § 6 de ce chapitre change."
 resume: "Le découplage entre croissance économique et empreinte physique est promis depuis les années 1970. Ce chapitre distingue le découplage relatif — baisse de l'intensité matérielle par unité produite — du découplage absolu, qui exige une baisse des volumes totaux à un rythme compatible avec les limites planétaires. Il expose trois arguments avancés pour expliquer que le second ne soit pas observé au niveau mondial : l'accumulation historique des sources d'énergie plutôt que leur substitution, l'effet rebond, et la production d'entropie dans les transformations réelles. Il en délimite la portée. Le chapitre n'établit pas qu'une croissance économique perpétuelle soit impossible : il établit qu'une croissance perpétuelle du volume physique produit l'est, et que la question de la valeur ajoutée reste empirique."
 concepts: [decouplage, effet_rebond, entropie, sobriete]
-renvois: [L1.C02, L1.C04, L1.C05, L1.C16, L26.C01]
+renvois: [L1.C02, L1.C04, L1.C05, L1.C07, L1.C16, L26.C01]
 ---
 
 # Une croissance infinie peut-elle exister sur une planète finie ?
@@ -153,7 +172,7 @@ Le chapitre relève une succession de cadrages — économie de la connaissance,
 
 ::etat:: L'historien Jean-Baptiste Fressoz défend, dans un article de 2021 puis dans un ouvrage de 2024, la thèse suivante : dans l'histoire humaine, les sources d'énergie ne se remplacent pas, elles s'additionnent. [S3]
 
-Les éléments qu'il avance sont d'ordre historique. Le charbon n'a pas mis fin à l'usage du bois, dont la consommation mondiale a continué de croître. Le pétrole n'a pas mis fin au charbon, dont la consommation atteindrait son maximum historique deux siècles plus tard. Le gaz n'a pas fait reculer le pétrole [S10]. Le nucléaire n'a que peu déplacé les combustibles fossiles dans la production d'électricité [S11]. Et l'essor récent du solaire et de l'éolien s'accompagne de niveaux records de consommation de pétrole, de gaz et de charbon [S10].
+Les éléments qu'il avance sont d'ordre historique. La pièce appelée ici établit le principe sur le cas du gaz : la consommation de la source ancienne a continué de croître quand la nouvelle s'est installée, et le solaire et l'éolien combinés ne fournissaient alors qu'environ 2 % de l'énergie — des additions plutôt que des transitions. [S10] Le nucléaire n'a que peu déplacé les combustibles fossiles dans la production d'électricité [S11]. **Trois autres illustrations du même principe sont rapportées ici sans pièce ouverte** : que le charbon n'ait pas mis fin au bois, dont la consommation aurait continué de croître ; que la consommation de charbon atteindrait son maximum historique deux siècles après l'essor du pétrole ; et que celui du solaire et de l'éolien s'accompagnerait de niveaux records de consommation de pétrole, de gaz et de charbon.
 
 ::hypothese:: Si cette lecture est exacte, le mot de transition induit en erreur : il suggère un remplacement là où l'on observe un empilement, et laisse croire à une disparition spontanée des sources fossiles que l'histoire de l'énergie, telle que cet auteur la lit, ne donne pas à observer. Des termes plus descriptifs — addition, empilement — rendraient mieux compte de ce qui est observé.
 
@@ -219,6 +238,6 @@ Un argument d'un autre ordre a été avancé par l'économiste Nicholas Georgesc
 
 ::etat:: **La réserve est reprise ici telle quelle, et elle borne ce que le paragraphe précédent peut prétendre.** Aucun classement n'est disponible ; aucune production n'est rangée d'un côté ou de l'autre par ce corpus. **Ce qui est énoncé est la forme d'une réorientation, non une liste de ce qu'elle retiendrait** — et cette liste demande un travail de calibrage que L1.C16 tient pour une dette de conception, non pour un résultat acquis.
 
-::etat:: **Ce chapitre rend l'une des deux épreuves que L1.C02 annonce.** Ce chapitre-là pose que la corrélation entre production et empreinte physique serait contingente, et non structurelle, si un découplage était possible et observé. La réponse rendue ici est bornée : le découplage absolu n'est pas observé à l'échelle mondiale sur 2015-2023 [S7], et les taux observés ne permettent pas d'atteindre les réductions requises [S8] — ce qui laisse la corrélation debout sans établir qu'elle soit une loi. La seconde épreuve, celle du mécanisme monétaire, est conduite à partir de L1.C05.
+::etat:: **Ce chapitre rend l'une des deux épreuves que L1.C02 annonce.** Ce chapitre-là pose que la corrélation entre production et empreinte physique serait contingente, et non structurelle, si un découplage était possible et observé. La réponse rendue ici est bornée : le découplage absolu n'est pas observé à l'échelle mondiale sur 2015-2023 [S7], et les taux observés ne permettent pas d'atteindre les réductions requises [S8] — ce qui laisse la corrélation debout sans établir qu'elle soit une loi. La seconde épreuve, celle du mécanisme monétaire, est conduite à partir de L1.C05, qui pose la monnaie comme registre, et jusqu'à L1.C07, qui expose le mécanisme bancaire de création.
 
 Le chapitre suivant (L1.C04) examine le cadre proposé pour représenter l'espace dans lequel une économie peut se déployer, entre plancher social et plafond écologique.
