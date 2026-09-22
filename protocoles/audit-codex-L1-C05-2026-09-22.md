@@ -56,3 +56,18 @@ de Jevons, première phrase sur les manuels, et « place réduite dans le débat
 public ». Elles ne requièrent pas de nouvelle source pour être corrigées, mais
 elles empêchent de considérer C05 comme au seuil d'un statut fort dans son état
 actuel.
+
+## Contrôle final — état appliqué le 22 septembre
+
+Les quatre corrections proposées ont été appliquées à l'identique dans le
+chapitre. Les appels S1, S3, S6 et S7 sont désormais dans le périmètre des
+passages que leurs entrées déclarent lus ; les deux propositions de conception
+ajoutées au § 3 et à l'ouverture du § 5 sont sous `::hypothese::`.
+
+Deux reliquats n'affectent pas ce résultat documentaire : « deux traits » puis
+« deux caractéristiques » se répètent au § 2 (éditorial), et L1.C01 § 2 renvoie
+encore à C05 § 5 comme s'il y établissait la neutralité de la monnaie dans les
+manuels. C05 ne le dit plus ; le renvoi doit être corrigé dans C01, pas ici.
+
+**Verdict final.** Rien dans le diff de C05 ne s'oppose désormais à son passage
+au seuil de décision de statut. La décision reste à l'auteur.
