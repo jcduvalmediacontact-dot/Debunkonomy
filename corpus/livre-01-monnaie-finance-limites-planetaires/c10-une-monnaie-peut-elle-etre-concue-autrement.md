@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: audit_contradictoire
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-09-22
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -96,11 +96,6 @@ sources_primaires:
     url: "https://www.vwgh.gv.at/150-Jahre-VwGH/202620.html"
     etat_lecture: ouverte
     date_verification: 2026-09-15
-  - ref: S16
-    nature: theorie
-    reference: "A. von Muralt, « The Woergl Experiment with Depreciating Money », Annals of Public and Cooperative Economics, 10(1), p. 48-57, 1934"
-    url: "https://doi.org/10.1111/j.1467-8292.1934.tb00435.x"
-    etat_lecture: a_requalifier
   - ref: S17
     nature: donnees
     reference: "Federal Reserve Bank of St. Louis, FRED, série WALCL (actif total de la Réserve fédérale, hebdomadaire) : 901 710 M$ le 6 août 2008 ; maximum 8 965 487 M$ le 13 avril 2022 OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 (https://fred.stlouisfed.org/graph/fredgraph.csv?id=WALCL), série téléchargée par l'auteur depuis son navigateur le 2026-09-15 parce que FRED refuse les connexions de Claude (exemplaire 2026-09-15/c10/fournis/S17-fred-WALCL-fourni.csv, 1239 observations hebdomadaires du 2002-12-18 au 2026-09-09, SHA-256 853CB68F8F59466A7FA3E44BDA0DD541FDC697AB1C1B979AB24AFDB03CB9D8E1). Valeurs relues sur la série : 901 710 M$ le 2008-08-06 ; 8 965 487 M$ le 2022-04-13, qui est le maximum de la série, calculé. Le corps (« 902 milliards… 8 965 milliards ») arrondit ces deux valeurs."
@@ -137,6 +132,7 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # RÉDUCTION APPLIQUÉE le 2026-09-22 sur décision de l'auteur, fiche `protocoles/reduction-source-fermee-L1-C10.md` : S16 — von Muralt 1934, `a_requalifier` — est retirée EN ENTIER, sa référence n'étant pas modifiée : la corriger lui aurait fait perdre son état (E-L6). Le premier appel était un appel double où une source non ouverte accompagnait [S1], que la méthode interdit ; [S1] porte le chiffre et la phrase garde son appui. CE QUI EST PERDU : la référence bibliographique, le nom de von Muralt restant au corps. UN AVERTISSEMENT A-L3 EST ATTENDU — entrée du manifeste sans occurrence ; `manifeste-etat-lecture.json` n'est pas touché pour le faire taire.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST
      DÉLIBÉRÉ. « Création monétaire sans dette » y est le vocabulaire de Grandjean et
      Dufrêne, cité au mot dans [S9] et repris dans la description de leur proposition.
@@ -245,11 +241,11 @@ Les chapitres L1.C05 à L1.C09 ont décrit le régime d'émission actuel et l'on
 
 ## 1. Wörgl, 1932-1933
 
-Été 1932. Wörgl, commune tyrolienne d'environ quatre mille habitants, prise dans la Grande Dépression : plusieurs centaines de chômeurs dans la ville, dont une part sans aucune indemnité, davantage encore dans le district, et quarante mille schillings en caisse [S1] [S16]. Le maire, Michael Unterguggenberger, lecteur de Gesell, dépose ces quarante mille schillings dans une caisse d'épargne locale en garantie d'une émission de certificats de travail [S1], et paie avec ces certificats les travaux publics qu'il ne pouvait pas financer autrement.
+Été 1932. Wörgl, commune tyrolienne d'environ quatre mille habitants, prise dans la Grande Dépression : plusieurs centaines de chômeurs dans la ville, dont une part sans aucune indemnité, davantage encore dans le district, et quarante mille schillings en caisse [S1]. Le maire, Michael Unterguggenberger, lecteur de Gesell, dépose ces quarante mille schillings dans une caisse d'épargne locale en garantie d'une émission de certificats de travail [S1], et paie avec ces certificats les travaux publics qu'il ne pouvait pas financer autrement.
 
 La règle qui distingue ces certificats est simple : ils perdent 1 % de leur valeur chaque mois, sauf à y apposer un timbre acheté à la commune. Le détenteur a donc intérêt à dépenser vite. C'est l'application directe de la monnaie fondante proposée par Gesell [S11] : donner à la monnaie la périssabilité des biens qu'elle permet d'échanger, pour qu'elle circule au lieu d'être conservée.
 
-Les résultats rapportés sont considérables et ont fait le tour du monde. Fisher, qui écrit en 1933, rapporte une émission de 32 000 schillings au 1er août 1932, dont le tiers au plus resta en circulation, et de trente à cinquante emplois permanents créés parmi les quinze cents chômeurs de la commune ; il retient surtout que l'expérience a « exercé une influence puissante pour empêcher toute augmentation du chômage, en maintenant l'activité » [S2]. Le recul du chômage d'environ un quart en un an, tandis qu'il augmente dans le reste de l'Autriche, est rapporté par von Muralt [S16], dont le texte n'est pas ouvert : cet énoncé reste sans appui vérifié. **Deux autres chiffres circulent sur Wörgl — une vitesse de circulation dix à quinze fois celle du schilling, et la résorption d'une part des arriérés d'impôts locaux — et le corpus ne les porte pas : aucune de ses pièces ouvertes ne les contient.** La commune voisine de Kirchbichl imite Wörgl en janvier 1933 ; en juin 1933, Unterguggenberger s'adresse aux représentants de cent soixante-dix communes [S1]. Ces chiffres proviennent de la littérature contemporaine de l'expérience et n'ont pas été contrôlés ici sur données d'archives.
+Les résultats rapportés sont considérables et ont fait le tour du monde. Fisher, qui écrit en 1933, rapporte une émission de 32 000 schillings au 1er août 1932, dont le tiers au plus resta en circulation, et de trente à cinquante emplois permanents créés parmi les quinze cents chômeurs de la commune ; il retient surtout que l'expérience a « exercé une influence puissante pour empêcher toute augmentation du chômage, en maintenant l'activité » [S2]. Le recul du chômage d'environ un quart en un an, tandis qu'il augmente dans le reste de l'Autriche, est rapporté par von Muralt, dont le texte n'est pas ouvert ici : cet énoncé reste sans appui vérifié. **Deux autres chiffres circulent sur Wörgl — une vitesse de circulation dix à quinze fois celle du schilling, et la résorption d'une part des arriérés d'impôts locaux — et le corpus ne les porte pas : aucune de ses pièces ouvertes ne les contient.** La commune voisine de Kirchbichl imite Wörgl en janvier 1933 ; en juin 1933, Unterguggenberger s'adresse aux représentants de cent soixante-dix communes [S1]. Ces chiffres proviennent de la littérature contemporaine de l'expérience et n'ont pas été contrôlés ici sur données d'archives.
 
 C'est alors que la Banque nationale d'Autriche intervient, au nom du monopole d'émission. La circulation des certificats cesse en septembre 1933 ; le 18 novembre 1933, la Haute Cour administrative rejette le recours de la commune : les certificats de travail « étaient sans aucun doute des signes monétaires », et leur émission violait le monopole de la Nationalbank [S15]. Wörgl retombe dans le chômage.
 
