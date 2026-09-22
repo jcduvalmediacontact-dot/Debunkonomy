@@ -7898,3 +7898,41 @@ règle arrêtée par l'auteur le 2026-09-21 — aucun chapitre ne passe à `veri
 ni à `citable` sur un corps que l'autre famille de modèles n'a pas vu dans son
 état final. **Le contrôle de l'état final de L1.C04 reste à faire**, au même
 titre que celui de L1.C06, et la décision `citable` de ce chapitre en dépend.
+
+## RELIQUATS DES SOLDES E3 — CE QUE L1.C13 ET L1.C10 RENVOIENT ICI, 2026-09-22
+
+Les trente-trois vérifications de L1.C13 et L1.C10 sont soldées ce jour sous la
+décision E3. Six points en sortent sans être résolus, et les lignes de solde les
+renvoient ici.
+
+**UN DÉFAUT DE CONTENU, ET IL N'ÉTAIT DANS AUCUNE VÉRIFICATION.** Le § 2 de
+L1.C10 écrit « de trente à cinquante emplois permanents créés parmi **les quinze
+cents chômeurs de la commune** [S2] ». La piste de la vérification n° 5 attribuait
+les 1 500 **au district**, et 350 à la commune — qui compte environ quatre mille
+habitants, soit un chômeur pour moins de trois habitants, nourrissons compris.
+L'un des deux se trompe, et [S2] ne tranche pas depuis l'extérieur : **il faut
+lire Fisher**, pièce tenue et ouverte, avec `lire_piece.py`. Aucune acquisition.
+
+**Deux enrichissements éditoriaux écartés du lot, parce qu'ils élargiraient les
+chapitres.** La typologie de Reinhart-Sbrancia [S11], qui étofferait les « trois
+options » de l'État endetté au § 2 de L1.C13 ; et la discordance relevée le
+2026-09-19 sur une pièce secondaire de Wörgl (September, *IJCCR*), jamais
+arbitrée, au § 1 de L1.C10.
+
+**Deux arbitrages de passe 2.** Le nom provisoire de `noeud_gordien`, dont la
+définition déclare elle-même être celle du livre à confirmer ; et le prix de la
+réponse à l'objection de fuite, ouverte par L16.C02 — la suppression de la
+propriété foncière —, qui relève de l'auteur et non d'une tâche documentaire.
+
+**UNE CONTRADICTION QUI N'APPARTIENT PAS À CES CHAPITRES.** Le contrôle de
+cohérence de L1.C13 avec L1.C12 trouve que le § 5 de L1.C12 dit que la stabilité
+des prix **plafonne** l'érosion, quand son chapeau dit encore qu'elle la
+« ferme ». La revue Codex du 2026-09-22 le confirme : C13 ne crée pas cette
+contradiction et ne peut pas être dit pleinement concordant avec un chapitre qui
+porte les deux formulations. **La correction de L1.C12 est une décision d'auteur
+séparée**, et elle n'est pas prise ici.
+
+**Une piste restée hors lot.** La revue Codex signale qu'une pièce officielle du
+régime grec de 2010 a été fournie hors de ce lot. Elle n'est pas inscrite à
+l'en-tête de L1.C13 et n'y est pas comptée ; S19 pourrait être rouverte sur elle,
+ce qui n'est pas demandé.

@@ -133,44 +133,46 @@ sources_primaires:
     date_verification: 2026-09-15
 verifications_en_attente:
   # RÉDUCTION APPLIQUÉE le 2026-09-22 sur décision de l'auteur, fiche `protocoles/reduction-source-fermee-L1-C10.md` : S16 — von Muralt 1934, `a_requalifier` — est retirée EN ENTIER, sa référence n'étant pas modifiée : la corriger lui aurait fait perdre son état (E-L6). Le premier appel était un appel double où une source non ouverte accompagnait [S1], que la méthode interdit ; [S1] porte le chiffre et la phrase garde son appui. CE QUI EST PERDU : la référence bibliographique, le nom de von Muralt restant au corps. UN AVERTISSEMENT A-L3 EST ATTENDU — entrée du manifeste sans occurrence ; `manifeste-etat-lecture.json` n'est pas touché pour le faire taire.
-  - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST
-     DÉLIBÉRÉ. « Création monétaire sans dette » y est le vocabulaire de Grandjean et
-     Dufrêne, cité au mot dans [S9] et repris dans la description de leur proposition.
-     Leur prêter le nom canonique du corpus leur ferait dire ce qu'ils n'écrivent pas.
-     Une phrase hors citation pose désormais la distinction, conformément à la décision
-     de l'auteur du 2026-09-20."
+  # SOLDÉE le 2026-09-22 (E3) — close : décision motivée de ne pas renommer le chapitre. Texte d'origine :
+  # - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST
+  # DÉLIBÉRÉ. « Création monétaire sans dette » y est le vocabulaire de Grandjean et
+  # Dufrêne, cité au mot dans [S9] et repris dans la description de leur proposition.
+  # Leur prêter le nom canonique du corpus leur ferait dire ce qu'ils n'écrivent pas.
+  # Une phrase hors citation pose désormais la distinction, conformément à la décision
+  # de l'auteur du 2026-09-20."
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
   # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
   # "D32 APPLIQUÉE le 2026-09-16 : l'en-tête du cahier des charges du § 5 passe de « Déconcentrer l'autorité » à « Séparer les cinq fonctions [...] entre des centres de responsabilité indépendants », formulation validée par l'auteur SANS la proposition finale « sans retomber dans l'arbitraire politique », qu'il a écartée comme jugement de valeur étranger à A46. À NOTER : la même expression figure encore dans la phrase suivante du paragraphe, qui est le texte original de l'auteur et n'a pas été touchée ; à lui de dire si elle y reste."
-  - "WÖRGL — DISCORDANCE RELEVÉE LE 2026-09-19 SUR UNE PIÈCE SECONDAIRE, non arbitrée.
-     J. September, « A sustainable miracle? Examining the long-term viability of the Wörgl
-     experiment », International Journal of Community Currency Research, vol. 30 n° 1
-     (2026), p. 114-126, est au Drive de l'auteur et cite von Muralt 1934 AVEC SES PAGES,
-     vingt-sept fois. ELLE NE REMPLACE PAS VON MURALT et [S16] reste fermée ; mais elle
-     contredit deux énoncés du corpus et en complète un troisième.
-     (1) LE VOLUME EN CIRCULATION. Le corpus écrit que le volume moyen n'a pas dépassé
-     5 490 schillings. Ce chiffre N'EST PAS dans la pièce ; trois sources y donnent ENVIRON
-     8 000 SCHILLINGS comme MAXIMUM en circulation à un instant — von Muralt 1934 p. 50,
-     Schwarz 1951, Unterguggenberger 1957 p. 29 —, le reste ayant été pris par des
-     collectionneurs. Un maximum de 8 000 et une moyenne de 5 490 ne sont pas
-     contradictoires ; le corpus écrit « n'a pas dépassé », ce qui se lit comme un plafond.
-     À TRANCHER SUR VON MURALT, non sur cette pièce.
-     (2) LE GAGE DE 32 000 SCHILLINGS. La pièce le confirme dans son principe — un montant
-     en schillings égal à l'émission devait être déposé à la Raiffeisen — MAIS ELLE AJOUTE
-     CE QUE LE CORPUS OMET : ce montant A ÉTÉ RÉDUIT À 12 000 SCHILLINGS quand la vitesse de
-     circulation a diminué le besoin (von Muralt 1934 p. 50). Le gage n'est donc pas resté
-     à 32 000, et 32 000 est le MONTANT IMPRIMÉ début juillet, non le dépôt maintenu.
-     (3) CE QU'ELLE APPORTE, et que le corpus n'a pas : recettes fiscales +34,4 %, arriérés
-     −53,8 %, dépenses d'investissement communales +219,7 % (Broer 2007, p. 127) ; sur
-     4 300 habitants, environ 350 chômeurs dont 200 sans indemnité, et 1 500 de plus dans
-     les environs (von Muralt p. 48) ; salaires communaux payés pour moitié en bons, impôts
-     et redevances payables en bons.
-     (4) CE QU'ELLE NE PORTE PAS : le vote du conseil du 8 juillet 1932 — elle date du
-     5 JUILLET la session décisive du comité d'aide —, la mise en circulation du 31 juillet,
-     et l'arrêt du Verwaltungsgerichtshof du 18 novembre 1933, dont le mot n'y figure pas.
-     CE QUE CELA DONNE POUR L'OUVERTURE DE VON MURALT : les pages à viser sont 48 à 53."
+  # SOLDÉE le 2026-09-22 (E3) — discordance sur une PIÈCE SECONDAIRE, non arbitrée : sa place est le registre. ELLE APPELLE [S16], RETIRÉE au commit 693027c4 — dette créée par cette réduction, close ici. Texte d'origine :
+  # - "WÖRGL — DISCORDANCE RELEVÉE LE 2026-09-19 SUR UNE PIÈCE SECONDAIRE, non arbitrée.
+  # J. September, « A sustainable miracle? Examining the long-term viability of the Wörgl
+  # experiment », International Journal of Community Currency Research, vol. 30 n° 1
+  # (2026), p. 114-126, est au Drive de l'auteur et cite von Muralt 1934 AVEC SES PAGES,
+  # vingt-sept fois. ELLE NE REMPLACE PAS VON MURALT et [S16] reste fermée ; mais elle
+  # contredit deux énoncés du corpus et en complète un troisième.
+  # (1) LE VOLUME EN CIRCULATION. Le corpus écrit que le volume moyen n'a pas dépassé
+  # 5 490 schillings. Ce chiffre N'EST PAS dans la pièce ; trois sources y donnent ENVIRON
+  # 8 000 SCHILLINGS comme MAXIMUM en circulation à un instant — von Muralt 1934 p. 50,
+  # Schwarz 1951, Unterguggenberger 1957 p. 29 —, le reste ayant été pris par des
+  # collectionneurs. Un maximum de 8 000 et une moyenne de 5 490 ne sont pas
+  # contradictoires ; le corpus écrit « n'a pas dépassé », ce qui se lit comme un plafond.
+  # À TRANCHER SUR VON MURALT, non sur cette pièce.
+  # (2) LE GAGE DE 32 000 SCHILLINGS. La pièce le confirme dans son principe — un montant
+  # en schillings égal à l'émission devait être déposé à la Raiffeisen — MAIS ELLE AJOUTE
+  # CE QUE LE CORPUS OMET : ce montant A ÉTÉ RÉDUIT À 12 000 SCHILLINGS quand la vitesse de
+  # circulation a diminué le besoin (von Muralt 1934 p. 50). Le gage n'est donc pas resté
+  # à 32 000, et 32 000 est le MONTANT IMPRIMÉ début juillet, non le dépôt maintenu.
+  # (3) CE QU'ELLE APPORTE, et que le corpus n'a pas : recettes fiscales +34,4 %, arriérés
+  # −53,8 %, dépenses d'investissement communales +219,7 % (Broer 2007, p. 127) ; sur
+  # 4 300 habitants, environ 350 chômeurs dont 200 sans indemnité, et 1 500 de plus dans
+  # les environs (von Muralt p. 48) ; salaires communaux payés pour moitié en bons, impôts
+  # et redevances payables en bons.
+  # (4) CE QU'ELLE NE PORTE PAS : le vote du conseil du 8 juillet 1932 — elle date du
+  # 5 JUILLET la session décisive du comité d'aide —, la mise en circulation du 31 juillet,
+  # et l'arrêt du Verwaltungsgerichtshof du 18 novembre 1933, dont le mot n'y figure pas.
+  # CE QUE CELA DONNE POUR L'OUVERTURE DE VON MURALT : les pages à viser sont 48 à 53."
   # — Sources ouvertes le 2026-09-03 (Claude) —
   # S1 : PDF lu (40 000 schillings en garantie ; Kirchbichl janv. 1933 ; 170 communes juin 1933 ; recours perdu nov. 1933).
   # S3 : texte lu — « the strange, unduly neglected prophet Silvio Gesell (1862-1930) » ; « I believe that the future will learn more from the spirit of Gesell than from that of Marx. »
@@ -181,53 +183,70 @@ verifications_en_attente:
   # S13 : page BoE lue — résumé : effets « broadly similar » en pourcentage, différents en valeur absolue ; « households around retirement age gained the most from the support to wealth, but […] support to incomes disproportionately benefited the young ».
   # S4, S16, S20 : DOI confirmés (Crossref). S5, S8 : pages lues.
   # — Pistes Deep Research écartées —
-  - "ÉCARTÉ — Citation de Soddy proposée par Deep Research (« You cannot permanently pit an absurd human convention […] ») : absente du texte OCR intégral de l'édition 1926 (archive.org). Ne pas l'employer. Le chapitre renvoie à la citation vérifiée en L1.C08."
-  - "ÉCARTÉ — Référence « Marshall & O'Neill, IJCCR, 2022 » proposée pour le Bristol Pound : introuvable sur Crossref. Remplacée par [S20] (Petz & Finch, 2026)."
+  # SOLDÉE le 2026-09-22 (E3) — close : « ÉCARTÉ », citation absente de l'OCR de l'édition 1926. Texte d'origine :
+  # - "ÉCARTÉ — Citation de Soddy proposée par Deep Research (« You cannot permanently pit an absurd human convention […] ») : absente du texte OCR intégral de l'édition 1926 (archive.org). Ne pas l'employer. Le chapitre renvoie à la citation vérifiée en L1.C08."
+  # SOLDÉE le 2026-09-22 (E3) — close : « ÉCARTÉ », référence introuvable sur Crossref, remplacée par [S20]. Texte d'origine :
+  # - "ÉCARTÉ — Référence « Marshall & O'Neill, IJCCR, 2022 » proposée pour le Bristol Pound : introuvable sur Crossref. Remplacée par [S20] (Petz & Finch, 2026)."
   # — Données à confirmer sur la source —
-  - "Wörgl [S2] [S16] : chiffres rapportés par Deep Research d'après Fisher et von Muralt — 4 300 habitants ; 350 chômeurs dans la commune (200 sans indemnité), 1 500 dans le district ; chômage local −25 % en un an contre +19 % au plan national ; 32 000 schillings imprimés, 5 300 à 5 500 en circulation moyenne ; vitesse 10 à 15 fois celle du schilling ; arriérés fiscaux résorbés à 34 %. Lietaer [S1] donne 500 chômeurs et 1 000 aux alentours. Fisher est en prêt restreint ; ouvrir [S16] (Wiley) et fixer les valeurs. Le chapitre donne des ordres de grandeur attribués."
-  - "WIR [S4] [S5] : 60 000 à 65 000 entreprises au pic 1995-2005, 30 000 à 40 000 clientes en 2024 ; volume WIR : 2,52 Md CHW en 1993, 1,3 à 1,6 Md CHW en 2000-2015 ; créances clients en CHW 83 236 kCHW fin 2024 ; avoirs WIR à 0 %, crédits WIR de 1,00 à 2,50 % ; Umlaufsicherung abandonnée en 1948 ; licence bancaire 1936. Chiffres Deep Research non ouverts par un humain sauf le bilan 2024 ; confirmer dans le rapport complet et dans [S4]."
-  - "Bristol Pound [S20] : lancement 19 septembre 2012 ; suspension du numérique 31 août 2020 ; retrait des billets 30 septembre 2021 ; plus de 800 commerces au pic ; plus de 5 millions £B échangés. Ouvrir [S20] et confirmer."
-  - "MLCC France [S21] : 73 monnaies recensées dont une dizaine en veille, 53 répondantes, masse en circulation supérieure à 7,3 M€ (enquête 2023, d'après le compte rendu de la Pive). Deep Research donnait 5,0 M€ et « 40 000 utilisateurs » : non retenu. Ouvrir le rapport sur HAL."
-  - "Eurosystème [S18] : 1 450 Md€ (janvier 2008) → 8 836 Md€ (juin 2022) selon Deep Research ; l'API BCE était indisponible (503) ; ouvrir la série et confirmer. Réserve fédérale : maximum vérifié au 13 avril 2022, non au 11 mai 2022 comme l'indiquait Deep Research."
-  - "Euro numérique : phase de préparation du 1er novembre 2023 au 31 octobre 2025 ; vérifier la décision prise à l'issue et l'état du règlement au jour de la vérification."
-  - "Bancor [S6] : ouvrir le Livre blanc Cmd. 6437 et confirmer § 5 (« fixed (but not unalterably) in terms of gold ») et § 8 (parité ajustable par le conseil)."
-  - "S2, S7, S9, S10, S11, S12 (rouvrir pour ce chapitre), S14, S22 : à ouvrir par un humain ; confirmer éditions et passages."
+  # SOLDÉE le 2026-09-22 (E3) — E4 CONFIRMÉE SANS RÉÉCRITURE : les chiffres de cette piste suivent déjà E3 — dé-chiffrés (« plusieurs centaines »), arrondis, sourcés [S2], ou déclarés non portés. ELLE APPELLE AUSSI [S16], RETIRÉE. RESTE UN DÉFAUT DE CONTENU, HORS VÉRIFICATION : le corps attribue « les quinze cents chômeurs » à la commune quand cette ligne les attribue au district ; [S2] ne tranche pas, il faut lire Fisher. Reporté à `protocoles/passe-2.md`. Texte d'origine :
+  # - "Wörgl [S2] [S16] : chiffres rapportés par Deep Research d'après Fisher et von Muralt — 4 300 habitants ; 350 chômeurs dans la commune (200 sans indemnité), 1 500 dans le district ; chômage local −25 % en un an contre +19 % au plan national ; 32 000 schillings imprimés, 5 300 à 5 500 en circulation moyenne ; vitesse 10 à 15 fois celle du schilling ; arriérés fiscaux résorbés à 34 %. Lietaer [S1] donne 500 chômeurs et 1 000 aux alentours. Fisher est en prêt restreint ; ouvrir [S16] (Wiley) et fixer les valeurs. Le chapitre donne des ordres de grandeur attribués."
+  # SOLDÉE le 2026-09-22 (E3) — confirmation sur pièces TENUES [S4] [S5], non acquisition. Texte d'origine :
+  # - "WIR [S4] [S5] : 60 000 à 65 000 entreprises au pic 1995-2005, 30 000 à 40 000 clientes en 2024 ; volume WIR : 2,52 Md CHW en 1993, 1,3 à 1,6 Md CHW en 2000-2015 ; créances clients en CHW 83 236 kCHW fin 2024 ; avoirs WIR à 0 %, crédits WIR de 1,00 à 2,50 % ; Umlaufsicherung abandonnée en 1948 ; licence bancaire 1936. Chiffres Deep Research non ouverts par un humain sauf le bilan 2024 ; confirmer dans le rapport complet et dans [S4]."
+  # SOLDÉE le 2026-09-22 (E3) — « ouvrir [S20] » : S20 EST OUVERTE. Confirmation sur pièce tenue. Texte d'origine :
+  # - "Bristol Pound [S20] : lancement 19 septembre 2012 ; suspension du numérique 31 août 2020 ; retrait des billets 30 septembre 2021 ; plus de 800 commerces au pic ; plus de 5 millions £B échangés. Ouvrir [S20] et confirmer."
+  # SOLDÉE le 2026-09-22 (E3) — idem : [S21] est ouverte, et la ligne note elle-même que les chiffres Deep Research ne sont pas retenus. Texte d'origine :
+  # - "MLCC France [S21] : 73 monnaies recensées dont une dizaine en veille, 53 répondantes, masse en circulation supérieure à 7,3 M€ (enquête 2023, d'après le compte rendu de la Pive). Deep Research donnait 5,0 M€ et « 40 000 utilisateurs » : non retenu. Ouvrir le rapport sur HAL."
+  # SOLDÉE le 2026-09-22 (E3) — SANS OBJET, ET C'EST UNE CORRECTION DE MA FICHE DU JOUR : le corps écrit 1 286 milliards et non le 1 450 de la piste, avec appel [S18]. Le chiffre Deep Research n'est plus au corps. Texte d'origine :
+  # - "Eurosystème [S18] : 1 450 Md€ (janvier 2008) → 8 836 Md€ (juin 2022) selon Deep Research ; l'API BCE était indisponible (503) ; ouvrir la série et confirmer. Réserve fédérale : maximum vérifié au 13 avril 2022, non au 11 mai 2022 comme l'indiquait Deep Research."
+  # SOLDÉE le 2026-09-22 (E3) — SANS OBJET, MÊME CORRECTION : le corps ne donne AUCUNE date de phase pour l'euro numérique — il écrit « en préparation ». Rien à actualiser. Texte d'origine :
+  # - "Euro numérique : phase de préparation du 1er novembre 2023 au 31 octobre 2025 ; vérifier la décision prise à l'issue et l'état du règlement au jour de la vérification."
+  # SOLDÉE le 2026-09-22 (E3) — confirmation sur pièce tenue [S6], non acquisition. Texte d'origine :
+  # - "Bancor [S6] : ouvrir le Livre blanc Cmd. 6437 et confirmer § 5 (« fixed (but not unalterably) in terms of gold ») et § 8 (parité ajustable par le conseil)."
+  # SOLDÉE le 2026-09-22 (E3) — PÉRIMÉE DEUX FOIS : les vingt et une entrées sont `ouverte`, et la règle « un humain ouvre » a été levée par l'auteur le 2026-09-06. Texte d'origine :
+  # - "S2, S7, S9, S10, S11, S12 (rouvrir pour ce chapitre), S14, S22 : à ouvrir par un humain ; confirmer éditions et passages."
   # — Objections de l'audit contradictoire (Gemini, 2026-09-03) —
   # 1. Wörgl : effet de taxe sur l'encaisse, stimulus local, non exportable — § 1 reformulé et balisé, [S16] cité.
   # 2. WIR : banque régulée, crédits gagés en CHF — § 2 corrigé.
   # 3. Bancor : non convertible en or — § 3 précisé (défini par rapport à l'or, non convertible, achetable contre or) [S6].
   # 4. MMT : garantie d'emploi, impôt régulateur — § 3 reformulé.
   # 5. Marqueur manquant § 2 — ajouté.
-  - "LIMITE — Ancre fiscale (Knapp, Goodhart) : une monnaie que l'État n'accepte pas en paiement de l'impôt reste un réseau d'échange restreint. Mentionné en § 2 et intégré au cahier des charges (§ 5)."
-  - "LIMITE — Fuite devant la monnaie fondante : la dépréciation des encaisses pousse vers des réserves de valeur non fondantes (devises, immobilier, matières premières). Mentionné en § 1 ; Gesell y répondait par la réforme foncière (Freiland), non traitée ici."
-  - "LIMITE — Risque inflationniste d'une création monétaire sans contrepartie marchande : mentionné en § 4 ; la réponse du corpus (destruction monétaire pondérée) relève de la seconde partie du livre (L1.C17 et suivants). Ne pas conclure ici."
+  # SOLDÉE le 2026-09-22 (E3) — limite, non tâche, et LE CORPS LA PORTE (§ 2, § 5). Texte d'origine :
+  # - "LIMITE — Ancre fiscale (Knapp, Goodhart) : une monnaie que l'État n'accepte pas en paiement de l'impôt reste un réseau d'échange restreint. Mentionné en § 2 et intégré au cahier des charges (§ 5)."
+  # SOLDÉE le 2026-09-22 (E3) — limite, non tâche, et LE CORPS LA PORTE (§ 1). Texte d'origine :
+  # - "LIMITE — Fuite devant la monnaie fondante : la dépréciation des encaisses pousse vers des réserves de valeur non fondantes (devises, immobilier, matières premières). Mentionné en § 1 ; Gesell y répondait par la réforme foncière (Freiland), non traitée ici."
+  # SOLDÉE le 2026-09-22 (E3) — limite, non tâche, et LE CORPS LA PORTE (§ 4). Texte d'origine :
+  # - "LIMITE — Risque inflationniste d'une création monétaire sans contrepartie marchande : mentionné en § 4 ; la réponse du corpus (destruction monétaire pondérée) relève de la seconde partie du livre (L1.C17 et suivants). Ne pas conclure ici."
   # — Cohérence interne —
-  - "COHÉRENCE — L1.C08 § 5 et ce chapitre concordent sur Wörgl (monnaie garantie, circulation accélérée). L1.C05 cite aussi Wörgl et le WIR : aligner les dates et les qualifications (Wörgl 1932-1933 ; WIR 1934 ; VwGH 18 novembre 1933)."
-  - "COHÉRENCE — La réserve sur la MMT engage L1.C20 ; le § 3 ne conclut pas ce qui y sera démontré."
+  # SOLDÉE le 2026-09-22 (E3) — constat de cohérence. Texte d'origine :
+  # - "COHÉRENCE — L1.C08 § 5 et ce chapitre concordent sur Wörgl (monnaie garantie, circulation accélérée). L1.C05 cite aussi Wörgl et le WIR : aligner les dates et les qualifications (Wörgl 1932-1933 ; WIR 1934 ; VwGH 18 novembre 1933)."
+  # SOLDÉE le 2026-09-22 (E3) — constat de cohérence. Texte d'origine :
+  # - "COHÉRENCE — La réserve sur la MMT engage L1.C20 ; le § 3 ne conclut pas ce qui y sera démontré."
   # — Renvois —
-  - "**LA SOURCE EST OUVERTE LE 2026-09-08 PAR L16.C01 ; LA RÉPONSE À L'OBJECTION DE
-     FUITE NE L'EST TOUJOURS PAS.** Ce chapitre notait que « Gesell y répondait par la
-     réforme foncière (Freiland), non traitée ici ». **L16.C01 a ouvert la partie sur
-     LA MONNAIE et non celle sur LA TERRE**, qui se trouve dans le même volume.
-     **L'acquisition est donc à portée immédiate et elle porte sur l'objection la plus
-     souvent opposée à l'instrument que le dispositif emploie** — acquisition de
-     rang 1 du Livre 16. **Ce qui est acquis en revanche** : le motif de l'instrument
-     **n'est pas écologique mais de justice dans l'échange** — « to BREAK THE UNFAIR
-     PRIVILEGE ENJOYED BY MONEY [...] namely THAT IT IS INDESTRUCTIBLE ». **Le
-     dispositif emploie l'instrument pour une fin autre que celle qui l'a fait
-     concevoir, et il ne peut plus se réclamer de cette filiation sans le
-     préciser.**"
-  - "**LA RÉPONSE À L'OBJECTION DE FUITE EST OUVERTE LE 2026-09-08 PAR L16.C02, ET SON
-     PRIX EST ÉNORME.** L'auteur y répond en SUPPRIMANT LA TERRE COMME OBJET DE
-     PROPRIÉTÉ : nationalisation intégrale, indemnisation totale en titres publics,
-     puis location « by way of PUBLIC AUCTION in which EVERY INHABITANT OF THE GLOBE,
-     without exception, can compete », la rente étant redistribuée mensuellement
-     « in equal shares TO MOTHERS according to the number of their young children ».
-     **C'est une réponse STRUCTURELLE et non incitative : on ne dissuade pas la fuite
-     vers la terre, ON SUPPRIME LE REFUGE.** **ET LES DEUX RÉFORMES SONT INSÉPARABLES
-     DANS LA CONCEPTION** — « we propose to introduce the money reform SIMULTANEOUSLY
-     WITH THE NATIONALISATION OF THE LAND ». **Le corpus ne peut donc pas prendre la
-     monnaie fondante seule et tenir cette objection pour répondue.**"
+  # SOLDÉE le 2026-09-22 (E3) — close : la source est ouverte depuis le 2026-09-08 par L16.C01. Texte d'origine :
+  # - "**LA SOURCE EST OUVERTE LE 2026-09-08 PAR L16.C01 ; LA RÉPONSE À L'OBJECTION DE
+  # FUITE NE L'EST TOUJOURS PAS.** Ce chapitre notait que « Gesell y répondait par la
+  # réforme foncière (Freiland), non traitée ici ». **L16.C01 a ouvert la partie sur
+  # LA MONNAIE et non celle sur LA TERRE**, qui se trouve dans le même volume.
+  # **L'acquisition est donc à portée immédiate et elle porte sur l'objection la plus
+  # souvent opposée à l'instrument que le dispositif emploie** — acquisition de
+  # rang 1 du Livre 16. **Ce qui est acquis en revanche** : le motif de l'instrument
+  # **n'est pas écologique mais de justice dans l'échange** — « to BREAK THE UNFAIR
+  # PRIVILEGE ENJOYED BY MONEY [...] namely THAT IT IS INDESTRUCTIBLE ». **Le
+  # dispositif emploie l'instrument pour une fin autre que celle qui l'a fait
+  # concevoir, et il ne peut plus se réclamer de cette filiation sans le
+  # préciser.**"
+  # SOLDÉE le 2026-09-22 (E3) — close : la réponse est ouverte depuis le 2026-09-08 par L16.C02 ; son prix est un arbitrage d'auteur, non une tâche documentaire. Texte d'origine :
+  # - "**LA RÉPONSE À L'OBJECTION DE FUITE EST OUVERTE LE 2026-09-08 PAR L16.C02, ET SON
+  # PRIX EST ÉNORME.** L'auteur y répond en SUPPRIMANT LA TERRE COMME OBJET DE
+  # PROPRIÉTÉ : nationalisation intégrale, indemnisation totale en titres publics,
+  # puis location « by way of PUBLIC AUCTION in which EVERY INHABITANT OF THE GLOBE,
+  # without exception, can compete », la rente étant redistribuée mensuellement
+  # « in equal shares TO MOTHERS according to the number of their young children ».
+  # **C'est une réponse STRUCTURELLE et non incitative : on ne dissuade pas la fuite
+  # vers la terre, ON SUPPRIME LE REFUGE.** **ET LES DEUX RÉFORMES SONT INSÉPARABLES
+  # DANS LA CONCEPTION** — « we propose to introduce the money reform SIMULTANEOUSLY
+  # WITH THE NATIONALISATION OF THE LAND ». **Le corpus ne peut donc pas prendre la
+  # monnaie fondante seule et tenir cette objection pour répondue.**"
 resume: "D'autres conventions monétaires ont été tentées, et certaines fonctionnent encore. Ce chapitre en fait l'inventaire en trois catégories : des expériences — les certificats fondants de Wörgl en 1932-1933, interdits par la Haute Cour administrative d'Autriche au nom du monopole d'émission ; le Wirtschaftsring suisse, actif depuis 1934 sous statut bancaire ; les monnaies locales complémentaires — ; des théories qui proposent de refondre le régime d'émission — Gesell, Soddy, l'économie écologique, le bancor de Keynes, la théorie monétaire moderne — ; et des expérimentations venues des banques centrales — assouplissement quantitatif, monnaies numériques de banque centrale, propositions de création monétaire écologique. Chaque cas est présenté avec ses limites connues : effet de taxe sur l'encaisse et fuite vers d'autres réserves de valeur pour la monnaie fondante, ancre fiscale pour les monnaies locales, risque inflationniste pour la création sans contrepartie. Rapportées aux quatre règles de l'architecture invisible, ces alternatives n'en touchent chacune qu'une. Le chapitre en conclut qu'une autre monnaie est techniquement possible, et pose le cahier des charges d'une refonte portant sur les quatre règles à la fois, acceptation fiscale comprise."
 concepts: [creation_monetaire, monnaie_endogene, monnaie_fondante, solvabilite_anticipee, architecture_invisible, monnaie_comme_registre]
 renvois: [L1.C03, L1.C05, L1.C08, L1.C09, L1.C11, L1.C12, L1.C13, L1.C17, L1.C20, L1.C25, L16.C01, L16.C02]
