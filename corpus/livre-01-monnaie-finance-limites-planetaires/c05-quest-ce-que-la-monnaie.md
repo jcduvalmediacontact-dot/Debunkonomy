@@ -130,7 +130,7 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ## 2. Un cas limite : les pierres de Yap
 
-::etat:: Un cas ethnographique documenté permet de séparer les deux questions. Sur l'île de Yap, en Micronésie, l'anthropologue William Henry Furness a décrit au début du XXe siècle l'usage de disques de pierre calcaire, extraits d'un archipel situé à plusieurs centaines de kilomètres et transportés par voie maritime. [S1] Certains atteignent plusieurs mètres de diamètre.
+::etat:: Un cas ethnographique documenté permet de séparer les deux questions. Au début du XXe siècle, William Henry Furness a décrit à Yap un usage monétaire dont deux traits sont ici pertinents : le transfert de propriété sans déplacement de l'objet, et la reconnaissance d'une pierre perdue en mer. [S1]
 
 ::etat:: Deux caractéristiques de cet usage sont pertinentes. Les pierres ne se déplacent pas lors des transactions : le transfert de propriété est annoncé et reconnu, l'objet demeure en place. Et Furness rapporte le cas d'une pierre perdue en mer lors de son transport, dont la propriété continuait d'être reconnue et transmise bien que personne ne l'ait jamais vue [S1]. Ce second élément repose sur un témoignage oral rapporté par Furness, repris et discuté par les réexamens numismatiques ultérieurs [S5].
 
@@ -140,9 +140,9 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ## 3. Le support et la tenue
 
-::etat:: L'histoire des supports monétaires est celle d'une grande variabilité. Coquillages, métaux, papier : chacun de ces supports a rempli les trois fonctions, dans des sociétés qui n'avaient en commun ni institutions ni technologies [S3]. Les écritures bancaires et les registres distribués prolongent cette série sous des formes que la pièce appelée ici, publiée en 1875, ne pouvait pas connaître.
+::etat:: Jevons décrit une grande variété de supports monétaires — notamment les cauris, le wampum, le métal, le papier et les documents de crédit — et énumère les qualités qu'un matériau monétaire peut présenter : utilité et valeur, portabilité, indestructibilité, homogénéité, divisibilité, stabilité de valeur et reconnaissabilité [S3].
 
-::etat:: Le métal précieux ne fait pas exception. Sa domination durable tient à des propriétés utiles au support — rareté, durabilité, divisibilité, homogénéité — et non à une valeur d'usage particulière, faible pour l'or. [S3]
+::hypothese:: Les écritures bancaires et les registres distribués peuvent être compris comme des prolongements contemporains de cette dissociation entre support et tenue. Cette lecture est celle du chapitre ; Jevons ne pouvait pas la formuler dans son texte de 1875.
 
 ::etat:: Deux ruptures récentes doivent être notées. En 1971, la suspension — devenue définitive — de la convertibilité du dollar en or [S4] a placé les monnaies dans un régime où aucune contrepartie métallique n'est plus promise. Et la dématérialisation informatique a fait de l'essentiel des encaisses une écriture en base de données.
 
@@ -162,9 +162,9 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ## 5. Pourquoi la question est peu posée
 
-::etat:: Le mécanisme de création monétaire occupe une place réduite dans le débat public, alors que ses effets sont larges. Trois explications sont avancées ; leur statut n'est pas le même.
+::hypothese:: Ce chapitre examine pourquoi le mécanisme de création monétaire peut rester peu discuté. Trois explications sont avancées ; leur statut n'est pas le même.
 
-::etat:: La première est pédagogique. Les manuels introduisent la monnaie par ses fonctions [S7] et traitent brièvement de son émission. Cette observation porte sur le contenu des manuels et se vérifie sur un cours universitaire de première année, qui définit la monnaie par trois fonctions et règle son émission en une phrase [S6] ; l'affirmation plus forte selon laquelle un cursus complet pourrait s'achever sans que le mécanisme soit compris demande une étude des programmes, et n'est pas établie.
+::etat:: La première est pédagogique. Un cours universitaire de première année introduit la monnaie par ses trois fonctions et traite son émission en une phrase [S6]. Plihon introduit lui aussi la monnaie par ses fonctions [S7], mais consacre une section au processus de création monétaire : le chapitre ne généralise donc pas la brièveté du cours à l'ensemble des manuels. L'affirmation selon laquelle un cursus complet pourrait s'achever sans que le mécanisme soit compris demanderait une étude des programmes et n'est pas établie.
 
 ::hypothese:: La deuxième est institutionnelle. Une question technique peu discutée est arbitrée par un cercle restreint, ce qui accroît l'autonomie de décision de ce cercle. Il s'agit d'un effet, non d'une intention : rien dans ce chapitre n'établit qu'un acteur entretienne délibérément cette opacité, et l'argument n'a pas besoin de cette hypothèse. Un mécanisme peu perçu est peu débattu, quelles que soient les intentions.
 
