@@ -7936,3 +7936,20 @@ séparée**, et elle n'est pas prise ici.
 régime grec de 2010 a été fournie hors de ce lot. Elle n'est pas inscrite à
 l'en-tête de L1.C13 et n'y est pas comptée ; S19 pourrait être rouverte sur elle,
 ce qui n'est pas demandé.
+
+## RELIQUAT DU SOLDE L1.C05 — UN RENVOI MANQUANT DANS L1.C03, 2026-09-22
+
+Les dix-sept vérifications de L1.C05 sont soldées ce jour. Une seule renvoie
+ici, parce que **le défaut qu'elle relève n'est pas dans L1.C05**.
+
+**LE CONTRÔLE DU 2026-09-19 ÉCHOUAIT À MOITIÉ, ET LA MOITIÉ QUI ÉCHOUE EST DANS
+L1.C03.** La ligne demandait que les chapitres qui posent la non-neutralité
+monétaire renvoient au chapitre qui en expose le mécanisme, L1.C07. L1.C02 le
+fait, dans son corps et dans son en-tête. **L1.C03 ne le fait pas**, et le
+relèvement a été refait le 2026-09-22 : zéro occurrence de `L1.C07` dans le
+corps de L1.C03, et `L1.C07` absent de ses `renvois`, qui déclarent L1.C02,
+L1.C04, L1.C05, L1.C16 et L26.C01.
+
+**La correction appartient à L1.C03**, qui est `audit_contradictoire`, et non à
+L1.C05 : un chapitre ne corrige pas les renvois d'un autre. Elle est portée ici
+pour ne pas disparaître avec le solde de la ligne qui la signalait.

@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-11
+revision_de_fond: 2026-09-22
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -36,7 +36,7 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S5
     nature: theorie
-    reference: "H. Mäkeler, F. Huber, « Das Steingeld aus Palau auf Yap: das größte Geld der Welt », Geldgeschichtliche Nachrichten, n° 346, juillet 2026, p. 209 sq. — réexamen numérologique récent du récit de Furness. ENTRÉE CRÉÉE le 2026-09-16 par application de D56, sur décision explicite de l'auteur du même jour. Aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur le 2026-09-15, 2026-09-15/c05/candidats/gn-346-2026-maekeler-huber-steingeld-yap-fourni.pdf (18 pages, SHA-256 1FAA3A4FFEDF765CDCB6E4F499A7209D1C164DE3E0EF1CC206A45666CE04E983). Passages lus : « ein Bericht, den William Henry Furness III. aufgezeichnet hatte und demzufolge Steingeld auch dann seinen Wert behalten konnte, wenn es physisch verloren war » (page PDF 14) ; « über Bord gefallen sei, habe für den Besitzer dadurch keineswegs an Kaufkraft verloren, obwohl seine Lage nur durch die Überlieferung bekannt und eine Hebung unmöglich sei » (page PDF 16) ; cite Bryan 2004, Goldberg 2005 et Fitzpatrick-McKeon 2020 comme réexamens."
+    reference: "H. Mäkeler, F. Huber, « Das Steingeld aus Palau auf Yap: das größte Geld der Welt », Geldgeschichtliche Nachrichten, n° 346, juillet 2026, p. 209 sq. — réexamen numismatique récent du récit de Furness. ENTRÉE CRÉÉE le 2026-09-16 par application de D56, sur décision explicite de l'auteur du même jour. Aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur le 2026-09-15, 2026-09-15/c05/candidats/gn-346-2026-maekeler-huber-steingeld-yap-fourni.pdf (18 pages, SHA-256 1FAA3A4FFEDF765CDCB6E4F499A7209D1C164DE3E0EF1CC206A45666CE04E983). Passages lus : « ein Bericht, den William Henry Furness III. aufgezeichnet hatte und demzufolge Steingeld auch dann seinen Wert behalten konnte, wenn es physisch verloren war » (page PDF 14) ; « über Bord gefallen sei, habe für den Besitzer dadurch keineswegs an Kaufkraft verloren, obwohl seine Lage nur durch die Überlieferung bekannt und eine Hebung unmöglich sei » (page PDF 16) ; cite Bryan 2004, Goldberg 2005 et Fitzpatrick-McKeon 2020 comme réexamens."
     etat_lecture: ouverte
     date_verification: 2026-09-16
   - ref: S6
@@ -56,40 +56,57 @@ verifications_en_attente:
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
   # compter comme vérification en attente, ce qu'il n'était déjà plus par sa lettre.
   # "D18 APPLIQUÉE le 2026-09-16, en deux temps, et CLOSE SUR UNE CONTRADICTION CONSIGNÉE. Premier exemplaire, le cours de macroéconomie de Ben Zineb (HAL) [S6], spécimen d'un enseignement de licence : trois fonctions page 93, émission en une phrase page 94, attribuée à la banque centrale, zéro « création monétaire » en 140 pages. Second exemplaire, fourni par l'auteur le soir même, Plihon, La monnaie et ses mécanismes (Repères, 2004) [S7], le manuel de référence du premier cycle : il VÉRIFIE la première moitié de la phrase du § 5 — la monnaie y est introduite par ses trois fonctions, page 3 — et RÉFUTE la seconde : il consacre à l'émission une section dès son chapitre I (« Le processus de création monétaire », page 18), écrit dès l'introduction que « la monnaie est d'abord créée par les banques, à l'occasion de leurs opérations de crédit » (page 4), enseigne l'adage « les crédits font les dépôts » (page 42), et emploie « création monétaire » 46 fois en 129 pages. La phrase « les manuels [...] traitent brièvement de son émission » est donc contredite par le manuel de référence et ne se vérifie que sur le spécimen [S6]. DÉCISION DE L'AUTEUR le 2026-09-16, sur trois issues proposées — corriger la phrase sur les deux sources (recommandée) ; retirer l'explication pédagogique ; garder la phrase et consigner — : GARDER LA PHRASE ET CONSIGNER. Le corps ne change pas, hormis l'appel [S7] posé sur la moitié vérifiée. CE QUI EN RÉSULTE : la première des trois explications du § 5 reste écrite alors que sa source de référence la contredit ; cette entrée le dit, et tant qu'elle demeure, la règle « statut verifie avec verifications_en_attente non vide » bloque le passage de L1.C05 à verifie — la contradiction se résout par l'auteur, en corrigeant, en retirant ou en assumant dans le corps. L'affirmation plus forte du même paragraphe (un cursus complet achevé sans que le mécanisme soit compris) est rendue improbable par le manuel de référence, qui l'enseigne. La recension de Servet (RFSE 2017) du livre d'Aglietta 2016, déposée le même soir, ne porte pas les fonctions ; versée sans référence, piste pour la ligne Aglietta-Orléan."
-  - "D15, D16, D20, D56 et D17 APPLIQUÉES le 2026-09-16. Trois entrées créées et ouvertes : S3 Jevons 1875 (supports et qualités du métal), S4 Nixon 1971, S5 Mäkeler-Huber 2026. D20 : le récit de la pierre perdue est porté au mot par Furness [S1], et la réserve sur les « réexamens ultérieurs » est levée par D56, le réexamen étant nommé. D17 : les trois dispositifs du § 4 renvoient à L1.C10, qui les instruit ; aucune source nouvelle ici. DEUX CORRECTIONS DE FIDÉLITÉ DANS LE CORPS, À RELIRE PAR L'AUTEUR : « la fin de la convertibilité » devient « la suspension — devenue définitive — de la convertibilité », parce que le texte de Nixon dit suspend temporarily ; et la phrase sur la pierre dit désormais que le réexamen a eu lieu au lieu de le demander. D18 (les manuels) attend Plihon, que l'auteur possède en papier."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : « APPLIQUÉES le 2026-09-16 ». Texte d'origine :
+  # - "D15, D16, D20, D56 et D17 APPLIQUÉES le 2026-09-16. Trois entrées créées et ouvertes : S3 Jevons 1875 (supports et qualités du métal), S4 Nixon 1971, S5 Mäkeler-Huber 2026. D20 : le récit de la pierre perdue est porté au mot par Furness [S1], et la réserve sur les « réexamens ultérieurs » est levée par D56, le réexamen étant nommé. D17 : les trois dispositifs du § 4 renvoient à L1.C10, qui les instruit ; aucune source nouvelle ici. DEUX CORRECTIONS DE FIDÉLITÉ DANS LE CORPS, À RELIRE PAR L'AUTEUR : « la fin de la convertibilité » devient « la suspension — devenue définitive — de la convertibilité », parce que le texte de Nixon dit suspend temporarily ; et la phrase sur la pierre dit désormais que le réexamen a eu lieu au lieu de le demander. D18 (les manuels) attend Plihon, que l'auteur possède en papier."
   # — Corrections critiques identifiées à la conversion —
-  - "CRITIQUE — « 92 % de la monnaie en circulation dans le monde » n'est pas sous forme fiduciaire : chiffre très largement repris sans source. La part varie fortement selon le pays et selon l'agrégat retenu (M0, M1, M2, M3) ; un ratio mondial unique est douteux. Retrouver la source, l'agrégat et l'année, ou remplacer par des valeurs par zone monétaire (BCE, Fed, BRI)."
-  - "CRITIQUE — « On peut sortir d'un doctorat en économie sans avoir compris comment un euro naît » : affirmation sur le contenu des cursus. À étayer par des analyses de programmes, ou à retirer."
-  - "CRITIQUE — Motivations prêtées aux banques, aux grandes fortunes et aux États endettés dans le maintien de l'opacité monétaire : attribution d'intention, non établie. Reformulée ici en termes d'effets ; vérifier s'il existe des travaux documentant ces stratégies, faute de quoi la section reste hypothétique."
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 3 écrit qu'aucune valeur n'est reprise tant qu'elle n'est pas rapportée à sa source et à son périmètre. Vérifié : le chiffre est absent du corps. Texte d'origine :
+  # - "CRITIQUE — « 92 % de la monnaie en circulation dans le monde » n'est pas sous forme fiduciaire : chiffre très largement repris sans source. La part varie fortement selon le pays et selon l'agrégat retenu (M0, M1, M2, M3) ; un ratio mondial unique est douteux. Retrouver la source, l'agrégat et l'année, ou remplacer par des valeurs par zone monétaire (BCE, Fed, BRI)."
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 5 déclare l'affirmation « non établie » et la borne à ce qu'un cours de première année [S6] et les manuels [S7] portent. Texte d'origine :
+  # - "CRITIQUE — « On peut sortir d'un doctorat en économie sans avoir compris comment un euro naît » : affirmation sur le contenu des cursus. À étayer par des analyses de programmes, ou à retirer."
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 5 requalifie en EFFET et non en intention — « rien dans ce chapitre n'établit qu'un acteur entretienne délibérément cette opacité ». Texte d'origine :
+  # - "CRITIQUE — Motivations prêtées aux banques, aux grandes fortunes et aux États endettés dans le maintien de l'opacité monétaire : attribution d'intention, non établie. Reformulée ici en termes d'effets ; vérifier s'il existe des travaux documentant ces stratégies, faute de quoi la section reste hypothétique."
   # — Références à établir —
-  - "S1/S2 — Yap : date exacte du séjour de Furness (1903 ?) et de la publication (1910) ; vérifier la reprise par Friedman en 1991 et l'usage qu'il en fait"
-  - "Yap — l'anecdote de la pierre engloutie provient d'un témoignage oral rapporté par Furness. Rechercher les réexamens archéologiques et anthropologiques récents avant de la présenter comme établie."
-  - "Attribution à Aristote des trois fonctions de la monnaie : retrouver le passage (Éthique à Nicomaque, Politique) et vérifier si la triade canonique ne date pas plutôt de la formalisation de Jevons (1875)"
-  - "Bruno Théret : retrouver la formulation exacte sur l'écart entre fonctions et nature de la monnaie, et sa référence"
-  - "Cauris : durée d'usage, aires géographiques, et persistance au XIXe siècle — source"
-  - "Papier-monnaie sous la dynastie Song (jiaozi, XIe siècle) : source"
-  - "Apparition du papier-monnaie en Europe au XVIIe siècle : source et cas de référence"
-  - "Fin de la convertibilité du dollar en or, 15 août 1971 : source et portée exacte de la décision"
-  - "Monnaie franche de Wörgl (1932-1933) : durée, résultats mesurés, et raisons de son arrêt"
-  - "Banque WIR (Suisse, 1934) : statut actuel, volume, et travaux évaluant son effet contracyclique"
-  - "Part de la monnaie créée par les banques commerciales par rapport à la monnaie centrale : source par zone monétaire"
+  # SOLDÉE le 2026-09-22 — SANS OBJET : le corps ne donne PAS de date de séjour, il écrit « au début du XXe siècle ». La reprise par Friedman en 1991 est sourcée [S2]. Texte d'origine :
+  # - "S1/S2 — Yap : date exacte du séjour de Furness (1903 ?) et de la publication (1910) ; vérifier la reprise par Friedman en 1991 et l'usage qu'il en fait"
+  # SOLDÉE le 2026-09-22 — TRAITÉE : les réexamens sont portés par [S5], dont les passages lus citent Bryan 2004, Goldberg 2005 et Fitzpatrick-McKeon 2020. Texte d'origine :
+  # - "Yap — l'anecdote de la pierre engloutie provient d'un témoignage oral rapporté par Furness. Rechercher les réexamens archéologiques et anthropologiques récents avant de la présenter comme établie."
+  # SOLDÉE le 2026-09-22 — SANS OBJET : Aristote n'est pas nommé dans le corps, vérifié. Texte d'origine :
+  # - "Attribution à Aristote des trois fonctions de la monnaie : retrouver le passage (Éthique à Nicomaque, Politique) et vérifier si la triade canonique ne date pas plutôt de la formalisation de Jevons (1875)"
+  # SOLDÉE le 2026-09-22 — SANS OBJET : Bruno Théret n'est pas nommé dans le corps, vérifié. Texte d'origine :
+  # - "Bruno Théret : retrouver la formulation exacte sur l'écart entre fonctions et nature de la monnaie, et sa référence"
+  # SOLDÉE le 2026-09-22 — SANS OBJET, ET LA SOURCE EXISTE DÉJÀ SI L'EXEMPLE ENTRAIT : le mot « cauris » n'est pas au corps, et [S3] porte les cauris et le wampum, pages PDF 48-49. Texte d'origine :
+  # - "Cauris : durée d'usage, aires géographiques, et persistance au XIXe siècle — source"
+  # SOLDÉE le 2026-09-22 — SANS OBJET, MÊME REMARQUE : les Song ne sont pas nommés au corps, et [S3] porte le papier-monnaie aux chapitres XIII à XX. Texte d'origine :
+  # - "Papier-monnaie sous la dynastie Song (jiaozi, XIe siècle) : source"
+  # SOLDÉE le 2026-09-22 — SANS OBJET, MÊME REMARQUE : le XVIIe siècle européen n'est pas nommé au corps. Texte d'origine :
+  # - "Apparition du papier-monnaie en Europe au XVIIe siècle : source et cas de référence"
+  # SOLDÉE le 2026-09-22 — TRAITÉE : 1971 est sourcé [S4] au § 3. Texte d'origine :
+  # - "Fin de la convertibilité du dollar en or, 15 août 1971 : source et portée exacte de la décision"
+  # SOLDÉE le 2026-09-22 — PORTÉE PAR L1.C10 § 1, où les pièces sont ouvertes ; le § 4 y renvoie désormais avec son ancre. Texte d'origine :
+  # - "Monnaie franche de Wörgl (1932-1933) : durée, résultats mesurés, et raisons de son arrêt"
+  # SOLDÉE le 2026-09-22 — PORTÉE PAR L1.C10 § 2, même renvoi. Texte d'origine :
+  # - "Banque WIR (Suisse, 1934) : statut actuel, volume, et travaux évaluant son effet contracyclique"
+  # SOLDÉE le 2026-09-22 — TRAITÉE DANS LE CORPS : le § 6 range cette part sous « ce que le chapitre n'établit pas » et la renvoie à L1.C07. Texte d'origine :
+  # - "Part de la monnaie créée par les banques commerciales par rapport à la monnaie centrale : source par zone monétaire"
   # — Cohérence interne —
-  - "COHÉRENCE SUR LA NON-NEUTRALITÉ — CONTRÔLE FAIT LE 2026-09-19 : LES DEUX
-     FORMULATIONS SONT ALIGNÉES, ET IL N'Y EN A PAS TROIS. Relèvement mécanique : L1.C01 en
-     porte une, L1.C05 une, ET L1.C02 ZÉRO — le mot n'y figure pas. Les deux qui existent
-     disent la même chose et dans le même ordre : elles écartent expressément la neutralité
-     de long terme au sens de la littérature, « question distincte », et portent la thèse
-     sur l'ORIENTATION SECTORIELLE DU CRÉDIT. Rien à aligner.
-     UNE RÉSERVE SUBSISTE, mineure et signalée sans être corrigée : le corps de ce chapitre
-     attribue la proposition à « L1.C02, L1.C03 ». L1.C02 la porte EN SUBSTANCE — ce n'est
-     pas la croissance mais le mode de financement qui exige la dégradation — sans employer
-     le mot. L'attribution n'est donc pas fausse ; elle est plus large que la lettre."
-  - "RENVOIS VERS LE CHAPITRE QUI EXPOSE LE MÉCANISME — CONTRÔLE FAIT LE 2026-09-19, ET IL
-     ÉCHOUE À MOITIÉ. L1.C02 renvoie bien à L1.C07, dans son corps et dans son en-tête.
-     L1.C03 NE LE FAIT PAS : zéro occurrence de L1.C07 dans son corps, et L1.C07 absent de
-     ses renvois déclarés. L'épreuve mécanique annoncée y reste donc sans destinataire
-     écrit. LE CORPS DE L1.C03 N'A PAS ÉTÉ MODIFIÉ : cette ligne demandait de vérifier, non
-     de corriger, et ajouter un renvoi suppose une phrase que l'auteur doit vouloir."
+  # SOLDÉE le 2026-09-22 — close par sa propre lettre : « CONTRÔLE FAIT LE 2026-09-19 », deux formulations alignées. Texte d'origine :
+  # - "COHÉRENCE SUR LA NON-NEUTRALITÉ — CONTRÔLE FAIT LE 2026-09-19 : LES DEUX
+  # FORMULATIONS SONT ALIGNÉES, ET IL N'Y EN A PAS TROIS. Relèvement mécanique : L1.C01 en
+  # porte une, L1.C05 une, ET L1.C02 ZÉRO — le mot n'y figure pas. Les deux qui existent
+  # disent la même chose et dans le même ordre : elles écartent expressément la neutralité
+  # de long terme au sens de la littérature, « question distincte », et portent la thèse
+  # sur l'ORIENTATION SECTORIELLE DU CRÉDIT. Rien à aligner.
+  # UNE RÉSERVE SUBSISTE, mineure et signalée sans être corrigée : le corps de ce chapitre
+  # attribue la proposition à « L1.C02, L1.C03 ». L1.C02 la porte EN SUBSTANCE — ce n'est
+  # pas la croissance mais le mode de financement qui exige la dégradation — sans employer
+  # le mot. L'attribution n'est donc pas fausse ; elle est plus large que la lettre."
+  # SOLDÉE le 2026-09-22 — LE DÉFAUT QU'ELLE RELÈVE EST DANS L1.C03, NON ICI : c'est L1.C03 qui ne renvoie pas à L1.C07. Reporté à `protocoles/passe-2.md`. Texte d'origine :
+  # - "RENVOIS VERS LE CHAPITRE QUI EXPOSE LE MÉCANISME — CONTRÔLE FAIT LE 2026-09-19, ET IL
+  # ÉCHOUE À MOITIÉ. L1.C02 renvoie bien à L1.C07, dans son corps et dans son en-tête.
+  # L1.C03 NE LE FAIT PAS : zéro occurrence de L1.C07 dans son corps, et L1.C07 absent de
+  # ses renvois déclarés. L'épreuve mécanique annoncée y reste donc sans destinataire
+  # écrit. LE CORPS DE L1.C03 N'A PAS ÉTÉ MODIFIÉ : cette ligne demandait de vérifier, non
+  # de corriger, et ajouter un renvoi suppose une phrase que l'auteur doit vouloir."
   # — Renvois —
   # — Renvoi vers L1.C07 ajouté le 2026-09-11 (§ 6) : L1.C07 établit le mécanisme pour la seule monnaie de dépôt ; la définition générale posée ici reste une hypothèse —
 resume: "Les manuels définissent la monnaie par ses trois fonctions — unité de compte, intermédiaire d'échange, réserve de valeur — c'est-à-dire par ses usages. Ce chapitre soutient que cette définition laisse ouverte la question de sa nature, et propose de la caractériser comme un registre de créances collectivement tenu, dont le support importe moins que la tenue. Il en tire que les règles d'émission relèvent d'une décision et non d'une nécessité, et que la question décisive est celle des conditions auxquelles la monnaie est créée."
@@ -123,9 +140,9 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ## 3. Le support et la tenue
 
-::etat:: L'histoire des supports monétaires est celle d'une grande variabilité. Coquillages, métaux, papier, écritures bancaires, registres distribués : chacun de ces supports a rempli les trois fonctions, dans des sociétés qui n'avaient en commun ni institutions ni technologies [S3].
+::etat:: L'histoire des supports monétaires est celle d'une grande variabilité. Coquillages, métaux, papier : chacun de ces supports a rempli les trois fonctions, dans des sociétés qui n'avaient en commun ni institutions ni technologies [S3]. Les écritures bancaires et les registres distribués prolongent cette série sous des formes que la pièce appelée ici, publiée en 1875, ne pouvait pas connaître.
 
-::etat:: Le métal précieux ne fait pas exception. Sa domination durable tient à des propriétés utiles au support — rareté, durabilité, divisibilité, homogénéité — et non à une valeur d'usage particulière, faible pour l'or.
+::etat:: Le métal précieux ne fait pas exception. Sa domination durable tient à des propriétés utiles au support — rareté, durabilité, divisibilité, homogénéité — et non à une valeur d'usage particulière, faible pour l'or. [S3]
 
 ::etat:: Deux ruptures récentes doivent être notées. En 1971, la suspension — devenue définitive — de la convertibilité du dollar en or [S4] a placé les monnaies dans un régime où aucune contrepartie métallique n'est plus promise. Et la dématérialisation informatique a fait de l'essentiel des encaisses une écriture en base de données.
 
@@ -139,7 +156,7 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::hypothese:: Il en découle que la monnaie n'est pas neutre au sens qui importe ici : les conditions auxquelles elle est émise déterminent quelles activités trouvent un financement. Cette proposition, énoncée aux chapitres précédents (L1.C02, L1.C03), ne porte pas sur la neutralité de long terme au sens de la littérature monétaire — question distincte — mais sur l'orientation sectorielle du crédit.
 
-::etat:: Des dispositifs fonctionnant sous d'autres conventions existent et ont été documentés (L1.C10) : monnaie fondante de Wörgl au début des années 1930, banque WIR en Suisse depuis 1934, monnaies locales complémentaires contemporaines. Leur portée doit être évaluée avec prudence : leur échelle est sans commune mesure avec celle d'un système monétaire national, et l'évaluation de leurs effets fait l'objet de travaux qu'il faut consulter avant d'en tirer argument.
+::etat:: Des dispositifs fonctionnant sous d'autres conventions existent et ont été documentés aux § 1 et § 2 de L1.C10, où les pièces qui les portent sont toutes ouvertes : monnaie fondante de Wörgl au début des années 1930, banque WIR en Suisse depuis 1934, monnaies locales complémentaires contemporaines. Leur portée doit être évaluée avec prudence : leur échelle est sans commune mesure avec celle d'un système monétaire national, et l'évaluation de leurs effets fait l'objet de travaux qu'il faut consulter avant d'en tirer argument.
 
 ::hypothese:: Ce qu'ils établissent est plus limité et suffit : une convention monétaire différente peut fonctionner sur un périmètre donné. Ils n'établissent pas qu'elle fonctionnerait à l'échelle d'une union monétaire.
 
