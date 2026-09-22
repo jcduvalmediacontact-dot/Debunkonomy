@@ -4,13 +4,15 @@ titre: "Pourquoi l'humanité a besoin d'un nouveau paradigme économique"
 livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
-type: chapitre
+type: synthese
 statut: brouillon
 revision_de_fond: 2026-09-20
 autorite: preparatoire
 citable: false
 regime: hybride
 sources_primaires: []
+chapitres_sources: [L1.C07, L1.C08, L1.C09, L1.C11, L1.C12, L1.C14, L1.C15, L1.C16]
+verifiee_le: 2026-09-22
 verifications_en_attente:
   - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
      RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
