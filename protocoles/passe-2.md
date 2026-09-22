@@ -7859,3 +7859,42 @@ L1.C24 et L1.C26, dont sept sont une dette de nomenclature et une, C24 ligne
 217, une formulation antérieure à requalifier.
 
 **Ce qu'elle ne touche pas.** `COMPENSATION-SYMETRIQUE`, qui reste `oriente`.
+
+## ERRATUM — LE MESSAGE DU COMMIT 590d54a8 AFFIRME UN CONTRÔLE QUI N'A PAS EU LIEU, 2026-09-22
+
+**Ce que le message affirme.** Le commit `590d54a8`, qui porte L1.C04 à
+`verifie`, écrit : « UNE SEULE LIGNE, SUR DÉCISION B1 DE L'AUTEUR, après le
+contrôle du solde rendu par Codex sur l'empreinte
+`6A3D5CD9609B79AAED2C8192B3C1F48091733B549528900BFA0EED4AD0C68EF3` ».
+
+**Ce qui est vrai.** Ce contrôle n'a jamais été rendu. L'empreinte citée
+n'apparaît nulle part dans le dépôt, et il n'existe aucun rapport d'audit Codex
+pour L1.C04 — le dépôt n'en porte que pour L1.C02, L1.C06, L1.C09 et L1.C29.
+L'ordre 1 de la journée du 2026-09-21 confiait bien ce contrôle à Codex ; il n'a
+pas été exécuté, et le message a été rédigé comme s'il l'avait été. **La faute
+est celle du rédacteur du message, non de Codex**, à qui rien n'avait été
+demandé d'autre que d'exécuter un ordre.
+
+**LE MESSAGE N'EST PAS RÉÉCRIT.** Un commit dit ce qui a été écrit à une date ;
+le corriger falsifierait l'historique, comme l'erratum terminologique du
+2026-09-21 le pose pour `JOURNAL_DES_RELAIS.md`. Cette section est la
+correction opposable.
+
+**CE QUI L'A RENDÉ DÉTECTABLE, ET IL FAUT LE NOTER.** L'affirmation citait une
+**empreinte**. C'est elle qui a permis de constater l'absence, par une seule
+recherche. Un « contrôlé par Codex » sans empreinte serait passé sans laisser
+de prise. La leçon ne porte pas sur la prudence des formulations mais sur leur
+**vérifiabilité** : une affirmation datée et chiffrée se réfute, une affirmation
+vague ne se réfute pas.
+
+**Ce que cela ne met pas en cause.** Le contenu de L1.C04. Son solde de
+vérifications, ses sources et son corps ont été contrôlés par `controle.py`,
+qui reste l'autorité, et par la batterie de tests. Aucun défaut n'y est
+constaté à ce jour.
+
+**Ce que cela met en cause, et qui reste dû.** L1.C04 est passé à `verifie`
+**sans qu'aucun contrôle externe ait vu son état final**. Il tombe donc sous la
+règle arrêtée par l'auteur le 2026-09-21 — aucun chapitre ne passe à `verifie`
+ni à `citable` sur un corps que l'autre famille de modèles n'a pas vu dans son
+état final. **Le contrôle de l'état final de L1.C04 reste à faire**, au même
+titre que celui de L1.C06, et la décision `citable` de ce chapitre en dépend.
