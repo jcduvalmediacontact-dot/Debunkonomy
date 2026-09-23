@@ -330,19 +330,19 @@ Rapportées aux quatre règles de L1.C09, les expérimentations et les propositi
 
 | cas examiné | qui écrit la grammaire | le lexique de ce qui compte | la conjugaison du temps | les verbes de valeur |
 |---|---|---|---|---|
-| Wörgl, monnaie fondante | [S15] la commune émet, le monopole y met fin | non établi | [S11] la monnaie doit périr | non établi |
+| Wörgl, monnaie fondante | non établi | non établi | [S11] la monnaie doit périr | non établi |
 | Wirtschaftsring | non établi | non établi | non établi | non établi |
 | Bristol Pound | non établi | non établi | non établi | non établi |
 | monnaies locales françaises | [S22] cadre légal de 2014 | non établi | non établi | non établi |
-| Soddy | non établi | [S12] richesse réelle contre virtuelle | non établi | non établi |
-| bancor | [S6] un émetteur supranational | non établi | non établi | non établi |
+| Soddy | non établi | non établi | non établi | non établi |
+| bancor | non établi | non établi | non établi | non établi |
 | théorie monétaire moderne | non établi | [S7] la limite est réelle, non financière | non établi | non établi |
 | assouplissement quantitatif | non établi | non établi | non établi | non établi |
 | monnaies numériques de banque centrale | non établi | [S19] la BCE exclut le fléchage | non établi | non établi |
 | création monétaire écologique | non établi | [S9] émission sans dette pour la transition | non établi | non établi |
 | taux de dépôt négatifs, 2014-2022 | non établi | non établi | [S23] [S24] le coût de détention | non établi |
 
-::hypothese:: **La colonne des verbes de valeur est vide.** Aucun cas examiné ici ne reconnaît monétairement ce qui régénère, préserve ou soigne. **L'assouplissement quantitatif ne remplit aucune case** : il change l'échelle de l'émission, non ses règles. Et aucun cas n'en touche deux à la fois. Le résultat du chapeau tient donc — aucune de ces expériences n'a touché les quatre règles ensemble — mais la grille montre en outre qu'une règle n'a **aucun** titulaire, et que « non établi » y est plus fréquent que l'appel. Une conjugaison un peu plus verte à l'intérieur de la même grammaire, et sur trois règles seulement.
+::hypothese:: **La colonne des verbes de valeur est vide.** Aucun cas examiné ici ne reconnaît monétairement ce qui régénère, préserve ou soigne. **L'assouplissement quantitatif ne remplit aucune case** : il change l'échelle de l'émission, non ses règles. Et aucun cas n'en touche deux à la fois. Le résultat du chapeau tient donc — aucune de ces expériences n'a touché les quatre règles ensemble — mais la grille montre en outre que **deux règles n'ont presque aucun titulaire** — celle des verbes de valeur n'en a aucun, celle de l'autorité un seul —, et que « non établi » y est six fois plus fréquent que l'appel. **Trois cases ont été ramenées à « non établi » le 2026-09-23** : elles portaient un appel que la liste des passages lus de leur entrée ne justifiait pas. Une conjugaison un peu plus verte à l'intérieur de la même grammaire, et sur trois règles seulement.
 
 ## 5. Ce qu'une refonte devrait porter
 
