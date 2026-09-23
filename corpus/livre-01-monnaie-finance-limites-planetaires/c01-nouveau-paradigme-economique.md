@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
 statut: brouillon
-revision_de_fond: 2026-09-22
+revision_de_fond: 2026-09-23
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -81,6 +81,7 @@ verifications_en_attente:
 resume: "Les crises écologiques, sociales et financières contemporaines procèdent d'une mécanique commune : un système monétaire qui émet la monnaie contre dette et rendement financier. Ce chapitre énonce et argumente trois propositions sans encore les démontrer. Cette mécanique oriente l'allocation du crédit vers les activités extractives. La régénération des fonds naturels, définie en termes physiques, n'y est financée que lorsqu'un produit vendable s'y trouve attaché. Et sa prise en charge exige un financement permanent qu'aucun mécanisme budgétaire ne peut garantir, ce qui conduit à examiner une modification de l'émission monétaire elle-même — soumise à ses propres conditions."
 concepts: [polycrise, neutralite_monetaire, systeme_monetaire_et_financier, economie_de_lequilibre]
 renvois:
+  - L1.C02
   - L1.C05
   - L1.C08
 ---
@@ -97,7 +98,7 @@ Le débat public traite les événements suivants comme relevant de rubriques di
 
 Le terme de « polycrise » s'est imposé pour décrire cet empilement — crise climatique, crise de la biodiversité, crise des dettes souveraines, crise sociale, crise démocratique — comme si tout arrivait simultanément par coïncidence.
 
-Un enchaînement causal relie pourtant ces éléments. On extrait toujours plus de ressources, alors même que les limites physiques de la planète sont documentées, parce qu'il faut produire davantage. Il faut produire davantage parce qu'il faut de la croissance. La croissance est nécessaire parce qu'il faut dégager de la rentabilité, rembourser des dettes et verser des intérêts.
+Un enchaînement causal est proposé ici pour relier ces éléments — **proposé, et non établi** : L1.C02 établit que les indicateurs de richesse financière et ceux de dégradation écologique progressent ensemble, et écrit que cela « décrit une progression conjointe, non une causalité ». On extrait toujours plus de ressources, alors même que les limites physiques de la planète sont documentées, parce qu'il faut produire davantage. Il faut produire davantage parce qu'il faut de la croissance. La croissance est nécessaire parce qu'il faut dégager de la rentabilité, rembourser des dettes et verser des intérêts.
 
 Cet enchaînement s'énonce à l'échelle mondiale, et non nationale. Plusieurs économies avancées présentent une consommation matérielle intérieure stabilisée ou en recul alors que leur produit continue de croître. Ces mesures sont discutées : leur portée dépend du traitement des flux de matière incorporés dans les importations, qui déplacent les prélèvements sans les supprimer. La proposition retenue ici porte donc sur le total mondial, seul périmètre où les déplacements ne masquent rien.
 
