@@ -5,7 +5,7 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: audit_factuel
+statut: verifie
 revision_de_fond: 2026-09-22
 autorite: preparatoire
 citable: false
