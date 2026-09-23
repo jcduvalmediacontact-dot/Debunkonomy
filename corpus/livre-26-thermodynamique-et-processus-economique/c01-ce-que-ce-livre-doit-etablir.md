@@ -93,7 +93,7 @@ renvois: [L1.C03, L1.C15, L1.C17, L8.C13, L8.C34, L11.C13, L18.C04, L24.C03, L24
 
 ## 1. Ce que le corpus affirme physiquement, et sur quelle autorité
 
-::etat:: **Quatre propositions sont attribuées à Nicholas Georgescu-Roegen, dans trois chapitres du Livre 1, et aucun texte de cet auteur n'a jamais été ouvert** [S1]. **L1.C03 § 4** : le processus économique n'est pas circulaire mais unidirectionnel, et le recyclage ne l'annule pas. **L1.C15 § 3** : il en a fait « la démonstration systématique ». **L1.C10 § 6** : il n'a pas élaboré de théorie monétaire. **Et L1.C17 § 4, qui est la plus forte des quatre** : « **la Terre est ouverte à l'énergie mais close pour la matière. Aucun flux solaire ne compense indéfiniment la dissipation des matières concentrées, et LE RECYCLAGE COMPLET EST IMPOSSIBLE.** »
+::etat:: **Quatre propositions sont attribuées à Nicholas Georgescu-Roegen, dans trois chapitres du Livre 1, et aucun texte de cet auteur n'a jamais été ouvert** [S1]. **L1.C03 § 4** : le processus économique n'est pas circulaire mais unidirectionnel, et le recyclage ne l'annule pas. **L1.C15 § 3** : il en a fait « la démonstration systématique ». **L1.C10 § 3** : il n'a pas élaboré de théorie monétaire. **Et L1.C17 § 4, qui est la plus forte des quatre** : « **la Terre est ouverte à l'énergie mais close pour la matière. Aucun flux solaire ne compense indéfiniment la dissipation des matières concentrées, et LE RECYCLAGE COMPLET EST IMPOSSIBLE.** »
 
 ::etat:: **Cette dernière phrase n'est pas rapportée : elle est adoptée.** Le chapitre écrit que le corpus « la retient ». **C'est un énoncé de physique, tenu sur la foi d'une lecture qui n'a pas eu lieu.**
 
