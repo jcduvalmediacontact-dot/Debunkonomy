@@ -8031,3 +8031,25 @@ notice ne restitue pas l'intégralité des motifs, l'absence n'est pas établie.
 **CE QUI RESTERAIT À FAIRE, ET QUI N'EST PAS DEMANDÉ** : acquérir le texte intégral
 de l'arrêt A 504/33 permettrait de trancher l'absence. C'est une acquisition,
 donc soumise à la règle des ressources gratuites.
+
+## DETTE OUVERTE PAR r15 — L1.C01 DÉCLARE HUIT CHAPITRES SOURCES, SON CORPS EN CITE DEUX, 2026-09-23
+
+La révision 15 admet `type: synthese` hors du livre 0 et pose que
+`chapitres_sources` déclare **ce sur quoi le corps s'appuie**. L1.C01 ne
+satisfait pas cette exigence, et l'auteur a choisi d'amender sans corriger :
+la dette est inscrite ici, non effacée.
+
+  déclarés          L1.C07, L1.C08, L1.C09, L1.C11, L1.C12, L1.C14, L1.C15, L1.C16
+  cités au corps    L1.C05, L1.C08
+  les deux          L1.C08, seul
+  cité non déclaré  L1.C05
+
+**Trois suites possibles, aucune tranchée.** Ramener le champ aux deux chapitres
+que le corps emploie — exact, mais un chapitre d'ouverture qui ne synthétise
+presque rien. Écrire au corps l'articulation annoncée — sept chapitres à nommer
+là où ils portent, ce qui est de la rédaction. Ou revenir à `type: chapitre`, et
+C01 redevient bloqué faute de `sources_primaires`.
+
+**Ce qui ne doit pas arriver** : que `verifie` soit demandé pour C01 sans que
+cette dette soit regardée. Aucun script ne la signale — `controler_synthese` ne
+compare pas le champ au corps.

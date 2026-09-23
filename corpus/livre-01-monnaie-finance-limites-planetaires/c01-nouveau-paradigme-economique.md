@@ -137,7 +137,7 @@ L'évaluation d'une activité régénérative porte sur l'horizon de renouvellem
 
 ## 4. La tarification des externalités ne finance pas toute régénération
 
-## Ce que l'objection soutient
+### Ce que l'objection soutient
 
 La difficulté décrite tient à ce que certains coûts n'entrent pas dans le prix, et à ce que
 certains bénéfices ne donnent lieu à aucune recette. Le traitement standard de ce problème
@@ -161,7 +161,7 @@ soutenir. Chacun a des résultats documentés dans son domaine d'application.
 
 ---
 
-## Ce que ces instruments obtiennent
+### Ce que ces instruments obtiennent
 
 ::etat:: Les instruments de tarification et de réglementation ont produit des effets
 mesurables lorsque trois conditions étaient réunies : un dommage identifiable et
@@ -174,7 +174,7 @@ l'instrument est adapté. Un corpus qui les ignorerait manquerait sa cible.
 
 ---
 
-## Où l'instrument rencontre ses limites
+### Où l'instrument rencontre ses limites
 
 ::etat:: Cinq limites sont documentées, et elles ne relèvent pas du même ordre. Les trois
 premières sont des questions de mise en œuvre ; les deux dernières sont structurelles.
@@ -204,7 +204,7 @@ dans une décision distincte, qui se prend et se reprend ailleurs.
 
 ---
 
-## Le point exact du désaccord
+### Le point exact du désaccord
 
 ::hypothese:: Renchérir la destruction et financer la régénération sont deux opérations
 distinctes, et la première n'entraîne pas la seconde. Une taxe carbone rend le ciment plus

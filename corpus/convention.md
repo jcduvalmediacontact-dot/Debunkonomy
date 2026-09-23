@@ -340,6 +340,23 @@ d'ensemble est elle-même un passage extractible.
 livre 0 sont rédigées dans la foulée. Ni avant — ce serait une promesse — ni à la
 fin — ce serait une reconstitution de mémoire.
 
+**Le type `synthese` n'est pas réservé au livre 0.** Un chapitre qui articule
+d'autres chapitres au lieu d'établir sur des pièces le porte aussi : il ouvre un
+livre, ou en referme une partie, et son travail est de dire ce que les chapitres
+qu'il nomme ont établi. Les deux champs restent obligatoires et le contrôle est
+le même.
+
+**Ce que le type dispense, et ce qu'il ne dispense pas.** Il dispense de
+`sources_primaires` : une synthèse n'ouvre pas de pièce, elle renvoie à ceux qui
+l'ont fait. Il ne dispense de rien d'autre — ni des concepts, ni des
+vérifications soldées, ni des balises de régime.
+
+**`chapitres_sources` n'est pas une liste de lectures : c'est ce sur quoi le
+corps s'appuie.** Un chapitre déclaré et jamais employé n'y a pas sa place, et
+un chapitre employé sans être déclaré doit y entrer. L'écart entre les deux est
+un défaut, non un jugement éditorial — mais **aucun script ne le contrôle**, et
+la convention le dit plutôt que de le laisser croire.
+
 ---
 
 ## 7. Chapitre éclaté (cas exceptionnel)
@@ -700,6 +717,27 @@ Points ouverts, à trancher hors routine :
 ---
 
 ## 15. Journal des révisions
+
+**Révision 15 — 23 septembre 2026.** Le type `synthese` cesse d'être réservé aux
+entrées du livre 0 (§ 6). Motif : L1.C01 ouvre le Livre 1 en articulant les
+chapitres qui démontrent, sans ouvrir de pièce ; il ne pouvait être ni
+`chapitre` — le statut `verifie` exige alors des `sources_primaires` — ni
+`synthese`, le § 6 réservant ce type au livre 0. **Aucun des deux types ne le
+décrivait**, et le blocage était structurel, non documentaire.
+
+Cette révision **n'ajoute aucun champ au schéma et ne touche aucun chapitre** —
+d'où l'absence de migration. Elle ajoute en revanche une exigence qui n'était
+écrite nulle part : `chapitres_sources` déclare ce sur quoi le corps s'appuie,
+et l'écart avec ce que le corps cite est un défaut. **Cette exigence n'est
+contrôlée par aucun script** — `controler_synthese` vérifie que la liste est non
+vide et que `verifiee_le` n'est pas périmé, jamais que le corps s'appuie sur ce
+qu'il déclare — et la convention le déclare : c'est une règle de rédaction, pas
+un blocage.
+
+**Un écart connu au jour de la révision** : L1.C01 déclare huit
+`chapitres_sources` et son corps en cite deux, dont un seul figure parmi les
+huit. La révision rend cet écart nommable ; elle ne le corrige pas, et il est
+inscrit comme dette dans `protocoles/passe-2.md`.
 
 **Révision 14 — 20 septembre 2026.** L'URL publique d'un chapitre ne dérive plus
 que de son identifiant : `/corpus/livre-6/c05/` (§ 3). Motif : le § 3 posait « le nom
