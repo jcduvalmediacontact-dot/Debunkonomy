@@ -78,7 +78,7 @@ verifications_en_attente:
   # - 'HANPP — définir l''échelle, l''année de référence et le seuil de l''enveloppe ; le niveau actuel correspond à une limite planétaire évaluée comme franchie et ne peut donc pas servir de référence'
   # SOLDÉE le 2026-09-22 (lot C01) — SANS OBJET : HANPP N'EST PAS AU CORPS, vérifié — ni le sigle, ni « production primaire ». Texte d'origine :
   # - 'HANPP — distinguer l''appropriation humaine de la production primaire nette, qui mesure une pression sur le système, du critère d''éligibilité d''une activité régénérative, qui porte sur l''amélioration d''un fonds'
-resume: "Les crises écologiques, sociales et financières contemporaines procèdent d'une mécanique commune : un système monétaire qui émet la monnaie contre dette et rendement financier. Ce chapitre énonce et argumente trois propositions sans encore les démontrer. Cette mécanique oriente l'allocation du crédit vers les activités extractives. La régénération des fonds naturels, définie en termes physiques, n'y est financée que lorsqu'un produit vendable s'y trouve attaché. Et sa prise en charge exige un financement permanent qu'aucun mécanisme budgétaire ne peut garantir, ce qui conduit à examiner une modification de l'émission monétaire elle-même — soumise à ses propres conditions."
+resume: "Ce chapitre énonce et argumente trois propositions, sans les démontrer. Que les crises écologiques, sociales et financières contemporaines procéderaient d'une mécanique commune : un système monétaire qui émet la monnaie contre dette et rendement financier. Que cette mécanique orienterait l'allocation du crédit vers les activités extractives, et ne financerait la régénération des fonds naturels, définie en termes physiques, que lorsqu'un produit vendable s'y trouve attaché. Et que sa prise en charge exigerait un financement permanent qu'aucun mécanisme budgétaire ne peut garantir, ce qui conduit à examiner une modification de l'émission monétaire elle-même — soumise à ses propres conditions. Leur démonstration occupe les chapitres suivants."
 concepts: [polycrise, neutralite_monetaire, systeme_monetaire_et_financier, economie_de_lequilibre]
 renvois:
   - L1.C02
@@ -90,9 +90,9 @@ renvois:
 
 # Pourquoi l'humanité a besoin d'un nouveau paradigme économique
 
-Ce chapitre établit trois propositions. Les crises contemporaines — climatique, écologique, sociale, financière — ne sont pas des phénomènes indépendants, mais les effets d'une mécanique commune, qui est monétaire. Cette mécanique oriente l'allocation du crédit vers les activités extractives et ne finance la régénération des milieux que lorsqu'un produit vendable s'y trouve attaché. Et la prise en charge de cette régénération exige un financement permanent qu'aucun mécanisme budgétaire ne peut garantir — ce qui conduit à examiner l'émission monétaire elle-même.
+Ce chapitre énonce trois propositions et les argumente, **sans les démontrer**. La première : les crises contemporaines — climatique, écologique, sociale, financière — ne seraient pas des phénomènes indépendants, mais les effets d'une mécanique commune, qui serait monétaire. La deuxième : cette mécanique orienterait l'allocation du crédit vers les activités extractives, et ne financerait la régénération des milieux que lorsqu'un produit vendable s'y trouve attaché. La troisième : la prise en charge de cette régénération exigerait un financement permanent qu'aucun mécanisme budgétaire ne peut garantir — ce qui conduit à examiner l'émission monétaire elle-même.
 
-Ces trois propositions sont ici énoncées et argumentées ; elles ne sont pas démontrées. Leur démonstration occupe les chapitres suivants.
+Leur démonstration occupe les chapitres suivants.
 
 ## 1. Des crises séparées, ou une seule mécanique
 
@@ -122,7 +122,7 @@ Cette définition s'inscrit dans la distinction entre fonds et stocks établie p
 
 Cette définition est physique, non financière. Elle permet donc de poser une question empirique plutôt que de trancher par convention : les activités qui la satisfont sont-elles finançables ?
 
-Trois cas suffisent à faire apparaître le partage. La sylviculture reconstitue un peuplement et vend du bois ; elle est financée. La restauration d'une tourbière reconstitue un fonds carbone et hydrique et ne vend rien ; elle ne l'est qu'en présence d'une subvention. La dépollution d'un milieu marin ne produit aucune recette appropriable ; elle relève entièrement de la commande publique.
+Trois cas font apparaître le partage — **des cas construits, et non des observations : L1.C15 § 3 les présente ainsi, et ne mesure aucun financement effectif**. La sylviculture reconstitue un peuplement et vend du bois : elle serait financée. La restauration d'une tourbière reconstitue un fonds carbone et hydrique et ne vend rien : elle ne le serait qu'en présence d'une subvention. La dépollution d'un milieu marin ne produit aucune recette appropriable : elle relèverait entièrement de la commande publique.
 
 ::hypothese:: Le partage ne sépare donc pas les activités destructrices des activités régénératives, mais celles dont la régénération s'accompagne d'un produit vendable de celles où elle constitue le bénéfice principal sans recette attachée. Le système ne finance pas la régénération en tant que telle : il finance ce qui, dans une activité régénérative, se vend. Lorsque la régénération est le produit principal, son financement dépend d'un mécanisme complémentaire. **L1.C15 § 2 donne à ce partage sa forme explicite** — quatre conditions du financement autonome par le crédit : production d'un flux monétaire, captation de ce flux, compatibilité avec l'horizon du crédit, valeur suffisante après actualisation et risque. Ce chapitre est `verifie`, **et il borne lui-même sa portée** : la catégorie y est déclarée prospective, son ampleur empirique restant à établir.
 
@@ -169,8 +169,8 @@ soutenir. Chacun a des résultats documentés dans son domaine d'application.
 ::etat:: Les instruments de tarification et de réglementation ont produit des effets
 mesurables lorsque trois conditions étaient réunies : un dommage identifiable et
 attribuable, un nombre limité d'acteurs, et une solution de substitution disponible. Le
-protocole de Montréal, examiné au chapitre quatre, en est le cas le mieux documenté ; les
-dispositifs de réduction des émissions de dioxyde de soufre en sont un autre.
+protocole de Montréal, examiné au chapitre quatre, en est le cas le mieux documenté. **Les
+dispositifs de réduction des émissions de dioxyde de soufre sont rapportés ici sans qu'aucun des chapitres déclarés ne les établisse.**
 
 ::etat:: Ces succès ne sont pas des exceptions à expliquer : ils délimitent le domaine où
 l'instrument est adapté. Un corpus qui les ignorerait manquerait sa cible.
@@ -179,8 +179,8 @@ l'instrument est adapté. Un corpus qui les ignorerait manquerait sa cible.
 
 ### Où l'instrument rencontre ses limites
 
-::etat:: Cinq limites sont documentées, et elles ne relèvent pas du même ordre. Les trois
-premières sont des questions de mise en œuvre ; les deux dernières sont structurelles.
+::etat:: Cinq limites sont opposées à ces instruments, et elles ne relèvent pas du même ordre. **Aucune n'est établie par les chapitres que celui-ci déclare.** Les trois
+premières sont des questions de mise en œuvre, et deux d'entre elles disent elles-mêmes ce qu'elles attendent ; les deux dernières sont structurelles et argumentées ici.
 
 **Couverture.** La part des émissions mondiales soumise à un prix du carbone, et le niveau
 de ce prix, sont publiés annuellement. Ces valeurs sont à établir avant toute affirmation.
@@ -191,7 +191,7 @@ chiffré ici.
 
 **Contrôle.** Une taxe suppose une mesure du dommage et une administration capable de la
 recouvrer. Les difficultés d'additionnalité et de vérification rencontrées par les marchés
-de compensation sont documentées et transposables.
+de compensation sont rapportées ici sans qu'aucun des chapitres déclarés ne les établisse, et leur transposition reste à montrer.
 
 ::hypothese:: **Permanence.** Un prix se vote, se module et se suspend. L'argument
 développé plus haut vaut ici : un instrument budgétaire ou fiscal organise une continuité,
@@ -275,6 +275,6 @@ L'équilibre dont il est question ici ne désigne ni l'équilibre budgétaire de
 
 ::norme:: Ce n'est donc pas une innovation entrepreneuriale supplémentaire qui est requise. Les gestes individuels possèdent une valeur propre, mais ils ne modifient pas la polarité du système : celui-ci continue de récompenser ce qui se vend et d'ignorer ce qui ne se vend pas, indépendamment de la vertu des acteurs.
 
-::etat:: Le parcours du livre suit quatre étapes. Établir le constat, chiffres à l'appui. Suivre la piste de l'argent jusqu'aux mécanismes de la création monétaire. Mettre en évidence les verrous monétaires qui empêchent l'économie de marché de réparer ce qu'elle détruit. Construire une architecture dans laquelle la monnaie ne naît plus de la dette financière, mais de la régénération constatée.
+::etat:: Le parcours du livre suit quatre étapes. Établir le constat, chiffres à l'appui. Suivre la piste de l'argent jusqu'aux mécanismes de la création monétaire. Mettre en évidence les verrous monétaires qui empêchent l'économie de marché de réparer ce qu'elle détruit. Construire une architecture dans laquelle la monnaie ne naîtrait plus de la dette financière, mais de la régénération constatée — **programme de la seconde partie du livre, et non résultat de la première**.
 
 Avant d'examiner les moyens d'action, il faut établir qui fabrique la monnaie, comment, et en échange de quoi.
