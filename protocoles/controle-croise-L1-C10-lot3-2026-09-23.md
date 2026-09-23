@@ -263,6 +263,14 @@ le sens de la variation « n'est pas rapporté ici », mais le chapitre conserve
 au § 2 la thèse contracyclique comme résultat de Stodder. C'est ce que
 l'entrée porte — « counter-cyclical », page 1 — et rien de plus.
 
+## Le seul rejet du lot 3
+
+**La moitié « (A46) sans définition » de la n° 28 est rejetée**, sur décision
+de l'auteur du 2026-09-23. Motif : citer un identifiant d'arbitrage entre parenthèses est l'usage établi du corpus : **dix occurrences dans neuf chapitres** — C01, C06, C10, C12, C17, C18, C23, C24, C30 —, sur les deux parties du Livre 1. Le corps ne change pas.
+
+C'est le seul rejet des quarante et une. Les quarante autres sont traitées,
+acceptées comme limites, ou soumises — aucune n'a été écartée sans décision.
+
 **Ce que ce dossier ne contrôle pas** : les cinq soumises, et la demi-objection
 n° 28 à rejeter. C10 reste `audit_contradictoire` et attend le contrôle de
 Codex sur ce lot.

@@ -19,10 +19,16 @@ Vérifiés avant de planifier, comme la règle l'impose.
 
 **n° 28 — « (A46) sans définition » n'est pas un défaut.** Citer un
 identifiant d'arbitrage entre parenthèses dans un corps est l'usage établi :
-**dix occurrences dans six chapitres** — C01, C06, C10, C12, C23, C30. Cette
-moitié de l'objection doit être **rejetée avec motif**, donc soumise : le
-rédacteur ne rejette pas seul. L'autre moitié — une prémisse factuelle sous
-`::norme::` — tient.
+**dix occurrences dans neuf chapitres** — C01, C06, C10, C12, C17, C18, C23,
+C24, C30 —, sur les deux parties du Livre 1.
+
+> **Correction du 2026-09-23.** Ce dossier écrivait d'abord « six chapitres » :
+> mon relevé n'en affichait que les six premiers et j'ai lu ce plafond comme un
+> total. **Le motif est plus fort que je ne l'avais écrit**, non plus faible.
+
+**REJETÉE PAR L'AUTEUR le 2026-09-23**, motif ci-dessus. Le corps ne change
+pas : « (A46) » reste. L'autre moitié — prémisse factuelle sous `::norme::` —
+a été traitée par `0e5db121`.
 
 **n° 24 — le motif citait une formule qui n'existe pas.** Ma ligne écrivait
 « le registre canonique dit *retire sans détruire* » ; cette chaîne n'est nulle
@@ -101,8 +107,8 @@ que `falsification.md` interdit.
 | **37** | « des voies qui auraient été impensables auparavant » — le QE japonais de 2001 et **les taux négatifs de 2014-2022**, qui sont l'expérience gesellienne à grande échelle, sont absents du chapitre | un chapitre sur la monnaie fondante qui omet la seule mise en œuvre massive d'une taxe sur l'encaisse ne se répare pas par une borne |
 | **1** | le chapeau promet « pour chaque cas, la limite que la théorie économique lui oppose » — tenue pour Wörgl, le QE, les MNBC, la création monétaire écologique et la MMT ; **absente pour les monnaies locales françaises, Soddy et le bancor** | trois limites à écrire, ou une promesse à retirer |
 
-**Plus la moitié « (A46) » du n° 28**, à rejeter avec motif — un rejet ne se
-fait pas seul.
+La moitié « (A46) » du n° 28 a été **rejetée par l'auteur le
+2026-09-23**, motif plus haut. C'est le seul rejet des quarante et une.
 
 ---
 
