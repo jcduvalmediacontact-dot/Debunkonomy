@@ -82,8 +82,10 @@ resume: "Les crises écologiques, sociales et financières contemporaines procè
 concepts: [polycrise, neutralite_monetaire, systeme_monetaire_et_financier, economie_de_lequilibre]
 renvois:
   - L1.C02
+  - L1.C03
   - L1.C05
   - L1.C08
+  - L1.C15
 ---
 
 # Pourquoi l'humanité a besoin d'un nouveau paradigme économique
@@ -100,7 +102,7 @@ Le terme de « polycrise » s'est imposé pour décrire cet empilement — crise
 
 Un enchaînement causal est proposé ici pour relier ces éléments — **proposé, et non établi** : L1.C02 établit que les indicateurs de richesse financière et ceux de dégradation écologique progressent ensemble, et écrit que cela « décrit une progression conjointe, non une causalité ». On extrait toujours plus de ressources, alors même que les limites physiques de la planète sont documentées, parce qu'il faut produire davantage. Il faut produire davantage parce qu'il faut de la croissance. La croissance est nécessaire parce qu'il faut dégager de la rentabilité, rembourser des dettes et verser des intérêts.
 
-Cet enchaînement s'énonce à l'échelle mondiale, et non nationale. Plusieurs économies avancées présentent une consommation matérielle intérieure stabilisée ou en recul alors que leur produit continue de croître. Ces mesures sont discutées : leur portée dépend du traitement des flux de matière incorporés dans les importations, qui déplacent les prélèvements sans les supprimer. La proposition retenue ici porte donc sur le total mondial, seul périmètre où les déplacements ne masquent rien.
+Cet enchaînement s'énonce à l'échelle mondiale, et non nationale. Plusieurs économies avancées présentent une consommation matérielle intérieure stabilisée ou en recul alors que leur produit continue de croître. Ces mesures sont discutées : leur portée dépend du traitement des flux de matière incorporés dans les importations, qui déplacent les prélèvements sans les supprimer. La proposition retenue ici porte donc sur le total mondial, seul périmètre où les déplacements ne masquent rien. **L1.C03 porte les deux points, et pas au même titre** : son § 5 établit, par une remarque de méthode qui ne dépend d'aucune source, que les émissions incorporées dans le commerce s'annulent lorsqu'on agrège tous les pays ; son § 6 range en revanche les cas nationaux parmi ce qu'il **rapporte sans source établie**. Ce chapitre est `verifie`.
 
 L'enchaînement suppose par ailleurs deux conditions qu'il faut énoncer plutôt que taire : que la charge d'intérêt ne soit pas absorbée par les défauts, les restructurations ou l'inflation, et que la part des profits dans le revenu reste stable. Ces conditions ne sont pas toujours réunies, et les chapitres consacrés à la création monétaire examinent ce qu'il advient de la proposition lorsqu'elles ne le sont pas. **Et l'enchaînement ne tient pas par les seuls intérêts** : L1.C08 établit, sur un modèle à cohérence stock-flux, que ni la création de crédit ni la perception d'intérêts ne produisent à elles seules un impératif de croissance, la dépendance résultant d'une combinaison de mécanismes.
 
@@ -122,7 +124,7 @@ Cette définition est physique, non financière. Elle permet donc de poser une q
 
 Trois cas suffisent à faire apparaître le partage. La sylviculture reconstitue un peuplement et vend du bois ; elle est financée. La restauration d'une tourbière reconstitue un fonds carbone et hydrique et ne vend rien ; elle ne l'est qu'en présence d'une subvention. La dépollution d'un milieu marin ne produit aucune recette appropriable ; elle relève entièrement de la commande publique.
 
-::hypothese:: Le partage ne sépare donc pas les activités destructrices des activités régénératives, mais celles dont la régénération s'accompagne d'un produit vendable de celles où elle constitue le bénéfice principal sans recette attachée. Le système ne finance pas la régénération en tant que telle : il finance ce qui, dans une activité régénérative, se vend. Lorsque la régénération est le produit principal, son financement dépend d'un mécanisme complémentaire.
+::hypothese:: Le partage ne sépare donc pas les activités destructrices des activités régénératives, mais celles dont la régénération s'accompagne d'un produit vendable de celles où elle constitue le bénéfice principal sans recette attachée. Le système ne finance pas la régénération en tant que telle : il finance ce qui, dans une activité régénérative, se vend. Lorsque la régénération est le produit principal, son financement dépend d'un mécanisme complémentaire. **L1.C15 § 2 donne à ce partage sa forme explicite** — quatre conditions du financement autonome par le crédit : production d'un flux monétaire, captation de ce flux, compatibilité avec l'horizon du crédit, valeur suffisante après actualisation et risque. Ce chapitre est `verifie`, **et il borne lui-même sa portée** : la catégorie y est déclarée prospective, son ampleur empirique restant à établir.
 
 Des dispositifs existent pour attacher une recette à ces activités : paiements pour services environnementaux, crédits carbone, obligations vertes, commande publique. Ils établissent qu'une recette peut être attachée à un bénéfice écologique qui n'en produisait pas. Reste à savoir ce qu'ils financent effectivement : leur volume, leur additionnalité et leurs conditions de vérification sont examinés dans les chapitres qui leur sont consacrés. Tant que cet examen n'est pas fait, ils ne confirment ni ne réfutent la proposition.
 
