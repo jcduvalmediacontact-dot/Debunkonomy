@@ -69,13 +69,20 @@ chapitres_sources: [L1.C02, L1.C03, L1.C04, L1.C05, L1.C08, L1.C15]
 ```
 
 **Six, dont trois nommés au corps et trois à nommer.** Contre huit déclarés
-aujourd'hui, dont **un seul** — L1.C08 — figure dans cette liste.
+aujourd'hui, dont **deux** — L1.C08 et L1.C15 — figurent dans cette liste.
 
-| | aujourd'hui | après relevé |
-|---|---|---|
-| entrent | — | **L1.C02, L1.C03, L1.C04, L1.C15** |
-| restent | L1.C08 | L1.C08, **L1.C05** |
-| sortent | L1.C07, L1.C09, L1.C11, L1.C12, L1.C14, L1.C16 | — |
+| | mouvement |
+|---|---|
+| entrent | **L1.C02, L1.C03, L1.C04, L1.C05** |
+| restent | L1.C08, L1.C15 |
+| sortent | L1.C07, L1.C09, L1.C11, L1.C12, L1.C14, L1.C16 |
+
+> **Correction du 2026-09-23, à l'application de J3.** Ce dossier écrivait
+> d'abord « un seul des huit survit » et plaçait L1.C15 parmi les entrants.
+> **L1.C15 était déjà déclaré, et c'est L1.C05 qui entre.** J'avais listé C15
+> sous « ce sur quoi le corps s'appuie sans le nommer » — ce qui est exact —
+> sans voir qu'il figurait aussi dans la liste existante. Une garde du script
+> d'application l'a trouvé avant la première écriture.
 
 ---
 

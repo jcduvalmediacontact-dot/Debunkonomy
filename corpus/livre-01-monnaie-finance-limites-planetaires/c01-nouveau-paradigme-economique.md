@@ -11,8 +11,8 @@ autorite: preparatoire
 citable: false
 regime: hybride
 sources_primaires: []
-chapitres_sources: [L1.C07, L1.C08, L1.C09, L1.C11, L1.C12, L1.C14, L1.C15, L1.C16]
-verifiee_le: 2026-09-22
+chapitres_sources: [L1.C02, L1.C03, L1.C04, L1.C05, L1.C08, L1.C15]
+verifiee_le: 2026-09-23
 verifications_en_attente:
   # SOLDÉE le 2026-09-22 (lot C01) — close par sa lettre, ET VÉRIFIÉE APPLIQUÉE : « contrepartie collective » figure au corps, « régénérative » cinq fois, et « sans dette » en est sorti. Texte d'origine :
   # - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
