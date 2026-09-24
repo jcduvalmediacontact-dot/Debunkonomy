@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
 statut: brouillon
-revision_de_fond: 2026-09-23
+revision_de_fond: 2026-09-24
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -167,8 +167,8 @@ soutenir. Chacun a des résultats documentés dans son domaine d'application.
 ### Ce que ces instruments obtiennent
 
 ::etat:: Les instruments de tarification et de réglementation ont un domaine où ils
-fonctionnent, et ce chapitre ne le conteste pas. **Les conditions qu'on lui prête —
-dommage identifiable, acteurs peu nombreux, substitution disponible — ne sont établies par aucun des chapitres déclarés, et ne sont donc pas avancées ici.** Le
+fonctionnent, et ce chapitre ne le conteste pas. **Deux des conditions qu'on lui prête sont
+portées par L1.C04 § 3, pour le seul cas de l'ozone : « la substitution technique y était disponible et le nombre de producteurs concernés limité », et ce chapitre y borne lui-même la portée du précédent. La troisième — un dommage identifiable et attribuable — n'est établie par aucun chapitre déclaré, et n'est pas avancée ici.** Le
 protocole de Montréal, examiné au chapitre quatre, est le seul cas que ce livre
 porte, et le seul que ce chapitre invoque.
 
