@@ -46,8 +46,12 @@ def publiables() -> set[str]:
             continue
         h = yaml.safe_load(m.group(1))
         srcs = h.get("sources_primaires") or []
+        # Une synthèse n'ouvre pas de pièce : elle est dispensée de
+        # `sources_primaires` depuis la révision 15 (§ 6). `generer.py`
+        # l'exempte déjà ; cette règle-ci ne l'avait pas suivi.
         if (h.get("statut") == "verifie" and h.get("citable") is True
-                and srcs and all(s.get("etat_lecture") == "ouverte" for s in srcs)):
+                and (srcs or h.get("type") == "synthese")
+                and all(s.get("etat_lecture") == "ouverte" for s in srcs)):
             out.add(str(h["chapitre"]))
     return out
 
