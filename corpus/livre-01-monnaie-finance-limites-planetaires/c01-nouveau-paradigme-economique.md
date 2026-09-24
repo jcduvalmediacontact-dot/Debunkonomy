@@ -5,10 +5,10 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-24
-autorite: preparatoire
-citable: false
+autorite: canonique
+citable: true
 regime: hybride
 sources_primaires: []
 chapitres_sources: [L1.C02, L1.C03, L1.C04, L1.C05, L1.C08, L1.C15]

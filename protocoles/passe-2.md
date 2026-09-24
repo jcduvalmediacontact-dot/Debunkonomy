@@ -8053,3 +8053,30 @@ C01 redevient bloqué faute de `sources_primaires`.
 **Ce qui ne doit pas arriver** : que `verifie` soit demandé pour C01 sans que
 cette dette soit regardée. Aucun script ne la signale — `controler_synthese` ne
 compare pas le champ au corps.
+
+**DETTE SOLDÉE LE 2026-09-24, PAR J3 PUIS PAR LA CORRECTION DU § 4.** Le
+relévé ci-dessus dit ce qui était vrai le 23/09 ; il n'est pas corrigé, parce
+qu'il est une trace. Ce qui suit est une mesure refaite le 24/09 sur le fichier,
+non une reprise de celle-là.
+
+  déclarés (6)    L1.C02, L1.C03, L1.C04, L1.C05, L1.C08, L1.C15
+  cités    (6)    L1.C02, L1.C03, L1.C04, L1.C05, L1.C08, L1.C15
+  déclaré non cité : aucun     cité non déclaré : aucun
+
+**La troisième suite a été écartée, et la première corrigée en chemin.** J3 n'a
+pas ramené le champ aux deux chapitres que le corps employait : il l'a refait
+depuis ce sur quoi le corps s'appuie réellement — quatre entrants (C02, C03,
+C04, C05), six sortants (C07, C09, C11, C12, C14, C16), deux survivants (C08,
+C15). Puis la correction du § 4, le 24/09, a mis C04 au corps avec sa citation.
+
+**CE QUI RESTE OUVERT, ET QUI N'EST PAS UN BLOCAGE.** `renvois` porte cinq
+chapitres et C04 n'y figure pas, bien qu'il soit cité au corps depuis le 24/09.
+Les deux champs ne disent pas la même chose — `chapitres_sources` déclare
+l'appui, `renvois` la place dans le raisonnement (§ 3) — et aucune règle n'exige
+qu'un chapitre cité figure aux deux. À trancher en passe 2, pas ici.
+
+**CE QUE CETTE DETTE A MONTRÉ EN SE SOLDANT.** Elle disait « aucun script ne la
+signale », et c'était vrai dans les deux sens : aucun script n'a signalé non
+plus qu'elle était réglée. Elle a continué d'interdire `verifie` pendant une
+journée où sa condition était remplie. Un registre périme dans les deux
+directions, et c'est la seconde qu'on ne surveille jamais.
