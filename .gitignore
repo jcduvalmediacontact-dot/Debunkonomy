@@ -49,6 +49,7 @@ corpus/genere/
 # Construction locale du site et du corpus. Cette sortie est reconstruite par
 # outils/construire_site.py ; elle n'est jamais une source à versionner.
 build/
+.build-en-cours/
 .build-env/
 
 # Sauvegardes locales et archives

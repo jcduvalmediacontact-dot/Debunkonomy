@@ -270,6 +270,35 @@ en passant :
   site, et de traiter le point ci-dessous sur le lien corpus ↔ site. Le `llms.txt`
   produit est propre au corpus et **n'écrase pas** celui de la racine, qui décrit
   le site et s'écrit à la main.
+- **La construction locale du site existe : `outils/construire_site.py`.** Elle
+  assemble dans `build/` — jamais versionné — le site statique de la racine et
+  la sortie de `corpus/generer.py` servie sous `/corpus`, puis fusionne les deux
+  `sitemap.xml`. Le contrôle structurel doit passer d'abord, et les chapitres non
+  publiables ne sont pas une erreur : le générateur les écarte lui-même selon la
+  convention.
+
+  ```bash
+  python outils/construire_site.py          # assemble dans build/
+  ```
+
+  **La fusion des sitemaps ne fonctionne pas, et il faut le savoir avant de
+  publier.** Le `sitemap.xml` de la racine déclare
+  `xmlns="https://www.sitemaps.org/..."` — avec un **s**, ce qui n'est pas
+  l'espace de noms officiel — tandis que le générateur émet le `http://`
+  standard. Le script suppose `http://` partout. Trois conséquences, constatées
+  sur une construction du 2026-09-24 : le dédoublonnage compare les URL du corpus
+  à un ensemble réduit à `{None}` et **ne dédoublonne donc rien** — la promesse
+  « sans réécrire les URL déjà servies » est creuse, même si aucune collision
+  n'existe aujourd'hui ; le fichier produit mélange les deux espaces, 225 entrées
+  en `ns0` et 20 en `ns1` ; et sa racine `urlset` est dans l'espace non standard,
+  de sorte qu'**un analyseur de sitemap ne lirait aucune des vingt URL du
+  corpus**. Trancher quel espace fait foi touche le `sitemap.xml` servi depuis
+  `main` : c'est une décision d'auteur, pas une retouche.
+
+  **Ce qui reste ouvert.** La construction n'est ni déployée ni poussée vers
+  `main` : elle produit une prévisualisation locale, et rien d'autre. Le choix de
+  l'emplacement de la sortie dans l'arbre servi, et le lien corpus ↔ site décrit
+  ci-dessous, restent à trancher.
 - **`corpus/sources/` n'est pas dans l'arborescence du § 2.** Le dossier
   contient des fichiers `remediation-*.md` et `sources-*.md` (matière de
   vérification, hors schéma). Statut à clarifier avec l'utilisateur avant
