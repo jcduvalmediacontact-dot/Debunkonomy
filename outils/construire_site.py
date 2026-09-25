@@ -19,6 +19,10 @@ from pathlib import Path
 
 RACINE = Path(__file__).resolve().parents[1]
 SORTIE = RACINE / "build"
+# L'espace de noms officiel des sitemaps est en `http://`, sans s. Le fichier
+# de la racine déclarait `https://` jusqu'au 2026-09-25 ; voir fusionner_sitemaps.
+SITEMAP = "http://www.sitemaps.org/schemas/sitemap/0.9"
+XHTML = "http://www.w3.org/1999/xhtml"
 TEMPORAIRE = RACINE / ".build-en-cours"
 # `.build-env` est ignoré par git, donc absent du dépôt, et pèse 15 Mo :
 # sans cette ligne il entrerait dans la construction, et de là dans ce qui
@@ -47,17 +51,24 @@ def lancer(*commande: str) -> None:
         raise SystemExit(resultat.returncode)
 
 
+def espace_de(racine: ET.Element, quoi: str) -> str:
+    """L'espace de noms que le fichier déclare, jamais celui qu'on espère."""
+    if not racine.tag.startswith("{"):
+        raise SystemExit(f"{quoi} : urlset sans espace de noms.")
+    return racine.tag[1:racine.tag.index("}")]
+
+
 def fusionner_sitemaps(site: Path, corpus: Path) -> None:
     """Ajoute les URL générées sans réécrire les URL déjà servies du site.
 
-    DÉFAUT CONNU, NON CORRIGÉ ICI — constaté le 2026-09-24. Le ``sitemap.xml``
-    de la racine déclare ``https://www.sitemaps.org/...`` (avec un s, hors
-    norme) et le générateur émet le ``http://`` officiel. ``espace`` ci-dessous
-    suppose ``http://`` pour les deux : ``existantes`` se réduit donc à
-    ``{None}``, le dédoublonnage ne dédoublonne rien, et le fichier produit
-    mélange les deux espaces sous une racine non standard — un analyseur de
-    sitemap n'y lirait aucune URL du corpus. Trancher quel espace fait foi
-    touche le fichier servi depuis ``main`` : c'est une décision d'auteur.
+    L'espace de noms est LU dans chaque fichier et un écart entre les deux
+    arrête la construction. Le 2026-09-24, la racine déclarait ``https://...``
+    et le générateur ``http://`` : ``existantes`` se réduisait à ``{None}``, le
+    dédoublonnage ne dédoublonnait rien, et la sortie mélangeait les deux
+    espaces sous une racine non standard — un analyseur de sitemap n'y lisait
+    aucune URL du corpus. **L'écart ne se voyait pas parce qu'il ne produisait
+    aucune erreur** : ``findtext`` rend ``None`` au lieu de lever, et un ``set``
+    accepte ``None`` sans broncher. D'où les trois refus ci-dessous.
     """
     cible = site / "sitemap.xml"
     genere = corpus / "sitemap.xml"
@@ -66,10 +77,27 @@ def fusionner_sitemaps(site: Path, corpus: Path) -> None:
 
     arbre_site = ET.parse(cible)
     racine_site = arbre_site.getroot()
-    arbre_corpus = ET.parse(genere)
-    espace = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    racine_corpus = ET.parse(genere).getroot()
+
+    du_site = espace_de(racine_site, "sitemap.xml du site")
+    du_corpus = espace_de(racine_corpus, "sitemap.xml du corpus")
+    if du_site != du_corpus:
+        raise SystemExit(
+            f"Espaces de noms différents — site « {du_site} », corpus "
+            f"« {du_corpus} ». La fusion produirait un sitemap illisible.")
+    if du_site != SITEMAP:
+        raise SystemExit(
+            f"Espace de noms hors norme : « {du_site} ». La norme est "
+            f"« {SITEMAP} » ; un analyseur conforme ne lirait rien.")
+
+    espace = "{%s}" % du_site
+    ET.register_namespace("", du_site)
+    ET.register_namespace("xhtml", XHTML)
     existantes = {element.findtext(espace + "loc") for element in racine_site}
-    for entree in arbre_corpus.getroot():
+    if None in existantes:
+        # Le symptôme exact du 2026-09-24, resté muet ce jour-là.
+        raise SystemExit("sitemap.xml du site : une entrée sans <loc>.")
+    for entree in racine_corpus:
         loc = entree.findtext(espace + "loc")
         if loc not in existantes:
             racine_site.append(entree)
