@@ -1,17 +1,24 @@
 [
   {
     "chapitre": "L1.C01",
-    "zone": "notes",
-    "ancrage": "10ebf8b2e1b1a65d",
-    "extrait": "te sous la norme statistique, de sorte que « émis sans dette » y était faux, et que «",
-    "motif": "notes seules"
+    "zone": "tete",
+    "ancrage": "59288f1159add83f",
+    "extrait": "ve » figure au corps, « régénérative » cinq fois, et « sans dette » en est sorti. Texte d'origi",
+    "motif": "procès-verbal du renommage : mentionne « sans dette » pour constater qu'il est sorti du corps"
   },
   {
     "chapitre": "L1.C01",
-    "zone": "notes",
-    "ancrage": "57f7dba231eb1394",
-    "extrait": "DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient « l'échappemen",
-    "motif": "notes seules"
+    "zone": "tete",
+    "ancrage": "67d6a94eb6bdf89b",
+    "extrait": "DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient # « l'échappement",
+    "motif": "notes seules — passées en commentaire par le soldage du 2026-09-22, texte inchangé"
+  },
+  {
+    "chapitre": "L1.C01",
+    "zone": "tete",
+    "ancrage": "a2679b1be9457cbb",
+    "extrait": "tte # sous la norme statistique, de sorte que « émis sans dette » y était faux, et que # « ",
+    "motif": "notes seules — passées en commentaire par le soldage du 2026-09-22, texte inchangé"
   },
   {
     "chapitre": "L1.C08",
@@ -30,16 +37,23 @@
   {
     "chapitre": "L1.C10",
     "zone": "corps",
-    "ancrage": "9d7fa3c20a5b59fd",
-    "extrait": "tère fléchée vers la transition, de création monétaire sans dette au service de la régénération",
-    "motif": "mots de Grandjean et Dufrêne, cités dans [S9] et décrits"
+    "ancrage": "7334bb7693069aa2",
+    "extrait": "tion monétaire écologique | non établi | [S9] émission sans dette pour la transition | non étab",
+    "motif": "mots de Grandjean et Dufrêne, cités dans [S9] et décrits — y compris la case de grille du 2026-09-24"
   },
   {
     "chapitre": "L1.C10",
-    "zone": "notes",
-    "ancrage": "7ffd6c054d158705",
-    "extrait": " RENOMMÉ, ET C'EST DÉLIBÉRÉ. « Création monétaire sans dette » y est le vocabulaire de Gra",
-    "motif": "mots de Grandjean et Dufrêne, cités dans [S9] et décrits"
+    "zone": "corps",
+    "ancrage": "f1e9bb43b2e2638d",
+    "extrait": "tère fléchée vers la transition, de création monétaire sans dette au service de la transition o",
+    "motif": "mots de Grandjean et Dufrêne, cités dans [S9] et décrits — y compris la case de grille du 2026-09-24"
+  },
+  {
+    "chapitre": "L1.C10",
+    "zone": "tete",
+    "ancrage": "7453a766dcb9be3e",
+    "extrait": "S RENOMMÉ, ET C'EST # DÉLIBÉRÉ. « Création monétaire sans dette » y est le vocabulaire de Gra",
+    "motif": "mots de Grandjean et Dufrêne, cités dans [S9] et décrits — y compris la case de grille du 2026-09-24"
   },
   {
     "chapitre": "L1.C10",
