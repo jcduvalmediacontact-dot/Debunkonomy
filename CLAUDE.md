@@ -264,12 +264,34 @@ en passant :
   python corpus/test_generer.py                # contrôle de la sortie
   ```
 
-  **Ce qui reste ouvert.** La sortie n'est reliée à rien : `corpus/genere/` est
-  exclu du dépôt, et le site est servi depuis `main`, qui ne porte aucun fichier
-  du corpus. Publier suppose de trancher où la sortie est écrite dans l'arbre du
-  site, et de traiter le point ci-dessous sur le lien corpus ↔ site. Le `llms.txt`
-  produit est propre au corpus et **n'écrase pas** celui de la racine, qui décrit
-  le site et s'écrit à la main.
+  **La sortie est reliée depuis le 2026-09-25, décision L2.** Elle est
+  **versionnée dans l'arbre**, sous `corpus/`, à côté des sources : les noms ne
+  se rencontrent pas, une source étant `livre-NN-un-slug` et une page émise
+  `livre-N`. Elle voyage vers `main` dans une PR ordinaire, et le site la sert
+  sous `/corpus/`, ce que la révision 14 exige. `corpus/genere/` reste exclu du
+  dépôt : c'est le dossier de travail du générateur, non ce qui est publié.
+  Le `llms.txt` produit est propre au corpus et **n'écrase pas** celui de la
+  racine, qui décrit le site et s'écrit à la main.
+
+  **Écrire dans l'arbre passe par `outils/publier_corpus.py`, et non par le
+  générateur seul.** Motif : `generer.py` n'efface rien, il écrit fichier par
+  fichier. C'était sans effet tant que la sortie partait dans un dossier neuf ;
+  une sortie versionnée, elle, **garderait la page d'un chapitre qui perd
+  `citable`**, et le site continuerait de la servir — la porte du § 13 se
+  refermerait sans fermer la page. Ce script nomme les pages périmées et ne les
+  retire qu'avec `--retirer`, en n'acceptant comme chemin émis que `livre-N`
+  à chiffres seuls et sept fichiers nommés : une source ne peut pas y entrer.
+
+  ```bash
+  python outils/publier_corpus.py            # écrit dans corpus/, nomme les périmées
+  python outils/publier_corpus.py --retirer  # retire aussi les périmées
+  ```
+
+  **Ce qui reste ouvert.** La PR vers `main` est le geste de l'auteur, et
+  `main` sert tout ce qu'il reçoit : les sources du corpus et `protocoles/` y
+  seront donc récupérables par le web, ce que l'auteur a tranché le 2026-09-25
+  en connaissance de cause. Le lien corpus ↔ site décrit plus bas —
+  `articles.json`, navigation, `feed.xml` — reste à concevoir.
 - **La construction locale du site existe : `outils/construire_site.py`.** Elle
   assemble dans `build/` — jamais versionné — le site statique de la racine et
   la sortie de `corpus/generer.py` servie sous `/corpus`, puis fusionne les deux
@@ -281,24 +303,19 @@ en passant :
   python outils/construire_site.py          # assemble dans build/
   ```
 
-  **La fusion des sitemaps ne fonctionne pas, et il faut le savoir avant de
-  publier.** Le `sitemap.xml` de la racine déclare
-  `xmlns="https://www.sitemaps.org/..."` — avec un **s**, ce qui n'est pas
-  l'espace de noms officiel — tandis que le générateur émet le `http://`
-  standard. Le script suppose `http://` partout. Trois conséquences, constatées
-  sur une construction du 2026-09-24 : le dédoublonnage compare les URL du corpus
-  à un ensemble réduit à `{None}` et **ne dédoublonne donc rien** — la promesse
-  « sans réécrire les URL déjà servies » est creuse, même si aucune collision
-  n'existe aujourd'hui ; le fichier produit mélange les deux espaces, 225 entrées
-  en `ns0` et 20 en `ns1` ; et sa racine `urlset` est dans l'espace non standard,
-  de sorte qu'**un analyseur de sitemap ne lirait aucune des vingt URL du
-  corpus**. Trancher quel espace fait foi touche le `sitemap.xml` servi depuis
-  `main` : c'est une décision d'auteur, pas une retouche.
+  **La fusion des sitemaps a été réparée le 2026-09-25, décision L1**, et le
+  défaut mérite d'être gardé en mémoire parce qu'il était **muet**. Le
+  `sitemap.xml` de la racine déclarait `xmlns="https://www.sitemaps.org/..."`
+  — avec un **s**, hors norme — tandis que le générateur émet le `http://`
+  officiel, et le script supposait `http://` partout : `findtext` rendait `None`
+  au lieu de lever, un `set` acceptait `None` sans broncher, **le dédoublonnage
+  ne dédoublonnait rien**, la sortie mélangeait 225 entrées en `ns0` et 20 en
+  `ns1`, et aucun analyseur conforme n'y aurait lu une URL du corpus. Aucune
+  erreur n'était levée.
 
-  **Ce qui reste ouvert.** La construction n'est ni déployée ni poussée vers
-  `main` : elle produit une prévisualisation locale, et rien d'autre. Le choix de
-  l'emplacement de la sortie dans l'arbre servi, et le lien corpus ↔ site décrit
-  ci-dessous, restent à trancher.
+  `fusionner_sitemaps` **lit désormais l'espace de noms dans chaque fichier** et
+  s'arrête sur trois cas — espaces différents, espace hors norme, entrée sans
+  `<loc>`. Le troisième refus est le symptôme resté muet ce jour-là.
 - **`corpus/sources/` n'est pas dans l'arborescence du § 2.** Le dossier
   contient des fichiers `remediation-*.md` et `sources-*.md` (matière de
   vérification, hors schéma). Statut à clarifier avec l'utilisateur avant
