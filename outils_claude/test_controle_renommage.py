@@ -326,6 +326,101 @@ try:
     code, j = controler(tmp)
     verifier("G-R8c", False, code, j)
 
+    # ── ADMISSION PARTIELLE — décision de l'auteur du 2026-09-25 ─────────────
+    #
+    # L'outil promettait « puis les N suivant(s), SÉPARÉMENT » et son code
+    # l'interdisait : la première passe n'écrivait rien, donc la seconde
+    # retrouvait les mêmes N neuves. Au-delà du plafond de quatre, il ne pouvait
+    # plus aboutir du tout.
+    #
+    # CE BLOC EST AUTONOME. Il remet d'abord le registre de poche à jour — ce qui
+    # exerce déjà l'admission partielle — puis fabrique CINQ occurrences neuves,
+    # une par chapitre, pour dépasser le plafond sans dépendre de l'état du vrai
+    # registre.
+    tmp2 = tempfile.mkdtemp(prefix="renommage-partielle-")
+    try:
+        monter(tmp2)
+
+        def neufs(journal):
+            """Les ancrages du bloc NEUVES, lus dans la sortie et non devinés."""
+            m = re.search(r"(?ms)^NEUVES[^\n]*\n(.*?)(?:\n\n|\Z)", journal)
+            return re.findall(r"^\s{2}([0-9a-f]{16})\s", m.group(1), re.M) if m else []
+
+        # `registre()` rend le TEXTE du fichier, non du JSON : les cas
+        # précédents le parsent eux-mêmes. On garde la même convention.
+        def reg2():
+            return json.loads(registre(tmp2))
+
+        def mettre_a_jour(d, tour=0):
+            """Admet par lots de PLAFOND jusqu'à ce que le contrôle passe."""
+            code, j = controler(d)
+            while code != 0 and tour < 12:
+                lot = sorted(set(neufs(j)))[:4]
+                if not lot:
+                    return code, j
+                generer(d, "--admettre", ",".join(lot), "--motif", "mise à jour d'essai")
+                code, j = controler(d)
+                tour += 1
+            return code, j
+
+        code, j = mettre_a_jour(tmp2)
+        verifier("G-R9a", False, code, j)          # la base de poche est verte
+
+        # CINQ occurrences neuves, une par chapitre : le plafond est de quatre.
+        n_avant = len(reg2())
+        cibles = sorted({o["chapitre"] for o in reg2()})[:5]
+        assert len(cibles) == 5, "il faut cinq chapitres distincts"
+        for ch in cibles:
+            F = chemin(tmp2, ch)
+            tete, corps = coupe_corps(lire(F))
+            ecrire(F, tete + corps + "\n\nLe dispositif %s reste sans dette ici.\n" % ch)
+        code, j = controler(tmp2)
+        cinq = sorted(set(neufs(j)))
+        verifier("G-R9b", True, code, j)           # cinq neuves : le contrôle crie
+        assert len(cinq) == 5, ("cinq ancrages neufs attendus", cinq)
+
+        # (a) QUATRE admis : le registre AVANCE, et le code reste 1.
+        code, j = generer(tmp2, "--admettre", ",".join(cinq[:4]),
+                          "--motif", "essai d'admission partielle")
+        ecrits = {o["ancrage"] for o in reg2()}
+        partiel = ("ADMISSION PARTIELLE" in j
+                   and all(a in ecrits for a in cinq[:4])
+                   and cinq[4] not in ecrits
+                   and len(reg2()) == n_avant + 4)
+        verifier("G-R9c", True, code, j)           # code 1 : pas encore à jour
+        verifier("G-R9d", not partiel, 0 if partiel else 1, j)
+
+        # (b) LE CINQUIÈME : le registre est à jour, code 0.
+        code, j = generer(tmp2, "--admettre", cinq[4], "--motif", "le cinquième")
+        verifier("G-R9e", False, code, j)
+        code, j = controler(tmp2)
+        verifier("G-R9f", False, code, j)
+
+        # (c) NÉGATIF : rien d'admis, rien d'écrit.
+        F = chemin(tmp2, cibles[0])
+        ecrire(F, lire(F) + "\nUne autre phrase sans dette, non admise.\n")
+        avant = lire(os.path.join(tmp2, "outils_claude", "ancrages-renommage.json"))
+        code, j = generer(tmp2, "--motif", "sans admettre")
+        intact = avant == lire(os.path.join(tmp2, "outils_claude",
+                                            "ancrages-renommage.json"))
+        verifier("G-R9g", True, code, j)
+        verifier("G-R9h", not intact, 0 if intact else 1, j)
+
+        # (d) NÉGATIF : le plafond tient toujours.
+        code, j = controler(tmp2)
+        trop = sorted(set(neufs(j)))
+        if len(trop) < 5:
+            for ch in cibles[1:]:
+                F = chemin(tmp2, ch)
+                ecrire(F, lire(F) + "\nEncore une sans dette pour le plafond.\n")
+            code, j = controler(tmp2)
+            trop = sorted(set(neufs(j)))
+        code, j = generer(tmp2, "--admettre", ",".join(trop[:5]), "--motif", "cinq d'un coup")
+        verifier("G-R9i", True, code, j)
+        verifier("G-R9j", "plafond est de 4" not in j, 0 if "plafond est de 4" in j else 1, j)
+    finally:
+        shutil.rmtree(tmp2, ignore_errors=True)
+
 finally:
     shutil.rmtree(tmp, ignore_errors=True)
 
@@ -337,3 +432,6 @@ if rates:
 out.write("Le contrôle détecte la substitution à total constant, laisse passer ce qui ne\n")
 out.write("touche à aucune occurrence déclarée, et n'admet une occurrence neuve que\n")
 out.write("nommée par son ancrage, avec son propre motif, et par lots de quatre au plus.\n")
+out.write("L'admission est partielle : une passe écrit les ancrages admis et EUX SEULS,\n")
+out.write("laisse les autres non déclarés, et sort en 1 — le registre a avancé, il n'est\n")
+out.write("pas à jour. Aucune occurrence ne reçoit un motif qu'on ne lui a pas donné.\n")

@@ -6,7 +6,17 @@ elle est à l'auteur.
 
 ---
 
-## 1. Le verrou, à lire d'abord — sans décision, rien ne peut être appliqué
+## 1. Le verrou — TRANCHÉ ET LEVÉ LE 2026-09-25, issue (a)
+
+**L'auteur a accordé l'admission partielle, et elle est appliquée dans l'outil.**
+Une passe écrit les ancrages admis et eux seuls ; les autres restent non
+déclarés, le contrôle continue de les signaler, le code de sortie reste 1. Le
+plafond de quatre est intact, et aucune occurrence ne reçoit un motif qu'on ne lui
+a pas donné. Dix sabotages nouveaux dans `test_controle_renommage.py`.
+
+Ce qui suit est le constat tel qu'il a été soumis, et n'est pas réécrit.
+
+### Le constat d'origine
 
 `controle_renommage.py` porte deux règles qui s'excluent au-delà de quatre
 occurrences neuves :

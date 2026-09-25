@@ -34,6 +34,18 @@ tout seul. Mais **quatre ancrages au plus par admission** (`PLAFOND`) : au-delà
 l'affirmation cesse d'être lisible d'un coup d'œil et redevient un tampon. Le lot
 se scinde alors, et chaque part se motive séparément.
 
+**L'admission est PARTIELLE depuis le 2026-09-25**, décision de l'auteur. Ce que
+le paragraphe ci-dessus décrit — scinder le lot, motiver chaque part — était
+impossible jusque-là : une seule occurrence neuve non admise faisait échouer le
+lot **avant toute écriture**, de sorte que la seconde passe retrouvait les mêmes
+neuves. Au-delà de quatre, l'outil ne pouvait plus aboutir du tout. Constaté le
+2026-09-25 sur L1.C01 et L1.C10, avec six occurrences neuves.
+
+Désormais une passe écrit **les ancrages admis, et eux seuls**. Les autres restent
+non déclarés : le contrôle ordinaire continue de les signaler et le code de sortie
+reste 1 — le registre a avancé, il n'est pas à jour. Le plafond est intact, et
+aucune occurrence ne reçoit un motif qu'on ne lui a pas donné.
+
 Les motifs déjà approuvés sont **conservés tels quels** : `MOTIFS` ci-dessous n'est
 plus appliqué, il ne sert qu'à rappeler au relecteur ce que le chapitre justifiait
 déjà. Une disparition ne demande aucune admission — elle réduit les exceptions.
@@ -195,8 +207,22 @@ if GENERER:
             out.write("  … puis les %d suivant(s), SÉPARÉMENT : le plafond est de %d\n"
                       "  ancrages par admission, pour qu'un motif partagé reste un acte.\n"
                       % (len(tous) - PLAFOND, PLAFOND))
-        out.flush()
-        sys.exit(1)
+        # ADMISSION PARTIELLE — décision de l'auteur du 2026-09-25.
+        #
+        # Jusqu'ici la sortie etait ici, quoi qu'il arrive. Le message
+        # ci-dessus promettait pourtant << puis les N suivant(s), SEPAREMENT >>,
+        # une sequence que ce sys.exit rendait impossible : la premiere passe
+        # n'ecrivait rien, donc la seconde retrouvait les memes N neuves. Avec
+        # six neuves et un plafond de quatre, l'outil ne pouvait plus aboutir du
+        # tout -- constate le 2026-09-25 sur L1.C01 et L1.C10.
+        #
+        # Ce qui est ecrit maintenant : les ancrages ADMIS, et eux seuls. Les
+        # autres restent NON DECLARES, donc le controle ordinaire continue de
+        # les signaler, et le code de sortie reste 1. Le plafond est intact, et
+        # aucun ancrage ne recoit un motif qu'on ne lui a pas donne.
+        if not ADMIS:
+            out.flush()
+            sys.exit(1)
     if neuves and not (MOTIF or "").strip():
         sys.exit("REFUS : --admettre exige --motif.\n"
                  "        Un ancrage ne s'écrit pas sans sa raison, et la raison du\n"
@@ -207,7 +233,15 @@ if GENERER:
     sortie = []
     for o in vivantes:
         garde = reste.get(cle(o))
-        o["motif"] = garde.pop(0).get("motif", "") if garde else MOTIF
+        if garde:
+            o["motif"] = garde.pop(0).get("motif", "")
+        elif o["ancrage"] in ADMIS:
+            o["motif"] = MOTIF
+        else:
+            # Neuve et NON ADMISE : elle n'entre pas au registre. Lui donner
+            # MOTIF ici ferait exactement ce que le plafond interdit — un motif
+            # tamponne sur une occurrence que personne n'a nommee.
+            continue
         sortie.append(o)
     muets = [o for o in sortie if not (o.get("motif") or "").strip()]
     if muets:
@@ -220,8 +254,17 @@ if GENERER:
         json.dumps(sorted(sortie, key=lambda o: (o["chapitre"], o["zone"], o["ancrage"])),
                    ensure_ascii=False, indent=2) + "\n")
     out.write("%d ancrage(s) dans %s — %d admis, %d disparu(s).\n"
-              % (len(sortie), os.path.relpath(ANCRAGES, RACINE), len(neuves), len(disparues)))
-    sys.exit(0)
+              # `neuves` compte des OCCURRENCES, `ADMIS` des ancrages, et deux
+              # occurrences peuvent partager un ancrage : on compte ce qui est
+              # réellement entré, soit les neuves moins les refusées.
+              % (len(sortie), os.path.relpath(ANCRAGES, RACINE),
+                 len(neuves) - len(refuses), len(disparues)))
+    if refuses:
+        out.write("ADMISSION PARTIELLE : %d occurrence(s) restent NEUVES et non\n"
+                  "déclarées. Le contrôle continue de les signaler, et ce code de\n"
+                  "sortie est 1 : le registre a avancé, il n'est pas à jour.\n"
+                  % len(refuses))
+    sys.exit(1 if refuses else 0)
 
 if not os.path.exists(ANCRAGES):
     sys.exit("fichier d'ancrages absent : lancer --generer-ancrages après revue.")
