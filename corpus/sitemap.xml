@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<!-- Équivalences de langue : le corpus n'existe qu'en français à ce jour ;
+     chaque URL ne porte donc qu'un hreflang, celui de sa propre version. -->
+ <url>
+  <loc>https://debunkonomy.org/corpus/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/glossaire.html</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/glossaire.html"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c01/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c01/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c02/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c02/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c03/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c03/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c04/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c04/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c05/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c05/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c06/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c06/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c07/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c07/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c08/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c08/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c09/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c09/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c10/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c10/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c11/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c11/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c12/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c12/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c13/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c13/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c14/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c14/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c15/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c15/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c16/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c16/"/>
+ </url>
+ <url>
+  <loc>https://debunkonomy.org/corpus/livre-1/c31/</loc>
+  <lastmod>2026-09-25</lastmod>
+  <xhtml:link rel="alternate" hreflang="fr" href="https://debunkonomy.org/corpus/livre-1/c31/"/>
+ </url>
+</urlset>

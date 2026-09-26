@@ -1,0 +1,317 @@
+{
+ "genere_le": "2026-09-25T06:29:49Z",
+ "licence": "https://creativecommons.org/licenses/by-sa/4.0/",
+ "publies": 17,
+ "non_publies": 318,
+ "chapitres": [
+  {
+   "id": "L1.C01",
+   "titre": "Pourquoi l'humanité a besoin d'un nouveau paradigme économique",
+   "livre": 1,
+   "url": "/corpus/livre-1/c01/",
+   "resume": "Ce chapitre énonce et argumente trois propositions, sans les démontrer. Que les crises écologiques, sociales et financières contemporaines procéderaient d'une mécanique commune : un système monétaire qui émet la monnaie contre dette et rendement financier. Que cette mécanique orienterait l'allocation du crédit vers les activités extractives, et ne financerait la régénération des fonds naturels, définie en termes physiques, que lorsqu'un produit vendable s'y trouve attaché. Et que sa prise en charge exigerait un financement permanent qu'aucun mécanisme budgétaire ne garantirait, ce qui conduit à examiner une modification de l'émission monétaire elle-même — soumise à ses propres conditions. Leur démonstration occupe les chapitres suivants.",
+   "concepts": [
+    "polycrise",
+    "neutralite_monetaire",
+    "systeme_monetaire_et_financier",
+    "economie_de_lequilibre"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-24",
+   "sources": 0
+  },
+  {
+   "id": "L1.C02",
+   "titre": "La grande contradiction",
+   "livre": 1,
+   "url": "/corpus/livre-1/c02/",
+   "resume": "Les records de richesse financière et les indicateurs de dégradation écologique progressent conjointement. Ce chapitre décrit cette progression conjointe — le mot de corrélation serait prématuré tant que les séries ne sont pas toutes rapportées à leur source —, expose l'hypothèse qu'elle recouvre un lien de production — la valeur financière serait obtenue par le non-report au prix de certains coûts et dommages — et énonce les deux épreuves qui permettraient de la trancher : l'examen des données de découplage, et celui du mécanisme monétaire. Il formule enfin deux hypothèses institutionnelles : la concurrence désavantagerait les acteurs qui internalisent leurs coûts, et les crises contemporaines se contraindraient mutuellement.",
+   "concepts": [
+    "fausse_richesse",
+    "externalisation",
+    "decouplage",
+    "polycrise"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-22",
+   "sources": 9
+  },
+  {
+   "id": "L1.C03",
+   "titre": "Une croissance infinie peut-elle exister sur une planète finie ?",
+   "livre": 1,
+   "url": "/corpus/livre-1/c03/",
+   "resume": "Le découplage entre croissance économique et empreinte physique est promis depuis les années 1970. Ce chapitre distingue le découplage relatif — baisse de l'intensité matérielle par unité produite — du découplage absolu, qui exige une baisse des volumes totaux à un rythme compatible avec les limites planétaires. Il expose trois arguments avancés pour expliquer que le second ne soit pas observé au niveau mondial : l'accumulation historique des sources d'énergie plutôt que leur substitution, l'effet rebond, et la production d'entropie dans les transformations réelles. Il en délimite la portée. Le chapitre n'établit pas qu'une croissance économique perpétuelle soit impossible : il établit qu'une croissance perpétuelle du volume physique produit l'est, et que la question de la valeur ajoutée reste empirique.",
+   "concepts": [
+    "decouplage",
+    "effet_rebond",
+    "entropie",
+    "sobriete"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-22",
+   "sources": 11
+  },
+  {
+   "id": "L1.C04",
+   "titre": "L'économie à l'intérieur de la nature",
+   "livre": 1,
+   "url": "/corpus/livre-1/c04/",
+   "resume": "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres distincts qu'il mobilise : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait.",
+   "concepts": [
+    "limites_planetaires",
+    "plafond_ecologique",
+    "plancher_social",
+    "robustesse",
+    "fausse_richesse"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-21",
+   "sources": 11
+  },
+  {
+   "id": "L1.C05",
+   "titre": "Qu'est-ce que la monnaie, vraiment ?",
+   "livre": 1,
+   "url": "/corpus/livre-1/c05/",
+   "resume": "Les manuels définissent la monnaie par ses trois fonctions — unité de compte, intermédiaire d'échange, réserve de valeur — c'est-à-dire par ses usages. Ce chapitre soutient que cette définition laisse ouverte la question de sa nature, et propose de la caractériser comme un registre de créances collectivement tenu, dont le support importe moins que la tenue. Il en tire que les règles d'émission relèvent d'une décision et non d'une nécessité, et que la question décisive est celle des conditions auxquelles la monnaie est créée.",
+   "concepts": [
+    "monnaie_comme_registre",
+    "creation_monetaire",
+    "neutralite_monetaire"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-22",
+   "sources": 7
+  },
+  {
+   "id": "L1.C06",
+   "titre": "Les propositions écologistes et les conditions du crédit",
+   "livre": 1,
+   "url": "/corpus/livre-1/c06/",
+   "resume": "Ce chapitre répartit les propositions écologistes en trois familles — techniques, réglementaires, comportementales — qui rencontrent une même limite : elles ne modifient pas les conditions auxquelles le crédit est accordé. Ce chapitre soutient que cette limite est structurelle et non conjoncturelle, et examine pourquoi la question monétaire occupe une place réduite dans le débat écologique. Il ne démontre pas le mécanisme de création monétaire, qui fait l'objet du chapitre suivant.",
+   "concepts": [
+    "essentiel_insolvable",
+    "creation_monetaire",
+    "neutralite_monetaire"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-21",
+   "sources": 9
+  },
+  {
+   "id": "L1.C07",
+   "titre": "Comment les banques commerciales créent la monnaie de dépôt",
+   "livre": 1,
+   "url": "/corpus/livre-1/c07/",
+   "resume": "Ce chapitre établit, sur deux sources de banque centrale lues dans le texte, la Banque d'Angleterre pour le Royaume-Uni et la Bundesbank pour la zone euro, comment la monnaie de dépôt est créée et détruite dans les économies contemporaines où les dépôts bancaires constituent l'essentiel de la monnaie au sens large. L'octroi d'un crédit inscrit simultanément une créance à l'actif de la banque et un dépôt à son passif, sans transfert du dépôt préexistant d'un épargnant ; le remboursement du principal au moyen d'un dépôt détruit la monnaie de dépôt correspondante ; les banques créent aussi des dépôts en achetant certains actifs à des agents non bancaires, avec l'actif acquis pour contrepartie, et l'achat par une banque centrale passe par trois positions comptables ; une banque isolée ne prête pas sans limite ; les réserves ne sont ni prêtées aux clients ni multipliées, et sont fournies en échange d'autres actifs selon le cadre opérationnel de la banque centrale ; la création reste contrainte par le prix du crédit, la demande, la rentabilité, les risques, le capital, la liquidité, la réglementation, le règlement interbancaire et la politique monétaire ; ces contraintes produisent une sélection des emprunteurs. Le dépôt est une dette de la banque envers son client ; seul le crédit crée aussi une dette de l'emprunteur envers la banque, ce qui interdit d'écrire que toute monnaie a pour contrepartie une dette privée. Withers (1909) et Schumpeter (1954) sont des jalons historiques, non des fondements. La conséquence pour NEMO IMS est limitée : le crédit bancaire sélectionne les emprunteurs capables de présenter une perspective de remboursement et, selon les cas, des garanties ; cela ne signifie ni que chaque crédit finance une activité productive rentable, ni que toute création bancaire impose à elle seule la croissance.",
+   "concepts": [
+    "creation_monetaire",
+    "monnaie_comme_registre",
+    "monnaie_endogene",
+    "solvabilite_anticipee",
+    "systeme_monetaire_et_financier",
+    "neutralite_monetaire"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-11",
+   "sources": 5
+  },
+  {
+   "id": "L1.C08",
+   "titre": "Quand la dette crée une contrainte de croissance",
+   "livre": 1,
+   "url": "/corpus/livre-1/c08/",
+   "resume": "La dette à intérêt ne crée pas, par une identité comptable isolée, une obligation universelle de croissance : les intérêts sont payables par la circulation, un modèle stock-flux lu dans le texte exhibe un état quasi stationnaire avec dette et intérêts sous des hypothèses énoncées, et un modèle minskyen, lu dans une version de travail, montre que croissance et croissance nulle peuvent chacune être stables ou instables selon la conduite de l'endettement des entreprises. Mais, intégrée aux mécanismes d'emploi, de rentabilité, d'investissement, de refinancement et de stabilité budgétaire des économies contemporaines, elle contribue à une dépendance structurelle à la croissance ; en l'absence d'un découplage absolu mondial suffisamment rapide et étendu, cette dépendance entretient les pressions matérielles et écologiques. Le chapitre établit cette relation en cinq niveaux — création et destruction monétaires par le crédit ; absence d'impossibilité arithmétique ; dynamiques cumulatives, finances publiques comprises ; transmission conditionnelle aux pressions physiques mondiales, empreintes importées comprises ; réponse prospective de NEMO IMS — et qualifie chaque affirmation comme fait observé, résultat de modèle, hypothèse ou choix normatif, chaque source restant dans sa compétence. Il définit l'essentiel insolvable indépendamment de NEMO IMS, dit ce que le dispositif change et ne change pas, et enregistre la conséquence tirée de la lecture de Deyris : financer le régénératif ne suffit pas si les autres circuits financent sans limitation l'incompatible, de sorte que NEMO IMS doit articuler un canal positif d'émission affectée et un régime négatif de limitation des financements dégénératifs. Trois objections de l'audit contradictoire sont conservées comme limites déclarées, l'amortissement comme pendant du remboursement, la répression financière et l'accommodation post-keynésienne du crédit ; l'instrument du régime négatif est une limite de conception renvoyée à l'arbitrage correspondant, et aucun plafond, interdit sectoriel ou contrôle particulier n'est présenté comme adopté. Le chapitre établit l'existence théorique de plusieurs mécanismes par lesquels l'endettement peut contribuer à la dépendance à la croissance. Il ne mesure ni leur ampleur dans les économies observées, ni leur poids relatif parmi les autres mécanismes de cette dépendance.",
+   "concepts": [
+    "creation_monetaire",
+    "monnaie_endogene",
+    "reflux_monetaire",
+    "reflux_collectif",
+    "reflux_transactionnel",
+    "solvabilite_anticipee",
+    "essentiel_insolvable",
+    "qualification_regenerative",
+    "degeneratif",
+    "decouplage",
+    "limites_planetaires",
+    "monnaie_fondante",
+    "communs"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-20",
+   "sources": 15
+  },
+  {
+   "id": "L1.C09",
+   "titre": "L'architecture invisible",
+   "livre": 1,
+   "url": "/corpus/livre-1/c09/",
+   "resume": "Au-delà de son mécanisme de création, la monnaie s'accompagne d'un ensemble de règles qui déterminent, pour une large part, ce qui est finançable par le crédit, ce qui entre dans les comptes des entreprises, à quel horizon les valeurs sont pesées et quelles actions comptent. Chacune de ces règles est écrite quelque part — manuel de comptabilité nationale, norme statistique, directive, barème d'actualisation ; ce qu'aucune des quatorze sources ouvertes ici ne présente, c'est leur combinaison, et c'est elle que le corpus nomme l'architecture invisible. Le chapitre en dégage quatre règles : l'octroi de la monnaie nouvelle appartient pour l'essentiel à des acteurs privés selon un critère de solvabilité anticipée, nécessaire sans être suffisant, le canal budgétaire étant un circuit distinct soumis à ses propres autorisations ; le lexique comptable mesure finement ce qui rapporte, tandis que ce qui régénère, soigne ou transmet n'a pas de poste propre au compte de résultat ni au bilan — le chapitre ne tranchant pas si cela modifie la décision de crédit, question empirique qu'il n'instruit pas ; l'actualisation, dans les cadres documentés ici, ramène le long terme à presque rien ; les verbes valorisés sont produire, vendre, investir, rembourser. La thèse est interprétative et balisée comme telle ; sa conséquence, si elle tient, est que des règles procédant d'actes institutionnels datés peuvent être décidées autrement.",
+   "concepts": [
+    "architecture_invisible",
+    "creation_monetaire",
+    "solvabilite_anticipee",
+    "essentiel_insolvable"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-14",
+   "sources": 14
+  },
+  {
+   "id": "L1.C10",
+   "titre": "Une monnaie peut-elle être conçue autrement ?",
+   "livre": 1,
+   "url": "/corpus/livre-1/c10/",
+   "resume": "D'autres conventions monétaires ont été tentées, et certaines fonctionnent encore. Ce chapitre en fait l'inventaire en trois catégories : des expériences — les certificats fondants de Wörgl en 1932-1933, dont la fin n'est portée par aucune pièce ouverte de ce chapitre ; le Wirtschaftsring suisse, actif depuis 1934 sous statut bancaire ; les monnaies locales complémentaires — ; des théories qui proposent de refondre le régime d'émission — Gesell, Soddy, l'économie écologique, le bancor de Keynes, la théorie monétaire moderne — ; et des expérimentations venues des banques centrales — assouplissement quantitatif, monnaies numériques de banque centrale, propositions de création monétaire écologique. Chaque cas est présenté avec ses limites connues : effet de taxe sur l'encaisse et fuite vers d'autres réserves de valeur pour la monnaie fondante, ancre fiscale pour les monnaies locales, risque inflationniste pour la création sans contrepartie. Rapportées aux quatre règles de l'architecture invisible, aucune de ces alternatives n'est rapportée par une pièce ouverte à plus d'une règle. Le chapitre en conclut que d'autres règles de circulation ont existé, qu'aucun cas examiné ne montre qu'un autre régime d'émission ait fonctionné, et pose le cahier des charges d'une refonte portant sur les quatre règles à la fois, acceptation fiscale comprise.",
+   "concepts": [
+    "creation_monetaire",
+    "monnaie_endogene",
+    "monnaie_fondante",
+    "solvabilite_anticipee",
+    "architecture_invisible",
+    "monnaie_comme_registre"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-23",
+   "sources": 23
+  },
+  {
+   "id": "L1.C11",
+   "titre": "La première malédiction monétaire",
+   "livre": 1,
+   "url": "/corpus/livre-1/c11/",
+   "resume": "Une malédiction monétaire est un mécanisme structurel du régime d'émission qui produit un résultat collectif dégradant sans intention ni faute des acteurs. La première tient au point de création de la monnaie : dans le régime actuel, le crédit bancaire n'est pas le seul canal par lequel la monnaie nouvelle entre en existence, mais il est le seul qui la crée EN MÊME TEMPS QU'UNE DETTE NOUVELLE de l'emprunteur, et donc le seul qui soumette cette création à un filtre — la solvabilité anticipée — conçu pour des prêts remboursables ; ce qui ne rembourse pas reste hors de ce filtre et relève de l'impôt, de l'emprunt public ou d'un transfert. Ce filtre accueille le vert marchand et rejette la régénération sans recette ; les risques climatiques n'y entrent, depuis 2020, que comme facteurs de risque. Le chapitre en donne les ordres de grandeur — 8 700 milliards de dollars de financements fossiles par les grandes banques en dix ans, 7 300 milliards de flux annuels nuisibles à la nature contre 220 milliards de solutions fondées sur la nature — en distinguant ce qui relève du crédit de ce qui relève des budgets, et montre pourquoi la régulation, la taxonomie, le prix du carbone et les banques publiques déplacent le filtre sans le lever.",
+   "concepts": [
+    "malediction_monetaire",
+    "solvabilite_anticipee",
+    "degeneratif",
+    "reflux_monetaire",
+    "creation_monetaire",
+    "monnaie_endogene",
+    "architecture_invisible"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-15",
+   "sources": 8
+  },
+  {
+   "id": "L1.C12",
+   "titre": "La deuxième malédiction monétaire",
+   "livre": 1,
+   "url": "/corpus/livre-1/c12/",
+   "resume": "La parade évidente à la première malédiction consiste à verdir le crédit. Ce chapitre établit pourquoi cette réorientation, réelle et utile, ne suffit pas, et il le fait en écartant l'argument quantitatif souvent avancé — plus de monnaie, plus de transactions, plus d'extraction —, que les séries monétaires réfutent. La formulation défendable tient en trois éléments : dans le régime actuel, le service d'un encours croissant exige une expansion nette du crédit, indifférente à sa composition ; les capacités que finance le crédit vert s'ajoutent, tant que les capacités anciennes restent solvables, au stock existant — et les actifs échoués qui les retireraient sont précisément ce que la stabilité financière cherche à éviter ; et la stabilité des prix plafonne l'érosion par laquelle l'inflation allégeait les dettes. Il en résulte des découplages sectoriels et nationaux réels — l'Europe a réduit son empreinte matérielle par habitant — sans découplage mondial absolu : l'extraction mondiale de matières a plus que triplé depuis 1970.",
+   "concepts": [
+    "malediction_monetaire",
+    "jevons_monetaire",
+    "decouplage",
+    "effet_rebond",
+    "reflux_monetaire",
+    "solvabilite_anticipee",
+    "creation_monetaire"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-15",
+   "sources": 10
+  },
+  {
+   "id": "L1.C13",
+   "titre": "La troisième malédiction monétaire",
+   "livre": 1,
+   "url": "/corpus/livre-1/c13/",
+   "resume": "La troisième malédiction noue deux dettes : la dette financière des États et la dette écologique — le stock de dégradations des fonds naturels non compensées. Le chapitre établit le mécanisme du nœud sous sa forme défendable : un État endetté dispose de plusieurs issues — croissance, impôt, austérité, défaut, inflation, répression financière —, et celles qui ne passent pas par l'activité ne sont pas fermées mais transitoires, coûteuses et combattues par le régime lui-même ; il reste, durablement, des issues qui exigent de l'activité, dont la fiscalité écologique n'affranchit que partiellement, parce que son assiette s'érode avec son succès. Servir la dette financière exige alors une activité qui creuse la dette écologique ; réparer celle-ci exige des dépenses financées par de nouvelles dettes ou par les recettes de cette activité. Le chapitre en donne les ordres de grandeur, des cas dont il ne retient que ce qui est établi, et conclut qu'avec les deux précédentes, cette malédiction forme un système qui ne se défait pas de l'intérieur.",
+   "concepts": [
+    "malediction_monetaire",
+    "noeud_gordien",
+    "dette_ecologique",
+    "reflux_monetaire",
+    "solvabilite_anticipee",
+    "degeneratif"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-22",
+   "sources": 19
+  },
+  {
+   "id": "L1.C14",
+   "titre": "La dette, un mythe de Sisyphe économique",
+   "livre": 1,
+   "url": "/corpus/livre-1/c14/",
+   "resume": "Les trois malédictions monétaires, prises ensemble, produisent une trajectoire que le livre nomme le mythe de Sisyphe économique : un effort renouvelé sans terme, où chaque cycle ramène au point de départ. Ce chapitre expose la figure et en délimite strictement la portée. La contrainte de croissance n'est pas arithmétique — une économie stationnaire endettée est possible si les revenus d'intérêts sont redépensés ; elle tient à leur accumulation et à la croissance de l'encours. Et la figure ne s'applique qu'à ce que le régime monétaire ajoute : l'usure du capital est physique, la saturation du revenu est psychologique, les blocages de la décision publique relèvent d'économie politique — le chapitre isole dans chaque cas la part monétaire au lieu de tout lui attribuer. Trois idéaux-types en donnent la forme vécue, avec trois traits communs : lucidité, impuissance à sortir seul, répétition sans terme. À la différence du mythe, la contrainte est architecturale, donc modifiable.",
+   "concepts": [
+    "sisyphe_economique",
+    "malediction_monetaire",
+    "reflux_monetaire",
+    "solvabilite_anticipee",
+    "essentiel_insolvable"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-22",
+   "sources": 11
+  },
+  {
+   "id": "L1.C15",
+   "titre": "L'essentiel insolvable",
+   "livre": 1,
+   "url": "/corpus/livre-1/c15/",
+   "resume": "L'essentiel insolvable est ici une catégorie analytique prospective, non un phénomène déjà mesuré. « Insolvable » désigne l'échec de la solvabilité interne des flux de l'activité, non l'absence de tout crédit ou financement. Une activité y entre si elle répond à un besoin essentiel selon un critère provisoire, mais échoue à au moins une des quatre conditions nécessaires au financement autonome par le crédit : produire un flux monétaire, permettre sa captation, respecter l'horizon du crédit et conserver une valeur suffisante après actualisation et risque. La catégorie est volontairement plus étroite que l'ensemble des activités essentielles auxquelles un crédit est refusé. Un besoin humain vital urgent peut recevoir une continuité minimale et temporaire pendant l'instruction et la construction d'une réponse compatible, sans que l'activité écologiquement incompatible soit qualifiée E ni obtienne une éligibilité durable. Le chapitre distingue plusieurs mécanismes de financement dans une typologie non exhaustive, sans prétendre qu'ils échouent tous de la même manière. Il expose un protocole qui doit encore établir la démarcation, la non-redondance, la transférabilité et l'ampleur empirique de la catégorie. Il ne démontre ni que NEMO IMS est nécessaire, ni qu'il est supérieur à des solutions concurrentes.",
+   "concepts": [
+    "essentiel_insolvable",
+    "solvabilite_anticipee",
+    "creation_monetaire"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-13",
+   "sources": 8
+  },
+  {
+   "id": "L1.C16",
+   "titre": "La bullshitnovation, et ce que les critères financiers n'exigent pas",
+   "livre": 1,
+   "url": "/corpus/livre-1/c16/",
+   "resume": "La bullshitnovation est le nom donné par l'auteur à une activité dénuée de sens réel, si ce n'est celui de générer du profit financier ; cette définition normative n'est pas une mesure empirique. Le chapitre lui associe le gabarit conservateur d'un test à trois verdicts : dedans, dehors ou indéterminé, qui ne devient applicable qu'après fixation du problème, du résultat, de l'horizon, du contrefactuel et de la preuve. Les critères prudentiels étudiés intègrent le risque financier, y compris les effets financiers des facteurs ESG, sans constituer par eux-mêmes un critère autonome de résolution écologique ou sociale. D'autres textes de l'Union définissent bien des résultats écologiques : ils classent, ils font publier, ou ils obligent l'entreprise quant à sa propre conduite — aucun des quatre examinés ne conditionne l'octroi d'un crédit au résultat matériel du projet financé. Cette proposition limitée ne mesure pas l'ampleur du phénomène, n'établit aucune éviction mécanique et ne démontre pas la supériorité de NEMO IMS. Le gabarit porte en outre sur un offreur et une prestation : il ne capte ni l'effet de rebond à l'échelle du système, ni le coût de son propre emploi, ni la capture de qui fixerait ses paramètres.",
+   "concepts": [
+    "bullshitnovation",
+    "essentiel_insolvable",
+    "solvabilite_anticipee"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-14",
+   "sources": 14
+  },
+  {
+   "id": "L1.C31",
+   "titre": "L'apport propre de NEMO IMS, et comment il peut échouer",
+   "livre": 1,
+   "url": "/corpus/livre-1/c31/",
+   "resume": "Ce chapitre définit un test symétrique par lequel NEMO IMS peut démontrer un apport propre, échouer à le démontrer ou laisser F10 ouvert sur un résultat non concluant. Le test compare le résultat matériel net des ressources retirées à d'autres usages, le délai, le coût social total, les risques macroéconomiques et financiers, ainsi que deux composantes distinctes de la gouvernance : l'architecture attachée et le risque de capture du mécanisme d'allocation. NEMO démontre un apport propre s'il obtient un meilleur résultat matériel net, ou un résultat inaccessible au meilleur portefeuille effectivement construit, sans détérioration disproportionnée des autres dimensions ; son coût institutionnel et les obstacles juridiques propres au circuit retenu entrent dans la comparaison. Aucun portefeuille n'est encore construit, l'ampleur de l'essentiel insolvable n'est pas mesurée et A35b reste ouvert.",
+   "concepts": [
+    "essentiel_insolvable",
+    "solvabilite_anticipee",
+    "affectation_des_instruments",
+    "creation_monetaire",
+    "qualification_regenerative"
+   ],
+   "statut": "verifie",
+   "autorite": "canonique",
+   "revision_de_fond": "2026-09-17",
+   "sources": 4
+  }
+ ]
+}
