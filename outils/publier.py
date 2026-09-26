@@ -31,6 +31,14 @@ est le genre d'opération qui laisse un arbre à moitié propre.
 
     python outils/publier.py              # construit et commite la branche
     python outils/publier.py --pousser    # ... et la pousse
+    python outils/publier.py --chainer    # ... rattachée à l'état déjà poussé
+
+`--chainer` EXISTE PARCE QUE LA RECONSTRUCTION EST UNE RACINE PARALLÈLE. Le
+commit n'a pour parent que la tête de `dev` : l'état déjà publié de la branche
+n'en est pas un ancêtre, et la poussée exige alors `--force`. Le 2026-09-26,
+cela a failli écraser le SHA qu'un superviseur relisait. Avec `--chainer`,
+l'arbre publié — le même, octet pour octet — est rattaché à cet état ; la
+poussée redevient une avance rapide et rien ne devient injoignable.
 
 Rien n'est poussé sans `--pousser`, et aucune PR n'est ouverte par ce script :
 `AGENTS.md` réserve les deux à l'accord de l'auteur.
@@ -139,6 +147,10 @@ def main() -> int:
     p.add_argument("--geler", action="append", default=[], metavar="CHEMIN",
                    help="retenir un lot hors publication : la branche prend la "
                         "version de `main` pour ce chemin (voir GELES)")
+    p.add_argument("--chainer", action="store_true",
+                   help="rattacher le lot à l'état DÉJÀ POUSSÉ de la branche, "
+                        "pour que la poussée soit une avance rapide au lieu "
+                        "d'exiger --force")
     a = p.parse_args()
     branche = a.branche
     inconnus = [g for g in a.geler if g not in GELES]
@@ -330,6 +342,63 @@ def main() -> int:
         _, sha = git("rev-parse", "HEAD", cwd=arbre)
         sha = sha.strip()
 
+        # ── Le chaînage, s'il est demandé ───────────────────────────────────
+        #
+        # LE DÉFAUT QUE CELA CORRIGE. `checkout -B branche tete` ci-dessus donne
+        # au commit un seul parent : la tête de `dev`. L'état DÉJÀ PUBLIÉ de la
+        # branche n'en est pas un ancêtre, donc chaque reconstruction est une
+        # racine parallèle et la poussée exige `--force`. Le 2026-09-26, cela a
+        # failli écraser le SHA qu'un superviseur était en train de relire.
+        #
+        # CE QUE LE CHAÎNAGE NE CHANGE PAS : l'ARBRE. `commit-tree` reprend
+        # celui que les gardes ci-dessus viennent de vérifier, octet pour
+        # octet ; seul le parent change. La garde d'après le prouve par un diff
+        # vide, et on ne se contente pas de l'affirmer.
+        if a.chainer:
+            code, ante = git("rev-parse", "--verify",
+                             "origin/" + branche + "^{commit}", muet=True)
+            if code:
+                print("\n--chainer sans effet : `origin/%s` n'existe pas encore.\n"
+                      "  Première publication de cette branche ; rien à chaîner."
+                      % branche)
+            else:
+                ante = ante.strip()
+                _, arbre_sha = git("rev-parse", "HEAD^{tree}", cwd=arbre)
+                suite = message + (
+                    "\nCHAÎNÉ SUR L'ÉTAT DÉJÀ POUSSÉ DE LA BRANCHE, %s.\n"
+                    "Sans cela, ce commit n'aurait pour parent que la tête de `dev` :\n"
+                    "la branche publiée deviendrait une racine parallèle et sa\n"
+                    "poussée exigerait --force, ce qui rendrait l'état précédent\n"
+                    "injoignable par son nom de branche — au moment même où il\n"
+                    "peut être en relecture. L'arbre publié est celui que les\n"
+                    "gardes viennent de vérifier ; seul le parent change.\n"
+                    % ante[:8])
+                _, neuf = git("commit-tree", arbre_sha.strip(), "-p", ante,
+                              "-m", suite, cwd=arbre)
+                neuf = neuf.strip()
+                # GARDES : même arbre, bon parent, contenu identique, et la
+                # poussée sera bien une avance rapide.
+                _, t2 = git("rev-parse", neuf + "^{tree}", cwd=arbre)
+                assert t2.strip() == arbre_sha.strip(), "l'arbre a changé"
+                _, p2 = git("rev-parse", neuf + "^", cwd=arbre)
+                assert p2.strip() == ante, "le parent n'est pas l'état poussé"
+                _, d = git("diff", "--name-only", sha, neuf, cwd=arbre)
+                if d.strip():
+                    raise SystemExit("REFUS : le chaînage a changé le contenu :\n  "
+                                     + "\n  ".join(d.split()[:20]))
+                if git("merge-base", "--is-ancestor", ante, neuf,
+                       cwd=arbre, muet=True)[0]:
+                    raise SystemExit("REFUS : le chaînage ne donne pas une avance "
+                                     "rapide.")
+                git("reset", "--hard", "-q", neuf, cwd=arbre)
+                _, vide = git("diff", "--name-only", ante, neuf, cwd=arbre)
+                print("\nChaîné sur %s — %s. %s"
+                      % (ante[:8], "avance rapide",
+                         "RIEN NE CHANGE depuis l'état poussé." if not vide.strip()
+                         else "%d fichier(s) changent depuis l'état poussé."
+                              % len(vide.split())))
+                sha = neuf
+
         # ── Le compte, par catégorie ────────────────────────────────────────
         cat = {}
         for x in reste:
@@ -348,6 +417,21 @@ def main() -> int:
             print("    %-34s %4d" % (c, cat[c]))
 
         if a.pousser:
+            # ON REFUSE AVANT DE POUSSER, non après. Un `git push` rejeté laisse
+            # un message de git que l'on peut lire de travers ; ici le refus
+            # nomme la cause et le remède, et il ne propose JAMAIS --force :
+            # l'état déjà poussé peut être en relecture.
+            code, ante = git("rev-parse", "--verify",
+                             "origin/" + branche + "^{commit}", muet=True)
+            if code == 0 and git("merge-base", "--is-ancestor", ante.strip(),
+                                 sha, cwd=arbre, muet=True)[0]:
+                raise SystemExit(
+                    "REFUS : `origin/%s` (%s) n'est pas un ancêtre du lot (%s).\n"
+                    "        La poussée serait rejetée. Relancer avec --chainer,\n"
+                    "        qui rattache le MÊME arbre à cet état et rend la\n"
+                    "        poussée ordinaire. Ne pas forcer : quelqu'un peut\n"
+                    "        être en train de relire %s."
+                    % (branche, ante.strip()[:8], sha[:8], ante.strip()[:8]))
             git("push", "-u", "origin", branche + ":" + branche, cwd=arbre)
             print("\nBranche poussée. AUCUNE PR OUVERTE : l'ordre 1 de Codex d'abord.")
         else:
