@@ -3654,3 +3654,42 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 }
 [dir="rtl"] .theorem { border-top: 3px solid var(--teal); }
 [dir="rtl"] .theorem__text { font-style: normal; }
+
+/* Note terminologique du 2026-09-20 — elle ouvre la page, SOUS la navigation.
+   `.nav` est `position: fixed` et `body` n'a aucun `padding-top` : chaque bloc
+   dégage la nav lui-même. Relevé le 2026-09-26 : nav de 90px en bureau, de
+   121px sous 900px où elle passe à deux lignes. Sans cette règle, la note
+   démarrait à y=23 et la nav la recouvrait de 67 pixels.
+   `border-inline-start` tient l'arabe sans règle séparée. */
+.note-terminologique {
+  box-sizing: border-box;
+  width: calc(100% - 80px);
+  max-width: 1360px;
+  margin: 118px auto 0;
+  padding: .85em 1.15em;
+  border-inline-start: 3px solid #999;
+  background: var(--cream-deep);
+  font-size: .95em;
+  line-height: 1.55;
+}
+.note-terminologique p { margin: 0; }
+
+@media (max-width: 900px) {
+  .note-terminologique {
+    width: calc(100% - 36px);
+    margin-top: 150px;
+    padding: .8em 1em;
+    font-size: .9em;
+  }
+}
+
+/* Sous 320px le menu passe à des lignes supplémentaires. Relevé le 2026-09-26
+   sur les 88 pages porteuses, à 280px : la nav monte jusqu'à 211px — menus
+   français, anglais et espagnols les plus longs — contre 121px sur les pages
+   d'accueil. La marge est donc posée sur le PIRE cas mesuré, non sur un cas
+   vu. Trois mesures ponctuelles avaient laissé passer un chevauchement d'un
+   pixel. Ce palier couvre aussi un zoom de 120% sur un écran de 375px, qui
+   rend un viewport de 312px. */
+@media (max-width: 319px) {
+  .note-terminologique { margin-top: 240px; }
+}
