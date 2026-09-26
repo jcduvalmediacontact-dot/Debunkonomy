@@ -3665,7 +3665,7 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   box-sizing: border-box;
   width: calc(100% - 80px);
   max-width: 1360px;
-  margin: 118px auto 0;
+  margin: 130px auto 0;
   padding: .85em 1.15em;
   border-inline-start: 3px solid #999;
   background: var(--cream-deep);
@@ -3690,8 +3690,21 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
    vu. Trois mesures ponctuelles avaient laissé passer un chevauchement d'un
    pixel. Ce palier couvre aussi un zoom de 120% sur un écran de 375px, qui
    rend un viewport de 312px. */
-@media (max-width: 319px) {
-  .note-terminologique { margin-top: 240px; }
+/* Remesuré le 2026-09-26 après l'ajout du lien Corpus : la nav enroule une
+   rangée de plus sous 480px. Relevé sur /livre/, pire cas parce que sa
+   marque porte un texte à côté du logo : 159px à 400px, 148 à 375, 155 à 350.
+   L'ancien palier de 150 laissait la nav recouvrir la note de 9 pixels. */
+@media (max-width: 480px) {
+  .note-terminologique { margin-top: 185px; }
+}
+
+/* À 320px la nav atteint 219px. L'ancien palier commençait à 319 : 320px
+   tombait JUSTE au-dessus et recevait 150px, d'où 69 pixels de
+   recouvrement — une borne posée un pixel trop bas. Il commence ici à 340.
+   Ce palier couvre aussi un zoom de 120% sur un écran de 375px, qui rend
+   un viewport de 312px. */
+@media (max-width: 340px) {
+  .note-terminologique { margin-top: 245px; }
 }
 
 /* P1 du 2026-09-26 : le bloc d'accès au corpus sur l'accueil. L'audit du 26 a
