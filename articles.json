@@ -1,13 +1,5 @@
 {
   "auteur": [
-    {
-      "date": "2026-09-28",
-      "title": "La question du climat : faut-il s'orienter vers l'adaptation, ou sauver le climat est-il encore possible ?",
-      "excerpt": "1,5 °C sans dépassement, c'est probablement fini. Entre 1,9 et 2,8 °C, tout reste à jouer, et l'adaptation ne remplace rien.",
-      "link": "/articles/auteur/climat-adaptation-ou-sauver-le-climat/",
-      "category": "Climat · Adaptation · NEMO IMS",
-      "readTime": "10 min"
-    },
     {"date": "2026-08-31", "title": "Néobanques vertes : l’impasse structurelle de la monnaie-dette", "excerpt": "Une néobanque peut trier ses actifs ; elle ne change pas les règles de création monétaire. Ce que le verdissement bancaire ne peut pas faire.", "link": "/articles/auteur/neobanques-vertes-impasse-monnaie-dette/", "category": "Finance verte · Monnaie · NEMO IMS", "readTime": "12 min"},
     {
       "date": "2026-07-13",
