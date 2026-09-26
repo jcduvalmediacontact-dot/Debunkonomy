@@ -3693,3 +3693,34 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 @media (max-width: 319px) {
   .note-terminologique { margin-top: 240px; }
 }
+
+/* P1 du 2026-09-26 : le bloc d'accès au corpus sur l'accueil. L'audit du 26 a
+   établi qu'aucune page du site ne renvoyait vers `/corpus/` : le corpus était
+   publié et introuvable sans son adresse. Le style vit ici, jamais en ligne. */
+.corpus-home { padding: 80px 40px; background: var(--cream-deep); }
+.corpus-home__inner { max-width: 760px; margin: 0 auto; }
+.corpus-home__title { font-family: var(--ff-serif, inherit); font-size: 2rem; margin: 0 0 .6em; }
+.corpus-home__lede { font-size: 1.1rem; line-height: 1.6; margin: 0 0 1em; }
+.corpus-home__text { line-height: 1.6; margin: 0 0 1.6em; }
+.corpus-home__liens { display: flex; flex-wrap: wrap; gap: 1.4em; align-items: center; margin: 0; }
+.corpus-home__cta { font-weight: 600; text-decoration: none; }
+.corpus-home__lien { text-decoration: underline; }
+
+@media (max-width: 768px) {
+  .corpus-home { padding: 56px 18px; }
+  .corpus-home__title { font-size: 1.6rem; }
+  .corpus-home__lede { font-size: 1rem; }
+}
+
+/* 2026-09-26 : la nav porte desormais sept liens de contenu, Corpus compris.
+   Mesure : elle exige 862 px (it) a 922 px (es) sur une seule ligne, alors que
+   la bascule mobile est a 768 px. Entre les deux, elle debordait -- le logo
+   etait ecrase a 0 px et le selecteur de langue sortait de l'ecran.
+   Elle enroule ici au lieu de deborder, comme la regle mobile le fait deja
+   plus bas. La bande etait deja trop etroite a six liens (773 a 833 px) :
+   ce correctif vaut pour les deux cas. */
+@media (min-width: 769px) and (max-width: 960px) {
+  .nav__links { flex-wrap: wrap; justify-content: flex-end; gap: 12px 20px; }
+  .nav__brand { flex-shrink: 0; }
+  .nav__brand img { height: 44px; }
+}
