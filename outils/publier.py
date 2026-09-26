@@ -97,6 +97,17 @@ LIVRE_EMIS = re.compile(r"^livre-\d+$")
 # Exclus sur décision de l'auteur, le 2026-09-25.
 PAS_LE_SITE = {".gitignore", "PLAN-DIRECTEUR-2026-09-04.pdf", "plan-des-livres.xlsx"}
 
+# L'INVERSE DE `PAS_LE_SITE` : des fichiers de racine qui N'EXISTENT PAS sur
+# `main` et dont l'ajout est voulu. La garde des « neufs » refuse par défaut
+# toute première publication hors corpus, et c'est son travail — elle a attrapé
+# le plan directeur. Mais un refus par défaut a besoin d'une porte nommée,
+# sinon la seule issue est de le desserrer, et une garde desserrée ne revient
+# jamais. Chaque entrée porte donc son motif et sa date, comme `GELES`.
+NEUFS_AUTORISES = {
+    "robots.txt": ("P1 du 2026-09-26 — absent du site, 404 constaté en ligne ; "
+                   "déclare le sitemap. Autorisé par l'auteur le 2026-09-26."),
+}
+
 
 def git(*a, cwd=None, muet=False):
     r = subprocess.run(["git"] + list(a), cwd=str(cwd or RACINE),
@@ -261,12 +272,16 @@ def main() -> int:
         # fois, à une URL stable du domaine, sans que rien ne le dise.
         sur_main_tous = {x for x in git("ls-tree", "-r", "--name-only",
                                         "origin/main")[1].split("\n") if x}
-        neufs = [x for x in reste if x not in sur_main_tous and not x.startswith("corpus/")]
+        neufs = [x for x in reste if x not in sur_main_tous
+                 and not x.startswith("corpus/") and x not in NEUFS_AUTORISES]
         if neufs:
             raise SystemExit(
                 "REFUS : %d fichier(s) seraient AJOUTÉS à `main` hors du corpus.\n"
                 "        Ce n'est pas un alignement, c'est une publication neuve :\n"
                 "  %s" % (len(neufs), "\n  ".join(neufs)))
+        # Ce qui passe par la porte nommée se DIT, sinon la porte est un trou.
+        for x in sorted((set(reste) & set(NEUFS_AUTORISES)) - sur_main_tous):
+            print("Publié pour la première fois : %s — %s" % (x, NEUFS_AUTORISES[x]))
 
         # LA GARDE DU GEL porte sur TOUS les chemins du lot, non sur sa clé :
         # celle d'`arabe` est un dossier, celle de `climat` est une liste de
