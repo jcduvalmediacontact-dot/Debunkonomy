@@ -1,12 +1,5 @@
 {
   "news": [
-    {
-      "type": "texte",
-      "date": "2026-09-28",
-      "title": "La question du climat : faut-il s'orienter vers l'adaptation, ou sauver le climat est-il encore possible ?",
-      "excerpt": "Adaptation ou réduction des émissions ? Les deux, et c'est cette décennie qui décide entre 1,9 et 2,8 °C.",
-      "link": "/articles/auteur/climat-adaptation-ou-sauver-le-climat/"
-    },
     {"type": "texte", "date": "2026-08-31", "title": "Néobanques vertes : l’impasse structurelle de la monnaie-dette", "excerpt": "Le verdissement bancaire déplace des flux. Il ne change pas l’architecture monétaire.", "link": "/articles/auteur/neobanques-vertes-impasse-monnaie-dette/"},{"date": "2026-07-25", "type": "texte", "title": "L’alignement des incitations économiques sur l’intégrité environnementale", "excerpt": "Réaligner les incitations économiques sur l’intégrité environnementale, condition nécessaire d’une réindustrialisation soutenable.", "link": "/articles/invites/renaud-vignes/incitations-integrite-environnementale/"}, 
     {
       "date": "2026-07-13",
