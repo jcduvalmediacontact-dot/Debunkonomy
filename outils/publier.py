@@ -59,6 +59,25 @@ from construire_site import SITEMAP, fusionner_sitemaps   # une seule vérité
 RACINE = Path(__file__).resolve().parents[1]
 BRANCHE = "publication"
 SOURCE = "dev-gpt-debunkonomy"
+# Un lot peut être PRÊT sur `dev` et RETENU hors publication. La branche prend
+# alors la version de `main` : ce n'est pas un retrait, c'est un NON-CHANGEMENT,
+# et la garde le vérifie en exigeant que le diff contre `main` soit vide pour ce
+# chemin. Ajouter un lot ici est une ligne ; l'y laisser est une décision.
+GELES = {
+    "arabe": ("N4 du 2026-09-26 — texte composé par un modèle, en attente d'un "
+              "lecteur arabe qui le confirme",
+              ["ar"]),
+    "climat": ("l'article est daté du 28 septembre : il ne part pas avec une "
+               "publication antérieure à sa date",
+               # Cinq index existent sur `main` et s'y reprennent ; les deux
+               # derniers n'y sont pas et se retirent. Vérifié le 2026-09-26 :
+               # ces cinq fichiers ne diffèrent de `main` que par le commit de
+               # l'article, donc les reprendre n'emporte rien d'autre.
+               ["articles.json", "articles/index.html", "feed.xml", "news.json",
+                "sitemap.xml",
+                "articles/auteur/climat-adaptation-ou-sauver-le-climat",
+                "assets/articles/climat-adaptation-ou-sauver-le-climat.png"]),
+}
 
 # Ce qui n'est pas le site : aucun de ces premiers niveaux ne passe.
 DEHORS = {"protocoles", "outils", "outils_claude", "modeles", "tmp", "Codex",
@@ -103,7 +122,19 @@ def main() -> int:
     p = argparse.ArgumentParser(description="Construit la branche `publication`.")
     p.add_argument("--pousser", action="store_true",
                    help="pousse la branche (accord de l'auteur requis)")
+    p.add_argument("--branche", default=BRANCHE,
+                   help="la branche à écrire ; une publication en attente de "
+                        "fusion se construit ailleurs, jamais sur la sienne")
+    p.add_argument("--geler", action="append", default=[], metavar="CHEMIN",
+                   help="retenir un lot hors publication : la branche prend la "
+                        "version de `main` pour ce chemin (voir GELES)")
     a = p.parse_args()
+    branche = a.branche
+    inconnus = [g for g in a.geler if g not in GELES]
+    if inconnus:
+        raise SystemExit("REFUS : gel non motivé — %s.\n"
+                         "        Un lot ne se retient pas sans sa raison : "
+                         "l'inscrire dans GELES d'abord." % ", ".join(inconnus))
 
     # ── Préalables : on ne publie pas depuis un arbre douteux ────────────────
     _, sale = git("status", "--porcelain")
@@ -131,21 +162,49 @@ def main() -> int:
     arbre = atelier / "arbre"
     try:
         git("worktree", "add", "--detach", str(arbre), tete)
-        code, _ = git("rev-parse", "--verify", BRANCHE, muet=True)
-        git("checkout", "-B", BRANCHE, tete, cwd=arbre)
+        code, _ = git("rev-parse", "--verify", branche, muet=True)
+        git("checkout", "-B", branche, tete, cwd=arbre)
         print("Branche `%s` %s sur %s."
-              % (BRANCHE, "remise" if code == 0 else "créée", tete[:8]))
+              % (branche, "remise" if code == 0 else "créée", tete[:8]))
 
         if retires:
             for i in range(0, len(retires), 200):     # la ligne de commande a une limite
                 git("rm", "-r", "-q", "--", *retires[i:i + 200], cwd=arbre)
 
-        # ── Le sitemap fusionné : 225 URL du site + 20 du corpus ─────────────
+        # ── Le sitemap fusionné ──────────────────────────────────────────────
         avant = len(ET.parse(arbre / "sitemap.xml").getroot())
         fusionner_sitemaps(arbre, arbre / "corpus")
+        git("add", "sitemap.xml", cwd=arbre)
+
+        # ── Les lots retenus, EN DERNIER ─────────────────────────────────────
+        #
+        # Après la fusion, jamais avant : `fusionner_sitemaps` réécrit le
+        # fichier par ElementTree, donc le reformate même quand il n'ajoute
+        # aucune URL. Un gel posé avant serait défait par ce simple passage, et
+        # la garde le verrait — sur un octet d'indentation, pas sur une URL.
+        #
+        # Deux gestes, et non un. Un chemin PRÉSENT sur `main` s'y reprend ; un
+        # chemin ABSENT de `main` se retire. L'article climat a les deux : cinq
+        # index qui existent là-bas, deux fichiers neufs qui n'y sont pas.
+        for cle in a.geler:
+            motif, chemins = GELES[cle]
+            repris, retires_gel = [], []
+            for chemin in chemins:
+                ecarts = [x for x in git("diff", "--name-only", "origin/main",
+                                         "--", chemin, cwd=arbre)[1].split("\n") if x]
+                for f in ecarts:
+                    if git("cat-file", "-e", "origin/main:" + f, cwd=arbre,
+                           muet=True)[0] == 0:
+                        git("checkout", "origin/main", "--", f, cwd=arbre)
+                        repris.append(f)
+                    else:
+                        git("rm", "-q", "-f", "--", f, cwd=arbre)
+                        retires_gel.append(f)
+            print("Gelé : %s — %d repris de `main`, %d retiré(s). %s"
+                  % (cle, len(repris), len(retires_gel), motif))
+
         racine_sm = ET.parse(arbre / "sitemap.xml").getroot()
         urls = [e.findtext("{%s}loc" % SITEMAP) for e in racine_sm]
-        git("add", "sitemap.xml", cwd=arbre)
 
         # ── GARDES : avant le commit, jamais après ───────────────────────────
         reste = [x for x in git("ls-files", cwd=arbre)[1].split("\n") if x]
@@ -182,6 +241,21 @@ def main() -> int:
                 "        Ce n'est pas un alignement, c'est une publication neuve :\n"
                 "  %s" % (len(neufs), "\n  ".join(neufs)))
 
+        # LA GARDE DU GEL porte sur TOUS les chemins du lot, non sur sa clé :
+        # celle d'`arabe` est un dossier, celle de `climat` est une liste de
+        # sept fichiers dispersés. Un gel se prouve par un diff VIDE contre
+        # `main` — un non-changement se prouve, un « retrait » se raconte.
+        for cle in a.geler:
+            bouge = [x for c in GELES[cle][1]
+                     for x in git("diff", "--name-only", "origin/main",
+                                  "--", c, cwd=arbre)[1].split("\n") if x]
+            if bouge:
+                raise SystemExit(
+                    "REFUS : %s est gelé, et %d fichier(s) y diffèrent encore\n"
+                    "        de `main` : le gel n'a pas pris.\n  %s"
+                    % (cle, len(bouge), "\n  ".join(bouge[:10])))
+            print("Gel vérifié : %s ne diffère en rien de `main`." % cle)
+
         for indispensable in ("index.html", "CNAME", ".nojekyll", "sitemap.xml"):
             if indispensable not in reste:
                 raise SystemExit("REFUS : `%s` manque à la racine." % indispensable)
@@ -200,6 +274,9 @@ def main() -> int:
             "plus celles du corpus font %d URL uniques, dans l'espace officiel.\n\n"
             "Ce commit ne contient aucune source du corpus, aucun protocole,\n"
             "aucun outil, aucun .py. La garde le vérifie avant d'écrire.\n"
+            + ("".join("\nLot retenu hors publication : %s — %s\n"
+                       % (c, GELES[c][0]) for c in a.geler))
+
             % (tete[:8], len(retires), len(reste),
                sum(1 for x in reste if x.startswith("corpus/livre-1/")),
                sum(1 for x in reste if x.startswith("corpus/") and x.count("/") == 1),
@@ -220,13 +297,13 @@ def main() -> int:
             else:
                 c = "(racine)"
             cat[c] = cat.get(c, 0) + 1
-        print("\nBranche `%s` : %s" % (BRANCHE, sha))
+        print("\nBranche `%s` : %s" % (branche, sha))
         print("  %d fichier(s) — sitemap %d → %d URL uniques" % (len(reste), avant, len(urls)))
         for c in sorted(cat, key=lambda k: -cat[k]):
             print("    %-34s %4d" % (c, cat[c]))
 
         if a.pousser:
-            git("push", "-u", "origin", BRANCHE + ":" + BRANCHE, cwd=arbre)
+            git("push", "-u", "origin", branche + ":" + branche, cwd=arbre)
             print("\nBranche poussée. AUCUNE PR OUVERTE : l'ordre 1 de Codex d'abord.")
         else:
             print("\nNON POUSSÉE. `--pousser` la pousse ; AGENTS.md réserve ce geste\n"
