@@ -3654,3 +3654,91 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
 }
 [dir="rtl"] .theorem { border-top: 3px solid var(--teal); }
 [dir="rtl"] .theorem__text { font-style: normal; }
+
+/* Note terminologique du 2026-09-20 — elle ouvre la page, SOUS la navigation.
+   `.nav` est `position: fixed` et `body` n'a aucun `padding-top` : chaque bloc
+   dégage la nav lui-même. Relevé le 2026-09-26 : nav de 90px en bureau, de
+   121px sous 900px où elle passe à deux lignes. Sans cette règle, la note
+   démarrait à y=23 et la nav la recouvrait de 67 pixels.
+   `border-inline-start` tient l'arabe sans règle séparée. */
+.note-terminologique {
+  box-sizing: border-box;
+  width: calc(100% - 80px);
+  max-width: 1360px;
+  margin: 130px auto 0;
+  padding: .85em 1.15em;
+  border-inline-start: 3px solid #999;
+  background: var(--cream-deep);
+  font-size: .95em;
+  line-height: 1.55;
+}
+.note-terminologique p { margin: 0; }
+
+@media (max-width: 900px) {
+  .note-terminologique {
+    width: calc(100% - 36px);
+    margin-top: 150px;
+    padding: .8em 1em;
+    font-size: .9em;
+  }
+}
+
+/* Sous 320px le menu passe à des lignes supplémentaires. Relevé le 2026-09-26
+   sur les 88 pages porteuses, à 280px : la nav monte jusqu'à 211px — menus
+   français, anglais et espagnols les plus longs — contre 121px sur les pages
+   d'accueil. La marge est donc posée sur le PIRE cas mesuré, non sur un cas
+   vu. Trois mesures ponctuelles avaient laissé passer un chevauchement d'un
+   pixel. Ce palier couvre aussi un zoom de 120% sur un écran de 375px, qui
+   rend un viewport de 312px. */
+/* Remesuré le 2026-09-26 après l'ajout du lien Corpus : la nav enroule une
+   rangée de plus sous 480px. Relevé sur /livre/, pire cas parce que sa
+   marque porte un texte à côté du logo : 159px à 400px, 148 à 375, 155 à 350.
+   L'ancien palier de 150 laissait la nav recouvrir la note de 9 pixels. */
+@media (max-width: 480px) {
+  .note-terminologique { margin-top: 185px; }
+}
+
+/* TROISIÈME CALAGE, et celui-ci vient de l'essai à 120%. Un zoom de 120% sur
+   un écran de 414px rend un viewport CSS de 345px, et sur 360px il rend 300 :
+   ces largeurs-là n'apparaissent dans aucune série d'essais à 100%, où l'on
+   teste 375, 390, 414. Elles recouvraient la note de 4px chacune.
+   Relevé direct sur /livre/, polices chargées : 249px de nav à 300, 219 de 312
+   à 340, 189 à 345, 155 à 350.
+   LA BORNE EST POSÉE À DISTANCE DES LARGEURS D'APPAREILS. Deux fois elle
+   avait été placée un pixel sous une largeur réelle — 319 quand 320 cassait,
+   340 quand 345 cassait. À 355, 345 et 350 sont dedans, et 357 (428 à 120%)
+   garde 30px de reste dans le palier au-dessus. */
+@media (max-width: 355px) {
+  .note-terminologique { margin-top: 270px; }
+}
+
+/* P1 du 2026-09-26 : le bloc d'accès au corpus sur l'accueil. L'audit du 26 a
+   établi qu'aucune page du site ne renvoyait vers `/corpus/` : le corpus était
+   publié et introuvable sans son adresse. Le style vit ici, jamais en ligne. */
+.corpus-home { padding: 80px 40px; background: var(--cream-deep); }
+.corpus-home__inner { max-width: 760px; margin: 0 auto; }
+.corpus-home__title { font-family: var(--ff-serif, inherit); font-size: 2rem; margin: 0 0 .6em; }
+.corpus-home__lede { font-size: 1.1rem; line-height: 1.6; margin: 0 0 1em; }
+.corpus-home__text { line-height: 1.6; margin: 0 0 1.6em; }
+.corpus-home__liens { display: flex; flex-wrap: wrap; gap: 1.4em; align-items: center; margin: 0; }
+.corpus-home__cta { font-weight: 600; text-decoration: none; }
+.corpus-home__lien { text-decoration: underline; }
+
+@media (max-width: 768px) {
+  .corpus-home { padding: 56px 18px; }
+  .corpus-home__title { font-size: 1.6rem; }
+  .corpus-home__lede { font-size: 1rem; }
+}
+
+/* 2026-09-26 : la nav porte desormais sept liens de contenu, Corpus compris.
+   Mesure : elle exige 862 px (it) a 922 px (es) sur une seule ligne, alors que
+   la bascule mobile est a 768 px. Entre les deux, elle debordait -- le logo
+   etait ecrase a 0 px et le selecteur de langue sortait de l'ecran.
+   Elle enroule ici au lieu de deborder, comme la regle mobile le fait deja
+   plus bas. La bande etait deja trop etroite a six liens (773 a 833 px) :
+   ce correctif vaut pour les deux cas. */
+@media (min-width: 769px) and (max-width: 960px) {
+  .nav__links { flex-wrap: wrap; justify-content: flex-end; gap: 12px 20px; }
+  .nav__brand { flex-shrink: 0; }
+  .nav__brand img { height: 44px; }
+}
