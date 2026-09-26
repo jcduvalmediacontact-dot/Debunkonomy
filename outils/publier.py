@@ -137,15 +137,34 @@ def main() -> int:
                          "l'inscrire dans GELES d'abord." % ", ".join(inconnus))
 
     # ── Préalables : on ne publie pas depuis un arbre douteux ────────────────
+    #
+    # La précondition porte sur CE QUI PEUT ATTEINDRE LA BRANCHE, non sur
+    # l'arbre entier. Un fichier modifié que `garde()` écarte — un protocole,
+    # un outil, une source du corpus — est retiré de la branche par
+    # construction : sa modification ne peut pas changer ce qui est publié, et
+    # le refus qu'elle provoquait immobilisait la publication pour le travail
+    # en cours d'un autre agent. Ce qui reste refusé est exactement ce qui
+    # partirait sans avoir été commité, donc sans avoir été vu.
     _, sale = git("status", "--porcelain")
-    sale = [l for l in sale.split("\n") if l and not l.startswith("??")]
-    if sale:
-        raise SystemExit("Arbre de travail modifié — publier suppose un arbre propre :\n  "
-                         + "\n  ".join(sale))
-    _, branche = git("rev-parse", "--abbrev-ref", "HEAD")
-    if branche.strip() != SOURCE:
+    modifies = [l[3:].strip().strip('"') for l in sale.split("\n")
+                if l and not l.startswith("??")]
+    sale_publiable = [f for f in modifies if garde(f)]
+    if sale_publiable:
+        raise SystemExit(
+            "REFUS : %d fichier(s) modifié(s) et NON COMMITÉ(S) partiraient dans\n"
+            "        la branche. On ne publie pas ce qui n'a pas été vu :\n  %s"
+            % (len(sale_publiable), "\n  ".join(sale_publiable)))
+    hors = [f for f in modifies if not garde(f)]
+    if hors:
+        print("Ignoré : %d fichier(s) modifié(s) hors du site, que la branche "
+              "retire de toute façon." % len(hors))
+    # `courante`, non `branche` : celle-ci porte l'argument `--branche`, et la
+    # réassigner ici l'écrasait — le script partait alors écrire sur la branche
+    # source. Il a échoué bruyamment, ce qui valait mieux que l'inverse.
+    _, courante = git("rev-parse", "--abbrev-ref", "HEAD")
+    if courante.strip() != SOURCE:
         raise SystemExit("La branche courante est « %s » et non « %s »."
-                         % (branche.strip(), SOURCE))
+                         % (courante.strip(), SOURCE))
     _, tete = git("rev-parse", "HEAD")
     tete = tete.strip()
     if not (RACINE / "corpus" / "livre-1").is_dir():
@@ -186,6 +205,7 @@ def main() -> int:
         # Deux gestes, et non un. Un chemin PRÉSENT sur `main` s'y reprend ; un
         # chemin ABSENT de `main` se retire. L'article climat a les deux : cinq
         # index qui existent là-bas, deux fichiers neufs qui n'y sont pas.
+        gelés_retirés = []
         for cle in a.geler:
             motif, chemins = GELES[cle]
             repris, retires_gel = [], []
@@ -200,6 +220,7 @@ def main() -> int:
                     else:
                         git("rm", "-q", "-f", "--", f, cwd=arbre)
                         retires_gel.append(f)
+            gelés_retirés.extend(retires_gel)
             print("Gelé : %s — %d repris de `main`, %d retiré(s). %s"
                   % (cle, len(repris), len(retires_gel), motif))
 
@@ -208,9 +229,15 @@ def main() -> int:
 
         # ── GARDES : avant le commit, jamais après ───────────────────────────
         reste = [x for x in git("ls-files", cwd=arbre)[1].split("\n") if x]
-        assert sorted(reste) == sorted(gardes), (
-            "l'arbre de la branche ne correspond pas à la liste gardée : "
-            "%d contre %d" % (len(reste), len(gardes)))
+        # L'arbre attendu : ce que `garde()` garde, MOINS ce qu'un gel a retiré.
+        # La garde comparait à `gardes` seul et a refusé la première
+        # construction — à juste titre : un gel peut retirer un chemin absent de
+        # `main`, et elle ne le savait pas. On le lui apprend, sans la desserrer.
+        attendu = sorted(set(gardes) - set(gelés_retirés))
+        assert sorted(reste) == attendu, (
+            "l'arbre de la branche ne correspond pas à l'attendu : %d contre %d "
+            "(%d gardé(s), %d retiré(s) par gel)"
+            % (len(reste), len(attendu), len(gardes), len(gelés_retirés)))
 
         sur_main = {x for x in git("ls-tree", "-r", "--name-only", "origin/main")[1]
                     .split("\n") if x.endswith(".md")}
@@ -265,22 +292,25 @@ def main() -> int:
             raise SystemExit("REFUS : sitemap hors de l'espace officiel.")
 
         # ── Le commit ───────────────────────────────────────────────────────
+        # Le corps est formaté D'ABORD, les lots gelés ajoutés ENSUITE. Écrits
+        # en une seule expression, le `+` s'appliquait avant le `%` et le
+        # formatage recevait un texte qu'il ne reconnaissait plus.
         message = (
             "Le site seul, pour publication — dix-sept pages du Livre 1\n\n"
             "Construit par outils/publier.py depuis %s. Ce qui n'est pas le site\n"
             "est retiré : %d fichier(s). Ce qui reste : %d, dont %d pages émises\n"
             "sous corpus/livre-1/ et %d fichiers émis à la racine de corpus/.\n\n"
-            "Le sitemap est fusionné ici, et nulle part ailleurs : %d URL du site\n"
-            "plus celles du corpus font %d URL uniques, dans l'espace officiel.\n\n"
+            "Le sitemap est fusionné ici, et nulle part ailleurs : %d URL avant\n"
+            "fusion, %d URL uniques après, dans l'espace officiel.\n\n"
             "Ce commit ne contient aucune source du corpus, aucun protocole,\n"
             "aucun outil, aucun .py. La garde le vérifie avant d'écrire.\n"
-            + ("".join("\nLot retenu hors publication : %s — %s\n"
-                       % (c, GELES[c][0]) for c in a.geler))
-
             % (tete[:8], len(retires), len(reste),
                sum(1 for x in reste if x.startswith("corpus/livre-1/")),
                sum(1 for x in reste if x.startswith("corpus/") and x.count("/") == 1),
                avant, len(urls)))
+        for c in a.geler:
+            message += ("\nLot retenu hors publication : %s — %s\n"
+                        % (c, GELES[c][0]))
         git("commit", "-q", "-m", message, cwd=arbre)
         _, sha = git("rev-parse", "HEAD", cwd=arbre)
         sha = sha.strip()
