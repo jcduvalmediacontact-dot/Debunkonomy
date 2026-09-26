@@ -3698,13 +3698,18 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   .note-terminologique { margin-top: 185px; }
 }
 
-/* À 320px la nav atteint 219px. L'ancien palier commençait à 319 : 320px
-   tombait JUSTE au-dessus et recevait 150px, d'où 69 pixels de
-   recouvrement — une borne posée un pixel trop bas. Il commence ici à 340.
-   Ce palier couvre aussi un zoom de 120% sur un écran de 375px, qui rend
-   un viewport de 312px. */
-@media (max-width: 340px) {
-  .note-terminologique { margin-top: 245px; }
+/* TROISIÈME CALAGE, et celui-ci vient de l'essai à 120%. Un zoom de 120% sur
+   un écran de 414px rend un viewport CSS de 345px, et sur 360px il rend 300 :
+   ces largeurs-là n'apparaissent dans aucune série d'essais à 100%, où l'on
+   teste 375, 390, 414. Elles recouvraient la note de 4px chacune.
+   Relevé direct sur /livre/, polices chargées : 249px de nav à 300, 219 de 312
+   à 340, 189 à 345, 155 à 350.
+   LA BORNE EST POSÉE À DISTANCE DES LARGEURS D'APPAREILS. Deux fois elle
+   avait été placée un pixel sous une largeur réelle — 319 quand 320 cassait,
+   340 quand 345 cassait. À 355, 345 et 350 sont dedans, et 357 (428 à 120%)
+   garde 30px de reste dans le palier au-dessus. */
+@media (max-width: 355px) {
+  .note-terminologique { margin-top: 270px; }
 }
 
 /* P1 du 2026-09-26 : le bloc d'accès au corpus sur l'accueil. L'audit du 26 a
