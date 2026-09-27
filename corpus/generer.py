@@ -284,6 +284,9 @@ h1{font-size:1.9rem;line-height:1.2;margin:0 0 .4rem}
 h2{font-size:1.3rem;margin:2.6rem 0 .8rem;padding-top:.6rem;border-top:1px solid var(--trait)}
 h3{font-size:1.1rem;margin:1.8rem 0 .5rem}
 a{color:var(--lien)}
+.fil{color:var(--doux);font-size:.85rem;margin:0 0 1.6rem}
+.fil a{color:var(--doux)}
+.fil a:hover{color:var(--lien)}
 .chapeau{color:var(--doux);font-size:.92rem;margin:0 0 2rem}
 .chapeau code{font-size:.85rem}
 .regime{position:relative}
@@ -320,8 +323,37 @@ pre{white-space:pre-wrap;word-wrap:break-word;font-size:.78rem;line-height:1.45;
 """.strip()
 
 
+def fil_ariane(base: str, *etapes: tuple[str, str]) -> str:
+    """Le chemin de retour, en haut de chaque page émise.
+
+    LE DÉFAUT QUE CELA CORRIGE. Depuis le 2026-09-27 le site mène au corpus —
+    un lien dans 357 navigations et 351 pieds de page. Le corpus, lui, ne menait
+    nulle part : relevé sur ses 21 pages émises, ZÉRO `href="/"`. C'était une
+    porte à sens unique, et le pied de page n'y suffisait pas — un lecteur au
+    milieu d'un chapitre de quarante mille signes ne l'atteint qu'en le
+    traversant tout entier.
+
+    LE LIEN VERS LE SITE N'APPARAÎT QUE SOUS UN PRÉFIXE. Généré avec
+    `--base ""`, le corpus EST la racine : il n'y a pas de site où revenir, et
+    le lien renverrait sur la page qu'on lit. La condition est `base`, non une
+    supposition sur l'endroit où la sortie sera servie.
+
+    Le dernier élément du fil est la page courante : il n'y figure pas, un fil
+    d'Ariane donnant les ancêtres et non soi-même.
+    """
+    liens = []
+    if base:
+        liens.append('<a href="/">Debunk\'Onomy</a>')
+    liens += [f'<a href="{html.escape(h, quote=True)}">{html.escape(t)}</a>'
+              for t, h in etapes]
+    if not liens:
+        return ""
+    return ('<nav class="fil" aria-label="Fil d\'Ariane">'
+            + " › ".join(liens) + "</nav>")
+
+
 def page(titre: str, contenu: str, base: str, description: str = "",
-         jsonld: dict | None = None, canonique: str = "") -> str:
+         jsonld: dict | None = None, canonique: str = "", fil: str = "") -> str:
     tete = [
         "<!doctype html>",
         '<html lang="fr">',
@@ -340,16 +372,20 @@ def page(titre: str, contenu: str, base: str, description: str = "",
         charge = json.dumps(jsonld, ensure_ascii=False, indent=1).replace("</", "<\\/")
         tete.append(f'<script type="application/ld+json">{charge}</script>')
     tete.append("</head><body><div class=enveloppe>")
+    # Le retour au site figure AUX DEUX BOUTS de la page : dans le fil en tête,
+    # pour qui vient d'arriver, et ici pour qui vient de finir sa lecture.
+    retour = '<a href="/">Debunk\'Onomy</a> — ' if base else ""
     pied = (
         '<footer class="pied"><p>'
-        f'<a href="{base}/">Corpus Debunk\'Onomy</a> — '
+        + retour
+        + f'<a href="{base}/">Corpus Debunk\'Onomy</a> — '
         f'<a href="{base}/glossaire.html">glossaire</a> — '
         f'<a href="{base}/diagnostic.html">diagnostic</a><br>'
         f'Publié sous <a href="{LICENCE_URL}" rel="license">CC BY-SA 4.0</a>. '
         "Page produite par <code>corpus/generer.py</code> : ne pas la modifier à la main."
         "</p></footer>"
     )
-    return "\n".join(tete) + "\n" + contenu + pied + "</div></body></html>\n"
+    return "\n".join(tete) + "\n" + fil + contenu + pied + "</div></body></html>\n"
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -441,7 +477,9 @@ def emettre_chapitre(ch: Chapitre, livre: dict, base: str, etat: dict, sortie: P
            page(f"{ch.titre} — Corpus Debunk'Onomy", contenu, base,
                 description=str(ch.h.get("resume", "")),
                 jsonld=jsonld_chapitre(ch, livre, base, empreintes),
-                canonique=f"{SITE}{base}/{ch.url}"))
+                canonique=f"{SITE}{base}/{ch.url}",
+                fil=fil_ariane(base, ("Corpus", f"{base}/"),
+                               (f"Livre {ch.livre}", f"{base}/livre-{ch.livre}/"))))
     # le .md servi à côté de la page, à l'identique du dépôt
     ecrire(dossier / "index.md", ch.chemin.read_text(encoding="utf-8"))
 
@@ -465,7 +503,8 @@ def emettre_livre(num: int, livre: dict, chapitres: list[Chapitre], base: str,
                   f"<p>{_inline(str(livre['fonction']).strip())}</p>" or "")
                + '<ul class="liste-chap">' + "".join(items) + "</ul>")
     ecrire(dossier / "index.html", page(f"{titre} — Corpus Debunk'Onomy", contenu, base,
-                                        description=str(livre.get("fonction", ""))[:300] if livre else ""))
+                                        description=str(livre.get("fonction", ""))[:300] if livre else "",
+                                        fil=fil_ariane(base, ("Corpus", f"{base}/"))))
     # index de recherche propre au livre — un index unique deviendrait trop lourd (§ 13)
     recherche = [{
         "id": ch.id,
@@ -506,7 +545,8 @@ def emettre_index(par_livre: dict, livres: dict, base: str, sortie: Path,
     ecrire(sortie / "index.html",
            page("Corpus Debunk'Onomy", contenu, base,
                 description="Le corpus documentaire de Debunk'Onomy : ce qui a été vérifié, "
-                            "source par source, et ce qui ne l'est pas encore."))
+                            "source par source, et ce qui ne l'est pas encore.",
+                fil=fil_ariane(base)))
     # index global léger : identifiants, titres, résumés, concepts (§ 13)
     leger = [{
         "id": ch.id,
@@ -550,7 +590,8 @@ def emettre_glossaire(vocabulaire: list[dict], publies: set[str], base: str,
                "ne varie pas d'un chapitre à l'autre.</p>"
                "<dl>" + "".join(lignes) + "</dl>")
     ecrire(sortie / "glossaire.html", page("Glossaire — Corpus Debunk'Onomy", contenu, base,
-                                           description="Le vocabulaire du corpus Debunk'Onomy."))
+                                           description="Le vocabulaire du corpus Debunk'Onomy.",
+                                           fil=fil_ariane(base, ("Corpus", f"{base}/"))))
     ecrire(sortie / "glossaire.json", json.dumps(vocabulaire, ensure_ascii=False, indent=1))
     return len(vocabulaire)
 
@@ -638,7 +679,8 @@ def emettre_diagnostic(refuses: list[tuple[Chapitre, list[str]]], base: str,
         "plus, et le corpus se l'interdit comme argument.</p>")
     ecrire(sortie / "diagnostic.html",
            page("Diagnostic — Corpus Debunk'Onomy", contenu, base,
-                description="Ce que le corpus ne publie pas, et pour quelle raison."))
+                description="Ce que le corpus ne publie pas, et pour quelle raison.",
+                fil=fil_ariane(base, ("Corpus", f"{base}/"))))
 
 
 # ─────────────────────────────────────────────────────────────────────────────
