@@ -87,6 +87,66 @@ def refus_d_identifiant() -> list[str]:
     return echecs
 
 
+# Le lien de retour, ÉCRIT EN ENTIER. Chercher `href="/"` ne suffit pas : avec
+# `--base ""` cette adresse est l'index du corpus lui-même, et le compte donne
+# alors 21 pages sur 21 dans les DEUX cas. Deux liens différents sous la même
+# adresse. C'est le libellé qui les sépare.
+RETOUR = "<a href=\"/\">Debunk'Onomy</a>"
+
+
+def retour_au_site(sortie: Path, pages: list[Path]) -> list[str]:
+    """Chaque page émise ramène-t-elle au site, en tête ET au pied ?
+
+    Le corpus a été une porte à sens unique jusqu'au 2026-09-27 : le site y
+    menait, lui ne menait nulle part. Le pied seul ne suffit pas — un lecteur au
+    milieu d'un chapitre de quarante mille signes ne l'atteint qu'en traversant
+    tout le texte —, d'où les deux emplacements, et d'où ce contrôle qui exige
+    les deux.
+
+    Il vérifie aussi que les liens INTERNES survivent : un retour ajouté qui
+    casserait la navigation du corpus ne serait pas un progrès.
+    """
+    echecs = []
+    for p in pages:
+        t = p.read_text(encoding="utf-8")
+        fil = re.search(r"(?s)<nav class=\"fil\".*?</nav>", t)
+        pied = re.search(r"(?s)<footer class=\"pied\">.*?</footer>", t)
+        if not fil or RETOUR not in fil.group(0):
+            echecs.append(f"{p.parent.name}/{p.name} : pas de retour au site en tête")
+        if not pied or RETOUR not in pied.group(0):
+            echecs.append(f"{p.parent.name}/{p.name} : pas de retour au site au pied")
+        for cible, quoi in (("/corpus/", "index du corpus"),
+                            ("/corpus/glossaire.html", "glossaire"),
+                            ("/corpus/diagnostic.html", "diagnostic")):
+            if pied and f'href="{cible}"' not in pied.group(0):
+                echecs.append(f"{p.parent.name}/{p.name} : lien interne perdu — {quoi}")
+    return echecs
+
+
+def retour_absent_a_la_racine() -> list[str]:
+    """Et le corpus se tait-il quand il EST la racine ?
+
+    Généré avec `--base ""`, il n'y a pas de site où revenir : le lien
+    renverrait sur la page qu'on lit. La condition porte sur `base`, non sur une
+    supposition quant à l'endroit où la sortie sera servie — et ce contrôle
+    l'éprouve plutôt que de la croire.
+    """
+    with tempfile.TemporaryDirectory(prefix="corpus-racine-") as tmp:
+        r = subprocess.run([sys.executable, str(GENERER), "--base", "",
+                            "--sortie", tmp],
+                           capture_output=True, text=True, encoding="utf-8",
+                           errors="replace")
+        if r.returncode != 0:
+            return [f"génération à la racine en échec : {(r.stderr or '')[:120]}"]
+        fautives = [p.parent.name + "/" + p.name
+                    for p in sorted(Path(tmp).rglob("*.html"))
+                    if RETOUR in p.read_text(encoding="utf-8")]
+        if fautives:
+            return [f"--base \"\" : {len(fautives)} page(s) portent un retour "
+                    f"vers un site qui n'existe pas — {fautives[:3]}"]
+    return []
+
+
 def main() -> int:
     echecs: list[str] = []
     attendus = publiables()
@@ -161,6 +221,9 @@ def main() -> int:
         if pages_chapitres != len(attendus):
             echecs.append(f"{pages_chapitres} page(s) de chapitre pour {len(attendus)} publiable(s)")
 
+        echecs += retour_au_site(sortie, pages)                       # 9 et 10
+
+    echecs += retour_absent_a_la_racine()                             # 11
     echecs += refus_d_identifiant()                                   # 8
 
     if echecs:
@@ -170,7 +233,8 @@ def main() -> int:
         return 1
     print(f"Sortie du générateur conforme : {len(attendus)} chapitre(s) émis, "
           "JSON et XML valides, aucun Markdown résiduel, appels de source résolus, "
-          "fichiers .md identiques au dépôt.")
+          "fichiers .md identiques au dépôt, retour au site en tête et au pied "
+          "sous /corpus — et absent quand le corpus est la racine.")
     return 0
 
 
