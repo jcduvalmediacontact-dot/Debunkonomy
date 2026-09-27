@@ -18,7 +18,7 @@ verifications_en_attente:
      relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C12,
      que la limite soit celle du chapitre et non une reformulation, et que le
      renvoi désigne la section qui démontre."
-resume: "Verdir le crédit ne suffit pas, et le chapitre source l'établit en écartant l'argument quantitatif ordinaire, que les séries monétaires réfutent. La formulation défendable tient en trois éléments. **Sous deux conditions — un encours de dette qui croît et des revenus d'intérêts accumulés —**, le service de la dette exige une expansion nette du crédit indifférente à sa composition ; les capacités financées par le crédit vert s'ajoutent au stock existant tant que les anciennes restent solvables, ce qui est une hypothèse du chapitre ; et, traitement d'une autre section, la stabilité des prix plafonne l'érosion des dettes par l'inflation, ce qui verrouille la malédiction plutôt qu'il ne la compose. On observe des découplages sectoriels et nationaux réels sans découplage mondial absolu ; la conjonction des trois éléments reste hypothétique et n'autorise pas à conclure « donc ». Deux des trois éléments sont des hypothèses du chapitre, et le seuil de réfutation n'est pas fixé."
+resume: "Verdir le crédit n'a pas suffi pour ce qui s'observe, **sans que le chapitre source démontre l'impossibilité** ; ce qu'il établit est l'écartement de l'argument quantitatif ordinaire, que les séries monétaires réfutent. La formulation défendable tient en trois éléments. **Sous deux conditions — un encours de dette qui croît et des revenus d'intérêts accumulés —**, le service de la dette exige une expansion nette du crédit indifférente à sa composition ; les capacités financées par le crédit vert s'ajoutent au stock existant tant que les anciennes restent solvables, ce qui est une hypothèse du chapitre ; et, traitement d'une autre section, la stabilité des prix plafonne l'érosion des dettes par l'inflation, ce qui verrouille la malédiction plutôt qu'il ne la compose. On observe des découplages sectoriels et nationaux réels sans découplage mondial absolu ; la conjonction des trois éléments reste hypothétique et n'autorise pas à conclure « donc ». Deux des trois éléments sont des hypothèses du chapitre, et le seuil de réfutation n'est pas fixé."
 concepts: [jevons_monetaire, malediction_monetaire, decouplage]
 renvois:
   - L1.C12
@@ -26,9 +26,11 @@ renvois:
 
 # Verdir le crédit suffirait-il ?
 
-::etat:: Non — et pas pour la raison qu'on avance d'ordinaire.
+::etat:: Non pour ce qui s'observe, **sans que l'impossibilité soit
+démontrée** — et pas pour la raison qu'on avance d'ordinaire.
 **L'argument quantitatif est écarté** : « plus de monnaie, plus de transactions,
-plus d'extraction » est réfuté par les séries monétaires.
+plus d'extraction » est réfuté par les séries monétaires. **Le mécanisme qui
+prend sa place reste une hypothèse du chapitre**, non un résultat établi.
 
 ::etat:: La formulation défendable tient en trois éléments. **Sous deux
 conditions — un encours de dette qui croît ET des revenus d'intérêts accumulés
