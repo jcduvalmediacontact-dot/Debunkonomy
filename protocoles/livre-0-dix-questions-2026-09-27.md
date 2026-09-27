@@ -114,7 +114,13 @@ chose.
 ## 8. Verdir le crédit suffirait-il ?
 
 **L1.C12** — démontre § 2 « L'argument qu'il faut écarter » puis § 3 « Le Jevons
-monétaire, formulé de manière défendable ». Limite : § 6 « Portée ».
+monétaire, formulé de manière défendable ». Limite : **§ 3 et § 6 « Portée »**.
+
+*Précision de Codex, ordre 3, vérifiée* : le § 3 porte lui-même la limite, deux
+`::hypothese::` y disant que le mécanisme proposé n'est pas établi — « les
+capacités s'ajoutent tant que les anciennes restent solvables », « le Jevons
+monétaire est la conjonction des deux ». Le seuil d'échouage n'est pas fixé, et
+la réfutabilité n'est que de principe.
 
 *Observation de Codex* : **conserver les limites du mécanisme proposé et son
 seuil de réfutation encore non fixé.** Le chapitre **réfute** l'argument
@@ -128,18 +134,23 @@ monétaires, et sa conclusion est que verdir ne suffit pas, non que cela ne serv
 qui ont proposé de refondre le régime » et **§ 4 « Et les banques centrales »**.
 Limite : § 6 « Portée ».
 
-*Observation de Codex, appliquée* : le § 4 est ajouté, et **les conclusions se
-limitent aux cas documentés.** D'autres règles de **circulation** ont existé ;
-aucun cas examiné ne montre qu'un autre **régime d'émission** ait fonctionné.
+*Observation de Codex, ordre 3, appliquée* : le § 4 est ajouté, et **les
+conclusions se limitent aux cas documentés.** D'autres règles de **circulation**
+ont existé ; aucun cas examiné ne montre qu'un autre **régime d'émission** ait
+fonctionné. **La borne « aucun cas à deux règles » vient du § 4** — « ni aucun
+cas à deux règles à la fois. Le résultat du chapeau tient donc dans cette
+limite » — et ne porte que sur les pièces examinées là.
 
 ## 10. À quelles conditions NEMO IMS échouerait-il ?
 
-**L1.C31** — démontre § 3 « Le test à cinq dimensions ». Limite : § 7 « Ce qui
-reste ouvert ».
+**L1.C31** — démontre § 3 « Le test à cinq dimensions » **et § 4 « Ce qui doit
+être comparé »**. Limite : § 7 « Ce qui reste ouvert ».
 
-*Observation de Codex* : **présenter une méthode de comparaison, non un avantage
-déjà démontré.** Le test est symétrique — NEMO peut démontrer un apport propre,
-échouer à le démontrer, ou laisser la question ouverte.
+*Observation de Codex, ordre 3* : **présenter une méthode de comparaison, non un
+avantage déjà démontré.** Le § 4 est ajouté parce qu'il porte l'exigence de
+symétrie — « ce principe s'applique également à NEMO ». Les portefeuilles ne
+sont pas construits, aucun apport n'est mesuré, et l'entrée doit distinguer
+avantage établi, avantage écarté et non concluant.
 
 ---
 
