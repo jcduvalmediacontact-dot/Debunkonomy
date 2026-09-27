@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C07]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C07,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "Dans les économies où les dépôts bancaires constituent l'essentiel de la monnaie au sens large, les banques commerciales créent la monnaie de dépôt en accordant un crédit : l'octroi inscrit une créance à l'actif et un dépôt au passif, sans transfert de l'épargne d'un tiers, et le remboursement du principal au moyen d'un dépôt détruit la monnaie correspondante. Les banques créent aussi des dépôts en achetant certains actifs. Les réserves ne sont pas multipliées ; elles ne sont pas prêtées aux clients, qui n'y ont pas accès, mais elles peuvent être prêtées entre banques. L'octroi reste contraint, ce qui produit une sélection des emprunteurs. Le résultat porte sur la monnaie de dépôt dans deux cadres documentés et n'autorise pas à écrire que toute monnaie a pour contrepartie une dette privée."
 concepts: [creation_monetaire, monnaie_endogene]
 renvois:

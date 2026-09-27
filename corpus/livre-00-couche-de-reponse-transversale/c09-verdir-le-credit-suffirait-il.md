@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C12]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C12,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "Verdir le crédit n'a pas suffi pour ce qui s'observe, sans que le chapitre source démontre l'impossibilité ; ce qu'il établit est l'écartement de l'argument quantitatif ordinaire, que les séries monétaires réfutent. La formulation défendable tient en trois éléments. Sous deux conditions — un encours de dette qui croît et des revenus d'intérêts accumulés —, le service de la dette exige une expansion nette du crédit indifférente à sa composition ; les capacités financées par le crédit vert s'ajoutent au stock existant tant que les anciennes restent solvables, ce qui est une hypothèse du chapitre ; et, traitement d'une autre section, la stabilité des prix plafonne l'érosion des dettes par l'inflation, ce qui verrouille la malédiction plutôt qu'il ne la compose. On observe des découplages sectoriels et nationaux réels sans découplage mondial absolu ; la conjonction des trois éléments reste hypothétique et n'autorise pas à conclure « donc ». Deux des trois éléments sont des hypothèses du chapitre, et le seuil de réfutation n'est pas fixé."
 concepts: [jevons_monetaire, malediction_monetaire, decouplage]
 renvois:
