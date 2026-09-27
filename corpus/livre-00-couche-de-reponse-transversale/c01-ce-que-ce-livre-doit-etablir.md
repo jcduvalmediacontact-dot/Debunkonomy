@@ -1,55 +1,76 @@
 ---
 chapitre: L0.C01
-titre: "Ce que ce livre doit établir"
+titre: "Comment lire le Livre 0"
 livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
-type: chapitre
+type: synthese
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-27
 autorite: preparatoire
 citable: false
 regime: descriptif
-sources_primaires:
-  - ref: S1
-    nature: theorie
-    reference: "**`corpus/livres.yaml`, matricule 0** — projection du plan directeur de l'auteur. **Titre** : Le livre 0 — couche de réponse transversale. **Collection** : tronc. **Statut du livre** : hypothese. **Fonction assignée** : Interface entre le fichier llms.txt et le contenu du site : la couche par laquelle une machine ou un lecteur entre dans le corpus par la question plutôt que par le plan. **Motifs** : **rouage — accès au corpus par la question plutôt que par le plan**"
-    etat_lecture: a_requalifier
+sources_primaires: []
+chapitres_sources: [L0.C02, L0.C03, L0.C04, L0.C05, L0.C06, L0.C07, L0.C08,
+                    L0.C09, L0.C10, L0.C11]
+verifiee_le: 2026-09-27
 verifications_en_attente:
-  - "AUCUNE SOURCE N'EST OUVERTE POUR CE LIVRE, et aucun chapitre n'est écrit.
-     **Ce chapitre est une AMORCE** : il enregistre ce que le registre assigne au
-     matricule 0 et ne l'instruit pas. **Il ne verse aucun résultat au corpus
-     et ne doit être cité par aucun autre chapitre.**"
-  - "CE CHAPITRE SERA REMPLACÉ, NON COMPLÉTÉ. Tous les livres ouverts du corpus
-     commencent par un chapitre « Ce que ce livre doit établir » qui instruit la
-     fonction, confronte le mandat aux acquis des autres livres et fixe la grille
-     du livre. **Écrire ce livre, c'est écrire ce chapitre-là à la place de
-     celui-ci.**"
-resume: "Ce chapitre est une amorce déposée le 7 septembre 2026 pour que le dossier du matricule 0 existe dans l'arborescence avant qu'aucun chapitre ne soit écrit. Il n'instruit rien et ne verse aucun résultat au corpus. Il enregistre seulement ce que le registre des livres assigne à ce matricule, c'est-à-dire son titre, sa collection, son statut, la fonction que le plan directeur lui donne et les motifs qui ont justifié sa déclaration, afin qu'un lecteur ouvrant ce dossier sache ce que le livre doit porter et sache aussi que rien n'en est fait. Il rappelle que le matricule est permanent et ne se réattribue ni ne se renumérote, que le registre n'est qu'une projection du plan directeur de l'auteur et que le plan tranche en cas d'écart. Il déclare enfin qu'il sera remplacé et non complété, puisque tous les livres ouverts du corpus s'ouvrent par un chapitre qui instruit la fonction du livre, la confronte aux acquis des autres livres et fixe la grille des questions que le livre entend faire subir à son objet."
+  - "BROUILLON DU 2026-09-27, qui REMPLACE l'amorce déposée le 7 septembre 2026.
+     L'ancien texte reste dans `git`. Il enregistrait ce que le registre assigne
+     au matricule 0 et déclarait lui-même qu'il serait remplacé, non complété."
+  - "LA SOURCE S1 DE L'AMORCE EST SORTIE, ET LE MANIFESTE N'A PAS ÉTÉ TOUCHÉ.
+     Elle portait `etat_lecture: a_requalifier` sur autorisation de
+     `corpus/manifeste-etat-lecture.json`. Cette introduction ne s'appuie pas
+     sur l'entrée du registre : la déclarer serait déclarer une source que le
+     corps n'emploie pas. L'occurrence du manifeste devient donc une entrée sans
+     occurrence — alerte A-L3, non blocage. Le manifeste ne s'édite jamais
+     (CLAUDE.md) : l'écart est inscrit ici plutôt que contourné."
+  - "AUCUN CONCEPT N'EST DÉCLARÉ, et ce n'est pas un oubli : ce chapitre décrit
+     une manière de lire, il n'emploie aucun concept du vocabulaire. Un concept
+     déclaré sans être employé serait un faux. Le champ devra être rempli si le
+     corps change, `controle.py` l'exigeant pour atteindre `verifie`."
+  - "LE NOM DU FICHIER DIT ENCORE « ce que ce livre doit établir », titre de
+     l'amorce. L'ordre 4 impose le même fichier ; le renommer relève d'une
+     décision de l'auteur. L'URL publique ne dérive que de l'identifiant
+     (convention § 3, révision 14), donc l'écart ne touche que la lecture du
+     dépôt."
+resume: "Ce chapitre explique comment lire le Livre 0 et ce que le Livre 0 ne fait pas. Le Livre 0 est une couche de réponse : on y entre par la question plutôt que par le plan, et chaque entrée répond brièvement à une question avant de renvoyer au chapitre qui démontre. Chaque entrée se lit en trois temps — une réponse courte, une limite explicite qui dit où le chapitre source s'arrête, et un renvoi à la section qui porte la démonstration. Ce chapitre rappelle enfin ce que la couche ne fait pas : elle ne démontre rien, n'ouvre aucune source, n'ajoute aucun chiffre qui ne soit dans le chapitre qu'elle résume, et ne peut donc rien affirmer que ce chapitre n'établisse. Il remplace l'amorce déposée le 7 septembre 2026, qui enregistrait la fonction assignée au matricule 0 et déclarait elle-même qu'elle serait remplacée."
 concepts: []
 renvois: []
 ---
 
-# Ce que ce livre doit établir
+# Comment lire le Livre 0
 
-::etat:: **AMORCE. Aucun chapitre de ce livre n'est écrit, et aucune source n'est ouverte pour lui.** Ce chapitre existe pour que le dossier du matricule 0 figure dans l'arborescence, **et il n'instruit rien.**
+::etat:: Le Livre 0 est une **couche de réponse**, non une table des matières.
+On y entre par la question plutôt que par le plan : chaque entrée porte une
+question en titre, y répond brièvement, et renvoie au chapitre qui démontre.
 
-## 1. Ce que le registre assigne à ce matricule
+## 1. Une entrée se lit en trois temps
 
-::etat:: **Titre** : Le livre 0 — couche de réponse transversale. **Collection** : tronc. **Statut du livre** : hypothese [S1].
+::etat:: **La réponse** dit ce que le corpus établit sur cette question, en
+quelques lignes, dans les termes du chapitre qui l'établit.
 
-::etat:: **Fonction** [S1] : Interface entre le fichier llms.txt et le contenu du site : la couche par laquelle une machine ou un lecteur entre dans le corpus par la question plutôt que par le plan
+::etat:: **La limite** dit où ce chapitre s'arrête. Elle n'est pas une
+précaution de style : elle est reprise de la section où le chapitre borne
+lui-même sa portée, et elle est aussi importante que la réponse.
 
-::etat:: **Motif inscrit au registre** : rouage — accès au corpus par la question plutôt que par le plan.
+::etat:: **Le renvoi** nomme la section qui porte la démonstration. C'est là
+qu'il faut aller pour savoir sur quelles pièces elle repose.
 
-## 2. Ce que ce chapitre n'est pas
+## 2. Ce que cette couche ne fait pas
 
-::etat:: **Il ne verse aucun résultat au corpus et ne doit être cité par aucun autre chapitre.** Son régime est **descriptif** : il rapporte une entrée de registre, il n'établit rien sur le dispositif.
+::etat:: **Elle ne démontre rien.** Les chapitres démontrent ; les entrées
+rapportent ce qu'ils ont établi et renvoient à eux.
 
-::etat:: **Il sera REMPLACÉ, non complété.** Tous les livres ouverts commencent par un chapitre « Ce que ce livre doit établir » qui **instruit** la fonction, la confronte aux acquis des autres livres et **fixe la grille du livre**. Écrire ce livre, c'est écrire ce chapitre-là à la place de celui-ci.
+::etat:: **Elle n'ouvre aucune source**, ne déclare aucune pièce, et n'ajoute
+aucun chiffre qui ne soit dans le chapitre qu'elle résume.
 
-## 3. Deux règles qui valent déjà
+::etat:: **Elle ne peut donc rien affirmer que le chapitre source n'établisse.**
+Là où celui-ci refuse de conclure, l'entrée refuse avec lui.
 
-::etat:: **Le matricule 0 est permanent.** Il ne se réattribue pas, ne s'insère pas et ne se renumérote pas, même si ce livre n'est jamais écrit (convention § 3).
+## 3. Ce chapitre remplace une amorce
 
-::etat:: **Le registre n'est qu'une projection du plan directeur de l'auteur.** **En cas d'écart, le plan tranche et le registre est corrigé, jamais l'inverse.** Ce qui précède est donc rapporté sous réserve du plan.
+::etat:: Une amorce déposée le 7 septembre 2026 occupait cette place pour que
+le dossier du matricule 0 existe dans l'arborescence. Elle enregistrait la
+fonction que le registre assigne à ce matricule et déclarait qu'elle serait
+remplacée, non complétée. **Son texte reste dans `git`.**
