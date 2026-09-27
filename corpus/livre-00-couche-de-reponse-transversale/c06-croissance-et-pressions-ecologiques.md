@@ -18,7 +18,7 @@ verifications_en_attente:
      relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C03,
      que la limite soit celle du chapitre et non une reformulation, et que le
      renvoi désigne la section qui démontre."
-resume: "Le découplage relatif — la baisse de l'intensité matérielle par unité produite — est distinct du découplage absolu, qui exige une baisse des volumes totaux à un rythme compatible avec les limites planétaires. Le second n'est pas observé à l'échelle mondiale pour la période 2015-2023, tandis que des baisses absolues nationales sont documentées en sens inverse. Le corpus expose trois arguments pour expliquer cet écart et en délimite la portée : une croissance perpétuelle du volume physique produit est exclue, celle de la valeur ajoutée ne l'est pas par ce seul argument, et la question reste empirique."
+resume: "Le découplage relatif — la baisse de l'intensité matérielle par unité produite — est distinct du découplage absolu, qui exige une baisse des volumes totaux à un rythme compatible avec les limites planétaires. Le second n'est pas observé à l'échelle mondiale pour la période 2015-2023, tandis que dix-huit économies développées ont vu leurs émissions — non l'ensemble de leurs pressions — décroître sur 2005-2015. Le corpus expose trois arguments pour expliquer cet écart et en délimite la portée : une croissance perpétuelle du volume physique produit est exclue, celle de la valeur ajoutée ne l'est pas par ce seul argument, et la question reste empirique."
 concepts: [decouplage, effet_rebond, entropie]
 renvois:
   - L1.C03
@@ -26,16 +26,20 @@ renvois:
 
 # La croissance économique peut-elle se poursuivre tout en réduisant suffisamment les pressions écologiques ?
 
-::etat:: La question se décompose. Le **découplage relatif** — la baisse
-de l'intensité matérielle par unité produite — est distinct du **découplage
-absolu**, qui exige une baisse des volumes totaux à un rythme compatible avec
-les limites planétaires. C'est le second qui est en cause, et le débat porte sur
-un rythme précis : celui qui rendrait les volumes compatibles avec ces limites.
+::etat:: La question se décompose en deux temps qu'il ne faut pas confondre.
+Le **découplage relatif** est la baisse de l'intensité matérielle par unité
+produite. Le **découplage absolu** est la baisse des volumes totaux — énergie,
+matières, émissions — **accompagnée d'une hausse du produit**.
+
+::etat:: Le rythme est une question séparée de la définition. Un découplage
+absolu trop lent ne résout rien : le débat porte donc sur celui qui rendrait
+les volumes compatibles avec les limites planétaires.
 
 ::etat:: Ce découplage absolu n'est pas observé à l'échelle mondiale pour la
-période 2015-2023. En sens inverse, des baisses absolues nationales sont
-documentées sur 2005-2015, bornées par leurs auteurs comme s'expliquant en
-partie par une croissance plus faible.
+période 2015-2023. En sens inverse, dix-huit économies développées ont vu
+leurs **émissions** — non l'ensemble de leurs pressions — décroître sur
+2005-2015, baisse bornée par ses auteurs comme s'expliquant en partie par une
+croissance plus faible du produit.
 
 ::hypothese:: Le corpus expose trois arguments avancés pour expliquer cet écart
 — l'accumulation historique des sources d'énergie plutôt que leur substitution,

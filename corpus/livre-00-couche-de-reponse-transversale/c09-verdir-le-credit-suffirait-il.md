@@ -30,19 +30,25 @@ renvois:
 **L'argument quantitatif est écarté** : « plus de monnaie, plus de transactions,
 plus d'extraction » est réfuté par les séries monétaires.
 
-::etat:: La formulation défendable tient en trois éléments. Le service d'un
-encours croissant exige une **expansion nette du crédit, indifférente à sa
-composition** : un crédit vert et un crédit brun servent également l'encours.
+::etat:: La formulation défendable tient en trois éléments. **Sous deux
+conditions — un encours de dette qui croît ET des revenus d'intérêts accumulés
+—**, le service de la dette exige une **expansion nette du crédit, indifférente
+à sa composition** : un crédit vert et un crédit brun servent également
+l'encours.
 
 ::hypothese:: Les capacités que finance le crédit vert **s'ajoutent** au stock
 existant tant que les anciennes restent solvables — et les actifs échoués qui
 les retireraient sont précisément ce que la stabilité financière cherche à
-éviter. La stabilité des prix plafonne enfin l'érosion par laquelle l'inflation
-allégeait les dettes.
+éviter. C'est une hypothèse du chapitre, non un résultat établi.
 
-::etat:: Verdir le crédit produit donc des découplages sectoriels et nationaux
-réels, **sans découplage mondial absolu**.
+::hypothese:: Le troisième élément vient d'une autre section : **la stabilité
+des prix plafonne l'érosion** par laquelle l'inflation allégeait les dettes. Il
+verrouille la malédiction plutôt qu'il ne la compose.
+
+::etat:: Verdir le crédit produit des découplages sectoriels et nationaux
+réels, **sans découplage mondial absolu**. La conjonction des trois éléments
+reste hypothétique : elle n'autorise pas à conclure « donc ».
 
 ::etat:: **Limite.** Deux des trois éléments sont **des hypothèses de ce chapitre**, le seuil d'échouage n'est pas fixé, et la réfutabilité n'est donc que de principe.
 
-**Où cela est démontré** : L1.C12 § 2 « L'argument qu'il faut écarter » et § 3 « Le Jevons monétaire, formulé de manière défendable » ; limites aux § 3 et § 6 « Portée ».
+**Où cela est démontré** : L1.C12 § 2 « L'argument qu'il faut écarter » et § 3 « Le Jevons monétaire, formulé de manière défendable » pour les deux premiers éléments ; § 5 « Pourquoi la malédiction se verrouille » pour le plafonnement de l'érosion ; limites aux § 3 et § 6 « Portée ».

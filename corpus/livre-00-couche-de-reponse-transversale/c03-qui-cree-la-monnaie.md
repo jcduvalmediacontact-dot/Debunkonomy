@@ -18,7 +18,7 @@ verifications_en_attente:
      relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C07,
      que la limite soit celle du chapitre et non une reformulation, et que le
      renvoi désigne la section qui démontre."
-resume: "Dans les économies où les dépôts bancaires constituent l'essentiel de la monnaie au sens large, les banques commerciales créent la monnaie de dépôt en accordant un crédit : l'octroi inscrit une créance à l'actif et un dépôt au passif, sans transfert de l'épargne d'un tiers, et le remboursement la détruit. Les banques créent aussi des dépôts en achetant certains actifs. Les réserves ne sont ni prêtées ni multipliées, et l'octroi reste contraint, ce qui produit une sélection des emprunteurs. Le résultat porte sur la monnaie de dépôt dans deux cadres documentés et n'autorise pas à écrire que toute monnaie a pour contrepartie une dette privée."
+resume: "Dans les économies où les dépôts bancaires constituent l'essentiel de la monnaie au sens large, les banques commerciales créent la monnaie de dépôt en accordant un crédit : l'octroi inscrit une créance à l'actif et un dépôt au passif, sans transfert de l'épargne d'un tiers, et le remboursement la détruit. Les banques créent aussi des dépôts en achetant certains actifs. Les réserves ne sont ni prêtées aux clients non bancaires ni multipliées, bien qu'elles puissent l'être entre banques, et l'octroi reste contraint, ce qui produit une sélection des emprunteurs. Le résultat porte sur la monnaie de dépôt dans deux cadres documentés et n'autorise pas à écrire que toute monnaie a pour contrepartie une dette privée."
 concepts: [creation_monetaire, monnaie_endogene]
 renvois:
   - L1.C07
@@ -37,11 +37,13 @@ détruit la monnaie correspondante.
 achetant certains actifs à des agents non bancaires, avec l'actif acquis pour
 contrepartie.
 
-::etat:: Les réserves ne sont ni prêtées aux clients ni multipliées. L'octroi
+::etat:: Les réserves ne sont ni prêtées aux clients non bancaires ni
+multipliées — elles **peuvent être prêtées entre banques**, les clients n'y ayant
+pas accès. L'octroi
 reste contraint par le prix du crédit, la demande, la rentabilité, les risques,
 le capital, la liquidité, la réglementation et le règlement interbancaire —
 contraintes qui produisent **une sélection des emprunteurs**.
 
 ::etat:: **Limite.** Le dépôt est une dette de la banque envers son client et seul le crédit crée aussi une dette de l'emprunteur : **cela interdit d'écrire que toute monnaie a pour contrepartie une dette privée**, et le résultat ne vaut que pour la monnaie de dépôt dans les deux cadres documentés.
 
-**Où cela est démontré** : L1.C07 § 1 « L'écriture de création : le prêt et le dépôt » et § 3 « Les achats d'actifs créateurs de dépôts » ; limite au § 9 « Portée et limites ».
+**Où cela est démontré** : L1.C07 § 1 « L'écriture de création : le prêt et le dépôt », § 2 « Le remboursement et la destruction monétaire », § 3 « Les achats d'actifs créateurs de dépôts » et §§ 4 à 7 pour les contraintes et la sélection ; limite au § 9 « Portée et limites ».

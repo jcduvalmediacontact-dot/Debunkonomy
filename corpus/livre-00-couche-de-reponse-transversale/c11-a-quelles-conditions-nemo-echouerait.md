@@ -18,7 +18,7 @@ verifications_en_attente:
      relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C31,
      que la limite soit celle du chapitre et non une reformulation, et que le
      renvoi désigne la section qui démontre."
-resume: "Le corpus définit un test symétrique par lequel NEMO IMS peut démontrer un apport propre, échouer à le démontrer, ou laisser la question ouverte sur un résultat non concluant. Le test compare cinq dimensions : résultat matériel net, délai, coût social total, risques macroéconomiques et financiers, et deux composantes de la gouvernance. La comparaison s'applique également au dispositif et aux solutions concurrentes. Aucun portefeuille n'est construit et l'ampleur de l'essentiel insolvable n'est pas mesurée : le corpus peut présenter la proposition et son test, mais pas affirmer que NEMO est nécessaire, supérieur ou applicable."
+resume: "Le corpus définit un test symétrique par lequel NEMO IMS peut démontrer un apport propre, échouer à le démontrer, ou laisser la question ouverte sur un résultat non concluant. Trois conditions d'échec sont écrites : un portefeuille institutionnellement réalisable qui fait équivalent ou mieux sur les cinq dimensions, un résultat qui disparaît une fois imputées les ressources déplacées, ou le franchissement des contraintes inflationnistes, extérieures, physiques ou distributives. Hors de là, le verdict est non concluant. La comparaison s'applique également au dispositif et aux solutions concurrentes. Aucun portefeuille n'est construit et l'ampleur de l'essentiel insolvable n'est pas mesurée : le corpus peut présenter la proposition et son test, mais pas affirmer que NEMO est nécessaire, supérieur ou applicable."
 concepts: [additionnalite, qualification_regenerative]
 renvois:
   - L1.C31
@@ -30,11 +30,24 @@ renvois:
 démontrer un apport propre, **échouer à le démontrer**, ou laisser la question
 ouverte sur un résultat non concluant. Les trois issues sont prévues.
 
-::etat:: Le test compare cinq dimensions : le résultat matériel net des
-ressources retirées à d'autres usages, le délai, le coût social total, les
-risques macroéconomiques et financiers, et deux composantes distinctes de la
-gouvernance — l'architecture attachée et le risque de capture du mécanisme
-d'allocation.
+::norme:: **Trois conditions d'échec sont écrites.** L'avantage comparatif de
+NEMO n'est pas établi si un portefeuille institutionnellement réalisable obtient
+un résultat équivalent ou supérieur, dans un délai comparable, avec un coût
+social total et des risques égaux ou inférieurs et une gouvernance au moins
+équivalente. NEMO échoue aussi **si le résultat allégué disparaît une fois
+imputées les ressources déplacées**. Et il échoue **s'il franchit les
+contraintes inflationnistes, extérieures, physiques ou distributives**.
+
+::norme:: Hors de ces conditions, le verdict est **non concluant** : l'apport
+propre n'est pas démontré, l'avantage comparatif n'est pas écarté. C'est un
+troisième résultat, distinct des deux autres.
+
+::norme:: La comparaison décisive porte sur le meilleur portefeuille
+**institutionnellement réalisable** — ni adversaire affaibli par des obstacles
+que NEMO ne rencontrerait pas, ni adversaire idéal qu'aucune institution ne
+pourrait assembler. Une seconde comparaison, sur le portefeuille **techniquement
+possible**, est exploratoire : elle situe une frontière et ne suffit pas seule à
+déclarer NEMO superflu ou applicable.
 
 ::norme:: La comparaison s'applique **également à NEMO et aux solutions
 concurrentes**, combinaisons de politiques et d'institutions comprises : le coût

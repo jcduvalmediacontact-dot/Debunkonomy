@@ -43,4 +43,5 @@ règle, pour quelles activités qualifiées, et sous quelles contraintes**.
 
 ::etat:: **Limite.** Cette caractérisation est une **proposition du corpus et conserve son statut d'hypothèse** : le chapitre source ne dit rien du mécanisme réel par lequel la monnaie est créée aujourd'hui.
 
-**Où cela est démontré** : L1.C05 § 3 « Le support et la tenue » et § 4 « Ce qui en découle » ; limite au § 6 « Ce que le chapitre établit ».
+**Où cela est démontré** : L1.C05 § 1 « Ce que les trois fonctions décrivent », § 3 « Le support et la
+tenue » et § 4 « Ce qui en découle » ; limite au § 6 « Ce que le chapitre établit ».

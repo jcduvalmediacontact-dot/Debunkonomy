@@ -43,4 +43,4 @@ La relation est conditionnelle, et les conditions sont énoncées au chapitre.
 
 ::etat:: **Limite.** Le chapitre source établit **l'existence théorique** de ces mécanismes ; il ne mesure ni leur ampleur dans les économies observées, ni leur poids relatif parmi les autres mécanismes de cette dépendance.
 
-**Où cela est démontré** : L1.C08 § 2 « Pourquoi les intérêts ne créent pas, à eux seuls, une nécessité arithmétique de croissance » et § 3 « Les dynamiques cumulatives » ; limite au § 8 « Portée, régime des sources et conditions de réfutation ».
+**Où cela est démontré** : L1.C08 § 2 « Pourquoi les intérêts ne créent pas, à eux seuls, une nécessité arithmétique de croissance » et § 3 « Les dynamiques cumulatives » et § 5 « Transmission conditionnelle aux pressions physiques mondiales et aux empreintes importées » ; limite au § 8 « Portée, régime des sources et conditions de réfutation ».
