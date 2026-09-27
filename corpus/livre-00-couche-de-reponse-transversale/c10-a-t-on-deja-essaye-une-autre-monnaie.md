@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C10]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C10,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "D'autres conventions monétaires ont été tentées et certaines fonctionnent encore : le corpus en fait l'inventaire en trois catégories — des expériences, des théories proposant de refondre le régime d'émission, et des expérimentations venues des banques centrales — chacune présentée avec ses limites connues, dont l'objection standard d'une création sans contrepartie marchande et sans destruction équivalente. D'autres règles de circulation ont donc existé, et deux durent encore. Mais aucun des cas examinés au chapitre source ne montre qu'un autre régime d'émission ait fonctionné, et aucune alternative n'y est rapportée par une pièce ouverte à plus d'une des quatre règles."
 concepts: [monnaie_fondante, architecture_invisible, demurrage]
 renvois:

@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C08]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C08,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "La dette à intérêt ne crée pas, par une identité comptable isolée, une obligation universelle de croissance : les intérêts sont payables par la circulation, et des modèles lus dans le texte exhibent des états stationnaires sous hypothèses énoncées. Mais intégrée aux mécanismes d'emploi, de rentabilité, d'investissement, de refinancement et de stabilité budgétaire, elle contribue à une dépendance structurelle à la croissance, dont la transmission aux pressions matérielles est conditionnelle. Le chapitre source établit l'existence théorique de ces mécanismes sans mesurer leur ampleur ni leur poids relatif."
 concepts: [creation_monetaire, reflux_monetaire, essentiel_insolvable]
 renvois:

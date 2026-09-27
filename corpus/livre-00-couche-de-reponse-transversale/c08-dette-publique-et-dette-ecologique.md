@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C13]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C13,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "La troisième malédiction noue la dette financière des États et la dette écologique. Un État endetté dispose de plusieurs issues, mais celles qui ne passent pas par l'activité, sans être fermées, sont transitoires, coûteuses et combattues par le régime lui-même ; il reste durablement des issues qui exigent de l'activité. Servir la dette financière exige alors une activité qui, sauf découplage absolu, creuse la dette écologique, et réparer celle-ci exige des dépenses financées en aval de cette activité. Que le nœud ne se défasse pas de l'intérieur du régime est l'argument que le chapitre défend, et non une impossibilité démontrée : aucune absence d'issue interne n'est établie."
 concepts: [dette_ecologique, noeud_gordien, malediction_monetaire]
 renvois:

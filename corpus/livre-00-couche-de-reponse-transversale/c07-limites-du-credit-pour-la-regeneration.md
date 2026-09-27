@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C11]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C11,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "Le crédit bancaire est le seul canal qui crée la monnaie en même temps qu'une dette nouvelle de l'emprunteur, et le seul qui soumette donc cette création au filtre de la solvabilité anticipée, conçu pour des prêts remboursables. Ce filtre accueille ce qui promet une recette, y compris le vert marchand, et rejette la régénération qui n'en produit pas ; ce qui ne rembourse pas relève de l'impôt, de l'emprunt public ou d'un transfert, sans que la permanence de cette affectation soit garantie d'une législature à l'autre, analyse que le chapitre porte comme telle. Régulation, taxonomie et banques publiques orientent le crédit solvable sans créer de solvabilité, lecture que le chapitre donne pour hypothèse ; mais un prix du carbone ou un paiement pour service environnemental peut rendre solvables certains projets régénératifs. L'absence de recettes propres ne signifie ni absence de financement collectif, ni praticabilité démontrée d'un autre circuit."
 concepts: [solvabilite_anticipee, malediction_monetaire, essentiel_insolvable]
 renvois:

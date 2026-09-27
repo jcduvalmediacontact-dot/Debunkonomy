@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C05]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C05,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "Les manuels définissent la monnaie par ses trois fonctions, c'est-à-dire par ses usages. Le corpus propose de la caractériser comme un registre de créances collectivement tenu, dont le support importe moins que la tenue, et en tire que les règles d'émission relèvent d'une décision et non d'une nécessité. Cette caractérisation est une proposition du corpus et conserve son statut d'hypothèse ; le chapitre source ne dit rien du mécanisme réel par lequel la monnaie est créée aujourd'hui."
 concepts: [monnaie_comme_registre, creation_monetaire]
 renvois:

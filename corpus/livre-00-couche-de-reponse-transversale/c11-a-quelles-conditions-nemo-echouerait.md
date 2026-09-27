@@ -5,19 +5,15 @@ livre: 0
 langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-27
 autorite: preparatoire
-citable: false
+citable: true
 regime: descriptif
 sources_primaires: []
 chapitres_sources: [L1.C31]
 verifiee_le: 2026-09-27
-verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
-     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C31,
-     que la limite soit celle du chapitre et non une reformulation, et que le
-     renvoi désigne la section qui démontre."
+verifications_en_attente: []
 resume: "Le corpus définit un test symétrique par lequel NEMO IMS peut démontrer un apport propre, échouer à le démontrer, ou laisser la question ouverte sur un résultat non concluant. Trois conditions d'échec sont écrites : un portefeuille institutionnellement réalisable qui fait équivalent ou mieux sur les cinq dimensions, un résultat qui disparaît une fois imputées les ressources déplacées, ou le franchissement des contraintes inflationnistes, extérieures, physiques ou distributives. Le cas favorable a les siennes : un meilleur résultat matériel net, ou un résultat inaccessible au meilleur portefeuille effectivement construit, sans détérioration disproportionnée des autres dimensions. Hors de ces deux jeux de conditions, le verdict est non concluant. La comparaison s'applique également au dispositif et aux solutions concurrentes. Aucun portefeuille n'est construit et l'ampleur de l'essentiel insolvable n'est pas mesurée : le corpus peut présenter la proposition et son test, mais pas affirmer que NEMO est nécessaire, supérieur ou applicable."
 concepts: [additionnalite, qualification_regenerative]
 renvois:
