@@ -72,12 +72,26 @@ franchissement sont des résultats.
 
 ## 5. La croissance économique peut-elle se poursuivre tout en réduisant suffisamment les pressions écologiques ?
 
-**L1.C03** — sections d'appui et phrase de limite **à compléter par Codex,
-ordre 3**, l'auteur les lui ayant confiées. Inventaire des sections disponibles,
-relevé sur le fichier : § 1 « Une promesse et son échéance » · § 2 « Les
-énergies s'accumulent-elles au lieu de se substituer ? » · § 3 « L'effet
-rebond » · § 4 « L'argument entropique et sa portée » · § 5 « Ce que les données
-montrent » · § 6 « Ce que le chapitre établit ».
+**L1.C03** — démontre § 1 « Une promesse et son échéance » pour la distinction
+relatif / absolu et le rythme suffisant, § 4 « L'argument entropique et sa
+portée » pour volume physique contre valeur ajoutée, et § 5 « Ce que les données
+montrent » pour les résultats empiriques. Limite : § 6 « Ce que le chapitre
+établit ».
+
+*Complété par Codex, ordre 3, le 2026-09-27, et vérifié sur le fichier* : le § 1
+définit les deux découplages et « un rythme précis : celui qui rendrait les
+volumes compatibles avec les limites » ; le § 4 porte « une croissance
+perpétuelle du volume physique produit est exclue. Une croissance perpétuelle de
+la valeur ajoutée… » ; le § 5 porte les 835 études et la période 2015-2023.
+
+**Phrase de limite à reprendre, donnée par Codex** : « Les taux de découplage
+observés dans les études examinées ne suffisent pas aux réductions requises ; ce
+constat n'établit pas l'impossibilité de toute croissance de la valeur ajoutée
+et ne nie pas les baisses absolues nationales documentées. »
+
+La réponse conserve **le périmètre mondial et la période 2015-2023** du constat
+cité ; elle ne transforme ni une absence observée en impossibilité universelle,
+ni des baisses nationales d'émissions en découplage de toutes les pressions.
 
 *Arbitrage de l'auteur* : distinguer croissance **matérielle** et croissance de
 la **valeur ajoutée**, découplage **relatif** et **absolu**, résultats
@@ -154,10 +168,12 @@ avantage établi, avantage écarté et non concluant.
 
 ---
 
-## Ce qui reste avant rédaction
+## Le feu vert, et ce qu'il autorise
 
-**L'entrée 5 attend Codex** : sections d'appui et phrase de limite pour C03,
-complément de son ordre 3, confié par l'auteur.
+**L'ordre 3 est rendu pour les dix questions le 2026-09-27**, avec feu vert à la
+rédaction des synthèses en brouillon dans le cadre de l'ordre 7 — sans
+changement de statut ni publication. L'arbitrage prévu sur le chapitre d'amorce
+reste distinct, et l'ordre 4 attend les textes.
 
 **Forme arrêtée pour les dix** : des synthèses en `statut: brouillon`, avec
 réponse brève, limite explicite et renvoi précis. Aucun changement de statut,
