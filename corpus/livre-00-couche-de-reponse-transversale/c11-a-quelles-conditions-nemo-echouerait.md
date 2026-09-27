@@ -7,7 +7,7 @@ licence: CC-BY-SA-4.0
 type: synthese
 statut: verifie
 revision_de_fond: 2026-09-27
-autorite: preparatoire
+autorite: canonique
 citable: true
 regime: descriptif
 sources_primaires: []
