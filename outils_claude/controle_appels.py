@@ -155,6 +155,26 @@ def chiffres_de(texte):
     return out
 
 
+def chiffres_des(passages):
+    """Les nombres de PLUSIEURS passages — extraits un par un, puis réunis.
+
+    NE JAMAIS JOINDRE LES PASSAGES AVANT D'EXTRAIRE. Le motif des nombres
+    traite l'espace comme séparateur de milliers, et c'est voulu : le français
+    écrit « 53 206 ». Mais joindre un passage qui finit par « 2024 » à un
+    passage qui commence par « 333% » fabrique alors `2024333` — un nombre que
+    personne n'a écrit —, et `333` disparaît. Le contrôle déclare absent un
+    chiffre qui est là.
+
+    Défaut relevé par Codex le 2026-09-26 sur L1.C13/S1, où l'entrée porte bien
+    « 333% of GDP ». Les 37 sabotages du 25 ne couvraient pas cette jointure :
+    ils éprouvaient l'extraction sur un texte, jamais sur une liste de textes.
+    """
+    reunis = set()
+    for p in passages:
+        reunis |= chiffres_de(p)
+    return reunis
+
+
 def phrase_de(corps, debut, fin):
     """La phrase que l'appel couvre — celle d'AVANT si l'appel suit le point."""
     avant = corps[:debut]
@@ -220,7 +240,7 @@ def main():
             # nombre-la n'est pas un fait du corps, on le retire de la phrase.
             sans_appel = APPEL.sub(" ", phrase)
             du_corps = chiffres_de(sans_appel)
-            portes = tetes(chiffres_de(" ".join(passages)))
+            portes = tetes(chiffres_des(passages))
             manquants = {v for v in du_corps
                          if v[:3] not in portes and v[:2] not in portes}
             if manquants and (cid, ref) not in vus:

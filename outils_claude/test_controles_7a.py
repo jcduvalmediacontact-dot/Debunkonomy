@@ -191,7 +191,11 @@ def main():
     def verifie(code, attendu, sortie, libelle, motif=None):
         nonlocal ok, fail
         bon = (code == attendu) and (motif is None or re.search(motif, sortie))
-        out.write("  %-5s %-58s %s\n" % (code == attendu and "ok" or "ÉCHEC",
+        # Le mot imprimé suit `bon`, non le seul code de sortie. Il suivait le
+        # code, et une ligne pouvait afficher « ok » À CÔTÉ de son marqueur
+        # d'échec — ce qui est arrivé le 2026-09-27 sur N-P9 et a demandé de
+        # relire cette fonction pour savoir lequel des deux disait vrai.
+        out.write("  %-5s %-58s %s\n" % ("ok" if bon else "ÉCHEC",
                                          libelle, "" if bon else "<<<"))
         if bon:
             ok += 1
@@ -288,6 +292,14 @@ def main():
     NU = "Serie statistique de l'organisme, mise a jour 2025, sans citation."
     LOURD = ("Piece d'essai, 2020. Passages lus : « the balance reached "
              "4,311,911 million » (page 3) ; « acidification » (page 4).")
+    # DEUX citations, la première finissant par un millésime et la seconde
+    # commençant par trois chiffres. Joindre les passages avant d'extraire
+    # fabrique `2024333` et perd `333` : le contrôle crie alors sur un chiffre
+    # que l'entrée porte. Défaut relevé par Codex le 2026-09-26 sur L1.C13/S1 ;
+    # les 37 sabotages précédents ne l'atteignaient pas, tous leurs montages
+    # n'ayant qu'une citation portant un nombre.
+    JOINTURE = ("Piece d'essai, 2020. Passages lus : « releve arrete fin 2024 » "
+                "(page 1) ; « 333% of GDP » (page 2).")
 
     cas = [
         ("E-P1", "Le fait est établi [S9] sans réserve.", PASSAGE, 1,
@@ -313,6 +325,11 @@ def main():
         ("N-P7", "Le bilan passe à 4 311,9 milliards [S1].", LOURD, 0,
          r"QU'AUCUN PASSAGE NE PORTE\s+\[0\]"),
         ("N-P8", "L'acidification est mesurée [S1].", LOURD, 0,
+         r"QU'AUCUN PASSAGE NE PORTE\s+\[0\]"),
+        # N-P9 : le chiffre EST porté, par la seconde citation. L'outil doit se
+        # taire. Il criait avant le 2026-09-27, la jointure des passages ayant
+        # transformé « 2024 » + « 333 » en `2024333`.
+        ("N-P9", "La dette mondiale atteint 333 % du PIB [S1].", JOINTURE, 0,
          r"QU'AUCUN PASSAGE NE PORTE\s+\[0\]"),
     ]
     for code, corps, reference, attendu, motif in cas:
