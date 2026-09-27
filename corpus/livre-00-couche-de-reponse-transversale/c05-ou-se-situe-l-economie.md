@@ -32,8 +32,8 @@ dépendance asymétrique : l'économie dépend de la société, qui dépend de l
 biosphère, et non l'inverse. C'est un cadrage proposé, non un résultat démontré.
 
 ::etat:: Deux cadres distincts sont mobilisés. Les **neuf limites planétaires**,
-dont **sept sont évaluées comme franchies par le *Planetary Health Check* de
-2025**, qui ajoute l'acidification des océans aux six de la mise à jour de 2023. Et **l'espace du donut**, entre un
+dont sept sont évaluées comme franchies par le *Planetary Health Check* de
+2025, qui ajoute l'acidification des océans aux six de la mise à jour de 2023. Et **l'espace du donut**, entre un
 plafond écologique et un plancher social.
 
 ::hypothese:: Le chapitre propose enfin un **rééquilibrage de la performance
