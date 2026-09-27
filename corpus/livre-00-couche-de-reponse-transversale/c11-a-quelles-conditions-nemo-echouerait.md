@@ -18,7 +18,7 @@ verifications_en_attente:
      relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C31,
      que la limite soit celle du chapitre et non une reformulation, et que le
      renvoi désigne la section qui démontre."
-resume: "Le corpus définit un test symétrique par lequel NEMO IMS peut démontrer un apport propre, échouer à le démontrer, ou laisser la question ouverte sur un résultat non concluant. Trois conditions d'échec sont écrites : un portefeuille institutionnellement réalisable qui fait équivalent ou mieux sur les cinq dimensions, un résultat qui disparaît une fois imputées les ressources déplacées, ou le franchissement des contraintes inflationnistes, extérieures, physiques ou distributives. Hors de là, le verdict est non concluant. La comparaison s'applique également au dispositif et aux solutions concurrentes. Aucun portefeuille n'est construit et l'ampleur de l'essentiel insolvable n'est pas mesurée : le corpus peut présenter la proposition et son test, mais pas affirmer que NEMO est nécessaire, supérieur ou applicable."
+resume: "Le corpus définit un test symétrique par lequel NEMO IMS peut démontrer un apport propre, échouer à le démontrer, ou laisser la question ouverte sur un résultat non concluant. Trois conditions d'échec sont écrites : un portefeuille institutionnellement réalisable qui fait équivalent ou mieux sur les cinq dimensions, un résultat qui disparaît une fois imputées les ressources déplacées, ou le franchissement des contraintes inflationnistes, extérieures, physiques ou distributives. Le cas favorable a les siennes : un meilleur résultat matériel net, ou un résultat inaccessible au meilleur portefeuille effectivement construit, sans détérioration disproportionnée des autres dimensions. Hors de ces deux jeux de conditions, le verdict est non concluant. La comparaison s'applique également au dispositif et aux solutions concurrentes. Aucun portefeuille n'est construit et l'ampleur de l'essentiel insolvable n'est pas mesurée : le corpus peut présenter la proposition et son test, mais pas affirmer que NEMO est nécessaire, supérieur ou applicable."
 concepts: [additionnalite, qualification_regenerative]
 renvois:
   - L1.C31
@@ -38,9 +38,16 @@ social total et des risques égaux ou inférieurs et une gouvernance au moins
 imputées les ressources déplacées**. Et il échoue **s'il franchit les
 contraintes inflationnistes, extérieures, physiques ou distributives**.
 
-::norme:: Hors de ces conditions, le verdict est **non concluant** : l'apport
-propre n'est pas démontré, l'avantage comparatif n'est pas écarté. C'est un
-troisième résultat, distinct des deux autres.
+::norme:: **Le cas favorable a ses propres conditions**, et elles sont écrites
+aussi : NEMO démontre un apport propre s'il obtient **un meilleur résultat
+matériel net**, ou **un résultat inaccessible au meilleur portefeuille
+effectivement construit**, sans détérioration disproportionnée des quatre autres
+dimensions.
+
+::norme:: Hors de ces deux jeux de conditions — celles de l'échec et celles de
+l'apport propre —, le verdict est **non concluant** : l'apport n'est pas
+démontré, l'avantage comparatif n'est pas écarté. C'est un troisième résultat,
+distinct des deux autres.
 
 ::norme:: La comparaison décisive porte sur le meilleur portefeuille
 **institutionnellement réalisable** — ni adversaire affaibli par des obstacles

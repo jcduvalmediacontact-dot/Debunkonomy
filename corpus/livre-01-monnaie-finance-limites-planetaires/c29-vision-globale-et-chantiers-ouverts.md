@@ -133,14 +133,16 @@ verifications_en_attente:
      dérive vient des arbitrages portés par D'AUTRES chapitres. Le relevé dépend du
      corpus entier, le déclencheur d'un seul chapitre ; le garde-fou ne peut donc pas
      atteindre cette classe de dérive, et le recalcul à la révision ne suffit pas.
-     SOLDÉE PAR RETRAIT LE 2026-09-27, sur arbitrage de l'auteur qui rouvre C29 Q1
-     sur ce seul point. Les nombres sortent du § 6 : le corps dit désormais ce que le
-     registre contient par nature, et renvoie à `/corpus/diagnostic.html` pour le
-     compte, page que le générateur réécrit à chaque passage. CINQ nombres sortent
-     et non trois : « soixante-cinq » et « quatorze » étaient encore exacts ce
-     jour-là, et les laisser aurait recréé le défaut — un compteur juste le jour où
-     on l'écrit reste un compteur. La dette n'est plus une dette : il n'y a plus de
-     concordance à garantir."
+     SOLDÉE PAR RETRAIT, ET LE RETRAIT EST FAIT — 2026-09-27, sur arbitrage de
+     l'auteur qui rouvre C29 Q1 sur ce seul point. Le § 6 ne porte plus aucun état du
+     registre : ni compte, ni statut. Il dit ce que le registre contient par nature et
+     renvoie à `/corpus/diagnostic.html` pour le reste, page que le générateur
+     réécrit à chaque passage. CINQ nombres sont sortis et non trois — « soixante-
+     cinq » et « quatorze » étaient encore exacts, et un compteur juste le jour où
+     on l'écrit reste un compteur —, puis, sur relecture de Codex, l'énoncé « aucune
+     condition de falsification n'est levée » est parti à son tour : c'était un état,
+     non une nature, et il périmait de la même manière. Il n'y a plus de concordance
+     à garantir, donc plus de dette."
   - "LE DÉBITEUR JURIDIQUEMENT IDENTIFIABLE EST UNE OBJECTION À TRANCHER, ET NON UNE
      CONSÉQUENCE ACQUISE. Le § 3 portait « sans débiteur identifié, il n'y a pas de
      créance » comme un résultat. La supervision du 2026-09-19 (L1) a établi que cette
@@ -254,7 +256,7 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 
 ::etat:: **Cette conclusion sépare trois propositions que le corpus discutait sous un seul nom, et leur état n'est pas le même.** Le financement monétaire ciblé d'activités écologiques et sociales est **pilotable sous fortes limites**. L'unité de réserve internationale entre banques centrales est **techniquement plausible, comptablement et juridiquement à finaliser** — c'est l'objet du présent chapitre. Le référentiel de change obligatoire à parités fixes est **non applicable en l'état** ; la forme à parités administrées en coalition, sous compte de capital réglementé, est **expérimentable pour des chocs passagers**, et applicable aux déséquilibres durables sous conditions, dont l'inflation et l'adhésion des créanciers. L1.C26 tient cette mécanique.
 
-::etat:: **L'état du registre se lit, il ne se recopie pas.** `corpus/arbitrages.yaml` tient trois natures d'entrée : des arbitrages, des conditions de falsification et des pièces de conception manquantes. Chacune est ouverte, orientée ou arbitrée, et **aucune condition de falsification n'est levée**. **Le compte, lui, est calculé par `corpus/controle.py` et reproduit tel quel à la page de diagnostic** — `/corpus/diagnostic.html` —, que le générateur réécrit à chaque passage. **Un nombre écrit ici périmerait en silence : il dépend du corpus entier, et ce chapitre peut rester immobile pendant qu'il change.** Le nombre de promesses ouvertes n'est pas repris ici non plus : le registre des promesses en est l'état, et il se lit là.
+::etat:: **L'état du registre se lit, il ne se recopie pas.** `corpus/arbitrages.yaml` tient trois natures d'entrée : des arbitrages, des conditions de falsification et des pièces de conception manquantes. Chacune porte un statut — ouverte, orientée ou arbitrée. **Le compte comme les statuts sont calculés par `corpus/controle.py` et reproduits tels quels à la page de diagnostic**, [/corpus/diagnostic.html](/corpus/diagnostic.html), que le générateur réécrit à chaque passage. **Rien de cet état n'est écrit ici : un nombre comme un statut périmerait en silence, l'un et l'autre dépendant du corpus entier, et ce chapitre peut rester immobile pendant qu'ils changent.** Le nombre de promesses ouvertes n'est pas repris ici non plus : le registre des promesses en est l'état, et il se lit là.
 
 ::etat:: **Ce qui a résisté.** Le diagnostic de la première partie a subi seize audits contradictoires et un sourçage primaire systématique ; il a été rétréci, mais ses trois thèses centrales tiennent — le filtre de solvabilité au point de création, l'essentiel insolvable, le nœud entre dette financière et dette écologique. La séparation des fonctions (L1.C18) répond à une objection réelle par une architecture réelle. L'abandon de l'additionnalité contrefactuelle au profit d'états mesurés est une avancée sur les dispositifs existants. Le mécanisme de destruction à deux ressorts (L1.C21) est mieux construit que le reste du dispositif. La neutralité monétaire globale du règlement international et la suppression des réserves de change intrazone (L1.C26, L1.C27) sont des propriétés réelles. Une infrastructure commune de règlement multidevise est techniquement réalisable, sur un prototype et pour des opérations de gros. Et le livre concède ses objections les plus dangereuses — Rueff, le seuil d'activation, la contrepartie comptable — au lieu de les esquiver.
 

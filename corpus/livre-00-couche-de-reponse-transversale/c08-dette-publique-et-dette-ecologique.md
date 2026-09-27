@@ -18,7 +18,7 @@ verifications_en_attente:
      relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C13,
      que la limite soit celle du chapitre et non une reformulation, et que le
      renvoi désigne la section qui démontre."
-resume: "La troisième malédiction noue la dette financière des États et la dette écologique. Un État endetté dispose de plusieurs issues, mais celles qui ne passent pas par l'activité, sans être fermées, sont transitoires, coûteuses et combattues par le régime lui-même ; il reste durablement des issues qui exigent de l'activité. Servir la dette financière exige alors une activité qui, sauf découplage absolu, creuse la dette écologique, et réparer celle-ci exige des dépenses financées en aval de cette activité. Le chapitre source ne démontre pas que le nœud soit impossible à défaire : il montre qu'il ne se défait pas de l'intérieur du régime."
+resume: "La troisième malédiction noue la dette financière des États et la dette écologique. Un État endetté dispose de plusieurs issues, mais celles qui ne passent pas par l'activité, sans être fermées, sont transitoires, coûteuses et combattues par le régime lui-même ; il reste durablement des issues qui exigent de l'activité. Servir la dette financière exige alors une activité qui, sauf découplage absolu, creuse la dette écologique, et réparer celle-ci exige des dépenses financées en aval de cette activité. Que le nœud ne se défasse pas de l'intérieur du régime est l'argument que le chapitre défend, et non une impossibilité démontrée : aucune absence d'issue interne n'est établie."
 concepts: [dette_ecologique, noeud_gordien, malediction_monetaire]
 renvois:
   - L1.C13
@@ -44,6 +44,6 @@ découplage absolu — observé localement, non globalement —**, creuse la det
 nouvelles dettes ou par les recettes de cette activité. La fiscalité écologique
 n'en affranchit que partiellement, son assiette s'érodant avec son succès.
 
-::etat:: **Limite.** Le nœud **n'est pas démontré impossible à défaire** — il est montré qu'il ne se défait pas de l'intérieur du régime —, et le mécanisme n'est pas une impossibilité arithmétique.
+::etat:: **Limite.** Que le nœud ne se défasse pas de l'intérieur du régime est **l'argument que le chapitre défend, non une impossibilité démontrée** : aucune absence d'issue interne n'est établie, et le mécanisme n'est pas une impossibilité arithmétique.
 
 **Où cela est démontré** : L1.C13 § 2 « Le mécanisme du nœud » ; limite au § 6 « Portée ».
