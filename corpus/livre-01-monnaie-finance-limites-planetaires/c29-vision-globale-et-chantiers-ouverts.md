@@ -121,7 +121,21 @@ verifications_en_attente:
      (R1) a relevé que le recalcul repose sur la discipline du rédacteur et non sur une
      règle de `controle.py`. Le chiffre n'est pas retiré du corps, l'auteur ayant arrêté
      que l'état du dossier se donne par un relevé (C29 Q1) ; la garantie manquante est
-     donc une dette, et elle est inscrite ici."
+     donc une dette, et elle est inscrite ici.
+     LA DETTE S'EST RÉALISÉE, CONSTATÉ LE 2026-09-27. Le § 6 écrit toujours « dix-huit
+     sont arbitrées, dont seize par l'auteur » et « quarante-sept sont ouvertes ou
+     orientées » ; `corpus/controle.py` rend ce jour DIX-SEPT arbitrées, dont QUINZE
+     par l'auteur et deux par le corpus, et QUARANTE-HUIT ouvertes ou orientées. Trois
+     nombres ont dérivé, non deux.
+     ET LE DÉCLENCHEUR PRÉVU NE POUVAIT PAS SE DÉCLENCHER. Cette vérification fait
+     dépendre le recalcul de « chaque révision de fond DE CE CHAPITRE ». Or
+     `revision_de_fond` vaut 2026-09-20 et le corps n'a pas été réécrit depuis : la
+     dérive vient des arbitrages portés par D'AUTRES chapitres. Le relevé dépend du
+     corpus entier, le déclencheur d'un seul chapitre ; le garde-fou ne peut donc pas
+     atteindre cette classe de dérive, et le recalcul à la révision ne suffit pas.
+     DEUX ISSUES, ET AUCUNE N'EST À MOI : recalculer maintenant, ce qui repousse la
+     même péremption d'un cran ; ou retirer les nombres du corps, ce qui rouvre C29 Q1,
+     arbitré par l'auteur. Inscrit sans être tranché."
   - "LE DÉBITEUR JURIDIQUEMENT IDENTIFIABLE EST UNE OBJECTION À TRANCHER, ET NON UNE
      CONSÉQUENCE ACQUISE. Le § 3 portait « sans débiteur identifié, il n'y a pas de
      créance » comme un résultat. La supervision du 2026-09-19 (L1) a établi que cette
