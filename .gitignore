@@ -62,3 +62,14 @@ Sauvegarde*/
 # Caches Python des pieces executables de modeles/
 __pycache__/
 *.pyc
+
+# S4 du 2026-09-27, decision de l'auteur. Deux dossiers de travail qu'aucun
+# motif ci-dessus n'attrapait.
+# `Codex/` porte les exemplaires de sources et les sauvegardes du relais ;
+# `tmp/` porte des extractions de texte et des brouillons de passage.
+# CE QUE GIT AJOUTERAIT SANS CETTE REGLE, mesure et non suppose : douze
+# fichiers, 2,4 Mo. Les trois archives (93, 83 et 5,7 Mo) sont deja prises
+# par `*.zip` ; ce qui restait exposé, ce sont des PDF d'un contributeur
+# externe et leurs extractions. Le depot est public et sert debunkonomy.org.
+Codex/
+tmp/
