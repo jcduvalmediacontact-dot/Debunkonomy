@@ -1,0 +1,48 @@
+---
+chapitre: L0.C09
+titre: "Verdir le crédit suffirait-il ?"
+livre: 0
+langue: fr
+licence: CC-BY-SA-4.0
+type: synthese
+statut: brouillon
+revision_de_fond: 2026-09-27
+autorite: preparatoire
+citable: false
+regime: descriptif
+sources_primaires: []
+chapitres_sources: [L1.C12]
+verifiee_le: 2026-09-27
+verifications_en_attente:
+  - "BROUILLON DU 2026-09-27, écrit sur le feu vert de l'ordre 3. L'entrée attend la
+     relecture de l'ordre 4 : que la réponse ne dise rien de plus que L1.C12,
+     que la limite soit celle du chapitre et non une reformulation, et que le
+     renvoi désigne la section qui démontre."
+resume: "Verdir le crédit ne suffit pas, et le chapitre source l'établit en écartant l'argument quantitatif ordinaire, que les séries monétaires réfutent. La formulation défendable tient en trois éléments : le service d'un encours croissant exige une expansion nette du crédit indifférente à sa composition ; les capacités financées par le crédit vert s'ajoutent au stock existant tant que les anciennes restent solvables ; et la stabilité des prix plafonne l'érosion des dettes par l'inflation. Il en résulte des découplages sectoriels et nationaux réels sans découplage mondial absolu. Deux des trois éléments sont des hypothèses du chapitre, et le seuil de réfutation n'est pas fixé."
+concepts: [jevons_monetaire, malediction_monetaire, decouplage]
+renvois:
+  - L1.C12
+---
+
+# Verdir le crédit suffirait-il ?
+
+::etat:: Non — et pas pour la raison qu'on avance d'ordinaire.
+**L'argument quantitatif est écarté** : « plus de monnaie, plus de transactions,
+plus d'extraction » est réfuté par les séries monétaires.
+
+::etat:: La formulation défendable tient en trois éléments. Le service d'un
+encours croissant exige une **expansion nette du crédit, indifférente à sa
+composition** : un crédit vert et un crédit brun servent également l'encours.
+
+::hypothese:: Les capacités que finance le crédit vert **s'ajoutent** au stock
+existant tant que les anciennes restent solvables — et les actifs échoués qui
+les retireraient sont précisément ce que la stabilité financière cherche à
+éviter. La stabilité des prix plafonne enfin l'érosion par laquelle l'inflation
+allégeait les dettes.
+
+::etat:: Verdir le crédit produit donc des découplages sectoriels et nationaux
+réels, **sans découplage mondial absolu**.
+
+::etat:: **Limite.** Deux des trois éléments sont **des hypothèses de ce chapitre**, le seuil d'échouage n'est pas fixé, et la réfutabilité n'est donc que de principe.
+
+**Où cela est démontré** : L1.C12 § 2 « L'argument qu'il faut écarter » et § 3 « Le Jevons monétaire, formulé de manière défendable » ; limites aux § 3 et § 6 « Portée ».
