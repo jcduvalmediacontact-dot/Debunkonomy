@@ -5,10 +5,10 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-28
-autorite: preparatoire
-citable: false
+autorite: canonique
+citable: true
 regime: conception
 sources_primaires:
   - ref: S1
@@ -37,7 +37,7 @@ sources_primaires:
     url: "https://ec.europa.eu/eurostat/web/products-statistical-working-papers/-/Stiglitz-Sen-Fitoussi-Commission-report"
     etat_lecture: ouverte
     date_verification: 2026-09-19
-verifications_en_attente:
+verifications_en_attente: []
   # ── ALIGNEMENT DU 2026-09-19 ──────────────────────────
   # Écrit sous `protocoles/architecture-L1-C28.md` (36 énoncés) et sous C28 Q1 du dossier
   # d'édition D107. LES NUMÉROS DE SECTION SONT CONSERVÉS contre le plan en dix sections
