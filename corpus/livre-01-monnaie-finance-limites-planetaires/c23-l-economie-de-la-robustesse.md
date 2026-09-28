@@ -299,9 +299,11 @@ verifications_en_attente:
      d'abord suppose de financer les deux mouvements simultanément, donc une
      émission plus grande que celle du régime permanent. Le livre ne traite pas
      ce régime transitoire."
-  - "OUVERT — L'indicateur. Une économie de la robustesse ne peut pas être
-     pilotée sans mesure de la robustesse, et il n'en existe pas. Renvoi à
-     L1.C28 (« Au-delà du PIB »), qui ne peut pas être une réponse circulaire."
+  - "OUVERT — L'indicateur. Une économie de la robustesse ne peut pas être pilotée
+     sans mesure de la robustesse, et le corpus n'a pas établi de mesure éprouvée
+     pour piloter ce dispositif dans les pièces examinées — ce qui ne démontre pas
+     qu'il n'en existe aucune ailleurs. Renvoi à L1.C28 (« Au-delà du PIB »), qui ne
+     peut pas être une réponse circulaire."
 resume: "Ce chapitre revient sur la question que L1.C04 § 7 avait laissée ouverte — le déplacement d'objectif de la performance vers la robustesse exige-t-il de modifier l'émission monétaire ? — maintenant que le dispositif a été exposé. Il expose d'abord le déplacement conceptuel dont procède le mot : la distinction établie en 1973 entre stabilité, comprise comme vitesse de retour à l'équilibre, et résilience, comprise comme maintien des fonctions à travers le changement, deux propriétés qui peuvent être inversement corrélées ; la robustesse y ajoute l'absorption de perturbations non anticipées. Il établit ensuite ce que cette exigence coûte, et que le livre n'énonce pas : la robustesse a pour signature la redondance, la diversité et la modularité, c'est-à-dire exactement ce que l'optimisation élimine, de sorte qu'un gain de robustesse est une réduction délibérée d'efficacité mesurée dont quelqu'un supporte le prix. Il retient la thèse du blocage structurel dans sa version étroite et refuse sa version forte, conformément à ce que le corpus a établi ailleurs : une économie stationnaire portant une dette à intérêt est possible si les revenus d'intérêts sont redépensés, et la contrainte de croissance est donc conditionnelle et non arithmétique. Il établit que le régime transitoire est pris entre deux contraintes de sens opposé, l'émission anticipée mettant les emplois en concurrence sur des facteurs finis et la contraction anticipée faisant arriver le chômage avant l'emploi qui doit l'absorber. Il formule enfin l'objection centrale : mesuré à ses propres critères, le dispositif présente une architecture centralisée là où la littérature des réseaux de flux recommande la diversité et des voies redondantes [S6] — la modularité, elle, vient du Cahier de l'auteur [S3] et cette voie-là ne l'appuie pas. **L'application de la théorie des zones monétaires à une unité détruite à la conversion est une inférence du corpus, non le résultat de la pièce.** Cette objection atteint ici un seuil, puisqu'elle est arrivée par trois traditions sans rapport entre elles — gouvernance des communs, théorie des réseaux de flux, théorie des zones monétaires — sans que le corpus tire de ce nombre une valeur de preuve : les trois voies n'ont pas convergé d'elles-mêmes, et chacune n'appuie le reproche que sur le point qui lui est propre."
 concepts: [robustesse, resilience, degeneratif, sobriete, essentiel_insolvable, qualification_regenerative, communs]
 renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C28]
@@ -421,7 +423,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::norme:: Ce que le corpus en retient est une exigence de conception, non un verdict : le dispositif doit ou bien adopter une part de polycentricité — norme votée au centre, qualification instruite à l'échelle d'usage (A4) —, ou bien **démontrer** que l'uniformité qu'il retient est le prix nécessaire de la comparabilité du signal. Il ne peut pas se réclamer de la robustesse et laisser la question ouverte.
 
-## 6. Une économie de la robustesse n'a pas d'indicateur éprouvé pour ce dispositif
+## 6. L'indicateur d'une économie de la robustesse reste à établir
 
 ::etat:: Le livre pose que les critères de succès doivent cesser d'être le seul produit intérieur brut et intégrer la santé environnementale, l'équité sociale et la qualité de vie [S1]. La direction est juste et n'est pas propre au livre.
 
@@ -431,7 +433,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::hypothese:: Il en découle une objection que le corpus ajoute contre lui-même, et qui vise la robustesse en tant qu'objectif affiché. Si les agents adaptent leur comportement à la robustesse **perçue**, alors annoncer des redondances et des filets de sécurité incite à prendre davantage de risque ailleurs. La robustesse construite d'un côté est consommée de l'autre. Ce n'est pas un argument contre l'objectif ; c'est la raison pour laquelle il ne peut pas être traité comme une propriété d'architecture acquise une fois pour toutes.
 
-::etat:: Il en résulte que « piloter vers la robustesse » suppose un instrument dont le corpus n'a pas établi l'existence **pour ce dispositif et dans les pièces examinées** — S6 décrit des mesures structurelles, sans qu'elles soient opérationnelles ici, et rien n'établit une inexistence universelle, et que les objections déjà posées sur la métrologie écosystémique (L1.C18 § 5) valent ici avec une difficulté supplémentaire. Le corpus renvoie l'examen des indicateurs à L1.C28, en notant que ce renvoi ne vaudra pas réponse s'il se borne à énumérer des mesures d'état.
+::etat:: Il en résulte que « piloter vers la robustesse » suppose un instrument **que le corpus n'a pas établi pour ce dispositif**, et que les objections déjà posées sur la métrologie écosystémique (L1.C18 § 5) valent ici avec une difficulté supplémentaire. S6 décrit des mesures structurelles de diversité, de connectivité et de voies redondantes ; **leur usage comme instrument de pilotage n'est pas établi dans les pièces examinées**, et le corpus ne conclut de cette lacune ni à leur inaptitude, ni à l'inexistence d'une mesure ailleurs. Le corpus renvoie l'examen des indicateurs à L1.C28, en notant que ce renvoi ne vaudra pas réponse s'il se borne à énumérer des mesures d'état.
 
 ## 7. Portée
 
