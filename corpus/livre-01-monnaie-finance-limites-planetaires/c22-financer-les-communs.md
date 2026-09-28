@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-09-28
 autorite: preparatoire
 citable: false
 regime: conception
@@ -27,11 +27,6 @@ sources_primaires:
     url: "https://doi.org/10.2307/1925895"
     etat_lecture: ouverte
     date_verification: 2026-09-19
-  - ref: S4
-    nature: theorie
-    reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990 — distinction entre ressource en libre accès et ressource commune gouvernée par des règles ; huit principes organisateurs des institutions durables de gestion collective"
-    url: "https://doi.org/10.1017/cbo9780511807763"
-    etat_lecture: a_requalifier
   - ref: S5
     nature: theorie
     reference: "E. Ostrom, « A Polycentric Approach for Coping with Climate Change », World Bank Policy Research Working Paper 5095, octobre 2009 — « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place in a comprehensive and transparent manner that will effectively reduce global warming. Furthermore, simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » (p. 1) ; avantage revendiqué de l'approche polycentrique : « encouraging experimental efforts at multiple levels, leading to the development of methods for assessing the benefits and costs of particular strategies » (p. 5) OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-16, exemplaire acquis à l'adresse https://documents1.worldbank.org/curated/en/480171468315567893/pdf/WPS5095.pdf et versé au dossier (2026-09-16/acquisitions-c17-c30/C22-S5-ostrom-2009-banque-mondiale-wps5095.pdf, 56 pages, SHA-256 EE38A92CA210A491F990979012FBB523449274B49262912685ECB7040AD315F7). LES TROIS CITATIONS DE L'ENTRÉE SONT LUES AU MOT, toutes trois à la page PDF 2 : « single policies adopted only at a global scale are unlikely to generate sufficient trust among citizens and firms so that collective action can take place » ; « simply recommending a single governmental unit to solve global collective action problems is inherently weak because of free-rider problems » ; « encouraging experimental efforts at multiple levels ». Les deux arguments que le corps distingue sont donc bien deux, et le second est bien indépendant du premier."
@@ -40,7 +35,7 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S6
     nature: theorie
-    reference: "G. Hardin, « The Tragedy of the Commons », Science, 162(3859), p. 1243-1248, 13 décembre 1968 — thèse de la surexploitation inévitable d'une ressource partagée sans droits de propriété définis, dont Ostrom établit qu'elle confond libre accès et ressource commune OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-16, exemplaire acquis à l'adresse https://www.jstor.org/stable/1724745 et versé au dossier (2026-09-16/acquisitions-c17-c30/C22-S6-hardin-1968-tragedy-of-the-commons.pdf, 7 pages, SHA-256 823D0549D88B456C39796290285F4D4254FD58D4F7B5585B0D5CF7CAC48FF664). LA THÈSE QUE LE CORPS OPPOSE EST LUE AU MOT : « Freedom in a commons brings ruin to all » (page PDF 2), au terme de la parabole du pâturage ouvert — « herdsman », six occurrences. CE QUE CETTE ENTRÉE ÉTABLIT ET N'ÉTABLIT PAS : elle porte la thèse de 1968, celle que la phrase du corps désigne comme réfutée. **Elle ne porte PAS la réfutation**, qui est attribuée conjointement à [S4], Ostrom 1990, dont aucun exemplaire n'est versé au dossier. La distinction entre libre accès et ressource commune gouvernée n'est pas de Hardin et ne se lit pas ici."
+    reference: "G. Hardin, « The Tragedy of the Commons », Science, 162(3859), p. 1243-1248, 13 décembre 1968 — thèse de la surexploitation inévitable d'une ressource partagée sans droits de propriété définis OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-16, exemplaire acquis à l'adresse https://www.jstor.org/stable/1724745 et versé au dossier (2026-09-16/acquisitions-c17-c30/C22-S6-hardin-1968-tragedy-of-the-commons.pdf, 7 pages, SHA-256 823D0549D88B456C39796290285F4D4254FD58D4F7B5585B0D5CF7CAC48FF664). LA THÈSE QUE LE CORPS OPPOSE EST LUE AU MOT : « Freedom in a commons brings ruin to all » (page PDF 2), au terme de la parabole du pâturage ouvert — « herdsman », six occurrences. CE QUE CETTE ENTRÉE ÉTABLIT ET N'ÉTABLIT PAS : elle porte la thèse de 1968, celle que la phrase du corps désigne comme réfutée. **Elle ne porte PAS la réfutation.** La distinction entre libre accès et ressource commune gouvernée n'est pas de Hardin et ne se lit pas ici. CORRIGÉ le 2026-09-28 : l'entrée écrivait qu'« Ostrom établit » que la thèse « confond libre accès et ressource commune », et qu'aucun exemplaire d'Ostrom n'était au dossier. L'exemplaire y est, [S15] ; et ce qu'il porte est la distinction entre accès libre et accès limité, qu'Ostrom rapporte à Ciriacy-Wantrup et Bishop (1975). Que Hardin ait « confondu » les deux n'est écrit dans aucune des pages lues."
     url: "https://doi.org/10.1126/science.162.3859.1243"
     etat_lecture: ouverte
     date_verification: 2026-09-16
@@ -61,20 +56,11 @@ sources_primaires:
     url: "https://documents.worldbank.org/curated/en/514331468149391238/pdf/772610JRN0WBER0Box0377301B00PUBLIC0.pdf"
     etat_lecture: ouverte
     date_verification: 2026-09-16
-  - ref: S10
-    nature: theorie
-    reference: "F. A. Hayek, « The Use of Knowledge in Society », The American Economic Review, American Economic Association, 35(4), septembre 1945, p. 519-530 — p. 519-520 : « the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form, but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess » ; p. 524 : les données du calcul économique « are never for the whole society “given” to a single mind which could work out the implications and can never be so given »"
-    url: "https://www.jstor.org/stable/1809376"
-    etat_lecture: a_requalifier
   - ref: S11
     nature: normatif
     reference: "Fonds monétaire international, Balance of Payments and International Investment Position Manual, 6e édition (BPM6), et External Debt Statistics: Guide for Compilers and Users (édition 2013) — sous BPM6, adopté par la plupart des États en 2016, les avoirs en droits de tirage spéciaux sont inscrits à l'actif du membre et l'allocation cumulée à son passif, comptabilisée en « autres passifs de dette (long terme) » attribués à la banque centrale et incluse dans la dette extérieure brute ; la cinquième édition n'attachait aucun passif à ces avoirs. Le reclassement procède d'un changement du critère de la dette, passé de l'exigence d'un paiement de principal ET d'intérêt à celle d'un paiement de principal OU d'intérêt. Dans l'analyse de soutenabilité, seule la différence positive entre allocation cumulée et avoirs détenus entre en dette extérieure. Le reclassement est contesté OUVERTE le 2026-09-19 SUR SES DEUX PIÈCES, l'entrée étant composite. (1) C22-S11-fmi-bpm6-2009.pdf, 371 pages, SHA-256 4731D6CF731F3272169170E9FD1A689DCCCFDB08DB5432B3CCD360BF6AD5973A — téléchargé du Fonds le 2026-09-19, identité confirmée en page de titre. (2) C22-S11-fmi-guide-dette-exterieure-2013.pdf, 351 pages, SHA-256 594973AC2D3B70B87C3BDCF9B1D94D6C79194418D040EFE033A34DDC2E35B5CC — identifié PAR SON CONTENU sur le Drive de l'auteur, où il portait un nom opaque, puis copié au Codex. RELECTURE : l'énoncé du corps est au mot au § 5.35 de BPM6 — « Holdings of SDRs by an IMF member are recorded as an asset, while the allocation of SDRs is recorded as the incurrence of a liability of the member receiving them (because of a requirement to repay the allocation in certain circumstances, and also because interest accrues) ». LE CHANGEMENT PAR RAPPORT À LA CINQUIÈME ÉDITION EST ÉTABLI PAR LE MANUEL LUI-MÊME : son tableau des modifications renvoie « The allocation of SDRs is shown as a financial account flow in other investment (paragraph 8.50; BPM5 paragraph 440) ». Le § 8.50 confirme l'écriture symétrique : passif en autres investissements, avoir en actifs de réserve"
     etat_lecture: ouverte
     date_verification: 2026-09-19
-  - ref: S12
-    nature: theorie
-    reference: "W. J. Baumol, J. C. Panzar, R. D. Willig, Contestable Markets and the Theory of Industry Structure, Harcourt Brace Jovanovich, 1982 — sous-additivité des coûts et définition du monopole naturel ; une tarification au coût marginal ne couvre pas les coûts fixes dans une industrie à rendements croissants, ce qui constitue une défaillance allocative indépendante des propriétés de rivalité et d'exclusivité du bien produit"
-    etat_lecture: a_requalifier
   - ref: S13
     nature: theorie
     reference: "K. J. Arrow, « Economic Welfare and the Allocation of Resources for Invention », in R. R. Nelson (dir.), The Rate and Direction of Inventive Activity: Economic and Social Factors, National Bureau of Economic Research et Princeton University Press, 1962, p. 609-626 — non-appropriabilité de l'information produite par l'invention et sous-investissement du marché en recherche ; la littérature qui en découle documente en retour la captation des allocations administrées par les organisations les mieux constituées OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-16, exemplaire acquis à l'adresse https://www.nber.org/system/files/chapters/c2144/c2144.pdf et versé au dossier (2026-09-16/acquisitions-c17-c30/C22-S13-arrow-1962-economic-welfare-invention.pdf, 19 pages, SHA-256 4897CAD0384CEFD1BB08CF980874BB2AC4759861DDCAA57B8D79A450D66A56AB). L'ÉNONCÉ QUE LE CORPS APPUIE EST PORTÉ : la non-appropriabilité de l'information — « appropriab », six occurrences à partir de la page PDF 2 — et le sous-investissement qui en découle — « underinvestment », trois occurrences à partir de la page PDF 5. CE QUE CETTE PIÈCE EST : le chapitre tel que le National Bureau of Economic Research le publie dans le volume de 1962 dirigé par R. R. Nelson. CE QU'ELLE NE PORTE PAS, et l'entrée le dit déjà : la captation des allocations administrées par les organisations les mieux constituées est une littérature ultérieure, non un énoncé d'Arrow."
@@ -87,20 +73,48 @@ sources_primaires:
     url: "https://doi.org/10.1086/260580"
     etat_lecture: ouverte
     date_verification: 2026-09-16
-verifications_en_attente:
-  - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
-     CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
-     première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
-     été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
-     BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
-     la première ne sont pas renommées mais réécrites — « échappement à la
-     qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
-     désignait une qualification comptable et non le dispositif."
-  - "S10 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : `hayek.pdf` fait treize pages et porte
-     ZÉRO caractère extractible. C'est un SCAN SANS COUCHE DE TEXTE, qui ne vaut pas
-     ouverture. Le nombre de pages concorde avec l'article de 1945 (p. 519-530) : la
-     pièce est vraisemblablement la bonne, mais elle n'est pas lisible par script et
-     cette session n'a pas de rendu PDF permettant de la lire à l'œil."
+  - ref: S15
+    nature: theorie
+    reference: "E. Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press, 1990, collection « The Political Economy of Institutions and Decisions ». ENTRÉE CRÉÉE le 2026-09-28 : l'ancienne entrée S4, `a_requalifier`, n'avait jamais d'exemplaire ; aucun numéro n'est réattribué. OUVERTE le 2026-09-28 sur l'exemplaire fourni par l'auteur (2026-09-28/courses-livre-1/fournis/Ostrom - Governing the Commons - livre numerise.pdf, 295 pages, 42 197 237 octets, SHA-256 4F967340339E408E3F6256197530CC284A58C22A1D4F8CF899409475CAC18976), identifié sur sa page de copyright (page PDF 4) : « © Cambridge University Press 1990 », « First published 1990 », réimpressions jusqu'en 2003. C'EST UNE NUMÉRISATION, ET SA RECONNAISSANCE DE CARACTÈRES EST BRUITÉE : les passages ci-dessous sont rétablis à la lecture, et un contrôle par script au mot près peut échouer sur une lettre. FOLIO = PAGE DU FICHIER MOINS 14. LU : les folios 26-27 (portée de l'enquête), 48 (libre accès et accès limité), 69 à 88 (huertas espagnoles, zanjeras philippines), 90 (tableau des principes), 91, et la note 23 du chapitre 2 (folio 222). NON LU : le reste de l'ouvrage, dont les chapitres 4 à 6. Passages lus : « In an open-access CPR, in which no limit is placed on who can appropriate, […] Rent dissipation is likely to be endemic. […] In a limited-access CPR, in which a well-defined group of appropriators must jointly rely on a CPR for access to resource units, the incentives facing the appropriators will depend on the rules governing the quantity, timing, location, and technology of appropriation and how these are monitored and enforced. » (folio 48) ; « Ciriacy-Wantrup and Bishop (1975) carefully distinguished between an open access CPR, in which no one has any property rights, and a closed-access CPR, in which a well-defined group owns property in common. “Common-property resources” is a term that is still used inappropriately in many instances to refer to both » (note 23, folio 222) ; zanjeras : « Each atar-holder is obligated to contribute one day's work during each work season declared by the zanjera, plus a share of the material required at construction time » (folio 82) ; huertas d'Alicante : « The regular expenses of the community are assessed against the holders of all water rights », et le barrage de Tibi, dont les droits d'eau nouveaux reviennent aux propriétaires « whose assessments paid for the dam » (folios 78 et 80) ; tableau 3.1, sept principes « plus an eighth principle used in the larger, more complex cases » (folio 90). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : trois choses. Elle borne son enquête : « I focus entirely on small-scale CPRs, where the CPR is itself located within one country and the number of individuals affected varies from 50 to 15,000 persons » (folio 26). Elle écarte de son champ ce que ce chapitre veut financer : sont retenues les situations « in which the users can substantially harm one another, but not situations in which participants can produce major external harm for others. Thus, all asymmetrical pollution problems are excluded » (folio 26). Et elle tient sa propre liste pour provisoire : « This list of design principles is still quite speculative. I am not yet willing to argue that these design principles are necessary conditions » (folio 90). La distinction entre libre accès et accès fermé n'est pas d'elle : elle la rapporte à Ciriacy-Wantrup et Bishop (1975), qui ne sont pas ouverts. MÊME OUVRAGE que L1.C15 [S4], `ouverte` le 2026-09-13."
+    url: "https://doi.org/10.1017/cbo9780511807763"
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+  - ref: S16
+    nature: theorie
+    reference: "F. A. Hayek, « The Use of Knowledge in Society », édition en ligne de la Library of Economics and Liberty, qui reproduit l'article paru dans The American Economic Review, 35(4), septembre 1945, p. 519-530. ENTRÉE CRÉÉE le 2026-09-28 : l'ancienne entrée S10, `a_requalifier`, renvoyait à la mise en pages de la revue, dont le seul exemplaire au dossier est un scan sans couche de texte ; aucun numéro n'est réattribué. OUVERTE PAR VERSEMENT depuis L1.C18 [S10] le 2026-09-28, sur le même exemplaire (2026-09-16/acquisitions-c17-c30/C18-S10-hayek-1945-use-of-knowledge.html, 145 749 octets, SHA-256 8DF45DFBA359BF9805670CB54B560B6CBDF33BC862092349A0C089DB20A51AE2), acquis à l'adresse que la page déclare elle-même, https://www.econlib.org/library/Essays/hykKnw.html. CE QUE CETTE PIÈCE EST ET N'EST PAS : le texte intégral de l'article, sections I à VII et sa note ; ce n'est pas la mise en pages de la revue, et aucune page n'est donc citée. LU le 2026-09-28 : l'article en entier. Passages lus, au mot : « the “data” from which the economic calculus starts are never for the whole society “given” to a single mind which could work out the implications and can never be so given » (section I) ; « the knowledge of the circumstances of which we must make use never exists in concentrated or integrated form but solely as the dispersed bits of incomplete and frequently contradictory knowledge which all the separate individuals possess » (section I) ; « the knowledge of the particular circumstances of time and place » (section III) ; « central planning based on statistical information by its nature cannot take direct account of these circumstances of time and place » (section IV). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : deux choses. Elle accorde le point à l'expertise pour la connaissance scientifique — « as far as scientific knowledge is concerned, a body of suitably chosen experts may be in the best position to command all the best knowledge available » (section III) — : son objection ne porte que sur l'autre connaissance. Et le remède qu'elle défend est le système de prix — « a mechanism for communicating information » (section VI) — : elle ne dit rien d'une organisation polycentrique, et rien d'un bien qui n'a pas de prix."
+    url: "https://www.econlib.org/library/Essays/hykKnw.html"
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+  - ref: S17
+    nature: theorie
+    reference: "W. J. Baumol, J. C. Panzar, R. D. Willig, Contestable Markets and the Theory of Industry Structure, Harcourt Brace Jovanovich, New York, 1982 — chapitre 2, « Industry Structure and Performance in Perfectly Contestable Markets », section 2A, « Basic Cost Concepts ». ENTRÉE CRÉÉE le 2026-09-28 : l'ancienne entrée S12, `a_requalifier`, n'avait jamais d'exemplaire ; aucun numéro n'est réattribué. OUVERTE le 2026-09-28 sur l'exemplaire fourni par l'auteur (2026-09-28/courses-livre-1/fournis/Baumol Panzar Willig - Contestable Markets and the Theory of Industry Structure - livre numerise.pdf, 552 pages, 26 916 688 octets, SHA-256 82653DFF00821D1C3A3241FE370029EBF620B8A7354D2F763D9DF572B40863B7), numérisation de l'Internet Archive, identifiée sur sa page de titre et son copyright : « Copyright © 1982 by Harcourt Brace Jovanovich, Inc. ». FOLIO = PAGE DU FICHIER MOINS 36. LU : les folios 15 à 18 et 21 à 22, en entier. NON LU : le reste de l'ouvrage, dont tout le cas à plusieurs produits. Passages lus, au mot : « Definition 2A2: Natural Monopoly. An industry is said to be a natural monopoly if, over the entire relevant range of outputs, the firms' cost function is subadditive. » (folio 17) ; « a cost function is subadditive at output y if it is more expensive for two or more firms to produce y than it is for y to be produced by a single firm » (folio 17) ; « the revenues collected by pricing at marginal cost […] cover the firm's costs […] if and only if S < 1, that is, if there are nonincreasing returns to scale » (folio 22). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : elle réfute l'énoncé que ce chapitre lui prêtait. « Conventional wisdom sometimes suggests that scale economies and natural monopoly are synonymous and that a natural monopoly cannot cover its costs via marginal cost pricing. […] We will see in this chapter that none of these views is quite correct. » (folio 16) ; « natural monopoly is not, in general, a sufficient condition for marginal cost pricing to be unprofitable » (folio 16) ; « contrary to widespread belief, a natural monopoly can sometimes set optimal prices in accord with the Hotelling (1938) rule, p = MC, and yet be profitable » (folio 22). Les pages lues traitent du cas à un seul produit et ne disent rien des réseaux d'eau, d'assainissement, d'électricité ou de transport."
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+verifications_en_attente: []
+  # RÈGLES V2 ET W2 DE L'AUTEUR, 2026-09-28. Les dix-sept lignes de ce chapitre sont
+  # traitées plus bas ; leur texte d'origine est conservé.
+  # TROIS ENTRÉES RETIRÉES le 2026-09-28, toutes `a_requalifier` et jamais ouvertes ;
+  # leurs occurrences demeurent au manifeste : S4, Ostrom 1990, remplacée par S15 ;
+  # S10, Hayek 1945 dans la mise en pages de la revue, remplacée par S16 ; S12, Baumol,
+  # Panzar et Willig 1982, remplacée par S17. Corriger la référence d'une entrée
+  # `a_requalifier` lui fait perdre son état (E-L6) : d'où des entrées neuves.
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est la trace d'un renommage appliqué le 2026-09-20. Conservée ci-dessous.
+  # Texte d'origine :
+  #   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
+  #   CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
+  #   première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
+  #   été classée avant d'être touchée, entre QUALIFICATION DE DETTE, ABSENCE DE CRÉANCE
+  #   BILATÉRALE et ARCHITECTURE DU REFLUX COLLECTIF. Les occurrences qui relevaient de
+  #   la première ne sont pas renommées mais réécrites — « échappement à la
+  #   qualification de dette », « sans inscrire de dette » — parce que l'ancien nom y
+  #   désignait une qualification comptable et non le dispositif."
+  # SOLDÉE le 2026-09-28 — LE SCAN N'EST PAS EMPLOYÉ. L'article est ouvert sur l'édition en ligne déjà versée pour L1.C18 [S10], entrée S16, lue en entier ; aucune page de la revue n'est citée.
+  # Texte d'origine :
+  #   - "S10 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : `hayek.pdf` fait treize pages et porte
+  #   ZÉRO caractère extractible. C'est un SCAN SANS COUCHE DE TEXTE, qui ne vaut pas
+  #   ouverture. Le nombre de pages concorde avec l'article de 1945 (p. 519-530) : la
+  #   pièce est vraisemblablement la bonne, mais elle n'est pas lisible par script et
+  #   cette session n'a pas de rendu PDF permettant de la lire à l'œil."
   # ── ALIGNEMENT DU 2026-09-19 ──────────────────────────
   # Écrit sous `protocoles/architecture-L1-C22.md` (46 énoncés), sous C22 Q4 du dossier
   # d'édition D107, sous D98 (périmètre) et D92 (branches de l'unité).
@@ -132,61 +146,91 @@ verifications_en_attente:
   # LE REVERS DE LA CAPTATION (§ 3) N'EST PLUS ATTRIBUÉ À [S13], qui ne le porte pas et le
   # dit dans sa propre entrée : il est énoncé au nom du corpus, et sa littérature n'est pas
   # ouverte.
-  - "S4 — OSTROM 1990 N'EST PAS AU DOSSIER, et le § 1 comme le § 2 lui font porter le
-     premier résultat du chapitre : la distinction libre accès / commun gouverné, et le
-     caractère non monétaire du financement dans les cas des huertas et des zanjeras.
-     L'ouvrage est sous droits et la contrainte de l'auteur du 2026-09-19 exclut
-     l'acquisition payante. Deux issues : un exemplaire légal et libre, ou les pages
-     relevées par l'auteur. NE CITER AUCUNE PAGE tant qu'il n'est pas ouvert."
-  - "S10 — HAYEK 1945 À OUVRIR. Le § 2 lui fait porter le constat de la connaissance
-     dispersée. L'article de l'American Economic Review est largement diffusé ; UNE VERSION
-     LIBRE N'EST PAS TOUJOURS LA MÊME PIÈCE, et l'édition doit être identifiée avant de dater
-     l'ouverture."
-  - "S12 — PAGE DE LA SOUS-ADDITIVITÉ À DONNER. Le § 1 fait porter à l'ouvrage la
-     définition du monopole naturel par la structure des coûts, qui commande la quatrième
-     entrée de la typologie. L'ouvrage est sous droits."
-  - "S7 — CE QUI MANQUE ENCORE APRÈS L'OUVERTURE DU 2026-09-19 : l'article XX des statuts
-     du Fonds (intérêts et commissions), qui porterait la commission sur l'allocation
-     cumulée nette. L'eLibrary et le PDF des statuts ont tous deux répondu 403. L'article
-     XVIII est acquis au Codex et non ouvert. LE CORPS NE FAIT PORTER À [S7] AUCUN ÉNONCÉ
-     SUR LES INTÉRÊTS : le motif du passif vient de [S11]."
-  - "S8 — DÉCISION 1/CMA.6 À OUVRIR si la comparaison de Bakou reste au § 4. Le corps lui
-     fait porter deux choses : le chiffre de 300 milliards par an à l'horizon 2035 contre
-     1 300 réclamés, et la composition de l'assiette (flux des banques multilatérales et
-     financements privés entraînés, non des dons budgétaires). Texte officiel en accès libre."
-  - "S11 — LA RÉVISION 2025 DE LA NORME N'EST PAS DANS CETTE ENTRÉE. Le § 4 ne s'en
-     prévaut que par ce que le Livre 19 en rapporte, et le dit. À verser ici si le chapitre
-     doit citer l'édition en vigueur plutôt que la sixième."
-  - "LA CAPTATION DES ALLOCATIONS ADMINISTRÉES (§ 3) N'A PAS DE SOURCE PROPRE. L'énoncé est
-     porté au nom du corpus. À sourcer sur la littérature postérieure à Arrow, ou à laisser
-     ainsi."
-  - "LA CLÉ DE RÉPARTITION N'EST PAS ÉCRITE, et c'est le contenu politique du dispositif.
-     Sa forme est arbitrée ; son contenu, son autorité concrète et l'échelle à laquelle
-     elle descend ne le sont pas, non plus que le sort des allocations prises sous un
-     calibrage antérieur. Le § 4 expose les trois branches et les conditions cumulées de
-     défendabilité. Chantier de conception, non vérification documentaire ; vit au Livre 11."
-  - "QUI LE SIGNAL DE PRIX EXCLUT N'A JAMAIS ÉTÉ INSTRUIT. Franchise, compensation en aval,
-     sortie d'assiette : trois réponses nommées au § 4, aucune étudiée. C'est ce que
-     l'exigence du livre d'accompagner les populations fragilisées rencontre."
-  - "CENTRALISATION OU POLYCENTRICITÉ : AUCUNE DÉCISION DE L'AUTEUR. Le § 2 expose que
-     l'option localise le constat et laisse les valeurs centrales, et qu'elle place à
-     l'échelle locale la décision la plus capturable. À trancher, ou à laisser exposé."
-  - "LE PÉRIMÈTRE ENTIER RESTE OUVERT après l'orientation du 2026-09-17 : la délimitation
-     dans le régime des services, où seule une norme votée tient lieu de critère, et les
-     seuils du critère du caractère essentiel. Le § 1 et le § 6 le disent."
-  - "LA FORMULE D'AFFECTATION DE L'EXCÉDENT DU REFLUX N'EST PAS ÉCRITE au-delà de sa
-     première destination, et l'échappement du dispositif à la qualification de dette en dépend. Trois branches
-     au § 1 : dépenser, conserver, redistribuer. Commun avec L1.C18, L1.C19 et L1.C21."
-  - "LA NATURE DU PASSIF ATTEND UNE REVUE PAR UN COMPTABLE NATIONAL. L'obligation présente
-     est identifiée — l'intérêt, non le rachat, conditionnel — ; l'exigibilité, la
-     contrepartie et l'extinction ne le sont pas. Le test du § 4 reste conditionnel tant
-     que cette revue n'a pas eu lieu."
-  - "L'ÉVICTION RÉELLE N'EST PAS MESURÉE, et les deux réponses nommées pour un pilote
-     — analyse préalable des capacités, interruption automatique — ne sont pas éprouvées.
-     Travail empirique, non documentaire. Première dimension du test de l'apport propre."
-  - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
-     propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement.
-     Le chapitre ne conclut nulle part qu'un mécanisme monétaire est requis."
+  # SOLDÉE le 2026-09-28 — L'AUTEUR A FOURNI L'EXEMPLAIRE le 2026-09-28 : entrée S15, ouverte, folios cités. LA LECTURE A CORRIGÉ LE CORPS SUR TROIS POINTS : la distinction est rapportée par Ostrom à des travaux de 1975 ; le financement est monétaire dans les huertas ; l'enquête écarte les pollutions asymétriques.
+  # Texte d'origine :
+  #   - "S4 — OSTROM 1990 N'EST PAS AU DOSSIER, et le § 1 comme le § 2 lui font porter le
+  #   premier résultat du chapitre : la distinction libre accès / commun gouverné, et le
+  #   caractère non monétaire du financement dans les cas des huertas et des zanjeras.
+  #   L'ouvrage est sous droits et la contrainte de l'auteur du 2026-09-19 exclut
+  #   l'acquisition payante. Deux issues : un exemplaire légal et libre, ou les pages
+  #   relevées par l'auteur. NE CITER AUCUNE PAGE tant qu'il n'est pas ouvert."
+  # SOLDÉE le 2026-09-28 — OUVERTE, entrée S16, l'édition étant identifiée et déclarée : c'est celle de la Library of Economics and Liberty, non la mise en pages de la revue. Deux bornes de la pièce sont portées au § 2.
+  # Texte d'origine :
+  #   - "S10 — HAYEK 1945 À OUVRIR. Le § 2 lui fait porter le constat de la connaissance
+  #   dispersée. L'article de l'American Economic Review est largement diffusé ; UNE VERSION
+  #   LIBRE N'EST PAS TOUJOURS LA MÊME PIÈCE, et l'édition doit être identifiée avant de dater
+  #   l'ouverture."
+  # SOLDÉE le 2026-09-28 — PAGE DONNÉE : définition 2A2, folio 17, entrée S17. ET LA LECTURE A RENVERSÉ L'ÉNONCÉ DU § 1 : la pièce écrit qu'un monopole naturel peut tarifer au coût marginal et rester rentable ; ce qui fait le déficit est le rendement croissant.
+  # Texte d'origine :
+  #   - "S12 — PAGE DE LA SOUS-ADDITIVITÉ À DONNER. Le § 1 fait porter à l'ouvrage la
+  #   définition du monopole naturel par la structure des coûts, qui commande la quatrième
+  #   entrée de la typologie. L'ouvrage est sous droits."
+  # SOLDÉE le 2026-09-28 — SANS OBJET POUR CE CHAPITRE : le corps ne fait porter à [S7] aucun énoncé sur les intérêts. Le motif du passif est appuyé sur [S11] au § 4 : « parce qu'un intérêt court ». L'article XX des statuts n'est pas ouvert et n'est pas invoqué.
+  # Texte d'origine :
+  #   - "S7 — CE QUI MANQUE ENCORE APRÈS L'OUVERTURE DU 2026-09-19 : l'article XX des statuts
+  #   du Fonds (intérêts et commissions), qui porterait la commission sur l'allocation
+  #   cumulée nette. L'eLibrary et le PDF des statuts ont tous deux répondu 403. L'article
+  #   XVIII est acquis au Codex et non ouvert. LE CORPS NE FAIT PORTER À [S7] AUCUN ÉNONCÉ
+  #   SUR LES INTÉRÊTS : le motif du passif vient de [S11]."
+  # SOLDÉE le 2026-09-28 — L'ENTRÉE PORTE CE QUE LA LIGNE RÉCLAME. S8 est `ouverte` depuis le 2026-09-19 et donne au mot les deux choses que le § 4 lui fait porter : « of at least USD 300 billion per year by 2035 » et l'appel à 1 300 milliards (§§ 7 et 8 de la décision), et la composition de l'assiette, § 8 (a) et (c).
+  # Texte d'origine :
+  #   - "S8 — DÉCISION 1/CMA.6 À OUVRIR si la comparaison de Bakou reste au § 4. Le corps lui
+  #   fait porter deux choses : le chiffre de 300 milliards par an à l'horizon 2035 contre
+  #   1 300 réclamés, et la composition de l'assiette (flux des banques multilatérales et
+  #   financements privés entraînés, non des dons budgétaires). Texte officiel en accès libre."
+  # SOLDÉE le 2026-09-28 — LIMITE PORTÉE AU § 4 (règle W2) : « La norme a par ailleurs été révisée en 2025, et cette révision est lue au Livre 19 ; le présent chapitre ne s'en prévaut pas au-delà de ce que ce livre en rapporte. » Le chapitre cite la sixième édition et date chaque énoncé.
+  # Texte d'origine :
+  #   - "S11 — LA RÉVISION 2025 DE LA NORME N'EST PAS DANS CETTE ENTRÉE. Le § 4 ne s'en
+  #   prévaut que par ce que le Livre 19 en rapporte, et le dit. À verser ici si le chapitre
+  #   doit citer l'édition en vigueur plutôt que la sixième."
+  # SOLDÉE le 2026-09-28 — LIMITE PORTÉE AU § 3 (règle W2), sous `::hypothese::` : « Le revers de cet argument est porté ici au nom du corpus, et non attribué à [S13], qui ne l'énonce pas […]. C'est une littérature ultérieure, que le corpus n'a pas ouverte. »
+  # Texte d'origine :
+  #   - "LA CAPTATION DES ALLOCATIONS ADMINISTRÉES (§ 3) N'A PAS DE SOURCE PROPRE. L'énoncé est
+  #   porté au nom du corpus. À sourcer sur la littérature postérieure à Arrow, ou à laisser
+  #   ainsi."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6 : « La clé de répartition. Sa forme est arbitrée, son contenu et son autorité ne le sont pas ». Non tranchée.
+  # Texte d'origine :
+  #   - "LA CLÉ DE RÉPARTITION N'EST PAS ÉCRITE, et c'est le contenu politique du dispositif.
+  #   Sa forme est arbitrée ; son contenu, son autorité concrète et l'échelle à laquelle
+  #   elle descend ne le sont pas, non plus que le sort des allocations prises sous un
+  #   calibrage antérieur. Le § 4 expose les trois branches et les conditions cumulées de
+  #   défendabilité. Chantier de conception, non vérification documentaire ; vit au Livre 11."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6, ajoutée ce jour, et portée au § 4. Non tranchée.
+  # Texte d'origine :
+  #   - "QUI LE SIGNAL DE PRIX EXCLUT N'A JAMAIS ÉTÉ INSTRUIT. Franchise, compensation en aval,
+  #   sortie d'assiette : trois réponses nommées au § 4, aucune étudiée. C'est ce que
+  #   l'exigence du livre d'accompagner les populations fragilisées rencontre."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6 : « aucune décision de l'auteur ne la tranche ». Non tranchée.
+  # Texte d'origine :
+  #   - "CENTRALISATION OU POLYCENTRICITÉ : AUCUNE DÉCISION DE L'AUTEUR. Le § 2 expose que
+  #   l'option localise le constat et laisse les valeurs centrales, et qu'elle place à
+  #   l'échelle locale la décision la plus capturable. À trancher, ou à laisser exposé."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6 : « Le périmètre. Il est orienté et non arbitré ». Non tranchée.
+  # Texte d'origine :
+  #   - "LE PÉRIMÈTRE ENTIER RESTE OUVERT après l'orientation du 2026-09-17 : la délimitation
+  #   dans le régime des services, où seule une norme votée tient lieu de critère, et les
+  #   seuils du critère du caractère essentiel. Le § 1 et le § 6 le disent."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6, ajoutée ce jour, et portée au § 1. Non tranchée.
+  # Texte d'origine :
+  #   - "LA FORMULE D'AFFECTATION DE L'EXCÉDENT DU REFLUX N'EST PAS ÉCRITE au-delà de sa
+  #   première destination, et l'échappement du dispositif à la qualification de dette en dépend. Trois branches
+  #   au § 1 : dépenser, conserver, redistribuer. Commun avec L1.C18, L1.C19 et L1.C21."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6 : « la revue par un comptable national est la seule voie. Le test du principal ou de l'intérêt reste donc conditionnel. » Non tranchée, et aucune relecture par un modèle n'en tient lieu.
+  # Texte d'origine :
+  #   - "LA NATURE DU PASSIF ATTEND UNE REVUE PAR UN COMPTABLE NATIONAL. L'obligation présente
+  #   est identifiée — l'intérêt, non le rachat, conditionnel — ; l'exigibilité, la
+  #   contrepartie et l'extinction ne le sont pas. Le test du § 4 reste conditionnel tant
+  #   que cette revue n'a pas eu lieu."
+  # DÉPLACÉE AU § 6 le 2026-09-28 — QUESTION OUVERTE, écrite au § 6 et portée au § 5 : « Deux réponses sont nommées pour un pilote, et ni l'une ni l'autre n'est éprouvée ». Non tranchée.
+  # Texte d'origine :
+  #   - "L'ÉVICTION RÉELLE N'EST PAS MESURÉE, et les deux réponses nommées pour un pilote
+  #   — analyse préalable des capacités, interruption automatique — ne sont pas éprouvées.
+  #   Travail empirique, non documentaire. Première dimension du test de l'apport propre."
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est une consigne de rédaction, contrôlée à l'alignement.
+  # Texte d'origine :
+  #   - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
+  #   propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement.
+  #   Le chapitre ne conclut nulle part qu'un mécanisme monétaire est requis."
 resume: "Ce chapitre établit ce que le dispositif financerait, dans quelles limites et comment le volume se partagerait, et il établit qu'aucune des trois questions n'a de réponse écrite. Le mot « communs » réunit trois catégories dont les défaillances et les remèdes diffèrent, plus une quatrième entrée hors grille — le monopole naturel des réseaux, dont le remède éprouvé n'a rien de monétaire. Le périmètre est orienté et non arbitré : les infrastructures critiques y entrent sous le test de l'apport propre, sans aucune présomption en faveur de l'émission, et la charge de la preuve est une comparaison au meilleur portefeuille institutionnellement réalisable. L'alternative entre l'impôt et le marché est incomplète : une troisième voie existe, et l'auteure qui l'a établie argumente contre l'échelle mondiale unique — objection que le corpus localise sur la fixation des valeurs, ayant renoncé au score unique et à l'instance unique. La ligne entre l'essentiel insolvable et l'échec commercial tient là où un état physique se mesure, à condition que la mesure soit extérieure aux déclarations, et cède dans le régime des services, où la promesse arrêtée ajoute une condition de réalisabilité matérielle qui mord. Le seul précédent réel — l'allocation de droits de tirage spéciaux de 2021, la plus importante à ce jour — n'échappe pas à la qualification de dette : la norme statistique motive le passif par un remboursement dû dans certaines circonstances et par un intérêt qui court. Le chapitre en tire un test extérieur et vérifiable, et il établit que son résultat dépend de la branche d'unité : l'unité du livre le passe, la branche que le corpus modélise en priorité ne la passe pas. Il établit enfin que l'effet obtenu n'est pas le volume émis, sous trois formes séparées d'éviction, et que la clé de répartition porte tout le contenu politique du dispositif sans être écrite."
 concepts: [communs, additionnalite, essentiel_insolvable, qualification_regenerative, creation_monetaire, degeneratif]
 renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10, L1.C31, L11.C05, L11.C13, L11.C16, L19.C08, L19.C09, L20.C17]
@@ -206,13 +250,13 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::etat:: **Les biens de consommation collective.** La recherche fondamentale, les connaissances ouvertes, la stabilité d'un climat : la jouissance de l'un ne retranche rien à celle des autres, et nul n'en est exclu. C'est la définition posée en 1954, dont il découle qu'aucun système de prix décentralisé ne peut en déterminer le niveau optimal [S3]. Le corpus l'a déjà établi et ne le refait pas (L1.C19 § 2).
 
-::etat:: **Les ressources communes.** Une pêcherie, une nappe, un sol, une forêt : le prélèvement de l'un retranche à ce qui reste, mais l'exclusion y est coûteuse ou impossible. La défaillance n'est pas ici l'absence de financement, c'est la congestion. Et le remède documenté n'est pas un paiement : c'est une règle d'accès. C'est le point qu'établit la littérature qui a fait l'inventaire empirique de ces institutions, contre la thèse qui tenait leur effondrement pour inévitable — laquelle confondait une ressource en libre accès, ouverte à tous sans règle, et une ressource commune, ouverte à un collectif défini selon des règles élaborées et respectées [S4], [S6].
+::etat:: **Les ressources communes.** Une pêcherie, une nappe, un sol, une forêt : le prélèvement de l'un retranche à ce qui reste, mais l'exclusion y est coûteuse ou impossible. La défaillance n'est pas ici l'absence de financement, c'est la congestion. Et le remède documenté n'est pas un paiement : c'est une règle d'accès. La thèse qui tenait leur ruine pour inévitable raisonnait sur un pâturage ouvert à tous [S6]. L'enquête qui a fait l'inventaire empirique de ces institutions sépare deux situations : la ressource en libre accès, où rien ne limite qui prélève et où la dissipation de la rente est la règle, et la ressource en accès limité, où un groupe défini dépend des règles qu'il se donne sur la quantité, le moment, le lieu et la technique du prélèvement, et de la façon dont elles sont surveillées [S15]. **Elle rapporte cette distinction à des travaux de 1975 que le corpus n'a pas ouverts**, et relève que le terme de propriété commune est encore employé à tort pour les deux.
 
 ::hypothese:: **Les services rivaux et exclusifs tenus pour essentiels.** Le soin, l'enseignement, l'accompagnement. Ceux-là sont rivaux et parfaitement exclusifs : des cliniques et des écoles se vendent tous les jours. Le marché sait les produire, et il le fait. Ce que la démarche refuse est que la capacité de payer en rationne l'accès. La défaillance est ici distributive, non allocative — et il en découle qu'un transfert y répond, non une correction de prix.
 
 ::etat:: **Cette prémisse distributive doit être rapportée à la promesse que l'auteur a arrêtée, et elle en sort plus étroite.** Ce qui est garanti est la disponibilité du financement pour les besoins essentiels matériellement réalisables, dans les limites écologiques reconnues et sous contrôle démocratique. **La promesse porte sur la disponibilité du financement, non sur l'accès effectif au service** — et sa condition de réalisabilité matérielle mord précisément sur les services, comme le § 3 l'établit.
 
-::etat:: **Une quatrième entrée est nécessaire, et elle ne relève pas de la même grille.** La rivalité et l'exclusivité classent les biens par leurs propriétés d'usage ; elles n'épuisent pas les défaillances de marché, parce qu'une défaillance peut venir de la structure des coûts. Un réseau d'eau, un réseau d'assainissement, un réseau électrique, une infrastructure de transport collectif produisent un bien parfaitement rival et exclusif, et sont pourtant des monopoles naturels : les coûts y sont sous-additifs, une firme unique dessert le marché à moindre coût que plusieurs, et une tarification au coût marginal ne couvre pas les coûts fixes [S12]. Leur défaillance est donc allocative, et non distributive. **Le remède y est établi de longue date et il n'a rien de monétaire** — tarification régulée, obligation de service, investissement public amorti sur des décennies.
+::etat:: **Une quatrième entrée est nécessaire, et elle ne relève pas de la même grille.** La rivalité et l'exclusivité classent les biens par leurs propriétés d'usage ; elles n'épuisent pas les défaillances de marché, parce qu'une défaillance peut venir de la structure des coûts. Un réseau d'eau, un réseau d'assainissement, un réseau électrique, une infrastructure de transport collectif produisent un bien parfaitement rival et exclusif, et sont pourtant tenus pour des monopoles naturels. La définition est celle de la sous-additivité des coûts : une firme unique produit la quantité demandée à moindre coût que plusieurs [S17]. **Le corpus écrivait qu'un monopole naturel ne couvre pas ses coûts en tarifant au coût marginal, et la pièce qu'il invoquait dit le contraire** : le monopole naturel n'est pas, en général, une condition suffisante pour que cette tarification soit déficitaire ; elle couvre les coûts si et seulement si les rendements d'échelle ne sont pas croissants, et un monopole naturel peut donc tarifer au coût marginal et rester rentable [S17]. **Ce qui fait le déficit, ce sont les rendements croissants, non le monopole naturel.** Que les réseaux cités soient en rendements croissants à leur niveau de production est une prémisse du corpus, plausible là où les coûts fixes dominent, et qu'aucune pièce ouverte ici n'établit. Sous cette prémisse, leur défaillance est allocative, et non distributive. **Le remède y est établi de longue date et il n'a rien de monétaire** — tarification régulée, obligation de service, investissement public amorti sur des décennies.
 
 ::hypothese:: Il en résulte trois remèdes distincts, et le corpus doit dire lequel l'émission qualifiée sert. Pour la première catégorie, elle est plausible : il faut un payeur là où aucun ne se présente. Pour la deuxième, elle est au mieux complémentaire : financer l'entretien d'un fonds n'établit pas la règle d'accès qui en conditionne l'existence, et un paiement sans règle d'accès reconstitue la congestion qu'il prétend traiter. Pour la troisième, la création monétaire n'a aucun avantage propre sur un transfert budgétaire, sinon celui qui ne dépend pas de la catégorie du bien : au versement, elle ne dépend d'aucune recette préalable (L1.C19 § 2).
 
@@ -220,19 +264,19 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::hypothese:: Une conséquence plus lourde suit, et elle est arithmétique. **Le périmètre décide du volume.** Faire entrer les infrastructures critiques dans la liste, c'est faire entrer l'investissement public ordinaire dans le dispositif — les réseaux d'eau, l'assainissement, les transports collectifs et les réseaux électriques relèvent de la formation brute de capital fixe des administrations et des opérateurs de réseau, dont l'ordre de grandeur diffère de celui de l'entretien des fonds naturels. Le corpus ne chiffre pas ici cet écart et ne peut donc pas s'en prévaloir comme d'un résultat : il l'inscrit comme une mesure à faire.
 
-::norme:: **L'auteur a orienté ce point sans le clore, et le chapitre écrit l'orientation telle qu'elle est.** Les infrastructures critiques entrent dans le périmètre financé **sous le test de l'apport propre**, contre tarification régulée et investissement public, et sans aucune présomption en faveur de l'émission. **La charge de la preuve a donc une forme arrêtée, et elle est exigeante :** l'apport ne s'entend pas de la source du financement mais d'un meilleur résultat matériel net après imputation des ressources déplacées, ou d'un résultat inaccessible au meilleur portefeuille institutionnellement réalisable — lequel comprend la réglementation et l'investissement public (L1.C31 § 4). **Remplacer un financement existant par un autre canal n'est pas un apport propre.**
+::norme:: **L'auteur a orienté ce point sans le clore, et le chapitre écrit l'orientation telle qu'elle est.** Les infrastructures critiques entrent dans le périmètre financé **sous le test de l'apport propre**, contre tarification régulée et investissement public, et sans aucune présomption en faveur de l'émission. **La charge de la preuve a donc une forme arrêtée, et elle est exigeante :** l'apport ne s'entend pas de la source du financement mais d'un meilleur résultat matériel net après imputation des ressources déplacées, ou d'un résultat inaccessible au meilleur portefeuille institutionnellement réalisable — lequel comprend la réglementation et l'investissement public (L1.C31 § 3). **Remplacer un financement existant par un autre canal n'est pas un apport propre.**
 
-::etat:: **Ce qui reste ouvert après cette orientation, et que le chapitre ne masque pas :** le périmètre entier, la délimitation dans le régime des services, et les seuils du critère du caractère essentiel. **Le périmètre n'est donc pas une question de présentation : c'est un facteur du nombre qui manque**, et la grandeur à calibrer compte désormais aussi l'émission des guichets, arrêtée le 2026-09-17 — émission au besoin, découvert apuré par l'excédent du reflux, et émission permanente pour le besoin structurel non apuré. Le chapitre précédent a établi que la règle de calibrage n'existe pas (L1.C21 § 6) ; celui-ci ajoute que la grandeur qu'elle devrait calibrer n'est pas non plus délimitée.
+::etat:: **Ce qui reste ouvert après cette orientation, et que le chapitre ne masque pas :** le périmètre entier, la délimitation dans le régime des services, et les seuils du critère du caractère essentiel. **Le périmètre n'est donc pas une question de présentation : c'est un facteur du nombre qui manque**, et la grandeur à calibrer compte désormais aussi l'émission des guichets, arrêtée le 2026-09-17 — émission au besoin, découvert apuré par l'excédent du reflux, et émission permanente pour le besoin structurel non apuré. Le chapitre précédent a établi que la règle de calibrage n'existe pas (L1.C21 § 8) ; celui-ci ajoute que la grandeur qu'elle devrait calibrer n'est pas non plus délimitée.
 
 ## 2. « L'impôt ou le marché » n'est pas l'alternative complète
 
 ::etat:: L'argument du livre en faveur d'un mécanisme mondial repose sur un double constat : l'impôt échoue par contrainte budgétaire, instabilité politique et érosion de l'assiette ; le marché échoue parce que les bénéfices des communs ne sont captables par personne et que les prêts endettent ceux qui ont le moins causé le dommage [S1].
 
-::etat:: **Ces deux constats sont des modes d'échec documentés, et le corpus les a établis pour son propre compte (L1.C15 § 4, L1.C16). Ils n'établissent pas qu'un mécanisme monétaire soit requis, et le chapitre ne l'écrira pas.** Cette preuve-là suppose une comparaison construite ; un portefeuille a été construit le 2026-09-19 pour le concurrent décisif, et il n'est pas à l'avantage du dispositif. Le falsifieur qui porte sur la comparaison reste ouvert, et L1.C15 n'est pas vérifié.
+::etat:: **Ces deux constats sont des modes d'échec documentés, et le corpus les a instruits pour son propre compte (L1.C15 § 5, L1.C16). Ils n'établissent pas qu'un mécanisme monétaire soit requis, et le chapitre ne l'écrira pas.** Cette preuve-là suppose une comparaison construite ; un portefeuille a été construit le 2026-09-19 pour le concurrent décisif, et il n'est pas à l'avantage du dispositif. Le falsifieur qui porte sur la comparaison reste ouvert.
 
-::etat:: L'alternative ainsi posée n'est pas complète, et le corpus l'a déjà noté : il existe une troisième voie documentée, la gouvernance collective des communs, où des communautés gèrent durablement des ressources partagées par des institutions propres, sans marché ni propriété exclusive, et financent effectivement l'entretien lourd de leurs infrastructures [S4] (L1.C15 § 4). Le Cahier technique la connaît et s'en réclame ; le livre ne la mentionne pas [S2].
+::etat:: L'alternative ainsi posée n'est pas complète, et le corpus l'a déjà noté : il existe une troisième voie documentée, la gouvernance collective des communs, où des communautés gèrent durablement des ressources partagées par des institutions propres, sans marché ni propriété exclusive, et financent effectivement l'entretien lourd de leurs infrastructures [S15] (L1.C15 § 5). Le Cahier technique la connaît et s'en réclame ; le livre ne la mentionne pas [S2].
 
-::etat:: La limite de cette troisième voie a été posée en L1.C15 § 4 et le corpus la maintient : ce financement est le plus souvent non monétaire — travail, mutualisation, cotisations des usagers, dans les cas documentés des huertas espagnoles et des zanjeras philippines — et il mobilise les ressources de la communauté elle-même [S4]. Il règle l'entretien d'un support dont les usagers ont l'usage et les moyens ; il ne procure pas de quoi restaurer un milieu dont la réparation excède ce qu'ils peuvent fournir.
+::etat:: **Cette troisième voie a trois limites, et la pièce les porte toutes.** La première a été posée en L1.C15 § 5 : l'enquête porte sur des ressources de petite échelle, situées dans un seul pays, qui font vivre de 50 à 15 000 personnes [S15]. La deuxième n'avait pas été relevée, et elle touche l'objet même de ce chapitre : l'enquête ne retient que les situations où les usagers peuvent se nuire entre eux, et écarte celles où ils causent un dommage majeur à des tiers — toutes les pollutions asymétriques sont hors de son champ [S15]. La troisième tient au financement, qui vient des usagers eux-mêmes : en journées de travail et en matériaux dans les zanjeras philippines, en cotisations levées sur les détenteurs de droits d'eau dans les huertas espagnoles [S15]. **Le corpus écrivait ce financement « le plus souvent non monétaire » ; il l'est dans le premier cas et ne l'est pas dans le second.** Il règle l'entretien d'un support dont les usagers ont l'usage et les moyens ; il ne procure pas de quoi restaurer un milieu dont la réparation excède ce qu'ils peuvent fournir.
 
 ::hypothese:: Ce chapitre ajoute un point que la littérature permet de trancher et qui va dans l'autre sens. On pourrait croire que la gouvernance collective vaut pour le local et cède devant le mondial, ce qui justifierait le recours à une instance centrale. Or l'auteure même de cette théorie a traité le cas mondial, et sa conclusion n'est pas celle-là : elle soutient qu'une politique unique adoptée à la seule échelle mondiale est peu susceptible d'engendrer la confiance nécessaire à l'action collective, et plaide pour une action simultanée à plusieurs échelles [S5]. Elle avance un second argument, indépendant du premier et plus direct encore : recommander une unité gouvernementale unique pour résoudre un problème d'action collective mondiale est intrinsèquement faible, en raison même des comportements de passager clandestin qu'une telle unité est censée corriger [S5].
 
@@ -240,7 +284,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::etat:: **Sous cette réserve, l'argument en faveur d'un mécanisme mondial ne peut pas être que les communs échappent à la gouvernance collective. Il doit être le plus étroit, celui que le corpus a établi : la restauration d'un milieu dégradé excède les moyens de ses usagers.** Il faut y ajouter ce que le corpus a tranché depuis : **il n'instruit plus d'architecture mondiale unique.** Le remplacement mondial du système monétaire actuel n'est pas une proposition applicable ; ce qui est instruit est une coalition expérimentale, où une unité de réserve circule entre banques centrales. **L'objection d'Ostrom rencontre donc une proposition déjà ramenée à une échelle plus étroite**, et l'échelle à laquelle le financement se décide reste à dire.
 
-::etat:: **L'objection de la connaissance dispersée est instruite ailleurs dans le corpus, et deux fois :** le Livre 11 la traite au fond, et il la localise sur la fixation des valeurs. Nulle instance centrale ne peut agréger la connaissance des circonstances particulières de temps et de lieu [S10] : le constat tient, et il a un adversaire déclaré dans l'organisation polycentrique. **Traitée n'est pas résolue, et le corpus n'écrira pas le contraire.**
+::etat:: **L'objection de la connaissance dispersée est instruite ailleurs dans le corpus, et deux fois :** le Livre 11 la traite au fond, et il la localise sur la fixation des valeurs. Nulle instance centrale ne peut agréger la connaissance des circonstances particulières de temps et de lieu [S16] : le constat tient, et il a un adversaire déclaré dans l'organisation polycentrique. **La pièce borne elle-même son objection** : elle accorde qu'un collège d'experts peut être le mieux placé pour la connaissance scientifique, et ne vise que l'autre connaissance, celle que la statistique ne transmet pas [S16]. Et le remède qu'elle défend est le système de prix, dont les biens traités ici sont dépourvus. **Traitée n'est pas résolue, et le corpus n'écrira pas le contraire.**
 
 ::etat:: **Ce que l'objection atteint encore est plus étroit qu'un barème mondial voté par une assemblée unique, car le corpus a renoncé aux deux.** La pondération unique est abandonnée : la pondération restante est déclarée politique, participative et contestable, et plusieurs seuils non compensables remplacent le score unique. L'instance unique l'est aussi : cinq centres de responsabilité indépendants séparent la mesure scientifique, la qualification, la priorité démocratique, le calibrage, et le contrôle avec ses recours — **cinq centres, non cinq institutions, l'organisation juridique restant à concevoir, et la table des fonctions et des chambres n'étant pas faite.** Ce que l'argument atteint est la fixation des valeurs, qui reste centrale.
 
@@ -270,7 +314,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::hypothese:: **Le revers de cet argument est porté ici au nom du corpus, et non attribué à [S13], qui ne l'énonce pas :** une allocation administrée, privée du signal qui révèle les coûts d'opportunité, est exposée à la captation par les organisations les mieux constituées pour formuler des demandes — laboratoires établis, consortiums industriels, administrations. C'est une littérature ultérieure, que le corpus n'a pas ouverte. **Le dispositif n'a ici aucune parade équivalente à celle qu'il oppose au biais de sélection dans le régime physique**, où la mesure d'un état remplace l'examen d'un dossier : la mesure extérieure, la saisine et le recours sont des parades de procédure, non un constat d'état. L'objection rejoint celle de la connaissance dispersée (§ 2) et lui donne sa forme la plus concrète.
 
-::norme:: **Il existe donc un critère provisoire et une procédure arrêtée ; il n'existe pas de test technique pour les services, et la délimitation y reste une décision normative.** La procédure est écrite : évaluation séparée de la gravité, de l'étendue, de la probabilité, de la réversibilité, de la confiance dans l'estimation et de la réductibilité de l'incertitude ; **seuils fixés d'avance par l'autorité démocratique après expertise pluraliste ; qualification motivée.** Quatre régimes exhaustifs, dont une zone intermédiaire à charge partagée, de sorte qu'aucun dossier ne reste sans régime. Et la qualification, la priorité démocratique et le recours relèvent de centres de responsabilité distincts. **Le dispositif y perd une apparence d'objectivité et y gagne d'être discutable** — ce qui, pour une décision distributive, est la seule légitimité disponible (L1.C18 § 2).
+::norme:: **Il existe donc un critère provisoire et une procédure arrêtée ; il n'existe pas de test technique pour les services, et la délimitation y reste une décision normative.** La procédure est écrite : évaluation séparée de la gravité, de l'étendue, de la probabilité, de la réversibilité, de la confiance dans l'estimation et de la réductibilité de l'incertitude ; **seuils fixés d'avance par l'autorité démocratique après expertise pluraliste ; qualification motivée.** Quatre régimes exhaustifs, dont une zone intermédiaire à charge partagée, de sorte qu'aucun dossier ne reste sans régime. Et la qualification, la priorité démocratique et le recours relèvent de centres de responsabilité distincts. **Le dispositif y perd une apparence d'objectivité et y gagne d'être discutable** — ce que le corpus tient, pour une décision distributive, pour la condition de sa légitimité.
 
 ## 4. La répartition, et le seul précédent réel
 
@@ -308,9 +352,9 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::hypothese:: **La transposition à une émission monétaire fléchée est une inférence du corpus, et non un résultat de l'article.** Une émission mondiale qui finance l'entretien des forêts, la recherche ou le soin dans des États qui les financent déjà rencontrerait le même mécanisme, pour la même raison : la monnaie est fongible et c'est le budget bénéficiaire qui arbitre. **La part substituée ne compte pas comme apport propre** (L1.C31 § 2). L'effet obtenu n'est donc pas le volume émis ; c'est le volume émis diminué de ce qui est retiré en réaction. **Aucun chiffre avancé dans le livre n'est un chiffre net.**
 
-::hypothese:: La conséquence pour le calibrage est précise et elle aggrave ce que le chapitre précédent avait établi. Non seulement la règle liant les indicateurs aux décisions est déclarée à définir (L1.C21 § 6), mais la grandeur qu'elle devrait viser n'est pas l'émission : c'est un écart entre l'émission et un comportement budgétaire national qui réagit à elle. Un dispositif qui vise la première grandeur en croyant viser la seconde surestime son effet d'un montant qu'il ne mesure pas.
+::hypothese:: La conséquence pour le calibrage est précise et elle aggrave ce que le chapitre précédent avait établi. Non seulement la règle liant les indicateurs aux décisions est déclarée à définir (L1.C21 § 8), mais la grandeur qu'elle devrait viser n'est pas l'émission : c'est un écart entre l'émission et un comportement budgétaire national qui réagit à elle. Un dispositif qui vise la première grandeur en croyant viser la seconde surestime son effet d'un montant qu'il ne mesure pas.
 
-::etat:: **L'éviction réelle n'est plus un ajout de ce chapitre : c'est la première dimension du test de l'apport propre et la clé de lecture de L1.C31.** Celle du paragraphe précédent est budgétaire et porte sur des crédits ; celle-ci est réelle et porte sur des ressources. Financer à grande échelle la restauration de milieux, et davantage encore des infrastructures de réseau, mobilise des ouvriers, des ingénieurs, des matériaux, des capacités de chantier qui sont en quantité finie à horizon court. **Si les ressources sont saturées, un financement supplémentaire ne compte comme apport que pour son résultat matériel net après déplacement des autres activités et variation des prix.** Le corpus avait posé l'objection au niveau du pouvoir d'achat (L1.C17 § 5, L1.C19 § 4) ; elle se pose aussi au niveau des ressources physiques, où **aucun taux de reflux ne la corrige**, puisqu'il ne s'agit plus de retirer de la monnaie mais de disposer de bras et de matière.
+::etat:: **L'éviction réelle n'est plus un ajout de ce chapitre : c'est la première dimension du test de l'apport propre et la clé de lecture de L1.C31.** Celle du paragraphe précédent est budgétaire et porte sur des crédits ; celle-ci est réelle et porte sur des ressources. Financer à grande échelle la restauration de milieux, et davantage encore des infrastructures de réseau, mobilise des ouvriers, des ingénieurs, des matériaux, des capacités de chantier qui sont en quantité finie à horizon court. **Si les ressources sont saturées, un financement supplémentaire ne compte comme apport que pour son résultat matériel net après déplacement des autres activités et variation des prix.** Le corpus avait posé l'objection au niveau du pouvoir d'achat (L1.C17 § 5, L1.C19 § 7) ; elle se pose aussi au niveau des ressources physiques, où **aucun taux de reflux ne la corrige**, puisqu'il ne s'agit plus de retirer de la monnaie mais de disposer de bras et de matière.
 
 ::norme:: **Deux réponses sont nommées pour un pilote, et ni l'une ni l'autre n'est éprouvée** : une analyse préalable des travailleurs, des matériaux, des machines, de l'énergie et des capacités industrielles ; et une interruption automatique lorsque cette analyse cesse d'être satisfaite. Le corpus les inscrit comme pièces de conception, non comme dispositifs disponibles.
 
@@ -325,6 +369,10 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 ::etat:: **La clé de répartition.** Sa forme est arbitrée, son contenu et son autorité ne le sont pas, et l'échelle à laquelle elle descend non plus. Le seul précédent montre qu'une clé plausible reconduit le poids économique.
 
 ::hypothese:: **L'additionnalité budgétaire.** Elle décide de l'ampleur, et éventuellement du signe, de l'effet obtenu. Le remède connu réintroduit la contrainte à laquelle le dispositif prétendait échapper. **Aucune des trois branches — clause d'effort maintenu, ciblage des seules activités non financées, mesure de l'effet net après coup — n'est choisie.**
+
+::etat:: **Qui le signal de prix exclut.** L'exigence du livre d'accompagner les populations fragilisées rencontre une question jamais instruite : franchise, compensation en aval, sortie d'assiette, trois réponses sont nommées au § 4 et aucune n'est étudiée.
+
+::etat:: **La formule d'affectation de l'excédent du reflux.** Elle n'est pas écrite au-delà de sa première destination, et l'échappement du dispositif à la qualification de dette en dépend : dépenser, conserver, redistribuer, les trois branches du § 1 restent ouvertes.
 
 ::etat:: **Centralisation ou polycentricité.** L'option qui localise le constat et laisse les valeurs centrales est instruite ; **aucune décision de l'auteur ne la tranche.** Uniforme, le barème est arbitraire ; non uniforme, il est arbitre.
 
@@ -346,6 +394,6 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::etat:: **Il a enfin obtenu un résultat qui n'est favorable qu'à moitié, et le chapitre le donne pour ce qu'il est.** Le seul instrument comparable existant est comptabilisé comme une dette, parce que le critère est passé, d'une édition de la norme à la suivante, de l'exigence d'un paiement de principal ET d'intérêt à celle d'un paiement de principal OU d'intérêt [S11]. **Appliqué à l'unité que le livre décrit, ce critère ne trouve rien à saisir ; appliqué à la branche que le corpus modélise en priorité, il mord.** Le test de la qualification de dette est donc passé sur une branche et non sur l'autre, et elle dépend en outre d'une formule d'affectation de l'excédent qui n'est pas écrite. **Ce n'est pas une condition nécessaire établie : c'est un test dont la portée est conditionnelle.**
 
-::hypothese:: **Le corpus compte quatorze falsifieurs, et aucun n'est levé.** Ce chapitre en resserre deux et en touche deux autres. Il resserre celui qui porte sur le calibrage, parce que la grandeur à calibrer est moins bien délimitée qu'on ne le pensait et qu'elle compte désormais l'émission permanente des guichets. Il resserre celui qui porte sur la falsification des déclarations, parce que l'option polycentrique place le constat à l'échelle la plus capturable. Il touche celui qui porte sur la comparaison, par l'exigence d'effet net. Et il touche celui qui porte sur le passage de la décision au montant, par la clé.
+::hypothese:: **Ce chapitre resserre deux des conditions de falsification que le corpus s'est données, et en touche deux autres** ; leur nombre et leur état se lisent au diagnostic du corpus, non ici. Il resserre celui qui porte sur le calibrage, parce que la grandeur à calibrer est moins bien délimitée qu'on ne le pensait et qu'elle compte désormais l'émission permanente des guichets. Il resserre celui qui porte sur la falsification des déclarations, parce que l'option polycentrique place le constat à l'échelle la plus capturable. Il touche celui qui porte sur la comparaison, par l'exigence d'effet net. Et il touche celui qui porte sur le passage de la décision au montant, par la clé.
 
-::etat:: Le chapitre a enfin déplacé, sans la solder, la promesse ouverte depuis L1.C17 § 5 sur l'aléa moral. Sa face préventive avait été traitée ailleurs ; sa face budgétaire est ici nommée, documentée et laissée sans dispositif. **Une objection nommée n'est pas une objection réglée, et le corpus n'écrira pas le contraire.**
+::etat:: Le chapitre a enfin déplacé, sans la solder, la promesse ouverte depuis L1.C17 § 7 sur l'aléa moral. Sa face préventive avait été traitée ailleurs ; sa face budgétaire est ici nommée, documentée et laissée sans dispositif. **Une objection nommée n'est pas une objection réglée, et le corpus n'écrira pas le contraire.**
