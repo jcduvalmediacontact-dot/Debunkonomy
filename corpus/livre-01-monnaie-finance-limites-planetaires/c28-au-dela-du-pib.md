@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-28
 autorite: preparatoire
 citable: false
 regime: conception
@@ -82,22 +82,28 @@ verifications_en_attente:
   # (biosphérique, sociale), condition (monétaire), donnée (internationale) ; c'est une
   # proposition du corpus, non une décision. Et À QUELLE FONCTION REVIENT LA LECTURE DU
   # TABLEAU n'est écrit nulle part non plus (§ 3)."
-  - "« AUCUN TABLEAU DE BORD DE PROGRÈS N'INCLUT LA MONNAIE » EST BORNÉ À LA CONNAISSANCE
-     DU CORPUS, et n'a pas été vérifié. À éprouver sur les tableaux de bord existants, ou à
-     laisser borné comme il l'est."
-  - "L'INDICE DE CONCENTRATION ÉTENDU AUX CHAÎNES D'APPROVISIONNEMENT N'A PAS DE RÉFÉRENCE.
-     Le Cahier emploie l'expression sans citer de travaux. Le § 3 le dit ; à sourcer, ou à
-     laisser comme constat d'absence."
+  # SOLDÉE — SOLDÉE le 2026-09-28 sur la décision V3 — LAISSÉE BORNÉE, ET LA BORNE EST DÉJÀ ÉCRITE AU CORPS. Le § 3 écrit : « elles **incluent la monnaie**, ce que ne fait aucun tableau de bord de progrès existant **à la connaissance du corpus** — le chapitre le borne ainsi et l'inscrit comme vérification ». La vérification demandait d'éprouver l'énoncé OU de le laisser borné ; c'est la seconde branche, et le corps la porte.
+  # Texte d'origine :
+  #   - "« AUCUN TABLEAU DE BORD DE PROGRÈS N'INCLUT LA MONNAIE » EST BORNÉ À LA CONNAISSANCE
+  #      DU CORPUS, et n'a pas été vérifié. À éprouver sur les tableaux de bord existants, ou à
+  #      laisser borné comme il l'est."
+  # SOLDÉE — SOLDÉE le 2026-09-28 sur la décision V3 — LAISSÉE COMME CONSTAT D'ABSENCE. Le § 3 écrit : « l'indice de concentration étendu aux chaînes n'a pas de référence établie ». C'est la seconde branche que la vérification ouvrait, et rien n'est attribué à des travaux que le Cahier ne cite pas.
+  # Texte d'origine :
+  #   - "L'INDICE DE CONCENTRATION ÉTENDU AUX CHAÎNES D'APPROVISIONNEMENT N'A PAS DE RÉFÉRENCE.
+  #      Le Cahier emploie l'expression sans citer de travaux. Le § 3 le dit ; à sourcer, ou à
+  #      laisser comme constat d'absence."
   # SOLDÉE le 2026-09-22 — CHANTIER DE CONCEPTION REQUALIFIÉ, NON TÂCHE DOCUMENTAIRE. Il est porté par l'arbitrage **DESCENTE-D-ECHELLE**, `ouvert`, dont la décision écrit « Le cadre déclare n'avoir PAS ÉTÉ CONÇU pour être désagrégé », et ce chapitre y est désormais rattaché. Texte d'origine :
   # - "LA DESCENTE D'ÉCHELLE DE LA FAMILLE BIOSPHÉRIQUE N'EST PAS ÉTABLIE. Le cadre dont elle
   # tient ses indicateurs déclare n'avoir pas été conçu pour être désagrégé, et ses neuf
   # grandeurs ne s'additionnent pas. Lire une famille biosphérique par pays suppose une
   # opération que personne n'a validée. Chantier métrologique, non documentaire."
-  - "L'ÉPREUVE DE L'INDICATEUR PRIS POUR CIBLE SUR UN DISPOSITIF RÉEL MANQUE. Le § 5 pose
-     la vulnérabilité de conception et dit que le corpus n'a pas établi qu'aucun dispositif
-     existant n'y parvienne. Recherche à faire. Et parmi trois familles de défaillance,
-     seule la fraude est instruite : le passager clandestin et l'effet institutionnel
-     contraire ne le sont pas."
+  # SOLDÉE — SOLDÉE le 2026-09-28 sur la décision V3 — LAISSÉE BORNÉE, ET EN RÉGIME D'HYPOTHÈSE. Le § 5 porte les deux bornes sous `::hypothese::` : « c'est une vulnérabilité de conception, et **l'épreuve sur un dispositif réel manque** — le corpus n'a pas établi qu'aucun dispositif existant n'y parvienne », et « parmi trois familles de défaillance — la fraude, le passager clandestin, l'effet institutionnel contraire —, **seule la fraude est instruite**, et c'est elle seule que cette objection vise ».
+  # Texte d'origine :
+  #   - "L'ÉPREUVE DE L'INDICATEUR PRIS POUR CIBLE SUR UN DISPOSITIF RÉEL MANQUE. Le § 5 pose
+  #      la vulnérabilité de conception et dit que le corpus n'a pas établi qu'aucun dispositif
+  #      existant n'y parvienne. Recherche à faire. Et parmi trois familles de défaillance,
+  #      seule la fraude est instruite : le passager clandestin et l'effet institutionnel
+  #      contraire ne le sont pas."
   # SOLDÉE le 2026-09-22 — CHANTIER DE CONCEPTION REQUALIFIÉ, NON TÂCHE DOCUMENTAIRE. Il est porté par l'arbitrage **MESURE-EXTERIEURE**, `ouvert`, lié à **F3** : « un contrôle qui ne porte que sur des DÉCLARATIONS ne détecte pas leur falsification : la mesure doit être extérieure ». Ces deux entrées n'ont pas de champ `chapitres` et on ne leur en crée pas ; le renvoi est ici. Texte d'origine :
   # - "LE CONFLIT ENTRE PUBLICATION ET NON-ANNONCE N'EST PAS RÉSOLU. Le corpus exige qu'un
   # barème soit une directive publiée ; publier la fonction et cacher l'indicateur est
@@ -111,9 +117,11 @@ verifications_en_attente:
   # - "RIEN N'EST ÉCRIT POUR LES NIVEAUX DE REFLUX NI POUR LA MODULATION DES INSTRUMENTS PAR
   # LE TABLEAU DE BORD, qui est l'objet de ce chapitre. Le § 8 le dit. Chantier de
   # conception commun avec L1.C21 et le Livre 11."
-  - "LECTURE FLUX/STOCK DU BONHEUR NATIONAL BRUT, de première main. Le § 2 la rapporte
-     telle que le livre l'écrit [S2] ; elle n'a pas été vérifiée sur une source du Bhoutan.
-     À vérifier ou à laisser comme énoncé du livre."
+  # SOLDÉE — SOLDÉE le 2026-09-28 sur la décision V3 — LAISSÉE COMME ÉNONCÉ DU LIVRE. Le § 2 l'attribue et ne l'endosse pas : « **Le livre le présente comme** “ une mesure multidimensionnelle du progrès ” et en donne une lecture précise », la lecture flux/stock étant entre guillemets et appelée [S2]. Aucune source du Bhoutan n'est invoquée, et le corps n'en invoque pas.
+  # Texte d'origine :
+  #   - "LECTURE FLUX/STOCK DU BONHEUR NATIONAL BRUT, de première main. Le § 2 la rapporte
+  #      telle que le livre l'écrit [S2] ; elle n'a pas été vérifiée sur une source du Bhoutan.
+  #      À vérifier ou à laisser comme énoncé du livre."
   # SOLDÉE le 2026-09-22 — CLOSE PAR SA PROPRE LETTRE : « Vérifié à l'alignement ». Le contrôle de régime est fait, et le chapitre n'écrit nulle part « contribution propre ». Texte d'origine :
   # - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
   # propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement.
@@ -154,7 +162,7 @@ renvois: [L1.C03, L1.C04, L1.C18, L1.C22, L1.C23, L1.C26, L1.C27, L1.C21, L1.C31
 
 ::etat:: Six familles d'indicateurs sont énoncées [S4]. La **famille biosphérique** assure le suivi consolidé des neuf limites planétaires, sur les indicateurs du Stockholm Resilience Centre. La **famille économique réelle** porte sur la robustesse des chaînes de production et des infrastructures critiques ; le Cahier en nomme les trois objets — « diversification territoriale, redondance des systèmes essentiels, capacité de reconstitution après chocs » — et deux instruments, des « indicateurs Herfindahl-Hirschman étendus aux chaînes d'approvisionnement » et des indicateurs de résilience territoriale. La **famille financière** reprend les ratios prudentiels classiques en les enrichissant de la part carbonée des portefeuilles et de l'alignement taxonomique. La **famille sociale** couvre les besoins fondamentaux, les inégalités et la cohésion territoriale. La **famille internationale** porte sur la diversification des réserves, les volumes des systèmes de paiement et un indice de coordination macroprudentielle.
 
-::etat:: **La famille monétaire en compte cinq, et non six, et le corpus corrige ici son propre décompte** : expansion monétaire nette, reflux structurel, efficience monétaire des activités régénératives, vitesse de circulation, concentration de la richesse monétaire [S4]. **Le sixième indicateur que L1.C21 § 6 relève — le ratio de dette globale sur produit mondial — n'est pas dans le tableau de bord** : il figure à l'épisode 9, dans la liste de pilotage de l'équilibre monétaire, et c'est le seul dont le dénominateur soit nommément le produit mondial [S4].
+::etat:: **La famille monétaire en compte cinq, et non six, et le corpus corrige ici son propre décompte** : expansion monétaire nette, reflux structurel, efficience monétaire des activités régénératives, vitesse de circulation, concentration de la richesse monétaire [S4]. **Le sixième des indicateurs de pilotage que L1.C21 § 8 relève n'est pas dans le tableau de bord** — c'est le ratio de dette globale sur produit mondial, que **ce chapitre identifie en lisant l'épisode 9**, C21 nommant les six sans les détailler : il figure à l'épisode 9, dans la liste de pilotage de l'équilibre monétaire, et c'est le seul dont le dénominateur soit nommément le produit mondial [S4].
 
 ::etat:: **Mais le produit intérieur brut ne quitte pas pour autant le tableau, et c'est le résultat le plus direct que ce chapitre puisse donner sur son propre titre.** L'épisode 12 nomme les cinq indicateurs monétaires sans en donner les formules ; l'épisode 9, qui les définit, en rapporte deux au produit — le ratio d'expansion monétaire nette est « la différence entre les émissions monétaires [...] et les fontes agrégées, rapportée au PIB », et la vitesse de circulation est le « rapport PIB nominal sur masse monétaire M2 » [S4]. **L'identification des deux listes est une inférence du corpus, fondée sur l'identité des intitulés** ; sous cette réserve, deux des cinq indicateurs de la famille monétaire ont le produit intérieur brut au dénominateur.
 
@@ -174,7 +182,7 @@ renvois: [L1.C03, L1.C04, L1.C18, L1.C22, L1.C23, L1.C26, L1.C27, L1.C21, L1.C31
 
 ::hypothese:: **Et les six familles n'ont pas le même statut, ce que la règle ignore.** Les familles biosphérique et sociale sont des **objectifs** ; la famille monétaire est une **condition** de fonctionnement ; la famille internationale est une **donnée** d'environnement. Faire commander des objectifs par une directive revient à lui faire lire ce qu'elle est censée produire : **c'est une boucle de rétroaction, non une règle de politique.** Le statut des familles n'est arrêté nulle part.
 
-::hypothese:: La règle ne dit rien non plus des conflits entre les familles biosphérique et monétaire, alors que L1.C21 § 6 a établi que le reflux se contracte à mesure que l'assiette dégénérative recule : **le succès sur la première famille dégrade mécaniquement la cinquième**, et le tableau de bord ne dit pas ce qu'il faut en conclure. **Ce conflit a pris de l'ampleur depuis l'arbitrage du 2026-09-17 :** le reflux qui se contracte finance aussi l'apurement du découvert des guichets, de sorte que le succès biosphérique atteint le soutien aux importations essentielles. Le falsifieur qui porte sur le calibrage interdit toute conclusion sur l'ampleur de cet effet, qui n'est pas mesurée.
+::hypothese:: La règle ne dit rien non plus des conflits entre les familles biosphérique et monétaire, alors que L1.C21 § 10 a établi que le reflux se contracte à mesure que l'assiette dégénérative recule, et que L1.C21 § 6 affecte l'excédent à l'apurement du découvert des guichets : **le succès sur la première famille dégrade mécaniquement la cinquième**, et le tableau de bord ne dit pas ce qu'il faut en conclure. **Ce conflit a pris de l'ampleur depuis l'arbitrage du 2026-09-17 :** le reflux qui se contracte finance aussi l'apurement du découvert des guichets, de sorte que le succès biosphérique atteint le soutien aux importations essentielles. Le falsifieur qui porte sur le calibrage interdit toute conclusion sur l'ampleur de cet effet, qui n'est pas mesurée.
 
 ::norme:: Le corpus retient donc ceci, et c'est une exigence de conception et non une critique de principe. **Trois formes sont tenables, et le dispositif n'en a choisi aucune.** Un **indice composite** dont les pondérations sont écrites, ce qui est cohérent avec un dispositif qui revendique par ailleurs des choix normatifs explicites. Un **tableau de bord qui informe sans commander**, ce qui est la forme ordinaire et qui suppose de renoncer à la modulation automatique. Ou des **seuils non compensables assortis d'une pondération déclarée politique et contestable** — la forme que l'auteur a arrêtée pour la qualification des activités, **dont la transposition au tableau de bord n'est pas décidée.** Ne choisir aucune des trois n'est pas tenable, et c'est la position actuelle.
 
@@ -182,7 +190,7 @@ renvois: [L1.C03, L1.C04, L1.C18, L1.C22, L1.C23, L1.C26, L1.C27, L1.C21, L1.C31
 
 ## 5. Deux objections déjà ouvertes que ce tableau de bord amplifie
 
-::etat:: **La robustesse est nommée en entier et mesurée pour un tiers.** Le Cahier nomme les trois objets de la famille économique réelle — diversification territoriale, redondance des systèmes essentiels, capacité de reconstitution après chocs — et c'est la formulation de l'auteur, que L1.C23 § 2 reprend et que le vocabulaire du corpus fixe : la robustesse est la capacité d'un système à continuer de fonctionner sous perturbation grâce à des **réserves**, des **redondances** et des **marges**, plutôt qu'en maximisant sa seule efficacité immédiate. **Les instruments nommés, eux, sont un indice de concentration et des indicateurs de résilience territoriale** [S4]. Un indice de concentration mesure la diversité. Il ne dit rien de la redondance, qui est la marge délibérément inemployée, ni de la capacité de reconstitution après choc. **L'écart n'est donc pas entre la conception et la théorie : il est entre l'objet que le Cahier déclare et les instruments qu'il nomme.** L'objection est corrigible : il manque des indicateurs, non une théorie.
+::etat:: **La robustesse est nommée en entier et mesurée pour un tiers.** Le Cahier nomme les trois objets de la famille économique réelle — diversification territoriale, redondance des systèmes essentiels, capacité de reconstitution après chocs — et c'est la formulation du Cahier. **L1.C23 § 2 en donne une autre** — redondance, diversité, modularité —, et le vocabulaire du corpus fixe : la robustesse est la capacité d'un système à continuer de fonctionner sous perturbation grâce à des **réserves**, des **redondances** et des **marges**, plutôt qu'en maximisant sa seule efficacité immédiate. **Les instruments nommés, eux, sont un indice de concentration et des indicateurs de résilience territoriale** [S4]. Un indice de concentration mesure la diversité. Il ne dit rien de la redondance, qui est la marge délibérément inemployée, ni de la capacité de reconstitution après choc. **L'écart n'est donc pas entre la conception et la théorie : il est entre l'objet que le Cahier déclare et les instruments qu'il nomme.** L'objection est corrigible : il manque des indicateurs, non une théorie.
 
 ::etat:: **L'indicateur pris pour cible se généralise.** Le corpus tenait cette objection contre le barème de qualification des activités régénératives : conditionner une création monétaire au constat d'une performance incite à optimiser la mesure plutôt que l'effet. Le tableau de bord étend la surface d'exposition à six familles, et il l'aggrave sur un point précis : les indicateurs y sont **publiés et articulés à des instruments connus**, de sorte que les acteurs peuvent anticiper quelle dégradation déclenchera quelle intensification.
 
