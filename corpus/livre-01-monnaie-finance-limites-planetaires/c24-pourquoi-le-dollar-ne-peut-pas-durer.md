@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-28
 autorite: preparatoire
 citable: false
 regime: conception
@@ -22,19 +22,6 @@ sources_primaires:
     url: "https://doi.org/10.1016/j.jce.2013.02.002"
     etat_lecture: ouverte
     date_verification: 2026-09-18
-  - ref: S3
-    nature: theorie
-    reference: "P. Mehrling, mêmes notes de cours — distinction de Schumpeter entre chartalisme (la monnaie comme création de l'État) et métallisme (la monnaie comme création des affaires privées), et thèse selon laquelle les deux traditions décrivent deux systèmes historiquement PARALLÈLES : monnaie du roi à l'intérieur, monnaie métallique internationale pour le commerce de gros entre nations. Le système contemporain n'est ni l'un ni l'autre mais « a hybrid or integrated system ». La création de la Réserve fédérale en 1913 a placé la monnaie publique au sommet de la hiérarchie domestique tout en laissant la monnaie privée au sommet de la hiérarchie internationale — « a contradiction that would take another hundred years to work out, and it is not completely worked out even today »"
-    etat_lecture: a_requalifier
-  - ref: S4
-    nature: theorie
-    reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar, Oxford University Press, 2011. **OUVERTE DE PREMIÈRE MAIN le 2026-09-04** : ouvrage procuré par l'auteur ; il était jusque-là connu par le seul compte rendu de D. Howden, Economic Affairs, 33(1), p. 146-148, 2013, DOI 10.1111/ecaf.12008_2. Thèses vérifiées dans le texte : les déterminants de la domination d'une devise sont la taille et la croissance de l'émetteur, la stabilité du souverain et la profondeur des marchés de capitaux ; la position acquise avantage le sortant mais reste surmontable, la livre sterling l'ayant perdue ; scénario privilégié : un monde à PLUSIEURS monnaies internationales, par érosion graduelle et pour des causes internes aux États-Unis. SUR LES DROITS DE TIRAGE SPÉCIAUX, texte exact : « SDRs can be used to settle debts to governments and the IMF itself, but not for other purposes. They cannot be used to intervene in private markets because there are no private markets where SDRs are traded. They cannot be used to invoice and settle trade because no trade is invoiced and settled in SDRs. » Et : « The SDR is funny money. It is not, in fact, a currency. It is not used to invoice and settle trade or in private financial transactions. » **CORRECTION D'ATTRIBUTION** : la formule que le corpus citait d'après le compte rendu — les DTS « aren't money — one can denominate a price in an SDR [...] but one cannot settle a debt by using such means » — **ne figure pas dans l'ouvrage**, et elle en déforme la thèse : Eichengreen écrit au contraire que les DTS règlent des dettes envers les États et le Fonds. Le compte rendu était donc faux sur le point que le corpus lui avait emprunté"
-    url: "https://doi.org/10.1111/ecaf.12008_2"
-    etat_lecture: a_requalifier
-  - ref: S5
-    nature: theorie
-    reference: "R. Triffin, Gold and the Dollar Crisis: The Future of Convertibility, Yale University Press, 1960 — contradiction entre le rôle domestique et le rôle international d'une monnaie de réserve : fournir la liquidité mondiale exige des déficits qui minent à terme la confiance dans l'actif fourni. RÉSERVE : l'énoncé originel porte sur un système à convertibilité or ; sa transposition à un système de changes flottants est une extension postérieure et contestée, souvent nommée « nouveau dilemme de Triffin » et reformulée en termes d'offre d'actifs sûrs. Le livre emploie la formulation sans distinguer les deux"
-    etat_lecture: a_requalifier
   - ref: S7
     nature: theorie
     reference: "R. A. Mundell, « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), p. 475-485, 1963 ; J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », IMF Staff Papers, 9(3), p. 369-380, 1962 — sous mobilité parfaite du capital et change fixe, une banque centrale n'a plus de pouvoir sur la masse monétaire sinon transitoirement. Déjà employé en L1.C19 § 6 ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : J. M. Fleming, « Domestic Financial Policies under Fixed and under Floating Exchange Rates », 1962 reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu, et le triangle d'incompatibilité que le corps invoque est démontré dans l'article de Mundell. OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/mundell-1963-capital-mobility-stabilization-policy-fourni.pdf, 14 pages, SHA-256 C80FFF0C42CB564E91BA8E322F75DFD43C6C97837852D459A16BD3DAA0004D78). Passages lus : « Capital Mobility and Stabilization Policy Under Fixed and Flexible Exchange Rates » (page PDF 1) ; « the central bank has no power over the money supply either » (page PDF 9)."
@@ -49,7 +36,7 @@ sources_primaires:
     date_verification: 2026-09-19
   - ref: S9
     nature: theorie
-    reference: "G. Gopinath, E. Boz, C. Casas, F. J. Díez, P.-O. Gourinchas, M. Plagborg-Møller, « Dominant Currency Paradigm », American Economic Review, 110(3), p. 677-719, mars 2020 — le libellé des factures du commerce international en une devise dominante, par des agents dont aucun n'est résident du pays émetteur, produit un verrouillage qui ne dépend ni des banques teneuses de marché ni d'une décision publique. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-16, exemplaire acquis à l'adresse https://www.nber.org/system/files/working_papers/w22943/w22943.pdf et versé au dossier (2026-09-16/acquisitions-c17-c30/C24-S9-gopinath-2020-dominant-currency-paradigm.pdf, 86 pages, SHA-256 BF7387D952681CD87663540C06DB500FADF03BFD7DB2C505246A38CF5C69FC60). ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : P. Krugman, « The International Role of the Dollar: Theory and Prospect », 1984, que l'entrée réunissait à celui-ci, reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu, et la phrase du corps appuyée ici ne porte pas sur les effets d'échelle. LES EFFETS D'ÉCHELLE ET LES COÛTS DE CHANGEMENT SONT RETIRÉS DU CORPS le 2026-09-18 : ils n'étaient portés par aucune source ouverte. L'ÉNONCÉ RESTANT EST PORTÉ : « dominant currency », quarante-sept occurrences, et le libellé des factures, « invoic », quatre-vingt-quatre occurrences. RÉSERVE D'ÉDITION, ET ELLE EST À LEVER : l'exemplaire acquis est le document de travail 22943 du National Bureau of Economic Research, non la version parue à l'American Economic Review en mars 2020 que l'entrée nomme avec sa pagination. Les deux ne sont pas identiques et la pagination 677-719 n'est pas vérifiable ici."
+    reference: "G. Gopinath, E. Boz, C. Casas, F. J. Díez, P.-O. Gourinchas, M. Plagborg-Møller, « Dominant Currency Paradigm », National Bureau of Economic Research, Working Paper 22943, page de titre datée de décembre 2016 ; version parue à l'American Economic Review, 110(3), p. 677-719, mars 2020, NON OUVERTE — le libellé des factures du commerce international en une devise dominante, par des agents dont aucun n'est résident du pays émetteur, produit un verrouillage qui ne dépend ni des banques teneuses de marché ni d'une décision publique. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-16, exemplaire acquis à l'adresse https://www.nber.org/system/files/working_papers/w22943/w22943.pdf et versé au dossier (2026-09-16/acquisitions-c17-c30/C24-S9-gopinath-2020-dominant-currency-paradigm.pdf, 86 pages, SHA-256 BF7387D952681CD87663540C06DB500FADF03BFD7DB2C505246A38CF5C69FC60). ENTRÉE RÉDUITE AU TEXTE LU le 2026-09-16, contrôle 2 d'AGENTS.md : P. Krugman, « The International Role of the Dollar: Theory and Prospect », 1984, que l'entrée réunissait à celui-ci, reste NOMMÉ SANS ÊTRE SOURCE — aucun exemplaire n'en a été obtenu, et la phrase du corps appuyée ici ne porte pas sur les effets d'échelle. LES EFFETS D'ÉCHELLE ET LES COÛTS DE CHANGEMENT SONT RETIRÉS DU CORPS le 2026-09-18 : ils n'étaient portés par aucune source ouverte. L'ÉNONCÉ RESTANT EST PORTÉ : « dominant currency », quarante-sept occurrences, et le libellé des factures, « invoic », quatre-vingt-quatre occurrences. RÉSERVE D'ÉDITION LEVÉE le 2026-09-28 EN NOMMANT L'ÉDITION LUE : la référence désigne désormais le document de travail 22943, dont la page de titre porte « December 2016 » et précise « This paper combines two papers: Casas et al. (2016) and Boz et al. (2017) ». La version de la revue n'est pas la pièce ; sa pagination n'est citée nulle part au corps."
     url: "https://doi.org/10.1257/aer.20171201"
     etat_lecture: ouverte
     date_verification: 2026-09-16
@@ -61,45 +48,68 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S11
     nature: theorie
-    reference: "A. Tooze, Crashed: How a Decade of Financial Crises Changed the World, Viking, 2018 ; M. Bordo, O. Humpage, A. Schwartz, « The Evolution of the Federal Reserve Swap Lines since 1962 », NBER Working Paper 20755, décembre 2014, également paru comme document de travail 14-14 de la Réserve fédérale de Cleveland (DOI 10.3386/w20755). CORRECTION : l'audit contradictoire attribuait ces travaux à « Bordo et McCauley » ; la référence vérifiée est Bordo, Humpage et Schwartz — en crise de liquidité, la banque centrale émettrice fournit des dollars aux banques centrales étrangères, adossant ainsi le marché privé du dollar offshore à de la monnaie centrale publique. Ces lignes sont SÉLECTIVES : leur ouverture est une décision de l'émetteur. RÉSERVE : références non ouvertes, citées d'après l'audit contradictoire du 2026-09-04 ; à vérifier avant tout emploi chiffré OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/drive-l1/C24-S11-bordo-humpage-schwartz-2014-nber-w20755.pdf, 31 pages, SHA-256 BF692AFA6AE1917D67444398EF3576F205D4FBBADFC41D4836241E0AE58E27AB), verifie en deux temps : identite du document confirmee en tete, puis l'enonce que le corps lui prete. RELECTURE : identite confirmee en page de titre — « THE EVOLUTION OF THE FEDERAL RESERVE SWAP LINES SINCE 1962, Michael D. Bordo, Owen F. Humpage, Anna J. Schwartz, Working Paper 20755, December 2014 ». C'EST LA MOITIE DE L'ENTREE : Tooze, « Crashed », que l'entree nomme aussi, est sous droits et hors de portee sous la contrainte des ressources gratuites. Entree a scinder."
+    reference: "M. Bordo, O. Humpage, A. Schwartz, « The Evolution of the Federal Reserve Swap Lines since 1962 », NBER Working Paper 20755, décembre 2014, également paru comme document de travail 14-14 de la Réserve fédérale de Cleveland (DOI 10.3386/w20755). CORRECTION : l'audit contradictoire attribuait ces travaux à « Bordo et McCauley » ; la référence vérifiée est Bordo, Humpage et Schwartz — en crise de liquidité, la banque centrale émettrice fournit des dollars aux banques centrales étrangères, adossant ainsi le marché privé du dollar offshore à de la monnaie centrale publique. Ces lignes sont SÉLECTIVES : leur ouverture est une décision de l'émetteur. RÉSERVE : références non ouvertes, citées d'après l'audit contradictoire du 2026-09-04 ; à vérifier avant tout emploi chiffré OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/drive-l1/C24-S11-bordo-humpage-schwartz-2014-nber-w20755.pdf, 31 pages, SHA-256 BF692AFA6AE1917D67444398EF3576F205D4FBBADFC41D4836241E0AE58E27AB), verifie en deux temps : identite du document confirmee en tete, puis l'enonce que le corps lui prete. RELECTURE : identite confirmee en page de titre — « THE EVOLUTION OF THE FEDERAL RESERVE SWAP LINES SINCE 1962, Michael D. Bordo, Owen F. Humpage, Anna J. Schwartz, Working Paper 20755, December 2014 ». ENTRÉE RAMENÉE À LA PIÈCE LUE le 2026-09-28 : elle réunissait à ce document A. Tooze, Crashed, Viking, 2018, qui n'a jamais été ouvert et n'est plus nommé comme source. PASSAGES LUS le 2026-09-28, pages PDF 3 et 21 à 25 en entier, FOLIO = PAGE DU FICHIER MOINS 2. L'adossement : « the Federal Reserve established swap lines with the European Central Bank and the Swiss National Bank as a way of channeling emergency dollar liquidity through these central banks to foreign depository institutions that lacked access to the Federal Reserve's borrowing facilities » (page PDF 3) ; « the foreign central banks acted as the lender of last resort; the Fed acted as the financier » (folio 21). La sélectivité : « the lines grew to encompass fourteen central banks » (page PDF 3) ; « the FOMC also extended swap lines to five emerging market central banks […]. The Fed considered these emerging market economies large enough to have significant spillover effects to the rest of the world » (folio 22) ; « Other emerging market countries apparently asked for similar swap lines, but broadening such access could saddle the Fed with credit risk vis-à-vis the foreign central bank and could increase moral hazard concerns » (folio 23). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : elle donne le motif de la Réserve fédérale comme prudentiel — contagion vers les États-Unis, risque de crédit, aléa moral — et non comme l'exercice d'un levier ; que la sélectivité soit « le levier le plus concret de l'hégémonie » est une lecture du corpus. NON LU : les pages 4 à 20, qui portent sur 1962-1998."
     etat_lecture: ouverte
     date_verification: 2026-09-19
-  - ref: S12
+  - ref: S13
+    nature: theorie
+    reference: "B. Eichengreen, Exorbitant Privilege: The Rise and Fall of the Dollar and the Future of the International Monetary System, Oxford University Press, 2011, ISBN 978-0-19-959671-3. ENTRÉE CRÉÉE le 2026-09-28 : l'ancienne entrée S4, `a_requalifier`, déclarait l'ouvrage lu de première main le 2026-09-04 sans exemplaire ni page ; aucun numéro n'est réattribué. OUVERTE le 2026-09-28 sur l'exemplaire procuré par l'auteur (2026-09-28/c26/S9-eichengreen-2011-exorbitant-privilege.pdf, 172 pages, 1 495 645 octets, SHA-256 BCC3826432CE41D6DE2F6DD131EB0F06D2A3CA591FCC568A18942319959F9699), identifié sur sa page de copyright. ÉDITION NUMÉRIQUE SANS FOLIOS : les localisations sont des pages du fichier. LU : la fin du chapitre 1 (pages PDF 13 et 14), et les pages PDF 34, 43, 44, 103 à 106, 112 et 113, en entier. NON LU : le reste de l'ouvrage. Passages lus, au mot. Les déterminants : « A currency is attractive because the country issuing it is large, rich, and growing. It is attractive because the country standing behind it is powerful and secure. » (page PDF 13) ; « There is no reason that only one country can have financial markets deep and broad enough to make international use of its currency attractive. » (page PDF 14). La livre : « Sterling lost its position as an international currency because Britain lost its great-power status, not the other way around. » (page PDF 13). Les rivaux : « The euro is a currency without a state. […] The renminbi, for its part, is a currency with too much state. Access to China's financial markets and international use of its currency are limited by strict government controls. The SDR is funny money. It is not, in fact, a currency. It is not used to invoice and settle trade or in private financial transactions. » (page PDF 14). Le scénario : « The world for which we need to prepare is thus one in which several international currencies coexist. » (page PDF 14) ; « A world of multiple international currencies is coming because the world economy is growing more multipolar, eroding the traditional basis for the dollar's monopoly. » (page PDF 112). Les droits de tirage spéciaux : « SDRs can be used to settle debts to governments and the IMF itself, but not for other purposes. They cannot be used to intervene in private markets because there are no private markets where SDRs are traded. They cannot be used to invoice and settle trade because no trade is invoiced and settled in SDRs. » (page PDF 104). Le dilemme de Triffin, tel que l'ouvrage le rapporte : « The Triffin Dilemma was that if the United States refused to provide dollars to other countries, trade would stagnate and growth would be stifled. But if the United States did provide an unlimited supply of dollars, lubricating growth and trade, confidence in its commitment to convert them into gold would be eroded. » (page PDF 43) ; et l'analogie qu'il en tire : « There is an evident analogy with the situation linking the United States and emerging markets like China and India in the early twenty-first century. […] The main difference today is that there are alternatives to the dollar » (page PDF 43). L'entre-deux-guerres : la livre décroche en 1931, « Ultimately this was the same escape route chosen by other countries », les États-Unis en 1933, le bloc-or en 1935-1936 (page PDF 34). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : quatre choses. Elle conteste que la position acquise soit un avantage écrasant : « The conventional wisdom […] that incumbency is an overwhelming advantage in the competition for reserve currency status — is similarly wrong » ; le dollar rivalisait avec la livre « in the mid-1920s, only 10 short years after the establishment of the Federal Reserve System » (pages PDF 13 et 14). Elle ne rapporte pas le monde à plusieurs monnaies à des causes internes aux États-Unis, mais à la multipolarité de l'économie mondiale ; ce qu'elle rapporte à des causes internes est la fuite devant le dollar : « We may yet suffer a dollar crash, but only if we bring it on ourselves. » (page PDF 14). Elle ne dit pas l'économie chinoise trop étroite : elle dit le renminbi bridé par les contrôles de l'État. Et ni « competitive devaluation » ni « currency war » n'ont d'occurrence dans l'ouvrage (contrôle positif : « devalu », 29 pages) : l'entre-deux-guerres y est une suite de sorties de l'or, non une concurrence nommée. MÊME OUVRAGE ET MÊME EXEMPLAIRE que L1.C26 [S9], `ouverte` le 2026-09-28."
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+  - ref: S14
     nature: donnees
-    reference: "Banque des règlements internationaux, Triennial Central Bank Survey of Foreign Exchange and Over-the-counter Derivatives Markets, enquête d'avril 2022 — volume quotidien moyen des opérations de change de 7 500 milliards de dollars, en hausse d'environ 14 % sur les 6 600 milliards de l'enquête de 2019 ; le dollar figure d'un côté de 88 % de l'ensemble des opérations. À rapprocher des 84,9 % que Mehrling rapportait des enquêtes du début des années 2010 : la part du dollar a AUGMENTÉ sur la période"
-    url: "https://www.bis.org/statistics/rpfx22_fx.htm"
-    etat_lecture: a_requalifier
-verifications_en_attente:
-  - "[S3] « MÊMES NOTES DE COURS » N'A PLUS D'ANTÉCÉDENT DANS L'EN-TÊTE, et c'est une
-     conséquence du rebasage de [S2] le 2026-09-18. L'entrée désigne P. Mehrling,
-     « Chartalism, Metallism, and Key Currencies », notes de cours, leçon 13 du cours
-     The Economics of Money and Banking, Barnard College, Columbia University —
-     bibliothèque de l'auteur —, que [S2] nommait jusqu'à cette date. La référence de
-     [S3] n'est pas corrigée pour la lui rendre : une référence remplacée n'hérite pas
-     de l'état `a_requalifier` du manifeste (E-L6). L'antécédent est donc rétabli ici,
-     et il devra l'être dans la référence elle-même le jour où [S3] sera requalifiée."
-  - "[S3] LA SUBSTITUTION PAR UN TEXTE PUBLIÉ A ÉTÉ TENTÉE LE 2026-09-18 ET ELLE A
-     ÉCHOUÉ, et la référence n'est pas corrigée ici : une référence remplacée
-     n'hérite pas de l'état `a_requalifier` du manifeste (E-L6). Les deux textes
-     publiés du même auteur ont été téléchargés et lus — « Essential hybridity: A
-     money view of FX », 2013, et « The Inherent Hierarchy of Money », 2012, publié
-     en 2013 chez Routledge. NI L'UN NI L'AUTRE NE PORTE CETTE LECTURE HISTORIQUE :
-     le second ne nomme métallisme et chartalisme qu'UNE FOIS CHACUN, comme deux
-     traditions de pensée dont la dominance fluctue, et non comme la distinction de
-     Schumpeter entre deux systèmes parallèles ; il ne contient ni « hybrid », ni
-     « unresolved », ni « contradiction ». Deux issues : déplacer cette lecture vers
-     le Livre 3 ou le Livre 10, où elle est instruite, ou trouver un texte publié
-     portant la distinction. Le corps ne lui emprunte qu'une lecture d'auteur,
-     déclarée comme telle."
-  - "[S12] TÂCHE NÉE DE L'OUVERTURE DE [S2] LE 2026-09-18, et la référence n'est pas
-     corrigée ici pour le même motif (E-L6). L'article de Mehrling ne nomme PAS le
-     millésime de l'enquête dont il tire 51 % et 84,9 % : il écrit « the most recent
-     BIS numbers » et rien de plus. Le millésime de comparaison est donc à établir
-     sur la source, et la piste — l'enquête d'avril 2010 — n'est pas vérifiée. Tant
-     qu'elle ne l'est pas, le corps attribue ces parts à Mehrling rapportant
-     l'institution, et non à l'institution. Reste par ailleurs à ouvrir la page de
-     la Banque des règlements internationaux elle-même : les 88 % et les 7 500 Md$
-     proviennent de recoupements documentaires, non de la source."
+    reference: "Banque des règlements internationaux, « OTC foreign exchange turnover in April 2022 », BIS Triennial Central Bank Survey, communiqué statistique du 27 octobre 2022. ENTRÉE CRÉÉE le 2026-09-28 : l'ancienne entrée S12, `a_requalifier`, tenait ses chiffres de recoupements documentaires et non de la source ; aucun numéro n'est réattribué. OUVERTE le 2026-09-28 PAR LECTURE EN LIGNE de la page de l'institution, texte intégral du communiqué, sections 1 et 2 et ses neuf notes ; l'adresse que portait l'ancienne entrée, https://www.bis.org/statistics/rpfx22_fx.htm, y conduit. AUCUN EXEMPLAIRE N'EST VERSÉ AU DOSSIER : la page propose un PDF de 23 pages et des tableaux annexes, qui ne sont ni téléchargés ni lus. Passages lus, au mot : « Trading in OTC FX markets reached $7.5 trillion per day in April 2022 (“net-net” basis, all FX instruments), up 14% from $6.6 trillion three years earlier. » ; « The US dollar was on one side of 88% of all trades (unchanged from 2019). » ; « The US dollar remained the world's dominant vehicle currency. » CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : deux choses. La part du dollar est INCHANGÉE depuis 2019 : le communiqué ne porte aucune hausse. Et il se déclare provisoire : « The data are subject to revision. The final turnover data […] will be released with the BIS Quarterly Review in December 2022. » La publication définitive n'est pas lue. Il ne dit rien des années 2010 : le rapprochement avec le chiffre que Mehrling rapporte [S2] est une inférence du corpus, entre deux relevés dont le premier n'a pas de millésime établi."
+    url: "https://www.bis.org/publications/202210-commentary-otc-derivatives"
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+verifications_en_attente: []
+  # RÈGLES V2 ET W2 DE L'AUTEUR, 2026-09-28. Les onze lignes de ce chapitre sont
+  # traitées plus bas ; leur texte d'origine est conservé.
+  # QUATRE ENTRÉES RETIRÉES le 2026-09-28, toutes `a_requalifier` ; leurs occurrences
+  # demeurent au manifeste. S4, Eichengreen 2011, remplacée par S13. S12, enquête de la
+  # Banque des règlements internationaux, remplacée par S14. S5, Triffin 1960, jamais
+  # ouverte : l'énoncé est attribué via S13. S3, notes de cours de Mehrling, leçon 13,
+  # jamais ouverte et sans remplaçante.
+  # PARAGRAPHE SORTI DU § 2 le 2026-09-28, conservé ici tel qu'il était :
+  #   ::hypothese:: Une lecture historique éclaire pourquoi la difficulté est ancienne, et le corpus la donne pour ce qu'elle est : la lecture d'un auteur, non un fait établi de façon indépendante. La pensée monétaire s'est constituée en deux traditions qui décrivaient deux systèmes parallèles — le chartalisme expliquait la monnaie du roi, employée à l'intérieur ; le métallisme expliquait la monnaie internationale du commerce de gros, privée. Le système contemporain n'est ni l'un ni l'autre mais un hybride, et il porte une asymétrie non résolue : la création des banques centrales modernes a placé la monnaie publique au sommet de la hiérarchie domestique en laissant la monnaie privée au sommet de la hiérarchie internationale [S3].
+  # SI L'AUTEUR VERSE LES NOTES DE LA LEÇON 13, qu'il déclare dans sa bibliothèque, le
+  # paragraphe peut revenir, sur la pièce lue.
+  # SORTIE DU CORPS le 2026-09-28 — RÈGLE V2, TROISIÈME BRANCHE. La pièce que l'entrée désignait — les notes de la leçon 13 — n'est pas au dossier : l'exemplaire présent est la leçon 14, « Money and the State, International », et ni « Schumpeter », ni « hybrid », ni « chartal » n'y ont d'occurrence. Aucune autre pièce ne porte cette lecture. Le paragraphe sort du § 2, l'entrée S3 est retirée, et leur texte est conservé plus bas.
+  # Texte d'origine :
+  #   - "[S3] « MÊMES NOTES DE COURS » N'A PLUS D'ANTÉCÉDENT DANS L'EN-TÊTE, et c'est une
+  #   conséquence du rebasage de [S2] le 2026-09-18. L'entrée désigne P. Mehrling,
+  #   « Chartalism, Metallism, and Key Currencies », notes de cours, leçon 13 du cours
+  #   The Economics of Money and Banking, Barnard College, Columbia University —
+  #   bibliothèque de l'auteur —, que [S2] nommait jusqu'à cette date. La référence de
+  #   [S3] n'est pas corrigée pour la lui rendre : une référence remplacée n'hérite pas
+  #   de l'état `a_requalifier` du manifeste (E-L6). L'antécédent est donc rétabli ici,
+  #   et il devra l'être dans la référence elle-même le jour où [S3] sera requalifiée."
+  # SORTIE DU CORPS le 2026-09-28 — MÊME TRAITEMENT. Un troisième texte du même auteur a été ouvert le 2026-09-28, le document de travail 198 de l'Institute for New Economic Thinking, 2023, fourni par l'auteur : il ne porte pas davantage cette lecture. La première issue que la ligne nommait est retenue : la lecture relève du Livre 3 ou du Livre 10, non de ce chapitre.
+  # Texte d'origine :
+  #   - "[S3] LA SUBSTITUTION PAR UN TEXTE PUBLIÉ A ÉTÉ TENTÉE LE 2026-09-18 ET ELLE A
+  #   ÉCHOUÉ, et la référence n'est pas corrigée ici : une référence remplacée
+  #   n'hérite pas de l'état `a_requalifier` du manifeste (E-L6). Les deux textes
+  #   publiés du même auteur ont été téléchargés et lus — « Essential hybridity: A
+  #   money view of FX », 2013, et « The Inherent Hierarchy of Money », 2012, publié
+  #   en 2013 chez Routledge. NI L'UN NI L'AUTRE NE PORTE CETTE LECTURE HISTORIQUE :
+  #   le second ne nomme métallisme et chartalisme qu'UNE FOIS CHACUN, comme deux
+  #   traditions de pensée dont la dominance fluctue, et non comme la distinction de
+  #   Schumpeter entre deux systèmes parallèles ; il ne contient ni « hybrid », ni
+  #   « unresolved », ni « contradiction ». Deux issues : déplacer cette lecture vers
+  #   le Livre 3 ou le Livre 10, où elle est instruite, ou trouver un texte publié
+  #   portant la distinction. Le corps ne lui emprunte qu'une lecture d'auteur,
+  #   déclarée comme telle."
+  # SOLDÉE le 2026-09-28 — LA SOURCE EST LUE : entrée S14, communiqué de la Banque des règlements internationaux du 27 octobre 2022, 7 500 milliards et 88 % au mot. LE MILLÉSIME DU CHIFFRE DE MEHRLING N'EST PAS ÉTABLI, et le corps l'écrit : les 84,9 % restent attribués à Mehrling rapportant l'institution [S2]. LA LECTURE A CORRIGÉ LE CORPS : la part est donnée INCHANGÉE depuis 2019, et la hausse que le § 2 affirmait n'est portée par aucune pièce.
+  # Texte d'origine :
+  #   - "[S12] TÂCHE NÉE DE L'OUVERTURE DE [S2] LE 2026-09-18, et la référence n'est pas
+  #   corrigée ici pour le même motif (E-L6). L'article de Mehrling ne nomme PAS le
+  #   millésime de l'enquête dont il tire 51 % et 84,9 % : il écrit « the most recent
+  #   BIS numbers » et rien de plus. Le millésime de comparaison est donc à établir
+  #   sur la source, et la piste — l'enquête d'avril 2010 — n'est pas vérifiée. Tant
+  #   qu'elle ne l'est pas, le corps attribue ces parts à Mehrling rapportant
+  #   l'institution, et non à l'institution. Reste par ailleurs à ouvrir la page de
+  #   la Banque des règlements internationaux elle-même : les 88 % et les 7 500 Md$
+  #   proviennent de recoupements documentaires, non de la source."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÈGLE APPLIQUÉE POUR LA PREMIÈRE FOIS — la bibliothèque de l'auteur a été
   # inventoriée AVANT tout sourçage documentaire externe (1 223 PDF ;
@@ -124,39 +134,55 @@ verifications_en_attente:
   # à `protocoles/passe-2.md`.
   #
   # ── Sources à ouvrir ───────────────────────────────────────────────────────
-  - "S4 — L'ouvrage d'Eichengreen est lu de première main depuis le 2026-09-04 ;
-     reste son ouverture formelle. TROIS ÉNONCÉS DU CORPS SONT À LOCALISER,
-     absents des thèses relevées dans l'entrée : la concurrence par la
-     dévaluation dans l'entre-deux-guerres (§ 1), la perte de la position de la
-     livre sterling « en une génération » (§ 4), et les faiblesses propres des
-     rivaux (§ 5)."
-  - "S5 — Ouvrir Triffin 1960 pour l'énoncé originel, et documenter la
-     distinction entre le dilemme sous convertibilité or et sa reformulation
-     contemporaine. Le livre les confond ; le corpus les sépare sans avoir lu
-     la source. Piste non vérifiée : la reformulation pourrait être adossée au
-     « nouveau dilemme de Triffin » de Gourinchas, Rey et Sauzet 2019, lu selon
-     `protocoles/falsification.md`."
-  - "S8 — Ouvrir Thirlwall 1979 de première main. La référence porte le plafond
-     de croissance, qui est l'un des deux résultats du chapitre ; Crossref
-     n'indexe que des reprises ultérieures."
-  - "S11 — Ouvrir Bordo, Humpage et Schwartz 2014. La SÉLECTIVITÉ des lignes
-     d'échange est un énoncé de fait, et le § 2 en tire le levier le plus
-     concret de l'hégémonie."
-  - "S3 — La lecture historique du chartalisme et du métallisme reste portée par
-     des notes de cours. La substitution par un texte publié a été TENTÉE ET A
-     ÉCHOUÉ le 2026-09-18 (voir l'entrée). Deux issues : déplacer cette lecture
-     vers le Livre 3 ou le Livre 10, où elle est instruite, ou trouver un texte
-     publié portant la distinction de Schumpeter entre deux systèmes
-     parallèles."
-  - "S9 — RÉSERVE D'ÉDITION À LEVER : l'exemplaire est le document de travail
-     22943 du National Bureau of Economic Research, non la version parue à
-     l'American Economic Review que l'entrée nomme avec sa pagination."
+  # SOLDÉE le 2026-09-28 — OUVERTE, entrée S13, pages du fichier citées. LES TROIS ÉNONCÉS SONT LOCALISÉS, ET DEUX SONT CORRIGÉS. L'entre-deux-guerres : page PDF 34, une suite de sorties de l'or que la source ne nomme pas concurrence. La livre : page PDF 13 ; le corps n'écrit plus « en une génération ». Les rivaux : page PDF 14, et la source ne dit pas l'économie chinoise trop étroite.
+  # Texte d'origine :
+  #   - "S4 — L'ouvrage d'Eichengreen est lu de première main depuis le 2026-09-04 ;
+  #   reste son ouverture formelle. TROIS ÉNONCÉS DU CORPS SONT À LOCALISER,
+  #   absents des thèses relevées dans l'entrée : la concurrence par la
+  #   dévaluation dans l'entre-deux-guerres (§ 1), la perte de la position de la
+  #   livre sterling « en une génération » (§ 4), et les faiblesses propres des
+  #   rivaux (§ 5)."
+  # SOLDÉE le 2026-09-28 — RÈGLE V2, DEUXIÈME BRANCHE. L'ouvrage de Triffin n'est pas au dossier. L'énoncé originel est attribué à Triffin tel que le rapporte Eichengreen [S13], page PDF 43 ; l'entrée S5 est retirée. LA PISTE DE GOURINCHAS, REY ET SAUZET 2019 N'EST PAS SUIVIE : la reformulation contemporaine est signalée au § 1 comme n'étant rapportée à aucune pièce ouverte.
+  # Texte d'origine :
+  #   - "S5 — Ouvrir Triffin 1960 pour l'énoncé originel, et documenter la
+  #   distinction entre le dilemme sous convertibilité or et sa reformulation
+  #   contemporaine. Le livre les confond ; le corpus les sépare sans avoir lu
+  #   la source. Piste non vérifiée : la reformulation pourrait être adossée au
+  #   « nouveau dilemme de Triffin » de Gourinchas, Rey et Sauzet 2019, lu selon
+  #   `protocoles/falsification.md`."
+  # SOLDÉE le 2026-09-28 — L'ENTRÉE PORTE CE QUE LA LIGNE RÉCLAME. S8 est `ouverte` depuis le 2026-09-19, sur la reprise de 2011 qui se déclare réédition de l'article de 1979 ; la loi y est au mot, folio 431. BORNE À GARDER : la pagination de 1979 n'est pas vérifiable sur cette pièce.
+  # Texte d'origine :
+  #   - "S8 — Ouvrir Thirlwall 1979 de première main. La référence porte le plafond
+  #   de croissance, qui est l'un des deux résultats du chapitre ; Crossref
+  #   n'indexe que des reprises ultérieures."
+  # SOLDÉE le 2026-09-28 — OUVERTE depuis le 2026-09-19 ; LES PASSAGES SONT PORTÉS À L'ENTRÉE ce jour. La sélectivité est un énoncé de la pièce : cinq banques centrales émergentes reçoivent une ligne, d'autres la demandent sans l'obtenir (folios 22 et 23). Que ce soit un levier d'hégémonie est une lecture du corpus, et l'entrée le dit.
+  # Texte d'origine :
+  #   - "S11 — Ouvrir Bordo, Humpage et Schwartz 2014. La SÉLECTIVITÉ des lignes
+  #   d'échange est un énoncé de fait, et le § 2 en tire le levier le plus
+  #   concret de l'hégémonie."
+  # SORTIE DU CORPS le 2026-09-28 — MÊME TRAITEMENT que les deux premières lignes : la lecture sort du corps.
+  # Texte d'origine :
+  #   - "S3 — La lecture historique du chartalisme et du métallisme reste portée par
+  #   des notes de cours. La substitution par un texte publié a été TENTÉE ET A
+  #   ÉCHOUÉ le 2026-09-18 (voir l'entrée). Deux issues : déplacer cette lecture
+  #   vers le Livre 3 ou le Livre 10, où elle est instruite, ou trouver un texte
+  #   publié portant la distinction de Schumpeter entre deux systèmes
+  #   parallèles."
+  # SOLDÉE le 2026-09-28 — LEVÉE EN NOMMANT L'ÉDITION LUE : la référence de S9 désigne désormais le document de travail 22943, et la version de la revue y est dite non ouverte.
+  # Texte d'origine :
+  #   - "S9 — RÉSERVE D'ÉDITION À LEVER : l'exemplaire est le document de travail
+  #   22943 du National Bureau of Economic Research, non la version parue à
+  #   l'American Economic Review que l'entrée nomme avec sa pagination."
   # ── Ce que le chapitre n'établit pas, et ne cherche pas à établir ──────────
-  - "Le NEMO Exchange Standard n'est pas traité ici : il est l'objet de L1.C26.
-     Ce chapitre n'en dit que ce qu'exige le critère de règlement."
-  - "La trajectoire du dollar n'est pas évaluée, et le § 5 le dit dans le corps.
-     Le chapitre établit ce qui soutient la position du dollar et ce qui
-     l'éroderait ; il ne prédit pas."
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est une délimitation du chapitre.
+  # Texte d'origine :
+  #   - "Le NEMO Exchange Standard n'est pas traité ici : il est l'objet de L1.C26.
+  #   Ce chapitre n'en dit que ce qu'exige le critère de règlement."
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est une borne, et le § 5 la porte : « Le corpus n'établit pas que la position du dollar ne peut pas durer, et il ne le cherche pas. »
+  # Texte d'origine :
+  #   - "La trajectoire du dollar n'est pas évaluée, et le § 5 le dit dans le corps.
+  #   Le chapitre établit ce qui soutient la position du dollar et ce qui
+  #   l'éroderait ; il ne prédit pas."
 resume: "Ce chapitre établit ce qui tient la position du dollar, et ce qu'un changement d'unité de compte n'y déplace pas. Il réduit d'abord le diagnostic du livre : sur les sept dilemmes énoncés, quatre sont établis, un est reformulé, un reçoit un autre mécanisme que celui du livre, et le dernier relève d'un autre ordre. Il ajoute au privilège exorbitant la contrepartie que le livre omet — le devoir d'assureur —, et la borne : c'est la jambe de crise d'un contrat d'assurance dont la prime est perçue en temps calme, non un coût net. Il établit ensuite que la domination du dollar n'est pas un privilège d'État révocable par accord, mais le sommet d'une hiérarchie de règlement hybride : de la monnaie de banque privée, adossée en crise à de la monnaie publique par des lignes d'échange sélectives, et verrouillée par les usages de facturation. Trois inerties, non une, et aucune ne se déplace par traité. Il sépare deux contraintes que le mot « extérieure » réunit à tort — celle du règlement, qui se reporte sur tout actif de remplacement, et celle de la croissance, déterminée par les élasticités du commerce — et il montre ce que le dispositif atteint de chacune. Il pose enfin le critère qui décide, et l'énonce par sphère : une unité qui ne règle pas dans la sphère privée n'est pas une devise clé, et aucune des formes envisagées ne l'y fait régler ; dans la sphère officielle, la réponse dépend de la forme retenue pour l'unité, que les arbitrages laissent ouverte. Le corpus n'établit pas que le dollar ne peut pas durer, et la justification du dispositif ne se tire pas de ce diagnostic."
 concepts: [devise_cle, hierarchie_monetaire, systeme_monetaire_et_financier, monnaie_comme_registre, creation_monetaire]
 renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25, L1.C26, L1.C31]
@@ -170,13 +196,13 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 
 ::etat:: Le livre énumère sept difficultés du système actuel [S1] : le privilège exorbitant, l'hégémonie qui en découle, le dilemme de Triffin, le triangle d'incompatibilité, la guerre des monnaies, la compétition prédatrice pour les ressources, et le dilemme de la contrainte extérieure — « la difficulté pour les pays de développer leurs économies sans accumuler des dettes extérieures insoutenables et de se contraindre à une logique de compétition productiviste et internationale » [S1].
 
-::etat:: Quatre de ces énoncés sont établis et le corpus les reprend : le privilège exorbitant, documenté par la littérature sur l'ajustement extérieur des États-Unis [S10] ; le triangle d'incompatibilité, résultat démontré [S7] ; la concurrence par la dévaluation, dont l'entre-deux-guerres offre le cas d'école [S4] ; et la contrainte extérieure, réelle, dont le § 3 montre qu'elle en recouvre deux.
+::etat:: Quatre de ces énoncés sont établis et le corpus les reprend : le privilège exorbitant, documenté par la littérature sur l'ajustement extérieur des États-Unis [S10] ; le triangle d'incompatibilité, résultat démontré [S7] ; la dévaluation comme issue, que les pays ont prise l'un après l'autre entre 1931 et 1936 — la source la décrit comme une suite de sorties de l'or, et ne la nomme ni concurrence ni guerre des monnaies [S13] ; et la contrainte extérieure, réelle, dont le § 3 montre qu'elle en recouvre deux.
 
 ::etat:: Le triangle d'incompatibilité n'est plus opposé au dispositif. L'arbitrage A32 le résout par l'abandon de la mobilité intégrale des capitaux, et retient trois propriétés — parités stables ou administrées, autonomie monétaire nationale, compte de capital réglementé. Le résultat de Mundell reste établi ; il fonde désormais le sommet retenu, et sa conception opérationnelle appartient à L1.C26.
 
 ::hypothese:: Le privilège appelle une contrepartie que le livre ne mentionne pas, et l'omettre déséquilibre le tableau. L'émetteur de la monnaie de réserve détient des actifs risqués à l'étranger contre des engagements liquides et sûrs : il assure le reste du monde, et il supporte des pertes en capital considérables sur sa position extérieure nette lors des crises, au moment précis où sa devise s'apprécie [S10]. **Mais ce n'est pas un coût net, et le corpus l'a borné** : la source présente privilège et devoir comme les deux faces d'un contrat d'assurance implicite, dont le reste du monde paie la prime en temps normal [S10]. La jambe de crise est la contrepartie de cette prime, non une charge subie. La source n'écrit nulle part que la charge puisse excéder l'avantage, ni que l'émetteur puisse la refuser : l'écrire serait une inférence du corpus, et le corpus ne la tire pas.
 
-::hypothese:: Un cinquième doit être corrigé. Le dilemme de Triffin est énoncé dans le livre comme s'il valait tel quel. Sa formulation originelle porte sur un système à convertibilité or : l'émetteur doit fournir des dollars au monde, et l'accumulation de ces dollars finit par excéder son stock d'or, ruinant la promesse de conversion [S5]. Cette promesse n'existe plus depuis 1971. Ce qui subsiste sous le même nom est une reformulation contemporaine — l'émetteur d'un actif sûr mondial doit s'endetter à mesure que la demande d'actif sûr croît — et elle est discutée, non acquise. Le corpus retient le dilemme sous cette seconde forme et signale la substitution.
+::hypothese:: Un cinquième doit être corrigé. Le dilemme de Triffin est énoncé dans le livre comme s'il valait tel quel. Sa formulation originelle, telle qu'un ouvrage d'histoire monétaire la rapporte, porte sur un système à convertibilité or : si l'émetteur refuse de fournir des dollars, le commerce stagne ; s'il en fournit sans limite, la confiance dans sa promesse de les convertir en or s'érode [S13]. **L'ouvrage de Triffin lui-même n'est pas ouvert ; le corpus cite ce qu'en rapporte sa source, et elle seule.** Cette promesse n'existe plus depuis 1971. La même source tire de l'épisode une analogie avec la situation présente, et nomme la différence : il existe aujourd'hui d'autres monnaies que le dollar [S13]. Ce qui circule sous le même nom — l'émetteur d'un actif sûr mondial devrait s'endetter à mesure que la demande d'actif sûr croît — est une reformulation que le corpus n'a rapportée à aucune pièce ouverte : il la signale comme discutée, et n'en tire rien.
 
 ::hypothese:: Le sixième, l'hégémonie, reçoit ici un autre mécanisme que celui du livre. Le livre la présente comme une conséquence du privilège, donc comme un attribut de l'État émetteur. Or si le dollar international est majoritairement de la monnaie de banque privée, l'hégémonie ne s'exerce pas par la propriété de la monnaie mais par la juridiction sur le réseau qui la compense. C'est ce qui rend les mesures d'exclusion efficaces : ce qu'on coupe n'est pas l'accès à une monnaie, c'est l'accès à un système de règlement. Le dilemme est réel et le corpus le retient — mais son mécanisme est plus difficile à défaire, puisqu'il ne suffirait pas de changer d'unité de compte pour changer de chambre de compensation.
 
@@ -186,9 +212,9 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 
 ::hypothese:: Le livre traite la domination du dollar comme un privilège politique — un avantage conféré à un État, dont d'autres États pourraient décider de se défaire. Les faits opératoires disent autre chose, et cette autre chose commande le reste du chapitre.
 
-::etat:: Le marché des changes est organisé hiérarchiquement. Environ la moitié du volume ne concerne que quelques devises majeures, et le dollar est l'une des deux jambes de la grande majorité des opérations — 84,9 % du volume selon les enquêtes de la Banque des règlements internationaux (BRI) que Mehrling rapportait au début des années 2010, sans en nommer le millésime [S2], et 88 % selon l'enquête triennale d'avril 2022, pour un volume quotidien moyen de 7 500 milliards de dollars [S12]. Les paires dites majeures ont toutes le dollar pour contrepartie ; les paires mineures ne se traitent presque jamais entre elles, mais contre une majeure.
+::etat:: Le marché des changes est organisé hiérarchiquement. Environ la moitié du volume ne concerne que quelques devises majeures, et le dollar est l'une des deux jambes de la grande majorité des opérations — 84,9 % du volume selon les enquêtes de la Banque des règlements internationaux (BRI) que Mehrling rapportait au début des années 2010, sans en nommer le millésime [S2]. L'enquête triennale d'avril 2022 donne 88 %, pour un volume quotidien moyen de 7 500 milliards de dollars [S14]. Les paires dites majeures ont toutes le dollar pour contrepartie ; les paires mineures ne se traitent presque jamais entre elles, mais contre une majeure.
 
-::hypothese:: Le corpus doit relever ce que la comparaison des deux relevés établit, parce que c'est un fait dur et qu'il va contre l'idée d'un déclin en cours. **Entre le début des années 2010 et avril 2022, la part du dollar n'a pas reculé : elle a progressé**, de 84,9 % à 88 %, sur un marché dont le volume a lui-même crû. Le constat est daté et il porte sur cette période seule ; le millésime de l'enquête qui fonde le premier chiffre reste à établir sur la source. Ce n'est pas une prévision, et le chapitre n'en tire aucune.
+::hypothese:: Le corpus doit relever ce que la comparaison des deux relevés établit, parce que c'est un fait dur et qu'il va contre l'idée d'un déclin en cours. **Entre 2019 et avril 2022, la part du dollar n'a pas reculé : l'institution la donne inchangée**, sur un marché dont le volume a crû de 14 % [S14]. Que le chiffre de 2022 soit supérieur à celui que Mehrling rapportait au début des années 2010 est un rapprochement du corpus entre deux relevés, dont le premier n'a pas de millésime établi : **il ne vaut pas mesure d'une hausse.** Le communiqué de 2022 se déclare en outre provisoire. Ce n'est pas une prévision, et le chapitre n'en tire aucune.
 
 ::etat:: Le fait décisif n'est pourtant pas la part de marché : c'est la nature de ce qui est échangé. **Le dollar dont il s'agit est pour l'essentiel le dollar international privé, c'est-à-dire de la monnaie de banque et non de la monnaie d'État** [S2]. Et le marché des changes est un marché monétaire, non un marché de capitaux : il traite du règlement, à court terme, pas du placement.
 
@@ -199,8 +225,6 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 ::etat:: **Et le verrouillage ne tient pas qu'aux banques.** Le commerce international se facture massivement dans la devise dominante, y compris entre agents dont aucun n'est résident du pays émetteur, et il en résulte une inertie qui ne dépend ni des teneurs de marché ni d'une décision publique [S9]. Le corpus retient donc **trois** sources d'inertie et non une : le réseau de règlement privé, sa garantie publique en dernier ressort, et le verrouillage par les usages de facturation.
 
 ::hypothese:: Il faut en tirer la conséquence, et elle est lourde. Si la position du dollar était un privilège d'État, un accord entre États pourrait la révoquer. Si elle repose sur ces trois inerties, alors la révoquer suppose de déplacer un réseau, de remplacer une garantie de dernier ressort, et de changer les habitudes de facturation de millions d'agents tiers — **ce qu'aucun traité ne fait par lui-même**. Le corpus ne dispose d'aucune analyse de ces obstacles : ils sont nommés ici et ils ne sont pas analysés, ce qui reste une dette de la proposition.
-
-::hypothese:: Une lecture historique éclaire pourquoi la difficulté est ancienne, et le corpus la donne pour ce qu'elle est : la lecture d'un auteur, non un fait établi de façon indépendante. La pensée monétaire s'est constituée en deux traditions qui décrivaient deux systèmes parallèles — le chartalisme expliquait la monnaie du roi, employée à l'intérieur ; le métallisme expliquait la monnaie internationale du commerce de gros, privée. Le système contemporain n'est ni l'un ni l'autre mais un hybride, et il porte une asymétrie non résolue : la création des banques centrales modernes a placé la monnaie publique au sommet de la hiérarchie domestique en laissant la monnaie privée au sommet de la hiérarchie internationale [S3].
 
 ## 3. Deux contraintes extérieures, et ce que le dispositif atteint
 
@@ -222,9 +246,9 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 
 ## 4. Le critère de règlement, par sphère
 
-::etat:: Ce qui fait qu'une monnaie nationale devient une devise clé est documenté. Il y faut un émetteur grand, riche et en croissance ; un souverain stable et puissant ; et des marchés de capitaux profonds, procurant une liquidité élevée [S4]. La position acquise avantage fortement le sortant — mais elle n'est pas imprenable, la livre sterling l'ayant perdue [S4].
+::etat:: Ce qui fait qu'une monnaie nationale devient une devise clé est documenté. Il y faut un émetteur grand, riche et en croissance ; un pays puissant et sûr derrière la monnaie ; et des marchés financiers assez profonds et assez larges pour rendre son emploi international attrayant [S13]. La position acquise avantage le sortant, **mais la source conteste qu'elle soit un avantage écrasant** : le dollar rivalisait avec la livre dès le milieu des années 1920, dix ans après la création de la Réserve fédérale, et la livre a perdu sa position parce que la Grande-Bretagne avait perdu son rang [S13].
 
-::etat:: Un critère plus étroit tranche, et il faut l'énoncer par sphère. Il est faux de dire que les droits de tirage spéciaux (DTS) du Fonds monétaire international ne permettent d'éteindre aucune dette : ils en éteignent dans la **sphère officielle**, entre États membres et envers le Fonds, où ils sont un avoir de réserve transférable. Ce qu'ils ne font pas, c'est régler une dette dans la **sphère privée** : aucun fournisseur, aucune banque commerciale n'est tenu de les accepter. Le texte est explicite dans les deux sens : « SDRs can be used to settle debts to governments and the IMF itself, but not for other purposes [...]. They cannot be used to invoice and settle trade because no trade is invoiced and settled in SDRs » [S4]. **Une unité qui ne règle pas dans la sphère privée n'est pas une devise clé, quelle que soit sa qualité comme référence.**
+::etat:: Un critère plus étroit tranche, et il faut l'énoncer par sphère. Il est faux de dire que les droits de tirage spéciaux (DTS) du Fonds monétaire international ne permettent d'éteindre aucune dette : ils en éteignent dans la **sphère officielle**, entre États membres et envers le Fonds, où ils sont un avoir de réserve transférable. Ce qu'ils ne font pas, c'est régler une dette dans la **sphère privée** : aucun fournisseur, aucune banque commerciale n'est tenu de les accepter. Le texte est explicite dans les deux sens : « SDRs can be used to settle debts to governments and the IMF itself, but not for other purposes [...]. They cannot be used to invoice and settle trade because no trade is invoiced and settled in SDRs » [S13]. **Une unité qui ne règle pas dans la sphère privée n'est pas une devise clé, quelle que soit sa qualité comme référence.**
 
 ::etat:: **Dans la sphère privée, aucune des formes envisagées ne fait de l'unité une devise clé**, et cela ne dépend d'aucun arbitrage à venir : les bénéficiaires et les importateurs sont réglés en monnaie nationale. Le livre le dit lui-même du référentiel : « Le NES n'est pas une monnaie, mais simplement un référentiel comptable qui sert d'intermédiaire de conversion entre les devises » [S1].
 
@@ -244,9 +268,9 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 
 ## 5. Ce que le corpus ne peut pas établir
 
-::hypothese:: **La trajectoire du dollar.** Le corpus n'établit pas que la position du dollar ne peut pas durer, et il ne le cherche pas. Le constat du § 2 pèse en sens inverse : la part mesurée s'est renforcée sur la période observée [S12].
+::hypothese:: **La trajectoire du dollar.** Le corpus n'établit pas que la position du dollar ne peut pas durer, et il ne le cherche pas. Le constat du § 2 pèse en sens inverse : la part mesurée est inchangée entre 2019 et 2022 [S14].
 
-::etat:: **Le scénario rival.** Ce que la littérature retient n'est pas l'effondrement mais une **érosion graduelle** de la prédominance du dollar vers un système à plusieurs monnaies internationales, sans rupture, et procédant de causes internes à l'émetteur plutôt que d'une action extérieure concertée [S4]. Les rivaux ont leurs propres faiblesses, telles que la même source les rapporte : une monnaie sans État pour l'une, une économie encore trop étroite pour donner à ses marchés de capitaux la profondeur qu'exige la liquidité internationale pour l'autre [S4].
+::etat:: **Le scénario rival.** Ce que la source retient n'est pas l'effondrement mais un monde où plusieurs monnaies internationales coexistent, **et elle le rapporte à la multipolarité de l'économie mondiale, non à des causes internes à l'émetteur** [S13]. Ce qu'elle rapporte à des causes internes est autre chose : la fuite devant le dollar, qui ne viendrait que d'une mauvaise gestion américaine [S13]. **Le corpus confondait les deux.** Les rivaux ont leurs propres faiblesses, telles que la même source les donne : une monnaie sans État pour l'euro, une monnaie où l'État pèse trop pour le renminbi, dont l'emploi international est bridé par les contrôles [S13]. **Le corpus écrivait l'économie chinoise « trop étroite » ; la source ne le dit pas.**
 
 ::hypothese:: **Ce scénario est gênant pour la proposition, et il faut dire exactement pourquoi.** Il ne requiert aucune institution nouvelle et se produit sans décision collective. Un monde à trois ou quatre monnaies internationales resterait aussi indifférent à l'état des fonds naturels qu'un monde à une seule. **La multipolarité ne règle donc aucun des problèmes que le corpus a posés** — mais ce constat ne suffit pas à justifier le dispositif, et le corpus ne le présente plus comme suffisant. Ce que le dispositif promet est borné par deux engagements vérifiables : ne pas bloquer, et ne pas financer l'incompatible. Il ne promet aucun résultat écologique, et l'écrire serait contredire son propre arbitrage.
 
