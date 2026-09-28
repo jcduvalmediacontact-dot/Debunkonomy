@@ -7160,6 +7160,8 @@ qualification appartiennent à l'auteur, au sens du § 11 de la convention.
 
 **(3b) À PARITÉS ADMINISTRÉES** — stables, révisables selon une règle annoncée, dans une coalition, sous compte de capital réglementé : **APPLICABILITÉ NON JUGÉE**, et cinq conditions sont nommées. **(1)** Une règle de révision unique et écrite : le livre en donne trois, incompatibles deux à deux (L1.C26 § 3). **(2)** Des obligations contraignantes des deux côtés. **(3)** Un plafond dur assorti d'une procédure. **(4)** Les deux guichets d'A45, avec leur financeur désigné. **(5)** Une procédure structurelle pour la perte durable d'un débouché.
 
+**Mention du 2026-09-28, ajoutée sur décision de l'auteur. Le texte de l'arbitrage ci-dessus est conservé tel qu'il a été rendu.** La formule « incompatibles deux à deux » de la condition (1) n'est pas démontrée : deux des trois énoncés du livre portent sur ce qui fixe la valeur du référentiel, le troisième sur la révision des parités, et ce sont deux opérations distinctes (recontrôle de Codex sur L1.C28 ; L1.C28 § 6, état de `c3912c1e`). La section visée de L1.C26 est aujourd'hui le § 4, non le § 3. **La condition elle-même — une règle de révision unique et écrite — est inchangée.**
+
 **Ce que la décision ne fait pas** : elle ne déclare pas la forme (3b) applicable. Elle la sort de la condamnation qui visait une autre forme, et elle écrit ce qu'il faudrait établir pour la juger.
 
 ### CE QUE LE MODÈLE DIT DE LA FIXITÉ
