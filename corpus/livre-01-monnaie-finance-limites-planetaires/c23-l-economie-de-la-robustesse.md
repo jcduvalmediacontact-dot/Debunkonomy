@@ -145,6 +145,8 @@ verifications_en_attente: []
   #   redépensés” » : la phrase avait pour sujet la réfutation, qu'elle semblait
   #   invalider. Le § 4 sépare désormais ce qui est payable en principe de ce qui
   #   est réalisé dans les économies observées.
+  # RÈGLE ÉDITORIALE DU 2026-09-08 : B1 est une rétractation contre une source, et elle
+  # reste au corps, § 2. B2 et B4 sont des corrections de rédaction : leur trace est ici.
   # Les trois questions ouvertes restent ouvertes. Ce bloc ne vaut pas verdict : il
   # appartient à Codex de dire si les quatre réserves sont levées.
   # ── AUDIT TIERS DU 2026-09-18, REÇU ET VÉRIFIÉ ──────────────────
@@ -387,7 +389,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::etat:: Le Cahier oppose ces trois traits, point par point, aux logiques de l'hyperoptimisation [S3] — que le corpus lit comme l'élimination des marges, la spécialisation et l'interconnexion maximale. **C'est l'excès qui est visé, non toute recherche d'efficacité.**
 
-::hypothese:: Le corpus doit en tirer ce que le livre laisse implicite. **La robustesse n'est pas une amélioration gratuite, et ce qu'elle coûte dépend du point d'où l'on part.** Un stock de sécurité est du capital immobilisé, une capacité redondante est une capacité sous-employée, une filière diversifiée renonce aux économies d'échelle de la filière unique : ce sont des coûts possibles, et quand ils existent quelqu'un les supporte — un producteur, un consommateur, un contribuable. L'énoncer est la condition pour que l'objectif soit discutable plutôt qu'incantatoire. **Les pièces lues ne portent pas que tout gain de robustesse soit une perte d'efficacité** : ce qu'elles portent est dit deux paragraphes plus bas.
+::hypothese:: Le corpus doit en tirer ce que le livre laisse implicite. **La robustesse n'est pas une amélioration gratuite, et ce qu'elle coûte dépend du point d'où l'on part.** Un stock de sécurité est du capital immobilisé, une capacité redondante est une capacité sous-employée, une filière diversifiée renonce aux économies d'échelle de la filière unique : ce sont des coûts possibles, et quand ils existent quelqu'un les supporte — un producteur, un consommateur, un contribuable. L'énoncer est la condition pour que l'objectif soit discutable plutôt qu'incantatoire. **Ce chapitre affirmait que tout gain de robustesse est une réduction délibérée de l'efficacité mesurée ; les pièces relues ne portent pas cette généralité** : ce qu'elles portent est dit deux paragraphes plus bas.
 
 ::hypothese:: Et ce coût, dès lors qu'il est financé publiquement, ouvre une difficulté que le corpus doit poser ici plutôt qu'en la renvoyant. Une capacité redondante ne se distingue pas aisément, de l'extérieur, d'une capacité sous-employée : le corpus n'a lu aucun critère qui les sépare sans connaître l'usage auquel on les destine. Décider laquelle est une réserve stratégique et laquelle est un gaspillage est donc une décision administrative — et toute décision administrative qui crée une rente attire des ressources réelles dépensées pour l'obtenir plutôt que pour produire [S13]. Le dispositif ne fournit aucun critère pour trancher, et il ajoute au barème de qualification (P28) un second gisement de contestation. L'objection rejoint celle de la connaissance dispersée : hors signal de prix, rien n'indique quelle redondance vaut son coût.
 

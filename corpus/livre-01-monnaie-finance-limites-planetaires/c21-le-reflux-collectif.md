@@ -307,7 +307,7 @@ renvois: [L1.C08, L1.C10, L1.C11, L1.C17, L1.C18, L1.C19, L1.C20, L1.C26, L1.C31
 
 ## 10. Objections de conception
 
-::hypothese:: **L'incitation au réétiquetage.** Un différentiel de taux allant de zéro à plus de vingt pour cent crée une prime considérable à faire qualifier de régénératif ce qui ne l'est pas. L'objection compose avec le biais qui fait enrôler ce qui se documente le plus facilement. **Une piste existe dans le corpus — une mesure extérieure aux déclarations — mais elle n'est pas transposée au barème de reflux** : un contrôle qui ne porte que sur des déclarations ne détecte pas leur falsification.
+::hypothese:: **L'incitation au réétiquetage.** Un différentiel de taux allant de zéro à plus de vingt pour cent crée une prime considérable à faire qualifier de régénératif ce qui ne l'est pas. L'objection compose avec une inférence du corpus : qu'un dispositif enrôle d'abord ce qui se prouve aisément (L1.C17 § 7). **Une piste existe dans le corpus — une mesure extérieure aux déclarations — mais elle n'est pas transposée au barème de reflux** : un contrôle qui ne porte que sur des déclarations ne détecte pas leur falsification.
 
 ::hypothese:: **L'effet régressif.** Si des usages sont qualifiés de dégénératifs et frappés lourdement, le reflux transactionnel devient un prélèvement fortement régressif sur des ménages captifs, qui n'ont pas les moyens de l'arbitrage que le signal-prix suppose. **Une asymétrie interne s'y ajoute et reste inexpliquée** : le démurrage comporte un seuil d'exemption indexé, le reflux transactionnel n'en comporte aucun, et rien ne justifie la différence. C'est une branche du barème qui exclut.
 
