@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-18
+revision_de_fond: 2026-09-28
 autorite: preparatoire
 citable: false
 regime: conception
@@ -85,7 +85,7 @@ sources_primaires:
     date_verification: 2026-09-15
   - ref: S14
     nature: donnees
-    reference: "DEUX GRANDEURS DISTINCTES, VOISINES EN VALEUR. (1) Capacité annoncée : Board of Governors of the Federal Reserve System, communiqué du 9 avril 2020 — « The Federal Reserve on Thursday took additional actions to provide up to $2.3 trillion in loans to support the economy », facilités ouvertes au titre de la section 13(3) du Federal Reserve Act et adossées à une dotation de 454 milliards de dollars du Trésor au titre du CARES Act ; ces facilités n'ont été tirées qu'à une fraction du plafond. (2) Expansion constatée du bilan : série H.4.1 / FRED WALCL — actif total 4 311 911 M$ au 11 mars 2020, 6 655 929 M$ au 29 avril 2020, soit +2 344 018 M$ en sept semaines, produite par des achats de titres sur le marché secondaire et non par les facilités du 9 avril OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 : communiqué du 9 avril 2020 (2026-09-15/c23/S14-fed-pressrelease-2020-04-09.html, 1 pages, SHA-256 424685AD6591BD39687B93FDF2D1BCA3AAF971251FDB03629709459CC900D145) et deux relevés H.4.1 (2026-09-15/c23/S14-fed-h41-20200312.html, 1 pages, SHA-256 AC3493CE755097EBB4B4357726438CFD7D497C1E7BBBCC5434BC7647C6B095E4 ; 2026-09-15/c23/S14-fed-h41-20200430.html, 1 pages, SHA-256 C168157631E6AB2E612132C22688A789E36FEE539091AD98622486BD5DF31E29). Passages lus : « up to $2.3 trillion » (page PDF 1) ; « 4,311,911 » (page PDF 1) ; « 6,655,929 » (page PDF 1). LE COMMUNIQUÉ NE MENTIONNE PAS de dotation de 454 milliards de dollars : il cite des apports du Trésor au titre du CARES Act facilité par facilité (75 milliards, 35 milliards) — le corps est aligné le 2026-09-15. Que les facilités n'aient été tirées qu'à une fraction du plafond n'est porté par aucun des trois documents : énoncé à appuyer ou à déclarer (D53)."
+    reference: "DEUX GRANDEURS DISTINCTES, VOISINES EN VALEUR. (1) Capacité annoncée : Board of Governors of the Federal Reserve System, communiqué du 9 avril 2020 — « The Federal Reserve on Thursday took additional actions to provide up to $2.3 trillion in loans to support the economy », facilités ouvertes au titre de la section 13(3) du Federal Reserve Act et adossées à des apports du Trésor au titre du CARES Act, que le communiqué détaille facilité par facilité (75 milliards, 35 milliards). (2) Expansion constatée du bilan : série H.4.1 / FRED WALCL — actif total 4 311 911 M$ au 11 mars 2020, 6 655 929 M$ au 29 avril 2020, soit +2 344 018 M$ en sept semaines, produite par des achats de titres sur le marché secondaire et non par les facilités du 9 avril OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 : communiqué du 9 avril 2020 (2026-09-15/c23/S14-fed-pressrelease-2020-04-09.html, 1 pages, SHA-256 424685AD6591BD39687B93FDF2D1BCA3AAF971251FDB03629709459CC900D145) et deux relevés H.4.1 (2026-09-15/c23/S14-fed-h41-20200312.html, 1 pages, SHA-256 AC3493CE755097EBB4B4357726438CFD7D497C1E7BBBCC5434BC7647C6B095E4 ; 2026-09-15/c23/S14-fed-h41-20200430.html, 1 pages, SHA-256 C168157631E6AB2E612132C22688A789E36FEE539091AD98622486BD5DF31E29). Passages lus : « up to $2.3 trillion » (page PDF 1) ; « 4,311,911 » (page PDF 1) ; « 6,655,929 » (page PDF 1). LE COMMUNIQUÉ NE MENTIONNE PAS de dotation de 454 milliards de dollars : il cite des apports du Trésor au titre du CARES Act facilité par facilité (75 milliards, 35 milliards) — le corps est aligné le 2026-09-15. Que les facilités n'aient été tirées qu'à une fraction du plafond n'est porté par aucun des trois documents : énoncé à appuyer ou à déclarer (D53)."
     url: "https://fred.stlouisfed.org/series/WALCL"
     etat_lecture: ouverte
     date_verification: 2026-09-15
@@ -248,22 +248,28 @@ verifications_en_attente:
   # assumée, c'est une lacune.
   #
   # ── Sources à ouvrir par un humain ─────────────────────────────────────────
-  - "S4 — Ouvrir Holling 1973 pour la formulation exacte de la distinction
-     stabilité / résilience et pour l'énoncé de la corrélation inverse. La
-     référence bibliographique est vérifiée (Crossref) ; le libellé ne l'est
-     pas."
-  - "S5 et S6 — Ouvrir les deux articles pour vérifier que la « plage de
-     viabilité » est bien bornée des deux côtés, et pour le passage exact sur
-     la diversité des canaux. Le chapitre fait porter au § 5 une objection
-     lourde sur cette base : elle doit être lue sur le texte."
+  # SOLDÉE le 2026-09-28 — L'ENTRÉE PORTAIT DÉJÀ CE QUE LA LIGNE RÉCLAMAIT. S4 donne la distinction au mot et à la page : « Resilience determines the persistence of relationships within a system … » et « Stability, on the other hand, is the ability of a system to return to an equilibrium state … » (p. 17) ; et la corrélation inverse : « a system can be very resilient and still fluctuate greatly, i.e. have low stability » (p. 17), avec le rendement maximal soutenu à la p. 21. La pièce est `ouverte` depuis le 2026-09-15.
+  # Texte d'origine :
+  #   - "S4 — Ouvrir Holling 1973 pour la formulation exacte de la distinction
+  #      stabilité / résilience et pour l'énoncé de la corrélation inverse. La
+  #      référence bibliographique est vérifiée (Crossref) ; le libellé ne l'est
+  #      pas."
+  # SOLDÉE le 2026-09-28 — PORTÉE PAR S6, AU MOT ET À LA PAGE. La plage bornée des deux côtés : « systems become unsustainable whenever they have either too much or too little diversity/connectivity (or too much or too little efficiency) » (page PDF 2, folio 77) ; la diversité : « Both resilience and efficiency are related to the levels of diversity and connectivity found in the network, but in opposite directions » (même page). BORNE À GARDER : l'entrée S5 énonce le bornage des deux côtés comme sa propre lecture ; ses « passages lus » ne portent que « window of vitality » et le titre. C'est S6 qui le cite.
+  # Texte d'origine :
+  #   - "S5 et S6 — Ouvrir les deux articles pour vérifier que la « plage de
+  #      viabilité » est bien bornée des deux côtés, et pour le passage exact sur
+  #      la diversité des canaux. Le chapitre fait porter au § 5 une objection
+  #      lourde sur cette base : elle doit être lue sur le texte."
   - "S3 — La définition institutionnelle de la stabilité financière est
      rapportée par le Cahier comme étant celle de la Banque centrale européenne
      (2004). À vérifier sur la Financial Stability Review et à citer sur la
      source, non sur le Cahier."
-  - "S14 — Les deux grandeurs de 2020 sont désormais séparées et sourcées, mais
-     ni le communiqué du 9 avril ni la série H.4.1 n'ont été ouverts par un
-     humain. À faire avant tout passage en statut vérifié : ce sont les seuls
-     chiffres du chapitre."
+  # SOLDÉE le 2026-09-28 — LA CONDITION POSÉE EST LEVÉE, ET UNE AUTRE A ÉTÉ TROUVÉE. La ligne exigeait une ouverture « par un humain » : CLAUDE.md l'autorise par téléchargement direct depuis le 2026-09-06, et l'entrée déclare les trois pièces ouvertes le 2026-09-15, avec leurs empreintes et leurs passages lus — « up to $2.3 trillion », « 4,311,911 », « 6,655,929 ». MAIS L'ENTRÉE SE CONTREDISAIT DEUX FOIS : sa tête affirmait une dotation de 454 milliards et un tirage à une fraction du plafond, là où sa queue écrit que le communiqué ne mentionne pas la première et qu'aucun des trois documents ne porte le second. Le corps avait été aligné le 2026-09-15, l'entrée non ; elle l'est ici.
+  # Texte d'origine :
+  #   - "S14 — Les deux grandeurs de 2020 sont désormais séparées et sourcées, mais
+  #      ni le communiqué du 9 avril ni la série H.4.1 n'ont été ouverts par un
+  #      humain. À faire avant tout passage en statut vérifié : ce sont les seuls
+  #      chiffres du chapitre."
   # ── Limites assumées ───────────────────────────────────────────────────────
   - "LIMITE — La transposition de la mesure d'Ulanowicz aux systèmes monétaires
      est le fait de Goerner, Lietaer et Ulanowicz eux-mêmes [S6], non du corpus.
@@ -383,7 +389,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::etat:: Cette négation a cependant une portée exacte qu'il faut énoncer, sous peine de reconduire l'erreur symétrique. Elle établit que la charge d'intérêt est payable **en principe**. Elle n'établit pas que le revenu d'intérêt revienne effectivement au circuit, et c'est une tout autre question — celle de la vitesse de circulation, non celle de l'existence de la monnaie.
 
-::etat:: L'évasion fiscale le montre bien, et il faut être précis sur ce qu'elle fait et ne fait pas. Elle **ne détruit pas** de monnaie : un dépôt transféré vers un centre offshore reste un dépôt libellé dans la même unité, inscrit au passif d'une banque ; ces centres sont des lieux d'écriture, non des trous. L'identité comptable tient. Mais elle **interrompt le retour** du revenu vers la dépense — et c'est exactement l'hypothèse qui porte le résultat de Jackson et Victor. Or cette interruption est mesurée : environ 8 % du patrimoine financier des ménages est estimé détenu dans les centres offshore [S17], soit l'équivalent d'environ 10 % du produit mondial, très inégalement réparti [S20].
+::etat:: L'évasion fiscale le montre bien, et il faut être précis sur ce qu'elle fait et ne fait pas. Elle **ne détruit pas** de monnaie : un dépôt transféré vers un centre offshore reste un dépôt libellé dans la même unité, inscrit au passif d'une banque ; ces centres sont des lieux d'écriture, non des trous. L'identité comptable tient. Mais elle **interrompt le retour** du revenu vers la dépense — et c'est exactement l'hypothèse qui porte le résultat de Jackson et Victor. **Ce que les pièces mesurent est un stock, non une interruption** : environ 8 % du patrimoine financier des ménages est estimé détenu dans les centres offshore [S17], soit l'équivalent d'environ 10 % du produit mondial, très inégalement réparti [S20]. **Identifier ce stock à une interruption du retour est une inférence du corpus, et elle est contestable** : un avoir placé offshore est replacé en actifs financiers et ne quitte pas la circulation mondiale. Ni l'une ni l'autre pièce ne dit qu'il cesse d'être dépensé, et savoir si l'hypothèse de Jackson et Victor décrit les avoirs offshore réels reste ouvert.
 
 ::hypothese:: Le corpus doit donc corriger sa propre formulation antérieure, qui glissait de « la monnaie existe » à « la monnaie est disponible ». Ce ne sont pas deux façons de dire la même chose. La réfutation de l'argument arithmétique n'exige que la première, plus une circulation non nulle ; elle ne survit pas à l'énoncé « les revenus d'intérêts sont intégralement redépensés », qui est une hypothèse de modèle et non un fait.
 
@@ -409,7 +415,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::etat:: Une troisième voie mène pourtant au même endroit, et elle est plus ancienne que les deux autres. La théorie des zones monétaires établit qu'une aire soumise à des chocs **asymétriques** et privée de l'ajustement par le change ajuste par les quantités — emploi, salaires, migrations — la mobilité des facteurs étant la condition qui rend l'union supportable [S11].
 
-::hypothese:: Le dispositif est exposé à cette objection sous une forme qui lui est propre, et le corpus doit la formuler exactement. Les chocs qu'il prend pour objet sont **écologiques**, donc asymétriques par nature : une sécheresse, un effondrement halieutique, un événement extrême frappent des territoires et non l'ensemble. Or le taux de conversion de l'unité émise est fixe, « bien que révisable » (L1.C19 § 6). Un territoire frappé reçoit donc une émission calculée sur un barème mondial, convertie à un taux qui ne reflète pas son choc, et il lui reste l'ajustement par les quantités. **C'est le contraire de la modularité que la robustesse exige** : une perturbation locale n'est pas amortie localement, elle est transmise.
+::hypothese:: Le dispositif est exposé à cette objection sous une forme qui lui est propre, et le corpus doit la formuler exactement. Les chocs qu'il prend pour objet sont **écologiques**, donc asymétriques par nature : une sécheresse, un effondrement halieutique, un événement extrême frappent des territoires et non l'ensemble. Or le taux de conversion de l'unité émise est fixe, « bien que révisable » (L1.C19 § 6). Un territoire frappé reçoit donc une émission calculée sur un barème mondial, convertie à un taux qui ne reflète pas son choc, et **le corpus en infère** qu'il lui reste l'ajustement par les quantités. **C'est une inférence du corpus, non un report du résultat [S11]** : la théorie des zones monétaires porte sur une monnaie qui circule, et ce chapitre vient d'écarter l'objection à ce titre même, l'unité émise étant détruite à la conversion. Ce qui est transposé est la forme du raisonnement, non sa conclusion. **C'est le contraire de la modularité que la robustesse exige** : une perturbation locale n'est pas amortie localement, elle est transmise.
 
 ::hypothese:: L'objection n'est donc pas dirimante. Mais elle n'est pas dissoute non plus, et elle a une portée que le corpus doit enregistrer : **c'est la troisième fois qu'elle paraît, par trois voies indépendantes.** L1.C22 § 2 y était arrivé par la littérature des communs et la polycentricité ; ce chapitre y arrive par la théorie des réseaux de flux, puis par celle des zones monétaires. Trois traditions distinctes, mobilisées pour trois raisons distinctes, aboutissent au même reproche adressé à la même architecture. Une objection qui se présente trois fois par des chemins séparés n'est plus une objection : c'est un résultat.
 
