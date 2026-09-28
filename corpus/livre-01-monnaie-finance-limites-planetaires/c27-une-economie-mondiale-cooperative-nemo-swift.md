@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-19
+revision_de_fond: 2026-09-28
 autorite: preparatoire
 citable: false
 regime: conception
@@ -31,10 +31,6 @@ sources_primaires:
     reference: "T. Feyzioglu, V. Swaroop, M. Zhu, « A Panel Data Analysis of the Fungibility of Foreign Aid », The World Bank Economic Review, 12(1), p. 29-58, 1998 — « Aid is fungible in three out of five sectors examined. Developing-country governments receiving earmarked concessionary loans for agriculture, education, and energy reduce their own resources going to these sectors and use them elsewhere. » DÉJÀ VERSÉE AU DOSSIER sous la même référence en L1.C22 § 5 (P19, face budgétaire) ; employée ici contre la clause de neutralité anticoloniale, qui est une affectation sous condition adressée à un gouvernement souverain OUVERTE PAR VERSEMENT depuis L1.C22 [S9] le 2026-09-19, sur l'exemplaire du dossier (2026-09-16/acquisitions-c17-c30/C22-S9-feyzioglu-swaroop-zhu-1998-wber-banque-mondiale.pdf, 30 pages, SHA-256 98E6E75C9F6B0AE625E39DD6F185C928B85BEEC7BD11A48DBF31CE9D191BAD26). RELECTURE : l'énoncé que le corps emploie est au mot dans l'article — « Aid is fungible in three out of five sectors examined » — et l'identité du document est confirmée en page 1 (titre et auteurs)."
     etat_lecture: ouverte
     date_verification: 2026-09-19
-  - ref: S5
-    nature: theorie
-    reference: "S. Barrett, « Self-Enforcing International Environmental Agreements », Oxford Economic Papers, 46, p. 878-894, 1994 — résultat central de la littérature sur les accords environnementaux internationaux : un accord auto-exécutoire réunit soit beaucoup de participants pour un gain collectif faible, soit un gain élevé pour un très petit nombre de participants ; la coopération large et ambitieuse n'est pas un équilibre en l'absence de sanction. RÉSERVE : référence non ouverte de première main dans cette passe"
-    etat_lecture: a_requalifier
   - ref: S6
     nature: theorie
     reference: "W. Nordhaus, « Climate Clubs: Overcoming Free-Riding in International Climate Policy », American Economic Review, 105(4), p. 1339-1370, 2015 — formalisation d'un club dont les membres appliquent une norme commune et frappent les importations des non-membres d'un tarif uniforme ; l'auteur montre qu'un club stable de large adhésion exige un tarif d'un ordre de grandeur déterminé, et calcule cet ordre de grandeur par simulation. IMPORTANT POUR CE CHAPITRE : c'est la formalisation existante la plus proche du dispositif du livre, et elle fournit la méthode qui permettrait de DÉRIVER le seuil que [S2] se contente d'affirmer. RÉSERVE : référence non ouverte de première main OUVERTE PAR VERSEMENT depuis L1.C14 [S11] le 2026-09-16, sur l'exemplaire déjà au dossier (2026-09-15/c14/fournis/S11-nordhaus-2015-climate-clubs-aer-fourni.pdf, 32 pages, SHA-256 CC37D9BB925BCEA03BF4F1A4A2D4176055F7D7E241ED8C6F2D1F56B1222AA18A). RELECTURE POUR CE CHAPITRE le 2026-09-16 : « A club is a voluntary group deriving mutual benefits » (page PDF 2) ; le dispositif, « uniform penalty tariffs » (page PDF 10), qui frappe toutes les importations des pays non participants ; et le résultat que le corps invoque, établi par modélisation et non par principe : « without sanctions against non-participants there are no stable coalitions » (page PDF 1), « The participation rate rises monotonically with the penalty tariff rate » (page PDF 19), et « a relatively low tariff rate will induce high participation » (page PDF 3). CE QUE CELA ÉTABLIT POUR LE CORPS : la littérature a bien formalisé le dispositif que le livre emprunte — norme commune des membres, prélèvement sur les importations des non-membres — et elle en dérive la condition de stabilité. CE QU'ELLE NE PORTE PAS : aucun transfert de ce résultat au dispositif du livre, dont ni le barème ni le périmètre ne sont ceux d'un club climatique."
@@ -43,7 +39,7 @@ sources_primaires:
     date_verification: 2026-09-16
   - ref: S7
     nature: normatif
-    reference: "Règlement (UE) 2023/956 du Parlement européen et du Conseil du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières — instrument auquel [S2] compare explicitement le dispositif. Champ d'application sectoriel restreint (ciment, fer et acier, aluminium, engrais, électricité, hydrogène), période transitoire de déclaration ouverte le 1er octobre 2023. RÉSERVE : texte non ouvert dans cette passe ; champ et calendrier à confirmer sur EUR-Lex avant tout emploi hors corpus. Le point retenu ici ne dépend pas du détail : l'instrument comparé est SECTORIEL, celui du livre est universel OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/drive-l1/C27-S7-reglement-ue-2023-956-macf.pdf, 61 pages, SHA-256 5B6E2155908C2D55B2464437F81B7FCD511F97D27F611E2039A718CDA7A09F18), verifie en deux temps : identite du document confirmee en tete, puis l'enonce que le corps lui prete. RELECTURE : le caractere SECTORIEL que le corps oppose a l'instrument universel est etabli — le reglement enumere ciment, fer et acier, aluminium, engrais, electricite et hydrogene, et delimite leur origine par annexes. Version consolidee au 20.10.2025, CELEX 02023R0956."
+    reference: "Règlement (UE) 2023/956 du Parlement européen et du Conseil du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières — instrument auquel [S2] compare explicitement le dispositif. Champ d'application sectoriel restreint (ciment, fer et acier, aluminium, engrais, électricité, hydrogène), période transitoire de déclaration ouverte le 1er octobre 2023. RÉSERVE : texte non ouvert dans cette passe ; champ et calendrier à confirmer sur EUR-Lex avant tout emploi hors corpus. Le point retenu ici ne dépend pas du détail : l'instrument comparé est SECTORIEL, celui du livre est universel OUVERTE le 2026-09-19 sur l'exemplaire du dossier (2026-09-19/drive-l1/C27-S7-reglement-ue-2023-956-macf.pdf, 61 pages, SHA-256 5B6E2155908C2D55B2464437F81B7FCD511F97D27F611E2039A718CDA7A09F18), verifie en deux temps : identite du document confirmee en tete, puis l'enonce que le corps lui prete. RELECTURE : le caractere SECTORIEL que le corps oppose a l'instrument universel est etabli — le reglement enumere ciment, fer et acier, aluminium, engrais, electricite et hydrogene, et delimite leur origine par annexes. Version consolidee au 20.10.2025, CELEX 02023R0956. PASSAGES LUS le 2026-09-28, au mot : « Le présent règlement s'applique aux marchandises énumérées à l'annexe I qui sont originaires d'un pays tiers » (article 2, paragraphe 1, page PDF 2) ; « ANNEXE I — Liste des marchandises et des gaz à effet de serre » (page PDF 45), où figurent le ciment, l'électricité, les engrais (page PDF 45), la fonte, le fer et l'acier (page PDF 46), l'aluminium (page PDF 47) et l'hydrogène, code NC 2804 10 00 (page PDF 48). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : rien ; elle ne dit rien non plus de l'effet du mécanisme sur les arbitrages des partenaires, que le livre avance et que le corps n'appuie pas sur elle."
     etat_lecture: ouverte
     date_verification: 2026-09-19
   - ref: S8
@@ -58,12 +54,26 @@ sources_primaires:
     url: "https://documents1.worldbank.org/curated/en/480171468315567893/pdf/WPS5095.pdf"
     etat_lecture: ouverte
     date_verification: 2026-09-16
-verifications_en_attente:
-  - "S5 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : LA PIÈCE PRÉSENTE N'EST PAS L'ŒUVRE.
-     `NDL1995-79.pdf` est « Heterogeneous International Environmental Agreements », Nota
-     di Lavoro 79.95 de novembre 1995, non « Self-Enforcing International Environmental
-     Agreements » d'Oxford Economic Papers 1994. MÊME AUTEUR, AUTRE ARTICLE, AUTRE
-     RÉSULTAT. Ne pas verser l'un pour l'autre."
+  - ref: S10
+    nature: theorie
+    reference: "S. J. Rubio, A. Ulph, « Self-Enforcing International Environmental Agreements Revisited », Instituto Valenciano de Investigaciones Económicas, document de travail WP-AD 2004-23, première édition juin 2004 — reprise analytique du modèle de S. Barrett (1994), dont elle rapporte le résultat. ENTRÉE CRÉÉE le 2026-09-28 (règle V2 de l'auteur) : l'article de Barrett, que l'ancienne entrée S5 nommait, n'est pas au dossier ; le corps attribue désormais le résultat à Barrett TEL QUE CETTE PIÈCE LE RAPPORTE. Aucun numéro n'est réattribué : S5 est retirée, celle-ci suit la dernière. OUVERTE le 2026-09-28 sur l'exemplaire fourni par l'auteur (2026-09-28/courses-livre-1/fournis/Rubio Ulph - Self-Enforcing International Environmental Agreements Revisited - 2004 - exemplaire A.pdf, 27 pages, 627 497 octets, SHA-256 84351B0E7B5A8CBC1022987A02B43D9D974B2BE1787A050BB017360DF72F153E ; l'exemplaire B est le même fichier, même empreinte), identifié sur sa page de titre. LU : le résumé, l'introduction (pages PDF 2 à 6), les sections 2 et 3 dans leur prose (pages PDF 6 à 16), la conclusion (pages PDF 17 et 18). NON LU : les démonstrations des annexes A à H (pages PDF 18 à 26), qui sont des calculs. Passages lus, au mot : « If they act in a Stackelberg fashion, then, depending on parameter values, a stable IEA can have any number of signatories between two and the grand coalition of all countries. But the gain in global welfare from the stable IEA relative to the non-cooperative outcome is inversely related to the number of signatories. See Barrett (1994). » (page PDF 3) ; « There are two, related, weaknesses in the early paper developed by Barrett (1994). First, it relied on numerical simulations to derive the main findings. Second, it ignored the need to ensure that emissions would be non-negative » (page PDF 4) ; « the results derived for the model of stable IEAs in paper by Barrett (1994) […] carry through when derived analytically » (page PDF 5). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : trois choses. Le résultat vaut pour des pays identiques — « our results have been obtained assuming that all countries are identical as in Barrett's (1994) paper » (page PDF 5). Il vaut pour un dommage marginal croissant (note 3, page PDF 3). Et la taille de l'accord stable croît avec le dommage marginal, jusqu'à la grande coalition : « when the marginal damage is high enough the unique stable IEA is the grand coalition » (page PDF 4). La pièce ne traite pas des sanctions : l'énoncé « pas de coalition stable sans sanction » est porté par [S6], non par elle."
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+verifications_en_attente: []
+  # RÈGLES V2 ET W2 DE L'AUTEUR, 2026-09-28. V2 : une pièce absente ne prête pas
+  # son nom à un substitut ; l'énoncé est attribué « selon X, tel que le rapporte
+  # Y », et l'entrée est Y. W2 : une question ouverte va en « Portée ». Les neuf
+  # lignes de ce chapitre sont traitées plus bas ; leur texte est conservé.
+  # ENTRÉE S5 RETIRÉE le 2026-09-28 : S. Barrett, « Self-Enforcing International
+  # Environmental Agreements », Oxford Economic Papers, 46, p. 878-894, 1994,
+  # `a_requalifier`, jamais ouverte. Son occurrence demeure au manifeste.
+  # SOLDÉE le 2026-09-28 — TRAITÉE PAR LA RÈGLE V2. L'article de Barrett de 1994 n'est pas au dossier, et la Nota di Lavoro de 1995 est un autre article : ni l'un ni l'autre n'est versé. L'entrée S5 est retirée ; le résultat est attribué à Barrett tel que le rapportent Rubio et Ulph (2004), entrée S10, ouverte ce jour.
+  # Texte d'origine :
+  #   - "S5 — DÉPOUILLEMENT DU DRIVE DU 2026-09-19 : LA PIÈCE PRÉSENTE N'EST PAS L'ŒUVRE.
+  #   `NDL1995-79.pdf` est « Heterogeneous International Environmental Agreements », Nota
+  #   di Lavoro 79.95 de novembre 1995, non « Self-Enforcing International Environmental
+  #   Agreements » d'Oxford Economic Papers 1994. MÊME AUTEUR, AUTRE ARTICLE, AUTRE
+  #   RÉSULTAT. Ne pas verser l'un pour l'autre."
   # ── ALIGNEMENT DU 2026-09-18 ───────────────────────────────────────────────
   # Chapitre réécrit sous `protocoles/architecture-L1-C27.md` (47 énoncés : 17 se
   # corrigent, 12 s'exposent en branche, 2 se retirent, 8 ajoutent, 15 se
@@ -80,32 +90,48 @@ verifications_en_attente:
   # dans trois des cinq secteurs examinés. Le corps écrit ce que la pièce porte.
   # (3) D98 n'est pas appliqué ici : aucune pièce du dépôt ne l'attache à ce
   # chapitre — l'entrée A5 route vers L1.C22, L1.C30 et L1.C31.
-  - "S4 — À OUVRIR PAR VERSEMENT depuis L1.C22 [S9], même article, ouvert le
-     2026-09-16 avec ses bornes. La référence n'est pas retouchée ici : une
-     référence corrigée n'hérite pas de l'état `a_requalifier` du manifeste
-     (E-L6). Le versement se fera avec la requalification."
-  - "S5 — À OUVRIR, ou à faire porter par [S6], ouverte, qui établit l'absence de
-     coalition stable sans sanction. Le corps appelle encore les deux."
-  - "S7 — À OUVRIR sur EUR-Lex pour le champ sectoriel : le § 5 lui emprunte le
-     caractère sectoriel du mécanisme comparé, qui porte l'objection sur
-     l'analogie du facteur deux."
-  - "S8 — À OUVRIR de première main. Même référence que L1.C24 [S8] et L1.C26
-     [S8] : une seule ouverture vaut pour les trois chapitres."
-  - "LA PART DES IMPORTATIONS MONDIALES D'UNE COALITION N'EST PAS CALCULÉE. Le
-     § 5 établit que le seuil porte sur une composition et non sur un nombre, et
-     que le calcul est simple et décisif ; il n'a pas été fait. À reformuler pour
-     la coalition expérimentale, le seuil du livre visant un entraînement mondial
-     que le corpus n'instruit plus."
-  - "LA SIMILARITÉ DES PRODUITS RESTE À TRANCHER. L'équivalence stricte reprend la
-     règle du traitement national, ce qui borne le prélèvement ; ce que cette règle
-     laisse ouvert se tranche par la jurisprudence, non par le texte. Instruit par
-     L20.C19, qui n'est pas un arbitrage."
-  - "LA TRAÇABILITÉ DE L'EMPREINTE AUX FRONTIÈRES RESTE NON RÉSOLUE. L20.C20 verse
-     un mécanisme de certification indépendante, non instruit ici."
-  - "LE DÉLAI DE RESTAURATION N'EST PAS BORNÉ. Les guichets et la procédure de
-     dépendance essentielle financent le besoin sans dépendre de la nature
-     certifiable ; ce qui reste ouvert est le temps que met un fonds détruit à
-     redevenir productif."
+  # SOLDÉE le 2026-09-28 — L'ENTRÉE PORTE CE QUE LA LIGNE RÉCLAME. S4 est `ouverte` depuis le 2026-09-19, par versement depuis L1.C22 [S9], et donne l'énoncé au mot : « Aid is fungible in three out of five sectors examined ».
+  # Texte d'origine :
+  #   - "S4 — À OUVRIR PAR VERSEMENT depuis L1.C22 [S9], même article, ouvert le
+  #   2026-09-16 avec ses bornes. La référence n'est pas retouchée ici : une
+  #   référence corrigée n'hérite pas de l'état `a_requalifier` du manifeste
+  #   (E-L6). Le versement se fera avec la requalification."
+  # SOLDÉE le 2026-09-28 — LES DEUX MOITIÉS DE L'ÉNONCÉ ONT CHACUNE LEUR PIÈCE. La relation inverse entre le nombre de signataires et le gain : [S10]. L'absence de coalition stable sans sanction : [S6], « without sanctions against non-participants there are no stable coalitions » (page PDF 1). Le § 1 ne les réunit plus sous un seul appel.
+  # Texte d'origine :
+  #   - "S5 — À OUVRIR, ou à faire porter par [S6], ouverte, qui établit l'absence de
+  #   coalition stable sans sanction. Le corps appelle encore les deux."
+  # SOLDÉE le 2026-09-28 — L'ENTRÉE PORTE CE QUE LA LIGNE RÉCLAME. S7 est `ouverte` depuis le 2026-09-19, version consolidée au 20.10.2025, CELEX 02023R0956 ; le caractère sectoriel que le § 5 oppose à l'instrument universel y est établi par l'énumération des produits.
+  # Texte d'origine :
+  #   - "S7 — À OUVRIR sur EUR-Lex pour le champ sectoriel : le § 5 lui emprunte le
+  #   caractère sectoriel du mécanisme comparé, qui porte l'objection sur
+  #   l'analogie du facteur deux."
+  # SOLDÉE le 2026-09-28 — L'ENTRÉE PORTE CE QUE LA LIGNE RÉCLAME. S8 est `ouverte` depuis le 2026-09-19, sur la reprise de 2011 qui se déclare réédition de l'article de 1979 ; la loi y est au mot (folio 431), et le § 6 l'emploie dans ces termes. BORNE À GARDER : la pagination de 1979 n'est pas vérifiable sur cette pièce.
+  # Texte d'origine :
+  #   - "S8 — À OUVRIR de première main. Même référence que L1.C24 [S8] et L1.C26
+  #   [S8] : une seule ouverture vaut pour les trois chapitres."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 9 et portée au § 5 : « Le corpus ne l'a pas calculé et ne l'affirme donc pas. » Non tranchée.
+  # Texte d'origine :
+  #   - "LA PART DES IMPORTATIONS MONDIALES D'UNE COALITION N'EST PAS CALCULÉE. Le
+  #   § 5 établit que le seuil porte sur une composition et non sur un nombre, et
+  #   que le calcul est simple et décisif ; il n'a pas été fait. À reformuler pour
+  #   la coalition expérimentale, le seuil du livre visant un entraînement mondial
+  #   que le corpus n'instruit plus."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 9 et portée au § 4 : « Ce que cette règle laisse ouvert est la similarité des produits, qui se tranche par la jurisprudence et non par le texte. » Non tranchée. NON REPRIS AU CORPS : le renvoi à L20.C19, chapitre `brouillon` d'un autre livre.
+  # Texte d'origine :
+  #   - "LA SIMILARITÉ DES PRODUITS RESTE À TRANCHER. L'équivalence stricte reprend la
+  #   règle du traitement national, ce qui borne le prélèvement ; ce que cette règle
+  #   laisse ouvert se tranche par la jurisprudence, non par le texte. Instruit par
+  #   L20.C19, qui n'est pas un arbitrage."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 9 et portée au § 4 : « une certification indépendante est versée par le Livre 20, et elle n'est pas instruite ici ». Non tranchée.
+  # Texte d'origine :
+  #   - "LA TRAÇABILITÉ DE L'EMPREINTE AUX FRONTIÈRES RESTE NON RÉSOLUE. L20.C20 verse
+  #   un mécanisme de certification indépendante, non instruit ici."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 9 et portée au § 6 : « Un pays dont les fonds naturels sont détruits peut être payé pour restaurer, mais la restauration est lente et capitalistique alors que le besoin de liquidité extérieure est immédiat. » Non tranchée.
+  # Texte d'origine :
+  #   - "LE DÉLAI DE RESTAURATION N'EST PAS BORNÉ. Les guichets et la procédure de
+  #   dépendance essentielle financent le besoin sans dépendre de la nature
+  #   certifiable ; ce qui reste ouvert est le temps que met un fonds détruit à
+  #   redevenir productif."
 resume: "Ce chapitre examine ce qui ferait tenir une coalition volontaire, et il établit que ses trois leviers sont inégaux. Le premier — l'accès réservé aux allocations régénératives — a une force proportionnelle à ce que le pays a de certifiable, donc inverse de l'urgence à le faire changer ; et cette force dépend d'un arbitrage que le corpus laisse ouvert, celui de savoir si les coûts réels qui fixent le montant d'une émission comprennent le coût d'opportunité de la préservation. Le deuxième — l'exclusion de l'infrastructure de règlement — ne vaut que pour le commerce intrazone et croît avec l'adhésion : il consolide, il n'amorce pas. Le troisième — le prélèvement aux frontières — repose sur une équivalence stricte bien conçue, bornée par la règle du traitement national, mais son barème reste suspendu à deux objets non arbitrés, et sa clause de neutralité anticoloniale est exposée à une fongibilité documentée sans que le test du désarmement lui ait été appliqué. Le seuil d'activation est concédé mais non dérivé, alors qu'une méthode existe et fait dépendre la participation du niveau du prélèvement plutôt que de la seule taille du club ; et la composition d'une coalition doit désormais comprendre des créanciers consentant d'avance à des obligations automatiques. Sur le rééquilibrage, enfin, la réponse du livre — le financement régénératif — n'est plus celle du corpus : une architecture de compensation arrêtée a pris sa place, avec ses verdicts scindés et ses prix publiés, et ce que la thèse du livre y ajoute est exposé sans être tranché. La concentration de pouvoir que ce chapitre avait relevée est déplacée par la séparation des fonctions et par le glissement des parités, non dissoute."
 concepts: [seuil_d_activation, referentiel_de_change, qualification_regenerative, systeme_monetaire_et_financier, creation_monetaire, degeneratif]
 renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
@@ -123,7 +149,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ::etat:: **Le livre ne répond pas par un appel à la vertu**, et il l'écrit : « NEMO IMS ne répond pas à cette objection par des vœux pieux ou des appels à la vertu, mais par trois leviers structurels qui rendent la défection irrationnelle sur le plan économique » [S1]. C'est la démarche correcte : l'objection du passager clandestin ne se traite pas par la morale, elle se traite en modifiant les gains de la défection.
 
-::hypothese:: La littérature fixe la difficulté réelle. Un accord environnemental international auto-exécutoire réunit soit beaucoup de participants pour un gain collectif faible, soit un gain élevé pour un très petit nombre : la coopération à la fois large et ambitieuse n'est pas un équilibre en l'absence de sanction [S5]. **Le dispositif est une tentative d'échapper à ce résultat, et la voie qu'il emprunte — restreindre l'accès à un bien de club et frapper les importations des non-membres — est exactement celle que la littérature a identifiée** [S6], avec la borne que l'entrée de cette source pose elle-même. Ce n'est donc pas une invention isolée : c'est une proposition qui a un nom, une formalisation existante et des résultats connus.
+::hypothese:: La littérature fixe la difficulté réelle. Selon le modèle de Barrett (1994), tel que le rapporte une reprise analytique de 2004, un accord environnemental international auto-exécutoire peut réunir un nombre quelconque de signataires, de deux à la totalité des pays, mais le gain collectif qu'il procure est inversement lié à ce nombre [S10]. **Le résultat est borné par ses hypothèses** : des pays identiques, et un dommage marginal croissant ; la même reprise établit que la taille de l'accord stable croît avec le dommage, jusqu'à la grande coalition lorsqu'il est assez élevé [S10]. Qu'aucune coalition ne soit stable sans sanction contre les non-participants est établi par une autre pièce, par modélisation [S6]. **Le dispositif est une tentative d'échapper à ce résultat, et la voie qu'il emprunte — restreindre l'accès à un bien de club et frapper les importations des non-membres — est exactement celle que la littérature a identifiée** [S6], avec la borne que l'entrée de cette source pose elle-même. Ce n'est donc pas une invention isolée : c'est une proposition qui a un nom, une formalisation existante et des résultats connus.
 
 ## 2. Levier 1 — la rente régénérative, et à qui elle parle
 
@@ -212,6 +238,8 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 ::etat:: **Les trois leviers sont inégaux, et deux d'entre eux restent suspendus.** Le premier parle le moins aux pays dont l'adhésion compte le plus, et sa force dépend d'un arbitrage ouvert sur ce que recouvrent les coûts réels. Le deuxième vaut en zone et croît avec l'adhésion : il consolide, il n'amorce pas. Le troisième porte une équivalence bien conçue et bornée par la règle du traitement national, mais son barème est suspendu à deux objets non arbitrés, et sa clause de neutralité est exposée à une fongibilité documentée sans que le test du désarmement lui ait été appliqué.
 
 ::etat:: **Le seuil d'activation est affirmé et non dérivé**, alors que la méthode existe et fait dépendre la participation du niveau du prélèvement, non de la seule taille. La contrainte de composition s'est alourdie : il faut désormais des créanciers qui consentent d'avance à des obligations automatiques.
+
+::etat:: **Quatre questions restent ouvertes, et ce chapitre ne les tranche pas.** La part des importations mondiales que représenterait une coalition donnée : le seuil porte sur une composition, et le calcul n'a pas été fait (§ 5). La similarité des produits, que la règle du traitement national laisse à la jurisprudence (§ 4). La traçabilité de l'empreinte aux frontières, dont l'infrastructure de mesure n'existe pas (§ 4). Et le délai de restauration : le temps que met un fonds naturel détruit à redevenir productif n'est pas borné (§ 6).
 
 ::hypothese:: **Le résultat le plus lourd de la version précédente est déplacé, non dissous.** Le rééquilibrage par le financement régénératif n'est plus la réponse du corpus : une architecture arrêtée a pris sa place, avec ses verdicts et ses prix. Ce que la thèse du livre y ajoute est exposé et non tranché. La concentration de pouvoir demeure, mais sa prémisse — la parité fixe qui ferme le canal du change — a changé de forme, et sa portée s'expose au lieu de se conclure. **Ce qui ne change pas est que l'arbitrage entre détermination centrale et détermination polycentrique n'est pas rendu**, et qu'il décide de plus qu'une efficacité allocative.
 
