@@ -1,2 +1,32 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Fins de ligne — décision du 2026-09-28.
+#
+# Les blobs du dépôt sont TOUS en LF : 1 022 fichiers texte relevés, aucun avec
+# un CR. Les 49 fichiers qui en portent sont des binaires — images, PDF, la roue
+# PyYAML. `eol=lf` ne change donc aucun octet versionné ; il change seulement ce
+# que git écrit dans l'arbre de travail à la restauration.
+#
+# Motif, en deux défauts mesurés. Sous `core.autocrlf=true`, un `checkout`
+# réécrivait les fichiers texte en CRLF alors que les scripts du dépôt écrivent
+# en LF.
+#
+#   - `corpus/generer.py` émet le `.md` servi en LF, et `corpus/test_generer.py`
+#     ligne 212 le compare OCTET POUR OCTET au fichier source du dépôt. Un
+#     chapitre restauré par git faisait tomber ce test le jour de sa montée, sous
+#     le message « le .md servi diffère du dépôt » — qui ne nomme pas les fins de
+#     ligne, et qui serait apparu au moment d'une publication.
+#
+#   - le `sitemap.xml` de la racine fait 874 lignes. Un `checkout` les réécrivait
+#     toutes, et le diff annonçait 874 lignes changées pour une entrée ajoutée.
+#     La branche de l'article du 2026-09-28 a dû être construite en plomberie
+#     — `hash-object`, `write-tree`, `commit-tree` — pour cette seule raison.
+#
+# Aucun fichier du dépôt n'exige de CRLF : ni `.bat`, ni `.cmd`, ni `.ps1`.
+* text=auto eol=lf
+
+# La roue hors ligne est un binaire dont l'empreinte SHA-256 est opposable
+# (`corpus/hors-ligne/SHA256SUMS`, vérifiée mécaniquement avant toute
+# installation). Elle n'était protégée que par l'heuristique de contenu de git,
+# qui la voit binaire grâce à 58 octets NUL dans ses huit premiers kilo-octets.
+# Pour un fichier dont l'identité octet pour octet est contractuelle, une
+# déclaration vaut mieux qu'une heuristique.
+*.whl binary
