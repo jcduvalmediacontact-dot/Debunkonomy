@@ -6,7 +6,13 @@ Ce test ne vérifie pas que `generer.py` s'exécute : il vérifie que ce qu'il
 et il contrôle sept invariants.
 
 1. Tout JSON produit est du JSON valide, JSON-LD des pages compris.
-2. Le `sitemap.xml` est du XML valide.
+2. Le `sitemap.xml` est du XML valide, porte l'ensemble EXACT des URL attendues,
+   et **aucun `lastmod`** : le corpus ne détient aucune date attestant la
+   dernière modification significative d'une page, et le champ est facultatif.
+   Jusqu'au 2026-09-28, les entrées portaient la date de génération ; le test ne
+   lisait que la validité XML et laissait donc passer un fichier valide dont le
+   contenu était faux. L'absence de date se contrôle avec l'ensemble des URL,
+   sans quoi un fichier vidé de ses entrées passerait aussi.
 3. Aucune marque Markdown ne subsiste en clair dans une page : ni marqueur de
    régime, ni gras, ni titre. Un rendu qui laisse passer `::etat::` ment sur le
    régime du paragraphe, ce qui est pire qu'une page laide.
@@ -54,6 +60,76 @@ def publiables() -> set[str]:
                 and all(s.get("etat_lecture") == "ouverte" for s in srcs)):
             out.add(str(h["chapitre"]))
     return out
+
+
+def controle_sitemap(texte: str, attendus: set[str]) -> list[str]:
+    """2. XML valide, ensemble EXACT des URL, et aucun `lastmod`.
+
+    Fonction séparée pour être appelable sur un sitemap saboté : un contrôle
+    qu'on ne peut pas mettre en échec ne prouve rien. Une première version,
+    écrite en ligne dans `main`, exigeait l'égalité de date pour les pages de
+    chapitre et la simple appartenance à l'ensemble des dates pour les quatre
+    agrégats — trois dates fausses y passaient sans erreur.
+
+    L'absence de date et l'ensemble des URL se contrôlent ENSEMBLE : dire qu'un
+    fichier ne porte aucune date ne prouve rien s'il a perdu ses entrées.
+    """
+    echecs = []
+    try:
+        racine = ET.fromstring(texte)
+    except Exception as e:
+        return [f"sitemap.xml invalide : {e}"]
+    ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
+    if racine.find(f".//{ns}lastmod") is not None:
+        echecs.append("sitemap.xml : un `lastmod` est apparu, alors qu'aucune "
+                      "date de page n'est attestée")
+    vus, agreges = set(), set()
+    for bloc in racine.iter(f"{ns}url"):
+        loc = bloc.findtext(f"{ns}loc") or ""
+        m = re.search(r"/livre-(\d+)/(c\d+)/?$", loc)
+        if m:
+            vus.add(f"L{int(m.group(1))}.{m.group(2).upper()}")
+        else:
+            agreges.add(loc)
+    if vus != attendus:
+        echecs.append(f"sitemap.xml : chapitres {sorted(vus ^ attendus)} en "
+                      f"écart avec l'ensemble publiable")
+    # index général, glossaire, et une table par livre représenté
+    livres = {c.split(".")[0] for c in attendus}
+    if len(agreges) != 2 + len(livres):
+        echecs.append(f"sitemap.xml : {len(agreges)} page(s) d'index, attendu "
+                      f"{2 + len(livres)} — {sorted(agreges)}")
+    return echecs
+
+
+def sitemap_sur_collection_vide() -> list[str]:
+    """2 (cas limite). Zéro chapitre publiable ne doit pas faire lever le sitemap.
+
+    Le cas courant ne l'atteint jamais, et c'est ce qui le rend dangereux : une
+    version datée du 2026-09-28 calculait le maximum des dates de chapitres pour
+    les pages d'index, et levait `ValueError: max() iterable argument is empty`
+    dès que la collection était vide — là où le code précédent écrivait ses URL
+    d'index sans broncher. Le contrôle appelle donc la fonction directement,
+    plutôt que d'espérer qu'un corpus vide se présente un jour.
+    """
+    from generer import emettre_sitemap
+
+    echecs = []
+    with tempfile.TemporaryDirectory(prefix="corpus-sitemap-vide-") as tmp:
+        try:
+            emettre_sitemap({}, "/corpus", Path(tmp))
+        except Exception as e:
+            echecs.append(f"sitemap sur collection vide : "
+                          f"{type(e).__name__} : {e}")
+            return echecs
+        t = (Path(tmp) / "sitemap.xml").read_text(encoding="utf-8")
+        if "<lastmod>" in t:
+            echecs.append("sitemap sur collection vide : une date est apparue")
+        try:
+            ET.fromstring(t)
+        except Exception as e:
+            echecs.append(f"sitemap sur collection vide, XML invalide : {e}")
+    return echecs
 
 
 def refus_d_identifiant() -> list[str]:
@@ -171,10 +247,8 @@ def main() -> int:
             except Exception as e:
                 echecs.append(f"JSON invalide, {p.name} : {e}")
 
-        try:                                                          # 2
-            ET.parse(sortie / "sitemap.xml")
-        except Exception as e:
-            echecs.append(f"sitemap.xml invalide : {e}")
+        echecs += controle_sitemap(                                   # 2
+            (sortie / "sitemap.xml").read_text(encoding="utf-8"), attendus)
 
         for p in pages:
             t = p.read_text(encoding="utf-8")
@@ -224,6 +298,7 @@ def main() -> int:
         echecs += retour_au_site(sortie, pages)                       # 9 et 10
 
     echecs += retour_absent_a_la_racine()                             # 11
+    echecs += sitemap_sur_collection_vide()                           # 2 bis
     echecs += refus_d_identifiant()                                   # 8
 
     if echecs:

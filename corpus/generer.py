@@ -630,7 +630,26 @@ def emettre_llms(par_livre: dict, livres: dict, base: str, sortie: Path,
 
 
 def emettre_sitemap(par_livre: dict, base: str, sortie: Path) -> None:
-    aujourd = date.today().isoformat()
+    """Les URL, sans `lastmod` : aucune date de page n'est attestée ici.
+
+    Jusqu'au 2026-09-28, le champ portait `date.today()` : chaque exécution
+    déclarait toutes les pages modifiées le jour même, quel que soit leur état.
+    C'est un signal faux, et il coûtait 62 lignes de diff à chaque publication.
+
+    Le remplacer par `revision_de_fond` en aurait produit un second. Le § 4 de la
+    convention interdit de déplacer cette date pour une reformulation ou pour
+    l'ajout d'une source — or l'une et l'autre changent la page. Les tables de
+    livre changent quand un chapitre entre ou sort, sans que le maximum des dates
+    restantes bouge. Le glossaire vient de `vocabulaire.yaml`, qu'aucune date
+    n'accompagne. Et le générateur lui-même modifie les pages, par ses liens de
+    navigation, indépendamment de toute date d'en-tête.
+
+    `lastmod` est facultatif au protocole Sitemaps, et un moteur écarte une
+    valeur qu'il juge peu fiable. Tant qu'aucun fait n'atteste la dernière
+    modification significative d'une page, l'omettre dit ce que le corpus sait ;
+    l'inventer ne le dit pas. **Aucune URL n'est retirée par cette omission** :
+    la liste reste exactement la même.
+    """
     urls = [f"{SITE}{base}/", f"{SITE}{base}/glossaire.html"]
     urls += [f"{SITE}{base}/livre-{n}/" for n in sorted(par_livre)]
     urls += [f"{SITE}{base}/{ch.url}" for n in sorted(par_livre) for ch in par_livre[n]]
@@ -641,7 +660,6 @@ def emettre_sitemap(par_livre: dict, base: str, sortie: Path) -> None:
          "     chaque URL ne porte donc qu'un hreflang, celui de sa propre version. -->"]
     for u in urls:
         L += [" <url>", f"  <loc>{html.escape(u, quote=True)}</loc>",
-              f"  <lastmod>{aujourd}</lastmod>",
               f'  <xhtml:link rel="alternate" hreflang="fr" href="{html.escape(u, quote=True)}"/>',
               " </url>"]
     L.append("</urlset>")
