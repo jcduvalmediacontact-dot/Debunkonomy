@@ -103,8 +103,8 @@ sources_primaires:
     date_verification: 2026-09-15
   - ref: S17
     nature: donnees
-    reference: "G. Zucman, « The Missing Wealth of Nations: Are Europe and the U.S. Net Debtors or Net Creditors? », The Quarterly Journal of Economics, 128(3), p. 1321-1364, 2013 — estimation d'environ 8 % du patrimoine financier des ménages détenu dans les centres financiers offshore, à partir des anomalies systématiques des statistiques de position extérieure. SCINDÉE le 2026-09-15 (contrôle 2 d'AGENTS.md, et point 4 de la feuille du lot 2) : A. Alstadsæter, N. Johannesen et G. Zucman, « Who owns the wealth in tax havens? » (2018), que l'entrée réunissait à celui-ci, passe à l'entrée S20 créée — deux articles, deux collectifs d'auteurs, deux grandeurs. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur la version d'auteur (2026-09-15/c23/S17-zucman-2013-qje-auteur.pdf, 44 pages, SHA-256 056777F0AE4EECDEFF51C96814739744687392F32637B66D2767D9958836D7C5). Passages lus : « 8% » (page PDF 1) ; « tax havens » (page PDF 1)."
-    url: "https://doi.org/10.1016/j.jpubeco.2018.01.008"
+    reference: "G. Zucman, « The Missing Wealth of Nations: Are Europe and the U.S. Net Debtors or Net Creditors? », The Quarterly Journal of Economics, 128(3), p. 1321-1364, 2013 — estimation d'environ 8 % du patrimoine financier des ménages détenu dans les centres financiers offshore, à partir des anomalies systématiques des statistiques de position extérieure. SCINDÉE le 2026-09-15 (contrôle 2 d'AGENTS.md, et point 4 de la feuille du lot 2) : A. Alstadsæter, N. Johannesen et G. Zucman, « Who owns the wealth in tax havens? » (2018), que l'entrée réunissait à celui-ci, passe à l'entrée S20 créée — deux articles, deux collectifs d'auteurs, deux grandeurs. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur la version d'auteur (2026-09-15/c23/S17-zucman-2013-qje-auteur.pdf, 44 pages, SHA-256 056777F0AE4EECDEFF51C96814739744687392F32637B66D2767D9958836D7C5). Passages lus : « I find that around 8% of the global financial wealth of households is held in tax havens, three-quarters of which goes unrecorded » (page PDF 1, folio 1321, résumé) ; « The resulting $5.9 trillion total represents 8% of household financial wealth » (corps de l'article). ADRESSE CORRIGÉE le 2026-09-28 : l'entrée portait le DOI de l'article de 2018 entré en S20 ; la pièce imprime le sien, « doi:10.1093/qje/qjt012 » (page PDF 1). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : elle mesure un stock détenu et sa part non enregistrée ; elle ne dit rien de la dépense de ces avoirs."
+    url: "https://doi.org/10.1093/qje/qjt012"
     etat_lecture: ouverte
     date_verification: 2026-09-15
   - ref: S18
@@ -119,11 +119,15 @@ sources_primaires:
     date_verification: 2026-09-11
   - ref: S20
     nature: theorie
-    reference: "A. Alstadsæter, N. Johannesen, G. Zucman, « Who owns the wealth in tax havens? Macro evidence and implications for global inequality », Journal of Public Economics, 162, p. 89-100, juin 2018 — l'équivalent d'environ 10 % du produit mondial détenu offshore, très inégalement réparti entre pays. ENTRÉE CRÉÉE le 2026-09-15 par la scission de S17 ; aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur la version d'auteur (2026-09-15/c23/S17-alstadsaeter-johannesen-zucman-2018-auteur.pdf, 12 pages, SHA-256 58E310FA61D4197425CE6AB424D87EB961B213A2B99A1472A3CA72F5D54DDFFD). Passages lus : « the equivalent of 10% of world GDP is held in tax havens globally » (page PDF 1) ; « tax havens » (page PDF 1)."
+    reference: "A. Alstadsæter, N. Johannesen, G. Zucman, « Who owns the wealth in tax havens? Macro evidence and implications for global inequality », Journal of Public Economics, 162, p. 89-100, juin 2018 — l'équivalent d'environ 10 % du produit mondial détenu offshore, très inégalement réparti entre pays. ENTRÉE CRÉÉE le 2026-09-15 par la scission de S17 ; aucun matricule n'est réattribué, le numéro suit le dernier existant. OUVERTE PAR TÉLÉCHARGEMENT DIRECT le 2026-09-15 sur la version d'auteur (2026-09-15/c23/S17-alstadsaeter-johannesen-zucman-2018-auteur.pdf, 12 pages, SHA-256 58E310FA61D4197425CE6AB424D87EB961B213A2B99A1472A3CA72F5D54DDFFD). Passages lus : « The equivalent of 10% of world GDP is held in tax havens globally, but this average masks a great deal of heterogeneity » (page PDF 1, résumé) ; « Zucman (2013) estimates that 8% of the world's household financial wealth — the equivalent of 10% of world GDP — is held offshore » (page PDF 1, introduction) : les deux grandeurs désignent le même stock, en deux unités. CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : rien sur la dépense de ces avoirs ; elle porte sur leur répartition entre pays et sur les inégalités de patrimoine."
     url: "https://doi.org/10.1016/j.jpubeco.2018.01.008"
     etat_lecture: ouverte
     date_verification: 2026-09-15
-verifications_en_attente:
+verifications_en_attente: []
+  # RÈGLE W2 DE L'AUTEUR, 2026-09-28 : une limite que le corps porte se solde,
+  # la phrase citée ; une question ouverte quitte l'en-tête pour le § 7, écrite
+  # comme ouverte. `verifie` dit « sourcé et borné », non « résolu ». Les dix
+  # lignes ci-dessous sont traitées ainsi ; leur texte d'origine est conservé.
   # ── AUDIT TIERS DU 2026-09-18, REÇU ET VÉRIFIÉ ──────────────────
   # Rapport dans `protocoles/rapport-audit-L1-C23-tiers.md`, vérification citation par
   # citation dans `protocoles/verification-audit-tiers-L1-C23.md`. Sur quatorze passages
@@ -142,14 +146,18 @@ verifications_en_attente:
   # et non [S11] ; celle sur le plein emploi ignorait la phrase précédente, qui pose la
   # condition ; celle sur l'offshore ignorait que le chapitre distingue déjà destruction
   # et interruption, et rattache l'interruption à l'hypothèse d'un modèle nommé.
-  - "LIMITE À MENTIONNER, non corrigée : un avoir placé offshore est replacé en actifs
-     financiers et ne quitte pas la circulation mondiale. Le § 4 rattache l'interruption
-     du retour à l'hypothèse qui porte le résultat de Jackson et Victor, ce qui est
-     exact ; reste à dire si cette hypothèse décrit les avoirs offshore réels."
-  - "§ 5 — REFORMULER LA REPRISE DE L'AJUSTEMENT PAR LES QUANTITÉS comme une inférence
-     du corpus et non comme un report du résultat des zones monétaires : le chapitre
-     écarte d'abord l'objection au motif que l'unité ne circule pas, puis en reprend la
-     conclusion sous une forme qu'il déclare propre au dispositif."
+  # SOLDÉE le 2026-09-28 (W2) — LA LIMITE EST AU CORPS, § 4 : « Identifier ce stock à une interruption du retour est une inférence du corpus, et elle est contestable : un avoir placé offshore est replacé en actifs financiers et ne quitte pas la circulation mondiale. Ni l'une ni l'autre pièce ne dit qu'il cesse d'être dépensé, et savoir si l'hypothèse de Jackson et Victor décrit les avoirs offshore réels reste ouvert. » La question reste ouverte ; elle est écrite comme telle.
+  # Texte d'origine :
+  #   - "LIMITE À MENTIONNER, non corrigée : un avoir placé offshore est replacé en actifs
+  #   financiers et ne quitte pas la circulation mondiale. Le § 4 rattache l'interruption
+  #   du retour à l'hypothèse qui porte le résultat de Jackson et Victor, ce qui est
+  #   exact ; reste à dire si cette hypothèse décrit les avoirs offshore réels."
+  # SOLDÉE le 2026-09-28 (W2) — LA REFORMULATION EST FAITE, § 5 : « C'est une inférence du corpus, non un report du résultat [S11] : la théorie des zones monétaires porte sur une monnaie qui circule, et ce chapitre vient d'écarter l'objection à ce titre même […]. Ce qui est transposé est la forme du raisonnement, non sa conclusion. » Le résumé le dit aussi.
+  # Texte d'origine :
+  #   - "§ 5 — REFORMULER LA REPRISE DE L'AJUSTEMENT PAR LES QUANTITÉS comme une inférence
+  #   du corpus et non comme un report du résultat des zones monétaires : le chapitre
+  #   écarte d'abord l'objection au motif que l'unité ne circule pas, puis en reprend la
+  #   conclusion sous une forme qu'il déclare propre au dispositif."
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Le plan directeur a été ouvert AVANT d'écrire ce chapitre, contrairement aux
   # rangs C17 à C22 (protocoles/passe-2.md § 7, A1). Rang et intitulé confirmés :
@@ -260,10 +268,12 @@ verifications_en_attente:
   #      viabilité » est bien bornée des deux côtés, et pour le passage exact sur
   #      la diversité des canaux. Le chapitre fait porter au § 5 une objection
   #      lourde sur cette base : elle doit être lue sur le texte."
-  - "S3 — La définition institutionnelle de la stabilité financière est
-     rapportée par le Cahier comme étant celle de la Banque centrale européenne
-     (2004). À vérifier sur la Financial Stability Review et à citer sur la
-     source, non sur le Cahier."
+  # SOLDÉE le 2026-09-28 (W2) — LA DÉFINITION EST CITÉE SUR LA SOURCE ET NON SUR LE CAHIER. Le § 1 l'appuie sur [S9], Banque centrale européenne, Financial Stability Review, décembre 2004, avant-propos, `ouverte` le 2026-09-15 : « capable of performing well at all of its normal tasks », « jointly capable of absorbing adverse disturbances » (page PDF 8, folio 7). BORNE À GARDER : la définition longue que le Cahier attribuait à 2004 ne figure ni dans cette édition ni dans celle de 2005 ; l'entrée S9 le dit, et le corps ne la cite pas.
+  # Texte d'origine :
+  #   - "S3 — La définition institutionnelle de la stabilité financière est
+  #   rapportée par le Cahier comme étant celle de la Banque centrale européenne
+  #   (2004). À vérifier sur la Financial Stability Review et à citer sur la
+  #   source, non sur le Cahier."
   # SOLDÉE le 2026-09-28 — LA CONDITION POSÉE EST LEVÉE, ET UNE AUTRE A ÉTÉ TROUVÉE. La ligne exigeait une ouverture « par un humain » : CLAUDE.md l'autorise par téléchargement direct depuis le 2026-09-06, et l'entrée déclare les trois pièces ouvertes le 2026-09-15, avec leurs empreintes et leurs passages lus — « up to $2.3 trillion », « 4,311,911 », « 6,655,929 ». MAIS L'ENTRÉE SE CONTREDISAIT DEUX FOIS : sa tête affirmait une dotation de 454 milliards et un tirage à une fraction du plafond, là où sa queue écrit que le communiqué ne mentionne pas la première et qu'aucun des trois documents ne porte le second. Le corps avait été aligné le 2026-09-15, l'entrée non ; elle l'est ici.
   # Texte d'origine :
   #   - "S14 — Les deux grandeurs de 2020 sont désormais séparées et sourcées, mais
@@ -271,39 +281,53 @@ verifications_en_attente:
   #      humain. À faire avant tout passage en statut vérifié : ce sont les seuls
   #      chiffres du chapitre."
   # ── Limites assumées ───────────────────────────────────────────────────────
-  - "LIMITE — La transposition de la mesure d'Ulanowicz aux systèmes monétaires
-     est le fait de Goerner, Lietaer et Ulanowicz eux-mêmes [S6], non du corpus.
-     Mais l'application de leur conclusion à l'architecture de NEMO IMS, au § 5,
-     est une inférence du corpus et doit être lue comme telle."
-  - "LIMITE — Le chapitre n'établit pas que la robustesse soit un objectif
-     préférable à la performance. Il établit ce que cet objectif coûte et ce
-     qu'il exigerait. L'arbitrage relève de la décision collective (L1.C04 § 7)."
-  - "LIMITE — Aucun chiffre n'est avancé sur le coût de la redondance. La
-     littérature en donne le principe, non l'ordre de grandeur pour une économie
-     entière."
+  # SOLDÉE le 2026-09-28 (W2) — LA LIMITE EST AU CORPS, § 5, en deux phrases. Pour la transposition : « La transposition de l'analyse des réseaux de flux aux systèmes économiques a été faite par les auteurs mêmes de la mesure ». Pour l'application au dispositif : « L'appliquer à l'architecture du dispositif est une inférence du corpus, que [S6] ne fait pas » — phrase ajoutée ce jour en tête du paragraphe suivant, la borne n'y étant portée jusque-là que par la balise `::hypothese::`.
+  # Texte d'origine :
+  #   - "LIMITE — La transposition de la mesure d'Ulanowicz aux systèmes monétaires
+  #   est le fait de Goerner, Lietaer et Ulanowicz eux-mêmes [S6], non du corpus.
+  #   Mais l'application de leur conclusion à l'architecture de NEMO IMS, au § 5,
+  #   est une inférence du corpus et doit être lue comme telle."
+  # SOLDÉE le 2026-09-28 (W2) — LA LIMITE EST PORTÉE AU § 7, ajoutée ce jour : « Il n'a pas établi que la robustesse soit un objectif préférable à la performance : il a établi ce que cet objectif coûte et ce qu'il exigerait, et l'arbitrage relève de la décision collective (L1.C04 § 7). » Le § 2 la portait en partie : « Ce qui est demandé est un déplacement à l'intérieur d'une plage, non un renversement d'objectif ».
+  # Texte d'origine :
+  #   - "LIMITE — Le chapitre n'établit pas que la robustesse soit un objectif
+  #   préférable à la performance. Il établit ce que cet objectif coûte et ce
+  #   qu'il exigerait. L'arbitrage relève de la décision collective (L1.C04 § 7)."
+  # SOLDÉE le 2026-09-28 (W2) — LA LIMITE EST PORTÉE AU § 7, ajoutée ce jour : « Il n'avance aucun chiffre sur le coût de la redondance : les pièces lues en donnent le principe, non l'ordre de grandeur pour une économie entière. » Bornée aux pièces lues, et non à « la littérature ».
+  # Texte d'origine :
+  #   - "LIMITE — Aucun chiffre n'est avancé sur le coût de la redondance. La
+  #   littérature en donne le principe, non l'ordre de grandeur pour une économie
+  #   entière."
   # ── Problèmes ouverts ──────────────────────────────────────────────────────
-  - "VERT — La contradiction du § 5. Le dispositif se réclame de la
-     robustesse et présente une architecture centralisée sur les trois plans
-     où la littérature de la robustesse recommande l'inverse. C'est la
-     seconde fois que cette objection paraît, par une voie indépendante de la
-     première (L1.C22 § 2, polycentricité). À trancher en A4. **BALAYAGE N 2,
-     2026-09-06 : A4 EST PARTIELLEMENT TRANCHE, sans que ce chapitre l'ait
-     su.** L11.C16 § 5 etablit que la polycentricite est praticable sur la
-     decision de CONSTAT et interdite sur celle des VALEURS, par le resultat
-     de Mundell ouvert de premiere main. **L'arbitrage ne porte donc plus sur
-     un degre de centralisation mais sur une decision identifiee**, et la
-     contradiction relevee ici se resserre d'autant."
-  - "OUVERT — Le volume émissible en transition. Il est borné par les capacités physiques réellement disponibles, non par l'équilibre entre émission et destruction. Aucun taux de reflux ne relâche cette borne. Savoir quels facteurs sont partagés entre secteurs contractés et secteurs financés est une question de composition sectorielle, jamais posée."
-  - "OUVERT — L'ordonnancement. Réduire avant que la capacité régénérative
-     existe produit du chômage et un retour de bâton politique ; la construire
-     d'abord suppose de financer les deux mouvements simultanément, donc une
-     émission plus grande que celle du régime permanent. Le livre ne traite pas
-     ce régime transitoire."
-  - "OUVERT — L'indicateur. Une économie de la robustesse ne peut pas être pilotée
-     sans mesure de la robustesse, et le corpus n'a pas établi de mesure éprouvée
-     pour piloter ce dispositif dans les pièces examinées — ce qui ne démontre pas
-     qu'il n'en existe aucune ailleurs. Renvoi à L1.C28 (« Au-delà du PIB »), qui ne
-     peut pas être une réponse circulaire."
+  # SOLDÉE le 2026-09-28 (W2) — L'OBJECTION EST AU CORPS ET RENVOYÉE À SON ARBITRAGE, § 5 : « le dispositif doit ou bien adopter une part de polycentricité — norme votée au centre, qualification instruite à l'échelle d'usage (A4) —, ou bien démontrer que l'uniformité qu'il retient est le prix nécessaire de la comparabilité du signal » ; et § 7 : « elle appelle une décision de conception, et c'est l'objet de A4 ». A4 est instruit dans `protocoles/passe-2.md` et n'est pas tranché ici. NON REPRIS AU CORPS : le balayage du 2026-09-06 s'appuyait sur L11.C16 § 5, chapitre `brouillon` d'un autre livre ; un chapitre qui vise `verifie` ne s'y adosse pas.
+  # Texte d'origine :
+  #   - "VERT — La contradiction du § 5. Le dispositif se réclame de la
+  #   robustesse et présente une architecture centralisée sur les trois plans
+  #   où la littérature de la robustesse recommande l'inverse. C'est la
+  #   seconde fois que cette objection paraît, par une voie indépendante de la
+  #   première (L1.C22 § 2, polycentricité). À trancher en A4. **BALAYAGE N 2,
+  #   2026-09-06 : A4 EST PARTIELLEMENT TRANCHE, sans que ce chapitre l'ait
+  #   su.** L11.C16 § 5 etablit que la polycentricite est praticable sur la
+  #   decision de CONSTAT et interdite sur celle des VALEURS, par le resultat
+  #   de Mundell ouvert de premiere main. **L'arbitrage ne porte donc plus sur
+  #   un degre de centralisation mais sur une decision identifiee**, et la
+  #   contradiction relevee ici se resserre d'autant."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 (W2) — QUESTION OUVERTE, écrite au § 7 (« Trois questions restent ouvertes ») et portée au § 3 : « Le volume émissible pendant la transition est borné par les capacités réellement disponibles […] ce qui suppose de savoir lesquels sont partagés — une question de composition sectorielle, jamais posée. » Non tranchée.
+  # Texte d'origine :
+  #   - "OUVERT — Le volume émissible en transition. Il est borné par les capacités physiques réellement disponibles, non par l'équilibre entre émission et destruction. Aucun taux de reflux ne relâche cette borne. Savoir quels facteurs sont partagés entre secteurs contractés et secteurs financés est une question de composition sectorielle, jamais posée."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 (W2) — QUESTION OUVERTE, écrite au § 7 et portée au § 3 : « Le régime transitoire est donc pris entre deux contraintes de sens opposé, et c'est lui qui décide de la viabilité politique de l'ensemble. Aucun chapitre du corpus ne l'a examiné, et le livre n'en parle pas. » Non tranchée.
+  # Texte d'origine :
+  #   - "OUVERT — L'ordonnancement. Réduire avant que la capacité régénérative
+  #   existe produit du chômage et un retour de bâton politique ; la construire
+  #   d'abord suppose de financer les deux mouvements simultanément, donc une
+  #   émission plus grande que celle du régime permanent. Le livre ne traite pas
+  #   ce régime transitoire."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 (W2) — QUESTION OUVERTE, écrite au § 7 et portée au § 6 : « leur usage comme instrument de pilotage n'est pas établi dans les pièces examinées, et le corpus ne conclut de cette lacune ni à leur inaptitude, ni à l'inexistence d'une mesure ailleurs ». Non tranchée ; la borne de R5 est conservée.
+  # Texte d'origine :
+  #   - "OUVERT — L'indicateur. Une économie de la robustesse ne peut pas être pilotée
+  #   sans mesure de la robustesse, et le corpus n'a pas établi de mesure éprouvée
+  #   pour piloter ce dispositif dans les pièces examinées — ce qui ne démontre pas
+  #   qu'il n'en existe aucune ailleurs. Renvoi à L1.C28 (« Au-delà du PIB »), qui ne
+  #   peut pas être une réponse circulaire."
 resume: "Ce chapitre revient sur la question que L1.C04 § 7 avait laissée ouverte — le déplacement d'objectif de la performance vers la robustesse exige-t-il de modifier l'émission monétaire ? — maintenant que le dispositif a été exposé. Il expose d'abord le déplacement conceptuel dont procède le mot : la distinction établie en 1973 entre stabilité, comprise comme vitesse de retour à l'équilibre, et résilience, comprise comme maintien des fonctions à travers le changement, deux propriétés qui peuvent être inversement corrélées ; la robustesse y ajoute l'absorption de perturbations non anticipées. Il établit ensuite ce que cette exigence coûte, et que le livre n'énonce pas : la robustesse a pour signature la redondance, la diversité et la modularité, c'est-à-dire exactement ce que l'optimisation élimine, de sorte qu'un gain de robustesse est une réduction délibérée d'efficacité mesurée dont quelqu'un supporte le prix. Il retient la thèse du blocage structurel dans sa version étroite et refuse sa version forte, conformément à ce que le corpus a établi ailleurs : une économie stationnaire portant une dette à intérêt est possible si les revenus d'intérêts sont redépensés, et la contrainte de croissance est donc conditionnelle et non arithmétique. Il établit que le régime transitoire est pris entre deux contraintes de sens opposé, l'émission anticipée mettant les emplois en concurrence sur des facteurs finis et la contraction anticipée faisant arriver le chômage avant l'emploi qui doit l'absorber. Il formule enfin l'objection centrale : mesuré à ses propres critères, le dispositif présente une architecture centralisée là où la littérature des réseaux de flux recommande la diversité et des voies redondantes [S6] — la modularité, elle, vient du Cahier de l'auteur [S3] et cette voie-là ne l'appuie pas. **L'application de la théorie des zones monétaires à une unité détruite à la conversion est une inférence du corpus, non le résultat de la pièce.** Cette objection atteint ici un seuil, puisqu'elle est arrivée par trois traditions sans rapport entre elles — gouvernance des communs, théorie des réseaux de flux, théorie des zones monétaires — sans que le corpus tire de ce nombre une valeur de preuve : les trois voies n'ont pas convergé d'elles-mêmes, et chacune n'appuie le reproche que sur le point qui lui est propre."
 concepts: [robustesse, resilience, degeneratif, sobriete, essentiel_insolvable, qualification_regenerative, communs]
 renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C28]
@@ -391,7 +415,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::etat:: Cette négation a cependant une portée exacte qu'il faut énoncer, sous peine de reconduire l'erreur symétrique. Elle établit que la charge d'intérêt est payable **en principe**. Elle n'établit pas que le revenu d'intérêt revienne effectivement au circuit, et c'est une tout autre question — celle de la vitesse de circulation, non celle de l'existence de la monnaie.
 
-::etat:: L'évasion fiscale le montre bien, et il faut être précis sur ce qu'elle fait et ne fait pas. Elle **ne détruit pas** de monnaie : un dépôt transféré vers un centre offshore reste un dépôt libellé dans la même unité, inscrit au passif d'une banque ; ces centres sont des lieux d'écriture, non des trous. L'identité comptable tient. Mais **le corpus y voit une interruption du retour** du revenu vers la dépense — l'hypothèse même qui porte le résultat de Jackson et Victor. **Ce que les pièces mesurent est un stock, non une interruption** : environ 8 % du patrimoine financier des ménages est estimé détenu dans les centres offshore [S17], soit l'équivalent d'environ 10 % du produit mondial, très inégalement réparti [S20]. **Identifier ce stock à une interruption du retour est une inférence du corpus, et elle est contestable** : un avoir placé offshore est replacé en actifs financiers et ne quitte pas la circulation mondiale. Ni l'une ni l'autre pièce ne dit qu'il cesse d'être dépensé, et savoir si l'hypothèse de Jackson et Victor décrit les avoirs offshore réels reste ouvert.
+::etat:: L'évasion fiscale le montre bien, et il faut être précis sur ce qu'elle fait et ne fait pas. Elle **ne détruit pas** de monnaie : un dépôt transféré vers un centre offshore reste un dépôt libellé dans la même unité, inscrit au passif d'une banque ; ces centres sont des lieux d'écriture, non des trous. L'identité comptable tient. Mais **le corpus y voit une interruption du retour** du revenu vers la dépense — l'hypothèse même qui porte le résultat de Jackson et Victor. **Ce que les pièces mesurent est un stock, non une interruption** : environ 8 % du patrimoine financier des ménages est estimé détenu dans les centres offshore [S17]. Le même stock équivaut à environ 10 % du produit mondial, très inégalement réparti selon les pays [S20]. **Identifier ce stock à une interruption du retour est une inférence du corpus, et elle est contestable** : un avoir placé offshore est replacé en actifs financiers et ne quitte pas la circulation mondiale. Ni l'une ni l'autre pièce ne dit qu'il cesse d'être dépensé, et savoir si l'hypothèse de Jackson et Victor décrit les avoirs offshore réels reste ouvert.
 
 ::hypothese:: Le corpus doit donc corriger sa propre formulation antérieure, qui glissait de « la monnaie existe » à « la monnaie est disponible ». Ce ne sont pas deux façons de dire la même chose. La réfutation de l'argument arithmétique n'exige que la première, plus une circulation non nulle ; elle ne survit pas à l'énoncé « les revenus d'intérêts sont intégralement redépensés », qui est une hypothèse de modèle et non un fait.
 
@@ -411,7 +435,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::etat:: La transposition de l'analyse des réseaux de flux aux systèmes économiques a été faite par les auteurs mêmes de la mesure, et leur conclusion porte sur la structure : la robustesse d'un réseau d'échange tient à la **diversité et à l'interconnexion de ses canaux**, non à l'efficacité de la circulation dans un canal unique [S6]. **Deux des trois traits du § 2 sont communs à ce résultat : la diversité et la redondance.** La seconde y est nommée — « Redundant pathways », page PDF 2 —, et la pièce décrit les voies de repli lorsqu'un chemin est perdu ; le corpus écrivait le contraire, sans l'avoir contrôlé. **La modularité, elle, n'est pas appuyée par cette pièce**, qui ne la nomme pas. Le corpus a soutenu qu'elle serait de sens contraire à l'interconnexion ; **c'est une inférence, et elle ne suit pas de S6** : un cloisonnement absolu et une organisation en modules ne sont pas la même chose, et la pièce examine des excès des deux côtés sans trancher celui-là. Ce que le paragraphe suivant reconnaît — qu'un réseau trop modulaire perd la capacité de transmettre — est une borne, non une réfutation. Les trois traits viennent du cahier technique de l'auteur [S3] ; **cette voie-ci en appuie deux et ne dit rien du troisième**, et c'est sur ce qu'elle porte effectivement que la comparaison doit se faire. Qu'elle décrive des voies redondantes ne valide pour autant aucune architecture institutionnelle.
 
-::hypothese:: Or le dispositif présente, sur trois plans, l'architecture inverse. La qualification de ce qui est régénératif procède d'un barème unique arrêté par une assemblée mondiale (L1.C18, L1.C22 § 2). La décision d'émission est prise par un organe unique. Et le référentiel d'échange annoncé est un étalon unique. Sur chacun de ces trois plans, le dispositif choisit l'uniformité là où sa propre littérature de référence recommande la diversité.
+::hypothese:: **L'appliquer à l'architecture du dispositif est une inférence du corpus, que [S6] ne fait pas.** Or le dispositif présente, sur trois plans, l'architecture inverse. La qualification de ce qui est régénératif procède d'un barème unique arrêté par une assemblée mondiale (L1.C18, L1.C22 § 2). La décision d'émission est prise par un organe unique. Et le référentiel d'échange annoncé est un étalon unique. Sur chacun de ces trois plans, le dispositif choisit l'uniformité là où sa propre littérature de référence recommande la diversité.
 
 ::etat:: Trois choses doivent être dites contre cette objection, et le corpus les dit. D'abord, le dispositif **ne supprime pas la pluralité monétaire** : les monnaies nationales subsistent, l'unité émise est détruite à la conversion et ne circule pas (L1.C20 § 3, L1.C19 § 4). L'objection ne porte donc pas sur la monnaie qui circule. Ensuite, une partie de l'uniformité est le but même du dispositif : un barème d'impact qui varierait d'un pays à l'autre serait immédiatement arbitré par les acteurs, ce qui ruinerait le signal. Enfin, la modularité a un coût symétrique que la même littérature reconnaît — un réseau trop modulaire perd la capacité de transmettre, et stagne.
 
@@ -440,6 +464,10 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 ::etat:: Ce chapitre a établi quatre choses. Que stabilité, résilience et robustesse ne se recouvrent pas, et que maximiser la première peut détruire la troisième. Que la robustesse a un prix — redondance, diversité, modularité sont des inefficacités assumées — et que ce prix n'est énoncé nulle part dans le livre. Que la plage de viabilité est bornée des deux côtés, ce qui interdit de poser la robustesse comme un maximum à atteindre. Et que les deux mouvements doivent être simultanés, ce qui enferme le régime transitoire entre deux contraintes de sens opposé — émettre avant la contraction met les emplois en concurrence sur des facteurs finis, contracter d'abord fait arriver le chômage avant l'emploi qui doit l'absorber. Ce régime décide de la viabilité politique de l'ensemble et n'a jamais été examiné.
 
 ::etat:: Il a retenu contre le texte du livre la version étroite de la thèse structurelle. La contrainte de croissance est une configuration institutionnelle, non une nécessité arithmétique. Le corpus perd en force rhétorique ce qu'il gagne en défendabilité, et il gagne aussi ceci : une configuration se modifie, une fatalité ne se modifie pas.
+
+::etat:: Il faut dire aussi ce qu'il n'a pas établi. **Il n'a pas établi que la robustesse soit un objectif préférable à la performance** : il a établi ce que cet objectif coûte et ce qu'il exigerait, et l'arbitrage relève de la décision collective (L1.C04 § 7). **Il n'avance aucun chiffre sur le coût de la redondance** : les pièces lues en donnent le principe, non l'ordre de grandeur pour une économie entière.
+
+::etat:: **Trois questions restent ouvertes, et ce chapitre ne les tranche pas.** Le volume émissible en transition : il est borné par les capacités physiques disponibles, et savoir quels facteurs sont partagés entre les secteurs contractés et les secteurs financés est une question de composition sectorielle qui n'a pas été posée (§ 3). L'ordonnancement : contracter d'abord ou construire d'abord, aucune des deux séquences n'a été examinée, et le livre ne traite pas ce régime transitoire (§ 3). L'indicateur : le corpus n'a pas établi de mesure éprouvée pour piloter ce dispositif dans les pièces examinées, ce qui ne démontre pas qu'il n'en existe aucune ailleurs (§ 6).
 
 ::hypothese:: Il a enfin porté l'objection qui compte, et elle vient de l'intérieur : mesuré aux critères de la littérature dont il tire son objectif, le dispositif est centralisé là où cette littérature recommande la diversité — la modularité, elle, vient du cahier technique de l'auteur et non de cette littérature [S3]. L'objection n'est pas dirimante — la pluralité monétaire est préservée, et l'uniformité du barème a une justification.
 
