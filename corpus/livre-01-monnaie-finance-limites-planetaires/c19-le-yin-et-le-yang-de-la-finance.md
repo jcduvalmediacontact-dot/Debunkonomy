@@ -39,11 +39,6 @@ sources_primaires:
     reference: "Directive (UE) 2022/2464 du 14 décembre 2022 relative à la publication d'informations en matière de durabilité par les entreprises (CSRD), JOUE L 322 du 16 décembre 2022, transposition due au 6 juillet 2024 ; France, ordonnance n° 2023-1142 du 6 décembre 2023 et décret n° 2023-1394 du 30 décembre 2023, application échelonnée à partir de l'exercice 2024 OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/directive-ue-2022-2464-csrd-joue-fourni.pdf, 66 pages, SHA-256 D4F50662CA6165AF1C607731B203B905E8EB071BD276619CCEAEE15EB84EDC07). Passages lus : article 5, l'application échelonnée : « exercices commençant le 1er janvier 2024 ou après cette date » (page PDF 63), puis 2026 et 2028 pour les catégories suivantes, pages PDF 7 et 64."
     etat_lecture: ouverte
     date_verification: 2026-09-16
-  - ref: S7
-    nature: theorie
-    reference: "A. Rambaud, J. Richard, « The “Triple Depreciation Line” instead of the “Triple Bottom Line”: Towards a genuine integrated reporting », Critical Perspectives on Accounting, 33, p. 92-116, 2015 ; J. Richard, A. Rambaud, Révolution comptable : pour une entreprise écologique et sociale, Éditions de l'Atelier, 2020 — le modèle CARE-TDL refuse de traiter le capital naturel comme un actif porteur de revenus futurs et le requalifie en dette écologique inscrite au passif, imposant un amortissement écologique égal au coût réel de préservation et de remise en état"
-    url: "https://doi.org/10.1016/j.cpa.2015.01.012"
-    etat_lecture: a_requalifier
   - ref: S8
     nature: theorie
     reference: "D. McLaren, « Quantifying the potential scale of mitigation deterrence from greenhouse gas removal techniques », Climatic Change, 162(4), p. 2411-2428, 2020 — définition de la dissuasion de l'atténuation (p. 2412) : « the prospect of reduced or delayed at-source emissions reductions resulting from the introduction or consideration of another climate intervention » ; D. McLaren, « Mitigation deterrence and the “moral hazard” of solar radiation management », Earth's Future, 4(12), p. 596-602, 2016 ; N. Markusson, D. McLaren, D. Tyfield, 2018, sur la séparation stricte entre objectifs de réduction brute et flux de compensation OUVERTE le 2026-09-16 sur l'exemplaire fourni par l'auteur et identifié sur son titre (2026-09-16/courses-c17-c30/fournis/mclaren-2020-mitigation-deterrence-fourni.pdf, 18 pages, SHA-256 170A73D31F799EF7A18F6A4223B120B88E13130DE8F1F292D2B3CF5D72D71DEC). Passages lus : « Quantifying the potential scale of mitigation deterrence from greenhouse gas removal techniques » (page PDF 1) ; la définition, « the prospect of reduced or delayed at-source emissions » (page PDF 2), la phrase se poursuivant à la page suivante après le titre courant de la revue."
@@ -56,18 +51,36 @@ sources_primaires:
     url: "https://cepr.org/publications/policy-insight-24-can-central-banks-go-broke"
     etat_lecture: ouverte
     date_verification: 2026-09-19
-verifications_en_attente:
-  - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
-     RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
-     (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
-     RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
-     PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
-     individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
-     sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
-     « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
-     le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
-     « l'échappement à la qualification de dette », qui est ce dont la formule
-     d'affectation décide."
+  - ref: S10
+    nature: theorie
+    reference: "J. Richard, avec la collaboration d'A. Rambaud, Révolution comptable : pour une entreprise écologique et sociale, Les Éditions de l'Atelier/Éditions Ouvrières, Ivry-sur-Seine, 2020, ISBN 978-2-7082-5448-0 — chapitre 3, les douze propositions de base du modèle CARE/TDL. ENTRÉE CRÉÉE le 2026-09-28 (règle V2 de l'auteur) : l'ancienne entrée S7 réunissait cet ouvrage et l'article des mêmes auteurs paru en 2015 dans Critical Perspectives on Accounting ; l'article n'est pas au dossier et n'est plus invoqué. Aucun numéro n'est réattribué. OUVERTE le 2026-09-28 sur l'exemplaire fourni par l'auteur (2026-09-28/courses-livre-1/fournis/Richard avec Rambaud - Revolution comptable - 2020 - livre.pdf, 109 pages, 1 006 985 octets, SHA-256 CA80B36D4BB3BE70B4EF265E1FB7B31BFABA0C33083A226F37E3C6F8A3398FF9), identifié sur sa page de copyright (page PDF 5). ÉDITION NUMÉRIQUE SANS FOLIOS : les localisations sont des pages du fichier, et la proposition est nommée. LU : les pages PDF 58 à 64, de la fin de la troisième proposition au début de la onzième. NON LU : le reste de l'ouvrage, dont l'annexe 2 sur la comptabilité nationale. Passages lus, au mot : « le but est bien de conserver la nature sur la base d'un coût de maintien et non de lui donner un prix ! » (quatrième proposition, page PDF 60) ; « le côté droit sera réservé à l'enregistrement des montants de capitaux à conserver (les dettes de l'entreprise envers les trois nouveaux apporteurs de capitaux) » (cinquième proposition, page PDF 60) ; « la somme des budgets éventuellement prévus pour assurer, pour la période concernée, la conservation (soutenance) des constituants du capital naturel va former ce qu'on appellera le capital naturel global de l'entreprise, c'est-à-dire la dette écologique globale de l'entreprise. Ce capital naturel global sera enregistré sous le nom de « capital naturel » au passif du bilan. » (neuvième proposition, page PDF 63) ; « Simultanément et symétriquement à l'enregistrement des montants des trois types de capitaux-dettes à conserver au passif, leur montant sera également inscrit à l'actif en tant que coût d'usage des actifs (des moyens) correspondant à ces trois capitaux. L'utilisation progressive effective de ces actifs donnera lieu à trois types d'amortissement » (dixième proposition, page PDF 64). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : deux choses. Le modèle ne refuse pas l'inscription à l'actif : il inscrit le même montant des deux côtés, la comptabilité restant en partie double. Et « revenus futurs » n'a aucune occurrence dans l'ouvrage (contrôle positif : « passif », 29 pages) : l'énoncé que le corps prêtait au modèle, le refus d'un « actif porteur de revenus futurs », n'est pas dans ces mots. C'est le bilan d'une entreprise, et les pages lues ne disent rien d'un institut d'émission."
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+  - ref: S11
+    nature: normatif
+    reference: "International Public Sector Accounting Standards Board (IPSASB), The Conceptual Framework for General Purpose Financial Reporting by Public Sector Entities, publié par l'International Federation of Accountants, recueil 2026 ; chapitre 5 mis à jour en 2023 — définitions de l'actif et de la ressource, potentiel de service, contrôle. ENTRÉE CRÉÉE le 2026-09-28 : le § 6 énonçait la définition du cadre public sans appel de source, en renvoyant à L18.C01, chapitre `brouillon` d'un autre livre dont l'entrée est `a_requalifier`. La pièce est ouverte ici. OUVERTE le 2026-09-28 sur l'exemplaire fourni par l'auteur (2026-09-07/je-x20/outputs/sources-NEMO-2026-09-07/IPSASB-Cadre-conceptuel-2023-HB2026.pdf, 124 pages, 1 551 269 octets, SHA-256 0181A1BDBA7BF15F7EBE367B3E41B22DA28C9E8A626AC0AA806854E9E4B4D0FA), identifié sur sa page de titre et son historique (page PDF 3 : « Chapters 3, 5, and 7 were updated in 2023 »). LU : les paragraphes 5.6 à 5.12, pages PDF 50 à 52 (folios 62 à 64), en entier. NON LU : le reste du cadre. Passages lus, au mot : « 5.6 An asset is: A resource presently controlled by the entity as a result of past events. 5.6A A resource is: A right to either service potential or the capability to generate economic benefits, or a right to both. » (folio 62) ; « 5.8 Service potential is the capability of a resource to provide services that contribute to achieving the entity's objectives. Service potential enables an entity to achieve its objectives without necessarily generating net cash inflows. » (folio 64) ; « 5.11 An entity must have control of the resource. » (folio 64) ; « 5.12 […] Legal ownership; Access to the resource, or the ability to deny or restrict access to the resource; The means to ensure that the resource is used to achieve its objectives; and The existence of an enforceable right to service potential or the ability to generate economic benefits arising from a resource. While these indicators are not conclusive determinants of whether control exists […] » (folio 64). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : deux passages pèsent contre l'inscription d'un commun à l'actif. « Some services […] are received and immediately consumed. An entity's right to obtain the service potential or economic benefits produced by such services exists very briefly until the entity consumes the services. » Et : « Rights available to all parties without significant cost — for instance, rights of access to public goods […] — are typically not assets for the entities that hold these rights. » (folio 63). La pièce définit ; elle ne dit pas quel référentiel gouverne l'émetteur d'une unité monétaire."
+    etat_lecture: ouverte
+    date_verification: 2026-09-28
+verifications_en_attente: []
+  # RÈGLES V2 ET W2 DE L'AUTEUR, 2026-09-28. Les douze lignes de ce chapitre sont
+  # traitées plus bas ; leur texte d'origine est conservé.
+  # ENTRÉE S7 RETIRÉE le 2026-09-28 : A. Rambaud, J. Richard, « The “Triple
+  # Depreciation Line” instead of the “Triple Bottom Line” », Critical Perspectives
+  # on Accounting, 33, p. 92-116, 2015, réunie à l'ouvrage de 2020 ; `a_requalifier`,
+  # jamais ouverte. Son occurrence demeure au manifeste.
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est la trace d'un renommage appliqué le 2026-09-20 et contrôlé depuis par `controle_renommage.py`. Conservée ci-dessous comme trace.
+  # Texte d'origine :
+  #   - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
+  #   RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
+  #   (vocabulaire, première occurrence L1.C20). DEUX EMPLOIS N'ONT PAS ÉTÉ RENOMMÉS MAIS
+  #   RÉÉCRITS, parce que l'ancien nom y disait autre chose. (1) Là où le corps décrit LE
+  #   PRÉCÉDENT DE L'ALLOCATION DE 2021, il écrit désormais « sans créance
+  #   individualisée » : L1.C22 § 4 a établi que cette allocation EST comptée en dette
+  #   sous la norme statistique, de sorte que « émis sans dette » y était faux, et que
+  #   « à contrepartie collective » l'aurait été autant. Ce que le précédent établit est
+  #   le DEUXIÈME des trois plans, et lui seul. (2) « Le statut sans dette » devient
+  #   « l'échappement à la qualification de dette », qui est ce dont la formule
+  #   d'affectation décide."
   # ── ALIGNEMENT DU 2026-09-19 ──────────────────────────
   # Écrit sous `protocoles/architecture-L1-C19.md` (61 énoncés, plan en huit sections) et
   # sous les décisions C19 Q2 et C19 Q3 de `protocoles/dossier-edition-L1-D107.md`.
@@ -98,49 +111,71 @@ verifications_en_attente:
   # l'ayant tranché sur le fond (abandon de la mobilité intégrale des capitaux) ; la
   # formule « destruction monétaire » pour le reflux, l'auteur ayant arrêté que le reflux
   # RETIRE sans détruire, ce qui rend le défaut de bouclage plus dur et non plus léger.
-  - "S2 — SAMUELSON EST OUVERT DEPUIS LE 2026-09-19, par versement depuis L1.C09 [S11], et
-     l'avertissement de méthode voyage avec lui : l'exemplaire est un SCAN SANS COUCHE DE
-     TEXTE, lu à l'œil après extraction des images. UN CONTRÔLE PAR SCRIPT SUR CE FICHIER
-     NE TROUVERA RIEN ET NE VAUDRA PAS ABSENCE. Musgrave 1959, qui nomme la réponse
-     budgétaire, n'est pas ouvert et le § 2 ne lui fait porter aucune citation."
-  - "S7 — SUSPENDUE À D64, et le § 6 s'en tient à ce que le résumé de l'entrée porte : le
-     modèle refuse le capital naturel à l'actif et inscrit une dette au passif, amortie au
-     coût de préservation. AUCUNE PAGE N'EST CITÉE tant que l'article n'est pas ouvert.
-     L'ouvrage de 2020 est sous droits et la contrainte de l'auteur du 2026-09-19 exclut
-     l'acquisition payante ; l'article de 2015 a un DOI et peut être cherché libre."
-  - "LA CONTREPARTIE À L'ACTIF ATTEND UNE REVUE PAR UN COMPTABLE NATIONAL, et c'est la
-     seule voie. Le § 6 expose l'état de la question — obligation présente identifiée par
-     le précédent des droits de tirage (l'intérêt couru, non le rachat), contrepartie à
-     l'actif défavorable, bénéficiaire de l'obligation entier — sans trancher. Aucun
-     modèle macroéconomique ne doit précéder cet arbitrage."
-  - "LA RÈGLE QUI LIE LE VOLUME ÉMIS AU VOLUME RETIRÉ N'EST PAS ÉCRITE, et c'est ce dont
-     dépend la viabilité de la proposition. Trois branches sont ouvertes (règle publiée,
-     pilotage discrétionnaire, échelonnement dans une fenêtre annoncée) et la littérature
-     ne dit pas si un tel rythme est pilotable. C'est un chantier de conception, non une
-     vérification documentaire ; il vit en L1.C21."
-  - "L'INDISCERNABILITÉ DE L'UNITÉ APRÈS ÉMISSION EST UNE BRANCHE OUVERTE, exposée au
-     § 4 et non tranchée : ou bien l'unité circule au-delà du couple émetteur-banques
-     centrales, ou bien la nouveauté du dispositif est tout entière dans le circuit
-     d'émission. L'arbitrage appartient à l'auteur."
-  - "L'EFFET DE PREMIER RECEVEUR N'EST PAS MESURÉ. Son sens est voulu — c'est ce que le
-     dispositif cherche — mais son ampleur et son incidence distributive dépendent de la
-     structure de consommation, de la détention d'actifs et de l'indexation des revenus.
-     Elles peuvent être régressives. Travail empirique, non documentaire."
-  - "LA CALIBRATION DU RÉGIME NÉGATIF MANQUE, et le § 6 en fait une exigence sans pouvoir
-     la satisfaire : la pénalité frappant l'activité dégénérative doit excéder en tout temps
-     le revenu anticipé de sa réparation. Le choix et la combinaison des instruments — prix,
-     plafonnement, exclusion — ne sont pas arrêtés, et le § 1 le dit."
-  - "LA NATURE JURIDIQUE DU PRÉLÈVEMENT — fiscale, parafiscale ou de réseau — n'est pas
-     arrêtée, ni la formule d'affectation de l'excédent de reflux au-delà de sa première
-     destination. Le § 4 l'énonce. Commun avec L1.C18 et L1.C21."
-  - "LE COMPTE DE CAPITAL RÉGLEMENTÉ N'A AUCUNE MODALITÉ CONÇUE. L'abandon de la mobilité
-     intégrale des capitaux est tranché sur le fond, mais ni les instruments, ni le périmètre,
-     ni la compatibilité avec les engagements existants ne sont écrits. Vit en L1.C26."
-  - "COHÉRENCE — Ne pas anticiper L1.C20 (mécanisme d'émission) ni L1.C21 (reflux
-     collectif). Ce chapitre expose l'articulation ; il nomme les mécanismes sans les
-     décrire. La dérogation portée par C19 Q2 concerne la seule contrepartie comptable."
-  - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
-     propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement."
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est un avertissement de méthode, et il voyage avec l'entrée S2. SIGNALÉ AU SUPERVISEUR : l'exemplaire est un scan sans couche de texte, lu à l'œil ; l'état `ouverte` vient du versement depuis L1.C09, chapitre `verifie`.
+  # Texte d'origine :
+  #   - "S2 — SAMUELSON EST OUVERT DEPUIS LE 2026-09-19, par versement depuis L1.C09 [S11], et
+  #   l'avertissement de méthode voyage avec lui : l'exemplaire est un SCAN SANS COUCHE DE
+  #   TEXTE, lu à l'œil après extraction des images. UN CONTRÔLE PAR SCRIPT SUR CE FICHIER
+  #   NE TROUVERA RIEN ET NE VAUDRA PAS ABSENCE. Musgrave 1959, qui nomme la réponse
+  #   budgétaire, n'est pas ouvert et le § 2 ne lui fait porter aucune citation."
+  # SOLDÉE le 2026-09-28 — TRAITÉE PAR LA RÈGLE V2. L'ouvrage de 2020 a été fourni par l'auteur le 2026-09-28 : entrée S10, ouverte, propositions 4, 5, 9 et 10 citées au mot. L'article de 2015 n'est pas au dossier et n'est plus invoqué ; l'entrée composite S7 est retirée. LA LECTURE A CORRIGÉ LE CORPS : le modèle ne refuse pas l'actif, il inscrit le même montant des deux côtés.
+  # Texte d'origine :
+  #   - "S7 — SUSPENDUE À D64, et le § 6 s'en tient à ce que le résumé de l'entrée porte : le
+  #   modèle refuse le capital naturel à l'actif et inscrit une dette au passif, amortie au
+  #   coût de préservation. AUCUNE PAGE N'EST CITÉE tant que l'article n'est pas ouvert.
+  #   L'ouvrage de 2020 est sous droits et la contrainte de l'auteur du 2026-09-19 exclut
+  #   l'acquisition payante ; l'article de 2015 a un DOI et peut être cherché libre."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7 : « La contrepartie à l'actif reçoit une réponse défavorable et attend une revue humaine. » Elle reste en `::hypothese::` au § 6. Non tranchée, et aucune relecture par un modèle n'en tient lieu.
+  # Texte d'origine :
+  #   - "LA CONTREPARTIE À L'ACTIF ATTEND UNE REVUE PAR UN COMPTABLE NATIONAL, et c'est la
+  #   seule voie. Le § 6 expose l'état de la question — obligation présente identifiée par
+  #   le précédent des droits de tirage (l'intérêt couru, non le rachat), contrepartie à
+  #   l'actif défavorable, bénéficiaire de l'obligation entier — sans trancher. Aucun
+  #   modèle macroéconomique ne doit précéder cet arbitrage."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7 : « Ce que la viabilité de la proposition exige tient en une règle qui n'est pas écrite ». Non tranchée.
+  # Texte d'origine :
+  #   - "LA RÈGLE QUI LIE LE VOLUME ÉMIS AU VOLUME RETIRÉ N'EST PAS ÉCRITE, et c'est ce dont
+  #   dépend la viabilité de la proposition. Trois branches sont ouvertes (règle publiée,
+  #   pilotage discrétionnaire, échelonnement dans une fenêtre annoncée) et la littérature
+  #   ne dit pas si un tel rythme est pilotable. C'est un chantier de conception, non une
+  #   vérification documentaire ; il vit en L1.C21."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7, ajoutée ce jour, et portée au § 4 : « La branche est ouverte et ce chapitre ne la tranche pas ». Non tranchée.
+  # Texte d'origine :
+  #   - "L'INDISCERNABILITÉ DE L'UNITÉ APRÈS ÉMISSION EST UNE BRANCHE OUVERTE, exposée au
+  #   § 4 et non tranchée : ou bien l'unité circule au-delà du couple émetteur-banques
+  #   centrales, ou bien la nouveauté du dispositif est tout entière dans le circuit
+  #   d'émission. L'arbitrage appartient à l'auteur."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7 : « L'effet de premier receveur n'est pas mesuré. » Non tranchée.
+  # Texte d'origine :
+  #   - "L'EFFET DE PREMIER RECEVEUR N'EST PAS MESURÉ. Son sens est voulu — c'est ce que le
+  #   dispositif cherche — mais son ampleur et son incidence distributive dépendent de la
+  #   structure de consommation, de la détention d'actifs et de l'indexation des revenus.
+  #   Elles peuvent être régressives. Travail empirique, non documentaire."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7 : « L'aléa moral a une orientation et pas de calibration. » Non tranchée.
+  # Texte d'origine :
+  #   - "LA CALIBRATION DU RÉGIME NÉGATIF MANQUE, et le § 6 en fait une exigence sans pouvoir
+  #   la satisfaire : la pénalité frappant l'activité dégénérative doit excéder en tout temps
+  #   le revenu anticipé de sa réparation. Le choix et la combinaison des instruments — prix,
+  #   plafonnement, exclusion — ne sont pas arrêtés, et le § 1 le dit."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7, ajoutée ce jour, et portée au § 4. Non tranchée.
+  # Texte d'origine :
+  #   - "LA NATURE JURIDIQUE DU PRÉLÈVEMENT — fiscale, parafiscale ou de réseau — n'est pas
+  #   arrêtée, ni la formule d'affectation de l'excédent de reflux au-delà de sa première
+  #   destination. Le § 4 l'énonce. Commun avec L1.C18 et L1.C21."
+  # DÉPLACÉE EN « PORTÉE » le 2026-09-28 — QUESTION OUVERTE, écrite au § 7, ajoutée ce jour. Non tranchée ; elle vit en L1.C26 § 2.
+  # Texte d'origine :
+  #   - "LE COMPTE DE CAPITAL RÉGLEMENTÉ N'A AUCUNE MODALITÉ CONÇUE. L'abandon de la mobilité
+  #   intégrale des capitaux est tranché sur le fond, mais ni les instruments, ni le périmètre,
+  #   ni la compatibilité avec les engagements existants ne sont écrits. Vit en L1.C26."
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est une consigne de rédaction. Le chapitre nomme les deux mécanismes et renvoie à L1.C20 et L1.C21 sans les décrire.
+  # Texte d'origine :
+  #   - "COHÉRENCE — Ne pas anticiper L1.C20 (mécanisme d'émission) ni L1.C21 (reflux
+  #   collectif). Ce chapitre expose l'articulation ; il nomme les mécanismes sans les
+  #   décrire. La dérogation portée par C19 Q2 concerne la seule contrepartie comptable."
+  # SOLDÉE le 2026-09-28 — CE N'EST PAS UNE VÉRIFICATION À FAIRE, c'est une consigne de rédaction, contrôlée à l'alignement.
+  # Texte d'origine :
+  #   - "COHÉRENCE — Régime conception. Descriptions du régime existant en ::etat::,
+  #   propositions en ::norme::, effets attendus en ::hypothese::. Vérifié à l'alignement."
 resume: "Ce chapitre expose l'articulation que le livre propose entre la finance marchande existante et le financement de la régénération. Il écarte d'abord une formulation du texte source : il ne s'agit pas de deux monnaies ni de deux circuits étanches, mais de deux orientations d'une seule monnaie, et cette unicité n'est pas une commodité d'exposition — deux monnaies impliqueraient deux comptabilités, et le reflux de l'une sur l'autre serait inapplicable. Il établit que le maintien de la part marchande n'est pas une concession mais la conséquence de ce que la première partie a démontré : ce n'est pas l'existence du crédit bancaire qui pose problème, c'est son exclusivité au point de création. Il établit qu'une porte ajoutée n'en ferme aucune, et que le canal positif ne suffit donc pas sans régime négatif. Il établit que la réponse budgétaire au paradoxe des biens collectifs est réelle, que les trois limites que le corpus lui oppose ne suffisent pas à conclure, et que la comparaison a désormais un portefeuille : une institution existante a déjà émis sans créance individualisée en un jour et sans résultat matériel, et la contrainte de capacité d'absorption mord sur les deux voies — ce qui peut les départager est la règle de qualification, non l'émission. Il établit que la séparation n'existe qu'au point de création, que le reflux retire la monnaie sans la détruire, et qu'aucun dispositif ne lie donc l'encaissement à l'extinction de ce qui fut émis. Cinq problèmes sortent entiers : le triangle d'incompatibilité, résolu par l'abandon de la mobilité des capitaux mais laissant des parités administrées expérimentables pour les seuls chocs passagers ; l'aléa moral, qui a une orientation et pas de calibration ; l'effet de premier receveur, dont le sens est voulu et l'incidence distributive non mesurée ; la contrepartie à l'actif, qui reçoit une réponse défavorable et attend une revue humaine ; et la régulation mutuelle des deux orientations, qui reste une intention tant que sa règle n'est pas écrite."
 concepts: [creation_monetaire, reflux_monetaire, essentiel_insolvable, solvabilite_anticipee, qualification_regenerative, degeneratif]
 renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10, L1.C16, L1.C20, L1.C21, L1.C26, L1.C29, L1.C31, L18.C01]
@@ -214,7 +249,7 @@ renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10
 
 ::hypothese:: **Et le financement ne suffit pas : ce n'est pas la monnaie nouvelle qui protégera les communs, c'est la protection juridique des communs qui rend la monnaie nouvelle concevable.** Le résultat dépend des politiques de substitution, de fermeture et de sanctuarisation que le dispositif ne porte pas.
 
-::etat:: **Mesurer un dommage et financer sa réparation sont deux opérations différentes, et la première n'entraîne pas la seconde.** Une obligation de publication d'informations de durabilité impose de mesurer [S5] ; elle n'engage aucune dépense. Un modèle comptable qui inscrit la dette écologique au passif et impose de l'amortir engage en revanche une action, puisqu'il contraint l'affectation du résultat [S7].
+::etat:: **Mesurer un dommage et financer sa réparation sont deux opérations différentes, et la première n'entraîne pas la seconde.** Une obligation de publication d'informations de durabilité impose de mesurer [S5] ; elle n'engage aucune dépense. Un modèle comptable qui inscrit au passif le budget de maintien du capital naturel, comme dette écologique de l'entreprise, et qui en passe l'usure en charge d'amortissement au compte de résultat, engage en revanche une action : le prix doit couvrir ce coût [S10].
 
 ## 6. Ce qui a reçu réponse, et ce qui reste ouvert
 
@@ -226,19 +261,21 @@ renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10
 
 ::hypothese:: **L'effet de premier receveur est une objection distincte de l'objection inflationniste, et elle reste entière.** Une monnaie injectée en un point déterminé modifie les prix relatifs avant de se diffuser : ceux qui la reçoivent en premier achètent aux prix anciens, ceux qui la reçoivent en dernier aux prix nouveaux. L'émission fléchée enrichirait donc ses bénéficiaires et leurs fournisseurs immédiats au détriment de ceux qu'elle atteint en fin de chaîne. **Le sens de l'effet est ici volontaire, puisque c'est ce que le dispositif cherche ; son ampleur et son incidence n'ont pas été examinées.** Elles dépendent de la structure de consommation, de la détention d'actifs et de l'indexation des revenus, et elles peuvent être régressives. **Un dispositif qui se réclame de la justice distributive ne peut pas ignorer sa propre distribution.** La dominance budgétaire et la question de l'autorisation, qui lui sont voisines, sont traitées en L1.C18 § 6, où l'architecture répond.
 
-::etat:: **La contrepartie comptable reste le point le plus dur, et le corpus l'expose ici plutôt que de le renvoyer.** Le porteur est arbitré : l'unité est au passif de l'émetteur. **Ce qui ne l'est pas, c'est ce qui figure à l'actif en regard.** Dire que cet actif est constitué de réalisations d'activités extrafinancières labellisées se heurte au **test du secteur privé** : une ressource contrôlée par l'entité, issue d'événements passés, dont des avantages économiques futurs sont attendus. Un label constatant une action accomplie n'y satisfait pas : le service a été rendu et consommé, il n'ouvre aucun droit de tirage, il n'a ni flux ni valeur de liquidation. **Mais ce n'est pas la définition du cadre public, et ce chapitre la lui attribuait à tort.** **Quel référentiel gouverne l'émetteur n'est pas tranché** : cette correction porte sur une définition, non sur un choix de référentiel. Le cadre conceptuel du secteur public admet qu'une ressource soit un droit à un **potentiel de service** ou à la capacité de générer des avantages économiques, ou aux deux, le potentiel de service permettant à l'entité d'atteindre ses objectifs sans nécessairement produire de flux de trésorerie nets. **Une contrepartie qui n'engendre aucun flux pour l'émetteur n'est donc pas, par ce seul fait, irrecevable — ni recevable pour autant**, le contrôle de la ressource restant requis (§§ 5.11 et 5.12 du cadre) — L1.C29 § 4 porte cette correction, et L18.C01 § 1 tient l'instruction du cadre, dont l'entrée est encore à requalifier : la réserve est déclarée ici et non masquée.
+::etat:: **La contrepartie comptable reste le point le plus dur, et le corpus l'expose ici plutôt que de le renvoyer.** Le porteur est arbitré : l'unité est au passif de l'émetteur. **Ce qui ne l'est pas, c'est ce qui figure à l'actif en regard.** Dire que cet actif est constitué de réalisations d'activités extrafinancières labellisées se heurte au **test du secteur privé** : une ressource contrôlée par l'entité, issue d'événements passés, dont des avantages économiques futurs sont attendus. Un label constatant une action accomplie n'y satisfait pas : le service a été rendu et consommé, il n'ouvre aucun droit de tirage, il n'a ni flux ni valeur de liquidation. **Mais ce n'est pas la définition du cadre public, et ce chapitre la lui attribuait à tort.** **Quel référentiel gouverne l'émetteur n'est pas tranché** : cette correction porte sur une définition, non sur un choix de référentiel. Le cadre conceptuel du secteur public admet qu'une ressource soit un droit à un **potentiel de service** ou à la capacité de générer des avantages économiques, ou aux deux, le potentiel de service permettant à l'entité d'atteindre ses objectifs sans nécessairement produire de flux de trésorerie nets [S11]. **Une contrepartie qui n'engendre aucun flux pour l'émetteur n'est donc pas, par ce seul fait, irrecevable — ni recevable pour autant**, le contrôle de la ressource restant requis (§§ 5.11 et 5.12 du cadre) [S11]. **Le même texte pèse contre l'inscription d'un commun** : les droits ouverts à tous sans coût significatif, tels les droits d'accès aux biens publics, ne sont typiquement pas des actifs pour ceux qui les détiennent [S11]. L1.C29 § 4 porte la même correction.
 
 ::etat:: **Une obligation présente a cependant été identifiée, et elle change les termes.** Le précédent des droits de tirage spéciaux montre que l'obligation qui justifie l'inscription au passif peut être **l'intérêt couru**, non le rachat, lequel demeure conditionnel. La contrepartie à l'actif reçoit en revanche une réponse défavorable, et le bénéficiaire de l'obligation reste entier.
 
 ::hypothese:: **L'issue des fonds propres négatifs existe, et elle est plus étroite que le corpus ne l'écrivait.** Une institution qui émet la monnaie dans laquelle ses engagements sont libellés n'est pas soumise à la contrainte de solvabilité d'un agent ordinaire. **Mais il faut distinguer deux mesures** : les fonds propres financiers, qui peuvent être négatifs, et les fonds propres complets, qui leur ajoutent la valeur actualisée du seigneuriage à venir et en retranchent celle des coûts de fonctionnement. **Des fonds propres complets nuls ou négatifs valent insolvabilité.** [S9] Ce qui est soutenable est donc un déficit de fonds propres financiers couvert par le seigneuriage futur — condition qui, pour ce dispositif, n'est pas acquise au démarrage, où il n'y a pas encore de surplus de reflux. **Et la transposition elle-même n'est pas acquise** : l'émetteur de l'unité n'est pas celui des monnaies dans lesquelles les prestataires sont payés. L1.C29 tient cette discussion.
 
-::hypothese:: **Une piste inverse existe, et elle a une assise que la voie de l'actif n'a pas.** Un modèle de comptabilité écologique refuse de traiter le capital naturel comme un actif porteur de revenus futurs et le requalifie en dette inscrite au passif, assortie d'un amortissement égal au coût de préservation [S7]. Le mouvement est exactement inverse de celui du livre. **Le corpus ne tranche pas**, et il ne le peut pas : l'arbitrage sur la contrepartie attend une revue par un comptable national, qu'aucun modèle macroéconomique ne doit précéder.
+::hypothese:: **Une piste inverse existe, et elle a une assise que la voie de l'actif n'a pas.** Un modèle de comptabilité écologique évalue le capital naturel à son coût de maintien — « et non de lui donner un prix » — et l'inscrit au passif du bilan comme dette écologique de l'entreprise [S10]. **Il ne refuse pas l'actif, et le corpus l'écrivait à tort** : le même montant est porté à l'actif comme coût d'usage, puis amorti [S10]. Ce qui s'oppose au livre est le point de départ : la nature y entre au bilan comme une dette à honorer, non comme une richesse détenue. **Et c'est le bilan d'une entreprise** ; les pages lues ne disent rien d'un institut d'émission. **Le corpus ne tranche pas**, et il ne le peut pas : l'arbitrage sur la contrepartie attend une revue par un comptable national, qu'aucun modèle macroéconomique ne doit précéder.
 
 ## 7. Portée
 
 ::etat:: **Ce chapitre a établi quatre choses.** Que le maintien de la part marchande n'est pas une concession mais la conséquence de ce que la première partie a démontré — l'exclusivité du critère de solvabilité, non l'existence du crédit. Que la réponse fiscale au paradoxe des biens collectifs est réelle, que la proposition doit s'y comparer plutôt que l'ignorer, et que cette comparaison a maintenant un portefeuille et une méthode. Que la seconde porte change la position du bénéficiaire, qui ne doit rien, sans que cela qualifie le passif de l'émetteur. Et que la distinction entre les deux orientations n'existe qu'au point de création.
 
 ::etat:: **Cinq problèmes sortent entiers.** Le triangle d'incompatibilité a reçu sa réponse par l'abandon de la mobilité des capitaux, mais les parités administrées ne sont expérimentables que pour des chocs passagers. L'aléa moral a une orientation et pas de calibration. L'effet de premier receveur n'est pas mesuré. La contrepartie à l'actif reçoit une réponse défavorable et attend une revue humaine. Et la régulation mutuelle des deux orientations est une intention tant que sa règle n'est pas écrite.
+
+::etat:: **Trois autres questions restent ouvertes, et ce chapitre ne les tranche pas.** L'indiscernabilité de l'unité après émission : ou bien elle circule au-delà du couple que forment l'émetteur et les banques centrales, ou bien la nouveauté du dispositif est tout entière dans le circuit d'émission (§ 4). La nature juridique du prélèvement — fiscale, parafiscale ou de réseau —, dont dépendent l'autorité qui l'institue et le juge compétent (§ 4). Et les modalités du compte de capital réglementé, dont rien n'est conçu (L1.C26 § 2).
 
 ::hypothese:: **Ce que la viabilité de la proposition exige tient en une règle qui n'est pas écrite** : celle qui lie le volume émis au volume retiré, et l'encaissement du reflux à l'extinction de ce qui fut émis. Tout le reste — l'architecture, la qualification, le régime probatoire — suppose cette règle sans la fournir.
 
