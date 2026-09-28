@@ -6,13 +6,16 @@ Ce test ne vérifie pas que `generer.py` s'exécute : il vérifie que ce qu'il
 et il contrôle sept invariants.
 
 1. Tout JSON produit est du JSON valide, JSON-LD des pages compris.
-2. Le `sitemap.xml` est du XML valide, porte l'ensemble EXACT des URL attendues,
-   et **aucun `lastmod`** : le corpus ne détient aucune date attestant la
-   dernière modification significative d'une page, et le champ est facultatif.
-   Jusqu'au 2026-09-28, les entrées portaient la date de génération ; le test ne
-   lisait que la validité XML et laissait donc passer un fichier valide dont le
-   contenu était faux. L'absence de date se contrôle avec l'ensemble des URL,
-   sans quoi un fichier vidé de ses entrées passerait aussi.
+2. Le `sitemap.xml` est du XML valide, porte les ADRESSES COMPLÈTES attendues et
+   elles seules, sans doublon, et **aucun `lastmod`** : le corpus ne détient
+   aucune date attestant la dernière modification significative d'une page, et le
+   champ est facultatif. Trois versions de cette garde ont été nécessaires. La
+   première ne lisait que la validité XML : les 31 dates de génération lui
+   convenaient. La deuxième comparait les identifiants déduits des suffixes
+   d'adresse puis le nombre de pages agrégées : une adresse de glossaire
+   inexistante, un chapitre sur un autre domaine et une entrée dupliquée
+   passaient. Six sabotages sont donc inscrits à l'invariant 2 ter, et le cas
+   d'une collection vide au 2 bis.
 3. Aucune marque Markdown ne subsiste en clair dans une page : ni marqueur de
    régime, ni gras, ni titre. Un rendu qui laisse passer `::etat::` ment sur le
    régime du paragraphe, ce qui est pire qu'une page laide.
@@ -62,17 +65,49 @@ def publiables() -> set[str]:
     return out
 
 
-def controle_sitemap(texte: str, attendus: set[str]) -> list[str]:
-    """2. XML valide, ensemble EXACT des URL, et aucun `lastmod`.
+# L'origine et le préfixe attendus des URL publiques. Ils sont ÉCRITS ICI et non
+# importés de `generer.py` : un générateur qui fournirait la valeur attendue se
+# certifierait lui-même. Les changer est une décision, et elle passe donc par une
+# modification délibérée de ce test.
+ORIGINE = "https://debunkonomy.org"
+BASE = "/corpus"
+
+
+def urls_attendues(attendus: set[str], origine: str, base: str) -> list[str]:
+    """Les adresses complètes que le sitemap doit porter, et elles seules.
+
+    Dérivation INDÉPENDANTE de celle du générateur : c'est tout l'intérêt. Un
+    identifiant `LN.CMM` donne `livre-N/cMM/`, ce que la révision 14 du § 3 fixe
+    — l'URL ne dérive plus que de l'identifiant.
+    """
+    out = [f"{origine}{base}/", f"{origine}{base}/glossaire.html"]
+    livres = sorted({int(c.split(".")[0][1:]) for c in attendus})
+    out += [f"{origine}{base}/livre-{n}/" for n in livres]
+    for cle in sorted(attendus):
+        livre, chap = cle.split(".")
+        out.append(f"{origine}{base}/livre-{int(livre[1:])}/{chap.lower()}/")
+    return out
+
+
+def controle_sitemap(texte: str, attendus: set[str],
+                     origine: str = ORIGINE, base: str = BASE) -> list[str]:
+    """2. XML valide, adresses COMPLÈTES attendues, sans doublon, sans `lastmod`.
 
     Fonction séparée pour être appelable sur un sitemap saboté : un contrôle
-    qu'on ne peut pas mettre en échec ne prouve rien. Une première version,
-    écrite en ligne dans `main`, exigeait l'égalité de date pour les pages de
-    chapitre et la simple appartenance à l'ensemble des dates pour les quatre
-    agrégats — trois dates fausses y passaient sans erreur.
+    qu'on ne peut pas mettre en échec ne prouve rien.
 
-    L'absence de date et l'ensemble des URL se contrôlent ENSEMBLE : dire qu'un
-    fichier ne porte aucune date ne prouve rien s'il a perdu ses entrées.
+    Deux versions ont déjà échoué à tenir ce que leur nom annonçait. La première
+    n'exigeait l'égalité de date que pour les chapitres et la simple appartenance
+    pour les agrégats : trois dates fausses passaient. La seconde comparait les
+    identifiants déduits du SUFFIXE des adresses, puis le NOMBRE de pages
+    agrégées — si bien qu'une adresse de glossaire inexistante, un chapitre
+    envoyé sur un autre domaine et une entrée dupliquée passaient tous les trois.
+    Un suffixe ne détermine pas une adresse, et un `set` efface les doublons.
+
+    D'où les trois exigences réunies : la liste des adresses, comparée
+    entièrement ; le refus des doublons AVANT toute réduction en ensemble ;
+    l'absence de date. Les trois vont ensemble — constater qu'un fichier ne porte
+    aucune date ne prouve rien s'il a perdu ses entrées.
     """
     echecs = []
     try:
@@ -83,22 +118,21 @@ def controle_sitemap(texte: str, attendus: set[str]) -> list[str]:
     if racine.find(f".//{ns}lastmod") is not None:
         echecs.append("sitemap.xml : un `lastmod` est apparu, alors qu'aucune "
                       "date de page n'est attestée")
-    vus, agreges = set(), set()
-    for bloc in racine.iter(f"{ns}url"):
-        loc = bloc.findtext(f"{ns}loc") or ""
-        m = re.search(r"/livre-(\d+)/(c\d+)/?$", loc)
-        if m:
-            vus.add(f"L{int(m.group(1))}.{m.group(2).upper()}")
-        else:
-            agreges.add(loc)
-    if vus != attendus:
-        echecs.append(f"sitemap.xml : chapitres {sorted(vus ^ attendus)} en "
-                      f"écart avec l'ensemble publiable")
-    # index général, glossaire, et une table par livre représenté
-    livres = {c.split(".")[0] for c in attendus}
-    if len(agreges) != 2 + len(livres):
-        echecs.append(f"sitemap.xml : {len(agreges)} page(s) d'index, attendu "
-                      f"{2 + len(livres)} — {sorted(agreges)}")
+    # une LISTE, pas un ensemble : le doublon se voit avant la réduction
+    vues = [bloc.findtext(f"{ns}loc") or "" for bloc in racine.iter(f"{ns}url")]
+    doubles = sorted({u for u in vues if vues.count(u) > 1})
+    if doubles:
+        echecs.append(f"sitemap.xml : {len(vues) - len(set(vues))} entrée(s) "
+                      f"dupliquée(s) — {doubles}")
+    attendues = urls_attendues(attendus, origine, base)
+    manquantes = sorted(set(attendues) - set(vues))
+    intruses = sorted(set(vues) - set(attendues))
+    if manquantes:
+        echecs.append(f"sitemap.xml : {len(manquantes)} adresse(s) absente(s) "
+                      f"— {manquantes[:4]}")
+    if intruses:
+        echecs.append(f"sitemap.xml : {len(intruses)} adresse(s) non attendue(s) "
+                      f"— {intruses[:4]}")
     return echecs
 
 
@@ -123,12 +157,63 @@ def sitemap_sur_collection_vide() -> list[str]:
                           f"{type(e).__name__} : {e}")
             return echecs
         t = (Path(tmp) / "sitemap.xml").read_text(encoding="utf-8")
-        if "<lastmod>" in t:
-            echecs.append("sitemap sur collection vide : une date est apparue")
-        try:
-            ET.fromstring(t)
-        except Exception as e:
-            echecs.append(f"sitemap sur collection vide, XML invalide : {e}")
+        # le MÊME contrôle, avec zéro chapitre attendu : exactement l'index
+        # général et le glossaire, ni date ni doublon.
+        echecs += [f"collection vide, {e}" for e in controle_sitemap(t, set())]
+    return echecs
+
+
+def sabotages_du_sitemap(texte: str, attendus: set[str]) -> list[str]:
+    """2 ter. Le contrôle du sitemap doit pouvoir être mis en échec.
+
+    Six sabotages, en mémoire, sur le fichier que le générateur vient d'écrire —
+    rien n'est modifié sur le disque. Les trois premiers passaient le 2026-09-28
+    sous une garde qui annonçait pourtant contrôler « l'ensemble exact des URL ».
+    Ils sont inscrits ici pour que la garde ne puisse plus se relâcher en silence.
+    """
+    echecs = []
+    prem = re.search(r"<loc>([^<]*/livre-\d+/c\d+/)</loc>", texte)
+    if prem is None:
+        return ["sabotages : aucune URL de chapitre dans le sitemap"]
+    chap = prem.group(1)
+    suffixe = chap.split(f"{BASE}/", 1)[-1]
+    racine = f"{ORIGINE}{BASE}/"
+    bloc_racine = re.search(
+        r"[ \t]*<url>\s*<loc>" + re.escape(racine) + r"</loc>.*?</url>\n",
+        texte, re.S)
+    if bloc_racine is None:
+        return ["sabotages : bloc de l'index général introuvable"]
+
+    cas = [
+        ("glossaire dévié vers une page inexistante",
+         lambda t: t.replace(f"{BASE}/glossaire.html",
+                             f"{BASE}/inexistant.html", 1)),
+        ("chapitre envoyé sur un autre domaine",
+         lambda t: t.replace(f"<loc>{chap}</loc>",
+                             f"<loc>https://autre-domaine.invalid/perdu/"
+                             f"{suffixe}</loc>", 1)),
+        ("entrée de l'index général dupliquée",
+         lambda t: t.replace(bloc_racine.group(0),
+                             bloc_racine.group(0) * 2, 1)),
+        ("une date remise sur l'index général",
+         lambda t: t.replace(f"  <loc>{racine}</loc>",
+                             f"  <loc>{racine}</loc>\n"
+                             f"  <lastmod>2026-09-11</lastmod>", 1)),
+        ("un chapitre retiré",
+         lambda t: re.sub(r"[ \t]*<url>\s*<loc>" + re.escape(chap)
+                          + r"</loc>.*?</url>\n", "", t, count=1, flags=re.S)),
+        ("XML tronqué", lambda t: t[: len(t) // 2]),
+    ]
+    for nom, saboter in cas:
+        abime = saboter(texte)
+        if abime == texte:
+            echecs.append(f"sabotage inapplicable, le test ne prouve rien : {nom}")
+        elif not controle_sitemap(abime, attendus):
+            echecs.append(f"sabotage accepté par le contrôle du sitemap : {nom}")
+    # contrôle positif : le fichier sain doit passer, sinon les six refus
+    # ci-dessus ne diraient rien de la garde.
+    if controle_sitemap(texte, attendus):
+        echecs.append("le contrôle du sitemap refuse le fichier sain")
     return echecs
 
 
@@ -247,8 +332,9 @@ def main() -> int:
             except Exception as e:
                 echecs.append(f"JSON invalide, {p.name} : {e}")
 
-        echecs += controle_sitemap(                                   # 2
-            (sortie / "sitemap.xml").read_text(encoding="utf-8"), attendus)
+        plan = (sortie / "sitemap.xml").read_text(encoding="utf-8")
+        echecs += controle_sitemap(plan, attendus)                    # 2
+        echecs += sabotages_du_sitemap(plan, attendus)                # 2 ter
 
         for p in pages:
             t = p.read_text(encoding="utf-8")
