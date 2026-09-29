@@ -8223,6 +8223,8 @@ sont dites faites, ou remplacées.
   publication ; recommandation : la garder. Aucun ordre du jour archivé ne la
   dit rendue : elle n'est pas inscrite comme décision. La page est servie avec
   le corpus, sur `main`.
+  Mention du même jour : l'auteur l'a rendue ensuite ; voir « P2, rendue le
+  2026-09-29 », en fin de section.
 - P3 — la publication 2 : le renommage en cinq langues, le widget de
   l'assistant et le lien vers le corpus, sans l'arabe et sans l'article sur le
   climat. L'archive ne consigne pas la réponse ; la publication 2 est partie
@@ -8349,3 +8351,22 @@ jour-là « sur mot direct de l'auteur », sans recopier ce mot : pages émises
 périmées, fins de ligne, date de modification du plan du site. Les commits
 existent — `c1c48c2e`, `e1129ee3`, `3767797f`, `a625c3ae` — ; le mot n'est pas
 au dossier, et rien n'est inscrit ici à sa place.
+
+### P2, rendue le 2026-09-29
+
+Le relevé ci-dessus ne trouvait P2 rendue dans aucun ordre du jour archivé.
+L'auteur l'a rendue le 2026-09-29, à la lecture de ce relevé. Son mot,
+recopié : « Oui pour P2, on garde la page publique, inscris-la ».
+
+La décision : la page de diagnostic du corpus, `diagnostic.html`, reste
+publique. Elle est publiée avec le corpus et servie sous `/corpus/`. Elle
+n'est pas exclue de la publication.
+
+Ce que cela change : rien dans les fichiers. La page est sur `main`, et
+`outils/publier.py` la garde parmi les fichiers de tête qu'il publie. La
+décision met un mot de l'auteur sur un état de fait.
+
+Ce que la page porte, pour mémoire : elle reproduit la sortie de
+`corpus/controle.py` et nomme les chapitres que le générateur laisse dehors,
+avec leurs vérifications en attente. L1.C29 § 6 y renvoie le lecteur pour
+l'état du registre.
