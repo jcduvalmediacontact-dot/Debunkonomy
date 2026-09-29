@@ -8082,3 +8082,109 @@ signale », et c'était vrai dans les deux sens : aucun script n'a signalé non
 plus qu'elle était réglée. Elle a continué d'interdire `verifie` pendant une
 journée où sa condition était remplie. Un registre périme dans les deux
 directions, et c'est la seconde qu'on ne surveille jamais.
+
+## RÈGLES ET DÉCISIONS DE LA SEMAINE DU CAP — V2, W2, W3, Z1 À Z5, INSCRITES LE 2026-09-29
+
+Cette section inscrit huit décisions de l'auteur qui ne vivaient que dans les
+ordres du jour archivés, sous `coordination/archives-odj/`, et dans les en-têtes
+des chapitres qui les appliquent. Elle est ajoutée sur son mot du 2026-09-29,
+recopié : « Oui, inscris-les dans passe-2.md et DECISIONS_AUTEUR.md ». Elle ne
+tranche rien de neuf et ne réécrit rien.
+
+Les textes ci-dessous sont ceux des ordres du jour, tels qu'ils y ont été
+soumis puis rendus. Pour V2, W2 et W3, les ordres du jour consignent la réponse
+« oui » de l'auteur, non ses mots. Pour Z1 à Z5, son mot est consigné :
+« Je valide Z1 à Z5 ».
+
+### V2 — les sources sans pièce, rendue le 2026-09-28 à 8 h
+
+Rien n'est acheté cette semaine. Pour chaque énoncé, dans cet ordre : une pièce
+du disque qui porte l'énoncé devient l'entrée, sous son propre nom ; sinon
+l'énoncé est attribué — « selon X, tel que le rapporte Y » — et l'entrée est Y ;
+sinon il redescend en `::hypothese::` ou sort. Jamais un substitut sous le nom
+de la pièce absente.
+
+Appliquée aux passes de L1.C17 à L1.C29, du 28 et du 29.
+
+### W2 — les lignes LIMITE, VERT et OUVERT, rendue le 2026-09-28 à 18 h
+
+Pour toute la seconde partie du Livre 1. Une limite ou un contrôle de cohérence
+que le corps porte déjà se solde, le motif étant la phrase du corps, citée. Un
+point ouvert n'est pas une vérification : il quitte l'en-tête pour la section
+« Portée » du chapitre, écrit comme question ouverte, et pour le registre
+existant s'il appelle un arbitrage. `verifie` dit « sourcé et borné », non
+« résolu ».
+
+Appliquée aux mêmes passes ; chaque ligne soldée ou déplacée garde son texte
+d'origine en commentaire d'en-tête.
+
+### W3 — la montée de L1.C28, rendue le 2026-09-28 à 18 h
+
+L1.C28 monte dès que Codex a écrit à l'ordre du jour « rien ne s'oppose à la
+montée de L1.C28 ». Appliquée le jour même : `ed370bdc`.
+
+### Z1 — la règle de montée, rendue le 2026-09-29
+
+W3 ne valait que pour L1.C28. Un chapitre monte dès que Codex a écrit à l'ordre
+du jour « rien ne s'oppose à la montée de L1.Cxx » ; le diff de montée revient
+à Codex. La règle vaut pour les douze chapitres qui restent à monter, L1.C17 à
+L1.C27 et L1.C29. Elle ne vaut pas pour L1.C30, que D100 laisse `brouillon`,
+déclaré récit.
+
+Elle n'autorise ni une montée sans la ligne de Codex, ni un commit sur `main`,
+ni une demande de fusion, qui restent à l'auteur.
+
+### Z2 — l'ouverture sur relevé fait en ligne, rendue le 2026-09-29
+
+Un texte officiel lu dans le navigateur, versé au Codex en relevé avec son
+adresse, sa date et l'empreinte de l'extraction, et contrôlé paragraphe par
+paragraphe contre la page servie, vaut ouverture. La décision vaut pour un texte
+servi par son dépositaire. La mention « extraction, non le document servi »
+reste obligatoire dans l'entrée, et l'empreinte est celle de l'extraction.
+
+Ce qu'elle ne change pas : un résumé produit par un outil reste une piste ; un
+scan sans couche de texte reste non ouvert ; une entrée ne cite que ce que son
+relevé porte.
+
+Neuf entrées en relèvent au 2026-09-29 : L1.C22 [S7], L1.C20 [S16] et [S17],
+L1.C24 [S14], L1.C18 [S29], [S30], [S32] et [S33], L1.C29 [S11]. Deux d'entre
+elles ne remplissaient pas ces termes le jour de la décision et ont été mises en
+règle le même jour : L1.C24 [S14] n'avait aucun relevé, L1.C22 [S7] avait deux
+relevés qui n'avaient pas été contrôlés contre les pages. Commit : `bed579d6`.
+
+### Z3 — L1.C29 aligné sur la décision de conception du 2026-09-21, rendue le 2026-09-29
+
+L'alignement est gardé. Le chapitre raisonnait sur le bilan du Symposium ; il
+examine désormais la construction du Cahier technique telle qu'elle est écrite,
+puis dit ce que la décision du 2026-09-21 en déplace. Voir plus haut la section
+« D1 inscrite ». Commits : `7100af9b`, puis `bed579d6` pour la mention.
+
+### Z4 — le § 5 de L1.C25, rendue le 2026-09-29
+
+Le § 5, aligné sur L1.C24 § 4 — le dispositif arbitré s'ajoute au système, il ne
+le remplace pas —, est gardé. Cet alignement allait au-delà de la lettre de
+l'accord du 2026-09-28 sur les annexes du chapitre ; il est porté sous
+`::hypothese::`. Commits : `e342e046`, puis `bed579d6` pour la mention.
+
+### Z5 — la publication 3, rendue le 2026-09-29
+
+La publication 3 est abandonnée et fondue dans la publication 4 du vendredi
+2026-10-02. La branche `publication-3-sur-main`, à `d4997631`, reste sur le
+distant ; elle n'est ni fusionnée ni supprimée.
+
+### D'où viennent les lettres
+
+Les décisions du 2026-09-29 ont d'abord été soumises sous les noms Y1 à Y5, à
+l'ordre du jour de 5 h 43, puis sous les noms Z1 à Z5, à celui de 7 h 09, après
+les passes de L1.C29 et de L1.C30. Z1 reprend Y1, Z2 reprend Y5, Z4 reprend Y4,
+Z5 reprend Y3. Z3 est née de la passe de L1.C29. Y2, qui portait sur l'ordre des
+audits et le périmètre d'un recontrôle, n'a pas été reprise parmi les décisions de
+7 h 09 : elle est devenue un ordre donné à Codex, sous la règle qui veut qu'un contrôle porte
+sur le diff. Des en-têtes de chapitres écrits avant 7 h 09 nomment encore « la
+décision Y5 » : c'est Z2.
+
+### Ce que cette section n'inscrit pas
+
+Les autres décisions rendues par ordre du jour — dont V1, V3, V4, V5, W1 et W4,
+du 2026-09-28 — restent dans les ordres du jour archivés. L'auteur n'a pas
+demandé leur inscription, et aucun relevé n'en a été fait ici.
