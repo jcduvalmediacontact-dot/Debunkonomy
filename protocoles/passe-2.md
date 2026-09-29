@@ -8188,3 +8188,164 @@ décision Y5 » : c'est Z2.
 Les autres décisions rendues par ordre du jour — dont V1, V3, V4, V5, W1 et W4,
 du 2026-09-28 — restent dans les ordres du jour archivés. L'auteur n'a pas
 demandé leur inscription, et aucun relevé n'en a été fait ici.
+
+Mention du même jour : l'auteur a demandé ce relevé ensuite ; il fait la section
+suivante.
+
+## RELEVÉ DES AUTRES DÉCISIONS RENDUES PAR ORDRE DU JOUR, DU 2026-09-26 AU 2026-09-29, INSCRIT LE 2026-09-29
+
+Ce relevé complète la section précédente. Il est fait sur le mot de l'auteur du
+2026-09-29, recopié : « Oui, fais le relevé et inscris-les aussi ». Il ne
+tranche rien et ne réécrit rien.
+
+Sa source est la suite des ordres du jour archivés sous
+`coordination/archives-odj/` : dix fichiers, du 2026-09-26 à 20 h au 2026-09-29
+à 7 h 21. Il a trois limites.
+
+Les ordres du jour antérieurs au 26 à 20 h ont été remplacés sans archive. Les
+décisions qu'ils portaient ne sont pas relevées ici ; celles que ce fichier et
+`CLAUDE.md` nomment déjà — B1, E3, J3, L1, L2 — restent où elles sont.
+
+Un ordre du jour consigne la réponse de l'auteur, le plus souvent « oui », et
+non ses mots. Aucun mot ne lui est prêté ici : ceux qui sont entre guillemets
+ont été recopiés à leur réception.
+
+Plusieurs lignes sont des gestes de l'auteur — une fusion, un dépôt — et non
+des règles. Elles sont relevées parce qu'elles ont porté une lettre ; elles
+sont dites faites, ou remplacées.
+
+### Soumises le 2026-09-26 — P1 à P4, Q1 à Q3
+
+- P1 — relier le site au corpus : une entrée « Corpus » dans la navigation de
+  toutes les pages, et un bloc sur l'accueil. L'ordre du 26 à 20 h la dit faite,
+  par des commits qu'il dit autorisés par elle : `07c272cf`, `e1b0943c`.
+- P2 — garder publique la page de diagnostic du corpus, ou l'exclure de la
+  publication ; recommandation : la garder. Aucun ordre du jour archivé ne la
+  dit rendue : elle n'est pas inscrite comme décision. La page est servie avec
+  le corpus, sur `main`.
+- P3 — la publication 2 : le renommage en cinq langues, le widget de
+  l'assistant et le lien vers le corpus, sans l'arabe et sans l'article sur le
+  climat. L'archive ne consigne pas la réponse ; la publication 2 est partie
+  sous cette forme le 27, voir R2.
+- P4 — écrire le Livre 0 de la première partie avant d'ouvrir la seconde.
+  L'archive ne consigne pas la réponse ; le Livre 0 a été écrit puis monté le
+  27, voir R4, S1 et T2.
+- Q1 — déposer sur le Drive l'archive du commit publié. Geste de l'auteur,
+  fait ; relevé à l'ordre du 27 à 8 h 45.
+- Q2 — ouvrir la demande de fusion de la publication 2 dès le contrôle de
+  Codex. Remplacée par R2.
+- Q3 — retenir six à dix questions pour le Livre 0. Devenue R4.
+
+### Rendues le 2026-09-27 au matin — R1 à R5
+
+- R1 — l'essai d'affichage à 120 %, par l'auteur, dans son navigateur :
+  conforme. La dernière réserve sur la publication 2 est levée par lui.
+- R2 — la demande de fusion de `publication-2-sur-main` vers `main`, puis la
+  fusion : faite par l'auteur le 27 à 6 h 04, `main` à `4e2b5a47`.
+- R3 — fusionner le 28 la demande n° 6, l'article sur le climat. Remplacée par
+  V1.
+- R4 — les questions du Livre 0 : tranchée par l'auteur, dix questions. Relevé :
+  `protocoles/livre-0-dix-questions-2026-09-27.md`.
+- R5 — l'archive sur le Drive : faite, comme Q1.
+
+### Rendues le 2026-09-27 à 9 h — S1 à S5
+
+- S1 — oui. Les huit entrées du Livre 0 que Codex avait lues avec réserve sont
+  corrigées en un lot, un commit.
+- S2 — tranchée à 9 h 30, et elle remplace la réponse de 9 h : `L0.C01` est
+  remplacé par une courte introduction de lecture, en `brouillon`, sans
+  renuméroter les dix entrées.
+- S3 — tranchée de même : les compteurs de L1.C29 § 6 sortent du corps,
+  remplacés par un bilan durable et un renvoi au diagnostic. L'arbitrage C29 Q1
+  est rouvert par l'auteur sur ce seul point. L'en-tête de L1.C29 le porte.
+- S4 — oui. `Codex/` et `tmp/` entrent dans `.gitignore`.
+- S5 — oui. La demande n° 6 le 28, par l'auteur. Remplacée par V1.
+
+### Rendues le 2026-09-27 à 14 h 15 — T1 à T4
+
+- T1 — oui. La phrase de L1.C29 § 6 sur les « seize audits » est commitée
+  après que Codex a vu le diff.
+- T2 — oui, sous condition écrite. `L0.C02` à `L0.C11` montent à `verifie` et
+  `citable` dès que Codex a écrit à l'ordre du jour « les dix entrées sont
+  conformes à leurs chapitres sources », sur l'état final. Son contrôle tient
+  lieu d'audit par l'autre famille de modèles ; sans cette ligne, rien ne
+  monte. Condition remplie le 27 ; montées : `eba0dfac`, `d40e83c3`.
+- T3 — oui. `L0.C01` reste en `brouillon`, hors publication. Aucun concept
+  inventé, aucune révision de la convention.
+- T4 — oui. Le 28 : la demande n° 6 d'abord, la branche de publication 3
+  ensuite, enracinée sur le nouveau `main`. Remplacée par V1 pour l'article,
+  par Z5 pour la publication 3.
+
+### Rendues le 2026-09-27 à 17 h — U1 et U2 ; et le cap, fixé à 17 h 30
+
+- U1 — oui. L'auteur confirme avoir dit en direct au moteur de corriger trois
+  passages de L1.C29 § 6 et de commiter. Le commit `dfd0babe` est régularisé.
+- U2 — oui. La règle 10 entre dans les règles d'engagement : un mot de l'auteur
+  donné en direct prime sur l'ordre du jour ; l'agent qui le reçoit le recopie
+  au compte rendu, entre guillemets, avant d'agir.
+- Le cap : le Livre 1 terminé le vendredi 2026-10-02. L'ordre du jour y attache
+  une règle : la date ne baisse pas la barre ; un énoncé qu'aucune pièce ne
+  tranche redescend en `::hypothese::` ; un chapitre qui n'est pas prêt le 2
+  reste `brouillon`, et il est nommé.
+
+Les ordres du jour ont écrit ce cap « C17 à C30 à `verifie` » du 27 au 29 à
+5 h 43. C'était inexact sur L1.C30 : D100, du 2026-09-17, le laisse
+`brouillon`, déclaré récit, et « terminé » vaut trente chapitres vérifiés.
+L'erreur est du rédacteur des ordres du jour, non de l'auteur ; elle est
+corrigée à l'ordre du 29 à 7 h 09. Restent à monter douze chapitres, L1.C17 à
+L1.C27 et L1.C29.
+
+### Rendues le 2026-09-28 à 8 h — V1, V3, V4, V5
+
+V2 est à la section précédente.
+
+- V1 — remplacée à 8 h 30. La demande n° 6 ne se fusionne pas : sa branche part
+  d'un état ancien de `main`. L'auteur autorise la branche
+  `article-climat-sur-main`, création et poussée ; il ouvre la demande depuis
+  elle et ferme la n° 6 sans la fusionner. Suite : demande n° 9 fusionnée le 28
+  à 17 h 25, `main` à `4a5242a8`.
+- V3 — oui. Les quatre vérifications de L1.C28 sont laissées bornées, et
+  soldées.
+- V4 — oui. Le moteur commite la note de tri des sources, complétée.
+- V5 — oui, par principe. Publication 3 : dès que Codex a écrit « rien ne
+  s'oppose », l'auteur fait l'essai visuel, ouvre la demande et fusionne, sans
+  nouvel ordre. Sans objet depuis Z5.
+
+### Rendues le 2026-09-28 à 18 h — W1 et W4
+
+W2 et W3 sont à la section précédente.
+
+- W1 — oui. L'auteur ferme la demande n° 6 sans la fusionner. Geste de
+  l'auteur ; la session qui écrit ce relevé ne peut pas en vérifier l'exécution.
+- W4 — oui. Publication 3 : une heure le 29 au matin ; au-delà, elle part le
+  vendredi avec la publication 4. Remplacée par Z5.
+
+### Mots de l'auteur donnés en direct le 2026-09-28 au soir
+
+- Le relais du moteur : « Tu va prendre le relais de Opus. J'ai de la marge
+  avec toi. On y va ! », puis « Prépare et amorce toutes les tâches qu'Opus
+  devra reprendre quand tu seras down ». Portée, telle que le relais l'a écrite
+  et tenue : les ordres du moteur, les commits et les poussées sur la branche
+  de développement, dans le cadre des décisions déjà rendues ; rien sur `main`,
+  aucune demande de fusion, aucune montée sans la ligne de Codex et le mot de
+  l'auteur.
+- L1.C25, reçu le 28 à 21 h 30 : « Je valide pour C25 le retrait des trois
+  annexes « BALAYAGE » du corps, avec conservation intégrale en commentaire
+  d'en-tête. Réintégrer ensuite uniquement ce que les pièces ouvertes portent
+  réellement, en distinguant la chronologie des inférences. Les chiffres du
+  vote de l'ONU attendent l'identification et la lecture de la pièce. Cette
+  validation n'autorise ni montée de statut ni publication. » L'en-tête de
+  L1.C25 le porte ; commit `e342e046`.
+
+### Soumises le 2026-09-29 à 5 h 43 — Y1 à Y5
+
+Aucune n'a été rendue sous ce nom. La section précédente dit ce qu'elles sont
+devenues.
+
+### Ce que ce relevé ne porte pas
+
+L'ordre du 28 à 17 h 45 dit que trois défauts d'outillage ont été réparés ce
+jour-là « sur mot direct de l'auteur », sans recopier ce mot : pages émises
+périmées, fins de ligne, date de modification du plan du site. Les commits
+existent — `c1c48c2e`, `e1129ee3`, `3767797f`, `a625c3ae` — ; le mot n'est pas
+au dossier, et rien n'est inscrit ici à sa place.
