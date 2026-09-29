@@ -1,5 +1,11 @@
 # Spécification de réécriture du texte de clôture — objet de L1.C30
 
+**MENTION DU 2026-09-29.** L1.C30 a reçu ce jour l'alignement borné que D100
+prévoyait. Son § 5 est retiré, sur la réponse de l'auteur au point C30 Q6 : les
+passages de cette spécification qui citent « L1.C30 § 5 » visent un état
+antérieur du chapitre, que git conserve. Ses anciens §§ 6 et 7 sont devenus les
+§§ 5 et 6. La formulation de remplacement du § 3.2 est retirée, voir plus bas.
+
 **Établie le 2026-09-13 par Claude, à la demande de l'auteur.** Elle porte sur
 le texte de clôture dont L1.C30 fait l'audit, et non sur le chapitre L1.C30
 lui-même. Rien n'est réécrit ici. Aucun fichier du corpus n'est modifié par ce
@@ -79,6 +85,14 @@ celle du texte : le dispositif **rendrait finançable** une réduction du temps 
 travail que les contraintes budgétaires actuelles rendent difficile, sans la
 produire lui-même. Plus modeste, plus solide, et elle ne s'expose pas à une
 réfutation immédiate.
+
+**REPRISE le 2026-09-29, sur la réponse de l'auteur au point C30 Q5 du dossier
+D107 : cette formulation de remplacement est retirée.** Elle confond le
+finançable et le réalisable, que L1.C31 § 1 sépare, et la réduction du temps de
+travail n'est pas un besoin essentiel au sens d'A44. Le motif ci-dessus reste :
+aucun mécanisme du dispositif ne produit cet effet. L1.C30 § 4 ne porte plus
+la formule ; il en porte la rétractation. Aucune formulation de remplacement
+n'est proposée à sa place : ce choix appartient à l'auteur.
 
 ### 3.3 Le choix de scénario
 
