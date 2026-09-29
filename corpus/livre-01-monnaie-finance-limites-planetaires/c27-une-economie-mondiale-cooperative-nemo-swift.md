@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-28
+revision_de_fond: 2026-09-29
 autorite: preparatoire
 citable: false
 regime: conception
@@ -60,6 +60,17 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # CRIBLE DU 2026-09-29, AVANT L'AUDIT DE CODEX. Quatre chapitres ont été refusés ce jour
+  # sur les mêmes motifs ; ils sont cherchés ici et corrigés, sans pièce nouvelle.
+  # DÉCISION DE CONCEPTION DU 2026-09-21 (registre, A35, A37 ; protocoles/passe-2.md, « D1
+  # inscrite »). Texte d'origine du § 5 : « l'institution verse par émission au moment du
+  # besoin ». « L'institution » des comptes de compensation est dite l'organe de
+  # compensation à sa première occurrence ; les comptes ne sont pas touchés.
+  # RENVOI PÉRIMÉ. Le § 6 écrivait du plan de Keynes que « L1.C25 établit qu'il a perdu à
+  # Bretton Woods sur la disposition qui aurait contraint les excédentaires » ; L1.C25 § 4,
+  # depuis sa passe du 28, tient l'issue pour rapportée par une seule leçon de cours.
+  # « Faute du portefeuille de comparaison » devient « faute de la comparaison […] qui n'a
+  # pas été conduite ».
   # RÈGLES V2 ET W2 DE L'AUTEUR, 2026-09-28. V2 : une pièce absente ne prête pas
   # son nom à un substitut ; l'énoncé est attribué « selon X, tel que le rapporte
   # Y », et l'entrée est Y. W2 : une question ouverte va en « Portée ». Les neuf
@@ -167,7 +178,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ::etat:: **Le mécanisme de règlement suppose que les deux parties soient membres** : il détruit la monnaie de l'importateur et crée celle de l'exportateur, ce qui exige que les deux banques centrales participent. Un membre qui importe d'un non-membre ne peut pas détruire une monnaie que le vendeur n'accepte pas de voir créée chez lui en contrepartie ; ce commerce se règle conventionnellement, avec des devises détenues. **La suppression des réserves de change est donc une propriété du commerce intrazone, non du dispositif**, et le gain croît avec la part des échanges réalisée avec d'autres membres.
 
-::etat:: **Ce que le règlement arrêté ajoute à cette description doit être écrit.** Les banques centrales membres tiennent un compte à l'institution ; leurs positions y sont bornées par des quotas assis sur les importations, avec un corridor et un plafond dur des deux côtés, et les parités se révisent par une règle annoncée. **En zone, la contrainte extérieure demeure et se traite par la compensation** : ce qui remplace les devises détenues n'est pas l'absence de contrainte, c'est une position suivie, bornée et assortie d'obligations.
+::etat:: **Ce que le règlement arrêté ajoute à cette description doit être écrit.** Les banques centrales membres tiennent un compte à l'institution — ici l'organe de compensation, que la décision de conception du 2026-09-21 distingue des banques centrales émettrices et qui n'est pas encore nommé (L1.C29 § 1) — ; leurs positions y sont bornées par des quotas assis sur les importations, avec un corridor et un plafond dur des deux côtés, et les parités se révisent par une règle annoncée. **En zone, la contrainte extérieure demeure et se traite par la compensation** : ce qui remplace les devises détenues n'est pas l'absence de contrainte, c'est une position suivie, bornée et assortie d'obligations.
 
 ::hypothese:: La correction joue dans les deux sens. Puisque le gain croît avec le nombre de membres, **le levier possède un effet de réseau positif** : chaque adhésion augmente la valeur de l'adhésion pour les suivants. Le levier est donc **faible au début et fort à la fin** — il ne peut pas servir à amorcer, seulement à consolider. Le levier qui doit amorcer est le troisième.
 
@@ -203,7 +214,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ::etat:: **Cette réponse est celle du livre, et le corpus n'en fait pas son mécanisme de rééquilibrage.** Ce qui traite désormais les déséquilibres est l'architecture de compensation arrêtée : comptes des banques centrales à l'institution, quotas, corridor et plafond, obligations automatiques des excédentaires, deux guichets financés par émission, deux procédures structurelles, et une règle de sortie des dettes durables. **Son verdict est scindé** : expérimentable en coalition sans condition pour les chocs passagers, et sous deux conditions déclarées non remplies pour les déséquilibres durables — mesurer l'inflation qu'importerait une dévaluation, obtenir l'adhésion de créanciers tenus d'avance. **Le prix est publié : l'exportateur paie**, par conversion de ses créances au-delà du plafond.
 
-::hypothese:: **Ce que la thèse du livre ajoute à cette architecture reste à établir, et le chapitre l'expose sans le trancher.** Trois lectures sont possibles et le corpus n'en retient aucune : le financement régénératif est un canal de rééquilibrage extérieur à part entière ; il est un complément de la compensation ; ou il n'est qu'un canal de financement, sans effet de rééquilibrage propre. **Seule la voie des guichets est décrite par des pièces arbitrées** : l'institution verse par émission au moment du besoin, le découvert est apuré par l'excédent du reflux, et le besoin structurel non apuré est compté en émission permanente. **Ce canal porte sur les importations essentielles ; sa capacité est bornée par la condition de bouclage macroéconomique, et par ce que l'exportateur accepte de perdre.**
+::hypothese:: **Ce que la thèse du livre ajoute à cette architecture reste à établir, et le chapitre l'expose sans le trancher.** Trois lectures sont possibles et le corpus n'en retient aucune : le financement régénératif est un canal de rééquilibrage extérieur à part entière ; il est un complément de la compensation ; ou il n'est qu'un canal de financement, sans effet de rééquilibrage propre. **Seule la voie des guichets est décrite par des pièces arbitrées** : le versement se fait par émission au moment du besoin — celle des banques centrales participantes, depuis la décision de conception du 2026-09-21, et non celle d'une institution internationale —, le découvert est apuré par l'excédent du reflux, et le besoin structurel non apuré est compté en émission permanente. **Ce canal porte sur les importations essentielles ; sa capacité est bornée par la condition de bouclage macroéconomique, et par ce que l'exportateur accepte de perdre.**
 
 ::etat:: **La face favorable subsiste, et il faut l'accorder.** Un pays riche en fonds naturels fonctionnels et faiblement industrialisé disposerait d'une source de liquidité extérieure indépendante de sa capacité à exporter des marchandises. **Le dispositif rémunère ce que le système existant ne compte pas**, au bénéfice de ceux qui en supportent aujourd'hui le coût sans contrepartie. C'est la réponse la plus solide du livre à l'objection extractiviste, parce qu'elle fournit une alternative à l'exportation de ressources plutôt qu'une exhortation à s'en abstenir.
 
@@ -227,7 +238,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ## 8. Ce que le rééquilibrage arrêté doit à des précédents
 
-::etat:: **Le volet international du dispositif n'est pas sans antériorité, et le chapitre doit le porter.** Le rééquilibrage arrêté reprend des mécanismes que d'autres ont proposés ou pratiqués : le plan présenté par Keynes en 1943, dont L1.C25 établit qu'il a perdu à Bretton Woods sur la disposition qui aurait contraint les excédentaires ; l'Union européenne des paiements, qui réalisait une compensation multilatérale économe en réserves ; et l'accord de Londres de 1953 sur les dettes allemandes. **Ce que le dispositif ajoute à ces précédents n'est pas établi**, faute du portefeuille de comparaison qu'exige le test de l'apport propre.
+::etat:: **Le volet international du dispositif n'est pas sans antériorité, et le chapitre doit le porter.** Le rééquilibrage arrêté reprend des mécanismes que d'autres ont proposés ou pratiqués : le plan présenté par Keynes en 1943, dont L1.C25 § 4 rapporte, d'après une seule leçon de cours, qu'il n'a pas prévalu (brouillon ; pièce ouverte là-bas) ; l'Union européenne des paiements, qui réalisait une compensation multilatérale économe en réserves ; et l'accord de Londres de 1953 sur les dettes allemandes. **Ce que le dispositif ajoute à ces précédents n'est pas établi**, faute de la comparaison qu'exige le test de l'apport propre, et qui n'a pas été conduite.
 
 ::hypothese:: **La différence que le corpus peut nommer sans la chiffrer** est que les obligations des excédentaires y sont automatiques et consenties à l'adhésion, là où le plan de Keynes les laissait à la négociation. C'est une différence de conception, non un apport mesuré.
 
