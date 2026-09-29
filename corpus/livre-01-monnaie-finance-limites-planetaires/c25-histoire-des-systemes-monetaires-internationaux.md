@@ -89,6 +89,10 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-29
 verifications_en_attente: []
+  # DÉCISION Z4 DE L'AUTEUR, rendue le 2026-09-29 : LE § 5, aligné le 2026-09-28 sur L1.C24 § 4 — le
+  # dispositif arbitré s'ajoute au système, il ne le remplace pas —, EST GARDÉ. Cet alignement allait
+  # au-delà de la lettre de l'accord du 28 sur les annexes ; il était porté sous `::hypothese::` et
+  # signalé pour contrôle ou retrait. Mot de l'auteur, recopié : « Je valide Z1 à Z5 ».
   # RÈGLES V2 ET W2 DE L'AUTEUR, 2026-09-28. Les six lignes de ce chapitre sont traitées
   # plus bas ; leur texte d'origine est conservé. `verifie` dit « sourcé et borné », non
   # « résolu ».
