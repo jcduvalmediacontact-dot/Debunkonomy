@@ -6,28 +6,48 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-09-30
 autorite: preparatoire
 citable: false
 regime: hybride
 sources_primaires:
-  - ref: S1
+  - ref: S5
     nature: donnees
-    reference: "**Programme des Nations unies pour l'environnement, « Global Resources Outlook 2024 », rapport du Groupe international d'experts sur les ressources — OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-09-07, exemplaire du Drive de l'auteur. DROITS, LUS SUR LA PAGE DE GARDE** : « This publication may be reproduced in whole or in part and in any form **for educational or non-profit services** without special permission [...] provided acknowledgement of the source is made » ; **« No use of this publication may be made for resale or any other COMMERCIAL PURPOSE whatsoever without prior permission in writing ».** **La clause non commerciale est incompatible avec la licence CC-BY-SA du corpus** : régime **`citation_seule`**, comme les documents comptables internationaux et la source de L24.C01. **CE QUE LE RAPPORT ÉTABLIT, PREMIER RÉSULTAT** : « **Extraction and processing of material resources** (fossil fuels, minerals, non-metallic minerals and biomass) **account for OVER 55 PER CENT of greenhouse gas emissions and 40 PER CENT of particulate matter health related impacts.** If land use change is considered, climate impacts grow to **more than 60 per cent**, with biomass contributing the most (**28 %**), followed by fossil fuels (**18 %**) and then non-metallic minerals and metals (together **17 %**). **Biomass (agricultural crops and forestry) also account for OVER 90 PER CENT of the total land use related BIODIVERSITY LOSS AND WATER STRESS.** All environmental impacts are on the rise. »"
-    etat_lecture: a_requalifier
-  - ref: S2
-    nature: donnees
-    reference: "**Même rapport — LES GRANDEURS. CROISSANCE** : « Material use has increased **more than three times over the last 50 years**. It continues to grow by an average of **more than 2.3 per cent per year**. » **PROJECTION** : « material resource extraction could increase by **almost 60 per cent from 2020 levels by 2060, from 100 to 160 BILLION TONNES**, **far exceeding what is required to meet essential human needs for all in line with the SDGs** ». **CONCENTRATION DES USAGES** : « The **built environment and mobility systems** are the leading drivers of rising demand, followed by **food and energy systems**. Combined, these systems account for about **90 per cent of global material demand.** » **DÉCOUPLAGE** : « There has so far been **NO EVIDENCE OF WIDESPREAD ABSOLUTE DECOUPLING at the global level.** » **TRANSITION** : « To stay below a 2 °C temperature rise by 2050, we will need **over three billion tonnes of energy transition minerals and metals** for wind power, solar and more. **Aiming for 1.5 °C TO MAXIMIZE CLIMATE JUSTICE would mean even greater demand.** »"
-    etat_lecture: a_requalifier
-  - ref: S3
-    nature: donnees
-    reference: "**Même rapport — L'INÉGALITÉ, ET C'EST LA THÈSE DU CORPUS CHIFFRÉE.** « **High-income countries use SIX TIMES MORE MATERIALS PER CAPITA and are responsible for TEN TIMES MORE CLIMATE IMPACTS PER CAPITA than low-income countries.** This inequality must be addressed as a **core element** of any global sustainability effort. » **Et le mécanisme est nommé** : « Through global trade, **high-income countries DISPLACE environmental impacts to all other income country groups.** » **Le rapport ajoute que le pied matériel par habitant des pays à haut revenu « has remained relatively constant since 2000 », que celui des pays à revenu intermédiaire supérieur « has more than doubled [...] approaching high-income levels », et que celui des pays à faible revenu est resté « comparatively low and almost unchanged since 1995 »**"
-    etat_lecture: a_requalifier
-  - ref: S4
-    nature: donnees
-    reference: "**Même rapport — LA DEMANDE, ET C'EST LE CHIFFRAGE QUE F10 ATTENDAIT.** « **We REJECT the assumption that meeting essential human needs should be resource-intensive.** Structurally lowering or avoiding resource-intensive demand in high consumption contexts is necessary. » **CHIFFRES DONNÉS, À L'HORIZON 2060 ET PAR RAPPORT AUX TENDANCES ACTUELLES** : mobilité — « Reducing the need for mobility and enabling mobility through shared and active transport can reduce related **material stock requirements (−50 per cent), energy demands (−50 per cent) and GHG emissions (−60 per cent)** » ; bâtiment — « Compact and balanced neighbourhoods using more recycled building content, lifespan extension and other circular economy measures can **decrease building material stocks by 25 per cent by 2060**, which leads to a **30 per cent decrease in energy demand and 30 per cent decrease in GHG emissions** » ; alimentation — les changements de régime peuvent « decrease the land needed for food by **five per cent** by 2060 ». **OBSTACLES ÉNUMÉRÉS PAR LE RAPPORT** : « **Harmful subsidies being the norm** » ; « **Financialization of the commodity markets, which drives unsustainable resource extraction** » ; « Business models do not account for resource use-related risks » ; « Concentration of decision-making power in business conglomerates »"
-    etat_lecture: a_requalifier
-verifications_en_attente:
+    reference: "Programme des Nations unies pour l'environnement, Panel international des ressources, Global Resources Outlook 2024. Bend the Trend: Pathways to a liveable planet as resource use spikes, Nairobi, 2024, ISBN 978-92-807-4128-5. ENTRÉE CRÉÉE le 2026-09-30 : les anciennes entrées S1 à S4, `a_requalifier`, portaient ce rapport en quatre morceaux, dont trois sous la mention Même rapport ; elles sont retirées, aucun numéro n'est réattribué. OUVERTE le 2026-09-30 sur l'exemplaire déjà ouvert en L1.C02 [S5] (2026-09-15/c02/S5-unep-gro2024-full-report.pdf, 181 pages, 14 349 983 octets, SHA-256 D068E5A9DF8BABBE6261DC574EAE3D2842F3C19F5DD61F565F26ADE677E0AFB7) ; deux autres exemplaires du Codex, de tailles différentes, ne sont pas employés. DROITS, lus en page ii : « This publication may be reproduced in whole or in part and in any form for educational or non-profit services » avec attribution, et « No use of this publication may be made for resale or any other commercial purpose whatsoever without prior permission in writing » ; citation courte. LU le 2026-09-30 : l'avant-propos (folio ix), les messages clés (folios xiv et xv) et le tableau des obstacles du chapitre 1 (folio 9). NON LU : le corps du rapport, dont la méthode des scénarios, et ses annexes. Folios imprimés, en chiffres romains pour les liminaires ; FOLIO ARABE = PAGE DU FICHIER MOINS 18 ; extraction pdftotext -raw. Passages lus, au mot. « To stay below a 2°C temperature rise by 2050, we will need over three billion tonnes of energy transition minerals and metals for wind power, solar and more » ; « Aiming for 1.5°C to maximize climate justice would mean even greater demand » (folio ix) ; « account for over 55 per cent of greenhouse gas emissions (GHG) and 40 per cent of particulate matter health related impacts » ; « If land use change is considered, climate impacts grow to more than 60 per cent » ; « with biomass contributing the most (28 per cent) followed by fossil fuels (18 per cent) and then non-metallic minerals and metals (together 17 per cent) » ; « also account for over 90 per cent of the total land use related biodiversity loss and water stress » ; « Material use has increased more than three times over the last 50 years » ; « It continues to grow by an average of more than 2.3 per cent per year » ; « could increase by almost 60 per cent from 2020 levels by 2060, from 100 to 160 billion tonnes » ; « far exceeding what is required to meet essential human needs for all in line with the SDGs » ; « The built environment and mobility systems are the leading drivers of rising demand, followed by food and energy systems » ; « account for about 90 per cent of global material demand » ; « There has so far been no evidence of widespread absolute decoupling at the global level » ; « High-income countries use six times more materials per capita and are responsible for ten times more climate impacts per capita than low-income countries » ; « a core element of any global sustainability effort » ; « has remained relatively constant since 2000 » ; « have more than doubled their material footprint per capita approaching high-income levels » ; « Through global trade, high-income countries displace environmental impacts to all other income country groups » ; « has remained comparatively low and almost unchanged since 1995 » (folio xiv) ; « We reject the assumption that meeting essential human needs should be resource-intensive. Structurally lowering or avoiding resource-intensive demand in high consumption contexts is necessary » ; « material stock requirements (−50 per cent), energy demands (−50 per cent) and GHG emissions (−60 per cent) » ; « decrease building material stocks by 25 per cent by 2060 » ; « 30 per cent decrease in energy demand and 30 per cent decrease in GHG emissions » ; « decrease the land needed for food by five per cent » ; « reflecting the true costs of resources in the structure of the economy » ; « redirecting of finance » (folio xv) ; « Harmful subsidies being the norm » ; « Financialization of the commodity markets, which drives unsustainable resource extraction » ; « Business models do not account for resource use-related risks » ; « Concentration of decision-making power in business conglomerates » (folio 9). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : trois choses. Ses gains chiffrés sur la demande sont des sorties de scénarios à l'horizon 2060, dont la méthode n'est pas lue. Elle ne fait pas de la matière une mesure d'impact : elle attribue des parts d'impact différentes selon les ressources. Et elle oppose au dispositif une voie sans monnaie nouvelle, qu'elle dit bloquée par les subventions et la financiarisation ; le corpus ne peut en tirer ni la superfluité du dispositif ni sa nécessité. INEXACTITUDES DE RECOPIE RELEVÉES ET CORRIGÉES au corps : « (GHG) » omis sans marque ; « 1.5 °C » pour « 1.5°C » ; « has more than doubled » pour « have more than doubled »."
+    url: "https://www.unep.org/resources/Global-Resource-Outlook-2024"
+    etat_lecture: ouverte
+    date_verification: 2026-09-30
+verifications_en_attente: []
+  # PASSE DE SOURCES DU 2026-09-30 — lot 2 de l'anneau du Livre 1, sur l'ordre de l'auteur du
+  # 2026-09-30 (« OUI ! », 20 h 30, à la réponse rédigée par Fable). Règles V2 et W2 de
+  # l'auteur (2026-09-28), règle 12 de l'ordre du jour, règle éditoriale du 2026-09-08.
+  # STATUT INCHANGÉ. Sept sections, numéros conservés ; aucun chapitre ne vise un numéro de
+  # section de celui-ci.
+  # FERMETURES : aucune ne vise le rapport du PNUE.
+  # CE QUE LE LIVRE 1 ÉCRIT DE CE CHAPITRE. L1.C31, vérifié : « L18.C09 et L24.C03 en ont
+  # déplacé la question vers la mobilisation de ressources réelles ». Le § 6 porte le
+  # déplacement de F10 — de la nécessité d'une monnaie à ce qui débloque des mesures
+  # chiffrées — et le rattache à cet énoncé.
+  # QUATRE ENTRÉES RETIRÉES, `a_requalifier`, le même rapport en quatre morceaux ; leurs
+  # occurrences demeurent au manifeste, aucun numéro n'est réattribué. UNE ENTRÉE CRÉÉE ET
+  # OUVERTE : S5, sur l'exemplaire de L1.C02.
+  # DÉCISION DE CONCEPTION DU 2026-09-21 : le § 5 dit que le reflux est perçu par les banques
+  # centrales participantes, et que l'architecture du prélèvement n'est pas arrêtée.
+  # TROIS INEXACTITUDES DE RECOPIE, corrigées au corps et inscrites à l'entrée S5. Une
+  # quatrième dans une citation de l'auteur : « des reflux graduellement plus forts » pour
+  # « des reflux (fontes) graduellement plus forts » (L10.C06, en tête du corps) ; corrigée.
+  # CORRECTIONS DE RÉDACTION, dont la trace est ici et non au corps :
+  #   chapeau — « il en tire un résultat qui modifie F13 posé le jour même » : F13 est dit
+  #   proposé et non arbitré, et borné, non modifié.
+  #   § 3 — « documentée deux fois en deux chapitres et par deux sources indépendantes »,
+  #   « 4,2 millions par an » : compteur et chiffre recopiés de L24.C02 retirés.
+  #   § 4 — « l'un des résultats les plus utiles de la journée » : retiré.
+  #   § 6 — « le corpus n'a toujours pas ouvert la réforme des subventions dommageables,
+  #   qu'il tient depuis longtemps pour la seule acquisition capable de lever F10 » : renvoi
+  #   à L18.C09 § 3, où la question est lue depuis.
+  #   Les capitales d'insistance sont ramenées au gras ; les renvois donnent l'état de lecture.
+  # RENVOIS : L1.C08, L1.C31, L10.C06, L18.C09, L22.C04, que le corps cite, entrent dans la
+  # liste ; les autres y restent, et cette passe ne les a pas examinés.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # Ce chapitre ferme la troisième question ouverte de L24.C01 — les matériaux
   # ne figurent pas dans le cadre des limites planétaires — et il vérifie sur
@@ -37,106 +57,112 @@ verifications_en_attente:
   # DÉTERMINANT COMMUN des neuf dimensions. Il n'établit PAS qu'elle en soit une
   # MESURE, et il marque le passage plutôt que de le franchir.
   #
-  - "**LES SCÉNARIOS NE SONT PAS DES FAITS, ET LE CHAPITRE S'INTERDIT DE LES
-     TRAITER COMME TELS.** Les gains chiffrés du § 5 sont des sorties de
-     modèle à l'horizon 2060, comparées à des tendances historiques. **Le corpus
-     n'a ouvert ni le modèle, ni ses hypothèses, ni ses intervalles.** **À
-     ouvrir : la description méthodologique des scénarios**, avant tout emploi
-     de ces pourcentages dans une comparaison avec le dispositif."
-  - "**LE PIED MATÉRIEL N'EST PAS UN INDICATEUR NEUTRE.** Il agrège des tonnes
-     de biomasse, de minerais et de combustibles dont les effets diffèrent d'un
-     ordre de grandeur. **Le § 4 en fait un levier commun ; il ne prétend pas en
-     faire une mesure d'impact.** **À instruire : ce que vaut une tonne
-     agrégée**, et par quels facteurs il faudrait la pondérer — question qui
-     rejoint exactement L11.C13."
-  - "**AUCUNE DONNÉE DE STOCK.** Le rapport donne des flux d'extraction ; **le
-     corpus ne tient aucune donnée de RÉSERVES**, ni pour les minéraux de la
-     transition ni pour les autres. **C'est le Livre 26 qui devra les
-     établir**, et sans elles la contrainte physique reste une contrainte de
-     débit et non d'épuisement."
-  - "**LA RÉFORME DES SUBVENTIONS DOMMAGEABLES RESTE NON OUVERTE.** Le rapport
-     la nomme comme premier obstacle — « harmful subsidies being the norm » —
-     et le corpus a déjà déclaré que **c'est la seule acquisition qui lèverait
-     F10.** **Elle reste à faire, et ce chapitre en augmente l'urgence.**"
-resume: "Ce chapitre ferme la troisième question que le premier chapitre du livre avait laissée ouverte, celle des matériaux, absents du cadre des limites planétaires alors qu'ils sont la matière même de l'économie. Il ouvre le rapport du programme des Nations unies pour l'environnement, en vérifie sur pièce le chiffre que le corpus portait depuis un autre livre, et il en tire un résultat qui modifie la portée du falsifieur posé le jour même. L'extraction et la transformation des ressources matérielles comptent pour plus de la moitié des émissions de gaz à effet de serre, pour quarante pour cent des effets sanitaires des particules, et la biomasse seule pour plus de neuf dixièmes de la perte de biodiversité et du stress hydrique liés à l'usage des terres. Les neuf dimensions n'ont donc pas d'unité commune mais elles ont un déterminant commun, et ce déterminant se compte en tonnes. Le chapitre en tire que le dispositif dispose d'une assiette pour son reflux, graduée par l'intensité matérielle de la consommation, ce que l'arbitrage de l'auteur suggérait sans le fonder, mais qu'il ne dispose toujours pas d'une échelle pour son émission, puisque réduire un tonnage n'est pas restaurer un milieu. Il enregistre enfin, contre le dispositif, que la même source chiffre des gains considérables obtenus par la seule action sur la demande, sans monnaie nouvelle, ce qui est la forme la plus documentée que le falsifieur de la superfluité ait reçue."
+  # DÉPLACÉE VERS « PORTÉE » le 2026-09-30 — RÈGLE W2. Le § 6 écrit « Ce sont des sorties de scénarios, non des mesures », et le § 7 « Les scénarios de l'horizon 2060 ne sont pas ouverts dans leur méthode ».
+  # Texte d'origine :
+  #   - "**LES SCÉNARIOS NE SONT PAS DES FAITS, ET LE CHAPITRE S'INTERDIT DE LES
+  #   TRAITER COMME TELS.** Les gains chiffrés du § 5 sont des sorties de
+  #   modèle à l'horizon 2060, comparées à des tendances historiques. **Le corpus
+  #   n'a ouvert ni le modèle, ni ses hypothèses, ni ses intervalles.** **À
+  #   ouvrir : la description méthodologique des scénarios**, avant tout emploi
+  #   de ces pourcentages dans une comparaison avec le dispositif."
+  # DÉPLACÉE VERS « PORTÉE » le 2026-09-30 — AU CORPS, et déplacée vers « Portée » pour ce qui reste à instruire (règle W2). Le § 4 écrit « Le chapitre établit que la matière est un déterminant ; il n'établit pas qu'elle soit une mesure » et cite, sur pièce, les parts d'impact différentes selon les ressources ; il écrit « Ce que vaut une tonne agrégée, et par quoi la pondérer, reste à instruire ».
+  # Texte d'origine :
+  #   - "**LE PIED MATÉRIEL N'EST PAS UN INDICATEUR NEUTRE.** Il agrège des tonnes
+  #   de biomasse, de minerais et de combustibles dont les effets diffèrent d'un
+  #   ordre de grandeur. **Le § 4 en fait un levier commun ; il ne prétend pas en
+  #   faire une mesure d'impact.** **À instruire : ce que vaut une tonne
+  #   agrégée**, et par quels facteurs il faudrait la pondérer — question qui
+  #   rejoint exactement L11.C13."
+  # DÉPLACÉE VERS « PORTÉE » le 2026-09-30 — RÈGLE W2. Le § 7 écrit « le corpus ne tient aucune donnée de réserves, seulement des flux d'extraction ».
+  # Texte d'origine :
+  #   - "**AUCUNE DONNÉE DE STOCK.** Le rapport donne des flux d'extraction ; **le
+  #   corpus ne tient aucune donnée de RÉSERVES**, ni pour les minéraux de la
+  #   transition ni pour les autres. **C'est le Livre 26 qui devra les
+  #   établir**, et sans elles la contrainte physique reste une contrainte de
+  #   débit et non d'épuisement."
+  # DÉPLACÉE VERS « PORTÉE » le 2026-09-30 — RÈGLE 12 ET W2. Le § 6 renvoie à L18.C09 § 3, en brouillon, qui lit sur pièce, ouverte là-bas, ce qu'un rapport du PNUE dit de cette réforme ; il écrit « l'histoire de ces réformes n'est pas au dossier ». « La seule acquisition qui lèverait F10 » sort : ce n'est pas établi.
+  # Texte d'origine :
+  #   - "**LA RÉFORME DES SUBVENTIONS DOMMAGEABLES RESTE NON OUVERTE.** Le rapport
+  #   la nomme comme premier obstacle — « harmful subsidies being the norm » —
+  #   et le corpus a déjà déclaré que **c'est la seule acquisition qui lèverait
+  #   F10.** **Elle reste à faire, et ce chapitre en augmente l'urgence.**"
+resume: "Ce chapitre lit le rapport de deux mille vingt-quatre du Panel international des ressources sur l'usage mondial des ressources matérielles, dans ses messages clés, son avant-propos et le tableau de ses obstacles, et il y vérifie le chiffre que le corpus portait depuis un autre livre, plus de trois milliards de tonnes de minéraux pour la transition, auquel le rapport ajoute que viser la limite la plus juste en demanderait davantage. L'extraction et la transformation des ressources comptent pour plus de la moitié des émissions de gaz à effet de serre et pour une part majeure des effets sanitaires des particules, et la biomasse pour plus de neuf dixièmes de la perte de biodiversité et du stress hydrique liés à l'usage des terres ; l'usage de matière a plus que triplé en cinquante ans, aucun découplage absolu n'est constaté, et les pays à haut revenu consomment six fois plus de matière par habitant que les pays à faible revenu, pour dix fois plus d'impacts climatiques. Le chapitre en tire que les dimensions des limites planétaires n'ont pas d'unité commune mais un déterminant commun, qui se compte en tonnes, et que le dispositif y trouve une assiette pour son reflux, graduée par l'intensité matérielle de la consommation comme l'auteur l'écrivait en arrêtant A35, mais aucune échelle pour son émission, réduire un tonnage n'étant pas restaurer un milieu. Il enregistre enfin, contre le dispositif, que la même source chiffre par scénarios des gains considérables obtenus par la seule action sur la demande, sans monnaie nouvelle, et dit ces mesures bloquées par les subventions dommageables et la financiarisation des marchés de matières premières, ce qui déplace le falsifieur de la superfluité vers ce qui débloque des mesures dont l'effet est chiffré."
 concepts: [limites_planetaires, decouplage, effet_rebond, sobriete, entropie, plafond_ecologique, externalisation, degeneratif]
-renvois: [L1.C15, L11.C13, L17.C01, L18.C04, L24.C01, L24.C02, L26.C01]
+renvois: [L1.C08, L1.C15, L1.C31, L10.C06, L11.C13, L17.C01, L18.C04, L18.C09, L22.C04, L24.C01, L24.C02, L26.C01]
 ---
 
 # La matière, et le levier commun que les neuf dimensions n'avaient pas
 
-::etat:: **L24.C01 déclarait que les matériaux ne figurent pas dans le cadre des limites planétaires, alors qu'ils sont la matière même de l'économie.** **Ce chapitre les instruit, et il en tire un résultat qui modifie F13 posé le jour même.**
+::etat:: Ce chapitre lit le rapport du Panel international des ressources du Programme des Nations unies pour l'environnement (PNUE), *Global Resources Outlook 2024*, dans ses messages clés, son avant-propos et le tableau des obstacles de son premier chapitre. **Il établit que l'extraction et la transformation des ressources matérielles déterminent une part majoritaire des pressions que le cadre des limites planétaires mesure dimension par dimension, et il en tire une asymétrie pour le dispositif : une assiette pour le reflux, aucune échelle pour l'émission.** L24.C01, en brouillon, déclarait que les matériaux ne figurent pas dans ce cadre ; ce chapitre instruit cette question.
 
-::etat:: **DROITS.** Le rapport autorise la reproduction « for educational or non-profit services » avec attribution, **et l'interdit pour tout usage commercial sans autorisation écrite** [S1]. **La clause est incompatible avec la licence du corpus : régime citation seule, comme les documents comptables internationaux.**
+::etat:: **Ce que le Livre 1 fait porter à ce chapitre.** L1.C31, vérifié, écrit que le falsifieur de la superfluité, F10, « reste ouvert : L18.C09 et L24.C03 en ont déplacé la question vers la mobilisation de ressources réelles, mais aucun portefeuille concurrent n'a encore été construit ». Le § 6 dit ce que ce chapitre porte de ce déplacement.
+
+::etat:: **Droits.** Le rapport autorise la reproduction « for educational or non-profit services » avec attribution, et écrit : « No use of this publication may be made for resale or any other commercial purpose whatsoever without prior permission in writing » [S5]. La clause est incompatible avec la licence du corpus : citation courte seulement.
 
 ## 1. Le chiffre que le corpus portait est vérifié
 
-::etat:: **L18.C04 tenait, depuis son écriture, que la transition exige plus de trois milliards de tonnes de minéraux.** **Le texte le dit ainsi** [S2] : « To stay below a 2 °C temperature rise by 2050, we will need **over three billion tonnes of energy transition minerals and metals** for wind power, solar and more. »
+::etat:: **L18.C04, en brouillon, tient que la transition exige plus de trois milliards de tonnes de minéraux.** L'avant-propos du rapport le dit ainsi : « To stay below a 2°C temperature rise by 2050, we will need over three billion tonnes of energy transition minerals and metals for wind power, solar and more » [S5].
 
-::etat:: **Et il ajoute une phrase que le corpus n'avait pas et qui chaîne avec L24.C02** : « **Aiming for 1.5 °C TO MAXIMIZE CLIMATE JUSTICE would mean EVEN GREATER DEMAND.** »
+::etat:: **Et il ajoute une phrase qui touche la justice climatique** : « Aiming for 1.5°C to maximize climate justice would mean even greater demand » [S5].
 
-::hypothese:: **Le corpus enregistre la tenaille et elle est propre à ce livre.** **Viser la limite juste plutôt que la limite sûre — ce que L24.C02 établit comme l'exigence d'un dispositif qui se réclame de la justice — AUGMENTE la demande de minéraux.** **La justice climatique coûte de la matière, et le corpus ne peut pas présenter les deux objectifs comme convergents sans le dire.**
+::hypothese:: **Le corpus enregistre la tenaille.** Viser la limite juste plutôt que la limite sûre, ce que L24.C02, en brouillon, tient pour l'exigence d'un dispositif qui se réclame de la justice, augmente la demande de minéraux. La justice climatique coûte de la matière, et le corpus ne peut pas présenter les deux objectifs comme convergents sans le dire.
 
 ## 2. Les grandeurs, et l'excès est documenté comme excès
 
-::etat:: **Croissance** [S2] : l'usage de matière a « increased **more than three times over the last 50 years** » et croît de « **more than 2.3 per cent per year** ». **Projection** : l'extraction pourrait croître « by almost 60 per cent from 2020 levels by 2060, **from 100 to 160 billion tonnes** ».
+::etat:: **Croissance.** « Material use has increased more than three times over the last 50 years. It continues to grow by an average of more than 2.3 per cent per year » [S5]. **Projection** : l'extraction « could increase by almost 60 per cent from 2020 levels by 2060, from 100 to 160 billion tonnes » [S5].
 
-::etat:: **Et la source qualifie elle-même ce niveau** : « **far exceeding what is required to meet essential human needs for all in line with the SDGs** » [S2].
+::etat:: **La source qualifie elle-même ce niveau** : « far exceeding what is required to meet essential human needs for all in line with the SDGs » [S5].
 
-::hypothese:: **Le corpus retient la formulation parce qu'elle fait un travail que ses propres chapitres ne faisaient pas.** **Elle ne dit pas que c'est trop ; elle dit que c'est plus que ce qu'il faut pour couvrir les besoins essentiels de tous.** **C'est une comparaison à une référence, et le corpus en manquait une.**
+::hypothese:: **Le corpus retient la formulation parce qu'elle donne une référence.** Elle ne dit pas que c'est trop : elle dit que c'est plus que ce qu'il faut pour couvrir les besoins essentiels de tous.
 
-::etat:: **Concentration des usages** [S2] : bâti et mobilité en tête, puis alimentation et énergie — **ensemble environ 90 % de la demande matérielle mondiale.** **Quatre systèmes.**
+::etat:: **Concentration des usages.** « The built environment and mobility systems are the leading drivers of rising demand, followed by food and energy systems », et ces systèmes réunis « account for about 90 per cent of global material demand » [S5].
 
-::etat:: **Découplage** [S2] : « There has so far been **no evidence of widespread absolute decoupling at the global level.** » **Le corpus tenait le concept ; il tient désormais l'état du constat.**
+::etat:: **Découplage.** « There has so far been no evidence of widespread absolute decoupling at the global level » [S5]. L1.C08, vérifié, cite ce passage sur la même pièce.
 
 ## 3. L'inégalité, et c'est la thèse du corpus chiffrée
 
-::etat:: « **High-income countries use SIX TIMES more materials per capita and are responsible for TEN TIMES more climate impacts per capita than low-income countries.** » **Et le rapport en fait « a core element of any global sustainability effort »** [S3].
+::etat:: « High-income countries use six times more materials per capita and are responsible for ten times more climate impacts per capita than low-income countries », et le rapport en fait « a core element of any global sustainability effort » [S5].
 
-::etat:: **Le mécanisme est nommé** : « Through global trade, **high-income countries DISPLACE environmental impacts to all other income country groups** » [S3].
+::etat:: **Le mécanisme est nommé** : « Through global trade, high-income countries displace environmental impacts to all other income country groups » [S5].
 
-::etat:: **Les trajectoires diffèrent** : le pied matériel par habitant des pays à haut revenu est « relatively constant since 2000 » ; **celui des pays à revenu intermédiaire supérieur a plus que doublé et approche celui des pays à haut revenu** ; celui des pays à faible revenu est « comparatively low and almost unchanged since 1995 » [S3].
+::etat:: **Les trajectoires diffèrent.** Le pied matériel par habitant des pays à haut revenu « has remained relatively constant since 2000 » ; les pays à revenu intermédiaire supérieur « have more than doubled their material footprint per capita approaching high-income levels » ; celui des pays à faible revenu « has remained comparatively low and almost unchanged since 1995 » [S5].
 
-::hypothese:: **Le corpus enregistre que sa proposition centrale est documentée deux fois en deux chapitres et par deux sources indépendantes.** **L24.C02 la donnait en morts — 4,2 millions par an, ceux qui subissent polluant moins.** **Ce chapitre la donne en tonnes et en facteur : six et dix.**
+::hypothese:: **La proposition centrale du corpus est ainsi documentée par deux chapitres, sur deux pièces.** L24.C02, en brouillon, la donne en décès ; ce chapitre la donne en tonnes et en facteur.
 
-## 4. Le résultat qui modifie F13 : pas d'unité commune, mais un déterminant commun
+## 4. Pas d'unité commune, mais un déterminant commun
 
-::etat:: **Le premier résultat du rapport est celui-ci** [S1] : « **Extraction and processing of material resources** [...] **account for over 55 per cent of greenhouse gas emissions and 40 per cent of particulate matter health related impacts.** If land use change is considered, climate impacts grow to **more than 60 per cent** [...]. **Biomass** (agricultural crops and forestry) also account for **over 90 per cent of the total land use related biodiversity loss and water stress.** »
+::etat:: **Le premier message clé du rapport est celui-ci** : l'extraction et la transformation des ressources matérielles « account for over 55 per cent of greenhouse gas emissions (GHG) and 40 per cent of particulate matter health related impacts. If land use change is considered, climate impacts grow to more than 60 per cent », la biomasse y contribuant le plus ; et la biomasse « also account for over 90 per cent of the total land use related biodiversity loss and water stress » [S5].
 
-::hypothese:: **Le corpus tient là ce qui manquait à L24.C01, et ce n'est pas une unité de compte.** **Les neuf dimensions n'ont toujours aucune commune mesure — F13 est intact sur ce point.** **Mais elles ont un DÉTERMINANT COMMUN, et il se compte en tonnes.**
+::hypothese:: **Le corpus tient là ce qui manquait à L24.C01, et ce n'est pas une unité de compte.** Les dimensions du cadre des limites planétaires n'ont toujours aucune commune mesure, et F13, le falsifieur de l'incommensurabilité, proposé et non arbitré, est intact sur ce point. Mais elles ont un déterminant commun, et il se compte en tonnes : l'absence d'unité commune n'implique pas l'absence de levier commun. On ne peut pas convertir de l'azote en carbone ; on peut agir sur ce qui produit les deux.
 
-::hypothese:: **L'absence d'unité commune n'implique donc pas l'absence de levier commun.** **On ne peut pas convertir de l'azote en carbone ; on peut agir sur ce qui produit les deux.** **Le corpus enregistre cette distinction comme l'un des résultats les plus utiles de la journée.**
-
-::etat:: **RÈGLE « LE PAS DE TROP » APPLIQUÉE.** **Le chapitre établit que la matière est un DÉTERMINANT ; il n'établit PAS qu'elle soit une MESURE.** **Un pied matériel agrège des tonnes de biomasse, de minerais et de combustibles dont les effets diffèrent d'un ordre de grandeur** — la source le montre elle-même en attribuant 28 % des impacts climatiques à la biomasse et 17 % aux minéraux et métaux réunis. **Le corpus déclare l'acquisition : que vaut une tonne agrégée, et par quoi la pondérer.**
+::etat:: **Le chapitre établit que la matière est un déterminant ; il n'établit pas qu'elle soit une mesure.** Un pied matériel agrège des tonnes de biomasse, de minerais et de combustibles dont les effets diffèrent d'un ordre de grandeur ; la source le montre elle-même en attribuant aux ressources des parts d'impact climatique différentes selon leur nature, « with biomass contributing the most (28 per cent) followed by fossil fuels (18 per cent) and then non-metallic minerals and metals (together 17 per cent) » [S5]. Ce que vaut une tonne agrégée, et par quoi la pondérer, reste à instruire.
 
 ## 5. Ce que cela donne au dispositif, et l'asymétrie est nette
 
-::hypothese:: **DU CÔTÉ DU REFLUX, LE DISPOSITIF TROUVE SON ASSIETTE.** **Une fonte graduée par l'intensité matérielle de la consommation a un fondement physique** : la matière détermine plus de la moitié des émissions, quarante pour cent des effets sanitaires des particules et l'essentiel de la pression sur les terres. **C'est exactement ce que l'arbitrage A35 suggérait — « la consommation de biens et services à fort impact implique des reflux graduellement plus forts » — et le corpus peut désormais le fonder autrement que par l'intuition.**
+::hypothese:: **Du côté du reflux, le dispositif trouve une assiette.** Une fonte graduée par l'intensité matérielle de la consommation a un fondement physique : la matière détermine plus de la moitié des émissions, une part majeure des effets sanitaires des particules et l'essentiel de la pression sur les terres. C'est ce que l'auteur écrivait en arrêtant A35, dont ses mots sont recopiés en tête du corps de L10.C06, en brouillon : « La consommation de biens et services à fort impact implique des reflux (fontes) graduellement plus forts ». Depuis la décision de conception du 21 septembre 2026, ce sont les banques centrales participantes qui perçoivent le reflux ; l'architecture juridique du prélèvement n'est pas arrêtée.
 
-::hypothese:: **DU CÔTÉ DE L'ÉMISSION, IL NE TROUVE RIEN.** **Réduire un tonnage n'est pas restaurer un milieu.** **La matière mesure une PRESSION, pas une RÉGÉNÉRATION.** **Le dispositif obtient donc une échelle pour ce qu'il prélève et n'en obtient toujours aucune pour ce qu'il verse.**
+::hypothese:: **Du côté de l'émission, il ne trouve rien.** Réduire un tonnage n'est pas restaurer un milieu : la matière mesure une pression, non une régénération. Le dispositif obtient une échelle pour ce qu'il prélève, et n'en obtient aucune pour ce qu'il verse.
 
-::etat:: **Le corpus enregistre cette asymétrie comme un résultat en soi.** **Le reflux trouve son assiette ; l'émission ne trouve pas la sienne.** **Et c'est cohérent avec tout ce que la journée a établi** — le droit positif certifie un procédé sans le graduer [L22.C04], et les neuf dimensions ne s'agrègent pas [L24.C01].
+::etat:: **Le corpus enregistre cette asymétrie comme un résultat.** Le reflux trouve son assiette ; l'émission ne trouve pas la sienne. L22.C04 et L24.C01, en brouillon, vont dans le même sens : le droit positif certifie un procédé sans le graduer, et les dimensions ne s'agrègent pas.
 
-## 6. Ce que la même source oppose au dispositif, et c'est F10 dans sa forme la plus documentée
+## 6. Ce que la même source oppose au dispositif
 
-::etat:: **Le rapport écrit** [S4] : « **We REJECT the assumption that meeting essential human needs should be resource-intensive.** » **Et il chiffre ce que la seule action sur la demande obtiendrait à l'horizon 2060, par rapport aux tendances actuelles.**
+::etat:: **Le rapport écrit** : « We reject the assumption that meeting essential human needs should be resource-intensive. Structurally lowering or avoiding resource-intensive demand in high consumption contexts is necessary » [S5]. **Et il chiffre ce que l'action sur la demande obtiendrait à l'horizon 2060, par rapport aux tendances actuelles** : pour la mobilité, « material stock requirements (−50 per cent), energy demands (−50 per cent) and GHG emissions (−60 per cent) » ; pour le bâtiment, « decrease building material stocks by 25 per cent by 2060 », et en conséquence « 30 per cent decrease in energy demand and 30 per cent decrease in GHG emissions » ; pour l'alimentation, « decrease the land needed for food by five per cent » [S5]. Ce sont des sorties de scénarios, non des mesures.
 
-::etat:: **Mobilité** : réduire le besoin de mobilité et l'assurer par le partage et les modes actifs réduirait les stocks matériels de **50 %**, la demande d'énergie de **50 %** et les émissions de **60 %**. **Bâtiment** : des quartiers compacts, du contenu recyclé et l'allongement de la durée de vie réduiraient les stocks de matériaux de **25 %**, entraînant **30 %** d'énergie et **30 %** d'émissions en moins. **Alimentation** : les changements de régime réduiraient de **5 %** la terre nécessaire [S4].
+::hypothese:: **Aucune de ces mesures ne demande une monnaie nouvelle.** F10 demande si l'objectif pourrait être atteint autrement ; voici un autrement, chiffré, publié par le PNUE, et le corpus doit le porter contre le dispositif plutôt que de le contourner.
 
-::hypothese:: **AUCUNE DE CES MESURES NE DEMANDE UNE MONNAIE NOUVELLE.** **F10 — la superfluité — demande si l'objectif pourrait être atteint autrement.** **Voici un « autrement », chiffré, publié par l'organisation des Nations unies pour l'environnement, et le corpus doit le porter contre le dispositif plutôt que de le contourner.** **C'est la forme la plus documentée que F10 ait reçue.**
+::hypothese:: **Le contrepoids est dans la même source.** Le rapport énumère ce qui bloque : « Harmful subsidies being the norm » ; « Financialization of the commodity markets, which drives unsustainable resource extraction » ; « Business models do not account for resource use-related risks » ; « Concentration of decision-making power in business conglomerates » [S5]. Et il appelle à « reflecting the true costs of resources in the structure of the economy » et au « redirecting of finance » [S5].
 
-::hypothese:: **Le contrepoids existe dans la même source et il faut le donner avec la même netteté.** **Le rapport énumère ce qui bloque** [S4] : « **Harmful subsidies being the norm** » ; « **Financialization of the commodity markets, which drives unsustainable resource extraction** » ; l'absence de prise en compte du risque par les modèles d'affaires ; **la concentration du pouvoir de décision.** **Et il appelle à « reflecting the true costs of resources in the structure of the economy » et au « redirecting of finance ».**
-
-::hypothese:: **Autrement dit : la source qui documente la voie de la demande dit aussi que cette voie est bloquée par des mécanismes financiers et fiscaux.** **F10 n'est donc pas simplement renforcé — il est déplacé.** **La question n'est pas « une monnaie est-elle nécessaire », mais « qu'est-ce qui débloque des mesures dont l'efficacité est établie et que personne ne prend ».** **Et le corpus n'a toujours pas ouvert la réforme des subventions dommageables, qu'il tient depuis longtemps pour la seule acquisition capable de lever F10.**
+::hypothese:: **F10 n'est donc pas simplement renforcé : il est déplacé.** La question n'est pas de savoir si une monnaie est nécessaire, mais ce qui débloque des mesures dont la source chiffre l'effet et que personne ne prend. C'est le déplacement que L1.C31 attribue à ce chapitre. L18.C09 § 3, en brouillon, lit sur pièce, ouverte là-bas, ce qu'un autre rapport du PNUE dit de la réforme des subventions dommageables : un levier disponible, politiquement difficile, dont les sommes libérées peuvent ne pas aller à la nature ; l'histoire de ces réformes n'est pas au dossier.
 
 ## 7. Portée
 
-::etat:: **La troisième question ouverte de L24.C01 est fermée : les matériaux sont instruits, et le chiffre que le corpus portait depuis L18.C04 est vérifié sur pièce.**
+::etat:: **La question des matériaux, que L24.C01 laissait ouverte, est instruite, et le chiffre que le corpus portait depuis L18.C04 est vérifié sur pièce.**
 
-::etat:: **Le résultat principal modifie la portée de F13 sans l'entamer.** **Les neuf dimensions n'ont aucune unité commune — F13 tient — mais elles ont un DÉTERMINANT COMMUN, la matière, qui se compte en tonnes.** **L'absence d'unité commune n'implique pas l'absence de levier commun.**
+::etat:: **Le résultat principal borne F13 sans l'entamer** : les dimensions n'ont aucune unité commune, mais elles ont un déterminant commun, la matière, qui se compte en tonnes.
 
-::etat:: **L'asymétrie qui en résulte est nette et le corpus la porte comme un résultat.** **Le reflux trouve son assiette dans l'intensité matérielle, ce qui fonde A35 autrement que par l'intuition.** **L'émission ne trouve rien : réduire un tonnage n'est pas restaurer un milieu.**
+::etat:: **L'asymétrie qui en résulte est portée comme un résultat** : le reflux trouve son assiette dans l'intensité matérielle, ce qui donne un fondement physique à la gradation qu'A35 énonce ; l'émission ne trouve rien.
 
-::etat:: **L'inégalité est chiffrée pour la seconde fois en deux chapitres : six fois plus de matière et dix fois plus d'impacts climatiques par habitant, avec un déplacement documenté par le commerce.**
+::etat:: **Ce que ce chapitre ne porte pas, et qu'il nomme.** Les scénarios de l'horizon 2060 ne sont pas ouverts dans leur méthode ; le corpus ne tient aucune donnée de réserves, seulement des flux d'extraction ; et le rapport n'est lu que dans ses messages clés, son avant-propos et un tableau.
 
-::hypothese:: **Et F10 reçoit sa forme la plus documentée, dans une source qui ne lui est pas hostile.** **Des gains de moitié sur les stocks matériels de la mobilité, d'un quart sur ceux du bâtiment, sans monnaie nouvelle.** **La même source dit pourquoi ils ne sont pas pris — subventions dommageables, financiarisation des marchés de matières premières, concentration du pouvoir de décision — et c'est là, plutôt que dans la conception d'une unité, que le corpus devra chercher ce que le dispositif apporte.**
+::hypothese:: **F10 reçoit ici sa forme la plus documentée, dans une source qui ne lui est pas hostile** : des gains importants sur la mobilité et le bâtiment, sans monnaie nouvelle. La même source dit pourquoi ils ne sont pas pris, et c'est là, plutôt que dans la conception d'une unité, que le corpus devra chercher ce que le dispositif apporte.
