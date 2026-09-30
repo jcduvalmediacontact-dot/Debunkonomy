@@ -8370,3 +8370,112 @@ Ce que la page porte, pour mémoire : elle reproduit la sortie de
 `corpus/controle.py` et nomme les chapitres que le générateur laisse dehors,
 avec leurs vérifications en attente. L1.C29 § 6 y renvoie le lecteur pour
 l'état du registre.
+
+## AA1, AA3 ET AB1 — TROIS DÉCISIONS DES 29 ET 30 SEPTEMBRE, INSCRITES LE 2026-09-30
+
+Cette section inscrit trois décisions de l'auteur rendues de vive voix ou par
+relais, qui ne vivaient que dans les ordres du jour archivés sous
+`coordination/archives-odj/`, dans un rapport de Codex et dans l'en-tête de
+L1.C19. Elle est ajoutée sur son mot du 2026-09-30, recopié : « Oui pour
+inscrire AA1, AA3 et AB1 ». Elle ne tranche rien de neuf et ne réécrit rien.
+
+Aucune des trois n'a été écrite de la main de l'auteur dans un fichier. Pour
+chacune, la section dit qui a recopié ses mots, et où. Le mot du 2026-09-30
+porte sur ces textes tels que l'ordre du jour les tenait.
+
+### AA1 — l'exception nommée pour le scan de Samuelson 1954, rendue le 2026-09-29
+
+Soumise à l'ordre du jour du 2026-09-29, 11 h 57. La pièce : P. A. Samuelson,
+« The Pure Theory of Public Expenditure », The Review of Economics and
+Statistics, 1954, folios 387 à 389, dans un exemplaire sans couche de texte —
+un scan que `CLAUDE.md` tient pour non ouvert. Elle porte L1.C19 [S2], et le
+même scan porte L1.C09 et L1.C15, vérifiés avant que la règle soit écrite.
+Codex l'avait lue à l'œil, avait confirmé ce qui est imprimé, et refusait la
+montée de L1.C19 sans exemplaire textuel ou sans exception de l'auteur
+(réserve R1).
+
+Les mots de l'auteur, donnés à Codex de vive voix et recopiés par Codex dans
+son rapport (`Documents/Codex/2026-09-29/audit-L1-C19-39b82815.md`, § 5) : à la
+demande d'autoriser l'utilisation de cet exemplaire sur lecture visuelle
+contrôlée, pour cette pièce seule, « Oui, oui, oui, vas-y », puis, pour
+l'inscription au compte rendu, « Ok, fais ça ».
+
+La décision : pour cette pièce seule, la lecture à l'œil de l'article entier,
+folios 387 à 389, par le moteur et par Codex, vaut ouverture. Elle n'ouvre
+aucune dérogation générale : un scan sans couche de texte reste non ouvert, et
+la règle de `CLAUDE.md` n'est pas réécrite.
+
+Appliquée le 2026-09-29 : L1.C19 monté à `26049a1f` ; l'exception, ses mots,
+ce qu'elle couvre et les deux mesures refaites par le moteur — aucun caractère
+extractible, empreintes de pixels — inscrits dans l'entrée S2 de L1.C19 à
+`924ea458`, pour qu'une autorisation qui ne vivrait que dans l'ordre du jour ne
+parte pas en archive à sa prochaine réécriture.
+
+### AA3 — Opus tient le moteur dans les mêmes bornes que Fable, rendue le 2026-09-29
+
+Soumise à l'ordre du jour du 2026-09-29, 11 h 57 : Opus, s'il reprend le
+moteur, commite-t-il et pousse-t-il sur `dev-gpt-debunkonomy` dans les mêmes
+bornes que Fable ? Les droits de Fable venaient des mots de l'auteur du
+2026-09-28 au soir (décision RELAIS) ; Fable ne pouvait pas les transmettre.
+
+À 12 h 23, l'auteur a dit à Fable : « On va repasser à Opus 5,1 pour
+t'économiser. » Puis il a transmis à Opus, sans la modifier, une phrase que
+Fable avait rédigée pour qu'il la donne. Opus l'a recopiée à l'ordre du jour à
+13 h 01, avant son premier commit, « comme transmise par lui, non comme écrite
+de sa main » : « Tu reprends le rôle de moteur à la place de Fable. Lis
+`coordination/relais-moteur/LISEZ-MOI.md`, puis lance
+`python coordination/relais-moteur/etat.py`. Lis ensuite dans
+`coordination/ORDRE_DU_JOUR.md` la section « Moteur » et le paragraphe
+« PASSATION À OPUS », en tête du bloc du relais tout en bas. Tu commites et tu
+pousses sur `dev-gpt-debunkonomy` dans les mêmes bornes que Fable : un commit
+par chapitre, jamais sur `main`, aucune PR, aucune montée sans la ligne écrite
+de Codex, jamais C30. Recopie cette phrase à ton compte rendu avant ton premier
+commit. »
+
+La décision : Opus tient le moteur en relais dans les bornes de la décision
+RELAIS — commits et poussées sur la branche de développement dans le cadre des
+décisions rendues, un commit par chapitre ; rien sur `main`, aucune demande de
+fusion, aucune montée sans la ligne écrite de Codex, jamais L1.C30. Le
+commandement au rendez-vous n'a pas changé de mains.
+
+### AB1 — le quota de Codex et l'ordre des validations, rendue le 2026-09-30
+
+Soumise à l'ordre du jour du 2026-09-29, 21 h 55, avec AB2, AB3 et AB4 : le
+quota de Codex, quand se recharge-t-il, et dans quel ordre dépenser ce qui
+reste ? La recommandation était de dire le jour de la recharge et de dépenser
+dans l'ordre C27, C29, C25, C22, C18, du plus proche de la montée au plus long.
+
+L'auteur l'a rendue à Codex. Le texte a été relayé par Codex, puis recopié par
+Opus à l'ordre du jour le 2026-09-30 à 5 h 23, avec cette mention : « relayée
+par Codex et non reçue de la main de l'auteur ». Le texte, recopié : « Réserver
+le quota Codex restant aux validations dans cet ordre : C27 dès sa correction,
+puis C29, C25, C22 et C18. Il reste 12 % jusqu'à samedi 3 octobre à 19 h 11 ;
+aucune recharge hebdomadaire n'interviendra avant l'échéance de vendredi. Si
+le quota ne suffit pas, les chapitres non contrôlés restent en brouillon. »
+
+La décision : le quota restant de Codex, 12 % jusqu'au samedi 3 octobre à
+19 h 11, sans recharge avant le cap du vendredi 2, est réservé aux validations
+dans l'ordre C27, C29, C25, C22, C18. Les chapitres que le quota ne permet pas
+de contrôler restent `brouillon` et sont nommés le 2 : la date ne baisse pas la
+barre. Cette dernière phrase rend AB3, qui demandait ce qu'il advient si le
+quota ne suffit pas pour les cinq : on attend, sans second auditeur.
+
+Appliquée le 2026-09-30 : L1.C27 monté à `98f07ea7` sur la ligne de Codex ;
+L1.C29 en recontrôle ciblé ; L1.C25, L1.C22 et L1.C18 en attente d'audit, dans
+cet ordre.
+
+### D'où viennent les lettres
+
+AA1 à AA3 ont été soumises à l'ordre du jour du 2026-09-29, 11 h 57, après les
+premiers recontrôles de Codex ; AB1 à AB4 à celui du 2026-09-29, 21 h 55, écrit
+pour la journée du 30. AA2 — l'excédent et les guichets sous la décision de
+conception du 2026-09-21 — n'est pas rendue. AB2 — les diffs de montée
+contrôlés en un lot — et AB4 — le cap suivant — ne le sont pas non plus. AB3
+est rendue par le texte même d'AB1.
+
+### Ce que cette section n'inscrit pas
+
+AA2, AB2 et AB4 restent soumises à l'ordre du jour. Le partage des gestes du
+moteur entre Fable et Opus n'est pas une décision : les droits de l'un viennent
+des mots du 2026-09-28 au soir, ceux de l'autre des mots du 2026-09-29 recopiés
+ci-dessus, et chacun s'y tient.
