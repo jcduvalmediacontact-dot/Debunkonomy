@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-09-30
 autorite: preparatoire
 citable: false
 regime: conception
@@ -63,6 +63,15 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-29
 verifications_en_attente: []
+  # COMPLÉMENT DE CODEX SUR 13bc079e, 2026-09-30, RÉSERVES R7 ET R8, CORRIGÉES CE JOUR.
+  # R7, § 3 — CORRECTION DE RAISONNEMENT, par Opus : « Les fonds propres de l'émetteur
+  # deviennent négatifs à due proportion, non par accident mais par construction » ;
+  # la dépréciation baisse la situation nette à due concurrence, elle ne la rend pas
+  # négative par elle-même — le § 5 le tenait déjà de Buiter.
+  # R8, § 6 — CONTRE L1.C21 § 6, par Fable : « Le mécanisme de destruction à deux ressorts
+  # (L1.C21) » prêtait à L1.C21 le mot qu'il a retiré ; le corps le dit, et les trois
+  # renvois sans numéro de section du même paragraphe sont qualifiés sur leurs sections,
+  # lues : L1.C18 § 3, L1.C21 §§ 5 et 6, L1.C26 § 3, L1.C27 § 3.
   # CRIBLE DU 2026-09-29, AVANT L'AUDIT DE CODEX. Deux phrases restaient hors de
   # l'alignement du matin, que l'auteur a gardé (Z3). § 4 : « Rien n'établit que
   # l'institution émettrice relève de la comptabilité publique ; la forme de l'émetteur
@@ -299,7 +308,7 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 
 ::hypothese:: **Première branche — l'assiette persiste.** Les transactions dégénératives continuent en volume suffisant, la créance conserve sa valeur, la comptabilité se referme comme le Cahier le décrit. Mais alors le dispositif n'a pas atteint son objectif écologique : il perçoit durablement sur ce qu'il devait faire cesser, et son équilibre comptable dépend de la persistance de ce qu'il combat.
 
-::hypothese:: **Seconde branche — l'assiette disparaît.** Le dispositif réussit, les productions dégénératives reculent, le flux de dispositifs de reflux transactionnels s'amenuise. La créance portée à l'actif doit alors être **dépréciée**, tandis que le passif — correspondant à la monnaie émise, déjà convertie et dépensée — demeure. Les fonds propres de l'émetteur deviennent négatifs à due proportion, non par accident mais par construction.
+::hypothese:: **Seconde branche — l'assiette disparaît.** Le dispositif réussit, les productions dégénératives reculent, le flux de dispositifs de reflux transactionnels s'amenuise. La créance portée à l'actif doit alors être **dépréciée**, tandis que le passif — correspondant à la monnaie émise, déjà convertie et dépensée — demeure. **La situation nette de l'émetteur baisse alors à due concurrence de la perte, et cette baisse est de construction et non accidentelle.** Elle ne suffit pourtant pas à rendre les fonds propres négatifs : leur passage sous zéro dépend de la situation nette initiale, des autres actifs et des autres flux, que ce chapitre ne pose pas. **L'objection est de structure, et elle tient sans cette conclusion-là.**
 
 ::hypothese:: Le corpus retient donc ceci, et c'est le résultat central du chapitre. **Ce n'est pas un problème de calibrage, c'est une contradiction de structure entre les deux contreparties.** Le certificat de qualification atteste que l'activité régénère ; la créance sur reflux futurs suppose que la dégradation se poursuive. Les deux contreparties du même passif reposent sur des hypothèses opposées quant à l'avenir du monde. Plus le certificat dit vrai, moins vaut la part de la créance assise sur ce qui recule.
 
@@ -361,7 +370,7 @@ renvois: [L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C22, L1.C26, L1.C27, L1.C28
 
 ::etat:: **L'état du registre se lit, il ne se recopie pas.** `corpus/arbitrages.yaml` tient trois natures d'entrée : des arbitrages, des conditions de falsification et des pièces de conception manquantes. Chacune **déclare** son statut, et `corpus/controle.py` le **valide** contre la liste des valeurs admises sans le calculer : **ce qu'il calcule est le compte**. La page de diagnostic reproduit l'un et l'autre tels quels, [/corpus/diagnostic.html](/corpus/diagnostic.html), que le générateur réécrit à chaque passage. **Rien de cet état n'est écrit ici : un nombre comme un statut périmerait en silence, l'un et l'autre dépendant du corpus entier, et ce chapitre peut rester immobile pendant qu'ils changent.** Ni la liste des valeurs de statut admises, qui est dans le script, ni le nombre de promesses ouvertes, dont le registre des promesses tient l'état, ne sont repris ici.
 
-::etat:: **Ce qui a résisté.** Le diagnostic de la première partie a fait l'objet d'un sourçage primaire systématique ; il a été rétréci, mais ses trois thèses centrales tiennent — le filtre de solvabilité **au point de création du crédit**, l'essentiel insolvable, le nœud entre dette financière et dette écologique. **La première est bornée à ce canal, et L1.C11 § 2 le dit** : le crédit n'est pas le seul point par lequel la monnaie nouvelle entre en existence, l'achat d'actifs par une banque, commerciale ou centrale, créant aussi des dépôts. La séparation des fonctions (L1.C18) répond à une objection réelle par une architecture réelle. L'abandon de l'additionnalité contrefactuelle au profit d'états mesurés est une avancée sur les dispositifs existants. Le mécanisme de destruction à deux ressorts (L1.C21) est mieux construit que le reste du dispositif. La neutralité monétaire globale du règlement international et la suppression des réserves de change intrazone (L1.C26, L1.C27) sont des propriétés réelles. Une infrastructure commune de règlement multidevise est techniquement réalisable, sur un prototype et pour des opérations de gros. Et le livre concède ses objections les plus dangereuses — Rueff, le seuil d'activation, la contrepartie comptable — au lieu de les esquiver.
+::etat:: **Ce qui a résisté.** Le diagnostic de la première partie a fait l'objet d'un sourçage primaire systématique ; il a été rétréci, mais ses trois thèses centrales tiennent — le filtre de solvabilité **au point de création du crédit**, l'essentiel insolvable, le nœud entre dette financière et dette écologique. **La première est bornée à ce canal, et L1.C11 § 2 le dit** : le crédit n'est pas le seul point par lequel la monnaie nouvelle entre en existence, l'achat d'actifs par une banque, commerciale ou centrale, créant aussi des dépôts. La séparation des fonctions (L1.C18 § 3) répond à une objection réelle par une architecture réelle. L'abandon de l'additionnalité contrefactuelle au profit d'états mesurés est une avancée sur les dispositifs existants. Le mécanisme de retrait à deux ressorts (L1.C21 § 5) est mieux construit que le reste du dispositif — **retrait, et non destruction** : le livre parle de destruction, et le corpus a retiré le mot, le reflux retirant la monnaie sans la détruire (L1.C21 § 6). La neutralité monétaire globale du règlement international et la suppression des réserves de change intrazone (L1.C26 § 3, L1.C27 § 3) sont des propriétés réelles. Une infrastructure commune de règlement multidevise est techniquement réalisable, sur un prototype et pour des opérations de gros. Et le livre concède ses objections les plus dangereuses — Rueff, le seuil d'activation, la contrepartie comptable — au lieu de les esquiver.
 
 ::etat:: **Ce qui est tombé.** Le bouclage comptable du Cahier, crédité jusqu'à ce chapitre, ne referme le circuit, pour la part de l'assiette que le succès réduit, que dans un monde où la dégradation se poursuit ; et le flux futur qu'il invoque n'est pas reconnaissable sous le référentiel public (§ 3). La loi historique selon laquelle les réformes monétaires se font à la sortie des grandes guerres est fausse telle qu'elle est énoncée (L1.C25 § 3). La revendication des trois sommets du triangle d'incompatibilité est retirée, l'auteur ayant nommé le sommet abandonné (L1.C26 § 2). La clause de neutralité anticoloniale, telle qu'elle est écrite, n'empêche pas que le levier s'inverse (L1.C27 § 4). La convergence des pouvoirs d'achat ne suit pas de la fixation des taux nominaux (L1.C26 § 6). Aucune de ces chutes n'atteint le cœur de la thèse ; toutes atteignent des énoncés que le livre présente comme acquis.
 
