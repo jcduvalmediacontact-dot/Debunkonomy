@@ -8509,3 +8509,61 @@ L1.C19.
 
 Ce qu'elle ne change pas : ni la ligne de Codex qui précède toute montée, ni
 l'exclusion de L1.C30, ni les gestes réservés à l'auteur.
+
+## AC1 — L'AUDIT TIERS PAR GEMINI ET LA LIGNE DE MONTÉE ÉCRITE PAR L'AUTEUR, RENDUE ET INSCRITE LE 2026-09-30
+
+Cette section inscrit une décision rendue en deux temps le 2026-09-30, sur le
+mot de l'auteur du même jour, recopié : « Oui pour inscrire AC1 » (11 h 55). Elle
+ne tranche rien de neuf et ne réécrit rien.
+
+Les mots de l'auteur, donnés à Fable dans la conversation et recopiés par
+Fable à l'ordre du jour, dans l'ordre. Vers 9 h 50, alors qu'aucune ligne de
+Codex sur L1.C25 ne se trouvait ni à l'ordre du jour ni dans ses rapports :
+« Codex est down. Il faut faire sans lui. peut être entre toi et Opus ? ».
+Fable a répondu que Fable et Opus, de la même famille que le rédacteur,
+pouvaient faire une passe adverse déclarée, non l'audit tiers, et n'écrire
+aucune ligne de montée ; et a soumis AC1 — nommer un auditeur d'une autre
+famille, dire qui écrit la ligne. Puis : « l'audit tiers peut se faire avec
+GEMINi ». Puis, à 10 h 32 : « Oui pour AC1-b, j'écris la ligne moi-même ».
+
+La décision, en deux temps.
+
+AC1-a : quand Codex est indisponible, l'audit tiers d'un chapitre de la
+seconde partie du Livre 1 est confié à Gemini, en mode normal, sous
+`protocoles/audit-contradictoire.md`, sur un dossier qui porte l'état soumis
+et son empreinte, ce que le chapitre a traversé, des contrôles adverses
+particuliers écrits sur le corps, les pièces avec leurs empreintes
+recalculées, un contrôle mécanique des citations, le protocole et le chapitre
+entier. Les objections du rapport sont recontrôlées sur le fichier et sur les
+pièces, corrigées à tous leurs endroits ou bornées, jamais rejetées par le
+moteur seul ; le diff des corrections repart à Gemini pour un recontrôle
+court, sur un dossier qui porte le rapport, la table des traitements et le
+diff. Un point maintenu contre le rapport l'est sur la pièce, citée, et
+soumis au recontrôle.
+
+AC1-b : la ligne « rien ne s'oppose à la montée de L1.Cxx », que Z1 fait
+écrire par Codex, est écrite par l'auteur lui-même quand l'audit tiers est de
+Gemini — après le rapport, les corrections et le recontrôle —, à l'ordre du
+jour, dans les comptes rendus, en nommant le commit recontrôlé. L'auteur peut
+l'écrire dans la conversation ; le moteur la recopie alors telle quelle, à
+son nom. Le script de montée lit la formule quel qu'en soit le signataire et
+refuse si le fichier a changé depuis le commit nommé.
+
+Ce que la décision ne change pas : Z1 vaut pour Codex à son retour ; le diff
+de montée revient au superviseur, en un lot à la fin (AB2) ; L1.C30 ne monte
+pas (D100) ; rien sur `main`, aucune demande de fusion.
+
+Appliquée le 2026-09-30, trois fois. L1.C25 : audit sur `a86c5988`, huit
+objections corrigées à `8f14e6c2`, recontrôle levé, ligne de l'auteur écrite
+à 11 h 12, montée `0dae169e`. L1.C22 : audit sur `ce0bb121`, huit objections
+corrigées à `8e2178ad`, recontrôle levé, ligne écrite à 11 h 30, montée
+`6a61be5e`. L1.C18 : audit sur `33db6aaf`, douze objections corrigées à
+`025c85b9`, recontrôle levé, ligne écrite à 11 h 51, montée `8997f338` — la
+trentième : le Livre 1 est terminé au sens de D100 le 2026-09-30. Les
+rapports et recontrôles de Gemini sont versés sous
+`Documents/Codex/2026-09-30/audit-gemini/` ; les dossiers sous `protocoles/`,
+exclus du dépôt.
+
+D'où vient la lettre : AC1 a été soumise par Fable dans la conversation, non
+d'abord à l'ordre du jour, l'indisponibilité de Codex ayant été constatée
+entre deux rendez-vous ; elle a été inscrite à l'ordre du jour à 10 h 09.
