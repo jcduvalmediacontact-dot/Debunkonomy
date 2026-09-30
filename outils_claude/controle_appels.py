@@ -80,6 +80,21 @@ NOMBRE = re.compile(r"\d+(?:[   ]\d{3})*(?:[.,]\d+)?")
 HORS_CHAMP = re.compile(
     r"L\d+\.C\d+(?:\s*§\s*\d+)?"          # renvoi L1.C08 § 4
     r"|§\s*\d+"                            # § 4
+    # DESIGNATION DE NORME : « IPSAS 47 § 39 ». Le numéro de la norme n'est pas un
+    # fait chiffré, et le corpus l'écrit ainsi depuis longtemps : 20 des 29
+    # occurrences relevées précèdent le 2026-09-30.
+    #
+    # LA RÈGLE EST ÉTROITE À DESSEIN, et la large a été mesurée puis ÉCARTÉE.
+    # `controle_chiffres` écarte tout nombre précédé d'un sigle en capitales
+    # (`IDENTIFIANT_AVANT`) ; importée ici, cette règle retirerait 394
+    # occurrences, et elles ne sont pas des normes : « ACQUISITION DE RANG 1 »,
+    # « BALAYAGE DU LIVRE 21 », « QUESTION 4 ». Ce corpus écrit en capitales pour
+    # appuyer, à chaque page : la règle large ferait taire de vrais chiffres.
+    #
+    # Exiger le « § » qui SUIT le numéro ne retient que les désignations de
+    # norme : 29 occurrences le 2026-09-30, toutes lues, toutes des normes
+    # (IPSAS 47, 48, 51), dans 14 fichiers. Rien d'autre ne s'écrit ainsi.
+    r"|[A-ZÉÈÀÙÂÊÎÔÛ]{2,}\s+\d+\s*(?=§)"
     r"|(?i:p\.|pages?|folios?|art\.|articles?|section|chapitre)\s*[\dxivl]+"
     r"(?:\s*[-–]\s*[\dxivl]+)?"
     # QUANTIEME : « le 11 mars 2020 » rendait 11, et 11 n'est pas un fait.
