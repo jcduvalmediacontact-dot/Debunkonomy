@@ -12,6 +12,7 @@ Les contenus sont publiés en français et traduits en anglais, espagnol, portug
 - [Articles en français](https://debunkonomy.org/articles/): Articles de fond dans leur version française.
 - [Livre](https://debunkonomy.org/livre/): Présentation du livre consacré à l'économie de l'équilibre.
 - [NEMO IMS](https://debunkonomy.org/nemo-ims/): Proposition relative au système monétaire international.
+- [Corpus](https://debunkonomy.org/corpus/): Corpus documentaire vérifié chapitre par chapitre, avec son propre fichier https://debunkonomy.org/corpus/llms.txt
 
 ## Articles dans les autres langues
 
