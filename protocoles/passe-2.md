@@ -8479,3 +8479,33 @@ AA2, AB2 et AB4 restent soumises à l'ordre du jour. Le partage des gestes du
 moteur entre Fable et Opus n'est pas une décision : les droits de l'un viennent
 des mots du 2026-09-28 au soir, ceux de l'autre des mots du 2026-09-29 recopiés
 ci-dessus, et chacun s'y tient.
+
+## AB2 — LES DIFFS DE MONTÉE CONTRÔLÉS EN UN LOT, RENDUE ET INSCRITE LE 2026-09-30
+
+La section précédente, écrite le 2026-09-30 à 9 h 27, tenait AB2 pour non
+rendue. L'auteur l'a rendue à 9 h 31, à Fable, dans le message où il relayait
+le feu vert de Codex sur L1.C29. Son mot, recopié : « Oui pour AB2, contrôle
+en un lot à la fin ». Puis, à 9 h 36 : « Oui pour inscrire AB2 ». La section de
+9 h 27 n'est pas réécrite.
+
+Soumise à l'ordre du jour du 2026-09-29, 21 h 55 : Z1 renvoie chaque diff de
+montée à Codex ; chacun lui coûte une lecture, pour trois champs d'en-tête
+dont `monter.py` prouve déjà qu'ils sont seuls à changer. La recommandation
+était de les contrôler en un seul lot, à la fin, s'il reste du quota.
+
+La décision : les diffs de montée sont contrôlés par Codex en un seul lot, à
+la fin, après les audits de L1.C25, L1.C22 et L1.C18, s'il reste du quota. La
+montée ne les attend pas. Z1 est modifiée sur ce seul point : le diff revient
+toujours à Codex, mais en lot et en dernier, non un par un.
+
+Ce que le lot contient au 2026-09-30, 9 h 34 — les montées de la seconde
+partie dont le diff n'a pas été contrôlé : L1.C28 `ed370bdc`, L1.C23
+`61c37863`, L1.C17 `88fddf44`, L1.C26 `afcb324c`, L1.C19 `26049a1f` et
+`924ea458` (l'entrée S2, exception AA1), L1.C21 `27ba93d8`, L1.C27 `98f07ea7`,
+L1.C29 `bfc80e55`. Déjà contrôlés un par un, sous Z1 : L1.C24 `b8d2e6f0`,
+L1.C20 `af45db7c`. Chaque montée ne change que `statut`, `autorite`, `citable`
+et `corpus/.etat-corpus.json` ; `924ea458` change la seule entrée S2 de
+L1.C19.
+
+Ce qu'elle ne change pas : ni la ligne de Codex qui précède toute montée, ni
+l'exclusion de L1.C30, ni les gestes réservés à l'auteur.
