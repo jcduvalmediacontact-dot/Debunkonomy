@@ -5,10 +5,10 @@ livre: 1
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
-statut: brouillon
+statut: verifie
 revision_de_fond: 2026-09-30
-autorite: preparatoire
-citable: false
+autorite: canonique
+citable: true
 regime: conception
 sources_primaires:
   - ref: S1
