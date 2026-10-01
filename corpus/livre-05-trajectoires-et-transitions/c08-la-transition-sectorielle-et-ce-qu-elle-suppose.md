@@ -24,6 +24,9 @@ sources_primaires:
     reference: "**Le corpus lui-même.** **L11.C06** : « la carte des classes est **la carte des substitutions praticables** ». **L6.C08** : le droit minier **détache le sous-sol du sol** — les substances de mine sont concédables par l'État **indépendamment de la propriété du sol**, et le propriétaire n'a **aucun droit d'opposition** ; « définir un périmètre suffit à neutraliser une technique de commun fondée sur la propriété, **sans rien abroger** ». **ARBITRAGE A34, du 2026-09-07** : « un barème qui fait dire au prix la vérité écologique **exclut ceux qui ne peuvent pas la payer** », et l'exclusion est maximale **là où le signal doit être le plus fort** ; asymétrie relevée et inexpliquée — **le demurrage a un seuil d'exemption indexé, le reflux transactionnel n'en a aucun**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur la transmission de Fable inscrite à l'ordre du jour le 2026-10-01 à 20 h 21, au titre de l'ordre 8, avant le dossier d'audit :
+  # une espace avant un point, laissée par la correction de troisième rang du même jour (`0c096b2f`), est retirée.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4 et au § 5, L11.C13 était dit avoir établi que l'observation qui indexe le taux est le point où Goodhart frappe le plus fort ; L11.C13 ne traite pas de cette observation, et tient en hypothèse (§ 5) que Goodhart frappe plus fort sur la qualification que sur le reflux. La lacune que le chapitre relève — ni observateur, ni méthode, ni périodicité — reste.
   # Statut inchangé.
@@ -108,7 +111,7 @@ renvois: [L1.C06, L1.C21, L5.C01, L6.C08, L11.C06, L11.C10, L11.C13]
 
 ::hypothese:: **Deux contraintes établies ailleurs frappent ici, et n'y avaient jamais été rapportées.** **Le droit minier détachant le sous-sol du sol, un barème adossé à la propriété n'atteint pas l'extraction** — le secteur dont la transition importe le plus est hors de portée de l'instrument. **Et A34 devient opérationnel : un secteur dont les acteurs ne peuvent pas payer le signal ne se transforme pas, IL SORT** — et sortir n'est pas se transformer.
 
-::etat:: **Aucune donnée sectorielle n'est tenue, et la lacune est particulière : la règle indexe le taux sur une OBSERVATION, et le corpus n'a désigné ni observateur, ni méthode, ni périodicité** . Ce paragraphe ajoutait que L11.C13 avait établi que Goodhart frappe là le plus fort ; L11.C13 ne traite pas de cette observation.
+::etat:: **Aucune donnée sectorielle n'est tenue, et la lacune est particulière : la règle indexe le taux sur une OBSERVATION, et le corpus n'a désigné ni observateur, ni méthode, ni périodicité**. Ce paragraphe ajoutait que L11.C13 avait établi que Goodhart frappe là le plus fort ; L11.C13 ne traite pas de cette observation.
 
 ## BALAYAGE DU LIVRE 18 — 2026-09-07
 
