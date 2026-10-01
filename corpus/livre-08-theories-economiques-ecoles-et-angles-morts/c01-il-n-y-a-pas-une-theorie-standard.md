@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : la CLASSIFICATION EN CINQ GROUPES des problèmes de politique économique, et l'aveu qui l'accompagne — « the scientific treatment of problems of qualitative policy meets with great difficulties, especially so if these policies belong to groups (d) and (e) », parce que « our empirical quantitative knowledge of human behaviour under different structural conditions is so restricted » ; et la conclusion : « empirical research into each of the points (b) — (e) is still almost completely lacking »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : au tableau des débats, la polycentricité était dite interdite sur les valeurs par le résultat de Mundell (L11.C16 § 5) ; L11.C16 § 5, repris le 30 septembre, a retiré cette interdiction et lit l'objection de Hayek comme visant la valeur.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 8, ouvert le 2026-09-06 sur décision de l'auteur.
   # Le livre était déclaré exploratoire avec zéro chapitre ; sa fonction
@@ -129,7 +132,7 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C03, L11.C10, L11.C12, L11.C16]
 |---|---|---|
 | **1** | **règle contre discrétion** | Tinbergen ouvert [S3] : la règle a une forme, la **directive** (L11.C12) ; Lucas affaibli, Friedman renforcé, Kydland-Prescott non lu |
 | **2** | **séparation contre intégration** en macroprudence | Engone Mve ouvert [S2] : deux pôles, et **les deux fondements de la séparation sont qualifiés dans les textes dont ils sortent** |
-| **3** | **détermination centrale contre polycentricité** | Hayek et Ostrom ouverts (L1.C22) ; **la polycentricité est praticable sur le constat et interdite sur les valeurs** par le résultat de Mundell (L11.C16 § 5) |
+| **3** | **détermination centrale contre polycentricité** | Hayek et Ostrom ouverts (L1.C22) ; **la polycentricité est praticable sur le constat** ; sur les valeurs, L11.C16 § 5 a retiré l'interdiction qu'il tirait de Mundell, dont l'article porte sur un petit pays sous mobilité parfaite des capitaux, et l'objection de Hayek y vise la valeur elle-même |
 
 ::etat:: **Le corpus déclare le biais de sélection.** Ces trois controverses sont celles que le Livre 11 a rencontrées, **non celles que la discipline tiendrait pour principales.** D'autres devront entrer — la neutralité monétaire, la nature de la monnaie, l'endogénéité du crédit — **et elles ne sont pas absentes parce qu'elles seraient secondaires.**
 
