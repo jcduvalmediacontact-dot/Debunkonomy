@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -52,6 +52,9 @@ sources_primaires:
     reference: "Le corpus lui-même — **L20.C16**, qui déclarait : « Aucun autre régime de commun n'est ouvert [...] le corpus généralise depuis un seul cas, et ce cas porte sur des ressources minérales » ; **L20.C17**, qui établit que la sanctuarisation de 1982 a cédé en douze ans sans être violée ; **L20.C14**, qui établit qu'une institution conventionnelle interprète son propre traité sans juge extérieur ; et **L11.C29**, qui établit qu'un seuil sans barème de sanctions devient un plancher, et que la pièce décisive est la dérogation qui expire"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 6, L11.C29 était dit avoir établi qu'un seuil sans barème devient un plancher et qu'une injonction sans conséquence datée devient une opinion ; L11.C29 § 5 rapporte le premier énoncé de L2.C22 et n'écrit pas le second.
+  # Statut inchangé.
   - "L'ARRÊT N° 119 DE 2023 N'A PAS ÉTÉ LU. Son dispositif est cité **d'après
      le texte consolidé officiel**, qui le reproduit entre guillemets — mais
      **les motifs sont inconnus**, et ce sont eux qui diraient POURQUOI la
@@ -88,7 +91,7 @@ verifications_en_attente:
 
 resume: "Ce chapitre comble le manque que le Livre 20 avait déclaré en clôturant son bloc sur les communs, à savoir qu'il généralisait depuis un seul cas portant sur des ressources minérales. Le registre du Livre 6 en verse trois autres. Le premier a été ouvert sur son texte, et le texte dit plus et autre chose que le registre. La loi italienne de 2017 reconnaît les domaines collectifs comme un ordre juridique primaire de communautés antérieures à l'État, qualifie leur patrimoine de copropriété intergénérationnelle, et maintient un régime d'inaliénabilité, d'indivisibilité, d'impossibilité d'usucapion et de destination perpétuelle. Mais la Cour constitutionnelle, en juin 2023, a déclaré ce régime inconstitutionnel en tant qu'il n'excluait pas les terres appartenant à des propriétaires privés, c'est-à-dire exactement la part qui pesait sur eux. Le registre annonçait un débat sur ce point ; il n'en portait pas l'issue. Ce qui a survécu à l'amputation est d'une autre nature : une contrainte paysagère, imposée par un autre code, que la loi maintient sur les terres même en cas de liquidation des usages civiques. Le deuxième régime est français : une décision de 2026 juge qu'une disposition de 1959 n'avait pas été abrogée, avec pour conséquence que chaque fusion de communes opérée entre 1959 et 2013 a créé de plein droit une section dont l'existence subsiste faute d'acte d'extinction, sans que nul ne sache combien ni sur quelles surfaces. Le troisième est africain : une cour a jugé en 2017, chiffré en 2022, ordonné la délimitation, puis constaté en décembre 2025 qu'aucune somme n'avait été versée. Le chapitre en tire que ce qui fait tenir un commun n'est ni la force de sa déclaration ni le rang de la juridiction qui le reconnaît, mais que l'inaction joue pour lui, et que la charge qu'il impose soit gagée sur autre chose qu'un droit de propriété privé."
 concepts: [communs, valorisation_des_communs, polycentricite, limites_planetaires, robustesse, dette_ecologique]
-renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.C14, L20.C16, L20.C17]
+renvois: [L2.C22, L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.C14, L20.C16, L20.C17]
 ---
 
 # Trois régimes de commun, et ce qui les fait tenir
@@ -191,7 +194,7 @@ renvois: [L1.C17, L1.C18, L1.C22, L6.C01, L6.C05, L7.C13, L11.C16, L11.C29, L20.
 
 ::hypothese:: **Neuf ans depuis l'arrêt au fond, et tout ce qui pouvait être fait juridiquement l'a été.** La violation est jugée, le préjudice chiffré, les mesures ordonnées, l'inexécution constatée par une procédure dédiée — **et la décision de conformité n'a d'autre contenu qu'une nouvelle injonction.**
 
-::hypothese:: **C'est ce que L11.C29 a établi sur un tout autre terrain** : un seuil sans barème devient un plancher, **une injonction sans conséquence datée devient une opinion.**
+::hypothese:: **C'est ce que L11.C29 § 5 rapporte de L2.C22 sur un tout autre terrain** : un seuil sans gradation de sanctions devient un plancher. Ce paragraphe ajoutait, au nom de L11.C29, qu'**une injonction sans conséquence datée devient une opinion** : L11.C29 ne l'écrit pas, et tient seulement, en hypothèse, qu'un défaut automatique et daté est l'une des exigences à verser (L11.C29 § 5).
 
 ::hypothese:: **Et cela corrige une attente du corpus.** L20.C14 avait établi qu'une institution conventionnelle interprète son propre traité **sans juge extérieur**, et le corpus tenait ce défaut pour le maillon manquant. **Ici le juge extérieur existe, il a tout fait, et il ne se passe rien. Le juge n'était pas le maillon manquant.**
 
