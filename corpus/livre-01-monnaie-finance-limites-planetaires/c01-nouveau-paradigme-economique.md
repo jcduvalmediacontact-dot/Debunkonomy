@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
 statut: verifie
-revision_de_fond: 2026-09-24
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -14,6 +14,9 @@ sources_primaires: []
 chapitres_sources: [L1.C02, L1.C03, L1.C04, L1.C05, L1.C08, L1.C15]
 verifiee_le: 2026-09-23
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 1, L1.C03 § 6 était dit ranger les cas nationaux parmi ce qu'il rapporte sans source établie ; il tient sur source ouverte des baisses absolues nationales sur 2005-2015, bornées par leurs auteurs, et ne range parmi le rapporté que leur examen en comptabilité par la consommation.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # SOLDÉE le 2026-09-22 (lot C01) — close par sa lettre, ET VÉRIFIÉE APPLIQUÉE : « contrepartie collective » figure au corps, « régénérative » cinq fois, et « sans dette » en est sorti. Texte d'origine :
   # - "RENOMMAGE CANONIQUE DU 2026-09-20, appliqué ici. L'unité se nomme MONNAIE
   # RÉGÉNÉRATIVE À CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE
@@ -102,7 +105,7 @@ Le terme de « polycrise » s'est imposé pour décrire cet empilement — crise
 
 Un enchaînement causal est proposé ici pour relier ces éléments — **proposé, et non établi** : L1.C02 établit que les indicateurs de richesse financière et ceux de dégradation écologique progressent ensemble, et écrit que cela « décrit une progression conjointe, non une causalité ». On extrait toujours plus de ressources, alors même que les limites physiques de la planète sont documentées, parce qu'il faut produire davantage. Il faut produire davantage parce qu'il faut de la croissance. La croissance est nécessaire parce qu'il faut dégager de la rentabilité, rembourser des dettes et verser des intérêts.
 
-Cet enchaînement s'énonce à l'échelle mondiale, et non nationale. Plusieurs économies avancées présentent une consommation matérielle intérieure stabilisée ou en recul alors que leur produit continue de croître. Ces mesures sont discutées : leur portée dépend du traitement des flux de matière incorporés dans les importations, qui déplacent les prélèvements sans les supprimer. La proposition retenue ici porte donc sur le total mondial, seul périmètre où les déplacements ne masquent rien. **L1.C03 porte les deux points, et pas au même titre** : son § 5 établit, par une remarque de méthode qui ne dépend d'aucune source, que les émissions incorporées dans le commerce s'annulent lorsqu'on agrège tous les pays ; son § 6 range en revanche les cas nationaux parmi ce qu'il **rapporte sans source établie**. Ce chapitre est `verifie`.
+Cet enchaînement s'énonce à l'échelle mondiale, et non nationale. Plusieurs économies avancées présentent une consommation matérielle intérieure stabilisée ou en recul alors que leur produit continue de croître. Ces mesures sont discutées : leur portée dépend du traitement des flux de matière incorporés dans les importations, qui déplacent les prélèvements sans les supprimer. La proposition retenue ici porte donc sur le total mondial, seul périmètre où les déplacements ne masquent rien. **L1.C03 porte les deux points, et pas au même titre** : son § 5 établit, par une remarque de méthode qui ne dépend d'aucune source, que les émissions incorporées dans le commerce s'annulent lorsqu'on agrège tous les pays ; son § 6 tient en revanche sur source ouverte des baisses absolues nationales sur 2005-2015, que leurs auteurs expliquent en partie par une croissance plus faible, et range parmi ce qu'il **rapporte sans source établie** l'examen que ces cas demandent en comptabilité par la consommation. Ce chapitre est `verifie`.
 
 L'enchaînement suppose par ailleurs deux conditions qu'il faut énoncer plutôt que taire : que la charge d'intérêt ne soit pas absorbée par les défauts, les restructurations ou l'inflation, et que la part des profits dans le revenu reste stable. Ces conditions ne sont pas toujours réunies, et les chapitres consacrés à la création monétaire examinent ce qu'il advient de la proposition lorsqu'elles ne le sont pas. **Et l'enchaînement ne tient pas par les seuls intérêts** : L1.C08 établit, sur un modèle à cohérence stock-flux, que ni la création de crédit ni la perception d'intérêts ne produisent à elles seules un impératif de croissance, la dépendance résultant d'une combinaison de mécanismes.
 
