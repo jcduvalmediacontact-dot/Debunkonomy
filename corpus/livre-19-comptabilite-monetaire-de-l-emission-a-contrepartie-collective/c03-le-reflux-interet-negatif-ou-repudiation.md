@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -21,6 +21,9 @@ sources_primaires:
     reference: "**Le corpus lui-même — la bifurcation que L11.C01 a instruite SANS LA TRANCHER, et qui commande tout le Livre 11.** Sous la première lecture, « le reflux s'annule à l'arrivée : la monnaie revient au bilan de l'émetteur et **s'éteint contre la contrepartie correspondante, exactement comme un crédit remboursé — c'est une destruction** », et c'est la lecture du Cahier technique. Sous la seconde, « le reflux arrive et demeure : **le Symposium détient alors une ressource**, et le reflux transactionnel cesse d'être une destruction pour devenir **un prélèvement qui finance l'émission** ». **L11.C01 juge la seconde « plus orthodoxe et plus défendable qu'il n'y paraît », au prix de « l'abandon de la monnaie sans dette au sens fort ».** **L11.C07 tient déjà que « un prélèvement sur la détention est un rendement négatif », et en tire la borne de l'arbitrage de rendement.** **Et L10.C06 § 3 tient la branche la plus favorable** : « une décote appliquée par l'émetteur à sa propre unité **n'exige AUCUNE compétence fiscale** — elle exige **que l'unité soit sienne**, ce qui ramène à la question du passif »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, L10.C06 § 3 était dit ne pas pouvoir ouvrir la branche de la décote faute de savoir ce que l'unité est au passif, et ce livre l'avoir dit ; L10.C06, repassé le 30 septembre, tient la règle monétaire pour la branche la plus favorable en la bornant à l'encours (§ 3), et rapporte que la décision du 21 septembre inscrit l'unité au passif des banques centrales participantes, en règle de conception (§ 5).
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ, ET C'EST UNE
      DÉCISION DE LA PASSE ADVERSE DU MÊME JOUR. Il n'emploie pas « sans dette » :
      IL EXPLIQUE PRÉCISÉMENT POURQUOI CE TERME ÉCHOUE. Le réécrire détruirait son
@@ -131,7 +134,7 @@ renvois: [L10.C06, L11.C01, L11.C02, L11.C05, L11.C07, L11.C27, L19.C01, L19.C02
 
 ## 6. Troisième résultat — l'alternative, et ses deux branches se paient
 
-::hypothese:: **BRANCHE A — L'UNITÉ EST LE PASSIF DE L'ÉMETTEUR.** **Alors l'émetteur a des fonds propres négatifs du montant émis**, et l'objection que L21.C01 tire du principe exigeant des fonds propres positifs tient. **Mais la fonte est alors un intérêt négatif sur SA PROPRE DETTE**, et elle n'exige **aucune compétence fiscale** : c'est exactement la branche que L10.C06 § 3 jugeait « la plus favorable » et qu'il ne pouvait pas ouvrir faute de savoir ce que l'unité est au passif. **Ce livre vient de le lui dire.**
+::hypothese:: **BRANCHE A — L'UNITÉ EST LE PASSIF DE L'ÉMETTEUR.** **Alors l'émetteur a des fonds propres négatifs du montant émis**, et l'objection que L21.C01 tire du principe exigeant des fonds propres positifs tient. **Mais la fonte est alors un intérêt négatif sur SA PROPRE DETTE**, et elle n'exige **aucune compétence fiscale** : c'est la branche que L10.C06 § 3 tient pour « la plus favorable », en précisant qu'elle ne couvre que l'encours. **Ce paragraphe ajoutait que ce livre venait de dire à L10.C06 ce que l'unité est au passif : c'est la décision de l'auteur du 21 septembre 2026 qui l'a arrêté depuis, en règle de conception, pour les banques centrales participantes (L10.C06 § 5).**
 
 ::hypothese:: **BRANCHE B — L'UNITÉ N'EST PAS LE PASSIF DE L'ÉMETTEUR**, comme dans le traitement ouvert par L19.C02 où la créance porte sur les participants collectivement. **Alors il n'y a pas de fonds propres négatifs et l'objection de L21.C01 tombe.** **Mais la fonte ne peut plus être l'intérêt de l'émetteur sur sa dette, puisqu'il n'est pas le débiteur** : elle devient un transfert, **et un transfert obligatoire sans contrepartie porte un nom qui exige une compétence que le dispositif n'a pas.**
 
