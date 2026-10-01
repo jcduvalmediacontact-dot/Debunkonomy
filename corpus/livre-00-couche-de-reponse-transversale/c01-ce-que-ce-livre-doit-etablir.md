@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: synthese
 statut: brouillon
-revision_de_fond: 2026-09-27
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -15,25 +15,31 @@ chapitres_sources: [L0.C02, L0.C03, L0.C04, L0.C05, L0.C06, L0.C07, L0.C08,
                     L0.C09, L0.C10, L0.C11]
 verifiee_le: 2026-09-27
 verifications_en_attente:
-  - "BROUILLON DU 2026-09-27, qui REMPLACE l'amorce déposée le 7 septembre 2026.
-     L'ancien texte reste dans `git`. Il enregistrait ce que le registre assigne
-     au matricule 0 et déclarait lui-même qu'il serait remplacé, non complété."
-  - "LA SOURCE S1 DE L'AMORCE EST SORTIE, ET LE MANIFESTE N'A PAS ÉTÉ TOUCHÉ.
-     Elle portait `etat_lecture: a_requalifier` sur autorisation de
-     `corpus/manifeste-etat-lecture.json`. Cette introduction ne s'appuie pas
-     sur l'entrée du registre : la déclarer serait déclarer une source que le
-     corps n'emploie pas. L'occurrence du manifeste devient donc une entrée sans
-     occurrence — alerte A-L3, non blocage. Le manifeste ne s'édite jamais
-     (CLAUDE.md) : l'écart est inscrit ici plutôt que contourné."
+  # SOLDÉE le 2026-10-01 — le § 3 du corps le porte : « Une amorce déposée le 7 septembre 2026 occupait cette place », « Son texte reste dans `git` ».
+  # Texte d'origine :
+  #   - "BROUILLON DU 2026-09-27, qui REMPLACE l'amorce déposée le 7 septembre 2026.
+  #   L'ancien texte reste dans `git`. Il enregistrait ce que le registre assigne
+  #   au matricule 0 et déclarait lui-même qu'il serait remplacé, non complété."
+  # SOLDÉE EN CONSTAT le 2026-10-01 — constat, rien à requalifier : l'entrée est sortie avec l'amorce ; l'occurrence L0.C01/S1 du manifeste reste sans entrée (A-L3, imprimée par controle.py), et le manifeste ne s'édite pas (ordre 22).
+  # Texte d'origine :
+  #   - "LA SOURCE S1 DE L'AMORCE EST SORTIE, ET LE MANIFESTE N'A PAS ÉTÉ TOUCHÉ.
+  #   Elle portait `etat_lecture: a_requalifier` sur autorisation de
+  #   `corpus/manifeste-etat-lecture.json`. Cette introduction ne s'appuie pas
+  #   sur l'entrée du registre : la déclarer serait déclarer une source que le
+  #   corps n'emploie pas. L'occurrence du manifeste devient donc une entrée sans
+  #   occurrence — alerte A-L3, non blocage. Le manifeste ne s'édite jamais
+  #   (CLAUDE.md) : l'écart est inscrit ici plutôt que contourné."
   - "AUCUN CONCEPT N'EST DÉCLARÉ, et ce n'est pas un oubli : ce chapitre décrit
      une manière de lire, il n'emploie aucun concept du vocabulaire. Un concept
      déclaré sans être employé serait un faux. Le champ devra être rempli si le
      corps change, `controle.py` l'exigeant pour atteindre `verifie`."
-  - "LE NOM DU FICHIER DIT ENCORE « ce que ce livre doit établir », titre de
-     l'amorce. L'ordre 4 impose le même fichier ; le renommer relève d'une
-     décision de l'auteur. L'URL publique ne dérive que de l'identifiant
-     (convention § 3, révision 14), donc l'écart ne touche que la lecture du
-     dépôt."
+  # PORTÉE À L'AUTEUR le 2026-10-01 — le renommage est une décision de l'auteur, portée au compte rendu de l'ordre 22 ; l'URL publique ne dérive que de l'identifiant (convention § 3, r14).
+  # Texte d'origine :
+  #   - "LE NOM DU FICHIER DIT ENCORE « ce que ce livre doit établir », titre de
+  #   l'amorce. L'ordre 4 impose le même fichier ; le renommer relève d'une
+  #   décision de l'auteur. L'URL publique ne dérive que de l'identifiant
+  #   (convention § 3, révision 14), donc l'écart ne touche que la lecture du
+  #   dépôt."
 resume: "Ce chapitre explique comment lire le Livre 0 et ce que le Livre 0 ne fait pas. Le Livre 0 est une couche de réponse : on y entre par la question plutôt que par le plan, et chaque entrée répond brièvement à une question avant de renvoyer au chapitre qui démontre. Chaque entrée se lit en trois temps — une réponse courte, une limite explicite qui dit où le chapitre source s'arrête, et un renvoi à la section qui porte la démonstration. Ce chapitre rappelle enfin ce que la couche ne fait pas : elle ne démontre rien, n'ouvre aucune source, n'ajoute aucun chiffre qui ne soit dans le chapitre qu'elle résume, et ne peut donc rien affirmer que ce chapitre n'établisse. Il remplace l'amorce déposée le 7 septembre 2026, qui enregistrait la fonction assignée au matricule 0 et déclarait elle-même qu'elle serait remplacée."
 concepts: []
 renvois: []
@@ -54,8 +60,10 @@ quelques lignes, dans les termes du chapitre qui l'établit.
 précaution de style : elle est reprise de la section où le chapitre borne
 lui-même sa portée, et elle est aussi importante que la réponse.
 
-::etat:: **Le renvoi** nomme la section qui porte la démonstration. C'est là
-qu'il faut aller pour savoir sur quelles pièces elle repose.
+::etat:: **Le renvoi** nomme la section qui porte la démonstration, sous le
+titre « Où cela est démontré ». Il mène à un chapitre vérifié du Livre 1 :
+c'est là qu'il faut aller pour savoir sur quelles pièces la démonstration
+repose.
 
 ## 2. Ce que cette couche ne fait pas
 
