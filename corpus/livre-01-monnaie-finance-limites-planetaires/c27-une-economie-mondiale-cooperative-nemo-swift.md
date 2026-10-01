@@ -60,6 +60,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
+  # relevée par le dossier de clôture des renvois : un renvoi du § 8 vers L1.C25 § 4 portait l'état « brouillon » ; L1.C25 est `verifie`. Le mot est remplacé par « vérifié ».
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # CRIBLE DU 2026-09-29, AVANT L'AUDIT DE CODEX. Quatre chapitres ont été refusés ce jour
   # sur les mêmes motifs ; ils sont cherchés ici et corrigés, sans pièce nouvelle.
   # DÉCISION DE CONCEPTION DU 2026-09-21 (registre, A35, A37 ; protocoles/passe-2.md, « D1
@@ -238,7 +241,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ## 8. Ce que le rééquilibrage arrêté doit à des précédents
 
-::etat:: **Le volet international du dispositif n'est pas sans antériorité, et le chapitre doit le porter.** Le rééquilibrage arrêté reprend des mécanismes que d'autres ont proposés ou pratiqués : le plan présenté par Keynes en 1943, dont L1.C25 § 4 rapporte, d'après une seule leçon de cours, qu'il n'a pas prévalu (brouillon ; pièce ouverte là-bas) ; l'Union européenne des paiements, qui réalisait une compensation multilatérale économe en réserves ; et l'accord de Londres de 1953 sur les dettes allemandes. **Ce que le dispositif ajoute à ces précédents n'est pas établi**, faute de la comparaison qu'exige le test de l'apport propre, et qui n'a pas été conduite.
+::etat:: **Le volet international du dispositif n'est pas sans antériorité, et le chapitre doit le porter.** Le rééquilibrage arrêté reprend des mécanismes que d'autres ont proposés ou pratiqués : le plan présenté par Keynes en 1943, dont L1.C25 § 4 rapporte, d'après une seule leçon de cours, qu'il n'a pas prévalu (vérifié ; pièce ouverte là-bas) ; l'Union européenne des paiements, qui réalisait une compensation multilatérale économe en réserves ; et l'accord de Londres de 1953 sur les dettes allemandes. **Ce que le dispositif ajoute à ces précédents n'est pas établi**, faute de la comparaison qu'exige le test de l'apport propre, et qui n'a pas été conduite.
 
 ::hypothese:: **La différence que le corpus peut nommer sans la chiffrer** est que les obligations des excédentaires y sont automatiques et consenties à l'adhésion, là où le plan de Keynes les laissait à la négociation. C'est une différence de conception, non un apport mesuré.
 
