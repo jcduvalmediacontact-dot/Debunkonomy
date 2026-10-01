@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -19,11 +19,17 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L11.C11 § 6 : la surface de capture la plus exposée n'est pas D2 mais D3, LE CONSTAT, parce qu'elle est technique donc peu lisible, sectorielle donc traitée par des gens du secteur, répétée donc jamais un événement, et de conséquence monétaire immédiate. Et la promesse P25, l'indicateur pris pour cible, dont L11.C13 § 5 a établi qu'elle frappe plus fort sur la qualification que sur le reflux. Et l'arbitrage A17, conflit non résolu entre la directive publiée qu'exige L11.C12 et les indicateurs non annonçables que recommande le remède à Goodhart. Et les cinq biais de concentration de L11.C09 et L11.C13 § 6"
     etat_lecture: a_requalifier
+  # 2026-10-01 : cette entrée est en partie périmée, son texte étant gardé tel que le manifeste le fixe. L11.C13 § 5 tient
+  # en hypothèse, et non établie, la plus grande force de Goodhart sur la qualification, et sa révision comptable demande de
+  # réécrire la raison tirée de l'absence de métrologie ; L11.C13 a ôté le compteur des biais. Les § 4 et § 6 sont corrigés.
   - ref: S3
     nature: theorie
     reference: "F. E. Kydland, E. C. Prescott, « Rules Rather Than Discretion », Journal of Political Economy, 85(3), 1977, p. 473-492 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, dépouillé en L8.C31 : « it is probably preferable that selected rules be simple and easily understood, SO IT IS OBVIOUS WHEN A POLICYMAKER DEVIATES FROM THE POLICY ». Cinquième exigence versée à la directive : la lisibilité comme condition de contrôle"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 4 et § 6, L11.C13 § 5 était dit avoir établi que Goodhart frappe plus fort sur la qualification, avec une citation recomposée, et que l'avantage d'un label indu y « cesse d'être réputationnel pour devenir chiffrable » ; L11.C13 § 5, repris le 1er octobre, le tient en hypothèse, sa révision comptable demande de réécrire la raison tirée de la métrologie, et la seconde formule n'est pas dans la cible. L'entrée [S2], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE. Il porte le RÉSULTAT LE PLUS FAVORABLE AU
   # DISPOSITIF que le Livre 7 ait produit : le livre a une réponse au point que
@@ -91,7 +97,7 @@ renvois: [L1.C18, L7.C05, L7.C06, L8.C31, L11.C09, L11.C11, L11.C12, L11.C13, L1
 
 ::hypothese:: **Répliquer un calcul contrôle le calcul ; cela ne contrôle pas la pertinence de l'indicateur.** Un laboratoire qui reprend les images satellites et refait le traitement établit que **le nombre publié est le bon nombre** — il n'établit pas que ce nombre mesure la régénération.
 
-::hypothese:: **L'objection de l'indicateur pris pour cible survit donc entière.** L11.C13 § 5 a établi qu'elle frappe plus fort sur la qualification que sur le reflux, notamment parce que « l'écart entre l'indicateur et l'effet est **plus grand**, puisqu'il n'existe pas de métrologie établie de la régénération » [S2]. **Un acteur qui optimise contre l'indicateur produit des données parfaitement réplicables** : la réplication confirmera son bon droit.
+::hypothese:: **L'objection de l'indicateur pris pour cible survit donc entière.** L11.C13 § 5 tient, en hypothèse, qu'elle frappe plus fort sur la qualification que sur le reflux, notamment parce que l'écart entre l'indicateur et l'effet y serait **plus grand**, faute de métrologie établie de la régénération [S2] ; sa révision comptable demande de réécrire cette raison, une métrologie physique de l'étendue et de l'état des écosystèmes existant, et l'objection se déplace vers la substituabilité de ses indicateurs. Ce paragraphe écrivait « a établi » et citait la phrase de L11.C13 en la recomposant. **Un acteur qui optimise contre l'indicateur produit des données parfaitement réplicables** : la réplication confirmera son bon droit.
 
 ::hypothese:: **Le corpus formule la limite sous sa forme utile.** La contestabilité publique est un remède contre **l'erreur et la fraude** ; elle n'en est pas un contre **l'ajustement légal des pratiques à ce que le barème récompense**, qui est la formulation exacte que le registre donne à P25. **Le livre a répondu à la capture et non à Goodhart.**
 
@@ -109,7 +115,7 @@ renvois: [L1.C18, L7.C05, L7.C06, L8.C31, L11.C09, L11.C11, L11.C12, L11.C13, L1
 
 ::etat:: **Le livre dit que la Chambre de Recours peut être saisie** ; **il ne dit pas ce qu'une réplication contradictoire produit.** Suspend-elle le constat, ou l'expose-t-elle seulement ?
 
-::hypothese:: **La différence décide de tout.** Si une réplication sérieuse **suspend** le constat, le mécanisme a des dents et devient un instrument de blocage à surveiller. Si elle ne fait que **l'exposer**, il repose entièrement sur la réputation — **et L11.C13 § 5 a établi que sur ce barème l'avantage à obtenir un label indu cesse d'être réputationnel pour devenir chiffrable.** Le corpus ne tranche pas et porte la question en vérification.
+::hypothese:: **La différence décide de tout.** Si une réplication sérieuse **suspend** le constat, le mécanisme a des dents et devient un instrument de blocage à surveiller. Si elle ne fait que **l'exposer**, il repose entièrement sur la réputation — **et sur ce barème l'avantage à obtenir un label indu est monétaire, puisque être certifié produit de la monnaie** (L11.C13 § 5, en hypothèse). Ce paragraphe faisait dire à L11.C13 § 5 que cet avantage « cesse d'être réputationnel pour devenir chiffrable », ce qu'il n'écrit pas. Le corpus ne tranche pas et porte la question en vérification.
 
 ## 7. Portée
 
