@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "Le corpus lui-même — l'arbitrage A5, le périmètre financé, ROUTÉ VERS CE LIVRE le 2026-09-06 par décision de l'auteur, avec les promesses P32 (le périmètre est indéterminé), P33 (le critère cesse de tenir dans le régime des services) et P57 (le récit public tranche plus large que la conception). Et le résultat de L11.C13 § 3 : DÉCIDER CE QUI QUALIFIE EST DÉCIDER CE QUI EST FINANCÉ, de sorte que le périmètre et le barème de qualification sont une seule décision vue de deux endroits. Et L1.C15, l'essentiel insolvable"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 4 était dit avoir établi qu'à enveloppe plafonnée élargir le périmètre dilue ce que reçoivent les autres ; L11.C16 § 4, repris le 30 septembre, tient le partage pour conditionnel.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE QUI TRAITE L'ARBITRAGE ROUTÉ ICI LE JOUR MÊME. Il n'a pas de
   # source institutionnelle propre : le livre pose une ligne de délimitation en
@@ -95,7 +98,7 @@ renvois: [L1.C09, L1.C15, L1.C22, L7.C05, L7.C06, L7.C13, L11.C13, L11.C16]
 
 ::hypothese:: **Une liste FERMÉE est prévisible et se périme.** Elle donne aux acteurs une certitude et interdit l'arbitraire ; **elle exclut par construction ce qu'on n'a pas su nommer** — un cycle biogéochimique, un service écosystémique découvert plus tard, un commun local sans équivalent mondial.
 
-::hypothese:: **Une liste OUVERTE s'adapte et se négocie.** Elle accueille ce qui n'était pas prévu ; **et chaque ajout devient un enjeu de partage**, puisque L11.C16 § 4 a établi qu'à enveloppe plafonnée, élargir le périmètre dilue ce que reçoivent ceux qui y sont déjà. **Le conflit d'intérêts de L7.C04 s'exerce alors sur l'admission de nouveaux objets.**
+::hypothese:: **Une liste OUVERTE s'adapte et se négocie.** Elle accueille ce qui n'était pas prévu ; **et chaque ajout devient un enjeu de partage**, puisque, si l'enveloppe est plafonnée et que la demande l'excède, élargir le périmètre dilue ce que reçoivent ceux qui y sont déjà ; L11.C16 § 4 tient ce partage pour un scénario à éprouver, et ce paragraphe écrivait qu'il l'avait établi. **Le conflit d'intérêts de L7.C04 s'exerce alors sur l'admission de nouveaux objets.**
 
 ::hypothese:: **Le corpus ne tranche pas et note la sortie que sa propre construction suggère** : une liste fermée **assortie d'une procédure d'élargissement soumise à une majorité qualifiée et à un délai** — soit exactement la structure à deux niveaux que L7.C02 § 4 a trouvée chez l'un des précédents, décision ordinaire d'un côté, révision de la règle de l'autre. **C'est une piste de conception, non un résultat.**
 
