@@ -24,6 +24,9 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » PREMIER CHOIX SPONTANÉ DE LA FORME DIRECTIVE par l'auteur ; le présent chapitre en établit un SECOND, antérieur et resté inaperçu — le seuil indexé sur le revenu médian"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : au § 7, L11.C16 § 2 était dit avoir établi que le produit du reflux plafonne l'enveloppe ; le plafond tient sous la condition de bouclage de L11.C03 § 3, et L11.C16 § 2 ne dit plus l'avoir établi.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : en tête et au § 2, le seuil d'exemption était dit réservé aux personnes physiques, rien n'existant pour les personnes morales ; L11.C17 § 8, repassé le 1er octobre sur le livre (folio 190), écrit que le seuil protège « l'épargne populaire et la trésorerie courante des entreprises », et vise donc les personnes morales sans en donner la forme. Le résumé suit ; la question que le chapitre instruit, la forme d'un seuil propre aux personnes morales, reste entière.
   # Statut inchangé.
@@ -126,7 +129,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 
 ## 6. Ce que la correction coûte, et c'est chiffrable
 
-::hypothese:: L11.C16 § 2 a établi que **le produit du reflux plafonne l'enveloppe d'émission**. Il en résulte une conséquence directe que le corpus n'avait jamais énoncée : **exempter réduit l'assiette, donc le produit, donc l'enveloppe, donc ce qui peut être financé.**
+::hypothese:: Sous la condition de bouclage, que L11.C03 § 3 range parmi celles du dispositif, **le produit du reflux plafonne l'enveloppe d'émission** ; ce paragraphe écrivait que L11.C16 § 2 l'avait établi, et L11.C16 § 2, repris le 30 septembre, rapporte que le livre confie le volume annuel maximal au Conseil Monétaire Mondial, qui le calcule par une formule, et que rien n'établit qu'un couple viable d'émission et de reflux existe (L1.C21 § 8). Il en résulte une conséquence directe que le corpus n'avait jamais énoncée : **exempter réduit l'assiette, donc le produit, donc l'enveloppe, donc ce qui peut être financé.**
 
 ::hypothese:: **La correction d'incidence se paie en financement régénératif.** Ce n'est pas un argument contre elle — L11.C03 porte à l'inventaire la condition-limite **B3**, « certain proportionalities between the sacrifices of different social groups » [S2], et une condition-limite compte comme un objectif dès qu'elle est menacée. **C'est que les deux termes de l'arbitrage sont pour la première fois de même nature** : une quantité d'assiette contre une quantité d'émission.
 
