@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 134 et 136 — OUVERT le 2026-09-06. Contestabilité publique : « publication en données ouvertes DES ALGORITHMES, séries brutes et registres d'audit, avec possibilité de réplication et de contestation par des tiers devant la Chambre de Recours ». Et la saisine de la Chambre est ouverte « par des organisations non gouvernementales DÉNONÇANT UNE FRAUDE OU UN MANQUEMENT ». Et p. 134, l'Office « certifie la réalité des prestations régénératives EXÉCUTÉES SUR LE TERRAIN »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 1, § 4 et § 6, dans une vérification en attente et au résumé, L11.C13 § 4 était dit avoir établi que le contrefactuel est déformé par l'annonce du barème et doit être construit, et L11.C13 § 5 qu'il a établi que publier permet d'optimiser ; L11.C13, repris le 1er octobre, rapporte que le livre écarte l'additionnalité contrefactuelle et paie un état constaté, la difficulté se déplaçant sur l'état de référence, et tient le second point en hypothèse. Le chapitre n'est pas réécrit : il dit que son raisonnement vaut pour l'état de référence.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE QUI PORTE UNE SECONDE CORRECTION EN FAVEUR DU LIVRE, du même type
   # que celle de L7.C10 § 1 : une exigence que le corpus posait comme absente
@@ -39,9 +42,9 @@ verifications_en_attente:
      le livre n'en dit rien.**"
   - "L'ARTICULATION AVEC A17 N'EST PAS TRANCHÉE. Publier les modèles est ce que
      ce chapitre exige ; **publier les modèles est aussi ce qui permet
-     d'optimiser contre eux**, ce que L11.C13 § 5 a établi. Le corpus tient les
+     d'optimiser contre eux**, ce que L11.C13 § 5 tient en hypothèse. Le corpus tient les
      deux et ne les concilie pas."
-resume: "Ce chapitre porte une seconde correction en faveur du livre et un résultat défavorable qui en découle. Il établit d'abord que la vulnérabilité principale du dispositif n'est pas la destruction dissimulée mais la manipulation du scénario de référence, résultat que le corpus tenait depuis deux jours, et que l'exigence qu'il en tirait — un audit contradictoire ouvert des modèles — figure dans le chapitre du livre, la contestabilité publique portant expressément sur les algorithmes. C'est la seconde exigence que le corpus déclarait absente et qui ne l'est pas. Il établit ensuite pourquoi cette réponse ne suffit pas, et la raison est de nature et non de degré : répliquer un calcul établit que le nombre publié est le bon nombre, mais un scénario de référence n'est pas un calcul, c'est une hypothèse sur ce qui se serait produit autrement, et deux équipes qui disposent du même modèle et des mêmes données peuvent en retenir des contrefactuels différents sans qu'aucune se trompe. Il en tire que la publication n'éteint pas le désaccord mais l'organise, et que le dispositif convertit alors un différend métrologique en litige juridictionnel, la Chambre de Recours devant arbitrer entre deux constructions scientifiques concurrentes. Il établit enfin que cette conversion est la seule sortie disponible et qu'elle impose au livre une chose qu'il ne prévoit pas, un régime probatoire."
+resume: "Ce chapitre porte une seconde correction en faveur du livre et un résultat défavorable qui en découle. Il établit d'abord que la vulnérabilité principale du dispositif n'est pas la destruction dissimulée mais la manipulation du scénario de référence, résultat que le corpus tenait depuis deux jours, et que l'exigence qu'il en tirait — un audit contradictoire ouvert des modèles — figure dans le chapitre du livre, la contestabilité publique portant expressément sur les algorithmes. C'est la seconde exigence que le corpus déclarait absente et qui ne l'est pas. Il établit ensuite pourquoi cette réponse ne suffit pas, et la raison est de nature et non de degré : répliquer un calcul établit que le nombre publié est le bon nombre, mais un scénario de référence n'est pas un calcul, c'est une hypothèse sur ce qui se serait produit autrement, et deux équipes qui disposent du même modèle et des mêmes données peuvent en retenir des contrefactuels différents sans qu'aucune se trompe. Il en tire que la publication n'éteint pas le désaccord mais l'organise, et que le dispositif convertit alors un différend métrologique en litige juridictionnel, la Chambre de Recours devant arbitrer entre deux constructions scientifiques concurrentes. Il établit enfin que cette conversion est la seule sortie disponible et qu'elle impose au livre une chose qu'il ne prévoit pas, un régime probatoire. Le livre écarte, selon L11.C13, l'additionnalité contrefactuelle et paie un état constaté : le raisonnement vaut pour l'état de référence, que ce chapitre dit contesté."
 concepts: [qualification_regenerative, additionnalite, indicateur_de_progres, bareme, polycentricite]
 renvois: [L1.C18, L7.C05, L7.C07, L7.C10, L7.C14, L11.C13, L11.C25]
 ---
@@ -56,7 +59,7 @@ renvois: [L1.C18, L7.C05, L7.C07, L7.C10, L7.C14, L11.C13, L11.C25]
 
 ::hypothese:: **Le mécanisme est simple et il n'a rien d'une fraude au sens ordinaire.** Certifier un acte régénératif suppose d'établir **ce qui se serait passé sans lui** : combien de forêt aurait été abattue, combien de carbone aurait été émis, combien d'espèces auraient disparu. **Plus le scénario de référence est pessimiste, plus l'acte paraît méritoire** — et donc plus il vaut.
 
-::hypothese:: **On ne dissimule rien : on choisit une hypothèse.** L'acte a bien eu lieu, les mesures sont exactes, les données sont publiées. **Ce qui est manipulé n'est pas un fait, c'est une comparaison** — et L11.C13 § 4 a établi que ce contrefactuel « est déformé par l'annonce même du barème qu'il doit servir à calibrer » [S1].
+::hypothese:: **On ne dissimule rien : on choisit une hypothèse.** L'acte a bien eu lieu, les mesures sont exactes, les données sont publiées. **Ce qui est manipulé n'est pas un fait, c'est une comparaison** — et ce paragraphe écrivait que L11.C13 § 4 avait établi que ce contrefactuel « est déformé par l'annonce même du barème qu'il doit servir à calibrer » [S1]. **L11.C13 § 4, repris le 1er octobre, rapporte que le livre écarte l'additionnalité contrefactuelle** : le système ne paie pas un évitement, il paie un état constaté. La comparaison qui reste est celle de l'état constaté à un état de référence, que L11.C13 dit contesté et que l'annonce du dispositif peut déformer avant la première certification — conjecture, non résultat. **Les § 3 et § 4 de ce chapitre raisonnent sur un contrefactuel ; ils valent pour cet état de référence, dans la mesure où il est construit et contesté.**
 
 ## 2. L'exigence que le corpus posait figure dans le livre
 
@@ -80,7 +83,7 @@ renvois: [L1.C18, L7.C05, L7.C07, L7.C10, L7.C14, L11.C13, L11.C25]
 
 ::hypothese:: **C'est le résultat propre du chapitre.** Si la contestation ne tranche pas, quelqu'un doit trancher. **Le livre le prévoit : la contestation se fait « devant la Chambre de Recours »** [S2], que des organisations non gouvernementales peuvent saisir en « dénonçant une fraude ou un manquement ».
 
-::hypothese:: **Il en résulte que des magistrats indépendants devront arbitrer entre deux constructions scientifiques concurrentes**, sur une grandeur qui n'existe pas et dont aucune observation ne peut décider. **Ce n'est pas une critique du choix — c'est la seule sortie disponible** : L11.C13 § 4 a établi que le contrefactuel doit être construit, et une construction contestée se tranche par une autorité ou ne se tranche pas.
+::hypothese:: **Il en résulte que des magistrats indépendants devront arbitrer entre deux constructions scientifiques concurrentes**, sur une grandeur qui n'existe pas et dont aucune observation ne peut décider. **Ce n'est pas une critique du choix — c'est la seule sortie disponible** : un état de référence contesté se construit, et une construction contestée se tranche par une autorité ou ne se tranche pas. Ce paragraphe écrivait que L11.C13 § 4 avait établi que le contrefactuel doit être construit, ce que ce chapitre-là a retiré (§ 1).
 
 ::hypothese:: **Mais cela impose au livre une chose qu'il ne prévoit pas : un RÉGIME PROBATOIRE.** Qui supporte la charge de la preuve — le certificateur qui affirme l'additionnalité, ou le contestataire qui la nie ? Quel standard s'applique — la prépondérance, la certitude raisonnable ? **La Chambre peut-elle ordonner une expertise, et qui la conduit ?**
 
@@ -94,7 +97,7 @@ renvois: [L1.C18, L7.C05, L7.C07, L7.C10, L7.C14, L11.C13, L11.C25]
 
 ## 6. Une tension que le corpus ne concilie pas
 
-::etat:: **Ce chapitre exige la publication des modèles.** L11.C13 § 5 a établi que **publier ce sur quoi le barème récompense est précisément ce qui permet d'optimiser contre lui** — l'ajustement légal des pratiques à ce que le barème récompense, qui est la formulation de P25.
+::etat:: **Ce chapitre exige la publication des modèles.** L11.C13 § 5 tient, en hypothèse, qu'on ne peut pas à la fois publier la fonction et cacher l'indicateur, et rapporte de P25 que **l'objection n'est pas la fraude mais l'ajustement légal des pratiques à ce que le barème récompense** ; publier ce sur quoi le barème récompense est ce qui permet d'optimiser contre lui. Ce paragraphe écrivait « a établi ».
 
 ::hypothese:: **Le corpus tient donc deux exigences vraies et opposées, et c'est l'arbitrage A17 sous une forme nouvelle.** Publier le modèle est la seule protection contre la manipulation du scénario ; **c'est aussi le mode d'emploi de cette manipulation.** Il ne concilie pas et enregistre que **le dispositif n'a pas de position stable sur ce point.**
 
