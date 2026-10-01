@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-21
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -76,6 +76,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : deux renvois. Au § 3, la définition de L1.C01 compte les prélèvements à part, elle ne demande pas des indicateurs nets. Au § 5, L1.C23 § 2 a retiré la généralité d'une réduction délibérée de l'efficacité, et tient un coût possible, qui dépend du point de départ.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
 resume: "La représentation courante de l'économie comme circuit autonome omet le milieu qui la rend possible. Ce chapitre expose une représentation alternative en trois niveaux emboîtés — biosphère, société, économie — et deux cadres distincts qu'il mobilise : les neuf limites planétaires, dont sept sont évaluées comme franchies, et l'espace du donut entre plafond écologique et plancher social. Il propose enfin de substituer la robustesse à la performance comme objectif, et examine ce que cette substitution exigerait."
 concepts: [limites_planetaires, plafond_ecologique, plancher_social, robustesse, fausse_richesse]
 renvois: [L1.C01, L1.C02, L1.C03, L1.C05, L1.C23]
@@ -115,7 +118,7 @@ Il expose une représentation — l'économie comme sous-ensemble de la sociét�
 
 ::etat:: L'ordre de grandeur de l'écart contemporain se lit sur la concentration atmosphérique de CO2. Pendant l'Holocène — environ onze mille sept cents ans —, elle est demeurée comprise entre 260 et 280 ppm, soit une variation naturelle d'une vingtaine de ppm sur toute la période, et s'établissait autour de 278 ppm avant l'industrialisation. [S6] Elle atteint 422,8 ppm en moyenne en 2024. [S5] Ce n'est donc pas une constance rompue : c'est une amplitude sans commune mesure avec la variabilité propre de la période.
 
-::etat:: Une variable de contrôle a été introduite en 2023 pour l'intégrité fonctionnelle de la biosphère : l'appropriation humaine de la production primaire nette. Elle est estimée à environ 30 % de la production primaire moyenne de l'Holocène, et cette limite est également évaluée comme franchie. [S2] C'est la grandeur du cadre la plus directement rapprochable de la définition biophysique de la régénération posée au premier chapitre (L1.C01). **Rapprochable n'est pas mesurable, et la borne doit être dite** : cette grandeur est un agrégat sur la biosphère, qui ne se désagrège pas par fonds, quand la définition de L1.C01 exige des indicateurs propres à un fonds déterminé, rapportés à un état de référence et nets des prélèvements. Une activité peut améliorer un fonds en élevant cet agrégat, et l'abaisser en dégradant un autre.
+::etat:: Une variable de contrôle a été introduite en 2023 pour l'intégrité fonctionnelle de la biosphère : l'appropriation humaine de la production primaire nette. Elle est estimée à environ 30 % de la production primaire moyenne de l'Holocène, et cette limite est également évaluée comme franchie. [S2] C'est la grandeur du cadre la plus directement rapprochable de la définition biophysique de la régénération posée au premier chapitre (L1.C01). **Rapprochable n'est pas mesurable, et la borne doit être dite** : cette grandeur est un agrégat sur la biosphère, qui ne se désagrège pas par fonds, quand la définition de L1.C01 exige des indicateurs propres à un fonds déterminé, rapportés à un état de référence, les prélèvements étant comptés à part, sans conversion en unité commune. Une activité peut améliorer un fonds en élevant cet agrégat, et l'abaisser en dégradant un autre.
 
 ::etat:: Le cas de l'ozone mérite d'être noté séparément. Le protocole de Montréal, adopté en 1987, a conduit à une réduction des substances responsables de l'appauvrissement, et la couche est en voie de reconstitution — non reconstituée : la publication de 2023 fait état d'une reconstitution légère. [S2] C'est un cas particulièrement documenté de dégradation environnementale mondiale infléchie par une action coordonnée entre États. Affirmer qu'il serait le seul supposerait un recensement que ce chapitre n'a pas conduit. Il constitue un précédent, dont la portée est discutée : la substitution technique y était disponible et le nombre de producteurs concernés limité.
 
@@ -137,7 +140,7 @@ Il expose une représentation — l'économie comme sous-ensemble de la sociét�
 
 ::etat:: L'objectif ordinairement assigné à l'organisation économique est l'accroissement de la productivité : produire davantage avec des ressources données. Cet objectif est central dans la discipline depuis ses commencements — l'ouvrage de 1776 d'Adam Smith s'ouvre sur la division du travail et ses effets sur la productivité [S11] — sans que la maximisation de la performance y soit posée comme fin assignée à une politique, formulation qui appartient à une époque ultérieure. Cet objectif a des résultats mesurables et considérables sur deux siècles. **Que cet objectif soit « ordinairement assigné » et central « depuis les commencements » est une caractérisation de ce chapitre, qu'aucune source ne porte ici** : [S11] n'atteste que l'objet du premier chapitre de Smith.
 
-::hypothese:: Une autre propriété peut être recherchée : la capacité d'un système à continuer de fonctionner sous perturbation — la robustesse, au sens qu'Olivier Hamant lui donne à partir du vivant, « la capacité d'un système à demeurer stable malgré les fluctuations » [S12]. Elle se paie en efficacité — les redondances, les réserves et les marges coûtent —, mais elle permet d'absorber des chocs qu'un système optimisé propage. L1.C23 § 2 en donne le prix — redondance, diversité, modularité — comme une réduction délibérée de l'efficacité mesurée dont quelqu'un supporte le coût.
+::hypothese:: Une autre propriété peut être recherchée : la capacité d'un système à continuer de fonctionner sous perturbation — la robustesse, au sens qu'Olivier Hamant lui donne à partir du vivant, « la capacité d'un système à demeurer stable malgré les fluctuations » [S12]. Elle se paie en efficacité — les redondances, les réserves et les marges coûtent —, mais elle permet d'absorber des chocs qu'un système optimisé propage. L1.C23 § 2 en décrit la signature — redondance, diversité, modularité — et le coût possible, qui dépend du point d'où l'on part et que quelqu'un supporte quand il existe.
 
 ::etat:: L'illustration suivante est une analogie, non un argument. Pour une traversée en eaux calmes, un navire optimisé pour la vitesse est préférable. Pour une traversée longue en conditions incertaines, un navire plus lourd, doté de réserves et de marges, a de meilleures chances d'arriver. L'analogie éclaire l'arbitrage ; elle ne l'établit pas, et rien n'assure que l'économie mondiale se comporte comme un navire.
 

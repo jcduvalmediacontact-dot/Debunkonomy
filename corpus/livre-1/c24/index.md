@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -63,6 +63,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : deux renvois, aux §§ 1 et 6. L1.C13 ne traite pas la compétition prédatrice comme telle ; son § 3 documente l'orientation exportatrice imposée par l'ajustement et le sophisme de composition.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # REFUS DE MONTÉE DE CODEX, 2026-09-29, RÉSERVES R1 À R4 ET TROIS OBSERVATIONS, TRAITÉES CE
   # JOUR. Rapport : Documents/Codex/2026-09-29/audit-L1-C24-39b82815.md.
   # R2, R3, R4 — CONTRE LES PIÈCES [S8], [S9], [S11] et [S2] : les rétractations sont au corps,
@@ -227,7 +230,7 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 
 ::hypothese:: Le sixième, l'hégémonie, reçoit ici un autre mécanisme que celui du livre. Le livre la présente comme une conséquence du privilège, donc comme un attribut de l'État émetteur. Or si le dollar international est majoritairement de la monnaie de banque privée, l'hégémonie ne s'exerce pas par la propriété de la monnaie mais par la juridiction sur le réseau qui la compense. C'est ce qui rend les mesures d'exclusion efficaces : ce qu'on coupe n'est pas l'accès à une monnaie, c'est l'accès à un système de règlement. Le dilemme est réel et le corpus le retient — mais son mécanisme est plus difficile à défaire, puisqu'il ne suffirait pas de changer d'unité de compte pour changer de chambre de compensation.
 
-::hypothese:: Le septième relève d'un autre registre et ne peut pas figurer sur la même liste. Que le commerce international entretienne une compétition prédatrice pour les ressources est une thèse du corpus lui-même (L1.C13), et elle porte sur les effets réels du système. Ce n'est pas un dilemme du système monétaire au sens des cinq autres, qui sont des impossibilités logiques ou des propriétés d'architecture. Les mélanger affaiblit la liste : un lecteur qui conteste le septième croira avoir atteint les autres.
+::hypothese:: Le septième relève d'un autre registre et ne peut pas figurer sur la même liste. Que le commerce international entretienne une compétition prédatrice pour les ressources est une thèse que le corpus n'a pas instruite comme telle ; L1.C13 § 3 en documente un mécanisme voisin, l'orientation exportatrice que l'ajustement a imposée aux économies endettées. Elle porte sur les effets réels du système. Ce n'est pas un dilemme du système monétaire au sens des cinq autres, qui sont des impossibilités logiques ou des propriétés d'architecture. Les mélanger affaiblit la liste : un lecteur qui conteste le septième croira avoir atteint les autres.
 
 ## 2. Ce qu'est le dollar dans les opérations
 
@@ -301,7 +304,7 @@ renvois: [L1.C05, L1.C07, L1.C09, L1.C13, L1.C19, L1.C20, L1.C22, L1.C23, L1.C25
 
 ## 6. Portée
 
-::etat:: Ce chapitre a réduit le diagnostic du livre sans le congédier. Quatre dilemmes sur sept sont repris ; le triangle d'incompatibilité ne sert plus contre le dispositif, puisque l'arbitrage en fait le motif du sommet retenu ; le privilège exorbitant reçoit sa contrepartie, bornée en jambe de crise d'un contrat d'assurance ; la formulation du dilemme de Triffin est corrigée ; l'hégémonie reçoit un autre mécanisme, la juridiction sur le réseau de compensation ; et la compétition prédatrice est renvoyée à L1.C13, qui la traite comme un effet réel et non comme un dilemme monétaire.
+::etat:: Ce chapitre a réduit le diagnostic du livre sans le congédier. Quatre dilemmes sur sept sont repris ; le triangle d'incompatibilité ne sert plus contre le dispositif, puisque l'arbitrage en fait le motif du sommet retenu ; le privilège exorbitant reçoit sa contrepartie, bornée en jambe de crise d'un contrat d'assurance ; la formulation du dilemme de Triffin est corrigée ; l'hégémonie reçoit un autre mécanisme, la juridiction sur le réseau de compensation ; et la compétition prédatrice sort de la liste comme un effet réel et non un dilemme monétaire ; L1.C13 § 3 en documente un mécanisme voisin, sans l'instruire comme tel.
 
 ::etat:: Il a établi que la domination du dollar n'est pas d'abord un privilège d'État mais le sommet d'une hiérarchie de règlement hybride — de la monnaie de banque privée, que des lignes d'échange ouvertes en crise à certaines banques centrales ont adossée à de la monnaie publique, et que double la facturation dans la devise dominante. **Trois inerties, non une, qu'aucun traité ne déplace par lui-même** ; la troisième est une inférence du corpus. Le corpus n'en a analysé aucune : elles sont nommées, et c'est une dette.
 
