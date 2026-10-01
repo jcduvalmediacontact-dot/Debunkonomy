@@ -21,6 +21,9 @@ sources_primaires:
     etat_lecture: a_requalifier
 verifications_en_attente:
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 2 et § 3, L11.C13 § 2 était dit avoir établi une asymétrie « structurelle », avec une citation recomposée, et L11.C13 § 6 avoir établi que le défaut de qualification exclut du financement ; L11.C13, repris le 1er octobre, tient la première en conjecture sur la détectabilité et la seconde en hypothèse.
+  # Statut inchangé.
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : au § 1, L1.C27 § 6 était dit avoir établi sous P52 que la valorisation décide de la solvabilité extérieure des membres ; L1.C27 § 6 n'en fait qu'une lecture parmi trois, et le registre (P52, `0f870e88`) l'écrit ainsi depuis ce jour. L1.C27 entre aux renvois.
   # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
@@ -66,7 +69,7 @@ renvois: [L1.C26, L1.C27, L7.C05, L7.C07, L7.C08, L7.C10, L11.C11, L11.C13, L11.
 
 ::etat:: **Trois catégories peuvent saisir** [S1] : un **État** contestant un audit d'inflation ; une **entreprise ou une collectivité** à laquelle une certification a été refusée ; des **organisations non gouvernementales** dénonçant une fraude ou un manquement.
 
-::hypothese:: **La deuxième est celle qui compte, et le corpus ne l'attendait pas.** L11.C13 § 2 a établi une asymétrie qu'il tenait pour structurelle [S2] : **sur-qualifier finit par se voir**, la monnaie circulant sans que l'effet promis arrive ; **sous-qualifier ne se voit jamais**, « faute de contrefactuel — le projet non certifié n'existe pas, et rien ne signale son absence ». Le corpus en avait tiré qu'un barème calibré sur l'observable serait systématiquement trop strict.
+::hypothese:: **La deuxième est celle qui compte, et le corpus ne l'attendait pas.** L11.C13 § 2 tient, en conjecture sur la détectabilité, une asymétrie [S2] : **sur-qualifier finit par se voir**, la monnaie circulant sans que l'effet promis arrive ; **sous-qualifier ne se voit jamais**, faute de contrefactuel : « le projet non certifié n'existe pas, et rien ne signale son absence ». Le corpus en avait tiré qu'un barème calibré sur l'observable serait systématiquement trop strict. Ce paragraphe écrivait « a établi » et « structurelle », et recomposait la citation.
 
 ::hypothese:: **Un droit de recours ouvert à qui s'est vu refuser une certification donne une voix au projet refusé.** L'absence cesse d'être silencieuse : **le refus produit un dossier, et le dossier produit une trace.** C'est le seul mécanisme du dispositif qui rende visible l'erreur que le corpus disait invisible.
 
@@ -76,7 +79,7 @@ renvois: [L1.C26, L1.C27, L7.C05, L7.C07, L7.C08, L7.C10, L11.C11, L11.C13, L11.
 
 ::hypothese:: **Celui qui ignore avoir été lésé ne saisit personne.** Le recours protège **le demandeur débouté** — celui qui a déposé un dossier et l'a vu rejeter. **Il ne protège pas celui qui n'a pas déposé**, parce qu'il ignorait pouvoir le faire, parce que le barème ne prévoyait pas sa catégorie, ou parce que la démarche excédait ses moyens.
 
-::hypothese:: **Et c'est exactement la population que le dispositif vise.** L11.C13 § 6 a établi que le défaut de qualification exclut du financement qui ne peut pas documenter, et L7.C07 § 5 que la contestabilité elle-même reproduit le biais de concentration — **sixième biais, le premier dans un contre-pouvoir.** **Un recours est un contre-pouvoir de plus, et il souffre du même défaut : il est accessible à qui sait qu'il existe.**
+::hypothese:: **Et c'est exactement la population que le dispositif vise.** L11.C13 § 6 tient, en hypothèse, que le défaut de qualification exclut du financement qui ne peut pas documenter, et L7.C07 § 5 que la contestabilité elle-même reproduit le biais de concentration — **sixième biais, le premier dans un contre-pouvoir.** **Un recours est un contre-pouvoir de plus, et il souffre du même défaut : il est accessible à qui sait qu'il existe.**
 
 ::hypothese:: **Le corpus tempère aussitôt, parce que la troisième catégorie de saisine y répond en partie.** Les organisations non gouvernementales peuvent saisir « dénonçant une fraude ou un manquement » — **un tiers peut donc agir pour celui qui ne le fait pas.** C'est un remède réel, et il dépend entièrement de l'existence d'un tissu associatif là où le besoin est.
 
