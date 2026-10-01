@@ -124,6 +124,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : deux ancres : en tête, la question ouverte est en L1.C04 § 7, le déplacement d'objectif restant au § 5 ; au § 4, la condition d'accumulation est en L1.C08 § 3, non § 2.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # RÈGLE W2 DE L'AUTEUR, 2026-09-28 : une limite que le corps porte se solde,
   # la phrase citée ; une question ouverte quitte l'en-tête pour le § 7, écrite
   # comme ouverte. `verifie` dit « sourcé et borné », non « résolu ». Les dix
@@ -382,7 +385,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 # L'économie de la robustesse
 
-::etat:: L1.C04 § 5 avait proposé un déplacement d'objectif, de la performance vers la robustesse, et laissé une question ouverte : ce rééquilibrage exige-t-il de modifier l'émission monétaire, ou peut-il être obtenu autrement ? Le dispositif ayant été exposé entre-temps, ce chapitre y revient. Il établit ce que le mot « robustesse » nomme exactement, ce que l'objectif peut coûter, et ce que le dispositif fait lorsqu'on le mesure à ses propres critères.
+::etat:: L1.C04 § 5 avait proposé un déplacement d'objectif, de la performance vers la robustesse, et son § 7 avait laissé une question ouverte : ce rééquilibrage exige-t-il de modifier l'émission monétaire, ou peut-il être obtenu autrement ? Le dispositif ayant été exposé entre-temps, ce chapitre y revient. Il établit ce que le mot « robustesse » nomme exactement, ce que l'objectif peut coûter, et ce que le dispositif fait lorsqu'on le mesure à ses propres critères.
 
 ## 1. Trois mots qu'il ne faut pas confondre
 
@@ -466,7 +469,7 @@ renvois: [L1.C04, L1.C08, L1.C12, L1.C14, L1.C15, L1.C18, L1.C19, L1.C20, L1.C21
 
 ::hypothese:: Le corpus doit donc corriger sa propre formulation antérieure, qui glissait de « la monnaie existe » à « la monnaie est disponible ». Ce ne sont pas deux façons de dire la même chose. La réfutation de l'argument arithmétique n'exige que la première, plus une circulation non nulle : elle établit que l'intérêt est payable en principe, et ce résultat tient. **Ce qu'elle ne prouve pas est que les revenus d'intérêts soient effectivement redépensés dans les économies observées** : « intégralement redépensés » est une hypothèse de modèle, non un fait constaté.
 
-::hypothese:: Cette précision ne fragilise pas la position du corpus : elle la renforce, et par le côté qu'on n'attendait pas. Ce que L1.C08 § 2 nommait la condition d'accumulation — la contrainte apparaît lorsque les créanciers accumulent au lieu de dépenser — reçoit ici un ordre de grandeur, sans être pour autant établie. **Que les économies observées satisfassent la condition sous laquelle la contrainte existe reste à démontrer** : les pièces mesurent un stock détenu, non une non-redépense. Le débat théorique reste ouvert, et le cas empirique n'est pas tranché.
+::hypothese:: Cette précision ne fragilise pas la position du corpus : elle la renforce, et par le côté qu'on n'attendait pas. Ce que L1.C08 § 3 nommait la condition d'accumulation — la contrainte apparaît lorsque les créanciers accumulent au lieu de dépenser — reçoit ici un ordre de grandeur, sans être pour autant établie. **Que les économies observées satisfassent la condition sous laquelle la contrainte existe reste à démontrer** : les pièces mesurent un stock détenu, non une non-redépense. Le débat théorique reste ouvert, et le cas empirique n'est pas tranché.
 
 ::hypothese:: Le corpus tient donc trois choses distinctes, et refuse de les confondre. Que l'argument arithmétique est faux — établi. Qu'un impératif de croissance existe ou non dans les économies réelles — **question ouverte**, où la littérature se partage. Et que, dans les conditions institutionnelles observées, le service d'un encours croissant exige des revenus croissants tandis que le régime plafonne l'une des deux issues qui en dispenseraient et traite l'autre comme un accident à prévenir — établi en L1.C12 § 5, et indépendant du débat précédent.
 
