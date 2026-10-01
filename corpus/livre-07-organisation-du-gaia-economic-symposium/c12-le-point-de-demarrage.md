@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L11.C01 § 4 et L11.C02 § 6 : sous la lecture B, « en régime permanent, si les recettes financent l'émission suivante, ce n'est plus une création monétaire : c'est un prélèvement écologique mondial affecté, PRÉCÉDÉ D'UNE ÉMISSION D'AMORÇAGE ». Et L11.C24 § 5 sur la difficulté d'amorçage de la coalition : « tout est plus facile quand la coalition est déjà grande ». Et la promesse P51, seuil d'activation affirmé et non dérivé ; et la promesse P35, régime transitoire pris entre deux contraintes opposées"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, L11.C16 § 6 était dit avoir établi qu'une fonction de valorisation choisie une fois détermine la balance des paiements de chaque membre, et l'exigence de révisabilité maximale ; L11.C16, repassé le 30 septembre, tient en hypothèse une exigence plus forte sur la grille de priorité et retire le lien avec la balance des paiements. Au § 5, L8.C31 § 6 et L7.C09 § 6 étaient dits avoir établi le délai d'entrée en vigueur ; L7.C09 § 6, repassé le 30 septembre, tient que le livre diffère la levée d'une réserve et que le rapprochement avec Kydland et Prescott est une analogie, la pièce étant ouverte en L1.C18 et non en L8.C31. L8.C31 entre aux renvois.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT PAR UNE PRÉCISION DE L'AUTEUR sur l'arbitrage A29, rendue
   # le même jour. Il n'ajoute pas une objection : il instruit une phase que le
@@ -48,7 +51,7 @@ verifications_en_attente:
      expose sans choisir."
 resume: "Ce chapitre instruit une phase que le corpus avait nommée trois fois sans jamais la traiter pour elle-même, et qu'une précision de l'auteur rend nécessaire : le financement du Symposium par le surplus du reflux ne peut pas exister au lancement, puisque le reflux suppose le système en fonctionnement. Il établit d'abord que la protection obtenue par l'arbitrage précédent ne vaut qu'en régime permanent. Aucun État ne peut affamer une institution financée par un prélèvement qu'il ne vote pas ; mais pendant la phase de démarrage, il n'y a pas de prélèvement, donc il y a nécessairement un financeur, et le vecteur de capture que l'arbitrage éliminait est entièrement ouvert. Il établit ensuite que cette phase n'est pas une période administrative neutre mais celle où se prennent les décisions structurantes, puisque c'est alors que se fixent la méthode, les premières valeurs et les premiers constats, c'est-à-dire trois des quatre décisions dont le corpus a établi qu'elles portent la promesse bloquante. Il rapporte le seul précédent qu'il tienne et son enseignement est net : dans l'institution dont il a ouvert les statuts, le poids de vote est fonction de la souscription initiale, de sorte que celui qui finance le démarrage obtient durablement le pouvoir. Il expose enfin trois formes possibles de financement d'amorçage et montre qu'aucune n'est neutre au regard de la clé de représentation."
 concepts: [reflux_collectif, seuil_d_activation, contrepartie_comptable, valorisation_des_communs, fenetre_de_reforme, polycentricite]
-renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L11.C01, L11.C16, L11.C22, L11.C24]
+renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L8.C31, L11.C01, L11.C16, L11.C22, L11.C24]
 ---
 
 # Le point de démarrage
@@ -79,7 +82,7 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L11.C0
 
 ::hypothese:: **C'est pendant cette phase que se fixent la MÉTHODE, les PREMIÈRES VALEURS et les PREMIERS CONSTATS** — soit D1, D2 et D3 de la décomposition de L11.C11, c'est-à-dire trois des quatre décisions, dont celle qui porte la promesse bloquante P52.
 
-::hypothese:: **Et ces choix ne sont pas révisés ensuite comme on révise un paramètre.** L11.C16 § 6 a établi qu'une fonction de valorisation choisie une fois **détermine la balance des paiements de chaque membre pour toute sa durée de vie**, et que l'exigence de révisabilité y est maximale précisément parce que la révision est difficile. **Le premier barème est celui qui compte le plus, et c'est celui qui sera arrêté sous financement extérieur.**
+::hypothese:: **Et ces choix ne sont pas révisés ensuite comme on révise un paramètre.** L11.C16 § 6 tient qu'une fonction choisie une fois **pèse sur chaque membre pour toute sa durée**, et qu'une fonction mauvaise sur la priorité écarte durablement des actes et ceux qui les portent, de sorte que l'exigence de révisabilité y est plus forte. Ce paragraphe lui faisait dire qu'elle détermine la balance des paiements de chaque membre, ce que L11.C16 a retiré. **Le premier barème est celui qui compte le plus, et c'est celui qui sera arrêté sous financement extérieur.**
 
 ::hypothese:: **Le corpus formule le résultat sous sa forme utile : l'institution est protégée du financeur exactement quand ses décisions ont le moins de portée, et exposée à lui exactement quand elles en ont le plus.**
 
@@ -107,7 +110,7 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L11.C0
 
 ::hypothese:: **Une seule chose, et elle est modeste : que la phase de démarrage ait sa propre règle.** Le dispositif a une règle de vote, une règle de bouclage, une règle de financement en régime permanent — **et rien pour la période où ces règles ne s'appliquent pas encore.**
 
-::hypothese:: **Le corpus relève qu'il tient déjà la forme d'une réponse, versée le même jour.** L8.C31 § 6 et L7.C09 § 6 ont établi le mécanisme du **délai d'entrée en vigueur** : une règle votée qui ne prend effet qu'après un délai. **Transposé au démarrage, cela donnerait une phase où le financeur est identifié, sa contribution plafonnée, et ses droits éteints à une date fixée d'avance** — de sorte que le pouvoir d'amorçage ne devienne pas un pouvoir permanent.
+::hypothese:: **Le corpus relève qu'il tient déjà la forme d'une réponse, versée le même jour.** L8.C31 § 6, en brouillon, tire de Kydland et Prescott le mécanisme du **délai d'entrée en vigueur** : une règle votée qui ne prend effet qu'après un délai ; la pièce n'y est pas ouverte, elle l'est en L1.C18, vérifié, qui en retient des arrangements rendant la modification des règles difficile et lente hors les cas d'urgence. Ce paragraphe écrivait que L7.C09 § 6 l'avait aussi établi : L7.C09 § 6 tient que le livre diffère la levée d'une réserve, non l'entrée en vigueur d'une règle, et que le rapprochement est une analogie du corpus. **Transposé au démarrage, cela donnerait une phase où le financeur est identifié, sa contribution plafonnée, et ses droits éteints à une date fixée d'avance** — de sorte que le pouvoir d'amorçage ne devienne pas un pouvoir permanent.
 
 ::hypothese:: **C'est une piste de conception et non un résultat.** Le corpus la nomme parce qu'elle est la seule qui traite le § 4 : **elle ne cherche pas à empêcher que le financeur ait du pouvoir — c'est inévitable — mais à ce que ce pouvoir soit borné dans le temps.**
 
