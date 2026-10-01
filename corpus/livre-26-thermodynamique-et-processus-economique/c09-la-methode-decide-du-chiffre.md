@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "**S. Sorrell, *The Rebound Effect: an assessment of the evidence for economy-wide energy savings from improved energy efficiency*, UK Energy Research Centre, octobre 2007, ISBN 1-903144-0-35.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-06. **DROITS : AUCUNE MENTION DE LICENCE N'EST PORTÉE PAR LE DOCUMENT — le régime reste `a_verifier`**, c'est-à-dire citation courte avec attribution et aucun versement du fichier au dépôt. **C'est le rapport fondateur du champ. Son auteur unique est ÉGALEMENT L'UN DES AUTEURS de la revue de 2021 sur laquelle L26.C04 s'appuie — ce qui fonde une DÉPENDANCE PARTIELLE entre les deux travaux, et rien de plus : ils n'ont ni la même équipe, ni le même périmètre, ni des quantités comparables.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, les moyennes de 58 % et de 71 % étaient portées sans appel ni ancre ; elles sont rendues à L26.C04 § 1, qui les tient sur la revue de 2021 ouverte là-bas, avec ce que chacune moyenne. Au § 4 et dans une vérification en attente, L26.C04 était dit avoir établi que sous le dispositif le revenu est émis et non libéré ; L26.C04 § 3, repassé le 1er octobre, le tient en hypothèse.
+  # Statut inchangé.
   - "**LES TROIS SOURCES DE REBOND QUE LE CORPUS TIENT NE SONT PAS
      INDÉPENDANTES.** L'auteur unique du rapport de 2007 figure parmi les
      auteurs de la revue de 2021 ouverte par L26.C04. **Le corpus doit donc compter
@@ -40,7 +43,7 @@ verifications_en_attente:
      Toutes les estimations rapportées portent sur des améliorations
      d'efficacité obtenues par le prix, la réglementation ou la technique.
      **AUCUNE NE PORTE SUR UNE AMÉLIORATION FINANCÉE PAR UNE ÉMISSION
-     MONÉTAIRE**, et L26.C04 a établi que le mécanisme y est de forme
+     MONÉTAIRE**, et L26.C04 § 3 tient que le mécanisme y est de forme
      différente. **Le corpus transporte donc un ordre de grandeur, pas un
      résultat.**"
   - "**LE RÉSULTAT DE CE CHAPITRE EST RETROUVÉ PAR UNE VOIE PHYSIQUE LE 2026-09-08
@@ -82,7 +85,7 @@ renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08,
 
 ::etat:: **Sur les usages domestiques et le transport individuel, il était plus précis encore** : le rebond direct est *« likely to be LESS THAN 30 % and may be closer to 10 % for transport »*, si bien que les améliorations d'efficacité *« should therefore achieve 70 % OR MORE of the reduction in energy consumption projected using engineering principles »*.
 
-::etat:: **L26.C04 s'appuie sur une revue de 2021 qui conclut à plus de la moitié**, avec des moyennes de 58 % et 71 %.
+::etat:: **L26.C04 § 1 s'appuie sur une revue de 2021 qui conclut à plus de la moitié**, avec des moyennes de 58 % pour les vingt et une études d'équilibre général et de 71 % pour les douze études d'autres méthodes (L26.C04, en brouillon ; pièce ouverte là-bas).
 
 ::etat:: **CES DEUX QUANTITÉS NE SONT PAS COMPARABLES, ET AUCUNE ÉVOLUTION NE PEUT ÊTRE DÉDUITE DE LEUR RAPPROCHEMENT.** *« Au moins 10 % »* est une **BORNE INFÉRIEURE** ; 58 % et 71 % sont des **MOYENNES**, portant en outre sur des périmètres différents. **Une borne inférieure de 10 % est compatible avec une moyenne de 71 %** : les deux énoncés peuvent être exacts en même temps, et leur écart n'est pas une révision.
 
@@ -102,7 +105,7 @@ renvois: [L1.C03, L11.C13, L17.C02, L24.C03, L26.C03, L26.C04, L26.C06, L26.C08,
 
 ::etat:: **Toutes les études recensées par le rapport de 2026 observent une relation positive entre l'amélioration de l'efficacité énergétique, le produit intérieur brut de long terme et la production sectorielle** [S1] : *« All studies observed a positive relationship between energy efficiency improvements, long-run GDP and industry sector output. This provides evidence of the linkages between industrial energy efficiency measures and INCREASES to firm level productivity and ECONOMIC GROWTH. »*
 
-::hypothese:: **C'est `jevons_monetaire` écrit par un ministère, et sans le mot.** **Financer l'efficacité, c'est financer de la croissance de production** — non comme effet pervers occasionnel, mais comme régularité observée dans l'ensemble des études retenues. **Le dispositif ne peut donc pas présenter le financement de l'efficacité comme neutre en volume** : L26.C04 avait établi que sous le dispositif le revenu n'est pas *libéré* mais **ÉMIS**, ce qui ajoute au lieu de reprendre ; **la source confirme ici que même la version qui reprend augmente la production.**
+::hypothese:: **C'est `jevons_monetaire` écrit par un ministère, et sans le mot.** **Financer l'efficacité, c'est financer de la croissance de production** — non comme effet pervers occasionnel, mais comme régularité observée dans l'ensemble des études retenues. **Le dispositif ne peut donc pas présenter le financement de l'efficacité comme neutre en volume** : L26.C04 § 3 tient, en hypothèse, que sous le dispositif le revenu n'est pas *libéré* mais **ÉMIS**, ce qui ajoute au lieu de reprendre ; **la source confirme ici que même la version qui reprend augmente la production.**
 
 ::etat:: **Une nuance de localisation, et elle atténue le point sans l'annuler.** La source observe *« only small differences in sector versus total economy-wide rebound magnitudes »*, ce qui suggère selon elle que *« most of the rebound effect is occurring WITHIN the industrial sector rather than the wider economy »*. **Elle ajoute aussitôt que cette hypothèse devrait être testée par d'autres travaux.** **Si elle se confirmait, le rebond serait plus concentré et donc plus facile à cibler par un instrument sectoriel** — ce que le dispositif ne possède pas, L26.C06 ayant établi qu'il n'a que des instruments de niveau.
 
