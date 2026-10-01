@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1. Et L11.C10 § 5 : se lier les mains, c'est confier la décision à un organe insulé de ceux qu'elle régit, et l'insulation est exactement ce que P52 reproche au barème central — la littérature de la crédibilité répond à une question du corpus en aggravant une autre"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la première moitié de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe.
+  # L11.C16 § 2, repassé le 30 septembre, range le niveau parmi ce que le livre fait calculer au Conseil Monétaire
+  # Mondial, et ne le lie plus au produit du reflux ni à la condition-limite B1. Le § 4 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 4, L11.C16 § 2 était dit avoir établi que le volume n'est pas une décision, la condition de bouclage le liant au produit du reflux borné par B1 ; L11.C16 § 2, repassé le 30 septembre, range le niveau parmi ce que le livre fait calculer au Conseil par une formule, et rapporte que rien n'établit qu'un couple viable existe (L1.C21 § 8). L'argument du frein sans levier est gardé sous la condition que la formule existe et contraigne ; le résumé suit. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE. Il établit que le livre emploie, sans le
   # nommer, un dispositif que la littérature de la crédibilité a formalisé, et
@@ -48,7 +54,7 @@ verifications_en_attente:
      banques centrales, selon quelle règle d'entrée, avec quelle pondération.
      **Le corpus relève que c'est la seule chambre dont la clé de représentation
      n'est pas énoncée**, alors que L7.C06 a établi celle de l'Assemblée."
-resume: "Ce chapitre établit que le livre emploie sans le nommer un dispositif que la littérature de la crédibilité a formalisé, et que le corpus tenait depuis la veille sans l'avoir rapporté au livre. Il expose le choix en cause, qui est de confier le levier quantitatif aux représentants des banques centrales participantes, et il relève que le livre reconnaît lui-même que ce choix peut sembler contradictoire avec la critique que l'ouvrage adresse à ces institutions. Il rapporte les deux raisons données, l'élargissement du mandat des banques centrales à la préservation des communs et un argument de crédibilité selon lequel confier ce levier aux autorités traditionnelles installe un frein conservateur. Il établit que ce second argument est exactement le mécanisme du banquier central conservateur, formalisé en 1985 et versé au corpus la veille par une source ouverte, et que le livre l'emploie sans le nommer, ce qui est la septième filiation non revendiquée que le corpus relève. Il expose ensuite la tension que le livre reconnaît et l'apprécie favorablement, la séparation des pouvoirs la rendant tenable puisque ces autorités ne choisissent pas les bénéficiaires. Il établit enfin une seconde tension que le livre ne voit pas : le corpus a montré que le volume d'émission n'est pas une décision mais une conséquence de la condition de bouclage, de sorte que la chambre à qui l'on confie le levier quantitatif pour installer un frein n'a pas de levier à actionner si la formule est appliquée rigoureusement, et que le frein réside dans la formule et non dans ceux qui l'appliquent."
+resume: "Ce chapitre établit que le livre emploie sans le nommer un dispositif que la littérature de la crédibilité a formalisé, et que le corpus tenait depuis la veille sans l'avoir rapporté au livre. Il expose le choix en cause, qui est de confier le levier quantitatif aux représentants des banques centrales participantes, et il relève que le livre reconnaît lui-même que ce choix peut sembler contradictoire avec la critique que l'ouvrage adresse à ces institutions. Il rapporte les deux raisons données, l'élargissement du mandat des banques centrales à la préservation des communs et un argument de crédibilité selon lequel confier ce levier aux autorités traditionnelles installe un frein conservateur. Il établit que ce second argument est exactement le mécanisme du banquier central conservateur, formalisé en 1985 et versé au corpus la veille par une source ouverte, et que le livre l'emploie sans le nommer, ce qui est la septième filiation non revendiquée que le corpus relève. Il expose ensuite la tension que le livre reconnaît et l'apprécie favorablement, la séparation des pouvoirs la rendant tenable puisque ces autorités ne choisissent pas les bénéficiaires. Il relève enfin une seconde tension que le livre ne voit pas : le livre fait calculer le volume d'émission par une formule appliquée rigoureusement, de sorte que, si cette formule contraint, la chambre à qui l'on confie le levier quantitatif pour installer un frein n'a pas de levier à actionner, et que le frein réside dans la formule et non dans ceux qui l'appliquent ; le corpus écrivait avoir montré que ce volume est une conséquence de la condition de bouclage, ce qu'il ne tient plus, et la formule n'est pas au dossier."
 concepts: [regle_contre_discretion, creation_monetaire, reflux_monetaire, affectation_des_instruments, hierarchie_monetaire]
 renvois: [L1.C18, L1.C21, L7.C05, L7.C06, L8.C30, L8.C32, L11.C10, L11.C12, L11.C16]
 ---
@@ -91,7 +97,7 @@ renvois: [L1.C18, L1.C21, L7.C05, L7.C06, L8.C30, L8.C32, L11.C10, L11.C12, L11.
 
 ::hypothese:: **C'est l'apport propre du chapitre.** Le Conseil « calcule et fixe le volume annuel maximal d'émission » et « ajuste le taux plancher de fonte monétaire » — **« en appliquant rigoureusement la formule d'équilibre dérivée »** [S1].
 
-::hypothese:: **Or L11.C16 § 2 a établi que ce volume n'est pas une décision** [S3] : la condition de bouclage le lie au produit du reflux, lui-même borné par la condition-limite B1. **Si la formule est appliquée rigoureusement, il n'y a rien à décider.**
+::hypothese:: **Or, si la formule contraint, ce volume n'est pas une décision** : le livre fait calculer au Conseil un volume que la formule détermine. **Si la formule est appliquée rigoureusement, il n'y a rien à décider.** Ce paragraphe écrivait que L11.C16 § 2 l'avait établi [S3], la condition de bouclage liant le volume au produit du reflux, borné par la condition-limite B1 ; L11.C16 § 2 range désormais le niveau parmi ce que le livre fait calculer, et rapporte que rien n'établit qu'un couple viable d'émission et de reflux existe (L1.C21 § 8). **La formule n'est pas au dossier : la suite vaut sous la condition qu'elle existe et qu'elle contraigne.**
 
 ::hypothese:: **Il en résulte que le frein conservateur n'a pas de levier à actionner.** On installe une composition prudente **pour qu'elle exerce une prudence** — mais si la grandeur est calculée par une formule et appliquée rigoureusement, **la prudence est déjà dans la formule**, et la composition de l'organe n'y ajoute rien.
 
