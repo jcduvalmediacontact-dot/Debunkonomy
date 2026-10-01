@@ -13,7 +13,7 @@ regime: hybride
 sources_primaires:
   - ref: S1
     nature: donnees
-    reference: "**Banque de France, *ABC de l'économie*, fiche « Le système monétaire international »**, ouverte le 2026-09-07 depuis la bibliothèque de l'auteur (`eeb_smi.pdf`, 14 750 caractères extraits). **Source secondaire à auteur institutionnel nommé** — ni un texte primaire, ni un exposé anonyme. **CHRONOLOGIE RETENUE, verbatim** : « **1944** — Accords de Bretton Woods (instauration de l'**étalon de change dollar-or**), création du FMI » ; « **1971** — Le dollar cesse d'être convertible en or » ; « **1976** — Accords de la Jamaïque : instauration, entre les grandes monnaies, d'un **régime de change flottant** et **abandon du rôle légal de l'or** ». Et dans le corps : « La convertibilité du dollar en or prend fin en 1971 et **le système de changes fixes mondial disparaît définitivement en 1973** » REQUALIFIÉE ET OUVERTE SOUS LE RÉGIME VÉRIFIABLE le 2026-09-16, sur le mandat de l'auteur du même jour. ÉDITION : Banque de France, ABC de l'économie, « Le système monétaire international », ÉDITION DE DÉCEMBRE 2023 (date portée en tête de la fiche), 3 pages. EXEMPLAIRE : 2026-09-16/l3/bibliotheque-auteur/eeb_smi-banque-de-france-abc-economie-smi.pdf (3 pages, SHA-256 81D075D74E91D79E2CB89C345F8BE81CCC7AAEC7716B4AF74DB7B4E360DCD9C1). PASSAGES LUS : « 1944 Accords de Bretton Woods (instauration de l'étalon de change dollar-or), création du FMI », « 1971 Le dollar cesse d'être convertible en or » (page 1). Le nombre de caractères extraits dépend de l'extracteur : 13 988 avec pypdf, contre 14 750 notés le 2026-09-07."
+    reference: "**Banque de France, *ABC de l'économie*, fiche « Le système monétaire international »**, ouverte le 2026-09-07 depuis la bibliothèque de l'auteur (`eeb_smi.pdf`, 14 750 caractères extraits). **Source secondaire à auteur institutionnel nommé** — ni un texte primaire, ni un exposé anonyme. **CHRONOLOGIE RETENUE, verbatim** : « **1944** — Accords de Bretton Woods (instauration de l'**étalon de change dollar-or**), création du FMI » ; « **1971** — Le dollar cesse d'être convertible en or » ; « **1976** — Accords de la Jamaïque : instauration, entre les grandes monnaies, d'un **régime de change flottant** et **abandon du rôle légal de l'or** ». Et dans le corps : « La convertibilité du dollar en or prend fin en 1971 et **le système de changes fixes mondial disparait définitivement en 1973** » REQUALIFIÉE ET OUVERTE SOUS LE RÉGIME VÉRIFIABLE le 2026-09-16, sur le mandat de l'auteur du même jour. ÉDITION : Banque de France, ABC de l'économie, « Le système monétaire international », ÉDITION DE DÉCEMBRE 2023 (date portée en tête de la fiche), 3 pages. EXEMPLAIRE : 2026-09-16/l3/bibliotheque-auteur/eeb_smi-banque-de-france-abc-economie-smi.pdf (3 pages, SHA-256 81D075D74E91D79E2CB89C345F8BE81CCC7AAEC7716B4AF74DB7B4E360DCD9C1). PASSAGES LUS : « 1944 Accords de Bretton Woods (instauration de l'étalon de change dollar-or), création du FMI », « 1971 Le dollar cesse d'être convertible en or » (page 1). Le nombre de caractères extraits dépend de l'extracteur : 13 988 avec pypdf, contre 14 750 notés le 2026-09-07."
     etat_lecture: ouverte
     date_verification: 2026-09-16
   - ref: S2
@@ -26,6 +26,10 @@ sources_primaires:
     reference: "**Le corpus lui-même.** **L3.C02** établit que le triangle d'incompatibilité oppose trois positions — contrôle des capitaux, union monétaire, changes flottants — et que **le dispositif occupe la première**, sur arbitrage A32. **L1.C25** définit l'étalon de change-or comme le « régime monétaire international dans lequel **une seule monnaie nationale est convertible en or**, les autres étant convertibles en cette monnaie et non dans le métal », et retient la distinction « parce qu'elle commande la position de l'émetteur pivot, **qui est le seul à devoir régler en or et le seul à pouvoir mettre fin à cette obligation** ». **L1.C25** pose aussi la fenêtre de réforme, dont l'issue « dépend de la position des créanciers au moment où elle s'ouvre »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur l'ordre 13 de l'ordre du jour (Fable, même
+  # jour, sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus ») : dans l'entrée [S1] et au corps,
+  # la citation de la fiche portait « disparaît » ; la pièce écrit « disparait », comme L1.C25, vérifié, la cite
+  # sous [S16]. Le résumé, qui ne cite pas, garde l'orthographe courante. Statut inchangé.
   - "LA FICHE DONNE DES DATES, NON DES CAUSES. Le corpus ne tient **aucune
      source sur les raisons** de la fin de la convertibilité en 1971, ni sur
      l'échec des accords intermédiaires entre 1971 et 1973. **Le chapitre
@@ -68,7 +72,7 @@ renvois: [L1.C24, L1.C25, L3.C01, L3.C02, L11.C04, L20.C08]
 
 ::etat:: **1971** — « Le dollar cesse d'être convertible en or. »
 
-::etat:: **1973** — « le système de changes fixes mondial **disparaît définitivement** ».
+::etat:: **1973** — « le système de changes fixes mondial **disparait définitivement** ».
 
 ::etat:: **1976** — accords de la Jamaïque : « instauration, entre les grandes monnaies, d'un **régime de change flottant** et **abandon du rôle légal de l'or** » [S1].
 
