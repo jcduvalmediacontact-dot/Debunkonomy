@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L11.C20, l'amendement de la directive, quatrième exigence restée vide ; et L11.C16 § 6 : l'exigence de révisabilité est PLUS FORTE sur la valorisation que sur les quatre autres barèmes, une fonction mauvaise y privant durablement un membre de sa capacité d'importer, ALORS MÊME QUE LA CRÉDIBILITÉ Y DEMANDE L'INVERSE. Et L8.C31 § 6, le mécanisme de l'entrée en vigueur différée tiré de Kydland-Prescott"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le passage sur L11.C16 § 6 est périmé, le texte de l'entrée étant gardé tel que le manifeste le fixe.
+  # L11.C16, repassé le 30 septembre, tient en hypothèse une exigence de révisabilité plus forte sur la grille de
+  # priorité que sur un taux de reflux, et retire la capacité d'importer. Le § 4 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, le droit de réserve du Collège des États vulnérables était dit, d'après L7.C09 § 6, une pondération par la vulnérabilité ; L7.C09 § 6, repassé le 30 septembre, corrige : ce n'est pas une pondération. Au § 4, L11.C16 § 6 était dit avoir établi une révisabilité plus forte sur la valorisation, une fonction mauvaise privant un membre de sa capacité d'importer, et L8.C31 § 6 avoir versé le délai d'entrée en vigueur sur source ouverte ; L11.C16 tient en hypothèse une exigence plus forte sur la grille de priorité et retire la capacité d'importer, et la pièce de Kydland et Prescott est ouverte en L1.C18, non en L8.C31 (L7.C09 § 6). L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION. Le livre ne prévoit aucune procédure de révision de
   # ses propres règles ; il possède pourtant tous les éléments d'une telle
@@ -75,17 +81,17 @@ renvois: [L1.C18, L7.C02, L7.C06, L7.C09, L7.C11, L7.C14, L8.C31, L11.C12, L11.C
 
 ::hypothese:: **Mais il ne les emploie qu'à surmonter le droit de réserve du Collège des vulnérables**, c'est-à-dire à lever un veto sectoriel sur les seuils biophysiques. **Il ne les emploie pas à réviser ses propres règles.**
 
-::hypothese:: **Le corpus enregistre que c'est la troisième fois dans ce livre qu'il trouve un mécanisme bien conçu employé sur un domaine trop étroit.** L7.C09 § 6 l'a relevé pour la pondération par la vulnérabilité — seul dispositif du livre à pondérer par une grandeur qui n'est pas le bénéfice, et non généralisé. **Ici, c'est la majorité qualifiée et le délai.** Le livre invente les bons instruments et les cantonne.
+::hypothese:: **Le corpus enregistre que c'est la troisième fois dans ce livre qu'il trouve un mécanisme bien conçu employé sur un domaine trop étroit.** L7.C09 § 6 l'a relevé pour le droit de réserve du Collège des États vulnérables — seul droit du chapitre 7 du livre attaché à une grandeur autre que le nombre d'États ou la population, l'exposition, et non généralisé. Ce paragraphe y voyait une pondération : L7.C09 § 6 corrige, le Collège ne pèse pas davantage dans le vote, il oppose une réserve. **Ici, c'est la majorité qualifiée et le délai.** Le livre invente les bons instruments et les cantonne.
 
 ## 4. Le point où trois résultats du corpus se rencontrent
 
 ::hypothese:: **Aucun chapitre ne les avait réunis, et ils se répondent exactement.**
 
-::etat:: **Premier** : L11.C16 § 6 a établi que **l'exigence de révisabilité est plus forte sur la valorisation que sur les quatre autres barèmes** [S3] — une fonction mauvaise y prive durablement un membre de sa capacité d'importer.
+::etat:: **Premier** : L11.C16 § 6 tient, en hypothèse, que **l'exigence de révisabilité est plus forte sur la grille de priorité que sur un taux de reflux** — une fonction mauvaise y écarte durablement des actes et ceux qui les portent. Ce paragraphe lui faisait dire qu'elle prive un membre de sa capacité d'importer [S3], ce que L11.C16 a retiré.
 
-::etat:: **Deuxième** : le même paragraphe a établi que **la crédibilité y demande l'inverse** — une fonction qu'on peut réviser à tout moment ne lie personne, et L7.C06 a montré que sous consensus elle ne serait jamais révisée du tout.
+::etat:: **Deuxième** : le même paragraphe tient que **la crédibilité y demande l'inverse** — une fonction qu'on peut réviser à tout moment ne lie personne, et L7.C06 a montré que sous consensus elle ne serait jamais révisée du tout.
 
-::etat:: **Troisième** : L8.C31 § 6 a versé, sur source ouverte, **le mécanisme qui arbitre entre les deux** — des règles « to become effective only after a 2-year delay », ce qui rend « discretionary policy all but impossible » [S3].
+::etat:: **Troisième** : L8.C31 § 6, en brouillon, a versé **le mécanisme qui arbitre entre les deux** — des règles « to become effective only after a 2-year delay », ce qui rend « discretionary policy all but impossible » [S3]. Il le tire de Kydland et Prescott, dont la pièce n'y est pas ouverte ; elle l'est en L1.C18, vérifié, qui en retient des arrangements rendant la modification des règles difficile et lente hors les cas d'urgence (L7.C09 § 6). Ce paragraphe écrivait « sur source ouverte ».
 
 ::hypothese:: **Assemblés, les trois donnent la forme que la révision doit prendre, et elle n'est pas dans le livre : révisable en droit, différée en effet.** La règle peut être changée — l'exigence de révisabilité est satisfaite — **et le changement ne produit ses effets qu'après un délai connu d'avance**, ce qui satisfait la crédibilité : **celui qui révise ne récolte pas le bénéfice de sa révision.**
 
