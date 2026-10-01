@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,9 @@ sources_primaires:
     reference: "Le corpus lui-même — les concepts `entropie`, `limites_planetaires`, `plafond_ecologique`, `decouplage` et `effet_rebond` du vocabulaire ; le falsifieur F2, qui porte la métrologie écologique ; et le résultat de L8.C13 § 4, où le corpus a nommé sans pouvoir l'établir la distinction qui pourrait sauver sa thèse de l'échec malthusien : une limite de SOURCE se repousse par la technique, une limite de PUITS peut-être pas"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 5, L11.C13 § 4 était dit avoir établi « de première main » l'asymétrie métrologique ; L11.C13 § 4 marque qu'il l'affirme sans l'avoir établie, et sa révision comptable tient qu'une métrologie physique existe.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, ET C'EST LA PLUS GRAVE DU LIVRE.
   #
@@ -93,7 +96,7 @@ renvois: [L1.C01, L1.C15, L8.C01, L8.C08, L8.C13, L8.C15, L8.C39, L11.C13, L26.C
 
 ## 5. Ce que le corpus peut tout de même établir
 
-::hypothese:: **Une seule chose, et elle vient de sa propre matière.** L11.C13 § 4 a établi une asymétrie métrologique de première main : **mesurer combien une activité nuit dispose d'instruments imparfaits mais existants ; mesurer combien elle régénère n'en a presque aucun.**
+::hypothese:: **Une seule chose, et elle vient de sa propre matière.** L11.C13 § 4 pose une asymétrie métrologique, qu'il dit affirmer sans l'avoir établie : **mesurer combien une activité nuit dispose d'instruments imparfaits mais existants ; mesurer combien elle régénère n'en a presque aucun.** Sa révision comptable la borne depuis : une métrologie physique de l'étendue et de l'état des écosystèmes existe, et l'objection se déplace vers la substituabilité de ses indicateurs. Ce paragraphe écrivait « a établi » et « de première main ».
 
 ::hypothese:: **Cette asymétrie est cohérente avec la distinction source / puits sans l'établir.** Les instruments existants comptent des flux sortants — émissions, rejets, prélèvements —, c'est-à-dire des pressions sur des puits et des sources. **Ce qui manque est la mesure de la reconstitution**, qui est le mouvement inverse. **Le corpus note la convergence et refuse d'en tirer une confirmation** : deux constats compatibles ne font pas une preuve.
 
