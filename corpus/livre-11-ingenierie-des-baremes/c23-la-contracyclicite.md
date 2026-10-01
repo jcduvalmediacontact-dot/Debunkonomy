@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-13
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,9 @@ sources_primaires:
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les CONDITIONS du ch. II, grandeurs « not in themselves elements of well-being but rather technical expressions of a “sound policy” » — statut du bouclage ; et les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 2 était dit avoir établi que le bouclage lie le volume au produit du reflux, borné par B1 ; ce lien est porté par L11.C03 § 3 et § 5, et L11.C16 § 2, repris le 30 septembre, ne le dit plus.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE RÉCLAMÉ PAR LE CORPUS. L11.C22 § 4 a relevé que quatre chapitres
   # ont trouvé O4 fragile en instruisant autre chose, qu'aucun ne l'a instruit
@@ -106,7 +109,7 @@ renvois: [L1.C15, L1.C21, L1.C29, L11.C01, L11.C02, L11.C03, L11.C07, L11.C10, L
 
 ::hypothese:: **Le résultat défavorable sort de la même propriété, et il est plus lourd que l'endroit.**
 
-::etat:: L11.C16 § 2 a établi que **la condition de bouclage lie le volume émissible au produit du reflux**, lui-même borné par B1. Le bouclage est une **condition** au sens de Tinbergen — « not in itself an element of well-being but rather a technical expression of a “sound policy” » [S4] — et elle mord en permanence.
+::etat:: **La condition de bouclage lie le volume émissible au produit du reflux** (L11.C03 § 3), lui-même borné par B1 (L11.C03 § 5). Ce paragraphe écrivait que L11.C16 § 2 l'avait établi ; L11.C16 § 2, repris le 30 septembre, rapporte que le livre confie le volume annuel maximal au Conseil Monétaire Mondial, qui le calcule par une formule, et que rien n'établit qu'un couple viable d'émission et de reflux existe (L1.C21 § 8). Le bouclage est une **condition** au sens de Tinbergen — « not in itself an element of well-being but rather a technical expression of a “sound policy” » [S4] — et elle mord en permanence.
 
 ::hypothese:: **Il en résulte que le cycle du reflux devient le cycle de l'émission.** Si l'assiette se contracte en bas de cycle, l'enveloppe d'émission se contracte avec elle. **Le dispositif finance donc moins la régénération au moment précis où l'économie est déprimée** — c'est-à-dire au moment où le financement de l'essentiel insolvable est le plus nécessaire, et où les capacités physiques que L11.C10 et P35 déclarent contraintes sont précisément disponibles.
 
