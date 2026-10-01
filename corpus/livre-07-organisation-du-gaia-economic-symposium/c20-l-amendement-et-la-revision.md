@@ -27,6 +27,9 @@ sources_primaires:
   # L11.C16, repassé le 30 septembre, tient en hypothèse une exigence de révisabilité plus forte sur la grille de
   # priorité que sur un taux de reflux, et retire la capacité d'importer. Le § 4 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L7.C06 était dit avoir montré que sous consensus la valorisation ne serait jamais révisée ; L7.C06 § 3 et § 6 le tiennent en hypothèse.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, le droit de réserve du Collège des États vulnérables était dit, d'après L7.C09 § 6, une pondération par la vulnérabilité ; L7.C09 § 6, repassé le 30 septembre, corrige : ce n'est pas une pondération. Au § 4, L11.C16 § 6 était dit avoir établi une révisabilité plus forte sur la valorisation, une fonction mauvaise privant un membre de sa capacité d'importer, et L8.C31 § 6 avoir versé le délai d'entrée en vigueur sur source ouverte ; L11.C16 tient en hypothèse une exigence plus forte sur la grille de priorité et retire la capacité d'importer, et la pièce de Kydland et Prescott est ouverte en L1.C18, non en L8.C31 (L7.C09 § 6). L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -89,7 +92,7 @@ renvois: [L1.C18, L7.C02, L7.C06, L7.C09, L7.C11, L7.C14, L8.C31, L11.C12, L11.C
 
 ::etat:: **Premier** : L11.C16 § 6 tient, en hypothèse, que **l'exigence de révisabilité est plus forte sur la grille de priorité que sur un taux de reflux** — une fonction mauvaise y écarte durablement des actes et ceux qui les portent. Ce paragraphe lui faisait dire qu'elle prive un membre de sa capacité d'importer [S3], ce que L11.C16 a retiré.
 
-::etat:: **Deuxième** : le même paragraphe tient que **la crédibilité y demande l'inverse** — une fonction qu'on peut réviser à tout moment ne lie personne, et L7.C06 a montré que sous consensus elle ne serait jamais révisée du tout.
+::etat:: **Deuxième** : le même paragraphe tient que **la crédibilité y demande l'inverse** — une fonction qu'on peut réviser à tout moment ne lie personne, et L7.C06 § 3 et L7.C06 § 6 tiennent, en hypothèse, que sous consensus elle ne serait jamais révisée du tout ; ce paragraphe écrivait « a montré ».
 
 ::etat:: **Troisième** : L8.C31 § 6, en brouillon, a versé **le mécanisme qui arbitre entre les deux** — des règles « to become effective only after a 2-year delay », ce qui rend « discretionary policy all but impossible » [S3]. Il le tire de Kydland et Prescott, dont la pièce n'y est pas ouverte ; elle l'est en L1.C18, vérifié, qui en retient des arrangements rendant la modification des règles difficile et lente hors les cas d'urgence (L7.C09 § 6). Ce paragraphe écrivait « sur source ouverte ».
 
