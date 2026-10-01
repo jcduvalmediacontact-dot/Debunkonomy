@@ -21,6 +21,9 @@ sources_primaires:
     etat_lecture: a_requalifier
 verifications_en_attente:
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, l'énoncé « décider ce qui qualifie est décider ce qui est financé » était ancré en L11.C13 § 3 ; il est en tête de L11.C13 et en son § 2, qui ajoute que la certification ouvre le flux sans en fixer le montant.
+  # Statut inchangé.
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : L11.C16 § 4 était dit avoir établi qu'à enveloppe plafonnée élargir le périmètre dilue ce que reçoivent les autres ; L11.C16 § 4, repris le 30 septembre, tient le partage pour conditionnel.
   # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
@@ -86,7 +89,7 @@ renvois: [L1.C09, L1.C15, L1.C22, L7.C05, L7.C06, L7.C13, L11.C13, L11.C16]
 
 ## 4. Pourquoi A5 ne pouvait pas être instruit séparément
 
-::etat:: **L11.C13 § 3 a établi que décider ce qui qualifie est décider ce qui est financé** [S2]. Le corpus l'a versé au routage comme une contrainte de couplage entre le Livre 7 et le Livre 11.
+::etat:: **L11.C13, dès sa tête et en son § 2, tient que décider ce qui qualifie est décider ce qui est financé** [S2] : la certification ouvre le flux, sans en fixer le montant. Ce paragraphe citait L11.C13 § 3, qui porte les quatre décisions, et écrivait « a établi ». Le corpus l'a versé au routage comme une contrainte de couplage entre le Livre 7 et le Livre 11.
 
 ::hypothese:: **Le présent chapitre en donne la raison exacte : le périmètre n'est pas une décision distincte, c'est la MÉTHODE — D1 — vue de l'extérieur.** Définir les catégories d'activités éligibles **est** définir le périmètre ; il n'y a pas deux actes, il y en a un, décrit de deux façons.
 
