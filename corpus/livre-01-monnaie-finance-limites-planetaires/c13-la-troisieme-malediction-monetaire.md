@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-22
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -122,6 +122,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-19
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : quatre renvois. En tête et au § 5, L1.C12 § 3 écrit que les anciennes capacités ne sont pas retirées au même rythme. Au § 3, L1.C08 § 4 date le recul et le chômage. Au § 4, ni L1.C01 § 2 ni L1.C04 ne traitent la substituabilité des fonds naturels ; L1.C01 § 2 porte la non-compensation entre fonds, que la phrase garde.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
   # relevée par le dossier de clôture des renvois : au § 4, deux ancres vers L1.C08 : Soddy est au § 5, non § 3 ; ce par quoi la monnaie entre en existence et en sort, au § 7, non § 5.
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -207,7 +210,7 @@ renvois: [L1.C01, L1.C03, L1.C04, L1.C08, L1.C11, L1.C12, L1.C14, L1.C17]
 
 Ce chapitre établit le mécanisme par lequel deux dettes de nature différente s'entretiennent l'une l'autre dans le régime actuel, et il en délimite la portée avec soin, parce que sa formulation courante — « payer l'une aggrave l'autre, mathématiquement » — ne résiste pas à l'examen. La proposition : un État endetté dispose de plusieurs issues ; celles qui ne passent pas par l'activité sont transitoires, coûteuses et combattues par le régime lui-même ; celles qui restent exigent de l'activité, et l'activité, sauf découplage absolu, creuse la dette écologique — dont la réparation, à son tour, ne se finance que par de nouvelles dettes ou par les recettes de cette même activité. Le corpus, à la suite du livre, nomme ce mécanisme le nœud gordien. La délimitation : ce n'est ni une impossibilité logique ni une fatalité ; c'est la conséquence, à l'échelle des États, de la première malédiction.
 
-L1.C11 a décrit le filtre de la solvabilité à la création de la monnaie ; L1.C12 l'addition des capacités que le crédit vert finance sans retirer les anciennes. La troisième ne concerne plus la banque ou l'entreprise, mais l'État.
+L1.C11 a décrit le filtre de la solvabilité à la création de la monnaie ; L1.C12 l'addition des capacités que le crédit vert finance sans que les anciennes soient retirées au même rythme. La troisième ne concerne plus la banque ou l'entreprise, mais l'État.
 
 (*Image : Gordion, 333 avant notre ère. Un char attaché par un nœud que nul ne sait défaire ; un oracle promet l'Asie à qui y parviendra. Alexandre ne le défait pas : il le tranche. L'expression désigne depuis un problème que les moyens ordinaires ne résolvent pas, et qui appelle un geste extérieur à sa logique. Le corpus emprunte l'image, avec sa réserve finale : une civilisation ne tranche pas un régime monétaire d'un coup d'épée.*)
 
@@ -243,7 +246,7 @@ Une objection se présente, et elle est la plus sérieuse : la fiscalité écolo
 
 Le mécanisme se lit dans des cas, à condition de n'en retenir que ce qui est établi et de ne pas faire de la dette la cause unique de ce qui a plusieurs causes.
 
-**La Grèce, 2010-2018.** Une dette publique passée de 148 % du produit en 2010 à 183 % en 2019 malgré — ou à cause de — l'ajustement [S3] ; une contraction de 27 % du produit et un chômage à 27,8 % (L1.C08 § 4).
+**La Grèce, 2010-2018.** Une dette publique passée de 148 % du produit en 2010 à 183 % en 2019 malgré — ou à cause de — l'ajustement [S3] ; un recul du produit de 27 % entre 2008 et 2013 et un chômage à 27,8 % en 2013 (L1.C08 § 4).
 
 ::hypothese:: Sous programme, l'État a aussi monétisé son domaine : régime d'exception pour les investissements stratégiques dès 2010, cession de forêt domaniale en 2012 pour la mine d'or de Skouries, concessions d'hydrocarbures offshore au sud-ouest et à l'ouest de la Crète ratifiées en 2019 [S15]. Que ces choix aient été dictés par les créanciers plutôt que par la balance énergétique reste à établir. **Et sur les trois, un seul est documenté au texte** : les concessions crétoises de 2019, dont les deux lois de ratification sont ouvertes [S15]. **Les deux autres sont ici rapportés et non établis** : le texte officiel du régime de 2010 n'a pas pu être acquis, et le chapitre ne le porte donc pas en source ; la cession de 2012, dont l'acte est nommé en tête de chapitre, n'est ouverte par aucune source de ce chapitre.
 
@@ -269,7 +272,7 @@ Il serait faux de dire qu'aucune école ne voit le problème. Trois réponses ex
 
 La première est la substituabilité des capitaux : la dette peut financer du capital technique ou humain qui remplace le capital naturel détruit, de sorte que l'endettement ne dégrade pas nécessairement la soutenabilité — c'est la soutenabilité faible, au sens de Solow et Hartwick.
 
-::hypothese:: Le corpus tient, avec l'économie écologique, que les fonds naturels ne sont pas substituables au-delà d'un seuil (L1.C01 § 2, L1.C04), et que la définition de la régénération retenue en L1.C01 — l'amélioration d'un fonds déterminé selon des indicateurs physiques propres — exclut par construction qu'un fonds soit déclaré régénéré en compensation d'un autre.
+::hypothese:: Le corpus tient, avec l'économie écologique, que les fonds naturels ne sont pas substituables au-delà d'un seuil, position qu'aucun chapitre du Livre 1 n'instruit, et que la définition de la régénération retenue en L1.C01 — l'amélioration d'un fonds déterminé selon des indicateurs physiques propres — exclut par construction qu'un fonds soit déclaré régénéré en compensation d'un autre.
 
 La deuxième est la conversion de dettes en engagements de conservation : les swaps dette-nature, dont les opérations récentes — Belize en 2021 [S20], puis l'Équateur et le Gabon en 2023, **que ce chapitre rapporte sans pièce ouverte**, l'article de 2022 appelé ici ne les portant pas — ont changé d'échelle.
 
@@ -287,7 +290,7 @@ Des regards extérieurs l'ont vu. Soddy, dans les années 1920, tenait qu'aucune
 
 Les trois chapitres de cette série ont posé trois mécanismes.
 
-La première malédiction : le seul canal qui crée de la monnaie en même temps qu'une dette nouvelle la soumet au filtre de la solvabilité anticipée, qui laisse passer ce qui promet une recette et rejette ce qui régénère sans en produire (L1.C11). La deuxième : le crédit vert, solvable, contribue à l'expansion nette que le régime exige et finance des capacités nouvelles sans que les anciennes soient retirées, de sorte que le découplage est réel localement et absent globalement (L1.C12). La troisième : dette financière et dette écologique s'entretiennent, parce que les issues qui ne passent pas par l'activité sont transitoires, coûteuses et combattues, et que la réparation se finance en aval de l'activité qui dégrade.
+La première malédiction : le seul canal qui crée de la monnaie en même temps qu'une dette nouvelle la soumet au filtre de la solvabilité anticipée, qui laisse passer ce qui promet une recette et rejette ce qui régénère sans en produire (L1.C11). La deuxième : le crédit vert, solvable, contribue à l'expansion nette que le régime exige et finance des capacités nouvelles sans que les anciennes soient retirées au même rythme, de sorte que le découplage est réel localement et absent globalement (L1.C12). La troisième : dette financière et dette écologique s'entretiennent, parce que les issues qui ne passent pas par l'activité sont transitoires, coûteuses et combattues, et que la réparation se finance en aval de l'activité qui dégrade.
 
 ::hypothese:: Ces trois mécanismes forment un système. Chacun résulte d'une règle raisonnable à son échelle — la solvabilité comme critère de crédit, la stabilité des prix comme mandat, l'équilibre budgétaire comme discipline. Leur composition produit une mécanique collectivement dégradante, sans intention ni faute. Une civilisation qui l'a compris ne peut plus lire ses débats économiques de la même manière : une part de son sentiment d'impuissance vient de ce qu'ils se tiennent à l'intérieur du nœud, sans le nommer.
 
