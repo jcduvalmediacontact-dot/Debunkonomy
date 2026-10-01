@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -32,6 +32,9 @@ sources_primaires:
     reference: "Le corpus lui-même — **P17** au registre des promesses : représenter une entité sans volonté par définition statutaire de son intérêt ; **L20.C17**, qui laisse au Livre 6 une question précise — non pas comment sanctuariser un commun, mais **quelle technique juridique résiste à un rapport de forces qui change** ; et **L11.C29**, qui établit qu'une exception qui porte son propre terme se rétablit par l'inaction"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L11.C29 était dit avoir établi qu'une exception qui expire ne s'installe jamais ; L11.C29 § 3 le tient en hypothèse, sur le texte, et son § 6 écrit que rien n'établit que le dispositif a fonctionné.
+  # Statut inchangé.
   - "LE TEXTE DU JUGEMENT NÉO-ZÉLANDAIS N'A PAS ÉTÉ LU — le registre le déclare
      lui-même, et le corpus reprend cette réserve sans l'atténuer. L'entrée est
      établie « sur une note de cabinet reproduisant le raisonnement, trois
@@ -94,7 +97,7 @@ renvois: [L1.C18, L6.C01, L6.C02, L6.C03, L7.C04, L7.C14, L11.C29, L20.C16, L20.
 
 ::hypothese:: **Trois propriétés, et elles répondent une à une au cas néo-zélandais.** **Le déclencheur est objectif** — l'opposition d'intérêts entre l'administrateur ordinaire et l'entité administrée, non une appréciation d'opportunité. **Le désignant est un tiers** — ni l'administrateur, ni l'entité, ce qui écarte le cas où celui qui devrait agir est celui qu'on poursuit. **Et l'objet est exclusif** : agir contre l'administrateur, rien d'autre — le substitut ne gouverne pas, il plaide.
 
-::hypothese:: **La quatrième propriété est celle que le corpus a isolée la veille sur un tout autre terrain.** « Cette commission est **dissoute lorsque le jugement est définitif** » — **le mandat porte son propre terme.** L11.C29 a établi, sur un mécanisme prudentiel américain, qu'une exception qui expire se rétablit par l'inaction et ne s'installe jamais [S5]. **Ici, c'est un représentant qui expire** : il ne peut pas devenir une administration parallèle, ni se maintenir au-delà de sa cause.
+::hypothese:: **La quatrième propriété est celle que le corpus a isolée la veille sur un tout autre terrain.** « Cette commission est **dissoute lorsque le jugement est définitif** » — **le mandat porte son propre terme.** L11.C29 § 3 tient, en hypothèse, sur le texte d'un mécanisme prudentiel américain, qu'une exception qui expire laisse le défaut se rétablir par l'inaction et ne s'installe jamais [S5] ; L11.C29 § 6 écrit que rien n'établit que le dispositif a fonctionné. Ce paragraphe écrivait « a établi ». **Ici, c'est un représentant qui expire** : il ne peut pas devenir une administration parallèle, ni se maintenir au-delà de sa cause.
 
 ::hypothese:: **Le corpus verse donc la composition, et elle est étroite mais opérante.** Un régime de personnalité juridique d'entité naturelle **peut être doté d'une représentation de substitution** : déclenchée par l'opposition d'intérêts, désignée par un tiers, d'objet exclusivement contentieux, et éteinte par le jugement. **Aucun des trois régimes que L1.C18 § 2 cite ne la comporte** — le registre le dit —, **et le cas néo-zélandais est précisément celui où elle aurait servi.**
 
