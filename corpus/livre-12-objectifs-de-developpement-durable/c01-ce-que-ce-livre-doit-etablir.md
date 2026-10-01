@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "**Les 17 objectifs de développement durable et leurs 169 cibles**, reproduction en français publiée par Pacte mondial Réseau France, juillet 2024. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08. **DROITS : « © 2024 Pacte mondial Réseau France » — `citation_seule`.** **RÉSERVE D'ÉDITION, ET ELLE EST IMPORTANTE : CE N'EST PAS LE TEXTE OFFICIEL.** L'autorité est la **résolution A/RES/70/1** de l'Assemblée générale des Nations unies, **que le corpus n'a pas ouverte** ; il lit ici une reproduction en français par un réseau national. **Les libellés cités doivent être revérifiés contre la résolution avant tout usage citable.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 6, L13.C01 était dit avoir établi qu'un modèle de la bonne famille juge indispensables les politiques complémentaires ; L13.C01 § 3, repris le 30 septembre, écrit que le document de travail le rapporte, non que le modèle l'établit.
+  # Statut inchangé.
   - "**LE TEXTE OFFICIEL DU CADRE N'EST PAS OUVERT.** Le corpus lit une
      reproduction des 169 cibles, non la **résolution A/RES/70/1**. **C'est la
      première acquisition de rang 1 de ce livre**, et elle est facile : le texte
@@ -183,7 +186,7 @@ renvois: [L11.C13, L13.C01, L17.C01, L17.C03, L18.C10, L22.C04, L24.C01, L25.C01
 
 ::etat:: **5. Comment le constater ?** Trente cibles ne se mesurent pas, et L18.C10 a établi que le résultat écologique d'une restauration n'entre dans aucun agrégat de revenu de la période. **La question de la preuve est la même ici qu'ailleurs.**
 
-::etat:: **6. Quelles politiques complémentaires ?** Le registre les demande, et L13.C01 a établi qu'un modèle de la bonne famille les juge indispensables.
+::etat:: **6. Quelles politiques complémentaires ?** Le registre les demande, et L13.C01 § 3 rapporte qu'un document de travail sur un modèle de la bonne famille conclut qu'elles sont nécessaires, en précisant que le modèle publié ne l'établit pas tant que sa version de 2018 n'est pas ouverte ; ce paragraphe écrivait « a établi ».
 
 ::etat:: **7. Quel est le contrefactuel ?** **C'est la même question que celle que L13.C01 a déclarée la plus difficile de sa grille**, et aucune source ouverte ne la traite.
 
