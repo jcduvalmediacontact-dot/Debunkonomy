@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "F. Kydland, E. Prescott, « Rules Rather than Discretion: The Inconsistency of Optimal Plans », Journal of Political Economy, 85(3), 1977 — **OUVERT le 2026-09-05**, employé au Livre 8 comme fondement théorique du mandat étroit et de l'indépendance"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 2, L11.C16 était dit avoir établi que la valorisation des communs est bornée par le produit du reflux ; L11.C16 § 2, repris le 30 septembre, rapporte que le livre pose un volume maximal, que le Conseil calcule par formule, et ne dit plus l'avoir établi.
+  # Statut inchangé.
   - "LA HIÉRARCHIE DES OBJECTIFS N'EST PAS INSTRUITE PAR LA DOCTRINE AU DOSSIER.
      Le corpus lit « sans préjudice de » comme une SUBORDINATION STRICTE.
      C'est la lecture courante ; **elle n'est pas vérifiée sur un commentaire
@@ -57,7 +60,7 @@ renvois: [L1.C01, L1.C18, L1.C20, L7.C03, L8.C12, L8.C34, L11.C16, L20.C01, L20.
 
 ::hypothese:: **Le texte fait autre chose, et de plus contraignant : il le classe deuxième.** « Sans préjudice de » signifie que le second objectif **ne peut être poursuivi que dans la mesure où il ne contrarie pas le premier**. Il n'y a pas d'arbitrage : il y a une lexicographie.
 
-::hypothese:: **Et le dispositif du corpus contrarie le premier objectif par construction.** L11.C16 a établi que la valorisation des communs est bornée par le produit du reflux ; L1.C20 que l'émission n'est pas gagée sur une dette. **Une émission additionnelle qui n'est pas gagée sur une dette est, du point de vue d'un mandat de stabilité des prix, exactement le risque contre lequel le mandat a été écrit.** Le dispositif ne demande pas une tolérance : il demande une inversion de rang.
+::hypothese:: **Et le dispositif du corpus contrarie le premier objectif par construction.** Le livre pose un volume maximal d'émission, que le Conseil Monétaire Mondial calcule par une formule (L11.C16 § 2), et L1.C20 a établi que l'émission n'est pas gagée sur une dette ; ce paragraphe écrivait que L11.C16 avait établi la valorisation bornée par le produit du reflux, ce que L11.C16 § 2 ne dit plus. **Une émission additionnelle qui n'est pas gagée sur une dette est, du point de vue d'un mandat de stabilité des prix, exactement le risque contre lequel le mandat a été écrit.** Le dispositif ne demande pas une tolérance : il demande une inversion de rang.
 
 ## 3. La phrase du protocole nomme le critère que le corpus conteste
 
