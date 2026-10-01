@@ -122,6 +122,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-19
 verifications_en_attente:
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 4, deux ancres vers L1.C08 : Soddy est au § 5, non § 3 ; ce par quoi la monnaie entre en existence et en sort, au § 7, non § 5.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # RÉDUCTION APPLIQUÉE le 2026-09-22 sur décision de l'auteur, fiche `protocoles/reduction-source-fermee-L1-C13.md` : S19 — loi grecque 3894/2010, restée `candidate` après six voies d'accès échouées — est retirée. Elle n'était appelée qu'une fois, dans une phrase qui déclarait déjà l'énoncé rapporté et non établi ; le § 5 continue de le dire. CE QUI EST PERDU : le numéro de la loi, que le corps n'a jamais porté. Aucune renumérotation : S20 garde son matricule.
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
@@ -276,9 +279,9 @@ La troisième est le découplage relatif : l'intensité matérielle et carbone d
 
 ::hypothese:: Ce qu'aucune de ces réponses ne fait, c'est nommer le nœud comme tel : reconnaître qu'aucune combinaison des leviers du régime — impôt, dépense, croissance, restructuration, conversion — ne finance durablement la réparation sans passer par l'activité qui dégrade ou par une crise. Le nommer reviendrait à mettre en cause le cadre, et les acteurs du cadre sont dans le cadre.
 
-Des regards extérieurs l'ont vu. Soddy, dans les années 1920, tenait qu'aucune économie ne serait durable tant que la richesse virtuelle — monnaie et dettes — ne serait pas mise en cohérence avec la richesse réelle, soumise aux lois physiques [S8] (L1.C08 § 3). Daly, étudiant de Georgescu-Roegen, a proposé dès 1974 l'économie stationnaire : des stocks constants de population et d'artefacts, maintenus par le plus faible débit possible de matière et d'énergie [S7]. Ces propositions restent à la marge ; elles y remontent.
+Des regards extérieurs l'ont vu. Soddy, dans les années 1920, tenait qu'aucune économie ne serait durable tant que la richesse virtuelle — monnaie et dettes — ne serait pas mise en cohérence avec la richesse réelle, soumise aux lois physiques [S8] (L1.C08 § 5). Daly, étudiant de Georgescu-Roegen, a proposé dès 1974 l'économie stationnaire : des stocks constants de population et d'artefacts, maintenus par le plus faible débit possible de matière et d'énergie [S7]. Ces propositions restent à la marge ; elles y remontent.
 
-::hypothese:: Reconnaître le nœud, c'est reconnaître qu'aucun ajustement à la marge ne le défera. Le geste qu'il appelle est conceptuel : ouvrir une issue qui ne passe ni par l'activité ni par une crise — c'est-à-dire changer ce par quoi la monnaie entre en existence et ce par quoi elle en sort (L1.C08 § 5, L1.C11 § 4). C'est l'objet de la seconde partie du livre (L1.C17).
+::hypothese:: Reconnaître le nœud, c'est reconnaître qu'aucun ajustement à la marge ne le défera. Le geste qu'il appelle est conceptuel : ouvrir une issue qui ne passe ni par l'activité ni par une crise — c'est-à-dire changer ce par quoi la monnaie entre en existence et ce par quoi elle en sort (L1.C08 § 7, L1.C11 § 4). C'est l'objet de la seconde partie du livre (L1.C17).
 
 ## 5. Trois malédictions qui se referment
 
