@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -36,6 +36,9 @@ sources_primaires:
     reference: "Le corpus lui-même — **L11.C29**, qui établit qu'un seuil sans barème de sanctions devient un plancher et que la pièce décisive est la dérogation qui expire ; **L6.C06 § 4**, qui établit qu'un cas où tout a été jugé, chiffré et ordonné n'a produit aucune exécution ; **L20.C09**, qui établit la double majorité des statuts de 1944 ; et **L20.C18**, qui établit qu'une dérogation commerciale est datée, conditionnelle et réexaminée chaque année"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 5, L11.C16 était dit avoir établi que la polycentricité vaut pour le constat et non pour la fixation des valeurs ; L11.C16 § 5, repris le 30 septembre, a retiré l'exclusion sur les valeurs, et aucune décision de l'auteur ne tranche (L1.C22 § 2). La place que le paragraphe donne au niveau local reste. L1.C22 entre aux renvois.
+  # Statut inchangé.
   - "LE TRAITÉ N'A PAS ÉTÉ LU ARTICLE PAR ARTICLE, et le registre le déclare.
      **Les quatre limites sont donc connues par leur restitution**, non par
      leur rédaction — or le chapitre bâtit son résultat principal sur leur
@@ -57,7 +60,7 @@ verifications_en_attente:
      données de L6.C02 n'est satisfaite par aucun des deux."
 resume: "Ce chapitre met en regard deux instruments qui répondent à la même question — que doit le droit à une communauté dont on prend une ressource — et qui échouent de deux façons opposées. Le premier est le traité adopté par consensus à Genève en mai 2024, après vingt-cinq ans de négociation, qui instaure une obligation de divulguer l'origine des ressources génétiques et des savoirs traditionnels dans les demandes de brevet. Le registre impose d'énoncer ensemble ses quatre limites, et le chapitre le fait : les offices ne peuvent pas être tenus de vérifier la divulgation, une possibilité de rectifier doit précéder toute sanction, aucun brevet ne peut être invalidé ni rendu inopposable pour ce seul motif hors fraude, et le traité ne vaut que pour l'avenir. Le corpus en tire une taxonomie du désarmement d'une obligation en trois étages — le déclencheur est resserré par deux conditions cumulatives, la vérification est interdite, le remède est exclu — et en fait un test de falsification pour sa propre rédaction. Le second instrument est la gradation posée par la Cour interaméricaine en 2007 : consultation pour les projets à impact limité, consentement pour ceux qui menacent la subsistance physique, culturelle ou économique de la communauté. Cette gradation apporte au corpus une option qu'il n'avait pas considérée, celle d'un seuil défini par la conséquence qu'il aurait plutôt que par une quantité mesurée, assortie de son coût, qui est l'exigence d'études d'impact préalables. Le chapitre relève enfin que l'exécution de ces arrêts est demeurée longtemps incomplète, ce qui fait le troisième cas du livre où le juge a tout fait et où rien n'a suivi."
 concepts: [communs, bareme, seuil_d_activation, valorisation_des_communs, dette_ecologique, polycentricite]
-renvois: [L1.C18, L6.C01, L6.C02, L6.C06, L6.C08, L11.C16, L11.C24, L11.C29, L20.C09, L20.C18, L20.C22]
+renvois: [L1.C18, L1.C22, L6.C01, L6.C02, L6.C06, L6.C08, L11.C16, L11.C24, L11.C29, L20.C09, L20.C18, L20.C22]
 ---
 
 # L'obligation désarmée, et le seuil défini par sa conséquence
@@ -122,7 +125,7 @@ renvois: [L1.C18, L6.C01, L6.C02, L6.C06, L6.C08, L11.C16, L11.C24, L11.C29, L20
 
 ::hypothese:: **Le coût est nommé par le second arrêt et il n'est pas petit : il faut établir la conséquence AVANT.** D'où l'exigence d'**études d'impact préalables**, qui est la contrepartie technique du choix. **Un seuil défini par sa conséquence transfère la charge de la mesure à l'amont**, et suppose que quelqu'un paie cette mesure et qu'un tiers la croie.
 
-::hypothese:: **Et le corpus relève le troisième trait, qui est le plus transposable : la forme du consentement suit celle de la communauté.** La consultation doit adopter « des formes compatibles avec les structures décisionnelles » du destinataire. **L11.C16 a établi que la polycentricité vaut pour le constat et non pour la fixation des valeurs ; L6.C08 a ajouté que l'échelon local ne peut pas créer le titre. Voici la place qui reste et elle est réelle : le niveau supérieur pose la règle, le niveau local en détermine la forme de mise en œuvre.**
+::hypothese:: **Et le corpus relève le troisième trait, qui est le plus transposable : la forme du consentement suit celle de la communauté.** La consultation doit adopter « des formes compatibles avec les structures décisionnelles » du destinataire. **L11.C16 § 5 tient la polycentricité praticable sur le constat, et ne la tient plus pour interdite sur la fixation des valeurs ; aucune décision de l'auteur ne tranche entre centralisation et polycentricité (L1.C22 § 2). L6.C08 a ajouté que l'échelon local ne peut pas créer le titre. Voici une place qui reste, et elle est réelle : le niveau supérieur pose la règle, le niveau local en détermine la forme de mise en œuvre.** Ce paragraphe écrivait que L11.C16 avait établi la polycentricité exclue de la fixation des valeurs.
 
 ## 6. Le fondement, et il est emprunté
 
