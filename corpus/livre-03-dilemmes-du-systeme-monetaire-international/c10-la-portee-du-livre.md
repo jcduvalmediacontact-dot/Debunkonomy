@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "**`protocoles/registre-des-promesses.md`, P13**, objection routée à ce livre par le plan directeur : « Il n'existe aucun canal de création monétaire qui ne soit gagé, à un niveau ou à un autre, sur une promesse de remboursement adossée à une activité solvable [...] **Une émission gagée sur la régénération et non sur une promesse de remboursement, à aucun niveau — et ce qui empêche que le filtre se redéplace sur l'institution émettrice.** » **`corpus/livres.yaml`, matricule 3** : le livre doit « préciser le périmètre historique antérieur à l'étalon-or » et « réserver l'étude institutionnelle détaillée des banques centrales au Livre 10 »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C13 était dit avoir établi que Goodhart frappe le plus fort sur la qualification, sans sortie sur A17 ; L11.C13 § 5 le tient en hypothèse, sous forme comparative, et A17 y porte l'asymétrie des erreurs. L11.C13 entre aux renvois.
+  # Statut inchangé.
   - "SEPT TEXTES FONDATEURS N'ONT PAS ÉTÉ OUVERTS, et le livre les nomme un par
      un : **Mundell 1963 et Fleming 1962** — dont dépend l'arbitrage A32 ;
      **Triffin 1961** — dont dépend tout le diagnostic ; **Kareken et Wallace**
@@ -46,7 +49,7 @@ verifications_en_attente:
      l'hypothèse et ne la tient pas.**"
 resume: "Ce chapitre clôt la première passe du troisième livre et dit ce qu'elle a établi, ce qu'elle a défait, et ce qu'elle n'a pas pu faire. Le livre devait éprouver les réponses du dispositif aux dilemmes du système monétaire international et répondre à la treizième promesse du registre. Il établit d'abord que le dispositif occupe le coin du triangle d'incompatibilité qui associe parité fixe, autonomie monétaire et contrôle des capitaux, que ce coin est celui du régime de 1944, et que le trilemme étant énoncé pour un État, le contrôle des capitaux n'est pas un choix de conception de l'institution mais une obligation pesant sur chaque membre. Il établit ensuite que le monde a quitté ce coin en deux ruptures et non une, et que ce qui a été abandonné n'est pas l'autonomie monétaire mais la parité, le dispositif proposant donc le mouvement inverse de celui que les États ont choisi. Il défait une stratégie d'adoption que le corpus tenait pour la plus solide, en établissant que privilège et devoir exorbitants sont les deux termes d'un contrat d'assurance tarifé, puis, sur les objections de l'auteur, que la solution multipolaire documentée par la littérature ne supprime pas l'incitation extractive mais la distribue. Il découvre que le régime de 1944 reposait sur trois jambes et que le corpus en avait instruit deux, la troisième étant le financement de secours, dont l'article cinq fournit six éléments de conception que le corpus ne possédait nulle part, dont un plafond quantitatif qui se substitue au filtre de solvabilité. Il conclut que le dispositif est, sur son architecture internationale, une reconstruction du régime de 1944 sans pivot national, que cette absence désamorce le mécanisme qui a défait l'original, et qu'elle ne le désamorce qu'à moitié, puisque l'unité ne réglant pas ne peut pas être un actif de réserve et que la boucle se poursuivra hors du dispositif."
 concepts: [devise_cle, referentiel_de_change, hierarchie_monetaire, fenetre_de_reforme, solvabilite_anticipee]
-renvois: [L1.C15, L1.C24, L1.C25, L1.C26, L3.C01, L3.C02, L3.C03, L3.C04, L3.C06, L3.C07, L3.C08, L3.C09]
+renvois: [L1.C15, L1.C24, L1.C25, L1.C26, L3.C01, L3.C02, L3.C03, L3.C04, L3.C06, L3.C07, L3.C08, L3.C09, L11.C13]
 ---
 
 # La portée du livre
@@ -83,7 +86,7 @@ renvois: [L1.C15, L1.C24, L1.C25, L1.C26, L3.C01, L3.C02, L3.C03, L3.C04, L3.C06
 
 ::etat:: **Le corpus ne prétend pas que cela répond à P13.** **Il établit d'abord que P13 est fondée** : le reflux ne détruisant pas, l'institution accumule ; sa contrepartie s'érodant à mesure qu'elle réussit, elle doit surveiller son actif ; **surveiller son actif, c'est estimer des flux futurs, c'est-à-dire faire ce que fait un banquier.**
 
-::hypothese:: **Le plafond déplace donc le filtre du bilan vers la qualification. Il ne le supprime pas** — et L11.C13 a établi que c'est là que Goodhart frappe le plus fort, sans que le corpus ait de sortie sur A17.
+::hypothese:: **Le plafond déplace donc le filtre du bilan vers la qualification. Il ne le supprime pas** — et L11.C13 § 5 tient, en hypothèse, que Goodhart y frappe plus fort que sur le reflux, sans que le corpus ait de sortie au conflit entre publier la fonction et cacher l'indicateur. Ce paragraphe écrivait « a établi », « le plus fort » et « A17 », que L11.C13 porte pour l'asymétrie des erreurs.
 
 ## 4. Le résultat que le corpus n'avait jamais énoncé
 
