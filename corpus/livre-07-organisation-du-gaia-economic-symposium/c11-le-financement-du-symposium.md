@@ -15,6 +15,9 @@ sources_primaires:
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-06 : LE SURPLUS DU REFLUX COLLECTIF FINANCE LE GAÏA ECONOMIC SYMPOSIUM. Rendu en réponse au constat de L7.C10 § 5, qui relevait que le livre ne décrit nulle part le financement de l'institution — ni la source, ni la procédure, ni l'autorité qui l'arrête. L'arbitrage active la TROISIÈME FORME que L11.C01 § 5 avait nommée et mise de côté : « le reflux s'annule pour la part qui correspond à des allocations effectivement émises, et alimente un fonds pour la part qui excède »"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le constat de L7.C10 § 5 que rapporte cette entrée est périmé, son texte étant gardé tel que le manifeste
+  # le fixe ; L7.C10 § 5 écrit que le livre finance l'Office par le budget général du Symposium, sans dire d'où vient ce
+  # budget. La tête du chapitre est corrigée.
   - ref: S2
     nature: theorie
     reference: "J.-C. Duval, arbitrage du 2026-09-05 retenant la LECTURE B, versé en L11.C01 § 4 : « la question de savoir si le GES peut capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis de NGA est... ». Le Symposium devient une institution budgétaire : il émet d'abord, il perçoit ensuite. LE CORPUS AVAIT ÉTABLI CE QUE CETTE LECTURE COÛTE : l'abandon de la monnaie sans dette au sens fort, l'érosion de l'assiette devenue dirimante au lieu d'être comptable, et le Symposium devenu administration fiscale mondiale"
@@ -26,7 +29,12 @@ sources_primaires:
   # 2026-10-01 : la première phrase de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe.
   # L11.C16 § 2, repris le 30 septembre, rapporte que le livre confie le niveau au Conseil Monétaire Mondial ; le lien
   # au produit du reflux et la borne B1 sont portés par L11.C03 § 3 et § 5. Le § 4 est corrigé.
+  # 2026-10-01, troisième rang : la dernière phrase de cette entrée, sur L7.C10 § 5, est périmée aussi ; aucune pièce ne
+  # documente une capture par le budget. Le § 2 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : en tête et au § 2, L7.C10 § 5 était dit avoir constaté que le livre ne décrit nulle part le financement, et avoir établi sur deux cas que la capture passe par le budget ; L7.C10 § 5 et § 6, repris le 30 septembre, écrivent que le livre finance l'Office par le budget général, sans dire d'où vient ce budget, et qu'aucune pièce ne documente une capture par le budget. Les entrées [S1] et [S3], `a_requalifier`, gardent leur texte ; un commentaire les suit.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : au § 4, L11.C16 § 2 était dit avoir établi que le niveau de l'émission n'est pas une décision, et § 4 un partage à somme quasi nulle ; le lien au produit du reflux est porté par L11.C03 § 3, L11.C16 § 2 rapporte que le livre confie le niveau au Conseil, et § 4 tient le partage pour conditionnel. L11.C03 entre aux renvois. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -66,7 +74,7 @@ renvois: [L1.C18, L1.C21, L7.C05, L7.C08, L7.C10, L11.C01, L11.C02, L11.C03, L11
 
 # Le financement du Symposium
 
-::etat:: Ce chapitre enregistre **un arbitrage de l'auteur rendu le 2026-09-06** [S1], en réponse au constat de L7.C10 § 5 : le livre ne décrit nulle part le financement de l'institution. **Le surplus du reflux collectif finance le Symposium.**
+::etat:: Ce chapitre enregistre **un arbitrage de l'auteur rendu le 2026-09-06** [S1], en réponse au constat de L7.C10 § 5 : le livre ne dit pas d'où vient le budget général du Symposium, qui l'adopte, ni selon quelle procédure. Ce paragraphe reprenait l'ancienne formule de L7.C10, « nulle part le financement », que L7.C10 § 5 a corrigée, le livre écrivant que l'Office est financé par ce budget général. **Le surplus du reflux collectif finance le Symposium.**
 
 ## 1. Ce que l'arbitrage active
 
@@ -78,7 +86,7 @@ renvois: [L1.C18, L1.C21, L7.C05, L7.C08, L7.C10, L11.C01, L11.C02, L11.C03, L11
 
 ## 2. Ce que l'arbitrage résout, et c'est précisément l'objection de la veille
 
-::etat:: **L7.C10 § 5 a établi que la capture documentée des institutions statistiques passe par le budget** [S3] — non par le mandat, non par le conflit d'intérêts. Deux cas au dossier : un institut national dont on réduit les moyens, un statisticien poursuivi une décennie pour avoir publié le chiffre juste.
+::hypothese:: **L7.C10 § 5 tient, en hypothèse, que la capture des institutions statistiques passe par le budget et la mise en cause personnelle** [S3] — non par le mandat, non par le conflit d'intérêts. **Ce paragraphe écrivait qu'il l'avait établi, sur deux cas au dossier : L7.C10 § 5, repris le 30 septembre, écrit qu'une seule pièce est au dossier, qu'elle dit moins, et qu'aucune pièce ne documente une capture par le budget ni une mise en cause personnelle d'un statisticien.**
 
 ::hypothese:: **L'arbitrage retire le vecteur principal.** Si le financement provient du produit du prélèvement et non d'un vote budgétaire, **aucun État membre ne peut affamer l'institution** : il n'y a pas de ligne à couper, pas de vote annuel à retenir, pas d'arbitrage budgétaire à peser.
 
