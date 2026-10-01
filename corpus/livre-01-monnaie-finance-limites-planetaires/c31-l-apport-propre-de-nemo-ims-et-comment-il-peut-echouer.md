@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-17
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -36,6 +36,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-13
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 2, L1.C15 était dit « encore en `audit_contradictoire` », son statut ne permettant pas de tenir ses sources pour contrôlées ; il est `verifie`. La phrase ne garde que ce qu'il fait ; ce que le présent chapitre n'établit pas suit inchangé.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # — Les anciennes entrées portaient des limites et des dettes de conception, non des tâches documentaires. Elles demeurent dans le corps et dans le registre sous TEST-APPORT-PROPRE, PORTEFEUILLE-COMPARAISON, F10 et A35b. —
   # — Les douze objections de la passe Claude ont été traitées et validées par l'auteur le 2026-09-12. Les six objections de l'audit tiers Gemini ont été traitées et validées par l'auteur le 2026-09-13. —
   # — Audit factuel achevé le 2026-09-13 : quatre sources ouvertes et datées, onze appels de citation contrôlés ; les limites empiriques et les dettes de conception restent explicitement ouvertes dans le corps et le registre. —
@@ -64,7 +67,7 @@ Ce chapitre transforme une affirmation générale en programme de preuve. Il dem
 
 ## 2. Quatre énoncés à éprouver séparément
 
-::hypothese:: **Premier énoncé : un ensemble significatif existe.** L1.C15, encore en `audit_contradictoire`, définit et argumente la catégorie d'**essentiel insolvable** ; son statut ne permet pas de tenir ses sources pour contrôlées. Le présent chapitre n'établit ni que cet ensemble est non vide dans chaque contexte, ni qu'il est assez vaste pour justifier une institution monétaire. L'opérationnalisation exige de définir les cas, de les faire classer indépendamment, de documenter les désaccords, puis de mesurer leur ampleur.
+::hypothese:: **Premier énoncé : un ensemble significatif existe.** L1.C15, vérifié, définit et argumente la catégorie d'**essentiel insolvable**. Le présent chapitre n'établit ni que cet ensemble est non vide dans chaque contexte, ni qu'il est assez vaste pour justifier une institution monétaire. L'opérationnalisation exige de définir les cas, de les faire classer indépendamment, de documenter les désaccords, puis de mesurer leur ampleur.
 
 ::hypothese:: **Deuxième énoncé : les filtres ne se confondent pas.** Le crédit privé sélectionne notamment selon la **solvabilité anticipée** décrite en L1.C07. Le budget public est soumis à une autre contrainte, examinée en L1.C13 et L1.C15. NEMO n'apporte quelque chose que si ces filtres et les autres instruments disponibles laissent un ensemble d'activités essentielles insuffisamment servi. Il n'est pas nécessaire que chaque activité échoue simultanément à toutes les voies : la comparaison doit établir si NEMO obtient un meilleur résultat matériel, ou un résultat inaccessible au meilleur portefeuille effectivement construit.
 
