@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -17,6 +17,9 @@ sources_primaires:
     url: "https://www.energyinst.org/__data/assets/pdf_file/0004/1822009/Statistical-Review-of-World-Energy-2026-Summary-version.pdf"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 2, L26.C04 était dit avoir établi que les gains d'efficacité sont repris à plus de la moitié ; L26.C04 § 1, repris le 1er octobre, rapporte une conclusion hésitante dans les deux revues, et les limites que leurs auteurs disent.
+  # Statut inchangé.
   - "**UNE SEULE ANNÉE, ET AUCUNE SÉRIE.** Le chapitre tient les chiffres de 2025
      publiés en 2026 et **ne tient aucune série longue**, alors que sa
      proposition — l'addition plutôt que la substitution — **est une proposition
@@ -70,7 +73,7 @@ renvois: [L1.C12, L11.C10, L11.C13, L18.C04, L18.C09, L22.C02, L24.C03, L26.C01,
 
 ::etat:: **Le corpus retient la seconde et écarte la première.** **Une substitution qui laisse le substitué à un niveau record n'est pas une substitution : c'est un supplément.** **Le mot employé par la préface pour décrire l'état antérieur — `supplements` — décrit exactement l'état que ses propres données rapportent.**
 
-::etat:: **Une seconde préface écrit** : « **the transition from molecules to electrons is fundamentally AN EFFICIENCY ADVANCE** » [S1]. **L26.C04 a établi la veille, sur trente-trois études, que les gains d'efficacité sont repris à plus de la moitié à l'échelle de l'économie entière.** **Présenter un gain d'efficacité comme la solution est exactement la proposition que cette littérature interdit de tenir sans démonstration.**
+::etat:: **Une seconde préface écrit** : « **the transition from molecules to electrons is fundamentally AN EFFICIENCY ADVANCE** » [S1]. **L26.C04 rapporte, sur une revue de trente-trois études, que les gains d'efficacité peuvent être repris à plus de la moitié à l'échelle de l'économie entière** — conclusion que la revue tient d'abord pour hésitante, et dont ses auteurs disent les limites (L26.C04 § 1). Ce paragraphe écrivait « a établi ». **Présenter un gain d'efficacité comme la solution est exactement la proposition que cette littérature interdit de tenir sans démonstration.**
 
 ::etat:: **Ce n'est pas une accusation contre la source : c'est l'application au texte de la règle que le corpus s'applique à lui-même.** **Une publication statistique n'est pas un tout** : ses données et ses commentaires ont des statuts différents, **et le corpus n'a aucune raison d'accepter les seconds parce qu'il accepte les premières** — comme il a accepté la physique d'Ayres en refusant son économie [L26.C01].
 
