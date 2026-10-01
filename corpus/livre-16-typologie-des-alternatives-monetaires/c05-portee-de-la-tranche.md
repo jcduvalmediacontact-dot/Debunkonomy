@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,9 @@ sources_primaires:
     reference: "**Les cinq chapitres de la tranche et les trois sources qu'ils ont ouvertes de première main, toutes lues dans le texte le 2026-09-08. L16.C01 et L16.C02** — S. Gesell, *The Natural Economic Order*, trad. P. Pye, original 1916, `a_verifier` : **le taux d'origine — « ONE-THOUSANDTH of its face value WEEKLY, or about 5 % annually », imprimé sur le billet en 52 cases datées** ; **la règle d'émission — « ISSUE MORE MONEY WHEN THE PRICES OF GOODS TEND TO FALL »** ; **et la réponse à la fuite — nationalisation du sol, location « by way of PUBLIC AUCTION in which EVERY INHABITANT OF THE GLOBE [...] can compete », rente redistribuée « TO MOTHERS according to the number of their young children », avec pour corollaire que « NO NATION HAS THE RIGHT TO ERECT BOUNDARIES AND TO LEVY IMPORT-DUTIES »**. **L16.C03** — I. Fisher, *Stamp Scrip*, 1933, `a_verifier` : **1 % PAR MOIS**, émission de 32 000 schillings dont « **ONLY ABOUT 1/3 [...] WAS KEPT IN CIRCULATION** », **sortie tarifée à 2 % contre un timbre à 1 %**, et « **permanent jobs were given to FROM 30 TO 50 of the 1500 unemployed** ». **L16.C04** — Banque centrale européenne, *Report on a digital euro*, 2020, `citation_seule` : **l'instrument « SHOULD BE DESIGNED SO AS TO AVOID ITS USE AS A FORM OF INVESTMENT »**, par **« TIERED REMUNERATION »** ou plafond ; **« THE EUROSYSTEM WOULD NEED TO ACQUIRE ASSETS [...] TO BE HELD AGAINST DIGITAL EURO »** ; et **« anonymity may have to be RULED OUT »** pour que les plafonds soient applicables"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, le chapitre comptait deux taux (5,2 % et 12 % l'an) et « trois confirmations indépendantes que la fonte est une ressource », dont la phrase « the State profits… » prêtée au concepteur ; L16.C01 et L16.C03, repassés le 1er octobre, relèvent au moins trois taux (le millième hebdomadaire du concepteur, révisable selon sa note ; un pour cent par mois à Wörgl et pour la Wära ; deux pour cent par semaine chez Fisher), attribuent la phrase au caissier que l'auteur fait parler, l'auteur tenant le revenu pour accessoire, et voient dans la pratique deux usages du produit, non une confirmation.
+  # Statut inchangé.
   - "**CINQ DES NEUF FAMILLES QUE LE REGISTRE DEMANDE NE SONT PAS OUVERTES.** La
      fonction assignée au livre nomme « monnaies souveraines, crédit bancaire,
      monnaies-marchandises, monnaies locales et libres, cryptoactifs,
@@ -76,13 +79,13 @@ renvois: [L1.C08, L1.C10, L11.C01, L11.C07, L11.C24, L16.C01, L16.C02, L16.C03, 
 
 ## 3. Ce que la tranche donne au dispositif
 
-::etat:: **UN TAUX, ET IL Y EN A DEUX.** 5,2 % l'an par conception [L16.C01], **12 % l'an en application** [L16.C03]. **Le corpus n'en a aucun ; il sait maintenant que la tradition n'en a pas un mais deux, dans un rapport de plus du double.**
+::etat:: **UN TAUX, ET IL Y EN A AU MOINS TROIS.** Un millième par semaine, environ 5,2 % l'an, chez le concepteur, qui admet en note qu'on puisse le relever ou l'abaisser [L16.C01] ; **un pour cent par mois, 12 % l'an, à Wörgl comme pour la Wära** ; deux pour cent par semaine dans le plan de Fisher [L16.C03]. **Le corpus n'en a fixé aucun.** Ce paragraphe en comptait deux, dans un rapport de plus du double ; L16.C03, repris sur sa pièce, en relève trois.
 
 ::etat:: **UNE RÉPONSE À L'OBJECTION DE FUITE QUI NE COÛTE PAS LA PROPRIÉTÉ FONCIÈRE** [L16.C03]. **Sortir coûtait 2 %, rester coûtait 1 %** ; « **redemption, therefore, was not likely to hurt the circulation of the scrip** ». **A40 a reçu une troisième branche le jour même où il a été posé.**
 
 ::etat:: **UNE CONDITION DE REPRÉSENTABILITÉ CONFIRMÉE PAR L'OBJET LUI-MÊME** [L16.C01]. **Le taux est imprimé sur le billet en cinquante-deux cases datées** : **on ne peut pas décider après coup le taux d'un billet dont les cases sont déjà imprimées.** **C'est la condition que L19.C03 a établie par la norme statistique, réalisée physiquement en 1916.**
 
-::etat:: **ET TROIS CONFIRMATIONS INDÉPENDANTES QUE LA FONTE EST UNE RESSOURCE** — la norme statistique [L19.C03], le concepteur — « **the State profits by the depreciation of the total circulation** » [L16.C01] — **et la pratique**, les timbres étant vendus par la ville au profit de son action sociale [L16.C03].
+::etat:: **CE QUE LES SOURCES DISENT DU PRODUIT DE LA FONTE, ET CE N'EST PAS UNE TRIPLE CONFIRMATION.** La norme statistique le range en revenu selon L19.C03, en brouillon. Chez le concepteur, le texte allemand écrit que le remplacement des billets dépréciés fait à l'office « eine regelmäßige Einnahme », et l'auteur dit ce revenu un effet secondaire non voulu, « von verhältnismäßig ganz untergeordneter Bedeutung » ; la phrase « the State profits by the depreciation of the total circulation » est celle d'un personnage, le caissier qu'il fait juger la monnaie franche, non la sienne [L16.C01]. Et la pratique donne deux usages : Wörgl vend les timbres au profit de son action sociale, le plan de Fisher en fait le fonds qui rachète et annule le bon [L16.C03]. **Ce paragraphe comptait trois confirmations indépendantes que la fonte est une ressource, et prêtait au concepteur la phrase du caissier : L16.C01 et L16.C03, repris sur leurs pièces, ne le tiennent plus.**
 
 ## 4. Ce que la tranche établit contre lui
 
