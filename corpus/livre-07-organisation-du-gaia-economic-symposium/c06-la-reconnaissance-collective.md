@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "Accord instituant l'Organisation mondiale du commerce, Marrakech, 15 avril 1994, article IX — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06, dépouillé en L7.C02 § 4 : l'Organisation « shall continue the practice of DECISION-MAKING BY CONSENSUS followed under GATT 1947 », alors même qu'une voix par membre y est inscrite"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, la double majorité était dite avantager les plus peuplés, d'après L1.C18 avant sa réécriture du 17 septembre, et la loi de Penrose donnée pour la règle qui atteint l'objectif ; L7.C09 § 1 et § 2, repassés le 30 septembre, rapportent que, mesurée pour le Conseil de l'Union européenne, elle profite aux plus grands États et aux plus petits, et qu'aucune pièce ne calcule le pouvoir de vote sous la règle du livre. « Sa solution ne l'est pas » devient « sa justification ne tient pas dans sa forme absolue », ce que L7.C09 établit ; L7.C09 entre aux renvois. Et au § 3, L11.C16 § 6 était dit avoir établi que l'exigence de révisabilité est maximale sur la valorisation, une fonction mauvaise privant un membre de sa capacité d'importer ; L11.C16, repassé le 30 septembre, tient en hypothèse une exigence plus forte sur la grille de priorité que sur un taux de reflux, une fonction mauvaise écartant durablement des actes et ceux qui les portent, et retire au § 9 que le barème détermine la balance des paiements de chacun.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR DEUX CHAPITRES DU LIVRE SOURCE ouverts le même jour, et
   # il porte une TENSION ENTRE EUX que le corpus n'avait jamais relevée — le
@@ -47,7 +50,7 @@ verifications_en_attente:
      l'attribution manquante — même réserve qu'en L7.C05 § 4."
 resume: "Ce chapitre porte une réponse du livre que le corpus n'avait jamais relevée et une tension entre deux de ses chapitres. Il établit d'abord que la question de savoir comment se détermine la valeur d'un écosystème reçoit une réponse explicite au chapitre cinq : elle ne peut se faire par le marché, les communs n'étant pas visibles par l'offre et la demande, et elle relève d'une reconnaissance collective, l'auteur parlant d'un consensus mondial. Une recherche menée sur l'ensemble du corpus établit que ni cette expression ni celle de reconnaissance collective n'y figuraient. Il établit ensuite que cette réponse n'est pas celle du chapitre sept, où l'Assemblée des Communs décide à double majorité, c'est-à-dire à la majorité des États et à la majorité de la population représentée, mécanisme dont le livre dit s'inspirer du Conseil de l'Union européenne. Or le consensus et la double majorité ne sont pas la même règle : le premier donne à chacun un droit de blocage, la seconde permet d'adopter contre une minorité. Il rapporte cette différence au précédent que le corpus a ouvert le même jour, où une organisation inscrit une voix par membre et maintient dans le même article la pratique du consensus, et il établit que le mode d'échec documenté du consensus est l'avantage au statu quo. Il expose enfin les trois lectures possibles de la tension et refuse de trancher entre elles."
 concepts: [valorisation_des_communs, bareme, polycentricite, essentiel_insolvable, fausse_richesse]
-renvois: [L1.C17, L1.C18, L1.C22, L1.C27, L7.C02, L7.C04, L7.C05, L8.C03, L8.C21, L11.C13, L11.C16]
+renvois: [L1.C17, L1.C18, L1.C22, L1.C27, L7.C02, L7.C04, L7.C05, L7.C09, L8.C03, L8.C21, L11.C13, L11.C16]
 ---
 
 # La reconnaissance collective, et ce que le consensus produit
@@ -72,7 +75,7 @@ renvois: [L1.C17, L1.C18, L1.C22, L1.C27, L7.C02, L7.C04, L7.C05, L8.C03, L8.C21
 
 ::hypothese:: **Le corpus enregistre que le livre a identifié seul deux des trois modes d'échec que L7.C02 a tirés des précédents**, et qu'il a construit sa clé contre eux.
 
-::etat:: **CORRIGÉ LE 2026-09-06 PAR L7.C09.** Ce paragraphe parlait d'une « seconde confirmation croisée ». **Le motif du livre est juste, sa solution ne l'est pas** : L1.C18 avait établi dès le 2026-09-04 que la double majorité **n'est pas** le seul mécanisme qui protège les petits et les nombreux et **qu'elle avantage les plus peuplés**, la règle qui atteint l'objectif étant la loi de Penrose. **Le corpus tenait cette correction depuis deux jours et ne l'a pas relue.** Quatorzième autocorrection ; voir L7.C09 § 1.
+::etat:: **CORRIGÉ LE 2026-09-06 PAR L7.C09, ET LA CORRECTION A ÉTÉ BORNÉE DEPUIS.** Ce paragraphe parlait d'une « seconde confirmation croisée ». **Le motif du livre est juste ; sa justification ne tient pas dans sa forme absolue** : la double majorité n'est pas le seul mécanisme qui protège à la fois les petits États et les plus peuplés (L7.C09, en brouillon ; pièces ouvertes là-bas). Ce paragraphe écrivait aussi, d'après L1.C18, qu'elle avantage les plus peuplés et que la règle qui atteint l'objectif est la loi de Penrose. L1.C18 a été réécrit le 2026-09-17 sur une pièce qui mesure le pouvoir de vote, et L7.C09 § 1 et § 2 en rapportent le résultat : pour le Conseil de l'Union européenne, la double majorité profite aux plus grands États et aux plus petits, aux dépens des moyens ; aucune pièce ne calcule le pouvoir de vote sous la règle du livre, et l'article de Penrose n'est pas au dossier. **Le corpus tenait la première correction depuis deux jours et ne l'avait pas relue.** Quatorzième autocorrection ; voir L7.C09 § 1.
 
 ## 3. Consensus et double majorité ne sont pas la même règle
 
@@ -82,7 +85,7 @@ renvois: [L1.C17, L1.C18, L1.C22, L1.C27, L7.C02, L7.C04, L7.C05, L8.C03, L8.C21
 
 ::etat:: **Et le corpus tient, ouvert le même jour, le précédent qui documente ce que produit le premier** [S3]. L'Organisation mondiale du commerce **inscrit une voix par membre et maintient dans le même article la pratique du consensus.** L7.C02 § 4 en a tiré le mode d'échec : **égalité formelle, veto universel, avantage au statu quo** — et la paralysie n'y est pas une défaillance, c'est le fonctionnement.
 
-::hypothese:: **Transposé, cela donne un résultat que le corpus doit énoncer sans le durcir.** Si la valorisation des communs relève d'un consensus mondial, **elle ne sera pas révisée** : chaque membre bloquera la révision qui le désavantage, et le barème restera celui de l'année précédente. **Or L11.C16 § 6 a établi que l'exigence de révisabilité est maximale sur cette décision précise**, une fonction mauvaise sur la valorisation privant durablement un membre de sa capacité d'importer.
+::hypothese:: **Transposé, cela donne un résultat que le corpus doit énoncer sans le durcir.** Si la valorisation des communs relève d'un consensus mondial, **elle ne sera pas révisée** : chaque membre bloquera la révision qui le désavantage, et le barème restera celui de l'année précédente. **Or L11.C16 § 6 tient que l'exigence de révisabilité est plus forte sur cette décision que sur un taux de reflux**, une fonction mauvaise sur la priorité écartant durablement des actes et ceux qui les portent. Ce paragraphe lui faisait dire qu'elle prive un membre de sa capacité d'importer, ce que L11.C16 a retiré avec le lien entre le barème et la balance des paiements de chacun.
 
 ## 4. Les trois lectures de la tension, et le corpus ne tranche pas
 
