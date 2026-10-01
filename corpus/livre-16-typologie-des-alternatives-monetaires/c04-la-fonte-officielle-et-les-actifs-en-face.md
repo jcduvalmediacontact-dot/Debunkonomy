@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -17,6 +17,9 @@ sources_primaires:
     url: "https://www.ecb.europa.eu/pub/pdf/other/Report_on_a_digital_euro~4d7268b458.en.pdf"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, l'expérience de Wörgl était dite « la seule application connue » ; L16.C03, repris le 1er octobre, décrit aussi la Wära allemande.
+  # Statut inchangé.
   - "**LE CORPUS TIENT UN RAPPORT DE 2020 ET RIEN DE CE QUI A SUIVI.** Le projet a
      changé depuis : phase d'investigation, phase de préparation, proposition
      législative. **Aucun texte postérieur n'est ouvert**, et les paramètres
@@ -80,7 +83,7 @@ renvois: [L10.C01, L11.C07, L16.C01, L16.C02, L16.C03, L19.C01, L19.C05, L21.C03
 
 ::norme:: **L'exigence 13** : « **the design of the digital euro should include SPECIFIC CONDITIONS FOR ACCESS AND USE BY NON-EURO AREA RESIDENTS, to ensure that it does not contribute to excessively volatile capital flows or exchange rates. Such conditions could take the form of LIMITS ON OR ADEQUATE REMUNERATION POLICIES for the holdings of digital euro of non-euro area residents** » [S1].
 
-::etat:: **L16.C03 a établi que la seule application connue avait rencontré son unique refus permanent chez « the post office and the railroad, both of which are government institutions with interests primarily outside of the vicinity ».** **Le problème du périmètre s'était manifesté dès quatre mille trois cents habitants.** **Ici il est traité par une règle : accès conditionné, plafonds différenciés, rémunération différenciée selon la résidence.**
+::etat:: **L16.C03 rapporte que l'application de Wörgl avait rencontré son unique refus permanent chez « the post office and the railroad, both of which are government institutions with interests primarily outside of the vicinity ».** **Le problème du périmètre s'était manifesté dès quatre mille trois cents habitants.** Ce paragraphe écrivait « la seule application connue » ; L16.C03 décrit aussi la Wära. **Ici il est traité par une règle : accès conditionné, plafonds différenciés, rémunération différenciée selon la résidence.**
 
 ::norme:: **Et la condition qui rend ces règles applicables est nommée** : « **anonymity may have to be ruled out** [...] **in order to limit the scope of users of the digital euro when necessary — for example to exclude some non-euro area users and prevent excessive capital flows** [...] **or to avoid excessive use of the digital euro as a form of investment** » [S1].
 
