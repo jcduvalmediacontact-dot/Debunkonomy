@@ -17,6 +17,11 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-10-01
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur l'ordre 13 de l'ordre du jour (Fable, même
+  # jour, sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus ») : au § 1, la citation de
+  # l'instruction du 6 septembre 2026 portait « OUVRAGES » en capitales ; l'entrée [S1] de L2.C01, qui donne
+  # l'instruction en entier, écrit « ouvrages ». Chapitre de l'anneau : la correction est signalée à Fable,
+  # qui refait son dossier d'audit. Statut inchangé.
   # PASSE DE SOURCES DU 2026-10-01 — lot 4 de l'anneau du Livre 1, sur l'ordre de l'auteur du
   # même jour, recopié : « passe au lot 4 ». Règles V2 et W2 de l'auteur (2026-09-28), règle
   # 12, règle éditoriale du 2026-09-08. STATUT ET TITRE INCHANGÉS. Sept sections, numéros
@@ -78,7 +83,7 @@ renvois: [L1.C07, L1.C20, L1.C28, L1.C29, L2.C01, L2.C02, L2.C03, L2.C04, L2.C05
 
 ## 1. Ce que le livre a ouvert
 
-::etat:: **L'instruction de l'auteur, du 6 septembre 2026, était celle-ci** : « les concepts macro prudentiels actuels et les confronter à la macro prudence NEMO IMS. Réfère toi aux OUVRAGES de Michel Aglietta, Dominique Plihon, et quelques autres. »
+::etat:: **L'instruction de l'auteur, du 6 septembre 2026, était celle-ci** : « les concepts macro prudentiels actuels et les confronter à la macro prudence NEMO IMS. Réfère toi aux ouvrages de Michel Aglietta, Dominique Plihon, et quelques autres. »
 
 ::etat:: **Le livre a été écrit le même jour sur quatre textes doctrinaux** — de Borio, d'Aglietta et Espagne, de l'Institut Veblen, du Conseil d'analyse économique —, sur deux sources institutionnelles, un article du Bulletin de la Banque de France et un rapport de la Réserve fédérale, sur le Cahier technique de l'auteur et sur un chapitre de son livre. **Depuis, la passe de sources de L2.C06 et de L2.C13 a rouvert sur pièces la note Veblen, le texte d'Aglietta et Espagne et le Cahier, et en a ouvert d'autres**, dont un document de travail que Dominique Plihon signe seul ; les autres chapitres du livre n'ont pas reçu de passe de sources, et leurs entrées restent à requalifier.
 
