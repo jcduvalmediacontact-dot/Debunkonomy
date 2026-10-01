@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -28,6 +28,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L11.C11 § 5 : l'allocation générale de droits de tirage spéciaux de 2021 a réparti l'équivalent de 650 milliards de dollars AU PRORATA DES QUOTES-PARTS, dont environ 3,3 % aux pays à faible revenu. Versée en L1.C22 [S7] sur la résolution 76-1 du Conseil des gouverneurs. Le corpus l'appelait « le seul précédent tenu, et il est décourageant »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 6, L11.C16 § 4 était dit avoir établi qu'à enveloppe plafonnée la valorisation est à somme quasi nulle ; L11.C16 § 4, repassé le 30 septembre, tient ce partage pour conditionnel — il ne vaut que si la demande excède le volume — et retire la saturation comme état visé. Le conflit d'intérêts de la clé est dit sous cette condition.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DE FOND DU LIVRE 7, et il solde une acquisition réclamée
   # depuis le 2026-09-05 par L11.C11 § 5. Trois précédents étaient demandés ;
@@ -123,7 +126,7 @@ renvois: [L1.C18, L1.C22, L1.C24, L1.C27, L7.C01, L8.C27, L8.C33, L11.C11, L11.C
 | **égalitaire à consensus** | une voix, mais on ne vote pas | **paralysie, et avantage au statu quo** |
 | **égalitaire strict** | une voix, majorité simple | **ne passe pas l'échelle** |
 
-::hypothese:: **Rapportés à la décision que le corpus doit légitimer — D2, fixer les valeurs (L11.C13 § 3) —, les trois échouent pour la même raison profonde et le corpus la formule ici.** Aucun ne sépare **ce qu'un membre pèse** de **ce qu'un membre reçoit.** Or la décision en cause est un partage : L11.C16 § 4 a établi qu'à enveloppe plafonnée, la valorisation est à somme quasi nulle. **Une clé où celui qui vote est celui qui reçoit est en conflit d'intérêts par construction**, et aucun des trois précédents ne traite ce cas.
+::hypothese:: **Rapportés à la décision que le corpus doit légitimer — D2, fixer les valeurs (L11.C13 § 3) —, les trois échouent pour la même raison profonde et le corpus la formule ici.** Aucun ne sépare **ce qu'un membre pèse** de **ce qu'un membre reçoit.** Or la décision en cause peut être un partage : L11.C16 § 4 tient, en hypothèse, qu'à volume plafonné ordonner des actes revient à les départager, si la demande excède le volume, ce que rien n'établit ; il a retiré que la saturation soit l'état visé. **Une clé où celui qui vote est celui qui reçoit est alors en conflit d'intérêts par construction**, et aucun des trois précédents ne traite ce cas. Ce paragraphe écrivait que L11.C16 § 4 avait établi un partage à somme quasi nulle.
 
 ::hypothese:: **C'est le résultat le plus utile du chapitre pour A16**, et il est négatif : **les trois précédents documentent des institutions qui répartissent des DROITS DE TIRAGE ou fixent des RÈGLES COMMUNES, aucune qui répartisse une enveloppe plafonnée entre ses propres votants.** Le dispositif est dans une configuration sans précédent ouvert.
 
