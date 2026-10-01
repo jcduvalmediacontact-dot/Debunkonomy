@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,9 @@ sources_primaires:
     reference: "Le corpus lui-même — les concepts `monnaie_endogene`, `creation_monetaire` et `reflux_monetaire` du vocabulaire ; les promesses P13 et P39 ; la promesse BLOQUANTE P18, selon laquelle une émission sans dette qui paie salaires et fournisseurs distribue un pouvoir d'achat net et, sans destruction simultanée et calibrée, est inflationniste par construction ; et le résultat de L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 2 était dit avoir établi que le niveau de l'émission n'est plus une décision, « personne ne décide combien de monnaie existe » ; L11.C16 § 2, repris le 30 septembre, rapporte que le livre confie ce niveau au Conseil, par formule, et que rien n'établit qu'un couple viable existe.
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — DETTE INSCRITE, NON CORRIGÉE. Une entrée de
      source de ce chapitre cite les promesses P13, P39 et la promesse BLOQUANTE P18 en employant l'ancien nom pour désigner le
      mécanisme. LA RÉFÉRENCE N'EST PAS CORRIGÉE parce que l'entrée est à l'état
@@ -83,7 +86,7 @@ renvois: [L1.C08, L1.C21, L8.C01, L8.C06, L8.C16, L8.C19, L8.C23, L8.C24, L8.C26
 
 ::hypothese:: **La contrainte de bouclage répond à P18, qui est bloquante** [S1] : sans destruction simultanée et calibrée, une émission à contrepartie collective est inflationniste par construction. **Le dispositif ne peut donc pas invoquer la position adverse pour s'en dispenser** — ce serait renoncer à sa propre réponse à son objection la plus lourde.
 
-::hypothese:: **Et L11.C16 § 2 a établi ce que cette contrainte lui apporte en retour** : le niveau de l'émission n'est plus une décision. **Personne ne décide combien de monnaie existe.** C'est exactement la propriété dont L8.C06 § 3 a établi que son abandon avait fait échouer le précédent le plus cité contre l'émission à contrepartie collective.
+::hypothese:: **Ce que cette contrainte lui apporte en retour est une borne extérieure** : appliquée, elle fait suivre au niveau de l'émission le produit du reflux au lieu de le laisser choisir. Ce paragraphe écrivait que L11.C16 § 2 l'avait établi, et que personne ne décide combien de monnaie existe : L11.C16 § 2, repris le 30 septembre, rapporte que le livre confie le volume annuel maximal au Conseil Monétaire Mondial, qui le calcule par une formule, et que rien n'établit qu'un couple viable d'émission et de reflux existe (L1.C21 § 8). C'est la propriété dont L8.C06 § 3 a établi que son abandon avait fait échouer le précédent le plus cité contre l'émission à contrepartie collective.
 
 ::hypothese:: **Le dispositif se contraint donc là où la famille voisine se libère, et il y gagne une borne extérieure.** Le corpus le porte à son crédit **et note que le prix est le Livre 11 tout entier** : sans reflux automatique, il faut construire un reflux administré.
 
