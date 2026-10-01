@@ -1604,6 +1604,8 @@ L11.C10 a établi que l'annonce d'un dispositif déforme les comportements avant
 qu'il n'existe. **Le contrefactuel est déformé par l'annonce du barème qu'il doit
 servir à calibrer.**
 
+*Mention datée du 2026-10-01, sans réécriture de ce qui précède (ordre 17, sur le mot de l'auteur « Oui aux mentions datées », formulaire de Fable, 20 h 27).* L11.C13 § 4, repris le 1er octobre, rapporte que le livre écarte l'additionnalité contrefactuelle, qu'il tient pour « une fiction théorique invérifiable par nature », et paie un état constaté : la difficulté que ce paragraphe nomme passe à l'état de référence, que L11.C13 dit contesté et que l'annonce du dispositif peut déformer avant la première certification — conjecture, non résultat. L7.C18 est aligné le même jour.
+
 **Un conflit d'exigences à trancher en même temps.** Le registre nomme trois
 remèdes à l'objection de Goodhart (P25) : révision périodique, **indicateurs non
 annonçables à l'avance**, ou audit contradictoire des pratiques. **Le deuxième
@@ -1836,6 +1838,8 @@ mais **rebasée** sur la nature encore fonctionnelle, dotation au moins aussi
 inégalement distribuée que les actuelles. Le transfert vers les pays riches en
 fonds naturels est réel ; **il ne bénéficie pas aux pays pauvres en fonds
 naturels**, souvent les mêmes que ceux que le dispositif entend servir.
+
+*Mention datée du 2026-10-01, sans réécriture de la section (ordre 17, sur le mot de l'auteur « Oui aux mentions datées », formulaire de Fable, 20 h 27).* L11.C16, repassé le 30 septembre (`780f9f5f`), retire des énoncés que cette section tient encore : que le niveau de la valorisation n'est décidé par personne, le livre le confiant au Conseil Monétaire Mondial, qui le calcule par une formule (§ 2 et § 9) ; que la saturation est l'état visé et non le cas extrême (§ 4 et § 9) ; que la polycentricité est interdite sur D2 par le résultat tiré de Mundell (§ 5 et § 9) ; que le barème détermine la balance des paiements de chacun, une fonction mauvaise privant un membre de sa capacité d'importer (§ 6 et § 9) ; qu'il n'existe pas de valeur par défaut défendable sur ce barème, la question devenant sous la chaîne arrêtée celle du coût admis (§ 7) ; et que A8 est démontré une troisième fois, que L11.C16 § 3 et L11.C17 § 3 ramènent à un appui. A20 reste ouvert.
 
 
 

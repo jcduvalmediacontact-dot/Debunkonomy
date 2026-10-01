@@ -2390,6 +2390,8 @@ budgétaire nationale** : **aucune institution nouvelle, aucun traité, aucune
 unité, aucun barème mondial ne sont requis.** Le rapport le propose lui-même :
 « **cutting harmful subsidies** [...] can unlock resources ».
 
+*Mention datée du 2026-10-01, sans réécriture de l'énoncé (ordre 17, sur le mot de l'auteur « Oui aux mentions datées », formulaire de Fable, 20 h 27).* L18.C09 § 3, repassé (`05fc32e7`), corrige sur sa pièce les deux points de ce paragraphe : les subventions dommageables prennent aussi la forme d'exonérations fiscales, de prix administrés, de plafonds de responsabilité et de crédits préférentiels, qui ne sont pas toutes de l'argent public voté ; et un sixième, pris au montant minimal, ne couvre pas l'écart (L18.C09 § 3 et § 5).
+
 **CE QUE LE CORPUS DOIT ÉTABLIR POUR LEVER F10.** Non pas que le dispositif
 fonctionne — c'est l'objet des autres falsifieurs — **mais CE QU'IL FAIT QUE LA
 RÉFORME DES SUBVENTIONS NE FAIT PAS.**
@@ -2582,6 +2584,8 @@ la mesure.** **Le corpus accepte la physique de cette source et refuse son
 économie**, et il enregistre que la dissymétrie est délibérée :
 la première est démontrée par un modèle explicite, la seconde
 est affirmée sans mesure.
+
+*Mention datée du 2026-10-01, sans réécriture de ce qui précède (ordre 17, sur le mot de l'auteur « Oui aux mentions datées », formulaire de Fable, 20 h 27).* Ayres énonce une possibilité ; L18.C04 et L24.C03 rapportent des constats du présent. L18.C04 tient qu'aucun découplage absolu généralisé n'a été observé au niveau mondial, et écrit lui-même que le corpus « ne peut pas invoquer l'absence de découplage observé comme preuve d'impossibilité » ; L24.C03 rapporte qu'aucun découplage absolu n'est constaté. Ces constats bornent l'usage de la thèse d'Ayres sans la réfuter : un constat du présent ne contredit pas une possibilité.
 
 ### F11 déclaré INDÉCIDABLE le 2026-09-08 par L26.C03, et c'est le pire état possible
 
