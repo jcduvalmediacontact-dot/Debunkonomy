@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "Le corpus lui-même — la promesse P43 : le mot « contrainte extérieure » réunit deux choses distinctes, la contrainte OPÉRATIONNELLE de règlement et la contrainte STRUCTURELLE de croissance, un pays dont les importations réagissent plus vivement au revenu que ses exportations butant sur un plafond déterminé par le rapport de ces élasticités. INSTRUITE le 2026-09-06 par L11.C16 § 8 : la contrainte extérieure n'est pas levée par le dispositif, elle est REBASÉE sur la nature encore fonctionnelle, dotation au moins aussi inégalement distribuée que les actuelles"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L11.C16 § 8 était dit avoir établi que la contrainte extérieure est rebasée ; L11.C16 § 8, repris le 30 septembre, le tient en hypothèse, d'après L1.C27 § 6.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, NON DÉPOUILLÉE. Une formule est vérifiée, celle
   # de la rente, parce qu'elle contient l'expression qui décide du rapport de
@@ -42,7 +45,7 @@ verifications_en_attente:
      ne tient aucune source dessus** et ne fait qu'énoncer une objection reçue."
 resume: "Ce chapitre porte l'ancêtre de la promesse par laquelle le corpus distingue deux contraintes extérieures que le mot confond, et il tire de la lettre même du texte un résultat défavorable au dispositif. Il déclare que l'ouvrage est acquis et non dépouillé, une seule formule étant vérifiée. Cette formule est la définition de la rente, et elle contient l'expression qui décide de tout : elle paie l'usage des puissances originelles et indestructibles du sol. Le chapitre établit que cette qualification est exactement la proposition que le dispositif existe pour nier, puisque toute sa thèse repose sur le fait que les fonds naturels se dégradent et qu'il faut financer leur reconstitution. Il en tire que la tradition classique n'a pas seulement omis la limite écologique mais l'a explicitement exclue par définition, et que l'exclusion s'est logée dans le concept qui aurait dû la porter. Il montre ensuite que la théorie de la rente fournit malgré cela au dispositif un instrument dont il ne se sert pas, celui d'un revenu qui ne rémunère aucun effort et dont le prélèvement ne décourage aucune production. Il traite enfin la seconde controverse, celle de l'avantage comparatif, et établit que le dispositif ne la résout pas mais en déplace le terrain, la contrainte extérieure étant rebasée sur une dotation naturelle au lieu d'être levée."
 concepts: [limites_planetaires, dette_ecologique, fausse_richesse, degeneratif, referentiel_de_change]
-renvois: [L1.C24, L1.C26, L8.C01, L8.C08, L8.C11, L8.C13, L8.C34, L11.C16]
+renvois: [L1.C24, L1.C26, L1.C27, L8.C01, L8.C08, L8.C11, L8.C13, L8.C34, L11.C16]
 ---
 
 # Ricardo : la rente, l'avantage comparatif et la contrainte extérieure
@@ -75,7 +78,7 @@ renvois: [L1.C24, L1.C26, L8.C01, L8.C08, L8.C11, L8.C13, L8.C34, L11.C16]
 
 ::hypothese:: **Le dispositif ne réfute pas cette thèse, il en déplace le terrain, et le corpus doit le dire ainsi.** La promesse P43 distingue deux contraintes que le mot « contrainte extérieure » confond : **régler ses soldes**, qui est opérationnel, et **un plafond de croissance déterminé par le rapport des élasticités d'importation et d'exportation**, qui est structurel. **Changer l'actif de règlement agit sur la première et pas sur la seconde.**
 
-::hypothese:: **Et L11.C16 § 8 a établi le résultat qui referme la question** [S2] : la contrainte extérieure n'est pas levée par le dispositif, **elle est rebasée** sur la nature encore fonctionnelle — dotation au moins aussi inégalement distribuée que les actuelles. **Le dispositif remplace donc une inégalité de dotation par une autre**, ce qui n'est pas rien mais n'est pas ce qu'il annonce.
+::hypothese:: **Et L11.C16 § 8 tient, en hypothèse, d'après L1.C27 § 6, vérifié, ce qui referme la question** [S2] — ce paragraphe écrivait « a établi » : la contrainte extérieure n'est pas levée par le dispositif, **elle est rebasée** sur la nature encore fonctionnelle — dotation au moins aussi inégalement distribuée que les actuelles. **Le dispositif remplace donc une inégalité de dotation par une autre**, ce qui n'est pas rien mais n'est pas ce qu'il annonce.
 
 ::etat:: **Le corpus marque que Thirlwall n'est pas ouvert** — le téléchargement a échoué le 2026-09-06 — et que P43 reste appuyée sur une formulation de seconde main.
 
