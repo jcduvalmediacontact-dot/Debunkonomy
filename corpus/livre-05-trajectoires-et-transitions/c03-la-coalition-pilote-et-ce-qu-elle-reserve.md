@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "**Le corpus lui-même, et deux résultats du jour changent le calcul.** **L3.C09** : **le dispositif ne remplace pas le système existant, il s'y ajoute** — son unité ne réglant pas, elle ne peut pas être un actif de réserve, et la boucle d'auto-assurance se poursuit hors de lui. **L5.C02** : le principe 18 du standard des infrastructures exige un accès « **fair and open** » sur critères « objective, risk-based, and publicly disclosed », **ce que ce chapitre avait jugé incompatible avec la logique de club.** S'y ajoute le mécanisme versé le 2026-09-07 : **l'émetteur en place peut TARIFER LA SORTIE**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 5, L11.C16 était dit établir que la valorisation est un partage borné par le produit ; L11.C16 § 4, repris le 30 septembre, tient ce partage pour conditionnel. L11.C16 entre aux renvois.
+  # Statut inchangé.
   - "AUCUN CAS HISTORIQUE DE COALITION MONÉTAIRE N'EST INSTRUIT. Ni l'union
      latine, ni l'union scandinave, ni le serpent monétaire européen, ni le
      système monétaire européen. **Le corpus raisonne sur la forme d'une
@@ -40,7 +43,7 @@ verifications_en_attente:
      de l'accès à l'infrastructure — **ce que le corpus n'a pas vérifié.**"
 resume: "Ce chapitre instruit la deuxième voie d'entrée annoncée, celle de la coalition pilote, et il résout une tension que le chapitre précédent avait posée sans issue. Le corpus tenait de son premier livre que le seuil d'activation repose sur des leviers de club, dont l'exclusion d'une infrastructure, et il venait d'établir que le standard international des infrastructures interdit précisément d'exclure sur d'autres critères que le risque. Le chapitre soutient que la tension se dissout dès lors qu'on distingue le rail de l'émission, l'infrastructure devant être ouverte quand l'émission peut demeurer réservée aux activités qualifiées des membres. Cette issue est possible parce qu'un autre résultat du même jour a établi que le dispositif s'ajoute au système existant plutôt qu'il ne le remplace, de sorte que l'adhésion ne demande à personne de renoncer à quoi que ce soit. Il en tire deux conséquences opposées. La première est favorable et le corpus ne l'attendait pas : si l'adhésion ne suppose aucune sortie, alors la menace tarifaire que l'émetteur en place peut brandir n'a pas de fait générateur, et le coût d'entrée de cette voie est bien plus faible qu'il ne paraissait. La seconde est défavorable et la remplace : une adhésion qui ne coûte rien parce qu'elle ne retire rien ne rapporte rien non plus tant que la couche est mince, de sorte que le problème du passager clandestin ne disparaît pas mais change de forme, cessant d'être une question de défection pour devenir une question d'intérêt à entrer. Le chapitre relève enfin que le corpus dispose d'un mécanisme d'amorçage complet, tiré d'un traité de 1944, avec contribution plafonnée, financeur identifié, droits éteints, et une date plancher qui empêche le système d'entrer en vigueur au moment où le groupe des signataires est le plus étroit."
 concepts: [seuil_d_activation, qualification_regenerative, valorisation_des_communs, polycentricite, bareme]
-renvois: [L1.C27, L3.C09, L5.C01, L5.C02, L7.C11, L7.C12, L11.C24, L20.C13]
+renvois: [L1.C27, L3.C09, L5.C01, L5.C02, L7.C11, L7.C12, L11.C16, L11.C24, L20.C13]
 ---
 
 # La coalition pilote, et ce qu'elle réserve
@@ -89,7 +92,7 @@ renvois: [L1.C27, L3.C09, L5.C01, L5.C02, L7.C11, L7.C12, L11.C24, L20.C13]
 
 ::hypothese:: **L1.C27 répondait à la première question par trois leviers structurels. Aucun ne répond à la seconde**, et le corpus doit le dire : **ses leviers supposent que le non-membre soit privé de quelque chose qu'il aurait autrement**, ce qui n'est pas le cas d'une couche qui s'ajoute.
 
-::hypothese:: **Une piste existe et le corpus ne l'instruit pas ici.** Si l'enveloppe d'émission est plafonnée — **et L11.C16 établit que la valorisation est un partage borné par le produit** —, alors **entrer tôt donne une part plus grande.** **Le retard aurait un coût d'opportunité et non une pénalité**, ce qui est faible mais non nul. **Cela reste à établir au Livre 11.**
+::hypothese:: **Une piste existe et le corpus ne l'instruit pas ici.** Si l'enveloppe d'émission est plafonnée et que la demande l'excède — **ce que L11.C16 § 4 tient pour un scénario à éprouver, la valorisation devenant alors un partage** —, alors **entrer tôt donne une part plus grande.** Ce paragraphe écrivait que L11.C16 établit ce partage. **Le retard aurait un coût d'opportunité et non une pénalité**, ce qui est faible mais non nul. **Cela reste à établir au Livre 11.**
 
 ## 6. Ce que le corpus tient déjà pour amorcer
 
