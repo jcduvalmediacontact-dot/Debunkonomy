@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -79,6 +79,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : en tête, L1.C15 § 8 n'établit ni l'applicabilité actuelle de la catégorie, ni son ampleur ; la phrase passe au possible, et la suivante dit déjà la borne.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
   # relevée par le dossier de clôture des renvois : au § 7, l'organe de compensation non encore nommé est en L1.C29 § 5 ; l'ancre devient §§ 1 et 5.
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -213,7 +216,7 @@ renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C11, L1.C15, L1.C16, L26.C0
 
 ::etat:: **Une clé de lecture vaut pour tout ce qui suit, et L1.C31 l'énonce** : la création monétaire fournit du pouvoir d'achat ; elle ne produit par elle-même ni travail, ni énergie, ni matériaux, ni capacités productives. Une émission ne fabrique aucune ressource : elle donne à quelqu'un le moyen d'en acquérir, et ce quelqu'un les prend quelque part.
 
-::etat:: La première partie a établi un diagnostic, et il est borné à un canal : **le crédit bancaire est le seul canal qui crée la monnaie avec une dette nouvelle, et il la soumet à un test de remboursement** ; d'autres dépôts naissent de l'achat d'actifs, qui n'y passe pas (L1.C11 § 2) ; ce filtre prive d'accès propre à la monnaie ce qui entretient les conditions de la vie (L1.C15) ; et **les critères financiers étudiés n'exigent pas, comme finalité autonome, que l'activité résolve le problème qu'elle invoque** (L1.C16). La première partie a défini une **catégorie prospective** — l'essentiel insolvable — et sa méthode d'épreuve ; **elle n'en a mesuré ni l'ampleur ni l'abandon.**
+::etat:: La première partie a établi un diagnostic, et il est borné à un canal : **le crédit bancaire est le seul canal qui crée la monnaie avec une dette nouvelle, et il la soumet à un test de remboursement** ; d'autres dépôts naissent de l'achat d'actifs, qui n'y passe pas (L1.C11 § 2) ; ce filtre peut priver d'accès propre à la monnaie ce qui entretient les conditions de la vie (L1.C15) ; et **les critères financiers étudiés n'exigent pas, comme finalité autonome, que l'activité résolve le problème qu'elle invoque** (L1.C16). La première partie a défini une **catégorie prospective** — l'essentiel insolvable — et sa méthode d'épreuve ; **elle n'en a mesuré ni l'ampleur ni l'abandon.**
 
 ::etat:: La proposition porte un nom [S1], et ce nom couvre **trois composantes de maturité inégale** : l'émission régénérative, l'unité de réserve entre banques centrales, et la compensation symétrique entre membres d'une coalition. Ce chapitre n'expose ni les institutions ni les mécanismes ; il pose la question du critère de création et énumère les problèmes dont dépend qu'elle tienne — **des problèmes qui peuvent conclure contre elle.**
 
