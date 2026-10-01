@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,9 @@ sources_primaires:
     reference: "Le corpus lui-même — `corpus/livres.yaml`, Livre 6 : « Recoupe directement L1.C18 § 2 : Équateur 2008, Atrato 2016, Te Awa Tupua 2017. C'est le livre qui doit établir ce que L1.C18 ne fait qu'énoncer » ; et L20.C16, qui a versé le régime du patrimoine commun de l'humanité en déclarant ce corpus juridique **le plus proche de la sanctuarisation que L7.C13 pose en condition sine qua non**, avec la demande expresse que le Livre 6 soit consulté avant la passe 2 du Livre 20"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L20.C17 était dit avoir établi que la sanctuarisation de 1982 n'a pas tenu douze ans ; L20.C17 § 5, repris le 30 septembre sur l'accord de 1994 lu en entier, tient que la clause a tenu dans sa lettre, le principe étant réaffirmé et maintenu, et que c'est le régime qui le mettait en œuvre qui a été réécrit.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 6. La situation est différente de celle des
   # cinq livres écrits jusqu'ici : LA MATIÈRE ARRIVE AVEC SON PROPRE
@@ -82,7 +85,7 @@ renvois: [L1.C17, L1.C18, L6.C02, L6.C03, L6.C04, L7.C13, L20.C16, L20.C17]
 
 ::etat:: **Il porte ce que L1.C18 § 2 ne fait qu'énoncer** [S4] : Équateur 2008, Atrato 2016, Te Awa Tupua 2017 — **les trois cas où une entité naturelle a reçu une personnalité juridique.** Le registre du corpus le dit expressément : « C'est le livre qui doit établir ce que L1.C18 ne fait qu'énoncer. »
 
-::etat:: **Et il a contracté une dette le jour même** [S4]. L20.C16 a versé le régime du patrimoine commun de l'humanité et déclaré que **c'est le corpus juridique le plus proche de la sanctuarisation** que L7.C13 pose en condition sine qua non de l'émission ; L20.C17 a établi que **cette sanctuarisation n'a pas tenu douze ans.**
+::etat:: **Et il a contracté une dette le jour même** [S4]. L20.C16 a versé le régime du patrimoine commun de l'humanité et déclaré que **c'est le corpus juridique le plus proche de la sanctuarisation** que L7.C13 pose en condition sine qua non de l'émission ; L20.C17 tient, repris sur pièce, que **la clause a tenu dans sa lettre, et que le régime qui mettait le principe en œuvre a été réécrit douze ans plus tard** ; ce paragraphe écrivait que la sanctuarisation n'avait pas tenu douze ans.
 
 ::hypothese:: **La question que le Livre 20 laisse au Livre 6 est donc précise, et elle n'est pas celle qu'on attendrait.** Non pas « comment sanctuariser un commun », à quoi le droit de la mer répond ; mais **« quelle technique juridique résiste à un rapport de forces qui change »** — puisque celle du droit de la mer n'a pas résisté. **La personnalité juridique d'une entité naturelle est l'autre technique disponible**, et le corpus ne sait rien d'elle.
 
