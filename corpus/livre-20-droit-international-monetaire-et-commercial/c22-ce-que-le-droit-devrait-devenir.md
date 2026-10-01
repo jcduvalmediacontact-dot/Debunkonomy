@@ -27,6 +27,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L7.C13 : la sanctuarisation juridique « est la condition sine qua non à l'émergence des unités » ; L7.C12, qui établit la séquence de démarrage ; L1.C18 § 6, qui déclarait la question du traité à trancher avant tout exposé du mécanisme"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L20.C03 était dit avoir établi que le mandat étroit applique une théorie que le corpus tient pour valide ailleurs ; L20.C03 § 4 et § 6 le tiennent en hypothèse.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 2, § 5 et § 6 et au résumé, L20.C17 était dit avoir établi que le seul précédent de sanctuarisation a été contourné en douze ans, et L11.C17 et L11.C16 avoir montré l'interdépendance des barèmes et un niveau qui n'est pas une décision libre ; L20.C17 § 5, repris le 30 septembre, tient que la clause a tenu dans sa lettre et que le régime a été réécrit, L11.C17 appuie l'interdépendance sans la démontrer, et L11.C16 § 2 confie le niveau au Conseil, par formule. L11.C16 et L11.C17 entrent aux renvois. L'entrée [S2], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -68,7 +71,7 @@ renvois: [L1.C18, L7.C12, L7.C13, L11.C15, L11.C16, L11.C17, L11.C25, L20.C01, L
 
 ## 2. La contrepartie que le corpus doit fournir
 
-::hypothese:: **On ne peut pas demander cela sans reprendre l'argument qui a servi à étroitir le mandat.** L20.C03 l'a établi : le mandat étroit applique une théorie que le corpus tient pour valide ailleurs — **une autorité discrétionnaire, même bienveillante, fait moins bien qu'une règle.**
+::hypothese:: **On ne peut pas demander cela sans reprendre l'argument qui a servi à étroitir le mandat.** L20.C03 § 6 le tient, en hypothèse (ce paragraphe écrivait « l'a établi ») : le mandat étroit applique une théorie que le corpus tient pour valide ailleurs — **une autorité discrétionnaire, même bienveillante, fait moins bien qu'une règle.**
 
 ::etat:: **Deuxième exigence : fournir, pour l'objectif écologique, une règle aussi contraignante que la cible d'inflation.** Faute de quoi la demande revient à réclamer un retour à la discrétion sur la dimension même où la théorie dit qu'il ne faut pas.
 
