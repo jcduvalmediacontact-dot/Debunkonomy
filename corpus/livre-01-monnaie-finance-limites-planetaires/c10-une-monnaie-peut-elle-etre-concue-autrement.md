@@ -144,6 +144,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-23
 verifications_en_attente:
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 3, la citation de Soddy est en L1.C08 § 5, non § 3.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # CORRECTION DU 2026-10-01, sur le mot de l'auteur du même jour (« corrige L1.C10 § 3 d'après
   # L1.C25 »), relevée par le dossier de clôture des renvois. Au § 3, la charge du plan Keynes est
   # d'un pour cent par an, non par mois, et elle frappe les soldes créditeurs comme débiteurs ; la
@@ -305,7 +308,7 @@ Le 18 novembre 1933, la Haute Cour administrative rend l'arrêt A 504/33 : les c
 
 **Silvio Gesell** (1862-1930), commerçant germano-argentin devenu théoricien, a formulé la monnaie fondante [S11] : la monnaie ne s'use pas, contrairement à tout ce qu'elle achète, et cette immortalité encourage sa rétention ; la solution est de la rendre périssable. L'idée n'a jamais été adoptée à grande échelle. Elle a en revanche été prise au sérieux par Keynes, qui écrit dans la *Théorie générale* : « the strange, unduly neglected prophet Silvio Gesell », et « I believe that the future will learn more from the spirit of Gesell than from that of Marx » [S3]. Ce sont les deux passages que le corpus a relevés dans la section VI du chapitre 23 ; ce que Keynes y oppose par ailleurs à Gesell n'est pas rapporté ici.
 
-**Frederick Soddy**, chimiste, prix Nobel 1921, a établi en 1926 la distinction entre richesse réelle, soumise aux lois de la thermodynamique, et richesse virtuelle — monnaie et dettes —, soumise aux seules lois mathématiques de l'intérêt composé [S12] (L1.C08 § 3, où la citation exacte est donnée). Il mettait en garde contre la divergence des deux.
+**Frederick Soddy**, chimiste, prix Nobel 1921, a établi en 1926 la distinction entre richesse réelle, soumise aux lois de la thermodynamique, et richesse virtuelle — monnaie et dettes —, soumise aux seules lois mathématiques de l'intérêt composé [S12] (L1.C08 § 5, où la citation exacte est donnée). Il mettait en garde contre la divergence des deux.
 
 **L'économie écologique**, à partir de Georgescu-Roegen, rapporte l'économie à la loi de l'entropie (L1.C03). **Que ce soit là son fondement est une lecture, et elle est contestée.**
 
