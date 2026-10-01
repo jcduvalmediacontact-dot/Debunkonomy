@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -38,7 +38,12 @@ sources_primaires:
     nature: theorie
     reference: "**Le corpus lui-même, et deux de ses autocorrections.** **QUINZIÈME** : le devoir exorbitant avait été attribué à Gourinchas et Rey 2005 **sur la seule proximité des titres** — « trois emplois, zéro ouverture, et une attribution faite sur un titre ». **SEIZIÈME, portant sur la quinzième** : « le résultat existe, il a été retrouvé, **et il ne fournit pas la sortie qu'on en attendait**. Ouvrir la source aurait corrigé l'attribution ; **il fallait la lire pour corriger le raisonnement.** » S'y ajoutent **L1.C25**, qui établit que l'issue d'une fenêtre de réforme « dépend de la position des créanciers au moment où elle s'ouvre **plutôt que de la qualité des projets disponibles** », et **L11.C16**, qui établit que **la polycentricité est interdite sur la décision D2**"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la dernière phrase de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe.
+  # L11.C16 § 5, repris le 30 septembre, a retiré l'interdiction de la polycentricité sur D2. Le § 3 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, la troisième réserve tenait de L11.C16 que la polycentricité est interdite sur la décision D2 ; L11.C16 § 5, repris le 30 septembre, a retiré cette interdiction. La réserve sort, et la phrase dit pourquoi ; L1.C22 entre aux renvois. L'entrée [S4], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "TRIFFIN 1961 N'EST PAS OUVERT. Le dilemme qui donne son nom au chapitre
      est tenu **par une restitution faite dans un article de 2019**. Le corpus
      décrit donc un raisonnement fondateur sans en tenir l'énoncé, **ce qui
@@ -65,7 +70,7 @@ verifications_en_attente:
      emerge » — et le corpus ne peut ni le dater ni le chiffrer.**"
 resume: "Ce chapitre verse au troisième livre le diagnostic que le corpus tient sur l'épuisement du régime actuel, et il commence par dire ce que le corpus a cru à tort. Le privilège exorbitant et le devoir exorbitant avaient été tenus pour deux forces opposées, dont on pouvait attendre que la seconde finisse par l'emporter, ce qui fournissait une stratégie d'adoption plus solide que l'attente d'une fenêtre : identifier le moment où la charge excède l'avantage. La lecture de l'article de 2019 a défait ce raisonnement, car il énonce que le privilège est une prime d'assurance encaissée en temps calme en échange d'un transfert opéré en temps de crise, et que ce transfert est le devoir. Les deux termes ne varient donc pas indépendamment, et un assureur dont les sinistres augmentent ne renonce pas à assurer mais relève sa prime. Une sortie existe pourtant dans le même texte, et elle est meilleure parce qu'elle est structurelle : un nouveau dilemme de Triffin pourrait émerger avec la décroissance de la taille relative de l'économie du centre, l'émetteur devant choisir entre fournir assez d'avoirs de réserve au prix de la confiance et en fournir trop peu au prix des transactions internationales. Le chapitre porte les trois réserves qui l'accompagnent, dont la plus lourde n'avait pas été tirée jusqu'ici : la solution que cette littérature propose est un système multipolaire à plusieurs monnaies de réserve nationales, et non un numéraire non national. Il en tire que la fenêtre dont le corpus attend l'ouverture n'est pas la sienne, puisque ceux qui se trouveront en position de créanciers au moment où elle s'ouvrira seront les émetteurs des autres monnaies nationales, et que le dispositif ne concourt pas dans cette catégorie."
 concepts: [devise_cle, hierarchie_monetaire, referentiel_de_change, fenetre_de_reforme, polycentricite]
-renvois: [L1.C24, L1.C25, L1.C26, L3.C01, L3.C02, L3.C03, L11.C16]
+renvois: [L1.C22, L1.C24, L1.C25, L1.C26, L3.C01, L3.C02, L3.C03, L11.C16]
 ---
 
 # Le privilège, le devoir, et la fenêtre qui n'est pas la nôtre
@@ -100,7 +105,7 @@ renvois: [L1.C24, L1.C25, L1.C26, L3.C01, L3.C02, L3.C03, L11.C16]
 
 ## 3. Ce que la sortie coûte, et le corpus ne l'avait pas tiré
 
-::etat:: **Trois réserves accompagnent ce pronostic, et le corpus les porte** [S2] [S3]. **Le modal** : « may emerge » — c'est un pronostic, non un constat. **La solution citée** : les travaux visés proposent « un système **multipolaire à plusieurs monnaies de réserve NATIONALES** », non un numéraire non national. **Et L11.C16 a établi que la polycentricité est interdite sur la décision D2.**
+::etat:: **Deux réserves accompagnent ce pronostic, et le corpus les porte** [S2] [S3] ; il en portait une troisième, qu'il retire. **Le modal** : « may emerge » — c'est un pronostic, non un constat. **La solution citée** : les travaux visés proposent « un système **multipolaire à plusieurs monnaies de réserve NATIONALES** », non un numéraire non national. **Le corpus y ajoutait que L11.C16 avait établi la polycentricité interdite sur la décision D2 : L11.C16 § 5 a retiré cette interdiction**, l'article de Mundell portant sur un petit pays sous mobilité parfaite des capitaux, et aucune décision de l'auteur ne tranche entre centralisation et polycentricité (L1.C22 § 2).
 
 ::hypothese:: **La deuxième réserve porte plus loin que le corpus ne l'avait vu, et c'est le résultat de ce chapitre.** Si l'issue documentée du dilemme est **plusieurs monnaies de réserve nationales**, alors la fenêtre qui s'ouvrirait **serait une fenêtre pour l'euro, pour le yuan, pour d'autres monnaies d'État — et non pour une unité non nationale.**
 
