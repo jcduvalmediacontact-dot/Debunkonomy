@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » LE PRÉSENT CHAPITRE ÉTABLIT QUE CET ARBITRAGE RÈGLE AUSSI LA RÉTROACTIVITÉ, ce que ni lui ni le corpus n'avaient relevé : un changement déclenché par un fait public et observable ne surprend personne, et la question de la rétroactivité ne se pose donc pas dans les mêmes termes"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 6 était dit poser qu'une fonction mauvaise sur la valorisation prive un membre de sa capacité d'importer, et § 4 avoir établi que l'enveloppe est plafonnée ; L11.C16, repris le 30 septembre, tient en hypothèse l'asymétrie sur la grille de priorité, retire la capacité d'importer, et tient le partage pour conditionnel.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # QUATRIÈME EXIGENCE DE L11.C12, JAMAIS ÉCRITE. Le chapitre sur la directive
   # posait qu'une directive doit contenir « sa propre procédure d'amendement —
@@ -130,7 +133,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 
 ::hypothese:: **Le corpus propose ici une règle de conception, et il la marque comme proposition et non comme résultat.**
 
-::etat:: **Deux exigences établies s'opposent frontalement.** L11.C10 et L11.C12 posent que la crédibilité demande de ne pas réécrire. **L11.C16 § 6 pose que la révisabilité est plus nécessaire là où l'objet commandé est irréversible** : une fonction mauvaise sur un taux de reflux se corrige à la période suivante, une fonction mauvaise sur la valorisation prive durablement un membre de sa capacité d'importer.
+::etat:: **Deux exigences s'opposent frontalement.** L11.C10 et L11.C12 posent que la crédibilité demande de ne pas réécrire. **L11.C16 § 6 tient, en hypothèse, que la révisabilité est plus nécessaire là où l'objet commandé est irréversible** : une fonction mauvaise sur un taux de reflux se corrige à la période suivante, une fonction mauvaise sur la priorité écarte durablement des actes et ceux qui les portent. Ce paragraphe lui faisait dire qu'elle prive un membre de sa capacité d'importer, ce que L11.C16 a retiré.
 
 ::hypothese:: **La sortie n'est pas dans le rythme, elle est dans la fonction.** Plus l'objet commandé est irréversible, **plus la fonction doit porter de conditionnalité au lieu d'être souvent réécrite** — c'est-à-dire lire davantage de données, et notamment les conditions-limites que L11.C03 recense comme des inégalités qui « only become “active” [...] if their fulfilment is threatened » [S2]. **Une fonction qui prévoit le cas n'a pas besoin d'être amendée quand il survient.**
 
@@ -144,7 +147,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 
 ::hypothese:: L11.C19 § 7 a établi que le recours contre une **valorisation** n'a pas de forme évidente : juger une valeur, c'est la refaire, et un organe qui le pourrait au cas par cas déciderait des valeurs sans les avoir votées. **Le présent chapitre rencontre la même impasse par l'autre côté.**
 
-::hypothese:: **Amender la fonction de valorisation, c'est refaire le vote initial.** Et comme L11.C16 § 4 a établi que l'enveloppe est plafonnée, **tout amendement qui relève une valeur en abaisse d'autres en termes réels** : un amendement de valorisation est un **transfert entre membres**, exactement comme une révision de parité (L11.C15 § 5).
+::hypothese:: **Amender la fonction de valorisation, c'est refaire le vote initial.** Et si l'enveloppe est plafonnée et que la demande l'excède — L11.C16 § 4 le tient pour un scénario à éprouver, non pour l'état visé, et ce paragraphe écrivait qu'il l'avait établi —, **tout amendement qui relève une valeur en abaisse d'autres en termes réels** : un amendement de valorisation est un **transfert entre membres**, exactement comme une révision de parité (L11.C15 § 5).
 
 ::hypothese:: **Les deux questions n'en font donc qu'une, et aucune n'a de forme.** Le corpus l'enregistre comme convergence et non comme solution : **sur D2, le recours et l'amendement sont deux noms de la même décision**, et cette décision est celle que P52 déclare illégitime en l'absence d'un organe légitimé — soit A16, toujours sans matière.
 
