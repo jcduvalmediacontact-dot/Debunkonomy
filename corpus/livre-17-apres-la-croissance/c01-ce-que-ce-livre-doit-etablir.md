@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -21,6 +21,9 @@ sources_primaires:
     reference: "**Le corpus lui-même — ce qu'il doit à ce livre et ce qu'il n'a jamais ouvert.** **Le registre du matricule 17** : « Comparer les théories et expériences de l'après-croissance, du Bonheur national brut à la décroissance, **puis TESTER LEUR CONCRÉTISATION INSTITUTIONNELLE** » ; motifs : « discipline — théories de l'après-croissance et indicateurs au-delà du PIB » et « **objection — P9 : sortir de l'exigence de croissance de l'encours sans contraction** ». **P9, au registre des promesses, n'a JAMAIS reçu de réponse** : la colonne de solde porte un tiret. Sa demande : « **que l'émission sans dette relâche la contrainte de croissance de L1.C08 § 2, et sous quelles conditions** ». **Et le corpus tient trois acquis récents qui pèsent sur ce livre** : L18.C04 (« no evidence of widespread absolute decoupling at the global level »), L26.C04 (le rebond reprend plus de la moitié des économies d'efficacité) et **L26.C05, qui a proposé F14 en établissant que le dispositif ne dispose que d'instruments de NIVEAU et d'aucun instrument de COMPOSITION**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L26.C05 était dit avoir établi qu'un instrument d'émission produit de l'addition par construction ; L26.C05 § 4 le tient en hypothèse.
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Ses
      occurrences de « sans dette » sont la CITATION AU MOT DE LA PROMESSE P9,
      « que l'émission sans dette relâche la contrainte de croissance ». Le registre
@@ -141,7 +144,7 @@ renvois: [L1.C08, L1.C12, L11.C24, L18.C04, L24.C03, L26.C03, L26.C04, L26.C05, 
 
 ::etat:: **La revue classe les travaux en trois** [S1]. **« Green growth » si le cadrage vise le découplage « without impeding economic growth ». « Degrowth » s'il « explicitly challenged the primacy of economic growth over the (absolute) reduction of resource use and emissions ». Et « others ».**
 
-::hypothese:: **LE DISPOSITIF N'ENTRE DANS AUCUNE DES DEUX PREMIÈRES.** **Il n'est pas de la croissance verte** : il ne soutient pas que le découplage suffit, et L18.C04 lui interdit de le soutenir. **Il n'est pas de la décroissance** : il ne donne aucune priorité à la réduction du produit, et **il ÉMET — c'est-à-dire qu'il ajoute du pouvoir d'achat.** L26.C05 a établi qu'un instrument d'émission produit de l'addition par construction.
+::hypothese:: **LE DISPOSITIF N'ENTRE DANS AUCUNE DES DEUX PREMIÈRES.** **Il n'est pas de la croissance verte** : il ne soutient pas que le découplage suffit, et L18.C04 lui interdit de le soutenir. **Il n'est pas de la décroissance** : il ne donne aucune priorité à la réduction du produit, et **il ÉMET — c'est-à-dire qu'il ajoute du pouvoir d'achat.** L26.C05 § 4 tient, en hypothèse, qu'un dispositif d'émission produit de l'addition par construction, puisqu'il ajoute du pouvoir d'achat au lieu d'en retirer ; ce paragraphe écrivait « a établi ».
 
 ::etat:: **LA TAXONOMIE DU CHAMP N'A PAS DE CASE POUR UN INSTRUMENT D'ALLOCATION**, et le corpus doit l'écrire. **Ce n'est pas une critique du dispositif : c'est un fait sur la littérature**, qui classe des STRATÉGIES et non des INSTRUMENTS.
 
