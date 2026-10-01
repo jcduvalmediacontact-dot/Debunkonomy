@@ -25,6 +25,9 @@ sources_primaires:
     etat_lecture: a_requalifier
 verifications_en_attente:
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C03 était dit avoir établi que le compte est au plus mauvais sous tension, « sept des treize conditions-limites » ne mordant que dans cet état ; L11.C03 § 5, repris le 1er octobre, tient la simultanéité pour une conjecture et a refait son inventaire. Le compteur recopié sort.
+  # Statut inchangé.
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : L11.C16 § 2 était dit avoir établi que le bouclage plafonne l'enveloppe ; il tient sous la condition de L11.C03, et L11.C16 § 2 rapporte seulement le volume maximal que le livre pose.
   # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
@@ -117,7 +120,7 @@ renvois: [L1.C21, L11.C03, L11.C07, L11.C10, L11.C12, L11.C13, L11.C16, L11.C17,
 
 ::hypothese:: **Le corpus marque immédiatement que la corrélation est déduite et non observée.** Les cinq mécanismes sont plausibles et aucun n'est établi. **Le test est faisable sur données historiques pour D₄ et D₅** — les délais sont publiés, les épisodes de contraction sont datés — et il déciderait de la portée réelle de ce paragraphe.
 
-::hypothese:: **Et il relève que ce résultat en confirme un autre, obtenu autrement.** L11.C03 a établi que **le compte des objectifs et des instruments est au plus mauvais sous tension**, sept des treize conditions-limites ne mordant que dans cet état. **Les délais et le compte se dégradent au même moment et pour des raisons distinctes** — ce qui est une convergence, non une répétition.
+::hypothese:: **Et il relève que ce résultat en confirme un autre, obtenu autrement.** L11.C03 § 5 tient, en conjecture, que **le compte des objectifs et des instruments est au plus mauvais sous tension**, plusieurs conditions-limites ne mordant que dans cet état ; ce paragraphe écrivait « a établi » et recopiait un compte que L11.C03 a refait depuis. **Les délais et le compte se dégradent au même moment et pour des raisons distinctes** — ce qui est une convergence, non une répétition.
 
 ## 4. La contracyclicité est douteuse par construction
 
