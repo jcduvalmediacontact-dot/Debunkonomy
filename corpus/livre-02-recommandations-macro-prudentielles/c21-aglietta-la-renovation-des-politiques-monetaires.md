@@ -33,6 +33,9 @@ sources_primaires:
     reference: "Le corpus lui-même — **L2.C07**, qui déclarait : « LE COMPLÉMENT A D'AGLIETTA N'EST PAS DÉPOUILLÉ [...] il n'est lu qu'à travers autrui — **exactement ce que la règle d'ouverture directe interdit** » ; et qui établissait que le rapport rejette la solution de coin où les politiques sont coordonnées. **L2.C13**, qui échelonnait trois positions sur l'encadrement du crédit et plaçait Aglietta 2016 à la plus interventionniste"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 6, L20.C03 était dit avoir établi qu'on ne peut demander l'élargissement du mandat sans une règle aussi contraignante qu'une cible d'inflation ; L20.C03 § 4 et § 6 le tiennent en hypothèse.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : aux § 3 et § 7, le chapitre écrivait qu'Aglietta 2016 propose la répression financière et qu'« un auteur s'est déplacé en cinq ans », le Cahier occupant sa position antérieure ; L2.C13 § 2, repassé le 30 septembre, retire ce « forcer », et écrit que le corpus ne peut pas dire qu'un auteur a changé d'avis, le document de 2016 étant de deux auteurs et le complément de 2011 portant sur le volume du crédit, non sur son orientation. Le titre du § 3, le point « défavorable » qui supposait l'abandon, le résumé et la troisième vérification en attente suivent ; la correction garde ce que le complément porte, le motif du contournement.
   # Statut inchangé.
@@ -118,7 +121,7 @@ renvois: [L1.C05, L1.C07, L2.C05, L2.C06, L2.C07, L2.C12, L2.C13, L2.C16, L7.C21
 
 ::hypothese:: **Il en résulte que l'élargissement du mandat n'a pas un coût technique mais un coût constitutionnel, et le corpus doit le porter comme tel.** Une banque centrale qui arbitre entre stabilité des prix et limites planétaires **choisit**, et une institution qui choisit sans être élue doit justifier son indépendance autrement. **L2.C07 a versé le triptyque indépendance-transparence-responsabilité comme motif de rejet ; ce complément en donne la mécanique.**
 
-::hypothese:: **Et le corpus enregistre que le dispositif a une réponse qu'il n'emploie pas.** L20.C03 a établi qu'on ne peut demander l'élargissement sans fournir, pour l'objectif écologique, **une règle aussi contraignante qu'une cible d'inflation.** Ce complément dit pourquoi : **c'est la règle qui rend l'indépendance défendable.** Les barèmes du Livre 11 sont cette règle — **et personne ne les a présentés comme le moyen de rester hors du jeu politique.**
+::hypothese:: **Et le corpus enregistre que le dispositif a une réponse qu'il n'emploie pas.** L20.C03 § 6 tient, en hypothèse, qu'on ne peut demander l'élargissement sans fournir, pour l'objectif écologique, **une règle aussi contraignante qu'une cible d'inflation.** Ce paragraphe écrivait « a établi ». Ce complément dit pourquoi : **c'est la règle qui rend l'indépendance défendable.** Les barèmes du Livre 11 sont cette règle — **et personne ne les a présentés comme le moyen de rester hors du jeu politique.**
 
 ## 7. Portée
 
