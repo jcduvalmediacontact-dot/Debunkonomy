@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -30,6 +30,9 @@ sources_primaires:
     reference: "J. Tinbergen, On the Theory of Economic Policy, North-Holland, 1952 — OUVERT INTÉGRALEMENT le 2026-09-06. Retenu ici : les BOUNDARY CONDITIONS, inégalités qui « only become “active” [...] if their fulfilment is threatened » et qui « represent all the protests of reality against the supposed linearity »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 2 était dit avoir établi que le bouclage plafonne l'enveloppe ; il tient sous la condition de L11.C03, et L11.C16 § 2 rapporte seulement le volume maximal que le livre pose.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAÎNE JAMAIS INSTRUITE. L11.C05 a retenu comme solide l'argument selon
   # lequel « le mécanisme de perception existe sous la forme de la TVA », et
@@ -97,7 +100,7 @@ renvois: [L1.C21, L11.C01, L11.C02, L11.C03, L11.C05, L11.C09, L11.C10, L11.C16,
 
 ::hypothese:: **Entre le moment où le prélèvement est acquitté et celui où le produit atteint l'institution, la monnaie existe encore.** Elle est chez le percepteur, dans le secteur détenteur de monnaie, et elle n'a donc pas reflué. **Le reflux effectif est décalé du reflux comptabilisé.**
 
-::hypothese:: **Ce n'est pas une subtilité comptable : c'est un terme du bouclage.** L11.C03 a classé le bouclage volumétrique comme une **condition** au sens de Tinbergen — l'expression technique d'une politique saine — et L11.C16 § 2 a établi qu'il **plafonne l'enveloppe d'émission**. Si l'un des deux flux qu'il égalise arrive avec un retard administratif, **le bouclage est vérifié sur des grandeurs qui ne coïncident pas dans le temps**, et l'écart est d'autant plus grand que la périodicité de remise est longue.
+::hypothese:: **Ce n'est pas une subtilité comptable : c'est un terme du bouclage.** L11.C03 a classé le bouclage volumétrique comme une **condition** au sens de Tinbergen — l'expression technique d'une politique saine — et, sous cette condition, il **plafonne l'enveloppe d'émission** ; ce paragraphe écrivait que L11.C16 § 2 l'avait établi, et L11.C16 § 2 rapporte seulement que le livre pose un volume maximal, que le corpus ne sait pas chiffrer. Si l'un des deux flux qu'il égalise arrive avec un retard administratif, **le bouclage est vérifié sur des grandeurs qui ne coïncident pas dans le temps**, et l'écart est d'autant plus grand que la périodicité de remise est longue.
 
 ::hypothese:: **Le corpus verse ici une convergence qu'il n'attendait pas.** Il a maintenant rencontré **trois délais, par trois voies entièrement indépendantes** :
 
