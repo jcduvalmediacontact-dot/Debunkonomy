@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "Règlement (UE) 2023/956 du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières, et ses actes d'exécution sur les VALEURS PAR DÉFAUT applicables aux importateurs qui ne déclarent pas les émissions réelles. NON OUVERT — porté en priorité 1 d'acquisition depuis L11.C06, où il fonde l'arbitrage A11. C'est le seul précédent opérant d'un barème d'impacts administré appliqué à des producteurs situés hors du régime qui l'édicte, et le présent chapitre en dépend plus qu'aucun autre"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C16 § 8 était dit avoir établi, sous P43, que la contrainte extérieure est rebasée ; L11.C16 § 8, repris le 30 septembre, le tient en hypothèse d'après L1.C27 § 6, et ne nomme pas P43.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # LE BARÈME AUX FRONTIÈRES N'AVAIT JAMAIS ÉTÉ INSTRUIT. L11.C04 § 6 a établi
   # que la contrainte est fonction de ce qui demeure dehors ; P51 pose le seuil
@@ -126,7 +129,7 @@ renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, 
 
 ::hypothese:: **Il en résulte un septième biais de concentration, et c'est le premier qui joue entre pays et non à l'intérieur d'un pays.** Le grand exportateur documente, obtient le taux modulé et entre ; **le petit exportateur d'un pays pauvre paie le défaut punitif ou renonce.** Le corpus rappelle les six autres pour que celui-ci ne soit pas lu isolément : quatre biais procéduraux (L11.C09), l'exclusion du financement (L11.C13 § 6), et le biais d'apprentissage du barème (L11.C19 § 6).
 
-::hypothese:: **Le corpus relève ce que cela fait à la thèse sociale du dispositif, et il ne l'atténue pas.** L11.C16 § 8 a établi, sous P43, que la contrainte extérieure est **rebasée** sur la nature encore fonctionnelle plutôt que levée. **Le présent résultat ajoute une seconde barrière, purement administrative** : il ne suffit pas d'avoir des fonds naturels, il faut pouvoir payer une comptabilité d'empreinte. **Deux mécanismes indépendants désavantagent les mêmes pays.**
+::hypothese:: **Le corpus relève ce que cela fait à la thèse sociale du dispositif, et il ne l'atténue pas.** L11.C16 § 8 tient, en hypothèse, et L1.C27 § 6, vérifié, le porte aussi, que la contrainte extérieure est **rebasée** sur la nature encore fonctionnelle plutôt que levée ; ce paragraphe écrivait « a établi, sous P43 ». **Le présent résultat ajoute une seconde barrière, purement administrative** : il ne suffit pas d'avoir des fonds naturels, il faut pouvoir payer une comptabilité d'empreinte. **Deux mécanismes indépendants désavantagent les mêmes pays.**
 
 ::hypothese:: **Une correction connue existe et elle est administrative** : des valeurs par défaut **sectorielles et régionales** favorables aux petits exportateurs, ou une prise en charge de la certification. **Elle coûte** — c'est le motif administratif de Tinbergen, déjà rencontré en L11.C13 § 6 : la mesure qui « affects few » coûte moins cher, et corriger suppose de payer délibérément un surcoût. **Troisième occurrence du même arbitrage, après A14 et L11.C13.**
 
