@@ -72,6 +72,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-14
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : cinq renvois. En tête, L1.C11 § 2 borne le filtre à la part de la création qui finance une activité nouvelle. Au § 3, le premier élément est une déduction conditionnelle de L1.C08 § 3, non un acquis. Au § 5, L1.C08 § 4 ne tire du cas grec qu'une concomitance ; L1.C08 § 2 ne porte que la répartition des revenus ; et L1.C09 ne dit rien de la littérature au-delà de ses sources, les propositions de refonte étant en L1.C10 § 3.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
   # relevée par le dossier de clôture des renvois : trois ancres vers L1.C08 : au § 3, le service d'un encours croissant est au § 3, non § 2 ; au § 5, l'inflation parmi les mécanismes qui absorbent la charge est au § 3, non § 2, et l'autre régime d'émission et de reflux au § 7, non § 5.
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -87,7 +90,7 @@ renvois: [L1.C03, L1.C07, L1.C08, L1.C09, L1.C10, L1.C11, L1.C13]
 
 Ce chapitre établit pourquoi verdir le crédit ne suffit pas, et il le fait en écartant d'abord un argument que le texte dont il est issu employait et que les données réfutent. La proposition : dans le régime d'émission actuel, la réorientation du crédit vers des activités moins dégradantes produit des découplages réels à l'échelle de secteurs et de pays, et ne produit pas de découplage mondial absolu, parce que le service d'un encours croissant exige une expansion nette du crédit indifférente à sa composition, parce que les capacités nouvelles s'ajoutent aux anciennes tant que celles-ci restent solvables, et parce que le régime ferme lui-même les deux issues qui relâcheraient cette exigence — l'érosion des dettes par l'inflation et leur destruction par défaut. La délimitation : le chapitre ne conteste ni les effets de la finance verte ni la possibilité d'un découplage local ; il conteste que la réorientation du crédit puisse, seule, faire décroître ce qu'elle déplace.
 
-L1.C11 a décrit la première malédiction : à sa création, la monnaie est filtrée par la solvabilité anticipée. La parade évidente est de déplacer le filtre — de rendre solvable le vert et coûteux le brun. Ce chapitre examine ce que cette parade obtient et ce qu'elle ne peut pas obtenir.
+L1.C11 a décrit la première malédiction : la part de la création monétaire qui finance une activité nouvelle passe, par le crédit, au filtre de la solvabilité anticipée. La parade évidente est de déplacer le filtre — de rendre solvable le vert et coûteux le brun. Ce chapitre examine ce que cette parade obtient et ce qu'elle ne peut pas obtenir.
 
 ## 1. Une intuition juste, et ce qu'elle a produit
 
@@ -111,7 +114,7 @@ Le corpus abandonne donc cet argument. La deuxième malédiction ne tient pas à
 
 ## 3. Le Jevons monétaire, formulé de manière défendable
 
-Trois éléments le composent ; le premier est établi ailleurs dans le corpus, les deux autres sont des hypothèses de ce chapitre.
+Trois éléments le composent ; le premier est tenu ailleurs dans le corpus comme une déduction conditionnelle, les deux autres sont des hypothèses de ce chapitre.
 
 ::etat:: **L'exigence porte sur le volume, non sur la couleur.** Dans un régime où l'encours de dette croît et où les revenus d'intérêts sont accumulés, le service de la dette exige des revenus croissants, donc une activité croissante (L1.C08 § 3, sous les conditions qui y sont posées). Cette exigence porte sur le volume total de l'activité solvable et lui est indifférente quant à sa composition : un crédit vert et un crédit brun servent également l'encours. Elle porte aussi sur un flux net : la monnaie créée par le crédit est détruite par son remboursement (L1.C08 § 1) ; ce que le régime exige n'est pas que le crédit brut augmente, mais que les crédits nouveaux excèdent les remboursements — que l'encours croisse.
 
@@ -135,13 +138,13 @@ Côté sectoriel, la part des renouvelables a plus que octuplé, et la hausse s'
 
 ::hypothese:: Quatre verrous tiennent la deuxième malédiction fermée, et ils sont tous des conséquences de la première.
 
-::hypothese:: **Une part de la masse monétaire a pour contrepartie une dette d'emprunteur.** C'est celle que le crédit a créée, et **L1.C07 interdit d'étendre l'énoncé à toute la monnaie** : un dépôt est une dette de la banque envers son client, mais seul le crédit crée aussi une dette de l'emprunteur envers la banque (L1.C07). Réduire délibérément cette part, c'est exiger des remboursements nets, donc une contraction — celle que la Grèce a subie (L1.C08 § 4). Aucun gouvernement ne la choisit.
+::hypothese:: **Une part de la masse monétaire a pour contrepartie une dette d'emprunteur.** C'est celle que le crédit a créée, et **L1.C07 interdit d'étendre l'énoncé à toute la monnaie** : un dépôt est une dette de la banque envers son client, mais seul le crédit crée aussi une dette de l'emprunteur envers la banque (L1.C07). Réduire délibérément cette part, c'est exiger des remboursements nets, donc une contraction ; L1.C08 § 4 en documente un cas, la Grèce, comme une concomitance, sans en instruire le mécanisme. Aucun gouvernement ne la choisit.
 
-::hypothese:: **La vitesse de circulation ne se pilote pas.** Elle a chuté de moitié en vingt-cinq ans aux États-Unis [S3] sans qu'aucune politique l'ait décidé ; elle dépend, selon l'analyse standard, de la confiance, des habitudes, des techniques de paiement et de la répartition de la monnaie entre agents qui dépensent et agents qui accumulent (L1.C08 § 2).
+::hypothese:: **La vitesse de circulation ne se pilote pas.** Elle a chuté de moitié en vingt-cinq ans aux États-Unis [S3] sans qu'aucune politique l'ait décidé ; elle dépend, selon l'analyse standard, de la confiance, des habitudes et des techniques de paiement ; L1.C08 § 2 en retient la répartition des revenus, c'est-à-dire leur retour effectif vers la dépense.
 
 ::hypothese:: **La stabilité des prix plafonne l'érosion.** L1.C08 § 3 range l'inflation parmi les mécanismes qui absorbent la charge d'un encours croissant : elle en érode la valeur réelle. Le mandat des banques centrales **ne supprime pas cette érosion : il la plafonne, à la cible retenue** ; lorsque l'expansion du crédit menace les prix, elles relèvent leurs taux et restreignent le crédit. Cette issue-là étant plafonnée, il ne reste, pour servir un encours croissant, que la croissance réelle des revenus — ou le défaut, que le même régime traite comme un accident à prévenir. Le régime ne « traduit » pas le crédit en volumes ; il interdit les deux façons de ne pas le faire.
 
-::hypothese:: **L'alternative est peu présente dans le champ politique.** Sortir de l'exigence de croissance de l'encours sans contraction suppose un autre régime d'émission et de reflux (L1.C08 § 7, L1.C11 § 4) ; il est discuté dans la littérature que L1.C09 a ouverte, et dans L1.C10 — **vérifié, sur des sources ouvertes, et qui borne lui-même cet appui : aucun des cas qu'il examine ne montre qu'un autre régime d'émission ait fonctionné (L1.C10 § 6)** — et peu porté par les partis de gouvernement et les institutions multilatérales.
+::hypothese:: **L'alternative est peu présente dans le champ politique.** Sortir de l'exigence de croissance de l'encours sans contraction suppose un autre régime d'émission et de reflux (L1.C08 § 7, L1.C11 § 4) ; il est discuté dans les propositions que L1.C10 § 3 recense — **vérifié, sur des sources ouvertes, et qui borne lui-même cet appui : aucun des cas qu'il examine ne montre qu'un autre régime d'émission ait fonctionné (L1.C10 § 6)** — et peu porté par les partis de gouvernement et les institutions multilatérales.
 
 ::hypothese:: Ces verrous expliquent pourquoi la finance verte a été adoptée sans résistance par les institutions orthodoxes : elle ne remet pas en cause l'exigence de croissance de l'encours, elle en colore la sortie. Elle rassure, et elle occupe le débat sans le déplacer.
 
