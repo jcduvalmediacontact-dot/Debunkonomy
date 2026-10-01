@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -32,6 +32,9 @@ sources_primaires:
     reference: "B. Balassa, « The Purchasing-Power Parity Doctrine: A Reappraisal », Journal of Political Economy, 72(6), 1964 ; P. Samuelson, « Theoretical Notes on Trade Problems », Review of Economics and Statistics, 46(2), 1964 — les écarts de productivité entre secteurs exposés et abrités produisent des écarts durables de niveau de prix entre économies, de sorte que les pouvoirs d'achat ne convergent pas par la seule fixation des taux nominaux. Versés au dossier en L1.C26 § 6. RÉSERVE : NON OUVERTS, et portés en liste d'acquisition. Ils fournissent la grandeur observable que le § 6 du présent chapitre appelle sans pouvoir la nommer précisément"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, la boucle était dite « non une règle de politique » et L11.C14 § 5 avoir établi que les résultats sur la falsifiabilité et la crédibilité ne s'y transportent pas ; L11.C14 § 5, repris le 1er octobre, le tient en hypothèse et retire l'erreur de catégorie, d'après L1.C28 § 4.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # TROISIÈME DES CINQ BARÈMES instruit. Le chapitre ne rouvre pas P49, qui est
   # bloquante et traitée en L11.C04 ; il porte sur ce que L1.C26 § 3 a laissé
@@ -112,7 +115,7 @@ renvois: [L1.C24, L1.C25, L1.C26, L1.C28, L11.C01, L11.C04, L11.C10, L11.C12, L1
 
 ::hypothese:: **Cette sortie était bonne, et L11.C14 vient de lui opposer un obstacle que le corpus n'avait pas.** Le tableau de bord n'est pas un ensemble homogène de données : **la moitié de ses familles sont des objectifs.** Les familles biosphérique et sociale sont ce que le dispositif vise, non ce qu'il subit — et Tinbergen définit les données comme les variables « **as far as not under the command of the authority considered** » [S3].
 
-::hypothese:: **Indexer la parité sur la famille biosphérique reviendrait donc à faire lire à une directive ce qu'elle est censée produire.** C'est une boucle de rétroaction, non une règle de politique, et L11.C14 § 5 a établi que les résultats sur la falsifiabilité et la crédibilité ne s'y transportent pas sans examen.
+::hypothese:: **Indexer la parité sur la famille biosphérique reviendrait donc à faire lire à une directive ce qu'elle est censée produire.** C'est une boucle de rétroaction, et L11.C14 § 5 tient, en hypothèse, que les résultats sur la falsifiabilité et la crédibilité ne s'y transportent pas sans examen ; il a retiré l'erreur de catégorie qu'il y voyait, L1.C28 § 4, vérifié, tenant qu'une règle explicite peut lire l'écart à une cible qu'elle vise et être à la fois rétroaction et règle. Ce paragraphe écrivait « non une règle de politique » et « a établi ».
 
 ::hypothese:: **Le corpus ne retire pas la sortie : il la restreint.** Les seules familles du tableau qui puissent servir de données à une directive de parité sont celles qui échappent au commandement de l'autorité — **la famille internationale, et la part subie des familles économique réelle et financière.** Et il note que cela ramène très près des critères classiques d'ajustement d'un change fixe, ce qui est un renseignement en soi.
 
