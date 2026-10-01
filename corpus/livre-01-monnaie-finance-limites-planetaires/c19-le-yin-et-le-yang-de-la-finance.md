@@ -62,6 +62,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : deux ancres : en tête, l'organe de compensation non encore nommé est en L1.C29 § 5, l'ancre devient §§ 1 et 5 ; au § 2, l'emprunteur souverain est en L1.C15 § 4, non § 1. Les autres renvois à L1.C29 § 1 visent les décisions qui y sont, et ne changent pas.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
   # relevée par le dossier de clôture des renvois : deux renvois, en tête vers L1.C29 § 3 et au § 2 vers L1.C18 § 1, portaient l'état « brouillon » ; les deux chapitres sont `verifie`. Le mot est remplacé par « vérifié ».
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -217,7 +220,7 @@ renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10
 
 ::etat:: **Une seule monnaie, et ce n'est pas une commodité d'exposition : c'est une condition du mécanisme.** Deux monnaies impliqueraient deux comptabilités, et le reflux de l'une sur l'autre serait inapplicable [S1]. Tout ce qui suit en dépend.
 
-::norme:: **L'étage d'émission est celui des banques centrales participantes.** L'auteur l'a arrêté le 2026-09-21, par une décision de conception qu'aucune source n'établit ni n'interdit : les banques centrales participantes émettent et perçoivent le reflux ; le GAÏA Economic Symposium qualifie et ne porte pas de bilan d'émission ; la compensation internationale relève d'un organe distinct, qui n'est pas encore nommé (L1.C29 § 1). La branche à deux étages — une institution internationale émettant une unité aux banques centrales, celles-ci émettant leur monnaie nationale —, qui est celle du Cahier technique (L1.C29 § 3, vérifié, où la pièce est portée et ouverte) et que la priorité de modélisation du 2026-09-16 retenait, est remplacée sur ce point. **La décision ne règle ni l'écriture comptable de cette émission ni la forme de l'unité**, qui reste un paramètre du modèle ; ce chapitre expose la mécanique sans les trancher.
+::norme:: **L'étage d'émission est celui des banques centrales participantes.** L'auteur l'a arrêté le 2026-09-21, par une décision de conception qu'aucune source n'établit ni n'interdit : les banques centrales participantes émettent et perçoivent le reflux ; le GAÏA Economic Symposium qualifie et ne porte pas de bilan d'émission ; la compensation internationale relève d'un organe distinct, qui n'est pas encore nommé (L1.C29 § 1 et L1.C29 § 5). La branche à deux étages — une institution internationale émettant une unité aux banques centrales, celles-ci émettant leur monnaie nationale —, qui est celle du Cahier technique (L1.C29 § 3, vérifié, où la pièce est portée et ouverte) et que la priorité de modélisation du 2026-09-16 retenait, est remplacée sur ce point. **La décision ne règle ni l'écriture comptable de cette émission ni la forme de l'unité**, qui reste un paramètre du modèle ; ce chapitre expose la mécanique sans les trancher.
 
 ::hypothese:: **Et une borne commande tout le chapitre, posée en L1.C31 :** l'émission fournit du pouvoir d'achat ; elle ne produit par elle-même ni travail, ni énergie, ni matériaux, ni capacités productives. Aucun des mécanismes exposés ici ne lève cette contrainte.
 
@@ -237,7 +240,7 @@ renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10
 
 ::etat:: La réponse classique est budgétaire : l'État prélève et finance. **L'argument du corpus n'est pas que cette réponse est fausse. Il est qu'elle n'a pas été comparée.**
 
-::hypothese:: **Trois limites lui sont opposées, et il faut les donner pour ce qu'elles sont — des hypothèses, non des résultats mesurés.** Le canal budgétaire organise une continuité sans garantir une permanence : il dépend d'un vote reconduit (L1.C01 § 3). Son volume est lié à la croissance de l'assiette, donc à l'activité même dont la régénération doit réparer les effets (L1.C08 § 4, L1.C13). Et le recours à l'emprunt ne supprime pas le filtre de solvabilité : il le déplace sur l'emprunteur souverain, jugé par ses créanciers sur sa capacité future à prélever (L1.C15 § 1).
+::hypothese:: **Trois limites lui sont opposées, et il faut les donner pour ce qu'elles sont — des hypothèses, non des résultats mesurés.** Le canal budgétaire organise une continuité sans garantir une permanence : il dépend d'un vote reconduit (L1.C01 § 3). Son volume est lié à la croissance de l'assiette, donc à l'activité même dont la régénération doit réparer les effets (L1.C08 § 4, L1.C13). Et le recours à l'emprunt ne supprime pas le filtre de solvabilité : il le déplace sur l'emprunteur souverain, jugé par ses créanciers sur sa capacité future à prélever (L1.C15 § 4).
 
 ::etat:: **Ces trois limites ne suffisent pas à conclure, et le corpus doit le dire.** Un État qui émet dans sa propre monnaie ne rencontre pas une contrainte de solvabilité au sens où une entreprise la rencontre : sa limite est inflationniste et réelle, non financière. **Or cette limite-là est exactement celle du dispositif.** L'une et l'autre solution butent sur les ressources mobilisables, et aucune des deux ne les crée.
 
