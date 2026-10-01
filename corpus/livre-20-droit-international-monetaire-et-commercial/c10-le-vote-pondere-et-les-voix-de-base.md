@@ -27,6 +27,9 @@ sources_primaires:
   # L7.C09, repassé le 30 septembre, n'oppose plus la racine carrée à la pondération : il décrit plusieurs règles et
   # tient le choix pour un arbitrage de l'auteur (§ 4). Les § 2 et § 5 sont corrigés.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L11.C16 était dit avoir établi que la valorisation des communs est bornée par le produit du reflux, donc que bénéficiaires et contributeurs diffèrent ; L11.C16 § 2, repris le 30 septembre, ne le dit plus, la borne relevant de la condition de bouclage de L11.C03 § 3, et l'écart entre bénéficiaires et contributeurs est une conséquence possible, non un résultat. L11.C03 entre aux renvois.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : aux § 2 et § 5, L7.C09 était dit opposer à la pondération la loi de la racine carrée de Penrose, et le corpus n'avoir appliqué la distinction du pouvoir de vote à aucun texte réel ; L7.C09, repassé le 30 septembre, décrit plusieurs règles et tient le choix pour un arbitrage de l'auteur (§ 4), rapporte que la racine carrée a été écartée deux fois par les États de l'Union (§ 4), et applique la distinction du pouvoir de vote à la double majorité du Conseil sur deux pièces ouvertes (§ 2 et § 3). La vérification en attente est bornée à cette formule. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -47,7 +50,7 @@ verifications_en_attente:
      blocage** — c'est-à-dire de ce que la formule produit réellement."
 resume: "Ce chapitre instruit la formule qui attribue les voix dans une institution monétaire internationale, et il en tire un résultat qui déplace un débat interne au corpus. La formule combine un plancher égalitaire, deux cent cinquante voix pour chaque membre quelle que soit sa taille, et une part proportionnelle à la quote-part. Ce n'est donc ni la règle d'un État une voix, ni la pondération pure, mais une troisième solution qui donne au petit membre un poids qui ne descend jamais à zéro tout en laissant au grand un poids qui croît avec sa contribution. Le chapitre établit que cette structure répond à la difficulté que le Livre 7 traitait par la loi de la racine carrée, et qu'elle y répond autrement, non par une fonction concave appliquée à la taille mais par l'addition d'une constante. Il montre ensuite que la constante est le point faible du dispositif, parce qu'un nombre fixe placé face à des quotes-parts qui croissent se dilue mécaniquement, ce qui fournirait l'explication du résultat que le Livre 7 avait constaté sans l'expliquer. Il relève enfin une disposition que le corpus n'avait pas imaginée, celle qui fait varier le nombre de voix d'un membre avec sa position nette de créancier ou de débiteur envers l'institution, et qui constitue le seul exemple documenté d'un droit de vote indexé sur l'usage plutôt que sur la souscription."
 concepts: [bareme, devise_cle, hierarchie_monetaire, referentiel_de_change]
-renvois: [L1.C25, L7.C02, L7.C05, L7.C06, L7.C09, L7.C10, L11.C16, L20.C01, L20.C07, L20.C09, L20.C12]
+renvois: [L1.C25, L7.C02, L7.C05, L7.C06, L7.C09, L7.C10, L11.C03, L11.C16, L20.C01, L20.C07, L20.C09, L20.C12]
 ---
 
 # Le vote pondéré et les voix de base
@@ -88,7 +91,7 @@ renvois: [L1.C25, L7.C02, L7.C05, L7.C06, L7.C09, L7.C10, L11.C16, L20.C01, L20.
 
 ::hypothese:: **Le corpus enregistre le principe et son ambivalence, sans le recommander.** Le principe : **celui qui porte le risque pèse davantage au moment où il le porte.** L'ambivalence : cela retire du poids à celui qui a besoin, **exactement au moment où il en a besoin** — ce qui est le contraire de ce qu'une institution de solidarité voudrait faire.
 
-::hypothese:: **Il le rapproche d'un problème du Livre 11 sans le résoudre.** L11.C16 a établi que la valorisation des communs est bornée par le produit du reflux, donc que les bénéficiaires et les contributeurs ne sont pas les mêmes. **Un vote indexé sur la contribution nette est une réponse possible à cette asymétrie, et c'est probablement la plus dure.**
+::hypothese:: **Il le rapproche d'un problème du Livre 11 sans le résoudre.** Sous la condition de bouclage que L11.C03 § 3 range parmi celles du dispositif, l'émission est bornée par le produit du reflux, de sorte que ceux qui reçoivent l'émission et ceux qui acquittent le reflux peuvent ne pas être les mêmes ; ce paragraphe écrivait que L11.C16 l'avait établi, et L11.C16 § 2 ne le dit plus. **Un vote indexé sur la contribution nette est une réponse possible à cette asymétrie, et c'est probablement la plus dure.**
 
 ## 5. Ce que le corpus n'a pas calculé
 
