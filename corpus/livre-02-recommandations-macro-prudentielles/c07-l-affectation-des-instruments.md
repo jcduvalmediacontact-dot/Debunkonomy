@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -33,6 +33,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L11.C03 § 9, qui a ouvert Tinbergen 1952 et Mundell 1962 et établi que **le cadre de Tinbergen range le changement de structure monétaire en CLASSE (d)**, où « our empirical quantitative knowledge of human behaviour under different structural conditions is so restricted », et que **Tinbergen assortit l'affectation un-pour-un d'une réserve explicite** : elle suppose « a very special structure »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L20.C03 était dit avoir établi que la hiérarchie des objectifs est le seul verrou ; L20.C03 § 6 écrit la hiérarchie, L20.C22 § 1 tient en hypothèse qu'elle est le seul verrou.
+  # Statut inchangé.
   - "LE COMPLÉMENT A D'AGLIETTA (p. 277-294) N'EST PAS DÉPOUILLÉ. Le corpus en
      tient la présentation par les rapporteurs et **quatre mentions
      indirectes dans le corps du rapport.** C'est le texte d'Aglietta le plus
@@ -49,7 +52,7 @@ verifications_en_attente:
      tient une doctrine de 2011 et l'oppose à un Cahier de 2026.**"
 resume: "Ce chapitre verse le rapport public par lequel la doctrine française a fixé, en 2011, l'articulation entre politique monétaire et politique macroprudentielle, et il est le seul document du dossier où figurent ensemble les deux auteurs que l'instruction nomme. Sa recommandation centrale est le principe d'affectation : deux objectifs demandent deux instruments, et chaque instrument reçoit l'objectif pour lequel il est le plus efficace, la politique monétaire gardant la stabilité des prix et la politique macroprudentielle recevant la stabilité financière. Le chapitre établit trois résultats. Le premier est que le corpus a déjà qualifié les deux textes sur lesquels cette recommandation repose, et qu'il l'a fait de première main : le cadre de Tinbergen range le changement de structure monétaire dans la classe où la connaissance empirique est déclarée très restreinte, et l'affectation un pour un est assortie par son auteur d'une réserve explicite sur la structure supposée. Le deuxième est que le rapport rejette expressément les deux solutions extrêmes, et que l'une des deux est celle qu'occupe le dispositif, à savoir la coordination complète des politiques monétaire, prudentielle et budgétaire ; le motif du rejet n'est pas l'inefficacité, que le rapport concède, mais l'incompatibilité avec le triptyque indépendance, transparence, responsabilité. Le troisième est que deux des trois compléments fournissent au dispositif des appuis qu'il ignore, l'un contestant la doctrine du ciblage d'inflation, l'autre plaidant contre la règle du consensus dans les comités de supervision internationaux et pour des décisions prises à la majorité et s'imposant à tous."
 concepts: [affectation_des_instruments, regle_contre_discretion, bareme, robustesse, polycentricite]
-renvois: [L2.C01, L2.C02, L2.C05, L2.C06, L7.C06, L7.C07, L11.C03, L20.C03]
+renvois: [L20.C22, L2.C01, L2.C02, L2.C05, L2.C06, L7.C06, L7.C07, L11.C03, L20.C03]
 ---
 
 # L'affectation des instruments
@@ -96,7 +99,7 @@ renvois: [L2.C01, L2.C02, L2.C05, L2.C06, L7.C06, L7.C07, L11.C03, L20.C03]
 
 ::etat:: **Complément A, Michel Aglietta** [S3] : il « remet **fermement** en question la doctrine du ciblage d'inflation et défend une politique monétaire **élargie à l'objectif de stabilité financière**, plus sensible aux dérapages du crédit et à l'essor du prix des actifs ».
 
-::hypothese:: **C'est la question du mandat, posée en 2011 par l'auteur que l'instruction nomme en premier.** L20.C03 a établi que la hiérarchie des objectifs est **le seul verrou juridique européen** ; le corpus dispose donc d'un précédent doctrinal daté de quinze ans pour contester cette hiérarchie — **et il n'a pas lu le texte**, seulement sa présentation par les rapporteurs.
+::hypothese:: **C'est la question du mandat, posée en 2011 par l'auteur que l'instruction nomme en premier.** L20.C03 § 6 écrit que le mandat classe l'objectif écologique deuxième, et L20.C22 § 1 tient, en hypothèse, que cette hiérarchie des objectifs est **le seul verrou juridique européen** (ce paragraphe écrivait que L20.C03 l'avait établi) ; le corpus dispose donc d'un précédent doctrinal daté de quinze ans pour contester cette hiérarchie — **et il n'a pas lu le texte**, seulement sa présentation par les rapporteurs.
 
 ::etat:: **Complément C, Tommaso Padoa-Schioppa** [S3], sur la gouvernance des comités de supervision internationaux « au sein desquels les décisions sont prises sur le principe de la coopération **exigeant que tout le monde soit d'accord** » : « il plaidait pour une autre gouvernance, fondée sur le principe de **décisions communes prises à la majorité si nécessaire et s'imposant à tous** ».
 
