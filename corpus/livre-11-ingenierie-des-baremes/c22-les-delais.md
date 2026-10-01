@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » Retenu ici pour ce qu'il fait au délai de DÉCISION, et pour ce qu'il ne fait pas aux quatre autres"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 2 était dit avoir établi que le bouclage plafonne l'enveloppe ; il tient sous la condition de L11.C03, et L11.C16 § 2 rapporte seulement le volume maximal que le livre pose.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE RÉCLAMÉ PAR LE CORPUS LUI-MÊME. L11.C21 § 3 a relevé que trois
   # délais avaient été trouvés par trois voies indépendantes, qu'aucun n'avait
@@ -92,7 +95,7 @@ renvois: [L1.C21, L11.C03, L11.C07, L11.C10, L11.C12, L11.C13, L11.C16, L11.C17,
 | **D₄** | **recouvrement administratif** | l'acquittement du prélèvement et le reflux effectif | établi (L11.C21 § 3) |
 | **D₅** | **recours** | la valeur appliquée et la valeur juste | **nommé ici** — établi sous une autre catégorie en L11.C19 |
 
-::hypothese:: **Il en résulte que le délai de bouclage est leur somme, et personne ne l'a additionnée.** L11.C03 a classé le bouclage volumétrique comme une **condition** au sens de Tinbergen, et L11.C16 § 2 a établi qu'il plafonne l'enveloppe. **Vérifier une égalité entre deux flux dont les horloges diffèrent de plusieurs de ces segments n'est pas la vérifier.**
+::hypothese:: **Il en résulte que le délai de bouclage est leur somme, et personne ne l'a additionnée.** L11.C03 a classé le bouclage volumétrique comme une **condition** au sens de Tinbergen, et, sous cette condition, il plafonne l'enveloppe ; ce paragraphe écrivait que L11.C16 § 2 l'avait établi, et L11.C16 § 2 rapporte seulement que le livre pose un volume maximal, que le corpus ne sait pas chiffrer. **Vérifier une égalité entre deux flux dont les horloges diffèrent de plusieurs de ces segments n'est pas la vérifier.**
 
 ::hypothese:: **Le corpus marque ce qu'il ne fait pas.** Il n'additionne pas non plus, faute d'ordres de grandeur : **aucun des cinq n'est chiffré.** Trois sont publiés et accessibles — recouvrement, contentieux, et pour partie le constat ; le quatrième relève du Livre 18 ; le premier suppose Friedman ouvert. **Les cinq sont versés au bon de commande du Livre 13.**
 
