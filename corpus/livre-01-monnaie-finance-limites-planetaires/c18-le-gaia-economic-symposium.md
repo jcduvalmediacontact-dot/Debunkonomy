@@ -147,6 +147,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-29
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 3, l'organe de compensation non encore nommé est en L1.C29 § 5 ; l'ancre devient §§ 1 et 5.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
   # relevée par le dossier de clôture des renvois : un renvoi du § 1 vers L1.C22 § 4 portait l'état « brouillon » ; L1.C22 est `verifie`. Le mot est remplacé par « vérifié ».
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -349,7 +352,7 @@ renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L1.C21, L1.C26, L15.C0
 
 ::norme:: Quatre garanties sont communes : mandats longs et non renouvelables, renouvelés par tiers ; incompatibilité et délai de carence avant et après le mandat pour toute direction dans une entreprise ou un secteur régulé ; publication intégrale des délibérations, procès-verbaux et votes nominaux ; contestabilité publique par données ouvertes, avec saisine de la Chambre de Recours.
 
-::etat:: **Qui émet est arrêté depuis le 2026-09-21, par une décision de conception de l'auteur qu'aucune source n'établit ni n'interdit** : les banques centrales participantes émettent et perçoivent le reflux ; le Symposium qualifie et ne porte pas de bilan d'émission ; la compensation internationale relève d'un organe distinct, qui n'est pas encore nommé (L1.C29 § 1). Le livre écrit de son côté, au folio 147 : « La création de monnaie sans dette se fait par les banques centrales » [S1]. **Ce chapitre expose les chambres du Symposium ; il ne dit pas comment le Conseil Monétaire Mondial, où siègent les représentants de ces banques centrales, s'articule à leur émission**, et la décision ne le dit pas non plus.
+::etat:: **Qui émet est arrêté depuis le 2026-09-21, par une décision de conception de l'auteur qu'aucune source n'établit ni n'interdit** : les banques centrales participantes émettent et perçoivent le reflux ; le Symposium qualifie et ne porte pas de bilan d'émission ; la compensation internationale relève d'un organe distinct, qui n'est pas encore nommé (L1.C29 § 1 et L1.C29 § 5). Le livre écrit de son côté, au folio 147 : « La création de monnaie sans dette se fait par les banques centrales » [S1]. **Ce chapitre expose les chambres du Symposium ; il ne dit pas comment le Conseil Monétaire Mondial, où siègent les représentants de ces banques centrales, s'articule à leur émission**, et la décision ne le dit pas non plus.
 
 ::etat:: **La règle que l'auteur a arrêtée est plus exigeante que celle du livre, et c'est sous elle qu'il faut lire cette architecture.** Le livre tient en une phrase : celui qui définit ce qui compte n'est jamais celui qui décide combien on émet. L'arbitrage du 2026-09-09 en sépare **cinq** : la mesure scientifique, incertitudes comprises ; la qualification des projets et des besoins ; la priorité démocratique ; le calibrage du montant, du rythme et des tranches ; et le contrôle, avec suspension, correction, récupération et recours. **Aucune autorité ne peut cumuler la mesure physique, la qualification, la priorité, l'émission et son propre contrôle.** Cinq centres de responsabilité indépendants sont exigés — mandats, nominations, budgets et responsabilités séparés —, sans qu'un nombre d'institutions soit imposé.
 
