@@ -60,6 +60,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 3, l'organe de compensation non encore nommé est en L1.C29 § 5 ; l'ancre devient §§ 1 et 5.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
   # relevée par le dossier de clôture des renvois : un renvoi du § 8 vers L1.C25 § 4 portait l'état « brouillon » ; L1.C25 est `verifie`. Le mot est remplacé par « vérifié ».
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -181,7 +184,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ::etat:: **Le mécanisme de règlement suppose que les deux parties soient membres** : il détruit la monnaie de l'importateur et crée celle de l'exportateur, ce qui exige que les deux banques centrales participent. Un membre qui importe d'un non-membre ne peut pas détruire une monnaie que le vendeur n'accepte pas de voir créée chez lui en contrepartie ; ce commerce se règle conventionnellement, avec des devises détenues. **La suppression des réserves de change est donc une propriété du commerce intrazone, non du dispositif**, et le gain croît avec la part des échanges réalisée avec d'autres membres.
 
-::etat:: **Ce que le règlement arrêté ajoute à cette description doit être écrit.** Les banques centrales membres tiennent un compte à l'institution — ici l'organe de compensation, que la décision de conception du 2026-09-21 distingue des banques centrales émettrices et qui n'est pas encore nommé (L1.C29 § 1) — ; leurs positions y sont bornées par des quotas assis sur les importations, avec un corridor et un plafond dur des deux côtés, et les parités se révisent par une règle annoncée. **En zone, la contrainte extérieure demeure et se traite par la compensation** : ce qui remplace les devises détenues n'est pas l'absence de contrainte, c'est une position suivie, bornée et assortie d'obligations.
+::etat:: **Ce que le règlement arrêté ajoute à cette description doit être écrit.** Les banques centrales membres tiennent un compte à l'institution — ici l'organe de compensation, que la décision de conception du 2026-09-21 distingue des banques centrales émettrices et qui n'est pas encore nommé (L1.C29 § 1 et L1.C29 § 5) — ; leurs positions y sont bornées par des quotas assis sur les importations, avec un corridor et un plafond dur des deux côtés, et les parités se révisent par une règle annoncée. **En zone, la contrainte extérieure demeure et se traite par la compensation** : ce qui remplace les devises détenues n'est pas l'absence de contrainte, c'est une position suivie, bornée et assortie d'obligations.
 
 ::hypothese:: La correction joue dans les deux sens. Puisque le gain croît avec le nombre de membres, **le levier possède un effet de réseau positif** : chaque adhésion augmente la valeur de l'adhésion pour les suivants. Le levier est donc **faible au début et fort à la fin** — il ne peut pas servir à amorcer, seulement à consolider. Le levier qui doit amorcer est le troisième.
 
