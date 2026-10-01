@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -32,6 +32,9 @@ sources_primaires:
     reference: "Mécanisme d'ajustement carbone aux frontières de l'Union européenne — valeur par défaut assignée sans connaître la chaîne, révisable par le producteur qui documente. Versé en L11.C05 [S7] et L11.C06 [S1]. RÉSERVE : le règlement n'a pas été ouvert de première main ; c'est la réserve la plus lourde du Livre 11, portée en priorité 1 d'acquisition"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 3 et § 7 et dans une vérification en attente, le chapitre recopiait « onze conditions-limites » ; L11.C03 § 5, repris le 1er octobre, en recense une quinzaine, et le compteur recopié sort. Au § 6, L11.C03 § 9 était dit avoir établi la classe à laquelle le dispositif appartient ; il le tient en hypothèse.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE CONSTRUCTIF, et c'est son statut. Le Livre 11 a produit onze
   # chapitres dont la plupart établissent ce qui ne va pas. Celui-ci assemble
@@ -62,7 +65,7 @@ verifications_en_attente:
      fragile qu'il ne paraît."
   - "OUVERTE — le domaine de validité de la directive. Le § 3 établit qu'une
      directive doit énoncer où elle cesse de s'appliquer, et L11.C03 § 5 a
-     recensé onze conditions-limites. **Le raccordement des deux n'est pas
+     recensé les conditions-limites du dispositif. **Le raccordement des deux n'est pas
      fait** : il faudrait, pour chaque condition-limite, dire ce que la
      directive prescrit lorsqu'elle devient active. C'est un travail
      mécanique et il n'a pas été entrepris."
@@ -115,7 +118,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C09, L11.C10, L11.C11, L17.C04]
 
 ::hypothese:: **La fonction.** Sa forme algébrique, et le sens de chaque dépendance. Tinbergen avertit que ces expressions sont « already fairly complicated if a verbal translation should be required » [S1] — mais il en fait la traduction verbale dans ses propres exemples, en chaîne d'élasticités. **Le corpus retient l'exigence : une directive dont on ne peut pas dire en français ce qu'elle fait ne sera pas adoptée**, et le chapitre X nomme le motif — « the **aversion of the complex** », par laquelle des responsables préfèrent une règle de pouce à un raisonnement meilleur mais plus compliqué.
 
-::hypothese:: **Son domaine de validité.** Une directive cesse de valoir quand une condition-limite devient active — L11.C03 § 4 a établi que ces conditions sont des inégalités qui ne mordent que menacées. **La directive doit donc dire où elle s'arrête**, et ce qu'elle prescrit alors. Le corpus a recensé onze conditions-limites (L11.C03 § 5) et **le raccordement n'est pas fait** : c'est un travail mécanique, il n'a pas été entrepris, et il figure en vérification.
+::hypothese:: **Son domaine de validité.** Une directive cesse de valoir quand une condition-limite devient active — L11.C03 § 4 a établi que ces conditions sont des inégalités qui ne mordent que menacées. **La directive doit donc dire où elle s'arrête**, et ce qu'elle prescrit alors. Le corpus a recensé les conditions-limites du dispositif (L11.C03 § 5) et **le raccordement n'est pas fait** : c'est un travail mécanique, il n'a pas été entrepris, et il figure en vérification.
 
 ::hypothese:: **Sa propre procédure d'amendement.** Une directive est une règle ; les règles se révisent. **Si la procédure de révision de la directive n'est pas écrite, la directive n'est pas une règle — c'est un pilotage discrétionnaire muni d'étapes supplémentaires.** Le § 5 établit que c'est là que tout se joue.
 
@@ -149,7 +152,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C09, L11.C10, L11.C11, L17.C04]
 
 ::hypothese:: **Ce que cela désigne pour le Livre 13, et c'est précis.** Il faut : les relations de structure du dispositif, même grossières ; les données dont les instruments dépendraient ; et, pour les coefficients inconnus — c'est-à-dire tous —, **la méthode par intervalles de variation** que Tinbergen décrit au chapitre VII, où l'on pose des fourchettes plausibles et où l'on résout aux bornes. **Le corpus a longtemps soutenu qu'aucun chiffrage n'était possible faute de connaître trois facteurs. C'est faux, et la directive est ce que le chiffrage doit produire.**
 
-::hypothese:: Le corpus relève enfin ce que L11.C03 § 9 a établi et qui borne le présent chapitre : le dispositif appartient à une classe de propositions — les changements de structure du système monétaire — pour laquelle Tinbergen écrit que la recherche empirique fait presque entièrement défaut. **Écrire la forme d'une directive ne dispense pas de cette absence ; cela dit seulement ce qu'il faudrait mesurer.**
+::hypothese:: Le corpus relève enfin ce que L11.C03 § 9 tient, en hypothèse, et qui borne le présent chapitre : le dispositif appartiendrait à une classe de propositions — les changements de structure du système monétaire — pour laquelle Tinbergen écrit que la recherche empirique fait presque entièrement défaut. **Écrire la forme d'une directive ne dispense pas de cette absence ; cela dit seulement ce qu'il faudrait mesurer.**
 
 ## 7. Portée
 
@@ -157,7 +160,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C09, L11.C10, L11.C11, L17.C04]
 
 ::hypothese:: **Trois questions du Livre 11 se réduisent à celle-là** : l'arbitrage règle contre pilotage cherchait cette forme sans la nommer ; l'arbitrage rendu par l'auteur sur la trajectoire en est déjà une ; et le premier objet du triplet du barème est une fonction, non une table.
 
-::hypothese:: **Quatre exigences font qu'une directive en est une** : les données qu'elle lit et qui les constate, la fonction et sa traduction en français, son domaine de validité au regard des onze conditions-limites recensées, et **sa propre procédure d'amendement — faute de quoi elle n'est qu'un pilotage discrétionnaire muni d'étapes.**
+::hypothese:: **Quatre exigences font qu'une directive en est une** : les données qu'elle lit et qui les constate, la fonction et sa traduction en français, son domaine de validité au regard des conditions-limites recensées, et **sa propre procédure d'amendement — faute de quoi elle n'est qu'un pilotage discrétionnaire muni d'étapes.**
 
 ::hypothese:: **Publier une directive expose le modèle causal qu'elle suppose, et le corpus tient cette exposition pour son principal avantage** : une table est négociable, une directive est falsifiable. C'est le critère que le corpus s'est donné pour les livres de conception, et la directive le satisfait là où la table l'esquive.
 
