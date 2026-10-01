@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -15,11 +15,17 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — le résultat de L7.C02 § 6 : les trois précédents de clé ouverts documentent des institutions qui répartissent des droits de tirage ou fixent des règles communes, AUCUNE QUI RÉPARTISSE UNE ENVELOPPE PLAFONNÉE ENTRE SES PROPRES VOTANTS ; et le résultat de L11.C16 § 4 : l'enveloppe étant plafonnée par la condition de bouclage, la valorisation est un PARTAGE À SOMME QUASI NULLE entre membres à saturation, laquelle est l'état que le dispositif vise et non son cas extrême"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la seconde moitié de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe.
+  # L11.C16 § 4, repassé le 30 septembre, tient le partage pour conditionnel — si la demande excède le volume — et
+  # retire la saturation comme état visé ; L11.C16 § 2 ne lie plus le volume au produit du reflux. Le § 1 est corrigé.
   - ref: S2
     nature: theorie
     reference: "Le corpus lui-même — la promesse BLOQUANTE P52 : l'équilibre extérieur d'un pays dépendant du volume de communs qu'il peut faire certifier, une institution non élue déciderait de la solvabilité extérieure de ses membres. Domiciliée en D2 par L11.C13 § 3. Et la promesse P31, la clé de répartition, dont L11.C11 § 5 a établi qu'elle demande la même chose que l'arbitrage A16"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : le chapitre tenait pour acquis, d'après L11.C16 § 4, que l'enveloppe est plafonnée par la condition de bouclage, que la valorisation est à saturation un partage à somme quasi nulle et que la saturation est l'état visé ; L11.C16, repassé le 30 septembre, ne lie plus le volume au produit du reflux (§ 2), tient le partage pour conditionnel et retire la saturation comme état visé (§ 4). Le § 1, le déport du § 3, le § 6, le résumé et la vérification en attente le disent ; L11.C16 § 6 est dit tenir, non avoir établi ; L1.C27 § 6 n'établit plus l'enjeu de l'équilibre extérieur, qu'il range sous une lecture parmi trois. L'entrée [S1], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION. Il traite une difficulté que le corpus a mise au
   # jour la veille en ouvrant les précédents de clé, et qu'aucun chapitre
@@ -39,13 +45,13 @@ verifications_en_attente:
      d'allocation de fréquences. **C'est la famille de remèdes que le § 5 retient
      comme la seule praticable, et le corpus n'en tient aucun cas documenté.**"
   - "LA QUESTION DE SAVOIR SI LA SATURATION EST BIEN L'ÉTAT ATTENDU N'EST PAS
-     CHIFFRÉE. Tout le chapitre suppose l'enveloppe saturée, ce que L11.C16 § 4
-     établit comme l'état visé et non comme un cas extrême. **Si la demande de
+     CHIFFRÉE. Tout le chapitre suppose l'enveloppe saturée, que L11.C16 § 4 ne
+     tient plus pour l'état visé mais pour un scénario à éprouver. **Si la demande de
      certification reste durablement inférieure au produit du reflux, le
      conflit d'intérêts est latent et non actif.**"
-resume: "Ce chapitre traite une difficulté que le corpus a mise au jour la veille en ouvrant les précédents de clé, et qu'aucun chapitre n'avait formulée : le dispositif fait voter sur un partage ceux qui en sont les bénéficiaires. Il établit d'abord pourquoi la difficulté est structurelle et non circonstancielle, en composant deux résultats acquis, l'un selon lequel l'enveloppe est plafonnée par la condition de bouclage et le partage donc à somme quasi nulle à saturation, l'autre selon lequel aucun des trois précédents de gouvernance ouverts ne documente une institution qui répartisse une enveloppe plafonnée entre ses propres votants. Il montre ensuite que la difficulté ne se réduit pas à un risque de capture ordinaire, puisqu'elle ne suppose ni corruption ni pression mais seulement que chaque représentant défende l'intérêt de celui qu'il représente, ce qui est son devoir. Il recense les quatre familles de remèdes que le droit et la pratique connaissent — le déport, la règle qui rend le partage non discrétionnaire, l'attribution par un tiers, et la séparation entre qui décide et qui reçoit — et établit que les trois premières sont inapplicables ici pour des raisons distinctes qu'il expose. Il conclut que seule la troisième est praticable, qu'elle déplace la question sans la résoudre puisqu'il faut alors légitimer le tiers, et que le corpus ne tient aucun cas documenté de cette famille."
+resume: "Ce chapitre traite une difficulté que le corpus a mise au jour la veille en ouvrant les précédents de clé, et qu'aucun chapitre n'avait formulée : le dispositif fait voter sur un partage ceux qui en sont les bénéficiaires. Il établit d'abord pourquoi la difficulté est structurelle et non circonstancielle, en composant deux résultats, l'un, que L11.C16 § 4 tient en hypothèse, selon lequel un volume plafonné fait de la priorité un partage aux dépens les uns des autres si la demande excède le volume, l'autre selon lequel aucun des trois précédents de gouvernance ouverts ne documente une institution qui répartisse une enveloppe plafonnée entre ses propres votants. Il montre ensuite que la difficulté ne se réduit pas à un risque de capture ordinaire, puisqu'elle ne suppose ni corruption ni pression mais seulement que chaque représentant défende l'intérêt de celui qu'il représente, ce qui est son devoir. Il recense les quatre familles de remèdes que le droit et la pratique connaissent — le déport, la règle qui rend le partage non discrétionnaire, l'attribution par un tiers, et la séparation entre qui décide et qui reçoit — et établit que les trois premières sont inapplicables ici pour des raisons distinctes qu'il expose. Il conclut que seule la troisième est praticable, qu'elle déplace la question sans la résoudre puisqu'il faut alors légitimer le tiers, et que le corpus ne tient aucun cas documenté de cette famille. Il tient tout entier sous la condition que la demande excède le volume, que L11.C16 § 4 ne tient plus pour l'état visé du dispositif."
 concepts: [valorisation_des_communs, bareme, polycentricite, qualification_regenerative, affectation_des_instruments]
-renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L11.C11, L11.C13, L11.C16, L11.C25]
+renvois: [L1.C15, L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L11.C11, L11.C13, L11.C16, L11.C25]
 ---
 
 # Le conflit d'intérêts structurel
@@ -54,13 +60,13 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L11.C11, L11.C13, L11.C16, L11
 
 ## 1. Pourquoi la difficulté est structurelle
 
-::etat:: **Elle résulte de la composition de deux résultats acquis, dont aucun n'a été établi pour cela.**
+::etat:: **Elle résulte de la composition de deux résultats, dont aucun n'a été établi pour cela, et le premier est conditionnel.**
 
-::etat:: **Le premier : l'enveloppe est plafonnée.** La condition de bouclage lie le volume émis au produit du reflux, lui-même borné par la condition-limite B1. **À saturation, la valorisation est un partage à somme quasi nulle entre membres** [S1] — relever la valeur d'un acte abaisse en termes réels tout ce qu'on ne relève pas.
+::etat:: **Le premier : le volume est plafonné, et à saturation la priorité devient un partage.** Le livre parle d'un volume annuel maximal, que le Conseil Monétaire Mondial calcule (L11.C16 § 2) ; L11.C16 § 4 tient, en hypothèse, qu'à plafond atteint relever le rang d'une catégorie d'actes abaisse ce que reçoivent les autres [S1]. **Ce durcissement ne vaut que si la demande admissible excède le volume**, et L11.C16 § 4 a retiré que ce soit l'état visé. Ce paragraphe écrivait que la condition de bouclage lie le volume au produit du reflux, borné par la condition-limite B1, et que le partage est à somme quasi nulle : L11.C16 § 2 et § 4 ne le tiennent plus.
 
 ::etat:: **Le second : aucun précédent ne documente ce cas.** Les trois institutions ouvertes en L7.C02 répartissent des droits de tirage ou fixent des règles communes ; **aucune ne répartit une enveloppe plafonnée entre ses propres votants** [S1].
 
-::hypothese:: **Composés, ils donnent la difficulté sous sa forme exacte : les membres de l'organe qui arrête les valeurs sont les destinataires de ce que ces valeurs distribuent.** Et L1.C27 § 6 a établi ce qui est en jeu : **l'équilibre extérieur de chacun** [S2].
+::hypothese:: **Composés, ils donnent la difficulté sous sa forme exacte : les membres de l'organe qui arrête les valeurs sont les destinataires de ce que ces valeurs distribuent.** Et, sous la première des trois lectures du rééquilibrage que L1.C27 § 6, vérifié, expose sans en retenir aucune, ce qui est en jeu est **l'équilibre extérieur de chacun** [S2] ; ce paragraphe écrivait que L1.C27 § 6 l'avait établi.
 
 ## 2. Ce que la difficulté n'est pas
 
@@ -74,9 +80,9 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L11.C11, L11.C13, L11.C16, L11
 
 ::etat:: **Le droit et la pratique en connaissent quatre, et le corpus les prend dans l'ordre où elles se présentent.**
 
-::hypothese:: **Le déport** — celui qui a un intérêt à la décision ne participe pas à cette décision. **Inapplicable ici, et pour une raison arithmétique** : tous les membres ont un intérêt à toute décision, puisque le partage est à somme quasi nulle. **Un déport universel laisse l'organe vide.**
+::hypothese:: **Le déport** — celui qui a un intérêt à la décision ne participe pas à cette décision. **Inapplicable ici, et pour une raison arithmétique** : tous les membres ont un intérêt à toute décision, puisqu'à saturation le partage se fait aux dépens les uns des autres. **Un déport universel laisse l'organe vide.**
 
-::hypothese:: **Rendre le partage non discrétionnaire** — si la répartition résulte d'une règle et non d'un vote, l'intérêt des votants ne s'exerce plus. **C'est la forme que le Livre 11 a construite : la directive** (L11.C12). **Elle déplace le conflit sans le supprimer** : voter la fonction plutôt que les nombres reste un vote, et chacun soutiendra la fonction qui l'avantage. **L11.C16 § 6 l'avait établi** — la question de souveraineté n'est pas dissoute, elle est concentrée dans un acte unique. **Le déplacement est réel et il est favorable** — un vote rare et exposé vaut mieux qu'un vote annuel — **mais ce n'est pas un remède.**
+::hypothese:: **Rendre le partage non discrétionnaire** — si la répartition résulte d'une règle et non d'un vote, l'intérêt des votants ne s'exerce plus. **C'est la forme que le Livre 11 a construite : la directive** (L11.C12). **Elle déplace le conflit sans le supprimer** : voter la fonction plutôt que les nombres reste un vote, et chacun soutiendra la fonction qui l'avantage. **L11.C16 § 6 le tient** — la question de souveraineté n'est pas dissoute, elle est concentrée dans un acte unique. **Le déplacement est réel et il est favorable** — un vote rare et exposé vaut mieux qu'un vote annuel — **mais ce n'est pas un remède.**
 
 ::hypothese:: **L'attribution par un tiers** — un organe distinct des bénéficiaires arrête les valeurs. **C'est la seule famille praticable ici**, et le § 5 la traite.
 
@@ -100,7 +106,7 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L11.C11, L11.C13, L11.C16, L11
 
 ## 6. Ce qui limite tout le chapitre
 
-::etat:: **Le chapitre suppose l'enveloppe saturée**, ce que L11.C16 § 4 établit comme l'état visé et non comme un cas extrême, **la thèse du dispositif étant que l'essentiel insolvable est immense.**
+::etat:: **Le chapitre suppose l'enveloppe saturée, et L11.C16 § 4 ne tient plus la saturation pour l'état visé** : il l'écrivait, et le retire, L1.C15 § 8, vérifié, n'établissant ni l'applicabilité ni l'ampleur de l'essentiel insolvable. **C'est un scénario à éprouver, et ce chapitre en dépend tout entier.**
 
 ::hypothese:: **Si la demande de certification restait durablement inférieure au produit du reflux, le conflit serait LATENT et non ACTIF** : il n'y aurait pas de partage, chacun recevrait ce qu'il peut faire certifier. **Le corpus n'a pas chiffré ce rapport**, et il enregistre que la gravité de ce chapitre en dépend entièrement.
 
