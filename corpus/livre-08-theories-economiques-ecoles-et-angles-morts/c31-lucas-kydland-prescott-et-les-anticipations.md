@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -28,6 +28,9 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » LE CORPUS ÉTABLIT ICI QUE CET ARBITRAGE EST UNE RÉPONSE DE FORME à l'objection d'incohérence temporelle : indexer sur un fait constaté rend le report coûteux, puisque différer suppose alors de nier un fait plutôt que d'arbitrer une opportunité"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : L11.C16 § 6 était dit avoir établi une exigence de révisabilité maximale sur la valorisation ; L11.C16, repris le 30 septembre, la tient en hypothèse, plus forte sur la grille de priorité que sur un taux de reflux. L11.C16 entre aux renvois.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # RÉCRIT LE 2026-09-06, LE JOUR MÊME DE SA PREMIÈRE RÉDACTION. La première
   # version déclarait une position anormale — le corpus avait lu la CRITIQUE de
@@ -60,7 +63,7 @@ verifications_en_attente:
      **elle en fournit, et le § 6 ne fait que la verser.**"
 resume: "Ce chapitre traite la controverse qui commande le falsifieur le plus employé du corpus, et il a été récrit le jour de sa rédaction parce que ses deux sources ont été ouvertes entre-temps. Il établit d'abord que les deux résultats souvent confondus sont distincts, et que les auteurs de l'un déclarent explicitement leur indépendance à l'égard de l'argument des délais, ce qui vaut au falsifieur du corpus une confirmation qu'il tenait pour son propre jugement. Il établit ensuite que l'objection d'incohérence temporelle est plus robuste que le corpus ne l'espérait, ses auteurs bornant l'exigence à une connaissance partielle de la règle, de sorte qu'un barème ne se protège pas en étant complexe. Il corrige ensuite le corpus contre lui-même sur un point qu'il croyait acquis : sa repesée de la veille, qui affaiblissait la jambe Lucas au motif que son importance empirique avait été testée et rejetée, était elle-même trop forte, parce que l'auteur borne lui-même son résultat au domaine de l'évaluation des politiques et le déclare de portée occasionnelle pour la prévision — or les tests invoqués portaient sur la prévision. Il établit ensuite le résultat le plus inattendu du chapitre : les deux auteurs employés contre le dispositif argumentent en faveur de la forme que le Livre 11 a retenue, l'un demandant que les règles soient simples et lisibles pour que la déviation soit visible, l'autre concluant que le décideur doit prendre les citoyens dans sa confidence. Il verse enfin une proposition institutionnelle — des règles n'entrant en vigueur qu'après un délai — dans un arbitrage que le corpus déclarait sans matière, et relève que ni l'un ni l'autre auteur ne prétend démontrer la supériorité de la règle sur la discrétion."
 concepts: [regle_contre_discretion, bareme, affectation_des_instruments]
-renvois: [L1.C21, L8.C01, L8.C28, L8.C29, L8.C30, L11.C10, L11.C11, L11.C12, L11.C13, L11.C17]
+renvois: [L1.C21, L8.C01, L8.C28, L8.C29, L8.C30, L11.C10, L11.C11, L11.C12, L11.C13, L11.C16, L11.C17]
 ---
 
 # Lucas, Kydland-Prescott et les anticipations
@@ -121,7 +124,7 @@ renvois: [L1.C21, L8.C01, L8.C28, L8.C29, L8.C30, L11.C10, L11.C11, L11.C12, L11
 
 ::etat:: **Et les auteurs versent une proposition institutionnelle dans un arbitrage que le corpus déclarait sans matière.** « There could be institutional arrangements which make it a **difficult and time-consuming process to change the policy rules** in all but emergency situations. One possible institutional arrangement is for Congress to legislate monetary and fiscal policy rules **and these rules to become effective only after a 2-year delay** » [S1].
 
-::hypothese:: **A16 avait pour manque principal l'absence de tout mécanisme de légitimation ; en voici un, et il est de forme et non de composition.** Il ne dit pas qui siège : il dit que le délai d'entrée en vigueur rend la révision opportuniste inopérante. **Cela compose directement avec ce que L11.C16 § 6 a établi** — l'exigence de révisabilité est maximale sur la valorisation, la crédibilité demande l'inverse — et **un délai d'entrée en vigueur est exactement l'objet qui arbitre entre les deux** : la règle reste révisable, et la révision ne produit plus d'effet à l'horizon où l'on aurait intérêt à la faire.
+::hypothese:: **A16 avait pour manque principal l'absence de tout mécanisme de légitimation ; en voici un, et il est de forme et non de composition.** Il ne dit pas qui siège : il dit que le délai d'entrée en vigueur rend la révision opportuniste inopérante. **Cela compose directement avec ce que L11.C16 § 6 tient en hypothèse** — l'exigence de révisabilité est plus forte sur la grille de priorité que sur un taux de reflux, la crédibilité demande l'inverse — et **un délai d'entrée en vigueur est exactement l'objet qui arbitre entre les deux** : la règle reste révisable, et la révision ne produit plus d'effet à l'horizon où l'on aurait intérêt à la faire.
 
 ## 7. Le préalable que les auteurs posent, et il rejoint Tinbergen
 
