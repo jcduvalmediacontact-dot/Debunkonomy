@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L7.C02, qui établit que l'attribution de 3,3 % aux pays à faible revenu dans l'allocation de 2021 est LA SORTIE ARITHMÉTIQUE DE LA CLÉ et non un accident ; L7.C09, qui oppose à la pondération la loi de la racine carrée de L. S. Penrose ; L7.C06, sur la double majorité"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le passage sur L7.C09 est périmé, le texte de l'entrée étant gardé tel que le manifeste le fixe.
+  # L7.C09, repassé le 30 septembre, n'oppose plus la racine carrée à la pondération : il décrit plusieurs règles et
+  # tient le choix pour un arbitrage de l'auteur (§ 4). Les § 2 et § 5 sont corrigés.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : aux § 2 et § 5, L7.C09 était dit opposer à la pondération la loi de la racine carrée de Penrose, et le corpus n'avoir appliqué la distinction du pouvoir de vote à aucun texte réel ; L7.C09, repassé le 30 septembre, décrit plusieurs règles et tient le choix pour un arbitrage de l'auteur (§ 4), rapporte que la racine carrée a été écartée deux fois par les États de l'Union (§ 4), et applique la distinction du pouvoir de vote à la double majorité du Conseil sur deux pièces ouvertes (§ 2 et § 3). La vérification en attente est bornée à cette formule. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "LE POIDS RELATIF DES DEUX COMPOSANTES N'EST PAS CALCULÉ. Deux cent
      cinquante voix de base, plus une voix par cent mille dollars de
      quote-part : **le corpus n'a pas extrait le tableau des quotes-parts** et
@@ -34,7 +40,9 @@ verifications_en_attente:
      dilution de la part égalitaire. **Le corpus n'a aucun relevé** de cette
      évolution, alors que c'est le mécanisme qui expliquerait le résultat de
      L7.C02."
-  - "AUCUNE ANALYSE DU POUVOIR DE VOTE N'EST AU DOSSIER. Le corpus tient une
+  - "AUCUNE ANALYSE DU POUVOIR DE VOTE N'EST AU DOSSIER POUR CETTE FORMULE.
+     L7.C09 en tient deux, sur la double majorité du Conseil de l'Union
+     européenne. Le corpus tient une
      formule d'attribution de voix ; **il ne tient aucun calcul de pouvoir de
      blocage** — c'est-à-dire de ce que la formule produit réellement."
 resume: "Ce chapitre instruit la formule qui attribue les voix dans une institution monétaire internationale, et il en tire un résultat qui déplace un débat interne au corpus. La formule combine un plancher égalitaire, deux cent cinquante voix pour chaque membre quelle que soit sa taille, et une part proportionnelle à la quote-part. Ce n'est donc ni la règle d'un État une voix, ni la pondération pure, mais une troisième solution qui donne au petit membre un poids qui ne descend jamais à zéro tout en laissant au grand un poids qui croît avec sa contribution. Le chapitre établit que cette structure répond à la difficulté que le Livre 7 traitait par la loi de la racine carrée, et qu'elle y répond autrement, non par une fonction concave appliquée à la taille mais par l'addition d'une constante. Il montre ensuite que la constante est le point faible du dispositif, parce qu'un nombre fixe placé face à des quotes-parts qui croissent se dilue mécaniquement, ce qui fournirait l'explication du résultat que le Livre 7 avait constaté sans l'expliquer. Il relève enfin une disposition que le corpus n'avait pas imaginée, celle qui fait varier le nombre de voix d'un membre avec sa position nette de créancier ou de débiteur envers l'institution, et qui constitue le seul exemple documenté d'un droit de vote indexé sur l'usage plutôt que sur la souscription."
@@ -56,11 +64,11 @@ renvois: [L1.C25, L7.C02, L7.C05, L7.C06, L7.C09, L7.C10, L11.C16, L20.C01, L20.
 
 ::hypothese:: **La formule additionne un plancher égalitaire et une part proportionnelle.** Deux cent cinquante voix pour chacun, quelle que soit sa taille — **puis** une voix par tranche de quote-part.
 
-::hypothese:: **Le corpus n'avait posé le problème qu'en termes binaires.** L7.C06 opposait une majorité par tête à une majorité pondérée et les combinait ; L7.C09 opposait à la pondération **la loi de la racine carrée de Penrose**, c'est-à-dire une fonction concave de la taille.
+::hypothese:: **Le corpus n'avait posé le problème qu'en termes binaires.** L7.C06 opposait une majorité par tête à une majorité pondérée et les combinait ; L7.C09 opposait à la pondération **la loi de la racine carrée de Penrose**, c'est-à-dire une fonction concave de la taille. Repris sur pièces, L7.C09 n'oppose plus : son § 4 décrit la double majorité, les poids en racine carrée assortis d'un quota et leur combinaison, tient le choix pour un arbitrage de l'auteur, et nomme sans la reprendre la famille que ce chapitre instruit.
 
 ::hypothese:: **Le texte de 1944 fait autre chose : il ajoute une constante.** Le résultat a la même propriété qualitative que la racine carrée — **le petit membre pèse plus que sa part** — mais il l'obtient par une addition plutôt que par une transformation. **C'est plus simple, plus lisible, et négociable ligne à ligne** : on discute le chiffre de deux cent cinquante, on ne discute pas un exposant.
 
-::hypothese:: **Le corpus enregistre l'avantage pratique et il est réel.** Une règle qu'on peut négocier en marchandant un nombre entier a des chances d'être adoptée qu'une règle exigeant l'accord sur une forme fonctionnelle n'a pas. **L7.C09 avait le meilleur argument théorique ; ce texte a le meilleur argument de négociation.**
+::hypothese:: **Le corpus enregistre l'avantage pratique et il est réel.** Une règle qu'on peut négocier en marchandant un nombre entier a des chances d'être adoptée qu'une règle exigeant l'accord sur une forme fonctionnelle n'a pas. **La racine carrée a l'argument théorique ; ce texte a le meilleur argument de négociation.** L7.C09 § 4 en rapporte depuis la contre-épreuve : proposée par la Suède en 2000 et par la Pologne en 2007, la racine carrée a été écartée les deux fois par une majorité des États de l'Union.
 
 ## 3. La constante est le point faible, et elle explique un résultat que le corpus n'expliquait pas
 
@@ -86,7 +94,7 @@ renvois: [L1.C25, L7.C02, L7.C05, L7.C06, L7.C09, L7.C10, L11.C16, L20.C01, L20.
 
 ::etat:: **Le poids relatif des deux composantes n'est pas calculé** — le tableau des quotes-parts n'a pas été extrait. Le corpus ne peut donc pas dire ce que valaient deux cent cinquante voix en 1944, ni pour qui.
 
-::etat:: **Aucune analyse de pouvoir de vote n'est au dossier.** Le corpus tient une formule d'attribution ; **il ne tient aucun calcul de pouvoir de blocage** — c'est-à-dire de ce que la formule produit. **C'est exactement la distinction que L7.C09 avait introduite en citant Penrose, et le corpus ne l'a appliquée à aucun texte réel.**
+::etat:: **Aucune analyse de pouvoir de vote n'est au dossier pour cette formule.** Le corpus tient une formule d'attribution ; **il ne tient aucun calcul de pouvoir de blocage** — c'est-à-dire de ce que la formule produit. **C'est la distinction que L7.C09 § 3 expose — le pouvoir de vote n'est pas le poids — et qu'il applique, sur deux pièces ouvertes là-bas, à la double majorité du Conseil de l'Union européenne** ; ce paragraphe écrivait que le corpus ne l'avait appliquée à aucun texte réel.
 
 ## 6. Portée
 
