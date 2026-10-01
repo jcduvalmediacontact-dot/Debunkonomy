@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -15,11 +15,17 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — le concept `bareme` du vocabulaire ; le résultat de L11.C05, qui établit que le barème de reflux est un prélèvement sur les transactions modulé par l'empreinte ; et l'obstacle métrologique de L11.C05 § 6 et L11.C06, l'empreinte cumulée d'un bien étant une grandeur que personne ne détient, avec sa sortie — une valeur par défaut révisable. Et le résultat de L11.C24 sur le barème aux frontières, dont le seul précédent opérant est le mécanisme d'ajustement carbone de l'Union européenne"
     etat_lecture: a_requalifier
+  # 2026-10-01 : « une valeur par défaut révisable » est périmé, le texte de l'entrée étant gardé tel que le manifeste
+  # le fixe : L11.C05 § 6, qui ouvre le règlement, écrit que le défaut est majoré et que le déclarant l'écarte en faisant
+  # vérifier ses émissions réelles.
   - ref: S2
     nature: normatif
     reference: "Règlement (UE) 2023/956 du 10 mai 2023 instituant un mécanisme d'ajustement carbone aux frontières, et règlement d'exécution portant sur les VALEURS PAR DÉFAUT — OUVERTS PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (EUR-Lex, textes intégraux). ACQUIS ET NON ENCORE DÉPOUILLÉS : le corpus les tient et n'en a pas tiré le mécanisme des valeurs par défaut, qui est l'objet de l'arbitrage A11 et de L11.C24"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C05 § 6 était dit avoir établi l'obstacle métrologique ; il le tient en hypothèse. L'entrée [S1], `a_requalifier`, dit la sortie « une valeur par défaut révisable », que L11.C05 § 6 corrige en défaut majoré écarté par la vérification des émissions réelles : elle garde son texte, un commentaire la suit.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE SANS SOURCE THÉORIQUE OUVERTE — The Economics of Welfare n'est pas en
   # possession du corpus — MAIS AVEC UNE SOURCE NORMATIVE ACQUISE : les textes
@@ -66,7 +72,7 @@ renvois: [L1.C09, L8.C01, L8.C03, L8.C21, L8.C34, L11.C05, L11.C06, L11.C24]
 
 ::hypothese:: **La doctrine impute un coût CONSTATÉ ; elle ne fixe pas une valeur.** Deux conditions en découlent, et le dispositif n'en remplit clairement aucune.
 
-::hypothese:: **Première condition : le coût doit être mesurable.** C'est l'obstacle métrologique que L11.C05 § 6 a établi — l'empreinte cumulée d'un bien est une grandeur que personne ne détient. **La doctrine suppose résolu ce que le Livre 11 déclare ouvert.**
+::hypothese:: **Première condition : le coût doit être mesurable.** C'est l'obstacle métrologique que L11.C05 § 6 tient, en hypothèse — l'empreinte cumulée d'un bien est une grandeur que personne ne détient. Ce paragraphe écrivait « a établi ». **La doctrine suppose résolu ce que le Livre 11 déclare ouvert.**
 
 ::hypothese:: **Seconde condition, et le corpus ne l'avait pas relevée : la cible est le PRIX CORRIGÉ, non un objectif quantitatif.** Un prélèvement pigouvien ne vise pas un volume d'émissions : il vise à ce que le prix dise la vérité, **et le volume qui en résulte est celui qui résulte.** Or le dispositif poursuit des objectifs quantitatifs — le bouclage, l'abondance des essentiels, une trajectoire de substitution. **Il emploie l'instrument d'une doctrine pour atteindre des fins qu'elle ne poursuit pas**, ce qui est exactement le problème d'affectation de L8.C28.
 
