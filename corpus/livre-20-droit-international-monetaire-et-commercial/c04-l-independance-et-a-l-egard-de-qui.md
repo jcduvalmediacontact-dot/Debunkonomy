@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L7.C04, qui établit le conflit d'intérêts structurel du GES ; L7.C10, qui établit deux vecteurs de capture d'un institut technique, l'un par la poursuite (INDEC, ELSTAT), l'autre par le budget, et qui ROUTE VERS CE LIVRE l'immunité légale des cadres techniques ; L7.C07, qui pose la question de l'audit de l'auditeur"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le passage sur L7.C10 est périmé, le texte de l'entrée étant gardé tel que le manifeste le fixe.
+  # L7.C10 § 5 et § 6, repris le 30 septembre, tiennent les deux vecteurs pour un raisonnement qu'aucune pièce ne
+  # documente, et la poursuite d'un statisticien grec sort du chapitre. Le § 2 et le § 6 sont corrigés.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 2 et au § 6, L7.C10 était dit avoir établi deux vecteurs de capture d'un institut technique, documentés par les affaires argentine et grecque, et tenir le second pour le plus tenace ; L7.C10 § 5 et § 6, repris le 30 septembre, tiennent ce raisonnement pour plausible et non documenté, l'affaire grecque sortant du chapitre, et ne classent pas les vecteurs. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "LA PORTÉE RÉELLE DE « TOUT AUTRE ORGANISME » N'EST PAS INSTRUITE. La
      formule est très large et **le corpus ne détient aucun commentaire ni
      arrêt** disant si elle couvre une organisation internationale à laquelle
@@ -57,9 +63,9 @@ renvois: [L1.C18, L7.C04, L7.C07, L7.C10, L8.C31, L11.C17, L20.C01, L20.C03, L20
 
 ::etat:: **La protection est dirigée contre le pouvoir politique**, nommément : institutions communautaires, gouvernements, et tout autre organisme extérieur.
 
-::etat:: **L7.C10 a établi que le vecteur de capture d'un institut technique le plus difficile à fermer n'est pas celui-là.** Le premier vecteur — la poursuite pénale du statisticien, documentée par les affaires argentine et grecque — est bien un vecteur politique externe. **Le second passe par le budget**, c'est-à-dire par la hiérarchie qui emploie le technicien.
+::etat:: **L7.C10 tient, en hypothèse, que la capture d'un institut technique peut passer par deux vecteurs, et que le second n'est pas celui-là.** Le premier — la mise en cause personnelle du statisticien — est un vecteur politique externe. **Ce paragraphe écrivait que L7.C10 l'avait établi, sur les affaires argentine et grecque, et tenait le second pour le plus difficile à fermer : L7.C10 § 5 et § 6, repris le 30 septembre, écrivent qu'aucune pièce ne documente une capture par le budget ni une mise en cause personnelle d'un statisticien, et ne classent pas les vecteurs.** **Le second passe par le budget**, c'est-à-dire par la hiérarchie qui emploie le technicien.
 
-::hypothese:: **L'article 107 ne dit rien du second.** Il interdit qu'un gouvernement instruise le conseil des gouverneurs ; **il n'interdit pas au conseil des gouverneurs d'instruire ses propres services.** L'indépendance est une frontière extérieure ; **le vecteur que L7.C10 tient pour le plus tenace est intérieur.**
+::hypothese:: **L'article 107 ne dit rien du second.** Il interdit qu'un gouvernement instruise le conseil des gouverneurs ; **il n'interdit pas au conseil des gouverneurs d'instruire ses propres services.** L'indépendance est une frontière extérieure ; **le second vecteur que L7.C10 envisage est intérieur.**
 
 ::hypothese:: **Il en résulte que l'indépendance, telle que ce texte l'organise, ne répond pas à la question de L7.C07 — qui audite l'auditeur.** Elle en interdit une version (l'audit par le politique) sans en fournir une autre.
 
@@ -91,7 +97,7 @@ renvois: [L1.C18, L7.C04, L7.C07, L7.C10, L8.C31, L11.C17, L20.C01, L20.C03, L20
 
 ## 6. Portée
 
-::etat:: **L'indépendance protège contre le pouvoir politique extérieur, et contre lui seul.** Le vecteur que L7.C10 tient pour le plus tenace — la hiérarchie qui emploie le technicien — **n'est pas visé.**
+::etat:: **L'indépendance protège contre le pouvoir politique extérieur, et contre lui seul.** Le second vecteur que L7.C10 envisage — la hiérarchie qui emploie le technicien — **n'est pas visé.**
 
 ::hypothese:: **La formule « ou de tout autre organisme » retourne le texte contre le dispositif** : elle interdirait à une organisation internationale émettrice d'instruire une banque centrale, y compris si l'Union y était partie. **L'application des barèmes ne pourrait donc pas prendre la forme d'un ordre.** Piste défavorable, pas résultat — le corpus ne détient pas de quoi trancher une question de hiérarchie des normes.
 
