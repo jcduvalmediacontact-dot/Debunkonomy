@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -29,6 +29,9 @@ sources_primaires:
     reference: "*Cahier Technique*, épisode 1, section 3 — « Les systèmes biophysiques conditionnent les systèmes économiques. Les systèmes économiques conditionnent les systèmes financiers. LES SYSTÈMES FINANCIERS NE CONDITIONNENT QUE LES INSTRUMENTS MONÉTAIRES. » Et épisode 12, troisième déplacement — « l'orientation implicite carbonée actuelle FINANCE MÉCANIQUEMENT L'AGGRAVATION DES RISQUES SYSTÉMIQUES ». **OUVERTS le 2026-09-06**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : aux § 4 et § 6, les deux déplacements qui portent l'émission et le reflux étaient dits sans aucun appui doctrinal au dossier ; L2.C06 § 5, repassé le 30 septembre, lit dans la note de 2022 une émission de monnaie centrale, et L2.C16 § 2 est corrigé ce jour. Le constat est ramené au texte d'Aglietta, qui est l'objet du chapitre. L2.C16 entre aux renvois.
+  # Statut inchangé.
   - "AUCUN OUVRAGE D'AGLIETTA N'EST OUVERT. Le corpus tient UN working paper de
      vingt-cinq pages, cosigné. **Ni la théorie de la régulation, ni
      *Macroéconomie financière*, ni *La violence de la monnaie* ne sont au
@@ -44,7 +47,7 @@ verifications_en_attente:
      et il écrira « position de 2016 » et non « position d'Aglietta »."
 resume: "Ce chapitre verse au corpus le texte par lequel Michel Aglietta a posé, dix ans avant le Cahier Technique, que le changement climatique constitue un risque systémique au sens financier du terme, et non une externalité négative corrigeable par un prix. Il établit d'abord que ce texte contient déjà, sous une forme argumentée, quatre des dix déplacements que le Cahier revendique : l'extension de la cartographie prudentielle aux risques climatiques, le contrôle qualitatif du crédit, l'allocation dirigée vers des secteurs déterminés, et la sortie d'une politique monétaire exclusivement tournée vers l'inflation des biens et services. Il relève que le texte se conclut sur une phrase qui ouvre le champ plutôt qu'elle ne le ferme, en déclarant que les principes fondamentaux d'une politique macroprudentielle climatique restent à écrire. Il établit ensuite le résultat principal du chapitre, qui corrige le Cahier sur son énoncé le plus fondamental. Aglietta décrit une boucle de rétroaction à double sens : la fragilité climatique aggrave la fragilité financière, et le secteur financier est lui-même un moteur du risque climatique par sa mauvaise allocation. Or le principe d'emboîtement systémique, tel que le Cahier l'énonce, est une hiérarchie de contenance à sens unique dans laquelle les systèmes financiers ne conditionnent que les instruments monétaires. Cet énoncé interdit le second sens de la boucle, c'est-à-dire précisément le canal causal dont dépend le troisième déplacement du Cahier lui-même."
 concepts: [limites_planetaires, degeneratif, externalisation, creation_monetaire, qualification_regenerative, robustesse]
-renvois: [L1.C03, L2.C01, L2.C02, L2.C04, L2.C06, L2.C13, L2.C14, L8.C34, L20.C03]
+renvois: [L1.C03, L2.C01, L2.C02, L2.C04, L2.C06, L2.C13, L2.C14, L2.C16, L8.C34, L20.C03]
 ---
 
 # Aglietta : la fragilité climatique
@@ -95,7 +98,7 @@ renvois: [L1.C03, L2.C01, L2.C02, L2.C04, L2.C06, L2.C13, L2.C14, L8.C34, L20.C0
 
 ::hypothese:: **Aglietta reste dans le mandat de stabilité financière, et le Cahier en sort.** Le texte est explicite : incorporer un signal climatique est requis **« not because the central banks should be a direct actor of the low-carbon transition, but as part of their financial stability mandate »** [S3]. **Le Cahier fait de la banque centrale un acteur direct.** C'est une divergence de fond, non une nuance.
 
-::hypothese:: **Et Aglietta n'émet pas.** Ses instruments sont des régulations, des réserves, des achats d'actifs, de la répression financière — **tous opèrent sur du crédit existant.** Le huitième et le neuvième déplacements du Cahier — reflux actif, émission internationale par une institution nouvelle — **n'ont aucun antécédent dans ce texte.** Le corpus le note comme une originalité réelle du dispositif, **et comme la partie qui ne bénéficie d'aucun appui doctrinal.**
+::hypothese:: **Et Aglietta n'émet pas.** Ses instruments sont des régulations, des réserves, des achats d'actifs, de la répression financière — **tous opèrent sur du crédit existant.** Le huitième et le neuvième déplacements du Cahier — reflux actif, émission internationale par une institution nouvelle — **n'ont aucun antécédent dans ce texte.** Le corpus le note comme une originalité réelle du dispositif, **et comme la partie qui ne trouve pas d'appui dans ce texte** ; la note de 2022 propose, elle, une émission de monnaie centrale, pour reprendre les actifs échoués et financer la politique budgétaire (L2.C06 § 5, en brouillon ; pièce ouverte là-bas).
 
 ## 5. Ce que le corpus ne tient pas
 
@@ -115,4 +118,4 @@ renvois: [L1.C03, L2.C01, L2.C02, L2.C04, L2.C06, L2.C13, L2.C14, L8.C34, L20.C0
 
 ::hypothese:: **Et il corrige le Cahier sur son énoncé le plus fondamental.** Aglietta décrit **une boucle à deux sens** ; le principe d'emboîtement énonce **une contenance à sens unique** qui interdit le second — c'est-à-dire le canal causal dont dépend le troisième déplacement du Cahier lui-même. **Le principe doit être reformulé : contenance dans un sens, action par l'allocation dans l'autre.**
 
-::hypothese:: **Deux divergences demeurent** : Aglietta reste dans le mandat de stabilité financière, et **il n'émet pas.** Les deux déplacements du Cahier qui portent l'émission et le reflux **ne bénéficient d'aucun appui doctrinal au dossier.**
+::hypothese:: **Deux divergences demeurent** : Aglietta reste dans le mandat de stabilité financière, et **il n'émet pas.** Les deux déplacements du Cahier qui portent l'émission et le reflux **ne trouvent pas d'appui dans ce texte** ; au dossier, la note de 2022 propose une émission de monnaie centrale (L2.C06 § 5), et aucun texte cité par L2.C16 § 2 ne propose le reflux. Ce paragraphe écrivait qu'ils ne bénéficiaient d'aucun appui doctrinal au dossier.
