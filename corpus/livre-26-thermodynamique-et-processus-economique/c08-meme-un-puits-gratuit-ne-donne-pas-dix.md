@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "**A. K. Gupta et C. A. S. Hall, « A Review of the Past and Current State of EROI Data », *Sustainability*, 3(10), 2011, p. 1796-1809.** OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu dans le texte le 2026-09-08 ; pièce L26-09. **DROITS : mention CC BY lue dans le document — `libre`.** **Le second auteur est celui qui a forgé le concept de rendement énergétique net dans les années 1970.** **C'est la source historique du corpus sur cette grandeur, et elle porte sur elle un jugement que le corpus doit reprendre.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C13 était dit établir que le barème en vigueur certifie un procédé sur dossier ; L11.C13 le rapporte de L22.C04 et tient le « sur dossier » de ce chapitre-ci : le renvoi était circulaire. L22.C04 entre aux renvois.
+  # Statut inchangé.
   - "**LA QUATRIÈME FRONTIÈRE DEMANDÉE N'EST PAS COUVERTE PAR CES SOURCES, ET
      C'EST LA PLUS PROCHE DE CE QUE LE DISPOSITIF VEUT MESURER.** L'arbitrage
      demande quatre frontières : extraction, énergie livrée, point d'usage et
@@ -67,7 +70,7 @@ verifications_en_attente:
      la REFAIRE, ni ne dit quand.**"
 resume: "Ce chapitre répond dans sa forme à l'arbitrage rendu sur la frontière de calcul du rendement énergétique net, en construisant l'échelle de frontières demandée plutôt qu'un coefficient unique. Il établit d'abord, à partir du tableau d'harmonisation d'une revue de 2022, que la chaîne postérieure à l'extraction suffit à elle seule à plafonner le rendement livré, puisque ce tableau donne pour chaque combustible le rendement maximal atteignable à chaque étape en supposant un rendement infini à l'extraction, et que ce plafond vaut moins de neuf pour le pétrole et moins de deux pour les granulés de bois. Il en tire que la qualité du gisement ne suffit plus à déterminer le résultat, puisque la transformation, le transport et la distribution imposent un plafond indépendant d'elle, sans que l'énergie dépensée à l'extraction cesse pour autant d'abaisser le rendement réel en dessous de ce plafond. Il montre ensuite que le même écart se retrouve dans les chiffres réels, un gaz de schiste passant de quatre-vingt-trois à l'extraction à cinq au point d'usage, et que la seule convention de conversion vers l'électricité primaire déplace tous les classements, ce pour quoi les auteurs publient deux jeux de résultats et non un. Il ouvre enfin la revue historique écrite par l'inventeur du concept, qui donne une baisse séculaire non monotone, une dispersion de deux ordres de grandeur pour le nucléaire attribuée aux frontières de système, un écart systématique entre études conceptuelles et études d'exploitation pour l'éolien, et surtout un jugement de l'auteur sur sa propre grandeur, à savoir que les travaux disponibles relèvent souvent du plaidoyer et que les décisions se prennent sur une base analytique très maigre. Le chapitre conclut que le falsifieur physique cesse d'être indécidable sans devenir décidable, puisqu'il devient conditionnel à la publication des conventions et d'une plage de sensibilité, et il verse cette exigence comme contrainte de conception sur le barème et sur le simulateur."
 concepts: [bareme, qualification_regenerative, decouplage]
-renvois: [L1.C17, L8.C37, L11.C13, L17.C01, L24.C05, L26.C01, L26.C03, L26.C06, L26.C07, L26.C11, L11.C30]
+renvois: [L1.C17, L8.C37, L11.C13, L17.C01, L22.C04, L24.C05, L26.C01, L26.C03, L26.C06, L26.C07, L26.C11, L11.C30]
 ---
 
 # Même un puits gratuit ne donne pas dix
@@ -120,7 +123,7 @@ renvois: [L1.C17, L8.C37, L11.C13, L17.C01, L24.C05, L26.C01, L26.C03, L26.C06, 
 
 ::etat:: **Pour l'éolien, un écart systématique sépare le modèle de l'exploitation.** Une méta-analyse de **112 turbines dans 41 études** trouve une moyenne de **24,6:1** pour l'ensemble, mais de **18,1:1 pour les seules études d'exploitation** — les modèles conceptuels retenant des conditions plus favorables. **Les postes déclarés y sont exactement ceux que l'arbitrage demande** : fabrication, transport, construction, exploitation et maintenance, frais généraux, raccordement au réseau, **et démantèlement *« where possible »*** — avec cette réserve immédiate : *« not all studies include the same scope of analysis »*.
 
-::hypothese:: **Le corpus retient donc un biais d'optimisme mesuré, d'environ un quart, entre ce qu'un modèle promet et ce qu'une installation rend.** **C'est une correction applicable à toute qualification faite sur dossier plutôt que sur relevé** — et L11.C13 établit que le barème en vigueur certifie un procédé sur dossier.
+::hypothese:: **Le corpus retient donc un biais d'optimisme mesuré, d'environ un quart, entre ce qu'un modèle promet et ce qu'une installation rend.** **C'est une correction applicable à toute qualification faite sur dossier plutôt que sur relevé** — et le barème écologique en vigueur certifie un procédé plutôt qu'il ne mesure, selon L22.C04, que L11.C13 rapporte. Ce paragraphe écrivait que L11.C13 l'établit, alors que L11.C13 le tient de L22.C04 et tire de ce chapitre-ci le « sur dossier ».
 
 ## 4. Le jugement de l'auteur sur son propre instrument
 
