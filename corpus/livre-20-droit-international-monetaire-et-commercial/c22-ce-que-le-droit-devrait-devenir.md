@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -19,11 +19,17 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — l'ensemble du Livre 20, dont ce chapitre est la synthèse constructive : L20.C03 (la hiérarchie des objectifs), L20.C06 (l'article 20 des statuts et la structure à deux vitesses), L20.C07 (l'accord monétaire à la majorité qualifiée), L20.C08 (la révision graduée de parité et la désignation du porteur), L20.C12 (les pouvoirs non délégables), L20.C13 (le seuil en contributions et l'avance restituable), L20.C16 (l'inaliénabilité de la ressource et l'aliénabilité réglée du produit), L20.C17 (la sanctuarisation et son contournement), L20.C19 (l'équivalence stricte comme texte), L20.C20 (la déduction du prix payé à l'origine), L20.C21 (l'intérêt légitime)"
     etat_lecture: a_requalifier
+  # 2026-10-01 : « la sanctuarisation et son contournement » est périmé, le texte de l'entrée étant gardé tel que le
+  # manifeste le fixe ; L20.C17 § 5 tient que la clause a tenu dans sa lettre et que le régime a été réécrit. Les § 2,
+  # § 5 et § 6 sont corrigés.
   - ref: S3
     nature: theorie
     reference: "Le corpus lui-même — L7.C13 : la sanctuarisation juridique « est la condition sine qua non à l'émergence des unités » ; L7.C12, qui établit la séquence de démarrage ; L1.C18 § 6, qui déclarait la question du traité à trancher avant tout exposé du mécanisme"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 2, § 5 et § 6 et au résumé, L20.C17 était dit avoir établi que le seul précédent de sanctuarisation a été contourné en douze ans, et L11.C17 et L11.C16 avoir montré l'interdépendance des barèmes et un niveau qui n'est pas une décision libre ; L20.C17 § 5, repris le 30 septembre, tient que la clause a tenu dans sa lettre et que le régime a été réécrit, L11.C17 appuie l'interdépendance sans la démontrer, et L11.C16 § 2 confie le niveau au Conseil, par formule. L11.C16 et L11.C17 entrent aux renvois. L'entrée [S2], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   # ── Statut de ce chapitre ─────────────────────────────────────────────────
   # C'EST LE SEUL CHAPITRE DU LIVRE QUI NE S'APPUIE SUR AUCUN TEXTE NOUVEAU.
   # Il assemble ce que les vingt précédents ont trouvé. Il est donc, par
@@ -41,9 +47,9 @@ verifications_en_attente:
   - "LA CONVENTION SUR LE DROIT DES TRAITÉS N'EST TOUJOURS PAS OUVERTE. Elle
      est réclamée par onze chapitres de ce livre. **C'est la première
      acquisition de la passe suivante**, avant toute autre."
-resume: "Ce chapitre traite la seconde moitié de la commande, celle que les vingt précédents n'avaient pas traitée puisqu'ils disaient ce que le droit dispose. Il assemble ce que le livre a trouvé en huit exigences, et il commence par déclarer qu'il est le seul chapitre du livre à ne s'appuyer sur aucun texte nouveau, donc le plus faible en autorité. La première exigence est la seule qui soit indispensable et elle est déjà nommée par le corpus : renverser la hiérarchie des objectifs d'un mandat monétaire, puisque le livre a établi que la procédure d'introduction d'un instrument nouveau est légère et que le seul verrou est le rang assigné à la stabilité des prix. La deuxième est de fournir, pour l'objectif écologique, une règle aussi contraignante que la cible d'inflation, faute de quoi la demande revient à réclamer un retour à la discrétion. Les six suivantes sont des techniques transportables observées dans les instruments ouverts, chacune répondant à un blanc que le corpus avait laissé. Le chapitre énonce enfin ce qu'il ne peut pas promettre, en s'appuyant sur son propre résultat le plus dur : le seul précédent de sanctuarisation a été contourné en douze ans par un accord d'application qui s'est déclaré prioritaire, sans violer la clause d'intangibilité."
+resume: "Ce chapitre traite la seconde moitié de la commande, celle que les vingt précédents n'avaient pas traitée puisqu'ils disaient ce que le droit dispose. Il assemble ce que le livre a trouvé en huit exigences, et il commence par déclarer qu'il est le seul chapitre du livre à ne s'appuyer sur aucun texte nouveau, donc le plus faible en autorité. La première exigence est la seule qui soit indispensable et elle est déjà nommée par le corpus : renverser la hiérarchie des objectifs d'un mandat monétaire, puisque le livre a établi que la procédure d'introduction d'un instrument nouveau est légère et que le seul verrou est le rang assigné à la stabilité des prix. La deuxième est de fournir, pour l'objectif écologique, une règle aussi contraignante que la cible d'inflation, faute de quoi la demande revient à réclamer un retour à la discrétion. Les six suivantes sont des techniques transportables observées dans les instruments ouverts, chacune répondant à un blanc que le corpus avait laissé. Le chapitre énonce enfin ce qu'il ne peut pas promettre, en s'appuyant sur son propre résultat le plus dur : le seul précédent de sanctuarisation a tenu dans sa lettre, mais le régime qui mettait son principe en œuvre a été réécrit douze ans plus tard par un accord d'application qui s'est déclaré prioritaire."
 concepts: [fenetre_de_reforme, communs, limites_planetaires, regle_contre_discretion, bareme, referentiel_de_change]
-renvois: [L1.C18, L7.C12, L7.C13, L11.C15, L11.C25, L20.C01, L20.C03, L20.C06, L20.C07, L20.C08, L20.C12, L20.C13, L20.C16, L20.C17, L20.C19, L20.C20, L20.C21, L20.C23]
+renvois: [L1.C18, L7.C12, L7.C13, L11.C15, L11.C16, L11.C17, L11.C25, L20.C01, L20.C03, L20.C06, L20.C07, L20.C08, L20.C12, L20.C13, L20.C16, L20.C17, L20.C19, L20.C20, L20.C21, L20.C23]
 ---
 
 # Ce que le droit devrait devenir
@@ -66,7 +72,7 @@ renvois: [L1.C18, L7.C12, L7.C13, L11.C15, L11.C25, L20.C01, L20.C03, L20.C06, L
 
 ::etat:: **Deuxième exigence : fournir, pour l'objectif écologique, une règle aussi contraignante que la cible d'inflation.** Faute de quoi la demande revient à réclamer un retour à la discrétion sur la dimension même où la théorie dit qu'il ne faut pas.
 
-::hypothese:: **Le corpus a produit cette règle et ne l'a jamais revendiquée comme telle.** Les barèmes du Livre 11 sont des règles, non des décisions ; L11.C17 a montré leur interdépendance ; L11.C16 a établi que le niveau de valorisation **n'est pas une décision libre.** **C'est l'équivalent fonctionnel d'une cible, et il faut le présenter ainsi.**
+::hypothese:: **Le corpus a produit cette règle et ne l'a jamais revendiquée comme telle.** Les barèmes du Livre 11 sont des règles, non des décisions ; L11.C17 appuie leur interdépendance sans la tenir pour démontrée ; et le livre fait calculer le niveau d'émission par une formule (L11.C16 § 2). Ce paragraphe écrivait que L11.C17 l'avait montrée et que L11.C16 avait établi que le niveau de valorisation n'est pas une décision libre. **C'est l'équivalent fonctionnel d'une cible, et il faut le présenter ainsi.**
 
 ## 3. Six techniques transportables
 
@@ -90,7 +96,7 @@ renvois: [L1.C18, L7.C12, L7.C13, L11.C15, L11.C25, L20.C01, L20.C03, L20.C06, L
 
 ## 5. Ce que ce chapitre ne peut pas promettre
 
-::etat:: **L20.C17 a établi le résultat le plus dur du livre.** Le seul précédent documenté de sanctuarisation — interdiction d'amender, interdiction de contracter à côté, interdiction des réserves — **a été contourné en douze ans** par un accord d'application qui s'est déclaré prioritaire en cas d'incompatibilité, **sans violer la clause d'intangibilité**, et pour le motif que le préambule énonce sans détour : rallier ceux qui refusaient d'adhérer.
+::etat:: **L20.C17 porte le résultat le plus dur du livre, et il l'a rendu plus précis.** Le seul précédent documenté de sanctuarisation — interdiction d'amender, interdiction de contracter à côté, interdiction des réserves — **a tenu dans sa lettre** : le principe est réaffirmé et maintenu ; mais le régime qui le mettait en œuvre a été réécrit douze ans plus tard par un accord d'application qui s'est déclaré prioritaire en cas d'incompatibilité, au motif, que le préambule énonce, de faciliter la participation universelle (L20.C17 § 5). **Sanctuariser un principe ne sanctuarise pas son régime.** Ce paragraphe écrivait que le précédent avait été contourné en douze ans ; L20.C17 retire qu'il ait cédé sur le point qu'il protégeait.
 
 ::hypothese:: **Il en résulte que les huit exigences ci-dessus sont des exigences de rédaction, non des garanties.** Elles disent comment écrire pour que la protection soit **la plus difficile à défaire** ; elles ne disent pas qu'elle tiendra. **La sanctuarisation que L7.C13 pose en condition sine qua non est réalisable et elle n'est pas stable.**
 
@@ -106,4 +112,4 @@ renvois: [L1.C18, L7.C12, L7.C13, L11.C15, L11.C25, L20.C01, L20.C03, L20.C06, L
 
 ::etat:: **Deux blancs sortent ouverts** : la qualification juridique de l'unité émise, et la protection des cadres techniques contre leur propre institution.
 
-::hypothese:: **Et le livre ne peut rien promettre.** Ce sont des exigences de rédaction, non des garanties : **le seul précédent de sanctuarisation a cédé en douze ans sans être violé.** Un dispositif qui fait de la protection juridique sa condition d'existence est protégé **aussi longtemps que le rapport de forces qui l'a écrite se maintient.**
+::hypothese:: **Et le livre ne peut rien promettre.** Ce sont des exigences de rédaction, non des garanties : **le seul précédent de sanctuarisation a vu son régime réécrit en douze ans sans que son principe soit touché.** Un dispositif qui fait de la protection juridique sa condition d'existence est protégé **aussi longtemps que le rapport de forces qui l'a écrite se maintient.**
