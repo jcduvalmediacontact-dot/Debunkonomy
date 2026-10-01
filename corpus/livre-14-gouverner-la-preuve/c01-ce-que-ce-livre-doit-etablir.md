@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "**Le corpus lui-même, mesuré le 2026-09-08** : `corpus/convention.md` en révision r11 (2026-09-07) ; `corpus/controle.py` ; `corpus/vocabulaire.yaml` ; `corpus/livres.yaml` ; et les cinq protocoles — `falsification.md`, `passe-2.md`, `registre-des-promesses.md`, `sources-a-ouvrir.md`, `inventaire-entropie.md`. **Les comptages rapportés dans ce chapitre sont établis par relevé direct sur ces fichiers à la date indiquée**, et sont reproductibles par toute personne disposant du dépôt."
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, le chapitre tirait de son relevé du 8 septembre que la procédure de vérification n'avait jamais été exécutée jusqu'au bout ; des chapitres du Livre 1 sont passés à `verifie` depuis, les premiers le 11 septembre (L1.C07, L1.C08). Le relevé est daté, la conclusion mise au passé, et un paragraphe le dit sans recopier de compteur ; le premier point de la grille passe de « faire passer un chapitre » à « enregistrer ce qui a cassé » ; le résumé suit.
+  # Statut inchangé.
   - "**LES COMPTAGES DE CE CHAPITRE SONT DATÉS ET PÉRISSABLES.** Ils décrivent
      l'état du corpus au 2026-09-08. **Toute reprise de ce chapitre doit les
      refaire** ; aucun ne doit être cité sans sa date. **C'est la première
@@ -36,7 +39,7 @@ verifications_en_attente:
      vérifications en attente ne dit rien de la justesse des chapitres. **Aucun
      échantillon n'a été relu contre ses sources par un tiers**, et le corpus n'a
      donc aucune mesure de son propre taux d'erreur."
-resume: "Ce chapitre remplace l'amorce et ouvre le livre qui porte sur le corpus lui-même plutôt que sur le dispositif. Il mesure d'abord l'appareil existant, à savoir une convention en onzième révision, un script de contrôle qui refuse la publication en cas de blocage, un vocabulaire contrôlé qui bloque tout concept non défini, et cinq protocoles tenant les falsifieurs, les arbitrages, les promesses, les sources et un inventaire terminologique. Il relève ensuite le résultat le plus dur que ce relevé produise, à savoir que sur deux cent quatre-vingt-quatorze chapitres, aucun n'a jamais franchi le goulot de vérification, aucun ne porte une autorité autre que préparatoire et aucun n'est citable, de sorte que le corpus n'a jamais complété son propre cycle une seule fois. Il établit ensuite ce que l'appareil détecte et ce à quoi il est aveugle, en s'appuyant sur la journée du huit septembre comme cas d'essai. La machine bloque l'absence, la non-conformité et l'inconnu, mais elle ne peut rien contre une conclusion tirée au-delà de ce qu'une source établit, et les quatre excès de conclusion produits ce jour-là ont tous été détectés par l'auteur et aucun par le script, deux d'entre eux figurant dans des chapitres que le contrôle avait acceptés. Il en tire que l'appareil est construit pour la détection du manque et non pour celle de l'excès. Il enregistre enfin les règles de méthode produites dans la journée, dont trois portent sur la comparaison des quantités, le décompte des sources par auteurs et l'inventaire préalable du fonds, et il fixe la grille du livre en huit questions."
+resume: "Ce chapitre remplace l'amorce et ouvre le livre qui porte sur le corpus lui-même plutôt que sur le dispositif. Il mesure d'abord l'appareil existant, à savoir une convention en onzième révision, un script de contrôle qui refuse la publication en cas de blocage, un vocabulaire contrôlé qui bloque tout concept non défini, et cinq protocoles tenant les falsifieurs, les arbitrages, les promesses, les sources et un inventaire terminologique. Il relève ensuite le résultat le plus dur que ce relevé produisait au 8 septembre 2026, à savoir que sur deux cent quatre-vingt-quatorze chapitres, aucun n'avait franchi le goulot de vérification, aucun ne portait une autorité autre que préparatoire et aucun n'était citable ; des chapitres du Livre 1 l'ont franchi depuis, les premiers le 11 septembre. Il établit ensuite ce que l'appareil détecte et ce à quoi il est aveugle, en s'appuyant sur la journée du huit septembre comme cas d'essai. La machine bloque l'absence, la non-conformité et l'inconnu, mais elle ne peut rien contre une conclusion tirée au-delà de ce qu'une source établit, et les quatre excès de conclusion produits ce jour-là ont tous été détectés par l'auteur et aucun par le script, deux d'entre eux figurant dans des chapitres que le contrôle avait acceptés. Il en tire que l'appareil est construit pour la détection du manque et non pour celle de l'excès. Il enregistre enfin les règles de méthode produites dans la journée, dont trois portent sur la comparaison des quantités, le décompte des sources par auteurs et l'inventaire préalable du fonds, et il fixe la grille du livre en huit questions."
 concepts: [robustesse, indicateur_de_progres]
 renvois: [L1.C15, L8.C34, L12.C01, L13.C01, L18.C10, L26.C07, L26.C09, L26.C10]
 ---
@@ -55,15 +58,17 @@ renvois: [L1.C15, L8.C34, L12.C01, L13.C01, L18.C10, L26.C07, L26.C09, L26.C10]
 
 ## 2. Le résultat le plus dur du relevé, et il tient en trois nombres
 
-::etat:: **Sur 294 chapitres : 285 en `brouillon`, 9 en `audit_contradictoire`, ZÉRO en `verifie`** [S2].
+::etat:: **Au 2026-09-08, sur 294 chapitres : 285 en `brouillon`, 9 en `audit_contradictoire`, ZÉRO en `verifie`** [S2].
 
 ::etat:: **Sur 294 chapitres : 294 en `autorite: preparatoire`. Aucun autre.**
 
 ::etat:: **Sur 294 chapitres : 294 en `citable: false`. Aucun n'est citable.**
 
-::hypothese:: **Le corpus n'a jamais franchi son propre goulot d'étranglement, pas une seule fois.** Le contrôle en mode publication refuse les 294 chapitres, **et il a raison de les refuser** : c'est le dispositif volontaire prévu par la convention, qui exige que les sources soient effectivement vérifiées et datées avant qu'un chapitre change de statut.
+::hypothese:: **À cette date, le corpus n'avait jamais franchi son propre goulot d'étranglement, pas une seule fois.** Le contrôle en mode publication refusait les 294 chapitres, **et il avait raison de les refuser** : c'est le dispositif volontaire prévu par la convention, qui exige que les sources soient effectivement vérifiées et datées avant qu'un chapitre change de statut.
 
 ::hypothese:: **Mais un goulot que rien n'a jamais traversé n'est pas un goulot : c'est un mur.** **Le corpus ne sait donc pas si sa procédure de vérification FONCTIONNE** — il sait seulement qu'elle n'a jamais été exécutée jusqu'au bout. **C'est le premier objet de ce livre : faire passer un chapitre, un seul, à travers toute la procédure, et enregistrer ce qui casse.**
+
+::etat:: **Depuis, la procédure a été exécutée jusqu'au bout.** Selon l'historique du dépôt, L1.C07 et L1.C08 sont passés à `verifie` le 2026-09-11, et d'autres chapitres du Livre 1 après eux ; un état se lit dans le fichier de chaque chapitre. Ce paragraphe écrivait qu'elle n'avait jamais été exécutée. **Ce que le passage a cassé n'est pas relevé dans ce chapitre** : c'est désormais ce que demande le premier point de la grille.
 
 ## 3. Ce que l'appareil détecte, et ce à quoi il est aveugle
 
@@ -99,13 +104,13 @@ renvois: [L1.C15, L8.C34, L12.C01, L13.C01, L18.C10, L26.C07, L26.C09, L26.C10]
 
 ## 6. La grille de ce livre
 
-::etat:: **1. Faire passer UN chapitre à travers toute la procédure de vérification**, et enregistrer ce qui casse. **Sans cela, le corpus ne sait pas si sa procédure fonctionne.**
+::etat:: **1. Enregistrer ce qui a cassé quand des chapitres ont traversé toute la procédure de vérification.** Ce point demandait d'abord d'en faire passer un : c'est fait depuis le 2026-09-11 (§ 2). **Sans ce relevé, le corpus ne sait pas encore ce que sa procédure laisse passer.**
 
 ::etat:: **2. Établir ce qu'un contrôle automatique peut porter et ce qu'il ne peut pas.** Le partage entre l'absence et l'excès.
 
 ::etat:: **3. Traiter l'indépendance du contrôleur.** **L'auteur est aujourd'hui la seule instance capable de détecter un excès, et il est aussi le commanditaire.**
 
-::etat:: **4. Définir ce qui rend un chapitre CITABLE**, puisque aucun ne l'est et que le corpus ne dit nulle part ce qu'il faudrait pour qu'un le devienne.
+::etat:: **4. Définir ce qui rend un chapitre CITABLE**, puisque aucun ne l'était au 2026-09-08 et que le corpus ne dit nulle part ce qu'il faudrait pour qu'un le devienne.
 
 ::etat:: **5. Traiter le statut des modèles tiers.** La règle en vigueur — un résumé de modèle est une piste, jamais une vérification — **a été éprouvée trois fois le 2026-09-08 et a tenu les trois fois**, mais elle n'est écrite nulle part dans la convention.
 
