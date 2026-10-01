@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "**BRI et OICV, *Principles for financial market infrastructures*, 2012**, ouvert le 2026-09-07. **PRINCIPE 9** : une infrastructure règle « **in central bank money where practical and available** », et à défaut sur « **a settlement asset with little or no credit or liquidity risk** ». **PRINCIPE 18** : critères de participation « **objective, risk-based, and publicly disclosed** », permettant « **fair and open access** ». **PRINCIPE 19** : **participation en paliers**, dont l'infrastructure doit gérer les risques"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L6.C12 était dit avoir établi qu'une infrastructure peut être conçue pour rendre un retrait très coûteux ; L6.C12, repris le 30 septembre, traite d'une clause de traité qui fait survivre la protection au retrait, non d'une infrastructure. L6.C12 entre aux renvois.
+  # Statut inchangé.
   - "AUCUNE DES ALTERNATIVES N'EST DOCUMENTÉE PAR UNE SOURCE AYANT AUTORITÉ.
      Le corpus ne sait ni si elles existent telles qu'elles sont décrites, ni
      quels volumes elles portent, ni combien de participants elles réunissent.
@@ -41,7 +44,7 @@ verifications_en_attente:
      dont il ne connaît pas les règles.**"
 resume: "Ce chapitre instruit la sixième voie d'entrée annoncée, celle qui consiste à entrer dans une concurrence entre projets alternatifs, et il établit d'abord que cette voie n'a pas le même statut que les cinq autres, puisqu'elle ne décrit pas une action mais une situation subie. Il reprend ensuite ce qu'un chapitre du troisième livre avait tiré, sous condition, de deux constructions concurrentes décrites par une source sans autorité, et il en tire trois conséquences. La première est que le concurrent le plus abouti tranche à l'inverse du dispositif sur les deux critères que le corpus tient pour décisifs, puisqu'il règle et que sa valeur dérive de ses composantes, ce qui en fait une devise clé collective et non un référentiel. La deuxième est que cette divergence n'est pas une faiblesse du concurrent mais un choix, fait par des États disposant de moyens, de sorte que le corpus doit argumenter sa propre position au lieu de la supposer évidente. La troisième est plus favorable et découle du standard des infrastructures ouvert le même jour : si une plateforme conforme doit offrir un accès équitable et ouvert et admettre la participation en paliers, alors les alternatives ne sont pas nécessairement exclusives les unes des autres, et une unité de compte peut circuler sur une infrastructure qu'elle n'a pas construite. Le chapitre conclut que la concurrence des alternatives n'est pas une voie d'entrée mais un environnement, et qu'elle appelle une décision que le corpus n'a jamais prise, celle de savoir si le dispositif cherche à l'emporter sur ces constructions ou à s'y superposer."
 concepts: [devise_cle, referentiel_de_change, hierarchie_monetaire, seuil_d_activation, polycentricite]
-renvois: [L1.C24, L1.C26, L3.C04, L3.C05, L3.C09, L5.C01, L5.C02, L5.C06, L20.C05]
+renvois: [L1.C24, L1.C26, L3.C04, L3.C05, L3.C09, L5.C01, L5.C02, L5.C06, L6.C12, L20.C05]
 ---
 
 # La concurrence des alternatives
@@ -82,7 +85,7 @@ renvois: [L1.C24, L1.C26, L3.C04, L3.C05, L3.C09, L5.C01, L5.C02, L5.C06, L20.C0
 
 ::hypothese:: **Tous les résultats du corpus obtenus aujourd'hui pointent vers la seconde**, et le corpus doit le dire : L3.C09 — il s'ajoute au système ; L5.C03 — l'adhésion ne demande aucun renoncement ; L5.C02 — le rail conforme est ouvert à tous. **La superposition n'est pas un repli : c'est ce que la conception du dispositif implique.**
 
-::hypothese:: **Mais elle a un coût que le corpus n'a pas mesuré.** Une couche qui se superpose **dépend de ce sur quoi elle se pose.** Si le règlement se fait dans la monnaie des autres et sur le rail des autres, **le dispositif tient sa capacité d'agir de gens qui peuvent la lui retirer** — et L6.C12 a établi qu'une infrastructure peut être conçue pour rendre un retrait très coûteux.
+::hypothese:: **Mais elle a un coût que le corpus n'a pas mesuré.** Une couche qui se superpose **dépend de ce sur quoi elle se pose.** Si le règlement se fait dans la monnaie des autres et sur le rail des autres, **le dispositif tient sa capacité d'agir de gens qui peuvent la lui retirer** — et L6.C12 montre, sur le traité sur la Charte de l'énergie, qu'une technique juridique peut faire survivre la protection d'un investissement à un retrait, vingt ans durant ; ce paragraphe lui faisait dire qu'une infrastructure peut être conçue pour rendre un retrait très coûteux, ce qu'il n'écrit pas.
 
 ## 5. Portée
 
