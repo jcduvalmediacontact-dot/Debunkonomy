@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -21,6 +21,9 @@ sources_primaires:
     reference: "**Le corpus lui-même — A35, A30 et ce que L19.C03 a établi sans en tirer cette conséquence.** **A35, arbitré par l'auteur, établit que LA SOCIÉTÉ ENTIÈRE PORTE LA DETTE.** **A30, arbitré le 2026-09-07, « reste bloquant sur un seul point, et il n'est pas juridique : CE QUI GARANTIT LA DETTE COLLECTIVE S'ÉRODE QUAND LE DISPOSITIF RÉUSSIT ».** **Et L19.C03 a établi que la fonte, si elle est inscrite dans les termes de l'unité avant son émission, est un INTÉRÊT — un revenu de la propriété dû par le détenteur.** **Le corpus n'avait pas rapproché les deux énoncés**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L19.C03 était dit avoir établi qu'une fonte inscrite dans les termes de l'unité est un intérêt ; L19.C03 l'établit pour les instruments (§ 3) et l'étend aux unités en hypothèse (§ 5, § 7).
+  # Statut inchangé.
   - "**LE CORPUS N'A PAS OUVERT LES STATUTS DU PRÉCÉDENT ET NE PEUT DONC PAS
      ÉTABLIR CE QUI OBLIGE CHAQUE PARTICIPANT.** Ce chapitre infère de la
      mécanique d'intérêt décrite par la norme que chaque participant est
@@ -126,7 +129,7 @@ renvois: [L10.C06, L11.C05, L11.C07, L11.C09, L19.C01, L19.C02, L19.C03, L21.C01
 
 ## 4. Ce que le corpus tenait déjà sans l'avoir vu
 
-::hypothese:: **L19.C03 a établi qu'une fonte inscrite dans les termes de l'unité avant son émission est un INTÉRÊT — un revenu de la propriété dû par le détenteur.** **Un intérêt est dû par quelqu'un, à proportion de quelque chose.**
+::hypothese:: **L19.C03 § 3 établit, sur la norme, qu'une fonte écrite dans les termes de l'instrument avant son émission est un intérêt ; L19.C03 § 5 tient, en hypothèse, qu'il en va de même d'une unité — un INTÉRÊT, revenu de la propriété dû par le détenteur —, extension que L19.C03 § 7 dit plausible et non lue.** Ce paragraphe écrivait « a établi » pour l'unité. **Un intérêt est dû par quelqu'un, à proportion de quelque chose.**
 
 ::hypothese:: **LE DÉBITEUR N'EST DONC PAS LA SOCIÉTÉ : C'EST LE DÉTENTEUR, ET IL L'EST À PROPORTION DE CE QU'IL DÉTIENT.** **Chaque détenteur est une unité institutionnelle ; chacun est obligé pour sa part ; la somme de ces obligations est la « dette collective ».** **La construction de A35 devient représentable dès qu'on la lit ainsi, et elle ne l'est pas autrement.**
 
