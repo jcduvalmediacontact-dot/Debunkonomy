@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "Le corpus lui-même — les dix chapitres L2.C09 à L2.C18, qui éprouvent les dix déplacements un par un, et L2.C02, qui établit que le premier terme de la confrontation — l'orthodoxie décrite par le Cahier — est la position MICROPRUDENTIELLE et non la position macroprudentielle"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, la ligne 5 du tableau gardait l'échelonnement en trois positions (« le plus prudent des trois positions — Aglietta veut forcer, Plihon réhabiliter, le Cahier ajuster des paramètres »), que L2.C13 § 5 retire ; elle porte désormais le désaccord tel que L2.C13 le laisse. Les lignes 3 et 8 renvoyaient à L2.C12 et à L2.C16, corrigés ce jour sur L2.C06 § 2 et § 5 ; elles les suivent. Le § 3, le § 6 et le résumé écrivaient que la doctrine s'arrête toujours avant l'émission, ce que L2.C06 § 5 dément pour la note de 2022 : le résultat central est ramené à ce qui distingue les deux déplacements, et passe en hypothèse ; « neuf dixièmes », que L2.C20 § 3 relève comme non donné par le compte, devient « six déplacements sur dix ».
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
      première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
@@ -44,9 +47,9 @@ verifications_en_attente:
      dix déplacements entre « extension » et « sans précédent » suppose de
      savoir ce que la doctrine contient ; **le corpus tient QUATRE textes
      doctrinaux.** Un cinquième pourrait déplacer une ligne du tableau."
-resume: "Ce chapitre clôt l'examen des dix déplacements et en dresse le compte. Il établit d'abord que la formule par laquelle le cahier les rassemble est la bonne, puisqu'elle dit que chacun étend un domaine de la macroprudence défensive, et que c'est le premier épisode qui se trompe en parlant de paradigmes qui s'excluent. Il propose ensuite un classement des dix selon ce que l'épreuve a montré, et il en tire le résultat central du livre. Six déplacements sur dix prolongent un mouvement déjà engagé, souvent par des auteurs nommés, parfois dix ans plus tôt, et le cahier ne les revendique pas comme tels. Un septième est réel mais n'a aucun destinataire juridique. Un huitième n'est pas arrêté, le livre et le cahier décrivant deux régimes de change différents. Restent deux déplacements sans aucun précédent doctrinal, et ces deux portent la même chose, l'émission. Le chapitre établit donc que l'originalité du dispositif est concentrée exactement là où il ne dispose d'aucun appui, et que tout le reste peut être argumenté depuis la doctrine existante. Il relève enfin que la feuille de route du cahier nomme elle-même le chantier prioritaire, la formulation comptable définitive de la contrepartie des unités émises, ce qui est le point où le corpus a constaté qu'il n'a rien."
+resume: "Ce chapitre clôt l'examen des dix déplacements et en dresse le compte. Il établit d'abord que la formule par laquelle le cahier les rassemble est la bonne, puisqu'elle dit que chacun étend un domaine de la macroprudence défensive, et que c'est le premier épisode qui se trompe en parlant de paradigmes qui s'excluent. Il propose ensuite un classement des dix selon ce que l'épreuve a montré, et il en tire le résultat central du livre. Six déplacements sur dix prolongent un mouvement déjà engagé, souvent par des auteurs nommés, parfois dix ans plus tôt, et le cahier ne les revendique pas comme tels. Un septième est réel mais n'a aucun destinataire juridique. Un huitième n'est pas arrêté, le livre et le cahier décrivant deux régimes de change différents. Restent deux déplacements dont ce qui les distingue, le reflux et l'émission par une institution nouvelle, n'a aucun précédent cité ; le chapitre les avait dits sans aucun précédent parce qu'ils portent l'émission, alors que la note de 2022 propose une émission de monnaie centrale. Le chapitre tient donc, en hypothèse, que l'originalité du dispositif est concentrée là où il ne lui cite aucun appui, et que six déplacements sur dix peuvent être argumentés depuis la doctrine existante. Il relève enfin que la feuille de route du cahier nomme elle-même le chantier prioritaire, la formulation comptable définitive de la contrepartie des unités émises, ce qui est le point où le corpus a constaté qu'il n'a rien."
 concepts: [robustesse, creation_monetaire, qualification_regenerative, contrepartie_comptable, bareme, limites_planetaires]
-renvois: [L1.C28, L1.C29, L2.C02, L2.C04, L2.C09, L2.C10, L2.C11, L2.C12, L2.C13, L2.C14, L2.C15, L2.C16, L2.C17, L2.C18, L2.C20]
+renvois: [L1.C28, L1.C29, L2.C02, L2.C04, L2.C06, L2.C09, L2.C10, L2.C11, L2.C12, L2.C13, L2.C14, L2.C15, L2.C16, L2.C17, L2.C18, L2.C20]
 ---
 
 # La macroprudence régénérative
@@ -67,12 +70,12 @@ renvois: [L1.C28, L1.C29, L2.C02, L2.C04, L2.C09, L2.C10, L2.C11, L2.C12, L2.C13
 |---|---|---|
 | 1 | Emboîtement systémique | **Énoncé trop fort** — « les systèmes financiers ne conditionnent que les instruments monétaires » interdit le canal dont le troisième déplacement a besoin. Ce qui reste : **la variable de succès est mal spécifiée** (L2.C09) |
 | 2 | Stabilité → robustesse | **Dans la finance depuis 2003.** L'apport réel est le périmètre du système, non la distinction (L2.C10) |
-| 3 | Contrôle qualitatif du crédit | **Objectif juste, instrument mal choisi** — le prudentiel agit sur le passif ; la catégorie « règle structurelle » manque au Cahier (L2.C12) |
+| 3 | Contrôle qualitatif du crédit | **Objectif juste ; l'objection sur l'instrument est plus étroite qu'écrit d'abord** — la note de 2022 attribue elle-même aux pondérations un effet sur l'actif, et le déplacement compte aussi des plafonds d'exposition sectoriels ; reste une objection de la note au facteur de pénalité brune (L2.C12, d'après L2.C06 § 2) |
 | 4 | Risques planétaires | **Le mieux étayé** — et la rupture est déclarée « en cours » par des auteurs de banque centrale (L2.C11) |
-| 5 | Allocation stratégique | **Le dispositif est le plus prudent des trois positions** — Aglietta veut forcer, Plihon réhabiliter, le Cahier ajuster des paramètres (L2.C13) |
+| 5 | Allocation stratégique | **Désaccord réel, non tranché** — le Cahier tient le démantèlement de l'encadrement pour techniquement fondé et garde un plafond sectoriel, la note de 2022 veut réhabiliter le guidage du crédit, Aglietta et Espagne nomment la contrainte sans la demander ; aucune pièce n'évalue l'orientation du crédit. L2.C13 a retiré l'échelonnement en trois positions que ce tableau portait (L2.C13 § 5) |
 | 6 | Bulles écologiques | **Réel et économique** — il achève une doctrine déjà congédiée après 2008, et retourne la question de la détectabilité (L2.C14) |
 | 7 | Résilience territoriale | **Réel, seul à changer l'unité d'analyse — et sans destinataire juridique** (L2.C15) |
-| 8 | Reflux monétaire actif | **AUCUN APPUI DOCTRINAL.** Et le mécanisme contient une émission sous un nom qui n'en désigne qu'un (L2.C16) |
+| 8 | Reflux monétaire actif | **Aucun précédent cité pour le reflux ; un pour l'émission**, dans la note de 2022 (L2.C06 § 5). Et le mécanisme contient une émission sous un nom qui n'en désigne qu'un (L2.C16) |
 | 9 | Gouvernance des communs | **Superviser : disponible en droit depuis 1982. Émettre : sans précédent** (L2.C17) |
 | 10 | Gouvernance monétaire mondiale | **Non arrêté** — le livre et le Cahier décrivent deux régimes de change différents (L2.C18) |
 
@@ -84,11 +87,11 @@ renvois: [L1.C28, L1.C29, L2.C02, L2.C04, L2.C09, L2.C10, L2.C11, L2.C12, L2.C13
 
 ::hypothese:: **Un huitième n'est pas arrêté.** Le régime de change diverge entre les deux sources du livre, **et la divergence traverse même l'épisode 11.**
 
-::hypothese:: **Restent deux déplacements sans aucun précédent doctrinal — le huitième et la moitié émettrice du neuvième — et ils portent la même chose : l'émission.**
+::hypothese:: **Restent deux déplacements — le huitième et la moitié émettrice du neuvième — que la première version disait sans aucun précédent doctrinal parce qu'ils portent l'émission.** Le constat est plus étroit : la note de 2022 propose une émission de monnaie centrale, pour reprendre les actifs échoués et financer la politique budgétaire (L2.C06 § 5, en brouillon ; pièce ouverte là-bas). Ce qui reste sans précédent cité est ce qui les distingue, le reflux et l'émission par une institution nouvelle, et le corpus n'a pas instruit si l'émission de la note en est un précédent.
 
-::etat:: **C'est le résultat central du livre, et le corpus l'énonce sans l'adoucir : l'originalité du dispositif est concentrée exactement là où il ne dispose d'aucun appui.**
+::hypothese:: **C'est le résultat central du livre, et il est plus étroit que la première version ne l'écrivait : l'originalité du dispositif est concentrée là où ce chapitre ne lui cite aucun appui, le reflux et l'émission par une institution nouvelle.**
 
-::hypothese:: **Il a deux faces et le corpus les donne toutes les deux.** **Face défavorable** : ce qui distingue vraiment NEMO IMS est ce que ni Aglietta, ni Plihon, ni le rapport de 2011, ni les auteurs du rapport climatique ne proposent — **la doctrine s'arrête toujours avant l'émission.** **Face favorable** : **neuf dixièmes du système peuvent être argumentés depuis la doctrine existante**, ce qui rend le dispositif adoptable par morceaux plutôt qu'en bloc. **L2.C04 avait posé que c'était la seule stratégie viable ; le compte le confirme.**
+::hypothese:: **Il a deux faces et le corpus les donne toutes les deux.** **Face défavorable** : ce qui distingue vraiment NEMO IMS, le reflux et l'émission par une institution nouvelle, aucun texte cité au livre ne le propose ; la première version écrivait que la doctrine s'arrête toujours avant l'émission, et la note de 2022, que Plihon cosigne, ne s'y arrête pas (L2.C06 § 5). **Face favorable** : **six déplacements sur dix peuvent être argumentés depuis la doctrine existante**, ce qui rend le dispositif adoptable par morceaux plutôt qu'en bloc ; la première version écrivait « neuf dixièmes », que le compte ne donne pas (L2.C20 § 3). **L2.C04 avait posé que c'était la seule stratégie viable ; le compte le confirme.**
 
 ## 4. Ce que le Cahier nomme lui-même comme chantier prioritaire
 
@@ -114,9 +117,9 @@ renvois: [L1.C28, L1.C29, L2.C02, L2.C04, L2.C09, L2.C10, L2.C11, L2.C12, L2.C13
 
 ::etat:: **La formule de rassemblement de l'épisode 12 est exacte et celle de l'épisode 1 est fausse** : les déplacements **étendent**, ils n'excluent pas.
 
-::hypothese:: **Six déplacements prolongent un mouvement engagé, un septième n'a pas de porteur juridique, un huitième n'est pas arrêté — et deux seulement sont sans précédent. Ces deux portent l'émission.**
+::hypothese:: **Six déplacements prolongent un mouvement engagé, un septième n'a pas de porteur juridique, un huitième n'est pas arrêté — et deux sont sans précédent cité pour ce qui les distingue, le reflux et l'émission par une institution nouvelle.** L'émission elle-même en a un, dans la note de 2022 (L2.C06 § 5).
 
-::hypothese:: **L'originalité du dispositif est donc concentrée là où il n'a aucun appui**, et **neuf dixièmes du système peuvent être argumentés depuis la doctrine existante.** Défavorable sur le point décisif, favorable sur la stratégie : **le dispositif est adoptable par morceaux, non en bloc.**
+::hypothese:: **L'originalité du dispositif est donc concentrée là où ce chapitre ne lui cite aucun appui**, et **six déplacements sur dix peuvent être argumentés depuis la doctrine existante.** Défavorable sur le point décisif, favorable sur la stratégie : **le dispositif est adoptable par morceaux, non en bloc.**
 
 ::etat:: **Le Cahier désigne lui-même le chantier prioritaire — la formulation comptable de la contrepartie —, et c'est le même point que l'épreuve doctrinale et l'instruction juridique isolent.** Trois constats indépendants, un seul chantier.
 
