@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,9 @@ sources_primaires:
     reference: "Le corpus lui-même — la thèse centrale du dispositif, telle que L1.C09 et L1.C21 l'établissent : la frontière de production des comptes nationaux exclut ce qui n'a pas de recette attachée, et le dispositif existe pour financer ce que cette frontière rend invisible. Et le résultat de L11.C02, « le trajet complet de la valeur », qui suit une unité depuis son émission contre un état écologique constaté jusqu'à sa destruction par le reflux — construction dont le présent chapitre établit qu'elle a un ancêtre direct dans le Tableau économique"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L11.C13 § 4 était dit avoir établi l'obstacle métrologique de la régénération ; L11.C13 § 4 marque qu'il l'affirme sans l'avoir établi, et sa révision comptable tient qu'une métrologie physique existe, l'objection se déplaçant vers la substituabilité.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Ni le Tableau économique ni les
   # écrits de Quesnay, Mirabeau ou Dupont de Nemours ne sont en possession du
@@ -40,7 +43,7 @@ verifications_en_attente:
      Georgescu-Roegen comme Daly ne sont pas ouverts."
 resume: "Ce chapitre porte la filiation la plus directe du dispositif dans tout le répertoire, et c'est aussi celle dont l'échec est le mieux établi : les deux doivent être dits ensemble. Il déclare qu'aucun texte physiocratique n'est en possession du corpus. Il situe la thèse — seule la nature produit un surplus net, l'industrie et le commerce ne faisant que transformer et déplacer ce qu'elle a fourni — et établit qu'elle est l'ancêtre direct de la proposition centrale du dispositif, selon laquelle la valeur véritable procède des fonds naturels et non de l'activité qui les consomme. Il établit ensuite que le Tableau économique est l'ancêtre formel d'un chapitre du Livre 11, celui qui suit le trajet complet d'une unité depuis son émission jusqu'à sa destruction, et que le corpus avait reconstruit cette forme sans connaître son précédent. Il énonce ce que la doctrine a apporté et qui lui survit, à savoir l'idée qu'une économie est un circuit dont les flux doivent boucler, et non un agrégat de transactions. Il énonce surtout que la doctrine a été abandonnée pour une raison qui vise le dispositif, la démonstration que l'industrie produit aussi de la valeur, et que le corpus ne peut pas se contenter de la nouveauté de son propre gage pour y échapper. Il relève enfin que la question pourrait être rouverte par une distinction que ni la doctrine ni sa réfutation n'ont faite, celle du surplus physique et du surplus de valeur."
 concepts: [fausse_richesse, degeneratif, qualification_regenerative, limites_planetaires, reflux_monetaire, entropie]
-renvois: [L1.C09, L1.C15, L1.C21, L8.C01, L8.C05, L8.C11, L8.C34, L11.C02]
+renvois: [L1.C09, L1.C15, L1.C21, L8.C01, L8.C05, L8.C11, L8.C34, L11.C02, L11.C13]
 ---
 
 # Quesnay et les physiocrates : la nature est-elle seule productive
@@ -69,7 +72,7 @@ renvois: [L1.C09, L1.C15, L1.C21, L8.C01, L8.C05, L8.C11, L8.C34, L11.C02]
 
 ## 4. MANQUEMENT — ce que le dispositif cherche là et n'y trouve pas
 
-::hypothese:: **Une méthode de qualification.** La doctrine oppose deux classes — productive et stérile — par une distinction de nature, non par une mesure. **Le dispositif a besoin de graduer** : combien un acte régénère, combien une activité dégrade. **La distinction binaire ne se transporte pas en barème**, et c'est précisément l'obstacle métrologique que L11.C13 § 4 a établi.
+::hypothese:: **Une méthode de qualification.** La doctrine oppose deux classes — productive et stérile — par une distinction de nature, non par une mesure. **Le dispositif a besoin de graduer** : combien un acte régénère, combien une activité dégrade. **La distinction binaire ne se transporte pas en barème**, et c'est l'obstacle métrologique que L11.C13 § 4 pose, en marquant qu'il l'affirme sans l'avoir établi ; sa révision comptable tient depuis qu'une métrologie physique de l'étendue et de l'état des écosystèmes existe, l'objection se déplaçant vers la substituabilité de ses indicateurs. Ce paragraphe écrivait « a établi ».
 
 ## 5. LIMITES et STATUT
 
