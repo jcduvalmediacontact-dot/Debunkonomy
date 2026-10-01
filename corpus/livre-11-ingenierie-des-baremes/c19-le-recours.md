@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "J.-C. Duval, instruction de conception adressée au corpus le 2026-09-05 après lecture de L11.C07 : « Il faudra cependant envisager des mécanismes de dérogations. Je ne souhaite pas que des gens soient soumis au demurrage s'ils placent leur argent sur des plans épargne logement écologiques ou des maisons à énergie positive par exemple. » Instruite en L11.C08, portée en arbitrage A13. LE PRÉSENT CHAPITRE EN TIRE UNE CONSÉQUENCE QUE L'INSTRUCTION N'ÉNONCE PAS : une dérogation qui se demande suppose qu'on puisse contester son refus"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 8, L11.C13 § 2 était dit avoir établi que l'erreur « la plus grave » n'a pas de plaignant, et L11.C17 § 6 que le bouclage rend la sous-qualification détectable en agrégat ; L11.C13 § 2 le tient en conjecture sur la détectabilité, sans classer par gravité, et L11.C17 § 6 en hypothèse, sous condition.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # D4 EST LA SEULE DES QUATRE DÉCISIONS QU'AUCUN CHAPITRE N'A INSTRUITE.
   # L11.C11 § 2 la nomme, L11.C13 § 3 l'applique au barème de qualification,
@@ -149,9 +152,9 @@ renvois: [L1.C18, L11.C03, L11.C06, L11.C08, L11.C09, L11.C11, L11.C12, L11.C13,
 
 ## 8. Ce que le recours couvre, ce qu'il ne couvre pas, et la limite d'un résultat antérieur
 
-::hypothese:: **Le recours ne corrige que les erreurs dont quelqu'un se plaint**, et L11.C13 § 2 a établi que la plus grave n'a pas de plaignant. Sur-qualifier finit par se voir ; **sous-qualifier ne se voit jamais, parce que le projet non certifié n'existe pas.** Il n'y a personne pour former le recours contre un barème qui a rendu un projet manifestement inéligible avant qu'il ne soit déposé.
+::hypothese:: **Le recours ne corrige que les erreurs dont quelqu'un se plaint**, et L11.C13 § 2 tient, en conjecture sur la détectabilité, que la sous-qualification n'a pas de plaignant ; ce paragraphe écrivait « a établi » et « la plus grave », la cible classant les erreurs par détectabilité, non par gravité. Sur-qualifier finit par se voir ; **sous-qualifier ne se voit jamais, parce que le projet non certifié n'existe pas.** Il n'y a personne pour former le recours contre un barème qui a rendu un projet manifestement inéligible avant qu'il ne soit déposé.
 
-::hypothese:: **Il en résulte une complémentarité que le corpus n'avait pas vue.** L11.C17 § 6 a établi que la condition de bouclage rend **détectable en agrégat** la sous-qualification systématique. **Le recours et le bouclage couvrent deux populations disjointes** : le premier attrape les erreurs contestées, le second le volume de celles qui ne le sont pas. **Aucun des deux ne remplace l'autre**, et le dispositif a besoin des deux — ce qui est un argument de conception, non un constat de manque.
+::hypothese:: **Il en résulte une complémentarité que le corpus n'avait pas vue.** L11.C17 § 6 tient, en hypothèse, que la condition de bouclage rend **détectable en agrégat** la sous-qualification systématique, si la capacité de reflux est elle-même mesurée. **Le recours et le bouclage couvrent deux populations disjointes** : le premier attrape les erreurs contestées, le second le volume de celles qui ne le sont pas. **Aucun des deux ne remplace l'autre**, et le dispositif a besoin des deux — ce qui est un argument de conception, non un constat de manque.
 
 ::hypothese:: **Et le chapitre limite un résultat que le corpus avait énoncé trop largement.** L11.C17 § 4 a établi que la réponse commune aux barèmes existe et se nomme **directive**. **Le recours n'est pas une directive et ne peut pas l'être** : ce n'est pas une fonction des données observées, c'est une adjudication — un jugement sur un cas, rendu par quelqu'un. **La forme directive répond à la question du BARÈME ; elle ne répond pas à celle du DISPOSITIF.** L11.C06 § 4 avait raison plus tôt : un barème est **trois objets** — une table, une procédure, une charge de la preuve — et **seul le premier est une directive.**
 
