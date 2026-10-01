@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L11.C11 § 2, la décision D4, trancher un recours, quatrième des quatre décisions qu'arrêter un barème suppose ; et L11.C19, chapitre consacré au recours, qui l'instruit comme décision et non comme organe. Et L11.C13 § 2 : l'asymétrie des erreurs — sur-qualifier finit par se voir, SOUS-QUALIFIER NE SE VOIT JAMAIS, faute de contrefactuel, le projet non certifié n'existant pas et rien ne signalant son absence"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : au § 1, L1.C27 § 6 était dit avoir établi sous P52 que la valorisation décide de la solvabilité extérieure des membres ; L1.C27 § 6 n'en fait qu'une lecture parmi trois, et le registre (P52, `0f870e88`) l'écrit ainsi depuis ce jour. L1.C27 entre aux renvois.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR LE TEXTE. Il instruit l'organe que le livre consacre à
   # la quatrième décision, et il porte un résultat favorable au dispositif que
@@ -44,7 +47,7 @@ verifications_en_attente:
      dont L7.C08 § 4 a relevé la même lacune."
 resume: "Ce chapitre instruit l'organe que le livre consacre à la quatrième décision et porte un résultat favorable que le corpus n'attendait pas. Il expose d'abord la fonction telle que le livre la définit, celle qui fait passer d'une administration technique à un état de droit, avec un argument que le corpus retient tel quel : un dispositif qui décide de l'accès de millions de personnes et de la parité des monnaies nationales ne peut se passer d'un juge. Il relève que cette phrase reconnaît explicitement ce que le corpus avait établi ailleurs sans que le livre le concède, à savoir que le dispositif décide des parités nationales. Il établit ensuite le résultat favorable : la saisine est ouverte à trois catégories dont l'une est l'entité à qui une certification a été refusée, et cela corrige en partie une asymétrie que le corpus tenait pour structurelle, puisqu'il avait établi que la sous-qualification ne se voit jamais faute de contrefactuel. Un droit de recours donne une voix au projet refusé, ce qui est le seul mécanisme du dispositif qui rende visible l'erreur invisible. Il expose ensuite la limite, qui est qu'une voie de recours ne se saisit pas d'elle-même et que celui qui ignore avoir été lésé ne saisit personne. Il établit enfin que l'effet suspensif décide de la portée réelle de l'organe et que le livre ne le tranche pas, et que la Chambre est la seconde chambre dont ni la composition ni le mode de désignation ne sont énoncés."
 concepts: [qualification_regenerative, bareme, referentiel_de_change, polycentricite, essentiel_insolvable]
-renvois: [L1.C26, L7.C05, L7.C07, L7.C08, L7.C10, L11.C11, L11.C13, L11.C15, L11.C19]
+renvois: [L1.C26, L1.C27, L7.C05, L7.C07, L7.C08, L7.C10, L11.C11, L11.C13, L11.C15, L11.C19]
 ---
 
 # La Chambre de Recours
@@ -57,7 +60,7 @@ renvois: [L1.C26, L7.C05, L7.C07, L7.C08, L7.C10, L11.C11, L11.C13, L11.C15, L11
 
 ::etat:: **Et l'argument qui la justifie est en une phrase** : « Sans voie de recours, le système serait administratif et non juridique : **un dispositif qui décide de l'accès de millions de personnes et de la parité des monnaies nationales ne peut se passer d'un juge.** »
 
-::hypothese:: **Le corpus relève ce que cette phrase concède au passage, et que le livre ne concède nulle part ailleurs : le dispositif DÉCIDE DE LA PARITÉ DES MONNAIES NATIONALES.** L11.C15 a instruit les parités du référentiel sans trouver dans le livre de reconnaissance explicite de cette portée, et L1.C27 § 6 a établi sous P52 que la valorisation décide de la solvabilité extérieure des membres. **La justification de la Chambre de Recours contient l'aveu que la promesse bloquante demandait.**
+::hypothese:: **Le corpus relève ce que cette phrase concède au passage, et que le livre ne concède nulle part ailleurs : le dispositif DÉCIDE DE LA PARITÉ DES MONNAIES NATIONALES.** L11.C15 a instruit les parités du référentiel sans trouver dans le livre de reconnaissance explicite de cette portée, et P52 tient que la valorisation déciderait de la solvabilité extérieure des membres, sous la première des trois lectures du rééquilibrage que L1.C27 § 6, vérifié, expose sans en retenir aucune ; ce paragraphe écrivait que L1.C27 § 6 l'avait établi. **La justification de la Chambre de Recours contient l'aveu que la promesse bloquante demandait.**
 
 ## 2. Le résultat favorable : la saisine ouverte rend visible l'erreur invisible
 
