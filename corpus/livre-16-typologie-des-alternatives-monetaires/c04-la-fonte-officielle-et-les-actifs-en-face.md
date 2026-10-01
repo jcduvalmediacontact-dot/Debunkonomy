@@ -17,6 +17,9 @@ sources_primaires:
     url: "https://www.ecb.europa.eu/pub/pdf/other/Report_on_a_digital_euro~4d7268b458.en.pdf"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L19.C03 était dit avoir établi par la norme qu'une unité fondante porte intérêt ; L19.C03 § 3 établit la règle pour les instruments, et son § 5 l'étend aux unités en hypothèse, extension que son § 7 dit non lue. Au même paragraphe, L19.C01 était dit avoir établi par la norme qu'un passif monétaire suppose une contrepartie ; L19.C01 § 3 tient que l'or en réserve est le seul actif financier sans passif correspondant, et son § 8 que la norme ne dit rien des comptes propres de l'émetteur.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, l'expérience de Wörgl était dite « la seule application connue » ; L16.C03, repris le 1er octobre, décrit aussi la Wära allemande.
   # Statut inchangé.
@@ -42,7 +45,7 @@ verifications_en_attente:
      d'en comparer neuf familles.** **Cinq manquent.**"
 resume: "Ce chapitre ouvre une dette que le corpus avait déclarée sans la payer, celle du débat sur la monnaie numérique de banque centrale de détail, dont un chapitre du livre vingt et un avait établi que le dispositif l'hérite tout entier s'il retient la branche où le bénéficiaire détient un compte auprès de la banque centrale. Le rapport ouvert donne trois résultats. Le premier est qu'une banque centrale écrit comme spécification de conception que son instrument doit être conçu de manière à éviter son usage comme placement, et qu'elle envisage pour cela deux moyens, une rémunération à paliers variable dans le temps ou un plafond de détention. Le motif de cet instrument n'est ni la préservation de la nature ni la justice dans l'échange mais la protection du système bancaire, ce qui donne au même mécanisme un troisième motif en quatre chapitres. Le deuxième est que le même rapport écrit que l'émetteur devrait acquérir des actifs à détenir en face de son passif nouveau, ce qui est exactement le résultat que le livre dix-neuf a établi par la norme statistique, énoncé cette fois par une banque centrale à propos de son propre instrument futur. Le troisième est que le problème du périmètre, qu'une expérience de mille neuf cent trente-deux avait rencontré sous la forme du refus de la poste et du chemin de fer, reçoit ici une réponse de conception, sous la forme de conditions d'accès et de rémunérations différenciées pour les non-résidents, et que cette réponse suppose d'identifier le détenteur."
 concepts: [monnaie_fondante, demurrage, hierarchie_monetaire, creation_monetaire, contrepartie_comptable, seuil_d_activation]
-renvois: [L10.C01, L11.C07, L16.C01, L16.C02, L16.C03, L19.C01, L19.C05, L21.C03]
+renvois: [L19.C03, L10.C01, L11.C07, L16.C01, L16.C02, L16.C03, L19.C01, L19.C05, L21.C03]
 ---
 
 # Une banque centrale conçoit l'instrument pour qu'il ne serve pas de réserve de valeur — et écrit qu'il lui faut des actifs en face
@@ -73,11 +76,11 @@ renvois: [L10.C01, L11.C07, L16.C01, L16.C02, L16.C03, L19.C01, L19.C05, L21.C03
 
 ::norme:: **Et le mécanisme du revenu d'émission est rappelé** : l'émission « **is normally profitable and generates SEIGNIORAGE INCOME because of the difference between the remuneration of central bank assets and the interest rate applied to central bank liabilities (THE RATE IS ZERO FOR BANKNOTES)** » [S1].
 
-::etat:: **C'EST LE RÉSULTAT DU LIVRE 19, ÉCRIT PAR UNE BANQUE CENTRALE À PROPOS DE SON PROPRE INSTRUMENT FUTUR.** L19.C01 a établi par la norme statistique qu'un passif monétaire suppose une contrepartie et que seul l'or en réserve y échappe ; **ici, l'émetteur écrit qu'il devra acquérir des actifs à détenir EN FACE.**
+::etat:: **C'EST LE RÉSULTAT DU LIVRE 19, ÉCRIT PAR UNE BANQUE CENTRALE À PROPOS DE SON PROPRE INSTRUMENT FUTUR.** L19.C01 § 3 tient, sur la norme statistique, que l'or en réserve est le seul actif financier sans passif correspondant, et L19.C01 § 8 que la norme ne dit pas comment l'émetteur inscrit l'instrument dans ses propres états financiers — ce paragraphe écrivait que L19.C01 avait établi par la norme qu'un passif monétaire suppose une contrepartie ; **ici, l'émetteur écrit qu'il devra acquérir des actifs à détenir EN FACE.**
 
 ::hypothese:: **Le dispositif n'en a aucun, et le corpus tient désormais deux autorités indépendantes sur ce point** — une norme statistique mondiale et une banque centrale parlant d'elle-même. **La question de l'actif de l'émetteur n'est donc pas une exigence formaliste que le corpus s'imposerait : c'est ce qu'une banque centrale prévoit pour elle-même avant d'émettre.**
 
-::etat:: **Le rappel sur le seigneuriage est également utile et le corpus l'enregistre.** **Le revenu d'émission naît de l'ÉCART entre la rémunération des actifs et celle des passifs, le taux étant nul sur les billets.** **Une unité qui FOND porte un taux de passif NÉGATIF : l'écart s'élargit, donc le revenu d'émission augmente.** **C'est, en termes de banque centrale, la même proposition que L19.C03 a établie par la norme et que L16.C01 a trouvée chez le concepteur.**
+::etat:: **Le rappel sur le seigneuriage est également utile et le corpus l'enregistre.** **Le revenu d'émission naît de l'ÉCART entre la rémunération des actifs et celle des passifs, le taux étant nul sur les billets.** **Une unité qui FOND porte un taux de passif NÉGATIF : l'écart s'élargit, donc le revenu d'émission augmente.** **C'est, en termes de banque centrale, la proposition que L19.C03 § 5 tient, en hypothèse, en étendant à une unité monétaire la règle que la norme énonce pour des titres indexés — extension que L19.C03 § 7 dit plausible et non lue —, et que L16.C01 a trouvée chez le concepteur.** Ce paragraphe écrivait que L19.C03 l'avait « établie par la norme ».
 
 ## 4. Le périmètre reçoit une réponse de conception
 
