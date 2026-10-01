@@ -47,6 +47,10 @@ verifications_en_attente: []
   # ramenées au gras et les citations rendues dans la casse de la pièce.
   # RENVOIS : L1.C06, L16.C02 entrent dans la liste ; les autres y restent, et cette passe ne
   # les a pas examinés.
+  # COMPLÉMENT DU 2026-10-01, APRÈS d7c8605e — sans pièce nouvelle. Le § 5 gardait « Le patron
+  # des métaphores restituables [...] n'a pas été appliqué à ce mot-là », antérieur à
+  # l'arbitrage A41 de l'auteur (2026-09-08), que ce chapitre avait fait poser : le § 5 cite
+  # la règle dans les termes de l'auteur, et le § 8 dit la question tranchée. Trace au corps.
   # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 8 écrit « Il tient deux textes et non une controverse : aucune réponse des héritiers de la bioéconomie à la critique de 2009 n'est ouverte ». « Et il en existe » sort : aucune pièce ne le porte.
   # Texte d'origine :
   #   - "**LE CORPUS TIENT DEUX TEXTES ET NON UNE CONTROVERSE.** Aucune réponse des
@@ -127,7 +131,7 @@ renvois: [L1.C03, L1.C06, L1.C17, L8.C34, L11.C13, L16.C01, L16.C02, L16.C05, L1
 
 ::etat:: Les auteurs reprennent d'un ingénieur américain, Stephen J. Kline, la notion d'entropie « vulgar », qu'ils décrivent comme « the generic, but vague or ill-defined, application of entropy to various kinds of disorder » [S4]. **C'est le nom technique du défaut** : employer le mot hors du domaine où il est défini.
 
-::hypothese:: **Le corpus est visé, et il doit s'appliquer le test.** S'il emploie le concept `entropie` pour désigner une dégradation qu'il ne mesure pas, la conclusion (v) commande une chose précise : éprouver empiriquement ce qu'il avance sous ce nom, ou déclarer l'emploi métaphorique. Le patron des métaphores restituables existe déjà dans la convention ; il n'a pas été appliqué à ce mot-là.
+::hypothese:: **Le corpus est visé, et l'auteur a tranché comment il s'applique le test.** Ce chapitre avait posé la question ; l'arbitrage A41, rendu par l'auteur le 8 septembre 2026, y répond dans ses termes : le terme ne peut paraître au sens physique que si le passage précise « la grandeur effectivement étudiée ; son unité ou son indicateur ; la frontière du système ; la méthode de mesure ou de calcul ; le résultat empirique susceptible de réfuter l'affirmation » ; à défaut, il est qualifié de métaphore et ne soutient aucune déduction (`protocoles/passe-2.md`, A41). La règle, précisée le même jour pour ne viser que les emplois qui servent une conclusion causale, institutionnelle ou normative, est portée à l'entrée `entropie` du vocabulaire contrôlé ; l'inventaire qui l'applique, `protocoles/inventaire-entropie.md`, ne trouve aucun emploi du corpus qui satisfasse les cinq conditions. La première version de cette passe écrivait que le patron des métaphores n'avait pas été appliqué à ce mot : c'était l'état d'avant l'arbitrage.
 
 ## 6. Le point qui touche la conception même du dispositif
 
@@ -159,7 +163,7 @@ renvois: [L1.C03, L1.C06, L1.C17, L8.C34, L11.C13, L16.C01, L16.C02, L16.C05, L1
 
 ::etat:: **Il retire un refuge.** L'état stationnaire, sur lequel L17.C02 rabat le résultat de L26.C01, est attaqué par l'auteur même de la tradition, qui lui préfère le déclin.
 
-::etat:: **Il verse une obligation de vocabulaire et une charge de la preuve.** Le mot `entropie` doit être éprouvé empiriquement là où le corpus l'emploie, ou déclaré métaphorique ; et le couplage d'une évaluation descriptive à une décision normative doit être défendu contre une objection qui le vise.
+::etat:: **Il a posé une question de vocabulaire, que l'auteur a tranchée, et il verse une charge de la preuve.** Le mot `entropie` est soumis depuis A41 à cinq conditions quand il sert une conclusion, faute de quoi il est une métaphore ; et le couplage d'une évaluation descriptive à une décision normative doit être défendu contre une objection qui le vise.
 
 ::etat:: **Il appuie une rétractation déjà faite**, sur une pièce qui n'est pas indépendante de la première et qui tient le recyclage parfait pour impraticable : la rétractation vaut comme physique, non comme programme.
 
