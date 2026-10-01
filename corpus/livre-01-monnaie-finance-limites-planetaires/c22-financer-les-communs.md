@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-30
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -91,6 +91,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : deux renvois. Au § 1, L1.C19 § 2 ne refuse pas la voie budgétaire, il la tient pour non comparée. Au § 5, L1.C19 § 7 portait déjà l'objection au niveau des ressources.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # AUDIT TIERS DE GEMINI, 2026-09-30, sur ce0bb121, décision AC1 de l'auteur (Codex indisponible ;
   # ligne de montée écrite par l'auteur). Rapport : Documents/Codex/2026-09-30/audit-gemini/
   # rapport-gemini-L1-C22-ce0bb121.md. Huit objections, recontrôlées sur le fichier et sur les
@@ -291,7 +294,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::hypothese:: Il en résulte trois remèdes distincts, et le corpus doit dire lequel l'émission qualifiée sert. Pour la première catégorie, elle est plausible : il faut un payeur là où aucun ne se présente. Pour la deuxième, elle est au mieux complémentaire : financer l'entretien d'un fonds n'établit pas la règle d'accès qui en conditionne l'existence, et un paiement sans règle d'accès reconstitue la congestion qu'il prétend traiter. Pour la troisième, la création monétaire n'a aucun avantage propre sur un transfert budgétaire, sinon celui qui ne dépend pas de la catégorie du bien : au versement, elle ne dépend d'aucune recette préalable (L1.C19 § 2).
 
-::etat:: **Mais cette indépendance est partielle, et il faut dire où elle s'arrête.** L'émission ne dépend d'aucune recette au versement ; son apurement dépend du reflux. L'auteur a arrêté la première affectation de l'excédent — apurer le découvert des guichets —, et le reste de la formule n'est pas écrit. **Trois branches restent ouvertes : dépenser l'excédent, le conserver, le redistribuer.** La première ferait du reflux un prélèvement affecté finançant un budget, c'est-à-dire la réduction orthodoxe que L1.C19 § 2 refuse. L'échappement du dispositif à la qualification de dette dépend de cette formule, et le chapitre ne la tranche pas.
+::etat:: **Mais cette indépendance est partielle, et il faut dire où elle s'arrête.** L'émission ne dépend d'aucune recette au versement ; son apurement dépend du reflux. L'auteur a arrêté la première affectation de l'excédent — apurer le découvert des guichets —, et le reste de la formule n'est pas écrit. **Trois branches restent ouvertes : dépenser l'excédent, le conserver, le redistribuer.** La première ferait du reflux un prélèvement affecté finançant un budget, c'est-à-dire la réduction orthodoxe, la voie budgétaire que L1.C19 § 2 ne tient pas pour fausse mais pour non comparée au dispositif. L'échappement du dispositif à la qualification de dette dépend de cette formule, et le chapitre ne la tranche pas.
 
 ::hypothese:: Une conséquence plus lourde suit, et elle est arithmétique. **Le périmètre décide du volume.** Faire entrer les infrastructures critiques dans la liste, c'est faire entrer l'investissement public ordinaire dans le dispositif — les réseaux d'eau, l'assainissement, les transports collectifs et les réseaux électriques relèvent de la formation brute de capital fixe des administrations et des opérateurs de réseau, dont l'ordre de grandeur diffère de celui de l'entretien des fonds naturels. Le corpus ne chiffre pas ici cet écart et ne peut donc pas s'en prévaloir comme d'un résultat : il l'inscrit comme une mesure à faire.
 
@@ -385,7 +388,7 @@ renvois: [L1.C09, L1.C15, L1.C16, L1.C17, L1.C18, L1.C19, L1.C20, L1.C21, L1.C10
 
 ::hypothese:: La conséquence pour le calibrage est précise et elle aggrave ce que le chapitre précédent avait établi. Non seulement la règle liant les indicateurs aux décisions est déclarée à définir (L1.C21 § 8), mais la grandeur qu'elle devrait viser n'est pas l'émission : c'est un écart entre l'émission et un comportement budgétaire national qui réagit à elle. Un dispositif qui vise la première grandeur en croyant viser la seconde surestime son effet d'un montant qu'il ne mesure pas.
 
-::etat:: **L'éviction réelle n'est plus un ajout de ce chapitre : c'est la première dimension du test de l'apport propre et la clé de lecture de L1.C31.** Celle du paragraphe précédent est budgétaire et porte sur des crédits ; celle-ci est réelle et porte sur des ressources. Financer à grande échelle la restauration de milieux, et davantage encore des infrastructures de réseau, mobilise des ouvriers, des ingénieurs, des matériaux, des capacités de chantier qui sont en quantité finie à horizon court. **Si les ressources sont saturées, un financement supplémentaire ne compte comme apport que pour son résultat matériel net après déplacement des autres activités et variation des prix.** Le corpus avait posé l'objection au niveau du pouvoir d'achat (L1.C17 § 5, L1.C19 § 7) ; elle se pose aussi au niveau des ressources physiques, où **aucun taux de reflux ne la corrige**, puisqu'il ne s'agit plus de retirer de la monnaie mais de disposer de bras et de matière.
+::etat:: **L'éviction réelle n'est plus un ajout de ce chapitre : c'est la première dimension du test de l'apport propre et la clé de lecture de L1.C31.** Celle du paragraphe précédent est budgétaire et porte sur des crédits ; celle-ci est réelle et porte sur des ressources. Financer à grande échelle la restauration de milieux, et davantage encore des infrastructures de réseau, mobilise des ouvriers, des ingénieurs, des matériaux, des capacités de chantier qui sont en quantité finie à horizon court. **Si les ressources sont saturées, un financement supplémentaire ne compte comme apport que pour son résultat matériel net après déplacement des autres activités et variation des prix.** Le corpus avait posé l'objection au niveau du pouvoir d'achat (L1.C17 § 5), puis au niveau des ressources (L1.C19 § 7) ; à ce niveau, **aucun taux de reflux ne la corrige**, puisqu'il ne s'agit plus de retirer de la monnaie mais de disposer de bras et de matière.
 
 ::norme:: **Deux réponses sont nommées pour un pilote, et ni l'une ni l'autre n'est éprouvée** : une analyse préalable des travailleurs, des matériaux, des machines, de l'énergie et des capacités industrielles ; et une interruption automatique lorsque cette analyse cesse d'être satisfaite. Le corpus les inscrit comme pièces de conception, non comme dispositifs disponibles.
 
