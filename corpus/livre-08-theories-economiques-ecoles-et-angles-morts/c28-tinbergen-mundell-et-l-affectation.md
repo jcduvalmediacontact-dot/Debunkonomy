@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "R. Mundell, « Capital Mobility and Stabilization Policy under Fixed and Flexible Exchange Rates », Canadian Journal of Economics and Political Science, 29(4), novembre 1963, p. 475-485 — OUVERT INTÉGRALEMENT le 2026-09-05. Retenu ici : sous parité fixe et mobilité parfaite des capitaux, « the central bank has no power over the money supply either (except in transitory positions of disequilibrium) » ; « the budget deficit is entirely at the expense of reserves » ; et la portée du raisonnement, « the world is still a closed economy »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L11.C17 était dit avoir établi l'interdépendance des barèmes ; il l'appuie sans la démontrer. Au § 5, L11.C14 était dit avoir établi que la moitié des familles sont des objectifs ; L11.C14 § 5 en tient deux pour objectifs, deux pour mixtes, une pour condition et une pour donnée, en hypothèse. Au § 6, le compte « douze » des conditions-limites de L11.C03 sort.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCES OUVERTES. Les deux textes qui le portent ont été lus
   # intégralement et dépouillés dans le Livre 11 : c'est pourquoi il est écrit
@@ -49,7 +52,7 @@ verifications_en_attente:
      lecture, contestable, et elle est donnée comme telle."
 resume: "Ce chapitre traite les deux résultats de théorie de la politique économique sur lesquels tout le Livre 11 est construit, et il est écrit en premier de sa partie parce que ses deux sources ont été lues intégralement. Il établit ce que Tinbergen apporte au dispositif : une règle de comptage qui transforme une intuition en contrainte vérifiable, une catégorie pour les grandeurs qui ne sont pas des objectifs mais des conditions techniques, un statut pour les inégalités qui ne mordent que sous tension, et surtout une forme pour ce qu'un barème doit être — non une table de nombres mais une directive, fonction des données observées. Il établit ce que Mundell lui oppose : sous parité fixe et capitaux mobiles, la banque centrale nationale perd le contrôle de la quantité de monnaie, résultat que le dispositif affirme neutraliser sans mécanisme. Il énonce ce que le dispositif cherche chez ces deux auteurs et n'y trouve pas — une méthode pour compter des objectifs qui ne sont pas des grandeurs monétaires, et un traitement du cas où l'instrument et l'objectif appartiennent à des ordres différents. Il montre que la question des limites physiques est chez eux compatible mais silencieuse : rien n'interdit d'y faire entrer une contrainte biophysique, rien ne l'appelle non plus. Il relève enfin que Tinbergen classe lui-même les propositions de changement de structure monétaire dans une catégorie où il déclare la connaissance empirique presque absente, ce qui vaut au dispositif une qualification et non une dispense."
 concepts: [affectation_des_instruments, regle_contre_discretion, referentiel_de_change, bareme]
-renvois: [L1.C21, L1.C26, L8.C01, L11.C03, L11.C04, L11.C12, L11.C15, L11.C17]
+renvois: [L1.C21, L1.C26, L8.C01, L11.C03, L11.C04, L11.C12, L11.C14, L11.C15, L11.C17]
 ---
 
 # Tinbergen, Mundell et l'affectation des instruments
@@ -90,19 +93,19 @@ renvois: [L1.C21, L1.C26, L8.C01, L11.C03, L11.C04, L11.C12, L11.C15, L11.C17]
 
 ::hypothese:: **Ce que le corpus tient de première main, en revanche, c'est la réserve de Tinbergen.** L'affectation un à un — un instrument, un objectif — ne vaut que sous « a very special structure » du système [S1]. **Elle n'est donc pas la forme générale de la solution, mais un cas particulier**, ce que la présentation courante omet souvent.
 
-::hypothese:: **Cela porte sur le dispositif de façon directe.** L11.C17 a établi que ses barèmes sont interdépendants — la structure de la valorisation ne se règle qu'avec le taux de reflux, l'égalité de bouclage les liant — et Tinbergen le dit d'avance : « the values of the instrument variables are dependent, generally speaking, **on all the targets set and cannot be considered in isolation** » [S1]. **Un dispositif dont on règle les tables séparément suppose la structure très spéciale, sans l'avoir montrée.**
+::hypothese:: **Cela porte sur le dispositif de façon directe.** L11.C17 appuie l'interdépendance de ses barèmes sans la tenir pour démontrée — la structure de la valorisation ne se réglerait qu'avec le taux de reflux, l'égalité de bouclage les liant ; ce paragraphe écrivait « a établi » — et Tinbergen le dit d'avance : « the values of the instrument variables are dependent, generally speaking, **on all the targets set and cannot be considered in isolation** » [S1]. **Un dispositif dont on règle les tables séparément suppose la structure très spéciale, sans l'avoir montrée.**
 
 ## 5. MANQUEMENT — ce que le dispositif cherche là et n'y trouve pas
 
 ::hypothese:: **Deux manques, et ils sont du même ordre.**
 
-::hypothese:: **Le premier : compter des objectifs qui ne sont pas des grandeurs monétaires.** La règle suppose des cibles exprimées dans un même espace de variables, reliées par des équations estimées. Le dispositif poursuit un état biosphérique et un état social ; L11.C14 a établi que la moitié des familles de son tableau de bord sont des objectifs et non des données. **Rien chez Tinbergen ne dit comment une cible écologique entre dans le décompte**, et le corpus a fait entrer les siennes par assimilation, faute de mieux.
+::hypothese:: **Le premier : compter des objectifs qui ne sont pas des grandeurs monétaires.** La règle suppose des cibles exprimées dans un même espace de variables, reliées par des équations estimées. Le dispositif poursuit un état biosphérique et un état social ; L11.C14 § 5 tient, en hypothèse, que deux des familles de son tableau de bord, la biosphérique et la sociale, sont des objectifs pour la part que le dispositif commande, et non des données ; ce paragraphe écrivait « a établi » et « la moitié ». **Rien chez Tinbergen ne dit comment une cible écologique entre dans le décompte**, et le corpus a fait entrer les siennes par assimilation, faute de mieux.
 
 ::hypothese:: **Le second : le cas où l'instrument et l'objectif appartiennent à des ordres différents.** Un taux de reflux est un prix ; l'abondance des produits essentiels est une quantité physique. La règle les compte comme deux objectifs sans dire que le lien entre eux passe par des capacités matérielles que la monnaie ne crée pas. **C'est la promesse P35, et elle n'a pas de traitement ici.**
 
 ## 6. LIMITES et STATUT
 
-::hypothese:: **Sur la limite physique, ces travaux sont compatibles mais silencieux.** Rien n'interdit d'introduire une contrainte biophysique parmi les conditions-limites — le vocabulaire de Tinbergen l'accueille sans se défaire, et L11.C03 l'a fait pour douze d'entre elles. **Mais rien ne l'appelle non plus** : les exemples de l'auteur sont des bornes d'évasion fiscale, de proportionnalité des sacrifices, de situations financières. **La limite peut y entrer ; elle n'y est pas.**
+::hypothese:: **Sur la limite physique, ces travaux sont compatibles mais silencieux.** Rien n'interdit d'introduire une contrainte biophysique parmi les conditions-limites — le vocabulaire de Tinbergen l'accueille sans se défaire, et L11.C03 § 5 l'a fait dans son inventaire ; ce paragraphe y comptait « douze » conditions, compte que L11.C03 a refait depuis. **Mais rien ne l'appelle non plus** : les exemples de l'auteur sont des bornes d'évasion fiscale, de proportionnalité des sacrifices, de situations financières. **La limite peut y entrer ; elle n'y est pas.**
 
 ::hypothese:: **Statut disciplinaire, et c'est un jugement du corpus, non une enquête.** La règle du compte est **acquise** : enseignée partout, non contestée dans son principe. L'affectation un à un est **opérante** : elle sert à décider, mais elle est datée, et Tinbergen lui-même en borne la validité. Le résultat de Mundell est **acquis** dans son mécanisme et **disputé** dans sa portée contemporaine, la littérature ultérieure ayant soutenu que l'autonomie monétaire est déjà perdue sous changes flottants — ce que le corpus a versé au dossier sans l'ouvrir.
 
