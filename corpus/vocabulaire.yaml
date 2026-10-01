@@ -533,32 +533,40 @@
   premiere_occurrence: L11.C03
 
 - terme: valorisation_des_communs
+  # 2026-10-01 : dernière phrase de la définition remplacée sur l'ordre 16 étendu (21 h 07), mot de l'auteur
+  # « Oui au texte proposé » (formulaire de Fable). L'ancienne tenait le niveau « décidé par personne » et le
+  # partage pour acquis ; L11.C16 § 2 confie le niveau au Conseil, par formule, et § 4 tient le partage conditionnel.
   libelle: "Valorisation des communs"
   definition: "Décision qui fixe combien un acte régénératif certifié vaut en
                allocations émises. Distincte de la qualification, qui décide de
                l'éligibilité sans dire combien de monnaie créer. Le corpus la
                tient pour la décision D2 au sens de L11.C11, domicile de la
-               promesse bloquante P52, et établit qu'elle se décompose en deux
-               grandeurs de statut opposé : le NIVEAU, contraint par la
-               condition de bouclage et donc décidé par personne, et la
-               STRUCTURE — la valeur relative des actes entre eux —, qui est
-               l'objet du barème et, à enveloppe plafonnée, un partage."
+               promesse bloquante P52, et établit sur le livre qu'elle se
+               décompose en deux grandeurs de statut distinct : le NIVEAU — le
+               volume annuel maximal —, que le livre fait calculer par formule
+               au Conseil Monétaire Mondial, et la STRUCTURE — la valeur
+               relative des actes entre eux —, qui est l'objet du barème voté
+               par l'Assemblée des Communs et qui devient un partage si la
+               demande excède l'enveloppe (L11.C16 § 2 et § 4)."
   premiere_occurrence: L11.C16
 
 - terme: polycentricite
   libelle: "Polycentricité"
+  # 2026-10-01 : définition remplacée sur l'ordre 16 de l'ordre du jour, mot de l'auteur « Oui au texte proposé »
+  # (formulaire de Fable, 20 h 27). L'ancienne prêtait à Ostrom « intrinsèquement faible », que L11.C16 § 5 rend au
+  # résumé de la série, et tenait la polycentricité interdite sur les valeurs par le résultat de Mundell, ce que
+  # L11.C16 a retiré. Vérifiée contre L11.C16 § 5 et la pièce d'Ostrom, page 37.
   definition: "Organisation dans laquelle une décision collective est prise
                simultanément à plusieurs échelles emboîtées plutôt que par une
                unité unique. Le corpus l'emploie comme la seule réponse
                constituée à l'objection de la connaissance dispersée, et retient
-               d'Ostrom deux arguments indépendants : une politique adoptée à la
-               seule échelle mondiale engendre difficilement la confiance
-               nécessaire à l'action collective, et recommander une unité
-               gouvernementale unique pour résoudre un problème d'action
-               collective mondiale est intrinsèquement faible en raison même des
-               comportements de passager clandestin. L11.C16 établit qu'elle
-               s'applique au constat et non à la fixation des valeurs, où le
-               résultat de Mundell l'interdit."
+               d'Ostrom qu'une politique adoptée à la seule échelle mondiale
+               engendre difficilement la confiance nécessaire à l'action
+               collective, et que la recommandation d'une unité gouvernementale
+               unique doit être sérieusement repensée. L11.C16 l'applique au
+               constat ; sur la fixation des valeurs, aucune décision de
+               l'auteur ne tranche entre centralisation et polycentricité
+               (L1.C22 § 2)."
   premiere_occurrence: L11.C16
 
 - terme: monnaie_regenerative_contrepartie_collective
