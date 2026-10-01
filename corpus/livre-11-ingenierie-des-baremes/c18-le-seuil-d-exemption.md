@@ -25,7 +25,10 @@ sources_primaires:
     etat_lecture: a_requalifier
 verifications_en_attente:
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
-  # propagation de second rang : au § 7, L11.C16 § 2 était dit avoir établi que le produit du reflux plafonne l'enveloppe ; le plafond tient sous la condition de bouclage de L11.C03 § 3, et L11.C16 § 2 ne dit plus l'avoir établi.
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 6, L11.C17 § 6 était dit avoir établi que le bouclage rend détectable en agrégat un déficit d'émission ; il le tient en hypothèse, sous condition que la capacité de reflux soit mesurée. Au § 7, L11.C17 § 7 était dit avoir recensé « deux contradictions non résolues » et établi leur structure commune ; il en recense davantage, dont plusieurs non résolues, et tient la structure commune des deux premières en hypothèse. La trace du second rang portait « au § 7 » pour le § 6 : elle est rectifiée.
+  # Statut inchangé.
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : au § 6, L11.C16 § 2 était dit avoir établi que le produit du reflux plafonne l'enveloppe ; le plafond tient sous la condition de bouclage de L11.C03 § 3, et L11.C16 § 2 ne dit plus l'avoir établi.
   # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : en tête et au § 2, le seuil d'exemption était dit réservé aux personnes physiques, rien n'existant pour les personnes morales ; L11.C17 § 8, repassé le 1er octobre sur le livre (folio 190), écrit que le seuil protège « l'épargne populaire et la trésorerie courante des entreprises », et vise donc les personnes morales sans en donner la forme. Le résumé suit ; la question que le chapitre instruit, la forme d'un seuil propre aux personnes morales, reste entière.
@@ -133,7 +136,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 
 ::hypothese:: **La correction d'incidence se paie en financement régénératif.** Ce n'est pas un argument contre elle — L11.C03 porte à l'inventaire la condition-limite **B3**, « certain proportionalities between the sacrifices of different social groups » [S2], et une condition-limite compte comme un objectif dès qu'elle est menacée. **C'est que les deux termes de l'arbitrage sont pour la première fois de même nature** : une quantité d'assiette contre une quantité d'émission.
 
-::hypothese:: **Et le coût est observable**, ce qui est rare dans ce dossier. L11.C17 § 6 a établi que la condition de bouclage rend détectable en agrégat un déficit d'émission. **Le prix d'un seuil serait donc lisible dans le même agrégat qui sert à contrôler le barème de qualification** — un seul chiffre porte les deux informations.
+::hypothese:: **Et le coût est observable**, ce qui est rare dans ce dossier. L11.C17 § 6 tient, en hypothèse, que la condition de bouclage rend détectable en agrégat un déficit d'émission, à condition que la capacité de reflux soit elle-même mesurée. **Le prix d'un seuil serait donc lisible dans le même agrégat qui sert à contrôler le barème de qualification** — un seul chiffre porte les deux informations.
 
 ## 7. Quatre formes, et un conflit qui revient pour la troisième fois
 
@@ -148,7 +151,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 
 ::hypothese:: **La franchise est la seule forme sans effet de seuil**, et le corpus le relève sans en faire une recommandation : elle est aussi la plus coûteuse en assiette, donc en enveloppe, donc en financement régénératif — par le § 6.
 
-::hypothese:: **Et un conflit revient, pour la troisième fois.** L11.C17 § 7 a recensé deux contradictions non résolues entre efficacité et légitimité, et a établi qu'elles ont la même structure : *ce qui rend le barème efficace détruit ce qui le rend légitime*. **En voici un troisième cas.** L11.C12 exige que la directive soit **publiée** ; publier la fonction d'un seuil, c'est **rendre son optimisation triviale** — chacun sait exactement où se placer. Un seuil non publié serait moins contournable et ne serait plus une règle.
+::hypothese:: **Et un conflit revient, pour la troisième fois.** L11.C17 § 7 recense les contradictions entre des exigences que le corpus tient pour fondées, dont plusieurs restent non résolues, et tient en hypothèse que les deux premières ont la même structure : *une propriété qui rend le barème efficace détruit une propriété qui le rend légitime*. **En voici un autre cas.** Ce paragraphe écrivait « deux contradictions non résolues » et « a établi ». L11.C12 exige que la directive soit **publiée** ; publier la fonction d'un seuil, c'est **rendre son optimisation triviale** — chacun sait exactement où se placer. Un seuil non publié serait moins contournable et ne serait plus une règle.
 
 ::hypothese:: **Le corpus note que ce troisième cas est moins grave que les deux autres**, et il dit pourquoi : sur un seuil, l'optimisation consiste à se placer sous une borne connue, ce qui est **borné par construction** — on ne peut pas gagner plus que le montant exempté. Sur l'indicateur de qualification (A17), l'optimisation n'a pas de borne. **La transparence coûte moins cher ici qu'ailleurs**, et c'est un argument pour publier.
 
