@@ -27,6 +27,9 @@ sources_primaires:
     etat_lecture: a_requalifier
 verifications_en_attente:
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, « des milliers d'intervenants » était repris de L11.C05 § 6 ; L11.C05, repris le 1er octobre sur l'essai de 1958, écrit « des millions de personnes ».
+  # Statut inchangé.
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : aux § 4, § 5 et § 7 et au résumé, le chapitre tenait d'après L11.C16 que la valorisation est un partage à saturation et que la réponse polycentrique est interdite sur les valeurs par le résultat de Mundell, et citait d'Ostrom « inherently weak » ; L11.C16, repris le 30 septembre, tient le partage pour conditionnel (§ 4), retire l'interdiction tirée de Mundell, lit l'objection de Hayek comme visant d'abord la valeur, et rend « inherently weak » au résumé de la série, non au corps du texte (§ 5). La localisation de l'objection sur D2 reste ; L11.C04 et L11.C11 entrent aux renvois.
   # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
@@ -87,7 +90,7 @@ renvois: [L1.C15, L1.C18, L1.C22, L8.C01, L8.C28, L11.C04, L11.C05, L11.C06, L11
 
 ::etat:: **Le corpus enregistre un fait de méthode qui renforce l'objection.** Il l'a rencontrée deux fois, sur les deux extrémités du circuit, sous deux formulations qui ne se citent pas [S3].
 
-::etat:: **Sur l'assiette du reflux**, elle est venue de l'auteur du dispositif lui-même, sous la forme de la généalogie du crayon : des milliers d'intervenants concourent à un objet simple, et nul ne connaît la chaîne entière (L11.C05 § 6). **Sur le barème de qualification**, elle figurait au registre depuis L1.C18 sans avoir été instruite, et L11.C13 § 7 l'a reprise.
+::etat:: **Sur l'assiette du reflux**, elle est venue de l'auteur du dispositif lui-même, sous la forme de la généalogie du crayon : des millions de personnes concourent à un objet simple, et nul ne connaît la chaîne entière (L11.C05 § 6) ; ce paragraphe écrivait « des milliers », que L11.C05 a corrigé sur l'essai. **Sur le barème de qualification**, elle figurait au registre depuis L1.C18 sans avoir été instruite, et L11.C13 § 7 l'a reprise.
 
 ::hypothese:: **Deux barèmes, deux formulations, une seule objection.** Si la même difficulté se présente aux deux extrémités du circuit, elle n'est pas propre à un instrument — c'est un argument de plus pour traiter les barèmes comme un chantier unique (A8, rendu par L11.C17).
 
