@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L7.C05, qui établit que les quatre chambres du symposium retrouvent les quatre décisions D1 à D4 du corpus, ET QUE D2 N'EST ATTRIBUÉE À AUCUNE CHAMBRE ; L7.C11, sur le financement du symposium ; L11.C16, sur la valorisation des communs"
     etat_lecture: a_requalifier
+  # 2026-10-01 : cette entrée est en partie périmée, son texte étant gardé tel que le manifeste le fixe. L7.C05 borne
+  # désormais au chapitre 7 du livre le constat que D2 n'est attribuée à aucune chambre, la décision de l'auteur du
+  # 17 septembre 2026 la confiant à l'Assemblée ; L11.C16 § 2 confie le niveau au Conseil. Le § 3 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C16 était dit avoir établi que le niveau de valorisation n'est pas une décision libre mais un partage borné par le produit du reflux, d'où un pouvoir réservé au plénier ; L11.C16 § 2, repris le 30 septembre, confie le niveau au Conseil, par formule, et la structure à l'Assemblée, et la décision de l'auteur (L1.C18 § 3) fait fixer d'avance la grille par l'Assemblée. L'analogie du point (v) est reportée sur la grille, en hypothèse. L1.C18 entre aux renvois. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "AUCUN ACTE DE DÉLÉGATION EFFECTIF N'EST AU DOSSIER. Le texte dit ce qui ne
      PEUT PAS être délégué ; **le corpus ignore ce qui l'a été**, et c'est la
      seule donnée qui dirait où passe réellement la frontière."
@@ -37,7 +43,7 @@ verifications_en_attente:
      été dépouillé.**"
 resume: "Ce chapitre verse au corpus une technique qu'il n'avait pas et qui répond à une question laissée ouverte par le Livre 7. Un traité monétaire peut vester tous les pouvoirs dans l'organe plénier, autoriser la délégation à l'organe exécutif, et soustraire à cette délégation une liste limitative et courte. Le chapitre relève cette liste et montre qu'elle est cohérente : ce qui ne se délègue pas est ce qui change la composition, ce qui change les poids, ce qui change le référentiel, ce qui engage l'institution envers d'autres organisations, ce qui répartit le produit, ce qui exclut un membre, ce qui met fin à l'institution, et ce qui juge en dernier ressort. Il établit ensuite que cette technique est plus économique que celle du Livre 7. Le Livre 7 avait construit quatre chambres pour quatre décisions et avait constaté qu'une décision n'était attribuée à aucune chambre. Une liste de pouvoirs réservés obtient le même résultat sans créer d'organe, et elle rend le trou visible par construction, puisqu'un pouvoir absent de la liste est délégable et qu'on voit tout de suite lequel. Il relève enfin deux dispositions qui atténuent la portée du dispositif, la nomination directe de cinq directeurs par les cinq plus gros quotataires et l'obligation faite à chaque directeur d'exprimer toutes ses voix dans le même sens."
 concepts: [bareme, valorisation_des_communs, polycentricite, robustesse]
-renvois: [L7.C05, L7.C06, L7.C07, L7.C11, L7.C14, L11.C16, L11.C20, L20.C01, L20.C09, L20.C10, L20.C14]
+renvois: [L1.C18, L7.C05, L7.C06, L7.C07, L7.C11, L7.C14, L11.C16, L11.C20, L20.C01, L20.C09, L20.C10, L20.C14]
 ---
 
 # Les pouvoirs non délégables
@@ -64,7 +70,7 @@ renvois: [L7.C05, L7.C06, L7.C07, L7.C11, L7.C14, L11.C16, L11.C20, L20.C01, L20
 
 ::hypothese:: **Et elle rend le trou visible par construction.** Dans une architecture par chambres, une compétence non attribuée **disparaît** : personne ne la réclame, et il faut la chercher. Dans une liste de pouvoirs réservés, **une compétence absente de la liste est délégable**, ce qui est une réponse — fausse peut-être, mais explicite. **On voit immédiatement laquelle.**
 
-::hypothese:: **Le corpus enregistre ce que cela dit de D2.** Sous cette technique, la question ne serait pas « quelle chambre valorise les communs ? » mais « **la valorisation est-elle délégable ?** ». **Et la réponse est fournie par analogie avec le point (v) de la liste** : déterminer la distribution du revenu net **ne se délègue pas.** L11.C16 a établi que le niveau de valorisation n'est pas une décision libre mais un partage borné par le produit du reflux — **donc, sous la logique de ce texte, un pouvoir réservé au plénier.** Le corpus tient là une réponse à D2, obtenue non par attribution mais par qualification.
+::hypothese:: **Le corpus enregistre ce que cela dit de D2.** Sous cette technique, la question ne serait pas « quelle chambre valorise les communs ? » mais « **la valorisation est-elle délégable ?** ». **Et la réponse est fournie par analogie avec le point (v) de la liste** : déterminer la distribution du revenu net **ne se délègue pas.** Ce paragraphe écrivait que L11.C16 avait établi que le niveau de valorisation n'est pas une décision libre mais un partage borné par le produit du reflux, et en tirait un pouvoir réservé au plénier. **L11.C16 § 2 ne le tient plus** : le livre confie le niveau au Conseil Monétaire Mondial, qui le calcule par une formule, et la structure — ce qu'un acte compte relativement à un autre — à l'Assemblée des Communs, qui la vote ; la décision de l'auteur que L1.C18 § 3, vérifié, rapporte fait fixer d'avance par l'Assemblée les seuils et la grille de priorité. **Sous la logique de ce texte, c'est cette grille, non le niveau, qui serait le pouvoir à ne pas déléguer.** Le corpus tenait là une réponse à D2 obtenue par qualification ; D2 a reçu depuis une attribution, par la décision de l'auteur.
 
 ## 4. Deux dispositions qui atténuent la portée
 
