@@ -8567,3 +8567,88 @@ exclus du dépôt.
 D'où vient la lettre : AC1 a été soumise par Fable dans la conversation, non
 d'abord à l'ordre du jour, l'indisponibilité de Codex ayant été constatée
 entre deux rendez-vous ; elle a été inscrite à l'ordre du jour à 10 h 09.
+
+## AB4 ET AD1 À AD4 — LA SEMAINE DE CLÔTURE DU LIVRE 1 ET L'ANNEAU, RENDUES LE 2026-09-30, INSCRITES LE 2026-10-01
+
+Cette section inscrit cinq décisions rendues le 2026-09-30 dans la
+conversation avec Fable, recopiées le jour même à l'ordre du jour, et
+inscrites ici sur le mot de l'auteur du 2026-10-01, recopié : « Oui pour
+inscrire AB4 et AD1 à AD4 » (15 h 53). Elle ne tranche rien de neuf et ne réécrit
+rien.
+
+Les mots de l'auteur, dans l'ordre. Le 30 vers 12 h 20, la publication 4
+étant en ligne : « Oui pour AB4 ». Le 30 vers 13 h 40, sur quatre textes
+proposés par Fable, chacun par « OK », le quatrième avec cet ajout : « OK,
+mais parfois, tu seras amené à remplacer l'un ou l'autre qui seront "down". »
+Le 30 à 20 h 30, sur une réponse rédigée par Fable aux demandes du Moteur :
+« OUI ! ».
+
+AB4 — la semaine de clôture du Livre 1, du 5 au 9 octobre. Elle porte les
+dettes que la semaine du 29 et du 30 a laissées, listées au bloc du relais
+de l'ordre du jour : les renvois des trente chapitres vérifiés, dont L1.C28
+§ 4 et L1.C19 § 3 ; les dix-sept ancrages du renommage canonique à admettre,
+un par un, avec leur motif ; L1.C10 § 1 ; le registre des promesses, P55 en
+premier ; les propagations vers les autres livres ; L0.C01 ; et le lot des
+diffs de montée, qui revient au superviseur en un lot à la fin (AB2). En
+restent dehors : AA2, le fil des articles 123 et 130 du traité sur le
+fonctionnement de l'Union européenne, renvoyé au Livre 20, L1.C30 (D100) et
+le portefeuille de comparaison. La proposition disait « puis le Livre 3 » :
+AD2 y a substitué l'anneau.
+
+AD1 — la règle de montée Z1 (2026-09-29) et AC1 (2026-09-30) valent pour les
+trente-neuf chapitres de l'anneau — les chapitres des autres livres que les
+trente chapitres vérifiés du Livre 1 sollicitent, au corps ou dans la liste
+`renvois` de l'en-tête, relevés le 30 dans
+`coordination/relais-moteur/dossiers/anneau-L1-2026-09-30.md` et nommés dans
+`coordination/relais-moteur/commun.py`. Un chapitre de l'anneau monte à
+`verifie` dès que la ligne « rien ne s'oppose à la montée de Lk.Cnn » est
+écrite à l'ordre du jour — par Codex, ou par l'auteur lui-même quand l'audit
+tiers est de Gemini —, sur le commit que la ligne nomme, toutes ses sources
+étant `ouverte` et datées. Les outils du relais lisent la formule pour tout
+livre depuis le 30 (`monter.py`, `commun.regle_de_montee`).
+
+AD2 — la semaine de clôture d'AB4 tient, du 5 au 9 ; l'anneau remplace le
+Livre 3 comme cap suivant, et commence sans attendre. Il a commencé le 30 à
+14 h 16, par lots : lot 1 le 30 ; lots 2, 3, 4 et 5 le 1er octobre, sur les
+mots de l'auteur « On reprend », « passe au lot 4 », « passe au lot 5 ». Le
+1er octobre à 12 h, trente-cinq chapitres sur trente-neuf avaient reçu leur
+passe de sources, toutes sources ouvertes, statuts inchangés ; restent les
+quatre du Livre 18 (L18.C01, C03, C05, C06), sortis du lot 1 le 30 à 20 h 30
+sur le « OUI ! » de l'auteur, parce que leurs pièces sont les publications de
+l'IPSASB que le corpus n'ouvre pas : ils se reprennent après la semaine de
+clôture, sur le contrôle mécanique de l'auteur et ses notes.
+
+AD3 — pour chaque lot, le moteur donne la liste des textes en accès libre à
+prendre, avec leurs adresses officielles, et attend le oui de l'auteur avant
+de télécharger ; un refus anti-robot n'est pas contourné, et l'auteur prend
+alors le texte depuis son navigateur ; la mention de droits se lit dans
+chaque document avant de le retenir. Appliquée les 30 septembre et 1er
+octobre sur les mots « Oui aux quatre téléchargements », « oui, télécharge
+Ayres », « oui, télécharge la liste » (trois fois) et « oui, télécharge les
+treize fichiers ».
+
+AD4 — Opus tient le moteur pour le volume ; Fable garde le commandement,
+l'ordre du jour, les dossiers d'audit et les recontrôles ; et l'un remplace
+l'autre quand il est arrêté — les mots de l'auteur : « OK, mais parfois, tu
+seras amené à remplacer l'un ou l'autre qui seront "down". » Le moteur a été
+tenu par une session lancée sous le nom « Moteur », passée de Fable à Opus
+le 30 en cours de lot.
+
+Ce que ces décisions ne changent pas : D100 (L1.C30 reste `brouillon`) ; AB2
+(les diffs de montée en un lot au superviseur) ; Z1 pour Codex à son retour ;
+la fermeture des cinq publications de l'IPSASB (2026-09-08) ; rien sur
+`main`, aucune demande de fusion ; aucun chapitre vérifié touché hors des
+corrections que l'auteur ordonne lui-même — ce qu'il a fait le 1er octobre,
+de 12 h 22 à 14 h 31, sur le dossier de clôture des renvois préparé par le
+Moteur (« corrige L1.C10 § 3 d'après L1.C25 », « corrige aussi L1.C06 § 6
+d'après L1.C11 », « corrige les états périmés listés dans le dossier »,
+« corrige les ancres déplacées listées dans le dossier », « corrige les
+renvois qui disent plus que leur cible ») : vingt-sept chapitres, quarante-sept
+commits, dont le recontrôle est confié à Gemini sur un dossier préparé par
+Fable, partie par partie.
+
+D'où vient la lettre : AB4 a été proposée à l'ordre du jour du 30 au matin
+(« Le cap suivant, à rendre d'ici vendredi ») et rendue dans la
+conversation ; AD1 à AD4 ont été proposées par Fable dans la conversation
+après la discussion du cap suivant (« Bien ! commençons par l'anneau »), et
+recopiées à l'ordre du jour du 30 à 13 h 46.
