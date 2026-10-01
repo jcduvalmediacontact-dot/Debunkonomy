@@ -23,6 +23,9 @@ sources_primaires:
     reference: "Le corpus lui-même — la promesse BLOQUANTE P52 : l'équilibre extérieur d'un pays dépendant du volume de communs qu'il peut faire certifier, une institution non élue déciderait de la solvabilité extérieure de ses membres. Domiciliée en D2 par L11.C13 § 3. Et la promesse P31, la clé de répartition, dont L11.C11 § 5 a établi qu'elle demande la même chose que l'arbitrage A16"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 5, L7.C03 § 1 était dit avoir établi que les deux défauts appellent des remèdes distincts ; L7.C03 § 1, repris le 30 septembre, établit la distinction des deux objections et tient les remèdes en hypothèse.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : le chapitre tenait pour acquis, d'après L11.C16 § 4, que l'enveloppe est plafonnée par la condition de bouclage, que la valorisation est à saturation un partage à somme quasi nulle et que la saturation est l'état visé ; L11.C16, repassé le 30 septembre, ne lie plus le volume au produit du reflux (§ 2), tient le partage pour conditionnel et retire la saturation comme état visé (§ 4). Le § 1, le déport du § 3, le § 6, le résumé et la vérification en attente le disent ; L11.C16 § 6 est dit tenir, non avoir établi ; L1.C27 § 6 n'établit plus l'enjeu de l'équilibre extérieur, qu'il range sous une lecture parmi trois. L'entrée [S1], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -102,7 +105,7 @@ renvois: [L1.C15, L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L11.C11, L11.C13, L11.
 
 ::hypothese:: **Elle déplace la question sans la résoudre, et il faut nommer où.** Le tiers doit être **désigné** par quelqu'un, et celui qui le désigne est intéressé. **On ne supprime pas le conflit, on l'éloigne d'un cran** — ce qui est un gain réel, l'histoire des autorités indépendantes le montrant, **et un gain seulement.**
 
-::hypothese:: **Et elle rouvre l'objection d'autorisation.** L7.C03 § 1 a établi que défaut d'autorisation et défaut de séparation appellent des remèdes distincts. **Le tiers indépendant corrige le second en aggravant le premier** : plus l'organe est insulé des membres, moins il est autorisé par eux. **C'est le conflit que L11.C10 § 5 avait déjà rencontré** — la littérature de la crédibilité répond à une question du corpus en aggravant une autre.
+::hypothese:: **Et elle rouvre l'objection d'autorisation.** L7.C03 § 1 établit que défaut d'autorisation et défaut de séparation sont deux objections distinctes, et tient en hypothèse qu'elles appellent des remèdes distincts ; ce paragraphe écrivait qu'il avait établi les remèdes. **Le tiers indépendant corrige le second en aggravant le premier** : plus l'organe est insulé des membres, moins il est autorisé par eux. **C'est le conflit que L11.C10 § 5 avait déjà rencontré** — la littérature de la crédibilité répond à une question du corpus en aggravant une autre.
 
 ## 6. Ce qui limite tout le chapitre
 
