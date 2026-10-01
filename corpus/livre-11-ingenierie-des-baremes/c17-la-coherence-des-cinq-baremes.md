@@ -22,6 +22,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-10-01
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur la transmission de Fable inscrite à l'ordre du jour le 2026-10-01 à 20 h 21, au titre de l'ordre 8, avant le dossier d'audit :
+  # au § 7, ligne 3 du tableau, L11.C14 était dit tenir que la moitié du tableau de bord est faite d'objectifs ; L11.C14 § 5 en tient deux familles sur six pour objectifs, en hypothèse, deux pour mixtes, une pour condition et une pour donnée.
+  # Statut inchangé.
   # PASSE DE SOURCES DU 2026-10-01 — lot 5 de l'anneau du Livre 1, sur l'ordre de l'auteur du
   # même jour (« passe au lot 5 ») et sa décision sur la lecture de Tinbergen (« oui, (a) »).
   # Règles V2 et W2 de l'auteur (2026-09-28), règle 12, règle éditoriale du 2026-09-08. STATUT ET
@@ -195,7 +198,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C26, L1.C27, L1.C28, L11.C03, L11.C05, L11.
 |---|---|---|---|
 | **1** | L11.C12 : la directive doit être **publiée** | L11.C13 § 5 : le remède à Goodhart demande des indicateurs **non annonçables** | **NON RÉSOLU** — A17. On ne peut pas publier la fonction et cacher l'indicateur |
 | **2** | L11.C10, L11.C12 : la crédibilité demande de **ne pas réviser** | L11.C16 § 6 : la priorité demande une révisabilité **renforcée** | **NON RÉSOLU** — et le conflit est le plus aigu là où l'enjeu est le plus lourd |
-| **3** | Une directive lit des **données** | L11.C14 : la moitié du tableau de bord est faite d'**objectifs** | **PROPOSÉ, NON TRANCHÉ** — n'admettre en entrée que les familles hors commandement (A19, après A18, tous deux ouverts) ; L1.C28 § 4, vérifié, tient qu'une règle explicite peut lire une cible si sa fonction de réponse est écrite |
+| **3** | Une directive lit des **données** | L11.C14 § 5, en hypothèse : deux familles sur six, la biosphérique et la sociale, sont des **objectifs** pour la part que le dispositif commande, deux sont mixtes, une est une condition, une une donnée ; ce tableau écrivait « la moitié » | **PROPOSÉ, NON TRANCHÉ** — n'admettre en entrée que les familles hors commandement (A19, après A18, tous deux ouverts) ; L1.C28 § 4, vérifié, tient qu'une règle explicite peut lire une cible si sa fonction de réponse est écrite |
 | **4** | L11.C13 § 2 : le calibrage penche vers le **trop strict** | Le bouclage exige un **volume** d'émission | **RÉSOLU, et favorablement** — voir § 6 |
 
 ::etat:: **La première version disait la troisième contradiction résolue en restriction.** A18 et A19 sont ouverts au protocole de la seconde passe, et la restriction n'est pas la seule issue que le Livre 1 admette.
