@@ -31,6 +31,9 @@ sources_primaires:
   # 30 septembre, rapporte la distinction du passif et de l'actif comme une distinction de fonction, tient les deux
   # appuis pour rapportés par la note, et retire l'« absence totale » comme appui fort. Le § 4 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L20.C03 était dit avoir établi que le seul verrou est la hiérarchie des objectifs ; c'est L20.C22 § 1 qui le tient, en hypothèse.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 2 et § 5, L2.C06 était dit avoir établi que la note de 2022 pose la même chose que le Cahier « sous le nom de rapport au marché défaillant » ; L2.C06 § 4, repassé le 30 septembre, rapporte la formule du marché défaillant et tient en hypothèse une prémisse voisine, non l'argument de non-neutralité du Cahier.
   # Statut inchangé.
@@ -51,7 +54,7 @@ verifications_en_attente:
      le biais carbone des portefeuilles de banque centrale existe."
 resume: "Ce chapitre traite le troisième déplacement, qui substitue au contrôle quantitatif du crédit un contrôle qualitatif, et il établit que le Cahier y avance trois arguments d'inégale valeur dont le deuxième est le meilleur de toute la série. Le premier repose sur la tragédie des horizons et sur l'incompatibilité entre les horizons de la finance et ceux du dérèglement climatique ; il est juste et il est étayé sur un discours que le corpus ne détient pas, et sur une durée qu'aucune donnée du dossier n'établit. Le deuxième renverse la charge de la preuve et le chapitre le tient pour l'argument le plus fort des douze épisodes : la neutralité allocative n'existe pas, les achats d'actifs, les collatéraux acceptés et les pondérations de risque orientent déjà le crédit, de sorte que le débat n'oppose pas une orientation explicite à une neutralité, mais une orientation implicite jamais assumée à une orientation explicite discutée. Le troisième argument est le plus intéressant pour la stratégie du dispositif, parce qu'il argumente par le mandat existant et non contre lui, ce qui contredit une fois de plus l'énoncé du premier épisode. Il tenait enfin que le déplacement ne résout pas une difficulté mise au jour par le chapitre sur le pilier structurel, la différenciation des pondérations agissant sur le passif sans déplacer la composition de l'actif ; ce chapitre-là ne la tient plus, la note qu'il lit attribuant elle-même aux pondérations un effet sur l'actif et le déplacement comptant aussi des plafonds d'exposition sectoriels, de sorte que ce qui reste est une objection de la note au facteur de pénalité brune."
 concepts: [creation_monetaire, qualification_regenerative, neutralite_monetaire, degeneratif, bareme, additionnalite]
-renvois: [L1.C07, L1.C22, L2.C02, L2.C05, L2.C06, L2.C08, L2.C11, L2.C13, L11.C24, L20.C03]
+renvois: [L20.C22, L1.C07, L1.C22, L2.C02, L2.C05, L2.C06, L2.C08, L2.C11, L2.C13, L11.C24, L20.C03]
 ---
 
 # Du contrôle quantitatif au contrôle qualitatif
@@ -82,7 +85,7 @@ renvois: [L1.C07, L1.C22, L2.C02, L2.C05, L2.C06, L2.C08, L2.C11, L2.C13, L11.C2
 
 ::hypothese:: **C'est la stratégie d'extension, employée par le Cahier lui-même, dans le même document que l'énoncé d'exclusion mutuelle.** L2.C04 avait relevé la contradiction entre l'épisode 1 et l'épisode 12 ; **la voici une seconde fois, entre l'épisode 1 et l'épisode 3.** Le Cahier argumente en pratique comme le corpus lui recommande d'argumenter, **et se présente en théorie comme faisant l'inverse.**
 
-::hypothese:: **Le corpus enregistre que c'est l'argument le plus efficace juridiquement, et L20 en donne la raison.** L20.C03 a établi que le seul verrou est la hiérarchie des objectifs ; **un argument qui déduit l'action de l'objectif principal lui-même n'a pas à franchir ce verrou** — il passe dessous. Aglietta le formule pareillement en 2016 : incorporer un signal climatique est requis « **as part of their financial stability mandate** ».
+::hypothese:: **Le corpus enregistre que c'est l'argument le plus efficace juridiquement, et L20 en donne la raison.** L20.C22 § 1 tient, en hypothèse, que le seul verrou est la hiérarchie des objectifs que L20.C03 § 6 écrit (ce paragraphe écrivait que L20.C03 l'avait établi) ; **un argument qui déduit l'action de l'objectif principal lui-même n'a pas à franchir ce verrou** — il passe dessous. Aglietta le formule pareillement en 2016 : incorporer un signal climatique est requis « **as part of their financial stability mandate** ».
 
 ## 4. La difficulté que le déplacement ne résout pas
 
