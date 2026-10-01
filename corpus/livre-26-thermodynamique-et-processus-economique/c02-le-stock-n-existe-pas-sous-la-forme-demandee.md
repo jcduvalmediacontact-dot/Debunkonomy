@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -17,6 +17,9 @@ sources_primaires:
     url: "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L26.C01 était dit avoir établi que la ressource limitante est l'exergie ; L26.C01, repris le 1er octobre, tient que la réfutation déplace la contrainte, et enregistre la thèse de l'exergie sans l'adopter.
+  # Statut inchangé.
   - "**AUCUN STOCK EN SERVICE N'EST CHIFFRÉ, ET C'EST DÉSORMAIS LE STOCK QUI
      COMPTE.** La source nomme les stocks en usage et les gisements de rebut
      comme sources d'approvisionnement futures, **et ne les quantifie pas** :
@@ -95,7 +98,7 @@ renvois: [L1.C15, L11.C13, L11.C24, L18.C04, L22.C04, L24.C03, L24.C05, L26.C01,
 
 ::etat:: **La contrainte physique reste donc une contrainte de DÉBIT, et le Livre 26 ne peut pas la convertir en contrainte d'épuisement.** **Le corpus doit l'écrire ainsi et cesser de renvoyer la question**, parce que la renvoyer supposerait qu'une acquisition suffirait à la résoudre.
 
-::hypothese:: **Et cela conforte, par une voie inattendue, ce que L26.C01 a établi la veille.** **Si la rareté qui mord n'est pas celle du sol, c'est que la ressource limitante est ailleurs** — et la source ouverte hier désignait l'exergie. **Deux ouvertures indépendantes, l'une théorique et l'autre statistique, convergent vers le même déplacement.**
+::hypothese:: **Et cela s'accorde, par une voie inattendue, avec ce que L26.C01 tient : la réfutation qu'il ouvre déplace la contrainte physique au lieu de la supprimer.** **Si la rareté qui mord n'est pas celle du sol, la ressource limitante est ailleurs** — et la réfutation ouverte en L26.C01 désigne l'exergie, thèse que L26.C01 enregistre sans l'adopter. Ce paragraphe écrivait que L26.C01 l'avait établi, sans dire que le corpus n'adopte pas cette thèse. **Deux ouvertures indépendantes, l'une théorique et l'autre statistique, convergent vers le même déplacement.**
 
 ## 5. Deux conséquences pour le dispositif, et la seconde est un piège
 
