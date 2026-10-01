@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L11.C24, sur le barème aux frontières ; L11.C25, sur le contrôle ; L11.C21, sur la perception ; L7.C17, sur le club et son seuil ; L1.C27 § 4, sur l'équivalence stricte"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L20.C03 était dit avoir montré que le principe d'allocation efficiente ne voit pas le plafond ; L20.C03 § 3 le tient en hypothèse, et § 6 le rapporte de L8.C12.
+  # Statut inchangé.
   - "LE MÉCANISME N'EST PAS ENCORE PLEINEMENT EN APPLICATION à la date de ce
      chapitre : sa phase définitive commence après une période transitoire
      déclarative. **Le corpus instruit donc un régime dont les effets réels
@@ -43,7 +46,7 @@ verifications_en_attente:
      ce qui intéresse le plus L11.C24."
 resume: "Ce chapitre instruit le seul ajustement aux frontières fondé sur le carbone qui existe en droit positif, et il constate que le corpus a construit le même objet sans le connaître. Il établit d'abord que le règlement européen affirme sa compatibilité avec le droit commercial dans un considérant, exactement comme le premier livre du corpus affirme la sienne dans un paragraphe, et qu'aucune des deux affirmations n'est démontrée. Il relève ensuite les deux principes que le règlement se donne et qui sont ceux du corpus, l'équivalence des coûts et l'interdiction de tout traitement plus favorable aux produits nationaux. Il verse surtout le mécanisme que le corpus n'avait pas et dont son barème aux frontières a besoin, celui de la déduction du prix du carbone effectivement payé à l'origine, avec ses trois conditions, le paiement effectif, la prise en compte de tout rabais ou compensation reçu par ailleurs, et la certification par une personne indépendante à la fois du déclarant et des autorités du pays d'origine. Il montre que cette troisième condition répond à une difficulté que le chapitre du corpus sur le contrôle avait laissée ouverte, celle de la fiabilité d'une attestation délivrée dans un pays qui a intérêt à ce que le chiffre soit favorable. Il relève enfin que le règlement renonce délibérément à plafonner et à rendre échangeables ses certificats, pour une raison que le corpus doit entendre, à savoir qu'un marché de certificats produirait des prix différents selon les pays."
 concepts: [bareme, seuil_d_activation, externalisation, additionnalite, contrepartie_comptable]
-renvois: [L1.C27, L7.C17, L11.C21, L11.C24, L11.C25, L20.C01, L20.C18, L20.C19, L20.C22]
+renvois: [L20.C03, L8.C12, L1.C27, L7.C17, L11.C21, L11.C24, L11.C25, L20.C01, L20.C18, L20.C19, L20.C22]
 ---
 
 # L'ajustement aux frontières comme précédent
@@ -86,7 +89,7 @@ renvois: [L1.C27, L7.C17, L11.C21, L11.C24, L11.C25, L20.C01, L20.C18, L20.C19, 
 
 ::hypothese:: **C'est un choix de conception que le corpus doit entendre, parce qu'il va contre l'intuition économique la plus répandue.** Un marché de certificats est réputé produire l'allocation efficiente ; **le règlement y renonce pour préserver l'uniformité du prix entre pays**, c'est-à-dire pour ne pas discriminer.
 
-::hypothese:: **Le corpus rapproche ce raisonnement de ce qu'il a établi ailleurs.** L11 a construit des barèmes plutôt qu'un marché, et L20.C03 a montré que le principe d'allocation efficiente ne voit pas le plafond. **Le règlement fournit un troisième motif, purement juridique : un marché produit des prix différents selon les pays, et une différence de prix selon le pays est un risque de discrimination.** C'est le seul argument non économique en faveur d'un barème que le corpus ait rencontré.
+::hypothese:: **Le corpus rapproche ce raisonnement de ce qu'il a établi ailleurs.** L11 a construit des barèmes plutôt qu'un marché, et L20.C03 § 3 tient, en hypothèse, que le principe d'allocation efficiente porte le critère que le corpus conteste, sans plafond physique ; L20.C03 § 6 rapporte de L8.C12 que la tradition dont il procède exclut le plafond. Ce paragraphe écrivait « a montré ». **Le règlement fournit un troisième motif, purement juridique : un marché produit des prix différents selon les pays, et une différence de prix selon le pays est un risque de discrimination.** C'est le seul argument non économique en faveur d'un barème que le corpus ait rencontré.
 
 ## 5. Le club, et sa condition d'entrée
 
