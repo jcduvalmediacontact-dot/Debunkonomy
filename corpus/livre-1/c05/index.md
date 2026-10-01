@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-22
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -51,6 +51,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : deux renvois. Au § 4, la non-neutralité n'est pas énoncée en L1.C03, qui renvoie le mécanisme à L1.C05 ; elle est posée en L1.C01 § 2. Au § 6, L1.C06 § 4 tient une place réduite, non une absence, et ne la tient pas pour établie.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
@@ -154,7 +157,7 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::hypothese:: Si la monnaie est un registre tenu par convention, alors les règles qui déterminent qui peut y inscrire une créance, et à quelles conditions, ne relèvent pas d'une contrainte naturelle. Elles résultent de dispositions institutionnelles, donc modifiables — au prix, comme toute institution, d'un coût de transition et d'un problème d'acceptation.
 
-::hypothese:: Il en découle que la monnaie n'est pas neutre au sens qui importe ici : les conditions auxquelles elle est émise déterminent quelles activités trouvent un financement. Cette proposition, énoncée aux chapitres précédents (L1.C02, L1.C03), ne porte pas sur la neutralité de long terme au sens de la littérature monétaire — question distincte — mais sur l'orientation sectorielle du crédit.
+::hypothese:: Il en découle que la monnaie n'est pas neutre au sens qui importe ici : les conditions auxquelles elle est émise déterminent quelles activités trouvent un financement. Cette proposition, posée en L1.C01 § 2 et dont L1.C02 annonce l'épreuve, ne porte pas sur la neutralité de long terme au sens de la littérature monétaire — question distincte — mais sur l'orientation sectorielle du crédit.
 
 ::etat:: Des dispositifs fonctionnant sous d'autres conventions existent et ont été documentés aux § 1 et § 2 de L1.C10, où les pièces qui les portent sont toutes ouvertes : monnaie fondante de Wörgl au début des années 1930, banque WIR en Suisse depuis 1934, monnaies locales complémentaires contemporaines. Leur portée doit être évaluée avec prudence : leur échelle est sans commune mesure avec celle d'un système monétaire national, et l'évaluation de leurs effets fait l'objet de travaux qu'il faut consulter avant d'en tirer argument.
 
@@ -180,4 +183,4 @@ La définition usuelle attribue à la monnaie trois fonctions. Unité de compte 
 
 ::norme:: Ce qui s'en déduit tient en une question : non pas seulement combien de monnaie doit être émise, mais selon quelle règle, pour quelles activités qualifiées, et sous quelles contraintes elle peut l'être.
 
-Le chapitre suivant (L1.C06) examine pourquoi cette question est restée en dehors du champ de l'analyse écologique.
+Le chapitre suivant (L1.C06) examine la place réduite que cette question occupe dans la littérature écologiste, et ne la tient pas pour établie.

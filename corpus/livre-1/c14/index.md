@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-22
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -72,6 +72,12 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : deux renvois. Au § 4, L1.C17 n'expose ni les institutions ni les mécanismes d'une refonte ; il pose la question du critère de création. Au § 5, L1.C02 ne traite pas du produit intérieur brut comme mesure du succès ; L1.C28 § 1 le fait.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 1, la contrainte reprise tient au résultat de L1.C08 § 2 et à la condition d'accumulation de son § 3 ; l'ancre devient §§ 2 et 3.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # ── CRITIQUES RÉSOLUES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ──────────
   # Ces deux lignes portent leur propre résolution dans leur texte. Elles sont conservées
   # mot pour mot et cessent de compter comme vérification en attente.
@@ -191,7 +197,7 @@ Ce chapitre ne démontre pas un mécanisme nouveau ; il donne une figure à ceux
 
 La transposition économique ajoute une différence décisive. Dans le mythe, la peine vient des dieux ; elle est extérieure et sans recours. Dans le régime actuel, elle vient de la composition de règles humaines ; personne ne l'a décrétée, et elle peut en principe être défaite.
 
-::etat:: Il faut ici reprendre exactement la contrainte établie en L1.C08 § 2, et non sa version courante. Il est faux qu'une économie endettée soit arithmétiquement condamnée à emprunter toujours davantage au motif que « les intérêts n'auraient pas été créés » : si les revenus d'intérêts perçus par les créanciers sont intégralement redépensés — salaires, charges, dividendes consommés —, une économie stationnaire portant une dette à intérêt est possible sans défaut ni croissance, comme le montrent les modèles à cohérence stock-flux de Jackson et Victor [S8]. La contrainte est conditionnelle : elle apparaît lorsque l'encours de dette croît et lorsque les créanciers accumulent au lieu de dépenser. Sous ces conditions — **que ce chapitre ne démontre pas être celles des économies observées** —, le service de la dette exige des revenus croissants, donc une activité croissante.
+::etat:: Il faut ici reprendre exactement la contrainte établie en L1.C08 § 2 et L1.C08 § 3, et non sa version courante. Il est faux qu'une économie endettée soit arithmétiquement condamnée à emprunter toujours davantage au motif que « les intérêts n'auraient pas été créés » : si les revenus d'intérêts perçus par les créanciers sont intégralement redépensés — salaires, charges, dividendes consommés —, une économie stationnaire portant une dette à intérêt est possible sans défaut ni croissance, comme le montrent les modèles à cohérence stock-flux de Jackson et Victor [S8]. La contrainte est conditionnelle : elle apparaît lorsque l'encours de dette croît et lorsque les créanciers accumulent au lieu de dépenser. Sous ces conditions — **que ce chapitre ne démontre pas être celles des économies observées** —, le service de la dette exige des revenus croissants, donc une activité croissante.
 
 ::hypothese:: C'est là que la structure du mythe apparaît. Non parce qu'un emprunt appellerait mécaniquement un emprunt plus grand, mais parce que, dans un régime où l'encours croît et où les rentes s'accumulent, chaque cycle de remboursement laisse le système au même point : une dette à servir, une activité à accroître, une pierre remontée qui redescend. Le livre le formule ainsi : « chaque effort pour rembourser ne fait que préparer la prochaine chute » [S2].
 
@@ -219,7 +225,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 ::etat:: L'essentiel de ces blocages est documenté par l'économie politique et ne requiert aucune hypothèse monétaire : à l'échelle internationale, chaque État a intérêt à ce que les autres agissent — le problème du passager clandestin, que Nordhaus place au cœur de l'échec des accords climatiques [S11]. S'y ajoute, **sans appui ouvert dans ce chapitre**, l'asymétrie temporelle des politiques climatiques : bénéfices diffus et différés, coûts concentrés et immédiats, ce qui défavoriserait les mandats courts. Ces mécanismes suffisent à expliquer une grande part de l'inaction.
 
-::hypothese:: Ce que le régime monétaire ajoute est une contrainte de plus, et elle est spécifique : le service de la dette publique, dans les conditions établies en L1.C13, impose de préserver la base d'activité qui produit les recettes et de ménager les marchés qui refinancent l'encours. C'est cette contrainte-là — non l'arbitrage électoral, non le passager clandestin — que le corpus met en cause, et elle est la seule des trois qu'une refonte du régime d'émission pourrait lever — **énoncé que ce chapitre ne démontre pas et qu'il emprunte** à L1.C13, qui établit le nœud entre dette financière et dette écologique, et à L1.C17, qui expose ce qu'une refonte de l'émission changerait. Multipliée par tous ceux qui, depuis quarante ans, ont eu la transition en charge, elle contribue à une trajectoire où chaque plan a paru historique en son temps pendant que les émissions mondiales continuaient de croître — 57,7 milliards de tonnes d'équivalent CO2 en 2024, en hausse de 2,3 % [S7].
+::hypothese:: Ce que le régime monétaire ajoute est une contrainte de plus, et elle est spécifique : le service de la dette publique, dans les conditions établies en L1.C13, impose de préserver la base d'activité qui produit les recettes et de ménager les marchés qui refinancent l'encours. C'est cette contrainte-là — non l'arbitrage électoral, non le passager clandestin — que le corpus met en cause, et elle est la seule des trois qu'une refonte du régime d'émission pourrait lever — **énoncé que ce chapitre ne démontre pas et qu'il emprunte** à L1.C13, qui établit le nœud entre dette financière et dette écologique, et à L1.C17, qui pose la question du critère de création et énumère les problèmes dont dépend qu'une refonte tienne. Multipliée par tous ceux qui, depuis quarante ans, ont eu la transition en charge, elle contribue à une trajectoire où chaque plan a paru historique en son temps pendant que les émissions mondiales continuaient de croître — 57,7 milliards de tonnes d'équivalent CO2 en 2024, en hausse de 2,3 % [S7].
 
 ## 5. Trois traits de la figure
 
@@ -231,7 +237,7 @@ Trois idéaux-types en donnent la forme vécue. Ils sont construits par accentua
 
 **La répétition sans terme.** Chaque cycle — année, mois, mandat — ramène au point de départ.
 
-::hypothese:: Cette lucidité n'est pas une démobilisation : l'entreprise tient, le salarié travaille, la ministre décide, et chaque cycle est mené avec compétence. Ce qui ne tourne pas, c'est la direction d'ensemble. Et pendant que les alertes s'accumulent, le produit intérieur brut reste la mesure du succès collectif (L1.C02) : les récompenses les plus hautes vont à ceux qui poussent le rocher le plus fort.
+::hypothese:: Cette lucidité n'est pas une démobilisation : l'entreprise tient, le salarié travaille, la ministre décide, et chaque cycle est mené avec compétence. Ce qui ne tourne pas, c'est la direction d'ensemble. Et pendant que les alertes s'accumulent, le produit intérieur brut reste la mesure du succès collectif (L1.C28 § 1) : les récompenses les plus hautes vont à ceux qui poussent le rocher le plus fort.
 
 ::hypothese:: La figure de Camus s'achève sur une invitation à imaginer Sisyphe heureux. Le Sisyphe économique ne peut pas s'en contenter, et c'est ce qui le distingue. Sa peine n'est pas métaphysique ; elle tient pour partie à des règles humaines — la solvabilité comme critère, la stabilité des prix comme mandat, l'équilibre budgétaire comme discipline (L1.C13 § 5). Cette part-là se comprend, se décompose, s'ouvre. Les autres — l'usure du capital, la saturation du revenu, le passager clandestin — demeureront sous n'importe quel régime, et une refonte monétaire ne les résoudra pas.
 

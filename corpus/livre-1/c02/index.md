@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-22
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -65,6 +65,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-21
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : au § 2, L1.C03 était dit examiner « cinquante ans de données » ; sa série la plus longue part de 1990.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
@@ -149,7 +152,7 @@ L'expansion des terres agricoles a été le moteur de près de 90 % de la défor
 
 ::etat:: Ce qui précède décrit une progression conjointe, non une causalité. Le mot de corrélation lui-même serait prématuré : plusieurs des séries invoquées ne sont pas encore rapportées à leur source, et une corrélation ne s'établit qu'entre séries dont la mesure, le périmètre et la période sont fixés. Deux lectures restent compatibles avec ces séries : la richesse financière serait produite au moyen de la dégradation, ou les deux grandeurs procéderaient d'une cause commune — par exemple la disponibilité d'énergie abondante et bon marché. Rien dans ce chapitre ne permet de trancher.
 
-::etat:: Deux épreuves fourniront les éléments principaux pour l'évaluer, sans nécessairement suffire à trancher : une causalité historique met en jeu plusieurs facteurs concurrents, et les départager demande davantage qu'un chapitre. La première est empirique : si le découplage entre production et empreinte physique était possible et observé, la progression conjointe serait contingente et non structurelle ; le chapitre suivant (L1.C03) examine ce que disent cinquante ans de données. **Cette épreuve a été conduite, et son résultat est partiel.** L1.C03 § 6 établit sur source ouverte l'absence de découplage absolu à l'échelle mondiale pour 2015-2023, et qu'une revue de 835 études donne des taux de découplage observés insuffisants pour atteindre les réductions requises ; il établit aussi, en sens inverse, des baisses absolues nationales sur 2005-2015, que leurs auteurs bornent eux-mêmes comme s'expliquant en partie par une croissance plus faible. **Le découplage relatif y est rapporté sans source établie.** La progression conjointe n'est donc pas montrée contingente ; elle n'est pas montrée structurelle non plus. La seconde est mécanique : établir un lien de production suppose d'exhiber le mécanisme par lequel les conditions d'émission de la monnaie orientent l'allocation du crédit ; c'est l'objet des chapitres à partir du cinquième (L1.C05, L1.C07). Tant que ces deux épreuves ne sont pas conduites, la proposition reste une hypothèse de travail.
+::etat:: Deux épreuves fourniront les éléments principaux pour l'évaluer, sans nécessairement suffire à trancher : une causalité historique met en jeu plusieurs facteurs concurrents, et les départager demande davantage qu'un chapitre. La première est empirique : si le découplage entre production et empreinte physique était possible et observé, la progression conjointe serait contingente et non structurelle ; le chapitre suivant (L1.C03) examine ce que disent les séries disponibles, dont la plus longue part de 1990. **Cette épreuve a été conduite, et son résultat est partiel.** L1.C03 § 6 établit sur source ouverte l'absence de découplage absolu à l'échelle mondiale pour 2015-2023, et qu'une revue de 835 études donne des taux de découplage observés insuffisants pour atteindre les réductions requises ; il établit aussi, en sens inverse, des baisses absolues nationales sur 2005-2015, que leurs auteurs bornent eux-mêmes comme s'expliquant en partie par une croissance plus faible. **Le découplage relatif y est rapporté sans source établie.** La progression conjointe n'est donc pas montrée contingente ; elle n'est pas montrée structurelle non plus. La seconde est mécanique : établir un lien de production suppose d'exhiber le mécanisme par lequel les conditions d'émission de la monnaie orientent l'allocation du crédit ; c'est l'objet des chapitres à partir du cinquième (L1.C05, L1.C07). Tant que ces deux épreuves ne sont pas conduites, la proposition reste une hypothèse de travail.
 
 ## 3. Ce que mesure la valeur créée
 

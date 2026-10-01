@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -79,6 +79,12 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : en tête, L1.C15 § 8 n'établit ni l'applicabilité actuelle de la catégorie, ni son ampleur ; la phrase passe au possible, et la suivante dit déjà la borne.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 7, l'organe de compensation non encore nommé est en L1.C29 § 5 ; l'ancre devient §§ 1 et 5.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # RECONTRÔLE DE CODEX SUR 72e96757, MÊME RAPPORT : R1 À R4 LEVÉES, R5 BLOQUANTE, CORRIGÉE
   # CE JOUR. Correction de portée, sans pièce nouvelle. Le chapeau, le résumé et le § 8
   # donnaient pour établi que le déplacement de la création vers les banques commerciales
@@ -210,7 +216,7 @@ renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C11, L1.C15, L1.C16, L26.C0
 
 ::etat:: **Une clé de lecture vaut pour tout ce qui suit, et L1.C31 l'énonce** : la création monétaire fournit du pouvoir d'achat ; elle ne produit par elle-même ni travail, ni énergie, ni matériaux, ni capacités productives. Une émission ne fabrique aucune ressource : elle donne à quelqu'un le moyen d'en acquérir, et ce quelqu'un les prend quelque part.
 
-::etat:: La première partie a établi un diagnostic, et il est borné à un canal : **le crédit bancaire est le seul canal qui crée la monnaie avec une dette nouvelle, et il la soumet à un test de remboursement** ; d'autres dépôts naissent de l'achat d'actifs, qui n'y passe pas (L1.C11 § 2) ; ce filtre prive d'accès propre à la monnaie ce qui entretient les conditions de la vie (L1.C15) ; et **les critères financiers étudiés n'exigent pas, comme finalité autonome, que l'activité résolve le problème qu'elle invoque** (L1.C16). La première partie a défini une **catégorie prospective** — l'essentiel insolvable — et sa méthode d'épreuve ; **elle n'en a mesuré ni l'ampleur ni l'abandon.**
+::etat:: La première partie a établi un diagnostic, et il est borné à un canal : **le crédit bancaire est le seul canal qui crée la monnaie avec une dette nouvelle, et il la soumet à un test de remboursement** ; d'autres dépôts naissent de l'achat d'actifs, qui n'y passe pas (L1.C11 § 2) ; ce filtre peut priver d'accès propre à la monnaie ce qui entretient les conditions de la vie (L1.C15) ; et **les critères financiers étudiés n'exigent pas, comme finalité autonome, que l'activité résolve le problème qu'elle invoque** (L1.C16). La première partie a défini une **catégorie prospective** — l'essentiel insolvable — et sa méthode d'épreuve ; **elle n'en a mesuré ni l'ampleur ni l'abandon.**
 
 ::etat:: La proposition porte un nom [S1], et ce nom couvre **trois composantes de maturité inégale** : l'émission régénérative, l'unité de réserve entre banques centrales, et la compensation symétrique entre membres d'une coalition. Ce chapitre n'expose ni les institutions ni les mécanismes ; il pose la question du critère de création et énumère les problèmes dont dépend qu'elle tienne — **des problèmes qui peuvent conclure contre elle.**
 
@@ -296,7 +302,7 @@ renvois: [L1.C03, L1.C04, L1.C07, L1.C08, L1.C10, L1.C11, L1.C15, L1.C16, L26.C0
 
 ::hypothese:: **Le calibrage.** À quel rythme émettre, selon quelle règle, et comment retirer ? **C'est la condition d'échec explicite de tout le reste**, et elle n'est pas levée : la règle liant les indicateurs aux décisions n'est pas écrite, et le sort de ce que le reflux retient dépend d'une formule d'affectation qui ne l'est pas non plus.
 
-::hypothese:: **L'ancrage.** Selon Knapp, tel que le rapporte Ingham, c'est en déclarant ce qu'il accepte en règlement des dettes fiscales que l'État crée la monnaie ; son acceptation est décisive, non le fait qu'il soit le seul à émettre [S19]. Cette acceptation fonde la validité d'une monnaie, non son pouvoir d'achat, que la pièce tient pour une question distincte. **Depuis le 2026-09-21, le porteur de l'émission est arrêté, par une décision de conception de l'auteur qu'aucune source n'établit ni n'interdit** : les banques centrales participantes émettent et perçoivent le reflux ; le GAÏA Economic Symposium qualifie et ne porte pas de bilan d'émission ; la compensation internationale relève d'un organe distinct, qui n'est pas encore nommé (L1.C29 § 1). Il n'y a donc pas d'émetteur supranational dont l'unité aurait à se faire accepter : le bénéficiaire est payé en monnaie nationale, et l'objection de l'acceptation se déplace vers ce que les banques centrales participantes reconnaissent entre elles. **Elle n'est pas levée par ce choix, et la décision ne règle pas le reste** : l'écriture initiale de la banque centrale qui émet attend la revue d'un comptable national, la forme de l'unité reste un paramètre, et l'organe de compensation n'est pas conçu.
+::hypothese:: **L'ancrage.** Selon Knapp, tel que le rapporte Ingham, c'est en déclarant ce qu'il accepte en règlement des dettes fiscales que l'État crée la monnaie ; son acceptation est décisive, non le fait qu'il soit le seul à émettre [S19]. Cette acceptation fonde la validité d'une monnaie, non son pouvoir d'achat, que la pièce tient pour une question distincte. **Depuis le 2026-09-21, le porteur de l'émission est arrêté, par une décision de conception de l'auteur qu'aucune source n'établit ni n'interdit** : les banques centrales participantes émettent et perçoivent le reflux ; le GAÏA Economic Symposium qualifie et ne porte pas de bilan d'émission ; la compensation internationale relève d'un organe distinct, qui n'est pas encore nommé (L1.C29 § 1 et L1.C29 § 5). Il n'y a donc pas d'émetteur supranational dont l'unité aurait à se faire accepter : le bénéficiaire est payé en monnaie nationale, et l'objection de l'acceptation se déplace vers ce que les banques centrales participantes reconnaissent entre elles. **Elle n'est pas levée par ce choix, et la décision ne règle pas le reste** : l'écriture initiale de la banque centrale qui émet attend la revue d'un comptable national, la forme de l'unité reste un paramètre, et l'organe de compensation n'est pas conçu.
 
 ::hypothese:: **L'aléa moral et l'éviction.** Une émission gratuite peut conduire les États et les acteurs privés à retirer les financements qu'ils consacraient déjà à ces activités. **La face préventive est orientée** — un régime limitant les financements incompatibles est retenu dans son principe — **et la face budgétaire n'a aucun dispositif** : aucune clause d'effort maintenu n'est écrite.
 
