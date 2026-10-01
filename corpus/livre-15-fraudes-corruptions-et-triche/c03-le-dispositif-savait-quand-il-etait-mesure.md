@@ -38,6 +38,9 @@ verifications_en_attente: []
   # traite l'incitation ; les capitales d'insistance sont ramenées au gras et les citations
   # rendues sans mise en forme.
   # RENVOIS : L15.C04 entre dans la liste ; les autres y restent.
+  # COMPLÉMENT DU 2026-10-01, APRÈS 90ee8c04 — sans pièce nouvelle. Le § 6 résumait L15.C01 par
+  # « une fausse qualification sans tricheur » ; la passe de L15.C01 (586b90fe) a lu que sa pièce
+  # nomme le jeu opportuniste parmi quatre causes. Le résumé de L15.C01 est corrigé ici.
   # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. La pièce rapporte la séquence de la découverte en un paragraphe (folio 2), que le § 4 reprend ; l'étude de détection, Thompson et al., 2014, citée en bibliographie (folio 10), n'est pas ouverte, et le § 7 l'écrit.
   # Texte d'origine :
   #   - "**LE CORPUS N'A PAS OUVERT LA DÉCOUVERTE, IL EN A OUVERT LA CONSÉQUENCE.**
@@ -133,7 +136,7 @@ renvois: [L1.C18, L11.C13, L11.C30, L15.C01, L15.C02, L15.C04, L18.C15, L26.C12]
 
 ## 6. Ce que le livre tient maintenant, et ce qui manque encore
 
-::etat:: **Trois architectures, et elles n'ont rien en commun.** L15.C01, en brouillon : la ligne de base — une fausse qualification **sans tricheur**. L15.C02, en brouillon : la fiscalité du transfert — des tricheurs qui **ne touchent pas à l'objet protégé**. L15.C03 : la mesure — **l'objet mesuré se comporte autrement pendant la mesure**, et le dossier de certification décrit un objet qui n'est pas celui qui fonctionne.
+::etat:: **Trois architectures, et elles n'ont rien en commun.** L15.C01, en brouillon : la ligne de base — une fausse qualification qui **peut se produire sans tricheur**, la pièce de ce chapitre-là nommant aussi le jeu opportuniste parmi ses quatre causes. L15.C02, en brouillon : la fiscalité du transfert — des tricheurs qui **ne touchent pas à l'objet protégé**. L15.C03 : la mesure — **l'objet mesuré se comporte autrement pendant la mesure**, et le dossier de certification décrit un objet qui n'est pas celui qui fonctionne.
 
 ::hypothese:: **Le modèle d'adversaire que L15.C01 réclamait commence donc à prendre forme, et il a une propriété que le corpus n'attendait pas : dans aucun des trois cas l'adversaire n'attaque la grandeur écologique elle-même.** Il attaque **le cadre qui la compare**, **la fiscalité qui la transfère**, ou **le moment où on la regarde**. **Le corpus protégeait la mesure ; les trois fraudes documentées passent à côté d'elle.**
 
