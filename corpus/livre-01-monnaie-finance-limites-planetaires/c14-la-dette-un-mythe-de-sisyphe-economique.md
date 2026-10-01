@@ -72,6 +72,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-15
 verifications_en_attente:
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 1, la contrainte reprise tient au résultat de L1.C08 § 2 et à la condition d'accumulation de son § 3 ; l'ancre devient §§ 2 et 3.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # ── CRITIQUES RÉSOLUES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ──────────
   # Ces deux lignes portent leur propre résolution dans leur texte. Elles sont conservées
   # mot pour mot et cessent de compter comme vérification en attente.
@@ -191,7 +194,7 @@ Ce chapitre ne démontre pas un mécanisme nouveau ; il donne une figure à ceux
 
 La transposition économique ajoute une différence décisive. Dans le mythe, la peine vient des dieux ; elle est extérieure et sans recours. Dans le régime actuel, elle vient de la composition de règles humaines ; personne ne l'a décrétée, et elle peut en principe être défaite.
 
-::etat:: Il faut ici reprendre exactement la contrainte établie en L1.C08 § 2, et non sa version courante. Il est faux qu'une économie endettée soit arithmétiquement condamnée à emprunter toujours davantage au motif que « les intérêts n'auraient pas été créés » : si les revenus d'intérêts perçus par les créanciers sont intégralement redépensés — salaires, charges, dividendes consommés —, une économie stationnaire portant une dette à intérêt est possible sans défaut ni croissance, comme le montrent les modèles à cohérence stock-flux de Jackson et Victor [S8]. La contrainte est conditionnelle : elle apparaît lorsque l'encours de dette croît et lorsque les créanciers accumulent au lieu de dépenser. Sous ces conditions — **que ce chapitre ne démontre pas être celles des économies observées** —, le service de la dette exige des revenus croissants, donc une activité croissante.
+::etat:: Il faut ici reprendre exactement la contrainte établie en L1.C08 § 2 et L1.C08 § 3, et non sa version courante. Il est faux qu'une économie endettée soit arithmétiquement condamnée à emprunter toujours davantage au motif que « les intérêts n'auraient pas été créés » : si les revenus d'intérêts perçus par les créanciers sont intégralement redépensés — salaires, charges, dividendes consommés —, une économie stationnaire portant une dette à intérêt est possible sans défaut ni croissance, comme le montrent les modèles à cohérence stock-flux de Jackson et Victor [S8]. La contrainte est conditionnelle : elle apparaît lorsque l'encours de dette croît et lorsque les créanciers accumulent au lieu de dépenser. Sous ces conditions — **que ce chapitre ne démontre pas être celles des économies observées** —, le service de la dette exige des revenus croissants, donc une activité croissante.
 
 ::hypothese:: C'est là que la structure du mythe apparaît. Non parce qu'un emprunt appellerait mécaniquement un emprunt plus grand, mais parce que, dans un régime où l'encours croît et où les rentes s'accumulent, chaque cycle de remboursement laisse le système au même point : une dette à servir, une activité à accroître, une pierre remontée qui redescend. Le livre le formule ainsi : « chaque effort pour rembourser ne fait que préparer la prochaine chute » [S2].
 
