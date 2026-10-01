@@ -25,6 +25,9 @@ sources_primaires:
     etat_lecture: a_requalifier
 verifications_en_attente:
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 6, L11.C16 était dit établir que la valorisation n'a même pas de valeur par défaut défendable ; L11.C16 § 7 tient en hypothèse que la question, sous la chaîne arrêtée, devient celle du coût admis, sans réponse. Au § 8, L11.C17 § 7 était dit avoir recensé deux contradictions non résolues et établi leur structure ; il en recense davantage et tient cette structure en hypothèse.
+  # Statut inchangé.
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : L11.C16 § 6 était dit poser qu'une fonction mauvaise sur la valorisation prive un membre de sa capacité d'importer, et § 4 avoir établi que l'enveloppe est plafonnée ; L11.C16, repris le 30 septembre, tient en hypothèse l'asymétrie sur la grille de priorité, retire la capacité d'importer, et tient le partage pour conditionnel.
   # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
@@ -141,7 +144,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 
 > **La fréquence d'amendement admissible est inverse de l'irréversibilité de ce que le barème commande ; et ce qu'on retire en fréquence doit être rendu en conditionnalité.**
 
-::hypothese:: **Elle a une conséquence de calibrage que le corpus n'attendait pas.** Le barème le plus lourd — la valorisation — devrait être **celui dont la fonction est la plus riche**, alors que c'est celui dont le corpus sait le moins et dont L11.C16 établit qu'il n'a même pas de valeur par défaut défendable. **L'exigence est maximale là où la matière est minimale**, et c'est un ordre de difficulté, non une impossibilité.
+::hypothese:: **Elle a une conséquence de calibrage que le corpus n'attendait pas.** Le barème le plus lourd — la valorisation — devrait être **celui dont la fonction est la plus riche**, alors que c'est celui dont le corpus sait le moins, et dont la valeur par défaut, devenue sous la chaîne arrêtée un coût admis faute de coût réel établi, n'a pas de réponse (L11.C16 § 7, en hypothèse) ; ce paragraphe écrivait que L11.C16 établit qu'il n'a même pas de valeur par défaut défendable. **L'exigence est maximale là où la matière est minimale**, et c'est un ordre de difficulté, non une impossibilité.
 
 ## 7. Amender une valorisation et juger un recours sur une valorisation sont le même objet
 
@@ -153,7 +156,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 
 ## 8. Quatrième occurrence du même conflit, et le corpus cesse de le traiter comme un accident
 
-::etat:: L11.C17 § 7 a recensé **deux contradictions non résolues** entre des exigences que le corpus tient toutes pour fondées, et a établi qu'elles ont la même structure : *ce qui rend le barème efficace détruit ce qui le rend légitime*. L11.C18 § 7 en a versé une **troisième**.
+::etat:: L11.C17 § 7 recense les contradictions entre des exigences que le corpus tient toutes pour fondées, dont plusieurs restent **non résolues**, et tient en hypothèse que les deux premières ont la même structure : *une propriété qui rend le barème efficace détruit une propriété qui le rend légitime*. L11.C18 § 7 en a versé un autre cas. Ce paragraphe écrivait « deux contradictions non résolues » et « a établi ».
 
 ::hypothese:: **En voici une quatrième, et elle porte sur la clause d'expiration.** Une directive sans terme **se pérennise par inertie** : ne rien faire suffit à la maintenir, et l'amendement devient un acte coûteux que personne n'entreprend — c'est le mécanisme de report que L11.C15 § 6 a rencontré sur les parités. **Une directive à terme fixe** force l'amendement à être une décision active, **et détruit la crédibilité** : chacun sait qu'elle expire, donc anticipe sa renégociation, et L11.C10 a établi ce que devient une règle qu'on anticipe.
 
