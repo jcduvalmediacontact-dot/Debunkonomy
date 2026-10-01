@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "Le corpus lui-même — L2.C07, qui verse le rejet, par le rapport du Conseil d'analyse économique de 2011, de la SOLUTION DE COIN où « la politique monétaire, la politique prudentielle et, même [...] la politique budgétaire sont coordonnées », rejet motivé non par l'inefficacité — concédée — mais par l'incompatibilité « AVEC LE TRIPTYQUE INDÉPENDANCE-TRANSPARENCE-RESPONSABILITÉ » ; et L7.C04, qui établit le conflit d'intérêts structurel du symposium"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 5, L11.C16 était dit avoir établi que le niveau de valorisation est un partage borné par le produit, donc non délégable ; L11.C16 § 2, repris le 30 septembre, confie le niveau au Conseil et la structure à l'Assemblée, le partage est conditionnel (§ 4), et la décision de l'auteur (L1.C18 § 3) confie la grille à l'Assemblée. L1.C18 entre aux renvois.
+  # Statut inchangé.
   - "LES CINQ COLLÈGES NE SONT PAS TOUS DÉPOUILLÉS. Le corpus a lu le
      scientifique et l'économique ; **les trois autres ne sont lus que par
      leur annonce.** L7.C05 travaillait sur QUATRE CHAMBRES — l'écart entre
@@ -38,7 +41,7 @@ verifications_en_attente:
      matériau que l'institution devrait convertir en barème.**"
 resume: "Ce chapitre traite le neuvième déplacement, qui institue le symposium comme superviseur des communs et simultanément comme émetteur international, et il établit que ces deux fonctions ont des sorts très différents dans le droit et dans la doctrine. La première est disponible : le Livre 20 a versé un régime en vigueur depuis 1982 où une institution gardienne d'un commun a la personnalité juridique internationale, des immunités énumérées, et un mandat défini par le compte pour lequel elle agit plutôt que par ses opérations, avec une distinction faite en une phrase entre la ressource inaliénable et son produit aliénable sous règles. Le modèle existe donc, il est éprouvé, et le dispositif peut le revendiquer. La seconde fonction n'a aucun précédent : cette institution gardienne n'émet pas de monnaie, et aucun des textes doctrinaux ouverts ne propose qu'un superviseur émette. Le chapitre établit ensuite que la réunion des deux fonctions dans un seul organe est précisément ce que le rapport du Conseil d'analyse économique rejette sous le nom de solution de coin, pour un motif qui n'est pas l'inefficacité mais l'incompatibilité avec le triptyque indépendance, transparence, responsabilité. Il relève enfin que la technique des pouvoirs non délégables, versée par le Livre 20, fournit la réponse la plus économique à la difficulté que le Livre 7 traitait en créant des chambres."
 concepts: [communs, valorisation_des_communs, polycentricite, creation_monetaire, robustesse, bareme]
-renvois: [L1.C17, L1.C22, L2.C07, L2.C11, L2.C13, L2.C16, L2.C18, L7.C04, L7.C05, L11.C16, L20.C12, L20.C16]
+renvois: [L1.C17, L1.C18, L1.C22, L2.C07, L2.C11, L2.C13, L2.C16, L2.C18, L7.C04, L7.C05, L11.C16, L20.C12, L20.C16]
 ---
 
 # De la surveillance bancaire à la gouvernance des communs
@@ -81,7 +84,7 @@ renvois: [L1.C17, L1.C22, L2.C07, L2.C11, L2.C13, L2.C16, L2.C18, L7.C04, L7.C05
 
 ::etat:: **L20.C12 a versé la technique des pouvoirs non délégables** [S2] : tous les pouvoirs au plénier, la délégation est la règle, **huit pouvoirs y échappent** — dont **« determine the distribution of the net income »**, c'est-à-dire le partage.
 
-::hypothese:: **C'est la réponse la plus économique à la difficulté que L7.C05 traitait par des chambres.** Elle ne dit pas **qui** décide, elle dit **à quel niveau** on décide — et **elle rend visible par construction ce qu'une architecture par organes laisse disparaître.** L11.C16 a établi que le niveau de valorisation des communs est un partage borné par le produit : **sous cette technique, il est donc non délégable, et la question de savoir quel collège s'en charge cesse de se poser.**
+::hypothese:: **C'est la réponse la plus économique à la difficulté que L7.C05 traitait par des chambres.** Elle ne dit pas **qui** décide, elle dit **à quel niveau** on décide — et **elle rend visible par construction ce qu'une architecture par organes laisse disparaître.** Ce paragraphe écrivait que L11.C16 avait établi que le niveau de valorisation est un partage borné par le produit, donc non délégable sous cette technique, et que la question du collège cessait de se poser. **L11.C16 § 2 ne le tient plus** : le livre confie le niveau au Conseil Monétaire Mondial, qui le calcule par une formule, et la structure à l'Assemblée des Communs ; le partage est conditionnel (L11.C16 § 4), et la décision de l'auteur que L1.C18 § 3, vérifié, rapporte confie la grille de priorité à l'Assemblée. **La question du collège ne cesse donc pas de se poser : l'auteur l'a tranchée.**
 
 ::etat:: **Le corpus relève enfin un écart de composition qu'il n'a pas instruit.** L7.C05 travaille sur **quatre chambres** ; l'épisode 10 décrit **cinq collèges.** **Deux textes du dossier décrivent la même institution avec un nombre d'organes différent**, et le corpus n'a lu que deux des cinq collèges.
 
