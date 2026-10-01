@@ -31,6 +31,9 @@ sources_primaires:
   # 30 septembre, rapporte la distinction du passif et de l'actif comme une distinction de fonction, tient les deux
   # appuis pour rapportés par la note, et retire l'« absence totale » comme appui fort. Le § 4 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 2 et § 5, L2.C06 était dit avoir établi que la note de 2022 pose la même chose que le Cahier « sous le nom de rapport au marché défaillant » ; L2.C06 § 4, repassé le 30 septembre, rapporte la formule du marché défaillant et tient en hypothèse une prémisse voisine, non l'argument de non-neutralité du Cahier.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 4, L2.C06 était dit avoir établi sur la note de 2022 que les règles prudentielles agissent sur le passif, avec deux étais ; L2.C06 § 2, repassé le 30 septembre, rapporte cette distinction comme une distinction de fonction, tient les deux appuis pour rapportés par la note, relève que la note attribue aux pondérations un effet sur l'actif, et retire le jugement du bon objectif et du mauvais instrument. La conclusion du § 4 (« aucun n'établit que l'instrument prudentiel PEUT orienter », « L2.C06 fournit l'instrument ») et ses reprises au § 5 et au résumé suivent ; la remarque sur le canal prudentiel nomme le refinancement différencié que L2.C06 § 2 lit dans l'épisode. L'entrée [S4], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -71,7 +74,7 @@ renvois: [L1.C07, L1.C22, L2.C02, L2.C05, L2.C06, L2.C08, L2.C11, L2.C13, L11.C2
 
 ::hypothese:: **Le corpus tient cet argument pour le meilleur des douze épisodes, et il dit pourquoi.** Il ne demande à personne de renoncer à un principe : **il montre que le principe n'est pas appliqué.** Celui qui défend la neutralité doit alors défendre **l'orientation existante**, ce qui est une position beaucoup plus difficile — il lui faut justifier les collatéraux, les pondérations et les achats **un par un**, et devant un public.
 
-::hypothese:: **Et cet argument n'est pas propre au Cahier — c'est une force, non une faiblesse.** L2.C06 a établi que la note de 2022 pose la même chose sous le nom de « rapport au marché défaillant » ; L2.C05 a établi qu'Aglietta le pose dès 2016 en écartant l'hypothèse d'efficience. **Trois textes indépendants, la même prémisse. C'est le point du dossier où le dispositif est le moins seul.**
+::hypothese:: **Et cet argument n'est pas propre au Cahier — c'est une force, non une faiblesse.** L2.C06 § 4 rapporte que la note de 2022 veut des réglementations structurelles pour « remplacer en grande part un mécanisme de marché défaillant dans l'allocation des capitaux », et tient en hypothèse qu'elle partage avec le Cahier une prémisse voisine, que le marché alloue mal le crédit — ce paragraphe écrivait qu'il avait établi qu'elle pose « la même chose » ; L2.C05 a établi qu'Aglietta le pose dès 2016 en écartant l'hypothèse d'efficience. **Trois textes indépendants, des prémisses voisines. C'est le point du dossier où le dispositif est le moins seul.**
 
 ## 3. Troisième argument : il plaide par le mandat, non contre lui
 
@@ -95,7 +98,7 @@ renvois: [L1.C07, L1.C22, L2.C02, L2.C05, L2.C06, L2.C08, L2.C11, L2.C13, L11.C2
 
 ::etat:: **Trois arguments.** La tragédie des horizons — juste, de forme classique, **et étayée sur un discours absent du dossier et une durée non sourcée.**
 
-::hypothese:: **L'absence de neutralité est le meilleur argument des douze épisodes** : il ne demande à personne de renoncer à un principe, **il montre que le principe n'est pas appliqué**, et il oblige l'adversaire à défendre l'orientation existante canal par canal. **Trois textes indépendants le portent** — c'est le point où le dispositif est le moins seul.
+::hypothese:: **L'absence de neutralité est le meilleur argument des douze épisodes** : il ne demande à personne de renoncer à un principe, **il montre que le principe n'est pas appliqué**, et il oblige l'adversaire à défendre l'orientation existante canal par canal. **Trois textes indépendants en portent des prémisses voisines** — c'est le point où le dispositif est le moins seul.
 
 ::hypothese:: **Le troisième argument plaide PAR le mandat existant**, ce qui contredit l'épisode 1 pour la seconde fois et **passe sous le seul verrou juridique identifié en L20.C03** au lieu de le franchir.
 
