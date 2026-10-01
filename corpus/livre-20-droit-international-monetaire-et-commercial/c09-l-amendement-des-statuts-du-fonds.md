@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L7.C06, qui institue une double majorité au symposium ; L7.C09, qui corrige L7.C06 par la loi de la racine carrée de Penrose ; L7.C20, qui construit une procédure d'amendement pour l'institution ; L11.C20, sur l'amendement de la directive"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le passage sur L7.C09 est périmé, le texte de l'entrée étant gardé tel que le manifeste le fixe.
+  # L7.C09, repassé le 30 septembre, ne corrige plus L7.C06 par la racine carrée : il décrit plusieurs règles et
+  # tient le choix pour un arbitrage de l'auteur (§ 4). Le § 1 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 1, L7.C09 était dit avoir corrigé L7.C06 en opposant la loi de la racine carrée de Penrose à la pondération ; L7.C09, repassé le 30 septembre, décrit en son § 4 la double majorité, les poids en racine carrée assortis d'un quota et leur combinaison, et tient le choix pour un arbitrage de l'auteur. Le paragraphe garde ce que le texte de 1944 porte. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "LE TABLEAU DES QUOTES-PARTS (SCHEDULE A) N'A PAS ÉTÉ EXTRAIT. Le corpus
      affirme qu'un seuil de quatre cinquièmes des voix donne un veto au plus
      gros quotataire ; **il ne l'a pas calculé.** L'affirmation dépend de
@@ -53,7 +59,7 @@ renvois: [L7.C06, L7.C09, L7.C16, L7.C20, L11.C15, L11.C20, L20.C01, L20.C06, L2
 
 ::etat:: **C'est exactement la structure que L7.C06 a instituée en croyant la construire** : une double majorité qui oblige à réunir le nombre et le poids. **Elle existe dans un traité en vigueur depuis quatre-vingts ans**, et le corpus ne l'avait pas cherchée.
 
-::hypothese:: **Le corpus enregistre ce que cela change à l'argument de L7.C09.** Ce chapitre avait corrigé L7.C06 en opposant la loi de la racine carrée de Penrose à la pondération par la contribution. **Le texte de 1944 ne choisit pas entre les deux : il exige les deux séparément, et cumulativement.** C'est une troisième solution, et elle est éprouvée — mais elle est **plus exigeante que chacune des deux**, donc plus difficile à réunir.
+::hypothese:: **Le corpus enregistre ce que cela change à l'argument de L7.C09.** Ce paragraphe écrivait que L7.C09 avait corrigé L7.C06 en opposant la loi de la racine carrée de Penrose à la pondération par la contribution ; repris sur pièces, L7.C09 n'oppose plus une règle à l'autre : son § 4 décrit la double majorité, les poids en racine carrée assortis d'un quota et leur combinaison, et tient le choix entre elles pour un arbitrage de l'auteur, non pour un résultat. **Le texte de 1944 combine, lui, le compte par tête et le compte par quote-part, séparément et cumulativement.** C'est une solution de plus, et elle est éprouvée — mais elle est **plus exigeante que chacun de ses deux critères**, donc plus difficile à réunir.
 
 ## 2. Trois dispositions inaliénables, et elles vont toutes dans le même sens
 
