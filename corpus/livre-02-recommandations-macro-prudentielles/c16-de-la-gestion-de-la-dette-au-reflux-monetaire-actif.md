@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,11 +23,17 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L2.C05, qui établit qu'AUCUN des instruments proposés par Aglietta en 2016 n'est une émission : régulations, réserves, achats d'actifs, répression financière « opèrent tous sur du crédit EXISTANT » ; L2.C06 et L2.C07, qui établissent que ni la note de 2022 ni le rapport de 2011 ne proposent d'émission ; **le huitième déplacement est donc celui qui ne bénéficie D'AUCUN appui doctrinal au dossier**"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la fin de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe. L2.C06 § 5
+  # écrit que la note de 2022 décrit une émission de monnaie centrale, et L2.C07 n'écrit rien de l'émission dans le
+  # rapport de 2011 ; L2.C05 § 4 tient en hypothèse ce que l'entrée dit établi. Le § 2 est corrigé.
   - ref: S4
     nature: theorie
     reference: "Le corpus lui-même — `protocoles/registre-des-promesses.md`, **promesse P39** (issue de L1.C23 § 4) : selon la littérature du circuit, le remboursement des crédits passés est « une fuite hors du circuit économique » creusant l'écart entre revenus distribués et valeur de la production ; « OR NEMO IMS FAIT DE LA DESTRUCTION MONÉTAIRE SON INSTRUMENT CENTRAL ». La réponse de principe porte sur les VOLUMES et laisse entiers **l'incidence** — qui supporte le reflux — et **le calendrier** — à quel moment du circuit il prélève"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, L2.C06 et L2.C07 étaient dits avoir établi que ni la note de 2022 ni le rapport de 2011 ne proposent d'émission ; L2.C06 § 5, repassé le 30 septembre, écrit le contraire sur sa pièce (reprise des actifs échoués par une banque centrale qui crée la monnaie, financement direct de la politique budgétaire), et L2.C07 n'en dit rien. Le premier résultat, qui en dépendait, est ramené au reflux ; la tête, le § 5 et le résumé suivent. L2.C05 § 4 était dit avoir établi ce qu'il tient en hypothèse. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "LE CHIFFRE DE LA DETTE GLOBALE N'EST PAS VÉRIFIÉ À SA SOURCE. « Trois cent
      sept mille milliards de dollars en 2023 » est repris du Cahier ;
      **l'institution qui le publie n'est pas nommée et le corpus n'a pas
@@ -39,14 +45,14 @@ verifications_en_attente:
   - "LE BOUCLAGE ÉMISSION-FONTE N'EST PAS DÉPOUILLÉ. Le corpus a lu l'annonce
      du deuxième mécanisme et non son développement. **C'est la pièce centrale
      du dispositif**, et elle est lue par son intitulé."
-resume: "Ce chapitre traite le huitième déplacement, qui institue un reflux monétaire actif à la place de la gestion de la dette, et il établit trois choses. La première est que ce déplacement est le seul des dix à ne bénéficier d'aucun appui doctrinal dans le dossier : ni Aglietta en 2016, ni la note cosignée par Plihon en 2022, ni le rapport du Conseil d'analyse économique de 2011 ne proposent d'émettre, tous leurs instruments opérant sur du crédit existant. La deuxième est que le mécanisme nommé reflux contient un canal d'émission, puisque la fonte appliquée aux transactions régénératives est déclarée nulle ou négative, une fonte négative étant une création monétaire additionnelle. Il en résulte que le dispositif est un mécanisme à deux sens sous un nom qui n'en désigne qu'un, et que la prohibition du financement monétaire instruite au Livre 20 redevient applicable au canal d'émission, alors que le nom de reflux la maintenait hors de portée. La troisième est que le déplacement laisse entière la promesse la plus ancienne du corpus sur ce point, qui n'est pas une objection de volume mais d'incidence et de calendrier : deux prélèvements de même montant, opérés sur des agents différents et à des moments différents du circuit, n'ont pas le même effet sur la demande, et aucun modèle du corpus ne traite ce point."
+resume: "Ce chapitre traite le huitième déplacement, qui institue un reflux monétaire actif à la place de la gestion de la dette, et il établit trois choses. La première est que le dossier porte un précédent de l'émission, et que le chapitre n'en cite aucun du reflux : Aglietta en 2016 n'émet pas, selon l'hypothèse que tient L2.C05, mais la note cosignée par Plihon en 2022 veut que la banque centrale crée la monnaie qui reprend les actifs échoués et fournisse directement à la politique budgétaire les moyens de son action, alors que le chapitre l'avait d'abord dite sans émission. La deuxième est que le mécanisme nommé reflux contient un canal d'émission, puisque la fonte appliquée aux transactions régénératives est déclarée nulle ou négative, une fonte négative étant une création monétaire additionnelle. Il en résulte que le dispositif est un mécanisme à deux sens sous un nom qui n'en désigne qu'un, et que la prohibition du financement monétaire instruite au Livre 20 redevient applicable au canal d'émission, alors que le nom de reflux la maintenait hors de portée. La troisième est que le déplacement laisse entière la promesse la plus ancienne du corpus sur ce point, qui n'est pas une objection de volume mais d'incidence et de calendrier : deux prélèvements de même montant, opérés sur des agents différents et à des moments différents du circuit, n'ont pas le même effet sur la demande, et aucun modèle du corpus ne traite ce point."
 concepts: [reflux_monetaire, reflux_collectif, reflux_transactionnel, demurrage, creation_monetaire, contrepartie_comptable, qualification_regenerative]
 renvois: [L1.C20, L1.C21, L1.C23, L2.C05, L2.C06, L2.C07, L2.C12, L2.C17, L11.C05, L11.C09, L20.C02]
 ---
 
 # De la gestion de la dette au reflux monétaire actif
 
-::etat:: Ce chapitre traite **le huitième déplacement.** C'est **le seul des dix qui ne bénéficie d'aucun appui doctrinal au dossier**, et c'est celui où le dispositif est le plus exposé.
+::etat:: Ce chapitre traite **le huitième déplacement.** **Il ne cite aucun texte du dossier qui propose le reflux**, et c'est celui où le dispositif est le plus exposé ; la note de 2022, qu'il avait d'abord dite sans émission, en propose une (§ 2).
 
 ## 1. Ce que le déplacement institue
 
@@ -56,11 +62,11 @@ renvois: [L1.C20, L1.C21, L1.C23, L2.C05, L2.C06, L2.C07, L2.C12, L2.C17, L11.C0
 
 ::etat:: **Le motif invoqué** [S2] : l'accumulation de dette globale, « trois cent sept mille milliards de dollars en 2023 », appelle un mécanisme de reflux **« qui ne dépende pas exclusivement du remboursement individuel »**.
 
-## 2. Premier résultat : aucun appui doctrinal
+## 2. Premier résultat : un précédent de l'émission, aucun du reflux
 
-::etat:: **L2.C05 a établi qu'Aglietta n'émet pas** [S3] : régulations, réserves qualitatives, achats d'actifs, répression financière — **tous ces instruments opèrent sur du crédit existant.** L2.C06 et L2.C07 ont établi la même chose de la note de 2022 et du rapport de 2011.
+::etat:: **L2.C05 § 4 tient en hypothèse qu'Aglietta n'émet pas** [S3] : régulations, réserves qualitatives, achats d'actifs, répression financière — **tous ces instruments opèrent sur du crédit existant.** **La note de 2022 va plus loin, et L2.C06 § 5 le porte sur sa pièce** (brouillon ; pièce ouverte là-bas) : elle veut que les actifs échoués finissent, en dernier ressort, au bilan d'une banque centrale qui crée la monnaie nécessaire à leur reprise, opération qu'elle tient pour pratiquement équivalente à une émission de monnaie centrale sans contrepartie exigible, et que la banque centrale fournisse directement à la politique budgétaire les moyens financiers de son action. L2.C07 n'écrit rien de l'émission dans le rapport de 2011. **Ce paragraphe écrivait que L2.C06 et L2.C07 avaient établi que ni la note ni le rapport ne proposent d'émission : L2.C06 ne l'avait pas écrit, et sa pièce porte le contraire.**
 
-::hypothese:: **Le corpus enregistre le contraste avec les sept déplacements précédents.** Chacun avait au moins un précédent signé, souvent plusieurs, parfois antérieur de dix ans. **Celui-ci n'en a aucun**, et la doctrine que l'instruction nomme s'arrête exactement avant lui.
+::hypothese:: **Le contraste avec les sept déplacements précédents est plus étroit que le corpus ne l'avait écrit.** Chacun avait au moins un précédent signé, souvent plusieurs, parfois antérieur de dix ans. Celui-ci en a un pour l'émission, dans la note de 2022, qui reprend des actifs échoués et finance la politique budgétaire, et ne propose pas de reflux. **Le corpus n'a pas instruit si cette émission est un précédent du huitième déplacement**, qui substitue l'extinction collective au remboursement individuel ; et ce chapitre ne cite aucun texte du dossier qui propose ce reflux.
 
 ::hypothese:: **Ce n'est pas un argument contre le déplacement, et le corpus refuse de le présenter ainsi.** L2.C05 a versé la phrase d'Aglietta selon laquelle « les principes fondamentaux d'une politique macroprudentielle climatique **restent à écrire** ». **Une absence de précédent est une place vide, non une réfutation.** Elle dit seulement **où le dispositif est seul**, et donc **où il doit produire lui-même sa preuve.**
 
@@ -90,7 +96,7 @@ renvois: [L1.C20, L1.C21, L1.C23, L2.C05, L2.C06, L2.C07, L2.C12, L2.C17, L11.C0
 
 ## 5. Portée
 
-::etat:: **Seul des dix déplacements sans aucun appui doctrinal au dossier.** Aglietta, Plihon et le rapport de 2011 s'arrêtent tous exactement avant l'émission. **Place vide, non réfutation** — mais c'est là que le dispositif doit produire sa propre preuve.
+::etat:: **Un précédent de l'émission au dossier, aucun du reflux dans ce chapitre.** La note de 2022 veut que la banque centrale crée la monnaie qui reprend les actifs échoués et finance directement la politique budgétaire (L2.C06 § 5) ; le corpus avait écrit qu'elle s'arrêtait, avec Aglietta et le rapport de 2011, exactement avant l'émission. **Pour le reflux, place vide, non réfutation** — mais c'est là que le dispositif doit produire sa propre preuve.
 
 ::hypothese:: **Le reflux contient une émission, et le Cahier le dit lui-même** : une fonte négative est une création monétaire additionnelle. **Un mécanisme à deux sens sous un nom qui n'en désigne qu'un.**
 
