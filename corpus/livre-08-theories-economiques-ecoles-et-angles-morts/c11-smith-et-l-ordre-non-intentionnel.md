@@ -19,7 +19,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — la promesse P19b, que le registre qualifie d'« objection la plus forte adressée au dispositif », et le résultat de L8.C29 : l'objection frappe la décision D2, fixer les valeurs, et la seule réponse constituée dont le corpus dispose — l'organisation polycentrique — est praticable sur le constat et interdite sur les valeurs par le résultat de Mundell"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la fin de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe. L11.C16 § 5,
+  # repris le 30 septembre, a retiré l'interdiction de la polycentricité sur les valeurs tirée de Mundell, et L8.C29 est
+  # corrigé ce jour. Le corps de ce chapitre ne la reprend pas.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION PAR COMMENTAIRE, sans changement du corps, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : l'entrée [S2], `a_requalifier`, rapporte de L8.C29 que la polycentricité est interdite sur les valeurs par le résultat de Mundell ; L11.C16 § 5 a retiré cette interdiction, et L8.C29 est corrigé ce jour. Le corps ne la reprend pas ; seul un commentaire suit l'entrée.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE À SOURCE OUVERTE, et la première du répertoire ancien à l'être.
   # Le texte a été téléchargé et lu le 2026-09-06 ; une seule formule en est
