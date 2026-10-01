@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,9 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » PREMIER CHOIX SPONTANÉ DE LA FORME DIRECTIVE par l'auteur ; le présent chapitre en établit un SECOND, antérieur et resté inaperçu — le seuil indexé sur le revenu médian"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : en tête et au § 2, le seuil d'exemption était dit réservé aux personnes physiques, rien n'existant pour les personnes morales ; L11.C17 § 8, repassé le 1er octobre sur le livre (folio 190), écrit que le seuil protège « l'épargne populaire et la trésorerie courante des entreprises », et vise donc les personnes morales sans en donner la forme. Le résumé suit ; la question que le chapitre instruit, la forme d'un seuil propre aux personnes morales, reste entière.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # DERNIÈRE PIÈCE EN PROPRE DU CHANTIER DES BARÈMES. L11.C17 § 8 l'a relevée en
   # rendant A8 : le livre indexe un seuil sur le revenu médian pour les
@@ -62,14 +65,14 @@ verifications_en_attente:
   - "OUVERTE — la forme du seuil pour les personnes morales. Portée en arbitrage
      A21, qui prolonge A14 sans s'y réduire : A14 demande SI l'on corrige
      l'incidence, A21 demande PAR QUELLE FORME."
-resume: "Ce chapitre instruit la dernière pièce que le chantier des barèmes gardait en propre après le routage du périmètre vers le Livre 7 : le seuil d'exemption pour les personnes morales, que le dispositif ne prévoit nulle part. Il établit d'abord sur quel ressort porte la question — le prélèvement sur les encaisses, et non le prélèvement transactionnel, dont l'assiette est la consommation finale et où la personne morale est collectrice plutôt que redevable. Il relève ensuite un fait favorable qui était resté inaperçu : le seul seuil que le livre spécifie, indexé sur le revenu médian, est déjà une directive au sens strict, ce qui fait de l'auteur le premier à avoir choisi cette forme, et deux fois plutôt qu'une. Il établit qu'une personne morale n'est pas une personne physique devant ce prélèvement, pour trois raisons dont la troisième est un obstacle concret : la grandeur d'indexation n'a pas d'analogue. Il montre ensuite, contre son attente, que le seuil ne crée pas l'incitation à la fragmentation qu'on lui reproche d'ordinaire — cette incitation existe déjà, gratuite et non tarifée, parce que la consolidation par bénéficiaire effectif est juridiquement impossible et que l'assiette réelle est donc par compte. Le seuil ne l'introduit pas : il la borne et la tarife. Il établit en sens inverse que le seuil creuserait l'assiette par le bas sans la reconstituer par le haut, concentrant l'incidence sur la zone médiane qu'un chapitre antérieur identifie déjà comme atteinte à tort. Il chiffre le coût de la correction : exempter réduit l'assiette, donc l'enveloppe d'émission, donc ce qui peut être financé. Il compare quatre formes possibles et trouve un troisième cas du conflit entre efficacité et légitimité que le rendu de A8 avait recensé : publier la fonction du seuil rend son optimisation triviale."
+resume: "Ce chapitre instruit la dernière pièce que le chantier des barèmes gardait en propre après le routage du périmètre vers le Livre 7 : le seuil d'exemption pour les personnes morales, que le livre vise sans en donner la forme. Il établit d'abord sur quel ressort porte la question — le prélèvement sur les encaisses, et non le prélèvement transactionnel, dont l'assiette est la consommation finale et où la personne morale est collectrice plutôt que redevable. Il relève ensuite un fait favorable qui était resté inaperçu : le seul seuil que le livre spécifie, indexé sur le revenu médian, est déjà une directive au sens strict, ce qui fait de l'auteur le premier à avoir choisi cette forme, et deux fois plutôt qu'une. Il établit qu'une personne morale n'est pas une personne physique devant ce prélèvement, pour trois raisons dont la troisième est un obstacle concret : la grandeur d'indexation n'a pas d'analogue. Il montre ensuite, contre son attente, que le seuil ne crée pas l'incitation à la fragmentation qu'on lui reproche d'ordinaire — cette incitation existe déjà, gratuite et non tarifée, parce que la consolidation par bénéficiaire effectif est juridiquement impossible et que l'assiette réelle est donc par compte. Le seuil ne l'introduit pas : il la borne et la tarife. Il établit en sens inverse que le seuil creuserait l'assiette par le bas sans la reconstituer par le haut, concentrant l'incidence sur la zone médiane qu'un chapitre antérieur identifie déjà comme atteinte à tort. Il chiffre le coût de la correction : exempter réduit l'assiette, donc l'enveloppe d'émission, donc ce qui peut être financé. Il compare quatre formes possibles et trouve un troisième cas du conflit entre efficacité et légitimité que le rendu de A8 avait recensé : publier la fonction du seuil rend son optimisation triviale."
 concepts: [demurrage, reflux_transactionnel, bareme, regle_contre_discretion, affectation_des_instruments, valorisation_des_communs]
 renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12, L11.C13, L11.C16, L11.C17]
 ---
 
 # Le seuil d'exemption
 
-::etat:: Ce chapitre instruit **la dernière pièce que le chantier des barèmes garde en propre** après le routage du périmètre vers le Livre 7. L11.C17 § 8 l'a relevée en rendant A8, et **aucun chapitre ne l'avait vue avant** : le dispositif indexe un seuil sur le revenu médian pour les personnes physiques, et **rien n'existe pour les personnes morales.**
+::etat:: Ce chapitre instruit **la dernière pièce que le chantier des barèmes garde en propre** après le routage du périmètre vers le Livre 7. L11.C17 § 8 l'a relevée en rendant A8 : le livre indexe le seuil d'exemption du demurrage sur le revenu médian national et lui donne pour objet de protéger l'épargne populaire et la trésorerie courante des entreprises, de sorte qu'**il vise les personnes morales sans dire comment une grandeur indexée sur un revenu de ménage s'applique à elles** (L11.C17 § 8, en brouillon ; pièce ouverte là-bas). Ce paragraphe écrivait que le seuil ne vaut que pour les personnes physiques et que **rien n'existe pour les personnes morales** : L11.C17 § 8, repris sur pièce le 1er octobre, l'a corrigé.
 
 ## 1. Sur quel ressort la question porte, et pourquoi ce n'est pas celui qu'on croit
 
@@ -81,7 +84,7 @@ renvois: [L1.C21, L11.C03, L11.C05, L11.C06, L11.C07, L11.C08, L11.C09, L11.C12,
 
 ## 2. Le seul seuil que le livre spécifie est déjà une directive
 
-::etat:: **Le corpus verse ici un fait favorable au dispositif, et il était resté inaperçu.** Le seuil des personnes physiques n'est pas un nombre : il est **indexé sur le revenu médian** [S1]. Or L11.C12 a établi qu'un barème réglé est une **directive** — une fonction des données observées — et non une table.
+::etat:: **Le corpus verse ici un fait favorable au dispositif, et il était resté inaperçu.** Le seuil du livre n'est pas un nombre : il est **indexé sur le revenu médian** [S1]. Or L11.C12 a établi qu'un barème réglé est une **directive** — une fonction des données observées — et non une table.
 
 ::hypothese:: **Le seuil du livre est une directive au sens strict** : *seuil = f(revenu médian)*. La donnée est publique, produite par un tiers, révisée périodiquement, et la fonction est énonçable en une phrase. **L'auteur a donc choisi la forme directive avant que le corpus ne la nomme, et deux fois plutôt qu'une** — ici, et dans l'arbitrage A15 du 2026-09-05, où le taux monte sur un constat et non à une date [S3].
 
