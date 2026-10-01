@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -31,7 +31,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — **L20.C18**, qui établit qu'une dérogation dans l'ordre commercial « **doit énoncer les circonstances exceptionnelles** [...] et **la date à laquelle elle prend fin** », est réexaminée annuellement et peut être prorogée, modifiée ou supprimée ; et **L20.C17**, qui établit que la sanctuarisation de 1982 a cédé devant un accord postérieur **qui ne portait aucun terme**"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la fin de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe. L20.C17 § 5,
+  # repris le 30 septembre, tient que la clause de 1982 a tenu dans sa lettre et que l'accord de 1994 a réécrit le régime
+  # sans toucher au principe. Le § 4 et le § 7 sont corrigés.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 4 et § 7, L20.C17 était dit avoir établi que la sanctuarisation de 1982 a cédé devant l'accord de 1994 ; L20.C17 § 5, repris le 30 septembre, tient que le principe est réaffirmé et maintenu, l'accord écartant des dispositions du régime que la clause ne nommait pas. L'entrée [S5], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "LE CORPUS TIENT LE TEXTE ET NON SON APPLICATION. Aucune donnée sur le
      nombre d'établissements passés par chaque catégorie, sur la fréquence des
      dérogations, ni sur les cas où une nouvelle détermination a été renouvelée
@@ -91,7 +97,7 @@ renvois: [L2.C08, L2.C14, L2.C21, L2.C22, L7.C19, L8.C31, L11.C18, L11.C19, L11.
 
 ## 4. C'est exactement ce qui manquait au précédent de sanctuarisation
 
-::etat:: **L20.C17 a établi** [S5] que le régime de 1982 sur le patrimoine commun de l'humanité — interdiction d'amender le principe, interdiction d'être partie à tout accord y dérogeant, interdiction des réserves — **a cédé devant un accord de 1994** qui dispose qu'en cas d'incompatibilité **ses dispositions l'emportent**.
+::etat:: **L20.C17 rapporte** [S5] que, face au régime de 1982 sur le patrimoine commun de l'humanité — interdiction d'amender le principe, interdiction d'être partie à tout accord y dérogeant, interdiction des réserves —, un accord de 1994 dispose qu'en cas d'incompatibilité **ses dispositions l'emportent**. **Il ne tient plus que la sanctuarisation ait cédé** : l'accord réaffirme et maintient le principe, et écarte des dispositions du régime qui le mettait en œuvre, que la clause ne nommait pas (L20.C17 § 5). Ce paragraphe écrivait que le régime de 1982 avait cédé.
 
 ::hypothese:: **Cet accord ne portait aucun terme.** Il n'a pas eu à être renouvelé, redécidé ni remotivé : **il s'est installé.** Le corpus avait conclu qu'aucune sanctuarisation observée n'avait tenu ; **il peut maintenant dire pourquoi celle-là n'a pas tenu.** Elle protégeait **un principe** et ne gouvernait pas **la durée de vie de ses exceptions.**
 
@@ -123,7 +129,7 @@ renvois: [L2.C08, L2.C14, L2.C21, L2.C22, L7.C19, L8.C31, L11.C18, L11.C19, L11.
 
 ::hypothese:: **La pièce décisive n'est pas la gradation mais le régime de la dérogation.** Défaut **automatique et daté** ; dérogation possible **mais motivée par le régulateur**, non par l'assujetti ; **et surtout dérogation qui expire au bout de quatre-vingt-dix jours**, le défaut se rétablissant **par l'inaction.** Une exception ne s'installe jamais : elle se renouvelle ou elle meurt.
 
-::hypothese:: **C'est ce qui manquait au précédent de L20.C17.** L'accord de 1994 qui a défait la sanctuarisation **ne portait aucun terme** : il s'est installé. **Une protection ne vaut pas par la force de son interdiction mais par le régime de ses exceptions.**
+::hypothese:: **C'est ce qui manquait au précédent de L20.C17.** L'accord de 1994, qui a réécrit le régime sans toucher au principe, **ne portait aucun terme** : il s'est installé. **Une protection ne vaut pas par la force de son interdiction mais par le régime de ses exceptions.**
 
 ::hypothese:: **Quatre exigences entrent au Livre 11 — et la première est la plus coûteuse.** Un fonds a un solde ; **une biosphère n'en a pas.** Le Livre 11 ne peut pas construire une gradation **tant qu'il n'a pas dit ce qu'elle minimise.**
 
