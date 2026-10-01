@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -16,6 +16,9 @@ sources_primaires:
     reference: "**Le corpus lui-même — CINQ occurrences ACQUISES (L19.C05 ; L11, reflux transactionnel ; L26.C08 ; L26.C11 et L26.C12 ; L18.C12 et L18.C15) ET UNE RÉSERVÉE (L13.C01).** **La sixième est lue dans un DOCUMENT DE TRAVAIL de 2016 dont la version publiée de 2018 n'est pas ouverte : elle n'est pas acquise, et le décompte de six n'est pas démontré.** **CE CHAPITRE N'OUVRE AUCUNE SOURCE EXTERNE ET NE PRÉTEND PAS LE FAIRE.** **C'est un chapitre de CONCEPTION**, écrit en exécution de la pièce manquante déclarée en passe 2 : *« une PIÈCE DE CONCEPTION MANQUANTE, à écrire une fois pour les quatre cas : la règle de recalibrage du dispositif. Elle relève du Livre 11 pour les barèmes et du Livre 13 pour son épreuve, et elle n'existe dans aucun des deux. »* **Les six occurrences sont chacune adossées à une source ouverte par le chapitre qui l'a relevée ; ce chapitre ne les rouvre pas et renvoie à elles.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, L19.C09 était dit avoir montré le coût d'une révision « dont le motif n'est pas reconstituable » ; L19.C09 § 6, repris le 30 septembre, écrit qu'il ne connaît pas le motif déclaré, faute d'avoir lu les notes des groupes de révision.
+  # Statut inchangé.
   - "**CE CHAPITRE N'ÉCRIT PAS LA RÈGLE DE RECALIBRAGE, ET C'EST DÉLIBÉRÉ.** Il
      établit qu'il en faut **trois** et non une, et il énumère ce que chacune doit
      contenir. **Le contenu relève d'un arbitrage de l'auteur**, notamment la
@@ -139,7 +142,7 @@ renvois: [L11.C13, L13.C01, L18.C12, L18.C15, L19.C05, L26.C04, L26.C08, L26.C11
 
 ::etat:: **(3) UNE AUTORITÉ COMPÉTENTE**, distincte de celle qui émet. **L18.C15 a établi que les rapports de pouvoir déterminent « what types of knowledge are given credence » : celui qui recalibre décide de ce qui compte, et ce n'est pas la même fonction qu'émettre.**
 
-::etat:: **(4) UNE PUBLICATION.** La nouvelle convention, l'ancienne, et **le motif du changement.** **L19.C09 a montré ce que coûte une révision dont le motif n'est pas reconstituable**, et L26.C12 a trouvé une équipe modifiant sa propre estimation d'un tiers sans que le motif soit déterminable.
+::etat:: **(4) UNE PUBLICATION.** La nouvelle convention, l'ancienne, et **le motif du changement.** **L19.C09 montre ce que coûte une révision dont le motif n'est pas lu** : il constate une rédaction nouvelle sans en connaître le motif déclaré, les notes des groupes de révision n'étant pas lues ; ce paragraphe écrivait « non reconstituable », et L26.C12 a trouvé une équipe modifiant sa propre estimation d'un tiers sans que le motif soit déterminable.
 
 ::hypothese:: **(5) ET LE SORT DES ENGAGEMENTS PRIS SOUS L'ANCIEN CALIBRAGE. C'EST UNE QUESTION DE DROITS, NON DE TECHNIQUE, ET LE CORPUS NE DOIT PAS LA TRANCHER SEUL.** Si le barème change, que deviennent les unités déjà émises contre une activité qualifiée sous l'ancienne règle ? **Trois réponses possibles, et elles s'excluent.** **Rétroactivité** : le dispositif est cohérent et il est imprévisible pour ceux qui s'y engagent. **Non-rétroactivité** : il est prévisible et il accumule des positions calibrées sur des conventions périmées. **Extinction progressive** : il est praticable et il exige une comptabilité par millésime que rien dans l'architecture arbitrée ne prévoit.
 
