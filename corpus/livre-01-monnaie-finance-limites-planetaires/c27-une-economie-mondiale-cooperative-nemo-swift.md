@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -60,6 +60,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : au § 6, la question que L1.C26 laissait ouverte y a reçu une réponse : son § 5 écrit que, dans le modèle, la contraction permanente disparaît.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
   # relevée par le dossier de clôture des renvois : au § 3, l'organe de compensation non encore nommé est en L1.C29 § 5 ; l'ancre devient §§ 1 et 5.
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -216,7 +219,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ## 6. Le rééquilibrage : ce que le livre répond, et ce que le corpus a mis à la place
 
-::etat:: L1.C26 avait laissé une question ouverte : si le déséquilibre commercial se reporte sur la masse monétaire nationale, qu'est-ce qui empêche un pays durablement déficitaire de se contracter sans terme. **Le livre répond par le financement régénératif** : « les nations obtiendront leur liquidité dans le cadre d'activités régénératives » ; et « ce sont les émissions de NEMO Green SDR [...] qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » [S3].
+::etat:: L1.C26 avait laissé une question ouverte : si le déséquilibre commercial se reporte sur la masse monétaire nationale, qu'est-ce qui empêche un pays durablement déficitaire de se contracter sans terme. Son § 5 y répond depuis dans le modèle arbitré : la contraction permanente disparaît, une dette prend sa place, et une règle de sortie la borne. **Le livre répond par le financement régénératif** : « les nations obtiendront leur liquidité dans le cadre d'activités régénératives » ; et « ce sont les émissions de NEMO Green SDR [...] qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » [S3].
 
 ::etat:: **Cette réponse est celle du livre, et le corpus n'en fait pas son mécanisme de rééquilibrage.** Ce qui traite désormais les déséquilibres est l'architecture de compensation arrêtée : comptes des banques centrales à l'institution, quotas, corridor et plafond, obligations automatiques des excédentaires, deux guichets financés par émission, deux procédures structurelles, et une règle de sortie des dettes durables. **Son verdict est scindé** : expérimentable en coalition sans condition pour les chocs passagers, et sous deux conditions déclarées non remplies pour les déséquilibres durables — mesurer l'inflation qu'importerait une dévaluation, obtenir l'adhésion de créanciers tenus d'avance. **Le prix est publié : l'exportateur paie**, par conversion de ses créances au-delà du plafond.
 
