@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -62,6 +62,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : trois renvois. Au § 1, L1.C11 § 2 n'établit que la sélection par la solvabilité anticipée ; et la première partie propose, sans l'établir, les deux premières incapacités (L1.C06 § 3, L1.C15, L1.C16), la troisième étant établie (L1.C12). Au § 5, la situation visée est celle que L1.C15 définit, non une situation décrite en L1.C16.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
   # relevée par le dossier de clôture des renvois : deux ancres : en tête, l'organe de compensation non encore nommé est en L1.C29 § 5, l'ancre devient §§ 1 et 5 ; au § 2, l'emprunteur souverain est en L1.C15 § 4, non § 1. Les autres renvois à L1.C29 § 1 visent les décisions qui y sont, et ne changent pas.
   # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
@@ -228,7 +231,7 @@ renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10
 
 ::etat:: La proposition ne supprime pas la finance de marché. Elle laisse aux banques commerciales leur activité de crédit, aux banques centrales la conduite de la politique monétaire, aux États le pouvoir de lever l'impôt et d'emprunter [S1].
 
-::etat:: **Ce maintien n'est pas une concession, et il faut dire exactement d'où il vient.** L1.C11 § 2 a établi que le crédit bancaire remplit des fonctions réelles : il sélectionne selon la solvabilité anticipée, il discipline, il concentre l'information sur la capacité de remboursement. Ce n'est pas l'existence du crédit bancaire qui pose problème. **Ce chapitre écrivait que c'est son exclusivité au point de création : le crédit n'a pas cette exclusivité.** Accorder des prêts est la voie la plus importante par laquelle les dépôts sont créés, mais ces voies sont « far from the only ways » : il s'en crée aussi chaque fois que le secteur bancaire, banque centrale comprise, achète des actifs existants [S4]. **Le constat de la première partie est plus étroit, et L1.C11 § 2 le borne ainsi** : le crédit est le seul canal qui crée la monnaie avec une dette nouvelle, de sorte que la part de la création qui finance une activité nouvelle passe par un test de remboursement. La première partie a établi trois choses que ce critère ne sait pas faire : reconnaître l'essentiel insolvable — ce dont on a besoin et qui n'a pas de recette (L1.C06, L1.C15), trier selon l'utilité au moment où le capital s'engage (L1.C16), découpler à l'échelle mondiale (L1.C12). Le corpus n'a pas établi qu'une autre institution les remplirait mieux.
+::etat:: **Ce maintien n'est pas une concession, et il faut dire exactement d'où il vient.** L1.C11 § 2 a établi que le crédit bancaire remplit une fonction réelle : il sélectionne selon la solvabilité anticipée. Qu'il discipline et concentre l'information sur la capacité de remboursement, le corpus le lui prête sans le sourcer ici. Ce n'est pas l'existence du crédit bancaire qui pose problème. **Ce chapitre écrivait que c'est son exclusivité au point de création : le crédit n'a pas cette exclusivité.** Accorder des prêts est la voie la plus importante par laquelle les dépôts sont créés, mais ces voies sont « far from the only ways » : il s'en crée aussi chaque fois que le secteur bancaire, banque centrale comprise, achète des actifs existants [S4]. **Le constat de la première partie est plus étroit, et L1.C11 § 2 le borne ainsi** : le crédit est le seul canal qui crée la monnaie avec une dette nouvelle, de sorte que la part de la création qui finance une activité nouvelle passe par un test de remboursement. La première partie a proposé, sans l'établir, que ce critère ne sait pas reconnaître l'essentiel insolvable — ce dont on a besoin et qui n'a pas de recette (L1.C06, L1.C15) — ni trier selon l'utilité au moment où le capital s'engage (L1.C16) ; elle a établi qu'il ne découple pas à l'échelle mondiale (L1.C12). Le corpus n'a pas établi qu'une autre institution les remplirait mieux.
 
 ::hypothese:: **La proposition n'est donc pas de remplacer, mais d'ajouter une seconde porte. Et une porte ajoutée n'en ferme aucune.** C'est la limite que le corpus doit énoncer d'emblée : un instrument qui émet du pouvoir d'achat produit de l'addition de capacité, jamais de la substitution. Si les autres circuits continuent de financer sans limite les activités incompatibles, le canal positif ne suffit pas.
 
@@ -280,7 +283,7 @@ renvois: [L1.C01, L1.C06, L1.C07, L1.C08, L1.C11, L1.C15, L1.C17, L1.C18, L1.C10
 
 ::etat:: **Ce que le dispositif garantit est borné, et l'auteur l'a restreint lui-même.** Il garantit la disponibilité du financement pour les besoins essentiels matériellement réalisables, dans les limites écologiques reconnues et sous contrôle démocratique. **Deux engagements sont vérifiables par contre-exemple : ne pas bloquer, et ne pas financer l'incompatible.** Il ne garantit pas le résultat écologique.
 
-::etat:: Ce que l'articulation permet, à cette condition, est de mettre fin à la situation décrite en L1.C16, où une activité doit démontrer une rentabilité qu'elle ne peut pas avoir pour obtenir un financement dont elle a besoin. **La disponibilité d'un financement n'est pas la fin garantie d'une situation**, et le corpus ne confond pas les deux.
+::etat:: Ce que l'articulation permet, à cette condition, est de mettre fin à la situation que L1.C15 définit : des activités qui répondent à des besoins et dont les flux propres ne permettent pas le financement autonome par le crédit. **La disponibilité d'un financement n'est pas la fin garantie d'une situation**, et le corpus ne confond pas les deux.
 
 ::hypothese:: **Et le financement ne suffit pas : ce n'est pas la monnaie nouvelle qui protégera les communs, c'est la protection juridique des communs qui rend la monnaie nouvelle concevable.** Le résultat dépend des politiques de substitution, de fermeture et de sanctuarisation que le dispositif ne porte pas.
 
