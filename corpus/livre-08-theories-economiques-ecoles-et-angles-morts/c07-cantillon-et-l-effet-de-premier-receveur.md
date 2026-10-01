@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,9 @@ sources_primaires:
     reference: "Le corpus lui-même — la promesse P24, « effet de premier receveur » : l'injection monétaire n'est pas neutre dans sa distribution, ceux qui reçoivent la monnaie nouvelle en premier dépensent aux prix anciens et ceux qui la reçoivent en dernier aux prix nouveaux. Versée en L1.C20 et routée au Livre 7. LE CORPUS L'EMPLOIE SANS NOMMER SON ORIGINE, et le présent chapitre établit que P24 EST l'effet Cantillon. S'y ajoutent les quatre biais d'incidence de L11.C09 et le cinquième de L11.C13 § 6"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, le corpus était dit avoir établi « cinq mécanismes », dont « quatre » de L11.C09, et L11.C13 § 6 avoir établi que le dernier distribue un avantage ; L11.C13 § 6, repris le 1er octobre, le tient en hypothèse et a ôté ces compteurs, qui sortent ici aussi.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. L'Essai n'est pas en possession du
   # corpus ; deux URL ont été tentées le 2026-09-06 et ont échoué.
@@ -64,7 +67,7 @@ renvois: [L1.C20, L8.C01, L8.C02, L8.C10, L11.C09, L11.C13, L11.C16]
 
 ## 3. CONTRE — les cinq biais du Livre 11 désignent tous les mêmes premiers receveurs
 
-::etat:: **Le corpus a établi ailleurs cinq mécanismes indépendants qui favorisent les mêmes acteurs** — intégrés, documentés, structurés, conseillés. Quatre portent sur l'incidence du reflux (L11.C09) ; le cinquième porte sur l'émission, et L11.C13 § 6 a établi qu'il est **le premier qui distribue un avantage plutôt qu'une charge** : qui ne peut pas documenter n'est pas surtaxé, il est **exclu du financement**.
+::etat:: **Le corpus relève ailleurs des mécanismes indépendants qui favorisent les mêmes acteurs** — intégrés, documentés, structurés, conseillés. L11.C09 en recense sur l'incidence du reflux ; un autre porte sur l'émission, et L11.C13 § 6 tient, en hypothèse, qu'il est **le premier qui distribue un avantage plutôt qu'une charge** : qui ne peut pas documenter n'est pas surtaxé, il est **exclu du financement**. Ce paragraphe écrivait « a établi » et recopiait des compteurs, « cinq » et « quatre », que L11.C13 a ôtés de son propre texte.
 
 ::hypothese:: **Composés avec l'effet Cantillon, ces cinq biais donnent un résultat que le corpus n'avait pas formulé.** Le dispositif ne se contente pas de choisir ses premiers receveurs : **il les choisit tous du même côté**, et par cinq voies qui ne se corrigent pas l'une l'autre. **Un dispositif dont la finalité est de financer ce que le marché ne finance pas sélectionne, par sa mécanique, les acteurs que le marché finance déjà le mieux.**
 
