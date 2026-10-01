@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -33,6 +33,9 @@ sources_primaires:
     reference: "Le corpus lui-même — **L2.C07**, qui déclarait : « LE COMPLÉMENT A D'AGLIETTA N'EST PAS DÉPOUILLÉ [...] il n'est lu qu'à travers autrui — **exactement ce que la règle d'ouverture directe interdit** » ; et qui établissait que le rapport rejette la solution de coin où les politiques sont coordonnées. **L2.C13**, qui échelonnait trois positions sur l'encadrement du crédit et plaçait Aglietta 2016 à la plus interventionniste"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : aux § 3 et § 7, le chapitre écrivait qu'Aglietta 2016 propose la répression financière et qu'« un auteur s'est déplacé en cinq ans », le Cahier occupant sa position antérieure ; L2.C13 § 2, repassé le 30 septembre, retire ce « forcer », et écrit que le corpus ne peut pas dire qu'un auteur a changé d'avis, le document de 2016 étant de deux auteurs et le complément de 2011 portant sur le volume du crédit, non sur son orientation. Le titre du § 3, le point « défavorable » qui supposait l'abandon, le résumé et la troisième vérification en attente suivent ; la correction garde ce que le complément porte, le motif du contournement.
+  # Statut inchangé.
   - "AGLIETTA, BERREBI ET COHEN 2009 N'EST PAS AU DOSSIER. Le complément
      renvoie en note à « une étude plus détaillée » dont il est tiré. **Le
      corpus tient le résumé de l'argument, non son développement.**"
@@ -41,10 +44,10 @@ verifications_en_attente:
      Brunnermeier 2009 (CoVaR), Blanchard et al. 2010. **Le premier porte la
      mesure sur laquelle repose tout l'instrument proposé.**"
   - "LE COMPLÉMENT A QUINZE ANS ET LE CORPUS NE CONNAÎT PAS LA POSITION DE
-     2026. Ce chapitre établit un DÉPLACEMENT entre 2011 et 2016 ; **rien ne
-     dit où l'auteur se tient aujourd'hui**, et la règle du corpus est d'écrire
+     2026. Ce chapitre ne tient plus de déplacement entre 2011 et 2016
+     (L2.C13 § 2) ; **rien ne dit où l'auteur se tient aujourd'hui**, et la règle du corpus est d'écrire
      « position de 2011 » et non « position d'Aglietta »."
-resume: "Ce chapitre lève la réserve la plus embarrassante que le corpus ait déclarée sur lui-même, puisqu'il s'agissait d'un texte qu'il détenait sans l'avoir lu et dont il rapportait le contenu par la présentation qu'en donnaient des tiers. Le complément dépouillé produit quatre résultats. Le premier est théorique et il touche le fondement de l'indépendance : la doctrine d'un instrument pour un objectif procède d'une conception de la monnaie comme extérieure à la production et d'offre exogène, de sorte que l'indépendance de la banque centrale en découle logiquement ; dans la conception inverse, où les banques ont le pouvoir de création monétaire, la préservation de la liquidité entraîne nécessairement des contraintes de réglementation. Le deuxième est une formule qui compose avec le résultat versé le même jour sur le devoir exorbitant : la banque centrale a procuré au système financier une assurance gratuite, un put dont la prime était nulle, source inépuisable d'aléa moral. Le troisième corrige un chapitre du corpus, puisque l'auteur tenait en 2011 la position que le corpus attribuait au seul cahier technique, à savoir que l'encadrement direct du crédit est hors de question parce qu'il serait contourné, et qu'il proposait cinq ans plus tard la répression financière. Le quatrième est une divergence à l'intérieur même du rapport qui publie ce complément, puisque la procédure descendante qu'il propose abolit expressément l'indépendance de la régulation prudentielle vis-à-vis de la politique monétaire, ce que la recommandation principale du rapport écarte."
+resume: "Ce chapitre lève la réserve la plus embarrassante que le corpus ait déclarée sur lui-même, puisqu'il s'agissait d'un texte qu'il détenait sans l'avoir lu et dont il rapportait le contenu par la présentation qu'en donnaient des tiers. Le complément dépouillé produit quatre résultats. Le premier est théorique et il touche le fondement de l'indépendance : la doctrine d'un instrument pour un objectif procède d'une conception de la monnaie comme extérieure à la production et d'offre exogène, de sorte que l'indépendance de la banque centrale en découle logiquement ; dans la conception inverse, où les banques ont le pouvoir de création monétaire, la préservation de la liquidité entraîne nécessairement des contraintes de réglementation. Le deuxième est une formule qui compose avec le résultat versé le même jour sur le devoir exorbitant : la banque centrale a procuré au système financier une assurance gratuite, un put dont la prime était nulle, source inépuisable d'aléa moral. Le troisième corrige un chapitre du corpus, puisque l'auteur écartait en 2011, pour le motif que le corpus attribuait au seul cahier technique, l'encadrement direct du crédit, qu'il tenait pour contourné par la titrisation ; le chapitre en tirait d'abord qu'il proposait cinq ans plus tard la répression financière, ce qu'il retire, le document de 2016 étant signé de deux auteurs et nommant la contrainte sans la demander. Le quatrième est une divergence à l'intérieur même du rapport qui publie ce complément, puisque la procédure descendante qu'il propose abolit expressément l'indépendance de la régulation prudentielle vis-à-vis de la politique monétaire, ce que la recommandation principale du rapport écarte."
 concepts: [monnaie_endogene, neutralite_monetaire, creation_monetaire, affectation_des_instruments, regle_contre_discretion, bareme, robustesse]
 renvois: [L1.C05, L1.C07, L2.C05, L2.C06, L2.C07, L2.C12, L2.C13, L2.C16, L7.C21, L11.C23, L11.C25, L20.C03]
 ---
@@ -73,15 +76,15 @@ renvois: [L1.C05, L1.C07, L2.C05, L2.C06, L2.C07, L2.C12, L2.C13, L2.C16, L7.C21
 
 ::hypothese:: **Deux assurances, une tarifée et une gratuite — et c'est la gratuite qui produit l'aléa moral.** Le corpus en tire une règle de conception qu'aucun de ses chapitres ne porte : **un dispositif qui fournit une garantie doit en fixer le prix**, faute de quoi il subventionne le comportement qu'il prétend décourager. **L1.C19 traite le yin et le yang de la finance sans jamais poser la question du prix de la garantie.**
 
-## 3. Correction : l'auteur tenait en 2011 la position du Cahier
+## 3. Correction : le complément de 2011 écarte l'encadrement direct pour le motif du Cahier
 
 ::etat:: **Le complément écarte l'encadrement direct, et pour le motif exact du Cahier** [S3] : « dans la finance des marchés libéralisés, **il est hors de question de recourir à l'encadrement direct du crédit. Il serait contourné par la titrisation.** »
 
 ::etat:: **L2.C13 avait échelonné trois positions** [S5] : Aglietta 2016 voulant « forcer » par la répression financière, la note de 2022 voulant réhabiliter le guidage, et le Cahier refusant la restauration au motif du **contournement par la finance de marché.**
 
-::hypothese:: **L'échelonnement était faux, et il faut le corriger.** **Aglietta 2011 tient la position du Cahier** — mot pour mot le motif du contournement. **Aglietta 2016 propose la répression financière.** Ce n'est pas trois auteurs qui divergent : **c'est un auteur qui s'est déplacé en cinq ans, et le Cahier occupe sa position antérieure.**
+::hypothese:: **L'échelonnement était faux, et L2.C13 l'a retiré** (L2.C13 § 2 et § 5, en brouillon ; pièces ouvertes là-bas). Le complément de 2011 écarte l'encadrement direct pour le motif du contournement, celui du Cahier. **Mais le corpus ne peut pas écrire qu'un auteur s'est déplacé en cinq ans**, et L2.C13 § 2 dit pourquoi : le document de 2016 est signé de deux auteurs, Michel Aglietta et Étienne Espagne, et il ne demande pas la répression financière, il la nomme parmi des outils possibles sans choisir entre eux ; le complément de 2011, lui, porte sur le volume du crédit et la stabilité financière, non sur l'orientation du crédit vers des secteurs. **Ce paragraphe écrivait qu'Aglietta 2016 propose la répression financière, et qu'un auteur s'était déplacé en cinq ans, le Cahier occupant sa position antérieure : il le retire.**
 
-::hypothese:: **Le corpus enregistre ce que cela change, et c'est favorable au dispositif sur un point et défavorable sur un autre.** **Favorable** : le Cahier n'est pas isolé dans sa prudence — il tient une position qu'un des deux auteurs nommés par l'instruction a soutenue, et abandonnée. **Défavorable** : cet auteur l'a abandonnée, et le corpus ne détient pas le motif du déplacement. **Savoir pourquoi Aglietta a changé d'avis vaut mieux que savoir qu'il avait le même.**
+::hypothese:: **Ce qui reste est favorable au dispositif sur un point.** Le Cahier n'est pas isolé dans son objection : le contournement qu'il oppose à l'encadrement est porté par une pièce du dossier, signée d'un des deux auteurs que l'instruction nomme. **La première version y voyait aussi un point défavorable, un abandon de cette position dont le corpus ne détiendrait pas le motif : rien au dossier n'établit cet abandon.**
 
 ::etat:: **Et le complément propose l'instrument de remplacement** [S3] : un **capital réglementaire contracyclique** « dépendant du niveau agrégé de crédit », qui agit « **comme une incitation** » et non comme une interdiction.
 
@@ -125,7 +128,7 @@ renvois: [L1.C05, L1.C07, L2.C05, L2.C06, L2.C07, L2.C12, L2.C13, L2.C16, L7.C21
 
 ::hypothese:: **Deux assurances composent** : celle de l'hégémon au monde, tarifée par le privilège exorbitant ; celle de la banque centrale au système financier, **de prime nulle** — et c'est la gratuite qui produit l'aléa moral. **Règle : un dispositif qui garantit doit tarifer sa garantie.**
 
-::etat:: **L'échelonnement de L2.C13 était faux.** Aglietta 2011 tient la position du Cahier — l'encadrement direct « hors de question », « contourné par la titrisation ». **Un auteur s'est déplacé en cinq ans, et le corpus ne détient pas le motif du déplacement.**
+::etat:: **L'échelonnement de L2.C13 était faux, et L2.C13 l'a retiré.** Le complément de 2011 écarte l'encadrement direct — « hors de question », « contourné par la titrisation » — pour le motif du Cahier, sur le volume du crédit et non sur son orientation. **La première version écrivait qu'un auteur s'était déplacé en cinq ans ; le document de 2016 est de deux auteurs et nomme la contrainte sans la demander (L2.C13 § 2).**
 
 ::etat:: **Le contournement a une réponse de périmètre** — englober le système bancaire parallèle, **réviser le périmètre chaque année** — et un coût : le périmètre devient un acte administratif contestable. **Le Livre 11 ne l'a pas.**
 
