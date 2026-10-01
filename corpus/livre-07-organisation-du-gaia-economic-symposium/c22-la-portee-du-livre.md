@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -20,6 +20,9 @@ sources_primaires:
     reference: "Le corpus lui-même — les vingt et un chapitres qui précèdent, écrits le 2026-09-06 ; les neuf acquis versés par le Livre 11 à ce livre le même jour ; l'arbitrage A29, tranché par l'auteur, et sa précision sur le point de démarrage ; et la déclaration du Livre 20, décidée par l'auteur le même jour, qui retire à ce livre les trois blocs de droit international public"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
+  # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, le tableau des confirmations croisées portait le délai de six mois comme le délai d'entrée en vigueur de Kydland et Prescott, et le Collège des vulnérables comme une pondération par une grandeur qui n'est pas le bénéfice, avec l'ancre L7.C04 § 5 ; L7.C09 § 6, repassé le 30 septembre, tient le premier rapprochement pour une analogie et corrige le second — un droit de réserve, non une pondération —, et l'idée est nommée par L7.C02 § 6. Les reprises du § 3 et du § 4 suivent ; L7.C02 entre aux renvois.
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE RENDU. Il ne verse aucun résultat neuf : il réunit ce que
   # vingt et un chapitres ont produit, parce que quatre régularités
@@ -56,7 +59,7 @@ verifications_en_attente:
      dispositif ne dit ni qui l'écrit, ni qui peut le contester.**"
 resume: "Ce chapitre rend le Livre 7 au terme de sa première passe. Il ne verse aucun résultat neuf : il réunit ce que vingt et un chapitres ont produit, parce que quatre régularités n'apparaissent qu'à l'échelle du livre. Il établit d'abord un fait de méthode que le rendu doit porter au même titre que les résultats : les quatre premiers chapitres ont été écrits sans ouvrir le chapitre du livre source, et les quatre suivants sans relire le chapitre du corpus qui l'avait déjà dépouillé, ce qui a produit deux autocorrections et une troisième sur une source mal attribuée. Il établit ensuite que le livre source est plus solide que le corpus ne le croyait, quatre de ses dispositifs ayant été retrouvés indépendamment par le Livre 11 et deux exigences que le corpus déclarait absentes s'y trouvant effectivement. Il établit à l'inverse que deux compétences énoncées par le livre ne sont attribuées à aucune de ses chambres, la valorisation et la production de cadres juridiques contraignants, et que trois mécanismes bien conçus y sont cantonnés à des domaines trop étroits. Il expose la difficulté centrale que ce livre isole et qu'aucune séparation des pouvoirs ne traite, à savoir que ceux qui votent le partage en sont les bénéficiaires, et il recense les six lacunes que la passe laisse. Il conclut que ce livre ne conditionne pas le dispositif mais le fonde, puisque la valeur y est instituée et non mesurée."
 concepts: [polycentricite, valorisation_des_communs, qualification_regenerative, bareme, regle_contre_discretion, affectation_des_instruments]
-renvois: [L1.C18, L1.C27, L7.C01, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12, L7.C13, L7.C17, L7.C20, L7.C21, L11.C11, L11.C16, L11.C17, L18.C15]
+renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12, L7.C13, L7.C17, L7.C20, L7.C21, L11.C11, L11.C16, L11.C17, L18.C15]
 ---
 
 # La portée du Livre 7
@@ -75,13 +78,13 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12
 
 ## 2. Le livre source est plus solide que le corpus ne le croyait
 
-::hypothese:: **Première régularité, et elle est favorable.** Quatre dispositifs du chapitre 7 ont été **retrouvés indépendamment** par le Livre 11, qui les tenait pour ses propres apports.
+::hypothese:: **Première régularité, et elle est favorable.** Quatre dispositifs du chapitre 7 ont été **rapprochés de ce que le corpus avait dérivé seul**, et le Livre 11 les tenait pour ses propres apports ; deux de ces rapprochements, les deuxième et troisième, sont bornés depuis par L7.C09 § 6.
 
 | Ce que le corpus a dérivé seul | Ce que le livre portait déjà |
 |---|---|
 | les **quatre décisions** D1-D4 (L11.C11) | les **quatre chambres** (L7.C05 § 3) |
-| le **délai d'entrée en vigueur** (L8.C31, de Kydland-Prescott) | le **délai de six mois** avant de lever un veto (L7.C09 § 6) |
-| pondérer par une grandeur **qui n'est pas le bénéfice** (L7.C04 § 5) | le **Collège des vulnérables** (L7.C09 § 6) |
+| le **délai d'entrée en vigueur** (L8.C31, de Kydland-Prescott) | le **délai de six mois** avant de lever une réserve ; le livre diffère la levée d'une réserve, non l'entrée en vigueur d'une règle, et le rapprochement est une analogie (L7.C09 § 6) |
+| pondérer par une grandeur **qui n'est pas le bénéfice** (nommé sans instruction par L7.C02 § 6 ; ce tableau renvoyait à L7.C04 § 5, qui ne le porte pas) | le **droit de réserve du Collège des États vulnérables**, attaché à l'exposition, qui n'est pas une pondération (L7.C09 § 6) |
 | l'**audit contradictoire ouvert des modèles** (L1.C18) | la **contestabilité publique** (L7.C10 § 1, L7.C18 § 2) |
 
 ::hypothese:: **Deux constructions indépendantes qui aboutissent au même dispositif se renforcent l'une l'autre.** Le corpus enregistre que **ce ne sont pas des apports de sa part mais des confirmations croisées**, et que c'est mieux.
@@ -102,7 +105,7 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12
 
 ::hypothese:: **Troisième régularité, et c'est la plus utile pour la suite.** Le livre invente des instruments justes **et les applique à un domaine trop étroit.**
 
-::hypothese:: **La majorité qualifiée renforcée et le délai de six mois** ne servent qu'à lever un veto sectoriel, **pas à réviser les règles du dispositif** (L7.C20 § 3). **La pondération par la vulnérabilité** ne s'applique qu'au Collège des petits États insulaires, **alors que c'est le seul dispositif du livre qui pondère par une grandeur qui n'est pas le bénéfice** (L7.C09 § 6). **Et la contestabilité publique** protège l'Office et n'est **protégée par rien** : une décision ordinaire de l'Assemblée peut la restreindre (L7.C20 § 5).
+::hypothese:: **La majorité qualifiée renforcée et le délai de six mois** ne servent qu'à lever un veto sectoriel, **pas à réviser les règles du dispositif** (L7.C20 § 3). **Le droit de réserve du Collège des États vulnérables** ne vaut que pour deux familles de normes, **alors que c'est le seul droit du chapitre 7 du livre attaché à une grandeur autre que le nombre d'États ou la population, l'exposition** (L7.C09 § 6) ; ce paragraphe y voyait une pondération, ce qu'il n'est pas. **Et la contestabilité publique** protège l'Office et n'est **protégée par rien** : une décision ordinaire de l'Assemblée peut la restreindre (L7.C20 § 5).
 
 ::hypothese:: **Le corpus formule la conséquence sous sa forme utile : la passe suivante n'a pas à inventer ces mécanismes, elle a à les GÉNÉRALISER.** C'est un travail de conception moins coûteux que celui qu'il croyait devoir faire.
 
@@ -114,7 +117,7 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11, L7.C12
 
 ::hypothese:: **Et aucune règle de vote n'y touche.** Pondération linéaire, double majorité, racine carrée : toutes égalisent un **pouvoir**, et **une règle parfaitement égalisatrice ne neutralise aucun intérêt** (L7.C09 § 5). Les trois précédents ouverts confirment : **aucun ne sépare ce qu'un membre pèse de ce qu'un membre reçoit** (L7.C02 § 6).
 
-::hypothese:: **Trois atténuateurs seulement, et le corpus refuse de les présenter comme des remèdes.** La **directive** rend le conflit coûteux à exercer sans le supprimer. La **pondération par la vulnérabilité** le neutralise sur une dimension, et le livre ne la généralise pas. **Et le délai d'entrée en vigueur** — L7.C20 § 4 — fait que celui qui révise ne récolte pas le bénéfice de sa révision : **c'est le seul mécanisme du dossier qui atténue ce conflit sans supprimer le vote.**
+::hypothese:: **Trois atténuateurs seulement, et le corpus refuse de les présenter comme des remèdes.** La **directive** rend le conflit coûteux à exercer sans le supprimer. Le **droit de réserve des États vulnérables** le borne sur deux familles de normes, sans pondérer le vote, et le livre ne le généralise pas ; ce paragraphe y voyait une pondération qui le neutralise sur une dimension, ce que L7.C09 § 6 corrige. **Et le délai d'entrée en vigueur** — L7.C20 § 4 — fait que celui qui révise ne récolte pas le bénéfice de sa révision : **c'est le seul mécanisme du dossier qui atténue ce conflit sans supprimer le vote.**
 
 ## 6. Ce que la passe laisse
 
