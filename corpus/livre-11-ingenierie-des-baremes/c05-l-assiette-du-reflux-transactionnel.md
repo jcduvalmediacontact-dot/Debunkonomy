@@ -74,6 +74,10 @@ verifications_en_attente: []
   # COMPLÉMENT DU 2026-10-01, APRÈS 73360602 — sans pièce nouvelle. L'écart signalé à l'auteur
   # (folios 188 et 189) est tranché par lui le même jour : « oui, c'est la bonne lecture ». Le § 1
   # l'enregistre en fait, le § 9 et le résumé le reprennent.
+  # SECOND COMPLÉMENT DU 2026-10-01, APRÈS eba7c2f7 — sans pièce nouvelle, sur le signal de
+  # Fable. Au § 2, le rapport du chiffre d'affaires cumulé à la valeur finale est de deux cent
+  # quarante à cent : la charge effective est deux virgule quatre fois le taux affiché, non
+  # « deux fois et demie », dans les deux phrases qui l'énonçaient.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # L1.C21 § 2 et § 6 ont déjà défriché l'assiette et établi l'obstacle
   # métrologique. Ce chapitre ne les répète pas. Il fait une chose que le
@@ -162,9 +166,9 @@ renvois: [L1.C02, L1.C18, L1.C21, L1.C23, L1.C27, L11.C02, L11.C03, L11.C04, L22
 
 ::etat:: Le corpus établit ici lui-même le résultat, parce qu'il est définitionnel et ne demande aucune autorité. Un prélèvement au taux *t* sur chaque paiement a pour assiette **la somme des paiements**, c'est-à-dire le chiffre d'affaires cumulé de la chaîne, et non la valeur du bien qui en sort.
 
-::etat:: **Un exemple, vérifiable.** Un bien vendu cent au consommateur final, produit en quatre étapes : le producteur vend vingt, le transformateur cinquante, le grossiste soixante-dix, le détaillant cent. Chiffre d'affaires cumulé : deux cent quarante. Au taux d'un demi pour cent par paiement, le prélèvement total est d'un virgule deux sur un bien de cent : **la charge effective est deux fois et demie le taux affiché.**
+::etat:: **Un exemple, vérifiable.** Un bien vendu cent au consommateur final, produit en quatre étapes : le producteur vend vingt, le transformateur cinquante, le grossiste soixante-dix, le détaillant cent. Chiffre d'affaires cumulé : deux cent quarante. Au taux d'un demi pour cent par paiement, le prélèvement total est d'un virgule deux sur un bien de cent : **la charge effective est deux virgule quatre fois le taux affiché.**
 
-::etat:: **Le même bien vendu directement par le producteur au consommateur** pour cent donne un chiffre d'affaires cumulé de cent et une charge égale au taux affiché. Même bien, même empreinte, charge deux fois et demie moindre.
+::etat:: **Le même bien vendu directement par le producteur au consommateur** pour cent donne un chiffre d'affaires cumulé de cent et une charge égale au taux affiché. Même bien, même empreinte, charge deux virgule quatre fois moindre.
 
 ::hypothese:: La règle générale s'écrit donc ainsi : **taux effectif = taux nominal × (chiffre d'affaires cumulé ÷ valeur finale)**. Le rapport est toujours supérieur à un. Sa valeur dépend du nombre d'étapes et du profil de formation de la valeur, et **le corpus ne la connaît pas.**
 
