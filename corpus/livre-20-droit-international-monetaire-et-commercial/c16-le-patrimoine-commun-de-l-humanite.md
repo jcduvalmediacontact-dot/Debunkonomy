@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L1.C22, qui distingue trois catégories sous le mot « communs » ; L11.C16, qui établit que le niveau de valorisation des communs n'est pas une décision libre mais un partage borné par le produit du reflux ; L7.C05, où D2 n'est attribuée à aucune chambre ; L20.C01, qui déclarait le régime des biens communs PREMIÈRE ACQUISITION DU LIVRE"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le passage sur L11.C16 est périmé, le texte de l'entrée étant gardé tel que le manifeste le fixe.
+  # L11.C16, repris le 30 septembre, confie le niveau au Conseil (§ 2) et tient le partage pour conditionnel (§ 4) ;
+  # L7.C05 borne au chapitre 7 du livre le constat sur D2. Le § 2 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 2, L11.C16 était dit établir que la valorisation des communs est un partage borné par le produit ; L11.C16 § 4, repris le 30 septembre, tient ce partage pour conditionnel. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "L'ACCORD DE 1994 RELATIF À L'APPLICATION DE LA PARTIE XI N'EST PAS AU
      DOSSIER. Il a été négocié parce que la partie XI empêchait la
      ratification par les États industrialisés, et **il en a modifié
@@ -64,7 +70,7 @@ renvois: [L1.C17, L1.C22, L7.C05, L7.C13, L11.C16, L20.C01, L20.C11, L20.C17, L2
 
 ::hypothese:: **La ressource en place est inaliénable ; ce qu'on en extrait est aliénable, sous règles.** Une phrase, et la distinction est faite.
 
-::hypothese:: **C'est exactement la structure que le corpus a construite sans texte.** L1.C22 distingue trois catégories sous le mot « communs » ; L11.C16 établit que la valorisation des communs est un partage borné par le produit. **Le fondement juridique de cette architecture existait, il est en vigueur, et le corpus l'a bâtie sans le connaître.**
+::hypothese:: **C'est exactement la structure que le corpus a construite sans texte.** L1.C22 distingue trois catégories sous le mot « communs » ; L11.C16 § 4 tient, en hypothèse, qu'à volume plafonné la priorité entre actes devient un partage, si la demande excède le volume ; ce paragraphe écrivait qu'il l'établit. **Le fondement juridique de cette architecture existait, il est en vigueur, et le corpus l'a bâtie sans le connaître.**
 
 ::hypothese:: **Le corpus enregistre ce que la formule ajoute à sa propre construction.** Elle place l'aliénabilité du produit **sous la règle de l'institution** et non sous le marché : le minerai extrait ne devient pas une marchandise ordinaire, **il devient une marchandise dont les conditions de cession sont fixées par l'organisation qui garde le commun.** L11 a construit des barèmes ; **ce texte donne le titre juridique qui permet à des barèmes d'exister.**
 
