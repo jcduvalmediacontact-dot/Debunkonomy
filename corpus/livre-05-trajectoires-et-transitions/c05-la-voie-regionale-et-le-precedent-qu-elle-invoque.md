@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -19,11 +19,17 @@ sources_primaires:
     nature: theorie
     reference: "**Le corpus lui-même, et deux résultats se contredisent sur ce point.** **L11.C16** établit que **la polycentricité est INTERDITE sur la décision D2** — la fixation des valeurs — et l'entrée `polycentricite` du vocabulaire retient d'Ostrom que « recommander une unité gouvernementale unique pour résoudre un problème d'action collective mondiale **est intrinsèquement faible en raison même des comportements de passager clandestin** », et qu'« une politique adoptée à la seule échelle mondiale **engendre difficilement la confiance nécessaire à l'action collective** ». **L6.C08** ajoute une contrainte juridique : **l'échelon local peut constater et administrer, il ne peut pas créer le titre**, et « ce que le traité ne pose pas lui-même, aucun échelon inférieur ne le posera valablement à sa place »"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la première phrase de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe.
+  # L11.C16 § 5, repris le 30 septembre, a retiré l'interdiction de la polycentricité sur D2, et rend « inherently weak »
+  # au résumé de la série, non au corps du texte d'Ostrom. Le § 3 et le résumé sont corrigés.
   - ref: S3
     nature: theorie
     reference: "**L3.C02**, sur le trilemme : il est **énoncé pour UN ÉTAT**, de sorte que « le contrôle des capitaux n'est pas un choix de conception de l'institution **mais une obligation pesant sur chaque participant** ». **L3.C09** : le dispositif **s'ajoute** au système existant. **L5.C03** : l'adhésion ne demandant aucun renoncement, **la menace tarifaire perd son fait générateur**, mais le passager clandestin **devient une question d'intérêt à entrer** — « pourquoi maintenant plutôt que plus tard »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3 et au résumé, la contradiction entre L11.C16, qui interdisait la polycentricité sur la fixation des valeurs, et le vocabulaire, qui retient d'Ostrom l'inverse, était tenue pour actuelle, et la fixation centrale pour établie par L11.C16 et imposée par Mundell ; L11.C16 § 5, repris le 30 septembre, a retiré l'interdiction et rend la formule « intrinsèquement faible » au résumé de la série. La contradiction tombe ; la fixation centrale est rapportée à la décision de l'auteur (L1.C18 § 3). L1.C18 entre aux renvois. L'entrée [S2], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "AUCUN MÉCANISME RÉGIONAL N'EST INSTRUIT, et c'est la lacune centrale de ce
      chapitre. Ni les accords de swap régionaux, ni les fonds de réserve
      régionaux, ni les unions monétaires existantes. **Le corpus instruit une
@@ -37,9 +43,9 @@ verifications_en_attente:
      deux de ses résultats. **Il n'est appuyé par aucune source** et il porte
      sur une articulation — régional vers mondial — dont le corpus n'a jamais
      examiné un seul cas."
-resume: "Ce chapitre instruit la quatrième voie d'entrée annoncée, celle de l'entrée par une région, et il commence par constater que le corpus n'a rien pour l'instruire. La seule source qui mentionne les mécanismes régionaux ne les nomme pas, et le corpus ne tient ni union monétaire, ni accord de swap régional, ni fonds de réserve régional. Le chapitre soutient néanmoins que cette voie a une propriété qu'aucune autre ne possède, et que le corpus peut établir depuis ses propres résultats. Le trilemme étant énoncé pour un État, le contrôle des capitaux n'est pas un choix de conception de l'institution mais une obligation pesant sur chaque membre, laquelle se vérifie chez lui et non au centre. Or une région est précisément le niveau où cette obligation peut être vérifiée par des voisins qui en subissent les effets, alors qu'un dispositif mondial doit s'en remettre à la déclaration de chacun. La voie régionale offre donc une capacité de contrôle mutuel que ni la coalition dispersée ni la négociation multilatérale ne procurent. Le chapitre relève ensuite la contradiction interne du corpus sur ce point, puisque son onzième livre interdit la polycentricité sur la fixation des valeurs tandis que son vocabulaire retient d'Ostrom qu'une politique adoptée à la seule échelle mondiale engendre difficilement la confiance nécessaire à l'action collective. Il propose que la contradiction se lève en distinguant la fixation des valeurs, qui reste centrale, de la vérification de leur application, qui gagne à être régionale. Il note enfin que cette voie hérite du problème que le chapitre précédent a identifié, l'intérêt à entrer tôt, et qu'elle y ajoute le sien, celui de l'articulation entre plusieurs régions qui n'auraient pas commencé ensemble."
+resume: "Ce chapitre instruit la quatrième voie d'entrée annoncée, celle de l'entrée par une région, et il commence par constater que le corpus n'a rien pour l'instruire. La seule source qui mentionne les mécanismes régionaux ne les nomme pas, et le corpus ne tient ni union monétaire, ni accord de swap régional, ni fonds de réserve régional. Le chapitre soutient néanmoins que cette voie a une propriété qu'aucune autre ne possède, et que le corpus peut établir depuis ses propres résultats. Le trilemme étant énoncé pour un État, le contrôle des capitaux n'est pas un choix de conception de l'institution mais une obligation pesant sur chaque membre, laquelle se vérifie chez lui et non au centre. Or une région est précisément le niveau où cette obligation peut être vérifiée par des voisins qui en subissent les effets, alors qu'un dispositif mondial doit s'en remettre à la déclaration de chacun. La voie régionale offre donc une capacité de contrôle mutuel que ni la coalition dispersée ni la négociation multilatérale ne procurent. Le chapitre relevait ensuite une contradiction interne du corpus sur ce point, son onzième livre interdisant la polycentricité sur la fixation des valeurs tandis que son vocabulaire retient d'Ostrom qu'une politique adoptée à la seule échelle mondiale engendre difficilement la confiance nécessaire à l'action collective ; le onzième livre a retiré depuis cette interdiction, et la contradiction tombe. Il propose que la contradiction se lève en distinguant la fixation des valeurs, qui reste centrale, de la vérification de leur application, qui gagne à être régionale. Il note enfin que cette voie hérite du problème que le chapitre précédent a identifié, l'intérêt à entrer tôt, et qu'elle y ajoute le sien, celui de l'articulation entre plusieurs régions qui n'auraient pas commencé ensemble."
 concepts: [polycentricite, seuil_d_activation, hierarchie_monetaire, robustesse, bareme]
-renvois: [L3.C02, L3.C06, L3.C09, L5.C01, L5.C03, L5.C04, L6.C08, L11.C16]
+renvois: [L1.C18, L3.C02, L3.C06, L3.C09, L5.C01, L5.C03, L5.C04, L6.C08, L11.C16]
 ---
 
 # La voie régionale, et le précédent qu'elle invoque
@@ -66,9 +72,9 @@ renvois: [L3.C02, L3.C06, L3.C09, L5.C01, L5.C03, L5.C04, L6.C08, L11.C16]
 
 ## 3. La contradiction interne du corpus, et une manière de la lever
 
-::etat:: **Deux résultats du corpus se contredisent sur ce point** [S2]. **L11.C16 établit que la polycentricité est INTERDITE sur la décision D2** — la fixation des valeurs. **Et le vocabulaire retient d'Ostrom l'inverse pour l'échelle mondiale** : « une politique adoptée à la seule échelle mondiale **engendre difficilement la confiance nécessaire à l'action collective** », et recommander une unité gouvernementale unique « **est intrinsèquement faible en raison même des comportements de passager clandestin** ».
+::etat:: **Deux résultats du corpus se contredisaient sur ce point, et la contradiction est tombée** [S2]. Le corpus tenait de L11.C16 que la polycentricité est interdite sur la décision D2 — la fixation des valeurs — par le résultat de Mundell ; **L11.C16 § 5 a retiré cette interdiction**, l'article portant sur un petit pays sous mobilité parfaite des capitaux. **Et le vocabulaire retient d'Ostrom l'inverse pour l'échelle mondiale** : « une politique adoptée à la seule échelle mondiale **engendre difficilement la confiance nécessaire à l'action collective** ». La formule plus dure qu'il lui prête, « est intrinsèquement faible en raison même des comportements de passager clandestin », vient du résumé que la série place en tête de son document, non de son corps (L11.C16 § 5).
 
-::hypothese:: **Le corpus propose que la contradiction se lève par une distinction qu'il n'avait pas faite : entre FIXER une valeur et VÉRIFIER qu'elle est appliquée.** **La fixation reste centrale** — L11.C16 l'établit, et le résultat de Mundell l'impose. **La vérification gagne à être régionale**, pour la raison de la section précédente.
+::hypothese:: **Le corpus propose que la contradiction se lève par une distinction qu'il n'avait pas faite : entre FIXER une valeur et VÉRIFIER qu'elle est appliquée.** **La fixation reste centrale** — la décision de l'auteur que L1.C18 § 3, vérifié, rapporte la confie à l'Assemblée des Communs ; ce paragraphe écrivait que L11.C16 l'établit et que le résultat de Mundell l'impose, ce que L11.C16 § 5 ne tient plus. **La vérification gagne à être régionale**, pour la raison de la section précédente.
 
 ::hypothese:: **Et cela s'accorde avec ce que L6.C08 a établi en droit** [S2] : **« l'échelon local peut constater et administrer, il ne peut pas créer le titre »**, et « ce que le traité ne pose pas lui-même, aucun échelon inférieur ne le posera valablement à sa place ». **Constater et administrer, c'est exactement vérifier.**
 
