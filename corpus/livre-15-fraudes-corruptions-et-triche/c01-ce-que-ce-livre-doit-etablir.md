@@ -6,152 +6,188 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-17
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: hybride
 sources_primaires:
-  - ref: S1
+  - ref: S3
     nature: donnees
-    reference: "**Thales A. P. West, Sven Wunder, Erin O. Sills, Jan Börner, Sami W. Rifai, Alexandra N. Neidermeier, Gabriel Frey et Andreas Kontoleon, « Action needed to make carbon offsets from tropical forest conservation work for climate change mitigation ».** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le dépôt institutionnel de l'université de Cambridge, lu dans le texte. **MANUSCRIT D'AUTEUR déposé en archive, non la version de référence.** **DROITS : la notice du dépôt annonce CC BY ; LE DOCUMENT NE PORTE AUCUNE MENTION DE DROITS. En application de la règle établie le jour même, le corpus retient ce qu'il LIT et non ce que la notice annonce — régime `a_verifier`, citation courte avec attribution.** **Méthode : 26 sites de projets, six pays, trois continents, contrôles synthétiques.**"
-    etat_lecture: a_requalifier
-  - ref: S2
-    nature: theorie
-    reference: "**Le corpus lui-même — L1.C18 § 5, « Le régime probatoire et son point aveugle ».** **Ce chapitre ne rouvre aucune des sources de L1.C18** et renvoie à elles : les quatre constats empiriques qu'il rapporte (contrefactuels appariés, essai contrôlé randomisé ougandais, coûts du régime probatoire, état de la comptabilité écosystémique) sont adossés aux sources ouvertes par ce chapitre-là. **C'est L1.C18 qui a déclaré les TROIS LIMITES que le présent livre est chargé de reprendre.**"
-    etat_lecture: a_requalifier
-verifications_en_attente:
-  - "**CE LIVRE N'A AUCUNE SOURCE SUR LA FRAUDE ELLE-MÊME.** Il ouvre une étude sur
-     l'INTÉGRITÉ d'un dispositif de crédits, ce qui n'est pas la même chose : les
-     auteurs concluent à une **surestimation méthodologique**, non à une fraude, et
-     écrivent que les promoteurs ont pu surestimer **« (unintentionally) »**.
-     **LE CORPUS NE DOIT PAS PRÉSENTER CE RÉSULTAT COMME UNE FRAUDE**, et ce
-     chapitre ne le fait pas. **ACQUISITION DE RANG 1 : la littérature sur les
-     architectures de fraude documentées — fraude carrousel sur les quotas
-     d'émission, falsification de relevés de terrain, capture de certificateur.**"
-  - "**AUCUN MODÈLE D'ADVERSAIRE N'EXISTE DANS LE CORPUS, ET CE LIVRE NE PEUT PAS
-     COMMENCER SANS LUI.** Toute architecture de fraude suppose quelqu'un qui
-     gagne quelque chose. **Le corpus n'a jamais établi QUI gagne QUOI à falsifier
-     une qualification régénérative**, ni comment ce gain diffère entre le régime
-     des états physiques et celui des audits de moyens. **C'est le premier travail
-     du livre, et il n'est pas fait.**"
-  - "**LES COÛTS DU RÉGIME PROBATOIRE SONT REPRIS DE L1.C18 ET NON REVÉRIFIÉS.**
-     Les fourchettes citées — 18 % à 30 %, puis 4 % à 10 %, jusqu'à 25 % de
-     l'annuité — proviennent d'une source ouverte par ce chapitre-là. **Le présent
-     livre les emploie pour un usage que L1.C18 ne leur donnait pas** — en faire un
-     PARAMÈTRE DE FRAUDE et non une ligne budgétaire — **et cet emploi est une
-     inférence du corpus.**"
-  - "**LE MANUSCRIT LU N'EST PAS LA VERSION DE RÉFÉRENCE**, et le corpus n'a pas
-     ouvert les tableaux supplémentaires auxquels le texte renvoie pour les
-     chiffres de crédits émis. **Collationnement obligatoire avant tout usage
-     citable des proportions.**"
-  - "**L'ACQUISITION DE RANG 1 EST FAITE LE MÊME JOUR PAR L15.C02, ET ELLE DÉPLACE
-     L'OBJET DU LIVRE.** La première architecture de fraude documentée sur un
-     instrument environnemental **n'a touché ni à un écosystème, ni à un relevé,
-     ni à un scénario de référence** : les quotas étaient authentiques, et c'est
-     **la taxe sur la valeur ajoutée acquittée lors de leur transfert** qui a été
-     détournée. **DEUX ARCHITECTURES SONT DÉSORMAIS TENUES, ET AUCUNE DES DEUX
-     N'ATTAQUE LA MESURE DE LA NATURE** — l'une manipule le cadre de comparaison,
-     l'autre la fiscalité du transfert. **LE CORPUS GARDAIT LA FORÊT.**
-     **CE QUI RESTE DONC ENTIER : la fraude MÉTROLOGIQUE** — capture de
-     certificateur, falsification de relevés — **qui est celle que le motif de
-     registre de ce livre nommait, et dont le corpus n'a toujours aucune source.**"
-  - "**LA TROISIÈME ARCHITECTURE EST OUVERTE LE MÊME JOUR PAR L15.C03, ET LE MODÈLE
-     D'ADVERSAIRE RÉCLAMÉ PAR CE CHAPITRE PREND UNE FORME QUE LE CORPUS N'ATTENDAIT
-     PAS.** Trois architectures sont tenues — **la ligne de base** (fausse
-     qualification sans tricheur), **la fiscalité du transfert** (tricheurs
-     n'ayant pas touché à l'objet protégé), **et la mesure** (l'objet mesuré se
-     comporte autrement pendant la mesure). **DANS AUCUN DES TROIS CAS
-     L'ADVERSAIRE N'ATTAQUE LA GRANDEUR ÉCOLOGIQUE ELLE-MÊME** : il attaque le
-     cadre qui la compare, la fiscalité qui la transfère, ou le moment où on la
-     regarde. **LE CORPUS PROTÉGEAIT LA MESURE ; LES TROIS FRAUDES DOCUMENTÉES
-     PASSENT À CÔTÉ D'ELLE.** **RESTE ENTIER LE TROISIÈME TERME DU MOTIF DE
-     REGISTRE : LA CAPTURE DU RÉGULATEUR**, seule limite de L1.C18 § 5 que le
-     corpus n'a documentée d'aucune manière."
-  - "**QUATRIÈME ARCHITECTURE OUVERTE LE MÊME JOUR PAR L15.C04, ET ELLE CONFIRME LE
-     SCHÉMA DE CE CHAPITRE PAR UN AUTRE OBJET.** Le conflit d'intérêts du
-     certificateur est documenté par une commission d'enquête officielle, qui le
-     nomme comme cause — **le modèle où l'émetteur paie sa notation** — mais lui
-     adjoint **six manquements qui ne sont PAS des conflits d'intérêts** :
-     insuffisance d'effectifs, modèles périmés, délégation de la vérification à des
-     tiers, absence de conservation documentaire, examen insuffisant, opacité du
-     procédé. **UN CERTIFICATEUR INDÉPENDANT MAIS SOUS-DOTÉ, TRAVAILLANT SUR DES
-     MODÈLES PÉRIMÉS ET DES DONNÉES QU'IL NE VÉRIFIE PAS, PRODUIT LES MÊMES
-     RÉSULTATS QU'UN CERTIFICATEUR EN CONFLIT — SANS AVOIR BESOIN D'UN MAUVAIS
-     MOTIF.** **C'est exactement la proposition fondatrice de ce chapitre, vérifiée
-     sur un quatrième objet.** **MAIS CE N'EST TOUJOURS PAS LA CAPTURE DU
-     RÉGULATEUR : un certificateur payé par ceux qu'il note est en CONFLIT, un
-     régulateur capturé est RETOURNÉ.**"
-resume: "Ce chapitre ouvre le livre chargé de recenser les architectures de fraude, de détecter les formes émergentes et d'éprouver en permanence le dispositif et ses contrôleurs, et il commence par une correction de cadrage que le corpus doit à sa propre documentation. L'examen de vingt-six projets de déforestation évitée sur trois continents, par contrôles synthétiques, établit que la plupart n'ont pas réduit significativement la déforestation et que, pour ceux qui l'ont fait, les réductions furent nettement inférieures aux montants revendiqués, un vingtième environ des crédits attendus correspondant à une réduction additionnelle. Or les auteurs attribuent cet écart à la construction des scénarios de référence et non à une destruction dissimulée, et ils précisent que la surestimation a pu être involontaire. Le chapitre en tire que la vulnérabilité dominante du dispositif le plus proche ne réside pas dans le terrain mais dans le cadre de comparaison. Il établit ensuite que le dispositif examiné par ce corpus a répondu à cette vulnérabilité en abandonnant le contrefactuel au profit d'états physiques constatés, et que cette réponse est juste mais déplace la surface d'attaque au lieu de la réduire, puisqu'elle la reporte sur le capteur, sur le relevé de terrain que le livre premier déclarait lui-même exposé à la falsification locale, et sur une incertitude de mesure que ce même livre chiffre entre vingt et cinquante pour cent. Il montre que le second régime probatoire, celui des activités sociales évaluées sur des moyens, ramène la capacité documentaire comme critère discriminant. Il propose enfin de traiter le coût du contrôle comme un paramètre de fraude et non comme une ligne budgétaire, et déclare que le livre ne peut pas commencer sans un modèle d'adversaire que le corpus n'a jamais construit."
+    reference: "T. A. P. West, S. Wunder, E. O. Sills, J. Börner, S. W. Rifai, A. N. Neidermeier, G. Frey et A. Kontoleon, « Action needed to make carbon offsets from tropical forest conservation work for climate change mitigation », préprint à lignes numérotées, 2023, avec ses Supplementary Materials. ENTRÉE CRÉÉE le 2026-10-01 : l'ancienne entrée S1 (cette pièce, sans exemplaire nommé), `a_requalifier`, est retirée ; l'ancienne entrée S2 (le corpus lui-même, L1.C18 § 5), `a_requalifier`, est retirée par la règle 12 et devient au corps des renvois à L1.C18 § 5, vérifié ; aucun numéro n'est réattribué. OUVERTE le 2026-10-01 sur l'exemplaire du Codex (2026-09-08/acquisitions-claude/west-2023-redd-offsets.pdf, 61 pages, 2 668 891 octets, SHA-256 8CF693BDEBDA3BD40EE8F548F2E65550E250827C0DCD6FC568067DFBC952D01A), à couche de texte, le même que L1.C18 [S18] identifie. L'ancienne entrée le disait pris au dépôt de l'université de Cambridge ; la pièce ne porte aucune mention de dépôt, de version ni de droits. DROITS : aucune mention dans la pièce ; citation courte, avec attribution. LU le 2026-10-01 : le texte principal en entier, pages PDF 1 à 10, références comprises ; des Supplementary Materials, la description de l'échantillon (page PDF 12) et le tableau S4 (pages PDF 38 et 39). NON LU : le reste des Supplementary Materials, méthodes, figures S1 à S14, tableaux S1 à S3 et S5 à S12, annexe A. Extraction pdftotext -raw, numéros de ligne écartés. Passages lus, au mot. « We examined the impacts of 26 such project sites in six countries on three continents using synthetic control methods for causal inference » ; « most projects have not significantly reduced deforestation. For projects that did, reductions were substantially lower than claimed » ; « This reflects differences between the project ex-ante baselines and ex-post counterfactuals based on observed deforestation in control areas » (page PDF 1) ; « Baselines could also be opportunistically inflated by profiteers seeking to maximize the volume of offsets issued by a project » (page PDF 2) ; « Our final sample was thus reduced to 26 project sites » ; « Eight of the remaining 26 project sites showed some evidence of additional reductions in deforestation » (page PDF 3) ; « These implications are based on the 18 out of 26 projects with sufficient publicly available information about baseline deforestation rates » ; « up to 89 million carbon offsets could potentially have been generated by these 18 REDD+ projects through 2020 » ; « Yet, 60.2 million of these offsets (68%) would have originated from projects that have not significantly reduced deforestation » ; « only 5.4 million (6.1%) of the 89 million expected offsets from the REDD+ projects would likely be associated with additional carbon emission reductions » ; « As of November 2021, those 18 REDD+ projects had issued 62 million carbon-offset credits » ; « at least 14.6 million (24%) have already been used by individuals or organizations around the world to offset their greenhouse gas emissions » (page PDF 5) ; « poor foresight, adverse site selection, limited room for adjustments over time, and “gaming.” » ; « projects may have (unintentionally) overestimated future deforestation pressures » ; « may have been opportunistically exploited to maximize revenues from offset sales » ; « those control areas could be manipulated » (page PDF 7) ; « One alternative would be to require projects to adopt transparent ex-ante jurisdictional baselines that are pre-established by government agencies » ; « the risk of adverse site selection would remain » ; « Another possible explanation for limited additionality is poor performance by the projects » ; « our results indicate that currently approved methodologies do not guarantee additionality » (page PDF 8) ; « some voluntary projects have effectively reduced deforestation (34), particularly in Peru » (page PDF 9) ; « Table S4. VCS-certified REDD+ projects: carbon offsets issued and retired as of November 2021 » (page PDF 38). CE QUE LA PIÈCE DIT CONTRE L'USAGE QUI EN EST FAIT : trois choses. Elle donne quatre causes à l'écart, dont le jeu opportuniste sur les méthodes : la première version écrivait que les auteurs écartaient l'intention. Elle ne propose pas d'abandonner le contrefactuel, mais de le construire après coup ou de le confier à une juridiction, et elle écrit que certains projets, au Pérou surtout, ont réduit la déforestation. Et ses chiffres de crédits portent sur dix-huit projets sur vingt-six."
+    etat_lecture: ouverte
+    date_verification: 2026-10-01
+verifications_en_attente: []
+  # PASSE DE SOURCES DU 2026-10-01 — lot 5 de l'anneau du Livre 1, sur l'ordre de l'auteur du
+  # même jour (« passe au lot 5 »). Règles V2 et W2 de l'auteur (2026-09-28), règle 12, règle
+  # éditoriale du 2026-09-08. STATUT ET TITRE INCHANGÉS. Six sections numérotées conservées.
+  # FERMETURES : aucune ne vise cette pièce.
+  # CE QUE LE LIVRE 1 ÉCRIT DE CE CHAPITRE : L1.C18, vérifié, le porte dans sa liste de
+  # renvois, sans phrase qui le sollicite.
+  # DEUX ENTRÉES RETIRÉES (S1, la pièce sans exemplaire nommé ; S2, le corpus lui-même, par la
+  # règle 12) ; aucun numéro réattribué. UNE ENTRÉE CRÉÉE ET OUVERTE : S3, la même pièce, texte
+  # principal lu en entier. Les appels [S2] deviennent des renvois à L1.C18 § 5, vérifié, qui
+  # porte le livre de l'auteur ouvert.
+  # CE QUE LA LECTURE A CHANGÉ, avec trace au corps : § 1, les auteurs « écartant explicitement
+  # l'intention » — ils donnent quatre causes, dont le jeu opportuniste ; § 2, la réponse du livre
+  # n'est pas celle que la pièce propose, et « avant que l'étude ne paraisse » sort, aucune pièce
+  # ne datant ce choix ; § 2 (3), les fourchettes de coût sortent, L1.C18 ne les portant plus ;
+  # § 3, la phrase citée de L1.C18 n'y est plus ; ouverture, le motif du registre nomme la
+  # capture du régulateur.
+  # CORRECTIONS DE RÉDACTION, dont la trace est ici : le résumé disait l'incertitude chiffrée
+  # entre vingt et cinquante pour cent, marge retirée par D105, et un vingtième des crédits là où
+  # la pièce écrit 6,1 % ; les renvois à L11.C30 et L18.C15 donnent l'ancre et l'état ; le § 5
+  # renvoie aux trois architectures ouvertes depuis ; les capitales d'insistance sont ramenées au
+  # gras et les citations rendues dans la casse de la pièce.
+  # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 6 l'écrit. Le § 1 corrige ce que l'item disait des auteurs : ils donnent quatre causes à l'écart, dont le jeu opportuniste, et n'écartent pas l'intention (page PDF 7) [S3]. Le § 5 renvoie à L15.C02, L15.C03 et L15.C04 pour les architectures ouvertes depuis.
+  # Texte d'origine :
+  #   - "**CE LIVRE N'A AUCUNE SOURCE SUR LA FRAUDE ELLE-MÊME.** Il ouvre une étude sur
+  #   l'INTÉGRITÉ d'un dispositif de crédits, ce qui n'est pas la même chose : les
+  #   auteurs concluent à une **surestimation méthodologique**, non à une fraude, et
+  #   écrivent que les promoteurs ont pu surestimer **« (unintentionally) »**.
+  #   **LE CORPUS NE DOIT PAS PRÉSENTER CE RÉSULTAT COMME UNE FRAUDE**, et ce
+  #   chapitre ne le fait pas. **ACQUISITION DE RANG 1 : la littérature sur les
+  #   architectures de fraude documentées — fraude carrousel sur les quotas
+  #   d'émission, falsification de relevés de terrain, capture de certificateur.**"
+  # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 5 en fait le premier travail du livre, et le § 6 le dit.
+  # Texte d'origine :
+  #   - "**AUCUN MODÈLE D'ADVERSAIRE N'EXISTE DANS LE CORPUS, ET CE LIVRE NE PEUT PAS
+  #   COMMENCER SANS LUI.** Toute architecture de fraude suppose quelqu'un qui
+  #   gagne quelque chose. **Le corpus n'a jamais établi QUI gagne QUOI à falsifier
+  #   une qualification régénérative**, ni comment ce gain diffère entre le régime
+  #   des états physiques et celui des audits de moyens. **C'est le premier travail
+  #   du livre, et il n'est pas fait.**"
+  # SOLDÉE le 2026-10-01 — LES CHIFFRES SORTENT. L1.C18 ne les porte plus : son alignement a retiré les chiffres de coût du régime probatoire et conservé le constat qualitatif (Q7.4, au commentaire d'en-tête de L1.C18) ; aucune pièce ouverte ne les porte. Le § 2 garde le constat, avec la trace de la première version.
+  # Texte d'origine :
+  #   - "**LES COÛTS DU RÉGIME PROBATOIRE SONT REPRIS DE L1.C18 ET NON REVÉRIFIÉS.**
+  #   Les fourchettes citées — 18 % à 30 %, puis 4 % à 10 %, jusqu'à 25 % de
+  #   l'annuité — proviennent d'une source ouverte par ce chapitre-là. **Le présent
+  #   livre les emploie pour un usage que L1.C18 ne leur donnait pas** — en faire un
+  #   PARAMÈTRE DE FRAUDE et non une ligne budgétaire — **et cet emploi est une
+  #   inférence du corpus.**"
+  # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 6 l'écrit. Les tableaux supplémentaires sont dans l'exemplaire, et le tableau S4 est lu (pages PDF 38 et 39) ; le chapitre n'en recalcule pas les totaux des dix-huit projets.
+  # Texte d'origine :
+  #   - "**LE MANUSCRIT LU N'EST PAS LA VERSION DE RÉFÉRENCE**, et le corpus n'a pas
+  #   ouvert les tableaux supplémentaires auxquels le texte renvoie pour les
+  #   chiffres de crédits émis. **Collationnement obligatoire avant tout usage
+  #   citable des proportions.**"
+  # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 5 renvoie à L15.C02, en brouillon.
+  # Texte d'origine :
+  #   - "**L'ACQUISITION DE RANG 1 EST FAITE LE MÊME JOUR PAR L15.C02, ET ELLE DÉPLACE
+  #   L'OBJET DU LIVRE.** La première architecture de fraude documentée sur un
+  #   instrument environnemental **n'a touché ni à un écosystème, ni à un relevé,
+  #   ni à un scénario de référence** : les quotas étaient authentiques, et c'est
+  #   **la taxe sur la valeur ajoutée acquittée lors de leur transfert** qui a été
+  #   détournée. **DEUX ARCHITECTURES SONT DÉSORMAIS TENUES, ET AUCUNE DES DEUX
+  #   N'ATTAQUE LA MESURE DE LA NATURE** — l'une manipule le cadre de comparaison,
+  #   l'autre la fiscalité du transfert. **LE CORPUS GARDAIT LA FORÊT.**
+  #   **CE QUI RESTE DONC ENTIER : la fraude MÉTROLOGIQUE** — capture de
+  #   certificateur, falsification de relevés — **qui est celle que le motif de
+  #   registre de ce livre nommait, et dont le corpus n'a toujours aucune source.**"
+  # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 5 renvoie à L15.C03, en brouillon. La capture du régulateur n'est pas le troisième terme du motif du registre, qui la nomme en premier, ni l'une des trois limites que L1.C18 § 5 rapporte.
+  # Texte d'origine :
+  #   - "**LA TROISIÈME ARCHITECTURE EST OUVERTE LE MÊME JOUR PAR L15.C03, ET LE MODÈLE
+  #   D'ADVERSAIRE RÉCLAMÉ PAR CE CHAPITRE PREND UNE FORME QUE LE CORPUS N'ATTENDAIT
+  #   PAS.** Trois architectures sont tenues — **la ligne de base** (fausse
+  #   qualification sans tricheur), **la fiscalité du transfert** (tricheurs
+  #   n'ayant pas touché à l'objet protégé), **et la mesure** (l'objet mesuré se
+  #   comporte autrement pendant la mesure). **DANS AUCUN DES TROIS CAS
+  #   L'ADVERSAIRE N'ATTAQUE LA GRANDEUR ÉCOLOGIQUE ELLE-MÊME** : il attaque le
+  #   cadre qui la compare, la fiscalité qui la transfère, ou le moment où on la
+  #   regarde. **LE CORPUS PROTÉGEAIT LA MESURE ; LES TROIS FRAUDES DOCUMENTÉES
+  #   PASSENT À CÔTÉ D'ELLE.** **RESTE ENTIER LE TROISIÈME TERME DU MOTIF DE
+  #   REGISTRE : LA CAPTURE DU RÉGULATEUR**, seule limite de L1.C18 § 5 que le
+  #   corpus n'a documentée d'aucune manière."
+  # DÉPLACÉE VERS « PORTÉE » le 2026-10-01 — RÈGLE W2. Le § 5 renvoie à L15.C04, en brouillon.
+  # Texte d'origine :
+  #   - "**QUATRIÈME ARCHITECTURE OUVERTE LE MÊME JOUR PAR L15.C04, ET ELLE CONFIRME LE
+  #   SCHÉMA DE CE CHAPITRE PAR UN AUTRE OBJET.** Le conflit d'intérêts du
+  #   certificateur est documenté par une commission d'enquête officielle, qui le
+  #   nomme comme cause — **le modèle où l'émetteur paie sa notation** — mais lui
+  #   adjoint **six manquements qui ne sont PAS des conflits d'intérêts** :
+  #   insuffisance d'effectifs, modèles périmés, délégation de la vérification à des
+  #   tiers, absence de conservation documentaire, examen insuffisant, opacité du
+  #   procédé. **UN CERTIFICATEUR INDÉPENDANT MAIS SOUS-DOTÉ, TRAVAILLANT SUR DES
+  #   MODÈLES PÉRIMÉS ET DES DONNÉES QU'IL NE VÉRIFIE PAS, PRODUIT LES MÊMES
+  #   RÉSULTATS QU'UN CERTIFICATEUR EN CONFLIT — SANS AVOIR BESOIN D'UN MAUVAIS
+  #   MOTIF.** **C'est exactement la proposition fondatrice de ce chapitre, vérifiée
+  #   sur un quatrième objet.** **MAIS CE N'EST TOUJOURS PAS LA CAPTURE DU
+  #   RÉGULATEUR : un certificateur payé par ceux qu'il note est en CONFLIT, un
+  #   régulateur capturé est RETOURNÉ.**"
+resume: "Ce chapitre ouvre le livre chargé de recenser les architectures de fraude, de détecter les formes émergentes et d'éprouver en permanence le dispositif et ses contrôleurs, et il commence par une correction de cadrage que le corpus doit à sa propre documentation. L'examen de vingt-six sites de projets de déforestation évitée sur trois continents, par contrôles synthétiques, établit que la plupart n'ont pas réduit significativement la déforestation et que, pour ceux qui l'ont fait, les réductions furent nettement inférieures aux montants revendiqués ; pour les dix-huit projets dont les scénarios sont publiés, six pour cent environ des crédits attendus correspondraient à une réduction additionnelle. Les auteurs attribuent l'écart à la construction des scénarios de référence, pour quatre causes qu'ils ne pondèrent pas, dont une surestimation qui a pu être involontaire et un jeu opportuniste sur les méthodes ; la première version écrivait qu'ils écartaient l'intention. Le chapitre en tire que la vulnérabilité dominante du dispositif le plus proche ne réside pas dans le terrain mais dans le cadre de comparaison, et qu'une fausse qualification massive peut se produire sans tricheur. Il établit ensuite que le livre de l'auteur a répondu à cette vulnérabilité en abandonnant le contrefactuel au profit d'états physiques constatés, réponse que l'étude ne propose pas, et que cette réponse déplace la surface d'attaque au lieu de la réduire, vers le relevé de terrain, que le livre déclare lui-même exposé à la falsification locale, et vers une incertitude de mesure qu'aucune pièce ouverte ne chiffre. Il montre que le second régime probatoire, celui des activités sociales évaluées sur des moyens, ramène la capacité documentaire comme critère discriminant. Il propose enfin de traiter le coût du contrôle comme un paramètre de fraude et non comme une ligne budgétaire, les fourchettes chiffrées qu'il citait étant retirées faute de pièce, et déclare que le livre ne peut pas commencer sans un modèle d'adversaire que le corpus n'a jamais construit."
 concepts: [additionnalite, qualification_regenerative, bareme, regle_contre_discretion, robustesse]
 renvois: [L1.C18, L11.C13, L11.C30, L18.C10, L18.C13, L18.C15, L25.C07, L15.C02, L15.C03, L15.C04]
 ---
 
 # Ce que ce livre doit établir
 
-::etat:: **Ce livre a une fonction déclarée au registre** : recenser les architectures de fraude connues, détecter les formes émergentes, **et éprouver en permanence le dispositif ET SES CONTRÔLEURS.** **Il a aussi un motif nommé** : les limites que L1.C18 § 5 a **assumées** — mesure asymétrique exposée à la falsification locale, régimes probatoires bifurqués, et **un État à la fois audité et bénéficiaire.**
+::etat:: **Ce livre a une fonction déclarée au registre** : recenser les architectures de fraude connues, détecter les formes émergentes, **et éprouver en permanence le dispositif et ses contrôleurs.** **Il a aussi un motif nommé** : la capture du régulateur, la falsification des relevés de terrain et le double rôle de l'État, que le registre renvoie aux limites assumées en L1.C18 § 5. **La première version de ce chapitre donnait pour motif les trois limites que L1.C18 § 5 rapporte du livre de l'auteur** — mesure asymétrique exposée à la falsification locale, régimes probatoires bifurqués, État à la fois audité et bénéficiaire ; **le registre nomme en premier la capture du régulateur, qui n'est pas l'une des trois.**
 
 ::etat:: **Il commence par une correction de cadrage, et le corpus la doit à sa propre documentation.**
 
 ## 1. La fraude n'est pas où le livre la cherchait
 
-::etat:: **Vingt-six sites de projets de déforestation évitée, six pays, trois continents, méthode des contrôles synthétiques** [S1]. **Le résultat** : *« **most projects have not significantly reduced deforestation**. For projects that did, **reductions were substantially lower than claimed**. »*
+::etat:: **Vingt-six sites de projets de déforestation évitée, six pays, trois continents, méthode des contrôles synthétiques** [S3]. **Le résultat** : « most projects have not significantly reduced deforestation. For projects that did, reductions were substantially lower than claimed » [S3].
 
-::etat:: **Et l'ordre de grandeur est donné.** Sur environ **89 millions** de crédits attendus d'après les estimations *ex ante* des projets, **60,2 millions (68 %)** proviendraient de projets n'ayant pas réduit la déforestation, et **seuls 5,4 millions — 6,1 % — seraient associés à une réduction additionnelle** [S1]. Dix-huit projets avaient émis **62 millions de crédits** ; **au moins 14,6 millions (24 %) avaient déjà été utilisés** pour compenser des émissions.
+::etat:: **Et l'ordre de grandeur est donné, pour les dix-huit projets dont les scénarios de référence sont publiés.** Sur environ 89 millions de crédits attendus d'après les estimations *ex ante* des projets, 60,2 millions (68 %) proviendraient de projets n'ayant pas réduit significativement la déforestation, et **seuls 5,4 millions — 6,1 % — seraient associés à une réduction additionnelle** [S3]. En novembre 2021, ces dix-huit projets avaient émis 62 millions de crédits, dont au moins 14,6 millions (24 %) déjà utilisés pour compenser des émissions [S3].
 
-::etat:: **MAIS LA CAUSE N'EST PAS CELLE QU'ON ATTENDAIT, ET LES AUTEURS LA NOMMENT** : l'écart *« reflects **differences between the project ex-ante baselines and ex-post counterfactuals** based on observed deforestation in control areas »*. **Ce n'est pas du couvert détruit en cachette : c'est un SCÉNARIO DE RÉFÉRENCE mal construit.**
+::etat:: **Mais la cause n'est pas celle qu'on attendait, et les auteurs la nomment** : l'écart « reflects differences between the project ex-ante baselines and ex-post counterfactuals based on observed deforestation in control areas » [S3]. **Ce n'est pas du couvert détruit en cachette : c'est un scénario de référence mal construit.** La pièce envisage aussi une mauvaise exécution des projets, sans pouvoir la mesurer [S3].
 
-::etat:: **Et il faut ajouter ce que les auteurs ajoutent, sous peine de fausser leur résultat : ils écrivent que les promoteurs ont pu surestimer les pressions futures « (UNINTENTIONALLY) ».** **Ce livre ouvre donc sur une étude d'INTÉGRITÉ, non de fraude.** **Le corpus ne doit pas confondre les deux, et ce chapitre ne les confond pas.**
+::etat:: **Et elle donne à ces scénarios quatre causes, qu'elle ne pondère pas** : « poor foresight, adverse site selection, limited room for adjustments over time, and “gaming.” » [S3]. La première peut être involontaire — les projets « may have (unintentionally) overestimated future deforestation pressures » ; la quatrième ne l'est pas : la souplesse des méthodes « may have been opportunistically exploited to maximize revenues from offset sales » [S3]. **La première version de ce chapitre écrivait que les auteurs écartaient l'intention, et que le livre ouvrait sur une étude d'intégrité, non de fraude. La pièce ne le permet pas : elle n'écarte pas l'intention, elle ne la mesure pas.** Le corpus ne présente pas pour autant ce résultat comme une fraude, que la pièce n'établit pas.
 
-::hypothese:: **Ce qui en ressort est plus dérangeant qu'une fraude, et c'est la proposition fondatrice de ce livre.** **Un dispositif peut produire massivement de la fausse qualification SANS QUE PERSONNE NE TRICHE** — par le seul choix d'un cadre de comparaison. **Une architecture de la triche n'a donc pas besoin de tricheur : il lui suffit d'un paramètre que personne n'est chargé de contester.**
+::hypothese:: **Ce qui en ressort est plus dérangeant qu'une fraude, et c'est la proposition fondatrice de ce livre.** **Un dispositif peut produire massivement de la fausse qualification sans que personne ne triche** — par le seul choix d'un cadre de comparaison. La pièce le permet pour la première de ses causes, non pour toutes. **Une architecture de la triche n'a donc pas besoin de tricheur : il lui suffit d'un paramètre que personne n'est chargé de contester.**
 
 ## 2. Ce que le dispositif a fait de cette vulnérabilité, et ce que ça lui a coûté
 
-::etat:: **L1.C18 a abandonné le contrefactuel** [S2], qualifié de *fiction invérifiable*, **au profit d'états physiques constatés** : hectares maintenus ou régénérés, carbone du sol par sondage, qualité de l'eau et de l'air, populations d'espèces.
+::etat:: **Le livre de l'auteur abandonne le contrefactuel**, qu'il qualifie d'invérifiable, **au profit d'états physiques constatés** : hectares maintenus ou régénérés, carbone du sol par sondage, qualité de l'eau et de l'air, populations d'espèces. L1.C18 § 5, vérifié, le rapporte ; le livre y est ouvert.
 
-::hypothese:: **La réponse est juste, et elle vise exactement la vulnérabilité que S1 documente.** **Le corpus doit l'inscrire à l'actif du dispositif : sur ce point précis, il a raison contre le marché du carbone, et il a raison AVANT que l'étude ne paraisse.**
+::etat:: **La pièce ne propose pas cette réponse.** Elle propose de construire le contrefactuel après coup, sur des zones de contrôle observées, ou de confier le scénario de référence à une juridiction ; elle note que ces zones de contrôle « could be manipulated », et que, même avec un scénario juridictionnel, « the risk of adverse site selection would remain » [S3].
 
-::hypothese:: **Mais la surface d'attaque est DÉPLACÉE, non réduite, et L1.C18 le dit lui-même sans en tirer la conséquence.** Trois reports :
+::hypothese:: **La réponse du livre vise pourtant la vulnérabilité que la pièce documente, et le corpus l'inscrit à l'actif du dispositif** : elle ne construit pas mieux le contrefactuel, elle s'en passe. **La première version écrivait que le dispositif avait raison *avant que l'étude ne paraisse* ; aucune pièce du corpus ne date ce choix du livre avant l'étude, et la phrase sort.**
 
-::etat:: **(1) SUR LE RELEVÉ DE TERRAIN.** *« la santé biologique des sols et la biodiversité sous canopée échappent aux capteurs orbitaux et exigent des relevés de terrain, coûteux et **exposés à la falsification locale** »* [S2]. **Le livre premier a écrit le mot, et il l'a écrit comme une limite assumée. C'est ici un objet d'étude.**
+::hypothese:: **Mais la surface d'attaque est déplacée, non réduite, et L1.C18 le dit lui-même sans en tirer la conséquence.** Trois reports :
 
-::etat:: **(2) SUR L'INCERTITUDE DE MESURE.** **L'amplitude de la marge n'est chiffrée par aucune source ouverte** : le cadre statistique international nomme quatre catégories d'incertitude sans publier d'intervalle, et la marge de 20 % à 50 % que L1.C18 avançait — et que ce chapitre lui empruntait — a été retirée le 2026-09-17 sur décision de l'auteur (D105) [S2]. **Ce que ce livre retient n'est donc pas une amplitude, mais un mécanisme : ce qui se loge dans une marge d'erreur ne se distingue pas d'une variation réelle. L'amplitude reste à établir, et c'est une acquisition à faire avant d'en tirer un ordre de grandeur de fraude.**
+::etat:: **Premier report : le relevé de terrain.** L1.C18 § 5, vérifié, rapporte que le livre de l'auteur tient la santé biologique des sols et la biodiversité sous canopée pour hors de portée des capteurs orbitaux, et les relevés de terrain qu'elles exigent pour coûteux et **exposés à la falsification locale**. **L1.C18 l'écrit comme une limite que le livre assume. C'est ici un objet d'étude.**
 
-::etat:: **(3) SUR LE COÛT DU CONTRÔLE.** 18 % à 30 % des budgets en instruction les premières années, 4 % à 10 % en vérification annuelle récurrente, **et jusqu'à 25 % de l'annuité quand le protocole exige ce que le satellite ne fournit pas** [S2].
+::etat:: **Deuxième report : l'incertitude de mesure.** **L'amplitude de la marge n'est chiffrée par aucune source ouverte** : L1.C18 § 5 rapporte que le cadre statistique international de la comptabilité des écosystèmes nomme quatre catégories d'incertitude sans publier d'intervalle, et la marge chiffrée que L1.C18 avançait — et que ce chapitre lui empruntait — a été retirée par la décision D105, aucune pièce ne la portant. **Ce que ce livre retient n'est donc pas une amplitude, mais un mécanisme : ce qui se loge dans une marge d'erreur ne se distingue pas d'une variation réelle. L'amplitude reste à établir, et c'est une acquisition à faire avant d'en tirer un ordre de grandeur de fraude.**
 
-::hypothese:: **Ce troisième point doit changer de statut, et c'est la proposition de méthode de ce livre : LE COÛT DU CONTRÔLE EST UN PARAMÈTRE DE FRAUDE, NON UNE LIGNE BUDGÉTAIRE.** **Un contrôle qui absorbe le quart du versement sera économisé** — par le payeur qui allège le protocole, ou par le payé qui n'appelle pas l'expert. **Et les deux ont le même intérêt à ce qu'il ne vienne pas.** **C'est la collusion que L1.C18 croyait avoir supprimée en supprimant l'acheteur privé : elle ne disparaît pas, elle change de motif — non plus le profit, mais l'économie de procédure.**
+::etat:: **Troisième report : le coût du contrôle.** **La première version chiffrait ce coût — en instruction, en vérification annuelle, et pour les relevés que le satellite ne fournit pas — et attribuait ses fourchettes à L1.C18. L1.C18 ne les porte plus : son alignement a retiré les chiffres de coût du régime probatoire et conservé le constat qualitatif, et aucune pièce ouverte ne les porte. Les chiffres sortent.** Ce qui reste est le constat : les relevés de terrain sont coûteux.
+
+::hypothese:: **Ce troisième point doit changer de statut, et c'est la proposition de méthode de ce livre : le coût du contrôle est un paramètre de fraude, non une ligne budgétaire.** **Un contrôle coûteux sera économisé** — par le payeur qui allège le protocole, ou par le payé qui n'appelle pas l'expert. **Et les deux ont le même intérêt à ce qu'il ne vienne pas.** **C'est la collusion que le livre de l'auteur, selon L1.C18 § 5, tient pour supprimée avec l'acheteur privé : elle ne disparaît pas, elle change de motif — non plus le profit, mais l'économie de procédure.**
 
 ## 3. Le second régime est plus exposé, et le corpus l'a déjà écrit
 
-::etat:: **L1.C18 assume deux régimes probatoires** [S2]. Les communs écologiques s'évaluent par **états physiques**. Les activités sociales — éducation, soin, accompagnement, cohésion — relèvent d'**audits de moyens**, de ratios d'encadrement et de certification de statut.
+::etat:: **Le livre de l'auteur assume deux régimes probatoires, et L1.C18 § 5 le rapporte.** Les communs écologiques s'évaluent par **états physiques**. Les activités sociales — éducation, soin, accompagnement, cohésion — relèvent d'**audits de moyens**, de ratios d'encadrement et de certifications de statut ; le livre nomme lui-même la tension, ce second régime payant des moyens et non des résultats.
 
-::hypothese:: **Le second est un régime DOCUMENTAIRE, et c'est le régime le plus anciennement fraudé de tous.** On ne falsifie pas une canopée vue du ciel ; on falsifie un ratio d'encadrement, une pièce justificative, un statut.
+::hypothese:: **Le second est un régime documentaire, et c'est le régime le plus anciennement fraudé de tous.** On ne falsifie pas une canopée vue du ciel ; on falsifie un ratio d'encadrement, une pièce justificative, un statut.
 
-::etat:: **Et le corpus a déjà tiré la conséquence, sans la ranger ici.** L1.C18 conclut que le biais de sélection est éliminé du côté des états physiques et **subsiste du côté des services** : *« P16 est soldée pour la forêt, non pour l'aidante »* [S2]. **L18.C15 l'a retrouvé par une autre voie** : le coût de la certification et de la transparence pèse le plus lourdement sur les plus petits.
+::etat:: **Et le corpus a déjà tiré la conséquence, sans la ranger ici.** L1.C18 § 5, vérifié, tient en hypothèse que le biais de sélection serait écarté du côté des états physiques et subsisterait du côté des services, la capacité à documenter y redevenant discriminante. **La première version citait de L1.C18 une phrase qu'il ne porte plus.** L18.C15 § 3, en brouillon, rapporte d'une évaluation internationale que le coût de la certification et de la transparence pèse surtout sur les petits exploitants ; sa pièce y est à requalifier.
 
-::hypothese:: **Le livre doit donc porter DEUX architectures et non une**, et elles n'ont ni les mêmes acteurs, ni les mêmes gains, ni les mêmes contrôleurs. **Traiter la fraude du dispositif comme un objet unique serait la première erreur.**
+::hypothese:: **Le livre doit donc porter deux architectures et non une**, et elles n'ont ni les mêmes acteurs, ni les mêmes gains, ni les mêmes contrôleurs. **Traiter la fraude du dispositif comme un objet unique serait la première erreur.**
 
 ## 4. L'État audité et bénéficiaire
 
-::etat:: **L1.C18 nomme le conflit et déclare le traiter** par trois moyens : indépendance de l'Office, publication intégrale des données, saisine de la Chambre par la société civile [S2].
+::etat:: **L1.C18 § 5, vérifié, rapporte que le livre nomme le conflit et déclare le traiter** par trois moyens : indépendance de l'Office, publication intégrale des données, saisine de la Chambre par la société civile.
 
-::hypothese:: **Ce livre doit éprouver ces trois moyens, et il ne peut pas les tenir pour acquis parce qu'ils sont écrits.** **L18.C15 a établi, au niveau de preuve le plus élevé, que les rapports de pouvoir déterminent « what types of knowledge are given credence ».** **Un Office indépendant qui mesure ce que l'État lui donne à mesurer n'est indépendant que de la décision, pas de la donnée.**
+::hypothese:: **Ce livre doit éprouver ces trois moyens, et il ne peut pas les tenir pour acquis parce qu'ils sont écrits.** L18.C15 § 5, en brouillon, cite d'une évaluation internationale, qui le déclare bien établi, que les interactions entre pouvoir et savoir déterminent « what types of knowledge are given credence » ; sa pièce y est à requalifier. **Un Office indépendant qui mesure ce que l'État lui donne à mesurer n'est indépendant que de la décision, pas de la donnée.**
 
 ## 5. Ce que le livre doit établir
 
-::etat:: **PREMIÈREMENT, UN MODÈLE D'ADVERSAIRE, ET IL N'EXISTE PAS.** **Qui gagne quoi à falsifier une qualification régénérative ?** Le gain diffère selon le régime : dans les états physiques, il porte sur **une surface et une durée** ; dans les audits de moyens, sur **une éligibilité**. **Tant que ce modèle n'est pas écrit, le livre ne peut rien recenser : il ne saurait pas quoi chercher.**
+::etat:: **Premièrement, un modèle d'adversaire, et il n'existe pas.** **Qui gagne quoi à falsifier une qualification régénérative ?** Le gain diffère selon le régime : dans les états physiques, il porte sur **une surface et une durée** ; dans les audits de moyens, sur **une éligibilité**. **Tant que ce modèle n'est pas écrit, le livre ne peut rien recenser : il ne saurait pas quoi chercher.**
 
-::etat:: **DEUXIÈMEMENT, LA CARTE DES POINTS DE FALSIFICATION**, régime par régime : capteur, interpolation, classification, relevé de terrain, pièce justificative, statut. **Et pour chacun : qui l'établit, qui le contrôle, qui peut le contester.**
+::etat:: **Deuxièmement, la carte des points de falsification**, régime par régime : capteur, interpolation, classification, relevé de terrain, pièce justificative, statut. **Et pour chacun : qui l'établit, qui le contrôle, qui peut le contester.**
 
-::etat:: **TROISIÈMEMENT, LE SEUIL À PARTIR DUQUEL LE CONTRÔLE NE VAUT PLUS SON COÛT.** **C'est une question chiffrable et le corpus a les ordres de grandeur ; il ne les a jamais croisés avec le montant des allocations.**
+::etat:: **Troisièmement, le seuil à partir duquel le contrôle ne vaut plus son coût.** **C'est une question chiffrable, et le corpus n'en a plus les ordres de grandeur : les fourchettes de coût sont sorties, faute de pièce (§ 2).** Il faudra les établir, puis les croiser avec le montant des allocations.
 
-::etat:: **QUATRIÈMEMENT, LES ARCHITECTURES DÉJÀ DOCUMENTÉES**, que le corpus n'a pas ouvertes : fraude carrousel sur les quotas d'émission, capture de certificateur, falsification de relevés. **Acquisition de rang 1.**
+::etat:: **Quatrièmement, les architectures déjà documentées.** Trois chapitres en brouillon en ouvrent chacun une : L15.C02, la fraude carrousel à la taxe sur la valeur ajoutée sur les quotas d'émission, qui n'a touché ni à un écosystème ni à un relevé ; L15.C03, un dispositif qui ne fonctionnait que pendant la mesure ; L15.C04, des agences de notation rémunérées par les émetteurs qu'elles notaient. **La capture du régulateur et la falsification des relevés de terrain restent sans pièce. Acquisition de premier rang.**
 
-::hypothese:: **CINQUIÈMEMENT, ET C'EST LA QUESTION QUE CE LIVRE POSE AU DISPOSITIF PLUTÔT QU'À SES FRAUDEURS : que se passe-t-il quand la fraude est DÉCOUVERTE APRÈS COUP ?** L1.C18 prévoit une restitution ordonnable. **Mais l'unité émise a circulé.** **Restituer une allocation indue suppose de reprendre une monnaie qui a déjà servi** — et **L11.C30 a établi que le corpus n'a aucune règle sur le sort des engagements pris sous un calibrage devenu faux.** **C'est le même trou, vu depuis la fraude.**
+::hypothese:: **Cinquièmement, et c'est la question que ce livre pose au dispositif plutôt qu'à ses fraudeurs : que se passe-t-il quand la fraude est découverte après coup ?** Le livre de l'auteur, selon L1.C18 § 5, prévoit une restitution ordonnable en cas de fraude. **Mais l'unité émise a circulé.** **Restituer une allocation indue suppose de reprendre une monnaie qui a déjà servi** — et L11.C30 § 4, en brouillon, laisse à l'arbitrage de l'auteur le sort des engagements pris sous un calibrage périmé, dont il expose trois branches sans en retenir aucune. **C'est le même trou, vu depuis la fraude.**
 
 ## 6. Ce que ce chapitre n'établit pas
 
-::etat:: **Il n'ouvre aucune source sur la fraude elle-même**, et l'étude qu'il ouvre porte sur l'intégrité méthodologique d'un dispositif, ses auteurs écartant explicitement l'intention.
+::etat:: **Il n'ouvre aucune source sur la fraude elle-même.** L'étude qu'il ouvre porte sur l'intégrité d'un dispositif de crédits ; ses auteurs donnent quatre causes à l'écart, dont une opportuniste, sans les pondérer ni conclure à une fraude.
 
-::etat:: **Il reprend de L1.C18 quatre constats sans les revérifier**, et **il emploie les coûts du régime probatoire pour un usage que ce chapitre ne leur donnait pas** — en faire un paramètre de fraude. **C'est une inférence du corpus.**
+::etat:: **Il reprend de L1.C18 § 5 des constats que ce chapitre-là porte sur ses pièces**, et il emploie le coût du contrôle pour un usage que L1.C18 ne lui donnait pas — en faire un paramètre de fraude. **C'est une inférence du corpus.**
 
-::etat:: **Et il lit un manuscrit d'auteur, dont la notice de dépôt annonce une licence que le document ne porte pas.** **Collationnement obligatoire, et les tableaux supplémentaires qui portent les chiffres de crédits émis ne sont pas ouverts.**
+::etat:: **Il lit un préprint, non l'article publié, et l'exemplaire ne porte aucune mention de droits.** **Collationnement obligatoire avec la version publiée avant tout usage citable des proportions.** Les tableaux supplémentaires sont dans l'exemplaire ; celui des crédits émis et retirés est lu, et le chapitre n'en recalcule pas les totaux des dix-huit projets.
+
+::etat:: **Aucun modèle d'adversaire n'est écrit** : le § 5 en fait le premier travail du livre.
