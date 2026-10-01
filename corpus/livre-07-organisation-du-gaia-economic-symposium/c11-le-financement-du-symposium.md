@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -23,7 +23,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L11.C16 § 2 : le NIVEAU de l'émission n'est pas une décision, la condition de bouclage le liant au produit du reflux, lui-même borné par la condition-limite B1 (évitement massif au-delà d'un taux compris entre −0,5 % et −1 %). Et L1.C18 § 6, qui exige « une dotation pluriannuelle sanctuarisée, soustraite au vote budgétaire annuel ». Et L7.C10 § 5 : la capture documentée des institutions statistiques passe par le budget et la mise en cause personnelle"
     etat_lecture: a_requalifier
+  # 2026-10-01 : la première phrase de cette entrée est périmée, son texte étant gardé tel que le manifeste le fixe.
+  # L11.C16 § 2, repris le 30 septembre, rapporte que le livre confie le niveau au Conseil Monétaire Mondial ; le lien
+  # au produit du reflux et la borne B1 sont portés par L11.C03 § 3 et § 5. Le § 4 est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de second rang : au § 4, L11.C16 § 2 était dit avoir établi que le niveau de l'émission n'est pas une décision, et § 4 un partage à somme quasi nulle ; le lien au produit du reflux est porté par L11.C03 § 3, L11.C16 § 2 rapporte que le livre confie le niveau au Conseil, et § 4 tient le partage pour conditionnel. L11.C03 entre aux renvois. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Son
      occurrence de « l'abandon de la monnaie sans dette au sens fort » est la TRACE
      D'UN ARBITRAGE DATÉ, rapportée de L11.C01 : c'est ce que le corpus avait établi
@@ -55,7 +61,7 @@ verifications_en_attente:
      plafonné restitue, et il faut dire à qui.** Aucun chapitre ne le traite."
 resume: "Ce chapitre enregistre un arbitrage de l'auteur rendu le six septembre en réponse à un constat du chapitre précédent, et il en tire trois conséquences dont l'une porte sur une grandeur que le corpus tenait pour acquise. L'arbitrage établit que le surplus du reflux collectif finance le Symposium, ce qui active la troisième forme que le corpus avait nommée puis mise de côté comme prématurée, le régime de base ayant été tranché la veille. Il établit d'abord que cet arbitrage répond exactement au mode de capture que le chapitre précédent avait identifié comme non traité : si aucun État membre ne vote le budget de l'institution, aucun ne peut l'affamer, et les deux précédents de capture d'institut statistique que le corpus tient perdent leur vecteur principal. Il établit ensuite qu'il crée une troisième forme de conflit d'intérêts, distincte des deux que le corpus tenait, puisque l'organe qui fixe le barème des impacts est financé par le produit de ce barème. Il établit surtout une conséquence arithmétique que personne n'avait vue : si le bouclage est une égalité, il n'y a pas de surplus, de sorte que financer l'institution sur le surplus exige que le reflux excède structurellement l'émission, et que le niveau de l'émission cesse d'être le produit du reflux pour devenir ce produit diminué des coûts institutionnels. Il pose enfin la question qui décide de tout et que l'arbitrage ne tranche pas, celle de savoir si le financement est prélevé en tête ou constitue un résidu."
 concepts: [reflux_collectif, reflux_monetaire, contrepartie_comptable, valorisation_des_communs, essentiel_insolvable, bareme]
-renvois: [L1.C18, L1.C21, L7.C05, L7.C08, L7.C10, L11.C01, L11.C02, L11.C16]
+renvois: [L1.C18, L1.C21, L7.C05, L7.C08, L7.C10, L11.C01, L11.C02, L11.C03, L11.C16]
 ---
 
 # Le financement du Symposium
@@ -94,11 +100,11 @@ renvois: [L1.C18, L1.C21, L7.C05, L7.C08, L7.C10, L11.C01, L11.C02, L11.C16]
 
 ## 4. La conséquence arithmétique, et personne ne l'avait vue
 
-::hypothese:: **C'est l'apport propre du chapitre.** L11.C16 § 2 a établi que le niveau de l'émission n'est pas une décision : **la condition de bouclage le lie au produit du reflux** [S3]. Si le bouclage est une **égalité** — le reflux couvre l'émission —, **il n'y a pas de surplus.**
+::hypothese:: **C'est l'apport propre du chapitre.** **La condition de bouclage lie le niveau de l'émission au produit du reflux** (L11.C03 § 3) [S3] ; ce paragraphe écrivait que L11.C16 § 2 avait établi que ce niveau n'est pas une décision, et L11.C16 § 2 rapporte que le livre le confie au Conseil Monétaire Mondial, qui le calcule par une formule. Si le bouclage est une **égalité** — le reflux couvre l'émission —, **il n'y a pas de surplus.**
 
 ::hypothese:: **Financer l'institution sur le surplus exige donc que le reflux excède structurellement l'émission.** Le bouclage cesse d'être une égalité pour devenir une inégalité, et **le niveau de l'émission cesse d'être « le produit du reflux » pour devenir « le produit du reflux diminué des coûts institutionnels ».**
 
-::hypothese:: **Le corpus doit corriger sa propre formulation en conséquence**, et la correction est mineure en apparence et structurelle en fait : **l'enveloppe qui finance les communs est amputée du coût de l'institution qui la distribue.** L11.C16 § 4 a établi que cette enveloppe est plafonnée et que le partage est à somme quasi nulle à saturation. **Le coût de fonctionnement du GES est donc prélevé sur ce que les membres se partagent.**
+::hypothese:: **Le corpus doit corriger sa propre formulation en conséquence**, et la correction est mineure en apparence et structurelle en fait : **l'enveloppe qui finance les communs est amputée du coût de l'institution qui la distribue.** Le livre pose un volume maximal (L11.C16 § 2), et L11.C16 § 4 tient qu'à plafond atteint ordonner des actes revient à les départager, si la demande excède le volume ; ce paragraphe écrivait qu'il avait établi un partage à somme quasi nulle. **Le coût de fonctionnement du GES est donc prélevé sur ce que les membres se partagent.**
 
 ::etat:: **Et le corpus n'a aucun ordre de grandeur.** Coût d'un office statistique mondial, d'une assemblée, d'une chambre juridictionnelle, rapporté au produit d'un prélèvement transactionnel mondial : **il ne sait pas si c'est négligeable ou significatif.** Tout le poids du paragraphe en dépend.
 
