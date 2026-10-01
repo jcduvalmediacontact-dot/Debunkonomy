@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-01
 autorite: preparatoire
 citable: false
 regime: conception
@@ -29,7 +29,13 @@ sources_primaires:
     nature: theorie
     reference: "**Le corpus lui-même.** **L1.C07**, entrée `solvabilite_anticipee` du vocabulaire : « Critère d'octroi du crédit bancaire : **probabilité estimée que l'emprunteur dégage les revenus monétaires futurs nécessaires au service du capital et de l'intérêt.** » **L11.C13 § 5**, instruisant P25 : Goodhart « frappe plus fort sur **la qualification** que sur le reflux », pour trois raisons établies — la récompense est **directe**, l'écart indicateur/effet est **plus grand**, et la détection est **plus lente**. **L1.C29**, entrée `contrepartie_comptable` : « un actif doit être **une ressource contrôlée par l'émetteur dont des avantages futurs sont attendus POUR LUI**, condition qu'une prestation déjà rendue à un tiers ne remplit pas »"
     etat_lecture: a_requalifier
+  # 2026-10-01 : le passage sur L11.C13 § 5 dit « trois raisons établies » ; le chapitre les tient en hypothèse, et sa
+  # révision comptable demande de réécrire la deuxième. Le texte de l'entrée reste tel que le manifeste le fixe ; le § 2
+  # et le § 5 sont corrigés.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
+  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 2 et § 5, L11.C13 § 5 était dit établir que Goodhart frappe plus fort sur la qualification, « le point où il frappe le plus fort », et le conflit entre publier la fonction et cacher l'indicateur était rattaché à A17 ; L11.C13 § 5 le tient en hypothèse, sous forme comparative, sa révision comptable demande de réécrire la raison tirée de l'absence de métrologie, et A17 y porte l'asymétrie des erreurs. L'entrée [S4], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   - "AUCUN BILAN N'EST SIMULÉ. Le chapitre raisonne sur la place du filtre et
      **ne produit aucune écriture**. Il ne peut donc pas dire à quel niveau
      d'exposition une institution ainsi conçue deviendrait effectivement
@@ -62,7 +68,7 @@ renvois: [L1.C07, L1.C15, L1.C18, L1.C29, L3.C01, L3.C07, L11.C13, L20.C02]
 
 ## 2. Trois endroits possibles, et le corpus n'en a instruit qu'un
 
-::hypothese:: **Le premier est la qualification des activités**, et le corpus l'a instruit — défavorablement. L11.C13 § 5 établit que l'indicateur pris pour cible **frappe plus fort sur la qualification que sur le reflux**, pour trois raisons : la récompense est **directe** — être certifié produit de la monnaie ; l'écart indicateur-effet est **plus grand**, faute de métrologie de la régénération ; et la détection est **plus lente** [S4].
+::hypothese:: **Le premier est la qualification des activités**, et le corpus l'a instruit — défavorablement. L11.C13 § 5 tient, en hypothèse, que l'indicateur pris pour cible **frappe plus fort sur la qualification que sur le reflux**, pour trois raisons : la récompense est **directe** — être certifié produit de la monnaie ; l'écart indicateur-effet est **plus grand**, faute de métrologie de la régénération ; et la détection est **plus lente** [S4]. La révision comptable du même chapitre demande de réécrire la deuxième raison : une métrologie physique de l'étendue et de l'état des écosystèmes existe, et l'objection se déplace vers la substituabilité de ses indicateurs plutôt qu'elle ne tombe.
 
 ::hypothese:: **Le deuxième est l'assiette du reflux, et il n'a jamais été examiné sous cet angle.** Ce qui est prélevé décide de ce qui circule ; **une assiette est donc un filtre en aval, là où la qualification en est un en amont.** **Le corpus ne l'a jamais dit, et c'est L11 qui doit le faire.**
 
@@ -96,7 +102,7 @@ renvois: [L1.C07, L1.C15, L1.C18, L1.C29, L3.C01, L3.C07, L11.C13, L20.C02]
 
 ::etat:: **Le plafond ne dit pas ce qu'on finance.** Il borne le risque, **il ne choisit pas entre deux demandes également recevables** — et le dispositif, lui, doit choisir, puisqu'il qualifie.
 
-::hypothese:: **Le filtre se déplace donc du bilan vers la qualification, et non hors du système.** **C'est un déplacement, pas une suppression** — et L11.C13 § 5 a établi que c'est le point où Goodhart frappe le plus fort. **Le corpus n'a pas de sortie et le dit** : arbitrage A17, où publier la fonction et cacher l'indicateur sont incompatibles.
+::hypothese:: **Le filtre se déplace donc du bilan vers la qualification, et non hors du système.** **C'est un déplacement, pas une suppression** — et L11.C13 § 5 tient, en hypothèse, que Goodhart y frappe plus fort que sur le reflux. **Le corpus n'a pas de sortie et le dit** : publier la fonction et cacher l'indicateur sont incompatibles, conflit que L11.C13 § 5 laisse à trancher. Ce paragraphe écrivait « a établi » et « le plus fort », et rattachait ce conflit à l'arbitrage A17, que L11.C13 porte pour l'asymétrie des erreurs.
 
 ::etat:: **Et le plafond ne répare pas l'érosion de l'assiette.** Une institution bornée dont la contrepartie s'évapore **est bornée et insolvable.** **Les réparations sont renvoyées à P55 et P56, que le corpus n'a pas instruites.**
 
