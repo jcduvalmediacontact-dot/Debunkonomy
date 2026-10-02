@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -32,6 +32,10 @@ sources_primaires:
     reference: "Soldes TARGET2 de l'Eurosystème — créances et engagements entre banques centrales nationales et Banque centrale européenne nés des paiements transfrontaliers, sans échéance ni mécanisme de règlement prévu, et dont le statut a fait l'objet d'une controverse publique majeure au tournant des années 2010. ANALOGIE DU CORPUS, NON DES SOURCES : elle est proposée ici pour établir qu'une banque centrale peut porter durablement une créance perpétuelle sur une contrepartie institutionnelle, et que cette situation est politiquement explosive. RÉSERVE : aucune source n'a été ouverte sur ce point ; l'analogie est à vérifier avant tout emploi, et son ampleur chiffrée n'est pas reprise"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 1, L1.C29 § 4 était dit avoir établi que le service rendu n'est porté à aucun bilan parce qu'il a été consommé par le monde ; L1.C29 § 4 retire ce motif et place la difficulté dans le contrôle, le référentiel applicable n'étant pas établi. Le reste du chapitre, qui raisonne sur le Symposium, relève du relevé de l'ordre 21.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — CE CHAPITRE N'EST PAS RENOMMÉ. Son
      occurrence est l'ALTERNATIVE QUE LE CHAPITRE MET EN BALANCE — « le statut de
      l'émission, sans dette ou financée par prélèvement, dépend entièrement de cette
@@ -104,7 +108,7 @@ renvois: [L1.C18, L1.C20, L1.C21, L1.C29, L11.C01, L19.C02]
 
 ::etat:: **À la banque centrale nationale.** Les allocations entrent à l'actif comme actif transitoire ; la monnaie nationale émise au bénéfice du prestataire sort au passif [S2]. L'écriture est équilibrée.
 
-::etat:: **Chez le prestataire.** Un dépôt en monnaie nationale apparaît. Sa contrepartie — le service rendu — n'est portée à aucun bilan, puisqu'elle a été consommée par le monde. C'est ce que L1.C29 § 4 a établi et que rien ici ne modifie.
+::etat:: **Chez le prestataire.** Un dépôt en monnaie nationale apparaît. Sa contrepartie — le service rendu — n'est portée à aucun bilan. Ce paragraphe ajoutait « puisqu'elle a été consommée par le monde », et que L1.C29 § 4 l'avait établi : L1.C29 § 4 retire ce motif, qui n'est pas le test applicable, tient en hypothèse que la difficulté est le contrôle, et écrit que le référentiel applicable n'est pas établi.
 
 ## 2. Ce que le temps fait au bilan
 
