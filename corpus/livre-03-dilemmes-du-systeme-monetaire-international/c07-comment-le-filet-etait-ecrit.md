@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -36,6 +36,10 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5 et dans une vérification en attente, L6.C09 était dit avoir établi ce que devient une obligation dont personne ne vérifie l'exécution ; L6.C09 § 4 le tient en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "LE RÉGIME DÉCRIT N'EST PLUS EN VIGUEUR. Le texte est celui de 1944, et
      **ni l'amendement de 1969 ni celui de 1978 ne sont détenus.** Le chapitre
      instruit **une conception**, non un dispositif opérant : tout ce qui suit
@@ -45,8 +49,7 @@ verifications_en_attente:
      dérogation de la section 4 a été accordée, ni **combien de fois** un
      membre a été déclaré inéligible au titre de la section 5, ni si le rachat
      de la section 7 s'est opéré comme prévu. **Un mécanisme écrit dont on
-     ignore l'usage est une conception, pas un résultat** — et L6.C09 a établi
-     ce que devient une obligation dont personne ne vérifie l'exécution."
+     ignore l'usage est une conception, pas un résultat** — et L6.C09 § 4 tient, en hypothèse, ce que devient une obligation dont personne n'est tenu de vérifier l'exécution (cette note écrivait « a établi »)."
   - "LA NOTION DE QUOTA N'EST PAS INSTRUITE. Toutes les bornes de la section 3
      sont exprimées en pourcentage du quota, **et le corpus n'a jamais examiné
      comment un quota se fixe ni se révise** — ce qui décide de la taille réelle
@@ -57,7 +60,7 @@ verifications_en_attente:
      la situation même que le dilemme de Triffin décrit."
 resume: "Ce chapitre ouvre l'article des statuts de 1944 que le chapitre précédent avait déclaré manquant, et il y trouve six éléments de conception que le corpus ne possède nulle part. Le premier renverse une attente : le Fonds ne prête pas, il échange. Ses opérations sont limitées à fournir à un membre, sur l'initiative de celui-ci, la monnaie d'un autre membre contre de l'or ou contre sa propre monnaie, de sorte que le secours prend la forme d'un achat de devises et non d'un crédit. Le deuxième est que l'accès est borné par des nombres inscrits dans le traité, l'achat ne pouvant accroître les avoirs du Fonds en la monnaie de l'acheteur de plus d'un quart de son quota par an ni au-delà du double de ce quota. Le troisième est que le déclenchement est déclaratif, le membre représentant que la monnaie lui est présentement nécessaire, sans que le texte prévoie de vérification. Le quatrième est une dérogation discrétionnaire qui récompense expressément les membres ayant évité un usage important ou continu des ressources, et qui peut être subordonnée à la remise de garanties. Le cinquième est une gradation de sanctions écrite en toutes lettres, du rapport avec délai de réponse à la limitation puis à l'inéligibilité, c'est-à-dire exactement la structure dont le onzième livre avait établi l'absence dans le corpus. Le sixième est que le remboursement n'est pas calendaire mais indexé sur la reconstitution des réserves du débiteur, celui-ci devant chaque année consacrer au rachat la moitié de l'augmentation de ses propres réserves. Le chapitre porte enfin la réserve qui vaut pour tout ce qui précède, à savoir que ce régime n'est plus en vigueur et que le corpus ne détient aucun des deux amendements qui l'ont défait."
 concepts: [hierarchie_monetaire, robustesse, resilience, bareme, regle_contre_discretion]
-renvois: [L1.C23, L3.C02, L3.C06, L7.C05, L11.C29, L20.C08, L20.C12]
+renvois: [L6.C09, L1.C23, L3.C02, L3.C06, L7.C05, L11.C29, L20.C08, L20.C12]
 ---
 
 # Comment le filet était écrit
@@ -112,7 +115,7 @@ renvois: [L1.C23, L3.C02, L3.C06, L7.C05, L11.C29, L20.C08, L20.C12]
 
 ::hypothese:: **Et elle est ici dans un texte que le corpus détenait depuis le 2026-09-06.** **Le corpus a cherché ailleurs, dans le droit prudentiel américain, une structure qu'il avait sous la main dans un traité monétaire de 1944.**
 
-::etat:: **Le corpus ne tient aucune pratique.** Il ignore combien de fois une dérogation a été accordée, combien de fois un membre a été déclaré inéligible, et **L6.C09 a établi ce que devient une obligation dont personne ne vérifie l'exécution.**
+::etat:: **Le corpus ne tient aucune pratique.** Il ignore combien de fois une dérogation a été accordée, combien de fois un membre a été déclaré inéligible, et **L6.C09 § 4 tient, en hypothèse, ce que devient une obligation dont personne n'est tenu de vérifier l'exécution** : la fausse déclaration n'y rencontre aucun contrôle. Ce paragraphe écrivait « a établi ».
 
 ## 6. Le remboursement est indexé, non calendaire
 
