@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-20
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -36,6 +36,10 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage adressé au corpus le 2026-09-05, après lecture de ce chapitre. Texte intégral de la décision : « NEMO IMS prévoit (préconise) une grande coalition entre le GAÏA Economic Symposium et les banques centrales du monde entier. Dans ce nouveau paradigme destiné à financer l'essentiel insolvable, les activités définies par le GES occasionnent l'émission de NGA convertibles par la banque centrale en Monnaie de banque centrale à finalités extra-financières. Le GES peut tenir une comptabilité de ses NGA en miroir avec les banques centrales. Les dispositifs de reflux collectifs sur les transactions permettront des reflux en cascades vers les banques centrales puis des banques centrales vers le GES. La question de savoir si le GES peut capter (accumuler) plus d'avoirs en comptabilités de monnaie nationales qu'elle n'a émis de NGA est mathématiquement oui. » Cet arbitrage tranche la bifurcation du présent chapitre, l'arbitrage A2, et les deuxième et troisième tests du § 6"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 1, la contrepartie comptable était dite exiger un actif face à l'émission ; L1.C29 § 1 écrit que la partie double se referme par un actif ou par la situation nette. Le reste du paragraphe, qui raisonne sur le Symposium, n'est pas touché : il relève du relevé de l'ordre 21, à la décision de l'auteur.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20 — L'ANALYSE DE L'ANCIEN NOM EST CONSERVÉE,
      SUR DÉCISION DE L'AUTEUR. Ce chapitre ne mentionne pas « monnaie sans dette » :
      il l'ANALYSE, et établit que la lecture B en coûte l'appellation « au sens
@@ -133,7 +137,7 @@ renvois: [L1.C17, L1.C19, L1.C20, L1.C21, L1.C27, L1.C29, L19.C03, L16.C01]
 
 ::etat:: Le livre emploie le mot **destruction** — « la création monétaire n'est pas un problème si elle s'accompagne d'une destruction monétaire équivalente par ailleurs » [S3]. La note de travail l'écarte au profit du mot **reflux** [S1]. Ce n'est pas une querelle de vocabulaire : selon ce que le reflux fait à l'arrivée, l'institution émettrice **accumule** ou **n'accumule pas**, et une institution qui accumule n'est pas la même chose qu'une institution qui annule.
 
-::hypothese:: Trois questions ouvertes du corpus attendent cette réponse. **La contrepartie comptable** (L1.C29, P55) : si rien n'arrive au Symposium, il faut un actif à porter face à l'émission, et le corpus a établi que celui qui est proposé ne tient pas ; si quelque chose arrive, la question change de nature. **Le calibrage** (F1, P18) : égaliser deux flux qu'aucun opérateur ne commande n'est pas le même problème qu'équilibrer un budget. **Et l'existence même d'un livre séparé** consacré à la comptabilité monétaire de l'émission à contrepartie collective : elle n'a de sens que sous l'une des deux lectures.
+::hypothese:: Trois questions ouvertes du corpus attendent cette réponse. **La contrepartie comptable** (L1.C29, P55) : si rien n'arrive au Symposium, l'émission demande une contrepartie — L1.C29 § 1 écrit que la partie double se referme par un actif ou par la situation nette —, et le corpus a établi que la construction que le Cahier propose ne tient pas (L1.C29 § 7) ; ce paragraphe écrivait « il faut un actif à porter face à l'émission » ; si quelque chose arrive, la question change de nature. **Le calibrage** (F1, P18) : égaliser deux flux qu'aucun opérateur ne commande n'est pas le même problème qu'équilibrer un budget. **Et l'existence même d'un livre séparé** consacré à la comptabilité monétaire de l'émission à contrepartie collective : elle n'a de sens que sous l'une des deux lectures.
 
 ## 2. Ce qui n'est pas en litige : l'émission
 
