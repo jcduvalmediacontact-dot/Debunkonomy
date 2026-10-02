@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -20,6 +20,10 @@ sources_primaires:
     reference: "Le corpus lui-même — L20.C01, qui déclarait en ouvrant le livre : « Le corpus peut dire ce qu'un texte dispose ; IL NE PEUT PAS DIRE CE QU'IL PRODUIT », et qui s'interdisait l'analogie ; L20.C22, qui assemble les huit exigences ; L7.C13 et L1.C18 § 6, qui commandaient l'ouverture du livre"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au résumé, au § 3 et au § 6, L20.C22 était dit avoir assemblé « sept techniques éprouvées » ; L20.C22 § 6 en compte six, « transportables », et § 5 les tient pour des exigences de rédaction, non des garanties.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au résumé et aux § 1, § 4 et § 5, L20.C17 était dit avoir montré que le seul précédent de sanctuarisation a été contourné en douze ans sans être violé, et que la condition de L7.C13 n'est pas stable ; L20.C17 § 5, repris le 30 septembre, tient que la clause a tenu dans sa lettre et que le régime a été réécrit, et sa thèse de l'architecture est en hypothèse.
   # Statut inchangé.
@@ -43,7 +47,7 @@ verifications_en_attente:
   - "AUCUN RAPPORT DE RÈGLEMENT DES DIFFÉRENDS, AUCUN ARRÊT SUR UN ACTE DE
      POLITIQUE MONÉTAIRE, AUCUNE DÉCISION D'INTERPRÉTATION D'UNE INSTITUTION
      MONÉTAIRE. **Les trois blocs se ferment sur la même absence.**"
-resume: "Ce chapitre clôt le livre et dresse le compte de ce qu'il a produit. Il rappelle d'abord le résultat d'ordre qui l'avait commandé : le corpus traitait le droit comme un examen de conformité postérieur à la conception, et le livre source en fait un préalable d'existence, ce qui déplace ce livre du bout de la collection vers son premier temps. Il établit ensuite le résultat général, qui n'était pas attendu : les verrous procéduraux sont faibles, plus faibles que le corpus ne le croyait, et toute la difficulté juridique se concentre en un seul point, la hiérarchie des objectifs assignée à une autorité monétaire. Il recense ce que le livre a rapporté, sept techniques éprouvées qui comblent des blancs que le corpus traitait à vide, et ce qu'il a fermé, deux affirmations du livre source dont l'une était exacte sans avoir été instruite. Il recense enfin ce qu'il laisse ouvert, dont deux blancs qu'aucun texte ne comble et un résultat dur qui vaut avertissement, à savoir que le seul précédent documenté de sanctuarisation juridique a tenu dans sa lettre, mais que le régime qui mettait son principe en œuvre a été réécrit douze ans plus tard. Il conclut sur le compte des manques et sur la limite que le livre s'était reconnue en s'ouvrant et qu'il n'a pas franchie."
+resume: "Ce chapitre clôt le livre et dresse le compte de ce qu'il a produit. Il rappelle d'abord le résultat d'ordre qui l'avait commandé : le corpus traitait le droit comme un examen de conformité postérieur à la conception, et le livre source en fait un préalable d'existence, ce qui déplace ce livre du bout de la collection vers son premier temps. Il établit ensuite le résultat général, qui n'était pas attendu : les verrous procéduraux sont faibles, plus faibles que le corpus ne le croyait, et toute la difficulté juridique se concentre en un seul point, la hiérarchie des objectifs assignée à une autorité monétaire. Il recense ce que le livre a rapporté, six techniques transportables qui comblent des blancs que le corpus traitait à vide, et ce qu'il a fermé, deux affirmations du livre source dont l'une était exacte sans avoir été instruite. Il recense enfin ce qu'il laisse ouvert, dont deux blancs qu'aucun texte ne comble et un résultat dur qui vaut avertissement, à savoir que le seul précédent documenté de sanctuarisation juridique a tenu dans sa lettre, mais que le régime qui mettait son principe en œuvre a été réécrit douze ans plus tard. Il conclut sur le compte des manques et sur la limite que le livre s'était reconnue en s'ouvrant et qu'il n'a pas franchie."
 concepts: [fenetre_de_reforme, communs, limites_planetaires, creation_monetaire, robustesse]
 renvois: [L1.C18, L1.C27, L7.C05, L7.C09, L7.C10, L7.C12, L7.C13, L11.C15, L11.C24, L11.C25, L20.C01, L20.C02, L20.C03, L20.C06, L20.C07, L20.C08, L20.C11, L20.C12, L20.C13, L20.C16, L20.C17, L20.C19, L20.C20, L20.C21, L20.C22]
 ---
@@ -70,7 +74,7 @@ renvois: [L1.C18, L1.C27, L7.C05, L7.C09, L7.C10, L7.C12, L7.C13, L11.C15, L11.C
 
 ## 3. Ce que le livre rapporte
 
-::etat:: **Sept techniques éprouvées, chacune comblant un blanc que le corpus traitait à vide** — assemblées en L20.C22 : la sanctuarisation à trois registres ; la séparation de l'inaliénable et de l'aliénable réglé ; les pouvoirs réservés au plénier ; la révision graduée d'un référentiel **avec porteur désigné** ; le démarrage sur seuil en contributions **avec avance restituable** ; la déduction du prix payé à l'origine **certifiée par un tiers doublement indépendant** ; et l'accès aux données par **intérêt légitime** sur un périmètre énuméré.
+::etat:: **Six techniques transportables, chacune comblant un blanc que le corpus traitait à vide** — assemblées en L20.C22 § 6, qui les tient pour des exigences de rédaction, non des garanties (L20.C22 § 5) ; ce paragraphe écrivait « sept techniques éprouvées », et la sixième se lit ici en deux : la sanctuarisation à trois registres ; la séparation de l'inaliénable et de l'aliénable réglé ; les pouvoirs réservés au plénier ; la révision graduée d'un référentiel **avec porteur désigné** ; le démarrage sur seuil en contributions **avec avance restituable** ; la déduction du prix payé à l'origine **certifiée par un tiers doublement indépendant** ; et l'accès aux données par **intérêt légitime** sur un périmètre énuméré.
 
 ::etat:: **Deux résultats de composition, obtenus par comparaison et non par lecture.** L20.C09 : la double majorité que L7.C06 croyait construire **existe depuis 1944** et elle est plus exigeante que chacun de ses deux critères. L20.C10 : la formule qui ajoute un plancher égalitaire à une part proportionnelle atteint le résultat de la racine carrée, que L7.C09 expose sans la retenir, **par une addition**, donc de façon négociable — **et s'érode par la seule croissance des quotes-parts**, ce qui donne la piste la plus vraisemblable pour le résultat que L7.C02 constatait sans l'expliquer.
 
@@ -96,7 +100,7 @@ renvois: [L1.C18, L1.C27, L7.C05, L7.C09, L7.C10, L7.C12, L7.C13, L11.C15, L11.C
 
 ::etat:: **Les verrous procéduraux sont faibles et il n'y a qu'un verrou de fond** : le rang assigné aux objectifs d'une autorité monétaire. **Le mur est une porte, avec une serrure.**
 
-::etat:: **Sept techniques éprouvées et deux résultats de composition entrent au corpus**, dont la double majorité qu'il croyait inventer et la formule qui explique probablement le partage qu'il constatait sans le comprendre.
+::etat:: **Six techniques transportables et deux résultats de composition entrent au corpus** (ce paragraphe écrivait « sept techniques éprouvées » ; L20.C22 § 6 en compte six), dont la double majorité qu'il croyait inventer et la formule qui explique probablement le partage qu'il constatait sans le comprendre.
 
 ::etat:: **Deux blancs sortent ouverts** — la qualification de l'unité, la protection interne des techniciens — **et un avertissement** : aucune sanctuarisation observée n'a tenu.
 
