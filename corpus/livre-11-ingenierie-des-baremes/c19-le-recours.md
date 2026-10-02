@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "J.-C. Duval, instruction de conception adressée au corpus le 2026-09-05 après lecture de L11.C07 : « Il faudra cependant envisager des mécanismes de dérogations. Je ne souhaite pas que des gens soient soumis au demurrage s'ils placent leur argent sur des plans épargne logement écologiques ou des maisons à énergie positive par exemple. » Instruite en L11.C08, portée en arbitrage A13. LE PRÉSENT CHAPITRE EN TIRE UNE CONSÉQUENCE QUE L'INSTRUCTION N'ÉNONCE PAS : une dérogation qui se demande suppose qu'on puisse contester son refus"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L11.C06 était dit avoir établi que la valeur par défaut déplace le coût de la mesure vers celui qui en tire avantage ; L11.C06 § 5 le tient en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 8, L11.C13 § 2 était dit avoir établi que l'erreur « la plus grave » n'a pas de plaignant, et L11.C17 § 6 que le bouclage rend la sous-qualification détectable en agrégat ; L11.C13 § 2 le tient en conjecture sur la détectabilité, sans classer par gravité, et L11.C17 § 6 en hypothèse, sous condition.
   # Statut inchangé.
@@ -119,7 +123,7 @@ renvois: [L1.C18, L11.C03, L11.C06, L11.C08, L11.C09, L11.C11, L11.C12, L11.C13,
 
 ::hypothese:: **C'est le résultat favorable du chapitre, et le corpus ne l'attendait pas.**
 
-::etat:: L11.C06 a établi que la valeur par défaut existe pour **déplacer le coût de la mesure du centre vers celui qui en tire avantage** — mécanisme de la taxe sur la valeur ajoutée, et c'est ce qui rend le dispositif administrable sans appareil de mesure mondial.
+::etat:: L11.C06 § 5 tient, en hypothèse (ce paragraphe écrivait « a établi »), que la valeur par défaut existe pour **déplacer le coût de la mesure du centre vers celui qui en tire avantage** — mécanisme de la taxe sur la valeur ajoutée, et c'est ce qui rend le dispositif administrable sans appareil de mesure mondial.
 
 ::hypothese:: **Il faut en tirer une conséquence que le corpus n'avait pas tirée.** Chaque valeur contestée puis révisée **est une mesure que quelqu'un a payée et qui entre dans le barème**. Le contentieux ne consomme donc pas seulement des ressources : **il produit la métrologie que le falsifieur F2 déclare manquante.** Le barème n'est pas une table figée qu'on applique ; c'est une table **qui s'affine par ses contestations**.
 
