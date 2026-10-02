@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,7 +24,13 @@ sources_primaires:
     nature: theorie
     reference: "**Le corpus lui-même.** **L3.C04** établit que le statut de réserve est **un prix décerné à la taille et à la croissance**, et qu'en l'absence de découplage mondial absolu (L1.C12) **la croissance porte de l'extraction** — le lien étant **incitatif et non quantitatif**, la réserve du vocabulaire sur l'argument « plus de monnaie, plus d'extraction » étant portée. **L1.C27** établit que le seuil d'activation « porte sur un poids économique, donc sur **la composition** de la coalition et non seulement sur le nombre de ses membres ». **L7.C12** cherche un point de démarrage « sans en trouver la première marche »"
     etat_lecture: a_requalifier
+  # 2026-10-01 : cette entrée écrit que L3.C04 « établit » ce que L3.C04 § 4 et § 6 tiennent en hypothèse ; son texte
+  # est gardé tel que le manifeste le fixe. Le § 3 est corrigé.
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L3.C04 était dit avoir établi que le statut de réserve est un prix décerné à la taille et que la solution multipolaire distribue l'incitation ; L3.C04 § 4 le tient en hypothèse. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "AUCUN DES DEUX OBJETS N'EST DOCUMENTÉ PAR UNE SOURCE AYANT AUTORITÉ. Le
      corpus ne sait ni si l'UNIT existe tel qu'il est décrit, ni si sa
      composition est celle qui est rapportée, ni si mBridge fonctionne comme
@@ -70,11 +76,11 @@ renvois: [L1.C24, L1.C26, L1.C27, L3.C01, L3.C02, L3.C04, L7.C12]
 
 ## 3. Les deux jambes du panier, et elles sont adossées au même
 
-::hypothese:: **La part en monnaies nationales hérite de ce que L3.C04 a établi** [S3]. Le statut de réserve est **un prix décerné à la taille et à la croissance** ; en l'absence de découplage mondial absolu, la croissance porte de l'extraction ; **le lien est incitatif et non quantitatif.** Un panier de monnaies de réserve nationales **est un panier de créances sur des économies qui doivent croître.**
+::hypothese:: **La part en monnaies nationales hérite de ce que L3.C04 § 4 tient, en hypothèse** [S3] ; ce paragraphe écrivait « a établi ». Le statut de réserve est **un prix décerné à la taille et à la croissance** ; en l'absence de découplage mondial absolu, la croissance porte de l'extraction ; **le lien est incitatif et non quantitatif.** Un panier de monnaies de réserve nationales **est un panier de créances sur des économies qui doivent croître.**
 
 ::hypothese:: **Et la part en or n'y échappe pas, pour une raison plus directe.** L'or physique **est extrait**. Adosser deux cinquièmes d'une unité à un métal ne la détache pas de l'extraction : **cela la détache d'un émetteur souverain, ce qui n'est pas la même opération.**
 
-::hypothese:: **Le corpus enregistre donc que cette construction résout un problème de dépendance politique et n'en résout aucun de dépendance physique.** **Elle répond à la question « de qui dépend notre monnaie », non à la question « sur quoi repose-t-elle ».** **C'est exactement le partage que L3.C04 a établi sur la solution multipolaire** — l'incitation n'est pas supprimée, elle est distribuée.
+::hypothese:: **Le corpus enregistre donc que cette construction résout un problème de dépendance politique et n'en résout aucun de dépendance physique.** **Elle répond à la question « de qui dépend notre monnaie », non à la question « sur quoi repose-t-elle ».** **C'est exactement le partage que L3.C04 § 4 tient, en hypothèse, sur la solution multipolaire** (ce paragraphe écrivait « a établi ») — l'incitation n'est pas supprimée, elle est distribuée.
 
 ::etat:: **Le corpus ne prétend pas que le dispositif fait mieux : il constate qu'il traite l'autre question.** Et il n'a rien qui établisse que la sienne est la bonne.
 
