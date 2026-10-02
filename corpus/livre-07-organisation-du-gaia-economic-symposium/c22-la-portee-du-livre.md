@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -20,6 +20,10 @@ sources_primaires:
     reference: "Le corpus lui-même — les vingt et un chapitres qui précèdent, écrits le 2026-09-06 ; les neuf acquis versés par le Livre 11 à ce livre le même jour ; l'arbitrage A29, tranché par l'auteur, et sa précision sur le point de démarrage ; et la déclaration du Livre 20, décidée par l'auteur le même jour, qui retire à ce livre les trois blocs de droit international public"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, aucune chambre n'était dite recevoir la fixation de ce que vaut un acte régénératif certifié, au présent ; L7.C05 § 4 le tient en hypothèse pour le chapitre 7 du livre et rapporte que la décision du 17 septembre 2026 confie depuis seuils et grille à l'Assemblée.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 2, le tableau des confirmations croisées portait le délai de six mois comme le délai d'entrée en vigueur de Kydland et Prescott, et le Collège des vulnérables comme une pondération par une grandeur qui n'est pas le bénéfice, avec l'ancre L7.C04 § 5 ; L7.C09 § 6, repassé le 30 septembre, tient le premier rapprochement pour une analogie et corrige le second — un droit de réserve, non une pondération —, et l'idée est nommée par L7.C02 § 6. Les reprises du § 3 et du § 4 suivent ; L7.C02 entre aux renvois.
   # Statut inchangé.
@@ -95,7 +99,7 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C04, L7.C05, L7.C06, L7.C09, L7.C11
 
 ::hypothese:: **Seconde régularité, et elle est défavorable.** L'architecture attribue quatre pouvoirs, et **deux décisions que le livre énonce ne relèvent d'aucun d'eux.**
 
-::etat:: **La valorisation.** L'Assemblée définit les catégories éligibles et fixe le barème **des impacts** — celui du reflux. **Aucune chambre ne reçoit la fixation de ce que vaut un acte régénératif certifié** (L7.C05 § 4), qui est la décision où le corpus a domicilié sa promesse bloquante.
+::etat:: **La valorisation.** L'Assemblée définit les catégories éligibles et fixe le barème **des impacts** — celui du reflux. **Dans le chapitre 7 du livre, aucune chambre ne reçoit la fixation de ce que vaut un acte régénératif certifié** (L7.C05 § 4, en hypothèse), qui est la décision où le corpus a domicilié sa promesse bloquante ; la décision de l'auteur du 17 septembre 2026 confie depuis à l'Assemblée les seuils et la grille de priorité, et L7.C05 § 4 borne son constat au chapitre 7. Ce paragraphe l'écrivait au présent, sans cette borne.
 
 ::etat:: **La production de cadres juridiques contraignants.** Le livre en fait la **condition sine qua non** de l'émergence des unités (L7.C13) ; **aucune chambre ne la porte**, et elle n'est réductible à aucune — l'Assemblée est normative à l'intérieur du dispositif, la Chambre applique un droit qu'elle ne crée pas.
 
