@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -27,6 +27,10 @@ sources_primaires:
     reference: "**L3.C02**, sur le trilemme : il est **énoncé pour UN ÉTAT**, de sorte que « le contrôle des capitaux n'est pas un choix de conception de l'institution **mais une obligation pesant sur chaque participant** ». **L3.C09** : le dispositif **s'ajoute** au système existant. **L5.C03** : l'adhésion ne demandant aucun renoncement, **la menace tarifaire perd son fait générateur**, mais le passager clandestin **devient une question d'intérêt à entrer** — « pourquoi maintenant plutôt que plus tard »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L5.C03 était dit avoir établi que l'adhésion ne demande aucune sortie et que la menace tarifaire n'a pas de fait générateur ; L5.C03 § 4 le tient en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3 et au résumé, la contradiction entre L11.C16, qui interdisait la polycentricité sur la fixation des valeurs, et le vocabulaire, qui retient d'Ostrom l'inverse, était tenue pour actuelle, et la fixation centrale pour établie par L11.C16 et imposée par Mundell ; L11.C16 § 5, repris le 30 septembre, a retiré l'interdiction et rend la formule « intrinsèquement faible » au résumé de la série. La contradiction tombe ; la fixation centrale est rapportée à la décision de l'auteur (L1.C18 § 3). L1.C18 entre aux renvois. L'entrée [S2], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -86,7 +90,7 @@ renvois: [L1.C18, L3.C02, L3.C06, L3.C09, L5.C01, L5.C03, L5.C04, L6.C08, L11.C1
 
 ::hypothese:: **Et ce qu'il y gagne est plus net qu'ailleurs.** Le commerce intra-régional étant, par construction, la part la plus dense de ses échanges, **une unité de compte commune y produit un effet dès le premier jour** — alors qu'une coalition dispersée doit attendre que sa part du commerce mondial devienne significative. **Le seuil d'activation de L1.C27, qui porte sur la composition, est plus vite atteint dans un espace où les membres commercent déjà entre eux.**
 
-::hypothese:: **Que peut faire l'émetteur en place ? — Peu de choses de plus qu'ailleurs**, et L5.C03 a établi pourquoi : le dispositif s'ajoutant au système, **l'adhésion ne demande aucune sortie, et la menace tarifaire n'a pas de fait générateur.** **Mais il peut traiter les membres séparément**, ce qu'une région rend plus difficile sans le rendre impossible.
+::hypothese:: **Que peut faire l'émetteur en place ? — Peu de choses de plus qu'ailleurs**, et L5.C03 § 4 tient, en hypothèse, pourquoi (ce paragraphe écrivait « a établi ») : le dispositif s'ajoutant au système, **l'adhésion ne demande aucune sortie, et la menace tarifaire n'a pas de fait générateur.** **Mais il peut traiter les membres séparément**, ce qu'une région rend plus difficile sans le rendre impossible.
 
 ::hypothese:: **Que coûte l'échec ? — Ce qu'une région perd en essayant.** Et le corpus ne peut pas le chiffrer, **mais il peut nommer le risque : une tentative régionale qui échoue laisse des institutions communes discréditées**, ce qui est un coût que ni l'infrastructure ni le traité ne portent — **une infrastructure inachevée n'a pas d'histoire, une région en a une.**
 
