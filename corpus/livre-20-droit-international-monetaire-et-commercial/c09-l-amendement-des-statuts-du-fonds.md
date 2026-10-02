@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -27,6 +27,10 @@ sources_primaires:
   # L7.C09, repassé le 30 septembre, ne corrige plus L7.C06 par la racine carrée : il décrit plusieurs règles et
   # tient le choix pour un arbitrage de l'auteur (§ 4). Le § 1 est corrigé.
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L11.C15 était dit supposer qu'une révision générale du référentiel puisse être décidée ; L11.C15 § 5 et § 7 traitent, en hypothèse, de la révision de la parité d'un membre, déclenchée par un fait constaté.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 1, L7.C09 était dit avoir corrigé L7.C06 en opposant la loi de la racine carrée de Penrose à la pondération ; L7.C09, repassé le 30 septembre, décrit en son § 4 la double majorité, les poids en racine carrée assortis d'un quota et leur combinaison, et tient le choix pour un arbitrage de l'auteur. Le paragraphe garde ce que le texte de 1944 porte. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -70,7 +74,7 @@ renvois: [L7.C06, L7.C09, L7.C16, L7.C20, L11.C15, L11.C20, L20.C01, L20.C06, L2
 
 ::hypothese:: **Ces trois protections dessinent en creux ce qu'un traité monétaire tient pour inaliénable, et elles sont toutes de même sens : elles protègent le membre contre le collectif.** Sortir, ne pas être redimensionné, ne pas être réévalué. **Aucune ne protège le collectif contre un membre.**
 
-::hypothese:: **Le dispositif du corpus a besoin de l'inverse, et c'est le résultat du chapitre.** L11.C15 suppose qu'une révision générale du référentiel puisse être décidée ; L20.C08 a montré qu'elle est verrouillée trois fois. **Ici on apprend que le verrou lui-même est verrouillé** : la règle qui réserve l'initiative au membre concerné ne peut être levée qu'à l'unanimité. **Le corpus ne cherchait pas d'obstacle plus dur, et c'est le plus dur qu'il ait rencontré.**
+::hypothese:: **Le dispositif du corpus a besoin de l'inverse, et c'est le résultat du chapitre.** L11.C15 traite, en hypothèse, de la révision de la parité d'un membre, et propose qu'elle soit déclenchée par un écart constaté plutôt que décidée (L11.C15 § 5 et L11.C15 § 7) — ce paragraphe lui faisait supposer qu'une révision générale du référentiel puisse être décidée ; L20.C08 a montré qu'elle est verrouillée trois fois. **Ici on apprend que le verrou lui-même est verrouillé** : la règle qui réserve l'initiative au membre concerné ne peut être levée qu'à l'unanimité. **Le corpus ne cherchait pas d'obstacle plus dur, et c'est le plus dur qu'il ait rencontré.**
 
 ::hypothese:: **Il enregistre aussi la cohérence de l'ensemble avec ce qu'il a établi ailleurs.** L7.C16 a construit une adhésion et une sortie ; L20.C06 a relevé qu'un traité européen est conclu pour une durée illimitée mais que l'entrée coûte l'unanimité. **Trois textes, trois asymétries, toutes dans le même sens : il est plus facile de partir que d'entrer, et plus facile de bloquer que de décider.**
 
