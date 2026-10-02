@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -16,6 +16,10 @@ sources_primaires:
     reference: "**Assemblée générale des Nations unies, résolution A/RES/70/1, « Transforming our world: the 2030 Agenda for Sustainable Development », adoptée le 25 septembre 2015, distribuée le 21 octobre 2015.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, **version anglaise**. **DROITS : document officiel des Nations unies ; le corpus s'en tient à la citation courte avec attribution — régime `a_verifier` en l'absence de mention lue dans le document.** **C'ÉTAIT L'ACQUISITION DE RANG 1 DU LIVRE 12** : L12.C01 lisait une reproduction en français par un réseau national, et déclarait qu'aucun libellé n'y était citable avant vérification contre ce texte. **Paragraphes lus : 12 (principes de Rio), 63 (appropriation nationale), 72 et 74 (suivi volontaire), et l'objectif 8 avec ses cibles.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L7.C22 était dit avoir établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs ; L7.C22 § 5 et § 7 le tiennent en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "**LE CORPUS A LU LA VERSION ANGLAISE, ET IL CITE EN FRANÇAIS AILLEURS.** La
      résolution existe dans les six langues officielles et **la version française
      fait également foi**. **Les libellés français de L12.C01 sont désormais
@@ -113,7 +117,7 @@ renvois: [L7.C22, L11.C13, L12.C01, L17.C03, L20.C01, L25.C01, L12.C03]
 
 ::hypothese:: **La question qui sort de ce chapitre est celle que l'arbitrage A42 avait déjà envoyée au Livre 25 : QUI SÉLECTIONNE ?** La doctrine dit que la sélection s'opère par activité, territoire et période. **Le cadre onusien répond, pour ce qui le concerne : le pays.** **Le dispositif répond autrement.**
 
-::etat:: **Trois chapitres du corpus convergent donc sur le même point sans s'être cherchés.** **L7.C22** avait établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs. **L25.C01** a reçu le 2026-09-08 la commande du critère de sélection et de son autorité. **Et ce chapitre montre que le cadre lui-même a déjà tranché la question dans l'autre sens.**
+::etat:: **Trois chapitres du corpus convergent donc sur le même point sans s'être cherchés.** **L7.C22 § 5 et L7.C22 § 7** tiennent, en hypothèse, que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs ; ce paragraphe écrivait « avait établi ». **L25.C01** a reçu le 2026-09-08 la commande du critère de sélection et de son autorité. **Et ce chapitre montre que le cadre lui-même a déjà tranché la question dans l'autre sens.**
 
 ::hypothese:: **Le corpus ne peut pas conclure de là que le dispositif a tort.** **Il peut conclure que le dispositif propose un déplacement d'autorité que le cadre SUBORDONNE À UNE CONDITION DE FORME** — celle d'être un engagement international pertinent. **La première rédaction de ce passage disait que le cadre « ne prévoit pas » ce déplacement : c'était INEXACT, et L12.C03 l'a corrigé le 2026-09-08 en lisant la clause des paragraphes 21 et 63.** **Un tel déplacement se défend donc, et il se défend MIEUX que ce chapitre ne le supposait — mais il ne s'omet pas.**
 
