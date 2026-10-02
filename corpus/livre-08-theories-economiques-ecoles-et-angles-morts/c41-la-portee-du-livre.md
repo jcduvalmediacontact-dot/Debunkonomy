@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,10 @@ sources_primaires:
     reference: "J. Tinbergen, On the Theory of Economic Policy, 1952 ; R. Mundell, 1963 ; F. A. Hayek, 1945 ; E. Ostrom, 1990 et 2009 ; F. E. Kydland et E. C. Prescott, 1977 ; R. E. Lucas Jr., 1976 ; A. Smith, 1776 ; D. Ricardo, 1817 ; T. R. Malthus, 1798 ; J. S. Mill, 1848 ; K. Marx, 1859 ; T. Veblen, 1899 ; J. M. Keynes, 1936 ; I. Fisher, 1933 ; J. M. Keynes, CW XXV ; B. Eichengreen, 2011 ; A. Goutsmedt et al., 2017 ; E. Combe, 1997 — LES DIX-HUIT SOURCES OUVERTES DU LIVRE, sur les quelque soixante-dix auteurs et courants que le répertoire nomme. LE RAPPORT EST DE UN À QUATRE, et c'est le fait de méthode central de cette passe"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, le tableau attribuait à L8.C28 et L8.C32 « une règle publiée vaut mieux qu'un pilotage » ; L8.C28 § 2 tient, en hypothèse, qu'un barème réglé est une directive, et L8.C32 § 7 que cette forme est la pratique courante des banques centrales ; aucun des deux ne compare la règle au pilotage.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE RENDU. Il ne verse aucun résultat neuf et n'ouvre aucun dossier :
   # il réunit ce que quarante chapitres ont produit séparément.
@@ -99,7 +103,7 @@ renvois: [L8.C01, L8.C08, L8.C11, L8.C12, L8.C13, L8.C15, L8.C17, L8.C21, L8.C24
 | **le blocage est monétaire alors que les ressources existent** | Keynes | L8.C26 § 2 |
 | **éteindre le rendement de la détention** | Keynes encore, par un autre moyen | L8.C26 § 3 |
 | **une monnaie qui ne naît pas de la dette échappe à la déflation par la dette** | Fisher | L8.C24 § 3 |
-| **une règle publiée vaut mieux qu'un pilotage** | Tinbergen, et la pratique des banques centrales | L8.C28, L8.C32 |
+| **une règle publiée a une forme, la directive** (ce tableau écrivait « une règle publiée vaut mieux qu'un pilotage », que ni L8.C28 ni L8.C32 n'écrivent) | Tinbergen, et la pratique des banques centrales | L8.C28 § 2, en hypothèse ; L8.C32 § 7 |
 
 ::hypothese:: **Le corpus enregistre que dans plusieurs cas il a reconstruit seul une thèse dont il ignorait qu'elle existait** — la directive, la correction de périmètre, le circuit bouclé. **Cela vaut mieux que l'inverse** : une construction indépendante qui retombe sur un résultat établi est un indice de solidité. **Mais cela signifie aussi que le dispositif se prive de ses appuis**, et qu'il affronte ses objections sans citer ceux qui les ont déjà affrontées.
 
