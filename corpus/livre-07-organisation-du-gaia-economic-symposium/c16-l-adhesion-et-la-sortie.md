@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -15,6 +15,8 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — la promesse P51 : le livre concède franchement que « NEMO IMS comporte un seuil d'activation en dessous duquel il ne fonctionne pas », concession rare que le corpus porte à son crédit, mais le chiffre avancé — environ le double des 15 % d'importations mondiales de l'Union européenne — est obtenu par ANALOGIE avec le mécanisme d'ajustement carbone aux frontières, et cette analogie transporte les propriétés d'un instrument SECTORIEL vers un instrument UNIVERSEL. Et L11.C24 § 5 : « tout est plus facile quand la coalition est déjà grande. C'est la difficulté d'amorçage classique »"
     etat_lecture: a_requalifier
+  # 2026-10-01 : cette entrée cite L11.C24 § 5 pour un énoncé que L11.C24 porte au § 6, en hypothèse ; son texte est
+  # gardé tel que le manifeste le fixe. Le § 3 est corrigé.
   - ref: S2
     nature: theorie
     reference: "W. Nordhaus, « Climate Clubs: Overcoming Free-riding in International Climate Policy », American Economic Review, 105(4), 2015 — ACQUIS PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 (98 946 caractères extraits), NON ENCORE DÉPOUILLÉ. Le corpus le tient et ne l'a pas lu ; c'est la formalisation existante la plus proche du dispositif — un club appliquant une norme commune et frappant les importations des non-membres — et elle fournirait la méthode permettant de DÉRIVER le seuil que le livre se contente d'affirmer OUVERTE PAR VERSEMENT depuis L1.C14 [S11] le 2026-09-16, sur l'exemplaire du dossier (2026-09-15/c14/fournis/S11-nordhaus-2015-climate-clubs-aer-fourni.pdf, 32 pages, SHA-256 CC37D9BB925BCEA03BF4F1A4A2D4176055F7D7E241ED8C6F2D1F56B1222AA18A). RELECTURE : les quatre énoncés que le corpus emploie sont lus au mot. Trois au résumé, page PDF 1 : « without sanctions against non-participants there are no stable coalitions other than those with minimal abatement » ; « a regime with small trade penalties on non-participants, a Climate Club, can induce a large stable coalition with high levels of abatement ». Le quatrième au corps de l'article, page PDF 29 : « as the target carbon price rises, it becomes increasingly difficult to attain the cooperative equilibrium. For a $50 per ton target carbon price, the Club can attain 90+ percent efficiency with a tariff rate of 5 percent or more. » CE QUE CETTE SOURCE PORTE ET NE PORTE PAS : elle donne la condition de stabilité d'un club climatique, pénalité et taille ensemble, obtenue par modélisation. Elle ne transfère rien au dispositif du corpus, dont ni le barème ni le périmètre ne sont ceux d'un club climatique. NOTE POUR L'AUTEUR : le corps de ce chapitre décrit cette source comme « non dépouillée » et « en possession du corpus depuis le 2026-09-06 ». Elle est désormais relue et ouverte ; la phrase du corps est à reprendre."
@@ -25,6 +27,10 @@ sources_primaires:
     reference: "Le corpus lui-même — L7.C12 § 4 : dans les statuts du Fonds, ouverts le 2026-09-06, le poids de vote est fonction de la QUOTE-PART, c'est-à-dire de la souscription initiale, de sorte que celui qui finance le démarrage obtient durablement le pouvoir. Et L7.C11, arbitrage A29 : le surplus du reflux finance le Symposium"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L11.C15 était dit avoir établi qu'une révision de parité est un transfert sans porteur ; au § 3, L11.C24 était dit avoir établi que tout est plus facile quand la coalition est déjà grande. L11.C15 § 5 et L11.C24 § 6 les tiennent en hypothèse. L'entrée `a_requalifier` qui cite L11.C24 § 5 garde son texte ; un commentaire la suit.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION, ET IL PORTE UN AVEU. La source qui permettrait de
   # DÉRIVER le seuil d'activation au lieu de l'affirmer est en possession du
@@ -48,7 +54,7 @@ verifications_en_attente:
      avoirs. Relève du Livre 20, déclaré le même jour."
 resume: "Ce chapitre traite deux questions que le livre ne traite pas, et il porte d'abord un aveu : la source qui permettrait de dériver le seuil d'activation au lieu de l'affirmer est en possession du corpus depuis le jour même et n'a pas été dépouillée. Sur l'adhésion, il rappelle que le livre concède un seuil en dessous duquel le dispositif ne fonctionne pas, concession que le corpus porte à son crédit, mais que le chiffre est obtenu par analogie avec un mécanisme sectoriel et transporté à un instrument universel. Il établit ensuite que l'adhésion pose une difficulté que le corpus n'avait pas isolée : elle n'est pas une décision binaire mais une séquence, et le premier membre supporte un coût que le dernier ne supporte pas, alors que tous obtiennent le même droit de vote. Il montre que l'arbitrage rendu la veille sur le financement aggrave cette asymétrie, puisque celui qui finance le démarrage obtient durablement le pouvoir dans le seul précédent ouvert, tandis que celui qui adhère tardivement bénéficie d'une institution déjà financée. Sur la sortie, il établit que le silence du livre est plus grave que sur l'adhésion, un dispositif dont on ne peut pas sortir et un dispositif dont on sort sans coût n'étant pas la même institution, et que la question n'est pas symétrique puisque le membre sortant emporte des unités émises et laisse une assiette amputée."
 concepts: [seuil_d_activation, referentiel_de_change, reflux_collectif, polycentricite, fenetre_de_reforme]
-renvois: [L1.C25, L1.C27, L7.C02, L7.C11, L7.C12, L7.C15, L11.C04, L11.C24]
+renvois: [L11.C15, L1.C25, L1.C27, L7.C02, L7.C11, L7.C12, L7.C15, L11.C04, L11.C24]
 ---
 
 # L'adhésion et la sortie
@@ -77,7 +83,7 @@ renvois: [L1.C25, L1.C27, L7.C02, L7.C11, L7.C12, L7.C15, L11.C04, L11.C24]
 
 ::hypothese:: **Et l'arbitrage rendu la veille aggrave l'asymétrie sans la traiter.** L7.C12 § 4 a établi que dans le seul précédent ouvert, **le poids de vote est fonction de la souscription initiale** [S3] : celui qui finance le démarrage obtient durablement le pouvoir. **Le dispositif fait l'inverse — il fait porter le risque initial sans contrepartie de pouvoir — et le corpus enregistre que c'est cohérent avec sa thèse et coûteux pour son adoption.**
 
-::hypothese:: **Le corpus nomme les deux sorties et n'en retient aucune.** Reconnaître le rang d'entrée dans la clé de vote **contredit la règle du livre** et rejoue le précédent qu'il refuse. Ne rien reconnaître **laisse le premier membre sans motif d'être premier** — et L11.C24 a établi que tout est plus facile quand la coalition est déjà grande, ce qui est la difficulté d'amorçage classique. **La seule voie restante est de compenser autrement qu'en pouvoir** : par une période transitoire, un taux réduit, une garantie. **Rien n'est écrit.**
+::hypothese:: **Le corpus nomme les deux sorties et n'en retient aucune.** Reconnaître le rang d'entrée dans la clé de vote **contredit la règle du livre** et rejoue le précédent qu'il refuse. Ne rien reconnaître **laisse le premier membre sans motif d'être premier** — et L11.C24 § 6 tient, en hypothèse, que tout est plus facile quand la coalition est déjà grande, ce qui est la difficulté d'amorçage classique ; ce paragraphe écrivait « a établi ». **La seule voie restante est de compenser autrement qu'en pouvoir** : par une période transitoire, un taux réduit, une garantie. **Rien n'est écrit.**
 
 ## 4. La sortie, et le silence y est plus grave
 
@@ -89,7 +95,7 @@ renvois: [L1.C25, L1.C27, L7.C02, L7.C11, L7.C12, L7.C15, L11.C04, L11.C24]
 
 ::hypothese:: **Le sortant laisse une assiette amputée.** Son retrait réduit le produit du reflux — donc l'enveloppe, donc ce que reçoivent ceux qui restent (L11.C16 § 4). **La sortie d'un membre est une perte pour tous les autres**, ce qui crée une incitation à retenir, et donc une pression sur celui qui voudrait partir.
 
-::hypothese:: **Et sa parité doit être dénouée.** L11.C15 a établi qu'une révision de parité est un transfert dont personne n'a dit qui le supporte ; **une sortie est une révision de parité maximale**, et le corpus n'a aucun régime pour elle.
+::hypothese:: **Et sa parité doit être dénouée.** L11.C15 § 5 tient, en hypothèse, qu'une révision de parité est un transfert dont personne n'a dit qui le supporte (ce paragraphe écrivait « a établi ») ; **une sortie est une révision de parité maximale**, et le corpus n'a aucun régime pour elle.
 
 ## 5. Ce que le corpus retient
 
