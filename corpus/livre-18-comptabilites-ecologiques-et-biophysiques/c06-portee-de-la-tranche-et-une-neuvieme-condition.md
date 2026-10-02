@@ -13,7 +13,7 @@ regime: conception
 sources_primaires:
   - ref: S1
     nature: theorie
-    reference: "**Les cinq chapitres de cette tranche.** **L18.C01** : le repli en annexe d'IPSAS 51 § 12 est **conditionné au contrôle** ; à défaut, IPSAS 48 donne **une charge**, ses deux branches n'ayant en commun que la nature. **L18.C02** : le SEEA valorise en **valeur d'échange**, laquelle « doit refléter **le contexte institutionnel courant** [...] et reflète vraisemblablement diverses **imperfections de marché** ». **L18.C03** : le normalisateur a **décidé en octobre 2008 de ne pas faire une norme** de la soutenabilité de long terme, beaucoup de répondants préférant « **guidelines rather than requirements** ». **L18.C04** : l'extraction porte **plus de 55 %** des émissions, et la transition exige **plus de trois milliards de tonnes** de minéraux et métaux. **L18.C05** : IPSAS 47 § 19 — la capacité d'exclure ou de réguler l'accès « **distinguishes an entity's assets FROM THOSE PUBLIC GOODS that all entities have access to and benefit from** », et un rôle régulateur « **does not necessarily mean** that such regulated items meet the definition of an asset »"
+    reference: "**Les cinq chapitres de cette tranche.** **L18.C01** : le repli en annexe d'IPSAS 51 § 12 est **conditionné au contrôle** ; à défaut, IPSAS 48 donne **une charge**, ses deux branches n'ayant en commun que la nature. **L18.C02** : le SEEA valorise en **valeur d'échange**, laquelle « doit refléter **le contexte institutionnel courant** [...] et reflète vraisemblablement diverses **imperfections de marché** ». **L18.C03** : le normalisateur a **décidé en octobre 2008 de ne pas faire une norme** de la soutenabilité de long terme, beaucoup de répondants préférant « **guidelines rather than requirements** ». **L18.C04** : l'extraction porte **plus de 55 %** des émissions, et la transition exige **plus de trois milliards de tonnes** de minéraux et métaux. **L18.C05** : IPSAS 47 § 19 — la capacité d'exclure ou de réguler l'accès « **distinguishes an entity's assets from those public goods that all entities have access to and benefit from** », et un rôle régulateur « **does not necessarily mean** that such regulated items meet the definition of an asset »"
     etat_lecture: a_requalifier
   - ref: S2
     nature: theorie
@@ -24,6 +24,11 @@ sources_primaires:
     reference: "**`protocoles/passe-2.md`, arbitrage A30, du 2026-09-06 complété le 2026-09-07.** **Trois conditions y restaient à établir, et aucune n'était acquise** : « **Le contrôle** — la ressource est sur le territoire d'un tiers, et le Livre 6 a établi qu'un commun opposable pèse sur des propriétaires réels. **La mesure** — critère bloquant de la norme [...]. **L'applicabilité** — rien n'établit que l'institution émettrice relève de la comptabilité publique. » Et l'état enregistré : « **A30 est donc débloqué sur le droit et sur la norme, et il reste ouvert sur trois faits** [...] **des questions de vérification**, ce qui change leur nature »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION ÉDITORIALE, sur le mot de l'auteur du même jour (« Oui, remets les minuscules ») : les capitales
+  # d'insistance que le chapitre mettait dans une citation des publications de l'IPSASB sont remises en minuscules, la pièce ne les
+  # ayant pas (contrôle mécanique de l'auteur du 2026-09-30, relais-moteur/dossiers/ipsas-controle-mecanique.md ; passages du
+  # relevé ipsas-passages-L18-2026-09-30.md). Aucune publication lue par un modèle ; sigles conservés ; Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "[S2] CITATION PÉRIMÉE DEPUIS LE 2026-09-17 : l'entrée cite F2 comme
      portant des « marges d'incertitude de 20 % à 50 % sur les indices
      synthétiques d'état ». **F2 NE LE PORTE PLUS** : la marge n'était appuyée
