@@ -47,7 +47,7 @@
 - terme: decouplage
   libelle: "Découplage"
   definition: "Évolution dans laquelle la production économique et une pression physique ne progressent plus au même rythme ; le découplage absolu implique que la pression diminue malgré la croissance de la production."
-  premiere_occurrence: L1.C03
+  premiere_occurrence: L1.C02
 
 - terme: effet_rebond
   libelle: "Effet rebond"
@@ -239,7 +239,7 @@
   definition: "Se dit d'un système qui, en fonctionnant, diminue l'état ou la
                capacité de renouvellement des fonds naturels dont il dépend.
                Contraire de régénératif, au sens défini en L1.C01."
-  premiere_occurrence: L1.C11
+  premiere_occurrence: L1.C08
 
 - terme: monnaie_fondante
   libelle: "Monnaie fondante"
@@ -285,7 +285,7 @@
                solvabilité. Décide de l'éligibilité, non du volume émis :
                qualifier une activité ne dit pas combien de monnaie créer
                pour elle."
-  premiere_occurrence: L1.C18
+  premiere_occurrence: L1.C08
 
 - terme: reflux_transactionnel
   libelle: "Reflux transactionnel"
@@ -304,7 +304,7 @@
                freine l'échange, une taxe sur la détention l'accélère. Le
                corpus emploie « fonte transactionnelle » pour la première et
                « demurrage » pour la seconde."
-  premiere_occurrence: L1.C21
+  premiere_occurrence: L1.C08
 
 - terme: demurrage
   libelle: "Demurrage"
@@ -331,7 +331,7 @@
                l'accès est soustrait à la capacité de payer par décision et
                non par impossibilité technique. Chacune appelle un remède
                distinct, et les confondre masque cette distinction."
-  premiere_occurrence: L1.C22
+  premiere_occurrence: L1.C08
 
 - terme: additionnalite
   libelle: "Additionnalité"
@@ -519,7 +519,7 @@
                n'en font qu'un ; deux instruments aux effets proportionnels non
                plus. En sous-nombre, la politique n'atteint pas tous ses
                objectifs, et le sacrifice se fait — écrit ou non."
-  premiere_occurrence: L11.C03
+  premiere_occurrence: L1.C31
 
 - terme: effet_veblen
   libelle: "Effet Veblen"
@@ -530,7 +530,7 @@
                signe de l'effet d'un renchérissement n'est pas établi, et ces
                biens sont vraisemblablement ceux dont l'empreinte par unité de
                dépense est la plus élevée."
-  premiere_occurrence: L11.C03
+  premiere_occurrence: L8.C18
 
 - terme: valorisation_des_communs
   # 2026-10-01 : dernière phrase de la définition remplacée sur l'ordre 16 étendu (21 h 07), mot de l'auteur
@@ -548,7 +548,7 @@
                relative des actes entre eux —, qui est l'objet du barème voté
                par l'Assemblée des Communs et qui devient un partage si la
                demande excède l'enveloppe (L11.C16 § 2 et § 4)."
-  premiere_occurrence: L11.C16
+  premiere_occurrence: L2.C17
 
 - terme: polycentricite
   libelle: "Polycentricité"
@@ -567,7 +567,7 @@
                constat ; sur la fixation des valeurs, aucune décision de
                l'auteur ne tranche entre centralisation et polycentricité
                (L1.C22 § 2)."
-  premiere_occurrence: L11.C16
+  premiere_occurrence: L2.C07
 
 - terme: monnaie_regenerative_contrepartie_collective
   libelle: "Monnaie régénérative à contrepartie collective"
