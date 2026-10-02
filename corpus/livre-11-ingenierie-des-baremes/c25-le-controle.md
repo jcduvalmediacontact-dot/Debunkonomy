@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -26,6 +26,10 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 7, L11.C06 était dit avoir établi l'économie du dispositif ; L11.C06 § 5 la tient en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # DERNIER CHAPITRE ANNONCÉ DU LIVRE 11. Il réunit trois lacunes de contrôle
   # que le corpus a trouvées séparément en instruisant trois choses différentes
@@ -145,7 +149,7 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 
 ## 7. Le contrôle défait l'économie qui rendait le dispositif administrable
 
-::etat:: L11.C06 a établi l'économie du dispositif : **le renversement de la charge de la preuve déplace le coût de la mesure du centre vers celui qui en tire avantage.** « Le dispositif n'a donc pas besoin d'un appareil de mesure mondial. »
+::etat:: L11.C06 § 5 tient, en hypothèse, l'économie du dispositif (ce paragraphe écrivait « a établi ») : **le renversement de la charge de la preuve déplace le coût de la mesure du centre vers celui qui en tire avantage.** « Le dispositif n'a donc pas besoin d'un appareil de mesure mondial. »
 
 ::hypothese:: **Contrôler, c'est mesurer au centre.** Chaque vérification refait au centre ce que le dispositif avait délégué. **Il y a donc un optimum entre l'économie du déplacement et la dérive qu'il autorise, et personne ne l'a cherché.**
 
