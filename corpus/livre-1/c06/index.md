@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-21
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -89,6 +89,13 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-21
 verifications_en_attente: []
+  # CORRECTION DU 2026-10-01, sur le mot de l'auteur du même jour (« corrige aussi L1.C06 § 6
+  # d'après L1.C11 »), relevée par le dossier de clôture des renvois, qui donnait à tort le § 6 :
+  # la phrase est au § 1. Les 8 700 milliards de financements bancaires étaient placés « sur la
+  # même période » que les émissions de 2015 à 2024 ; la pièce [S5] compte depuis 2016, son
+  # édition de 2026 s'arrête à 2025, et L1.C11 § 3, vérifié, le date ainsi sur la même pièce.
+  # STATUT INCHANGÉ ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue
+  # pour soldée.
 resume: "Ce chapitre répartit les propositions écologistes en trois familles — techniques, réglementaires, comportementales — qui rencontrent une même limite : elles ne modifient pas les conditions auxquelles le crédit est accordé. Ce chapitre soutient que cette limite est structurelle et non conjoncturelle, et examine pourquoi la question monétaire occupe une place réduite dans le débat écologique. Il ne démontre pas le mécanisme de création monétaire, qui fait l'objet du chapitre suivant."
 concepts: [essentiel_insolvable, creation_monetaire, neutralite_monetaire]
 renvois: [L1.C01, L1.C02, L1.C05, L1.C07, L1.C08, L1.C11, L1.C15, L1.C16]
@@ -106,7 +113,7 @@ Il examine ensuite pourquoi cette question occupe une place réduite dans le dé
 
 ::etat:: Entre 2015 et 2024, les émissions mondiales de CO2 d'origine fossile sont passées de 35,4 à 38,6 gigatonnes, soit une hausse de 9 %. [S1] Elles n'ont donc pas décru sur la période qui a suivi l'accord. Le total tous gaz suit la même pente : 48,5 gigatonnes d'équivalent CO2 en 2015, 53,2 en 2024, soit une hausse de 9,8 % [S9]. **Le périmètre se lit avec le chiffre** : CO2 fossile, méthane, protoxyde d'azote et gaz fluorés, agrégés au pouvoir de réchauffement à cent ans du cinquième rapport du GIEC, et **hors usage des terres**, que la base traite dans des feuilles séparées.
 
-::etat:: Sur la même période, les soixante-cinq plus grandes banques mondiales ont engagé 8 700 milliards de dollars de prêts et de placements d'émissions au bénéfice d'entreprises des énergies fossiles, dont 906 milliards pour la seule année 2025. [S5] Le périmètre se lit avec le chiffre : soixante-cinq établissements et non l'ensemble du secteur bancaire, deux formes de financement — le prêt et le placement de titres — et non la participation au capital. L1.C11 tire de cette série ce qu'elle établit et ce qu'elle n'établit pas.
+::etat:: De 2016 à 2025, les soixante-cinq plus grandes banques mondiales ont engagé 8 700 milliards de dollars de prêts et de placements d'émissions au bénéfice d'entreprises des énergies fossiles, dont 906 milliards pour la seule année 2025. [S5] La première version plaçait ce total *sur la même période* que les émissions ; le rapport compte depuis 2016, et son édition de 2026 s'arrête à 2025 [S5], ce que L1.C11 § 3, vérifié, écrit sur la même pièce. Le périmètre se lit avec le chiffre : soixante-cinq établissements et non l'ensemble du secteur bancaire, deux formes de financement — le prêt et le placement de titres — et non la participation au capital. L1.C11 tire de cette série ce qu'elle établit et ce qu'elle n'établit pas.
 
 ::hypothese:: L'écart entre l'engagement et le résultat n'appelle pas nécessairement l'hypothèse d'un défaut de sincérité ou de compétence des négociateurs. Il est compatible avec l'hypothèse d'une contrainte que la négociation ne portait pas : celle des conditions auxquelles les projets sont financés.
 

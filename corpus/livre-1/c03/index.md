@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-22
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -75,6 +75,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-16
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : au § 6, L1.C02 était dit poser une corrélation ; L1.C02 § 2 parle de progression conjointe et tient le mot de corrélation pour prématuré.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # ── SOLDÉES, CONVERTIES EN COMMENTAIRE LE 2026-09-19 ────────────────
   # Ces entrées déclarent elles-mêmes être soldées, appliquées ou closes. Leur texte
   # est conservé MOT POUR MOT parce qu'il porte un constat ; il cesse seulement de
@@ -241,6 +244,6 @@ Un argument d'un autre ordre a été avancé par l'économiste Nicholas Georgesc
 
 ::etat:: **La réserve est reprise ici telle quelle, et elle borne ce que le paragraphe précédent peut prétendre.** Aucun classement n'est disponible ; aucune production n'est rangée d'un côté ou de l'autre par ce corpus. **Ce qui est énoncé est la forme d'une réorientation, non une liste de ce qu'elle retiendrait** — et cette liste demande un travail de calibrage que L1.C16 tient pour une dette de conception, non pour un résultat acquis.
 
-::etat:: **Ce chapitre rend l'une des deux épreuves que L1.C02 annonce.** Ce chapitre-là pose que la corrélation entre production et empreinte physique serait contingente, et non structurelle, si un découplage était possible et observé. La réponse rendue ici est bornée : le découplage absolu n'est pas observé à l'échelle mondiale sur 2015-2023 [S7], et les taux observés ne permettent pas d'atteindre les réductions requises [S8] — ce qui laisse la corrélation debout sans établir qu'elle soit une loi. La seconde épreuve, celle du mécanisme monétaire, est conduite à partir de L1.C05, qui pose la monnaie comme registre, et jusqu'à L1.C07, qui expose le mécanisme bancaire de création.
+::etat:: **Ce chapitre rend l'une des deux épreuves que L1.C02 annonce.** Ce chapitre-là pose que la progression conjointe de la production et de l'empreinte physique serait contingente, et non structurelle, si un découplage était possible et observé ; il tient le mot de corrélation pour prématuré. La réponse rendue ici est bornée : le découplage absolu n'est pas observé à l'échelle mondiale sur 2015-2023 [S7], et les taux observés ne permettent pas d'atteindre les réductions requises [S8] — ce qui laisse la progression conjointe debout sans établir qu'elle soit une loi. La seconde épreuve, celle du mécanisme monétaire, est conduite à partir de L1.C05, qui pose la monnaie comme registre, et jusqu'à L1.C07, qui expose le mécanisme bancaire de création.
 
 Le chapitre suivant (L1.C04) examine le cadre proposé pour représenter l'espace dans lequel une économie peut se déployer, entre plancher social et plafond écologique.

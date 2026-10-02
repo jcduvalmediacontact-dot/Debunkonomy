@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-14
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: hybride
@@ -95,6 +95,9 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-14
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : au § 2, L1.C08 était dit établir la contribution de l'endettement à la dépendance ; son § 3 en établit des mécanismes théoriques, et son § 8 tient la dépendance prise comme un tout pour une hypothèse.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
 resume: "La bullshitnovation est le nom donné par l'auteur à une activité dénuée de sens réel, si ce n'est celui de générer du profit financier ; cette définition normative n'est pas une mesure empirique. Le chapitre lui associe le gabarit conservateur d'un test à trois verdicts : dedans, dehors ou indéterminé, qui ne devient applicable qu'après fixation du problème, du résultat, de l'horizon, du contrefactuel et de la preuve. Les critères prudentiels étudiés intègrent le risque financier, y compris les effets financiers des facteurs ESG, sans constituer par eux-mêmes un critère autonome de résolution écologique ou sociale. D'autres textes de l'Union définissent bien des résultats écologiques : ils classent, ils font publier, ou ils obligent l'entreprise quant à sa propre conduite — aucun des quatre examinés ne conditionne l'octroi d'un crédit au résultat matériel du projet financé. Cette proposition limitée ne mesure pas l'ampleur du phénomène, n'établit aucune éviction mécanique et ne démontre pas la supériorité de NEMO IMS. Le gabarit porte en outre sur un offreur et une prestation : il ne capte ni l'effet de rebond à l'échelle du système, ni le coût de son propre emploi, ni la capture de qui fixerait ses paramètres."
 concepts: [bullshitnovation, essentiel_insolvable, solvabilite_anticipee]
 renvois: [L1.C03, L1.C07, L1.C08, L1.C15, L1.C31]
@@ -129,7 +132,7 @@ Le mot « finance » recouvre ici au moins quatre décisions différentes.
 
 ::etat:: **Le premier de ces circuits est établi ailleurs dans ce livre, et ce qu'il établit doit être tenu exactement.** L1.C07 montre, sur deux sources de banque centrale lues dans le texte, que l'octroi d'un crédit inscrit simultanément une créance à l'actif de la banque et un dépôt à son passif, sans transfert du dépôt d'un épargnant, et que les contraintes pesant sur cette création **produisent une sélection des emprunteurs**. **C'est cette sélection, et elle seule, que le présent chapitre examine.**
 
-::etat:: **Le même chapitre interdit d'en tirer davantage, et la borne est reprise ici** : la création bancaire n'implique ni que chaque crédit finance une activité productive rentable, ni qu'elle impose à elle seule la croissance (L1.C07). L1.C08 établit de son côté que l'endettement contribue à une dépendance structurelle à la croissance, **tout en refusant expressément d'en faire une obligation arithmétique universelle** — et il ne mesure ni l'ampleur de ces mécanismes dans les économies observées, ni leur poids relatif parmi les autres.
+::etat:: **Le même chapitre interdit d'en tirer davantage, et la borne est reprise ici** : la création bancaire n'implique ni que chaque crédit finance une activité productive rentable, ni qu'elle impose à elle seule la croissance (L1.C07). L1.C08 établit de son côté l'existence théorique de mécanismes par lesquels l'endettement peut contribuer à une dépendance structurelle à la croissance, et tient cette dépendance, prise comme un tout, pour une hypothèse, **tout en refusant expressément d'en faire une obligation arithmétique universelle** — et il ne mesure ni l'ampleur de ces mécanismes dans les économies observées, ni leur poids relatif parmi les autres.
 
 ::etat:: Les orientations européennes ouvertes pour cette passe demandent, dans l'octroi de crédit, d'examiner la situation financière, les flux, la capacité de remboursement et des facteurs ESG [S10]. Leur interprétation officielle précise que ces facteurs sont d'abord intégrés par leur incidence sur la performance financière et la solvabilité ; l'impact externe de l'emprunteur compte aussi lorsqu'il revient sous forme de risque financier [S11]. Cette observation délimite le critère étudié : elle ne prouve ni que les banques ne conduisent aucune diligence écologique, ni que toutes leurs décisions suivent une règle unique, ni que les autres circuits fonctionnent comme le crédit.
 

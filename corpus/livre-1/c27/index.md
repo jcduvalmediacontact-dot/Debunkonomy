@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: verifie
-revision_de_fond: 2026-09-29
+revision_de_fond: 2026-10-01
 autorite: canonique
 citable: true
 regime: conception
@@ -60,6 +60,15 @@ sources_primaires:
     etat_lecture: ouverte
     date_verification: 2026-09-28
 verifications_en_attente: []
+  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du même jour (« corrige les renvois qui disent plus que leur cible »),
+  # relevée par le dossier de clôture des renvois : au § 6, la question que L1.C26 laissait ouverte y a reçu une réponse : son § 5 écrit que, dans le modèle, la contraction permanente disparaît.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les ancres déplacées listées dans le dossier »),
+  # relevée par le dossier de clôture des renvois : au § 3, l'organe de compensation non encore nommé est en L1.C29 § 5 ; l'ancre devient §§ 1 et 5.
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
+  # 2026-10-01, CORRECTION ÉDITORIALE, sans changement de fond, sur le mot de l'auteur du même jour (« corrige les états périmés listés dans le dossier »),
+  # relevée par le dossier de clôture des renvois : un renvoi du § 8 vers L1.C25 § 4 portait l'état « brouillon » ; L1.C25 est `verifie`. Le mot est remplacé par « vérifié ».
+  # Statut inchangé ; la correction d'un chapitre vérifié part au contrôle avant d'être tenue pour soldée.
   # CRIBLE DU 2026-09-29, AVANT L'AUDIT DE CODEX. Quatre chapitres ont été refusés ce jour
   # sur les mêmes motifs ; ils sont cherchés ici et corrigés, sans pièce nouvelle.
   # DÉCISION DE CONCEPTION DU 2026-09-21 (registre, A35, A37 ; protocoles/passe-2.md, « D1
@@ -178,7 +187,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ::etat:: **Le mécanisme de règlement suppose que les deux parties soient membres** : il détruit la monnaie de l'importateur et crée celle de l'exportateur, ce qui exige que les deux banques centrales participent. Un membre qui importe d'un non-membre ne peut pas détruire une monnaie que le vendeur n'accepte pas de voir créée chez lui en contrepartie ; ce commerce se règle conventionnellement, avec des devises détenues. **La suppression des réserves de change est donc une propriété du commerce intrazone, non du dispositif**, et le gain croît avec la part des échanges réalisée avec d'autres membres.
 
-::etat:: **Ce que le règlement arrêté ajoute à cette description doit être écrit.** Les banques centrales membres tiennent un compte à l'institution — ici l'organe de compensation, que la décision de conception du 2026-09-21 distingue des banques centrales émettrices et qui n'est pas encore nommé (L1.C29 § 1) — ; leurs positions y sont bornées par des quotas assis sur les importations, avec un corridor et un plafond dur des deux côtés, et les parités se révisent par une règle annoncée. **En zone, la contrainte extérieure demeure et se traite par la compensation** : ce qui remplace les devises détenues n'est pas l'absence de contrainte, c'est une position suivie, bornée et assortie d'obligations.
+::etat:: **Ce que le règlement arrêté ajoute à cette description doit être écrit.** Les banques centrales membres tiennent un compte à l'institution — ici l'organe de compensation, que la décision de conception du 2026-09-21 distingue des banques centrales émettrices et qui n'est pas encore nommé (L1.C29 § 1 et L1.C29 § 5) — ; leurs positions y sont bornées par des quotas assis sur les importations, avec un corridor et un plafond dur des deux côtés, et les parités se révisent par une règle annoncée. **En zone, la contrainte extérieure demeure et se traite par la compensation** : ce qui remplace les devises détenues n'est pas l'absence de contrainte, c'est une position suivie, bornée et assortie d'obligations.
 
 ::hypothese:: La correction joue dans les deux sens. Puisque le gain croît avec le nombre de membres, **le levier possède un effet de réseau positif** : chaque adhésion augmente la valeur de l'adhésion pour les suivants. Le levier est donc **faible au début et fort à la fin** — il ne peut pas servir à amorcer, seulement à consolider. Le levier qui doit amorcer est le troisième.
 
@@ -210,7 +219,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ## 6. Le rééquilibrage : ce que le livre répond, et ce que le corpus a mis à la place
 
-::etat:: L1.C26 avait laissé une question ouverte : si le déséquilibre commercial se reporte sur la masse monétaire nationale, qu'est-ce qui empêche un pays durablement déficitaire de se contracter sans terme. **Le livre répond par le financement régénératif** : « les nations obtiendront leur liquidité dans le cadre d'activités régénératives » ; et « ce sont les émissions de NEMO Green SDR [...] qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » [S3].
+::etat:: L1.C26 avait laissé une question ouverte : si le déséquilibre commercial se reporte sur la masse monétaire nationale, qu'est-ce qui empêche un pays durablement déficitaire de se contracter sans terme. Son § 5 y répond depuis dans le modèle arbitré : la contraction permanente disparaît, une dette prend sa place, et une règle de sortie la borne. **Le livre répond par le financement régénératif** : « les nations obtiendront leur liquidité dans le cadre d'activités régénératives » ; et « ce sont les émissions de NEMO Green SDR [...] qui rééquilibreront et stabiliseront les économies nationales. Autrement dit, ce sont les activités écologiques et sociales qui entretiennent les équilibres financiers et macroprudentiels » [S3].
 
 ::etat:: **Cette réponse est celle du livre, et le corpus n'en fait pas son mécanisme de rééquilibrage.** Ce qui traite désormais les déséquilibres est l'architecture de compensation arrêtée : comptes des banques centrales à l'institution, quotas, corridor et plafond, obligations automatiques des excédentaires, deux guichets financés par émission, deux procédures structurelles, et une règle de sortie des dettes durables. **Son verdict est scindé** : expérimentable en coalition sans condition pour les chocs passagers, et sous deux conditions déclarées non remplies pour les déséquilibres durables — mesurer l'inflation qu'importerait une dévaluation, obtenir l'adhésion de créanciers tenus d'avance. **Le prix est publié : l'exportateur paie**, par conversion de ses créances au-delà du plafond.
 
@@ -238,7 +247,7 @@ renvois: [L1.C18, L1.C19, L1.C21, L1.C22, L1.C24, L1.C25, L1.C26, L1.C31]
 
 ## 8. Ce que le rééquilibrage arrêté doit à des précédents
 
-::etat:: **Le volet international du dispositif n'est pas sans antériorité, et le chapitre doit le porter.** Le rééquilibrage arrêté reprend des mécanismes que d'autres ont proposés ou pratiqués : le plan présenté par Keynes en 1943, dont L1.C25 § 4 rapporte, d'après une seule leçon de cours, qu'il n'a pas prévalu (brouillon ; pièce ouverte là-bas) ; l'Union européenne des paiements, qui réalisait une compensation multilatérale économe en réserves ; et l'accord de Londres de 1953 sur les dettes allemandes. **Ce que le dispositif ajoute à ces précédents n'est pas établi**, faute de la comparaison qu'exige le test de l'apport propre, et qui n'a pas été conduite.
+::etat:: **Le volet international du dispositif n'est pas sans antériorité, et le chapitre doit le porter.** Le rééquilibrage arrêté reprend des mécanismes que d'autres ont proposés ou pratiqués : le plan présenté par Keynes en 1943, dont L1.C25 § 4 rapporte, d'après une seule leçon de cours, qu'il n'a pas prévalu (vérifié ; pièce ouverte là-bas) ; l'Union européenne des paiements, qui réalisait une compensation multilatérale économe en réserves ; et l'accord de Londres de 1953 sur les dettes allemandes. **Ce que le dispositif ajoute à ces précédents n'est pas établi**, faute de la comparaison qu'exige le test de l'apport propre, et qui n'a pas été conduite.
 
 ::hypothese:: **La différence que le corpus peut nommer sans la chiffrer** est que les obligations des excédentaires y sont automatiques et consenties à l'adhésion, là où le plan de Keynes les laissait à la négociation. C'est une différence de conception, non un apport mesuré.
 
