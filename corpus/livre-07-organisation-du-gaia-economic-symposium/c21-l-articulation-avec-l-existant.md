@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,10 @@ sources_primaires:
     reference: "Le corpus lui-même — L7.C08, le frein conservateur : le dispositif emploie sans le nommer le mécanisme du banquier central conservateur, et la seule chambre dont la clé de représentation n'est pas énoncée est le Conseil Monétaire. Et L7.C13 : la sanctuarisation juridique est déclarée CONDITION SINE QUA NON de l'émergence des unités, ce qui subordonne le dispositif à une transformation juridique préalable. Et P.-O. Gourinchas, H. Rey, « From World Banker to World Venture Capitalist », NBER WP 11563, 2005 — OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06 : « We find strong evidence of a sizeable EXCESS RETURN of gross assets over gross liabilities [...] mainly due to a RETURN DISCOUNT [...] a COMPOSITION EFFECT : the US tends to borrow short and lend long. » CETTE SOURCE N'EST PAS CELLE QUE LE CORPUS CROYAIT CITER : elle établit le PRIVILÈGE et non le devoir exorbitant, et le mot « insurance » n'y figure aucune fois. Voir § 6"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L11.C15 était dit avoir établi qu'une révision de parité est un transfert sans porteur ; au § 2, L7.C08 était dit avoir établi que la position des banques centrales tient. L11.C15 § 5 et L7.C08 § 7 les tiennent en hypothèse, et L7.C08 § 5 pose la condition que la formule, absente du dossier, existe et contraigne.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE DE CONCEPTION, et le dernier avant le rendu. Le livre ne traite
   # pas l'articulation avec les institutions existantes autrement que par la
@@ -67,7 +71,7 @@ renvois: [L1.C24, L1.C25, L1.C26, L7.C08, L7.C13, L7.C17, L7.C19, L11.C04, L11.C
 
 ::etat:: **Le Conseil Monétaire « réunit les représentants des banques centrales participantes »** [S1], et le livre déclare lui-même que ce choix « pourrait sembler contradictoire avec la critique que cet ouvrage adresse à ces institutions ».
 
-::hypothese:: **L7.C08 a établi que la position tient** — ces autorités ne choisissent pas les bénéficiaires, et l'objection viserait un pouvoir qu'elles n'ont pas — **et que le corpus lui reproche deux choses** : c'est la seule chambre dont la clé de représentation n'est pas énoncée, et le frein conservateur qu'elle est censée installer n'a pas de levier si la formule d'équilibre est appliquée rigoureusement [S2].
+::hypothese:: **L7.C08 § 7 tient, en hypothèse, que la position tient** (ce paragraphe écrivait « a établi ») — ces autorités ne choisissent pas les bénéficiaires, et l'objection viserait un pouvoir qu'elles n'ont pas — **et que le corpus lui reproche deux choses** : c'est la seule chambre dont la clé de représentation n'est pas énoncée, et le frein conservateur qu'elle est censée installer n'a pas de levier si la formule d'équilibre est appliquée rigoureusement [S2] — sous la condition, que L7.C08 § 5 pose, que cette formule, qui n'est pas au dossier, existe et contraigne.
 
 ::hypothese:: **Le corpus ajoute ici un point qu'il n'avait pas relevé : cette composition est une STRATÉGIE D'ADOPTION autant qu'un choix d'architecture.** Confier un pouvoir aux institutions dont on demande la transformation, **c'est les intéresser au dispositif plutôt que les mettre en face.** Le livre ne le formule pas ainsi ; **le corpus enregistre que c'est probablement l'élément le plus habile de l'ensemble**, et qu'il traite F6 — l'adoption contre le créancier — par la seule voie qui ait jamais fonctionné : ne pas faire du détenteur de la position un adversaire.
 
@@ -75,7 +79,7 @@ renvois: [L1.C24, L1.C25, L1.C26, L7.C08, L7.C13, L7.C17, L7.C19, L11.C04, L11.C
 
 ::etat:: **Le corpus n'a trouvé aucune position dans le livre**, et deux questions restent entières.
 
-::hypothese:: **La coexistence des régimes de change.** Le dispositif institue un référentiel à parités fixes (L1.C26) ; les régimes existants sont flottants, ancrés ou administrés. **Un membre du dispositif conserve-t-il ses engagements antérieurs ?** L11.C15 a établi qu'une révision de parité est un transfert dont personne n'a dit qui le supporte ; **l'entrée dans le référentiel est une révision de parité.**
+::hypothese:: **La coexistence des régimes de change.** Le dispositif institue un référentiel à parités fixes (L1.C26) ; les régimes existants sont flottants, ancrés ou administrés. **Un membre du dispositif conserve-t-il ses engagements antérieurs ?** L11.C15 § 5 tient, en hypothèse, qu'une révision de parité est un transfert dont personne n'a dit qui le supporte (ce paragraphe écrivait « a établi ») ; **l'entrée dans le référentiel est une révision de parité.**
 
 ::hypothese:: **Et le prêteur en dernier ressort.** L1.C26 § 5 a établi sous P50 qu'un pays structurellement déficitaire subit une contraction monétaire continue, **« sans prêteur en dernier ressort, sans ligne d'échange et sans recours au FMI »**. Le dispositif supprime les réserves de change pour le commerce intrazone — c'est son apport le plus net — **et il ne dit pas ce qui remplace la fonction que ces réserves servaient.**
 
