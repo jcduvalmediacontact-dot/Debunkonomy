@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "**Le corpus lui-même.** **L20.C09** : la double majorité de l'art. XVII des statuts de 1944 — trois cinquièmes des membres, quatre cinquièmes des voix — **est plus exigeante que chacun de ses deux critères pris seul.** **L20.C13** : entrée en vigueur subordonnée à un seuil en part des contributions, **date plancher et date butoir.** **L6.C12** : une technique multilatérale QUI A FONCTIONNÉ — art. 47 du traité sur la Charte de l'énergie, **vingt et un ans depuis la notification, cliquet à trois crans, plus une seconde clause de survie pour l'application provisoire**. **L5.C01** : trois questions opposables à chaque voie — qui entre en premier et qu'y gagne-t-il, que peut faire l'émetteur en place, **et que coûte l'échec**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L6.C09 était dit avoir établi que la durée produit le même résultat que l'inexécution ; l'énoncé est en L6.C13 § 4, en hypothèse, et L6.C09 ne le porte pas.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "AUCUN TRAITÉ MULTILATÉRAL N'A ÉTÉ OUVERT POUR CE CHAPITRE. Il raisonne sur
      trois instruments que le corpus tient par le registre du Livre 6 ou par
      L6.C09, **et il n'a instruit ni les travaux préparatoires, ni les motifs
@@ -40,7 +44,7 @@ verifications_en_attente:
      de cette nature."
 resume: "Ce chapitre instruit la troisième voie d'entrée annoncée, celle de la négociation multilatérale, et il soutient qu'elle a un mode d'échec caractéristique que le corpus a déjà décrit sans le rattacher à l'adoption. Ce mode n'est pas le blocage : c'est le désarmement. Trois instruments récents portant sur des objets écologiques ou redistributifs le montrent, et le corpus les tenait sans les avoir rapprochés. Le premier, un traité adopté par consensus après vingt-cinq ans de négociation, crée une obligation authentique au bénéfice d'un destinataire nommé, puis lui retire ses remèdes à trois endroits différents de son texte, et n'est pas en vigueur, deux ratifications ayant été déposées sur les quinze requises. Le deuxième, une convention adoptée en 2025 et ouverte à la signature la même année, n'était pas en vigueur un an plus tard, et la convention antérieure portant le même objet n'y est jamais entrée. Le troisième, une proposition d'amendement soumise en 2024, en est restée à sa soumission formelle. Le chapitre en tire que dans cette voie, l'adversaire ne s'oppose pas au texte, il en négocie les remèdes, et que la règle de décision la plus exigeante, le consensus, est aussi celle qui produit les textes les plus faibles. Il applique ensuite les trois questions du premier chapitre et relève que cette voie est la seule où le premier entrant ne gagne rien, ratifier en premier n'offrant aucun avantage puisque l'instrument n'existe qu'au seuil. Il note enfin, contre lui-même, que ses trois cas ont été retenus parce que le sixième livre les avait rencontrés en instruisant des échecs, et qu'un corpus qui ne collecte que des échecs conclura à l'échec."
 concepts: [seuil_d_activation, fenetre_de_reforme, polycentricite, robustesse]
-renvois: [L1.C27, L5.C01, L5.C02, L5.C03, L6.C09, L6.C12, L20.C06, L20.C09, L20.C13]
+renvois: [L6.C13, L1.C27, L5.C01, L5.C02, L5.C03, L6.C09, L6.C12, L20.C06, L20.C09, L20.C13]
 ---
 
 # La voie multilatérale, et son mode d'échec
@@ -81,7 +85,7 @@ renvois: [L1.C27, L5.C01, L5.C02, L5.C03, L6.C09, L6.C12, L20.C06, L20.C09, L20.
 
 ::hypothese:: **Que peut faire l'émetteur en place ? — Négocier.** Il n'a pas besoin de s'opposer : **il lui suffit d'être partie.** Et c'est moins coûteux pour lui que dans toutes les autres voies, puisqu'il agit à l'intérieur de la procédure et **en apparaissant coopératif.**
 
-::hypothese:: **Que coûte l'échec ? — Des années, et le corpus tient un ordre de grandeur.** Vingt-cinq ans pour un texte qui n'est pas en vigueur ; dix-huit mois pour une convention à trois signataires ; **et un instrument antérieur sur le même objet qui n'est jamais entré en vigueur.** **Le coût n'est pas financier, il est temporel — et L6.C09 a établi que la durée produit le même résultat que l'inexécution.**
+::hypothese:: **Que coûte l'échec ? — Des années, et le corpus tient un ordre de grandeur.** Vingt-cinq ans pour un texte qui n'est pas en vigueur ; dix-huit mois pour une convention à trois signataires ; **et un instrument antérieur sur le même objet qui n'est jamais entré en vigueur.** **Le coût n'est pas financier, il est temporel — et L6.C13 § 4 tient, en hypothèse, que la lenteur produit le même résultat que l'inexécution.** Ce paragraphe citait L6.C09, qui ne l'écrit pas, et écrivait « a établi ».
 
 ::hypothese:: **Le corpus relève que ce coût est le plus lourd des trois voies examinées, et pour une raison de structure.** Une infrastructure inachevée laisse un actif ; une coalition trop petite laisse des membres qui peuvent continuer entre eux. **Un traité non ratifié ne laisse rien** — ni actif, ni collectif, **et il consomme le temps politique de ceux qui l'ont porté.**
 
