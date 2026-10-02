@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -21,6 +21,10 @@ sources_primaires:
     reference: "**Le corpus lui-même — la bifurcation que L11.C01 a instruite SANS LA TRANCHER, et qui commande tout le Livre 11.** Sous la première lecture, « le reflux s'annule à l'arrivée : la monnaie revient au bilan de l'émetteur et **s'éteint contre la contrepartie correspondante, exactement comme un crédit remboursé — c'est une destruction** », et c'est la lecture du Cahier technique. Sous la seconde, « le reflux arrive et demeure : **le Symposium détient alors une ressource**, et le reflux transactionnel cesse d'être une destruction pour devenir **un prélèvement qui finance l'émission** ». **L11.C01 juge la seconde « plus orthodoxe et plus défendable qu'il n'y paraît », au prix de « l'abandon de la monnaie sans dette au sens fort ».** **L11.C07 tient déjà que « un prélèvement sur la détention est un rendement négatif », et en tire la borne de l'arbitrage de rendement.** **Et L10.C06 § 3 tient la branche la plus favorable** : « une décote appliquée par l'émetteur à sa propre unité **n'exige AUCUNE compétence fiscale** — elle exige **que l'unité soit sienne**, ce qui ramène à la question du passif »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L19.C01 était dit avoir établi que « sans dette » recouvrait deux propositions ; L19.C01 § 6 le tient en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, L10.C06 § 3 était dit ne pas pouvoir ouvrir la branche de la décote faute de savoir ce que l'unité est au passif, et ce livre l'avoir dit ; L10.C06, repassé le 30 septembre, tient la règle monétaire pour la branche la plus favorable en la bornant à l'encours (§ 3), et rapporte que la décision du 21 septembre inscrit l'unité au passif des banques centrales participantes, en règle de conception (§ 5).
   # Statut inchangé.
@@ -130,7 +134,7 @@ renvois: [L10.C06, L11.C01, L11.C02, L11.C05, L11.C07, L11.C27, L19.C01, L19.C02
 
 ::hypothese:: **Une unité qui fond selon une règle écrite est donc, dans la nomenclature mondiale, une unité PORTANT INTÉRÊT — négatif.** **Le corpus ne peut plus dire « sans intérêt » sans préciser qu'il veut dire « sans intérêt POSITIF versé au détenteur ».**
 
-::etat:: **C'est la seconde correction de lexique en trois chapitres, et elle est de la même espèce que la première.** **L19.C01 a établi que « sans dette » recouvrait deux propositions ; celui-ci établit que « sans intérêt » en recouvre deux aussi.** **Dans les deux cas, ce que la norme retire n'est pas le mécanisme : c'est le mot.**
+::etat:: **C'est la seconde correction de lexique en trois chapitres, et elle est de la même espèce que la première.** **L19.C01 a établi que « sans dette » recouvrait deux propositions ; celui-ci établit que « sans intérêt » en recouvre deux aussi.** Ce que cette phrase prête à L19.C01, L19.C01 § 6 le tient en hypothèse, non comme établi. **Dans les deux cas, ce que la norme retire n'est pas le mécanisme : c'est le mot.**
 
 ## 6. Troisième résultat — l'alternative, et ses deux branches se paient
 
