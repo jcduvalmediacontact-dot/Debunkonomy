@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » Retenu ici pour ce qu'il fait au délai de DÉCISION, et pour ce qu'il ne fait pas aux quatre autres"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, ligne D₁ du tableau, le délai de transmission monétaire était dit établi en L11.C10 ; L11.C10 § 2 le tient en hypothèse, sur Friedman, que son § 7 dit non lu.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C03 était dit avoir établi que le compte est au plus mauvais sous tension, « sept des treize conditions-limites » ne mordant que dans cet état ; L11.C03 § 5, repris le 1er octobre, tient la simultanéité pour une conjecture et a refait son inventaire. Le compteur recopié sort.
   # Statut inchangé.
@@ -92,7 +96,7 @@ renvois: [L1.C21, L11.C03, L11.C07, L11.C10, L11.C12, L11.C13, L11.C16, L11.C17,
 
 | # | Le délai | Entre quoi et quoi | Statut dans le corpus |
 |---|---|---|---|
-| **D₁** | **transmission monétaire** | la modification d'un taux et son effet sur les comportements | établi (L11.C10, sur Friedman [S1] — source non ouverte) |
+| **D₁** | **transmission monétaire** | la modification d'un taux et son effet sur les comportements | tenu en hypothèse (L11.C10 § 2, sur Friedman [S1] — source non ouverte ; ce tableau écrivait « établi ») |
 | **D₂** | **constat de qualification** | l'acte régénératif et sa reconnaissance | **nommé ici** — établi sous une autre catégorie en L11.C13 |
 | **D₃** | **restauration écologique** | l'acte financé et son effet mesurable | établi (L11.C16 § 8) — non sourcé, relève du Livre 18 |
 | **D₄** | **recouvrement administratif** | l'acquittement du prélèvement et le reflux effectif | établi (L11.C21 § 3) |
