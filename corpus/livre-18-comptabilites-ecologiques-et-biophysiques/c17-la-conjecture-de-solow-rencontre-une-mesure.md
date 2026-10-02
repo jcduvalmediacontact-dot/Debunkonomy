@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -16,6 +16,10 @@ sources_primaires:
     reference: "**Mark J. Koetse (Vrije Universiteit Amsterdam), Henri L. F. de Groot (VU Amsterdam et Tinbergen Institute) et Raymond J. G. M. Florax (VU Amsterdam et Purdue University), « Capital-Energy Substitution and Shifts in Factor Demand: A Meta-Analysis », *Tinbergen Institute Discussion Paper* TI 2006-061/3, 25 pages.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis le serveur du Tinbergen Institute, lu dans le texte. **DROITS : aucune mention lue dans le document — régime `a_verifier`, citation courte avec attribution.** **DOCUMENT DE TRAVAIL : une version a paru en revue en 2007-2008 et n'est pas ouverte.** **C'était l'acquisition de rang 1 inscrite par L18.C16.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L26.C09 était dit avoir établi que toutes les méthodes trouvent une relation positive entre efficacité et activité ; L26.C09 § 4 le rapporte des dix-sept études d'un rapport, et § 5 refuse d'en faire une loi sur toutes les méthodes.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "**CE N'EST PAS LA GRANDEUR DE SOLOW, ET C'EST LA RÉSERVE PRINCIPALE.** Solow
      conditionne son résultat à l'élasticité de substitution entre **les ressources
      naturelles** d'une part et **le travail et les biens capitaux** d'autre part,
@@ -83,7 +87,7 @@ renvois: [L11.C13, L18.C11, L18.C14, L18.C16, L26.C04, L26.C09, L26.C11, L26.C12
 
 ::hypothese:: **C'est, dans le vocabulaire de la fonction de production, exactement ce que L26.C11 et L26.C12 ont établi dans celui de la thermodynamique.** La dilution d'efficacité dit qu'un gain technique par appareil ne se retrouve pas dans l'agrégat national. **Ceci dit qu'un potentiel d'économie technique ne se réalise pas économiquement.** **Deux littératures qui ne se citent pas disent la même chose : le possible technique n'est pas l'effectif économique.**
 
-::etat:: **Et cela recoupe un troisième corps de résultats** — L26.C09 avait établi que toutes les méthodes trouvent une relation positive entre efficacité et activité. **Trois voies indépendantes : économétrie de la production, comptabilité exergétique, littérature du rebond.**
+::etat:: **Et cela recoupe un troisième corps de résultats** — L26.C09 § 4 rapporte que toutes les études recensées par le rapport de 2026 — dix-sept, des trois familles de méthodes — observent une relation positive entre efficacité et activité, et L26.C09 § 5 refuse d'en faire une loi sur toutes les méthodes ; ce paragraphe écrivait « toutes les méthodes ». **Trois voies indépendantes : économétrie de la production, comptabilité exergétique, littérature du rebond.**
 
 ## 5. Ce que cela fait à F13, et le falsifieur reste ouvert
 
