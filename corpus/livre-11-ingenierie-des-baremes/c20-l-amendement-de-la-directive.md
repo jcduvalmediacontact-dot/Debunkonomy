@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » LE PRÉSENT CHAPITRE ÉTABLIT QUE CET ARBITRAGE RÈGLE AUSSI LA RÉTROACTIVITÉ, ce que ni lui ni le corpus n'avaient relevé : un changement déclenché par un fait public et observable ne surprend personne, et la question de la rétroactivité ne se pose donc pas dans les mêmes termes"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5 et au § 8, L11.C10 était dit avoir établi ce que devient une règle qu'on anticipe ; L11.C10 § 2 le tient sur une source secondaire, l'article de 1977 restant à ouvrir. Au § 4, L11.C19 était dit avoir établi qu'une décision sans recours reproduit ses biais ; L11.C19 § 2 tient en hypothèse que la procédure est le seul lieu où les biais se corrigent.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 6, L11.C16 était dit établir que la valorisation n'a même pas de valeur par défaut défendable ; L11.C16 § 7 tient en hypothèse que la question, sous la chaîne arrêtée, devient celle du coût admis, sans réponse. Au § 8, L11.C17 § 7 était dit avoir recensé deux contradictions non résolues et établi leur structure ; il en recense davantage et tient cette structure en hypothèse.
   # Statut inchangé.
@@ -113,7 +117,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 | | L'élément | Pourquoi |
 |---|---|---|
 | **1** | **déclaration explicite** — tout changement de fonction est annoncé comme tel | sans quoi le § 2 est perdu et le test du § 3 devient l'unique garde-fou |
-| **2** | **motivation publiée et contestable** | un amendement est une décision ; L11.C19 a établi qu'une décision sans recours reproduit ses biais |
+| **2** | **motivation publiée et contestable** | un amendement est une décision ; L11.C19 § 2 tient, en hypothèse, que les biais d'un barème ne se corrigent que dans la procédure, dont le recours est la partie contestable (ce tableau écrivait que L11.C19 avait établi qu'une décision sans recours reproduit ses biais) |
 | **3** | **délai entre publication et entrée en vigueur** | pour que les situations en cours puissent s'ajuster — et le § 6 dit ce qui règle ce délai |
 | **4** | **régime de rétroactivité** | le § 5 ; c'est le point dur |
 | **5** | **clause de ce qui se passe si l'amendement n'a pas lieu** | une directive sans terme **se pérennise par inertie** ; une directive à terme fixe perd sa crédibilité. Le § 7 |
@@ -124,7 +128,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 
 ::hypothese:: **Un amendement qui allège** ne pose guère de difficulté : la rétroactivité favorable est admise dans la plupart des régimes et ne crée pas d'insécurité.
 
-::hypothese:: **Un amendement qui alourdit et qui rétroagit** frappe des décisions prises sous une autre règle. **Le dispositif y perd la propriété pour laquelle il a choisi la directive** : L11.C10 a établi qu'une règle dont on anticipe la réécriture ne guide plus, et une règle rétroactive est le cas extrême de cette anticipation.
+::hypothese:: **Un amendement qui alourdit et qui rétroagit** frappe des décisions prises sous une autre règle. **Le dispositif y perd la propriété pour laquelle il a choisi la directive** : L11.C10 § 2 tient, confirmé par une source secondaire, l'article de 1977 restant à ouvrir, qu'une règle dont on anticipe la réécriture ne guide plus (ce paragraphe écrivait « a établi »), et une règle rétroactive est le cas extrême de cette anticipation.
 
 ::hypothese:: **Un amendement qui alourdit et qui ne rétroagit pas** produit l'effet inverse et il est pire qu'il n'y paraît. **Les situations constituées gardent leur classement favorable** — c'est le mécanisme de l'attribution fondée sur les positions acquises, dont le corpus soutient qu'il a vidé des marchés de quotas de leur effet, **sans l'avoir vérifié sur source**. Il en résulte une **prime à l'ancienneté** : l'installation ancienne, plus dégénérative, paie moins que l'installation nouvelle qui la remplacerait. **Le barème punit alors exactement ce qu'il voulait encourager.**
 
@@ -158,7 +162,7 @@ renvois: [L1.C21, L1.C26, L1.C28, L11.C03, L11.C06, L11.C10, L11.C12, L11.C13, L
 
 ::etat:: L11.C17 § 7 recense les contradictions entre des exigences que le corpus tient toutes pour fondées, dont plusieurs restent **non résolues**, et tient en hypothèse que les deux premières ont la même structure : *une propriété qui rend le barème efficace détruit une propriété qui le rend légitime*. L11.C18 § 7 en a versé un autre cas. Ce paragraphe écrivait « deux contradictions non résolues » et « a établi ».
 
-::hypothese:: **En voici une quatrième, et elle porte sur la clause d'expiration.** Une directive sans terme **se pérennise par inertie** : ne rien faire suffit à la maintenir, et l'amendement devient un acte coûteux que personne n'entreprend — c'est le mécanisme de report que L11.C15 § 6 a rencontré sur les parités. **Une directive à terme fixe** force l'amendement à être une décision active, **et détruit la crédibilité** : chacun sait qu'elle expire, donc anticipe sa renégociation, et L11.C10 a établi ce que devient une règle qu'on anticipe.
+::hypothese:: **En voici une quatrième, et elle porte sur la clause d'expiration.** Une directive sans terme **se pérennise par inertie** : ne rien faire suffit à la maintenir, et l'amendement devient un acte coûteux que personne n'entreprend — c'est le mécanisme de report que L11.C15 § 6 a rencontré sur les parités. **Une directive à terme fixe** force l'amendement à être une décision active, **et détruit la crédibilité** : chacun sait qu'elle expire, donc anticipe sa renégociation, et L11.C10 § 2 tient, sur une source secondaire, ce que devient une règle qu'on anticipe ; ce paragraphe écrivait « a établi ».
 
 ::hypothese:: **Quatre occurrences, par quatre chemins indépendants, suffisent à changer le statut de l'observation.** Le corpus cessera de les traiter comme une série de difficultés locales : **c'est une propriété de gouverner par barème**, et non un défaut de ce dispositif-ci. **Ce qui suit de cela est une exigence de rédaction** — chaque arbitrage sur un barème doit énoncer de quel côté il paie, et le corpus doit refuser tout arbitrage qui prétend ne pas payer.
 
