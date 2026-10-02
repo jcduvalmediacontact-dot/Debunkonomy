@@ -39,7 +39,7 @@
   "terme": "decouplage",
   "libelle": "Découplage",
   "definition": "Évolution dans laquelle la production économique et une pression physique ne progressent plus au même rythme ; le découplage absolu implique que la pression diminue malgré la croissance de la production.",
-  "premiere_occurrence": "L1.C03"
+  "premiere_occurrence": "L1.C02"
  },
  {
   "terme": "effet_rebond",
@@ -153,7 +153,7 @@
   "terme": "degeneratif",
   "libelle": "Dégénératif",
   "definition": "Se dit d'un système qui, en fonctionnant, diminue l'état ou la capacité de renouvellement des fonds naturels dont il dépend. Contraire de régénératif, au sens défini en L1.C01.",
-  "premiere_occurrence": "L1.C11"
+  "premiere_occurrence": "L1.C08"
  },
  {
   "terme": "monnaie_fondante",
@@ -177,13 +177,13 @@
   "terme": "qualification_regenerative",
   "libelle": "Qualification régénérative",
   "definition": "Nom provisoire (celui du corpus), à confirmer en passe 2. Décision par laquelle une instance reconnaît qu'une activité satisfait les critères d'un cahier des charges définissant ce qu'elle entretient ou reconstitue, et lui ouvre de ce fait l'accès à un financement qui ne passe pas par le filtre de la solvabilité. Décide de l'éligibilité, non du volume émis : qualifier une activité ne dit pas combien de monnaie créer pour elle.",
-  "premiere_occurrence": "L1.C18"
+  "premiere_occurrence": "L1.C08"
  },
  {
   "terme": "reflux_transactionnel",
   "libelle": "Reflux transactionnel",
   "definition": "Prélèvement appliqué à une transaction et modulé selon l'empreinte écologique et sociale cumulée du bien ou de l'actif acquis : nul pour les activités régénératives, léger pour les activités neutres, lourd pour les activités dégénératives. Son produit ne finance aucune dépense de celui qui le perçoit : il reflue vers la banque centrale nationale puis vers l'institution émettrice. ARBITRAGE DU 2026-09-05 : ce reflux n'est PAS une annulation — l'institution peut accumuler des avoirs au-delà de ce qu'elle a émis (L11.C01 § 4). La monnaie quitte donc la circulation sans être détruite. À ne pas confondre avec la monnaie fondante de Gesell, qui frappe la détention et non l'échange : une taxe sur l'échange freine l'échange, une taxe sur la détention l'accélère. Le corpus emploie « fonte transactionnelle » pour la première et « demurrage » pour la seconde.",
-  "premiere_occurrence": "L1.C21"
+  "premiere_occurrence": "L1.C08"
  },
  {
   "terme": "demurrage",
@@ -195,7 +195,7 @@
   "terme": "communs",
   "libelle": "Communs",
   "definition": "Ressources et services dont l'entretien conditionne la continuation de la vie sociale et biophysique, et dont le régime n'est ni l'appropriation exclusive ni l'absence de règle. Le corpus distingue trois catégories que l'usage courant réunit sous un même mot : les biens de consommation collective, non rivaux et non exclusifs ; les ressources communes, rivales mais difficilement exclusives ; et les services rivaux et exclusifs tenus pour essentiels, dont l'accès est soustrait à la capacité de payer par décision et non par impossibilité technique. Chacune appelle un remède distinct, et les confondre masque cette distinction.",
-  "premiere_occurrence": "L1.C22"
+  "premiere_occurrence": "L1.C08"
  },
  {
   "terme": "additionnalite",
@@ -279,25 +279,25 @@
   "terme": "affectation_des_instruments",
   "libelle": "Affectation des instruments",
   "definition": "Principe de politique économique selon lequel le nombre d'objectifs indépendants poursuivis ne peut excéder le nombre d'instruments indépendants disponibles, et selon lequel chaque instrument doit être affecté à l'objectif sur lequel il agit le plus directement. Deux objectifs qui varient toujours ensemble n'en font qu'un ; deux instruments aux effets proportionnels non plus. En sous-nombre, la politique n'atteint pas tous ses objectifs, et le sacrifice se fait — écrit ou non.",
-  "premiere_occurrence": "L11.C03"
+  "premiere_occurrence": "L1.C31"
  },
  {
   "terme": "effet_veblen",
   "libelle": "Effet Veblen",
   "definition": "Comportement de demande dans lequel un prix élevé n'est pas un obstacle à l'achat mais l'attribut recherché, parce qu'il porte un signal de position sociale. Le corpus l'emploie comme objection au barème différencié : sur les biens concernés, le signe de l'effet d'un renchérissement n'est pas établi, et ces biens sont vraisemblablement ceux dont l'empreinte par unité de dépense est la plus élevée.",
-  "premiere_occurrence": "L11.C03"
+  "premiere_occurrence": "L8.C18"
  },
  {
   "terme": "valorisation_des_communs",
   "libelle": "Valorisation des communs",
-  "definition": "Décision qui fixe combien un acte régénératif certifié vaut en allocations émises. Distincte de la qualification, qui décide de l'éligibilité sans dire combien de monnaie créer. Le corpus la tient pour la décision D2 au sens de L11.C11, domicile de la promesse bloquante P52, et établit qu'elle se décompose en deux grandeurs de statut opposé : le NIVEAU, contraint par la condition de bouclage et donc décidé par personne, et la STRUCTURE — la valeur relative des actes entre eux —, qui est l'objet du barème et, à enveloppe plafonnée, un partage.",
-  "premiere_occurrence": "L11.C16"
+  "definition": "Décision qui fixe combien un acte régénératif certifié vaut en allocations émises. Distincte de la qualification, qui décide de l'éligibilité sans dire combien de monnaie créer. Le corpus la tient pour la décision D2 au sens de L11.C11, domicile de la promesse P52, déplacée et non levée, et établit sur le livre qu'elle se décompose en deux grandeurs de statut distinct : le NIVEAU — le volume annuel maximal —, que le livre fait calculer par formule au Conseil Monétaire Mondial, et la STRUCTURE — la valeur relative des actes entre eux —, qui est l'objet du barème voté par l'Assemblée des Communs et qui devient un partage si la demande excède l'enveloppe (L11.C16 § 2 et § 4).",
+  "premiere_occurrence": "L2.C17"
  },
  {
   "terme": "polycentricite",
   "libelle": "Polycentricité",
-  "definition": "Organisation dans laquelle une décision collective est prise simultanément à plusieurs échelles emboîtées plutôt que par une unité unique. Le corpus l'emploie comme la seule réponse constituée à l'objection de la connaissance dispersée, et retient d'Ostrom deux arguments indépendants : une politique adoptée à la seule échelle mondiale engendre difficilement la confiance nécessaire à l'action collective, et recommander une unité gouvernementale unique pour résoudre un problème d'action collective mondiale est intrinsèquement faible en raison même des comportements de passager clandestin. L11.C16 établit qu'elle s'applique au constat et non à la fixation des valeurs, où le résultat de Mundell l'interdit.",
-  "premiere_occurrence": "L11.C16"
+  "definition": "Organisation dans laquelle une décision collective est prise simultanément à plusieurs échelles emboîtées plutôt que par une unité unique. Le corpus l'emploie comme la seule réponse constituée à l'objection de la connaissance dispersée, et retient d'Ostrom qu'une politique adoptée à la seule échelle mondiale engendre difficilement la confiance nécessaire à l'action collective, et que la recommandation d'une unité gouvernementale unique doit être sérieusement repensée. L11.C16 l'applique au constat ; sur la fixation des valeurs, aucune décision de l'auteur ne tranche entre centralisation et polycentricité (L1.C22 § 2).",
+  "premiere_occurrence": "L2.C07"
  },
  {
   "terme": "monnaie_regenerative_contrepartie_collective",
