@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -23,6 +23,10 @@ sources_primaires:
   # repassé le 30 septembre, tient le partage pour conditionnel et retire la saturation comme état visé ; L11.C13 § 3
   # redéfinit D2 sous la chaîne arrêtée et n'y loge P52 que sous la première lecture de L1.C27 § 6. Le § 3 est corrigé.
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L7.C04 était dit avoir établi une seconde forme, distributive, du conflit ; L7.C04 § 1 la tient en hypothèse, sous la condition d'une demande qui excède le volume, que L11.C16 § 4 ne tient plus pour l'état visé.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, L11.C16 § 2 était dit avoir établi que le niveau n'est pas une décision mais une conséquence du bouclage, et L11.C16 § 4 que la valorisation est un partage à somme quasi nulle ; L11.C16, repassé le 30 septembre, range le niveau parmi ce que le livre fait calculer au Conseil (§ 2), tient le partage pour conditionnel et retire la saturation comme état visé (§ 4), et rapporte la décision de l'auteur du 17 septembre 2026, qui confie à l'Assemblée seuils et grille de priorité (§ 4, d'après L1.C18 § 3). Le constat que la valorisation n'est attribuée à personne est borné au chapitre 7 du livre ; la lecture divergente du barème des impacts par L11.C16 § 2 est nommée sans être tranchée ; D2 et P52 suivent L11.C13 § 3. Le résumé suit. L'entrée [S2], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -111,7 +115,7 @@ renvois: [L1.C18, L1.C27, L7.C01, L7.C02, L7.C03, L7.C04, L11.C11, L11.C13, L11.
 
 ::hypothese:: **Le livre formule le conflit d'intérêts sous une forme SECTORIELLE** : « un secteur qui obtiendrait un siège s'auto-labelliserait et s'auto-financerait » [S1]. **La séparation des quatre pouvoirs y répond bien** — le secteur qui obtient un siège à l'Assemblée n'accède ni au constat, ni au volume, ni au recours.
 
-::hypothese:: **L7.C04 a établi une seconde forme, distributive, que cette réponse ne couvre pas.** À enveloppe plafonnée, **la valorisation est un partage entre membres** : le conflit n'oppose pas un secteur à l'intérêt général, **il oppose les membres entre eux**, et il ne suppose ni capture ni siège indûment obtenu — seulement que chaque représentant fasse son mandat.
+::hypothese:: **L7.C04 § 1 tient, en hypothèse et sous une condition — que la demande admissible excède le volume, ce que L11.C16 § 4 ne tient plus pour l'état visé —, une seconde forme, distributive, que cette réponse ne couvre pas.** Ce paragraphe écrivait « a établi ». À enveloppe plafonnée, **la valorisation est un partage entre membres** : le conflit n'oppose pas un secteur à l'intérêt général, **il oppose les membres entre eux**, et il ne suppose ni capture ni siège indûment obtenu — seulement que chaque représentant fasse son mandat.
 
 ::hypothese:: **La séparation des pouvoirs ne mord pas sur ce conflit-là**, parce qu'elle divise des **fonctions** et que le conflit porte sur une **répartition**. **Diviser en quatre celui qui décide ne change rien au fait que ceux qui décident sont ceux qui reçoivent.**
 
