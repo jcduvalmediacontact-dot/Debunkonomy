@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -16,6 +16,10 @@ sources_primaires:
     reference: "**IPBES, *Methodological Assessment Report on the Diverse Values and Valuation of Nature*, 2022, CHAPITRE 4 « Value expression in decision-making », 141 pages, version anglaise.** OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08 depuis Zenodo, lu dans le texte. **C'ÉTAIT L'ACQUISITION DE RANG 2 INSCRITE PAR L18.C13**, le chapitre 3 ayant déclaré ne pas couvrir l'usage effectif des valorisations dans la décision. **DROITS : mêmes conditions que le chapitre 3 — voir L18.C13 — le corpus retenant le régime LU DANS LE DOCUMENT relié (reproduction à fins éducatives ou non lucratives, attribution, pas d'usage commercial) plutôt que la mention du dépôt.** **Le chapitre 4 tel que déposé ne porte aucune mention de droits propre.** **Chaque constat retenu ici porte le niveau de confiance déclaré par la source.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L7.C22 était dit avoir établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs ; L7.C22 § 5 et § 7 le tiennent en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "**LE CORPUS A DÉSORMAIS LU DEUX CHAPITRES SUR SIX.** Les chapitres 1, 2, 5 et
      6 restent fermés, ainsi que le résumé aux décideurs **en anglais** — seules
      les versions japonaise et allemande ont été trouvées le 2026-09-08."
@@ -97,7 +101,7 @@ renvois: [L7.C22, L11.C13, L18.C09, L18.C10, L18.C12, L18.C13, L18.C14, L25.C01,
 
 ::norme:: *« Power-knowledge interactions shape the decision-making context, rules and other aspects of institutions, and **determine WHAT TYPES OF KNOWLEDGE ARE GIVEN CREDENCE** in the decision-making process, influencing **whether and how certain values are expressed and made legible to decision-makers** »* — **niveau déclaré : bien établi** [S1].
 
-::hypothese:: **L7.C22 avait établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs.** **Ce constat lui donne son objet précis : ce n'est pas seulement QUI décide, c'est QUI DÉCIDE DE CE QUI COMPTE COMME MESURE.** **Un barème est une réponse à cette seconde question, et le dispositif ne dit pas qui l'écrit ni qui peut le contester.**
+::hypothese:: **L7.C22 § 5 et L7.C22 § 7 tiennent, en hypothèse, que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs** ; ce paragraphe écrivait « avait établi ». **Ce constat lui donne son objet précis : ce n'est pas seulement QUI décide, c'est QUI DÉCIDE DE CE QUI COMPTE COMME MESURE.** **Un barème est une réponse à cette seconde question, et le dispositif ne dit pas qui l'écrit ni qui peut le contester.**
 
 ## 6. Ce que ce chapitre n'établit pas
 
