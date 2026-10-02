@@ -97,7 +97,7 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L8.C31
 
 ::hypothese:: **L'enseignement est direct et il ne demande aucune transposition : celui qui finance le démarrage obtient durablement le pouvoir.** Ce n'est pas un détournement, c'est la règle écrite — et L7.C02 § 3 a établi que cette clé produit, quatre-vingts ans plus tard, une répartition dont 3,3 % va aux pays à faible revenu.
 
-::hypothese:: **Le corpus rapproche ce précédent de ce qu'il a établi ailleurs et le résultat est lourd.** L1.C25 § 4 a montré, sous le falsifieur F6, que **la disposition qui contraint le créancier est la disposition qui saute** — et l'on découvre ici que le créancier du démarrage est aussi celui qui écrit la règle. **Les deux mécanismes se composent : celui qui finance le lancement obtient le pouvoir, et ce pouvoir sert d'abord à ne pas se contraindre.**
+::hypothese:: **Le corpus rapproche ce précédent de ce qu'il a établi ailleurs et le résultat est lourd.** L1.C25 § 4 retient, **en hypothèse** et sous le falsifieur F6, que **la disposition qui contraint le créancier est la disposition qui saute** — ce paragraphe écrivait « a montré » ; la cible tient les faits de 1943 en `::etat::` et ce principe de sélection en `::hypothese::`, « que ni le livre ni l'épigraphe ne formulent » — et l'on découvre ici que le créancier du démarrage est aussi celui qui écrit la règle. **Les deux mécanismes se composent : celui qui finance le lancement obtient le pouvoir, et ce pouvoir sert d'abord à ne pas se contraindre.**
 
 ## 5. Trois formes de financement d'amorçage, et aucune n'est neutre
 
