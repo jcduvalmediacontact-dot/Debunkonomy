@@ -1,6 +1,6 @@
 # Convention de production du corpus
 
-**Révision 13 — 18 septembre 2026.** Journal des révisions en fin de document.
+**Révision 16 — 2 octobre 2026.** Journal des révisions en fin de document.
 
 Ce fichier est déposé à la racine du corpus. Il fait autorité.
 
@@ -413,6 +413,13 @@ marquages incohérents en quelques mois.
   premiere_occurrence: L6.C05
 ```
 
+`premiere_occurrence` désigne la **première apparition** du concept : le premier
+chapitre, dans l'ordre du corpus — numéro de livre, puis numéro de chapitre —,
+**hors livre 0, qui rapporte sans démontrer**, dont le champ `concepts` déclare le
+terme. Ce n'est donc ni le chapitre qui définit le mieux, ni celui qui l'emploie le
+plus souvent : c'est le premier qui le déclare. Sens arrêté par l'auteur le 2026-10-02, le
+champ n'ayant été jusque-là défini que par l'exemple ci-dessus.
+
 Vocabulaire fermé, ouvert à l'ajout. Un concept employé sans figurer ici
 **bloque** la publication. Le déblocage passe par l'écriture de l'entrée,
 définition comprise.
@@ -718,6 +725,20 @@ Points ouverts, à trancher hors routine :
 
 ## 15. Journal des révisions
 
+**Révision 16 — 2 octobre 2026.** `premiere_occurrence` reçoit une définition en
+prose au § 9 : la première apparition du concept, dans l'ordre du corpus, hors
+livre 0. Motif : le champ n'était défini que par un exemple, et les deux lectures
+possibles — première apparition, ou chapitre qui définit — ne donnaient pas le même
+glossaire : neuf entrées à corriger sous la première, une seule sous la seconde. Le
+livre 0 est écarté parce qu'il est une couche de réponse — L0.C01 § 2 écrit « Elle ne
+démontre rien » et chaque entrée y déclare en `chapitres_sources` le chapitre
+qu'elle résume — : l'y laisser ferait pointer le glossaire publié vers le résumé
+plutôt que vers la démonstration, pour vingt-deux concepts.
+
+Cette révision **n'ajoute aucun champ au schéma et ne touche aucun chapitre** :
+elle écrit une règle qui existait sans être dite. Les entrées du glossaire qu'elle
+rend non conformes sont corrigées séparément, sur le mot de l'auteur.
+
 **Révision 15 — 23 septembre 2026.** Le type `synthese` cesse d'être réservé aux
 entrées du livre 0 (§ 6). Motif : L1.C01 ouvre le Livre 1 en articulant les
 chapitres qui démontrent, sans ouvrir de pièce ; il ne pouvait être ni
@@ -845,6 +866,7 @@ numéro.
 | 11 | 2026-09-07 | Tous les matricules déclarés ont un dossier, et tout dossier a un chapitre (§ 2) — corrige la révision 10 du même jour ; régime des chapitres d'amorce : descriptif, sans concept ni renvoi, non citable, remplacé et non complété | quatorze dossiers créés, quatorze chapitres d'amorce déposés ; aucun chapitre existant touché |
 | 12 | 2026-09-10 | `etat_lecture` obligatoire sur chaque source, `date_verification` conditionnel ; manifeste des occurrences historiques ; E-L1 à E-L6, E-M1 ; bilan agrégé A-L1 à A-L3 ; état enregistré conservateur ; dépendance épinglée et voie hors ligne ; en-tête réaligné sur le journal | toutes les occurrences historiques de source — 1 161 au relevé du 2026-09-10, dans 323 chapitres — migrées vers `a_requalifier`, corps et résumés intacts, chapitres sans source inchangés |
 | 13 | 2026-09-18 | Vérification des exemplaires (§ 12) : outil séparé et facultatif `verifier-exemplaires.py`, hors du chemin de publication, `controle.py` demeurant seul autorité ; les empreintes SHA-256 inscrites par les entrées deviennent opérantes ; règle d'appariement — une empreinte appartient à la pièce qu'elle suit, jamais à l'entrée ; preuve d'échec par sabotage sur fixtures synthétiques | aucune — aucun champ ajouté au schéma, aucun chapitre modifié |
+| 16 | 2026-10-02 | `premiere_occurrence` défini en prose au § 9 : première apparition du concept, ordre du corpus, hors livre 0. Aucun champ ajouté, aucun chapitre touché ; les entrées du glossaire rendues non conformes sont corrigées séparément. **Les lignes 14 et 15 manquent à ce tableau** : elles n'existent qu'en prose ci-dessus, et les combler n'est pas de cette révision. |
 
 Toute révision ultérieure s'inscrit ici avant d'être appliquée, avec la portée
 de la migration qu'elle entraîne. Une révision non journalisée est une dérive
