@@ -13,7 +13,7 @@ regime: hybride
 sources_primaires:
   - ref: S1
     nature: normatif
-    reference: "**IPSAS 47, *Revenue*** (recueil IPSAS 2026) — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, source fournie par l'auteur et rangée au Drive, **non instruite jusqu'ici**. **§ 18, CÔTÉ BÉNÉFICIAIRE** : l'entité comptabilise l'entrée de ressources en actif « **if it presently controls the resources** [...] received as a result of past events, and **the value of the asset can be measured reliably** ». Le contrôle « entails **the ability of the entity to use the resource (or direct other parties on its use)** so as to derive the benefit of the service potential or economic benefits ». **§ 19, ET C'EST UNE EXCLUSION DE DÉFINITION** : « **The ability to EXCLUDE OR REGULATE THE ACCESS of others to the benefits of an asset is an ESSENTIAL ELEMENT OF CONTROL that DISTINGUISHES an entity's assets FROM THOSE PUBLIC GOODS THAT ALL ENTITIES HAVE ACCESS TO AND BENEFIT FROM.** » Et sur la régulation : « governments exercise a regulatory role over certain activities [...] **This regulatory role DOES NOT NECESSARILY MEAN that such regulated items meet the definition of an asset of the government**, or satisfy the criteria for recognition »"
+    reference: "**IPSAS 47, *Revenue*** (recueil IPSAS 2026) — **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-07**, source fournie par l'auteur et rangée au Drive, **non instruite jusqu'ici**. **§ 18, CÔTÉ BÉNÉFICIAIRE** : l'entité comptabilise l'entrée de ressources en actif « **if it presently controls the resources** [...] received as a result of past events, and **the value of the asset can be measured reliably** ». Le contrôle « entails **the ability of the entity to use the resource (or direct other parties on its use)** so as to derive the benefit of the service potential or economic benefits ». **§ 19, ET C'EST UNE EXCLUSION DE DÉFINITION** : « **The ability to exclude or regulate the access of others to the benefits of an asset is an essential element of control that distinguishes an entity's assets from those public goods that all entities have access to and benefit from.** » Et sur la régulation : « governments exercise a regulatory role over certain activities [...] **This regulatory role does not necessarily mean that such regulated items meet the definition of an asset of the government**, or satisfy the criteria for recognition »"
     etat_lecture: a_requalifier
   - ref: S2
     nature: normatif
@@ -24,6 +24,11 @@ sources_primaires:
     reference: "**Le corpus lui-même.** **L6.C06** : un commun ne tient pas parce qu'on interdit de vendre, mais parce qu'**un droit réel inhérent suit le fonds** — *inerenza*, *ius sequelae*, **opposabilité erga omnes**, survie à la vente forcée, effet « **a prescindere dal rispetto di oneri pubblicitari** ». **L11.C16** : la **valorisation à bénéficiaire nommé** existe en droit positif — loi italienne n° 168 du 20 novembre 2017, art. 2 § 1, ressources renouvelables à valoriser « **a beneficio delle collettività locali degli aventi diritto** », et art. 1 § 1 qualifiant le patrimoine de **comproprietà inter-generazionale**. **L1.C09** : le lexique comptable comme **règle de l'architecture invisible**. **L1.C20** : une monnaie qui n'est le crédit de personne"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION ÉDITORIALE, sur le mot de l'auteur du même jour (« Oui, remets les minuscules ») : les capitales
+  # d'insistance que le chapitre mettait dans deux citations des publications de l'IPSASB sont remises en minuscules, la pièce ne les
+  # ayant pas (contrôle mécanique de l'auteur du 2026-09-30, relais-moteur/dossiers/ipsas-controle-mecanique.md ; passages du
+  # relevé ipsas-passages-L18-2026-09-30.md). Aucune publication lue par un modèle ; sigles conservés ; Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "RENOMMAGE CANONIQUE DU 2026-09-20. L'unité se nomme MONNAIE RÉGÉNÉRATIVE À
      CONTREPARTIE COLLECTIVE, l'acte ÉMISSION À CONTREPARTIE COLLECTIVE (vocabulaire,
      première occurrence L1.C20). AUCUNE SUBSTITUTION MÉCANIQUE : chaque occurrence a
@@ -69,11 +74,11 @@ renvois: [L1.C09, L1.C20, L1.C29, L6.C06, L6.C08, L11.C13, L11.C16, L18.C01, L18
 
 ## 1. L'exclusion est de définition, non de mesure
 
-::etat:: **IPSAS 47 § 19** [S1] : « **The ability to exclude or regulate the access of others to the benefits of an asset is an ESSENTIAL ELEMENT OF CONTROL that distinguishes an entity's assets FROM THOSE PUBLIC GOODS THAT ALL ENTITIES HAVE ACCESS TO AND BENEFIT FROM.** »
+::etat:: **IPSAS 47 § 19** [S1] : « **The ability to exclude or regulate the access of others to the benefits of an asset is an essential element of control that distinguishes an entity's assets from those public goods that all entities have access to and benefit from.** »
 
 ::etat:: **CORRECTION DE FOND DU 2026-09-07, SUR REVUE CONTRADICTOIRE.** Ce chapitre concluait que « ce qui fait qu'une chose est un commun — l'accès de tous à ses bénéfices — est exactement ce qui l'empêche d'être l'actif de quiconque ». **La généralisation est fautive, et le corpus la retire.**
 
-::etat:: **Le § 19 vise LES BIENS PUBLICS EN ACCÈS UNIVERSEL** — « those public goods that **ALL entities have access to and benefit from** ». **Il ne vise pas les communs.**
+::etat:: **Le § 19 vise LES BIENS PUBLICS EN ACCÈS UNIVERSEL** — « those public goods that **all entities have access to and benefit from** ». **Il ne vise pas les communs.**
 
 ::hypothese:: **Le corpus enregistre que cinq objets étaient confondus sous un seul mot, et qu'ils se distinguent par l'accès.** **Un bien public en accès universel** — non exclusif par nature. **Une ressource commune au sens d'Ostrom** — dont **la première règle de conception est la délimitation des frontières et des ayants droit**, donc **exclusive envers les non-membres**. **Un bien en propriété collective** — dont le titulaire est un groupe nommé. **Un droit d'usage d'une communauté délimitée.** **Et un actif naturel contrôlé par une entité**, au sens d'IPSAS 51.
 
