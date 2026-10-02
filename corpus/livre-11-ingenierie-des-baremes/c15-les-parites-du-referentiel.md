@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -32,6 +32,10 @@ sources_primaires:
     reference: "B. Balassa, « The Purchasing-Power Parity Doctrine: A Reappraisal », Journal of Political Economy, 72(6), 1964 ; P. Samuelson, « Theoretical Notes on Trade Problems », Review of Economics and Statistics, 46(2), 1964 — les écarts de productivité entre secteurs exposés et abrités produisent des écarts durables de niveau de prix entre économies, de sorte que les pouvoirs d'achat ne convergent pas par la seule fixation des taux nominaux. Versés au dossier en L1.C26 § 6. RÉSERVE : NON OUVERTS, et portés en liste d'acquisition. Ils fournissent la grandeur observable que le § 6 du présent chapitre appelle sans pouvoir la nommer précisément"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2 et au § 6, L11.C10 était dit avoir établi qu'une décision révisable perd son effet parce que les agents anticipent le report ; L11.C10 § 2 tient le mécanisme en hypothèse, « confirmé au second degré » par une source secondaire, l'article de 1977 restant à ouvrir.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, la boucle était dite « non une règle de politique » et L11.C14 § 5 avoir établi que les résultats sur la falsifiabilité et la crédibilité ne s'y transportent pas ; L11.C14 § 5, repris le 1er octobre, le tient en hypothèse et retire l'erreur de catégorie, d'après L1.C28 § 4.
   # Statut inchangé.
@@ -99,7 +103,7 @@ renvois: [L1.C24, L1.C25, L1.C26, L1.C28, L11.C01, L11.C04, L11.C10, L11.C12, L1
 
 ::hypothese:: **La directive.** *parité = f(données observées)*. C'est ce que la réponse 3 esquisse en nommant des indicateurs, sans écrire la fonction. **Sa qualité dépend entièrement du choix des données**, et le § 3 montre que celui qui est nommé est le pire possible.
 
-::hypothese:: **La réponse 2 n'est pas une forme, c'est l'absence de forme.** Une parité révisable sans procédure est une décision discrétionnaire — et L11.C10 a établi ce qu'il advient d'une décision que chacun s'attend à voir prise ou reportée selon les circonstances. Le corpus enregistre que **la position actuelle du dispositif est la réponse 2**, c'est-à-dire la seule des trois qui ne soit pas un objet de conception.
+::hypothese:: **La réponse 2 n'est pas une forme, c'est l'absence de forme.** Une parité révisable sans procédure est une décision discrétionnaire — et L11.C10 § 2 tient, confirmé par une source secondaire, l'article de Kydland et Prescott restant à ouvrir, ce qu'il advient d'une décision que chacun s'attend à voir prise ou reportée selon les circonstances ; ce paragraphe écrivait « a établi ». Le corpus enregistre que **la position actuelle du dispositif est la réponse 2**, c'est-à-dire la seule des trois qui ne soit pas un objet de conception.
 
 ## 3. Le seul critère nommé contredit la thèse du livre
 
@@ -133,7 +137,7 @@ renvois: [L1.C24, L1.C25, L1.C26, L1.C28, L11.C01, L11.C04, L11.C10, L11.C12, L1
 
 ::etat:: **Le corpus marque immédiatement la faiblesse de cet énoncé** : il le tient de sa culture générale et non d'une source ouverte, **alors qu'il dispose de deux ouvrages acquis qui le traiteraient** — Keynes, *Collected Writings* XXV, et Eichengreen, *Exorbitant Privilege*. Il figure en vérification, et rien n'en doit sortir avant lecture.
 
-::hypothese:: **Ce que le corpus peut établir sans source, en revanche, c'est que le mécanisme lui est déjà connu.** L11.C10 § 2 a établi qu'une décision annoncée mais révisable au moment de l'exécuter perd son effet, parce que les agents anticipent le report. **Une parité « ajustable » est exactement cela** : elle promet un ajustement que l'autorité aura intérêt à différer précisément lorsqu'il deviendra nécessaire. **Le dispositif hérite donc, sur les parités, du problème qu'il a résolu sur la trajectoire.**
+::hypothese:: **Ce que le corpus peut établir sans source, en revanche, c'est que le mécanisme lui est déjà connu.** L11.C10 § 2 tient, confirmé par une source secondaire, l'article de 1977 restant à ouvrir, qu'une décision annoncée mais révisable au moment de l'exécuter perd son effet, parce que les agents anticipent le report ; ce paragraphe écrivait « a établi ». **Une parité « ajustable » est exactement cela** : elle promet un ajustement que l'autorité aura intérêt à différer précisément lorsqu'il deviendra nécessaire. **Le dispositif hérite donc, sur les parités, du problème qu'il a résolu sur la trajectoire.**
 
 ## 7. La forme que l'auteur a déjà retenue s'applique ici
 
