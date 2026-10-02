@@ -82,7 +82,7 @@ renvois: [L1.C25, L7.C05, L7.C14, L7.C16, L7.C17, L11.C04, L11.C24]
 
 ## 4. Et la sanction se heurte à un résultat que le corpus tient depuis le début
 
-::etat:: **L1.C25 § 4 a établi, sous le falsifieur F6 et sur trois épisodes, que la disposition qui contraint le créancier est la disposition qui saute** [S3].
+::etat:: **L1.C25 § 4 retient, en hypothèse, sous le falsifieur F6 et sur trois épisodes, que la disposition qui contraint le créancier est la disposition qui saute** [S3] — ce paragraphe écrivait « a établi », et la cible nomme ce principe « un principe de sélection que ni le livre ni l'épigraphe ne formulent ».
 
 ::hypothese:: **Transposé à la sanction, cela donne une asymétrie que le corpus doit énoncer : le membre le plus difficile à sanctionner est celui dont le départ coûterait le plus.** Un grand membre qui manque à ses obligations met la coalition devant un choix — le sanctionner et risquer sa sortie, qui ampute l'assiette de tous les autres (L7.C16 § 4), ou ne pas le sanctionner et vider la règle.
 
