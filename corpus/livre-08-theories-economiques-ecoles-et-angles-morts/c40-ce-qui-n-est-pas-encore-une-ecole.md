@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,10 @@ sources_primaires:
     reference: "Le corpus lui-même — le concept `robustesse` du vocabulaire, que le dispositif emprunte à la théorie des réseaux de flux et qui est, avec `entropie`, le seul emprunt du corpus à un champ qui n'est pas une école économique constituée ; et le résultat de L8.C37 § 3, qui recommande pour le Livre 13 la famille des maquettes de flux cohérents ; et le résultat de L8.C01, qui établit qu'il n'y a pas de théorie standard et que le corpus doit procéder par controverses et non par écoles"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 1, L8.C01 était dit avoir établi que le corpus doit procéder par controverses et non par écoles ; L8.C01 § 7 le tient en hypothèse, et n'établit que l'absence de théorie standard sur le quantitatif.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT PAR CONSTRUCTION, et le plan du livre le prévoit ainsi.
   # Il ne porte pas une controverse close mais des champs en formation, dont le
@@ -51,7 +55,7 @@ renvois: [L8.C01, L8.C34, L8.C37, L8.C39, L11.C02, L11.C03, L11.C16]
 
 ::etat:: **Il recense des champs en formation**, dont le corpus ne peut pas dire s'ils deviendront des écoles. **Aucune source n'est ouverte**, et c'est le seul chapitre du livre où cela ne soit pas un défaut : ces champs n'ont pas de canon.
 
-::hypothese:: **Il tire sa justification de L8.C01**, qui a établi qu'il n'y a pas de théorie standard et que le corpus doit procéder par controverses et non par écoles. **Une controverse peut être vive avant d'avoir une école pour la porter.**
+::hypothese:: **Il tire sa justification de L8.C01**, qui a établi qu'il n'y a pas de théorie standard à opposer sur le quantitatif (L8.C01 § 7) et tient, en hypothèse, que le livre procédera par controverses et non par écoles (L8.C01 § 7) ; ce paragraphe écrivait qu'il avait établi les deux. **Une controverse peut être vive avant d'avoir une école pour la porter.**
 
 ## 2. Première direction — la théorie des réseaux de flux
 
