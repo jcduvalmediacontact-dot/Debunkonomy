@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -28,6 +28,10 @@ sources_primaires:
     reference: "J.-C. Duval, arbitrage du 2026-09-05 tranchant A15 : « Le taux monte quand le substitut est effectivement disponible — capacité et prix constatés — et non à une date fixée d'avance. » LE CORPUS ÉTABLIT ICI QUE CET ARBITRAGE EST UNE RÉPONSE DE FORME à l'objection d'incohérence temporelle : indexer sur un fait constaté rend le report coûteux, puisque différer suppose alors de nier un fait plutôt que d'arbitrer une opportunité"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, la troisième des quatre exigences que L11.C12 pose à une directive était dite « la publication » ; L11.C12 § 7 écrit « son domaine de validité au regard des conditions-limites recensées ».
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de second rang : L11.C16 § 6 était dit avoir établi une exigence de révisabilité maximale sur la valorisation ; L11.C16, repris le 30 septembre, la tient en hypothèse, plus forte sur la grille de priorité que sur un taux de reflux. L11.C16 entre aux renvois.
   # Statut inchangé.
@@ -112,7 +116,7 @@ renvois: [L1.C21, L8.C01, L8.C28, L8.C29, L8.C30, L11.C10, L11.C11, L11.C12, L11
 
 ::etat:: **Lucas, en dernière phrase de son essai** : « In short, it appears that **policy makers, if they wish to forecast the response of citizens, must take the latter into their confidence.** This conclusion, if ill-suited to current econometric practice, **seems to accord well with a preference for democratic decision making** » [S2].
 
-::hypothese:: **Cela ajoute une cinquième exigence à la directive, et le corpus ne l'avait pas.** L11.C12 en posait quatre — les données lues et qui les constate, la fonction et sa traduction en français, la publication, l'amendement. **La cinquième est la lisibilité comme condition de contrôle** : une règle doit être assez simple pour que la déviation **se voie**. Une directive exacte mais illisible satisfait la publication et manque son effet.
+::hypothese:: **Cela ajoute une cinquième exigence à la directive, et le corpus ne l'avait pas.** L11.C12 § 7 en pose quatre, en hypothèse — les données lues et qui les constate, la fonction et sa traduction en français, son domaine de validité au regard des conditions-limites, l'amendement ; ce paragraphe écrivait « la publication » à la place du domaine de validité. **La cinquième est la lisibilité comme condition de contrôle** : une règle doit être assez simple pour que la déviation **se voie**. Une directive exacte mais illisible satisfait la publication et manque son effet.
 
 ::hypothese:: **Et cela pèse sur le conflit non résolu que L11.C17 a recensé sous A17.** Le remède à Goodhart demande des indicateurs non annonçables ; la directive demande la publication. **Les deux auteurs que le corpus employait contre le dispositif se rangent du côté de la publication**, et l'un des deux en fait une question de démocratie et non d'efficacité. **Le conflit n'est pas résolu — mais il n'est plus symétrique.**
 
