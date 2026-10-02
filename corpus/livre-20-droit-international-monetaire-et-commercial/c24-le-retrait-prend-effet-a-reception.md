@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-08
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: hybride
@@ -26,6 +26,10 @@ sources_primaires:
     reference: "**Banque internationale pour la reconstruction et le développement, *Articles of Agreement*, ARTICLE VI « Withdrawal and Suspension of Membership: Suspension of Operations », TEXTE PORTANT LA MENTION « as amended effective June 27, 2012 »**, publié sur le site officiel de la Banque mondiale. OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-08, lu dans le texte, en HTML. **Sections lues : 1 à 5.** **AVERTISSEMENT DE STRUCTURE, porté le 2026-09-08 sur arbitrage de l'auteur : LA SECTION 5 NE TRAITE PAS DU RETRAIT D'UN MEMBRE mais de la SUSPENSION PERMANENTE DES OPÉRATIONS DE LA BANQUE. Ses dispositions n'atteignent un sortant que par la section 4 (d), et sous condition.** **RÉSERVE : article VI seul ; l'article II section 5 (ii), auquel la section 4 renvoie pour les appels de capital, n'est pas lu.**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 4, L7.C22 était dit avoir établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs ; L7.C22 § 5 et § 7 le tiennent en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "**CE TEXTE N'EST PAS LE TEXTE EN VIGUEUR, ET LA VÉRIFICATION QUI L'ÉTABLIT EST
      DANS LE CHAPITRE.** Les statuts ont été amendés au moins cinq fois depuis
      1945. **Le corpus le vérifie par un test simple : l'expression « special
@@ -90,7 +94,7 @@ verifications_en_attente:
      renvoie pour les appels de capital.**"
 resume: "Ce chapitre ouvre les statuts du Fonds monétaire international dans leur texte original de mille neuf cent quarante-cinq, tel qu'enregistré au Recueil des traités des Nations unies, après que le site de l'institution eut opposé un mur anti-robot. Il établit d'abord que ce texte n'est pas le droit en vigueur, par un test que le lecteur peut refaire, puisque l'expression désignant les droits de tirage spéciaux n'y apparaît pas une seule fois alors que ces droits existent depuis le premier amendement. Il lit ensuite quatre traits de forme que l'arbitrage sur la forme institutionnelle du dispositif tient pour ouverts. La composition est ouverte aux gouvernements d'autres pays selon les termes que l'institution prescrit. Le capital prend la forme de quotes-parts, la souscription de chaque membre étant égale à sa quote-part et payable intégralement, révisée tous les cinq ans, aucune quote-part ne pouvant changer sans le consentement du membre concerné. Les immunités sont étendues, l'institution jouissant de la personnalité juridique pleine, de l'immunité de toute forme de procédure judiciaire sauf renonciation expresse, de l'immunité de toute taxation, de l'inviolabilité de ses archives, et de la liberté de ses avoirs à l'égard de toute restriction, réglementation, contrôle ou moratoire de quelque nature. Le retrait enfin est unilatéral et immédiat, tout membre pouvant se retirer à tout moment par notification écrite, le retrait prenant effet à la date de réception de cette notification. Le chapitre avait d'abord tiré de ce dernier trait qu'un reflux adossé à une appartenance dont la sortie est immédiate ne serait pas opposable à celui qui sort ; cette conclusion a été retirée et les textes en vigueur ont été ouverts. L'article vingt-six des statuts du Fonds, dans son édition consolidée, impose le règlement de tous les comptes du membre sortant par accord, une annexe s'appliquant à défaut d'accord prompt. L'article six des statuts de la Banque, tel qu'amendé en deux mille douze, dispose qu'un gouvernement cessant d'être membre demeure responsable de ses obligations directes et de ses engagements conditionnels tant que subsistent les prêts et garanties antérieurs, et qu'il reste tenu de tout appel sur les souscriptions non versées, dans la mesure où il l'aurait été si l'appel avait été fait à la date où le prix de rachat de ses parts a été arrêté. Le chapitre distingue ensuite trois mécanismes que le traité sépare et que rien n'autorise à confondre. La survivance de responsabilité vaut pour les obligations directes, les engagements conditionnels et l'appel de capital, bornée à l'état des engagements à la date de sortie. La rétention des sommes dues pour les parts garantit la dette du sortant comme emprunteur ou garant, et le texte en exclut expressément la responsabilité née de la souscription, en sorte que la part appelable survit sans sûreté. Le délai de six mois porte sur le paiement des parts et joue en tout état de cause. La disposition qui prolonge la responsabilité de tous les membres jusqu'à extinction des créances, y compris conditionnelles, relève quant à elle de la suspension permanente des opérations de la Banque et non du retrait ordinaire, dont elle ne se rapproche que si cette suspension intervient dans les six mois de la sortie. Ce qui subsiste est plus étroit et plus utile, à savoir que le retrait met fin à l'appartenance et non aux obligations qui en sont nées, et que les deux traités comportent la clause de survivance dont le dispositif est dépourvu."
 concepts: [creation_monetaire, contrepartie_comptable, robustesse, polycentricite, reflux_collectif]
-renvois: [L11.C13, L19.C02, L19.C05, L20.C01, L21.C08, L25.C01, L20.C25]
+renvois: [L7.C22, L11.C13, L19.C02, L19.C05, L20.C01, L21.C08, L25.C01, L20.C25]
 ---
 
 # Le retrait prend effet à réception
@@ -133,7 +137,7 @@ renvois: [L11.C13, L19.C02, L19.C05, L20.C01, L21.C08, L25.C01, L20.C25]
 
 ::hypothese:: **Cette dernière disposition dit la condition de possibilité d'une institution monétaire internationale : ses avoirs échappent aux contrôles nationaux.** **Un dispositif qui émettrait une unité devant circuler entre juridictions aurait besoin d'un régime de cette nature** — et **le corpus doit enregistrer que ce régime s'obtient PAR TRAITÉ, non par déclaration.**
 
-::hypothese:: **Et il faut voir ce que cela coûte du côté du contrôle démocratique.** **Une institution immunisée de toute procédure judiciaire, de toute taxation, et dont les archives sont inviolables, n'est pas contrôlable par les moyens ordinaires.** **L7.C22 a établi que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs ; ce texte montre à quel niveau d'immunité opère l'analogue le plus proche.** **Le dispositif devra dire s'il demande la même chose, et par quoi il la compense.**
+::hypothese:: **Et il faut voir ce que cela coûte du côté du contrôle démocratique.** **Une institution immunisée de toute procédure judiciaire, de toute taxation, et dont les archives sont inviolables, n'est pas contrôlable par les moyens ordinaires.** **L7.C22 § 5 et L7.C22 § 7 tiennent, en hypothèse, que la difficulté centrale de la gouvernance n'est traitée par aucune séparation des pouvoirs (ce paragraphe écrivait « a établi ») ; ce texte montre à quel niveau d'immunité opère l'analogue le plus proche.** **Le dispositif devra dire s'il demande la même chose, et par quoi il la compense.**
 
 ## 5. Retrait : à tout moment, et il prend effet à réception
 
