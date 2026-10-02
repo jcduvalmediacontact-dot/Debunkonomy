@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -27,6 +27,10 @@ sources_primaires:
   # désormais au chapitre 7 du livre le constat que D2 n'est attribuée à aucune chambre, la décision de l'auteur du
   # 17 septembre 2026 la confiant à l'Assemblée ; L11.C16 § 2 confie le niveau au Conseil. Le § 3 est corrigé.
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L7.C05 était dit avoir construit quatre chambres et établi que D2 n'est attribuée à aucune ; L7.C05 rapporte les chambres du livre, tient le reste en hypothèse, et borne son constat au chapitre 7 du livre depuis la décision de l'auteur du 17 septembre 2026.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C16 était dit avoir établi que le niveau de valorisation n'est pas une décision libre mais un partage borné par le produit du reflux, d'où un pouvoir réservé au plénier ; L11.C16 § 2, repris le 30 septembre, confie le niveau au Conseil, par formule, et la structure à l'Assemblée, et la décision de l'auteur (L1.C18 § 3) fait fixer d'avance la grille par l'Assemblée. L'analogie du point (v) est reportée sur la grille, en hypothèse. L1.C18 entre aux renvois. L'entrée [S3], `a_requalifier`, garde son texte ; un commentaire la suit.
   # Statut inchangé.
@@ -64,7 +68,7 @@ renvois: [L1.C18, L7.C05, L7.C06, L7.C07, L7.C11, L7.C14, L11.C16, L11.C20, L20.
 
 ## 3. Cette technique est plus économique que celle du Livre 7
 
-::etat:: **L7.C05 a construit quatre chambres pour quatre décisions et a établi que D2 n'est attribuée à aucune chambre** [S3]. C'était un trou, et il a fallu quatre chambres pour le rendre visible.
+::etat:: **L7.C05 rapporte les quatre chambres du livre (L7.C05 § 2) et tient, en hypothèse, qu'elles recouvrent quatre décisions (L7.C05 § 3) et que D2 n'est attribuée à aucune dans le chapitre 7 du livre (L7.C05 § 4)** [S3] ; il borne ce constat au chapitre 7, la décision de l'auteur du 17 septembre 2026 confiant depuis à l'Assemblée les seuils et la grille de priorité. Ce paragraphe écrivait que L7.C05 avait « construit » les chambres et « établi » que D2 n'en a aucune. C'était un trou, et il a fallu quatre chambres pour le rendre visible.
 
 ::hypothese:: **Une liste de pouvoirs réservés obtient le même résultat sans créer d'organe.** Elle ne dit pas **qui** décide, elle dit **à quel niveau** on décide — et le reste s'organise librement.
 
