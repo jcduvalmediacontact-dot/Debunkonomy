@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "Le corpus lui-même — L7.C13, ouvert le 2026-09-06 sur une section du livre que L1.C18 avait signalée comme non lue : « Cette SANCTUARISATION JURIDIQUE, en définissant clairement les limites à ne pas franchir, EST LA CONDITION SINE QUA NON à l'émergence des unités NEMO Green SDR », et le GES « aura pour mission de traduire cette vision en CADRES JURIDIQUES INTERNATIONAUX CONTRAIGNANTS ». LE LIVRE SUBORDONNE DONC L'EXISTENCE DE SON MÉCANISME MONÉTAIRE À UNE TRANSFORMATION JURIDIQUE PRÉALABLE"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, la séquence de constitution était attribuée à L7.C12 ; elle est écrite en L7.C13 § 3, en hypothèse. Au § 3, L7.C01 et L7.C03 étaient dits avoir établi que le corpus ne tient aucune source en droit des organisations internationales ; L7.C01 § 5 le constatait, et L7.C03 § 5 écrit depuis ce qu'aucune pièce ne dit.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # PREMIER CHAPITRE DU LIVRE 20, ouvert le 2026-09-06 sur décision de l'auteur.
   # Même choix qu'en L7.C01 et L8.C01 : un chapitre de cadrage avant les
@@ -71,13 +75,13 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C01, L7.C03, L7.C13, L7.C17, L7.C21, L11.C2
 
 ::hypothese:: **La différence n'est pas de degré.** Sous la lecture « conformité », un obstacle juridique **retarde ou ampute** le dispositif — on l'ajuste, on négocie une dérogation, on attend une révision. Sous la lecture « préalable », **il empêche** : rien ne peut être émis avant que les communs planétaires aient été reconnus comme biens inaliénables par un instrument contraignant.
 
-::hypothese:: **Il en résulte que ce livre n'est pas un livre de vérification placé en fin de collection : il porte le premier temps de la chaîne.** L7.C12 a établi la séquence — un instrument international reconnaît les communs, puis une institution est constituée, puis elle fixe méthode et valeurs, puis le prélèvement la finance. **Le Livre 20 traite le premier temps, et c'est celui sur lequel le dispositif a le moins de prise.**
+::hypothese:: **Il en résulte que ce livre n'est pas un livre de vérification placé en fin de collection : il porte le premier temps de la chaîne.** L7.C13 § 3 écrit, en hypothèse, la séquence (ce paragraphe l'attribuait à L7.C12, qui n'en traite que la phase de démarrage, et écrivait « a établi ») — un instrument international reconnaît les communs, puis une institution est constituée, puis elle fixe méthode et valeurs, puis le prélèvement la finance. **Le Livre 20 traite le premier temps, et c'est celui sur lequel le dispositif a le moins de prise.**
 
 ## 3. Trois blocs, et chacun vient d'un livre différent
 
 ::etat:: **Aucun n'a été instruit là où il est né**, et c'est pourquoi ils sont ici.
 
-::etat:: **L'EXISTENCE.** Sous quel régime juridique une organisation qui émet de la monnaie peut-elle exister — traité constitutif, personnalité juridique, immunités, régime des différends. **Vient de L7.C01 et L7.C03**, qui ont établi que le corpus ne tient aucune source dans ce champ. **S'y ajoute une exigence venue de L7.C10 § 5** : l'immunité légale des cadres techniques pour leurs avis méthodologiques, sans laquelle le second vecteur de capture des instituts statistiques reste ouvert.
+::etat:: **L'EXISTENCE.** Sous quel régime juridique une organisation qui émet de la monnaie peut-elle exister — traité constitutif, personnalité juridique, immunités, régime des différends. **Vient de L7.C01 § 5**, qui constatait que le corpus n'avait aucune source dans ce champ ; L7.C03 § 5, repassé depuis, écrit qu'aucune pièce de droit des organisations internationales ne dit ce qu'un traité peut déléguer à un organe non élu, ni sous quel régime de responsabilité. Ce paragraphe écrivait que L7.C01 et L7.C03 avaient établi que le corpus ne tient aucune source dans ce champ. **S'y ajoute une exigence venue de L7.C10 § 5** : l'immunité légale des cadres techniques pour leurs avis méthodologiques, sans laquelle le second vecteur de capture des instituts statistiques reste ouvert.
 
 ::etat:: **L'INTERDICTION.** Ce que le droit positif interdit aujourd'hui — la prohibition du financement monétaire, l'indépendance des banques centrales, les statuts du Fonds, et les voies de révision. **Vient de L1.C18 § 6**, qui déclare ce point **« à trancher avant tout exposé du mécanisme d'émission »** [S2]. **Le corpus ne l'a pas tranché et a exposé le mécanisme.**
 
