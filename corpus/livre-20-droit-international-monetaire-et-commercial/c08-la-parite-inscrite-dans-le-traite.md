@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -27,7 +27,13 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L11.C15, qui établit que la révision d'une parité du référentiel est UN TRANSFERT SANS PORTEUR DÉSIGNÉ, et que le seul critère de révision nommé par le livre est la croissance du PIB, dans un corpus dont L1.C28 s'intitule « Au-delà du PIB »"
     etat_lecture: a_requalifier
+  # 2026-10-01 : cette entrée dit plus que sa cible, son texte étant gardé tel que le manifeste le fixe. L11.C15 § 5
+  # et § 8 tiennent en hypothèse, non comme établi, que la révision d'une parité est un transfert sans porteur désigné.
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L1.C26 et L7.C02 étaient dits avoir établi que le référentiel de fait est la devise clé, ce qu'aucun des deux n'écrit ; au § 5, L11.C15 était dit avoir établi qu'une révision de parité est un transfert sans porteur désigné, qu'il tient en hypothèse (§ 5, § 8) ; au § 7, la procédure graduée de 1944 était dite « la forme dont L11.C15 avait besoin », alors que L11.C15 § 7 propose en hypothèse une révision sur fait constaté. L'entrée [S4], `a_requalifier`, garde son texte ; un commentaire la suit.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Statut de ce chapitre ─────────────────────────────────────────────────
   # LE RÉGIME INSTRUIT ICI N'EST PLUS EN VIGUEUR. Il est versé comme
   # PRÉCÉDENT DOCUMENTÉ : c'est le seul cas historique où un référentiel de
@@ -64,7 +70,7 @@ renvois: [L1.C25, L1.C26, L1.C28, L7.C02, L7.C20, L11.C15, L11.C17, L20.C01, L20
 
 ::etat:: **Article IV, section 1** [S1] : « The par value of the currency of each member shall be expressed in terms of **gold** as a common denominator or in terms of the **United States dollar of the weight and fineness in effect on July 1, 1944**. » **Section 3** : l'écart maximal au comptant est de **un pour cent.**
 
-::hypothese:: **Le corpus enregistre la portée de la clause alternative, parce qu'elle décrit une hiérarchie plutôt qu'un choix.** Le traité offre deux dénominateurs et **les rend équivalents par définition** — l'or, ou une monnaie nationale à un poids donné. **L1.C26 et L7.C02 avaient établi que le référentiel de fait est la devise clé ; le texte de 1944 le dit lui-même**, dans son article premier sur les changes.
+::hypothese:: **Le corpus enregistre la portée de la clause alternative, parce qu'elle décrit une hiérarchie plutôt qu'un choix.** Le traité offre deux dénominateurs et **les rend équivalents par définition** — l'or, ou une monnaie nationale à un poids donné. **Le texte de 1944 dit lui-même, dans son article premier sur les changes, que le référentiel de fait est la devise clé.** Ce paragraphe écrivait que L1.C26 et L7.C02 l'avaient établi avant lui : ni l'un ni l'autre ne l'écrit.
 
 ## 3. La procédure de révision, et elle est graduée
 
@@ -87,7 +93,7 @@ renvois: [L1.C25, L1.C26, L1.C28, L7.C02, L7.C20, L11.C15, L11.C17, L20.C01, L20
 
 ## 5. Le porteur du transfert est désigné
 
-::etat:: **L11.C15 a établi qu'une révision de parité est un transfert sans porteur désigné.** C'était un blanc du corpus.
+::etat:: **L11.C15 § 5 et L11.C15 § 8 tiennent, en hypothèse, qu'une révision de parité est un transfert sans porteur désigné** ; ce paragraphe écrivait « a établi ». C'était un blanc du corpus.
 
 ::etat:: **Le traité de 1944 le désigne** [S3]. **Section 8** : « The **gold value of the Fund's assets shall be maintained** notwithstanding changes in the par or foreign exchange value of the currency of any member. » Et le mécanisme suit : lorsqu'une parité est **réduite**, « the member **shall pay to the Fund** [...] an amount of its own currency equal to the reduction in the gold value of its currency held by the Fund » ; lorsqu'elle est augmentée, le Fonds restitue.
 
@@ -107,7 +113,7 @@ renvois: [L1.C25, L1.C26, L1.C28, L7.C02, L7.C20, L11.C15, L11.C17, L20.C01, L20
 
 ::etat:: **Le régime instruit n'est plus en vigueur et le corpus ne détient pas la raison de son abandon.** Précédent, non modèle.
 
-::etat:: **La procédure de révision est graduée** — zone franche à dix pour cent, objection sous soixante-douze heures, puis examen. **C'est la forme dont L11.C15 avait besoin, et elle est éprouvée.**
+::etat:: **La procédure de révision est graduée** — zone franche à dix pour cent, objection sous soixante-douze heures, puis examen. **Elle donne une procédure à la révision que L11.C15 § 8 dit sans procédure énoncée, et elle est éprouvée** ; ce n'est pas la forme que L11.C15 § 7 propose, en hypothèse — une révision déclenchée par un écart constaté qui franchit un seuil publié —, mais une décision graduée. Ce paragraphe écrivait « C'est la forme dont L11.C15 avait besoin ».
 
 ::hypothese:: **La clause anti-conditionnalité est supérieure en technique à l'indépendance européenne** : elle interdit un motif précis au puissant plutôt qu'une obéissance abstraite au protégé.
 
