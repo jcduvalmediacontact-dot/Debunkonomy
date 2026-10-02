@@ -122,7 +122,7 @@ renvois: [L1.C21, L1.C26, L11.C02, L11.C03, L11.C04, L11.C05, L11.C06, L19.C03, 
 
 ## 1. Pourquoi il en faut un second, et ce n'est pas une préférence
 
-::etat:: L1.C21 § 1 a établi une contrainte qu'il faut rappeler, parce qu'elle commande tout : **aucun des deux instruments ne suffit seul.** Un prélèvement qui frappe la dépense répond à l'objection de la création monétaire sans contrepartie, mais reste sans effet contre la monnaie qu'on ne dépense pas — son assiette se contracte précisément quand les agents cessent de dépenser. Un prélèvement qui frappe la détention répond à la thésaurisation, mais laisse passer la monnaie qui circule.
+::etat:: L1.C21 § 1 énonce, **en hypothèse**, une contrainte qu'il faut rappeler parce qu'elle commande tout — ce paragraphe écrivait « a établi », et la cible l'écrit comme ce que « le corpus doit énoncer avant tout mécanisme » : **aucun des deux instruments ne suffit seul.** Un prélèvement qui frappe la dépense répond à l'objection de la création monétaire sans contrepartie, mais reste sans effet contre la monnaie qu'on ne dépense pas — son assiette se contracte précisément quand les agents cessent de dépenser. Un prélèvement qui frappe la détention répond à la thésaurisation, mais laisse passer la monnaie qui circule.
 
 ::etat:: **Le demurrage n'est donc pas un perfectionnement du dispositif : c'est la moitié qui manque.** Le corpus le rappelle parce que tout ce qui suit est défavorable, et qu'une objection à un instrument nécessaire ne se solde pas en supprimant l'instrument.
 
