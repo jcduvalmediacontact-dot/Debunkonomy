@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -20,6 +20,10 @@ sources_primaires:
     reference: "Le corpus lui-même — l'arbitrage A5, le périmètre financé, ROUTÉ VERS CE LIVRE le 2026-09-06 par décision de l'auteur, avec les promesses P32 (le périmètre est indéterminé), P33 (le critère cesse de tenir dans le régime des services) et P57 (le récit public tranche plus large que la conception). Et le résultat de L11.C13 § 3 : DÉCIDER CE QUI QUALIFIE EST DÉCIDER CE QUI EST FINANCÉ, de sorte que le périmètre et le barème de qualification sont une seule décision vue de deux endroits. Et L1.C15, l'essentiel insolvable"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L1.C21 § 6 était dit avoir établi que le succès biosphérique contracte l'assiette dégénérative et dégrade la famille monétaire ; L1.C21 § 10 tient la contraction en hypothèse, comme conséquence de la construction, et L1.C28 § 4 n'en tire qu'un canal, non une dégradation automatique. Trouvé en relisant le registre (P53, corrigé à l'ordre 19).
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 4, l'énoncé « décider ce qui qualifie est décider ce qui est financé » était ancré en L11.C13 § 3 ; il est en tête de L11.C13 et en son § 2, qui ajoute que la certification ouvre le flux sans en fixer le montant.
   # Statut inchangé.
@@ -48,7 +52,7 @@ verifications_en_attente:
      qui suppose de dépouiller les textes de présentation et non le livre."
 resume: "Ce chapitre traite l'arbitrage que l'auteur a routé vers ce livre le jour même, et il établit que la ligne de délimitation posée par le livre est juste et inapplicable en l'état, pour une raison que le corpus n'avait pas formulée. Il rappelle d'abord cette ligne, qui distingue les activités non marchandes essentielles et insolvables des échecs du marché, et il l'approuve, puisque sans elle toute activité non rentable pourrait se réclamer de la qualification et que l'émission deviendrait une assurance générale contre l'échec commercial. Il établit ensuite que la ligne sépare par la finalité alors que le barème doit trancher par le fait, ce qui est le défaut central : un office de certification constate qu'un acte a eu lieu et à quelle hauteur, il ne constate pas qu'une activité était essentielle ni qu'elle était insolvable. Il montre que le critère d'insolvabilité est particulièrement fragile, puisqu'il dépend d'un prix de marché que le dispositif modifie lui-même, de sorte qu'une activité rendue rentable par le barème de reflux sort du périmètre au moment où le dispositif commence à agir. Il expose ensuite le résultat que la décomposition du Livre onze impose ici, à savoir que le périmètre n'est pas une décision distincte mais la méthode elle-même, ce qui explique pourquoi il ne pouvait pas être instruit séparément. Il énonce enfin les deux formes possibles d'une liste et leurs modes d'échec respectifs."
 concepts: [essentiel_insolvable, qualification_regenerative, communs, bareme, valorisation_des_communs, fausse_richesse]
-renvois: [L1.C09, L1.C15, L1.C22, L7.C05, L7.C06, L7.C13, L11.C13, L11.C16]
+renvois: [L1.C21, L1.C28, L1.C09, L1.C15, L1.C22, L7.C05, L7.C06, L7.C13, L11.C13, L11.C16]
 ---
 
 # Le périmètre financé
@@ -83,7 +87,7 @@ renvois: [L1.C09, L1.C15, L1.C22, L7.C05, L7.C06, L7.C13, L11.C13, L11.C16]
 
 ::hypothese:: **Il en résulte qu'une activité rendue rentable par le barème SORT du périmètre au moment où le dispositif commence à agir.** Le succès du dispositif rétrécit son propre domaine, **et il le rétrécit d'abord là où il a le mieux réussi.**
 
-::hypothese:: **Le corpus relève que c'est le même mécanisme qu'un résultat déjà établi et qu'il ne l'avait pas rapproché.** L1.C21 § 6 a établi sous F1 que **le succès sur la famille biosphérique contracte l'assiette dégénérative** et dégrade la famille monétaire. **Ici, le succès contracte le périmètre financé.** Deux boucles de rétroaction négatives, et le corpus les tenait séparément.
+::hypothese:: **Le corpus relève que c'est le même mécanisme qu'un résultat déjà établi et qu'il ne l'avait pas rapproché.** L1.C21 § 10 tient, en hypothèse, pour une conséquence de la construction que l'assiette dégénérative se contracte à mesure que le dispositif atteint son but — d'où, sous F1, que **le succès sur la famille biosphérique contracte l'assiette dégénérative** ; L1.C28 § 4, vérifié, en tire un canal nommé, la recette transactionnelle qui se tarit, non la dégradation automatique de la famille monétaire. Ce paragraphe citait L1.C21 § 6, et écrivait « a établi » et « dégrade la famille monétaire ». **Ici, le succès contracte le périmètre financé.** Deux boucles de rétroaction négatives, et le corpus les tenait séparément.
 
 ::hypothese:: **Ce n'est pas une objection dirimante : c'est une exigence de conception.** Un périmètre défini par l'insolvabilité doit prévoir **ce qui se passe quand une activité en sort** — la rente cesse-t-elle, se dégrade-t-elle, y a-t-il un régime transitoire ? **Le corpus relève que L1.C18 avait posé la question sous une autre forme** : la rente de maintien produit ses effets pendant le versement et le rythme d'abattage revient dès l'arrêt. **Sortir du périmètre, c'est arrêter le versement.**
 
