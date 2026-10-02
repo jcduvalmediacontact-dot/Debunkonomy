@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "Règlement (UE) 2023/956 du 10 mai 2023 établissant un mécanisme d'ajustement carbone aux frontières, et ses actes d'exécution sur les VALEURS PAR DÉFAUT applicables aux importateurs qui ne déclarent pas les émissions réelles. NON OUVERT — porté en priorité 1 d'acquisition depuis L11.C06, où il fonde l'arbitrage A11. C'est le seul précédent opérant d'un barème d'impacts administré appliqué à des producteurs situés hors du régime qui l'édicte, et le présent chapitre en dépend plus qu'aucun autre"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L11.C06 était dit avoir établi la sortie métrologique du dispositif ; L11.C06 § 2 la tient en hypothèse, et son chapeau dit sa procédure de révision proposition du corpus.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L11.C16 § 8 était dit avoir établi, sous P43, que la contrainte extérieure est rebasée ; L11.C16 § 8, repris le 30 septembre, le tient en hypothèse d'après L1.C27 § 6, et ne nomme pas P43.
   # Statut inchangé.
@@ -113,7 +117,7 @@ renvois: [L1.C26, L1.C27, L11.C04, L11.C05, L11.C06, L11.C09, L11.C13, L11.C16, 
 
 ## 2. Ce que le mécanisme de la valeur par défaut suppose, et qui n'existe pas dehors
 
-::etat:: L11.C06 a établi la sortie métrologique du dispositif : **un défaut punitif fait documenter tous ceux qui font mieux.** Le centre n'a pas besoin de mesurer ; il lui faut un défaut défendable et une procédure. C'est le mécanisme de la taxe sur la valeur ajoutée — **chacun calcule sa propre position**.
+::etat:: L11.C06 § 2 tient, en hypothèse, la sortie métrologique du dispositif : **un défaut punitif fait documenter tous ceux qui font mieux** ; et sa procédure de révision est une proposition du corpus, non une copie du règlement d'ajustement carbone (chapeau). Ce paragraphe écrivait « a établi ». Le centre n'a pas besoin de mesurer ; il lui faut un défaut défendable et une procédure. C'est le mécanisme de la taxe sur la valeur ajoutée — **chacun calcule sa propre position**.
 
 ::hypothese:: **Ce mécanisme repose sur un intérêt, et cet intérêt n'est pas le même de part et d'autre de la frontière.** À l'intérieur, le producteur documente parce qu'il est **dans** le régime : la charge le frappe de toute façon, et documenter la réduit. **À l'extérieur, le producteur n'est pas dans le régime.** Documenter n'a d'intérêt que si le marché de la coalition vaut le coût de la démarche.
 
