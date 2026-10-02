@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,10 @@ sources_primaires:
     reference: "Protocole sur les statuts du SEBC et de la BCE — **ARTICLE 20, « Other instruments of monetary control »** : « The Governing Council MAY, BY A MAJORITY OF TWO THIRDS OF THE VOTES CAST, decide upon the use of SUCH OTHER OPERATIONAL METHODS OF MONETARY CONTROL AS IT SEES FIT, RESPECTING ARTICLE 2. The Council shall, in accordance with the procedure laid down in Article 42, define the scope of such methods IF THEY IMPOSE OBLIGATIONS ON THIRD PARTIES. » **ARTICLE 28.1** : le capital de la BCE, modifiable par le conseil des gouverneurs à la majorité qualifiée. **OUVERT PAR TÉLÉCHARGEMENT DIRECT le 2026-09-06**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L7.C04 était dit avoir établi le conflit d'intérêts structurel du symposium ; L7.C04 § 6 écrit que le chapitre suppose l'enveloppe saturée, que L11.C16 § 4 ne tient plus pour l'état visé, et qu'il en dépend tout entier.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "LES DEUX LISTES DE L'ARTICLE 106 SONT RELEVÉES ET PARTIELLEMENT
      DÉPOUILLÉES. Le corpus a ouvert les articles 4, 20, 21 et 28.1 des
      statuts ; **il n'a pas ouvert 5.4, 19.2, 29.2, 30.4, 34.3, ni AUCUN des
@@ -51,7 +55,7 @@ verifications_en_attente:
      général de la modification, n'est pas ouverte."
 resume: "Ce chapitre établit ce que coûte la modification d'un texte monétaire fondateur, et il trouve deux voies de coût très inégal dont la seconde est bien plus légère que le corpus ne le croyait. La voie ordinaire exige une conférence des représentants des gouvernements, un commun accord, puis la ratification par tous les États selon leurs règles constitutionnelles, ce qui donne à chaque parlement national un veto sur l'ensemble. Le même article ajoute une clause que le corpus n'attendait pas : lorsque la modification est institutionnelle et monétaire, la banque centrale est consultée, ce qui associe formellement à sa propre révision l'institution que la révision viserait. La seconde voie procède par deux listes limitatives d'articles des statuts, modifiables à la majorité qualifiée, la seconde liste sans même l'avis conforme du Parlement. Le chapitre établit alors le résultat le plus net du bloc, et il est à double tranchant : l'un des articles de cette seconde liste autorise le conseil des gouverneurs à décider aux deux tiers de tout autre moyen opérationnel de contrôle monétaire qu'il juge bon, sous réserve de respecter l'article qui fixe les objectifs. Ce n'est donc pas la procédure qui empêche l'introduction du dispositif dans un système monétaire existant, c'est le mandat, et toute la difficulté juridique européenne se concentre en un seul point, la hiérarchie des objectifs. Le chapitre relève enfin qu'une méthode imposant des obligations à des tiers remonte d'un cran, que le traité est conclu pour une durée illimitée alors que l'adhésion exige l'unanimité et une ratification universelle, et que vingt articles des statuts restent non ouverts, dont celui qui porte la répartition du revenu monétaire."
 concepts: [fenetre_de_reforme, regle_contre_discretion, creation_monetaire]
-renvois: [L1.C18, L7.C12, L7.C20, L7.C21, L11.C15, L20.C01, L20.C02, L20.C03, L20.C07, L20.C09, L20.C18]
+renvois: [L7.C04, L11.C16, L1.C18, L7.C12, L7.C20, L7.C21, L11.C15, L20.C01, L20.C02, L20.C03, L20.C07, L20.C09, L20.C18]
 ---
 
 # Les voies de révision et leur coût
@@ -72,7 +76,7 @@ renvois: [L1.C18, L7.C12, L7.C20, L7.C21, L11.C15, L20.C01, L20.C02, L20.C03, L2
 
 ::hypothese:: **Le traité associe formellement à sa propre révision l'institution que la révision viserait.** Ce n'est pas un veto — c'est une consultation obligatoire —, mais **la même institution qui est protégée de toute instruction par l'article 107 est convoquée quand on veut modifier ce qui la protège.**
 
-::hypothese:: **Le corpus reconnaît une structure qu'il a lui-même produite et jugée problématique.** L7.C04 a établi le conflit d'intérêts structurel du symposium : ceux qui votent le partage en sont les bénéficiaires. **Ici, celui qui est consulté sur la révision de son mandat est le titulaire de ce mandat.** Le traité européen porte donc, sur ce point, la difficulté que le corpus reprochait à son propre dispositif — **ce qui ne l'excuse pas : cela montre qu'elle est difficile à éviter.**
+::hypothese:: **Le corpus reconnaît une structure qu'il a lui-même produite et jugée problématique.** L7.C04 tient le conflit d'intérêts du symposium — ceux qui votent le partage en sont les bénéficiaires — sous une condition, l'enveloppe saturée, que L11.C16 § 4 ne tient plus pour l'état visé, et dont L7.C04 § 6 écrit qu'il dépend tout entier ; ce paragraphe écrivait « a établi le conflit d'intérêts structurel ». **Ici, celui qui est consulté sur la révision de son mandat est le titulaire de ce mandat.** Le traité européen porte donc, sur ce point, la difficulté que le corpus reprochait à son propre dispositif — **ce qui ne l'excuse pas : cela montre qu'elle est difficile à éviter.**
 
 ## 3. La voie simplifiée, et ce qu'elle ouvre
 
