@@ -23,7 +23,12 @@ sources_primaires:
     nature: theorie
     reference: "Le corpus lui-même — L11.C01 § 4 et L11.C02 § 6 : sous la lecture B, « en régime permanent, si les recettes financent l'émission suivante, ce n'est plus une création monétaire : c'est un prélèvement écologique mondial affecté, PRÉCÉDÉ D'UNE ÉMISSION D'AMORÇAGE ». Et L11.C24 § 5 sur la difficulté d'amorçage de la coalition : « tout est plus facile quand la coalition est déjà grande ». Et la promesse P51, seuil d'activation affirmé et non dérivé ; et la promesse P35, régime transitoire pris entre deux contraintes opposées"
     etat_lecture: a_requalifier
+  # 2026-10-01 : cette entrée cite L11.C24 § 5 pour « tout est plus facile quand la coalition est déjà grande », que
+  # L11.C24 porte au § 6, en hypothèse ; son texte est gardé tel que le manifeste le fixe. Le corps est corrigé.
 verifications_en_attente:
+  # 2026-10-01, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L7.C11 § 2 était dit avoir établi que le financement par le surplus supprime l'acte qui pourrait menacer la dotation ; L7.C11 § 2 le tient en hypothèse. Plus loin, L11.C24 § 5 était cité pour un énoncé que L11.C24 porte au § 6, en hypothèse. L'entrée `a_requalifier` qui cite L11.C24 § 5 garde son texte ; un commentaire la suit.
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur l'ordre 13 de l'ordre du jour, donné par Fable le 2026-10-01 sur le mot de l'auteur « Ensuite tu donneras tes consignes pour Opus » :
   # propagation relevée par le dossier de clôture des renvois du Livre 1 (section 4) : au § 3, L11.C16 § 6 était dit avoir établi qu'une fonction de valorisation choisie une fois détermine la balance des paiements de chaque membre, et l'exigence de révisabilité maximale ; L11.C16, repassé le 30 septembre, tient en hypothèse une exigence plus forte sur la grille de priorité et retire le lien avec la balance des paiements. Au § 5, L8.C31 § 6 et L7.C09 § 6 étaient dits avoir établi le délai d'entrée en vigueur ; L7.C09 § 6, repassé le 30 septembre, tient que le livre diffère la levée d'une réserve et que le rapprochement avec Kydland et Prescott est une analogie, la pièce étant ouverte en L1.C18 et non en L8.C31. L8.C31 entre aux renvois.
   # Statut inchangé.
@@ -62,7 +67,7 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L8.C31
 
 ::etat:: **En L11.C01 § 4 et L11.C02 § 6**, sous la lecture B [S3] : en régime permanent, si les recettes financent l'émission suivante, c'est un prélèvement affecté « **précédé d'une émission d'amorçage** ». **Le mot est là, la phase n'est pas instruite.**
 
-::etat:: **En L11.C24 § 5**, sur la frontière du barème : « tout est plus facile quand la coalition est déjà grande. **C'est la difficulté d'amorçage classique** ».
+::etat:: **En L11.C24 § 6**, en hypothèse, sur la frontière du barème (ce paragraphe citait L11.C24 § 5) : « tout est plus facile quand la coalition est déjà grande. **C'est la difficulté d'amorçage classique** ».
 
 ::etat:: **Et sous la promesse P51**, le seuil d'activation en dessous duquel le dispositif ne fonctionne pas — affirmé par le livre, non dérivé.
 
@@ -70,7 +75,7 @@ renvois: [L1.C18, L1.C25, L1.C27, L7.C02, L7.C04, L7.C09, L7.C10, L7.C11, L8.C31
 
 ## 2. La protection obtenue par A29 ne vaut qu'en régime permanent
 
-::hypothese:: **C'est le premier résultat, et il restreint un acquis de l'heure précédente.** L7.C11 § 2 a établi que le financement par le surplus **supprime l'acte qui pourrait menacer la dotation** : aucun État ne votant le budget, aucun ne peut affamer l'institution.
+::hypothese:: **C'est le premier résultat, et il restreint un acquis de l'heure précédente.** L7.C11 § 2 tient, en hypothèse, que le financement par le surplus **supprime l'acte qui pourrait menacer la dotation** : aucun État ne votant le budget, aucun ne peut affamer l'institution. Ce paragraphe écrivait « a établi ».
 
 ::hypothese:: **Pendant la phase de démarrage, il n'y a pas de surplus, donc pas d'autofinancement, donc il y a un financeur.** Le vecteur de capture que l'arbitrage élimine — celui des cas INDEC et ELSTAT versés en L7.C10 § 5 — **est entièrement ouvert pendant toute cette phase.**
 
