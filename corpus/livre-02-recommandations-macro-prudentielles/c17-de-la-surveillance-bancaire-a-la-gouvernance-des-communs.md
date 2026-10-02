@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "Le corpus lui-même — L2.C07, qui verse le rejet, par le rapport du Conseil d'analyse économique de 2011, de la SOLUTION DE COIN où « la politique monétaire, la politique prudentielle et, même [...] la politique budgétaire sont coordonnées », rejet motivé non par l'inefficacité — concédée — mais par l'incompatibilité « AVEC LE TRIPTYQUE INDÉPENDANCE-TRANSPARENCE-RESPONSABILITÉ » ; et L7.C04, qui établit le conflit d'intérêts structurel du symposium"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L2.C16 était dit avoir établi pour les trois textes doctrinaux qu'aucun ne propose qu'un superviseur émette ; L2.C16 § 2 tient en hypothèse le cas d'Aglietta et rapporte que la note de 2022 fait créer la monnaie par une banque centrale.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 5, L11.C16 était dit avoir établi que le niveau de valorisation est un partage borné par le produit, donc non délégable ; L11.C16 § 2, repris le 30 septembre, confie le niveau au Conseil et la structure à l'Assemblée, le partage est conditionnel (§ 4), et la décision de l'auteur (L1.C18 § 3) confie la grille à l'Assemblée. L1.C18 entre aux renvois.
   # Statut inchangé.
@@ -41,7 +45,7 @@ verifications_en_attente:
      matériau que l'institution devrait convertir en barème.**"
 resume: "Ce chapitre traite le neuvième déplacement, qui institue le symposium comme superviseur des communs et simultanément comme émetteur international, et il établit que ces deux fonctions ont des sorts très différents dans le droit et dans la doctrine. La première est disponible : le Livre 20 a versé un régime en vigueur depuis 1982 où une institution gardienne d'un commun a la personnalité juridique internationale, des immunités énumérées, et un mandat défini par le compte pour lequel elle agit plutôt que par ses opérations, avec une distinction faite en une phrase entre la ressource inaliénable et son produit aliénable sous règles. Le modèle existe donc, il est éprouvé, et le dispositif peut le revendiquer. La seconde fonction n'a aucun précédent : cette institution gardienne n'émet pas de monnaie, et aucun des textes doctrinaux ouverts ne propose qu'un superviseur émette. Le chapitre établit ensuite que la réunion des deux fonctions dans un seul organe est précisément ce que le rapport du Conseil d'analyse économique rejette sous le nom de solution de coin, pour un motif qui n'est pas l'inefficacité mais l'incompatibilité avec le triptyque indépendance, transparence, responsabilité. Il relève enfin que la technique des pouvoirs non délégables, versée par le Livre 20, fournit la réponse la plus économique à la difficulté que le Livre 7 traitait en créant des chambres."
 concepts: [communs, valorisation_des_communs, polycentricite, creation_monetaire, robustesse, bareme]
-renvois: [L1.C17, L1.C18, L1.C22, L2.C07, L2.C11, L2.C13, L2.C16, L2.C18, L7.C04, L7.C05, L11.C16, L20.C12, L20.C16]
+renvois: [L2.C05, L2.C06, L1.C17, L1.C18, L1.C22, L2.C07, L2.C11, L2.C13, L2.C16, L2.C18, L7.C04, L7.C05, L11.C16, L20.C12, L20.C16]
 ---
 
 # De la surveillance bancaire à la gouvernance des communs
@@ -68,7 +72,7 @@ renvois: [L1.C17, L1.C18, L1.C22, L2.C07, L2.C11, L2.C13, L2.C16, L2.C18, L7.C04
 
 ::etat:: **L'institution du régime versé en L20.C16 n'émet pas de monnaie** [S2]. Elle perçoit des contributions, reçoit le produit des activités, emprunte, et **répartit** — elle n'émet pas.
 
-::etat:: **Et aucun des textes doctrinaux ouverts ne propose qu'un superviseur émette.** L2.C16 l'a établi pour les trois.
+::etat:: **Et aucun des textes doctrinaux ouverts ne propose qu'un superviseur émette.** Ce paragraphe ajoutait que L2.C16 l'avait établi pour les trois : L2.C16 § 2 écrit que L2.C05 § 4 tient en hypothèse qu'Aglietta n'émet pas, et que la note de 2022 veut qu'une banque centrale crée la monnaie qui reprend les actifs échoués (L2.C06 § 5, en brouillon ; pièce ouverte là-bas) — une banque centrale, non un superviseur.
 
 ::hypothese:: **Le corpus enregistre que c'est le même manque qu'au huitième déplacement, et que ce n'est pas une coïncidence.** Les deux déplacements sans appui doctrinal sont **les deux qui portent l'émission.** **Tout ce qui, dans le dispositif, opère sur du crédit ou des règles existantes a des précédents ; tout ce qui crée de la monnaie n'en a pas.**
 
