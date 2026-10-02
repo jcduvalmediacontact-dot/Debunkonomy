@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,10 @@ sources_primaires:
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 134 et 136 — OUVERT le 2026-09-06. Contestabilité publique : « publication en données ouvertes DES ALGORITHMES, séries brutes et registres d'audit, avec possibilité de réplication et de contestation par des tiers devant la Chambre de Recours ». Et la saisine de la Chambre est ouverte « par des organisations non gouvernementales DÉNONÇANT UNE FRAUDE OU UN MANQUEMENT ». Et p. 134, l'Office « certifie la réalité des prestations régénératives EXÉCUTÉES SUR LE TERRAIN »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L7.C14 § 3 était dit avoir établi qu'une voie de recours ne se saisit pas d'elle-même ; L7.C14 § 3 le tient en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
   # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : aux § 1, § 4 et § 6, dans une vérification en attente et au résumé, L11.C13 § 4 était dit avoir établi que le contrefactuel est déformé par l'annonce du barème et doit être construit, et L11.C13 § 5 qu'il a établi que publier permet d'optimiser ; L11.C13, repris le 1er octobre, rapporte que le livre écarte l'additionnalité contrefactuelle et paie un état constaté, la difficulté se déplaçant sur l'état de référence, et tient le second point en hypothèse. Le chapitre n'est pas réécrit : il dit que son raisonnement vaut pour l'état de référence.
   # Statut inchangé.
@@ -91,7 +95,7 @@ renvois: [L1.C18, L7.C05, L7.C07, L7.C10, L7.C14, L11.C13, L11.C25]
 
 ## 5. Ce que la saisine ouverte aux tiers change, et ce qu'elle ne change pas
 
-::hypothese:: **Elle est le bon mécanisme et le corpus le porte au crédit du livre.** L7.C14 § 3 a établi qu'une voie de recours ne se saisit pas d'elle-même ; **la saisine ouverte aux organisations non gouvernementales est ce qui permet à un tiers d'agir pour celui qui ne le fait pas.** Sur la fraude au scénario, c'est décisif : **le lésé n'est identifiable par personne**, puisque c'est l'ensemble des membres qui a payé trop cher une certification surévaluée.
+::hypothese:: **Elle est le bon mécanisme et le corpus le porte au crédit du livre.** L7.C14 § 3 tient, en hypothèse, qu'une voie de recours ne se saisit pas d'elle-même (ce paragraphe écrivait « a établi ») ; **la saisine ouverte aux organisations non gouvernementales est ce qui permet à un tiers d'agir pour celui qui ne le fait pas.** Sur la fraude au scénario, c'est décisif : **le lésé n'est identifiable par personne**, puisque c'est l'ensemble des membres qui a payé trop cher une certification surévaluée.
 
 ::hypothese:: **Ce qu'elle ne change pas est le biais déjà rencontré six fois.** Contester un scénario de référence suppose de disposer d'un modèle concurrent, donc de compétences et de moyens. **La contestation appartient aux acteurs déjà dotés**, et le corpus rappelle que ce biais porte ici sur le mécanisme qui protège l'enveloppe commune.
 
