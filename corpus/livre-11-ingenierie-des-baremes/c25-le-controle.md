@@ -117,7 +117,7 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 
 | | La cause | Ce qu'elle vaut |
 |---|---|---|
-| **1** | **le dispositif réussit** — les transactions dégénératives reculent | c'est le but ; L1.C21 § 6 et F1 l'ont établi comme le conflit propre du dispositif |
+| **1** | **le dispositif réussit** — les transactions dégénératives reculent | c'est le but ; L1.C21 § 10 et F1 le tiennent en hypothèse comme le conflit propre du dispositif (ce tableau citait le § 6, qui ne porte pas l'érosion) |
 | **2** | **l'économie se contracte** — bas de cycle | L11.C23 § 4 : le bouclage transmet alors le cycle à l'émission |
 | **3** | **on perçoit mal** — sous-perception, sous-déclaration, dérive du barème | le présent chapitre |
 
@@ -145,7 +145,7 @@ renvois: [L1.C18, L1.C21, L1.C22, L11.C05, L11.C06, L11.C09, L11.C11, L11.C13, L
 
 ::hypothese:: **Le corpus ne peut pas déduire la forme du contrôle et il le dit.** Les régimes existants sont documentés et **aucun n'est ouvert** : l'examen des politiques commerciales de l'Organisation mondiale du commerce, la revue par les pairs de l'Organisation de coopération et de développement économiques, le cadre de transparence de l'Accord de Paris, les procédures d'infraction de l'Union européenne. **Le dernier est le seul qui comporte une sanction effective**, et c'est précisément ce qui manque au dispositif.
 
-::hypothese:: **Et la sanction pose une difficulté propre au dispositif que les précédents n'ont pas.** Sanctionner un membre défaillant en réduisant ses allocations revient à **le priver de son équilibre extérieur** — puisque L1.C27 § 6 et P52 ont établi que la valorisation le détermine. **L'instrument de sanction disponible est démesuré**, et un instrument démesuré ne s'emploie pas : c'est le mécanisme de report que L11.C15 § 6 a rencontré sur les parités. **La sanction existante est donc inutilisable, et il n'y en a pas d'autre.**
+::hypothese:: **Et la sanction pose une difficulté propre au dispositif que les précédents n'ont pas.** Sanctionner un membre défaillant en réduisant ses allocations revient à **le priver de son équilibre extérieur** — puisque L1.C27 § 6 le tenait — **il ne l'établit plus**, et la promesse P52 est déplacée et non levée depuis le 2026-10-02 ; L11.C13 le porte déjà. **L'instrument de sanction disponible est démesuré**, et un instrument démesuré ne s'emploie pas : c'est le mécanisme de report que L11.C15 § 6 a rencontré sur les parités. **La sanction existante est donc inutilisable, et il n'y en a pas d'autre.**
 
 ## 7. Le contrôle défait l'économie qui rendait le dispositif administrable
 
