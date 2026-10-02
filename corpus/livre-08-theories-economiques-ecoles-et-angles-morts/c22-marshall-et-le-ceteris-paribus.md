@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,10 @@ sources_primaires:
     reference: "Le corpus lui-même — le résultat de L11.C22, « les délais » : le corpus en avait nommé trois et en a recensé CINQ EN SÉRIE, dont il établit qu'ils s'allongent ensemble. Et le résultat de L11.C16 § 8 : un délai de nature entièrement différente, biologique et non monétaire, excède celui du déséquilibre qu'il doit corriger. Et la règle du compte de Tinbergen telle que L8.C28 § 4 la restitue : « the values of the instrument variables are dependent, generally speaking, on all the targets set and cannot be considered in isolation »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au résumé, au § 2 et au § 6, les délais de L11.C22 étaient dits établis en série et s'allongeant ensemble, et le délai biologique compté pour un sixième ; L11.C22 le compte parmi les cinq (§ 1) et tient la série et la corrélation en hypothèse (§ 3).
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE. Les Principles of Economics ne
   # sont pas en possession du corpus.
@@ -33,7 +37,7 @@ verifications_en_attente:
      délais recensés en L11.C22 ni pour le délai biologique de L11.C16 § 8.
      **C'est la même lacune qu'en L8.C30 § 5**, et elle interdit de dire si
      l'équilibre partiel est ici une approximation acceptable ou une erreur."
-resume: "Ce chapitre porte une objection de méthode et non de fond, et c'est le seul du répertoire dans ce cas : il ne conteste aucune thèse du dispositif mais la manière dont ses effets peuvent être établis. Il déclare que le texte n'est pas en possession du corpus. Il situe la méthode en cause, celle de l'équilibre partiel, qui isole un marché et raisonne sur lui toutes choses égales par ailleurs, et il établit que cette méthode n'est pas une commodité mais la condition qui rend l'économie analysable, faute de quoi tout dépend de tout et rien ne se démontre. Il établit ensuite pourquoi cette méthode est particulièrement mal adaptée au dispositif, et pour deux raisons que le corpus tient déjà sans les avoir rapportées à ce problème. La première est que la règle du compte, sur laquelle repose tout le Livre 11, énonce explicitement que les valeurs des instruments dépendent de toutes les cibles fixées et ne peuvent pas être considérées isolément, ce qui est la négation exacte de l'équilibre partiel. La seconde est que le corpus a recensé cinq délais en série qui s'allongent ensemble, plus un délai biologique d'un autre ordre, de sorte que la distinction entre courte et longue période, qui est le second apport de cette tradition, se brouille au lieu de trancher. Il en tire que le dispositif ne peut être évalué ni en équilibre partiel ni en équilibre général, et que le corpus ne dispose d'aucune méthode intermédiaire."
+resume: "Ce chapitre porte une objection de méthode et non de fond, et c'est le seul du répertoire dans ce cas : il ne conteste aucune thèse du dispositif mais la manière dont ses effets peuvent être établis. Il déclare que le texte n'est pas en possession du corpus. Il situe la méthode en cause, celle de l'équilibre partiel, qui isole un marché et raisonne sur lui toutes choses égales par ailleurs, et il établit que cette méthode n'est pas une commodité mais la condition qui rend l'économie analysable, faute de quoi tout dépend de tout et rien ne se démontre. Il établit ensuite pourquoi cette méthode est particulièrement mal adaptée au dispositif, et pour deux raisons que le corpus tient déjà sans les avoir rapportées à ce problème. La première est que la règle du compte, sur laquelle repose tout le Livre 11, énonce explicitement que les valeurs des instruments dépendent de toutes les cibles fixées et ne peuvent pas être considérées isolément, ce qui est la négation exacte de l'équilibre partiel. La seconde est que le corpus a recensé cinq délais, dont le délai biologique de la restauration, qu'il tient en hypothèse pour en série et s'allongeant ensemble, de sorte que la distinction entre courte et longue période, qui est le second apport de cette tradition, se brouille au lieu de trancher. Il en tire que le dispositif ne peut être évalué ni en équilibre partiel ni en équilibre général, et que le corpus ne dispose d'aucune méthode intermédiaire."
 concepts: [affectation_des_instruments, bareme, indicateur_de_progres, robustesse]
 renvois: [L8.C01, L8.C21, L8.C28, L8.C36, L8.C37, L11.C03, L11.C16, L11.C17, L11.C22]
 ---
@@ -54,7 +58,7 @@ renvois: [L8.C01, L8.C21, L8.C28, L8.C36, L8.C37, L11.C03, L11.C16, L11.C17, L11
 
 ::hypothese:: **Le corpus enregistre qu'il y a là une tension qu'il n'avait pas relevée.** Il applique la règle du compte — qui est un raisonnement d'interdépendance générale — **et il instruit ses barèmes un par un**, ce qui est un raisonnement d'équilibre partiel. **L11.C17 a rendu A8 en établissant l'interdépendance ; il n'en a pas tiré que la méthode d'instruction devait changer.**
 
-::hypothese:: **Seconde raison, et elle est propre au dispositif.** Le second apport de cette tradition est la distinction entre **courte et longue période** : ce qui est fixe à court terme devient variable à long terme, et l'analyse se fait par horizon. **Le corpus a établi que cette distinction se brouille ici** — L11.C22 recense **cinq délais en série qui s'allongent ensemble**, et L11.C16 § 8 en ajoute un sixième, biologique, d'un autre ordre de grandeur. **Il n'y a pas deux horizons mais une chaîne, et elle n'a pas de coupure naturelle.**
+::hypothese:: **Seconde raison, et elle est propre au dispositif.** Le second apport de cette tradition est la distinction entre **courte et longue période** : ce qui est fixe à court terme devient variable à long terme, et l'analyse se fait par horizon. **Le corpus tient, en hypothèse, que cette distinction se brouille ici** — L11.C22 recense cinq délais, dont le délai biologique de L11.C16 § 8 (L11.C22 § 1), et tient en hypothèse qu'ils sont **en série et s'allongent ensemble**, corrélation qu'il dit déduite et non observée (L11.C22 § 3). Ce paragraphe écrivait « le corpus a établi » et comptait le délai biologique pour un sixième. **Il n'y a pas deux horizons mais une chaîne, et elle n'a pas de coupure naturelle.**
 
 ## 3. Ce que cela laisse au corpus, et ce n'est pas confortable
 
@@ -78,6 +82,6 @@ renvois: [L8.C01, L8.C21, L8.C28, L8.C36, L8.C37, L11.C03, L11.C16, L11.C17, L11
 
 ::etat:: **L'objection est de méthode et elle vise le corpus autant que le dispositif.** Le corpus applique une règle d'interdépendance générale **et instruit ses barèmes un par un.**
 
-::hypothese:: **La distinction par horizons, qui est la sortie usuelle, ne fonctionne pas ici** : cinq délais en série qui s'allongent ensemble, plus un délai biologique, ne se coupent pas en courte et longue période.
+::hypothese:: **La distinction par horizons, qui est la sortie usuelle, ne fonctionne pas ici** : cinq délais, dont le délai biologique, que L11.C22 tient en hypothèse pour en série et s'allongeant ensemble, ne se coupent pas en courte et longue période ; ce paragraphe ajoutait aux cinq « un délai biologique ».
 
 ::etat:: **Il en résulte que le dispositif n'est évaluable par aucune des deux méthodes disponibles**, et que la méthode intermédiaire relève d'un livre qui compte zéro chapitre. **Le corpus le porte comme une lacune de son propre appareil.**
