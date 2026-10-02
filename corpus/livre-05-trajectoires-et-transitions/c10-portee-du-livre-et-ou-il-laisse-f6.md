@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "**`protocoles/falsification.md`, F8 — LE DÉSARMEMENT, posé le 2026-09-07.** **Test** : « un dispositif du corpus est désarmé si les trois conditions sont réunies : son déclencheur exige plusieurs conditions cumulatives, sa vérification n'est imposée à personne, et son manquement n'emporte aucune conséquence sur le droit acquis ». **F8 est posé pour les BARÈMES** : « si un barème de NEMO IMS satisfait les trois, il est ce traité ». **Et il note la technique du troisième étage** : le texte instruit « ne dresse pas la liste des sanctions interdites : il protège contre *tout remède qui invaliderait ou rendrait inopposables les droits conférés* » — « une clause écrite par son effet **ferme d'avance les remèdes que personne n'a encore imaginés** »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L5.C03 était dit établir que l'adhésion ne demande aucune sortie ; L5.C03 § 4 le tient en hypothèse. Au § 5, L5.C08 était dit avoir établi que le coût de la transition sectorielle est structurel ; L5.C08 § 2 tient en hypothèse que son défaut central est structurel et non paramétrique.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "AUCUN CAS HISTORIQUE D'ADOPTION D'UNE COUCHE MONÉTAIRE ADDITIONNELLE
      N'EST INSTRUIT, et c'est le manque décisif de ce livre. Les trois épisodes
      que le corpus tient portent tous sur la **substitution** d'un régime à un
@@ -65,7 +69,7 @@ renvois: [L1.C25, L1.C27, L3.C05, L3.C09, L5.C01, L5.C02, L5.C03, L5.C04, L5.C05
 
 ::hypothese:: **Mais l'échange est défavorable, et le corpus le dit.** **Il troque un précédent défavorable contre une absence de précédent.** **Aucun cas d'adoption d'une couche monétaire additionnelle n'est instruit** — ni comment une telle couche s'installe, ni si un créancier dominant la combat ou l'ignore. **« Ce test ne s'applique pas » n'est pas « ce test est passé ».**
 
-::etat:: **Sur la seconde branche, le livre a produit une réponse, et elle est défavorable** [S2]. **Aucun des quatre chemins n'identifie de mécanisme rendant coûteuse la position du créancier dominant.** L5.C03 établit l'inverse : l'adhésion ne demandant aucune sortie, personne ne perd rien — **donc personne ne subit rien.**
+::etat:: **Sur la seconde branche, le livre a produit une réponse, et elle est défavorable** [S2]. **Aucun des quatre chemins n'identifie de mécanisme rendant coûteuse la position du créancier dominant.** L5.C03 § 4 tient l'inverse, en hypothèse (ce paragraphe écrivait « établit ») : l'adhésion ne demandant aucune sortie, personne ne perd rien — **donc personne ne subit rien.**
 
 ::hypothese:: **Le corpus enregistre que ce n'est pas une lacune du livre mais une conséquence de sa meilleure trouvaille, et c'est le résultat central de ce chapitre.** **La propriété qui protège l'entrée est exactement celle qui épargne le créancier.** **Une couche qui ne retire rien à personne ne rend coûteuse la position de personne** — **le même fait, une troisième fois vu.** **La seconde branche de F6 tient donc intacte, et le livre en a fourni le motif au lieu de la contredire.**
 
@@ -99,7 +103,7 @@ renvois: [L1.C25, L1.C27, L3.C05, L3.C09, L5.C01, L5.C02, L5.C03, L5.C04, L5.C05
 
 ::etat:: **À L20.C13** : le chapitre tient l'entrée en vigueur, l'adhésion et le retrait, **c'est-à-dire les portes du dispositif — non la réaction de ce qui l'entoure**. **La seconde phase n'y est pas.**
 
-::etat:: **À L11** : l'enveloppe d'émission plafonnée comme incitation à entrer tôt, piste ouverte par L5.C03 et non instruite ; et **la transition sectorielle**, dont L5.C08 a établi que le coût est structurel.
+::etat:: **À L11** : l'enveloppe d'émission plafonnée comme incitation à entrer tôt, piste ouverte par L5.C03 et non instruite ; et **la transition sectorielle**, dont L5.C08 § 2 tient, en hypothèse, que le défaut central est structurel et non paramétrique ; ce paragraphe écrivait que L5.C08 avait établi que le coût est structurel.
 
 ::etat:: **Au chantier comptable** : le principe 9 exige de l'actif de règlement « little or no credit or liquidity risk ». **C'est lui qui décide si le rail peut porter l'unité ou seulement la monnaie des autres**, et l'arbitrage du 2026-09-07 ne l'a pas clos.
 
