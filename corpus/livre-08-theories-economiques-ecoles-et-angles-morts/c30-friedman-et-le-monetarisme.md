@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -24,6 +24,10 @@ sources_primaires:
     reference: "Le corpus lui-même — falsifieur F7, repesé le 2026-09-05 : des trois jambes, celle des DÉLAIS est la seule RENFORCÉE par les sources ouvertes. Et résultat de L11.C22, qui recense CINQ délais en série là où le corpus n'en avait nommé que trois, et établit qu'ils s'allongent ensemble. Et de L11.C16 § 8, qui trouve un délai de nature entièrement différente — biologique et non monétaire — sur un troisième instrument"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L11.C22 était dit établir que ses cinq délais s'allongent ensemble ; L11.C22 § 3 le tient en hypothèse, corrélation déduite et non observée.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE ÉCRIT SUR UNE SOURCE SECONDAIRE DE RANG FAIBLE, et il le déclare en
   # tête. Friedman 1968 n'est pas ouvert ; Combe 1997 l'est, mais c'est une
@@ -70,7 +74,7 @@ renvois: [L1.C21, L8.C01, L8.C28, L8.C31, L11.C07, L11.C10, L11.C12, L11.C16, L1
 
 ::hypothese:: **Deux résultats du Livre 11 aggravent la portée de cet argument, et ils sont propres au corpus** [S3].
 
-::hypothese:: **Le premier : les délais sont plus nombreux qu'on ne le croyait.** L11.C22 en recense **cinq en série** là où le corpus n'en avait nommé que trois, et établit qu'ils **s'allongent ensemble** — les circonstances qui allongent l'un allongent les autres. **Un dispositif dont la correction traverse cinq délais successifs est plus exposé qu'une banque centrale qui en traverse trois.**
+::hypothese:: **Le premier : les délais sont plus nombreux qu'on ne le croyait.** L11.C22 en recense **cinq en série** là où le corpus n'en avait nommé que trois, et tient, en hypothèse, qu'ils **s'allongent ensemble** — les circonstances qui allongent l'un allongent les autres —, corrélation qu'il dit déduite et non observée (L11.C22 § 3) ; ce paragraphe écrivait « établit ». **Un dispositif dont la correction traverse cinq délais successifs est plus exposé qu'une banque centrale qui en traverse trois.**
 
 ::hypothese:: **Le second est plus grave, parce qu'il change la nature du délai.** L11.C16 § 8 trouve sur le versant émission un délai **biologique** : la restauration écologique produit son effet après des années, quand le déséquilibre extérieur qu'elle doit corriger se manifeste au règlement du solde. **Ce n'est plus le délai de transmission de la politique monétaire, c'est le temps du vivant**, et rien ne le raccourcit. **Le mécanisme de Friedman arrive donc sur le dispositif par une voie que Friedman ne pouvait pas prévoir.**
 
