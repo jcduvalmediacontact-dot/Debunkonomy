@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -20,6 +20,10 @@ sources_primaires:
     reference: "Le corpus lui-même — L7.C05 § 2, l'architecture en quatre chambres telle que le chapitre 7 l'énonce : Assemblée des Communs (normatif), Office de Certification (technique), Conseil Monétaire (quantitatif), Chambre de Recours (juridictionnel). AUCUNE DES QUATRE NE PORTE LA PRODUCTION DE CADRES JURIDIQUES INTERNATIONAUX. Et L7.C12, le point de démarrage : la phase où se fixent D1, D2 et D3 est celle où l'institution est sous financement extérieur"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 3, L7.C12 était dit avoir établi que la phase de démarrage fixe trois des quatre décisions sous financement extérieur ; au § 4, L7.C04 § 3 était dit avoir établi ce que supposerait une séparation des décideurs et des bénéficiaires. L7.C12 § 3 et L7.C04 § 3 les tiennent en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # CHAPITRE OUVERT SUR UNE SECTION QUE L1.C18 AVAIT SIGNALÉE COMME NON LUE le
   # 2026-09-04, et que le corpus n'a ouverte que le 2026-09-06. Deux jours
@@ -45,7 +49,7 @@ verifications_en_attente:
      n'en tient rien. Première acquisition du Livre 20."
 resume: "Ce chapitre ouvre une section du livre que le corpus avait signalée comme non lue deux jours plus tôt, et il en tire deux résultats que personne n'avait vus. Le premier est que le Symposium a une cinquième fonction qu'aucune de ses quatre chambres ne porte : traduire la reconnaissance des communs planétaires en cadres juridiques internationaux contraignants, ce qui est un rôle que le livre qualifie lui-même de législatif. L'architecture quadripartite, qui sépare le normatif du technique, du quantitatif et du juridictionnel, ne prévoit rien pour une fonction qui produit du droit international, et le chapitre établit que cette fonction n'est réductible à aucune des quatre. Le second résultat est plus lourd : le livre écrit que la sanctuarisation juridique est la condition sine qua non de l'émergence des unités, ce qui subordonne l'existence même du mécanisme monétaire à une transformation juridique préalable. Le chapitre en tire l'ordre de dépendance qui en découle et montre qu'il inverse celui que le corpus supposait, le droit cessant d'être une contrainte de conformité pour devenir un préalable d'existence. Il compose ce résultat avec la question du démarrage instruite la veille et établit que la phase préalable est plus longue et plus exposée que le corpus ne le croyait. Il relève enfin que le livre ajoute au Symposium une fonction de laboratoire et de diffusion, qui n'est ni législative ni administrative."
 concepts: [limites_planetaires, plafond_ecologique, valorisation_des_communs, qualification_regenerative, communs, fenetre_de_reforme]
-renvois: [L1.C18, L1.C22, L1.C27, L7.C01, L7.C05, L7.C11, L7.C12, L11.C13, L11.C16]
+renvois: [L7.C04, L1.C18, L1.C22, L1.C27, L7.C01, L7.C05, L7.C11, L7.C12, L11.C13, L11.C16]
 ---
 
 # La sanctuarisation juridique, condition préalable
@@ -76,7 +80,7 @@ renvois: [L1.C18, L1.C22, L1.C27, L7.C01, L7.C05, L7.C11, L7.C12, L11.C13, L11.C
 
 ## 3. Ce que cela fait au point de démarrage
 
-::hypothese:: **L7.C12 a établi hier que la phase de démarrage est celle où se fixent trois des quatre décisions, et qu'elle se déroule sous financement extérieur.** La présente section allonge cette phase **d'un préalable qui ne dépend pas du dispositif.**
+::hypothese:: **L7.C12 § 3 tient, en hypothèse, que la phase de démarrage est celle où se fixent trois des quatre décisions, et qu'elle se déroule sous financement extérieur.** Ce paragraphe écrivait « a établi hier ». La présente section allonge cette phase **d'un préalable qui ne dépend pas du dispositif.**
 
 ::hypothese:: **La chaîne complète, telle que le corpus peut désormais l'écrire.** Un instrument international reconnaît les communs comme biens inaliénables. **Puis** une institution est constituée pour en tirer les conséquences. **Puis** elle fixe méthode, valeurs et premiers constats. **Puis** le prélèvement produit assez pour financer l'institution. **Le financement par le surplus, tranché en A29, n'intervient qu'au quatrième temps.**
 
@@ -88,7 +92,7 @@ renvois: [L1.C18, L1.C22, L1.C27, L7.C01, L7.C05, L7.C11, L7.C12, L11.C13, L11.C
 
 ::hypothese:: **Cette fonction n'est ni législative ni administrative, et le corpus la relève pour deux raisons.** La première est qu'elle **répond en partie à l'objection de la connaissance dispersée** — L8.C29 a établi que P19b reste entière sur la fixation des valeurs, et un dispositif de mutualisation des pratiques locales est exactement ce que cette objection réclame, sans le résoudre. **Le corpus le porte au crédit du livre et note que c'est insuffisant** : partager des pratiques n'apprend pas où l'effort produit le plus.
 
-::hypothese:: **La seconde est qu'elle introduit à la table des acteurs qui ne sont pas des États** — entreprises, société civile, scientifiques. **Aucun chapitre du corpus n'avait envisagé que la représentation puisse être autre que stato-centrée**, alors que L7.C04 § 3 a établi qu'une séparation entre décideurs et bénéficiaires supposerait « que les décideurs soient d'une autre nature que les bénéficiaires — des personnes et non des États ». **Le livre ouvre cette porte dans une fonction consultative et ne la franchit pas dans les organes de décision.**
+::hypothese:: **La seconde est qu'elle introduit à la table des acteurs qui ne sont pas des États** — entreprises, société civile, scientifiques. **Aucun chapitre du corpus n'avait envisagé que la représentation puisse être autre que stato-centrée**, alors que L7.C04 § 3 tient, en hypothèse, qu'une séparation entre décideurs et bénéficiaires supposerait « que les décideurs soient d'une autre nature que les bénéficiaires — des personnes et non des États, par exemple » ; ce paragraphe écrivait « a établi » et coupait la citation avant « par exemple ». **Le livre ouvre cette porte dans une fonction consultative et ne la franchit pas dans les organes de décision.**
 
 ## 5. Le couplage avec un livre acquis, et le corpus ne l'avait pas fait
 
