@@ -20,6 +20,22 @@ sources_primaires:
     reference: "J.-C. Duval, L'économie de l'équilibre, chapitre 7, p. 134 et 136 — OUVERT le 2026-09-06. Contestabilité publique : « publication en données ouvertes DES ALGORITHMES, séries brutes et registres d'audit, avec possibilité de réplication et de contestation par des tiers devant la Chambre de Recours ». Et la saisine de la Chambre est ouverte « par des organisations non gouvernementales DÉNONÇANT UNE FRAUDE OU UN MANQUEMENT ». Et p. 134, l'Office « certifie la réalité des prestations régénératives EXÉCUTÉES SUR LE TERRAIN »"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  - >
+    2026-10-02 — L'OBJET DES § 3 ET § 4 S'EST DÉPLACÉ, ET LE CORPS NE L'A PAS
+    ENCORE SUIVI. Les deux sections raisonnent sur un scénario de référence
+    contrefactuel — « une hypothèse sur ce qui se serait produit autrement » —,
+    que L11.C13 § 4, en brouillon, dit écarté par le livre : il le tient pour
+    « une fiction théorique invérifiable par nature », et la difficulté se
+    déplace sur L'ÉTAT DE DÉPART. Le raisonnement survit, son objet change : le
+    différend ne porte plus sur un futur alternatif mais sur un état de
+    référence constaté, que L11.C13 § 4 dit contesté et que L11.C10, en
+    brouillon, dit déformé par l'annonce même du dispositif. Le § 4 en devient
+    PLUS serré, non moins : un état de départ est en principe observable, donc
+    la charge de la preuve porterait sur une mesure datée plutôt que sur une
+    fiction, ce qui change le standard applicable. REPRISE RENVOYÉE À LA PASSE
+    DU LIVRE 7 par Fable le 2026-10-02 (ordre 32) : ni le Moteur, ni la semaine
+    de clôture. Détail au § 8 de
+    coordination/relais-moteur/dossiers/cloture-L1-reliquat-2-2026-10-02.md.
   # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
   # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 5, L7.C14 § 3 était dit avoir établi qu'une voie de recours ne se saisit pas d'elle-même ; L7.C14 § 3 le tient en hypothèse.
   # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
