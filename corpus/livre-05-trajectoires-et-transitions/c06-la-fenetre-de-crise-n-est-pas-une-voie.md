@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-07
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: conception
@@ -28,6 +28,10 @@ sources_primaires:
     reference: "**L6.C10**, sur des sources institutionnelles nommées. **L'exercice de résistance climatique de l'Autorité de contrôle prudentiel et de résolution, publié en décembre 2024**, projette à **2050** une **multiplication par cinq des zones touchées** et une **hausse des primes pouvant atteindre deux cents pour cent**. **RÈGLE DE RÉDACTION DU REGISTRE, respectée ici** : ne jamais écrire que des biens sont devenus inassurables ; écrire que l'accès formel est maintenu selon le seul relevé disponible, **que ce relevé exclut de son périmètre les prix et les franchises, et que c'est par les prix et les franchises que l'inassurabilité se manifeste**"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, la lecture en deux ruptures de la chronologie 1971-1976 était donnée pour établie par L3.C03 ; L3.C03 établit la chronologie et tient la lecture en hypothèse (§ 2, § 6).
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   - "AUCUNE PROBABILITÉ N'EST TENUE, alors que la contrainte de rédaction exige
      d'analyser les voies « avec leurs conditions, leurs **probabilités** et
      leurs coûts humains ». **Le corpus ne dispose d'aucune méthode pour
@@ -64,7 +68,7 @@ renvois: [L1.C25, L3.C03, L3.C04, L5.C01, L5.C02, L5.C03, L6.C10]
 
 ## 2. Le seul cas tenu confirme, et il est instructif
 
-::etat:: **L3.C03 a établi la chronologie de 1971-1976** [S3], et elle contient **deux ruptures et non une** : le pivot met fin à la convertibilité en 1971, **le système ne disparaît qu'en 1973.**
+::etat:: **L3.C03 a établi la chronologie de 1971-1976** [S3], et y relève, en hypothèse, **deux ruptures et non une** (L3.C03 § 2 et L3.C03 § 6 ; ce paragraphe faisait de cette lecture un acquis) : le pivot met fin à la convertibilité en 1971, **le système ne disparaît qu'en 1973.**
 
 ::hypothese:: **Trois traits de ce cas valent d'être relevés, et aucun n'encourage cette voie.** **La fenêtre a été ouverte par l'émetteur en place**, pour ses propres raisons — L1.C25 avait isolé la propriété : le pivot « est le seul à devoir régler en or et le seul à pouvoir mettre fin à cette obligation ». **Elle s'est ouverte au moment de son choix**, non au moment de sa plus grande faiblesse. **Et personne n'y est entré** : le régime qui a suivi a été négocié par ceux qui étaient déjà à la table.
 
