@@ -6,7 +6,7 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-10-02
 autorite: preparatoire
 citable: false
 regime: descriptif
@@ -16,6 +16,10 @@ sources_primaires:
     reference: "Le corpus lui-même — le concept `bareme`, défini au vocabulaire comme une table de valeurs « arrêtée par décision et non par un marché » ; la promesse P19b, que le registre qualifie d'objection la plus forte adressée au dispositif ; et le résultat de L11.C16 § 2, qui établit que ce qu'une assemblée arrête n'est pas le niveau de la valorisation mais sa STRUCTURE, le niveau étant contraint par la condition de bouclage"
     etat_lecture: a_requalifier
 verifications_en_attente:
+  # 2026-10-02, CORRECTION DE FOND, sur l'ordre 18 de l'ordre du jour (Fable, 2026-10-01, 21 h 10, sur le mot de l'auteur « OK ! et Donne tes consignes à Opus stp ») :
+  # propagation de quatrième rang (renvois qui font tenir à leur cible ce qu'elle ne tient pas ou plus) : au § 2, L11.C06 était dit avoir établi qu'un défaut est une valeur défendable qui s'applique à qui ne documente pas mieux ; L11.C06 § 1 établit qu'un défaut n'est pas une approximation provisoire, et tient le reste en hypothèse.
+  # Relevé du Moteur du 2026-10-01 ; appliqué le 2026-10-02 par Fable en relais du Moteur (AD4).
+  # Statut inchangé.
   # ── Méthode ────────────────────────────────────────────────────────────────
   # FICHE DE RÉPERTOIRE SANS SOURCE OUVERTE, même régime que L8.C02. Aucun
   # texte de cette tradition n'est en possession du corpus, qui n'attribue
@@ -56,7 +60,7 @@ renvois: [L1.C18, L8.C01, L8.C02, L8.C21, L8.C25, L8.C29, L11.C06, L11.C16]
 
 ::hypothese:: **Le juste prix de cette tradition n'est pas un prix décrété.** C'est un **intervalle** hors duquel l'échange devient illicite — une borne de licéité, non une valeur de calcul. L'autorité n'y dit pas combien vaut la chose : elle dit à partir de quel écart l'échange cesse d'être un échange.
 
-::hypothese:: **Cette figure est distincte du prix administré, et elle est plus proche de ce qu'un barème par défaut fait réellement.** L11.C06 a établi qu'un défaut n'est pas une estimation : c'est une valeur défendable qui s'applique à qui ne documente pas mieux. **Une borne, non un calcul.** Le corpus enregistre que la forme qu'il a construite a un ancêtre, et qu'il ne le savait pas.
+::hypothese:: **Cette figure est distincte du prix administré, et elle est plus proche de ce qu'un barème par défaut fait réellement.** L11.C06 § 1 établit qu'un défaut n'est pas une approximation provisoire, et tient, en hypothèse, que c'est une règle d'attribution assumée sous ignorance, publiquement défendable, qui s'applique à qui ne documente pas mieux ; ce paragraphe écrivait les deux « établis ». **Une borne, non un calcul.** Le corpus enregistre que la forme qu'il a construite a un ancêtre, et qu'il ne le savait pas.
 
 ## 3. CONTRE — ce que le dispositif cherche là et n'y trouve pas
 
