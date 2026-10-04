@@ -353,7 +353,8 @@ def fil_ariane(base: str, *etapes: tuple[str, str]) -> str:
 
 
 def page(titre: str, contenu: str, base: str, description: str = "",
-         jsonld: dict | None = None, canonique: str = "", fil: str = "") -> str:
+         jsonld: dict | None = None, canonique: str = "", fil: str = "",
+         markdown: str = "") -> str:
     tete = [
         "<!doctype html>",
         '<html lang="fr">',
@@ -366,6 +367,9 @@ def page(titre: str, contenu: str, base: str, description: str = "",
         tete.append(f'<meta name="description" content="{html.escape(description[:300], quote=True)}">')
     if canonique:
         tete.append(f'<link rel="canonical" href="{html.escape(canonique, quote=True)}">')
+    if markdown:
+        # la même page en Markdown, en-tête YAML compris : ce qu'un lecteur machine doit prendre
+        tete.append(f'<link rel="alternate" type="text/markdown" href="{html.escape(markdown, quote=True)}">')
     tete.append(f'<link rel="license" href="{LICENCE_URL}">')
     tete.append(f"<style>{FEUILLE}</style>")
     if jsonld:
@@ -478,6 +482,7 @@ def emettre_chapitre(ch: Chapitre, livre: dict, base: str, etat: dict, sortie: P
                 description=str(ch.h.get("resume", "")),
                 jsonld=jsonld_chapitre(ch, livre, base, empreintes),
                 canonique=f"{SITE}{base}/{ch.url}",
+                markdown=f"{SITE}{base}/{ch.url}index.md",
                 fil=fil_ariane(base, ("Corpus", f"{base}/"),
                                (f"Livre {ch.livre}", f"{base}/livre-{ch.livre}/"))))
     # le .md servi à côté de la page, à l'identique du dépôt
@@ -611,6 +616,9 @@ def emettre_llms(par_livre: dict, livres: dict, base: str, sortie: Path,
          "hypothèse, norme — qui dit si le texte décrit, défend ou prescrit.", "",
          f"Chapitres publiés : {total}. Chapitres du dépôt non encore publiables : {len(refuses)}. "
          "Le corpus ne publie que ce qu'il a vérifié ; l'absence d'un chapitre n'est pas un oubli.",
+         "",
+         "Chaque lien de chapitre mène à sa version Markdown, en-tête YAML compris (statut, sources "
+         "lues, date de révision) ; la page HTML est à la même adresse, sans « index.md ».",
          ""]
     for num in sorted(par_livre):
         titre = str(livres.get(num, {}).get("titre", f"Livre {num}"))
@@ -618,7 +626,7 @@ def emettre_llms(par_livre: dict, livres: dict, base: str, sortie: Path,
         L.append("")
         for ch in par_livre[num]:
             resume = re.sub(r"\s+", " ", str(ch.h.get("resume", ""))).strip()
-            L.append(f"- [{ch.titre}]({SITE}{base}/{ch.url}): {resume}")
+            L.append(f"- [{ch.titre}]({SITE}{base}/{ch.url}index.md): {resume}")
         L.append("")
     L += ["## Ressources", "",
           f"- [Index général]({SITE}{base}/): la liste des chapitres publiés, par livre.",

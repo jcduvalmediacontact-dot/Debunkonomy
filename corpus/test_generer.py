@@ -372,6 +372,31 @@ def main() -> int:
             elif servi.read_bytes() != origine[0].read_bytes():
                 echecs.append(f"{servi.parent.name} : le .md servi diffère du dépôt")
 
+        # 12 — chaque page de chapitre annonce sa version Markdown, et le llms.txt du
+        # corpus y mène : un lecteur machine prend le texte avec son en-tête.
+        for p in pages:
+            if not re.search(r"livre-\d+[\\/]c\d", str(p)):
+                continue
+            m = re.search(r'<link rel="alternate" type="text/markdown" href="([^"]+)">',
+                          p.read_text(encoding="utf-8"))
+            if not m:
+                echecs.append(f"{p.parent.name} : la page n'annonce pas sa version Markdown")
+            elif not m.group(1).endswith(f"/{p.parent.parent.name}/{p.parent.name}/index.md"):
+                echecs.append(f"{p.parent.name} : version Markdown annoncée ailleurs — {m.group(1)}")
+            elif not (p.parent / "index.md").exists():
+                echecs.append(f"{p.parent.name} : version Markdown annoncée, fichier absent")
+        llms = (sortie / "llms.txt").read_text(encoding="utf-8")
+        liens = re.findall(r"^- \[[^\]]*\]\((\S+?)\):", llms, re.M)
+        chap = [u for u in liens if re.search(r"/livre-\d+/c\d", u)]
+        if len(chap) != len(attendus):
+            echecs.append(f"llms.txt : {len(chap)} lien(s) de chapitre pour {len(attendus)} publiable(s)")
+        for u in chap:
+            rel = re.search(r"/(livre-\d+/c\d+[^/]*)/index\.md$", u)
+            if not rel:
+                echecs.append(f"llms.txt : le lien ne mène pas au .md — {u}")
+            elif not (sortie / rel.group(1) / "index.md").exists():
+                echecs.append(f"llms.txt : .md absent pour {u}")
+
         index = json.loads((sortie / "index.json").read_text(encoding="utf-8"))
         emis = {c["id"] for c in index["chapitres"]}
         if emis != attendus:                                          # 6 et 7
@@ -394,7 +419,8 @@ def main() -> int:
         return 1
     print(f"Sortie du générateur conforme : {len(attendus)} chapitre(s) émis, "
           "JSON et XML valides, aucun Markdown résiduel, appels de source résolus, "
-          "fichiers .md identiques au dépôt, retour au site en tête et au pied "
+          "fichiers .md identiques au dépôt, annoncés par leur page et liés depuis le llms.txt, "
+          "retour au site en tête et au pied "
           "sous /corpus — et absent quand le corpus est la racine.")
     return 0
 
