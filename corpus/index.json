@@ -1,5 +1,5 @@
 {
- "genere_le": "2026-10-02T11:49:51Z",
+ "genere_le": "2026-10-04T07:53:14Z",
  "licence": "https://creativecommons.org/licenses/by-sa/4.0/",
  "publies": 40,
  "non_publies": 305,
@@ -485,7 +485,8 @@
     "qualification_regenerative",
     "reflux_monetaire",
     "robustesse",
-    "degeneratif"
+    "degeneratif",
+    "bareme"
    ],
    "statut": "verifie",
    "autorite": "canonique",
