@@ -303,7 +303,16 @@ verifications_en_attente: []
   #   arrêtée, et de cette architecture dépendent l'autorité qui l'institue et le juge
   #   compétent. Le § 6 l'énonce et ne tranche pas."
 resume: "Ce chapitre expose le GAÏA Economic Symposium — l'institution à quatre chambres que le livre propose — et le lit sous la règle d'émission que l'auteur a arrêtée, qui sépare cinq fonctions et non deux. Il établit que la séparation du livre fait ce qu'elle annonce : le cumul complet est absent, et celui qui définit ce qui compte n'est pas celui qui décide combien on émet. Il établit aussi que cette architecture ne couvre pas les cinq fonctions : l'Office réunit la mesure, la qualification et le contrôle sans séparation écrite, et deux niveaux de contrôle n'ont aucun titulaire — la suspension conservatoire et le contrôle indépendant de conformité —, la suspension que le livre prévoit étant celle du juge, après que l'auteur a attribué à l'Assemblée des Communs la fixation des seuils et de la grille de priorité. Il borne ce qui manque à l'architecture internationale : non la capacité d'émettre, qu'une allocation de droits de tirage spéciaux a montrée, mais la règle qui décide où va l'émission. Il dit qui émet depuis la décision de conception du 2026-09-21 : les banques centrales participantes, le Symposium qualifiant sans bilan d'émission. Il corrige trois des cinq mécanismes du régime probatoire, établit que la comptabilité écosystémique ne supporte pas une décision binaire faute de marge d'erreur documentée, et infère qu'un biais de sélection subsisterait dans le régime des services. Il retire l'unicité que le livre revendique pour sa règle de vote, dont la démonstration part en L7.C09, et établit que la tutelle d'une entité sans volonté suppose deux conditions matérielles et non une. Huit choses restent non réglées, et elles ne sont pas de même nature."
-concepts: [creation_monetaire, essentiel_insolvable, qualification_regenerative, reflux_monetaire, robustesse, degeneratif]
+concepts: [creation_monetaire, essentiel_insolvable, qualification_regenerative, reflux_monetaire, robustesse, degeneratif,
+           bareme]
+  # 2026-10-02 — `bareme` AJOUTÉ AU CHAMP, EN-TÊTE SEUL, sur le mot de l'auteur recopié
+  # (« Oui, compléter concepts de L1.C18 ») et sur celui de l'utilisateur dans la fenêtre du
+  # Moteur (« oui pour barème »). Motif : le corps emploie le terme deux fois — « fixe le
+  # barème des impacts » et « un barème d'impacts fixé par une assemblée mondiale est un prix
+  # administré » — alors que le champ ne le déclarait pas, et que l'entrée du glossaire porte
+  # `premiere_occurrence: L1.C18`. Sous la règle r16, c'était la seule des 52 entrées non
+  # conforme. CORPS ET STATUT INCHANGÉS ; la correction d'un chapitre vérifié part au
+  # recontrôle avant d'être tenue pour soldée.
 renvois: [L1.C06, L1.C09, L1.C11, L1.C15, L1.C16, L1.C17, L1.C21, L1.C26, L15.C01, L15.C03, L15.C04, L1.C19, L1.C27, L1.C31, L7.C03, L7.C09, L7.C10]
 ---
 
