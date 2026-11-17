@@ -604,3 +604,224 @@
                l'unité, `monnaie_regenerative_contrepartie_collective` : l'une
                est l'acte, l'autre est ce qui est émis."
   premiere_occurrence: L1.C20
+
+- terme: projet_interet_national_majeur
+  libelle: "Projet d'intérêt national majeur"
+  definition: "Projet qualifié comme tel par décret au titre de l'article
+               L. 300-6-2 du code de l'urbanisme : projet industriel ou
+               d'infrastructure (I), centre de données (I bis) et, depuis le
+               19 août 2026, certains projets de défense ou du Centre spatial
+               guyanais (I ter). La qualification ouvre notamment la mise en
+               compatibilité par décret des documents d'urbanisme et de
+               planification ; pour un projet du I ou du I ter, le décret qui
+               la prononce peut aussi reconnaître une raison impérative
+               d'intérêt public majeur."
+  premiere_occurrence: L6.C14
+
+- terme: raison_imperative_interet_public_majeur
+  libelle: "Raison impérative d'intérêt public majeur"
+  definition: "Motif de dérogation à la protection des espèces prévu au c du
+               4° du I de l'article L. 411-2 du code de l'environnement, qui
+               permet de déroger « Dans l'intérêt de la défense, de la santé
+               et de la sécurité publiques ou pour d'autres raisons
+               impératives d'intérêt public majeur, y compris de nature
+               sociale ou économique, et pour des motifs qui comporteraient
+               des conséquences bénéfiques primordiales pour
+               l'environnement » (rédaction en vigueur depuis le 20 août
+               2026). C'est l'un des motifs du c, lui-même l'un des cinq cas,
+               a à e, du 4°. Quel que soit le cas, le 4° ne permet la
+               dérogation qu'« à condition qu'il n'existe pas d'autre
+               solution satisfaisante » et « que la dérogation ne nuise pas
+               au maintien, dans un état de conservation favorable, des
+               populations des espèces concernées dans leur aire de
+               répartition naturelle » : lorsque la dérogation se fonde sur
+               ce motif, ces deux conditions s'y ajoutent. Le décret prévu
+               aux I et I ter de l'article L. 300-6-2 du code de l'urbanisme,
+               qui qualifie un projet d'intérêt national majeur, « peut lui
+               reconnaître le caractère de projet répondant à une raison
+               impérative d'intérêt public majeur, au sens du c du 4° du I de
+               l'article L. 411-2 » (article L. 411-2-1 du code de
+               l'environnement, dernier alinéa)."
+  premiere_occurrence: L6.C14
+
+- terme: concentration_du_contentieux
+  libelle: "Concentration du contentieux"
+  definition: "Règle qui réserve la contestation d'une décision au recours
+               dirigé contre l'acte qui la contient, et l'exclut à l'appui du
+               recours contre un acte postérieur. Ainsi la reconnaissance
+               d'une raison impérative d'intérêt public majeur par le décret
+               qui qualifie un projet d'intérêt national majeur « ne peut être
+               contestée qu'à l'occasion d'un recours dirigé contre le décret,
+               dont elle est divisible », et elle « ne peut être contestée à
+               l'appui d'un recours dirigé contre l'acte accordant la
+               dérogation » à la protection des espèces (article L. 411-2-1 du
+               code de l'environnement, dernier alinéa). La règle laisse
+               ouverte la demande d'abrogation : pour ce décret, le Conseil
+               constitutionnel juge qu'elle n'a « ni pour objet ni pour effet
+               de faire obstacle à la possibilité ouverte à toute personne
+               ayant un intérêt à agir de demander, dans les conditions du
+               droit commun, l'abrogation des décrets prévus par les
+               dispositions contestées devenus illégaux en raison de
+               circonstances de droit ou de fait postérieures à leur édiction
+               et de former des recours pour excès de pouvoir contre
+               d'éventuelles décisions de refus explicites ou implicites »
+               (décision n° 2024-1126 QPC du 5 mars 2025, paragraphe 12, sur
+               la rédaction de 2023)."
+  premiere_occurrence: L6.C14
+
+- terme: mise_en_compatibilite_par_decret
+  libelle: "Mise en compatibilité par décret"
+  definition: "Procédure par laquelle l'État adopte par décret la
+               modification d'un document d'urbanisme ou de planification qui
+               ne permet pas la réalisation d'un projet d'intérêt national
+               majeur (article L. 300-6-2, IV à XII, du code de l'urbanisme).
+               Son engagement suppose l'accord des exécutifs locaux que le II
+               nomme, réputé donné faute de réponse dans le mois."
+  premiere_occurrence: L6.C14
+
+- terme: arbitrage_investisseur_etat
+  libelle: "Arbitrage entre un investisseur et un État"
+  definition: "Règlement, par un tribunal arbitral international et non par
+               les juridictions de l'État hôte, d'un différend entre cet État
+               et l'investisseur d'un autre État, sur le fondement d'un
+               consentement écrit de l'État, donné notamment d'avance dans un
+               traité : ainsi
+               l'article 26 du traité sur la Charte de l'énergie, par lequel
+               « chaque partie contractante donne son consentement
+               inconditionnel à la soumission de tout différend à une procédure
+               d'arbitrage ou de conciliation internationale » (paragraphe 3,
+               point a), et l'article 8 de l'accord entre la France et
+               l'Argentine du 3 juillet 1991, qui soumet le différend, « à la
+               demande de l'investisseur », soit aux juridictions nationales de
+               l'État hôte, soit à l'arbitrage international. La convention
+               CIRDI ne donne pas elle-même ce consentement : elle donne ses
+               effets au consentement que les parties ont donné par écrit
+               (article 25), dont le rapport des Administrateurs donne pour
+               exemples « une disposition d'un accord d'investissement », « un
+               compromis concernant un différend déjà né » et la législation
+               par laquelle « un État hôte pourrait offrir » de soumettre
+               certaines catégories de différends au Centre (paragraphe 24)."
+  premiere_occurrence: L6.C15
+
+- terme: clause_de_survie
+  libelle: "Clause de survie"
+  definition: "Stipulation d'un traité de protection des investissements qui
+               maintient ses dispositions, pour les investissements déjà
+               réalisés, pendant une durée fixée après le retrait d'une partie
+               ou l'expiration du traité : « pendant une période de vingt ans »
+               à compter de l'effet du retrait dans le traité sur la Charte de
+               l'énergie (article 47, paragraphe 3), quinze ans après
+               l'expiration dans l'accord entre la France et l'Argentine du
+               3 juillet 1991 (article 13). Entre les États membres de l'Union,
+               l'accord du 18 février 2026 dit que l'article 47, paragraphe 3,
+               du traité sur la Charte de l'énergie « ne produit pas d'effets
+               juridiques dans les relations intra-UE »."
+  premiere_occurrence: L6.C15
+
+- terme: projet_strategique_matieres_premieres
+  libelle: "Projet stratégique (matières premières critiques)"
+  definition: "Projet d'extraction, de transformation ou de recyclage que la
+               Commission européenne, à la demande de son promoteur,
+               « reconnaît en tant que projet stratégique » au titre du
+               règlement (UE) 2024/1252 (article 6, paragraphe 1), sauf
+               objection de l'État membre dont le territoire est concerné
+               (article 7, paragraphe 8). Les projets reconnus « sont considérés
+               comme servant l'intérêt public » et « peuvent être considérés
+               comme revêtant un intérêt public majeur, pour autant que toutes
+               les conditions énoncées dans ces actes législatifs de l'Union
+               soient remplies » (article 10, paragraphe 2) ; ils « se voient
+               attribuer le statut le plus important existant au niveau
+               national, lorsqu'un tel statut existe dans le droit national »
+               (article 10, paragraphe 4), et leur procédure d'octroi des
+               autorisations « ne dépasse pas » « 27 mois pour des projets
+               stratégiques impliquant l'extraction » (article 11,
+               paragraphe 1)."
+  premiere_occurrence: L6.C16
+
+- terme: presomption_interet_public_majeur
+  libelle: "Présomption d'intérêt public majeur"
+  definition: "Présomption, posée par le droit de l'Union pour la
+               planification, la construction et l'exploitation des
+               installations d'énergie renouvelable, leur raccordement, le
+               réseau et le stockage, que ces projets relèvent de l'intérêt
+               public supérieur ou majeur et de l'intérêt de la santé et de la
+               sécurité publiques
+               « lors de la mise en balance des intérêts juridiques », dans
+               quatre dérogations : site Natura 2000, espèces protégées, état
+               d'une masse d'eau, oiseaux. Elle est posée à titre temporaire,
+               sous le libellé « intérêt public supérieur », par le règlement
+               (UE) 2022/2577 (article 3, paragraphe 1), puis, sous le libellé
+               « intérêt public majeur », par l'article 16 septies de la
+               directive (UE) 2018/2001, inséré par la directive (UE)
+               2023/2413. Elle est « simple » ou « réfragable » (règlement (UE)
+               2024/223, considérant 13). Le règlement (UE) 2024/1252 n'en pose
+               pas pour les projets stratégiques, qui « peuvent être considérés
+               comme revêtant un intérêt public majeur » (article 10,
+               paragraphe 2)."
+  premiere_occurrence: L6.C16
+
+- terme: zone_acceleration_renouvelables
+  libelle: "Zone d'accélération des énergies renouvelables"
+  definition: "Zone que désigne un plan adopté par les autorités compétentes
+               d'un État membre, au plus tard le 21 février 2026, au titre de
+               l'article 15 quater de la directive (UE) 2018/2001, inséré par
+               la directive (UE) 2023/2413. Les zones « excluent les sites
+               Natura 2000 » et les zones protégées, sauf leurs « surfaces
+               artificielles et construites », et les plans « établissent des
+               règles appropriées » de mesures d'atténuation ; ils passent par
+               l'évaluation environnementale et la participation du public.
+               Dans ces zones, le respect de ces règles et la mise en œuvre des
+               mesures d'atténuation « engendrent la présomption selon laquelle
+               les projets ne contreviennent pas à ces dispositions », celles
+               de protection que nomme l'article (paragraphe 1) ; les nouvelles
+               demandes sont exemptées d'une évaluation spécifique des
+               incidences sur l'environnement et, après un examen préalable,
+               « sont acceptées d'un point de vue environnemental sans qu'une
+               décision expresse de l'autorité compétente ne soit requise »,
+               sauf décision motivée contraire, et la procédure d'octroi de
+               permis « ne dépasse pas douze mois » (article 16 bis). La
+               directive ne dit pas quelle autorité est compétente pour les
+               plans. Distincte de la présomption de l'article 16 septies
+               (presomption_interet_public_majeur), qui porte sur l'intérêt
+               public majeur dans la mise en balance d'une dérogation."
+  premiere_occurrence: L6.C16
+
+- terme: clause_de_modification_fiscale
+  libelle: "Clause de modification fiscale"
+  definition: "Clause d'un contrat d'État qui prévoit, en cas de modification
+               du régime fiscal ayant un effet sur l'économie du contrat,
+               l'inclusion d'un facteur de correction dans les parts de
+               production ou de participation du contractant, pour absorber
+               l'augmentation ou la diminution de la charge fiscale : ainsi les
+               clauses 11.12 et 11.7 des contrats des blocs 7 et 21 en Équateur,
+               lues dans la traduction anglaise de deux tribunaux du CIRDI. Sa
+               portée tient à la lecture du tribunal. Dans l'affaire Burlington,
+               « the application of a correction factor is mandatory when a tax
+               affects the economy of the PSCs for Blocks 7 or 21 », et le
+               tribunal la nomme « tax absorption clause » ; dans l'affaire
+               Perenco, elle oblige à négocier un facteur de correction dont
+               elle fixe le résultat, la preuve de l'effet de l'impôt pesant
+               sur le contractant, et ces clauses « do not constitute
+               stabilisation clauses per se ». Dans les deux affaires, elle ne
+               retire pas à l'État le pouvoir d'imposer."
+  premiere_occurrence: L6.C17
+
+- terme: clause_de_stabilisation
+  libelle: "Clause de stabilisation"
+  definition: "Clause d'un contrat d'État qui, selon le tribunal de l'affaire
+               Perenco, figerait, pour le contrat, le droit de l'État hôte au
+               jour de sa signature et interdirait à l'État de modifier le
+               régime fiscal. Il la définit par ce que les contrats des blocs
+               7 et 21 en Équateur ne faisaient pas : ils « plainly did not
+               purport to freeze Ecuadorian law as at the time of their
+               signing and prohibit the State from modifying the tax regime »
+               ; un contrat « fully stabilised » « cannot be changed
+               unilaterally » ; l'Équateur faisait valoir devant lui que les
+               accords de stabilisation de la pratique équatorienne écartent
+               expressément les lois postérieures. Le tribunal juge que les
+               clauses de modification fiscale de ces contrats « do not
+               constitute stabilisation clauses per se » ; le tribunal de
+               l'affaire Burlington ne leur donne pas ce nom, et l'un de ses
+               arbitres, dissident, les tient pour équivalentes à des clauses
+               de stabilisation fiscale."
+  premiere_occurrence: L6.C17
