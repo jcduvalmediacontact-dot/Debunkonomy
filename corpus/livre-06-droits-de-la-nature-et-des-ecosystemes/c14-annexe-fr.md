@@ -555,8 +555,7 @@ sources_primaires:
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667999"
     etat_lecture: ouverte
     date_verification: 2026-11-11
-verifications_en_attente:
-  - "Relecture du chapitre par l'auteur."
+verifications_en_attente: []
 resume: "L'annexe FR rassemble neuf fiches sur des textes et décisions du droit français qui agissent sur le recours ou sur la décision locale : le régime du projet d'intérêt national majeur et le contentieux du décret qui qualifie le projet de lithium d'Imerys dans l'Allier, la concession de mines, et deux règles générales du contentieux de l'urbanisme et de l'autorisation environnementale. Chaque fiche dit, sur pièce officielle lue, ce que le texte fait, qui l'a porté, à qui il profite et dans quel état de certitude, puis ce que la pièce dit contre l'usage qui en est fait et ce qui manque. Plusieurs de ces mécanismes sont généraux et ne nomment aucune extraction ; des neuf décrets de qualification de projet d'intérêt national majeur que les fiches recensent, seul celui d'Imerys qualifie une extraction."
 concepts: [projet_interet_national_majeur, raison_imperative_interet_public_majeur, concentration_du_contentieux, mise_en_compatibilite_par_decret]
 renvois: [L6.C08, L6.C12]
