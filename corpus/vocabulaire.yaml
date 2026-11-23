@@ -644,8 +644,8 @@
                l'environnement, dernier alinéa)."
   premiere_occurrence: L6.C14
 
-- terme: concentration_du_contentieux
-  libelle: "Concentration du contentieux"
+- terme: irrecevabilite_exception_illegalite
+  libelle: "Irrecevabilité de l'exception d'illégalité"
   definition: "Règle qui réserve la contestation d'une décision au recours
                dirigé contre l'acte qui la contient, et l'exclut à l'appui du
                recours contre un acte postérieur. Ainsi la reconnaissance

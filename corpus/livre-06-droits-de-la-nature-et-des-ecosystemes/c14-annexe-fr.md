@@ -1,43 +1,43 @@
 ---
 chapitre: L6.C14
-titre: "Annexe FR — l'autorisation des projets d'extraction en droit français et le contentieux qui les vise"
+titre: "Annexe FR — le projet d'intérêt national majeur, la concession de mines et deux règles du contentieux de l'urbanisme et de l'autorisation environnementale en droit français"
 livre: 6
 langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-11-11
+revision_de_fond: 2026-11-23
 autorite: canonique
 citable: false
 regime: descriptif
 sources_primaires:
   - ref: S1
     nature: normatif
-    reference: "Code de l'environnement, article L. 411-2-1, version en vigueur depuis le 19 août 2026, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1.txt, SHA-256 4CB71EA88B6016D84D47CBB24206F7B748BF92640133EA0F93AFA8832C8E67FA, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article L. 411-2-1, version en vigueur depuis le 19 août 2026, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1.txt, SHA-256 4CB71EA88B6016D84D47CBB24206F7B748BF92640133EA0F93AFA8832C8E67FA, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054702403"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S2
     nature: normatif
-    reference: "Code de l'environnement, article L. 411-2-1, version « EN VIGUEUR DU 03 MAI 2025 AU 21 MAI 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1-version-2025-05-03.txt, SHA-256 76A427B4BE90564F8D3AB7FC2FD30FABBB29946B2C56F3CB9D6DC18E987C9767, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article L. 411-2-1, version « EN VIGUEUR DU 03 MAI 2025 AU 21 MAI 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1-version-2025-05-03.txt, SHA-256 76A427B4BE90564F8D3AB7FC2FD30FABBB29946B2C56F3CB9D6DC18E987C9767, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560687/2025-05-03"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S3
     nature: normatif
-    reference: "Code de l'environnement, article L. 411-2-1, version « EN VIGUEUR DU 21 MAI 2026 AU 28 MAI 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1-version-2026-05-21.txt, SHA-256 D60C22D91D05A77E1B8E78F173AEA2E34D09E7D35FB79D74E834A92D019C0F5B, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article L. 411-2-1, version « EN VIGUEUR DU 21 MAI 2026 AU 28 MAI 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1-version-2026-05-21.txt, SHA-256 D60C22D91D05A77E1B8E78F173AEA2E34D09E7D35FB79D74E834A92D019C0F5B, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054116295/2026-05-21"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S4
     nature: normatif
-    reference: "Code de l'environnement, article L. 411-2-1, version « EN VIGUEUR DU 28 MAI 2026 AU 19 AOÛT 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1-version-2026-05-28.txt, SHA-256 95F09ED3F2BBA3F0B12E8BF7610FE6054181B108DD00B90448399BF4FD2B8DF0, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article L. 411-2-1, version « EN VIGUEUR DU 28 MAI 2026 AU 19 AOÛT 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L411-2-1-version-2026-05-28.txt, SHA-256 95F09ED3F2BBA3F0B12E8BF7610FE6054181B108DD00B90448399BF4FD2B8DF0, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054141836/2026-05-28"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S5
     nature: jurisprudence
-    reference: "Conseil constitutionnel, commentaire de la décision n° 2024-1126 QPC du 5 mars 2025. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (pages 7 à 10 lues le 2026-11-07 (fiche FR-4, champ 7) ; lu en entier le 2026-11-10 par le rédacteur de l'ordre 24) (2026-11-07/livre-6/telecharges/cc-2024-1126-qpc-ccc.pdf, SHA-256 D4186C80D916BC7F6C026726E84F036B0ECC266B7DD0E08F33EF4F525FC51AC0, pièce). Lecture : texte entier, 27 pages à la conversion pdftotext, notes 1 à 93 comprises. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien qui contredise une fiche. Le commentaire rattache l'alinéa à « l'article 19 de la loi du 23 octobre 2023 », sans en désigner le IV (page 8), et confirme qu'il est devenu le troisième de l'article depuis la loi n° 2025-391 (page 8, note 38). Il compte la raison impérative parmi « trois conditions « distinctes et cumulatives » » de la dérogation, la troisième étant que « la dérogation doit être justifiée par l'un des cinq motifs énumérés par ces dispositions » (pages 3 et 4), et dit que le décret reconnaît que le projet satisfait « celle des trois conditions requises » (page 8). Il range l'objectif d'intérêt général (paragraphe 9 de la décision) en premier parmi les motifs de la conformité, avant le champ circonscrit et les voies de recours restantes (pages 13 et 14), et tient l'atteinte au droit au recours pour « bien réelle » quoique « de portée limitée » (page 14). Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-2, FR-3, FR-4, champ 7 et ligne « contre »."
+    reference: "Conseil constitutionnel, commentaire de la décision n° 2024-1126 QPC du 5 mars 2025. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (pages 7 à 10 lues le 2026-11-07 (fiche FR-4, champ 7) ; lu en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/cc-2024-1126-qpc-ccc.pdf, SHA-256 D4186C80D916BC7F6C026726E84F036B0ECC266B7DD0E08F33EF4F525FC51AC0, pièce). Lecture : texte entier, 27 pages à la conversion pdftotext, notes 1 à 93 comprises. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien qui contredise une fiche. Le commentaire rattache l'alinéa à « l'article 19 de la loi du 23 octobre 2023 », sans en désigner le IV (page 8), et confirme qu'il est devenu le troisième de l'article depuis la loi n° 2025-391 (page 8, note 38). Il compte la raison impérative parmi « trois conditions « distinctes et cumulatives » » de la dérogation, la troisième étant que « la dérogation doit être justifiée par l'un des cinq motifs énumérés par ces dispositions » (pages 3 et 4), et dit que le décret reconnaît que le projet satisfait « celle des trois conditions requises » (page 8). Il range l'objectif d'intérêt général (paragraphe 9 de la décision) en premier parmi les motifs de la conformité, avant le champ circonscrit et les voies de recours restantes (pages 13 et 14), et tient l'atteinte au droit au recours pour « bien réelle » quoique « de portée limitée » (page 14). Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-2, FR-3, FR-4, champ 7 et ligne « contre »."
     url: "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/20241126qpc/20241126qpc_ccc.pdf"
     etat_lecture: ouverte
     date_verification: 2026-11-10
@@ -61,7 +61,7 @@ sources_primaires:
     date_verification: 2026-11-07
   - ref: S9
     nature: normatif
-    reference: "Conseil d'État, avis n° 407035 du 11 mai 2023 sur le projet de loi relatif à l'industrie verte. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (page 11 lue le 2026-11-07 (fiche FR-1, champ 7) ; lu en entier le 2026-11-10 par le rédacteur de l'ordre 24) (2026-11-07/livre-6/telecharges/senat-pjl22-607-avis-ce.pdf, SHA-256 6FDC142A050CD70F5353AAEE9ED8FC8FB3D7FCAAA0765FE1CF15010612F45A35, pièce). Lecture : texte entier, 17 pages, points 1 à 53 et mention finale de délibération. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien qui contredise une fiche. L'avis compte la reconnaissance de la raison impérative comme une « qualification qui constitue l'une des trois conditions prévues par le 4° du I de cet article » (point 33, page 10). Il fonde la concentration du recours sur le décret en renvoyant aussi à son point 35, où le projet prévoyait la même règle pour la reconnaissance faite dans l'acte déclaratif d'utilité publique, qui « ne pourra être contestée devant le juge administratif qu'au stade de la DUP » (page 11). Sur la mise en compatibilité, il demande la participation du public de l'article L. 123-19 du code de l'environnement, « ce qui reçoit l'accord du Gouvernement », et ne dit rien d'un accord des élus locaux (point 31, pages 9 et 10). Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Conseil d'État, avis n° 407035 du 11 mai 2023 sur le projet de loi relatif à l'industrie verte. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (page 11 lue le 2026-11-07 (fiche FR-1, champ 7) ; lu en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/senat-pjl22-607-avis-ce.pdf, SHA-256 6FDC142A050CD70F5353AAEE9ED8FC8FB3D7FCAAA0765FE1CF15010612F45A35, pièce). Lecture : texte entier, 17 pages, points 1 à 53 et mention finale de délibération. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien qui contredise une fiche. L'avis compte la reconnaissance de la raison impérative comme une « qualification qui constitue l'une des trois conditions prévues par le 4° du I de cet article » (point 33, page 10). Il fonde la concentration du recours sur le décret en renvoyant aussi à son point 35, où le projet prévoyait la même règle pour la reconnaissance faite dans l'acte déclaratif d'utilité publique, qui « ne pourra être contestée devant le juge administratif qu'au stade de la DUP » (page 11). Sur la mise en compatibilité, il demande la participation du public de l'article L. 123-19 du code de l'environnement, « ce qui reçoit l'accord du Gouvernement », et ne dit rien d'un accord des élus locaux (point 31, pages 9 et 10). Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.senat.fr/leg/pjl22-607-avis-ce.pdf"
     etat_lecture: ouverte
     date_verification: 2026-11-10
@@ -79,7 +79,7 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S12
     nature: normatif
-    reference: "Sénat, tableau « La loi en construction » du projet de loi n° 550 (2023-2024). OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-08 (2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl23-550.html, SHA-256 E3D246B33139ED5EA7419645CB95709CBDB688CA3AC08220DE4631A42078456B, pièce ; 2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl23-550-extrait-article-15.txt, fichier dérivé, sans entrée propre, sans empreinte au répertoire). Lecture partielle, déclarée par la fiche FR-1 : le tableau porte, colonne par colonne, tout le projet de loi ; seules sont lues les lignes de l'article 15, extraites par script dans le fichier dérivé ci-dessus ; les lignes des autres articles ne sont pas lues, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Sénat, tableau « La loi en construction » du projet de loi n° 550 (2023-2024). OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-08 (2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl23-550.html, SHA-256 E3D246B33139ED5EA7419645CB95709CBDB688CA3AC08220DE4631A42078456B, pièce ; 2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl23-550-extrait-article-15.txt, fichier dérivé, sans entrée propre, sans empreinte). Lecture partielle, déclarée par la fiche FR-1 : le tableau porte, colonne par colonne, tout le projet de loi ; seules sont lues les lignes de l'article 15, extraites par script dans le fichier dérivé ci-dessus ; les lignes des autres articles ne sont pas lues, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.senat.fr/tableau-historique/pjl23-550.html"
     etat_lecture: ouverte
     date_verification: 2026-11-08
@@ -109,103 +109,103 @@ sources_primaires:
     date_verification: 2026-11-07
   - ref: S17
     nature: normatif
-    reference: "Décret n° 2024-740 du 5 juillet 2024 qualifiant de projet d'intérêt national majeur l'extraction et la transformation de lithium par la société Imérys dans l'Allier, JORF n° 0160 du 7 juillet 2024, texte n° 86, NOR : TREL2418033D. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-740.txt, SHA-256 45D36BCA442E3E3F0E419DE4142D571C7DF352F40C4528AB7A05F34AFEA9C251, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-3, FR-6, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-740 du 5 juillet 2024 qualifiant de projet d'intérêt national majeur l'extraction et la transformation de lithium par la société Imérys dans l'Allier, JORF n° 0160 du 7 juillet 2024, texte n° 86, NOR : TREL2418033D. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-740.txt, SHA-256 45D36BCA442E3E3F0E419DE4142D571C7DF352F40C4528AB7A05F34AFEA9C251, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-3, FR-6, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049893405"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S18
     nature: normatif
-    reference: "Décret n° 2024-676 du 3 juillet 2024 qualifiant de projet d'intérêt national majeur l'unité de fabrication de cellules et modules photovoltaïques de la société Holosolis à Hambach. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-676.txt, SHA-256 72D009CD454539FD7F864EAEF7B74FB6C1E6A0FC1B12C33F26D527EAAF70668F, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-676 du 3 juillet 2024 qualifiant de projet d'intérêt national majeur l'unité de fabrication de cellules et modules photovoltaïques de la société Holosolis à Hambach. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-676.txt, SHA-256 72D009CD454539FD7F864EAEF7B74FB6C1E6A0FC1B12C33F26D527EAAF70668F, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049880732"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S19
     nature: normatif
-    reference: "Décret n° 2024-677 du 3 juillet 2024 qualifiant de projet d'intérêt national majeur l'usine de production de panneaux photovoltaïques de la société Carbon à Fos-sur-Mer. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-677.txt, SHA-256 C794A2B43EA779A2FBF1C6E521B73661C8D8AAC5E24BD098D966F7A1CF235DB9, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-677 du 3 juillet 2024 qualifiant de projet d'intérêt national majeur l'usine de production de panneaux photovoltaïques de la société Carbon à Fos-sur-Mer. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-677.txt, SHA-256 C794A2B43EA779A2FBF1C6E521B73661C8D8AAC5E24BD098D966F7A1CF235DB9, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049880736"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S20
     nature: donnees
-    reference: "Légifrance, recherche dans le fonds Journal officiel, expression exacte « qualifiant de projet d'intérêt national majeur », nature « décret » : intitulés et références de neuf décrets, non leur contenu. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/jorf-recherche-decrets-qualification-pinm.txt, SHA-256 F83716B1972408E8CA6B41FE451063067DA12867F59B27A082BDED61E7548A80, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Légifrance, recherche dans le fonds Journal officiel, expression exacte « qualifiant de projet d'intérêt national majeur », nature « décret » : intitulés et références de neuf décrets, non leur contenu. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/jorf-recherche-decrets-qualification-pinm.txt, SHA-256 F83716B1972408E8CA6B41FE451063067DA12867F59B27A082BDED61E7548A80, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/search?fonds=JORF&tab_selection=jorf&searchField=ALL&query=%22qualifiant+de+projet+d%27int%C3%A9r%C3%AAt+national+majeur%22&searchType=ALL&typePagination=DEFAULT&pageSize=50&page=1&natureJo=DECRET&sortValue=PUBLICATION_DATE_DESC"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S21
     nature: normatif
-    reference: "Décret n° 2024-708 du 5 juillet 2024 qualifiant de projet d'intérêt national majeur l'usine de recyclage moléculaire des plastiques de la société Eastman à Saint-Jean-de-Folleville. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-708.txt, SHA-256 06EDE952B6D1DED243B76956C2CA6FFE9ABD7A7D82659831A2A2C86F702B915A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-708 du 5 juillet 2024 qualifiant de projet d'intérêt national majeur l'usine de recyclage moléculaire des plastiques de la société Eastman à Saint-Jean-de-Folleville. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-708.txt, SHA-256 06EDE952B6D1DED243B76956C2CA6FFE9ABD7A7D82659831A2A2C86F702B915A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049889812"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S22
     nature: normatif
-    reference: "Décret n° 2024-709 du 5 juillet 2024 qualifiant de projet d'intérêt national majeur l'usine de production de minerai de fer réduit et d'hydrogène de la société Gravithy à Fos-sur-Mer. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-709.txt, SHA-256 B381A7254B788005C6516E746C0A4B8A4736C9146CBCDEC0E11C48687BC89332, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-709 du 5 juillet 2024 qualifiant de projet d'intérêt national majeur l'usine de production de minerai de fer réduit et d'hydrogène de la société Gravithy à Fos-sur-Mer. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-709.txt, SHA-256 B381A7254B788005C6516E746C0A4B8A4736C9146CBCDEC0E11C48687BC89332, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049889829"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S23
     nature: normatif
-    reference: "Décret n° 2024-957 du 25 octobre 2024 qualifiant de projet d'intérêt national majeur l'usine de production d'aciers spéciaux et de produits plats de la société Marcegaglia à Fos-sur-Mer. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-957.txt, SHA-256 07139B3A81E86EEDA8DFD2E930C0C496C1DD46706F070DAF776D2C7052D2AA05, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-957 du 25 octobre 2024 qualifiant de projet d'intérêt national majeur l'usine de production d'aciers spéciaux et de produits plats de la société Marcegaglia à Fos-sur-Mer. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-957.txt, SHA-256 07139B3A81E86EEDA8DFD2E930C0C496C1DD46706F070DAF776D2C7052D2AA05, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050398876"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S24
     nature: normatif
-    reference: "Décret n° 2025-915 du 5 septembre 2025 qualifiant de projet d'intérêt national majeur l'unité de conversion de nickel et de cobalt de la société Electro Mobility Materials Europe (EMME) en Gironde, avec sa fiche d'impact. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2025-915.txt, SHA-256 EE56FAA3EB5BCD1898BD672FEF4E0901745BCC1835893DAE90A0CC39FB0211DE, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2025-915 du 5 septembre 2025 qualifiant de projet d'intérêt national majeur l'unité de conversion de nickel et de cobalt de la société Electro Mobility Materials Europe (EMME) en Gironde, avec sa fiche d'impact. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2025-915.txt, SHA-256 EE56FAA3EB5BCD1898BD672FEF4E0901745BCC1835893DAE90A0CC39FB0211DE, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052201019"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S25
     nature: normatif
-    reference: "Décret n° 2026-573 du 29 juin 2026 qualifiant de projet d'intérêt national majeur l'extension du site industriel de production de munitions de l'entreprise KNDS Ammo France. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-573.txt, SHA-256 43D3ADA6F7CF1002B284F681F69F8C2EF9D5455800ECD451335692934D66828F, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2026-573 du 29 juin 2026 qualifiant de projet d'intérêt national majeur l'extension du site industriel de production de munitions de l'entreprise KNDS Ammo France. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-573.txt, SHA-256 43D3ADA6F7CF1002B284F681F69F8C2EF9D5455800ECD451335692934D66828F, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054341749"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S26
     nature: normatif
-    reference: "Décret n° 2026-597 du 6 juillet 2026 qualifiant de projet d'intérêt national majeur le projet E-CHO de développement de la plateforme multi-carburants durables de la société Elyse Energy dans le bassin de Lacq, avec sa fiche d'impact. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-597.txt, SHA-256 6D04CC9E17AA25FE2BF74A844D4A4BB77E7F88E6B8673CBE25791504921BD5AF, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2026-597 du 6 juillet 2026 qualifiant de projet d'intérêt national majeur le projet E-CHO de développement de la plateforme multi-carburants durables de la société Elyse Energy dans le bassin de Lacq, avec sa fiche d'impact. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-597.txt, SHA-256 6D04CC9E17AA25FE2BF74A844D4A4BB77E7F88E6B8673CBE25791504921BD5AF, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054393156"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S27
     nature: normatif
-    reference: "Décret n° 2024-704 du 5 juillet 2024 modifiant le code de l'urbanisme et le code de l'environnement en vue de favoriser l'implantation des installations industrielles vertes. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-704.txt, SHA-256 44D7004D1C65856FEA3A7764C58E5684258B6EA4198570F9E603E638C5741A2C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Décret n° 2024-704 du 5 juillet 2024 modifiant le code de l'urbanisme et le code de l'environnement en vue de favoriser l'implantation des installations industrielles vertes. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2024-704.txt, SHA-256 44D7004D1C65856FEA3A7764C58E5684258B6EA4198570F9E603E638C5741A2C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049889692"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S28
     nature: normatif
-    reference: "Décret n° 2025-1181 du 8 décembre 2025 désignant l'autorité administrative compétente de l'Etat pour conduire la procédure de mise en compatibilité des documents de planification et d'urbanisme prévue à l'article L. 300-6-2 du code de l'urbanisme. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2025-1181.txt, SHA-256 D554BC7A07A6B551DF97FFB3D9557B3D826D502F4C3DDF63A70B32D88515A7CE, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-2, champ 7 et ligne « contre »."
+    reference: "Décret n° 2025-1181 du 8 décembre 2025 désignant l'autorité administrative compétente de l'Etat pour conduire la procédure de mise en compatibilité des documents de planification et d'urbanisme prévue à l'article L. 300-6-2 du code de l'urbanisme. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2025-1181.txt, SHA-256 D554BC7A07A6B551DF97FFB3D9557B3D826D502F4C3DDF63A70B32D88515A7CE, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-2, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053001015"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S29
     nature: normatif
-    reference: "Décret n° 2026-302 du 21 avril 2026 relatif à la simplification de la procédure contentieuse en matière environnementale et à l'accélération de certains projets, JORF n° 0095 du 22 avril 2026, texte n° 13, NOR TECK2532551D. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce), dernière lecture le 2026-11-10 (notice, visas et articles 2, 3, 4, 5, 7 et 8 lus le 2026-11-08 ; relu en entier sur la copie le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-302.txt, SHA-256 4DFA2D19E40FC2751383F196A88BFB78569B7EF99FC338B22E681442CF62D019, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture : texte entier de la pièce, notice, visas, articles 1 à 9 et signatures. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; l'article 1er renvoie aux articles 2 à 7, et l'article 6, que la fiche FR-6 ne cite pas, modifie l'article R. 811-1-1 « aux opérations d'intérêt national et aux grandes opérations d'urbanisme mentionnées au 5° du I de l'article R. 311-5 ». Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-6, champ 7 et ligne « contre »."
+    reference: "Décret n° 2026-302 du 21 avril 2026 relatif à la simplification de la procédure contentieuse en matière environnementale et à l'accélération de certains projets, JORF n° 0095 du 22 avril 2026, texte n° 13, NOR TECK2532551D. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce), dernière lecture le 2026-11-10 (notice, visas et articles 2, 3, 4, 5, 7 et 8 lus le 2026-11-08 ; relu en entier sur la copie le 2026-11-10) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-302.txt, SHA-256 4DFA2D19E40FC2751383F196A88BFB78569B7EF99FC338B22E681442CF62D019, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture : texte entier de la pièce, notice, visas, articles 1 à 9 et signatures. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; l'article 1er renvoie aux articles 2 à 7, et l'article 6, que la fiche FR-6 ne cite pas, modifie l'article R. 811-1-1 « aux opérations d'intérêt national et aux grandes opérations d'urbanisme mentionnées au 5° du I de l'article R. 311-5 ». Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-6, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053925515"
     etat_lecture: ouverte
     date_verification: 2026-11-10
   - ref: S30
     nature: normatif
-    reference: "Sénat, tableau « La loi en construction » du projet de loi n° 635 (2025-2026). OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-08 (2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl25-635.html, SHA-256 6AF27D2FE8AFCA3D7D0E14688D78CD2CBDA677D118D6EEB9422B9B5742E919AC, pièce ; 2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl25-635-extrait-article-12-bis-AA.txt, fichier dérivé, sans entrée propre, sans empreinte au répertoire). Lecture partielle, déclarée par la fiche FR-1 : le tableau porte, colonne par colonne, tout le projet de loi ; seules sont lues les lignes de l'article 12 bis AA, extraites par script dans le fichier dérivé ci-dessus ; les lignes des autres articles ne sont pas lues, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Sénat, tableau « La loi en construction » du projet de loi n° 635 (2025-2026). OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-08 (2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl25-635.html, SHA-256 6AF27D2FE8AFCA3D7D0E14688D78CD2CBDA677D118D6EEB9422B9B5742E919AC, pièce ; 2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl25-635-extrait-article-12-bis-AA.txt, fichier dérivé, sans entrée propre, sans empreinte). Lecture partielle, déclarée par la fiche FR-1 : le tableau porte, colonne par colonne, tout le projet de loi ; seules sont lues les lignes de l'article 12 bis AA, extraites par script dans le fichier dérivé ci-dessus ; les lignes des autres articles ne sont pas lues, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.senat.fr/tableau-historique/pjl25-635.html"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S31
     nature: normatif
-    reference: "Loi n° 2026-403 du 26 mai 2026 de simplification de la vie économique, article 35. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2026-403-art-35.txt, SHA-256 308368CEAE9EB13C08A56640F616AD5D66EB5CADC179A278F4F71E99CC8F877A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Loi n° 2026-403 du 26 mai 2026 de simplification de la vie économique, article 35. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2026-403-art-35.txt, SHA-256 308368CEAE9EB13C08A56640F616AD5D66EB5CADC179A278F4F71E99CC8F877A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche FR-1, champ 7 et ligne « contre » ; fiche FR-2, ligne « Ce qui manque »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054131304"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S32
     nature: normatif
-    reference: "Loi n° 2026-791 du 16 août 2026 actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense, article 20. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2026-791-art-20.txt, SHA-256 F06B05A4C54B98C0C326005A137AFBB93DB25EB36B4BE5D6490CF0BED49B584D, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Loi n° 2026-791 du 16 août 2026 actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense, article 20. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2026-791-art-20.txt, SHA-256 F06B05A4C54B98C0C326005A137AFBB93DB25EB36B4BE5D6490CF0BED49B584D, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054694832"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S33
     nature: normatif
-    reference: "Code de l'environnement, article R. 411-6-2, page Légifrance « EN VIGUEUR DEPUIS LE 25 OCT. 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-R411-6-2.txt, SHA-256 E540119D46971E94A955E32AA9DA763A81046E96DED29F946F3F017B4C28D67C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article R. 411-6-2, page Légifrance « EN VIGUEUR DEPUIS LE 25 OCT. 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-R411-6-2.txt, SHA-256 E540119D46971E94A955E32AA9DA763A81046E96DED29F946F3F017B4C28D67C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000055017108/2026-10-25"
     etat_lecture: ouverte
     date_verification: 2026-11-08
@@ -217,7 +217,7 @@ sources_primaires:
     date_verification: 2026-11-07
   - ref: S35
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 300-6-2, version en vigueur depuis le 19 août 2026, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L300-6-2.txt, SHA-256 0D284C0784157352D9617FFABB14946F48D2E9FBC5373265BB4E94A45A1D0771, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-2, champ 7 et ligne « contre »."
+    reference: "Code de l'urbanisme, article L. 300-6-2, version en vigueur depuis le 19 août 2026, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L300-6-2.txt, SHA-256 0D284C0784157352D9617FFABB14946F48D2E9FBC5373265BB4E94A45A1D0771, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-1, FR-2, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048248707"
     etat_lecture: ouverte
     date_verification: 2026-11-07
@@ -241,13 +241,13 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S39
     nature: normatif
-    reference: "Sénat, tableau « La loi en construction » du projet de loi n° 607 (2022-2023). OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-08 (2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl22-607.html, SHA-256 F20F30C4AF239E6FAACB98AE6BE0AC3D23A0EDA2B136A43AF5EA847FC83603A7, pièce ; 2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl22-607-extrait-accord-du-maire.txt, fichier dérivé, sans entrée propre, sans empreinte au répertoire). Lecture partielle, déclarée par la fiche FR-2 : le tableau porte, colonne par colonne, tout le projet de loi ; seules sont lues les lignes de l'article L. 300-6-2 qui portent l'accord préalable (paragraphe II du texte définitif), extraites par script dans le fichier dérivé ci-dessus ; les lignes des autres dispositions ne sont pas lues, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-2, champ 7 et ligne « contre »."
+    reference: "Sénat, tableau « La loi en construction » du projet de loi n° 607 (2022-2023). OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-08 (2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl22-607.html, SHA-256 F20F30C4AF239E6FAACB98AE6BE0AC3D23A0EDA2B136A43AF5EA847FC83603A7, pièce ; 2026-11-07/livre-6/telecharges/senat/senat-tableau-historique-pjl22-607-extrait-accord-du-maire.txt, fichier dérivé, sans entrée propre, sans empreinte). Lecture partielle, déclarée par la fiche FR-2 : le tableau porte, colonne par colonne, tout le projet de loi ; seules sont lues les lignes de l'article L. 300-6-2 qui portent l'accord préalable (paragraphe II du texte définitif), extraites par script dans le fichier dérivé ci-dessus ; les lignes des autres dispositions ne sont pas lues, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-2, champ 7 et ligne « contre »."
     url: "https://www.senat.fr/tableau-historique/pjl22-607.html"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S40
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 300-6-2, version « EN VIGUEUR DU 28 MAI 2026 AU 19 AOÛT 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L300-6-2-version-2026-05-28.txt, SHA-256 C083166AAC57312D90B2A89FDD09DBFAD1266BBEF8E8241B3EC0877966EB7872, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-2, champ 7 et ligne « contre »."
+    reference: "Code de l'urbanisme, article L. 300-6-2, version « EN VIGUEUR DU 28 MAI 2026 AU 19 AOÛT 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L300-6-2-version-2026-05-28.txt, SHA-256 C083166AAC57312D90B2A89FDD09DBFAD1266BBEF8E8241B3EC0877966EB7872, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-2, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054141805/2026-05-28"
     etat_lecture: ouverte
     date_verification: 2026-11-07
@@ -265,127 +265,127 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S43
     nature: normatif
-    reference: "Code de justice administrative, chapitre Ier « La compétence en raison de la matière », articles R. 311-1 à R. 311-5, « VERSION EN VIGUEUR AU 08 NOVEMBRE 2026 », avec l'article R. 311-6 abrogé. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce), dernière lecture le 2026-11-10 (lu le 2026-11-08 ; l'article R. 311-6 relu en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/legifrance/cja-R311-1-a-R311-5.txt, SHA-256 E38EB819BCB7718143AEB670B9ED62B4D529EAE7C07AC2085B11375EC51A20FF, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-6, champ 7 et ligne « contre »."
+    reference: "Code de justice administrative, chapitre Ier « La compétence en raison de la matière », articles R. 311-1 à R. 311-5, « VERSION EN VIGUEUR AU 08 NOVEMBRE 2026 », avec l'article R. 311-6 abrogé. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce), dernière lecture le 2026-11-10 (lu le 2026-11-08 ; l'article R. 311-6 relu en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/legifrance/cja-R311-1-a-R311-5.txt, SHA-256 E38EB819BCB7718143AEB670B9ED62B4D529EAE7C07AC2085B11375EC51A20FF, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-6, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000006150442/2026-11-08"
     etat_lecture: ouverte
     date_verification: 2026-11-10
   - ref: S44
     nature: normatif
-    reference: "Code de justice administrative, chapitre XVI « Le contentieux de certains projets en matière environnementale », articles R. 77-16-1 à R. 77-16-3. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/cja-R77-16-1-a-R77-16-3.txt, SHA-256 3EB0672725A77EFC6549DB00C00D0C5F045606560F68A8768B23618BE456B423, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-6, champ 7 et ligne « contre »."
+    reference: "Code de justice administrative, chapitre XVI « Le contentieux de certains projets en matière environnementale », articles R. 77-16-1 à R. 77-16-3. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/cja-R77-16-1-a-R77-16-3.txt, SHA-256 3EB0672725A77EFC6549DB00C00D0C5F045606560F68A8768B23618BE456B423, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-6, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000053926803/2026-11-08"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S45
     nature: normatif
-    reference: "Code de justice administrative, article R. 611-7-2. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/cja-R611-7-2.txt, SHA-256 2BA24B2097531817A99565D3971A1DFE19C610FEA9ED5D83860729A26D489248, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-6, champ 7 et ligne « contre »."
+    reference: "Code de justice administrative, article R. 611-7-2. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/cja-R611-7-2.txt, SHA-256 2BA24B2097531817A99565D3971A1DFE19C610FEA9ED5D83860729A26D489248, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-6, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053927654/2026-11-08"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S46
     nature: normatif
-    reference: "Code minier, article L. 132-8, « EN VIGUEUR DEPUIS LE 01 JUILLET 2024 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L132-8.txt, SHA-256 1CD327507F168E0B06CA927137A20CF4C4B6CFFFE6E7659ACCDD5C2BC0120CC7, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 132-8, « EN VIGUEUR DEPUIS LE 01 JUILLET 2024 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L132-8.txt, SHA-256 1CD327507F168E0B06CA927137A20CF4C4B6CFFFE6E7659ACCDD5C2BC0120CC7, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504028/2026-11-07"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S47
     nature: normatif
-    reference: "Code minier, article L. 111-1. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L111-1.txt, SHA-256 2A8F7F7A23610FBADA5F05CC5AB8BEA0C6CCE1ADD64E2F06866763D79FAA622D, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 111-1. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L111-1.txt, SHA-256 2A8F7F7A23610FBADA5F05CC5AB8BEA0C6CCE1ADD64E2F06866763D79FAA622D, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045589509"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S48
     nature: normatif
-    reference: "Code minier, article L. 121-1. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L121-1.txt, SHA-256 FF9F192CB396EB009B8D2FE612929ECA0F932AA6DE9F6F93B876A313D7C6522B, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 121-1. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L121-1.txt, SHA-256 FF9F192CB396EB009B8D2FE612929ECA0F932AA6DE9F6F93B876A313D7C6522B, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023504075"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S49
     nature: normatif
-    reference: "Code minier, article L. 122-1. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L122-1.txt, SHA-256 DB8ABB320C54D9BBBC9D969E70A78B8DF38B251F91328E065A18D5078745CB4F, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 122-1. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L122-1.txt, SHA-256 DB8ABB320C54D9BBBC9D969E70A78B8DF38B251F91328E065A18D5078745CB4F, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504071/2026-11-07"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S50
     nature: normatif
-    reference: "Code minier, article L. 132-2. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L132-2.txt, SHA-256 FB886B0376399FC0A0B48BB6002E0927B248E5B854D418F7D580A8EC0FF5F8CB, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 132-2. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L132-2.txt, SHA-256 FB886B0376399FC0A0B48BB6002E0927B248E5B854D418F7D580A8EC0FF5F8CB, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504028/2026-11-07"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S51
     nature: normatif
-    reference: "Code minier, article L. 132-15. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L132-15.txt, SHA-256 1FA67B343DF9BC1C03DA6D9831086C6C21BC28738B69EC0649B338A427E99F2C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 132-15. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L132-15.txt, SHA-256 1FA67B343DF9BC1C03DA6D9831086C6C21BC28738B69EC0649B338A427E99F2C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504028/2026-11-07"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S52
     nature: normatif
-    reference: "Code minier, article L. 153-3. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L153-3.txt, SHA-256 51C1F062955998023320908B798994F6E3622B4DB5EA2E9C7414E27E9A564CE9, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code minier, article L. 153-3. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-minier-L153-3.txt, SHA-256 51C1F062955998023320908B798994F6E3622B4DB5EA2E9C7414E27E9A564CE9, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504028/2026-11-07"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S53
     nature: normatif
-    reference: "Code civil, article 552, « EN VIGUEUR DEPUIS LE 21 MARS 1804 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-civil-art-552.txt, SHA-256 C2BA24A1DF89649ABE1208C74CEDD0A05D326EC4D0F25D14C925E03D6209A38A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Code civil, article 552, « EN VIGUEUR DEPUIS LE 21 MARS 1804 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-civil-art-552.txt, SHA-256 C2BA24A1DF89649ABE1208C74CEDD0A05D326EC4D0F25D14C925E03D6209A38A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006117904/2026-11-07"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S54
     nature: normatif
-    reference: "Loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets, article 81. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2021-1104-art-81.txt, SHA-256 07A03CA70729DAA7315889B1BC57575A3C5A5FB1C0B3E72A4BD58E9226499518, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Loi n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets, article 81. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2021-1104-art-81.txt, SHA-256 07A03CA70729DAA7315889B1BC57575A3C5A5FB1C0B3E72A4BD58E9226499518, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S55
     nature: normatif
-    reference: "Ordonnance n° 2022-536 du 13 avril 2022 modifiant le modèle minier et les régimes légaux relevant du code minier, JORF n° 0088 du 14 avril 2022, texte n° 13. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/ordonnance-2022-536.txt, SHA-256 CA7C018E2B49AD62246C478390B6783113EA9819F15797EF1920A2514240DE14, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture partielle, déclarée par la fiche FR-7 (« visas et article 11 lus ») : l'ordonnance compte 28 articles ; les articles 1er à 10 et 12 à 28 et les signatures ne sont pas lus, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Ordonnance n° 2022-536 du 13 avril 2022 modifiant le modèle minier et les régimes légaux relevant du code minier, JORF n° 0088 du 14 avril 2022, texte n° 13. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/ordonnance-2022-536.txt, SHA-256 CA7C018E2B49AD62246C478390B6783113EA9819F15797EF1920A2514240DE14, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture partielle, déclarée par la fiche FR-7 (« visas et article 11 lus ») : l'ordonnance compte 28 articles ; les articles 1er à 10 et 12 à 28 et les signatures ne sont pas lus, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570540"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S56
     nature: normatif
-    reference: "Décret n° 2026-969 du 20 octobre 2026 accordant à la société IMERYS BEAUVOIR l'octroi de la concession de mines de lithium, étain, tantale et niobium dite de « BEAUVOIR », JORF n° 0246 du 21 octobre 2026, texte n° 13, cahier des charges en annexe. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-969.txt, SHA-256 A908D821BC91A3029CC0DC54D604354C69F85052F708548F3342C32D7753757C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Décret n° 2026-969 du 20 octobre 2026 accordant à la société IMERYS BEAUVOIR l'octroi de la concession de mines de lithium, étain, tantale et niobium dite de « BEAUVOIR », JORF n° 0246 du 21 octobre 2026, texte n° 13, cahier des charges en annexe. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-969.txt, SHA-256 A908D821BC91A3029CC0DC54D604354C69F85052F708548F3342C32D7753757C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055002699"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S57
     nature: normatif
-    reference: "Rapport au Président de la République relatif à l'ordonnance n° 2022-536 du 13 avril 2022, JORF n° 0088 du 14 avril 2022, texte n° 12. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/rapport-ordonnance-2022-536.txt, SHA-256 007D3867DE8376E7B059F376A0A940FBB1E2A5CF942E35CB9D80ED595DFEF280, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Rapport au Président de la République relatif à l'ordonnance n° 2022-536 du 13 avril 2022, JORF n° 0088 du 14 avril 2022, texte n° 12. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/rapport-ordonnance-2022-536.txt, SHA-256 007D3867DE8376E7B059F376A0A940FBB1E2A5CF942E35CB9D80ED595DFEF280, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570531"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S58
     nature: normatif
-    reference: "Arrêté du 15 mai 2015 accordant un permis exclusif de recherches de mines dit « Permis de Beauvoir ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/arrete-2015-05-15-per-beauvoir.txt, SHA-256 7B59167339209946177D0BC037A442C6B0A75D497BDA569DD7D363A4D2234735, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Arrêté du 15 mai 2015 accordant un permis exclusif de recherches de mines dit « Permis de Beauvoir ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/arrete-2015-05-15-per-beauvoir.txt, SHA-256 7B59167339209946177D0BC037A442C6B0A75D497BDA569DD7D363A4D2234735, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030624494"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S59
     nature: normatif
-    reference: "Arrêté du 11 mai 2021 prolongeant le permis exclusif de recherches de mines dit « permis de Beauvoir ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/arrete-2021-05-11-per-beauvoir-prolongation.txt, SHA-256 920DCF5DFB25A3CDE0150D8A2128D0BE2EA20E61F9FE62FCFA3A64714DC6BF43, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Arrêté du 11 mai 2021 prolongeant le permis exclusif de recherches de mines dit « permis de Beauvoir ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/arrete-2021-05-11-per-beauvoir-prolongation.txt, SHA-256 920DCF5DFB25A3CDE0150D8A2128D0BE2EA20E61F9FE62FCFA3A64714DC6BF43, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043576252"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S60
     nature: normatif
-    reference: "Arrêté du 23 janvier 2025 autorisant la mutation du permis exclusif de recherches de mines dit « Permis de Beauvoir ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/arrete-2025-01-23-per-beauvoir-mutation.txt, SHA-256 3BF10541AFF24CC1DBFFCED99DCB2F2FB82FFE561115C5A18F60F3F5A6C1DD89, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
+    reference: "Arrêté du 23 janvier 2025 autorisant la mutation du permis exclusif de recherches de mines dit « Permis de Beauvoir ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/arrete-2025-01-23-per-beauvoir-mutation.txt, SHA-256 3BF10541AFF24CC1DBFFCED99DCB2F2FB82FFE561115C5A18F60F3F5A6C1DD89, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-7, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051324368"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S61
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 600-1-1, page en vigueur au 8 novembre 2026. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce), dernière lecture le 2026-11-08 (lu le 2026-11-07, relu le 2026-11-08) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-1-1.txt, SHA-256 47EA327736FC455853E90952FBBB879797608A19EE740EA08FEA05E6AC34100A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Code de l'urbanisme, article L. 600-1-1, page en vigueur au 8 novembre 2026. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce), dernière lecture le 2026-11-08 (lu le 2026-11-07, relu le 2026-11-08) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-1-1.txt, SHA-256 47EA327736FC455853E90952FBBB879797608A19EE740EA08FEA05E6AC34100A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037668002"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S62
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 600-1-1, version « EN VIGUEUR AU 31/12/2018 » (rédaction de 2006). OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-1-1-version-2006-07-16.txt, SHA-256 99F8F20829C716009F9174A04D5C952867AF57C0EE6B180F562AC5B73924E7C4, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Code de l'urbanisme, article L. 600-1-1, version « EN VIGUEUR AU 31/12/2018 » (rédaction de 2006). OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-1-1-version-2006-07-16.txt, SHA-256 99F8F20829C716009F9174A04D5C952867AF57C0EE6B180F562AC5B73924E7C4, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037668002/2018-12-31"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S63
     nature: normatif
-    reference: "Loi n° 2018-1021 du 23 novembre 2018 portant évolution du logement, de l'aménagement et du numérique, JORF n° 0272 du 24 novembre 2018, article 80. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2018-1021-art-80.txt, SHA-256 F6BDB61F64CB3D7A7EFAAF03FE5F340E0EF8BC0701E2F29FF4802636762C89FA, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, FR-9, champ 7 et ligne « contre »."
+    reference: "Loi n° 2018-1021 du 23 novembre 2018 portant évolution du logement, de l'aménagement et du numérique, JORF n° 0272 du 24 novembre 2018, article 80. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2018-1021-art-80.txt, SHA-256 F6BDB61F64CB3D7A7EFAAF03FE5F340E0EF8BC0701E2F29FF4802636762C89FA, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037639478"
     etat_lecture: ouverte
     date_verification: 2026-11-08
@@ -397,13 +397,13 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S65
     nature: jurisprudence
-    reference: "Conseil d'État, 1ère et 4ème chambres réunies, 31 janvier 2022, n° 455122, décision de renvoi de la question prioritaire de constitutionnalité. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (« Vu la procédure », points 1 et 4 et dispositif lus le 2026-11-08 ; lu en entier le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/ce-2022-01-31-455122.html, SHA-256 4C83EC5286FDC0D6C4E8C43AF4E7EE32C15F811FF01D0E486E19FD63E044A312, pièce). Lecture : texte entier de la décision, de l'en-tête à la formule exécutoire. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; le point 5 sursoit à statuer sur « les autres moyens du pourvoi, dirigés contre l'article 2 de l'ordonnance attaquée ». Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Conseil d'État, 1ère et 4ème chambres réunies, 31 janvier 2022, n° 455122, décision de renvoi de la question prioritaire de constitutionnalité. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (« Vu la procédure », points 1 et 4 et dispositif lus le 2026-11-08 ; lu en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/ce-2022-01-31-455122.html, SHA-256 4C83EC5286FDC0D6C4E8C43AF4E7EE32C15F811FF01D0E486E19FD63E044A312, pièce). Lecture : texte entier de la décision, de l'en-tête à la formule exécutoire. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; le point 5 sursoit à statuer sur « les autres moyens du pourvoi, dirigés contre l'article 2 de l'ordonnance attaquée ». Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     url: "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2022-01-31/455122"
     etat_lecture: ouverte
     date_verification: 2026-11-10
   - ref: S66
     nature: jurisprudence
-    reference: "Conseil constitutionnel, décision n° 2011-138 QPC du 17 juin 2011, Association Vivraviry. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (considérants 1, 6 et 7 et dispositif lus le 2026-11-08 ; lue en entier le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/cc-2011-138-qpc.html, SHA-256 EA9A2AAE08C68CDF478FF8E046A7B60508BA5ADB4D5AC8D8BA210480003B2A90, pièce ; 2026-11-07/livre-6/telecharges/cc-2011-138-qpc.txt, SHA-256 0612CF20D387DE9498827CAF855AD5A3BAC27D3AC76DA9AB0AE2D9E3E6DE0DE0, fichier dérivé, sans entrée propre). Lecture : texte entier de la décision, visas, considérants 1 à 9 et dispositif, et les extraits analytiques de la page. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; le considérant 8 écarte aussi le grief tiré du principe d'égalité. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Conseil constitutionnel, décision n° 2011-138 QPC du 17 juin 2011, Association Vivraviry. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (considérants 1, 6 et 7 et dispositif lus le 2026-11-08 ; lue en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/cc-2011-138-qpc.html, SHA-256 EA9A2AAE08C68CDF478FF8E046A7B60508BA5ADB4D5AC8D8BA210480003B2A90, pièce ; 2026-11-07/livre-6/telecharges/cc-2011-138-qpc.txt, SHA-256 0612CF20D387DE9498827CAF855AD5A3BAC27D3AC76DA9AB0AE2D9E3E6DE0DE0, fichier dérivé, sans entrée propre). Lecture : texte entier de la décision, visas, considérants 1 à 9 et dispositif, et les extraits analytiques de la page. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; le considérant 8 écarte aussi le grief tiré du principe d'égalité. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     url: "https://www.conseil-constitutionnel.fr/decision/2011/2011138QPC.htm"
     etat_lecture: ouverte
     date_verification: 2026-11-10
@@ -415,7 +415,7 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S68
     nature: normatif
-    reference: "Sénat, texte n° 567 (2017-2018) adopté par l'Assemblée nationale le 12 juin 2018. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (recherche faite le 2026-11-08, refaite le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/senat/senat-pjl17-567-texte.html, SHA-256 ED758CE6F82C82E7B4AD2CEEAFB42D8503258D50BF36AE9A2DB68C77A511F2FE, pièce). Lecture par recherche, non lecture entière : la pièce est le texte entier d'un projet de loi (444 955 caractères une fois débalisé), et elle n'appuie qu'une absence. Recherche de « 600-1-1 » dans le texte débalisé, entités décodées, traits d'union et espaces insécables ramenés au trait d'union et à l'espace : aucune occurrence. Contrôle positif : « 1° L'article L. 600-1-2 est ainsi modifié » y est trouvé. Le reste de la pièce n'est pas lu. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Sénat, texte n° 567 (2017-2018) adopté par l'Assemblée nationale le 12 juin 2018. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (recherche faite le 2026-11-08, refaite le 2026-11-10) (2026-11-07/livre-6/telecharges/senat/senat-pjl17-567-texte.html, SHA-256 ED758CE6F82C82E7B4AD2CEEAFB42D8503258D50BF36AE9A2DB68C77A511F2FE, pièce). Lecture par recherche, non lecture entière : la pièce est le texte entier d'un projet de loi (444 955 caractères une fois débalisé), et elle n'appuie qu'une absence. Recherche de « 600-1-1 » dans le texte débalisé, entités décodées, traits d'union et espaces insécables ramenés au trait d'union et à l'espace : aucune occurrence. Contrôle positif : « 1° L'article L. 600-1-2 est ainsi modifié » y est trouvé. Le reste de la pièce n'est pas lu. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     url: "https://www.senat.fr/leg/pjl17-567.html"
     etat_lecture: ouverte
     date_verification: 2026-11-10
@@ -457,12 +457,12 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S75
     nature: jurisprudence
-    reference: "Conseil constitutionnel, commentaire de la décision n° 2022-986 QPC du 1er avril 2022. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-11 (pages 3 à 6 lues le 2026-11-08 ; lu en entier le 2026-11-10 par le rédacteur de l'ordre 23 et le 2026-11-11 par celui de l'ordre 30 (fiche FR-8, champ 7)) (2026-11-07/livre-6/telecharges/cc-2022-986-qpc-ccc.pdf, SHA-256 3CE25C4D1929E84BFEDC589AC6FDCF5FB7D2819C73BF0FCE7801C81AD26B8BE7, pièce ; 2026-11-07/livre-6/telecharges/cc-2022-986-qpc-ccc.txt, SHA-256 73B901E5EC9A435788F6816CE9786D192937DD75A2BBA6787D46D479508DE8A8, fichier dérivé, sans entrée propre). Lecture : texte entier, 13 pages à la conversion pdftotext, notes comprises. Pages que cite la fiche FR-8 : 2 (note 4, champ 8), 5 et 6 (champ 5), 10 à 12 (ligne « contre »). Ce que la lecture entière ajoute contre l'usage qui en est fait : rien qui contredise la fiche FR-8 ; le commentaire ne nomme pas l'article 24 du projet de loi, il dit que le Gouvernement a proposé, « sur le fondement d'un rapport remis par Mme Christine Maugüé », « une série de dispositions » (page 4) ; il relève que, saisi de la loi n° 2018-1021 (décision n° 2018-772 DC), le Conseil constitutionnel « ne s'est pas prononcé sur cette modification de l'article L. 600-1-1 » (page 6, note 18). Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Conseil constitutionnel, commentaire de la décision n° 2022-986 QPC du 1er avril 2022. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-11 (pages 3 à 6 lues le 2026-11-08 ; lu en entier le 2026-11-10 et le 2026-11-11 (fiche FR-8, champ 7)) (2026-11-07/livre-6/telecharges/cc-2022-986-qpc-ccc.pdf, SHA-256 3CE25C4D1929E84BFEDC589AC6FDCF5FB7D2819C73BF0FCE7801C81AD26B8BE7, pièce ; 2026-11-07/livre-6/telecharges/cc-2022-986-qpc-ccc.txt, SHA-256 73B901E5EC9A435788F6816CE9786D192937DD75A2BBA6787D46D479508DE8A8, fichier dérivé, sans entrée propre). Lecture : texte entier, 13 pages à la conversion pdftotext, notes comprises. Pages que cite la fiche FR-8 : 2 (note 4, champ 8), 5 et 6 (champ 5), 10 à 12 (ligne « contre »). Ce que la lecture entière ajoute contre l'usage qui en est fait : rien qui contredise la fiche FR-8 ; le commentaire ne nomme pas l'article 24 du projet de loi, il dit que le Gouvernement a proposé, « sur le fondement d'un rapport remis par Mme Christine Maugüé », « une série de dispositions » (page 4) ; il relève que, saisi de la loi n° 2018-1021 (décision n° 2018-772 DC), le Conseil constitutionnel « ne s'est pas prononcé sur cette modification de l'article L. 600-1-1 » (page 6, note 18). Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     etat_lecture: ouverte
     date_verification: 2026-11-11
   - ref: S76
     nature: jurisprudence
-    reference: "Conseil constitutionnel, dossier documentaire de la décision n° 2022-986 QPC du 1er avril 2022. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-11 (téléchargé le 2026-11-08 ; non lu jusque-là, la fiche FR-8 ne disant lus que des passages du commentaire ; lu en entier le 2026-11-10 par le rédacteur de l'ordre 25 ; relu en entier le 2026-11-11 par le rédacteur de l'ordre 26) (2026-11-07/livre-6/telecharges/cc-2022-986-qpc-doc.pdf, SHA-256 81403CD0280420D2403431B97E76A76544BF22BE37016EB99EEE347813D1538E, pièce ; 2026-11-07/livre-6/telecharges/cc-2022-986-qpc-doc.txt, SHA-256 894044D95E3D801A1980B44AE6F41DA1F71E2A3129E942332C5E8455983C8FE7, fichier dérivé, sans entrée propre). Lecture : texte entier, 15 pages à la conversion pdftotext et pour pypdf, sommaire, table des matières, parties I et II. La pièce est le dossier documentaire de la décision : « Décision n° 2022 - 986 QPC », « Association La Sphinx », « Dossier documentaire », « Source : services du Conseil constitutionnel - 2022 ». Elle reproduit des textes et des extraits de décisions, sans commentaire. Passages qui appuient la fiche FR-8 : l'arrêt du Conseil d'État du 29 mars 2017, n° 395419, pourvoi de l'association « Garches est à vous », reproduit sans visas ni dispositif, points 1 à 7 (pages 8 et 9), qui juge, sur la rédaction de 2006, qu'une association n'est recevable « que si elle a déposé ses statuts en préfecture avant l'affichage en mairie de la demande du pétitionnaire » et que son intérêt pour agir s'apprécie « en se fondant sur les statuts tels qu'ils ont été déposés à la préfecture antérieurement à la date de l'affichage en mairie de la demande du pétitionnaire » (point 3, page 8), qu'un objet « qui présente un caractère très général » ne confère pas d'intérêt pour agir (point 4, page 8), et qu'une cour n'a pas commis d'erreur de droit en refusant de tenir compte d'une « modification de l'objet statutaire » qui « n'avait pas été déclarée en préfecture avant l'affichage en mairie de la demande de permis de construire » (point 5, page 9) ; l'arrêt du Conseil d'État du 27 juillet 2009, n° 306946 (pages 7 et 8), qui juge que, la loi n° 2006-872 n'étant pas « applicable au litige », « l'absence de déclaration de la modification des statuts ne faisait pas obstacle » au recours. La pièce reproduit aussi l'arrêt du Conseil d'État du 24 octobre 1994, n° 123316 (pages 6 et 7), qui apprécie l'intérêt pour agir d'une fédération « sans que puissent être prises en compte les modifications substantielles qu'elle a apportées à cet objet social au cours de l'instance devant les premiers juges », sur un plan d'occupation des sols, avant l'article L. 600-1-1 ; la fiche ne le cite qu'au champ 7. Ce que la pièce dit contre l'usage qui en est fait : les arrêts n'y sont lus que dans leur reproduction, et le texte publié par le Conseil d'État n'est pas lu ; l'arrêt n° 395419 porte sur la rédaction de 2006, non sur celle de 2018, que la fiche laisse en point non établi ; l'arrêt du Conseil d'État du 11 juillet 2008, n° 313386, applique l'article L. 600-1-1 au permis d'un « parc d'éoliennes » (page 7), non à un projet extractif. Où la pièce est appelée : fiche FR-8, champs 4, 7 et 8 et ligne « contre »."
+    reference: "Conseil constitutionnel, dossier documentaire de la décision n° 2022-986 QPC du 1er avril 2022. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-11 (téléchargé le 2026-11-08 ; non lu jusque-là, la fiche FR-8 ne disant lus que des passages du commentaire ; lu en entier le 2026-11-10 ; relu en entier le 2026-11-11) (2026-11-07/livre-6/telecharges/cc-2022-986-qpc-doc.pdf, SHA-256 81403CD0280420D2403431B97E76A76544BF22BE37016EB99EEE347813D1538E, pièce ; 2026-11-07/livre-6/telecharges/cc-2022-986-qpc-doc.txt, SHA-256 894044D95E3D801A1980B44AE6F41DA1F71E2A3129E942332C5E8455983C8FE7, fichier dérivé, sans entrée propre). Lecture : texte entier, 15 pages à la conversion pdftotext et pour pypdf, sommaire, table des matières, parties I et II. La pièce est le dossier documentaire de la décision : « Décision n° 2022 - 986 QPC », « Association La Sphinx », « Dossier documentaire », « Source : services du Conseil constitutionnel - 2022 ». Elle reproduit des textes et des extraits de décisions, sans commentaire. Passages qui appuient la fiche FR-8 : l'arrêt du Conseil d'État du 29 mars 2017, n° 395419, pourvoi de l'association « Garches est à vous », reproduit sans visas ni dispositif, points 1 à 7 (pages 8 et 9), qui juge, sur la rédaction de 2006, qu'une association n'est recevable « que si elle a déposé ses statuts en préfecture avant l'affichage en mairie de la demande du pétitionnaire » et que son intérêt pour agir s'apprécie « en se fondant sur les statuts tels qu'ils ont été déposés à la préfecture antérieurement à la date de l'affichage en mairie de la demande du pétitionnaire » (point 3, page 8), qu'un objet « qui présente un caractère très général » ne confère pas d'intérêt pour agir (point 4, page 8), et qu'une cour n'a pas commis d'erreur de droit en refusant de tenir compte d'une « modification de l'objet statutaire » qui « n'avait pas été déclarée en préfecture avant l'affichage en mairie de la demande de permis de construire » (point 5, page 9) ; l'arrêt du Conseil d'État du 27 juillet 2009, n° 306946 (pages 7 et 8), qui juge que, la loi n° 2006-872 n'étant pas « applicable au litige », « l'absence de déclaration de la modification des statuts ne faisait pas obstacle » au recours. La pièce reproduit aussi l'arrêt du Conseil d'État du 24 octobre 1994, n° 123316 (pages 6 et 7), qui apprécie l'intérêt pour agir d'une fédération « sans que puissent être prises en compte les modifications substantielles qu'elle a apportées à cet objet social au cours de l'instance devant les premiers juges », sur un plan d'occupation des sols, avant l'article L. 600-1-1 ; la fiche ne le cite qu'au champ 7. Ce que la pièce dit contre l'usage qui en est fait : les arrêts n'y sont lus que dans leur reproduction, et le texte publié par le Conseil d'État n'est pas lu ; l'arrêt n° 395419 porte sur la rédaction de 2006, non sur celle de 2018, que la fiche laisse en point non établi ; l'arrêt du Conseil d'État du 11 juillet 2008, n° 313386, applique l'article L. 600-1-1 au permis d'un « parc d'éoliennes » (page 7), non à un projet extractif. Où la pièce est appelée : fiche FR-8, champs 4, 7 et 8 et ligne « contre »."
     etat_lecture: ouverte
     date_verification: 2026-11-11
   - ref: S77
@@ -473,49 +473,49 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S78
     nature: normatif
-    reference: "Sénat, compte rendu de la commission mixte paritaire du 19 septembre 2018 sur le projet de loi portant évolution du logement, de l'aménagement et du numérique. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (recherche faite le 2026-11-08, refaite le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/senat/senat-cr-cmp-elan-20180917.html, SHA-256 B8804EFE7C07A65CE60F2BA893EBB3F3B687F0387E4F4F425C292D281CCC1A5D, pièce). Lecture par recherche, non lecture entière : la pièce est le compte rendu de toute la réunion (225 139 caractères une fois débalisé), et elle n'appuie qu'une absence. Même recherche : aucune occurrence de « 600-1-1 ». Contrôle positif : on y trouve « La proposition commune n° 73, rédactionnelle, est adoptée. La commission mixte paritaire adopte l'article 24 dans la rédaction issue de ses travaux. » Ce que la pièce dit contre l'usage qui en est fait : rien ; elle rapporte aussi que « Le Sénat a également poursuivi les efforts de réforme du contentieux de l'urbanisme : il a ainsi voulu encadrer les recours abusifs des associations ». Le reste de la pièce n'est pas lu. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
+    reference: "Sénat, compte rendu de la commission mixte paritaire du 19 septembre 2018 sur le projet de loi portant évolution du logement, de l'aménagement et du numérique. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (recherche faite le 2026-11-08, refaite le 2026-11-10) (2026-11-07/livre-6/telecharges/senat/senat-cr-cmp-elan-20180917.html, SHA-256 B8804EFE7C07A65CE60F2BA893EBB3F3B687F0387E4F4F425C292D281CCC1A5D, pièce). Lecture par recherche, non lecture entière : la pièce est le compte rendu de toute la réunion (225 139 caractères une fois débalisé), et elle n'appuie qu'une absence. Même recherche : aucune occurrence de « 600-1-1 ». Contrôle positif : on y trouve « La proposition commune n° 73, rédactionnelle, est adoptée. La commission mixte paritaire adopte l'article 24 dans la rédaction issue de ses travaux. » Ce que la pièce dit contre l'usage qui en est fait : rien ; elle rapporte aussi que « Le Sénat a également poursuivi les efforts de réforme du contentieux de l'urbanisme : il a ainsi voulu encadrer les recours abusifs des associations ». Le reste de la pièce n'est pas lu. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-8, champ 7 et ligne « contre »."
     url: "https://www.senat.fr/compte-rendu-commissions/20180917/cmp_elan.html"
     etat_lecture: ouverte
     date_verification: 2026-11-10
   - ref: S79
     nature: normatif
-    reference: "Code de l'environnement, article L. 181-18, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L181-18.txt, SHA-256 ACB96148D125862C52748E26CAF1A2F4F8363138FABE0A83CBDE5522006079CF, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article L. 181-18, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L181-18.txt, SHA-256 ACB96148D125862C52748E26CAF1A2F4F8363138FABE0A83CBDE5522006079CF, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047303461"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S80
     nature: normatif
-    reference: "Code de l'environnement, article L. 181-18, version « EN VIGUEUR DU 01 MARS 2017 AU 12 MARS 2023 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L181-18-version-2017-03-01.txt, SHA-256 262C9310F000812032940831D7BBFDBDD6D7B32B645D55A73374289963286449, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Code de l'environnement, article L. 181-18, version « EN VIGUEUR DU 01 MARS 2017 AU 12 MARS 2023 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-env-L181-18-version-2017-03-01.txt, SHA-256 262C9310F000812032940831D7BBFDBDD6D7B32B645D55A73374289963286449, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047303461/2023-03-11"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S81
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 600-5-1, « EN VIGUEUR DEPUIS LE 01 JANVIER 2019 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-5-1.txt, SHA-256 09826AA5124C96AA32FBC6A709CF03A0CC35F2590B11D3D9F8527088B0F06738, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Code de l'urbanisme, article L. 600-5-1, « EN VIGUEUR DEPUIS LE 01 JANVIER 2019 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-5-1.txt, SHA-256 09826AA5124C96AA32FBC6A709CF03A0CC35F2590B11D3D9F8527088B0F06738, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667990"
     etat_lecture: ouverte
     date_verification: 2026-11-07
   - ref: S82
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 600-5-1, version « EN VIGUEUR DU 19 AOÛT 2013 AU 01 JANV. 2019 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-5-1-version-2013-08-19.txt, SHA-256 92188BD7DE83BE4B2BA050E48358BA47E266A2E91116EAC25E077EF049CBB0F4, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Code de l'urbanisme, article L. 600-5-1, version « EN VIGUEUR DU 19 AOÛT 2013 AU 01 JANV. 2019 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-5-1-version-2013-08-19.txt, SHA-256 92188BD7DE83BE4B2BA050E48358BA47E266A2E91116EAC25E077EF049CBB0F4, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667990/2018-12-31"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S83
     nature: normatif
-    reference: "Loi n° 2023-175 du 10 mars 2023 relative à l'accélération de la production d'énergies renouvelables, JORF n° 0060 du 11 mars 2023, article 23. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2023-175-art-23.txt, SHA-256 25A761D3E35B3462B4E5E06EB641A78EC6B95E9FCB0BC2D1A99FDCD168DC364C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Loi n° 2023-175 du 10 mars 2023 relative à l'accélération de la production d'énergies renouvelables, JORF n° 0060 du 11 mars 2023, article 23. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/loi-2023-175-art-23.txt, SHA-256 25A761D3E35B3462B4E5E06EB641A78EC6B95E9FCB0BC2D1A99FDCD168DC364C, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047294244"
     etat_lecture: ouverte
     date_verification: 2026-11-08
   - ref: S84
     nature: jurisprudence
-    reference: "Conseil d'État, 6ème et 5ème chambres réunies, 25 janvier 2023, n° 448911, mentionné aux tables du recueil Lebon. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (téléchargé le 2026-11-07, relu le 2026-11-08 sur « Vu les procédures suivantes », les points 1, 7, 8, 9, le dispositif et le délibéré ; lu en entier le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/ce-2023-01-25-448911.html, SHA-256 4E4B57249B91EB184430A1EA1D96DD2B944F2682D61575B13C5CF8F94CDCCCE2, pièce). Lecture : texte entier de la décision. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; les points 2 à 6, que la fiche FR-9 ne cite pas, portent sur le vice de l'avis de l'autorité environnementale, que la cour avait retenu sans erreur de qualification (point 6), et le point 11 écarte les conclusions présentées au titre des frais. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Conseil d'État, 6ème et 5ème chambres réunies, 25 janvier 2023, n° 448911, mentionné aux tables du recueil Lebon. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-10 (téléchargé le 2026-11-07, relu le 2026-11-08 sur « Vu les procédures suivantes », les points 1, 7, 8, 9, le dispositif et le délibéré ; lu en entier le 2026-11-10) (2026-11-07/livre-6/telecharges/ce-2023-01-25-448911.html, SHA-256 4E4B57249B91EB184430A1EA1D96DD2B944F2682D61575B13C5CF8F94CDCCCE2, pièce). Lecture : texte entier de la décision. Ce que la lecture entière ajoute contre l'usage qui en est fait : rien ; les points 2 à 6, que la fiche FR-9 ne cite pas, portent sur le vice de l'avis de l'autorité environnementale, que la cour avait retenu sans erreur de qualification (point 6), et le point 11 écarte les conclusions présentées au titre des frais. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-01-25/448911"
     etat_lecture: ouverte
     date_verification: 2026-11-10
   - ref: S85
     nature: normatif
-    reference: "Ordonnance n° 2017-80 du 26 janvier 2017 relative à l'autorisation environnementale, en-tête et visas. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/ordonnance-2017-80-visas.txt, SHA-256 72893C1818F75A2AF5541C927C1C28C055EC7AF833DFFB23BA63A459F301DDE2, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
+    reference: "Ordonnance n° 2017-80 du 26 janvier 2017 relative à l'autorisation environnementale, en-tête et visas. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-08 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce) (2026-11-07/livre-6/telecharges/legifrance/ordonnance-2017-80-visas.txt, SHA-256 72893C1818F75A2AF5541C927C1C28C055EC7AF833DFFB23BA63A459F301DDE2, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Passages lus et ce que la pièce dit contre l'usage qui en est fait : fiche(s) FR-9, champ 7 et ligne « contre »."
     url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033926976"
     etat_lecture: ouverte
     date_verification: 2026-11-08
@@ -545,31 +545,43 @@ sources_primaires:
     date_verification: 2026-11-08
   - ref: S90
     nature: normatif
-    reference: "Décret n° 2026-980 du 23 octobre 2026 modifiant le code de l'environnement en vue de préciser les modalités de reconnaissance d'une raison impérative d'intérêt public majeur au stade de la déclaration d'utilité publique ou de la déclaration de projet, version consolidée « EN VIGUEUR AU 25 OCTOBRE 2026 », NOR : TECL2617687D, JORF n°0249 du 24 octobre 2026. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce), dernière lecture le 2026-11-10 (relu en entier sur la copie le 2026-11-10 par le rédacteur de l'ordre 23) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-980.txt, SHA-256 DCA22B1DBE09F72B6BE5C840F0C2A4FE7F7C2274FB96DDE660F111F27281433A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture : texte entier de la page, visas, articles 1 à 3 et signatures. La page n'affiche pas le texte que l'article 1er donne à l'article R. 411-6-2 du code de l'environnement (« Modifie Code de l'environnement - art. R411-6-2 (V) ») : ce texte est porté par l'entrée de l'article R. 411-6-2. Ce que la pièce dit contre l'usage qui en est fait : son intitulé vise la reconnaissance « au stade de la déclaration d'utilité publique ou de la déclaration de projet », et son article 2 ne règle que les projets ayant fait l'objet d'une telle déclaration « avant le 26 mai 2026 » ; la pièce ne se dit pas prise pour l'application du XIII de l'article L. 300-6-2 du code de l'urbanisme, ce que la fiche FR-1 (champ 8) tient pour une inférence. Où la pièce est appelée : fiche FR-1, champ 8 seulement (« qui vise l'article L. 300-6-2 ») ; le champ 7 ne la cite pas, et la ligne « contre » ne nomme le décret que dans la mention « Modifié par Décret n°2026-980 du 23 octobre 2026 - art. 1 » de la page de l'article R. 411-6-2. Ce que la pièce dit contre l'usage qui en est fait est écrit ci-dessus."
+    reference: "Décret n° 2026-980 du 23 octobre 2026 modifiant le code de l'environnement en vue de préciser les modalités de reconnaissance d'une raison impérative d'intérêt public majeur au stade de la déclaration d'utilité publique ou de la déclaration de projet, version consolidée « EN VIGUEUR AU 25 OCTOBRE 2026 », NOR : TECL2617687D, JORF n°0249 du 24 octobre 2026. OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce), dernière lecture le 2026-11-10 (relu en entier sur la copie le 2026-11-10) (2026-11-07/livre-6/telecharges/legifrance/decret-2026-980.txt, SHA-256 DCA22B1DBE09F72B6BE5C840F0C2A4FE7F7C2274FB96DDE660F111F27281433A, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture : texte entier de la page, visas, articles 1 à 3 et signatures. La page n'affiche pas le texte que l'article 1er donne à l'article R. 411-6-2 du code de l'environnement (« Modifie Code de l'environnement - art. R411-6-2 (V) ») : ce texte est porté par l'entrée de l'article R. 411-6-2. Ce que la pièce dit contre l'usage qui en est fait : son intitulé vise la reconnaissance « au stade de la déclaration d'utilité publique ou de la déclaration de projet », et son article 2 ne règle que les projets ayant fait l'objet d'une telle déclaration « avant le 26 mai 2026 » ; la pièce ne se dit pas prise pour l'application du XIII de l'article L. 300-6-2 du code de l'urbanisme, ce que la fiche FR-1 (champ 8) tient pour une inférence. Où la pièce est appelée : fiche FR-1, champ 8 seulement (« qui vise l'article L. 300-6-2 ») ; le champ 7 ne la cite pas, et la ligne « contre » ne nomme le décret que dans la mention « Modifié par Décret n°2026-980 du 23 octobre 2026 - art. 1 » de la page de l'article R. 411-6-2. Ce que la pièce dit contre l'usage qui en est fait est écrit ci-dessus."
     url: "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000055014042/2026-10-25"
     etat_lecture: ouverte
     date_verification: 2026-11-10
   - ref: S91
     nature: normatif
-    reference: "Code de l'urbanisme, article L. 600-1-2, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 », « EN VIGUEUR DEPUIS LE 01 JANVIER 2019 », « Modifié par LOI n°2018-1021 du 23 novembre 2018 - art. 80 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans le navigateur intégré de Claude Code (date de l'en-tête de la pièce), dernière lecture le 2026-11-11 (relu en entier sur la copie le 2026-11-10 par le rédacteur de l'ordre 23 et le 2026-11-11 par celui de l'ordre 28 (fiche FR-8, champ 7)) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-1-2.txt, SHA-256 4A995B8275A213893BEAB0B43348183AF49D152E411A2A171B33AAD641F2E54B, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier par l'agent, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture : texte entier de l'article, deux alinéas. La fiche FR-8 (champ 4) cite le premier alinéa jusqu'à « qu'elle détient ou occupe régulièrement », la suite marquée « [...] » (« ou pour lequel elle bénéficie d'une promesse de vente, de bail, ou d'un contrat préliminaire mentionné à l'article L. 261-15 du code de la construction et de l'habitation »). Ce que la pièce dit contre l'usage qui en est fait : l'article ne vise que le « recours pour excès de pouvoir », et son second alinéa dit qu'il « n'est pas applicable aux décisions contestées par le pétitionnaire », ce que la fiche ne cite pas. Où la pièce est appelée : fiche FR-8, champs 4, 7 et 8. Ce que la pièce dit contre l'usage qui en est fait est écrit ci-dessus."
+    reference: "Code de l'urbanisme, article L. 600-1-2, page Légifrance « EN VIGUEUR AU 07 NOVEMBRE 2026 », « EN VIGUEUR DEPUIS LE 01 JANVIER 2019 », « Modifié par LOI n°2018-1021 du 23 novembre 2018 - art. 80 ». OUVERT PAR LECTURE DIRECTE DU TEXTE le 2026-11-07 sur Légifrance, dans un navigateur (date de l'en-tête de la pièce), dernière lecture le 2026-11-11 (relu en entier sur la copie le 2026-11-10 et le 2026-11-11 (fiche FR-8, champ 7)) (2026-11-07/livre-6/telecharges/legifrance/code-urba-L600-1-2.txt, SHA-256 4A995B8275A213893BEAB0B43348183AF49D152E411A2A171B33AAD641F2E54B, pièce) : la pièce est la copie du texte affiché par la page, extraite et déposée en fichier, provenance et retouches dites en tête de la pièce ; l'empreinte est celle de cette copie, non d'un fichier publié par Légifrance. Lecture : texte entier de l'article, deux alinéas. La fiche FR-8 (champ 4) cite le premier alinéa jusqu'à « qu'elle détient ou occupe régulièrement », la suite marquée « [...] » (« ou pour lequel elle bénéficie d'une promesse de vente, de bail, ou d'un contrat préliminaire mentionné à l'article L. 261-15 du code de la construction et de l'habitation »). Ce que la pièce dit contre l'usage qui en est fait : l'article ne vise que le « recours pour excès de pouvoir », et son second alinéa dit qu'il « n'est pas applicable aux décisions contestées par le pétitionnaire », ce que la fiche ne cite pas. Où la pièce est appelée : fiche FR-8, champs 4, 7 et 8. Ce que la pièce dit contre l'usage qui en est fait est écrit ci-dessus."
     url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667999"
     etat_lecture: ouverte
     date_verification: 2026-11-11
+  - ref: S92
+    nature: normatif
+    reference: "Constitution du 4 octobre 1958, page du Conseil constitutionnel « Texte intégral de la Constitution du 4 octobre 1958 en vigueur », qui porte la mention « Texte intégral en vigueur à jour de la révision constitutionnelle du 8 mars 2024 ». OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-22 (2026-11-07/livre-6/telecharges/t28/o4-constitution-texte-integral-cc.html, SHA-256 7FCD2B3DA0B99630A2636CB9D62440C82E6CFEF91A350B20C4758132C4B438B1, pièce). Lecture partielle : la page donne, selon son intitulé, le texte entier de la Constitution ; seuls sont lus les articles 60, 61, 61-1, 62 et 63 ; le reste de la Constitution n'est pas lu, et ce que le reste pourrait dire contre l'usage qui en est fait n'est donc pas examiné. Passage lu, article 62, troisième alinéa : « Les décisions du Conseil constitutionnel ne sont susceptibles d'aucun recours. Elles s'imposent aux pouvoirs publics et à toutes les autorités administratives et juridictionnelles. » Ce que la pièce dit contre l'usage qui en est fait : l'alinéa vise « Les décisions du Conseil constitutionnel » en général, sans nommer celles qui déclarent une disposition conforme à la Constitution ; les deux premiers alinéas de l'article 62 ne règlent que le sort d'une disposition « déclarée inconstitutionnelle » ; l'article ne dit rien du cas où la disposition jugée change ensuite de rédaction. Où la pièce est appelée : fiche FR-4, champs 4 et 7."
+    url: "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+    etat_lecture: ouverte
+    date_verification: 2026-11-22
+  - ref: S93
+    nature: jurisprudence
+    reference: "Conseil constitutionnel, décision n° 2026-903 DC du 21 mai 2026, Loi de simplification de la vie économique, « Non conformité partielle », JORF n°0122 du 27 mai 2026, texte n° 3. OUVERT PAR TÉLÉCHARGEMENT DIRECT, lu le 2026-11-22 (2026-11-07/livre-6/telecharges/t29-cc-2026-903-dc/cc-2026-903-dc.html, SHA-256 8FC6A0C47F969B4F192D18A394820A86B81BE5B4852795AD8C75E0F9BED1179B, pièce). Lecture : texte entier de la décision, des saisines à l'article 3 du dispositif et à la mention « Rendu public le 21 mai 2026 », 156 paragraphes ; le menu, le cartouche de liens et le pied de page du site, que la page porte autour de la décision, ne sont pas la décision. Les passages sont donnés avec l'apostrophe droite, la page écrivant l'apostrophe courbe. Passages lus que les fiches citent : paragraphe 29, « Une telle qualification permet seulement à l'autorité compétente de l'État d'engager une procédure de mise en compatibilité des documents locaux de planification et d'urbanisme pour rendre possible la réalisation d'un tel projet. » ; paragraphe 30, « il ressort des termes mêmes des dispositions du dernier alinéa de l'article L. 411-2-1 du code de l'environnement, qui renvoient au seul décret prévu au paragraphe I de l'article L. 300 6 2 du code de l'urbanisme sans inclure le décret prévu par les nouvelles dispositions de son paragraphe I bis, que le législateur n'a pas prévu qu'un centre de données, qualifié par décret de projet d'intérêt national majeur, puisse se voir reconnaître de manière anticipée le caractère de projet répondant à une raison impérative d'intérêt public majeur pour la délivrance d'une dérogation à la réglementation relative aux espèces protégées » (la page écrit « L. 300 6 2 », sans traits d'union) ; paragraphe 156, « Le Conseil constitutionnel n'a soulevé d'office aucune autre question de conformité à la Constitution et ne s'est donc pas prononcé sur la constitutionnalité des autres dispositions que celles examinées dans la présente décision. » ; article 2 du dispositif, premier tiret, « le premier alinéa du paragraphe I bis de l'article L. 300 6 2 du code de l'urbanisme, dans sa rédaction résultant de l'article 35 de la loi déférée ». Ce que la pièce dit contre l'usage qui en est fait : elle ne se prononce pas sur la conformité de l'article L. 411-2-1 du code de l'environnement, qu'elle ne nomme qu'au paragraphe 30, pour écarter un grief dirigé contre le I bis de l'article L. 300-6-2, et qui n'est pas à l'article 2 du dispositif ; elle est du 21 mai 2026 et lit le dernier alinéa de cet article comme renvoyant « au seul décret prévu au paragraphe I » ; rapprochée des pièces de Légifrance (fiche FR-1, champs 2 et 7), cette lecture est celle de l'alinéa tel que la loi déférée le laissait, non de sa rédaction en vigueur, qui renvoie au I et au I ter ; elle ne porte ni le numéro de la loi, qu'elle appelle « la loi déférée », ni les mots « rédaction issue » pour cet alinéa : les mots « promulguée le 26 mai 2026 sous le n° 2026-403 » des fiches rapprochent la décision des pièces de Légifrance (fiche FR-1, champs 2 et 7) ; la conformité qu'elle déclare pour l'article L. 300-6-2 ne porte que sur le premier alinéa du I bis (paragraphe 33 et article 2) ; « permet seulement » est dit de la qualification d'un centre de données au titre du I bis (paragraphes 28 et 29), non de celle des projets du I. Où la pièce est appelée : fiche FR-1, champs 6, 7 et 8 ; fiche FR-2, champs 4 et 7 ; fiche FR-7, ligne « Ce qui manque »."
+    url: "https://www.conseil-constitutionnel.fr/decision/2026/2026903DC.htm"
+    etat_lecture: ouverte
+    date_verification: 2026-11-22
 verifications_en_attente: []
-resume: "L'annexe FR rassemble neuf fiches sur des textes et décisions du droit français qui agissent sur le recours ou sur la décision locale : le régime du projet d'intérêt national majeur et le contentieux du décret qui qualifie le projet de lithium d'Imerys dans l'Allier, la concession de mines, et deux règles générales du contentieux de l'urbanisme et de l'autorisation environnementale. Chaque fiche dit, sur pièce officielle lue, ce que le texte fait, qui l'a porté, à qui il profite et dans quel état de certitude, puis ce que la pièce dit contre l'usage qui en est fait et ce qui manque. Plusieurs de ces mécanismes sont généraux et ne nomment aucune extraction ; des neuf décrets de qualification de projet d'intérêt national majeur que les fiches recensent, seul celui d'Imerys qualifie une extraction."
-concepts: [projet_interet_national_majeur, raison_imperative_interet_public_majeur, concentration_du_contentieux, mise_en_compatibilite_par_decret]
-renvois: [L6.C08, L6.C12]
+resume: "L'annexe FR rassemble neuf fiches sur des textes et décisions du droit français qui agissent sur le recours, sur la décision locale ou, pour la concession de mines, sur les droits du propriétaire de la surface : le régime du projet d'intérêt national majeur et le contentieux du décret qui qualifie le projet de lithium d'Imerys dans l'Allier, la concession de mines, et deux règles du contentieux de l'urbanisme et de l'autorisation environnementale. Chaque fiche dit, sur pièce officielle lue, ce que le texte fait, qui l'a porté, à qui il profite et dans quel état de certitude, puis ce que la pièce dit contre l'usage qui en est fait et ce qui manque. Plusieurs de ces mécanismes ne sont pas propres à l'extraction et n'en nomment aucune ; des neuf décrets de qualification de projet d'intérêt national majeur que les fiches recensent, seul celui d'Imerys qualifie une extraction."
+concepts: [projet_interet_national_majeur, raison_imperative_interet_public_majeur, irrecevabilite_exception_illegalite, mise_en_compatibilite_par_decret]
+renvois: [L6.C08]
 ---
 
-# Annexe FR — l'autorisation des projets d'extraction en droit français et le contentieux qui les vise
+# Annexe FR — le projet d'intérêt national majeur, la concession de mines et deux règles du contentieux de l'urbanisme et de l'autorisation environnementale en droit français
 
-Cette annexe établit, sur pièces officielles lues, ce que neuf textes ou décisions du droit français font au recours contre un projet ou à la décision locale qui l'autorise. Six fiches portent sur le projet d'intérêt national majeur. Lorsque le décret qui qualifie un projet au titre du I ou du I ter de l'article L. 300-6-2 du code de l'urbanisme lui a reconnu une raison impérative d'intérêt public majeur, cette reconnaissance ne peut être contestée qu'à l'occasion d'un recours dirigé contre ce décret, et non à l'appui du recours contre l'acte accordant la dérogation à la protection des espèces (concentration du contentieux) ; les centres de données du I bis ne sont pas visés (FR-1). Le Conseil constitutionnel a jugé cette règle conforme à la Constitution dans sa rédaction de 2023 (FR-4). Le décret n° 2024-740, qui qualifie l'extraction et la transformation de lithium par la société Imerys dans l'Allier et lui reconnaît la raison impérative (FR-3), a fait l'objet d'un recours pour excès de pouvoir que le Conseil d'État a rejeté (FR-5).
+Cette annexe rassemble neuf fiches, établies sur pièces officielles lues, sur des textes et des décisions du droit français qui agissent sur le recours contre un projet, sur la décision locale qui l'autorise ou, pour la concession de mines, sur les droits du propriétaire de la surface. Six fiches portent sur le projet d'intérêt national majeur. Lorsque le décret qui qualifie un projet au titre du I ou du I ter de l'article L. 300-6-2 du code de l'urbanisme lui a reconnu une raison impérative d'intérêt public majeur, cette reconnaissance ne peut être contestée qu'à l'occasion d'un recours dirigé contre ce décret, et non à l'appui du recours contre l'acte accordant la dérogation à la protection des espèces (irrecevabilité de l'exception d'illégalité) ; la demande d'abrogation du décret devenu illégal, et le recours contre le refus de l'abroger, restent ouverts, ce que le Conseil constitutionnel a relevé pour la rédaction de 2023 ; les centres de données du I bis ne sont pas visés (FR-1). Le Conseil constitutionnel a jugé cette règle conforme à la Constitution dans sa rédaction de 2023, en retenant qu'elle ne s'appliquait qu'à « des projets industriels qualifiés d'intérêt national majeur en raison de leur importance pour la transition écologique ou la souveraineté nationale » [S6] ; aucune pièce lue ne juge les rédactions postérieures : celle de 2025, qui a ajouté un alinéa à l'article, ni celles de 2026, qui ont retiré « industriel » [S3] [S4] et la finalité et ajouté le I ter (FR-4). Les deux autres conditions de la dérogation — l'absence d'autre solution satisfaisante et le maintien des espèces dans un état de conservation favorable — restent appréciées projet par projet (FR-1, FR-5). Le décret n° 2024-740, qui qualifie l'extraction et la transformation de lithium par la société Imerys dans l'Allier — il écrit « Imérys » [S17] — et lui reconnaît la raison impérative (FR-3), a fait l'objet d'un recours pour excès de pouvoir que le Conseil d'État a rejeté, en jugeant que ce décret n'avait pas à être précédé d'une évaluation environnementale ni soumis à la participation du public, dont il ne dispense pas les travaux (FR-5).
 
-Pour un projet qualifié, l'État peut faire adopter par décret la mise en compatibilité d'un document d'urbanisme ou de planification qui ne permet pas sa réalisation (mise en compatibilité par décret) ; l'engagement de la procédure suppose l'accord du maire de la commune d'implantation, ou du président de l'intercommunalité lorsqu'un plan local d'urbanisme intercommunal s'applique, et du président de la région lorsque son document doit être mis en compatibilité, accord réputé donné faute de réponse dans le mois (FR-2). Pour les actes pris depuis le 1er juillet 2026 qui conditionnent un tel projet, les litiges relèvent des cours administratives d'appel en premier et dernier ressort, hormis les litiges indemnitaires et les actes contractuels, et les décrets restent au Conseil d'État ; ce régime vise aussi d'autres catégories de projets (FR-6).
+Pour un projet qualifié, l'État peut faire adopter par décret la mise en compatibilité d'un document d'urbanisme ou de planification qui ne permet pas sa réalisation (mise en compatibilité par décret) ; l'engagement de la procédure suppose l'accord du maire de la commune d'implantation, ou du président de l'intercommunalité lorsqu'un plan local d'urbanisme intercommunal s'applique, et du président de la région lorsque son document doit être mis en compatibilité, accord réputé donné faute de réponse dans le mois ; si la commune ou l'intercommunalité et la région répondent en sens contraire, la décision de la commune ou de l'intercommunalité l'emporte (FR-2). Pour les actes pris depuis le 1er juillet 2026 qui conditionnent un tel projet, les litiges relèvent des cours administratives d'appel en premier et dernier ressort, hormis les litiges indemnitaires, les actes contractuels et les actes qui relèvent du Conseil d'État, dont les décrets. Le tribunal administratif qui sursoit à statuer pour permettre la régularisation de l'acte attaqué « reste compétent en premier ressort » [S43]. Le tiers doit notifier son recours à l'auteur et au bénéficiaire de la décision « dans un délai de quinze jours francs » [S44], « à peine d'irrecevabilité » [S44], obligation que « l'affichage ou la publication mentionnent » [S44] ; le délai de recours « n'est pas prorogé par l'exercice d'un recours administratif » [S44] ; « les parties ne peuvent plus invoquer de moyens nouveaux passé un délai de deux mois à compter de la communication aux parties du premier mémoire en défense » [S45] ; la cour « statue dans un délai de dix mois » [S44], avec un nouveau délai de six mois si elle sursoit à statuer pour régularisation. Ce régime vise aussi d'autres catégories de projets ; aucune pièce lue ne nomme un projet jugé sous ce régime (FR-6).
 
-Une fiche porte sur un régime propre aux mines : l'institution d'une concession, accordée par décret, crée un droit immobilier distinct de la propriété de la surface, et le concessionnaire jouit du droit de rechercher et d'extraire les substances concédées « à l'exclusion de tous autres y compris le propriétaire de la surface » (FR-7). Deux fiches portent sur des règles générales du contentieux, qui ne sont pas propres à l'extraction : l'irrecevabilité du recours qu'une association forme contre une décision individuelle d'occupation ou d'utilisation des sols lorsque ses statuts ont été déposés moins d'un an avant l'affichage en mairie de la demande (FR-8), et l'obligation conditionnelle faite au juge de surseoir à statuer pour permettre la régularisation d'une autorisation environnementale ou d'un permis (FR-9). Aucune pièce lue ne montre l'une ou l'autre appliquée à un projet extractif.
+Une fiche porte sur un régime propre aux mines : l'institution d'une concession, accordée par décret après enquête publique, crée un droit immobilier distinct de la propriété de la surface, et, à l'intérieur du périmètre de la concession, le concessionnaire jouit du droit de rechercher et d'extraire les substances concédées « à l'exclusion de tous autres y compris le propriétaire de la surface » [S46] ; les communes sont consultées, et aucun accord préalable ni avis conforme de leur part n'est établi par les articles lus ; le cahier des charges de la concession de Beauvoir renvoie à « chaque demande d'autorisation d'ouverture des travaux miniers d'exploitation » [S56] (FR-7). Deux fiches portent sur des règles du contentieux de l'urbanisme et de l'autorisation environnementale, qui ne sont pas propres à l'extraction : l'irrecevabilité du recours qu'une association forme contre « une décision relative à l'occupation ou l'utilisation des sols » [S61] lorsque ses statuts ont été déposés moins d'un an avant l'affichage en mairie de la demande (FR-8), et l'obligation conditionnelle faite au juge — autres moyens écartés, vice régularisable, observations recueillies — de surseoir à statuer pour permettre la régularisation d'une autorisation environnementale ou d'un permis du code de l'urbanisme, le refus de faire droit à une demande de sursis devant être « motivé » [S79] [S81] (FR-9). Aucune pièce lue ne montre l'une ou l'autre appliquée à un projet extractif.
 
-Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; ce qu'il fait au recours ou à la décision locale ; qui l'a porté ; à qui il profite ; source primaire ; état de certitude, l'un de six — fait documenté, allégation d'une partie, conclusion d'un tribunal, inférence, position normative, point non établi —, écrit en toutes lettres. Deux lignes suivent : ce que la pièce dit contre l'usage qui en est fait, et ce qui manque. Les appels [Sn] renvoient aux pièces de l'en-tête.
+Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; ce qu'il fait au recours ou à la décision locale ; qui l'a porté ; à qui il profite ; source primaire ; état de certitude, l'un de six — fait documenté, allégation d'une partie, conclusion d'un tribunal, inférence, position normative, point non établi. Deux lignes suivent : ce que la pièce dit contre l'usage qui en est fait, et ce qui manque. Les appels [Sn] renvoient aux pièces de l'en-tête. Cette annexe documente trois sujets du chapitre L6.C08 : le projet d'intérêt national majeur, la raison impérative d'intérêt public majeur et le code minier.
 
 ## Fiche FR-1 — la reconnaissance anticipée de la raison impérative, et l'irrecevabilité de l'exception d'illégalité contre elle
 
@@ -678,7 +690,10 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
    depuis le 19 août 2026, certains projets de défense ou du Centre spatial
    guyanais (I ter, loi n° 2026-791). Les centres de données du I bis,
    qualifiables d'intérêt national majeur, ne sont pas visés par cet alinéa
-   (texte en vigueur, voir FR-2). Pièce : l'avis du Conseil d'État écrit que la qualification
+   (texte en vigueur, voir FR-2), ce que le Conseil constitutionnel a constaté
+   dans la rédaction de la loi qui lui était déférée, promulguée le 26 mai 2026
+   sous le n° 2026-403 [S31] [S4] (décision n° 2026-903 DC,
+   paragraphe 30) [S93]. Pièce : l'avis du Conseil d'État écrit que la qualification
    « ne donne toutefois au porteur de projet la sécurité juridique recherchée
    [...] que si elle devient définitive » (avis n° 407035, page 11) [S9]. Bénéficiaires
    nommés par les pièces lues : la société Imerys (arrêt n° 497567, conclusions
@@ -692,8 +707,7 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
    première. Une recherche au Journal officiel du 2026-11-08 (pièce déposée)
    liste neuf décrets « qualifiant de projet d'intérêt national majeur »
    publiés du 5 juillet 2024 au 7 juillet 2026 [S20] ; les neuf sont lus et déposés
-   (les six derniers le 2026-11-08 entre 17 h 05 et 17 h 08, heure de la
-   machine). Chacun porte, en article 2, la même phrase : « Le projet
+   (les six derniers le 2026-11-08). Chacun porte, en article 2, la même phrase : « Le projet
    mentionné à l'article 1er répond à une raison impérative d'intérêt public
    majeur au sens de l'article L. 411-2 du code de l'environnement ». Les
    projets qualifiés sont, outre ceux d'Imerys, d'Holosolis et de Carbon :
@@ -723,7 +737,7 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
 7. **Source primaire** :
    - texte en vigueur : Légifrance, article L. 411-2-1, page « EN VIGUEUR AU
      07 NOVEMBRE 2026 », https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054702403,
-     lu le 2026-11-07 à 21 h 41 (heure du fichier), pièce `legifrance/code-env-L411-2-1.txt`
+     lu le 2026-11-07, pièce `legifrance/code-env-L411-2-1.txt`
      (4CB71EA8…67FA) [S1]. Passage lu : « Le décret, prévu aux I et I ter de
      l'article L. 300-6-2 du code de l'urbanisme, qualifiant un projet de projet
      d'intérêt national majeur peut lui reconnaître le caractère de projet
@@ -736,22 +750,22 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
      21 MAI 2026 AU 28 MAI 2026 »,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054116295/2026-05-21,
      pièce `legifrance/code-env-L411-2-1-version-2026-05-21.txt` (D60C22D9…0F5B) [S3],
-     fichier écrit à 22 h 15 (l'en-tête dit « vers 22 h 18 », heure estimée) ;
+     lue le 2026-11-07 ;
      « EN VIGUEUR DU 28 MAI 2026 AU 19 AOÛT 2026 »,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054141836/2026-05-28,
      pièce `legifrance/code-env-L411-2-1-version-2026-05-28.txt` (95F09ED3…8DF0) [S4],
-     fichier écrit à 22 h 15 (l'en-tête dit « vers 22 h 17 », heure estimée).
+     lue le 2026-11-07.
      Passages lus : « qualifiant un projet industriel de projet d'intérêt
      national majeur pour la transition écologique ou la souveraineté
      nationale » (21 mai) ; « qualifiant un projet de projet d'intérêt national
      majeur pour la transition écologique ou la souveraineté nationale »
-     (28 mai).
+     (28 mai) ; « Le décret, prévu au I de l'article L. 300-6-2 du code de
+     l'urbanisme » (28 mai).
    - version de 2025 : Légifrance, « EN VIGUEUR DU 03 MAI 2025 AU 21 MAI 2026 »,
      « Modifié par LOI n°2025-391 du 30 avril 2025 - art. 23 »,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560687/2025-05-03,
-     lue le 2026-11-08 à 14 h 32 (heure de la machine, `date`), pièce
-     `legifrance/code-env-L411-2-1-version-2025-05-03.txt` (76A427B4…9767) [S2],
-     fichier écrit à 14 h 32 min 36 s. Passage lu : « Le décret, prévu au I de
+     lue le 2026-11-08, pièce
+     `legifrance/code-env-L411-2-1-version-2025-05-03.txt` (76A427B4…9767) [S2]. Passage lu : « Le décret, prévu au I de
      l'article L. 300-6-2 du code de l'urbanisme, qualifiant un projet
      industriel de projet d'intérêt national majeur pour la transition
      écologique ou la souveraineté nationale peut lui reconnaître le caractère
@@ -764,20 +778,20 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
    - autres décrets de qualification (champ 6) : décret n° 2024-676 du 3 juillet
      2024, https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049880732, pièce
      `legifrance/decret-2024-676.txt` (72D009CD…668F) [S18], fichier écrit le
-     2026-11-08 à 14 h 37 min 46 s ; décret n° 2024-677 du 3 juillet 2024,
+     2026-11-08 ; décret n° 2024-677 du 3 juillet 2024,
      https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049880736, pièce
-     `legifrance/decret-2024-677.txt` (C794A2B4…5DB9) [S19], 14 h 38 min 19 s ;
+     `legifrance/decret-2024-677.txt` (C794A2B4…5DB9) [S19] ;
      passage lu dans chacun : « Le projet mentionné à l'article 1er répond à
      une raison impérative d'intérêt public majeur au sens de l'article
      L. 411-2 du code de l'environnement » (article 2). Recherche au Journal
      officiel, « qualifiant de projet d'intérêt national majeur », décrets :
      pièce `legifrance/jorf-recherche-decrets-qualification-pinm.txt`
-     (F83716B1…8A80) [S20], 14 h 34 min 38 s, adresse en tête de la pièce ; elle
+     (F83716B1…8A80) [S20], adresse en tête de la pièce ; elle
      porte les intitulés et références de neuf décrets (n° 2024-676, 2024-677,
      2024-708, 2024-709, 2024-740, 2024-957, 2025-915, 2026-573, 2026-597),
      non leur contenu.
    - six autres décrets de qualification (champ 6), lus et déposés le
-     2026-11-08 entre 17 h 05 et 17 h 08 (heure de la machine, `date`), copies
+     2026-11-08, copies
      du texte affiché par Légifrance, adresse et références en tête de chaque
      pièce : n° 2024-708, `legifrance/decret-2024-708.txt` (06EDE952…915A) [S21] ;
      n° 2024-709, `legifrance/decret-2024-709.txt` (B381A725…9332) [S22] ;
@@ -799,13 +813,13 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
    - travaux des lois de 2026 (champ 5) : tableaux « La loi en construction »
      du Sénat, https://www.senat.fr/tableau-historique/pjl23-550.html et
      https://www.senat.fr/tableau-historique/pjl25-635.html, téléchargés par
-     script le 2026-11-08 à 17 h 13 et 17 h 14 (heure de la machine), pièces
+     script le 2026-11-08, pièces
      `senat/senat-tableau-historique-pjl23-550.html` (E3D246B3…456B) [S12] et
      `senat/senat-tableau-historique-pjl25-635.html` (6AF27D2F…19AC) [S30], extraits
      des colonnes nommées dans
      `senat/senat-tableau-historique-pjl23-550-extrait-article-15.txt` et
      `senat/senat-tableau-historique-pjl25-635-extrait-article-12-bis-AA.txt` ;
-     amendements lus dans le navigateur intégré à 17 h 15 et 17 h 16 puis
+     amendements lus dans un navigateur puis
      téléchargés : n° CS536,
      https://www.assemblee-nationale.fr/dyn/17/amendements/0481/CSVIEECO/536,
      pièce `an/an-amdt-CS536-pjl17-0481.html` (020CBDFF…C249) [S13] ; n° COM-22,
@@ -815,19 +829,21 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
      pièce `senat/senat-amdt-229-pjl25-667.html` (440837B5…7A5A) [S15] ; page du
      dossier législatif du Sénat du projet n° 550 (« déposé au Sénat le
      24 avril 2024 »), https://www.senat.fr/dossier-legislatif/pjl23-550.html,
-     téléchargée par script le 2026-11-08 à 18 h 20, pièce
+     téléchargée par script le 2026-11-08, pièce
      `senat/senat-dossier-pjl23-550.html` (0DDE6F96…97A6) [S11]. Textes des
      lois : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054131304
      (article 35) et https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054694832
-     (article 20), lus à 17 h 12 ; seuls les deux articles sont déposés,
-     `legifrance/loi-2026-403-art-35.txt` (308368CE…877A) [S31] et
+     (article 20), lus ; seuls les deux articles sont déposés,
+     `legifrance/loi-2026-403-art-35.txt` (308368CE…877A) [S31], dont le IV de
+     l'article 35 porte « [Dispositions déclarées non conforme à la
+     Constitution par la décision du Conseil constitutionnel n° 2026-903 DC du
+     21 mai 2026.] », et
      `legifrance/loi-2026-791-art-20.txt` (F06B05A4…584D) [S32].
    - article R. 411-6-2 du code de l'environnement (ligne « contre ») :
      Légifrance, « EN VIGUEUR DEPUIS LE 25 OCT. 2026 »,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000055017108/2026-10-25,
-     lu le 2026-11-08 à 14 h 36 (heure de la machine, `date`), pièce
-     `legifrance/code-env-R411-6-2.txt` (E540119D…D67C) [S33], fichier écrit à
-     14 h 37 min 46 s.
+     lu le 2026-11-08, pièce
+     `legifrance/code-env-R411-6-2.txt` (E540119D…D67C) [S33].
    - texte de 2023, tel que jugé : décision n° 2024-1126 QPC du 5 mars 2025, paragraphe 1, qui le
      cite en entier ; arrêt du Conseil d'État n° 497567 du 30 septembre 2025,
      point 1, qui le cite en entier et le rattache à l'article 19 ; dossier
@@ -837,6 +853,20 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
      dirigé contre le décret, dont elle est divisible. Elle ne peut être
      contestée à l'appui d'un recours dirigé contre l'acte accordant la
      dérogation prévue au même c. »
+   - décision n° 2026-903 DC du 21 mai 2026 (champs 6 et 8) : Conseil
+     constitutionnel, « Loi de simplification de la vie économique »,
+     https://www.conseil-constitutionnel.fr/decision/2026/2026903DC.htm, lue en
+     entier le 2026-11-22, des saisines à l'article 3 du dispositif, pièce
+     `t29-cc-2026-903-dc/cc-2026-903-dc.html` (8FC6A0C4…179B) [S93]. Passages lus : « il
+     ressort des termes mêmes des dispositions du dernier alinéa de l'article
+     L. 411-2-1 du code de l'environnement, qui renvoient au seul décret prévu
+     au paragraphe I de l'article L. 300 6 2 du code de l'urbanisme sans
+     inclure le décret prévu par les nouvelles dispositions de son paragraphe
+     I bis » (paragraphe 30 ; la page écrit « L. 300 6 2 », sans traits
+     d'union) ; « ne s'est donc pas prononcé sur la constitutionnalité des
+     autres dispositions que celles examinées dans la présente décision »
+     (paragraphe 156). La décision ne porte pas le numéro de la loi : elle
+     écrit « la loi déférée ».
    - origine : projet de loi n° 607, texte sur senat.fr (article 9, III, et
      signatures « Fait à Paris, le 16 mai 2023 ») ; avis du Conseil d'État du
      11 mai 2023, n° 407035, page 11 ; amendement n° 317, « Adopté »,
@@ -876,10 +906,13 @@ Chaque fiche suit la même grille : pays ; intitulé exact du texte ; nature ; c
    stade où le II de l'article 15 a été réduit, inférence tant que le texte
    adopté par l'Assemblée nationale en première lecture n'est pas lu ; et pour
    la reconnaissance de la raison impérative par les neuf décrets de
-   qualification (champ 6). Points non établis : qui a porté l'article 8 de la
-   loi n° 2026-381 ; si une rédaction de 2026 a été jugée par le Conseil
-   constitutionnel (la décision n° 2026-903 DC du 21 mai 2026, que Légifrance
-   relie à l'article L. 300-6-2, n'est pas lue).
+   qualification (champ 6). Conclusion d'un tribunal pour la lecture de
+   l'alinéa par la décision n° 2026-903 DC du 21 mai 2026 : dans la rédaction
+   de la loi qui lui était déférée, promulguée le 26 mai 2026 sous le
+   n° 2026-403 [S31] [S4], il ne renvoyait qu'au décret du I, non à celui
+   du I bis (paragraphe 30) [S93]. Points non établis : qui a porté l'article 8 de la
+   loi n° 2026-381 ; la conformité d'une rédaction de 2026, sur laquelle cette
+   décision ne se prononce pas (paragraphe 156) [S93].
 
 **Ce que la pièce dit contre l'usage qui en est fait.** L'irrecevabilité est
 étroite, mais elle prive bien le juge de la dérogation d'un examen : le Conseil constitutionnel
@@ -924,7 +957,7 @@ l'article L. 411-2-1 du code de l'environnement » (article L. 300-6-2, XIII,
 présent dès la version du 28 mai 2026) [S35]. L'article R. 411-6-2 du code de
 l'environnement, « Modifié par Décret n°2026-980 du 23 octobre 2026 - art. 1 »,
 lu et déposé le 2026-11-08 (`legifrance/code-env-R411-6-2.txt` [S33],
-E540119D…D67C, 14 h 36, heure de la machine), dit, « Pour l'application des
+E540119D…D67C), dit, « Pour l'application des
 dispositions des articles L. 300-6 du code de l'urbanisme, L. 300-6-2 du même
 code, L. 126-1 du code de l'environnement ou L. 122-1-1 du code de
 l'expropriation pour cause d'utilité publique », que « sont portées à la
@@ -949,9 +982,8 @@ qualification est demandée pour « la nécessité du recours au statut de PINM,
 notamment pour la dérogation aux procédures liées à la protection des espèces
 protégées » [S26].
 
-**Ce qui manque.** Les travaux de la loi n° 2026-381 (article 8) ; la décision
-n° 2026-903 DC du 21 mai 2026. La fiche ne dépend pas de ces pièces pour
-l'irrecevabilité de l'exception, lue en vigueur.
+**Ce qui manque.** Les travaux de la loi n° 2026-381 (article 8). La fiche ne
+dépend pas de ces travaux pour l'irrecevabilité de l'exception, lue en vigueur.
 
 ## Fiche FR-2 — le projet d'intérêt national majeur et la mise en compatibilité des documents d'urbanisme par décret
 
@@ -979,10 +1011,15 @@ l'irrecevabilité de l'exception, lue en vigueur.
    applicable sur le territoire de celle-ci », et, « lorsque son document de
    planification doit être mis en compatibilité », du président de la région ;
    cet accord est « réputé donné » faute de réponse dans le mois (II) [S35]. Le
-   mécanisme vaut depuis le 28 mai 2026 pour « Un projet industriel ou
+   mécanisme, ouvert en 2023 à « Un projet industriel » (arrêt n° 497567,
+   point 1) [S16], vaut depuis le 28 mai 2026 pour « Un projet industriel ou
    d'infrastructure » (I) [S35] et pour « Un centre de données » (I bis) [S35], et depuis
    le 19 août 2026 aussi pour des projets de défense ou du Centre spatial
-   guyanais (I ter) [S35]. Depuis le 10 décembre 2025, l'autorité de l'État qui
+   guyanais (I ter) [S35]. Le Conseil constitutionnel a déclaré conforme à la
+   Constitution le premier alinéa du I bis (décision n° 2026-903 DC du 21 mai
+   2026, article 2) [S93], en relevant que la qualification d'un centre de données
+   « permet seulement à l'autorité compétente de l'État d'engager une procédure
+   de mise en compatibilité [...] » (paragraphe 29) [S93]. Depuis le 10 décembre 2025, l'autorité de l'État qui
    conduit la procédure est « le préfet du département dans lequel se situe le
    projet industriel qualifié de projet d'intérêt national majeur » (article
    D. 300-27-1 du code de l'urbanisme, créé par le décret n° 2025-1181 du
@@ -1053,7 +1090,7 @@ l'irrecevabilité de l'exception, lue en vigueur.
 7. **Source primaire** :
    - texte en vigueur : Légifrance, article L. 300-6-2, page « EN VIGUEUR AU
      07 NOVEMBRE 2026 », https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048248707,
-     lu le 2026-11-07 à 21 h 43 (heure du fichier), pièce
+     lu le 2026-11-07, pièce
      `legifrance/code-urba-L300-6-2.txt` (0D284C07…1D0771) [S35]. Passages lus :
      « Un projet industriel ou d'infrastructure [...] peut être qualifié par
      décret de projet d'intérêt national majeur » (I) ; « Un centre de données
@@ -1065,8 +1102,7 @@ l'irrecevabilité de l'exception, lue en vigueur.
    - version intermédiaire : Légifrance, « EN VIGUEUR DU 28 MAI 2026 AU 19 AOÛT
      2026 », « Modifié par LOI n°2026-403 du 26 mai 2026 - art. 35 »,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054141805/2026-05-28,
-     fichier écrit le 2026-11-07 à 22 h 12 (heure du fichier ; l'en-tête de la
-     pièce dit « vers 22 h 03 », heure estimée), pièce
+     fichier écrit le 2026-11-07, pièce
      `legifrance/code-urba-L300-6-2-version-2026-05-28.txt` (C083166A…7872) [S40].
      Elle porte déjà le I
      élargi, le I bis, le II et le XIII du texte en vigueur ; elle n'a pas de
@@ -1084,8 +1120,7 @@ l'irrecevabilité de l'exception, lue en vigueur.
      compatibilité » (XI).
    - navette de 2023 (champ 5) : tableau « La loi en construction »,
      https://www.senat.fr/tableau-historique/pjl22-607.html, téléchargé par
-     script le 2026-11-08, fichier écrit à 17 h 12 min 03 s (heure de la
-     machine), pièce
+     script le 2026-11-08, pièce
      `senat/senat-tableau-historique-pjl22-607.html` (F20F30C4…03A7) [S39], extrait
      des colonnes nommées dans
      `senat/senat-tableau-historique-pjl22-607-extrait-accord-du-maire.txt` :
@@ -1094,7 +1129,7 @@ l'irrecevabilité de l'exception, lue en vigueur.
      première lecture » le porte avec la mention « Amdts n° 714, n° 1387,
      n° 1416(s/amdt) » ; la colonne « Texte adopté en commission mixte
      paritaire » porte le « I bis (nouveau) » avec la région [S39]. Amendements lus
-     dans le navigateur intégré à 17 h 16 puis téléchargés :
+     dans un navigateur puis téléchargés :
      https://www.assemblee-nationale.fr/dyn/16/amendements/1443/INDVERTE/714,
      pièce `an/an-amdt-CS714-pjl16-1443.html` (0ADF6DE3…B09A) [S36] ; même adresse
      finissant par 1387, pièce `an/an-amdt-CS1387-pjl16-1443.html`
@@ -1107,14 +1142,26 @@ l'irrecevabilité de l'exception, lue en vigueur.
      https://www.senat.fr/amendements/commissions/2023-2024/550/Amdt_COM-331.html,
      pièce `senat/senat-amdt-COM-331-pjl23-550.html` (F99F3C3B…254B) [S42], et le
      n° COM-329, même adresse finissant par COM-329.html, pièce
-     `senat/senat-amdt-COM-329-pjl23-550.html` (0831A3D2…B6EC) [S41], lus à 17 h 15
+     `senat/senat-amdt-COM-329-pjl23-550.html` (0831A3D2…B6EC) [S41], lus
      et téléchargés le 2026-11-08 ; date du dépôt du projet n° 550 : page du
      dossier législatif du Sénat, `senat/senat-dossier-pjl23-550.html`
      (0DDE6F96…97A6) [S11], citée à la fiche FR-1, champ 7.
    - décret n° 2025-1181 du 8 décembre 2025 (champ 4) :
      https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053001015, lu le
-     2026-11-08 à 17 h 08 (heure de la machine), pièce
+     2026-11-08, pièce
      `legifrance/decret-2025-1181.txt` (D554BC7A…A7CE) [S28].
+   - décision n° 2026-903 DC du 21 mai 2026 (champ 4) : Conseil
+     constitutionnel, « Loi de simplification de la vie économique »,
+     https://www.conseil-constitutionnel.fr/decision/2026/2026903DC.htm, lue en
+     entier le 2026-11-22, pièce `t29-cc-2026-903-dc/cc-2026-903-dc.html`
+     (8FC6A0C4…179B) [S93]. Passages lus : « Une telle qualification permet seulement à
+     l'autorité compétente de l'État d'engager une procédure de mise en
+     compatibilité des documents locaux de planification et d'urbanisme pour
+     rendre possible la réalisation d'un tel projet » (paragraphe 29) ; « le
+     premier alinéa du paragraphe I bis de l'article L. 300 6 2 du code de
+     l'urbanisme, dans sa rédaction résultant de l'article 35 de la loi
+     déférée » (article 2 du dispositif ; la page écrit « L. 300 6 2 », sans
+     traits d'union).
    - adresses et pièces : dossier documentaire
      (`cc-2024-1126-qpc-doc.pdf` [S34], E5B26F5E…848C), arrêt
      (`ce-2025-09-30-497567.html` [S16], 916A5ED3…1BBF), projet de loi
@@ -1154,9 +1201,17 @@ d'un centre de données implanté sur un territoire connaissant des tensions
 structurelles sur la ressource en eau » (I bis) [S35].
 
 **Ce qui manque.** Une mise en compatibilité engagée pour un projet qualifié
-(aucune pièce lue) ; la décision n° 2026-903 DC du 21 mai 2026 ; le décret en
+(aucune pièce lue) ; le décret en
 Conseil d'État prévu au XIII, si le décret n° 2026-980 n'est pas lui (FR-1,
-champ 8).
+champ 8) ; une pièce disant si l'accord du maire ou du président de
+l'intercommunalité, et celui du président de la région lorsqu'il est requis,
+se donnent avec ou sans délibération de l'assemblée : aucune pièce lue ne le
+dit. La fiche ne traite pas l'article L. 152-5-3 du code de l'urbanisme, que la
+loi n° 2026-403 insère (article 35, I, 2°) et qui permet à l'autorité
+« compétente pour délivrer l'autorisation d'urbanisme » d'autoriser les projets
+qualifiés « à déroger aux règles des plans locaux d'urbanisme relatives à la
+hauteur, dans des limites précisées par décret en Conseil d'Etat » [S31] : ni
+l'article codifié en vigueur ni ce décret ne sont lus.
 
 ## Fiche FR-3 — le décret Imerys
 
@@ -1196,8 +1251,7 @@ champ 8).
    requête (1°), point 3 et dispositif [S16].
 7. **Source primaire** : le décret, Légifrance, version initiale au Journal
    officiel, https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049893405, lu
-   le 2026-11-07 à 21 h 44 (heure du fichier, 21 h 44 min 59 s ; l'en-tête de
-   la pièce dit « vers 22 h 18 », heure estimée), pièce `legifrance/decret-2024-740.txt`
+   le 2026-11-07, pièce `legifrance/decret-2024-740.txt`
    (45D36BCA…C251) [S17]. Passages lus : « Le projet mentionné à l'article 1er répond
    à une raison impérative d'intérêt public majeur au sens de l'article L. 411-2
    du code de l'environnement » (article 2) ; « Vu le code de l'environnement,
@@ -1265,11 +1319,13 @@ conditionnent pas la fiche.
    que « cette restriction ne s'applique que dans le cas où cette
    reconnaissance bénéficie à des projets industriels qualifiés d'intérêt
    national majeur en raison de leur importance pour la transition écologique
-   ou la souveraineté nationale » [S6]. L'autorité qui s'attache à cette déclaration
-   de conformité au-delà de l'instance est un point de droit que les pièces
-   lues ne portent pas (la décision vise « la Constitution » ; son article 62
-   n'est pas dans les pièces) ; aucune pièce lue ne juge les rédactions de
-   2026, qui ont retiré « industriel » et la finalité et ajouté le I ter (FR-1,
+   ou la souveraineté nationale » [S6]. L'article 62 de la Constitution dit que les
+   décisions du Conseil constitutionnel « s'imposent aux pouvoirs publics et à
+   toutes les autorités administratives et juridictionnelles » [S92] ; il ne dit rien
+   d'une rédaction postérieure de la disposition jugée, et aucune pièce lue ne
+   juge les rédactions postérieures : celle de 2025, qui a ajouté un alinéa à
+   l'article, ni celles de 2026, qui ont retiré « industriel » et la finalité
+   et ajouté le I ter (FR-1,
    champ 2). Dans l'instance Imerys, le Conseil d'État en tire que le moyen
    d'inconstitutionnalité soulevé par voie d'exception « ne peut qu'être
    écarté » (arrêt n° 497567, point 10) [S16].
@@ -1302,11 +1358,22 @@ conditionnent pas la fiche.
    point 10, https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2025-09-30/497567.
    Lu le 2026-11-07. Pièces : `cc-2024-1126-qpc.html` (8C25A233…6599) [S6],
    `cc-2024-1126-qpc-ccc.pdf` (D4186C80…1AC0) [S5],
-   `ce-2025-09-30-497567.html` (916A5ED3…1BBF) [S16].
+   `ce-2025-09-30-497567.html` (916A5ED3…1BBF) [S16]. Pour le champ 4 aussi :
+   Constitution du 4 octobre 1958, article 62, texte publié par le Conseil
+   constitutionnel (« Texte intégral en vigueur à jour de la révision
+   constitutionnelle du 8 mars 2024 »),
+   https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur,
+   articles 60 à 63 lus le 2026-11-22, le reste de la Constitution non lu.
+   Passage lu : « Les décisions du Conseil constitutionnel ne sont susceptibles
+   d'aucun recours. Elles s'imposent aux pouvoirs publics et à toutes les
+   autorités administratives et juridictionnelles. » (article 62, troisième
+   alinéa). Pièce : `t28/o4-constitution-texte-integral-cc.html`
+   (7FCD2B3D…38B1) [S92].
 8. **État de certitude** : conclusion d'un tribunal pour la conformité de la
    rédaction de 2023 ; inférence pour le profit des porteurs autres qu'Imerys
-   (champ 6) ; point de droit non porté par les pièces pour l'autorité de la
-   décision au-delà de l'instance (champ 4) ; point non établi pour le sens des
+   (champ 6) ; fait documenté pour le texte de l'article 62 de la Constitution,
+   point non établi pour ce que vaut l'autorité de la décision à l'égard d'une
+   rédaction postérieure (champ 4) ; point non établi pour le sens des
    observations du Premier ministre (champ 5).
 
 **Ce que la pièce dit contre l'usage qui en est fait.** La conformité est motivée
@@ -1321,7 +1388,8 @@ impérieuse » là où la loi écrit « raison impérative » ; les paragraphes 
 et 17 écrivent « impérative ». Le paragraphe 1 cite la loi exactement ;
 l'article 1er désigne l'alinéa sans en reproduire le texte.
 
-**Ce qui manque.** Rien pour la fiche.
+**Ce qui manque.** Une décision jugeant l'article L. 411-2-1 dans l'une de ses
+rédactions postérieures à celle de 2023 : aucune pièce lue n'en porte.
 
 ## Fiche FR-5 — l'arrêt qui rejette le recours contre le décret de qualification
 
@@ -1432,8 +1500,8 @@ d'État sur la directive, non celle de la Cour.
    Conseil d'État : « Le Conseil d'Etat est compétent pour connaître en premier
    et dernier ressort : 1° Des recours dirigés contre les ordonnances du
    Président de la République et les décrets » (R. 311-1) [S43], et le I de
-   l'article R. 311-5 excepte « des décisions prévues aux articles R. 311-1 et
-   R. 311-1-1 » [S43].
+   l'article R. 311-5 régit ces litiges « à l'exception des décisions prévues
+   aux articles R. 311-1 et R. 311-1-1 » [S43].
 5. **Qui l'a porté** : le Premier ministre (Sébastien Lecornu), « Sur le rapport
    de la ministre de la transition écologique, de la biodiversité et des
    négociations internationales sur le climat et la nature » (Monique Barbut),
@@ -1474,7 +1542,7 @@ d'État sur la directive, non celle de la Cour.
 7. **Source primaire** :
    - décret n° 2026-302 : Légifrance, « VERSION INITIALE », NOR TECK2532551D,
      https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053925515, lu le
-     2026-11-08 à 17 h 08 (heure de la machine, `date`), pièce
+     2026-11-08, pièce
      `legifrance/decret-2026-302.txt` (4DFA2D19…D019) [S29]. Passages lus : notice
      (« Publics concernés », « Objet », « Entrée en vigueur ») ; visas ;
      articles 2, 3, 4, 5, 7 et 8.
@@ -1482,16 +1550,14 @@ d'État sur la directive, non celle de la Cour.
      matière » (articles R. 311-1 à R. 311-5), « VERSION EN VIGUEUR AU 08
      NOVEMBRE 2026 »,
      https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000006150442/2026-11-08,
-     lu à 17 h 29, pièce `legifrance/cja-R311-1-a-R311-5.txt` (E38EB819…20FF) [S43],
+     lu, pièce `legifrance/cja-R311-1-a-R311-5.txt` (E38EB819…20FF) [S43],
      dont la copie porte aussi, après l'article R. 311-5, l'article R. 311-6
      abrogé, relu en entier le 2026-11-10 (I à IV) ;
      chapitre XVI « Le contentieux de certains projets en matière
      environnementale » (R. 77-16-1 à R. 77-16-3),
-     https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000053926803/2026-11-08,
-     17 h 29, pièce `legifrance/cja-R77-16-1-a-R77-16-3.txt` (3EB06727…B423) [S44] ;
+     https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000053926803/2026-11-08, pièce `legifrance/cja-R77-16-1-a-R77-16-3.txt` (3EB06727…B423) [S44] ;
      article R. 611-7-2,
-     https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053927654/2026-11-08,
-     17 h 30, pièce `legifrance/cja-R611-7-2.txt` (2BA24B20…9248) [S45]. Les trois
+     https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053927654/2026-11-08, pièce `legifrance/cja-R611-7-2.txt` (2BA24B20…9248) [S45]. Les trois
      pages portent « EN VIGUEUR DEPUIS LE 01 JUILLET 2026 » pour les articles
      cités.
    - lu le 2026-11-08.
@@ -1594,8 +1660,8 @@ publiés au Journal officiel.
    « tirer de ces fouilles tous les produits qu'elles peuvent fournir », ne
    tient ce second droit que « sauf les modifications résultant des lois et
    règlements relatifs aux mines » (article 552, depuis 1804) [S53] : pour les
-   substances de mine, le droit que la concession donne à un autre n'a jamais
-   été le sien sans réserve ; c'est le code minier qui le fixe : « L'institution d'une concession, même au profit du propriétaire de la
+   substances de mine, le droit que la concession donne à un autre n'est le
+   sien, depuis 1804, que sous cette réserve ; c'est le code minier qui le fixe : « L'institution d'une concession, même au profit du propriétaire de la
    surface, crée un droit immobilier distinct de la propriété de la surface »,
    et « A l'intérieur du périmètre d'une concession, le concessionnaire jouit,
    à l'exclusion de tous autres y compris le propriétaire de la surface, du
@@ -1665,50 +1731,44 @@ publiés au Journal officiel.
    essentielles au développement des technologies vertes, numériques, de
    défense et spatiales » [S56].
 7. **Source primaire** :
-   - code minier et code civil, Légifrance, lus le 2026-11-07 dans le navigateur
-     intégré (heures des en-têtes estimées « vers 21 h 35 » à « vers 21 h 50 » ;
-     heures des fichiers données ici) : article 552, page du titre II du livre
+   - code minier et code civil, Légifrance, lus le 2026-11-07 dans un navigateur : article 552, page du titre II du livre
      II, https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006117904/2026-11-07,
-     pièce `legifrance/code-civil-art-552.txt` (C2BA24A1…A38A) [S53], 21 h 38 min
-     51 s ; article L. 111-1,
+     pièce `legifrance/code-civil-art-552.txt` (C2BA24A1…A38A) [S53] ; article L. 111-1,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045589509,
-     pièce `legifrance/code-minier-L111-1.txt` (2A8F7F7A…622D) [S47], 21 h 39 min
-     32 s ; article L. 121-1,
+     pièce `legifrance/code-minier-L111-1.txt` (2A8F7F7A…622D) [S47] ; article L. 121-1,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023504075,
-     pièce `legifrance/code-minier-L121-1.txt` (FF9F192C…522B) [S48], 21 h 39 min
-     46 s ; article L. 122-1, page du titre II,
+     pièce `legifrance/code-minier-L121-1.txt` (FF9F192C…522B) [S48] ; article L. 122-1, page du titre II,
      https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504071/2026-11-07,
-     pièce `legifrance/code-minier-L122-1.txt` (DB8ABB32…CB4F) [S49], 21 h 40 min
-     12 s ; articles L. 132-2, L. 132-8, L. 132-15 et L. 153-3, page du livre
+     pièce `legifrance/code-minier-L122-1.txt` (DB8ABB32…CB4F) [S49] ; articles L. 132-2, L. 132-8, L. 132-15 et L. 153-3, page du livre
      Ier, https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023501962/LEGISCTA000023504028/2026-11-07,
      pièces `legifrance/code-minier-L132-2.txt` (FB886B03…F8CB) [S50],
      `legifrance/code-minier-L132-8.txt` (1CD32750…0CC7) [S46],
      `legifrance/code-minier-L132-15.txt` (1FA67B34…9F2C) [S51] et
-     `legifrance/code-minier-L153-3.txt` (51C1F062…4CE9) [S52], 21 h 40 min 43 s.
+     `legifrance/code-minier-L153-3.txt` (51C1F062…4CE9) [S52].
    - origine : ordonnance n° 2022-536, Légifrance, « VERSION INITIALE », JORF
      n° 0088 du 14 avril 2022, texte n° 13,
      https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570540, lue le
-     2026-11-08 à 17 h 30 (heure de la machine, `date`), pièce
+     2026-11-08, pièce
      `legifrance/ordonnance-2022-536.txt` (CA7C018E…DE14) [S55], visas et article 11
      lus ; rapport au Président de la République relatif à cette ordonnance,
      même Journal officiel, texte n° 12,
-     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570531, 17 h 30,
+     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570531,
      pièce `legifrance/rapport-ordonnance-2022-536.txt` (007D3867…F280) [S57] ; loi
      n° 2021-1104 du 22 août 2021, article 81,
-     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924, 17 h 29,
+     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924,
      pièce `legifrance/loi-2021-1104-art-81.txt` (07A03CA7…9518) [S54].
    - bénéficiaire : décret n° 2026-969 du 20 octobre 2026, JORF n° 0246 du
      21 octobre 2026, texte n° 13,
-     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055002699, lu à 17 h 31,
+     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055002699, lu,
      pièce `legifrance/decret-2026-969.txt` (A908D821…757C) [S56], annexe (cahier des
      charges) comprise ; arrêté du 15 mai 2015,
-     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030624494, 17 h 31,
+     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030624494,
      pièce `legifrance/arrete-2015-05-15-per-beauvoir.txt` (7B591673…4735) [S58] ;
      arrêté du 11 mai 2021,
-     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043576252, 17 h 32,
+     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043576252,
      pièce `legifrance/arrete-2021-05-11-per-beauvoir-prolongation.txt`
      (920DCF5D…BF43) [S59] ; arrêté du 23 janvier 2025,
-     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051324368, 17 h 32,
+     https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051324368,
      pièce `legifrance/arrete-2025-01-23-per-beauvoir-mutation.txt`
      (3BF10541…DD89) [S60]. Trouvés par la recherche « permis de Beauvoir » dans le
      fonds Journal officiel (« 4 articles trouvés dans 5 textes »), non déposée.
@@ -1722,9 +1782,8 @@ publiés au Journal officiel.
    accord préalable ni avis conforme sur la concession (ligne « contre »),
    la procédure d'instruction n'étant pas lue.
 
-**Ce que la pièce dit contre l'usage qui en est fait.** Le code civil n'a jamais
-donné les substances de mine au propriétaire du sol : la réserve des « lois et
-règlements relatifs aux mines » est dans l'article 552 depuis 1804 [S53] : la
+**Ce que la pièce dit contre l'usage qui en est fait.** L'article 552 du code
+civil réserve, depuis 1804, les « lois et règlements relatifs aux mines » [S53] : cette
 réserve est le régime d'origine du code civil ; que la concession crée « un
 droit immobilier distinct » est le texte de l'article L. 132-8 [S46], dont l'origine
 (loi du 21 avril 1810, non lue) n'est pas établie par les pièces. Le
@@ -1760,8 +1819,8 @@ procédure » (article 81, I, 2°, b) [S54]. La commune est consultée (visas) [
 n'ait ni accord préalable ni avis conforme sur la concession est une inférence
 tirée du silence des articles lus et des visas, la procédure d'instruction
 (articles L. 114-1 à L. 114-6 et L. 132-3 en vigueur, décret n° 2025-851)
-n'étant pas lue (champ 8). La concession ne dispense
-d'aucune autorisation ultérieure : le cahier des charges renvoie aux
+n'étant pas lue (champ 8). Le cahier des charges de la concession de Beauvoir
+renvoie à des autorisations à venir : aux
 « autorisations environnementales délivrées pour la mise en œuvre du projet »
 (article 3) [S56] et à « chaque demande d'autorisation d'ouverture des travaux
 miniers d'exploitation » (article 6) [S56].
@@ -1771,7 +1830,12 @@ L. 114-6 du code minier (refus pour « doute sérieux », cahier des charges),
 visés par le décret de concession ; l'ordonnance n° 2022-1423 (article 2) ; la
 ratification des ordonnances ; l'origine du premier alinéa de l'article
 L. 132-8 (loi du 21 avril 1810, non lue) ; les travaux de la loi n° 2021-1104
-sur l'article 81.
+sur l'article 81. La fiche ne traite pas l'article 43 de la loi n° 2026-403, qui « modifie
+plusieurs dispositions du code minier et du code de l'environnement afin
+notamment d'accélérer les procédures d'attribution de titres miniers » et dont
+le Conseil constitutionnel a déclaré plusieurs dispositions conformes à la
+Constitution (décision n° 2026-903 DC, paragraphe 77 et article 2) [S93] : cet
+article n'est pas lu.
 
 ## Fiche FR-8 — l'irrecevabilité du recours d'une association dont les statuts ont été déposés moins d'un an avant l'affichage de la demande
 
@@ -1805,8 +1869,8 @@ sur l'article 81.
 3. **Nature** : loi (disposition codifiée) ; décisions du Conseil
    constitutionnel sur question prioritaire de constitutionnalité.
 4. **Ce qu'il fait au recours** : irrecevabilité du recours qu'une association
-   forme contre une décision individuelle d'occupation ou d'utilisation des
-   sols (permis, non-opposition à déclaration préalable) lorsque le dépôt de
+   forme contre « une décision relative à l'occupation ou l'utilisation des
+   sols » (permis, non-opposition à déclaration préalable) lorsque le dépôt de
    ses statuts en préfecture date de moins d'un an avant l'affichage en mairie
    de la demande. La règle de 2006 exigeait que le dépôt des statuts soit
    intervenu « antérieurement à » cet affichage ; celle de 2018 recule cette
@@ -1925,30 +1989,28 @@ sur l'article 81.
 7. **Source primaire** :
    - texte en vigueur : Légifrance, article L. 600-1-1, page en vigueur au
      8 novembre 2026, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037668002,
-     lu le 2026-11-07 vers 22 h 08 et relu le 2026-11-08 vers 21 h 05 dans le
-     navigateur intégré, texte identique, pièce `legifrance/code-urba-L600-1-1.txt`
+     lu le 2026-11-07 et relu le 2026-11-08 dans un navigateur, texte identique, pièce `legifrance/code-urba-L600-1-1.txt`
      (47EA3277…100A) [S61] ;
    - version de 2006 : même adresse suivie de `/2018-12-31`, page « EN VIGUEUR AU
-     31/12/2018 », lue le 2026-11-08 vers 21 h 20, pièce
+     31/12/2018 », lue le 2026-11-08, pièce
      `legifrance/code-urba-L600-1-1-version-2006-07-16.txt` [S62] ;
    - loi n° 2018-1021, article 80 : Légifrance, « VERSION INITIALE »,
      https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037639478, lu le
-     2026-11-08 vers 21 h 22, pièce `legifrance/loi-2018-1021-art-80.txt` [S63] ;
+     2026-11-08, pièce `legifrance/loi-2018-1021-art-80.txt` [S63] ;
    - décision n° 2022-986 QPC : https://www.conseil-constitutionnel.fr/decision/2022/2022986QPC.htm,
      pièce `cc-2022-986-qpc.html` (23ED8616…97FA) [S64], téléchargée le 2026-11-07,
      relue le 2026-11-08 ; commentaire du Conseil constitutionnel,
      `cc-2022-986-qpc-ccc.pdf` [S75] (et sa conversion `.txt` par `pdftotext`, codée
-     en ISO-8859-1), téléchargé le 2026-11-08 vers 21 h 06, 13 pages
-     (`pypdf` : 13 ; folios imprimés 2 à 13), lu en entier le 2026-11-11
-     vers 17 h 37 sur une conversion `pdftotext -enc UTF-8 -layout` ;
+     en ISO-8859-1), téléchargé le 2026-11-08, 13 pages
+     (`pypdf` : 13 ; folios imprimés 2 à 13), lu en entier le 2026-11-11 sur une conversion `pdftotext -enc UTF-8 -layout` ;
      pages citées : 2 (note 4, champ 8), 5 et 6 (champ 5), 10 à 12 (ligne
      « contre ») ;
    - dossier documentaire de la décision n° 2022-986 QPC (« Source : services
      du Conseil constitutionnel - 2022 »), pièce `cc-2022-986-qpc-doc.pdf`
-     (81403CD0…538E) [S76], téléchargée le 2026-11-08 vers 21 h 06 (sa conversion
+     (81403CD0…538E) [S76], téléchargée le 2026-11-08 (sa conversion
      `.txt` déposée est codée en ISO-8859-1), 15 pages, lue en entier le
      2026-11-10 et relue le
-     2026-11-11 vers 10 h 05 sur une conversion `pdftotext -enc UTF-8
+     2026-11-11 sur une conversion `pdftotext -enc UTF-8
      -layout`, nombre de pages confirmé par `pypdf` ; les arrêts du Conseil
      d'État y sont lus dans leur reproduction, sans visas ni dispositif :
      n° 395419 du 29 mars 2017, points 1 à 7, seuls reproduits (pages 8 et
@@ -1959,14 +2021,14 @@ sur l'article 81.
      de ces arrêts publié par le Conseil d'État n'est pas lu ;
    - décision de renvoi : Conseil d'État, n° 455122,
      https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2022-01-31/455122,
-     téléchargée par `curl` le 2026-11-08 vers 21 h 06, pièce
+     téléchargée par `curl` le 2026-11-08, pièce
      `ce-2022-01-31-455122.html` [S65] ; passages lus : « Vu la procédure »,
      points 1 et 4, dispositif ;
    - décision n° 2011-138 QPC : https://www.conseil-constitutionnel.fr/decision/2011/2011138QPC.htm,
-     téléchargée le 2026-11-08 vers 21 h 09, pièce `cc-2011-138-qpc.html` [S66] (et
+     téléchargée le 2026-11-08, pièce `cc-2011-138-qpc.html` [S66] (et
      `cc-2011-138-qpc.txt`) ; considérants 1, 6 et 7, dispositif ;
    - travaux (pages du Sénat et de l'Assemblée nationale, téléchargées par
-     `curl` le 2026-11-08 entre 21 h 05 et 21 h 12, telles quelles) : dossier
+     `curl` le 2026-11-08, telles quelles) : dossier
      législatif https://www.senat.fr/dossier-legislatif/pjl17-567.html
      (`senat/senat-dossier-pjl17-567.html` [S77]) ; projet de loi n° 846,
      https://www.assemblee-nationale.fr/dyn/15/textes/l15b0846_projet-loi.pdf
@@ -1991,7 +2053,7 @@ sur l'article 81.
      (`senat/senat-cr-cmp-elan-20180917.html` [S78], « L. 600-1-1 » n'y apparaît pas) ;
    - article L. 600-1-2 (champ 4, champ 8) : Légifrance,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667999,
-     page « EN VIGUEUR AU 07 NOVEMBRE 2026 », lue le 2026-11-07 vers 22 h 09,
+     page « EN VIGUEUR AU 07 NOVEMBRE 2026 », lue le 2026-11-07,
      pièce `legifrance/code-urba-L600-1-2.txt` (4A995B82…E54B) [S91], relue en
      entier le 2026-11-11 ;
    - lu le 2026-11-08.
@@ -2098,7 +2160,10 @@ compte rendu n'est pas lu) ; le rapport de la commission mixte paritaire
 (n° 720) ; la suite du pourvoi n° 455122 après la décision du Conseil
 constitutionnel ; une décision appliquant l'article L. 600-1-1 à un projet
 extractif ; le rapport Maugüé lui-même (lu seulement dans le commentaire du
-Conseil constitutionnel) ; l'article L. 600-1-2 et son origine.
+Conseil constitutionnel) ; l'article L. 600-1-2 et son origine ; une décision jugeant si l'article L. 600-1-1 s'applique, ou non, au
+recours contre une concession de mines, une autorisation d'ouverture de
+travaux miniers ou une autorisation environnementale : aucune pièce lue ne le
+dit.
 
 ## Fiche FR-9 — le sursis à statuer pour régularisation de l'autorisation environnementale et du permis, faculté devenue obligation conditionnelle du juge
 
@@ -2155,7 +2220,8 @@ Conseil constitutionnel) ; l'article L. 600-1-2 et son origine.
    dans ce délai au juge, celui-ci statue après avoir invité les parties à
    présenter leurs observations ». L'obligation est conditionnelle (autres
    moyens écartés, vice régularisable, observations recueillies) et le refus
-   reste possible, « motivé » ; depuis le 1er janvier 2019 pour
+   de faire droit à une demande de sursis doit être « motivé » ; depuis le
+   1er janvier 2019 pour
    les permis (loi n° 2018-1021 du 23 novembre 2018, article 80 ; « EN VIGUEUR
    DEPUIS LE 01 JANVIER 2019 ») et depuis 2023 pour les autorisations
    environnementales, le texte est à l'indicatif, et le refus de surseoir doit
@@ -2243,28 +2309,27 @@ Conseil constitutionnel) ; l'article L. 600-1-2 et son origine.
 7. **Source primaire** :
    - L. 181-18 en vigueur : Légifrance, page « EN VIGUEUR AU 07 NOVEMBRE 2026 »,
      https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047303461, lu le
-     2026-11-07 vers 21 h 58, pièce `legifrance/code-env-L181-18.txt`
+     2026-11-07, pièce `legifrance/code-env-L181-18.txt`
      (ACB96148…79CF) [S79] ; version de 2017 : même adresse suivie de `/2023-03-11`,
-     lue le 2026-11-08 vers 21 h 10, pièce
+     lue le 2026-11-08, pièce
      `legifrance/code-env-L181-18-version-2017-03-01.txt` [S80] ;
    - L. 600-5-1 en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667990,
-     lu le 2026-11-07 vers 22 h 10, pièce `legifrance/code-urba-L600-5-1.txt`
+     lu le 2026-11-07, pièce `legifrance/code-urba-L600-5-1.txt`
      (09826AA5…6738) [S81] ; version de 2013 : même adresse suivie de `/2018-12-31`,
-     lue le 2026-11-08 vers 21 h 10, pièce
+     lue le 2026-11-08, pièce
      `legifrance/code-urba-L600-5-1-version-2013-08-19.txt` [S82] ;
    - loi n° 2023-175, article 23 : https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047294244,
-     « VERSION INITIALE », lu le 2026-11-08 vers 21 h 11, pièce
+     « VERSION INITIALE », lu le 2026-11-08, pièce
      `legifrance/loi-2023-175-art-23.txt` [S83] ; loi n° 2018-1021, article 80 :
      pièce `legifrance/loi-2018-1021-art-80.txt` [S63] (FR-8) ; ordonnance
      n° 2017-80, en-tête et visas :
      https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033926976, lu le
-     2026-11-08 vers 21 h 12, pièce `legifrance/ordonnance-2017-80-visas.txt` [S85] ;
+     2026-11-08, pièce `legifrance/ordonnance-2017-80-visas.txt` [S85] ;
    - arrêt n° 448911 : https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-01-25/448911,
      pièce `ce-2023-01-25-448911.html` (4E4B5724…CCE2) [S84], téléchargée le
      2026-11-07, relue le 2026-11-08 ; passages lus : « Vu les procédures
      suivantes », points 1, 7, 8, 9, dispositif, délibéré ;
-   - travaux de la loi n° 2023-175 (pages téléchargées par `curl` le 2026-11-08
-     vers 21 h 13 et 21 h 16, telles quelles) : dossier législatif
+   - travaux de la loi n° 2023-175 (pages téléchargées par `curl` le 2026-11-08, telles quelles) : dossier législatif
      https://www.senat.fr/dossier-legislatif/pjl21-889.html
      (`senat/senat-dossier-pjl21-889.html` [S86]) ; tableau « La loi en construction »
      https://www.senat.fr/tableau-historique/pjl21-889.html
@@ -2291,8 +2356,9 @@ Conseil constitutionnel) ; l'article L. 600-1-2 et son origine.
 l'illégalité : le juge ne l'ordonne qu'« après avoir constaté que les autres
 moyens ne sont pas fondés » et pour un vice « susceptible d'être régularisé »,
 il fixe le délai, puis statue ; si la régularisation n'est pas notifiée dans le
-délai, rien dans le texte ne l'empêche d'annuler ; le refus de surseoir reste
-possible, il doit être « motivé ». Pour l'autorisation environnementale, « En
+délai, rien dans le texte ne l'empêche d'annuler ; le refus de faire droit à
+une demande de sursis doit être « motivé ».
+Pour l'autorisation environnementale, « En
 cas d'annulation ou de sursis à statuer affectant une partie seulement de
 l'autorisation environnementale, le juge détermine s'il y a lieu de suspendre
 l'exécution des parties de l'autorisation non viciées » (L. 181-18, II) [S79] : le
@@ -2311,11 +2377,12 @@ aussi la notification du recours « à peine d'irrecevabilité » [S83] (L. 181-
 deuxième alinéa).
 
 **Ce qui manque.** L'ordonnance n° 2013-638 et son rapport au Président de la
-République (la page Légifrance `JORFTEXT000027727893`, essayée le 8 novembre
-à 21 h 12, répond qu'elle n'a pas de contenu) ; le corps de l'ordonnance n° 2017-80 et son rapport ;
+République (la page Légifrance `JORFTEXT000027727893`, essayée le 8 novembre 2026, répond qu'elle n'a pas de contenu) ; le corps de l'ordonnance n° 2017-80 et son rapport ;
 le rapport n° 82 du Sénat (M. Mandelli) et le rapport de la commission mixte
 paritaire n° 267 sur l'article 5 ; le décret du 29 octobre 2022 sur le
 contentieux des énergies renouvelables que cite l'amendement n° CE1247 ; une
 décision rendue sous la rédaction de 2023 ; une décision appliquant l'un des
 deux articles à un projet extractif ; l'arrêt de renvoi de la cour
-administrative d'appel de Nancy.
+administrative d'appel de Nancy ; une décision qui examine l'article L. 181-18
+du code de l'environnement ou l'article L. 600-5-1 du code de l'urbanisme au
+regard du droit de l'Union : aucune pièce lue ne le fait.
