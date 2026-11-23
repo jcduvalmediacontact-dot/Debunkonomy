@@ -699,8 +699,10 @@
                (article 25), dont le rapport des Administrateurs donne pour
                exemples « une disposition d'un accord d'investissement », « un
                compromis concernant un différend déjà né » et la législation
-               par laquelle « un État hôte pourrait offrir » de soumettre
-               certaines catégories de différends au Centre (paragraphe 24)."
+               par laquelle « un État hôte pourrait offrir » de « soumettre à
+               la compétence du Centre les différends résultant de certaines
+               catégories d'investissements » (paragraphe 24)."
+  premiere_occurrence: L6.C15
 
 - terme: clause_de_survie
   libelle: "Clause de survie"
@@ -715,6 +717,7 @@
                l'accord du 18 février 2026 dit que l'article 47, paragraphe 3,
                du traité sur la Charte de l'énergie « ne produit pas d'effets
                juridiques dans les relations intra-UE »."
+  premiere_occurrence: L6.C15
 
 - terme: projet_strategique_matieres_premieres
   libelle: "Projet stratégique (matières premières critiques)"
@@ -734,6 +737,7 @@
                autorisations « ne dépasse pas » « 27 mois pour des projets
                stratégiques impliquant l'extraction » (article 11,
                paragraphe 1)."
+  premiere_occurrence: L6.C16
 
 - terme: presomption_interet_public_majeur
   libelle: "Présomption d'intérêt public majeur"
@@ -755,6 +759,7 @@
                pas pour les projets stratégiques, qui « peuvent être considérés
                comme revêtant un intérêt public majeur » (article 10,
                paragraphe 2)."
+  premiere_occurrence: L6.C16
 
 - terme: zone_acceleration_renouvelables
   libelle: "Zone d'accélération des énergies renouvelables"
@@ -780,6 +785,7 @@
                plans. Distincte de la présomption de l'article 16 septies
                (presomption_interet_public_majeur), qui porte sur l'intérêt
                public majeur dans la mise en balance d'une dérogation."
+  premiere_occurrence: L6.C16
 
 - terme: clause_de_modification_fiscale
   libelle: "Clause de modification fiscale"
@@ -799,6 +805,7 @@
                sur le contractant, et ces clauses « do not constitute
                stabilisation clauses per se ». Dans les deux affaires, elle ne
                retire pas à l'État le pouvoir d'imposer."
+  premiere_occurrence: L6.C17
 
 - terme: clause_de_stabilisation
   libelle: "Clause de stabilisation"
@@ -818,3 +825,4 @@
                l'affaire Burlington ne leur donne pas ce nom, et l'un de ses
                arbitres, dissident, les tient pour équivalentes à des clauses
                de stabilisation fiscale."
+  premiere_occurrence: L6.C17
