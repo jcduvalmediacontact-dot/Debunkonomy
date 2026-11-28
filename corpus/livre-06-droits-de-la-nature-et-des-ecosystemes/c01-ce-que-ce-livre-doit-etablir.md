@@ -6,111 +6,96 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-10-01
+revision_de_fond: 2026-11-28
 autorite: preparatoire
 citable: false
 regime: conception
-sources_primaires:
-  - ref: S1
-    nature: theorie
-    reference: "*Livre satellite 6 — Droits de la nature et des écosystèmes. Débunker les verrous juridiques de l'ordre extractif*, vingt et un épisodes, Debunk'Onomy, chantier des 29, 30 et 31 août 2026. **OUVERTS ET COPIÉS LE 2026-09-06** depuis le Drive de l'auteur : onze versions maîtresses sans réserve (épisodes 1 à 11), trois validées sous réserve (12, 13, 14), sept rédigées non validées (15 à 21), plus un cadrage d'ensemble, trois checklists et un état de clôture. **771 368 caractères.** Le livre s'accompagne d'un PROTOCOLE ÉDITORIAL en version 6 et d'un REGISTRE TRANSVERSAL en version 4, quarante-six entrées"
-    etat_lecture: a_requalifier
-  - ref: S2
-    nature: theorie
-    reference: "*L6 — PROTOCOLE ÉDITORIAL v06*, 30 août 2026, **OUVERT LE 2026-09-06** — « Document méthodologique transversal du corpus GPT Debunk'Onomy. À lire par toute instance chargée de rédiger, réviser ou étendre un épisode du Livre 6. » Deux parties : **règles substantielles** (discipline des cinq données, qualification institutionnelle, exécution, doctrine, faits à ne jamais confondre, renvoi au registre) et **règles épistémiques** (séparation des niveaux de certitude, datation des données évolutives, nuances politiques)"
-    etat_lecture: a_requalifier
-  - ref: S3
-    nature: theorie
-    reference: "*L6 — ÉTAT DE CLÔTURE DE SESSION*, 31 août 2026, **OUVERT LE 2026-09-06** — section 4, « Erreurs commises et corrigées », qui recense les erreurs de l'opérateur ET **une liste de faits juridiques ÉTABLIS FAUX dans les rapports de défrichage** ; section 3, décisions de méthode, dont la **règle F.6** : « Un rapport de défrichage n'est jamais cité comme source — ni en primaire, ni en secondaire, ni en bibliographie »"
-    etat_lecture: a_requalifier
-  - ref: S4
-    nature: theorie
-    reference: "Le corpus lui-même — `corpus/livres.yaml`, Livre 6 : « Recoupe directement L1.C18 § 2 : Équateur 2008, Atrato 2016, Te Awa Tupua 2017. C'est le livre qui doit établir ce que L1.C18 ne fait qu'énoncer » ; et L20.C16, qui a versé le régime du patrimoine commun de l'humanité en déclarant ce corpus juridique **le plus proche de la sanctuarisation que L7.C13 pose en condition sine qua non**, avec la demande expresse que le Livre 6 soit consulté avant la passe 2 du Livre 20"
-    etat_lecture: a_requalifier
+sources_primaires: []
 verifications_en_attente:
-  # 2026-10-01, CORRECTION DE FOND, sur le mot de l'auteur du 2026-10-01 « Je m'absente 3 heures. Continues sans moi. », repris à 19 h 26 (« Je t'avais dit de continuer sans moi pendant 3 heures !!! »), dans les bornes des ordres 13 et 14 :
-  # propagation de troisième rang (renvois vers l'anneau qui lui font établir ce qu'il ne tient plus) : au § 3, L20.C17 était dit avoir établi que la sanctuarisation de 1982 n'a pas tenu douze ans ; L20.C17 § 5, repris le 30 septembre sur l'accord de 1994 lu en entier, tient que la clause a tenu dans sa lettre, le principe étant réaffirmé et maintenu, et que c'est le régime qui le mettait en œuvre qui a été réécrit.
-  # Statut inchangé.
-  # ── Méthode ────────────────────────────────────────────────────────────────
-  # PREMIER CHAPITRE DU LIVRE 6. La situation est différente de celle des
-  # cinq livres écrits jusqu'ici : LA MATIÈRE ARRIVE AVEC SON PROPRE
-  # APPAREIL DE CONTRÔLE, et cet appareil est PLUS STRICT QUE CELUI DU
-  # CORPUS sur au moins trois points. Le corpus n'a donc pas à l'imposer :
-  # il a à l'éprouver, et à en adopter ce qui lui manque.
-  #
-  - "LE REGISTRE TRANSVERSAL v04 N'EST PAS OUVERT. Il vit dans un document
-     Google et non dans un fichier lisible directement ; **le corpus tient le
-     protocole qui y renvoie et non le registre lui-même**, alors qu'il porte
-     « pour chacune une formulation canonique, une date de validité, une
-     qualification et un déclencheur de révision » — c'est-à-dire l'appareil
-     de vérité du livre. **Première acquisition.**"
-  - "UN BLOC DE FUSION DE DIX-SEPT ENTRÉES, NUMÉROTÉES 45 À 63, ATTEND D'ÊTRE COLLÉ dans
-     ce registre, selon l'état de clôture. **Le corpus travaillerait donc, même
-     s'il ouvrait le registre, sur une version incomplète**, et il doit le
-     dire à chaque emploi."
-  - "SEPT ÉPISODES SUR VINGT ET UN NE SONT PAS VALIDÉS (15 à 21), et trois le
-     sont SOUS RÉSERVE (12, 13, 14) — réserves nommées : divergences d'un
-     jugement, portée du principe de précaution hors antennes-relais, droit
-     comparé de la propriété. **Le corpus ne peut pas traiter ces dix
-     épisodes au même titre que les onze autres**, et il le signalera
-     chapitre par chapitre."
-resume: "Ce chapitre ouvre le Livre 6 et il constate d'emblée une situation que le corpus n'a rencontrée dans aucun des cinq livres précédents. La matière n'arrive pas seule : elle arrive avec son propre appareil de contrôle, un protocole éditorial en sixième version, un registre transversal de quarante-six entrées portant pour chaque donnée partagée une formulation canonique et une date de validité, des checklists tenues en fichiers séparés, et un état de clôture qui recense les erreurs commises. Le chapitre établit que cet appareil est plus strict que celui du corpus sur au moins trois points, qu'il énumère, et il en tire la conséquence de méthode : le corpus n'a pas à imposer sa discipline à ce livre mais à éprouver la sienne et à en adopter ce qui lui manque. Il énonce ensuite ce que le livre doit établir pour le reste du corpus, et la charge est double. D'une part il porte ce que le premier livre ne fait qu'énoncer, à savoir les trois cas où une entité naturelle a reçu une personnalité juridique. D'autre part il a contracté une dette envers lui le jour même, le livre sur le droit international public ayant établi que le régime du patrimoine commun de l'humanité est le corpus juridique le plus proche de la sanctuarisation que le dispositif pose en condition d'existence, et que cette sanctuarisation n'a pas tenu. Il déclare enfin trois manques, dont le plus lourd est que le registre transversal, qui est l'appareil de vérité du livre, n'est pas ouvert."
-concepts: [communs, limites_planetaires, dette_ecologique, externalisation, architecture_invisible]
-renvois: [L1.C17, L1.C18, L6.C02, L6.C03, L6.C04, L7.C13, L20.C16, L20.C17]
+  - "Aucune source : le chapitre ne déclare aucune source primaire. Ce qu'il dit du reste du corpus tient aux chapitres qu'il nomme, dans l'état de lecture qu'ils ont là-bas ; les règles de méthode qu'il pose tiennent à l'auteur, non à une pièce lue."
+  - "Deux des quatre règles de méthode sont instruites ailleurs, par L6.C02 et L6.C03, deux brouillons dont les sources ne sont pas requalifiées. La règle de datation et celle sur les tribunaux arbitraux ne sont instruites par aucun des chapitres que celui-ci nomme."
+  - "La comparaison des résultats d'exécution des tutelles néo-zélandaise et colombienne, que L1.C18 laisse au Livre 6, n'est pas faite ici."
+  - "Des trois cas que L1.C18 énonce, la Constitution de l'Équateur n'est lue dans aucun chapitre du Livre 6."
+  - "Ce que le chapitre rapporte de L20.C17 sur la clause de 1982 est une hypothèse de ce chapitre-là ; elle n'est pas refaite ici."
+resume: "Ce chapitre ouvre le Livre 6 sans déclarer de source : il pose les règles de méthode de l'auteur pour ce livre, distinguer les cinq données d'une affaire contentieuse, distinguer six états de certitude, dater toute donnée qui change et qualifier exactement un tribunal arbitral, et il constate que la convention du corpus n'a pas de règle des cinq données, n'a que trois marques de régime et ne date pas les données. Il nomme ce que le livre doit au premier livre : L1.C18 énonce trois cas où une entité naturelle est reconnue sujet de droits, dont un seul en personne juridique, et lui laisse la comparaison des résultats d'exécution des tutelles néo-zélandaise et colombienne. Il nomme ce que le livre doit au Livre 20 : le régime du patrimoine commun de l'humanité versé par L20.C16, et l'hypothèse de L20.C17 selon laquelle la clause de 1982 a tenu dans sa lettre, le régime qui mettait le principe en œuvre ayant été réécrit douze ans plus tard. Il garde la question de la technique juridique qui résiste à un rapport de forces qui change, que L6.C12 reprend."
+concepts: [communs]
+renvois: [L1.C18, L6.C02, L6.C03, L6.C11, L6.C12, L7.C13, L20.C01, L20.C16, L20.C17]
 ---
 
 # Ce que ce livre doit établir
 
-::etat:: Ce chapitre ouvre le Livre 6. Il constate d'emblée **une situation que le corpus n'a rencontrée dans aucun des cinq livres précédents** : **la matière arrive avec son propre appareil de contrôle.**
+::etat:: Ce chapitre ouvre le Livre 6, consacré aux droits de la nature et des écosystèmes. Il pose les règles de méthode de l'auteur pour ce livre et dit ce que la convention du corpus ne porte pas de ces règles ; il nomme ensuite ce que le livre doit au reste du corpus, par renvoi aux chapitres qui le portent. Il ne déclare aucune source : ce qu'il établit tient aux règles et aux renvois.
 
-## 1. Ce que le dossier contient
+## 1. D'où viennent les règles
 
-::etat:: **Vingt et un épisodes existent** [S1] — onze versions maîtresses sans réserve, trois validées sous réserve, sept rédigées non validées. **771 368 caractères**, copiés le 2026-09-06.
+::hypothese:: L'auteur rapporte avoir écrit ce livre avec un protocole et un registre de données qui lui sont propres, que le corpus ne cite pas.
 
-::etat:: **Et avec eux : un protocole éditorial en sixième version, un registre transversal en quatrième version portant quarante-six entrées, trois checklists tenues en fichiers séparés, sept briefs de recherche, sept notes de recherche, et un état de clôture de session** [S1] [S3].
+## 2. Les règles de méthode de l'auteur pour ce livre
 
-::hypothese:: **Le corpus enregistre que ce n'est pas la même opération que les cinq précédentes.** Pour L1, L7, L8, L11 et L20, il apportait une discipline à une matière qui n'en avait pas de comparable. **Ici, la discipline existe, elle est écrite, elle est datée et versionnée.** Le corpus n'a donc **pas à l'imposer : il a à l'éprouver, et à en adopter ce qui lui manque.**
+::norme:: Règle de méthode de l'auteur pour le Livre 6 : pour toute affaire contentieuse, distinguer le montant réclamé, le montant accordé, les intérêts, l'état des recours et la somme effectivement payée, sans jamais réduire ces cinq données à un seul montant.
 
-## 2. Trois points où cet appareil est plus strict que celui du corpus
+::etat:: L6.C02 instruit cette règle et l'énonce en son § 1. L6.C02 est un brouillon non citable, dont les sources ne sont pas requalifiées.
 
-::etat:: **Premier — la discipline des cinq données** [S2]. Pour toute affaire contentieuse, distinguer systématiquement le montant **réclamé**, le montant **accordé**, les **intérêts**, l'**état des recours**, et **la somme effectivement payée** — « le récit ne doit jamais fondre ces cinq strates en un chiffre unique ». **Le corpus n'a aucune règle de ce genre**, et L6.C02 l'instruit.
+::etat:: La convention du corpus, `corpus/convention.md`, n'a aucune règle de ce genre : ni son § 4, qui règle l'en-tête d'un chapitre, ni son § 10, qui règle la rédaction, ne demandent de distinguer ces cinq données.
 
-::etat:: **Deuxième — six états de certitude au lieu de trois** [S2]. Le protocole distingue **fait documenté, allégation d'une partie, conclusion d'un tribunal, inférence de l'auteur, position normative** — et un **sixième état, le point non établi.** La convention du corpus n'en porte que trois : `::etat::`, `::hypothese::`, `::norme::`. **L6.C03 l'instruit.**
+::norme:: Règle de méthode de l'auteur pour le Livre 6 : distinguer six états de certitude, le fait documenté, l'allégation d'une partie, la conclusion d'un tribunal, l'inférence de l'auteur, la position normative, et un sixième état, le point non établi.
 
-::etat:: **Troisième — la datation obligatoire des données évolutives** [S2], avec proscription expresse de « actuellement », « aujourd'hui » et « à ce jour » sans date. **Le corpus date ses vérifications de source et ne date pas ses données.**
+::etat:: L6.C03 instruit cette règle et l'énonce en son § 1. L6.C03 est un brouillon non citable, dont les sources ne sont pas requalifiées.
 
-::hypothese:: **Le corpus ne présente pas cela comme une supériorité générale de l'appareil du Livre 6, et il dit pourquoi.** Ces trois règles sont **nées d'un domaine où l'erreur est immédiatement sanctionnée** — un montant d'arbitrage faux, une juridiction mal nommée, une décision inexistante se vérifient en une recherche. **La contrainte a produit la méthode.** Sur les matières où la vérification est plus coûteuse, le corpus n'a pas subi la même pression — **ce qui explique le retard sans l'excuser.**
+::etat:: La convention du corpus n'a que trois marques de régime, `::etat::`, `::hypothese::` et `::norme::` (§ 8).
 
-## 3. Ce que ce livre doit au reste du corpus
+::norme:: Règle de méthode de l'auteur pour le Livre 6 : dater toute donnée qui change, et ne pas écrire *actuellement*, *aujourd'hui* ou *à ce jour* sans date.
 
-::etat:: **Il porte ce que L1.C18 § 2 ne fait qu'énoncer** [S4] : Équateur 2008, Atrato 2016, Te Awa Tupua 2017 — **les trois cas où une entité naturelle a reçu une personnalité juridique.** Le registre du corpus le dit expressément : « C'est le livre qui doit établir ce que L1.C18 ne fait qu'énoncer. »
+::etat:: La convention du corpus date ses sources, non ses données : la date de vérification n'existe que sur une source ouverte (§ 4, table des champs ; § 12), et aucun de ses paragraphes n'oblige à dater une donnée qui change.
 
-::etat:: **Et il a contracté une dette le jour même** [S4]. L20.C16 a versé le régime du patrimoine commun de l'humanité et déclaré que **c'est le corpus juridique le plus proche de la sanctuarisation** que L7.C13 pose en condition sine qua non de l'émission ; L20.C17 tient, repris sur pièce, que **la clause a tenu dans sa lettre, et que le régime qui mettait le principe en œuvre a été réécrit douze ans plus tard** ; ce paragraphe écrivait que la sanctuarisation n'avait pas tenu douze ans.
+::norme:: Règle de méthode de l'auteur pour le Livre 6 : ne pas appeler *privé* un tribunal arbitral, ne pas présenter ses arbitres comme exclusivement des avocats d'affaires, et ne pas lui prêter le pouvoir d'annuler une loi, mais dire qu'il constate une responsabilité et impose une indemnisation.
 
-::hypothese:: **La question que le Livre 20 laisse au Livre 6 est donc précise, et elle n'est pas celle qu'on attendrait.** Non pas « comment sanctuariser un commun », à quoi le droit de la mer répond ; mais **« quelle technique juridique résiste à un rapport de forces qui change »** — puisque celle du droit de la mer n'a pas résisté. **La personnalité juridique d'une entité naturelle est l'autre technique disponible**, et le corpus ne sait rien d'elle.
+::hypothese:: Le corpus y lit l'exigence de ne pas flatter, appliquée à l'adversaire plutôt qu'à soi.
 
-## 4. Ce que ce livre n'aura pas à faire
+::hypothese:: Ces règles seraient nées d'un domaine où l'erreur se vérifie vite : un montant d'arbitrage faux, une juridiction mal nommée, une décision inexistante se vérifient en une recherche. La contrainte aurait produit la méthode.
 
-::hypothese:: **Il n'aura pas à défricher.** Onze épisodes sont des versions maîtresses sans réserve, adossées à un registre de données partagées. **Le corpus n'ajoutera pas de la matière : il ajoutera de l'épreuve** — c'est-à-dire la confrontation à ce que les autres livres ont établi, et l'inverse.
+## 3. Ce que ce livre doit au premier livre
 
-::hypothese:: **Et il n'aura pas à corriger la qualification institutionnelle**, que le protocole traite avec un soin que le corpus doit relever. Le protocole **interdit** d'appeler « privé » un tribunal arbitral, rappelle que les arbitres ne sont pas exclusivement des avocats d'affaires, et pose qu'un tribunal arbitral **n'annule pas** une loi mais constate une responsabilité et impose une indemnisation [S2]. **C'est la règle de ne jamais flatter, appliquée à l'adversaire plutôt qu'à soi** — et le corpus enregistre qu'elle est ici mieux tenue que chez lui.
+::etat:: L1.C18 § 1 énonce, à l'indicatif, trois cas où une entité naturelle est reconnue sujet de droits en droit interne. La Constitution de l'Équateur, en 2008, fait de la nature un sujet de droits. La Cour constitutionnelle de Colombie a déclaré en 2016 le fleuve Atrato, son bassin et ses affluents sujets de droits. La Nouvelle-Zélande a fait de Te Awa Tupua, le fleuve Whanganui, une personne juridique en 2017. Un seul des trois cas est une personne juridique, le troisième ; les deux autres sont des sujets de droits. Les trois pièces sont portées là-bas et y sont ouvertes : la Constitution de l'Équateur en S4, vérifiée le 2026-09-19 ; la sentencia T-622/16 de la Cour constitutionnelle de Colombie en S3, et la loi Te Awa Tupua de 2017 en S2, vérifiées le 2026-09-16. L1.C18 est vérifié et citable.
 
-## 5. Ce que le corpus ne tient pas
+::etat:: L6.C11 § 3 lit deux de ces cas sur leurs textes. La loi Te Awa Tupua de 2017 fait du fleuve une personne juridique, en son article 14(1) ; la pièce y est en S12. La sentencia T-622 de 2016 reconnaît l'Atrato comme entité sujet de droits ; la pièce y est en S13, et le décret 1148 de 2017, qui désigne le représentant légal des droits du fleuve, en S14. Les trois pièces y sont ouvertes, vérifiées le 2026-11-26 ; la loi et la sentencia n'y sont lues qu'en partie, ce que L6.C11 dit lui-même. L6.C11 est un brouillon non citable. La Constitution de l'Équateur n'y est pas lue.
 
-::etat:: **Le registre transversal n'est pas ouvert.** Il vit dans un document Google et non dans un fichier lisible directement. **Le corpus tient le protocole qui y renvoie et non le registre lui-même** — alors qu'il porte, pour chaque donnée partagée, « une formulation canonique, une date de validité, une qualification et un déclencheur de révision ». **C'est l'appareil de vérité du livre, et c'est la première acquisition.**
+::etat:: L1.C18 laisse au Livre 6 la comparaison des résultats d'exécution des deux tutelles, néo-zélandaise et colombienne. Au § 2, il tient en hypothèse que deux conditions matérielles décident de l'effet d'une tutelle, la codification législative des intérêts de l'entité et une dotation financière propre et sanctuarisée, et il dit que le détail et les sources de cette comparaison sont au Livre 6. Au § 7, il écrit, à l'indicatif, que le corpus tient au Livre 6 que l'un des deux dispositifs a produit ses effets et l'autre non, résultat porté par renvoi et non vérifié dans L1.C18.
 
-::etat:: **Un bloc de dix-neuf entrées attend d'y être collé**, selon l'état de clôture. Le corpus travaillerait donc, même après ouverture, **sur une version incomplète.**
+::etat:: Ce que le Livre 6 doit à L1.C18 est donc cette comparaison. Ce chapitre la nomme et ne la fait pas.
 
-::etat:: **Dix épisodes sur vingt et un ne sont pas au même niveau de validation** — sept non validés, trois sous réserve nommée. **Le corpus ne les traitera pas au même titre que les onze autres**, et il le signalera chapitre par chapitre.
+## 4. Ce que ce livre doit au Livre 20
 
-## 6. Portée
+::etat:: L20.C16 a versé au corpus le régime du patrimoine commun de l'humanité, tel que la convention des Nations unies sur le droit de la mer de 1982 le déclare, en son article 136, pour la Zone et ses ressources (§ 1) ; son entrée S2 cite le préambule de la convention, qui vise les fonds marins au-delà des limites de la juridiction nationale. Ses sources y sont à requalifier, et L20.C16 est un brouillon non citable.
 
-::etat:: **La matière arrive avec son propre appareil de contrôle** — protocole en sixième version, registre de quarante-six entrées, checklists en fichiers séparés, état de clôture. **Situation inédite dans le corpus.**
+::etat:: L20.C01, en brouillon, tient le régime des biens communs de l'humanité, qu'il étend à la haute mer, à la Zone, à l'espace extra-atmosphérique et à l'Antarctique, pour le corpus juridique existant le plus proche de la sanctuarisation que le livre de l'auteur appelle. Il le dit en tête, dans ses vérifications en attente, où ce régime est déclaré non instruit ; ses sources y sont à requalifier.
 
-::hypothese:: **Cet appareil est plus strict que celui du corpus sur trois points** : la discipline des cinq données, six états de certitude au lieu de trois, et la datation obligatoire des données évolutives. **Le corpus a donc ici à adopter plutôt qu'à imposer** — et il note que ces règles sont nées d'un domaine où l'erreur se vérifie vite, **ce qui explique son propre retard sans l'excuser.**
+::etat:: L7.C13 § 2 rapporte que le livre de l'auteur fait de la sanctuarisation juridique la condition sine qua non de l'émergence des unités du dispositif ; la pièce y est à requalifier, et L7.C13 est un brouillon non citable. L20.C17 rapporte la même phrase en ouverture, sur le livre de l'auteur ouvert là-bas en S8, vérifié le 2026-10-01.
 
-::etat:: **Le livre porte ce que L1.C18 § 2 énonce sans l'établir** — les trois cas de personnalité juridique d'une entité naturelle.
+::etat:: L20.C17 § 5 lit en entier l'accord de 1994 relatif à l'application de la partie XI de la convention. L'accord réaffirme et maintient le principe du patrimoine commun de l'humanité ; il écarte des dispositions du régime, dont le transfert obligatoire de technologie, la politique de production et les termes financiers. Ces faits y sont à l'indicatif, sur l'accord et la convention ouverts en S6 et S5, vérifiés le 2026-10-01. L20.C17 est un brouillon non citable.
 
-::hypothese:: **Et le Livre 20 lui laisse une question précise** : non pas comment sanctuariser un commun, mais **quelle technique juridique résiste à un rapport de forces qui change** — celle du droit de la mer n'ayant pas résisté douze ans.
+::hypothese:: L20.C17 en tire, en hypothèse, que la clause de 1982, l'article 311 § 6 de la convention, qui exclut tout amendement au principe (L20.C17 § 1), a tenu dans sa lettre, et que le régime qui mettait le principe en œuvre a été réécrit douze ans plus tard. Ce chapitre le rapporte comme l'hypothèse de L20.C17.
 
-::etat:: **Le registre transversal, appareil de vérité du livre, n'est pas ouvert. Première acquisition.**
+## 5. La question que ce livre reprend
+
+::hypothese:: La question que le Livre 20 laisse au Livre 6 n'est donc pas de savoir comment soustraire les communs à l'appropriation, à quoi le droit de la mer répond. Elle est de savoir quelle technique juridique résiste à un rapport de forces qui change, puisque, si l'hypothèse de L20.C17 est exacte, protéger un principe n'a pas protégé le régime qui le mettait en œuvre.
+
+::etat:: L6.C12 reprend cette question, qu'il rapporte à L20.C17, et y répond par la clause de survie du traité sur la Charte de l'énergie, qui protège l'investissement au-delà du retrait d'un État. Ses sources y sont ouvertes, et L6.C12 est un brouillon non citable.
+
+::hypothese:: La personnalité juridique d'une entité naturelle, et plus largement sa reconnaissance comme sujet de droits, est une autre technique disponible. L1.C18 § 1 et L6.C11 § 3 la lisent sur ses textes.
+
+## 6. Ce que ce chapitre n'établit pas
+
+::etat:: Le chapitre ne déclare aucune source primaire. Les règles de méthode qu'il pose sont celles de l'auteur ; deux d'entre elles sont instruites par L6.C02 et L6.C03, brouillons dont les sources ne sont pas requalifiées, et les deux autres ne le sont par aucun des chapitres qu'il nomme.
+
+::etat:: Il ne fait pas la comparaison des résultats d'exécution des deux tutelles que L1.C18 laisse au Livre 6, et il ne refait pas l'hypothèse de L20.C17 sur la clause de 1982.
+
+## 7. Portée
+
+::norme:: Règles de méthode de l'auteur pour le Livre 6 : distinguer les cinq données d'une affaire contentieuse, distinguer six états de certitude, dater toute donnée qui change, qualifier exactement un tribunal arbitral.
+
+::etat:: La convention du corpus n'a pas de règle des cinq données, n'a que trois marques de régime et ne date pas les données.
+
+::etat:: Le livre doit à L1.C18 la comparaison des résultats d'exécution des tutelles néo-zélandaise et colombienne, à propos de trois cas où une entité naturelle est reconnue sujet de droits, dont un seul en personne juridique.
+
+::hypothese:: Le Livre 20 lui laisse une question : non pas comment soustraire les communs à l'appropriation, mais quelle technique juridique résiste à un rapport de forces qui change, la clause de 1982 ayant tenu dans sa lettre, selon l'hypothèse de L20.C17, et le régime qui mettait le principe en œuvre ayant été réécrit douze ans plus tard. L6.C12 la reprend.
