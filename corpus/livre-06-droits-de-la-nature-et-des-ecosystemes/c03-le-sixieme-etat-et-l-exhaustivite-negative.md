@@ -6,102 +6,91 @@ langue: fr
 licence: CC-BY-SA-4.0
 type: chapitre
 statut: brouillon
-revision_de_fond: 2026-09-06
+revision_de_fond: 2026-11-28
 autorite: preparatoire
 citable: false
 regime: conception
-sources_primaires:
-  - ref: S1
-    nature: theorie
-    reference: "*L6 — PROTOCOLE ÉDITORIAL v06*, règle **B.1, « Séparation des niveaux de certitude »** — cinq catégories : **1. fait documenté** (source primaire vérifiable) ; **2. allégation d'une partie**, « toujours attribuée » ; **3. conclusion d'un tribunal**, avec référence à la sentence ; **4. inférence de l'auteur**, qui « doit être signalé comme tel » ; **5. position normative de Debunk'Onomy**, « clairement identifié comme prise de position, non comme conclusion juridique ou factuelle ». Et la règle qui les relie : « **ne jamais restituer une interprétation politique ou une inférence comme s'il s'agissait d'un fait documenté ou d'une décision juridictionnelle** ». **OUVERT le 2026-09-06**"
-    etat_lecture: a_requalifier
-  - ref: S2
-    nature: theorie
-    reference: "Même source, **« Sixième état : le point non établi »** — « Lorsqu'une recherche n'aboutit pas, l'écrire — « **non établi par les sources consultées au [date]** » — et **NE JAMAIS LE CONVERTIR EN NÉGATION**. « Il n'existe pas » et « aucune décision n'a été rendue » **EXIGENT UNE SOURCE QUI L'ATTESTE**. **UNE ÉTUDE ASSOCIATIVE OU UN ARTICLE GÉNÉRAL NE PEUVENT JAMAIS ÉTABLIR UNE EXHAUSTIVITÉ NÉGATIVE.** »"
-    etat_lecture: a_requalifier
-  - ref: S3
-    nature: theorie
-    reference: "Même source, règle **B.2, « Données évolutives toujours datées »** — formulations acceptables : « selon la source consultée au [date] », « en [mois année], le [nom de l'institution] recensait », « au [date], [X] États sont parties ». **Formulations À PROSCRIRE : « actuellement », « aujourd'hui », « à ce jour » (sans date).** Et règle **B.3** : les généralisations totalisantes — « systématiquement », « toujours », « aucun » — « sont à remplacer par des formulations qualifiées »"
-    etat_lecture: a_requalifier
-  - ref: S4
-    nature: theorie
-    reference: "Le corpus lui-même — `corpus/convention.md` § 8, qui n'admet que TROIS balises de régime : `::etat::`, `::hypothese::`, `::norme::`, et interdit d'enrichir la liste sans migration scriptée ; et L2.C09, où le corpus a vérifié une absence par RECHERCHE SUR TEXTE INTÉGRAL — « planetary boundar », « biodiversity » et « Rockström » figurant zéro fois dans un document de 140 685 caractères — sans qu'aucune règle du corpus n'exige cette méthode"
-    etat_lecture: a_requalifier
+sources_primaires: []
 verifications_en_attente:
-  - "LE CORPUS N'A PAS INVENTORIÉ SES PROPRES ÉNONCÉS NÉGATIFS. Ce chapitre
-     établit qu'une règle lui manque ; **il n'a pas relevé combien de fois il
-     l'a enfreinte.** Un balayage des cent soixante-deux chapitres sur les
-     formules « aucun », « n'existe pas », « nulle part » est faisable et
-     n'est pas fait."
-  - "L'AJOUT D'UNE QUATRIÈME BALISE DE RÉGIME SUPPOSERAIT UNE MIGRATION
-     SCRIPTÉE sur tout le corpus (convention § 8 et § 15). **Ce chapitre ne
-     la propose pas** : il montre que le besoin existe et laisse l'arbitrage
-     à l'auteur."
-  - "LA DISTINCTION ENTRE INFÉRENCE ET POSITION NORMATIVE N'EST PAS TENUE PAR
-     LE CORPUS. Sa balise `::hypothese::` couvre les deux ; sa balise
-     `::norme::` sert à autre chose. **Deux des cinq catégories du protocole
-     sont donc confondues dans une seule des trois du corpus.**"
-resume: "Ce chapitre verse la seconde règle que le protocole du Livre 6 possède et que le corpus n'a pas, et il établit qu'elle porte sur le point le plus fragile de tout travail de vérification. Le protocole distingue cinq niveaux de certitude là où la convention du corpus n'en porte que trois, et il ajoute un sixième état qui n'a pas d'équivalent, celui du point non établi. La règle attachée à ce sixième état est la plus forte du document : une recherche qui n'aboutit pas s'écrit comme non établie par les sources consultées à une date, et ne se convertit jamais en négation, parce qu'affirmer qu'une chose n'existe pas ou qu'aucune décision n'a été rendue exige une source qui l'atteste. Le chapitre montre que cette règle vise une asymétrie logique réelle, un énoncé positif se prouvant par un cas quand un énoncé négatif exige un balayage du domaine entier, et que le corpus a produit des énoncés négatifs sans posséder la règle qui les encadre. Il relève cependant que le corpus a appliqué spontanément la bonne méthode dans un cas récent, en vérifiant une absence par recherche sur texte intégral d'un document délimité, ce qui est précisément la seule situation où une exhaustivité négative est établissable. Il conclut que la distinction entre inférence et position normative, que le protocole tient et que le corpus confond, est celle dont l'absence coûte le plus cher."
-concepts: [regle_contre_discretion, robustesse, architecture_invisible, indicateur_de_progres]
-renvois: [L2.C09, L6.C01, L6.C02, L6.C04, L8.C01, L20.C01]
+  - "Aucune source : le chapitre ne déclare aucune source primaire. Les deux règles qu'il énonce sont celles de l'auteur, non une pièce lue ; ce qu'il dit du reste du corpus tient aux chapitres et aux fichiers qu'il nomme, dans l'état de lecture qu'ils ont là-bas."
+  - "Ce chapitre ne relève pas les énoncés négatifs du corpus. Le chapitre ne dit pas combien d'entre eux portent sur le propre dossier du corpus, sur le texte d'une pièce ou sur le monde. Un balayage des chapitres est faisable ; il n'est pas fait ici."
+  - "Ce chapitre ne relève pas l'usage des marques de régime. Le chapitre ne dit pas sous quelle marque les chapitres rangent un jugement de valeur qui ne prescrit rien, ni s'ils rangent l'inférence et la position normative sous la même marque."
+  - "La convention du corpus n'a ni marque ni règle pour le point non établi, et son § 8 exclut une quatrième marque. Toute modification de la convention engage une migration scriptée des chapitres déjà écrits et l'incrément de sa révision (préambule). Le chapitre verse les règles ; il ne les impose pas."
+resume: "Ce chapitre énonce deux règles de méthode de l'auteur pour le Livre 6 : distinguer six états de certitude, le fait documenté, l'allégation d'une partie, la conclusion d'un tribunal, l'inférence de l'auteur, la position normative et un sixième état, le point non établi ; et ne jamais convertir un point non établi en négation, écrire qu'une chose n'existe pas exigeant une source qui l'atteste. Il tient en hypothèse que la règle vise une asymétrie, un énoncé positif se prouvant par un cas quand un énoncé négatif exige un balayage du domaine entier, et qu'une négation n'est recevable que si son domaine est borné et énoncé, comme dans la recherche sur le texte intégral d'un rapport que L2.C09 § 1 rapporte. Il constate que la convention du corpus n'a ni marque ni règle pour le point non établi, et que son § 8 donne pour exemple de la marque `::norme::` une proposition politique sans dire où se range un jugement de valeur qui ne prescrit rien ; il garde en hypothèse qu'un verdict porte sur des inférences, jamais sur des positions normatives. Il ne déclare aucune source et ne relève ni les énoncés négatifs du corpus ni l'usage de ses marques."
+concepts: []
+renvois: [L2.C06, L2.C09, L6.C01, L6.C02, L19.C08, L20.C04]
 ---
 
 # Le sixième état et l'exhaustivité négative
 
-::etat:: Ce chapitre verse **la seconde règle que le protocole du Livre 6 possède et que le corpus n'a pas.** Elle porte sur **le point le plus fragile de tout travail de vérification.**
+::etat:: Ce chapitre énonce deux règles de méthode de l'auteur pour le Livre 6 : distinguer six états de certitude, dont un sixième, le point non établi, et ne jamais convertir un point non établi en négation. Il tient en hypothèse que la seconde vise une asymétrie entre énoncés positifs et négatifs, et qu'une négation n'est recevable que si son domaine est borné et énoncé. Il compare ces règles à la convention du corpus par des constats faits sur ce fichier. Il ne déclare aucune source : ce qu'il établit tient aux règles, au raisonnement et aux renvois.
 
 ## 1. Cinq niveaux, et un sixième état
 
-::etat:: **Cinq catégories** [S1] : **fait documenté**, établi par une source primaire vérifiable ; **allégation d'une partie**, « toujours attribuée » ; **conclusion d'un tribunal**, avec référence à la sentence ; **inférence de l'auteur**, qui « doit être signalé comme tel » ; **position normative**, « clairement identifiée comme prise de position, non comme conclusion juridique ou factuelle ».
+::norme:: Règle de méthode de l'auteur pour le Livre 6 : distinguer six états de certitude : le fait documenté, à établir par une source primaire vérifiable ; l'allégation d'une partie, à toujours attribuer ; la conclusion d'un tribunal, à donner avec la référence de la sentence ; l'inférence de l'auteur, à signaler comme telle ; la position normative, à identifier clairement comme prise de position, non comme conclusion juridique ou factuelle ; et un sixième état, le point non établi.
 
-::etat:: **Et un sixième état, qui n'a d'équivalent nulle part dans le corpus** [S2] : « Lorsqu'une recherche n'aboutit pas, l'écrire — **"non établi par les sources consultées au [date]"** — et **ne jamais le convertir en négation.** *Il n'existe pas* et *aucune décision n'a été rendue* **exigent une source qui l'atteste. Une étude associative ou un article général ne peuvent jamais établir une exhaustivité négative.** »
+::norme:: Règle de méthode de l'auteur pour le Livre 6, attachée au sixième état : lorsqu'une recherche n'aboutit pas, écrire que le point n'est pas établi par les sources consultées à telle date, et ne jamais convertir un point non établi en négation. Pour écrire qu'une chose n'existe pas, ou qu'aucune décision n'a été rendue, exiger une source qui l'atteste. Ne jamais tenir une étude associative ou un article général pour la preuve d'une exhaustivité négative.
+
+::etat:: L6.C01 § 2 pose la même règle des six états de certitude pour le Livre 6 et renvoie, pour son énoncé, à ce § 1. L6.C01 est un brouillon non citable, qui ne déclare aucune source.
+
+::etat:: La convention du corpus, `corpus/convention.md`, n'a ni marque ni règle pour le point non établi. Ses trois marques de régime sont `::etat::`, `::hypothese::` et `::norme::` (§ 8), et elle tient, dans le champ `verifications_en_attente` de l'en-tête, ce qui reste à vérifier (§ 4).
 
 ## 2. La règle vise une asymétrie logique réelle
 
-::hypothese:: **Un énoncé positif se prouve par un cas ; un énoncé négatif exige un balayage du domaine entier.** « Une juridiction a reconnu la personnalité d'un fleuve » se démontre en produisant la décision. « Aucune juridiction ne l'a fait » suppose d'avoir regardé **toutes** les juridictions — ce que nul ne fait.
+::hypothese:: Un énoncé positif se prouve par un cas ; un énoncé négatif exige un balayage du domaine entier. Qu'une juridiction a reconnu la personnalité d'un fleuve se démontre en produisant la décision. Écrire *aucune juridiction ne l'a fait* suppose d'avoir regardé toutes les juridictions.
 
-::hypothese:: **Le corpus enregistre que c'est exactement le point où une recherche assistée échoue le plus discrètement.** Une recherche qui ne trouve rien **produit un silence**, et le silence se laisse lire comme une absence. **Convertir « je n'ai pas trouvé » en « il n'y a pas » est l'erreur la moins coûteuse à commettre et la plus difficile à repérer**, puisqu'elle ne laisse aucune trace : il n'y a pas de source fausse à démasquer, il n'y a **rien.**
+::hypothese:: C'est le point où une recherche assistée échouerait le plus discrètement. Une recherche qui ne trouve rien produit un silence, et le silence se laisse lire comme une absence. Convertir *je n'ai pas trouvé* en *il n'y a pas* est l'erreur la moins coûteuse à commettre et la plus difficile à repérer, puisqu'elle ne laisse aucune trace : il n'y a pas de source fausse à démasquer, il n'y a rien.
 
-::etat:: **Le protocole en donne la formulation opérante, et elle est datée** : « non établi par les sources consultées au [date] ». **Le point n'est pas nié, il est situé dans le temps et dans le périmètre de la recherche.**
+::hypothese:: La formulation que la règle prescrit est datée. Le point n'est pas nié : il est situé dans le temps et dans le périmètre de la recherche.
 
-## 3. Le corpus a produit des énoncés négatifs sans posséder la règle
+## 3. Des énoncés négatifs dans le corpus, sans règle dans sa convention
 
-::etat:: **Il en produit constamment** : « aucune source du dossier ne porte », « le corpus ne détient aucun », « il n'existe pas d'études référencées », « zéro occurrence ».
+::hypothese:: Une distinction sauve une partie des énoncés négatifs. Écrire que le corpus ne détient pas X est un énoncé sur son propre dossier, dont il connaît le contenu : c'est vérifiable et légitime. Écrire que X n'existe pas est un énoncé sur le monde : c'est ce que la règle interdit sans une source qui l'atteste.
 
-::hypothese:: **Le corpus distingue, et la distinction sauve une partie de ces énoncés.** Dire **« le corpus ne détient pas X »** est un énoncé sur **son propre dossier**, dont il connaît le contenu : c'est vérifiable et légitime. Dire **« X n'existe pas »** est un énoncé sur **le monde** : c'est ce que la règle interdit.
+::etat:: Le corpus écrit des négations sur son propre dossier. L20.C04 § 4 écrit, à l'indicatif, que le corpus ne détient aucun des rapports de convergence qui ont contrôlé l'exécution de la clause de compatibilité qu'il étudie. L20.C04 est un brouillon non citable, dont les sources sont à requalifier.
 
-::hypothese:: **La plupart des négations du corpus sont de la première espèce, et c'est heureux.** Mais il en a produit de la seconde — **et sans le marquer.** L2.C06 a repris de la note Veblen l'affirmation qu'« il n'existe pas d'études référencées sur cet impact » : **c'est une exhaustivité négative reprise d'un tiers**, et le corpus l'a versée comme un étai sans dire qu'elle en était une.
+::etat:: Il en écrit aussi sur le texte d'une pièce. L19.C08, dans son entrée S3, rapporte une recherche sur le texte entier du *System of National Accounts 2008*, pièce ouverte là-bas le 2026-10-01 : des termes cherchés n'y figurent pas, un contrôle positif y retrouve d'autres chaînes, et l'entrée précise qu'une recherche n'établit l'absence que des chaînes cherchées. L19.C08 est un brouillon non citable, dont les sources sont ouvertes.
 
-## 4. Le corpus a pourtant appliqué la bonne méthode, une fois, sans la règle
+::etat:: Il en a versé une, reprise d'un tiers et portant sur le monde, puis l'a marquée et a retiré ce qu'il en avait tiré. L2.C06 § 2 rapporte qu'une note de l'Institut Veblen de juin 2022, ouverte là-bas en S1 et vérifiée le 2026-09-30, constate qu'un outil de recension de la Banque des règlements internationaux ne propose pas une rubrique, et en tire qu'il n'existe pas d'études référencées sur l'effet des règles prudentielles sur l'actif des banques. L2.C06 écrit qu'il avait tenu cette absence pour un appui plus fort que le premier, qu'elle est une exhaustivité négative reprise d'un tiers, que la note ne dit pas avoir cherché hors de cet outil, et il retire ce qu'il en avait tiré, en renvoyant à ce § 3, qui avait relevé le défaut. L2.C06 est un brouillon non citable, dont les sources sont ouvertes.
 
-::etat:: **L2.C09** [S4]. Le Cahier Technique affirmait une absence dans un rapport de banque centrale. **Le corpus a téléchargé le document et cherché sur son texte intégral** — « planetary boundar », « biodiversity » et « Rockström », zéro occurrence dans 140 685 caractères.
+::etat:: Ce chapitre ne mesure pas la part de chacune de ces espèces dans le corpus.
 
-::hypothese:: **C'est la seule situation où une exhaustivité négative est établissable, et il vaut de dire pourquoi : le domaine est borné.** Un document est fini ; on peut le parcourir entièrement. **La négation ne porte pas sur le monde mais sur un objet délimité**, et elle devient un fait documenté au sens de la première catégorie.
+## 4. Le corpus a pourtant appliqué la bonne méthode, sans la règle
 
-::hypothese:: **Le corpus en tire la règle transposable, qui manque au protocole lui-même sous cette forme : une négation n'est recevable que si son domaine est borné et énoncé.** « Aucune occurrence dans ce document » est recevable. « Aucune étude sur ce sujet » ne l'est pas — sauf à nommer la base parcourue, la requête employée et la date, **ce qui revient à borner le domaine.**
+::etat:: L2.C09 § 1 écrit, à l'indicatif, qu'un rapport de banque centrale a été téléchargé et cherché sur son texte intégral, et que les chaînes *planetary boundar*, *biodiversity* et *Rockström* n'y figurent pas. Le rapport est le *Financial Stability Report* d'octobre 2023 du Board of Governors of the Federal Reserve System, porté là-bas en S5 ; selon cette entrée, le téléchargement et la recherche datent du 2026-09-06. S5 y est ouverte, avec une date de vérification du 2026-09-19, et L2.C09 est un brouillon non citable. La convention du corpus n'a pas de règle qui demande cette méthode.
 
-::etat:: **Le corpus n'a pas inventorié ses propres énoncés négatifs.** Un balayage des cent soixante-deux chapitres sur « aucun », « n'existe pas », « nulle part » **est faisable et n'est pas fait.**
+::hypothese:: Une exhaustivité négative devient établissable quand son domaine est borné. Un document est fini ; on peut le parcourir entièrement. La négation porte alors sur un objet délimité, et non sur le monde, et elle devient un fait documenté au sens du premier des six états.
 
-## 5. Ce que le corpus confond et que le protocole distingue
+::hypothese:: Ce chapitre en tire une règle transposable : une négation n'est recevable que si son domaine est borné et énoncé. *Aucune occurrence dans ce document* est recevable. *Aucune étude sur ce sujet* ne l'est pas, sauf à nommer la base parcourue, la requête employée et la date, ce qui revient à borner le domaine.
 
-::etat:: **La convention n'admet que trois balises** [S4] : `::etat::`, `::hypothese::`, `::norme::`.
+::etat:: Ce chapitre n'a pas relevé les énoncés négatifs du corpus. Un balayage des chapitres sur les formules négatives est faisable ; il n'est pas fait ici.
 
-::hypothese:: **Deux des cinq catégories du protocole tombent dans une seule des trois du corpus.** L'**inférence de l'auteur** — un raisonnement qui va au-delà des faits — et la **position normative** — un jugement de valeur ou une proposition politique — **sont toutes deux portées par `::hypothese::`.**
+## 5. L'inférence, la position normative et les marques de la convention
 
-::hypothese:: **C'est l'absence qui coûte le plus cher, et pour une raison précise.** Une inférence **se réfute par les faits** : on montre que le raisonnement ne tient pas. Une position normative **ne se réfute pas** : on la partage ou non. **Les mêler sous une seule balise expose la seconde à une réfutation qui ne l'atteint pas, et soustrait la première à une réfutation qui la viserait.**
+::etat:: La convention du corpus admet trois marques de régime, `::etat::`, `::hypothese::` et `::norme::`, pas davantage, et demande de ne pas enrichir cette liste (§ 8).
 
-::hypothese:: **Et cela touche directement l'objet du corpus.** Il existe pour éprouver une thèse et publier un verdict qui peut être négatif. **Un verdict porte sur des inférences, jamais sur des positions normatives** — et s'il ne les distingue pas, **il ne sait pas sur quoi il statue.**
+::etat:: Le § 8 de la convention ne définit ses trois marques que par un exemple chacune. L'exemple de `::hypothese::` est une inférence sur un dispositif ; celui de `::norme::` est une proposition politique, qui prescrit. Aucun des trois exemples n'est un jugement de valeur qui ne prescrit rien, et la convention ne dit pas où se range un tel jugement. Le Livre 6 se sert aussi de `::norme::` pour les règles de méthode de l'auteur, par exemple en L6.C01 § 2, en L6.C02 § 1 et au § 1 de ce chapitre. L6.C02 est un brouillon non citable, qui ne déclare aucune source.
 
-::etat:: **Ce chapitre ne propose pas d'ajouter une balise**, ce qui supposerait une migration scriptée sur tout le corpus. **Il montre que le besoin existe et laisse l'arbitrage à l'auteur.**
+::hypothese:: L'inférence de l'auteur et la position normative sont deux catégories distinctes. L'inférence est un raisonnement qui va au-delà des faits ; la position normative est un jugement de valeur ou une proposition politique. Les règles de méthode de l'auteur ne sont pas des positions normatives au sens du § 1 de ce chapitre.
+
+::hypothese:: La distinction compte, pour une raison précise. Une inférence se réfute par les faits : on montre que le raisonnement ne tient pas. Une position normative ne se réfute pas : on la partage ou non. Ranger les deux sous une seule marque exposerait la position normative à une réfutation qui ne l'atteint pas, et soustrairait l'inférence à une réfutation qui la viserait.
+
+::hypothese:: Et cela touche l'objet du corpus, qui existe pour éprouver une thèse et publier un verdict qui peut être négatif. Ce chapitre en tire qu'un verdict porte sur des inférences, jamais sur des positions normatives : s'il ne les distingue pas, il ne sait pas sur quoi il statue.
+
+::hypothese:: C'est au jugement de valeur qui ne prescrit rien que la distinction peut se perdre : la convention ne lui donne pas de place, et il peut tomber sous `::hypothese::`, à côté des inférences. Ce chapitre n'a pas relevé que cela arrive.
+
+::etat:: Ce chapitre ne propose pas d'ajouter une marque. Le § 8 de la convention l'exclut, et toute modification de la convention engage une migration scriptée des chapitres déjà écrits et l'incrément de sa révision (préambule). L'arbitrage reste à l'auteur.
 
 ## 6. Portée
 
-::etat:: **Cinq niveaux de certitude, et un sixième état — le point non établi — qui n'a aucun équivalent dans le corpus.**
+::norme:: Règle de méthode de l'auteur pour le Livre 6 : distinguer six états de certitude, cinq niveaux et un sixième état, le point non établi ; ne jamais convertir un point non établi en négation.
 
-::hypothese:: **La règle vise une asymétrie réelle** : un énoncé positif se prouve par un cas, un énoncé négatif exige un balayage du domaine. **Convertir « je n'ai pas trouvé » en « il n'y a pas » est l'erreur la moins coûteuse à commettre et la plus difficile à repérer, parce qu'elle ne laisse aucune trace.**
+::etat:: La convention du corpus n'a ni marque ni règle pour le point non établi. Son § 8 donne pour exemple de `::norme::` une proposition politique et ne dit pas où se range un jugement de valeur qui ne prescrit rien.
 
-::hypothese:: **La plupart des négations du corpus portent sur son propre dossier et sont légitimes ; il en a produit d'autres sur le monde, sans les marquer** — dont une reprise d'un tiers et versée comme étai.
+::hypothese:: La règle vise une asymétrie réelle : un énoncé positif se prouve par un cas, un énoncé négatif exige un balayage du domaine. Convertir *je n'ai pas trouvé* en *il n'y a pas* est l'erreur la moins coûteuse à commettre et la plus difficile à repérer, parce qu'elle ne laisse aucune trace.
 
-::hypothese:: **Il a pourtant appliqué la bonne méthode une fois, sans la règle** : vérifier une absence par recherche sur le texte intégral d'un document borné. **D'où la formulation transposable : une négation n'est recevable que si son domaine est borné et énoncé.**
+::etat:: Le corpus écrit des négations sur son propre dossier, comme L20.C04 § 4, et sur le texte d'une pièce, comme L19.C08 dans son entrée S3 ; il en a repris une d'un tiers sur le monde, et L2.C06 § 2 a retiré ce qu'il en avait tiré.
 
-::hypothese:: **Et le corpus confond deux catégories que le protocole distingue** — l'inférence et la position normative. **Un verdict porte sur des inférences, jamais sur des positions normatives : sans la distinction, il ne sait pas sur quoi il statue.**
+::hypothese:: L2.C09 § 1 montre la méthode qui borne le domaine : vérifier une absence par recherche sur le texte intégral d'un document. D'où la formulation transposable : une négation n'est recevable que si son domaine est borné et énoncé.
+
+::hypothese:: L'inférence et la position normative sont deux catégories distinctes. Un verdict porte sur des inférences, jamais sur des positions normatives : sans la distinction, il ne sait pas sur quoi il statue.
